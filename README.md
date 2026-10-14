@@ -1,31 +1,47 @@
 # InstrumentFX — Guitar, Bass and Vocal Effects Comparison
 
-**Canonical repository: `kokizzu/instrumentfx`.**
+**67 partial model records · 9 comparison pages · checked 2026-10-14**
 
-The electronic-drum project `kokizzu/edrums` is a formatting reference only. All instrument-effects research, comparisons, checkpoints and future findings commits belong **here**. All 13 original effects files were transferred; the user removed the misplaced old copies, and cleanup was verified. See [the transfer/cleanup audit](effects/MIGRATION.md).
+**Working repository: `kokizzu/instrumentfx`.** The separate `edrums` project was a formatting reference, not the effects-research destination. Original research was preserved here and the user removed the misplaced copies; [transfer/cleanup audit](effects/MIGRATION.md).
 
-## Start here
+## Shopee Indonesia first
 
-- [Comparison index](effects/README.md): categories, sizes and expression groupings.
-- [Updated compact comparison](effects/guitar-compact.md): eight display rows, IDR comparison prices and linked per-model findings.
-- [Resume checkpoint](effects/RESUME.md): exact next task and unresolved fields.
-- [Machine-readable progress](effects/research-state.json): model inventory, findings commits and cursor.
-- [Coverage/backlog](effects/COVERAGE.md) and [source/measurement rules](effects/METHODOLOGY.md).
+The current priority is **multi-effects listed on Shopee Indonesia**, while retaining guitar, bass and vocal scope.
 
-## Research checkpoint — 2026-10-14
+**Open the [16-model Shopee-first comparison](effects/shopee-multifx.md)** for expression/size groupings, control counts, displays, separate used/retail IDR observations, processing, presets, I/O, power, apps and IR/NAM distinctions. Every new model has its own committed findings note and source links.
 
-**51 partial model records across eight comparison pages.** This is not every effects pedal, and no model is marked fully verified.
+**Open the [Shopee hardware index and next queue](effects/shopee-indonesia.md)** for exact item URLs, existing-model discoveries, still-unresearched hardware and excluded preset/case/controller listings. Listing evidence is not guaranteed current stock, authenticity or a completed sale. Sold-out asks, vouchers, bundles and mixed variants are explicitly qualified.
 
-The **first display/IDR review of the eight compact models is saved**, with **eight separate model-findings commits**. The comparison now has IDR price columns, preserving earlier foreign prices separately as provenance. It also has screen-size/color/touch fields: five diagonals and all eight color modes are established; three diagonals and explicit touch specifications remain unknown. Sold-out quotes, ambiguous stock and the Matribox CN-language offer are clearly qualified rather than treated as active global-market ranges.
+### Newly added in this batch
 
-The other **seven comparison pages still need their display/IDR review**. Current next model: **BOSS GT-1000CORE**. Existing technical source material and all unresolved fields remain preserved.
+| Brand | New models |
+|---|---|
+| M-VAVE | TANK-G, TANK-B, TANK MINI, MK-20, MK-300 |
+| Hotone | Ampero Mini MP-50 |
+| MOOER | GE100 original, GE150 original, GE150 Pro Li, GE200 original |
+| Zoom | G1 FOUR, G1X FOUR, G2 FOUR, G2X FOUR |
+| Flamma | FX100, FX200 |
 
-Required fields include expression; separate physical-control counts; used/new **IDR** prices; simultaneous blocks and category choices; ports; presets; synth/acoustic functions; dimensions/weight; power/battery/USB operation; IR/NAM/captures; editor platforms; and **screen diagonal, monochrome/color and touchscreen support**.
+These **16 records were committed individually**, then integrated. The original **51 records remain preserved**. All 67 are partial; the catalogue and Shopee coverage are **not exhaustive**.
 
-## Incremental work
+## Browse and resume
 
-Commit each model's useful findings separately, integrate the comparison, then verify and update the checkpoint. A reviewed row is not a fully verified model. Unknowns remain explicit; no guessed dimensions, used-price percentages or exchange rates.
+[All comparison pages](effects/README.md) · [Coverage/backlog](effects/COVERAGE.md) · [Methodology](effects/METHODOLOGY.md)
 
-### Continue in another session
+[RESUME.md](effects/RESUME.md) contains the exact next task. [research-state.json](effects/research-state.json) preserves model inventory, individual findings commit IDs, unknowns, completed batches and the cursor.
 
-> Continue the effects comparison in kokizzu/instrumentfx. Read effects/RESUME.md and effects/research-state.json. Resume at BOSS GT-1000CORE, verify display specifications and IDR prices, preserve the saved research, commit each model's findings separately, and update the checkpoint. Do not commit effects work to edrums.
+**Next model: M-VAVE TANK-PRO**, then ANN Blackbox, Boin Audio BG300, Scorpion KMF-10 and JOYO GemBox variants, with TC-Helicon/HeadRush/Flamma vocal targets also queued. The previous BOSS GT-1000CORE display/IDR task is **deferred, not completed or discarded**.
+
+The original compact page has its first display/IDR review. **Seven original pages still have legacy USD comparison columns and incomplete display review.** The new Shopee page uses IDR from the outset. No exchange rate or used-price percentage has been assumed.
+
+## Required fields and evidence
+
+Expression; separate knobs/footswitches/buttons; used/new IDR prices; simultaneous blocks and category choices; ports; factory/user memory; synth/acoustic functions; dimensions/weight; power/battery/USB operation; IR/NAM/proprietary captures; editor platforms; and **screen diagonal, monochrome/color and touchscreen support**. Extra live/practice features remain included.
+
+Unknowns stay explicit. Manufacturer/manual/release notes support technical claims; dated seller offers support prices. A color display does not automatically have touch, USB does not automatically power or record, and proprietary captures do not establish native NAM.
+
+## Continue in another session
+
+> Continue InstrumentFX in kokizzu/instrumentfx, prioritizing multi-effects listed on Shopee Indonesia. Read effects/RESUME.md, effects/research-state.json and effects/shopee-indonesia.md. Resume at M-VAVE TANK-PRO, preserve the 67 partial records and deferred work, verify sources, commit each model's findings separately, integrate the comparison and update the checkpoint. Do not write effects research to edrums.
+
+No unattended research or recurring price watch is configured.
