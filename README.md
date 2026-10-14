@@ -2,28 +2,30 @@
 
 **Canonical repository: `kokizzu/instrumentfx`.**
 
-The electronic-drum comparison in `kokizzu/edrums` is a formatting reference only. All instrument-effects research, comparison tables, checkpoints and future research commits belong **here**, not in `edrums`.
+The electronic-drum project `kokizzu/edrums` is a formatting reference only. All instrument-effects research, comparisons, checkpoints and future findings commits belong **here**. All 13 original effects files were transferred; the user removed the misplaced old copies, and cleanup was verified. See [the transfer/cleanup audit](effects/MIGRATION.md).
 
 ## Start here
 
-- [Comparison index](effects/README.md): categories, sizes and expression-pedal groupings.
-- [Resume checkpoint](effects/RESUME.md): requirements, completed work, unresolved fields and the exact next batch.
-- [Machine-readable progress](effects/research-state.json): model inventory and resume cursor.
-- [Coverage and backlog](effects/COVERAGE.md): researched models versus outstanding work.
-- [Source and measurement rules](effects/METHODOLOGY.md): how facts, unknowns and conflicting evidence are recorded.
+- [Comparison index](effects/README.md): categories, sizes and expression groupings.
+- [Updated compact comparison](effects/guitar-compact.md): eight display rows, IDR comparison prices and linked per-model findings.
+- [Resume checkpoint](effects/RESUME.md): exact next task and unresolved fields.
+- [Machine-readable progress](effects/research-state.json): model inventory, findings commits and cursor.
+- [Coverage/backlog](effects/COVERAGE.md) and [source/measurement rules](effects/METHODOLOGY.md).
 
-## Current research checkpoint
+## Research checkpoint — 2026-10-14
 
-The saved catalogue contains **51 partial model records across eight comparison pages**. It is not an exhaustive list of every effects pedal, and no record is marked fully complete.
+**51 partial model records across eight comparison pages.** This is not every effects pedal, and no model is marked fully verified.
 
-Required fields include expression support; physical controls; used and new **IDR** prices; simultaneous blocks and effect choices; ports; presets; synth/acoustic simulation; dimensions and weight; batteries/power/USB operation; IR/NAM support; editor platforms; and **screen size, monochrome/color and touchscreen support**.
+The **first display/IDR review of the eight compact models is saved**, with **eight separate model-findings commits**. The comparison now has IDR price columns, preserving earlier foreign prices separately as provenance. It also has screen-size/color/touch fields: five diagonals and all eight color modes are established; three diagonals and explicit touch specifications remain unknown. Sold-out quotes, ambiguous stock and the Matribox CN-language offer are clearly qualified rather than treated as active global-market ranges.
 
-The saved comparison pages still have legacy foreign-currency price columns and incomplete screen details. Those migrations remain explicitly pending; they have not been completed by moving the files. Preserve the existing source evidence and do not relabel foreign prices as rupiah.
+The other **seven comparison pages still need their display/IDR review**. Current next model: **BOSS GT-1000CORE**. Existing technical source material and all unresolved fields remain preserved.
+
+Required fields include expression; separate physical-control counts; used/new **IDR** prices; simultaneous blocks and category choices; ports; presets; synth/acoustic functions; dimensions/weight; power/battery/USB operation; IR/NAM/captures; editor platforms; and **screen diagonal, monochrome/color and touchscreen support**.
 
 ## Incremental work
 
-Commit each completed model/category batch separately. Update the checkpoint and progress file after each batch so another session can continue without repeating finished research. Read current repository files before editing; preserve unknowns and source conflicts rather than guessing.
+Commit each model's useful findings separately, integrate the comparison, then verify and update the checkpoint. A reviewed row is not a fully verified model. Unknowns remain explicit; no guessed dimensions, used-price percentages or exchange rates.
 
 ### Continue in another session
 
-> Continue the guitar, bass and vocal effects comparison in kokizzu/instrumentfx. Read effects/RESUME.md and effects/research-state.json first. Resume the saved next batch, verify screen specifications and IDR prices, preserve the research already saved, commit each completed part, and update the checkpoint. Do not commit instrument-effects work to kokizzu/edrums.
+> Continue the effects comparison in kokizzu/instrumentfx. Read effects/RESUME.md and effects/research-state.json. Resume at BOSS GT-1000CORE, verify display specifications and IDR prices, preserve the saved research, commit each model's findings separately, and update the checkpoint. Do not commit effects work to edrums.
