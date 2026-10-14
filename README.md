@@ -1,51 +1,55 @@
 # InstrumentFX — Guitar, Bass and Vocal Effects Comparison
 
-**75 partial model records · 10 comparison pages · checked 2026-10-14**
+**80 partial model records · 11 comparison pages · checked 2026-10-14**
 
 **Working repository: `kokizzu/instrumentfx`.** The separate edrums project is a formatting reference only. Original research was preserved here and the user removed the misplaced copies; [transfer/cleanup audit](effects/MIGRATION.md).
 
 ## Shopee Indonesia first
 
-The current priority is **multi-effects listed on Shopee Indonesia**, retaining guitar, bass and vocal scope. **Each model's findings are committed immediately**, before researching the next model. Comparison pages and a durable checkpoint preserve the results and unresolved fields.
+The priority is **multi-effects listed on Shopee Indonesia**, retaining guitar, bass and vocal scope. **Each model's useful findings are committed immediately**, before researching the next model. Comparisons and a durable checkpoint preserve results, source conflicts and unknowns.
 
-Open the **[latest8-model comparison](effects/shopee-multifx-2.md)** or the **[first16 Shopee additions](effects/shopee-multifx.md)**. Tables cover expression/size groupings, controls, screens, separate used/retail IDR observations, effect architecture, memory, I/O, power, apps and IR/NAM distinctions. Each model links to its individually committed source-backed finding.
+Open the **[latest five-model comparison](effects/shopee-multifx-3.md)**, the **[preceding eight additions](effects/shopee-multifx-2.md)** or the **[first 16 additions](effects/shopee-multifx.md)**. Tables cover expression and size, controls, displays, separate used/retail IDR evidence, processing, memory, I/O, power, apps and IR/NAM distinctions. Each model links to its separately committed finding and primary sources.
 
-The **[Shopee hardware index](effects/shopee-indonesia.md)** separates24 researched additions, listing evidence for original models, remaining discoveries and excluded preset/case/controller hits. Listing evidence is not checkout stock, authenticity, confirmed condition or a completed sale. Sold-out asks, vouchers, bundles, old cached pages and mixed variants are qualified.
+The **[Shopee hardware index](effects/shopee-indonesia.md)** separates **29 researched additions**, listing evidence for original models, pending discoveries and excluded preset/case/controller hits. Listing evidence is not checkout stock, authenticity, confirmed condition or a completed sale. Sold-out asks, vouchers, bundles, cached pages and mixed variants remain qualified.
 
-### Latest eight additions
+### Latest five additions
 
-| Brand | Models | Individual finding commits |
+| Model | Individual findings commit | Price/evidence qualification |
 |---|---|---|
-| M-VAVE | TANK-PRO; ANN Blackbox | `2a18134`; `ccd4f20` |
-| Boin Audio | BG300 | `8b599a4` |
-| Scorpion | KMF-10 | `b70015f` |
-| JOYO | GEM BOX II; GEM BOX III | `dd87d2f`; `a1a951a` |
-| TC-Helicon | VoiceLive Play; Play Acoustic | `2c796a7`; `bade22f` |
+| HeadRush Core | `369f2c1` | Rp15.120.000 retail ask; condition/stock unverified; firmware-qualified native NAM |
+| Flamma FV01 | `3594432` | Rp2.145.000 retail ask; older lower cached ask separate; manual power conflict |
+| Donner Arena2000 | `cb76485` | Rp4.257.000, sold out and voucher-dependent; primary dimensions unresolved |
+| NUX MG-100 | `2ec1fb7` | Earlier sold-out ask could not be reopened; current price unknown; V1 category count established |
+| NUX MG-200 | `e9c94ec` | Rp1.500.000 sold out; condition unknown, not assumed new/used; V1 count conflict |
 
-These eight are integrated in **`4e0a261db27ce973f00347ec88c2ad950c9f7508`**. They add to the original51 and earlier16 Shopee models, not replace them. **All75 remain partial**, with unresolved fields visible. The catalogue and Shopee coverage are not exhaustive.
+Integrated comparison: **`f8d78964d970417d95c17c6c4719e2a374b6a2a5`**. All five remain partial; no active used-price range or full market coverage is claimed. Read their findings for the exact source, item, revision and price context.
 
-The earlier16 include M-VAVE TANK-G/B/MINI and MK-20/300; Hotone Ampero Mini; MOOER GE100/150/150 Pro Li/200; Zoom G1/G1X/G2/G2X FOUR; Flamma FX100/200. Their comparisons and commit history remain preserved.
+### Preserved earlier work
+
+The previous eight—M-VAVE TANK-PRO/ANN Blackbox, Boin BG300, Scorpion KMF-10, JOYO GEM BOX II/III, TC-Helicon VoiceLive Play/Play Acoustic—are integrated in `4e0a261db27ce973f00347ec88c2ad950c9f7508`. Their individual commits remain in the ledger.
+
+The first 16 include M-VAVE TANK-G/B/MINI and MK-20/300; Hotone Ampero Mini; MOOER GE100/150/150 Pro Li/200; Zoom G1/G1X/G2/G2X FOUR; Flamma FX100/200. Their comparisons, sources and commit history remain preserved, along with all original 51 models. **51+16+8+5=80; all partial.** Findings and cross-references are not extra models.
 
 ## Browse and resume
 
 [All comparison pages](effects/README.md) · [Coverage/backlog](effects/COVERAGE.md) · [Methodology](effects/METHODOLOGY.md)
 
-**[RESUME.md](effects/RESUME.md)** contains the exact next task. **[research-state.json](effects/research-state.json)** preserves all75 model names, individual findings commits, completed batches, unknowns and the cursor.
+**[RESUME.md](effects/RESUME.md)** gives the exact next task. **[research-state.json](effects/research-state.json)** preserves all 80 model names, individual findings commits, completed batches, unknowns and the cursor.
 
-**Next: HeadRush Core**, then Flamma FV01 and Donner Arena2000, followed by remaining Shopee-listed families. Original JOYO GEM BOX I stays discovery-only until matching JOYO documentation is established. The old **BOSS GT-1000CORE display/IDR review is deferred**, not completed or discarded.
+**Next: MOOER GE100 Pro**, then Pro Li, GE200 Pro/Pro Li and remaining Shopee-listed families. Resolve the saved GE100 Pro snippet/body/voucher discrepancy and do not borrow original GE100 specifications. JOYO GEM BOX I remains discovery-only until matching JOYO documentation is established. The original **BOSS GT-1000CORE display/IDR review remains deferred**, not completed or discarded.
 
-The compact page and both new Shopee pages use IDR comparison columns. **Seven original pages still have legacy USD columns and incomplete screen review.** No exchange rate or used-price percentage has been assumed. This is not a claim that the entire IDR/display migration is complete.
+The compact page and three Shopee pages use IDR comparison columns. **Seven original pages still have legacy USD columns and incomplete screen review.** No exchange rate or percentage-of-new used estimate has been assumed. Neither the whole-market scope nor the overall IDR/display migration is complete.
 
 ## Evidence and unresolved specifications
 
-Required fields: expression; knobs/footswitches/buttons; used/new IDR; blocks/category choices; I/O; factory/user memory; synth/acoustic functions; dimensions/weight; power/battery/USB operation; IR/NAM/proprietary captures; editor platforms; and **screen size, monochrome/color and touch**. Other live/practice features remain included.
+Required fields: expression; knobs/footswitches/buttons; used/new IDR; blocks/category choices; I/O; factory/user memory; synth/acoustic; dimensions/weight; power/battery/USB operation; IR/NAM/proprietary captures; editor platforms; **screen size, monochrome/color and touch**. Other live/practice features remain included.
 
-Unknown is not No. Color does not prove touch; USB does not prove power/audio; a proprietary model format does not prove native NAM. Technical claims use manufacturer documents, with revision and source conflicts recorded. Seller offers support prices, not unsupported specifications.
+Unknown is not No. Color or touch-control buttons do not prove a touchscreen; USB does not prove power/audio; proprietary model formats do not prove native NAM. Technical facts use primary documents with firmware/revision and conflicts recorded. Seller offers support prices, not unsupported specifications. Inaccessible manuals are not reported as read.
 
-Latest conflicts include BG300's linked manual versus retailer description, KMF-10's300mA page versus500mA panel, GEM BOX III IR limits, TANK-PRO weight, and TC-Helicon old-manual versus current-firmware behavior. Read the findings before treating a dated manual value as a current limitation.
+New conflicts include Core power/category lists, FV01 current, Arena2000 effect totals/control classification and MG-200 model counts. Earlier BG300 manual-versus-retailer, KMF-10 power, GEM BOX III IR, TANK-PRO weight and TC-Helicon old-versus-current firmware issues remain documented.
 
 ## Continue in another session
 
-> Continue InstrumentFX in kokizzu/instrumentfx, prioritizing all multi-effects listed on Shopee Indonesia. Read effects/RESUME.md, effects/research-state.json and effects/shopee-indonesia.md. Resume at HeadRush Core, preserve75 partial records and deferred work, verify sources, commit every model immediately, integrate it and update the checkpoint. Do not write effects research to edrums.
+> Continue InstrumentFX in kokizzu/instrumentfx, prioritizing multi-effects listed on Shopee Indonesia. Read effects/RESUME.md, effects/research-state.json and effects/shopee-indonesia.md. Resume at MOOER GE100 Pro, preserve80 partial records and deferred work, verify sources, commit every model immediately, integrate it and update the checkpoint. Do not write effects research to edrums.
 
 No unattended research or recurring price watch is configured.
