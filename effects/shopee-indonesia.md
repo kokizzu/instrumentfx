@@ -1,14 +1,14 @@
 # Shopee Indonesia — hardware evidence and research queue
 
-[Comparison home](README.md) · [First16 additions](shopee-multifx.md) · [Latest8 additions](shopee-multifx-2.md) · [Resume](RESUME.md) · [Progress ledger](research-state.json)
+[Comparison home](README.md) · [First 16 additions](shopee-multifx.md) · [Next 8 additions](shopee-multifx-2.md) · [Latest 5 additions](shopee-multifx-3.md) · [Resume](RESUME.md) · [Progress ledger](research-state.json)
 
-**Checked 2026-10-14. Priority: multi-effects listed on Shopee Indonesia.** The catalogue contains **75 partial model records**, including **24 Shopee-first additions**. This index separates those technical records from existing-model listing evidence and still-unresearched hardware. It is **not an exhaustive seller inventory, current-stock guarantee or recommendation ranking**. A fetched or indexed listing may be older than its retrieval date.
+**Checked 2026-10-14. Priority: multi-effects listed on Shopee Indonesia.** The catalogue contains **80 partial model records**, including **29 Shopee-first additions**. This index separates those technical records from existing-model listing evidence and still-unresearched hardware. It is **not an exhaustive seller inventory, current-stock guarantee or recommendation ranking**. A fetched or indexed listing may be older than its retrieval date.
 
 An item URL establishes listing evidence, not authenticity, authorization, current availability, condition grade, exact selected variant, delivered cost or completed-sale value. Prices below are **IDR asking/listed observations**. Sold out is historical listing evidence, not proof a transaction completed. Official in a seller name is not independent authentication. No foreign-currency conversion or percentage-of-new used estimate is used.
 
-## A1. First16 Shopee-first technical records
+## A1. First 16 Shopee-first technical records
 
-Each model's finding contains primary specifications, exact item links, price/condition caveats, unresolved fields and next steps. [Comparison1](shopee-multifx.md) groups them by expression and footprint.
+Each model's finding contains primary specifications, exact item links, price/condition caveats, unresolved fields and next steps. [Comparison 1](shopee-multifx.md) groups them by expression and footprint.
 
 | Model | Technical finding | Shopee price context |
 |---|---|---|
@@ -29,9 +29,9 @@ Each model's finding contains primary specifications, exact item links, price/co
 | Flamma FX100 | [Record](findings/2026-10-14-flamma-fx100.md) | Rp2.480.000; another item's snippet/body conflict retained |
 | Flamma FX200 | [Record](findings/2026-10-14-flamma-fx200.md) | Rp4.999.000 variant listing; Rp5.047.000 Pink listing |
 
-## A2. Latest8, each committed immediately
+## A2. Second batch: 8 individually committed records
 
-These models have moved out of the discovery-only queue. [Comparison2](shopee-multifx-2.md) integrates all required fields with explicit unknowns. **Used-price evidence remains unknown for all eight.** The individual findings—not these short price summaries—carry the technical and firmware qualifications.
+[Comparison 2](shopee-multifx-2.md) integrates all required fields with explicit unknowns. **Used-price evidence remains unknown for these eight.** The findings—not these summaries—carry technical and firmware qualifications.
 
 | Model | Technical finding | New retail listing evidence / unresolved issues |
 |---|---|---|
@@ -42,13 +42,25 @@ These models have moved out of the discovery-only queue. [Comparison2](shopee-mu
 | JOYO GEM BOX II | [Record](findings/2026-10-14-joyo-gembox-ii.md) | **Rp1.750.000**, [TOKOAUDIOPRO item21979847112](https://shopee.co.id/Efek-Joyo-Gem-Box-II-Efek-Gitar-Gembox-II-Original-Effect-Guitar-Joyo-i.253483262.21979847112). Earlier [item27481349883](https://shopee.co.id/Digital-Effect-Gitar-Joyo-Gem-Box-Gembox-II-2-Multi-Effect-Processor-i.1458451429.27481349883) Rp1.449.999 could not be reopened; historical, not an active range |
 | JOYO GEM BOX III | [Record](findings/2026-10-14-joyo-gembox-iii.md) | **Rp4.800.000**, [GH MUSIC item25879876423](https://shopee.co.id/JOYO-GEM-BOX-III-Guitar-Multi-Effects-Processor-Efek-Gitar-i.71552895.25879876423). Earlier [item19770702484](https://shopee.co.id/joyo-gembox-III-original-garansi-resmi-joyo-i.173433434.19770702484) Rp4.500.000 was not reopened. Cheaper mixed variants excluded |
 | TC-Helicon VoiceLive Play | [Record](findings/2026-10-14-tchelicon-voicelive-play.md) | **Rp5.280.000, SOLD OUT**, [Asia Pro Sound item26030546305](https://shopee.co.id/TC-Helicon-VoiceLive-Play-Guitar-Effects-i.703046367.26030546305). Vocal processor despite seller's Guitar Effects title; current firmware remains to be reconciled |
-| TC-Helicon Play Acoustic | [Record](findings/2026-10-14-tchelicon-play-acoustic.md) | **Rp5.100.000**, [NEO MUSIC item11220047810](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810). Earlier same-price [item28601255384](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.32743136.28601255384) retained as historical discovery; separate guitar/vocal path now documented |
+| TC-Helicon Play Acoustic | [Record](findings/2026-10-14-tchelicon-play-acoustic.md) | **Rp5.100.000**, [NEO MUSIC item11220047810](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810). Earlier same-price [item28601255384](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.32743136.28601255384) retained as historical discovery; separate guitar/vocal path documented |
 
-All24 additions remain partial. These table rows and findings are the same underlying models, not extra inventory. Condition/accessory/stock confirmation is not implied by the displayed retail amount.
+## A3. Latest 5, each committed before the next model
+
+[Comparison 3](shopee-multifx-3.md) integrates their hardware, display, processing, memory, power, software and loading evidence. No verified current used-price range was obtained. These five are no longer discovery-only rows.
+
+| Model | Finding / Shopee item | Price and evidence status |
+|---|---|---|
+| HeadRush Core | [Technical record](findings/2026-10-14-headrush-core.md); [ROCKPIZZ item44463652142](https://shopee.co.id/HEADRUSH-CORE-GUITAR-MULTI-EFFECT-AMP-MODELER-VOCAL-PROCESSOR-i.440477624.44463652142) | **Rp15.120.000** reopened retail ask; condition/accessories/checkout stock unverified. Core-specific firmware5.2 native NAM documented; power/category conflicts preserved |
+| Flamma FV01 | [Technical record](findings/2026-10-14-flamma-fv01.md); [Tokosound item20283837190](https://shopee.co.id/FLAMMA-FV01-FV-01-CORRECTOR-Vocal-Pitch-Correction-Effect-Pedal-i.59331526.20283837190) | **Rp2.145.000**; older [NEO MUSIC item14463857534](https://shopee.co.id/Flamma-FV01-Correcior-Vocal-Pitch-Correction-Effect-Pedal-i.158235298.14463857534) **Rp1.816.920** retains August delivery text, not a verified current lower bound |
+| Donner Arena2000 | [Technical record](findings/2026-10-14-donner-arena2000.md); [item22664158485](https://shopee.co.id/Donner-Arena-2000-Pedal-Multi-Efek-Gitar-i.1087619206.22664158485) | **Rp4.257.000, SOLD OUT, WITH VOUCHER**. Earlier [wooden-packing item45005643636](https://shopee.co.id/Donner-Arena-2000-Free-Packing-Kayu-Multi-Effect-Pedal-i.49070533.45005643636) Rp4.180.000 could not be reopened; historical discovery only |
+| NUX MG-100 | [Technical record](findings/2026-10-14-nux-mg-100.md); [item1303695159](https://shopee.co.id/NUX-MG-100-MG-100-Electric-Guitar-Multi-Effects-Pedal-Processor-i.49070533.1303695159) | Earlier **Rp1.462.000, sold out** retained from this index; listing could not be reopened. Fresh price/stock **?**, not newly verified. V1 manual category counts now recorded |
+| NUX MG-200 | [Technical record](findings/2026-10-14-nux-mg-200.md); [Red Musik Bali item6685314008](https://shopee.co.id/Effect-Gitar-Nux-MG-200-MG200-MG-200-Modelling-Guitar-Processor-i.198150809.6685314008) | **Rp1.500.000, SOLD OUT**, reopened. Condition not exposed: do not classify the amount as either new or used. V1 cover/list effect-count conflict preserved |
+
+All **29 additions** remain partial. Findings and these table rows represent the same underlying models, not duplicate inventory. A technical first pass is not a current-stock or complete-price-range certification.
 
 ## B. Shopee evidence for original-catalogue models
 
-These are cross-references, not additional models. Their original technical pages and older source evidence remain preserved; these observations do not silently migrate or re-certify an entire page.
+These are cross-references, not additional models. Original technical pages and older source evidence remain preserved; these observations do not silently migrate or re-certify an entire page.
 
 | Existing model | Exact Shopee hardware listing | Observation / integration task |
 |---|---|---|
@@ -69,17 +81,11 @@ Original pages: [NUX](guitar-nux.md), [compact](guitar-compact.md), [BOSS](guita
 
 ## C. Hardware still awaiting technical comparison
 
-**These rows do not count toward the75 researched models.** Obtain matching primary documentation before adding specifications. Mixed listings require selected-variant verification; an unresolved price range does not apply to every model in its title.
+**These rows do not count toward the 80 researched models.** Obtain matching primary documentation before adding specifications. Mixed listings require selected-variant verification; an unresolved price range does not apply to every model in its title.
 
 | Priority / family | Shopee evidence | Price observation / next verification |
 |---|---|---|
-| **Next: HeadRush Core, guitar/vocal** | [ROCKPIZZ item44463652142](https://shopee.co.id/HEADRUSH-CORE-GUITAR-MULTI-EFFECT-AMP-MODELER-VOCAL-PROCESSOR-i.440477624.44463652142) | Rp15.120.000 earlier discovery; verify current offer and Core-specific vocal/NAM/display/power architecture, not Flex Prime |
-| **Flamma FV01 vocal processor** | [Tokosound item20283837190](https://shopee.co.id/FLAMMA-FV01-FV-01-CORRECTOR-Vocal-Pitch-Correction-Effect-Pedal-i.59331526.20283837190) | Rp2.145.000 indexed; verify actual vocal/guitar processing |
-| **Donner Arena2000** | [Item22664158485](https://shopee.co.id/Donner-Arena-2000-Pedal-Multi-Efek-Gitar-i.1087619206.22664158485) | Sold out, Rp4.257.000 **with voucher**; [item45005643636](https://shopee.co.id/Donner-Arena-2000-Free-Packing-Kayu-Multi-Effect-Pedal-i.49070533.45005643636) Rp4.180.000 with packaging context |
-| JOYO GEM BOX I | [Item26533613317](https://shopee.co.id/JOYO-GEMBOX-I-Guitar-Effect-Pedal-Pedal-Efek-Gitar-Joyo-GEM-BOX-1-GEM-BOX-One-i.31171541.26533613317) | Earlier Rp1.100.000; matching JOYO manual still needed. Similarly titled manual with MOOER identifiers rejected as JOYO evidence |
-| NUX MG-100 | [Item1303695159](https://shopee.co.id/NUX-MG-100-MG-100-Electric-Guitar-Multi-Effects-Pedal-Processor-i.49070533.1303695159) | Rp1.462.000, **sold out**; not MG-101 |
-| NUX MG-200 | [Item6685314008](https://shopee.co.id/Effect-Gitar-Nux-MG-200-MG200-MG-200-Modelling-Guitar-Processor-i.198150809.6685314008) | Listing found; price/specifications pending |
-| MOOER GE100 Pro | [Item54064319398](https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398) | Rp3.019.000 snippet vs Rp2.103.300 voucher/body; reconcile |
+| **Next: MOOER GE100 Pro** | [Item54064319398](https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398) | Rp3.019.000 snippet vs Rp2.103.300 voucher/body; reconcile before quoting. Not original GE100 or Pro Li |
 | MOOER GE100 Pro Li | [Item47314329999](https://shopee.co.id/MOOER-GE100-Pro-Li-with-AI-Intelligent-Multi-Effects-Technology-i.70636842.47314329999) | Rp3.529.000, **sold out**; Li power differs |
 | MOOER GE200 Pro / Pro Li | [Mixed item46856067378](https://shopee.co.id/Mooer-GE200-PRO-GE-200-PRO-GE200-PRO-Li-Amp-Modeling-Multi-Effects-Processor-i.3012339.46856067378) | Rp5.950.000–Rp6.950.000 **mixed variants**, not a per-model range |
 | MOOER GE1000 | [Item29678282909](https://shopee.co.id/Mooer-GE-1000-Multi-Effects-Processor-with-Exp-pedals-i.158144224.29678282909) | Rp7.966.500; firmware/manual pending |
@@ -89,6 +95,7 @@ Original pages: [NUX](guitar-nux.md), [compact](guitar-compact.md), [BOSS](guita
 | Hotone Ampero II Stage MP-380 | [Item56202249780](https://shopee.co.id/Hotone-MP-380-Ampero-II-Stage-Multieffects-Pedal-2-i.72439811.56202249780) | Listing found; price/stock pending |
 | Hotone Ampero II MP-350 | [Seven Stereo item48255478715](https://shopee.co.id/Hotone-MP-350-MP350-Ampero-II-Multieffects-Pedal-i.16879370.48255478715) | Rp11.900.000 indexed; not Ampero II Stomp |
 | Line6 HX Stomp XL | [Item22454857163](https://shopee.co.id/Line-6-HX-Stomp-XL-Guitar-Multi-effects-Floor-Processor-i.16879370.22454857163) | Rp14.899.000; distinct from existing non-XL record |
+| JOYO GEM BOX I | [Item26533613317](https://shopee.co.id/JOYO-GEMBOX-I-Guitar-Effect-Pedal-Pedal-Efek-Gitar-Joyo-GEM-BOX-1-GEM-BOX-One-i.31171541.26533613317) | Earlier Rp1.100.000; matching JOYO manual still needed. Similarly titled manual with MOOER identifiers rejected as JOYO evidence |
 
 ## D. Search hits not accepted as processor prices
 
@@ -105,6 +112,6 @@ Original pages: [NUX](guitar-nux.md), [compact](guitar-compact.md), [BOSS](guita
 
 ## Continuation protocol
 
-**Start at HeadRush Core, then FV01 and Arena2000.** TANK-PRO, ANN Blackbox, BG300, KMF-10, GEM BOX II/III and both TC-Helicon Play models are already partial technical records in A2; do not start them again from scratch. Obtain exact primary sources, verify firmware/region and commit **each model immediately** before moving on. Integrate and update the checkpoint; preserve the old BOSS/NUX/bass/vocal display-IDR queue.
+**Start at MOOER GE100 Pro**, then Pro Li, GE200 Pro/Pro Li and remaining saved families. All models in A1–A3 are already partial technical records; do not restart them or count their findings twice. Obtain exact primary sources, verify firmware/region and commit **each model immediately** before moving on. Integrate and update the checkpoint; preserve the original BOSS/NUX/bass/vocal display-IDR queue.
 
 Further discovery is needed across Zoom, Hotone, MOOER, BOSS, Line6, HeadRush, Valeton, NUX, TC-Helicon and lesser-documented brands. Absence from this index is not Indonesian unavailability. No automated scraping, recurring price watch or unattended research is configured.
