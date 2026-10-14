@@ -1,18 +1,20 @@
 # Repository correction audit — 2026-10-14
 
-**Working repository: `kokizzu/instrumentfx`.** The user clarified that `kokizzu/edrums` was a formatting reference, not the destination for instrument-effects research.
+**Working repository: `kokizzu/instrumentfx`.** `kokizzu/edrums` was a formatting reference, not the effects-research destination.
 
 ## Completed transfer
 
-All **13 original effects files** are now present under `effects/` in instrumentfx. The **eight comparison pages, 51 partial model records, methodology and coverage backlog** were preserved byte-for-byte, verified using matching Git blob SHAs. The comparison index, resume instructions and progress JSON were deliberately updated to point to instrumentfx; their model inventory, next-batch cursor and pending research requirements were retained.
+All **13 original effects files** were copied into `instrumentfx/effects/`. The **eight comparison pages containing 51 partial model records, methodology and coverage backlog** matched the source byte-for-byte at transfer. The comparison index, resume instructions and progress JSON were deliberately updated to identify instrumentfx while retaining the model inventory, pending requirements and cursor.
 
-Each comparison category has its own commit. A root README and AGENTS.md additionally identify the correct repository and require separate commits/checkpoints for completed research parts.
+Each comparison category has its own transfer commit. Root README and AGENTS.md identify the correct repository and require incremental research commits/checkpoints.
 
-Verified target snapshot before this audit: `c21d79d6bd5422ca511df45349ae97f5364197ea`.
+Verified transfer snapshot: `c21d79d6bd5422ca511df45349ae97f5364197ea`.
 
-Source snapshot: `kokizzu/edrums@bcc8d39507b445a3b708c4bb9706d1fb45db925d`.
+Original source snapshot: `kokizzu/edrums@bcc8d39507b445a3b708c4bb9706d1fb45db925d`.
 
-## Matching source and destination blobs
+All 13 original files were rechecked as present in instrumentfx at `b6ca1b7696b9d1021d0080c250b4a70f8a5c14fd`, before the resumed research edits. Later legitimate research updates will change individual hashes; the table below records the **transfer baseline**, not a requirement to freeze the research files.
+
+## Matching source and destination blobs at transfer
 
 | File under effects/ | Matching Git blob SHA |
 |---|---|
@@ -27,12 +29,23 @@ Source snapshot: `kokizzu/edrums@bcc8d39507b445a3b708c4bb9706d1fb45db925d`.
 | METHODOLOGY.md | f8f425e4c7e133b58365a9938661d1e792392ec7 |
 | COVERAGE.md | 885aa55914406833245ad516fb947774a8576817 |
 
-## Old-repository cleanup: blocked, not completed
+## Old-repository cleanup: completed by the user and verified
 
-An attempted deletion of only the 13 misplaced `effects/` files from edrums was blocked by the tool's safety checks. No cleanup commit or branch update was made. **The old copies remain in edrums.** Do not claim they were removed, retry through a different mechanism to bypass the block, or make further effects-research commits there. Any future cleanup needs an appropriately authorised operation.
+The assistant's earlier deletion attempt was blocked by tool safety checks. No cleanup commit or branch update was made by that attempt, and no alternate mechanism was used to bypass it.
 
-The edrums root README and `gotro-projects.md` were not changed during this correction. Their inspected blob SHAs were `3f3c626c47db0c08a90935ffa1847139bb9e3fca` and `1a8158501505114aea77b5b210f820aa7099f258` respectively.
+**The user subsequently removed the misplaced files.** A fresh recursive tree read of `kokizzu/edrums/main` at **`80052b611be72cb5d9259dc7456f0f8cd238355e`** showed exactly two files and no `effects/` directory:
 
-## Research remains resumable, not finished
+| Remaining file | Unchanged blob SHA |
+|---|---|
+| README.md | 3f3c626c47db0c08a90935ffa1847139bb9e3fca |
+| gotro-projects.md | 1a8158501505114aea77b5b210f820aa7099f258 |
 
-Continue from [RESUME.md](RESUME.md) and [research-state.json](research-state.json) in **instrumentfx**. The next model is still Valeton GP-100 on the compact page. Screen-size/color/touchscreen backfill and IDR price migration are still pending; this repository transfer did not complete them.
+Both match their inspected pre-cleanup versions. The old effects files are absent from the current branch tree; this does not claim that their historical commits were erased. No further cleanup is needed. All effects research writes remain restricted to **instrumentfx**.
+
+Verification evidence: [edrums cleanup tree](https://api.github.com/repos/kokizzu/edrums/git/trees/80052b611be72cb5d9259dc7456f0f8cd238355e?recursive=1) and [instrumentfx preserved snapshot](https://api.github.com/repos/kokizzu/instrumentfx/git/trees/b6ca1b7696b9d1021d0080c250b4a70f8a5c14fd?recursive=1).
+
+## Research continuation after transfer
+
+The first display/IDR review for the eight compact models was subsequently committed as eight separate findings, then integrated in **`c77420e66f01a1bad5d5e032d3f9e5ae70e515f5`**. Inventory remains **51 partial models**; no additional models were counted for these notes.
+
+See [RESUME.md](RESUME.md) and [research-state.json](research-state.json) for current progress and unresolved fields. The next review starts with **BOSS GT-1000CORE**. The compact page now has IDR comparison columns and display rows, but unknown diagonals/touch specifications and incomplete local-price evidence remain; the other seven comparison pages still need that review.
