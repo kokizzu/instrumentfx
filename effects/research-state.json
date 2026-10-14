@@ -9,17 +9,25 @@
   "research_complete": false,
   "background_automation_enabled": false,
   "baseline_research_commit": "c82aa042ecf97647c9f877e0ceabf314880012d7",
+  "latest_integrated_research_commit": "c77420e66f01a1bad5d5e032d3f9e5ae70e515f5",
   "legacy_misplaced_research": {
     "repository": "kokizzu/edrums",
     "commit": "cb8f25d34af28a159b6fbf6c472db95d064942ca",
-    "usage": "Historical recovery reference only. This is NOT the working repository."
+    "usage": "Historical recovery reference only. This is NOT the working repository.",
+    "cleanup": {
+      "status": "removed_by_user_and_verified",
+      "verified_date": "2026-10-14",
+      "verified_main_commit": "80052b611be72cb5d9259dc7456f0f8cd238355e",
+      "remaining_paths": ["README.md", "gotro-projects.md"],
+      "instruction": "The user removed the misplaced files. Do not retry the earlier blocked deletion or write effects work to edrums."
+    }
   },
   "read_first": "effects/RESUME.md",
   "methodology": "effects/METHODOLOGY.md",
   "backlog": "effects/COVERAGE.md",
   "record_count": 51,
   "fully_verified_record_count": 0,
-  "technical_data_source_of_truth": "The eight Markdown comparison pages; this JSON is a progress ledger, not a replacement technical catalogue.",
+  "technical_data_source_of_truth": "The eight Markdown comparison pages and linked dated findings; this JSON tracks progress, not the entire technical catalogue.",
   "latest_user_requirements": {
     "repository": "kokizzu/instrumentfx",
     "do_not_commit_effects_to": "kokizzu/edrums",
@@ -35,9 +43,11 @@
     "requirements_saved": true,
     "display_backfill_complete": false,
     "idr_column_migration_complete": false,
-    "legacy_currency": "Existing comparison pages still contain USD price columns; do not describe the migration as completed.",
+    "idr_comparison_pages_migrated": ["effects/guitar-compact.md"],
+    "display_review_pages": ["effects/guitar-compact.md"],
+    "legacy_currency": "Seven comparison pages still have legacy USD columns. The compact page uses IDR comparison columns and preserves original foreign quotes separately as provenance.",
     "exchange_rate_selected": null,
-    "instruction": "Keep original foreign-price evidence as provenance. Do not relabel or convert values without verified dated evidence."
+    "instruction": "A completed review or IDR-column migration is not full verification. Preserve unresolved displays, missing local offers, stock conflicts and regional variants. No relabeling or guessed FX conversion."
   },
   "size_bins_mm": {
     "compact": {"max_width": 200, "max_depth": 140},
@@ -48,19 +58,33 @@
     "include_plug_clearance": false
   },
   "cursor": {
-    "page": "effects/guitar-compact.md",
-    "model": "Valeton GP-100",
-    "task": "Read current page, verify display fields, then migrate comparison prices to IDR.",
+    "page": "effects/guitar-boss.md",
+    "model": "BOSS GT-1000CORE",
+    "task": "Read the current BOSS page; verify display size/color/touch and dated IDR prices, preserve existing research, commit each model finding and update the comparison/checkpoint.",
     "completed_models_in_current_migration_batch": [],
-    "next_page_after_current": "effects/guitar-boss.md"
+    "next_page_after_current": "effects/guitar-nux.md"
   },
   "pages": [
     {
       "path": "effects/guitar-compact.md",
       "count": 8,
       "record_status": "partial",
-      "display_backfill": "pending",
-      "idr_migration": "pending",
+      "display_backfill": "first_pass_saved_with_unresolved_fields",
+      "idr_migration": "comparison_columns_complete_price_evidence_partial",
+      "review_date": "2026-10-14",
+      "display_rows": 8,
+      "verified_display_diagonals": 5,
+      "verified_color_modes": 8,
+      "explicit_touch_specifications_verified": 0,
+      "unresolved_fields": [
+        "Display diagonal: GP-100, GP-5 and Matribox QME-50",
+        "Explicit touchscreen specification for all eight models; do not infer from knob/button navigation",
+        "Active used-price evidence; GP-100's IDR used quote is a sold-out historical ask",
+        "Matribox English/global IDR offer; indexed CN-language preorder kept separate",
+        "Conflicting sold-out/Add to cart page elements for GP-100 new, GP-5 and Pocket Master",
+        "GP-50 new listing is sold out; Smart Box detailed condition/stock unconfirmed",
+        "Existing per-category algorithms, synth/acoustic, control, power and firmware unknowns remain"
+      ],
       "models": ["Valeton GP-100", "Valeton GP-150", "Sonicake Matribox QME-50", "Valeton GP-5", "Valeton GP-50", "Valeton GP-180", "Sonicake Smart Box QME-20", "Sonicake Pocket Master QME-10"]
     },
     {
@@ -120,28 +144,40 @@
       "models": ["Line 6 HX Stomp", "Line 6 HX Effects", "Neural DSP Nano Cortex", "IK Multimedia TONEX ONE", "IK Multimedia TONEX Pedal", "HeadRush Flex Prime"]
     }
   ],
+  "completed_review_batches": [
+    {
+      "date": "2026-10-14",
+      "page": "effects/guitar-compact.md",
+      "scope": "First display/IDR evidence pass plus specifically sourced corrections; not full-model verification",
+      "integrated_commit": "c77420e66f01a1bad5d5e032d3f9e5ae70e515f5",
+      "findings": [
+        {"model": "Valeton GP-100", "path": "effects/findings/2026-10-14-valeton-gp-100.md", "commit": "4461738bd90f6187a9a2f3be6be70cfaac8bcd8a"},
+        {"model": "Valeton GP-150", "path": "effects/findings/2026-10-14-valeton-gp-150.md", "commit": "e9ec3306cf4214cae8504d3903fbd6adb8634299"},
+        {"model": "Sonicake Matribox QME-50", "path": "effects/findings/2026-10-14-sonicake-matribox.md", "commit": "a5e3b51396e3930b3a5d180c0264399cbd83bcce"},
+        {"model": "Valeton GP-5", "path": "effects/findings/2026-10-14-valeton-gp-5.md", "commit": "278e90fb70937c0120995eaee2b6b3da74f2ac50"},
+        {"model": "Valeton GP-50", "path": "effects/findings/2026-10-14-valeton-gp-50.md", "commit": "871cef43224ec428100b2564ddf8f9e6cc029d59"},
+        {"model": "Valeton GP-180", "path": "effects/findings/2026-10-14-valeton-gp-180.md", "commit": "097ef9686127d8e8ee74cf89e1e3405a0bfdf4d8"},
+        {"model": "Sonicake Smart Box QME-20", "path": "effects/findings/2026-10-14-sonicake-smart-box.md", "commit": "8ea7ed4ae4a07228ecb6eded38aef7fb8ef5cad5"},
+        {"model": "Sonicake Pocket Master QME-10", "path": "effects/findings/2026-10-14-sonicake-pocket-master.md", "commit": "17db071a86941aaaebd5a77ff3a9408067bc133c"}
+      ]
+    }
+  ],
   "known_conflicts_to_preserve": [
     "TONEX ONE 20-versus-30 preset claim",
     "NUX MG-50Li factory/user preset split and factory model counts",
     "Sonicake Matribox II Pro MIDI-output claims",
-    "Valeton GP-100 rhythm count",
-    "Firmware-dependent native versus converted NAM architecture support"
+    "Valeton GP-100 rhythm count and manual-versus-product-page effect totals",
+    "Firmware-dependent native versus converted NAM architecture support",
+    "Matribox CN-language marketplace item versus English/global firmware and price",
+    "Conflicting stock markers on several Indonesian retail pages"
   ],
   "required_field_groups": [
-    "expression",
-    "physical_controls",
-    "used_and_new_prices_idr",
-    "effect_blocks_categories_and_choices",
-    "input_output_ports",
-    "factory_and_user_presets",
-    "synth_and_acoustic_simulation",
-    "dimensions_and_weight",
-    "power_battery_usb_operation",
-    "ir_nam_and_proprietary_captures",
-    "configuration_platforms",
-    "screen_size",
-    "screen_monochrome_or_color",
-    "screen_touch_support"
+    "expression", "physical_controls", "used_and_new_prices_idr",
+    "effect_blocks_categories_and_choices", "input_output_ports",
+    "factory_and_user_presets", "synth_and_acoustic_simulation",
+    "dimensions_and_weight", "power_battery_usb_operation",
+    "ir_nam_and_proprietary_captures", "configuration_platforms",
+    "screen_size", "screen_monochrome_or_color", "screen_touch_support"
   ],
   "record_template_is_not_an_actual_model": true,
   "record_template": {
@@ -218,6 +254,7 @@
     "An absent local price does not imply the model is unavailable in Indonesia.",
     "No completed-sale claim may be inferred from an asking price.",
     "Commit each completed batch and advance the cursor only after verifying the saved files.",
+    "A first-pass review with saved unknowns is not full verification of a model.",
     "Do not reset to baseline_research_commit, rewrite history or modify the separate edrums repository."
   ],
   "change_log": [
@@ -228,6 +265,14 @@
     {
       "date": "2026-10-14",
       "event": "Corrected the working repository to kokizzu/instrumentfx at the user's request. Migrated all eight comparison pages in separate category commits; preserved the model inventory, next-batch cursor, pending IDR/screen work and source conflicts. edrums is a formatting reference only."
+    },
+    {
+      "date": "2026-10-14",
+      "event": "The user removed the old effects directory from edrums. Verified its current tree contains only the two unchanged original files; all 13 original effects files remain in instrumentfx."
+    },
+    {
+      "date": "2026-10-14",
+      "event": "Committed eight model findings separately and integrated the compact page's first display/IDR review. Corrected GP-100 controls and pre/post looper modes, completed GP-50 button count, clarified GP-5 limitations and Smart Box mobile platforms, and preserved regional/stock qualifications. Advance next review to BOSS GT-1000CORE; all 51 models remain partial."
     }
   ]
 }
