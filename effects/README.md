@@ -1,69 +1,42 @@
-# Guitar, Bass and Vocal Effects Comparison
+# Guitar, bass and vocal multi-effects comparison
 
-**80 partial models · 11 comparison pages · checkpoint: 2026-10-14**
+**80 active partial model records ·13 comparison pages ·6 excluded archival records ·2026-10-14.** [Scope](SCOPE.md) · [Resume](RESUME.md) · [Ledger](research-state.json) · [Owner history](OWNERSHIP.md)
 
-**Working repository: `kokizzu/instrumentfx`.** The separate edrums project is a formatting reference only; transfer and user cleanup are documented in [MIGRATION.md](MIGRATION.md).
+Guitar entries are **multi-effects only**. FV01 and the five dedicated BOSS pedals in SCOPE are excluded from active tables/counts. Effects-only processors and substantial synth+multi-effects architectures remain eligible; a guitar-thru or reverb side path alone is not guitar multi-effects.
 
-## Current priority: Shopee Indonesia multi-effects
+## Comparisons
 
-Start with the [Shopee hardware evidence and queue](shopee-indonesia.md) or the [latest five-model comparison](shopee-multifx-3.md). **Twenty-nine Shopee-first models** have been added to the original51, each with an immediate individual findings commit. The earlier [16-model](shopee-multifx.md) and [8-model](shopee-multifx-2.md) additions remain available.
-
-**Next model: MOOER GE100 Pro**, not original GE100 or Pro Li. [RESUME.md](RESUME.md) and [research-state.json](research-state.json) preserve requirements, all model names, individual commits, conflicts and the exact cursor. The original BOSS GT-1000CORE display/IDR task remains deferred, not discarded.
-
-Shopee listing evidence is not stock confirmation or seller authentication. Sold-out asks, vouchers, bundles, mixed variants, unknown condition and snippet/body conflicts stay distinct. Downloadable presets, cases and controllers are excluded from hardware prices. Neither this catalogue nor the discovery index is exhaustive.
-
-## Comparison pages
-
-Models are split into hardware/price, display, processing/memory/loading and connections/power/apps tables. Primary technical evidence and seller-price sources are separate. Cross-references and finding notes do not count twice.
-
-| Category | Models | Comparison |
+| Page / category | Active records | Contents / status |
 |---|---:|---|
-| **Shopee expansion 3** | **5** | [HeadRush Core, Flamma FV01, Donner Arena2000, NUX MG-100/MG-200](shopee-multifx-3.md) |
-| **Shopee expansion 2** | **8** | [TANK-PRO, ANN Blackbox, BG300, KMF-10, GEM BOX II/III, VoiceLive Play, Play Acoustic](shopee-multifx-2.md) |
-| **Shopee expansion 1** | **16** | [TANK-G/B/MINI, MK-20/300; Ampero Mini; GE100/150/150 Pro Li/200; G1/G1X/G2/G2X FOUR; FX100/200](shopee-multifx.md) |
-| Compact guitar / multi-instrument | 8 | [Valeton GP-5/50/100/150/180; Sonicake Matribox, Smart Box, Pocket Master](guitar-compact.md) |
-| BOSS guitar | 7 | [GT-1, GX-1/10/100, ME-90, GT-1000/CORE](guitar-boss.md) |
-| NUX guitar / bass | 6 | [MG-101/300/300 MKII/400/30/50Li](guitar-nux.md) |
-| Larger Valeton / Sonicake | 3 | [GP-200, Matribox II, Matribox II Pro](guitar-floorboards.md) |
-| Bass-focused | 7 | [Zoom B1/B1X FOUR, B2 FOUR, B6; BOSS GT-1B/GX-1B/ME-90B](bass.md) |
-| Vocal / acoustic-vocal | 8 | [BOSS VE series; Zoom V3/V6-SP](vocal.md) |
-| Synth / acoustic / vocoder / pitch | 6 | [BOSS SY-1/SY-200, AC-3, VO-1, GM-800, XS-100](specialist.md) |
-| Advanced / capture / effects-only | 6 | [HX Stomp/Effects, Nano Cortex, TONEX ONE/Pedal, Flex Prime](advanced-modelers.md) |
-| **Distinct model records** | **80** | **All partial; zero fully verified** |
+| [MOOER Pro variants — newest](shopee-multifx-4.md) | **4** | GE100 Pro/Pro Li,GE200 Pro/Pro Li; all required fields with explicit gaps |
+| [Owned-model additions](owned-multifx.md) | **2** | GR-55,B1Xon; previously committed findings now integrated |
+| [Shopee expansion1](shopee-multifx.md) |16|M-VAVE5,Ampero Mini,MOOER4,Zoom4,Flamma FX100/200 |
+| [Shopee expansion2](shopee-multifx-2.md) |8|TANK-PRO,ANN Blackbox,BG300,KMF-10,GEM BOX II/III,TC-Helicon Play models |
+| [Shopee expansion3](shopee-multifx-3.md) |4|Core,Arena2000,MG-100/200;FV01 excluded |
+| [Compact guitar](guitar-compact.md) |8|Valeton/Sonicake;first display/IDR pass saved |
+| [BOSS guitar](guitar-boss.md) |7|GT/GX/ME families;display/IDR migration pending |
+| [NUX](guitar-nux.md) |6|MG-101/300/300MKII/400/30/50Li;pending migration |
+| [Larger floorboards](guitar-floorboards.md) |3|GP-200,MatriboxII/IIPro;pending migration |
+| [Bass](bass.md) |7|Zoom/BOSS;pending migration |
+| [Vocal](vocal.md) |8|BOSS/Zoom;separate vocal category;pending migration |
+| [Multi-instrument synth/MFX](specialist.md) |1|**GM-800 only** active;five dedicated pedals archived on same page |
+| [Advanced/effects-only/capture](advanced-modelers.md) |6|HX Stomp/Effects,Nano Cortex,TONEX ONE/Pedal,Flex Prime |
+| **Total** |**80**|**All partial;zero fully verified** |
 
-Guitar, bass and vocal scope spans these pages; a cross-reference does not create another hardware record. Pocket Master and Zoom V3 remain explicitly hand-operated devices rather than conventional footswitch pedals. Firmware revisions do not automatically create new models.
+The old broad80-record total was corrected by excluding6,then integrating2 saved owner findings and4 new MOOER models. This current80 has different membership. Cross-references, owner rows, historical notes and discovery-only items are not extra records. [Complete historical ledger](research-state.history-2026-10-14.json) retains all previous commit references and field gaps.
 
-## Review status
+## Shopee and owned-device queues
 
-The original compact page has its first display/IDR pass: five diagonals and eight color modes established; GP-100/GP-5/Matribox diagonals and explicit touch specifications remain unknown. Its foreign price evidence is preserved separately with regional and stock qualifications.
+[Current Shopee index](shopee-indonesia.md) separates **32 active expansion records**, existing-model evidence and unresearched leads. Next **Hotone Ampero MP-100**, followed by Ampero II MP-350 and other saved families. Older exact item links and price snapshots remain in [historical discovery](shopee-indonesia.history-2026-10-14.md); apply current scope before using an old row.
 
-All three Shopee pages start in IDR and contain required display fields, including explicit unknowns, screenless devices and segmented readouts. The first16 established six diagonals and two positive touchscreen specifications; later pages retain their own model-specific evidence. Latest5 distinguish Core's7-inch touchscreen, Arena2000's3.5-inch color display with unverified touch, screenless FV01, and older NUX color displays with unpublished diagonals.
+[Owner history](OWNERSHIP.md) retains20 identified entries, including donated/former gear. GR-55 and B1Xon are integrated; original GEM BOX,MINI-X,Pocket Amp,H8,Ving FB100 and unresolved identities remain queued. A shopping plan does not establish ownership.
 
-**Seven original pages still have legacy USD columns and incomplete display review.** Most used-price ranges, checkout stock and several technical fields remain unresolved. No exchange rate or percentage-of-new used-price estimate has been assumed. [COVERAGE.md](COVERAGE.md) and the findings preserve outstanding work.
+## How to read the tables
 
-## Size and expression categories
+Separate hardware/display,processing/memory,connections/power/apps and used/new **IDR** evidence. `?` is unverified,not No. Published screen diagonal,color and touch are independent. Native NAM,converted NAM,proprietary captures and IRs are not interchangeable.
 
-Use manufacturer unit dimensions, **W×D×H in millimetres**, not packaging.
+Compact≤200mm width AND≤140mm depth;medium≤300×200 excluding compact;large otherwise;unknown when dimensions/axis mapping are not verified. Do not rotate for fit;allow plugs and pedal travel. Expression socket does not mean included pedal.
 
-| Bin | Width/depth test |
-|---|---|
-| Compact | Width≤200mm **and** depth≤140mm |
-| Medium | Width≤300mm and depth≤200mm, excluding compact |
-| Large | Exceeds medium width or depth |
-| Unknown | Width or depth unverified |
+**Seven original pages still need display/IDR migration.** Current pages with unknown/sold-out/conditional price cells are not complete price research. Do not treat indexed pages as live stock, seller authentication or completed sales. No guessed exchange rate or used-price percentage is used. [Methodology](METHODOLOGY.md) and [scope](SCOPE.md) define the rules.
 
-Do not rotate a device to force a fit. Plugs, strain relief and pedal travel need additional space. Distinguish built-in expression, external-only expression and neither/unverified; a socket is not an included pedal. Conflicting/unlabelled dimensions are explicitly qualified.
-
-## Required comparison fields
-
-Expression; rotary/footswitch/button counts; separate used/new IDR; simultaneous blocks and category choices; I/O; factory/user memory; synth/acoustic; dimensions/weight; power/battery/USB operation; IR/NAM/proprietary captures; editor platforms; **screen diagonal, monochrome/color and touch**.
-
-Extra live/practice fields include headphone/DI/phantom, USB audio/reamp, MIDI, scenes, routing, bypass/trails, looper, rhythms, firmware and special pickups/cables. [METHODOLOGY.md](METHODOLOGY.md) defines the distinctions.
-
-`?` means unverified, not No. Color and capacitive control buttons do not prove a touchscreen; USB does not imply power/audio; proprietary captures do not establish native NAM. Foreign-to-IDR estimates require sourced dated rates and explicit FX labels. Asking prices are not completed sales. Inaccessible manuals are not represented as read.
-
-## Continue without this chat
-
-> Continue InstrumentFX in kokizzu/instrumentfx with Shopee Indonesia multi-effects first. Read effects/RESUME.md, effects/research-state.json and effects/shopee-indonesia.md. Resume at MOOER GE100 Pro; preserve80 partial records, deferred display/IDR work and source conflicts. Commit each model finding immediately, integrate it, verify saved files and update the checkpoint. Do not write effects research to edrums.
-
-No unattended research or recurring price update is configured.
+Research and commit each model immediately, then integrate and update [RESUME](RESUME.md). No background research or recurring price watch is configured.
