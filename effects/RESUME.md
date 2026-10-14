@@ -1,90 +1,87 @@
 # Resume this effects-comparison project
 
-**Checkpoint date: 2026-10-14. Status: ready to resume; research is not complete.**
+**Checkpoint: 2026-10-14. Ready to resume; research is not complete.**
 
-**Canonical repository: `kokizzu/instrumentfx`, branch `main`, working directory `effects/`.**
+**Canonical repository: `kokizzu/instrumentfx`, branch `main`, directory `effects/`.** The separate `kokizzu/edrums` repository is only a formatting reference. The user has removed the misplaced copies there; cleanup and preservation are verified in [MIGRATION.md](MIGRATION.md). Do not write instrument-effects research to edrums.
 
-`kokizzu/edrums` was a formatting reference, not the destination. The earlier placement there was a mistake. All instrument-effects research and future commits belong in **instrumentfx**. Check the repository name before every write; do not resume effects work in edrums.
+Read this file, [research-state.json](research-state.json), [METHODOLOGY.md](METHODOLOGY.md), [COVERAGE.md](COVERAGE.md), and the current comparison page before editing. Use repository contents, not chat memory. Verify owner/repository and current file SHAs before every write. Never reset, force-push, or overwrite unrelated work.
 
-Read this file first, then [research-state.json](research-state.json), [methodology](METHODOLOGY.md), and [coverage](COVERAGE.md). Use the current repository files as the source of project state; do not depend on a previous chat or recreate the catalogue from memory.
+## Required scope and fields
 
-## Latest user requirements — these take precedence
+Research guitar, bass, vocal and specialist/dedicated effects, not only multi-effects. Organise by instrument/function, physical size and built-in versus external expression. The current catalogue is not exhaustive.
 
-Research guitar, bass and vocal effects in a comparison format like the separate electronic-drum project. Include dedicated/specialist effects as well as multi-effects; the current limited catalogue does not satisfy an exhaustive all-pedals scope. Organise by instrument/function, size and built-in expression versus external-expression support.
+Every model needs:
 
-Every model must have fields for:
+1. Built-in expression, external expression support and toe switch.
+2. Separate rotary-control, footswitch and button counts; explain concentric controls and exclude duplicate push-encoder counts.
+3. **Separate used/new IDR prices**, with seller, market, condition, availability, date and source. Preserve foreign evidence separately; do not invent a conversion rate or a used percentage.
+4. Simultaneous effect blocks, DSP restrictions, available categories and choices per category.
+5. Complete I/O, including headphones, microphone/phantom power, loops and control connections where applicable.
+6. Factory, editable/user and total preset storage without double counting.
+7. Synth and electric-to-acoustic simulation, distinguished from acoustic amp models and body IRs.
+8. Width × depth × height and weight, including pedal-travel/plug-clearance qualifications.
+9. Battery, voltage, polarity, device draw versus adapter rating, and USB operation versus charging/data.
+10. IR, native NAM architectures, converted NAM workflows and proprietary captures as separate capabilities.
+11. Configuration/editor platforms separately from drivers, updaters, librarians and USB-audio compatibility.
+12. **Manufacturer-specified display diagonal**, with multiple screens recorded individually; never estimate from a photograph.
+13. **Monochrome/color**, independently of LCD/OLED/TFT technology.
+14. **Touchscreen yes/no/unverified**, supported independently of screen color or marketing language.
 
-1. Built-in expression pedal, external expression support and toe switch.
-2. Separate numbers of rotary controls, footswitches and push-buttons.
-3. **Used and new prices displayed in IDR**, with sources, condition/market and dates.
-4. Maximum simultaneous effect blocks, available categories and choices per category.
-5. Input/output ports, including headphones and relevant microphone/control connections.
-6. Factory presets, editable user storage and total storage without double-counting.
-7. Synth and electric-to-acoustic simulation; distinguish these from acoustic amp/body-IR models.
-8. Width × depth × height and weight, with pedal-travel/plug clearance notes.
-9. Battery, voltage/polarity/current and explicit USB-powered operation versus charging/data.
-10. IR and NAM loading, architecture restrictions, conversion workflows and proprietary captures.
-11. Configuration/editor platforms, separated from drivers, firmware updaters and USB audio.
-12. **Screen size**, normally manufacturer-specified diagonal inches; record multiple screens individually.
-13. **Monochrome or color display**, separately from technology such as OLED/LCD/TFT.
-14. **Touchscreen: yes/no/unverified**, with a source; do not infer it from a color screen.
+Retain additional useful fields already present: looper, rhythms, USB audio/reamp, MIDI, scenes, parallel routing, bypass/trails, DI/phantom power, special pickups/cables, firmware and conflicts.
 
-Useful extra fields already covered in parts of the catalogue include looper, rhythms, USB audio/reamp, MIDI, parallel routing, scenes, bypass/trails, DI/phantom power, special pickup/cable requirements and firmware conflicts. Retain them.
+**Commit each completed model/finding separately**, then integrate its comparison changes and update the checkpoint. Save partial evidence rather than withholding it until an entire brand is complete. The dated findings notes themselves should identify their scope, unknowns and next step.
 
-**Commit each completed part separately**, with a clear category/model scope and an updated checkpoint. This is an explicit user requirement so another session can resume easily.
+## Saved inventory
 
-## What is saved
+**51 distinct partial models across eight pages; zero fully verified records.** Cross-references and new findings notes do not add models. Firmware updates are not automatically new hardware.
 
-**51 distinct partial model records across 8 comparison pages**, plus their manufacturer/manual/price references. All eight comparison pages were migrated to instrumentfx with separate category commits. The target baseline containing the comparisons, methodology and coverage is `c82aa042ecf97647c9f877e0ceabf314880012d7`. Later checkpoint commits add navigation and these instructions; this SHA is a recovery reference, not an instruction to reset the branch.
+| Page | Models | Display/IDR review status |
+|---|---:|---|
+| [Compact guitar](guitar-compact.md) | 8 | First pass saved; IDR columns migrated; unresolved fields retained |
+| [BOSS guitar](guitar-boss.md) | 7 | **Next: start at GT-1000CORE** |
+| [NUX](guitar-nux.md) | 6 | Pending |
+| [Larger Valeton/Sonicake](guitar-floorboards.md) | 3 | Pending |
+| [Bass](bass.md) | 7 | Pending |
+| [Vocal](vocal.md) | 8 | Pending |
+| [Specialist](specialist.md) | 6 | Pending |
+| [Advanced modelers](advanced-modelers.md) | 6 | Pending |
 
-For historical provenance only, the original misplaced research was present at `kokizzu/edrums@cb8f25d34af28a159b6fbf6c472db95d064942ca`. Do not use that repository as the working destination or bring its drum files into instrumentfx.
+Transfer baseline in instrumentfx: `c82aa042ecf97647c9f877e0ceabf314880012d7`. Latest integrated compact research: **`c77420e66f01a1bad5d5e032d3f9e5ae70e515f5`**. These are recovery references, not reset instructions. The eight separate model findings commits are recorded in `completed_review_batches` in the JSON ledger.
 
-| Page | Models |
-|---|---:|
-| [guitar-compact.md](guitar-compact.md) | 8 |
-| [guitar-boss.md](guitar-boss.md) | 7 |
-| [guitar-nux.md](guitar-nux.md) | 6 |
-| [guitar-floorboards.md](guitar-floorboards.md) | 3 |
-| [bass.md](bass.md) | 7 |
-| [vocal.md](vocal.md) | 8 |
-| [specialist.md](specialist.md) | 6 |
-| [advanced-modelers.md](advanced-modelers.md) | 6 |
+## What the completed compact pass actually established
 
-**No record is certified fully verified.** Existing sources and values must be preserved, but previously labelled verified facts are not immune to correction when a source conflict is found. Cross-referenced models are not extra records.
+All eight existing compact records now have display rows and primary **IDR** comparison columns. Five diagonals are manufacturer-supported: GP-150/GP-180 at 2.4 inches; GP-50/Smart Box/Pocket Master at 1.77 inches. Color display evidence is recorded for all eight. **GP-100, GP-5 and Matribox diagonals remain unverified, and explicit touch specifications remain unverified for all eight.** Knob navigation or drag-and-drop wording is not treated as touch hardware proof.
 
-## Exact interruption state
+Seven models have identified local retail amounts, but several are sold out, ambiguous in stock status, or lack detailed condition confirmation. GP-100 has a separately labelled sold-out used asking price. Matribox's indexed **CN-language/preorder** offer is kept outside the English/global price range. **None of this establishes complete active used-to-new market ranges.** All old USD evidence is preserved in a separate provenance section; no FX rate was chosen.
 
-The user added screen size, monochrome/color, touchscreen and IDR-only comparison prices, requested incremental commits and an easily resumable checkpoint, then corrected the destination to `kokizzu/instrumentfx`. Those requirements and the data template are saved here.
+Specific technical corrections are integrated: GP-100 control count and pre/post looper modes; GP-50 separate button count; GP-5 documented USB/output/OS limitations with the FAQ date; Smart Box's explicit iOS/Android apps; Pocket Master's two USB-C roles. Existing unrelated specifications, sources and uncertainties are retained, not blanket re-certified.
 
-**The existing eight comparison pages still contain legacy USD price columns, and they do not yet have a complete display comparison for every model. Neither research migration has been completed.** Moving repositories does not complete either task. Do not report that all prices were converted or all screens were researched merely because this checkpoint exists. Preserve foreign-currency evidence in provenance when migrating; do not relabel a USD number as rupiah.
+The eight notes are linked from [the compact page](guitar-compact.md) and enumerated with commit SHAs in [the ledger](research-state.json).
 
-The comparison README supplies navigation inside `effects/`; the repository root README identifies instrumentfx as the canonical project. The separate electronic-drum comparison must remain intact and separate.
+## Exact next task: BOSS GT-1000CORE
 
-## Next batch — start here
+Start with **`effects/guitar-boss.md`**, beginning with **BOSS GT-1000CORE**. Then review GX-10, GT-1, GX-1, ME-90, GX-100 and GT-1000.
 
-Start with the **8 existing records in `guitar-compact.md`**: Valeton GP-100, GP-150, Sonicake Matribox, Valeton GP-5, GP-50, GP-180, Sonicake Smart Box and Pocket Master.
+For each model:
 
-For this batch:
+- Read the existing full row/context and its source links. Verify exact model and firmware; do not transfer sibling-model features.
+- Establish screen presence/count, diagonal, monochrome/color and explicit touch support from primary sources. Distinguish segmented displays, status LEDs and auxiliary screens. Preserve `?` where evidence is insufficient.
+- Find dated Indonesian used/new offers. Mark sold-out asks as historical, index-only evidence as indexed, and conflicting availability as unconfirmed. Do not blend regional variants or treat a listing as a completed sale.
+- Where only foreign offers exist, either leave IDR unknown or use a **verified dated rate** with an explicit **FX estimate** label and original quote. Never relabel USD numbers as rupiah.
+- Commit each model's useful findings separately, preserving provenance. Integrate changes into the comparison, verify saved content, then update this checkpoint and the JSON cursor. Advancing a reviewed model does not certify all its fields complete; list unresolved fields.
 
-- Read the current complete page and its references before editing. Check official product pages/manuals for display count, diagonal, monochrome/color and touch capability. Unknown is `?`, not No; an LED indicator is not a graphical display. Do not estimate inches from a photograph.
-- Add a display table or explicit hardware columns for all eight models. Record `No display / N/A / No` only when established by documentation or a complete hardware inspection; record segmented numeric readouts separately from graphical displays.
-- Replace the **comparison price columns** with used-IDR and new-IDR columns. Prefer verifiable Indonesian seller observations. Where only a foreign offer is available, a conversion must be labelled `FX estimate`, retain the original offer and use a sourced, dated exchange rate. If neither local evidence nor a verified conversion is available, use `?`, not an invented amount.
-- Do not silently include tax, shipping or duties; identify included accessories and whether the used listing is an active asking price or older indexed evidence.
-- Keep all other processing, power, software, source and conflict notes intact. Update the page's check date only for the fields actually checked; preserve older observation dates.
-- Commit the completed batch, then update the page's statuses and next-model cursor in `research-state.json` and this file. Record unresolved fields even when moving to the next batch.
+After the BOSS page, continue in this order: **NUX → larger Valeton/Sonicake → bass → vocal → specialist → advanced modelers**. Return to unresolved compact fields when better evidence is found. Then expand the backlog, prioritising M-VAVE/CUVAVE, Mooer, Hotone and TC-Helicon alongside remaining mainstream families. This is a work queue, not a recommendation ranking.
 
-Continue the same migration in this order: `guitar-boss.md`, `guitar-nux.md`, `guitar-floorboards.md`, `bass.md`, `vocal.md`, `specialist.md`, `advanced-modelers.md`. Then expand the backlog, prioritising M-VAVE/CUVAVE, Mooer, Hotone and TC-Helicon plus the remaining mainstream modeler families. This ordering is a work queue, not a recommendation ranking.
+## Guardrails and unresolved conflicts
 
-## Guardrails for continuing
+Compact means width ≤200 mm **and** depth ≤140 mm, without rotation. Medium means ≤300×200 mm but not compact; large exceeds medium; unknown means unverified width/depth. Cable clearance and pedal travel are additional.
 
-Use current GitHub file reads and current blob SHAs before writes. Verify the destination is **kokizzu/instrumentfx**. Do not overwrite unrelated work or reset commits. Keep commits small enough to resume after each batch. Update model counts only when a distinct hardware/model record is actually added; firmware updates are not automatically new hardware.
+Keep original observation dates when only some fields are rechecked. A product landing page does not complete every required field. The other seven pages still have legacy USD comparison columns; the overall IDR/display migration is **not complete**.
 
-The **compact** filter is width ≤200 mm **and** depth ≤140 mm, without rotating the unit. **Medium** is ≤300×200 mm but not compact; **large** is otherwise; **unknown** when either dimension is not verified. Cable and pedal clearance are additional.
+Preserve conflicts: TONEX ONE memory count, MG-50Li factory/user/model counts, Matribox II Pro MIDI output, GP-100 rhythm/effect totals, firmware-specific NAM architecture limits, regional-language variants and conflicting seller stock markers. See the ledger and findings for details.
 
-Use the source rules in METHODOLOGY.md. Important unresolved conflicts include TONEX ONE memory counts, MG-50Li factory/user and model counts, Matribox II Pro MIDI output, and GP-100 rhythm counts. A model having an official page does not complete all its fields. The old catalogue's technical statements may need firmware-specific rechecking.
+## Continue without this chat
 
-No background worker or recurring automation is configured. This file is a durable checkpoint, not a promise of unattended research.
+> Continue the guitar, bass and vocal effects comparison in kokizzu/instrumentfx. Read effects/RESUME.md and effects/research-state.json. Resume at BOSS GT-1000CORE, verify display specifications and IDR prices, preserve existing research, commit each model's findings separately, and update the checkpoint. Keep unresolved compact fields recorded. Do not write effects research to edrums.
 
-## Copyable continuation request
-
-> Continue the guitar, bass and vocal effects comparison in kokizzu/instrumentfx. Read effects/RESUME.md and effects/research-state.json first. Resume the saved next batch without restarting the catalogue. Include screen size, monochrome/color and touchscreen fields; display used/new prices in IDR. Verify sources, preserve existing research, commit each completed part and update the checkpoint. Do not commit instrument-effects work to kokizzu/edrums.
+No background worker or recurring research automation is configured.
