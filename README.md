@@ -1,42 +1,38 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**80 active partial models ·13 comparison pages ·6 excluded archival records ·2026-10-14**
+**Checkpoint 2026-10-15: 96 active partial models · 15 comparison pages · 6 excluded archives.**
 
-Work and commits belong in **kokizzu/instrumentfx**. The edrums project was a formatting reference only; [transfer/cleanup audit](effects/MIGRATION.md).
+Source-backed research prioritizing **Shopee Indonesia** and **every eligible multi-effects unit the owner has ever owned**. Research is ongoing: this count is not a claim of exhaustive market coverage, current stock or complete verification of every field.
 
-## Latest comparison
+## Open the comparisons
 
-**[MOOER GE100 Pro / Pro Li and GE200 Pro / Pro Li](effects/shopee-multifx-4.md)** are now researched in four separate immediate commits. The tables cover controls,expression,screen size/color/touch,IDR evidence,processing,memories,ports,power,apps and IR/NAM distinctions, with sources and explicit unknowns.
-
-| Model | Individual findings commit |
+| Comparison | What it contains |
 |---|---|
-| GE100 Pro | `e048a3c` |
-| GE100 Pro Li | `1a8da46` |
-| GE200 Pro | `6545475` |
-| GE200 Pro Li | `2526192` |
+| **[All models by category](effects/README.md)** | Navigation across guitar, bass, vocal, compact, larger, effects-only and synth/multi-effects processors |
+| **[Remaining MOOER variants](effects/shopee-multifx-6.md)** | GE150 Plus/Plus Li/Max/Max Li and GE1000 Li, with distinct battery/power specifications and source conflicts |
+| **[Recovered six-model batch](effects/shopee-multifx-5.md)** | Ampero MP-100, Ampero II MP-350, Ampero II Stage MP-380, GE1000, HX Stomp XL and non-Li GE150 Pro; the interrupted response had already saved their individual findings |
+| **[Ever-owned additions](effects/owned-multifx.md)** | GR-55, B1Xon, original GEM BOX, MINI-X, Pocket Amp, H8 and VING Flybro FB-100; other owned models stay on their existing pages |
+| [MOOER Pro variants](effects/shopee-multifx-4.md) | GE100 Pro/Pro Li and GE200 Pro/Pro Li |
+| [Shopee evidence and queue](effects/shopee-indonesia.md) | Exact model/item evidence, unresolved variants, historical asks and remaining discovery |
 
-Prices retain sold-out,voucher,preorder,region and platform caveats. Native NAM is not inferred from conversion support. A review with missing fields is not full verification.
+Every model's finding links its primary technical sources and separate price evidence. Each newly researched model is committed individually before the next; summary-table integration does not count as another model.
 
-The already-saved **[Roland GR-55 and Zoom B1Xon](effects/owned-multifx.md)** findings are also integrated. [Ever-owned history](effects/OWNERSHIP.md) preserves20 identified product/model entries, including former/donated gear; missing models and unresolved identities remain queued. These20 owner rows are not20 extra technical records. Private receipts/order identifiers are not published.
+## What is compared
 
-## Browse and resume
+Expression built-in/external/toe; separate knobs, footswitches and buttons; **used/new IDR**; simultaneous blocks and choices per category; I/O; preset/user memory; synth/acoustic functions; dimensions/weight; power/battery/USB operation; IR, native/converted NAM and proprietary captures; editor platforms; **screen diagonal, monochrome/color and touchscreen**. Looper, rhythms, scenes, routing, headphones, phantom power and firmware restrictions are included where documented.
 
-**[All comparisons](effects/README.md)** · [Shopee Indonesia evidence](effects/shopee-indonesia.md) · [Coverage](effects/COVERAGE.md) · [Scope](effects/SCOPE.md) · [Methodology](effects/METHODOLOGY.md)
+Unknown remains unknown. A color screen does not prove touch; USB does not prove bus power; a cabinet IR is not an amp capture. Imported/converted NAM is not unrestricted native NAM. Prices retain exact condition, stock, voucher, preorder, bundle and regional qualifications; sold-out asks are not completed sales. [Methodology](effects/METHODOLOGY.md).
 
-**[RESUME.md](effects/RESUME.md)** and **[research-state.json](effects/research-state.json)** contain current inventory, exact next model, per-model commits, source gaps and deferred work. Next marketplace model: **Hotone Ampero MP-100**, then Ampero II MP-350. Next missing owned model: **original JOYO GEM BOX**. The original BOSS GT-1000CORE display/IDR review remains deferred,not discarded.
+## Ownership and scope
 
-Four Shopee expansion pages contain **32 active records**. Neither that inventory nor the whole catalogue is exhaustive. Seven original pages still need their display/IDR migration, and many used prices remain unknown.
+[Ownership history](effects/OWNERSHIP.md) preserves former and donated units. The five previously missing named profiles are now integrated, including manufacturer-confirmed original JOYO GEM BOX and VING/Flybro identity. The owned2025 BlackBox revision and some vocal/headphone identities remain unresolved. A newly recovered direct statement names **Audota AME-100**; it must not be replaced by the earlier assistant's AVE-100 guess.
 
-## Scope and counts
+**For guitars, only multi-effects processors.** Effects-only units can qualify without amp modeling or a built-in expression pedal. Genuine bass/vocal categories remain separate. **FV01, SY-1, SY-200, AC-3, VO-1 and XS-100 are excluded** from active comparisons and counts; historical research remains archived. [Scope and exclusions](effects/SCOPE.md).
 
-**For guitars, only multi-effects processors.** Effects-only units can qualify without amp modeling or an expression pedal. Genuine bass and vocal multi-effects remain separate categories. Dedicated-purpose pedals do not qualify merely because they contain several modes or presets.
+## Continue from saved work
 
-**FV01 is excluded**, as are BOSS SY-1,SY-200,AC-3,VO-1 and XS-100. Their research remains an excluded archive, never part of active totals. GM-800/GR-55 retain their documented multi-effects architecture and special-input qualifications.
+**[RESUME.md](effects/RESUME.md)** · **[Machine-readable ledger](effects/research-state.json)** · [Remaining coverage](effects/COVERAGE.md)
 
-Count reconciliation: old broad80 minus6 exclusions plus2 saved owned findings plus4 new MOOER models =**80 active**. The two80 counts have different membership. Historical counts/cursors are explicitly superseded. The [former full ledger](effects/research-state.history-2026-10-14.json) preserves every earlier individual commit, template and detailed unresolved field without overwriting source history.
+The checkpoint reconciles **80 previous active models + 6 recovered findings + 5 MOOER variants + 5 owned profiles = 96**. No duplicate notes, owners' quantities or archived pedals inflate the count. All records remain partial; seven original pages still need their display/IDR migration and many exact used/new quotes are unresolved.
 
-## Continuation request
-
-> Continue InstrumentFX in kokizzu/instrumentfx. Read SCOPE,OWNERSHIP,RESUME and research-state.json. Prioritize Shopee Indonesia multi-effects and all eligible ever-owned processors. Start at Hotone Ampero MP-100; retain owned-device gaps and the deferred BOSS queue. Verify sources,commit each model immediately,integrate and update the checkpoint. Keep excluded pedals out of active tables/counts. Never write effects research to edrums.
-
-No unattended research or recurring monitoring is configured.
+Work only in **kokizzu/instrumentfx/main**. The independent edrums project was a formatting reference, not the destination; [transfer/cleanup audit](effects/MIGRATION.md). Preserve history, verify current files before changes, commit each model immediately and advance the checkpoint. No unattended worker or recurring research is configured.
