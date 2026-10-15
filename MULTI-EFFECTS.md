@@ -39,11 +39,11 @@ All amounts are **IDR asking observations checked2026-10-15**, not authenticated
 | MX5 |? |Rp8.330.000 retail ask |Separate Rp5.500.000/Rp7.000.000 sold-out offers have unknown condition and are not assigned to used |
 | Tone Master Pro |? |Rp33.585.000 indexed retail asks |Older cached delivery information; stock,condition and bundle not verified |
 | GP-200LT |Rp3.000.000 seller-labelled used,Carousell,indexed |Rp4.635.000 indexed retail;Rp3.975.000 sold-out historical ask |Used condition is a seller claim; direct reopening failed; not an active range |
-| GE250 |? |Rp7.350.000 indexed retail;Rp4.995.000 sold-out/shop-holiday ask |Ready Stock title is contradicted by old cached timing; checkout not verified |
+| GE250 |? |Rp7.350.000 indexed retail;Rp4.995.000 sold-out/shop-holiday ask |Ready Stock title and old cached delivery dates do not establish current availability; checkout not verified |
 | Flex Prime |? |Rp10.215.000 andRp9.080.000 separate indexed retail asks |Rp9.605.000 sold-out offer remains separate; no authenticated price range |
 
 ## Reading footprint and scope
 
 **Compact:** width≤200 mm AND depth≤140 mm. **Medium:** width≤300 mm AND depth≤200 mm,excluding compact. **Large:** exceeds either medium boundary. **Unknown:** primary dimensions or axis mapping not established. Never substitute shipping dimensions or rotate a unit to force a fit. Cables,plugs,adapter space and pedal movement are additional.
 
-Guitar scope is multi-effects only,including effects-only processors; not every dedicated-purpose pedal with multiple modes qualifies. Flamma FV01 and BOSS SY-1,SY-200,AC-3,VO-1,XS-100 remain excluded archives. Genuine bass and vocal processors remain separate. The current inventory and unfinished consolidation are recorded in `research-state.json`, not new progress Markdown files. No GitHub workflow is used.
+Guitar scope is multi-effects only,including effects-only processors; not every dedicated-purpose pedal with multiple modes qualifies. Flamma FV01 and BOSS SY-1,SY-200,AC-3,VO-1,XS-100 remain excluded archives. Genuine bass and vocal processors remain separate. The current inventory and unfinished consolidation are recorded in `research-state.json`,not new progress Markdown files. No GitHub workflow is used.
