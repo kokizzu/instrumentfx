@@ -1,0 +1,60 @@
+# Fender multi-effects
+
+## Tone Master Pro
+
+**Checked 2026-10-15. Guitar/bass multi-effects with a separate mic/line processing path; large footprint; no built-in expression.** This record distinguishes the original manual and product-page figures from later firmware changes. Unknowns are explicit, not inferred from a competing processor.
+
+### Hardware, memory and loading
+
+| Required field | Evidence-backed value / limitation |
+|---|---|
+| Expression | No built-in pedal; **two 6.35 mm TRS expression inputs plus a separate toe-switch input**. External amp-control TRS switches up to two amplifier functions. [M4] |
+| Controls | **2 ordinary rotary encoders plus 10 rotary footswitch encoders / 10 footswitches / 0 separate front buttons**. Encoder pushes are not counted again; rear ground-lift, update, reset and power controls are separate. [M3,M4] |
+| Main display | **7-inch color touchscreen**. Resolution not established in checked primary text. [P,M3] |
+| Auxiliary displays | Dedicated LCD scribble strips for footswitches and navigation/master controls. Their diagonals and explicit color/touch properties remain unverified; LED ring colors are not LCD color specifications. [M3] |
+| Dimensions / weight | **371 W ×261.6 D ×96.4 H mm;4 kg** on product page. Original manual gives261.4 mm depth: preserve0.2 mm discrepancy rather than use these as a precision drilling template. Large; plugs add clearance. [P,MS] |
+| Presets | **504 user-created locations** in the original manual; factory collection is separate, current factory-filled count unverified. Do not interpret the marketing's over500 as500 factory+500 user. [M8] |
+| Processing / simultaneous limit | Reorderable amp/cab/effect blocks, serial/parallel and instrument/mic routing templates; DSP-dependent. **Exact current numerical block ceiling remains unverified**. Original manual allows up to two IR blocks; current firmware-specific exceptions require confirmation. [M11,M12] |
+| Categories and counts | Original six groups were Stompbox,Modulation,Delay,Reverb,Dynamics+EQ,Filter+Pitch. Firmware1.7 separates Dynamics/EQ/Filter/Pitch and adds Synth. Current complete per-category totals remain untranscribed; the product's100+ is not an audited current total. [M11,R] |
+| Synth | **Yes: Aethon Polysynth,Cerberus Polysynth,Wavemorph Polysynth**, introduced in1.7.53. Later Cirrostratus Synthverb is separately a reverb algorithm, not an additional verified general synthesizer. [R] |
+| Electric-to-acoustic simulation | **Not established**. Acoustasonic preamp is documented for piezo-equipped electric/acoustic instruments; this alone does not prove an electric-to-acoustic simulator. [G] |
+| IR loading | Third-party speaker IR import through Pro Control; manufacturer advertises6000+ factory cabinet/microphone-position IRs. Exact user-file slot capacity and current accepted file/sample limits remain unverified. Factory IR combinations are not6000 different effect algorithms. [P,M12] |
+| NAM / captures | Native NAM, NAM conversion and user amp-capture loading/creation **not established** by the checked manufacturer documentation. Factory cabinet IR capture is not onboard amp-capture functionality. |
+
+### I/O, power and software
+
+One6.35 mm instrument input; one balanced XLR/6.35 mm combo mic/line input with **48 V phantom on XLR only**;3.5 mm aux; Output1 has two XLR and two balanced6.35 mm outs; independently assignable Output2 has two balanced6.35 mm outs; dedicated6.35 mm stereo headphones. [P,M4]
+
+Four send/return pairs: **loops1/2 are fixed analog pre-conversion loops**, useful for input-sensitive fuzz pedals; loops3/4 can be positioned in the digital path and paired for stereo. Firmware1.7 permits loops3/4 in the mic/line path. Separate five-pin MIDI IN/OUT-THRU,USB-C,microSD,expression/toe/amp control and IEC mains inlet. MicroSD backup support and MIDI over USB were added after the old manual, so its future-expansion wording is not a current limitation. [M4,M12,R]
+
+**Power: universal100–240 V AC,50/60 Hz,40 W**, supplied IEC cable; no DC pedal-adapter polarity applies. Regional store120V/230V labels are not a substitute for the manufacturer's universal input specification. Internal battery and USB-powered operation are not documented. [MS,M4]
+
+**Pro Control full editor: Windows10 x64 22H2/Windows11,macOS12.7+,iOS13.1+,Android8 arm64-v8a+.** Mobile editing is documented, not merely Bluetooth audio. Linux editor unverified. Firmware and app release generation must match. [R,J]
+
+**USB4-in/4-out**, standard dry/processed recording and reamping; internal44.1 kHz, project synchronization44.1/48/88.2/96 kHz. In standard mode computer-return3/4 are disabled; reamp mode enables them for instrument/mic reamping and mutes the physical inputs. Windows ASIO driver is separate from the editor. [P,M35,R]
+
+### Firmware and stage/practice distinctions
+
+The English support page retrieved here starts with **1.8.45,2026-06-03**; the Japanese official page documents **1.8.58,2026-07-15**, with later fixes. Do not label the older English headline the latest known firmware. The newer version also renames FBE/Freeman models to Forge; old names in an earlier guide are not additional models. [R,J]
+
+**Looper expanded from the product page's60 seconds to three minutes in1.7.53.** Three polysynths and MIDI-over-USB support were added in that same release. The June2026 update adds8 amps,8 cabinets and15 effects; these are update increments, not the complete library and not to be added again to an updated model list. Scene/snapshot functions, songs/setlists,tuner and delay/reverb spillover are documented; no measured global latency is asserted. [R,J,P]
+
+### IDR price evidence
+
+| Class | Amount | Source and qualification |
+|---|---:|---|
+| Retail indexed hardware ask | **Rp33.585.000** | [Seven Stereo,shop16879370/item21195037830](https://shopee.co.id/Fender-Tone-Master-Pro-Multi-effects-Guitar-Processor-Tonemaster-i.16879370.21195037830). Cached July delivery text; not checkout-confirmed stock or condition |
+| Separate indexed hardware ask | **Rp33.585.000** | [shop1408254222/item27020240400](https://shopee.co.id/Fender-Tone-Master-Pro-Multi-effects-Guitar-Processor-tonemaster-Multi-FX-Efek-Gitar-Elektrik-Electric-Listrik-i.1408254222.27020240400). Cached October8–9 text; direct reopening failed |
+| Condition-verified used offer | **?** | No verified used-price evidence obtained |
+
+Neither a seller name nor cached delivery text authenticates a shop, confirms accessories/regional warranty, or supplies a current delivered-price range. No percentage-of-new used estimate or currency conversion is used.
+
+### Sources and inspection limits
+
+[P] [Fender product and specifications](https://www.fender.com/products/tone-master-pro).
+[R] [Official English firmware/app release history](https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates).
+[J] [Official Japanese firmware/app history](https://jp-support.fender.com/hc/ja/articles/53331084071451-TONE-MASTER-PRO-%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2-%E3%83%97%E3%83%AD%E3%83%88%E3%82%B3%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88).
+
+Supplementary original **Fender Owner's Manual firmware1.1.100**, not the host site's generated FAQ: [M3 controls,printedp.3](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=5); [M4 rear panel,printedp.4](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=6); [M8 memory,printedp.8](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=10); [M11 block types](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=13); [M12 loop/IR operation](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=14); [M35 USB](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=37); [MS original specifications](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=45).
+
+[G] [Original Fender model guide1.2.55 text](https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26), Acoustasonic description. Firmware updates above supersede old feature omissions. Official linked PDFs and mirror PDF downloads failed to open; original manufacturer text was read via HTML, **not a successful PDF visual inspection**. Remaining gaps include current category inventory/block ceiling,IR capacities/formats,auxiliary display specifications and condition-verified used pricing.
