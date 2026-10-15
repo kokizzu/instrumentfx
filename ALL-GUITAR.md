@@ -20,7 +20,7 @@ Root brand documents are canonical for the specific models consolidated there. L
 | **Donner** |1|[DONNER.md](DONNER.md): Arena2000, now with newly sourced manufacturer dimensions; other family leads not yet counted. |
 | **M-VAVE** |12 overall,10 in this guitar view|[M-VAVE.md](M-VAVE.md): all twelve profiles consolidated; TANK-B and Cube Baby Bass are in the bass view. |
 
-These brands contain64 unique currently recorded models across instruments. Their manufacturer-confirmed but unresearched leads are not added to that count. Root documentation still has26 unconsolidated profiles within Hotone, Valeton and MOOER; the existence of a brand file does not mean every model has been merged.
+These brands contain64 unique currently recorded models across instruments. Manufacturer-confirmed but unresearched leads are not added to that count. Within these nine brands,26 profiles in Hotone, Valeton and MOOER still need complete root consolidation; the existence of a brand file does not mean every model has been merged.
 
 ## Complete recorded guitar inventory
 
@@ -31,6 +31,7 @@ These brands contain64 unique currently recorded models across instruments. Thei
 | BOSS |GT-1000CORE; GX-10; GT-1; GX-1; ME-90; GX-100; GT-1000; VE-8; GM-800|[GT/GX/ME](effects/guitar-boss.md), [VE-8 acoustic/vocal](effects/vocal.md), [eligible GM-800](effects/specialist.md). |
 | CUVAVE |H8|[Owned technical comparison](effects/owned-multifx.md); hand-operated processor. Not another MINI-X record. |
 | Donner |Arena2000|[Root profile](DONNER.md#arena2000); official rounded dimensions now recorded, other manual gaps preserved. |
+| **Fender** |**Tone Master Pro**|[Root profile](FENDER.md#tone-master-pro); instrument and microphone paths with firmware-qualified looper/synth updates. |
 | Flamma |FX100; FX200; **FX150**|[Root profiles](FLAMMA.md); FX150 and FX200 each retain160-versus161 count conflicts. Battery suffixes are not silently merged. |
 | HeadRush |Core; Flex Prime; MX5|[HEADRUSH.md](HEADRUSH.md), all three root profiles. |
 | Hotone |Ampero Mini MP-50; Ampero MP-100; Ampero II MP-350; Ampero II Stage MP-380; Ampero II Stomp MP-300; Ampero One MP-80|[Root One](HOTONE.md#ampero-one-mp-80); [legacy Mini](effects/shopee-multifx.md); [MP-100/350/380](effects/shopee-multifx-5.md); [Stomp](effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md). |
@@ -53,7 +54,7 @@ These brands contain64 unique currently recorded models across instruments. Thei
 
 Guitar-thru, chord detection or a reverb side path alone does not make a vocal unit a guitar multi-effects. VE-8 and Play Acoustic qualify through documented acoustic-guitar processing, not assumed electric amp modeling. FV01 and BOSS SY-1, SY-200, AC-3, VO-1 and XS-100 remain excluded archives.
 
-Every full profile distinguishes built-in/external expression, controls, screen diagonal/color/touch, blocks versus category choices, I/O, memory, synth/acoustic functions, power, IR/NAM, software and used/new IDR. Unknown is not No. Onboard screenless units remain eligible; presets and amp modeling are not required for an independent multi-effect signal chain.
+Every full profile distinguishes built-in/external expression, controls, screen diagonal/color/touch, blocks versus category choices, I/O, memory, synth/acoustic functions, power, IR/NAM, software and used/new IDR. Unknown is not No. Screenless units remain eligible; presets and amp modeling are not required for an independent multi-effect signal chain.
 
 Ever-owned status is independent of current stock or possession. The rejected MG-400 order and GP-50 backup plan are not ownership tags. Former/donated gear remains; private receipt/order information is not published.
 
