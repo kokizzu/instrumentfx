@@ -6,7 +6,7 @@
 |---|---|
 | Expression | Built-in volume/expression and toe switch; no external EXP input in complete connector inventory [M,J] |
 | Knobs / footswitches / buttons | **3 / 3 / 6**; MASTER, SELECT, MODE; A/B/C; PLAY, SAVE, EXP, TAP, RHYTHM, SYSTEM. Rear power and toe switches separate [M] |
-| Display | **2.8-inch LCD**. Color mode and explicit touchscreen hardware specification remain unverified in successfully inspected primary material. Do not inherit retailer touch claims [M] |
+| Display | **2.8-inch color LCD**. Original parameter-editing instructions specify green selection backgrounds, and the looper instructions specify red onscreen progress bars. These are display-color evidence, not status-LED inference. **Explicit touchscreen specification remains unverified** [M] |
 | Dimensions / weight | **256×145×54 mm L×W×H; 1.02 kg**, agreeing between manual and official Li page. Exact W/D relabelling not silently assumed; not compact [M,J] |
 | Power | **9 V DC, 1.5 A specified supply, center-negative**. Not the non-Li 300-mA requirement. USB operation/charging not established; the USB-C audio connection alone proves neither [M] |
 | Battery | **7.4 V, 2000 mAh, 14.8 Wh rechargeable lithium-ion; approximately 9-hour manufacturer rating**, not measured runtime [M,J] |
@@ -28,10 +28,10 @@ The [saved mixed Plus/Plus Li Shopee preorder, shop1696008947/item57810886739](h
 
 ## Sources and limitations
 
-[M] MOOER-authored shared [Owner's Manual PDF](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416.pdf), [text](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416). Numbered controls, full connectors and appendix read; PDF screenshot attempts failed with cache misses, so no visual-inspection claim. Exclude generated mirror descriptions/FAQ from evidence.
+[M] MOOER-authored shared [Owner's Manual PDF](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416.pdf), [text](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416). Numbered controls, full connectors and appendix read; color confirmed from original Parameter editing and Looper text. PDF screenshot attempts failed with cache misses; no visual-inspection claim. Exclude generated mirror descriptions/FAQ from evidence.
 
 [J] [Official Japanese Plus Li page](https://mooer.jp/products/mooer-ge150plus-li), Li-specific battery/dimensions/mass and feature description. Its generic battery-drive dash contradicts its explicit battery section; the explicit Li specification is retained, not the template dash.
 
 [D] [Manufacturer family release notes](https://www.mooeraudio.com/Downloads_xq/6.html), indexed primary text; version/date/region distinctions retained.
 
-Next: **GE150 Max non-Li**, then Max Li. Outstanding for this model: screen color/touch, USB power/channels, precise factory-filled count, firmware/region import constraints, current used/new prices. A first pass is not full verification.
+**Correction 2026-10-15:** screen color now established, replacing the first-pass unknown. Outstanding: touch, USB power/channels, precise factory-filled count, firmware/region import constraints, current used/new prices. The Max/Max Li records are separately committed; this correction is not a new model.
