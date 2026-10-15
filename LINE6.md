@@ -1,6 +1,6 @@
 # Line 6 multi-effects
 
-Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless is newly researched here; the standard POD Go profile is consolidated from its existing source-backed record without adding another model to the inventory. Other legacy Line 6 records still require consolidation; no whole-repository migration claim is made. No GitHub Actions workflows are used.
+Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Express Guitar are newly researched here; the standard POD Go profile is consolidated from its existing source-backed record without adding another model to the inventory. Other legacy Line 6 records still require consolidation; no whole-repository migration claim is made. No GitHub Actions workflows are used.
 
 ## POD Go and POD Go Wireless
 
@@ -103,6 +103,54 @@ Do not combine these variants into one used-to-new range. No guessed currency co
 
 The existing standard record originated in commit `4f82a0b2893f2ec4b9bf7a01a45da394acca1164`, source blob `14f1c485763e10810e2f4ee673f41436edc6970f`. Its fields,prices,source URLs,known conflicts and incomplete-verification qualifications are retained here. The old file is not deleted until full migration/link validation. Consolidation does not count standard POD Go twice.
 
+## POD Express Guitar
+
+**New model, checked2026-10-15.** The2024-generation POD Express Guitar is not the older Pocket POD Express, POD Express Bass, or POD Express Black. It is a fixed-chain guitar multi-effects processor; no built-in expression. The current edit application must not be omitted because an older launch document mentioned only updating.
+
+| Required field | Verified value / explicit remaining gap |
+|---|---|
+| Expression | No built-in pedal; **one TRS VOLUME/FS3,4 socket** accepts a volume expression pedal, two external switches, or a pedal plus one switch with the specified cable. Arbitrary expression control of every effect parameter is not established. [PE-G,PE-M] |
+| Physical controls | **6 rotary /2 footswitches /1 button**: AMP push-encoder,four effect knobs,side volume thumbwheel;ON and TAP;ALT button. Encoder press is not a second button. [PE-G] |
+| Screen | **No graphical or numeric screen**. Seven multicolor LED segments and switch indicators show state/tuning/parameters; they are not a color LCD. Screen diagonal/color-mode N/A; touchscreen No. [PE-G] |
+| Dimensions / mass / size bin | Manufacturer-backed W×D×H and mass **not established in the inspected primary sources**. Do not promote reseller92×130×56mm/350g to a verified specification or estimate from photos. Size bin remains unverified. |
+| Simultaneous processing | **Four category-selected effects plus amp and cabinet**, with gate and volume functions. Fixed serial order; not eight freely assignable blocks or a parallel chain. Looper shares the Delay selector rather than adding another independent delay engine. [PE-M] |
+| Library | **7 amps,7 cabinets,17 effect choices including the looper**. Effect categories: Distortion4,Modulation4,Delay4,Reverb4,Looper1. Gate/volume are separate utilities, not additional entries in the advertised17. [PE-G,PE-M] |
+| Distortion choices | Boost,Overdrive,Distortion,Fuzz. |
+| Modulation choices | Chorus,Flanger,Phaser,Tremolo. |
+| Delay / reverb choices | Delay: Analog,Digital,Tape,Pong. Reverb: Spring,Hall,Plate,Space. The looper occupies the Delay category when selected. [PE-M] |
+| Presets | **21 total overwriteable locations**; factory-labelled sounds can be replaced by user settings. Not21 factory plus21 user. Factory-filled subset is not independently quantified here. [PE-G,PE-M] |
+| Synth / acoustic simulation | **No dedicated synth or electric-to-acoustic simulator identified in the complete documented Guitar-model effect library**. Bass/Black variant functions are not transferred to this unit. |
+| IR / NAM / captures | Seven factory cabinet models and cabinet bypass are documented. Third-party IR, native/converted NAM or user amp-capture import is **not established** in the documented2.00/edit workflow. Preset import is not IR/capture import. |
+| Audio I/O | One6.35mm mono input,1MΩ;two6.35mm main outputs L/MONO,R;dedicated3.5mm stereo headphones. Main outputs are **680Ω impedance-balanced TRS,not true differential balanced**; preserve the manufacturer's distinction. No mic/XLR/phantom,analog aux or FX loop in the complete panel inventory. [PE-IO,PE-G] |
+| Data/control | USB-C for recording,reamp and editing;one shared external-control socket as above. No physical DIN/TRS MIDI connection documented; do not infer general MIDI functionality from an operating system's Audio MIDI Setup name. |
+| Battery / DC / USB power | **3 AA** or **9V center-negative,2.1mm pin,at least500mA/4.5W supply**; adapter sold separately. **USB-powered operation explicitly unsupported.** Plugging into the instrument input switches battery operation on. Supply rating is not measured draw. [PE-F,PE-M] |
+| Battery runtime | Manufacturer typically at least6h alkaline,up to10h under ideal conditions; headphones,DSP and interaction affect this. Rechargeable AA chemistry may work but changes battery indication/runtime; internal recharging is not established. [PE-F] |
+| Configuration | **POD Express Edit Windows/macOS/iOS/iPadOS/Android**, full editing and preset management,requires hardware2.00+. Desktop firmware updates through Line6 Central1.02+; Linux full editor not established. [PE-R,PE-M,PE-F] |
+| USB audio | **4-in/4-out,24-bit/48kHz**; processed recording1/2,dry3/4,USB3/4 reamp. Windows ASIO driver; macOS/iOS/Android class compliant. Power still comes from batteries/DC,not USB. [PE-M,PE-F] |
+| Looper / live features | **30-second stereo looper**,post-processing,one-switch control,undo/redo;selecting it replaces the Delay-category effect. Changing presets,exiting looper mode or power-off clears the loop. Tuner,tap and assignable external switches; internal drums not established. [PE-M] |
+
+### POD Express Guitar — routing and software qualifications
+
+Without headphones,using only L/MONO sums stereo effects to mono. With headphones connected,the manual says L/MONO carries only the left channel for stereo effects; do not promise the same mono-sum behavior in both configurations. Volume expression sits after amp/cab and before post effects. The looper is documented after the processing chain. [PE-M]
+
+The2.00 manual has inconsistent OS-minimum tables: its introduction lists macOS11,Windows10,iOS/iPadOS15 and Android6 for editing/8 for audio,while the later editor section lists older macOS10.14 and iOS12.1. Platforms are established; **current minimum supported OS versions remain unresolved**, not selected arbitrarily from one table. The official FAQ's October2024 shipping firmware2.00 statement is dated evidence,not proof it is the latest firmware in October2026. [PE-M,PE-F]
+
+### POD Express Guitar — IDR evidence
+
+**Rp3.030.000**, [Seven Stereo, Shopee shop16879370/item26763471564](https://shopee.co.id/Line-6-POD-Express-Guitar-INT-P38-1-i.16879370.26763471564), indexed2026-10-15 with **Layanan Tidak Tersedia/service unavailable**. It establishes a hardware asking-price record,not an active checkout offer. Exact condition,bundle,warranty,region,stock and shipping remain unverified. **Used IDR: ?**. No guessed used discount,FX conversion or comparison against an unrelated older Pocket POD Express.
+
+### POD Express official sources
+
+[PE-G] [Official POD Express Guitar product and complete numbered panel](https://line6.com/podexpress/guitar-effects).
+
+[PE-F] [Official Guitar/Bass/Black FAQ](https://kb.line6.com/pod-express-guitar-pod-express-bass-pod-express-black-faq), explicit no-USB-power rule,battery,driver and dated firmware statements.
+
+[PE-IO] [Official input/output specification](https://kb.line6.com/pod-express-input-and-output-specs), including impedance-balanced output distinction.
+
+[PE-R] [Official resources and editor description](https://line6.com/podexpress/resources).
+
+[PE-M] **Line6/Yamaha-authored2.00 Owner's Manual,RevE,2024**, [original complete manual text](https://device.report/m/308188e1724d71b19719491ca6b3176709d7ead87c9a2e25f72e6ce38aee9a57). Used the actual manual's controls,signal-flow,model tables,looper,preset,USB and editor sections,not generated retailer/mirror summaries. Direct PDF retrieval failed; no successful PDF visual inspection is claimed. The official product's numbered panel independently supports controls and screen absence. Conflicting OS-minimum tables remain recorded.
+
 ## Other Line 6 records awaiting consolidation
 
-HX Stomp,HX Effects and HX Stomp XL already have research in legacy pages and are not newly discovered models. Merge their complete records and sources before retiring the old files. **Next new research: POD Express Guitar, then POD Express Bass.** Keep brand/category/instrument documents at repository root and keep GitHub workflows disabled/uncreated.
+HX Stomp,HX Effects and HX Stomp XL already have research in legacy pages and are not newly discovered models. Merge their complete records and sources before retiring the old files. **Next new research: POD Express Bass; POD Express Black requires separate exact Shopee discovery.** Keep brand/category/instrument documents at repository root and keep GitHub workflows disabled/uncreated.
