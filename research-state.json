@@ -4,37 +4,48 @@
   "branch": "main",
   "checked_date": "2026-10-15",
   "research_complete": false,
-  "active_model_count": 114,
+  "active_model_count": 117,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One + new MX5 = 114. Standard POD Go is counted only once despite its root consolidation.",
+  "canonical_root_model_count": 12,
+  "legacy_only_model_count": 105,
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": ["AGENTS.md", "research-state.json", "README.md"],
   "rules": {
-    "github_actions": "FORBIDDEN: do not create, enable, dispatch, rerun or use workflows; never create .github/workflows/",
+    "github_actions": "FORBIDDEN: do not create, enable, dispatch, rerun or use workflows; never create .github/workflows/ or any Actions workaround.",
     "markdown_layout": "Root BRAND.md, CATEGORY.md and ALL-INSTRUMENT.md only, plus README.md and AGENTS.md. No new dated findings, progress parts, RESUME/history Markdown or effects/ documents.",
     "research_priority": "Eligible multi-effects found on Shopee Indonesia, plus eligible ever-owned units. Re-search brands and series when saved leads are exhausted.",
-    "guitar_scope": "Multi-effects only; preserve genuine bass/vocal categories. Dedicated-purpose pedals and FV01 excluded.",
-    "specifications": "Manufacturer product pages, original manuals, firmware/software documentation. Seller listings support price/availability evidence, not authoritative specifications.",
-    "prices": "Used/new IDR separately; preserve dates, seller/item, condition, stock, region, bundle, voucher and indexed/direct-access qualifications. No guessed FX or used-price discount.",
-    "commit_policy": "Commit each researched model before researching another; update relevant views and this ledger. Preserve useful partial findings and explicit unknowns.",
-    "merge_policy": "Read complete source, preserve every factual qualifier and URL, verify destination before retiring old files. No destructive history rewrite or silent data loss.",
-    "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications and current retention."
+    "guitar_scope": "Multi-effects only; genuine bass/vocal categories retained. Dedicated-purpose pedals and FV01 excluded.",
+    "specifications": "Manufacturer product pages, original manuals, firmware/software documentation. Sellers establish asking-price evidence, not authoritative technical specifications.",
+    "prices": "Used/new IDR separately; preserve dates, seller/item, condition, stock, region, bundle, voucher and indexed/direct-access limitations. No guessed FX or percentage-of-new used prices.",
+    "commit_policy": "Commit each model's useful findings before researching another; update affected views and this ledger. A first-pass profile with unknowns is not fully verified.",
+    "merge_policy": "Read complete source, preserve every factual qualifier and source URL, verify destination and incoming links before retiring old files. Do not merely rename progress files or change extensions and call it consolidation. No destructive history rewrite.",
+    "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fender Tone Master Pro",
-    "destination": "FENDER.md",
-    "task": "Verify exact Shopee offers, then official hardware/manual/firmware/model lists. Commit root brand record immediately, update category/instrument views and inventory. Do not create workflows.",
-    "next_models": ["Valeton GP-200LT", "MOOER GE250"],
-    "after_queue": "Search Shopee again by remaining brand/series, excluding preset packs, cases, controllers and already recorded models. Also complete unresolved fields and root consolidation."
+    "model": "Valeton GP-200JR",
+    "destination": "VALETON.md",
+    "task": "Recheck the exact GP-200JR Shopee hardware offer, then official model-specific product/manual/firmware evidence. Do not copy GP-200LT dimensions, controls, power or NAM behavior without explicit applicability. Append the full model record, commit immediately, update instrument/category views and inventory. Never create workflows.",
+    "listing_url": "https://shopee.co.id/VALETON-GP200JR-GP-200JR-efek-digital-multi-effect-gitar-bass-i.3086066.25864478892",
+    "next_models": ["HeadRush Prime", "MOOER GE300"],
+    "after_queue": "Search Shopee again by remaining brand/series. Exclude preset packs, cases, controllers, unselected accessory variations and already recorded models. Continue unresolved-field research and lossless root consolidation."
   },
   "new_findings": [
-    {"model":"HeadRush MX5","path":"HEADRUSH.md#mx5","commit":"d05c409255abc846cef541daa093d62aa6f8944e","checked_date":"2026-10-15","status":"partial","unresolved":["preset/storage ceiling","pixel resolution","explicit battery/USB-power support","any newer editor/capture support","condition-verified used price"]}
+    {"model":"HeadRush MX5","path":"HEADRUSH.md#mx5","commit":"d05c409255abc846cef541daa093d62aa6f8944e","checked_date":"2026-10-15","status":"partial","unresolved":["preset/storage ceiling","pixel resolution","explicit battery/USB power","any newer model-specific editor/capture support","condition-verified used price"]},
+    {"model":"Fender Tone Master Pro","path":"FENDER.md#tone-master-pro","commit":"85bc8c6b87166b251e7b5d025d5f3445709df95e","checked_date":"2026-10-15","status":"partial","unresolved":["current complete category counts","numerical block ceiling","user IR capacity/formats","auxiliary display specifications","current condition-verified used pricing"]},
+    {"model":"Valeton GP-200LT","path":"VALETON.md#gp-200lt","commit":"482454632b60b49390954bd7ec23b4458d55d685","checked_date":"2026-10-15","status":"partial","unresolved":["full current category inventory","explicit touch/battery/USB power","IR source-file conversion rules","capture architectures/concurrency","current stock and condition confirmation"]},
+    {"model":"MOOER GE250","path":"MOOER.md#ge250","commit":"9c65e37fd6b761e163ac1e0987e339db616e9d78","checked_date":"2026-10-15","status":"partial","unresolved":["complete module-button count","10 blocks versus11 module types","10 versus15 user IR capacity","current full algorithm list","70 versus150-second regional looper discrepancy","touch/USB power","current software/firmware","used prices"]}
+  ],
+  "consolidation_and_price_findings": [
+    {"models":["HeadRush Core","HeadRush Flex Prime"],"destination":"HEADRUSH.md","commit":"b30cec0c6a31cb1dd638fa10d250489c7186d458","source_blobs":{"core_finding":"dcff2b12eb7dc4196c93fdba5d8ca274d99d57f2","advanced_comparison":"f4ecc7b15636ab477803031d34bf280afa9b98dc"},"scope":"Complete existing model-specific facts, source URLs and limitations consolidated; Core/Flex technical dates remain2026-10-14. New Flex Prime Shopee price evidence checked2026-10-15. No duplicate model count and no old source deleted."}
   ],
   "discovery_leads": [
-    {"model":"Fender Tone Master Pro","url":"https://shopee.co.id/Fender-Tone-Master-Pro-Multi-effects-Guitar-Processor-Tonemaster-i.16879370.21195037830","indexed_idr":33585000,"qualification":"Older cached July delivery text; checkout and condition unverified"},
-    {"model":"Valeton GP-200LT","url":"https://shopee.co.id/Multi-Efek-Valeton-GP-200LT-i.306155985.18571942511","indexed_idr":4635000,"qualification":"Indexed October delivery text; not checkout verification"},
-    {"model":"MOOER GE250","url":"https://shopee.co.id/-Ready-Stock-mooer-ge250-guitar-amp-modelling-and-multy-effect-pedal-efek-multy-ge-250-mooer-original-i.31173885.24036833309","indexed_idr":7350000,"qualification":"Ready Stock title with cached June delivery; not current stock proof"}
+    {"model":"Valeton GP-200JR","url":"https://shopee.co.id/VALETON-GP200JR-GP-200JR-efek-digital-multi-effect-gitar-bass-i.3086066.25864478892","indexed_idr":4980000,"seller":"RD Music","qualification":"Cached7October delivery; condition, accessories, region and checkout stock unverified"},
+    {"model":"Valeton GP-200JR","url":"https://shopee.co.id/Valeton-GP-200JR-GP200JR-GP-200-JR-Compact-Multi-Effects-Guitar-Processor-i.2655003.50205711474","indexed_idr":4970000,"qualification":"WITH VOUCHER; do not merge with unconditional asks or apply unrelated voucher compensation"},
+    {"model":"HeadRush Prime","url":"https://shopee.co.id/HEADRUSH-PRIME-%E2%80%93-Next-Generation-Guitar-FX-Amp-Modeler-and-Vocal-Processor-Touchscreen-Pedalboard-Original-i.945642322.52161712736","indexed_idr":22789000,"seller":"HOLY MUSIC","qualification":"Indexed hardware ask; not authenticated live stock"},
+    {"model":"HeadRush Prime","url":"https://shopee.co.id/Headrush-Prime-Guitar-Multi-Effect-Amp-Modelling-Processor-Second-Bekas-i.1149776042.54402465704","indexed_idr":15400000,"qualification":"Explicit SECOND/BEKAS and SOLD OUT; historical used ask, not active stock or proven completed sale"},
+    {"model":"MOOER GE300","url":"https://shopee.co.id/-Ready-Stock-mooer-ge300-amp-modelling-synth-multy-efek-multy-effect-mooer-Original-ge-300-i.31173885.29362925028","indexed_idr":11928000,"seller":"Vin's Music Store","qualification":"Ready Stock title has cached8May delivery; current availability not established"}
   ],
   "inventory_by_brand": {
     "Audota":["AME-100","AME-200","AME-200 Pro","ACE-100","AVE-100"],
@@ -42,13 +53,14 @@
     "BOSS":["GT-1000CORE","GX-10","GT-1","GX-1","ME-90","GX-100","GT-1000","GT-1B","GX-1B","ME-90B","VE-1","VE-2","VE-500","VE-22","VE-8","VE-20","GM-800"],
     "CUVAVE":["H8"],
     "Donner":["Arena2000"],
+    "Fender":["Tone Master Pro"],
     "Flamma":["FX100","FX200"],
     "HeadRush":["Core","Flex Prime","MX5"],
     "Hotone":["Ampero Mini MP-50","Ampero MP-100","Ampero II MP-350","Ampero II Stage MP-380","Ampero II Stomp MP-300","Ampero One MP-80"],
     "IK Multimedia":["TONEX ONE","TONEX Pedal"],
     "JOYO":["GEM BOX original","GEM BOX II","GEM BOX III"],
     "Line 6":["HX Stomp","HX Effects","HX Stomp XL","POD Go","POD Go Wireless","POD Express Guitar","POD Express Bass"],
-    "MOOER":["GE100 original","GE150 original","GE150 Pro Li","GE200 original","GE100 Pro","GE100 Pro Li","GE200 Pro","GE200 Pro Li","GE1000","GE150 Pro","GE150 Plus","GE150 Plus Li","GE150 Max","GE150 Max Li","GE1000 Li"],
+    "MOOER":["GE100 original","GE150 original","GE150 Pro Li","GE200 original","GE100 Pro","GE100 Pro Li","GE200 Pro","GE200 Pro Li","GE1000","GE150 Pro","GE150 Plus","GE150 Plus Li","GE150 Max","GE150 Max Li","GE1000 Li","GE250"],
     "M-VAVE":["TANK-G","TANK-B","TANK MINI","MK-20","MK-300","TANK-PRO","ANN Blackbox","MINI-X","Pocket Amp","CUBE BABY electric","CUBE BABY AC","CUBE BABY BASS"],
     "Neural DSP":["Nano Cortex"],
     "NUX":["MG-101","MG-300 original","MG-300 MKII","MG-400","MG-30","MG-50Li","MG-100","MG-200","TRIDENT NME-5"],
@@ -56,33 +68,48 @@
     "Scorpion":["KMF-10"],
     "Sonicake":["Matribox QME-50","Smart Box QME-20","Pocket Master QME-10","Matribox II QME-100","Matribox II Pro QME-200"],
     "TC-Helicon":["VoiceLive Play","Play Acoustic"],
-    "Valeton":["GP-100","GP-150","GP-5","GP-50","GP-180","GP-200"],
+    "Valeton":["GP-100","GP-150","GP-5","GP-50","GP-180","GP-200","GP-200LT"],
     "VING":["Flybro FB-100"],
     "Zoom":["B1 FOUR","B2 FOUR","B6","B1X FOUR","V6-SP","V3","G1 FOUR","G1X FOUR","G2 FOUR","G2X FOUR","B1Xon","G6","G11"]
   },
   "root_brand_content": {
-    "HEADRUSH.md":["MX5"],
+    "HEADRUSH.md":["MX5","Core","Flex Prime"],
+    "FENDER.md":["Tone Master Pro"],
+    "VALETON.md":["GP-200LT"],
+    "MOOER.md":["GE250"],
     "HOTONE.md":["Ampero One MP-80"],
     "LINE6.md":["POD Go","POD Go Wireless","POD Express Guitar","POD Express Bass"],
     "ZOOM.md":["G11"]
   },
+  "instrument_views": {
+    "ALL-GUITAR.md":{"record_count":97,"scope":"All currently recorded guitar/acoustic models; shared vocal/general-instrument devices can overlap other views","migration":"Root brand links where consolidated; legacy source links explicitly retained for all other models"},
+    "ALL-BASS.md":{"bass_focused_record_count":11,"scope":"Complete bass-focused inventory plus documented cross-instrument references; broader bass-capability classification remains partial"},
+    "ALL-VOCAL.md":{"record_count":15,"vocal_only_count":9,"combined_instrument_count":6,"scope":"Documented vocal or mic/line processing; mic path alone is not proof of harmony or pitch correction"},
+    "MULTI-EFFECTS.md":{"root_model_summary_count":12,"scope":"Expression/size/display comparisons for root canonical records plus qualified recent IDR offers; not all117 technical rows"},
+    "counts_overlap":true,
+    "do_not_sum_view_counts":true
+  },
   "migration": {
-    "complete": false,
-    "legacy_effects_directory_present": true,
-    "new_progress_markdown_created": false,
-    "existing_root_brand_files_have_unmerged_legacy_models": true,
-    "root_category_and_instrument_views": "pending creation/reconciliation",
-    "warning": "Do not call all files migrated. Existing legacy findings retain information not yet fully consolidated. No old source was deleted in this recovery.",
-    "legacy_reference_files": ["effects/research-state.json","effects/RESUME.md","effects/SCOPE.md","effects/OWNERSHIP.md","effects/METHODOLOGY.md","effects/shopee-indonesia.md"],
-    "stale_cursors_not_to_repeat": ["Audota AME-100","CUBE BABY family","BOSS GT-1000CORE display/IDR first pass","Zoom G11","Ampero One MP-80","POD Go Wireless","POD Express Guitar/Bass"]
+    "complete":false,
+    "legacy_effects_directory_present":true,
+    "new_progress_markdown_created":false,
+    "new_effects_directory_documents_created":false,
+    "root_category_and_instrument_views":"Created; legacy-only detailed records still require complete brand consolidation",
+    "headrush_saved_models_consolidated":true,
+    "old_sources_deleted_this_session":false,
+    "warning":"105 models still have their detailed canonical source only in legacy files. Root indexes are navigation views, not a completed lossless migration of those details. Read complete sources and verify all qualifiers/URLs/incoming links before deleting anything.",
+    "legacy_reference_files":["effects/research-state.json","effects/RESUME.md","effects/SCOPE.md","effects/OWNERSHIP.md","effects/METHODOLOGY.md","effects/shopee-indonesia.md"],
+    "stale_cursors_not_to_repeat":["Audota AME-100","CUBE BABY family","BOSS GT-1000CORE initial display/IDR pass","Zoom G11","Ampero One MP-80","POD Go Wireless","POD Express Guitar/Bass","HeadRush MX5","Fender Tone Master Pro","Valeton GP-200LT","MOOER GE250"]
   },
   "deferred_work": {
-    "original_display_idr_pages_remaining": ["effects/guitar-nux.md","effects/guitar-floorboards.md","effects/bass.md","effects/vocal.md","effects/specialist.md:GM-800 only","effects/advanced-modelers.md"],
-    "boss_review": "Existing first display/IDR pass is saved in effects/guitar-boss.md; do not restart from the stale legacy JSON cursor. Unresolved fields remain.",
-    "ownership": "21 identified entries,20 with profiles; owned2025 BlackBox revision,Zoom vocal model/bundle and RH-4 ownership still unresolved. Do not assume AVE-100 ownership from AME-100.",
-    "fields": ["condition-verified used/new IDR","full current category counts","unpublished display diagonals/touch","source conflicts","firmware-specific NAM versus conversion","power/USB operation","complete root consolidation"]
+    "original_display_idr_pages_remaining":["effects/guitar-nux.md","effects/guitar-floorboards.md","effects/bass.md","effects/vocal.md","effects/specialist.md:GM-800 only","effects/advanced-modelers.md:non-HeadRush records"],
+    "boss_review":"Existing first display/IDR pass is saved in effects/guitar-boss.md; unresolved fields remain. Do not restart from the stale legacy JSON cursor.",
+    "ownership":"21 identified entries,20 with profiles; owned2025 BlackBox revision,Zoom vocal model/bundle and RH-4 ownership remain unresolved. AME-100 ownership is not AVE-100 ownership. MG-400 rejected purchase and GP-50 backup plan are not confirmed ownership.",
+    "fields":["condition-verified used/new IDR","current complete category counts","unpublished display diagonals/touch","source conflicts","firmware-specific NAM versus conversion","power/USB operation","complete root consolidation"]
   },
-  "excluded_models": ["Flamma FV01","BOSS SY-1","BOSS SY-200","BOSS AC-3","BOSS VO-1","BOSS XS-100"],
-  "validation": {"unique_brand_model_pairs":114,"excluded_overlap":0,"count_method":"Sum inventory_by_brand list lengths; consolidation does not add models","date":"2026-10-15"},
-  "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in existing legacy files and Git history. They are not refreshed or re-certified by this ledger reconstruction."
+  "required_fields":["built-in/external/toe expression","rotary/footswitch/button counts","separate used/new IDR","simultaneous blocks and category choices","complete I/O","factory/user/total memory","synth versus acoustic simulation","dimensions/weight","power/current/polarity/battery/USB operation","IR/native NAM/converted NAM/proprietary captures","editor OS versus driver/updater","published display diagonal","monochrome/color","touchscreen"],
+  "excluded_models":["Flamma FV01","BOSS SY-1","BOSS SY-200","BOSS AC-3","BOSS VO-1","BOSS XS-100"],
+  "validation":{"unique_brand_model_pairs":117,"canonical_root_models":12,"legacy_only_models":105,"guitar_view_models":97,"bass_focused_models":11,"vocal_only_models":9,"vocal_view_models":15,"excluded_overlap":0,"count_method":"Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models","date":"2026-10-15"},
+  "legacy_provenance":"Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
+  "response_handoff":"At the end of a research session provide the user a copyable agent continuation prompt with this exact cursor, no-workflow boundary, root-document layout, per-model immediate commits and unresolved consolidation. Never promise unattended background continuation."
 }
