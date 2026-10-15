@@ -1,38 +1,65 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**Checkpoint 2026-10-15: 96 active partial models · 15 comparison pages · 6 excluded archives.**
+**117 active model records · 23 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
-Source-backed research prioritizing **Shopee Indonesia** and **every eligible multi-effects unit the owner has ever owned**. Research is ongoing: this count is not a claim of exhaustive market coverage, current stock or complete verification of every field.
+Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
-## Open the comparisons
+## Browse by instrument and category
 
-| Comparison | What it contains |
+| View | Contents |
 |---|---|
-| **[All models by category](effects/README.md)** | Navigation across guitar, bass, vocal, compact, larger, effects-only and synth/multi-effects processors |
-| **[Remaining MOOER variants](effects/shopee-multifx-6.md)** | GE150 Plus/Plus Li/Max/Max Li and GE1000 Li, with distinct battery/power specifications and source conflicts |
-| **[Recovered six-model batch](effects/shopee-multifx-5.md)** | Ampero MP-100, Ampero II MP-350, Ampero II Stage MP-380, GE1000, HX Stomp XL and non-Li GE150 Pro; the interrupted response had already saved their individual findings |
-| **[Ever-owned additions](effects/owned-multifx.md)** | GR-55, B1Xon, original GEM BOX, MINI-X, Pocket Amp, H8 and VING Flybro FB-100; other owned models stay on their existing pages |
-| [MOOER Pro variants](effects/shopee-multifx-4.md) | GE100 Pro/Pro Li and GE200 Pro/Pro Li |
-| [Shopee evidence and queue](effects/shopee-indonesia.md) | Exact model/item evidence, unresolved variants, historical asks and remaining discovery |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |All97 recorded guitar/acoustic models,including genuine combined instrument/vocal processors; links to full records |
+| **[ALL-BASS.md](ALL-BASS.md)** |All11 bass-focused models plus documented multi-instrument cross-references; wider bass-capability classification remains open |
+| **[ALL-VOCAL.md](ALL-VOCAL.md)** |15 documented vocal/mic-path processors,with vocal-only and separate instrument paths distinguished |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Expression,footprint,screen and processing summaries for the12 root-canonical models,plus qualified recent IDR evidence |
 
-Every model's finding links its primary technical sources and separate price evidence. Each newly researched model is committed individually before the next; summary-table integration does not count as another model.
+Instrument views overlap; a shared processor counts once. View counts are not added to obtain the catalogue total.
 
-## What is compared
+## Root brand documents
 
-Expression built-in/external/toe; separate knobs, footswitches and buttons; **used/new IDR**; simultaneous blocks and choices per category; I/O; preset/user memory; synth/acoustic functions; dimensions/weight; power/battery/USB operation; IR, native/converted NAM and proprietary captures; editor platforms; **screen diagonal, monochrome/color and touchscreen**. Looper, rhythms, scenes, routing, headphones, phantom power and firmware restrictions are included where documented.
+| Brand file | Currently consolidated models |
+|---|---|
+| [HEADRUSH.md](HEADRUSH.md) |MX5,Core,Flex Prime |
+| [FENDER.md](FENDER.md) |Tone Master Pro |
+| [VALETON.md](VALETON.md) |GP-200LT |
+| [MOOER.md](MOOER.md) |GE250 |
+| [HOTONE.md](HOTONE.md) |Ampero One MP-80 |
+| [LINE6.md](LINE6.md) |POD Go,POD Go Wireless,POD Express Guitar,POD Express Bass |
+| [ZOOM.md](ZOOM.md) |G11 |
 
-Unknown remains unknown. A color screen does not prove touch; USB does not prove bus power; a cabinet IR is not an amp capture. Imported/converted NAM is not unrestricted native NAM. Prices retain exact condition, stock, voucher, preorder, bundle and regional qualifications; sold-out asks are not completed sales. [Methodology](effects/METHODOLOGY.md).
+Other recorded models remain accessible through the instrument indexes while their complete source material is being consolidated into root brand documents. Do not create a new dated finding,progress part or document under `effects/`.
 
-## Ownership and scope
+## Research saved in the current pass
 
-[Ownership history](effects/OWNERSHIP.md) preserves former and donated units. The five previously missing named profiles are now integrated, including manufacturer-confirmed original JOYO GEM BOX and VING/Flybro identity. The owned2025 BlackBox revision and some vocal/headphone identities remain unresolved. A newly recovered direct statement names **Audota AME-100**; it must not be replaced by the earlier assistant's AVE-100 guess.
+| New model | Initial model commit | Evidence highlights |
+|---|---|---|
+| HeadRush MX5 |`d05c409` |Official category counts,11-slot processing,model-specific power and between-rig tail limitations |
+| Fender Tone Master Pro |`85bc8c6` |Instrument/mic routing,regional firmware-history differences,three-minute looper and documented polysynth update |
+| Valeton GP-200LT |`4824546` |Version1.8 SnapTone documentation,external-only expression,editable memory and balanced-output distinctions |
+| MOOER GE250 |`9c65e37` |Five footswitches,acoustic algorithms,one configurable MIDI socket and retained count/IR/looper conflicts |
 
-**For guitars, only multi-effects processors.** Effects-only units can qualify without amp modeling or a built-in expression pedal. Genuine bass/vocal categories remain separate. **FV01, SY-1, SY-200, AC-3, VO-1 and XS-100 are excluded** from active comparisons and counts; historical research remains archived. [Scope and exclusions](effects/SCOPE.md).
+Each model was committed before researching the next. Core and Flex Prime were subsequently consolidated into HEADRUSH.md,with technical observation dates retained and additional Flex Prime IDR offers saved in `b30cec0`. Consolidation and repeated prices do not add models.
 
-## Continue from saved work
+All model records separate knobs/footswitches/buttons,expression,used/new IDR,simultaneous blocks versus algorithm choices,ports,presets,synth/acoustic functions,dimensions/weight,power/battery/USB,IR/native-versus-converted NAM/proprietary captures,editor platforms and screen size/color/touch. Looper,drums,scenes,routing,headphones,phantom and special pickup requirements remain included where documented.
 
-**[RESUME.md](effects/RESUME.md)** · **[Machine-readable ledger](effects/research-state.json)** · [Remaining coverage](effects/COVERAGE.md)
+## What remains
 
-The checkpoint reconciles **80 previous active models + 6 recovered findings + 5 MOOER variants + 5 owned profiles = 96**. No duplicate notes, owners' quantities or archived pedals inflate the count. All records remain partial; seven original pages still need their display/IDR migration and many exact used/new quotes are unresolved.
+**Next research model: Valeton GP-200JR**, then **HeadRush Prime** and **MOOER GE300**. Exact newly found Shopee item links and their price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
 
-Work only in **kokizzu/instrumentfx/main**. The independent edrums project was a formatting reference, not the destination; [transfer/cleanup audit](effects/MIGRATION.md). Preserve history, verify current files before changes, commit each model immediately and advance the checkpoint. No unattended worker or recurring research is configured.
+The inventory was reconciled from113 previously saved unique models plus the four new models above. Older96/104 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
+
+**Organization migration is incomplete:**12 detailed models are now root-canonical;105 still rely on legacy source records. The new instrument views are complete navigation for the recorded categories,not a claim those legacy details have already been migrated. No old source was deleted in this pass. Preserve every fact,source URL,date,variant distinction,correction and unresolved contradiction; verify the destination and incoming links before retiring old files.
+
+## Scope and ownership
+
+For guitars,include **multi-effects processors only**. Effects-only processors can qualify without amp modeling or a built-in pedal. Multiple modes on a dedicated-purpose pedal do not automatically qualify. **Flamma FV01,BOSS SY-1,SY-200,AC-3,VO-1 and XS-100 remain excluded** from active counts and candidate tables. Genuine bass and vocal categories remain separate; guitar-thru or chord detection alone is not guitar multi-effects.
+
+Ever-owned coverage includes former/donated and hand-operated multi-effects. The preserved ownership overlay has21 identified entries,20 with technical profiles; the older BlackBox revision,exact Zoom vocal model/bundle and RH-4 ownership remain unresolved. AME-100 ownership does not establish AVE-100 ownership. The rejected MG-400 order and GP-50 backup plan are not confirmed purchases. Private receipt/order/payment information must not be published.
+
+## Evidence and resuming
+
+Start with **[AGENTS.md](AGENTS.md)** and **[research-state.json](research-state.json)**. The root ledger contains every model once,per-model commits,exact next leads,remaining consolidation and exclusions. Use current branch contents; never reset/force-push to a checkpoint or overwrite concurrent work.
+
+Specs require official manufacturer documentation. Seller pages establish offers,not authoritative specs. Unknown is not No; color does not imply touch,USB does not imply bus power,and IR import does not imply NAM. Historical/sold-out/conditional prices are not current retail ranges or completed sales. Preserve currency provenance and never guess exchange rates or secondhand discounts.
+
+Continue through ordinary research and repository file commits. **Do not create,enable,dispatch,rerun or use GitHub workflows**,including as a workaround for failed downloads or merges. Keep the agent continuation state in JSON,not another progress Markdown document.
