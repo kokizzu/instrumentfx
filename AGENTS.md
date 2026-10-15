@@ -1,29 +1,37 @@
-# InstrumentFX project instructions
+# InstrumentFX agent instructions
 
-## Repository boundary
+## Repository and execution boundary
 
-The working repository is **kokizzu/instrumentfx**, default branch **main**. Verify the exact owner/repository before writing. **Do not commit instrument-effects research to kokizzu/edrums**; it is only a formatting reference for the independent drum comparison.
+Work only in **kokizzu/instrumentfx**, default branch **main**. Verify the owner/repository before every write. Do not write instrument-effects research to kokizzu/edrums. Never reset history, force-push, or overwrite unrelated concurrent changes.
 
-## Latest scope correction — 2026-10-14
+**Do not create, add, enable, dispatch, rerun, or otherwise use GitHub Actions workflows. Do not create .github/workflows/ files.** This is an explicit repeated user instruction, not a suggestion. Do not introduce CI, scheduled jobs, workflow badges, or Actions-based conversion/scraping. Check and transform files locally or with ordinary repository file/Git operations. A difficult merge or unavailable local network is not permission to use Actions.
 
-**For guitars, include only multi-effects processors. Flamma FV01 is excluded from the multi-effects comparison at the user's explicit direction.** Read `effects/SCOPE.md` before interpreting older coverage totals, specialist pages or research queues. This correction supersedes the original request's broader inclusion of individual guitar effects.
+## Required document layout
 
-Do not add dedicated distortion, reverb, delay, acoustic-simulator, vocoder, pitch-shifter or single synth pedals merely because they offer multiple modes, presets or related algorithms. Controller-only hardware and accessories are also outside the processor comparison. A guitar input, guitar-thru output or guitar-reverb side path does not make a vocal pedal a guitar multi-effects processor.
+The user wants root-level **[BRAND].md**, **[CATEGORY].md**, and **ALL-[INSTRUMENT].md** documents, not date/progress/batch Markdown files and not new documents under effects/. Use brand files as canonical technical records and category/instrument files as comparison views with links to the brand sections. README.md and this AGENTS.md are navigation/instructions, not progress reports. Save the machine-readable inventory, exact resume cursor, sources and unresolved tasks in **research-state.json**, not new RESUME/history/batch Markdown documents.
 
-Effects-only multi-effects processors are eligible; amp modeling, a built-in expression pedal and a particular footswitch count are not mandatory. Multi-instrument/synth processors with substantial independent multi-effects processing are considered on their documented architecture, not their brand or the presence of one synth sound. Keep genuine bass and vocal multi-effects separate; the user has not cancelled those original categories.
+Legacy effects/ files still require a lossless consolidation. Read complete source content before merging. Preserve every source URL, field qualification, historical price date, model/revision distinction, correction and unresolved contradiction. Do not delete an old source until the corresponding content has been verified in its root-level destination. Do not merely rename dated findings or change their extensions and call that a merge. Historical commits already preserve history; do not create more per-progress Markdown snapshots.
 
-Keep excluded research only as clearly labelled archival/specialist reference, never in active multi-effects totals or shopping tables. Record borderline classifications as pending rather than silently admitting them. Do not erase ownership history when an item is donated or later found outside the comparison scope.
+During transition, the latest root files and root research-state.json take precedence; consult legacy files that have not yet been consolidated. Do not claim the whole migration is complete while legacy files remain.
 
-## Resume instead of restarting
+## Scope
 
-Read `effects/SCOPE.md`, `effects/OWNERSHIP.md`, `effects/RESUME.md`, `effects/research-state.json`, `effects/METHODOLOGY.md` and the relevant current comparison page. Preserve the inventory, source links, unresolved facts and next-model cursor. Check current file SHAs before updates; never reset or force-push to an old checkpoint. An older file's broad scope wording does not override this correction.
+For guitars, include **multi-effects processors only**. Effects-only processors can qualify without amp modeling, an expression pedal, or a minimum number of switches. A dedicated pitch shifter, acoustic simulator, vocoder, drive, delay, reverb or synth pedal does not qualify merely because it offers modes or presets. Controllers, tuners, pickups, cases, power supplies and downloadable preset packs are not multi-effects hardware.
 
-## Required output
+**Flamma FV01 is explicitly excluded.** BOSS SY-1, SY-200, AC-3, VO-1 and XS-100 are excluded archival specialist records, not active guitar multi-effects. Preserve genuine bass and vocal multi-effects as separate categories. A guitar-thru, chord-detection input or guitar-reverb side path alone does not qualify a vocal unit as guitar multi-effects. GM-800/GR-55 inclusion depends on their documented independent multi-effects architecture and retains their pickup limitations.
 
-Compare eligible guitar, bass and vocal multi-effects, organised by instrument/function, size and expression support. Include every required field, especially **screen size, monochrome/color, touchscreen and separate used/new IDR prices**. Never infer specifications or exchange rates. Keep unavailable values explicitly unknown and original foreign-price evidence separate from IDR values.
+Include all eligible units the owner has ever owned, including former/donated units and handheld processors. Ownership is an attribute, not another technical record. Shopping plans and the rejected MG-400 order do not establish ownership. Do not publish private mailbox links, receipt/order identifiers, payment data, or message contents.
 
-Include all eligible multi-effects the owner has ever owned, not just the current board or currently available Shopee products. Use direct ownership statements and checked purchase evidence; do not promote shopping plans or the rejected MG-400 purchase to ownership. Keep private receipt contents and order identifiers out of the public repository.
+## Research priority and evidence
 
-## Incremental commits
+Start with remaining **Shopee Indonesia** hardware leads, verify each exact model's specifications using **official manufacturer product pages, manuals, firmware notes and software documentation**. Manufacturer-authored copies on mirrors can supplement inaccessible official files only after identity/revision checks; generated mirror FAQs are not evidence. Seller pages establish offers, not authoritative hardware specifications. If the saved queue is exhausted, search Shopee again by brand and series rather than claiming market coverage is complete.
 
-Commit every researched model's useful findings immediately, before starting another model. Save verified partial work without claiming an entire model is complete. Update the checkpoint/cursor after integration and verify saved files. Ownership rows, cross-references, archived exclusions and duplicate notes do not inflate active model counts.
+Each model needs built-in/external/toe expression; separate rotary/footswitch/button counts; separate used/new **IDR** evidence; simultaneous blocks and per-category choices; complete ports; factory-filled/user/total memories; synth/acoustic distinctions; unit dimensions/weight; power/current/polarity/battery/USB operation; IR/native-versus-converted NAM/proprietary captures; editor platforms; and published display diagonal, monochrome/color and touchscreen. Preserve looper, drums, scenes, routing, headphones, phantom and firmware restrictions.
+
+Unknown is not No. Do not estimate screen diagonals from photos, borrow sibling specifications, silently mix variants, or infer USB power/audio/MIDI from connector presence. Keep exact revisions and source conflicts visible. Do not call a first pass fully verified when fields remain unknown.
+
+Prices must buy hardware, not an accessory or unresolved lowest-priced variation. Keep seller/item IDs, condition, variant, bundle, stock state, voucher, region, check date and direct/indexed access limitations. A cached or sold-out ask is not live stock or a completed sale. Do not invent used-price discounts or exchange rates.
+
+## Immediate commits and resumability
+
+Research one model, update its root brand document, commit the useful findings **before starting the next model**, and update affected category/instrument views and research-state.json. Verify saved contents and inventory counts. If interrupted, inspect commits and newer brand content before trusting an older cursor. Count each distinct active model once, exclude archives, and preserve unresolved fields. Never create a GitHub workflow to automate any of this.
