@@ -1,0 +1,133 @@
+# Sonicake multi-effects
+
+[All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)
+
+**Six active profiles:** five existing Matribox/Smart Box/Pocket Master records consolidated with their original **2026-10-14** evidence, plus **Sonic Wood newly researched2026-10-15**. All retain explicit verification gaps. The official [digital multi-effects collection](https://www.sonicake.com/collections/multi-effects) and separate [Sonicbar collection](https://www.sonicake.com/collections/multi-effects-pedal) cover different families; searching only one collection misses eligible products.
+
+K/F/B means rotary controls / main footswitches / separate buttons; encoder presses count once. Power and expression-toe switches are separate. Screen color does not prove touch. A single TRS stereo output is not a pair of balanced mono outputs. Prices are IDR with dated qualifications; no guessed foreign exchange or used-price percentage.
+
+## Matribox QME-50
+
+**Existing review2026-10-14.** Original Matribox, not II or II Pro.
+
+| Field | Preserved finding / uncertainty |
+|---|---|
+| Expression / controls | Built-in expression; external support unverified. **5/2/4**, confirmed in original firmware1.1.0 manual printed p.3. Toe-switch detail not established in retained record. |
+| Display / body | Color graphical display; diagonal, technology and explicit touch unverified. **200 W ×137.5 D ×53.6 H mm;732 g**, compact; plugs/pedal travel additional. |
+| Processing | **Nine movable blocks;130+ models**, including40 amps,38 factory cabinets,50+ other effects. Exact category subcounts and synth/acoustic algorithms remain unverified. |
+| Presets | **99 factory +99 user =198**. |
+| Loading | **15 user IR slots**. Official software section advertises **NAM A2 workflow**; exact native/converted architecture and compatibility limits are not established by that wording alone. |
+| I/O | 6.35 mm input;two6.35 mm L/R outputs;3.5 mm AUX and dedicated headphones;USB. Exact USB subtype and complete electrical details remain to reconcile with matching manual. |
+| Power | DC9V; current and polarity not yet established in the retained first-pass record. Battery/USB-powered operation not established. |
+| Apps / practice | Windows/macOS editor;USB audio;90-second looper;100 rhythms. Current NAM update order and regional firmware matter. |
+
+### Matribox — regional IDR and firmware evidence
+
+Used **?**; English/global new price **?**. [Jakmall/LOBAJET](https://www.jakmall.com/lobajet/sonicake-matribox-qme-50-multi-effects-processor-pedal) was indexed **Rp2.095.650**, explicitly **Chinese/CN-language and preorder**, with a seller warning that language cannot be changed. This is a particular seller's variant claim, not proof all QME-50 units share that restriction. Do not mix it into an English/global price range or assume global firmware is safe for that unit. Warranty,accessories,taxes,shipping and stock remain unverified. Unresolved used-category snippets were not promoted to a dependable used price.
+
+At the original check, [manufacturer product/software](https://www.sonicake.com/products/matribox) listed firmware **1.1.0** and NAM-capable desktop software **1.1.1**; update instructions require **older software1.0.2** for the firmware-update step, then the newer application. This documents a workflow, not testing every architecture/region. Earlier **USD129.99** official-store quote remains foreign provenance, not an IDR value.
+
+Sources: [official color/control photograph](https://www.sonicake.com/cdn/shop/products/QME-50.jpg?v=1678434988&width=1096); [firmware1.1.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433). Previous p.3 visual inspection confirms controls; photograph confirms color,not diagonal/touch. The global downloads do not resolve the region of a specific listing. Remaining: primary diagonal/touch,complete power/USB details,category inventory,algorithm functions and exact local offers.
+
+## Smart Box QME-20
+
+**Existing review2026-10-14.**
+
+| Field | Preserved finding / uncertainty |
+|---|---|
+| Expression / controls | No built-in expression; **EXP/FS input**. **1/2/13**,rear power separate. |
+| Screen / dimensions | **1.77-inch color LCD**,pixel resolution/touch unverified. **135 W ×114 D ×51 H mm;378 g**,compact. |
+| Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB;130+ choices,individual subcounts ?. |
+| Memory / sound | **100 locations,50 factory-filled**. Exact synth/electric-to-acoustic algorithms unverified. |
+| IR / NAM | **Five user IR slots**;third-party NAM/NAM A2 workflow advertised. Exact architectures/native-versus-converted handling unverified. |
+| I/O | 6.35 mm instrument input;**one6.35 mm TRS stereo output**;separate3.5 mm stereo headphones;EXP/FS;USB-C. |
+| Power | **2000mAh rechargeable battery;9V center-negative >700mA or USB5V >1A**. Supply requirements are not independently measured runtime. |
+| Configuration | Desktop Windows/macOS;**SONICLINK iOS/Android explicitly listed**,1.7.2 at check. Not an inferred mobile platform. |
+| Audio / practice | **USB2-in/2-out**,loopback/reamp;20-second looper;100 rhythms;tuner. |
+
+Retail **Rp1.840.000**, [Shopee sonicakeindonesia,shop1563832992/item54263539629](https://shopee.co.id/SONICAKE-SMART-BOX-Multi-Effect-Processor-i.1563832992.54263539629). The exact page was retrieved in the original pass; detailed condition,quantity and checkout availability were not exposed. Seller name/location in East Jakarta do not establish authorization. Used **?**. Delivery banners are not inventory proof;discounts,taxes,bundle/shipping unverified. Earlier **USD94.99** is foreign provenance only.
+
+Sources: [manufacturer product/downloads](https://www.sonicake.com/products/smart-box); [original multilingual manual](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf),English p.5 visually inspected in original review; [official panel photo](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1440). Physical navigation does not establish an explicit no-touch specification. Remaining: touch,NAM restrictions,complete category list and condition-specific prices.
+
+## Pocket Master QME-10
+
+**Existing review2026-10-14. Handheld/desktop multi-effects, not conventional foot-operated hardware.** Separate from M-VAVE Pocket Amp.
+
+| Field | Preserved finding / uncertainty |
+|---|---|
+| Expression / controls | No built-in expression; external expression not established. **1/0/2**,two palm buttons are not footswitches. |
+| Display / body | **1.77-inch color LCD**,explicit touch unverified. **103.5 W ×85 D ×28.5 H mm;194 g**,compact. |
+| Processing | **Nine modules,100+ choices,20 amps**. DRV/AMP/IR/EQ fixed;NR/FX1/FX2/DLY/RVB movable. Exact synth/acoustic choices ?. |
+| Presets / loading | **50 noneditable factory +50 editable user =100**;five user IR slots. NAM A2 workflow supported in Manager/SONICLINK;not proof of unrestricted native NAM. |
+| Ports | 6.35 mm input;**one6.35 mm TRS stereo output shared with headphones**;**two USB-C sockets**,one audio/data and one power/charging. No separate headphone socket implied. |
+| Power / software | Built-in1000mAh lithium battery,USB5V. Windows/macOS Manager and iOS/Android SONICLINK. |
+| Audio / practice | USB stereo audio;99 rhythms. Remaining looper/algorithm/preset-operation details require further verification. |
+
+Retail **Rp1.025.000**, [Nafiri black QME-10BK](https://nafiriguitar.com/products/sonicake-pocket-master-qme-10bk-in-black),not the separateRp1.085.000 comparison price. Both Sold out and Add to cart appeared,so availability **unconfirmed**. Used **?**;old social/group asks not promoted to active offers. Variant,accessories,delivery and tax remain seller-dependent. Earlier **USD64.99** official quote retained without conversion.
+
+Sources: [manufacturer product](https://www.sonicake.com/products/pocket-master); [multilingual firmware1.3.0 manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312),English p.5 previously inspected; [official photograph](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440). Product/download page at original check listed firmware1.3.3,Manager1.5.2,SONICLINK1.7.2,not identical revision to the cited manual. Do not silently assume unchanged firmware behavior. Screen diagonal was documented,not estimated from housing.
+
+## Matribox II QME-100
+
+**Existing review2026-10-14.**
+
+| Field | Preserved finding / uncertainty |
+|---|---|
+| Expression / controls | Built-in plus external EXP/FS;**5/3/?**,toe/rear power separate. |
+| Dimensions / display | **276 W ×164 D ×55.8 H mm;1.54kg**,medium. Published display diagonal/color/touch still need a primary display pass in this retained record. |
+| Processing / presets | **Ten movable modules;63 amps,61 cabs,93+ pedal effects**;**198 locations,99 factory-filled**. Exact acoustic/synth algorithms unverified despite acoustic-related marketing. |
+| Loading | **15 user IRs**;NAM A2 desktop workflow advertised,architecture/conversion restrictions pending release-note reconciliation. |
+| Ports | 6.35 mm TS input;**two balanced mono6.35 mm TRS outputs**;mono TS FX send/return;3.5 mm AUX/phones;EXP/FS;3.5 mm TRS MIDI IN/OUT;USB-C. Two balanced outputs are not one stereo headphone socket. |
+| Power | **9V/1000mA center-negative**;battery/USB-powered operation not established. |
+| Apps / recording | Windows/macOS full editor;USB audio Windows/macOS/iOS/Android,not proof of mobile editing;loopback/reamp. |
+| Practice | **90-second looper;100 rhythms**;matched firmware/editor1.3.0 at original check. |
+| IDR | Used/new current model-specific qualified quotes not established in the original technical page. Historical Shopee discoveries need separate recheck;do not relabel foreign price. |
+
+Sources: [official model](https://www.sonicake.com/products/matribox-ii); [firmware1.3.0 original manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623). Original review visually checked panels and printed p.45 specifications;this consolidation is not a fresh image inspection. Earlier official-store **USD229.99** retained as2026-10-14 foreign provenance,excluding destination tax/shipping.
+
+## Matribox II Pro QME-200
+
+**Existing review2026-10-14.** Not interchangeable with Matribox II presets.
+
+| Field | Preserved finding / uncertainty |
+|---|---|
+| Expression / controls | Built-in plus external EXP/FS;**?/6/?**,toe/rear switches separate. |
+| Body / display | Primary dimensions,mass and size class unverified. Diagonal/color/touch evidence still needs a model-specific pass;long seller titles are not a substitute. |
+| Processing / memory | Exact simultaneous ceiling ?;**63 amps,61 cabinets,93+ pedal effects**;repeat effects of the same type supported. **240 locations,120 factory-filled**. |
+| Sound / loading | Pitch/Whammy-style use documented;exact synth/acoustic algorithms ?. **20 user IRs**,NAM A2 workflow advertised;unrestricted native loading not established. |
+| Ports | Two balanced XLR outs,FX loop,phones,AUX,external EXP/FS and USB documented. Complete connector inventory ?. **Feature list says MIDI I/O;official FAQ says MIDI output unsupported**. Preserve contradiction,not an assumed transmitter. |
+| Power / apps | DC9V,current/polarity ?;battery/USB bus power ?. Windows/macOS full editor;USB audio Windows/macOS/iOS/Android does not establish mobile editing. |
+| Practice / routing | **90-second looper,100 rhythms;single linear chain,no scenes**;**Matribox II presets incompatible**. |
+| Firmware / IDR | Original download listed firmware1.2.2,NAM software1.3.1;matching update sequence matters. Used/new qualified IDR ?. Old official-store **USD299.99** remains dated foreign provenance. |
+
+Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
+
+## Sonic Wood QCE-50
+
+**New profile2026-10-15. Acoustic-instrument multi-effects.** Its four independent stages qualify;it is not classified as an electric-to-acoustic simulator merely because it is for acoustic guitar.
+
+| Required field | Primary finding / explicit gap |
+|---|---|
+| Expression / controls | No built-in pedal. **Ten rotary controls,four footswitches,no separate front buttons**,counted in the official front photo:three PREAMP,three CHORUS,three DELAY,one REVERB. External-expression connection not established by the accessible text;rear complete inventory still needs the manual. |
+| Display | **No screen** on complete front image;LED status/illuminated knobs are not a graphical display. Screen diagonal/color N/A;no touch display. |
+| Body / mass | Global **262D×64W×45H mm;480g**. Official Japanese specification instead labels **262W×64D×44H mm**. Use the explicit Japanese horizontal orientation for a **medium** footprint,while retaining the axis/1mm-height disagreement. Not a precision drilling/fit template;plugs additional. |
+| Architecture / choices | Fixed four-stage **analog preamp with two-band EQ → chorus → digitally implemented analog-voiced delay → reverb**. One documented effect type per stage;not freely assignable blocks or a large algorithm library. |
+| Presets | No addressable preset bank documented in accessible official material;onboard knob settings. Exact state/storage operation requires readable manual;do not invent factory/user counts. |
+| Synth / acoustic simulation | No dedicated synth or electric-to-acoustic conversion established. Preamp models acoustic amplification for an acoustic input;that is not the same as converting electric-guitar timbre. |
+| I/O | Instrument input,main output and **balanced XLR output** visible/described;exact connector diameters/electrical ratings and full rear inventory not verified from available manual. **Headphone use explicitly unsupported** in manufacturer FAQ. No mic/phantom capability inferred from XLR output. |
+| Power | **9V DC,5.5×2.1mm center-negative,120mA**. Battery/USB-powered operation unverified;no digital connection or computer interface established. |
+| IR / NAM / captures | No verified user IR,NAM or capture import workflow. Its acoustic preamp is not an IR-loader claim. |
+| Configuration | Onboard controls;no official desktop/mobile editor established in accessible documentation. No USB-audio claim. |
+| Live / practice | **Tap tempo and tails on/off** explicitly documented. Looper/drum machine not established. |
+| Used IDR | **?**;no condition-verified public offer obtained. |
+| Retail IDR | **Rp1.650.000,SOLD OUT**, [MICKEYMOUSE shop19700013/item23348447957](https://shopee.co.id/Efek-Gitar-SONICAKE-Sonic-Wood-Multi-Effects-Pedal-4-In-1-Acoustic-i.19700013.23348447957). Indexed cached October4–7 delivery text;not live checkout stock or a completed sale. |
+
+Sources: [official global product/FAQ](https://www.sonicake.com/products/sonic-wood), [official Japanese model/specification](https://www.hotone.jp/brands/sonicake/products/sonic-wood), [official front photograph](https://www.sonicake.com/cdn/shop/products/QCE-50-11.jpg?v=1642924029&width=1096). Front photo successfully opened and inspected. The linked [manufacturer manual image](https://cdn.shopifycdn.net/s/files/1/0100/1950/4185/files/Sonic_Wood-User_Manual.jpg?v=1647482298) failed to fetch,as did attempted rear-detail photos;no complete manual/rear inspection is claimed. Retail condition,bundle,warranty,region,shipping and seller authenticity remain unverified;the listed ask is not an active market range.
+
+## Other Sonicbar models — confirmed research leads
+
+The [official Sonicbar collection](https://www.sonicake.com/collections/multi-effects-pedal) identifies **RockStage,Twiggy Blues,Black Hammer and BOOM Ave.**,in addition to the now-recorded Sonic Wood. These are separate guitar/bass combined-effects candidates requiring exact Shopee offers and complete primary model research before they count as new profiles. A collection sold-out badge is not worldwide unavailability. Do not add dedicated mini pedals or controllers simply because they appear elsewhere in the store.
+
+## Consolidation provenance
+
+All Sonicake-specific values,source URLs,firmware qualifications,price caveats and original inspection limits were merged from compact comparison blob `c87f40aa634e7bf06c6682277b78c6890cc0fb84`,floorboard comparison `4394e367d3744ee519829bac4bc98cb60e40e89f`,and individual Matribox/Smart Box/Pocket Master notes `079d05d15a535051907880a4aee5dcbb75ce7c84`,`c4ebe51e2d487055435951113635d3b894a72d4d`,`bdd0153a008414526ad4756492e13e80bca0f415`. Stale progress cursors are superseded by root research-state.json. Five consolidations add no models;Sonic Wood adds one. Shared legacy tables and incoming links still need retirement validation,so no whole-migration completion is claimed.
