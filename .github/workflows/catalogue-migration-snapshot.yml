@@ -1,0 +1,47 @@
+name: Catalogue migration source snapshot
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/catalogue-migration-snapshot.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Read repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Export tracked source files and hashes
+        run: |
+          mkdir -p snapshot
+          git archive --format=tar HEAD README.md AGENTS.md effects | tar -xf - -C snapshot
+          git rev-parse HEAD > snapshot/source-commit.txt
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('snapshot')
+          manifest = {}
+          for path in sorted(root.rglob('*')):
+              if path.is_file():
+                  content = path.read_bytes()
+                  manifest[str(path.relative_to(root))] = {
+                      'bytes': len(content),
+                      'sha256': hashlib.sha256(content).hexdigest(),
+                      'git_blob_sha': hashlib.sha1(b'blob ' + str(len(content)).encode() + b'\0' + content).hexdigest()
+                  }
+          (root / 'snapshot-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
+          print('Exported', len(manifest), 'files; no source content changed.')
+          PY
+      - name: Save migration input
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: catalogue-source-snapshot
+          path: snapshot/
+          if-no-files-found: error
+          retention-days: 1
