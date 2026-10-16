@@ -1191,3 +1191,7 @@ research-commit-g3:
 .PHONY: research-commit-b3
 research-commit-b3:
 	python3 scripts/research_tools.py commit-b3
+
+.PHONY: research-commit-vl3x
+research-commit-vl3x:
+	python3 scripts/research_tools.py commit-vl3x

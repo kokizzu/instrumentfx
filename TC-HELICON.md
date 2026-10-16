@@ -237,3 +237,42 @@ The [exact NEO MUSIC Shopee listing](https://shopee.co.id/TC-HELICON-PLAY-ACOUST
 Complete original source body,URLs,firmware1.0 category/reverb-duplicate qualification, global guitar-setting limitation and undo-dependent15/30-second loop limits remain preserved. Those original observations do not establish current firmware behavior. BodyRez continues to mean acoustic-pickup EQ/compression/ambience, not user IR or synthesis. Distinct guitar reverb/modulation processing and vocal effects support membership in both guitar and vocal comparisons; the two rows do not add another unique model.
 
 No files/dependencies downloaded or new PDF visual inspection performed. Remaining: accessible current official firmware/change notes, later manual comparison, preset/guitar-setting behavior, looper duration, factory/user split, screen diagonal/color/touch, USB channels/rates/drivers, power polarity/battery/bus operation, present VoiceSupport compatibility and qualified current local offers.
+
+## VoiceLive 3 Extreme
+
+Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17, partial. Manufacturer PDF endpoints failed. Manufacturer-authored mirror identifies VL3X, firmware2.1.00 build346, reference manual2015-10-20; model/title/section identity checked against official indexed Extreme manual. Current firmware/revision equivalence unverified; generated mirror FAQs excluded.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / K/F/B | External pedal input,quarter-inch TRS;10 footswitches. Built-in expression,toe andcomplete knob/button counts unresolved. | [Manual][VL3X-M] pp195,198 |
+| Display | 192×64 blue STN LCD,white backlight. Capacitive edit controls do not establish touchscreen;diagonal unknown. | [Manual][VL3X-M] p195 |
+| Dimensions / weight | 350W×216D×76H mm;2.3kg. Large footprint. | [Manual][VL3X-M] p195 |
+| Processing / choices | Independent vocal and guitar layers. Vocal harmony,HardTune,delay,reverb,µMod; guitar amp,drive,delay,reverb,compression,wah,octaver. Simultaneous ceiling/category subtotals unresolved. | [Manual][VL3X-M] contents,pp194–195 |
+| Factory / user memory | 500 presets capacity;250 factory presets;10 steps/preset. Do not add factory count tocapacity. | [Manual][VL3X-M] p195 |
+| Synth / acoustic | Vocal Synth/vocoder documented; dedicated guitar synth/acoustic simulation unverified. | [Manual][VL3X-M] contents,p195 |
+| I/O | Combo XLR/TRS voice input;USB A and Mini-B;MIDI in/out5-pin DIN;pedal TRS. Full audio inventory/routing andphantom settings pending. | [Manual][VL3X-M] pp196–198 |
+| Power / battery / USB | External supply mains100–240V50–60Hz;consumption<14W. Device DC voltage,current,polarity,battery andUSB bus power unverified. | [Manual][VL3X-M] p198 |
+| USB audio / MIDI | USB Audio anddirect-to-USB recording documented;formats/channels/routing unresolved. DIN MIDI present;USB MIDI scope pending. | [Manual][VL3X-M] contents,p198 |
+| IR / NAM / capture | Native/converted NAM,user IR andcapture import unestablished. | Unresolved |
+| Editor / platforms | VoiceSupport documented;editor versus updater/librarian scope andOS support unresolved. | [Manual][VL3X-M] contents |
+| Looper / drums / scenes | Looper,backing tracks andFX automation documented;capacity,simultaneous limits,drums,scenes andtrails need verification. Steps are retained separately fromscene claims. | [Manual][VL3X-M] contents,p195 |
+
+### Separate IDR hardware offers
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no verified used-condition offer. | — |
+| New | Unknown;condition not established for exact lead. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified exact hardware lead
+
+**Rp18,919,000**, Kisama Storee,Kota Jakarta Utara;shop1518350861/item29085370240. Exact Extreme guitar/vocal processor title. Checked2026-10-17;last-month index andJS-limited direct body,13–16Sep delivery stale. Condition,stock,selected variation,adapter/bundle,warranty/import region,shipping,tax,voucher and delivered total unknown. Late-delivery10k compensation is not hardware discount. Preserved outside used/new price columns. [Item](https://shopee.co.id/Tc-Helicon-Voicelive-3-Extreme-Guitar-And-Vocal-Effects-Processor-Pedal-Co-i.1518350861.29085370240).
+
+Remaining: complete controls/expression,processing choices,ports/phantom,DC power,screen details,USB routing,imports/software,looper/automation limits andcondition-qualified prices. Standard VoiceLive3 specifications are not silently substituted.
+
+[VL3X-M]: https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual
+[VL3X-O]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEG/VOICELIVE%203%20EXTREME_M_EN.pdf

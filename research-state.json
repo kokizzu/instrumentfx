@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 145,
+  "active_model_count": 146,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 145,
+  "canonical_root_model_count": 146,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal. Exact ME-80 Shopee hardware discovery adds one distinct guitar processor:140active/root-canonical;116guitar,66bass,17vocal. ExactME-70hardwareShopee lead addsone distinctguitarprocessor:141active/rootcanonical,117guitar,66bass,17vocal. ExactRP360XP lead addsoneexpressionguitarprocessorandDigiTechbrand:142active/rootcanonical,24brands,118guitar,66bass,17vocal. ExactfaultyME-25hardwarelead plusmanufacturerproof addsoneeligibleguitarprocessor:143active/rootcanonical,119guitar,66bass,17vocal;faultyasknotworkingprice. Original G3 exact used hardware discovery adds one distinct guitar model:144 active/root-canonical;120 guitar,66 bass,17 vocal. Original B3 exact hardware discovery adds one bass-focused model:145 active/root-canonical;120 guitar,67 bass(16focused51shared),17 vocal.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal. Exact ME-80 Shopee hardware discovery adds one distinct guitar processor:140active/root-canonical;116guitar,66bass,17vocal. ExactME-70hardwareShopee lead addsone distinctguitarprocessor:141active/rootcanonical,117guitar,66bass,17vocal. ExactRP360XP lead addsoneexpressionguitarprocessorandDigiTechbrand:142active/rootcanonical,24brands,118guitar,66bass,17vocal. ExactfaultyME-25hardwarelead plusmanufacturerproof addsoneeligibleguitarprocessor:143active/rootcanonical,119guitar,66bass,17vocal;faultyasknotworkingprice. Original G3 exact used hardware discovery adds one distinct guitar model:144 active/root-canonical;120 guitar,66 bass,17 vocal. Original B3 exact hardware discovery adds one bass-focused model:145 active/root-canonical;120 guitar,67 bass(16focused51shared),17 vocal. VoiceLive3 Extreme exact Indonesian hardware lead and manufacturer-authored manual add one distinct guitar/vocal model:146active/rootcanonical;121guitar,67bass,18vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "B3 primary follow-up / fresh Shopee discovery",
-    "task": "B3 battery-excluded mass and analog/converter limits saved; frequency-response conflict directly verified. Resume fresh Shopee discovery, with physical controls/category/connector gaps retained. Commit each model before next.",
+    "model": "VoiceLive 3 Extreme primary follow-up",
+    "task": "Exact Extreme model added to guitar/vocal comparisons. Continue official/mirrored manual technical gaps,ports/DC/USB/looper and qualified offers. Commit before another model.",
     "next_models": [],
-    "after_queue": "Continue exact Shopee discovery by brand and series."
+    "after_queue": "Resume fresh Shopee discovery;no exhaustivecoverageclaim."
   },
   "new_findings": [
     {
@@ -1672,6 +1672,45 @@
         "conflict": "English web−6dB versus directly inspected English manual−3dB response retained",
         "remaining": "Physical controls,category counts,connector subtypes and other saved gaps"
       }
+    },
+    {
+      "model": "TC-Helicon VoiceLive 3 Extreme",
+      "path": "TC-HELICON.md#voicelive-3-extreme",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "classification": "independent guitar and vocal multi-effects; bass unclassified",
+      "sources": [
+        "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEG/VOICELIVE%203%20EXTREME_M_EN.pdf",
+        "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual"
+      ],
+      "manual_identity": "Manufacturer-authored VL3X reference manual,2015-10-20,firmware2.1.00build346; official endpoints502;mirror model/title/structure checked against official indexed Extreme identity;no current revision equivalence claim",
+      "offers": [
+        {
+          "url": "https://shopee.co.id/Tc-Helicon-Voicelive-3-Extreme-Guitar-And-Vocal-Effects-Processor-Pedal-Co-i.1518350861.29085370240",
+          "shop": "1518350861",
+          "item": "29085370240",
+          "seller": "Kisama Storee",
+          "location": "Kota Jakarta Utara",
+          "idr": 18919000,
+          "condition": "unknown",
+          "stock": "unknown",
+          "access": "Last-month index,JS-limited directbody;13–16Sep delivery stale",
+          "bundle_variant_warranty_shipping_tax_voucher": "unknown",
+          "accepted_used_new_price": false
+        }
+      ],
+      "unresolved": [
+        "expression and physical counts",
+        "simultaneous/category counts",
+        "complete ports andphantom",
+        "DC power/battery/USB",
+        "display",
+        "USB routing",
+        "IR/NAM/capture",
+        "editor/platforms",
+        "looper/automation/live limits",
+        "qualified used/new prices"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -20167,7 +20206,8 @@
     ],
     "TC-Helicon": [
       "VoiceLive Play",
-      "Play Acoustic"
+      "Play Acoustic",
+      "VoiceLive 3 Extreme"
     ],
     "Valeton": [
       "GP-100",
@@ -20395,7 +20435,8 @@
     ],
     "TC-HELICON.md": [
       "VoiceLive Play",
-      "Play Acoustic"
+      "Play Acoustic",
+      "VoiceLive 3 Extreme"
     ],
     "CUVAVE.md": [
       "H8"
@@ -20412,7 +20453,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 120,
+      "record_count": 121,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -20424,9 +20465,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 17,
+      "record_count": 18,
       "vocal_only_count": 9,
-      "combined_instrument_count": 8,
+      "combined_instrument_count": 9,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -37315,13 +37356,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 145,
-    "canonical_root_models": 145,
+    "unique_brand_model_pairs": 146,
+    "canonical_root_models": 146,
     "legacy_only_models": 0,
-    "guitar_view_models": 120,
+    "guitar_view_models": 121,
     "bass_focused_models": 15,
     "vocal_only_models": 9,
-    "vocal_view_models": 17,
+    "vocal_view_models": 18,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -37350,7 +37391,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume B3 primary follow-up / fresh Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VoiceLive 3 Extreme primary follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -37449,6 +37490,7 @@
       "Sonicake::Matribox II Pro QME-200",
       "Sonicake::Sonic Wood QCE-50",
       "TC-Helicon::Play Acoustic",
+      "TC-Helicon::VoiceLive 3 Extreme",
       "Valeton::GP-100",
       "Valeton::GP-150",
       "Valeton::GP-5",
@@ -37560,6 +37602,7 @@
       "MOOER::GS1000",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::Play Acoustic",
+      "TC-Helicon::VoiceLive 3 Extreme",
       "Zoom::V6-SP",
       "Zoom::V3"
     ]
@@ -38511,6 +38554,13 @@
       "finding_files": [
         "effects/findings/2026-10-14-tchelicon-play-acoustic.md"
       ]
+    },
+    "TC-Helicon::VoiceLive 3 Extreme": {
+      "link": "TC-HELICON.md#voicelive-3-extreme",
+      "source_files": [
+        "TC-HELICON.md"
+      ],
+      "finding_files": []
     },
     "Valeton::GP-100": {
       "link": "VALETON.md#gp-100",
@@ -45187,5 +45237,13 @@
       "Foreign Thai ME50B listing"
     ],
     "no_exhaustive_coverage_claim": true
+  },
+  "discovery_vl3x": {
+    "queries": [
+      "site.shopee.co.id Zoom G1on",
+      "site.shopee.co.id TC Helicon VoiceLive 3"
+    ],
+    "selected": "VoiceLive3 Extreme exact item29085370240",
+    "rejected": "G1on multi-model listing11variations;foreign Shopee andgigbag hits;no standardVoiceLive3 added"
   }
 }

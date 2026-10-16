@@ -350,7 +350,7 @@ def verify_views():
 # enclosure, a BASS tone knob, a capture microphone, or an output connector.
 BASS_FOCUSED = ['BOSS::GT-1B','BOSS::GX-1B','BOSS::ME-90B','M-VAVE::TANK-B','M-VAVE::CUBE BABY BASS','Line 6::POD Express Bass','Zoom::B1 FOUR','Zoom::B1X FOUR','Zoom::B2 FOUR','Zoom::B6','Zoom::B1Xon','Zoom::B3n','Zoom::MS-60B','Zoom::MS-60B Plus','Zoom::B1on','Zoom::B3']
 VOCAL_ONLY = ['Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
-VOCAL_SHARED = ['BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
+VOCAL_SHARED = ['TC-Helicon::VoiceLive 3 Extreme','BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
 BASS_SHARED = {
     'Zoom::MS-70CDR Plus':'Own manufacturer preset Ver1.00 patch004 Phase Room explicitly covers guitar or bass;own effects include bass chorus andbass autowah. Not original/seller inference. [Preset list](https://zoomcorp.com/media/documents/E_MS-70CDRplus_Patchlist.pdf).',
     'Zoom::MS-70CDR':'Original manufacturer MS-70CDR product explicitly identifies guitar/bass effects and manual p.4 bass input. Not inferred from plus or a BASS EQ knob. [Primary product](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr/).',
