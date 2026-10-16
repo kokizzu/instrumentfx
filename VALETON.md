@@ -794,3 +794,42 @@ PDF screenshots and the official product image were unavailable through the web 
 [DBM-C]: https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf
 [DBM-P]: https://www.valeton.net/product/dapper-bass-mini/
 [DBM-S]: https://shop.valeton.net/products/dapper-bass-mini
+
+## Dapper Mini MES-1
+
+Guitar multi-effects strip, separate from Bass Mini MES-2 and Acoustic Mini. Checked 2026-10-17; partial. MES-1 code is seller identification pending readable manual corroboration.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in, external and toe-switch support unverified. | Unresolved |
+| K/F/B | Independent rotary, footswitch and button totals await panel/manual inspection. Drive mode toggle and delay tap function documented. | [Product][DM-P] |
+| Display | Tuner documented; screen diagonal, color and touch unverified. | [Product][DM-P] |
+| Dimensions / mass | **197 W × 65 D × 42 H mm; 417 g**. Compact strip. | [Product][DM-P] |
+| Processing / category choices | Separate **Drive, Chorus and Delay** modules plus tuner. Drive selects OD or distortion; Chorus has rate/depth. Exact simultaneous count and routing await manual verification. | [Product][DM-P] |
+| Factory / user memory | Factory, user and total memories unverified. | Unresolved |
+| Synth / acoustic | Dedicated synth/acoustic algorithms unverified. | Unresolved |
+| I/O | Adjustable headphone output with built-in cabinet simulation; complete socket inventory unverified. Product's headphone paragraph unexpectedly discusses adding effects; do not infer an FX loop from that text. | [Product][DM-P] |
+| Power / battery / USB | **9 V DC, centre-negative; 110 mA consumption**. Manufacturer includes supply; seller bundle unconfirmed. Battery/USB operation unverified. | [Product][DM-P] |
+| IR / NAM / capture | Headphone cab simulation does not establish user IR import, NAM or capture. These remain unverified. | [Product][DM-P] |
+| Editor / software | Editor/platform support unverified. | Unresolved |
+| Looper / drums / live | Delay maximum **1000 ms**, analog-voiced, with tap tempo. Looper, drums, scenes and trails unverified. | [Product][DM-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | **Rp1,100,000**, explicitly Second Hand, **Habis**; cached asking price, not a completed sale or working-condition guarantee. | [jdanwmusic.wahyu][DM-U] |
+| New | Unknown; Salomo condition and final voucher price unconfirmed. | [Salomo Musik][DM-R] |
+
+### Offer and manual qualifications
+
+Used seller jdanwmusic.wahyu, Jakarta Barat, shop5640621/item40571574068: two-week search cache; direct item cache miss. Exact unit revision, working state, accessories, region/warranty and voucher eligibility unverified.
+
+Salomo Musik, Jakarta Utara, shop1776275/item19291696200: Rp1,692,000, two-month search cache, voucher display 10% at Rp10RB threshold; cap/eligibility unknown. Condition, stock, adapter/bundle and regional warranty unknown; direct cache miss. Not a confirmed new-price range.
+
+Official product links English manual V03_170227(Curve), two pages but no readable text layer through this tool. No control counts or absent features inferred. Manufacturer establishes model architecture independently of seller title. No file downloaded.
+
+[DM-P]: https://www.valeton.net/product/dapper-mini/
+[DM-M]: https://www.valeton.net/download/173/dapper-mini/18471/dapper-mini_manual_en_v03_170227curve-2.pdf
+[DM-U]: https://shopee.co.id/Efek-Valeton-Dapper-Mini-Second-Hand-i.5640621.40571574068
+[DM-R]: https://shopee.co.id/Valeton-Dapper-Mini-5in1-Effects-Strip-MES-1-Original-i.1776275.19291696200
