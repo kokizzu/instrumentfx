@@ -83,3 +83,38 @@ Official56-page manual viewed through browser text; no file/software/driver/depe
 [R255-M]: https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf
 [R255-P]: https://digitech.com/dp/rp255/
 [R255-F]: https://digitech.com/faqs/
+
+## RP500
+
+Guitar multi-effects, distinct from RP255/RP360XP/RP1000. Manufacturer lists past product. Checked2026-10-17; partial. Ownership and bass/vocal suitability unestablished.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in; toe-pressure V-switch alternates assigned parameter/wah. External expression unverified. | [Manual p26][RP5-M] |
+| K/F/B | **6 rotary /9 main footswitches /5 buttons**: TAP,BYPASS,UP/DOWN,1–5;two EDIT+three system buttons. Encoder push/toe additional; visual corroboration pending. | [Manual pp4–6][RP5-M] |
+| Display | Eight-character alphanumeric plus two-character numeric; LEDs. Diagonal,color,touch unverified. | [Manual p4][RP5-M] |
+| Dimensions / mass | Manual: **19.5in Length ×8.625in Width ×2.75in Height;6.6lb**. Product labels19.5in Depth/8.625in Width instead; axes unresolved,not silently swapped. | [Manual p28][RP5-M]; [Product][RP5-P] |
+| Processing / category choices | **10 simultaneous effects**. Pedalboard mode switches five effect groups; preset mode selects five sounds per bank. Amp/cab bypass applies globally. Category algorithm counts unresolved. | [Product][RP5-P] |
+| Factory / user memory | **200 slots:100 user+100 factory**. User slots initially duplicate factory sounds; factory slots are read-only. | [Manual p3][RP5-M]; [Product][RP5-P] |
+| Synth / acoustic | Dreadnought/Jumbo acoustic simulations. SynthTalk produces playing-dynamics-controlled speech-like sound; not proof of general polyphonic synthesis. | [Manual pp15,22][RP5-M] |
+| I/O | ¼-inch guitar;L/R¼-inch and balanced XLR outputs;⅛-inch phones and CD/MP3;USB-B;AC jack. No send/return or external-expression socket in named rear inventory. | [Manual pp7,28][RP5-M] |
+| Power / battery / USB | **PS0913B:9V AC,1.3A supply**,not measured draw;DC polarity inapplicable. FAQ lists120V AC mains variant; Indonesian adapter rating unverified. Battery/USB power unverified. | [Manufacturer FAQ][RP5-F] |
+| IR / NAM / capture | User IR,native/converted NAM and capture imports unverified. | Unresolved |
+| Editor / software | X-Edit2.7.0 Windows/2.7.1 IntelMac listed. USB audio **2to/2from computer**,USB1.1 FullSpeed viaTypeB. Current OS compatibility unverified. | [Product][RP5-P] |
+| Looper / drums / live | **20s looper**,overdubs;can change presets/effects while looping. Looper reassigns UP/DOWN,restricting bank/preset navigation. Quiet-start/on-the-fly modes documented; firmware/install state of seller unit unknown. Drums,scenes,trails unverified. | [Looper addendum][RP5-L] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Seller says like new; exact condition/working state unverified. Qualified ask retained below. | [Exact item][RP5-O] |
+| New | No verified new-hardware offer. | — |
+| Conditional historical like-new ask | **Rp2,400,000;Habis**, Ayx Music,Kab.Lamongan,shop58780289/item18228745237. Checked2026-10-17; four-week rendered cache,stale21–22September delivery; earlier discovery index was three months old. Bundle,adapter region,revision,warranty and voucher eligibility unknown. Late-delivery voucher is not immediate discount. Not live stock/completed sale. | [Exact item][RP5-O] |
+
+Read manufacturer manual/addendum and seller cache as web text; no dependencies,software,firmware or documents downloaded to filesystem. Product marketing mentions switching external stompboxes, but the complete named rear inventory has no effects-loop jacks; do not infer an RP1000-style external loop. Product120VAC figure is supply mains, not pedal input voltage. Addendum activation instructions differ:2s quiet-start versus3s on-the-fly; preserve rather than invent one universal hold time.
+
+[RP5-P]: https://digitech.com/dp/rp500/
+[RP5-M]: https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf
+[RP5-L]: https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP500_Looper_Addendum_original.pdf
+[RP5-F]: https://digitech.com/faqs/
+[RP5-O]: https://shopee.co.id/Digitech-Rp500-like-new-i.58780289.18228745237

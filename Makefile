@@ -1355,3 +1355,7 @@ research-commit-g3x:
 .PHONY: research-commit-g21u
 research-commit-g21u:
 	python3 scripts/research_tools.py commit-g21u
+
+.PHONY: research-commit-rp500
+research-commit-rp500:
+	python3 scripts/research_tools.py commit-rp500
