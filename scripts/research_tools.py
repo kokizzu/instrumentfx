@@ -31,6 +31,14 @@ def verify():
     workflows = list((ROOT / '.github' / 'workflows').glob('*'))
     assert not workflows, workflows
     assert not git('ls-files', '.github/workflows').strip()
+    if state.get('separate_specialist_archives'):
+        original=git('show','9c8d296:effects/specialist.md')
+        marker='## Excluded archive — not part of the multi-effects comparison'
+        preserved=(ROOT/'SINGLE-GUITAR.md').read_text().split(marker,1)[1].replace('[SCOPE.md](effects/SCOPE.md)','[SCOPE.md](SCOPE.md)')
+        assert original.split(marker,1)[1]==preserved,'Guitar archive lost original material'
+        original_fv=git('show','9c8d296:effects/findings/2026-10-14-flamma-fv01.md')
+        body=(ROOT/'SINGLE-VOCAL.md').read_text().split('## Flamma FV01 Corrector\n',1)[1]
+        assert body.replace('(effects/SCOPE.md)','(../SCOPE.md)').replace('\n### ','\n## ')==original_fv.split('\n',1)[1],'FV01 archive lost original material'
     errors = []
     for path in ROOT.glob('*.md'):
         text = path.read_text()
@@ -78,18 +86,38 @@ def main():
         print(git('log', '-5', '--oneline'))
     elif mode == 'verify':
         verify()
+    elif mode == 'restore-archive-provenance':
+        state=json.loads((ROOT/'research-state.json').read_text())
+        import hashlib
+        state['separate_specialist_archives']['source_before_move_sha256']={p:hashlib.sha256(git('show','9c8d296:'+p).encode()).hexdigest() for p in ('effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md')}
+        (ROOT/'research-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
+        verify()
     elif mode == 'gp200jr':
         gp200jr()
     elif mode == 'render-gp200jr':
         subprocess.run(['pdftoppm', '-f', '5', '-l', '6', '-scale-to', '1800', '-png', '/tmp/instrumentfx-sources/gp-200jr-v1.8.0.pdf', '/tmp/instrumentfx-sources/gp200jr-panel'], check=True)
-    elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons'):
+    elif mode=='source-prime':
+        cache=Path('/tmp/instrumentfx-sources')
+        cache.mkdir(exist_ok=True)
+        path=cache/'headrush-prime-v5.2.pdf'
+        url='https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf'
+        with urllib.request.urlopen(url,timeout=60) as response:
+            data=response.read()
+        assert data.startswith(b'%PDF')
+        path.write_bytes(data)
+        subprocess.run(['pdftotext','-layout',str(path),str(path.with_suffix('.txt'))],check=True)
+        subprocess.run(['pdftoppm','-f','6','-l','7','-scale-to','1600','-png',str(path),str(cache/'prime-panel')],check=True)
+        print('Saved and rendered primary Prime 5.2 manual: '+str(path))
+    elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons', 'commit-prime'):
         verify()
         print(git('status', '--short', '--branch'))
         assert not git('diff', '--cached', '--name-only').strip(), 'Unrelated staged changes; inspect before committing'
         paths = ['Makefile', 'scripts/research_tools.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'MULTI-EFFECTS.md', 'README.md', 'research-state.json']
-        if mode=='commit-comparisons':
+        if mode in ('commit-comparisons','commit-prime'):
             paths += ['ALL-VOCAL.md','scripts/comparison_views.py','AGENTS.md','SINGLE-GUITAR.md','SINGLE-BASS.md','SINGLE-VOCAL.md','effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md']
             subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
+            if mode=='commit-prime':
+                paths.append('HEADRUSH.md')
         else:
             paths.append('VALETON.md' if mode == 'commit-gp200jr' else 'LINE6.md')
         print(git('add', '--', *paths))
@@ -97,6 +125,8 @@ def main():
         subject = 'research(valeton): verify GP-200JR and reconcile newer catalogue checkpoints' if mode == 'commit-gp200jr' else 'research(line6): consolidate HX Effects as guitar and bass multi-effects'
         if mode=='commit-comparisons':
             subject='docs(comparisons): compare every recorded instrument model and separate specialist archives'
+        elif mode=='commit-prime':
+            subject='research(headrush): add Prime with native NAM limits and qualified used retail evidence'
         print(git('commit', '-m', subject))
     else:
         raise SystemExit('Unknown operation')

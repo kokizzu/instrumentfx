@@ -33,3 +33,14 @@ comparison-verify:
 
 research-commit-comparisons:
 	python3 scripts/research_tools.py commit-comparisons
+
+.PHONY: research-source-prime research-commit-prime
+research-source-prime:
+	python3 scripts/research_tools.py source-prime
+
+research-commit-prime:
+	python3 scripts/research_tools.py commit-prime
+
+.PHONY: research-verify-archive-provenance
+research-verify-archive-provenance:
+	python3 scripts/research_tools.py restore-archive-provenance

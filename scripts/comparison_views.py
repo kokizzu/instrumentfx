@@ -271,14 +271,15 @@ def apply_plan():
         assert (ROOT/path).read_text()==text
     state=json.loads((ROOT/'research-state.json').read_text())
     state['user_requested_comparison_rebuild']['status']='implemented_pending_validation'
-    state['user_requested_comparison_rebuild']['next']='Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HeadRush Prime.'
+    state['user_requested_comparison_rebuild']['next']='Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume '+state['cursor']['model']+'.'
     state['comparison_membership']=payload['view_membership']
     state['comparison_bass_basis']=payload['bass_membership_basis']
     state['comparison_model_sources']={k:{'link':r['link'],'source_files':r['sources'],'finding_files':r['findings']} for k,r in payload['records'].items()}
     state['instrument_views']['ALL-GUITAR.md']={'record_count':len(payload['view_membership']['ALL-GUITAR.md']),'scope':'All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only','technical_refresh':False}
     state['instrument_views']['ALL-BASS.md']={'record_count':len(payload['view_membership']['ALL-BASS.md']),'bass_focused_record_count':len(BASS_FOCUSED),'shared_bass_capable_count':len(BASS_SHARED),'scope':'All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved','technical_refresh':False}
     state['instrument_views']['ALL-VOCAL.md']={'record_count':len(payload['view_membership']['ALL-VOCAL.md']),'vocal_only_count':len(VOCAL_ONLY),'combined_instrument_count':len(VOCAL_SHARED),'scope':'All retained vocal/live-mic records across four comparison tables','technical_refresh':False}
-    state['separate_specialist_archives']={'SINGLE-GUITAR.md':['BOSS SY-1','BOSS SY-200','BOSS AC-3','BOSS VO-1','BOSS XS-100'],'SINGLE-BASS.md':['BOSS SY-1','BOSS SY-200'],'SINGLE-VOCAL.md':['Flamma FV01','BOSS VO-1 (cross-reference)'],'counted_as_active':False,'moved_on':'2026-10-16','legacy_anchor_redirects_preserved':True,'source_before_move_sha256':{p:payload['input_hashes'][p] for p in ('effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md')}}
+    state.setdefault('separate_specialist_archives',{'SINGLE-GUITAR.md':['BOSS SY-1','BOSS SY-200','BOSS AC-3','BOSS VO-1','BOSS XS-100'],'SINGLE-BASS.md':['BOSS SY-1','BOSS SY-200'],'SINGLE-VOCAL.md':['Flamma FV01','BOSS VO-1 (cross-reference)'],'counted_as_active':False,'moved_on':'2026-10-16','legacy_anchor_redirects_preserved':True,'source_before_move_sha256':{p:payload['input_hashes'][p] for p in ('effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md')}})
+    state['validation'].update(unique_brand_model_pairs=state['active_model_count'],canonical_root_models=state['canonical_root_model_count'],legacy_only_models=state['legacy_only_model_count'],guitar_view_models=len(payload['view_membership']['ALL-GUITAR.md']),bass_view_models=len(payload['view_membership']['ALL-BASS.md']),bass_shared_models=len(BASS_SHARED),vocal_view_models=len(payload['view_membership']['ALL-VOCAL.md']))
     (ROOT/'research-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     print('Applied reviewed plan: '+', '.join(payload['outputs']))
 
@@ -314,8 +315,9 @@ def verify_views():
 # enclosure, a BASS tone knob, a capture microphone, or an output connector.
 BASS_FOCUSED = ['BOSS::GT-1B','BOSS::GX-1B','BOSS::ME-90B','M-VAVE::TANK-B','M-VAVE::CUBE BABY BASS','Line 6::POD Express Bass','Zoom::B1 FOUR','Zoom::B1X FOUR','Zoom::B2 FOUR','Zoom::B6','Zoom::B1Xon']
 VOCAL_ONLY = ['Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
-VOCAL_SHARED = ['BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro']
+VOCAL_SHARED = ['BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro']
 BASS_SHARED = {
+    'HeadRush::Prime':'Model-specific manufacturer Prime input/routing and bass library evidence; not inferred from Core.',
     'Audota::AME-200':'Model-specific finding explicitly describes guitar/bass capability.',
     'Audota::AME-200 Pro':'Separate Pro finding explicitly describes guitar/bass capability.',
     'BOSS::GT-1000CORE':'Bass mode and bass drive types in retained BOSS comparison.',
