@@ -525,3 +525,11 @@ consolidation-apply-bg300:
 	python3 scripts/consolidation_tools.py apply bg300
 consolidation-commit-bg300:
 	python3 scripts/consolidation_tools.py commit bg300
+
+.PHONY: consolidation-plan-kmf-10 consolidation-apply-kmf-10 consolidation-commit-kmf-10
+consolidation-plan-kmf-10:
+	python3 scripts/consolidation_tools.py plan kmf-10
+consolidation-apply-kmf-10:
+	python3 scripts/consolidation_tools.py apply kmf-10
+consolidation-commit-kmf-10:
+	python3 scripts/consolidation_tools.py commit kmf-10
