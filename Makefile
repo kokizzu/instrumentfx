@@ -581,3 +581,11 @@ comparison-test-fields:
 .PHONY: research-commit-field-projection
 research-commit-field-projection:
 	python3 scripts/research_tools.py commit-field-projection
+
+.PHONY: comparison-test-extraction
+comparison-test-extraction:
+	python3 scripts/comparison_views.py test-extraction
+
+.PHONY: research-commit-field-extraction
+research-commit-field-extraction:
+	python3 scripts/research_tools.py commit-field-extraction

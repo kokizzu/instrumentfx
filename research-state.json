@@ -11484,6 +11484,12 @@
       "date": "2026-10-17",
       "result": "Corrected omitted EXP, audio I/O, wireless receiver, vocal, model-count conflict, supply, audio-interface and display-evidence labels. Regression target make comparison-test-fields. This checks projection of retained evidence, not source completeness or specification verification.",
       "remaining": "Audit source extraction and complete legacy body/URL preservation; continue fresh Shopee discovery and unresolved fields."
+    },
+    "source_column_audit": {
+      "date": "2026-10-17",
+      "result": "Root-brand table scan found no mismatched table row widths. Three-column required-field tables in HeadRush MX5 and Core previously discarded the separate Source/Evidence column; extraction now preserves and resolves it. POD Go family variant table remains separately selected, with Wireless 2.5kg distinct from standard2.35kg.",
+      "test": "make comparison-test-extraction",
+      "limitations": "Does not prove complete source-body migration, all prose extraction, manufacturer truth or current price/stock. No source removed."
     }
   },
   "discovery_search_pass": {

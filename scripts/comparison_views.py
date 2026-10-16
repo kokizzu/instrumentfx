@@ -106,6 +106,14 @@ def source_map(state, files):
             result[key] = dict(brand=brand, model=model, aliases=alias, canonical=canonical)
     return result
 
+
+def field_value(headers, row):
+    """Retain a technical finding's separate evidence column, when present."""
+    value = row[1]
+    if len(headers) == 3 and row[2].strip():
+        value += ' — ' + headers[2] + ': ' + row[2]
+    return value
+
 def make_plan():
     identity()
     files = {str(p.relative_to(ROOT)):p.read_text() for p in ROOT.rglob('*.md') if '.git' not in p.parts and 'history' not in p.name}
@@ -186,7 +194,7 @@ def make_plan():
                             value=row[1]+'; Wireless: '+value
                         facts[key].append(dict(field=row[0],value=relink(value,path,refs),source=path,context=context))
                     elif field_table:
-                        facts[key].append(dict(field=row[0],value=relink(row[1],path,refs),source=path,context=context))
+                        facts[key].append(dict(field=row[0],value=relink(field_value(headers,row),path,refs),source=path,context=context))
                     elif price_table:
                         if r['model'] in ('POD Go','POD Go Wireless'):
                             if ('Wireless' in row[0]) != (r['model']=='POD Go Wireless'):
@@ -521,8 +529,22 @@ def test_field_projection():
     assert 'Retained qualified evidence' not in cell({'facts': [{'field': 'Manufacturer identity', 'value': 'Retained qualified evidence', 'context': ''}]}, 'processing')
     print('PASS: technical field labels reach their intended columns; manufacturer identity stays in the full record.')
 
+
+def test_field_extraction():
+    headers = ['Field', 'Finding', 'Evidence']
+    row = ['Expression', 'External only', '[Manufacturer][manual]']
+    value = field_value(headers, row)
+    assert value == 'External only — Evidence: [Manufacturer][manual]'
+    linked = relink(value, 'HEADRUSH.md', {'manual': 'https://example.com/original-manual.pdf'})
+    assert '[Manufacturer](https://example.com/original-manual.pdf)' in linked
+    assert field_value(['Field', 'Finding'], row[:2]) == 'External only'
+    assert field_value(headers, row[:2]+['']) == 'External only'
+    print('PASS: separate source-column evidence survives extraction and reference resolution; two-column values stay unchanged.')
+
 if __name__=='__main__':
-    if sys.argv[1]=='test-fields':
+    if sys.argv[1]=='test-extraction':
+        test_field_extraction()
+    elif sys.argv[1]=='test-fields':
         test_field_projection()
     elif sys.argv[1]=='test-selection':
         test_comparison_selection()
