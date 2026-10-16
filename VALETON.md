@@ -802,17 +802,17 @@ Guitar multi-effects strip, separate from Bass Mini MES-2 and Acoustic Mini. Che
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in, external and toe-switch support unverified. | Unresolved |
-| K/F/B | Independent rotary, footswitch and button totals await panel/manual inspection. Drive mode toggle and delay tap function documented. | [Product][DM-P] |
-| Display | Tuner documented; screen diagonal, color and touch unverified. | [Product][DM-P] |
-| Dimensions / mass | **197 W × 65 D × 42 H mm; 417 g**. Compact strip. | [Product][DM-P] |
+| K/F/B | **10 rotary controls**, text-derived: Drive 3, Chorus 3, Delay 3, TAP/PHONES 1; separate OD/DIST toggle. Footswitch/button totals still await panel inspection. | [Product][DM-P]; [manual][DM-MM] |
+| Display | Tuner: seven bicolor note LEDs (blue natural, green sharp) and three pitch LEDs (red flat/sharp, green in tune). Screen diagonal and touch remain unverified. | [Product][DM-P] |
+| Dimensions / mass | **197 W × 65 D × 42 H mm; 417 g**. Compact strip. Manual labels 197 D × 65 W × 42 H mm; width/depth label conflict retained. | [Product][DM-P] |
 | Processing / category choices | Separate **Drive, Chorus and Delay** modules plus tuner. Drive selects OD or distortion; Chorus has rate/depth. Exact simultaneous count and routing await manual verification. | [Product][DM-P] |
 | Factory / user memory | Factory, user and total memories unverified. | Unresolved |
 | Synth / acoustic | Dedicated synth/acoustic algorithms unverified. | Unresolved |
-| I/O | Adjustable headphone output with built-in cabinet simulation; complete socket inventory unverified. Product's headphone paragraph unexpectedly discusses adding effects; do not infer an FX loop from that text. | [Product][DM-P] |
+| I/O | Adjustable headphone output with built-in cabinet simulation; **main OUTPUT has no cab simulation; unbalanced PHONES has cab simulation** and can feed recording/PA. TAP/PHONES adjusts headphone level. Complete socket inventory unverified. Product's headphone paragraph unexpectedly discusses adding effects; do not infer an FX loop from that text. | [Product][DM-P] |
 | Power / battery / USB | **9 V DC, centre-negative; 110 mA consumption**. Manufacturer includes supply; seller bundle unconfirmed. Battery/USB operation unverified. | [Product][DM-P] |
 | IR / NAM / capture | Headphone cab simulation does not establish user IR import, NAM or capture. These remain unverified. | [Product][DM-P] |
 | Editor / software | Editor/platform support unverified. | Unresolved |
-| Looper / drums / live | Delay maximum **1000 ms**, analog-voiced, with tap tempo. Looper, drums, scenes and trails unverified. | [Product][DM-P] |
+| Looper / drums / live | Delay maximum **1000 ms**, analog-voiced. **Hold Delay footswitch to enter tap tempo; tap rhythm, LED pulses; hold again for knob-controlled time**. Hold Chorus for muted tuner. Looper, drums, scenes and trails unverified. | [Product][DM-P] |
 
 ### Separate IDR hardware offers
 
@@ -833,3 +833,9 @@ Official product links English manual V03_170227(Curve), two pages but no readab
 [DM-M]: https://www.valeton.net/download/173/dapper-mini/18471/dapper-mini_manual_en_v03_170227curve-2.pdf
 [DM-U]: https://shopee.co.id/Efek-Valeton-Dapper-Mini-Second-Hand-i.5640621.40571574068
 [DM-R]: https://shopee.co.id/Valeton-Dapper-Mini-5in1-Effects-Strip-MES-1-Original-i.1776275.19291696200
+
+### Readable manual qualifications
+
+Manufacturer-authored two-page Owner’s Manual on ManualMachine matches Dapper Mini architecture,110mA/417g and 1000ms delay. Mirror revision is unreadable; byte identity with linked V03 is not established. Manual body used, not mirror-generated FAQs or ASIN instructions. Footswitch totals and complete socket sizes/absence still require panel verification.
+
+[DM-MM]: https://manualmachine.com/valeton/dappermini/2574559-user-manual/

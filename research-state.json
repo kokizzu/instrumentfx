@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper Mini MES-1 primary follow-up",
-    "task": "Initial record saved; seek readable V03 manual for controls/fullIO/routing. Commit follow-up before next Acoustic Mini model.",
-    "next_models": [
-      "Valeton Dapper Acoustic Mini exact code pending"
-    ],
-    "after_queue": "Fresh Shopee discovery; keep unresolved fields explicit."
+    "model": "Valeton Dapper Acoustic Mini exact code pending",
+    "task": "Research own manufacturer architecture/manual and exact Shopee Dooit lead in discovery_dapper_guitar. MES-1 initial/manual commits saved; retain remaining gaps.",
+    "next_models": [],
+    "after_queue": "Fresh Shopee discovery;catalogue/verification not complete."
   },
   "new_findings": [
     {
@@ -3590,7 +3588,8 @@
       "status": "partial",
       "sources": [
         "https://www.valeton.net/product/dapper-mini/",
-        "https://www.valeton.net/download/173/dapper-mini/18471/dapper-mini_manual_en_v03_170227curve-2.pdf"
+        "https://www.valeton.net/download/173/dapper-mini/18471/dapper-mini_manual_en_v03_170227curve-2.pdf",
+        "https://manualmachine.com/valeton/dappermini/2574559-user-manual/"
       ],
       "offers": [
         {
@@ -3638,7 +3637,13 @@
         "BatteryUSB",
         "Qualifiednew/workingusedprices"
       ],
-      "identity_limit": "MES1code seller-derived;manufacturer confirms Dapper Mini architecture;notBassMini/AcousticMini"
+      "identity_limit": "MES1code seller-derived;manufacturer confirms Dapper Mini architecture;notBassMini/AcousticMini",
+      "manual_followup": {
+        "identity": "Manufacturer-authored2pageOwnersManual;matchesmodelarchitecture110mA417g1000ms;mirrorrevisionnotreadable,notbyteverified",
+        "verified": "10rotarycontrols,ODDISTtoggle;7noteLEDs3pitchLEDs;OUTPUTwithoutcab/PHONESwithcab,phoneslineoutrecordPA;holdDelaytapmode/holdagainknobtime;holdChorusmutedtuner",
+        "conflict": "Manual197D65W vsproduct197W65D",
+        "remaining": "Footswitch/buttontotals,fullsocketinventory/expression/memory/softwareandprices"
+      }
     }
   ],
   "consolidation_and_price_findings": [
@@ -39497,7 +39502,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Mini MES-1 primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Acoustic Mini exact code pending."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
