@@ -329,7 +329,7 @@ def main():
         if mode == 'commit-dapper-dark-mini':
             message = 'research(valeton): add separate Dark Mini with indexed-manual qualifications'
         if mode == 'commit-g5':
-            message = 'research(zoom): add original G5 with qualified offer and count conflict'
+            message = 'research(zoom): qualify G5 controls looper and tube-booster restrictions'
         if mode == 'commit-ms50gplus':
             message = 'research(zoom): distinguish MS-50G Plus document categories from installed effects'
         if mode == 'commit-505ii':

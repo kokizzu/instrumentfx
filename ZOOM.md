@@ -1677,18 +1677,18 @@ Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinue
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in three-dimensional Z-Pedal; external FP01/FP02 or FS01 via control input. Toe behavior unverified. | [Product][ZG5-P]; [Indexed manual][ZG5-M] |
-| K/F/B | Four effect sections have dedicated footswitches/knobs. Complete rotary, footswitch and button counts unresolved; do not count these as the full panel. | [Product][ZG5-P] |
+| Expression | Built-in three-dimensional Z-Pedal; external FP01/FP02 or FS01 via control input. The reproduced manual states the vertical pedal direction can switch an effect on/off; exact toe-switch mechanics remain unverified. | [Product][ZG5-P]; [Indexed manual][ZG5-M]; [Reproduced manufacturer manual p13][ZG5-R] |
+| K/F/B | **14 rotary controls** derived from four sections×three parameter knobs plus BOOST/TONE. Four numbered effect footswitches; pedal and booster switching are additional. Complete footswitch/button totals and visual corroboration pending. | [Product][ZG5-P]; [Manual p34][ZG5-M]; [Reproduced parts p4][ZG5-R4] |
 | Display | Four backlit LCDs. Diagonal, graphics color and touch unverified. | [Product][ZG5-P]; [Indexed specifications][ZG5-M] |
 | Dimensions / mass | 190 D ×470 W ×90 H mm;3.1kg. | [Indexed specifications][ZG5-M] |
-| Processing / category choices | Up to9: eight regular effects plus one Z-Pedal effect. Product advertises123 effects plus22 amp/cabinet models; manual specifications say125 types plus Z-Pedal effects. Revision/counting difference unresolved; category counts unknown. | [Product][ZG5-P]; [Indexed manual introduction/specifications][ZG5-M] |
+| Processing / category choices | Up to9: eight regular effects plus one Z-Pedal effect. Product advertises123 effects plus22 amp/cabinet models; manual specifications say125 types plus Z-Pedal effects. Reproduced manufacturer manual p63 instead states145 types, arithmetically matching123+22 but not proving identical revision/content. Revision/counting difference unresolved; category counts unknown. | [Product][ZG5-P]; [Indexed manual introduction/specifications][ZG5-M]; [Reproduced specifications][ZG5-R63] |
 | Factory / user memory | 297 patches,99banks×3; factory-filled/blank split unresolved. Auto-save switch added in firmware1.10. | [Indexed manual][ZG5-M]; [History][ZG5-H] |
 | Synth / acoustic | Dedicated synth and acoustic-simulation choices unverified. | Unresolved |
 | I/O | Mono input1MΩ with active/passive selection; two mono L/R outputs; stereo phones; balanced XLR with PRE/POST and ground lift; control input; USB audio. Full connector/control inventory pending. | [Indexed specifications][ZG5-M] |
 | Power / battery / USB | AD-16:9VDC center-negative,500mA supply rating, not measured draw. Battery/USB bus-power operation unverified. | [Indexed specifications][ZG5-M] |
 | IR / NAM / capture | User IR, native/converted NAM and capture imports unverified; factory amp/cab modeling does not establish import support. | Unresolved |
 | Editor / software | Edit&Share editor/librarian: Windows XP/Vista/7/8/8.1/10; MacOSX10.9–10.12. Separate G-Series ASIO2.0.1 driver lists Windows7/8/8.1/10. Firmware1.20 Windows/Mac listed. Current OS compatibility unverified. | [Support][ZG5-S] |
-| Looper / drums / live | Rhythms, chromatic tuner and12AX7 tube booster. Looper up to60s with rhythm synchronization; detailed restrictions, scenes and trails unresolved. | [Product][ZG5-P]; [Indexed introduction][ZG5-M] |
+| Looper / drums / live | Rhythms, chromatic tuner and12AX7 tube booster. Looper up to60s with rhythm synchronization; **UNDO ON reduces maximum to30s**, with last-overdub undo/redo by holding the switch1s. STOP ends immediately; FINISH ends after the loop; FADE OUT fades, with another press stopping immediately. Tube booster offers0–16dB, may be silent~5s while warming, starts OFF and cannot amplify USB-recorded signals. Scenes/trails unresolved. | [Product][ZG5-P]; [Indexed manual pp32,34][ZG5-M]; [Reproduced manual p33][ZG5-R33] |
 
 ### Separate IDR hardware offers
 
@@ -1698,10 +1698,17 @@ Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinue
 | New | Unknown; title does not establish condition. | — |
 | Conditional historical offer | **Rp2,200,000;Habis**, li6uaqeksv,Kab.Bangkalan,shop399486960/item9425818528. Checked2026-10-17; month-old rendered cache with stale September delivery. Full set is seller wording, not verified contents. Condition, working state, adapter, revision, warranty and voucher eligibility unknown. Late-delivery voucher is not an immediate hardware discount. Not current stock or a completed sale. | [Exact G5 item][ZG5-O] |
 
-Official manual direct rendering failed because the40.5MB document exceeds the web tool limit; only indexed manufacturer introduction/specifications were readable. No complete-manual or visual-panel inspection claimed. Nothing downloaded to the filesystem. Mixed G3/G3X/G3Xn offers and accessory/parts listings were rejected as exact-model price evidence. Support-linked history PDF internally identifies G5 despite its web title saying G3; it reaches1.10, whereas support now lists1.20. Preserve this coverage difference.
+Official manual direct rendering failed because the40.5MB document exceeds the web tool limit; indexed manufacturer introduction/specifications and looper/booster sections were readable. No complete-manual or visual-panel inspection claimed. Nothing downloaded to the filesystem. Mixed G3/G3X/G3Xn offers and accessory/parts listings were rejected as exact-model price evidence. Support-linked history PDF internally identifies G5 despite its web title saying G3; it reaches1.10, whereas support now lists1.20. Preserve this coverage difference.
 
 [ZG5-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g5/
 [ZG5-M]: https://zoomcorp.com/media/documents/G5_operationManual_english.pdf
 [ZG5-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g5/g5-support/
 [ZG5-H]: https://zoomcorp.com/media/documents/G5_softwareHistory_v1.10_English.pdf
 [ZG5-O]: https://shopee.co.id/ZOOM-G5-Full-set-multi-effect-efek-gitar-efek-digital-i.399486960.9425818528
+
+Manufacturer-authored mirror identity check: Zoom copyright, G5 operation-manual contents, four displays/Z-Pedal/tube architecture,297patches and p63 body/power/I/O match the official indexed manual. Its145-type specification differs from the official indexed125-plus-Z wording; exact edition equivalence is not established. Mirror use is limited to original manual text, excluding site FAQs and related-model material. No complete-manual or image inspection claimed.
+
+[ZG5-R]: https://www.manualslib.com/manual/500497/Zoom-G5.html
+[ZG5-R4]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=4
+[ZG5-R33]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=33
+[ZG5-R63]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=63
