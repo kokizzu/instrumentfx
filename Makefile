@@ -1303,3 +1303,7 @@ research-commit-dapper-mini:
 .PHONY: research-commit-dapper-acoustic-mini
 research-commit-dapper-acoustic-mini:
 	python3 scripts/research_tools.py commit-dapper-acoustic-mini
+
+.PHONY: research-commit-dapper-dark
+research-commit-dapper-dark:
+	python3 scripts/research_tools.py commit-dapper-dark

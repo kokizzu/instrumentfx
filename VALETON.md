@@ -881,3 +881,40 @@ Official English V01_170213 manual is readable as two-page web text. Older /down
 Chinese product page confirms digital hall reverb,140mA,435g and197mm length×65mm width×42mm height. It does not resolve the English width/depth labels or exact model code. Linked CN V01_180321 manual returned cache miss; no inaccessible panel details inferred. Its headphone heading omits the English cab-sim claim, so cab-simulation qualification remains unresolved.
 
 [DA-C]: https://zh.valeton.net/product/dapper-acoustic-mini/
+
+## Dapper Dark VES-3
+
+Full-size guitar multi-effects strip, separate from Dark Mini. Manufacturer marks it **discontinued**. Checked 2026-10-17; partial. VES-3 is seller code pending manual corroboration.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in, external and toe support unverified. | Unresolved |
+| K/F/B | Separate rotary, footswitch and button totals await readable manual/panel inspection. | Unresolved |
+| Display | Tuner documented; technology, diagonal, color and touch unverified. | [Product][DD-P] |
+| Dimensions / mass | **320 W × 65 D × 42 H mm; 650 g**. Long narrow strip. | [Product][DD-P] |
+| Processing / category choices | Distinct **Boost, HiGain, Chorus and Delay** modules, plus tuner, FX loop and selectable cab simulation. Boost up to **12 dB**; HiGain has three-band EQ and built-in noise gate; Chorus rate/depth. Exact simultaneous count and routing await manual. | [Product][DD-P] |
+| Factory / user memory | Factory, user and total storage unverified. | Unresolved |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
+| I/O | FX loop documented; complete ports, socket sizes/types and loop position unverified. | [Product][DD-P] |
+| Power / battery / USB | **9 V DC, centre-negative, 112 mA consumption**. Supply included by manufacturer; seller bundle unconfirmed. Battery/USB operation unverified. | [Product][DD-P] |
+| IR / NAM / capture | Selectable cab simulation for recording/direct PA; user IR, native/converted NAM and capture unverified. | [Product][DD-P] |
+| Editor / software | Editor/platform support unverified. | Unresolved |
+| Looper / drums / live | Analog-voiced delay, tap tempo, maximum **1000 ms**. Looper, drums, scenes and trails unverified. | [Product][DD-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no explicit used-condition evidence. | — |
+| New | Unknown; condition and live stock unconfirmed. | — |
+
+### Qualified seller observations and access
+
+GhiNAda Music, Bandung, shop362117058/item24908463001: Rp2,285,000, month-old search cache; direct cache miss. Stock, condition, adapter/bundle, exact revision, warranty region and voucher eligibility unknown. Dial Musik, Palembang, shop338305078/item19918031458: Rp2,650,000, Habis, two-month search cache; condition unknown. These do not establish a current new/used range.
+
+Manufacturer English EVA V01_160825 manual links were found, but both official paths and the manufacturer-authored ManualMachine mirror returned cache miss. Do not infer details from snippets or Dark Mini. No file downloaded.
+
+[DD-P]: https://www.valeton.net/product/dapper-darkdiscontinued/
+[DD-M]: https://www.valeton.net/download/177/dapper-darkdiscontinued/18524/dapper-dark_manual_en_eva_v01_160825-2.pdf
+[DD-O]: https://shopee.co.id/VALETON-DAPPER-DARK-VES-3-Guitar-Multi-Efek-5in1-Efek-Pedal-i.362117058.24908463001
+[DD-O2]: https://shopee.co.id/Valeton-Dapper-Dark-Multi-Effect-5-in-1-Guitar-Pedals-Original-i.338305078.19918031458
