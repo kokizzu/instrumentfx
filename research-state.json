@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "ME-70 remaining hardware fields / fresh Shopee discovery",
-    "task": "ME-70 manual routing,loop-erasure andbattery conflict saved. Continue controls/socketformats or fresh exact Shopee hardware discovery;commit eachmodel beforethenext.",
+    "task": "ME-70 25/4/5 controls and separate EZ Tone memory verified. Continue socketformats/simultaneousceiling or fresh exact Shopee discovery; commit eachmodel before next.",
     "next_models": [],
     "after_queue": "Research remains incomplete;RP360XP andME-70 alreadyrecorded."
   },
@@ -1276,7 +1276,9 @@
         "https://www.boss.info/us/products/me-70/",
         "https://static.roland.com/assets/media/pdf/ME-70_OM.pdf",
         "https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-70_PL.pdf",
-        "https://support.roland.com/hc/en-us/articles/41720498944027-ME-70-Recommended-Power-Supply"
+        "https://support.roland.com/hc/en-us/articles/41720498944027-ME-70-Recommended-Power-Supply",
+        "https://www.boss.info/br/products/me-70/",
+        "https://cdn.roland.com/assets/media/pdf/ME-70_Training_Guide.pdf"
       ],
       "classification": "guitar; bass unclassified",
       "offers": [
@@ -1298,7 +1300,6 @@
         "Polish manual E2 battery life13halkaline/5hcarbon vs product12h/3.5h;both retained"
       ],
       "unresolved": [
-        "fullcontrols",
         "ports",
         "simultaneous ceiling",
         "externalEXP",
@@ -1323,6 +1324,26 @@
         ],
         "support_update": "2026-06-16 confirmsDC9V130mA;adapterratingseparate",
         "remaining": "Controlcounts/socketformats/simultaneousceiling/currentsoftware/imports/screen/qualifiedoffers andotherledgergaps"
+      },
+      "control_memory_followup": {
+        "checked_date": "2026-10-17",
+        "knobs": 25,
+        "footswitches": 4,
+        "separate_buttons": {
+          "count": 5,
+          "names": [
+            "EZ TONE",
+            "EDIT/EXIT",
+            "WRITE",
+            "NS THRES/BANK left",
+            "NS THRES/BANK right"
+          ],
+          "basis": "ManualE12/trainingpp9–10 namedcontrol enumeration"
+        },
+        "toe_switch_additional": true,
+        "ez_tone": "Per-effect-type settings, initiallyfactoryoptimized/overwriteable;notwholepatchslots",
+        "looper": "Trainingp2 explicitlyunlimitedoverdubs",
+        "remaining": "Socketformats,processingceiling andother savedgaps"
       }
     },
     {
