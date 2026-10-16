@@ -1319,3 +1319,7 @@ research-commit-blackhammer:
 .PHONY: research-commit-dapper-dark-mini
 research-commit-dapper-dark-mini:
 	python3 scripts/research_tools.py commit-dapper-dark-mini
+
+.PHONY: research-commit-dapper-indie
+research-commit-dapper-indie:
+	python3 scripts/research_tools.py commit-dapper-indie

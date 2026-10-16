@@ -960,3 +960,40 @@ Official V01_161208 manual is readable in search index,while directPDF returns c
 [DKM-P]: https://www.valeton.net/product/dapper-dark-minidiscontinued/
 [DKM-M]: https://www.valeton.net/download/179/dapper-dark-minidiscontinued/18565/dapper-dark-mini_manual_v01_161208-2.pdf
 [DKM-O]: https://shopee.co.id/VALETON-DAPPER-DARK-MINI-PEDAL-GUITAR-i.656068322.18879117394
+
+## Dapper Indie
+
+Guitar multi-effects strip; distinct from other Dappers. Checked2026-10-17;partial. Exact model code awaits primary corroboration.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in,external andtoe support unverified. | Unresolved |
+| K/F/B | **16 rotary controls**,text-derived:Drive4,Fuzz4,LiquidFX2,Echoes3,Ambient3. Three effect-type toggles;footswitch/button totals await panel inspection. | [Manualp2][DI-M] |
+| Display | Tuner note display with sharp dot andpitch LEDs;diagonal,color,touch/technology unverified. | [Product][DI-P] |
+| Dimensions / mass | **320×65×42mm;650g**. ProductWDH versusmanualDWH;axis conflict retained. Long strip. | [Product][DI-P];[manual][DI-M] |
+| Processing / category choices | **IndieDrive,FuzzWall,LiquidFX,Echoes,Ambient**,plus tuner. Drive two-bandEQ. LiquidFX:chorus/phaser/tremolo;Echoes:analog/tape/reverse;Ambient:room/hall/plate. Exact simultaneous count unverified. Product repeatsEchoes heading;notanotherblock. | [Product][DI-P];[manualp2][DI-M] |
+| Factory / user memory | Factory,user,total storage unverified. | Unresolved |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
+| I/O | INPUT/OUTPUT/PHONES documented,input1MΩ/output100Ω. **PHONES hascab simulation**,can feedrecording/PA;module settings affect headphonevolume. Fullsockettypes/absence audit pending. | [Product][DI-P];[manual][DI-M] |
+| Power / battery / USB | **9VDC centre-negative,150mA consumption**. Manufacturerincludesadapter;sellerbundle unknown. Battery/USB unverified. | [Product][DI-P] |
+| IR / NAM / capture | Headphonecab simulation doesnotestablishuserIR,NAM orcapture;unverified. | [Manual][DI-M] |
+| Editor / software | Editor/platform support unverified. | Unresolved |
+| Looper / drums / live | Delay **25–2000ms**. LiquidFX/Echoes:holdswitchfortap,holdagainforknobmode. Ambientholdtogglestrail,LEDspulse. HoldFuzzWallformutedtuner. Looper,drums,scenes andpresetspillover unverified. | [Product][DI-P];[manual][DI-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;conditionnotestablished. | — |
+| New | Unknown;conditionandliveavailabilitynotestablished. | — |
+
+### Qualified seller observation
+
+ALLZ MUSIC SHOP,shop115662249/item51416841921: **Rp1,138,000**,month-old storefront. Exactitemlinkresolved;directitemcachemiss. Condition,stock,region,workingstate,bundle/adapter,warrantyandvouchereligibility unknown. Notaconfirmednew/usedrange. Manufactureridentityindependentofsellerunit;physicalrevisionunconfirmed.
+
+OfficialEnglishV01_181229manualreadastwo-pagewebtext. No visualpanelverificationorfiledownload. ProductduplicatedEchoessectiondoesnotaddamodel/block;manualandproductaxislabelsremainvisible.
+
+[DI-P]: https://www.valeton.net/product/dapper-indie/
+[DI-M]: https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf
+[DI-O]: https://shopee.co.id/efek-gitar-dapper-indie-i.115662249.51416841921
+[DI-S]: https://shopee.co.id/allzzzmusicshop
