@@ -135,6 +135,42 @@ Retail **Rp1.025.000**, [Nafiri black QME-10BK](https://nafiriguitar.com/product
 
 Sources: [manufacturer product](https://www.sonicake.com/products/pocket-master); [multilingual firmware1.3.0 manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312),English p.5 previously inspected; [official photograph](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440). Product/download page at original check listed firmware1.3.3,Manager1.5.2,SONICLINK1.7.2,not identical revision to the cited manual. Do not silently assume unchanged firmware behavior. Screen diagonal was documented,not estimated from housing.
 
+### Pocket Master shared comparison provenance
+
+Complete compact-source audit checked on 2026-10-17. These exact fields retain the 2026-10-14 source snapshot; palm-button classification, USB socket roles and noneditable factory memory are not silently collapsed.
+
+- **Display** (1. Displays): LCD
+- **Diagonal, inches** (1. Displays): 1.77
+- **Monochrome / color** (1. Displays): Color
+- **Touchscreen** (1. Displays): ?
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer firmware-1.3.0 manual, English printed p.5](effects/findings/2026-10-14-sonicake-pocket-master.md)
+- **Built-in / external expression** (No built-in expression pedal): No / not established
+- **K/F/B** (No built-in expression pedal): 1/0 conventional/2 palm buttons
+- **Width × depth × height, mm** (No built-in expression pedal): 103.5 × 85 × 28.5
+- **Weight** (No built-in expression pedal): 194 g
+- **Used IDR observation** (No built-in expression pedal): ?
+- **New / retail IDR observation** (No built-in expression pedal): **Rp1.025.000**, Nafiri black variant; stock unconfirmed [FPM]
+- **Simultaneous blocks / categories and choices** (3. Processing, memory, IR and NAM): 9; 100+ effects, 20 amps; DRV/AMP/IR/EQ fixed, NR/FX1/FX2/DLY/RVB movable
+- **Presets and user storage** (3. Processing, memory, IR and NAM): 50 non-editable P + 50 editable U
+- **Synth / acoustic functions** (3. Processing, memory, IR and NAM): Exact synth/acoustic choices ?
+- **Third-party IR** (3. Processing, memory, IR and NAM): 5 user slots
+- **NAM / captured models** (3. Processing, memory, IR and NAM): NAM A2 support in current Manager/SONICLINK downloads; not assumed unrestricted native NAM
+- **Audio / control connections** (4. Connections, power, apps and practical differences): ¼″ input; one ¼″ TRS stereo output/headphones; **two USB-C sockets**, audio/data and power/charging [FPM]
+- **Power and battery** (4. Connections, power, apps and practical differences): Built-in 1000 mAh lithium battery; USB 5 V
+- **Configuration software** (4. Connections, power, apps and practical differences): Windows/macOS Manager; iOS/Android SONICLINK
+- **Other relevant features** (4. Connections, power, apps and practical differences): USB stereo audio; 99 rhythms; **palm buttons are not counted as footswitches**
+- **Original used quote** (Archived foreign-price provenance — not the comparison currency): Unverified
+- **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD64.99
+- **Original evidence** (Archived foreign-price provenance — not the comparison currency): [Official product page][pocket]
+
+**Availability warning:** the Nafiri GP-100/Pocket Master and Smosyu GP-5 extracted pages contain both a sold-out label and Add to cart. Those conflicting page elements are recorded as **unconfirmed**, not definite stock. The GP-100 used and GP-50 new listings have an explicit sold-out purchase state; these are historical listed amounts, not active offers or proven sale prices. A seller account name does not establish authorized-dealer status.
+
+Sonicake's checked Matribox download section lists firmware **1.1.0** and desktop software **1.1.1** with NAM A2 support; its instructions require the older software for the firmware-update step. Pocket Master's page lists firmware **1.3.3**, Manager **1.5.2**, and SONICLINK **1.7.2**. Smart Box also lists iOS/Android SONICLINK **1.7.2**. Follow the matching manufacturer instructions. These are documented workflows, not compatibility tests of every NAM architecture or regional unit.
+
+These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected.
+
+Historical source key: `FPM` means the [original Pocket Master finding](effects/findings/2026-10-14-sonicake-pocket-master.md); `pocket` means the [official model page](https://www.sonicake.com/products/pocket-master). The [firmware 1.3.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312) remains distinct from the later software/download versions. No firmware test or refreshed stock claim is made.
+
 ## Matribox II QME-100
 
 **Existing review2026-10-14.**

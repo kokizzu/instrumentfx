@@ -759,3 +759,9 @@ consolidation-audit-compact-smartbox:
 	python3 scripts/consolidation_tools.py audit-compact "Smart Box"
 research-commit-compact-smartbox-audit:
 	python3 scripts/research_tools.py commit-compact-smartbox-audit
+
+.PHONY: consolidation-audit-compact-pocketmaster research-commit-compact-pocketmaster-audit
+consolidation-audit-compact-pocketmaster:
+	python3 scripts/consolidation_tools.py audit-compact "Pocket Master"
+research-commit-compact-pocketmaster-audit:
+	python3 scripts/research_tools.py commit-compact-pocketmaster-audit

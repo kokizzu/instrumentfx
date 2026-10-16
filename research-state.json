@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Pocket Master QME-10 shared compact-source audit",
-    "task": "Smart Box shared 23 fields/five rows, firmware/foreign-price context and source key preserved. Next inspect Pocket Master root/shared rows and exact context/URLs, commit before another model. Broader source/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
+    "model": "Compact shared-source union audit and fresh discovery",
+    "task": "All eight compact model-row subsets checked (23 fields/five rows each); Pocket Master exact context/source key retained. Next verify union of shared prose, URLs/reference definitions and incoming links, including unregistered finding bodies. Then resume fresh Shopee discovery by brand/series; complete required technical gaps. No source deletion based solely on row coverage.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -14272,12 +14272,21 @@
           "model_rows": 5,
           "repair": "Exact shared rows, firmware/foreign-price paragraphs and explicit source key added.",
           "scope": "Shared evidence preservation only; native-versus-converted NAM and current stock remain unverified."
+        },
+        {
+          "model": "Sonicake Pocket Master QME-10",
+          "destination": "SONICAKE.md#pocket-master-qme-10",
+          "target": "make consolidation-audit-compact-pocketmaster",
+          "retained_fields": 23,
+          "model_rows": 5,
+          "repair": "Exact fields plus availability/firmware/foreign-price context and source key retained.",
+          "scope": "Shared evidence preservation only; remaining algorithm, firmware, NAM and stock gaps remain."
         }
       ],
-      "remaining_models": [
-        "Pocket Master QME-10"
-      ],
-      "source_retired": false
+      "remaining_models": [],
+      "source_retired": false,
+      "complete": false,
+      "remaining_work": "Eight model-row subsets checked; file-wide prose, all reference definitions, date context and incoming links still need union audit. No legacy retirement authorized."
     }
   },
   "deferred_work": {

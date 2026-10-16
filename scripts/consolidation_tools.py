@@ -1546,7 +1546,28 @@ def audit_compact_smartbox():
         assert ']('+url+')' in destination, 'Source key missing'
     print('PASS Smart Box: 23 fields/five rows, shared firmware/foreign-price context and source-key links retained. No stock or native NAM certification.')
 
+def audit_compact_pocketmaster():
+    research_tools.identity()
+    source = (ROOT/'effects/guitar-compact.md').read_text()
+    destination = (ROOT/'SONICAKE.md').read_text().split('\n## Pocket Master QME-10\n',1)[1].split('\n## ',1)[0]
+    facts = []
+    for headers, rows, context in comparison_views.tables(source):
+        for row in rows:
+            label = re.sub(r'\[([^\]]+)\]\[[^\]]+\]', r'\1', row[0])
+            if label in ('Pocket Master', 'Pocket Master QME-10', 'Sonicake Pocket Master, QME-10'):
+                facts += [(h,v.replace('(findings/', '(effects/findings/')) for h,v in zip(headers[1:],row[1:])]
+    assert len(facts) == 23, 'Pocket Master field count changed'
+    for field, value in facts:
+        assert value in destination, 'Missing Pocket Master field: '+field
+    for prefix in ("Sonicake's checked Matribox", 'These earlier observations', '**Availability warning:**'):
+        assert next(p for p in source.split('\n\n') if p.startswith(prefix)) in destination, 'Shared context missing'
+    for url in ('effects/findings/2026-10-14-sonicake-pocket-master.md', 'https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312', 'https://www.sonicake.com/products/pocket-master'):
+        assert ']('+url+')' in destination, 'Source key missing'
+    print('PASS Pocket Master: 23 fields/five rows, shared firmware/foreign-price context and source-key links retained. No stock or native NAM certification.')
+
 def audit_compact(model):
+    if model == 'Pocket Master':
+        return audit_compact_pocketmaster()
     if model == 'Smart Box':
         return audit_compact_smartbox()
     if model == 'Matribox':
