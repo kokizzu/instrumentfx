@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "G3 follow-up / fresh Shopee discovery",
-    "task": "G3 firmware history and USB/looper controls saved: six effects require2.00+,2.10 fixes qualified. Continue physical controls and remaining fields or fresh exact Shopee discovery; commit each model before next.",
+    "task": "G3 external-control and routing follow-up saved. Next verify physical counts with usable primary panel evidence, or resume fresh exact Shopee discovery. Do not add G3 again; commit each model before the next.",
     "next_models": [],
     "after_queue": "Search brands/series again; no exhaustive coverage claim."
   },
@@ -1527,7 +1527,8 @@
         "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3_G3X_1.pdf",
         "https://www.zoom.co.jp/node/707",
         "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/",
-        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf"
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf",
+        "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf"
       ],
       "offers": [
         {
@@ -1562,6 +1563,17 @@
           "Last-overdub Undo/redo; immediate/end/fade stop modes"
         ],
         "remaining": "Offered firmware unknown; original revision library counts, physical controls and saved gaps remain"
+      },
+      "external_control_routing_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+        "resolved": [
+          "Per-patch external-pedal assignments; OUTPUT VOL excludes rhythm/looper",
+          "Invertible manual min/max; simultaneous AUTO ASSIGN and fixed ranges",
+          "FS01 effect functions, bypass/mute and tap tempo; assigned effect must be enabled",
+          "Global reverse signal flow and output targets; XLR PRE original with processed main outputs"
+        ],
+        "remaining": "Physical control counts require usable panel image; browser surfaces unavailable; original G3-only PDF still inaccessible; retain other saved gaps"
       }
     }
   ],

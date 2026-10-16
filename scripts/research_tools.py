@@ -282,7 +282,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-g3':
-            message = 'research(zoom): qualify G3 firmware ceiling USB monitoring and loop controls'
+            message = 'research(zoom): document G3 external control assignments and output routing'
         if mode == 'commit-me25':
             message = 'research(boss): qualify ME-25 library software and converter specifications'
         if mode == 'commit-me70':
