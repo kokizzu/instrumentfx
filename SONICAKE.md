@@ -395,7 +395,7 @@ Sources: [official global product/FAQ](https://www.sonicake.com/products/sonic-w
 
 ## Other Sonicbar models — confirmed research leads
 
-The [official Sonicbar collection](https://www.sonicake.com/collections/multi-effects-pedal) identifies **RockStage,Twiggy Blues,Black Hammer and BOOM Ave.**,in addition to the now-recorded Sonic Wood. These are separate guitar/bass combined-effects candidates requiring exact Shopee offers and complete primary model research before they count as new profiles. A collection sold-out badge is not worldwide unavailability. Do not add dedicated mini pedals or controllers simply because they appear elsewhere in the store.
+The [official Sonicbar collection](https://www.sonicake.com/collections/multi-effects-pedal) identifies **RockStage, Twiggy Blues, Black Hammer and BOOM Ave.**,in addition to the now-recorded Sonic Wood. RockStage and Black Hammer now have partial records below. Twiggy Blues and BOOM Ave. remain separate guitar/bass candidates requiring exact Shopee offers and primary research before they count as new profiles. A collection sold-out badge is not worldwide unavailability. Do not add dedicated mini pedals or controllers simply because they appear elsewhere in the store.
 
 ## Consolidation provenance
 
@@ -436,3 +436,39 @@ Official page also displays Sold out, without proving Indonesian availability. I
 [BH-P]: https://www.sonicake.com/products/black-hammer
 [BH-M]: https://cdn.shopifycdn.net/s/files/1/0100/1950/4185/files/Black_Hammer-User_Manual.jpg?v=1647482298
 [BH-O]: https://shopee.co.id/Efek-Gitar-SONICAKE-Black-Hammer-Multi-Effects-Pedal-4-In-1-Distortion-i.19700013.19281940040
+
+## RockStage QCE-10
+
+Guitar multi-effects strip, distinct from Black Hammer and G3-series products. Manufacturer identifies QCE-10. Checked 2026-10-17; partial. Bass/vocal suitability unclassified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in, external and toe support unverified. | Unresolved |
+| K/F/B | Separate rotary, footswitch and button totals require readable panel evidence. | Unresolved |
+| Display | Illuminated knobs indicate operating state; screen presence, diagonal, color and touch remain unverified. | [Product][RS-P] |
+| Dimensions / mass | **262 D × 64 W × 44 H mm; 480 g**. Long strip. | [Product][RS-P] |
+| Processing / category choices | **Analog Plexi-style distortion, BBD-style chorus, digital delay and digital reverb**. Delay has analog voicing, not an all-analog implementation. Exact simultaneous count and routing unverified. | [Product][RS-P] |
+| Factory / user memory | Factory-filled, user and total storage unverified. | Unresolved |
+| Synth / acoustic | Dedicated synth and electric-to-acoustic simulation unverified. | Unresolved |
+| I/O | Cab simulation supports direct PA, mixer or interface use. Full socket inventory, connector types and cab-sim routing remain unverified. | [Product][RS-P] |
+| Power / battery / USB | **9 V DC centre-negative; 130 mA consumption**. Manufacturer lists included supply; seller bundle unknown. Battery and USB operation unverified. | [Product][RS-P] |
+| IR / NAM / capture | Built-in cab simulation does not establish user IR, native/converted NAM or capture imports; all remain unverified. | Unresolved |
+| Editor / software | Editor and supported platforms unverified. | Unresolved |
+| Looper / drums / live | Delay maximum **500 ms**. Chorus RATE minimum / DEPTH maximum is a manufacturer rotary-like recipe, not proof of a separate rotary algorithm. Looper, drums, tap, trails and scenes unverified. | [Product][RS-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no condition-qualified offer. | — |
+| New | Unknown; seller condition unconfirmed. | — |
+
+### Qualified seller observation
+
+MICKEY MOUSE SHOP, Jakarta Utara, shop 19700013 / item 22648443827: **Rp1,650,000**, marked **Habis** in a month-old search cache. Direct item request returned cache miss. Condition, working state, physical revision, supply/bundle, warranty and voucher eligibility remain unknown. This sold-out ask is not live stock or a completed sale. Stale September delivery dates and late-delivery compensation do not verify an item discount. [Exact item][RS-O].
+
+The official Japanese manual link returned cache miss. No panel image was inspected and no file was downloaded; control totals and complete I/O are unresolved.
+
+[RS-P]: https://www.sonicake.com/products/rockstage
+[RS-MJ]: https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QCE-10-JP.webp?v=1789627945
+[RS-O]: https://shopee.co.id/Efek-Gitar-SONICAKE-RockStage-Multi-Effects-Pedal-4-In-1-Distortion-i.19700013.22648443827
