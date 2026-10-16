@@ -277,3 +277,11 @@ consolidation-apply-ge100-original:
 	python3 scripts/consolidation_tools.py apply ge100-original
 consolidation-commit-ge100-original:
 	python3 scripts/consolidation_tools.py commit ge100-original
+
+.PHONY: consolidation-plan-ge150-original consolidation-apply-ge150-original consolidation-commit-ge150-original
+consolidation-plan-ge150-original:
+	python3 scripts/consolidation_tools.py plan ge150-original
+consolidation-apply-ge150-original:
+	python3 scripts/consolidation_tools.py apply ge150-original
+consolidation-commit-ge150-original:
+	python3 scripts/consolidation_tools.py commit ge150-original

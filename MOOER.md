@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. Fourteen previously researched GE models still require complete consolidation; GE100 original is consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. Thirteen previously researched GE models still require complete consolidation; GE100 original and GE150 original are consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -307,3 +307,68 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Other documented functions** (5. Power, software and practice/live features): 180 s looper;40 rhythms+10 metronomes; chord/scale dictionary
 
 Sources: [effects/findings/2026-10-14-mooer-ge100.md](effects/findings/2026-10-14-mooer-ge100.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+
+## GE150 original
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- MOOER-GE150-ORIGINAL source begins -->
+
+Checked **2026-10-14**. **Partial new record**, separate from GE150 Plus, Pro, Max and their Li versions. [Manufacturer product specifications][MOOER-GE150-ORIGINAL-P] and [editor downloads][MOOER-GE150-ORIGINAL-D] support this baseline.
+
+| Field | Established / unresolved |
+|---|---|
+| Expression | Built-in; external support and toe-switch details ? |
+| Controls | Rotary/buttons ?; **2 footswitches**, also distinguished from Pro's four in the manufacturer's [Pro introduction][MOOER-GE150-ORIGINAL-PRO] |
+| Display | Screen present; diagonal, color mode and explicit touch specification remain ? in this pass |
+| Size / weight | **230×155.99×32.8 mm; 1 kg**; medium |
+| Processing | **Up to 9 stages, 151 effects/models**; 55 amps; remaining per-category counts ? |
+| Presets | **200 locations**; factory-filled/editable split ? |
+| Synth / acoustic simulator | ? / ?; not copied from a sibling model |
+| Ports | ¼-inch mono input; 2×¼-inch mono outputs; ⅛-inch aux/phones; **micro-USB OTG**; separate computer USB connection, connector type not established here |
+| Power | **9 V center-negative, 300 mA**; battery and USB-powered operation ? |
+| IR | Manufacturer advertises **26 user slots**; WAV, **24-bit/44.1 kHz, 512 points** |
+| NAM | **Unverified for original GE150**. New Plus/Pro/Max conversion support is not transferred to this hardware |
+| Apps | **Windows/macOS editor**; listed older OS versions do not certify current OS compatibility |
+| Extras | **80 s looper; 40 rhythms +10 metronomes**; mobile OTG recording |
+
+The product specification table transposes the headings for 9 and 151. The same page's feature text clearly distinguishes nine simultaneous effect types from 151 library choices; it does not establish 151 simultaneous blocks.
+
+### Shopee Indonesia
+
+Retail indexed ask **Rp2.744.000**, [Vin's Music Store][MOOER-GE150-ORIGINAL-S1]. Separate retail asks **Rp1.995.000** [Mickey Mouse][MOOER-GE150-ORIGINAL-S2] and **Rp1.950.000** [Adventure][MOOER-GE150-ORIGINAL-S3] are explicitly **sold out** in indexed evidence. Keep availability separate rather than present an active market range. Explicitly used-condition quote: **?**. A Fullset/box title alone does not establish used condition. Checkout stock, authenticity, warranty and shipping remain unverified.
+
+[MOOER-GE150-ORIGINAL-P]: https://www.mooeraudio.com/product/GE150-228.html
+[MOOER-GE150-ORIGINAL-D]: https://www.mooeraudio.com/companyfile/GE150-Downloads-146.html
+[MOOER-GE150-ORIGINAL-PRO]: https://www.mooeraudio.com/products/207.html
+[MOOER-GE150-ORIGINAL-S1]: https://shopee.co.id/MOOER-GE150-Amp-Modelling-Multy-Effectd-Pedal-i.31173885.27012912747
+[MOOER-GE150-ORIGINAL-S2]: https://shopee.co.id/Efek-Gitar-MOOER-GE150-AMP-Modelling-Multi-Effects-Pedal-Guitar-GE-150-i.19700013.17490614613
+[MOOER-GE150-ORIGINAL-S3]: https://shopee.co.id/MOOER-GE150-Guitar-Multi-Effects-Processor-Pedal-Efek-Gitar-Digital-MOOER-GE-150-i.154467850.29914613151
+
+**Next:** retrieve a complete original manual/panel for controls, screen and preset rules; confirm current original-model firmware and active used/new offers. New-family presets cannot automatically be imported back into original GE150.
+<!-- MOOER-GE150-ORIGINAL source ends -->
+
+### GE150 original — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **External expression / toe** (Built-in expression): ? / ?
+- **K/F/B** (Built-in expression): ?/2/?
+- **Dimensions; weight** (Built-in expression): 230×155.99×32.8; 1 kg
+- **Size** (Built-in expression): Medium
+- **Used IDR** (Built-in expression): ?
+- **Retail IDR observation** (Built-in expression): Rp2.744.000; separate Rp1.950.000 and Rp1.995.000 **sold-out** asks
+- **Display type** (2. Displays): Screen present
+- **Diagonal** (2. Displays): ?
+- **Monochrome / color** (2. Displays): ?
+- **Touch** (2. Displays): ?
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): Up to 9 stages, 151 models, 55 amps; per-category counts ?
+- **Preset storage** (3. Processing, presets and loading): 200 locations; factory/editable split ?
+- **Acoustic simulation / synth** (3. Processing, presets and loading): ? / ?
+- **IR / NAM** (3. Processing, presets and loading): **26 user IR slots** in official page; 24-bit/44.1 kHz/512; NAM unverified on original
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch mono input; 2×¼-inch outputs; ⅛-inch aux/phones; micro-USB OTG and separate computer USB connection, type ?
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative/300mA**; battery/USB power ?
+- **Configuration apps** (5. Power, software and practice/live features): Windows/macOS editor; current OS compatibility ?
+- **Other documented functions** (5. Power, software and practice/live features): 80 s looper;40 rhythms+10 metronomes; mobile OTG recording
+
+Sources: [effects/findings/2026-10-14-mooer-ge150.md](effects/findings/2026-10-14-mooer-ge150.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
