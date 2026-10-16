@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX StompLab 2G manual follow-up",
-    "task": "Continue officialIIG EFGSJ1 manual: expressionassignment limits,AMPDRsharedcategory,memorywrite/outputmodes andautooff. Controls3/2/4,8simultaneous,completeIO saved. ThenG1Xon.",
+    "task": "StompLab2G expression/memory/output followup saved. Remainingpolarity/display/imports/autooffrevision unresolved. NextZoomG1Xon initialofficialprofile;retainall2Ggaps.",
     "next_models": [
       "Zoom G1Xon"
     ],
@@ -3283,6 +3283,11 @@
         "identity": "Official84pageIIG EFGSJ1;Englishpp3–6",
         "verified": "Eight simultaneous includingNR;3/2/4 controls;built-inpressureexpression;fullrearIO,noUSB/externalEXP",
         "remaining": "Memorywrite/outputmode/expressionmappingdetails,displaytechnology,polarity,import/editor andprices"
+      },
+      "assignment_memory_followup": {
+        "source": "OfficialEFGSJ1Englishpp8–13",
+        "verified": "AMPDRshared,volumeconditional;assignableblinkingLEDparameters;programmappingpickup;WRITErequired;positionexceptions;outputprofilespersistentmaster7.0reset;tuner440reset",
+        "remaining": "Autooffexactrevision,display,polarity,imports,liveprices"
       }
     }
   ],

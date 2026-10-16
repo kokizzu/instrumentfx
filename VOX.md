@@ -222,18 +222,22 @@ Guitar multi-effects with built-in expression, distinct from 1G and 2B. Checked 
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | **Built-in expression with pressure switching** of assigned target; wah,volume andeffect parameters. No external EXP socket in complete rear inventory. | [Official IIG manual pp3–6][SL2G-M] |
+| Expression | **Built-in expression with pressure switching** of assigned target; wah,volume andeffect parameters. No external EXP socket in complete rear inventory. Only blinking-LED parameters are assignable;heel/toe ranges are editable and require saving. Volume follows pedal position immediately on program recall;other targets wait for pedal movement. | [Official IIG manual pp3–6][SL2G-M] |
 | K/F/B | **3 / 2 / 4**, text-derived: CATEGORY,VALUE1/2;UP/DOWN footswitches;EDIT,up/down buttons,expression-setting button. Pedal pressure switch and rear POWER additional. Visual corroboration pending. | [Manual pp4–5][SL2G-M] |
 | Display | Program/value readout plus tuner andexpression LEDs. Diagonal,technology,color andtouch unverified. | [Manual pp4–5][SL2G-M] |
 | Dimensions / mass | **207×125×64 mm W×D×H; 780 g**. English also prints21.72oz, inconsistent with780g; retain conflict. Medium horizontal footprint. | [VOX English][SL2G-E];[German][SL2G-D] |
-| Processing / category choices | **104** advertised total. Category choices: pedal8, amp44, drive18, cabinet12, modulation9, delay8, reverb3, noise reduction1, plus expression/volume. Not104 simultaneous blocks. Exact IIG manual confirms **eight simultaneous effects includingNR**,superseding series-wide7–8 ambiguity. German list includes UK T75 absent from English's11-name list under12 heading. | [English][SL2G-E];[German][SL2G-D];[Japanese][SL2G-J];[Manual p3][SL2G-M] |
-| Factory / user memory | **100 preset +20 user =120**. Initial user fill/write behavior pending. | [VOX German][SL2G-D] |
+| Processing / category choices | **104** advertised total. Category choices: pedal8, amp44, drive18, cabinet12, modulation9, delay8, reverb3, noise reduction1, plus expression/volume. Not104 simultaneous blocks. **Amp and drive share AMP/DR**;Lo/Hi are its parameters,not extra blocks. Volume block operates when expression isassignedVOLUME. Exact IIG manual confirms **eight simultaneous effects includingNR**,superseding series-wide7–8 ambiguity. German list includes UK T75 absent from English's11-name list under12 heading. | [English][SL2G-E];[German][SL2G-D];[Japanese][SL2G-J];[Manual p3][SL2G-M] |
+| Factory / user memory | **100 preset +20 user =120**. **WRITE required**;program change/power-off loses unsaved edits. Writing replaces destination. Initial user fill pending. | [Manual p12][SL2G-M] |
 | Synth / acoustic | ACOUSTIC in pedal list; dedicated simulation behavior and synth capability unverified. | [VOX German][SL2G-D] |
 | I/O | Complete rear inventory: **INPUT,shared OUTPUT/PHONES,DC9V andPOWER**. No USB,MIDI,AUX,send/return or externalEXP in inventory. Audio socket sizes pending. | [Manual pp5–6][SL2G-M] |
 | Power / battery / USB | **9V DC, approximately200mA;4AA,7.5h alkaline**, optional adapter. Polarity unverified; noUSB socket,so noUSB operation. English calls battery set included for testing; German excludes batteries: regional bundle conflict. | [VOX German][SL2G-D];[English][SL2G-E] |
 | IR / NAM / capture | UserIR, native/converted NAM and proprietary capture import unverified. | Unresolved |
 | Editor / software | No USB port in complete inventory. Model-specific editor/platform availability unverified. | Unresolved |
-| Looper / drums / live | Tuner A0–E6, reference438–445Hz. Looper, drums, routing, trails and scenes unverified. | [VOX English][SL2G-E] |
+| Looper / drums / live | Tuner A0–E6, reference438–445Hz. Output profilesA1 UKopen combo,A2 cleanUSopen,A3closedstack,Ln line/headphone/poweramp/recorder. Profile persists;master resets7.0. Tuner calibration resets440Hz. Looper,drums,trails/scenes unverified. | [Manual pp9,12–13][SL2G-M] |
+
+### Expression storage limits
+
+Rev.EFGSJ1 p11 says current pedal position can be stored except volume,delay input,reverb input andMOD pitch-shift pitch. This does not prohibit assigning those targets;it limits saved instantaneous values. Assignment ranges require WRITE. [Official manual pp10–12][SL2G-M]
 
 ### Separate IDR hardware offers
 
