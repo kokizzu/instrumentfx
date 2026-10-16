@@ -24,7 +24,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [VALETON.md](VALETON.md) |GP-200LT,GP-200JR |
 | [MOOER.md](MOOER.md) |GE250 |
 | [HOTONE.md](HOTONE.md) |Ampero One MP-80 |
-| [LINE6.md](LINE6.md) |POD Go,POD Go Wireless,POD Express Guitar,POD Express Bass |
+| [LINE6.md](LINE6.md) |POD Go,POD Go Wireless,POD Express Guitar,POD Express Bass,HX Effects |
 | [ZOOM.md](ZOOM.md) |G11 |
 | [JOYO.md](JOYO.md) |GEM BOX original,II,III |
 | [DONNER.md](DONNER.md) |Arena2000 |
@@ -54,7 +54,7 @@ All model records separate knobs/footswitches/buttons,expression,used/new IDR,si
 
 The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
 
-**Organization migration is incomplete:**48 detailed models are now root-canonical;73 still rely on legacy source records. The new instrument views are complete navigation for the recorded categories,not a claim those legacy details have already been migrated. No old source was deleted in this pass. Preserve every fact,source URL,date,variant distinction,correction and unresolved contradiction; verify the destination and incoming links before retiring old files.
+**Organization migration is incomplete:**49 detailed models are now root-canonical;72 still rely on legacy source records. The new instrument views are complete navigation for the recorded categories,not a claim those legacy details have already been migrated. No old source was deleted in this pass. Preserve every fact,source URL,date,variant distinction,correction and unresolved contradiction; verify the destination and incoming links before retiring old files.
 
 ## Scope and ownership
 

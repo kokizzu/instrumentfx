@@ -15,3 +15,7 @@ research-render-gp200jr:
 
 research-commit-gp200jr:
 	python3 scripts/research_tools.py commit-gp200jr
+
+.PHONY: research-commit-hx-effects
+research-commit-hx-effects:
+	python3 scripts/research_tools.py commit-hx-effects

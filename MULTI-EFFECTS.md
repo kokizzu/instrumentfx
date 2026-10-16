@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [All vocal](ALL-VOCAL.md) · [Repository](README.md)
 
-This category view summarizes the **13 selected model records from the 48 root-canonical profiles**. It is not the complete121-model technical table: remaining source-backed records are indexed by instrument and still await lossless consolidation from legacy documents. Counts in different views overlap and must not be added together.
+This category view summarizes the **13 selected model records from the 49 root-canonical profiles**. It is not the complete121-model technical table: remaining source-backed records are indexed by instrument and still await lossless consolidation from legacy documents. Counts in different views overlap and must not be added together.
 
 Each model link opens the full evidence,firmware context,price qualifications and unknowns. These summaries do not replace those qualifications. A color screen does not prove touch; an expression socket is not an included pedal; a fixed category is not a freely assignable processing block.
 

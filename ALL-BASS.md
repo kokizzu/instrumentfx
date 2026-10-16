@@ -26,6 +26,7 @@ These records are all partial. Preset counts,editor support and battery/USB func
 
 | Model | Main comparison issue | Canonical root record |
 |---|---|---|
+| Line6 HX Effects |Nine simultaneous effect blocks; no amp models; USB MIDI without USB audio; explicitly guitar/bass |[HX Effects](LINE6.md#hx-effects) |
 | HeadRush MX5 |11-slot architecture; amp/cab/effect library and rig-tail limitations |[MX5](HEADRUSH.md#mx5) |
 | HeadRush Core |Guitar/bass/vocal paths;14 blocks and architecture-qualified native NAM |[Core](HEADRUSH.md#core) |
 | HeadRush Flex Prime |Guitar/bass but no dedicated live vocal input; not interchangeable with Core |[Flex Prime](HEADRUSH.md#flex-prime) |

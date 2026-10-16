@@ -184,6 +184,36 @@ The family manual's headphone/main-output caveat also applies: L/MONO sums to mo
 
 [PE-B] [Official POD Express Bass page with numbered controls/ports](https://line6.com/podexpress/bass-effects). The Bass-specific effect table and signal path are in [PE-M] above, especially printed pp.26–27. [PE-F] explicitly names Bass for the battery,USB-power and driver rules. Sources shared across models are explicit manufacturer family documentation,not sibling-model inference.
 
+## HX Effects
+
+**Guitar/bass effects-only multi-effects**, not a single-function pedal. No amp modeling is required for inclusion. Consolidated from the complete `effects/advanced-modelers.md` record (technical snapshot 2026-10-14), with model-specific manufacturer rechecks **2026-10-16**. This is the existing inventory entry, not a new model.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | No built-in pedal or toe switch; **two external pedal sockets shared with amp-control outputs**. Each can instead control two amp-switch functions; selecting amp control consumes that expression connection. [HXE-P, HXE-F] |
+| Knobs / footswitches / buttons | **4 / 8 / 6** from the official numbered control inventory: Big Knob plus three parameter knobs; six assignable footswitches plus MODE and TAP; SAVE, MENU, ACTION, HOME and two PAGE buttons. Encoder presses counted once; rear power toggle separate. Earlier ?/8/? count is superseded. [HXE-P] |
+| Display | **Six customizable LCD scribble strips**; no large central display. Published diagonals, monochrome/color and touchscreen specifications unverified. Capacitive-touch footswitches and colored LED rings do **not** establish a touchscreen or color LCDs. [HXE-P] |
+| Body / size | Official FAQ **10.8 W ×7.9 D ×2.8 H inches; 4.75 lb**, approximately **274×201×71 mm; 2.15 kg**. Rounded conversions, not precision measurements. **Large**, because rounded depth exceeds the 200 mm medium limit. [HXE-F] |
+| Blocks / category choices | **Nine simultaneous blocks, DSP-limited**, reorderable with parallel Path B. No amp or factory cabinet-model blocks. Legacy FAQ's 117 HX +77 Legacy effects is a **launch-era** count, not the present library. Distortion/dynamics/EQ/modulation/delay/reverb/pitch-synth/filter/wah/volume/IR/loop utilities are documented; complete firmware-current subtotals remain unverified. [HXE-F, HXE-M] |
+| Memory | **128 overwriteable presets**, four snapshots each; factory-filled subset not separately established. [HXE-F, HXE-M pp.16,31] |
+| Synth / acoustic | **Synth yes**: 3 OSC Synth and Legacy synth models explicitly listed. Acoustic-body IR loading supported; this is distinct from a verified dedicated electric-to-acoustic simulator algorithm. [HXE-M p.22; HXE-F] |
+| IR / NAM / captures | **128 user IR locations**, one 2048-sample block or two 1024-sample blocks per preset. IRs consume processing blocks and sum their input to mono. Native NAM, converted NAM and user amp-capture import not established. [HXE-M pp.24–25] |
+| I/O | Two 6.35 mm instrument/line inputs; two **unbalanced TS** main outputs; two TS sends and two TS returns (two mono loops or one stereo loop); two PEDAL/EXT AMP sockets; MIDI DIN IN and OUT/THRU; USB-B; DC. No dedicated headphone output in the complete rear-panel inventory. [HXE-P] |
+| Power / battery / USB | Included **DC-3G**, **2.5 mm pin**, FAQ requires **at least 2 A clean DC**. Voltage/polarity and battery/USB-powered operation not independently established here; do not copy another HX supply specification. Supply requirement is not measured current draw. [HXE-F] |
+| Editing / USB | **HX Edit Windows/macOS** full editor, preset/IR librarian; current official page and manual supersede the launch FAQ's librarian-only wording. HX Edit 2.60+ with matching hardware firmware added full editing. **USB MIDI, explicitly no USB audio interface**. iOS USB remote MIDI control is not an iOS full editor; Android/Linux editing unverified. [HXE-P, HXE-F, HXE-E] |
+| Practical features | Analog relay or DSP bypass with trails, snapshots, parallel routing, four/seven-cable integration, MIDI/amp control and Pedal Edit. Looper occupies one of nine blocks. Current looper duration/modes and drums remain unverified here. [HXE-F] |
+
+### HX Effects — IDR and source provenance
+
+**Used IDR: ?; new IDR: ?**. Exact Shopee Indonesia hardware searches on 2026-10-16 did not establish an item with a qualified ask. Do not invent stock, region, bundle, seller, voucher or a converted USD price. The legacy record likewise had no used/new price; the FAQ's **$599.99 US MAP** is launch-price provenance, not a current Indonesian offer.
+
+- [HXE-P: official HX Effects page and complete numbered front/rear controls](https://line6.com/hx-effects/).
+- [HXE-F: official HX Effects FAQ](https://kb.line6.com/hx-effects-faq), retaining its launch-era library/software/price limits. It explicitly identifies guitar **and bass** use.
+- [HXE-M: manufacturer HX Effects 3.0 Owner's Manual, Rev C](https://line6.com/data/6/0a020a411710a6112a67116f0b/application/pdf/HX%20Effects%203.0%20Owner%27s%20Manual%20-%20Rev%20C%20-%20English%20.pdf). Original manual text inspected for model list, IRs and memory. Web screenshots failed; no successful new PDF visual inspection claimed. Official product's numbered panel independently supports the control/port count.
+- [HXE-E: manufacturer HX Edit Pilot's Guide Rev E](https://line6.com/data/6/0a020a3f182a45b4f6d41c90dc/application/pdf/HX%20Edit%20Pilot), full editing from 2.60; [current HX Edit software listing](https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set).
+
+All earlier HX Effects facts, rounded-dimension provenance, nine-block/128-preset/four-snapshot distinctions, amp-control sharing, IR/acoustic qualifications, source URLs and launch-FAQ correction are preserved. Legacy source retained because it also contains five other model records. Remaining: current category totals, exact display specifications, supply voltage/polarity, explicit battery/USB-power statements, looper limits and qualified IDR offers.
+
 ## Other Line 6 records awaiting consolidation
 
-HX Stomp,HX Effects and HX Stomp XL already have research in legacy pages and are not newly discovered models. Merge their complete records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Continue with the saved Hotone Ampero One MP-80 lead and remaining exact brand/series listings. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.
+HX Stomp and HX Stomp XL already have research in legacy pages and are not newly discovered models. HX Effects is now root-canonical above. Merge the complete remaining records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Ampero One is already recorded; do not restart that stale cursor. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.

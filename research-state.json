@@ -7,8 +7,8 @@
   "active_model_count": 121,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 48,
-  "legacy_only_model_count": 73,
+  "canonical_root_model_count": 49,
+  "legacy_only_model_count": 72,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only).",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -111,7 +111,8 @@
         "NAM architectures/concurrency",
         "scene behavior",
         "condition-verified IDR and stock"
-      ]
+      ],
+      "commit": "3c9b9a3"
     }
   ],
   "consolidation_and_price_findings": [
@@ -127,6 +128,16 @@
         "advanced_comparison": "f4ecc7b15636ab477803031d34bf280afa9b98dc"
       },
       "scope": "Complete existing model-specific facts, source URLs and limitations consolidated; Core/Flex technical dates remain2026-10-14. New Flex Prime Shopee price evidence checked2026-10-15. No duplicate model count and no old source deleted."
+    },
+    {
+      "models": [
+        "HX Effects"
+      ],
+      "destination": "LINE6.md#hx-effects",
+      "source": "effects/advanced-modelers.md",
+      "checked_date": "2026-10-16",
+      "commit_subject": "research(line6): consolidate HX Effects as guitar and bass multi-effects",
+      "scope": "Complete legacy HX Effects facts and sources retained; refreshed primary panel controls/ports, synth/IR limits and software; no new model, no legacy deletion."
     }
   ],
   "discovery_leads": [
@@ -356,7 +367,8 @@
       "POD Go",
       "POD Go Wireless",
       "POD Express Guitar",
-      "POD Express Bass"
+      "POD Express Bass",
+      "HX Effects"
     ],
     "ZOOM.md": [
       "G11"
@@ -440,7 +452,7 @@
     "root_category_and_instrument_views": "Created; legacy-only detailed records still require complete brand consolidation",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "73 models still rely on legacy detailed sources; 48 root-canonical records after reconciling newer main and GP-200JR. Root comparison views are being rebuilt as requested; no legacy sources deleted.",
+    "warning": "72 models still rely on legacy details;49 root-canonical; all-model comparison rebuilding in progress.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -510,8 +522,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 121,
-    "canonical_root_models": 48,
-    "legacy_only_models": 73,
+    "canonical_root_models": 49,
+    "legacy_only_models": 72,
     "guitar_view_models": 101,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -531,6 +543,6 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Consolidate HX Effects from complete legacy source into LINE6.md; replace navigation-only ALL pages with actual comparison tables."
+    "next": "Rebuild all comparison tables from complete existing records; separate dedicated/excluded pedal archives."
   }
 }
