@@ -1451,7 +1451,27 @@ def commit(model_id):
     print(research_tools.git('commit', '-m', 'docs(' + ('valeton' if model_id in ('gp-5', 'gp-50', 'gp-100', 'gp-150', 'gp-180', 'gp-200') else 'mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id in ('hx-stomp','hx-stomp-xl') else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
+
+def audit_findings():
+    research_tools.identity()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    verify_preserved(state)
+    manifests = [e for e in state.get('consolidation_and_price_findings', []) if e.get('verification_kind') == 'complete-source-body-v1']
+    pairs = []
+    for model, record in state['comparison_model_sources'].items():
+        for source in record.get('finding_files', []):
+            matches = [e for e in manifests if e['source'] == source and e['destination'] == record['link']]
+            pairs.append(dict(model=model, source=source, destination=record['link'], covered=bool(matches)))
+    missing = [p for p in pairs if not p['covered']]
+    report = dict(scope='Registered finding/model pairs only; not shared-source or incoming-link certification', pairs=len(pairs), covered=len(pairs)-len(missing), missing=missing, records=pairs)
+    Path('/tmp/instrumentfx-finding-coverage.json').write_text(json.dumps(report, indent=2)+'\n')
+    print(json.dumps({k:v for k,v in report.items() if k != 'records'}, indent=2))
+    assert not missing, 'Registered finding body coverage missing'
+
 if __name__ == '__main__':
+    if sys.argv[1:] == ['audit-findings']:
+        audit_findings()
+        raise SystemExit(0)
     if sys.argv[1:] == ['cache-plan']:
         research_tools.identity()
         files = {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'scripts/__pycache__').glob('*.pyc') if p.name.startswith(('comparison_views.', 'research_tools.'))}

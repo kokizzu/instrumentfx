@@ -701,3 +701,9 @@ research-commit-mg200-preservation:
 .PHONY: research-commit-trident-preservation
 research-commit-trident-preservation:
 	python3 scripts/research_tools.py commit-trident-preservation
+
+.PHONY: consolidation-audit-findings research-commit-finding-audit
+consolidation-audit-findings:
+	python3 scripts/consolidation_tools.py audit-findings
+research-commit-finding-audit:
+	python3 scripts/research_tools.py commit-finding-audit

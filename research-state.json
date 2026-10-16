@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B1Xon preservation-check reconciliation",
-    "task": "TRIDENT complete original hash-verified and exact product routing details qualified. Only B1Xon remains in generic-manifest audit list but already uses special full-body check: inspect and reconcile rather than duplicate blindly. Then broaden shared-table/incoming-link/source audit and fresh Shopee discovery; technical gaps remain. Commit useful model work before another model.",
+    "model": "Broad legacy source and incoming-link audit",
+    "task": "B1Xon special check reconciled with generic manifest; run consolidation-audit-findings for current exact finding/model coverage. Next enumerate legacy shared comparison sources and per-model rows/context not covered by finding manifests, then audit incoming links before any source retirement. Fresh Shopee discovery and technical gaps remain required; commit each model before the next.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -484,7 +484,16 @@
         "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
         "effects/shopee-indonesia.md"
       ],
-      "status": "partial technical record; consolidation verified"
+      "status": "partial technical record; consolidation verified",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "B1Xon preserved",
+      "model_name": "B1Xon",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../OWNERSHIP.md)": "(effects/OWNERSHIP.md)"
+      },
+      "retained_comparison_facts": [],
+      "rechecked_date": "2026-10-17"
     },
     {
       "models": [
@@ -10800,14 +10809,24 @@
       "initial_finding_pairs": 77,
       "initial_pairs_without_generic_body_manifest": 24,
       "arena2000_repaired": true,
-      "remaining_pairs": [
+      "remaining_pairs": [],
+      "limitation": "All currently recorded finding/model pairs now have generic whole-body manifests. This does not certify shared comparison rows, unregistered legacy sources, incoming links or unresolved specifications; no source may be retired on this count alone.",
+      "reconciled_special_checks": [
         {
           "model": "Zoom::B1Xon",
           "source": "effects/findings/2026-10-14-zoom-b1xon.md",
-          "dest": "ZOOM.md#b1xon"
+          "destination": "ZOOM.md#b1xon",
+          "method": "Existing special full-body equality check retained; same source registered with generic hash and reversible normalization verifier. No duplicate body or source retirement."
         }
       ],
-      "limitation": "Missing generic manifest is not proof of lost facts; several records use other checks. Inspect complete originals and root sections before repair. Manifest coverage is not full shared-table,body or incoming-link certification."
+      "current_check": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-findings",
+        "registered_pairs": 77,
+        "covered": 77,
+        "missing": [],
+        "scope": "Registered finding/model pairs only; not shared-source or incoming-link certification"
+      }
     }
   },
   "deferred_work": {
