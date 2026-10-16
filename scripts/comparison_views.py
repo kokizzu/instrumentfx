@@ -466,7 +466,7 @@ def price_cells(record):
             # Many canonical records preserve qualified used evidence in a retail/used
             # paragraph. Keep its wording rather than extracting an unqualified number.
             hit=re.search(r'(?:\*\*)?(?:Explicit\s*)?(?:used|usedlike-new|Used IDR|seller-labelled used)[\s\S]*',value,re.I)
-            if hit and 'Rp' in hit[0]:
+            if hit and 'Rp' in hit[0] and not re.search(r'(?:not establish|not proof of|not verified as)\s*$',value[:hit.start()]+' ',re.I):
                 used.append(hit[0])
     return ('<br>'.join(dict.fromkeys(used)) or '? — no qualified used IDR amount established'), ('<br>'.join(dict.fromkeys(other)) or '? — no qualified retail/new IDR amount established; foreign prices are not converted')
 
@@ -527,6 +527,10 @@ def test_comparison_selection():
 
 
 def test_field_projection():
+    negative = {'facts':[{'field':'IDR qualified observations','value':'Seller name does not establish used condition. Another offer Rp5.929.110 is sold out.','context':''}]}
+    assert price_cells(negative)[0].startswith('?'), 'Negated condition leaked into used-price evidence'
+    positive = {'facts':[{'field':'Used IDR','value':'Rp3.000.000 seller-labelled used; stock unconfirmed','context':''}]}
+    assert 'Rp3.000.000' in price_cells(positive)[0]
     cases = {
         'expression': ['Built-in / external EXP'],
         'io': ['Audio/control', 'Audio input', 'Audio inputs', 'Audio output', 'Audio outputs', 'Level conflict', 'Built-in instrument wireless'],
