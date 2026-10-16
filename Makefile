@@ -1151,3 +1151,7 @@ navigation-save:
 	python3 scripts/navigation_tools.py save
 navigation-commit:
 	python3 scripts/navigation_tools.py commit
+
+.PHONY: research-commit-ms70cdr
+research-commit-ms70cdr:
+	python3 scripts/research_tools.py commit-ms70cdr
