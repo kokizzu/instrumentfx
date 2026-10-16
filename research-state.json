@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A1 FOUR remaining manual verification",
-    "task": "A1 FOUR DSP restriction,AUX bypass and AUTO SAVE OFF prompt verified and saved. Remaining A1-only effect/category inventory,button/display/EXP/ports,copy overwrite,USB supply/audio,looper persistence/import workflow and qualified live offers. Continue fresh Shopee discovery and shared-source/incoming audits;commit before next model.",
+    "task": "A1 FOUR shared-list synth algorithms,naming discrepancy and additional-effect qualifications saved. Remaining exact A1-only category/factory/download counts,hardware controls/ports,copy overwrite,USB supply/audio,looper persistence/import workflows and current used/new offers. Then fresh Shopee discovery and legacy shared-source/incoming audits;commit each useful model update before another model.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -800,7 +800,8 @@
         "https://zoomcorp.com/documents/120/E_A1FOUR_FX-list.pdf",
         "https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf",
         "https://zoomcorp.com/media/documents/E_A1FOUR_QuickGuide.pdf",
-        "https://zoomcorp.com/documents/119/E_A1FOUR.pdf"
+        "https://zoomcorp.com/documents/119/E_A1FOUR.pdf",
+        "https://zoomcorp.com/documents/991/J_A1FOUR_FX-list.pdf"
       ],
       "offers": [
         {
@@ -867,7 +868,9 @@
         "looper": "Mono30s;Pre/Post;overdub;holdSTOPwhile stopped clears;time/position/tempo changes erase",
         "live": "PRESELECT and BANK HOLD documented",
         "processing": "Up to5effects subject to DSP;3or more effects each with5or more parameters also cause overflow/bypass;delete/change to recover;official quickguide p9",
-        "aux": "AUX bypasses effects to OUTPUT,manual p10"
+        "aux": "AUX bypasses effects to OUTPUT,manual p10",
+        "synth": "Shared list star-marked SynTlk (English indexed SynTik),4vowels;Z-Syn SAW/SQR;separateDefret;legend labelsGuitarLab additions;factory/download installation counts unresolved",
+        "categories": "Shared contents11categories includingA1X PEDAL;not11verifiedA1-onlycategories;exactper-categoryandfactory/downloadcounts unresolved"
       }
     }
   ],

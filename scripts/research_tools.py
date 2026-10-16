@@ -172,7 +172,7 @@ def main():
         if mode == 'commit-pe100':
             message = 'research(mooer): add PE100 portable multi-effects with qualified Shopee evidence'
         if mode == 'commit-a1four':
-            message = 'research(zoom): verify A1 FOUR DSP restrictions AUX bypass and save prompt'
+            message = 'research(zoom): document A1 FOUR synth algorithms and additional-effect scope'
         if mode == 'commit-b3n':
             message = 'research(zoom): resolve B3n synth algorithms and looper Undo limits'
         if mode == 'commit-g3n':
