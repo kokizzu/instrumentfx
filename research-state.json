@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 85,
-  "legacy_only_model_count": 41,
+  "canonical_root_model_count": 86,
+  "legacy_only_model_count": 40,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -31,7 +31,7 @@
     "model": "Fresh Shopee discovery — no model selected",
     "task": "Saved GT-100 hardware leads researched;fresh Shopee discovery by brand/series,then43 legacy-only records and unresolved fields.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 41 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 40 legacy-only models."
   },
   "new_findings": [
     {
@@ -4549,6 +4549,96 @@
         "effects/shopee-multifx.md"
       ],
       "status": "Consolidated; technical verification remains partial"
+    },
+    {
+      "models": [
+        "Hotone Ampero MP-100"
+      ],
+      "model_name": "Ampero MP-100",
+      "brand": "Hotone",
+      "destination": "HOTONE.md#ampero-mp-100",
+      "source": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "HOTONE-AMPERO-MP100",
+      "source_sha256": "b9d0939a211660b340eaa24c6e0b617de72726ef2e0cd8bae2650db0ff20d274",
+      "renamed_references": [],
+      "retained_comparison_facts": [
+        {
+          "field": "Built-in / external expression",
+          "value": "Yes / EXP2",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "Hardware and displays"
+        },
+        {
+          "field": "K/F/B",
+          "value": "5/4/1; toe unverified",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "Hardware and displays"
+        },
+        {
+          "field": "Published dimensions, mm; weight",
+          "value": "W320×D147×H46; 1408 g",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "Hardware and displays"
+        },
+        {
+          "field": "Main display",
+          "value": "4-inch color, 800×480, touchscreen",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "Hardware and displays"
+        },
+        {
+          "field": "Processing and memory",
+          "value": "9 simultaneous modules; 99 factory + 99 user. Earlier manual and current marketing counts differ; explicit acoustic simulator documented",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "Processing, storage and loading"
+        },
+        {
+          "field": "IR / NAM / captures",
+          "value": "1024-sample user IRs; firmware 5.2 Sound Clone: 10 stored, one active. Do not infer native NAM from proprietary clone import",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "Processing, storage and loading"
+        },
+        {
+          "field": "Connection / software highlights",
+          "value": "Mono input, stereo quarter-inch and XLR outs, dedicated phones/aux, MIDI IN, USB-B, EXP2; Windows/macOS editor",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "Connections, power and apps"
+        },
+        {
+          "field": "Documented power",
+          "value": "18 V center-negative, 500 mA maximum; USB/battery operation not established",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "Connections, power and apps"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "IDR observations and original commits"
+        },
+        {
+          "field": "Retail observation",
+          "value": "Rp7.535.000, listing retrieved; detailed condition/stock unconfirmed",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "IDR observations and original commits"
+        },
+        {
+          "field": "Original model commit",
+          "value": "`95075d2b802d2c8ef5374426fd8f3d66ad218451`",
+          "source": "effects/shopee-multifx-5.md",
+          "context": "IDR observations and original commits"
+        }
+      ],
+      "link_normalizations": {
+        "(../SCOPE.md)": "(effects/SCOPE.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "supporting_sources": [
+        "effects/shopee-multifx-5.md"
+      ],
+      "status": "Consolidated; technical verification remains partial"
     }
   ],
   "discovery_leads": [
@@ -4800,7 +4890,8 @@
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
-      "Ampero Mini MP-50"
+      "Ampero Mini MP-50",
+      "Ampero MP-100"
     ],
     "LINE6.md": [
       "POD Go",
@@ -4929,7 +5020,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "41 legacy-only models remain;85 root-canonical. Full migration and research incomplete.",
+    "warning": "40 legacy-only models remain;86 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -4999,8 +5090,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 85,
-    "legacy_only_models": 41,
+    "canonical_root_models": 86,
+    "legacy_only_models": 40,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -5559,10 +5650,9 @@
       ]
     },
     "Hotone::Ampero MP-100": {
-      "link": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+      "link": "HOTONE.md#ampero-mp-100",
       "source_files": [
-        "effects/findings/2026-10-14-hotone-ampero-mp100.md",
-        "effects/shopee-multifx-5.md"
+        "HOTONE.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-14-hotone-ampero-mp100.md"
