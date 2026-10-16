@@ -605,3 +605,7 @@ research-commit-pod-express-guitar-preservation:
 .PHONY: research-commit-pod-express-bass-preservation
 research-commit-pod-express-bass-preservation:
 	python3 scripts/research_tools.py commit-pod-express-bass-preservation
+
+.PHONY: research-commit-g11-preservation
+research-commit-g11-preservation:
+	python3 scripts/research_tools.py commit-g11-preservation

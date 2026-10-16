@@ -88,7 +88,7 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
-    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation'):
+    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation'):
         verify()
         for check in ('test-fields', 'test-extraction', 'test-selection', 'verify'):
             subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
@@ -100,6 +100,9 @@ def main():
             paths += ['ZOOM.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation'):
             paths += ['LINE6.md']
+            subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
+        if mode == 'commit-g11-preservation':
+            paths += ['ZOOM.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         changed = set(git('diff', '--name-only').splitlines())
         assert changed <= set(paths), changed - set(paths)
@@ -114,6 +117,8 @@ def main():
             message = 'fix(line6): restore complete POD Express Guitar provenance and dimensions'
         if mode == 'commit-pod-express-bass-preservation':
             message = 'fix(line6): restore complete POD Express Bass evidence and historical offer'
+        if mode == 'commit-g11-preservation':
+            message = 'fix(zoom): preserve complete G11 original evidence and count qualifications'
         print(git('commit', '-m', message))
     elif mode == 'verify':
         verify()

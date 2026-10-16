@@ -6,6 +6,7 @@ Canonical root-level brand document. New research is added here, not to dated fi
 
 Guitar and bass multi-effects; large; built-in expression. Specifications below use ZOOM's own V2 operation/effect documents and current support page. A first-pass record with unresolved fields is not fully verified.
 
+<!-- comparison evidence begins -->
 | Required field | Verified specification / remaining uncertainty |
 |---|---|
 | Built-in / external expression | Built-in pedal with toe-operated effect on/off; one CONTROL IN for an external ZOOM FP02M. Separate rear power switch is not an expression control. [G11-M] |
@@ -14,7 +15,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Additional displays | **Six 128×32 dot-matrix LCDs**, one amp plus five effect displays. Their physical diagonals, explicit color mode and touch status are not established by the numerical specification; do not assign the main screen's five inches to them. [G11-M] |
 | Dimensions / weight | **495 W ×253 D ×64 H mm;2.8 kg**. Large by the project's size bins. Pedal-up maximum height and cable clearance are additional/unverified. [G11-M p.104] |
 | Simultaneous processing | Specification: **one amplifier plus nine effects**, DSP-limited. Operation pp.26,32 also describes up to ten freely combined effects; preserve that wording rather than assuming ten arbitrary high-load engines or unlimited duplicate amps. Overflow bypasses the excess effect. [G11-M] |
-| Categories / choices | V2 effect list: Dynamics, Filter, Drive, Amp, Cabinet, Modulation, SFX, Delay, Reverb, Pedal, Send/Return and IR. Complete current per-category subtotals remain unverified. V2 added one guitar amp, nine bass amps and57 bass effects; additional OverDrive, BitCrush and DynaDelay were distributed in2025–2026. Do not sum the site's overlapping/launch-era totals as a current installed inventory. [G11-E,G11-F,G11-P] |
+| Categories / choices | V2 effect list: Dynamics, Filter, Drive, Amp, Cabinet, Modulation, SFX, Delay, Reverb, Pedal, Send/Return and IR. The preserved2026-10-15 V2-list finding records **15 Dynamics choices**; remaining current per-category subtotals remain unverified. This historical count is not a reconciled installed-library census. V2 added one guitar amp, nine bass amps and57 bass effects; additional OverDrive, BitCrush and DynaDelay were distributed in2025–2026. Do not sum the site's overlapping/launch-era totals as a current installed inventory. [G11-E,G11-F,G11-P] |
 | Presets / user memory | **500 editable patch memories,125 banks×4** in V2. This replaces the earlier240 total. Factory-filled subset is not established;500 is not500 factory plus500 user. The V2 release added200 supplied patches. [G11-M pp.4,8,104; G11-F] |
 | Synth | **Yes:** Z-Syn, BaStdSyn and BaSynTlk bass-synth algorithms in the V2 SFX list. Their documented bass purpose is retained, not asserted to be unrestricted polyphonic guitar synthesis. [G11-E p.32] |
 | Electric-to-acoustic simulation | **Yes: Aco.Sim**, specifically described as converting an electric guitar's tone toward acoustic guitar, in the Drive category. Not merely an acoustic amp or body IR. [G11-E p.9] |
@@ -55,6 +56,68 @@ These are individual asking observations, not completed-sale statistics or an ac
 [G11-I] [Official Handy Guitar Lab announcement](https://zoomcorp.com/en/ca/news/zoom-announces-handy-gl-app-g11-available-app-store/), iOS/iPadOS editing and optional Bluetooth adapter requirement.
 
 [G11-UK] [Official UK product/status page](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g11/).
+
+<!-- comparison evidence ends -->
+
+### G11 — complete original finding and unresolved control-count conflict
+
+The2026-10-15 original below reports27rotaries from textual panel descriptions; the later root record deliberately leaves the full total unverified pending successful visual corroboration. Preserve both evidence states rather than silently dropping the historical count or claiming visual verification. Its Dynamics15 count and V2 quick-guide URL were also absent from the root record. All original facts,dates,price qualifications and URLs are now retained,with current comparison selection above unchanged except for the qualified Dynamics count. No source deleted or new market check implied.
+
+<!-- ZOOM-G11-ORIGINAL source begins -->
+
+Reviewed **2026-10-15**. Guitar/bass-capable multi-effects; **large**, built-in expression. Distinct from G6. Specifications use Zoom's model-specific manual and effect list; Shopee supplies only qualified hardware-price evidence. Partial record.
+
+### Required comparison
+
+| Field | Evidence-backed result |
+|---|---|
+| Expression | Built-in pedal with toe-operated on/off switch; one external FP02M CONTROL IN connection. External pedal is not included [M] |
+| Knobs / footswitches / buttons | **27 / 11 / 1** from the manual's panel layout: six amp knobs, five four-knob effect sections, rear MASTER; five effect switches plus two each for scroll, patch and bank; one AMPLIFIER button. Toe and power switches separate. PDF panel rendering failed, so visual corroboration remains an inspection limitation [M] |
+| Dimensions / weight | **495 W × 253 D × 64 H mm; 2.8 kg**. Pedal travel/cables require additional clearance [M] |
+| Displays | **Seven displays:** main **5-inch TFT color touchscreen, 800×480**; six auxiliary **128×32 dot-matrix LCDs** (five effects, one amp). Auxiliary diagonals and explicit panel color-depth specifications unverified; do not call them six additional 5-inch screens [M,P] |
+| Concurrent processing | **One amp plus nine effects, DSP-limited** in specifications; operation section describes up to ten combined processing items. Send/return consumes an effect position; large effects can span two physical control sections without proving a second independent algorithm [M] |
+| Presets | **500 editable patch memories, 125 banks × four**. Saving/overwriting/deleting documented; factory-filled subset not established in the inspected current sources [M] |
+| Acoustic simulator | **Yes: Aco.Sim**, explicitly electric guitar to acoustic-style sound [E] |
+| Synth | **Yes:** Z-Syn, BaStdSyn and BaSynTlk in the V2 SFX library, with bass-use labels. Do not equate every pitch effect with synthesis [E] |
+| IR import | **V2 manual: 300 locations, 106 supplied and 194 remaining (107–300)**; WAV, 44.1–192 kHz, up to2048 samples. Landing page's earlier70 supplied/130 user description is retained as older/conflicting product copy, not used to erase the V2 storage map [M,P] |
+| NAM / captures | Native NAM, converted NAM and amp-capture loading **not established**. User cabinet IR import is separate |
+| Power | **12 V, center-positive, 2 A AD-19 supply**; adapter rating, not measured draw. **USB bus power explicitly unsupported**. Internal battery operation not established [M] |
+| Editing | **Guitar Lab Windows/macOS**; iPhone/iPad wireless editing with **optional BTA-1** and Handy Guitar Lab. Current support lists Guitar Lab7.3 and G11 firmware2.10. Android/Linux full editors not established [D,M] |
+| USB audio | **4-in/4-out, 44.1 kHz/32-bit**; dry/wet recording and reamp. Windows ASIO driver; Mac/iOS class-compliant audio. Data connectivity does not provide unit power [M] |
+
+### Effect categories and revision context
+
+V2 effect list contains **12 categories**: dynamics, filter, drive, amp, cabinet, modulation, SFX, delay, reverb, pedal, send/return and IR. The dynamics section has **15 named choices**. The full updated counts for the other sections have not been reconciled with post-V2 downloadable additions; no unsupported total is supplied.
+
+Zoom's product page advertises 22 cabinet emulations alongside older IR totals, while the V2 list includes added bass algorithms and cabinets. Its news lists67 added effects in December2021, OverDrive in December2025, BitCrush in February2026 and DynaDelay in April2026. Download availability is not proof of the installed library on a particular unit. The original manuals and current support version are recorded separately [P,E,D].
+
+### Connections and practice
+
+One 6.35 mm mono instrument input; **two mono FX loops** (two sends, two returns), combinable for a stereo external effect; 3.5 mm stereo aux; two mono 6.35 mm main outputs; **separate 6.35 mm stereo headphone output**. Unlike G6, headphones do not share the left main output [M].
+
+Separate five-pin DIN MIDI IN/OUT, external expression CONTROL IN, USB-C DEVICE, USB-A HOST for flash-drive IR/firmware import, REMOTE adapter port and DC. No XLR microphone/phantom connection in the full inventory. Send/return placement and MIDI tempo/program transmission are configurable [M].
+
+**Five-minute stereo looper**, pre/post placement, overdub/undo/redo and rhythm synchronization; **68 drum patterns**, tuner, autosave and silent preselection. Rhythm/looper functions are independent of the ordinary amp/effect slots [P,M].
+
+### Separate IDR evidence
+
+| Condition | Amount | Qualification |
+|---|---:|---|
+| Retail indexed ask, detailed condition/checkout stock unconfirmed | **Rp11.200.000** | [TOKOAUDIOPRO.COM, Shopee shop253483262/item23270125641](https://shopee.co.id/Efek-Zoom-G11-Multi-effects-Processor-with-Expression-Pedal-Zoom-G-11-i.253483262.23270125641). Search listing retrieved; direct reopening failed |
+| Separate older retailer listing | **Rp10.493.685** | [Zoom-named storefront, shop348182890/item4967175901](https://shopee.co.id/Zoom-G11-Multi-Effects-Guitar-Processor-i.348182890.4967175901). Cached May delivery text; not a confirmed currently purchasable lower bound |
+| Used | **?** | No condition-verified used quote obtained |
+
+A seller name containing Official does not authenticate authorization. These are not completed sales or a guaranteed active market range. Stock, selected bundle, warranty and delivered cost remain unverified.
+
+### Primary sources and inspection record
+
+[P] [Zoom G11 product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/).
+[D] [Official software, firmware and manuals](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/).
+[M] [Official V2 operation manual](https://zoomcorp.com/media/documents/E_G11v2.pdf): printed pp.4,8 memory;11–14 controls/ports;26 DSP;77–79 loops;86–88 updated IR mapping;104 specifications. [Official V2 quick guide](https://zoomcorp.com/media/documents/E_G11v2_QuickGuide.pdf) was also opened. PDF screenshots failed on attempted panel/specification pages; parsed manufacturer text was read, not falsely described as visually verified.
+[E] [Official V2 effect list](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf): category contents, dynamics pp.3–4, Aco.Sim p.9, synth effects p.32. These tables were parsed; rendering attempts failed. No OCR or guessed missing entry was used.
+
+Remaining: current full category counts, factory-filled preset subset, auxiliary display physical/color details, successful control-panel visual corroboration and current condition-specific price evidence. **Next: Line6 POD Go Wireless**, with its own Shopee listing and receiver/bundle distinctions.
+<!-- ZOOM-G11-ORIGINAL source ends -->
 
 ## Existing ZOOM research — consolidation still pending
 
