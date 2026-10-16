@@ -315,7 +315,7 @@ def main():
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): document PERFORM-V controls and microphone remote modes'
         if mode == 'commit-dapper-dark':
-            message = 'research(valeton): add full-size Dapper Dark with qualified evidence'
+            message = 'research(valeton): qualify Dapper Dark indexed controls and loop routing'
         if mode == 'commit-dapper-acoustic-mini':
             message = 'research(valeton): qualify Acoustic Mini digital reverb and regional evidence'
         if mode == 'commit-dapper-mini':

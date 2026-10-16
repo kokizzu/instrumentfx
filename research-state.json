@@ -28,10 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper Dark VES-3 primary follow-up",
-    "task": "Initial record saved; seek readable own EVA V01 manual for controls/fullIO/routing; do not transfer Dark Mini. Then proceed saved queue.",
+    "model": "Tech 21 Fly Rig 5 v2",
+    "task": "Dapper Dark indexed-manual follow-up saved;remaining gaps retained. Research exact Tech21 FlyRig5v2 manufacturer docs using discovery_strips_followup offer;notoriginalv1/RK5.",
     "next_models": [
-      "Tech 21 Fly Rig 5 v2",
       "Sonicake Black Hammer",
       "Tech 21 RK5 exact revision pending",
       "Valeton Dapper Dark Mini"
@@ -3705,7 +3704,8 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "sources": [
-        "https://www.valeton.net/product/dapper-darkdiscontinued/"
+        "https://www.valeton.net/product/dapper-darkdiscontinued/",
+        "https://www.valeton.net/download/122/dapper/18030/dapper-dark_manual_en_eva_v01_160825.pdf"
       ],
       "offers": [
         {
@@ -3746,7 +3746,13 @@
         "https://www.valeton.net/download/177/dapper-darkdiscontinued/18524/dapper-dark_manual_en_eva_v01_160825-2.pdf",
         "https://www.valeton.net/download/122/dapper/18030/dapper-dark_manual_en_eva_v01_160825.pdf",
         "https://manualmachine.com/valeton/dapperdark/2589912-user-manual/"
-      ]
+      ],
+      "indexed_manual_followup": {
+        "access": "ManufacturerPDFsearchindexreadable;directPDFcachemiss;notfullvisualread",
+        "verified": "12rotarycontrols;HiGainNRthreshold;loopChorus–Delay;dedicatedtapLED;holdBoostmutedtuner/anyswitchtoexit;cabselectorrecordPAon/ampoff",
+        "conflict": "Manual320D65W/product320W65D",
+        "rejected": "Notice-facile generated amplifier specs15W/speaker/AA notmanufacturer manual evidence"
+      }
     }
   ],
   "consolidation_and_price_findings": [
@@ -39679,7 +39685,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Dark VES-3 primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Tech 21 Fly Rig 5 v2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

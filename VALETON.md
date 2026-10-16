@@ -889,17 +889,17 @@ Full-size guitar multi-effects strip, separate from Dark Mini. Manufacturer mark
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in, external and toe support unverified. | Unresolved |
-| K/F/B | Separate rotary, footswitch and button totals await readable manual/panel inspection. | Unresolved |
-| Display | Tuner documented; technology, diagonal, color and touch unverified. | [Product][DD-P] |
-| Dimensions / mass | **320 W × 65 D × 42 H mm; 650 g**. Long narrow strip. | [Product][DD-P] |
+| K/F/B | **12 rotary controls**, derived from indexed manufacturer manual: Boost 1, HiGain 6 (NR, volume, bass/mid/treble, gain), Chorus 2, Delay 3. Cab-sim selector separate. Footswitch/button totals await panel inspection. | Unresolved |
+| Display | Indexed manual describes note display with sharp dot and pitch LEDs; technology, diagonal, color and touch unverified. | [Product][DD-P]; [indexed manual][DD-I] |
+| Dimensions / mass | **320 W × 65 D × 42 H mm; 650 g**. Long narrow strip. Indexed manual labels 320 D × 65 W × 42 H mm; width/depth label conflict retained. | [Product][DD-P] |
 | Processing / category choices | Distinct **Boost, HiGain, Chorus and Delay** modules, plus tuner, FX loop and selectable cab simulation. Boost up to **12 dB**; HiGain has three-band EQ and built-in noise gate; Chorus rate/depth. Exact simultaneous count and routing await manual. | [Product][DD-P] |
 | Factory / user memory | Factory, user and total storage unverified. | Unresolved |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
-| I/O | FX loop documented; complete ports, socket sizes/types and loop position unverified. | [Product][DD-P] |
+| I/O | Indexed manual identifies INPUT/OUTPUT and SEND/RETURN; **FX loop between Chorus and Delay**. Complete socket sizes/types and additional ports remain unverified. | [Product][DD-P] |
 | Power / battery / USB | **9 V DC, centre-negative, 112 mA consumption**. Supply included by manufacturer; seller bundle unconfirmed. Battery/USB operation unverified. | [Product][DD-P] |
 | IR / NAM / capture | Selectable cab simulation for recording/direct PA; user IR, native/converted NAM and capture unverified. | [Product][DD-P] |
 | Editor / software | Editor/platform support unverified. | Unresolved |
-| Looper / drums / live | Analog-voiced delay, tap tempo, maximum **1000 ms**. Looper, drums, scenes and trails unverified. | [Product][DD-P] |
+| Looper / drums / live | Analog-voiced delay, maximum **1000 ms**. Indexed manual: dedicated TAP footswitch, tempo LED pulses; hold Boost for muted tuner, any footswitch exits. Looper, drums, scenes and trails unverified. | [Product][DD-P] |
 
 ### Separate IDR hardware offers
 
@@ -918,3 +918,9 @@ Manufacturer English EVA V01_160825 manual links were found, but both official p
 [DD-M]: https://www.valeton.net/download/177/dapper-darkdiscontinued/18524/dapper-dark_manual_en_eva_v01_160825-2.pdf
 [DD-O]: https://shopee.co.id/VALETON-DAPPER-DARK-VES-3-Guitar-Multi-Efek-5in1-Efek-Pedal-i.362117058.24908463001
 [DD-O2]: https://shopee.co.id/Valeton-Dapper-Dark-Multi-Effect-5-in-1-Guitar-Pedals-Original-i.338305078.19918031458
+
+### Indexed manufacturer manual follow-up
+
+Search index exposes the manufacturer EVA V01_160825 manual text: control lists, Chorus–Delay loop position, tuner operation and cab-sim on for recording/PA versus off for amp use. Direct PDF open still returns cache miss. These findings are index-derived, not a claim of a fully read or visually checked PDF. Preserve the manual/product dimension-axis disagreement. The unrelated mirror-generated amplifier specifications (15W, speaker, batteries) were rejected; no such facts enter this record.
+
+[DD-I]: https://www.valeton.net/download/122/dapper/18030/dapper-dark_manual_en_eva_v01_160825.pdf
