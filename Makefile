@@ -609,3 +609,7 @@ research-commit-pod-express-bass-preservation:
 .PHONY: research-commit-g11-preservation
 research-commit-g11-preservation:
 	python3 scripts/research_tools.py commit-g11-preservation
+
+.PHONY: research-commit-arena-preservation
+research-commit-arena-preservation:
+	python3 scripts/research_tools.py commit-arena-preservation

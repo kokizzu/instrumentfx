@@ -8,6 +8,7 @@
 
 Eligible guitar multi-effects with built-in expression. Not a dedicated single-effect pedal. Partial technical record; consolidation does not make remaining unknowns verified.
 
+<!-- comparison evidence begins -->
 ### Hardware and display
 
 | Required field | Evidence / unresolved qualification |
@@ -48,6 +49,62 @@ Current dimensional/power source: [Donner English Arena2000 specification](https
 Preserved original sources: [global product](https://www.donnermusic.com/products/arena2000); [US retail product](https://us.donnermusic.com/products/donner-multi-effects-pedal-guitar-pedals); [German editor links](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal); [official panel graphic](https://us.donnermusic.com/cdn/shop/products/3_7e500675-535a-4b8a-ab35-a5b55e836ec5.jpg?v=1703838681&width=1601); [DONNER LLC Android editor](https://play.google.com/store/apps/details?hl=en&id=com.rantion.effector.arena2k).
 
 The [official EC1790_update.pdf](https://cdn.shopify.com/s/files/1/1384/9629/files/EC1790_update.pdf) exceeded retrieval limits and was not read in the original pass; no fresh successful PDF inspection is claimed here. Original manufacturer gallery images were inspected for controls and connectors, not measured for dimensions. Customer Q&A and unrelated product-template claims are not technical evidence. Remaining: full algorithms,concurrent ceiling,preset split,touch/button classification,polarity,USB details,current used/new evidence and iOS verification.
+
+<!-- comparison evidence ends -->
+
+### Arena2000 — complete dated original finding
+
+The current record above keeps the2026-10-15 primary dimensional correction. The full2026-10-14 original below preserves its earlier unknowns,all wording,source references and price/access qualifications. Historical uncertainty is not substituted for the newer dimensional evidence. This checked retention does not verify the unread manual or retire incoming legacy links.
+
+<!-- DONNER-ARENA2000 source begins -->
+
+Checked **2026-10-14**. **Partial record**; guitar multi-effects, built-in expression. Exact dimensions and therefore the defined size class remain unverified. Next queued model: **NUX MG-100**.
+
+### IDR evidence
+
+**Rp4.257.000, SOLD OUT, with voucher**: [Donner Official Store, Shopee shop1087619206/item22664158485](https://shopee.co.id/Donner-Arena-2000-Pedal-Multi-Efek-Gitar-i.1087619206.22664158485). The page explicitly says Habis and Dengan Voucher, with a spend-Rp1.5-million/1%-off condition. This is not an unconditional currently available retail price; seller-name/marketplace badges are not independent authentication. Used price **?**.
+
+The earlier [free wooden-packing listing, shop49070533/item45005643636](https://shopee.co.id/Donner-Arena-2000-Free-Packing-Kayu-Multi-Effect-Pedal-i.49070533.45005643636), previously indexed at Rp4.180.000, could not be reopened. Preserve it as historical discovery, not a verified current lower bound. No used-price percentage or foreign-currency conversion is used.
+
+### Hardware, display and control
+
+| Field | Finding and evidence |
+|---|---|
+| Expression | **Built-in EXP1 and external EXP2**; rear EXP2 jack also labelled FS4/5. Toe-switch implementation remains ? [Product][DONNER-ARENA2000-global], [DONNER-ARENA2000-panel][DONNER-ARENA2000-panel] |
+| Rotary / footswitch / buttons | **9 rotary controls, 3 footswitches** counted from the complete official panel: two output-level knobs, five parameter knobs, headphone knob, navigation encoder. **22 labelled front touch/control regions**: ten module selectors, eight utility labels and four navigation icons. Exact mechanical-versus-capacitive button classification remains pending; do not count encoder press twice [DONNER-ARENA2000-panel][DONNER-ARENA2000-panel] |
+| Screen | **3.5-inch TFT color**; explicit display-touch specification **?**. Manufacturer's touch-mode wording concerns a control panel and is not enough to prove a touchscreen [US product][DONNER-ARENA2000-us], [DONNER-ARENA2000-panel][DONNER-ARENA2000-panel] |
+| Dimensions / weight | **? / ?**: no readable primary dimensional specification obtained; do not copy packaging sizes |
+| Power | Rear label **DC9V 500mA**; polarity **?**. Manufacturer explicitly says **no battery compartment**. USB-powered operation not established [DONNER-ARENA2000-panel][DONNER-ARENA2000-panel], [US product][DONNER-ARENA2000-us] |
+| Audio/control ports | 6.35 mm guitar input; 2×6.35 mm unbalanced outputs; 2×XLR balanced outputs with ground-lift switch; 3.5 mm phones and aux; EXP2/FS4/5; DIN MIDI IN; USB-C; DC input and power switch. No mic input or FX loop on the checked complete rear panel [DONNER-ARENA2000-panel][DONNER-ARENA2000-panel] |
+
+The front manufacturer's graphic says One Foot Switch as a description of switching with one foot, but the hardware has **three**, not one. Likewise, the ten module labels are not ten additional knobs.
+
+### Processing, memory and loading
+
+| Field | Finding |
+|---|---|
+| Blocks/categories | Ten labelled modules: **COMP, FXA, DRIVE, AMP, CAB, EQ, NG, FXB, DELAY, REVERB**. Manufacturer confirms reorderable blocks; maximum simultaneously active/DSP limit **?** pending manual verification [DONNER-ARENA2000-panel][DONNER-ARENA2000-panel], [DONNER-ARENA2000-global][DONNER-ARENA2000-global] |
+| Effect choices | Advertised **278 total**, alongside **100 effects, 80 amps, 50 cabinets**. These headline subcounts do not sum to278; do not invent missing categories or sum a definitive installed total. Individual effect-category choices remain ? [US product][DONNER-ARENA2000-us] |
+| Presets | **150 locations, 50 banks×3**; factory-filled versus dedicated user/overwrite rules **?** [US product][DONNER-ARENA2000-us] |
+| Synth / acoustic sim | Specific algorithms **?**. IR capability alone does not prove an acoustic simulator or synthesizer |
+| User IR | **50 third-party slots**, in addition to50 factory cab IRs; **23.2 ms** advertised IR length. Import sample rates/bit depth/file restrictions remain ? [DONNER-ARENA2000-global][DONNER-ARENA2000-global] |
+| NAM / captures | No NAM/native-architecture or proprietary capture workflow established from checked documentation; **unverified**, not inferred from IR support |
+| USB audio | Dry and processed recording together, OTG mobile recording documented; exact interface channel count **?** [US product][DONNER-ARENA2000-us] |
+| Looper / rhythm | **60 seconds**, reverse/double/half speed; **40 drum patterns**. Drum/looper synchronization and preset spillover not established [DONNER-ARENA2000-global][DONNER-ARENA2000-global], [US product][DONNER-ARENA2000-us] |
+
+### Apps and evidence limitations
+
+**Windows and macOS editing software** are explicitly linked on the [manufacturer German product page][DONNER-ARENA2000-de]. **Android editor** is established by [DONNER LLC's Arena2000 app listing][DONNER-ARENA2000-android], which describes sound-library editing and shows a July2026 update. Bluetooth mobile editing is advertised, but a primary iOS listing was not established in this pass; **iOS and Linux remain unverified** rather than borrowed from reviews.
+
+The official product page links [EC1790_update.pdf][DONNER-ARENA2000-manual]. Retrieval failed because the file exceeded the web tool's size limit, and the alternate download attempt also failed. **The PDF was not read**; dimensions, algorithm tables and detailed power/button specifications remain open. Manufacturer gallery images were inspected directly, not measured for dimensions. Customer reviews and product-page Q&A—including unrelated speaker claims—were not used as technical evidence.
+
+[DONNER-ARENA2000-global]: https://www.donnermusic.com/products/arena2000
+[DONNER-ARENA2000-us]: https://us.donnermusic.com/products/donner-multi-effects-pedal-guitar-pedals
+[DONNER-ARENA2000-de]: https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal
+[DONNER-ARENA2000-panel]: https://us.donnermusic.com/cdn/shop/products/3_7e500675-535a-4b8a-ab35-a5b55e836ec5.jpg?v=1703838681&width=1601
+[DONNER-ARENA2000-manual]: https://cdn.shopify.com/s/files/1/1384/9629/files/EC1790_update.pdf
+[DONNER-ARENA2000-android]: https://play.google.com/store/apps/details?hl=en&id=com.rantion.effector.arena2k
+<!-- DONNER-ARENA2000 source ends -->
 
 ## Additional manufacturer-confirmed multi-effects — research leads
 

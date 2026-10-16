@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Broader lossless migration audit and fresh discovery",
-    "task": "POD Express Guitar,Bass andG11 originals restored under hash-checked complete-body manifests. Broaden audit to model-section URL presence,uncovered legacy bodies/shared tables and incoming references; then fresh exact Shopee discovery and unresolved primary fields. Do not treat root model count or URL presence as completed migration.",
+    "model": "Flamma FX100 complete-body audit",
+    "task": "Arena2000 original now has generic whole-body verification; current newer dimensions retained. Inspect full FX100 original/root next,then remaining finding_body_audit entries one model per commit. B1Xon has an existing special full-body check and must not be falsely treated as unpreserved. Broader shared-table/incoming-link audit,discovery and specs remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -9632,6 +9632,28 @@
       "renamed_references": [],
       "retained_comparison_facts": [],
       "scope": "Complete original body restored with omitted quick-guide URL,Dynamics15 and textual27-rotary finding. Later visual-inspection uncertainty remains explicit; no fresh specification or price certification."
+    },
+    {
+      "models": [
+        "Donner Arena2000"
+      ],
+      "model_name": "Arena2000",
+      "destination": "DONNER.md#arena2000",
+      "source": "effects/findings/2026-10-14-donner-arena2000.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "DONNER-ARENA2000",
+      "source_sha256": "0d44f3b2996b9a9b2f182abf7cae834e2ee23bfcb3f88ecab35197e3425f2f02",
+      "renamed_references": [
+        "global",
+        "us",
+        "de",
+        "panel",
+        "manual",
+        "android"
+      ],
+      "retained_comparison_facts": [],
+      "scope": "Whole original finding retained with reversible reference prefixes and heading changes. Current dimensional correction remains selected; no source deletion or new technical/market certification."
     }
   ],
   "discovery_leads": [
@@ -10183,6 +10205,131 @@
       "scope": "Original finding_files URL presence against destination brand file,not proof of exact model-section coverage or full body preservation.",
       "finding": "All three identified destination URL omissions repaired through complete original bodies in separate model commits. Rerun broader section/body/URL audit: this limited scan does not prove full migration.",
       "pending": []
+    },
+    "finding_body_audit": {
+      "date": "2026-10-17",
+      "scope": "Recorded comparison_model_sources finding_files versus complete-source-body-v1 manifests; special/manual semantic checks require separate review.",
+      "initial_finding_pairs": 77,
+      "initial_pairs_without_generic_body_manifest": 24,
+      "arena2000_repaired": true,
+      "remaining_pairs": [
+        {
+          "model": "Flamma::FX100",
+          "source": "effects/findings/2026-10-14-flamma-fx100.md",
+          "dest": "FLAMMA.md#fx100"
+        },
+        {
+          "model": "Flamma::FX200",
+          "source": "effects/findings/2026-10-14-flamma-fx200.md",
+          "dest": "FLAMMA.md#fx200"
+        },
+        {
+          "model": "HeadRush::Core",
+          "source": "effects/findings/2026-10-14-headrush-core.md",
+          "dest": "HEADRUSH.md#core"
+        },
+        {
+          "model": "JOYO::GEM BOX original",
+          "source": "effects/findings/2026-10-15-joyo-gembox-original.md",
+          "dest": "JOYO.md#gem-box-original"
+        },
+        {
+          "model": "JOYO::GEM BOX II",
+          "source": "effects/findings/2026-10-14-joyo-gembox-ii.md",
+          "dest": "JOYO.md#gem-box-ii"
+        },
+        {
+          "model": "JOYO::GEM BOX III",
+          "source": "effects/findings/2026-10-14-joyo-gembox-iii.md",
+          "dest": "JOYO.md#gem-box-iii"
+        },
+        {
+          "model": "Line 6::POD Go",
+          "source": "effects/findings/2026-10-15-line6-pod-go.md",
+          "dest": "LINE6.md#pod-go-and-pod-go-wireless"
+        },
+        {
+          "model": "Line 6::POD Go Wireless",
+          "source": "effects/findings/2026-10-15-line6-pod-go-wireless.md",
+          "dest": "LINE6.md#pod-go-and-pod-go-wireless"
+        },
+        {
+          "model": "M-VAVE::TANK-G",
+          "source": "effects/findings/2026-10-14-mvave-tank-g.md",
+          "dest": "M-VAVE.md#tank-g"
+        },
+        {
+          "model": "M-VAVE::TANK-B",
+          "source": "effects/findings/2026-10-14-mvave-tank-b.md",
+          "dest": "M-VAVE.md#tank-b"
+        },
+        {
+          "model": "M-VAVE::TANK MINI",
+          "source": "effects/findings/2026-10-14-mvave-tank-mini.md",
+          "dest": "M-VAVE.md#tank-mini"
+        },
+        {
+          "model": "M-VAVE::MK-20",
+          "source": "effects/findings/2026-10-14-mvave-mk-20.md",
+          "dest": "M-VAVE.md#mk-20"
+        },
+        {
+          "model": "M-VAVE::MK-300",
+          "source": "effects/findings/2026-10-14-mvave-mk-300.md",
+          "dest": "M-VAVE.md#mk-300"
+        },
+        {
+          "model": "M-VAVE::TANK-PRO",
+          "source": "effects/findings/2026-10-14-mvave-tank-pro.md",
+          "dest": "M-VAVE.md#tank-pro"
+        },
+        {
+          "model": "M-VAVE::ANN Blackbox",
+          "source": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+          "dest": "M-VAVE.md#ann-blackbox"
+        },
+        {
+          "model": "M-VAVE::MINI-X",
+          "source": "effects/findings/2026-10-15-mvave-mini-x.md",
+          "dest": "M-VAVE.md#mini-x"
+        },
+        {
+          "model": "M-VAVE::Pocket Amp",
+          "source": "effects/findings/2026-10-15-mvave-pocket-amp.md",
+          "dest": "M-VAVE.md#pocket-amp"
+        },
+        {
+          "model": "M-VAVE::CUBE BABY AC",
+          "source": "effects/findings/2026-10-15-mvave-cube-baby-ac.md",
+          "dest": "M-VAVE.md#cube-baby-ac"
+        },
+        {
+          "model": "M-VAVE::CUBE BABY BASS",
+          "source": "effects/findings/2026-10-15-mvave-cube-baby-bass.md",
+          "dest": "M-VAVE.md#cube-baby-bass"
+        },
+        {
+          "model": "NUX::MG-100",
+          "source": "effects/findings/2026-10-14-nux-mg-100.md",
+          "dest": "NUX.md#mg-100"
+        },
+        {
+          "model": "NUX::MG-200",
+          "source": "effects/findings/2026-10-14-nux-mg-200.md",
+          "dest": "NUX.md#mg-200"
+        },
+        {
+          "model": "NUX::TRIDENT NME-5",
+          "source": "effects/findings/2026-10-15-nux-trident.md",
+          "dest": "NUX.md#trident-nme-5"
+        },
+        {
+          "model": "Zoom::B1Xon",
+          "source": "effects/findings/2026-10-14-zoom-b1xon.md",
+          "dest": "ZOOM.md#b1xon"
+        }
+      ],
+      "limitation": "Missing generic manifest is not proof of lost facts; several records use other checks. Inspect complete originals and root sections before repair. Manifest coverage is not full shared-table,body or incoming-link certification."
     }
   },
   "deferred_work": {
@@ -10266,7 +10413,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Broader lossless migration audit and fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Flamma FX100 complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

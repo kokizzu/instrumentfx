@@ -88,7 +88,7 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
-    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation'):
+    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation', 'commit-arena-preservation'):
         verify()
         for check in ('test-fields', 'test-extraction', 'test-selection', 'verify'):
             subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
@@ -103,6 +103,9 @@ def main():
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-g11-preservation':
             paths += ['ZOOM.md']
+            subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
+        if mode == 'commit-arena-preservation':
+            paths += ['DONNER.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         changed = set(git('diff', '--name-only').splitlines())
         assert changed <= set(paths), changed - set(paths)
@@ -119,6 +122,8 @@ def main():
             message = 'fix(line6): restore complete POD Express Bass evidence and historical offer'
         if mode == 'commit-g11-preservation':
             message = 'fix(zoom): preserve complete G11 original evidence and count qualifications'
+        if mode == 'commit-arena-preservation':
+            message = 'docs(donner): verify complete Arena2000 legacy finding retention'
         print(git('commit', '-m', message))
     elif mode == 'verify':
         verify()
