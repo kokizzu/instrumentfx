@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VoiceLive 3 Extreme primary follow-up",
-    "task": "VL3X11vocal/9guitar count,manufacturer-indexed socket counts and12/14W conflict saved. Continue simultaneous/category/storage/DC/control andoffers;noexhaustiveclaim;commitbefore nextmodel.",
+    "task": "VL3X50loopslots,explicitloopsaving andaudio routing saved. Continue remaining fields orresume freshShopee discovery;do notaddVL3Xagain;commit eachmodel before next.",
     "next_models": [],
     "after_queue": "Resume fresh Shopee discovery;no exhaustivecoverageclaim."
   },
@@ -1769,6 +1769,17 @@
         "conflict": "Reference<14W versusindexedcurrentQSG<12W;hardware/revisionbasis unverified",
         "access": "Manufacturer PDF open failed;QSGspecificfacts index-only,pp122–123",
         "remaining": "Simultaneousceiling/categorychoices,DCcurrent/polarity,fullphysicalpanel,loopstorageandprices"
+      },
+      "loop_storage_output_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+        "resolved": [
+          "50loopslots;UTILSave storesaudio/settingsintoslot,notpreset",
+          "Eachtrackstereovocal+stereoguitarsubtracks;importdestinationselection",
+          "GuitarunusedoutsroutetoXLR;singleconnectedguitaroutmono",
+          "UnityGainignoresMixbutnotexpression;VariablefollowsMix;speakersimswitch"
+        ],
+        "remaining": "Aggregateaudio storage,currentDC/polarity,physicalcounts,processingceiling/importsandcurrentoffers"
       }
     }
   ],

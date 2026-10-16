@@ -284,7 +284,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-vl3x':
-            message = 'research(tc-helicon): qualify VL3X effect counts socket inventory and power conflict'
+            message = 'research(tc-helicon): verify VL3X loop slots saving and guitar output routing'
         if mode == 'commit-b3':
             message = 'research(zoom): verify B3 battery-excluded mass and analog conversion limits'
         if mode == 'commit-g3':
