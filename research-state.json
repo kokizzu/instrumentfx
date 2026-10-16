@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Public ownership and policy metadata",
-    "task": "Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Discovery index/history now preserved with rejected-price hits and duplicate snapshots identified. Next read coverage/README/RESUME/MIGRATION and remaining JSON provenance,then map incoming navigation before source retirement. Technical gaps and fresh discovery remain.",
+    "task": "Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Discovery index/history now preserved with rejected-price hits and duplicate snapshots identified. Coverage,README,RESUME and MIGRATION semantics now preserved with duplicate checkpoints and original transfer evidence. Next preserve remaining legacy JSON provenance,then map incoming navigation before source retirement. Technical gaps and fresh discovery remain.",
     "next_models": [],
     "after_queue": "No private receipts/mail/order/payment contents included;historical source cursors are not active instructions."
   },
@@ -27021,7 +27021,13 @@
         "effects/METHODOLOGY.md": "73e884f01904b5e5c5a8e719cd6f21cc16d0ca4af1cddc25138c2f5bee8d57f9",
         "effects/shopee-indonesia.md": "c9eac929b4d49fa779935d412d78f3e4d9e4a7505f1e9ea994fabf86581e483b",
         "effects/shopee-indonesia.history-2026-10-14.md": "c607138ae4734f36eba079cb9c018fb20373cb3801cba948d19b926c95950422",
-        "effects/shopee-indonesia.history-2026-10-15-pre-boss.md": "c9eac929b4d49fa779935d412d78f3e4d9e4a7505f1e9ea994fabf86581e483b"
+        "effects/shopee-indonesia.history-2026-10-15-pre-boss.md": "c9eac929b4d49fa779935d412d78f3e4d9e4a7505f1e9ea994fabf86581e483b",
+        "effects/COVERAGE.md": "8ab61e6ff4b1f4694ce56c6cd5e66db614bce161314b6e575f927f374a66d7ea",
+        "effects/COVERAGE.history-2026-10-14.md": "96346da1322809432658c1bb0010dcb40d43f16a8770c95fdd9a1043fd784e7e",
+        "effects/COVERAGE.history-2026-10-15-pre-boss.md": "8ab61e6ff4b1f4694ce56c6cd5e66db614bce161314b6e575f927f374a66d7ea",
+        "effects/README.md": "d022b1e6edbdf2308777d14a7452b5f5e2be812813a70a06078e3d0cf11ff75c",
+        "effects/RESUME.md": "e6f7843b1f579c201cf9d03f5af774c4bdcb3dd4472d3de2d23c5db96ba6ab2d",
+        "effects/MIGRATION.md": "de9cd87750e3cafac83039d290078044bbb8a5468158f479cf58031e1c6c1430"
       },
       "destination": "research-state.json#public_metadata",
       "ownership_entries": 21,
@@ -30650,6 +30656,1257 @@
             "end_line": 51
           }
         ]
+      },
+      "effects/COVERAGE.md": {
+        "source": "effects/COVERAGE.md",
+        "sha256": "8ab61e6ff4b1f4694ce56c6cd5e66db614bce161314b6e575f927f374a66d7ea",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 25,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Coverage and remaining research",
+            "context": "Coverage and remaining research",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparisons](README.md) · [Scope](SCOPE.md) · [Owner history](OWNERSHIP.md) · [Resume](RESUME.md)",
+            "context": "Coverage and remaining research",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "**2026-10-14:80 active partial models on13 pages;6 excluded archival records;zero fully verified.** The current [JSON ledger](research-state.json) enumerates each active model once. Page totals:compact8,BOSS7,NUX6,larger3,bass7,vocal8,GM-800-only1,advanced6,Shopee16+8+4+4,owned additions2. All-Shopee,whole-market and all-ever-owned coverage are incomplete.",
+            "context": "Coverage and remaining research",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Completed in the latest pass",
+            "context": "Completed in the latest pass",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "paragraph",
+            "text": "Four individual MOOER findings and [comparison](shopee-multifx-4.md):GE100 Pro,GE100 Pro Li,GE200 Pro,GE200 Pro Li. Previously saved GR-55/B1Xon findings are [integrated](owned-multifx.md). Six scope exclusions are removed from active counts; original findings remain preserved.",
+            "context": "Completed in the latest pass",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Historical coverage](COVERAGE.history-2026-10-14.md) and [historical ledger](research-state.history-2026-10-14.json) retain all original backlog details, conflicts, field templates and previous individual commit references. Their old counts and single-purpose guitar-pedal targets are not active scope. Use current records rather than restarting completed models.",
+            "context": "Completed in the latest pass",
+            "line": 11,
+            "end_line": 11
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Work queue",
+            "context": "Work queue",
+            "line": 13,
+            "end_line": 13
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Track",
+              "Next work"
+            ],
+            "alignment": "|---|---|",
+            "rows": [
+              {
+                "Track": "Shopee-first",
+                "Next work": "**Hotone Ampero MP-100**,then MP-350,GE1000,Ampero II Stage MP-380,HX Stomp XL;recheck exact variant and IDR offer"
+              },
+              {
+                "Track": "Ever-owned",
+                "Next work": "**Original JOYO GEM BOX**,MINI-X,Pocket Amp,CUVAVE H8,Ving FB100;owned2025 BlackBox revision;Audota/Zoom vocal identities and RH-4 ownership candidate"
+              },
+              {
+                "Track": "Original display/IDR",
+                "Next work": "BOSS GT-1000CORE and remaining BOSS,NUX,larger,bass,vocal,eligible GM-800,advanced pages"
+              },
+              {
+                "Track": "Existing Shopee cross-references",
+                "Next work": "NUX,GP-50,GX-100,HX Stomp,Matribox family exact offers already discovered;integrate without duplicating models"
+              },
+              {
+                "Track": "Further discovery",
+                "Next work": "Eligible remaining MOOER GE/Prime,Hotone Ampero,Zoom G/B/MultiStomp,Line6 HX/POD/Helix,BOSS GT/GX/ME,HeadRush,Valeton,NUX,TC-Helicon and lesser-documented multi-effects"
+              }
+            ],
+            "context": "Work queue",
+            "line": 15,
+            "end_line": 21
+          },
+          {
+            "kind": "paragraph",
+            "text": "These are research targets, not current-stock claims or buying recommendations. Variants must be verified individually. Digital presets,controllers,phones-only accessories,cases and single-purpose guitar pedals are outside this queue.",
+            "context": "Work queue",
+            "line": 23,
+            "end_line": 23
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Latest unresolved fields",
+            "context": "Latest unresolved fields",
+            "line": 25,
+            "end_line": 25
+          },
+          {
+            "kind": "paragraph",
+            "text": "**GE100 Pro family:** 200+/240+ library wording,complete category counts,IR slots,DSP exceptions,toe switch,screen touch,W/D axis mapping,current firmware/region conversion restrictions. Pro price discrepancy and Li voucher/sold-out/Mandarin offers remain qualified. A3.5-inch color screen does not resolve touch.",
+            "context": "Latest unresolved fields",
+            "line": 27,
+            "end_line": 27
+          },
+          {
+            "kind": "paragraph",
+            "text": "**GE200 Pro family:** module-button row count,exact current unique algorithm total,AMP/CAB/NS appendix counts,screen touch,current firmware/NAM architectures,mobile full editing and region-specific installer requirements. Single mono input and one switchable MIDI IN/OUT socket are documented; broad stereo-I/O marketing must not overwrite those. Per-model non-Li Shopee price and all latest used quotes remain unknown.",
+            "context": "Latest unresolved fields",
+            "line": 29,
+            "end_line": 29
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Owned additions:** GR-55/B1Xon controls,display,color/touch and other source-specific gaps;current Indonesian used/new offers. Ownership survives donation or sale;no private purchase data is published.",
+            "context": "Latest unresolved fields",
+            "line": 31,
+            "end_line": 31
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Earlier conflicts stay open",
+            "context": "Earlier conflicts stay open",
+            "line": 33,
+            "end_line": 33
+          },
+          {
+            "kind": "paragraph",
+            "text": "TONEX ONE memory;MG-50Li factory/user/model totals;Matribox II Pro MIDI out;GP-100 rhythm/effect totals;compact unpublished screen sizes/touch;MK-20 EXP versus panel;FX200160-versus161 and dimension axes;TANK-PRO weight;ANN versus older BlackBox;BG300 manual versus seller;KMF-10 current/preset notation;GEM BOX III IR samples;TC-Helicon old-versus-current firmware;Core power/category discrepancies;Arena2000 unread manual and counts;MG-100/200 older-manual figures and historical asks. Detailed evidence remains in each finding and the exact historical ledger snapshot.",
+            "context": "Earlier conflicts stay open",
+            "line": 35,
+            "end_line": 35
+          },
+          {
+            "kind": "paragraph",
+            "text": "The FV01 power conflict remains only in its excluded archival note; do not resume FV01 as an active model. Same for five excluded dedicated BOSS pedals.",
+            "context": "Earlier conflicts stay open",
+            "line": 37,
+            "end_line": 37
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Acceptance checklist",
+            "context": "Acceptance checklist",
+            "line": 39,
+            "end_line": 39
+          },
+          {
+            "kind": "paragraph",
+            "text": "Every new record needs expression,physical controls,used/new IDR,blocks/categories/counts,ports,presets,synth/acoustic,dimensions/weight,power/battery/USB,IR/NAM/captures,editor platforms and screen diagonal/color/touch, each sourced or explicitly unknown. Retain firmware context,stage/practice functions,price conditions and exact source links. The full reusable template remains in the historical JSON's record_template object; apply current SCOPE to it.",
+            "context": "Acceptance checklist",
+            "line": 41,
+            "end_line": 41
+          },
+          {
+            "kind": "paragraph",
+            "text": "Commit each model immediately, then integrate and verify the checkpoint. Unknown fields are not No; a first pass is not full verification. No unattended research is configured.",
+            "context": "Acceptance checklist",
+            "line": 43,
+            "end_line": 43
+          }
+        ]
+      },
+      "effects/COVERAGE.history-2026-10-14.md": {
+        "source": "effects/COVERAGE.history-2026-10-14.md",
+        "sha256": "96346da1322809432658c1bb0010dcb40d43f16a8770c95fdd9a1043fd784e7e",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 77,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Coverage, unresolved fields and research backlog",
+            "context": "Coverage, unresolved fields and research backlog",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparison home](README.md) · [Methodology](METHODOLOGY.md) · [Shopee evidence queue](shopee-indonesia.md) · [Resume](RESUME.md)",
+            "context": "Coverage, unresolved fields and research backlog",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Current status — 2026-10-14",
+            "context": "Current status — 2026-10-14",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "**80 distinct hardware/model records across 11 comparison pages. All remain partial; zero fully verified.** The original51 plus Shopee batches16+8+5 form the inventory. Each new model has an immediate findings commit. Notes, cross-references, discovery-only rows and firmware updates do not inflate counts.",
+            "context": "Current status — 2026-10-14",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Page",
+              "Records",
+              "Display / IDR status"
+            ],
+            "alignment": "|---|---:|---|",
+            "rows": [
+              {
+                "Page": "[Compact guitar](guitar-compact.md)",
+                "Records": "8",
+                "Display / IDR status": "First display pass and IDR columns; unknowns retained"
+              },
+              {
+                "Page": "[BOSS guitar](guitar-boss.md)",
+                "Records": "7",
+                "Display / IDR status": "Legacy review pending"
+              },
+              {
+                "Page": "[NUX](guitar-nux.md)",
+                "Records": "6",
+                "Display / IDR status": "Legacy review pending"
+              },
+              {
+                "Page": "[Larger Valeton/Sonicake](guitar-floorboards.md)",
+                "Records": "3",
+                "Display / IDR status": "Legacy review pending"
+              },
+              {
+                "Page": "[Bass](bass.md)",
+                "Records": "7",
+                "Display / IDR status": "Legacy review pending"
+              },
+              {
+                "Page": "[Vocal/acoustic-vocal](vocal.md)",
+                "Records": "8",
+                "Display / IDR status": "Legacy review pending"
+              },
+              {
+                "Page": "[Synth/acoustic/vocoder/pitch](specialist.md)",
+                "Records": "6",
+                "Display / IDR status": "Legacy review pending"
+              },
+              {
+                "Page": "[Advanced modelers/captures](advanced-modelers.md)",
+                "Records": "6",
+                "Display / IDR status": "Legacy review pending"
+              },
+              {
+                "Page": "[Shopee expansion1](shopee-multifx.md)",
+                "Records": "16",
+                "Display / IDR status": "New IDR/display records; partial"
+              },
+              {
+                "Page": "[Shopee expansion2](shopee-multifx-2.md)",
+                "Records": "8",
+                "Display / IDR status": "New IDR/display records; partial"
+              },
+              {
+                "Page": "[Shopee expansion3](shopee-multifx-3.md)",
+                "Records": "5",
+                "Display / IDR status": "New IDR/display records; partial"
+              },
+              {
+                "Page": "**Total**",
+                "Records": "**80**",
+                "Display / IDR status": "**Not exhaustive**"
+              }
+            ],
+            "context": "Current status — 2026-10-14",
+            "line": 9,
+            "end_line": 22
+          },
+          {
+            "kind": "paragraph",
+            "text": "Scope remains guitar, bass, vocal and specialist effects. **The priority is multi-effects listed on Shopee Indonesia.** The marketplace index separates researched models, original-model listing evidence, unresearched hardware and excluded accessory/preset hits. It is not a complete seller inventory or current-stock guarantee. Pocket Master and Zoom V3 remain hand-operated rather than conventional footswitch pedals.",
+            "context": "Current status — 2026-10-14",
+            "line": 24,
+            "end_line": 24
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Highest-priority unfinished work",
+            "context": "Highest-priority unfinished work",
+            "line": 26,
+            "end_line": 26
+          },
+          {
+            "kind": "paragraph",
+            "text": "1. **Shopee-first expansion:** next **MOOER GE100 Pro**, then Pro Li, GE200 Pro/Pro Li, Ampero MP-100/II and other indexed families. Original GE100 is already researched. Resolve the saved Pro snippet/body/voucher discrepancy and identify exact hardware. JOYO GEM BOX I still needs a matching primary manual; an incompatible MOOER-identified document was rejected.\n2. **Used/new IDR:** most used ranges are unknown. Preserve condition, stock, voucher, bundle, region, selected variant, seller and date. Sold-out asks are not sales; unknown condition is not automatically new. Seven original pages still have USD columns. MG-100's older ask could not be reopened; MG-200's sold-out ask has no exposed condition.\n3. **Displays/controls/physical data:** finish unpublished diagonals and explicit touch without guessing. Original MG-101/MG-400/Matribox II Pro/Zoom V3 gaps remain, along with Ampero Mini rear controls and original GE150 controls. New Arena2000 and MG-100 primary dimensions remain missing. Arena touch-control wording is not proof of a touchscreen.\n4. **Effects/power/software:** transcribe firmware-specific categories, synth/acoustic distinctions and NAM architecture/conversion limits; distinguish USB power/data/audio, device draw/adapter rating, editor/driver/updater/mobile audio. Linux is not inferred from class compliance. Unread manuals remain unread, not silently replaced with retailer specs.\n5. **Conflicts:** retain all original and expansion-page conflicts summarized below and detailed in each finding. A completed first pass does not certify the entire model.",
+            "context": "Highest-priority unfinished work",
+            "line": 28,
+            "end_line": 32
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Saved Shopee batches and unresolved evidence",
+            "context": "Saved Shopee batches and unresolved evidence",
+            "line": 34,
+            "end_line": 34
+          },
+          {
+            "kind": "paragraph",
+            "text": "**First16:** M-VAVE TANK-G/B/MINI, MK-20/300; Ampero Mini; original MOOER GE100/150/200, GE150 Pro Li; Zoom G1/G1X/G2/G2X FOUR; Flamma FX100/200. Six diagonals and two positive touchscreens were established; screenless/segmented displays are separately classified. Preserve MK-20 external-expression/rear-panel conflicts, FX200160-versus161 and W/D labels, MK-300/FX100 price discrepancies, Zoom vouchers, original GE150 controls/preset split, and **GE150 Pro Li NAM conversion limits that do not apply automatically to original GE150**.",
+            "context": "Saved Shopee batches and unresolved evidence",
+            "line": 36,
+            "end_line": 36
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Next8:** TANK-PRO, ANN Blackbox, Boin BG300, Scorpion KMF-10, JOYO GEM BOX II/III, TC-Helicon VoiceLive Play/Play Acoustic. Preserve TANK-PRO815g versus800g, ANN revision/dimensions/display, BG300 linked-manual versus retailer screen/effects/power/headphones, KMF-10300mA versus500mA and10–59 memory notation, GEM BOX III512-versus1024 IR samples, and TC-Helicon old-manual versus current firmware/looper/memory/software behavior. VoiceLive Play is a vocal processor despite a seller's guitar-effects title.",
+            "context": "Saved Shopee batches and unresolved evidence",
+            "line": 38,
+            "end_line": 38
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Latest5:** Core, FV01, Arena2000, MG-100, MG-200. Core has manufacturer-documented7-inch color touch and firmware5.2 native NAM with architecture limits; its power/port/category descriptions conflict and current preset/control details remain incomplete. FV01's own manual gives500mA versus1.5A. Arena2000's3.5-inch color display does not establish touch; its278 headline does not match the published subcount sum, dimensions are missing and the linked PDF was unread. MG-100 V1's58 includes amps/cabs. MG-200 V1 advertises55 but lists57, with manual/photo control-label differences. Their older manuals are not newly tested firmware. No current used-price range was established for these five.",
+            "context": "Saved Shopee batches and unresolved evidence",
+            "line": 40,
+            "end_line": 40
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Original conflicts:** TONEX ONE memory; MG-50Li model/preset split; Matribox II Pro MIDI output; GP-100 rhythm/effect totals; compact display diagonals/touch; regional Matribox and conflicting stock markers. Prior technical corrections, source dates and foreign-price provenance stay preserved.",
+            "context": "Saved Shopee batches and unresolved evidence",
+            "line": 42,
+            "end_line": 42
+          },
+          {
+            "kind": "paragraph",
+            "text": "The original **BOSS GT-1000CORE display/IDR cursor remains deferred, not erased**. Remaining order: BOSS → NUX → larger floorboards → bass → vocal → specialist → advanced. Existing-model Shopee discoveries are cross-references, not new model records or completed page migrations.",
+            "context": "Saved Shopee batches and unresolved evidence",
+            "line": 44,
+            "end_line": 44
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Brand and family research backlog",
+            "context": "Brand and family research backlog",
+            "line": 46,
+            "end_line": 46
+          },
+          {
+            "kind": "paragraph",
+            "text": "These are research targets, not recommendations, completed rows or proof of current availability. Some have Shopee item evidence; others need discovery. Exact hardware/region/firmware must be established before adding facts.",
+            "context": "Brand and family research backlog",
+            "line": 48,
+            "end_line": 48
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Area",
+              "Remaining targets / partial families"
+            ],
+            "alignment": "|---|---|",
+            "rows": [
+              {
+                "Area": "Budget / ultra-compact",
+                "Remaining targets / partial families": "Remaining M-VAVE/CUVAVE Cube/Blackbox revisions; MOOER Prime/P and GE; Hotone; Donner beyond Arena2000; Harley Benton; JOYO; DigiTech; other Sonicake/Valeton variants. TANK-PRO and ANN now have partial records"
+              },
+              {
+                "Area": "Indonesian-market / OEM",
+                "Remaining targets / partial families": "Reconcile BG300/KMF-10 and GEM BOX II/III unknowns; establish original GEM BOX I primary identity. MK-20 external-control conflict remains. Similar enclosures do not prove identical firmware"
+              },
+              {
+                "Area": "MOOER",
+                "Remaining targets / partial families": "GE100 Pro/Pro Li; GE150 Plus/Pro/Max and Li variants not already covered; GE200 Pro/Pro Li; GE250/300/350/1000 and other confirmed families; native versus converted captures checked individually"
+              },
+              {
+                "Area": "Line6",
+                "Remaining targets / partial families": "HX Stomp XL, HX One, POD Go/Wireless, POD Express guitar/bass, Helix Floor/LT/Rack, Helix Stadium, legacy POD/HD/M; no cross-generation feature copying"
+              },
+              {
+                "Area": "BOSS/Roland",
+                "Remaining targets / partial families": "Original-page IDR/display review; remaining GT/ME/GX, MS-3, IR-2/IR-200, SY-300/SY-1000, GR/VG, acoustic AD and vocal products"
+              },
+              {
+                "Area": "Zoom guitar/bass",
+                "Remaining targets / partial families": "Remaining G3/G3X, G5/G6/G11, MS/MultiStomp/Plus, bass variants and older B-series; G1/G1X/G2/G2X FOUR are already partial records"
+              },
+              {
+                "Area": "Hotone / high-end",
+                "Remaining targets / partial families": "Remaining Ampero One/II/Stomp/Stage; HeadRush Prime/MX5/Gigboard/Pedalboard; Quad Cortex, Kemper, Fractal, Fender Tone Master Pro. Core is now partially researched; generations remain distinct"
+              },
+              {
+                "Area": "NAM/capture specialists",
+                "Remaining targets / partial families": "Dimehead, MOD, AIDA-X devices, Blackstar, Darkglass Anagram and others; native architectures, conversion, limits and firmware independently checked"
+              },
+              {
+                "Area": "TONEX",
+                "Remaining targets / partial families": "ONE memory conflict; ONE+, bass/anniversary/newer hardware; no indiscriminate reuse of memory/power"
+              },
+              {
+                "Area": "Vocals",
+                "Remaining targets / partial families": "Remaining TC-Helicon VoiceLive/Perform/VoiceTone/acoustic families; other HeadRush vocal units; EHX, Flamma, MOOER, Roland. VoiceLive Play, Play Acoustic, Core and FV01 now partial. Harmony detection does not automatically imply a guitar-effects path"
+              },
+              {
+                "Area": "Bass preamp/DI / multi-effects",
+                "Remaining targets / partial families": "Darkglass, Tech21/SansAmp/FlyRig, SourceAudio, EBS, MXR, Aguilar, EHX, Zoom MultiStomp, NUX bass; TANK-B already partial"
+              },
+              {
+                "Area": "Synth/acoustic/pitch",
+                "Remaining targets / partial families": "SourceAudio C4/Spectrum, EHX9/synth pedals, Whammy/Drop, Eventide, Hotone/MOOER acoustic, Behringer AM, body-IR products"
+              },
+              {
+                "Area": "Drive/fuzz/boost",
+                "Remaining targets / partial families": "BOSS, Ibanez, MXR, EHX, TC Electronic, JHS, EarthQuaker, Wampler, Walrus, Keeley, Catalinbread, ZVEX, NUX, MOOER, JOYO, Behringer, boutique/OEM"
+              },
+              {
+                "Area": "Modulation/delay/reverb",
+                "Remaining targets / partial families": "Strymon, Eventide, SourceAudio, BOSS, TC Electronic, EHX, Empress, Walrus, Meris, ChaseBliss, Zoom; one algorithm is not a multi-engine processor"
+              },
+              {
+                "Area": "Utilities/performance",
+                "Remaining targets / partial families": "Compressor, EQ, gate, volume/expression, tuner, buffer, ABY/switcher, MIDI controller, looper; controller-only products separate from audio effects"
+              }
+            ],
+            "context": "Brand and family research backlog",
+            "line": 50,
+            "end_line": 66
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Record checklist",
+            "context": "Record checklist",
+            "line": 68,
+            "end_line": 68
+          },
+          {
+            "kind": "paragraph",
+            "text": "Every non-unknown fact needs primary technical evidence or dated price evidence. Full machine-readable template: [research-state.json](research-state.json).",
+            "context": "Record checklist",
+            "line": 70,
+            "end_line": 70
+          },
+          {
+            "kind": "paragraph",
+            "text": "```text\nBrand / exact model / hardware revision / instrument category:\nResearch date / firmware / current or discontinued evidence:\nBuilt-in expression / toe switch / external expression:\nRotary controls / footswitches / buttons / other switches:\nDisplay presence / count / diagonal / monochrome or color / touch / resolution:\nDimensions W x D x H / maximum pedal height / weight:\nUsed and new IDR quotes separately: seller, condition, stock, date, URL:\nShopee shop/item IDs / selected variant / voucher / bundle / price conflict:\nOriginal foreign amount and verified dated FX source when applicable:\nSimultaneous blocks / DSP limits / routing / category choices / amp/cab counts:\nFactory-filled / total editable / dedicated factory and user memory:\nSynth / acoustic simulator vs amp vs body IR:\nInputs / outputs / headphones / aux / loops / MIDI / USB:\nMicrophone / phantom voltage / harmony detection inputs:\nVoltage / polarity / draw vs adapter rating / battery / USB operation:\nIR slots / samples / formats; NAM native architectures vs conversion:\nProprietary captures; capture-versus-playback capabilities:\nEditor OS / librarian / updater / driver / optional adapters:\nUSB audio / sample rates / loopback / reamp:\nLooper / rhythms / scenes / bypass / trails / switching behavior:\nSpecial pickup / cable / account / licence requirements:\nPrimary and price sources / exact unknowns / conflicts / next step:\n```",
+            "context": "Record checklist",
+            "line": 72,
+            "end_line": 95
+          },
+          {
+            "kind": "paragraph",
+            "text": "Commit each model's useful findings immediately, then integrate and advance the checkpoint after verification. No scheduled maintenance or unattended research is configured.",
+            "context": "Record checklist",
+            "line": 97,
+            "end_line": 97
+          }
+        ]
+      },
+      "effects/COVERAGE.history-2026-10-15-pre-boss.md": {
+        "source": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+        "sha256": "8ab61e6ff4b1f4694ce56c6cd5e66db614bce161314b6e575f927f374a66d7ea",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 25,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Coverage and remaining research",
+            "context": "Coverage and remaining research",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparisons](README.md) · [Scope](SCOPE.md) · [Owner history](OWNERSHIP.md) · [Resume](RESUME.md)",
+            "context": "Coverage and remaining research",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "**2026-10-14:80 active partial models on13 pages;6 excluded archival records;zero fully verified.** The current [JSON ledger](research-state.json) enumerates each active model once. Page totals:compact8,BOSS7,NUX6,larger3,bass7,vocal8,GM-800-only1,advanced6,Shopee16+8+4+4,owned additions2. All-Shopee,whole-market and all-ever-owned coverage are incomplete.",
+            "context": "Coverage and remaining research",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Completed in the latest pass",
+            "context": "Completed in the latest pass",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "paragraph",
+            "text": "Four individual MOOER findings and [comparison](shopee-multifx-4.md):GE100 Pro,GE100 Pro Li,GE200 Pro,GE200 Pro Li. Previously saved GR-55/B1Xon findings are [integrated](owned-multifx.md). Six scope exclusions are removed from active counts; original findings remain preserved.",
+            "context": "Completed in the latest pass",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Historical coverage](COVERAGE.history-2026-10-14.md) and [historical ledger](research-state.history-2026-10-14.json) retain all original backlog details, conflicts, field templates and previous individual commit references. Their old counts and single-purpose guitar-pedal targets are not active scope. Use current records rather than restarting completed models.",
+            "context": "Completed in the latest pass",
+            "line": 11,
+            "end_line": 11
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Work queue",
+            "context": "Work queue",
+            "line": 13,
+            "end_line": 13
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Track",
+              "Next work"
+            ],
+            "alignment": "|---|---|",
+            "rows": [
+              {
+                "Track": "Shopee-first",
+                "Next work": "**Hotone Ampero MP-100**,then MP-350,GE1000,Ampero II Stage MP-380,HX Stomp XL;recheck exact variant and IDR offer"
+              },
+              {
+                "Track": "Ever-owned",
+                "Next work": "**Original JOYO GEM BOX**,MINI-X,Pocket Amp,CUVAVE H8,Ving FB100;owned2025 BlackBox revision;Audota/Zoom vocal identities and RH-4 ownership candidate"
+              },
+              {
+                "Track": "Original display/IDR",
+                "Next work": "BOSS GT-1000CORE and remaining BOSS,NUX,larger,bass,vocal,eligible GM-800,advanced pages"
+              },
+              {
+                "Track": "Existing Shopee cross-references",
+                "Next work": "NUX,GP-50,GX-100,HX Stomp,Matribox family exact offers already discovered;integrate without duplicating models"
+              },
+              {
+                "Track": "Further discovery",
+                "Next work": "Eligible remaining MOOER GE/Prime,Hotone Ampero,Zoom G/B/MultiStomp,Line6 HX/POD/Helix,BOSS GT/GX/ME,HeadRush,Valeton,NUX,TC-Helicon and lesser-documented multi-effects"
+              }
+            ],
+            "context": "Work queue",
+            "line": 15,
+            "end_line": 21
+          },
+          {
+            "kind": "paragraph",
+            "text": "These are research targets, not current-stock claims or buying recommendations. Variants must be verified individually. Digital presets,controllers,phones-only accessories,cases and single-purpose guitar pedals are outside this queue.",
+            "context": "Work queue",
+            "line": 23,
+            "end_line": 23
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Latest unresolved fields",
+            "context": "Latest unresolved fields",
+            "line": 25,
+            "end_line": 25
+          },
+          {
+            "kind": "paragraph",
+            "text": "**GE100 Pro family:** 200+/240+ library wording,complete category counts,IR slots,DSP exceptions,toe switch,screen touch,W/D axis mapping,current firmware/region conversion restrictions. Pro price discrepancy and Li voucher/sold-out/Mandarin offers remain qualified. A3.5-inch color screen does not resolve touch.",
+            "context": "Latest unresolved fields",
+            "line": 27,
+            "end_line": 27
+          },
+          {
+            "kind": "paragraph",
+            "text": "**GE200 Pro family:** module-button row count,exact current unique algorithm total,AMP/CAB/NS appendix counts,screen touch,current firmware/NAM architectures,mobile full editing and region-specific installer requirements. Single mono input and one switchable MIDI IN/OUT socket are documented; broad stereo-I/O marketing must not overwrite those. Per-model non-Li Shopee price and all latest used quotes remain unknown.",
+            "context": "Latest unresolved fields",
+            "line": 29,
+            "end_line": 29
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Owned additions:** GR-55/B1Xon controls,display,color/touch and other source-specific gaps;current Indonesian used/new offers. Ownership survives donation or sale;no private purchase data is published.",
+            "context": "Latest unresolved fields",
+            "line": 31,
+            "end_line": 31
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Earlier conflicts stay open",
+            "context": "Earlier conflicts stay open",
+            "line": 33,
+            "end_line": 33
+          },
+          {
+            "kind": "paragraph",
+            "text": "TONEX ONE memory;MG-50Li factory/user/model totals;Matribox II Pro MIDI out;GP-100 rhythm/effect totals;compact unpublished screen sizes/touch;MK-20 EXP versus panel;FX200160-versus161 and dimension axes;TANK-PRO weight;ANN versus older BlackBox;BG300 manual versus seller;KMF-10 current/preset notation;GEM BOX III IR samples;TC-Helicon old-versus-current firmware;Core power/category discrepancies;Arena2000 unread manual and counts;MG-100/200 older-manual figures and historical asks. Detailed evidence remains in each finding and the exact historical ledger snapshot.",
+            "context": "Earlier conflicts stay open",
+            "line": 35,
+            "end_line": 35
+          },
+          {
+            "kind": "paragraph",
+            "text": "The FV01 power conflict remains only in its excluded archival note; do not resume FV01 as an active model. Same for five excluded dedicated BOSS pedals.",
+            "context": "Earlier conflicts stay open",
+            "line": 37,
+            "end_line": 37
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Acceptance checklist",
+            "context": "Acceptance checklist",
+            "line": 39,
+            "end_line": 39
+          },
+          {
+            "kind": "paragraph",
+            "text": "Every new record needs expression,physical controls,used/new IDR,blocks/categories/counts,ports,presets,synth/acoustic,dimensions/weight,power/battery/USB,IR/NAM/captures,editor platforms and screen diagonal/color/touch, each sourced or explicitly unknown. Retain firmware context,stage/practice functions,price conditions and exact source links. The full reusable template remains in the historical JSON's record_template object; apply current SCOPE to it.",
+            "context": "Acceptance checklist",
+            "line": 41,
+            "end_line": 41
+          },
+          {
+            "kind": "paragraph",
+            "text": "Commit each model immediately, then integrate and verify the checkpoint. Unknown fields are not No; a first pass is not full verification. No unattended research is configured.",
+            "context": "Acceptance checklist",
+            "line": 43,
+            "end_line": 43
+          }
+        ]
+      },
+      "effects/README.md": {
+        "source": "effects/README.md",
+        "sha256": "d022b1e6edbdf2308777d14a7452b5f5e2be812813a70a06078e3d0cf11ff75c",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 33,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Guitar, bass and vocal multi-effects comparison",
+            "context": "Guitar, bass and vocal multi-effects comparison",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Checkpoint 2026-10-15: 96 active partial records · 15 comparison pages · 6 excluded archives.**",
+            "context": "Guitar, bass and vocal multi-effects comparison",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Scope](SCOPE.md) · [Resume](RESUME.md) · [Ledger](research-state.json) · [Owner history](OWNERSHIP.md) · [Shopee evidence](shopee-indonesia.md)",
+            "context": "Guitar, bass and vocal multi-effects comparison",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "Guitar entries are multi-effects only. Effects-only processors and documented synth/multi-effects architectures can qualify; individual-purpose pedals, accessories and FV01 do not. Bass and genuine vocal multi-effects remain separate categories.",
+            "context": "Guitar, bass and vocal multi-effects comparison",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Comparison pages",
+            "context": "Comparison pages",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Category / page",
+              "Active models",
+              "Coverage"
+            ],
+            "alignment": "|---|---:|---|",
+            "rows": [
+              {
+                "Category / page": "**[Remaining MOOER variants](shopee-multifx-6.md)**",
+                "Active models": "5",
+                "Coverage": "GE150 Plus,Plus Li,Max,Max Li,GE1000 Li; battery and non-battery hardware separate"
+              },
+              {
+                "Category / page": "**[Recovered Hotone/MOOER/Line6 batch](shopee-multifx-5.md)**",
+                "Active models": "6",
+                "Coverage": "Ampero MP-100,MP-350,MP-380,GE1000,HX Stomp XL,GE150 Pro; earlier individual commits preserved"
+              },
+              {
+                "Category / page": "**[Ever-owned additions](owned-multifx.md)**",
+                "Active models": "7",
+                "Coverage": "GR-55,B1Xon,original GEM BOX,MINI-X,Pocket Amp,H8,VING Flybro FB-100"
+              },
+              {
+                "Category / page": "[MOOER Pro variants](shopee-multifx-4.md)",
+                "Active models": "4",
+                "Coverage": "GE100 Pro/Pro Li,GE200 Pro/Pro Li"
+              },
+              {
+                "Category / page": "[Shopee expansion1](shopee-multifx.md)",
+                "Active models": "16",
+                "Coverage": "M-VAVE5,Ampero Mini,MOOER4,Zoom4,Flamma FX100/200"
+              },
+              {
+                "Category / page": "[Shopee expansion2](shopee-multifx-2.md)",
+                "Active models": "8",
+                "Coverage": "TANK-PRO,ANN Blackbox,BG300,KMF-10,GEM BOX II/III,TC-Helicon Play models"
+              },
+              {
+                "Category / page": "[Shopee expansion3](shopee-multifx-3.md)",
+                "Active models": "4",
+                "Coverage": "Core,Arena2000,MG-100/200;FV01 excluded"
+              },
+              {
+                "Category / page": "[Compact guitar](guitar-compact.md)",
+                "Active models": "8",
+                "Coverage": "Valeton/Sonicake;first display/IDR pass saved"
+              },
+              {
+                "Category / page": "[BOSS guitar](guitar-boss.md)",
+                "Active models": "7",
+                "Coverage": "GT/GX/ME families;original display/IDR migration pending"
+              },
+              {
+                "Category / page": "[NUX](guitar-nux.md)",
+                "Active models": "6",
+                "Coverage": "MG-101/300/300MKII/400/30/50Li"
+              },
+              {
+                "Category / page": "[Larger floorboards](guitar-floorboards.md)",
+                "Active models": "3",
+                "Coverage": "GP-200,Matribox II/II Pro"
+              },
+              {
+                "Category / page": "[Bass](bass.md)",
+                "Active models": "7",
+                "Coverage": "Zoom/BOSS bass-focused processors"
+              },
+              {
+                "Category / page": "[Vocal](vocal.md)",
+                "Active models": "8",
+                "Coverage": "BOSS/Zoom vocal and acoustic-vocal processors"
+              },
+              {
+                "Category / page": "[Multi-instrument synth/MFX](specialist.md)",
+                "Active models": "1",
+                "Coverage": "GM-800 only active;five individual-purpose pedals archived on same page"
+              },
+              {
+                "Category / page": "[Advanced/effects-only/capture](advanced-modelers.md)",
+                "Active models": "6",
+                "Coverage": "HX Stomp/Effects,Nano Cortex,TONEX ONE/Pedal,Flex Prime"
+              },
+              {
+                "Category / page": "**Total unique active models**",
+                "Active models": "**96**",
+                "Coverage": "**All partial; zero declared fully verified**"
+              }
+            ],
+            "context": "Comparison pages",
+            "line": 11,
+            "end_line": 28
+          },
+          {
+            "kind": "paragraph",
+            "text": "Counts reconcile as80 previous active +6 interrupted-run findings +5 MOOER variants +5 owned profiles. Duplicate findings, corrections, cross-references, owner quantities and excluded archives are not extra models. The [older full ledger](research-state.history-2026-10-14.json) retains previous individual commits, templates and conflicts; its historical scope/cursors are not current instructions.",
+            "context": "Comparison pages",
+            "line": 30,
+            "end_line": 30
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "What each record contains",
+            "context": "What each record contains",
+            "line": 32,
+            "end_line": 32
+          },
+          {
+            "kind": "paragraph",
+            "text": "Hardware/expression and K/F/B controls; screen size/color/touch; simultaneous blocks/category choices; factory/user memories; synth versus acoustic sim/amp/body IR; I/O; voltage/polarity/current/battery/USB; IR versus native/converted NAM/proprietary captures; editor/updater/audio platforms; used/new IDR evidence; additional stage/practice functions. Exact manufacturer/manual/firmware and seller links are in each finding.",
+            "context": "What each record contains",
+            "line": 34,
+            "end_line": 34
+          },
+          {
+            "kind": "paragraph",
+            "text": "`?` means unverified, not No. A color LCD is not necessarily a touchscreen. An expression socket is not an included pedal. USB data/audio does not establish USB power. Importing IRs does not establish amp capture or native NAM. A manual revision is not an independent test of current hardware firmware.",
+            "context": "What each record contains",
+            "line": 36,
+            "end_line": 36
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Size bins:** compact width≤200mm AND depth≤140mm;medium≤300×200 excluding compact;large otherwise;unknown if dimensions/axes are unverified. Do not rotate to pass a fit test. Plugs and pedal travel need extra room.",
+            "context": "What each record contains",
+            "line": 38,
+            "end_line": 38
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Remaining work",
+            "context": "Remaining work",
+            "line": 40,
+            "end_line": 40
+          },
+          {
+            "kind": "paragraph",
+            "text": "The previous MP-100 and original GEM BOX cursors are completed as first-pass profiles; do not restart them. Audota **AME-100** is newly recovered from a direct ownership statement and is next for exact-model research, not the older AVE-100 assumption. Continue remaining eligible marketplace families and the old BOSS GT-1000CORE display/IDR queue.",
+            "context": "Remaining work",
+            "line": 42,
+            "end_line": 42
+          },
+          {
+            "kind": "paragraph",
+            "text": "Nineteen of the original20 ownership entries now have technical profiles; owned2025 BlackBox revision remains unresolved. A newly recovered additional model can change that overlay count only when explicitly added. Donations/former gear stay included, and private receipt/order information is never published.",
+            "context": "Remaining work",
+            "line": 44,
+            "end_line": 44
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Seven original pages still need display/IDR migration.** IDR columns with missing, cached, sold-out or conditional quotes are not complete market-price research. Six expansion pages contain43 records, but that is not43 confirmed current Shopee offers: some variants have only mixed listings or separate retailer evidence. [Coverage](COVERAGE.md) preserves the outstanding tasks.",
+            "context": "Remaining work",
+            "line": 46,
+            "end_line": 46
+          },
+          {
+            "kind": "paragraph",
+            "text": "Research and commit each model immediately; integrate and verify the saved checkpoint. No unattended worker or recurring price monitoring is configured.",
+            "context": "Remaining work",
+            "line": 48,
+            "end_line": 48
+          }
+        ]
+      },
+      "effects/RESUME.md": {
+        "source": "effects/RESUME.md",
+        "sha256": "e6f7843b1f579c201cf9d03f5af774c4bdcb3dd4472d3de2d23c5db96ba6ab2d",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 29,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Resume InstrumentFX",
+            "context": "Resume InstrumentFX",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Checkpoint 2026-10-15. Work only in `kokizzu/instrumentfx/main`.** Read [SCOPE](SCOPE.md), [OWNERSHIP](OWNERSHIP.md), [methodology](METHODOLOGY.md), [ledger](research-state.json), the relevant comparison and its current findings. Do not write to edrums, reset history or force-push.",
+            "context": "Resume InstrumentFX",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Recovered actual state — do not follow stale cursors",
+            "context": "Recovered actual state — do not follow stale cursors",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "The repository contains **104 integrated active model records across 17 comparison pages**: the earlier 96 plus the **five Audota models in [audota.md](audota.md)** and **three Cube Baby variants in [cube-baby.md](cube-baby.md)**. These eight were already committed and integrated before this recovery; do not research or count them again.",
+            "context": "Recovered actual state — do not follow stale cursors",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "paragraph",
+            "text": "The seven existing BOSS guitar models also already have their [display/IDR review integrated](guitar-boss.md). This adds no new models. **Six original pages** remain for the corresponding migration: NUX, larger floorboards, bass, vocal, eligible GM-800 and advanced. The 96-model JSON/root indexes and older BOSS-first cursor are stale and require reconciliation, not a restart.",
+            "context": "Recovered actual state — do not follow stale cursors",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "paragraph",
+            "text": "Six excluded archival records remain outside active totals: FV01, SY-1, SY-200, AC-3, VO-1, XS-100. Ownership rows, revisions to findings and marketplace cross-references do not add technical models. Full previous records/templates/commit history remain in existing historical snapshots and Git history.",
+            "context": "Recovered actual state — do not follow stale cursors",
+            "line": 11,
+            "end_line": 11
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Latest model commits — saved, pending summary integration",
+            "context": "Latest model commits — saved, pending summary integration",
+            "line": 13,
+            "end_line": 13
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Model",
+              "Finding",
+              "Commit"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Model": "NUX TRIDENT NME-5",
+                "Finding": "[Record](findings/2026-10-15-nux-trident.md)",
+                "Commit": "`b25492b2764cb263d797fc166346e2ca2ae9216a`"
+              },
+              {
+                "Model": "Zoom G6",
+                "Finding": "[Record](findings/2026-10-15-zoom-g6.md)",
+                "Commit": "`ece2b1e97bd5b0ffe5b5fa387ac4ab83784deb80`"
+              },
+              {
+                "Model": "Hotone Ampero II Stomp MP-300",
+                "Finding": "[Record](findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md)",
+                "Commit": "`117a5aaa2e58a39fb9e2160ed68f09e9f8f617ea`"
+              },
+              {
+                "Model": "Line 6 POD Go, non-Wireless",
+                "Finding": "[Record](findings/2026-10-15-line6-pod-go.md)",
+                "Commit": "`4f82a0b2893f2ec4b9bf7a01a45da394acca1164`"
+              }
+            ],
+            "context": "Latest model commits — saved, pending summary integration",
+            "line": 15,
+            "end_line": 20
+          },
+          {
+            "kind": "paragraph",
+            "text": "Each was committed before researching the next. These four are not yet in a combined comparison/JSON inventory: **104 integrated + 4 saved new profiles = 108 distinct researched active models**, all with explicit remaining gaps. Do not call their standalone findings lost merely because an older aggregate count remains.",
+            "context": "Latest model commits — saved, pending summary integration",
+            "line": 22,
+            "end_line": 22
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Next: Zoom G11",
+            "context": "Next: Zoom G11",
+            "line": 24,
+            "end_line": 24
+          },
+          {
+            "kind": "paragraph",
+            "text": "Shopee lead: [TOKOAUDIOPRO shop253483262/item23270125641](https://shopee.co.id/Efek-Zoom-G11-Multi-effects-Processor-with-Expression-Pedal-Zoom-G-11-i.253483262.23270125641), indexed Rp11.200.000. Another Zoom-named store item4967175901 is indexed Rp10.493.685 but contains May delivery text. These are listing observations, not authenticated live stock. Start from Zoom's **official G11 page and manual**, not G6 specifications.",
+            "context": "Next: Zoom G11",
+            "line": 26,
+            "end_line": 26
+          },
+          {
+            "kind": "paragraph",
+            "text": "Further newly discovered leads, not completed records: **POD Go Wireless**, **POD Express Guitar/Bass**, **Hotone Ampero One MP-80**. Exact items:",
+            "context": "Next: Zoom G11",
+            "line": 28,
+            "end_line": 28
+          },
+          {
+            "kind": "paragraph",
+            "text": "- Wireless shop158144224/item27772459064, indexed Rp11.130.500.\n- POD Express Guitar shop16879370/item26763471564, Rp3.030.000 with service unavailable.\n- POD Express Bass shop16879370/item29813481193, Rp3.099.000 with August delivery text.\n- Ampero One shop16879370/item7452469341, Rp5.580.000 with August delivery text.",
+            "context": "Next: Zoom G11",
+            "line": 30,
+            "end_line": 33
+          },
+          {
+            "kind": "paragraph",
+            "text": "Reopen/verify exact model and offer, then use manufacturer documentation for specifications. Commit each model immediately before moving on. Integrate summary tables, reconcile every active count and advance this checkpoint; preserve unknowns instead of inventing specs or currency conversions. Discovery and first-pass research do not establish exhaustive all-Shopee coverage.",
+            "context": "Next: Zoom G11",
+            "line": 35,
+            "end_line": 35
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Ownership and deferred work",
+            "context": "Ownership and deferred work",
+            "line": 37,
+            "end_line": 37
+          },
+          {
+            "kind": "paragraph",
+            "text": "The owner overlay contains **21 identified model entries**. AME-100 now has an integrated Audota profile, so **20 entries have profiles**, while the owned2025 BlackBox revision remains unidentified. Exact Zoom vocal model/bundle and RH-4 ownership are still unresolved. Do not infer a separate AVE-100 purchase from AME-100 ownership. MG-400 rejected fake-seller order is not ownership; GP-50 remains a backup plan. Donations/former units remain included. Never publish private receipt/order/payment details.",
+            "context": "Ownership and deferred work",
+            "line": 39,
+            "end_line": 39
+          },
+          {
+            "kind": "paragraph",
+            "text": "Preserve original source conflicts and all unresolved fields in the current findings and historical ledgers. The new records specifically distinguish TRIDENT's factory/user banks, G6 nine-space DSP architecture and shared headphone output, MP-300 from incompatible regional hardware tables, and POD Go's 256 overwriteable locations and semifixed blocks.",
+            "context": "Ownership and deferred work",
+            "line": 41,
+            "end_line": 41
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Requirements",
+            "context": "Requirements",
+            "line": 43,
+            "end_line": 43
+          },
+          {
+            "kind": "paragraph",
+            "text": "For guitars only multi-effects; genuine bass/vocal units separately. Include expression, separate controls, used/new IDR, concurrent blocks/category counts, complete ports, preset splits, synth/acoustic distinctions, body dimensions/weight, power/battery/USB operation, IR/native-versus-converted NAM/proprietary captures, editor platforms and **published screen diagonal/color/touch**. Preserve looper, rhythms, scenes, routing, headphones/phantom and firmware restrictions.",
+            "context": "Requirements",
+            "line": 45,
+            "end_line": 45
+          },
+          {
+            "kind": "paragraph",
+            "text": "Specs come from official product/manual/firmware sources. Original manufacturer manuals mirrored elsewhere may supplement inaccessible official downloads after identity checks; generated FAQ is not evidence. Record unsuccessful image/PDF inspection honestly. Never estimate screen size, borrow sibling specs, or promote color/USB/capture marketing into unsupported touch/power/NAM claims.",
+            "context": "Requirements",
+            "line": 47,
+            "end_line": 47
+          },
+          {
+            "kind": "paragraph",
+            "text": "Shopee evidence must buy hardware, not presets/cases/controllers/unselected accessories. Keep stock, condition, voucher, region, bundle, date and direct-versus-indexed qualifications. A cached ask is not live checkout or a completed sale. No guessed used discount or FX rate. Continue actual research in the current session; no unattended worker or recurring automation is configured.",
+            "context": "Requirements",
+            "line": 49,
+            "end_line": 49
+          }
+        ]
+      },
+      "effects/MIGRATION.md": {
+        "source": "effects/MIGRATION.md",
+        "sha256": "de9cd87750e3cafac83039d290078044bbb8a5468158f479cf58031e1c6c1430",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 33,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Repository correction audit — 2026-10-14",
+            "context": "Repository correction audit — 2026-10-14",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Working repository: `kokizzu/instrumentfx`.** `kokizzu/edrums` was a formatting reference, not the effects-research destination.",
+            "context": "Repository correction audit — 2026-10-14",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Completed transfer",
+            "context": "Completed transfer",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "All **13 original effects files** were copied into `instrumentfx/effects/`. The **eight comparison pages containing 51 partial model records, methodology and coverage backlog** matched the source byte-for-byte at transfer. The comparison index, resume instructions and progress JSON were deliberately updated to identify instrumentfx while retaining the model inventory, pending requirements and cursor.",
+            "context": "Completed transfer",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "paragraph",
+            "text": "Each comparison category has its own transfer commit. Root README and AGENTS.md identify the correct repository and require incremental research commits/checkpoints.",
+            "context": "Completed transfer",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "paragraph",
+            "text": "Verified transfer snapshot: `c21d79d6bd5422ca511df45349ae97f5364197ea`.",
+            "context": "Completed transfer",
+            "line": 11,
+            "end_line": 11
+          },
+          {
+            "kind": "paragraph",
+            "text": "Original source snapshot: `kokizzu/edrums@bcc8d39507b445a3b708c4bb9706d1fb45db925d`.",
+            "context": "Completed transfer",
+            "line": 13,
+            "end_line": 13
+          },
+          {
+            "kind": "paragraph",
+            "text": "All 13 original files were rechecked as present in instrumentfx at `b6ca1b7696b9d1021d0080c250b4a70f8a5c14fd`, before the resumed research edits. Later legitimate research updates will change individual hashes; the table below records the **transfer baseline**, not a requirement to freeze the research files.",
+            "context": "Completed transfer",
+            "line": 15,
+            "end_line": 15
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Matching source and destination blobs at transfer",
+            "context": "Matching source and destination blobs at transfer",
+            "line": 17,
+            "end_line": 17
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "File under effects/",
+              "Matching Git blob SHA"
+            ],
+            "alignment": "|---|---|",
+            "rows": [
+              {
+                "File under effects/": "guitar-compact.md",
+                "Matching Git blob SHA": "843998022f85297d63fc4285df0d583c6c159d1d"
+              },
+              {
+                "File under effects/": "guitar-boss.md",
+                "Matching Git blob SHA": "fe18d0eb11fa64fbd3766ad60c0537925f919eea"
+              },
+              {
+                "File under effects/": "guitar-nux.md",
+                "Matching Git blob SHA": "01c12be78d929e4ced06d13bbf3a2d4fa59e7cc7"
+              },
+              {
+                "File under effects/": "guitar-floorboards.md",
+                "Matching Git blob SHA": "4394e367d3744ee519829bac4bc98cb60e40e89f"
+              },
+              {
+                "File under effects/": "bass.md",
+                "Matching Git blob SHA": "aeccc111f415aa882b97e8b5bb82099ef9f36d5d"
+              },
+              {
+                "File under effects/": "vocal.md",
+                "Matching Git blob SHA": "ed1089a3cacd5f58d609cbe8f8b3493a05581223"
+              },
+              {
+                "File under effects/": "specialist.md",
+                "Matching Git blob SHA": "836245f7e1bc66b872afb43f330b46337cdb776c"
+              },
+              {
+                "File under effects/": "advanced-modelers.md",
+                "Matching Git blob SHA": "f4ecc7b15636ab477803031d34bf280afa9b98dc"
+              },
+              {
+                "File under effects/": "METHODOLOGY.md",
+                "Matching Git blob SHA": "f8f425e4c7e133b58365a9938661d1e792392ec7"
+              },
+              {
+                "File under effects/": "COVERAGE.md",
+                "Matching Git blob SHA": "885aa55914406833245ad516fb947774a8576817"
+              }
+            ],
+            "context": "Matching source and destination blobs at transfer",
+            "line": 19,
+            "end_line": 30
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Old-repository cleanup: completed by the user and verified",
+            "context": "Old-repository cleanup: completed by the user and verified",
+            "line": 32,
+            "end_line": 32
+          },
+          {
+            "kind": "paragraph",
+            "text": "The assistant's earlier deletion attempt was blocked by tool safety checks. No cleanup commit or branch update was made by that attempt, and no alternate mechanism was used to bypass it.",
+            "context": "Old-repository cleanup: completed by the user and verified",
+            "line": 34,
+            "end_line": 34
+          },
+          {
+            "kind": "paragraph",
+            "text": "**The user subsequently removed the misplaced files.** A fresh recursive tree read of `kokizzu/edrums/main` at **`80052b611be72cb5d9259dc7456f0f8cd238355e`** showed exactly two files and no `effects/` directory:",
+            "context": "Old-repository cleanup: completed by the user and verified",
+            "line": 36,
+            "end_line": 36
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Remaining file",
+              "Unchanged blob SHA"
+            ],
+            "alignment": "|---|---|",
+            "rows": [
+              {
+                "Remaining file": "README.md",
+                "Unchanged blob SHA": "3f3c626c47db0c08a90935ffa1847139bb9e3fca"
+              },
+              {
+                "Remaining file": "gotro-projects.md",
+                "Unchanged blob SHA": "1a8158501505114aea77b5b210f820aa7099f258"
+              }
+            ],
+            "context": "Old-repository cleanup: completed by the user and verified",
+            "line": 38,
+            "end_line": 41
+          },
+          {
+            "kind": "paragraph",
+            "text": "Both match their inspected pre-cleanup versions. The old effects files are absent from the current branch tree; this does not claim that their historical commits were erased. No further cleanup is needed. All effects research writes remain restricted to **instrumentfx**.",
+            "context": "Old-repository cleanup: completed by the user and verified",
+            "line": 43,
+            "end_line": 43
+          },
+          {
+            "kind": "paragraph",
+            "text": "Verification evidence: [edrums cleanup tree](https://api.github.com/repos/kokizzu/edrums/git/trees/80052b611be72cb5d9259dc7456f0f8cd238355e?recursive=1) and [instrumentfx preserved snapshot](https://api.github.com/repos/kokizzu/instrumentfx/git/trees/b6ca1b7696b9d1021d0080c250b4a70f8a5c14fd?recursive=1).",
+            "context": "Old-repository cleanup: completed by the user and verified",
+            "line": 45,
+            "end_line": 45
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Research continuation after transfer",
+            "context": "Research continuation after transfer",
+            "line": 47,
+            "end_line": 47
+          },
+          {
+            "kind": "paragraph",
+            "text": "The first display/IDR review for the eight compact models was subsequently committed as eight separate findings, then integrated in **`c77420e66f01a1bad5d5e032d3f9e5ae70e515f5`**. Inventory remains **51 partial models**; no additional models were counted for these notes.",
+            "context": "Research continuation after transfer",
+            "line": 49,
+            "end_line": 49
+          },
+          {
+            "kind": "paragraph",
+            "text": "See [RESUME.md](RESUME.md) and [research-state.json](research-state.json) for current progress and unresolved fields. The next review starts with **BOSS GT-1000CORE**. The compact page now has IDR comparison columns and display rows, but unknown diagonals/touch specifications and incomplete local-price evidence remain; the other seven comparison pages still need that review.",
+            "context": "Research continuation after transfer",
+            "line": 51,
+            "end_line": 51
+          }
+        ]
       }
     },
     "marketplace": {
@@ -31560,6 +32817,113 @@
       "current_research_cursor": "cursor",
       "excluded_specialist_rows_stay_excluded": true
     },
+    "checkpoints": {
+      "sources": [
+        "effects/COVERAGE.md",
+        "effects/COVERAGE.history-2026-10-14.md",
+        "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+        "effects/README.md",
+        "effects/RESUME.md",
+        "effects/MIGRATION.md"
+      ],
+      "duplicate_snapshots": {
+        "effects/COVERAGE.history-2026-10-15-pre-boss.md": "effects/COVERAGE.md"
+      },
+      "table_index": [
+        {
+          "source": "effects/COVERAGE.md",
+          "block_index": 7,
+          "context": "Work queue",
+          "rows": 5,
+          "historical": true,
+          "not_current_counts_or_queue": true
+        },
+        {
+          "source": "effects/COVERAGE.history-2026-10-14.md",
+          "block_index": 4,
+          "context": "Current status — 2026-10-14",
+          "rows": 12,
+          "historical": true,
+          "not_current_counts_or_queue": true
+        },
+        {
+          "source": "effects/COVERAGE.history-2026-10-14.md",
+          "block_index": 16,
+          "context": "Brand and family research backlog",
+          "rows": 15,
+          "historical": true,
+          "not_current_counts_or_queue": true
+        },
+        {
+          "source": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+          "block_index": 7,
+          "context": "Work queue",
+          "rows": 5,
+          "historical": true,
+          "not_current_counts_or_queue": true
+        },
+        {
+          "source": "effects/README.md",
+          "block_index": 5,
+          "context": "Comparison pages",
+          "rows": 16,
+          "historical": true,
+          "not_current_counts_or_queue": true
+        },
+        {
+          "source": "effects/RESUME.md",
+          "block_index": 7,
+          "context": "Latest model commits — saved, pending summary integration",
+          "rows": 4,
+          "historical": true,
+          "not_current_counts_or_queue": true
+        },
+        {
+          "source": "effects/MIGRATION.md",
+          "block_index": 9,
+          "context": "Matching source and destination blobs at transfer",
+          "rows": 10,
+          "historical": true,
+          "not_current_counts_or_queue": true
+        },
+        {
+          "source": "effects/MIGRATION.md",
+          "block_index": 13,
+          "context": "Old-repository cleanup: completed by the user and verified",
+          "rows": 2,
+          "historical": true,
+          "not_current_counts_or_queue": true
+        }
+      ],
+      "historical_record_checklist": [
+        "Brand / exact model / hardware revision / instrument category:",
+        "Research date / firmware / current or discontinued evidence:",
+        "Built-in expression / toe switch / external expression:",
+        "Rotary controls / footswitches / buttons / other switches:",
+        "Display presence / count / diagonal / monochrome or color / touch / resolution:",
+        "Dimensions W x D x H / maximum pedal height / weight:",
+        "Used and new IDR quotes separately: seller, condition, stock, date, URL:",
+        "Shopee shop/item IDs / selected variant / voucher / bundle / price conflict:",
+        "Original foreign amount and verified dated FX source when applicable:",
+        "Simultaneous blocks / DSP limits / routing / category choices / amp/cab counts:",
+        "Factory-filled / total editable / dedicated factory and user memory:",
+        "Synth / acoustic simulator vs amp vs body IR:",
+        "Inputs / outputs / headphones / aux / loops / MIDI / USB:",
+        "Microphone / phantom voltage / harmony detection inputs:",
+        "Voltage / polarity / draw vs adapter rating / battery / USB operation:",
+        "IR slots / samples / formats; NAM native architectures vs conversion:",
+        "Proprietary captures; capture-versus-playback capabilities:",
+        "Editor OS / librarian / updater / driver / optional adapters:",
+        "USB audio / sample rates / loopback / reamp:",
+        "Looper / rhythms / scenes / bypass / trails / switching behavior:",
+        "Special pickup / cable / account / licence requirements:",
+        "Primary and price sources / exact unknowns / conflicts / next step:"
+      ],
+      "current_inventory": "inventory_by_brand",
+      "current_cursor": "cursor",
+      "scope_warning": "Historical specialist/drive/utility targets and stale counts are preserved as provenance,not active research scope",
+      "transfer_warning": "Original transfer and old-repository cleanup statements retain their dated snapshots;this consolidation does not reverify remote trees"
+    },
     "ownership": {
       "entry_count": 21,
       "root_profiles": 20,
@@ -31847,6 +33211,6 @@
       "ownership_is_not_specification_evidence": true,
       "source_dates_not_refreshed_by_consolidation": true
     },
-    "remaining_work": "Sources retained. Incoming links,coverage/remaining provenance metadata,navigation and source retirement are not completed by this semantic consolidation."
+    "remaining_work": "Sources retained. Remaining legacy JSON provenance,incoming navigation and source retirement are not completed by this semantic consolidation."
   }
 }

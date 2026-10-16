@@ -11,7 +11,7 @@ import research_tools
 
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-metadata-plan.json')
-SOURCES = ('effects/OWNERSHIP.md','effects/OWNERSHIP.history-2026-10-14.md','effects/SCOPE.md','effects/METHODOLOGY.md','effects/shopee-indonesia.md','effects/shopee-indonesia.history-2026-10-14.md','effects/shopee-indonesia.history-2026-10-15-pre-boss.md')
+SOURCES = ('effects/OWNERSHIP.md','effects/OWNERSHIP.history-2026-10-14.md','effects/SCOPE.md','effects/METHODOLOGY.md','effects/shopee-indonesia.md','effects/shopee-indonesia.history-2026-10-14.md','effects/shopee-indonesia.history-2026-10-15-pre-boss.md',"effects/COVERAGE.md","effects/COVERAGE.history-2026-10-14.md","effects/COVERAGE.history-2026-10-15-pre-boss.md","effects/README.md","effects/RESUME.md","effects/MIGRATION.md")
 OWNED = ('Boin Audio::BG300','Sonicake::Matribox QME-50','BOSS::GM-800','Roland::GR-55','Line 6::HX Effects','M-VAVE::MK-300','JOYO::GEM BOX III','NUX::MG-101','M-VAVE::MK-20','Scorpion::KMF-10','JOYO::GEM BOX II','JOYO::GEM BOX original',None,'M-VAVE::MINI-X','M-VAVE::Pocket Amp','CUVAVE::H8','Zoom::B1Xon','MOOER::GE100 original','VING::Flybro FB-100','Sonicake::Pocket Master QME-10','Audota::AME-100')
 PATHS = ('scripts/metadata_consolidation.py','Makefile','README.md','research-state.json')
 
@@ -75,7 +75,7 @@ def build_metadata(state):
     assert len(history['rows']) == 20
     exclusion = next(b for b in sources['effects/SCOPE.md']['blocks'] if b['kind']=='table')
     assert len(exclusion['rows']) == 6
-    discovery_paths = SOURCES[4:]
+    discovery_paths = SOURCES[4:7]
     discovery_rows = []
     duplicates, seen = {}, {}
     for path in discovery_paths:
@@ -100,7 +100,23 @@ def build_metadata(state):
                 urls = sorted(set(re.findall(r'https?://[^\s)]+',' '.join(row.values()))))
                 discovery_rows.append(dict(source=path,block_index=block_index,row_index=row_index,context=context,classification=kind,external_urls=urls,historical=True,live_stock_verified=False))
     marketplace = dict(sources=list(discovery_paths),duplicate_snapshots=duplicates,indexed_rows=discovery_rows,row_count=len(discovery_rows),new_active_models=0,scope='Dated discovery/offer/summary evidence;full row cells in sources blocks,not current offers or an active queue',current_research_cursor='cursor',excluded_specialist_rows_stay_excluded=True)
-    return dict(schema_version=1,checked_date='2026-10-17',sources=sources,marketplace=marketplace,ownership=dict(entry_count=21,root_profiles=20,additional_active_models=0,entries=entries,former_and_donated_included=True,unresolved=['Owned2025 BlackBox revision','Exact Zoom vocal model and V6/V6-SP bundle','Separate AVE-100 ownership not established','RH-4 ownership candidate only'],not_confirmed_owned={'NUX MG-400':'Owner rejected earlier fake-seller purchase evidence','Valeton GP-50':'Backup plan,not verified purchase'},audota_correction='AME-100 ownership established;does not establish AVE-100 ownership'),current_policy=dict(active_scope='Guitar multi-effects,documented bass-capable and genuine vocal paths;dedicated effects separate',excluded_models=state['excluded_models'],unknown_is_not_no=True,source_priority='Manufacturer model-specific product/manual/firmware evidence;offers establish prices,not technical specifications',price_currency='IDR;separate condition/date/stock/bundle/voucher contexts;no invented exchange rates',ownership_is_not_specification_evidence=True,source_dates_not_refreshed_by_consolidation=True),remaining_work='Sources retained. Incoming links,coverage/remaining provenance metadata,navigation and source retirement are not completed by this semantic consolidation.')
+    checkpoint_paths = SOURCES[7:]
+    checkpoint_duplicates, checkpoint_seen, checkpoint_tables = {}, {}, []
+    template_fields = []
+    for path in checkpoint_paths:
+        parsed = sources[path]
+        if parsed['sha256'] in checkpoint_seen:
+            checkpoint_duplicates[path] = checkpoint_seen[parsed['sha256']]
+        else:
+            checkpoint_seen[parsed['sha256']] = path
+        for block_index,block in enumerate(parsed['blocks']):
+            if block['kind'] == 'table':
+                checkpoint_tables.append(dict(source=path,block_index=block_index,context=block['context'],rows=len(block['rows']),historical=True,not_current_counts_or_queue=True))
+            if path == 'effects/COVERAGE.history-2026-10-14.md' and block['kind']=='paragraph' and block['text'].startswith(chr(96)*3+'text'):
+                template_fields = [line for line in block['text'].splitlines()[1:-1] if line.strip()]
+    assert len(template_fields) >= 20, 'Historical field checklist missing'
+    checkpoints = dict(sources=list(checkpoint_paths),duplicate_snapshots=checkpoint_duplicates,table_index=checkpoint_tables,historical_record_checklist=template_fields,current_inventory='inventory_by_brand',current_cursor='cursor',scope_warning='Historical specialist/drive/utility targets and stale counts are preserved as provenance,not active research scope',transfer_warning='Original transfer and old-repository cleanup statements retain their dated snapshots;this consolidation does not reverify remote trees')
+    return dict(schema_version=1,checked_date='2026-10-17',sources=sources,marketplace=marketplace,checkpoints=checkpoints,ownership=dict(entry_count=21,root_profiles=20,additional_active_models=0,entries=entries,former_and_donated_included=True,unresolved=['Owned2025 BlackBox revision','Exact Zoom vocal model and V6/V6-SP bundle','Separate AVE-100 ownership not established','RH-4 ownership candidate only'],not_confirmed_owned={'NUX MG-400':'Owner rejected earlier fake-seller purchase evidence','Valeton GP-50':'Backup plan,not verified purchase'},audota_correction='AME-100 ownership established;does not establish AVE-100 ownership'),current_policy=dict(active_scope='Guitar multi-effects,documented bass-capable and genuine vocal paths;dedicated effects separate',excluded_models=state['excluded_models'],unknown_is_not_no=True,source_priority='Manufacturer model-specific product/manual/firmware evidence;offers establish prices,not technical specifications',price_currency='IDR;separate condition/date/stock/bundle/voucher contexts;no invented exchange rates',ownership_is_not_specification_evidence=True,source_dates_not_refreshed_by_consolidation=True),remaining_work='Sources retained. Remaining legacy JSON provenance,incoming navigation and source retirement are not completed by this semantic consolidation.')
 
 def plan():
     research_tools.identity()
@@ -109,9 +125,9 @@ def plan():
     metadata = build_metadata(state)
     state['public_metadata'] = metadata
     state['migration']['public_metadata_consolidation'] = dict(date='2026-10-17',sources={p:metadata['sources'][p]['sha256'] for p in SOURCES},destination='research-state.json#public_metadata',ownership_entries=21,root_profile_links=20,source_retired=False,verification='Structured tables,headings and complete paragraph groups;every nonblank source line accounted for;current overlay resolves existing root models without adding records')
-    state['cursor'] = dict(model='Public ownership and policy metadata',task='Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Discovery index/history now preserved with rejected-price hits and duplicate snapshots identified. Next read coverage/README/RESUME/MIGRATION and remaining JSON provenance,then map incoming navigation before source retirement. Technical gaps and fresh discovery remain.',next_models=[],after_queue='No private receipts/mail/order/payment contents included;historical source cursors are not active instructions.')
+    state['cursor'] = dict(model='Public ownership and policy metadata',task='Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Discovery index/history now preserved with rejected-price hits and duplicate snapshots identified. Coverage,README,RESUME and MIGRATION semantics now preserved with duplicate checkpoints and original transfer evidence. Next preserve remaining legacy JSON provenance,then map incoming navigation before source retirement. Technical gaps and fresh discovery remain.',next_models=[],after_queue='No private receipts/mail/order/payment contents included;historical source cursors are not active instructions.')
     readme = (ROOT/'README.md').read_text()
-    note = '\nThe root [research ledger](research-state.json) also contains the structured ownership overlay,dated policy/history and marketplace discovery evidence under public_metadata:21 identified entries,20 root-profile links,explicit identity corrections,rejected-price hits and superseded queues. Historical states and duplicate snapshots do not add catalogue models or establish live stock.\n'
+    note = '\nThe root [research ledger](research-state.json) also contains the structured ownership overlay,dated policy/history,marketplace discovery and coverage/checkpoint evidence under public_metadata:21 identified entries,20 root-profile links,explicit identity corrections,rejected-price hits and superseded queues. Historical states and duplicate snapshots do not add catalogue models or establish live stock.\n'
     readme = re.sub(r'\nThe root \[research ledger\]\(research-state.json\) also contains[^\n]+\n', '\n', readme)
     anchor = '\n## Evidence and resuming\n'
     assert anchor in readme
@@ -152,7 +168,7 @@ def commit():
     assert changed <= set(PATHS), changed-set(PATHS)
     research_tools.git('add','--',*PATHS)
     print(research_tools.git('diff','--cached','--stat'))
-    print(research_tools.git('commit','-m','docs: preserve complete marketplace discovery history and rejected price evidence'))
+    print(research_tools.git('commit','-m','docs: preserve coverage checkpoints and repository transfer provenance'))
 
 if __name__ == '__main__':
     {'plan':plan,'apply':apply,'verify':verify,'commit':commit}[sys.argv[1]]()
