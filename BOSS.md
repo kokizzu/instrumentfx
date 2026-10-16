@@ -1593,3 +1593,34 @@ Remaining:full manual category reconciliation,user preset initialization,display
 [ME80-AUX]: https://support.roland.com/hc/en-us/articles/24300263324955-ME-80-Does-the-audio-signal-input-to-the-AUX-IN-jack-output-through-the-USB
 [ME80-LOOP]: https://support.roland.com/hc/en-us/articles/4404885594779-ME-80-Can-I-save-to-the-unit-the-phrase-I-created-with-Phrase-Loop
 [ME80-PL]: https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-80_PL.pdf
+
+## ME-70
+
+Guitar multi-effects,distinct from ME-80/ME-90. Checked2026-10-17;partial. Discontinued per manufacturer;not proof of absent seller stock. Bass suitability unclassified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / controls | Built-in expression with ON/OFF toe switch;4 main footswitches. Rotary andseparate button counts unverified;external expression support unverified. OptionalFS-5U/FS-6 switches are listed separately. | [ME70-M][ME70-M] [ME70-P][ME70-P] |
+| Display | Two-digit seven-segment LED;diagonal,color/touch unpublished here. | [ME70-P][ME70-P] |
+| Dimensions / weight / size | 384W×229D×74H mm,maxheight100mm;3.5kg including batteries;large. | [ME70-P][ME70-P] |
+| Processing / category choices | COMP/FX8;OD/DS10;MOD10;DELAY10 selector positions includingPhraseLoop;PREAMP6amp types plusEQ andOFF;REVERB2;NS. These choice counts are not a simultaneous-block ceiling,which remains unverified. | [ME70-P][ME70-P] |
+| Memory | 36user+36preset=72;factory-filled user subset unverified. | [ME70-P][ME70-P] |
+| Synth / acoustic | Factory Bank9/2 described as synth-like viaSlowGear;this does not establish a dedicated synth engine. Dedicated acoustic simulation unverified. | [ME70-P][ME70-P] |
+| I/O | Complete port inventory remains unverified in this pass;do not borrow ME-80 USB orsocket layout. ExternalFS options alone do not establish externalEXP. | Unresolved |
+| Power / battery / USB | DC9V,sixR6/LR6AA oroptionalPSA adapter;130mA draw;approx12h alkaline/3.5h carbon,conditions vary. Polarity andUSB operation unverified. | [ME70-P][ME70-P] |
+| IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietary capture import not established. | Unresolved |
+| Editor / drivers | Desktop/mobile patch editor,driver andupdater capabilities unverified;no ME-80 ToneStudio inheritance. | Unresolved |
+| Looper / drums / scenes / routing | DELAY-section PhraseLoop38s;detailed loop persistence,undo,stereo,drums,scenes androuting remain unverified. | [ME70-P][ME70-P] |
+| Expression destinations / conflict | Feature text names six:Wah,Voice,+1Octave,-1Octave,ModRate,DelayLevel. Specification list omitsDelayLevel andnames five. Preserve discrepancy;not evidence of a hardware revision. | [ME70-P][ME70-P] |
+
+### ME-70 — separate IDR asking-price evidence
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no condition-verified used IDR offer established. | — |
+| Condition unverified / BANKO MUSIC STORE,Kab.Bandung | Rp3,000,000 cached hardware ask,checked2026-10-17;index about4months old withrelative tomorrow-delivery text. Direct open cache miss. Stock,variant,bundle/adapter,warrantyregion,shipping,tax,voucher anddeliveredtotal unknown. Late-delivery Rp10,000 compensation is not product discount. Not verifiednewcondition,live stock orcompleted sale;store identity unverified. | [1452686572 /40801526404](https://shopee.co.id/Multi-FX-Gitar-BOSS-ME-70-i.1452686572.40801526404) |
+
+Remaining:fullcontrols/ports/manualprocessing,externalEXP,powerpolarity/USB,screen details,initializeduser memories,imports,software,acousticsim andlooper/live limits;qualifiedused/newoffers. Official Copyright2008 ME-70 owner manual is indexed,but direct browseropen exceededfilelimit;no file saved. No sibling specifications substituted.
+
+[ME70-P]: https://www.boss.info/us/products/me-70/
+[ME70-M]: https://static.roland.com/assets/media/pdf/ME-70_OM.pdf
