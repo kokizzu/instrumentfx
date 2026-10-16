@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-VE primary follow-up",
-    "task": "Initial vocalonly profile saved fromofficialindexedmanual/QSG. Next obtainreadablemanufacturer-authoredmanual withidentity/revisioncheck;verifyports,controls,memory,USB andlooplimits. Commitbeforeanothermodel.",
+    "task": "Continue PERFORM-VE Rev1.2 physical connector/control inventory, power and display; resolve MIDIclock contradiction if newer primary documentation exists. USB5in6out and3presets saved. No model fullyverified.",
     "next_models": [],
     "after_queue": "FreshShopeediscovery remainsnecessary."
   },
@@ -3172,7 +3172,8 @@
       "status": "partial",
       "sources": [
         "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/M_TH_0726-AAR_PERFORM-VE.pdf",
-        "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/QSG_TH_0726-AAR_PERFORM-VE_WW.pdf"
+        "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/QSG_TH_0726-AAR_PERFORM-VE_WW.pdf",
+        "https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf"
       ],
       "access": "Officialindexedp4andQSG10–11;direct502;exactrevisionunverified",
       "offer": {
@@ -3197,7 +3198,12 @@
         "USBdriverplatformscope/currentOSeditor",
         "IRNAMcapture",
         "QualifiedusednewIDR"
-      ]
+      ],
+      "followup": {
+        "revision": "Manufacturer-authored Rev1.2 ©2017;title/p4 match officialindex",
+        "verified": "Three saved presets;5in6out USB routing;app sample restriction;looper quantize/tempo and MIDIclock conflict",
+        "remaining": "Duration,physicalinventory,power,categorycount andliveprices remainpartial"
+      }
     }
   ],
   "consolidation_and_price_findings": [

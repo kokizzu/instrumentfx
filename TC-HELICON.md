@@ -511,13 +511,13 @@ Mic-stand vocal multi-effects,distinct fromV/VK/VG. Checked2026-10-17;initial pa
 | Display | Diagonal,color,touch andtechnology unverified. | Unresolved |
 | Dimensions / mass | Unverified. | Unresolved |
 | Processing / category choices | Adaptive Tone EQ/de-essing/gate/compression;HardTune,Double,Shift/Gender Morph;MIDI harmonies/vocoder/VS samples,up to8 MIDI voices alongside lead. XFX stutter/rhythm/ring-mod/flange,Echo reverb/delay,Filter transducer/sweep effects. Voices are not processing-block counts;full simultaneous/category accounting pending. | [Official manual p4][PVE-M] |
-| Factory / user memory | Preset/user/factory totals andinitial fill unverified;do not transferV/VK three-preset assumptions. | Unresolved |
+| Factory / user memory | **Three onboard presets**, saved by holding a number button for1s;persist after power-off. Initial factory fill unverified. | [Manual p23][PVE-R] |
 | Synth / acoustic | **Vocal virtual-analog vocoder andVS Synthesis sampled voices** documented;not evidence of instrument synth/acoustic simulation. | [Official manual p4][PVE-M] |
 | I/O | MIDI keyboard andUSB computer connections documented;complete physical connector inventory pending. | [Official manual p4][PVE-M] |
 | Power / battery / USB | QSG specifies **12V / >1A supply**. Polarity,DC designation,measured draw,battery andUSB power unverified. Supply requirement is not measured consumption. | [Official QSG pp10–11][PVE-Q] |
 | IR / NAM / capture | UserIR,native/converted NAM andamp capture imports unverified. Vocal sample recording is a separate function. | Unresolved |
-| Editor / software | VoiceSupport2 firmware utility. Windows update instructions requireUSB driver;Mac says driver unnecessary for update. QSG separately requiresdriver for computer audio/MIDI;platform/revision scope unresolved. Full editor/currentOS support pending. | [Manual p4][PVE-M];[QSG pp10–11][PVE-Q] |
-| Looper / drums / live | **Two looper tracks:drum pattern+audio**,audio length can multiply drum pattern. Kick/snare/hi-hat build beats;audio overdub supported. Duration,storage/routing limits andscenes/trails pending. | [Official QSG pp10–11][PVE-Q] |
+| Editor / software | VoiceSupport2 firmware utility. Windows update instructions requireUSB driver;Mac says driver unnecessary for update. QSG separately requiresdriver for computer audio/MIDI;platform/revision scope unresolved. **USB audio:5 host-to-unit/6 unit-to-host channels**. Input1/2 backing,3dryvoice,4sample,5silent NaturalPlay guide;output1/2processed stereo,3dryvoice,4sample,5/6AUX. USB backing reaches analog outputs but not USB capture. WhenUSB3 stops,SET restores mic. iOS/Android app backs up/restores presets;onlyiOS handles samples. Current availability/full editor unverified. | [Manual p4][PVE-M];[QSG pp10–11][PVE-Q];[Manual pp22–24][PVE-R] |
+| Looper / drums / live | **Two looper tracks:drum pattern+audio**,audio length can multiply drum pattern. Kick/snare/hi-hat build beats;audio overdub supported. Drum quantize uses16th notes;fourkick/foursnare choices,linkedhi-hat. Derivedtempo80–160BPM;newtaptempo requireserasure. SET+component erases thatpart. p20 describes externalMIDIclock;appendixp27 saysMIDI Tempo,notMIDIClock:unresolved conflict. Duration/storage/scenes pending. Vocal sample islost atpoweroff. | [QSG][PVE-Q];[Manual pp19–24,27][PVE-R] |
 
 ### Separate IDR hardware offers
 
@@ -532,7 +532,9 @@ Mic-stand vocal multi-effects,distinct fromV/VK/VG. Checked2026-10-17;initial pa
 
 [limitless__store item](https://shopee.co.id/TC-Helicon-Perform-VE-Garansi-Resmi-Original-i.95687096.3406909366),shop95687096/item3406909366,Kota Jakarta Pusat:Rp3,900,000,Habis. Checked2026-10-17,two-month index;direct cache miss. Relative Besok delivery andseller activity do not establish currentstock. Condition,variant,bundle/adapter,warranty terms andworking state unknown;Garansi Resmi Original title does not prove newcondition. Rp20,000late-arrival compensation notdiscount;shipping/tax/checkout unknown. Notqualified used/new price.
 
-Official indexed manual p4 andQSG pp10–11 used;both directPDFs502. Exact revision unverified;no sibling technical claims ormanufacturer mirrorFAQ used. No software,dependencies orfiles downloaded.
+Official indexed manual p4 andQSG pp10–11 used;both directPDFs502. Full Compass manufacturer-authored copy identifies PERFORM-VE,Rev.1.2,©2017;title andp4 introduction match officialindexedmanual. OfficialPDF revision remainsunverified. USBoutput wording mentions Keyboard despite no establishedkeyboard-audio input;retain thissource limitation. No sibling technical claims ormanufacturer mirrorFAQ used. No software,dependencies orfiles downloaded.
 
 [PVE-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/M_TH_0726-AAR_PERFORM-VE.pdf
 [PVE-Q]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/QSG_TH_0726-AAR_PERFORM-VE_WW.pdf
+
+[PVE-R]: https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf
