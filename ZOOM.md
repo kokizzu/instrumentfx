@@ -1599,18 +1599,18 @@ Guitar multi-effects, distinct from original505 and505IICG. Checked2026-10-17;pa
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | No built-in pedal/toe in complete named controls; CONTROL IN accepts FP01/FP02 expression or FS01 footswitch. | [Manual pp6–7,18][Z505-M] |
+| Expression | No built-in pedal/toe in complete named controls; CONTROL IN accepts FP01/FP02 expression or FS01 footswitch. Connect before powering on. FS01 advances banks in Play mode; expression works in Edit mode too. With no pedal-marked parameter selected, it controls volume. | [Manual pp6–7,18,21][Z505-M] |
 | K/F/B | **1 rotary /2 footswitches /3 buttons**, text-derived: PLAY/EDIT selector; two patch switches; +,−,STORE. Visual corroboration pending. | [Manual pp6–7][Z505-M] |
 | Display | **Two-digit seven-segment LED**. Published diagonal andtouch unverified;no color-LCD inference. | [Manual p31][Z505-M] |
 | Dimensions / mass | **145 D ×125 W ×40 H mm;280 g without batteries**. | [Manual p31][Z505-M] |
-| Processing / category choices | **33 total;up to9 simultaneous effects**, including ZNR andamp simulator. Specification separately says max7 simultaneous modules,with parenthesis5modules+1block;retain its exact counting distinction. Named chain:COMP,DIST,EQ,ZNR,AMP SIM,MOD,DLY/REV. One type per module;category subtotals pending. | [Manual pp3–4,31][Z505-M] |
-| Factory / user memory | **36 rewritable patches;6banks×6**. Not36 factory plus36 user. Initial factory fill andoverwrite details pending. | [Manual pp3–4,31][Z505-M] |
-| Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
+| Processing / category choices | **33 total;up to9 simultaneous effects**, including ZNR andamp simulator. Specification separately says max7 simultaneous modules,with parenthesis5modules+1block;retain its exact counting distinction. Named chain:COMP,DIST,EQ,ZNR,AMP SIM,MOD,DLY/REV. COMP and MOD can select combined two-effect types, explaining part of the nine-effect count; do not treat all choices as independently assignable slots. Seven serially linked modules are explicit on p20. Category subtotals pending. | [Manual pp3–4,14–15,19,31][Z505-M] |
+| Factory / user memory | **36 rewritable patches;6banks×6**. Not36 factory plus36 user. **All36 are factory-preprogrammed and overwritable**. STORE twice commits edits/copies and replaces destination; changing patches without saving loses edits. Individual factory recall or all-initialize restores factory sounds; all-initialize erases user changes. | [Manual pp3–4,31][Z505-M] |
+| Synth / acoustic | **ACOUSTIC** in DIST explicitly converts electric-guitar timbre toward acoustic. Dedicated synth architecture unverified. | [Manual p23][Z505-M] |
 | I/O | Mono¼-inch guitar input470kΩ;stereo¼-inch output shared with headphones;CONTROL IN andDC9V. NoUSB,MIDI,AUX orloop in complete named panel inventory. | [Manual pp6–7,31][Z505-M] |
 | Power / battery / USB | Optional AD-0006 **9VDC centre-negative,300mA supply**;not measured draw. FourAA:approximately28h alkaline/8h manganese. Cannot recharge batteries. Input-cable insertion powers battery operation. NoUSB connector;USB bus operation unverified. | [Manual pp2–7,31][Z505-M] |
 | IR / NAM / capture | Factory amp simulation does not establish userIR,native/converted NAM orcapture import;unverified. | Unresolved |
 | Editor / software | Editor/platform support unverified. NoUSB in panel inventory. | Unresolved |
-| Looper / drums / live | Autochromatic tuner. Delay/echo **10–370ms**;stereo output supports ping-pong behavior. Looper,drums,scenes andtrails unverified. | [Manual pp3,30][Z505-M] |
+| Looper / drums / live | Autochromatic tuner,435–445Hz calibration reset to440Hz on power-up. Both switches briefly bypass;hold1s mutes;unavailable in Edit mode. Preselect keeps sound unchanged until both switches confirm;power-cycle restores direct selection. Master volume0–50 resets40 at power-up. Delay/echo **10–370ms**;stereo output supports ping-pong behavior. Looper,drums,scenes andtrails unverified. | [Manual pp8–11,16–17,30][Z505-M] |
 
 ### Separate IDR hardware offers
 

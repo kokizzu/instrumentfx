@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 505II manual follow-up",
-    "task": "Initial exact model and sold-out offer saved. Read remaining original manual for category inventory, storage and external-control restrictions;keep9effects/7module wording distinct.",
+    "model": "Zoom 505II category inventory",
+    "task": "Storage/external control/acoustic/live limits saved;next reconcile original manual category choices and combined-type counting without treating parameter variations as new algorithms.",
     "next_models": [],
-    "after_queue": "Fresh exact Shopee discovery continues; mixed Korg/Zoom variants found but not assigned prices."
+    "after_queue": "Continue exact Shopee discovery and partial manufacturer fields."
   },
   "new_findings": [
     {
@@ -4199,6 +4199,14 @@
         "Display details",
         "Current condition-qualified offers"
       ]
+    },
+    {
+      "model": "Zoom 505II",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://zoomcorp.com/media/documents/E_505II.pdf",
+      "finding": "Original manual resolves factory-filled36 writable slots, explicit save/overwrite and restore behavior; external pedal connection timing/bank control and volume fallback; combined COMP/MOD effect types, seven serial modules, electric-to-acoustic simulation, tuner/preselect/master reset behavior. Corrected initial one-type-only shorthand to preserve combined-effect exceptions.",
+      "remaining": "Complete category subtotal reconciliation, further effect/routing limits, editor/import proof,current/diagonal/touch and current qualified offers."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40167,7 +40175,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 505II manual follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 505II category inventory."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
