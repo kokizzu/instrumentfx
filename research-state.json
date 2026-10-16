@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Compact shared-source union audit and fresh discovery",
-    "task": "All eight compact model-row subsets checked (23 fields/five rows each); Pocket Master exact context/source key retained. Next verify union of shared prose, URLs/reference definitions and incoming links, including unregistered finding bodies. Then resume fresh Shopee discovery by brand/series; complete required technical gaps. No source deletion based solely on row coverage.",
+    "model": "Sonicake Smart Box complete original-body audit",
+    "task": "Directory-wide scan exposed four active findings omitted from registered manifests; Matribox full original now preserved. Next read complete Smart Box finding/root and preserve/hash-check all original facts and URLs; then Pocket Master and electric CUBE BABY individually. Compact prose union has nine nonidentical paragraphs despite all URLs present; full shared/incoming-link audits, fresh Shopee discovery and technical gaps remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10251,6 +10251,25 @@
       "link_normalizations": {},
       "retained_comparison_facts": [],
       "scope": "Whole original preserved including IR bank distinctions and manual rendering limits. Split synth/import fields; exact official USB volume, IR conversion, loop impedances and MIDI adapter details qualified without channel/power inference."
+    },
+    {
+      "models": [
+        "Sonicake Matribox QME-50"
+      ],
+      "model_name": "Matribox QME-50",
+      "destination": "SONICAKE.md#matribox-qme-50",
+      "source": "effects/findings/2026-10-14-sonicake-matribox.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "SONICAKE-MATRIBOX",
+      "source_sha256": "c91556f14b5eb8b3d0768c1d4626ee7853aee5dc0930208c8b4acd3a5a6ec117",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../guitar-compact.md)": "(effects/guitar-compact.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Complete previously unregistered original retained with regional offer, source links and all qualification prose; earlier registered-pair count was not whole-directory certification."
     }
   ],
   "discovery_leads": [
@@ -10822,10 +10841,10 @@
       "current_check": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-findings",
-        "registered_pairs": 77,
-        "covered": 77,
+        "registered_pairs": 78,
+        "covered": 78,
         "missing": [],
-        "scope": "Registered finding/model pairs only; not shared-source or incoming-link certification"
+        "scope": "Registered finding/model pairs only; actual-directory audit found three more active findings pending registration/preservation and a separately verified excluded archive."
       }
     },
     "legacy_source_inventory": {
@@ -14286,7 +14305,27 @@
       "remaining_models": [],
       "source_retired": false,
       "complete": false,
-      "remaining_work": "Eight model-row subsets checked; file-wide prose, all reference definitions, date context and incoming links still need union audit. No legacy retirement authorized."
+      "remaining_work": "Eight model-row subsets checked; file-wide prose, all reference definitions, date context and incoming links still need union audit. No legacy retirement authorized.",
+      "union_scan": {
+        "date": "2026-10-17",
+        "exact_prose_paragraphs": 18,
+        "exact_paragraphs_present": 9,
+        "external_URL_omissions": [],
+        "limitation": "Nine paragraphs not byte-identical in VALETON/SONICAKE union; semantic equivalents may exist. Generic definitions, navigation and source-list grouping need review before retirement. No source retired."
+      }
+    },
+    "unregistered_finding_audit": {
+      "date": "2026-10-17",
+      "scope": "All 82 actual finding Markdown paths checked against source manifests; absence does not prove lost facts.",
+      "repaired": [
+        "effects/findings/2026-10-14-sonicake-matribox.md"
+      ],
+      "pending_active": [
+        "effects/findings/2026-10-14-sonicake-smart-box.md",
+        "effects/findings/2026-10-14-sonicake-pocket-master.md",
+        "effects/findings/2026-10-15-mvave-cube-baby.md"
+      ],
+      "separate_specialist_check": "effects/findings/2026-10-14-flamma-fv01.md is preserved and verified against historical original by research_tools.verify; remains excluded."
     }
   },
   "deferred_work": {
@@ -15421,7 +15460,9 @@
       "source_files": [
         "SONICAKE.md"
       ],
-      "finding_files": []
+      "finding_files": [
+        "effects/findings/2026-10-14-sonicake-matribox.md"
+      ]
     },
     "Sonicake::Smart Box QME-20": {
       "link": "SONICAKE.md#smart-box-qme-20",
