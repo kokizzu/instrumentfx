@@ -290,7 +290,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-gt10':
-            message = 'research(boss): qualify GT-10 firmware fixes and Windows software restrictions'
+            message = 'research(boss): resolve GT-10 loop storage and USB driver mode limits'
         if mode == 'commit-me20b':
             message = 'research(boss): qualify ME-20B delay tuner and exact marketplace link'
         if mode == 'commit-me50':

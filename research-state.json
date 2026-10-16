@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-10 primary follow-up",
-    "task": "GT-10 firmware1.02 bug fixes and Windows librarian/driver distinctions saved. Next seek accessible manufacturer-authored manual or official Q&A for full control counts, library and USB/phrase-loop limits; original manual exceeds tool size limit. Commit before another model; then fresh Shopee discovery.",
+    "task": "GT-10 USB modes, loop timing/storage and explicit Windows11 driver exclusion saved. Next resolve full panel counts, effect library/synth/acoustic and remaining routing/power/import gaps from primary sources; then fresh Shopee discovery. Do not repeat blocked full-PDF downloads; use indexed official passages or verified manufacturer-authored copies. Commit before another model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2178,6 +2178,22 @@
         ],
         "access": "HTML only; no software or firmware downloaded or run",
         "remaining": "Full editor identity, current OS compatibility and detailed USB/loop architecture remain unverified"
+      },
+      "usb_loop_followup": {
+        "checked_date": "2026-10-17",
+        "sources": [
+          "https://support.roland.com/hc/ja/articles/4404885543707",
+          "https://support.roland.com/hc/en-us/articles/115003126763-GT-10-Windows-10-Driver-Installation-and-Troubleshooting-Instructions",
+          "https://static.roland.com/assets/media/pdf/GT-10_OM.pdf"
+        ],
+        "access": "Official support HTML opened; original manual targeted index pp60,91,93 only; full PDF still too large. No downloads/installations.",
+        "resolved": [
+          "38s mono/19s stereo; recorded performances cannot be saved",
+          "Windows11 driver explicitly unsupported; USB-B and Advanced mode restart",
+          "Standard mode no USB MIDI; Direct Monitor resets On",
+          "CTL loop control preserving BANK changes; mute/clear behavior"
+        ],
+        "conflict": "Finnish40s remains visible beside Q&A/manual/workshop38s"
       }
     }
   ],
