@@ -1291,3 +1291,7 @@ research-commit-hd500:
 .PHONY: research-commit-dapper-bass
 research-commit-dapper-bass:
 	python3 scripts/research_tools.py commit-dapper-bass
+
+.PHONY: research-commit-dapper-bass-mini
+research-commit-dapper-bass-mini:
+	python3 scripts/research_tools.py commit-dapper-bass-mini

@@ -753,3 +753,39 @@ Manufacturer-authoredtwo-pageOwner’sManual mirroredatManualMachine/ManualsLib 
 
 [DB-MM]: https://manualmachine.com/valeton/dapperbass/2574560-user-manual/
 [DB-ML]: https://www.manualslib.com/manual/1403706/Valeton-Dapper-Bass.html?page=2
+
+## Dapper Bass Mini MES-2
+
+Distinctcompactbassmulti-effects;notfull-sizeVES-2. Checked2026-10-17;partial. Officialmanualmetadata identifiesMES-2,V01_231219.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/external/toe support unverified. | Unresolved |
+| K/F/B | **10 rotary controls** text-derived:Comp/Boost2,BassAmp5,Chorus2,Phones1. Footswitch/button totals pendingpanelinspection. | [Manualpp1–2][DBM-M] |
+| Display | Tuneruses7bicolor noteLEDs (blue natural/green sharp),3pitchLEDs. Screen diagonal/touch unverified;LEDs arenotproofthatnoscreenexists. | [Manualp2][DBM-M] |
+| Dimensions / mass | Manual **197D×65W×42H mm,446g**;officialshop sameaxesbut**440g**. Product197W×65D×42H,440g. Conflictsretained. Compactstrip. | [Manual][DBM-M];[Shop][DBM-S];[Product][DBM-P] |
+| Processing / category choices | **BoostComp,BassAmp,Chorus** separatefunctions establishmulti-effects eligibility,plustuner. Boostupto12dB;BassAmpvolume/gain/3bandEQ;Chorusdepth/rate. Exactsimultaneouscount pendingvisualpathverification. | [Manualpp1–2][DBM-M] |
+| Factory / user memory | Factory/user/totalstorage unverified. | Unresolved |
+| Synth / acoustic | Dedicatedsynth/acousticalgorithms unverified;donotborrowVES2octave/filter. | Unresolved |
+| I/O | Officialshop:¼-inchTSinput1MΩ,¼-inchTSoutput100Ω,XLRout100Ω,⅛-inchTRSAUX10kΩ,⅛-inchTRSphones. MainproductmislabelsAUXasXLR100Ω andbalancedoutas440g;notacceptedassocketfacts. Fulladditionalportabsence unverified. | [Shop][DBM-S];[Product][DBM-P] |
+| Power / battery / USB | **9VDCcentre-negative**. Consumptionconflict:**manual120mA/shop100mA/product1500mA**. **Cannotusephantompower;manufacturer saysdisablephantomwhenconnectingXLR**. Battery/USB unverified. Productincludesadapter;actualsellerbundleunknown. | [Manualp2][DBM-M];[Shop][DBM-S];[Product][DBM-P] |
+| IR / NAM / capture | IR,native/convertedNAM,capture unverified. | Unresolved |
+| Editor / software | Platforms/editor unverified. | Unresolved |
+| Looper / drums / live | HoldChorusformutedtuner. Phonesknobaffectsonlyheadphones. Looper/drums/scenes/trails unverified. | [Manualpp1–2][DBM-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;noqualifiedusedoffer. | — |
+| New | Unknown;conditionandliveavailabilityunconfirmed. | — |
+
+### Qualified seller observations
+
+SalomoMusik JakartaUtara,shop1776275/item25592617190:Rp1,879,000,Habis,month-oldsearchcache,WithVoucher10%thresholdRp10RB;cap/eligibilityunknown. Gearvolution Makassar,shop63444658/item48058492824:Rp1,880,000,2monthsearchcache;directitemunreadable. Neitherprovesnew/usedcondition,livecheckoutstock,bundle/adapter,regionalwarranty orvoucherfinalprice. ExactURLsandqualificationsinledger.
+
+No softwareorfirmwaredownloaded. Manualreadaswebtext;controlcountnotvisuallyverified. Current/productandmanualconflictsremainunresolved.
+
+[DBM-M]: https://zh.valeton.net/download/138/dapper/16736/dapper-bass-mini_manual_en_v01_231219.pdf
+[DBM-P]: https://www.valeton.net/product/dapper-bass-mini/
+[DBM-S]: https://shop.valeton.net/products/dapper-bass-mini
