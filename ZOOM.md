@@ -1437,20 +1437,21 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 |---|---|---|
 | Expression / K/F/B | External FP01/FP02 expression or FS01 through CONTROL IN. No integrated pedal; toe N/A. Three main footswitches; complete knob/button count remains unverified. | [Manual][B3-M] pp4–5,51 |
 | Display | Three backlit dot-matrix LCDs; diagonal,color depth,touch unknown. | [Product][B3-P] |
-| Dimensions / weight | 234 W×170 D×54 H mm;1.2kg, battery inclusion not specified in inspected English specifications. Large footprint. | [Manual specifications][B3-S] |
+| Dimensions / weight | 234 W×170 D×54 H mm;1.2kg **excluding batteries**, explicit in Japanese product specifications; English manual leaves battery inclusion unstated. Large footprint. | [Manual specifications][B3-S]; [Japanese product][B3-J] |
 | Simultaneous effects | Up to3, freely ordered; DSP overflow bypasses an effect with THRU. Disabled effects still consume DSP. Do not inherit G3 firmware’s six-effect ceiling. | [Manual][B3-M] p9; [Product][B3-P] |
 | Categories / choices | 111 total:99 effects plus12 amp/cab models. Compression,filter/EQ,drive,modulation,synth,delay/reverb; exact category subtotals unresolved. | [Product][B3-P] |
 | Factory / user memory | 100 editable memories (10×10), first50 factory-filled; not150 total. Auto Save and Store/Swap. | [Product][B3-P] |
 | Synth / acoustic | V-Syn and Z-Syn bass synthesis; Z-Organ organ simulation. Dedicated acoustic/upright simulation unverified; acoustic360 is an amplifier model, not acoustic-instrument conversion. | [Manual][B3-M] p43; [Product][B3-P] |
 | I/O | Mono quarter-inch INPUT with active/passive switch; mono R and stereo L/MONO/PHONES; XLR balanced PRE/POST and ground lift; CONTROL IN,USB,DC. USB/control subtype unknown. | [Product][B3-P]; [Specifications][B3-S] |
-| Power / battery / USB | AD-16 rating9V DC500mA center-negative;fourAA, approximately6h alkaline; USB bus power supported. Adapter rating is not measured draw; USB electrical requirements unknown. | [Specifications][B3-S] |
+| Analog levels / conversion | INPUT −20dBm,1MΩ; R and L line maximum +5dBm into ≥10kΩ; headphones20+20mW into32Ω. Balanced XLR impedance100Ω hot/ground or cold/ground,200Ω hot/cold. A/D and D/A24-bit,128×oversampling,44.1kHz; distinct from16-bit USB audio. | [Manual][B3-M] p51 |
+| Power / battery / USB | AD-16 rating9V DC500mA center-negative;fourAA, approximately6h alkaline; USB bus power supported. Adapter rating is not measured draw; USB electrical requirements unknown. USB bus operation requires POWER switch OFF before connection; standby disables audio input/output. | [Specifications][B3-S]; [Manual][B3-M] pp32,50 |
 | USB audio / MIDI | 2-in/2-out;16-bit44.1kHz. Recording gain ±6dB; monitor balance0–100 mixes processed direct sound with DAW return (0 direct-only,100 DAW-only). USB MIDI/dry/reamp routing unverified. | [Product][B3-P]; [Manual][B3-M] p32 |
 | External control / routing | External-pedal OUTPUT VOL excludes rhythm/looper levels. Manual min/max can invert response. FS01: bypass/mute,tap tempo or effect function; assigned effect must be on. Global signal-flow direction reversible. | [Manual][B3-M] pp16–19 |
 | IR / NAM / capture | User IR,native/converted NAM and capture imports unestablished. Factory cabinets do not prove import capability. | Unresolved |
 | Editor / platforms | Edit&Share Windows XP/Vista/7/8/8.1/10 and Mac10.9–10.12. Firmware1.20 updaters and Windows ASIO2.0.1 driver are separate. Current OS/mobile compatibility unknown. | [Support][B3-D] |
 | Looper / rhythms / live | 40s maximum,20s with Undo enabled; overdub/erase and rhythm synchronization. Changing TIME or tempo and switching power off erase the loop; Home screens preserve it. Undo/redo affects last overdub. Stop modes: immediate,end-of-loop,fade-out. Rhythm recording uses precount and quantization. 41 rhythms; tempo40–250. Scenes,trails and exact switch gestures unresolved. | [Manual][B3-M] pp26–29; [Product][B3-P] |
 | Firmware / known issues | History Z2I-2238-01:1.00 production November2011;1.10 May2013 fixes rhythm hi-hat/tempo and Z-Syn silence with excessive input, adds Windows8/USB3.0 host support. Version1.20 September2014 fixes output muting during continuous MonoPitch Shift operation. Offered unit version unknown; host compatibility does not establish USB3 transfer speed. | [Firmware history][B3-F] |
-| Source conflict | Frequency response: product +1/−6dB versus indexed manual +1/−3dB,20Hz–20kHz at10kΩ. Preserve discrepancy; no measured resolution. | [Product][B3-P]; [Specifications][B3-S] |
+| Source conflict | Frequency response: product +1/−6dB versus directly inspected manual +1/−3dB,20Hz–20kHz at10kΩ. Preserve discrepancy; no measured resolution. | [Product][B3-P]; [Specifications][B3-S] |
 
 ### Separate IDR hardware offers
 
@@ -1475,3 +1476,5 @@ Remaining: physical counts,screen details,category subtotals,connector formats,p
 [B3-D]: https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/
 
 [B3-F]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf
+
+[B3-J]: https://www.zoom.co.jp/ja/products/bass/b3-bass-effects-amp-simulator-pedal

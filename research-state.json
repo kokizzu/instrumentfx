@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "B3 primary follow-up / fresh Shopee discovery",
-    "task": "B3 firmware bugs/version dates saved; shop-only used lead now has item41075001096 but item/variation retrieval failed. Continue physical controls/category counts and exact-offer checks or fresh discovery. Commit each model before next.",
+    "task": "B3 battery-excluded mass and analog/converter limits saved; frequency-response conflict directly verified. Resume fresh Shopee discovery, with physical controls/category/connector gaps retained. Commit each model before next.",
     "next_models": [],
     "after_queue": "Continue exact Shopee discovery by brand and series."
   },
@@ -1586,7 +1586,8 @@
         "https://www.zoom.co.jp/node/47",
         "https://zoomcorp.com/media/documents/E_B3.pdf",
         "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/",
-        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf"
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf",
+        "https://www.zoom.co.jp/ja/products/bass/b3-bass-effects-amp-simulator-pedal"
       ],
       "offers": [
         {
@@ -1659,6 +1660,17 @@
         "access": "Last-month shop index; exact item retrieval cache miss both URL forms",
         "stock_variant_working_region_bundle_warranty_shipping_tax_voucher": "unverified",
         "accepted_used_new_price": false
+      },
+      "analog_mass_followup": {
+        "checked_date": "2026-10-17",
+        "manual_imprint": "B3-5000-2",
+        "resolved": [
+          "Japanese product confirms1.2kg excludes batteries",
+          "Analog input/output impedance and level limits;24-bit oversampling converters distinct from16-bit USB",
+          "USB bus power requires POWER OFF;standby disables audio I/O"
+        ],
+        "conflict": "English web−6dB versus directly inspected English manual−3dB response retained",
+        "remaining": "Physical controls,category counts,connector subtypes and other saved gaps"
       }
     }
   ],
