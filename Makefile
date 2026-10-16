@@ -959,3 +959,7 @@ research-commit-ms60b:
 .PHONY: research-commit-a1xfour
 research-commit-a1xfour:
 	python3 scripts/research_tools.py commit-a1xfour
+
+.PHONY: research-commit-ms50g
+research-commit-ms50g:
+	python3 scripts/research_tools.py commit-ms50g
