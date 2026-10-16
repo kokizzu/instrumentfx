@@ -28,9 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom MS-60B remaining verification",
-    "task": "MS-60B DSP ON/OFF cost,AutoSave defaults,identifiedV2synths andV2.1audio-stopfix saved. Remaining V2total/category inventory,complete I/O/EXP,screen,USB supply/audio/MIDI,editor,memory overwrite,looper/drums andcurrent qualified offers. Commit before next model;fresh leads andlegacy navigation audits remain.",
-    "next_models": [],
+    "model": "Zoom A1X FOUR exact discovered lead",
+    "task": "MS-60B useful manual followups saved;remaining V2inventory/USB/display/import/looper/qualifiedstock gaps explicit. Next research exact A1X FOUR Shopee lead348182890/9601659084 or645393778/18364051838 against A1X-specific primary sources;do not copy A1dimensions/pedal features blindly. Commit one model before next. MS50G discovery and legacy navigation audits also remain.",
+    "next_models": [
+      "Zoom A1X FOUR"
+    ],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
   "new_findings": [
@@ -884,7 +886,8 @@
         "https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf",
         "https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/ms-60-support/",
         "https://zoomcorp.com/media/documents/E_MS-60B_FX-list_v2.pdf",
-        "https://zoomcorp.com/en/jp/news/firmware-update-v21-ms-60b-and-ms-70cdr/"
+        "https://zoomcorp.com/en/jp/news/firmware-update-v21-ms-60b-and-ms-70cdr/",
+        "https://zoomcorp.com/media/documents/MS-60B_operationManual_English.pdf"
       ],
       "offers": [
         {
@@ -928,7 +931,10 @@
         "DSP": "DSPFull bypass;ON/OFFsamecost;change type orTHRU",
         "autosave": "ONdefault;OFFrequiresmanualsave",
         "synth": "V2StdSyn4variations,SynTlk4vowels,ZSyn;completeinventoryunknown",
-        "firmware": "V2.1 dated2020-01-01 fixesaudiooutputstoppingwithcertaineffects;installedversionunknown"
+        "firmware": "V2.1 dated2020-01-01 fixesaudiooutputstoppingwithcertaineffects;installedversionunknown",
+        "save": "Manualp10rename/selectdestination/save;fulloverwrite/cancelnotverified",
+        "tempo": "Perpatchtempo,p16",
+        "routing": "LineSelOFFdirectoutput,ONfollowingchain;EFX_L/OUT_L0–150;internalnotexternalFXloop"
       }
     }
   ],
@@ -17936,7 +17942,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom MS-60B remaining verification."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom A1X FOUR exact discovered lead."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

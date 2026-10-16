@@ -218,7 +218,7 @@ def main():
         if mode == 'commit-pe100':
             message = 'research(mooer): add PE100 portable multi-effects with qualified Shopee evidence'
         if mode == 'commit-ms60b':
-            message = 'research(zoom): verify MS-60B DSP behavior synths and audio-stop firmware fix'
+            message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-a1four':
             message = 'research(zoom): document A1 FOUR synth algorithms and additional-effect scope'
         if mode == 'commit-b3n':
