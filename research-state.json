@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "G3 follow-up / fresh Shopee discovery",
-    "task": "Original G3 recorded separately from G3n/G3X; verify controls, revision differences and remaining fields or continue exact Shopee discovery. Commit each model before the next.",
+    "task": "G3 firmware history and USB/looper controls saved: six effects require2.00+,2.10 fixes qualified. Continue physical controls and remaining fields or fresh exact Shopee discovery; commit each model before next.",
     "next_models": [],
     "after_queue": "Search brands/series again; no exhaustive coverage claim."
   },
@@ -1526,7 +1526,8 @@
         "https://www.zoom.co.jp/node/49",
         "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3_G3X_1.pdf",
         "https://www.zoom.co.jp/node/707",
-        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/"
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/",
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf"
       ],
       "offers": [
         {
@@ -1551,7 +1552,17 @@
         "current software",
         "scenes/trails",
         "qualified current offers"
-      ]
+      ],
+      "firmware_usb_loop_followup": {
+        "checked_date": "2026-10-17",
+        "firmware_history": "Version2.00 June2012 adds six effects, Auto Save ON/OFF and amp modeling;2.10 May2013 adds Win8/USB3 host support and rhythm hi-hat/tempo fix",
+        "manual": "G3/G3X-5000-2 imprint in shared manual text",
+        "resolved": [
+          "USB monitor balance0–100 mixes post-effects direct/DAW;100 DAW only",
+          "Last-overdub Undo/redo; immediate/end/fade stop modes"
+        ],
+        "remaining": "Offered firmware unknown; original revision library counts, physical controls and saved gaps remain"
+      }
     }
   ],
   "consolidation_and_price_findings": [

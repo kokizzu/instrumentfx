@@ -1390,16 +1390,16 @@ Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; pa
 | Expression / controls K/F/B | External FP01/FP02 expression or FS01 footswitch via CONTROL IN. Built-in pedal belongs to G3X; G3 toe N/A. Three main footswitches; complete knob/button counts pending panel verification. | [Manual][G3-M] pp4–5; [Product][G3-P] |
 | Display | Three backlit dot-matrix LCDs; published diagonal, color depth and touch unverified. | [Product][G3-P] |
 | Dimensions / weight | 234 W ×170 D ×54 H mm; 1.2 kg excluding batteries. Large footprint. | [Japanese specifications][G3-J] |
-| Simultaneous effects | Up to six, freely ordered, DSP-limited; overflow bypasses an effect. Off effects still consume DSP. Multiple amp models simultaneously are prohibited per FAQ. | [Manual][G3-M] p10; [FAQ][G3-Q] |
-| Categories / choices | 116 total: 94 effects plus22 amp/cab models in later product description. Category subtotals and earlier revision differences unresolved. | [Product][G3-P] |
+| Simultaneous effects | Up to six with firmware **2.00 or later** (June2012), freely ordered, DSP-limited; overflow bypasses an effect. Off effects still consume DSP. Multiple amp models simultaneously are prohibited per FAQ. | [Manual][G3-M] p10; [FAQ][G3-Q]; [Firmware history][G3-F] |
+| Categories / choices | 116 total: 94 effects plus22 amp/cab models in later product description. Version2.00 added amp modeling and an Auto Save ON/OFF setting. Version2.10 (May2013) fixed a rhythm hi-hat/tempo issue and added Windows8/USB3.0 support. Category subtotals and earlier library counts unresolved; USB3.0 host support does not establish USB3 transfer speed. | [Product][G3-P]; [Firmware history][G3-F] |
 | Presets / memory | 100 editable memories (10×10), factory-filled; not100 factory plus100 additional user slots. Auto Save and Store/Swap. | [Product][G3-P] |
 | Synth / acoustic | MonoSynth detects single-note pitch; Aco.Sim transforms electric-guitar tone toward acoustic. Separate algorithms, not an acoustic preamp claim. | [Manual][G3-M] pp45,52 |
 | I/O | Quarter-inch mono INPUT with active/passive selection; mono R and stereo L/MONO/PHONES outputs; balanced XLR with PRE/POST and ground lift; CONTROL IN, USB and DC. USB/control connector subtype pending. | [Product][G3-P]; [Manual specifications][G3-S] |
 | Power / battery / USB | AD-16: 9V DC center-negative,500mA adapter rating; fourAA, approximately6h alkaline; USB bus power supported. Measured draw and USB electrical requirements unknown. | [Manual specifications][G3-S]; [FAQ][G3-Q] |
-| USB audio / MIDI | 2-in/2-out stereo,16-bit44.1kHz. REC GAIN adjustable; playback exits through G3 outputs. USB MIDI and dry/reamp paths unverified. | [FAQ][G3-Q] |
+| USB audio / MIDI | 2-in/2-out stereo,16-bit44.1kHz. REC GAIN adjustable; playback exits through G3 outputs. Monitor balance0–100 mixes post-effects direct sound with DAW return;100 monitors DAW only. USB MIDI and dry/reamp paths unverified. | [FAQ][G3-Q]; [Manual][G3-M] pp24–25,36 |
 | IR / NAM / capture | User IR, native/converted NAM and capture imports unestablished. Factory cab modeling is not import evidence. | Unresolved |
 | Editor / platforms | Edit&Share patch editor/librarian: Windows XP/Vista/7/8/8.1/10, Mac10.9–10.12 listed. Firmware2.10 updaters and Windows ASIO2.0.1 driver are separate; current OS compatibility unknown. | [Support][G3-D] |
-| Looper / rhythms / live | 40s, or20s with Undo enabled; overdub/erase. Time/tempo changes and power-off erase loop; returning Home does not. 41 rhythms with looper synchronization. Scenes/trails unresolved. | [Manual][G3-M] pp30–35; [Product][G3-P] |
+| Looper / rhythms / live | 40s, or20s with Undo enabled; overdub/erase. Time/tempo changes and power-off erase loop; returning Home does not. 41 rhythms with looper synchronization. Undo/redo affects the last overdub; stop modes are immediate, end-of-loop or fade-out. Scenes/trails unresolved. | [Manual][G3-M] pp30–35; [Product][G3-P] |
 
 ### Separate IDR hardware offers
 
@@ -1420,3 +1420,5 @@ Remaining: physical controls, screen details, revision/category counts, full con
 [G3-S]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3_G3X.pdf
 [G3-Q]: https://www.zoom.co.jp/node/707
 [G3-D]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/
+
+[G3-F]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf
