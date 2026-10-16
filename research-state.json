@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "First Shopee shared-source consolidation",
-    "task": "Sixteen existing profiles/288shared fields audited;106missing exact source statements and13shared groups preserved at root. Verify full union/navigation and commit;then read complete shopee-multifx-2 through7 and discovery/history/ownership metadata. No source retirement yet.",
+    "model": "second Shopee expansion shared-source consolidation",
+    "task": "Second Shopee shared source8models/136fields preserved;verify union/links and commit. Next read complete shopee-multifx-3 through7,then discovery/history/ownership metadata and navigation.",
     "next_models": [],
-    "after_queue": "Continue remaining technical gaps and fresh eligible Shopee discovery;historical source queues and thresholds are not current state."
+    "after_queue": "Continue remaining technical gaps and fresh eligible Shopee discovery;historical queues/thresholds are not current state. No source retirement yet."
   },
   "new_findings": [
     {
@@ -15221,6 +15221,990 @@
       "retained_context": [],
       "retained_source_urls": [],
       "status": "Complete first Shopee shared model rows preserved;original individual findings remain;no count change"
+    },
+    {
+      "models": [
+        "M-VAVE TANK-PRO"
+      ],
+      "model_name": "TANK-PRO",
+      "brand": "M-VAVE",
+      "destination": "M-VAVE.md#tank-pro",
+      "source": "effects/shopee-multifx-2.md",
+      "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+      "source_model_aliases": [
+        "M-VAVE TANK-PRO",
+        "TANK-PRO"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "Yes,1×TRS EXP",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "5/4/12",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "260×100×52;**815g manual vs800g page**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Medium",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "**Rp1.900.000**, Seven Stereo; old cached delivery dates, stock unconfirmed",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Main display",
+          "value": "LCD",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Published diagonal",
+          "value": "**2.4 inches**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Color mode",
+          "value": "Color, manual theme settings",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Simultaneous processing and choices",
+          "value": "**10 reorderable**, DSP-limited; WAH14, FX1/FX2 shared20 each, DS30, AMP90, CAB90, EQ8, MOD20, DLY27, REV18",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Memory organization",
+          "value": "**120 editable =60 factory sounds+60 effects-off starting setups**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Synth / acoustic distinction",
+          "value": "Synth/acoustic simulator ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "IR / NAM / captures",
+          "value": "Mono WAV44.1k/24-bit,1024/2048; AM4DATA imports with official NAM conversion workflow, **not unrestricted native NAM**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Power / battery / USB operation",
+          "value": "**3000mAh/3.7V;USB5V/1A rating,5V/2A recommendation**; use while charging yes",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Apps",
+          "value": "M-EFCS Windows/macOS/iOS/Android",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Key I/O and performance details",
+          "value": "¼″ in;stereo¼″+stereoXLR out;3.5mm phones;TRS EXP/MIDI-in;USB-C;**150.8s looper,100 rhythms**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete second Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "M-VAVE ANN Blackbox"
+      ],
+      "model_name": "ANN Blackbox",
+      "brand": "M-VAVE",
+      "destination": "M-VAVE.md#ann-blackbox",
+      "source": "effects/shopee-multifx-2.md",
+      "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+      "source_model_aliases": [
+        "M-VAVE ANN Blackbox",
+        "ANN Blackbox"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "No dedicated EXP jack; MIDI-controller expansion is not a verified EXP mapping",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "2/2/7",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "113×109×41 source L/W;410g",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Compact either orientation",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "**Rp1.089.000**, Vi Music Store; variant/stock unconfirmed",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Main display",
+          "value": "Graphical screen, technology ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Published diagonal",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Color mode",
+          "value": "Color, manual on-screen icon colors",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Simultaneous processing and choices",
+          "value": "**6 reorderable+one internal FX combination**, not7 free slots; FX3 configs, AMP20, MOD7, DLY5, REV6, CAB20",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Memory organization",
+          "value": "**80 editable,40 factory-filled**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Synth / acoustic distinction",
+          "value": "Guitar/bass amp banks; synth/acoustic sim ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "IR / NAM / captures",
+          "value": "20 CAB locations, mono WAV44.1k/24-bit/1024; proprietary AM formats; exact NAM conversion compatibility/native support unresolved",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Power / battery / USB operation",
+          "value": "**2000mAh/3.7V;USB5V≥300mA**, battery or USB power explicitly documented",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Apps",
+          "value": "M-EFCS Windows/macOS/iOS/Android",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Key I/O and performance details",
+          "value": "¼″ mono in/out,separate3.5mm stereo phones,USB-C;44.1k/24-bit audio/loopback;looper/drums not established",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete second Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "Boin Audio BG300"
+      ],
+      "model_name": "BG300",
+      "brand": "Boin Audio",
+      "destination": "BOIN-AUDIO.md#bg300",
+      "source": "effects/shopee-multifx-2.md",
+      "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+      "source_model_aliases": [
+        "Boin Audio BG300",
+        "BG300"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression / toe",
+          "value": "No external jack in linked manual; pressure switching",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "1/2/4",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "**193.5×125×56.5;454g manual profile**, revision caveat",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Compact, manual profile",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "**Rp1.749.990**, Primanada With Battery; revision/stock unconfirmed",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Main display",
+          "value": "LCD in linked manual",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Published diagonal",
+          "value": "**1.7 inches manual vs1.77 retailer**; revision conflict",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Color mode",
+          "value": "Color",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Simultaneous processing and choices",
+          "value": "**8**; NR1, FX8, DRV5, AMP15, CAB15+5 user, MOD6, DLY7, RVB7; **64 factory choices in manual vs70 retailer**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Memory organization",
+          "value": "**50 factory+50 user=100**, linked manual",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Synth / acoustic distinction",
+          "value": "Synth/acoustic sim ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "IR / NAM / captures",
+          "value": "**5 user IR slots**; length/format and NAM/capture support ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Power / battery / USB operation",
+          "value": "**2000mAh/3.7V,USB5V/2A manual**, retailer9V claim conflicts",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Apps",
+          "value": "Windows/macOS/Android/iOS documented; current app identity/versions ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Key I/O and performance details",
+          "value": "¼″ in/stereo out,phones-panel versus final-table inconsistency,USB-C;**2×2 USB44.1k/16-bit**;drums,tuner",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete second Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "Scorpion KMF-10"
+      ],
+      "model_name": "KMF-10",
+      "brand": "Scorpion",
+      "destination": "SCORPION.md#kmf-10",
+      "source": "effects/shopee-multifx-2.md",
+      "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+      "source_model_aliases": [
+        "Scorpion KMF-10",
+        "KMF-10"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression / toe",
+          "value": "No external jack shown; toe mechanism ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "4/2/9",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "243×165×59;710g",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Medium",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "**Rp1.350.000**, Imagination Music; stock/condition unconfirmed",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Main display",
+          "value": "Graphical screen, technology ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Published diagonal",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Color mode",
+          "value": "Color, official photograph",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Simultaneous processing and choices",
+          "value": "**5**; drive12,mod12,delay6,reverb4,dynamic4,filter3;18amp/cab wording varies across brand pages",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Memory organization",
+          "value": "Brand literally says **10–59**; actual storage organization ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Synth / acoustic distinction",
+          "value": "Synth/acoustic sim ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "IR / NAM / captures",
+          "value": "**512-point factory IR processing**, user import/capacity and NAM ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Power / battery / USB operation",
+          "value": "**6AA or9V centre-negative**; **300mA page vs500mA rear marking**;USB power ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Apps",
+          "value": "Editor and USB functions ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Key I/O and performance details",
+          "value": "AUX,¼″ in,shared¼″ out/phones,USB-C;**25s looper,6genres/40+styles**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete second Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "JOYO GEM BOX II"
+      ],
+      "model_name": "GEM BOX II",
+      "brand": "JOYO",
+      "destination": "JOYO.md#gem-box-ii",
+      "source": "effects/shopee-multifx-2.md",
+      "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+      "source_model_aliases": [
+        "JOYO GEM BOX II",
+        "GEM BOX II"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression / toe",
+          "value": "No external jack; toe-pressure switching",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "2/2/5",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "243×137×62;720g without batteries",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Medium",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "**Rp1.750.000**, TOKOAUDIOPRO; stock/condition unconfirmed",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Main display",
+          "value": "Graphical LCD",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Published diagonal",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Color mode",
+          "value": "?; do not infer monochrome from manual print style",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Simultaneous processing and choices",
+          "value": "**8 fixed**; FX10,DS23,AMP7,NS1,EQ1,MOD11,DLY6,RVB7=66",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Memory organization",
+          "value": "**80 factory+80 user=160**; only user bank writable",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Synth / acoustic distinction",
+          "value": "**Acoustic A/B simulators**; synth not established",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "IR / NAM / captures",
+          "value": "No digital import connection in complete manual; factory amp processing is not IR/NAM loading",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Power / battery / USB operation",
+          "value": "**4AA or9V300mA centre-negative supply**;noUSB",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Apps",
+          "value": "No documented digital editor interface",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Key I/O and performance details",
+          "value": "¼″ in/sharedstereoout-phones,AUX,DC;**180s looper,40drums+10metronomes**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete second Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "JOYO GEM BOX III"
+      ],
+      "model_name": "GEM BOX III",
+      "brand": "JOYO",
+      "destination": "JOYO.md#gem-box-iii",
+      "source": "effects/shopee-multifx-2.md",
+      "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+      "source_model_aliases": [
+        "JOYO GEM BOX III",
+        "GEM BOX III"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression / toe",
+          "value": "1×EXP2; built-in toe switch",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "8/3/17",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "?;?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Unknown",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "**Rp4.800.000**, GH MUSIC; mixed cheaper variants excluded",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Main display",
+          "value": "Graphical LCD",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Published diagonal",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Color mode",
+          "value": "Color, manual interface illustrations",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Simultaneous processing and choices",
+          "value": "**9 reorderable**; FX/COMP8,DS/OD20,AMP61,CAB26,NS3,EQ4,MOD19,DLY9,RVB7=157",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Memory organization",
+          "value": "**300 editable**; v1.0.0 factory99+blank201, not99+300",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Synth / acoustic distinction",
+          "value": "**3 acoustic simulators**; synth not established",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "IR / NAM / captures",
+          "value": "WAV IR yes; **1024 current page vs512 manual**; amp-model import not proven NAM",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Power / battery / USB operation",
+          "value": "**9V1A centre-negative supply**;battery/USB power ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Apps",
+          "value": "JOYO STUDIO Windows/macOS;current OS compatibility ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Key I/O and performance details",
+          "value": "¼″ in;2¼″+2XLR out;3.5mm aux/phones;EXP2;USB-B;**52s looper,40drums+10metronomes**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete second Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "TC-Helicon VoiceLive Play"
+      ],
+      "model_name": "VoiceLive Play",
+      "brand": "TC-Helicon",
+      "destination": "TC-HELICON.md#voicelive-play",
+      "source": "effects/shopee-multifx-2.md",
+      "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+      "source_model_aliases": [
+        "TC-Helicon VoiceLive Play",
+        "VoiceLive Play"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "PEDAL is Switch-3; continuous EXP not established",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "2/3/10",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "?;? primary verification pending",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Unknown",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "**Rp5.280.000, SOLD OUT**, Asia Pro Sound; historical ask",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Main display",
+          "value": "Graphical LCD",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Published diagonal",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Color mode",
+          "value": "?; button colors are not screen colors",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Simultaneous processing and choices",
+          "value": "**7 FX+Tone**; v1.0 µMod24,DLY18(+13 filters),RVB28,harmony15,double4,HardTune7,transducer8;8 active Tone styles",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Memory organization",
+          "value": "Saving documented; current factory/user/total counts ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Synth / acoustic distinction",
+          "value": "Vocal harmony/pitch/robot/formant effects; not a guitar synth/acoustic modeler",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "IR / NAM / captures",
+          "value": "IR/NAM/capture imports not established",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Power / battery / USB operation",
+          "value": "**12V400mA panel**;polarity/battery/USB power ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Apps",
+          "value": "VoiceSupport Windows/macOS **librarian/updater**,not confirmed full editor",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Key I/O and performance details",
+          "value": "XLR mic/stereoXLR out,aux/phones,Switch-3,USB Mini-B;**v1.0 looper15s undo/30s without**,current firmware pending",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete second Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "TC-Helicon Play Acoustic"
+      ],
+      "model_name": "Play Acoustic",
+      "brand": "TC-Helicon",
+      "destination": "TC-HELICON.md#play-acoustic",
+      "source": "effects/shopee-multifx-2.md",
+      "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+      "source_model_aliases": [
+        "TC-Helicon Play Acoustic",
+        "Play Acoustic"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "PEDAL is Switch-3; continuous EXP not established",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "2/3/10",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "200×156×45;950g",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Medium",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "**Rp5.100.000**, NEO MUSIC; stock/condition unconfirmed",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Main display",
+          "value": "Backlit graphical LCD",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Published diagonal",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Color mode",
+          "value": "?; blue backlight alone is insufficient",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "2. Displays"
+        },
+        {
+          "field": "Simultaneous processing and choices",
+          "value": "**7 vocal FX+Tone plus dedicated guitar chain**; v1.0 harmony28,double10,DLY18(+13 filters),RVB28 advertised,µMod24,transducer8; guitar RVB36,µMod6",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Memory organization",
+          "value": "Counts ?; **v1.0 guitar settings global**, current firmware behavior pending",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Synth / acoustic distinction",
+          "value": "**BodyRez acoustic-pickup processing**, not proof of electric-to-acoustic sim or body-IR import",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "IR / NAM / captures",
+          "value": "IR/NAM/capture imports not established",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "3. Processing, memory, acoustic/synth and loading"
+        },
+        {
+          "field": "Power / battery / USB operation",
+          "value": "**12V400mA specified supply**;polarity/battery/USB power ?",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Apps",
+          "value": "VoiceSupport Windows/macOS **librarian/updater**",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        },
+        {
+          "field": "Key I/O and performance details",
+          "value": "**48V XLR mic+¼″ guitar**;2XLR out,aux/phones,Switch-3,USB Mini-B;BodyRez/anti-feedback;**v1.0 looper15/30s**,current firmware pending",
+          "source": "effects/shopee-multifx-2.md",
+          "context": "4. Power, apps, I/O and stage use"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete second Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
     }
   ],
   "discovery_leads": [
@@ -21910,6 +22894,227 @@
         ],
         "retirement_authorized": false
       }
+    },
+    "shared_market2_audit": {
+      "date": "2026-10-17",
+      "source": "effects/shopee-multifx-2.md",
+      "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+      "complete_source_read": true,
+      "source_retired": false,
+      "remaining_work": "Shared content union verified;source retained pending broader navigation/provenance and remaining shared source audits. Technical/market research incomplete.",
+      "status": "Full shared-source union verified;source retained",
+      "prose_union": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-market2-union",
+        "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+        "destinations": [
+          "M-VAVE.md",
+          "BOIN-AUDIO.md",
+          "SCORPION.md",
+          "JOYO.md",
+          "TC-HELICON.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "model_records": 8,
+        "model_fields": 136,
+        "paragraph_groups": 9,
+        "reference_targets": [
+          "effects/findings/2026-10-14-mvave-tank-pro.md",
+          "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+          "effects/findings/2026-10-14-boin-audio-bg300.md",
+          "effects/findings/2026-10-14-scorpion-kmf-10.md",
+          "effects/findings/2026-10-14-joyo-gembox-ii.md",
+          "effects/findings/2026-10-14-joyo-gembox-iii.md",
+          "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+          "effects/findings/2026-10-14-tchelicon-play-acoustic.md"
+        ],
+        "source_retired": false
+      },
+      "explicit_link_audit": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-market2-links",
+        "incoming_occurrences": 15,
+        "incoming": [
+          {
+            "source": "BOIN-AUDIO.md",
+            "line": 90,
+            "link": "effects/shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "JOYO.md",
+            "line": 207,
+            "link": "effects/shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "JOYO.md",
+            "line": 306,
+            "link": "effects/shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 544,
+            "link": "effects/shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 638,
+            "link": "effects/shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "SCORPION.md",
+            "line": 90,
+            "link": "effects/shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "TC-HELICON.md",
+            "line": 82,
+            "link": "effects/shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "TC-HELICON.md",
+            "line": 199,
+            "link": "effects/shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/COVERAGE.history-2026-10-14.md",
+            "line": 20,
+            "link": "shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/README.md",
+            "line": 18,
+            "link": "shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-indonesia.history-2026-10-14.md",
+            "line": 3,
+            "link": "shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-indonesia.history-2026-10-14.md",
+            "line": 34,
+            "link": "shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+            "line": 14,
+            "link": "shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-indonesia.md",
+            "line": 14,
+            "link": "shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-multifx-3.md",
+            "line": 3,
+            "link": "shopee-multifx-2.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "exists": true
+          }
+        ],
+        "outgoing_occurrences": 21,
+        "missing_outgoing": [],
+        "incoming_fragments": [],
+        "headings": [
+          {
+            "line": 1,
+            "heading": "Shopee Indonesia multi-effects — second expansion batch"
+          },
+          {
+            "line": 9,
+            "heading": "1. Hardware, expression and IDR prices"
+          },
+          {
+            "line": 13,
+            "heading": "No built-in expression"
+          },
+          {
+            "line": 22,
+            "heading": "Built-in expression"
+          },
+          {
+            "line": 33,
+            "heading": "2. Displays"
+          },
+          {
+            "line": 48,
+            "heading": "3. Processing, memory, acoustic/synth and loading"
+          },
+          {
+            "line": 63,
+            "heading": "4. Power, apps, I/O and stage use"
+          },
+          {
+            "line": 76,
+            "heading": "Source conflicts and next research"
+          }
+        ],
+        "limitations": [
+          "Lexical explicit inline/reference/definition links; definition and use are separate occurrences.",
+          "Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.",
+          "No link rewrite, anchor mapping, source deletion or external availability verification."
+        ],
+        "retirement_authorized": false
+      }
     }
   },
   "deferred_work": {
@@ -21993,7 +23198,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume First Shopee shared-source consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume second Shopee expansion shared-source consolidation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

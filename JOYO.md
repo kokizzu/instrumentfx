@@ -187,6 +187,25 @@ The older index's [item27481349883](https://shopee.co.id/Digital-Effect-Gitar-Jo
 **Remaining:** screen diagonal/color/touch evidence, active used-price observations, current firmware/hardware revision, AUX jack details, current draw and switching behavior. Next: GEM BOX III, then the original GEM BOX.
 <!-- JOYO-GEMBOX-II source ends -->
 
+### Preserved second Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **External expression / toe** (Built-in expression): No external jack; toe-pressure switching
+- **Dimensions; weight** (Built-in expression): 243×137×62;720g without batteries
+- **Retail IDR observation** (Built-in expression): **Rp1.750.000**, TOKOAUDIOPRO; stock/condition unconfirmed
+- **Main display** (2. Displays): Graphical LCD
+- **Color mode** (2. Displays): ?; do not infer monochrome from manual print style
+- **Simultaneous processing and choices** (3. Processing, memory, acoustic/synth and loading): **8 fixed**; FX10,DS23,AMP7,NS1,EQ1,MOD11,DLY6,RVB7=66
+- **Memory organization** (3. Processing, memory, acoustic/synth and loading): **80 factory+80 user=160**; only user bank writable
+- **Synth / acoustic distinction** (3. Processing, memory, acoustic/synth and loading): **Acoustic A/B simulators**; synth not established
+- **IR / NAM / captures** (3. Processing, memory, acoustic/synth and loading): No digital import connection in complete manual; factory amp processing is not IR/NAM loading
+- **Power / battery / USB operation** (4. Power, apps, I/O and stage use): **4AA or9V300mA centre-negative supply**;noUSB
+- **Apps** (4. Power, apps, I/O and stage use): No documented digital editor interface
+- **Key I/O and performance details** (4. Power, apps, I/O and stage use): ¼″ in/sharedstereoout-phones,AUX,DC;**180s looper,40drums+10metronomes**
+
+[Original shared source](effects/shopee-multifx-2.md),retained pending complete navigation/provenance audits.
+
 ## GEM BOX III
 
 **Technical/price review: 2026-10-14. Partial.** Not III LE, II or K8. Current JOYO page was re-found on 2026-10-15, but all older observations retain their original date and revision limits.
@@ -265,6 +284,26 @@ Checked **2026-10-14**. Partial record for **GEM BOX III**, not III LE, II or K8
 
 **Remaining:** dimensions/weight, diagonal/touch, IR length conflict and import capacities, exact USB modes, current firmware, live used/new offers. Next: original GEM BOX, then vocal multi-effects.
 <!-- JOYO-GEMBOX-III source ends -->
+
+### Preserved second Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **External expression / toe** (Built-in expression): 1×EXP2; built-in toe switch
+- **Dimensions; weight** (Built-in expression): ?;?
+- **Size class** (Built-in expression): Unknown
+- **Retail IDR observation** (Built-in expression): **Rp4.800.000**, GH MUSIC; mixed cheaper variants excluded
+- **Main display** (2. Displays): Graphical LCD
+- **Color mode** (2. Displays): Color, manual interface illustrations
+- **Simultaneous processing and choices** (3. Processing, memory, acoustic/synth and loading): **9 reorderable**; FX/COMP8,DS/OD20,AMP61,CAB26,NS3,EQ4,MOD19,DLY9,RVB7=157
+- **Memory organization** (3. Processing, memory, acoustic/synth and loading): **300 editable**; v1.0.0 factory99+blank201, not99+300
+- **Synth / acoustic distinction** (3. Processing, memory, acoustic/synth and loading): **3 acoustic simulators**; synth not established
+- **IR / NAM / captures** (3. Processing, memory, acoustic/synth and loading): WAV IR yes; **1024 current page vs512 manual**; amp-model import not proven NAM
+- **Power / battery / USB operation** (4. Power, apps, I/O and stage use): **9V1A centre-negative supply**;battery/USB power ?
+- **Apps** (4. Power, apps, I/O and stage use): JOYO STUDIO Windows/macOS;current OS compatibility ?
+- **Key I/O and performance details** (4. Power, apps, I/O and stage use): ¼″ in;2¼″+2XLR out;3.5mm aux/phones;EXP2;USB-B;**52s looper,40drums+10metronomes**
+
+[Original shared source](effects/shopee-multifx-2.md),retained pending complete navigation/provenance audits.
 
 ## GEM BOX K8 — confirmed model, technical research pending
 

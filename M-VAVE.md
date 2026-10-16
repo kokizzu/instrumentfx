@@ -523,6 +523,26 @@ Earlier discovery [item55016320305](https://shopee.co.id/product/1408254222/5501
 **Remaining work:** explicit touch/resolution; weight conflict; current firmware NAM architectures and separate import capacities; synth/acoustic algorithms; live used/new offers and selected variations; USB channel count, MIDI TRS wiring, switching latency and Linux support. Preserve this evidence and continue with ANN Blackbox rather than restarting TANK-PRO.
 <!-- MVAVE-TANKPRO source ends -->
 
+### Preserved second Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **External expression** (No built-in expression): Yes,1×TRS EXP
+- **Dimensions; weight** (No built-in expression): 260×100×52;**815g manual vs800g page**
+- **Size class** (No built-in expression): Medium
+- **Retail IDR observation** (No built-in expression): **Rp1.900.000**, Seven Stereo; old cached delivery dates, stock unconfirmed
+- **Published diagonal** (2. Displays): **2.4 inches**
+- **Color mode** (2. Displays): Color, manual theme settings
+- **Simultaneous processing and choices** (3. Processing, memory, acoustic/synth and loading): **10 reorderable**, DSP-limited; WAH14, FX1/FX2 shared20 each, DS30, AMP90, CAB90, EQ8, MOD20, DLY27, REV18
+- **Memory organization** (3. Processing, memory, acoustic/synth and loading): **120 editable =60 factory sounds+60 effects-off starting setups**
+- **Synth / acoustic distinction** (3. Processing, memory, acoustic/synth and loading): Synth/acoustic simulator ?
+- **IR / NAM / captures** (3. Processing, memory, acoustic/synth and loading): Mono WAV44.1k/24-bit,1024/2048; AM4DATA imports with official NAM conversion workflow, **not unrestricted native NAM**
+- **Power / battery / USB operation** (4. Power, apps, I/O and stage use): **3000mAh/3.7V;USB5V/1A rating,5V/2A recommendation**; use while charging yes
+- **Apps** (4. Power, apps, I/O and stage use): M-EFCS Windows/macOS/iOS/Android
+- **Key I/O and performance details** (4. Power, apps, I/O and stage use): ¼″ in;stereo¼″+stereoXLR out;3.5mm phones;TRS EXP/MIDI-in;USB-C;**150.8s looper,100 rhythms**
+
+[Original shared source](effects/shopee-multifx-2.md),retained pending complete navigation/provenance audits.
+
 ## ANN Blackbox
 
 <!-- comparison evidence begins -->
@@ -598,6 +618,24 @@ Checked **2026-10-14**. **Partial record** for **ANNBLACK BOX**, not a blanket s
 
 **Unresolved:** exact display diagonal/touch/technology, W/D labels, current NAM conversion/architecture restrictions and factory content, live used/new offers, firmware-specific effects additions, USB channel count, continuous MIDI-expression mapping and Linux support.
 <!-- MVAVE-ANNBLACKBOX source ends -->
+
+### Preserved second Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **External expression** (No built-in expression): No dedicated EXP jack; MIDI-controller expansion is not a verified EXP mapping
+- **Dimensions; weight** (No built-in expression): 113×109×41 source L/W;410g
+- **Size class** (No built-in expression): Compact either orientation
+- **Retail IDR observation** (No built-in expression): **Rp1.089.000**, Vi Music Store; variant/stock unconfirmed
+- **Main display** (2. Displays): Graphical screen, technology ?
+- **Color mode** (2. Displays): Color, manual on-screen icon colors
+- **Simultaneous processing and choices** (3. Processing, memory, acoustic/synth and loading): **6 reorderable+one internal FX combination**, not7 free slots; FX3 configs, AMP20, MOD7, DLY5, REV6, CAB20
+- **Synth / acoustic distinction** (3. Processing, memory, acoustic/synth and loading): Guitar/bass amp banks; synth/acoustic sim ?
+- **IR / NAM / captures** (3. Processing, memory, acoustic/synth and loading): 20 CAB locations, mono WAV44.1k/24-bit/1024; proprietary AM formats; exact NAM conversion compatibility/native support unresolved
+- **Power / battery / USB operation** (4. Power, apps, I/O and stage use): **2000mAh/3.7V;USB5V≥300mA**, battery or USB power explicitly documented
+- **Key I/O and performance details** (4. Power, apps, I/O and stage use): ¼″ mono in/out,separate3.5mm stereo phones,USB-C;44.1k/24-bit audio/loopback;looper/drums not established
+
+[Original shared source](effects/shopee-multifx-2.md),retained pending complete navigation/provenance audits.
 
 ## MINI-X
 

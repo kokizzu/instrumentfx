@@ -1652,11 +1652,13 @@ def audit_floorboard_union():
 
 
 def audit_compact_links(kind='compact'):
-    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota','cube','owned','market1')
+    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota','cube','owned','market1','market2')
     """Inventory explicit Markdown links and literal references before source retirement."""
     import urllib.parse
     research_tools.identity()
     source_key = 'effects/'+kind+'.md' if kind in ('bass','vocal','audota') else 'effects/guitar-'+kind+'.md'
+    if kind == 'market2':
+        source_key = 'effects/shopee-multifx-2.md'
     if kind == 'market1':
         source_key = 'effects/shopee-multifx.md'
     if kind == 'owned':
@@ -1900,10 +1902,10 @@ def audit_audota_union(verify=True):
 
 
 def audit_shared_variant_union(verify=True, kind='cube'):
-    assert kind in ('cube','owned','market1')
+    assert kind in ('cube','owned','market1','market2')
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
-    path = {'cube':'effects/cube-baby.md','owned':'effects/owned-multifx.md','market1':'effects/shopee-multifx.md'}[kind]
+    path = {'cube':'effects/cube-baby.md','owned':'effects/owned-multifx.md','market1':'effects/shopee-multifx.md','market2':'effects/shopee-multifx-2.md'}[kind]
     source = (ROOT/path).read_text()
     assert digest(source) == state['migration']['shared_'+kind+'_audit']['source_sha256']
     aliases = {'CUBE BABY electric':{'electriccubebaby','electric'},'CUBE BABY AC':{'cubebabyac','ac'},'CUBE BABY BASS':{'cubebabybass','bass'}}
@@ -1914,6 +1916,9 @@ def audit_shared_variant_union(verify=True, kind='cube'):
     if kind == 'market1':
         aliases = {"TANK MINI":{"mvavetankmini","tankmini"},"TANK-G":{"mvavetankg","tankg","tankgtankb"},"TANK-B":{"mvavetankb","tankb","tankgtankb"},"MK-20":{"mvavemk20","mk20"},"MK-300":{"mvavemk300","mk300"},"Ampero Mini MP-50":{"hotoneamperominimp50","amperomini"},"GE100 original":{"mooerge100original","ge100"},"GE150 original":{"mooerge150original","ge150original"},"GE200 original":{"mooerge200original","ge200original","ge200"},"GE150 Pro Li":{"mooerge150proli","ge150proli"},"G1 FOUR":{"zoomg1four","g1four","g1fourg1xfour"},"G1X FOUR":{"zoomg1xfour","g1xfour","g1fourg1xfour"},"G2 FOUR":{"zoomg2four","g2four","g2fourg2xfour"},"G2X FOUR":{"zoomg2xfour","g2xfour","g2fourg2xfour"},"FX100":{"flammafx100","fx100"},"FX200":{"flammafx200","fx200"}}
         files = {"TANK MINI":"M-VAVE.md","TANK-G":"M-VAVE.md","TANK-B":"M-VAVE.md","MK-20":"M-VAVE.md","MK-300":"M-VAVE.md","Ampero Mini MP-50":"HOTONE.md","GE100 original":"MOOER.md","GE150 original":"MOOER.md","GE200 original":"MOOER.md","GE150 Pro Li":"MOOER.md","G1 FOUR":"ZOOM.md","G1X FOUR":"ZOOM.md","G2 FOUR":"ZOOM.md","G2X FOUR":"ZOOM.md","FX100":"FLAMMA.md","FX200":"FLAMMA.md"}
+    if kind == 'market2':
+        aliases = {"TANK-PRO":{"mvavetankpro","tankpro"},"ANN Blackbox":{"mvaveannblackbox","annblackbox"},"BG300":{"boinaudiobg300","bg300"},"KMF-10":{"scorpionkmf10","kmf10"},"GEM BOX II":{"joyogemboxii","gemboxii"},"GEM BOX III":{"joyogemboxiii","gemboxiii"},"VoiceLive Play":{"tcheliconvoiceliveplay","voiceliveplay"},"Play Acoustic":{"tcheliconplayacoustic","playacoustic"}}
+        files = {"TANK-PRO":"M-VAVE.md","ANN Blackbox":"M-VAVE.md","BG300":"BOIN-AUDIO.md","KMF-10":"SCORPION.md","GEM BOX II":"JOYO.md","GEM BOX III":"JOYO.md","VoiceLive Play":"TC-HELICON.md","Play Acoustic":"TC-HELICON.md"}
     destinations = {name:(ROOT/name).read_text() for name in set(files.values())}
     union = '\n'.join(destinations.values())+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
     records = {model:[] for model in aliases}
@@ -1923,7 +1928,7 @@ def audit_shared_variant_union(verify=True, kind='cube'):
             assert 1 <= len(matched) <= (2 if kind == 'market1' else 1), 'Unmapped '+kind+' row: '+str(row)
             for model in matched:
                 records[model] += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
-    expected = {model:(18 if kind == 'market1' else 14) for model in aliases}
+    expected = {model:({'market1':18,'market2':17}.get(kind,14)) for model in aliases}
     if kind == 'owned':
         expected['GEM BOX original'] = 15
     assert {model:len(facts) for model,facts in records.items()} == expected
@@ -1947,6 +1952,12 @@ def audit_shared_variant_union(verify=True, kind='cube'):
         verify_preserved(state)
 
 if __name__ == '__main__':
+    if sys.argv[1:] in (['plan-market2-union'], ['audit-market2-union']):
+        audit_shared_variant_union(sys.argv[1] == 'audit-market2-union', 'market2')
+        raise SystemExit(0)
+    if sys.argv[1:] == ['audit-market2-links']:
+        audit_compact_links('market2')
+        raise SystemExit(0)
     if sys.argv[1:] in (['plan-market1-union'], ['audit-market1-union']):
         audit_shared_variant_union(sys.argv[1] == 'audit-market1-union', 'market1')
         raise SystemExit(0)
