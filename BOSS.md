@@ -1279,3 +1279,135 @@ Checked **2026-10-16**; cached asking evidence, not live checkout/stock. New con
 [GX100-DSP]: https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/95920011158006283.html
 [GX100-USB]: https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/9174708396101515.html
 [GX100-LOOP]: https://static.roland.com/manuals/gx-100_reference_v200/en-US/7141709994776331.html
+
+## GT-1000
+
+Consolidated and refreshed **2026-10-16**; partial verification. Full-size GT-1000 is distinct from GT-1000CORE. Original observations and historical next-model notes remain below as provenance; current queue is in research-state.json.
+
+<!-- BOSS-GT-1000 source begins -->
+
+Checked **2026-10-15**. Existing [BOSS comparison](effects/guitar-boss.md) model; separate from GT-1000CORE.
+
+### Display and scoped technical checks
+
+The [manufacturer specification](https://www.boss.info/global/products/gt-1000/) establishes **one backlit graphic LCD,512×160 pixels**. It does not provide a diagonal or explicit color-depth/touch specification in the inspected text. Attempts to open the official front/top photos failed, so this pass does **not** claim a successful visual monochrome/touch verification. The color and touch fields retain an explicit evidence gap rather than borrowing GT-1000CORE's screen.
+
+The current page confirms **7 rotary controls,10 main footswitches,5 separate buttons**. Its feature text explicitly identifies the expression **toe switch**, which was not stated in the old hardware row. Current totals are185 effect types and250 factory+250 user memories; older145-type retailer copy is not the current source of truth. The built-in Bluetooth editor supports iOS/Android, alongside Windows/macOS Tone Studio; the product does not require BT-DUAL.
+
+These checks do not finish current category subtotals, exact synth/acoustic algorithm names, USB-bus-power verification or every earlier field. No launch-era effect count is silently promoted to current firmware.
+
+### Separate IDR evidence
+
+| Channel | Amount | Source and limitation |
+|---|---:|---|
+| Shopee Awlind Music Official | **Rp17.568.000** | [shop78230612/item2847287586](https://shopee.co.id/ALAT-MUSIK-Boss-GT-1000-Guitar-Effects-Processor-i.78230612.2847287586); indexed full-size hardware ask, not authenticated stock |
+| Shopee seller named Boss Official Shop | **Rp24.150.000 — SOLD OUT** | [shop341882414/item19973873164](https://shopee.co.id/BOSS-GT-1000-Guitar-Effects-Processor-i.341882414.19973873164); Habis explicitly shown |
+| Local retailer Melodia | **Rp22.814.000** | [Retail page](https://www.melodiamusik.com/product/boss-gt-1000-guitar-multi-effects-pedal/), available at selected branch; not Shopee checkout evidence |
+| Older Blibli product observation | **Rp20.453.000** | [Melodia Surabaya itemMEM-70157-00222](https://www.blibli.com/p/boss-gt-1000-multi-effect-for-guitar/ps--MEM-70157-00222); title names full-size GT-1000 but body copies CORE specifications. Exact delivered model needs confirmation; not a clean comparison quote |
+| Used | **Unknown** | No condition-verified Indonesian used offer obtained |
+
+A second Blibli item shows different old and newer prices on variation/base URLs; no range is synthesized from those stale views. USB cables and unrelated products sharing GT-1000 in their names are excluded. Original USD offers remain historical provenance, not converted local prices. Seller authenticity, accessories, shipping, condition detail and regional warranty are not assumed.
+
+All seven existing BOSS guitar models now have individually committed display/IDR follow-ups. Integrate the comparison and preserve the old source snapshot; these are seven reviewed existing models, not seven new catalogue entries. The next original-page migration is **NUX**, beginning with MG-101.
+<!-- BOSS-GT-1000 source ends -->
+
+### GT-1000 — supporting comparison facts
+
+| Required field | Retained observation |
+|---|---|
+| Screen type and resolution | Backlit graphic LCD,512×160 |
+| Published diagonal | ? |
+| Monochrome / color evidence | ? in this pass; official photo retrieval failed |
+| Touchscreen | ?; no touch interface documented |
+| Size | Large |
+| Built-in / external expression | **Yes+toe** /2 shared CTL/EXP |
+| K/F/B | 7/10/5 |
+| Dimensions / pedal-up maximum | 462×248×70 /95H |
+| Weight | 3.6kg |
+| Used IDR | ? |
+| Shopee retail evidence | **Rp17.568.000** Awlind Music Official |
+| Separate local-retailer / historical context | Melodia **Rp22.814.000**; Boss-shop **Rp24.150.000 SOLD OUT**. Older Blibli title/body model mismatch excluded from clean quotes |
+| Simultaneous architecture / library | 24-block architecture;185effect types;guitar/bass processing |
+| Factory / user memory | 250P+250U |
+| Synth / acoustic functions | Exact algorithms ? |
+| User IR / NAM | 16speakerIRs;NAM not established |
+| Audio / controller ports | 1/4-inch input,stereo main outs;stereoXLR subouts;1/4-inch phones;2mono FX loops;2CTL/EXP;amp control;DIN MIDI IN/OUT;USB-B |
+| Power and USB operation | PSB-1U;1.2A draw;USB bus operation not listed |
+| Configuration | Windows/macOS;mobile via built-in Bluetooth |
+| Additional features | 96kHz;flexible routing;USB audio/reamp;38/19slooper |
+| Follow-up commit | `f38e995c684c6e852bc786938740d262bf69c64f` |
+
+### GT-1000 — original USD and technical provenance
+
+Research date **2026-10-14**. Technical sources are the linked manufacturer's specifications, including current firmware-dependent figures. **Partial records**: `?` means unverified. Dimensions are **W × D × H in mm**; `/max` gives the maximum height with the pedal raised. `K/F/B` = rotary controls / footswitches / separate buttons, excluding the expression toe switch and rear power/mode switches. Price columns are **USD US-market listed/asking observations**, not statistically estimated fair values; see sources below.
+
+Model totals have different inclusion rules. ME-90's selectable alternatives are not all simultaneously present on its panel. A missing NAM claim is not converted into a definitive “No” without model/firmware documentation.
+
+Price retrieval date: **2026-10-14**. Indexed older listings are explicitly less reliable than current, purchasable offers. No guarantee of stock, local Indonesian pricing, delivery cost or completed-sale value.
+
+
+| Required field | Original 2026-10-14 observation |
+|---|---|
+| Size class | Large |
+| Built-in / external EXP | Yes / 2 shared CTL/EXP |
+| K/F/B | 7/10/5 |
+| Dimensions | 462×248×70/max95 |
+| Weight | 3.6 kg |
+| Used USD | $379.99–699.99, assorted Good–Great asks [U1] |
+| New USD | $1,209.99 [N] |
+| Simultaneous blocks; categories / model choices | 24-block architecture; current specs 185 types; guitar and bass processing |
+| Factory / user memory | 250 P + 250 U |
+| Synth / acoustic simulator | Specific synth/acoustic algorithms ? |
+| User IR | 16 user speaker IRs |
+| NAM | Not established |
+| Physical audio/control ports | ¼″ input/stereo main outputs; stereo XLR sub outputs; ¼″ phones; 2 mono FX loops; 2 CTL/EXP; amp control; DIN MIDI IN/OUT; USB-B |
+| Power; USB-powered? | PSB-1U adapter; 1.2 A draw; USB bus operation not listed |
+| Configuration apps | Tone Studio Windows/macOS; mobile editing through built-in Bluetooth |
+| Other practical features | 96 kHz; flexible routing; USB audio/reamp; 38/19 s looper |
+
+U1: Guitar Center usedUSD379.99–699.99,assorted Good–Great; N:newUSD1,209.99,checked2026-10-14. Asking observations,not completed sales or IDR. Adapter bundles/open-box separate. Original toe-switch omission above is superseded by manufacturer-confirmed toe support in the2026-10-15 finding.
+
+[Historical source](https://www.boss.info/global/products/gt-1000/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc)
+
+Sources retained unchanged: [follow-up](effects/findings/2026-10-15-boss-gt1000-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+
+### GT-1000 — current comparison evidence
+
+Checked **2026-10-16**; model-specific manufacturer documents qualify the dated evidence above. Parameter-guide eng12 direct opening failed; USB facts below come from retrieved official indexed text, not a newly inspected full PDF. IR-loader eng02 PDF opened successfully.
+
+<!-- comparison evidence begins -->
+
+| Required field | Current evidence and limits |
+|---|---|
+| Expression | Built-in pedal with toe switch; **two shared CTL/EXP sockets** for external control. [GT1000-P] |
+| K/F/B | **7 /10 /5**; expression toe and rear switches separate. [GT1000-P] |
+| Display | **512×160 backlit graphic LCD**. Published diagonal,color depth and touchscreen specification remain unverified. Failed earlier photo access is not visual verification. [GT1000-P] |
+| Dimensions / weight / size | **462×248×70 mm**, maximum height95 mm; **3.6 kg**. Large. [GT1000-P] |
+| Simultaneous processing / category choices | **24-block architecture**,two amps; current185 effect types retained,not launch145. Guitar/bass processing. Complete per-category counts and firmware-specific instance limits remain unresolved. [GT1000-P] |
+| Factory / user / total memory | **250 preset +250 user =500**. [GT1000-P] |
+| Synth / acoustic | **AC.GUITAR SIMULATOR** explicitly documented in GT-1000 parameter-guide revisions eng04/eng11; current parameter mapping remains unchecked. Dedicated synth engine unestablished; no sibling-model inference. [GT1000-A] |
+| IR / NAM / capture | **16 user IR slots**,WAV **44.1/48/96 kHz,16/24-bit linear** in loader eng02. Older eng01 describes4 slots; retain revision distinction,not a current capacity conflict. IR conversion is not NAM conversion. Native NAM,converted NAM and proprietary capture imports unestablished. [GT1000-IR], [GT1000-IR1] |
+| Audio / control I/O | Mono quarter-inch input; two quarter-inch MAIN outputs; two XLR SUB outputs; quarter-inch stereo PHONES; two mono SEND/RETURN loops; two shared CTL/EXP sockets;AMP CTL;DIN MIDI IN/OUT;USB-B;DC;built-in Bluetooth. [GT1000-P] |
+| Power / battery / USB power | **PSB-1U**, **1.2 A draw** retained. DC voltage/polarity,battery/USB-powered operation remain unverified. [GT1000-P] |
+| Editor / USB / platforms | Tone Studio Windows/macOS and iOS/Android via built-in Bluetooth; BT-DUAL not required. USB MAIN/SUB send their respective effected outputs; host returns mix at each final output stage. DRY sends unprocessed input and returns host audio before effects for reamping. Direct monitor resets ON at power-up. Exact channel/bit-depth and mobile USB audio compatibility unchecked. Later Tone Studio eng05 includes IR loading; separate loader eng02 requires driver and cannot run alongside Tone Studio/AIRD Output Select Library. [GT1000-P], [GT1000-G], [GT1000-IR], [GT1000-BTS] |
+| Looper / routing / live use | **38 s mono /19 s stereo** retained;96 kHz processing,serial/parallel routing,fast switching and carryover documented. Detailed carryover conditions,recording persistence,drums/scenes require further checks. [GT1000-P] |
+
+### GT-1000 — separate IDR evidence
+
+Checked **2026-10-16**; cached exact hardware asking evidence,not live checkout/stock. New condition,bundle/adapter,warranty region,shipping/tax and seller affiliation unverified. Late-delivery compensation is not a hardware discount. Older local-retailer and mismatched Blibli evidence remains fully preserved above.
+
+| Condition / seller | IDR evidence and qualifications | Exact item / source |
+|---|---|---|
+| Used | Unknown; no condition-verified exact Indonesian used offer established. | — |
+| Historical retail / Awlind Music Official | **Rp17.568.000**,indexed2026-10-15. Exact reopen failed2026-10-16; no new price/stock claim. | [78230612 /2847287586](https://shopee.co.id/ALAT-MUSIK-Boss-GT-1000-Guitar-Effects-Processor-i.78230612.2847287586) |
+| Voucher-conditional sold out / Boss Official Shop | **Rp26.800.000 Dengan Voucher,Habis**; exact cached body reopened. Voucher eligibility/undiscounted price unexposed; separate BelanjaRp30RB Diskon99% banner not accepted as another hardware discount. EarlierRp24.150.000 Habis retained as older snapshot. | [341882414 /19973873164](https://shopee.co.id/BOSS-GT-1000-Guitar-Effects-Processor-i.341882414.19973873164) |
+| Historical local retail / Melodia | **Rp22.814.000**,selected-branch available label observed2026-10-15; not reopened or Shopee checkout evidence. | [Melodia](https://www.melodiamusik.com/product/boss-gt-1000-guitar-multi-effects-pedal/) |
+
+<!-- comparison evidence ends -->
+
+[GT1000-P]: https://www.boss.info/global/products/gt-1000/
+[GT1000-A]: https://static.roland.com/assets/media/pdf/GT-1000_parameter_eng11_W.pdf
+[GT1000-G]: https://static.roland.com/assets/media/pdf/GT-1000_parameter_eng12_W.pdf
+[GT1000-IR]: https://static.roland.com/assets/media/pdf/GT-1000_IR_Loader_eng02_W.pdf
+[GT1000-IR1]: https://static.roland.com/assets/media/pdf/GT-1000_IR_Loader_eng01_W.pdf
+[GT1000-BTS]: https://static.roland.com/assets/media/pdf/BTS_GT-1000_eng05_W.pdf
