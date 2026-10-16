@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A1 FOUR remaining manual verification",
-    "task": "A1 FOUR new acoustic/shared-upright-bass record saved with exact offers,power alternatives,AGbodyIR and separate MAA-1 phantom adapter. Verify A1-only category/memory/control/looper details and keep A1Xextraeffects separate. Commit before next model. Further fresh discovery,technical gaps and legacy incoming/shared-source audits remain.",
+    "task": "A1 FOUR manual follow-up saved:50 preloaded memories,AUTO SAVE,mono30s Pre/Post looper and destructive setting changes. Remaining A1-only categories,controls/ports,save rules and other explicit gaps;fresh discovery and legacy incoming/shared-source audits remain. Commit useful findings before another model.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -797,7 +797,10 @@
         "https://zoomcorp.com/media/documents/E_A1FOUR.pdf",
         "https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/",
         "https://zoomcorp.com/en/us/multi-effects/acoustic/A1-FOUR-A1X-FOUR/a1-four-a1x-four-support/",
-        "https://zoomcorp.com/documents/120/E_A1FOUR_FX-list.pdf"
+        "https://zoomcorp.com/documents/120/E_A1FOUR_FX-list.pdf",
+        "https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf",
+        "https://zoomcorp.com/media/documents/E_A1FOUR_QuickGuide.pdf",
+        "https://zoomcorp.com/documents/119/E_A1FOUR.pdf"
       ],
       "offers": [
         {
@@ -851,12 +854,19 @@
         "A1-onlycategorycounts",
         "buttoncount/display",
         "EXP/fullports",
-        "memoryallocation",
+        "detailedmanualsave/overwrite",
         "importworkflows",
         "USBsupply/audio",
-        "looper",
+        "looperUndo/poweroffpersistence/slotcost",
         "condition/checkoutstock"
-      ]
+      ],
+      "manual_followup": {
+        "checked_date": "2026-10-17",
+        "access": "Official search-indexed text only;no files downloaded",
+        "memory": "50 total and preloaded;5 banks of10;AUTO SAVE retains edits",
+        "looper": "Mono30s;Pre/Post;overdub;holdSTOPwhile stopped clears;time/position/tempo changes erase",
+        "live": "PRESELECT and BANK HOLD documented"
+      }
     }
   ],
   "consolidation_and_price_findings": [
