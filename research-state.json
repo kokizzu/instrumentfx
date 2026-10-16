@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VoiceLive 3 Extreme primary follow-up",
-    "task": "VoiceLive3 Extreme USB/analog/phantom follow-up saved. Continue DC power,physical counts,looper andautomation/import limits with revision-qualified primary evidence;thenexactoffers. Commit eachmodel before next.",
+    "task": "VL3X loop duration/import formats anddirectUSBstick recording saved. Continue DC power,physical counts,loop storage/automation restrictions,currentsoftware andqualifiedoffers;commit before anothermodel.",
     "next_models": [],
     "after_queue": "Resume fresh Shopee discovery;no exhaustivecoverageclaim."
   },
@@ -1723,6 +1723,18 @@
           "Tracking-only USB dry vocalL/processed guitarR output option"
         ],
         "remaining": "Exact output/control socket counts,DC power,USB MIDI andsavedgaps"
+      },
+      "looper_import_recording_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+        "revision": "2015-10-20/2.1.00build346",
+        "resolved": [
+          "8min individual loop track;A with B/C swapping;last-overdub undo/redo",
+          "WAV16/24bit44.1/48k loop imports;4/4 andpower-of-two bar lengths;noMP3/AAX/FLAC",
+          "Backing track internal16bit48k conversion distinct fromloops",
+          "FAT32host directstereo recording includes loops/backing tracks;120min limit,newfileeachstartstop"
+        ],
+        "remaining": "Loop slots/storage totals,automation limits,DC/control andothersavedgaps"
       }
     }
   ],
