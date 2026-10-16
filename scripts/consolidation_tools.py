@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'hx-stomp': ('HX Stomp', 'effects/advanced-modelers.md'),
     'gp-50': ('GP-50', 'effects/findings/2026-10-14-valeton-gp-50.md'),
     'gp-5': ('GP-5', 'effects/findings/2026-10-14-valeton-gp-5.md'),
     'gp-180': ('GP-180', 'effects/findings/2026-10-14-valeton-gp-180.md'),
@@ -198,7 +199,73 @@ Separate rotary/button counts and toe operation; complete current category choic
     print('Plan saved: '+str(PLAN))
 
 
+
+def plan_hx_stomp():
+    research_tools.identity()
+    model, source_path = MODELS['hx-stomp']
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    assert model not in state['root_brand_content']['LINE6.md']
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text), 'Run make comparison-plan first'
+    record = comparison['records']['Line 6::HX Stomp']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    facts = record['facts']
+    assert all(f['source'] == source_path for f in facts)
+    contexts = [p for p in source.split('\n\n') if p.startswith('Checked **2026-10-14**') or p.startswith('K/F/B =') or p.startswith('The rounded Line 6 FAQ') or p.startswith("**HX Stomp's old FAQ") or p.startswith('USB audio input/output counts')]
+    assert len(contexts) == 5
+    urls = ['https://line6.com/hx-stomp/','https://kb.line6.com/hx-stomp-faq','https://line6.com/support/page/kb/effects-controllers/helix/helix-30-release-notes-r934/','https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set','https://www.thomannmusic.com/zoom_b6.htm']
+    section = '\n## HX Stomp\n\nConsolidated2026-10-17. Complete legacy model rows, dated qualifications and URLs are retained below. Display, controls, expression and qualified Shopee offers were additionally checked; indexed manual/guide facts are labelled with access limitations. This existing guitar/bass model adds no inventory count. Verification remains partial.\n\n### HX Stomp historical source evidence\n\n'
+    section += '\n\n'.join(contexts) + '\n\n'
+    for fact in facts:
+        section += '- **'+fact['field']+'** ('+fact['context']+'): '+fact['value']+'\n'
+    section += '\nOriginal source URLs: '+', '.join(urls)+'\n\nThe P1 **USD555** observation was checked2026-10-14 at an international store, excluding destination tax/shipping; no IDR conversion or present stock claim is made. [Complete legacy source](effects/advanced-modelers.md) remains available; no source or incoming link was deleted.\n\n### HX Stomp comparison fields\n\n| Field | Dated evidence / qualification |\n|---|---|\n'
+    for fact in facts:
+        field, value = fact['field'], fact['value']
+        if field == 'K/F/B':
+            value = '**6/3/4**: upper/lower/volume plus three parameter rotaries; three capacitive footswitches; HOME/VIEW,ACTION and two PAGE buttons. Encoder presses counted once; power toggle separate. [HS-P](https://line6.com/hx-stomp/).'
+        elif field == 'New USD observation':
+            continue
+        elif field == 'External expression':
+            field = 'Expression'
+            value = 'No built-in pedal/toe. Shared EXP1/2–FS4/5 accepts two external expression pedals, two switches, one of each, or compatible Mission pedal/toe-switch combination with appropriate cable/settings. These share one TRS socket, not independent ports. [HS-F](https://kb.line6.com/hx-stomp-faq).'
+        elif field == 'Third-party IR':
+            value = '**128 custom/third-party IR locations**, Single IR1024/2048 samples; one2048 or two1024 blocks per preset, subject to combined cab/IR and DSP restrictions. [Original3.80 manual, indexed evidence](https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf). Full reopen exceeded tool size limit; format/conversion details remain unverified.'
+        elif field == 'Preset storage':
+            value = '**126 editable presets**, three snapshots each. [HX Edit3.80 guide, indexed device-specific table](https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf); full reopening failed. Factory-filled subset remains unverified; do not borrow XL128/four figures.'
+        elif field == 'Power; battery/USB-powered?':
+            value = 'FAQ officially supports **DC-3G**, legacy source records special2.5mm pin and **no batteries**. Product-panel text calls supplied adapter **DC-3**; name discrepancy retained. Voltage/polarity/current and USB-powered operation not independently verified. [HS-F](https://kb.line6.com/hx-stomp-faq),[HS-P](https://line6.com/hx-stomp/).'
+        section += '| '+field+' | '+value+' |\n'
+    section += '''| Display | **2.4-inch color LCD**, explicitly published. Touchscreen and numerical pixels unverified; capacitive footswitches do not establish a touch display. [HS-P](https://line6.com/hx-stomp/) |
+| Used IDR | **Rp8.900.000**, explicitly Second/Bekas/Preloved, **Habis**; sellerotnielsusanto,shop91725285/item26545060709,Kota Surabaya. Indexed reopening checked2026-10-17; stale25–27September delivery. Historical ask, not an available offer or completed sale. Condition grade/accessories,warranty region,delivered charges and voucher eligibility unconfirmed. [Exact used listing](https://shopee.co.id/Line-6-HX-Stomp-%28Second-Bekas-Preloved%29-Digital-Multi-Effects-Electric-Guitar-Bass-Keyboard-Efek-Gitar-Elektrik-Akustik-i.91725285.26545060709) |
+| New / retail IDR | **Rp11.229.000**, ROCKPIZZ MUSIC,shop440477624/item23519849983,Kota Denpasar,black HX Stomp. Indexed reopening checked2026-10-17,stale18August delivery. Retail hardware title; detailed condition,stock,accessories,warranty region,delivery/tax and voucher eligibility unconfirmed. Not HX Stomp XL. [Exact retail listing](https://shopee.co.id/LINE-6-HX-STOMP-MULTI-EFFECTS-GUITAR-PEDAL-BLACK-i.440477624.23519849983) |
+
+### HX Stomp evidence limits
+
+The product page/FAQ still contain six-block wording. Retain the firmware3.0 eight-block correction above; do not revert based on launch copy or equate advertised available-model totals with simultaneous capacity. Firmware-current category counts, exact synth/acoustic algorithms, IR import conversion, NAM/capture support, screen touch/pixels, detailed USB channel/driver/updater requirements and looper/drum limits remain open. No sibling XL specifications are substituted. Published2.4-inch display and numbered control descriptions are model-specific evidence; no screen size was measured from a photo. The3.80 manual/guide details above came from indexed original-document excerpts; full-file reading or visual inspection is not claimed.
+'''
+    brand = (ROOT/'LINE6.md').read_text().replace('Other legacy Line 6 records still require consolidation; no whole-repository migration claim is made.', 'All eight recorded Line 6 models now have root records; specification checks and market discovery remain incomplete.')
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content']['LINE6.md'].append(model)
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['Line 6 HX Stomp'],model_name=model,brand='Line 6',destination='LINE6.md#hx-stomp',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,status='Consolidated, partial; primary controls/display and qualified IDR offers added; indexed manual access limits explicit'))
+    state['discovery_leads'].append(dict(model='Line 6 HX Stomp',checked_date='2026-10-17',status='Existing model refreshed; no duplicate count',urls=['https://shopee.co.id/Line-6-HX-Stomp-%28Second-Bekas-Preloved%29-Digital-Multi-Effects-Electric-Guitar-Bass-Keyboard-Efek-Gitar-Elektrik-Akustik-i.91725285.26545060709','https://shopee.co.id/LINE-6-HX-STOMP-MULTI-EFFECTS-GUITAR-PEDAL-BLACK-i.440477624.23519849983'],qualification='Used8900000,explicitsecond/preloved,Habis,otnielsusanto Surabaya. Retail11229000,ROCKPIZZ MUSIC Denpasar,staleAugust delivery. Condition/accessories/region/checkout stock unconfirmed.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='IK Multimedia TONEX ONE — complete legacy consolidation',task='Read complete advanced-modelers source and all model-specific records for TONEX ONE. Preserve20-versus30 preset contradiction and original firmware/software dates; verify model-specific current official evidence and exact Shopee offers, consolidate in root IK-MULTIMEDIA.md and commit before TONEX Pedal. Continue remaining legacy models and fresh discovery.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme = (ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely').replace('Helix LT,HX Stomp XL |','Helix LT,HX Stomp XL,HX Stomp |')
+    multi = (ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={'LINE6.md':brand+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    payload=dict(model_id='hx-stomp',model=model,inputs={p:digest((ROOT/p).read_text()) for p in list(outputs)+[source_path]},outputs=outputs,rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview HX Stomp: exact writes '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged. Rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
+
 def plan(model_id):
+    if model_id == 'hx-stomp':
+        return plan_hx_stomp()
     if model_id == 'gp-200':
         return plan_gp200()
     research_tools.identity()
@@ -421,7 +488,7 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('valeton' if model_id in ('gp-5', 'gp-50', 'gp-100', 'gp-150', 'gp-180', 'gp-200') else 'mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('valeton' if model_id in ('gp-5', 'gp-50', 'gp-100', 'gp-150', 'gp-180', 'gp-200') else 'mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id in ('hx-stomp','hx-stomp-xl') else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':

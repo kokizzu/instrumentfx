@@ -445,3 +445,11 @@ consolidation-apply-gp-50:
 	python3 scripts/consolidation_tools.py apply gp-50
 consolidation-commit-gp-50:
 	python3 scripts/consolidation_tools.py commit gp-50
+
+.PHONY: consolidation-plan-hx-stomp consolidation-apply-hx-stomp consolidation-commit-hx-stomp
+consolidation-plan-hx-stomp:
+	python3 scripts/consolidation_tools.py plan hx-stomp
+consolidation-apply-hx-stomp:
+	python3 scripts/consolidation_tools.py apply hx-stomp
+consolidation-commit-hx-stomp:
+	python3 scripts/consolidation_tools.py commit hx-stomp

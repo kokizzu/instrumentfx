@@ -1,6 +1,6 @@
 # Line 6 multi-effects
 
-Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Express Guitar/Bass are newly researched here; the standard POD Go profile is consolidated from its existing source-backed record without adding another model to the inventory. Other legacy Line 6 records still require consolidation; no whole-repository migration claim is made. No GitHub Actions workflows are used.
+Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Express Guitar/Bass are newly researched here; the standard POD Go profile is consolidated from its existing source-backed record without adding another model to the inventory. All eight recorded Line 6 models now have root records; specification checks and market discovery remain incomplete. No GitHub Actions workflows are used.
 
 ## POD Go and POD Go Wireless
 
@@ -336,3 +336,65 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Original model commit** (IDR observations and original commits): `b4ba5b5559dcdd33b196153d4557408d71cbb89f`
 
 Sources: [effects/findings/2026-10-14-line6-hx-stomp-xl.md](effects/findings/2026-10-14-line6-hx-stomp-xl.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
+
+## HX Stomp
+
+Consolidated2026-10-17. Complete legacy model rows, dated qualifications and URLs are retained below. Display, controls, expression and qualified Shopee offers were additionally checked; indexed manual/guide facts are labelled with access limitations. This existing guitar/bass model adds no inventory count. Verification remains partial.
+
+### HX Stomp historical source evidence
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Native NAM, architecture-limited NAM, converted NAM, proprietary captures and cabinet IRs are different capabilities. An effects-only unit is not necessarily an amp modeler.
+
+K/F/B = rotary controls / footswitches / separate buttons. Push-encoders are counted once. Nano Cortex's rotary footswitches are explicitly called out rather than hidden in the knob count. Dimensions are **W×D×H, mm**. Prices are separate **USD** new and used observations; missing used prices have not been invented.
+
+The rounded Line 6 FAQ dimensions are not precision measurements. They establish the category but should not be used as a millimetre-perfect drilling template. Manufacturer FAQ launch prices are **not** presented as current offers.
+
+**HX Stomp's old FAQ says six blocks**, but the official firmware-3.0 release notes increased the limit to **eight**. Similarly, HX Effects' launch FAQ predates full HX Edit support and later model additions. This comparison uses the release notes/current software listing rather than treating the old FAQ's launch-era software limitations and prices as current.
+
+USB audio input/output counts use the manufacturer's interface convention. A capture microphone connector does not establish a dedicated live vocal-effects path. Do not connect an amplifier's speaker output directly to an instrument/capture input; the appropriate load/interface is required.
+
+- **External expression** (No built-in expression pedal): Shared EXP1/2, FS4/5; two controllers with appropriate Y cable
+- **K/F/B** (No built-in expression pedal): 6/3/4 [panel]
+- **W×D×H; weight** (No built-in expression pedal): Approx. **178×127×64**, 794 g, converted from official FAQ's rounded inches/pounds
+- **Size class** (No built-in expression pedal): Compact
+- **Used USD** (No built-in expression pedal): ?
+- **New USD observation** (No built-in expression pedal): $555, Thomann [P1]
+- **Simultaneous processing / available choices** (Processing, presets, IR and capture formats): **8 blocks, DSP-limited**, since firmware 3.0; amp/cab/effects share the budget; current category counts not yet transcribed
+- **Preset storage** (Processing, presets, IR and capture formats): **126 editable presets**; factory-filled subset ?
+- **Synth / acoustic functions** (Processing, presets, IR and capture formats): Individual synth/acoustic algorithms not yet verified
+- **Third-party IR** (Processing, presets, IR and capture formats): Yes; slot/sample limits pending
+- **NAM / proprietary capture** (Processing, presets, IR and capture formats): NAM not established; ordinary Helix amp models are not NAM captures
+- **Audio/control ports** (Connections, power, software and live use): 2×¼″ in/out; balanced main outputs; stereo TRS send +2 returns; ¼″ headphones; shared EXP/FS; DIN MIDI IN/OUT-THRU; USB-B; DC
+- **Power; battery/USB-powered?** (Connections, power, software and live use): Manufacturer specifies **DC-3G supply**, special 2.5 mm pin; **no batteries**; USB-powered operation not established
+- **Configuration apps and USB functions** (Connections, power, software and live use): **HX Edit Windows/macOS**; multichannel USB audio/reamp; iOS USB audio via appropriate adapter, not an iOS editor
+- **Other important differences** (Connections, power, software and live use): Analog or DSP bypass/trails; flexible parallel routing; looper occupies a block
+
+Original source URLs: https://line6.com/hx-stomp/, https://kb.line6.com/hx-stomp-faq, https://line6.com/support/page/kb/effects-controllers/helix/helix-30-release-notes-r934/, https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set, https://www.thomannmusic.com/zoom_b6.htm
+
+The P1 **USD555** observation was checked2026-10-14 at an international store, excluding destination tax/shipping; no IDR conversion or present stock claim is made. [Complete legacy source](effects/advanced-modelers.md) remains available; no source or incoming link was deleted.
+
+### HX Stomp comparison fields
+
+| Field | Dated evidence / qualification |
+|---|---|
+| Expression | No built-in pedal/toe. Shared EXP1/2–FS4/5 accepts two external expression pedals, two switches, one of each, or compatible Mission pedal/toe-switch combination with appropriate cable/settings. These share one TRS socket, not independent ports. [HS-F](https://kb.line6.com/hx-stomp-faq). |
+| K/F/B | **6/3/4**: upper/lower/volume plus three parameter rotaries; three capacitive footswitches; HOME/VIEW,ACTION and two PAGE buttons. Encoder presses counted once; power toggle separate. [HS-P](https://line6.com/hx-stomp/). |
+| W×D×H; weight | Approx. **178×127×64**, 794 g, converted from official FAQ's rounded inches/pounds |
+| Size class | Compact |
+| Used USD | ? |
+| Simultaneous processing / available choices | **8 blocks, DSP-limited**, since firmware 3.0; amp/cab/effects share the budget; current category counts not yet transcribed |
+| Preset storage | **126 editable presets**, three snapshots each. [HX Edit3.80 guide, indexed device-specific table](https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf); full reopening failed. Factory-filled subset remains unverified; do not borrow XL128/four figures. |
+| Synth / acoustic functions | Individual synth/acoustic algorithms not yet verified |
+| Third-party IR | **128 custom/third-party IR locations**, Single IR1024/2048 samples; one2048 or two1024 blocks per preset, subject to combined cab/IR and DSP restrictions. [Original3.80 manual, indexed evidence](https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf). Full reopen exceeded tool size limit; format/conversion details remain unverified. |
+| NAM / proprietary capture | NAM not established; ordinary Helix amp models are not NAM captures |
+| Audio/control ports | 2×¼″ in/out; balanced main outputs; stereo TRS send +2 returns; ¼″ headphones; shared EXP/FS; DIN MIDI IN/OUT-THRU; USB-B; DC |
+| Power; battery/USB-powered? | FAQ officially supports **DC-3G**, legacy source records special2.5mm pin and **no batteries**. Product-panel text calls supplied adapter **DC-3**; name discrepancy retained. Voltage/polarity/current and USB-powered operation not independently verified. [HS-F](https://kb.line6.com/hx-stomp-faq),[HS-P](https://line6.com/hx-stomp/). |
+| Configuration apps and USB functions | **HX Edit Windows/macOS**; multichannel USB audio/reamp; iOS USB audio via appropriate adapter, not an iOS editor |
+| Other important differences | Analog or DSP bypass/trails; flexible parallel routing; looper occupies a block |
+| Display | **2.4-inch color LCD**, explicitly published. Touchscreen and numerical pixels unverified; capacitive footswitches do not establish a touch display. [HS-P](https://line6.com/hx-stomp/) |
+| Used IDR | **Rp8.900.000**, explicitly Second/Bekas/Preloved, **Habis**; sellerotnielsusanto,shop91725285/item26545060709,Kota Surabaya. Indexed reopening checked2026-10-17; stale25–27September delivery. Historical ask, not an available offer or completed sale. Condition grade/accessories,warranty region,delivered charges and voucher eligibility unconfirmed. [Exact used listing](https://shopee.co.id/Line-6-HX-Stomp-%28Second-Bekas-Preloved%29-Digital-Multi-Effects-Electric-Guitar-Bass-Keyboard-Efek-Gitar-Elektrik-Akustik-i.91725285.26545060709) |
+| New / retail IDR | **Rp11.229.000**, ROCKPIZZ MUSIC,shop440477624/item23519849983,Kota Denpasar,black HX Stomp. Indexed reopening checked2026-10-17,stale18August delivery. Retail hardware title; detailed condition,stock,accessories,warranty region,delivery/tax and voucher eligibility unconfirmed. Not HX Stomp XL. [Exact retail listing](https://shopee.co.id/LINE-6-HX-STOMP-MULTI-EFFECTS-GUITAR-PEDAL-BLACK-i.440477624.23519849983) |
+
+### HX Stomp evidence limits
+
+The product page/FAQ still contain six-block wording. Retain the firmware3.0 eight-block correction above; do not revert based on launch copy or equate advertised available-model totals with simultaneous capacity. Firmware-current category counts, exact synth/acoustic algorithms, IR import conversion, NAM/capture support, screen touch/pixels, detailed USB channel/driver/updater requirements and looper/drum limits remain open. No sibling XL specifications are substituted. Published2.4-inch display and numbered control descriptions are model-specific evidence; no screen size was measured from a photo. The3.80 manual/guide details above came from indexed original-document excerpts; full-file reading or visual inspection is not claimed.
