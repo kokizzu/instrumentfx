@@ -377,7 +377,7 @@ def main():
         if mode == 'commit-b3':
             message = 'research(zoom): verify B3 battery-excluded mass and analog conversion limits'
         if mode == 'commit-g3':
-            message = 'research(zoom): document G3 external control assignments and output routing'
+            message = 'research(zoom): document G3 battery settings eco behavior and tuner modes'
         if mode == 'commit-me25':
             message = 'research(boss): qualify ME-25 library software and converter specifications'
         if mode == 'commit-me70':

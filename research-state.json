@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G2Nu / G2.1Nu exact hardware discovery",
-    "task": "Mixed-model Hope Music storefront lead saved; resolve an exact item/variant before assigning price. Current storefront omits that older indexed listing.",
+    "model": "Remaining manufacturer-backed technical gaps",
+    "task": "G3 power/display/tuner details saved. G2Nu/G2.1Nu exact item remains unresolved; use another source or series rather than repeating these queries.",
     "next_models": [],
-    "after_queue": "Continue manufacturer-backed gaps and fresh Shopee brand/series searches."
+    "after_queue": "Continue incomplete fields and exact hardware discovery."
   },
   "new_findings": [
     {
@@ -3992,6 +3992,14 @@
         "Battery/USB power",
         "Published screen dimensions"
       ]
+    },
+    {
+      "model": "Zoom G3",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "finding": "Added Ni-MH battery-type selection, eco standby and guitar-input exception, per-display contrast, backlight power-saving behavior and alternate/drop tuner modes from shared manufacturer manual explicitly covering original G3. No G3X specification transferred.",
+      "remaining": "Full control/socket inventory, screen specifications, category counts, current editor support and qualified current offers remain unresolved."
     }
   ],
   "consolidation_and_price_findings": [
@@ -48895,6 +48903,7 @@
       "access": "Search-index storefront excerpt only; current month-old storefront text omits this listing.",
       "qualification": "Mixed models; exact item link, selected hardware variant, condition, region, bundle, stock and vouchers unresolved. Do not assign the displayed amount to any individual model or add a verified offer."
     },
-    "next": "Seek a distinct exact G2Nu or G2.1Nu item; exclude adapter listings. Primary model architecture and revision verification required before catalogue addition."
+    "next": "Seek a distinct exact G2Nu or G2.1Nu item; exclude adapter listings. Primary model architecture and revision verification required before catalogue addition.",
+    "followup": "Narrow punctuation/spacing and accessory-exclusion queries still returned only the mixed Hope Music storefront or accessory results; no exact item/variant resolved."
   }
 }
