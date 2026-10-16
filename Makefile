@@ -937,3 +937,17 @@ consolidation-audit-boss-links:
 .PHONY: research-commit-boss-union
 research-commit-boss-union:
 	python3 scripts/research_tools.py commit-boss-union
+
+.PHONY: consolidation-plan-boss-history-union consolidation-audit-boss-history-union
+consolidation-plan-boss-history-union:
+	python3 scripts/consolidation_tools.py plan-boss-history-union
+consolidation-audit-boss-history-union:
+	python3 scripts/consolidation_tools.py audit-boss-history-union
+
+.PHONY: consolidation-audit-boss-history-links
+consolidation-audit-boss-history-links:
+	python3 scripts/consolidation_tools.py audit-boss-history-links
+
+.PHONY: research-commit-boss-history-union
+research-commit-boss-history-union:
+	python3 scripts/research_tools.py commit-boss-history-union

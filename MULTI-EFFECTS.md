@@ -179,3 +179,15 @@ Voltage/polarity and current supplied-versus-drawn distinctions must be confirme
 Primary product/specification links support the technical rows. Each follow-up includes exact price, photo or additional primary references and retrieval limitations. The [original source snapshot](effects/guitar-boss.history-2026-10-14.md) preserves all previous references and USD provenance byte-for-byte.
 
 Next original-page review: **NUX MG-101**. Six other original comparison pages still need their display/IDR migration. This completed seven-model pass does not establish exhaustive model discovery or fully verified current prices.
+
+### Original BOSS historical navigation and price-source context
+
+The following groups preserve the2026-10-14 original USD observations and source qualifications,with local links normalized to repository root. These indexed asks are historical;they are not current IDR offers or completed-sale statistics.
+
+[Home](effects/README.md) · [Floorboard index](effects/guitar-floorboards.md) · [Bass-specific BOSS models](effects/bass.md) · [Compact alternatives](effects/guitar-compact.md)
+
+- [N: Guitar Center BOSS catalogue, new and sale prices](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc). Treat adapter bundles and open-box prices separately.
+- [U1: Guitar Center used BOSS multi-effects listings](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc).
+- U2: GT-1000CORE [indexed $414.99 ask](https://www.guitarcenter.com/BOSS/Floor-Guitar-Effects.gc?Ntt=%E2%80%8B&page=12) and [indexed $499.99 asks](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc?page=7). These paginated/indexed listings can be stale; availability is not confirmed.
+- U3: GX-10 [item 122596708, $324.99](https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122596708.gc) and [item 122413069, $329.99](https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122413069.gc).
+- [U4: indexed ME-90 $254.99 Good-condition ask](https://www.guitarcenter.com/Used/Boss/?page=60).
