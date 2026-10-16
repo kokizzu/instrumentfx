@@ -1719,18 +1719,18 @@ Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufa
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in expression; control input accepts FP01/FP02 or FS01. Toe mechanics unverified. | [Product][ZG3X-P]; [Shared manual][ZG3X-M] |
+| Expression | Built-in expression; pedal switch toggles its assigned effect. Shared specifications list FP01/FP02/FS01, but G3X-specific external-pedal functions need model-label corroboration. Adjustable min/max can reverse response; AUTO ASSIGN fixes endpoints. Exact toe mechanics unverified. | [Product][ZG3X-P]; [Shared manual pp18–19,59][ZG3X-M] |
 | K/F/B | Nine rotary parameter controls derived from three sections×three; three main footswitches plus pedal switch. Complete separate-button count and visual corroboration pending. | [Manual pp4–5][ZG3X-M] |
 | Display | Three LCDs; diagonal, color and touch unverified. | [Product][ZG3X-P]; [Manual][ZG3X-M] |
 | Dimensions / mass | **175 D ×323 W ×66 H mm;1.6kg**, explicitly G3X. | [Manual p59][ZG3X-M] |
-| Processing / category choices | **Six simultaneous**, DSP-limited: overload bypasses an effect. **116 types**, matching product94effects+22amp/cabinet models. Per-category counts unverified. | [Product][ZG3X-P]; [Manual pp3,58–59][ZG3X-M] |
+| Processing / category choices | **Six simultaneous**, DSP-limited: overload bypasses an effect. Bypassed effects retain their processing allocation; change types or use THRU to avoid DSP Full. **116 types**, matching product94effects+22amp/cabinet models. Per-category counts unverified. | [Product][ZG3X-P]; [Manual pp3,10,58–59][ZG3X-M] |
 | Factory / user memory | **100 patches;10banks×10**. Factory-filled/blank split unverified. | [Manual pp3,59][ZG3X-M] |
-| Synth / acoustic | Acoustic simulation appears in factory-patch descriptions. Dedicated synth choices unverified. | [Manual appended patch list][ZG3X-M] |
+| Synth / acoustic | **083 MonoSynth** detects input pitch for single-note guitar synthesis; **084 Z-Organ** simulates organ. **038 Aco.Sim** converts electric-guitar timbre toward acoustic. These are separate effects, not proof of polyphonic synthesis. | [Manual pp45,52][ZG3X-M] |
 | I/O | Mono input1MΩ with active/passive selection; R output; shared L/MONO/PHONES; balanced XLR with PRE/POST and ground lift; control input,USB,DC9V. | [Manual pp4–5,59][ZG3X-M] |
 | Power / battery / USB | AD-16:9VDC center-negative,500mA supply,not measured draw. FourAA alkaline~6h. USB bus power supported; set POWER OFF before USB connection. | [Manual pp36,58–59][ZG3X-M] |
 | IR / NAM / capture | User IR, native/converted NAM and capture imports unverified; factory models do not establish import support. | Unresolved |
 | Editor / software | Edit&Share: Windows XP/Vista/7/8/8.1/10; MacOSX10.9–10.12. Separate ASIO2.0.1 driver: Windows7/8/8.1/10. Firmware2.10 Windows/Mac listed. Current OS compatibility unverified. | [Support][ZG3X-S] |
-| Looper / drums / live | **1.5–40s;20s with UNDO**; rhythm synchronization. Changing duration/tempo or powering off erases loop. Scenes/trails unverified. | [Manual pp30–35][ZG3X-M] |
+| Looper / drums / live | **1.5–40s;20s with UNDO**; rhythm synchronization. Changing duration/tempo or powering off erases loop. Two-switch bank changes can briefly trigger the earlier switch and affect sound. Scenes/trails unverified. | [Manual pp13,30–35][ZG3X-M] |
 
 ### Separate IDR hardware offers
 

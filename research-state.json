@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G3X",
-    "task": "Original G3X saved separately from G3/G3Xn. Next exact effect inventory/controls or fresh Shopee discovery; preserve shared-manual model distinctions and cached condition-unknown prices.",
+    "model": "Fresh Shopee discovery / remaining technical gaps after G3X",
+    "task": "G3X synth/acoustic,DSP andpedal restrictions saved. Exact category/control/factory gaps remain; continue another exact eligible model or resolve intact primary model labels. Do not repeat corrupted-text guesses.",
     "next_models": [],
-    "after_queue": "Search Shopee brands/series for eligible exact hardware."
+    "after_queue": "Search Shopee by brand/series; exclude mixed-price variants and accessories."
   },
   "new_findings": [
     {
@@ -4290,6 +4290,15 @@
       ],
       "finding": "Added exact originalG3X;shared manufacturer manual explicitly separatesG3X175D323W66H1.6kg;6effectsDSP-limited,116types,100patches,USBpower,40/20slooper andexactcachedHabis1700000/1950000asks.",
       "remaining": "Exact category/factory counts,fullbuttons/toe/screen,powerdraw,import capabilities,synth andcurrentcondition-qualifiedprices."
+    },
+    {
+      "model": "Zoom G3X",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "finding": "Confirmed083MonoSynth single-note pitch-detected synth,084Z-Organ,038Aco.Sim;effectbypass retainsDSP;THRU/typechange remedy. Pedalswitchassigned-effect toggling,min/maxreversal,AUTOASSIGNfixedendpoints;two-switch bank-change earlier-trigger caveat.",
+      "correction": "Qualified G3X external-expression function: shared specifications listFP01/FP02/FS01 but operation text loses model logos. Do not transfer G3-only external-volume behavior to G3X without intact model-label corroboration.",
+      "remaining": "Exact category counts,completebuttons/externalpedal functions,factorymemorysplit,imports andcurrent condition-qualifiedprices."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40264,7 +40273,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G3X."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / remaining technical gaps after G3X."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

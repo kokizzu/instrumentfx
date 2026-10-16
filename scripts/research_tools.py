@@ -329,7 +329,7 @@ def main():
         if mode == 'commit-dapper-dark-mini':
             message = 'research(valeton): add separate Dark Mini with indexed-manual qualifications'
         if mode == 'commit-g3x':
-            message = 'research(zoom): add original G3X with model-specific manual and exact offers'
+            message = 'research(zoom): verify G3X synth DSP and expression qualifications'
         if mode == 'commit-g5':
             message = 'research(zoom): qualify G5 controls looper and tube-booster restrictions'
         if mode == 'commit-ms50gplus':
