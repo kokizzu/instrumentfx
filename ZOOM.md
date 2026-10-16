@@ -981,3 +981,43 @@ Full footswitch/button inventory,explicit screen diagonal/color/touch,all catego
 ### Exact-model patch and practice follow-up
 
 Checked2026-10-17 via official indexed text only;no file downloaded or image inspection. The G3n patch list,not the different G3Xn/G5n patch numbering,establishes Tacoustic036,Loopertron042,Gayageum043 and default-empty76–150. The shared G3n/G3Xn manual establishes looper timing and overflow behavior. Japanese manual rhythm entries1–68 plus the joint Japanese product description support G3n rhythm inclusion despite narrower English marketing wording. Remaining unknowns are not negative capability claims.
+
+## B3n
+
+Reviewed **2026-10-17** following fresh exact Shopee hardware discovery. Bass-focused multi-effects;separate from B3 and guitar G3n,no ownership assertion. US manufacturer page marks discontinued. Partial:indexed primary manual text and ordinary page text only;no dependency,software,firmware or manual file downloaded.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal in complete front-panel inventory;external FP02 control input. Current accessory listing names FP02M;built-in toe N/A. | [Manual,pp.4–5,47](https://zoomcorp.com/media/documents/E_B3n.pdf); [product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/) |
+| K/F/B | **13 rotaries derived**:three units×four parameter knobs+control/enter encoder. FS1–FS3,BANK/SCROLL,mode and TYPE/MENU named;complete footswitch/button totals require panel confirmation. Power separate;encoder counted once. | [Manual,pp.3–5](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Display / dimensions | Three128×32 dot-matrix LCDs;diagonal,explicit color/mono,touch ?. **234 W ×181 D ×58 H mm;1.28kg**,medium;plug clearance extra. | [Manual,p.47](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Processing | Up to **seven effects/amps/cabs simultaneously**,reorderable. Large effects use multiple units;**100-point DSP maximum**,effect costs differ. Seven is not a guarantee for every combination. | [Manual](https://zoomcorp.com/media/documents/E_B3n.pdf); [power chart](https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf); [product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/) |
+| Categories / choices | Product67stomp effects:19dynamics/filter,15drive/distortion,17modulation,11delay/reverb,and other effects;five amps+five cabs. Manual80types. Category wording and total scope differ;remaining categories not guessed from subtraction. | [Product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/); [manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Memory | **150 locations;76–150 empty by default** in B3n patch sheet,75 supplied. Three patches/bank. Overwrite/restore rules still need operation review;not150+75. | [Manual](https://zoomcorp.com/media/documents/E_B3n.pdf); [B3n patch list](https://zoomcorp.com/media/documents/E_B3n_patch-list.pdf) |
+| Synth / acoustic | Exact B3n patch008 MJ Synth is described as synth bass;009 JacoBass as fretless sound. Dedicated synth-engine count,tracking/polyphony,electric-to-acoustic simulator and acoustic body modeling remain unverified. | [B3n patch list](https://zoomcorp.com/media/documents/E_B3n_patch-list.pdf) |
+| Audio / control ports | Mono standard instrument input;stereo mini AUX;mono R output;**stereo L/MONO/PHONES combined line/headphone output**;FP02 control;USB Micro-B. Exact control wiring and full physical MIDI/loop/XLR/phantom exclusions ?. | [Manual,p.47](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Power | **DC9V,500mA,center-negative AD-16**. Battery/USB operation not established;USB does not prove bus power. | [Manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| IR / NAM / capture | Built-in cabs use impulse-response modeling;third-party IR import,native NAM,converted NAM and user amp-capture loading not established. | [Manual,p.3](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Editor / platforms | Guitar Lab Windows/macOS edits chains/patches;support lists7.3 (Windows8.1/10/11;macOS10.13–26),separate B3n firmware2.20 for Windows/Mac. Mobile editor ?. | [Product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/); [support](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/b3n-support/) |
+| USB / recording | Manual specifies **USB MIDI,Micro-B**. USB audio interface operation not established by this evidence;do not apply older B3 recording features. | [Manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Looper / drums / live | **68 rhythms;up to80-second looper**,overdub,tap synchronization with rhythms/delays,tuner/bypass/mute. Exact mono/stereo/Undo times,slot cost,scenes/tails need exact-model confirmation. | [Product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/) |
+
+### Headphone source conflict
+
+Zoom’s product page says dedicated headphones;the manual’s specification identifies combined L/MONO/PHONES. Preserve the conflict and use the manual’s explicit combined socket inventory rather than inventing a separate headphone jack.
+
+### Separate IDR asking-price evidence
+
+Checked2026-10-17. **Used IDR:Rp2.125.000 SOLD OUT**,[Recording Bekas Surabaya,shop1165451985/item26184677935](https://shopee.co.id/Zoom-B3n-%28Bekas%29-i.1165451985.26184677935),Kab. Sidoarjo. Explicit Bekas title;shipping unavailable,indexed only,direct reopening cache miss. Historical ask,not completed sale or current used lower bound.
+
+**Verified new-condition price:?** Other exact hardware asks below have unconfirmed condition;all were indexed and directly retrieved as text.
+
+- **Rp2.792.400** — [Primanada,shop15931156/item2221803864](https://shopee.co.id/Zoom-B3n-Multi-Effects-Processor-for-Bassists-Zoom-Efek-Bass-B3-n-Efek-Digital-Bass-i.15931156.2221803864),Kota Jakarta Utara. Habis/sold out. Delivery:Relative next-day banner,not live-stock proof.
+- **Rp2.800.000** — [nusantaramusic,shop88823786/item2765186503](https://shopee.co.id/Zoom-B3n-B3N-Bass-Multi-Effect-Pedal-i.88823786.2765186503),Kota Pekanbaru. No sold-out marker exposed;quantity/checkout unverified. Delivery:8–11October,stale.
+- **Rp2.400.000** — [damasdamas,shop25285502/item41656016449](https://shopee.co.id/Zoom-B3n-multi-effects-processor-i.25285502.41656016449),Kab. Purworejo. No sold-out marker exposed;quantity/checkout unverified. Delivery:15–18September,stale.
+
+Stock quantities,checkout availability,revision,accessories,warranty region,shipping/tax and delivered totals remain unknown. Late-delivery compensation vouchers are not assumed product discounts. Asking observations are not a verified market range. Seller identities/condition labels are claims,not inspected hardware. No currency conversion or estimated used discount applied.
+
+### Remaining verification
+
+Full F/B counts,explicit display specifications,all category choices and revision totals,DSP/looper slot usage,memory overwrite,synth/acoustic architecture,complete wiring/exclusions,IR/NAM/capture workflows,power alternatives,USB audio status,looper mono/stereo/Undo limits,scenes/tails and condition-specific current offers. No sibling specifications substituted.

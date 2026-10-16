@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 130,
+  "active_model_count": 131,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 130,
+  "canonical_root_model_count": 131,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee Indonesia discovery — Zoom B3n",
-    "task": "G3n targeted follow-up saved:exactpatch/defaultempty memory,68rhythms,looper/Undo and overflow resolved. Remaining fields explicitly tracked. Search exact B3n bass hardware on Shopee,confirm absence frominventory and verify primary specs withoutdownloads;commit before next model. Continue broader technical gaps,shared-source preservation and incominglinks;goal remains incomplete.",
+    "model": "Zoom B3n remaining manual verification",
+    "task": "B3n new bass record saved with four exact Shopee offers (explicit used sold out),100DSP budget and model-specific memory/synth patch evidence. Next verify looper mono/stereo/Undo,category choices and full controls/USB evidence from exact-model primary indexed text. Commit before next model. Other shared-source/incoming audits,technical gaps and fresh discovery remain required.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -670,6 +670,93 @@
           "currentconditionoffers"
         ]
       }
+    },
+    {
+      "model": "Zoom B3n",
+      "path": "ZOOM.md#b3n",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "classification": "bass-focused",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_B3n.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/",
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/b3n-support/",
+        "https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf",
+        "https://zoomcorp.com/media/documents/E_B3n_patch-list.pdf"
+      ],
+      "offers": [
+        {
+          "seller": "Recording Bekas Surabaya",
+          "shop": "1165451985",
+          "item": "26184677935",
+          "url": "https://shopee.co.id/Zoom-B3n-%28Bekas%29-i.1165451985.26184677935",
+          "idr": 2125000,
+          "location": "Kab. Sidoarjo",
+          "condition": "explicit Bekas/used title",
+          "stock": "Habis/sold out;shipping unavailable",
+          "access": "Indexed only;direct reopening cache miss",
+          "checked_date": "2026-10-17",
+          "bundle": "unverified",
+          "warranty_region": "unverified",
+          "delivered_charges": "unverified"
+        },
+        {
+          "seller": "Primanada",
+          "shop": "15931156",
+          "item": "2221803864",
+          "url": "https://shopee.co.id/Zoom-B3n-Multi-Effects-Processor-for-Bassists-Zoom-Efek-Bass-B3-n-Efek-Digital-Bass-i.15931156.2221803864",
+          "idr": 2792400,
+          "location": "Kota Jakarta Utara",
+          "stock": "Habis/sold out",
+          "delivery": "Relative next-day banner,not live-stock proof",
+          "checked_date": "2026-10-17",
+          "condition": "unverified",
+          "bundle": "unverified",
+          "warranty_region": "unverified",
+          "delivered_charges": "unverified"
+        },
+        {
+          "seller": "nusantaramusic",
+          "shop": "88823786",
+          "item": "2765186503",
+          "url": "https://shopee.co.id/Zoom-B3n-B3N-Bass-Multi-Effect-Pedal-i.88823786.2765186503",
+          "idr": 2800000,
+          "location": "Kota Pekanbaru",
+          "stock": "No sold-out marker exposed;quantity/checkout unverified",
+          "delivery": "8–11October,stale",
+          "checked_date": "2026-10-17",
+          "condition": "unverified",
+          "bundle": "unverified",
+          "warranty_region": "unverified",
+          "delivered_charges": "unverified"
+        },
+        {
+          "seller": "damasdamas",
+          "shop": "25285502",
+          "item": "41656016449",
+          "url": "https://shopee.co.id/Zoom-B3n-multi-effects-processor-i.25285502.41656016449",
+          "idr": 2400000,
+          "location": "Kab. Purworejo",
+          "stock": "No sold-out marker exposed;quantity/checkout unverified",
+          "delivery": "15–18September,stale",
+          "checked_date": "2026-10-17",
+          "condition": "unverified",
+          "bundle": "unverified",
+          "warranty_region": "unverified",
+          "delivered_charges": "unverified"
+        }
+      ],
+      "unresolved": [
+        "F/B",
+        "display",
+        "category/revisioncounts",
+        "looper/DSPslots",
+        "overwrite",
+        "synth/acoustic",
+        "ports/import",
+        "power/USBaudio",
+        "condition/currentstock"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -11099,7 +11186,8 @@
       "G11",
       "G3Xn",
       "G5n",
-      "G3n"
+      "G3n",
+      "B3n"
     ]
   },
   "root_brand_content": {
@@ -11177,7 +11265,8 @@
       "V6-SP",
       "G3Xn",
       "G5n",
-      "G3n"
+      "G3n",
+      "B3n"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -11287,8 +11376,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 58,
-      "bass_focused_record_count": 11,
+      "record_count": 59,
+      "bass_focused_record_count": 12,
       "shared_bass_capable_count": 47,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -15092,17 +15181,17 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 130,
-    "canonical_root_models": 130,
+    "unique_brand_model_pairs": 131,
+    "canonical_root_models": 131,
     "legacy_only_models": 0,
     "guitar_view_models": 110,
-    "bass_focused_models": 11,
+    "bass_focused_models": 12,
     "vocal_only_models": 9,
     "vocal_view_models": 17,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-16",
-    "bass_view_models": 58,
+    "bass_view_models": 59,
     "bass_shared_models": 47,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -15127,7 +15216,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery — Zoom B3n."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B3n remaining manual verification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -15300,7 +15389,8 @@
       "Zoom::B6",
       "Zoom::B1X FOUR",
       "Zoom::B1Xon",
-      "Zoom::G11"
+      "Zoom::G11",
+      "Zoom::B3n"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -16445,6 +16535,13 @@
         "ZOOM.md"
       ],
       "finding_files": []
+    },
+    "Zoom::B3n": {
+      "link": "ZOOM.md#b3n",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
     }
   },
   "separate_specialist_archives": {
@@ -16552,5 +16649,13 @@
     ],
     "accepted": "Exact G3n hardware;three sold-out offers retained separately",
     "excluded": "Preset packs,LCDs,cases,mixed variations and search-page-only used quote lack exact evidence"
+  },
+  "discovery_search_pass_20261017_b3n": {
+    "queries": [
+      "site:shopee.co.id \"Zoom B3n\" \"Rp\"",
+      "site:shopee.co.id \"B3n\" \"Bekas\""
+    ],
+    "accepted": "Four exact hardware offers,including explicit sold-out used title;not accessories or presets",
+    "scope": "Partial official model research and qualified asking observations;not market or stock certification"
   }
 }

@@ -797,3 +797,7 @@ research-commit-g5n:
 .PHONY: research-commit-g3n
 research-commit-g3n:
 	python3 scripts/research_tools.py commit-g3n
+
+.PHONY: research-commit-b3n
+research-commit-b3n:
+	python3 scripts/research_tools.py commit-b3n
