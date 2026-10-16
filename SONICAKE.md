@@ -8,6 +8,8 @@ K/F/B means rotary controls / main footswitches / separate buttons; encoder pres
 
 ## Matribox QME-50
 
+<!-- comparison evidence begins -->
+
 **Existing review2026-10-14.** Original Matribox, not II or II Pro.
 
 | Field | Preserved finding / uncertainty |
@@ -62,6 +64,8 @@ Complete compact source read on 2026-10-17. The following exact model fields ret
 Sonicake's checked Matribox download section lists firmware **1.1.0** and desktop software **1.1.1** with NAM A2 support; its instructions require the older software for the firmware-update step. Pocket Master's page lists firmware **1.3.3**, Manager **1.5.2**, and SONICLINK **1.7.2**. Smart Box also lists iOS/Android SONICLINK **1.7.2**. Follow the matching manufacturer instructions. These are documented workflows, not compatibility tests of every NAM architecture or regional unit.
 
 Historical source key: `FM` means the [original Matribox finding](effects/findings/2026-10-14-sonicake-matribox.md); `manual` means the [firmware 1.1.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433); `matribox` means the [official model page](https://www.sonicake.com/products/matribox). Original files and incoming links remain available.
+
+<!-- comparison evidence ends -->
 
 ### Preserved original Matribox finding
 
