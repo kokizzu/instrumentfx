@@ -1335,3 +1335,7 @@ research-commit-ax5g:
 .PHONY: research-commit-ving-coverage
 research-commit-ving-coverage:
 	python3 scripts/research_tools.py commit-ving-coverage
+
+.PHONY: research-commit-505ii
+research-commit-505ii:
+	python3 scripts/research_tools.py commit-505ii

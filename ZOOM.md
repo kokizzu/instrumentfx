@@ -1592,3 +1592,36 @@ Secondary fullset item194129824/26177529440 directcachemiss;noqualified price,bu
 [G1ON-M]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf
 
 [G1ON-F]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf
+
+## 505II
+
+Guitar multi-effects, distinct from original505 and505IICG. Checked2026-10-17;partial. Manufacturer lists discontinued. Bass/vocal suitability andownership unestablished.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal/toe in complete named controls; CONTROL IN accepts FP01/FP02 expression or FS01 footswitch. | [Manual pp6–7,18][Z505-M] |
+| K/F/B | **1 rotary /2 footswitches /3 buttons**, text-derived: PLAY/EDIT selector; two patch switches; +,−,STORE. Visual corroboration pending. | [Manual pp6–7][Z505-M] |
+| Display | **Two-digit seven-segment LED**. Published diagonal andtouch unverified;no color-LCD inference. | [Manual p31][Z505-M] |
+| Dimensions / mass | **145 D ×125 W ×40 H mm;280 g without batteries**. | [Manual p31][Z505-M] |
+| Processing / category choices | **33 total;up to9 simultaneous effects**, including ZNR andamp simulator. Specification separately says max7 simultaneous modules,with parenthesis5modules+1block;retain its exact counting distinction. Named chain:COMP,DIST,EQ,ZNR,AMP SIM,MOD,DLY/REV. One type per module;category subtotals pending. | [Manual pp3–4,31][Z505-M] |
+| Factory / user memory | **36 rewritable patches;6banks×6**. Not36 factory plus36 user. Initial factory fill andoverwrite details pending. | [Manual pp3–4,31][Z505-M] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
+| I/O | Mono¼-inch guitar input470kΩ;stereo¼-inch output shared with headphones;CONTROL IN andDC9V. NoUSB,MIDI,AUX orloop in complete named panel inventory. | [Manual pp6–7,31][Z505-M] |
+| Power / battery / USB | Optional AD-0006 **9VDC centre-negative,300mA supply**;not measured draw. FourAA:approximately28h alkaline/8h manganese. Cannot recharge batteries. Input-cable insertion powers battery operation. NoUSB connector;USB bus operation unverified. | [Manual pp2–7,31][Z505-M] |
+| IR / NAM / capture | Factory amp simulation does not establish userIR,native/converted NAM orcapture import;unverified. | Unresolved |
+| Editor / software | Editor/platform support unverified. NoUSB in panel inventory. | Unresolved |
+| Looper / drums / live | Autochromatic tuner. Delay/echo **10–370ms**;stereo output supports ping-pong behavior. Looper,drums,scenes andtrails unverified. | [Manual pp3,30][Z505-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; title does not establish condition. | — |
+| New | Unknown; title does not establish condition. | — |
+| Conditional historical observation | **Rp600,000;Habis**, JJ Guitar Cikarang,Kab.Bekasi,shop113149484/item29577709662. Checked2026-10-17;two-month index,stale10August delivery;direct item access unavailable. Condition,working state,adapter/bundle,physical revision,warranty,voucher andcheckout total unknown. Seller Made in Japan title is unverified origin,not condition. Not live stock/completed sale orverified new/used range. | [Exact item][Z505-O] |
+
+Original manufacturer PDF read as17 web-rendered pages with printed paired-page numbering. No file downloaded or physical unit tested. Simultaneous effects versusmodule wording remains explicit;category and practical limitations need further manual review.
+
+[Z505-M]: https://zoomcorp.com/media/documents/E_505II.pdf
+[Z505-P]: https://zoomcorp.com/en/gb/multi-effects/guitar-effects/505ii/
+[Z505-O]: https://shopee.co.id/Efek-Gitar-Zoom-505II-Made-in-Japan-i.113149484.29577709662
