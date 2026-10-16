@@ -789,3 +789,7 @@ consolidation-audit-floorboard-union:
 	python3 scripts/consolidation_tools.py audit-floorboard-union
 research-commit-floorboard-union:
 	python3 scripts/research_tools.py commit-floorboard-union
+
+.PHONY: research-commit-g5n
+research-commit-g5n:
+	python3 scripts/research_tools.py commit-g5n

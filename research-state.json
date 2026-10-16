@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 128,
+  "active_model_count": 129,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 128,
+  "canonical_root_model_count": 129,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee Indonesia discovery — Zoom G5n",
-    "task": "Search Shopee Indonesia exact Zoom G5n hardware (not accessories), confirm it is absent from inventory and verify exact model official specifications. Preserve all requested fields/uncertainties and commit useful findings before next model. Shared compact/floorboard content unions verified; legacy incoming links and other shared sources remain, no retirement authorized.",
+    "model": "Zoom G5n remaining specification verification",
+    "task": "G5n new record saved with exact offers and official regional/version conflicts. Resolve panel counts, display, category/DSP, USB/looper and import capabilities from exact-model primary text without downloading/installing files; commit useful findings before next-model research. Further fresh Shopee brand/series discovery and shared-source/incoming audits remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -429,6 +429,80 @@
         "synth/acoustic",
         "MIDItransport",
         "currentcondition/stock"
+      ]
+    },
+    {
+      "model": "Zoom G5n",
+      "path": "ZOOM.md#g5n",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/",
+        "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/",
+        "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/g5n-support/"
+      ],
+      "offers": [
+        {
+          "seller": "dewimusik82",
+          "shop": "97683185",
+          "item": "1639103287",
+          "url": "https://shopee.co.id/Zoom-G5n-Multi-effects-Pedal-Processor-i.97683185.1639103287",
+          "idr": 4950000,
+          "location": "Kota Jakarta Pusat",
+          "access": "Indexed search only; direct reopening cache miss",
+          "stock": "No explicit sold-out marker in extracted snapshot; not checkout-confirmed",
+          "delivery": "11–14 October, stale",
+          "condition": "unverified",
+          "checked_date": "2026-10-17",
+          "bundle": "unverified",
+          "warranty_region": "unverified",
+          "delivered_charges": "unverified"
+        },
+        {
+          "seller": "gitar second",
+          "shop": "61848168",
+          "item": "24510848725",
+          "url": "https://shopee.co.id/Multiefek-Gitar-Zoom-G5n-Guitar-Multieffect-Efek-Gitar-Effect-not-Valeton-Nux-Mooer-Boss-i.61848168.24510848725",
+          "idr": 2500000,
+          "location": "Kab. Polewali Mandar",
+          "access": "Indexed result and direct text retrieval",
+          "stock": "Unconfirmed; seller name does not establish used condition",
+          "delivery": "Search25–28August vs reopened28September–1October, stale and inconsistent",
+          "condition": "unverified",
+          "checked_date": "2026-10-17",
+          "bundle": "unverified",
+          "warranty_region": "unverified",
+          "delivered_charges": "unverified"
+        },
+        {
+          "seller": "Zoom Official Shop",
+          "shop": "348182890",
+          "item": "23020868820",
+          "url": "https://shopee.co.id/Zoom-G5n-Multi-Effects-Processor-i.348182890.23020868820",
+          "idr": 5929110,
+          "location": "Kota Jakarta Barat",
+          "access": "Indexed search only; direct reopening cache miss",
+          "stock": "Habis/sold out; historical ask only; account name not dealer authorization proof",
+          "delivery": "Relative next-day banner, not stock proof",
+          "condition": "unverified",
+          "checked_date": "2026-10-17",
+          "bundle": "unverified",
+          "warranty_region": "unverified",
+          "delivered_charges": "unverified"
+        }
+      ],
+      "unresolved": [
+        "panelcounts",
+        "display",
+        "effectcategory/DSP",
+        "memoryallocation",
+        "synth/acoustic",
+        "connectorinventory",
+        "IR/NAM/capture",
+        "USBsupply/audio",
+        "looperlimits",
+        "usedcondition/liveoffers"
       ]
     }
   ],
@@ -10857,7 +10931,8 @@
       "B1Xon",
       "G6",
       "G11",
-      "G3Xn"
+      "G3Xn",
+      "G5n"
     ]
   },
   "root_brand_content": {
@@ -10933,7 +11008,8 @@
       "B6",
       "V3",
       "V6-SP",
-      "G3Xn"
+      "G3Xn",
+      "G5n"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -11038,7 +11114,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 108,
+      "record_count": 109,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -14848,10 +14924,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 128,
-    "canonical_root_models": 128,
+    "unique_brand_model_pairs": 129,
+    "canonical_root_models": 129,
     "legacy_only_models": 0,
-    "guitar_view_models": 108,
+    "guitar_view_models": 109,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
     "vocal_view_models": 17,
@@ -14883,7 +14959,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Pocket Master complete original-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G5n remaining specification verification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -14994,7 +15070,8 @@
       "Zoom::G2X FOUR",
       "Zoom::G6",
       "Zoom::G11",
-      "Zoom::G3Xn"
+      "Zoom::G3Xn",
+      "Zoom::G5n"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -16185,6 +16262,13 @@
         "ZOOM.md"
       ],
       "finding_files": []
+    },
+    "Zoom::G5n": {
+      "link": "ZOOM.md#g5n",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
     }
   },
   "separate_specialist_archives": {
@@ -16273,5 +16357,15 @@
       "site:shopee.co.id Red Truck Mooer"
     ],
     "result": "Exact G3Xn hardware accepted,including explicit used offer with shipping unavailable. No exact Red Truck lead established. Presets,LCD spare parts,rentals and mixed-model variations excluded."
+  },
+  "discovery_search_pass_20261017_g5n": {
+    "queries": [
+      "site:shopee.co.id \"Zoom G5n\"",
+      "site:shopee.co.id \"G5N\" \"Rp\"",
+      "site:shopee.co.id \"G5n\" \"Zoom\" pedal efek"
+    ],
+    "accepted_model": "Zoom G5n",
+    "excluded_price": "jonimusic mixed-model 12-variation listing; no exact G5n price established",
+    "scope": "Fresh discovery; partial official/search-indexed documentation, not exhaustive market or stock verification"
   }
 }

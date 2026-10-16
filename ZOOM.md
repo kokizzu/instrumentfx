@@ -885,3 +885,38 @@ Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, no
 - [Guitar Lab current release notice](https://zoomcorp.com/en/us/news/zoomclassics/) names G3Xn among models receivingDynaDelay inApril2026 andBitCrush inFebruary2026; available library content is not proof of installed content.
 
 Excluded from price evidence: preset packs,LCD replacement parts,rental offers and unresolved mixedG3/G3X/G3Xn variations. Remaining: exact controls,complete ports/headphone conflict,display physical specifications,category census,synth/acoustic,looper/CPU limits,power negatives,import/editor/audio distinctions and verified current condition/bundle/stock.
+
+## G5n
+
+Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal; FP01/FP02 external control input in V2 manual; product page currently offers FP02M. Toe operation ? | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+| K/F/B | Rotary/button totals and full footswitch count ?; product text establishes four effect switches plus dedicated TAP. Do not report five as the complete count. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+| Display | Four 128×32 LCDs plus one 256×32 LCD; published diagonals, explicit monochrome/color and touch ? | [V2 manual, p.58](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
+| Dimensions / weight | **454 W ×225 D ×75 H mm;3.4 kg**. Large; plug/pedal clearance additional. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
+| Processing | Up to **nine effects**, reorderable; V2 improves DSP efficiency. Resource-dependent combinations require processing-chart review; exact per-category totals ? | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+| Model choices / version conflict | US page:126=100 effects+13 amps+13 cabs. Japan V3 page:159=127 effects+16 amps+16 cabs. V2 manual:128 types. Preserve version/region wording; not interchangeable inventories. | [US](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [Japan](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/); [V2](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
+| Memory | **200 user patches** in manual; product advertises124 supplied patches. Not200+124; exact overwrite/factory allocation needs manual operation review. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+| Synth / acoustic | Exact synth and electric-to-acoustic simulator algorithms unverified; amp/cab names alone do not establish acoustic simulation. | Remaining effect-list review |
+| Audio / control ports | Mono standard instrument input; two mono standard L/R outputs; stereo mini AUX and headphones; FP01/FP02 control input; USB audio. Exact USB subtype, control wiring, complete rear-panel MIDI/loop/XLR/phantom exclusions ? | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
+| Power | **DC9V,500mA,center-negative AD-16**. Battery and USB-powered operation not established. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
+| IR / NAM / capture | Third-party IR import, native NAM, converted NAM and user amp-capture import not established; built-in cab simulations are separate. | Workflow documentation still needed |
+| Editors / platforms | Guitar Lab Windows/macOS manages effects, chains and patches. Support lists Guitar Lab7.3, Windows8.1/10/11 and macOS10.13–26; separate Windows10/11 64-bit ASIO driver and firmware3.0 packages. Mobile editor not established. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/g5n-support/) |
+| USB audio | USB Audio listed;44.1kHz sampling,24-bit ADC/DAC,32-bit processing. Channel count, loopback and reamp routing ? | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
+| Looper / drums / live | Up to80-second looper,68 rhythms,tuner,output boost and TAP; mono/stereo time split, looper block cost, scene/snapshot and tail behavior unresolved. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+
+### Exact IDR hardware offers and condition limitations
+
+Checked2026-10-17. **Used IDR: ?** No explicit used-condition statement established; a seller name containing second is insufficient. Retail/other asks below are not certified new-condition prices, a used-to-new range or live inventory.
+
+- **Rp4.950.000** — [dewimusik82,shop97683185/item1639103287](https://shopee.co.id/Zoom-G5n-Multi-effects-Pedal-Processor-i.97683185.1639103287), Kota Jakarta Pusat. Indexed search only; direct reopening cache miss. No explicit sold-out marker in extracted snapshot; not checkout-confirmed. Delivery text: 11–14 October, stale.
+- **Rp2.500.000** — [gitar second,shop61848168/item24510848725](https://shopee.co.id/Multiefek-Gitar-Zoom-G5n-Guitar-Multieffect-Efek-Gitar-Effect-not-Valeton-Nux-Mooer-Boss-i.61848168.24510848725), Kab. Polewali Mandar. Indexed result and direct text retrieval. Unconfirmed; seller name does not establish used condition. Delivery text: Search25–28August vs reopened28September–1October, stale and inconsistent.
+- **Rp5.929.110** — [Zoom Official Shop,shop348182890/item23020868820](https://shopee.co.id/Zoom-G5n-Multi-Effects-Processor-i.348182890.23020868820), Kota Jakarta Barat. Indexed search only; direct reopening cache miss. Habis/sold out; historical ask only; account name not dealer authorization proof. Delivery text: Relative next-day banner, not stock proof.
+
+Exact condition, revision, accessories, warranty region, stock quantity, shipping/tax and delivered total remain unknown for all three. Late-delivery voucher banners are compensation offers, not an applied product discount. Mixed-model jonimusic shop22551702/item6866797510 (Rp2.099.900–3.999.900,12 variations) is excluded from G5n price evidence because its exact model variation was unresolved. No exchange rate or used discount estimated.
+
+### Remaining checks
+
+Complete panel K/F/B and toe switch; exact display diagonal/color/touch; category choices and DSP limits; memory overwrite; synth/acoustic algorithms; full connector inventory; IR/NAM/capture import; battery/USB supply; USB channels/routing; mono/stereo looper times and block cost; qualified used/new condition and checkout stock. Bass suitability is unclassified pending model-specific evidence. No sibling specifications substituted.
