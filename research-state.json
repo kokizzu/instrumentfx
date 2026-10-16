@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-8 primary follow-up",
-    "task": "GT-8 exact sold-out hardware and primary specifications saved. Next inspect official manual for control counts, expression/toe and category/memory restrictions. Do not copy GT-10 DC power/USB. Commit useful findings before another model.",
+    "task": "GT-8 indexed official manual resolves controls17/7/31,toe,bank partitions/write restrictions and conditional Smooth tails. Next inspect category library, Hold delay and synth/acoustic distinctions via primary/indexed manual sources. FullPDF size limit documented; do not repeat downloads. Commit before another model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2284,7 +2284,25 @@
         "imports",
         "software",
         "qualified offers"
-      ]
+      ],
+      "controls_memory_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://static.roland.com/assets/media/pdf/GT-8_OM.pdf",
+        "access": "FullPDF11849520bytes exceeds browserlimit;CDNfailed;targeted official index pp9–12,16–17,71 read. No downloads/installations.",
+        "resolved": [
+          "17 rotary/7 footswitches/31 buttons text-derived;toe/power additional",
+          "Firm-press toe and shared external controller jack",
+          "User banks1–35 and read-only preset36–85;edited presets write to user",
+          "Conditional Smooth decay tails;bank change timing"
+        ],
+        "remaining": [
+          "visual controls",
+          "initial user fill",
+          "category/synth/acoustic detail",
+          "imports/software",
+          "qualified offers"
+        ]
+      }
     }
   ],
   "consolidation_and_price_findings": [

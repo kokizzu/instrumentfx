@@ -1849,19 +1849,20 @@ Guitar multi-effects; distinct from GT-6/GT-10. Checked2026-10-17; partial. Bass
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in expression; external SUB EXP/SUB CTL1,2 socket. Toe behavior pending. | [Product][G8-P] |
-| K/F/B | Complete rotary/footswitch/button counts pending. | Unresolved |
+| Expression | Built-in expression with **firm-press toe switch**. Shared SUB EXP/SUB CTL1,2 accepts external expression (EV-5) or footswitch (FS-6/FS-5U). External toe behavior unverified. | [Product][G8-P]; [Indexed manual pp11–12][G8-M] |
+| K/F/B | **17 /7 /31**, text-derived: fifteen tone knobs +PATCH/VALUE +rear OUTPUT LEVEL; four numbered +two BANK +CTL footswitches. Buttons: seven preamp/drive, twelve delay-through-MASTER, twelve navigation/system/assign/manual. Toe and rear power additional. Visual corroboration pending. | [Indexed manual pp9–12,17][G8-M] |
 | Display | Backlit16-character×2-line LCD; two-character seven-segment LED. Diagonal/colour/touch unverified. | [Product][G8-P] |
 | Dimensions / mass | 515W×261D×75H mm;4.8kg. Large. | [Product][G8-P] |
 | Processing / categories | **13 simultaneous blocks**, freely ordered; **44 effect categories**, **46 COSM amps**, each with Solo variation. Detailed category totals/counting basis pending. | [Product][G8-P] |
-| Factory / user memory | **340 total:140 user+200 preset**. Initial user-bank fill/write restrictions pending. | [Product][G8-P] |
+| Factory / user memory | **340 total:140 user+200 preset**. User banks1–35; read-only preset banks36–85; four patches/bank. Edited presets save into user slots. Write required to retain knob edits. Initial user-bank fill pending. | [Product][G8-P]; [Indexed manual pp16–17][G8-M] |
 | Synth / acoustic | Monophonic Wave Synth; acoustic processor and sitar. Electric-to-acoustic simulation details pending. | [Product][G8-P] |
 | I/O | INPUT;L/MONO/R OUTPUT;PHONES;SEND/RETURN;coaxial DIGITAL OUT;AMP CONTROL;SUB EXP/SUB CTL1,2;MIDI IN/OUT;AC-adapter input. **No USB in complete connector inventory.** | [Product][G8-P] |
 | Analog conversion | 24-bit+AF A/D;24-bit D/A;44.1kHz;≥100dB IHF-A dynamic range. | [Product][G8-P] |
 | Power / battery / USB | **14V AC,650mA; BRC-series adapter**. AC supply: DC centre polarity is inapplicable. Battery operation unverified; no USB connector. Do not substitute GT-10’s9V DC supply. | [Product][G8-P] |
 | IR / NAM / capture | Import capabilities unverified. Factory COSM does not establish loading. | Unresolved |
 | Editor / platforms | Official support lists custom patches; full editor/platform compatibility unverified. MIDI data transfer is distinct from USB audio. | [Product][G8-P] |
-| Routing / live | Dual amp channels layer/switch with picking dynamics or expression crossfade; independent external loop. Looper/drums/scenes/trails unverified. | [Product][G8-P] |
+| Patch switching / live | Smooth mode carries delay/reverb decay only with matching delay/reverb types and effect-chain order; other settings may prevent the desired result. Switching may be delayed. Bank selection normally waits for a number pedal; Bank Change mode can alter this. | [Indexed manual pp16,71][G8-M] |
+| Routing / live | Dual amp channels layer/switch with picking dynamics or expression crossfade; independent external loop. Looper/drums/scenes unverified; conditional tails described above. | [Product][G8-P] |
 
 ### Separate IDR hardware offers
 
@@ -1878,6 +1879,8 @@ Checked2026-10-17: [BOSS GT-8 Pedal Multi Effect](https://shopee.co.id/BOSS-GT-8
 
 Other mixed GT8/GT10 and accessory results do not establish this offer. GT-10B and Zoom B9.1ut searches produced no exact hardware evidence in this pass; absence is not a market-absence claim.
 
-[Official manual landing page](https://www.boss.info/global/support/by_product/gt-8/owners_manuals/66442cbd-dab7-4b67-8035-df6bd4db3d68/) opened; no file downloaded. Remaining: manual control inventory, expression/toe, category detail, memory behavior, sound/import distinctions and software/current condition-qualified offers.
+[Official manual landing page](https://www.boss.info/global/support/by_product/gt-8/owners_manuals/66442cbd-dab7-4b67-8035-df6bd4db3d68/) opened; no file downloaded. Full original PDF access failed:11849520-byte file exceeds browser tool limit; CDN also failed. Subsequent indexed official passages pp9–12,16–17,71 supplied the labelled evidence above; no complete manual read or visual inspection claimed. Remaining: visual control corroboration, category detail, initial user-bank fill, sound/import distinctions and software/current condition-qualified offers.
 
 [G8-P]: https://www.boss.info/global/products/gt-8/
+
+[G8-M]: https://static.roland.com/assets/media/pdf/GT-8_OM.pdf
