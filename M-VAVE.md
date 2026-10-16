@@ -202,6 +202,8 @@ Retail indexed asks: **Rp725.000**, [Vin's Music Store, pink/green variants][MVA
 
 ## MK-20
 
+<!-- comparison evidence begins -->
+
 **Original review2026-10-14.**
 
 | Field | Preserved evidence / uncertainty |
@@ -209,15 +211,59 @@ Retail indexed asks: **Rp725.000**, [Vin's Music Store, pink/green variants][MVA
 | Expression / controls | Built-in,toe ?. **External EXP conflict:** specification says one socket,complete rear panel/numbered list show none. Do not invent that connector or confuse MIDI control with analog EXP. **4/3/12**,power separate. |
 | Display / body | **2.4-inch color LCD**,touch ?. **271.5×136.5×51mm;approximately795.5g**,medium. |
 | Processing / choices | **Ten movable,DSP-limited;320+ effects**,120amps,40drives,100cabs;remaining category subcounts ?. |
-| Memory / sound | **150 editable,75 factory-filled**. Synth ?;acoustic amp/cab content is not confirmed acoustic simulation. |
+| Presets | **150 editable, 75 factory-filled**. |
+| Synth / acoustic | Synth unverified; acoustic amp/cab content does not establish an acoustic simulator. |
 | Ports | Panel confirms6.35mm TS input,two unbalanced6.35mm outputs,3.5mm phones,3.5mm MIDI,USB-C. Introductory phone-recording-cable claim lacks matching rear socket and is not accepted as another verified port. |
 | Power | **3000mAh/3.7V battery;USB5V/2A supply;300mA draw**. Independent USB operating-power versus charging behavior ?. |
-| Loading / apps | Mono WAV24-bit/44.1kHz,1024/2048points;AMP/DS import;nativeNAM ?. **M-EFCS Windows/macOS/iOS/Android**. |
+| IR / NAM | Mono WAV 24-bit/44.1 kHz, 1024/2048 points; AMP/DS import. The [developer iOS changelog](https://apps.apple.com/us/app/m-efcs/id6470352068), v3.9.2317 (Sep 23), explicitly names MK20 A2 support. This establishes software support, not direct native .nam playback: exact device firmware threshold, supported architectures, conversion workflow and file limits remain unverified. Preserve native versus converted NAM uncertainty. |
+| Editor / firmware | M-EFCS Windows/macOS/iOS/Android was documented in the original manual; the [manufacturer index](https://www.cuvave.com/appdownload), checked 2026-10-17, explicitly lists MK20 for desktop M-EFCS. The developer iOS changelog independently names MK20; its v1.11.21 entry (2025-11-21) fixes preset-save corruption and import/export failures. App version is separate from device firmware. |
+| Firmware limits | Official index lists MK20 v085 dated 2026-10-08 under PC Firmware and identifies M-UPGRADE as the separate updater. Its [linked release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt) failed web retrieval with a Unicode decoding error on 2026-10-17. A version listing does not resolve physical EXP-port revisions or prove unrestricted native NAM support. |
 | Extras | **20s mono PRE-effects looper,128 rhythms**,USB audio/MIDI,loopback/reamp,Bluetooth. |
 
 Retail **Rp1.850.000** at [Seven16879370/41125436730](https://shopee.co.id/M-Vave-MK-20-Digital-Multi-Effect-MVAVE-MK20-Effect-Pedal-i.16879370.41125436730) and [OneTwoThree1505062399/56850308632](https://shopee.co.id/Efek-Gitar-M-VAVE-MK-20-MVAVE-MK20-Elektrik-Akustik-Bass-AMP-Modeler-Multi-Effects-Processor-Efek-Bluetooth-Portable-Pedal-320-Effects-Electric-Guitar-Soundcard-Interface-Stomp-Box-Stompbox-Built-in-Battery-Baterai-Rechargeable-IR-Impulse-Response-i.1505062399.56850308632). Matching asks are not a market distribution;condition/stock unconfirmed,used **?**.
 
 Source: [manufacturer-authored mirrored manual](https://device.report/m/b1b56aa7fbd51aee0ecc8aeb12fb1c35f3375111e940f294864a552eb9ce8b7d_optim.pdf),original visual pp.3,8,13;[manufacturer software](https://www.cuvave.com/appdownload). Preserve external-port/revision/import uncertainties;do not copy MK-300's XLRs,screen or looper.
+
+<!-- comparison evidence ends -->
+
+### Preserved original finding
+
+Complete 2026-10-14 source retained below, including the rear-panel/specification conflict. Software observations above were checked separately on 2026-10-17; no new manual visual inspection or checkout confirmation is claimed.
+
+<!-- MVAVE-MK20 source begins -->
+
+Checked **2026-10-14**. **Partial new guitar/bass record.** [Manufacturer-authored manual, mirrored PDF][MVAVE-MK20-M], printed pp.3, 8 and 13 visually checked; [manufacturer software downloads][MVAVE-MK20-D].
+
+| Field | Established / unknown |
+|---|---|
+| Expression | Built-in yes; **external support conflicts**, see below; toe switch ? |
+| Controls | **4 rotary /3 footswitch /12 buttons**; rear power separate |
+| Display | **2.4-inch color LCD**; touchscreen unverified |
+| Size / weight | **271.5×136.5×51 mm; about 795.5 g**; medium |
+| Blocks / choices | **10 movable**, DSP-limited; **320+ effects**, 120 amps, 40 drives, 100 cabs; remaining per-category counts ? |
+| Memory | **150 editable**, 75 factory-filled |
+| Synth / acoustic | Synth ?; acoustic amp/cab content does not prove an acoustic simulator |
+| Ports verified by panel | ¼-inch TS input; 2×¼-inch unbalanced outputs; ⅛-inch headphones; 3.5 mm MIDI; USB-C |
+| Power | **3000 mAh/3.7 V battery; USB 5 V/2 A** specified; draw 300 mA; independent USB operating-power behavior ? |
+| IR / NAM | User mono WAV **24-bit/44.1 kHz, 1024/2048 points**; AMP/DS import; native NAM ? |
+| Editor | M-EFCS **Windows/macOS/iOS/Android** |
+| Extras | **20 s mono pre-effects looper**, 128 rhythms, USB audio/MIDI, loopback/reamp, Bluetooth |
+
+### Source conflict worth preserving
+
+The manual's specification table says **one external pedal jack**, but its complete rear drawing and numbered connector description show **no EXP jack**. An introductory phone-recording-cable claim also lacks a matching dedicated rear connector. Neither is accepted as a verified extra physical port. MIDI-based control is not an analog expression socket. Resolve against a current physical revision or manufacturer clarification.
+
+### Shopee Indonesia
+
+**Rp1.850.000** retail asks: [Seven Stereo Music & Audio Store][MVAVE-MK20-S1] and [One Two Three Music Store][MVAVE-MK20-S2]. Prices are indexed/fetched listing evidence; exact condition and checkout stock are unconfirmed. These matching asks do not establish a market distribution. Explicitly used quote: **?**.
+
+[MVAVE-MK20-M]: https://device.report/m/b1b56aa7fbd51aee0ecc8aeb12fb1c35f3375111e940f294864a552eb9ce8b7d_optim.pdf
+[MVAVE-MK20-D]: https://www.cuvave.com/appdownload
+[MVAVE-MK20-S1]: https://shopee.co.id/M-Vave-MK-20-Digital-Multi-Effect-MVAVE-MK20-Effect-Pedal-i.16879370.41125436730
+[MVAVE-MK20-S2]: https://shopee.co.id/Efek-Gitar-M-VAVE-MK-20-MVAVE-MK20-Elektrik-Akustik-Bass-AMP-Modeler-Multi-Effects-Processor-Efek-Bluetooth-Portable-Pedal-320-Effects-Electric-Guitar-Soundcard-Interface-Stomp-Box-Stompbox-Built-in-Battery-Baterai-Rechargeable-IR-Impulse-Response-i.1505062399.56850308632
+
+**Next:** resolve external-control conflict and actual revision; verify current NAM conversion workflow and dated used offers. Do not copy MK-300's XLR outputs, larger screen or longer looper into this record.
+<!-- MVAVE-MK20 source ends -->
 
 ## MK-300
 
