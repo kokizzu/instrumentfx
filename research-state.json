@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Flamma FX100 complete-body audit",
-    "task": "Arena2000 original now has generic whole-body verification; current newer dimensions retained. Inspect full FX100 original/root next,then remaining finding_body_audit entries one model per commit. B1Xon has an existing special full-body check and must not be falsely treated as unpreserved. Broader shared-table/incoming-link audit,discovery and specs remain.",
+    "model": "Flamma FX200 complete-body audit",
+    "task": "FX100 full original now hash-checked;manufacturer store1kg versus historical859g conflict saved separately,computerUSB recording explicit. Inspect FX200 complete original/root next,commit before another model. Remaining body/shared-table/incoming-link audit,primary gaps andfreshShopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -265,6 +265,25 @@
         "display physical specification",
         "category census and installed revision",
         "condition/bundle/stock-qualified offers"
+      ]
+    },
+    {
+      "model": "Flamma FX100",
+      "path": "FLAMMA.md#fx100",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "research(flamma): retain FX100 original and qualify mass and USB evidence",
+      "sources": [
+        "https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100",
+        "https://flammainnovation.com/single.html?id=38"
+      ],
+      "unresolved": [
+        "859g versus1kg mass",
+        "preset split/overwrite rules",
+        "display diagonal/touch",
+        "toe",
+        "USB audio channels/driver/power",
+        "qualified current prices"
       ]
     }
   ],
@@ -9654,6 +9673,28 @@
       ],
       "retained_comparison_facts": [],
       "scope": "Whole original finding retained with reversible reference prefixes and heading changes. Current dimensional correction remains selected; no source deletion or new technical/market certification."
+    },
+    {
+      "models": [
+        "Flamma FX100"
+      ],
+      "model_name": "FX100",
+      "destination": "FLAMMA.md#fx100",
+      "source": "effects/findings/2026-10-14-flamma-fx100.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "FLAMMA-FX100",
+      "source_sha256": "75e1425dd68d7b00da7514a6b623c247b8cba2c82712144db796595368311571",
+      "renamed_references": [
+        "M",
+        "D",
+        "P",
+        "S1",
+        "S2",
+        "L"
+      ],
+      "retained_comparison_facts": [],
+      "scope": "Complete original body preserved; current store1kg versus original859g conflict and explicit computerUSB recording added with access date. No model added/source deleted."
     }
   ],
   "discovery_leads": [
@@ -10214,11 +10255,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "Flamma::FX100",
-          "source": "effects/findings/2026-10-14-flamma-fx100.md",
-          "dest": "FLAMMA.md#fx100"
-        },
-        {
           "model": "Flamma::FX200",
           "source": "effects/findings/2026-10-14-flamma-fx200.md",
           "dest": "FLAMMA.md#fx200"
@@ -10413,7 +10449,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Flamma FX100 complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Flamma FX200 complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

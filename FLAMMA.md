@@ -8,20 +8,21 @@ The [official multi-effects collection](https://www.flamma.shop/collections/mult
 
 ## FX100
 
-**Preserved technical/price observation date: 2026-10-14. Partial.**
+**Original technical/price observation date:2026-10-14. Manufacturer store rechecked2026-10-17 for the mass conflict and USB recording; remaining original facts are not freshly certified. Partial.**
 
+<!-- comparison evidence begins -->
 | Field | Verified finding / unresolved qualification |
 |---|---|
 | Expression / controls | Built-in expression, no external EXP in complete rear inventory; toe details ?. **3/2/6** controls; module LEDs are not buttons. |
 | Display | Color graphical screen; published diagonal and explicit touch specification ?. |
-| Dimensions / weight | **230×155.99×32.8 mm;859 g**, medium. Cable/pedal clearance additional. |
+| Dimensions / weight | **230×155.99×32.8 mm**,medium. Original V04-manual record: **859g**. Current [manufacturer store](https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100),checked2026-10-17: **1kg** with matching dimensions. Mass conflict unresolved; no claim that1kg is packaging or a new hardware revision. Cable/pedal clearance additional. |
 | Processing | **Nine modules,151 choices** including amps/cabs; category table below. |
 | Presets | **200 locations**; factory-filled/user/overwrite distinction remains to be established. |
 | Acoustic / synth | **Three acoustic simulators in AMP**; dedicated synth unverified. |
 | Ports | 6.35 mm input;two6.35 mm outputs;3.5 mm AUX and phones; **USB-B editor port plus separate micro-USB OTG recording port**. |
 | Power | **9 V center-negative,300 mA**; battery and USB-powered operation unverified. |
 | IR / NAM | WAV IR import, **512 points,10 user locations** in manufacturer product documentation. NAM/capture support unverified; IR alone is not NAM. |
-| Software / recording | **Windows/macOS editor**. Mobile OTG audio does not establish a mobile editor. |
+| Software / recording | **Windows/macOS editor**. Manufacturer store explicitly supports computer USB recording,updates and preset editing,plus separate micro-USB OTG phone recording. Exact audio channel count,sample rate/bit depth and driver/reamp path remain unverified. Mobile OTG audio does not establish a mobile editor. [Current store](https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100) |
 | Practice | **80-second looper;40 rhythms +10 metronomes**. |
 
 | FX/COMP | DS/OD | AMP | CAB | NS | EQ | MOD | DLY | REV | Sum |
@@ -35,6 +36,55 @@ The three acoustic AMP entries explicitly say simulator. Similar numbers in anot
 Retail **Rp2.480.000**: [Seven Stereo, shop16879370/item17358217022](https://shopee.co.id/FLAMMA-FX100-Portable-Multi-Effects-Digital-i.16879370.17358217022). [Ultra Audio, shop284079667/item11191888836](https://shopee.co.id/FLAMMA-FX100-FX-100-Portable-Multi-Effects-Efek-Pedal-ORIGINAL-i.284079667.11191888836) had **Rp1.985.000 in fetched body versus Rp2.185.000 indexed snippet**; this is a source disagreement, not a market range. Used **?**. Separate [Tokosound website](https://www.tokosound.com/flamma-fx100-fx-100-portable-multi-effects-pedal.html) **Rp2.150.000** is not a Shopee quote. Stock,authenticity,condition,bundle,warranty and shipping were not independently verified.
 
 Primary sources: [official product](https://flammainnovation.com/single.html?id=38), [downloads](https://www.flamma.shop/pages/manual), [manufacturer V04 manual,2025-03-27](https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf). Original review visually checked printed pp.3,20–30. This consolidation does not claim a new PDF inspection. Remaining: display details,preset overwrite rules,current firmware/import limits,used-condition quotes and USB/battery operation.
+
+<!-- comparison evidence ends -->
+
+### FX100 — updated source access and complete original finding
+
+On2026-10-17 the [original product endpoint](https://flammainnovation.com/single.html?id=38) returned an empty product template. The [manufacturer store](https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100) supplies the mass/USB follow-up above. It repeats200 preset patches but does not establish the factory/user/overwrite split. Display diagonal,touch,toe and import questions remain unresolved; no sibling FX200 specifications were used. No PDF,editor or dependency was downloaded or run in this follow-up.
+
+The complete2026-10-14 finding follows with original evidence dates,price conflicts,inspection limits and URLs unchanged apart from reversible reference prefixes and heading depth. The current mass disagreement does not erase its historical859g observation.
+
+<!-- FLAMMA-FX100 source begins -->
+
+Checked **2026-10-14**. **Partial new model.** [Manufacturer manual V04, 2025-03-27][FLAMMA-FX100-M], printed pp.3, 20–30, visually checked; [official product page][FLAMMA-FX100-P] and [downloads][FLAMMA-FX100-D].
+
+| Field | Established / unknown |
+|---|---|
+| Expression | Built-in; no external-expression socket in rear inventory; toe-switch details ? |
+| Controls | **3 rotary /2 footswitches /6 buttons**; module LEDs are not buttons |
+| Screen | Color graphical screen; diagonal and explicit touch specification ? |
+| Size / weight | **230×155.99×32.8 mm; 859 g**; medium |
+| Processing | **9 modules, 151 types**; category breakdown below |
+| Presets | **200 slots**, factory-filled/editable split needs confirmation |
+| Acoustic / synth | **3 acoustic simulators** in AMP; synth ? |
+| Ports | ¼-inch input, 2×¼-inch outputs, ⅛-inch aux/phones; **USB-B editor connection and separate micro-USB OTG recording** |
+| Power | **9 V center-negative, 300 mA**; battery/USB-powered operation unverified |
+| IR / NAM | User WAV IR, **512 points**, 10 user slots in [product documentation][FLAMMA-FX100-P]; NAM ? |
+| Editor | **Windows/macOS**; do not confuse mobile OTG audio with mobile editing |
+| Extras | **80 s looper; 40 rhythms +10 metronomes** |
+
+### Manual category counts
+
+| FX/COMP | DS/OD | AMP | CAB | NS | EQ | MOD | DLY | REV |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 8 | 20 | 55 | 26 | 3 | 4 | 19 | 9 | 7 |
+
+These sum to **151**, including amps/cabinets. The three AMP acoustic entries explicitly say simulator. Shared counts with another brand are not proof of identical hardware or firmware.
+
+### Shopee Indonesia
+
+**Rp2.480.000**, [Seven Stereo retail listing][FLAMMA-FX100-S1]. [Ultra Audio][FLAMMA-FX100-S2] has a price conflict: **Rp1.985.000 fetched body vs Rp2.185.000 indexed snippet**. Do not turn that conflict into a market range. Neither establishes checkout stock or completed-sale value. Explicit used price **?**. The separate [Tokosound local-retail offer][FLAMMA-FX100-L] is **Rp2.150.000**, not a Shopee quote.
+
+[FLAMMA-FX100-M]: https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf
+[FLAMMA-FX100-D]: https://www.flamma.shop/pages/manual
+[FLAMMA-FX100-P]: https://flammainnovation.com/single.html?id=38
+[FLAMMA-FX100-S1]: https://shopee.co.id/FLAMMA-FX100-Portable-Multi-Effects-Digital-i.16879370.17358217022
+[FLAMMA-FX100-S2]: https://shopee.co.id/FLAMMA-FX100-FX-100-Portable-Multi-Effects-Efek-Pedal-ORIGINAL-i.284079667.11191888836
+[FLAMMA-FX100-L]: https://www.tokosound.com/flamma-fx100-fx-100-portable-multi-effects-pedal.html
+
+**Next:** display diagonal/touch, preset overwrite rules, current firmware/import limits and used-condition quotes. Price retrieval does not authenticate sellers or include shipping.
+<!-- FLAMMA-FX100 source ends -->
 
 ## FX200
 

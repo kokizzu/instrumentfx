@@ -613,3 +613,7 @@ research-commit-g11-preservation:
 .PHONY: research-commit-arena-preservation
 research-commit-arena-preservation:
 	python3 scripts/research_tools.py commit-arena-preservation
+
+.PHONY: research-commit-fx100-preservation
+research-commit-fx100-preservation:
+	python3 scripts/research_tools.py commit-fx100-preservation
