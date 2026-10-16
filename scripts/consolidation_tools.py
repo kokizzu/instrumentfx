@@ -1696,7 +1696,32 @@ def audit_compact_links():
     Path('/tmp/instrumentfx-compact-links.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(dict(source=source_key,incoming=len(incoming),outgoing=len(outgoing),missing_outgoing=report['missing_outgoing'],incoming_fragments=report['incoming_fragments'],markdown_mentions=len(mentions),json_mentions=len(json_mentions),headings=len(headings)),indent=2))
 
+
+def plan_nux_mg101():
+    research_tools.identity()
+    source_path = 'effects/guitar-nux.md'
+    source = (ROOT/source_path).read_text()
+    destination = (ROOT/'NUX.md').read_text()
+    facts = []
+    for headers, rows, context in comparison_views.tables(source):
+        for row in rows:
+            if comparison_views.norm(row[0]) == 'mg101':
+                facts += [dict(field=h,value=v,source=source_path,context=context) for h,v in zip(headers[1:],row[1:])]
+    assert len(facts) == 15, 'MG-101 row scope changed'
+    prefixes = ('Checked **2026-10-14**.', 'These are single new-price observations', 'The category numbers describe', '**MG-101 / MG-300 MKII:**', 'The global download pages explicitly')
+    contexts = [p for p in source.split('\n\n') if p.startswith(prefixes)]
+    assert len(contexts) == 5
+    urls = re.findall(r'https?://[^\s)]+', '\n'.join(line for line in source.splitlines() if line.startswith(('[101]:','[US101]:','- MG-101 '))))
+    assert len(urls) == 4
+    section = destination.split('\n## MG-101\n',1)[1].split('\n## ',1)[0]
+    report = dict(model='MG-101', source=source_path, source_sha256=digest(source), destination_sha256=digest(destination), retained_comparison_facts=facts, retained_context=contexts,retained_source_urls=urls,missing_exact_fields=[f for f in facts if f['value'] not in section])
+    Path('/tmp/instrumentfx-nux-mg101-plan.json').write_text(json.dumps(report,indent=2)+'\n')
+    print('MG-101:15 fields/3rows,5historical context paragraphs,4sourceURLs;exact field omissions='+str(len(report['missing_exact_fields'])))
+
 if __name__ == '__main__':
+    if sys.argv[1:] == ['plan-nux-mg101']:
+        plan_nux_mg101()
+        raise SystemExit(0)
     if sys.argv[1:] == ['audit-compact-links']:
         audit_compact_links()
         raise SystemExit(0)

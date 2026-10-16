@@ -8,6 +8,7 @@
 
 ## MG-101
 
+<!-- comparison evidence begins -->
 **Existing technical review2026-10-14.** [Official model](https://nuxaudio.com/product/mg101/).
 
 | Field | Preserved finding / unresolved detail |
@@ -23,6 +24,49 @@
 | Prices | Current condition-verified used/new IDR ?. Original foreign offer retained in provenance below. |
 
 Some US copy appears to reuse other model names and inconsistent amp totals. Do not invent an MG-101 MKII from that wording. Sources: [NUX USA](https://www.nux.us/products/mg-101),official [front](https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771628910&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771628910&width=2400) photographs examined in the previous research. No new visual inspection is claimed by consolidation.
+<!-- comparison evidence ends -->
+
+### Preserved shared-source MG-101 fields
+
+Historical source snapshot **2026-10-14**,retained during consolidation2026-10-17. These rows preserve original wording and uncertainty;they are not new specification or stock verification. The USD observation remains foreign-price provenance.
+
+| Original field | Original value |
+|---|---|
+| External expression | No socket in checked rear photo |
+| K/F/B | 4/2/9 [photos] |
+| Dimensions; weight | ?; ? |
+| Size class | Unverified |
+| Used USD | ? |
+| New USD observation | $129, NUX USA [US101] |
+| Simultaneous blocks / available categories | **10**: NG, CMP, EFX, AMP, IR, EQ, MOD, DLY, RVB, P.L; 25 electric amps; per-category choices ? |
+| Presets: factory / user | ? / ? |
+| Acoustic / synth | Exact acoustic/synth choices ? |
+| Third-party IR | **512 samples**; per-patch user IR plus 12 IR-collection slots |
+| NAM / other captures | Not established |
+| Audio / control connections | ¼″ input and output; 3.5 mm aux; separate **TRRS headset/mic**; USB-C; DC |
+| Power and batteries; USB-powered? | DC9V centre-negative; battery operation advertised, exact battery type/current not verified; USB power ? |
+| Editing apps / other USB functions | QuickTone **Windows/macOS**; USB recording/OTG; mobile audio is not proof of mobile editing |
+| Practical features | 40 s mono /20 s stereo looper; drum machine |
+
+Source key [US101] resolves the dated NUX USA offer;the original literal [photos] label refers to the model-specific front/rear photographs linked below.
+
+[US101]: https://www.nux.us/products/mg-101
+
+### Shared historical qualifications
+
+The following source context includes other models solely to retain the original scope and firmware-date qualifications;it does not assign their specifications to MG-101.
+
+Checked **2026-10-14**. **Partial records**; `?` is unverified. K/F/B = rotary controls / footswitches / separate front buttons; expression toe switches and rear power toggles are additional. Dimensions are normalised to **W×D×H, mm**; NUX manuals often call the long horizontal side `L` rather than `W`. Used prices are deliberately blank where no dependable observation was obtained.
+
+These are single new-price observations, **not** used-to-new market ranges. US versus international seller pricing can differ. All prices checked **2026-10-14**, before destination tax/shipping. MG-300 and MG-300 MKII are distinct hardware records. **MG-30 GEN2 is documented as a firmware update for MG-30**; it is not silently treated as a new hardware model.
+
+The category numbers describe the cited list, not guaranteed totals after every firmware update. Utility blocks, amps, cabinet IRs and captures are not interchangeable effect-count units.
+
+**MG-101 / MG-300 MKII:** portions of the US pages contain apparent copied model names and mutually inconsistent amp totals. The global page/manual takes precedence where clear. No “MG-101 MKII” record is invented from that wording.
+
+The global download pages explicitly distinguish domestic/Mandarin versus global/English hardware firmware. Use the correct regional firmware, back up presets and install the matching editor. At checking, MG-300 MKII GEN2 was 3.0.0, MG-400 GEN2 3.0.3, MG-30 GEN2 1.0.5, and MG-50Li English firmware 1.1.1. This is a dated documentation snapshot, not an update instruction for an unidentified unit.
+
+Model sources: [Source 1](https://nuxaudio.com/product/mg101/) · [Source 2](https://www.nux.us/products/mg-101) · [Source 3](https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771628910&width=2400) · [Source 4](https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771628910&width=2400)
 
 ## MG-300 original
 

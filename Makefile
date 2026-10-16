@@ -809,3 +809,11 @@ research-commit-a1four:
 .PHONY: consolidation-audit-compact-links
 consolidation-audit-compact-links:
 	python3 scripts/consolidation_tools.py audit-compact-links
+
+.PHONY: consolidation-plan-nux-mg101
+consolidation-plan-nux-mg101:
+	python3 scripts/consolidation_tools.py plan-nux-mg101
+
+.PHONY: research-commit-nux-mg101-audit
+research-commit-nux-mg101-audit:
+	python3 scripts/research_tools.py commit-nux-mg101-audit
