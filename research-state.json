@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX StompLab 2B primary follow-up",
-    "task": "Initial bass-only profile saved. Verify61total,amp/drive sharing,acoustic function,initial memories and power/live restrictions from IIB manual;commit before next model.",
+    "model": "Fresh Shopee Indonesia discovery",
+    "task": "StompLab2B shared AMP/DRIVE,qualified61count,expression behavior and autooff saved. Fresh exact bass/vocal hardware searches next;preserve remaining acoustic/display/import/editor/polarity/offer gaps and commit each model before another.",
     "next_models": [],
-    "after_queue": "Continue fresh Shopee discovery."
+    "after_queue": "No exhaustive market coverage claim."
   },
   "new_findings": [
     {
@@ -2713,7 +2713,33 @@
         "polarity",
         "imports/editor",
         "looper/drums/trails"
-      ]
+      ],
+      "count_live_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf",
+        "pages": "7–10,78–79",
+        "resolved": [
+          "Shared AMP/DRIVE category",
+          "Seven editable categories plus volume",
+          "Read-only and writable bank identities",
+          "Expression pickup behavior",
+          "One-hour autooff conditioned on no controls or audio"
+        ],
+        "count_basis": {
+          "listed": 60,
+          "volume": 1,
+          "total": 61,
+          "qualification": "Analyst arithmetic,not confirmed manufacturer counting method"
+        },
+        "remaining": [
+          "initial user fill",
+          "acoustic function details",
+          "display/visual",
+          "polarity",
+          "imports/editor",
+          "qualified offers"
+        ]
+      }
     }
   ],
   "consolidation_and_price_findings": [
@@ -38426,7 +38452,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab 2B primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

@@ -292,7 +292,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-stomplab2b':
-            message = 'research(vox): add StompLab 2B to bass comparisons with qualified evidence'
+            message = 'research(vox): verify StompLab 2B shared processing and auto-off limits'
         if mode == 'commit-tonelab-se':
             message = 'research(vox): verify ToneLab SE acoustic Hold Delay and MIDI editor limits'
         if mode == 'commit-tonelab-st':
