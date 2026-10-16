@@ -17,6 +17,7 @@ MODELS = {
     'g1x-four': ('G1X FOUR', 'effects/findings/2026-10-14-zoom-g1x-four.md'),
     'g2-four': ('G2 FOUR', 'effects/findings/2026-10-14-zoom-g2-four.md'),
     'g2x-four': ('G2X FOUR', 'effects/findings/2026-10-14-zoom-g2x-four.md'),
+    'b1-four': ('B1 FOUR', 'effects/bass.md'),
 }
 
 
@@ -35,6 +36,26 @@ def preserved_body(source, prefix):
 
 def verify_preserved(state):
     for entry in state.get('consolidation_and_price_findings', []):
+        if entry.get('verification_kind') == 'complete-model-rows-v1':
+            source = (ROOT / entry['source']).read_text()
+            assert digest(source) == entry['source_sha256'], entry['source']
+            model = entry['models'][0].removeprefix('Zoom ')
+            text = (ROOT / entry['destination'].split('#')[0]).read_text()
+            section = text.split('\n## ' + model + '\n', 1)[1].split('\n## ', 1)[0]
+            actual = []
+            aliases = {comparison_views.norm(model), comparison_views.norm('Zoom '+model)}
+            for headers, rows, context in comparison_views.tables(source):
+                for row in rows:
+                    if comparison_views.norm(row[0]) in aliases:
+                        actual += [dict(field=h,value=v,source=entry['source'],context=context) for h,v in zip(headers[1:],row[1:])]
+            assert actual == entry['retained_comparison_facts'], 'Changed or missing source rows: '+model
+            for fact in actual:
+                assert fact['value'] in section, 'Lost model field: '+fact['field']
+            for paragraph in entry['retained_context']:
+                assert paragraph in source and paragraph in section, 'Lost model context: '+model
+            for url in entry['retained_source_urls']:
+                assert url in source and url in section, 'Lost source URL: '+url
+            continue
         if entry.get('verification_kind') != 'complete-source-body-v1':
             continue
         source = (ROOT / entry['source']).read_text()

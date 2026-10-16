@@ -58,7 +58,7 @@ These are individual asking observations, not completed-sale statistics or an ac
 
 ## Existing ZOOM research — consolidation still pending
 
-The existing B1 FOUR,B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+The existing B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
 
 ## B1Xon
 
@@ -429,3 +429,60 @@ Checked2026-10-16 in the [manufacturer manual naming both models](https://zoomco
 | Looper |80 s mono /40 s stereo; UNDO halves both limits. Patch changes stop loops; Library entry clears them |
 | Processing restrictions |One instance each of amp,pedal,rhythm,looper categories; DSP limits still apply |
 | USB audio routing |Processed stereo recording; stereo playback enters after effects |
+
+## B1 FOUR
+
+Bass multi-effects without a built-in expression pedal; distinct from B1X FOUR and B1Xon. Consolidated2026-10-16 from the complete legacy bass comparison, retaining all15 exact model fields below. Legacy specifications and USD prices retain their2026-10-14 check date. New IDR evidence is dated separately; all fields remain partial.
+
+### B1 FOUR — retained complete comparison fields
+
+| Field | Retained value / unknown |
+|---|---|
+| External expression | No socket listed |
+| K/F/B | 4/2/11 [B1 manual] |
+| W×D×H, mm; weight | 130×156×42; 340 g excl. batteries |
+| Size class | Medium; depth exceeds 140 |
+| Used USD | ? |
+| New USD observation | $85 [P1] |
+| Maximum simultaneous blocks; categories / choices | 5; family advertises 70+ effects/amp models, 60+ effects and 9 classic amp/cab choices; exact per-model category counts pending |
+| Factory / user memory | 50 editable patch memories total; factory-filled subset ? |
+| Synth / acoustic | Bass synth, octave, fuzz; acoustic sim ? |
+| Third-party IR | Not established; factory cab simulation is not an import facility |
+| NAM | Not established |
+| Audio / control ports | ¼″ mono input; 3.5 mm aux; one ¼″ TRS stereo line/headphone output; micro-USB |
+| Power; USB bus operation | 4 AA, DC9V/500mA centre-negative AD-16, **or USB bus** |
+| Configuration apps | Guitar Lab Windows/macOS |
+| Other important features | USB editor connection, **not USB audio**; 30 s looper; 68 rhythms |
+
+### B1 FOUR — source qualifications and original context
+
+Checked **2026-10-14**. Records are **partial**, not certifications that every field is complete. `?` = unverified, not No. Dimensions are **width × depth × height, mm**. `K/F/B` = rotary controls / footswitches / separate buttons; toe switches are additional. Prices below are **USD** seller observations, excluding destination tax/shipping. A missing used price is not estimated from the new price.
+
+B1-family downloads now advertise additional BitCrush and DynaDelay releases in February and April 2026; these are downloadable library additions, not evidence that all installed units contain an identical count. On B6, the manual specifies **six** simultaneous effects; do not confuse the nine footswitches with nine processing slots.
+
+[B1 manual] [Manufacturer operation manual](https://zoomcorp.com/documents/129/E_B1FOUR.pdf), originally checked at printed pp7 and60. The two small arrow buttons are additional to the two main footswitches.
+
+[P1] [Thomann B6 cross-listed comparison](https://www.thomannmusic.com/zoom_b6.htm) and [B1 FOUR listing](https://www.thomannmusic.com/zoom_b1four_bass_multi_effect.htm): original $85 is a US-facing USD ask excluding destination tax/shipping, not IDR or a current sale.
+
+[Official B1/B1X family product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/). Source remains [effects/bass.md](effects/bass.md); old incoming links are unchanged.
+
+### B1 FOUR — explicit remaining fields and current check
+
+| Field | Status |
+|---|---|
+| Built-in expression / toe |No built-in pedal; no built-in toe control. External pedal socket is not listed in complete legacy inventory |
+| Display |Diagonal,pixels,color mode,touch specification not verified for this exact model in retained legacy data; do not copy G1 FOUR screen specifications |
+| Factory / user memory |50 editable total; factory-filled subset unknown, not50+50 |
+| Synth / acoustic |Bass synth documented; exact algorithm names and acoustic simulation remain unresolved |
+| Firmware / categories |Current official product page still advertises over70 family effects/models,60+ effects and9 amp/cab choices,with BitCrush February2026 andDynaDelay April2026 downloads. Not a measured installed inventory or category subtotal |
+
+### B1 FOUR — separate IDR evidence checked2026-10-16
+
+| Price class | Amount | Exact offer and qualification |
+|---|---:|---|
+| Retail adapter bundle ask |**Rp1.950.000** |[tokonline93,shop303905382/item8479951030](https://shopee.co.id/Zoom-B1-FOUR-B1Four-B1-Four-w-AD16E-Bass-Multi-effects-Processor-i.303905382.8479951030); title w/AD16E;JakartaBarat. Reopened JS-limited indexed body has relative tomorrow delivery,not checkout-confirmed stock |
+| Retail voucher adapter bundle |**Rp2.020.000 with voucher** |[Zoom Official Shop,shop348182890/item7367151940](https://shopee.co.id/Zoom-B1-Four-Bass-Multi-Effects-Pedals-With-Adaptor-AD-16E-i.348182890.7367151940);JakartaBarat. Body explicitly Dengan Voucher and unusual spend/discount text;eligibility/final payable amount unverified. Account name is not independent seller authentication |
+| Retail indexed hardware ask |**Rp1.900.000** |[NEO MUSIC,shop158235298/item19785191509](https://shopee.co.id/ZOOM-B1-FOUR-Bass-Multi-Effects-Pedal-i.158235298.19785191509);Sukabumi. Body retains20August delivery. Adapter/bundle unverified;not a directly comparable confirmed bare-unit price |
+| Condition-verified used IDR |**?** |No exact used-condition offer established; B1Xon and mixed B1/B1X listings excluded from variant pricing |
+
+These are separate asking observations,not a used-to-new range. Selected condition,stock,shipping,warranty and seller authenticity remain unverified. No exchange-rate conversion. Current primary product check confirms family features only; this record does not claim a newly inspected manual/panel or installed firmware. Remaining work:exact category inventory,screen details,algorithm names,qualified used price and live retail stock.

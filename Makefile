@@ -113,3 +113,7 @@ consolidation-apply-g2x-four:
 	python3 scripts/consolidation_tools.py apply g2x-four
 consolidation-commit-g2x-four:
 	python3 scripts/consolidation_tools.py commit g2x-four
+
+.PHONY: consolidation-commit-b1-four
+consolidation-commit-b1-four:
+	python3 scripts/consolidation_tools.py commit b1-four
