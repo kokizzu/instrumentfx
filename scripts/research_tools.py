@@ -88,7 +88,7 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
-    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation', 'commit-arena-preservation', 'commit-fx100-preservation', 'commit-fx200-preservation'):
+    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation', 'commit-arena-preservation', 'commit-fx100-preservation', 'commit-fx200-preservation', 'commit-core-preservation'):
         verify()
         for check in ('test-fields', 'test-extraction', 'test-selection', 'verify'):
             subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
@@ -109,6 +109,9 @@ def main():
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-fx100-preservation', 'commit-fx200-preservation'):
             paths += ['FLAMMA.md']
+            subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
+        if mode == 'commit-core-preservation':
+            paths += ['HEADRUSH.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         changed = set(git('diff', '--name-only').splitlines())
         assert changed <= set(paths), changed - set(paths)
@@ -131,6 +134,8 @@ def main():
             message = 'research(flamma): retain FX100 original and qualify mass and USB evidence'
         if mode == 'commit-fx200-preservation':
             message = 'research(flamma): preserve FX200 source and qualify versioned routing'
+        if mode == 'commit-core-preservation':
+            message = 'research(headrush): preserve Core original and document routing and clone limits'
         print(git('commit', '-m', message))
     elif mode == 'verify':
         verify()

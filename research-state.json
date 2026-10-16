@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "HeadRush Core complete-body audit",
-    "task": "FX200 original hash-checked;current V2.0.0 change history and listed editor2.0.1 distinguished,mono/stereo loop conflict retained. Next inspect Core original/root and existing semantic manifest before deciding any repair. No source retirement until full bodies/shared tables/incoming links verified. Continue fresh discovery and primary gaps.",
+    "model": "JOYO GEM BOX original complete-body audit",
+    "task": "Core original fully hash-checked and currentFAQ mic-path/cloner/MIDI limits saved. Next inspect GEM BOX original full source/root and any existing checks before repair. Broader shared-table/incoming-link audit,primaryspecgaps andfresh exact Shopee discovery remain. FV01 stays excluded despite archived stalecursor.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -302,6 +302,24 @@
         "mono/stereo loop overview conflict",
         "USB bus power/channels",
         "current condition-specific IDR"
+      ]
+    },
+    {
+      "model": "HeadRush Core",
+      "path": "HEADRUSH.md#core",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "research(headrush): preserve Core original and document routing and clone limits",
+      "sources": [
+        "https://support.headrushfx.com/en/support/solutions/articles/69000844379-headrush-core-frequently-asked-questions",
+        "https://www.headrushfx.com/products/core/index.html"
+      ],
+      "unresolved": [
+        "IEC/DC documentation conflict",
+        "complete physical controls",
+        "factory/user storage",
+        "current category inventory",
+        "qualified used/stock evidence"
       ]
     }
   ],
@@ -9734,6 +9752,26 @@
       ],
       "retained_comparison_facts": [],
       "scope": "Complete original body preserved. Current support editor/version/reset/backup and routing changes added; store mono/stereo FX-loop conflict explicit. No model added or source removed."
+    },
+    {
+      "models": [
+        "HeadRush Core"
+      ],
+      "model_name": "Core",
+      "destination": "HEADRUSH.md#core",
+      "source": "effects/findings/2026-10-14-headrush-core.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "HEADRUSH-CORE",
+      "source_sha256": "67f0ea3d7bc1f00394a8c76a62d54785585096abd690b994679973fea4af2173",
+      "renamed_references": [
+        "product",
+        "faq",
+        "fw",
+        "cloud"
+      ],
+      "retained_comparison_facts": [],
+      "scope": "Complete dated Core original preserved with reversible references/headings. Current FAQ mic-path/cloner/MIDI limits added; power andcontrol gaps remain. No model added or source removed."
     }
   ],
   "discovery_leads": [
@@ -10294,11 +10332,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "HeadRush::Core",
-          "source": "effects/findings/2026-10-14-headrush-core.md",
-          "dest": "HEADRUSH.md#core"
-        },
-        {
           "model": "JOYO::GEM BOX original",
           "source": "effects/findings/2026-10-15-joyo-gembox-original.md",
           "dest": "JOYO.md#gem-box-original"
@@ -10483,7 +10516,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HeadRush Core complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume JOYO GEM BOX original complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

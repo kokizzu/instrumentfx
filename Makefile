@@ -621,3 +621,7 @@ research-commit-fx100-preservation:
 .PHONY: research-commit-fx200-preservation
 research-commit-fx200-preservation:
 	python3 scripts/research_tools.py commit-fx200-preservation
+
+.PHONY: research-commit-core-preservation
+research-commit-core-preservation:
+	python3 scripts/research_tools.py commit-core-preservation
