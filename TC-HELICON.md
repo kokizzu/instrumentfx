@@ -425,3 +425,42 @@ HIT toggles imported layers;both states are editable. Auto-gain nudge reduces ga
 [Perform VK Test Modes][PVK-S],TC-Helicon Vocal Technologies Inc.,v1.0,2016-09-21,explicitly supports Perform VK. It documents HARMONY+ECHO at startup for factory reset and SET+HEADPHONES for safe mode,which does not start the DSP and awaits USB MIDI SysEx. SET-at-startup names CC filtering only,unlike the user manual’s CC+PC wording. These are documentation findings;no device operation,firmware installation or service procedure was performed.
 
 [PVK-S]: https://service-tcgroup.tcelectronic.com/files/Tech_Service/Perform_VK/Gadwall_Test_Modes_Config.pdf
+
+## PERFORM-VG
+
+Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026-10-17;partial. Guitar classification rests on independent BodyRez,chorus,echo and reverb processing,not chord detection alone. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/external/toe expression unverified. Remote controller specifics pending. | Unresolved |
+| K/F/B | Separate knob/footswitch/button counts unverified;do not transfer V/VK counts. | Unresolved |
+| Display | Segmented colored LED ring used for effect level/style;screen diagonal,color-LCD/touch unverified. | [Manual p6][PVG-M] |
+| Dimensions / mass | Unverified. | Unresolved |
+| Processing / category choices | Vocal Harmony/Reverb/Echo,Adaptive Tone EQ/de-essing/gate/compression,pitch correction,anti-feedback. Guitar BodyRez,Chorus,Echo,Reverb. Reverb style shared across voice/guitar,levels separate;echo styles/levels independent. Complete choices and simultaneous accounting pending. | [Official manual p4][PVG-O];[manufacturer-authored Rev1.0 pp5–6][PVG-M] |
+| Factory / user memory | Total/user/factory preset accounting unverified;do not transfer V/VK three-preset behavior. | Unresolved |
+| Synth / acoustic | BodyRez treats acoustic pickup sound;not proof of electric-to-acoustic simulation. Instrument synth and dedicated acoustic simulation unverified. | [Manual p4][PVG-O] |
+| I/O | Guitar IN/THRU,MIC OUT and headphones documented;full connector inventory pending. | [Manual p4][PVG-O] |
+| Power / battery / USB | Voltage,current,polarity,battery and USB power unverified. | Unresolved |
+| IR / NAM / capture | IR,native/converted NAM and capture import unverified. | Unresolved |
+| Editor / software | Full editor/platforms,USB audio/MIDI and update utilities unverified;do not inherit VK interface. | Unresolved |
+| Looper / drums / live | Guitar THRU initially mutes guitar in processor mix but retains chord detection. MIX guitar-level adjustment restores guitar to MIC OUT while retaining THRU;replug THRU or Guitar IN re-mutes. Looper/drums/scenes/trails unverified;controller illustration labels are not feature proof. | [Official manual p4][PVG-O] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;condition unconfirmed. | — |
+| New | Unknown;condition unconfirmed. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified exact hardware
+
+[DealerJaya item](https://shopee.co.id/Vocal-Processor-TC-Helicon-PERFORM-VG-i.510844912.23623712017),shop510844912/item23623712017,Kota Malang:Rp3,680,000,Habis,shop holiday flag. Checked2026-10-17,two-month index;16–17Aug delivery stale;direct open returned site shell. Condition,variant,bundle/adapter,warranty,working state and current stock unverified. Rp10,000 late-arrival compensation is not discount;shipping/tax/checkout unknown. Other indexed offers retained in ledger,not qualified used/new prices.
+
+Official manual direct unavailable. Manufacturer-authored mirror identifies PERFORM-VG/User Manual Rev1.0/2017copyright;title and p4 introduction/routing match official indexed text. Indexed manufacturerCDN p6 independently corroborates LED/style material. Mirror-added Manual-Hub stamps and2023host update are not manufacturer revision dates. No hash/visual certification or local downloads.
+
+[PVG-O]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DED/PERFORM-VG_M_EN.pdf
+[PVG-M]: https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd

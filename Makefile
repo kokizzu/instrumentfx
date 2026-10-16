@@ -1259,3 +1259,7 @@ research-commit-perform-v:
 .PHONY: research-commit-perform-vk
 research-commit-perform-vk:
 	python3 scripts/research_tools.py commit-perform-vk
+
+.PHONY: research-commit-perform-vg
+research-commit-perform-vg:
+	python3 scripts/research_tools.py commit-perform-vg
