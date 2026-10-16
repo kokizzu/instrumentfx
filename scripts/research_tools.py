@@ -286,7 +286,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-ax3000g':
-            message = 'research(korg): reconcile AX3000G enumerated model counts and synth options'
+            message = 'research(korg): document AX3000G MIDI ESS and adapter compatibility limits'
         if mode == 'commit-pandora':
             message = 'research(korg): qualify PANDORA stomp live control synth and editor restrictions'
         if mode == 'commit-vl3x':

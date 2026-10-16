@@ -71,9 +71,11 @@ Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass s
 | Synth / acoustic | Pickup, acoustic body/top and synth modeling documented. Acoustic has four body types; synth offers square/saw/sine at −2 to +2 octaves. Octave effect is single-note only. | [EasyStart][AX-E]; [Manual pp27–29][AX-M] |
 | I/O | Mono INPUT/INSERT RETURN; stereo-mini AUX/PHONES; two mono OUTPUTs, INSERT SEND; optical S/PDIF16-bit/44.1kHz; MIDI IN/OUT; DC9V. Panel p10 specifies balanced/unbalanced TRS main outputs; p56 calls them monaural phone jacks. L/MONO handles mono; headphones silence main outputs. Rear LEVEL controls main/headphones. No USB or external EXP jack in complete rear enumeration; MIDI control remains available. | [Manual pp10–13,56][AX-M] |
 | Analog conversion | A/D and D/A20-bit,44.1kHz. | [Manual p56][AX-M] |
-| Power / battery / USB | 9V DC, supplied adapter. Current/polarity, battery and USB power unverified; no inference from ambiguous polarity glyph extraction. | [Manual p56][AX-M] |
+| Power / battery / USB | 9V DC, supplied adapter. Korg Japan lists **KA181** for AX3000G/B(BK); this regional compatibility listing does not specify current/polarity. Battery and USB power unverified; no inference from ambiguous polarity glyph extraction. | [Manual p56][AX-M]; [Adapter compatibility][AX-P] |
 | IR / NAM / capture | User IR, native/converted NAM and capture loading unverified; REMS is not import evidence. | Unresolved |
 | Editor / platforms | MIDI-connected editor/librarian supports Windows/Mac. Support lists Windows1.01 and Mac1.1, dated2015-06-01; current OS support unverified. Individual release pages identify EXE/ZIP respectively but publish no OS requirements in their accessible HTML; neither package downloaded. | [EasyStart][AX-E]; [Support][AX-D]; [Windows release][AX-W]; [Mac release][AX-A] |
+| MIDI / editor connection | Computer editing needs a MIDI interface and bidirectional IN/OUT cabling; some interfaces mishandle SysEx. Matching channels required. CCHG I/O gates all CC traffic; individual assignments allow CC00–95 or Off. SYEX OUT controls parameter transmission, not reception or data dumps. Current/all-program SysEx backup supported. | [Manual pp48–51][AX-M] |
+| ESS / live control | Up to eight parameter steps; pedal controls sequence speed or step selection in PEdL mode. One-shot completion restores the effect value. ESS TAP1/TAP2/TRIG do nothing in PEdL; maximum tap interval10s. These are parameter sequences, not evidence of audio looping. | [Manual pp43–47][AX-M] |
 | Looper / drums / live | ESS automates parameter steps; Individual mode switches effects. Drive/amp selection resets cabinet to an appropriate model. Delay trails require matching type/time; reverb matching type. Looper, drums and scenes unverified. | [Manual pp1–4][AX-M]; [EasyStart][AX-E] |
 
 ### Separate IDR hardware offers
@@ -95,3 +97,5 @@ Remaining: external expression details, display details, retained specification-
 
 [AX-W]: https://www.korg.com/us/support/download/software/1/28/1387/
 [AX-A]: https://www.korg.com/us/support/download/software/1/28/1388/
+
+[AX-P]: https://www.korg.com/jp/support/adapter/

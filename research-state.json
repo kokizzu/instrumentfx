@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX3000G primary follow-up",
-    "task": "AX3000G detailed model list reconciled; release pages lack OS requirements. Continue MIDI/ESS routing restrictions and model-specific electrical evidence, then fresh Shopee discovery; commit before next model.",
+    "model": "Fresh Shopee discovery after AX3000G follow-up",
+    "task": "AX3000G MIDI/ESS and KA181 compatibility saved. Remaining display, electrical current/polarity, imports and current editor OS unsupported by inspected sources. Search Shopee by brand/series for eligible missing hardware; preserve all remaining gaps and commit each model before next.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery remains required; no coverage-complete claim."
+    "after_queue": "Continue fresh Shopee discovery; coverage incomplete."
   },
   "new_findings": [
     {
@@ -1918,6 +1918,20 @@
           "https://www.korg.com/us/support/download/software/1/28/1388/"
         ],
         "editor_limit": "Accessible HTML identifies versions/packages but no OS requirements; no download"
+      },
+      "midi_ess_power_followup": {
+        "checked_date": "2026-10-17",
+        "sources": [
+          "https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf",
+          "https://www.korg.com/jp/support/adapter/"
+        ],
+        "resolved": [
+          "MIDI interface, bidirectional cabling and SysEx compatibility needed for editor",
+          "CC gate/assignments, SysEx transmission versus reception/dumps",
+          "Eight ESS parameter steps and pedal-mode/tap restrictions",
+          "Japan adapter compatibility identifies KA181"
+        ],
+        "remaining": "Current/polarity still unresolved; do not infer draw from adapter rating. Other prior gaps remain."
       }
     }
   ],
@@ -37607,7 +37621,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3000G primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after AX3000G follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
