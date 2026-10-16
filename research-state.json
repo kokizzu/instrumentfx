@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Fresh discovery / remaining technical gaps after G2.1u",
-    "task": "G2.1u expression andDRIVE distinctions saved. Bass discovery yieldedmixedvariants/accessories,notverifiednewmodels. Continue fresh exact hardware search or remaining categorycounts;do not repeat samequeries as proof ofabsence.",
+    "task": "G2.1u category inventory complete for readmanual54selectors. Do not repeatcounting;continue newexactShopee hardware or remainingprimarygaps. Preserve external-pedal wording conflict.",
     "next_models": [],
-    "after_queue": "Search Shopee broader brands/series and verify manufacturer architecture."
+    "after_queue": "Search Shopee broader brands/series; exclude accessories and unmapped mixedvariants."
   },
   "new_findings": [
     {
@@ -4351,6 +4351,14 @@
       "source": "https://zoomcorp.com/media/documents/E_G21u_0.pdf",
       "finding": "Resolved full-depression assigned-module switching;externalFP01/FP02 volume-only independently inplay/edit;connectbeforepower,builtinvolumeinbypass. DRIVE16+acoustic withlive/directvariants tiedtoCAB/MIC;SynthDazepresetname notsynthproof.",
       "remaining": "Other categorycounts,factoryfill,screen/draw/editor/imports andcondition-qualifiedmarket verification."
+    },
+    {
+      "model": "Zoom G2.1u",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://zoomcorp.com/media/documents/E_G21u_0.pdf",
+      "finding": "Completed nine-module selectable inventory summing54,with extraEQ/cab alternatives and2sMOD versus5sDELAY versus3smultitap limits. Preserved genericexternalpedalparameterlegend versusp21volume-only conflict.",
+      "remaining": "Factoryfill,screen/draw/editor/imports andcurrentcondition-qualifiedprices;physicalunit/firmware nottested."
     }
   ],
   "consolidation_and_price_findings": [
@@ -48589,6 +48597,25 @@
         "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964"
       ],
       "qualification": "Search omission is not market unavailability;no negative capability oravailabilityclaim."
+    },
+    {
+      "model": "Zoom G2.1u",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_G21u_0.pdf",
+      "category_selection_counts": {
+        "COMP": 1,
+        "WAH_EFX": 9,
+        "ZNR": 3,
+        "DRIVE": 17,
+        "EQ": 1,
+        "EXTRA_EQ_CABI_MIC": 2,
+        "MOD_SFX": 13,
+        "DELAY": 3,
+        "REVERB": 5
+      },
+      "sum": 54,
+      "method": "Count named selectable types in printedpp27–33 once; excludeOFF,parametermodes,cabinet/micpositions,DRIVElive/directvariants and duplicatedDELAYtableexamplep26.",
+      "remaining": "Physical/firmware verification and genericFP01/FP02legend versusp21volume-only conflict;screen/draw/editor/import/currentqualifiedprices."
     }
   ],
   "discovery_cross_brand_bass": {
