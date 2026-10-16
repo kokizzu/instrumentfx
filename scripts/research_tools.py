@@ -232,7 +232,7 @@ def main():
         if mode == 'commit-compact-smartbox-audit':
             message = 'audit(sonicake): preserve complete Smart Box original and rebuild provenance'
         if mode == 'commit-compact-pocketmaster-audit':
-            message = 'audit(sonicake): preserve Pocket Master shared fields and revision context'
+            message = 'audit(sonicake): preserve complete Pocket Master original and stock limits'
         print(git('commit', '-m', message))
     elif mode == 'verify':
         verify()

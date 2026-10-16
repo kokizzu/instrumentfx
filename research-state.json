@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Pocket Master complete original-body audit",
-    "task": "Read and preserve complete original Pocket Master finding, then electric CUBE BABY separately. Smart Box original retained with reversible hash/body verification. Continue full shared-source prose/incoming audits, fresh Shopee discovery and technical gaps; do not retire legacy sources.",
+    "model": "M-VAVE CUBE BABY electric complete original-body audit",
+    "task": "Read complete electric CUBE BABY finding/root, preserve and hash-check full original. Then reconcile all actual finding paths with manifests, continue shared-source prose and incoming-link audits, fresh Shopee discovery and technical gaps. Do not retire sources on registered-pair count.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10289,6 +10289,25 @@
       },
       "retained_comparison_facts": [],
       "scope": "Complete previously unregistered original retained with manufacturer manual observation, mobile version and architecture limits, exact seller ask and condition/stock qualifications. No new technical or stock verification."
+    },
+    {
+      "models": [
+        "Sonicake Pocket Master QME-10"
+      ],
+      "model_name": "Pocket Master QME-10",
+      "destination": "SONICAKE.md#pocket-master-qme-10",
+      "source": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "SONICAKE-POCKETMASTER",
+      "source_sha256": "a1953ddd0e1810eb5da8df304fdf6b8a34a9847d104c9123f87610db3567f6d7",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../guitar-compact.md)": "(effects/guitar-compact.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Complete original retained with manual revision, palm-button/USB distinctions, ambiguous retail stock and all price/access qualifications. No refreshed stock or technical verification."
     }
   ],
   "discovery_leads": [
@@ -10860,10 +10879,10 @@
       "current_check": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-findings",
-        "registered_pairs": 81,
-        "covered": 81,
+        "registered_pairs": 82,
+        "covered": 82,
         "missing": [],
-        "scope": "Registered finding/model pairs only; the shared POD Go canonical section preserves both original variant sources, producing two cross-variant provenance pairs, not extra models or borrowed specifications. Two actual-directory active findings remain pending and excluded FV01 has separate verification."
+        "scope": "Registered finding/model pairs only, including both original sources at shared POD Go canonical destination. One actual-directory active finding (electric CUBE BABY) pending; excluded FV01 separately verified. Not whole shared-source/incoming-link certification."
       }
     },
     "legacy_source_inventory": {
@@ -14338,10 +14357,10 @@
       "scope": "All 82 actual finding Markdown paths checked against source manifests; absence does not prove lost facts.",
       "repaired": [
         "effects/findings/2026-10-14-sonicake-matribox.md",
-        "effects/findings/2026-10-14-sonicake-smart-box.md"
+        "effects/findings/2026-10-14-sonicake-smart-box.md",
+        "effects/findings/2026-10-14-sonicake-pocket-master.md"
       ],
       "pending_active": [
-        "effects/findings/2026-10-14-sonicake-pocket-master.md",
         "effects/findings/2026-10-15-mvave-cube-baby.md"
       ],
       "separate_specialist_check": "effects/findings/2026-10-14-flamma-fv01.md is preserved and verified against historical original by research_tools.verify; remains excluded."
@@ -15499,7 +15518,9 @@
       "source_files": [
         "SONICAKE.md"
       ],
-      "finding_files": []
+      "finding_files": [
+        "effects/findings/2026-10-14-sonicake-pocket-master.md"
+      ]
     },
     "Sonicake::Matribox II QME-100": {
       "link": "SONICAKE.md#matribox-ii-qme-100",
