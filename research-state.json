@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom MS-60B remaining verification",
-    "task": "OriginalMS-60B added from exact Shopee hardware discovery with primary four-effect/50memory/power/body evidence;keep MS-60B+ separate. Verify V2inventory andremaining fields,commit before next model. A1XFOUR andMS50G discovery leads found butnotresearched;remaining legacy navigation/source audits also pending.",
+    "task": "MS-60B DSP ON/OFF cost,AutoSave defaults,identifiedV2synths andV2.1audio-stopfix saved. Remaining V2total/category inventory,complete I/O/EXP,screen,USB supply/audio/MIDI,editor,memory overwrite,looper/drums andcurrent qualified offers. Commit before next model;fresh leads andlegacy navigation audits remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -882,7 +882,9 @@
       "sources": [
         "https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/",
         "https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf",
-        "https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/ms-60-support/"
+        "https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/ms-60-support/",
+        "https://zoomcorp.com/media/documents/E_MS-60B_FX-list_v2.pdf",
+        "https://zoomcorp.com/en/jp/news/firmware-update-v21-ms-60b-and-ms-70cdr/"
       ],
       "offers": [
         {
@@ -912,16 +914,22 @@
       ],
       "unresolved": [
         "58versusV2inventory",
-        "DSP",
-        "exact synth",
         "completeports/EXP",
         "display",
         "USBsupply/audio/MIDI",
         "editor",
         "memoryoverwrite",
         "looper/drums",
-        "condition/checkoutstock"
-      ]
+        "condition/checkoutstock",
+        "complete synth inventory"
+      ],
+      "manual_followup": {
+        "checked_date": "2026-10-17",
+        "DSP": "DSPFull bypass;ON/OFFsamecost;change type orTHRU",
+        "autosave": "ONdefault;OFFrequiresmanualsave",
+        "synth": "V2StdSyn4variations,SynTlk4vowels,ZSyn;completeinventoryunknown",
+        "firmware": "V2.1 dated2020-01-01 fixesaudiooutputstoppingwithcertaineffects;installedversionunknown"
+      }
     }
   ],
   "consolidation_and_price_findings": [

@@ -1072,15 +1072,19 @@ Checked **2026-10-17**. Original discontinued bass multi-effects,distinct from M
 |---|---|---|
 | Expression / controls | No built-in expression pedal;external EXP not listed in indexed panel. Three push-knobs,one footswitch,four directional keys:K/F/B **3/1/4**,encoder presses counted once;toe N/A. | [Zoom source](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
 | Display / body | LCD;diagonal,resolution,color/mono and touch unverified. **77.5 W×130.3 D×58.5 H mm;350g**,battery inclusion unspecified. Compact under200×140filter. | [Zoom source](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
-| Simultaneous effects | **Four maximum**,reorderable;DSP constraints need review. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+| Simultaneous effects | **Four maximum**,reorderable,subject toDSP. Overloaded effect is bypassed with **DSP Full**. ON andOFF effects use the same processing capacity;change types orsetTHRU toreduce load. | [Manual,p.9](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
 | Categories / choices | Original **58**:dynamics/filter19,drive11,amps6,modulation/SFX14,delay/reverb8. Support listsV2effectsheet andfirmware2.1;current installed/library total requires reconciliation. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
-| Presets / memory | **50 editable memories,30 preloaded**;AutoSave and26-patch footswitch sequence. Copy/overwrite details unresolved. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
-| Acoustic / synth | Bass synth,sub-octave andDeFret documented;DeFret is fretless-style processing. Specific synth algorithms andacoustic simulation unverified. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+| Presets / memory | **50 editable memories,30 preloaded**;AutoSave and26-patch footswitch sequence. AutoSave defaultsON;OFF requires manual saving. Copy/overwrite details remain unresolved. | [Product](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/); [manual,p.20](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
+| Acoustic / synth | Bass synth,sub-octave andDeFret documented;DeFret is fretless-style processing. V2sheet identifies **StdSyn** (4sound variations,Sense0–100,Tone0–10),**SynTlk** vowel synth (iA/UE/UA/oA,Decay0–100,Tone0–10),and **Z-Syn** bass synth. StdSyn/SynTlk each offer Synth/Dry0–100 andLevel0–150. Acoustic simulation andcomplete synth inventory remain unverified. | [V2 effect list](https://zoomcorp.com/media/documents/E_MS-60B_FX-list_v2.pdf); [product](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
 | Audio / control ports | Mono standard phone input,1MΩ;two mono standard line outputs for stereo. USB firmware connector;exact USB type,headphone/EXP/MIDI/loop exclusions unverified. | [Zoom source](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
 | Power | **9V DC500mA center-negative AD-16;2AA orUSB supply**. Rated7h alkaline,not independent runtime. USB voltage/current unverified. | [Zoom source](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
 | IR / NAM / capture | Factory amp/cab models do not establish WAV IR import,native/converted NAM oruser capture loading;all unverified. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
 | Editor / platforms | Support lists2.1 firmware forWindows/Mac. Updaters are not full editors;official editor/mobile editing andUSB audio/MIDI unverified. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/ms-60-support/) |
 | Looper / rhythm / live | Tuner,tap tempo documented;looper,drums,scenes andtails unverified. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+
+### Firmware and manual follow-up
+
+[Zoom V2.1 release note](https://zoomcorp.com/en/jp/news/firmware-update-v21-ms-60b-and-ms-70cdr/),dated2020-01-01,addresses audio output sometimes stopping with certain effects. This is a documented correction,not proof of installed firmware orindependent compatibility testing. [Original manual,p.9](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) documents DSP Full andequal ON/OFF load;[p.20](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) documents AutoSave defaults. No file downloaded.
 
 ### Separate IDR hardware offers
 
@@ -1091,4 +1095,4 @@ Checked **2026-10-17**. Original discontinued bass multi-effects,distinct from M
 
 ### Remaining verification
 
-Reconcile original58-effect marketing withV2effectsheet;verifyDSP,exact synth algorithms,complete I/O/expression exclusions,screen specifications,USB supply/audio/MIDI,editor availability,memory overwrite,looper/drums andqualified current used/new offers. Do not borrow MS-60B+ specifications.
+Reconcile original58-effect marketing withV2effectsheet;verifycomplete synth inventory,complete I/O/expression exclusions,screen specifications,USB supply/audio/MIDI,editor availability,memory overwrite,looper/drums andqualified current used/new offers. Do not borrow MS-60B+ specifications.
