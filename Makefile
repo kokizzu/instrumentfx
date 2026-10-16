@@ -801,3 +801,7 @@ research-commit-g3n:
 .PHONY: research-commit-b3n
 research-commit-b3n:
 	python3 scripts/research_tools.py commit-b3n
+
+.PHONY: research-commit-a1four
+research-commit-a1four:
+	python3 scripts/research_tools.py commit-a1four
