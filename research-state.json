@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-100 — NAM A2 conversion review",
-    "task": "Review official regional GP-100 NAM A2 conversion requirement desktop1.5.1+; preserve earlier unestablished evidence, update root/comparisons and commit. Then consolidate GP-5/GP-50 and remaining legacy records; continue fresh Shopee discovery.",
+    "model": "Valeton GP-5 — complete legacy consolidation and NAM revision",
+    "task": "Read complete GP-5 finding and compact supporting source; consolidate into VALETON.md, preserve FAQ date and historical SnapTone details, verify official regional NAM A2 conversion mobile2.1.0+ and commit before GP-50. Then continue remaining legacy records, field verification and fresh Shopee discovery.",
     "next_models": [],
     "after_queue": "Continue unresolved-field checks and lossless consolidation of 18 legacy-only models."
   },
@@ -206,6 +206,24 @@
         "touch/pixel resolution",
         "toe operation",
         "qualified used/current stock"
+      ]
+    },
+    {
+      "model": "Valeton GP-100",
+      "path": "VALETON.md#gp-100",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "research(valeton): document GP-100 NAM A2 conversion requirements",
+      "scope": "Official regional notice explicitly names GP-100 and desktop1.5.1+ conversion. Historical unknown and all original source evidence preserved.",
+      "sources": [
+        "https://www.hotone.jp/announcements/nama2allbrand"
+      ],
+      "unresolved": [
+        "required hardware firmware",
+        "NAM architectures/storage/concurrency",
+        "complete current effect category counts",
+        "published diagonal/touch",
+        "qualified live used/new stock"
       ]
     }
   ],
@@ -7742,7 +7760,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-100 — NAM A2 conversion review."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-5 — complete legacy consolidation and NAM revision."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

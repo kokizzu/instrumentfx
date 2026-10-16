@@ -134,7 +134,7 @@ def main():
         subprocess.run(['pdftotext','-layout',str(path),str(path.with_suffix('.txt'))],check=True)
         subprocess.run(['pdftoppm','-f','6','-l','7','-scale-to','1600','-png',str(path),str(cache/('prime-panel' if prime else 'ge300-panel'))],check=True)
         print('Saved and rendered original manufacturer manual: '+str(path))
-    elif mode == 'commit-gp150-nam':
+    elif mode in ('commit-gp150-nam','commit-gp100-nam'):
         verify()
         subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
         assert not git('diff','--cached','--name-only').strip(), 'Existing staged changes must be inspected'
@@ -142,7 +142,7 @@ def main():
         print(git('status','--short'))
         print(git('add','--',*paths))
         print(git('diff','--cached','--stat'))
-        print(git('commit','-m','research(valeton): qualify GP-150 native NAM A2 Lite by firmware'))
+        print(git('commit','-m','research(valeton): document GP-100 NAM A2 conversion requirements' if mode == 'commit-gp100-nam' else 'research(valeton): qualify GP-150 native NAM A2 Lite by firmware'))
     elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons', 'commit-prime','commit-ge300','commit-gs1000','commit-b1xon','commit-helix-lt','commit-gt100'):
         verify()
         print(git('status', '--short', '--branch'))

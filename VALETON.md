@@ -162,7 +162,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD111, Thomann; IDR2.635.000, Nafiri
 - **Original evidence** (Archived foreign-price provenance — not the comparison currency): [P1], [P2], [P3]
 
-### GP-100 comparison fields from retained snapshot
+### GP-100 comparison fields — dated evidence
 
 | Field | Dated evidence |
 |---|---|
@@ -181,7 +181,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Presets and user storage | 99 P + 99 U = 198 |
 | Synth / acoustic functions | Acoustic **amp** models documented; electric-to-acoustic simulator and synth counts ? |
 | Third-party IR | 20 user slots |
-| NAM / captured models | ?; IR capability alone does not establish NAM |
+| NAM / captured models | **NAM A2 conversion via desktop software1.5.1+**, explicitly named for GP-100 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. This updates the historical unestablished field retained above. Native NAM, supported architecture limits, required hardware firmware, model-storage capacity and simultaneous capture limits remain unverified; twenty IR locations do not establish NAM storage. |
 | Audio / control connections | ¼″ TS input; 2 × ¼″ outputs; 3.5 mm aux; 3.5 mm headphones; USB-B |
 | Power and battery | **DC 9 V, 500 mA, centre-negative** [detail](VALETON.md#gp-100); USB-power/battery support not established |
 | Configuration software | Windows/macOS editor |
