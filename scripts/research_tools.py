@@ -409,7 +409,7 @@ def main():
         if mode == 'commit-vl3x':
             message = 'research(tc-helicon): verify VL3X loop slots saving and guitar output routing'
         if mode == 'commit-b3':
-            message = 'research(zoom): verify B3 battery-excluded mass and analog conversion limits'
+            message = 'research(zoom): distinguish B3 rhythm entries and automatic patch saving'
         if mode == 'commit-g3':
             message = 'research(zoom): document G3 battery settings eco behavior and tuner modes'
         if mode == 'commit-me25':

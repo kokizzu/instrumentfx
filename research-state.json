@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery after AX1000G operation follow-up",
-    "task": "AX1000G second exact cached offer saved separately atRp2000000 Habis;condition unknown. Continue fresh hardware discovery or primary technical gaps;do not re-add existing189models.",
+    "model": "Fresh discovery after original B3 operating clarification",
+    "task": "OriginalB3 rhythm list split,autosave/StoreSwap/reset anddry/effect blend saved. ContinuefreshShopee brand/seriesdiscovery orunresolvedprimarytechnicalfields. No new model frommixedB2.1u shopask.",
     "next_models": [],
-    "after_queue": "No downloads/dependencies;keepcategorysegregation andlegacyprovenance."
+    "after_queue": "No downloads/dependencies;preserve bass/guitar/vocal andsingle-function segregation."
   },
   "new_findings": [
     {
@@ -40436,7 +40436,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery after AX1000G operation follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery after original B3 operating clarification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48833,6 +48833,13 @@
       "finding": "Second exact hardware seller page Rp2000000 Habis;condition unknown,not assigned used/new. Title motif decal,totok.zulianto Kab.Tuban shop57900729/item16038187135. Last-month crawl and stale29–30August delivery;late-arrival Rp10000 compensation not discount.",
       "source": "https://shopee.co.id/efek-gitar-tonework-korg-ax1000g-motif-decal-i.57900729.16038187135",
       "remaining": "Working condition,revision,bundle,warranty and current availability unverified."
+    },
+    {
+      "model": "Zoom B3 original",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+      "finding": "Printedpp12–15,19–21,30–31,50: edits auto-save; Store/Swap destination restriction; factory initialize erases custom settings while firmware update preserves patches; per-patch dry/effect blend; 41 rhythm entries include GUIDE and four metronomes,leaving36pattern entries; battery type/backlight/contrast controls clarified.",
+      "remaining": "Controls and switch icons not visually resolved: PDF screenshot produced no readable image. No inference fromB3n. Power draw,imports,MIDI,current software,screen characteristics and exact offers remain unresolved."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -48844,7 +48851,19 @@
     ],
     "digitech": "No exact Indonesian ShopeeBP90/BP355 offer established;TaiwanShopeeBP355 andBlibli results are not IndonesianShopee evidence. Do not infer unavailability orcoveragecomplete.",
     "selected": "Zoom B1on exact hardware",
-    "foreign_lead": "https://shopee.tw/Digitech-BP355-Bass-%E5%9C%B0%E6%9D%BF%E5%9E%8B-%E7%B6%9C%E5%90%88-%E6%95%88%E6%9E%9C%E5%99%A8-%E5%94%90%E5%B0%BC%E6%A8%82%E5%99%A8--i.163056973.2871248760"
+    "foreign_lead": "https://shopee.tw/Digitech-BP355-Bass-%E5%9C%B0%E6%9D%BF%E5%9E%8B-%E7%B6%9C%E5%90%88-%E6%95%88%E6%9E%9C%E5%99%A8-%E5%94%90%E5%B0%BC%E6%A8%82%E5%99%A8--i.163056973.2871248760",
+    "last_followup_20261017": {
+      "queries": [
+        "site:shopee.co.id Zoom 506 efek bass",
+        "site:shopee.co.id Digitech BP90",
+        "site:shopee.co.id Korg AX5B",
+        "site:shopee.co.id BP80 digitech",
+        "site:shopee.co.id B2.1u efek bass",
+        "site:shopee.co.id AX10B efek"
+      ],
+      "result": "No new qualified exact model item. HopeMusic shop mixesG2.1Nu/G2.1u/B2.1u atRp1699000 without variation-price mapping;not a B2.1u price. Empty/noisy results do not prove absence.",
+      "source": "https://shopee.co.id/hopemusik"
+    }
   },
   "discovery_guitar_me80": {
     "checked_date": "2026-10-17",
