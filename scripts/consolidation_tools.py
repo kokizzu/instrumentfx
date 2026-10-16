@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'ame-200': ('AME-200', 'effects/findings/2026-10-15-audota-ame-200.md'),
     'ame-100': ('AME-100', 'effects/findings/2026-10-15-audota-ame-100.md'),
     'nano-cortex': ('Nano Cortex', 'effects/advanced-modelers.md'),
     'tonex-pedal': ('TONEX Pedal', 'effects/advanced-modelers.md'),
@@ -504,7 +505,68 @@ def plan_ame100():
     print('Preview AME-100 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_ame200():
+    research_tools.identity()
+    model, source_path = MODELS['ame-200']
+    brand_file = 'AUDOTA.md'
+    assert (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['Audota::AME-200']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'AUDOTA-AME-200'
+    body, refs = preserved_body(source, prefix)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/audota.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**2026-10-15:') or p.startswith('K/F/B=') or p.startswith('A display icon') or p.startswith('No guitar model') or p.startswith('All are datedlisted') or p.startswith('Full findingreferences')]
+    section = '\n## AME-200\n\nStandard model, not Pro. Consolidated **2026-10-17**, preserving the complete dated finding and all supporting model fields. Historical next-model notes are provenance; current task is in research-state.json.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical context includes superseded catalogue counts, not current totals.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nSources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/audota.md). No original source or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current AME-200 comparison fields\n\n| Field | Evidence and limits |\n|---|---|\n'
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'] == 'Follow-up technical correction':
+            continue
+        if f['field'] == 'Expression / controls':
+            section += '| Expression | No built-in pedal; one6.35mm TRS external EXP input. External toe behavior unverified. [M] |\n| K/F/B | **2 rotary /4 footswitches /4 buttons**: EDIT,MASTER;A/B/C/D;PLAY,BACK,SWITCH,SAVE. Encoder push counted once. [M] |\n'
+            continue
+        value=f['value']
+        if f['field'] == 'Power':
+            value += ' English page and importer both reconfirm9V/300mA center-negative on2026-10-17; Chinese page timed out, so its earlier1.5A statement is preserved rather than resolved.'
+        if f['field'] == 'Audio/control ports':
+            value += ' Manufacturer specs additionally publish input2.2MΩ, output510Ω and headphone32Ω. Importer prose incorrectly describes stereo input; numbered original manual documents one instrument input. [P,M,U]'
+        if f['field'] == 'Retail IDR':
+            value += ' Reopen again failed2026-10-17; condition, checkout stock, region/warranty, accessory bundle, vouchers and delivered charges remain unverified. Retained historical ask, not a current retail range.'
+        if f['field'] == 'NAM':
+            value += ' Current importer reopen did not expose the earlier NAM statement; retain its original observation date and unverified workflow. No AME-100 conversion spec borrowed.'
+        section += '| '+f['field']+' | '+value+' |\n'
+    section += '\n<!-- comparison evidence ends -->\n\n### Current source access and unresolved questions\n\nChecked **2026-10-17**: [English manufacturer page](https://en.audota.com/AME200EN.html) still advertises221 models,50 rhythms,200 presets,20 IR locations,60-second looper and3.5-inch color display. Its included-expression wording conflicts with its own explicit external-pedal description; the numbered original manual remains the control/connector authority. Published operating temperature is0–60°C. No touchscreen capability is inferred.\n\n[Importer standard-model page](https://shop.warwick.de/de/effektpedale-multieffekt-prozessorenaudota-ame-200-amp-modeler-multi-effects) corroborates power/control data and describes volume/wah external expression. Its stereo-input prose conflicts with the numbered manual; no stereo input is silently added. The page does not expose NAM in the present extraction; historical firmware-qualified A1/A2 evidence remains dated and partial.\n\n[Audota-authored original manual text, V01 dated2025-07-25](https://manuals.plus/m/e83dfa8d3d3ef2939052a142e66f922ba406bc6d9f9b8cfad226ccaaa2266893) reopened with matching model/revision identity and model-specific numbered panel/connection/specification text; no generated FAQ or PDF visual inspection used. [Chinese product page](https://www.audota.com/AME200CN.html) timed out. Exact Shopee item reopening failed and targeted search yielded no new exact price. No dependency, software or document file was downloaded or executed.\n\nComplete source bodies retain all original source URLs, revision conflicts and acoustic algorithms. Remaining gaps: toe behavior, touch, exact concurrent DSP budget, factory/user split, NAM conversion/native architecture, USB channels/drivers, battery/bus-power and current condition-specific price/stock. Do not substitute Pro battery or expression specifications.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file].append(model)
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['Audota AME-200'],model_name=model,brand='Audota',destination=brand_file+'#ame-200',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete finding/supporting facts retained. English power corroborated; historical Chinese current,220/221 and40/50 conflicts retained; current NAM and Shopee access remain limited.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Audota AME-200 Pro — complete legacy consolidation',task='Read full Pro finding and supporting Audota comparison. Consolidate in AUDOTA.md, preserving Pro battery/expression differences, charging-time/current/model-count conflicts and all source/price qualifications. Verify exact primary and Shopee evidence; commit before next model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [AUDOTA.md](AUDOTA.md) |AME-100 |', '| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200 |')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:(ROOT/brand_file).read_text().replace('Standard AME-100 is consolidated below.','Standard AME-100 and AME-200 are consolidated below.')+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=digest((ROOT/brand_file).read_text())
+    payload=dict(model_id='ame-200',model=model,inputs=inputs,outputs=outputs,new_files=[],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview AME-200 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'ame-200':
+        return plan_ame200()
     if model_id == 'ame-100':
         return plan_ame100()
     if model_id == 'nano-cortex':
@@ -740,6 +802,9 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'ame-200':
+        print(research_tools.git('commit', '-m', 'research(audota): consolidate standard AME-200 evidence'))
+        return
     if model_id == 'ame-100':
         print(research_tools.git('commit', '-m', 'research(audota): consolidate AME-100 and verify NAM IR concurrency'))
         return

@@ -485,3 +485,11 @@ consolidation-apply-ame-100:
 	python3 scripts/consolidation_tools.py apply ame-100
 consolidation-commit-ame-100:
 	python3 scripts/consolidation_tools.py commit ame-100
+
+.PHONY: consolidation-plan-ame-200 consolidation-apply-ame-200 consolidation-commit-ame-200
+consolidation-plan-ame-200:
+	python3 scripts/consolidation_tools.py plan ame-200
+consolidation-apply-ame-200:
+	python3 scripts/consolidation_tools.py apply ame-200
+consolidation-commit-ame-200:
+	python3 scripts/consolidation_tools.py commit ame-200
