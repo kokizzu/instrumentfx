@@ -206,6 +206,8 @@ def make_plan():
                 paragraph=paragraph.strip()
                 if paragraph.startswith('#'):
                     prose_heading=paragraph.lstrip('# ').strip()
+                if path=='LINE6.md' and r['model']=='POD Go' and prose_heading=='Wireless-specific operation':
+                    continue
                 if re.search(r'provenance',prose_heading,re.I):
                     continue
                 if not paragraph or paragraph.startswith(('|','#','[','Sources:','Source:','Original source')):
@@ -328,6 +330,9 @@ def verify_views():
         standard=next(r for r in rows if r[0].startswith('[Line 6 POD Go]'))
         assert '**2.5 kg**' in wireless[-1] and '**2.35 kg**' not in wireless[-1]
         assert '**2.35 kg**' in standard[-1]
+        all_standard_rows=[r for h,rs,c in tables((ROOT/filename).read_text()) if h[0]=='Model / complete evidence' for r in rs if r[0].startswith('[Line 6 POD Go]')]
+        assert not any('Wireless-specific operation' in ' '.join(r) for r in all_standard_rows), 'Wireless-only prose leaked into standard POD Go'
+
     assert (ROOT/'SINGLE-GUITAR.md').exists() and (ROOT/'SINGLE-VOCAL.md').exists() and (ROOT/'SINGLE-BASS.md').exists()
     assert not list((ROOT/'.github/workflows').glob('*'))
     print('PASS: HX Effects guitar/bass inclusion, POD Go variant mass, specialist segregation and no workflows')

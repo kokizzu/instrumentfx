@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD Go Wireless complete-body audit",
-    "task": "Standard POD Go complete original hash-checked;FAQ explicitly16bit48kHzmonoIRconversion,63ohmheadphones anduntestedWindowsARMdrivers. Next inspect Wireless original andcombinedroot,ensure archive cannot leak standardprice/mass intoWireless. Commit before nextmodel. Shared-table/incoming-link audit,primarygaps andfreshShopee discovery remain.",
+    "model": "M-VAVE TANK-G complete-body audit",
+    "task": "Both PODGo originals nowhash-checked;Wireless-only operatingprose filtered fromstandard,commonUSBmapping retained. Next inspect TANK-G original/root andexisting checks,one modelpercommit. Broader body/shared-table/incoming-link audit,requiredfields andfreshShopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -394,6 +394,22 @@
         "blankdelayentry",
         "touch/USBpower",
         "qualified current offers"
+      ]
+    },
+    {
+      "model": "Line 6 POD Go Wireless",
+      "path": "LINE6.md#pod-go-and-pod-go-wireless",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "fix(line6): isolate Wireless operation and preserve complete POD Go Wireless finding",
+      "sources": [
+        "https://kb.line6.com/pod-go-wireless-faq"
+      ],
+      "unresolved": [
+        "current condition/bundle-qualified stock",
+        "touch/USBpower",
+        "current amp/cab counts",
+        "blank delay entry"
       ]
     }
   ],
@@ -9924,6 +9940,24 @@
       "renamed_references": [],
       "retained_comparison_facts": [],
       "scope": "Complete standard original preserved in shared family section outside selected comparison. CurrentFAQ conversion/headphone/ARM limits added; variant mass/prices remain distinct."
+    },
+    {
+      "models": [
+        "Line 6 POD Go Wireless"
+      ],
+      "model_name": "POD Go and POD Go Wireless",
+      "destination": "LINE6.md#pod-go-and-pod-go-wireless",
+      "source": "effects/findings/2026-10-15-line6-pod-go-wireless.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "LINE6-PODGO-WIRELESS",
+      "source_sha256": "1a54d0a7b8fe1e7ac0c706ce5cdff7c3b4dd51e17372f6bffa0ce3d9183fdc39",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(2026-10-15-line6-pod-go.md)": "(effects/findings/2026-10-15-line6-pod-go.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Complete original preserved; current WirelessFAQ setup/sleep/coexistence qualified. Regression rejects Wireless-only operation in standard rows; shared USB mapping retained."
     }
   ],
   "discovery_leads": [
@@ -10484,11 +10518,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "Line 6::POD Go Wireless",
-          "source": "effects/findings/2026-10-15-line6-pod-go-wireless.md",
-          "dest": "LINE6.md#pod-go-and-pod-go-wireless"
-        },
-        {
           "model": "M-VAVE::TANK-G",
           "source": "effects/findings/2026-10-14-mvave-tank-g.md",
           "dest": "M-VAVE.md#tank-g"
@@ -10648,7 +10677,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD Go Wireless complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE TANK-G complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
