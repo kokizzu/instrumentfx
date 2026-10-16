@@ -793,3 +793,7 @@ research-commit-floorboard-union:
 .PHONY: research-commit-g5n
 research-commit-g5n:
 	python3 scripts/research_tools.py commit-g5n
+
+.PHONY: research-commit-g3n
+research-commit-g3n:
+	python3 scripts/research_tools.py commit-g3n

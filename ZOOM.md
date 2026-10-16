@@ -938,3 +938,42 @@ The [V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.
 Checked2026-10-17 through official indexed text. The exact G5n V2 patch list establishes model applicability of Aco.Sim; the shared G5n/G3n/G3Xn parameter sheet supplies its controls. Patch052 Gayageum combines Aco.Sim with PitchSHFT; that is another composite preset,not a second independent acoustic-simulation engine. Aco.Sim models electric-to-acoustic tone and does not establish pickup-specific acoustic body IR loading.
 
 Exact-model USB-channel and signal-flow searches did not establish channel count,loopback or reamping. Search results for the older G5 and other Zoom devices were excluded. These fields stay unverified; no negative capability conclusion follows from unsuccessful indexed searches.
+
+## G3n
+
+Reviewed **2026-10-17**,new exact-model Shopee discovery. Separate from G3Xn and older G3;no ownership assertion. Partial. Manufacturer manual evidence is indexed text,not PDF/image inspection;no dependency,software,firmware or manual file downloaded.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | **No built-in pedal;external FP02 control input,G3n only**. G3Xn built-in pedal must not be copied here;built-in toe switch N/A. Product accessory list now names FP02M. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/) |
+| K/F/B | **13 rotary controls derived**:three units×four parameter knobs+control/enter encoder. Complete main footswitch/button counts require panel confirmation;FS1–FS3,BANK/SCROLL and mode named. Encoder counted once;power separate. | [Manual,pp.3–5](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| Display | **Three128×32 dot-matrix LCDs**;published diagonals,explicit monochrome/color and touch ?. | [Manual,p.51](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| Dimensions / weight | **234 W ×181 D ×58 H mm;1.28kg**,medium. G3Xn318mm/1.84kg belongs to the separate model. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| Processing | **Up to seven simultaneous effects/amp/cab models**,reorderable;large effects occupy multiple units. Exact category counts and resource limits still require review. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/) |
+| Choice / revision conflict | Manual80types versus current product V2:127 DSP entries (125effects+looper+rhythm)+32 amp/cabs (16amps+16cabs). Keep revision wording;not one stable total. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/) |
+| Memory | **150 patches total;75 supplied** per product. Not150+75;factory overwrite/allocation rules ?. Three patches per bank. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/) |
+| Synth / acoustic | Built-in cab modeling uses impulse responses;this does not establish user IR import or electric-to-acoustic simulation. Exact synth/acoustic algorithm inventory needs model-specific patch/effect checks. | [Manual,p.3](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| Audio / control ports | Mono standard instrument input;stereo mini AUX;mono R output;**stereo L/MONO/PHONES combined output**;G3n FP02 control;**USB Micro-B,USB MIDI**. Exact control wiring and physical MIDI/FX-loop/XLR/phantom exclusions ?. | [Manual,p.51](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| Power | **DC9V,500mA,center-negative AD-16**. Battery/USB operation not established;USB connector alone is insufficient. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| IR / NAM / capture | Third-party IR loading,native NAM,converted NAM and user capture import not established. Built-in IR-modeled cabs are separate. | Workflow verification pending |
+| Editor / platforms | Guitar Lab full Windows/macOS effect-chain/patch editing;support lists7.3 (Windows8.1/10/11;macOS10.13–26),separate G3n firmware2.20 Windows/Mac. Mobile editor ?. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/); [support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) |
+| USB / recording | Manual specifies USB MIDI and Micro-B,not an established USB audio interface. No G3/G5n USB recording specifications imported. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| Looper / drums / live | Product advertises up to80-second looper,tuner/bypass/mute. Rhythm paragraph specifically names G3Xn;G3n rhythm count,mono/stereo/Undo limits,block cost,scenes and tails need exact-model manual confirmation. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/) |
+
+### Headphone wording conflict
+
+The product page describes dedicated headphones,but the manual specifies combined L/MONO/PHONES. Retain both descriptions;do not add a separate headphone socket to the physical inventory. The cab MIC switch concerns microphone simulation,not proof of a hardware microphone preamp or phantom supply.
+
+### Exact IDR hardware evidence
+
+Checked2026-10-17. **Used IDR:?;verified new IDR:?** Condition is not explicit in the retrieved offers. Every listing below says **Habis/sold out**;these are historical asks,not a current market range or completed sales.
+
+- **Rp1.250.000** — [Dian ardi,shop286315490/item42502991209](https://shopee.co.id/ZOOM-G3n-i.286315490.42502991209),Kab. Sukabumi. Indexed only; direct reopening cache miss. Habis. Delivery:7May,stale.
+- **Rp2.187.000** — [RD Music,shop3086066/item382577031](https://shopee.co.id/Zoom-G3N-Guitar-Effect-i.3086066.382577031),Kota Tangerang Selatan. Indexed only; direct reopening cache miss. Habis. Delivery:7May,stale.
+- **Rp2.800.000** — [Dial Musik,shop338305078/item15741918880](https://shopee.co.id/Zoom-G3N-Adaptor-Multi-Effect-Efek-Gitar-Multi-Zoom-i.338305078.15741918880),Kota Palembang. Indexed and directly retrieved text; title says G3n+adapter. Habis. Delivery:Search31July–2August vs reopened24–26September,stale.
+
+Condition,revision,complete accessories,warranty region,stock quantity,shipping/tax and delivered totals unverified. The adapter is advertised in Dial Musik’s title;actual bundle contents were not inspected. Delivery compensation vouchers are not assumed purchase discounts. Preset packs,LCD replacements,cases and unresolved mixed G3n/G3Xn variations were excluded. A search-page-only SECOND/BEKAS Rp1.950.000 lead lacks an exact item/seller and is not promoted into verified used evidence.
+
+### Remaining checks
+
+Full footswitch/button inventory,explicit screen diagonal/color/touch,all category choices/DSP limits,factory overwrite,synth/acoustic functions,complete port wiring/exclusions,IR/NAM/capture workflows,power alternatives,USB audio status,looper/rhythm details,scenes/tails and qualified condition-specific current offers. Bass applicability stays unclassified.
