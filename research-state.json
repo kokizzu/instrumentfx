@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VoiceLive 3 Extreme primary follow-up",
-    "task": "VL3X vocal-synth carrier architecture andlooptrigger/MIDI tempo restrictions saved. Continue remainingprocessing/storage/power/control fields orfresh exactShopee discovery;commit eachmodel before next.",
+    "task": "VL3X11vocal/9guitar count,manufacturer-indexed socket counts and12/14W conflict saved. Continue simultaneous/category/storage/DC/control andoffers;noexhaustiveclaim;commitbefore nextmodel.",
     "next_models": [],
     "after_queue": "Resume fresh Shopee discovery;no exhaustivecoverageclaim."
   },
@@ -1682,7 +1682,8 @@
       "sources": [
         "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEG/VOICELIVE%203%20EXTREME_M_EN.pdf",
         "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
-        "https://manualzilla.com/doc/6743797/voicelive-3-extreme---tc"
+        "https://manualzilla.com/doc/6743797/voicelive-3-extreme---tc",
+        "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEG/QSG_TH_0726-AAY_VOICELIVE-3-EXTREME_WW.pdf"
       ],
       "manual_identity": "Manufacturer-authored VL3X reference manual,2015-10-20,firmware2.1.00build346; official endpoints502;mirror model/title/structure checked against official indexed Extreme identity;no current revision equivalence claim",
       "offers": [
@@ -1758,6 +1759,16 @@
           "MIDI tempo slave only;recorded loops do nottime-stretch"
         ],
         "remaining": "No explicit simultaneous processing ceiling orloopstorage total found;keepDCcurrent/polarity/controlandpricegaps"
+      },
+      "counts_power_conflict_followup": {
+        "checked_date": "2026-10-17",
+        "resolved": [
+          "Reference explicit11vocal/9guitar effects;not20simultaneousproof",
+          "Indexed manufacturer QSG2voiceXLR/2guitarTRS outs;separateFootswitch/ExpressionTRS andthru counts"
+        ],
+        "conflict": "Reference<14W versusindexedcurrentQSG<12W;hardware/revisionbasis unverified",
+        "access": "Manufacturer PDF open failed;QSGspecificfacts index-only,pp122–123",
+        "remaining": "Simultaneousceiling/categorychoices,DCcurrent/polarity,fullphysicalpanel,loopstorageandprices"
       }
     }
   ],
