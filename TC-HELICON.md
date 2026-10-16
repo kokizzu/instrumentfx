@@ -497,3 +497,42 @@ Official QSG v3.0,2024copyright,direct PDF opened2026-10-17;supersedes earlier d
 Mic Control requires +48V. Hold48V with guitar Chorus to disable,with guitar Reverb for MP-75,or guitar Echo for MP-76. MP-75 defaults to Harmony and is reassignable;MP-76 defaults top Harmony,left vocal Echo,right vocal Reverb,bottom Talk. MP-75 mode on MP-76 enables only the top button. Remote-accessible functions include harmony/styles,reverb,echo,tap and Talk. [Official user manual p12][PVG-O]. These microphone switches do not increase the processor’s K/F/B count.
 
 USB audio and preset-bank claims found in retailer/mirror summaries remain unverified by manufacturer technical documentation. Service front-test and mainboard-schematic leads were identified but direct access failed;no circuitry-derived claims or device tests were made. The original gaps remain open rather than being converted to No.
+
+## PERFORM-VE
+
+Mic-stand vocal multi-effects,distinct fromV/VK/VG. Checked2026-10-17;initial partial profile. MIDI-controlled vocal synthesis does not establish guitar/bass processing. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/external/toe expression unverified. | Unresolved |
+| K/F/B | Separate knob/footswitch/button counts pending model-specific inventory. | Unresolved |
+| Display | Diagonal,color,touch andtechnology unverified. | Unresolved |
+| Dimensions / mass | Unverified. | Unresolved |
+| Processing / category choices | Adaptive Tone EQ/de-essing/gate/compression;HardTune,Double,Shift/Gender Morph;MIDI harmonies/vocoder/VS samples,up to8 MIDI voices alongside lead. XFX stutter/rhythm/ring-mod/flange,Echo reverb/delay,Filter transducer/sweep effects. Voices are not processing-block counts;full simultaneous/category accounting pending. | [Official manual p4][PVE-M] |
+| Factory / user memory | Preset/user/factory totals andinitial fill unverified;do not transferV/VK three-preset assumptions. | Unresolved |
+| Synth / acoustic | **Vocal virtual-analog vocoder andVS Synthesis sampled voices** documented;not evidence of instrument synth/acoustic simulation. | [Official manual p4][PVE-M] |
+| I/O | MIDI keyboard andUSB computer connections documented;complete physical connector inventory pending. | [Official manual p4][PVE-M] |
+| Power / battery / USB | QSG specifies **12V / >1A supply**. Polarity,DC designation,measured draw,battery andUSB power unverified. Supply requirement is not measured consumption. | [Official QSG pp10–11][PVE-Q] |
+| IR / NAM / capture | UserIR,native/converted NAM andamp capture imports unverified. Vocal sample recording is a separate function. | Unresolved |
+| Editor / software | VoiceSupport2 firmware utility. Windows update instructions requireUSB driver;Mac says driver unnecessary for update. QSG separately requiresdriver for computer audio/MIDI;platform/revision scope unresolved. Full editor/currentOS support pending. | [Manual p4][PVE-M];[QSG pp10–11][PVE-Q] |
+| Looper / drums / live | **Two looper tracks:drum pattern+audio**,audio length can multiply drum pattern. Kick/snare/hi-hat build beats;audio overdub supported. Duration,storage/routing limits andscenes/trails pending. | [Official QSG pp10–11][PVE-Q] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;offer condition unconfirmed. | — |
+| New | Unknown;offer condition unconfirmed. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified exact hardware
+
+[limitless__store item](https://shopee.co.id/TC-Helicon-Perform-VE-Garansi-Resmi-Original-i.95687096.3406909366),shop95687096/item3406909366,Kota Jakarta Pusat:Rp3,900,000,Habis. Checked2026-10-17,two-month index;direct cache miss. Relative Besok delivery andseller activity do not establish currentstock. Condition,variant,bundle/adapter,warranty terms andworking state unknown;Garansi Resmi Original title does not prove newcondition. Rp20,000late-arrival compensation notdiscount;shipping/tax/checkout unknown. Notqualified used/new price.
+
+Official indexed manual p4 andQSG pp10–11 used;both directPDFs502. Exact revision unverified;no sibling technical claims ormanufacturer mirrorFAQ used. No software,dependencies orfiles downloaded.
+
+[PVE-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/M_TH_0726-AAR_PERFORM-VE.pdf
+[PVE-Q]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/QSG_TH_0726-AAR_PERFORM-VE_WW.pdf
