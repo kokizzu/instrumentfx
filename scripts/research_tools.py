@@ -290,7 +290,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-rp255':
-            message = 'research(digitech): verify RP255 category counts loop controls and output routing'
+            message = 'research(digitech): reconcile RP255 named FX choices and retain manual conflicts'
         if mode == 'commit-gt8':
             message = 'research(boss): verify GT-8 category choices shared custom settings and MIDI backups'
         if mode == 'commit-gt10':

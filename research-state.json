@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP255 primary follow-up",
-    "task": "RP255 category subtotals,ACdred acoustic simulation,loop controls,headphone mono and editor-only parameters saved. Next reconcile Chorus/FX choices/94 total and check USB/control/power limits where primary evidence permits; then fresh Shopee discovery. Loop persistence and synth remain unverified. Commit before another model.",
+    "model": "Fresh Shopee Indonesia discovery",
+    "task": "RP255 qualified Chorus/FX enumeration and arithmetic saved, retaining Phaser/SynthTalk discrepancies. Search fresh exact hardware by brand/series for unrecorded eligible models; verify primary specs and commit each model before another. RP255 remaining: firmware inventory, visual/display, loop persistence, imports, power draw and condition-qualified offers.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
+    "after_queue": "Continue fresh discovery; no exhaustive coverage claim."
   },
   "new_findings": [
     {
@@ -2394,11 +2394,32 @@
           "Five metronome settings in addition to60 patterns"
         ],
         "unresolved": [
-          "ChorusFX subtotal and94 reconciliation",
           "savedloop persistence",
           "visual/display/import/powerdraw",
           "qualifiedoffers"
         ]
+      },
+      "chorus_fx_reconciliation": {
+        "checked_date": "2026-10-17",
+        "source": "https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf",
+        "pages": "26–34",
+        "named_choices": 19,
+        "one_at_a_time": true,
+        "category_sum": 94,
+        "count_basis": [
+          2,
+          3,
+          2,
+          13,
+          24,
+          14,
+          4,
+          2,
+          19,
+          5,
+          6
+        ],
+        "qualification": "Analyst arithmetic, not manufacturer-confirmed counting method; two-phaser prose names only one and SynthTalk lacks a detailed entry. Firmware inventory unverified."
       }
     }
   ],
@@ -38098,7 +38119,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP255 primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
