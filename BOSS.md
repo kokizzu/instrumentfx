@@ -1646,13 +1646,14 @@ Guitar multi-effects; checked 2026-10-17, partial. Manufacturer marks discontinu
 | Display | Two-digit seven-segment LED;diagonal,color/touch unpublished here. | [ME25-P][ME25-P] |
 | Dimensions / weight / size | 300W×191D×72H mm;raised-pedal height93mm;1.9kg including batteries. Large footprint. | [ME25-P][ME25-P] |
 | Processing / category choices | Seven named groups:PREAMP10,COMP/FX3,OD/DS10,MOD8,DELAY4 ranges/types,REVERB2,PEDAL FX4. NS andSUPER STACK separately listed. Explicit simultaneous ceiling unverified;choices are not freely assignable slots. | [ME25-T][ME25-T] pp2,8–9 |
-| Factory / user memory | 60 programmable whole programs;separate60-entry Sound Library. Library categories:CLEAN,CRUNCH,DRIVE,HEAVY,LEAD,EXTREME. Initial user fill andwhether library entries duplicate programs unverified;do not assume120 whole-patch memories. | [ME25-T][ME25-T] p2; [ME25-P][ME25-P] |
+| Factory / user memory | 60 programmable whole programs;separate60-entry Sound Library. Library categories: CLEAN, CRUNCH, DRIVE, HEAVY, LEAD, EXTREME, ten variations each. The unit cannot save new sounds into the Library itself; save selected sounds into program memory. Initial user fill andwhether library entries duplicate programs unverified;do not assume120 whole-patch memories. | [ME25-T][ME25-T] p2; [ME25-P][ME25-P]; [ME25-EN][ME25-EN] p4 |
 | Synth / acoustic | COMP/FX includes ACOUSTIC SIMULATOR,distinct from acoustic preamp. Pedal FX includesFreeze andoctave shifts. Dedicated synth engine unverified. | [ME25-T][ME25-T] pp8–9 |
 | I/O | Guitar INPUT,OUTPUT L/MONO,AUX IN,PHONES andUSB documented;fullsocket inventory/sizes,USB type andexternalcontrol sockets stillunverified. PHONES insertion enables speaker simulation;INPUT plug switches power. AUX level must be controlled atsource. No sibling layout substituted. | [ME25-T][ME25-T] p3; [ME25-PL][ME25-PL] p2 |
 | Power / battery / USB | DC9V,sixR6/LR6AA oroptionalPSA;150mA draw. Approx9h alkaline/3h carbon,conditions vary. Polarity andUSB bus operation unverified. | [ME25-P][ME25-P] |
 | USB audio / MIDI | USB audio needs model/OS-specific driver. AUX IN is excluded from USB recording. USB connection automatically enables speaker simulation. Computer-return level is adjusted inhostsoftware,notonunit. Channelcounts,USB MIDI anddry/reamp paths remain unverified. | [ME25-P][ME25-P] [ME25-PL][ME25-PL] p11 |
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietarycapture import not established. COSM factory modeling is not evidence of imports. | Unresolved |
-| Editor / drivers | BOSS Tone Studio librarian Windows/macOS listed1.1.2;full patch-editor scope andcurrentOS compatibility need separate checks. Driver is separate. BundledSonarLE is recordingsoftware,not deviceeditor. | [ME25-P][ME25-P] |
+| Editor / drivers | BOSS Tone Studio librarian Windows/macOS listed1.1.2;full patch-editor scope andcurrentOS compatibility need separate checks. Driver is separate. Bundled SONAR LE is Windows-only recording software, not a device editor; this restriction does not apply to all DAWs or to the separate Mac USB driver. Original ME-25 Librarian backs up sounds and imports libraries; current editor compatibility remains unverified. | [ME25-P][ME25-P]; [ME25-EN][ME25-EN] p11 |
+| Conversion / analog levels | 24-bit A/D with AF method, 24-bit D/A, 44.1 kHz. INPUT: −10 dBu / 1 MΩ; AUX: −18 dBu / 22 kΩ; nominal output: −10 dBu / 2 kΩ. These are converter/analog specifications, not proof of USB channel count. | [ME25-EN][ME25-EN] p14 |
 | Effect routing | Manual says order can change automatically to optimize specific settings;not evidence of freely user-reorderable routing. | [ME25-PL][ME25-PL] p12 |
 | Looper / drums / scenes / routing | PhraseLoop38s,unlimited overdubs. SOLO pedal hold2s enters standby;press records/plays/overdubs,doubletap stops,hold2s exits. Stopping erases the loop;doubletap interval within1s. Memory changes are allowed while recording. Undo,stereo,trails,scenes andonboarddrums remain unverified. Bundledloops/rhythms do not prove onboarddrum engine. | [ME25-T][ME25-T] pp2,6–7; [ME25-PL][ME25-PL] p10 |
 
@@ -1679,3 +1680,7 @@ Remaining:external expression,full ports,powerpolarity/USB,screen details,simult
 [ME25-T]: https://cdn.roland.com/assets/media/pdf/ME-25_Training_Guide.pdf
 
 [ME25-PL]: https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-25_PL.pdf
+
+[ME25-EN]: https://media.sweetwater.com/store/media/me-25_om.pdf
+
+English manual provenance: manufacturer-authored ME-25 Owner’s Manual, ©2010 BOSS, 14 pages, hosted by Sweetwater. Model, section order and core specifications match the official product/manual evidence; revision imprint was not exposed, so no firmware-specific claim is made.

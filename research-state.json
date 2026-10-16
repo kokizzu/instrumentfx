@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "ME-25 owner-manual follow-up / fresh Shopee discovery",
-    "task": "ME-25 officialmanual followup saved:expression switch,USB/AUX restrictions,loop erasure andautomatic routing. Continue remainingprimaryfields orfresh exactShopee discovery;commit eachmodel before next.",
+    "task": "ME-25 English manual follow-up saved: Library save restrictions, SONAR Windows-only scope, converter and analog specifications. Continue remaining primary fields or fresh exact Shopee discovery; commit each model before the next.",
     "next_models": [],
     "after_queue": "No exhaustivecoverageclaim;ME-25nottoaddagain."
   },
@@ -1460,7 +1460,8 @@
       "sources": [
         "https://www.boss.info/us/products/me-25/",
         "https://cdn.roland.com/assets/media/pdf/ME-25_Training_Guide.pdf",
-        "https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-25_PL.pdf"
+        "https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-25_PL.pdf",
+        "https://media.sweetwater.com/store/media/me-25_om.pdf"
       ],
       "offers": [
         {
@@ -1503,6 +1504,17 @@
           "Automatic effectorder changes p12"
         ],
         "remaining": "Fullsocketformats,USBchannel/MIDI/power,externalEXP andother savedgaps;translationnotfirmwarecertification"
+      },
+      "english_manual_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://media.sweetwater.com/store/media/me-25_om.pdf",
+        "identity": "BOSS-authored ME-25 Owner Manual, copyright 2010, 14 pages; model, structure and core specifications matched; revision imprint not exposed",
+        "resolved": [
+          "Sound Library six categories × ten variations; unit saves chosen sounds into program memory, not Library (p4)",
+          "Bundled SONAR LE Windows-only; original librarian sound backup/import (p11)",
+          "24-bit AD/DA, AF on AD, 44.1 kHz and analog input/output levels/impedances (p14)"
+        ],
+        "remaining": "USB bus power not explicitly established; full connector formats and saved unresolved fields retained"
       }
     }
   ],
