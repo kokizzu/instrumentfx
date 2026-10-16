@@ -30,7 +30,8 @@
   "cursor": {
     "task": "Fresh Shopee Indonesia discovery by brand/series after saved BOSS queue;accept only exact eligible hardware absent from inventory. Then continue remaining legacy-only consolidation and unresolved field checks.",
     "next_models": [],
-    "after_queue": "Continue43 legacy-only models;all models retain verification gaps. Do not claim exhaustive market coverage."
+    "after_queue": "Continue43 legacy-only models;all models retain verification gaps. Do not claim exhaustive market coverage.",
+    "model": "Fresh Shopee discovery — no model selected"
   },
   "new_findings": [
     {
@@ -4746,7 +4747,8 @@
       "make consolidation-verify",
       "make comparison-verify",
       "make research-verify",
-      "GM-800 entire eligible source section and14facts preserved;current guitar/bass rows include specialized pickup path,256x80LCD,SVZ/SDZ/EXZ,firmware1.50 restrictions;exact5variationShopee unresolved price retained."
+      "GM-800 entire eligible source section and14facts preserved;current guitar/bass rows include specialized pickup path,256x80LCD,SVZ/SDZ/EXZ,firmware1.50 restrictions;exact5variationShopee unresolved price retained.",
+      "make comparison-apply:successful after restoring required discovery cursor model key;GM-800 ledger source now BOSS.md#gm-800."
     ],
     "distinct_capability_labels": "IR and NAM remain separate even when both have the identical Not established value; actual B1X comparison checked."
   },
@@ -4761,7 +4763,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Fresh Shopee discovery after the saved BOSS queue;continue43 legacy-only models and unresolved fields."
+    "next": "Fresh Shopee discovery after the saved BOSS queue;then remaining43 legacy-only models and unresolved fields."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -5179,9 +5181,9 @@
       "finding_files": []
     },
     "BOSS::GM-800": {
-      "link": "effects/specialist.md#eligible-record-boss-gm-800",
+      "link": "BOSS.md#gm-800",
       "source_files": [
-        "effects/specialist.md"
+        "BOSS.md"
       ],
       "finding_files": []
     },
