@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-VK primary follow-up",
-    "task": "PERFORM-VK USB map,AUXpriority/latency and temporary routing now saved;retain duplicateINST IN R andXLR/MicOut manual ambiguities. Next enumerate styles/presets/gain from complete mirror,then verify physical I/O/power/controls;commit before VG.",
+    "task": "PERFORM-VK styles,preset autosave,HIT,gain reset/nudge andLED functions saved;retain12Harmonyvs4style andSETbrightness conflicts. Next verify physical connectors,power,dimensions/controls using model-specificQSG;commit beforeVG.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -2895,6 +2895,36 @@
           "Styles/preset/gain details already readable;save next",
           "Physical I/O,power/dimensions,controls/display",
           "Driver platform/revision scope"
+        ]
+      },
+      "style_gain_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://www.manualslib.com/guide/3106539/tc-helicon-perform-vk-ultimate-mic-stand-mount-vocal-processor-manual.html",
+        "sections": [
+          "Editing Effects",
+          "Preset",
+          "Importing",
+          "HIT",
+          "Set",
+          "Pitch Guide",
+          "Dimming"
+        ],
+        "resolved": [
+          "12namedHarmonychoices;3factoryReverb/Echo plusimportedstyle",
+          "Importedpresetupto7effects;globalDSPnotfullyaccounted",
+          "3editablepresetswithautosave",
+          "HITstateseditable",
+          "Gainresetsatpowerloss;manualadjustmentdisablesnudge;SETreenables",
+          "Brightnessretained;LEDringfunction"
+        ],
+        "conflicts": [
+          "Generic4styles versus12Harmonychoices",
+          "BrightnessSETtap versushold instructions"
+        ],
+        "remaining": [
+          "Full hardware/power/controls",
+          "Initial factoryfill",
+          "Firmware-specific clarification"
         ]
       }
     }

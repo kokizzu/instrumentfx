@@ -360,16 +360,16 @@ Keyboard-guided vocal multi-effects,distinct from V/VG/VE. Checked2026-10-17;ini
 |---|---|---|
 | Expression | Built-in/external/toe expression unverified. Switch-3/6 remote supported;continuous expression not established. | [Manual p12][PVK-O] |
 | K/F/B | Separate knob/footswitch/button inventory unverified;do not borrow PERFORM-V counts. | Unresolved |
-| Display | Diagonal,color,touch and screen technology unverified. | Unresolved |
+| Display | LED ring shows level/style and pitch accuracy;screen diagonal,color-LCD/touch unverified. Brightness persists through power cycles;manual gives differing SET interaction instructions. | [Editing/Pitch Guide/Set sections][PVK-M] |
 | Dimensions / mass | Unverified. | Unresolved |
-| Processing / category choices | Onboard Harmony/Reverb/Echo;beamable Double/Megaphone/HardTune/µMod. Adaptive Tone combines EQ,compression,de-essing,gate;global pitch correction and anti-feedback. Simultaneous block total and per-category style counts pending. | [Manual pp4–5][PVK-O];[manufacturer-authored mirror][PVK-M] |
-| Factory / user memory | Three presets map to MIDI bank0 program125–127. Initial factory fill and full memory accounting pending. | [Manual p12][PVK-O] |
+| Processing / category choices | Onboard Harmony/Reverb/Echo;beamable Double/Megaphone/HardTune/µMod. Adaptive Tone combines EQ,compression,de-essing,gate;global pitch correction and anti-feedback. Imported presets support up to7 effects;global processing accounting remains separate. Reverb Room/Club/Hall and Echo quarter/eighth/Slap each add an imported style. Harmony lists12 choices below,conflicting with generic four-style wording. | [Manual pp4–5][PVK-O];[Editing/Import sections][PVK-M] |
+| Factory / user memory | Three editable presets store on/off,style,level automatically and accept imported sounds;MIDI bank0 program125–127. Initial factory fill unverified. | [Preset/Saving sections][PVK-M];[Manual p12][PVK-O] |
 | Synth / acoustic | Vocal harmony/HardTune do not establish instrument synth/acoustic simulation;unverified. | Unresolved |
 | I/O | Keyboard audio/MIDI inputs documented;complete connector inventory pending. USB audio:4 host-to-device channels and8 device-to-host channels,including unused output4;not8 useful simultaneous capture sources. USB1/2 playback reaches analog outputs but is excluded from USB capture;USB4 NaturalPlay is inaudible chord guidance. Detailed map below. | [Manual pp4,12][PVK-O] |
 | Power / battery / USB | Voltage,polarity,current,battery and USB power unverified. | Unresolved |
 | IR / NAM / capture | User IR,native/converted NAM and capture imports unverified. | Unresolved |
 | Editor / software | VoiceSupport2 firmware/preset utility;Windows USB driver prerequisite,Mac update instructions omit driver. p12 separately says driver required for USB audio/MIDI;platform/revision scope unresolved. Full editor/current OS support unverified. | [Manual pp4,12][PVK-O] |
-| Looper / drums / live | Firmware update required for preset beaming per manual introduction. Switch-3/6 connects before power-on. MIDI accepts CC/PC/Tempo,explicitly not MIDI Clock. AUX chord tracking is delayed unless MIDI/INST guidance is present;use INST for live playing. MIDI/INST take detection priority. Hold Headphone while inserting AUX to omit it from main mix;replug/power resets this. RoomSense vocal practice mutes main outputs. Looper/drums/scenes/trails unverified. | [Manual pp4,12][PVK-O];[AUX/RoomSense sections][PVK-M] |
+| Looper / drums / live | Firmware update required for preset beaming per manual introduction. Switch-3/6 connects before power-on. MIDI accepts CC/PC/Tempo,explicitly not MIDI Clock. AUX chord tracking is delayed unless MIDI/INST guidance is present;use INST for live playing. MIDI/INST take detection priority. Hold Headphone while inserting AUX to omit it from main mix;replug/power resets this. RoomSense vocal practice mutes main outputs. Auto/manual gain resets at power-off. Manual adjustment disables gain-nudge;pressing SET re-enables it. Looper/drums/scenes/trails unverified. | [Manual pp4,12][PVK-O];[AUX/RoomSense sections][PVK-M] |
 
 ### Separate IDR hardware offers
 
@@ -403,3 +403,9 @@ Official manual/QSG direct502. Official indexed manual pp4/12 establishes identi
 | Unit → host7/8 | Stereo harmony voices |
 
 [Manufacturer manual USB/RoomSense/Talk sections][PVK-M]. Talk text mentions XLR although RoomSense explicitly says VK has main outputs and no Mic Out;connector type stays unresolved pending diagram/spec verification. Do not import PERFORM-V's XLR output claim.
+
+### Harmony choices and operational qualifications
+
+Harmony enumeration:High,Higher,Low,Lower,High+Low,High+Higher,Higher+Lower,Low+Lower,Notes natural,Notes tight,8-channel natural,8-channel tight. Tight modes reduce humanization. The generic four-style statement does not reconcile this12-entry list.
+
+HIT toggles imported layers;both states are editable. Auto-gain nudge reduces gain on louder peaks;manual gain disables nudge until SET is pressed again. Brightness instructions differ:SET once then adjust versus hold SET while turning. Preserve the discrepancy pending firmware-specific clarification. [Manufacturer manual Editing/Import/HIT/Set/Dimming sections][PVK-M].
