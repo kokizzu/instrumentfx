@@ -290,7 +290,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-ax1500g':
-            message = 'research(korg): add AX1500G with qualified used ask and primary limits'
+            message = 'research(korg): enumerate AX1500G blocks and verify volatile phrase storage'
         if mode == 'commit-rp255':
             message = 'research(digitech): reconcile RP255 named FX choices and retain manual conflicts'
         if mode == 'commit-gt8':
