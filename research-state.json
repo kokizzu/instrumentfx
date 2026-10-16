@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-10 primary follow-up",
-    "task": "GT-10 added with regional manufacturer evidence and exact unqualified item56508982735. Original19MB manual exceeds browser limit. Use official workshop/TurboStart/knowledge base for model-specific control, synth/acoustic, USB/looper restrictions; commit before another model.",
+    "task": "GT-10 official2010 workshop resolves expression/external controls and eight assignments;38s loop conflicts with40s regional page. Next inspect official firmware notes, librarian/USB and phrase-loop-specific sources; commit before another model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2148,7 +2148,21 @@
         "USB/looper details",
         "current OS",
         "qualified offers"
-      ]
+      ],
+      "workshop_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://static.roland.com/assets/media/pdf/GT10WS01.pdf",
+        "revision": "GT10WS01 ©2010 BOSS Corporation US,19pages",
+        "resolved": [
+          "Toe switch confirmed",
+          "Shared socket one external expression or two switches; supported options and singleCTL3",
+          "Eight ASSIGN mappings; per-patch/system override semantics",
+          "Internal/wave/input-level/MIDI control sources",
+          "Foot-volume chain position versus overall volume"
+        ],
+        "conflict": "Workshop38s versusFinnish product40s loop time; retain both",
+        "remaining": "Full physical counts, full effects library, USB/loop restrictions, power/import/software and price gaps"
+      }
     }
   ],
   "consolidation_and_price_findings": [

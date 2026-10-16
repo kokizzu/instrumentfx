@@ -1782,7 +1782,7 @@ Guitar multi-effects; distinct from GT-10B and GT-100. Checked2026-10-17; partia
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in pedal; shared EXP PEDAL2/CTL3,4 TRS socket supports external expression or switches. Toe/assignment restrictions pending. | [Specifications][G10-S] |
+| Expression | Built-in expression with firm-press toe switch (EXP PEDAL SW). Shared EXP2/CTL3,4 accepts one external expression or up to two footswitches. FV-500H/L or EV-5; FS-6 or two FS-5Us via PCS-31. Single FS-5U uses CTL3. | [Specifications][G10-S]; [Workshop pp3–5][G10-W] |
 | K/F/B | Marketing describes six dedicated footswitches; full physical total including bank switches, rotary controls and buttons pending. Do not treat marketing count as complete panel inventory. | [Specifications][G10-S] |
 | Display | Backlit132×64 graphic LCD plus three-character seven-segment LED. Diagonal/colour/touch unverified. | [Specifications][G10-S] |
 | Dimensions / mass | 542W×272D×77H mm; pedal-up maximum104mm;4.9kg. Large floorboard. | [Specifications][G10-S] |
@@ -1794,7 +1794,8 @@ Guitar multi-effects; distinct from GT-10B and GT-100. Checked2026-10-17; partia
 | Power / battery / USB | 9V DC,800mA; PSB-1U supplied. Polarity, battery and USB bus operation unverified. | [Specifications][G10-S] |
 | IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. COSM factory modeling is not import proof. | Unresolved |
 | USB / editor / platforms | USB audio/MIDI documented. Windows/Mac Librarian1.00 listed for backup/organization, not full patch-editor proof. Windows10 driver1.0.0 and macOS10.13/10.14 driver1.0.3 listed; no current-OS blanket claim. System Program1.02 is an updater, not an editor. | [Support listing][G10-F] |
-| Looper / drums / live | Regional page advertises40s phrase looper; channel/quality/overdub/storage restrictions pending. Drums/scenes/trails and routing limits unverified. | [Regional product][G10-F] |
+| External control / assignments | Eight ASSIGN1–8 mappings. EXP1,EXP2,EXPSW,CTL1–4 can independently follow patch or system settings; system overrides ignore rather than erase patch settings. Switch behavior supports toggle/momentary. MIDI CC, input level, internal timed pedal and tempo-synced wave pedal are control sources. Foot volume is movable in-chain, distinct from post-effects overall volume. | [Workshop pp3–5,9–12][G10-W] |
+| Looper / drums / live | Finnish page advertises40s; official2010 workshop p2 instead states **up to38s sound-on-sound recording**. Preserve discrepancy; channel/quality/storage restrictions pending. BANK pedals operate basic looping; additional assignments extend control. Drums/scenes/trails unverified. | [Regional product][G10-F]; [Workshop pp2,5][G10-W] |
 
 ### Separate IDR hardware offers
 
@@ -1815,3 +1816,5 @@ Remaining: complete controls/expression, screen details, processing/library coun
 
 [G10-S]: https://www.boss.info/se/products/gt-10/specifications/
 [G10-F]: https://www.boss.info/fi/products/gt-10/
+
+[G10-W]: https://static.roland.com/assets/media/pdf/GT10WS01.pdf
