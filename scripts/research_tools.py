@@ -292,7 +292,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-tonelab-se':
-            message = 'research(vox): add ToneLab SE with twin expression and AC power distinctions'
+            message = 'research(vox): verify ToneLab SE controls toe switches and routing'
         if mode == 'commit-tonelab-st':
             message = 'research(vox): verify ToneLab ST acoustic simulation and shared effect choices'
         if mode == 'commit-tonelab-le':

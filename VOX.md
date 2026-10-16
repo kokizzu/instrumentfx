@@ -88,11 +88,14 @@ Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass s
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | **Two built-in expression pedals**;toe switching unverified. External EXP absent from complete ports. | [Manual pp1,63][TLSE-M] |
-| K/F/B | Separate knob,footswitch,button counts pending. | Unresolved |
+| Expression | **Two built-in expression pedals with under-pedal switches**; assigned volume/amp parameters cannot be toggled. External EXP absent from complete ports. | [Manual pp1,10,63][TLSE-M] |
+| K/F/B | **13 /9 /19**, text-derived:6 model selectors+6 value knobs+rear LEVEL;4 program+2 BANK+A/B+FX ON/OFF+CONTROL footswitches;8 model/INSERT/PRES-NR+9 navigation/global+2 controller-setup buttons. Two pedal switches and STANDBY additional. Visual corroboration pending. | [Manual pp4–11][TLSE-M] |
 | Display | Diagonal,technology,color,touch unverified. | Unresolved |
 | Dimensions / mass | **710×249×76mm WDH;6.2kg**; large. | [Manual p63][TLSE-M] |
 | Processing / category choices | Amp16;cabinet11;pedal16;modulation11;delay11;reverb11;noise reduction1. One per effect category concurrently; full simultaneous-block count pending. 12AX7/ECC83 Valve Reactor. | [Manual pp1,63][TLSE-M] |
+| Model-total disagreement / cabinet | Specifications and selector description say11 cabinets; signal diagram labels one channel10 and the other11. Retain diagram discrepancy; no inferred channel limitation. | [Manual pp4,6,63][TLSE-M] |
+| Audio output / headphones | Headphones do not mute main outputs; rear LEVEL controls both. Mono uses L/MONO. OUT SEL:AP for guitar amp,Ln for mixer/recorder. Valve warm-up delays initial sound. | [Manual pp11–13][TLSE-M] |
+| Routing / controls | INSERT precedes PEDAL;MOD/DELAY/REVERB chain order editable. FX ON/OFF hold0.5s bypasses;hold1s mutes and activates tuner. | [Manual pp4–5,10][TLSE-M] |
 | Factory / user memory | **96 writable memories**,24×4;32 factory programs repeated across three eight-bank groups. | [Manual piv,p1][TLSE-M] |
 | Synth / acoustic | Detailed synth/acoustic verification pending; ACOUSTIC is mentioned in troubleshooting. | [Manual p62][TLSE-M] |
 | I/O | INPUT;INSERT SEND/RETURN;two balanced/unbalanced TRS OUTPUTs;PHONES;MIDI IN/OUT;AC input. No USB or S/PDIF in complete inventory. | [Manual p63][TLSE-M] |

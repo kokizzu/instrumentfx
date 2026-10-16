@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX ToneLab SE primary follow-up",
-    "task": "SE initial primary profile and sold-out condition-unverified offer saved. Next enumerate controls/toe,acoustic and Hold Delay/routing restrictions from SE manual;commit before next model. Fresh Shopee discovery after saved leads.",
+    "task": "13/9/19 text-derived controls,toe switches,output and routing constraints saved;cabinet diagram discrepancy retained. Next verify acoustic and Hold Delay behavior and editor MIDI requirements;then fresh Shopee discovery. Commit before another model.",
     "next_models": [],
     "after_queue": "No exhaustive market coverage claim."
   },
@@ -2646,7 +2646,25 @@
         "imports",
         "battery",
         "looper/trails"
-      ]
+      ],
+      "controls_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf",
+        "pages": "4–13",
+        "controls": {
+          "knobs": 13,
+          "footswitches": 9,
+          "buttons": 19,
+          "basis": "text enumeration;two toe andSTANDBYadditional;visualpending"
+        },
+        "resolved": [
+          "Both pedal switches with volume/amp exceptions",
+          "Shared main/headphone level and no automatic mute",
+          "FX hold bypass/mute",
+          "Insert and editable downstream chain"
+        ],
+        "conflict": "Diagram10vs11 cabinets;selector/spec11. No channel limitation inferred."
+      }
     }
   ],
   "consolidation_and_price_findings": [
