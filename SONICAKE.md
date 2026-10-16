@@ -325,6 +325,8 @@ New prices are individual official-store observations checked **2026-10-14**, no
 
 ## Matribox II Pro QME-200
 
+<!-- comparison evidence begins -->
+
 **Existing review2026-10-14.** Not interchangeable with Matribox II presets.
 
 | Field | Preserved finding / uncertainty |
@@ -339,6 +341,35 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | Firmware / IDR | Original download listed firmware1.2.2,NAM software1.3.1;matching update sequence matters. Used/new qualified IDR ?. Old official-store **USD299.99** remains dated foreign provenance. |
 
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
+
+<!-- comparison evidence ends -->
+
+### Matribox II Pro shared floorboard provenance
+
+Exact shared-source fields and qualifications below retain the 2026-10-14 snapshot. This is preservation, not a new hardware, firmware or availability test.
+
+Checked **2026-10-14**. This page adds three larger processors; the linked brand pages contain the other researched floorboards. **Partial records**: `?` is unverified, not No. Dimensions are **width × depth × height, mm**. A built-in pedal does not establish an external-expression socket; both are recorded separately.
+
+All three have built-in expression and documented external expression/footswitch support. K/F/B = rotary controls / main footswitches / separate buttons; expression toe switches and power switches are separate.
+
+New prices are individual official-store observations checked **2026-10-14**, not used-to-new market ranges or Indonesian delivered prices. Matribox II Pro dimensions are intentionally not copied from an unverified reseller listing.
+
+**Matribox II Pro conflict:** the feature list says MIDI I/O, while the same official FAQ says MIDI output is not supported. Do not assume MIDI transmission works merely because a connector or generic feature bullet appears. Its listed firmware is 1.2.2 and NAM-capable software 1.3.1; follow the manufacturer's update sequence rather than assuming all versions interoperate.
+
+- **K/F/B** (Hardware and expression): ?/6/?
+- **W×D×H, mm; weight** (Hardware and expression): ?; ?
+- **Size class** (Hardware and expression): Unverified
+- **Used USD** (Hardware and expression): ?
+- **New USD observation** (Hardware and expression): $299.99, official shop
+- **Simultaneous processing; categories / choices** (Processing and memory): Exact simultaneous limit ?; 63 amps, 61 cabs, 93+ pedal effects; repeat effects of the same type supported
+- **Preset storage** (Processing and memory): 240 total /120 factory-filled
+- **Synth / acoustic** (Processing and memory): Pitch-shift/Whammy-style use documented; synth/acoustic algorithms ?
+- **Third-party IR** (Processing and memory): 20 user slots
+- **NAM** (Processing and memory): Current desktop workflow advertises **NAM A2**; not assumed arbitrary native `.nam` compatibility
+- **Audio/control ports** (Connections, power, applications and live use): 2×XLR balanced out, FX loop, headphones, aux, external EXP/FS and USB documented; exact complete socket inventory ?; MIDI claim conflicts
+- **Power / battery / USB-powered** (Connections, power, applications and live use): **9V DC**, current/polarity ?; battery/USB bus operation not established
+- **Configuration apps** (Connections, power, applications and live use): Full editor **Windows/macOS**; USB audio Windows/macOS/iOS/Android
+- **Other practical features** (Connections, power, applications and live use): 90 s looper; 100 rhythms; **single linear chain, no scenes, not compatible with Matribox II presets**
 
 ## Sonic Wood QCE-50
 

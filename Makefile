@@ -779,3 +779,7 @@ research-commit-compact-union:
 .PHONY: research-commit-floorboard-matribox-ii
 research-commit-floorboard-matribox-ii:
 	python3 scripts/research_tools.py commit-floorboard-matribox-ii
+
+.PHONY: research-commit-floorboard-matribox-ii-pro
+research-commit-floorboard-matribox-ii-pro:
+	python3 scripts/research_tools.py commit-floorboard-matribox-ii-pro
