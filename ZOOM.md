@@ -724,3 +724,64 @@ Checked2026-10-16 using exact hardware pages; cached bodies differ from search s
 | Retail-style / LangitLofi244, Jakarta Barat | Rp9.070.349. Search snapshot says preorder ships30days,21–24Sep delivery; reopened body instead26–29Aug without preorder badge. Both are stale date contexts, not confirmed dispatch. Bundle unspecified. | [1638432201 /53450228369](https://shopee.co.id/Professional-vocal-processor-16-voice-changing-effects-ZOOM-V3-with-USB-audio-interface-for-Playing-harmony-Karaoke-Streaming-i.1638432201.53450228369) |
 
 No Malaysian RM listings or noisy accessory/search-page prices used as IDR hardware evidence. Exact owned Zoom vocal model/bundle remains unresolved; this profile does not establish ownership.
+
+## V6-SP
+
+Vocal multi-effects with built-in formant pedal. Consolidated/researched2026-10-16; partial verification. Earlier V6 microphone bundle is not the current SP package.
+
+### V6-SP — preserved original comparison
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimensions are **W×D×H, mm**. K/F/B = rotary controls / main footswitches / separate buttons; rear power, phantom and ground-lift toggles are additional. Used and new prices are separate **USD US-market asking/listing observations**, not sold-price statistics. Tax, shipping and condition matter.
+
+V6-SP does **not** include the SGV-6 microphone; its current product page lists the microphone separately. The V6 manual also describes the earlier microphone bundle, so bundle contents must not be copied blindly.
+
+| Required field | Original observation (2026-10-14) |
+|---|---|
+| External expression | Yes, FP02M; built-in pedal specifically controls **formant** |
+| K/F/B | 9/6/7 [V6 manual] |
+| Dimensions; weight | 320×181×77; 1.56 kg excl. batteries |
+| Size class | Large |
+| Used USD | ? |
+| New USD | $369.99 [P4] |
+| Processing architecture; categories / choices | Voice **12** types + Harmony **5** choices, up to 2 added voices + Effect **10** types; formant pedal, compressor and enhance are additional stages |
+| Factory / user storage | **100 total** memories; current product page advertises 40 preloaded patches |
+| Harmony, pitch, synth-like and acoustic functions | Pitch correction, octave, robot, talkbox/vocoder-type voices; key set manually; formant is not pitch shifting |
+| IR / NAM loading | Neither established |
+| Physical audio/control ports | XLR mic with **48 V**; mono XLR output/ground lift; 3.5 mm stereo phones; EXP; micro-USB |
+| Battery / power / USB-powered? | **4 AA, 9 V/500 mA centre-negative AD-16, or USB bus** |
+| Configuration apps versus USB functions | Full editor not established; Windows ASIO driver, Windows/macOS updater; USB **2-in/2-out**, Mac/iOS audio class support documented |
+| Looper / live considerations | **210 s** looper; stereo effects via phones, main XLR is mono; no guitar-chord input |
+
+Original sources: [source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/); [source](https://zoomcorp.com/media/documents/E_V6_2.pdf); [source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/v6-sp-support/); [source](https://www.zzounds.com/item--ZOMZV6SP). Legacy P4 is the zZounds USD369.99 ask checked2026-10-14; US-market,not a converted IDR price. Original V6 manual controls pp7–9,algorithms17–21,specs38. The original assertion that nine rotaries include the rear knob is corrected below. [Complete original](effects/vocal.md) remains unchanged; incoming links retained.
+
+### V6-SP — manufacturer checks and corrections
+
+Support directly links the shared V6 manual below as its V6-SP Operation Manual; this establishes applicability without assuming a sibling model. Current SP page includes AD-16,Quick Guide,Patch Memory List; SGV-6,FP02M and CBR-16 are optional. Forty preloaded patches occupy part of100 total; no separate additive100-user bank claimed. [V6SP-P][V6SP-S]
+
+| Required field | Current evidence / uncertainty (2026-10-16) |
+|---|---|
+| Physical controls | Corrected K/F/B **10/6/7**:VOICE selection/ADJUST/KEY(3),HARMONY KEY/MIX(2),COMP/VOLUME(2),EFFECT selection/ADJUST(2),rear PHONES(1). Two KEY knobs are distinct. Six footswitches;five harmony buttons plus STORE/ENHANCE. Rear toggles separate. [V6SP-M] |
+| Expression / toe | Formant returns to normal on foot release;toe/heel movement changes character,not proof of a separate toe on/off switch. External FP02M adjusts EFFECT;pedal adjustments not saved. [V6SP-M] |
+| Display | Two-digit seven-segment LED;diagonal/color/touch unspecified. [V6SP-M] |
+| USB audio / power | 2-in/2-out USB2.0 Full Speed,44.1kHz,16/24/32-bit. AD-16:9V500mA center-negative;4AA,about3.5h alkaline;USB supply supported,low bus power may need adapter. [V6SP-M] |
+| Looper / routing | Up to210s,overdub undo/redo;VOICE→FORMANT→HARMONY→EFFECT plus COMP/ENHANCE;categories offer alternative algorithms,not12+5+10 simultaneous blocks. [V6SP-M] |
+| Editor / driver / updater | Support lists V6 firmware1.20 Windows/Mac and Windows10/11 64-bit ASIO. Full editor not established;driver/updater is not editor evidence. [V6SP-S] |
+| IR / NAM / capture / synth | IR,native NAM,converted NAM and proprietary capture unestablished;vocal synthesis/character algorithms do not establish guitar amp/acoustic modeling. |
+
+[V6SP-P]: https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/
+[V6SP-M]: https://zoomcorp.com/media/documents/E_V6_2.pdf
+[V6SP-S]: https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/v6-sp-support/
+
+### V6-SP — separate IDR asking-price evidence
+
+Checked2026-10-16. Exact retail-style hardware offers,not condition-verified used units or confirmed live stock. Cache dates/relative delivery text preserved;shipping,tax,condition and selected bundle require confirmation. Seller name does not authenticate affiliation. SP manufacturer bundle does not prove a particular seller includes those items.
+
+| Condition / seller | IDR observation and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown; no exact condition-verified used offer established. | — |
+| Retail-style / Zoom Official Shop,Jakarta Barat | Rp6.633.000 with voucher,minRp1.5m/1% discount;7–9Aug cached delivery. Same on reopen;adapter/microphone bundle not specified in accessible body. | [348182890 /18302978486](https://shopee.co.id/Zoom-V6-SP-Vocal-Multi-Effects-Processor-i.348182890.18302978486) |
+| Retail-style / sunnymusicpalembang,Palembang | Search snapshot Rp5.000.000,Habis,13–15Aug;reopened body Rp5.745.000 with voucher,minRp5m/discountRp5,000,7–8Sep delivery. Preserve conflicting snapshots,not unconditional range or stock confirmation;bundle unknown. | [548551522 /41051529984](https://shopee.co.id/Zoom-V6-SP-Vocal-Multi-Effects-Processor-i.548551522.41051529984) |
+| Retail-style / Ixus Pro,Jakarta Pusat | Indexed Rp5.301.000,Habis,with voucher,minRp2.5m/discountRp5,000;relative same-day delivery. Direct reopen failed cache miss;not current stock. Bundle unknown. | [8624665 /53203230167](https://shopee.co.id/Zoom-V6-SP-Vocal-Multi-Effects-Processor-i.8624665.53203230167) |
+| Retail-style / Imagination Music Store,Jakarta Pusat | Rp5.090.000,Habis in index and reopened body. Index store-on-holiday/3Jun delivery;reopen relative tomorrow delivery and active seller. Availability unconfirmed;bundle unknown. | [19576516 /21795232461](https://shopee.co.id/Zoom-V6-SP-Vocal-Effects-Processor-Pedal-i.19576516.21795232461) |
+
+Unresolved:screen diagonal/color/touch;separate toe-switch proof;full editor/import capabilities;used-price/condition;current seller stock/bundles;exact ever-owned Zoom vocal identity. No source file deleted.

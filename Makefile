@@ -137,3 +137,7 @@ consolidation-commit-b6:
 .PHONY: consolidation-commit-v3
 consolidation-commit-v3:
 	python3 scripts/consolidation_tools.py commit v3
+
+.PHONY: consolidation-commit-v6-sp
+consolidation-commit-v6-sp:
+	python3 scripts/consolidation_tools.py commit v6-sp

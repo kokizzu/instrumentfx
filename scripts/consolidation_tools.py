@@ -22,6 +22,7 @@ MODELS = {
     'b2-four': ('B2 FOUR', 'effects/bass.md'),
     'b6': ('B6', 'effects/bass.md'),
     'v3': ('V3', 'effects/vocal.md'),
+    'v6-sp': ('V6-SP', 'effects/vocal.md'),
 }
 
 
