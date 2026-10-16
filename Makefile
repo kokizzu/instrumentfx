@@ -625,3 +625,7 @@ research-commit-fx200-preservation:
 .PHONY: research-commit-core-preservation
 research-commit-core-preservation:
 	python3 scripts/research_tools.py commit-core-preservation
+
+.PHONY: research-commit-gembox-preservation
+research-commit-gembox-preservation:
+	python3 scripts/research_tools.py commit-gembox-preservation

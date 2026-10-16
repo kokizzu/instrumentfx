@@ -12,6 +12,7 @@ Also called GEM BOX I / Gembox 1. **Technical/price review: 2026-10-15. Partial.
 
 JOYO's [Chinese product page](https://www.joyochina.cn/product/83.html) explicitly identifies GEM BOX, its technical table and GEM BOX I manual. The [matching English page](https://www.joyoaudio.com/product/83.html) identifies the original product and English manual. This resolves manufacturer identity without using the previously rejected MOOER-labelled document.
 
+<!-- comparison evidence begins -->
 | Required field | Preserved evidence / uncertainty |
 |---|---|
 | Expression | Built-in assignable pedal in indexed original manual. Toe-switch implementation and external-expression support remain unverified. |
@@ -25,8 +26,8 @@ JOYO's [Chinese product page](https://www.joyochina.cn/product/83.html) explicit
 | Power | **9 V DC, 300 mA, center-negative, or four AA batteries**. Manufacturer accessories list a 9 V adapter; this does not prove an individual seller includes it. |
 | USB / software | USB connection, USB power/audio, full editor, librarian and updater platforms not established. Onboard editing and memory do not establish a computer app. |
 | IR / NAM / captures | No verified user-file import workflow; native/converted NAM and proprietary captures unverified. |
-| Practice | Indexed original-manual feature page: **40 rhythms**, tuner and patch preselection. Looper not verified. |
-| Conversion | **48 kHz, 16-bit** conversion in manufacturer specification; not a USB-audio claim. |
+| Practice | Original-manual feature page: **40 rhythms**,tuner and patch preselection. [Tuner page](https://mans.io/files/viewer/2580844/11),reopened2026-10-17: press both PATCH switches for bypass tuning; hold both over2seconds for mute tuning,which silences the output. Either switch exits toPLAY. Looper not verified. |
+| Digital audio processing | **48kHz,16-bit A/D andD/A,384× oversampling**,rechecked2026-10-17 in [JOYO Chinese specification](https://www.joyochina.cn/product/83.html). This is internal digital processing,not USB audio or NAM conversion. |
 
 ### Original GEM BOX — IDR and sources
 
@@ -37,6 +38,56 @@ The [saved Shopee lead, shop31171541/item26533613317](https://shopee.co.id/JOYO-
 Supplementary original-manual [feature page](https://mans.io/files/viewer/2580844/5) and [tuner page](https://mans.io/files/viewer/2580844/11) were available only as indexed text. Direct manual, panel pages and JOYO product-image retrieval failed. Only the specifically documented functions were accepted; no full-manual or screen-color visual inspection is claimed.
 
 Open fields: complete controls/readout, full I/O, effects appendix, synth/acoustic functions, editor/import evidence and active condition-specific Indonesian quotes.
+
+<!-- comparison evidence ends -->
+
+### Original GEM BOX — verification and complete dated finding
+
+On2026-10-17 JOYO’s Chinese specification again confirmed dimensions,battery-excluded mass,power,80 combined memory locations and48kHz/16-bit conversion;it additionally states384× oversampling. Its original-product identity is explicit. The English endpoint lists the matching GEM BOX I manual but did not expose its technical table in retrieved text. The mirror tuner page was readable;feature page returned403 andpanel/other manual pages were inaccessible. No complete manual,panel visual inspection or current price/stock verification is claimed. No file/dependency downloaded.
+
+The complete original finding below retains all earlier facts,source/access qualifications and ownership boundaries. Its old next-model instruction is historical;current root ledger governs. The relative ownership link is normalized and source-reference names prefixed reversibly. No legacy source deleted.
+
+<!-- JOYO-GEMBOX-ORIGINAL source begins -->
+
+**Checked 2026-10-15. Eligible guitar multi-effects; partial technical record.** This is the original GEM BOX, not II, III or K8. Already identified in [ever-owned history](effects/OWNERSHIP.md); that existing private-evidence conclusion is not a new purchase verification. No private receipt or order data is published.
+
+### Manufacturer identification resolved
+
+JOYO's own [Chinese product page][JOYO-GEMBOX-ORIGINAL-C] explicitly names GEM BOX, supplies its technical table and lists **GEM BOX I Chinese manual**. The matching [English product page][JOYO-GEMBOX-ORIGINAL-E] names the same original product and its English manual. This provides JOYO-specific primary evidence without using the earlier rejected MOOER-labelled document. Original manuals on inaccessible mirrors are not treated as fully inspected.
+
+| Required field | Established specification / explicit gap |
+|---|---|
+| Expression | Built-in assignable expression documented in the indexed original manual. Toe-switch details and external-expression support remain unverified; do not infer an external jack from an included pedal [JOYO-GEMBOX-ORIGINAL-M] |
+| Knobs / footswitches / buttons | Complete rotary/button counts unverified. **Two patch footswitches** identified by the original manual's tuner instructions. No panel-image inspection succeeded [JOYO-GEMBOX-ORIGINAL-M] |
+| Display | Manual describes an **LED patch/tuner readout**, not a verified graphical LCD. Screen diagonal, single-color/other display mode and explicit touch specification unverified; do not borrow GEM BOX II's screen [JOYO-GEMBOX-ORIGINAL-M] |
+| Size / weight | **237 W ×158 D ×63 H mm;730 g excluding batteries**. **Medium**, not compact; pedal travel and plugs require extra clearance [JOYO-GEMBOX-ORIGINAL-C] |
+| Processing | **Up to8 simultaneous modules,60 effect types**. Exact category-by-category choice counts require the matching complete appendix and remain unverified [JOYO-GEMBOX-ORIGINAL-C] |
+| Memory | **40 factory presets +40 user patches**, each in4 banks×10;80 total, not80+80 [JOYO-GEMBOX-ORIGINAL-C] |
+| Synth / acoustic simulator | Exact algorithms unverified from the accessible manufacturer specification; related GEM BOX/MOOER model lists are not substituted |
+| Audio connections | **1/4-inch mono instrument input,470kΩ; one1/4-inch stereo output shared between line and headphones**. A separate headphone jack is not documented [JOYO-GEMBOX-ORIGINAL-C] |
+| Additional I/O | Complete rear-panel inventory not inspected. Aux, FX loop, mic/phantom and external-controller sockets remain unverified rather than invented |
+| Power | **9 V DC,300 mA,center-negative, or4 AA batteries**. Manufacturer lists9V adapter among accessories. This does not establish every seller's bundle [JOYO-GEMBOX-ORIGINAL-C] |
+| USB power / audio | Neither USB connection nor USB powering/audio is established in the checked manufacturer specification. Do not assume recording merely from a headphone output |
+| IR / NAM / captures | User IR import, native/converted NAM and proprietary capture import not established; no file-loading workflow verified |
+| Configuration software | No computer/mobile full editor, librarian or firmware-update platform established. Onboard editing and user-memory storage are documented; they are not an app [C,M] |
+| Practice | Indexed original-manual feature page lists **40 rhythm patterns**, tuner and patch preselection. No looper capability verified in this pass [JOYO-GEMBOX-ORIGINAL-M] |
+| Digital processing | Manufacturer specifies48kHz sampling and16-bit conversion. These are not USB-audio-interface capabilities [JOYO-GEMBOX-ORIGINAL-C] |
+| Used IDR | **?**, no current condition-verified public used offer obtained |
+| Retail IDR | **Rp1.650.000**, Dunia Musik dan Sport on Blibli, seller page displays3 units remaining. Cached listing, not independently verified live stock, condition or completed sale [JOYO-GEMBOX-ORIGINAL-P] |
+
+### Price and source qualifications
+
+The [saved Shopee original GEM BOX item26533613317,shop31171541](https://shopee.co.id/JOYO-GEMBOX-I-Guitar-Effect-Pedal-Pedal-Efek-Gitar-Joyo-GEM-BOX-1-GEM-BOX-One-i.31171541.26533613317) could not be reopened. Its old discovery amount is not refreshed or assigned as a current price. The Blibli quote above is explicitly a different marketplace. Its seller's smaller dimension/weight claims conflict with JOYO's table; **manufacturer dimensions/weight take precedence**. Shipping, seller authenticity, warranty, bundle and current stock are not silently included.
+
+[JOYO-GEMBOX-ORIGINAL-C]: https://www.joyochina.cn/product/83.html
+[JOYO-GEMBOX-ORIGINAL-E]: https://www.joyoaudio.com/product/83.html
+[JOYO-GEMBOX-ORIGINAL-M]: https://mans.io/files/viewer/2580844/5
+[JOYO-GEMBOX-ORIGINAL-P]: https://www.blibli.com/p/efek-gitar-joyo-gem-box-i/ps--DUM-70068-01648
+
+The original-manual [feature page](https://mans.io/files/viewer/2580844/5) and [tuner page](https://mans.io/files/viewer/2580844/11) were available as indexed text only; direct manual and panel-page retrieval failed. Use those limited observations only for the specifically identified functions above, not as proof that the full manual was read. JOYO's product-image link also failed; no visual-control or screen-color claim is made.
+
+**Next owned model: M-VAVE MINI-X.** Remaining GEM BOX gaps: exact controls/display, complete connector inventory, effects appendix, synth/acoustic functions and active used/new Shopee offers. Its ownership and manufacturer identity are now separately established; full technical verification is not claimed.
+<!-- JOYO-GEMBOX-ORIGINAL source ends -->
 
 ## GEM BOX II
 
