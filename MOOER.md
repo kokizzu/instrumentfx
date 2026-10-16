@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. Thirteen previously researched GE models still require complete consolidation; GE100 original and GE150 original are consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. Twelve previously researched GE models still require complete consolidation; original GE100,GE150 and GE200 are consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -372,3 +372,72 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Other documented functions** (5. Power, software and practice/live features): 80 s looper;40 rhythms+10 metronomes; mobile OTG recording
 
 Sources: [effects/findings/2026-10-14-mooer-ge150.md](effects/findings/2026-10-14-mooer-ge150.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+
+## GE200 original
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- MOOER-GE200-ORIGINAL source begins -->
+
+Checked **2026-10-14**. **Partial new record**, distinct from GE200 Pro/Pro Li/Plus. [Official product page][MOOER-GE200-ORIGINAL-P]; [manufacturer-authored manual mirror][MOOER-GE200-ORIGINAL-M], printed pp.3–4, 24–29, visually checked; [official editor downloads][MOOER-GE200-ORIGINAL-D].
+
+| Field | Established / unknown |
+|---|---|
+| Expression | Built-in plus external EXP2; toe-switch detail ? |
+| Controls | **2 rotary /3 footswitch /16 buttons** |
+| Screen | **3.5-inch full-color display**; touchscreen ? |
+| Size / weight | **297×145.5×45.5 mm; 1.4 kg**; medium |
+| Processing | **9 reorderable modules**, **151** listed models total; not 151 simultaneous blocks |
+| Memory | **200 editable user locations**; factory-filled subset ? |
+| Acoustic / synth | **3 acoustic simulators** in AMP category; synth ? |
+| Ports | ¼-inch mono input; 2×¼-inch outputs; ⅛-inch aux/phones; ¼-inch EXP2; USB-B |
+| Power | **9 V center-negative, 600 mA**; battery/USB bus operation unverified |
+| IR / NAM | User IR loading; WAV **24-bit/44.1 kHz, 512 samples**; import capacity ?; NAM ? |
+| Editor | **Windows/macOS**, documented older OS ranges; current OS compatibility requires checking |
+| Extras | USB audio; **52 s looper**, 40 rhythms+10 metronome patterns; Merge parameter morphing |
+
+### Choices per category — manual baseline
+
+| FX/COMP | DS/OD | AMP | CAB | NS | EQ | MOD | DELAY | REVERB |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 8 | 20 | 55 | 26 | 3 | 4 | 19 | 9 | 7 |
+
+Sum **151**, including amps and cabinets; non-amp/cab choices total **70**. This arithmetic reconciles the manufacturer's totals. These are the manual's baseline categories, not a claim that every later firmware/download has been recounted. Acoustic AMP entries explicitly say simulator, unlike a mere acoustic-amplifier model.
+
+### Shopee Indonesia
+
+Retail indexed ask **Rp4.612.000**, [Vin's Music Store, item 24324745464][MOOER-GE200-ORIGINAL-S1]. Separate **sold-out** retail ask **Rp4.799.000**, [Seven Stereo, item 1101890381][MOOER-GE200-ORIGINAL-S2]. Live checkout stock, condition details and accessories are unconfirmed; explicit used-condition quote **?**. Do not incorporate downloadable GE200 presets or carrying cases as hardware prices.
+
+[MOOER-GE200-ORIGINAL-P]: https://www.mooeraudio.com/product/GE200--48.html
+[MOOER-GE200-ORIGINAL-M]: https://www.zikinf.com/manuels/mooer-ge200-manuel-utilisateur-en-65892.pdf
+[MOOER-GE200-ORIGINAL-D]: https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html
+[MOOER-GE200-ORIGINAL-S1]: https://shopee.co.id/Mooer-GE-200-multy-effect-processor-and-amp-original-ge200-ge-200-i.31173885.24324745464
+[MOOER-GE200-ORIGINAL-S2]: https://shopee.co.id/Mooer-GE-200-Multi-Effects-And-Amp-Modelling-i.16879370.1101890381
+
+**Next:** explicit touch specification, current firmware/OS support, user IR capacity and verifiable secondhand quotes. Do not transfer newer GE200 Pro NAM/MNRS features to original GE200.
+<!-- MOOER-GE200-ORIGINAL source ends -->
+
+### GE200 original — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **External expression / toe** (Built-in expression): EXP2 / toe ?
+- **K/F/B** (Built-in expression): 2/3/16
+- **Dimensions; weight** (Built-in expression): 297×145.5×45.5; 1.4 kg
+- **Size** (Built-in expression): Medium
+- **Used IDR** (Built-in expression): ?
+- **Retail IDR observation** (Built-in expression): Rp4.612.000; separate Rp4.799.000 **sold-out** ask
+- **Display type** (2. Displays): Graphical screen
+- **Diagonal** (2. Displays): 3.5
+- **Monochrome / color** (2. Displays): Full color
+- **Touch** (2. Displays): ?
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 9 reorderable; **151 = FX8 +DS20 +AMP55 +CAB26 +NS3 +EQ4 +MOD19 +DLY9 +REV7**
+- **Preset storage** (3. Processing, presets and loading): 200 editable; factory subset ?
+- **Acoustic simulation / synth** (3. Processing, presets and loading): **3 acoustic simulators** / synth ?
+- **IR / NAM** (3. Processing, presets and loading): User IR 24-bit/44.1 kHz/512; capacity ?, NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch mono input; 2×¼-inch outputs; ⅛-inch aux/phones; EXP2; USB-B
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative/600mA**; battery/USB power ?
+- **Configuration apps** (5. Power, software and practice/live features): Windows/macOS editor; current OS compatibility ?
+- **Other documented functions** (5. Power, software and practice/live features): USB audio;52 s looper;40 rhythms+10 metronomes; Merge morphing
+
+Sources: [effects/findings/2026-10-14-mooer-ge200.md](effects/findings/2026-10-14-mooer-ge200.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
