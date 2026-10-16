@@ -91,3 +91,9 @@ consolidation-commit-g1x-four:
 .PHONY: consolidation-verify
 consolidation-verify:
 	python3 scripts/consolidation_tools.py verify
+
+.PHONY: consolidation-clean-cache-plan consolidation-clean-cache-apply
+consolidation-clean-cache-plan:
+	python3 scripts/consolidation_tools.py cache-plan
+consolidation-clean-cache-apply:
+	python3 scripts/consolidation_tools.py cache-apply
