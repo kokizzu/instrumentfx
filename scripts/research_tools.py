@@ -319,7 +319,7 @@ def main():
         if mode == 'commit-perform-vk':
             message = 'research(tc-helicon): preserve PERFORM-VK service and MIDI filter qualifications'
         if mode == 'commit-perform-v':
-            message = 'research(tc-helicon): document PERFORM-V controls and microphone remote modes'
+            message = 'research(tc-helicon): restore PERFORM-V conflicts remote rules and offer in comparisons'
         if mode == 'commit-dapper-indie':
             message = 'research(valeton): clarify Indie fields and reconcile recorded discovery status'
         if mode == 'commit-dapper-dark-mini':

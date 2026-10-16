@@ -298,16 +298,17 @@ Mic-stand vocal multi-effects;not VK/VG/VE. Checked2026-10-17;partial. No guitar
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in/toe/external expression unverified. Switch-3/6 remote footswitch supported;not evidence of continuous expression. | [Manual pp44–45][PV-M] |
-| K/F/B | **1 / 0 / 14**,text-derived from manufacturer manual cover:one central rotary;SET,Tone,Anti-Feedback,Pitch,48V;Double,Reverb,Echo;presets1–3;Headphone,Tap,Talk. Mic-stand unit has no built-in footswitch;external Switch-3/6 separate. Indexed cover description,not an independently rendered visual count;current marketing count conflict retained below. | [Italian manual cover,firmware1.0/2015-11-17][PV-I] |
+| K/F/B | **1 / 0 / 14**,text-derived from manufacturer manual cover:one central rotary;SET,Tone,Anti-Feedback,Pitch,48V;Double,Reverb,Echo;presets1–3;Headphone,Tap,Talk. Mic-stand unit has no built-in footswitch;external Switch-3/6 separate. Indexed cover description,not an independently rendered visual count;current official page says three knobs/three buttons, conflicting with this manual-derived inventory. Hardware revision is unverified. | [Italian manual cover,firmware1.0/2015-11-17][PV-I]; [current official page][PV-P] |
+| External control / Mic Control | Requires phantom power. Hold48V+1 disables microphone control for ordinary condensers; +2 selects MP-75; +3 MP-76. MP-75 defaults to preset cycling and is reassignable. MP-76 maps top Double,left preset1,right preset2,bottom preset3; MP-75 mode enables only its top button. Mic buttons are not processor footswitches. | [Manual pp36–37][PV-B] |
 | Display | **Segmented LED ring** indicates effect level/style and pitch guide:green in tune,yellow/red left flat,right sharp. Hold Pitch toggles guide. This does not establish a color LCD or touchscreen;screen diagonal/technology remains unverified. | [Manual pp18,33][PV-B] |
 | Dimensions / mass | Unverified. | Unresolved |
 | Processing / category choices | Onboard Double/Reverb/Echo;imported presets add Harmony,HardTune,Megaphone,µMod,up to7 effects. Adaptive Tone:EQ,de-essing,gate,compression;global pitch correction and anti-feedback. Factory styles:Reverb Room/Club/Hall;Double 1 Voice Tight/2 Voices Tight/Octave Up and Down;Echo quarter-note/eighth-note/Slap. Each also accepts one imported style. Full block accounting pending. | [Manual pp10,14–19,22][PV-M];[same revision][PV-B] |
 | Factory / user memory | Three editable presets1–3 store effect state/style/level;imports replace their sounds. Changes save automatically. Initial factory fill remains unverified. | [Manual pp19,21–25][PV-B] |
 | Synth / acoustic | Vocal harmony/pitch correction do not establish instrument synth/acoustic simulation;unverified. | Unresolved |
-| I/O | XLR mic input,+48V;balanced XLR output;1/8 stereo AUX/headphones;TRS pedal;USB for VoiceSupport. Complete connector/power inventory pending. | [Manual pp22,44,49][PV-M] |
+| I/O | XLR mic input,+48V;balanced XLR output;1/8 stereo AUX/headphones;TRS pedal;USB for VoiceSupport. Current product-page guitar-feed suggestion conflicts with the manual’s delayed AUX chord-detection use; no direct guitar-effects path is established. Complete connector/power inventory pending. | [Manual pp22,44,49][PV-M]; [current official page][PV-P] |
 | Power / battery / USB | Manufacturer quick-guide diagram labels supply **12V1A**. This is a supply label,not measured current draw;DC/polarity,battery and USB-powered operation remain unverified. | [2018 quick guide][PV-Q];[indexed Rev6 copy][PV-QI] |
 | IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
-| Editor / software | VoiceSupport Windows/MacOSX preset management/firmware;smartphone preset beaming. Full parameter editor,current OS/app support and USB audio unverified. | [Manual pp7,22][PV-M] |
+| Editor / software | VoiceSupport Windows/MacOSX preset management/firmware;smartphone preset beaming. Full parameter editor and current OS/app support unverified. Current official page suggests USB recording; the manual documents USB preset management. **USB audio remains unresolved**; no revised hardware inferred. | [Manual pp7,22][PV-M]; [current official page][PV-P] |
 | Looper / drums / live | AUX delayed for chord detection;unsuitable for live instrument monitoring. Remote must connect before power-on;changing Switch-3/6 needs restart. HIT toggles imported layered effects;both states editable and automatically saved. Talk bypasses effects except Tone;AUX still reaches XLR. Hold Talk locks panel and mutes XLR/headphones. RoomSense vocal practice requires headphones and no external mic;XLR muted. **Tap tempo is global,not stored per preset**. Hold SET2s then sing loudly for automatic gain setup. Looper/drums/scenes/trails unverified;controller labels alone are not feature proof. | [Manual pp24–25,38,42,44–45][PV-B];[quick guide][PV-Q] |
 
 ### Separate IDR hardware offers
@@ -317,11 +318,9 @@ Mic-stand vocal multi-effects;not VK/VG/VE. Checked2026-10-17;partial. No guitar
 | Used | Unknown;exact offer condition unconfirmed. | — |
 | New | Unknown;exact offer condition unconfirmed. | — |
 
-<!-- comparison evidence ends -->
-
 ### Condition-unverified exact hardware
 
-[NEO MUSIC item](https://shopee.co.id/TC-HELICON-PERFORM-V-Vocal-Processor-i.158235298.9761707378),shop158235298/item9761707378,Kota Sukabumi,**Rp3,950,000,Habis**. Checked2026-10-17;exact HTML opened,last-month cache;relative Besok delivery does not certify stock. Condition,variant,adapter/bundle,warranty,working state unverified. Late-arrival Rp10,000 compensation not discount;shipping/tax/checkout unknown. Additional indexed offers retained in research-state.json;no used/new amount qualified.
+NEO MUSIC: [exact item](https://shopee.co.id/TC-HELICON-PERFORM-V-Vocal-Processor-i.158235298.9761707378),shop158235298/item9761707378,Kota Sukabumi,**Rp3,950,000,Habis**. Checked2026-10-17;exact HTML opened,last-month cache;relative Besok delivery does not certify stock. Condition,variant,adapter/bundle,warranty,working state unverified. Late-arrival Rp10,000 compensation not discount;shipping/tax/checkout unknown. Additional indexed offers retained in research-state.json;no used/new amount qualified.
 
 Official PDF repeatedly502;manufacturer-authored mirror firmware1.0/reference2015-11-17 matches official indexed title,revision and pp10/22 content. No hash/visual certification. Browser text only;no files/software/dependencies downloaded or installed.
 
@@ -349,6 +348,8 @@ Manual pp36–37 requires phantom power for Mic Control. Hold48V+1 disables it f
 Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;cover labels corroborate existing English controls. PDF screenshot failed;inventory remains explicitly text-derived. Manufacturer service-test PDF dated2015-07-14 indexed SET/Headphone separately,but direct502;no test modes were run.
 
 [PV-I]: https://images.thomann.de/pics/atg/atgdata/document/manual/tc_helicon_perform_v_reference_manual_italian.pdf
+
+<!-- comparison evidence ends -->
 
 ## PERFORM-VK
 

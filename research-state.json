@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Comparison cutoff audit",
-    "task": "StompLab1G fixed after B2FOUR. Review TC-Helicon PERFORM records next; distinguish omitted current facts from intentional historical duplicates and unresolved variant prices.",
+    "model": "PERFORM comparison cutoff audit",
+    "task": "PERFORM-V table now includes existing conflicts, mic remote rules and qualified offer. Review PERFORM-VK next; avoid moving historical duplicate tables into current comparisons.",
     "next_models": [],
-    "after_queue": "Resume primary-source verification and fresh exact hardware discovery."
+    "after_queue": "Continue source verification and exact hardware discovery."
   },
   "new_findings": [
     {
@@ -4099,6 +4099,16 @@
       "status": "partial",
       "finding": "Lossless comparison-coverage correction: existing manufacturer-backed output targets, master reset, amp EQ dependency, bypass/mute, tuner reset and VALUE lock now project into the instrument table. Existing used-price seller/location/access/condition limits moved into the price row. Original full prose remains preserved.",
       "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf"
+    },
+    {
+      "model": "TC-Helicon PERFORM-V",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Comparison cutoff correction: current-page/manual conflicts for K/F/B, USB recording and guitar feed are now explicit in appropriate rows; microphone remote rules project independently of processor footswitch counts. Existing exact condition-unverified NEO MUSIC offer retained in scope. No new technical verification claimed.",
+      "sources": [
+        "https://www.tchelicon.com/en/products/0726-AAG",
+        "https://www.bhphotovideo.com/lit_files/1188880.pdf"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -40065,7 +40075,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Comparison cutoff audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume PERFORM comparison cutoff audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
