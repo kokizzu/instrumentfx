@@ -88,7 +88,7 @@ def main():
         assert not git('diff', '--cached', '--name-only').strip(), 'Unrelated staged changes; inspect before committing'
         paths = ['Makefile', 'scripts/research_tools.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'MULTI-EFFECTS.md', 'README.md', 'research-state.json']
         if mode=='commit-comparisons':
-            paths += ['scripts/comparison_views.py','AGENTS.md','SINGLE-GUITAR.md','SINGLE-BASS.md','SINGLE-VOCAL.md','effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md']
+            paths += ['ALL-VOCAL.md','scripts/comparison_views.py','AGENTS.md','SINGLE-GUITAR.md','SINGLE-BASS.md','SINGLE-VOCAL.md','effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md']
             subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
         else:
             paths.append('VALETON.md' if mode == 'commit-gp200jr' else 'LINE6.md')
