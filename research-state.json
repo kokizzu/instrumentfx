@@ -7,8 +7,8 @@
   "active_model_count": 124,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 59,
-  "legacy_only_model_count": 65,
+  "canonical_root_model_count": 60,
+  "legacy_only_model_count": 64,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,16 +28,15 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B1X FOUR",
+    "model": "Zoom B2 FOUR",
     "destination": "ZOOM.md",
-    "task": "Consolidate complete B1X FOUR bass-comparison rows,expand shared-port/power references explicitly without borrowing variant dimensions,verify official gaps and exact IDR offers;commit before B2 FOUR.",
+    "task": "Read complete bass comparison and current exact B2 FOUR official manual,editor/support and Shopee leads;consolidate complete facts/URLs/dates,resolve useful gaps,verify comparisons,commit before B6.",
     "next_models": [
-      "Zoom B2 FOUR",
       "Zoom B6",
       "Zoom V3",
       "Zoom V6-SP"
     ],
-    "after_queue": "66 legacy-only records remain across all brands. Continue full lossless consolidation and unresolved technical/price research; no whole-market completion claim."
+    "after_queue": "Continue64 legacy-only models and unresolved technical/price research across all brands;fresh exact Shopee discovery remains required."
   },
   "new_findings": [
     {
@@ -796,7 +795,120 @@
         "https://www.thomannmusic.com/zoom_b6.htm",
         "https://www.thomannmusic.com/zoom_b1four_bass_multi_effect.htm"
       ],
-      "status": "Complete legacy model-row consolidation; new qualified IDR evidence; technical fields partial"
+      "status": "Complete legacy model-row consolidation; new qualified IDR evidence; technical fields partial",
+      "commit": "982501f"
+    },
+    {
+      "models": [
+        "Zoom B1X FOUR"
+      ],
+      "destination": "ZOOM.md#b1x-four",
+      "source": "effects/bass.md",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-model-rows-v1",
+      "source_sha256": "757f426d9a03ff1fd2fef266c9a2ebecd50a0d0d1254862868dfaa1d130aea11",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "No socket listed",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "K/F/B",
+          "value": "4/2/11 [B1 manual]",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "W×D×H, mm; weight",
+          "value": "216×156×52; 610 g excl. batteries",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Size class",
+          "value": "Medium",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Used USD",
+          "value": "?",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "New USD observation",
+          "value": "$105 [P1]",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Maximum simultaneous blocks; categories / choices",
+          "value": "5; B1-family library plus pedal-controlled options; do not assume identical installed effect totals to non-X",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Factory / user memory",
+          "value": "50 editable patch memories total",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Bass synth; pedal volume/wah/delay/pitch",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Third-party IR",
+          "value": "Not established",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "NAM",
+          "value": "Not established",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Audio / control ports",
+          "value": "Same port set as B1 FOUR; built-in pedal, not an external-expression socket",
+          "source": "effects/bass.md",
+          "context": "I/O, power, apps and stage features"
+        },
+        {
+          "field": "Power; USB bus operation",
+          "value": "Same three power options",
+          "source": "effects/bass.md",
+          "context": "I/O, power, apps and stage features"
+        },
+        {
+          "field": "Configuration apps",
+          "value": "Guitar Lab Windows/macOS",
+          "source": "effects/bass.md",
+          "context": "I/O, power, apps and stage features"
+        },
+        {
+          "field": "Other important features",
+          "value": "30 s looper; 68 rhythms; maximum height must allow pedal movement",
+          "source": "effects/bass.md",
+          "context": "I/O, power, apps and stage features"
+        }
+      ],
+      "retained_context": [
+        "Checked **2026-10-14**. Records are **partial**, not certifications that every field is complete. `?` = unverified, not No. Dimensions are **width × depth × height, mm**. `K/F/B` = rotary controls / footswitches / separate buttons; toe switches are additional. Prices below are **USD** seller observations, excluding destination tax/shipping. A missing used price is not estimated from the new price.",
+        "B1-family downloads now advertise additional BitCrush and DynaDelay releases in February and April 2026; these are downloadable library additions, not evidence that all installed units contain an identical count. On B6, the manual specifies **six** simultaneous effects; do not confuse the nine footswitches with nine processing slots."
+      ],
+      "retained_source_urls": [
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/",
+        "https://zoomcorp.com/documents/129/E_B1FOUR.pdf",
+        "https://www.thomannmusic.com/zoom_b6.htm"
+      ],
+      "status": "Complete legacy row consolidation,explicit shared-reference expansion and indexed IDR ask;technical fields partial"
     }
   ],
   "discovery_leads": [
@@ -1052,7 +1164,8 @@
       "G1X FOUR",
       "G2 FOUR",
       "G2X FOUR",
-      "B1 FOUR"
+      "B1 FOUR",
+      "B1X FOUR"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -1137,7 +1250,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:104 guitar,54 documented bass-capable,17 vocal; full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "65 legacy-only records remain;59 root-canonical. Full migration and research incomplete.",
+    "warning": "64 legacy-only models remain;60 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -1207,8 +1320,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 124,
-    "canonical_root_models": 59,
-    "legacy_only_models": 65,
+    "canonical_root_models": 60,
+    "legacy_only_models": 64,
     "guitar_view_models": 104,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -1222,9 +1335,10 @@
     "specialists_segregated": true,
     "workflow_files": 0,
     "last_checks": [
-      "Actual B1 FOUR comparison cells preserve all legacy technical fields and three exact IDR offers",
-      "Historic USD remains outside IDR cells; used price unknown",
-      "consolidation commit verifies complete source rows,context,URLs,counts,links and all instrument tables"
+      "make comparison-verify",
+      "make research-verify",
+      "make consolidation-verify",
+      "B1/B1X exact variant masses,expression,USB power,full source-row/context/URL preservation and separated USD/IDR cells inspected"
     ]
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
@@ -1238,7 +1352,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Consolidate complete B1X FOUR bass-comparison rows,expand shared-port/power references explicitly without borrowing variant dimensions,verify official gaps and exact IDR offers;commit before B2 FOUR."
+    "next": "Read complete bass comparison and current exact B2 FOUR official manual,editor/support and Shopee leads;consolidate complete facts/URLs/dates,resolve useful gaps,verify comparisons,commit before B6."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -2453,9 +2567,9 @@
       "finding_files": []
     },
     "Zoom::B1X FOUR": {
-      "link": "effects/bass.md",
+      "link": "ZOOM.md#b1x-four",
       "source_files": [
-        "effects/bass.md"
+        "ZOOM.md"
       ],
       "finding_files": []
     },

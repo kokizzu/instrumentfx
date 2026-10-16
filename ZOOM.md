@@ -58,7 +58,7 @@ These are individual asking observations, not completed-sale statistics or an ac
 
 ## Existing ZOOM research — consolidation still pending
 
-The existing B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+The existing B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
 
 ## B1Xon
 
@@ -486,3 +486,58 @@ B1-family downloads now advertise additional BitCrush and DynaDelay releases in 
 | Condition-verified used IDR |**?** |No exact used-condition offer established; B1Xon and mixed B1/B1X listings excluded from variant pricing |
 
 These are separate asking observations,not a used-to-new range. Selected condition,stock,shipping,warranty and seller authenticity remain unverified. No exchange-rate conversion. Current primary product check confirms family features only; this record does not claim a newly inspected manual/panel or installed firmware. Remaining work:exact category inventory,screen details,algorithm names,qualified used price and live retail stock.
+
+## B1X FOUR
+
+Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.
+
+### B1X FOUR — complete retained comparison fields
+
+| Field | Retained value / unknown |
+|---|---|
+| External expression | No socket listed |
+| K/F/B | 4/2/11 [B1 manual] |
+| W×D×H, mm; weight | 216×156×52; 610 g excl. batteries |
+| Size class | Medium |
+| Used USD | ? |
+| New USD observation | $105 [P1] |
+| Maximum simultaneous blocks; categories / choices | 5; B1-family library plus pedal-controlled options; do not assume identical installed effect totals to non-X |
+| Factory / user memory | 50 editable patch memories total |
+| Synth / acoustic | Bass synth; pedal volume/wah/delay/pitch |
+| Third-party IR | Not established |
+| NAM | Not established |
+| Audio / control ports | Same port set as B1 FOUR; built-in pedal, not an external-expression socket |
+| Power; USB bus operation | Same three power options |
+| Configuration apps | Guitar Lab Windows/macOS |
+| Other important features | 30 s looper; 68 rhythms; maximum height must allow pedal movement |
+
+### B1X FOUR — original source context
+
+Checked **2026-10-14**. Records are **partial**, not certifications that every field is complete. `?` = unverified, not No. Dimensions are **width × depth × height, mm**. `K/F/B` = rotary controls / footswitches / separate buttons; toe switches are additional. Prices below are **USD** seller observations, excluding destination tax/shipping. A missing used price is not estimated from the new price.
+
+B1-family downloads now advertise additional BitCrush and DynaDelay releases in February and April 2026; these are downloadable library additions, not evidence that all installed units contain an identical count. On B6, the manual specifies **six** simultaneous effects; do not confuse the nine footswitches with nine processing slots.
+
+[B1 manual] [Original manufacturer manual](https://zoomcorp.com/documents/129/E_B1FOUR.pdf),printed7/60 in original comparison. Two small arrow buttons belong to the11 separate buttons,not the two main switches. [P1] [Original Thomann B6 cross-listed comparison](https://www.thomannmusic.com/zoom_b6.htm) supplied the historical $105 B1X FOUR ask;US-facing USD,tax/shipping excluded. No conversion toIDR. [Official family product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/) documents built-in pedal volume,wah,delay andpitch control.
+
+### B1X FOUR — expanded shared references and explicit gaps
+
+The original comparison explicitly gives this model the same ports and three power options as B1 FOUR. The expansion below resolves those written references; it does not copy variant dimensions or an unverified sibling feature.
+
+| Field | Expanded evidence / unknown |
+|---|---|
+| Built-in expression / toe |Built-in pedal; no external-expression socket listed. Toe-switch implementation remains unverified |
+| Audio / control ports |6.35mm mono instrument input;3.5mm stereo AUX;one shared6.35mm TRS stereo line/headphones output;micro-USB;DC input. No mic/phantom,MIDI DIN orFX loop listed |
+| Power supply |4AA or9V500mA center-negative AD-16 adapter orUSB bus power;portable rechargeable pack not established |
+| USB / editor |Guitar Lab Windows/macOS;USB editing,not USB audio in legacy family comparison. Full mobile editor unverified |
+| Display |Exact diagonal,pixels,color mode andtouch unknown;G1X FOUR specifications not substituted |
+| Preset memory |50 editable total;factory-filled subset unknown,not50factory+50user |
+| Categories / synth / acoustic |Bass synth andpedal volume/wah/delay/pitch retained;complete current category counts,exact synth algorithm names andacoustic simulator unknown. Family over70 marketing includes amp/cab models;downloads are not every unit's installed count |
+
+### B1X FOUR — separate IDR evidence checked2026-10-16
+
+| Price class | Amount | Offer and qualification |
+|---|---:|---|
+| Retail indexed exact hardware ask |**Rp2.700.000** |[shop195817632/item9729029672](https://shopee.co.id/Zoom-B1X-FOUR-Multi-Effects-Processor-with-Expression-Pedal-Original-i.195817632.9729029672). Exact B1X FOUR title;direct reopening failed. Seller name,region,condition,adapter/bundle,warranty,voucher andlive stock unverified |
+| Condition-verified used IDR |**?** |Not established;no assumed used discount |
+
+Other search pages show adapter-bundle amounts but no resolved exact item in this pass;those do not establish additional accepted asks or a market range. The older $105 observation remains historical USD evidence. [Complete original bass comparison](effects/bass.md) is retained unchanged; all incoming links remain valid. No new manual image inspection or installed firmware check is claimed.

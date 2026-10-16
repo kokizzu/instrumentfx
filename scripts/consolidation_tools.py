@@ -18,6 +18,7 @@ MODELS = {
     'g2-four': ('G2 FOUR', 'effects/findings/2026-10-14-zoom-g2-four.md'),
     'g2x-four': ('G2X FOUR', 'effects/findings/2026-10-14-zoom-g2x-four.md'),
     'b1-four': ('B1 FOUR', 'effects/bass.md'),
+    'b1x-four': ('B1X FOUR', 'effects/bass.md'),
 }
 
 

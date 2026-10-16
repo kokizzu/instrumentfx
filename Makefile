@@ -117,3 +117,7 @@ consolidation-commit-g2x-four:
 .PHONY: consolidation-commit-b1-four
 consolidation-commit-b1-four:
 	python3 scripts/consolidation_tools.py commit b1-four
+
+.PHONY: consolidation-commit-b1x-four
+consolidation-commit-b1x-four:
+	python3 scripts/consolidation_tools.py commit b1x-four
