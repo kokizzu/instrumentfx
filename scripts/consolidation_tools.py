@@ -1652,11 +1652,13 @@ def audit_floorboard_union():
 
 
 def audit_compact_links(kind='compact'):
-    assert kind in ('compact','nux','bass','vocal')
+    assert kind in ('compact','nux','bass','vocal','advanced')
     """Inventory explicit Markdown links and literal references before source retirement."""
     import urllib.parse
     research_tools.identity()
     source_key = 'effects/'+kind+'.md' if kind in ('bass','vocal') else 'effects/guitar-'+kind+'.md'
+    if kind == 'advanced':
+        source_key = 'effects/advanced-modelers.md'
     source = (ROOT/source_key).read_text()
     state = json.loads((ROOT/'research-state.json').read_text())
     assert digest(source) == state['migration']['shared_'+kind+'_audit']['source_sha256']
@@ -1736,7 +1738,7 @@ def plan_nux_shared(model='MG-101'):
 
 
 def audit_nux_union(verify=True, kind='nux'):
-    assert kind in ('nux','bass','vocal')
+    assert kind in ('nux','bass','vocal','advanced')
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
     entry = state['migration']['shared_'+kind+'_audit']
@@ -1747,6 +1749,8 @@ def audit_nux_union(verify=True, kind='nux'):
     paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|]', p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
     normalized = [comparison_views.relink(p,path,refs) for p in paragraphs]
     destinations = ('ZOOM.md','BOSS.md','MULTI-EFFECTS.md') if kind in ('bass','vocal') else ('NUX.md','MULTI-EFFECTS.md')
+    if kind == 'advanced':
+        destinations = ('LINE6.md','NEURAL-DSP.md','IK-MULTIMEDIA.md','HEADRUSH.md','MULTI-EFFECTS.md')
     union = '\n'.join((ROOT/p).read_text() for p in destinations)
     missing = [p for p in normalized if p not in union]
     urls = sorted(set(re.findall(r'https?://[^\s)]+',source)))
@@ -1754,9 +1758,11 @@ def audit_nux_union(verify=True, kind='nux'):
     expected = {'ZOOM.md#b1-four','ZOOM.md#b1x-four','ZOOM.md#b2-four','ZOOM.md#b6','BOSS.md#gt-1b','BOSS.md#gx-1b','BOSS.md#me-90b'} if kind == 'bass' else {'NUX.md#'+m for m in ('mg-101','mg-300-original','mg-300-mkii','mg-400','mg-30','mg-50li')}
     if kind == 'vocal':
         expected = {'ZOOM.md#v3','ZOOM.md#v6-sp'} | {'BOSS.md#'+m for m in ('ve-1','ve-2','ve-500','ve-22','ve-8','ve-20')}
+    if kind == 'advanced':
+        expected = {'LINE6.md#hx-stomp','LINE6.md#hx-effects','NEURAL-DSP.md#nano-cortex','IK-MULTIMEDIA.md#tonex-one','IK-MULTIMEDIA.md#tonex-pedal','HEADRUSH.md#flex-prime'}
     assert {e['destination'] for e in manifests} == expected
     fields = sum(len(e['retained_comparison_facts']) for e in manifests)
-    assert fields == {'bass':105,'vocal':112,'nux':90}[kind]
+    assert fields == {'bass':105,'vocal':112,'nux':90,'advanced':90}[kind]
     report = dict(source=path,source_sha256=digest(source),destinations=list(destinations),paragraph_groups=len(paragraphs),normalized_missing_groups=missing,external_urls=urls,missing_external_urls=[u for u in urls if u not in union],model_manifests=len(manifests),model_fields=fields,retirement_authorized=False)
     Path('/tmp/instrumentfx-'+kind+'-union-plan.json').write_text(json.dumps(report,indent=2)+'\n')
     if verify:
@@ -1794,6 +1800,12 @@ def plan_advanced_hxe(model='HX Effects'):
     print(model+':15 fields/3rows,'+str(len(contexts))+' shared paragraphs,'+str(len(urls))+' model URLs;exact omissions='+str(len(report['missing_exact_fields'])))
 
 if __name__ == '__main__':
+    if sys.argv[1:] in (['plan-advanced-union'], ['audit-advanced-union']):
+        audit_nux_union(sys.argv[1] == 'audit-advanced-union', 'advanced')
+        raise SystemExit(0)
+    if sys.argv[1:] == ['audit-advanced-links']:
+        audit_compact_links('advanced')
+        raise SystemExit(0)
     if sys.argv[1:] == ['plan-advanced-flex']:
         plan_advanced_hxe('Flex Prime')
         raise SystemExit(0)

@@ -911,3 +911,15 @@ consolidation-plan-advanced-flex:
 .PHONY: research-commit-advanced-flex-audit
 research-commit-advanced-flex-audit:
 	python3 scripts/research_tools.py commit-advanced-flex-audit
+
+.PHONY: consolidation-plan-advanced-union consolidation-audit-advanced-union consolidation-audit-advanced-links
+consolidation-plan-advanced-union:
+	python3 scripts/consolidation_tools.py plan-advanced-union
+consolidation-audit-advanced-union:
+	python3 scripts/consolidation_tools.py audit-advanced-union
+consolidation-audit-advanced-links:
+	python3 scripts/consolidation_tools.py audit-advanced-links
+
+.PHONY: research-commit-advanced-union
+research-commit-advanced-union:
+	python3 scripts/research_tools.py commit-advanced-union

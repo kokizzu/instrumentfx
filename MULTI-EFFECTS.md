@@ -134,3 +134,20 @@ The following groups preserve the2026-10-14 source context. Local links are norm
 - P4: [zZounds V6-SP](https://www.zzounds.com/item--ZOMZV6SP), $369.99 observation, checked **2026-10-14**.
 
 TC-Helicon, HeadRush vocal processing and other brands remain in the [coverage backlog](effects/COVERAGE.md) until their required fields have been researched. The absence of a brand here is not a recommendation against it.
+
+### Historical advanced-modeler shared-source context
+
+The following groups preserve the2026-10-14 source context,with local links normalized to repository root. Source-list qualifications about launch FAQs,manual sections and indexed prices keep their original scope. Backlog wording is historical;current records and unresolved work are in README.md and research-state.json. This is preservation,not fresh hardware or stock verification.
+
+[Home](effects/README.md) · [Methodology](effects/METHODOLOGY.md) · [Guitar floorboards](effects/guitar-floorboards.md) · [Compact alternatives](effects/guitar-compact.md)
+
+- [HX Stomp FAQ](https://kb.line6.com/hx-stomp-faq), ports, dimensions and power; **launch-era block count is superseded** by [Helix 3.0 notes](https://line6.com/support/page/kb/effects-controllers/helix/helix-30-release-notes-r934/).
+- [HX Effects FAQ](https://kb.line6.com/hx-effects-faq), processing, dimensions, memory and explicit absence of USB audio; [current HX Edit downloads and supported OS](https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set).
+- [Nano Cortex current product page](https://neuraldsp.com/nano-cortex); manual sections Hardware Specifications, Effects, Capture Mode, Presets Library, USB Channels and Expression Pedal Configuration.
+- [TONEX ONE control photo](https://ikmultimedia.com/cdn/shop/files/TONEX_ONE_MG_3569_r2.jpg?v=1783342577&width=1100); [TONEX Pedal control photo](https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal---Studio-57101.jpg?v=1783348434&width=1100).
+- [TONEX Pedal original official page, connection/power descriptions](https://www.ikmultimedia.com/products/tonexpedal/).
+- [Flex Prime FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000862403-headrush-flex-prime-frequently-asked-questions), physical I/O, power, dimensions and browser editing; [current firmware downloads](https://www.headrushfx.com/downloads.html); [current NAM format details](https://www.headrushfx.com/cloud/index.html).
+- P1: [Thomann B6 page with cross-listed HX Stomp and TONEX Pedal prices](https://www.thomannmusic.com/zoom_b6.htm), USD international-store observations checked **2026-10-14**; destination tax/shipping not included.
+- P2: [TONEX ONE official indexed listing](https://www.ikmultimedia.com/products/tonexone/), $199.99 observation checked **2026-10-14**. The corresponding unprefixed product page did not expose a price in extracted text, so this is an indexed observation rather than confirmed checkout pricing.
+
+Other high-end and compact modelers remain explicitly listed in the [coverage backlog](effects/COVERAGE.md). These six records are not a ranking and do not represent the complete market.
