@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G1Xon manual follow-up",
-    "task": "G1Xon manual controls1/2/8,expression,completeIO,DSP/looperrestrictions saved. Nextverifyfirmware80vs100 andeffectlist,synth/acoustic,USBfunctions/editor andprices;thenfreshShopeediscovery.",
+    "task": "G1Xon officiallist/manualrevision audit saved:80reconcilescategories,100marketing unresolved. Remaining screen/nativeimports/USB/editor/liveprices retained. NextfreshShopeediscoverybybrand/series;do notclaimcomplete.",
     "next_models": [],
     "after_queue": "FreshShopee discovery necessary."
   },
@@ -3296,7 +3296,10 @@
       "sources": [
         "https://www.zoom.co.jp/node/53",
         "https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf",
-        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1xon/"
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1xon/",
+        "https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf",
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1on_G1Xon_2.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1xon/g1xon-support/"
       ],
       "offer": {
         "model": "Zoom G1Xon",
@@ -3333,6 +3336,11 @@
         "source": "Official2013manualpp4–5,10–11,15,24–27",
         "verified": "1/2/8text-derivedcontrols;pedalswitchstateunsaved;AUTOASSIGNmultiPEDAL;outputvolexcludeslooprhythm;AUXdry;DSPbypass;looperasureontime/tempochange",
         "remaining": "USBaudio/MIDInotestablished;firmwarecounts,display,synth/imports,prices"
+      },
+      "library_followup": {
+        "count": "75publishedcategorychoices+5pedal=80;bothmanuals80;product100unresolved",
+        "verified": "Aco.SimTopBodyLevel;fivepedaleffects;monophonicPDLMnPit;selectedreverbTailoneffectoff",
+        "limits": "No firmware filesdownloaded;noevidencefornativeNAM,USBaudio,editor,currentOS orpatchchangetrails"
       }
     }
   ],

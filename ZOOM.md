@@ -1509,14 +1509,14 @@ Guitar multi-effects,distinct from G1on and G1X FOUR. Checked2026-10-17;partial.
 | K/F/B | **1 / 2 / 8**, text-derived:parameterknob;twofoot switches;RHYTHM/LOOPER,MENU,HOME,ENTER andfourcursor keys. Pedal switch additional;virtualknobs excluded. Visual corroboration pending. | [Manual p4][G1XO-M] |
 | Display | **Backlit dot-matrix LCD**;diagonal,color,touch unverified. | [Zoom product][G1XO-P] |
 | Dimensions / mass | **237×154.8×50mm W×D×H;640g without batteries**. Medium footprint. | [Zoom product][G1XO-P] |
-| Processing / category choices | **Five simultaneous**,reorderable andDSP-limited. PROCESSING LIMIT bypasses aneffect when capacity isexceeded. Product advertises100 effects;older2013 manual specifiesG1Xon80. Product category subtotals11/12/22/16/14 do not reconcile100;revision-specific list audit pending. | [Product][G1XO-P];[Manual pp10,31][G1XO-M] |
+| Processing / category choices | **Five simultaneous**,reorderable andDSP-limited. PROCESSING LIMIT bypasses aneffect when capacity isexceeded. Product advertises100 effects;older2013 manual specifiesG1Xon80. Published category subtotals **11 dynamics/filter+12 drive+22 amp+16 modulation/SFX+14 delay/reverb=75;five pedal effects make80**, matching manuals. Both official_0 and_2 manuals retain80. Advertised100 remains unresolved;nofirmware explanation established. | [Product][G1XO-P];[Manual pp10,31][G1XO-M] |
 | Factory / user memory | **100 writable locations,10×10**;Auto Save optional,Pre Select retains current sound while browsing. Auto Save defaultsON atfactory. Unsaved patch cannotbe swapped. Factory-filled subset pending. | [Zoom product][G1XO-P] |
-| Synth / acoustic | Product describes acoustic simulation. Synth-specific algorithms pending exactlist. | [Zoom product][G1XO-P] |
+| Synth / acoustic | **Aco.Sim** explicitly changes electric-guitar tone toward acoustic,withTop,Body andLevel parameters. Synth capability remains unverified;noSynth match in2014list isnot proof of absence. | [Official effects list p6][G1XO-F] |
 | I/O | Mono6.35mm input,stereo3.5mm AUX,shared stereo6.35mm output/headphones;USB andDC. Complete pp4–5 panel inventory has no MIDI,send/return orexternalEXP. AUX bypasses effects directly tooutput. | [Product][G1XO-P];[Manual pp4–5][G1XO-M] |
 | Power / battery / USB | **9V DC center-negative,500mA AD-16 supply;4AA alkaline/NiMH;USB power**. 20h alkaline;manual qualifies backlightoff. Measured draw unknown. | [Product][G1XO-P];[2013 manual][G1XO-M] |
 | IR / NAM / capture | UserIR,native/converted NAM andcapture imports unverified. | Unresolved |
 | Editor / software | USB firmware update;Windows/Mac1.21 updaters listed. Editor platforms/audio/MIDI pending;updater isnot editor. | [Zoom product downloads][G1XO-P] |
-| Looper / drums / live | **30s looper,up to64beats;68 rhythms**,usable together. Overdub supported. Changing loop time ortempo **erases recorded loop**. Rhythm playback adds pre-count. Storage/trails pending. | [Product][G1XO-P];[Manual pp24–25][G1XO-M] |
+| Looper / drums / live | **30s looper,up to64beats;68 rhythms**,usable together. Overdub supported. Changing loop time ortempo **erases recorded loop**. Rhythm playback adds pre-count. 2014 listdocuments Tail for selectedreverbs:effect-off decay cancontinue. This doesnot establish trails acrosspatchchanges. Persistentloopstorage pending. | [Product][G1XO-P];[Manual pp24–25][G1XO-M];[Effects pp15–16][G1XO-F] |
 
 ### Separate IDR hardware offers
 
@@ -1536,3 +1536,11 @@ Broken Mati total item729907257/23651477914 atRp250,000,Habis isnotworking-unit 
 [G1XO-P]: https://www.zoom.co.jp/node/53
 [G1XO-M]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf
 [G1XO-C]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1xon/
+
+### Effect-library revision qualifications
+
+Official2014 list Z2I-2059-01 names five pedal algorithms:PedalVx,PedalCry,WAH100,PDL Pitch,PDL MnPit;the last is expressly for single-note playing. PDL pitch isnot synthesis. Support page lists only Windows/Mac1.21 firmware andmanual/effect-list downloads;that doesnot prove editor absence or USBaudio/MIDI support. No updater was downloaded orrun.
+
+[G1XO-F]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf
+[G1XO-M2]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1on_G1Xon_2.pdf
+[G1XO-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1xon/g1xon-support/
