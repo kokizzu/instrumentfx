@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon PERFORM-VE primary follow-up",
-    "task": "PERFORM-VE category counts and AUX/Morph contradictions saved. Remaining fullcontrolinventory,expression/display/manufacturerpowercorroboration,IR/NAM andlooperlength unresolved. Next freshShopeediscovery bybrand/series;do notclaimVEfullyverified.",
-    "next_models": [],
-    "after_queue": "FreshShopeediscovery remainsnecessary."
+    "model": "VOX StompLab 2G",
+    "task": "Fresh exactShopee leads saved. Research exact2G officialmanual/product,allrequiredfields;addcanonicalVOX profile and4comparisonrows thencommit beforeG1Xon. RetainPERFORMVE unresolvedfields.",
+    "next_models": [
+      "Zoom G1Xon"
+    ],
+    "after_queue": "FreshShopeediscovery remainsnecessary;ME50B exactlead notyetestablished."
   },
   "new_findings": [
     {
@@ -47243,5 +47245,79 @@
     ],
     "added_active_models": 0,
     "coverage_complete": false
+  },
+  "discovery_stomplab2g_g1xon": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"StompLab\" \"2G\"",
+      "site:shopee.co.id \"Zoom\" \"G1Xon\"",
+      "site:shopee.co.id \"BOSS\" \"ME-50B\""
+    ],
+    "scope": "Fresh indexed hardware discovery; no market completeness or live stock claim. ME50B query returned no exact item in combined results; absence not market absence.",
+    "leads": [
+      {
+        "model": "VOX StompLab 2G",
+        "url": "https://shopee.co.id/pedal-efek-gitar-multi-effect-digital-VOX-stomplab-2G-i.33360096.27573361035",
+        "shop": "33360096",
+        "item": "27573361035",
+        "seller": "maju jaya gallery",
+        "region": "Kab. Malang",
+        "idr": 1725000,
+        "stock": "Habis in directly opened cached HTML",
+        "condition": "unknown",
+        "variant_bundle": "unknown",
+        "voucher": "Rp10000 late-delivery compensation;not purchase discount",
+        "access": "Search 2month cache;direct open 1month cache. Aug19–22 versusSep9–10 delivery dates stale.",
+        "qualified_used_new": false
+      },
+      {
+        "model": "VOX StompLab 2G",
+        "url": "https://shopee.co.id/EFEK-DIGITAL-VOX-STOMPLAB-2G-MULTIEFEK-STOMP-LAB-IIG-MULTI-EFEK-II-2-G-i.171167271.23686028621",
+        "shop": "171167271",
+        "item": "23686028621",
+        "seller": "SadewaMusikAudio",
+        "region": "Kab. Bantul",
+        "idr_range": [
+          1000000,
+          1100000
+        ],
+        "stock": "Habis indexed",
+        "condition": "unknown",
+        "variant_bundle": "Lengkap/Unit Only labels;price mapping unresolved",
+        "access": "Lastweek searchindex only",
+        "qualified_used_new": false
+      },
+      {
+        "model": "Zoom G1Xon",
+        "url": "https://shopee.co.id/Efek-Gitar-Zoom-G1xon-i.703817770.23482842628",
+        "shop": "703817770",
+        "item": "23482842628",
+        "seller": "Hope Music",
+        "region": "Kota Bandung",
+        "search_idr_range": [
+          1499000,
+          1648000
+        ],
+        "opened_idr": 1299000,
+        "opened_crossed_idr": 1599000,
+        "stock": "Not established live;no Habis marker in cached excerpt is not confirmation",
+        "condition": "unknown",
+        "variant_bundle": "3variations;identities andprice mapping unresolved",
+        "voucher": "Displayed19% may be cached promotion;Rp10000latearrival notpurchasevoucher",
+        "access": "Search2months vsdirect2weeks;Aug14–16 vsOct1–2 delivery stale;price conflict preserved",
+        "qualified_used_new": false
+      }
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/efek-zoom-G1xon-%28-Mati-total%29-i.729907257.23651477914",
+        "reason": "Mati total broken hardware,Rp250000,Habis;notworkingused benchmark"
+      },
+      {
+        "url": "https://shopee.co.id/Zoom-G1xon-efek-gitaR-zoom-G1on-i.58780289.15654839389",
+        "reason": "Title mixesG1Xon/G1on;variantidentity unresolved"
+      }
+    ],
+    "technical_next": "Verify StompLab2G with exact officialmanual/product;do notborrow1G/2B. ThenG1Xon distinctfromG1on. Noactivecountchange untilprofile."
   }
 }
