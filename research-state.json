@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-8 primary follow-up",
-    "task": "GT-8 indexed official manual resolves controls17/7/31,toe,bank partitions/write restrictions and conditional Smooth tails. Next inspect category library, Hold delay and synth/acoustic distinctions via primary/indexed manual sources. FullPDF size limit documented; do not repeat downloads. Commit before another model.",
+    "task": "GT-8 Hold delay,22/33 FX choice partition,synth/acoustic distinctions saved with manufacturer transcript identity. Next verify remaining category counts and MIDI/software restrictions; fresh Shopee discovery afterward. Do not infer GT-10-style phrase-loop duration or freely interchangeable FX slots. Commit before another model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2301,6 +2301,27 @@
           "category/synth/acoustic detail",
           "imports/software",
           "qualified offers"
+        ]
+      },
+      "hold_sound_followup": {
+        "checked_date": "2026-10-17",
+        "sources": [
+          "https://manualzilla.com/doc/7445272/roland-gt-8-owner-s-manual",
+          "https://static.roland.com/assets/media/pdf/GT-8_OM.pdf"
+        ],
+        "identity": "©2004 BOSS G6047002R2;2006-07-25 booktimestamp;exactmodel/pagination/FX2 list matches official index",
+        "resolved": [
+          "Hold2.8s overdub uses DELAY;volatile and Play-screen-only",
+          "FX1common22/FX2common22+11extra33 choices",
+          "GS acoustic simulation distinct from FX2 acoustic processor",
+          "GuitarSynth andHarmonist single-note restrictions"
+        ],
+        "remaining": [
+          "other category counts",
+          "initial userfill",
+          "imports/software",
+          "visual panel",
+          "condition-qualified offers"
         ]
       }
     }

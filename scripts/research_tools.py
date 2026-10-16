@@ -290,7 +290,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-gt8':
-            message = 'research(boss): verify GT-8 controls memory and conditional patch tails'
+            message = 'research(boss): qualify GT-8 Hold delay and FX slot sound restrictions'
         if mode == 'commit-gt10':
             message = 'research(boss): qualify GT-10 preamp enumeration and drive count discrepancy'
         if mode == 'commit-me20b':

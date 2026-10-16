@@ -1854,15 +1854,17 @@ Guitar multi-effects; distinct from GT-6/GT-10. Checked2026-10-17; partial. Bass
 | Display | Backlit16-character×2-line LCD; two-character seven-segment LED. Diagonal/colour/touch unverified. | [Product][G8-P] |
 | Dimensions / mass | 515W×261D×75H mm;4.8kg. Large. | [Product][G8-P] |
 | Processing / categories | **13 simultaneous blocks**, freely ordered; **44 effect categories**, **46 COSM amps**, each with Solo variation. Detailed category totals/counting basis pending. | [Product][G8-P] |
+| FX category choices | **FX-1:22 common choices; FX-2:the same22 +11 additional =33**. FX-2-only: Harmonist, Pitch Shifter, Pedal Bend, Octave, Rotary,2×2 Chorus, Auto Riff, Guitar Synth, Acoustic Processor, Sound Hold, Sub Delay. Same common type may occupy both slots. Choice counts, not simultaneous blocks. | [Manual p34][G8-R]; [Indexed official p43][G8-M] |
 | Factory / user memory | **340 total:140 user+200 preset**. User banks1–35; read-only preset banks36–85; four patches/bank. Edited presets save into user slots. Write required to retain knob edits. Initial user-bank fill pending. | [Product][G8-P]; [Indexed manual pp16–17][G8-M] |
-| Synth / acoustic | Monophonic Wave Synth; acoustic processor and sitar. Electric-to-acoustic simulation details pending. | [Product][G8-P] |
+| Synth / acoustic | Wave Synth plus **FX-2 Guitar Synth**, which requires single notes, muted unused strings and clear attacks. **GS acoustic simulation yes**: single-coil/humbucker/piezo-to-acoustic choices; separate FX-2 Acoustic Processor. Harmonist also requires single-note input. | [Product][G8-P]; [Indexed manual pp43,47][G8-M]; [Manual transcript p36][G8-R] |
 | I/O | INPUT;L/MONO/R OUTPUT;PHONES;SEND/RETURN;coaxial DIGITAL OUT;AMP CONTROL;SUB EXP/SUB CTL1,2;MIDI IN/OUT;AC-adapter input. **No USB in complete connector inventory.** | [Product][G8-P] |
 | Analog conversion | 24-bit+AF A/D;24-bit D/A;44.1kHz;≥100dB IHF-A dynamic range. | [Product][G8-P] |
 | Power / battery / USB | **14V AC,650mA; BRC-series adapter**. AC supply: DC centre polarity is inapplicable. Battery operation unverified; no USB connector. Do not substitute GT-10’s9V DC supply. | [Product][G8-P] |
 | IR / NAM / capture | Import capabilities unverified. Factory COSM does not establish loading. | Unresolved |
 | Editor / platforms | Official support lists custom patches; full editor/platform compatibility unverified. MIDI data transfer is distinct from USB audio. | [Product][G8-P] |
 | Patch switching / live | Smooth mode carries delay/reverb decay only with matching delay/reverb types and effect-chain order; other settings may prevent the desired result. Switching may be delayed. Bank selection normally waits for a number pedal; Bank Change mode can alter this. | [Indexed manual pp16,71][G8-M] |
-| Routing / live | Dual amp channels layer/switch with picking dynamics or expression crossfade; independent external loop. Looper/drums/scenes unverified; conditional tails described above. | [Product][G8-P] |
+| Looper / Hold delay | **2.8s maximum**, overdubbing; consumes DELAY’s Hold type. Works only in Play screen. Wait2.8s after selecting Hold. Current number pedal controls it; Manual mode uses the assigned delay pedal. Recording erased by playback stop, type/patch change or power-off. CTL/external Hold Delay Stop returns immediately to standby. | [Manufacturer manual pp31–32][G8-R] |
+| Routing / live | Dual amp channels layer/switch with picking dynamics or expression crossfade; independent external loop. Hold looping qualified below; drums/scenes unverified; conditional tails described above. | [Product][G8-P] |
 
 ### Separate IDR hardware offers
 
@@ -1884,3 +1886,7 @@ Other mixed GT8/GT10 and accessory results do not establish this offer. GT-10B a
 [G8-P]: https://www.boss.info/global/products/gt-8/
 
 [G8-M]: https://static.roland.com/assets/media/pdf/GT-8_OM.pdf
+
+[G8-R]: https://manualzilla.com/doc/7445272/roland-gt-8-owner-s-manual
+
+Transcript identity: GT-8 Guitar Effects Processor Owner’s Manual ©2004 BOSS, G6047002R2; book timestamp2006-07-25. Model/pagination and FX-2 list match indexed official manual. Manufacturer-authored transcript used, not mirror-generated FAQs; no full-file hash or visual inspection claimed.
