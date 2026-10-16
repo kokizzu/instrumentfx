@@ -16,9 +16,10 @@ Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product
 | Dimensions / weight / size | Published L×W×H:11.5×8.5×2in;converted 292.1×215.9×50.8mm without relabeling L/W;4.12lb≈1.87kg. Large footprint. | [RPXP-M][RPXP-M] p114 |
 | I/O | Quarter-inch TS guitar input;2 quarter-inch unbalanced outputs;3.5 mm stereo AUX;3.5 mm stereo phones;USB-B;CONTROL IN for FS3X;DC power. CONTROL IN socket format still unverified. No FX loop/XLR/DIN MIDI established. | [RPXP-P][RPXP-P] [RPXP-M][RPXP-M] pp49,114 |
 | Power / current / USB / battery | 9VDC,300mA,2.7W;center pin GND / outer sleeve positive. PS0913DC-01 US/JA/EU; -02 AU/UK. These are manufacturer power requirements, not measured idle draw. Battery and USB bus operation unverified. | [RPXP-M][RPXP-M] p114 |
-| USB audio / MIDI | USB-B,USB 1.1 full speed / USB 2 compatible;44.1 kHz 16/24-bit recording according to host setup. USB MIDI capability/channel routing unverified. | [RPXP-M][RPXP-M] p114 |
+| USB audio / MIDI | USB-B,USB 1.1 full speed / USB 2 compatible;44.1 kHz 16/24-bit recording according to host setup. USB RECORD LVL adjusts the computer recording feed from −12 to +24 dB. USB PLAY MIX balances processed RP audio against computer playback; center USB:RP is equal mix. Both controls require an active USB connection. USB MIDI and exact channel routing remain unverified. | [RPXP-M][RPXP-M] pp46–47,114 |
 | IR / NAM / capture | User IR, native NAM, converted NAM and proprietary capture import not established; factory cab models alone prove none. | Unresolved |
 | Editor / drivers | Nexus Windows 1.0.2 / Mac OS X 1.0.1 editor/librarian;manufacturer warns Mac 10.15 Catalina unsupported. Current OS compatibility, drivers and updaters need separate verification. | [RPXP-SW][RPXP-SW] [RPXP-P][RPXP-P] |
+| Output routing / monitoring | OUTPUT MODE selects mono or stereo. For mixer/full-range speakers, manual directs OUTPUT TO=MIXER; stereo additionally requires OUTPUT MODE=STEREO. Monitoring mix is separate from USB recording level. | [RPXP-Q][RPXP-Q] p1; [RPXP-M][RPXP-M] pp12,44–47 |
 | Looper / drums / live / routing | 40 s looper, 60 drum patterns; Sound Check loops before effects for auditioning. Preset/Stomp/Bank footswitch modes. Looper and drums cannot run together; clear any recorded loop before enabling drums. Footswitch3 arms recording, playing starts capture; further presses set loop/overdub. Double-tap stops; hold2s while stopped clears. Preset changes preserve the recorded loop sound. Undo, power-off persistence, trails and scenes remain unresolved. | [RPXP-P][RPXP-P] [RPXP-M][RPXP-M] pp5,28–30 |
 
 ### RP360XP — separate IDR asking-price evidence
@@ -34,3 +35,4 @@ Remaining:display,category counts/count conflicts,dedicated synth,CONTROL IN for
 [RPXP-M]: https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf
 [RPXP-SW]: https://digitech.com/software-downloads/
 [RPXP-MM]: https://manualmachine.com/digitech/rp360/1256376-user-manual/
+[RPXP-Q]: https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Quick_Start_Guide_5036028-A.pdf

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Cross-brand discovery after DigiTech RP360XP",
-    "task": "RP360XP ten-effect manual ceiling and acoustic simulations saved with source/revision qualifications. Continue unresolved fields or fresh Shopee discovery;commit eachmodel before next.",
+    "task": "RP360XP USB record/monitor controls and output-mode requirements saved;continue unresolved primaryfields orfreshShopee discovery;commit eachmodel before next.",
     "next_models": [],
     "after_queue": "Research remains incomplete;do notcountRP360withoutownprofile."
   },
@@ -1318,7 +1318,8 @@
         "https://digitech.com/dp/rp360-xp/",
         "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf",
         "https://digitech.com/software-downloads/",
-        "https://manualmachine.com/digitech/rp360/1256376-user-manual/"
+        "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+        "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Quick_Start_Guide_5036028-A.pdf"
       ],
       "offers": [
         {
@@ -1385,6 +1386,22 @@
           "revision_limit": "Mirror retrieval truncated atprinted96;finalrevisionimprintnotexposed;do not inferfirmware"
         },
         "remaining": "Dedicated synth,categorysubtotals andfirmwarebasis stillunresolved"
+      },
+      "usb_routing_followup": {
+        "checked_date": "2026-10-17",
+        "manual": "5041674-B pp12,44–47",
+        "quickstart": "5036028-A p1",
+        "resolved": [
+          "USB recording level −12 to +24dB",
+          "USB monitoring mix RP processed/computer playback;equal center;USB connection required",
+          "Mono/stereo output selection;Mixer output target for full-range speakers"
+        ],
+        "remaining": [
+          "Exact USB audio channelrouting",
+          "USB MIDI",
+          "USB bus power",
+          "current driver/OS compatibility"
+        ]
       }
     }
   ],

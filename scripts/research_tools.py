@@ -280,7 +280,7 @@ def main():
         if mode == 'commit-ms60b':
             message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-rp360xp':
-            message = 'research(digitech): verify RP360XP chain ceiling and acoustic simulation limits'
+            message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-me70':
             message = 'research(boss): add ME-70 with own specifications and qualified Shopee lead'
         if mode == 'commit-me80':
