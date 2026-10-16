@@ -477,3 +477,11 @@ consolidation-apply-nano-cortex:
 	python3 scripts/consolidation_tools.py apply nano-cortex
 consolidation-commit-nano-cortex:
 	python3 scripts/consolidation_tools.py commit nano-cortex
+
+.PHONY: consolidation-plan-ame-100 consolidation-apply-ame-100 consolidation-commit-ame-100
+consolidation-plan-ame-100:
+	python3 scripts/consolidation_tools.py plan ame-100
+consolidation-apply-ame-100:
+	python3 scripts/consolidation_tools.py apply ame-100
+consolidation-commit-ame-100:
+	python3 scripts/consolidation_tools.py commit ame-100

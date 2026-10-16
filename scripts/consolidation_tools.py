@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'ame-100': ('AME-100', 'effects/findings/2026-10-15-audota-ame-100.md'),
     'nano-cortex': ('Nano Cortex', 'effects/advanced-modelers.md'),
     'tonex-pedal': ('TONEX Pedal', 'effects/advanced-modelers.md'),
     'tonex-one': ('TONEX ONE', 'effects/advanced-modelers.md'),
@@ -451,7 +452,61 @@ def plan_nano_cortex():
     print('Preview Nano Cortex exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+
+def plan_ame100():
+    research_tools.identity()
+    model, source_path = MODELS['ame-100']
+    brand_file = 'AUDOTA.md'
+    assert not (ROOT/brand_file).exists()
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['Audota::AME-100']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'AUDOTA-AME-100'
+    body, refs = preserved_body(source, prefix)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/audota.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**2026-10-15:') or p.startswith('K/F/B=') or p.startswith('A display icon') or p.startswith('No guitar model') or p.startswith('All are datedlisted') or p.startswith('Full findingreferences')]
+    section = '# Audota multi-effects\n\nStandard AME-100 is consolidated below. Other recorded Audota models still need their complete root-brand merge. Research remains partial.\n\n## AME-100\n\nConsolidated **2026-10-17**. The complete original finding retains its2026-10-15 date, contradictions and historical next-model notes. Current cursor is in research-state.json. AME-100 ownership does not establish AVE-100 ownership.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical comparison context below includes superseded catalogue counts; these are provenance, not current totals.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nSources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/audota.md). Neither legacy source nor incoming link was removed.\n\n### Current AME-100 comparison fields\n\n| Field | Evidence and limitations |\n|---|---|\n'
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'] == 'Follow-up technical correction':
+            continue
+        value = f['value']
+        if f['field'] == 'NAM':
+            value += ' Reopened2026-10-17: official importer explicitly confirms **NAM profile plus IR simultaneously**. This does not establish unrestricted native NAM, duplicate capture blocks or total concurrency. [U1]'
+        if f['field'] == 'Editing':
+            value += ' Official software index reopened2026-10-17 still lists Studio1.2.3 Windows/macOS and Android1.3.0. V1.2.3 announcement adds PC preset import/export/sharing and backup/restore. [D,U1]'
+        section += '| '+f['field']+' | '+value+' |\n'
+    section += '\n### Current source access and remaining limits\n\nRechecked **2026-10-17**: [Official importer V1.2.3 announcement,2026-09-02](https://shop.warwick.de/en/Blog/AUDOTA-AME-100) was fully accessible; it additionally reports optimization of built-in amp/cab effects and bug fixes, without a model-by-model change list. NAM conversion architecture restrictions remain unverified. [Official software index](https://en.audota.com/EN_software.html) and [manual index](https://en.audota.com/EN_manuals.html) reopened; the latter names AME-100 Manual_EN but did not expose a manual-file link in extracted text. No file was downloaded or installed.\n\nThe manufacturer AME100EN product page timed out on two attempts. September11 importer page reopened without usable body text, so the historical80/200 preset conflict remains qualified by its original evidence date rather than newly resolved. Touch, precise concurrent limit/category breakdown, USB channels, driver and NAM architecture limits remain unknown. Targeted Shopee Indonesia searches for Audota AME-100/AME100 yielded no exact indexed hardware offer; used/new IDR, seller, condition, stock, bundle, warranty region, vouchers and delivered charges remain unverified. No foreign price was converted.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file] = [model]
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['Audota AME-100'],model_name=model,brand='Audota',destination=brand_file+'#ame-100',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete finding and supporting fields retained; partial technical verification. NAM+IR concurrency and PC backup/sharing rechecked; no exact Shopee offer.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Audota AME-200 — complete legacy consolidation',task='Read complete AME-200 finding and supporting Audota comparison. Merge into existing AUDOTA.md without borrowing Pro power/battery/expression specs. Preserve220/221 and supply-current conflicts, all prices/URLs and firmware restrictions. Verify exact primary and Shopee evidence; commit before next model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [AUDOTA.md](AUDOTA.md) |AME-100 |\n| [JOYO.md](JOYO.md)')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=None
+    payload=dict(model_id='ame-100',model=model,inputs=inputs,outputs=outputs,new_files=[brand_file],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview AME-100 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'ame-100':
+        return plan_ame100()
     if model_id == 'nano-cortex':
         return plan_nano_cortex()
     if model_id == 'tonex-pedal':
@@ -681,10 +736,13 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'ame-100':
+        print(research_tools.git('commit', '-m', 'research(audota): consolidate AME-100 and verify NAM IR concurrency'))
+        return
     if model_id == 'nano-cortex':
         print(research_tools.git('commit', '-m', 'research(neuraldsp): consolidate Nano Cortex and document bass capability'))
         return
