@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "PERFORM comparison cutoff audit",
-    "task": "PERFORM-V table now includes existing conflicts, mic remote rules and qualified offer. Review PERFORM-VK next; avoid moving historical duplicate tables into current comparisons.",
+    "model": "PERFORM-VG comparison cutoff audit",
+    "task": "PERFORM-V/VK corrected. Review VG next for omitted current operating details and exact-offer qualifications; retain conflicts and avoid historical duplication.",
     "next_models": [],
-    "after_queue": "Continue source verification and exact hardware discovery."
+    "after_queue": "Resume primary evidence and exact hardware discovery after audit."
   },
   "new_findings": [
     {
@@ -4109,6 +4109,13 @@
         "https://www.tchelicon.com/en/products/0726-AAG",
         "https://www.bhphotovideo.com/lit_files/1188880.pdf"
       ]
+    },
+    {
+      "model": "TC-Helicon PERFORM-VK",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Lossless comparison cutoff correction: full12-entry harmony choices, USB channel mapping ambiguities, TRS/XLR source conflict, HIT/brightness qualifications and DealerJaya sold-out ask now reach ALL-VOCAL. Original detailed maps/source identity and service warnings retained; no new verification claim.",
+      "source": "TC-HELICON.md#perform-vk"
     }
   ],
   "consolidation_and_price_findings": [
@@ -40075,7 +40082,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume PERFORM comparison cutoff audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume PERFORM-VG comparison cutoff audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

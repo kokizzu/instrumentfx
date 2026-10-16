@@ -317,7 +317,7 @@ def main():
         if mode == 'commit-perform-vg':
             message = 'research(tc-helicon): verify PERFORM-VG mic control and connector details'
         if mode == 'commit-perform-vk':
-            message = 'research(tc-helicon): preserve PERFORM-VK service and MIDI filter qualifications'
+            message = 'research(tc-helicon): restore PERFORM-VK harmony routing and offer comparison coverage'
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): restore PERFORM-V conflicts remote rules and offer in comparisons'
         if mode == 'commit-dapper-indie':
