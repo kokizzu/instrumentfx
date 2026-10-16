@@ -146,18 +146,18 @@ Guitar multi-effects; distinct from AX3G, AX100G and AX5B. Checked 2026-10-17; p
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in volume/wah/parameter pedal with toe switch; external expression unsupported by documented rear inventory. Quick Assign. | [Manual][AX5-M] pp5–6 |
+| Expression | Built-in volume/wah/parameter pedal with toe switch; external expression unsupported by documented rear inventory. Quick Assign. WAH uses the PRE FX slot. WAH/FX PARAM does not alter sound after program recall until the pedal moves. | [Manual][AX5-M] pp5–6 |
 | K/F/B | **2 rotary / 2 main footswitches / 3 buttons**, plus toe: function selector, value; Program Up/Down; Write, Cancel, pedal setting. Text-derived inventory. | [Manual][AX5-M] pp5–6 |
 | Display | Program/value display; published diagonal, color and touch unverified. | [Manual][AX5-M] p5 |
 | Dimensions / mass | Manual: **249 W ×143 D ×44 H mm;650 g**. German specifications: **178×142×43 mm;340 g**. Unresolved source conflict; neither substituted silently. | [Manual][AX5-M] p13; [regional specifications][AX5-S] |
-| Processing / category choices | Up to **six effects including NR, plus volume pedal**. Manual **58** types versus German **57**. Listed categories: Pre 11 (10+pedal wah), Drive/Amp16, Cab10, Mod10, Delay5, Reverb5, NR1. Delay/reverb share an edit category. Exact routing limitations remain partial. | [Manual][AX5-M] pp5,13; [regional features][AX5-F] |
-| Factory / user memory | **80 total:40 user +40 presets**. User slots01–40;presets41–80. Factory reload overwrites user work. | [Manual][AX5-M] pp7,12–13 |
+| Processing / category choices | Up to **six effects including NR, plus volume pedal**. Manual **58** types versus German **57**. Listed categories: Pre 11 (10+pedal wah), Drive/Amp16, Cab10, Mod10, Delay5, Reverb5, NR1. Delay/reverb share an edit category. Cabinet processing works only while Drive/Amp is on; changing Drive/Amp selects its associated cabinet. No independent cabinet-only path established. Exact signal order remains unverified. | [Manual][AX5-M] pp5,13; [regional features][AX5-F] |
+| Factory / user memory | **80 total:40 user +40 presets**. User slots01–40;presets41–80. Factory reload overwrites user work. Edits require an explicit write; switching programs or powering off loses unsaved changes. | [Manual][AX5-M] pp7,12–13 |
 | Synth / acoustic | AC SIM and DRONE are listed; DRONE provides a sitar-like drone. Dedicated synth architecture remains unverified. | [Regional features][AX5-F] |
 | I/O | **¼-inch mono input;¼-inch stereo TRS output shared with headphones;DC input**. Rear inventory lists no USB/MIDI or external-control socket; no USB audio established. | [Manual][AX5-M] pp6,13 |
-| Power / battery / USB | **9 V adapter optional;four alkaline AA,about8h**. Battery power follows input-cable insertion/removal. Polarity,current and USB-powered operation unverified. | [Manual][AX5-M] pp6–7,13 |
+| Power / battery / USB | **9 V adapter optional;four alkaline AA,about8h**. Battery power follows input-cable insertion/removal; a **mono input cable is required** (stereo will not power it on). Polarity,current and USB-powered operation unverified. | [Manual][AX5-M] pp6–7,13 |
 | IR / NAM / capture | Factory cabinets do not prove user IR,native/converted NAM or capture import;unverified. | Unresolved |
 | Editor / software | Editor/platform support unverified. Onboard editing documented. | [Regional features][AX5-F] |
-| Looper / drums / live | Delay carries over only with matching type/time;reverb with matching type. Bypass/muted tuner. Looper,drums,scenes unverified. | [Manual][AX5-M] p5 |
+| Looper / drums / live | Delay carries over only with matching type/time;reverb with matching type. Press both program switches for bypass, hold about one second for mute; either switch exits without changing programs. Tuner calibration 438–445 Hz resets to440 Hz at power-up. Looper,drums,scenes unverified. | [Manual][AX5-M] p5 |
 
 ### Separate IDR hardware offers
 
@@ -168,7 +168,11 @@ Guitar multi-effects; distinct from AX3G, AX100G and AX5B. Checked 2026-10-17; p
 
 German regional specifications corroborate the 80-slot split,battery supply,tuner and converter rates,but their smaller body/mass disagree with the original AX5G manual. Regional 57 versus manual58 is retained;adding pedal wah may explain arithmetic but is not a verified revision history. Manufacturer effect-type list includes acoustic and drone processing;these do not establish bass suitability. No file downloaded or physical panel inspected.
 
-[AX5-M]: https://cdn.korg.com/us/support/download/files/fbe8655e2b64942cfb5073f5a39aa69f.pdf
+[AX5-M]: https://cdn.korg.com/us/support/download/files/fbe8655e2b64942cfb5073f5a39aa69f.pdf?response-content-disposition=inline%3Bfilename%3DAX5G_OM_EFG2.pdf&response-content-type=application%2Fpdf%3B
 [AX5-S]: https://www.korg.com/de/products/effects/ax5g/page_2.php
 [AX5-F]: https://www.korg.com/de/products/effects/ax5g/page_1.php
 [AX5-O]: https://shopee.co.id/Korg-AX5G-Guitar-Multi-Effects-Processor-Secondhand-Sangat-Mulus-i.23465113.27600312475
+
+### Manual follow-up
+
+Checked the English operating sections as web-rendered text: cabinet/drive dependency, pedal recall behavior, explicit write requirement and mono-cable battery switching are model-specific. The bare CDN path failed while the query-bearing official manual URL above was readable; retain that exact working link. Polarity/current and published screen details remain unresolved. No diagram-derived signal order or physical inspection is claimed.

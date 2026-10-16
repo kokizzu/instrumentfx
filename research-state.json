@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX5G follow-up",
-    "task": "Initial model with manual-backed controls/memory/I/O and explicit regional conflicts. Resolve power and routing gaps from primary documentation before treating complete.",
+    "model": "AX5G remaining evidence / fresh discovery",
+    "task": "Manual operational gaps reduced; power current/polarity and screen details remain. Do not infer missing negative capabilities or repeat bare CDN fetch.",
     "next_models": [],
-    "after_queue": "Sonicake Twiggy Blues/BOOM Ave exact searches returned no results; discover another series when appropriate."
+    "after_queue": "Continue primary-source gaps or exact Shopee discovery in another eligible series."
   },
   "new_findings": [
     {
@@ -4068,6 +4068,14 @@
         "Looper/drums/scenes",
         "Current used/new offers"
       ]
+    },
+    {
+      "model": "Korg AX5G",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://cdn.korg.com/us/support/download/files/fbe8655e2b64942cfb5073f5a39aa69f.pdf?response-content-disposition=inline%3Bfilename%3DAX5G_OM_EFG2.pdf&response-content-type=application%2Fpdf%3B",
+      "finding": "Cabinet requires Drive/Amp; wah takes PRE FX; expression recall waits for movement; unsaved edits are lost; battery requires mono input cable. Added bypass/mute and tuner calibration behavior. Replaced inaccessible bare CDN citation with exact readable official query URL.",
+      "remaining": "Current/polarity, screen details, exact diagram routing, software/imports and live/new offers."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40034,7 +40042,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX5G follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume AX5G remaining evidence / fresh discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

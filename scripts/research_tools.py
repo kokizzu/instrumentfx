@@ -325,7 +325,7 @@ def main():
         if mode == 'commit-dapper-dark-mini':
             message = 'research(valeton): add separate Dark Mini with indexed-manual qualifications'
         if mode == 'commit-ax5g':
-            message = 'research(korg): add AX5G with original manual and retained regional conflicts'
+            message = 'research(korg): qualify AX5G cabinet dependencies pedal recall and battery switching'
         if mode == 'commit-rockstage':
             message = 'research(sonicake): qualify RockStage regional corroboration and manual limits'
         if mode == 'commit-blackhammer':
