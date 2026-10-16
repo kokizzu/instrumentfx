@@ -441,7 +441,7 @@ Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026
 | Processing / category choices | Vocal Harmony/Reverb/Echo,Adaptive Tone EQ/de-essing/gate/compression,pitch correction,anti-feedback. Guitar BodyRez,Chorus,Echo,Reverb. Reverb style shared across voice/guitar,levels separate;echo styles/levels independent. **13 Harmony choices;3 each Reverb/Echo/Chorus;8 Tone styles** listed below. Full simultaneous accounting pending. | [Official manual p4][PVG-O];[manufacturer-authored Rev1.0 pp5–6][PVG-M] |
 | Factory / user memory | Total/user/factory preset accounting unverified;do not transfer V/VK three-preset behavior. | Unresolved |
 | Synth / acoustic | BodyRez treats acoustic pickup sound;not proof of electric-to-acoustic simulation. Instrument synth and dedicated acoustic simulation unverified. | [Manual p4][PVG-O] |
-| I/O | Guitar IN/THRU,MIC OUT and headphones documented;full connector inventory pending. | [Manual p4][PVG-O] |
+| I/O | Guitar IN/THRU,**XLR MIC OUT**,headphones and **1/8-inch AUX** documented. Switch-3/6 uses TRS cable. Full mic-input/USB/power connector inventory pending. | [Manual pp4,12][PVG-O];[Manual p13][PVG-M] |
 | Power / battery / USB | Official QSG diagram labels supply **12V1A**;supply rating is not measured current draw. DC/polarity,battery and USB power unverified. | [Official QSG v3.0 pp14–15][PVG-Q] |
 | IR / NAM / capture | IR,native/converted NAM and capture import unverified. | Unresolved |
 | Editor / software | Full editor/platforms,USB audio/MIDI and update utilities unverified;do not inherit VK interface. | Unresolved |
@@ -491,3 +491,9 @@ Official QSG v3.0,2024copyright,direct PDF opened2026-10-17;supersedes earlier d
 
 [PVG-Q]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DED/QSG_TH_0726-ABR_PERFORM-VG_WW.pdf
 [PVG-PANEL]: https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd.pdf
+
+### Microphone control modes
+
+Mic Control requires +48V. Hold48V with guitar Chorus to disable,with guitar Reverb for MP-75,or guitar Echo for MP-76. MP-75 defaults to Harmony and is reassignable;MP-76 defaults top Harmony,left vocal Echo,right vocal Reverb,bottom Talk. MP-75 mode on MP-76 enables only the top button. Remote-accessible functions include harmony/styles,reverb,echo,tap and Talk. [Official user manual p12][PVG-O]. These microphone switches do not increase the processor’s K/F/B count.
+
+USB audio and preset-bank claims found in retailer/mirror summaries remain unverified by manufacturer technical documentation. Service front-test and mainboard-schematic leads were identified but direct access failed;no circuitry-derived claims or device tests were made. The original gaps remain open rather than being converted to No.

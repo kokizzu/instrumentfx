@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon PERFORM-VG primary follow-up",
-    "task": "PERFORM-VG textderived1/0/14 andofficialQSGv3.0 12V1Asupplylabel saved;gain setup wording conflict retained. Next resolve physicalports,memory,USBsoftware anddimensions/power;no sibling assumptions. Commit before freshShopeediscovery.",
+    "model": "Fresh Shopee discovery",
+    "task": "PERFORM-VG initial andmanualfollowups committed;remainingtechnicalgaps retained explicitly. Saved new-modelqueueempty. Search Shopee Indonesia bybrand/series for eligible unrecordedbass/guitar/vocal hardware,then verifymanufacturer evidence andcommit permodel. Do not repeatV/VK/VG orconvertunknownUSB/presetfields toNo.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery remains necessary."
+    "after_queue": "Continue fresh Shopee discovery;coverage not exhaustive."
   },
   "new_findings": [
     {
@@ -3058,6 +3058,31 @@
           "Dimensionsmass",
           "MemoryUSBsoftwareimports",
           "Independentvisualcontrolcount"
+        ]
+      },
+      "mic_connector_followup": {
+        "checked_date": "2026-10-17",
+        "sources": [
+          "https://mediadl.musictribe.com/media/PLM/data/docs/P0DED/PERFORM-VG_M_EN.pdf",
+          "https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd"
+        ],
+        "pages": "12–13",
+        "resolved": [
+          "XLRoutput,1/8AUX,TRScontrollercable",
+          "48VrequiredMicControlandmodes",
+          "MP75Harmonydefault;MP76HarmonyEchoReverbTalk",
+          "MP75modeonMP76toponly"
+        ],
+        "unresolved_leads": [
+          "https://service-tcgroup.tcelectronic.com/files/Tech_Service/Perform_VG/Perform_VG_Front_Test.pdf",
+          "https://service-tcgroup.tcelectronic.com/files/tech_service/perform_vg/p22632-cbb_%28schematic%29_online.pdf"
+        ],
+        "remaining": [
+          "PowerDCpolaritydrawbatteryUSB",
+          "Dimensionsmass",
+          "Fullconnectorinventory",
+          "PresetmemoryUSBeditorIRNAM",
+          "Visualcountverification"
         ]
       }
     }
@@ -38778,7 +38803,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-VG primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
