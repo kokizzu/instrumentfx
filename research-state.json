@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper Bass Mini MES-2 primary follow-up",
-    "task": "InitialMES2manual/productrecordsaved. Verifypanel/completeportabsence andresolveconsumption/massconflictsifprimaryrevisionavailable;thenfreshShopeediscovery.",
+    "model": "Fresh Shopee discovery after MES-2",
+    "task": "MES-2 current official English manual corroborated; power/mass conflicts retained. Search fresh eligible hardware by brand/series, including remaining Dapper variants, before revisiting image-access gaps.",
     "next_models": [],
-    "after_queue": "FreshShopeediscoverybybrand/series;do notclaimmarketcomplete."
+    "after_queue": "Continue market discovery; neither catalogue nor field verification is complete."
   },
   "new_findings": [
     {
@@ -3523,7 +3523,8 @@
       "sources": [
         "https://zh.valeton.net/download/138/dapper/16736/dapper-bass-mini_manual_en_v01_231219.pdf",
         "https://www.valeton.net/product/dapper-bass-mini/",
-        "https://shop.valeton.net/products/dapper-bass-mini"
+        "https://shop.valeton.net/products/dapper-bass-mini",
+        "https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf"
       ],
       "offers": [
         {
@@ -3572,7 +3573,13 @@
         "PowerbatteryUSB",
         "Looperdrums",
         "Condition-specificprices"
-      ]
+      ],
+      "current_manual_crosscheck": {
+        "source": "Current English product link, main manufacturer host, V01_231219",
+        "verified": "Readable text repeats 120mA/446g/197D65W42H; conflicts remain unresolved, no byte-identity claim",
+        "access": "Screenshot failed: web screenshot not enabled/content type error; official image cache miss",
+        "next": "Do not repeat failed panel access indefinitely; retain gaps and resume fresh Shopee discovery"
+      }
     }
   ],
   "consolidation_and_price_findings": [
@@ -39375,7 +39382,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Bass Mini MES-2 primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after MES-2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

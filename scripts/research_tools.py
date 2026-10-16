@@ -315,7 +315,7 @@ def main():
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): document PERFORM-V controls and microphone remote modes'
         if mode == 'commit-dapper-bass-mini':
-            message = 'research(valeton): add separate MES-2 with power and mass conflicts'
+            message = 'research(valeton): corroborate MES-2 manual and clarify comparison record'
         if mode == 'commit-dapper-bass':
             message = 'research(valeton): verify Dapper Bass controls and routing qualifications'
         if mode == 'commit-hd500':
