@@ -431,7 +431,7 @@ def main():
         if mode == 'commit-a1four':
             message = 'research(zoom): document A1 FOUR synth algorithms and additional-effect scope'
         if mode == 'commit-b3n':
-            message = 'research(zoom): resolve B3n synth algorithms and looper Undo limits'
+            message = 'research(zoom): verify B3n looper DSP costs and autosave rules'
         if mode == 'commit-g3n':
             message = 'research(zoom): resolve G3n acoustic patches rhythm memory and looper limits'
         if mode == 'commit-g5n':

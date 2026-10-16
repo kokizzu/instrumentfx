@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / remaining fields after GFX-5 controls",
-    "task": "GFX-5 text inventory9rotary5foot21buttons saved;visualpending. Avoid repeating74category/sampler/controlcountwork;continue fresh exact Shopee discovery or remainingprimarygaps.",
+    "model": "Fresh discovery / remaining gaps after B3n budget follow-up",
+    "task": "B3n looper1/2unitand7/10DSP,Rhythm8DSP,autosave rules resolved;do not repeat unchangedmanualcountwork. Continue exacthardware discovery orremainingtechnicalfields.",
     "next_models": [],
-    "after_queue": "Broaderbrands/series;rejectaccessories andunmappedmixedvariants."
+    "after_queue": "Bass searches506II/BP90/AX5Bfoundnoexactnewhardwarethispass;notunavailabilityproof."
   },
   "new_findings": [
     {
@@ -40423,7 +40423,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining fields after GFX-5 controls."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining gaps after B3n budget follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48755,6 +48755,28 @@
       "extra": "Toe push-down switch and power excluded. RearLEVEL counted among9rotary.",
       "live": "Energize excludes AUXp7;selectedpatchswitch bypass/mute>1s,pedalvolumeinbypass;tuner435–445reset440p11.",
       "remaining": "Visual/physicalcontrols,screen,currentdraw,imports/editor,currentqualifiedprices."
+    },
+    {
+      "model": "Zoom B3n",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf",
+        "https://zoomcorp.com/media/documents/E_B3n.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/",
+        "https://shopee.co.id/promo-Efek-Bass-Zoom-B3N-Zoom-B-3N-Zoom-B-3-N-%28pengganti-Zoom-B3%29-baru-diskon-i.113901415.1812968664"
+      ],
+      "chart_revision": "Z2I-2960-01;2017",
+      "dsp": {
+        "MONO_LP": 7,
+        "TwoMN_LP": 7,
+        "STEREO_LP": 10,
+        "TwoST_LP": 10,
+        "Rhythm": 8,
+        "budget": 100
+      },
+      "finding": "Manualone/twounitloopers;oneperpatch;rhythmstopspatchchange;Memorymodealonekeepsloop. Autosave/promptandSAVE/restoreconfirmed.2026BitCrush/DynaDelayadditionsnotinstalledcount.",
+      "offer": "3686000sellerclaimedbaru,monthsearchcache,shippingunavailable,directerror;notverifiednew/currentstock.",
+      "remaining": "Buttons/display,currentdraw/import/editorworkflow,USB audio,scenestails,currentqualifiedstock."
     }
   ],
   "discovery_cross_brand_bass": {

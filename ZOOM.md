@@ -1105,14 +1105,14 @@ Reviewed **2026-10-17** following fresh exact Shopee hardware discovery. Bass-fo
 | Display / dimensions | Three128×32 dot-matrix LCDs;diagonal,explicit color/mono,touch ?. **234 W ×181 D ×58 H mm;1.28kg**,medium;plug clearance extra. | [Manual,p.47](https://zoomcorp.com/media/documents/E_B3n.pdf) |
 | Processing | Up to **seven effects/amps/cabs simultaneously**,reorderable. Large effects use multiple units;**100-point DSP maximum**,effect costs differ. Seven is not a guarantee for every combination. | [Manual](https://zoomcorp.com/media/documents/E_B3n.pdf); [power chart](https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf); [product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/) |
 | Categories / choices | Product67stomp effects:19dynamics/filter,15drive/distortion,17modulation,11delay/reverb,and other effects;five amps+five cabs. Manual80types. Category wording and total scope differ;remaining categories not guessed from subtraction. Effect-sheet SFX section lists six:Bomber,StdSyn,SynTlk,Z-Syn,Defret,PH+Dist. | [SFX sheet](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf); [Product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/); [manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
-| Memory | **150 locations;76–150 empty by default** in B3n patch sheet,75 supplied. Three patches/bank. Overwrite/restore rules still need operation review;not150+75. | [Manual](https://zoomcorp.com/media/documents/E_B3n.pdf); [B3n patch list](https://zoomcorp.com/media/documents/E_B3n_patch-list.pdf) |
+| Memory | **150 locations;76–150 empty by default** in B3n patch sheet,75 supplied. Three patches/bank. AUTO SAVE saves parameter edits;when OFF,patch changes prompt save/discard. SAVE selects destination with confirmation;All Initialize restores patches/settings. Not150+75. | [Manual](https://zoomcorp.com/media/documents/E_B3n.pdf); [B3n patch list](https://zoomcorp.com/media/documents/E_B3n_patch-list.pdf); [manual pp10,19–20,26,43](https://zoomcorp.com/media/documents/E_B3n.pdf) |
 | Synth / acoustic | **Three identified synth algorithms**:StdSyn (four Sound variations),SynTlk (vowels IA/UE/UA/OA),Z-Syn (SAW/SQR waves). **Defret** is separate fretless simulation. Patch008 MJ Synth and009 JacoBass retain their original preset descriptions. Tracking/polyphony,complete current synth inventory,electric-to-acoustic and acoustic body modeling remain unverified. | [Effect sheet,p.13](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf); [Japanese sheet](https://zoomcorp.com/documents/716/J_B3n_FX-list.pdf); [B3n patch list](https://zoomcorp.com/media/documents/E_B3n_patch-list.pdf) |
 | Audio / control ports | Mono standard instrument input;stereo mini AUX;mono R output;**stereo L/MONO/PHONES combined line/headphone output**;FP02 control;USB Micro-B. Exact control wiring and full physical MIDI/loop/XLR/phantom exclusions ?. | [Manual,p.47](https://zoomcorp.com/media/documents/E_B3n.pdf) |
 | Power | **DC9V,500mA,center-negative AD-16**. Battery/USB operation not established;USB does not prove bus power. | [Manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
 | IR / NAM / capture | Built-in cabs use impulse-response modeling;third-party IR import,native NAM,converted NAM and user amp-capture loading not established. | [Manual,p.3](https://zoomcorp.com/media/documents/E_B3n.pdf) |
 | Editor / platforms | Guitar Lab Windows/macOS edits chains/patches;support lists7.3 (Windows8.1/10/11;macOS10.13–26),separate B3n firmware2.20 for Windows/Mac. Mobile editor ?. | [Product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/); [support](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/b3n-support/) |
 | USB / recording | Manual specifies **USB MIDI,Micro-B**. USB audio interface operation not established by this evidence;do not apply older B3 recording features. | [Manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
-| Looper / drums / live | **68 rhythms;mono1.5–80s/stereo1.5–40s looper**;Undo ON maxima40s/20s. MANUAL or1–64 quarter notes;changing recording time erases phrase. Undo cancels last overdub;Redo restores it. Tap synchronization,tuner/bypass/mute. Slot cost,scenes/tails remain unverified. | [Manual,p.39](https://zoomcorp.com/media/documents/E_B3n.pdf); [Product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/) |
+| Looper / drums / live | **68 rhythms;mono1.5–80s/stereo1.5–40s looper**;Undo ON maxima40s/20s. MANUAL or1–64 quarter notes;changing recording time erases phrase. Undo cancels last overdub;Redo restores it. Tap synchronization,tuner/bypass/mute. Four looper types:one-/two-unit mono/stereo,one per patch. Chart:mono7DSP,stereo10DSP,both unit layouts;Rhythm8DSP,out of100. Rhythm stops on patch change;MEMORY-mode switch alone does not interrupt looper. STOP/FINISH/FADEOUT. Scenes/tails unverified. | [Manual,pp34–40](https://zoomcorp.com/media/documents/E_B3n.pdf); [processing chart p4](https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf); [Product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/) |
 
 ### Headphone source conflict
 
@@ -1132,7 +1132,7 @@ Stock quantities,checkout availability,revision,accessories,warranty region,ship
 
 ### Remaining verification
 
-Full F/B counts,explicit display specifications,all category choices and revision totals,DSP/looper slot usage,memory overwrite,synth/acoustic architecture,complete wiring/exclusions,IR/NAM/capture workflows,power alternatives,USB audio status,looper slot/DSP cost,scenes/tails and condition-specific current offers. No sibling specifications substituted.
+Full F/B counts,explicit display specifications,all category choices and revision totals,synth/acoustic architecture,complete wiring/exclusions,IR/NAM/capture workflows,power alternatives,USB audio status,scenes/tails and condition-specific current offers. No sibling specifications substituted.
 
 ### B3n synth and looper qualifications
 
@@ -1140,7 +1140,19 @@ Checked2026-10-17 using official indexed text only;no file downloaded or image i
 
 StdSyn has Sense0–100,Sound1–4,Tone0–10 and BAL0–100. SynTlk has Decay0–100,Type IA/UE/UA/OA,Tone0–10 and BAL0–100. Z-Syn has FREQ0–10,Range0–20,Decay0–100,RESO0–20,Wave SAW/SQR,Tone0–10,BAL0–100 and VOL0–100. Defret has Sense0–30,Color1–10,Tone1–50 and VOL0–100. These controls establish named algorithms,not independently tested tracking accuracy or polyphony.
 
-Exact-model indexed searches did not establish a trustworthy looper DSP/slot cost or USB audio interface capability. Older B3 effect/recording results were excluded;remaining unknowns are not No claims.
+Earlier indexed searches did not establish looper DSP/slot costs. The follow-up below supersedes that specific unknown;USB audio remains unverified. Older B3 recording features remain excluded.
+
+### Processing-budget and offer follow-up
+
+Checked2026-10-17 using web-rendered official manual and2017processing chart,revisionZ2I-2960-01. MONO-LP/2MN-LP each7DSP;STEREO-LP/2ST-LP each10DSP;Rhythm8DSP. Manualpp36–40 separately identifies one-/two-unit layouts and their different stop/erase/undo controls. Unit occupancy and DSP points are separate limits;do not infer slots from percentages. Chart is revision-scoped,not a current installed-library inventory.
+
+Product page now announces BitCrush(February2026) and DynaDelay(April2026) through Guitar Lab. These additions do not prove all units have them installed or resolve the existing67/80total-scope discrepancy.
+
+| Condition | Additional IDR evidence and limits | Source |
+|---|---|---|
+| Seller-claimed new;unverified | **Rp3,686,000**, maylafaisha26,Jakarta Pusat;shop113901415/item1812968664. Title says baru/diskon;month-old search cache,checked2026-10-17. Shipping unavailable in preview;direct item internal error. Stock,actual condition,working state,revision,bundle,adapter,warranty,checkout/voucher unknown. Not a verified new-condition price or live inventory. | [Exact indexed hardware](https://shopee.co.id/promo-Efek-Bass-Zoom-B3N-Zoom-B-3N-Zoom-B-3-N-%28pengganti-Zoom-B3%29-baru-diskon-i.113901415.1812968664) |
+
+No dependency,software,firmware,manual or image downloaded. Physical controls and contemporary operating-system/stock behavior not tested.
 
 ## A1 FOUR
 
