@@ -52,3 +52,43 @@ Remaining: expression,published display details,full connector inventory,adapter
 
 [PS-EW]: https://www.korg.com/us/support/download/software/0/246/1464/
 [PS-EM]: https://www.korg.com/us/support/download/software/0/246/1465/
+
+## AX3000G
+
+Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass suitability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in assignable expression, with eight-point LED indicator; external/toe support unverified. | [EasyStart][AX-E] |
+| K/F/B | Separate complete rotary, footswitch and button counts unverified. | Unresolved |
+| Display | Backlit LCD; diagonal, colour depth and touch unverified. | [EasyStart][AX-E] |
+| Dimensions / mass | 500×241×72mm W×D×H pedal lowered; 100mm raised; 3.6kg. | [Manual p56][AX-M] |
+| Simultaneous effects | Seven including noise reduction; external insert additionally usable. 72 modeled variations. | [Manual p1][AX-M] |
+| Categories / choices | Manual p56: amp11, cabinet16, pedal/modulation/delay/reverb11 each, NR1. EasyStart instead says drive/amp16 and cabinet11; source conflict unresolved. | [Manual][AX-M]; [EasyStart][AX-E] |
+| Factory / user memory | 96 rewritable slots (24×4). Factory banks1–8 hold32 sounds, repeated in9–16 and17–24; not128 slots. | [Manual p15][AX-M] |
+| Synth / acoustic | Pickup, acoustic body/top and synth modeling documented. | [EasyStart][AX-E] |
+| I/O | Mono INPUT/INSERT RETURN; stereo-mini AUX/PHONES; two mono OUTPUTs, INSERT SEND; optical S/PDIF16-bit/44.1kHz; MIDI IN/OUT; DC9V. External control and USB unverified. | [Manual p56][AX-M] |
+| Analog conversion | A/D and D/A20-bit,44.1kHz. | [Manual p56][AX-M] |
+| Power / battery / USB | 9V DC, supplied adapter. Current/polarity, battery and USB power unverified; no inference from ambiguous polarity glyph extraction. | [Manual p56][AX-M] |
+| IR / NAM / capture | User IR, native/converted NAM and capture loading unverified; REMS is not import evidence. | Unresolved |
+| Editor / platforms | MIDI-connected editor/librarian supports Windows/Mac. Support lists Windows1.01 and Mac1.1, dated2015-06-01; current OS support unverified. | [EasyStart][AX-E]; [Support][AX-D] |
+| Looper / drums / live | ESS automates parameter steps; Individual mode switches effects. Delay trails require matching type/time; reverb matching type. Looper, drums and scenes unverified. | [Manual pp1–2][AX-M]; [EasyStart][AX-E] |
+
+### Separate IDR hardware offers
+
+| Condition | IDR evidence / qualifications | Source |
+|---|---|---|
+| Used | **Rp2,200,000**, explicitly BEKAS; **Habis**. guitardistro, Kota Bandung; shop212343682/item20691675327. Checked2026-10-17, JS-limited body with two-week cached crawl. Working condition, adapter/bundle, warranty, shipping/tax/voucher and delivered total unverified. Stale29Sep delivery is not stock proof;10k late-delivery compensation is not a discount. | [Exact item](https://shopee.co.id/EFFECT-KORG-AX3000G-BEKAS-i.212343682.20691675327) |
+| New | Unknown; no qualified retail/new offer established. | — |
+
+<!-- comparison evidence ends -->
+
+Other observations checked2026-10-17: [Hope Music, Kota Bandung,703817770/21944834396](https://shopee.co.id/Efek-Gitar-Korg-AX3000G-i.703817770.21944834396) displays Rp2,200,000 with voucher and three unresolved variations; advertised150k voucher threshold1m, eligibility/base price/variant/condition/stock/bundle unknown. Excluded from used/new exact-price projection. [studio_musik_gema, Kab. Blitar,102019323/25663831731](https://shopee.co.id/efek-gitar-second-korg-ax3000g-ax1500g-pod-floor-plus.-bonus-tas-effect-guitar-ax-3000g-1500g-3000-1500-bekas-normal-bukan-zoom-nux-mg-valeton-line-6-moer-i.102019323.25663831731) is sold out, four variations across multiple models, Rp2m–2.5m with bag claim; exact AX3000G selection unresolved, not a qualified model price.
+
+Remaining: full controls/expression, display details, category-count conflict, routing limits, electrical current/polarity, USB/import scope, current software compatibility, looper/live restrictions and fresh qualified offers. No software or dependencies downloaded.
+
+[AX-M]: https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf
+[AX-E]: https://cdn.korg.com/us/support/download/files/f3b3eaaa9d32a6666c10ecb9daa632e9.pdf
+[AX-D]: https://www.korg.com/us/support/download/product/1/28/

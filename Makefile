@@ -1199,3 +1199,7 @@ research-commit-vl3x:
 .PHONY: research-commit-pandora
 research-commit-pandora:
 	python3 scripts/research_tools.py commit-pandora
+
+.PHONY: research-commit-ax3000g
+research-commit-ax3000g:
+	python3 scripts/research_tools.py commit-ax3000g
