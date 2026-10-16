@@ -1783,12 +1783,13 @@ Guitar multi-effects; distinct from GT-10B and GT-100. Checked2026-10-17; partia
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in expression with firm-press toe switch (EXP PEDAL SW). Shared EXP2/CTL3,4 accepts one external expression or up to two footswitches. FV-500H/L or EV-5; FS-6 or two FS-5Us via PCS-31. Single FS-5U uses CTL3. | [Specifications][G10-S]; [Workshop pp3–5][G10-W] |
-| K/F/B | Marketing describes six dedicated footswitches; full physical total including bank switches, rotary controls and buttons pending. Do not treat marketing count as complete panel inventory. | [Specifications][G10-S] |
+| K/F/B | **6 /8 /24**, text-derived from manual pp11–12: OUTPUT LEVEL, four parameter knobs and dial; four numbered, two BANK and two CTL footswitches; ten EFFECTS SELECT buttons, four cursors and ten other buttons. Toe and rear power additional. Supersedes incomplete six-switch marketing count; visual corroboration pending. | [Manufacturer manual transcript][G10-R] |
 | Display | Backlit132×64 graphic LCD plus three-character seven-segment LED. Diagonal/colour/touch unverified. | [Specifications][G10-S] |
 | Dimensions / mass | 542W×272D×77H mm; pedal-up maximum104mm;4.9kg. Large floorboard. | [Specifications][G10-S] |
 | Processing / categories | Finnish manufacturer page advertises maximum13 simultaneous effects and dual signal paths with COSM amps. Exact counting basis, shared resources and per-category choices pending manual verification. | [Regional product][G10-F] |
+| FX categories / choices | **34 selectable FX types shared by FX-1/FX-2**, counted from the complete p102 list; the same type can occupy both. This is a choice count across two slots, not 34 simultaneous effects. Other category totals remain pending. | [Manufacturer manual p102][G10-R]; [Indexed official p102][G10-M] |
 | Factory / user memory | 400 total:200 user+200 preset. Initial user-bank fill and write restrictions pending. | [Specifications][G10-S] |
-| Synth / acoustic | Synth and acoustic-simulator specifics unverified; no sibling inference. | Unresolved |
+| Synth / acoustic | **WAVE SYNTH and GUITAR SYNTH yes**; GUITAR SYNTH requires single notes with other strings muted and clear attacks. **GUITAR SIM acoustic simulation yes**, including single-coil/humbucker/piezo-to-acoustic choices. AC.PROCESSOR separately reshapes electro-acoustic pickup sound; Small/Medium/Bright/Power types. This supersedes unverified synth/acoustic status. | [Manual pp106–107,112][G10-R]; [Indexed official p106][G10-M]; [Acoustic-use Q&A][G10-A] |
 | I/O | Quarter-inch INPUT, L/MONO/R OUTPUT, stereo PHONES, loop SEND/RETURN, AMP CONTROL; TRS EXP2/CTL3,4; USB; coaxial DIGITAL OUT; MIDI IN/OUT; DC IN. USB-B established by Roland A–B cable requirement. | [Specifications][G10-S]; [Windows support][G10-T] |
 | Analog conversion / levels | 24-bit+AF A/D,24-bit D/A,44.1kHz. Input/return−10dBu; output−10/+4dBu,send−10dBu. Input1MΩ,return220kΩ; output2kΩ,send3kΩ. Dynamic range≥100dB IHF-A. | [Specifications][G10-S] |
 | Power / battery / USB | 9V DC,800mA; PSB-1U supplied. Polarity, battery and USB bus operation unverified. | [Specifications][G10-S] |
@@ -1816,7 +1817,9 @@ Checked2026-10-17: [Boss GT-10 Effek Gitar Berkualitas Mulus dan Normal dengan F
 
 Original [manufacturer manual](https://static.roland.com/assets/media/pdf/GT-10_OM.pdf) retrieval failed because18972196-byte content exceeds browser tool limit; CDN alternative same limit. No manual, driver, librarian, firmware or dependency downloaded to workspace. Global product timed out; Finnish regional page opened and Swedish specifications were indexed. Subsequent targeted search indexing exposed manual pp60,91,93 despite the full-file size limit; those findings are labelled indexed evidence, not a complete manual read. Retain access limits instead of silently borrowing GT-10B specifications.
 
-Remaining: complete controls/expression, screen details, processing/library counts and restrictions, synth/acoustic details, power polarity, imports, remaining USB routing and loop behavior, modern macOS compatibility and qualified offers. Windows11 driver exclusion is now explicit.
+Manual-source identity check: manufacturer-authored GT-10 Owner’s Manual ©2008 BOSS; G6027126R0/1RTC, book timestamp2008-02-26. Mirror pp102/106 match indexed official passages. Transcript, not generated mirror FAQ; no full-file identity hash or visual panel check claimed.
+
+Remaining: visual control corroboration, screen details, other category counts/routing restrictions, power polarity, imports, modern macOS compatibility and qualified offers.
 
 [G10-S]: https://www.boss.info/se/products/gt-10/specifications/
 [G10-F]: https://www.boss.info/fi/products/gt-10/
@@ -1830,3 +1833,6 @@ Remaining: complete controls/expression, screen details, processing/library coun
 [G10-Q]: https://support.roland.com/hc/ja/articles/4404885543707
 [G10-T]: https://support.roland.com/hc/en-us/articles/115003126763-GT-10-Windows-10-Driver-Installation-and-Troubleshooting-Instructions
 [G10-M]: https://static.roland.com/assets/media/pdf/GT-10_OM.pdf
+
+[G10-R]: https://manualzilla.com/doc/7429915/boss-gt-10-owner-s-manual
+[G10-A]: https://support.roland.com/hc/ja/articles/4404885542939

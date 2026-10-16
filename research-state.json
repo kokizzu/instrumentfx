@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-10 primary follow-up",
-    "task": "GT-10 USB modes, loop timing/storage and explicit Windows11 driver exclusion saved. Next resolve full panel counts, effect library/synth/acoustic and remaining routing/power/import gaps from primary sources; then fresh Shopee discovery. Do not repeat blocked full-PDF downloads; use indexed official passages or verified manufacturer-authored copies. Commit before another model.",
+    "task": "GT-10 manual transcript identity checked and controls/synth/acoustic/shared FX count saved. Next read manufacturer manual pp96–101/118–121 for remaining category choices and routing, then fresh Shopee discovery. Primary full-PDF size limit remains; accessible transcript supplements indexed official passages. Commit before another model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2194,6 +2194,24 @@
           "CTL loop control preserving BANK changes; mute/clear behavior"
         ],
         "conflict": "Finnish40s remains visible beside Q&A/manual/workshop38s"
+      },
+      "manual_transcript_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://manualzilla.com/doc/7429915/boss-gt-10-owner-s-manual",
+        "identity": "GT-10 Owner’s Manual ©2008 BOSS;G6027126R0/1RTC;2008-02-26 book timestamp. pp102/106 match indexed official manual. No full-file hash/visual verification.",
+        "resolved": [
+          "6 rotary/8 footswitches/24 buttons, text-derived;toe/power additional",
+          "34 listed shared FX choices;two slots may use same type",
+          "Wave/Guitar Synth;Guitar Synth single-note restriction",
+          "Guitar Sim acoustic choices distinct from AC.PROCESSOR four types"
+        ],
+        "remaining": [
+          "visual controls",
+          "other category counts",
+          "routing/power/imports",
+          "modern macOS",
+          "qualified offers"
+        ]
       }
     }
   ],
