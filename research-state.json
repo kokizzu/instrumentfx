@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX shared-source MG-300 original preservation",
-    "task": "MG-10115sharedsourcefields/3rows,5datedqualifications,4URLs preserved with exact manifest;current comparison evidence isolated from historical USD/context. Next inspect original MG-300 rows before MKII and remaining models,then shared source union/incoming links. Fresh Shopee discovery and technical gaps remain.",
+    "model": "NUX shared-source MG-300 MKII preservation",
+    "task": "Original MG-30015sharedsourcefields/3rows,5datedqualifications,2URLs preserved and verified separately from MKII. Next audit MG-300 MKII then MG-400/MG-30/MG-50Li,shared prose/URL union and incoming navigation. Fresh Shopee discovery and technical gaps remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -11107,6 +11107,126 @@
         "https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771628910&width=2400"
       ],
       "scope": "All15MG-101fields across3shared-source rows plus5historical qualifications and4modelURLs;other model rows and source retirement remain unaudited."
+    },
+    {
+      "date": "2026-10-17",
+      "models": [
+        "NUX MG-300 original"
+      ],
+      "model_name": "MG-300 original",
+      "brand": "NUX",
+      "source_model_aliases": [
+        "MG-300",
+        "MG-300, original"
+      ],
+      "source": "effects/guitar-nux.md",
+      "source_sha256": "6259d5777c8ed841b7d629f16e913d4ad618ad1da6470d091156ee57022bb6a0",
+      "destination": "NUX.md#mg-300-original",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "No socket in manual",
+          "source": "effects/guitar-nux.md",
+          "context": "Hardware and size — all six have built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "4/2/8 [manual]",
+          "source": "effects/guitar-nux.md",
+          "context": "Hardware and size — all six have built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "230×160×58; 754 g",
+          "source": "effects/guitar-nux.md",
+          "context": "Hardware and size — all six have built-in expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Medium",
+          "source": "effects/guitar-nux.md",
+          "context": "Hardware and size — all six have built-in expression"
+        },
+        {
+          "field": "Used USD",
+          "value": "?",
+          "source": "effects/guitar-nux.md",
+          "context": "Hardware and size — all six have built-in expression"
+        },
+        {
+          "field": "New USD observation",
+          "value": "?",
+          "source": "effects/guitar-nux.md",
+          "context": "Hardware and size — all six have built-in expression"
+        },
+        {
+          "field": "Simultaneous blocks / available categories",
+          "value": "Original multi-effect architecture; exact concurrent count ?; current firmware adds bass-related processing; per-category totals require firmware-specific effect list",
+          "source": "effects/guitar-nux.md",
+          "context": "Processing, presets, acoustic/synth and model loading"
+        },
+        {
+          "field": "Presets: factory / user",
+          "value": "? / ?",
+          "source": "effects/guitar-nux.md",
+          "context": "Processing, presets, acoustic/synth and model loading"
+        },
+        {
+          "field": "Acoustic / synth",
+          "value": "Pitch-bender and wah documented; true synth/acoustic simulator ?",
+          "source": "effects/guitar-nux.md",
+          "context": "Processing, presets, acoustic/synth and model loading"
+        },
+        {
+          "field": "Third-party IR",
+          "value": "**512 samples**, third-party WAV import",
+          "source": "effects/guitar-nux.md",
+          "context": "Processing, presets, acoustic/synth and model loading"
+        },
+        {
+          "field": "NAM / other captures",
+          "value": "Not established for original hardware",
+          "source": "effects/guitar-nux.md",
+          "context": "Processing, presets, acoustic/synth and model loading"
+        },
+        {
+          "field": "Audio / control connections",
+          "value": "¼″ input; single ¼″ main/phone output; 3.5 mm aux; micro-USB; DC",
+          "source": "effects/guitar-nux.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Power and batteries; USB-powered?",
+          "value": "**9V centre-negative** adapter; current ?; batteries/USB bus power not established",
+          "source": "effects/guitar-nux.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Editing apps / other USB functions",
+          "value": "QuickTone **Windows/macOS**; USB audio/reamp",
+          "source": "effects/guitar-nux.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Practical features",
+          "value": "60 s looper; 56 rhythms; input cable required for power-on per manual",
+          "source": "effects/guitar-nux.md",
+          "context": "Ports, power and software"
+        }
+      ],
+      "retained_context": [
+        "Checked **2026-10-14**. **Partial records**; `?` is unverified. K/F/B = rotary controls / footswitches / separate front buttons; expression toe switches and rear power toggles are additional. Dimensions are normalised to **W×D×H, mm**; NUX manuals often call the long horizontal side `L` rather than `W`. Used prices are deliberately blank where no dependable observation was obtained.",
+        "These are single new-price observations, **not** used-to-new market ranges. US versus international seller pricing can differ. All prices checked **2026-10-14**, before destination tax/shipping. MG-300 and MG-300 MKII are distinct hardware records. **MG-30 GEN2 is documented as a firmware update for MG-30**; it is not silently treated as a new hardware model.",
+        "The category numbers describe the cited list, not guaranteed totals after every firmware update. Utility blocks, amps, cabinet IRs and captures are not interchangeable effect-count units.",
+        "**NAM:** the checked NUX page names MG-300 MKII, MG-400, MG-30 and MG-50Li as currently supported **A2-Lite native** devices. It separately describes A1 conversion and planned support for other devices. “Native” here must retain the architecture qualifier; it does not mean arbitrary `.nam` models run unmodified.",
+        "The global download pages explicitly distinguish domestic/Mandarin versus global/English hardware firmware. Use the correct regional firmware, back up presets and install the matching editor. At checking, MG-300 MKII GEN2 was 3.0.0, MG-400 GEN2 3.0.3, MG-30 GEN2 1.0.5, and MG-50Li English firmware 1.1.1. This is a dated documentation snapshot, not an update instruction for an unidentified unit."
+      ],
+      "retained_source_urls": [
+        "https://nuxaudio.com/product/mg300/",
+        "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300/NUX_MG300_UserManual_English.pdf"
+      ],
+      "scope": "All15originalMG-300fields/3rows,5datedqualifications,2originalmodelURLs. MKIIcapabilitiesnotinherited;othermodels/sharedunion/incoming audits pending."
     }
   ],
   "discovery_leads": [
@@ -15737,10 +15857,10 @@
       "source_sha256": "6259d5777c8ed841b7d629f16e913d4ad618ad1da6470d091156ee57022bb6a0",
       "complete_source_read": true,
       "verified_models": [
-        "MG-101"
+        "MG-101",
+        "MG-300 original"
       ],
       "pending_models": [
-        "MG-300 original",
         "MG-300 MKII",
         "MG-400",
         "MG-30",
@@ -15831,7 +15951,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX shared-source MG-300 original preservation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX shared-source MG-300 MKII preservation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

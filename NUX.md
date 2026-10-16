@@ -70,6 +70,7 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg101/) · [Source 2](htt
 
 ## MG-300 original
 
+<!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg300/); [original manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300/NUX_MG300_UserManual_English.pdf),panels and printed p.14.
 
 | Field | Preserved finding / unresolved detail |
@@ -83,6 +84,47 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg101/) · [Source 2](htt
 | Power | **9V center-negative**,required current unverified;battery/USB operation not established. Input cable required for power-on per manual. |
 | Software / audio / practice | QuickTone **Windows/macOS**,USB audio/reamp;60s looper;56 rhythms. |
 | IDR | Used/new current qualified offers ?. |
+<!-- comparison evidence ends -->
+
+### Preserved shared-source original MG-300 fields
+
+Historical snapshot **2026-10-14**,retained2026-10-17. Original hardware only;MKII/GEN2 additions are not assigned to this device. Original uncertainties remain.
+
+| Original field | Original value |
+|---|---|
+| External expression | No socket in manual |
+| K/F/B | 4/2/8 [manual] |
+| Dimensions; weight | 230×160×58; 754 g |
+| Size class | Medium |
+| Used USD | ? |
+| New USD observation | ? |
+| Simultaneous blocks / available categories | Original multi-effect architecture; exact concurrent count ?; current firmware adds bass-related processing; per-category totals require firmware-specific effect list |
+| Presets: factory / user | ? / ? |
+| Acoustic / synth | Pitch-bender and wah documented; true synth/acoustic simulator ? |
+| Third-party IR | **512 samples**, third-party WAV import |
+| NAM / other captures | Not established for original hardware |
+| Audio / control connections | ¼″ input; single ¼″ main/phone output; 3.5 mm aux; micro-USB; DC |
+| Power and batteries; USB-powered? | **9V centre-negative** adapter; current ?; batteries/USB bus power not established |
+| Editing apps / other USB functions | QuickTone **Windows/macOS**; USB audio/reamp |
+| Practical features | 60 s looper; 56 rhythms; input cable required for power-on per manual |
+
+The literal [manual] label refers to the original MG-300 manufacturer manual linked below.
+
+### Shared historical qualifications
+
+These source paragraphs retain their original comparison/firmware scope. Named MKII and other-model features are historical context,not original-MG-300 specifications.
+
+Checked **2026-10-14**. **Partial records**; `?` is unverified. K/F/B = rotary controls / footswitches / separate front buttons; expression toe switches and rear power toggles are additional. Dimensions are normalised to **W×D×H, mm**; NUX manuals often call the long horizontal side `L` rather than `W`. Used prices are deliberately blank where no dependable observation was obtained.
+
+These are single new-price observations, **not** used-to-new market ranges. US versus international seller pricing can differ. All prices checked **2026-10-14**, before destination tax/shipping. MG-300 and MG-300 MKII are distinct hardware records. **MG-30 GEN2 is documented as a firmware update for MG-30**; it is not silently treated as a new hardware model.
+
+The category numbers describe the cited list, not guaranteed totals after every firmware update. Utility blocks, amps, cabinet IRs and captures are not interchangeable effect-count units.
+
+**NAM:** the checked NUX page names MG-300 MKII, MG-400, MG-30 and MG-50Li as currently supported **A2-Lite native** devices. It separately describes A1 conversion and planned support for other devices. “Native” here must retain the architecture qualifier; it does not mean arbitrary `.nam` models run unmodified.
+
+The global download pages explicitly distinguish domestic/Mandarin versus global/English hardware firmware. Use the correct regional firmware, back up presets and install the matching editor. At checking, MG-300 MKII GEN2 was 3.0.0, MG-400 GEN2 3.0.3, MG-30 GEN2 1.0.5, and MG-50Li English firmware 1.1.1. This is a dated documentation snapshot, not an update instruction for an unidentified unit.
+
+Original-model sources: [Source 1](https://nuxaudio.com/product/mg300/) · [Source 2](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300/NUX_MG300_UserManual_English.pdf)
 
 ## MG-300 MKII
 
