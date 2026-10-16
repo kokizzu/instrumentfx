@@ -28,13 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Black Hammer QCE-30 primary follow-up",
-    "task": "Initial product record saved. Seek readable manufacturer manual image for controls/fullIO; then RK5 revision audit using saved lead.",
-    "next_models": [
-      "Tech 21 RK5 exact revision pending",
-      "Valeton Dapper Dark Mini"
-    ],
-    "after_queue": "Resolve Dapper Indie exact item;fresh Shopee discovery."
+    "model": "Valeton Dapper Dark Mini",
+    "task": "BlackHammermanualaccessandRK5revisionaudit saved;RK5versionunresolved,notadmitted. ResearchDarkMiniownproduct/manualusingexactShopeeleadindiscovery_strips_followup;do nottransferfullsizeVES3.",
+    "next_models": [],
+    "after_queue": "Resolve Dapper Indie exact item;freshShopeediscovery andRK5revision-specificleads."
   },
   "new_findings": [
     {
