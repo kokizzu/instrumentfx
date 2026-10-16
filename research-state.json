@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton Dapper Bass VES-2 primary follow-up",
-    "task": "Full-size model admitted usingmanufacturerproduct. Resolveimage-onlymanual forcontrols/fullIO/operation;thencommitbeforeMini.",
+    "task": "Readable Dapper Bass manual follow-up saved;panel/socket/expression/memory/software gaps retained. Next research Mini MES-2 separately using its own manufacturer documentation.",
     "next_models": [
       "Valeton Dapper Bass Mini MES-2"
     ],
@@ -3463,7 +3463,9 @@
       "status": "partial",
       "sources": [
         "https://www.valeton.net/product/dapper-bass/",
-        "https://www.valeton.net/download/174/dapper-bass/18492/dapper-bass_manual_en_v01_170103curve-2.pdf"
+        "https://www.valeton.net/download/174/dapper-bass/18492/dapper-bass_manual_en_v01_170103curve-2.pdf",
+        "https://manualmachine.com/valeton/dapperbass/2574560-user-manual/",
+        "https://www.manualslib.com/manual/1403706/Valeton-Dapper-Bass.html?page=2"
       ],
       "offers": [
         {
@@ -3507,7 +3509,13 @@
         "Looperdrums",
         "Condition-specificprices"
       ],
-      "identity_limit": "VES2codefromseller;manufacturer product confirmsfullsizeDapperBass architecture;Mini notmerged"
+      "identity_limit": "VES2codefromseller;manufacturer product confirmsfullsizeDapperBass architecture;Mini notmerged",
+      "manual_followup": {
+        "identity": "Manufacturer-authored2pageOwnersManual;fullsizeBass,85mA/690g,matchingmodulelist;mirrorrevisionunreadable,notbyteverified",
+        "verified": "13rotaryparametercontrols;textderived. Boost+12dB;DirtyQfuzz;dry/-1/-2octaves. FXloopbetweenBassAmp/Octave,THRUunaffected,outputsusabletogether,XLRgroundlift;mutedtunerholdBoostComp/anyswitchtoexit.",
+        "conflict": "Manual320D65W vsproduct320W65D;retainboth",
+        "remaining": "Panelcounts/fullsockettypes,expression,memory,displaytechnology,software/IR,poweroperation,prices"
+      }
     }
   ],
   "consolidation_and_price_findings": [

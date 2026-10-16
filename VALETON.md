@@ -719,17 +719,17 @@ Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. M
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in/external/toe unverified. | Unresolved |
-| K/F/B | Independent rotary/footswitch/button counts unverified. | Image-onlymanual |
-| Display | Tuner indicated;screen diagonal,color,touch/technology unverified. | [Product][DB-P] |
-| Dimensions / mass | **320×65×42mm WDH;690g**. Long narrowstrip. | [Product][DB-P] |
-| Processing / category choices | Distinct **BoostComp,DirtyQ envelopefilter,BassAmp,Octave,Chorus** modules,plus tuner/FXloop. Multiplefunctions establisheligibility;exact simultaneouscount/routing pendingmanual. Octave is **analog monophonic**,withseparateoctave/dry levels. Chorus hasdepthcontrol. | [Product][DB-P] |
+| K/F/B | **13 rotary controls counted frommanual parameterlist**:BoostComp2,DirtyQ2,BassAmp5,Octave3,Chorus1. FUZZswitch andGROUNDslider separate;footswitch/button totals pendingpanelverification. | [Manualp2][DB-MM] |
+| Display | Tuner displaysnote/sharpdot withpitchLEDs;screen diagonal,color,touch/technology unverified. | [Product][DB-P];[Manual][DB-MM] |
+| Dimensions / mass | **320×65×42mm WDH;690g**. Long narrowstrip. Productlabels320W×65D;manual swaps320D×65W. Conflictretained. | [Product][DB-P] |
+| Processing / category choices | Distinct **BoostComp,DirtyQ envelopefilter,BassAmp,Octave,Chorus** modules,plus tuner/FXloop. Multiplefunctions establisheligibility;exact simultaneouscount/routing pendingmanual. Octave is **analog monophonic**,withseparateoctave/dry levels. Chorus hasdepthcontrol. Boost reaches**+12dB**;DirtyQ hasFUZZswitch;octave offersdry,−1,−2octavelevels. | [Product][DB-P] |
 | Factory / user memory | Total/factory/user storage unverified. | Unresolved |
 | Synth / acoustic | Octave supports synth-like tones;dedicatedsynth/acousticalgorithms unverified. | [Product][DB-P] |
-| I/O | FXloop,THRU andbalancedXLRout confirmed;fullsocketinventory pending. | [Product][DB-P] |
+| I/O | FXloop,THRU andbalancedXLRout confirmed;manual addsINPUT,unbalancedOUTPUT,SEND/RETURN;fullsockettypes pending. **Loop sitsbetweenBassAmp andOctave;THRU isunaffected;alloutputs canoperate together**. XLRGROUND/LIFTslider. | [Product][DB-P] |
 | Power / battery / USB | **9VDC centre-negative,85mA consumption**;supplyincluded permanufacturer,notverifiedsellerbundle. Battery/USB unverified. | [Product][DB-P] |
 | IR / NAM / capture | UserIR,native/convertedNAM andcapture unverified. | Unresolved |
 | Editor / software | Editor/platformsupport unverified. | Unresolved |
-| Looper / drums / live | Looper,drums,scenes/trails unverified. THRU supportsparallelout/reamping;XLR feedsinterface/mixer. | [Product][DB-P] |
+| Looper / drums / live | HoldBoostComp switchformutedtuner;anyfootswitchexits. Looper,drums,scenes/trails unverified. THRU supportsparallelout/reamping;XLR feedsinterface/mixer. | [Product][DB-P] |
 
 ### Separate IDR hardware offers
 
@@ -746,3 +746,10 @@ Officialproduct linksEnglishmanualV01_170103(Curve);PDFhas2pages butnotextlayer.
 
 [DB-P]: https://www.valeton.net/product/dapper-bass/
 [DB-M]: https://www.valeton.net/download/174/dapper-bass/18492/dapper-bass_manual_en_v01_170103curve-2.pdf
+
+### Readable manufacturer manual follow-up
+
+Manufacturer-authoredtwo-pageOwner’sManual mirroredatManualMachine/ManualsLib matchesfull-sizeDapperBass,85mA/690g,sixnamedmodules andofficialmanualtitle. Mirrorrevisionnotprinted/readable;do notassertbyteidentitywithofficialV01. Onlymanualbodyused,notgeneratedFAQs. Text-derivedcontrolcount;panelimagesstillunverified. Manual320D×65W reversesproduct320W×65D;physicalmeasurementsunchanged.
+
+[DB-MM]: https://manualmachine.com/valeton/dapperbass/2574560-user-manual/
+[DB-ML]: https://www.manualslib.com/manual/1403706/Valeton-Dapper-Bass.html?page=2
