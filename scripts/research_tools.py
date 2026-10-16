@@ -313,7 +313,7 @@ def main():
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): document PERFORM-V controls and microphone remote modes'
         if mode == 'commit-hd500':
-            message = 'research(line6): verify HD500 processing looper and USB routing limits'
+            message = 'research(line6): qualify HD500 effect counts phantom and recording formats'
         if mode == 'commit-g1on':
             message = 'research(zoom): verify G1on controls routing and looper limits'
         if mode == 'commit-g1xon':

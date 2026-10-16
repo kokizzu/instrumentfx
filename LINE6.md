@@ -770,13 +770,13 @@ Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Ex
 | K/F/B | Separate control counts pending pilotguide. | Unresolved |
 | Display | Diagonal,color,touch/technology unverified. | Unresolved |
 | Dimensions / mass | FAQ: **21.50W×10.29D×2.91H inches**;masspending. Large footprint. | [OfficialFAQ][HD5-F] |
-| Processing / category choices | **Eight FX blocks**,any one caninstead hosthardwareFXloop. **Up to two amp blocks** whenplaced inparallelA/B;singleamp canusePre/Post/A. Mixer fixedafterA/B. DSPlimits constraincombinations;categorycounts pending. Do nottransferHD500X DSPcapacity. | [Guide3•1–4,3•14][HD5-M] |
+| Processing / category choices | **Eight FX blocks**,any one caninstead hosthardwareFXloop. **Up to two amp blocks** whenplaced inparallelA/B;singleamp canusePre/Post/A. Mixer fixedafterA/B. DSPlimits constraincombinations. FamilyFAQ lists dynamics8,distortion15,modulation22,filter17,pitch3,EQ5,delay19,reverb12,wah8,volume/pan. Family80/90/100+ wording isnotfirmware-currentHD500 total;revisionaudit pending. Do nottransferHD500X DSPcapacity. | [Guide3•1–4,3•14][HD5-M];[FAQ][HD5-F] |
 | Factory / user memory | **8 setlists×64=512 presetlocations**. Initialfactoryfill pending. | [Guide4•1][HD5-M] |
 | Synth / acoustic | Exactmodelalgorithms pending. | Unresolved |
-| I/O | Rear diagram includesguitar,mic,AUX,CD/MP3,phones,balanced/unbalanced outputs,FXloop,PEDAL2,MIDI,S/PDIFout,USB,Variax,L6LINK,DC. Complete sockettypes/counts pending. | [Guide1•4][HD5-M] |
+| I/O | Rear diagram includesguitar,mic,AUX,CD/MP3,phones,balanced/unbalanced outputs,FXloop,PEDAL2,MIDI,S/PDIFout,USB,Variax,L6LINK,DC. FAQ confirms **XLRmic has no phantom power**;externalphantomsupply/preamp neededforcondenser. Complete sockettypes/counts pending. | [Guide1•4][HD5-M];[FAQ][HD5-F] |
 | Power / battery / USB | FAQ **DC-3g9V DC3A,2.5mm,center-negative**;guide rearlabel2.5Aminimum. Supplyrating≠measureddraw. Battery/USBpower unknown. | [FAQ][HD5-F];[Guide1•4][HD5-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,captureimports unverified. | Unresolved |
-| Editor / software | **POD HD500 Edit Windows/Mac editor/librarian**;USB audio driver chapter. Driver routesprocessedrecordsend tocomputer andmixeslocalmonitor withcomputerplayback atanalogouts. **USB audio muted whenL6LINK connectsDT25/DT50**. Guide recommendsdirectUSB2,not hub. Audiochannels/currentOS pending. | [Guide1•5,9•1–2][HD5-M] |
+| Editor / software | **POD HD500 Edit Windows/Mac editor/librarian**;USB audio driver chapter. Driver routesprocessedrecordsend tocomputer andmixeslocalmonitor withcomputerplayback atanalogouts. **USB audio muted whenL6LINK connectsDT25/DT50**. Guide recommendsdirectUSB2,not hub. FAQ specifiesUSBrecord sends1–2 and44.1/48/88.2/96kHz,16/24bit support. Playbackchannels/currentOS pending. | [Guide1•5,9•1–2][HD5-M];[FAQ][HD5-F] |
 | Looper / drums / live | **Mono24s normal/48s half-speed**,overdub,undo,reverse. Switchingrecordedspeed changespitch byoctave andplaybackspeed by2×. Storage,drums,scenes/trails pending. | [Guide8•1,8•6][HD5-M] |
 
 ### Separate IDR hardware offers
@@ -796,3 +796,9 @@ Officialguide v2.10RevA©2012 explicitly coversoriginalHD500;manufactureridentit
 
 [HD5-M]: https://l6c-acdn2.line6.net/data/6/0a06434dc1a55085c5d6532bf/application/pdf/POD%20HD500%20Advanced%20Guide%20v2.10%20%28%20Rev%20A%20%29.pdf
 [HD5-F]: https://kb.line6.com/pod-hd500x-hd500-pod-hd-pod-hd-pro-faq
+
+### Output and access qualifications
+
+FAQ global output modes:Studio/Direct,Combo/Stack Front,Combo/Stack PowerAmp. They affectunbalanced/XLR/headphone andUSBrecord sends. Frontmodes targetampinputs;PowerAmpmodes targetreturns withAMP/LINEsetLINE. OfficialQuickStartRevB linkfailedcachemiss;physicalcontrolcount remainspending.
+
+[HD5-Q]: https://l6c.scdn.line6.net/data/l/0a06434dc35d4ca4b2d228923/application/pdf/POD%20HD500%20Quick%20Start%20Guide%20%28Rev%20B%29%20-%20English.pdf

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD500 primary follow-up",
-    "task": "HD500 8FX/2amp architecture,24/48smono looper andL6LINKUSBmute saved. Nextpilotguidecontrols/fullIO,exactcategories/synth andUSBchannels. Bassclassification/priceidentity remainunverified.",
+    "task": "HD500 FAQ phantom/outputmodes/USBformat andqualifiedfamilycounts saved. OfficialQuickStartRevBfailed;seekreadablemanufacturer-authoredcopyforphysicalinventory. Thenv2.10synth/USBchannels andfirmware2.62basscapability.",
     "next_models": [],
     "after_queue": "ContinuebassShopeediscovery;HD500basscapability notyetclassified."
   },
@@ -3425,6 +3425,11 @@
         "revision": "Officialv2.10RevA",
         "verified": "8FXincludingoptionalFXloop;2parallelamps;DSPconstraints;mono24/48sloop;USBrecordmonitorrouting;DTL6LINKmutesUSB",
         "remaining": "Controlcounts/fullsockettypes,categorychoices,synth,USBchannels,currentOS,prices"
+      },
+      "faq_followup": {
+        "verified": "Micnophantom;familycategorycountsqualified;USBrecord1–2;44.1/48/88.2/96k16/24bit;globaloutputmodes",
+        "access": "OfficialQuickStartRevBcachemiss;alternateofficialhostinaccessible",
+        "remaining": "Fullcontrol/socketinventory andfirmware-currentlibrary,synth,USBplaybackchannels,currentOS,prices"
       }
     }
   ],
