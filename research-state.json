@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Cross-brand discovery after DigiTech RP360XP",
-    "task": "RP360XP toe switch and looper/drum concurrency verified and saved. Continue exact Shopee Indonesia discovery or unresolved manufacturer fields; commit each model before next.",
+    "task": "RP360XP ten-effect manual ceiling and acoustic simulations saved with source/revision qualifications. Continue unresolved fields or fresh Shopee discovery;commit eachmodel before next.",
     "next_models": [],
     "after_queue": "Research remains incomplete;do notcountRP360withoutownprofile."
   },
@@ -1317,7 +1317,8 @@
       "sources": [
         "https://digitech.com/dp/rp360-xp/",
         "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf",
-        "https://digitech.com/software-downloads/"
+        "https://digitech.com/software-downloads/",
+        "https://manualmachine.com/digitech/rp360/1256376-user-manual/"
       ],
       "offers": [
         {
@@ -1341,7 +1342,7 @@
       "unresolved": [
         "display",
         "categorycounts/conflicts",
-        "synth/acoustic",
+        "dedicated synth; mirror revision/firmware",
         "CONTROL INformat",
         "battery/USBpower",
         "IR/NAM/capture",
@@ -1366,6 +1367,24 @@
           "Preset changes leave recorded loop sound unchanged"
         ],
         "limitations": "Indexed manufacturer manual inspected;undo,power-off persistence,trails/scenes remain unresolved"
+      },
+      "processing_acoustic_followup": {
+        "checked_date": "2026-10-17",
+        "primary_manual_page": 19,
+        "ten_effects": "Manual explicitly permits ten effects inchain;eight-description conflict retained",
+        "acoustic": {
+          "models": [
+            "Dread Acoustic",
+            "Jumbo Acoustic"
+          ],
+          "category": "AMP",
+          "cabinet_selection": "Unavailable with either",
+          "source": "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+          "printed_page": 62,
+          "identity_check": "Manufacturer-authored shared RP360/RP360XP manual; panels,memory,structure matchofficial indexedmanual",
+          "revision_limit": "Mirror retrieval truncated atprinted96;finalrevisionimprintnotexposed;do not inferfirmware"
+        },
+        "remaining": "Dedicated synth,categorysubtotals andfirmwarebasis stillunresolved"
       }
     }
   ],
