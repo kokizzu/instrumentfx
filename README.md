@@ -22,9 +22,9 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 
 | Brand file | Currently consolidated models |
 |---|---|
-| [KORG.md](KORG.md) |PANDORA stomp |
+| [KORG.md](KORG.md) |PANDORA stomp,AX3000G |
 | [DIGITECH.md](DIGITECH.md) |RP360XP |
-| [BOSS.md](BOSS.md) |GT-1B,GX-1B,ME-90B,VE-1,VE-2,VE-500,VE-22,VE-8,VE-20,GT-1000CORE,GX-10,GT-1,GX-1,ME-90,GX-100,GT-1000,GM-800,GT-100,ME-80,ME-70,ME-25 |
+| [BOSS.md](BOSS.md) |GT-1B,GX-1B,ME-90B,VE-1,VE-2,VE-500,VE-22,VE-8,VE-20,GT-1000CORE,GX-10,GT-1,GX-1,ME-90,GX-100,GT-1000,GM-800,GT-100,ME-80,ME-70,ME-25,ME-50,ME-20B,GT-10 |
 | [HEADRUSH.md](HEADRUSH.md) |MX5,Core,Flex Prime,Prime |
 | [FENDER.md](FENDER.md) |Tone Master Pro |
 | [VALETON.md](VALETON.md) |GP-200LT,GP-200JR,GP-100,GP-150,GP-200 (GP-200X variant),GP-180,GP-5,GP-50 |
@@ -48,7 +48,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [SONICAKE.md](SONICAKE.md) |Six profiles,including Sonic Wood |
 | [M-VAVE.md](M-VAVE.md) |Twelve distinct profiles |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. All 147 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 151 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research saved in the current pass
 
