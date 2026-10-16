@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 123,
-  "legacy_only_model_count": 3,
+  "canonical_root_model_count": 124,
+  "legacy_only_model_count": 2,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "CUVAVE H8 — complete legacy consolidation",
-    "task": "Read complete H8 finding and supporting comparisons; consolidate losslessly in root CUVAVE.md, preserving CUVAVE versus M-VAVE brand/model distinctions, exact technical variants, source/price dates and unresolved fields. Check primary and Shopee evidence; commit before another model. Continue remaining VING FB-100/Roland GR-55 legacy records, fresh discovery and unresolved fields.",
+    "model": "VING Flybro FB-100 — complete legacy consolidation",
+    "task": "Read full FB-100 finding and supporting owner comparison; consolidate losslessly in root VING.md. Preserve VING/Flybro identity,400/450g and power-source conflicts, shared FS/EXP socket, developer-app evidence and price discrepancies. Check primary and Shopee evidence; commit before next model. Then consolidate Roland GR-55 and continue fresh discovery/unresolved-field research.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 3 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 2 legacy-only models."
   },
   "new_findings": [
     {
@@ -9189,6 +9189,121 @@
         "(../RESUME.md)": "(effects/RESUME.md)"
       },
       "status": "Complete Play Acoustic finding/supporting rows retained; inspected May2014 reference preserved, inaccessible July2014 official manual lead recorded; NEO exact ask rechecked."
+    },
+    {
+      "models": [
+        "CUVAVE H8"
+      ],
+      "model_name": "H8",
+      "brand": "CUVAVE",
+      "destination": "CUVAVE.md#h8",
+      "source": "effects/findings/2026-10-15-cuvave-h8.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "source_sha256": "5b890d3a0548ffb9bb8a1ee6db5502fc7a49ef8d21651a0bf9b5d7e13983c65f",
+      "marker": "CUVAVE-H8",
+      "renamed_references": [],
+      "retained_comparison_facts": [
+        {
+          "field": "External control",
+          "value": "No EXP connection in numbered inventory",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "K/F/B",
+          "value": "**0/0/4**,power button has operating functions",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Dimensions;weight",
+          "value": "W81×D85×H29mm;weight extraction garbled/unverified;compact",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Screen",
+          "value": "**No graphical/numeric screen**,LED parameter/tuner indicators;touch No",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Architecture / category choices",
+          "value": "Fixed amp→MOD→delay→reverb→cab;10amps,2MOD,1tape delay,1hall reverb,10cabs",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**10 factory-filled overwriteable total**,not10+10",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Neither identified",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "**10 replaceable IRs**;sample limits ?;NAM/amp-capture import not established",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Ports and power",
+          "value": "6.35mm male in,3.5mm phones,USB data/charge and phone-recording connection;USB subtypes ?.5V≥300mA,built battery,explicit operation while charging/power bank",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Configuration / digital functions",
+          "value": "**CubeSuite Windows/macOS IR manager**;full parameter editing not established.USB computer/Android recording;channels/other platforms ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Other features",
+          "value": "24-bit48kHz processing,tuner/mute,dry bypass,Bluetooth backing",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail/historical observation — not a live price range",
+          "value": "**Rp295.000 sold out**;separateRp411.485 shop holiday;older delivery dates",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        }
+      ],
+      "retained_context": [
+        "**Seven partial technical records.** The original GR-55/B1Xon findings retain their2026-10-14 observations; five additional owner-history models were individually researched on2026-10-15. These are additions to the technical catalogue, not new purchases. Many other owned units already appear on other comparison pages and are not counted again here. Private receipt/order/payment details are not published.",
+        "K/F/B means rotary controls/main footswitches/separate buttons. Hand buttons are not stage footswitches; encoder presses count once. Power switches and reset pinholes are explained in each finding.",
+        "The original printed VING/Flybro guide successfully rendered and confirms both names on the same product. It does not establish that FB100 and Boin BG300 share firmware/specifications. MINI-X, Pocket Amp, H8 and Sonicake Pocket Master are separate models despite mixed seller keywords.",
+        "Older manuals describe their own revisions, not independent tests of every current firmware. Empty sample slots and patch-selector positions are not extra effect algorithms. Private ownership evidence is not technical specification evidence.",
+        "Exact item/seller links, dates, condition/stock/accessory caveats and source conflicts are in the linked findings. No guessed used discount, exchange rate, seller authentication or completed-sale claim. Current ownership and present product stock are separate questions.",
+        "These five former missing profiles now have technical findings, but their explicit unknowns are not declared verified. Owned2025 BlackBox revision, Zoom vocal model/bundle and RH-4 ownership remain separate identity work; any newly recovered direct Audota model statement must be researched as that exact model rather than the earlier AVE-100 guess. Preserve donations and excluded specialist history."
+      ],
+      "retained_source_urls": [],
+      "supporting_sources": [
+        "effects/owned-multifx.md"
+      ],
+      "supporting_source_hashes": {
+        "effects/owned-multifx.md": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207"
+      },
+      "link_normalizations": {
+        "(../README.md)": "(README.md)",
+        "(../shopee-indonesia.md)": "(effects/shopee-indonesia.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "status": "Complete H8 finding and supporting facts retained; desktop CubeSuite support and separate qualified Shopee asks rechecked; weight/connector/mobile-editor gaps preserved."
     }
   ],
   "discovery_leads": [
@@ -9663,6 +9778,9 @@
     "TC-HELICON.md": [
       "VoiceLive Play",
       "Play Acoustic"
+    ],
+    "CUVAVE.md": [
+      "H8"
     ]
   },
   "instrument_views": {
@@ -9700,7 +9818,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "3 legacy-only models remain;123 root-canonical. Full migration and research incomplete.",
+    "warning": "2 legacy-only models remain;124 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -9770,8 +9888,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 123,
-    "legacy_only_models": 3,
+    "canonical_root_models": 124,
+    "legacy_only_models": 2,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -9804,7 +9922,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume CUVAVE H8 — complete legacy consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VING Flybro FB-100 — complete legacy consolidation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -10240,10 +10358,9 @@
       "finding_files": []
     },
     "CUVAVE::H8": {
-      "link": "effects/findings/2026-10-15-cuvave-h8.md",
+      "link": "CUVAVE.md#h8",
       "source_files": [
-        "effects/findings/2026-10-15-cuvave-h8.md",
-        "effects/owned-multifx.md"
+        "CUVAVE.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-15-cuvave-h8.md"

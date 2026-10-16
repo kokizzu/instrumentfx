@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'h8': ('H8', 'effects/findings/2026-10-15-cuvave-h8.md'),
     'play-acoustic': ('Play Acoustic', 'effects/findings/2026-10-14-tchelicon-play-acoustic.md'),
     'voicelive-play': ('VoiceLive Play', 'effects/findings/2026-10-14-tchelicon-voicelive-play.md'),
     'kmf-10': ('KMF-10', 'effects/findings/2026-10-14-scorpion-kmf-10.md'),
@@ -966,7 +967,66 @@ def plan_playacoustic():
     print('Preview Play Acoustic exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_h8():
+    research_tools.identity()
+    model, source_path = MODELS['h8']
+    brand_file = 'CUVAVE.md'
+    assert not (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['CUVAVE::H8']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'CUVAVE-H8'
+    body, refs = preserved_body(source, prefix)
+    normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
+    for old,new in normalizations.items():
+        body=body.replace(old,new)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/owned-multifx.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**Seven partial') or p.startswith('K/F/B means') or p.startswith('The original printed VING') or p.startswith('Older manuals') or p.startswith('Exact item/seller') or p.startswith('These five former')]
+    original_commit='8c0bb751797bb3dfeca61849245a79393c032b63'
+    assert original_commit in supporting
+    section = '# CUVAVE multi-effects\n\n## H8\n\nCUVAVE/M-VAVE H8 headphone-format guitar multi-effects, not MINI-X or Pocket Amp. Consolidated **2026-10-17**; existing ownership retained without private receipts or another unique record.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical counts and next-model notes below are provenance, not current totals/cursor.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nOriginal individual finding commit: '+original_commit+'. Sources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/owned-multifx.md). No source or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current H8 comparison fields\n\n| Field | Evidence and qualification |\n|---|---|\n'
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'].startswith('Follow-up'):
+            continue
+        value=f['value']
+        if f['field']=='Software':
+            value += ' Manufacturer download index rechecked2026-10-17 still explicitly lists H8 for desktop CubeSuite Windows/Mac; its mobile CubeSuite list does not name H8. No software installed.'
+        if f['field']=='Retail IDR':
+            value += ' Reopened2026-10-17: MICKEY MOUSE SHOP,Kota Jakarta Utara,same295.000/Habis,stale19–20August delivery; One Two Three Music Store,same city,same411.485,stale16–17September delivery. Earlier shop-holiday observations retain their original date; latest extraction does not expose that label. Neither proves current checkout stock.'
+        section += '| '+f['field']+' | '+value+' |\n'
+    section += '\n<!-- comparison evidence ends -->\n\n### Current primary-source review\n\nChecked **2026-10-17**: [Manufacturer downloads](https://www.m-vave.com/download) explicitly names H8 in desktop CubeSuite support with Windows/Mac links and USB connection. Its separate mobile CubeSuite list omits H8; this does not prove incompatibility but does not establish a mobile full editor. ANN/NAM tools elsewhere on that page are not assigned to H8. No executable/archive downloaded.\n\n[Sinco-authored H8 numbered manual text](https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual), FCC2ARCP-H8, publishedMarch2022, reopened with the same IR-loading/technical sections. It explicitly provides locations1–10, mic-distance adjustment, factory IR and factory-preset restore. Garbled mass1219 remains unusable as a verified measurement; USB/output subtype ambiguity is not silently repaired from OCR. No generated mirror FAQ used or original image inspection claimed.\n\n[Exact MICKEY MOUSE SHOP offer](https://shopee.co.id/Efek-Gitar-CUVAVE-H8-Multi-Effects-Soundcard-Headphone-Amplifier-Guitar-Pedal-Instrument-i.19700013.15896058200),shop19700013/item15896058200,Kota Jakarta Utara,again shows295.000/Habis. [Exact One Two Three Music Store offer](https://shopee.co.id/Efek-Gitar-CUVAVE-H8-Multi-Effects-Soundcard-Headphone-Amplifier-Guitar-Pedal-Instrument-i.1505062399.28235905225),shop1505062399/item28235905225,same city,again shows411.485. Both are indexed historical asks with stale delivery dates; no range, used-price inference or live-stock guarantee. Condition grade, accessory bundle,warranty region,delivered charges,vouchers and seller authenticity remain unverified. Late-delivery compensation is not a purchase discount.\n\nComplete original body and supporting facts retain all URLs,dates,ownership distinctions,garbled-weight warning and IR-versus-capture distinction. No files/dependencies downloaded. Remaining: original-image mass/connector verification,battery capacity,IR format/sample limits,USB channel/driver/OS details,current editor scope and qualified current local offers.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file] = [model]
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['CUVAVE H8'],model_name=model,brand='CUVAVE',destination=brand_file+'#h8',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete H8 finding and supporting facts retained; desktop CubeSuite support and separate qualified Shopee asks rechecked; weight/connector/mobile-editor gaps preserved.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='VING Flybro FB-100 — complete legacy consolidation',task='Read full FB-100 finding and supporting owner comparison; consolidate losslessly in root VING.md. Preserve VING/Flybro identity,400/450g and power-source conflicts, shared FS/EXP socket, developer-app evidence and price discrepancies. Check primary and Shopee evidence; commit before next model. Then consolidate Roland GR-55 and continue fresh discovery/unresolved-field research.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [CUVAVE.md](CUVAVE.md) |H8 |\n| [JOYO.md](JOYO.md)')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=None
+    payload=dict(model_id='h8',model=model,inputs=inputs,outputs=outputs,new_files=[brand_file],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview H8 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'h8':
+        return plan_h8()
     if model_id == 'play-acoustic':
         return plan_playacoustic()
     if model_id == 'voicelive-play':
@@ -1214,10 +1274,13 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['CUVAVE.md', 'TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'h8':
+        print(research_tools.git('commit', '-m', 'research(cuvave): consolidate H8 and verify desktop CubeSuite support'))
+        return
     if model_id == 'play-acoustic':
         print(research_tools.git('commit', '-m', 'research(tchelicon): consolidate Play Acoustic and preserve firmware limits'))
         return

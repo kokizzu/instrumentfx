@@ -549,3 +549,11 @@ consolidation-apply-play-acoustic:
 	python3 scripts/consolidation_tools.py apply play-acoustic
 consolidation-commit-play-acoustic:
 	python3 scripts/consolidation_tools.py commit play-acoustic
+
+.PHONY: consolidation-plan-h8 consolidation-apply-h8 consolidation-commit-h8
+consolidation-plan-h8:
+	python3 scripts/consolidation_tools.py plan h8
+consolidation-apply-h8:
+	python3 scripts/consolidation_tools.py apply h8
+consolidation-commit-h8:
+	python3 scripts/consolidation_tools.py commit h8
