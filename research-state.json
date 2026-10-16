@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-V primary follow-up",
-    "task": "Initial vocal-only profile saved from identity-checked manufacturer manual;officialdirect502. Next verify technical specs,power,controls and effect styles;commit before distinct VK/VG leads.",
+    "task": "PERFORM-V styles,memory,HIT,Talk and RoomSense now verified and saved. Next resolve manufacturer technical page,power,dimensions,controls/display;commit useful findings before distinct VK/VG leads.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -2774,7 +2774,25 @@
         "current software/USBaudio",
         "imports",
         "live restrictions"
-      ]
+      ],
+      "preset_live_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://www.bhphotovideo.com/lit_files/1188880.pdf",
+        "revision": "Firmware1.0/reference2015-11-17 matches existing manufacturer-authored mirror and official indexed identity",
+        "pages": "18–25,38,42",
+        "resolved": [
+          "Three factory styles per onboard effect plus imported style",
+          "Three editable preset locations with automatic save",
+          "HIT layered-effect toggle and independent state edits",
+          "Talk retains Tone and AUX;hold locks panel and mutes outputs",
+          "RoomSense headphone practice mutes XLR"
+        ],
+        "remaining": [
+          "Technical final page extraction incomplete;screenshot failed",
+          "Power/dimensions/control count/display",
+          "Factory initial fill/current software/import formats"
+        ]
+      }
     }
   ],
   "consolidation_and_price_findings": [
