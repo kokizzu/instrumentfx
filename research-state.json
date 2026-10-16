@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "B3 primary follow-up / fresh Shopee discovery",
-    "task": "B3 manual USB/live follow-up saved; loop persistence resolved. Continue physical controls, firmware/category counts and qualified offers or fresh Shopee discovery. Commit each model before the next.",
+    "task": "B3 firmware bugs/version dates saved; shop-only used lead now has item41075001096 but item/variation retrieval failed. Continue physical controls/category counts and exact-offer checks or fresh discovery. Commit each model before next.",
     "next_models": [],
     "after_queue": "Continue exact Shopee discovery by brand and series."
   },
@@ -1585,7 +1585,8 @@
       "sources": [
         "https://www.zoom.co.jp/node/47",
         "https://zoomcorp.com/media/documents/E_B3.pdf",
-        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/"
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/",
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf"
       ],
       "offers": [
         {
@@ -1639,6 +1640,25 @@
           "Pedal output volume excludes drums/loop; invertible min/max; FS01 and reverse flow"
         ],
         "remaining": "Physical controls,exact switch gestures,screen/category and previously saved gaps"
+      },
+      "firmware_followup": {
+        "checked_date": "2026-10-17",
+        "revision": "Z2I-2238-01",
+        "v110": "May2013 rhythm hi-hat/tempo and Z-Syn excess-input silence fixes; Win8/USB3 host compatibility",
+        "v120": "September2014 MonoPitch continuous Shift output-muting fix",
+        "installed_version": "unknown"
+      },
+      "unresolved_offer_lead": {
+        "shop": "1220839369",
+        "item": "41075001096",
+        "display_model_id": "282026540893",
+        "seller": "Segalasementara.Fx°",
+        "shop_url": "https://shopee.co.id/gyulalis",
+        "idr": 1999999,
+        "condition": "shop title used",
+        "access": "Last-month shop index; exact item retrieval cache miss both URL forms",
+        "stock_variant_working_region_bundle_warranty_shipping_tax_voucher": "unverified",
+        "accepted_used_new_price": false
       }
     }
   ],

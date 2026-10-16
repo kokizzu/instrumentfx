@@ -1449,6 +1449,7 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 | IR / NAM / capture | User IR,native/converted NAM and capture imports unestablished. Factory cabinets do not prove import capability. | Unresolved |
 | Editor / platforms | Edit&Share Windows XP/Vista/7/8/8.1/10 and Mac10.9–10.12. Firmware1.20 updaters and Windows ASIO2.0.1 driver are separate. Current OS/mobile compatibility unknown. | [Support][B3-D] |
 | Looper / rhythms / live | 40s maximum,20s with Undo enabled; overdub/erase and rhythm synchronization. Changing TIME or tempo and switching power off erase the loop; Home screens preserve it. Undo/redo affects last overdub. Stop modes: immediate,end-of-loop,fade-out. Rhythm recording uses precount and quantization. 41 rhythms; tempo40–250. Scenes,trails and exact switch gestures unresolved. | [Manual][B3-M] pp26–29; [Product][B3-P] |
+| Firmware / known issues | History Z2I-2238-01:1.00 production November2011;1.10 May2013 fixes rhythm hi-hat/tempo and Z-Syn silence with excessive input, adds Windows8/USB3.0 host support. Version1.20 September2014 fixes output muting during continuous MonoPitch Shift operation. Offered unit version unknown; host compatibility does not establish USB3 transfer speed. | [Firmware history][B3-F] |
 | Source conflict | Frequency response: product +1/−6dB versus indexed manual +1/−3dB,20Hz–20kHz at10kΩ. Preserve discrepancy; no measured resolution. | [Product][B3-P]; [Specifications][B3-S] |
 
 ### Separate IDR hardware offers
@@ -1464,7 +1465,7 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 
 **Rp1,750,000**, seller **jakartamusicstore**, Kota Jakarta Selatan; shop103358249/item6955032247. Exact originalB3 title; **Habis**. Checked2026-10-17; last-week cached direct body is JS-limited,9–10Oct delivery stale. Condition,working state,selected variant,adapter/bundle,warranty,shipping,tax,voucher and delivered total unknown. Late-delivery10k compensation is not hardware discount. Not assigned to used/new columns. [Exact item](https://shopee.co.id/Zoom-B3-Preamp-Bass-effects-digital-efek-DI-Overdrive-EQ-Compressor-Octaver-Chorus-i.103358249.6955032247).
 
-Ambiguous B3/B3N title from STONED MAGHRIB,Depok,shop65245619/item17399777546 showed Rp1,700,000 and Habis; not attributed to either model. [Listing](https://shopee.co.id/Efek-Pedal-Bass-Zoom-B3-B3N-not-NUX-Boss-MXR-i.65245619.17399777546). Shop-level Segalasementara.Fx°/gyulalis usedB3 Rp1,999,999 lacks resolved item link; not accepted as exact offer.
+Ambiguous B3/B3N title from STONED MAGHRIB,Depok,shop65245619/item17399777546 showed Rp1,700,000 and Habis; not attributed to either model. [Listing](https://shopee.co.id/Efek-Pedal-Bass-Zoom-B3-B3N-not-NUX-Boss-MXR-i.65245619.17399777546). Earlier shop-only Segalasementara.Fx°/gyulalis usedB3 Rp1,999,999 lead was followed up: shop1220839369/item41075001096 resolved from its product link, with display_model_id282026540893. Shop index last month labels it used and shows4 sold; exact item retrieval failed both with and without query parameters. Selected variation,working condition,stock,region,bundle,warranty,shipping/tax/voucher and delivered total remain unverified. Retained outside used/new price projections pending item verification. [Shop](https://shopee.co.id/gyulalis) · [Item](https://shopee.co.id/EFEK-BASS-EFEK-BASS-SECOND-EFEK-BASS-BEKAS-EFEK-GITAR-SECOND-EFEK-GITAR-BEKAS-ZOOM-B3-EFEK-GITAR-ZOOM-EFEK-ZOOM-B3-BEKAS-ZOOM-B3-ZOOMB3-i.1220839369.41075001096).
 
 Remaining: physical counts,screen details,category subtotals,connector formats,power draw,imports/MIDI,current software,exact looper switch gestures/scenes/trails and qualified current offers.
 
@@ -1472,3 +1473,5 @@ Remaining: physical counts,screen details,category subtotals,connector formats,p
 [B3-M]: https://zoomcorp.com/media/documents/E_B3.pdf
 [B3-S]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B3.pdf
 [B3-D]: https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/
+
+[B3-F]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf
