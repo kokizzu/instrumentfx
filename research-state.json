@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 96,
-  "legacy_only_model_count": 30,
+  "canonical_root_model_count": 97,
+  "legacy_only_model_count": 29,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -31,7 +31,7 @@
     "model": "Fresh Shopee discovery — no model selected",
     "task": "Continue fresh Shopee discovery by brand/series, lossless legacy consolidation and unresolved-field research; use current counts.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 30 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 29 legacy-only models."
   },
   "new_findings": [
     {
@@ -5853,6 +5853,135 @@
         "effects/shopee-multifx-4.md"
       ],
       "status": "Consolidated; technical verification remains partial"
+    },
+    {
+      "models": [
+        "MOOER GE200 Pro Li"
+      ],
+      "model_name": "GE200 Pro Li",
+      "brand": "MOOER",
+      "destination": "MOOER.md#ge200-pro-li",
+      "source": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MOOER-GE200-PRO-LI",
+      "source_sha256": "fae554b503a0a3d9c0d9911959c2b5c487724e5769ca0b040faa44ce0f117705",
+      "renamed_references": [
+        "M",
+        "P",
+        "J",
+        "N",
+        "D",
+        "A",
+        "G",
+        "S",
+        "R"
+      ],
+      "retained_comparison_facts": [
+        {
+          "field": "K/F/B",
+          "value": "**2/5/7 + module-button row**; complete button total ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "External expression / toe switch",
+          "value": "EXP2 TRS; built-in toe switch yes",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Published dimensions, mm; weight",
+          "value": "**324×162×58 (L×W×H);1.789kg**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Size classification",
+          "value": "Large under either orientation",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Display",
+          "value": "**3.5-inch color LCD; touch ?**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Blocks and category choices",
+          "value": "Same expressly shared Pro-family architecture; FXA/FXB overlap, not unique-effect totals",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**255=85×3**; split ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM / proprietary models",
+          "value": "Same documented IR/MNRS capacities; family A2 conversion, firmware/region restrictions retained",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic simulator",
+          "value": "Current algorithms ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Audio and control ports",
+          "value": "Same expressly documented ports; no mic/phantom or analog aux input",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Power / battery",
+          "value": "**9V/3A center-negative**;**7.4V3000mAh22.2Wh battery**;about5.5h rated,manual charge2h10min off;USB power ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Configuration and recording",
+          "value": "Same functions. Old desktop minimums versus current regional updater requirements differ; see finding rather than assume identical installers",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Practice/live",
+          "value": "Same plus customizable ambient LED strip; not an extra screen",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Shopee retail/indexed evidence",
+          "value": "**Rp6.896.000**, seller name Nafiri Music Store; indexed, direct reopen failed",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Separate local retailer / qualification",
+          "value": "Older GMI **Rp6.895.000** retained separately; current stock unverified",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        }
+      ],
+      "link_normalizations": {
+        "(2026-10-14-mooer-ge200-pro.md)": "(MOOER.md#ge200-pro)"
+      },
+      "supporting_sources": [
+        "effects/shopee-multifx-4.md"
+      ],
+      "status": "Consolidated; technical verification remains partial"
     }
   ],
   "discovery_leads": [
@@ -6107,7 +6236,8 @@
       "GE150 Pro Li",
       "GE100 Pro",
       "GE100 Pro Li",
-      "GE200 Pro"
+      "GE200 Pro",
+      "GE200 Pro Li"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -6244,7 +6374,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "30 legacy-only models remain;96 root-canonical. Full migration and research incomplete.",
+    "warning": "29 legacy-only models remain;97 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -6314,8 +6444,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 96,
-    "legacy_only_models": 30,
+    "canonical_root_models": 97,
+    "legacy_only_models": 29,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -7087,10 +7217,9 @@
       ]
     },
     "MOOER::GE200 Pro Li": {
-      "link": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+      "link": "MOOER.md#ge200-pro-li",
       "source_files": [
-        "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
-        "effects/shopee-multifx-4.md"
+        "MOOER.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-14-mooer-ge200-pro-li.md"
