@@ -352,3 +352,58 @@ Checked2026-10-16;exact retail-style hardware pages,not condition-confirmed used
 | Retail-style / princemusicstore,Depok | Rp9.300.000,index/reopened same ask;title Ready Stock is seller claim,body Layanan Tidak Tersedia. Delivery unavailable in snapshot,not proof of nationwide service/stock. Adapter/bundle unspecified. | [108313506 /27631943239](https://shopee.co.id/-Ready-Stock-Boss-ve-500-vocal-effect-performance-pedal-Boss-ve500-original-i.108313506.27631943239) |
 
 Remaining:screen diagonal/color/touch;full subtype counts;explicitUSB audio/power/battery/DCpolarity,current softwareOS;imports;usedcondition/current stock/bundle proof. No original source deleted.
+
+## VE-22
+
+Vocal multi-effects;consolidated/researched2026-10-16;partial verification.
+
+### VE-22 — preserved original comparison
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimensions are **W×D×H, mm**. K/F/B = rotary controls / main footswitches / separate buttons; rear power, phantom and ground-lift toggles are additional. Used and new prices are separate **USD US-market asking/listing observations**, not sold-price statistics. Tax, shipping and condition matter.
+
+| Required field | Original observation (2026-10-14) |
+|---|---|
+| External expression | EXP or up to 2 external footswitches |
+| K/F/B | 6/3/2 |
+| Dimensions; weight | 218×143×64; 910 g incl. batteries |
+| Size class | Medium |
+| Used USD | $299.99, Great [P2] |
+| New USD | $399.99 [P1] |
+| Processing architecture; categories / choices | **39 effect types**; maximum simultaneous count and per-category distribution ? |
+| Factory / user storage | **50 P + 99 U** |
+| Harmony, pitch, synth-like and acoustic functions | Harmony/doubling, pitch correction, distortion, lo-fi, radio and ring modulation; key selected manually |
+| IR / NAM loading | Neither established |
+| Physical audio/control ports | XLR mic **48 V/10 mA max**; 2×XLR out; 3.5 mm phones/line and aux; CTL/EXP; USB-C |
+| Battery / power / USB-powered? | 4 AA or PSA; 260 mA with phantom /180 mA without; USB power not listed |
+| Configuration apps versus USB functions | USB audio for computer/mobile; full editor not established; drivers are not an editor |
+| Looper / live considerations | **37 s** looper; stereo, dual mono or wet/dry + dry output options |
+
+Original sources: [source](https://www.boss.info/global/products/ve-22/specifications/); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series); [source](https://www.sweetwater.com/store/detail/VE22--boss-ve-22-vocal-effects-and-looper-pedal); [source](https://www.guitarcenter.com/BOSS/Vocal-Processors.gc). P1:Sweetwater new USD399.99,bundles/open-box excluded;P2:GC used USD299.99 Great,not completed sale or guaranteed stock;both checked2026-10-14. No currency conversion. [Complete original](effects/vocal.md) retained unchanged.
+
+### VE-22 — current manufacturer checks
+
+| Required field | Evidence / limits (2026-10-16) |
+|---|---|
+| Physical controls / expression | Six knobs:PHONES/LINE,MEMORY,HARMONY,EFFECT,ECHO,MIC SENS;three footswitches;MENU/EXIT two buttons. Push-knob functions not extra separate buttons. External TRS EXP or two switches;no builtin expression/toe pedal. [VE22-S] |
+| Display / body |320×240 graphic color LCD;diagonal/touch unspecified.218×143×64mm,910g including batteries. [VE22-S] |
+| Processing / memory / looper |39 effect types;50preset+99user=149 memories;37s phrase loop. Categories are choices,not39 simultaneous blocks;full distribution/maximum remains unverified. [VE22-S] |
+| Ports / power | XLR mic48V10mAmax;two XLR outs;mini phones/line andAUX;TRS CTL/EXP;USB-C;DC.260mA phantom-on/180mA off;four alkalineAA about6h/9h respectively;PSA-S optional.USB bus power andDC voltage/polarity unverified. [VE22-S] |
+| USB modes / routing | VENDOR for Windows/macOS requires VE-22 driver;GENERIC for iOS uses standard functionality with limits. Lightning needs camera adapter. MIX IN enters final chain stage;loopback sends computer input back to host. DRY OUT and computer-to-effects INPUT controls are VENDOR-only;do not assume these in GENERIC. [VE22-M] |
+| Control / live | ASSIGN can operate up to8parameters from one controller,stored per memory after WRITE. This is not an8-effect block count. [VE22-M] Stereo/dualmono/wetdry output observations retained above;exact mode map still requires detailed verification. |
+| Editor / synth / imports | Full editor unestablished;USB driver not editor proof. Harmony/doubling,pitch correction and special voice effects retained above;IR,native NAM,converted NAM and proprietary capture unestablished. No guitar-processing membership inferred. |
+
+[VE22-S]: https://www.boss.info/global/products/ve-22/specifications/
+[VE22-M]: https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf
+
+### VE-22 — separate IDR asking-price evidence
+
+Checked2026-10-16;cached exact hardware pages,not live checkout/stock. Condition,shipping/tax,warranty region and seller affiliation unconfirmed. Late-delivery vouchers are not price discounts.
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no exact condition-verified used IDR offer established. USD used history above is not IDR evidence. | — |
+| Retail-style preorder / Boss Official Shop,Tangerang Selatan | Search Rp7.769.000;reopened cached body Rp8.075.000 versus crossedRp9.500.000,15% off,preorder ships3days/15Sep estimated delivery. Preserve both snapshots,not unconditional price range or live preorder confirmation. Bundle unspecified. | [341882414 /25865374182](https://shopee.co.id/BOSS-VE-22-Vocal-Performer-Effects-i.341882414.25865374182) |
+| Unresolved retail variations / Bandung Music Gallery,Bandung | Rp8.070.000–8.860.000,two variations;26–28Aug cached delivery. Variation labels/bundle not exposed;neither endpoint accepted as standalone unit price. | [394955725 /24381975794](https://shopee.co.id/Boss-VE-22-Vocal-Effect-Performer-VE22-VE-22-Efek-Vokal-i.394955725.24381975794) |
+| Unresolved indexed variations / Artech item | Indexed Rp8.070.000–8.860.000;direct reopen cache miss. Seller ID31171541 matches previously observed Artech Music,Bekasi,but current page identity/bundle/variant/stock not verified. Neither endpoint accepted as unit-price bound. | [31171541 /29802327202](https://shopee.co.id/Boss-VE-22-VE22-VE-22-Vocal-Effect-Performer-Efek-Vocal-i.31171541.29802327202) |
+
+Remaining:simultaneous/category totals,output-mode detailed mapping,screen diagonal/touch,USB channels/bitdepth/OS/editor,USB power/DC voltage/polarity,imports,usedcondition/current stock/variation bundles. No source deleted.
