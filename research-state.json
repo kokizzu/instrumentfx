@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "ME-25 owner-manual follow-up / fresh Shopee discovery",
-    "task": "ME-25 partialsaved;faultysoldoutaskexcludedfromworkingprices. Resolveownermanualports/USB/controls orcontinueexactShopeediscovery;commiteachmodelbeforethenext.",
+    "task": "ME-25 officialmanual followup saved:expression switch,USB/AUX restrictions,loop erasure andautomatic routing. Continue remainingprimaryfields orfresh exactShopee discovery;commit eachmodel before next.",
     "next_models": [],
     "after_queue": "No exhaustivecoverageclaim;ME-25nottoaddagain."
   },
@@ -1459,7 +1459,8 @@
       "classification": "guitar; bass unclassified",
       "sources": [
         "https://www.boss.info/us/products/me-25/",
-        "https://cdn.roland.com/assets/media/pdf/ME-25_Training_Guide.pdf"
+        "https://cdn.roland.com/assets/media/pdf/ME-25_Training_Guide.pdf",
+        "https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-25_PL.pdf"
       ],
       "offers": [
         {
@@ -1477,7 +1478,7 @@
         }
       ],
       "unresolved": [
-        "toe/externalexpression",
+        "external expression",
         "fullports",
         "powerpolarity/USB",
         "screen",
@@ -1489,7 +1490,20 @@
         "USBpaths",
         "looper/drums/scenes",
         "qualifiedworkingused/newoffers"
-      ]
+      ],
+      "manual_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-25_PL.pdf",
+        "identity": "Copyright2010 BOSS,ME-25 model-specific Polish manual",
+        "resolved": [
+          "Expression switch sensitivity calibration p12",
+          "PHONES speaker simulation/inputplugpower/AUX level atsource p2",
+          "AUXexcludedfromUSBrecording;USBspeaker-simactivation;hostreturnlevel p11",
+          "Stop-erasesloop/memorychangeswhilerecording p10",
+          "Automatic effectorder changes p12"
+        ],
+        "remaining": "Fullsocketformats,USBchannel/MIDI/power,externalEXP andother savedgaps;translationnotfirmwarecertification"
+      }
     }
   ],
   "consolidation_and_price_findings": [
