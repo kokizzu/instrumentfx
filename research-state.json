@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-VE primary follow-up",
-    "task": "Continue PERFORM-VE Rev1.2 physical connector/control inventory, power and display; resolve MIDIclock contradiction if newer primary documentation exists. USB5in6out and3presets saved. No model fullyverified.",
+    "task": "PERFORM-VE: finish full physical control/connector inventory,body/power/display andcategory accounting. Preserve MIDIclock conflict; app availability andprices remainunverified. Commit before anothermodel.",
     "next_models": [],
     "after_queue": "FreshShopeediscovery remainsnecessary."
   },
@@ -3203,6 +3203,10 @@
         "revision": "Manufacturer-authored Rev1.2 ©2017;title/p4 match officialindex",
         "verified": "Three saved presets;5in6out USB routing;app sample restriction;looper quantize/tempo and MIDIclock conflict",
         "remaining": "Duration,physicalinventory,power,categorycount andliveprices remainpartial"
+      },
+      "physical_followup": {
+        "verified": "One rotary,LED ring;XLR phantom input,balanced6.35mm outputs,3.5mmAUX,headphones,PEDAL,miniUSB,5pinMIDIin;globalmix volatile;headphoneadjust requireslooperasure",
+        "limits": "Text-derived partial panelinventory;no totalbuttoncount orscreenabsence assertion"
       }
     }
   ],
