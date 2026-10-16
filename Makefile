@@ -1275,3 +1275,7 @@ research-commit-perform-ve:
 .PHONY: research-commit-stomplab2g
 research-commit-stomplab2g:
 	python3 scripts/research_tools.py commit-stomplab2g
+
+.PHONY: research-commit-g1xon
+research-commit-g1xon:
+	python3 scripts/research_tools.py commit-g1xon

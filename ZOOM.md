@@ -1496,3 +1496,43 @@ Remaining: physical counts,screen details,category subtotals,connector formats,p
 [B3-F]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf
 
 [B3-J]: https://www.zoom.co.jp/ja/products/bass/b3-bass-effects-amp-simulator-pedal
+
+## G1Xon
+
+Guitar multi-effects,distinct from G1on and G1X FOUR. Checked2026-10-17;partial. Ownership andbass suitability unestablished. Current manufacturer page marks discontinued.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | **Built-in expression** with per-patch range/inversion. Toe/external support pending. | [Zoom product][G1XO-P] |
+| K/F/B | Separate controls pending manual inventory. | Unresolved |
+| Display | **Backlit dot-matrix LCD**;diagonal,color,touch unverified. | [Zoom product][G1XO-P] |
+| Dimensions / mass | **237×154.8×50mm W×D×H;640g without batteries**. Medium footprint. | [Zoom product][G1XO-P] |
+| Processing / category choices | **Five simultaneous**,reorderable. Product advertises100 effects;older2013 manual specifiesG1Xon80. Product category subtotals11/12/22/16/14 do not reconcile100;revision-specific list audit pending. | [Product][G1XO-P];[Manual specifications][G1XO-M] |
+| Factory / user memory | **100 writable locations,10×10**;Auto Save optional,Pre Select retains current sound while browsing. Factory-filled subset pending. | [Zoom product][G1XO-P] |
+| Synth / acoustic | Product describes acoustic simulation. Synth-specific algorithms pending exactlist. | [Zoom product][G1XO-P] |
+| I/O | Mono6.35mm input,stereo3.5mm AUX,shared stereo6.35mm output/headphones;USB andDC. Complete panel audit pending. | [Zoom product][G1XO-P] |
+| Power / battery / USB | **9V DC center-negative,500mA AD-16 supply;4AA alkaline/NiMH;USB power**. 20h alkaline;manual qualifies backlightoff. Measured draw unknown. | [Product][G1XO-P];[2013 manual][G1XO-M] |
+| IR / NAM / capture | UserIR,native/converted NAM andcapture imports unverified. | Unresolved |
+| Editor / software | USB firmware update;Windows/Mac1.21 updaters listed. Editor platforms/audio/MIDI pending;updater isnot editor. | [Zoom product downloads][G1XO-P] |
+| Looper / drums / live | **30s looper,up to64beats;68 rhythms**,usable together. Overdub supported. Storage/routing/trails pending. | [Zoom product][G1XO-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;condition unconfirmed. | — |
+| New | Unknown;condition unconfirmed. | — |
+
+<!-- comparison evidence ends -->
+
+### Unqualified exact hardware offer
+
+[Hope Music](https://shopee.co.id/Efek-Gitar-Zoom-G1xon-i.703817770.23482842628),shop703817770/item23482842628,KotaBandung. Checked2026-10-17. Search2-month cache:Rp1,499,000–1,648,000;opened2-week cache:Rp1,299,000,crossedRp1,599,000,19% display. Three variations unidentified;condition,bundle,working state andlive stock unknown. Aug14–16 versusOct1–2 deliverydates stale. Rp10,000late-arrival compensation notpurchasevoucher;shipping/tax/checkout unknown. Price conflict retained,notqualified used/new.
+
+Broken Mati total item729907257/23651477914 atRp250,000,Habis isnotworking-unit benchmark. Mixed G1Xon/G1on item58780289/15654839389 lacks resolved modelvariant. Full discovery provenance inresearch-state.json.
+
+[G1XO-P]: https://www.zoom.co.jp/node/53
+[G1XO-M]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf
+[G1XO-C]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1xon/
