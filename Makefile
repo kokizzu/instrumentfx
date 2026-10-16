@@ -1155,3 +1155,7 @@ navigation-commit:
 .PHONY: research-commit-ms70cdr
 research-commit-ms70cdr:
 	python3 scripts/research_tools.py commit-ms70cdr
+
+.PHONY: research-commit-ms70cdrplus
+research-commit-ms70cdrplus:
+	python3 scripts/research_tools.py commit-ms70cdrplus
