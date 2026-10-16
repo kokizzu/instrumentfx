@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "M-VAVE TANK MINI complete-body audit",
-    "task": "TANK-B complete original preserved with hash verification, original v96 AM3 versus V2 v99 AM4 boundary and v46 MIDI/loopback qualifications. Next audit TANK MINI original/root and exact manufacturer evidence; commit before another model. Shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
+    "model": "M-VAVE MK-20 complete-body audit",
+    "task": "TANK MINI original body hash-verified and app/firmware limits saved. Next read complete MK-20 original/root, check exact firmware notes and required fields, commit before another model. Remaining source/shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10016,6 +10016,27 @@
       "link_normalizations": {},
       "retained_comparison_facts": [],
       "scope": "Complete original retained; original v96 AM3 and converter route qualified separately from V2 v99 AM4. Original v46 MIDI and loopback limits retained; no source retired."
+    },
+    {
+      "models": [
+        "M-VAVE TANK MINI"
+      ],
+      "model_name": "TANK MINI",
+      "destination": "M-VAVE.md#tank-mini",
+      "source": "effects/findings/2026-10-14-mvave-tank-mini.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MVAVE-TANK-MINI",
+      "source_sha256": "51cef4097903c9ed0971652fd78fb2ea4647d48aa55e5844baefbfd1e14ea539",
+      "renamed_references": [
+        "M",
+        "D",
+        "S1",
+        "S2"
+      ],
+      "link_normalizations": {},
+      "retained_comparison_facts": [],
+      "scope": "Complete original retained; exact-model mobile editor changelog and desktop index qualified. v09 index recorded with inaccessible release notes; no inferred native NAM, AM4 or hardware looper."
     }
   ],
   "discovery_leads": [
@@ -10576,11 +10597,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "M-VAVE::TANK MINI",
-          "source": "effects/findings/2026-10-14-mvave-tank-mini.md",
-          "dest": "M-VAVE.md#tank-mini"
-        },
-        {
           "model": "M-VAVE::MK-20",
           "source": "effects/findings/2026-10-14-mvave-mk-20.md",
           "dest": "M-VAVE.md#mk-20"
@@ -10725,7 +10741,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE TANK MINI complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE MK-20 complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

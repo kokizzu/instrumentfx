@@ -653,3 +653,7 @@ research-commit-tank-g-preservation:
 .PHONY: research-commit-tank-b-preservation
 research-commit-tank-b-preservation:
 	python3 scripts/research_tools.py commit-tank-b-preservation
+
+.PHONY: research-commit-tank-mini-preservation
+research-commit-tank-mini-preservation:
+	python3 scripts/research_tools.py commit-tank-mini-preservation
