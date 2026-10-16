@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Metadata redirects and technical source retirement",
-    "task": "Thirteen consolidated metadata pages now redirect to root documents with original heading anchors. Original evidence remains pinned in Git and root ledger. Next audit/map technical legacy source anchors and preserve Git-backed verification before retiring technical pages;technical gaps and fresh discovery remain.",
+    "model": "Technical source retirement",
+    "task": "G6 legacy finding redirect preserves every old heading and full pinned original;continue with other fully consolidated findings and shared-source navigation audits. Technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
-    "after_queue": "Metadata rollback is available through metadata-retirement-rollback-plan/apply;no source files deleted."
+    "after_queue": "Technical rollback: make technical-retirement-rollback-plan then make technical-retirement-apply;metadata rollback targets remain available."
   },
   "new_findings": [
     {
@@ -19783,10 +19783,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons:108 guitar,58 documented bass-capable,17 vocal; full preservation and incoming-link audit incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons:113 guitar,62 documented bass-capable,17 vocal;remaining technical retirement and field verification incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "0 legacy-only models;128 root-canonical. Full migration and research incomplete.",
+    "warning": "0 legacy-only models;135 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -29209,6 +29209,70 @@
         "incoming_before": [],
         "status": "retired_metadata_redirect",
         "rollback": "Restore only this exact path from source_commit,then remove its retired_sources entry"
+      },
+      "effects/findings/2026-10-15-zoom-g6.md": {
+        "source_commit": "de11d07a16634560a31904dcadc757ee64548115",
+        "source_sha256": "fbb5cbee6ca9f9c1940fa05c1ad94ea3fb7e15e9e793dfd8a94cd9a9d1c48bb9",
+        "redirect_sha256": "d2919a4cac4149fb746ea2de6ebb1ab91de7d0e8f4f603f49d82d603fcc0b4ff",
+        "destination": "ZOOM.md#g6",
+        "original_headings": [
+          "# Zoom G6",
+          "## Required comparison",
+          "## Price evidence in IDR",
+          "## Official sources, dates and remaining work"
+        ],
+        "incoming_before": [
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 395,
+            "target": "effects/findings/2026-10-15-zoom-g6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/findings/2026-10-15-zoom-g6.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 284,
+            "target": "effects/findings/2026-10-15-zoom-g6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/findings/2026-10-15-zoom-g6.md"
+          },
+          {
+            "source": "effects/shopee-multifx-7.md",
+            "line": 26,
+            "target": "effects/findings/2026-10-15-zoom-g6.md",
+            "fragment": "",
+            "kind": "reference",
+            "raw": "findings/2026-10-15-zoom-g6.md"
+          },
+          {
+            "source": "effects/shopee-multifx-7.md",
+            "line": 26,
+            "target": "effects/findings/2026-10-15-zoom-g6.md",
+            "fragment": "",
+            "kind": "shortcut",
+            "raw": "findings/2026-10-15-zoom-g6.md"
+          },
+          {
+            "source": "effects/shopee-multifx-7.md",
+            "line": 102,
+            "target": "effects/findings/2026-10-15-zoom-g6.md",
+            "fragment": "",
+            "kind": "shortcut",
+            "raw": "findings/2026-10-15-zoom-g6.md"
+          },
+          {
+            "source": "effects/shopee-multifx-7.md",
+            "line": 102,
+            "target": "effects/findings/2026-10-15-zoom-g6.md",
+            "fragment": "",
+            "kind": "definition",
+            "raw": "findings/2026-10-15-zoom-g6.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
       }
     },
     "metadata_retirement": {
@@ -29218,6 +29282,13 @@
       "deleted_files": [],
       "historical_anchors_preserved": true,
       "remaining": "Technical legacy pages and remaining navigation still require retirement;overall migration incomplete"
+    },
+    "technical_retirement": {
+      "status": "partial",
+      "sources": [
+        "effects/findings/2026-10-15-zoom-g6.md"
+      ],
+      "remaining": "Other technical legacy sources still require retirement audits;research remains incomplete."
     }
   },
   "deferred_work": {

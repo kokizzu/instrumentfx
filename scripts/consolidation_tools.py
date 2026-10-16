@@ -102,7 +102,7 @@ def preserved_body(source, prefix):
 def verify_preserved(state):
     for entry in state.get('consolidation_and_price_findings', []):
         if entry.get('verification_kind') == 'complete-model-rows-v1':
-            source = (ROOT / entry['source']).read_text()
+            source = research_tools.read_preserved_source(entry['source'])
             assert digest(source) == entry['source_sha256'], entry['source']
             model = entry.get('model_name', entry['models'][0].removeprefix('Zoom '))
             text = (ROOT / entry['destination'].split('#')[0]).read_text()
@@ -127,7 +127,7 @@ def verify_preserved(state):
             continue
         if entry.get('verification_kind') != 'complete-source-body-v1':
             continue
-        source = (ROOT / entry['source']).read_text()
+        source = research_tools.read_preserved_source(entry['source'])
         assert digest(source) == entry['source_sha256'], entry['source']
         if entry.get('source_section'):
             fragment = source.split('\n## ' + entry['source_section'] + '\n', 1)[1].split('\n## ', 1)[0]
@@ -138,7 +138,7 @@ def verify_preserved(state):
         for old, new in entry.get('link_normalizations', {}).items():
             body = body.replace(new, old)
         for path, expected in entry.get('supporting_source_hashes', {}).items():
-            assert digest((ROOT / path).read_text()) == expected, path
+            assert digest(research_tools.read_preserved_source(path)) == expected, path
         for paragraph in entry.get('retained_context', []):
             assert paragraph in text, 'Lost historical context'
         for url in entry.get('retained_source_urls', []):
