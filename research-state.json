@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS shared-source consolidation",
-    "task": "Advanced-modeler content union verified:90fields,10groups,19URLs;source retained with10incominglinks. Next read BOSS shared source and audit complete row/context preservation,then remaining legacy sources/navigation and fresh Shopee discovery. Do not claim complete migration or fully verified catalogue.",
+    "model": "Original BOSS historical shared source audit",
+    "task": "Current BOSS shared source union verified (147fields,12groups,7primaryURLs),retained with30incominglinks. Next read full guitar-boss.history-2026-10-14.md and verify all original facts/context/URLs against root destinations,then remaining legacy sources/navigation and fresh Shopee discovery. Overall work incomplete.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -17272,6 +17272,359 @@
         ],
         "retirement_authorized": false
       }
+    },
+    "shared_boss_audit": {
+      "date": "2026-10-17",
+      "source": "effects/guitar-boss.md",
+      "source_sha256": "da4dfa7448436fd3977f9581b721aedfbc255dc9ee68c810508584939eb9005a",
+      "complete_source_read": true,
+      "source_retired": false,
+      "remaining_work": "Current BOSS shared source verified:147fields/7models,12sharedgroups,7primaryURLs.30incominglinks,no fragments,28resolvingoutgoing references. Original2026-10-14history source requires its own full union audit;navigation/provenance/shortcut/HTML/code/external references remain before retirement. Other sources,fresh discovery and technical gaps remain.",
+      "prose_union": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-boss-union",
+        "source_sha256": "da4dfa7448436fd3977f9581b721aedfbc255dc9ee68c810508584939eb9005a",
+        "destinations": [
+          "BOSS.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "paragraph_groups": 12,
+        "external_urls": 7,
+        "model_records": 7,
+        "model_fields": 147,
+        "normalization": "Resolve reference links/local paths;retain other wording and dated context.",
+        "source_retired": false
+      },
+      "explicit_link_audit": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-boss-links",
+        "incoming_occurrences": 30,
+        "incoming": [
+          {
+            "source": "BOSS.md",
+            "line": 530,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 616,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 633,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 714,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 766,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 846,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 892,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 977,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1027,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1110,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1156,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1239,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1289,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1372,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 78,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 119,
+            "link": "effects/guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/COVERAGE.history-2026-10-14.md",
+            "line": 12,
+            "link": "guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/README.md",
+            "line": 21,
+            "link": "guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/RESUME.md",
+            "line": 9,
+            "link": "guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/bass.md",
+            "line": 74,
+            "link": "guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+            "line": 3,
+            "link": "../guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-15-boss-gt1000-display-idr.md",
+            "line": 3,
+            "link": "../guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-15-boss-gt1000core-display-idr.md",
+            "line": 3,
+            "link": "../guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-15-boss-gx1-display-idr.md",
+            "line": 3,
+            "link": "../guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-15-boss-gx10-display-idr.md",
+            "line": 3,
+            "link": "../guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-15-boss-gx100-display-idr.md",
+            "line": 3,
+            "link": "../guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-15-boss-me90-display-idr.md",
+            "line": 3,
+            "link": "../guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-compact.md",
+            "line": 146,
+            "link": "guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-floorboards.md",
+            "line": 3,
+            "link": "guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-indonesia.history-2026-10-14.md",
+            "line": 80,
+            "link": "guitar-boss.md",
+            "kind": "inline",
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "exists": true
+          }
+        ],
+        "outgoing_occurrences": 28,
+        "missing_outgoing": [],
+        "incoming_fragments": [],
+        "headings": [
+          {
+            "line": 1,
+            "heading": "BOSS guitar / multi-instrument multi-effects"
+          },
+          {
+            "line": 11,
+            "heading": "1. Displays"
+          },
+          {
+            "line": 25,
+            "heading": "2. Hardware, size and expression"
+          },
+          {
+            "line": 27,
+            "heading": "No built-in expression"
+          },
+          {
+            "line": 33,
+            "heading": "Built-in expression"
+          },
+          {
+            "line": 46,
+            "heading": "3. Used and retail IDR evidence"
+          },
+          {
+            "line": 62,
+            "heading": "4. Processing, memory, IR and sound functions"
+          },
+          {
+            "line": 76,
+            "heading": "5. Connections, power and applications"
+          },
+          {
+            "line": 90,
+            "heading": "6. Sources and individual follow-up commits"
+          }
+        ],
+        "unmatched_markdown_literal_mentions": [
+          {
+            "source": "effects/MIGRATION.md",
+            "line": 22
+          }
+        ],
+        "limitations": [
+          "Lexical explicit inline/reference/definition links; definition and use are separate occurrences.",
+          "Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.",
+          "No link rewrite, anchor mapping, source deletion or external availability verification."
+        ],
+        "retirement_authorized": false
+      }
     }
   },
   "deferred_work": {
@@ -17355,7 +17708,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS shared-source consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Original BOSS historical shared source audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

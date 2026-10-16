@@ -1652,7 +1652,7 @@ def audit_floorboard_union():
 
 
 def audit_compact_links(kind='compact'):
-    assert kind in ('compact','nux','bass','vocal','advanced')
+    assert kind in ('compact','nux','bass','vocal','advanced','boss')
     """Inventory explicit Markdown links and literal references before source retirement."""
     import urllib.parse
     research_tools.identity()
@@ -1799,7 +1799,46 @@ def plan_advanced_hxe(model='HX Effects'):
     Path('/tmp/instrumentfx-advanced-'+('flex' if flex else 'hxe')+'-plan.json').write_text(json.dumps(report,indent=2)+'\n')
     print(model+':15 fields/3rows,'+str(len(contexts))+' shared paragraphs,'+str(len(urls))+' model URLs;exact omissions='+str(len(report['missing_exact_fields'])))
 
+
+def audit_boss_shared(verify=True):
+    research_tools.identity()
+    path = 'effects/guitar-boss.md'
+    source = (ROOT/path).read_text()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    assert digest(source) == state['migration']['shared_boss_audit']['source_sha256']
+    destination = (ROOT/'BOSS.md').read_text()
+    models = ('GT-1000CORE','GX-10','GT-1','GX-1','ME-90','GX-100','GT-1000')
+    records = []
+    for model in models:
+        facts = []
+        for headers, rows, context in comparison_views.tables(source):
+            for row in rows:
+                if comparison_views.norm(row[0]) == comparison_views.norm(model):
+                    facts += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
+        assert len(facts) == 21, model+' row scope changed'
+        section = destination.split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
+        records.append(dict(model=model,destination='BOSS.md#'+model.lower(),facts=facts,missing_fields=[f for f in facts if f['value'] not in section]))
+    refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)',source,re.M)}
+    groups = [p for p in re.split(r'\n\s*\n',source) if p.strip() and not re.match(r'^[#|]',p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
+    normalized = [comparison_views.relink(p,path,refs) for p in groups]
+    union = destination+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
+    missing = [p for p in normalized if p not in union]
+    urls = sorted(set(re.findall(r'https?://[^\s)]+',source)))
+    report = dict(source=path,source_sha256=digest(source),records=records,model_fields=147,paragraph_groups=len(groups),normalized_missing_groups=missing,external_urls=urls,missing_external_urls=[u for u in urls if u not in union],retirement_authorized=False)
+    Path('/tmp/instrumentfx-boss-union-plan.json').write_text(json.dumps(report,indent=2)+'\n')
+    if verify:
+        assert not any(r['missing_fields'] for r in records), 'Missing BOSS fields'
+        assert not missing and not report['missing_external_urls'], 'Missing BOSS context/URLs'
+        verify_preserved(json.loads((ROOT/'research-state.json').read_text()))
+    print(json.dumps(dict(models=len(records),fields=147,missing_model_fields=sum(len(r['missing_fields']) for r in records),paragraph_groups=len(groups),missing_groups=len(missing),external_urls=len(urls),missing_urls=report['missing_external_urls']),indent=2))
+
 if __name__ == '__main__':
+    if sys.argv[1:] == ['audit-boss-links']:
+        audit_compact_links('boss')
+        raise SystemExit(0)
+    if sys.argv[1:] in (['plan-boss-union'],['audit-boss-union']):
+        audit_boss_shared(sys.argv[1] == 'audit-boss-union')
+        raise SystemExit(0)
     if sys.argv[1:] in (['plan-advanced-union'], ['audit-advanced-union']):
         audit_nux_union(sys.argv[1] == 'audit-advanced-union', 'advanced')
         raise SystemExit(0)

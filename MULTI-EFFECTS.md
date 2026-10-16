@@ -151,3 +151,31 @@ The following groups preserve the2026-10-14 source context,with local links norm
 - P2: [TONEX ONE official indexed listing](https://www.ikmultimedia.com/products/tonexone/), $199.99 observation checked **2026-10-14**. The corresponding unprefixed product page did not expose a price in extracted text, so this is an indexed observation rather than confirmed checkout pricing.
 
 Other high-end and compact modelers remain explicitly listed in the [coverage backlog](effects/COVERAGE.md). These six records are not a ranking and do not represent the complete market.
+
+### Historical BOSS shared-source qualifications
+
+The following paragraphs preserve the2026-10-15 shared comparison context and earlier2026-10-14 technical dates,with local links normalized to repository root. The final next-model/migration statement is historical;current work is in research-state.json. These statements do not certify present stock or complete specification verification.
+
+[Home](effects/README.md) · [Scope](effects/SCOPE.md) · [Bass-specific models](effects/bass.md) · [Compact alternatives](effects/guitar-compact.md) · [Resume](effects/RESUME.md)
+
+**Seven existing models; display and IDR review completed 2026-10-15 with explicit evidence gaps.** Every model's follow-up was committed separately. Other technical data retains its2026-10-14 observation date unless the finding explicitly rechecks it. No new models are counted by this review.
+
+All primary price columns now use **IDR**. The [unchanged original comparison](effects/guitar-boss.history-2026-10-14.md) preserves every former USD quote, source and technical statement as historical provenance. No foreign price was relabelled or converted using an assumed rate.
+
+`?` means unverified, not No. K/F/B = rotary controls / main footswitches / separate buttons; push-encoders counted once, toe and rear switches separate. Dimensions are **W×D×H in millimetres**, excluding plugs and cable clearance. All records remain technically partial.
+
+Resolution is not diagonal size. Third-party4.3-inch claims for GX-100/GX-10 were not promoted to manufacturer-verified measurements. Unavailable display specifications are visible rather than estimated from the case or a related product. A review can finish while an unpublished or inaccessible specification remains unresolved.
+
+Compact requires width≤200 AND depth≤140; medium≤300×200 excluding compact. Do not rotate a processor to pass the filter. The GT-1000 toe switch is now explicitly supported by manufacturer feature text, rather than omitted from the old row.
+
+These are dated listed/indexed asking observations, **not a verified current market range**. Retail listings may not expose condition details. Stock, selected variations, accessories, region and delivery charges remain unverified unless specifically qualified in the finding. All exact shop/item URLs are linked through the model's follow-up.
+
+Unopened OLX ME-90 and GX-100 Bluetooth/adapter bundle leads remain in their findings as discovery evidence, not condition-verified used prices. Cases, cables, unrelated products and unresolved mixed-model variations were excluded. A seller name containing Official is not independent authentication. No arbitrary percentage-of-new used-price estimate is used.
+
+Model totals use different inclusion rules. Multiple selectable alternatives are not necessarily simultaneously available; amp/cab/IR/utility and ordinary effects should not be ranked by one raw total. Current GX-100's32amps supersede older23-amp marketing. Its8 added factory presets are not added again to the current100-preset specification.
+
+Voltage/polarity and current supplied-versus-drawn distinctions must be confirmed from the matching power specification before a supply substitution. USB connectivity is not proof of powering, recording and editing simultaneously. Older unresolved technical fields remain visible.
+
+Primary product/specification links support the technical rows. Each follow-up includes exact price, photo or additional primary references and retrieval limitations. The [original source snapshot](effects/guitar-boss.history-2026-10-14.md) preserves all previous references and USD provenance byte-for-byte.
+
+Next original-page review: **NUX MG-101**. Six other original comparison pages still need their display/IDR migration. This completed seven-model pass does not establish exhaustive model discovery or fully verified current prices.

@@ -923,3 +923,17 @@ consolidation-audit-advanced-links:
 .PHONY: research-commit-advanced-union
 research-commit-advanced-union:
 	python3 scripts/research_tools.py commit-advanced-union
+
+.PHONY: consolidation-plan-boss-union consolidation-audit-boss-union
+consolidation-plan-boss-union:
+	python3 scripts/consolidation_tools.py plan-boss-union
+consolidation-audit-boss-union:
+	python3 scripts/consolidation_tools.py audit-boss-union
+
+.PHONY: consolidation-audit-boss-links
+consolidation-audit-boss-links:
+	python3 scripts/consolidation_tools.py audit-boss-links
+
+.PHONY: research-commit-boss-union
+research-commit-boss-union:
+	python3 scripts/research_tools.py commit-boss-union
