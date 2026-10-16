@@ -1,4 +1,4 @@
-"""Retire verified technical findings through exact preview/apply and Git rollback."""
+"""Preview/apply lossless retirement of complete-body technical findings."""
 import json
 from pathlib import Path
 import sys
@@ -7,84 +7,175 @@ import research_tools as research
 import consolidation_tools as consolidation
 import comparison_views
 import source_retirement as shared
-
 ROOT = research.ROOT
-SOURCE = 'effects/findings/2026-10-15-zoom-g6.md'
-DESTINATION = 'ZOOM.md#g6'
+SOURCES = {
+  "effects/findings/2026-10-14-zoom-b1xon.md": "ZOOM.md#b1xon",
+  "effects/findings/2026-10-15-zoom-g6.md": "ZOOM.md#g6",
+  "effects/findings/2026-10-14-zoom-g1-four.md": "ZOOM.md#g1-four",
+  "effects/findings/2026-10-14-zoom-g1x-four.md": "ZOOM.md#g1x-four",
+  "effects/findings/2026-10-14-zoom-g2-four.md": "ZOOM.md#g2-four",
+  "effects/findings/2026-10-14-zoom-g2x-four.md": "ZOOM.md#g2x-four",
+  "effects/findings/2026-10-15-boss-gt1000core-display-idr.md": "BOSS.md#gt-1000core",
+  "effects/findings/2026-10-15-boss-gx10-display-idr.md": "BOSS.md#gx-10",
+  "effects/findings/2026-10-15-boss-gt1-display-idr.md": "BOSS.md#gt-1",
+  "effects/findings/2026-10-15-boss-gx1-display-idr.md": "BOSS.md#gx-1",
+  "effects/findings/2026-10-15-boss-me90-display-idr.md": "BOSS.md#me-90",
+  "effects/findings/2026-10-15-boss-gx100-display-idr.md": "BOSS.md#gx-100",
+  "effects/findings/2026-10-15-boss-gt1000-display-idr.md": "BOSS.md#gt-1000",
+  "effects/findings/2026-10-14-line6-hx-stomp-xl.md": "LINE6.md#hx-stomp-xl",
+  "effects/findings/2026-10-14-hotone-ampero-mini.md": "HOTONE.md#ampero-mini-mp-50",
+  "effects/findings/2026-10-14-hotone-ampero-mp100.md": "HOTONE.md#ampero-mp-100",
+  "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md": "HOTONE.md#ampero-ii-mp-350",
+  "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md": "HOTONE.md#ampero-ii-stage-mp-380",
+  "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md": "HOTONE.md#ampero-ii-stomp-mp-300",
+  "effects/findings/2026-10-14-mooer-ge100.md": "MOOER.md#ge100-original",
+  "effects/findings/2026-10-14-mooer-ge150.md": "MOOER.md#ge150-original",
+  "effects/findings/2026-10-14-mooer-ge200.md": "MOOER.md#ge200-original",
+  "effects/findings/2026-10-14-mooer-ge150-pro-li.md": "MOOER.md#ge150-pro-li",
+  "effects/findings/2026-10-14-mooer-ge100-pro.md": "MOOER.md#ge100-pro",
+  "effects/findings/2026-10-14-mooer-ge100-pro-li.md": "MOOER.md#ge100-pro-li",
+  "effects/findings/2026-10-14-mooer-ge200-pro.md": "MOOER.md#ge200-pro",
+  "effects/findings/2026-10-14-mooer-ge200-pro-li.md": "MOOER.md#ge200-pro-li",
+  "effects/findings/2026-10-14-mooer-ge150-pro.md": "MOOER.md#ge150-pro",
+  "effects/findings/2026-10-15-mooer-ge150-plus.md": "MOOER.md#ge150-plus",
+  "effects/findings/2026-10-15-mooer-ge150-plus-li.md": "MOOER.md#ge150-plus-li",
+  "effects/findings/2026-10-15-mooer-ge150-max.md": "MOOER.md#ge150-max",
+  "effects/findings/2026-10-15-mooer-ge150-max-li.md": "MOOER.md#ge150-max-li",
+  "effects/findings/2026-10-14-mooer-ge1000.md": "MOOER.md#ge1000",
+  "effects/findings/2026-10-15-mooer-ge1000-li.md": "MOOER.md#ge1000-li",
+  "effects/findings/2026-10-14-valeton-gp-100.md": "VALETON.md#gp-100",
+  "effects/findings/2026-10-14-valeton-gp-150.md": "VALETON.md#gp-150",
+  "effects/findings/2026-10-14-valeton-gp-180.md": "VALETON.md#gp-180",
+  "effects/findings/2026-10-14-valeton-gp-5.md": "VALETON.md#gp-5",
+  "effects/findings/2026-10-14-valeton-gp-50.md": "VALETON.md#gp-50",
+  "effects/findings/2026-10-15-audota-ame-100.md": "AUDOTA.md#ame-100",
+  "effects/findings/2026-10-15-audota-ame-200.md": "AUDOTA.md#ame-200",
+  "effects/findings/2026-10-15-audota-ame-200-pro.md": "AUDOTA.md#ame-200-pro",
+  "effects/findings/2026-10-15-audota-ace-100.md": "AUDOTA.md#ace-100",
+  "effects/findings/2026-10-15-audota-ave-100.md": "AUDOTA.md#ave-100",
+  "effects/findings/2026-10-14-boin-audio-bg300.md": "BOIN-AUDIO.md#bg300",
+  "effects/findings/2026-10-14-scorpion-kmf-10.md": "SCORPION.md#kmf-10",
+  "effects/findings/2026-10-14-tchelicon-voicelive-play.md": "TC-HELICON.md#voicelive-play",
+  "effects/findings/2026-10-14-tchelicon-play-acoustic.md": "TC-HELICON.md#play-acoustic",
+  "effects/findings/2026-10-15-cuvave-h8.md": "CUVAVE.md#h8",
+  "effects/findings/2026-10-15-ving-fb100.md": "VING.md#flybro-fb-100",
+  "effects/findings/2026-10-14-roland-gr-55.md": "ROLAND.md#gr-55",
+  "effects/findings/2026-10-15-line6-pod-express-guitar.md": "LINE6.md#pod-express-guitar",
+  "effects/findings/2026-10-15-line6-pod-express-bass.md": "LINE6.md#pod-express-bass",
+  "effects/findings/2026-10-15-zoom-g11.md": "ZOOM.md#g11",
+  "effects/findings/2026-10-14-donner-arena2000.md": "DONNER.md#arena2000",
+  "effects/findings/2026-10-14-flamma-fx100.md": "FLAMMA.md#fx100",
+  "effects/findings/2026-10-14-flamma-fx200.md": "FLAMMA.md#fx200",
+  "effects/findings/2026-10-14-headrush-core.md": "HEADRUSH.md#core",
+  "effects/findings/2026-10-15-joyo-gembox-original.md": "JOYO.md#gem-box-original",
+  "effects/findings/2026-10-14-joyo-gembox-ii.md": "JOYO.md#gem-box-ii",
+  "effects/findings/2026-10-14-joyo-gembox-iii.md": "JOYO.md#gem-box-iii",
+  "effects/findings/2026-10-15-line6-pod-go.md": "LINE6.md#pod-go-and-pod-go-wireless",
+  "effects/findings/2026-10-15-line6-pod-go-wireless.md": "LINE6.md#pod-go-and-pod-go-wireless",
+  "effects/findings/2026-10-14-mvave-tank-g.md": "M-VAVE.md#tank-g",
+  "effects/findings/2026-10-14-mvave-tank-b.md": "M-VAVE.md#tank-b",
+  "effects/findings/2026-10-14-mvave-tank-mini.md": "M-VAVE.md#tank-mini",
+  "effects/findings/2026-10-14-mvave-mk-20.md": "M-VAVE.md#mk-20",
+  "effects/findings/2026-10-14-mvave-mk-300.md": "M-VAVE.md#mk-300",
+  "effects/findings/2026-10-14-mvave-tank-pro.md": "M-VAVE.md#tank-pro",
+  "effects/findings/2026-10-14-mvave-ann-blackbox.md": "M-VAVE.md#ann-blackbox",
+  "effects/findings/2026-10-15-mvave-mini-x.md": "M-VAVE.md#mini-x",
+  "effects/findings/2026-10-15-mvave-pocket-amp.md": "M-VAVE.md#pocket-amp",
+  "effects/findings/2026-10-15-mvave-cube-baby-ac.md": "M-VAVE.md#cube-baby-ac",
+  "effects/findings/2026-10-15-mvave-cube-baby-bass.md": "M-VAVE.md#cube-baby-bass",
+  "effects/findings/2026-10-14-nux-mg-100.md": "NUX.md#mg-100",
+  "effects/findings/2026-10-14-nux-mg-200.md": "NUX.md#mg-200",
+  "effects/findings/2026-10-15-nux-trident.md": "NUX.md#trident-nme-5",
+  "effects/findings/2026-10-14-sonicake-matribox.md": "SONICAKE.md#matribox-qme-50",
+  "effects/findings/2026-10-14-sonicake-smart-box.md": "SONICAKE.md#smart-box-qme-20",
+  "effects/findings/2026-10-14-sonicake-pocket-master.md": "SONICAKE.md#pocket-master-qme-10",
+  "effects/findings/2026-10-15-mvave-cube-baby.md": "M-VAVE.md#cube-baby-electric"
+}
 PLAN = Path('/tmp/instrumentfx-technical-retirement-plan.json')
-TOOLS = ['scripts/technical_retirement.py','scripts/consolidation_tools.py','Makefile']
+TOOLS = ['scripts/technical_retirement.py','scripts/consolidation_tools.py','scripts/research_tools.py','Makefile']
 
 def incoming():
     return [link for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md'))
-            for link in shared.local_links(str(path.relative_to(ROOT)),path.read_text()) if link['target']==SOURCE]
+            for link in shared.local_links(str(path.relative_to(ROOT)),path.read_text()) if link['target'] in SOURCES]
 
-def redirect(original, commit):
-    headings = shared.headings(original)
-    target = '../../'+DESTINATION
-    text = headings[0]+'\n\nThis technical finding is consolidated in [the complete root model record]('+target+'). Original dates, prices, qualifications and unresolved contradictions remain there.\n\n'
-    text += 'Pinned original: '+chr(96)+commit+':'+SOURCE+chr(96)+'. SHA-256: '+chr(96)+shared.digest(original)+chr(96)+'.\n\n'
+def redirect(path,original,commit):
+    headings=shared.headings(original)
+    target='../../'+SOURCES[path]
+    text=headings[0]+'\n\nThis technical finding is consolidated in [the complete root model record]('+target+'). Original dates, prices, qualifications and unresolved contradictions remain there.\n\n'
+    text+='Pinned original: '+chr(96)+commit+':'+path+chr(96)+'. SHA-256: '+chr(96)+shared.digest(original)+chr(96)+'.\n\n'
     for heading in headings[1:]:
-        text += heading+'\n\n[Read the preserved technical evidence]('+target+').\n\n'
-    assert shared.headings(text)==headings
-    assert shared.anchors(text)==shared.anchors(original)
+        text+=heading+'\n\n[Read the preserved technical evidence]('+target+').\n\n'
+    assert shared.headings(text)==headings and shared.anchors(text)==shared.anchors(original)
     return text
 
 def verify():
     research.identity()
     state=json.loads((ROOT/'research-state.json').read_text())
     consolidation.verify_preserved(state)
-    entry=state['migration'].get('retired_sources',{}).get(SOURCE)
-    original=research.read_preserved_source(SOURCE)
-    manifest=[e for e in state['consolidation_and_price_findings'] if e.get('source')==SOURCE and e.get('verification_kind')=='complete-source-body-v1']
-    assert len(manifest)==1 and manifest[0]['destination']==DESTINATION
-    assert shared.digest(original)==manifest[0]['source_sha256']
-    shared.validate_target(DESTINATION)
-    if entry:
-        current=(ROOT/SOURCE).read_text()
-        assert current==redirect(original,entry['source_commit'])
-        assert shared.digest(current)==entry['redirect_sha256']
-        assert shared.headings(current)==entry['original_headings']
-    for link in incoming():
-        assert not link['fragment'] or link['fragment'] in shared.anchors((ROOT/SOURCE).read_text()), str(link)
-    print('PASS: G6 complete original body, root destination and all incoming anchors preserved;retired='+str(bool(entry)))
+    records=state['migration'].get('retired_sources',{})
+    retired=0
+    for path,destination in SOURCES.items():
+        original=research.read_preserved_source(path)
+        manifests=[e for e in state['consolidation_and_price_findings'] if e.get('source')==path and e.get('verification_kind')=='complete-source-body-v1']
+        assert len(manifests)==1 and manifests[0]['destination']==destination
+        assert not manifests[0].get('source_section'),'Partial source not eligible: '+path
+        assert shared.digest(original)==manifests[0]['source_sha256'],path
+        shared.validate_target(destination)
+        if path in records:
+            entry=records[path]
+            current=(ROOT/path).read_text()
+            assert current==redirect(path,original,entry['source_commit']),path
+            assert shared.digest(current)==entry['redirect_sha256'],path
+            assert shared.headings(current)==entry['original_headings'],path
+            retired+=1
+    links=incoming()
+    for link in links:
+        assert not link['fragment'] or link['fragment'] in shared.anchors((ROOT/link['target']).read_text()),str(link)
+    print('PASS: '+str(len(SOURCES))+' complete-body findings; '+str(retired)+' retired; '+str(len(links))+' incoming link occurrences; every original heading/root destination preserved.')
 
 def plan(rollback=False):
     verify()
     state=json.loads((ROOT/'research-state.json').read_text())
     records=state['migration'].setdefault('retired_sources',{})
-    original=research.read_preserved_source(SOURCE)
-    if rollback:
-        assert SOURCE in records
-        del records[SOURCE]
-        content=original
-        state['migration']['technical_retirement']['status']='rolled_back'
-    else:
-        assert SOURCE not in records
-        commit=research.git('rev-parse','HEAD').strip()
-        assert research.git('show',commit+':'+SOURCE)==original
-        content=redirect(original,commit)
-        records[SOURCE]=dict(source_commit=commit,source_sha256=shared.digest(original),redirect_sha256=shared.digest(content),destination=DESTINATION,original_headings=shared.headings(original),incoming_before=incoming(),status='retired_technical_redirect',rollback='make technical-retirement-rollback-plan then make technical-retirement-apply')
-        state['migration']['technical_retirement']=dict(status='partial',sources=[SOURCE],remaining='Other technical legacy sources still require retirement audits;research remains incomplete.')
-    state['migration']['root_category_and_instrument_views']='Four-table comparisons:113 guitar,62 documented bass-capable,17 vocal;remaining technical retirement and field verification incomplete.'
-    state['migration']['warning']='0 legacy-only models;135 root-canonical. Full migration and research incomplete.'
-    state['cursor']['model']='Technical source retirement'
-    state['cursor']['task']='G6 legacy finding '+('restoration planned' if rollback else 'redirect preserves every old heading and full pinned original;continue with other fully consolidated findings and shared-source navigation audits')+'. Technical gaps and fresh Shopee discovery remain.'
+    selected=[p for p in SOURCES if (p in records)==rollback]
+    assert selected,'No matching sources to plan'
+    links=incoming()
+    outputs={}
+    commit=research.git('rev-parse','HEAD').strip()
+    for path in selected:
+        original=research.read_preserved_source(path)
+        if rollback:
+            outputs[path]=original
+            del records[path]
+        else:
+            assert research.git('show',commit+':'+path)==original,path
+            outputs[path]=redirect(path,original,commit)
+            records[path]=dict(source_commit=commit,source_sha256=shared.digest(original),redirect_sha256=shared.digest(outputs[path]),destination=SOURCES[path],original_headings=shared.headings(original),incoming_before=[l for l in links if l['target']==path],status='retired_technical_redirect',rollback='make technical-retirement-rollback-plan then make technical-retirement-apply')
+    retired=[p for p in SOURCES if p in records]
+    state['migration']['technical_retirement']=dict(status='partial' if retired else 'rolled_back',sources=retired,complete_body_finding_count=len(SOURCES),remaining='Shared technical sources, excluded archival finding and legacy JSON/navigation audits remain;research remains incomplete.')
+    state['cursor']['model']='Shared technical source retirement'
+    state['cursor']['task']=str(len(retired))+' complete-body technical findings redirect with all old headings and pinned originals. Next audit shared technical source preservation/readers and navigation before retiring them. Technical gaps and fresh Shopee discovery remain.'
     state['cursor']['after_queue']='Technical rollback: make technical-retirement-rollback-plan then make technical-retirement-apply;metadata rollback targets remain available.'
-    outputs={SOURCE:content,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
-    inputs={p:shared.digest((ROOT/p).read_text()) for p in [SOURCE,'research-state.json','ZOOM.md',*TOOLS]}
-    PLAN.write_text(json.dumps(dict(kind='rollback' if rollback else 'retire',inputs=inputs,outputs=outputs),ensure_ascii=False,indent=2)+'\n')
-    print('Exact plan: '+str(PLAN)+'; '+json.dumps(list(outputs))+'; incoming='+str(len(incoming())))
+    outputs['research-state.json']=json.dumps(state,ensure_ascii=False,indent=2)+'\n'
+    inputs={p:shared.digest((ROOT/p).read_text()) for p in sorted(set(SOURCES)|set(TOOLS)|{'research-state.json'}|{d.split('#')[0] for d in SOURCES.values()})}
+    # Also guard navigation scanned during preview against concurrent edits.
+    for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')):
+        inputs[str(path.relative_to(ROOT))]=shared.digest(path.read_text())
+    PLAN.write_text(json.dumps(dict(kind='rollback' if rollback else 'retire',selected=selected,inputs=inputs,outputs=outputs),ensure_ascii=False,indent=2)+'\n')
+    print('Exact plan: '+str(PLAN)+'; '+str(len(selected))+' source paths: '+json.dumps(selected))
 
 def apply():
     research.identity()
     payload=json.loads(PLAN.read_text())
-    assert set(payload['outputs'])=={SOURCE,'research-state.json'}
+    selected=payload['selected']
+    assert selected and len(selected)==len(set(selected)) and set(selected)<=set(SOURCES)
+    assert set(payload['outputs'])==set(selected)|{'research-state.json'}
     for path,sha in payload['inputs'].items():
         live=shared.digest((ROOT/path).read_text())
         already_written=path in payload['outputs'] and live==shared.digest(payload['outputs'][path])
         assert live==sha or already_written,'Changed input: '+path
-    # Ledger first enables pinned-original readers before the stub is installed.
-    for path in ['research-state.json',SOURCE]:
+    # Ledger first enables pinned readers. Replay accepts only exact reviewed outputs.
+    for path in ['research-state.json',*selected]:
         shared.atomic_write(ROOT/path,payload['outputs'][path])
     verify()
 
@@ -93,12 +184,12 @@ def commit():
     research.verify()
     comparison_views.verify_views()
     assert not research.git('diff','--cached','--name-only').strip(),'Existing staged changes'
-    allowed=set(TOOLS+[SOURCE,'research-state.json'])
+    allowed=set(TOOLS)|set(SOURCES)|{'research-state.json'}
     changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
     assert changed<=allowed,changed-allowed
-    research.git('add','--',*sorted(allowed))
+    research.git('add','--',*sorted(changed))
     print(research.git('diff','--cached','--stat'))
-    print(research.git('commit','-m','docs(zoom): retire G6 legacy finding with pinned evidence and stable anchors'))
+    print(research.git('commit','-m','docs: retire complete-body technical findings with stable legacy anchors'))
 
 if __name__=='__main__':
     {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'rollback-plan':lambda:plan(True)}[sys.argv[1]]()

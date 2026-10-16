@@ -47,7 +47,7 @@ def verify():
     assert not workflows, workflows
     assert not git('ls-files', '.github/workflows').strip()
     if 'B1Xon' in state['root_brand_content'].get('ZOOM.md',[]):
-        original=(ROOT/'effects/findings/2026-10-14-zoom-b1xon.md').read_text().split('\n',1)[1]
+        original=read_preserved_source('effects/findings/2026-10-14-zoom-b1xon.md').split('\n',1)[1]
         preserved=(ROOT/'ZOOM.md').read_text().split('<!-- B1Xon preserved source begins -->\n',1)[1].split('<!-- B1Xon preserved source ends -->',1)[0]
         assert preserved.replace('\n### ','\n## ').replace('(effects/OWNERSHIP.md)','(../OWNERSHIP.md)')==original,'B1Xon consolidation lost source material'
     if state.get('separate_specialist_archives'):
