@@ -677,3 +677,7 @@ research-commit-annblackbox-preservation:
 .PHONY: research-commit-minix-preservation
 research-commit-minix-preservation:
 	python3 scripts/research_tools.py commit-minix-preservation
+
+.PHONY: research-commit-pocketamp-preservation
+research-commit-pocketamp-preservation:
+	python3 scripts/research_tools.py commit-pocketamp-preservation
