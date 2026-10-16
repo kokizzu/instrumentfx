@@ -80,7 +80,8 @@ Ever-owned coverage includes former/donated and hand-operated multi-effects. The
 
 
 
-The root [research ledger](research-state.json) also contains the structured ownership overlay,dated policy/history,marketplace discovery and coverage/checkpoint evidence under public_metadata:21 identified entries,20 root-profile links,explicit identity corrections,rejected-price hits and superseded queues. Historical states and duplicate snapshots do not add catalogue models or establish live stock.
+
+The root [research ledger](research-state.json) also contains the structured ownership overlay,dated policy/history,marketplace discovery,coverage/checkpoints and legacy JSON templates/provenance under public_metadata:21 identified entries,20 root-profile links,explicit identity corrections,rejected-price hits and superseded queues. Historical states and duplicate snapshots do not add catalogue models or establish live stock.
 
 ## Evidence and resuming
 

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Public ownership and policy metadata",
-    "task": "Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Discovery index/history now preserved with rejected-price hits and duplicate snapshots identified. Coverage,README,RESUME and MIGRATION semantics now preserved with duplicate checkpoints and original transfer evidence. Next preserve remaining legacy JSON provenance,then map incoming navigation before source retirement. Technical gaps and fresh discovery remain.",
+    "task": "Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Discovery index/history now preserved with rejected-price hits and duplicate snapshots identified. Coverage,README,RESUME and MIGRATION semantics now preserved with duplicate checkpoints and original transfer evidence. All three legacy JSON files now preserve complete typed provenance and original template in grouped snapshots. Next map incoming navigation and anchors,validate destinations,and plan source retirement with Git-backed rollback. Technical gaps and fresh discovery remain.",
     "next_models": [],
     "after_queue": "No private receipts/mail/order/payment contents included;historical source cursors are not active instructions."
   },
@@ -28647,6 +28647,1554 @@
   "public_metadata": {
     "schema_version": 1,
     "checked_date": "2026-10-17",
+    "legacy_json": {
+      "source_index": {
+        "effects/research-state.history-2026-10-14.json": {
+          "sha256": "c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83",
+          "snapshot": "c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83",
+          "historical": true,
+          "not_active_instructions": true
+        },
+        "effects/research-state.history-2026-10-15-pre-cube-baby.json": {
+          "sha256": "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
+          "snapshot": "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
+          "historical": true,
+          "not_active_instructions": true
+        },
+        "effects/research-state.json": {
+          "sha256": "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
+          "snapshot": "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
+          "historical": true,
+          "not_active_instructions": true
+        }
+      },
+      "unique_snapshots": {
+        "c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83": {
+          "groups": {
+            "requirements_and_template": {
+              "latest_user_requirements": {
+                "repository": "kokizzu/instrumentfx",
+                "do_not_commit_effects_to": "kokizzu/edrums",
+                "priority": "Continue especially all multi-effects listed on Shopee Indonesia; preserve guitar, bass and vocal scope.",
+                "display_size": "Manufacturer-specified diagonal inches, or unverified; distinguish multiple displays.",
+                "display_color": "monochrome, color, none, mixed or unverified; do not infer from OLED/LCD/TFT terminology.",
+                "touchscreen": "yes, no, not_applicable or unverified with source.",
+                "price_display_currency": "IDR",
+                "separate_used_and_new": true,
+                "commit_per_completed_part": true,
+                "commit_immediately_per_model": true,
+                "persist_resumable_progress": true
+              },
+              "size_bins_mm": {
+                "compact": {
+                  "max_width": 200,
+                  "max_depth": 140
+                },
+                "medium": {
+                  "max_width": 300,
+                  "max_depth": 200,
+                  "exclude_compact": true
+                },
+                "large": "Exceeds medium width or depth",
+                "unknown": "Width or depth unverified",
+                "rotation_allowed_for_classification": false,
+                "include_plug_clearance": false
+              },
+              "required_field_groups": [
+                "expression",
+                "physical_controls",
+                "used_and_new_prices_idr",
+                "effect_blocks_categories_and_choices",
+                "input_output_ports",
+                "factory_and_user_presets",
+                "synth_and_acoustic_simulation",
+                "dimensions_and_weight",
+                "power_battery_usb_operation",
+                "ir_nam_and_proprietary_captures",
+                "configuration_platforms",
+                "screen_size",
+                "screen_monochrome_or_color",
+                "screen_touch_support"
+              ],
+              "record_template_is_not_an_actual_model": true,
+              "record_template": {
+                "id": null,
+                "brand": null,
+                "model": null,
+                "hardware_revision": null,
+                "category": null,
+                "firmware_context": null,
+                "verification_status": "partial",
+                "expression": {
+                  "built_in": null,
+                  "toe_switch": null,
+                  "external_support": null
+                },
+                "physical_controls": {
+                  "rotary_count": null,
+                  "footswitch_count": null,
+                  "button_count": null,
+                  "concentric_notes": null
+                },
+                "dimensions_mm": {
+                  "width": null,
+                  "depth": null,
+                  "height": null,
+                  "max_pedal_height": null
+                },
+                "weight_g": null,
+                "display": {
+                  "present": null,
+                  "display_count": null,
+                  "diagonal_inches": null,
+                  "color_mode": "unverified",
+                  "technology": null,
+                  "touchscreen": "unverified",
+                  "resolution_px": null,
+                  "multiple_display_notes": null,
+                  "source_urls": [],
+                  "checked_date": null,
+                  "verification_status": "pending"
+                },
+                "price_display_currency": "IDR",
+                "used_idr": {
+                  "min": null,
+                  "max": null,
+                  "basis": "unverified",
+                  "quote_ids": []
+                },
+                "new_idr": {
+                  "min": null,
+                  "max": null,
+                  "basis": "unverified",
+                  "quote_ids": []
+                },
+                "price_quotes": [],
+                "price_quote_template": {
+                  "id": null,
+                  "condition": null,
+                  "seller": null,
+                  "market": null,
+                  "original_currency": null,
+                  "original_amount": null,
+                  "amount_idr": null,
+                  "basis": "unverified",
+                  "exchange_rate_idr_per_original_unit": null,
+                  "exchange_rate_date": null,
+                  "exchange_rate_source_url": null,
+                  "listing_url": null,
+                  "observed_date": null,
+                  "stock_status": null,
+                  "accessories": null,
+                  "tax_shipping_duties_notes": null,
+                  "marketplace_shop_id": null,
+                  "marketplace_item_id": null,
+                  "selected_variant": null,
+                  "voucher_required": null,
+                  "seller_condition_claim": null,
+                  "checkout_verified": false,
+                  "snippet_body_conflict": null
+                },
+                "processing": {
+                  "simultaneous_blocks": null,
+                  "dsp_limit_notes": null,
+                  "categories_and_choice_counts": []
+                },
+                "ports": null,
+                "presets": {
+                  "total_editable": null,
+                  "factory_filled": null,
+                  "dedicated_factory": null,
+                  "dedicated_user": null
+                },
+                "synth": null,
+                "acoustic_simulation": null,
+                "power": null,
+                "ir_loading": null,
+                "nam_loading": null,
+                "proprietary_captures": null,
+                "configuration_apps": [],
+                "additional_features": {},
+                "source_urls": [],
+                "field_check_dates": {},
+                "unresolved_fields": [],
+                "source_conflicts": []
+              },
+              "validation_rules": [
+                "Verify repository == kokizzu/instrumentfx before every research write; edrums is a reference only.",
+                "Sum of page counts and inventory lengths must equal record_count; model names must be unique across pages.",
+                "Unknown values stay null or unverified, never implicit false or zero.",
+                "No screen size is estimated from photos or borrowed from a sibling model.",
+                "OLED/LCD/TFT technology is separate from monochrome/color and touch support.",
+                "Comparison price columns display IDR; foreign original prices are provenance only.",
+                "FX estimates require the original quote, verified rate, rate date and rate source.",
+                "An absent local price does not imply the model is unavailable in Indonesia.",
+                "No completed-sale claim may be inferred from an asking price.",
+                "Commit each researched model immediately, before starting the next; preserve scoped findings and advance the cursor after verified integration.",
+                "A first-pass review with saved unknowns is not full verification of a model.",
+                "Shopee listing evidence is not live checkout, seller authentication or confirmed condition.",
+                "Do not count discovery-only rows, accessories, digital presets or duplicate notes as technical model records.",
+                "Do not reset to baseline_research_commit, rewrite history or modify the separate edrums repository."
+              ]
+            },
+            "model_inventory_and_commits": {
+              "baseline_research_commit": "c82aa042ecf97647c9f877e0ceabf314880012d7",
+              "latest_integrated_research_commit": "f8d78964d970417d95c17c6c4719e2a374b6a2a5",
+              "latest_marketplace_index_commit": "1e6016bd5009d1adeb3b2b5262b30244399c7a79",
+              "pages": [
+                {
+                  "path": "effects/guitar-compact.md",
+                  "count": 8,
+                  "record_status": "partial",
+                  "display_backfill": "first_pass_saved_with_unresolved_fields",
+                  "idr_migration": "comparison_columns_complete_price_evidence_partial",
+                  "review_date": "2026-10-14",
+                  "display_rows": 8,
+                  "verified_display_diagonals": 5,
+                  "verified_color_modes": 8,
+                  "explicit_touch_specifications_verified": 0,
+                  "unresolved_fields": [
+                    "Display diagonal: GP-100, GP-5 and Matribox QME-50",
+                    "Explicit touchscreen specification for all eight models; do not infer from knob/button navigation",
+                    "Active used-price evidence; GP-100's IDR used quote is a sold-out historical ask",
+                    "Matribox English/global IDR offer; indexed CN-language preorder kept separate",
+                    "Conflicting sold-out/Add to cart page elements for GP-100 new, GP-5 and Pocket Master",
+                    "GP-50 new listing is sold out; Smart Box detailed condition/stock unconfirmed",
+                    "Existing per-category algorithms, synth/acoustic, control, power and firmware unknowns remain",
+                    "New Shopee GP-50 and Matribox discoveries are indexed separately and not yet integrated into this page"
+                  ],
+                  "models": [
+                    "Valeton GP-100",
+                    "Valeton GP-150",
+                    "Sonicake Matribox QME-50",
+                    "Valeton GP-5",
+                    "Valeton GP-50",
+                    "Valeton GP-180",
+                    "Sonicake Smart Box QME-20",
+                    "Sonicake Pocket Master QME-10"
+                  ]
+                },
+                {
+                  "path": "effects/guitar-boss.md",
+                  "count": 7,
+                  "record_status": "partial",
+                  "display_backfill": "pending",
+                  "idr_migration": "pending",
+                  "models": [
+                    "BOSS GT-1000CORE",
+                    "BOSS GX-10",
+                    "BOSS GT-1",
+                    "BOSS GX-1",
+                    "BOSS ME-90",
+                    "BOSS GX-100",
+                    "BOSS GT-1000"
+                  ]
+                },
+                {
+                  "path": "effects/guitar-nux.md",
+                  "count": 6,
+                  "record_status": "partial",
+                  "display_backfill": "pending",
+                  "idr_migration": "pending",
+                  "models": [
+                    "NUX MG-101",
+                    "NUX MG-300 original",
+                    "NUX MG-300 MKII",
+                    "NUX MG-400",
+                    "NUX MG-30",
+                    "NUX MG-50Li"
+                  ]
+                },
+                {
+                  "path": "effects/guitar-floorboards.md",
+                  "count": 3,
+                  "record_status": "partial",
+                  "display_backfill": "pending",
+                  "idr_migration": "pending",
+                  "models": [
+                    "Valeton GP-200",
+                    "Sonicake Matribox II QME-100",
+                    "Sonicake Matribox II Pro QME-200"
+                  ]
+                },
+                {
+                  "path": "effects/bass.md",
+                  "count": 7,
+                  "record_status": "partial",
+                  "display_backfill": "pending",
+                  "idr_migration": "pending",
+                  "models": [
+                    "Zoom B1 FOUR",
+                    "Zoom B2 FOUR",
+                    "Zoom B6",
+                    "Zoom B1X FOUR",
+                    "BOSS GT-1B",
+                    "BOSS GX-1B",
+                    "BOSS ME-90B"
+                  ]
+                },
+                {
+                  "path": "effects/vocal.md",
+                  "count": 8,
+                  "record_status": "partial",
+                  "display_backfill": "pending",
+                  "idr_migration": "pending",
+                  "models": [
+                    "Zoom V6-SP",
+                    "BOSS VE-1",
+                    "BOSS VE-2",
+                    "BOSS VE-500",
+                    "BOSS VE-22",
+                    "BOSS VE-8",
+                    "BOSS VE-20",
+                    "Zoom V3"
+                  ]
+                },
+                {
+                  "path": "effects/specialist.md",
+                  "count": 6,
+                  "record_status": "partial",
+                  "display_backfill": "pending",
+                  "idr_migration": "pending",
+                  "models": [
+                    "BOSS SY-1",
+                    "BOSS SY-200",
+                    "BOSS AC-3",
+                    "BOSS VO-1",
+                    "BOSS GM-800",
+                    "BOSS XS-100"
+                  ]
+                },
+                {
+                  "path": "effects/advanced-modelers.md",
+                  "count": 6,
+                  "record_status": "partial",
+                  "display_backfill": "pending",
+                  "idr_migration": "pending",
+                  "models": [
+                    "Line 6 HX Stomp",
+                    "Line 6 HX Effects",
+                    "Neural DSP Nano Cortex",
+                    "IK Multimedia TONEX ONE",
+                    "IK Multimedia TONEX Pedal",
+                    "HeadRush Flex Prime"
+                  ]
+                },
+                {
+                  "path": "effects/shopee-multifx.md",
+                  "count": 16,
+                  "record_status": "partial",
+                  "display_backfill": "first_pass_saved_with_unresolved_fields",
+                  "idr_migration": "new_page_uses_idr_price_evidence_partial",
+                  "review_date": "2026-10-14",
+                  "models_with_display_fields": 16,
+                  "verified_display_diagonals": 6,
+                  "unresolved_fields": [
+                    "Most used-price ranges and live stock; Ampero Mini PRELOVED ask is sold out; GE150 Pro Li Second like new is a seller claim",
+                    "Unpublished display diagonals and explicit touch specifications; original GE100/GE150 color mode not established in this pass",
+                    "MK-20 external EXP jack: specification table conflicts with complete rear panel",
+                    "FX200 advertised 160 effects versus 161 numbered choices; dimension W/D labels unresolved",
+                    "MK-300 and FX100 snippet/body price conflicts; Zoom G2/G2X voucher and storefront differences",
+                    "GE150 Pro Li converter restrictions and full current category count; do not copy NAM support to original GE150",
+                    "Current M-VAVE firmware/native-versus-converted import architectures and exact revisions",
+                    "Ampero Mini rear rotary count, original GE150 controls/USB connector type/preset split, FX100 overwrite rules",
+                    "Remaining per-model power, synth/acoustic, IR capacity and software compatibility unknowns are listed in findings"
+                  ],
+                  "models": [
+                    "M-VAVE TANK-G",
+                    "M-VAVE TANK-B",
+                    "M-VAVE TANK MINI",
+                    "M-VAVE MK-20",
+                    "M-VAVE MK-300",
+                    "Hotone Ampero Mini MP-50",
+                    "MOOER GE100 original",
+                    "MOOER GE150 original",
+                    "MOOER GE150 Pro Li",
+                    "MOOER GE200 original",
+                    "Zoom G1 FOUR",
+                    "Zoom G1X FOUR",
+                    "Zoom G2 FOUR",
+                    "Zoom G2X FOUR",
+                    "Flamma FX100",
+                    "Flamma FX200"
+                  ]
+                },
+                {
+                  "path": "effects/shopee-multifx-2.md",
+                  "count": 8,
+                  "record_status": "partial",
+                  "display_backfill": "first_pass_saved_with_unresolved_fields",
+                  "idr_migration": "new_page_uses_idr_price_evidence_partial",
+                  "review_date": "2026-10-14",
+                  "models_with_display_fields": 8,
+                  "unresolved_fields": [
+                    "Used-price evidence remains unknown for all eight; checkout stock and seller authenticity not verified",
+                    "TANK-PRO manual 815g versus indexed official 800g; current NAM architecture restrictions and USB channels",
+                    "ANN Blackbox exact W/D orientation, display diagonal/touch and current firmware import restrictions; reject incompatible legacy Blackbox specifications",
+                    "BG300 is a linked-manual profile requiring revision confirmation: 1.7 versus 1.77-inch display, 64 versus 70 factory choices, USB versus 9V power, headphone-port inconsistency",
+                    "KMF-10 official page 300mA versus rear-panel 500mA; ambiguous 10-59 preset notation; IR import and editor/USB functions",
+                    "GEM BOX II display diagonal/color/touch and current draw; GEM BOX III dimensions/weight/display diagonal/touch, 1024 versus 512-sample IR specification and import capacities",
+                    "TC-Helicon records distinguish old firmware manuals from current specifications: looper duration, memory counts, guitar-preset behavior, display hardware and current software compatibility remain pending",
+                    "VoiceLive Play listed price is sold out; mixed GEM BOX III variations excluded from full-unit pricing",
+                    "Original JOYO GEM BOX I remains discovery-only because a similarly titled manual has MOOER identifiers"
+                  ],
+                  "models": [
+                    "M-VAVE TANK-PRO",
+                    "M-VAVE ANN Blackbox",
+                    "Boin Audio BG300",
+                    "Scorpion KMF-10",
+                    "JOYO GEM BOX II",
+                    "JOYO GEM BOX III",
+                    "TC-Helicon VoiceLive Play",
+                    "TC-Helicon Play Acoustic"
+                  ]
+                },
+                {
+                  "path": "effects/shopee-multifx-3.md",
+                  "count": 5,
+                  "record_status": "partial",
+                  "display_backfill": "first_pass_saved_with_unresolved_fields",
+                  "idr_migration": "new_page_uses_idr_price_evidence_partial",
+                  "review_date": "2026-10-14",
+                  "models_with_display_fields": 5,
+                  "verified_display_diagonals": 2,
+                  "unresolved_fields": [
+                    "No current used-price range established; retail condition/accessories and checkout stock unverified",
+                    "Core DC center-positive specification versus IEC FAQ, full rotary/button count, current preset capacity and inconsistent website category totals; matching user guide could not be fetched",
+                    "Core native NAM is architecture/firmware-qualified; A2 concurrency limits are not transferred to A1 architectures",
+                    "FV01 manufacturer manual 500mA precautions versus 1.5A panel/specification, unlabelled dimension axes and state-retention details",
+                    "Arena2000 primary dimensions/weight, simultaneous block limit, 278 total versus 100 effects plus80 amps plus50 cabs, control-region versus mechanical-button classification, touchscreen status, polarity, iOS and detailed IR/USB specifications",
+                    "Arena2000 manual could not be read; Shopee amount is sold out and voucher-dependent, not unconditional current retail",
+                    "MG-100 dimensions/weight/diagonal/touch and exact jack diameters; earlier sold-out Shopee price could not be reopened and is not a fresh observation; external-pedal wording conflicts with rear panel",
+                    "MG-200 V1 cover55 versus57 listed models, manual/photo button-label revision, diagonal/touch/current/updater OS; sold-out listing does not expose new/used condition",
+                    "Older NUX manual revisions are identified, not represented as independently tested current firmware"
+                  ],
+                  "models": [
+                    "HeadRush Core",
+                    "Flamma FV01",
+                    "Donner Arena2000",
+                    "NUX MG-100",
+                    "NUX MG-200"
+                  ]
+                }
+              ],
+              "completed_review_batches": [
+                {
+                  "date": "2026-10-14",
+                  "page": "effects/guitar-compact.md",
+                  "scope": "First display/IDR evidence pass plus specifically sourced corrections; not full-model verification",
+                  "integrated_commit": "c77420e66f01a1bad5d5e032d3f9e5ae70e515f5",
+                  "findings": [
+                    {
+                      "model": "Valeton GP-100",
+                      "path": "effects/findings/2026-10-14-valeton-gp-100.md",
+                      "commit": "4461738bd90f6187a9a2f3be6be70cfaac8bcd8a"
+                    },
+                    {
+                      "model": "Valeton GP-150",
+                      "path": "effects/findings/2026-10-14-valeton-gp-150.md",
+                      "commit": "e9ec3306cf4214cae8504d3903fbd6adb8634299"
+                    },
+                    {
+                      "model": "Sonicake Matribox QME-50",
+                      "path": "effects/findings/2026-10-14-sonicake-matribox.md",
+                      "commit": "a5e3b51396e3930b3a5d180c0264399cbd83bcce"
+                    },
+                    {
+                      "model": "Valeton GP-5",
+                      "path": "effects/findings/2026-10-14-valeton-gp-5.md",
+                      "commit": "278e90fb70937c0120995eaee2b6b3da74f2ac50"
+                    },
+                    {
+                      "model": "Valeton GP-50",
+                      "path": "effects/findings/2026-10-14-valeton-gp-50.md",
+                      "commit": "871cef43224ec428100b2564ddf8f9e6cc029d59"
+                    },
+                    {
+                      "model": "Valeton GP-180",
+                      "path": "effects/findings/2026-10-14-valeton-gp-180.md",
+                      "commit": "097ef9686127d8e8ee74cf89e1e3405a0bfdf4d8"
+                    },
+                    {
+                      "model": "Sonicake Smart Box QME-20",
+                      "path": "effects/findings/2026-10-14-sonicake-smart-box.md",
+                      "commit": "8ea7ed4ae4a07228ecb6eded38aef7fb8ef5cad5"
+                    },
+                    {
+                      "model": "Sonicake Pocket Master QME-10",
+                      "path": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+                      "commit": "17db071a86941aaaebd5a77ff3a9408067bc133c"
+                    }
+                  ]
+                },
+                {
+                  "date": "2026-10-14",
+                  "page": "effects/shopee-multifx.md",
+                  "scope": "16 new Shopee-first partial technical records, display/IDR evidence, exact offers and firmware/source conflicts",
+                  "integrated_commit": "77a5027eae1bbb4c9079d64d46f7cd16a36c0b03",
+                  "marketplace_index_commit": "78deb9e43962dbaa40039b688a986a282c52d6cf",
+                  "findings": [
+                    {
+                      "model": "M-VAVE TANK-G",
+                      "path": "effects/findings/2026-10-14-mvave-tank-g.md",
+                      "commit": "32776affa02fca2ebf48aa6ffcc243b76551bd15"
+                    },
+                    {
+                      "model": "M-VAVE TANK-B",
+                      "path": "effects/findings/2026-10-14-mvave-tank-b.md",
+                      "commit": "b55fabfb4a45ef1c0ad1f2dc0924e70616c0af16"
+                    },
+                    {
+                      "model": "Hotone Ampero Mini MP-50",
+                      "path": "effects/findings/2026-10-14-hotone-ampero-mini.md",
+                      "commit": "610089b55706ac095eafa6171f5f9dbac2d5b24d"
+                    },
+                    {
+                      "model": "M-VAVE TANK MINI",
+                      "path": "effects/findings/2026-10-14-mvave-tank-mini.md",
+                      "commit": "c8533a604cb424142e07d73433141774736b3bb5"
+                    },
+                    {
+                      "model": "M-VAVE MK-300",
+                      "path": "effects/findings/2026-10-14-mvave-mk-300.md",
+                      "commit": "a391ca1cbf6ff995b137a4ec4322d5dd7bfbd356"
+                    },
+                    {
+                      "model": "M-VAVE MK-20",
+                      "path": "effects/findings/2026-10-14-mvave-mk-20.md",
+                      "commit": "053f7233d0f86725ed039ce0d10c83a1da0ce6ef"
+                    },
+                    {
+                      "model": "MOOER GE200 original",
+                      "path": "effects/findings/2026-10-14-mooer-ge200.md",
+                      "commit": "6e5f3bd3320b02875108caec0adaa3012f5fda33"
+                    },
+                    {
+                      "model": "MOOER GE100 original",
+                      "path": "effects/findings/2026-10-14-mooer-ge100.md",
+                      "commit": "349b05e78bb760d4657b1f7d621d73b35e3d6ccf"
+                    },
+                    {
+                      "model": "Zoom G1 FOUR",
+                      "path": "effects/findings/2026-10-14-zoom-g1-four.md",
+                      "commit": "34cebc14ff76176dcae46245845674d93914608b"
+                    },
+                    {
+                      "model": "Zoom G1X FOUR",
+                      "path": "effects/findings/2026-10-14-zoom-g1x-four.md",
+                      "commit": "763bbedf2df262a828103d0a38e30999e7f1254e"
+                    },
+                    {
+                      "model": "Zoom G2 FOUR",
+                      "path": "effects/findings/2026-10-14-zoom-g2-four.md",
+                      "commit": "3d947d0e09f15bcfa56a01630dbb354d23131496"
+                    },
+                    {
+                      "model": "Zoom G2X FOUR",
+                      "path": "effects/findings/2026-10-14-zoom-g2x-four.md",
+                      "commit": "223f2d28007e9dab8e5f55f0fede2735128a25af"
+                    },
+                    {
+                      "model": "Flamma FX100",
+                      "path": "effects/findings/2026-10-14-flamma-fx100.md",
+                      "commit": "8d7b1b4632907b350931e4dc494bb3e381c032ac",
+                      "source_link_fix_commit": "281f1c06972374db9baac635554e147a22675111"
+                    },
+                    {
+                      "model": "Flamma FX200",
+                      "path": "effects/findings/2026-10-14-flamma-fx200.md",
+                      "commit": "64cc185cc2659bfb6987dce9fb130e5100f246a4"
+                    },
+                    {
+                      "model": "MOOER GE150 original",
+                      "path": "effects/findings/2026-10-14-mooer-ge150.md",
+                      "commit": "0e3a2a2d5cfa5e690cb6464ba80898a73c45f3e0"
+                    },
+                    {
+                      "model": "MOOER GE150 Pro Li",
+                      "path": "effects/findings/2026-10-14-mooer-ge150-pro-li.md",
+                      "commit": "8c305e376cf7019cc77353b417945be5d97e1f0d"
+                    }
+                  ]
+                },
+                {
+                  "date": "2026-10-14",
+                  "page": "effects/shopee-multifx-2.md",
+                  "scope": "Eight new guitar, bass-capable and vocal models, each committed immediately; full required-field tables with explicit unknowns and revision/source conflicts",
+                  "integrated_commit": "4e0a261db27ce973f00347ec88c2ad950c9f7508",
+                  "findings": [
+                    {
+                      "model": "M-VAVE TANK-PRO",
+                      "path": "effects/findings/2026-10-14-mvave-tank-pro.md",
+                      "commit": "2a181347b70bb9307234619f5815660cf6ccfc65"
+                    },
+                    {
+                      "model": "M-VAVE ANN Blackbox",
+                      "path": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+                      "commit": "ccd4f205856ad4540ed8f6990049d89fccdf1fbe"
+                    },
+                    {
+                      "model": "Boin Audio BG300",
+                      "path": "effects/findings/2026-10-14-boin-audio-bg300.md",
+                      "commit": "8b599a46ceffac8bf0227040adc1948f146b3210"
+                    },
+                    {
+                      "model": "Scorpion KMF-10",
+                      "path": "effects/findings/2026-10-14-scorpion-kmf-10.md",
+                      "commit": "b70015f8dc4a7d278546734a8d9cede5b29e7e5a"
+                    },
+                    {
+                      "model": "JOYO GEM BOX II",
+                      "path": "effects/findings/2026-10-14-joyo-gembox-ii.md",
+                      "commit": "dd87d2f0797d782a3f689c6bf9ef66e1ecafd9e9"
+                    },
+                    {
+                      "model": "JOYO GEM BOX III",
+                      "path": "effects/findings/2026-10-14-joyo-gembox-iii.md",
+                      "commit": "a1a951a7190919b6baf4fd7143d98834b7850baa"
+                    },
+                    {
+                      "model": "TC-Helicon VoiceLive Play",
+                      "path": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+                      "commit": "2c796a7fdb3ee06bb5a4a49baa0b356a92a63df8"
+                    },
+                    {
+                      "model": "TC-Helicon Play Acoustic",
+                      "path": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+                      "commit": "bade22f5d0c77cdc33d9ec414ae5c3c99ac980fc"
+                    }
+                  ]
+                },
+                {
+                  "date": "2026-10-14",
+                  "page": "effects/shopee-multifx-3.md",
+                  "scope": "Five Shopee-first partial records, each committed immediately; display, IDR listing context, processing and primary-document conflicts preserved",
+                  "integrated_commit": "f8d78964d970417d95c17c6c4719e2a374b6a2a5",
+                  "marketplace_index_commit": "1e6016bd5009d1adeb3b2b5262b30244399c7a79",
+                  "findings": [
+                    {
+                      "model": "HeadRush Core",
+                      "path": "effects/findings/2026-10-14-headrush-core.md",
+                      "commit": "369f2c15423a1c83340a5c39cdd16c01dfe27d82"
+                    },
+                    {
+                      "model": "Flamma FV01",
+                      "path": "effects/findings/2026-10-14-flamma-fv01.md",
+                      "commit": "35944327d19a9de6ed3debbeaba5a8a037f9f5f3"
+                    },
+                    {
+                      "model": "Donner Arena2000",
+                      "path": "effects/findings/2026-10-14-donner-arena2000.md",
+                      "commit": "cb764856d3a611936d99b6ca402dc96a88118928"
+                    },
+                    {
+                      "model": "NUX MG-100",
+                      "path": "effects/findings/2026-10-14-nux-mg-100.md",
+                      "commit": "2ec1fb7bba723fb8f2e8a465a093f3768beb8875"
+                    },
+                    {
+                      "model": "NUX MG-200",
+                      "path": "effects/findings/2026-10-14-nux-mg-200.md",
+                      "commit": "e9c94ec08360999bac77fb79761b88a6ede45785"
+                    }
+                  ]
+                }
+              ]
+            },
+            "conflicts_and_coverage": {
+              "migration_status": {
+                "requirements_saved": true,
+                "display_backfill_complete": false,
+                "idr_column_migration_complete": false,
+                "idr_comparison_pages_migrated": [
+                  "effects/guitar-compact.md"
+                ],
+                "new_pages_using_idr": [
+                  "effects/shopee-multifx.md",
+                  "effects/shopee-multifx-2.md",
+                  "effects/shopee-multifx-3.md"
+                ],
+                "display_review_pages": [
+                  "effects/guitar-compact.md",
+                  "effects/shopee-multifx.md",
+                  "effects/shopee-multifx-2.md",
+                  "effects/shopee-multifx-3.md"
+                ],
+                "legacy_currency": "Seven original comparison pages still have legacy USD columns. Compact uses IDR and preserves foreign quotes separately; all three Shopee expansion pages start in IDR. This does not complete the overall migration.",
+                "exchange_rate_selected": null,
+                "instruction": "A completed review or IDR-column migration is not full verification. Preserve unresolved displays, missing local offers, stock conflicts and regional variants. No relabeling or guessed FX conversion."
+              },
+              "marketplace_status": {
+                "marketplace": "Shopee Indonesia",
+                "checked_date": "2026-10-14",
+                "exhaustive": false,
+                "checkout_stock_verified": false,
+                "seller_authenticity_verified": false,
+                "new_technical_records_this_batch": 5,
+                "total_shopee_expansion_records": 29,
+                "price_basis": "Individual listed/indexed asks, with sold-out, voucher, bundle, condition and variation qualifications in findings. Not completed-sale statistics. MG-100's old ask was not successfully reopened in the latest pass; MG-200's sold-out ask has unverified condition.",
+                "discovery_only_rows_count_as_records": false,
+                "excluded_hits": [
+                  "Downloadable presets",
+                  "Cases and bags",
+                  "Power supplies",
+                  "Controller-only accessories",
+                  "Unresolved mixed hardware/accessory variants"
+                ]
+              },
+              "known_conflicts_to_preserve": [
+                "TONEX ONE 20-versus-30 preset claim",
+                "NUX MG-50Li factory/user preset split and factory model counts",
+                "Sonicake Matribox II Pro MIDI-output claims",
+                "Valeton GP-100 rhythm count and manual-versus-product-page effect totals",
+                "Firmware-dependent native versus converted NAM architecture support",
+                "Matribox CN-language marketplace item versus English/global firmware and price",
+                "Conflicting stock markers on several Indonesian retail pages",
+                "M-VAVE MK-20 external expression and phone-recording claims versus rear connector inventory",
+                "Flamma FX200 160 advertised versus 161 numbered effects and W/D dimension labels",
+                "Shopee snippet/body prices, vouchers, selected variants, bundles and sold-out states",
+                "GE150 original versus Plus/Pro/Max NAM conversion support and Pro versus Pro Li power",
+                "TANK-PRO 815g manual versus 800g indexed product page; import architecture restrictions",
+                "BG300 linked-manual profile versus retailer description: display, effect totals, power and headphone ports",
+                "Scorpion KMF-10 300mA specification versus 500mA panel; unexplained 10-59 preset notation",
+                "GEM BOX III 1024-sample current page versus 512-sample original manual IR limit",
+                "TC-Helicon old-manual looper/guitar-preset behavior versus unverified current firmware; missing current memory/display/software specifications",
+                "HeadRush Core DC versus IEC power claims, category heading/list mismatches and firmware-dependent NAM limits",
+                "Flamma FV01 500mA versus1.5A manufacturer manual power requirement",
+                "Donner Arena2000 278 total versus incomplete advertised subcounts, touch-control panel versus touchscreen, unresolved primary dimensions",
+                "NUX MG-100 external-pedal wording versus no external socket; MG-200 V1 55-versus57 model count and manual/photo button labels",
+                "MG-100 Shopee retrieval failure versus historical ask; MG-200 sold-out price condition unknown"
+              ]
+            },
+            "historical_navigation": {
+              "read_first": "effects/RESUME.md",
+              "methodology": "effects/METHODOLOGY.md",
+              "backlog": "effects/COVERAGE.md",
+              "marketplace_index": "effects/shopee-indonesia.md",
+              "cursor": {
+                "page": "effects/shopee-indonesia.md",
+                "model": "MOOER GE100 Pro",
+                "task": "Read the exact GE100 Pro Shopee hardware offer, resolve its snippet/body/voucher price conflict, and verify GE100 Pro-specific manufacturer documentation, display, controls, power, processing, memory, IR/NAM and editor platforms. Do not copy original GE100 or Pro Li specifications. Commit useful findings immediately before another model, integrate, and verify the checkpoint.",
+                "completed_models_in_current_migration_batch": [],
+                "next_models": [
+                  "MOOER GE100 Pro Li",
+                  "MOOER GE200 Pro",
+                  "MOOER GE200 Pro Li",
+                  "Hotone Ampero MP-100",
+                  "Hotone Ampero II MP-350",
+                  "MOOER GE1000",
+                  "Hotone Ampero II Stage MP-380",
+                  "Line 6 HX Stomp XL",
+                  "JOYO GEM BOX I: manufacturer identity evidence pending"
+                ],
+                "latest_completed_comparison_page": "effects/shopee-multifx-3.md",
+                "next_page_after_current": "effects/shopee-multifx-3.md"
+              },
+              "deferred_cursor": {
+                "page": "effects/guitar-boss.md",
+                "model": "BOSS GT-1000CORE",
+                "task": "Original display/IDR migration; deferred by the user's Shopee-first priority, not completed or discarded.",
+                "completed_models_in_current_migration_batch": [],
+                "next_page_after_current": "effects/guitar-nux.md",
+                "remaining_page_order": [
+                  "effects/guitar-boss.md",
+                  "effects/guitar-nux.md",
+                  "effects/guitar-floorboards.md",
+                  "effects/bass.md",
+                  "effects/vocal.md",
+                  "effects/specialist.md",
+                  "effects/advanced-modelers.md"
+                ]
+              }
+            },
+            "repository_transfer": {
+              "legacy_misplaced_research": {
+                "repository": "kokizzu/edrums",
+                "commit": "cb8f25d34af28a159b6fbf6c472db95d064942ca",
+                "usage": "Historical recovery reference only. This is NOT the working repository.",
+                "cleanup": {
+                  "status": "removed_by_user_and_verified",
+                  "verified_date": "2026-10-14",
+                  "verified_main_commit": "80052b611be72cb5d9259dc7456f0f8cd238355e",
+                  "remaining_paths": [
+                    "README.md",
+                    "gotro-projects.md"
+                  ],
+                  "instruction": "The user removed the misplaced files. Do not retry the earlier blocked deletion or write effects work to edrums."
+                }
+              }
+            },
+            "change_history": {
+              "change_log": [
+                {
+                  "date": "2026-10-14",
+                  "event": "Saved user additions for display size, monochrome/color, touchscreen and IDR-only comparison pricing. Preserved 51 existing partial records and an explicit migration queue."
+                },
+                {
+                  "date": "2026-10-14",
+                  "event": "Corrected the working repository to kokizzu/instrumentfx at the user's request. Migrated all eight comparison pages in separate category commits; preserved the model inventory, next-batch cursor, pending IDR/screen work and source conflicts. edrums is a formatting reference only."
+                },
+                {
+                  "date": "2026-10-14",
+                  "event": "The user removed the old effects directory from edrums. Verified its current tree contains only the two unchanged original files; all 13 original effects files remain in instrumentfx."
+                },
+                {
+                  "date": "2026-10-14",
+                  "event": "Committed eight model findings separately and integrated the compact page's first display/IDR review. Corrected GP-100 controls and pre/post looper modes, completed GP-50 button count, clarified GP-5 limitations and Smart Box mobile platforms, and preserved regional/stock qualifications. Advanced next review to BOSS GT-1000CORE; all 51 models remained partial."
+                },
+                {
+                  "date": "2026-10-14",
+                  "event": "User prioritized all multi-effects listed on Shopee Indonesia. Committed 16 new model findings individually, integrated shopee-multifx.md and saved hardware discoveries, existing-model cross-references and exclusions in shopee-indonesia.md. Catalogue reached 67 partial models on nine pages. TANK-PRO was the next cursor; earlier BOSS display/IDR work remained deferred."
+                },
+                {
+                  "date": "2026-10-14",
+                  "event": "Committed each of eight further models immediately: TANK-PRO, ANN Blackbox, BG300, KMF-10, GEM BOX II, GEM BOX III, VoiceLive Play and Play Acoustic. Integrated shopee-multifx-2.md; catalogue now75 partial models on10 pages. Preserved hardware, source and old-firmware conflicts. Resume at HeadRush Core, then FV01/Arena2000; original JOYO GEM BOX I remains discovery-only pending manufacturer identity evidence. No active used-price range or checkout stock verification is claimed."
+                },
+                {
+                  "date": "2026-10-14",
+                  "event": "Resumed from the live 75-model checkpoint after failed chat responses. Committed Core, FV01, Arena2000, MG-100 and MG-200 immediately and individually, then integrated shopee-multifx-3.md and marketplace evidence. Catalogue reached80 partial models on11 pages, with29 Shopee-first additions. Preserved all earlier inventory, findings, templates and deferred work. Next model is MOOER GE100 Pro; new power, category, display, retrieval and condition conflicts remain explicit. No diagnostic cause for the chat failures or complete all-Shopee coverage is claimed."
+                }
+              ]
+            },
+            "identity_counts_and_other_metadata": {
+              "schema_version": 2,
+              "project": "Guitar, Bass and Vocal Effects Comparison",
+              "repository": "kokizzu/instrumentfx",
+              "branch": "main",
+              "directory": "effects",
+              "checkpoint_date": "2026-10-14",
+              "status": "ready_to_resume",
+              "research_complete": false,
+              "background_automation_enabled": false,
+              "record_count": 80,
+              "comparison_page_count": 11,
+              "fully_verified_record_count": 0,
+              "technical_data_source_of_truth": "The eleven Markdown comparison pages and linked dated findings; this JSON tracks progress, not the entire technical catalogue. Discovery-only rows in the marketplace index are not model records."
+            }
+          },
+          "source_key_count": 35,
+          "historical": true,
+          "not_current_inventory_or_cursor": true
+        },
+        "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f": {
+          "groups": {
+            "requirements_and_template": {
+              "latest_user_requirements": {
+                "priority": "Continue all eligible multi-effects research, especially Shopee Indonesia and every eligible multi-effects unit ever owned",
+                "guitar_scope": "multi-effects only; dedicated-purpose pedals and FV01 excluded",
+                "price_currency": "IDR",
+                "separate_used_and_new": true,
+                "screen_fields": [
+                  "published diagonal",
+                  "monochrome/color",
+                  "touchscreen"
+                ],
+                "commit_immediately_per_model": true,
+                "preserve_private_receipt_privacy": true,
+                "do_not_write": "kokizzu/edrums"
+              },
+              "size_bins_mm": {
+                "compact": {
+                  "max_width": 200,
+                  "max_depth": 140
+                },
+                "medium": {
+                  "max_width": 300,
+                  "max_depth": 200,
+                  "exclude_compact": true
+                },
+                "large": "Exceeds medium width or depth",
+                "unknown": "Unverified dimensions or axis mapping",
+                "rotation_allowed_for_fit": false,
+                "plug_clearance_included": false
+              },
+              "required_field_groups": [
+                "expression",
+                "physical_controls",
+                "used_and_new_IDR",
+                "blocks_categories_choices",
+                "ports",
+                "presets",
+                "synth_acoustic",
+                "dimensions_weight",
+                "power_battery_USB",
+                "IR_NAM_captures",
+                "editor_platforms",
+                "screen_diagonal",
+                "screen_color",
+                "screen_touch"
+              ],
+              "record_template_source": "effects/research-state.history-2026-10-14.json#record_template",
+              "validation_rules": [
+                "Only write kokizzu/instrumentfx",
+                "Sum of page counts and model lengths equals active_record_count",
+                "No empty or fragment-only pseudo-pages",
+                "No duplicate active model names",
+                "No archived exclusion in active models",
+                "Every comparison/finding path must exist",
+                "Unknown is not false/zero",
+                "Do not count owner rows/history/discoveries/duplicate notes as models",
+                "Commit each model immediately",
+                "Preserve observation dates and quote qualifications",
+                "No private receipt/order identifiers",
+                "No reset/force-push or unrelated deletion"
+              ]
+            },
+            "model_inventory_and_commits": {
+              "pages": [
+                {
+                  "path": "effects/guitar-compact.md",
+                  "count": 8,
+                  "status": "partial; first display/IDR pass saved",
+                  "models": [
+                    "Valeton GP-100",
+                    "Valeton GP-150",
+                    "Sonicake Matribox QME-50",
+                    "Valeton GP-5",
+                    "Valeton GP-50",
+                    "Valeton GP-180",
+                    "Sonicake Smart Box QME-20",
+                    "Sonicake Pocket Master QME-10"
+                  ]
+                },
+                {
+                  "path": "effects/guitar-boss.md",
+                  "count": 7,
+                  "status": "partial; display/IDR migration pending",
+                  "models": [
+                    "BOSS GT-1000CORE",
+                    "BOSS GX-10",
+                    "BOSS GT-1",
+                    "BOSS GX-1",
+                    "BOSS ME-90",
+                    "BOSS GX-100",
+                    "BOSS GT-1000"
+                  ]
+                },
+                {
+                  "path": "effects/guitar-nux.md",
+                  "count": 6,
+                  "status": "partial; display/IDR migration pending",
+                  "models": [
+                    "NUX MG-101",
+                    "NUX MG-300 original",
+                    "NUX MG-300 MKII",
+                    "NUX MG-400",
+                    "NUX MG-30",
+                    "NUX MG-50Li"
+                  ]
+                },
+                {
+                  "path": "effects/guitar-floorboards.md",
+                  "count": 3,
+                  "status": "partial; display/IDR migration pending",
+                  "models": [
+                    "Valeton GP-200",
+                    "Sonicake Matribox II QME-100",
+                    "Sonicake Matribox II Pro QME-200"
+                  ]
+                },
+                {
+                  "path": "effects/bass.md",
+                  "count": 7,
+                  "status": "partial; display/IDR migration pending",
+                  "models": [
+                    "Zoom B1 FOUR",
+                    "Zoom B2 FOUR",
+                    "Zoom B6",
+                    "Zoom B1X FOUR",
+                    "BOSS GT-1B",
+                    "BOSS GX-1B",
+                    "BOSS ME-90B"
+                  ]
+                },
+                {
+                  "path": "effects/vocal.md",
+                  "count": 8,
+                  "status": "partial; display/IDR migration pending",
+                  "models": [
+                    "Zoom V6-SP",
+                    "BOSS VE-1",
+                    "BOSS VE-2",
+                    "BOSS VE-500",
+                    "BOSS VE-22",
+                    "BOSS VE-8",
+                    "BOSS VE-20",
+                    "Zoom V3"
+                  ]
+                },
+                {
+                  "path": "effects/specialist.md",
+                  "count": 1,
+                  "status": "partial; only eligible GM-800 counted; five archives excluded",
+                  "models": [
+                    "BOSS GM-800"
+                  ]
+                },
+                {
+                  "path": "effects/advanced-modelers.md",
+                  "count": 6,
+                  "status": "partial; display/IDR migration pending",
+                  "models": [
+                    "Line 6 HX Stomp",
+                    "Line 6 HX Effects",
+                    "Neural DSP Nano Cortex",
+                    "IK Multimedia TONEX ONE",
+                    "IK Multimedia TONEX Pedal",
+                    "HeadRush Flex Prime"
+                  ]
+                },
+                {
+                  "path": "effects/shopee-multifx.md",
+                  "count": 16,
+                  "status": "partial; IDR/display fields present",
+                  "models": [
+                    "M-VAVE TANK-G",
+                    "M-VAVE TANK-B",
+                    "M-VAVE TANK MINI",
+                    "M-VAVE MK-20",
+                    "M-VAVE MK-300",
+                    "Hotone Ampero Mini MP-50",
+                    "MOOER GE100 original",
+                    "MOOER GE150 original",
+                    "MOOER GE150 Pro Li",
+                    "MOOER GE200 original",
+                    "Zoom G1 FOUR",
+                    "Zoom G1X FOUR",
+                    "Zoom G2 FOUR",
+                    "Zoom G2X FOUR",
+                    "Flamma FX100",
+                    "Flamma FX200"
+                  ]
+                },
+                {
+                  "path": "effects/shopee-multifx-2.md",
+                  "count": 8,
+                  "status": "partial; IDR/display fields present",
+                  "models": [
+                    "M-VAVE TANK-PRO",
+                    "M-VAVE ANN Blackbox",
+                    "Boin Audio BG300",
+                    "Scorpion KMF-10",
+                    "JOYO GEM BOX II",
+                    "JOYO GEM BOX III",
+                    "TC-Helicon VoiceLive Play",
+                    "TC-Helicon Play Acoustic"
+                  ]
+                },
+                {
+                  "path": "effects/shopee-multifx-3.md",
+                  "count": 4,
+                  "status": "partial; FV01 excluded",
+                  "models": [
+                    "HeadRush Core",
+                    "Donner Arena2000",
+                    "NUX MG-100",
+                    "NUX MG-200"
+                  ]
+                },
+                {
+                  "path": "effects/shopee-multifx-4.md",
+                  "count": 4,
+                  "status": "partial; MOOER Pro variants",
+                  "models": [
+                    "MOOER GE100 Pro",
+                    "MOOER GE100 Pro Li",
+                    "MOOER GE200 Pro",
+                    "MOOER GE200 Pro Li"
+                  ]
+                },
+                {
+                  "path": "effects/shopee-multifx-5.md",
+                  "count": 6,
+                  "status": "interrupted-run findings recovered; observations2026-10-14 remain qualified",
+                  "models": [
+                    "Hotone Ampero MP-100",
+                    "Hotone Ampero II MP-350",
+                    "MOOER GE1000",
+                    "Hotone Ampero II Stage MP-380",
+                    "Line 6 HX Stomp XL",
+                    "MOOER GE150 Pro"
+                  ]
+                },
+                {
+                  "path": "effects/shopee-multifx-6.md",
+                  "count": 5,
+                  "status": "partial; new variants, qualified or missing IDR evidence",
+                  "models": [
+                    "MOOER GE150 Plus",
+                    "MOOER GE150 Plus Li",
+                    "MOOER GE150 Max",
+                    "MOOER GE150 Max Li",
+                    "MOOER GE1000 Li"
+                  ]
+                },
+                {
+                  "path": "effects/owned-multifx.md",
+                  "count": 7,
+                  "status": "partial; five historical profiles added, not new purchases",
+                  "models": [
+                    "Roland GR-55",
+                    "Zoom B1Xon",
+                    "JOYO GEM BOX original",
+                    "M-VAVE MINI-X",
+                    "M-VAVE Pocket Amp",
+                    "CUVAVE H8",
+                    "VING Flybro FB-100"
+                  ]
+                }
+              ],
+              "previous_findings_preserved": [
+                {
+                  "model": "MOOER GE100 Pro",
+                  "path": "effects/findings/2026-10-14-mooer-ge100-pro.md",
+                  "commit": "e048a3c9f0e4b1ff77023757ee3730604487e4d6"
+                },
+                {
+                  "model": "MOOER GE100 Pro Li",
+                  "path": "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+                  "commit": "1a8da46cab3c6deb4c224e7a92664658491c827c"
+                },
+                {
+                  "model": "MOOER GE200 Pro",
+                  "path": "effects/findings/2026-10-14-mooer-ge200-pro.md",
+                  "commit": "65454759f24b3aca8ce021a9a585b117483f90e7"
+                },
+                {
+                  "model": "MOOER GE200 Pro Li",
+                  "path": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+                  "commit": "25261922a20825215da55a8f5a7676f0e2e9d4d4"
+                },
+                {
+                  "model": "Roland GR-55",
+                  "path": "effects/findings/2026-10-14-roland-gr-55.md",
+                  "initial_commit": "2b637fb61c243776b1a0a9d192ce17848295eeac",
+                  "correction_commit": "da9ff9bb01b8be8109f5b588c656de3daaf41c9c"
+                },
+                {
+                  "model": "Zoom B1Xon",
+                  "path": "effects/findings/2026-10-14-zoom-b1xon.md",
+                  "commit": "8b6664672c3f0756f754d1b1e10212421e3ca19f"
+                }
+              ],
+              "recovered_findings": [
+                {
+                  "model": "Hotone Ampero MP-100",
+                  "path": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+                  "commit": "95075d2b802d2c8ef5374426fd8f3d66ad218451"
+                },
+                {
+                  "model": "Hotone Ampero II MP-350",
+                  "path": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md",
+                  "commit": "4bcf30a87ee202f6e387d8680188a6f12944f047"
+                },
+                {
+                  "model": "MOOER GE1000",
+                  "path": "effects/findings/2026-10-14-mooer-ge1000.md",
+                  "commit": "671fc47896c8c6544598926e789ad4a0be19c1eb"
+                },
+                {
+                  "model": "Hotone Ampero II Stage MP-380",
+                  "path": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
+                  "commit": "fe82a572c99c65f074b2ee5d13e870c7004b51a3"
+                },
+                {
+                  "model": "Line 6 HX Stomp XL",
+                  "path": "effects/findings/2026-10-14-line6-hx-stomp-xl.md",
+                  "commit": "b4ba5b5559dcdd33b196153d4557408d71cbb89f"
+                },
+                {
+                  "model": "MOOER GE150 Pro",
+                  "path": "effects/findings/2026-10-14-mooer-ge150-pro.md",
+                  "commit": "be016fb50f1df0642ef1c06890a19a3ba3574fb7"
+                }
+              ],
+              "latest_findings": [
+                {
+                  "model": "MOOER GE150 Plus",
+                  "path": "effects/findings/2026-10-15-mooer-ge150-plus.md",
+                  "commit": "4edfd824196dc1ba049de16a31db6eb720e638a1",
+                  "correction_commit": "de6c0daae4b79f22a3dea837ae9c24e9def11f81"
+                },
+                {
+                  "model": "MOOER GE150 Plus Li",
+                  "path": "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
+                  "commit": "a8bc38fa84b877defe8be8c5a252510d4bed2eb1",
+                  "correction_commit": "d33231eb018b7ba8277a794bc1f069c9128b0363"
+                },
+                {
+                  "model": "MOOER GE150 Max",
+                  "path": "effects/findings/2026-10-15-mooer-ge150-max.md",
+                  "commit": "305fe3aa99fe2abc2fba91364040f019eeef74ed",
+                  "correction_commit": "90961e0a6c48c6ee95cc439c996a38559417d6d1"
+                },
+                {
+                  "model": "MOOER GE150 Max Li",
+                  "path": "effects/findings/2026-10-15-mooer-ge150-max-li.md",
+                  "commit": "4c517769bf6ebe3343491669c0b8dbfa2876639d"
+                },
+                {
+                  "model": "MOOER GE1000 Li",
+                  "path": "effects/findings/2026-10-15-mooer-ge1000-li.md",
+                  "commit": "3a4f00547cf493fc3f11936067e4e87990873547"
+                },
+                {
+                  "model": "JOYO GEM BOX original",
+                  "path": "effects/findings/2026-10-15-joyo-gembox-original.md",
+                  "commit": "0ba80d30357d6727efa954bfa700555279cf7787"
+                },
+                {
+                  "model": "M-VAVE MINI-X",
+                  "path": "effects/findings/2026-10-15-mvave-mini-x.md",
+                  "commit": "b9525ee463e7efa8ed845bb9ad89b5e9ea5a46b6"
+                },
+                {
+                  "model": "M-VAVE Pocket Amp",
+                  "path": "effects/findings/2026-10-15-mvave-pocket-amp.md",
+                  "commit": "792e274fbf27f07039c79b5ced4d6d2926f66dd6"
+                },
+                {
+                  "model": "CUVAVE H8",
+                  "path": "effects/findings/2026-10-15-cuvave-h8.md",
+                  "commit": "8c0bb751797bb3dfeca61849245a79393c032b63"
+                },
+                {
+                  "model": "VING Flybro FB-100",
+                  "path": "effects/findings/2026-10-15-ving-fb100.md",
+                  "commit": "7962a72f6ecc5864e54fd2437cad25ed93507a5b"
+                }
+              ],
+              "integration_commits": {
+                "recovered_six": "26a960126035ccb76ce620990fe2e3dede3a3bf7",
+                "remaining_mooer_five": "4a8c907fdc3e187f4a8777bfec33ee05204f2e25",
+                "owned_five": "f78481b52a0fcc50522f4ed06c9328b605f222da"
+              },
+              "inventory_validation": {
+                "checked_date": "2026-10-15",
+                "page_count": 15,
+                "unique_active_models": 96,
+                "excluded_active_overlap": 0,
+                "empty_or_fragment_pages": 0
+              }
+            },
+            "conflicts_and_coverage": {
+              "migration_status": {
+                "display_backfill_complete": false,
+                "idr_column_migration_complete": false,
+                "legacy_pages_remaining": 7,
+                "idr_pages": [
+                  "effects/guitar-compact.md",
+                  "effects/shopee-multifx.md",
+                  "effects/shopee-multifx-2.md",
+                  "effects/shopee-multifx-3.md",
+                  "effects/shopee-multifx-4.md",
+                  "effects/shopee-multifx-5.md",
+                  "effects/shopee-multifx-6.md",
+                  "effects/owned-multifx.md"
+                ],
+                "exchange_rate_selected": null,
+                "note": "IDR columns with unknown, cached, conditional or historical prices do not complete price verification. Excluded archive prices are historical only."
+              },
+              "marketplace_status": {
+                "exhaustive": false,
+                "checkout_stock_verified": false,
+                "seller_authenticity_verified": false,
+                "records_in_shopee_priority_expansion_pages": 43,
+                "warning": "43 is page membership, not43 currently available Shopee products. Some variants lack an exact current item, selected variant or reliable Indonesian quote.",
+                "new_models_researched_this_pass": 10,
+                "previously_committed_models_recovered": 6,
+                "price_basis": "Dated listed/indexed asks; preserve sold-out, holiday/service-unavailable, voucher, preorder, region, variant, channel and stock qualifications."
+              },
+              "latest_unresolved": [
+                "GE150 Plus dimensions/weight; Max/MaxLi manual versus regional height; GE1000Li2.0 versus2.1kg",
+                "GE150 touch and USB power/channels; Plus factory-filled subset; regional firmware compatibility",
+                "Mixed/preorder/collection-only GE150 prices and absent exact GE1000Li Shopee item; used offers unverified",
+                "Original GEM BOX controls/display/effects appendix; MINI-X dimensions/mass/battery/USB",
+                "Pocket Amp6+1 mapping, factory overwrite, NAM-versus-AmX import and manufacturer-original manual",
+                "H8 garbled weight, USB subtypes, IR limits and full-editor scope",
+                "VING FB100405g versus450g, PD revision, complete primary effects list, IR slots/formats and desktop/Android support",
+                "Direct ownership now names Audota AME-100; do not assume the older vocal label or AVE-100 guess"
+              ],
+              "previous_unresolved_retained": [
+                "MOOER GE100/GE200 Pro touch/control/current library; GE100 Pro axes/toe/IR capacity/quote conflicts",
+                "GE200 non-Li per-variant Shopee price and used offers; regional OS/firmware distinctions",
+                "GR-55/B1Xon controls/screens/prices",
+                "AmperoMP350 EXP count, Hotone firmware/capture limits, GE1000 port-summary conflicts, HXStompXL chart/power/touch and current cabinet inventory"
+              ],
+              "retained_conflict_topics": [
+                "TONEX ONE memory",
+                "MG-50Li preset/model totals",
+                "Matribox II Pro MIDI out",
+                "GP-100 effects/rhythm counts",
+                "compact display diagonals/touch",
+                "MK-20 EXP versus panel",
+                "FX200 effect count and axes",
+                "TANK-PRO weight",
+                "ANN Blackbox versus older revision",
+                "BG300 manual versus seller",
+                "KMF-10 current and preset notation",
+                "GEM BOX III IR samples",
+                "TC-Helicon old versus current firmware",
+                "Core power and category counts",
+                "Arena2000 unread manual and totals",
+                "MG-100/200 older manuals and sold-out asks"
+              ]
+            },
+            "historical_navigation": {
+              "read_first": [
+                "effects/SCOPE.md",
+                "effects/OWNERSHIP.md",
+                "effects/RESUME.md"
+              ],
+              "methodology": "effects/METHODOLOGY.md",
+              "marketplace_index": "effects/shopee-indonesia.md",
+              "backlog": "effects/COVERAGE.md",
+              "cursor": {
+                "page": "effects/OWNERSHIP.md",
+                "model": "Audota AME-100",
+                "task": "A direct prior owner statement names AME-100. Verify that exact guitar multi-effects model from Audota documentation, not the earlier assistant-proposed AVE-100 vocal model. Commit immediately, integrate and update the owner overlay. Ownership and technical evidence remain separate.",
+                "next_models": [
+                  "M-VAVE CUBE BABY original",
+                  "M-VAVE CUBE BABY AC",
+                  "M-VAVE CUBE BABY Bass",
+                  "remaining eligible MOOER,Hotone,Zoom,Line6,BOSS,HeadRush,Valeton,NUX and vocal families"
+                ],
+                "latest_comparison_pages": [
+                  "effects/shopee-multifx-5.md",
+                  "effects/shopee-multifx-6.md",
+                  "effects/owned-multifx.md"
+                ],
+                "queue_note": "Targets are not claims of current stock. GE150 Plus/Plus Li/Max/Max Li and GE1000 Li are now recorded; do not restart them."
+              },
+              "owned_cursor": {
+                "model": "Audota AME-100",
+                "task": "Add newly recovered direct model statement and matching primary technical profile. The five previously missing identified profiles are now integrated.",
+                "next_models": [],
+                "identity_checks": [
+                  "Owned2025 M-VAVE BlackBox exact hardware revision, not automatically ANN Blackbox",
+                  "Zoom vocal exact model and V6/V6-SP bundle",
+                  "Valeton RH-4/Rushead ownership candidate",
+                  "A separate Audota AVE-100 vocal unit is not established by the AME-100 statement"
+                ],
+                "identified_owner_entries_in_existing_overlay": 20,
+                "existing_entries_with_integrated_profiles": 19,
+                "new_direct_model_pending_overlay": "Audota AME-100",
+                "newly_integrated_profiles": [
+                  "JOYO GEM BOX original",
+                  "M-VAVE MINI-X",
+                  "M-VAVE Pocket Amp",
+                  "CUVAVE H8",
+                  "VING Flybro FB-100"
+                ],
+                "note": "Donations/former gear remain included. Rejected MG-400 order and GP-50 backup plan are not ownership confirmation. No private receipts/order identifiers are published."
+              },
+              "deferred_cursor": {
+                "page": "effects/guitar-boss.md",
+                "model": "BOSS GT-1000CORE",
+                "task": "Original display/IDR migration remains unfinished, not discarded",
+                "remaining_page_order": [
+                  "effects/guitar-boss.md",
+                  "effects/guitar-nux.md",
+                  "effects/guitar-floorboards.md",
+                  "effects/bass.md",
+                  "effects/vocal.md",
+                  "effects/specialist.md: eligible GM-800 only",
+                  "effects/advanced-modelers.md"
+                ]
+              }
+            },
+            "repository_transfer": {
+              "history": {
+                "previous_state_path": "effects/research-state.history-2026-10-14.json",
+                "previous_state_blob_sha": "4fac49bb0a22de75a1f5308985a110926abd1638",
+                "previous_marketplace_path": "effects/shopee-indonesia.history-2026-10-14.md",
+                "previous_coverage_path": "effects/COVERAGE.history-2026-10-14.md",
+                "previous_ownership_path": "effects/OWNERSHIP.history-2026-10-14.md",
+                "instruction": "History preserves prior individual commits, record template, detailed conflicts and original links. Historical counts/cursors/excluded rows are not current instructions. Findings keep their original observation dates.",
+                "transfer_baseline_commit": "c82aa042ecf97647c9f877e0ceabf314880012d7",
+                "previous_integration_commit": "84939296b1200377df08ff11522188e00c54c1c8",
+                "edrums_cleanup": "Removed by user and verified at80052b611be72cb5d9259dc7456f0f8cd238355e; do not modify edrums."
+              }
+            },
+            "change_history": {
+              "change_log_latest": "Recovered six interrupted-run findings; committed five remaining MOOER variants and five missing identified owned profiles individually. Integrated all sixteen. JOYO original and VING/Flybro identities resolved; other gaps remain. Validated15 real comparison pages,96 unique models and zero excluded overlap."
+            },
+            "identity_counts_and_other_metadata": {
+              "schema_version": 3,
+              "project": "InstrumentFX: guitar, bass and vocal multi-effects",
+              "repository": "kokizzu/instrumentfx",
+              "branch": "main",
+              "checkpoint_date": "2026-10-15",
+              "status": "research_in_progress",
+              "research_complete": false,
+              "background_automation_enabled": false,
+              "record_count": 96,
+              "active_record_count": 96,
+              "comparison_page_count": 15,
+              "fully_verified_record_count": 0,
+              "archived_excluded_count": 6,
+              "count_reconciliation": {
+                "old_broad_integrated_count": 80,
+                "scope_exclusions": 6,
+                "eligible_baseline": 74,
+                "previously_saved_owned_findings_integrated": 2,
+                "earlier_mooer_pro_findings": 4,
+                "previous_active_total": 80,
+                "recovered_interrupted_findings": 6,
+                "new_remaining_mooer_variants": 5,
+                "new_owned_profiles": 5,
+                "active_total": 96,
+                "note": "Hardware/model names are unique. Corrections, ownership rows, historical notes and repeated listing evidence are not new records."
+              },
+              "archived_exclusions": [
+                {
+                  "model": "Flamma FV01",
+                  "path": "effects/findings/2026-10-14-flamma-fv01.md",
+                  "reason": "Explicit user exclusion"
+                },
+                {
+                  "model": "BOSS SY-1",
+                  "path": "effects/specialist.md",
+                  "reason": "Dedicated synth pedal"
+                },
+                {
+                  "model": "BOSS SY-200",
+                  "path": "effects/specialist.md",
+                  "reason": "Dedicated synth pedal"
+                },
+                {
+                  "model": "BOSS AC-3",
+                  "path": "effects/specialist.md",
+                  "reason": "Dedicated acoustic simulator"
+                },
+                {
+                  "model": "BOSS VO-1",
+                  "path": "effects/specialist.md",
+                  "reason": "Dedicated vocoder"
+                },
+                {
+                  "model": "BOSS XS-100",
+                  "path": "effects/specialist.md",
+                  "reason": "Dedicated pitch shifter"
+                }
+              ]
+            }
+          },
+          "source_key_count": 40,
+          "historical": true,
+          "not_current_inventory_or_cursor": true
+        }
+      },
+      "source_count": 3,
+      "unique_snapshot_count": 2,
+      "record_template": {
+        "id": null,
+        "brand": null,
+        "model": null,
+        "hardware_revision": null,
+        "category": null,
+        "firmware_context": null,
+        "verification_status": "partial",
+        "expression": {
+          "built_in": null,
+          "toe_switch": null,
+          "external_support": null
+        },
+        "physical_controls": {
+          "rotary_count": null,
+          "footswitch_count": null,
+          "button_count": null,
+          "concentric_notes": null
+        },
+        "dimensions_mm": {
+          "width": null,
+          "depth": null,
+          "height": null,
+          "max_pedal_height": null
+        },
+        "weight_g": null,
+        "display": {
+          "present": null,
+          "display_count": null,
+          "diagonal_inches": null,
+          "color_mode": "unverified",
+          "technology": null,
+          "touchscreen": "unverified",
+          "resolution_px": null,
+          "multiple_display_notes": null,
+          "source_urls": [],
+          "checked_date": null,
+          "verification_status": "pending"
+        },
+        "price_display_currency": "IDR",
+        "used_idr": {
+          "min": null,
+          "max": null,
+          "basis": "unverified",
+          "quote_ids": []
+        },
+        "new_idr": {
+          "min": null,
+          "max": null,
+          "basis": "unverified",
+          "quote_ids": []
+        },
+        "price_quotes": [],
+        "price_quote_template": {
+          "id": null,
+          "condition": null,
+          "seller": null,
+          "market": null,
+          "original_currency": null,
+          "original_amount": null,
+          "amount_idr": null,
+          "basis": "unverified",
+          "exchange_rate_idr_per_original_unit": null,
+          "exchange_rate_date": null,
+          "exchange_rate_source_url": null,
+          "listing_url": null,
+          "observed_date": null,
+          "stock_status": null,
+          "accessories": null,
+          "tax_shipping_duties_notes": null,
+          "marketplace_shop_id": null,
+          "marketplace_item_id": null,
+          "selected_variant": null,
+          "voucher_required": null,
+          "seller_condition_claim": null,
+          "checkout_verified": false,
+          "snippet_body_conflict": null
+        },
+        "processing": {
+          "simultaneous_blocks": null,
+          "dsp_limit_notes": null,
+          "categories_and_choice_counts": []
+        },
+        "ports": null,
+        "presets": {
+          "total_editable": null,
+          "factory_filled": null,
+          "dedicated_factory": null,
+          "dedicated_user": null
+        },
+        "synth": null,
+        "acoustic_simulation": null,
+        "power": null,
+        "ir_loading": null,
+        "nam_loading": null,
+        "proprietary_captures": null,
+        "configuration_apps": [],
+        "additional_features": {},
+        "source_urls": [],
+        "field_check_dates": {},
+        "unresolved_fields": [],
+        "source_conflicts": []
+      },
+      "record_template_is_not_an_actual_model": true,
+      "template_scope": "Historical reusable template;current required_fields and active scope take precedence",
+      "current_inventory": "inventory_by_brand",
+      "current_cursor": "cursor"
+    },
     "sources": {
       "effects/OWNERSHIP.md": {
         "source": "effects/OWNERSHIP.md",
@@ -33211,6 +34759,6 @@
       "ownership_is_not_specification_evidence": true,
       "source_dates_not_refreshed_by_consolidation": true
     },
-    "remaining_work": "Sources retained. Remaining legacy JSON provenance,incoming navigation and source retirement are not completed by this semantic consolidation."
+    "remaining_work": "Sources retained. Incoming navigation and source retirement are not completed by this semantic consolidation."
   }
 }
