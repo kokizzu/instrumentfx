@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / remaining technical fields after GFX-5",
-    "task": "GFX-5 added;category74reconciliation and sampler/hold distinctions complete forreadmanual. Continue fresh exact Shopee discovery or remaininggaps.",
+    "model": "Fresh discovery / remaining fields after GFX-5 controls",
+    "task": "GFX-5 text inventory9rotary5foot21buttons saved;visualpending. Avoid repeating74category/sampler/controlcountwork;continue fresh exact Shopee discovery or remainingprimarygaps.",
     "next_models": [],
-    "after_queue": "Search broader brands/series;exclude accessories and unresolved mixedvariants."
+    "after_queue": "Broaderbrands/series;rejectaccessories andunmappedmixedvariants."
   },
   "new_findings": [
     {
@@ -40423,7 +40423,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining technical fields after GFX-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining fields after GFX-5 controls."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48736,6 +48736,25 @@
       "finding": "AX10G-specific guide column confirms3FX+NR+amp simultaneous;26effectheadline separate11amps. SharedguidePREtypeprocedure conflicts ownmanualPREbutton/VALUEnumeric distinction;retained. Manualp9bankhold,bypass/mute,tuner438–445reset440.",
       "access": "Support-linked filename*= cachemiss;identicalCDNhash filename= readable. Webtext only.",
       "remaining": "Publishedscreen,current/polarity,imports/editor,physicalpanel and current qualifiedstock/prices."
+    },
+    {
+      "model": "Zoom GFX-5",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_GFX5.pdf",
+      "method": "Manualtext printedpp4–5 controls enumerated;PDFscreenshot returned noimage,novisualclaim.",
+      "buttons": {
+        "module_total": 9,
+        "tone": 3,
+        "function": 5,
+        "parameter": 2,
+        "assign_control": 2,
+        "total": 21
+      },
+      "rotary": 9,
+      "main_footswitches": 5,
+      "extra": "Toe push-down switch and power excluded. RearLEVEL counted among9rotary.",
+      "live": "Energize excludes AUXp7;selectedpatchswitch bypass/mute>1s,pedalvolumeinbypass;tuner435–445reset440p11.",
+      "remaining": "Visual/physicalcontrols,screen,currentdraw,imports/editor,currentqualifiedprices."
     }
   ],
   "discovery_cross_brand_bass": {

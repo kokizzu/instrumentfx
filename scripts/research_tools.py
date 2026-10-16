@@ -333,7 +333,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-gfx5':
-            message = 'research(zoom): add GFX-5 with reconciled categories and sampler limits'
+            message = 'research(zoom): enumerate GFX-5 controls and qualify bypass routing'
         if mode == 'commit-gfx3':
             message = 'research(zoom): add GFX-3 and preserve module-count conflict'
         if mode == 'commit-rp90':

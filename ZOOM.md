@@ -1829,7 +1829,7 @@ Guitar multi-effects;distinct from GFX-3/G5. Checked2026-10-17;partial. Zoom dis
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in;full depression toggles target/sampler. Per-patch pedal,ARRM,ARRM+pedal control;volume minimum and UP/dn/Hi/Lo ranges. External support unverified. | [Manual pp20–22,26–27,34][GFX5-M] |
-| K/F/B | **9 rotary /5 main footswitches**:DRIVE,GAIN,fourEQ,ENERGIZE,VALUE,rearLEVEL;twoBANK+threepatch. Buttons count unverified;toe/power additional. | [Manual pp4–5][GFX5-M] |
+| K/F/B | **9 rotary /5 main footswitches /21 separate buttons**:DRIVE,GAIN,fourEQ,ENERGIZE,VALUE,rearLEVEL;twoBANK+threepatch. Buttons:text-derived nine module/TOTAL keys,three tone keys(TURBO,VARIATION,EDGE),five function keys(TEMPO/TAP,RHYTHM,SAMPLER,STORE,EDIT/EXIT),twoPARAMETER,ASSIGN,CONTROL. Toe/power additional;visual corroboration pending. | [Manual pp4–5][GFX5-M] |
 | Display | **Six-character alphanumeric LED plus two-digit seven-segment LED**;diagonal,color,touch unverified. | [Manual p35][GFX5-M] |
 | Dimensions / mass | **390W×220D×75H mm;2.8kg without batteries**. | [Manual p35][GFX5-M] |
 | Processing / category choices | **8 simultaneous modules;74 types**. Manual-derived inventory:BOOST1,ISO/COMP2,DRIVE33(30amp/distortion+3acoustic),EQ1,ZNR/Gate2,CAB7,MOD20,REV8 =74. BOOST gain levels and parameter modes not extra algorithms. DRIVE prose says30;intro33distortion;table includes3acoustic. | [Manual pp28–35][GFX5-M] |
@@ -1839,7 +1839,7 @@ Guitar multi-effects;distinct from GFX-3/G5. Checked2026-10-17;partial. Zoom dis
 | Power / battery / USB | **9VDC center-negative,AD0006 300mA supply**,not draw. FourAA alkaline~10h;no charging. USB power unverified. | [Manual pp2,35][GFX5-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM and capture imports unverified. Factory cabinets do not establish imports. | Unresolved |
 | Editor / software | Editor/platforms unverified;support lists operation manual. | [Support][GFX5-S] |
-| Looper / drums / live | **60rhythms**. Hold-delay**2s**,overdub/reverse;stopping erases,patch/manual-mode restrictions. Separate **6s sampler** disablesMOD/REV/rhythm,blocks patch changes,erases on exit. Slower playback can retain pitch. Manual mode togglesDRIVE/MOD/REV and foot-taps tempo. | [Manual pp3,16,23–26][GFX5-M] |
+| Looper / drums / live | **60rhythms**. Hold-delay**2s**,overdub/reverse;stopping erases,patch/manual-mode restrictions. Separate **6s sampler** disablesMOD/REV/rhythm,blocks patch changes,erases on exit. Slower playback can retain pitch. Manual mode togglesDRIVE/MOD/REV and foot-taps tempo. Current patch switch:release bypasses,hold>1s mutes;pedal controls bypass volume. Tuner435–445Hz resets440 at power-up. | [Manual pp3,11,16,23–26][GFX5-M] |
 
 ### Separate IDR hardware offers
 
@@ -1851,9 +1851,13 @@ Guitar multi-effects;distinct from GFX-3/G5. Checked2026-10-17;partial. Zoom dis
 
 Category count is a manual-derived reconciliation,not physical firmware verification: eleven DRIVE positions each have three CLASSIC/STANDARD/MODERN choices;the first ten provide30amp/drive variants andACOUSTIC adds3. TOTAL is explicitly not an independent effect module;ARRM waveforms are control settings. The74headline agrees with this counting method,while the DRIVE prose and introduction use inconsistent terminology. Retain those qualifications.
 
-Hold delay and sampler are distinct facilities,not a six-second overdub looper with all effects available. Guitar sampling is post-effects;AUX sampling pre-effects. Full-depression control can temporarily activate an off target. Energize also affects bypass. No GFX-3/G5 specifications transferred. Official PDF has19webpages with paired printedpages;references use printed numbering. Only web text read;no files downloaded or physical inspection.
+Hold delay and sampler are distinct facilities,not a six-second overdub looper with all effects available. Guitar sampling is post-effects;AUX sampling pre-effects. Full-depression control can temporarily activate an off target. Energize also affects bypass but excludes AUX input (printedp7). No GFX-3/G5 specifications transferred. Official PDF has19webpages with paired printedpages;references use printed numbering. Only web text read;no files downloaded or physical inspection.
 
 [GFX5-M]: https://zoomcorp.com/media/documents/E_GFX5.pdf
 [GFX5-S]: https://zoomcorp.com/en/gb/multi-effects/guitar-effects/gfx-5/gfx-5-support/
 [GFX5-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-5/
 [GFX5-O]: https://shopee.co.id/EFEK-ZOOM-GFX-5-NORMAL-JAYA-i.240675127.41070755630
+
+### Control-count follow-up
+
+Printedpp4–5 name all21buttons;the nine rotary total includes the rear LEVEL control. Neither LEDs nor footswitches are counted as buttons. Printedp9 explicitly calls the expression mechanism a push-down switch. Screenshot attempts returned no readable image;this remains a manual-text inventory,not a visual or physical panel inspection.
