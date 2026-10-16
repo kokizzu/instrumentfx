@@ -97,11 +97,12 @@ Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass s
 | Audio output / headphones | Headphones do not mute main outputs; rear LEVEL controls both. Mono uses L/MONO. OUT SEL:AP for guitar amp,Ln for mixer/recorder. Valve warm-up delays initial sound. | [Manual pp11–13][TLSE-M] |
 | Routing / controls | INSERT precedes PEDAL;MOD/DELAY/REVERB chain order editable. FX ON/OFF hold0.5s bypasses;hold1s mutes and activates tuner. | [Manual pp4–5,10][TLSE-M] |
 | Factory / user memory | **96 writable memories**,24×4;32 factory programs repeated across three eight-bank groups. | [Manual piv,p1][TLSE-M] |
-| Synth / acoustic | Detailed synth/acoustic verification pending; ACOUSTIC is mentioned in troubleshooting. | [Manual p62][TLSE-M] |
+| Synth / acoustic | **ACOUSTIC simulation yes**, in PEDAL, with BODY/BASS/TREBLE; low-output single-coil neck pickup recommended. Dedicated synth engine unverified. | [Manual pp34–35][TLSE-M] |
 | I/O | INPUT;INSERT SEND/RETURN;two balanced/unbalanced TRS OUTPUTs;PHONES;MIDI IN/OUT;AC input. No USB or S/PDIF in complete inventory. | [Manual p63][TLSE-M] |
 | Power / battery / USB | **9V AC;18W consumption**. Included3.0A supply rating is not measured draw. DC polarity inapplicable;battery unverified;noUSB. | [Manual p63][TLSE-M] |
 | IR / NAM / capture | User IR,native/converted NAM,capture loading unverified. | Unresolved |
-| Editor / software | **ToneLabSE Sound Editor** edits/manages programs;platforms/current support unverified. No ST software inference. | [Manual p2][TLSE-M] |
+| Editor / software | **ToneLabSE Sound Editor** edits/manages programs;platforms/current support unverified. Computer connection needs bidirectional MIDI and matching channels; some USB-MIDI interfaces cannot transfer its SysEx. No ST software inference. | [Manual pp2,56–57][TLSE-M] |
+| Looper / Hold Delay | **Mono1–8000ms Hold Delay**. Assign HOLD DLY to CONTROL to freeze delay sound when switched on. Saved-loop storage and independent overdubbing are not established by this feature. | [Manual p45][TLSE-M] |
 | Looper / drums / live | A/B switches stored amp,cabinet,noise-reduction combinations within a program. Looper,drums,scenes,trails unverified. | [Manual p1][TLSE-M] |
 
 ### Separate IDR hardware offers

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX ToneLab SE primary follow-up",
-    "task": "13/9/19 text-derived controls,toe switches,output and routing constraints saved;cabinet diagram discrepancy retained. Next verify acoustic and Hold Delay behavior and editor MIDI requirements;then fresh Shopee discovery. Commit before another model.",
+    "model": "Fresh Shopee Indonesia discovery",
+    "task": "SE acoustic simulation,Hold Delay and editor MIDI constraints saved. Resume exact Shopee hardware discovery by brand/series; verify model-specific primary specifications and commit each model before another. Existing remaining technical fields and legacy compatibility paths still require work.",
     "next_models": [],
     "after_queue": "No exhaustive market coverage claim."
   },
@@ -2664,6 +2664,24 @@
           "Insert and editable downstream chain"
         ],
         "conflict": "Diagram10vs11 cabinets;selector/spec11. No channel limitation inferred."
+      },
+      "acoustic_hold_editor_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf",
+        "pages": "34–35,45,56–57",
+        "resolved": [
+          "Acoustic simulation with body/bass/treble",
+          "Mono Hold Delay1–8000ms,assign CONTROL to freeze",
+          "Editor bidirectional MIDI and SysEx interface compatibility"
+        ],
+        "remaining": [
+          "modern editor platforms",
+          "audio persistence/overdub",
+          "visual/display",
+          "imports",
+          "full block accounting",
+          "qualified offers"
+        ]
       }
     }
   ],
@@ -38375,7 +38393,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab SE primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
