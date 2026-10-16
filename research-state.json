@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "PANDORA stomp comparison audit",
-    "task": "StompLab2B/2G exact historical offers and2G expression storage limits now project. Review PANDORA stomp offer scope next; preserve all original uncertainty.",
+    "model": "Remaining comparison coverage audit / primary verification",
+    "task": "PANDORA Daily Music exact historical offer restored. Review remaining flagged current facts individually; unresolved variant/model mappings and pinned original snapshots stay separate.",
     "next_models": [],
-    "after_queue": "Continue remaining model cutoff review, primary verification and exact discovery."
+    "after_queue": "Resume manufacturer-backed gaps and fresh exact Shopee discovery; no exhaustive coverage claim."
   },
   "new_findings": [
     {
@@ -4142,6 +4142,12 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "Comparison coverage correction: saved instantaneous pedal-position exceptions now visible in expression field, distinct from assignability. Exact maju jaya sold-out historical offer included with condition/access limits. Sadewa mixed Lengkap/Unit Only mapping remains outside active prices; full prose retained."
+    },
+    {
+      "model": "Korg PANDORA stomp",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Comparison coverage correction: exact Daily Music PXST IV sold-out historical ask included in guitar/bass price views with condition/access limits. pedal_kabul unresolved display-model mapping remains outside active price rows. Original dated source observations preserved; no price refresh or condition verification claimed."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40108,7 +40114,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume PANDORA stomp comparison audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Remaining comparison coverage audit / primary verification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48189,11 +48195,13 @@
         "TC-Helicon PERFORM-V",
         "TC-Helicon PERFORM-VK",
         "TC-Helicon PERFORM-VG",
-        "TC-Helicon PERFORM-VE"
+        "TC-Helicon PERFORM-VE",
+        "VOX StompLab 2B",
+        "VOX StompLab 2G",
+        "Korg PANDORA stomp"
       ],
       "next_review": [
-        "VOX StompLab2B/2G",
-        "Korg PANDORA stomp"
+        "Review other flagged brand tails individually; many intentionally preserve historical duplicates"
       ],
       "qualification": "Candidate list is a review queue, not proof that every listed tail belongs in active prices."
     }

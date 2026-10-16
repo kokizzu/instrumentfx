@@ -28,12 +28,13 @@ Shared guitar/bass multi-effects;not PANDORA mini/PX5D. Checked2026-10-17;partia
 |---|---|---|
 | Used | Unknown;no condition-verified used ask. | — |
 | New | Unknown;no condition-verified new ask. | — |
+| Conditional historical observation / Daily Music Store | **Rp1,730,000; Habis**, Kota Jakarta Timur, shop271847827/item6741582344. Exact PXST IV ivory title; checked2026-10-17, month-old index and JS-limited direct body. Condition, working state, adapter/bundle, physical variant, warranty, shipping/tax/voucher and final total unknown. Same-day delivery text is stale; late compensation is not discount. Not a verified new/used range or live-stock offer. | [Exact item](https://shopee.co.id/KORG-PXST-IV-PANDORA-STOMP-IVORY-i.271847827.6741582344) |
 
 <!-- comparison evidence ends -->
 
 ### Condition-unverified hardware observations
 
-Checked2026-10-17. Both preserved outside used/new comparison columns.
+Checked2026-10-17. Neither establishes a confirmed used/new price. The Daily Music observation is also shown as conditional historical evidence above. The pedal_kabul display-model mapping remains unresolved and stays outside active price comparisons.
 
 | Seller / item | IDR and access qualifications | Source |
 |---|---|---|
