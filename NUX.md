@@ -445,6 +445,29 @@ EFX comprises three wah types, Univibe/tremolo/phaser, boost and five drive/fuzz
 [NUX-MG100-listing]: https://shopee.co.id/NUX-MG-100-MG-100-Electric-Guitar-Multi-Effects-Pedal-Processor-i.49070533.1303695159
 <!-- NUX-MG100 source ends -->
 
+### Preserved third Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Instrument / size class** (Built-in expression): Guitar / **unknown size**
+- **External expression** (Built-in expression): No external socket on complete panel; generic algorithm wording conflicts
+- **K/F/B** (Built-in expression): **4/2/8 + toe switch**
+- **W×D×H, mm; weight** (Built-in expression): **?; ?** — dimensions/weight not in inspected primary specifications
+- **Monochrome / color** (2. Screens): **Color TFT, 160×128 pixels**
+- **Evidence limitation** (2. Screens): Resolution is not diagonal size
+- **New / retail IDR evidence** (3. Separate IDR price evidence): **? currently verified**
+- **Availability and condition qualification** (3. Separate IDR price evidence): Earlier repository discovery **Rp1.462.000, sold out** could not be reopened; preserved as historical evidence, not a fresh quote
+- **Blocks / categories / choices** (4. Processing, presets and model loading): **8 modules**; V1 list **58 choices** including amps/cabs: COMP1, EFX12, amp13, cab11, EQ1, gate1, MOD10, delay6, reverb3
+- **Synth / acoustic simulator** (4. Processing, presets and model loading): Neither in inspected V1 algorithm list; TALK-wah/Harmonist are not synth/acoustic simulation
+- **IR / NAM / captures** (4. Processing, presets and model loading): Factory cabs; no documented user IR/NAM/capture-import connection
+- **Audio/control connections** (5. Connections, power, software and live use): Instrument in; **shared stereo main/headphones out**; aux; DC. Exact connector diameters not numerically specified in checked manual
+- **Power / battery / USB operation** (5. Connections, power, software and live use): **9 V/300 mA center-negative OR6 AA**; no USB
+- **Configuration and recording** (5. Connections, power, software and live use): No USB/MIDI/editor connection on complete panel
+- **Additional features** (5. Connections, power, software and live use): **40 s** looper, drum sync, **56 rhythms**; headphones require documented MIXER mode
+- **Individually saved findings commit** (6. Evidence gaps and immediate commits): `2ec1fb7bba723fb8f2e8a465a093f3768beb8875`
+
+[Original shared source](effects/shopee-multifx-3.md),retained pending complete navigation/provenance audits.
+
 ## MG-200
 
 <!-- comparison evidence begins -->
@@ -514,6 +537,28 @@ Remaining work: reconcile the55-versus57 count and V1/photo button-label revisio
 [NUX-MG200-photo]: https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG200.jpg
 [NUX-MG200-listing]: https://shopee.co.id/Effect-Gitar-Nux-MG-200-MG200-MG-200-Modelling-Guitar-Processor-i.198150809.6685314008
 <!-- NUX-MG200 source ends -->
+
+### Preserved third Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Instrument / size class** (No built-in expression): Guitar / **medium**
+- **External expression** (No built-in expression): CTRL2: expression or dual footswitch
+- **W×D×H, mm; weight** (No built-in expression): Normalised **240×155×67**; **950 g**, battery inclusion ?
+- **Monochrome / color** (2. Screens): **Color TFT**
+- **Evidence limitation** (2. Screens): Color confirmed by manufacturer photo; monochrome manual diagrams do not establish display color
+- **New / retail IDR evidence** (3. Separate IDR price evidence): **? condition-specific new price**
+- **Availability and condition qualification** (3. Separate IDR price evidence): Reopened Red Musik Bali ask **Rp1.500.000, SOLD OUT**; condition not exposed, so do not assign it to either used or new
+- **Blocks / categories / choices** (4. Processing, presets and model loading): **8 chain positions illustrated**; explicit maximum/DSP wording ?. V1 cover advertises **55**, list contains **57 named choices**: gate1, comp1, EFX11, amp13, cab11, EQ1, MOD10, delay6, reverb3
+- **Synth / acoustic simulator** (4. Processing, presets and model loading): Neither in V1 list
+- **IR / NAM / captures** (4. Processing, presets and model loading): Factory cabs; USB system updating is not evidence of IR/NAM import
+- **Audio/control connections** (5. Connections, power, software and live use): Instrument in; L/mono and R out; **dedicated phones**, aux, CTRL2, USB-B, DC; exact audio-jack diameters ?
+- **Power / battery / USB operation** (5. Connections, power, software and live use): **9 V center-negative OR6 AA**; current ?; USB-power operation not established
+- **Configuration and recording** (5. Connections, power, software and live use): USB explicitly **system update**; full editor, supported updater OS and USB audio not established
+- **Additional features** (5. Connections, power, software and live use): **70 s** looper, **81 rhythms**; drums cannot be recorded into internal loop; assignable CTRL1
+- **Individually saved findings commit** (6. Evidence gaps and immediate commits): `e9c94ec08360999bac77fb79761b88a6ede45785`
+
+[Original shared source](effects/shopee-multifx-3.md),retained pending complete navigation/provenance audits.
 
 ## TRIDENT NME-5
 

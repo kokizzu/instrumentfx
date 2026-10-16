@@ -223,6 +223,31 @@ Confirm complete physical controls, actual power-label/manual consistency, curre
 [HEADRUSH-CORE-cloud]: https://www.headrushfx.com/cloud/index.html
 <!-- HEADRUSH-CORE source ends -->
 
+### Preserved third Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Instrument / size class** (No built-in expression): Guitar/bass/vocal / **large**
+- **External expression** (No built-in expression): TRS EXP plus separate TOE input
+- **K/F/B** (No built-in expression): **3 front rotary documented /5/?**; complete rotary inventory including rear controls ?
+- **W×D×H, mm; weight** (No built-in expression): **408.4×234.6×67**; **3.80 kg**
+- **Screen diagonal** (2. Screens): **7 inches**
+- **Monochrome / color** (2. Screens): **Color**
+- **Evidence limitation** (2. Screens): Core-specific manufacturer specification; not Prime's auxiliary OLED layout
+- **New / retail IDR evidence** (3. Separate IDR price evidence): **Rp15.120.000**, ROCKPIZZ MUSIC
+- **Availability and condition qualification** (3. Separate IDR price evidence): Actual hardware listing; detailed condition, accessories and checkout stock unverified
+- **Blocks / categories / choices** (4. Processing, presets and model loading): **14 rig blocks**, routing/DSP-limited; guitar/vocal paths. Website category totals conflict with their own lists and later firmware; see finding, do not sum a definitive grand total
+- **Preset storage** (4. Processing, presets and model loading): FAQ **50 factory rigs**; current factory/user capacity ?
+- **Synth / acoustic simulator** (4. Processing, presets and model loading): **Synth yes**: Hybrid Synth, Electric Piano, DB-33; **Acoustic Sim yes**
+- **IR / NAM / captures** (4. Processing, presets and model loading): Third-party WAV/AIFF IRs; **native NAM**, architecture-qualified; proprietary HeadRush/ReValver clones and SuperClones separate
+- **Audio/control connections** (5. Connections, power, software and live use): Guitar input; combo XLR/¼″ mic with **48 V**; stereo XLR and ¼″ outputs; 3.5 mm phones/aux; stereo TRS loop; EXP/TOE/amp-control; DIN MIDI I/O; USB-A/B; Wi-Fi/Bluetooth audio
+- **Power / battery / USB operation** (5. Connections, power, software and live use): Current specs **12 V/3 A center-positive**, but FAQ says IEC: **conflict unresolved**. Battery/USB power not established
+- **Configuration and recording** (5. Connections, power, software and live use): Wi-Fi browser editor **Windows/macOS/iOS/Android**; USB **6-in/4-out**, 24-bit 44.1/48/96 kHz; reamp
+- **Additional features** (5. Connections, power, software and live use): Scenes, trails, drums; looper **50 layers, 5 min/layer, 20 min total**
+- **Individually saved findings commit** (6. Evidence gaps and immediate commits): `369f2c15423a1c83340a5c39cdd16c01dfe27d82`
+
+[Original shared source](effects/shopee-multifx-3.md),retained pending complete navigation/provenance audits.
+
 ## Flex Prime
 
 <!-- comparison evidence begins -->

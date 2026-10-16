@@ -106,6 +106,30 @@ The official product page links [EC1790_update.pdf][DONNER-ARENA2000-manual]. Re
 [DONNER-ARENA2000-android]: https://play.google.com/store/apps/details?hl=en&id=com.rantion.effector.arena2k
 <!-- DONNER-ARENA2000 source ends -->
 
+### Preserved third Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Instrument / size class** (Built-in expression): Guitar / **unknown size**
+- **External expression** (Built-in expression): EXP2 / FS4,5
+- **K/F/B** (Built-in expression): **9/3/?**; 22 labelled front touch/control regions, mechanical-versus-capacitive classification unresolved
+- **W×D×H, mm; weight** (Built-in expression): **?; ?** — matching primary dimensional specification not obtained
+- **Screen diagonal** (2. Screens): **3.5 inches**
+- **Monochrome / color** (2. Screens): **Color TFT**
+- **Evidence limitation** (2. Screens): Touch-mode control-panel wording does not establish a touchscreen
+- **Availability and condition qualification** (3. Separate IDR price evidence): Donner-named storefront; conditional historical listing, not an unconditional active offer. Earlier wooden-packing Rp4.180.000 discovery could not be reopened
+- **Blocks / categories / choices** (4. Processing, presets and model loading): **10 labelled reorderable modules**, exact simultaneous/DSP limit ?. Advertised **278** versus **100 effects +80 amps +50 cabs**; inclusion mismatch retained
+- **Preset storage** (4. Processing, presets and model loading): **150 locations, 50 banks×3**; factory/user split and overwrite rules ?
+- **Synth / acoustic simulator** (4. Processing, presets and model loading): Specific synth/acoustic algorithms **?**
+- **IR / NAM / captures** (4. Processing, presets and model loading): **50 user IRs +50 factory**, advertised **23.2 ms**; file restrictions ?. NAM/capture support not established
+- **Audio/control connections** (5. Connections, power, software and live use): ¼″ instrument in; stereo unbalanced ¼″ and balanced XLR out; 3.5 mm phones/aux; EXP2/FS4,5; MIDI IN; USB-C; no mic or FX-loop in checked panel
+- **Power / battery / USB operation** (5. Connections, power, software and live use): Rear **9 V/500 mA**; polarity ?; manufacturer explicitly says **no battery compartment**; USB operation ?
+- **Configuration and recording** (5. Connections, power, software and live use): Editors **Windows/macOS/Android**; iOS/Linux unverified. Dry/wet USB and OTG recording; exact channels ?
+- **Additional features** (5. Connections, power, software and live use): **60 s** looper with speed/reverse; **40 rhythms**; sync/spillover ?
+- **Individually saved findings commit** (6. Evidence gaps and immediate commits): `cb764856d3a611936d99b6ca402dc96a88118928`
+
+[Original shared source](effects/shopee-multifx-3.md),retained pending complete navigation/provenance audits.
+
 ## Additional manufacturer-confirmed multi-effects — research leads
 
 | Model | Why eligible to investigate | Primary evidence / what remains |

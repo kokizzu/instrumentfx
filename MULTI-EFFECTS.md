@@ -269,3 +269,35 @@ Model links open the full finding, original technical sources, exact seller/item
 **Next: HeadRush Core**, then Flamma FV01 and Donner Arena2000, followed by remaining Shopee-listed MOOER/Hotone/NUX/Zoom/Line6 families. Original JOYO GEM BOX remains discovery-only: a similarly titled manual contains MOOER identifiers, so it was not promoted to a JOYO-verified record. The earlier BOSS display/IDR migration remains deferred, not discarded.
 
 Original finding references: [Source1](effects/findings/2026-10-14-mvave-tank-pro.md) · [Source2](effects/findings/2026-10-14-mvave-ann-blackbox.md) · [Source3](effects/findings/2026-10-14-boin-audio-bg300.md) · [Source4](effects/findings/2026-10-14-scorpion-kmf-10.md) · [Source5](effects/findings/2026-10-14-joyo-gembox-ii.md) · [Source6](effects/findings/2026-10-14-joyo-gembox-iii.md) · [Source7](effects/findings/2026-10-14-tchelicon-voicelive-play.md) · [Source8](effects/findings/2026-10-14-tchelicon-play-acoustic.md).
+
+### third Shopee expansion: historical shared qualifications
+
+Preserved2026-10-14 shared evidence. Four eligible models only;FV01 remains an excluded specialist archive. Historical retrieval failures,old firmware values and next-model instructions are source provenance,not current task status or freshly reverified specifications. Current root profiles and ledger retain precedence.
+
+[Comparison home](effects/README.md) · [Scope](effects/SCOPE.md) · [Marketplace evidence](effects/shopee-indonesia.md) · [Expansion 1](effects/shopee-multifx.md) · [Expansion 2](effects/shopee-multifx-2.md) · [Resume](effects/RESUME.md)
+
+**2026-10-14 · Four eligible partial multi-effects models.** Flamma FV01 has been removed from all comparison tables under the user's scope correction; its [historical finding](effects/findings/2026-10-14-flamma-fv01.md) is retained as an excluded specialist reference, not a multi-effects candidate. Earlier five-model/80-record totals predate this correction and must not be repeated as active multi-effects counts.
+
+Each model was committed separately before the next was researched. This is a first evidence pass, not full verification, an exhaustive Shopee inventory or a recommendation ranking. All prices are **IDR asking/listed observations**, not completed sales. `?` means unverified, not No.
+
+The linked findings contain exact manufacturer/manual references, firmware context, Shopee item IDs, dated prices and unresolved evidence. No current used-price range was established for these four models. Scope changes do not independently re-certify their technical specifications.
+
+K/F/B means rotary controls / main footswitches / separate buttons. Encoder presses are not counted twice; toe switches and rear toggles are separate. Touch-control regions are not automatically mechanical buttons. Dimensions are unit dimensions, not packaging, and exclude cable clearance.
+
+Unknown size does not mean a unit fails the compact filter. Do not borrow another MG model's chassis, power or I/O.
+
+Sources: [Core](effects/findings/2026-10-14-headrush-core.md), [Arena2000](effects/findings/2026-10-14-donner-arena2000.md), [MG-100](effects/findings/2026-10-14-nux-mg-100.md), [MG-200](effects/findings/2026-10-14-nux-mg-200.md).
+
+Each exact item URL is in its dated finding and linked from the marketplace index. Seller names containing Official do not independently authenticate a seller. Voucher eligibility, shipping, taxes, warranty, accessories and selected variants must not be silently included. A sold-out ask is not proof of a completed transaction.
+
+**Core firmware:** official **5.2.0, October 2026** release notes specify **two A2 Full captures or four A2 Lite captures across two NAM blocks**. Earlier A1 architecture support is documented separately; do not transfer A2 concurrency limits to all A1 models. The website's drive and pitch headings disagree with their listed entries, and later firmware additions are not consistently reflected. [Core evidence](effects/findings/2026-10-14-headrush-core.md).
+
+For both older NUX units, cabinet choices sit inside amp processing rather than creating an extra simultaneous module. MG-100's 58 includes amps/cabs; MG-200's 55-versus-57 conflict is not silently reconciled. Manual revision dates are not new firmware test dates.
+
+Core's matching user guide could not be fetched; its current product/FAQ and firmware release notes were used, preserving their power/port/category conflicts. Arena2000's linked PDF exceeded the retrieval limit and was **not read**; dimensions and detailed algorithm/power/button questions remain unresolved. MG-100 and MG-200 use explicitly identified older V1 manuals, not independently tested current firmware.
+
+**Next discovery model: MOOER GE100 Pro**, separate from original GE100 and Pro Li. Preserve the ever-owned additions and deferred original BOSS display/IDR queue. The seven original unmigrated pages still need their IDR/display pass; these four eligible additions do not complete the whole-market scope.
+
+Flamma FV01 was originally researched in `35944327d19a9de6ed3debbeaba5a8a037f9f5f3`. Its source and price history remains in [the excluded specialist finding](effects/findings/2026-10-14-flamma-fv01.md), but **it is not an active multi-effects comparison row and must not be counted or re-added on resume**. See [SCOPE.md](effects/SCOPE.md).
+
+Original finding references: [Source1](effects/findings/2026-10-14-headrush-core.md) · [Source2](effects/findings/2026-10-14-donner-arena2000.md) · [Source3](effects/findings/2026-10-14-nux-mg-100.md) · [Source4](effects/findings/2026-10-14-nux-mg-200.md).
