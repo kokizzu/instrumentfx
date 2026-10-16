@@ -429,3 +429,11 @@ consolidation-commit-gp-180:
 .PHONY: research-commit-gp100-nam
 research-commit-gp100-nam:
 	python3 scripts/research_tools.py commit-gp100-nam
+
+.PHONY: consolidation-plan-gp-5 consolidation-apply-gp-5 consolidation-commit-gp-5
+consolidation-plan-gp-5:
+	python3 scripts/consolidation_tools.py plan gp-5
+consolidation-apply-gp-5:
+	python3 scripts/consolidation_tools.py apply gp-5
+consolidation-commit-gp-5:
+	python3 scripts/consolidation_tools.py commit gp-5

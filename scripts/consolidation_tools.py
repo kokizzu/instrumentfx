@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'gp-5': ('GP-5', 'effects/findings/2026-10-14-valeton-gp-5.md'),
     'gp-180': ('GP-180', 'effects/findings/2026-10-14-valeton-gp-180.md'),
     'gp-200': ('GP-200', 'effects/guitar-floorboards.md'),
     'gp-150': ('GP-150', 'effects/findings/2026-10-14-valeton-gp-150.md'),
@@ -201,7 +202,7 @@ def plan(model_id):
         return plan_gp200()
     research_tools.identity()
     model, source_path = MODELS[model_id]
-    brand = 'Valeton' if model_id in ('gp-100', 'gp-150', 'gp-180', 'gp-200') else 'MOOER' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'Hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
+    brand = 'Valeton' if model_id in ('gp-5', 'gp-100', 'gp-150', 'gp-180', 'gp-200') else 'MOOER' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'Hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
     brand_file = {'Valeton':'VALETON.md','MOOER':'MOOER.md','Hotone':'HOTONE.md','Line 6':'LINE6.md','Zoom':'ZOOM.md'}[brand]
     state = json.loads((ROOT / 'research-state.json').read_text())
     assert model not in state['root_brand_content'][brand_file], 'Already consolidated'
@@ -229,7 +230,7 @@ def plan(model_id):
         link_normalizations = {'(2026-10-14-mooer-ge1000.md)':'(MOOER.md#ge1000)'}
         for old, new in link_normalizations.items():
             body = body.replace(old, new)
-    if model_id in ('gp-100', 'gp-150', 'gp-180', 'gp-200'):
+    if model_id in ('gp-5', 'gp-100', 'gp-150', 'gp-180', 'gp-200'):
         link_normalizations = {'(../guitar-compact.md)':'(effects/guitar-compact.md)', '(../RESUME.md)':'(effects/RESUME.md)'}
         for old, new in link_normalizations.items():
             body = body.replace(old, new)
@@ -282,8 +283,10 @@ def plan(model_id):
         zoom = zoom.replace('Two previously researched GE models still require complete consolidation; the original GE models and consolidated Max/Plus/Pro variants are below.', 'GE1000 Li is the remaining previously researched GE model awaiting complete consolidation; other recorded MOOER models are consolidated below.')
     if model_id == 'ge1000-li':
         zoom = zoom.replace('GE1000 Li is the remaining previously researched GE model awaiting complete consolidation; other recorded MOOER models are consolidated below.', 'All eighteen recorded MOOER models have root records below; technical verification and market discovery remain incomplete. Original legacy sources are retained.')
-    if model_id in ('gp-100', 'gp-150', 'gp-180', 'gp-200'):
+    if model_id in ('gp-5', 'gp-100', 'gp-150', 'gp-180', 'gp-200'):
         zoom = zoom.replace('Existing GP-5/50/100/150/180/200 records remain', 'Existing GP-5/50/150/180/200 records remain')
+        if model_id == 'gp-5':
+            zoom = zoom.replace('Existing GP-5/50 records remain', 'Existing GP-50 records remain')
         if model_id == 'gp-180':
             zoom = zoom.replace('Existing GP-5/50/180 records remain', 'Existing GP-5/50 records remain')
         if model_id == 'gp-150':
@@ -293,6 +296,8 @@ def plan(model_id):
     section += 'Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.\n\n'
     if model_id == 'gp-180':
         section = section.replace('This is a document consolidation, not a fresh stock or firmware verification.', 'NAM compatibility, published power requirements and qualified Shopee snapshots were additionally checked2026-10-17; checkout stock and complete firmware contents remain unverified.')
+    if model_id == 'gp-5':
+        section = section.replace('This is a document consolidation, not a fresh stock or firmware verification.', 'NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified.')
     section += '<!-- ' + prefix + ' source begins -->\n' + body + '<!-- ' + prefix + ' source ends -->\n'
     if model_id == 'ge100-pro-li':
         section += '\n### GE100 Pro Li comparison dimensions\n\n| Field | Preserved qualification |\n|---|---|\n| Dimensions / weight | 255.7×144×53.5mm;856g. W/D labels and raised-pedal height unverified;medium/large bin awaits axis verification. |\n'
@@ -306,11 +311,13 @@ def plan(model_id):
     section += 'The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.\n\n'
     for fact in extra:
         section += '- **' + fact['field'] + '** (' + fact['context'] + '): ' + fact['value'] + '\n'
-    if model_id in ('gp-100', 'gp-150', 'gp-180', 'gp-200'):
-        section += '\n### ' + model + (' comparison fields — dated evidence' if model_id == 'gp-180' else ' comparison fields from retained snapshot') + '\n\n| Field | Dated evidence |\n|---|---|\n'
+    if model_id in ('gp-5', 'gp-100', 'gp-150', 'gp-180', 'gp-200'):
+        section += '\n### ' + model + (' comparison fields — dated evidence' if model_id in ('gp-5','gp-180') else ' comparison fields from retained snapshot') + '\n\n| Field | Dated evidence |\n|---|---|\n'
         for fact in extra:
             if 'Archived foreign' not in fact['context']:
-                value = fact['value'].replace('[F100]', '[detail](VALETON.md#gp-100)').replace('[F150]', '[detail](VALETON.md#gp-150)').replace('[F180]', '[detail](VALETON.md#gp-180)').replace('[controls]', '[controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png)')
+                value = fact['value'].replace('[F100]', '[detail](VALETON.md#gp-100)').replace('[F150]', '[detail](VALETON.md#gp-150)').replace('[F180]', '[detail](VALETON.md#gp-180)').replace('[F5]', '[detail](VALETON.md#gp-5)').replace('[controls]', '[controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png)')
+                if model_id == 'gp-5' and fact['field'] == 'NAM / captured models':
+                    value = '**SnapTone converted NAM**,80 model slots/50 supplied. **NAM A2 conversion requires mobile app2.1.0+**, explicitly named for GP-5 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Native NAM, exact supported A2 architectures, hardware firmware prerequisite and simultaneous capture limits remain unverified.'
                 if model_id == 'gp-180' and fact['field'] == 'NAM / captured models':
                     value = '**Native NAM A2 Lite at firmware1.1.1+**, per [official regional notice,2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. The product page still describes SnapTone conversion with100 slots/50 supplied; preserve this earlier workflow separately. Native A2 Full, other architectures and native capacity/concurrency remain unverified; conversion-slot counts do not establish native capacity.'
                 if model_id == 'gp-180' and fact['field'] == 'Power and battery':
@@ -327,6 +334,11 @@ def plan(model_id):
             urls = ['https://shop.valeton.net/products/gp-180','https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png']
             section += '''| New / retail Shopee IDR observations | Checked2026-10-17: [Bandung Music Gallery](https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.394955725.48113176759), seller394955725/item48113176759, Kota Bandung, indexed **Rp3.619.140**, comparison Rp3.693.000, displayed2% reduction; stale August delivery. [Artech Music](https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.31171541.51763144425), seller31171541/item51763144425, Kota Bekasi: search showed **Rp3.693.000,Habis**; reopening instead showed Rp3.619.140/comparison Rp3.693.000 without that label. Preserve discrepancy; neither is checkout-confirmed stock. Condition, bundle, warranty region, tax/shipping and voucher eligibility unconfirmed. No dependable used quote established. |
 '''
+        if model_id == 'gp-5':
+            contexts = [p for p in shared_text.split('\n\n') if p.startswith('*GP-100 height') or p.startswith("GP-100's checked firmware") or p.startswith('These earlier observations were recorded') or p.startswith('P2 separately listed') or p.startswith('Prices are individual asking/listed observations') or p.startswith('**Availability warning:**')]
+            urls = ['https://www.guitarcenter.com/Valeton/Multi-Effects-Pedals.gc','https://shop.valeton.net/products/gp-5']
+            section += '''| New / retail Shopee IDR observations | Checked2026-10-17: [Asia Pro Sound](https://shopee.co.id/Valeton-GP-5-GP5-GP-5-Multi-FX-Amp-And-IR-Loader-Mini-Pedal-i.703046367.29241009193), seller703046367/item29241009193,Kota Bekasi, **Rp1.585.000,Habis** on reopening; search omitted the sold-out label. [kitharraguitarshop](https://shopee.co.id/Valeton-GP-5-Multi-Effects-Processor-SnapTone-IR-Loader-Efek-Gitar-i.331131666.43506785697), seller331131666/item43506785697,Kota Bandung, indexed **Rp1.605.000,Habis**; direct reopen cache miss. These exact hardware listings are historical retail asks, not checkout-confirmed stock or transactions. Condition grade, warranty region, accessory bundle, delivered charges and voucher eligibility unconfirmed. |
+'''
         section += '\n'+'\n\n'.join(contexts)+'\n\nHistorical ' + model + ' source URLs: '+', '.join(urls)+'\n'
     section += '\nSources: ' + ', '.join('[' + p + '](' + p + ')' for p in [source_path] + shared) + '. No legacy file was deleted.\n'
     state['root_brand_content'][brand_file].append(model)
@@ -338,7 +350,7 @@ def plan(model_id):
                  checked_date='2026-10-17', verification_kind='complete-source-body-v1', marker=prefix,
                  source_sha256=digest(source), renamed_references=refs, retained_comparison_facts=extra,
                  link_normalizations=link_normalizations, supporting_sources=shared, status='Consolidated; technical verification remains partial')
-    if model_id in ('gp-100', 'gp-150', 'gp-180', 'gp-200'):
+    if model_id in ('gp-5', 'gp-100', 'gp-150', 'gp-180', 'gp-200'):
         entry.update(retained_context=contexts,retained_source_urls=urls,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared})
     state['consolidation_and_price_findings'].append(entry)
     state['migration']['warning'] = f"{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete."
@@ -349,6 +361,11 @@ def plan(model_id):
         state['cursor']['model'] = 'Valeton GP-100 — NAM A2 conversion review'
         state['cursor']['task'] = 'Review official regional GP-100 NAM A2 conversion requirement desktop1.5.1+; preserve earlier unestablished evidence, update root/comparisons and commit. Then consolidate GP-5/GP-50 and remaining legacy records; continue fresh Shopee discovery.'
         state['discovery_leads'].append(dict(model='Valeton GP-180',checked_date='2026-10-17',status='Existing model refreshed; no count addition',urls=['https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.394955725.48113176759','https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.31171541.51763144425'],qualification='Bandung Music Gallery indexed3619140/comparison3693000,2% label,stale August delivery. Artech search3693000 Habis versus reopened3619140 without sold-out label. Condition/bundle/region/checkout stock unknown.'))
+    if model_id == 'gp-5':
+        entry.update(new_sources=['https://www.hotone.jp/announcements/nama2allbrand'],scope='Complete original GP-5 finding and compact comparison preserved; model-specific NAM A2 conversion app2.1.0+ and qualified sold-out Shopee asks checked2026-10-17. July2025 FAQ remains dated, not a blanket current controller limitation.')
+        state['cursor']['model'] = 'Valeton GP-50 — complete legacy consolidation and NAM revision'
+        state['cursor']['task'] = 'Read complete GP-50 finding and compact supporting source; consolidate into VALETON.md, preserve original dates, verify regional NAM A2 conversion firmware1.1.0+ with mobile2.1.0+, and commit before another model. Then continue remaining legacy records and fresh Shopee discovery.'
+        state['discovery_leads'].append(dict(model='Valeton GP-5',checked_date='2026-10-17',status='Existing model refreshed; no count addition',urls=['https://shopee.co.id/Valeton-GP-5-GP5-GP-5-Multi-FX-Amp-And-IR-Loader-Mini-Pedal-i.703046367.29241009193','https://shopee.co.id/Valeton-GP-5-Multi-Effects-Processor-SnapTone-IR-Loader-Efek-Gitar-i.331131666.43506785697'],qualification='Asia Pro Sound1585000 Habis on reopen; search omitted label. kitharraguitarshop1605000 Habis indexed; reopen cache miss. Retail hardware asks, not used-price or live-stock proof. Condition/bundle/region/voucher/delivered charges unconfirmed.'))
     readme = (ROOT / 'README.md').read_text().replace(f'{old_count} detailed', f'{old_count+1} detailed').replace(f'{old_legacy} still rely', f'{old_legacy-1} still rely')
     readme = re.sub(r'(\| \['+re.escape(brand_file)+r'\]\('+re.escape(brand_file)+r'\) \|)([^\n]+) \|', lambda m: m[1]+m[2]+','+model+' |', readme)
     multi = (ROOT / 'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical', f'{old_count+1} root-canonical')
@@ -388,7 +405,7 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('valeton' if model_id in ('gp-100', 'gp-150', 'gp-180', 'gp-200') else 'mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('valeton' if model_id in ('gp-5', 'gp-100', 'gp-150', 'gp-180', 'gp-200') else 'mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':

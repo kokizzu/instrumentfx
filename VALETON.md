@@ -1,6 +1,6 @@
 # Valeton multi-effects
 
-Root-level brand records. New evidence checked **2026-10-15**. Existing GP-5/50 records remain in legacy files until their complete source-backed content is consolidated here; they are not counted again or deleted by this addition.
+Root-level brand records. New evidence checked **2026-10-15**. Existing GP-50 records remain in legacy files until their complete source-backed content is consolidated here; they are not counted again or deleted by this addition.
 
 ## GP-200LT
 
@@ -455,3 +455,110 @@ These earlier observations were recorded on **2026-10-14** before the IDR revisi
 Historical GP-180 source URLs: https://shop.valeton.net/products/gp-180, https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png
 
 Sources: [effects/findings/2026-10-14-valeton-gp-180.md](effects/findings/2026-10-14-valeton-gp-180.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+
+## GP-5
+
+Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- VALETON-GP-5 source begins -->
+
+Research date: **2026-10-14**. Existing model; count unchanged. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+
+### Technical evidence
+
+The [manufacturer product page](https://www.valeton.net/product/gp-5/) establishes a **color LCD**. **Diagonal and touch support remain unverified** from primary evidence in this pass. A retailer's 0.96-inch claim is not silently promoted to a manufacturer specification.
+
+The [manufacturer FAQ, July 2025](https://res.valeton.net/Uploads/wp/2025/07/VALETON-GP-5-QA.pdf) adds useful qualifications:
+
+- USB operates as a **device, not a host**; connecting a USB controller needs the appropriate intervening host.
+- Its TRS stereo output is **unbalanced**, not a balanced DI merely because the connector is TRS.
+- There is **no microphone preamp**; a wireless-microphone line-level output is a different case.
+- **Linux and Chromebook are not officially supported in that FAQ**, even if some functions may work.
+- The documented supply options are **9 V centre-negative, at least 100 mA**, or **USB 5 V, at least 190 mA**.
+
+These are documentation findings, not independent hardware tests. The FAQ predates this research date: do not carry its statements about planned Bluetooth/MIDI features forward as current firmware limitations without checking newer release notes.
+
+### Indonesian prices
+
+[Smosyu Music's GP-5 listing](https://smosyumusic.com/products/valeton-gp-5) identifies a new item at **Rp1.395.000**. Its extracted page shows both a sold-out label and Add to cart, so **availability is unconfirmed**.
+
+| Used IDR | New IDR | Qualification |
+|---|---|---|
+| **?** | **Rp1.395.000** | One listed Indonesian new-price observation; stock ambiguous. |
+
+No dependable local used quote or final delivered cost was established. Earlier USD58.99–63.99 used and USD79.99 new observations are retained separately as foreign provenance, not converted without a verified rate.
+
+### Remaining work / next checkpoint
+
+Primary display diagonal, explicit touchscreen status, missing control counts, current firmware-specific controller support and local used evidence remain open. Next model: **Valeton GP-50**.
+<!-- VALETON-GP-5 source ends -->
+
+### GP-5 — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **Display** (1. Displays): LCD
+- **Diagonal, inches** (1. Displays): ?
+- **Monochrome / color** (1. Displays): Color
+- **Touchscreen** (1. Displays): ?
+- **Evidence and remaining uncertainty** (1. Displays): [Official color claim; retailer 0.96-inch claim not primary-verified](effects/findings/2026-10-14-valeton-gp-5.md)
+- **Built-in / external expression** (No built-in expression pedal): No / not established
+- **K/F/B** (No built-in expression pedal): ?/1/?
+- **Width × depth × height, mm** (No built-in expression pedal): 93.5 × 42 × 52*
+- **Weight** (No built-in expression pedal): 237 g
+- **Used IDR observation** (No built-in expression pedal): ?
+- **New / retail IDR observation** (No built-in expression pedal): **Rp1.395.000**, Smosyu; stock unconfirmed [F5]
+- **Simultaneous blocks / categories and choices** (3. Processing, memory, IR and NAM): Up to 9 simultaneous; 100+ effects; modules shown include NR, PRE, DST, N>S, AMP, CAB, EQ, MOD, DLY, RVB; not all necessarily concurrent
+- **Presets and user storage** (3. Processing, memory, IR and NAM): 50 P + 50 U = 100
+- **Synth / acoustic functions** (3. Processing, memory, IR and NAM): Exact synth/acoustic choices ?
+- **Third-party IR** (3. Processing, memory, IR and NAM): 20 user slots
+- **NAM / captured models** (3. Processing, memory, IR and NAM): SnapTone converted NAM; 80 model slots / 50 supplied
+- **Audio / control connections** (4. Connections, power, apps and practical differences): ¼″ input; one **unbalanced** ¼″ TRS stereo output also serving headphones; USB-C
+- **Power and battery** (4. Connections, power, apps and practical differences): DC 9 V centre-negative/100 mA, or USB 5 V/190 mA; battery support not established
+- **Configuration software** (4. Connections, power, apps and practical differences): iOS/Android editing via Bluetooth; Windows/macOS file/firmware management, not assumed full editor; July-2025 FAQ does **not officially support Linux/Chromebook** [F5]
+- **Other relevant features** (4. Connections, power, apps and practical differences): USB 2-in/2-out; analog/digital bypass; app rhythms; **USB device, not host; no microphone preamp** [F5]
+- **Original used quote** (Archived foreign-price provenance — not the comparison currency): USD58.99–63.99, GC Great–Excellent
+- **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD79.99
+- **Original evidence** (Archived foreign-price provenance — not the comparison currency): [P5], [P6]
+
+### GP-5 comparison fields — dated evidence
+
+| Field | Dated evidence |
+|---|---|
+| Display | LCD |
+| Diagonal, inches | ? |
+| Monochrome / color | Color |
+| Touchscreen | ? |
+| Evidence and remaining uncertainty | [Official color claim; retailer 0.96-inch claim not primary-verified](effects/findings/2026-10-14-valeton-gp-5.md) |
+| Built-in / external expression | No / not established |
+| K/F/B | ?/1/? |
+| Width × depth × height, mm | 93.5 × 42 × 52* |
+| Weight | 237 g |
+| Used IDR observation | ? |
+| New / retail IDR observation | **Rp1.395.000**, Smosyu; stock unconfirmed [detail](VALETON.md#gp-5) |
+| Simultaneous blocks / categories and choices | Up to 9 simultaneous; 100+ effects; modules shown include NR, PRE, DST, N>S, AMP, CAB, EQ, MOD, DLY, RVB; not all necessarily concurrent |
+| Presets and user storage | 50 P + 50 U = 100 |
+| Synth / acoustic functions | Exact synth/acoustic choices ? |
+| Third-party IR | 20 user slots |
+| NAM / captured models | **SnapTone converted NAM**,80 model slots/50 supplied. **NAM A2 conversion requires mobile app2.1.0+**, explicitly named for GP-5 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Native NAM, exact supported A2 architectures, hardware firmware prerequisite and simultaneous capture limits remain unverified. |
+| Audio / control connections | ¼″ input; one **unbalanced** ¼″ TRS stereo output also serving headphones; USB-C |
+| Power and battery | DC 9 V centre-negative/100 mA, or USB 5 V/190 mA; battery support not established |
+| Configuration software | iOS/Android editing via Bluetooth; Windows/macOS file/firmware management, not assumed full editor; July-2025 FAQ does **not officially support Linux/Chromebook** [detail](VALETON.md#gp-5) |
+| Other relevant features | USB 2-in/2-out; analog/digital bypass; app rhythms; **USB device, not host; no microphone preamp** [detail](VALETON.md#gp-5) |
+| New / retail Shopee IDR observations | Checked2026-10-17: [Asia Pro Sound](https://shopee.co.id/Valeton-GP-5-GP5-GP-5-Multi-FX-Amp-And-IR-Loader-Mini-Pedal-i.703046367.29241009193), seller703046367/item29241009193,Kota Bekasi, **Rp1.585.000,Habis** on reopening; search omitted the sold-out label. [kitharraguitarshop](https://shopee.co.id/Valeton-GP-5-Multi-Effects-Processor-SnapTone-IR-Loader-Efek-Gitar-i.331131666.43506785697), seller331131666/item43506785697,Kota Bandung, indexed **Rp1.605.000,Habis**; direct reopen cache miss. These exact hardware listings are historical retail asks, not checkout-confirmed stock or transactions. Condition grade, warranty region, accessory bundle, delivered charges and voucher eligibility unconfirmed. |
+
+Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
+
+**Availability warning:** the Nafiri GP-100/Pocket Master and Smosyu GP-5 extracted pages contain both a sold-out label and Add to cart. Those conflicting page elements are recorded as **unconfirmed**, not definite stock. The GP-100 used and GP-50 new listings have an explicit sold-out purchase state; these are historical listed amounts, not active offers or proven sale prices. A seller account name does not establish authorized-dealer status.
+
+*GP-100 height is the manufacturer's published 28 mm figure; do not assume it includes maximum expression-pedal travel. GP-5 dimensions retain the manufacturer's width/depth labels rather than silently rotating the unit. GP-150's 200 × 139 mm fit leaves essentially no spare depth under this filter; cable clearance is additional.*
+
+GP-100's checked firmware-1.8 manual has effect-total wording that differs from the current 140+ product-page summary. The total and rhythm-count conflicts remain unresolved. GP-5's July-2025 FAQ is retained with its date; planned features in that FAQ are not treated as definitive current firmware limitations.
+
+These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected.
+
+P2 separately listed USD102 B-stock; that is not used-price evidence. P5 contained two asking-price observations, not a statistically estimated market range. Earlier accessories, tax, shipping and stock limitations remain applicable.
+
+Historical GP-5 source URLs: https://www.guitarcenter.com/Valeton/Multi-Effects-Pedals.gc, https://shop.valeton.net/products/gp-5
+
+Sources: [effects/findings/2026-10-14-valeton-gp-5.md](effects/findings/2026-10-14-valeton-gp-5.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.

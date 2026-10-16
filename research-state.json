@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 108,
-  "legacy_only_model_count": 18,
+  "canonical_root_model_count": 109,
+  "legacy_only_model_count": 17,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-5 — complete legacy consolidation and NAM revision",
-    "task": "Read complete GP-5 finding and compact supporting source; consolidate into VALETON.md, preserve FAQ date and historical SnapTone details, verify official regional NAM A2 conversion mobile2.1.0+ and commit before GP-50. Then continue remaining legacy records, field verification and fresh Shopee discovery.",
+    "model": "Valeton GP-50 — complete legacy consolidation and NAM revision",
+    "task": "Read complete GP-50 finding and compact supporting source; consolidate into VALETON.md, preserve original dates, verify regional NAM A2 conversion firmware1.1.0+ with mobile2.1.0+, and commit before another model. Then continue remaining legacy records and fresh Shopee discovery.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 18 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 17 legacy-only models."
   },
   "new_findings": [
     {
@@ -7231,6 +7231,187 @@
         "https://www.valeton.net/product/gp-180/"
       ],
       "scope": "Complete historical body and supporting comparison fields preserved; native NAM A2 Lite firmware1.1.1+, model-specific power distinctions and two qualified Shopee offers checked2026-10-17."
+    },
+    {
+      "models": [
+        "Valeton GP-5"
+      ],
+      "model_name": "GP-5",
+      "brand": "Valeton",
+      "destination": "VALETON.md#gp-5",
+      "source": "effects/findings/2026-10-14-valeton-gp-5.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "VALETON-GP-5",
+      "source_sha256": "0ab2f094ce2b32d3f90379a68d4b5e7ffc43aa18e7359172575478d0095b36d5",
+      "renamed_references": [],
+      "retained_comparison_facts": [
+        {
+          "field": "Display",
+          "value": "LCD",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Diagonal, inches",
+          "value": "?",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Monochrome / color",
+          "value": "Color",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Evidence and remaining uncertainty",
+          "value": "[Official color claim; retailer 0.96-inch claim not primary-verified](effects/findings/2026-10-14-valeton-gp-5.md)",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Built-in / external expression",
+          "value": "No / not established",
+          "source": "effects/guitar-compact.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "K/F/B",
+          "value": "?/1/?",
+          "source": "effects/guitar-compact.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Width × depth × height, mm",
+          "value": "93.5 × 42 × 52*",
+          "source": "effects/guitar-compact.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Weight",
+          "value": "237 g",
+          "source": "effects/guitar-compact.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Used IDR observation",
+          "value": "?",
+          "source": "effects/guitar-compact.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "New / retail IDR observation",
+          "value": "**Rp1.395.000**, Smosyu; stock unconfirmed [F5]",
+          "source": "effects/guitar-compact.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Simultaneous blocks / categories and choices",
+          "value": "Up to 9 simultaneous; 100+ effects; modules shown include NR, PRE, DST, N>S, AMP, CAB, EQ, MOD, DLY, RVB; not all necessarily concurrent",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Presets and user storage",
+          "value": "50 P + 50 U = 100",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Synth / acoustic functions",
+          "value": "Exact synth/acoustic choices ?",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Third-party IR",
+          "value": "20 user slots",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "NAM / captured models",
+          "value": "SnapTone converted NAM; 80 model slots / 50 supplied",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Audio / control connections",
+          "value": "¼″ input; one **unbalanced** ¼″ TRS stereo output also serving headphones; USB-C",
+          "source": "effects/guitar-compact.md",
+          "context": "4. Connections, power, apps and practical differences"
+        },
+        {
+          "field": "Power and battery",
+          "value": "DC 9 V centre-negative/100 mA, or USB 5 V/190 mA; battery support not established",
+          "source": "effects/guitar-compact.md",
+          "context": "4. Connections, power, apps and practical differences"
+        },
+        {
+          "field": "Configuration software",
+          "value": "iOS/Android editing via Bluetooth; Windows/macOS file/firmware management, not assumed full editor; July-2025 FAQ does **not officially support Linux/Chromebook** [F5]",
+          "source": "effects/guitar-compact.md",
+          "context": "4. Connections, power, apps and practical differences"
+        },
+        {
+          "field": "Other relevant features",
+          "value": "USB 2-in/2-out; analog/digital bypass; app rhythms; **USB device, not host; no microphone preamp** [F5]",
+          "source": "effects/guitar-compact.md",
+          "context": "4. Connections, power, apps and practical differences"
+        },
+        {
+          "field": "Original used quote",
+          "value": "USD58.99–63.99, GC Great–Excellent",
+          "source": "effects/guitar-compact.md",
+          "context": "Archived foreign-price provenance — not the comparison currency"
+        },
+        {
+          "field": "Original new quote",
+          "value": "USD79.99",
+          "source": "effects/guitar-compact.md",
+          "context": "Archived foreign-price provenance — not the comparison currency"
+        },
+        {
+          "field": "Original evidence",
+          "value": "[P5], [P6]",
+          "source": "effects/guitar-compact.md",
+          "context": "Archived foreign-price provenance — not the comparison currency"
+        }
+      ],
+      "link_normalizations": {
+        "(../guitar-compact.md)": "(effects/guitar-compact.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "supporting_sources": [
+        "effects/guitar-compact.md"
+      ],
+      "status": "Consolidated; technical verification remains partial",
+      "retained_context": [
+        "Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.",
+        "**Availability warning:** the Nafiri GP-100/Pocket Master and Smosyu GP-5 extracted pages contain both a sold-out label and Add to cart. Those conflicting page elements are recorded as **unconfirmed**, not definite stock. The GP-100 used and GP-50 new listings have an explicit sold-out purchase state; these are historical listed amounts, not active offers or proven sale prices. A seller account name does not establish authorized-dealer status.",
+        "*GP-100 height is the manufacturer's published 28 mm figure; do not assume it includes maximum expression-pedal travel. GP-5 dimensions retain the manufacturer's width/depth labels rather than silently rotating the unit. GP-150's 200 × 139 mm fit leaves essentially no spare depth under this filter; cable clearance is additional.*",
+        "GP-100's checked firmware-1.8 manual has effect-total wording that differs from the current 140+ product-page summary. The total and rhythm-count conflicts remain unresolved. GP-5's July-2025 FAQ is retained with its date; planned features in that FAQ are not treated as definitive current firmware limitations.",
+        "These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected.",
+        "P2 separately listed USD102 B-stock; that is not used-price evidence. P5 contained two asking-price observations, not a statistically estimated market range. Earlier accessories, tax, shipping and stock limitations remain applicable."
+      ],
+      "retained_source_urls": [
+        "https://www.guitarcenter.com/Valeton/Multi-Effects-Pedals.gc",
+        "https://shop.valeton.net/products/gp-5"
+      ],
+      "supporting_source_hashes": {
+        "effects/guitar-compact.md": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc"
+      },
+      "new_sources": [
+        "https://www.hotone.jp/announcements/nama2allbrand"
+      ],
+      "scope": "Complete original GP-5 finding and compact comparison preserved; model-specific NAM A2 conversion app2.1.0+ and qualified sold-out Shopee asks checked2026-10-17. July2025 FAQ remains dated, not a blanket current controller limitation."
     }
   ],
   "discovery_leads": [
@@ -7307,6 +7488,16 @@
         "https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.31171541.51763144425"
       ],
       "qualification": "Bandung Music Gallery indexed3619140/comparison3693000,2% label,stale August delivery. Artech search3693000 Habis versus reopened3619140 without sold-out label. Condition/bundle/region/checkout stock unknown."
+    },
+    {
+      "model": "Valeton GP-5",
+      "checked_date": "2026-10-17",
+      "status": "Existing model refreshed; no count addition",
+      "urls": [
+        "https://shopee.co.id/Valeton-GP-5-GP5-GP-5-Multi-FX-Amp-And-IR-Loader-Mini-Pedal-i.703046367.29241009193",
+        "https://shopee.co.id/Valeton-GP-5-Multi-Effects-Processor-SnapTone-IR-Loader-Efek-Gitar-i.331131666.43506785697"
+      ],
+      "qualification": "Asia Pro Sound1585000 Habis on reopen; search omitted label. kitharraguitarshop1605000 Habis indexed; reopen cache miss. Retail hardware asks, not used-price or live-stock proof. Condition/bundle/region/voucher/delivered charges unconfirmed."
     }
   ],
   "inventory_by_brand": {
@@ -7499,7 +7690,8 @@
       "GP-100",
       "GP-150",
       "GP-200",
-      "GP-180"
+      "GP-180",
+      "GP-5"
     ],
     "MOOER.md": [
       "GE250",
@@ -7656,7 +7848,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "18 legacy-only models remain;108 root-canonical. Full migration and research incomplete.",
+    "warning": "17 legacy-only models remain;109 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -7726,8 +7918,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 108,
-    "legacy_only_models": 18,
+    "canonical_root_models": 109,
+    "legacy_only_models": 17,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -7760,7 +7952,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-5 — complete legacy consolidation and NAM revision."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-50 — complete legacy consolidation and NAM revision."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -8881,10 +9073,9 @@
       ]
     },
     "Valeton::GP-5": {
-      "link": "effects/findings/2026-10-14-valeton-gp-5.md",
+      "link": "VALETON.md#gp-5",
       "source_files": [
-        "effects/findings/2026-10-14-valeton-gp-5.md",
-        "effects/guitar-compact.md"
+        "VALETON.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-14-valeton-gp-5.md"
