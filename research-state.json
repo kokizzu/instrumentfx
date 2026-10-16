@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "seventh Shopee expansion shared-source consolidation",
-    "task": "All seven Shopee expansion shared sources have content-union audits. Seventh source8models/120fields preserved;verify union/navigation and commit. Next read discovery-index/history and ownership/scope/methodology metadata,then map and update legacy navigation before source retirement. Technical gaps/fresh discovery remain.",
+    "model": "Public ownership and policy metadata",
+    "task": "Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Next read complete discovery index/history,coverage and remaining navigation metadata;map incoming links before source retirement. Technical gaps and fresh discovery remain.",
     "next_models": [],
-    "after_queue": "Continue remaining technical gaps and fresh eligible Shopee discovery;historical queues/thresholds are not current state. No source retirement yet."
+    "after_queue": "No private receipts/mail/order/payment contents included;historical source cursors are not active instructions."
   },
   "new_findings": [
     {
@@ -27011,6 +27011,20 @@
         ],
         "retirement_authorized": false
       }
+    },
+    "public_metadata_consolidation": {
+      "date": "2026-10-17",
+      "sources": {
+        "effects/OWNERSHIP.md": "fab6ef708baad6831cb83f4ff8f252faf1620d3d259c16155ce555f19fea2a40",
+        "effects/OWNERSHIP.history-2026-10-14.md": "55632de3503d8ee934641e51eb983e10c414cbcbe5e026a43310f9bd996afd49",
+        "effects/SCOPE.md": "f74360baf27489b62f389a1dcfb29987d0399d93477195bf2e2b42a05f908517",
+        "effects/METHODOLOGY.md": "73e884f01904b5e5c5a8e719cd6f21cc16d0ca4af1cddc25138c2f5bee8d57f9"
+      },
+      "destination": "research-state.json#public_metadata",
+      "ownership_entries": 21,
+      "root_profile_links": 20,
+      "source_retired": false,
+      "verification": "Structured tables,headings and complete paragraph groups;every nonblank source line accounted for;current overlay resolves existing root models without adding records"
     }
   },
   "deferred_work": {
@@ -28620,5 +28634,1312 @@
     ],
     "access": "HTML/indexed PDF text only;no file downloads",
     "next_task": "Remaining shared legacy sources union/navigation audits;MS50G gaps explicit"
+  },
+  "public_metadata": {
+    "schema_version": 1,
+    "checked_date": "2026-10-17",
+    "sources": {
+      "effects/OWNERSHIP.md": {
+        "source": "effects/OWNERSHIP.md",
+        "sha256": "fab6ef708baad6831cb83f4ff8f252faf1620d3d259c16155ce555f19fea2a40",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 38,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Ever-owned multi-effects history",
+            "context": "Ever-owned multi-effects history",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparisons](README.md) · [Owned technical additions](owned-multifx.md) · [Scope](SCOPE.md) · [Resume](RESUME.md)",
+            "context": "Ever-owned multi-effects history",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Updated 2026-10-15: 21 identified product/model entries**, including a newly recovered direct ownership statement for **Audota AME-100**. Nineteen entries already link to integrated technical profiles at this checkpoint; AME-100 research and the older BlackBox revision remain open. This is an ownership overlay, not21 extra catalogue models or proof that every historical purchase has been recovered.",
+            "context": "Ever-owned multi-effects history",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "Former, donated, studio and headphone/desktop units remain included. Current possession, hardware revision and technical completeness are separate questions. The [original ownership audit](OWNERSHIP.history-2026-10-14.md) preserves prior evidence limitations and chronology. Its old Audota guess and missing-profile statuses are superseded below; private messages, mailbox/order identifiers, receipt contents and payment details are not published.",
+            "context": "Ever-owned multi-effects history",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Identified entries",
+            "context": "Identified entries",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "#",
+              "Model",
+              "Last supported ownership context",
+              "Technical coverage"
+            ],
+            "alignment": "|---:|---|---|---|",
+            "rows": [
+              {
+                "#": "1",
+                "Model": "Boin Audio BG300",
+                "Last supported ownership context": "Owner-listed,current compact unit in October;BM30 was earlier uncertainty,not another model",
+                "Technical coverage": "[Finding](findings/2026-10-14-boin-audio-bg300.md);revision conflicts retained"
+              },
+              {
+                "#": "2",
+                "Model": "Sonicake Matribox I/QME-50",
+                "Last supported ownership context": "October rig;broken headphone jack describes this unit's condition,not the whole model",
+                "Technical coverage": "[Compact comparison](guitar-compact.md)"
+              },
+              {
+                "#": "3",
+                "Model": "BOSS GM-800",
+                "Last supported ownership context": "Explicit ownership/use,October rig",
+                "Technical coverage": "[Eligible GM-800 section](specialist.md)"
+              },
+              {
+                "#": "4",
+                "Model": "Roland GR-55",
+                "Last supported ownership context": "Explicit GR-55/GK-3/13-pin use",
+                "Technical coverage": "[Owned comparison](owned-multifx.md),[finding](findings/2026-10-14-roland-gr-55.md);not BOSS-branded"
+              },
+              {
+                "#": "5",
+                "Model": "Line6 HX Effects",
+                "Last supported ownership context": "October purchase/rig history,not HX Stomp shopping",
+                "Technical coverage": "[Advanced comparison](advanced-modelers.md)"
+              },
+              {
+                "#": "6",
+                "Model": "M-VAVE MK-300",
+                "Last supported ownership context": "Owner list and previously inspected delivery evidence;current studio placement not proven by receipt alone",
+                "Technical coverage": "[Finding](findings/2026-10-14-mvave-mk-300.md)"
+              },
+              {
+                "#": "7",
+                "Model": "JOYO GEM BOX III",
+                "Last supported ownership context": "Previously inspected purchase/delivery evidence;likely JOYO studio identification,placement not certified",
+                "Technical coverage": "[Finding](findings/2026-10-14-joyo-gembox-iii.md)"
+              },
+              {
+                "#": "8",
+                "Model": "NUX MG-101",
+                "Last supported ownership context": "Ever-owned;among four church handovers confirmed by owner2026-10-13",
+                "Technical coverage": "[NUX comparison](guitar-nux.md)"
+              },
+              {
+                "#": "9",
+                "Model": "M-VAVE MK-20",
+                "Last supported ownership context": "Among same four confirmed donations",
+                "Technical coverage": "[Finding](findings/2026-10-14-mvave-mk-20.md)"
+              },
+              {
+                "#": "10",
+                "Model": "Scorpion KMF-10",
+                "Last supported ownership context": "Among same four donations;older KMF-1 wording not evidence of another model",
+                "Technical coverage": "[Finding](findings/2026-10-14-scorpion-kmf-10.md)"
+              },
+              {
+                "#": "11",
+                "Model": "JOYO GEM BOX II",
+                "Last supported ownership context": "Latest donation and earlier friend-gift statements both retained without inventing second-unit chronology",
+                "Technical coverage": "[Finding](findings/2026-10-14-joyo-gembox-ii.md);earlier purchase variant was used full set"
+              },
+              {
+                "#": "12",
+                "Model": "JOYO GEM BOX original/I",
+                "Last supported ownership context": "Owner list and previously inspected delivery evidence;current possession unconfirmed",
+                "Technical coverage": "**[Profile now integrated](findings/2026-10-15-joyo-gembox-original.md)**;JOYO's own product pages resolve primary identity"
+              },
+              {
+                "#": "13",
+                "Model": "M-VAVE BlackBox,owned2025 revision unresolved",
+                "Last supported ownership context": "Purchase/delivery and earlier given-to-friend statement",
+                "Technical coverage": "Do not automatically merge with ANN Blackbox or invent a distinct legacy revision;identity still open"
+              },
+              {
+                "#": "14",
+                "Model": "M-VAVE MINI-X",
+                "Last supported ownership context": "Two purchase/delivery notifications represent one model,not proof both remain held",
+                "Technical coverage": "**[Profile now integrated](findings/2026-10-15-mvave-mini-x.md)**"
+              },
+              {
+                "#": "15",
+                "Model": "M-VAVE Pocket Amp",
+                "Last supported ownership context": "Purchase/delivery evidence;earlier given-to-friend statement",
+                "Technical coverage": "**[Profile now integrated](findings/2026-10-15-mvave-pocket-amp.md)**;not Sonicake Pocket Master"
+              },
+              {
+                "#": "16",
+                "Model": "CUVAVE H8",
+                "Last supported ownership context": "Separate item in previously inspected delivery evidence",
+                "Technical coverage": "**[Profile now integrated](findings/2026-10-15-cuvave-h8.md)**;not MINI-X"
+              },
+              {
+                "#": "17",
+                "Model": "Zoom B1Xon",
+                "Last supported ownership context": "Explicit bass-model ownership/use",
+                "Technical coverage": "[Owned comparison](owned-multifx.md),[finding](findings/2026-10-14-zoom-b1xon.md);not B1X FOUR/G1Xon"
+              },
+              {
+                "#": "18",
+                "Model": "MOOER GE100 original",
+                "Last supported ownership context": "Explicit ownership/use",
+                "Technical coverage": "[Finding](findings/2026-10-14-mooer-ge100.md);not Pro/ProLi"
+              },
+              {
+                "#": "19",
+                "Model": "VING Flybro FB-100 / Ving FB100",
+                "Last supported ownership context": "Explicit ownership/use",
+                "Technical coverage": "**[Profile now integrated](findings/2026-10-15-ving-fb100.md)**;original printed guide itself names VING and Flybro,not an assumed rebadge"
+              },
+              {
+                "#": "20",
+                "Model": "Sonicake Pocket Master/QME-10",
+                "Last supported ownership context": "Explicit ownership/use",
+                "Technical coverage": "[Compact comparison](guitar-compact.md);separate from M-VAVE Pocket Amp"
+              },
+              {
+                "#": "21",
+                "Model": "**Audota AME-100**",
+                "Last supported ownership context": "Direct owner model statement dated2026-03-16 recovered in this pass",
+                "Technical coverage": "**Technical research next**. Manufacturer categorizes AME-100 as guitar multi-effects;do not replace it with AVE-100 merely because older discussion called an Audota unit vocal"
+              }
+            ],
+            "context": "Identified entries",
+            "line": 11,
+            "end_line": 33
+          },
+          {
+            "kind": "paragraph",
+            "text": "The five specifically missing profiles from the earlier20-entry audit are now committed. This does not mean every technical field is verified or every past purchase found. Models already on other pages are not duplicated in the catalogue.",
+            "context": "Identified entries",
+            "line": 35,
+            "end_line": 35
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Identity checks still open",
+            "context": "Identity checks still open",
+            "line": 37,
+            "end_line": 37
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Audota correction:** a direct statement establishes **AME-100 ownership**. The older assistant-proposed **AVE-100** is a different vocal product and is not ownership proof. Whether a separate AVE-100 was also owned remains unestablished; no second Audota entry is invented from that guess. Manufacturer identity reference: [AME-100 product page](https://en.audota.com/AME100EN.html).",
+            "context": "Identity checks still open",
+            "line": 39,
+            "end_line": 39
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Zoom vocal processor:** ownership was mentioned, but the exact model and V6/V6-SP bundle are not established by a direct model statement or newly inspected receipt in this pass. **Valeton RH-4/Rushead bass headphone unit:** remains an assistant-inventory candidate requiring direct or receipt confirmation, not included among the21 entries. **BlackBox:** the2025 purchase name still does not establish revision identity.",
+            "context": "Identity checks still open",
+            "line": 41,
+            "end_line": 41
+          },
+          {
+            "kind": "paragraph",
+            "text": "The earlier broad mailbox query was rate-limited. This pass recovered a prior direct Audota statement, not a complete new mailbox search. Delivery evidence alone does not prove authenticity, current possession or absence of a later return.",
+            "context": "Identity checks still open",
+            "line": 43,
+            "end_line": 43
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Explicit exclusions and corrections",
+            "context": "Explicit exclusions and corrections",
+            "line": 45,
+            "end_line": 45
+          },
+          {
+            "kind": "paragraph",
+            "text": "**NUX MG-400 is not confirmed owned:** the owner rejected the earlier cited order as a fake-seller purchase. Keep the product in general research without an ownership tag. **Valeton GP-50 remains the confirmed backup plan**, not a verified purchase. Shopping comparisons do not establish ownership.",
+            "context": "Explicit exclusions and corrections",
+            "line": 47,
+            "end_line": 47
+          },
+          {
+            "kind": "paragraph",
+            "text": "Pickups, controllers, expression/volume pedals, tuners, ABY boxes, interfaces, ordinary mini amplifiers and dedicated-purpose guitar pedals are not additional multi-effects. Out-of-scope ownership history does not restore FV01 or the five excluded BOSS pedals to the active comparison.",
+            "context": "Explicit exclusions and corrections",
+            "line": 49,
+            "end_line": 49
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Next work",
+            "context": "Next work",
+            "line": 51,
+            "end_line": 51
+          },
+          {
+            "kind": "paragraph",
+            "text": "Research exact **Audota AME-100**, resolve the remaining BlackBox/Zoom/RH-4 identities without guessing, and continue the marketplace and original display/IDR queues in [the ledger](research-state.json). Commit each useful model immediately. Do not restart the already-saved JOYO original, MINI-X, Pocket Amp, H8 or VING profiles.",
+            "context": "Next work",
+            "line": 53,
+            "end_line": 53
+          }
+        ]
+      },
+      "effects/OWNERSHIP.history-2026-10-14.md": {
+        "source": "effects/OWNERSHIP.history-2026-10-14.md",
+        "sha256": "55632de3503d8ee934641e51eb983e10c414cbcbe5e026a43310f9bd996afd49",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 43,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Owner's multi-effects history",
+            "context": "Owner's multi-effects history",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparison index](README.md) · [Resume](RESUME.md) · [Methodology](METHODOLOGY.md)",
+            "context": "Owner's multi-effects history",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Reviewed 2026-10-14. Scope: every multi-effects processor the repository owner has ever owned, not just the current pedalboard.** Include donated, given-away, older, studio and headphone/desktop processors. Ownership does not depend on finding a current Shopee listing. This owner index supplements the market catalogue; its rows and cross-references do not automatically increase the technical model count.",
+            "context": "Owner's multi-effects history",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "**20 identified owned product/model entries are recorded below. Two vocal-device identities and one additional headphone-processor candidate still need verification.** Exact hardware revisions, current retention and technical completeness are separate questions. This is the evidence recovered so far, not proof that no other purchase ever occurred.",
+            "context": "Owner's multi-effects history",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Evidence and privacy",
+            "context": "Evidence and privacy",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "paragraph",
+            "text": "Ownership evidence comes from the owner's gear statements, especially the explicit 2026-07-08 list and the 2026-10-12/13 corrections, plus purchase/delivery notifications inspected in the owner's connected mailbox. Only necessary model-level conclusions are published. Private messages, mailbox links/IDs, order numbers, addresses, payment information and receipt contents are not copied into this public repository. Receipt dates are delivery-notification dates, not silently relabelled order dates. Technical specifications require separate manufacturer evidence; a seller's receipt title is not a specification sheet.",
+            "context": "Evidence and privacy",
+            "line": 11,
+            "end_line": 11
+          },
+          {
+            "kind": "paragraph",
+            "text": "A delivery notification is purchase/delivery evidence, not independent authentication, proof of current possession or proof of no later return. Explicit owner corrections override misleading order titles. An additional broad mailbox search was rate-limited during this review; unresolved items remain visible rather than guessed.",
+            "context": "Evidence and privacy",
+            "line": 13,
+            "end_line": 13
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Identified ownership history",
+            "context": "Identified ownership history",
+            "line": 15,
+            "end_line": 15
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "#",
+              "Model / purchase identity",
+              "Ownership and last supported status",
+              "Existing technical coverage / next action"
+            ],
+            "alignment": "|---:|---|---|---|",
+            "rows": [
+              {
+                "#": "1",
+                "Model / purchase identity": "**Boin Audio BG300**",
+                "Ownership and last supported status": "Owner-listed in July and current compact unit in October; earlier BM30 uncertainty is not another model",
+                "Existing technical coverage / next action": "[BG300 finding](findings/2026-10-14-boin-audio-bg300.md); preserve manual/retailer revision conflicts"
+              },
+              {
+                "#": "2",
+                "Model / purchase identity": "**SONICAKE Matribox I / QME-50**",
+                "Ownership and last supported status": "Owner-listed and used on the October board; owner reported a broken headphone port",
+                "Existing technical coverage / next action": "[Compact comparison](guitar-compact.md), [finding](findings/2026-10-14-sonicake-matribox.md); the broken port is this owner's unit condition, not a design limitation"
+              },
+              {
+                "#": "3",
+                "Model / purchase identity": "**BOSS GM-800**",
+                "Ownership and last supported status": "Explicit ownership/use statements; October rig",
+                "Existing technical coverage / next action": "[Specialist comparison](specialist.md); synth/multi-effects, not an ordinary analog-input pedal"
+              },
+              {
+                "#": "4",
+                "Model / purchase identity": "**Roland GR-55**",
+                "Ownership and last supported status": "Explicit owner statements about GR-55 with GK-3/13-pin cable; previously used at home",
+                "Existing technical coverage / next action": "Missing technical record at review start; prioritize manufacturer-backed comparison. Do not label it a BOSS model merely because a receipt does"
+              },
+              {
+                "#": "5",
+                "Model / purchase identity": "**Line 6 HX Effects**",
+                "Ownership and last supported status": "October purchase/rig history; not merely HX Stomp shopping research",
+                "Existing technical coverage / next action": "[Advanced comparison](advanced-modelers.md); effects-only versus amp-modeling distinction retained"
+              },
+              {
+                "#": "6",
+                "Model / purchase identity": "**M-VAVE MK-300**",
+                "Ownership and last supported status": "Explicit July owner list; purchase/delivery notification rechecked; studio-identification candidate",
+                "Existing technical coverage / next action": "[Finding](findings/2026-10-14-mvave-mk-300.md). Do not claim exact present studio placement from a receipt alone"
+              },
+              {
+                "#": "7",
+                "Model / purchase identity": "**JOYO GEM BOX III**",
+                "Ownership and last supported status": "Purchase/delivery notification rechecked; resolves the likely JOYO studio unit, not GEM BOX I/II",
+                "Existing technical coverage / next action": "[Finding](findings/2026-10-14-joyo-gembox-iii.md); current placement remains separate from purchase evidence"
+              },
+              {
+                "#": "8",
+                "Model / purchase identity": "**NUX MG-101**",
+                "Ownership and last supported status": "Ever-owned; among four units whose church handover the owner confirmed on 2026-10-13",
+                "Existing technical coverage / next action": "[NUX comparison](guitar-nux.md); do not remove from ever-owned history"
+              },
+              {
+                "#": "9",
+                "Model / purchase identity": "**M-VAVE MK-20**",
+                "Ownership and last supported status": "Ever-owned; among the same four confirmed church donations",
+                "Existing technical coverage / next action": "[Finding](findings/2026-10-14-mvave-mk-20.md)"
+              },
+              {
+                "#": "10",
+                "Model / purchase identity": "**Scorpion KMF-10**",
+                "Ownership and last supported status": "Ever-owned; among the same four confirmed church donations. Earlier July wording KMF-1 is an unresolved abbreviated/older name, not evidence of an additional model",
+                "Existing technical coverage / next action": "[Finding](findings/2026-10-14-scorpion-kmf-10.md)"
+              },
+              {
+                "#": "11",
+                "Model / purchase identity": "**JOYO GEM BOX II**",
+                "Ownership and last supported status": "Ever-owned; latest 2026-10-13 statement includes it among church donations. July statement described a GEM BOX II given to a friend; retain both without inventing a second unit or recipient chronology",
+                "Existing technical coverage / next action": "[Finding](findings/2026-10-14-joyo-gembox-ii.md). Rechecked purchase notification explicitly identifies a used/second-hand full-set variant"
+              },
+              {
+                "#": "12",
+                "Model / purchase identity": "**JOYO GEM BOX I / Gembox 1**",
+                "Ownership and last supported status": "Explicit July owner list and rechecked purchase/delivery notification; current retention not established",
+                "Existing technical coverage / next action": "Previously discovery-only; prioritize matching JOYO manufacturer evidence, not the rejected MOOER-identified manual"
+              },
+              {
+                "#": "13",
+                "Model / purchase identity": "**M-VAVE BlackBox — owned 2025 revision not yet identified**",
+                "Ownership and last supported status": "Rechecked purchase/delivery notification and explicit July statement: given to a friend",
+                "Existing technical coverage / next action": "Do **not** equate this automatically with [ANN Blackbox](findings/2026-10-14-mvave-ann-blackbox.md), or count it as a distinct legacy hardware model solely from the receipt name; identify the revision"
+              },
+              {
+                "#": "14",
+                "Model / purchase identity": "**M-VAVE MINI-X**",
+                "Ownership and last supported status": "Two separate purchase/delivery notifications rechecked, one in September 2025 and one in November 2025",
+                "Existing technical coverage / next action": "One model entry, two purchase records; not proof both remain owned simultaneously. Missing technical record at review start"
+              },
+              {
+                "#": "15",
+                "Model / purchase identity": "**M-VAVE Pocket Amp**",
+                "Ownership and last supported status": "Rechecked purchase/delivery notification; explicit July statement: given to a friend",
+                "Existing technical coverage / next action": "Missing technical record. Do not silently substitute Sonicake Pocket Master despite keyword-stuffed seller titles"
+              },
+              {
+                "#": "16",
+                "Model / purchase identity": "**CUVAVE H8**",
+                "Ownership and last supported status": "Separate item on the rechecked Pocket Amp order/delivery notification; current retention unconfirmed",
+                "Existing technical coverage / next action": "Missing technical record; do not merge with MINI-X or another CUVAVE/M-VAVE product without primary evidence"
+              },
+              {
+                "#": "17",
+                "Model / purchase identity": "**Zoom B1Xon**",
+                "Ownership and last supported status": "Explicit July ownership/use statement identifies the bass model",
+                "Existing technical coverage / next action": "Missing technical record; not B1X FOUR or guitar G1Xon"
+              },
+              {
+                "#": "18",
+                "Model / purchase identity": "**MOOER GE100, original**",
+                "Ownership and last supported status": "Explicit July ownership/use statement",
+                "Existing technical coverage / next action": "[Finding](findings/2026-10-14-mooer-ge100.md); not GE100 Pro or Pro Li"
+              },
+              {
+                "#": "19",
+                "Model / purchase identity": "**Ving FB100**",
+                "Ownership and last supported status": "Explicit July ownership/use statement",
+                "Existing technical coverage / next action": "Missing technical record; Flybro branding/rebadge relation remains unverified, so retain the owner's Ving spelling"
+              },
+              {
+                "#": "20",
+                "Model / purchase identity": "**SONICAKE Pocket Master / QME-10**",
+                "Ownership and last supported status": "Explicit July ownership/use statement",
+                "Existing technical coverage / next action": "[Compact comparison](guitar-compact.md), [finding](findings/2026-10-14-sonicake-pocket-master.md); separate from M-VAVE Pocket Amp"
+              }
+            ],
+            "context": "Identified ownership history",
+            "line": 17,
+            "end_line": 38
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Vocal devices and other identity checks — do not lose these",
+            "context": "Vocal devices and other identity checks — do not lose these",
+            "line": 40,
+            "end_line": 40
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Owner-history item",
+              "What is established",
+              "What is not established"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Owner-history item": "**Audota vocal processor**",
+                "What is established": "The owner referred to an owned Audota vocal unit in the older gear discussion",
+                "What is not established": "AVE-100 is an earlier assistant-proposed model name, not yet established by a retrieved direct model statement or freshly read receipt. Keep the device in scope; do not fill an AVE-100 specification row by assumption"
+              },
+              {
+                "Owner-history item": "**Zoom vocal processor**",
+                "What is established": "The owner referred to an owned Zoom vocal unit in the older discussion",
+                "What is not established": "V6 was an earlier assistant identification; exact model and V6 versus V6-SP bundle are not verified. Existing [V6-SP coverage](vocal.md) is not proof the owner bought that bundle"
+              },
+              {
+                "Owner-history item": "**Valeton RH-4 / Rushead bass headphone processor**",
+                "What is established": "Appeared in an earlier assistant inventory",
+                "What is not established": "Direct owner/model or receipt confirmation is still required. It is a candidate, not included among the 20 identified entries"
+              }
+            ],
+            "context": "Vocal devices and other identity checks — do not lose these",
+            "line": 42,
+            "end_line": 46
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Explicit exclusions and corrections",
+            "context": "Explicit exclusions and corrections",
+            "line": 48,
+            "end_line": 48
+          },
+          {
+            "kind": "paragraph",
+            "text": "**NUX MG-400 is not established as owned.** The owner explicitly rejected the previously cited order as a fake-seller purchase on 2026-10-13. Keep MG-400 in the general product catalogue, but do not label it owned from that order.",
+            "context": "Explicit exclusions and corrections",
+            "line": 50,
+            "end_line": 50
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Valeton GP-50 remains a backup-plan item in the latest direct owner statement**, to replace BG300 if it breaks. A conflicting recalled purchase claim was not backed by a successfully read receipt in this review, so ownership is not promoted. GP-100/150 and other shopping comparisons likewise do not establish ownership.",
+            "context": "Explicit exclusions and corrections",
+            "line": 52,
+            "end_line": 52
+          },
+          {
+            "kind": "paragraph",
+            "text": "Do not count divided pickups (GK-3/GK-5), MIDI/footswitch controllers, expression/volume pedals, tuners, ABY boxes, interfaces, ordinary mini amplifiers or dedicated single-effect pedals as additional multi-effects units. Existing SY-1/VO-1/XS-100 specialist research remains in the broader catalogue; this is not a claim that those devices were never owned.",
+            "context": "Explicit exclusions and corrections",
+            "line": 54,
+            "end_line": 54
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Resuming the owned-device audit",
+            "context": "Resuming the owned-device audit",
+            "line": 56,
+            "end_line": 56
+          },
+          {
+            "kind": "paragraph",
+            "text": "Add missing, correctly identified processors with every required comparison field or an explicit unknown: GR-55, B1Xon, original GEM BOX, MINI-X, Pocket Amp, H8 and Ving FB100. Identify the owned BlackBox revision separately. Keep Audota/Zoom vocal and RH-4 identity checks ahead of less relevant marketplace expansion. Commit each useful model finding immediately. Preserve all existing 80 technical records and the MOOER GE100 Pro marketplace cursor; neither an ownership row nor a duplicate note is a new technical model.",
+            "context": "Resuming the owned-device audit",
+            "line": 58,
+            "end_line": 58
+          },
+          {
+            "kind": "paragraph",
+            "text": "The owner overlay must survive donations and future sales. Update last-known state when supported; never remove former gear merely because it is no longer on the current board.",
+            "context": "Resuming the owned-device audit",
+            "line": 60,
+            "end_line": 60
+          }
+        ]
+      },
+      "effects/SCOPE.md": {
+        "source": "effects/SCOPE.md",
+        "sha256": "f74360baf27489b62f389a1dcfb29987d0399d93477195bf2e2b42a05f908517",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 24,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Multi-effects comparison scope",
+            "context": "Multi-effects comparison scope",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparison index](README.md) · [Owner history](OWNERSHIP.md) · [Resume](RESUME.md)",
+            "context": "Multi-effects comparison scope",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "**User correction, 2026-10-14: for guitars, only multi-effects; Flamma FV01 is not to be included as a multi-effects unit.** This instruction supersedes older broad-scope wording in the initial methodology, backlog, checkpoint and historical counts.",
+            "context": "Multi-effects comparison scope",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Included",
+            "context": "Included",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "paragraph",
+            "text": "Guitar multi-effects processors with a documented range of independent effect categories, including effects-only processors. An amp modeler, built-in expression pedal, touchscreen, a minimum number of footswitches or an FX loop is not a prerequisite. Do not exclude Line 6 HX Effects merely because it lacks amp modeling.",
+            "context": "Included",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "paragraph",
+            "text": "Retain the original separate bass and genuine vocal multi-effects categories. A vocal unit is not a guitar multi-effects processor merely because it accepts a guitar for chord detection, passes guitar audio through or adds guitar reverb. Evaluate each signal path separately.",
+            "context": "Included",
+            "line": 11,
+            "end_line": 11
+          },
+          {
+            "kind": "paragraph",
+            "text": "Multi-instrument/synth processors such as the already-researched GM-800 and the GR-55 owner-history finding are considered by their documented independent effects architecture. This does not admit every dedicated synth pedal automatically.",
+            "context": "Included",
+            "line": 13,
+            "end_line": 13
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Explicit exclusions from active multi-effects comparisons",
+            "context": "Explicit exclusions from active multi-effects comparisons",
+            "line": 15,
+            "end_line": 15
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Model",
+              "Repository classification",
+              "Retained research"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Model": "**Flamma FV01 Corrector**",
+                "Repository classification": "**Excluded**, per the user's explicit correction; specialist vocal correction pedal, not a guitar multi-effects entry",
+                "Retained research": "[Historical finding](findings/2026-10-14-flamma-fv01.md)"
+              },
+              {
+                "Model": "BOSS AC-3",
+                "Repository classification": "Dedicated acoustic-simulation pedal; outside guitar multi-effects scope",
+                "Retained research": "[Archived specialist reference](specialist.md)"
+              },
+              {
+                "Model": "BOSS XS-100",
+                "Repository classification": "Dedicated pitch shifter; outside guitar multi-effects scope",
+                "Retained research": "[Archived specialist reference](specialist.md)"
+              },
+              {
+                "Model": "BOSS VO-1",
+                "Repository classification": "Dedicated vocoder; outside guitar multi-effects scope",
+                "Retained research": "[Archived specialist reference](specialist.md)"
+              },
+              {
+                "Model": "BOSS SY-1",
+                "Repository classification": "Dedicated synth pedal; not admitted simply because it has many synth sounds",
+                "Retained research": "[Archived specialist reference](specialist.md)"
+              },
+              {
+                "Model": "BOSS SY-200",
+                "Repository classification": "Dedicated synth pedal; presets and multiple synth categories do not by themselves make it a general multi-effects processor",
+                "Retained research": "[Archived specialist reference](specialist.md)"
+              }
+            ],
+            "context": "Explicit exclusions from active multi-effects comparisons",
+            "line": 17,
+            "end_line": 24
+          },
+          {
+            "kind": "paragraph",
+            "text": "These are project-scope decisions, not claims that a device contains only one algorithm or lacks all secondary processing. Preserve published specifications in their source-backed findings; do not alter facts to fit a label. **Multiple modes, presets or supporting reverb do not automatically establish eligibility.**",
+            "context": "Explicit exclusions from active multi-effects comparisons",
+            "line": 26,
+            "end_line": 26
+          },
+          {
+            "kind": "paragraph",
+            "text": "Controller-only products, tuners, ABY switches, power supplies, cases and downloadable presets remain excluded. Borderline units require a stated classification decision; do not silently count them.",
+            "context": "Explicit exclusions from active multi-effects comparisons",
+            "line": 28,
+            "end_line": 28
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Counts and older research",
+            "context": "Counts and older research",
+            "line": 30,
+            "end_line": 30
+          },
+          {
+            "kind": "paragraph",
+            "text": "Archived/excluded items must not be included in active multi-effects totals, recommendations or candidate tables. The repository's previously quoted 80-record count was a broad historical research count, not an audited count under this narrower scope. Do not repeat that number as the active multi-effects total without applying this exclusion list and checking subsequent integrations.",
+            "context": "Counts and older research",
+            "line": 32,
+            "end_line": 32
+          },
+          {
+            "kind": "paragraph",
+            "text": "Findings notes and owner-history entries are not automatically new integrated comparison records. Ownership is a separate attribute: a donated unit stays in ever-owned history, and an out-of-scope pedal may be retained as history without being promoted to an active multi-effects candidate.",
+            "context": "Counts and older research",
+            "line": 34,
+            "end_line": 34
+          },
+          {
+            "kind": "paragraph",
+            "text": "The FV01 rows are removed from `shopee-multifx-3.md`. `specialist.md` distinguishes the eligible GM-800 record from the five excluded archived pedals. Old dated price and firmware evidence is retained; its retention does not restore eligibility. Older backlog mentions of single-purpose pedals are inactive under this rule.",
+            "context": "Counts and older research",
+            "line": 36,
+            "end_line": 36
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Resume and ownership",
+            "context": "Resume and ownership",
+            "line": 38,
+            "end_line": 38
+          },
+          {
+            "kind": "paragraph",
+            "text": "Preserve the all-ever-owned request in [OWNERSHIP.md](OWNERSHIP.md), including missing-model and revision checks. Existing GR-55 and B1Xon findings must not be lost or counted twice. Preserve the Shopee queue at MOOER GE100 Pro and the deferred BOSS display/IDR queue while resolving owner-specific gaps. Research and commit one eligible model at a time.",
+            "context": "Resume and ownership",
+            "line": 40,
+            "end_line": 40
+          }
+        ]
+      },
+      "effects/METHODOLOGY.md": {
+        "source": "effects/METHODOLOGY.md",
+        "sha256": "73e884f01904b5e5c5a8e719cd6f21cc16d0ca4af1cddc25138c2f5bee8d57f9",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 43,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Comparison methodology",
+            "context": "Comparison methodology",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparison home](README.md) · [Resume checkpoint](RESUME.md) · [Progress ledger](research-state.json)",
+            "context": "Comparison methodology",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "Research snapshot and requirements update: **2026-10-14**. This is a growing, source-backed catalogue, not a claim to list every pedal ever manufactured. Hardware revisions and materially different models get separate records. Manufacturer product pages, manuals, effect lists and firmware notes take precedence over reseller specifications. Prices require seller/market sources and are not hardware specifications.",
+            "context": "Comparison methodology",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Latest requirements:** add screen size, monochrome/color and touchscreen fields; display comparison prices in **IDR**. The existing pages have not yet completed this migration. The checkpoint records exactly what remains pending; the new rules below supersede the earlier USD-display convention.",
+            "context": "Comparison methodology",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Reading the data",
+            "context": "Reading the data",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "paragraph",
+            "text": "- **? / unverified** = not established from the cited evidence. It does **not** mean no. Machine-readable unknowns are `null`, not zero or false.\n- **No** = an explicitly established absence or a complete, relevant manufacturer specification/manual that excludes the feature.\n- **N/A** = the field does not apply, such as preset memory on a conventional analogue overdrive or diagonal screen size on a device without a screen.\n- **Partial** = at least one requested field still needs verification. Finding a product page does not complete a record.\n- Manufacturer effect totals retain advertised qualifiers such as `+` and `up to`. They are not sound-quality rankings and are not necessarily comparable across brands.",
+            "context": "Reading the data",
+            "line": 11,
+            "end_line": 15
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Categories and size",
+            "context": "Categories and size",
+            "line": 17,
+            "end_line": 17
+          },
+          {
+            "kind": "paragraph",
+            "text": "Primary categories are guitar/multi-instrument processors, bass-focused processors, vocal/acoustic-vocal processors, and dedicated/specialist effects. Cross-references are not duplicate model records. Do not infer that every guitar effect preserves bass low frequencies.",
+            "context": "Categories and size",
+            "line": 19,
+            "end_line": 19
+          },
+          {
+            "kind": "paragraph",
+            "text": "Separate **built-in expression pedal**, **external expression only**, and **neither/unverified**. An expression socket is not an included pedal. Controller-only devices are separate from audio-effects processors.",
+            "context": "Categories and size",
+            "line": 21,
+            "end_line": 21
+          },
+          {
+            "kind": "paragraph",
+            "text": "Dimensions are **millimetres**, normally manufacturer-labelled **width × depth × height**. Keep notes for length/depth naming differences, omitted pedal travel, and conflicting sources. Never use packaging dimensions as unit dimensions. Weight must identify battery inclusion where known.",
+            "context": "Categories and size",
+            "line": 23,
+            "end_line": 23
+          },
+          {
+            "kind": "paragraph",
+            "text": "The **200 × 140 mm** compact filter is `width <= 200 AND depth <= 140`, without rotating the device. Medium is <=300×200 but not compact; large is otherwise; unknown means width or depth is unverified. Footprint does not include plugs, strain relief, adapters or the expression-pedal sweep.",
+            "context": "Categories and size",
+            "line": 25,
+            "end_line": 25
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Controls and live usability",
+            "context": "Controls and live usability",
+            "line": 27,
+            "end_line": 27
+          },
+          {
+            "kind": "paragraph",
+            "text": "Count rotary controls, footswitches and non-foot buttons separately. A push-encoder counts once as a rotary control, not again as a button. Describe concentric independently adjustable shafts explicitly. Expression toe switches, power switches and mode toggles are separate when verified. Touchscreen widgets are not physical buttons. Palm-operated buttons are not stage-safe footswitches.",
+            "context": "Controls and live usability",
+            "line": 29,
+            "end_line": 29
+          },
+          {
+            "kind": "paragraph",
+            "text": "Useful additional fields include switch modes, bypass/pass-through, documented preset-change gaps or spillover, tuner mute, looper duration/placement, drum patterns, parallel routing, dry blend and scenes/snapshots. Do not invent latency measurements or subjective quality scores.",
+            "context": "Controls and live usability",
+            "line": 31,
+            "end_line": 31
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Displays — required for every model",
+            "context": "Displays — required for every model",
+            "line": 33,
+            "end_line": 33
+          },
+          {
+            "kind": "paragraph",
+            "text": "Record **screen presence, screen size, monochrome/color, and touchscreen support** separately. Size normally means the manufacturer's diagonal in inches; keep resolution and technology such as LCD, TFT or OLED in separate optional fields. Never assume OLED means color or color means touchscreen.",
+            "context": "Displays — required for every model",
+            "line": 35,
+            "end_line": 35
+          },
+          {
+            "kind": "paragraph",
+            "text": "If there are multiple displays, distinguish the main screen from auxiliary screens/scribble strips and record their individual dimensions when available. Segmented numeric displays and indicator LEDs must not be silently described as graphical screens. A backlight or colored status LEDs do not establish a color graphical display.",
+            "context": "Displays — required for every model",
+            "line": 37,
+            "end_line": 37
+          },
+          {
+            "kind": "paragraph",
+            "text": "Use explicit documentation or a complete hardware inspection for screen presence and touch status. **Do not estimate diagonal size from a photograph, housing dimensions, a reseller image scale, or a related model.** If a source only establishes a color screen, leave size and touch unknown until independently supported. Record the source and check date for each established field.",
+            "context": "Displays — required for every model",
+            "line": 39,
+            "end_line": 39
+          },
+          {
+            "kind": "paragraph",
+            "text": "For a verified screenless device, screen size is N/A and touchscreen is No/not applicable as clearly labelled. For an unverified device, leave these fields unknown. The new fields must be backfilled into existing records, not just appended to future ones.",
+            "context": "Displays — required for every model",
+            "line": 41,
+            "end_line": 41
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Effects and memory",
+            "context": "Effects and memory",
+            "line": 43,
+            "end_line": 43
+          },
+          {
+            "kind": "paragraph",
+            "text": "Keep **maximum simultaneous processing blocks**, **available categories**, **choices per category**, and **overall advertised model count** separate. Fixed amp/cab/utility blocks are not necessarily freely assignable slots. Retain DSP-limit qualifiers. Amp, cabinet, IR and capture counts are separate from effect counts where the source permits.",
+            "context": "Effects and memory",
+            "line": 45,
+            "end_line": 45
+          },
+          {
+            "kind": "paragraph",
+            "text": "For presets, distinguish total addressable slots, factory-filled slots, dedicated user slots and overwriteable memory. `100 total / 55 factory-filled` does not mean 155 presets. Unused locations are not necessarily the only editable locations; library downloads are not onboard storage.",
+            "context": "Effects and memory",
+            "line": 47,
+            "end_line": 47
+          },
+          {
+            "kind": "paragraph",
+            "text": "Distinguish electric-to-acoustic simulation, acoustic amp models, acoustic-body IRs, actual synthesizers, monophonic synth-like effects, harmony, pitch correction and vocoders. Disclose required divided pickups and special cables.",
+            "context": "Effects and memory",
+            "line": 49,
+            "end_line": 49
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Connections, power and software",
+            "context": "Connections, power and software",
+            "line": 51,
+            "end_line": 51
+          },
+          {
+            "kind": "paragraph",
+            "text": "List connector types/sizes and counts where verified. Distinguish stereo pairs, single TRS stereo jacks and balanced mono TRS. Track headphone output separately, including shared main-output arrangements. A microphone connector does not prove phantom power; record phantom voltage explicitly. Include harmony-detection inputs, FX loops, MIDI DIN/TRS/USB/Bluetooth, USB-audio channel counts and S/PDIF where established.",
+            "context": "Connections, power and software",
+            "line": 53,
+            "end_line": 53
+          },
+          {
+            "kind": "paragraph",
+            "text": "USB connectivity does **not** establish USB power, recording, MIDI or editing. Power notes distinguish voltage, polarity, device current draw versus adapter rating, battery type/capacity, charging, and documented USB bus/PD operation. Manufacturer battery runtime is not an independent measurement.",
+            "context": "Connections, power and software",
+            "line": 55,
+            "end_line": 55
+          },
+          {
+            "kind": "paragraph",
+            "text": "Separate **full editor**, **preset/file manager**, **firmware updater**, **audio driver**, and **mobile audio compatibility**. List Windows/macOS/iOS/Android only for the documented function. Do not infer Linux support from USB class compliance. Note optional Bluetooth adapters, paid apps/accounts and discontinued software where verified.",
+            "context": "Connections, power and software",
+            "line": 57,
+            "end_line": 57
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "IR, NAM and other captures",
+            "context": "IR, NAM and other captures",
+            "line": 59,
+            "end_line": 59
+          },
+          {
+            "kind": "paragraph",
+            "text": "Keep separate fields for third-party IR loading, native `.nam` loading and architecture restrictions, NAM conversion/optimisation into another format, and proprietary captures/profiles. Include capacities and sample limits when established.",
+            "context": "IR, NAM and other captures",
+            "line": 61,
+            "end_line": 61
+          },
+          {
+            "kind": "paragraph",
+            "text": "A proprietary capture feature does **not** prove NAM support. An IR loader is not an amp-capture loader. Factory cabinets do not prove third-party IR import. USB updates alone establish none of these. Current firmware can change capabilities; do not carry a limitation from an old manual into a new firmware without checking.",
+            "context": "IR, NAM and other captures",
+            "line": 63,
+            "end_line": 63
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Price policy — IDR comparison columns",
+            "context": "Price policy — IDR comparison columns",
+            "line": 65,
+            "end_line": 65
+          },
+          {
+            "kind": "paragraph",
+            "text": "**All comparison price columns must use Indonesian rupiah (IDR), with used and new prices separate.** Prefer verified Indonesian-market listings. Use clear formats such as `Rp1.400.000` or `Rp1.400.000–Rp1.800.000`; label approximate or converted figures. The amounts in that formatting example are illustrative, not a product quote.",
+            "context": "Price policy — IDR comparison columns",
+            "line": 67,
+            "end_line": 67
+          },
+          {
+            "kind": "paragraph",
+            "text": "Each offer must retain seller, market, condition, date, stock status, source and included accessories. Retain the original currency/amount in provenance when it is not IDR; it is not the display currency. A foreign offer converted to rupiah must be explicitly labelled **FX estimate**, with the original offer, a **verified exchange rate, rate date and rate source**. It is not an Indonesian retail or delivered-price observation. Do not assume an exchange rate or fabricate a local price. If neither local pricing nor a verifiable conversion is available, show `?`.",
+            "context": "Price policy — IDR comparison columns",
+            "line": 69,
+            "end_line": 69
+          },
+          {
+            "kind": "paragraph",
+            "text": "A single quote is not a market range; a used asking price is not a completed sale. Tax, shipping, import duties, warranty region and accessories may differ. Mark out-of-stock, discontinued and indexed older listings. Do not estimate used prices as an arbitrary percentage of new. Do not mix local and converted observations into one unlabeled range.",
+            "context": "Price policy — IDR comparison columns",
+            "line": 71,
+            "end_line": 71
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Migration status:** legacy USD price columns remain in the existing comparison pages at this checkpoint. Replace them batch by batch while preserving original price evidence and its observation date. Do not simply change a currency header or erase provenance. Do not claim IDR migration is complete until all eight pages have been checked.",
+            "context": "Price policy — IDR comparison columns",
+            "line": 73,
+            "end_line": 73
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Coverage, verification and resuming",
+            "context": "Coverage, verification and resuming",
+            "line": 75,
+            "end_line": 75
+          },
+          {
+            "kind": "paragraph",
+            "text": "The catalogue currently prioritises multi-effects, bass and vocal processors, followed by specialist effects. The backlog explicitly records unresearched families; placeholders do not count as completed comparisons. Verify firmware-dependent capabilities and dated prices before purchasing.",
+            "context": "Coverage, verification and resuming",
+            "line": 77,
+            "end_line": 77
+          },
+          {
+            "kind": "paragraph",
+            "text": "Use [RESUME.md](RESUME.md) and [research-state.json](research-state.json) as the continuation entry point. The Markdown comparison pages remain the source of technical data; the JSON file tracks page/model progress and the field template. Read current GitHub contents and SHAs before editing, preserve unrelated work, commit a small completed batch, update the cursor and unresolved fields, and verify the saved files. Do not reset to an earlier checkpoint commit.",
+            "context": "Coverage, verification and resuming",
+            "line": 79,
+            "end_line": 79
+          },
+          {
+            "kind": "paragraph",
+            "text": "Keep observation dates per field/source rather than refreshing all dates when only one field was checked. Record conflicts, do not hide them to fill the table. No unattended or recurring research is configured.",
+            "context": "Coverage, verification and resuming",
+            "line": 81,
+            "end_line": 81
+          }
+        ]
+      }
+    },
+    "ownership": {
+      "entry_count": 21,
+      "root_profiles": 20,
+      "additional_active_models": 0,
+      "entries": [
+        {
+          "id": 1,
+          "source_model": "Boin Audio BG300",
+          "canonical_model": "Boin Audio::BG300",
+          "root_profile": "BOIN-AUDIO.md#bg300",
+          "last_supported_context": "Owner-listed,current compact unit in October;BM30 was earlier uncertainty,not another model",
+          "historical_technical_coverage": "[Finding](findings/2026-10-14-boin-audio-bg300.md);revision conflicts retained",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 2,
+          "source_model": "Sonicake Matribox I/QME-50",
+          "canonical_model": "Sonicake::Matribox QME-50",
+          "root_profile": "SONICAKE.md#matribox-qme-50",
+          "last_supported_context": "October rig;broken headphone jack describes this unit's condition,not the whole model",
+          "historical_technical_coverage": "[Compact comparison](guitar-compact.md)",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 3,
+          "source_model": "BOSS GM-800",
+          "canonical_model": "BOSS::GM-800",
+          "root_profile": "BOSS.md#gm-800",
+          "last_supported_context": "Explicit ownership/use,October rig",
+          "historical_technical_coverage": "[Eligible GM-800 section](specialist.md)",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 4,
+          "source_model": "Roland GR-55",
+          "canonical_model": "Roland::GR-55",
+          "root_profile": "ROLAND.md#gr-55",
+          "last_supported_context": "Explicit GR-55/GK-3/13-pin use",
+          "historical_technical_coverage": "[Owned comparison](owned-multifx.md),[finding](findings/2026-10-14-roland-gr-55.md);not BOSS-branded",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 5,
+          "source_model": "Line6 HX Effects",
+          "canonical_model": "Line 6::HX Effects",
+          "root_profile": "LINE6.md#hx-effects",
+          "last_supported_context": "October purchase/rig history,not HX Stomp shopping",
+          "historical_technical_coverage": "[Advanced comparison](advanced-modelers.md)",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 6,
+          "source_model": "M-VAVE MK-300",
+          "canonical_model": "M-VAVE::MK-300",
+          "root_profile": "M-VAVE.md#mk-300",
+          "last_supported_context": "Owner list and previously inspected delivery evidence;current studio placement not proven by receipt alone",
+          "historical_technical_coverage": "[Finding](findings/2026-10-14-mvave-mk-300.md)",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 7,
+          "source_model": "JOYO GEM BOX III",
+          "canonical_model": "JOYO::GEM BOX III",
+          "root_profile": "JOYO.md#gem-box-iii",
+          "last_supported_context": "Previously inspected purchase/delivery evidence;likely JOYO studio identification,placement not certified",
+          "historical_technical_coverage": "[Finding](findings/2026-10-14-joyo-gembox-iii.md)",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 8,
+          "source_model": "NUX MG-101",
+          "canonical_model": "NUX::MG-101",
+          "root_profile": "NUX.md#mg-101",
+          "last_supported_context": "Ever-owned;among four church handovers confirmed by owner2026-10-13",
+          "historical_technical_coverage": "[NUX comparison](guitar-nux.md)",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 9,
+          "source_model": "M-VAVE MK-20",
+          "canonical_model": "M-VAVE::MK-20",
+          "root_profile": "M-VAVE.md#mk-20",
+          "last_supported_context": "Among same four confirmed donations",
+          "historical_technical_coverage": "[Finding](findings/2026-10-14-mvave-mk-20.md)",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 10,
+          "source_model": "Scorpion KMF-10",
+          "canonical_model": "Scorpion::KMF-10",
+          "root_profile": "SCORPION.md#kmf-10",
+          "last_supported_context": "Among same four donations;older KMF-1 wording not evidence of another model",
+          "historical_technical_coverage": "[Finding](findings/2026-10-14-scorpion-kmf-10.md)",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 11,
+          "source_model": "JOYO GEM BOX II",
+          "canonical_model": "JOYO::GEM BOX II",
+          "root_profile": "JOYO.md#gem-box-ii",
+          "last_supported_context": "Latest donation and earlier friend-gift statements both retained without inventing second-unit chronology",
+          "historical_technical_coverage": "[Finding](findings/2026-10-14-joyo-gembox-ii.md);earlier purchase variant was used full set",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 12,
+          "source_model": "JOYO GEM BOX original/I",
+          "canonical_model": "JOYO::GEM BOX original",
+          "root_profile": "JOYO.md#gem-box-original",
+          "last_supported_context": "Owner list and previously inspected delivery evidence;current possession unconfirmed",
+          "historical_technical_coverage": "**[Profile now integrated](findings/2026-10-15-joyo-gembox-original.md)**;JOYO's own product pages resolve primary identity",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 13,
+          "source_model": "M-VAVE BlackBox,owned2025 revision unresolved",
+          "canonical_model": null,
+          "root_profile": null,
+          "last_supported_context": "Purchase/delivery and earlier given-to-friend statement",
+          "historical_technical_coverage": "Do not automatically merge with ANN Blackbox or invent a distinct legacy revision;identity still open",
+          "technical_coverage": "revision identity unresolved;no extra active model",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 14,
+          "source_model": "M-VAVE MINI-X",
+          "canonical_model": "M-VAVE::MINI-X",
+          "root_profile": "M-VAVE.md#mini-x",
+          "last_supported_context": "Two purchase/delivery notifications represent one model,not proof both remain held",
+          "historical_technical_coverage": "**[Profile now integrated](findings/2026-10-15-mvave-mini-x.md)**",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 15,
+          "source_model": "M-VAVE Pocket Amp",
+          "canonical_model": "M-VAVE::Pocket Amp",
+          "root_profile": "M-VAVE.md#pocket-amp",
+          "last_supported_context": "Purchase/delivery evidence;earlier given-to-friend statement",
+          "historical_technical_coverage": "**[Profile now integrated](findings/2026-10-15-mvave-pocket-amp.md)**;not Sonicake Pocket Master",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 16,
+          "source_model": "CUVAVE H8",
+          "canonical_model": "CUVAVE::H8",
+          "root_profile": "CUVAVE.md#h8",
+          "last_supported_context": "Separate item in previously inspected delivery evidence",
+          "historical_technical_coverage": "**[Profile now integrated](findings/2026-10-15-cuvave-h8.md)**;not MINI-X",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 17,
+          "source_model": "Zoom B1Xon",
+          "canonical_model": "Zoom::B1Xon",
+          "root_profile": "ZOOM.md#b1xon",
+          "last_supported_context": "Explicit bass-model ownership/use",
+          "historical_technical_coverage": "[Owned comparison](owned-multifx.md),[finding](findings/2026-10-14-zoom-b1xon.md);not B1X FOUR/G1Xon",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 18,
+          "source_model": "MOOER GE100 original",
+          "canonical_model": "MOOER::GE100 original",
+          "root_profile": "MOOER.md#ge100-original",
+          "last_supported_context": "Explicit ownership/use",
+          "historical_technical_coverage": "[Finding](findings/2026-10-14-mooer-ge100.md);not Pro/ProLi",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 19,
+          "source_model": "VING Flybro FB-100 / Ving FB100",
+          "canonical_model": "VING::Flybro FB-100",
+          "root_profile": "VING.md#flybro-fb-100",
+          "last_supported_context": "Explicit ownership/use",
+          "historical_technical_coverage": "**[Profile now integrated](findings/2026-10-15-ving-fb100.md)**;original printed guide itself names VING and Flybro,not an assumed rebadge",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 20,
+          "source_model": "Sonicake Pocket Master/QME-10",
+          "canonical_model": "Sonicake::Pocket Master QME-10",
+          "root_profile": "SONICAKE.md#pocket-master-qme-10",
+          "last_supported_context": "Explicit ownership/use",
+          "historical_technical_coverage": "[Compact comparison](guitar-compact.md);separate from M-VAVE Pocket Amp",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        },
+        {
+          "id": 21,
+          "source_model": "**Audota AME-100**",
+          "canonical_model": "Audota::AME-100",
+          "root_profile": "AUDOTA.md#ame-100",
+          "last_supported_context": "Direct owner model statement dated2026-03-16 recovered in this pass",
+          "historical_technical_coverage": "**Technical research next**. Manufacturer categorizes AME-100 as guitar multi-effects;do not replace it with AVE-100 merely because older discussion called an Audota unit vocal",
+          "technical_coverage": "root profile present;partial",
+          "current_possession": "not independently reverified",
+          "source": "effects/OWNERSHIP.md",
+          "source_date": "2026-10-15"
+        }
+      ],
+      "former_and_donated_included": true,
+      "unresolved": [
+        "Owned2025 BlackBox revision",
+        "Exact Zoom vocal model and V6/V6-SP bundle",
+        "Separate AVE-100 ownership not established",
+        "RH-4 ownership candidate only"
+      ],
+      "not_confirmed_owned": {
+        "NUX MG-400": "Owner rejected earlier fake-seller purchase evidence",
+        "Valeton GP-50": "Backup plan,not verified purchase"
+      },
+      "audota_correction": "AME-100 ownership established;does not establish AVE-100 ownership"
+    },
+    "current_policy": {
+      "active_scope": "Guitar multi-effects,documented bass-capable and genuine vocal paths;dedicated effects separate",
+      "excluded_models": [
+        "Flamma FV01",
+        "BOSS SY-1",
+        "BOSS SY-200",
+        "BOSS AC-3",
+        "BOSS VO-1",
+        "BOSS XS-100"
+      ],
+      "unknown_is_not_no": true,
+      "source_priority": "Manufacturer model-specific product/manual/firmware evidence;offers establish prices,not technical specifications",
+      "price_currency": "IDR;separate condition/date/stock/bundle/voucher contexts;no invented exchange rates",
+      "ownership_is_not_specification_evidence": true,
+      "source_dates_not_refreshed_by_consolidation": true
+    },
+    "remaining_work": "Sources retained. Incoming links,discovery/history metadata,remaining navigation and source retirement are not completed by this semantic consolidation."
   }
 }

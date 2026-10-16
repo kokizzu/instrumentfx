@@ -1,0 +1,133 @@
+"""Preserve public ownership/policy source semantics in the root ledger."""
+import hashlib
+import json
+from pathlib import Path
+import re
+import subprocess
+import sys
+
+sys.dont_write_bytecode = True
+import research_tools
+
+ROOT = Path(__file__).resolve().parent.parent
+PLAN = Path('/tmp/instrumentfx-metadata-plan.json')
+SOURCES = ('effects/OWNERSHIP.md','effects/OWNERSHIP.history-2026-10-14.md','effects/SCOPE.md','effects/METHODOLOGY.md')
+OWNED = ('Boin Audio::BG300','Sonicake::Matribox QME-50','BOSS::GM-800','Roland::GR-55','Line 6::HX Effects','M-VAVE::MK-300','JOYO::GEM BOX III','NUX::MG-101','M-VAVE::MK-20','Scorpion::KMF-10','JOYO::GEM BOX II','JOYO::GEM BOX original',None,'M-VAVE::MINI-X','M-VAVE::Pocket Amp','CUVAVE::H8','Zoom::B1Xon','MOOER::GE100 original','VING::Flybro FB-100','Sonicake::Pocket Master QME-10','Audota::AME-100')
+PATHS = ('scripts/metadata_consolidation.py','Makefile','README.md','research-state.json')
+
+def digest(text):
+    return hashlib.sha256(text.encode()).hexdigest()
+
+def parse_source(path):
+    text = (ROOT/path).read_text()
+    lines = text.splitlines()
+    blocks, covered = [], set()
+    i, context = 0, ''
+    while i < len(lines):
+        if not lines[i].strip():
+            i += 1
+            continue
+        start = i
+        heading = re.match(r'^(#{1,6}) (.+)$', lines[i])
+        if heading:
+            context = heading[2]
+            block = dict(kind='heading',level=len(heading[1]),text=context)
+            i += 1
+        elif i+1 < len(lines) and lines[i].startswith('|') and re.fullmatch(r'\|[\s:|\-]+\|',lines[i+1]):
+            headers = [c.strip() for c in lines[i].strip('|').split('|')]
+            alignment = lines[i+1]
+            i += 2
+            rows = []
+            while i < len(lines) and lines[i].startswith('|'):
+                row = [c.strip() for c in lines[i].strip('|').split('|')]
+                assert len(row) == len(headers), path+': malformed table row'
+                rows.append(dict(zip(headers,row)))
+                i += 1
+            block = dict(kind='table',headers=headers,alignment=alignment,rows=rows)
+        else:
+            values = []
+            while i < len(lines) and lines[i].strip() and not re.match(r'^#{1,6} ',lines[i]):
+                if i > start and i+1 < len(lines) and lines[i].startswith('|') and re.fullmatch(r'\|[\s:|\-]+\|',lines[i+1]):
+                    break
+                values.append(lines[i])
+                i += 1
+            assert values, path+': unparsed source line'
+            block = dict(kind='paragraph',text='\n'.join(values))
+        assert not covered.intersection(range(start,i))
+        covered.update(range(start,i))
+        block.update(context=context,line=start+1,end_line=i)
+        blocks.append(block)
+    required = {i for i,line in enumerate(lines) if line.strip()}
+    assert required <= covered, path+': dropped nonblank source lines'
+    return dict(source=path,sha256=digest(text),historical=True,not_active_instructions=True,nonblank_lines=len(required),blocks=blocks)
+
+def build_metadata(state):
+    sources = {path:parse_source(path) for path in SOURCES}
+    current = next(b for b in sources[SOURCES[0]]['blocks'] if b['kind']=='table' and b['context']=='Identified entries')
+    assert len(current['rows']) == len(OWNED) == 21
+    entries = []
+    for number,(row,model) in enumerate(zip(current['rows'],OWNED),1):
+        assert int(row['#']) == number
+        link = state['comparison_model_sources'][model]['link'] if model else None
+        entries.append(dict(id=number,source_model=row['Model'],canonical_model=model,root_profile=link,last_supported_context=row['Last supported ownership context'],historical_technical_coverage=row['Technical coverage'],technical_coverage='root profile present;partial' if link else 'revision identity unresolved;no extra active model',current_possession='not independently reverified',source=SOURCES[0],source_date='2026-10-15'))
+    assert sum(e['root_profile'] is not None for e in entries) == 20
+    history = next(b for b in sources[SOURCES[1]]['blocks'] if b['kind']=='table' and b['context']=='Identified ownership history')
+    assert len(history['rows']) == 20
+    exclusion = next(b for b in sources['effects/SCOPE.md']['blocks'] if b['kind']=='table')
+    assert len(exclusion['rows']) == 6
+    return dict(schema_version=1,checked_date='2026-10-17',sources=sources,ownership=dict(entry_count=21,root_profiles=20,additional_active_models=0,entries=entries,former_and_donated_included=True,unresolved=['Owned2025 BlackBox revision','Exact Zoom vocal model and V6/V6-SP bundle','Separate AVE-100 ownership not established','RH-4 ownership candidate only'],not_confirmed_owned={'NUX MG-400':'Owner rejected earlier fake-seller purchase evidence','Valeton GP-50':'Backup plan,not verified purchase'},audota_correction='AME-100 ownership established;does not establish AVE-100 ownership'),current_policy=dict(active_scope='Guitar multi-effects,documented bass-capable and genuine vocal paths;dedicated effects separate',excluded_models=state['excluded_models'],unknown_is_not_no=True,source_priority='Manufacturer model-specific product/manual/firmware evidence;offers establish prices,not technical specifications',price_currency='IDR;separate condition/date/stock/bundle/voucher contexts;no invented exchange rates',ownership_is_not_specification_evidence=True,source_dates_not_refreshed_by_consolidation=True),remaining_work='Sources retained. Incoming links,discovery/history metadata,remaining navigation and source retirement are not completed by this semantic consolidation.')
+
+def plan():
+    research_tools.identity()
+    ledger_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(ledger_text)
+    metadata = build_metadata(state)
+    state['public_metadata'] = metadata
+    state['migration']['public_metadata_consolidation'] = dict(date='2026-10-17',sources={p:metadata['sources'][p]['sha256'] for p in SOURCES},destination='research-state.json#public_metadata',ownership_entries=21,root_profile_links=20,source_retired=False,verification='Structured tables,headings and complete paragraph groups;every nonblank source line accounted for;current overlay resolves existing root models without adding records')
+    state['cursor'] = dict(model='Public ownership and policy metadata',task='Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Next read complete discovery index/history,coverage and remaining navigation metadata;map incoming links before source retirement. Technical gaps and fresh discovery remain.',next_models=[],after_queue='No private receipts/mail/order/payment contents included;historical source cursors are not active instructions.')
+    readme = (ROOT/'README.md').read_text()
+    note = '\nThe root [research ledger](research-state.json) also contains the complete structured ownership overlay and dated policy/history sources under public_metadata:21 identified entries,20 root-profile links,explicit unresolved identities and ownership corrections. Historical missing-profile states are preserved alongside current links;they do not add catalogue models.\n'
+    assert note.strip() not in readme
+    anchor = '\n## Evidence and resuming\n'
+    assert anchor in readme
+    outputs = {'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n','README.md':readme.replace(anchor,note+anchor)}
+    inputs = {p:digest((ROOT/p).read_text()) for p in (*SOURCES,*PATHS)}
+    payload = dict(inputs=inputs,rollback_commit=research_tools.git('rev-parse','HEAD').strip(),outputs=outputs,summary=dict(sources=len(SOURCES),source_blocks=sum(len(v['blocks']) for v in metadata['sources'].values()),source_nonblank_lines=sum(v['nonblank_lines'] for v in metadata['sources'].values()),ownership_entries=21,root_profile_links=20,new_models=0,deleted_files=[]))
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print(json.dumps(payload['summary'],indent=2))
+    print('Reviewed plan path: '+str(PLAN)+'; rollback commit: '+payload['rollback_commit'])
+
+def apply():
+    research_tools.identity()
+    payload = json.loads(PLAN.read_text())
+    for path,expected in payload['inputs'].items():
+        assert digest((ROOT/path).read_text()) == expected, 'Changed input: '+path
+    assert set(payload['outputs']) == {'README.md','research-state.json'}
+    for path,text in payload['outputs'].items():
+        (ROOT/path).write_text(text)
+    verify()
+
+def verify():
+    research_tools.identity()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    assert state['public_metadata'] == build_metadata(state), 'Metadata drift or lost source semantics'
+    assert state['active_model_count'] == len({(b,m) for b,models in state['inventory_by_brand'].items() for m in models})
+    for entry in state['public_metadata']['ownership']['entries']:
+        if entry['root_profile']:
+            path,anchor = entry['root_profile'].split('#',1)
+            assert (ROOT/path).is_file() and anchor
+    print('PASS:4 complete public metadata sources;21ownership entries/20root profiles;all nonblank lines covered;no added models;historical corrections and exclusions retained.')
+
+def commit():
+    verify()
+    research_tools.verify()
+    subprocess.run([sys.executable,str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
+    assert not research_tools.git('diff','--cached','--name-only').strip(), 'Existing staged changes'
+    changed = set(research_tools.git('diff','--name-only').splitlines()) | set(research_tools.git('ls-files','--others','--exclude-standard').splitlines())
+    assert changed <= set(PATHS), changed-set(PATHS)
+    research_tools.git('add','--',*PATHS)
+    print(research_tools.git('diff','--cached','--stat'))
+    print(research_tools.git('commit','-m','docs: consolidate public ownership history and evidence policies into root ledger'))
+
+if __name__ == '__main__':
+    {'plan':plan,'apply':apply,'verify':verify,'commit':commit}[sys.argv[1]]()

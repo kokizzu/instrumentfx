@@ -1083,3 +1083,13 @@ consolidation-audit-market7-links:
 .PHONY: research-commit-market7-union
 research-commit-market7-union:
 	python3 scripts/research_tools.py commit-market7-union
+
+.PHONY: metadata-plan metadata-apply metadata-verify metadata-commit
+metadata-plan:
+	python3 scripts/metadata_consolidation.py plan
+metadata-apply:
+	python3 scripts/metadata_consolidation.py apply
+metadata-verify:
+	python3 scripts/metadata_consolidation.py verify
+metadata-commit:
+	python3 scripts/metadata_consolidation.py commit
