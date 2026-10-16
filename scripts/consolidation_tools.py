@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'nano-cortex': ('Nano Cortex', 'effects/advanced-modelers.md'),
     'tonex-pedal': ('TONEX Pedal', 'effects/advanced-modelers.md'),
     'tonex-one': ('TONEX ONE', 'effects/advanced-modelers.md'),
     'hx-stomp': ('HX Stomp', 'effects/advanced-modelers.md'),
@@ -408,7 +409,51 @@ Current firmware-specific processing concurrency and complete category algorithm
     print('Plan saved: '+str(PLAN))
 
 
+
+def plan_nano_cortex():
+    research_tools.identity()
+    model, source_path = MODELS['nano-cortex']
+    brand_file = 'NEURAL-DSP.md'
+    assert not (ROOT/brand_file).exists()
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['Neural DSP::Nano Cortex']
+    assert record['link'] == source_path
+    facts = record['facts']
+    source = (ROOT/source_path).read_text()
+    contexts = [p for p in source.split('\n\n') if p.startswith('Checked **2026-10-14**') or p.startswith('K/F/B =') or p.startswith('USB audio input/output counts')]
+    contexts += [p for p in source.splitlines() if p.startswith('- [Nano Cortex current product page]')]
+    assert len(contexts) == 4 and len(facts) == 15
+    urls = ['https://neuraldsp.com/manual/nano-cortex','https://neuraldsp.com/nano-cortex']
+    section = '# Neural DSP multi-effects\n\n## Nano Cortex\n\nComplete original model fields consolidated and partially refreshed **2026-10-17**. Standard Nano Cortex; no Quad Cortex specifications substituted.\n\n### Preserved historical evidence\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in facts:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nRetained original source URLs: '+', '.join(urls)+'\n\nThe [complete original comparison](effects/advanced-modelers.md) remains available; no source or incoming link removed.\n\n### Current comparison fields\n\n'
+    section += (ROOT/'scripts/nano_cortex_record.txt').read_text()
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file] = [model]
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['Neural DSP Nano Cortex'],model_name=model,brand='Neural DSP',destination=brand_file+'#nano-cortex',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,status='Consolidated; partial verification. Explicit bass capability; NanOS2.2 playback versus creation distinction retained.',new_sources=['https://neuraldsp.com/nano-cortex-device-list','https://neuraldsp.com/nano-cortex-updates/nanos-2-2-0-is-now-available','https://neuraldsp.com/nano-cortex-updates/nanos-2-2-1-is-now-available']))
+    state['discovery_leads'].append(dict(model='Neural DSP Nano Cortex',checked_date='2026-10-17',status='Existing model refreshed; no unique addition',urls=['https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280'],qualification='Seven Stereo Music & Audio Store Bandung11900000 Habis indexed. Condition/region/bundle/voucher/final charges unverified; not live stock or used-price evidence.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Audota AME-100 — complete legacy consolidation',task='Read all AME-100 legacy findings and supporting comparisons. Consolidate losslessly in root AUDOTA.md; preserve hardware revisions, ownership distinctions and all original prices/URLs/conflicts. Verify model-specific primary documentation and exact Shopee hardware offers; commit before another model. Continue remaining legacy models, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely').replace('57 documented bass-capable models: 11 bass-focused plus 46 shared processors','58 documented bass-capable models: 11 bass-focused plus 47 shared processors')
+    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [NEURAL-DSP.md](NEURAL-DSP.md) |Nano Cortex |\n| [JOYO.md](JOYO.md)')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path,'scripts/nano_cortex_record.txt']}
+    inputs[brand_file]=None
+    payload=dict(model_id='nano-cortex',model=model,inputs=inputs,outputs=outputs,new_files=[brand_file],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview Nano Cortex exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'nano-cortex':
+        return plan_nano_cortex()
     if model_id == 'tonex-pedal':
         return plan_tonex_pedal()
     if model_id == 'tonex-one':
@@ -636,10 +681,13 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'nano-cortex':
+        print(research_tools.git('commit', '-m', 'research(neuraldsp): consolidate Nano Cortex and document bass capability'))
+        return
     if model_id in ('tonex-one','tonex-pedal'):
         print(research_tools.git('commit', '-m', 'research(ik): consolidate '+MODELS[model_id][0]+' and document bass capability'))
         return

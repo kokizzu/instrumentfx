@@ -330,6 +330,7 @@ BASS_FOCUSED = ['BOSS::GT-1B','BOSS::GX-1B','BOSS::ME-90B','M-VAVE::TANK-B','M-V
 VOCAL_ONLY = ['Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
 VOCAL_SHARED = ['BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
 BASS_SHARED = {
+    'Neural DSP::Nano Cortex':'Exact manufacturer product page explicitly describes a complete guitar or bass rig; device list includes four bass amp captures, a bass drive capture and two bass cabinets. [Primary product](https://neuraldsp.com/nano-cortex).',
     'IK Multimedia::TONEX Pedal':'Standard TONEX Pedal manufacturer-authored manual v1.0.4 pp.4,13 explicitly identifies guitar/bass use; current standard Reloaded preset documentation includes bass banks. [Original manual mirror](https://files.kraftmusic.com/media/ownersmanual/TONEX_Pedal_User_Manual.pdf). Not inferred from Bass Edition.',
     'IK Multimedia::TONEX ONE':'Standard TONEX ONE manufacturer announcement24April2024 explicitly identifies guitar/bass rigs; original model manual v1.0rev05 pp.4,32 confirms. Not inferred from Bass Edition or a BASS EQ knob. [Primary announcement](https://www.ikmultimedia.com/news/index.php?id=TonexOneAnnounced).',
     'Line 6::Helix LT':'LT-specific manufacturer comparison chart v1.03 explicitly lists twelve bass amp models and Return1/2 guitar/bass inputs; not sibling inference.',

@@ -469,3 +469,11 @@ consolidation-apply-tonex-pedal:
 	python3 scripts/consolidation_tools.py apply tonex-pedal
 consolidation-commit-tonex-pedal:
 	python3 scripts/consolidation_tools.py commit tonex-pedal
+
+.PHONY: consolidation-plan-nano-cortex consolidation-apply-nano-cortex consolidation-commit-nano-cortex
+consolidation-plan-nano-cortex:
+	python3 scripts/consolidation_tools.py plan nano-cortex
+consolidation-apply-nano-cortex:
+	python3 scripts/consolidation_tools.py apply nano-cortex
+consolidation-commit-nano-cortex:
+	python3 scripts/consolidation_tools.py commit nano-cortex
