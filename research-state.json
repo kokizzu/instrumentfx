@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery after MES-2",
-    "task": "MES-2 current official English manual corroborated; power/mass conflicts retained. Search fresh eligible hardware by brand/series, including remaining Dapper variants, before revisiting image-access gaps.",
-    "next_models": [],
-    "after_queue": "Continue market discovery; neither catalogue nor field verification is complete."
+    "model": "Valeton Dapper Mini MES-1",
+    "task": "Verify manufacturer MES-1 architecture/manual;exact Shopee leads and explicit secondhand sold-out ask in discovery_dapper_guitar. Do not confuse with Bass MES-2 or Acoustic Mini.",
+    "next_models": [
+      "Valeton Dapper Acoustic Mini exact code pending"
+    ],
+    "after_queue": "Continue fresh Shopee discovery;preserve current specification gaps."
   },
   "new_findings": [
     {
@@ -21994,6 +21996,60 @@
       "bundle_variant": "unknown;model identity needs manufacturer check",
       "qualified_used_new": false,
       "status": "Unrecorded candidate;manufacturer verification required before inventory admission"
+    },
+    {
+      "model": "Valeton Dapper Mini MES-1",
+      "url": "https://shopee.co.id/Valeton-Dapper-Mini-5in1-Effects-Strip-MES-1-Original-i.1776275.19291696200",
+      "shop": "1776275",
+      "item": "19291696200",
+      "seller": "Salomo Musik",
+      "region": "Jakarta Utara",
+      "idr": 1692000,
+      "condition": "unknown",
+      "stock": "unknown",
+      "voucher": "Displayed with voucher,10% at Rp10RB threshold;cap/eligibility unknown",
+      "cache": "2month search cache",
+      "checked_date": "2026-10-17",
+      "direct_access": "Cache miss",
+      "bundle_variant": "Unknown;adapter/warranty/variant not verified",
+      "qualified_live_stock": false,
+      "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
+    },
+    {
+      "model": "Valeton Dapper Mini MES-1 identity pending",
+      "url": "https://shopee.co.id/Efek-Valeton-Dapper-Mini-Second-Hand-i.5640621.40571574068",
+      "shop": "5640621",
+      "item": "40571574068",
+      "seller": "jdanwmusic.wahyu",
+      "region": "Jakarta Barat",
+      "idr": 1100000,
+      "condition": "Explicit Second Hand title;working state unknown",
+      "stock": "Habis",
+      "voucher": "unknown",
+      "cache": "2week search cache",
+      "checked_date": "2026-10-17",
+      "direct_access": "Cache miss",
+      "bundle_variant": "Unknown;adapter/warranty/variant not verified",
+      "qualified_live_stock": false,
+      "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
+    },
+    {
+      "model": "Valeton Dapper Acoustic Mini code pending",
+      "url": "https://shopee.co.id/Valeton-Dapper-Mini-Acoustic-Multi-Effect-Analog-Strip-Efek-Preamp-Reverb-Compressor-Gitar-Akustik-i.1051758555.23456048014",
+      "shop": "1051758555",
+      "item": "23456048014",
+      "seller": "Dooit Music Store",
+      "region": "Tasikmalaya",
+      "idr": 1880000,
+      "condition": "unknown",
+      "stock": "unknown;shop on holiday",
+      "voucher": "unknown",
+      "cache": "month-old search cache",
+      "checked_date": "2026-10-17",
+      "direct_access": "Cache miss",
+      "bundle_variant": "Unknown;adapter/warranty/variant not verified",
+      "qualified_live_stock": false,
+      "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
     }
   ],
   "inventory_by_brand": {
@@ -47987,5 +48043,92 @@
       "B1X FOUR already recorded. Cityland327043379/18057978298 direct cached Rp2095000–2599000 vssearch Rp2095000–2399000;2unmappedvariants;do not assign endpoints toB1/B1X.",
       "No exact new leads surfaced forGT6B/ME50B/BP90/BP200/B2XFOUR/BoomAve/FlyRig inthispass;notabsenceproof."
     ]
+  },
+  "discovery_dapper_guitar": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Valeton Dapper Acoustic",
+      "site:shopee.co.id Valeton Dapper Indie",
+      "site:shopee.co.id Valeton Dapper Mini",
+      "site:shopee.co.id Valeton Dapper Dark"
+    ],
+    "leads": [
+      {
+        "model": "Valeton Dapper Mini MES-1",
+        "url": "https://shopee.co.id/Valeton-Dapper-Mini-5in1-Effects-Strip-MES-1-Original-i.1776275.19291696200",
+        "shop": "1776275",
+        "item": "19291696200",
+        "seller": "Salomo Musik",
+        "region": "Jakarta Utara",
+        "idr": 1692000,
+        "condition": "unknown",
+        "stock": "unknown",
+        "voucher": "Displayed with voucher,10% at Rp10RB threshold;cap/eligibility unknown",
+        "cache": "2month search cache",
+        "checked_date": "2026-10-17",
+        "direct_access": "Cache miss",
+        "bundle_variant": "Unknown;adapter/warranty/variant not verified",
+        "qualified_live_stock": false,
+        "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
+      },
+      {
+        "model": "Valeton Dapper Mini MES-1 identity pending",
+        "url": "https://shopee.co.id/Efek-Valeton-Dapper-Mini-Second-Hand-i.5640621.40571574068",
+        "shop": "5640621",
+        "item": "40571574068",
+        "seller": "jdanwmusic.wahyu",
+        "region": "Jakarta Barat",
+        "idr": 1100000,
+        "condition": "Explicit Second Hand title;working state unknown",
+        "stock": "Habis",
+        "voucher": "unknown",
+        "cache": "2week search cache",
+        "checked_date": "2026-10-17",
+        "direct_access": "Cache miss",
+        "bundle_variant": "Unknown;adapter/warranty/variant not verified",
+        "qualified_live_stock": false,
+        "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
+      },
+      {
+        "model": "Valeton Dapper Acoustic Mini code pending",
+        "url": "https://shopee.co.id/Valeton-Dapper-Mini-Acoustic-Multi-Effect-Analog-Strip-Efek-Preamp-Reverb-Compressor-Gitar-Akustik-i.1051758555.23456048014",
+        "shop": "1051758555",
+        "item": "23456048014",
+        "seller": "Dooit Music Store",
+        "region": "Tasikmalaya",
+        "idr": 1880000,
+        "condition": "unknown",
+        "stock": "unknown;shop on holiday",
+        "voucher": "unknown",
+        "cache": "month-old search cache",
+        "checked_date": "2026-10-17",
+        "direct_access": "Cache miss",
+        "bundle_variant": "Unknown;adapter/warranty/variant not verified",
+        "qualified_live_stock": false,
+        "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
+      }
+    ],
+    "limits": "Search-index observations,not live stock or completed sales. No manufacturer specifications checked for new candidates yet. Dedicated Looper/MDR require scope audit before admission.",
+    "other_observations": [
+      {
+        "url": "https://shopee.co.id/VALETON-DAPPER-MINI-Guitar-Multi-Effects-Pedal-Efek-Gitar-Valeton-Dapper-Mini-MES-1-i.154467850.5593977925",
+        "seller": "ADVENTURE MUSIC JAKARTA",
+        "region": "Jakarta Selatan",
+        "idr": 1385000,
+        "stock": "Habis",
+        "condition": "unknown",
+        "cache": "month-old search result"
+      },
+      {
+        "url": "https://shopee.co.id/Valeton-Dapper-Mini-i.9444264.24701824384",
+        "seller": "Duopoin Music Official",
+        "region": "Bantul",
+        "idr": 1100000,
+        "condition": "unknown",
+        "stock": "unknown",
+        "cache": "2month-old search result"
+      }
+    ],
+    "missing": "Indie/Dark searches did not surface exact leads in this batch;not absence proof."
   }
 }
