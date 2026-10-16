@@ -1411,3 +1411,73 @@ Checked **2026-10-16**; cached exact hardware asking evidence,not live checkout/
 [GT1000-IR]: https://static.roland.com/assets/media/pdf/GT-1000_IR_Loader_eng02_W.pdf
 [GT1000-IR1]: https://static.roland.com/assets/media/pdf/GT-1000_IR_Loader_eng01_W.pdf
 [GT1000-BTS]: https://static.roland.com/assets/media/pdf/BTS_GT-1000_eng05_W.pdf
+
+## GM-800
+
+Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
+
+Technical research snapshot: **2026-10-14**. All records remain partial; `?` means unverified, not No. This reclassification preserves earlier sources and uncertainties; it is not a fresh technical verification. Dimensions are W×D×H in millimetres; cables and pedal travel require additional clearance.
+
+<!-- BOSS-GM-800 source begins -->
+
+Included as a multi-instrument synthesizer with multiple independent MFX stages, not merely because it contains multiple synth sounds. Keep its specialized pickup requirements visible rather than treating it as a conventional analog-input guitar processor.
+
+| Field | Preserved comparison evidence |
+|---|---|
+| Built-in / external expression | No built-in pedal; **2 CTL/EXP sockets**, up to 4 external switches |
+| Rotary / footswitch / separate buttons | **6 / 4 / 10** |
+| Dimensions / weight / size | **246×134×63 mm**, H65 with feet; **1.2 kg** excluding adapter; medium |
+| Screen size / color / touchscreen | **? / ? / ?**; original display review still pending |
+| Used IDR / new IDR | **? / ?**; no verified price observation retained for this model |
+| Architecture | **4 Tone parts + 1 Rhythm part**; 1200+ tones, 70+ drum kits |
+| Effect categories / choices | Each part has MFX with **93 types** and EQ; scene has **2 MFX**, each 93 types, plus reverb **7** and chorus/delay **9** types |
+| Presets / memory | **150 editable Scenes, 100 factory-filled**; separate import-tone memory |
+| Synth / acoustic | ZEN-Core instrument synth with instrument-style tones; exact acoustic-simulation distinction remains to be verified |
+| IR / NAM / proprietary content | Roland Cloud expansions are proprietary tone content; user IR and NAM loading not established |
+| Connections | **Serial GK IN/OUT**; 2×¼″ audio outputs, L shared with phones; 2×CTL/EXP; DIN MIDI IN/OUT; USB-B computer; USB-memory port; DC |
+| Power / USB power | Supplied **PSB-1U adapter; 840 mA**; battery/USB bus power not listed |
+| Configuration / USB functions | BOSS Tone Studio **Windows/macOS**; USB audio/MIDI, guitar-to-MIDI and re-synthesis |
+| Main limitation | GK-5/GK-5B or compatible conversion required for guitar input; Serial GK is not an ordinary analog guitar jack |
+
+The Serial GK connection uses the manufacturer's **BGK cable** and an appropriate divided pickup/interface. Older 13-pin GK equipment requires the appropriate **GKC-AD** conversion; a standard guitar cable is not a substitute. MIDI keyboards/controllers can also drive the sound engine. Primary source: [BOSS GM-800](https://www.boss.info/global/products/gm-800/).
+<!-- BOSS-GM-800 source ends -->
+
+[Complete original source](effects/specialist.md#eligible-record-boss-gm-800) retained unchanged; no source deleted.
+
+### GM-800 — current comparison evidence
+
+Checked **2026-10-16**. Original2026-10-14 facts above remain preserved; firmware-specific additions below are separate.
+
+<!-- comparison evidence begins -->
+
+| Required field | Current evidence and limits |
+|---|---|
+| Expression | No built-in expression or toe switch. **Two shared CTL/EXP sockets**, up to four external switches or two expression pedals. [GM800-P] |
+| K/F/B | **6 /4 /10** retained from manufacturer inventory: OUTPUT LEVEL,SELECT and1–4 knobs; UP/DOWN,CTL1/2 footswitches;five PART,EXIT,WRITE,MENU,two PAGE buttons. Reference manual eng02 labels1–4 as buttons in prose, while startup guide/product list identifies knobs; retain that terminology discrepancy. [GM800-P], [GM800-M] |
+| Display | **256×80 graphic LCD**. Published diagonal,color depth and touchscreen specification unverified. [GM800-P] |
+| Dimensions / weight / size | **246×134×63 mm**,65 mm with rubber feet; **1.2 kg excluding adapter**. Medium. [GM800-P] |
+| Simultaneous processing / category choices | **4 Tone parts +1 Rhythm part**. Each has independent MFX/EQ; scene adds2 MFX plus chorus/delay,reverb;system Master Comp/EQ. Original **93 MFX choices each,7 reverb,9 chorus/delay** retained; not simultaneous93 effects.1200+ tones,70+ drum kits;current firmware category subtotals remain unchecked. [GM800-P] |
+| Factory / user / total memory | **150 editable Scenes,100 factory-filled** retained,not150+100. Separate imported-tone memory capacity remains unchecked. |
+| Synth / acoustic | ZEN-Core instrument synthesizer for guitar/bass or MIDI control. Acoustic instrument tones are not proof of an ordinary analog guitar acoustic-simulation path. **GK-5/GK-5B and BGK cable**,or appropriate compatible divided-pickup conversion;13-pin GK requires GKC-AD. No ordinary analog instrument input. [GM800-P] |
+| IR / NAM / capture | Proprietary imported tones: **SVZ**,Sound Packs **SDZ**,Wave Expansions **EXZ**,via USB flash drive. These are not IR,NAM or amp-capture files. User IR,native NAM,converted NAM and proprietary amp-capture import unestablished. [GM800-M] |
+| Audio / control I/O | Serial GK IN/OUT (TRS shape,**BGK cable only**);two quarter-inch outputs,L shared with stereo phones;two TRS CTL/EXP;DIN MIDI IN/OUT;USB-B COMPUTER;USB MEMORY;DC. No conventional analog guitar or mic input listed. [GM800-P] |
+| Power / battery / USB power | Included **PSB-1U**, **840 mA draw**. DC insertion/removal switches power. Voltage/polarity,battery and USB-powered operation unverified. [GM800-P], [GM800-M] |
+| Editor / USB / platforms | Tone Studio **Windows/macOS**;computer USB audio/MIDI and re-synthesis. Dedicated USB driver required. USB flash backup includes scenes,imported tones and system settings;this differs from computer audio or editing. Mobile editor,exact USB channels/rates/bitdepth unresolved. [GM800-P], [GM800-M] |
+| Routing / scenes / drums / live use | Scenes control four Tone parts and Rhythm/drum part;not a verified drum-machine sequencer or looper. Firmware **1.10 May2024** adds GK5-KIT support including7-string G7 and normal-pickup OUTPUT MODE; **1.20 Jan2025** adds GK Audio and PART HOLD assignment; **1.50 July2026** adds responsiveness-focused TRACKING MODE. Matching Tone Studio updates required;not installed-version proof. Detailed GK Audio/routing/looper limits still open. [GM800-U] |
+
+### GM-800 — separate IDR evidence
+
+Checked **2026-10-16**. Exact cached Shopee hardware page,not live checkout/stock. Condition,pickup/converter/adapter bundle,warranty region,shipping/tax and seller affiliation unconfirmed. Late-delivery compensation is not a hardware-price discount.
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown; no condition-verified exact Indonesian used offer established. | — |
+| Unresolved retail variations / Boss Official Shop,Tangerang Selatan | **Rp17.085.000–Rp28.650.000**,five variations;crossedRp20.100.000–Rp28.650.000,15% label. Labels/accessory mapping unexposed;neither endpoint accepted as bare-unit bound. Cached same-day delivery before09:00 is not stock proof. Earlier shop/search indexRp15.665.500/free-gift wording preserved as separate snapshot;contents and condition unknown,not verified current price. | [341882414 /23488662881](https://shopee.co.id/BOSS-GM-800-Guitar-Synthesizer-i.341882414.23488662881) |
+
+<!-- comparison evidence ends -->
+
+[GM800-P]: https://www.boss.info/global/products/gm-800/
+[GM800-M]: https://static.roland.com/assets/media/pdf/GM-800_ReferenceManual_eng02_W.pdf
+[GM800-U]: https://www.boss.info/global/support/by_product/gm-800/updates_drivers/b191aadf-edff-48b6-8bee-86db3af5f533/
+
+Earlier indexed offer:[Boss shop](https://shopee.co.id/bosspedals.id),[Shopee category snapshot](https://shopee.co.id/search?category=11043572&keyword=gitar+boss&subcategory=11043648). The exact item above is the hardware identity;the index does not resolve its variants.

@@ -32,6 +32,7 @@ MODELS = {
     've-22': ('VE-22', 'effects/vocal.md'),
     've-8': ('VE-8', 'effects/vocal.md'),
     've-20': ('VE-20', 'effects/vocal.md'),
+    'gm-800': ('GM-800', 'effects/specialist.md'),
     'gt-1000': ('GT-1000', 'effects/findings/2026-10-15-boss-gt1000-display-idr.md'),
     'gx-100': ('GX-100', 'effects/findings/2026-10-15-boss-gx100-display-idr.md'),
     'me-90': ('ME-90', 'effects/findings/2026-10-15-boss-me90-display-idr.md'),
@@ -81,6 +82,9 @@ def verify_preserved(state):
             continue
         source = (ROOT / entry['source']).read_text()
         assert digest(source) == entry['source_sha256'], entry['source']
+        if entry.get('source_section'):
+            fragment = source.split('\n## ' + entry['source_section'] + '\n', 1)[1].split('\n## ', 1)[0]
+            source = '# ' + entry['model_name'] + '\n' + fragment
         text = (ROOT / entry['destination'].split('#')[0]).read_text()
         prefix = entry['marker']
         body = text.split('<!-- ' + prefix + ' source begins -->\n', 1)[1].split('<!-- ' + prefix + ' source ends -->', 1)[0]
@@ -178,7 +182,7 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':

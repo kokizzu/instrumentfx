@@ -209,3 +209,7 @@ consolidation-commit-gx-100:
 .PHONY: consolidation-commit-gt-1000
 consolidation-commit-gt-1000:
 	python3 scripts/consolidation_tools.py commit gt-1000
+
+.PHONY: consolidation-commit-gm-800
+consolidation-commit-gm-800:
+	python3 scripts/consolidation_tools.py commit gm-800

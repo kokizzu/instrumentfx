@@ -7,8 +7,8 @@
   "active_model_count": 124,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 80,
-  "legacy_only_model_count": 44,
+  "canonical_root_model_count": 81,
+  "legacy_only_model_count": 43,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,11 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GM-800",
-    "destination": "BOSS.md",
-    "task": "Read complete eligible GM-800 source section and all supporting findings;preserve pickup restrictions and all model facts;verify official/exact Shopee evidence;commit root consolidation before next research.",
+    "task": "Fresh Shopee Indonesia discovery by brand/series after saved BOSS queue;accept only exact eligible hardware absent from inventory. Then continue remaining legacy-only consolidation and unresolved field checks.",
     "next_models": [],
-    "after_queue": "Continue44 legacy-only models and unresolved fields;fresh Shopee discovery required."
+    "after_queue": "Continue43 legacy-only models;all models retain verification gaps. Do not claim exhaustive market coverage."
   },
   "new_findings": [
     {
@@ -4186,7 +4184,116 @@
         "https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc",
         "https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc"
       ],
-      "status": "Full finding plus21current/16historical facts;IR eng01four/eng02sixteen slots/formats,USB MAIN/SUB/DRY officialindexedtext;exactBoss26.8mvoucherHabis vsolder24.15m,Awlind reopenfailed;partial."
+      "status": "Full finding plus21current/16historical facts;IR eng01four/eng02sixteen slots/formats,USB MAIN/SUB/DRY officialindexedtext;exactBoss26.8mvoucherHabis vsolder24.15m,Awlind reopenfailed;partial.",
+      "commit": "dda4483"
+    },
+    {
+      "models": [
+        "BOSS GM-800"
+      ],
+      "model_name": "GM-800",
+      "brand": "BOSS",
+      "destination": "BOSS.md#gm-800",
+      "source": "effects/specialist.md",
+      "source_section": "Eligible record: BOSS GM-800",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "BOSS-GM-800",
+      "source_sha256": "a256526503ca2374b5fe677c69870f3a5721eb0fc5b22c9c2f8030d14c2ef179",
+      "renamed_references": [],
+      "retained_comparison_facts": [
+        {
+          "field": "Built-in / external expression",
+          "value": "No built-in pedal; **2 CTL/EXP sockets**, up to 4 external switches",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Rotary / footswitch / separate buttons",
+          "value": "**6 / 4 / 10**",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Dimensions / weight / size",
+          "value": "**246×134×63 mm**, H65 with feet; **1.2 kg** excluding adapter; medium",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Screen size / color / touchscreen",
+          "value": "**? / ? / ?**; original display review still pending",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Used IDR / new IDR",
+          "value": "**? / ?**; no verified price observation retained for this model",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Architecture",
+          "value": "**4 Tone parts + 1 Rhythm part**; 1200+ tones, 70+ drum kits",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Effect categories / choices",
+          "value": "Each part has MFX with **93 types** and EQ; scene has **2 MFX**, each 93 types, plus reverb **7** and chorus/delay **9** types",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Presets / memory",
+          "value": "**150 editable Scenes, 100 factory-filled**; separate import-tone memory",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "ZEN-Core instrument synth with instrument-style tones; exact acoustic-simulation distinction remains to be verified",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "IR / NAM / proprietary content",
+          "value": "Roland Cloud expansions are proprietary tone content; user IR and NAM loading not established",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Connections",
+          "value": "**Serial GK IN/OUT**; 2×¼″ audio outputs, L shared with phones; 2×CTL/EXP; DIN MIDI IN/OUT; USB-B computer; USB-memory port; DC",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Power / USB power",
+          "value": "Supplied **PSB-1U adapter; 840 mA**; battery/USB bus power not listed",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Configuration / USB functions",
+          "value": "BOSS Tone Studio **Windows/macOS**; USB audio/MIDI, guitar-to-MIDI and re-synthesis",
+          "source": "effects/specialist.md",
+          "context": ""
+        },
+        {
+          "field": "Main limitation",
+          "value": "GK-5/GK-5B or compatible conversion required for guitar input; Serial GK is not an ordinary analog guitar jack",
+          "source": "effects/specialist.md",
+          "context": ""
+        }
+      ],
+      "retained_context": [
+        "Technical research snapshot: **2026-10-14**. All records remain partial; `?` means unverified, not No. This reclassification preserves earlier sources and uncertainties; it is not a fresh technical verification. Dimensions are W×D×H in millimetres; cables and pedal travel require additional clearance."
+      ],
+      "retained_source_urls": [
+        "https://www.boss.info/global/products/gm-800/"
+      ],
+      "status": "Entire eligible source section and14facts retained;256x80LCD,proprietaryimportformats,firmware1.10/1.20/1.50 andpickup constraints;exact5variationShopee unresolved range;partial."
     }
   ],
   "discovery_leads": [
@@ -4512,7 +4619,8 @@
       "GX-1",
       "ME-90",
       "GX-100",
-      "GT-1000"
+      "GT-1000",
+      "GM-800"
     ]
   },
   "instrument_views": {
@@ -4550,7 +4658,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:104 guitar,54 documented bass-capable,17 vocal; full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "44 legacy-only models remain;80 root-canonical. Research/migration incomplete.",
+    "warning": "43 legacy-only models remain;81 root-canonical. Research/migration incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -4620,8 +4728,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 124,
-    "canonical_root_models": 80,
-    "legacy_only_models": 44,
+    "canonical_root_models": 81,
+    "legacy_only_models": 43,
     "guitar_view_models": 104,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -4638,7 +4746,7 @@
       "make consolidation-verify",
       "make comparison-verify",
       "make research-verify",
-      "GT-1000 four guitar/bass comparison rows reviewed;full finding plus21current/16historical facts;IR4vs16revision/formats,USB MAIN/SUB/DRY indexedprimary;26.8m voucherHabis snapshot vs24.15m retained;Awlind reopenfailed."
+      "GM-800 entire eligible source section and14facts preserved;current guitar/bass rows include specialized pickup path,256x80LCD,SVZ/SDZ/EXZ,firmware1.50 restrictions;exact5variationShopee unresolved price retained."
     ],
     "distinct_capability_labels": "IR and NAM remain separate even when both have the identical Not established value; actual B1X comparison checked."
   },
@@ -4653,7 +4761,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Continue BOSS GM-800 lossless consolidation with pickup restrictions and model-specific research."
+    "next": "Fresh Shopee discovery after the saved BOSS queue;continue43 legacy-only models and unresolved fields."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
