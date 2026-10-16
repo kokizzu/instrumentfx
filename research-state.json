@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-100 complete-body audit",
-    "task": "CUBE BABY BASS complete original hash-verified and comparison fields separated, provisional hardware/transcription and historical-offer limits retained. Next inspect NUX MG-100 complete source/root and manufacturer evidence, commit before another model. Remaining source/shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
+    "model": "NUX MG-200 complete-body audit",
+    "task": "MG-100 whole original hash-verified; current product converter/looper details and spring-versus-V1 reverb conflict saved with comparison field corrections. Next audit complete MG-200 source/root and manufacturer evidence; commit before another model. Remaining source/shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10183,6 +10183,28 @@
       "link_normalizations": {},
       "retained_comparison_facts": [],
       "scope": "Complete original retained with provisional-transcription provenance, failed price reproduction and separate software confirmation. Presets/synth/IR/NAM fields separated for comparison coverage; no new primary hardware verification claimed."
+    },
+    {
+      "models": [
+        "NUX MG-100"
+      ],
+      "model_name": "MG-100",
+      "destination": "NUX.md#mg-100",
+      "source": "effects/findings/2026-10-14-nux-mg-100.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "NUX-MG100",
+      "source_sha256": "e6010ae512be9d8c8051acccd6dd2d44850376337d750c69642b606513c02a02",
+      "renamed_references": [
+        "product",
+        "manual",
+        "listing"
+      ],
+      "link_normalizations": {
+        "(../shopee-indonesia.md)": "(effects/shopee-indonesia.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Complete original retained; exact official page confirms converter/looper/main totals, while spring wording conflicts with V1 three-reverb list. Required preset/synth/import/editor fields separated; no sibling or USB inference."
     }
   ],
   "discovery_leads": [
@@ -10743,11 +10765,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "NUX::MG-100",
-          "source": "effects/findings/2026-10-14-nux-mg-100.md",
-          "dest": "NUX.md#mg-100"
-        },
-        {
           "model": "NUX::MG-200",
           "source": "effects/findings/2026-10-14-nux-mg-200.md",
           "dest": "NUX.md#mg-200"
@@ -10847,7 +10864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-100 complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-200 complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

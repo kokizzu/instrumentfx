@@ -114,6 +114,8 @@ The previous review used official [front](https://www.nux.us/cdn/shop/files/MG-5
 
 ## MG-100
 
+<!-- comparison evidence begins -->
+
 **Preserved review2026-10-14. Original model,not101/300.** [Official product](https://nuxaudio.com/product/mg100/); [manufacturer V1 English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf). The prior review visually inspected image-only printed pp.1–4,11–19;not a current-firmware test.
 
 | Field | Preserved finding / uncertainty |
@@ -122,12 +124,59 @@ The previous review used official [front](https://www.nux.us/cdn/shop/files/MG-5
 | Screen / body | **Color TFT160×128px**;diagonal/touch ?. Primary dimensions/mass not in inspected specification;size class unknown. |
 | Processing | **Eight modules**: COMP,EFX,AMP/CAB,graphicEQ,gate,MOD,DELAY,REVERB. **COMP1,EFX12,amp13,cab11,EQ1,gate1,MOD10,delay6,reverb3 =58** including amps/cabs. Cabinet choices sit inside AMP,not a ninth block. Off/bypass excluded. |
 | EFX / MOD specifics | EFX:three wah,Univibe/tremolo/phaser,boost,five drive/fuzz. MOD:chorus,stereo chorus,flanger,vibrato,stereo tremolo,rotary,vibropan,pitch shift,pedal bar,harmonist. Delay analog/digital/tape/stereo/ping-pong/reverse;reverbplate/room/hall. |
-| Memory / synth / acoustic | **36factory+36user=72**,userninegroupsfour. No synth/acoustic simulator in inspectedV1 list;TALK-wah and harmonist do not establish these. |
+| Presets | **36 factory + 36 user = 72**, user storage nine groups of four. |
+| Synth / acoustic | Neither in inspected V1 list; TALK-wah and harmonist do not establish synth/acoustic simulation. |
 | Ports / power | Instrument in,shared stereoOUTPUT/phones,AUX/CD-MP3,DC. Exact jack diameters not numerically specified in original manual. **9V300mA center-negative or6AA/LR6**,up to8h alkaline rated;input plug powers on. |
-| Digital functions | No USB/MIDI/editor connection;no documented user IR/NAM/capture import. Factory cabs only. |
+| USB / MIDI / editor | No USB/MIDI/editor connection in documented hardware; no computer/mobile configuration workflow established. |
+| IR / NAM / captures | Factory cabinets only; no documented user IR, native NAM, converted NAM or capture-import path. Do not transfer newer MG-series formats. |
+| Firmware / source qualification | [Official MG-100 page](https://nuxaudio.com/product/mg100/), checked 2026-10-17, confirms 58 advertised effects, up to eight simultaneous, 13 amps/11 cabs, 72 presets and a 40-second looper with unlimited overdubs. It also states 32-bit DSP and 24-bit/44.1 kHz AD/DA conversion; converter resolution does not imply USB audio. Its grouping prose mentions spring reverb, whereas the inspected V1 manual enumerates plate/room/hall. Preserve that source conflict; do not silently add a fourth V1 reverb algorithm. |
 | Practice | **40s looper**,overdub/drum sync;56rhythms,tap,tuner. **Headphones require documented MIXER mode**;stereo Y cable can feed two amps. |
 
 IDR: current used/new **?**. Earlier [Shopee shop49070533/item1303695159](https://shopee.co.id/NUX-MG-100-MG-100-Electric-Guitar-Multi-Effects-Pedal-Processor-i.49070533.1303695159) **Rp1.462.000,SOLD OUT** failed to reopen by title and product-ID URLs. Historical repository evidence,not a newly verified price. Missing retrieval is not proof of unavailability. Remaining:body/display/connector detail and revision-qualified current offers.
+
+<!-- comparison evidence ends -->
+
+### Preserved original finding
+
+Complete original dated record below retains the V1 manual count, page references, external-control wording conflict and historical sold-out offer. The current product-page observation is separate; no new manual visual inspection or live seller confirmation is claimed.
+
+<!-- NUX-MG100 source begins -->
+
+Checked **2026-10-14**. **Partial record** for original MG-100, not MG-101 or MG-300. Next model: **NUX MG-200**. Primary evidence: [current manufacturer page][NUX-MG100-product] and [manufacturer V1 English manual][NUX-MG100-manual]. The image-only manual was visually inspected, including printed pp.1–4 and11–19; its older revision is not represented as newly tested firmware.
+
+### Price and availability
+
+The saved Shopee discovery is [shop49070533/item1303695159][NUX-MG100-listing], previously recorded **Rp1.462.000, sold out** in [the repository index](effects/shopee-indonesia.md). Both full-title and product-ID URLs failed to reopen in this pass. The amount is **historical repository evidence, not freshly verified price or stock**. Current retail IDR **?**; used IDR **?**. Missing retrieval does not prove Indonesian unavailability.
+
+### Comparison
+
+| Field | Finding |
+|---|---|
+| Expression | Built-in pedal **with toe switch**. No external EXP socket on the complete rear panel; the Pedal Bar algorithm's generic external-pedal wording conflicts with that hardware inventory |
+| Rotary / footswitch / buttons | **4 / 2 / 8**, toe switch additional. SELECT and three parameter knobs; two MODULE buttons plus EDIT, SAVE, MIXER, JAM, TAP and PEDAL |
+| Display | **Color TFT LCD,160×128 pixels**; diagonal **?**, explicit touch specification **?**. Do not turn the resolution into an inch size |
+| Dimensions / weight / class | **? / ? / unknown**: not specified in the inspected primary specification page; no packaging dimensions substituted |
+| Simultaneous processing | **8 modules**: COMP, EFX, AMP/CAB, graphic EQ, gate, MOD, DELAY, REVERB |
+| Presets | **36 factory +36 user =72**; user storage is nine groups of four |
+| Power | **9V DC/300mA center-negative**, or **6 AA/LR6 batteries**. Manufacturer-rated up to8hours alkaline runtime; input-plug insertion switches power on |
+| Ports | Instrument input; shared stereo output/headphones; aux/CD-MP3 input; DC. Manual diagram shows two large audio jacks and smaller aux, but exact connector diameters are not numerically specified in this manual |
+| USB / MIDI / apps | No USB, MIDI or editor connection on the documented hardware; no computer/mobile configuration workflow established |
+| IR / NAM import | Factory cabinets only; **no documented user-file import path**. Do not copy NAM support from newer MG hardware |
+| Synth / acoustic simulation | Neither appears in the inspected V1 algorithm list. TALK-wah, pitch shifting and Harmonist are not an instrument synthesizer or acoustic simulator |
+| Looper / rhythm | **40-second** looper with overdubs and drum synchronization; **56** rhythms; tap tempo and tuner |
+
+### Category choices counted from the V1 manual
+
+**COMP1; EFX12; amp13; cabinet11; graphic EQ1; gate1; MOD10; delay6; reverb3.** These sum to the advertised **58** when amps/cabs are included; cabinet choices are inside the amp module and are not a ninth simultaneous module. Off/bypass entries are excluded.
+
+EFX comprises three wah types, Univibe/tremolo/phaser, boost and five drive/fuzz models. MOD has chorus/stereo chorus/flanger/vibrato/stereo tremolo/rotary/vibropan/pitch shift/pedal bar/harmonist. Delay has analog/digital/tape/stereo/ping-pong/reverse; reverb has plate/room/hall. Detailed evidence: manual printed pp.11–18. The current page's grouping prose does not replace the actual per-module list.
+
+**Headphone caveat:** headphones use the main OUTPUT, not a separate socket; the manual requires MIXER mode for the intended headphone frequency response. A Y cable can split stereo output to two amplifiers. Remaining work: primary dimensions/weight/diagonal/touch, refreshed Shopee hardware price/condition, and confirmation that a prospective unit matches this manual revision.
+
+[NUX-MG100-product]: https://nuxaudio.com/product/mg100/
+[NUX-MG100-manual]: https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf
+[NUX-MG100-listing]: https://shopee.co.id/NUX-MG-100-MG-100-Electric-Guitar-Multi-Effects-Pedal-Processor-i.49070533.1303695159
+<!-- NUX-MG100 source ends -->
 
 ## MG-200
 
