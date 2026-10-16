@@ -267,6 +267,8 @@ The manual's specification table says **one external pedal jack**, but its compl
 
 ## MK-300
 
+<!-- comparison evidence begins -->
+
 **Original review2026-10-14.**
 
 | Field | Preserved evidence / uncertainty |
@@ -274,15 +276,58 @@ The manual's specification table says **one external pedal jack**, but its compl
 | Expression / controls | Built-in pressure-operated A/B switching;external EXP. **8/4/16**,toe/rear power separate. |
 | Screen / body | **3.5-inch color LCD**,touch ?. **330×175×55mm;approximately1550g**,large. |
 | Architecture / choices | **11 movable,DSP-limited;320+ models**. **120amps=85guitar+30bass+5acoustic;40drives;100cabs=65guitar+25bass+10acoustic**. Other category counts ?. |
-| Presets / sound | **160 editable,80 factory-filled**,not240. Synth ?;acoustic amps/cabs not proof of electric-to-acoustic simulator. |
+| Presets | **160 editable, 80 factory-filled**, not 240. |
+| Synth / acoustic | Synth unverified; documented acoustic amps/cabs do not prove electric-to-acoustic simulation. |
 | Ports | 6.35mm TS input,two6.35mm outs,twoXLR outs,3.5mm phones/phone-recording,EXP,DINMIDI IN,USB-C. |
 | Power | **5000mAh/3.7V battery;USB5V/2A;350mA draw**. Charging versus battery-bypass operation unverified. |
-| Loading / apps | Mono WAV24-bit/44.1kHz,1024/2048point IR;proprietaryAMP/DS import;nativeNAM ?. **M-EFCS Windows/macOS/iOS/Android**. |
+| IR / NAM | Mono WAV 24-bit/44.1 kHz, 1024/2048-point IR; proprietary AMP/DS import. Native NAM, converted NAM architecture limits and firmware-specific import workflow remain unverified. Do not transfer MK20 A2 announcements to MK300. |
+| Editor / firmware | M-EFCS Windows/macOS/iOS/Android; [official index](https://www.cuvave.com/appdownload), checked 2026-10-17, explicitly lists MK300 in desktop and mobile support. M-UPGRADE is a separate updater. Index retains v75 dated 2026-10-12 and warns that updating to v73 resets GLOB settings; preserve this update consequence. |
+| Firmware / routing limits | [Developer iOS changelog](https://apps.apple.com/us/app/m-efcs/id6470352068), v1.3.24 (2025-07-31), explicitly names an MK300 stereo-function addition. This is app evidence; device firmware threshold, affected modules and stereo USB/output routing remain unverified. The [MK300 firmware notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt) failed web retrieval with a Unicode decoding error on 2026-10-17. Updated algorithm counts, snapshots and native NAM cannot be inferred from the version number. |
 | Extras | **150s looper,128 rhythms**,USB audio/MIDI,loopback/reamp,Bluetooth audio/MIDI. |
 
 [Seven16879370/28884989446](https://shopee.co.id/M-VAVE-MK300-Effect-Digital-M-Vave-MK-300-Original-MVAVE-i.16879370.28884989446): **Rp2.699.000 body versus Rp2.830.000 snippet**,a conflict,not a range. [GITARO1458451429/24443292196](https://shopee.co.id/Efek-Gitar-Mvave-MK300-Effect-Digital-M-Vave-MK-300-Original-New-i.1458451429.24443292196),explicit New title,**Rp2.700.000** indexed. Used **?**;variant/color/stock/checkout unverified. Very lowRp239.500/Rp267.982 hits were excluded because hardware/accessory selection and legitimacy were unresolved;low amount alone does not prove fraud.
 
 Sources: [manufacturer manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf),original panel/spec checks printed3,9,20;[downloads](https://www.cuvave.com/appdownload),which listedV75 dated2026-10-12. A newer firmware entry does not re-certify every older manual value. Current model counts/import architectures,touch,power and prices remain to reconcile.
+
+<!-- comparison evidence ends -->
+
+### Preserved original finding
+
+Complete 2026-10-14 source follows, including individual price conflicts and excluded accessory/variant hits. Current software observations above do not replace the original manual date or constitute a new visual inspection. The index also links a [new MIDI mapping](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300%20MIDI%20Control%20Mapping%20Table.docx) (web reader unsupported) and [new DS list](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300%20NEW%20DS%20LIST.pdf) (no extracted text); neither was used to assert additional control mappings or counts.
+
+<!-- MVAVE-MK300 source begins -->
+
+Checked **2026-10-14**. **Partial new guitar/bass record.** [Manufacturer-authored manual][MVAVE-MK300-M], printed pp.3, 9 and 20; panel/specification diagrams checked. [Manufacturer downloads][MVAVE-MK300-D] separately list M-EFCS and firmware; match hardware before updating.
+
+| Field | Established / unknown |
+|---|---|
+| Expression | Built-in with pressure-operated A/B switching; external expression supported |
+| Controls | **8 rotary /4 footswitch /16 buttons**; toe and rear power switches separate |
+| Screen | **3.5-inch color LCD**; touch unverified |
+| Dimensions / weight | **330×175×55 mm; about 1550 g**; large |
+| Blocks | **11 movable**, DSP-limited |
+| Choices | **320+** total; **120 amps** =85 guitar+30 bass+5 acoustic; **40 drives**; **100 cabs** =65 guitar+25 bass+10 acoustic; remaining category counts ? |
+| Memory | **160 editable**, **80 factory-filled**, not 240 |
+| Synth / acoustic | Synth ?; acoustic amps/cabs documented, electric-to-acoustic simulator ? |
+| Ports | ¼-inch TS input; 2×¼-inch outputs; 2×XLR outputs; ⅛-inch phones/phone-recording; external EXP; DIN MIDI IN; USB-C |
+| Power | **5000 mAh/3.7 V battery**; **USB 5 V/2 A** specified; draw 350 mA; USB charging versus battery-bypass operation not resolved |
+| IR / NAM | User mono WAV **24-bit/44.1 kHz, 1024/2048 points**; proprietary AMP/DS import; native NAM ? |
+| Apps | M-EFCS **Windows/macOS/iOS/Android** |
+| Extras | **150 s looper**, **128 rhythms**, USB audio/MIDI, loopback/reamp, Bluetooth audio/MIDI |
+
+### Shopee Indonesia
+
+[Seven Stereo Music & Audio Store][MVAVE-MK300-S1] exposed **Rp2.699.000** in the fetched body, while its search snippet showed **Rp2.830.000**. Preserve this as a **snippet/body price conflict**, not a market range. [GITARO STORE JAKARTA][MVAVE-MK300-S2], explicitly titled New, was indexed at **Rp2.700.000**. Selected color/variant, stock and checkout pricing remain unconfirmed. Explicit used-condition quote: **?**.
+
+Very low MK300 search hits around Rp239.500 or Rp267.982 were **not accepted as processor prices**: selected variants/accessories and seller legitimacy were unresolved. A suspicious amount alone does not prove fraud, but it also does not establish a hardware bargain.
+
+[MVAVE-MK300-M]: https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf
+[MVAVE-MK300-D]: https://www.cuvave.com/appdownload
+[MVAVE-MK300-S1]: https://shopee.co.id/M-VAVE-MK300-Effect-Digital-M-Vave-MK-300-Original-MVAVE-i.16879370.28884989446
+[MVAVE-MK300-S2]: https://shopee.co.id/Efek-Gitar-Mvave-MK300-Effect-Digital-M-Vave-MK-300-Original-New-i.1458451429.24443292196
+
+**Next:** firmware-specific algorithm/NAM-conversion matrix, reliable used offers, explicit touch and operating-power specifications. Manufacturer download page listed V75 dated 2026-10-12; that does not independently re-certify every older manual value.
+<!-- MVAVE-MK300 source ends -->
 
 ## TANK-PRO
 

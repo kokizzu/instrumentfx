@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "M-VAVE MK-300 complete-body audit",
-    "task": "MK-20 complete original hash-verified; exact-model iOS A2/preset fixes and v085 index qualified, physical EXP and native/converted NAM unresolved. Next audit complete MK-300 source/root and exact firmware notes, commit before another model. Full shared-table/incoming-link audits, technical fields and fresh Shopee discovery remain.",
+    "model": "M-VAVE TANK-PRO complete-body audit",
+    "task": "MK-300 complete original hash-verified, firmware GLOB reset and stereo app evidence qualified, exact import/algorithm/routing limits unresolved. Next inspect complete TANK-PRO original/root and manufacturer firmware notes, commit before another model. Full shared-table/incoming-link audits, required technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10058,6 +10058,27 @@
       "link_normalizations": {},
       "retained_comparison_facts": [],
       "scope": "Whole original retained including EXP-port conflict. Model-specific iOS A2 and preset bugfix evidence qualified; v085 index retained with unavailable release notes. Native versus converted NAM remains unresolved."
+    },
+    {
+      "models": [
+        "M-VAVE MK-300"
+      ],
+      "model_name": "MK-300",
+      "destination": "M-VAVE.md#mk-300",
+      "source": "effects/findings/2026-10-14-mvave-mk-300.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MVAVE-MK300",
+      "source_sha256": "df8836c3e08c952f76687e23c1ff4a1439c5e6ab5e8608bdaf97d5e646b5add7",
+      "renamed_references": [
+        "M",
+        "D",
+        "S1",
+        "S2"
+      ],
+      "link_normalizations": {},
+      "retained_comparison_facts": [],
+      "scope": "Complete original preserved with price and revision qualifications; v73 GLOB reset warning, v75 index and exact-model stereo app entry added. Firmware/MIDI/DS documents not used for unverified mappings or counts."
     }
   ],
   "discovery_leads": [
@@ -10618,11 +10639,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "M-VAVE::MK-300",
-          "source": "effects/findings/2026-10-14-mvave-mk-300.md",
-          "dest": "M-VAVE.md#mk-300"
-        },
-        {
           "model": "M-VAVE::TANK-PRO",
           "source": "effects/findings/2026-10-14-mvave-tank-pro.md",
           "dest": "M-VAVE.md#tank-pro"
@@ -10757,7 +10773,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE MK-300 complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE TANK-PRO complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
