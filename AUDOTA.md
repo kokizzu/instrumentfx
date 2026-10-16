@@ -1,6 +1,6 @@
 # Audota multi-effects
 
-AME-100, standard AME-200, AME-200 Pro and ACE-100 are consolidated below. Other recorded Audota models still need their complete root-brand merge. Research remains partial.
+All five recorded Audota models are consolidated below: AME-100, standard AME-200, AME-200 Pro, ACE-100 and vocal-only AVE-100. Technical research and market coverage remain partial.
 
 ## AME-100
 
@@ -445,3 +445,111 @@ Reopened **2026-10-17**: [Manufacturer English ACE-100 page](https://en.audota.c
 [Exact Apregio Shopee hardware offer](https://shopee.co.id/Audota-ACE100-Multi-Effects-Guitar-ACE-100-ACE100-Multi-Efek-Gitar-seri-atasnya-MVAVE-TANK-G-Apregio-Musik-i.3012339.44079112801),shop3012339/item44079112801,Kota Surabaya,retains the same amount on indexed reopening. A cached offer and relative seller activity do not prove current checkout availability or authenticity. No dependable used quote or verified storefront-only lower hardware price.
 
 All original manufacturer-filed quick-guide identity, printing-dimension warning, table-label correction, failed visual inspection and full source URLs remain preserved above. No software, dependencies or document files downloaded. Remaining fields: visual rotary corroboration, readout diagonal/color/touch, precise IR/ADT partition,NAM architecture/workflow, USB channels/driver/OS minimums, charging-operation limits and current qualified local prices.
+
+## AVE-100
+
+Vocal multi-effects only; no ownership assertion or guitar classification inferred from the combo input. Consolidated **2026-10-17**; original observation/inspection dates and historical next notes remain preserved.
+
+<!-- AUDOTA-AVE-100 source begins -->
+
+**Checked2026-10-15. Partial, compact vocal multi-effects; no ownership assertion.** This is not AME-100 guitar multi-effects and is not included as a guitar processor merely because its combo jack accepts line/instrument signals. Eligibility rests on independent pitch-correction,harmony,delay,reverb and feedback-control processing; FV01 remains excluded per user instruction.
+
+| Required field | Finding |
+|---|---|
+| Expression | No built-in expression or external EXP connector in the complete rear connection diagram [M] |
+| Knobs / foot controls / buttons | **5 rotary /2 effect pads /9 small buttons**: mic gain plusAutoTune,Harmony,Echo,Reverb;PITCH/EFFECTS pads;seven note keys+Anti-Feedback+Recorder. Mode/scale/phantom/power toggles are additional. Pads support hand or foot operation but are not standard metal stomp switches [M] |
+| Display | **No graphical or numeric screen**. Note/status LEDs indicate keys,modes and recording;screen diagonal/color-display N/A,touchscreen No. Effect pads are not a touchscreen [M,P] |
+| Dimensions / weight | **L142×W113×H51mm;320g**,compact under either horizontal orientation. Cables add installed space [M,P] |
+| Processing / choices | Four fixed main sound stages: **pitch correction,harmony,echo,reverb**,plusmic dynamics/feedback processing. Original manual:two pitch modesNatural/Chromatic,three harmony choices **+3rd/unison/+6th**,one continuous echo and one continuous reverb section;three feedback-suppression strengths. No freely assignable slot-count claim [M] |
+| Firmware | **V1.2.0,2026-05-19** updates mic compression,AutoTune latency/scale/key learning and harmony behavior;adds/describesElectric mode and increases available reverb volume/decay. Do not describe original manual pitch behavior as an independently tested current limit [P] |
+| Presets / memory | No addressable stored-patch bank documented;panel/key/mode controls rather than a verified factory/user preset library. Three harmony modes are **not three stored presets**. Looper audio is explicitly lost at power-off [M] |
+| Synth / acoustic | No instrument synthesizer or electric-to-acoustic simulation documented. Pitch correction/harmony are not instrument synthesis |
+| Audio inputs | **One comboXLR/6.35mm input**,XLR2.14kΩ/quarter-inch1MΩ;switchable **48V phantom** forXLR. Quarter-inch signal bypasses mic preamp. Dedicated3.5mm stereoAUX with optional vocal removal [M] |
+| Audio outputs | Two6.35mm mono outputs forming stereo pair,100Ω;separate3.5mm stereo phones,32Ω. NoXLR output or separate guitar-thru path in full rear diagram [M] |
+| Other ports | USB-C OTG/data and9VDC. No external loop,EXP orphysicalMIDI socket in rear diagram. KeyLearn derives key fromAUX/mic audio,not a separate guitar-chord input [M,I] |
+| Power | **9VDC≥500mA center-negative**,supplied adapter documented. Internal battery/USB bus-power operation not established;generic battery-safety pages are not a model battery specification [M,P] |
+| IR / NAM / captures | No userIR,native/convertedNAM orcapture-import workflow established;firmware updates alone do not establish model loading |
+| Software | **Windows/macOS firmware1.2.0 update packages** explicitly listed. Full editor,librarian,Android/iOS configuration app not established forAVE-100;Audota's guitar-model app is not automatically applicable [D] |
+| Recording / live | USB-C smartphoneOTG audio/video recording;exact channels/sample rates unverified. **65-second looper** perofficial importer,unlimitedoverdubs permanual;audio not retained atpower-off. Pads latch ormomentary;vocalerase can affect backing-track quality [M,I] |
+| Used IDR | **?**,no condition-verified current offer obtained |
+| Retail IDR | **Rp2.390.000,SOLD OUT**,RedMusikBali,Shopee shop198150809/item56354336751;indexed,directreopenfailed. Historical asking evidence,not an active new-price orcompleted-sale assertion [S] |
+
+### Sources and actual inspection
+
+[M] **Original Audota18-page Owner's Manual,filenameV1.0.0,internalV01/2025-07-24**, [manufacturer PDF](https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_Manual_EN_V1.0.0.pdf). Complete parsed text read. **Printed pages5 and6 successfully rendered and were visually inspected**, confirming full rear connections andmic/fourFXknobs. Other requested screenshots failed;no claim that those pages were visually inspected. Memory,mode,key-learning andlooper operation are fromtheoriginal text,not generated Q&A.
+
+[P] [Manufacturer current product and1.2.0 release notes](https://en.audota.com/AVE100EN.html), [Chinese counterpart](https://en.audota.com/AVE100CN.html).
+[D] [Manufacturer software index](https://en.audota.com/EN_software.html),separateMac/WindowsAVE1.2.0 packages. Their purpose isupdating,not verified full editing.
+[I] [Official importer Warwick](https://shop.warwick.de/en/effect-pedals-vocal-effectsaudota-ave-100-vocal-multi-effects),indexed65s duration andUSB-C specification. Fullpagefailed butoriginal indexedtext available.
+[S] [Exact Shopee listing](https://shopee.co.id/Efek-Vocal-Audota-AVE-100-Vocal-Multi-Effects-Processor-i.198150809.56354336751).
+
+No seller authentication,livecheckout,conditiongrade,accessory/warranty orshipping guarantee. Separate30-daypreorders andmultiple-variant international listings are not combined with the sold-out Indonesian quote. No guesseduseddiscount/FXconversion. Outstanding:currentfirmware's exactmodeallocation,storedsettingretention,USBchannels,buspower,batteryconfirmation andcurrentused/newprices. **Next: integrate the fiveAudota findings,then resume the originalBOSS display/IDR migration alongside further eligible marketplace discovery.**
+<!-- AUDOTA-AVE-100 source ends -->
+
+### Preserved supporting comparison evidence
+
+Historical catalogue totals below are superseded.
+
+**2026-10-15: five individually committed partial records.** Four guitar processors and one separate vocal processor; no brand-wide assumptions about power,software orNAM support. AME-100 is the directly identified owned model; AVE-100 ownership is not established. Their inclusion brings the integrated catalogue from96 to **101 active records across16 comparison pages**, with six excluded archives unchanged.
+
+K/F/B=rotary controls/footswitches/separate buttons;encoder presses count once,power/toe switches separate. Touchscreen support remains unverified for the three graphical displays.
+
+A display icon is not a physical button. Pro has **five** switches includingCTRL,notfour. Standard200's externalEXPsupport is not an includedpedal. Narrow ACE100 still exceeds the defined300mm medium boundary. Plugs andpedaltravel are additional.
+
+No guitar model has a microphone/phantom path in its documentedpanel. Stereoouts do not maketheinput stereo. Generalbatterywarnings are not evidenceforaninternalbattery inAME200. Supplyratingisnotmeasuredcurrentdraw.
+
+All are datedlisted/indexedasks,notcompleted-sales orauthenticatedlivecheckout. Condition,stock,warranty,shipping,bundles andfirmwareregion are not silentlyassumed. Usedquoteswerenotverifiedforthese5.
+
+Full findingreferencesretainallmanufacturer,manual,importerandsellerlinks.NoguessedFXoruseddiscount. Nextwork includes originalBOSSdisplay/IDRmigrationandremainingeligiblemarketplacefamilies;all5Audotafirst-passrecordsremainpartial.
+
+The original AVE manual's rearconnection andmic/FXknob pages successfully rendered and were visually checked. No separateAVEownership is inferredfromtheowner'sAME100statement. FV01remainsoutsideactivecomparisonperusercorrection.
+
+- **Used IDR** (Separate IDR evidence): ?
+- **Retail evidence / limitation** (Separate IDR evidence): **Rp2.390.000 SOLD OUT**,RedMusikBali;historicalaskonly
+- **Individual findings commit** (Separate IDR evidence): `fed21030fb14a8d42673ec565c09026111512286`
+- **Scope / body** (Vocal model: AVE-100): Independentvocalpitch,harmony,echo/reverb andfeedbackprocessing;**not a guitarMF entry**.L142×W113×H51mm,320g;compact
+- **Controls / display** (Vocal model: AVE-100): **5rotary,2effectpads,9smallbuttons**,plusmode/scale/phantom/powertoggles.Noscreen;LEDkey/statusindicators;diagonal/color-displayN/A,touchscreenNo.Noexpression
+- **Processing** (Vocal model: AVE-100): Fourfixedmainsoundstages;originalNatural/Chromaticpitch and+3rd/unison/+6thharmony;continuousEcho/Reverb;3feedbackstrengths.Version1.2.0updatesElectricmode,compression,keylearning and reverb;oldmanual≠currentfirmwaretest
+- **Memory** (Vocal model: AVE-100): Noaddressablepresetbankdocumented;threeharmoniesarenotthreepresets.Recorderaudioexplicitlylostatpower-off
+- **Ports** (Vocal model: AVE-100): **OnecomboXLR/6.35input**,switchable48Vphantom;quarter-inchbypassesmicpreamp;3.5stereoAUX;2quarter-inchmonoout formingstereopair;3.5stereophones;USB-C;DC.NoFXloop/EXPorphysicalMIDI
+- **Power** (Vocal model: AVE-100): **9V≥500mAcenter-negative**,suppliedadapter;battery/USBbusoperationnotestablished
+- **IR/NAM / apps** (Vocal model: AVE-100): Noloadingworkflowestablished;**Win/Macfirmwareupdaters**,notverifiedfull editor.Audotaguitarappnotautomaticallycompatible
+- **Practice/recording** (Vocal model: AVE-100): **65slooper perofficialimporter**,unlimitedoverdubs,notretained;OTGphoneaudio/video;latched/momentarypads;KeyLearnfromAUX/mic;vocaleraseaffectsbackingquality
+
+Sources: [Original finding](effects/findings/2026-10-15-audota-ave-100.md), [Complete supporting comparison](effects/audota.md). No source file or incoming link removed.
+
+<!-- comparison evidence begins -->
+
+### Current AVE-100 comparison fields
+
+| Field | Evidence and qualification |
+|---|---|
+| Expression | No built-in expression or external EXP connector in the complete rear connection diagram [M] |
+| Knobs / foot controls / buttons | **5 rotary /2 effect pads /9 small buttons**: mic gain plusAutoTune,Harmony,Echo,Reverb;PITCH/EFFECTS pads;seven note keys+Anti-Feedback+Recorder. Mode/scale/phantom/power toggles are additional. Pads support hand or foot operation but are not standard metal stomp switches [M] |
+| Display | **No graphical or numeric screen**. Note/status LEDs indicate keys,modes and recording;screen diagonal/color-display N/A,touchscreen No. Effect pads are not a touchscreen [M,P] |
+| Dimensions / weight | **L142×W113×H51mm;320g**,compact under either horizontal orientation. Cables add installed space [M,P] |
+| Processing / choices | Four fixed main sound stages: **pitch correction,harmony,echo,reverb**,plusmic dynamics/feedback processing. Original manual:two pitch modesNatural/Chromatic,three harmony choices **+3rd/unison/+6th**,one continuous echo and one continuous reverb section;three feedback-suppression strengths. No freely assignable slot-count claim [M] |
+| Firmware | **V1.2.0,2026-05-19** updates mic compression,AutoTune latency/scale/key learning and harmony behavior;adds/describesElectric mode and increases available reverb volume/decay. Do not describe original manual pitch behavior as an independently tested current limit [P] Current manufacturer page rechecked2026-10-17 retains these changes and specifies approximately20% higher maximum reverb level/decay; marketing still separately describes two correction modes. Current exact mode allocation remains unresolved. |
+| Presets / memory | No addressable stored-patch bank documented;panel/key/mode controls rather than a verified factory/user preset library. Three harmony modes are **not three stored presets**. Looper audio is explicitly lost at power-off [M] |
+| Synth / acoustic | No instrument synthesizer or electric-to-acoustic simulation documented. Pitch correction/harmony are not instrument synthesis |
+| Audio inputs | **One comboXLR/6.35mm input**,XLR2.14kΩ/quarter-inch1MΩ;switchable **48V phantom** forXLR. Quarter-inch signal bypasses mic preamp. Dedicated3.5mm stereoAUX with optional vocal removal [M] |
+| Audio outputs | Two6.35mm mono outputs forming stereo pair,100Ω;separate3.5mm stereo phones,32Ω. NoXLR output or separate guitar-thru path in full rear diagram [M] |
+| Other ports | USB-C OTG/data and9VDC. No external loop,EXP orphysicalMIDI socket in rear diagram. KeyLearn derives key fromAUX/mic audio,not a separate guitar-chord input [M,I] |
+| Power | **9VDC≥500mA center-negative**,supplied adapter documented. Internal battery/USB bus-power operation not established;generic battery-safety pages are not a model battery specification [M,P] |
+| IR / NAM / captures | No userIR,native/convertedNAM orcapture-import workflow established;firmware updates alone do not establish model loading |
+| Software | **Windows/macOS firmware1.2.0 update packages** explicitly listed. Full editor,librarian,Android/iOS configuration app not established forAVE-100;Audota's guitar-model app is not automatically applicable [D] |
+| Recording / live | USB-C smartphoneOTG audio/video recording;exact channels/sample rates unverified. **65-second looper** perofficial importer,unlimitedoverdubs permanual;audio not retained atpower-off. Pads latch ormomentary;vocalerase can affect backing-track quality [M,I] Full official importer page reopened2026-10-17 and explicitly reconfirms65s maximum, unlimited overdubs and AUX/mic KeyLearn. Original volatile-memory statement remains from the manual. |
+| Used IDR | **?**,no condition-verified current offer obtained |
+| Retail IDR | **Rp2.390.000,SOLD OUT**,RedMusikBali,Shopee shop198150809/item56354336751;indexed,directreopenfailed. Historical asking evidence,not an active new-price orcompleted-sale assertion [S] Exact listing reopened2026-10-17: same amount, **Habis**,seller Red Musik Bali,Kota Denpasar. Condition, bundle, warranty region, delivered charges and usable voucher eligibility unverified; relative delivery/seller activity does not prove stock. No used-price inference. |
+
+<!-- comparison evidence ends -->
+
+### Current primary-source and marketplace review
+
+Checked **2026-10-17**: [Manufacturer AVE-100 page](https://en.audota.com/AVE100EN.html) retains the1.2.0 upgrade instructions and20260519 package identity. It documents microphone-compression changes, AutoTune latency/logic and Electric mode, scale/key/harmony fixes and approximately20% expansion of maximum reverb level/decay. Its general feature list still describes two correction modes; no unsupported count of current firmware modes is asserted. Key LEDs distinguish major/minor; these are not a graphical display. Supplied adapter/manual/box are manufacturer packaging, not verified seller bundle contents.
+
+[Official importer AVE-100 page](https://shop.warwick.de/en/effect-pedals-vocal-effectsaudota-ave-100-vocal-multi-effects) fully reopened, confirming65-second recorder, unlimited overdubs, AUX-or-mic key learning,48V phantom, stereo phones, two mono outputs and9V≥500mA center-negative adapter. Its older Natural/Chromatic description does not supersede manufacturer1.2.0 release notes. No battery, USB bus power, instrument capture loading or mobile editor is inferred.
+
+[Exact Shopee hardware offer](https://shopee.co.id/Efek-Vocal-Audota-AVE-100-Vocal-Multi-Effects-Processor-i.198150809.56354336751),shop198150809/item56354336751,Red Musik Bali,Kota Denpasar,again exposes **Rp2.390.000,Habis** through indexed reopening. It is historical retail asking evidence; late-delivery compensation is not a purchase discount. No authenticated checkout/stock, condition grade, accessory/warranty region, delivered charges or used offer established.
+
+Complete original manufacturer manual identity and prior visual-inspection qualifications remain above; no new PDF rendering or file download performed. Remaining: firmware mode allocation, setting retention, USB channel/rate/driver details, battery/bus-power confirmation and qualified current local used/new availability. AVE-100 remains vocal-only and does not inherit AME-100 ownership. All five recorded Audota models are now root-canonical; technical verification and broader market discovery remain incomplete.

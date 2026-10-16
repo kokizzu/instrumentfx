@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'ave-100': ('AVE-100', 'effects/findings/2026-10-15-audota-ave-100.md'),
     'ace-100': ('ACE-100', 'effects/findings/2026-10-15-audota-ace-100.md'),
     'ame-200-pro': ('AME-200 Pro', 'effects/findings/2026-10-15-audota-ame-200-pro.md'),
     'ame-200': ('AME-200', 'effects/findings/2026-10-15-audota-ame-200.md'),
@@ -685,7 +686,67 @@ def plan_ace100():
     print('Preview ACE-100 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_ave100():
+    research_tools.identity()
+    model, source_path = MODELS['ave-100']
+    brand_file = 'AUDOTA.md'
+    assert (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['Audota::AVE-100']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'AUDOTA-AVE-100'
+    body, refs = preserved_body(source, prefix)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/audota.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**2026-10-15:') or p.startswith('K/F/B=') or p.startswith('A display icon') or p.startswith('No guitar model') or p.startswith('All are datedlisted') or p.startswith('Full findingreferences')]
+    for headers, rows, context in comparison_views.tables(supporting):
+        if context == 'Vocal model: AVE-100':
+            extra += [dict(field=row[0],value=row[1],source=shared[0],context=context) for row in rows]
+    contexts += [p for p in supporting.split('\n\n') if p.startswith("The original AVE manual's")]
+    section = '\n## AVE-100\n\nVocal multi-effects only; no ownership assertion or guitar classification inferred from the combo input. Consolidated **2026-10-17**; original observation/inspection dates and historical next notes remain preserved.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical catalogue totals below are superseded.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nSources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/audota.md). No source file or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current AVE-100 comparison fields\n\n| Field | Evidence and qualification |\n|---|---|\n'
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'] == 'Follow-up technical correction':
+            continue
+        value=f['value']
+        if f['field'] == 'Firmware':
+            value += ' Current manufacturer page rechecked2026-10-17 retains these changes and specifies approximately20% higher maximum reverb level/decay; marketing still separately describes two correction modes. Current exact mode allocation remains unresolved.'
+        if f['field'] == 'Recording / live':
+            value += ' Full official importer page reopened2026-10-17 and explicitly reconfirms65s maximum, unlimited overdubs and AUX/mic KeyLearn. Original volatile-memory statement remains from the manual.'
+        if f['field'] == 'Retail IDR':
+            value += ' Exact listing reopened2026-10-17: same amount, **Habis**,seller Red Musik Bali,Kota Denpasar. Condition, bundle, warranty region, delivered charges and usable voucher eligibility unverified; relative delivery/seller activity does not prove stock. No used-price inference.'
+        section += '| '+f['field']+' | '+value+' |\n'
+    section += '\n<!-- comparison evidence ends -->\n\n### Current primary-source and marketplace review\n\nChecked **2026-10-17**: [Manufacturer AVE-100 page](https://en.audota.com/AVE100EN.html) retains the1.2.0 upgrade instructions and20260519 package identity. It documents microphone-compression changes, AutoTune latency/logic and Electric mode, scale/key/harmony fixes and approximately20% expansion of maximum reverb level/decay. Its general feature list still describes two correction modes; no unsupported count of current firmware modes is asserted. Key LEDs distinguish major/minor; these are not a graphical display. Supplied adapter/manual/box are manufacturer packaging, not verified seller bundle contents.\n\n[Official importer AVE-100 page](https://shop.warwick.de/en/effect-pedals-vocal-effectsaudota-ave-100-vocal-multi-effects) fully reopened, confirming65-second recorder, unlimited overdubs, AUX-or-mic key learning,48V phantom, stereo phones, two mono outputs and9V≥500mA center-negative adapter. Its older Natural/Chromatic description does not supersede manufacturer1.2.0 release notes. No battery, USB bus power, instrument capture loading or mobile editor is inferred.\n\n[Exact Shopee hardware offer](https://shopee.co.id/Efek-Vocal-Audota-AVE-100-Vocal-Multi-Effects-Processor-i.198150809.56354336751),shop198150809/item56354336751,Red Musik Bali,Kota Denpasar,again exposes **Rp2.390.000,Habis** through indexed reopening. It is historical retail asking evidence; late-delivery compensation is not a purchase discount. No authenticated checkout/stock, condition grade, accessory/warranty region, delivered charges or used offer established.\n\nComplete original manufacturer manual identity and prior visual-inspection qualifications remain above; no new PDF rendering or file download performed. Remaining: firmware mode allocation, setting retention, USB channel/rate/driver details, battery/bus-power confirmation and qualified current local used/new availability. AVE-100 remains vocal-only and does not inherit AME-100 ownership. All five recorded Audota models are now root-canonical; technical verification and broader market discovery remain incomplete.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file].append(model)
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['Audota AVE-100'],model_name=model,brand='Audota',destination=brand_file+'#ave-100',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete AVE finding and supporting vocal rows retained;1.2.0 notes,65s looper and sold-out Shopee quote rechecked; vocal-only/no ownership inference preserved.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Boin Audio BG300 — complete legacy consolidation',task='Read complete BG300 finding and all supporting comparisons. Consolidate losslessly into root BOIN-AUDIO.md, preserving exact model/source identity, power, firmware, ports, prices and unknowns. Check primary and exact Shopee evidence; commit before next model. Continue remaining legacy consolidation, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100 |','| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100,AVE-100 |')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:(ROOT/brand_file).read_text().replace('AME-100, standard AME-200, AME-200 Pro and ACE-100 are consolidated below. Other recorded Audota models still need their complete root-brand merge. Research remains partial.','All five recorded Audota models are consolidated below: AME-100, standard AME-200, AME-200 Pro, ACE-100 and vocal-only AVE-100. Technical research and market coverage remain partial.')+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=digest((ROOT/brand_file).read_text())
+    payload=dict(model_id='ave-100',model=model,inputs=inputs,outputs=outputs,new_files=[],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview AVE-100 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'ave-100':
+        return plan_ave100()
     if model_id == 'ace-100':
         return plan_ace100()
     if model_id == 'ame-200-pro':
@@ -927,6 +988,9 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'ave-100':
+        print(research_tools.git('commit', '-m', 'research(audota): consolidate AVE-100 vocal evidence'))
+        return
     if model_id == 'ace-100':
         print(research_tools.git('commit', '-m', 'research(audota): consolidate ACE-100 and clarify LED source evidence'))
         return
