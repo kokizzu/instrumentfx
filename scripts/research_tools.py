@@ -489,7 +489,9 @@ def main():
             paths.append('VALETON.md' if mode == 'commit-gp200jr' else 'LINE6.md')
         print(git('add', '--', *paths))
         print(git('diff', '--cached', '--stat'))
-        subject = 'research(valeton): verify GP-200JR and reconcile newer catalogue checkpoints' if mode == 'commit-gp200jr' else 'research(line6): consolidate HX Effects as guitar and bass multi-effects'
+        if mode == 'commit-hx-effects':
+            subprocess.run([sys.executable,str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
+        subject = 'research(valeton): verify GP-200JR and reconcile newer catalogue checkpoints' if mode == 'commit-gp200jr' else 'research(line6): verify HX Effects3.80 acoustic simulation and looper limits'
         if mode=='commit-comparisons':
             subject='docs(comparisons): compare every recorded instrument model and separate specialist archives'
         elif mode=='commit-prime':

@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery after MS-70CDR Plus",
-    "task": "Original andPlus MS-70CDR are separate committed model records. Continue freshbrand/series discovery or exact manufacturer gaps;commit each model before researching another.",
+    "model": "Model-specific gaps after HX Effects3.80 refresh",
+    "task": "HX Effects acoustic simulation andlooper type/time/preset-continuity evidence saved from own RevDmanual. Continue Shopee brand/series discovery andmanufacturer gaps;commit each model before next.",
     "next_models": [],
-    "after_queue": "Plus retains149base versusJune2026addition distinction;notproof of installed150. No dependency ormanual/software downloads;legacyretirement neednotrepeat."
+    "after_queue": "HX Effects power/diagonal/category totals andqualified Indonesian offers unresolved.137 active models unchanged."
   },
   "new_findings": [
     {
@@ -36782,7 +36782,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after MS-70CDR Plus."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Model-specific gaps after HX Effects3.80 refresh."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -44445,5 +44445,33 @@
       "source_dates_not_refreshed_by_consolidation": true
     },
     "remaining_work": "Sources retained. Incoming navigation and source retirement are not completed by this semantic consolidation."
-  }
+  },
+  "technical_followups": [
+    {
+      "model": "Line 6 HX Effects",
+      "checked_date": "2026-10-17",
+      "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "revision": "3.80 Owner Manual RevD",
+      "resolved": [
+        "Dedicated Acoustic Sim in mono/stereo EQlibrary",
+        "One looper block/preset;6Switch,1Switch,Shuffling mono/stereo",
+        "6/1Switch full60smono30sstereo half120smono60sstereo;Shuffling60/30nohalfentry",
+        "Preset playback continuity requires same looper model AND channeltype"
+      ],
+      "marketplace_check": {
+        "queries": [
+          "site.shopee.co.id Line6 HX Effects",
+          "site.shopee.co.id HX EFFECT Line 6"
+        ],
+        "result": "No exact Indonesian qualified offer established;foreign Shopee regions excluded"
+      },
+      "remaining": [
+        "Power voltage/polarity andbattery/USBpower",
+        "currentcategorysubtotals",
+        "exactdisplaydetails",
+        "fullShuffling/control details",
+        "qualifiedused/newIDR"
+      ]
+    }
+  ]
 }
