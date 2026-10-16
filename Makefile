@@ -1311,3 +1311,7 @@ research-commit-dapper-dark:
 .PHONY: research-commit-flyrig5v2
 research-commit-flyrig5v2:
 	python3 scripts/research_tools.py commit-flyrig5v2
+
+.PHONY: research-commit-blackhammer
+research-commit-blackhammer:
+	python3 scripts/research_tools.py commit-blackhammer

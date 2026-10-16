@@ -400,3 +400,39 @@ The [official Sonicbar collection](https://www.sonicake.com/collections/multi-ef
 ## Consolidation provenance
 
 All Sonicake-specific values,source URLs,firmware qualifications,price caveats and original inspection limits were merged from compact comparison blob `c87f40aa634e7bf06c6682277b78c6890cc0fb84`,floorboard comparison `4394e367d3744ee519829bac4bc98cb60e40e89f`,and individual Matribox/Smart Box/Pocket Master notes `079d05d15a535051907880a4aee5dcbb75ce7c84`,`c4ebe51e2d487055435951113635d3b894a72d4d`,`bdd0153a008414526ad4756492e13e80bca0f415`. Stale progress cursors are superseded by root research-state.json. Five consolidations add no models;Sonic Wood adds one. Shared legacy tables and incoming links still need retirement validation,so no whole-migration completion is claimed.
+
+## Black Hammer QCE-30
+
+Guitar multi-effects strip; manufacturer identifies QCE-30. Checked2026-10-17; partial.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in, external and toe support unverified. | Unresolved |
+| K/F/B | Separate rotary/footswitch/button totals await readable panel/manual. | Unresolved |
+| Display | LED knobs indicate operating state; screen technology/diagonal/color/touch unverified. | [Product][BH-P] |
+| Dimensions / mass | **262 D × 64 W × 44 H mm; 500 g**. Long narrow strip. | [Product][BH-P] |
+| Processing / category choices | **Pre-gain Boost, analog HiGain distortion with three-band EQ/smart gate, BBD-style chorus, Delay** establish multiple effects. Delay is **digital with analog voicing**. Exact simultaneous count/routing unverified. | [Product][BH-P] |
+| Factory / user memory | Factory, user and total storage unverified. | Unresolved |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
+| I/O | Complete sockets/types and routing unverified; no sibling specifications transferred. | Unresolved |
+| Power / battery / USB | **9 V DC centre-negative,75 mA consumption**; manufacturer includes supply, seller bundle unknown. Battery/USB operation unverified. | [Product][BH-P] |
+| IR / NAM / capture | Manufacturer suggests adding **external downstream IR**. This does not establish onboard IR import,NAM or capture; these remain unverified. | [Product][BH-P] |
+| Editor / software | Editor/platform support unverified. | Unresolved |
+| Looper / drums / live | Delay maximum **500 ms**. Looper,drums,scenes,trails and tap tempo unverified. | [Product][BH-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no qualified used condition. | — |
+| New | Unknown; seller condition unconfirmed, offer sold out. | — |
+
+### Qualified seller and access observations
+
+MICKEY MOUSE SHOP, Jakarta Utara,shop19700013/item19281940040: **Rp1,650,000,Habis**,month-old search cache; direct item cache miss. Condition,working state,adapter/bundle,exact revision,warranty region and voucher eligibility unverified. Sold-out ask is not live stock or a completed sale.
+
+Official page also displays Sold out, without proving Indonesian availability. Its User Manual link is a JPG that yielded no readable image through the web tool; no panel counts inferred. Product code comes from manufacturer,not seller shorthand. No file downloaded.
+
+[BH-P]: https://www.sonicake.com/products/black-hammer
+[BH-M]: https://cdn.shopifycdn.net/s/files/1/0100/1950/4185/files/Black_Hammer-User_Manual.jpg?v=1647482298
+[BH-O]: https://shopee.co.id/Efek-Gitar-SONICAKE-Black-Hammer-Multi-Effects-Pedal-4-In-1-Distortion-i.19700013.19281940040
