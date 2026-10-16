@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-50 shared compact-source audit",
-    "task": "GP-5 23 source fields/five rows and registered shared context/reference links audited; source key added without changing later NAM/price evidence. Next audit GP-50 shared compact rows, exact context and URLs, commit before another model. Other shared/incoming-link audits, technical gaps and fresh Shopee discovery remain required.",
+    "model": "Valeton GP-180 shared compact-source audit",
+    "task": "GP-50 shared 23 fields/five rows, power and historical-price caveats verified; explicit source key added. Next audit GP-180 source/root exact fields/context/references, commit before another model. Remaining shared/incoming-link audits, required technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -14245,10 +14245,18 @@
           "model_rows": 5,
           "repair": "Added explicit historical F5/P5/P6 source key; existing FAQ/availability/foreign-price context and later NAM update retained.",
           "scope": "Exact source rows and registered shared context/reference links; no refreshed market or hardware certification."
+        },
+        {
+          "model": "Valeton GP-50",
+          "destination": "VALETON.md#gp-50",
+          "target": "make consolidation-audit-compact-gp50",
+          "retained_fields": 23,
+          "model_rows": 5,
+          "repair": "Explicit F50/P7/control-photo source key; existing power/price context and later NAM qualification retained.",
+          "scope": "Shared source rows, retained paragraphs and reference URLs only; no fresh spec or stock verification."
         }
       ],
       "remaining_models": [
-        "GP-50",
         "GP-180",
         "Smart Box QME-20",
         "Pocket Master QME-10"

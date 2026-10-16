@@ -687,3 +687,15 @@ These earlier observations were recorded on **2026-10-14** before the IDR revisi
 Historical GP-50 source URLs: https://shop.valeton.net/products/gp-50, https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png
 
 Sources: [effects/findings/2026-10-14-valeton-gp-50.md](effects/findings/2026-10-14-valeton-gp-50.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+### GP-50 shared-source reference key
+
+The unchanged complete compact source was rechecked on 2026-10-17. All 23 GP-50 fields across five rows remain preserved, including explicit USB operation versus charging and the sold-out price qualification. Historical reference labels resolve as follows:
+
+| Historical label | Exact source |
+|---|---|
+| `F50` | [Original GP-50 finding](effects/findings/2026-10-14-valeton-gp-50.md) |
+| `P7` | [Official-shop historical USD119.99 source](https://shop.valeton.net/products/gp-50) |
+| Original control photo | [Manufacturer GP-50 image](https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png) |
+
+Original firmware 1.0.5 evidence and later firmware 1.1.0+/app 2.1.0+ NAM A2 conversion requirements remain separately dated above. This audit does not refresh stock or certify native NAM.
+
