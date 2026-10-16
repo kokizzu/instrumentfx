@@ -742,6 +742,13 @@ Primary sources: [manufacturer product](https://zoomcorp.com/en/us/multi-effects
 
 The [current product page](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/) confirms104 effects and6DI choices:Tube1/2/3 andSolidState1/2/3. Complete current category counts remain unresolved; those are choices,not simultaneous block counts. Three-level factory cabinet IR blending does not establish a user IR loader.
 
+### B2 FOUR — master output and live selection clarification
+
+| Field | Current evidence / qualification |
+|---|---|
+| Routing / master controls | Global three-band EQ and master volume affect **OUTPUT and PHONES**; both persist across patch changes. This does not establish that these controls change BALANCED OUTPUT. [Original manual](https://zoomcorp.com/manuals/b2four-en/) explicitly names the affected outputs. |
+| Live selection / saving | **PRESELECT** keeps the current patch active while navigating; a footswitch confirms the selected patch. **AUTO SAVE is on by default**; with it off, changes require saving. ECO powers off after10hours without operation. These functions do not establish scenes or seamless spillover. [Manual](https://zoomcorp.com/manuals/b2four-en/) |
+
 ### B2 FOUR — physical control verification limits
 
 The legacy4/6/4 K/F/B row is retained as its historical photograph-based observation. Current manual text identifies direction controls,parameter knobs,footswitches,DI MODEL andbypass switches,plus rear ground/impedance/power toggles. **The exact separate count was not visually corroborated in this pass.** Manual SVG retrieval failed; direct official-photo retrieval returned403;the in-app browser was unavailable. No successful current image inspection is claimed. This gap remains explicit rather than silently recertifying a parsed count.
@@ -764,14 +771,14 @@ All are asking observations,not a new/used market range. Exact condition,selecte
 | Editor / OS compatibility | Zoom’s January2026 [iOS26/iPadOS26 compatibility table](https://zoomcorp.com/en/jp/news/ios26compatibility/) explicitly marks both B2 FOUR hardware and Handy Guitar Lab for B2 FOUR **Yes** on both platforms. This resolves those named OS versions, not all future releases or Android editing. |
 | Editor functions / connection | [Model-specific app page](https://zoomcorp.com/en/us/software-product-page/software-sub-cat/handy-guitarlab-for-b2-four/) documents effect installation/management, patch creation/editing, backups and firmware updates; VoiceOver supported. Apple Camera Adapter required and not included according to page. No app or firmware downloaded. |
 
-<!-- comparison evidence ends -->
-
 Condition-unverified exact hardware observations, checked2026-10-17:
 
 - [IDB MUSIK PLUS, Kota Jakarta Utara, shop800959591/item24004987590](https://shopee.co.id/Multi-Efek-Bass-Zoom-B2-FOUR-Adaptor-Zoom-AD-16E-Original-i.800959591.24004987590): Rp4,495,000, AD-16E bundle title. Three-week index only; direct retrieval cache miss. Condition, live stock, selected bundle, warranty, shipping/tax/voucher and final total unknown. Sep26–28 delivery stale. Not a qualified used/new price.
 - [LYN AUDIO, Kota Jakarta Barat, shop1203229574/item42758785757](https://shopee.co.id/ZOOM-B2-FOUR-BASS-MULTIEFFECTS-PROCESSOR-B2FOUR-GARANSI-RESMI-1TAHUN-i.1203229574.42758785757): Rp4,545,000; one-year official warranty is a seller title claim. JS-limited direct body, five-day crawl; condition, live stock, adapter/bundle, selected variant, shipping/tax/voucher and delivered total unknown. Relative four-hour delivery does not verify stock;10k late compensation is not a discount. Misfiled automotive category does not prove a different model or seller authenticity.
 
 Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; existing ACOUSTIC MUSIK item42458813522 still shows Rp4,270,000 with stale29May delivery. Preserve their2026-10-16 observations above; this does not refresh stock certification.
+
+<!-- comparison evidence ends -->
 
 ## B6
 

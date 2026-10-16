@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery after AX5G EasyStart",
-    "task": "AX5G processing count composition and output target restrictions saved. Power/screen conflicts unresolved; continue another model or fresh exact Shopee hardware discovery.",
+    "model": "B2 FOUR comparison completeness / next discovery",
+    "task": "B2 FOUR routing and selection clarified; ensure IDB/LYN price observations project. No exact AX5B/AX3000B/BP90/BP355 offer found in this pass.",
     "next_models": [],
-    "after_queue": "Do not borrow AX5B-specific algorithms or infer absence from missing documentation."
+    "after_queue": "Continue another brand/series exact hardware discovery or readable manual gaps."
   },
   "new_findings": [
     {
@@ -4084,6 +4084,14 @@
       "source": "https://www.korg.com/us/support/download/manual/1/35/2041/",
       "finding": "Official AX5-Series EasyStart explicitly partitions six effects into three FX blocks, NR, Drive/Amp and Cabinet; documents amp-model-only Amp/Line output targets and editable/non-overwritable factory presets. Stray AX3 header and AX5B-specific material qualified; no power or screen inference.",
       "remaining": "Power current/polarity, published display details, regional dimensions/count conflict and software/import gaps."
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://zoomcorp.com/manuals/b2four-en/",
+      "finding": "Master EQ/volume named OUTPUT and PHONES scope; persistent across patches. PRESELECT confirmation, default autosave and10h ECO saved. Moved comparison end marker after previously preserved IDB/LYN exact offers so bass price projection can include them losslessly.",
+      "remaining": "Physical counts, display, categories, imports/current editor platforms and current stock/condition verification."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40050,7 +40058,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery after AX5G EasyStart."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume B2 FOUR comparison completeness / next discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
