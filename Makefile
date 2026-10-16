@@ -161,3 +161,7 @@ consolidation-commit-ve-1:
 .PHONY: consolidation-commit-ve-2
 consolidation-commit-ve-2:
 	python3 scripts/consolidation_tools.py commit ve-2
+
+.PHONY: consolidation-commit-ve-500
+consolidation-commit-ve-500:
+	python3 scripts/consolidation_tools.py commit ve-500

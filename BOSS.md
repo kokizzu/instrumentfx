@@ -294,3 +294,61 @@ Checked2026-10-16;cached exact hardware asks,not current checkout/stock or condi
 | Retail-style adapter bundle / Bandung Music Gallery,Bandung | Rp5.460.000,title explicitly +Adaptor;adapter model/authenticity unconfirmed. Index tomorrow/reopened1Sep delivery. Separate item from bare-unit listing;do not collapse into unconditional unit-price range. | [394955725 /11708755293](https://shopee.co.id/Boss-VE-2-Vocal-Harmonist-Adaptor-VE2-VE-2-Efek-Vokal-i.394955725.11708755293) |
 
 Remaining:variation voice ceiling;panel/display proof;USB power/channels/rates/driverOS;DC polarity;imports;used-condition price,current seller stock and bundle verification. No legacy source deleted.
+
+## VE-500
+
+Vocal multi-effects with guitar/MIDI-guided harmony and vocoder. Consolidated/researched2026-10-16;partial verification.
+
+### VE-500 — preserved original comparison
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimensions are **W×D×H, mm**. K/F/B = rotary controls / main footswitches / separate buttons; rear power, phantom and ground-lift toggles are additional. Used and new prices are separate **USD US-market asking/listing observations**, not sold-price statistics. Tax, shipping and condition matter.
+
+A guitar input used to detect chords does not automatically provide guitar effects. VE-500's instrument THRU sends the **unprocessed guitar signal** to other pedals. VE-8, by contrast, has its own acoustic-guitar processing path.
+
+| Required field | Original observation (2026-10-14) |
+|---|---|
+| External expression | EXP or up to 2 external footswitches |
+| K/F/B | 3/3/5 |
+| Dimensions; weight | 170×138×62; 860 g |
+| Size class | Compact |
+| Used USD | ? |
+| New USD | $527.99 [P1] |
+| Processing architecture; categories / choices | **Up to 9 simultaneous**; Enhance, harmony/pitch processing, 4 FX engines and 2 reverb/delay sections; algorithm counts within each FX engine ? |
+| Factory / user storage | **50 P + 99 U** |
+| Harmony, pitch, synth-like and acoustic functions | Guitar- or MIDI-guided harmony/pitch correction; **vocoder/talkbox-style processing** |
+| IR / NAM loading | Neither established |
+| Physical audio/control ports | XLR mic **48 V/10 mA max**; ¼″ instrument in/thru; 2×XLR out; CTL/EXP; DIN MIDI IN; micro-USB |
+| Battery / power / USB-powered? | PSA 9 V; 310 mA with phantom /210 mA without; no battery/USB bus power listed |
+| Configuration apps versus USB functions | **Windows/macOS full editor/librarian**; USB-MIDI; USB audio not established |
+| Looper / live considerations | Looper included, duration ?; **no headphone jack listed**; separate live/harmony routing |
+
+Original sources: [source](https://www.boss.info/global/products/ve-500/specifications/); [source](https://www.boss.info/global/products/ve-500/); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series); [source](https://www.sweetwater.com/store/detail/VE500--boss-ve-500-vocal-performer). P1:Sweetwater new USD527.99 checked2026-10-14,bundles/open-box excluded;not converted IDR. [Complete original](effects/vocal.md) retained unchanged.
+
+### VE-500 — manufacturer checks
+
+| Required field | Evidence / limits (2026-10-16) |
+|---|---|
+| Physical controls / expression | Three assignable knobs,three footswitches,five buttons per manufacturer control list;rear ground-lift separate. No builtin expression/toe pedal;TRS external EXP or two footswitches. [VE500-S] |
+| Display / body / memory |132×32 backlit graphic LCD;diagonal/color/touch unestablished.170×138×62mm,860g.50preset+99user=149 patches total. [VE500-S] |
+| Processing / choices | Up to nine simultaneous effects. [VE500-S] Four independent FX engines each offer20 effect types;same type can occupy multiple FX engines. Two independent reverb/delay units. Pitch correction available only in HRM mode;HRM/VOC are alternatives. [VE500-M] Remaining subtype counts unverified. |
+| Routing / live | Four FX structures:SERIES,PARA+SER,2PARALLEL,4PARALLEL. Reverb structures:SERIES,PARALLEL,SEPARATE. Tuner sources MIC,INST or both;reference435–445Hz. Vocal tuner output can BYPASS,DRY(Enhance),LEAD(Enhance+Pitch Correct),orMUTE. [VE500-M] |
+| Looper | **60s mono/30s stereo**;content lost on patch change,loop-mode change or poweroff. Assign loop functions to controllers;one-shot,overdub,fade and playback-decay settings. [VE500-P] |
+| Ports / power / guitar | XLR mic48V10mAmax;quarter-inch instrument in/unbuffered THRU;stereo XLR outputs with selectable-40/-10dBu;TRS CTL/EXP;DIN MIDI IN;micro-B USB;DC.310mA phantom-on/210mA off;PSA supplied. No headphone connector listed. USB audio,bus power,battery andDC polarity unverified. Legacy9V retained. [VE500-S] |
+| Editor / MIDI | Windows/Mac full editor/librarian;USB-MIDI and DIN MIDI can guide harmony/pitch. [VE500-S]USB driver required by owner manual;patch edit/name/reorder/backup distinct from firmware. [VE500-M] Current supported OS versions remain unchecked. |
+| Synth / acoustic / loading | Guitar input can excite vocoder/talkbox sound;THRU remains unprocessed. [VE500-S] This does not establish guitar amp/acoustic multifx,IR,native NAM,converted NAM or capture loading. |
+
+[VE500-S]: https://www.boss.info/global/products/ve-500/specifications/
+[VE500-M]: https://static.roland.com/assets/media/pdf/VE-500_eng04_W.pdf
+[VE500-P]: https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf
+
+### VE-500 — separate IDR asking-price evidence
+
+Checked2026-10-16;exact retail-style hardware pages,not condition-confirmed used or current checkout/stock evidence. Shipping,tax,warranty region and selected adapter bundle require confirmation. Store names not authenticated.
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no condition-verified exact used IDR ask established. | — |
+| Retail-style / Artech Music,Bekasi | Rp9.680.000,indexsame-day-before14:00/reopened same-day-before09:00. Cached delivery cutoff differs;no stock inference. No price voucher shown;adapter/bundle unspecified despite manufacturer supplied-PSA listing. | [31171541 /12352931227](https://shopee.co.id/Boss-VE-500-Vocal-Performer-VE500-Effect-vocal-Efek-Vokal-i.31171541.12352931227) |
+| Retail-style / princemusicstore,Depok | Rp9.300.000,index/reopened same ask;title Ready Stock is seller claim,body Layanan Tidak Tersedia. Delivery unavailable in snapshot,not proof of nationwide service/stock. Adapter/bundle unspecified. | [108313506 /27631943239](https://shopee.co.id/-Ready-Stock-Boss-ve-500-vocal-effect-performance-pedal-Boss-ve500-original-i.108313506.27631943239) |
+
+Remaining:screen diagonal/color/touch;full subtype counts;explicitUSB audio/power/battery/DCpolarity,current softwareOS;imports;usedcondition/current stock/bundle proof. No original source deleted.
