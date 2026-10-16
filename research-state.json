@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP255 primary follow-up",
-    "task": "RP255 initial model and condition-unverified exact Shopee offer saved. Next inspect category counts,looper saving/control limits,headphone mono routing and X-Edit/USB restrictions using original manual. Commit useful findings before another model.",
+    "task": "RP255 category subtotals,ACdred acoustic simulation,loop controls,headphone mono and editor-only parameters saved. Next reconcile Chorus/FX choices/94 total and check USB/control/power limits where primary evidence permits; then fresh Shopee discovery. Loop persistence and synth remain unverified. Commit before another model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2380,7 +2380,26 @@
         "synth/acoustic/imports",
         "draw",
         "qualifiedoffers"
-      ]
+      ],
+      "category_routing_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf",
+        "pages": "10–11,19–26,32,35–40",
+        "resolved": [
+          "Pickup2/wah3/comp2/drive13/amp24inclacoustic+Direct/cab14+Direct/EQ4/delay5/reverb6",
+          "ACdred acoustic sim,not synth proof",
+          "Stop/resume and held-overdub loop controls;Up preset navigation",
+          "Headphone mono with left-only main connection",
+          "Editor-only parameters and Whammy before amp",
+          "Five metronome settings in addition to60 patterns"
+        ],
+        "unresolved": [
+          "ChorusFX subtotal and94 reconciliation",
+          "savedloop persistence",
+          "visual/display/import/powerdraw",
+          "qualifiedoffers"
+        ]
+      }
     }
   ],
   "consolidation_and_price_findings": [

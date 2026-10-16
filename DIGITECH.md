@@ -49,9 +49,13 @@ Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; part
 | K/F/B | **4 /2 /5**, text-derived: four knobs; Up/Down footswitches; two Edit,Drums,Store and rear Amp/Mixer buttons. Toe additional; no power switch. Visual corroboration pending. | [Manual pp6–12][R255-M] |
 | Display | Preset/parameter/tuner display; diagonal,colour,touch and display technology unverified. | [Manual p9][R255-M] |
 | Dimensions / mass | **14.5L×8.75W×2.5H inches;4.9lb**, approximately368×222×64mm L×W×H;2.22kg. Rounded conversion;large. | [Manual p43][R255-M] |
-| Processing / categories | **11 simultaneous effects**. Product94 total includes amps,cabinets,stompboxes/effects; not94 simultaneous. Category subtotals pending. | [Manual p43][R255-M]; [Product][R255-P] |
+| Processing / categories | **11 simultaneous effects**. Product94 total includes amps,cabinets,stompboxes/effects; not94 simultaneous. Category subtotals below; Chorus/FX count remains pending. | [Manual p43][R255-M]; [Product][R255-P] |
+| Category choices | Pickup2;wah3;compressor2;distortion13;Amp24 including acoustic +Direct bypass;cabinet14 +Direct bypass;EQ4 starting curves;delay5;reverb6. Direct is not another modeled amp/cabinet. Chorus/FX subtotal and94-total reconciliation pending. | [Manual pp20–26,35–36][R255-M] |
+| Looper / live controls | Stop/resume supported; stopped loop cleared by holding Down2s. Overdub records only while Down is held. During looping, Up advances presets; holding Up scrolls backward. Down cannot select presets. Loop save/power persistence unverified. Drums include five metronome settings beyond60 patterns. | [Manual pp38–40][R255-M] |
+| Audio output / headphones | Mixer position enables speaker compensation and is specified for headphones. Headphones stereo with neither or both main outputs connected; **left-only output makes headphones mono**. Selecting an amp automatically selects its default cabinet, which can then be changed. | [Manual pp10–11,23][R255-M] |
+| Editor-only parameters | Delay10ms–5s;ducking,modulation depth,tape wow/flutter and reverb predelay include X-Edit-only controls. Local four-knob access does not expose every parameter. Fixed signal order;Whammy automatically moves before amp modeling. | [Manual pp19,32,35–37][R255-M] |
 | Factory / user memory | **120:60 user+60 read-only factory**. User1–60 initially duplicate factory61–120; not120 unique factory sounds. | [Manual p5][R255-M] |
-| Synth / acoustic | Dedicated synth/acoustic-simulator capabilities unverified. Pitch shifting alone is not synth proof. | Unresolved |
+| Synth / acoustic | **Acoustic simulation yes:ACdred Dreadnaught** in Amp selection, without Amp Gain control. Dedicated synth-engine capability remains unverified; do not infer it from pitch shifting or SynthTalk wording. | [Manual pp23–25][R255-M] |
 | I/O | 1/4-inch TS INPUT;1/4-inch L/MONO/R outputs;1/8-inch stereo PHONES/AUX;USB-B;power. No DIN MIDI or FX loop in complete inventory. | [Manual pp10–11,43][R255-M] |
 | Power / battery / USB | **PS0913B:9V AC,1.3A supply rating**;2.5mm pin,5.5mm barrel,9.5mm length. Rating is not measured device draw. DC polarity inapplicable; battery/USB bus operation unverified. Regional mains adapters differ. | [Manufacturer FAQ][R255-F]; [Manual p44][R255-M] |
 | IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. Factory models do not prove import. | Unresolved |
@@ -71,7 +75,7 @@ Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; part
 
 Checked2026-10-17: [DIGITECH RP255](https://shopee.co.id/DIGITECH-RP255-i.120981304.17884883872),**Ch.storee**,shop120981304/item17884883872,Kab.Pekalongan,**Rp1,700,000**. Exact HTML opened; condition,selected variant,bundle/adapter,working state,warranty and stock unverified. Cached August delivery window does not confirm present availability. Rp10,000 late-arrival voucher is conditional compensation, not hardware discount. Taxes/shipping/checkout total unknown. Amount excluded from used/new projections.
 
-Official56-page manual viewed through browser text; no file/software/driver/dependency downloaded to workspace or installed. Remaining: visual controls,screen details,category subtotals,synth/acoustic/import evidence,power draw and condition-qualified offers.
+Official56-page manual viewed through browser text; no file/software/driver/dependency downloaded to workspace or installed. Remaining: visual controls,screen details,Chorus/FX subtotal,total reconciliation,synth/import evidence,power draw and condition-qualified offers.
 
 [R255-M]: https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf
 [R255-P]: https://digitech.com/dp/rp255/
