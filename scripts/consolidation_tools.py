@@ -15,6 +15,8 @@ MODELS = {
     'g6': ('G6', 'effects/findings/2026-10-15-zoom-g6.md'),
     'g1-four': ('G1 FOUR', 'effects/findings/2026-10-14-zoom-g1-four.md'),
     'g1x-four': ('G1X FOUR', 'effects/findings/2026-10-14-zoom-g1x-four.md'),
+    'g2-four': ('G2 FOUR', 'effects/findings/2026-10-14-zoom-g2-four.md'),
+    'g2x-four': ('G2X FOUR', 'effects/findings/2026-10-14-zoom-g2x-four.md'),
 }
 
 

@@ -97,3 +97,19 @@ consolidation-clean-cache-plan:
 	python3 scripts/consolidation_tools.py cache-plan
 consolidation-clean-cache-apply:
 	python3 scripts/consolidation_tools.py cache-apply
+
+.PHONY: consolidation-plan-g2-four consolidation-apply-g2-four consolidation-commit-g2-four
+consolidation-plan-g2-four:
+	python3 scripts/consolidation_tools.py plan g2-four
+consolidation-apply-g2-four:
+	python3 scripts/consolidation_tools.py apply g2-four
+consolidation-commit-g2-four:
+	python3 scripts/consolidation_tools.py commit g2-four
+
+.PHONY: consolidation-plan-g2x-four consolidation-apply-g2x-four consolidation-commit-g2x-four
+consolidation-plan-g2x-four:
+	python3 scripts/consolidation_tools.py plan g2x-four
+consolidation-apply-g2x-four:
+	python3 scripts/consolidation_tools.py apply g2x-four
+consolidation-commit-g2x-four:
+	python3 scripts/consolidation_tools.py commit g2x-four

@@ -7,8 +7,8 @@
   "active_model_count": 124,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 56,
-  "legacy_only_model_count": 68,
+  "canonical_root_model_count": 57,
+  "legacy_only_model_count": 67,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -34,7 +34,7 @@
     "next_models": [
       "Zoom G2X FOUR"
     ],
-    "after_queue": "Continue remaining 68 legacy-only records, unresolved technical/IDR fields, and fresh exact Shopee hardware discovery. GS1000 Li/GE200 Plus/GE300 Lite searches did not yet establish a new exact hardware offer."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 67 legacy-only models."
   },
   "new_findings": [
     {
@@ -493,7 +493,100 @@
       "supporting_sources": [
         "effects/shopee-multifx.md"
       ],
-      "status": "Consolidated; technical verification remains partial"
+      "status": "Consolidated; technical verification remains partial",
+      "commit": "9ad9c4d"
+    },
+    {
+      "models": [
+        "Zoom G2 FOUR"
+      ],
+      "destination": "ZOOM.md#g2-four",
+      "source": "effects/findings/2026-10-14-zoom-g2-four.md",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "ZOOM-G2-FOUR",
+      "source_sha256": "afd6f0c5bb2c4be3e96b867d0fa3fe0b0671e2bfa2a0a5f739b0d83c5e6d6f2c",
+      "renamed_references": [
+        "P",
+        "M",
+        "D",
+        "I",
+        "S",
+        "S2"
+      ],
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "Yes, FP02M",
+          "source": "effects/shopee-multifx.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "4/4/4*",
+          "source": "effects/shopee-multifx.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "184×145×71; 707 g",
+          "source": "effects/shopee-multifx.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Size",
+          "value": "Medium",
+          "source": "effects/shopee-multifx.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "Rp3.490.848 storefront; **Rp3.410.599 with voucher**, same item",
+          "source": "effects/shopee-multifx.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Simultaneous stages; categories / choices",
+          "value": "6 effects +1 pedal effect, DSP-limited; 100+ and downloadable additions",
+          "source": "effects/shopee-multifx.md",
+          "context": "3. Processing, presets and loading"
+        },
+        {
+          "field": "Preset storage",
+          "value": "300 editable /250 factory-filled",
+          "source": "effects/shopee-multifx.md",
+          "context": "3. Processing, presets and loading"
+        },
+        {
+          "field": "Acoustic simulation / synth",
+          "value": "? / ?",
+          "source": "effects/shopee-multifx.md",
+          "context": "3. Processing, presets and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "Factory Multi-Layer IR ≠ third-party import; NAM ?",
+          "source": "effects/shopee-multifx.md",
+          "context": "3. Processing, presets and loading"
+        },
+        {
+          "field": "Physical ports, excluding DC input",
+          "value": "¼-inch input; 2×¼-inch outputs; ⅛-inch aux/phones; external control; USB-C",
+          "source": "effects/shopee-multifx.md",
+          "context": "4. Audio/control connections"
+        }
+      ],
+      "supporting_sources": [
+        "effects/shopee-multifx.md"
+      ],
+      "status": "Consolidated; technical verification remains partial",
+      "technical_refresh": "2026-10-16 HTML manual:stereo/undo looper limits,category-instance restrictions,loop-clearing triggers,USB recording/playback routing; original body unchanged."
     }
   ],
   "discovery_leads": [
@@ -746,7 +839,8 @@
       "B1Xon",
       "G6",
       "G1 FOUR",
-      "G1X FOUR"
+      "G1X FOUR",
+      "G2 FOUR"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -831,7 +925,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:104 guitar,54 documented bass-capable,17 vocal; full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "68 legacy-only models remain;56 root-canonical. Full migration and research incomplete.",
+    "warning": "67 legacy-only models remain;57 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -901,8 +995,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 124,
-    "canonical_root_models": 56,
-    "legacy_only_models": 68,
+    "canonical_root_models": 57,
+    "legacy_only_models": 67,
     "guitar_view_models": 104,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -916,10 +1010,8 @@
     "specialists_segregated": true,
     "workflow_files": 0,
     "last_checks": [
-      "make comparison-verify",
-      "make research-verify",
-      "make consolidation-verify",
-      "Actual G6/G1 FOUR/G1X FOUR cells: distinct masses, expression, exact offers, DSP limits and USB power distinctions"
+      "Actual G2 FOUR comparison cells inspected:707g,external pedal,stereo/undo looper limits,exact voucher offer",
+      "consolidation commit checks full source equality,all comparisons,counts and root links"
     ]
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
@@ -933,7 +1025,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Read complete G2 FOUR finding and all supporting comparisons; consolidate losslessly, check current official gaps if useful, regenerate and inspect comparisons, commit before G2X FOUR. Continue fresh Shopee discovery and all unresolved model work afterward."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G2 FOUR."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -2187,10 +2279,9 @@
       ]
     },
     "Zoom::G2 FOUR": {
-      "link": "effects/findings/2026-10-14-zoom-g2-four.md",
+      "link": "ZOOM.md#g2-four",
       "source_files": [
-        "effects/findings/2026-10-14-zoom-g2-four.md",
-        "effects/shopee-multifx.md"
+        "ZOOM.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-14-zoom-g2-four.md"

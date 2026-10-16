@@ -58,7 +58,7 @@ These are individual asking observations, not completed-sale statistics or an ac
 
 ## Existing ZOOM research — consolidation still pending
 
-The existing G2 FOUR,G2X FOUR,B1 FOUR,B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+The existing G2X FOUR,B1 FOUR,B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
 
 ## B1Xon
 
@@ -292,3 +292,71 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **IR / NAM** (3. Processing, presets and loading): User IR/NAM import not established
 
 Sources: [effects/findings/2026-10-14-zoom-g1x-four.md](effects/findings/2026-10-14-zoom-g1x-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+
+## G2 FOUR
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- ZOOM-G2-FOUR source begins -->
+
+Checked **2026-10-14**. **Partial new record.** Sources: [manufacturer page][ZOOM-G2-FOUR-P], [operation manual][ZOOM-G2-FOUR-M], [downloads][ZOOM-G2-FOUR-D] and [official hardware photograph][ZOOM-G2-FOUR-I]. Not G2X FOUR.
+
+| Field | Established / unknown |
+|---|---|
+| Expression | No built-in pedal; **external FP02M input** |
+| Controls | **4 rotary /4 main footswitches /4 direction buttons**; the direction buttons are also designed for foot operation; rear power switch separate |
+| Display | **256×128 dot-matrix monochrome LCD**; diagonal and explicit touch specification ? |
+| Size / weight | **184×145×71 mm; 707 g**; medium, 5 mm too deep for the compact filter |
+| Processing | **6 effects +1 pedal effect**, DSP-limited; 100+ advertised effects, expanding downloadable library; category counts ? |
+| Presets | **300 editable, 250 factory-filled** |
+| Synth / acoustic simulation | ? / ?; do not infer either from generic amp modeling |
+| Ports | ¼-inch mono input; 2×¼-inch mono outputs; ⅛-inch aux/phones; external control; USB-C |
+| Power | **9 V/500 mA center-negative AD-16 or USB bus**; internal battery not listed |
+| IR / NAM | Factory **Multi-Layer IR**; third-party IR import and NAM not established |
+| Editor | Paid **Handy Guitar Lab iOS/iPadOS/Android**, wired USB; desktop audio driver is not a desktop editor |
+| Extras | **80 s mono looper; 68 rhythms; USB 2-in/2-out, 44.1 kHz/32-bit** |
+
+### Shopee Indonesia — distinguish storefront from voucher amount
+
+Adapter bundle: [exact item 14998144599][ZOOM-G2-FOUR-S] displays **Rp3.410.599 with voucher**; the [same seller's storefront][ZOOM-G2-FOUR-S2] displays **Rp3.490.848**. Keep the differing context rather than invent a single standard price or market range. Voucher eligibility and final checkout amount are unverified. Used quote **?**. Listing presence does not confirm current stock, authenticity or delivered cost.
+
+[ZOOM-G2-FOUR-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/
+[ZOOM-G2-FOUR-M]: https://zoomcorp.com/manuals/g2four_g2xfour-en/
+[ZOOM-G2-FOUR-D]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/
+[ZOOM-G2-FOUR-I]: https://zoomcorp.com/media/original_images/05_G2-XFour_Product.jpeg.800x482_q70_crop_focal_area-1500%2C1236%2C3000%2C2473_size_canvas.jpg
+[ZOOM-G2-FOUR-S]: https://shopee.co.id/Zoom-G2-Four-Multi-Effects-Processor-With-Adaptor-AD-16E-i.348182890.14998144599
+[ZOOM-G2-FOUR-S2]: https://shopee.co.id/zoomsoundlab.id
+
+**Next:** category-by-category current library, display diagonal/touch documentation and secondhand evidence. The manufacturer lists additions through June 2026; do not blindly add every download to a baseline count.
+<!-- ZOOM-G2-FOUR source ends -->
+
+### G2 FOUR — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **External expression** (No built-in expression): Yes, FP02M
+- **K/F/B** (No built-in expression): 4/4/4*
+- **Dimensions; weight** (No built-in expression): 184×145×71; 707 g
+- **Size** (No built-in expression): Medium
+- **Used IDR** (No built-in expression): ?
+- **Retail IDR observation** (No built-in expression): Rp3.490.848 storefront; **Rp3.410.599 with voucher**, same item
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 6 effects +1 pedal effect, DSP-limited; 100+ and downloadable additions
+- **Preset storage** (3. Processing, presets and loading): 300 editable /250 factory-filled
+- **Acoustic simulation / synth** (3. Processing, presets and loading): ? / ?
+- **IR / NAM** (3. Processing, presets and loading): Factory Multi-Layer IR ≠ third-party import; NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch input; 2×¼-inch outputs; ⅛-inch aux/phones; external control; USB-C
+
+Sources: [effects/findings/2026-10-14-zoom-g2-four.md](effects/findings/2026-10-14-zoom-g2-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+
+### G2 FOUR — current manual processing and live-use clarification
+
+Checked 2026-10-16 against the [manufacturer HTML operation manual](https://zoomcorp.com/manuals/g2four_g2xfour-en/), sections Replacing effects, Using the looper and Using audio interface functions. These expand the preserved 2026-10-14 observations above.
+
+| Field | Additional verified limit |
+|---|---|
+| Processing restrictions |At most one amp, pedal, rhythm and looper category instance per patch; DSP overflow bypasses effects. Rhythm and looper are selectable effects, not unlimited extra blocks |
+| Looper / rhythm |80 s mono or40 s stereo; enabling UNDO reduces limits to40/20 s. Minimum1.5 s; manual or1–64 quarter-note length, rhythm synchronization and count-in |
+| Looper switching |Patch change stops recording/playback; entering the Library Screen stops and clears the loop. A tempo change can delete a synchronized/timed loop |
+| USB audio routing |Two processed recording channels to computer/phone; two playback channels enter after effects. Windows requires the model driver; Mac/mobile do not. Playback is not documented as a reamp input through the chain |
+
+The [current official product page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/) lists57 downloadable additions, including54 fromNovember2024 and later OverDrive,Modulation Delay2 andStereo Guitar Graphic EQ7. This is not a verified installed category total for every unit. No app or driver was installed.
