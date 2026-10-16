@@ -581,6 +581,18 @@ Historical GP-5 source URLs: https://www.guitarcenter.com/Valeton/Multi-Effects-
 
 Sources: [effects/findings/2026-10-14-valeton-gp-5.md](effects/findings/2026-10-14-valeton-gp-5.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
 
+### GP-5 shared-source reference key
+
+The unchanged complete compact comparison was rechecked on 2026-10-17. Its 23 GP-5 fields across five rows and the dated FAQ, availability and foreign-price caveats remain preserved above. Historical reference labels resolve here:
+
+| Historical label | Exact source |
+|---|---|
+| `F5` | [Original GP-5 finding](effects/findings/2026-10-14-valeton-gp-5.md) |
+| `P5` | [Guitar Center historical used observations](https://www.guitarcenter.com/Valeton/Multi-Effects-Pedals.gc) |
+| `P6` | [Official-shop historical new quote](https://shop.valeton.net/products/gp-5) |
+
+The July 2025 FAQ and 2026-10-14 shared rows remain dated evidence; the later app 2.1.0+ A2 conversion qualification and 2026-10-17 Shopee observations remain separate. No source retired or stock refreshed by this audit.
+
 ## GP-50
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-5 shared compact-source audit",
-    "task": "Matribox shared 23 fields/five rows and exact CN-price/firmware paragraphs retained; verify current comparison projection before broader work. Next audit GP-5 shared compact rows/context/reference sources, commit before another model. Remaining shared/incoming-link audits, technical gaps and fresh Shopee discovery required.",
+    "model": "Valeton GP-50 shared compact-source audit",
+    "task": "GP-5 23 source fields/five rows and registered shared context/reference links audited; source key added without changing later NAM/price evidence. Next audit GP-50 shared compact rows, exact context and URLs, commit before another model. Other shared/incoming-link audits, technical gaps and fresh Shopee discovery remain required.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -14236,10 +14236,18 @@
           "model_rows": 5,
           "repair": "Exact legacy field values and regional-price/firmware paragraphs retained, with historical reference key.",
           "scope": "Shared row/context preservation only; no fresh stock, architecture or firmware compatibility claim."
+        },
+        {
+          "model": "Valeton GP-5",
+          "destination": "VALETON.md#gp-5",
+          "target": "make consolidation-audit-compact-gp5",
+          "retained_fields": 23,
+          "model_rows": 5,
+          "repair": "Added explicit historical F5/P5/P6 source key; existing FAQ/availability/foreign-price context and later NAM update retained.",
+          "scope": "Exact source rows and registered shared context/reference links; no refreshed market or hardware certification."
         }
       ],
       "remaining_models": [
-        "GP-5",
         "GP-50",
         "GP-180",
         "Smart Box QME-20",

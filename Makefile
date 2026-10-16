@@ -735,3 +735,9 @@ consolidation-audit-compact-matribox:
 	python3 scripts/consolidation_tools.py audit-compact Matribox
 research-commit-compact-matribox-audit:
 	python3 scripts/research_tools.py commit-compact-matribox-audit
+
+.PHONY: consolidation-audit-compact-gp5 research-commit-compact-gp5-audit
+consolidation-audit-compact-gp5:
+	python3 scripts/consolidation_tools.py audit-compact GP-5
+research-commit-compact-gp5-audit:
+	python3 scripts/research_tools.py commit-compact-gp5-audit
