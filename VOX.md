@@ -18,10 +18,11 @@ Guitar multi-effects; distinct from original ToneLab, SE, ST and EX. Checked2026
 | I/O | INPUT;INSERT SEND/RETURN;two OUTPUTs;HEADPHONES;optical S/PDIF;MIDI IN/OUT;AC input. No USB in complete inventory; connector sizes/routing pending. | [Japanese p52][TLLE-J] |
 | Power / battery / USB | **9V AC**, supplied **3.0A adapter rating**, not measured draw. DC polarity inapplicable. Battery operation unverified; no USB connector. | [Japanese p52][TLLE-J] |
 | IR / NAM / capture | User IR,native/converted NAM and proprietary capture loading unverified. | Unresolved |
-| Editor / software | **ToneLab LE Sound Editor** edits/manages programs; supported platforms and current availability unverified. ST software is not evidence for LE. | [Japanese p9][TLLE-J] |
+| Editor / software | **ToneLab LE Sound Editor** edits/manages programs; supported platforms and current availability unverified. Requires bidirectional MIDI through an external interface; some USB-MIDI interfaces cannot carry its SysEx. Match MIDI channels and enable SYEX OUT for editor parameter transmission. ST software is not evidence for LE. | [Japanese p9][TLLE-J]; [English pp51–52][TLLE-E] |
 | Audio output / headphones | Headphones do not mute main outputs; rear LEVEL controls both. L/MONO for mono; choose Ln1/Ln2 for phones, Ln1 for optical output, Ln2 for three-band EQ. AMP/LINE disabled when amp model off. | [English pp18–21][TLLE-E] |
 | Routing / live limits | INSERT precedes PEDAL. Bank preselection leaves current sound active until program selection. Key Lock disables knobs/buttons/selectors. Actual valve requires warm-up before sound. Dedicated spillover unverified. | [English pp13,20,22–23][TLLE-E] |
 | Routing / MIDI backup | Programs can be saved/restored via MIDI exclusive data using sequencer/data filer. Optical output level adjustable separately −12 to+12dB; above0 may clip some programs. | [English p20][TLLE-E] |
+| Looper / Hold Delay | **Mono Hold Delay1–8000ms**, automatically assigned to CONTROL; activating it holds the current delay sound. This documents delay freezing, not saved-loop storage or an independent overdubbing looper. Audio persistence remains unverified. | [English p43][TLLE-E] |
 | Looper / drums / live | Chain reorders modulation/delay/reverb. Programmable CONTROL supports tap/insert/rotary functions. Dedicated looper,drums,scenes and trails unverified. | [Japanese pp9,11][TLLE-J] |
 
 ### Separate IDR hardware offers

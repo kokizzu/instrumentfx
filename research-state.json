@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX ToneLab LE primary follow-up",
-    "task": "12/7/17 text-derived controls and output/live/MIDI backup constraints saved. Next verify Hold Delay recording behavior and editor/platform documentation; retain weight conflict and unknown fields, then pursue saved ST/SE hardware leads. Commit before another model.",
+    "model": "VOX ToneLab ST discovery lead",
+    "task": "LE Hold Delay and editor MIDI restrictions saved; current OS support, storage and other unresolved fields remain explicit. Next inspect exact ST hardware lead from discovery_vox, verify manufacturer ST manual and add distinct profile if eligible. Commit before SE or another model.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery remains necessary."
+    "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
   "new_findings": [
     {
@@ -2540,6 +2540,29 @@
           "imports",
           "looper/drums/trails",
           "J2/E1 mass conflict"
+        ]
+      },
+      "hold_editor_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf",
+        "pages": "43,51–52",
+        "resolved": [
+          "Mono Hold Delay1–8000ms freezes on CONTROL;automatic assignment",
+          "Editor needs bidirectional MIDI and SysEx-capable interface",
+          "Matching channels and SYEX OUT parameter transmission"
+        ],
+        "qualification": "Hold Delay is not proof of independent overdubbing/saved-loop storage",
+        "platform_check": {
+          "query": "site:voxamps.com ToneLab LE Sound Editor Windows Mac;site:korg.com ToneLab LE Windows",
+          "lead": "https://www.korg.com/jp/news/2014/0214/",
+          "access": "2014 compatibility announcement indexed;direct open timeout;current support not established"
+        },
+        "remaining": [
+          "modern editor OS support",
+          "audio persistence/overdub",
+          "visual/display",
+          "power draw/imports",
+          "J2/E1 mass discrepancy"
         ]
       }
     }
@@ -38248,7 +38271,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab LE primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab ST discovery lead."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
