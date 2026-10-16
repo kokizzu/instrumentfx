@@ -1794,6 +1794,9 @@ Guitar multi-effects; distinct from GT-10B and GT-100. Checked2026-10-17; partia
 | Power / battery / USB | 9V DC,800mA; PSB-1U supplied. Polarity, battery and USB bus operation unverified. | [Specifications][G10-S] |
 | IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. COSM factory modeling is not import proof. | Unresolved |
 | USB / editor / platforms | USB audio/MIDI documented. Windows/Mac Librarian1.00 listed for backup/organization, not full patch-editor proof. Windows10 driver1.0.0 and macOS10.13/10.14 driver1.0.3 listed; no current-OS blanket claim. System Program1.02 is an updater, not an editor. | [Support listing][G10-F] |
+| Firmware / live restrictions | System Program **1.02** fixes patch-change sound loss/abnormal noise, GRAPHIC EQ acting despite being off, and recalled effect states becoming inconsistent during rapid patch changes when Smooth mode or PHRASE LOOP is active. Also fixes FX CHAIN meter cursor tracking; improves chorus-mode transitions and category-keyword refresh. These are version-specific fixes, not proof of universal gapless switching. | [Japanese release notes][G10-U] |
+| Firmware / memory maintenance | Update preserves user memory; BOSS recommends Librarian or bulk-dump backup. Transfer uses MIDI or USB with the dedicated driver and a SysEx-capable SMF utility; UpdSMF is an update transport, not a patch editor. | [Japanese release notes][G10-U] |
+| Editor / Windows restrictions | Librarian1.00 manages user-patch collections; official page lists Windows XP/Vista/7/8/8.1/10. Its reference to an Editor does not identify or verify a separate full editor. Driver1.0.0 supports Windows10 32/64-bit, excludes Mobile, virtual Windows and Windows on Mac; USB3 ports must support USB2. Windows11 remains unverified. | [Librarian][G10-L]; [Driver][G10-D] |
 | External control / assignments | Eight ASSIGN1–8 mappings. EXP1,EXP2,EXPSW,CTL1–4 can independently follow patch or system settings; system overrides ignore rather than erase patch settings. Switch behavior supports toggle/momentary. MIDI CC, input level, internal timed pedal and tempo-synced wave pedal are control sources. Foot volume is movable in-chain, distinct from post-effects overall volume. | [Workshop pp3–5,9–12][G10-W] |
 | Looper / drums / live | Finnish page advertises40s; official2010 workshop p2 instead states **up to38s sound-on-sound recording**. Preserve discrepancy; channel/quality/storage restrictions pending. BANK pedals operate basic looping; additional assignments extend control. Drums/scenes/trails unverified. | [Regional product][G10-F]; [Workshop pp2,5][G10-W] |
 
@@ -1818,3 +1821,7 @@ Remaining: complete controls/expression, screen details, processing/library coun
 [G10-F]: https://www.boss.info/fi/products/gt-10/
 
 [G10-W]: https://static.roland.com/assets/media/pdf/GT10WS01.pdf
+
+[G10-U]: https://www.boss.info/jp/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/
+[G10-L]: https://in.boss.info/support/by_product/gt-10/updates_drivers/2938
+[G10-D]: https://in.boss.info/support/by_product/gt-10/updates_drivers/351091

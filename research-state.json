@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-10 primary follow-up",
-    "task": "GT-10 official2010 workshop resolves expression/external controls and eight assignments;38s loop conflicts with40s regional page. Next inspect official firmware notes, librarian/USB and phrase-loop-specific sources; commit before another model.",
+    "task": "GT-10 firmware1.02 bug fixes and Windows librarian/driver distinctions saved. Next seek accessible manufacturer-authored manual or official Q&A for full control counts, library and USB/phrase-loop limits; original manual exceeds tool size limit. Commit before another model; then fresh Shopee discovery.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2162,6 +2162,22 @@
         ],
         "conflict": "Workshop38s versusFinnish product40s loop time; retain both",
         "remaining": "Full physical counts, full effects library, USB/loop restrictions, power/import/software and price gaps"
+      },
+      "firmware_software_followup": {
+        "checked_date": "2026-10-17",
+        "sources": [
+          "https://www.boss.info/jp/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/",
+          "https://in.boss.info/support/by_product/gt-10/updates_drivers/2938",
+          "https://in.boss.info/support/by_product/gt-10/updates_drivers/351091"
+        ],
+        "resolved": [
+          "1.02 Smooth/phrase-loop patch-change bugs and meter fixes",
+          "Non-clearing update and backup distinction",
+          "Windows librarian function and listed OS versions",
+          "Driver exclusions and USB2 compatibility requirement"
+        ],
+        "access": "HTML only; no software or firmware downloaded or run",
+        "remaining": "Full editor identity, current OS compatibility and detailed USB/loop architecture remain unverified"
       }
     }
   ],
