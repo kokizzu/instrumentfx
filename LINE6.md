@@ -767,14 +767,14 @@ Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Ex
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | **Built-in pedal+toe switch;external PEDAL2**. Without external, toe togglesEXP1/2;with external,built-inEXP1/externalEXP2. Toe can toggleamp/FX blocks. | [Guide3•7–13][HD5-M] |
-| K/F/B | Separate control counts pending pilotguide. | Unresolved |
-| Display | Diagonal,color,touch/technology unverified. | Unresolved |
+| K/F/B | **13 rotary controls:12 top (PRESETS,four multifunction,Drive,four tone,Volume,Master)+rear Mic Level;12 footswitches (FS1–8,Bank↑/↓,Tap,Looper),plus expression toe**. Four dedicated buttons (Save,View,Move,Enter),four-way navigation pad andPRESETS push;counted separately. Text-derived inventory;panel-image verification pending. | [Pilot RevC,controls1–14,22][HD5-QC] |
+| Display | **LCD**;diagonal,color,touch unverified. | [Pilot control1][HD5-QC] |
 | Dimensions / mass | FAQ: **21.50W×10.29D×2.91H inches**;masspending. Large footprint. | [OfficialFAQ][HD5-F] |
 | Processing / category choices | **Eight FX blocks**,any one caninstead hosthardwareFXloop. **Up to two amp blocks** whenplaced inparallelA/B;singleamp canusePre/Post/A. Mixer fixedafterA/B. DSPlimits constraincombinations. FamilyFAQ lists dynamics8,distortion15,modulation22,filter17,pitch3,EQ5,delay19,reverb12,wah8,volume/pan. Family80/90/100+ wording isnotfirmware-currentHD500 total;revisionaudit pending. Do nottransferHD500X DSPcapacity. | [Guide3•1–4,3•14][HD5-M];[FAQ][HD5-F] |
 | Bass capability | **Yes: Flip Top bass amp (Ampeg B-15NF Portaflex), matching 1×15 cabinet and eight bass-cab microphone models**. Guide explicitly recommends this processing to bass players; no optional pack is needed to establish this documented v2.10 capability. Later paid-pack contents remain unaudited. | [Guide6•4,6•6,6•13,6•15][HD5-M] |
-| Factory / user memory | **8 setlists×64=512 presetlocations**. Initialfactoryfill pending. | [Guide4•1][HD5-M] |
+| Factory / user memory | **8 setlists×64=512 presetlocations**. All locations writable;initialfactoryfill pending. | [Guide4•1][HD5-M] |
 | Synth / acoustic | **Synth yes**:v2.10 filter-model table listsOctisynth,Synth O Matic,Attack Synth,Synth String andGrowler. Dedicated acoustic-simulation algorithm unverified. Variax Acoustic control isnot onboardacousticsimulation proof. | [Guide7•5][HD5-M] |
-| I/O | Rear diagram includesguitar,mic,AUX,CD/MP3,phones,balanced/unbalanced outputs,FXloop,PEDAL2,MIDI,S/PDIFout,USB,Variax,L6LINK,DC. FAQ confirms **XLRmic has no phantom power**;externalphantomsupply/preamp neededforcondenser. Complete sockettypes/counts pending. | [Guide1•4][HD5-M];[FAQ][HD5-F] |
+| I/O | Rear diagram includesguitar,mic,AUX,CD/MP3,phones,balanced/unbalanced outputs,FXloop,PEDAL2,MIDI,S/PDIFout,USB,Variax,L6LINK,DC. FAQ confirms **XLRmic has no phantom power**;externalphantomsupply/preamp neededforcondenser. Pilot specifies **two ¼-inch unbalanced outs,two balanced XLR outs,mono unbalanced ¼-inch AUX,one TRS stereo FXsend andtwo FXreturns L/Mono+R;MIDI In+Out/Thru**. Remaining socket sizes/types pending. | [Guide1•4][HD5-M];[FAQ][HD5-F];[Pilot15–28][HD5-QC] |
 | Power / battery / USB | FAQ **DC-3g9V DC3A,2.5mm,center-negative**;guide rearlabel2.5Aminimum. Supplyrating≠measureddraw. Battery/USBpower unknown. | [FAQ][HD5-F];[Guide1•4][HD5-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,captureimports unverified. | Unresolved |
 | Editor / software | **POD HD500 Edit Windows/Mac editor/librarian**;USB audio driver chapter. Driver routesprocessedrecordsend tocomputer andmixeslocalmonitor withcomputerplayback atanalogouts. **USB audio muted whenL6LINK connectsDT25/DT50**. Guide recommendsdirectUSB2,not hub. FAQ specifiesUSBrecord sends1–2 and44.1/48/88.2/96kHz,16/24bit support. BothMac/Windows driver sections expose **one stereo1–2 MainOut recordsend**,notmultitrackisolatedstems. Playbackchannels/currentOS pending. | [Guide1•5,9•1–2][HD5-M];[FAQ][HD5-F] |
@@ -809,3 +809,9 @@ FAQ global output modes:Studio/Direct,Combo/Stack Front,Combo/Stack PowerAmp. Th
 Guide2•7 and3•6:inputs1/2 feedA/B separately whenPre isempty;anactive monoamp/FX inPre combines inputs. MonoFX laterinthechain collapse upstreamstereo. EQ/wah/volume andselectedothers preservestereo. Stereo hardwareconnections alone donotguarantee stereoprocessing. [Advancedguide][HD5-M]
 
 QuickStartmirrorattempts atmanuals.plus andGrahamEnglishWiki failed;no physicalcount inferred fromunseenimages.
+
+### Pilot handbook access and controls
+
+Manufacturer-authored mirror identifiesoriginalPOD HD500 Pilot’s Handbook,**40-00-0281 RevC**,notHD500X;readabletranscript checked2026-10-17. Powercontrol29 says unplug toturnoff. CD/MP3feedsphones andbothanalogoutputpairs. No filedownload orvisualpanelverification. OfficialRevB remainedinaccessible;revisiondifference retained.
+
+[HD5-QC]: https://manualzilla.com/doc/5804481/hd500-quick-start-guide

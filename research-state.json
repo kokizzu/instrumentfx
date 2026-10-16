@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD500 primary follow-up",
-    "task": "Bass support verified directly in v2.10 guide; now shared ALL-BASS member. Seek readable Pilot Guide for control counts/full socket inventory, then remaining power/display/IR/software fields.",
+    "task": "Pilot RevC text inventory saved. Verify panel images and remaining socket sizes/types; resolve power operation,mass/display,current editor/IR claims and qualified offers. Then resume bass discovery.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee bass discovery; do not add HD500 again."
   },
@@ -3390,7 +3390,8 @@
       "status": "partial",
       "sources": [
         "https://l6c-acdn2.line6.net/data/6/0a06434dc1a55085c5d6532bf/application/pdf/POD%20HD500%20Advanced%20Guide%20v2.10%20%28%20Rev%20A%20%29.pdf",
-        "https://kb.line6.com/pod-hd500x-hd500-pod-hd-pod-hd-pro-faq"
+        "https://kb.line6.com/pod-hd500x-hd500-pod-hd-pod-hd-pro-faq",
+        "https://manualzilla.com/doc/5804481/hd500-quick-start-guide"
       ],
       "offer": {
         "model": "Line 6 POD HD500 identity pending",
@@ -3439,6 +3440,11 @@
         "verified": "Original v2.10 Rev A guide pp.6•4,6•6,6•13,6•15: Flip Top Ampeg B-15NF bass amp, matching 1×15 cab and eight bass-cab microphones; explicit bass-player recommendation",
         "classification": "Shared bass-capable; added to ALL-BASS",
         "limit": "Later optional model packs not audited; not inferred from HD500X"
+      },
+      "pilot_followup": {
+        "identity": "Manufacturer Pilot Handbook 40-00-0281 RevC; original HD500, readable mirrored transcript",
+        "verified": "13 rotary including rear mic trim;12 footswitches plus toe;4 dedicated buttons+4-way pad+PRESETS push;LCD;all preset locations writable;stereoTRS FXsend vs two return sockets;MIDIIn/OutThru",
+        "limits": "Text-derived;panel images not verified;some socket sizes/types unresolved;officialRevB inaccessible"
       }
     }
   ],
