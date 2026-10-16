@@ -325,3 +325,23 @@ Seller names are not independent authentication. The Mandarin warning on a separ
 Next marketplace model: **Hotone Ampero MP-100**, then Ampero II MP-350. Preserve the [ever-owned queue](effects/OWNERSHIP.md) and the deferred BOSS display/IDR work. Four reviewed records do not mean all Shopee products or all required fields are complete.
 
 Original finding references: [Source1](effects/findings/2026-10-14-mooer-ge100-pro.md) · [Source2](effects/findings/2026-10-14-mooer-ge100-pro-li.md) · [Source3](effects/findings/2026-10-14-mooer-ge200-pro.md) · [Source4](effects/findings/2026-10-14-mooer-ge200-pro-li.md).
+
+### fifth Shopee expansion: historical shared qualifications
+
+Preserved shared source integrated2026-10-15 from2026-10-14 observations. Its86-record checkpoint and continuation queue are historical;current counts/cursor remain in research-state.json. Original and Li versions,HX Stomp/XL and distinct Ampero hardware remain separate. No new firmware/stock verification is claimed.
+
+**Integrated 2026-10-15; underlying observations dated 2026-10-14.** These six complete first-pass findings were committed individually before an interrupted response. Integration is not a new verification of every specification, current firmware, price or stock. All six remain **partial**. The previous 80 active records plus these six make **86 active records**, before subsequent additions. Six scope exclusions remain archived and are not counted.
+
+The linked model records carry all required field groups, full source references, category-count details, firmware restrictions, connection lists and unresolved evidence. Unknown is not No. These summaries do not replace those qualifications.
+
+K/F/B = rotary controls / main footswitches / separate buttons. Encoder pushes count once; toe/power switches are separate. Dimensions are unit dimensions, not installed cable clearance.
+
+All six exceed the repository's medium footprint in at least one dimension and therefore classify as **large**, even where a manufacturer markets them as compact. GE1000 Li, GE150 Pro Li, non-XL HX Stomp and the other Ampero models are separate hardware records.
+
+Effect-library totals, available module categories and simultaneous processing limits are different quantities. Firmware versions and primary-source disagreements remain in each linked finding, not silently resolved here.
+
+These are **2026-10-14 listed/indexed asking prices**, not current checkout verification. Used offers were not established for these six. Exact seller/item links, condition gaps, cached delivery dates and accessories are in the model findings. A listed price does not authenticate a seller or establish a completed sale.
+
+**Continuation:** remaining GE150 Plus/Plus Li/Max/Max Li variants, GE1000 Li, and missing ever-owned models. Preserve the original display/IDR queue; the recovery does not complete those outstanding fields. New model findings must be committed immediately and their next step recorded.
+
+Original finding references: [Source1](effects/findings/2026-10-14-hotone-ampero-mp100.md) · [Source2](effects/findings/2026-10-14-hotone-ampero-ii-mp350.md) · [Source3](effects/findings/2026-10-14-mooer-ge1000.md) · [Source4](effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md) · [Source5](effects/findings/2026-10-14-line6-hx-stomp-xl.md) · [Source6](effects/findings/2026-10-14-mooer-ge150-pro.md).

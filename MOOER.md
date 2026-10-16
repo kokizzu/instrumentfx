@@ -950,6 +950,16 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-mooer-ge150-pro.md](effects/findings/2026-10-14-mooer-ge150-pro.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
 
+### Preserved fifth Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Built-in / external expression** (Hardware and displays): Yes + toe / no dedicated EXP socket in checked inventory
+- **Published dimensions, mm; weight** (Hardware and displays): L310×W153×H55; 1.1 kg
+- **Main display** (Hardware and displays): 2.8-inch color LCD; explicit touch specification unverified
+
+[Original shared source](effects/shopee-multifx-5.md),retained pending complete navigation/provenance audits.
+
 ## GE150 Plus
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -1304,6 +1314,15 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Original model commit** (IDR observations and original commits): `671fc47896c8c6544598926e789ad4a0be19c1eb`
 
 Sources: [effects/findings/2026-10-14-mooer-ge1000.md](effects/findings/2026-10-14-mooer-ge1000.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
+
+### Preserved fifth Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Built-in / external expression** (Hardware and displays): Yes + toe / no dedicated EXP socket in checked inventory
+- **Published dimensions, mm; weight** (Hardware and displays): L337×W170×H57; 1.9 kg
+
+[Original shared source](effects/shopee-multifx-5.md),retained pending complete navigation/provenance audits.
 
 ## GE1000 Li
 
