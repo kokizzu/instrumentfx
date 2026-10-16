@@ -124,6 +124,8 @@ Outstanding: exact preset/storage ceiling,pixel resolution,explicit battery/USB-
 | USB audio | **6-in/4-out**,24-bit44.1/48/96 kHz; recording/reamping; Windows driver,macOS driverless | [Core FAQ][core-faq] |
 | Live features | Scenes,trails; looper **50 layers,5 minutes/layer,20 minutes total per loop**; drum machine | [Core FAQ][core-faq], [Core product][core-product] |
 
+| Required field | Model-specific qualification |
+|---|---|
 | Mic routing / live | [Core FAQ][core-faq],rechecked2026-10-17: guitar-centric Straight/Middle Split/Immediate Split paths do not permit the normal vocal-FX chain. **Mic Dry Out** instead has gate,compression,high-pass and simpleEQ adjustments; retaining14 guitar blocks is not14 additional vocal blocks. |
 | Capture loading limitations | Current [Core FAQ][core-faq] excludes time-based flanger,chorus and delay cloning; certain gated fuzzes cannot be cloned,and some high-impedance vintage fuzzes need a reamp box. These are onboard cloner limits,not a statement that Core cannot play delay effects or native NAM. |
 | MIDI control / data | FAQ documents Program Change,Control Change andClock via DIN andUSB-A,including block/switch control and tempo synchronization. USB-B is not inferred to expose every USB-A MIDI function. [Core FAQ][core-faq] |
