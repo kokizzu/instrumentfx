@@ -908,7 +908,8 @@
         "https://zoomcorp.com/documents/129/E_B1FOUR.pdf",
         "https://www.thomannmusic.com/zoom_b6.htm"
       ],
-      "status": "Complete legacy row consolidation,explicit shared-reference expansion and indexed IDR ask;technical fields partial"
+      "status": "Complete legacy row consolidation,explicit shared-reference expansion and indexed IDR ask;technical fields partial",
+      "commit": "5825235"
     }
   ],
   "discovery_leads": [
@@ -1339,7 +1340,8 @@
       "make research-verify",
       "make consolidation-verify",
       "B1/B1X exact variant masses,expression,USB power,full source-row/context/URL preservation and separated USD/IDR cells inspected"
-    ]
+    ],
+    "distinct_capability_labels": "IR and NAM remain separate even when both have the identical Not established value; actual B1X comparison checked."
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
   "response_handoff": "At the end of a research session provide the user a copyable agent continuation prompt with this exact cursor, no-workflow boundary, root-document layout, per-model immediate commits and unresolved consolidation. Never promise unattended background continuation.",

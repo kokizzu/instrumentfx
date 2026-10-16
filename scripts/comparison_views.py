@@ -399,9 +399,10 @@ def cell(record, group):
         if group=='io' and re.search(r'display|screen|diagonal',field,re.I):
             continue
         value=clean(fact['value'])
-        if value in seen or value in ('?','**?**',''):
+        identity=(field.lower(),value)
+        if identity in seen or value in ('?','**?**',''):
             continue
-        seen.add(value)
+        seen.add(identity)
         if group=='expression' and field=='External expression':
             if 'No built-in' in fact['context']:
                 value='Built-in: no. External: '+value
