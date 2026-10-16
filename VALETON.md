@@ -850,7 +850,7 @@ Distinct acoustic-guitar multi-effects strip, separate from full-size Dapper Aco
 | K/F/B | **11 rotary controls**, text-derived: Comp 3, Preamp 6, Reverb 1, Phones 1. Footswitch/button totals require panel inspection. | [Manual pp.1–2][DA-M] |
 | Display | Seven bicolor note LEDs, three pitch LEDs; screen diagonal and touch unverified. | [Manual p.2][DA-M] |
 | Dimensions / mass | **197 × 65 × 42 mm; 435 g**. Product labels WDH, manual DWH; axis conflict retained. Compact strip. | [Product][DA-P]; [manual][DA-M] |
-| Processing / category choices | Separate **Compressor, Preamp and Reverb** modules, plus tuner. Comp volume/amount/attack; Preamp volume/three-band EQ/notch cut-gain/notch frequency; one-knob hall-style reverb. Exact simultaneous count awaits diagram verification. | [Manual pp.1–2][DA-M]; [product][DA-P] |
+| Processing / category choices | Separate **Compressor, Preamp and Reverb** modules, plus tuner. Comp volume/amount/attack; Preamp volume/three-band EQ/notch cut-gain/notch frequency; one-knob hall-style reverb. Manufacturer Chinese page explicitly calls the reverb **digital**; do not classify the whole strip as all-analog. Exact simultaneous count awaits diagram verification. | [Manual pp.1–2][DA-M]; [product][DA-P]; [Chinese product][DA-C] |
 | Factory / user memory | Factory, user and total storage unverified. | Unresolved |
 | Synth / acoustic | Processes acoustic instruments; this is not proof of electric-to-acoustic simulation. Dedicated synth/acoustic-simulation algorithms unverified. | [Product][DA-P] |
 | I/O | INPUT, OUTPUT, balanced XLR and PHONES documented; **all outputs usable together**. Complete socket types/sizes and additional-port absence pending. | [Manual pp.1–2][DA-M] |
@@ -875,3 +875,9 @@ Official English V01_170213 manual is readable as two-page web text. Older /down
 [DA-M]: https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf
 [DA-P]: https://www.valeton.net/product/dapper-acoustic-mini/
 [DA-O]: https://shopee.co.id/Valeton-Dapper-Mini-Acoustic-Multi-Effect-Analog-Strip-Efek-Preamp-Reverb-Compressor-Gitar-Akustik-i.1051758555.23456048014
+
+### Regional manufacturer follow-up
+
+Chinese product page confirms digital hall reverb,140mA,435g and197mm length×65mm width×42mm height. It does not resolve the English width/depth labels or exact model code. Linked CN V01_180321 manual returned cache miss; no inaccessible panel details inferred. Its headphone heading omits the English cab-sim claim, so cab-simulation qualification remains unresolved.
+
+[DA-C]: https://zh.valeton.net/product/dapper-acoustic-mini/

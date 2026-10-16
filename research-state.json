@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper Acoustic Mini primary follow-up",
-    "task": "Initial official manual/product record saved. Seek own complete panel/IO and code evidence; retain remaining gaps. Then search fresh Shopee by brand/series.",
+    "model": "Fresh Shopee hardware discovery",
+    "task": "Acoustic Mini regional follow-up saved; unresolved panel/code/IO retained. Search remaining Dapper Indie/Dark or other under-covered brand/series for exact hardware leads.",
     "next_models": [],
-    "after_queue": "Continue market discovery;not exhaustive or fully verified."
+    "after_queue": "Continue model-specific verification and fresh market discovery."
   },
   "new_findings": [
     {
@@ -3652,7 +3652,8 @@
       "status": "partial",
       "sources": [
         "https://www.valeton.net/product/dapper-acoustic-mini/",
-        "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf"
+        "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf",
+        "https://zh.valeton.net/product/dapper-acoustic-mini/"
       ],
       "offers": [
         {
@@ -3685,7 +3686,13 @@
         "Memory/display/IRNAM/editor",
         "BatteryUSB/looperdrums",
         "Qualifiedprices"
-      ]
+      ],
+      "regional_followup": {
+        "verified": "Chinese manufacturer product explicitly digitalreverb;confirms140mA435g197length65width42height",
+        "remaining": "Code/fullIO/panel stillunresolved;Chineseheadphoneheadingnotcab-simproof",
+        "failed_source": "https://zh.valeton.net/download/166/dapper-acoustic-mini/17348/dapper-acoustic-mini_manual_cn_v01_180321.pdf",
+        "next": "FreshShopeediscovery;do notloopinaccessiblemanual"
+      }
     }
   ],
   "consolidation_and_price_findings": [
@@ -39546,7 +39553,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Acoustic Mini primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee hardware discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
