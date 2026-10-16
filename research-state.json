@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "M-VAVE ANN Blackbox complete-body audit",
-    "task": "TANK-PRO whole original hash-verified, AM4DATA route and A2 app announcement separately qualified; native/import architecture gaps remain. Next inspect ANN Blackbox complete original/root and exact firmware evidence, commit before another model. Full shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
+    "model": "M-VAVE MINI-X complete-body audit",
+    "task": "ANN Blackbox complete original hash-verified; v20 index and software-label differences qualified, older hardware/import limits unresolved. Next read complete MINI-X original/root and exact primary evidence, commit before another model. Full shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10099,6 +10099,26 @@
       },
       "retained_comparison_facts": [],
       "scope": "Complete original preserved including source evidence columns, DSP and power limits, mass conflict, dates and prices. Added model-specific A2 app evidence without asserting native .nam; firmware release-note access failure retained."
+    },
+    {
+      "models": [
+        "M-VAVE ANN Blackbox"
+      ],
+      "model_name": "ANN Blackbox",
+      "destination": "M-VAVE.md#ann-blackbox",
+      "source": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MVAVE-ANNBLACKBOX",
+      "source_sha256": "2587482f195b612239ae8875eee50a68e98a2ae555a4f59f7c89f95bbf2f368a",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../README.md)": "(effects/README.md)",
+        "(../shopee-indonesia.md)": "(effects/shopee-indonesia.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Complete original retained including page-specific source column and rejected older-hardware conflation. Added v20 index and exact mobile/editor-label qualification; unavailable release notes do not establish native NAM or hardware revisions."
     }
   ],
   "discovery_leads": [
@@ -10659,11 +10679,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "M-VAVE::ANN Blackbox",
-          "source": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
-          "dest": "M-VAVE.md#ann-blackbox"
-        },
-        {
           "model": "M-VAVE::MINI-X",
           "source": "effects/findings/2026-10-15-mvave-mini-x.md",
           "dest": "M-VAVE.md#mini-x"
@@ -10788,7 +10803,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE ANN Blackbox complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE MINI-X complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

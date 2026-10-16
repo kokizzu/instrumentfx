@@ -669,3 +669,7 @@ research-commit-mk300-preservation:
 .PHONY: research-commit-tankpro-preservation
 research-commit-tankpro-preservation:
 	python3 scripts/research_tools.py commit-tankpro-preservation
+
+.PHONY: research-commit-annblackbox-preservation
+research-commit-annblackbox-preservation:
+	python3 scripts/research_tools.py commit-annblackbox-preservation
