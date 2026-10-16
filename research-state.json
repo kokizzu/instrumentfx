@@ -28,14 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Tech 21 Fly Rig 5 v2 primary follow-up",
-    "task": "Initial profile saved fromOM3rev12/20. Verifycontrols/panel andremaining fields;thencontinue SonicakeBlackHammer beforeRK5identityaudit.",
+    "model": "Sonicake Black Hammer",
+    "task": "FlyRig5v2 control follow-up saved;remaining physical/software/price gaps retained. Research SonicakeBlackHammer using its own manufacturer documentation and saved exactShopeelead.",
     "next_models": [
-      "Sonicake Black Hammer",
       "Tech 21 RK5 exact revision pending",
       "Valeton Dapper Dark Mini"
     ],
-    "after_queue": "ResolveDapperIndieexactitem;continueShopeediscovery."
+    "after_queue": "ResolveDapperIndieexactitem;freshShopeediscovery."
   },
   "new_findings": [
     {
@@ -3791,7 +3790,11 @@
         "IRNAM/editor/batteryUSB",
         "Looperdrumsscenes",
         "Condition-specificprices"
-      ]
+      ],
+      "control_followup": {
+        "verified": "13rotarysumfrommanualfunctions;BlondeEQ±12dB80Hz500Hz3.3kHz;cabindependentofBlonde;Timeknobpitchshiftvstappitchpreserving;DelayLevelwetmixonly",
+        "limits": "No visualswitch/buttoncountorportabsencecertification"
+      }
     }
   ],
   "consolidation_and_price_findings": [
@@ -39730,7 +39733,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Tech 21 Fly Rig 5 v2 primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Black Hammer."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

@@ -317,7 +317,7 @@ def main():
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): document PERFORM-V controls and microphone remote modes'
         if mode == 'commit-flyrig5v2':
-            message = 'research(tech21): add Fly Rig 5 v2 with model-specific routing limits'
+            message = 'research(tech21): verify Fly Rig v2 rotary controls and delay behavior'
         if mode == 'commit-dapper-dark':
             message = 'research(valeton): qualify Dapper Dark indexed controls and loop routing'
         if mode == 'commit-dapper-acoustic-mini':
