@@ -1652,7 +1652,7 @@ def audit_floorboard_union():
 
 
 def audit_compact_links(kind='compact'):
-    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota','cube','owned','market1','market2','market3','market4','market5')
+    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota','cube','owned','market1','market2','market3','market4','market5','market6')
     """Inventory explicit Markdown links and literal references before source retirement."""
     import urllib.parse
     research_tools.identity()
@@ -1663,6 +1663,8 @@ def audit_compact_links(kind='compact'):
         source_key = 'effects/shopee-multifx-4.md'
     if kind == 'market5':
         source_key = 'effects/shopee-multifx-5.md'
+    if kind == 'market6':
+        source_key = 'effects/shopee-multifx-6.md'
     if kind == 'market2':
         source_key = 'effects/shopee-multifx-2.md'
     if kind == 'market1':
@@ -1908,10 +1910,10 @@ def audit_audota_union(verify=True):
 
 
 def audit_shared_variant_union(verify=True, kind='cube'):
-    assert kind in ('cube','owned','market1','market2','market3','market4','market5')
+    assert kind in ('cube','owned','market1','market2','market3','market4','market5','market6')
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
-    path = {'cube':'effects/cube-baby.md','owned':'effects/owned-multifx.md','market1':'effects/shopee-multifx.md','market2':'effects/shopee-multifx-2.md','market3':'effects/shopee-multifx-3.md','market4':'effects/shopee-multifx-4.md','market5':'effects/shopee-multifx-5.md'}[kind]
+    path = {'cube':'effects/cube-baby.md','owned':'effects/owned-multifx.md','market1':'effects/shopee-multifx.md','market2':'effects/shopee-multifx-2.md','market3':'effects/shopee-multifx-3.md','market4':'effects/shopee-multifx-4.md','market5':'effects/shopee-multifx-5.md','market6':'effects/shopee-multifx-6.md'}[kind]
     source = (ROOT/path).read_text()
     assert digest(source) == state['migration']['shared_'+kind+'_audit']['source_sha256']
     aliases = {'CUBE BABY electric':{'electriccubebaby','electric'},'CUBE BABY AC':{'cubebabyac','ac'},'CUBE BABY BASS':{'cubebabybass','bass'}}
@@ -1934,16 +1936,24 @@ def audit_shared_variant_union(verify=True, kind='cube'):
     if kind == 'market5':
         aliases = {"Ampero MP-100":{"hotoneamperomp100","mp100"},"Ampero II MP-350":{"hotoneamperoiimp350","mp350"},"Ampero II Stage MP-380":{"hotoneamperoiistagemp380","mp380"},"GE1000":{"mooerge1000nonli","ge1000"},"GE150 Pro":{"mooerge150prononli","ge150pro"},"HX Stomp XL":{"line6hxstompxl","hxstompxl"}}
         files = {"Ampero MP-100":"HOTONE.md","Ampero II MP-350":"HOTONE.md","Ampero II Stage MP-380":"HOTONE.md","GE1000":"MOOER.md","GE150 Pro":"MOOER.md","HX Stomp XL":"LINE6.md"}
+    if kind == 'market6':
+        aliases = {"GE150 Plus":{"ge150plusnonli","ge150plus","plus"},"GE150 Plus Li":{"ge150plusli","plusli"},"GE150 Max":{"ge150maxnonli","ge150max","max"},"GE150 Max Li":{"ge150maxli","maxli"},"GE1000 Li":{"ge1000li"}}
+        files = {"GE150 Plus":"MOOER.md","GE150 Plus Li":"MOOER.md","GE150 Max":"MOOER.md","GE150 Max Li":"MOOER.md","GE1000 Li":"MOOER.md"}
     destinations = {name:(ROOT/name).read_text() for name in set(files.values())}
     union = '\n'.join(destinations.values())+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
     records = {model:[] for model in aliases}
+    shared_tables = []
     for headers,rows,context in comparison_views.tables(source):
+        if kind == 'market6' and context == 'GE150 Plus and Max manuals: category counts':
+            assert len(headers) == 10 and len(rows) == 1 and rows[0] == ['12','28','55','26','3','4','25','9','8','**170**']
+            shared_tables.append('| FX/wah/dynamics |'+source.split('| FX/wah/dynamics |',1)[1].split('\n\n',1)[0])
+            continue
         for row in rows:
             matched = [m for m,names in aliases.items() if comparison_views.norm(row[0]) in names]
             assert 1 <= len(matched) <= (2 if kind == 'market1' else 1), 'Unmapped '+kind+' row: '+str(row)
             for model in matched:
                 records[model] += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
-    expected = {model:({'market1':18,'market2':17,'market3':20,'market4':17,'market5':11}.get(kind,14)) for model in aliases}
+    expected = {model:({'market1':18,'market2':17,'market3':20,'market4':17,'market5':11,'market6':15}.get(kind,14)) for model in aliases}
     if kind == 'owned':
         expected['GEM BOX original'] = 15
     assert {model:len(facts) for model,facts in records.items()} == expected
@@ -1956,10 +1966,12 @@ def audit_shared_variant_union(verify=True, kind='cube'):
     normalized = [comparison_views.relink(p,path,refs) for p in groups]
     targets = [re.search(r'\]\(([^)]+)\)',comparison_views.relink('[source]('+target+')',path,{}))[1] for target in refs.values()]
     urls = sorted(set(re.findall(r'https?://[^\s)]+',source)))
-    report = dict(source=path,source_sha256=digest(source),records=reports,model_fields=sum(expected.values()),paragraph_groups=len(groups),normalized_missing_groups=[p for p in normalized if p not in union],reference_targets=targets,missing_reference_targets=[t for t in targets if t not in union],external_urls=urls,missing_external_urls=[u for u in urls if u not in union],retirement_authorized=False)
+    assert len(shared_tables) == (1 if kind == 'market6' else 0)
+    report = dict(shared_tables=shared_tables,missing_shared_tables=[table for table in shared_tables if table not in union],source=path,source_sha256=digest(source),records=reports,model_fields=sum(expected.values()),paragraph_groups=len(groups),normalized_missing_groups=[p for p in normalized if p not in union],reference_targets=targets,missing_reference_targets=[t for t in targets if t not in union],external_urls=urls,missing_external_urls=[u for u in urls if u not in union],retirement_authorized=False)
     Path('/tmp/instrumentfx-'+kind+'-union-plan.json').write_text(json.dumps(report,indent=2)+'\n')
     print(kind+' shared union:'+str(len(records))+'models/'+str(sum(expected.values()))+'fields;missingfields='+str(sum(len(r['missing']) for r in reports))+';prosegroups='+str(len(groups))+';missinggroups='+str(len(report['normalized_missing_groups']))+';missingrefs='+str(len(report['missing_reference_targets']))+';missingURLs='+str(len(report['missing_external_urls'])))
     if verify:
+        assert not report['missing_shared_tables'], 'Shared appendix table missing'
         assert not any(r['missing'] for r in reports)
         assert not report['normalized_missing_groups'] and not report['missing_reference_targets'] and not report['missing_external_urls']
         manifests = [e for e in state['consolidation_and_price_findings'] if e.get('source') == path and e.get('verification_kind') == 'complete-model-rows-v1']
@@ -1967,6 +1979,12 @@ def audit_shared_variant_union(verify=True, kind='cube'):
         verify_preserved(state)
 
 if __name__ == '__main__':
+    if sys.argv[1:] in (['plan-market6-union'], ['audit-market6-union']):
+        audit_shared_variant_union(sys.argv[1] == 'audit-market6-union', 'market6')
+        raise SystemExit(0)
+    if sys.argv[1:] == ['audit-market6-links']:
+        audit_compact_links('market6')
+        raise SystemExit(0)
     if sys.argv[1:] in (['plan-market5-union'], ['audit-market5-union']):
         audit_shared_variant_union(sys.argv[1] == 'audit-market5-union', 'market5')
         raise SystemExit(0)

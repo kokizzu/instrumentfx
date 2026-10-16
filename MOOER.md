@@ -1036,6 +1036,19 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-15-mooer-ge150-plus.md](effects/findings/2026-10-15-mooer-ge150-plus.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
 
+### Preserved sixth Shopee expansion shared comparison
+
+Historical2026-10-15 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **K/F/B** (Hardware, expression and screen): 3/3/6
+- **Published dimensions and weight** (Hardware, expression and screen): Manual L256×W145×H54 mm,860g; regional page255.7×142.4×34.4 mm,926g — **conflict**
+- **Screen** (Hardware, expression and screen): **2.8-inch color LCD**, touch unverified
+- **Size classification** (Hardware, expression and screen): Not compact; W/D mapping and source discrepancy retained
+- **Initial findings commit** (Individual commits): `4edfd824196dc1ba049de16a31db6eb720e638a1`
+- **Follow-up correction** (Individual commits): `de6c0daae4b79f22a3dea837ae9c24e9def11f81`,screen color
+
+[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
+
 ## GE150 Plus Li
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -1099,6 +1112,15 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-15-mooer-ge150-plus-li.md](effects/findings/2026-10-15-mooer-ge150-plus-li.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
 
+### Preserved sixth Shopee expansion shared comparison
+
+Historical2026-10-15 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Initial findings commit** (Individual commits): `a8bc38fa84b877defe8be8c5a252510d4bed2eb1`
+- **Follow-up correction** (Individual commits): `d33231eb018b7ba8277a794bc1f069c9128b0363`,screen color
+
+[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
+
 ## GE150 Max
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -1159,6 +1181,18 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Unresolved marketplace evidence** (Separate IDR evidence): Related **Rp3.499.000,15-day preorder** says Pro Max; exact variant/condition unresolved and older delivery text retained
 
 Sources: [effects/findings/2026-10-15-mooer-ge150-max.md](effects/findings/2026-10-15-mooer-ge150-max.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+
+### Preserved sixth Shopee expansion shared comparison
+
+Historical2026-10-15 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **K/F/B** (Hardware, expression and screen): 3/8/6
+- **Published dimensions and weight** (Hardware, expression and screen): Manual L326×W204×H63 mm versus regional326.5×204.2×55.7;1.63kg
+- **Screen** (Hardware, expression and screen): **3.5-inch color LCD**, touch unverified
+- **Initial findings commit** (Individual commits): `305fe3aa99fe2abc2fba91364040f019eeef74ed`
+- **Follow-up correction** (Individual commits): `90961e0a6c48c6ee95cc439c996a38559417d6d1`,shared-manual category/memory/port/dimension evidence
+
+[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
 
 ## GE150 Max Li
 
@@ -1232,6 +1266,15 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Unresolved marketplace evidence** (Separate IDR evidence): Collection-index-only **Rp3.500.000** without exact item ID; not promoted to a verified current offer
 
 Sources: [effects/findings/2026-10-15-mooer-ge150-max-li.md](effects/findings/2026-10-15-mooer-ge150-max-li.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+
+### Preserved sixth Shopee expansion shared comparison
+
+Historical2026-10-15 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Initial findings commit** (Individual commits): `4c517769bf6ebe3343491669c0b8dbfa2876639d`
+- **Follow-up correction** (Individual commits): All remaining source conflicts retained
+
+[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
 
 ## GE1000
 
@@ -1388,6 +1431,15 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Unresolved marketplace evidence** (Separate IDR evidence): Exact Indonesian Shopee item not established in this pass; Thai results excluded. Nafiri same-price page has contradictory stock markers
 
 Sources: [effects/findings/2026-10-15-mooer-ge1000-li.md](effects/findings/2026-10-15-mooer-ge1000-li.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+
+### Preserved sixth Shopee expansion shared comparison
+
+Historical2026-10-15 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Initial findings commit** (Individual commits): `3a4f00547cf493fc3f11936067e4e87990873547`
+- **Follow-up correction** (Individual commits): Weight and port-summary disagreements retained
+
+[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
 
 ## PE100
 

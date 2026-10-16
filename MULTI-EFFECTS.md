@@ -345,3 +345,29 @@ These are **2026-10-14 listed/indexed asking prices**, not current checkout veri
 **Continuation:** remaining GE150 Plus/Plus Li/Max/Max Li variants, GE1000 Li, and missing ever-owned models. Preserve the original display/IDR queue; the recovery does not complete those outstanding fields. New model findings must be committed immediately and their next step recorded.
 
 Original finding references: [Source1](effects/findings/2026-10-14-hotone-ampero-mp100.md) · [Source2](effects/findings/2026-10-14-hotone-ampero-ii-mp350.md) · [Source3](effects/findings/2026-10-14-mooer-ge1000.md) · [Source4](effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md) · [Source5](effects/findings/2026-10-14-line6-hx-stomp-xl.md) · [Source6](effects/findings/2026-10-14-mooer-ge150-pro.md).
+
+### sixth Shopee expansion: historical shared qualifications
+
+Preserved2026-10-15 shared source. Plus/Max and Li/non-Li hardware remain distinct;manual/regional dimensions and weight conflicts remain unresolved. Shared170-choice appendix counts include amps/cabs and exclude empty import slots. Historical prices and queues are not current stock or new technical verification.
+
+[All comparisons](effects/README.md) · [Shopee evidence](effects/shopee-indonesia.md) · [Scope](effects/SCOPE.md) · [Resume](effects/RESUME.md)
+
+**2026-10-15: five additional partial technical records.** Each was committed individually. Shared manufacturer manuals are used only for models they explicitly cover; non-Li and Li power specifications remain separate. The linked findings provide the original manuals, complete evidence, inspection limitations and seller links. This page is not proof that every model has a currently purchasable Shopee offer.
+
+K/F/B = rotary controls / footswitches / separate buttons. Encoder presses count once; rear power, toe switches and ground toggles are additional. All five have **built-in expression with a toe switch**, and no dedicated external-expression socket in the complete checked connector inventory. MIDI/wireless controllers, where supported, are different from an analog EXP input.
+
+Plus screen color is established from the original manual's green selection backgrounds and red onscreen progress bar, not inferred from colored status LEDs. A knob-controlled interface does not by itself establish a non-touch display. Cable clearance and pedal-up height are additional.
+
+Each of the two shared family manuals was checked. Empty GNR/GIR import locations are not factory algorithms. No dedicated synth or electric-to-acoustic simulator was identified in these appendices; three acoustic amps and an acoustic cabinet are different functions. For GE1000 Li, current specific synth/acoustic algorithms remain unverified. Do not convert a manual-revision inventory into a claim about every installed firmware.
+
+GE150 complete panels have no mic/phantom input, external FX loop, external EXP or physical MIDI socket. GE1000 Li has no mic/phantom or analog aux input in its complete rear inventory. XLR **outputs** do not establish a mic preamp. Supply ratings are not measured current draws. Regional minimum OS/firmware differences and USB bus-power unknowns are retained in the findings.
+
+No missing price is replaced with a guessed used discount or exchange rate. Retailer asks, collection-only discoveries, preorders and unselected mixed variants are not combined into a current used-to-new market range. No seller authentication, checkout stock or completed-sale claim is made.
+
+Original finding references: [Source1](effects/findings/2026-10-15-mooer-ge150-plus.md) · [Source2](effects/findings/2026-10-15-mooer-ge150-plus-li.md) · [Source3](effects/findings/2026-10-15-mooer-ge150-max.md) · [Source4](effects/findings/2026-10-15-mooer-ge150-max-li.md) · [Source5](effects/findings/2026-10-15-mooer-ge1000-li.md).
+
+#### Preserved Plus/Max shared category-count appendix
+
+| FX/wah/dynamics | Drive | Amp | Cabinet | Noise suppression | EQ | Modulation | Delay | Reverb | Total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|12|28|55|26|3|4|25|9|8|**170**|
