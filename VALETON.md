@@ -882,6 +882,14 @@ Chinese product page confirms digital hall reverb,140mA,435g and197mm length×65
 
 [DA-C]: https://zh.valeton.net/product/dapper-acoustic-mini/
 
+### Additional exact seller observations — checked 2026-10-17
+
+- **melodiasby, Surabaya**, shop 158144224 / item 24090371124: **Rp1,716,750**; one month-old search cache; marked **Habis**; condition, bundle, warranty and voucher unknown; direct item cache miss. [Exact item](https://shopee.co.id/Valeton-Dapper-Acoustic-Mini-%28MES-4%29-Effect-i.158144224.24090371124).
+- **Metz Art Music, Depok**, shop 25192604 / item 28456272834: **Rp1,100,000**; two months-old search cache; stock unknown; condition, bundle, warranty and voucher unknown; direct item cache miss. [Exact item](https://shopee.co.id/Valeton-Dapper-Acoustic-Mini-Effect-Strip-i.25192604.28456272834).
+- **SCI Music Center, Tangerang Selatan**, shop 304940515 / item 27202911146: **Rp1,880,000**; two months-old search cache; stock unknown; condition, bundle, warranty and voucher unknown; direct item cache miss. [Exact item](https://shopee.co.id/Valeton-Dapper-Acoustic-Mini-Effects-Strip-i.304940515.27202911146).
+
+All three direct item requests returned cache misses. Condition, working state, physical revision, adapter/bundle, warranty and voucher eligibility remain unverified. These are separate asking-price observations, not a confirmed new/used range or live-stock check. The melodiasby title includes MES-4; seller wording alone does not resolve the manufacturer-code gap. Historical shipping dates and late-delivery compensation do not establish current availability or an item discount.
+
 ## Dapper Dark VES-3
 
 Full-size guitar multi-effects strip, separate from Dark Mini. Manufacturer marks it **discontinued**. Checked 2026-10-17; partial. VES-3 is seller code pending manual corroboration.

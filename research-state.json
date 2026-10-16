@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery / remaining technical gaps",
-    "task": "RK5 v2 exact item unresolved after Melodia storefront attempt. Do not repeat identical queries; use a new source or discover another eligible exact hardware offer.",
+    "model": "Fresh Shopee discovery after Acoustic Mini offers",
+    "task": "Find another eligible exact hardware offer or resolve technical gaps; Acoustic Mini offers saved without changing model count.",
     "next_models": [],
-    "after_queue": "Preserve revision separation and finish partial model fields using manufacturer evidence."
+    "after_queue": "Continue brand/series searches; do not treat cached asking prices as live stock."
   },
   "new_findings": [
     {
@@ -3918,6 +3918,65 @@
       "status": "partial",
       "finding": "Rewrote the canonical section and projected comparison fields in readable prose without filling unsupported controls, port or capability gaps. Corrected stale discovery status so the already recorded model is not queued as new.",
       "source": "https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf"
+    },
+    {
+      "model": "Valeton Dapper Acoustic Mini",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Three additional exact Shopee observations retained with seller, region, cached stock and access limits; no condition inferred and no live/new/used range claimed.",
+      "offers": [
+        {
+          "seller": "melodiasby",
+          "region": "Surabaya",
+          "shop": "158144224",
+          "item": "24090371124",
+          "idr": 1716750,
+          "stock": "Habis in month-old search cache",
+          "url": "https://shopee.co.id/Valeton-Dapper-Acoustic-Mini-%28MES-4%29-Effect-i.158144224.24090371124",
+          "cache_age": "one month",
+          "checked_date": "2026-10-17",
+          "condition": "unknown",
+          "bundle": "unknown",
+          "voucher": "unknown",
+          "warranty": "unknown",
+          "access": "Search-index text readable; direct item cache miss",
+          "qualified_used_new": false
+        },
+        {
+          "seller": "Metz Art Music",
+          "region": "Depok",
+          "shop": "25192604",
+          "item": "28456272834",
+          "idr": 1100000,
+          "stock": "unknown",
+          "url": "https://shopee.co.id/Valeton-Dapper-Acoustic-Mini-Effect-Strip-i.25192604.28456272834",
+          "cache_age": "two months",
+          "checked_date": "2026-10-17",
+          "condition": "unknown",
+          "bundle": "unknown",
+          "voucher": "unknown",
+          "warranty": "unknown",
+          "access": "Search-index text readable; direct item cache miss",
+          "qualified_used_new": false
+        },
+        {
+          "seller": "SCI Music Center",
+          "region": "Tangerang Selatan",
+          "shop": "304940515",
+          "item": "27202911146",
+          "idr": 1880000,
+          "stock": "unknown",
+          "url": "https://shopee.co.id/Valeton-Dapper-Acoustic-Mini-Effects-Strip-i.304940515.27202911146",
+          "cache_age": "two months",
+          "checked_date": "2026-10-17",
+          "condition": "unknown",
+          "bundle": "unknown",
+          "voucher": "unknown",
+          "warranty": "unknown",
+          "access": "Search-index text readable; direct item cache miss",
+          "qualified_used_new": false
+        }
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -39880,7 +39939,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / remaining technical gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after Acoustic Mini offers."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

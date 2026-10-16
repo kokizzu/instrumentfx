@@ -329,7 +329,7 @@ def main():
         if mode == 'commit-dapper-dark':
             message = 'research(valeton): qualify Dapper Dark indexed controls and loop routing'
         if mode == 'commit-dapper-acoustic-mini':
-            message = 'research(valeton): qualify Acoustic Mini digital reverb and regional evidence'
+            message = 'research(valeton): retain three exact Acoustic Mini offers with cached-stock limits'
         if mode == 'commit-dapper-mini':
             message = 'research(valeton): verify MES-1 controls tap mode and cab routing'
         if mode == 'commit-dapper-bass-mini':
