@@ -23,6 +23,7 @@ MODELS = {
     'b6': ('B6', 'effects/bass.md'),
     'v3': ('V3', 'effects/vocal.md'),
     'v6-sp': ('V6-SP', 'effects/vocal.md'),
+    'gt-1b': ('GT-1B', 'effects/bass.md'),
 }
 
 
@@ -44,11 +45,11 @@ def verify_preserved(state):
         if entry.get('verification_kind') == 'complete-model-rows-v1':
             source = (ROOT / entry['source']).read_text()
             assert digest(source) == entry['source_sha256'], entry['source']
-            model = entry['models'][0].removeprefix('Zoom ')
+            model = entry.get('model_name', entry['models'][0].removeprefix('Zoom '))
             text = (ROOT / entry['destination'].split('#')[0]).read_text()
             section = text.split('\n## ' + model + '\n', 1)[1].split('\n## ', 1)[0]
             actual = []
-            aliases = {comparison_views.norm(model), comparison_views.norm('Zoom '+model)}
+            aliases = {comparison_views.norm(model), comparison_views.norm(entry.get('brand', 'Zoom')+' '+model)}
             for headers, rows, context in comparison_views.tables(source):
                 for row in rows:
                     if comparison_views.norm(row[0]) in aliases:
@@ -150,11 +151,11 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(zoom): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id == 'gt-1b' else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':

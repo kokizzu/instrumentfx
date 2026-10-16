@@ -11,7 +11,7 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 | **[ALL-GUITAR.md](ALL-GUITAR.md)** |104 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
 | **[ALL-BASS.md](ALL-BASS.md)** |54 documented bass-capable models: 11 bass-focused plus 43 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |17 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 64 detailed models are root-canonical |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 65 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -22,6 +22,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 
 | Brand file | Currently consolidated models |
 |---|---|
+| [BOSS.md](BOSS.md) |GT-1B |
 | [HEADRUSH.md](HEADRUSH.md) |MX5,Core,Flex Prime,Prime |
 | [FENDER.md](FENDER.md) |Tone Master Pro |
 | [VALETON.md](VALETON.md) |GP-200LT,GP-200JR |
@@ -56,11 +57,11 @@ All model records separate knobs/footswitches/buttons,expression,used/new IDR,si
 
 ## What remains
 
-**Next work: consolidate BOSS GT-1B, then GX-1B and ME-90B, followed by further research and discovery.** G2 FOUR andG2X FOUR now preserve full legacy records plus current manual looper/USB/processing limits. G6,G1 FOUR andG1X FOUR are now root-canonical with their original evidence dates and complete legacy facts preserved. Standard GS1000 is recorded separately from Li, including bass/microphone routing and native A2 Lite versus converted A1 NAM. GE300 is recorded with converted NAM and firmware-qualified IR capacity. HeadRush Prime is now recorded, including native NAM architecture limits and six recording/four playback USB channels. The ALL-* comparison rebuild and HX Effects consolidation are saved; GP-200JR is recorded and must not be added again. Exact Shopee item links and price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
+**Next work: consolidate BOSS GX-1B, then ME-90B, followed by further research and discovery.** G2 FOUR andG2X FOUR now preserve full legacy records plus current manual looper/USB/processing limits. G6,G1 FOUR andG1X FOUR are now root-canonical with their original evidence dates and complete legacy facts preserved. Standard GS1000 is recorded separately from Li, including bass/microphone routing and native A2 Lite versus converted A1 NAM. GE300 is recorded with converted NAM and firmware-qualified IR capacity. HeadRush Prime is now recorded, including native NAM architecture limits and six recording/four playback USB channels. The ALL-* comparison rebuild and HX Effects consolidation are saved; GP-200JR is recorded and must not be added again. Exact Shopee item links and price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
 
 The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
 
-**Organization migration is incomplete:** 64 detailed models are root-canonical; 60 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. No source file was deleted. Other legacy records remain until destination contents and incoming links are checked.
+**Organization migration is incomplete:** 65 detailed models are root-canonical; 59 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. No source file was deleted. Other legacy records remain until destination contents and incoming links are checked.
 
 ## Scope and ownership
 
