@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "CUBE BABY shared-source consolidation",
-    "task": "All42shared summary fields/3distinct variants preserved in root M-VAVE profiles outside current comparison markers;8shared prose/source groups in MULTI-EFFECTS. Verify union/navigation and commit. Next read complete owned-multifx and remaining Shopee shared sources;no source retirement until full audits.",
+    "model": "Owned-model shared source consolidation",
+    "task": "Seven existing models/99shared fields audited;53missing exact historical statements and3shared context groups preserved at root. Verify union/navigation and commit. Then read remaining Shopee shared sources and ownership/scope metadata,finish navigation audits before legacy retirement.",
     "next_models": [],
-    "after_queue": "Continue technical gaps/fresh eligible Shopee discovery;do not relabel historical/provisional/manual-transcription facts as new verification."
+    "after_queue": "Technical gaps and fresh eligible Shopee discovery remain. No new ownership inference from shared summaries;counts unchanged."
   },
   "new_findings": [
     {
@@ -12408,6 +12408,748 @@
       "retained_context": [],
       "retained_source_urls": [],
       "status": "Complete shared model rows preserved;original individual body remains;technical verification partial"
+    },
+    {
+      "models": [
+        "Roland GR-55"
+      ],
+      "model_name": "GR-55",
+      "brand": "Roland",
+      "destination": "ROLAND.md#gr-55",
+      "source": "effects/owned-multifx.md",
+      "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+      "source_model_aliases": [
+        "Roland GR-55",
+        "GR-55"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "Category / size",
+          "value": "Guitar/bass synth and multi-effects /large",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "K/F/B",
+          "value": "?/?/?",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Expression",
+          "value": "Built-in yes; external dedicated EXP not listed; MIDI controller support; toe ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Dimensions W×D×H, mm; weight",
+          "value": "**405×244×78,max106;3.3kg**",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Display",
+          "value": "240×64-dot graphic LCD;diagonal/color/touch ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Architecture / category choices",
+          "value": "4 source layers:2PCM,modeled,normal pickup—not4 arbitrary effects. MFX20,preamp42,MOD14,delay7,reverb5,chorus4,EQ1;simultaneous routing limits ?.910PCM tones;23 guitar/17 bass modeling types",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "Firmware1.50:360 guitar factory/108 bass factory,297 user in selected mode;older270/90 precede90/18 additions",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Synth yes;exact acoustic inventory ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "User IR/NAM/capture import not established",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Ports and power",
+          "value": "13-pin GK IN;guitar out;stereo main outs;1/4-inch phones;DIN MIDI;USB computer/memory.9V700mA draw,supplied adapter;polarity/USB bus power ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Configuration / digital functions",
+          "value": "Windows/macOS Librarian;full editor scope not verified;USB audio/MIDI44.1kHz",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Other features",
+          "value": "Divided pickup/GK system required;WAV/AIFF playback;looper duration ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail/historical observation — not a live price range",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;individual original bodies remain;no new ownership assertion or model count"
+    },
+    {
+      "models": [
+        "Zoom B1Xon"
+      ],
+      "model_name": "B1Xon",
+      "brand": "Zoom",
+      "destination": "ZOOM.md#b1xon",
+      "source": "effects/owned-multifx.md",
+      "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+      "source_model_aliases": [
+        "Zoom B1Xon",
+        "B1Xon"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "Category / size",
+          "value": "Bass multi-effects /medium",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "K/F/B",
+          "value": "?/?/?",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Expression",
+          "value": "Built-in yes;external EXP not listed;toe ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Dimensions W×D×H, mm; weight",
+          "value": "**237×154.8×50;640g excluding batteries**",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Display",
+          "value": "Backlit dot-matrix LCD;diagonal/color/touch ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Architecture / category choices",
+          "value": "Up to5 freely ordered effects;manufacturer105=100 ordinary+5 pedal choices;category subtotals ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "100 editable=10×10;factory-filled subset ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Specific algorithms ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "User IR/NAM import not established",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Ports and power",
+          "value": "Mono1/4-inch input;3.5mm aux;shared1/4-inch stereo line/phones;USB/DC.4AA,9Vcenter-negative500mA supply orUSB bus",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Configuration / digital functions",
+          "value": "Win/Mac updater;full editor/mobile/USB audio unverified",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Other features",
+          "value": "30s/64-beat looper,68 rhythms,tuner,autosave",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail/historical observation — not a live price range",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;individual original bodies remain;no new ownership assertion or model count"
+    },
+    {
+      "models": [
+        "JOYO GEM BOX original"
+      ],
+      "model_name": "GEM BOX original",
+      "brand": "JOYO",
+      "destination": "JOYO.md#gem-box-original",
+      "source": "effects/owned-multifx.md",
+      "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+      "source_model_aliases": [
+        "JOYO GEM BOX original",
+        "GEM BOX original"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "Category / size",
+          "value": "Guitar multi-effects /medium",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "K/F/B",
+          "value": "?/2/?",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Expression",
+          "value": "Built-in assignable;toe/external specification ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Dimensions W×D×H, mm; weight",
+          "value": "**237×158×63;730g excluding batteries**",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Display",
+          "value": "LED patch/tuner readout;diagonal/color/touch not verified",
+          "source": "effects/owned-multifx.md",
+          "context": "Built-in expression processors"
+        },
+        {
+          "field": "Architecture / category choices",
+          "value": "Up to8 modules;60 effect types,per-category counts ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "40 factory+40 user=80",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Exact algorithms ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "No verified import workflow",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Ports and power",
+          "value": "Mono1/4-inch in;shared1/4-inch stereo output/phones;complete additional rear ports unverified.9V300mAcenter-negative or4AA",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Configuration / digital functions",
+          "value": "No full app/editor/USB recording established",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Other features",
+          "value": "40rhythms from indexed original manual,tuner/preselection;looper unverified",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail/historical observation — not a live price range",
+          "value": "**Rp1.650.000 Blibli**,seller page3stock;exact Shopee lead failed to reopen",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Original findings commit",
+          "value": "`0ba80d30357d6727efa954bfa700555279cf7787`",
+          "source": "effects/owned-multifx.md",
+          "context": "Saved individual commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;individual original bodies remain;no new ownership assertion or model count"
+    },
+    {
+      "models": [
+        "M-VAVE MINI-X"
+      ],
+      "model_name": "MINI-X",
+      "brand": "M-VAVE",
+      "destination": "M-VAVE.md#mini-x",
+      "source": "effects/owned-multifx.md",
+      "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+      "source_model_aliases": [
+        "M-VAVE MINI-X",
+        "MINI-X"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External control",
+          "value": "No EXP connection in numbered inventory",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "K/F/B",
+          "value": "**6/0/0** plus power switch",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Dimensions;weight",
+          "value": "Primary size/weight unverified",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Screen",
+          "value": "**No screen**,LED status only;touch No",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Architecture / category choices",
+          "value": "Amp+MOD+ambience,plus always-on gate;9 amps;3 MOD;3 ambience modes",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "No addressable patch bank established;nine amp positions are not9 patches",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "No dedicated function identified in described library",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "No verified IR/NAM import",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Ports and power",
+          "value": "Guitar plug,phones,USB charge/OTG;connector sizes/subtype not primary-verified.5VUSB charge,built battery about5h rated;capacity/draw ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Configuration / digital functions",
+          "value": "No full editor/import verified;phone OTG recording;exact OS/channels ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Other features",
+          "value": "Bluetooth receives backing audio;no looper/internal rhythm generator established",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail/historical observation — not a live price range",
+          "value": "**Rp296.999 Shopee,service unavailable**;separateRp450.000 indexed ask",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Original findings commit",
+          "value": "`b9525ee463e7efa8ed845bb9ad89b5e9ea5a46b6`",
+          "source": "effects/owned-multifx.md",
+          "context": "Saved individual commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;individual original bodies remain;no new ownership assertion or model count"
+    },
+    {
+      "models": [
+        "M-VAVE Pocket Amp"
+      ],
+      "model_name": "Pocket Amp",
+      "brand": "M-VAVE",
+      "destination": "M-VAVE.md#pocket-amp",
+      "source": "effects/owned-multifx.md",
+      "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+      "source_model_aliases": [
+        "M-VAVE Pocket Amp",
+        "Pocket Amp"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External control",
+          "value": "USB/wireless MIDI controller support;analog EXP not established",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "K/F/B",
+          "value": "**2/0/5** plus power",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Dimensions;weight",
+          "value": "L93×W71.5×H40mm;120g;compact",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Screen",
+          "value": "**1.54-inch color240×240**;touch unverified",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Architecture / category choices",
+          "value": "Six movable modules FX/AMP/MOD/DELAY/REVERB/CAB;spec6+1 extra stage unresolved. FX4,MOD7,delay5,reverb6;20amps+20cabs",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "80 total,40 supplied/40 additional;factory overwrite rules ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "No dedicated function identified",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "20 IR locations1024/2048;20 AmX/ANN amp locations;native/converted NAM architecture not established",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Ports and power",
+          "value": "6.35mm mono in/out,3.5mm stereo phones,USB-C.1450mAh battery orUSB5V≥500mA;about200mA operation;7h rated",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Configuration / digital functions",
+          "value": "Documented Windows/macOS/iOS/Android tone editing;desktop M-EFCS explicitly listed.USB24-bit44.1kHz/loopback/MIDI;channels ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Other features",
+          "value": "Tuner430–450Hz;external controller support;looper/drums not established",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail/historical observation — not a live price range",
+          "value": "**Rp659.999 indexed**;separateRp795.000 indexed;other quoted listings sold out",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Original findings commit",
+          "value": "`792e274fbf27f07039c79b5ced4d6d2926f66dd6`",
+          "source": "effects/owned-multifx.md",
+          "context": "Saved individual commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;individual original bodies remain;no new ownership assertion or model count"
+    },
+    {
+      "models": [
+        "CUVAVE H8"
+      ],
+      "model_name": "H8",
+      "brand": "CUVAVE",
+      "destination": "CUVAVE.md#h8",
+      "source": "effects/owned-multifx.md",
+      "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+      "source_model_aliases": [
+        "CUVAVE H8",
+        "H8"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External control",
+          "value": "No EXP connection in numbered inventory",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "K/F/B",
+          "value": "**0/0/4**,power button has operating functions",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Dimensions;weight",
+          "value": "W81×D85×H29mm;weight extraction garbled/unverified;compact",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Screen",
+          "value": "**No graphical/numeric screen**,LED parameter/tuner indicators;touch No",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Architecture / category choices",
+          "value": "Fixed amp→MOD→delay→reverb→cab;10amps,2MOD,1tape delay,1hall reverb,10cabs",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**10 factory-filled overwriteable total**,not10+10",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Neither identified",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "**10 replaceable IRs**;sample limits ?;NAM/amp-capture import not established",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Ports and power",
+          "value": "6.35mm male in,3.5mm phones,USB data/charge and phone-recording connection;USB subtypes ?.5V≥300mA,built battery,explicit operation while charging/power bank",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Configuration / digital functions",
+          "value": "**CubeSuite Windows/macOS IR manager**;full parameter editing not established.USB computer/Android recording;channels/other platforms ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Other features",
+          "value": "24-bit48kHz processing,tuner/mute,dry bypass,Bluetooth backing",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail/historical observation — not a live price range",
+          "value": "**Rp295.000 sold out**;separateRp411.485 shop holiday;older delivery dates",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Original findings commit",
+          "value": "`8c0bb751797bb3dfeca61849245a79393c032b63`",
+          "source": "effects/owned-multifx.md",
+          "context": "Saved individual commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;individual original bodies remain;no new ownership assertion or model count"
+    },
+    {
+      "models": [
+        "VING Flybro FB-100"
+      ],
+      "model_name": "Flybro FB-100",
+      "brand": "VING",
+      "destination": "VING.md#flybro-fb-100",
+      "source": "effects/owned-multifx.md",
+      "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+      "source_model_aliases": [
+        "VING Flybro FB-100",
+        "VING FB-100",
+        "FB-100"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External control",
+          "value": "**One shared6.35mm TRS FS/EXP socket**,not two sockets",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "K/F/B",
+          "value": "**2/0/4**,POWER/GLOBAL dual function;reset separate",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Dimensions;weight",
+          "value": "**W140.3×D115.1×H63.65mm**;English405g versusChinese450g on original sheet;compact",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Screen",
+          "value": "**1.77-inch color LCD**;touch unverified",
+          "source": "effects/owned-multifx.md",
+          "context": "No built-in expression: handheld/desktop processors"
+        },
+        {
+          "field": "Architecture / category choices",
+          "value": "**Up to8 simultaneous effects**;complete primary category inventory unverified;retailer74-effect/20-cab claim not promoted",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "100 locations,50 factory;overwrite split ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Exact algorithms ?",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "Developer app confirms IR import;capacity/format unverified;NAM not established",
+          "source": "effects/owned-multifx.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Ports and power",
+          "value": "6.35mm TS input,**balanced mono TRS output**,3.5mm stereo phones,USB-C,oneFS/EXP.Quick guide5V2A;tested report also12V1A and7.4V2000mAh;PD details require unit confirmation",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Configuration / digital functions",
+          "value": "DeveloperVING iOS/iPadOS12+ app:editing,preset/IR import,drums.Dedicated desktop/Android primary support unverified.USB recording44.1kHz16-bit,distinct from24-bit conversion",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Other features",
+          "value": "Built speaker,drums,tuner,Bluetooth vocal removal;looper not established",
+          "source": "effects/owned-multifx.md",
+          "context": "Connections, power, apps and practice"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail/historical observation — not a live price range",
+          "value": "**Rp1.450.000 cached ask**;separateRp1.565.000 sold-out body conflicts withRp1.885.000 search snippet",
+          "source": "effects/owned-multifx.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Original findings commit",
+          "value": "`7962a72f6ecc5864e54fd2437cad25ed93507a5b`",
+          "source": "effects/owned-multifx.md",
+          "context": "Saved individual commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;individual original bodies remain;no new ownership assertion or model count"
     }
   ],
   "discovery_leads": [
@@ -18517,6 +19259,232 @@
         ],
         "retirement_authorized": false
       }
+    },
+    "shared_owned_audit": {
+      "date": "2026-10-17",
+      "source": "effects/owned-multifx.md",
+      "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+      "complete_source_read": true,
+      "source_retired": false,
+      "remaining_work": "All99shared model fields/9prose groups/7finding targets verified;16incoming links without fragments and18outgoing occurrences resolve. Source retained pending broader navigation/provenance and other shared source audits. Technical gaps/ownership identities remain explicit.",
+      "status": "Full shared content union verified;source retained",
+      "prose_union": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-owned-union",
+        "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+        "destinations": [
+          "ROLAND.md",
+          "ZOOM.md",
+          "JOYO.md",
+          "M-VAVE.md",
+          "CUVAVE.md",
+          "VING.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "model_records": 7,
+        "model_fields": 99,
+        "paragraph_groups": 9,
+        "reference_targets": [
+          "effects/findings/2026-10-14-roland-gr-55.md",
+          "effects/findings/2026-10-14-zoom-b1xon.md",
+          "effects/findings/2026-10-15-joyo-gembox-original.md",
+          "effects/findings/2026-10-15-mvave-mini-x.md",
+          "effects/findings/2026-10-15-mvave-pocket-amp.md",
+          "effects/findings/2026-10-15-cuvave-h8.md",
+          "effects/findings/2026-10-15-ving-fb100.md"
+        ],
+        "source_retired": false
+      },
+      "explicit_link_audit": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-owned-links",
+        "incoming_occurrences": 16,
+        "incoming": [
+          {
+            "source": "CUVAVE.md",
+            "line": 71,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "CUVAVE.md",
+            "line": 115,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "JOYO.md",
+            "line": 110,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 593,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 685,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "ROLAND.md",
+            "line": 91,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VING.md",
+            "line": 79,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VING.md",
+            "line": 123,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 174,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 193,
+            "link": "effects/owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+            "line": 9,
+            "link": "owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/COVERAGE.md",
+            "line": 9,
+            "link": "owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.md",
+            "line": 3,
+            "link": "owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.md",
+            "line": 16,
+            "link": "owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.md",
+            "line": 29,
+            "link": "owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/README.md",
+            "line": 15,
+            "link": "owned-multifx.md",
+            "kind": "inline",
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "exists": true
+          }
+        ],
+        "outgoing_occurrences": 18,
+        "missing_outgoing": [],
+        "incoming_fragments": [],
+        "headings": [
+          {
+            "line": 1,
+            "heading": "Ever-owned multi-effects — additional technical records"
+          },
+          {
+            "line": 7,
+            "heading": "Built-in expression processors"
+          },
+          {
+            "line": 17,
+            "heading": "No built-in expression: handheld/desktop processors"
+          },
+          {
+            "line": 30,
+            "heading": "Processing, memory and loading"
+          },
+          {
+            "line": 44,
+            "heading": "Connections, power, apps and practice"
+          },
+          {
+            "line": 56,
+            "heading": "Separate IDR evidence"
+          },
+          {
+            "line": 70,
+            "heading": "Saved individual commits"
+          }
+        ],
+        "limitations": [
+          "Lexical explicit inline/reference/definition links; definition and use are separate occurrences.",
+          "Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.",
+          "No link rewrite, anchor mapping, source deletion or external availability verification."
+        ],
+        "retirement_authorized": false
+      }
     }
   },
   "deferred_work": {
@@ -18600,7 +19568,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume CUBE BABY shared-source consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Owned-model shared source consolidation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

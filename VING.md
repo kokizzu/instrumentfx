@@ -113,3 +113,11 @@ Checked **2026-10-17**: [Developer VING App Store listing](https://apps.apple.co
 [SEVEN STEREO Malang original item](https://shopee.co.id/Ving-FB100-FB-100-%E2%80%93-Portable-Multi-Effects-Processor-dengan-Bluetooth-Speaker-i.1408254222.28741861094),shop1408254222/item28741861094,now exposes only a generic Shopee shell. Its earlier1.450.000 amount/date is retained, not newly verified. [queenmusicsolo exact listing](https://shopee.co.id/VING-FB100-VING-FLYBRO-FB100-MULTI-EFFECT-PROCESSOR-WITH-SPEAKER-BLUETOOTH-i.60582947.40872427417),shop60582947/item40872427417,Kota Surakarta,now displays **Rp1.860.000 with four unspecified variations**. Earlier1.565.000/Habis body and1.885.000 search snippet remain historical conflicting snapshots. Variation mapping,condition,accessories,regional warranty,checkout stock,shipping/tax and usable vouchers unverified. Exclude unresolved variation amount from a confirmed standard-hardware price range; late-delivery compensation not a purchase discount.
 
 Complete original quick-guide V03/2025-07-02 and testedV1.0 report identities, prior actual visual-inspection qualifications, shared FS/EXP socket, balanced-mono main versus stereo-headphone distinction,405/450g conflict and5V/12V source distinctions remain preserved. No new original-PDF visual verification or file/dependency downloads performed. Remaining: actual power negotiation/hardware-revision match, full category choices, IR capacity/format,NAM/capture compatibility, memory-overwrite rules, touch,USB channels,Android/dedicated desktop support and qualified current used/new offers.
+
+### Preserved shared owned-model summary
+
+Historical2026-10-14/15 shared comparison wording,not a new technical verification. This overlay does not add a model or establish present ownership/stock. Later firmware-qualified findings elsewhere in this profile retain precedence.
+
+- **Original findings commit** (Saved individual commits): `7962a72f6ecc5864e54fd2437cad25ed93507a5b`
+
+[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.

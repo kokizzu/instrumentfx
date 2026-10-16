@@ -572,6 +572,26 @@ A separate Rp411.485 listing says the shop is on holiday; an Rp786.702 listing i
 **Next owned model: M-VAVE Pocket Amp**, distinct from Sonicake Pocket Master. Outstanding MINI-X primary gaps are size/weight, connector measurements, battery capacity/current and exact USB/platform functions.
 <!-- MVAVE-MINIX source ends -->
 
+### Preserved shared owned-model summary
+
+Historical2026-10-14/15 shared comparison wording,not a new technical verification. This overlay does not add a model or establish present ownership/stock. Later firmware-qualified findings elsewhere in this profile retain precedence.
+
+- **External control** (No built-in expression: handheld/desktop processors): No EXP connection in numbered inventory
+- **K/F/B** (No built-in expression: handheld/desktop processors): **6/0/0** plus power switch
+- **Dimensions;weight** (No built-in expression: handheld/desktop processors): Primary size/weight unverified
+- **Screen** (No built-in expression: handheld/desktop processors): **No screen**,LED status only;touch No
+- **Architecture / category choices** (Processing, memory and loading): Amp+MOD+ambience,plus always-on gate;9 amps;3 MOD;3 ambience modes
+- **Presets** (Processing, memory and loading): No addressable patch bank established;nine amp positions are not9 patches
+- **Synth / acoustic** (Processing, memory and loading): No dedicated function identified in described library
+- **IR / NAM** (Processing, memory and loading): No verified IR/NAM import
+- **Ports and power** (Connections, power, apps and practice): Guitar plug,phones,USB charge/OTG;connector sizes/subtype not primary-verified.5VUSB charge,built battery about5h rated;capacity/draw ?
+- **Configuration / digital functions** (Connections, power, apps and practice): No full editor/import verified;phone OTG recording;exact OS/channels ?
+- **Other features** (Connections, power, apps and practice): Bluetooth receives backing audio;no looper/internal rhythm generator established
+- **Retail/historical observation — not a live price range** (Separate IDR evidence): **Rp296.999 Shopee,service unavailable**;separateRp450.000 indexed ask
+- **Original findings commit** (Saved individual commits): `b9525ee463e7efa8ed845bb9ad89b5e9ea5a46b6`
+
+[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
+
 ## Pocket Amp
 
 <!-- comparison evidence begins -->
@@ -643,6 +663,26 @@ Separate Shopee **Rp699.999** GITARO STORE INDONESIA item53153302516, **Rp790.00
 
 **Next owned model: CUVAVE H8.** Outstanding: manufacturer-original PDF cross-check, extra processing-stage definition, factory overwrite rules, touch, current NAM architecture/import workflow, USB channels and condition-specific current prices. Generic blog claims that this is a three-amp plug-in device contradict the model documentation and were rejected.
 <!-- MVAVE-POCKETAMP source ends -->
+
+### Preserved shared owned-model summary
+
+Historical2026-10-14/15 shared comparison wording,not a new technical verification. This overlay does not add a model or establish present ownership/stock. Later firmware-qualified findings elsewhere in this profile retain precedence.
+
+- **External control** (No built-in expression: handheld/desktop processors): USB/wireless MIDI controller support;analog EXP not established
+- **K/F/B** (No built-in expression: handheld/desktop processors): **2/0/5** plus power
+- **Dimensions;weight** (No built-in expression: handheld/desktop processors): L93×W71.5×H40mm;120g;compact
+- **Screen** (No built-in expression: handheld/desktop processors): **1.54-inch color240×240**;touch unverified
+- **Architecture / category choices** (Processing, memory and loading): Six movable modules FX/AMP/MOD/DELAY/REVERB/CAB;spec6+1 extra stage unresolved. FX4,MOD7,delay5,reverb6;20amps+20cabs
+- **Presets** (Processing, memory and loading): 80 total,40 supplied/40 additional;factory overwrite rules ?
+- **Synth / acoustic** (Processing, memory and loading): No dedicated function identified
+- **IR / NAM** (Processing, memory and loading): 20 IR locations1024/2048;20 AmX/ANN amp locations;native/converted NAM architecture not established
+- **Ports and power** (Connections, power, apps and practice): 6.35mm mono in/out,3.5mm stereo phones,USB-C.1450mAh battery orUSB5V≥500mA;about200mA operation;7h rated
+- **Configuration / digital functions** (Connections, power, apps and practice): Documented Windows/macOS/iOS/Android tone editing;desktop M-EFCS explicitly listed.USB24-bit44.1kHz/loopback/MIDI;channels ?
+- **Other features** (Connections, power, apps and practice): Tuner430–450Hz;external controller support;looper/drums not established
+- **Retail/historical observation — not a live price range** (Separate IDR evidence): **Rp659.999 indexed**;separateRp795.000 indexed;other quoted listings sold out
+- **Original findings commit** (Saved individual commits): `792e274fbf27f07039c79b5ced4d6d2926f66dd6`
+
+[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
 
 ## CUBE BABY electric
 

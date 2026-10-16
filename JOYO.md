@@ -89,6 +89,26 @@ The original-manual [feature page](https://mans.io/files/viewer/2580844/5) and [
 **Next owned model: M-VAVE MINI-X.** Remaining GEM BOX gaps: exact controls/display, complete connector inventory, effects appendix, synth/acoustic functions and active used/new Shopee offers. Its ownership and manufacturer identity are now separately established; full technical verification is not claimed.
 <!-- JOYO-GEMBOX-ORIGINAL source ends -->
 
+### Preserved shared owned-model summary
+
+Historical2026-10-14/15 shared comparison wording,not a new technical verification. This overlay does not add a model or establish present ownership/stock. Later firmware-qualified findings elsewhere in this profile retain precedence.
+
+- **Category / size** (Built-in expression processors): Guitar multi-effects /medium
+- **Expression** (Built-in expression processors): Built-in assignable;toe/external specification ?
+- **Dimensions W×D×H, mm; weight** (Built-in expression processors): **237×158×63;730g excluding batteries**
+- **Display** (Built-in expression processors): LED patch/tuner readout;diagonal/color/touch not verified
+- **Architecture / category choices** (Processing, memory and loading): Up to8 modules;60 effect types,per-category counts ?
+- **Presets** (Processing, memory and loading): 40 factory+40 user=80
+- **Synth / acoustic** (Processing, memory and loading): Exact algorithms ?
+- **IR / NAM** (Processing, memory and loading): No verified import workflow
+- **Ports and power** (Connections, power, apps and practice): Mono1/4-inch in;shared1/4-inch stereo output/phones;complete additional rear ports unverified.9V300mAcenter-negative or4AA
+- **Configuration / digital functions** (Connections, power, apps and practice): No full app/editor/USB recording established
+- **Other features** (Connections, power, apps and practice): 40rhythms from indexed original manual,tuner/preselection;looper unverified
+- **Retail/historical observation — not a live price range** (Separate IDR evidence): **Rp1.650.000 Blibli**,seller page3stock;exact Shopee lead failed to reopen
+- **Original findings commit** (Saved individual commits): `0ba80d30357d6727efa954bfa700555279cf7787`
+
+[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
+
 ## GEM BOX II
 
 **Technical/price review: 2026-10-14. Partial.** Original, III and K8 remain separate models.

@@ -105,3 +105,11 @@ Checked **2026-10-17**: [Manufacturer downloads](https://www.m-vave.com/download
 [Exact MICKEY MOUSE SHOP offer](https://shopee.co.id/Efek-Gitar-CUVAVE-H8-Multi-Effects-Soundcard-Headphone-Amplifier-Guitar-Pedal-Instrument-i.19700013.15896058200),shop19700013/item15896058200,Kota Jakarta Utara,again shows295.000/Habis. [Exact One Two Three Music Store offer](https://shopee.co.id/Efek-Gitar-CUVAVE-H8-Multi-Effects-Soundcard-Headphone-Amplifier-Guitar-Pedal-Instrument-i.1505062399.28235905225),shop1505062399/item28235905225,same city,again shows411.485. Both are indexed historical asks with stale delivery dates; no range, used-price inference or live-stock guarantee. Condition grade, accessory bundle,warranty region,delivered charges,vouchers and seller authenticity remain unverified. Late-delivery compensation is not a purchase discount.
 
 Complete original body and supporting facts retain all URLs,dates,ownership distinctions,garbled-weight warning and IR-versus-capture distinction. No files/dependencies downloaded. Remaining: original-image mass/connector verification,battery capacity,IR format/sample limits,USB channel/driver/OS details,current editor scope and qualified current local offers.
+
+### Preserved shared owned-model summary
+
+Historical2026-10-14/15 shared comparison wording,not a new technical verification. This overlay does not add a model or establish present ownership/stock. Later firmware-qualified findings elsewhere in this profile retain precedence.
+
+- **Original findings commit** (Saved individual commits): `8c0bb751797bb3dfeca61849245a79393c032b63`
+
+[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.

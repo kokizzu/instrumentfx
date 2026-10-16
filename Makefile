@@ -987,3 +987,15 @@ consolidation-audit-cube-links:
 .PHONY: research-commit-cube-union
 research-commit-cube-union:
 	python3 scripts/research_tools.py commit-cube-union
+
+.PHONY: consolidation-plan-owned-union consolidation-audit-owned-union consolidation-audit-owned-links
+consolidation-plan-owned-union:
+	python3 scripts/consolidation_tools.py plan-owned-union
+consolidation-audit-owned-union:
+	python3 scripts/consolidation_tools.py audit-owned-union
+consolidation-audit-owned-links:
+	python3 scripts/consolidation_tools.py audit-owned-links
+
+.PHONY: research-commit-owned-union
+research-commit-owned-union:
+	python3 scripts/research_tools.py commit-owned-union

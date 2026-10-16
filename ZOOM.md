@@ -173,6 +173,25 @@ Inspect the matching control/effect-list manual for control counts, screen mode,
 
 The owned-model summary adds no conflicting B1Xon specification or price. Source documents remain available at [original finding](effects/findings/2026-10-14-zoom-b1xon.md) and [owned-model comparison](effects/owned-multifx.md); existing incoming links remain valid. Current next work is in [research-state.json](research-state.json).
 
+### Preserved shared owned-model summary
+
+Historical2026-10-14/15 shared comparison wording,not a new technical verification. This overlay does not add a model or establish present ownership/stock. Later firmware-qualified findings elsewhere in this profile retain precedence.
+
+- **Category / size** (Built-in expression processors): Bass multi-effects /medium
+- **K/F/B** (Built-in expression processors): ?/?/?
+- **Expression** (Built-in expression processors): Built-in yes;external EXP not listed;toe ?
+- **Dimensions W×D×H, mm; weight** (Built-in expression processors): **237×154.8×50;640g excluding batteries**
+- **Display** (Built-in expression processors): Backlit dot-matrix LCD;diagonal/color/touch ?
+- **Architecture / category choices** (Processing, memory and loading): Up to5 freely ordered effects;manufacturer105=100 ordinary+5 pedal choices;category subtotals ?
+- **Presets** (Processing, memory and loading): 100 editable=10×10;factory-filled subset ?
+- **Synth / acoustic** (Processing, memory and loading): Specific algorithms ?
+- **IR / NAM** (Processing, memory and loading): User IR/NAM import not established
+- **Ports and power** (Connections, power, apps and practice): Mono1/4-inch input;3.5mm aux;shared1/4-inch stereo line/phones;USB/DC.4AA,9Vcenter-negative500mA supply orUSB bus
+- **Configuration / digital functions** (Connections, power, apps and practice): Win/Mac updater;full editor/mobile/USB audio unverified
+- **Other features** (Connections, power, apps and practice): 30s/64-beat looper,68 rhythms,tuner,autosave
+
+[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

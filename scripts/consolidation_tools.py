@@ -1652,11 +1652,13 @@ def audit_floorboard_union():
 
 
 def audit_compact_links(kind='compact'):
-    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota','cube')
+    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota','cube','owned')
     """Inventory explicit Markdown links and literal references before source retirement."""
     import urllib.parse
     research_tools.identity()
     source_key = 'effects/'+kind+'.md' if kind in ('bass','vocal','audota') else 'effects/guitar-'+kind+'.md'
+    if kind == 'owned':
+        source_key = 'effects/owned-multifx.md'
     if kind == 'cube':
         source_key = 'effects/cube-baby.md'
     if kind == 'advanced':
@@ -1895,34 +1897,42 @@ def audit_audota_union(verify=True):
 
 
 
-def audit_cube_union(verify=True):
+def audit_shared_variant_union(verify=True, kind='cube'):
+    assert kind in ('cube','owned')
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
-    path = 'effects/cube-baby.md'
+    path = 'effects/cube-baby.md' if kind == 'cube' else 'effects/owned-multifx.md'
     source = (ROOT/path).read_text()
-    assert digest(source) == state['migration']['shared_cube_audit']['source_sha256']
-    destination = (ROOT/'M-VAVE.md').read_text()
-    union = destination+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
+    assert digest(source) == state['migration']['shared_'+kind+'_audit']['source_sha256']
     aliases = {'CUBE BABY electric':{'electriccubebaby','electric'},'CUBE BABY AC':{'cubebabyac','ac'},'CUBE BABY BASS':{'cubebabybass','bass'}}
+    files = {model:'M-VAVE.md' for model in aliases}
+    if kind == 'owned':
+        aliases = {'GR-55':{'rolandgr55','gr55'},'B1Xon':{'zoomb1xon','b1xon'},'GEM BOX original':{'joyogemboxoriginal','gemboxoriginal'},'MINI-X':{'mvaveminix','minix'},'Pocket Amp':{'mvavepocketamp','pocketamp'},'H8':{'cuvaveh8','h8'},'Flybro FB-100':{'vingflybrofb100','vingfb100','fb100'}}
+        files = {'GR-55':'ROLAND.md','B1Xon':'ZOOM.md','GEM BOX original':'JOYO.md','MINI-X':'M-VAVE.md','Pocket Amp':'M-VAVE.md','H8':'CUVAVE.md','Flybro FB-100':'VING.md'}
+    destinations = {name:(ROOT/name).read_text() for name in set(files.values())}
+    union = '\n'.join(destinations.values())+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
     records = {model:[] for model in aliases}
     for headers,rows,context in comparison_views.tables(source):
         for row in rows:
             matched = [m for m,names in aliases.items() if comparison_views.norm(row[0]) in names]
-            assert len(matched) == 1, 'Unmapped Cube Baby row: '+str(row)
+            assert len(matched) == 1, 'Unmapped '+kind+' row: '+str(row)
             records[matched[0]] += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
-    assert all(len(facts) == 14 for facts in records.values())
+    expected = {model:14 for model in aliases}
+    if kind == 'owned':
+        expected['GEM BOX original'] = 15
+    assert {model:len(facts) for model,facts in records.items()} == expected
     reports = []
     for model,facts in records.items():
-        section = destination.split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
+        section = destinations[files[model]].split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
         reports.append(dict(model=model,facts=facts,missing=[f for f in facts if f['value'] not in section]))
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)',source,re.M)}
     groups = [p for p in re.split(r'\n\s*\n',source) if p.strip() and not re.match(r'^[#|]',p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
     normalized = [comparison_views.relink(p,path,refs) for p in groups]
     targets = [re.search(r'\]\(([^)]+)\)',comparison_views.relink('[source]('+target+')',path,{}))[1] for target in refs.values()]
     urls = sorted(set(re.findall(r'https?://[^\s)]+',source)))
-    report = dict(source=path,source_sha256=digest(source),records=reports,model_fields=42,paragraph_groups=len(groups),normalized_missing_groups=[p for p in normalized if p not in union],reference_targets=targets,missing_reference_targets=[t for t in targets if t not in union],external_urls=urls,missing_external_urls=[u for u in urls if u not in union],retirement_authorized=False)
-    Path('/tmp/instrumentfx-cube-union-plan.json').write_text(json.dumps(report,indent=2)+'\n')
-    print('Cube Baby shared union:3models/42fields;missingfields='+str(sum(len(r['missing']) for r in reports))+';prosegroups='+str(len(groups))+';missinggroups='+str(len(report['normalized_missing_groups']))+';missingrefs='+str(len(report['missing_reference_targets']))+';missingURLs='+str(len(report['missing_external_urls'])))
+    report = dict(source=path,source_sha256=digest(source),records=reports,model_fields=sum(expected.values()),paragraph_groups=len(groups),normalized_missing_groups=[p for p in normalized if p not in union],reference_targets=targets,missing_reference_targets=[t for t in targets if t not in union],external_urls=urls,missing_external_urls=[u for u in urls if u not in union],retirement_authorized=False)
+    Path('/tmp/instrumentfx-'+kind+'-union-plan.json').write_text(json.dumps(report,indent=2)+'\n')
+    print(kind+' shared union:'+str(len(records))+'models/'+str(sum(expected.values()))+'fields;missingfields='+str(sum(len(r['missing']) for r in reports))+';prosegroups='+str(len(groups))+';missinggroups='+str(len(report['normalized_missing_groups']))+';missingrefs='+str(len(report['missing_reference_targets']))+';missingURLs='+str(len(report['missing_external_urls'])))
     if verify:
         assert not any(r['missing'] for r in reports)
         assert not report['normalized_missing_groups'] and not report['missing_reference_targets'] and not report['missing_external_urls']
@@ -1931,8 +1941,14 @@ def audit_cube_union(verify=True):
         verify_preserved(state)
 
 if __name__ == '__main__':
+    if sys.argv[1:] in (['plan-owned-union'], ['audit-owned-union']):
+        audit_shared_variant_union(sys.argv[1] == 'audit-owned-union', 'owned')
+        raise SystemExit(0)
+    if sys.argv[1:] == ['audit-owned-links']:
+        audit_compact_links('owned')
+        raise SystemExit(0)
     if sys.argv[1:] in (['plan-cube-union'], ['audit-cube-union']):
-        audit_cube_union(sys.argv[1] == 'audit-cube-union')
+        audit_shared_variant_union(sys.argv[1] == 'audit-cube-union')
         raise SystemExit(0)
     if sys.argv[1:] == ['audit-cube-links']:
         audit_compact_links('cube')
