@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "PANDORA stomp primary follow-up",
-    "task": "PANDORA stomp addedsharedguitar/bass andKorgbrand. Continue EFGS2 manual controls/routing/power/USB andSoundEditorcompatibility;commitbeforeanothermodel.",
+    "task": "Manual controls, memory ranges, 9V DC and mono output verified and committed. Next inspect manual pp24–27 for footswitch/routing/USB restrictions and Sound Editor OS compatibility; commit useful findings before another model.",
     "next_models": [],
     "after_queue": "ContinuefreshShopeediscovery;noexhaustivecoverageclaim."
   },
@@ -1821,17 +1821,29 @@
         }
       ],
       "unresolved": [
-        "expression/physicalcounts",
+        "expression",
         "display",
         "routing/memorylimits",
         "ports",
-        "adapterelectrical",
+        "adapter current/polarity",
         "USBprotocol",
         "editorOS",
         "IR/NAM/capture",
         "looper/live",
         "qualifiedused/newprices"
-      ]
+      ],
+      "manual_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://cdn.korg.com/jp/support/download/files/26827ed905ce18aa7be2edd632ecdda7.pdf",
+        "revision": "EFGSJ2 English pp8–13",
+        "resolved": [
+          "Named controls yield K/F/B 2/1/7, power additional",
+          "User versus preset ranges and favourite assignments",
+          "9V DC input, supported battery types and adapter-only Power Save",
+          "Mono OUTPUT left only and AUX source-level control"
+        ],
+        "remaining": "Expression, adapter current/polarity, USB protocol, editor OS compatibility and remaining prior gaps"
+      }
     }
   ],
   "consolidation_and_price_findings": [

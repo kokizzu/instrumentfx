@@ -286,7 +286,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-pandora':
-            message = 'research(korg): add PANDORA stomp shared guitar bass processor with qualified offers'
+            message = 'research(korg): verify PANDORA stomp controls memory and power restrictions'
         if mode == 'commit-vl3x':
             message = 'research(tc-helicon): verify VL3X loop slots saving and guitar output routing'
         if mode == 'commit-b3':
