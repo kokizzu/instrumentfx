@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [All vocal](ALL-VOCAL.md) · [Repository](README.md)
 
-This category view summarizes **14 selected model records from the 161 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. All recorded models have root brand profiles;technical verification andmarket discovery remain incomplete. Counts in different instrument views overlap and must not be added together.
+This category view summarizes **14 selected model records from the 162 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. All recorded models have root brand profiles;technical verification andmarket discovery remain incomplete. Counts in different instrument views overlap and must not be added together.
 
 Each model link opens the full evidence,firmware context,price qualifications and unknowns. These summaries do not replace those qualifications. A color screen does not prove touch; an expression socket is not an included pedal; a fixed category is not a freely assignable processing block.
 
@@ -252,7 +252,7 @@ Paired mono outputs are not one stereo TRS socket. A phones socket and a phone-r
 
 Manufacturer battery runtimes are not independent measurements. Where only charging is established, USB standalone operating power remains unknown. Adapter requirements are not necessarily actual device consumption.
 
-**MK-20:** specification table mentions external EXP, but rear panel and connector descriptions omit it. Preserve the conflict rather than invent a jack. **FX200:** numbered effects sum161 vs advertised161; dimension labels conflict with normal horizontal orientation. **GE150 family:** original, Pro and Li power/loading features are not interchangeable. **Prices:** MK-300, FX100 and Zoom G2-family snippets/body/vouchers differ; model findings preserve every accepted context.
+**MK-20:** specification table mentions external EXP, but rear panel and connector descriptions omit it. Preserve the conflict rather than invent a jack. **FX200:** numbered effects sum162 vs advertised162; dimension labels conflict with normal horizontal orientation. **GE150 family:** original, Pro and Li power/loading features are not interchangeable. **Prices:** MK-300, FX100 and Zoom G2-family snippets/body/vouchers differ; model findings preserve every accepted context.
 
 The next Shopee-first targets are **TANK-PRO, ANN Blackbox, Boin Audio BG300, Scorpion KMF-10, JOYO GemBox variants**, newer MOOER/Hotone/Zoom, and vocal-capable TC-Helicon/HeadRush/Flamma. They remain discoveries, not completed technical records, until researched. The old BOSS display/IDR task is deferred, not discarded. See [the evidence queue](effects/shopee-indonesia.md) and [checkpoint](effects/RESUME.md).
 

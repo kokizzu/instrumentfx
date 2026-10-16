@@ -163,3 +163,41 @@ Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;
 [SL2B-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf
 [SL2B-P]: https://voxamps.com/ja/product/stomplab-2b/
 [SL2B-S]: https://shopee.co.id/Vox-StompLab-2B-Bass-Modelling-Effect-Processor-i.16879370.1349945522
+
+## StompLab 1G
+
+Guitar multi-effects;distinct from2G,1B,2B. Checked2026-10-17;partial. Bass suitability andownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/external/toe expression specifics pending manual verification;do not transfer2B pedal. | Unresolved |
+| K/F/B | Separate knob/footswitch/button counts pending. | Unresolved |
+| Display | Diagonal,color,touch andtechnology unverified. | Unresolved |
+| Dimensions / mass | **145×125×57mm WDH;590g**. | [Official product][SL1G-P] |
+| Processing / category choices | **103**:8 Pedal+44 Amp+18 Drive+12 Cabinet+9 Modulation+8 Delay+3 Reverb+1 Noise Reduction;sum103,not simultaneous count. English cabinet list names11 despite12heading;German includes UK T75 4×12. Full simultaneous/category sharing pending. | [Official product][SL1G-P];[German product][SL1G-D] |
+| Factory / user memory | **120=100 preset+20 user**;initial user fill pending. | [Official product][SL1G-P] |
+| Synth / acoustic | Pedal category lists Acoustic;dedicated simulation behavior pending. Synth unverified. | [Official product][SL1G-P] |
+| I/O | Mono input;shared stereo OUTPUT/PHONES. Complete connector/power inventory pending. | [German product][SL1G-D] |
+| Power / battery / USB | **9V DC,approximately200mA;4AA,7.5h alkaline**. Polarity andUSB power unverified. English AC-adapter wording describes supply,not proof of9VAC input. Regional included-battery wording differs. | [German product][SL1G-D];[English product][SL1G-P] |
+| IR / NAM / capture | User IR,native/converted NAM andcapture imports unverified. | Unresolved |
+| Editor / software | Editor/platforms,USB audio/MIDI andupdate software unverified. | Unresolved |
+| Looper / drums / live | Tuner A0–E6;reference438–445Hz. Looper/drums/routing/trails unverified. | [Official product][SL1G-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | **Rp850,000**,SECOND-title hardware,Habis;historical cached ask,not working-condition/current-stock guarantee. Checked2026-10-17;qualifications below. | [gitar second item][SL1G-S] |
+| New | Unknown;no qualified retail/new offer. | — |
+
+<!-- comparison evidence ends -->
+
+[gitar second item][SL1G-S],shop61848168/item20091595478,Kab.Polewali Mandar. Exact HTML opened,two-month cache;direct20–23Augdelivery versus indexed4–7Aug,both stale. Variant,bundle/adapter,warranty andworking state unknown. Rp10,000late-arrival compensation not discount;shipping/tax/checkout unknown. Not completed-sale evidence. Other condition-unverified exact1Gasks retained inledger;shop-only andmixed1G/2G offers excluded.
+
+Manufacturer1Gproduct pages opened;candidate1Gmanual URL inaccessible. No sibling specifications imported. English cabinet list omission andregional battery inclusion conflict retained;no files ordependencies downloaded.
+
+[SL1G-P]: https://voxamps.com/en-gb/product/stomplab-1g/
+[SL1G-D]: https://voxamps.com/de/produkt/stomplab-1g/
+[SL1G-S]: https://shopee.co.id/VOX-STOMPLAB-1G-MULTIEFEK-GUITAR-MULTIEFFECT-MULTI-EFFECT-PEDAL-GITAR-MULTI-EFEK-SECOND-i.61848168.20091595478
