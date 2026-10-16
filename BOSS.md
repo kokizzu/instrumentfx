@@ -407,3 +407,60 @@ Checked2026-10-16;cached exact hardware pages,not live checkout/stock. Condition
 | Unresolved indexed variations / Artech item | Indexed Rp8.070.000–8.860.000;direct reopen cache miss. Seller ID31171541 matches previously observed Artech Music,Bekasi,but current page identity/bundle/variant/stock not verified. Neither endpoint accepted as unit-price bound. | [31171541 /29802327202](https://shopee.co.id/Boss-VE-22-VE22-VE-22-Vocal-Effect-Performer-Efek-Vocal-i.31171541.29802327202) |
 
 Remaining:simultaneous/category totals,output-mode detailed mapping,screen diagonal/touch,USB channels/bitdepth/OS/editor,USB power/DC voltage/polarity,imports,usedcondition/current stock/variation bundles. No source deleted.
+
+## VE-8
+
+Separate acoustic-guitar and vocal multi-effects;consolidated/researched2026-10-16;partial verification.
+
+### VE-8 — preserved original comparison
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimensions are **W×D×H, mm**. K/F/B = rotary controls / main footswitches / separate buttons; rear power, phantom and ground-lift toggles are additional. Used and new prices are separate **USD US-market asking/listing observations**, not sold-price statistics. Tax, shipping and condition matter.
+
+A guitar input used to detect chords does not automatically provide guitar effects. VE-500's instrument THRU sends the **unprocessed guitar signal** to other pedals. VE-8, by contrast, has its own acoustic-guitar processing path.
+
+| Required field | Original observation (2026-10-14) |
+|---|---|
+| External expression | External **footswitch only**, not EXP |
+| K/F/B | ?/3/? |
+| Dimensions; weight | 217×161×65; 1.3 kg incl. batteries |
+| Size class | Medium |
+| Used USD | ? |
+| New USD | $417.99 [P1] |
+| Processing architecture; categories / choices | Separate vocal and acoustic-guitar processing: vocal Harmony FX **9**, vocal reverb **4**; guitar Chorus FX **8**, plus acoustic resonance, reverb, EQ and feedback tools |
+| Factory / user storage | **50 memories total**; factory-filled subset ? |
+| Harmony, pitch, synth-like and acoustic functions | Guitar-guided harmony; electric/robot-style voice; acoustic resonance is **not proof of third-party body-IR loading** |
+| IR / NAM loading | Neither established |
+| Physical audio/control ports | XLR mic **48 V**; ¼″ guitar input **20 MΩ**; 3.5 mm aux; 2×XLR +2×¼″ out; 3.5 mm phones; TRS footswitch; USB-B |
+| Battery / power / USB-powered? | 6 AA or supplied adapter; 360 mA; USB power not listed |
+| Configuration apps versus USB functions | USB audio; full editor not established |
+| Looper / live considerations | **80 s** looper with separate guitar/vocal control; notch/phase feedback tools |
+
+Original sources: [source](https://www.boss.info/global/products/ve-8/specifications/); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series). P1:Sweetwater new USD417.99,checked2026-10-14,bundles/open-box excluded;not converted IDR. [Complete original](effects/vocal.md) retained unchanged.
+
+### VE-8 — current manufacturer checks
+
+| Required field | Evidence / limits (2026-10-16) |
+|---|---|
+| Processing / memory / acoustic | Dedicated guitar channel:Acoustic Resonance,8 CHORUS/FX alternatives,reverb,3bandEQ/lowcut,notch/phase. Vocal:Enhance,Pitch Correct,9 Harmony/FX choices,reverb,3bandEQ/lowcut.50memories total,not50preset+50user. Acoustic Resonance does not establish user bodyIR import. [VE8-S] |
+| Display / physical controls | Two-digit seven-segment LED;diagonal/color/touch unspecified.Three footswitches;knob/button totals remain unverified. External footswitch only;no builtin expression/toe pedal. [VE8-S] |
+| Ports / power / body | XLR mic48V10mAmax;20MΩquarter-inch guitar input;miniAUX;stereoXLR+quarter-inch outs;mini phones;TRS MEMORY switches;USB-B;DC. SixAA or includedadapter,360mA.217×161×65mm,1.3kg incl.batteries. [VE8-S] USB powering andDC voltage/polarity remain unverified. |
+| USB / editor | Computer recording/playback;dedicated USB driver required. Full editor not established;driver is not editor proof. USB channels/rates/bitdepth/current OS unchecked. [VE8-M] |
+| Output routing | XLR and LINE can independently select mixed stereo,vocal stereo,guitar stereo,split mono guitar/vocal,wet/dry vocal,wet/dry guitar,or mono mixes. Reverb can be excluded for PA use. Direct-output off sends VE-8 audio only to USB for DAW processing/return. [VE8-M] |
+| Looper / live |80s recording;content lost on poweroff. Separate guitar/vocal loop source and playback levels;external switch can stop with one press. Manual,memory and memory-stomp startup modes selectable. Alkaline runtime about4.5h phantomoff/2.5h on. [VE8-M] |
+| Synth / IR / NAM / capture | Electronic vocal processing is not proof of general synth engine. IR,native NAM,converted NAM/proprietary capture imports unestablished. Full simultaneous/per-category subtype ceilings need further check. |
+
+[VE8-S]: https://www.boss.info/global/products/ve-8/specifications/
+[VE8-M]: https://static.roland.com/assets/media/pdf/VE-8_e02_W.pdf
+
+### VE-8 — separate IDR asking-price evidence
+
+Checked2026-10-16;cached exact hardware pages,not condition/live-stock/checkout proof. Shipping,tax,warranty region and adapter identity require confirmation. Store names not authenticated.
+
+| Condition / seller | IDR observation and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no condition-verified exact used IDR offer established. | — |
+| Retail-style / Seven Stereo Music & Audio Store,Bandung | SearchRp7.820.000,5–7Aug delivery;reopened cached bodyRp7.395.000,Layanan Tidak Tersedia. Preserve both snapshots,not current price range. Adapter/bundle unspecified;delivery unavailable not nationwide-stock proof. | [16879370 /828362520](https://shopee.co.id/Boss-VE-8-VE8-Acoustic-Singer-Effect-Vocal-i.16879370.828362520) |
+| Retail-style adapter bundle / Bandung Music Gallery,Bandung | Rp7.820.000,Habis in index/reopened body;title+Adaptor,model/authenticity not exposed. Relative tomorrow delivery;stock unconfirmed. Late-delivery voucher is not price discount. | [394955725 /9262978899](https://shopee.co.id/Boss-VE-8-Acoustic-Singer-Adaptor-VE8-Efek-Vokal-Effect-Vocal-i.394955725.9262978899) |
+| Indexed adapter bundle / Artech Music,Bekasi | Rp7.820.000,Habis;title+Adaptor,same-day-before09:00 cached delivery. Search-only evidence in this pass;adapter type,condition and current stock not verified. | [31171541 /6641453484](https://shopee.co.id/Boss-VE-8-Acoustic-Singer-Adaptor-VE8-Effect-vocal-Efek-Vokal-i.31171541.6641453484) |
+
+Remaining:rotary/button totals,screen diagonal/color/touch,full processing ceilings,USB power/DCvoltage/polarity,editor/driverOS/channels/rates,imports,usedcondition/currentstock/bundles. No legacy source deleted.
