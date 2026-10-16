@@ -1787,3 +1787,37 @@ Manufacturer PDF includes paired printed pages and appended USB/DAW guides; USB 
 [ZG21-S]: https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g21u/g21u-support/
 [ZG21-O1]: https://shopee.co.id/ZOOM-G2.1u-multi-efek-i.286315490.24194949415
 [ZG21-O2]: https://shopee.co.id/Efek-Gitar-Zoom-G2.1u-i.25192604.25866062376
+
+## GFX-3
+
+Guitar multi-effects;distinct from GFX-5/G3. Checked2026-10-17;partial. Manufacturer discontinued. Bass/vocal suitability and ownership unverified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal;full depression toggles assigned module. Per-patch DRIVE/MOD/REV-DLY/volume assignment;volume precedes MOD. Calibration adjusts switching point. External support unverified. | [Manual pp15–16][GFX3-M] |
+| K/F/B | **4 rotary /3 main footswitches**:VALUE plusDRIVE,MOD,REV-DLY selectors. Separate-button count unverified;toe and power additional. | [Manual pp4–5][GFX3-M] |
+| Display | **Two-digit seven-segment LED**;diagonal,color,touch unverified. | [Manual p24][GFX3-M] |
+| Dimensions / mass | **323W×175.5D×70H mm;2.2kg without batteries**. | [Manual p24][GFX3-M] |
+| Processing / category choices | Advertised**50 types**. Specifications**7modules**,overview says**8**,all usable together;conflict unresolved. COMP/ISO2;ZNR/Gate2;DRIVE20distortion+2acoustic variants;EQ1;CAB7;MOD11;REV/DLY11. Counts/parameters do not reconcile automatically to50. | [Manual pp17–24][GFX3-M] |
+| Factory / user memory | **120=60user+60preset**,ready-to-use;20banks×3 eachgroup. Presets read-only;STORE edits into user area. | [Manual pp3,12–14,23][GFX3-M] |
+| Synth / acoustic | ACFAT/ACBRI acoustic simulations. SFX uses random/envelope processing;dedicated synthesizer architecture unverified. | [Manual pp19–20][GFX3-M] |
+| I/O | Mono¼guitar input470kΩ;stereo¼line/headphone output;DC. Documented rear has no USB/MIDI/external-control jack. | [Manual pp4,24][GFX3-M] |
+| Power / battery / USB | **9VDC center-negative,AD0006 300mA supply**,not draw. FourAA alkaline~11h;no recharging. USB power unverified. | [Manual pp2,24][GFX3-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified;factory cabinets do not establish imports. | Unresolved |
+| Editor / software | Editor/platform support unverified;support lists manual. | [Support][GFX3-S] |
+| Looper / drums / live | Delay1.5s;combined delay/reverb500ms. Energizer remains active in bypass. Phaser/wah/slowattack/ring offer pre-DRIVE/post-CAB position. Looper,drums,scenes,trails unverified. | [Manual pp20–22,24][GFX3-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;title does not establish condition. | — |
+| New | Unknown;no qualified new offer established. | — |
+| Conditional historical offer | **Rp700,000;Habis**, HIKARI DISTRO,Kab.Bandung;shop17427578/item44205264506. Checked2026-10-17;three-month rendered cache,stale30June delivery. Condition,working state,revision,adapter/bundle,warranty,voucher eligibility unknown. Late-arrival compensation notdiscount;not currentstock/completedsale. | [Exact hardware][GFX3-O] |
+
+Module/type headline conflicts remain explicit. The 11 DRIVE selector positions have CLASSIC/STANDARD variants,including two acoustic choices;20distortion does not include those two. Cabinet selection is a DRIVE parameter;its separate signal-block depiction does not prove independent cabinet-only operation. No GFX-5/G3 specifications transferred. Only web-rendered text inspected;no document,software,firmware or dependency downloaded.
+
+[GFX3-M]: https://zoomcorp.com/media/documents/E_GFX3.pdf
+[GFX3-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-3/gfx-3-support/
+[GFX3-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-3/
+[GFX3-O]: https://shopee.co.id/Multi-FX-ZOOM-GFX-3-i.17427578.44205264506
