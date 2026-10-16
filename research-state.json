@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Full root migration audit and fresh discovery",
-    "task": "PE100 and G3Xn added; do not duplicate. Continue fresh exact Shopee hardware discovery and unresolved primary-field research one model per commit; complete lossless legacy/source extraction audit remains outstanding.",
+    "model": "POD Express Bass lossless repair",
+    "task": "Audit found omitted original URLs in POD Express Bass (five) and G11(one). Guitar full body restored and Yamaha dimensions reverified. Read complete Bass legacy/root sections,repair one model and commit before G11. Then broaden exact body/section/URL audit, fresh discovery and unresolved fields. Do not treat URL presence as full lossless proof.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -9587,6 +9587,21 @@
         "(../RESUME.md)": "(effects/RESUME.md)"
       },
       "status": "Complete GR-55 body/supporting facts/correction provenance retained; primary US specs and1.50 additions rechecked; seller-labelled used GK3 bundle qualified."
+    },
+    {
+      "models": [
+        "Line 6 POD Express Guitar"
+      ],
+      "model_name": "POD Express Guitar",
+      "destination": "LINE6.md#pod-express-guitar",
+      "source": "effects/findings/2026-10-15-line6-pod-express-guitar.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "LINE6-PE-GUITAR",
+      "source_sha256": "dbbcf37cc73d75ff2215c67044a273e293769c045b37c15f5427ddbc68b7e806",
+      "renamed_references": [],
+      "retained_comparison_facts": [],
+      "scope": "Complete original body restored with all six missing URLs and historical contradictions. Fresh primary Yamaha dimensions and App Store iOS minimum correct earlier root regressions; no model added, no source removed."
     }
   ],
   "discovery_leads": [
@@ -10132,7 +10147,24 @@
       "Fender Tone Master Pro",
       "Valeton GP-200LT",
       "MOOER GE250"
-    ]
+    ],
+    "url_audit": {
+      "date": "2026-10-17",
+      "scope": "Original finding_files URL presence against destination brand file,not proof of exact model-section coverage or full body preservation.",
+      "finding": "Three model destinations had omissions. POD Express Guitar repaired first and must be committed before other models.",
+      "pending": [
+        {
+          "model": "Line 6 POD Express Bass",
+          "source": "effects/findings/2026-10-15-line6-pod-express-bass.md",
+          "missing_url_count": 5
+        },
+        {
+          "model": "Zoom G11",
+          "source": "effects/findings/2026-10-15-zoom-g11.md",
+          "missing_url_count": 1
+        }
+      ]
+    }
   },
   "deferred_work": {
     "original_display_idr_pages_remaining": [
@@ -10215,7 +10247,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Full root migration audit and fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume POD Express Bass lossless repair."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

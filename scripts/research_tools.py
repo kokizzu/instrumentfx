@@ -88,7 +88,7 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
-    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn'):
+    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation'):
         verify()
         for check in ('test-fields', 'test-extraction', 'test-selection', 'verify'):
             subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
@@ -98,6 +98,9 @@ def main():
             paths += ['MOOER.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-g3xn':
             paths += ['ZOOM.md', 'MULTI-EFFECTS.md']
+        if mode == 'commit-pod-express-guitar-preservation':
+            paths += ['LINE6.md']
+            subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         changed = set(git('diff', '--name-only').splitlines())
         assert changed <= set(paths), changed - set(paths)
         git('add', '--', *paths)
@@ -107,6 +110,8 @@ def main():
             message = 'research(mooer): add PE100 portable multi-effects with qualified Shopee evidence'
         if mode == 'commit-g3xn':
             message = 'research(zoom): add G3Xn with qualified used offers and revision limits'
+        if mode == 'commit-pod-express-guitar-preservation':
+            message = 'fix(line6): restore complete POD Express Guitar provenance and dimensions'
         print(git('commit', '-m', message))
     elif mode == 'verify':
         verify()

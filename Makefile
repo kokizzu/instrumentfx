@@ -597,3 +597,7 @@ research-commit-pe100:
 .PHONY: research-commit-g3xn
 research-commit-g3xn:
 	python3 scripts/research_tools.py commit-g3xn
+
+.PHONY: research-commit-pod-express-guitar-preservation
+research-commit-pod-express-guitar-preservation:
+	python3 scripts/research_tools.py commit-pod-express-guitar-preservation

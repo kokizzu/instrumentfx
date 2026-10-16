@@ -107,12 +107,13 @@ The existing standard record originated in commit `4f82a0b2893f2ec4b9bf7a01a45da
 
 **New model, checked2026-10-15.** The2024-generation POD Express Guitar is not the older Pocket POD Express, POD Express Bass, or POD Express Black. It is a fixed-chain guitar multi-effects processor; no built-in expression. The current edit application must not be omitted because an older launch document mentioned only updating.
 
+<!-- comparison evidence begins -->
 | Required field | Verified value / explicit remaining gap |
 |---|---|
 | Expression | No built-in pedal; **one TRS VOLUME/FS3,4 socket** accepts a volume expression pedal, two external switches, or a pedal plus one switch with the specified cable. Arbitrary expression control of every effect parameter is not established. [PE-G,PE-M] |
 | Physical controls | **6 rotary /2 footswitches /1 button**: AMP push-encoder,four effect knobs,side volume thumbwheel;ON and TAP;ALT button. Encoder press is not a second button. [PE-G] |
 | Screen | **No graphical or numeric screen**. Seven multicolor LED segments and switch indicators show state/tuning/parameters; they are not a color LCD. Screen diagonal/color-mode N/A; touchscreen No. [PE-G] |
-| Dimensions / mass / size bin | Manufacturer-backed W×D×H and mass **not established in the inspected primary sources**. Do not promote reseller92×130×56mm/350g to a verified specification or estimate from photos. Size bin remains unverified. |
+| Dimensions / mass / size bin | **92 W ×130 D ×56 H mm;350 g**, compact. Yamaha manufacturer announcement2024-03-06 explicitly names Guitar/Bass; reopened2026-10-17. Battery inclusion in mass remains unverified. [Yamaha primary announcement](https://www.yamaha.com/ja/news_release/2024/24030601/) |
 | Simultaneous processing | **Four category-selected effects plus amp and cabinet**, with gate and volume functions. Fixed serial order; not eight freely assignable blocks or a parallel chain. Looper shares the Delay selector rather than adding another independent delay engine. [PE-M] |
 | Library | **7 amps,7 cabinets,17 effect choices including the looper**. Effect categories: Distortion4,Modulation4,Delay4,Reverb4,Looper1. Gate/volume are separate utilities, not additional entries in the advertised17. [PE-G,PE-M] |
 | Distortion choices | Boost,Overdrive,Distortion,Fuzz. |
@@ -125,7 +126,7 @@ The existing standard record originated in commit `4f82a0b2893f2ec4b9bf7a01a45da
 | Data/control | USB-C for recording,reamp and editing;one shared external-control socket as above. No physical DIN/TRS MIDI connection documented; do not infer general MIDI functionality from an operating system's Audio MIDI Setup name. |
 | Battery / DC / USB power | **3 AA** or **9V center-negative,2.1mm pin,at least500mA/4.5W supply**; adapter sold separately. **USB-powered operation explicitly unsupported.** Plugging into the instrument input switches battery operation on. Supply rating is not measured draw. [PE-F,PE-M] |
 | Battery runtime | Manufacturer typically at least6h alkaline,up to10h under ideal conditions; headphones,DSP and interaction affect this. Rechargeable AA chemistry may work but changes battery indication/runtime; internal recharging is not established. [PE-F] |
-| Configuration | **POD Express Edit Windows/macOS/iOS/iPadOS/Android**, full editing and preset management,requires hardware2.00+. Desktop firmware updates through Line6 Central1.02+; Linux full editor not established. [PE-R,PE-M,PE-F] |
+| Configuration | **POD Express Edit Windows/macOS/iOS/iPadOS/Android**, full editing and preset management,requires hardware2.00+. Current Line6 App Store1.10 listing,checked2026-10-17,requires **iOS/iPadOS14+**; this mobile package is not the separate desktop editor. Desktop firmware updates through Line6 Central1.02+; Linux full editor not established. [PE-R,PE-M,PE-F], [App Store](https://apps.apple.com/gb/app/pod-express-edit/id6504572519) |
 | USB audio | **4-in/4-out,24-bit/48kHz**; processed recording1/2,dry3/4,USB3/4 reamp. Windows ASIO driver; macOS/iOS/Android class compliant. Power still comes from batteries/DC,not USB. [PE-M,PE-F] |
 | Looper / live features | **30-second stereo looper**,post-processing,one-switch control,undo/redo;selecting it replaces the Delay-category effect. Changing presets,exiting looper mode or power-off clears the loop. Tuner,tap and assignable external switches; internal drums not established. [PE-M] |
 
@@ -150,6 +151,52 @@ The2.00 manual has inconsistent OS-minimum tables: its introduction lists macOS1
 [PE-R] [Official resources and editor description](https://line6.com/podexpress/resources).
 
 [PE-M] **Line6/Yamaha-authored2.00 Owner's Manual,RevE,2024**, [original complete manual text](https://device.report/m/308188e1724d71b19719491ca6b3176709d7ead87c9a2e25f72e6ce38aee9a57). Used the actual manual's controls,signal-flow,model tables,looper,preset,USB and editor sections,not generated retailer/mirror summaries. Direct PDF retrieval failed; no successful PDF visual inspection is claimed. The official product's numbered panel independently supports controls and screen absence. Conflicting OS-minimum tables remain recorded.
+
+<!-- comparison evidence ends -->
+
+### POD Express Guitar — correction and preserved original finding
+
+On2026-10-17 the migration audit found omitted source URLs and a root dimensions regression. The earlier root statement was: Manufacturer-backed W×D×H and mass **not established in the inspected primary sources**. Do not promote reseller92×130×56mm/350g to a verified specification or estimate from photos. Size bin remains unverified. Yamaha’s original announcement now directly verifies the figures. The original2026-10-15 finding below retains all facts,URLs,price dates and OS/manual qualifications. Its App Store minimum14+ was independently rechecked; conflicting old manual OS tables remain historical evidence. The original factory-filled seven-preset statement is retained as a dated manual finding,not a fresh inspection of a device. No source deleted.
+
+<!-- LINE6-PE-GUITAR source begins -->
+
+Reviewed **2026-10-15**. Compact guitar multi-effects; no built-in expression. Separate from POD Express Bass and Black. Specifications use Line6/Yamaha sources, not retailer feature flags.
+
+### Required comparison
+
+| Field | Result and evidence |
+|---|---|
+| Expression / controls | External volume expression or up to two footswitch functions through one shared 6.35 mm TRS socket; no built-in pedal. **6 rotary /2 footswitches /1 ALT button**: five front rotary controls plus side volume thumbwheel; encoder press counted once [P] |
+| Dimensions / weight | **92 W ×130 D ×56 H mm;350 g**, compact. Battery inclusion in stated weight is not explicit [Y] |
+| Display | **No screen**; seven multicolor LED segments and status LEDs, not a graphical or numeric screen. Screen diagonal/color N/A; touchscreen No [P] |
+| Architecture | Up to **8 fixed stages**, serial: gate, drive, amp, cab, volume, modulation, delay/looper, reverb. Four effect categories are not freely assignable or duplicable; selecting the looper replaces delay [L,M] |
+| Choices | **7 amps,7 cabs; drive4,modulation4,delay4,reverb4,plus one looper =17 advertised effects**. Gate/volume utility stages are not additional selectable amp models. No synth/acoustic-simulator algorithm is identified in this Guitar model's inspected library [P,M] |
+| Presets | **21 fully overwriteable locations;7 factory-filled** according to RevE manual. Not7 factory plus21 user slots [P,M] |
+| IR / NAM | Factory cabinets selectable independently from amps. **Third-party IR, native/converted NAM and user amp-capture loading not established**; preset import is not model/IR import [M] |
+| Audio I/O | One6.35 mm mono input; two6.35 mm main outputs; separate3.5 mm stereo headphones; shared external EXP/FS; USB-C and DC. No analog aux input, FX loop, microphone/phantom or physical MIDI port in full inventory [P] |
+| Output type | Official KB specifies **impedance-balanced TRS outputs**, not fully differential balanced outputs. A TRS socket is not a second stereo headphone output [K] |
+| Power | **Three AA batteries or9 V center-negative adapter, at least500 mA/4.5 W**, 2.1 mm center pin. **Cannot run on USB power**, explicitly documented. Adapter rating is not measured current draw [M,F] |
+| Apps | **POD Express Edit Windows/macOS/iOS/Android**, editing, backup and presets; firmware2.00+ required. Current App Store requires **iOS/iPadOS14+**, superseding the manual's older12.1 minimum. Desktop firmware updates require Mac/Windows; mobile editing is not mobile firmware updating [M,A,G] |
+| USB audio | **4-in/4-out,24-bit/48 kHz**, dry recording, reamp and playback. Windows ASIO; Mac/iOS/Android class support. Device-specific USB-host compatibility still matters [F,L,M] |
+| Practice/live | **30-second stereo looper**, undo/redo, tap tempo, chromatic tuner, preset preselection and programmable switches. No internal drum machine established [L,M] |
+
+### Separate IDR evidence
+
+**Retail ask Rp3.030.000**, [Seven Stereo, Shopee shop16879370/item26763471564](https://shopee.co.id/Line-6-POD-Express-Guitar-INT-P38-1-i.16879370.26763471564). The page reopened with **service unavailable**; it is not verified current stock. **Used IDR unknown**. Condition, selected accessories, warranty, regional variant and delivery cost are not independently verified; no completed-sale or active-range claim.
+
+### Primary sources and qualifications
+
+[P] [Official Guitar product and numbered controls/ports](https://line6.com/podexpress/guitar-effects).
+[Y] [Yamaha manufacturer announcement,2024-03-06](https://www.yamaha.com/ja/news_release/2024/24030601/), exact body dimensions and weight for Guitar/Bass.
+[L] [Yamaha Music London specification](https://www.yamahamusiclondon.com/POD-Express-Guitar/pidGPODEXPRESSGT), eight fixed blocks and interface/looper specification. Yamaha Singapore's much larger dimension/weight table is not used as a unit-size measurement; its scope is unclear against the manufacturer announcement.
+[F] [Official family FAQ](https://kb.line6.com/pod-express-guitar-pod-express-bass-pod-express-black-faq), explicit USB-power exclusion, audio support and battery-runtime qualifications.
+[K] [Official input/output electrical specification](https://kb.line6.com/pod-express-input-and-output-specs).
+[A] [Line6 developer App Store listing](https://apps.apple.com/gb/app/pod-express-edit/id6504572519).
+[G] [Yamaha Guitar Group developer Google Play listing](https://play.google.com/store/apps/details?id=com.line6.podexpressedit&hl=en).
+[M] Manufacturer **2.00 RevE manual**, [original text mirror](https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual), covering the named Guitar/Black/Bass variants; printed pp.8,16,39 for power, memory and software. The older [RevC PDF](https://manuals.plus/m/8df05a2926e246f18ea670acc356bb3549d114f2273679b94fff0b4498713194.pdf) parsed successfully but attempted screenshots failed. Its seven-block prose disagrees with its eight-stage diagram and Yamaha's eight-block specification; explicit signal stages are retained rather than silently combining categories. No successful PDF visual inspection is claimed.
+
+Remaining: weight battery inclusion, any later undocumented loading capability and current condition-specific price evidence. **Next: POD Express Bass**, whose effect categories differ from Guitar.
+<!-- LINE6-PE-GUITAR source ends -->
 
 ## POD Express Bass
 
