@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-VE primary follow-up",
-    "task": "PERFORM-VE: regionalbody/power/TRSspecssaved withmanufacturercorroborationpending. Finish fullcontrolinventory,categorycounts,display,IR/poweroperation andMIDIclockconflict;thenfreshShopeediscovery.",
+    "task": "PERFORM-VE category counts and AUX/Morph contradictions saved. Remaining fullcontrolinventory,expression/display/manufacturerpowercorroboration,IR/NAM andlooperlength unresolved. Next freshShopeediscovery bybrand/series;do notclaimVEfullyverified.",
     "next_models": [],
     "after_queue": "FreshShopeediscovery remainsnecessary."
   },
@@ -3215,6 +3215,11 @@
         "power": "12VDCcenternegative1Aadapter;QSG>1Adifference retained",
         "ports": "ImpedancebalancedTRSLR,3.5mmstereoheadphones,unbalancedAUX",
         "access": "HTMLreadable;linkedQSGcachemiss;manufacturercorroborationpending"
+      },
+      "category_followup": {
+        "counts": "Double4,Morph11positions,XFX7,Filter5,Sample4modes;HardTuneNP12keysChromatic",
+        "conflicts": "Morphprose8vocoder vsappendix9;AUXguidance deniedthenasserted",
+        "routing": "FlangeandLPFbothlooptracks;sidechainaudionotdrums;AUXmainexclusionvolatile;RoomSenseheadphonesmutesmain"
       }
     }
   ],
