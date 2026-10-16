@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A1X FOUR followup and remaining discovery",
-    "task": "A1X FOUR first pass saved separately from A1 FOUR;resolve indexed manual controls/toe/DSP and other explicit gaps. Next untouched discovery lead MS-50G needs exact Shopee/primary-source checks. Commit each model before the next;legacy navigation audits remain.",
+    "task": "A1X FOUR manual followup confirms toe switch,onePEDALlimit,K/F/B,DSPoverflow and save/swap. Next untouched MS-50G exact Shopee discovery;commit each model before next. Legacy source/navigation audits remain.",
     "next_models": [
       "Zoom MS-50G exact hardware lead"
     ],
@@ -946,7 +946,8 @@
       "sources": [
         "https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/",
         "https://zoomcorp.com/documents/119/E_A1FOUR.pdf",
-        "https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf"
+        "https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf",
+        "https://zoomcorp.com/media/documents/E_A1FOUR_QuickGuide.pdf"
       ],
       "offers": [
         {
@@ -975,15 +976,23 @@
         }
       ],
       "unresolved": [
-        "toe/fullKFB/externalEXP",
+        "externalEXP",
         "screen",
-        "category/synth/DSP",
-        "save rules",
+        "category/synth inventory",
+        "fullsave/cancelconfirmation",
         "ports/import workflows",
         "editorOS/USBaudio/supply",
         "looper",
         "qualifiedcondition/stock"
-      ]
+      ],
+      "manual_followup": {
+        "checked_date": "2026-10-17",
+        "access": "Official indexed primary text only;no downloads",
+        "expression": "Toe/front-end toggles PEDAL effect without saving ON/OFF;one PEDAL effect per patch",
+        "controls": "4knobs/2mainfootswitches/11buttons;derived panel total;toe separately",
+        "DSP": "Overflow bypass on processing capacity or3effects each5+parameters;delete/change to recover",
+        "memory": "AUTO SAVEONretains edits;OFFprompts at patchchange;SAVE overwrite/SWAP destination via arrows/bankbuttons,confirmbothfootswitches;completecancel sequence unresolved"
+      }
     }
   ],
   "consolidation_and_price_findings": [

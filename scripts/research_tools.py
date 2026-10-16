@@ -220,7 +220,7 @@ def main():
         if mode == 'commit-ms60b':
             message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-a1xfour':
-            message = 'research(zoom): add A1X FOUR with model-specific expression and acoustic bass scope'
+            message = 'research(zoom): verify A1X FOUR toe controls DSP limits and patch saving'
         if mode == 'commit-a1four':
             message = 'research(zoom): document A1 FOUR synth algorithms and additional-effect scope'
         if mode == 'commit-b3n':
