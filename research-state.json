@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-VE primary follow-up",
-    "task": "PERFORM-VE: finish full physical control/connector inventory,body/power/display andcategory accounting. Preserve MIDIclock conflict; app availability andprices remainunverified. Commit before anothermodel.",
+    "task": "PERFORM-VE: regionalbody/power/TRSspecssaved withmanufacturercorroborationpending. Finish fullcontrolinventory,categorycounts,display,IR/poweroperation andMIDIclockconflict;thenfreshShopeediscovery.",
     "next_models": [],
     "after_queue": "FreshShopeediscovery remainsnecessary."
   },
@@ -3173,7 +3173,8 @@
       "sources": [
         "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/M_TH_0726-AAR_PERFORM-VE.pdf",
         "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/QSG_TH_0726-AAR_PERFORM-VE_WW.pdf",
-        "https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf"
+        "https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf",
+        "https://www.electori.co.jp/tc-helicon/vocal/perform_ve.php"
       ],
       "access": "Officialindexedp4andQSG10–11;direct502;exactrevisionunverified",
       "offer": {
@@ -3207,6 +3208,13 @@
       "physical_followup": {
         "verified": "One rotary,LED ring;XLR phantom input,balanced6.35mm outputs,3.5mmAUX,headphones,PEDAL,miniUSB,5pinMIDIin;globalmix volatile;headphoneadjust requireslooperasure",
         "limits": "Text-derived partial panelinventory;no totalbuttoncount orscreenabsence assertion"
+      },
+      "regional_spec_followup": {
+        "source_type": "Japanese regional distributor,not manufacturermanual",
+        "body": "167x170x92mmWxDxH;0.48kg",
+        "power": "12VDCcenternegative1Aadapter;QSG>1Adifference retained",
+        "ports": "ImpedancebalancedTRSLR,3.5mmstereoheadphones,unbalancedAUX",
+        "access": "HTMLreadable;linkedQSGcachemiss;manufacturercorroborationpending"
       }
     }
   ],
