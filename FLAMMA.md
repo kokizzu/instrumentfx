@@ -88,8 +88,9 @@ These sum to **151**, including amps/cabinets. The three AMP acoustic entries ex
 
 ## FX200
 
-**Preserved technical/price date: 2026-10-14. Partial.** Not FX200B.
+**Original technical/price date:2026-10-14. Support/store follow-up2026-10-17. Partial.** Standard FX200,not battery FX200b; new software observations do not certify all older specifications.
 
+<!-- comparison evidence begins -->
 | Field | Verified finding / unresolved qualification |
 |---|---|
 | Expression / controls | Built-in with toe switching; external EXP2. **2/4/0**; power/ground switches separate. |
@@ -99,8 +100,10 @@ These sum to **151**, including amps/cabinets. The three AMP acoustic entries ex
 | Presets | **200 editable locations**; factory-filled subset ?. |
 | Acoustic / synth | No electric-to-acoustic simulator identified in checked appendix; dedicated synth ?. |
 | Ports | Mono6.35 mm instrument input;two6.35 mm outs;two XLR outs;mono send/return;3.5 mm AUX/phones;EXP2;**one DIN MIDI socket selectable IN or OUT**;USB-C. |
-| Power | **9 V center-negative,at least1 A adapter**. Battery/USB operation not established. |
-| IR / NAM | **50 user IRs**,WAV24-bit/44.1 kHz,**1024 points**. NAM/captures unverified. |
+| Power | **9 V center-negative,at least1 A adapter** in original manual finding. Manufacturer store explicitly reserves the3000mAh battery for **FX200b**,not standardFX200. USB bus power remains unverified. [Store](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
+| IR / NAM | **50 user IRs**,WAV24-bit/44.1kHz,**1024 points**. Current store explicitly says editor supports sample-rate conversion; accepted source-rate range and on-device arbitrary-rate playback are not thereby established. NAM/captures unverified. [Store](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
+| Firmware / editor | [Official support index](https://www.flamma.shop/pages/manual),checked2026-10-17,lists Windows/Mac **software1.1.3 and2.0.1**. Its **FX200 V2.0.0 history** adds dual-group footswitch mode,volume-pedal PRE/POST placement,EQ Level,encoder chain adjustment and revised Favorite-mode logic. Software-package2.0.1 is not proof of installed hardware firmware. Updating is documented to reset factory settings; manufacturer requires backup through the old editor. Packages were not downloaded or run. |
+| FX-loop routing conflict | Original manual finding: mono SEND/RETURN. Current store overview calls it stereo,but detailed connector text says6.35mm unbalanced mono. Preserve internal source conflict; no extra stereo sockets inferred. PRE/POST placement is advertised. [Store](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
 | Apps / practice | **Windows/macOS editor**;USB audio is not mobile editing. **52-second stereo looper,PRE/POST;80 drum variations +10 metronomes**;delay/reverb spillover. |
 
 | FX | DS | AMP | CAB | NR | EQ | MOD | DLY | REV | Numbered sum |
@@ -114,6 +117,52 @@ The manual feature text says160; the table arithmetic says161. No silent correct
 Retail **Rp4.999.000**, [Seven Stereo Grey/Pink variations, shop16879370/item20579405424](https://shopee.co.id/FLAMMA-FX200-Multi-Effect-Processor-i.16879370.20579405424); separate **Rp5.047.000**, [NEO MUSIC Pink, shop158235298/item23657068790](https://shopee.co.id/FLAMMA-FX200-Pink-Guitar-Multi-Effects-i.158235298.23657068790). Used **?**. Individual asks,not verified stock or completed sales. [Nafiri website Pink](https://nafiriguitar.com/products/flamma-fx200-guitar-multi-effects-in-pink) **Rp4.773.000** had conflicting Sold out/Add to cart markers; neither confirmed stock nor a Shopee amount.
 
 Sources: [manufacturer manual V01,2022-08-08](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX200_Manual_EN_V01_2022.08.08-G.pdf?v=1671100677), [software index](https://www.flamma.shop/pages/manual). Original review visually checked pp.3–6,20–23,43–62. No renewed technical certification in this merge. Remaining: effect-count/axis conflicts,current firmware,touch-independent device details,used prices and exact retail variants.
+
+<!-- comparison evidence ends -->
+
+### FX200 — complete dated original finding
+
+The current support/store additions above are2026-10-17 observations. The full2026-10-14 finding below retains every original specification,qualification,price,URL and visual-inspection statement. No new PDF inspection or device execution was performed; historical unknowns are not substituted for later evidence. The160/161 effect-count and axis-label conflicts remain unresolved.
+
+<!-- FLAMMA-FX200 source begins -->
+
+Checked **2026-10-14**. **Partial new model**, not FX200B. [Manufacturer manual][FLAMMA-FX200-M], printed pp.3–6, 20–23, 43–62, visually checked; [software downloads][FLAMMA-FX200-D].
+
+| Field | Established / unknown |
+|---|---|
+| Expression | Built-in with toe switching; external EXP2 |
+| Controls | **2 rotary /4 footswitches /0 separate buttons**; power/ground switches separate |
+| Display | **5-inch color LCD touchscreen: yes** |
+| Size / weight | **343×170×55 mm; 1780 g**; manual labels this D×W×H despite the wide layout. W/D labeling unresolved; **large either way** |
+| Processing | **10 modules**, including FX loop; 160 advertised choices; count discrepancy below |
+| Presets | **200 editable**, factory-filled subset ? |
+| Acoustic / synth | No electric-to-acoustic simulator identified in checked list; synth ? |
+| Ports | ¼-inch instrument input; 2×¼-inch outputs; 2×XLR outputs; mono FX send/return; ⅛-inch aux/phones; EXP2; **one DIN MIDI port selectable IN or OUT**; USB-C |
+| Power | **9 V center-negative, ≥1 A adapter**; battery/USB operation not established |
+| IR / NAM | **50 user IRs**, WAV 24-bit/44.1 kHz, **1024 points**; NAM ? |
+| Apps | **Windows/macOS editor**; USB audio, not proof of mobile editing |
+| Extras | **52 s stereo looper**, pre/post; **80 drum variations +10 metronomes**; delay/reverb spillover |
+
+### Manual category-count conflict
+
+| FX | DS | AMP | CAB | NR | EQ | MOD | DLY | REV |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 8 | 22 | 58 | 30 | 3 | 4 | 20 | 9 | 7 |
+
+The numbered tables sum to **161**, whereas the feature/specification text says **160**. Both are preserved; no silent correction or invented firmware explanation. Nine algorithm categories plus FX-loop module do not mean ten unrestricted slots.
+
+### Shopee Indonesia
+
+**Rp4.999.000**, [Seven Stereo, Grey/Pink variations][FLAMMA-FX200-S1]; **Rp5.047.000**, [NEO MUSIC Pink][FLAMMA-FX200-S2]. Individual retail asks, not stock-verified or completed sales. Used quote **?**. A separate [Nafiri website quote][FLAMMA-FX200-L] is **Rp4.773.000** for Pink, with conflicting Sold out/Add to cart elements; it is neither confirmed stock nor a Shopee price.
+
+[FLAMMA-FX200-M]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX200_Manual_EN_V01_2022.08.08-G.pdf?v=1671100677
+[FLAMMA-FX200-D]: https://www.flamma.shop/pages/manual
+[FLAMMA-FX200-S1]: https://shopee.co.id/FLAMMA-FX200-Multi-Effect-Processor-i.16879370.20579405424
+[FLAMMA-FX200-S2]: https://shopee.co.id/FLAMMA-FX200-Pink-Guitar-Multi-Effects-i.158235298.23657068790
+[FLAMMA-FX200-L]: https://nafiriguitar.com/products/flamma-fx200-guitar-multi-effects-in-pink
+
+**Next:** reconcile effect totals and dimension labels against current firmware/manual, verify used prices and exact selected variants. A programmable single MIDI socket is not simultaneous separate MIDI IN and OUT.
+<!-- FLAMMA-FX200 source ends -->
 
 ## FX150
 

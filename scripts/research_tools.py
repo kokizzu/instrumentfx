@@ -88,7 +88,7 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
-    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation', 'commit-arena-preservation', 'commit-fx100-preservation'):
+    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation', 'commit-arena-preservation', 'commit-fx100-preservation', 'commit-fx200-preservation'):
         verify()
         for check in ('test-fields', 'test-extraction', 'test-selection', 'verify'):
             subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
@@ -107,7 +107,7 @@ def main():
         if mode == 'commit-arena-preservation':
             paths += ['DONNER.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
-        if mode == 'commit-fx100-preservation':
+        if mode in ('commit-fx100-preservation', 'commit-fx200-preservation'):
             paths += ['FLAMMA.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         changed = set(git('diff', '--name-only').splitlines())
@@ -129,6 +129,8 @@ def main():
             message = 'docs(donner): verify complete Arena2000 legacy finding retention'
         if mode == 'commit-fx100-preservation':
             message = 'research(flamma): retain FX100 original and qualify mass and USB evidence'
+        if mode == 'commit-fx200-preservation':
+            message = 'research(flamma): preserve FX200 source and qualify versioned routing'
         print(git('commit', '-m', message))
     elif mode == 'verify':
         verify()
