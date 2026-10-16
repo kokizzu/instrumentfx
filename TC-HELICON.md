@@ -246,7 +246,7 @@ Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression / K/F/B | External pedal input,quarter-inch TRS;10 footswitches. Built-in expression,toe andcomplete knob/button counts unresolved. | [Manual][VL3X-M] pp195,198 |
+| Expression / K/F/B | Two external expression pedals supported: Expression jack assignment per preset;Footswitch jack configured as Expression has global assignment. Calibration andMinPos/MaxPos ranges documented. 10 footswitches;four Mix knobs plusControl knob documented;complete physical knob/button count,built-in/toe remain unverified. | [Manual][VL3X-M] pp43,88,92–93,195,198 |
 | Display | 192×64 blue STN LCD,white backlight. Capacitive edit controls do not establish touchscreen;diagonal unknown. | [Manual][VL3X-M] p195 |
 | Dimensions / weight | 350W×216D×76H mm;2.3kg. Large footprint. | [Manual][VL3X-M] p195 |
 | Processing / choices | Independent vocal and guitar layers. Vocal harmony,HardTune,delay,reverb,µMod; guitar amp,drive,delay,reverb,compression,wah,octaver. Simultaneous ceiling/category subtotals unresolved. | [Manual][VL3X-M] contents,pp194–195 |
@@ -254,12 +254,13 @@ Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17
 | Synth / acoustic | Vocal Synth/vocoder documented; dedicated guitar synth/acoustic simulation unverified. | [Manual][VL3X-M] pp135–136,142,195 |
 | I/O | Combo XLR/TRS voice input;quarter-inch guitar input;balanced XLR monitor input/thru;3.5mm stereo AUX/headphones;balanced XLR vocal outputs;quarter-inch TRS guitar outputs/buffered thru;USB A/Mini-B,MIDI in/out5-pin DIN,pedal TRS. Exact output counts/control-socket inventory still require panel verification. | [Manual][VL3X-M] pp196–198 |
 | Phantom / mic control | +48V switchable in Setup; Condenser Mic input type activates it with temporary muting. MP-75/MP-76/e835fx enable microphone control. | [Manual][VL3X-M] p156,196,198 |
-| Power / battery / USB | External supply mains100–240V50–60Hz;consumption<14W. Device DC voltage,current,polarity,battery andUSB bus power unverified. | [Manual][VL3X-M] p198 |
+| Power / battery / USB | External supply mains100–240V50–60Hz;consumption<14W. Quick guide explicitly specifies12V DC input with supplied adapter. Current rating,polarity,battery andUSB bus power unverified. | [Manual][VL3X-M] p198; [Quick guide][VL3X-Q] p7 |
 | USB audio / MIDI | Stereo2-in/2-out,16-bit48kHz, generic Windows/OS X drivers. **USB audio and backing tracks mutually exclusive.** Stereo input feeds XLR/headphones; DAW Tracking return feeds headphones only. DAW Insert processes left via vocal and right via guitar path. Tracking-only output option sends dry vocal left and processed guitar right;other modes lock it. DIN MIDI present;USB MIDI scope pending. | [Manual][VL3X-M] pp85–87,198 |
 | IR / NAM / capture | Native/converted NAM,user IR andcapture import unestablished. | Unresolved |
-| Editor / platforms | VoiceSupport documented;editor versus updater/librarian scope andOS support unresolved. | [Manual][VL3X-M] contents |
+| Editor / platforms | VoiceSupport for Windows/Mac OS X: preset libraries,drag/drop management,firmware upgrades. Full patch-editor scope andcurrent OS compatibility unresolved;device USB audio drivers are separate. | [Quick guide][VL3X-Q] p3 |
 | Loop / backing-track imports | Loops: WAV16/24-bit44.1/48kHz;24/48 fastest. No MP3/AAX/FLAC loop import. 4/4,power-of-two bar lengths and no rendered tail for sync/tempo detection. Backing tracks use internal16-bit48kHz and can convert MP3/other WAV formats; do not conflate with loop imports. | [Manual][VL3X-M] pp73,143–144 |
 | Direct USB recording | FAT32 flash drive in host port;stereo main-output mirror includes backing tracks/loops. Maximum120min per recording;each start/stop creates a new file. Distinct from computer USB audio/backing-track exclusion. | [Manual][VL3X-M] p84 |
+| Backing-track automation / live | Records vocal/guitar effect footswitches,HIT/ALL HIT andSteps within preset;continuous parameter changes excluded. A playing backing track with a sequence prevents preset changes until pause/stop. Switch-3/6/STEP track-control assignments global. | [Manual][VL3X-M] pp79–80 |
 | Looper / drums / scenes | Loop tracks A/B/C,8min maximum per track; A plays while B/C swap. Last-overdub Undo/redo. Loop-slot total/storage limits,drums,scenes andtrails unresolved. Steps remain distinct. | [Manual][VL3X-M] contents,p195 |
 
 ### Separate IDR hardware offers
@@ -279,3 +280,7 @@ Remaining: complete controls/expression,processing choices,full port counts/cont
 
 [VL3X-M]: https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual
 [VL3X-O]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEG/VOICELIVE%203%20EXTREME_M_EN.pdf
+
+[VL3X-Q]: https://manualzilla.com/doc/6743797/voicelive-3-extreme---tc
+
+Quick-guide provenance: manufacturer-authored multilingual VoiceLive3 Extreme quick guide, English pp3/7; Extreme-specific features andconnections match reference record. Mirror inspected as supplemental evidence;exact print revision not exposed.

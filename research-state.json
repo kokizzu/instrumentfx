@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VoiceLive 3 Extreme primary follow-up",
-    "task": "VL3X loop duration/import formats anddirectUSBstick recording saved. Continue DC power,physical counts,loop storage/automation restrictions,currentsoftware andqualifiedoffers;commit before anothermodel.",
+    "task": "VL3X dual-expression,automation restrictions,12VDC andVoiceSupport functions saved. Continue processing counts,loop storage,DCcurrent/polarity andqualifiedoffers;commitbeforeanothermodel.",
     "next_models": [],
     "after_queue": "Resume fresh Shopee discovery;no exhaustivecoverageclaim."
   },
@@ -1681,7 +1681,8 @@
       "classification": "independent guitar and vocal multi-effects; bass unclassified",
       "sources": [
         "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEG/VOICELIVE%203%20EXTREME_M_EN.pdf",
-        "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual"
+        "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+        "https://manualzilla.com/doc/6743797/voicelive-3-extreme---tc"
       ],
       "manual_identity": "Manufacturer-authored VL3X reference manual,2015-10-20,firmware2.1.00build346; official endpoints502;mirror model/title/structure checked against official indexed Extreme identity;no current revision equivalence claim",
       "offers": [
@@ -1735,6 +1736,17 @@
           "FAT32host directstereo recording includes loops/backing tracks;120min limit,newfileeachstartstop"
         ],
         "remaining": "Loop slots/storage totals,automation limits,DC/control andothersavedgaps"
+      },
+      "expression_automation_power_followup": {
+        "checked_date": "2026-10-17",
+        "resolved": [
+          "Twoexpressionpedals:perpresetprimary/globalFootswitchjack;calibrationandrange",
+          "FourMixplusControlknobdocumented;completecountpending",
+          "AutomationrecordsswitchesandSteps,notcontinuousparameters;playingsequenceblocks presetchange",
+          "Quickguide12VDC input andWindows/MacVoiceSupportpresetmanagement/updater"
+        ],
+        "quickguide_identity": "Manufacturer-authored multilingual Extreme guide;Englishpp3,7;model/features/connections matchreference;printrevisionunexposed",
+        "remaining": "DCcurrent/polarity,fullphysicalcounts,loopstorage,processingtotals/imports,currentsoftwareandprices"
       }
     }
   ],
