@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "third Shopee expansion shared-source consolidation",
-    "task": "Third Shopee source4eligiblemodels/80fields preserved;verify union/navigation and commit. Next read complete shopee-multifx-4 through7,then discovery/history/ownership metadata and remaining navigation. FV01 remains excluded.",
+    "model": "fourth Shopee expansion shared-source consolidation",
+    "task": "Fourth Shopee source4Provariants/68fields preserved;verify union/navigation and commit. Next read complete shopee-multifx-5 through7,then discovery/history/ownership metadata and remaining navigation before source retirement.",
     "next_models": [],
     "after_queue": "Continue remaining technical gaps and fresh eligible Shopee discovery;historical queues/thresholds are not current state. No source retirement yet."
   },
@@ -16769,6 +16769,498 @@
       "retained_context": [],
       "retained_source_urls": [],
       "status": "Complete third Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "MOOER GE100 Pro"
+      ],
+      "model_name": "GE100 Pro",
+      "brand": "MOOER",
+      "destination": "MOOER.md#ge100-pro",
+      "source": "effects/shopee-multifx-4.md",
+      "source_sha256": "63bb680b8f9d93b8b9606dd3e0ef2d652d2ed1b137d94c5db922d49e27726d3c",
+      "source_model_aliases": [
+        "GE100 Pro",
+        "MOOER GE100 Pro"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "K/F/B",
+          "value": "**2/3/6**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "External expression / toe switch",
+          "value": "No EXP socket in complete guide; toe ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Published dimensions, mm; weight",
+          "value": "**255.7×144×53.5;760g**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Size classification",
+          "value": "Not compact; W/D labels pending for medium/large bin",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Display",
+          "value": "**3.5-inch color; touch ?**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Blocks and category choices",
+          "value": "**9 modules**, reorder/repeat advertised; exact DSP exceptions ?. Manufacturer **200+/240+** wording not reconciled; category subtotals ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**150=50×3**; factory/user split ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM / proprietary models",
+          "value": "User WAV **44.1kHz/24-bit/512 samples**, capacity ?; **NAM A2 conversion**, MNRS2.0 separate",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic simulator",
+          "value": "Specific algorithms ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Audio and control ports",
+          "value": "Mono1/4-inch input;2×1/4-inch unbalanced out;3.5mm stereo phones;**2 USB-C: data/audio and power**. No XLR/mic,analog aux,FX loop or DIN/TRS MIDI in complete guide",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Power / battery",
+          "value": "**5V/2A USB-C**; no internal Li battery",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Configuration and recording",
+          "value": "MOOER Studio **Win10+/macOS13+**; Cloud iOS/Android. USB recording/playback; channels ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Practice/live",
+          "value": "**80s stereo looper;40 grooves+10 metronomes**, tuner,Bluetooth audio",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Shopee retail/indexed evidence",
+          "value": "**Rp2.103.300**, LOBAJET; earlier snippet/voucher discrepancy unresolved. Separate **Rp5.729.000**,30-day preorder",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Separate local retailer / qualification",
+          "value": "GP Music **Rp1.750.000 sold out**. Do not combine conditional,preorder and historical amounts",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Findings commit",
+          "value": "`e048a3c9f0e4b1ff77023757ee3730604487e4d6`",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Immediate model commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete fourth Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "MOOER GE100 Pro Li"
+      ],
+      "model_name": "GE100 Pro Li",
+      "brand": "MOOER",
+      "destination": "MOOER.md#ge100-pro-li",
+      "source": "effects/shopee-multifx-4.md",
+      "source_sha256": "63bb680b8f9d93b8b9606dd3e0ef2d652d2ed1b137d94c5db922d49e27726d3c",
+      "source_model_aliases": [
+        "GE100 Pro Li",
+        "MOOER GE100 Pro Li"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "K/F/B",
+          "value": "**2/3/6**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "External expression / toe switch",
+          "value": "No EXP socket in complete guide; toe ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Published dimensions, mm; weight",
+          "value": "**255.7×144×53.5;856g**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Size classification",
+          "value": "Not compact; W/D labels pending",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Display",
+          "value": "**3.5-inch color; touch ?**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Blocks and category choices",
+          "value": "Same explicitly documented Pro-family architecture; not original GE100 specifications",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**150=50×3**; split ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM / proprietary models",
+          "value": "Same IR format; family A2 conversion, exact Li/region firmware restrictions ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic simulator",
+          "value": "Specific algorithms ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Audio and control ports",
+          "value": "Same expressly shared connector set",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Power / battery",
+          "value": "**7.4V2000mAh14.8Wh battery**;5V/2A charge/power;about9h rated. Current official bundle differs from non-Li; verify seller accessories",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Configuration and recording",
+          "value": "Same Pro-family applications; current iOS app minimum15.6+,Android minimum ?; Linux editor not established",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Practice/live",
+          "value": "Same documented looper/drums; measured runtime not established",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Shopee retail/indexed evidence",
+          "value": "**Rp2.923.526 WITH VOUCHER**, LOBAJET; separate **Rp1.734.000 SOLD OUT**,gpmusic.sby",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Separate local retailer / qualification",
+          "value": "Blibli LOBAJET **Rp3.499.000 explicitly Mandarin version**; not an English/global Shopee price",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Findings commit",
+          "value": "`1a8da46cab3c6deb4c224e7a92664658491c827c`",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Immediate model commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete fourth Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "MOOER GE200 Pro"
+      ],
+      "model_name": "GE200 Pro",
+      "brand": "MOOER",
+      "destination": "MOOER.md#ge200-pro",
+      "source": "effects/shopee-multifx-4.md",
+      "source_sha256": "63bb680b8f9d93b8b9606dd3e0ef2d652d2ed1b137d94c5db922d49e27726d3c",
+      "source_model_aliases": [
+        "GE200 Pro",
+        "MOOER GE200 Pro"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "K/F/B",
+          "value": "**2/5/7 + module-button row**; complete button total ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "External expression / toe switch",
+          "value": "EXP2 TRS; built-in toe switch yes",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Published dimensions, mm; weight",
+          "value": "**324×162×58 (L×W×H);1.6kg**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Size classification",
+          "value": "Large under either horizontal orientation",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Display",
+          "value": "**3.5-inch color LCD; touch ?**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Blocks and category choices",
+          "value": "**11 module types**, DSP-limited chain including FX LOOP. Original appendix: **FXA35,DS/OD28,POWERAMP9,EQ6,FXB38,DELAY11,REVERB9**. AMP/CAB/NS exact appendix subtotals not independently transcribed",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**255=85×3**; editable, factory-filled split ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM / proprietary models",
+          "value": "**20 user IRs up to2048 samples**, WAV44.1kHz/24-bit;20 separate MNRS amp slots; **NAM A2 conversion**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic simulator",
+          "value": "Current algorithms ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Audio and control ports",
+          "value": "**One mono input**,mono send/return;2×1/4-inch and2×XLR out;3.5mm phones;EXP2;**one DIN socket selectable IN/OUT**;USB-C",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Power / battery",
+          "value": "**9V/1A center-negative**; no internal Li battery; USB-powered operation ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Configuration and recording",
+          "value": "Studio Windows/macOS;Cloud iOS/Android preset/sample management,full mobile editing ?. **USB2-in/2-out24-bit44.1kHz**, MIDI,dry/wet,reamp",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Practice/live",
+          "value": "**60s looper;70 rhythms**,sync,tuner,tap,globalEQ,FX-loop serial/parallel,delay/reverb trails",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Shopee retail/indexed evidence",
+          "value": "**? per variant**; earlier mixed Pro/Pro Li item cannot supply a model-specific range",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Separate local retailer / qualification",
+          "value": "GMI **Rp5.800.000**, indexed available; not Shopee checkout evidence",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Findings commit",
+          "value": "`65454759f24b3aca8ce021a9a585b117483f90e7`",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Immediate model commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete fourth Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
+    },
+    {
+      "models": [
+        "MOOER GE200 Pro Li"
+      ],
+      "model_name": "GE200 Pro Li",
+      "brand": "MOOER",
+      "destination": "MOOER.md#ge200-pro-li",
+      "source": "effects/shopee-multifx-4.md",
+      "source_sha256": "63bb680b8f9d93b8b9606dd3e0ef2d652d2ed1b137d94c5db922d49e27726d3c",
+      "source_model_aliases": [
+        "GE200 Pro Li",
+        "MOOER GE200 Pro Li"
+      ],
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "K/F/B",
+          "value": "**2/5/7 + module-button row**; complete button total ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "External expression / toe switch",
+          "value": "EXP2 TRS; built-in toe switch yes",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Published dimensions, mm; weight",
+          "value": "**324×162×58 (L×W×H);1.789kg**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Size classification",
+          "value": "Large under either orientation",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Display",
+          "value": "**3.5-inch color LCD; touch ?**",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Hardware, expression and display"
+        },
+        {
+          "field": "Blocks and category choices",
+          "value": "Same expressly shared Pro-family architecture; FXA/FXB overlap, not unique-effect totals",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**255=85×3**; split ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "IR / NAM / proprietary models",
+          "value": "Same documented IR/MNRS capacities; family A2 conversion, firmware/region restrictions retained",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic simulator",
+          "value": "Current algorithms ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Audio and control ports",
+          "value": "Same expressly documented ports; no mic/phantom or analog aux input",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Power / battery",
+          "value": "**9V/3A center-negative**;**7.4V3000mAh22.2Wh battery**;about5.5h rated,manual charge2h10min off;USB power ?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Configuration and recording",
+          "value": "Same functions. Old desktop minimums versus current regional updater requirements differ; see finding rather than assume identical installers",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Practice/live",
+          "value": "Same plus customizable ambient LED strip; not an extra screen",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Ports, power and software"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Shopee retail/indexed evidence",
+          "value": "**Rp6.896.000**, seller name Nafiri Music Store; indexed, direct reopen failed",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Separate local retailer / qualification",
+          "value": "Older GMI **Rp6.895.000** retained separately; current stock unverified",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Findings commit",
+          "value": "`25261922a20825215da55a8f5a7676f0e2e9d4d4`",
+          "source": "effects/shopee-multifx-4.md",
+          "context": "Immediate model commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete fourth Shopee expansion shared rows preserved;individual original bodies remain;counts unchanged"
     }
   ],
   "discovery_leads": [
@@ -23857,6 +24349,193 @@
         ],
         "retirement_authorized": false
       }
+    },
+    "shared_market4_audit": {
+      "date": "2026-10-17",
+      "source": "effects/shopee-multifx-4.md",
+      "source_sha256": "63bb680b8f9d93b8b9606dd3e0ef2d652d2ed1b137d94c5db922d49e27726d3c",
+      "complete_source_read": true,
+      "source_retired": false,
+      "remaining_work": "Shared content union verified;source retained pending broader navigation/provenance and remaining shared source audits. Technical/market research incomplete.",
+      "status": "Full shared-source union verified;source retained",
+      "prose_union": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-market4-union",
+        "source_sha256": "63bb680b8f9d93b8b9606dd3e0ef2d652d2ed1b137d94c5db922d49e27726d3c",
+        "destinations": [
+          "MOOER.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "model_records": 4,
+        "model_fields": 68,
+        "paragraph_groups": 9,
+        "reference_targets": [
+          "effects/findings/2026-10-14-mooer-ge100-pro.md",
+          "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+          "effects/findings/2026-10-14-mooer-ge200-pro.md",
+          "effects/findings/2026-10-14-mooer-ge200-pro-li.md"
+        ],
+        "source_retired": false
+      },
+      "explicit_link_audit": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-market4-links",
+        "incoming_occurrences": 13,
+        "incoming": [
+          {
+            "source": "MOOER.md",
+            "line": 601,
+            "link": "effects/shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "MOOER.md",
+            "line": 609,
+            "link": "effects/shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "MOOER.md",
+            "line": 692,
+            "link": "effects/shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "MOOER.md",
+            "line": 700,
+            "link": "effects/shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "MOOER.md",
+            "line": 780,
+            "link": "effects/shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "MOOER.md",
+            "line": 788,
+            "link": "effects/shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "MOOER.md",
+            "line": 868,
+            "link": "effects/shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "MOOER.md",
+            "line": 876,
+            "link": "effects/shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+            "line": 9,
+            "link": "shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/COVERAGE.md",
+            "line": 9,
+            "link": "shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/README.md",
+            "line": 16,
+            "link": "shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+            "line": 16,
+            "link": "shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-indonesia.md",
+            "line": 16,
+            "link": "shopee-multifx-4.md",
+            "kind": "inline",
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "exists": true
+          }
+        ],
+        "outgoing_occurrences": 13,
+        "missing_outgoing": [],
+        "incoming_fragments": [],
+        "headings": [
+          {
+            "line": 1,
+            "heading": "Shopee Indonesia multi-effects — MOOER Pro variants"
+          },
+          {
+            "line": 7,
+            "heading": "Hardware, expression and display"
+          },
+          {
+            "line": 20,
+            "heading": "Processing, memory and loading"
+          },
+          {
+            "line": 31,
+            "heading": "Ports, power and software"
+          },
+          {
+            "line": 42,
+            "heading": "Separate IDR evidence"
+          },
+          {
+            "line": 55,
+            "heading": "Immediate model commits"
+          }
+        ],
+        "limitations": [
+          "Lexical explicit inline/reference/definition links; definition and use are separate occurrences.",
+          "Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.",
+          "No link rewrite, anchor mapping, source deletion or external availability verification."
+        ],
+        "retirement_authorized": false
+      }
     }
   },
   "deferred_work": {
@@ -23940,7 +24619,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume third Shopee expansion shared-source consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume fourth Shopee expansion shared-source consolidation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

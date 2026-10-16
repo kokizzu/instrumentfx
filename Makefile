@@ -1035,3 +1035,15 @@ consolidation-audit-market3-links:
 .PHONY: research-commit-market3-union
 research-commit-market3-union:
 	python3 scripts/research_tools.py commit-market3-union
+
+.PHONY: consolidation-plan-market4-union consolidation-audit-market4-union consolidation-audit-market4-links
+consolidation-plan-market4-union:
+	python3 scripts/consolidation_tools.py plan-market4-union
+consolidation-audit-market4-union:
+	python3 scripts/consolidation_tools.py audit-market4-union
+consolidation-audit-market4-links:
+	python3 scripts/consolidation_tools.py audit-market4-links
+
+.PHONY: research-commit-market4-union
+research-commit-market4-union:
+	python3 scripts/research_tools.py commit-market4-union

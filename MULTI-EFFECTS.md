@@ -301,3 +301,27 @@ Core's matching user guide could not be fetched; its current product/FAQ and fir
 Flamma FV01 was originally researched in `35944327d19a9de6ed3debbeaba5a8a037f9f5f3`. Its source and price history remains in [the excluded specialist finding](effects/findings/2026-10-14-flamma-fv01.md), but **it is not an active multi-effects comparison row and must not be counted or re-added on resume**. See [SCOPE.md](effects/SCOPE.md).
 
 Original finding references: [Source1](effects/findings/2026-10-14-headrush-core.md) · [Source2](effects/findings/2026-10-14-donner-arena2000.md) · [Source3](effects/findings/2026-10-14-nux-mg-100.md) · [Source4](effects/findings/2026-10-14-nux-mg-200.md).
+
+### fourth Shopee expansion: historical shared qualifications
+
+Preserved2026-10-14 MOOER Pro-family source context. Original/non-Pro,Pro and Li versions remain distinct. Historical next-model instructions,price snapshots and retrieval limits are provenance;they do not replace current root profiles or continuation state. NAM conversion remains distinct from native loading.
+
+[All comparisons](effects/README.md) · [Scope](effects/SCOPE.md) · [Shopee evidence](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+
+**Reviewed 2026-10-14. Four new partial records, each committed separately.** Original GE100/GE200 and GE150 Pro Li already have different records. These four are not duplicates of those models. Each linked finding contains manufacturer references, exact seller URLs and access limitations. `?` means unverified, not No.
+
+All four have built-in expression. Screen diagonal and color are established; **explicit touchscreen specifications remain unverified**. A color LCD, touch-named control or knob navigation is not sufficient evidence either way. K/F/B means rotary controls / footswitches / separate buttons; encoder presses are not counted twice.
+
+Pedal-up height and cable clearance remain additional. The GE100 counts come from the manufacturer's enumerated guide text; GE200's uncounted module-button row is not silently treated as seven total buttons. PDF rendering failed, so no visual inspection is claimed.
+
+GE200 global launch advertising says **286**; regional copy lists100 amps,9 power amps,77 cabs and114 effects. These are not silently reconciled into a unique current library count. Original-manual counts are not a test of October2026 firmware. **NAM conversion is not native loading**, and MNRS support is not proof of NAM or onboard capture. Exact firmware/architecture restrictions remain in the findings.
+
+Adapter current is not measured draw. No phantom supply is inferred from XLR **outputs**. Stereo outputs do not make GE200's instrument input stereo. Parallel FX-loop mixing does not establish two complete independent internal chains.
+
+**No condition-verified used offer was established for these four.** Prices are individual listed/indexed observations, not completed sales or reliable used-to-new market ranges. Exact links, seller IDs and historical discrepancies are in the findings.
+
+Seller names are not independent authentication. The Mandarin warning on a separate Li offer does not prove the region of a different Shopee item. Shipping, warranty, accessories, voucher eligibility and checkout stock remain unverified.
+
+Next marketplace model: **Hotone Ampero MP-100**, then Ampero II MP-350. Preserve the [ever-owned queue](effects/OWNERSHIP.md) and the deferred BOSS display/IDR work. Four reviewed records do not mean all Shopee products or all required fields are complete.
+
+Original finding references: [Source1](effects/findings/2026-10-14-mooer-ge100-pro.md) · [Source2](effects/findings/2026-10-14-mooer-ge100-pro-li.md) · [Source3](effects/findings/2026-10-14-mooer-ge200-pro.md) · [Source4](effects/findings/2026-10-14-mooer-ge200-pro-li.md).

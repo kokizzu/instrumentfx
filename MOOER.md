@@ -600,6 +600,14 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-mooer-ge100-pro.md](effects/findings/2026-10-14-mooer-ge100-pro.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
 
+### Preserved fourth Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Findings commit** (Immediate model commits): `e048a3c9f0e4b1ff77023757ee3730604487e4d6`
+
+[Original shared source](effects/shopee-multifx-4.md),retained pending complete navigation/provenance audits.
+
 ## GE100 Pro Li
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -683,6 +691,14 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-mooer-ge100-pro-li.md](effects/findings/2026-10-14-mooer-ge100-pro-li.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
 
+### Preserved fourth Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Findings commit** (Immediate model commits): `1a8da46cab3c6deb4c224e7a92664658491c827c`
+
+[Original shared source](effects/shopee-multifx-4.md),retained pending complete navigation/provenance audits.
+
 ## GE200 Pro
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -763,6 +779,14 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-mooer-ge200-pro.md](effects/findings/2026-10-14-mooer-ge200-pro.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
 
+### Preserved fourth Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Findings commit** (Immediate model commits): `65454759f24b3aca8ce021a9a585b117483f90e7`
+
+[Original shared source](effects/shopee-multifx-4.md),retained pending complete navigation/provenance audits.
+
 ## GE200 Pro Li
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -842,6 +866,14 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Separate local retailer / qualification** (Separate IDR evidence): Older GMI **Rp6.895.000** retained separately; current stock unverified
 
 Sources: [effects/findings/2026-10-14-mooer-ge200-pro-li.md](effects/findings/2026-10-14-mooer-ge200-pro-li.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
+
+### Preserved fourth Shopee expansion shared comparison
+
+Historical2026-10-14 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **Findings commit** (Immediate model commits): `25261922a20825215da55a8f5a7676f0e2e9d4d4`
+
+[Original shared source](effects/shopee-multifx-4.md),retained pending complete navigation/provenance audits.
 
 ## GE150 Pro
 
