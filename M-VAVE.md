@@ -81,6 +81,8 @@ Do not merge these into an active new-price range. Retrieval date is not the cra
 
 ## TANK-B
 
+<!-- comparison evidence begins -->
+
 **Original review2026-10-14. Bass-specific,not TANK-G or assumed TANK-Bv2 hardware.**
 
 | Field | Preserved evidence / uncertainty |
@@ -88,12 +90,54 @@ Do not merge these into an active new-price range. Retrieval date is not the cra
 | Expression / controls / display | No built-in or external EXP socket;**15/4/0**,power separate. Segmented bank/note readout,not graphical;diagonal/emission color unspecified,no documented touch interface. |
 | Body | **310×65×40mm;613g**,large. |
 | Processing | **Six stages:** gate,compressor,amp/EQ,modulation,Space,IR; tuner additional. Nine bass amps,three MOD,eight IRs. **Space selects delay,reverb or combined delay/reverb**;three-band amp EQ integrated. |
-| Presets / sound | **36 editable**,factory split ?;synth/acoustic ?. |
+| Presets | **36 editable**, factory split unverified. |
+| Synth / acoustic | Synth algorithms and acoustic simulation remain unverified. |
 | Ports / power | 6.35 mm TS input/output;XLR balanced output;3.5 mm headphones;phone-recording output;USB-C. **USB5V ≥300mA,200mA draw;3000mAh/3.7V battery**. |
-| Loading / software | User mono WAV24-bit/44.1kHz/1024-point IR. Native NAM not established by amp-data import. **M-EFCS Windows/macOS/iOS/Android**. |
+| IR | User mono WAV, 24-bit/44.1 kHz/1024-point IR. |
+| NAM / amp-format loading | Original TANK-B v96 (2024-12-31) lists AM3 support. Official converter v1.0.7 lists NAM→AM3DATA: together these support a converted-format route, not native NAM. Architecture limits, conversion fidelity and end-to-end file compatibility remain unverified. The v99 (2026-01-31) heading explicitly names TANK-B V2 and AM4; do not transfer that compatibility to original hardware. [Original release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt), [V2 notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-BV2.txt), [converter changelog](https://www.cuvave.com/appdownload). |
+| Editor / firmware platforms | M-EFCS Windows/macOS/iOS/Android lists TANK-B explicitly. M-UPGRADE is a separate firmware updater. The download index lists original and V2 at v99, but both linked v99 release headings name V2; original-hardware compatibility needs confirmation. |
+| Firmware / recording / control | Original v46 (2024-03-27) adds Computer Loopback switching in EFCS v1.2 and MIDI PC selection of 36 presets (PC00–35), with CC control of individual modules in live/preset mode. MIDI transport and exact CC mapping remain unverified; no DIN port inferred. Original v96 describes USB recording/playback timing fixes, not a verified channel count or sample rate. |
 | Extras | USB audio/OTG,selectable loopback,live/preset,Bluetooth backing. A product-search looper claim is not verified by the checked manual. |
 
 Historical retail **Rp1.079.000 SOLD OUT**, [Seven Stereo16879370/25087213852](https://shopee.co.id/M-VAVE-Tank-B-Bass-Electric-Pedal-Effect-i.16879370.25087213852);used **?**. Stock,condition,accessories and delivered cost unverified. Source: [manufacturer-authored manual](https://ae-pic-a1.aliexpress-media.com/kf/Se87c6e5789cb474b943868a5c3348fb9u.pdf),English pp.2–12 previously inspected; [official software list](https://www.cuvave.com/appdownload). Preserve original/v2 and import-format uncertainty.
+
+<!-- comparison evidence ends -->
+
+### Preserved original finding
+
+Complete original dated source follows. Its uncertainty and sold-out historical ask remain intact; the firmware qualification above is a separate 2026-10-17 observation.
+
+<!-- MVAVE-TANK-B source begins -->
+
+Checked **2026-10-14**. **Partial new bass multi-effects record**, not TANK-G or an assumed TANK-Bv2 specification. [Manufacturer-authored manual, hosted copy][MVAVE-TANK-B-M], English pp.2–12; panel and specification pages visually inspected. [Current manufacturer software lists][MVAVE-TANK-B-D] independently establish app platforms.
+
+| Field | Evidence / unknown |
+|---|---|
+| Expression | No built-in pedal; no external-expression socket in complete panel inventory |
+| Controls | **15 rotary / 4 footswitch / 0 separate buttons**; power switch separate |
+| Display | Segmented bank/note readout, not graphical; diagonal and emitted color unspecified; no touch interface in documented hardware |
+| Size / weight | **310×65×40 mm; 613 g**; large by project width threshold |
+| Blocks | **6 stages**: gate, compressor, amp/EQ, modulation, Space, IR; tuner additional |
+| Choices | 9 bass amps; 3 modulations; Space selects delay, reverb or combined delay/reverb; 8 IR slots; three-band amp EQ |
+| Presets | **36 editable**, factory-filled split unverified |
+| Synth / acoustic simulation | ? / ? |
+| Ports | ¼-inch TS input/output; XLR balanced output; ⅛-inch headphones; phone-recording output; USB-C |
+| Power | **USB 5 V ≥300 mA**; draw 200 mA; rechargeable **3000 mAh/3.7 V** |
+| IR | User mono WAV, **24-bit/44.1 kHz, 1024 points** |
+| NAM | Native format support unverified; amp-data import is not unrestricted NAM |
+| Apps | M-EFCS **Windows/macOS/iOS/Android** |
+| Extras | USB audio/OTG; switchable loopback; live/preset modes; Bluetooth backing playback |
+
+### Shopee Indonesia price evidence
+
+**Retail historical ask: Rp1.079.000**, [Seven Stereo Music & Audio Store, item 25087213852][MVAVE-TANK-B-S]. Search evidence explicitly says **Habis / sold out**. This is not an active offer, sale price, or a verified used-to-new range. Used-condition offer: **?**. Condition grade, included accessories, current stock and delivered cost need seller confirmation; retrieval date does not make an indexed offer current.
+
+[MVAVE-TANK-B-M]: https://ae-pic-a1.aliexpress-media.com/kf/Se87c6e5789cb474b943868a5c3348fb9u.pdf
+[MVAVE-TANK-B-D]: https://www.cuvave.com/appdownload
+[MVAVE-TANK-B-S]: https://shopee.co.id/M-VAVE-Tank-B-Bass-Electric-Pedal-Effect-i.16879370.25087213852
+
+**Next:** match original versus v2 hardware/firmware, verify live listings and current import formats. Looper support is not established by this manual; do not copy a product-search snippet's looper claim into the verified row without reconciliation.
+<!-- MVAVE-TANK-B source ends -->
 
 ## TANK MINI
 
