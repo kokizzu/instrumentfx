@@ -1146,3 +1146,136 @@ Checked **2026-10-16**; cached exact hardware text is not live checkout/stock. C
 
 [ME90-P]: https://www.boss.info/global/products/me-90/
 [ME90-M]: https://static.roland.com/assets/media/pdf/ME-90_reference_eng01_W.pdf
+
+## GX-100
+
+Consolidated and refreshed **2026-10-16**; partial verification. Full original observations, dates and qualifications remain below. Historical next-model notes are provenance; current queue is in research-state.json.
+
+<!-- BOSS-GX-100 source begins -->
+
+Checked **2026-10-15**. Existing [BOSS comparison](effects/guitar-boss.md) record, not another model.
+
+### Display and firmware-sensitive correction
+
+The [manufacturer specification](https://www.boss.info/global/products/gx-100/) confirms a **color graphic LCD,480×272 pixels, with touchscreen**. A numeric diagonal was not found in the checked primary source. Retailers/reviews commonly claim4.3 inches, but this pass does not promote that to manufacturer-verified diagonal evidence.
+
+The official page now advertises **32 AIRD amps**, rather than the launch23. Its version2.0 section explains three added guitar and six added bass amps, seven new effects and eight new factory presets. Current specification still lists170 effect types and100 preset+200 user memories; overlapping marketing counts are not summed. The control list rechecks **6 knobs,8 footswitches,7 buttons**, plus expression toe/power and other rear switches separately.
+
+Windows/macOS Tone Studio now imports speaker IRs without a separate loader application. iOS/Android wireless editing continues to require optional BT-DUAL. Full category subtotals, exact IR capacity and remaining synth/acoustic algorithms are not independently re-certified in this scoped pass.
+
+### Separate IDR observations
+
+| Channel | Amount | Source and limitation |
+|---|---:|---|
+| Shopee Imagination Music Store | **Rp11.280.000** | [shop19576516/item16623915464](https://shopee.co.id/Boss-GX-100-Guitar-Multi-effects-Pedal-i.19576516.16623915464); indexed hardware ask, checkout and detailed condition unverified |
+| Local retailer Melodia | **Rp13.685.000** | [Retail page](https://www.melodiamusik.com/product/boss-gx-100-guitar-multi-effects-pedal/), stock displayed by branch; not Shopee checkout evidence |
+| Shopee seller named Boss Official Shop | **Rp14.950.000, two variations** | [shop341882414/item14760888472](https://shopee.co.id/BOSS-GX-100-Guitar-Effects-Processor-Pedal-Multi-Efek-i.341882414.14760888472); exact variation/accessory mapping unresolved |
+| Swee Lee preorder | **Rp13.985.000 — PREORDER** | [Retail page](https://www.sweelee.co.id/en/products/boss-gx-100-guitar-multi-effects-pedal); not in-stock equivalent to another offer |
+| Used | **Unknown verified individual quote** | OLX indexed Rp8.500.000 GX-100+Bluetooth-adapter lead, but the individual ad/condition was not established |
+
+Used lead: [OLX Bandung instrument search](https://www.olx.co.id/bandung-kab_g4000001/alat-musik-aksesoris_c217/q-boss?filter=type_eq_hobi-olahraga-alat-alat-musik-gitar-bass). The accessory bundle and search-category condition counts must not become an assumed bare-unit completed-sale price. Ricoh GX100 camera results were excluded despite matching the model string.
+
+Prices remain dated asking observations with different stock/channel/variation contexts; no live market range, seller authentication, warranty or shipping guarantee is claimed. Earlier USD and Shopee observations remain historical provenance. **Next existing-model review: GT-1000.**
+<!-- BOSS-GX-100 source ends -->
+
+### GX-100 — supporting comparison facts
+
+| Required field | Retained observation |
+|---|---|
+| Screen type and resolution | Graphic LCD,480×272 |
+| Published diagonal | ? |
+| Monochrome / color evidence | **Color**, explicit manufacturer specification |
+| Touchscreen | **Yes**, explicit |
+| Size | Large |
+| Built-in / external expression | Yes+toe /1 shared CTL/EXP |
+| K/F/B | 6/8/7 |
+| Dimensions / pedal-up maximum | 460×193×73 /94H |
+| Weight | 3.5kg |
+| Used IDR | ? verified individual offer |
+| Shopee retail evidence | **Rp11.280.000** Imagination Music Store |
+| Separate local-retailer / historical context | Melodia **Rp13.685.000**; Swee Lee **Rp13.985.000 PREORDER**; Boss-shop **Rp14.950.000** has unresolved variations |
+| Simultaneous architecture / library | 15assignable+3utilities;**32amps** on current page;170effect types in specification;version2 additions |
+| Factory / user memory | 100P+200U |
+| Synth / acoustic functions | SitarSim/Humanizer documented,not proof of a full synth;acoustic algorithm ? |
+| User IR / NAM | WAV import within current ToneStudio,capacity ?;NAM not established |
+| Audio / controller ports | Mono1/4-inch in,stereoout;mono FX loop;1/4-inch phones;CTL/EXP;amp control;DIN MIDI IN/OUT;USB-B;BT-DUAL slot |
+| Power and USB operation | PSB-1U;1.2A draw;no battery/USB bus operation listed |
+| Configuration | Windows/macOS;mobile with optional BT-DUAL |
+| Additional features | Touchscreen;parallel;USB audio;38/19slooper |
+| Follow-up commit | `1210e92efeb3ba2d6d610f413cfe9f9924d2bf59` |
+
+### GX-100 — original USD and technical provenance
+
+Research date **2026-10-14**. Technical sources are the linked manufacturer's specifications, including current firmware-dependent figures. **Partial records**: `?` means unverified. Dimensions are **W × D × H in mm**; `/max` gives the maximum height with the pedal raised. `K/F/B` = rotary controls / footswitches / separate buttons, excluding the expression toe switch and rear power/mode switches. Price columns are **USD US-market listed/asking observations**, not statistically estimated fair values; see sources below.
+
+Model totals have different inclusion rules. ME-90's selectable alternatives are not all simultaneously present on its panel. A missing NAM claim is not converted into a definitive “No” without model/firmware documentation.
+
+Price retrieval date: **2026-10-14**. Indexed older listings are explicitly less reliable than current, purchasable offers. No guarantee of stock, local Indonesian pricing, delivery cost or completed-sale value.
+
+
+| Required field | Original 2026-10-14 observation |
+|---|---|
+| Size class | Large |
+| Built-in / external EXP | Yes + toe / 1 shared CTL/EXP |
+| K/F/B | 6/8/7 |
+| Dimensions | 460×193×73/max94 |
+| Weight | 3.5 kg |
+| Used USD | $559.99, Excellent [U1] |
+| New USD | $659.99 [N] |
+| Simultaneous blocks; categories / model choices | 15 assignable + 3 utilities; current specs 170 types; version-2 amp/effect additions |
+| Factory / user memory | 100 P + 200 U |
+| Synth / acoustic simulator | Sitar Sim/Humanizer documented; these are not proof of a full synthesizer; acoustic sim ? |
+| User IR | WAV import via current Tone Studio; capacity ? |
+| NAM | Not established |
+| Physical audio/control ports | Mono ¼″ in, stereo ¼″ out; mono FX loop; ¼″ phones; CTL/EXP; amp control; DIN MIDI IN/OUT; USB-B; BT-DUAL slot |
+| Power; USB-powered? | PSB-1U adapter; 1.2 A draw; battery/USB bus operation not listed |
+| Configuration apps | Windows/macOS; iOS/Android with optional BT-DUAL |
+| Other practical features | Touchscreen; parallel routing; USB audio; 38/19 s looper |
+
+U1: Guitar Center usedUSD559.99,Excellent; N:newUSD659.99,checked2026-10-14. Asking observations, not completed sales or IDR. Adapter bundles/open-box separate.
+
+[Historical source](https://www.boss.info/global/products/gx-100/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc)
+
+Sources retained unchanged: [follow-up](effects/findings/2026-10-15-boss-gx100-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+
+### GX-100 — current comparison evidence
+
+Checked **2026-10-16**. Version2 documentation qualifies earlier limits; original23-amp marketing and later32-amp figures remain distinguishable.
+
+<!-- comparison evidence begins -->
+
+| Required field | Current evidence and limits |
+|---|---|
+| Expression | Built-in pedal with toe switch; one shared external CTL3,4/EXP socket. [GX100-P] |
+| K/F/B | **6 /8 /7**; expression toe, power and rear switches separate. [GX100-P] |
+| Display | **480×272 color touchscreen**. Published diagonal unverified; third-party4.3-inch claims remain outside manufacturer-verified measurements. [GX100-P] |
+| Dimensions / weight / size | **460×193×73 mm**, maximum height94 mm; **3.5 kg**. Large. [GX100-P] |
+| Simultaneous processing / category choices | Specification **15+3 utilities**; reference manual describes15 effects/devices including utilities, so counting wording differs. DSP-limited: maximum9 of the same effect,2 amps,1 each looper/divider-mixer/send-return. Current32 amps and170 types retained; per-category subtotals unresolved. Version2 adds3 guitar/6 bass amps,7 effects,8 factory presets; do not add these again to current totals. [GX100-P], [GX100-CHAIN] |
+| Factory / user / total memory | **100 preset +200 user =300**. [GX100-P] |
+| Synth / acoustic | Version2 Japanese primary DSP list explicitly includes **AC.GUITAR SIMULATOR**. Sitar Simulator/Humanizer/OVERTONE do not alone establish a general synth engine. [GX100-DSP] |
+| IR / NAM / capture | **16 user IR slots**,WAV **44.1/48/96 kHz,16/24-bit linear**. Current Tone Studio integrates conversion/loading; older separate loader workflow retained in manufacturer history. IR conversion is not NAM conversion. Native NAM,converted NAM and proprietary capture imports unestablished. [GX100-IR] |
+| Audio / control I/O | Mono quarter-inch input; stereo quarter-inch outputs; mono SEND/RETURN; stereo quarter-inch PHONES; shared CTL/EXP;AMP CTL;DIN MIDI IN/OUT;USB-B;BT-DUAL connector;DC. [GX100-P] |
+| Power / battery / USB power | Included **PSB-1U**, **1.2 A draw** retained. DC voltage/polarity,battery/USB-powered operation remain unverified; USB connector alone is not power proof. [GX100-P] |
+| Editor / USB / platforms | Tone Studio Windows/macOS; iOS/Android wireless editing requires optional BT-DUAL. Version2 Japanese USB guide confirms dry output,DAW-to-effects input,loopback; direct monitor resets ON at power-up and is bypassed by loopback. VENDOR needs a computer driver; GENERIC uses standard iOS functions with limits. USB channels/bit depth and Android USB compatibility unresolved. [GX100-P], [GX100-USB] |
+| Looper / routing / live use | **38 s mono /19 s stereo**, overdub. Insert LOOP and assign switches; LOOP CTL cycles record/play/dub, double press stops, long press erases; separate STOP/CLEAR assignable. Serial/parallel placement. Detailed carryover/scene/drum and recording persistence checks remain open. [GX100-LOOP], [GX100-CHAIN] |
+
+### GX-100 — separate IDR evidence
+
+Checked **2026-10-16**; cached asking evidence, not live checkout/stock. New condition, selected accessories/bundle, warranty region, shipping/tax and store affiliation unconfirmed. Late-delivery compensation is not a purchase-price discount. Earlier local-retailer observations retain their2026-10-15 date.
+
+| Condition / seller | IDR evidence and qualifications | Exact item / source |
+|---|---|---|
+| Used | Unknown verified individual quote; unopened OLX Bluetooth-bundle lead remains discovery only in full preserved finding. | See preserved finding above. |
+| Historical retail / Imagination Music Store | **Rp11.280.000**, indexed2026-10-15; exact reopen cache miss on2026-10-16. No fresh price/stock assertion. | [19576516 /16623915464](https://shopee.co.id/Boss-GX-100-Guitar-Multi-effects-Pedal-i.19576516.16623915464) |
+| Unresolved sold-out variations / Boss Official Shop,Tangerang Selatan | **Rp14.950.000–Rp16.250.000,Habis**,2 variations. Exact body reopened; variation/accessory labels unexposed. Neither endpoint accepted as bare-unit bound. Relative tomorrow delivery does not override sold out. Earlier14.95m snapshot retained. | [341882414 /14760888472](https://shopee.co.id/BOSS-GX-100-Guitar-Effects-Processor-Pedal-Multi-Efek-i.341882414.14760888472) |
+| Historical local retail / Melodia | **Rp13.685.000**, branch stock observed2026-10-15; not reopened or Shopee checkout evidence. | [Melodia](https://www.melodiamusik.com/product/boss-gx-100-guitar-multi-effects-pedal/) |
+| Historical local preorder / Swee Lee | **Rp13.985.000,PREORDER**, observed2026-10-15; not reopened,not equivalent to in-stock. | [Swee Lee](https://www.sweelee.co.id/en/products/boss-gx-100-guitar-multi-effects-pedal) |
+
+<!-- comparison evidence ends -->
+
+[GX100-P]: https://www.boss.info/global/products/gx-100/
+[GX100-IR]: https://static.roland.com/manuals/gx-100_bts_pc_v200/en-US/189237387189275531.html
+[GX100-CHAIN]: https://static.roland.com/manuals/gx-100_reference_v200/en-US/6987149994758411.html
+[GX100-DSP]: https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/95920011158006283.html
+[GX100-USB]: https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/9174708396101515.html
+[GX100-LOOP]: https://static.roland.com/manuals/gx-100_reference_v200/en-US/7141709994776331.html
