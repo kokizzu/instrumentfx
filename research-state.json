@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 132,
+  "active_model_count": 133,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 132,
+  "canonical_root_model_count": 133,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee model discovery and remaining source audits",
-    "task": "Original BOSS historical union verified (112fields,6groups,14URLs),source retained with11incominglinks. Resume fresh Shopee Indonesia brand/series discovery against current inventory;research one eligible model and commit before next. Remaining shared legacy sources and navigation/anchor retirement work still required;no completeness claim.",
+    "model": "Zoom MS-60B remaining verification",
+    "task": "OriginalMS-60B added from exact Shopee hardware discovery with primary four-effect/50memory/power/body evidence;keep MS-60B+ separate. Verify V2inventory andremaining fields,commit before next model. A1XFOUR andMS50G discovery leads found butnotresearched;remaining legacy navigation/source audits also pending.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -872,6 +872,56 @@
         "synth": "Shared list star-marked SynTlk (English indexed SynTik),4vowels;Z-Syn SAW/SQR;separateDefret;legend labelsGuitarLab additions;factory/download installation counts unresolved",
         "categories": "Shared contents11categories includingA1X PEDAL;not11verifiedA1-onlycategories;exactper-categoryandfactory/downloadcounts unresolved"
       }
+    },
+    {
+      "model": "Zoom MS-60B",
+      "path": "ZOOM.md#ms-60b",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "classification": "bass-focused multi-effects",
+      "sources": [
+        "https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/",
+        "https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf",
+        "https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/ms-60-support/"
+      ],
+      "offers": [
+        {
+          "url": "https://shopee.co.id/ZOOM-MS60B-i.399870342.20080840396",
+          "seller": "Wiras musik",
+          "shop": "399870342",
+          "item": "20080840396",
+          "idr": 1840000,
+          "condition": "unverified",
+          "stock": "Index no sold-out marker;checkout/quantity unverified",
+          "location": "Kab.Badung",
+          "delivery": "25June stale",
+          "access": "Indexed;direct cache miss"
+        },
+        {
+          "url": "https://shopee.co.id/Multistomp-Bass-Pedal-Zoom-MS60B-MS-60B-i.263702626.4753303240",
+          "seller": "King Audio Bali",
+          "shop": "263702626",
+          "item": "4753303240",
+          "idr": 1511396,
+          "condition": "unverified",
+          "stock": "Habis",
+          "location": "KotaDenpasar",
+          "delivery": "4June stale",
+          "access": "Indexed;direct JavaScript shell"
+        }
+      ],
+      "unresolved": [
+        "58versusV2inventory",
+        "DSP",
+        "exact synth",
+        "completeports/EXP",
+        "display",
+        "USBsupply/audio/MIDI",
+        "editor",
+        "memoryoverwrite",
+        "looper/drums",
+        "condition/checkoutstock"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -12242,7 +12292,8 @@
       "G5n",
       "G3n",
       "B3n",
-      "A1 FOUR"
+      "A1 FOUR",
+      "MS-60B"
     ]
   },
   "root_brand_content": {
@@ -12322,7 +12373,8 @@
       "G5n",
       "G3n",
       "B3n",
-      "A1 FOUR"
+      "A1 FOUR",
+      "MS-60B"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -12432,8 +12484,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 60,
-      "bass_focused_record_count": 12,
+      "record_count": 61,
+      "bass_focused_record_count": 13,
       "shared_bass_capable_count": 48,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -17841,8 +17893,8 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 132,
-    "canonical_root_models": 132,
+    "unique_brand_model_pairs": 133,
+    "canonical_root_models": 133,
     "legacy_only_models": 0,
     "guitar_view_models": 111,
     "bass_focused_models": 12,
@@ -17851,7 +17903,7 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-16",
-    "bass_view_models": 60,
+    "bass_view_models": 61,
     "bass_shared_models": 48,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -17876,7 +17928,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee model discovery and remaining source audits."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom MS-60B remaining verification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -18052,7 +18104,8 @@
       "Zoom::B1Xon",
       "Zoom::G11",
       "Zoom::B3n",
-      "Zoom::A1 FOUR"
+      "Zoom::A1 FOUR",
+      "Zoom::MS-60B"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -19212,6 +19265,13 @@
         "ZOOM.md"
       ],
       "finding_files": []
+    },
+    "Zoom::MS-60B": {
+      "link": "ZOOM.md#ms-60b",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
     }
   },
   "separate_specialist_archives": {
@@ -19336,5 +19396,18 @@
     ],
     "accepted": "Three exact A1 FOUR hardware offers,one historical sold-out AD-16E bundle;no dependable used-condition offer",
     "classification_basis": "Official product names acoustic bass and exact A1 FOUR upright-bass demonstration;not inferred from EQ or sibling"
+  },
+  "discovery_search_pass_20261017_ms60b": {
+    "queries": [
+      "site:shopee.co.id Zoom MS60B",
+      "site:shopee.co.id Zoom A1X Four",
+      "site:shopee.co.id Zoom MS-50G"
+    ],
+    "selected": "Zoom MS-60B",
+    "other_unresearched_leads": [
+      "Zoom A1X FOUR",
+      "Zoom MS-50G"
+    ],
+    "access": "Search-indexed Shopee;manufacturer HTML/indexed manual only;no downloads"
   }
 }

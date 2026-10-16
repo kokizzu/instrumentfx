@@ -1063,3 +1063,32 @@ MAA-1/adapter inclusion,revision,condition,quantity,checkout stock,warranty regi
 ### Scope and remaining checks
 
 Mic support for acoustic instruments does not establish vocal harmony/pitch-correction processing;no automatic ALL-VOCAL inclusion. Verify A1-only effect/category inventory,full K/F/B,display specifications,external EXP,complete ports,detailed save/overwrite rules,IR/NAM/capture workflow exclusions,USB supply requirements/audio status,looper limits and qualified current used/new offers. MAA-1’s own power/capabilities remain separate.
+
+## MS-60B
+
+Checked **2026-10-17**. Original discontinued bass multi-effects,distinct from MS-60B+. No ownership assertion. Primary page/indexed manual text only;no files or dependencies downloaded. Partial record.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / controls | No built-in expression pedal;external EXP not listed in indexed panel. Three push-knobs,one footswitch,four directional keys:K/F/B **3/1/4**,encoder presses counted once;toe N/A. | [Zoom source](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
+| Display / body | LCD;diagonal,resolution,color/mono and touch unverified. **77.5 W×130.3 D×58.5 H mm;350g**,battery inclusion unspecified. Compact under200×140filter. | [Zoom source](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
+| Simultaneous effects | **Four maximum**,reorderable;DSP constraints need review. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+| Categories / choices | Original **58**:dynamics/filter19,drive11,amps6,modulation/SFX14,delay/reverb8. Support listsV2effectsheet andfirmware2.1;current installed/library total requires reconciliation. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+| Presets / memory | **50 editable memories,30 preloaded**;AutoSave and26-patch footswitch sequence. Copy/overwrite details unresolved. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+| Acoustic / synth | Bass synth,sub-octave andDeFret documented;DeFret is fretless-style processing. Specific synth algorithms andacoustic simulation unverified. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+| Audio / control ports | Mono standard phone input,1MΩ;two mono standard line outputs for stereo. USB firmware connector;exact USB type,headphone/EXP/MIDI/loop exclusions unverified. | [Zoom source](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
+| Power | **9V DC500mA center-negative AD-16;2AA orUSB supply**. Rated7h alkaline,not independent runtime. USB voltage/current unverified. | [Zoom source](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) |
+| IR / NAM / capture | Factory amp/cab models do not establish WAV IR import,native/converted NAM oruser capture loading;all unverified. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+| Editor / platforms | Support lists2.1 firmware forWindows/Mac. Updaters are not full editors;official editor/mobile editing andUSB audio/MIDI unverified. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/ms-60-support/) |
+| Looper / rhythm / live | Tuner,tap tempo documented;looper,drums,scenes andtails unverified. | [Zoom source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+
+### Separate IDR hardware offers
+
+**Used IDR:?;verified new-condition IDR:?** Checked2026-10-17,indexed hardware asks;condition,revision,bundle,adapter,warranty region,shipping/tax anddelivered totals unverified. Seller names do not authenticate affiliation. No used discount orcurrency conversion inferred.
+
+- **Rp1.840.000**, [Wiras musik,shop399870342/item20080840396](https://shopee.co.id/ZOOM-MS60B-i.399870342.20080840396),Kab.Badung. No sold-out marker in index;quantity/checkout unverified. Delivery25June is stale;direct reopening returned cache miss.
+- **Rp1.511.396**, [King Audio Bali,shop263702626/item4753303240](https://shopee.co.id/Multistomp-Bass-Pedal-Zoom-MS60B-MS-60B-i.263702626.4753303240),KotaDenpasar. **Habis/sold out**,delivery4June stale;direct reopening required JavaScript. Historical ask,not active stock. Late-delivery compensation voucher is not a product discount.
+
+### Remaining verification
+
+Reconcile original58-effect marketing withV2effectsheet;verifyDSP,exact synth algorithms,complete I/O/expression exclusions,screen specifications,USB supply/audio/MIDI,editor availability,memory overwrite,looper/drums andqualified current used/new offers. Do not borrow MS-60B+ specifications.
