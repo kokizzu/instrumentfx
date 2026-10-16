@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-150 — firmware-qualified NAM correction",
-    "task": "Fresh official regional notice explicitly documents GP-150/180 native NAM A2 Lite at firmware1.1.1+. Review GP-150 first, preserve older SnapTone-only evidence and its date, update comparison fields and commit before GP-180. Notice also warrants separate GP-100 conversion review. Then resume fresh Shopee discovery and lossless consolidation.",
+    "model": "Valeton GP-180 — firmware-qualified NAM correction",
+    "task": "Review GP-180 official regional native NAM A2 Lite firmware1.1.1+ evidence, preserve dated legacy source and consolidate full record, then commit. GP-150 correction saved; GP-100 A2 conversion review still needed. Continue fresh Shopee discovery and remaining legacy consolidation.",
     "next_models": [],
     "after_queue": "Continue unresolved-field checks and lossless consolidation of 19 legacy-only models."
   },
@@ -188,6 +188,24 @@
         "looper/drums/USB routing",
         "condition-verified used/live retail",
         "bass suitability"
+      ]
+    },
+    {
+      "model": "Valeton GP-150",
+      "path": "VALETON.md#gp-150",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "research(valeton): qualify GP-150 native NAM A2 Lite by firmware",
+      "scope": "Existing model correction: official regional notice explicitly requires firmware1.1.1+ for native NAM A2 Lite; older SnapTone conversion evidence and date preserved.",
+      "sources": [
+        "https://www.hotone.jp/announcements/nama2allbrand"
+      ],
+      "unresolved": [
+        "native NAM architecture and model capacity/concurrency",
+        "current category counts",
+        "touch/pixel resolution",
+        "toe operation",
+        "qualified used/current stock"
       ]
     }
   ],
@@ -7534,7 +7552,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-150 — firmware-qualified NAM correction."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-180 — firmware-qualified NAM correction."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

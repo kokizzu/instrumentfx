@@ -258,7 +258,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD169.99
 - **Original evidence** (Archived foreign-price provenance — not the comparison currency): [P4]
 
-### GP-150 comparison fields from retained snapshot
+### GP-150 comparison fields — dated evidence and firmware updates
 
 | Field | Dated evidence |
 |---|---|
@@ -277,7 +277,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Presets and user storage | 200 total, 100 factory-filled; factory mix 85 guitar / 10 bass / 5 acoustic |
 | Synth / acoustic functions | Acoustic presets documented, not proof of a specific simulator; synth ? |
 | Third-party IR | 20, 1024/2048 samples |
-| NAM / captured models | **SnapTone conversion**, 100 model slots / 50 supplied; not labelled unrestricted native `.nam` |
+| NAM / captured models | **Firmware1.1.1+ adds native NAM A2 Lite**, explicitly named for GP-150 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Earlier research recorded SnapTone conversion with100 model slots/50 supplied; retain that historical workflow separately. Native A2 Full, other architectures and native model capacity/concurrency are unverified; the old conversion-slot count is not proof of native capacity. |
 | Audio / control connections | ¼″ input; **L TS unbalanced / R TRS balanced** outputs; 3.5 mm TRRS headset/mic; EXP/FS shared MIDI-in; USB-C |
 | Power and battery | Rechargeable 3000 mAh/3.7 V; DC 9 V centre-negative and USB 5 V/PD charging; ≥1 A operating USB figure; see official charging/adapter requirements |
 | Configuration software | Windows/macOS editor; iOS/Android via Bluetooth |
