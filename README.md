@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**117 active model records · 23 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**121 active model records · 23 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -8,10 +8,10 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 | View | Contents |
 |---|---|
-| **[ALL-GUITAR.md](ALL-GUITAR.md)** |All97 recorded guitar/acoustic models,including genuine combined instrument/vocal processors; links to full records |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |All101 recorded guitar/acoustic models,including genuine combined instrument/vocal processors; links to full records |
 | **[ALL-BASS.md](ALL-BASS.md)** |All11 bass-focused models plus documented multi-instrument cross-references; wider bass-capability classification remains open |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |15 documented vocal/mic-path processors,with vocal-only and separate instrument paths distinguished |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Expression,footprint,screen and processing summaries for the12 root-canonical models,plus qualified recent IDR evidence |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Expression,footprint,screen and processing summaries for 13 selected root profiles (48 are root-canonical),plus qualified recent IDR evidence |
 
 Instrument views overlap; a shared processor counts once. View counts are not added to obtain the catalogue total.
 
@@ -21,11 +21,17 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 |---|---|
 | [HEADRUSH.md](HEADRUSH.md) |MX5,Core,Flex Prime |
 | [FENDER.md](FENDER.md) |Tone Master Pro |
-| [VALETON.md](VALETON.md) |GP-200LT |
+| [VALETON.md](VALETON.md) |GP-200LT,GP-200JR |
 | [MOOER.md](MOOER.md) |GE250 |
 | [HOTONE.md](HOTONE.md) |Ampero One MP-80 |
 | [LINE6.md](LINE6.md) |POD Go,POD Go Wireless,POD Express Guitar,POD Express Bass |
 | [ZOOM.md](ZOOM.md) |G11 |
+| [JOYO.md](JOYO.md) |GEM BOX original,II,III |
+| [DONNER.md](DONNER.md) |Arena2000 |
+| [FLAMMA.md](FLAMMA.md) |FX100,FX200,FX150 |
+| [NUX.md](NUX.md) |Ten MG/TRIDENT/Cerberus profiles |
+| [SONICAKE.md](SONICAKE.md) |Six profiles,including Sonic Wood |
+| [M-VAVE.md](M-VAVE.md) |Twelve distinct profiles |
 
 Other recorded models remain accessible through the instrument indexes while their complete source material is being consolidated into root brand documents. Do not create a new dated finding,progress part or document under `effects/`.
 
@@ -44,11 +50,11 @@ All model records separate knobs/footswitches/buttons,expression,used/new IDR,si
 
 ## What remains
 
-**Next research model: Valeton GP-200JR**, then **HeadRush Prime** and **MOOER GE300**. Exact newly found Shopee item links and their price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
+**Next: rebuild the ALL-* pages as actual all-model comparisons and consolidate HX Effects; then research HeadRush Prime and MOOER GE300.** GP-200JR is now recorded; do not repeat it. Exact newly found Shopee item links and their price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
 
-The inventory was reconciled from113 previously saved unique models plus the four new models above. Older96/104 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
+The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
 
-**Organization migration is incomplete:**12 detailed models are now root-canonical;105 still rely on legacy source records. The new instrument views are complete navigation for the recorded categories,not a claim those legacy details have already been migrated. No old source was deleted in this pass. Preserve every fact,source URL,date,variant distinction,correction and unresolved contradiction; verify the destination and incoming links before retiring old files.
+**Organization migration is incomplete:**48 detailed models are now root-canonical;73 still rely on legacy source records. The new instrument views are complete navigation for the recorded categories,not a claim those legacy details have already been migrated. No old source was deleted in this pass. Preserve every fact,source URL,date,variant distinction,correction and unresolved contradiction; verify the destination and incoming links before retiring old files.
 
 ## Scope and ownership
 

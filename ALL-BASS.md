@@ -34,6 +34,7 @@ These records are all partial. Preset counts,editor support and battery/USB func
 | Line6 POD Go |Bass models present; semifixed serial architecture,not an HX Stomp with a different chassis |[POD Go family](LINE6.md#pod-go-and-pod-go-wireless) |
 | Line6 POD Go Wireless |Same documented processing family with distinct receiver/transmitter and mass |[POD Go family](LINE6.md#pod-go-and-pod-go-wireless) |
 | MOOER GE250 |Bass-capable amp library; current count/import-capacity conflicts remain |[GE250](MOOER.md#ge250) |
+| Valeton GP-200JR |Built-in expression; one external EXP/FS; copied manual contradictions preserved |[GP-200JR](VALETON.md#gp-200jr) |
 | Valeton GP-200LT |Guitar/bass/acoustic library; independent amp and IR loading distinctions |[GP-200LT](VALETON.md#gp-200lt) |
 | Zoom G11 |Official V2 bass amp/effect additions; current500-memory/300-IR architecture differs from launch figures |[G11](ZOOM.md#g11) |
 

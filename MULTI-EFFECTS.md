@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [All vocal](ALL-VOCAL.md) · [Repository](README.md)
 
-This category view summarizes the **12 model records currently available in root brand documents**. It is not the complete117-model technical table: remaining source-backed records are indexed by instrument and still await lossless consolidation from legacy documents. Counts in different views overlap and must not be added together.
+This category view summarizes the **13 selected model records from the 48 root-canonical profiles**. It is not the complete121-model technical table: remaining source-backed records are indexed by instrument and still await lossless consolidation from legacy documents. Counts in different views overlap and must not be added together.
 
 Each model link opens the full evidence,firmware context,price qualifications and unknowns. These summaries do not replace those qualifications. A color screen does not prove touch; an expression socket is not an included pedal; a fixed category is not a freely assignable processing block.
 
@@ -10,6 +10,7 @@ Each model link opens the full evidence,firmware context,price qualifications an
 
 | Model | Body footprint / size bin | Main screen | Processing architecture | Full record |
 |---|---|---|---|---|
+| Valeton GP-200JR |281×166 mm /medium |4.3-inch color TFT;touch unverified |11 movable categories,DSP-limited |[VALETON](VALETON.md#gp-200jr) |
 | HeadRush MX5 |295×150 mm /medium |4-inch color touchscreen |11 DSP-dependent slots |[HEADRUSH](HEADRUSH.md#mx5) |
 | HeadRush Flex Prime |295×150 mm /medium |4-inch touchscreen; separate color/resolution verification pending in retained record |14 DSP-dependent blocks;5 routing types |[HEADRUSH](HEADRUSH.md#flex-prime) |
 | Hotone Ampero One MP-80 |273×143 mm /medium |4-inch color touchscreen |9 simultaneous category modules;3 flexible FX modules |[HOTONE](HOTONE.md#ampero-one-mp-80) |
@@ -32,10 +33,11 @@ POD Express Guitar and Bass have different category selections and routing despi
 
 ## Price comparison — new research and refreshed offer evidence
 
-All amounts are **IDR asking observations checked2026-10-15**, not authenticated current market ranges. The linked brand records contain the exact seller/item links and full conditions. Blank/unknown used amounts are not estimated from retail prices.
+All amounts are **IDR asking observations checked2026-10-15 unless the row explicitly states2026-10-16**, not authenticated current market ranges. The linked brand records contain the exact seller/item links and full conditions. Blank/unknown used amounts are not estimated from retail prices.
 
 | Model | Condition-labelled used evidence | Retail / other price evidence | Important limitation |
 |---|---|---|---|
+| GP-200JR |? |Rp4.980.000 retail;Rp4.970.000 voucher ask;Rp4.490.000 sold out |Checked2026-10-16; conditions, bundle and live stock unconfirmed; not a used/new range |
 | MX5 |? |Rp8.330.000 retail ask |Separate Rp5.500.000/Rp7.000.000 sold-out offers have unknown condition and are not assigned to used |
 | Tone Master Pro |? |Rp33.585.000 indexed retail asks |Older cached delivery information; stock,condition and bundle not verified |
 | GP-200LT |Rp3.000.000 seller-labelled used,Carousell,indexed |Rp4.635.000 indexed retail;Rp3.975.000 sold-out historical ask |Used condition is a seller claim; direct reopening failed; not an active range |
