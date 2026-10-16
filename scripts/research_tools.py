@@ -333,7 +333,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-ax10g':
-            message = 'research(korg): add AX10G with exact hardware offer and own manual'
+            message = 'research(korg): verify AX10G simultaneous architecture and guide conflict'
         if mode == 'commit-g3x':
             message = 'research(zoom): verify G3X synth DSP and expression qualifications'
         if mode == 'commit-g5':

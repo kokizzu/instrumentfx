@@ -195,14 +195,14 @@ Guitar multi-effects, distinct from AX10B/AX10A. Checked2026-10-17; partial. Bas
 | K/F/B | **8 rotary /2 main footswitches /13 buttons**, text-derived: three selectors+five amp knobs; Up/Down; PRE,VALUE pair,two DEPTH pairs,TAP,FUNCTION,MASTER pair,WRITE,PEDAL FX. Toe additional; visual corroboration pending. | [Manual pp6–7,11][AX10-M] |
 | Display | Program/value display; diagonal,color,touch unverified. | [Manual p6][AX10-M] |
 | Dimensions / mass | **287W×182D×60H mm;1.1kg excluding batteries**. | [Manual p14][AX10-M] |
-| Processing / category choices | PRE3→AMP11→MOD11→AMBIENCE11; NR1 additionally. Cabinet follows amp except EQ. Independent simultaneous-total declaration unverified. | [Manual pp3,11,14][AX10-M] |
-| Factory / user memory | **80=40presets+40user**, factory user copies presets; explicit WRITE required. | [Manual pp5,12][AX10-M] |
+| Processing / category choices | PRE3→AMP11→MOD11→AMBIENCE11; NR1 additionally. Cabinet follows amp except EQ. **EasyStart explicitly permits three effects plus NR simultaneously, in addition to amp type**; this is not36 simultaneous choices. Guide advertises26 effects, separately from11 amp choices. | [Manual pp3,11,14][AX10-M]; [EasyStart p1][AX10-E] |
+| Factory / user memory | **80=40presets+40user**, factory user copies presets; explicit WRITE required. Factory restore overwrites user patches. | [Manual pp5,12][AX10-M]; [EasyStart p2][AX10-E] |
 | Synth / acoustic | ACOUSTIC simulator; TALK is pick/pedal-controlled filtering, not established synth architecture. | [Manual p11][AX10-M] |
 | I/O | Mono¼input with L/H switch; stereo¼line/headphone output;AMP/LINE switch;DC9V. Documented inventory lists no USB/MIDI/external-control socket. | [Manual pp7–8,14][AX10-M] |
 | Power / battery / USB | 9V adapter optional;fourAA alkaline~18h. Mono input cable switches battery power;stereo will not. Polarity/current/USB power unverified. | [Manual pp7–8,14][AX10-M] |
 | IR / NAM / capture | User IR,native/converted NAM and capture import unverified;factory cabinet modeling proves none. | Unresolved |
 | Editor / software | Editor/platforms unverified;support page lists manuals. | [Support][AX10-P] |
-| Looper / drums / live | Bypass/tuner;looper,drums,scenes,trails unverified. | [Manual p9][AX10-M] |
+| Looper / drums / live | Both switches: immediate release bypasses;about1s hold mutes. Either exits. Tuner438–445Hz,resets440Hz at power-up. Bank Hold cycles four patches within bank;FUNCTION+footswitch changes bank. Looper,drums,scenes,trails unverified. | [Manual p9][AX10-M] |
 
 ### Separate IDR hardware offers
 
@@ -217,3 +217,11 @@ Web-rendered official manual only;no download,installation or physical inspectio
 [AX10-M]: https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf
 [AX10-P]: https://www.korg.com/us/support/download/product/1/23/
 [AX10-O]: https://shopee.co.id/efek-gitar-korg-ax10g-i.78645256.29167137994
+
+### EasyStart qualification
+
+Korg AX10G support links the AX10-Series EasyStart. The readable filename= query variant below has the same CDN hash as the support-linked filename*= variant, which returned a cache miss. Its AX10G-specific first-page column supplies the simultaneous-count statement; AX10B/AX10A columns are not AX10G evidence. Shared page2 explicitly covers all three.
+
+**Instruction conflict:** EasyStart p2 says to select PRE types using VALUE arrows; owner manual p6 instead assigns type selection to PRE FX and parameter adjustment to VALUE, with both VALUE buttons toggling bypass. Retain the manual procedure rather than silently merging these descriptions. The guide’s26effect headline does not imply26 simultaneous blocks or independently selectable cabinets. No new power/display/import verification or physical inspection.
+
+[AX10-E]: https://cdn.korg.com/us/support/download/files/6d29b2b401333c3fa4b58f256d3b30e4.pdf?response-content-disposition=inline%3Bfilename%3DAX10_Series_EasyStart.pdf&response-content-type=application%2Fpdf%3B

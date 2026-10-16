@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / remaining AX10G primary gaps",
-    "task": "AX10G added separately fromAX10A/B. Continue fresh exact Shopee discovery or unresolved primary fields; do not recatalogue it.",
+    "model": "Fresh discovery after AX10G simultaneous-processing follow-up",
+    "task": "AX10G simultaneous architecture resolved from own EasyStart column;retain PREinstruction conflict. Continue fresh exacthardware discovery or remainingfields.",
     "next_models": [],
-    "after_queue": "Broaderbrandseriesqueries;reject accessories/unmappedvariants."
+    "after_queue": "Search broaderbrands/series;do not repeat G2.1u/RP500 category counts or re-addAX10G."
   },
   "new_findings": [
     {
@@ -40368,7 +40368,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining AX10G primary gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery after AX10G simultaneous-processing follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48645,6 +48645,18 @@
       "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
       "findings": "Printedpp24–25,36:16bit44.1kHzUSB audio,recording level and monitor mix100forDAW-only. pp34–35undo/redo1shold,STOP/FINISH/FADEOUT,holdstopinterrupt. p59rhythmlist41entriesincludingguide/metronome,not41kits.",
       "remaining": "Category inventory,buttons,display,currentdraw,imports,factoryfill,currentOS/prices and G3Xexternalpedalfunction labels remain unverified."
+    },
+    {
+      "model": "Korg AX10G",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://www.korg.com/us/support/download/manual/1/23/2038/",
+        "https://cdn.korg.com/us/support/download/files/6d29b2b401333c3fa4b58f256d3b30e4.pdf?response-content-disposition=inline%3Bfilename%3DAX10_Series_EasyStart.pdf&response-content-type=application%2Fpdf%3B",
+        "https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf"
+      ],
+      "finding": "AX10G-specific guide column confirms3FX+NR+amp simultaneous;26effectheadline separate11amps. SharedguidePREtypeprocedure conflicts ownmanualPREbutton/VALUEnumeric distinction;retained. Manualp9bankhold,bypass/mute,tuner438–445reset440.",
+      "access": "Support-linked filename*= cachemiss;identicalCDNhash filename= readable. Webtext only.",
+      "remaining": "Publishedscreen,current/polarity,imports/editor,physicalpanel and current qualifiedstock/prices."
     }
   ],
   "discovery_cross_brand_bass": {
