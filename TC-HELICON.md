@@ -349,3 +349,42 @@ Manual pp36–37 requires phantom power for Mic Control. Hold48V+1 disables it f
 Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;cover labels corroborate existing English controls. PDF screenshot failed;inventory remains explicitly text-derived. Manufacturer service-test PDF dated2015-07-14 indexed SET/Headphone separately,but direct502;no test modes were run.
 
 [PV-I]: https://images.thomann.de/pics/atg/atgdata/document/manual/tc_helicon_perform_v_reference_manual_italian.pdf
+
+## PERFORM-VK
+
+Keyboard-guided vocal multi-effects,distinct from V/VG/VE. Checked2026-10-17;initial partial profile. Keyboard guidance does not establish guitar/bass multi-effects;vocal-only comparison membership. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/external/toe expression unverified. Switch-3/6 remote supported;continuous expression not established. | [Manual p12][PVK-O] |
+| K/F/B | Separate knob/footswitch/button inventory unverified;do not borrow PERFORM-V counts. | Unresolved |
+| Display | Diagonal,color,touch and screen technology unverified. | Unresolved |
+| Dimensions / mass | Unverified. | Unresolved |
+| Processing / category choices | Onboard Harmony/Reverb/Echo;beamable Double/Megaphone/HardTune/µMod. Adaptive Tone combines EQ,compression,de-essing,gate;global pitch correction and anti-feedback. Simultaneous block total and per-category style counts pending. | [Manual pp4–5][PVK-O];[manufacturer-authored mirror][PVK-M] |
+| Factory / user memory | Three presets map to MIDI bank0 program125–127. Initial factory fill and full memory accounting pending. | [Manual p12][PVK-O] |
+| Synth / acoustic | Vocal harmony/HardTune do not establish instrument synth/acoustic simulation;unverified. | Unresolved |
+| I/O | Keyboard audio/MIDI inputs documented;complete connector inventory pending. USB audio:4 host-to-device channels and8 device-to-host channels,including unused output4;not8 useful simultaneous capture sources. | [Manual pp4,12][PVK-O] |
+| Power / battery / USB | Voltage,polarity,current,battery and USB power unverified. | Unresolved |
+| IR / NAM / capture | User IR,native/converted NAM and capture imports unverified. | Unresolved |
+| Editor / software | VoiceSupport2 firmware/preset utility;Windows USB driver prerequisite,Mac update instructions omit driver. p12 separately says driver required for USB audio/MIDI;platform/revision scope unresolved. Full editor/current OS support unverified. | [Manual pp4,12][PVK-O] |
+| Looper / drums / live | Firmware update required for preset beaming per manual introduction. Switch-3/6 connects before power-on. MIDI accepts CC/PC/Tempo,explicitly not MIDI Clock. Looper/drums/scenes/trails unverified. | [Manual pp4,12][PVK-O] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;condition unconfirmed. | — |
+| New | Unknown;condition unconfirmed. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified exact hardware
+
+[DealerJaya item](https://shopee.co.id/Vocal-Processor-TC-Helicon-PERFORM-VK-i.510844912.23823711241),shop510844912/item23823711241,Kota Malang:Rp3,680,000,Habis;shop holiday flag. Checked2026-10-17,two-month index,11–14Sep delivery stale;direct open returned site shell. Condition,variant,bundle/adapter,warranty,working state and current stock unknown. Rp10,000 late-arrival voucher is compensation,not hardware discount. Not a qualified used/new price. Additional exact indexed offers retained in ledger;accessory adapters excluded.
+
+Official manual/QSG direct502. Official indexed manual pp4/12 establishes identity and model-specific functions;manufacturer-authored mirror matches PERFORM-VK title,keyboard I/O wording,2017 copyright and introduction/USB sections. Exact manual revision unverified;not a hash/visual certification. No software,dependencies or source files downloaded.
+
+[PVK-O]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEE/PERFORM-VK_M_EN.pdf
+[PVK-M]: https://www.manualslib.com/guide/3106539/tc-helicon-perform-vk-ultimate-mic-stand-mount-vocal-processor-manual.html

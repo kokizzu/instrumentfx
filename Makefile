@@ -1255,3 +1255,7 @@ research-commit-discovery:
 .PHONY: research-commit-perform-v
 research-commit-perform-v:
 	python3 scripts/research_tools.py commit-perform-v
+
+.PHONY: research-commit-perform-vk
+research-commit-perform-vk:
+	python3 scripts/research_tools.py commit-perform-vk
