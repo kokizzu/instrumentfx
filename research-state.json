@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Remaining manufacturer-backed technical gaps",
-    "task": "Acoustic Mini tuner colors, phones volume and compressor wording saved. Continue another partial model with a readable manufacturer manual; avoid repeatedly revisiting unresolved image-only panel evidence.",
+    "model": "Zoom G2Nu / G2.1Nu exact hardware discovery",
+    "task": "Mixed-model Hope Music storefront lead saved; resolve an exact item/variant before assigning price. Current storefront omits that older indexed listing.",
     "next_models": [],
-    "after_queue": "Continue exact Shopee discovery when saved leads are exhausted."
+    "after_queue": "Continue manufacturer-backed gaps and fresh Shopee brand/series searches."
   },
   "new_findings": [
     {
@@ -48874,5 +48874,27 @@
       "qualification": "NotassignedtogenericusedKamarGearRK5;notqualifiedexactoffer"
     },
     "decision": "Indie is recorded once. RK5 generic used listing remains revision-unknown; v2 search result has no resolved exact item link."
+  },
+  "discovery_zoom_g2_legacy": {
+    "checked_date": "2026-10-17",
+    "model_candidates": [
+      "G2Nu",
+      "G2.1Nu"
+    ],
+    "queries": [
+      "site:shopee.co.id \"Zoom G2Nu\"",
+      "site:shopee.co.id \"Zoom G2.1Nu\"",
+      "site:shopee.co.id \"G2.1Nu\" \"i.\""
+    ],
+    "lead": {
+      "url": "https://shopee.co.id/hopemusik",
+      "seller": "Hope Music",
+      "indexed_title": "Efek Zoom G2.1Nu Zoom G2.1u B2.1u Bass",
+      "indexed_idr": 1699000,
+      "index_age": "four months",
+      "access": "Search-index storefront excerpt only; current month-old storefront text omits this listing.",
+      "qualification": "Mixed models; exact item link, selected hardware variant, condition, region, bundle, stock and vouchers unresolved. Do not assign the displayed amount to any individual model or add a verified offer."
+    },
+    "next": "Seek a distinct exact G2Nu or G2.1Nu item; exclude adapter listings. Primary model architecture and revision verification required before catalogue addition."
   }
 }
