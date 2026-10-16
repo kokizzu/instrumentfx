@@ -290,7 +290,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-me50':
-            message = 'research(boss): verify ME-50 factory memory and live switching restrictions'
+            message = 'research(boss): qualify ME-50 category choices delay and routing limits'
         if mode == 'commit-b2-followup':
             message = 'research(zoom): verify B2 FOUR iOS26 compatibility and qualify additional offers'
         if mode == 'commit-ax3000g':

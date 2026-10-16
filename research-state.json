@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-50 primary follow-up",
-    "task": "ME-50 memory/live restrictions and modulation choices saved. Next verify complete controls, effect chain, delay/Tone Modify counts and connector/polarity details; commit before another model.",
+    "task": "ME-50 Tone Modify/delay choices and routing/output restrictions saved. Next corroborate complete physical controls and connector/polarity evidence; then fresh Shopee discovery. Commit before next model.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; missing bass leads still unresolved."
   },
@@ -2025,6 +2025,20 @@
           "Delay bypass tails distinguished from unverified patch-change spillover"
         ],
         "remaining": "Full controls, remaining categories, chain, electrical polarity, imports/software and qualified offers"
+      },
+      "routing_delay_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://static.roland.com/assets/media/pdf/ME-50_OM.pdf",
+        "pages": "6–17",
+        "resolved": [
+          "Ten Tone Modify choices excluding Off",
+          "Eleven delay selector positions include four ranges and Hold/Tap functions",
+          "Automatic routing and Tremolo/UNI-V placement",
+          "Mono/headphone Pan/SpacePan restrictions",
+          "Delay saved-time clamping and inactive controls",
+          "PHONES/LINE amp simulator and stereo split"
+        ],
+        "remaining": "Complete controls, full chain, ceiling, connector subtypes/polarity, imports/software and qualified prices"
       }
     }
   ],
