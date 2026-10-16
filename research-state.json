@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "StompLab 2G comparison audit",
-    "task": "StompLab2B exact historical offer now visible with conditions. Review2G next; mixed bundle price mapping must remain unresolved.",
+    "model": "PANDORA stomp comparison audit",
+    "task": "StompLab2B/2G exact historical offers and2G expression storage limits now project. Review PANDORA stomp offer scope next; preserve all original uncertainty.",
     "next_models": [],
-    "after_queue": "Review PANDORA stomp and remaining flagged current evidence."
+    "after_queue": "Continue remaining model cutoff review, primary verification and exact discovery."
   },
   "new_findings": [
     {
@@ -4136,6 +4136,12 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "Promoted already preserved Seven Stereo Rp1,520,000 exact observation into conditional/historical comparison row, retaining dated Habis conflict, unknown condition/bundle/stock and access limits. Separate incomplete Rp950,000 lead stays outside active price comparison; no new verification claimed."
+    },
+    {
+      "model": "VOX StompLab 2G",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Comparison coverage correction: saved instantaneous pedal-position exceptions now visible in expression field, distinct from assignability. Exact maju jaya sold-out historical offer included with condition/access limits. Sadewa mixed Lengkap/Unit Only mapping remains outside active prices; full prose retained."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40102,7 +40108,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume StompLab 2G comparison audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume PANDORA stomp comparison audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

@@ -349,7 +349,7 @@ def main():
         if mode == 'commit-g1xon':
             message = 'research(zoom): reconcile G1Xon library counts and acoustic algorithm'
         if mode == 'commit-stomplab2g':
-            message = 'research(vox): verify StompLab 2G assignments memory and output modes'
+            message = 'research(vox): restore StompLab 2G pedal storage limits and qualified offer coverage'
         if mode == 'commit-stomplab1g':
             message = 'research(vox): restore StompLab 1G output behavior and price qualifications in comparisons'
         if mode == 'commit-stomplab2b':

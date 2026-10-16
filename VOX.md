@@ -224,7 +224,7 @@ Guitar multi-effects with built-in expression, distinct from 1G and 2B. Checked 
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | **Built-in expression with pressure switching** of assigned target; wah,volume andeffect parameters. No external EXP socket in complete rear inventory. Only blinking-LED parameters are assignable;heel/toe ranges are editable and require saving. Volume follows pedal position immediately on program recall;other targets wait for pedal movement. | [Official IIG manual pp3–6][SL2G-M] |
+| Expression | **Built-in expression with pressure switching** of assigned target; wah,volume andeffect parameters. No external EXP socket in complete rear inventory. Only blinking-LED parameters are assignable;heel/toe ranges are editable and require saving. Volume follows pedal position immediately on program recall;other targets wait for pedal movement. Instantaneous position cannot be saved for volume,delay input,reverb input or MOD pitch-shift pitch; these remain assignable targets. Assignment ranges require WRITE. | [Official IIG manual pp3–6,10–12][SL2G-M] |
 | K/F/B | **3 / 2 / 4**, text-derived: CATEGORY,VALUE1/2;UP/DOWN footswitches;EDIT,up/down buttons,expression-setting button. Pedal pressure switch and rear POWER additional. Visual corroboration pending. | [Manual pp4–5][SL2G-M] |
 | Display | Program/value readout plus tuner andexpression LEDs. Diagonal,technology,color andtouch unverified. | [Manual pp4–5][SL2G-M] |
 | Dimensions / mass | **207×125×64 mm W×D×H; 780 g**. English also prints21.72oz, inconsistent with780g; retain conflict. Medium horizontal footprint. | [VOX English][SL2G-E];[German][SL2G-D] |
@@ -247,6 +247,7 @@ Rev.EFGSJ1 p11 says current pedal position can be stored except volume,delay inp
 |---|---|---|
 | Used | Unknown; condition not established. | — |
 | New | Unknown; condition not established. | — |
+| Conditional historical observation | **Rp1,725,000; Habis**, maju jaya gallery, Kab. Malang, shop33360096/item27573361035. Checked2026-10-17, month-old opened cache; two-month search omitted stock marker. Condition, variant, adapter/bundle, working state, warranty, usable vouchers and checkout total unknown. August/September delivery text is stale; late-arrival compensation is not discount. Not a verified new/used price or live stock. | [Exact item](https://shopee.co.id/pedal-efek-gitar-multi-effect-digital-VOX-stomplab-2G-i.33360096.27573361035) |
 
 <!-- comparison evidence ends -->
 
