@@ -857,3 +857,17 @@ consolidation-plan-nux-mg50li:
 .PHONY: research-commit-nux-mg50li-audit
 research-commit-nux-mg50li-audit:
 	python3 scripts/research_tools.py commit-nux-mg50li-audit
+
+.PHONY: consolidation-plan-nux-union consolidation-audit-nux-union
+consolidation-plan-nux-union:
+	python3 scripts/consolidation_tools.py plan-nux-union
+consolidation-audit-nux-union:
+	python3 scripts/consolidation_tools.py audit-nux-union
+
+.PHONY: consolidation-audit-nux-links
+consolidation-audit-nux-links:
+	python3 scripts/consolidation_tools.py audit-nux-links
+
+.PHONY: research-commit-nux-union
+research-commit-nux-union:
+	python3 scripts/research_tools.py commit-nux-union

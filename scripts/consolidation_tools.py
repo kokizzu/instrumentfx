@@ -1651,14 +1651,15 @@ def audit_floorboard_union():
     print('PASS floorboard union: '+str(len(paragraphs))+' prose/source groups, '+str(len(urls))+' external URLs, three model manifests / 42 fields. Incoming links remain; no source retirement.')
 
 
-def audit_compact_links():
+def audit_compact_links(kind='compact'):
+    assert kind in ('compact','nux')
     """Inventory explicit Markdown links and literal references before source retirement."""
     import urllib.parse
     research_tools.identity()
-    source_key = 'effects/guitar-compact.md'
+    source_key = 'effects/guitar-'+kind+'.md'
     source = (ROOT/source_key).read_text()
     state = json.loads((ROOT/'research-state.json').read_text())
-    assert digest(source) == state['migration']['shared_compact_audit']['source_sha256']
+    assert digest(source) == state['migration']['shared_'+kind+'_audit']['source_sha256']
     paths = sorted(ROOT.glob('*.md')) + sorted((ROOT/'effects').rglob('*.md'))
     incoming, outgoing, mentions = [], [], []
     for path in paths:
@@ -1668,7 +1669,7 @@ def audit_compact_links():
         links = [(m.start(), m[1], 'inline') for m in re.finditer(r'\]\(([^\s)]+)\)', text)]
         links += [(m.start(), definitions[m[2].lower()], 'reference') for m in re.finditer(r'\[([^\]]+)\]\[([^\]]+)\]', text) if m[2].lower() in definitions]
         links += [(m.start(), m[2], 'definition') for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', text, re.M)]
-        for offset, raw, kind in links:
+        for offset, raw, link_kind in links:
             parsed = urllib.parse.urlsplit(raw)
             if parsed.scheme or parsed.netloc:
                 continue
@@ -1677,23 +1678,23 @@ def audit_compact_links():
                 resolved = str(target.relative_to(ROOT))
             except ValueError:
                 continue
-            entry = dict(source=key, line=text.count('\n', 0, offset)+1, link=raw, kind=kind, target=resolved, fragment=urllib.parse.unquote(parsed.fragment), exists=target.is_file())
+            entry = dict(source=key, line=text.count('\n', 0, offset)+1, link=raw, kind=link_kind, target=resolved, fragment=urllib.parse.unquote(parsed.fragment), exists=target.is_file())
             if resolved == source_key:
                 incoming.append(entry)
             if key == source_key:
                 outgoing.append(entry)
         for number, line in enumerate(text.splitlines(), 1):
-            if 'guitar-compact.md' in line:
+            if Path(source_key).name in line:
                 mentions.append(dict(source=key, line=number))
     # JSON references are recorded separately: provenance is not an incoming navigation link.
     json_mentions = []
     for path in sorted(ROOT.glob('*.json')) + sorted((ROOT/'effects').rglob('*.json')):
         for number, line in enumerate(path.read_text().splitlines(), 1):
-            if 'guitar-compact.md' in line:
+            if Path(source_key).name in line:
                 json_mentions.append(dict(source=str(path.relative_to(ROOT)), line=number))
     headings = [dict(line=i, heading=line.lstrip('#').strip()) for i,line in enumerate(source.splitlines(),1) if re.match(r'^#{1,6} ',line)]
     report = dict(source=source_key, source_sha256=digest(source), incoming=incoming, outgoing=outgoing, markdown_literal_mentions=mentions, json_literal_mentions=json_mentions, headings=headings, missing_outgoing=[e for e in outgoing if not e['exists']], incoming_fragments=sorted({e['fragment'] for e in incoming if e['fragment']}), retirement_authorized=False, limitations=['Lexical explicit inline/reference/definition links; definition and use are separate occurrences.', 'Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.', 'No link rewrite, anchor mapping, source deletion or external availability verification.'])
-    Path('/tmp/instrumentfx-compact-links.json').write_text(json.dumps(report,indent=2)+'\n')
+    Path('/tmp/instrumentfx-'+kind+'-links.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(dict(source=source_key,incoming=len(incoming),outgoing=len(outgoing),missing_outgoing=report['missing_outgoing'],incoming_fragments=report['incoming_fragments'],markdown_mentions=len(mentions),json_mentions=len(json_mentions),headings=len(headings)),indent=2))
 
 
@@ -1733,7 +1734,40 @@ def plan_nux_shared(model='MG-101'):
     Path('/tmp/instrumentfx-nux-'+key+'-plan.json').write_text(json.dumps(report,indent=2)+'\n')
     print(model+':15 fields/3rows,'+str(len(contexts))+' historical context paragraphs,'+str(len(urls))+' source URLs; exact field omissions='+str(len(report['missing_exact_fields'])))
 
+
+def audit_nux_union(verify=True):
+    research_tools.identity()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    entry = state['migration']['shared_nux_audit']
+    path = entry['source']
+    source = (ROOT/path).read_text()
+    assert digest(source) == entry['source_sha256'], 'NUX source changed'
+    refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
+    paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|]', p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
+    normalized = [comparison_views.relink(p,path,refs) for p in paragraphs]
+    destinations = ('NUX.md','MULTI-EFFECTS.md')
+    union = '\n'.join((ROOT/p).read_text() for p in destinations)
+    missing = [p for p in normalized if p not in union]
+    urls = sorted(set(re.findall(r'https?://[^\s)]+',source)))
+    manifests = [e for e in state['consolidation_and_price_findings'] if e.get('source') == path and e.get('verification_kind') == 'complete-model-rows-v1']
+    assert {e['model_name'] for e in manifests} == {'MG-101','MG-300 original','MG-300 MKII','MG-400','MG-30','MG-50Li'}
+    assert sum(len(e['retained_comparison_facts']) for e in manifests) == 90
+    report = dict(source=path,source_sha256=digest(source),destinations=list(destinations),paragraph_groups=len(paragraphs),normalized_missing_groups=missing,external_urls=urls,missing_external_urls=[u for u in urls if u not in union],model_manifests=len(manifests),model_fields=90,retirement_authorized=False)
+    Path('/tmp/instrumentfx-nux-union-plan.json').write_text(json.dumps(report,indent=2)+'\n')
+    if verify:
+        assert not missing, 'NUX prose/source groups missing'
+        assert not report['missing_external_urls'], 'NUX URL missing'
+        verify_preserved(state)
+    print(json.dumps({k:v for k,v in report.items() if k not in ('external_urls','normalized_missing_groups')},indent=2))
+    print('Missing prose/source groups: '+str(len(missing)))
+
 if __name__ == '__main__':
+    if sys.argv[1:] == ['audit-nux-links']:
+        audit_compact_links('nux')
+        raise SystemExit(0)
+    if sys.argv[1:] in (['plan-nux-union'], ['audit-nux-union']):
+        audit_nux_union(sys.argv[1] == 'audit-nux-union')
+        raise SystemExit(0)
     if sys.argv[1:] == ['plan-nux-mg50li']:
         plan_nux_shared('MG-50Li')
         raise SystemExit(0)

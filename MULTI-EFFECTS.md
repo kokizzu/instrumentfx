@@ -87,3 +87,16 @@ The following source grouping and navigation retain the 2026-10-14 floorboard sn
 
 For all researched processors organised by size and expression, start at the [comparison home](effects/README.md). Unresearched families and unresolved fields are recorded in [coverage](effects/COVERAGE.md).
 
+
+### Historical NUX shared-source navigation and evidence context
+
+The following groups preserve the2026-10-14 shared source context. Links are normalized from effects/ to repository root;manual scope and photograph claims retain their original date. This is source preservation,not fresh hardware verification.
+
+[Home](effects/README.md) · [Guitar index](effects/guitar-floorboards.md) · [Methodology](effects/METHODOLOGY.md)
+
+- [MG-300 manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300/NUX_MG300_UserManual_English.pdf), control/I/O diagrams and printed p.14 specifications.
+- [MG-300 MKII manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf), front/rear panels and final specifications. Manual predates some GEN2 additions.
+- [MG-30 manufacturer V2 manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf), printed pp.2–4 and 14; firmware-sensitive algorithms use the current product page instead.
+- MG-101 [front](https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771628910&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771628910&width=2400) official images.
+- [MG-400 control image](https://www.nux.us/cdn/shop/files/MG-400_Thumbnails.jpg?v=1756899623&width=800).
+- MG-50Li [front](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400) official images; rear image establishes two XLR outputs and two send/return pairs.

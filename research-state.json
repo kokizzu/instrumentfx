@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX shared-source prose and source union",
-    "task": "All six NUX shared model-row subsets now preserved (90 fields total);MG-50Li count/runtime contradictions kept. Next verify every shared prose/source-list group and external URL across root destinations,then incoming navigation/anchors. Fresh Shopee discovery and technical gaps remain.",
+    "model": "Remaining shared-source consolidation and fresh discovery",
+    "task": "NUX shared-source content union verified;source retained with6incoming links. Next audit other shared source bodies (bass/vocal/advanced-modelers/BOSS etc),continue navigation mapping and fresh Shopee discovery. All-root-canonical counts do not mean complete migration or full specification verification.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -16341,7 +16341,124 @@
       ],
       "pending_models": [],
       "source_retired": false,
-      "remaining_work": "All six model-row subsets have exact manifests. Verify remaining shared prose/source-list grouping and external URL union,then incoming navigation and anchors;source retained. Technical verification and fresh discovery remain."
+      "remaining_work": "Content union verified:90 model fields,9 prose/navigation/source-list groups and20 external URLs. Six incoming explicit links with no fragments remain;three outgoing local links resolve. Preserve provenance and handle navigation/shortcut/HTML/code/external references before retirement. Other shared sources,fresh discovery and technical gaps remain.",
+      "prose_union": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-nux-union",
+        "source_sha256": "6259d5777c8ed841b7d629f16e913d4ad618ad1da6470d091156ee57022bb6a0",
+        "destinations": [
+          "NUX.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "paragraph_groups": 9,
+        "external_urls": 20,
+        "model_manifests": 6,
+        "model_fields": 90,
+        "normalization": "Resolve reference links and local paths to root;all other text retained.",
+        "source_retired": false
+      },
+      "explicit_link_audit": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-nux-links",
+        "incoming_occurrences": 6,
+        "incoming": [
+          {
+            "source": "effects/COVERAGE.history-2026-10-14.md",
+            "line": 13,
+            "link": "guitar-nux.md",
+            "kind": "inline",
+            "target": "effects/guitar-nux.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.history-2026-10-14.md",
+            "line": 26,
+            "link": "guitar-nux.md",
+            "kind": "inline",
+            "target": "effects/guitar-nux.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.md",
+            "line": 20,
+            "link": "guitar-nux.md",
+            "kind": "inline",
+            "target": "effects/guitar-nux.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/README.md",
+            "line": 22,
+            "link": "guitar-nux.md",
+            "kind": "inline",
+            "target": "effects/guitar-nux.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-floorboards.md",
+            "line": 3,
+            "link": "guitar-nux.md",
+            "kind": "inline",
+            "target": "effects/guitar-nux.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-indonesia.history-2026-10-14.md",
+            "line": 80,
+            "link": "guitar-nux.md",
+            "kind": "inline",
+            "target": "effects/guitar-nux.md",
+            "fragment": "",
+            "exists": true
+          }
+        ],
+        "outgoing_occurrences": 3,
+        "missing_outgoing": [],
+        "incoming_fragments": [],
+        "headings": [
+          {
+            "line": 1,
+            "heading": "NUX guitar / bass multi-effects"
+          },
+          {
+            "line": 7,
+            "heading": "Hardware and size — all six have built-in expression"
+          },
+          {
+            "line": 20,
+            "heading": "Processing, presets, acoustic/synth and model loading"
+          },
+          {
+            "line": 33,
+            "heading": "Ports, power and software"
+          },
+          {
+            "line": 44,
+            "heading": "Conflicts and firmware cautions"
+          },
+          {
+            "line": 54,
+            "heading": "Sources"
+          }
+        ],
+        "unmatched_markdown_literal_mentions": [
+          {
+            "source": "effects/MIGRATION.md",
+            "line": 23
+          }
+        ],
+        "limitations": [
+          "Lexical explicit inline/reference/definition links; definition and use are separate occurrences.",
+          "Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.",
+          "No link rewrite, anchor mapping, source deletion or external availability verification."
+        ],
+        "retirement_authorized": false
+      }
     }
   },
   "deferred_work": {
@@ -16425,7 +16542,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX shared-source prose and source union."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Remaining shared-source consolidation and fresh discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
