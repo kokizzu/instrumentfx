@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'bg300': ('BG300', 'effects/findings/2026-10-14-boin-audio-bg300.md'),
     'ave-100': ('AVE-100', 'effects/findings/2026-10-15-audota-ave-100.md'),
     'ace-100': ('ACE-100', 'effects/findings/2026-10-15-audota-ace-100.md'),
     'ame-200-pro': ('AME-200 Pro', 'effects/findings/2026-10-15-audota-ame-200-pro.md'),
@@ -744,7 +745,69 @@ def plan_ave100():
     print('Preview AVE-100 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_bg300():
+    research_tools.identity()
+    model, source_path = MODELS['bg300']
+    brand_file = 'BOIN-AUDIO.md'
+    assert not (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['Boin Audio::BG300']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'AUDOTA-BG300'
+    body, refs = preserved_body(source, prefix)
+    normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
+    for old,new in normalizations.items():
+        body=body.replace(old,new)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/shopee-multifx-2.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**8 new partial') or p.startswith('Dimensions are') or p.startswith('These are separate') or p.startswith('No diagonal') or p.startswith('Counts include') or p.startswith('The individual notes retain')]
+    section = '# Boin Audio multi-effects\n\n## BG300\n\nConsolidated **2026-10-17**. **Revision not established:** the linked firmware1.1.0 manual is a documented profile, not confirmation that every BG300 listing supplies matching hardware. Retailer and manual display/power/port/algorithm conflicts remain open.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical catalogue counts below are superseded.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nSources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/shopee-multifx-2.md). No source or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current BG300 comparison fields\n\nAll technical values below remain the linked-manual profile pending actual hardware/revision confirmation.\n\n| Field | Evidence / qualification |\n|---|---|\n'
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'] in ('Follow-up technical correction','IDR qualified observations'):
+            continue
+        value=f['value']
+        field=f['field']
+        if field == 'Other features':
+            field='Other relevant features'
+        if field == 'Display':
+            value += ' Retailer still advertises1.77-inch TFT; linked manual1.7-inch LCD retained as revision conflict.'
+        if field == 'Power / battery':
+            value += ' Retailer9V socket/DC-power claim remains conflicting, not added to this manual profile.'
+        if field == 'Choices per category':
+            value += ' Retailer70-effects/10-cab claims remain unresolved against manual64/15.'
+        section += '| '+field+' | '+value+' |\n'
+    section += '| Used IDR | ? — no condition-qualified used hardware offer established. |\n| New / retail IDR | **Rp1.749.990**, [Primanada exact With Battery offer](https://shopee.co.id/Boin-Audio-BG300-Efek-Gitar-Bass-BG-300-With-Battery-i.15931156.48853835827),shop15931156/item48853835827,Kota Jakarta Utara, indexed reopening2026-10-17. Exact condition grade, hardware revision, checkout stock, accessory bundle, warranty region, delivered charges and voucher eligibility unverified. Relative delivery/activity is not stock confirmation; late-delivery compensation not a purchase discount. Historical ask, not a completed sale. |\n\n<!-- comparison evidence ends -->\n\n### Current source review and unresolved identity\n\nChecked **2026-10-17**: [Boin Audio manufacturer](https://www.boinaudio.com/en/) still names BG200/300/400, confirms portable multi-effects/pedal family identity and offers a download center without extracted model-specific file links. This does not identify a hardware revision or establish identical siblings. No automotive BOSS Audio or unrelated OEM specifications substituted.\n\n[Nafiri BG300 page](https://nafiriguitar.com/products/boin-audio-bg300-guitar-multi-effects-processor) still points to its firmware1.1.0 manual. Retailer description retains1.77-inch TFT,70 effects,10 cabs,512-point IR,9V input and looper claims that differ from the preserved linked-manual profile. Its Android/PC/Mac/ASIO download link does not independently establish app identity/version or current OS compatibility. Original manual cover identity and earlier visual-inspection qualifications remain above; no PDF file downloaded or rendering repeated in this pass.\n\nSeparate non-Shopee asking observation rechecked2026-10-17: Nafiri **Rp1.500.000**, with both Sold out and Add to cart text. This is historical retailer evidence, not an active range with the Shopee quote, nor proof of a matching revision or completed sale. Full original dated quotes and URLs remain preserved above.\n\nThe exact Primanada Shopee listing reopened at the same1.749.990 amount and identifies Jakarta Utara. Seller title says guitar/bass and With Battery, but seller wording does not independently verify bass capability or revision. BG300 is not newly added to bass membership on that basis. Unresolved: actual panel/firmware/manual match, power/ports/headphone/display/algorithm-count contradictions, IR format/length,NAM/captures, current editor identity, looper/rhythm/scenes/trails and used/current-stock pricing.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file] = [model]
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['Boin Audio BG300'],model_name=model,brand='Boin Audio',destination=brand_file+'#bg300',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete BG300 finding and supporting fields retained; manual-profile revision/display/power/I-O/count conflicts and qualified Shopee/local asks preserved.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Scorpion KMF-10 — complete legacy consolidation',task='Read complete KMF-10 finding and supporting comparisons; consolidate losslessly into root SCORPION.md. Preserve brand-source conflicts, power/current/preset uncertainties and exact prices/URLs. Check primary and Shopee evidence; commit before next model. Continue remaining legacy records, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [BOIN-AUDIO.md](BOIN-AUDIO.md) |BG300 |\n| [JOYO.md](JOYO.md)')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=None
+    payload=dict(model_id='bg300',model=model,inputs=inputs,outputs=outputs,new_files=[brand_file],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview BG300 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'bg300':
+        return plan_bg300()
     if model_id == 'ave-100':
         return plan_ave100()
     if model_id == 'ace-100':
@@ -984,10 +1047,13 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'bg300':
+        print(research_tools.git('commit', '-m', 'research(boin): consolidate BG300 with explicit revision conflicts'))
+        return
     if model_id == 'ave-100':
         print(research_tools.git('commit', '-m', 'research(audota): consolidate AVE-100 vocal evidence'))
         return

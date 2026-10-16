@@ -517,3 +517,11 @@ consolidation-apply-ave-100:
 	python3 scripts/consolidation_tools.py apply ave-100
 consolidation-commit-ave-100:
 	python3 scripts/consolidation_tools.py commit ave-100
+
+.PHONY: consolidation-plan-bg300 consolidation-apply-bg300 consolidation-commit-bg300
+consolidation-plan-bg300:
+	python3 scripts/consolidation_tools.py plan bg300
+consolidation-apply-bg300:
+	python3 scripts/consolidation_tools.py apply bg300
+consolidation-commit-bg300:
+	python3 scripts/consolidation_tools.py commit bg300
