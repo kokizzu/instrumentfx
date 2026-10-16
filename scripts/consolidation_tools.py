@@ -106,13 +106,16 @@ def verify_preserved(state):
             assert digest(source) == entry['source_sha256'], entry['source']
             model = entry.get('model_name', entry['models'][0].removeprefix('Zoom '))
             text = (ROOT / entry['destination'].split('#')[0]).read_text()
-            section = text.split('\n## ' + model + '\n', 1)[1].split('\n## ', 1)[0]
+            section_model = entry.get('destination_section', model)
+            section = text.split('\n## ' + section_model + '\n', 1)[1].split('\n## ', 1)[0]
             actual = []
             aliases = {comparison_views.norm(model), comparison_views.norm(entry.get('brand', 'Zoom')+' '+model)}
             aliases.update(comparison_views.norm(a) for a in entry.get('source_model_aliases', []))
             for headers, rows, context in comparison_views.tables(source):
                 for row in rows:
-                    if comparison_views.norm(row[0]) in aliases:
+                    exact = entry.get('source_exact_model_aliases')
+                    label = re.sub(r'\[([^\]]+)\](?:\([^)]*\)|\[[^\]]*\])', r'\1', row[0]).strip()
+                    if (label in exact) if exact else (comparison_views.norm(row[0]) in aliases):
                         actual += [dict(field=h,value=v,source=entry['source'],context=context) for h,v in zip(headers[1:],row[1:])]
             assert actual == entry['retained_comparison_facts'], 'Changed or missing source rows: '+model
             for fact in actual:
@@ -1652,7 +1655,7 @@ def audit_floorboard_union():
 
 
 def audit_compact_links(kind='compact'):
-    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota','cube','owned','market1','market2','market3','market4','market5','market6')
+    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota','cube','owned','market1','market2','market3','market4','market5','market6','market7')
     """Inventory explicit Markdown links and literal references before source retirement."""
     import urllib.parse
     research_tools.identity()
@@ -1665,6 +1668,8 @@ def audit_compact_links(kind='compact'):
         source_key = 'effects/shopee-multifx-5.md'
     if kind == 'market6':
         source_key = 'effects/shopee-multifx-6.md'
+    if kind == 'market7':
+        source_key = 'effects/shopee-multifx-7.md'
     if kind == 'market2':
         source_key = 'effects/shopee-multifx-2.md'
     if kind == 'market1':
@@ -1910,10 +1915,10 @@ def audit_audota_union(verify=True):
 
 
 def audit_shared_variant_union(verify=True, kind='cube'):
-    assert kind in ('cube','owned','market1','market2','market3','market4','market5','market6')
+    assert kind in ('cube','owned','market1','market2','market3','market4','market5','market6','market7')
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
-    path = {'cube':'effects/cube-baby.md','owned':'effects/owned-multifx.md','market1':'effects/shopee-multifx.md','market2':'effects/shopee-multifx-2.md','market3':'effects/shopee-multifx-3.md','market4':'effects/shopee-multifx-4.md','market5':'effects/shopee-multifx-5.md','market6':'effects/shopee-multifx-6.md'}[kind]
+    path = {'cube':'effects/cube-baby.md','owned':'effects/owned-multifx.md','market1':'effects/shopee-multifx.md','market2':'effects/shopee-multifx-2.md','market3':'effects/shopee-multifx-3.md','market4':'effects/shopee-multifx-4.md','market5':'effects/shopee-multifx-5.md','market6':'effects/shopee-multifx-6.md','market7':'effects/shopee-multifx-7.md'}[kind]
     source = (ROOT/path).read_text()
     assert digest(source) == state['migration']['shared_'+kind+'_audit']['source_sha256']
     aliases = {'CUBE BABY electric':{'electriccubebaby','electric'},'CUBE BABY AC':{'cubebabyac','ac'},'CUBE BABY BASS':{'cubebabybass','bass'}}
@@ -1939,6 +1944,9 @@ def audit_shared_variant_union(verify=True, kind='cube'):
     if kind == 'market6':
         aliases = {"GE150 Plus":{"ge150plusnonli","ge150plus","plus"},"GE150 Plus Li":{"ge150plusli","plusli"},"GE150 Max":{"ge150maxnonli","ge150max","max"},"GE150 Max Li":{"ge150maxli","maxli"},"GE1000 Li":{"ge1000li"}}
         files = {"GE150 Plus":"MOOER.md","GE150 Plus Li":"MOOER.md","GE150 Max":"MOOER.md","GE150 Max Li":"MOOER.md","GE1000 Li":"MOOER.md"}
+    if kind == 'market7':
+        aliases = {"TRIDENT NME-5":{"nuxtridentnme5","trident"},"G6":{"zoomg6","g6"},"G11":{"zoomg11","g11"},"Ampero II Stomp MP-300":{"amperoiistompmp300","mp300","amperoiistomp"},"POD Go":{"podgostandard","podgo","podgowireless","podgovariants"},"POD Go Wireless":{"podgowireless","podgovariants"},"POD Express Guitar":{"podexpressguitar","expressguitar","podexpressguitarbass","expressvariants"},"POD Express Bass":{"podexpressbass","expressbass","podexpressguitarbass","expressvariants"}}
+        files = {"TRIDENT NME-5":"NUX.md","G6":"ZOOM.md","G11":"ZOOM.md","Ampero II Stomp MP-300":"HOTONE.md","POD Go":"LINE6.md","POD Go Wireless":"LINE6.md","POD Express Guitar":"LINE6.md","POD Express Bass":"LINE6.md"}
     destinations = {name:(ROOT/name).read_text() for name in set(files.values())}
     union = '\n'.join(destinations.values())+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
     records = {model:[] for model in aliases}
@@ -1950,16 +1958,22 @@ def audit_shared_variant_union(verify=True, kind='cube'):
             continue
         for row in rows:
             matched = [m for m,names in aliases.items() if comparison_views.norm(row[0]) in names]
-            assert 1 <= len(matched) <= (2 if kind == 'market1' else 1), 'Unmapped '+kind+' row: '+str(row)
+            if kind == 'market7':
+                label = re.sub(r'\[([^\]]+)\](?:\([^)]*\)|\[[^\]]*\])', r'\1', row[0]).strip()
+                exact = {'POD Go':{'POD Go standard','POD Go','POD Go / Wireless','POD Go variants'},'POD Go Wireless':{'POD Go Wireless','POD Go / Wireless','POD Go variants'}}
+                matched = [m for m in matched if m not in exact or label in exact[m]]
+            assert 1 <= len(matched) <= (2 if kind in ('market1','market7') else 1), 'Unmapped '+kind+' row: '+str(row)
             for model in matched:
                 records[model] += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
-    expected = {model:({'market1':18,'market2':17,'market3':20,'market4':17,'market5':11,'market6':15}.get(kind,14)) for model in aliases}
+    expected = {model:({'market1':18,'market2':17,'market3':20,'market4':17,'market5':11,'market6':15,'market7':15}.get(kind,14)) for model in aliases}
     if kind == 'owned':
         expected['GEM BOX original'] = 15
-    assert {model:len(facts) for model,facts in records.items()} == expected
+    actual_counts = {model:len(facts) for model,facts in records.items()}
+    assert actual_counts == expected, str(actual_counts)
     reports = []
     for model,facts in records.items():
-        section = destinations[files[model]].split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
+        section_model = 'POD Go and POD Go Wireless' if kind == 'market7' and model in ('POD Go','POD Go Wireless') else model
+        section = destinations[files[model]].split('\n## '+section_model+'\n',1)[1].split('\n## ',1)[0]
         reports.append(dict(model=model,facts=facts,missing=[f for f in facts if f['value'] not in section]))
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)',source,re.M)}
     groups = [p for p in re.split(r'\n\s*\n',source) if p.strip() and not re.match(r'^[#|]',p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
@@ -1979,6 +1993,12 @@ def audit_shared_variant_union(verify=True, kind='cube'):
         verify_preserved(state)
 
 if __name__ == '__main__':
+    if sys.argv[1:] in (['plan-market7-union'], ['audit-market7-union']):
+        audit_shared_variant_union(sys.argv[1] == 'audit-market7-union', 'market7')
+        raise SystemExit(0)
+    if sys.argv[1:] == ['audit-market7-links']:
+        audit_compact_links('market7')
+        raise SystemExit(0)
     if sys.argv[1:] in (['plan-market6-union'], ['audit-market6-union']):
         audit_shared_variant_union(sys.argv[1] == 'audit-market6-union', 'market6')
         raise SystemExit(0)

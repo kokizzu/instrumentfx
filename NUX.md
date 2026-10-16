@@ -642,6 +642,28 @@ These are not a current market range, authenticated seller status or completed-s
 The V1 manual is not an independent test of firmware2.0.1. Remaining: published screen diagonal/color/touch, complete current algorithm inventory, IR formats, USB channel/power specifications and current condition-specific price evidence. **Next Shopee-first model: Zoom G6.**
 <!-- NUX-TRIDENT source ends -->
 
+### Preserved seventh Shopee expansion shared comparison
+
+Historical2026-10-15 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **External expression** (No built-in expression): One TRS EXP socket
+- **K/F/B** (No built-in expression): 19/10/4; five toggles additional
+- **Body and weight** (No built-in expression): **312×164×65 mm L×W×H;1.65 kg;large**
+- **Display** (No built-in expression): LCD; diagonal,color-depth and touch specification ?
+- **Processing and available choices** (Blocks, categories and presets): **10 movable blocks**, including external-loop insert; V1 overview27 amps,7 boosts,7 FX,11 MOD,3 delay,4 reverb;27 factory cab IRs
+- **Preset storage** (Blocks, categories and presets): **96 factory +96 user**,32×3 in each mode; overview's shorter96-slot statement does not erase factory bank
+- **Synth / acoustic simulation** (Blocks, categories and presets): Both ? in checked material
+- **IR / capture support** (IR, NAM, power and software): 1024-sample user IR:per-patch locations plus32 extra;NAM/capture support not established
+- **Power** (IR, NAM, power and software): **9 V center-negative;500 mA supply vs<330 mA draw**,not a conflict;USB/battery operation ?
+- **Configuration / USB audio** (IR, NAM, power and software): Trident Editor Win/Mac2.0.1 with matching firmware;USB recording/reamp,channels ?
+- **Audio/control connections** (Connections and practical differences): Mono quarter-inch in/loop;stereo quarter-inch unbalanced andXLR balanced outs;quarter-inch phones;3.5 aux;separate3.5 MIDI IN/OUT;USB-C;EXP
+- **Looper / additional functions** (Connections and practical differences): 30 s pre/post loop;tuner;no internal drum generator established
+- **Used evidence** (Separate IDR evidence): ?;Rp4.750.000 sold-out offer has unknown condition,not labelled used
+- **Retail evidence / qualification** (Separate IDR evidence): **Rp5.880.000**,RedMusikBali,indexed with older July delivery text
+- **Commit** (Individual findings commits): `b25492b2764cb263d797fc166346e2ca2ae9216a`
+
+[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+
 ## Cerberus NME-3
 
 **New profile,2026-10-15. Effects-only guitar multi-effects and controller.** Analog drive/distortion plus independent modulation,time effects and IR loading qualifies;it is not merely a controller. [Official product,firmware and editor](https://nuxaudio.com/product/cerberus/).

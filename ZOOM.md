@@ -119,6 +119,27 @@ A seller name containing Official does not authenticate authorization. These are
 Remaining: current full category counts, factory-filled preset subset, auxiliary display physical/color details, successful control-panel visual corroboration and current condition-specific price evidence. **Next: Line6 POD Go Wireless**, with its own Shopee listing and receiver/bundle distinctions.
 <!-- ZOOM-G11-ORIGINAL source ends -->
 
+### Preserved seventh Shopee expansion shared comparison
+
+Historical2026-10-15 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **External control** (Built-in expression): External FP02M
+- **K/F/B** (Built-in expression): 27/11/1; parsed panel, visual corroboration pending
+- **Body and weight** (Built-in expression): **495 W×253 D×64 H mm;2.8 kg;large**
+- **Displays** (Built-in expression): **5-inch,800×480,color touchscreen plus six128×32 auxiliary LCDs**; auxiliary diagonals/color depth ?
+- **Processing and available choices** (Blocks, categories and presets): **Amp plus nine effects**,DSP-limited;12 effect-list categories; dynamics15 named choices, remaining current subtotals ?
+- **Preset storage** (Blocks, categories and presets): **500 editable**,125×4;factory-filled subset ?
+- **Synth / acoustic simulation** (Blocks, categories and presets): **Aco.Sim; Z-Syn, BaStdSyn and BaSynTlk verified**
+- **IR / capture support** (IR, NAM, power and software): **V2:106 supplied+194 remaining user locations =300**,up to2048samples. Older landing page70/130 retained as source-version conflict;NAM not established
+- **Power** (IR, NAM, power and software): **12 V2 A center-positive;USB power explicitly No**
+- **Configuration / USB audio** (IR, NAM, power and software): Guitar Lab Win/Mac;Handy iOS optionalBTA-1;USB4×4,44.1/32-bit,reamp
+- **Audio/control connections** (Connections and practical differences): Mono input;two mono loops combinable stereo;two main outs;**separate quarter-inch phones**;3.5 aux;DIN MIDI;USB-C device+USB-A host;REMOTE/CONTROL
+- **Looper / additional functions** (Connections and practical differences): Five-minute stereo loop;68 rhythms;IR/firmware viaUSB flash;no mic/phantom
+- **Retail evidence / qualification** (Separate IDR evidence): **Rp11.200.000**,TOKOAUDIOPRO,indexed;separateRp10.493.685May-cache offer not a current lower bound
+- **Commit** (Individual findings commits): `f5d2c130e152a49a6197f8ee4bfa4f8829d36eb6`
+
+[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+
 ## Existing ZOOM research — consolidation still pending
 
 The existing V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.

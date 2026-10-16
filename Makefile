@@ -1071,3 +1071,15 @@ consolidation-audit-market6-links:
 .PHONY: research-commit-market6-union
 research-commit-market6-union:
 	python3 scripts/research_tools.py commit-market6-union
+
+.PHONY: consolidation-plan-market7-union consolidation-audit-market7-union consolidation-audit-market7-links
+consolidation-plan-market7-union:
+	python3 scripts/consolidation_tools.py plan-market7-union
+consolidation-audit-market7-union:
+	python3 scripts/consolidation_tools.py audit-market7-union
+consolidation-audit-market7-links:
+	python3 scripts/consolidation_tools.py audit-market7-links
+
+.PHONY: research-commit-market7-union
+research-commit-market7-union:
+	python3 scripts/research_tools.py commit-market7-union

@@ -371,3 +371,25 @@ Original finding references: [Source1](effects/findings/2026-10-15-mooer-ge150-p
 | FX/wah/dynamics | Drive | Amp | Cabinet | Noise suppression | EQ | Modulation | Delay | Reverb | Total |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 |12|28|55|26|3|4|25|9|8|**170**|
+
+### seventh Shopee expansion: historical shared qualifications
+
+Preserved2026-10-15 source context. Its112-model/18-page checkpoint and next-model queue are historical. POD Go and Wireless share documented processing rows but retain separate model identities,weights,bundles and prices. The G10TII transmitter battery does not establish battery power for the floorboard. Current root profiles and ledger retain precedence.
+
+**Reviewed 2026-10-15: eight new partial records, each committed before the next model was researched.** Together with the already-integrated Audota and Cube Baby pages, the catalogue contains **112 active records on 18 comparison pages**. Six excluded archives remain separate. This is not an exhaustive market inventory or a claim that every field is verified.
+
+Every model links to its complete finding, official product/manual/firmware sources and exact IDR evidence. Old manuals, cached offers and unsuccessful image inspections remain labelled in those findings. `?` means unverified, not No. K/F/B counts rotary controls / main footswitches / separate buttons; encoder presses count once, toe and power switches separately.
+
+POD Go's official horizontal-axis labels appear counterintuitive; retain the published envelope rather than making a precision drilling template. Yamaha's separate table gives89 mm height instead of88. Express mass does not explicitly state whether batteries are included. Plugs and pedal travel require additional clearance. Touch-sensitive footswitches or knob-controlled screens do not establish touchscreen support.
+
+POD Go official model-list counts: **drive55,dynamics18,EQ8,MOD55,reverb23,pitch/synth24,filter15,wah11,volume/pan4**. Delay table has41 named rows and one blank row; current amp/cab subtotals remain unresolved. Mono/stereo implementations are not counted twice. Counts are not imported from HX Stomp. The Guitar and Bass Express effect groups differ; Bass does not inherit Guitar's reverb category.
+
+POD Go Wireless has an included G10TII transmitter in the manufacturer's bundle, with its own rechargeable battery and seven-hour playing-time rating. **That is not a battery-powered floorboard.** Rated radio range30 m line of sight; actual venue range and Shopee bundle inclusion are not verified.
+
+These are dated **asking/listed amounts**, not guaranteed active ranges. Exact URLs and inspection dates are in every model finding. Used/new condition, stock, accessories, region and vouchers are not inferred from a seller name.
+
+No guessed exchange rate or used-price percentage. No seller authentication or completed-sale claim. Inaccessible PDF pages are recorded in the findings; values derived from parsed manufacturer text are not described as successfully inspected images.
+
+**Next Shopee-first model: Hotone Ampero One MP-80.** The previously saved Audota,Cube Baby andBOSS review are not pending new models. Preserve the six remaining original display/IDR page migrations and owner identity checks.
+
+Original finding references: [Source1](effects/findings/2026-10-15-nux-trident.md) · [Source2](effects/findings/2026-10-15-zoom-g6.md) · [Source3](effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md) · [Source4](effects/findings/2026-10-15-line6-pod-go.md) · [Source5](effects/findings/2026-10-15-zoom-g11.md) · [Source6](effects/findings/2026-10-15-line6-pod-go-wireless.md) · [Source7](effects/findings/2026-10-15-line6-pod-express-guitar.md) · [Source8](effects/findings/2026-10-15-line6-pod-express-bass.md).

@@ -236,6 +236,48 @@ Audio ports: one6.35mm guitar input/charging jack; stereo TRS send and return/au
 Remaining: complete current amp/cab counts, blank delay-table row, explicit touch/USB-power specifications and current condition-specific bundle prices. **Next: POD Express Guitar**, followed by the separately listed Bass variant.
 <!-- LINE6-PODGO-WIRELESS source ends -->
 
+### Preserved seventh Shopee expansion: POD Go
+
+Historical2026-10-15 source wording for this exact variant. Shared rows apply only where explicitly labelled;current firmware-qualified evidence retains precedence.
+
+- **External control** (Built-in expression): One shared EXP2/FS7,8 socket
+- **K/F/B** (Built-in expression): 8/8/4
+- **Body and weight** (Built-in expression): Official Japan **88 H×230 W×359 D mm;2.35 kg;large**
+- **Displays** (Built-in expression): **4.3-inch color LCD**; touch ?
+- **Processing and available choices** (Blocks, categories and presets): **10 semifixed blocks**, including four selectable effects; serial, DSP-limited. Complete qualified category counts below
+- **Preset storage** (Blocks, categories and presets): **256 overwriteable locations**,Factory128/User128 labels;4 snapshots each. Both setlists editable
+- **Synth / acoustic simulation** (Blocks, categories and presets): **Synth and Acoustic Sim yes**; Acoustic Sim consumes an optional slot, not fixed Preset EQ
+- **IR / capture support** (IR, NAM, power and software): **128 imported IR locations**,1024-point;factory cabinets share the IR block;NAM/capture import not established
+- **Power** (IR, NAM, power and software): **9 V3 A center-negative DC-3h** supply;unit USB/battery ?
+- **Configuration / USB audio** (IR, NAM, power and software): POD Go Edit Win/Mac2.50;USB4×4,24-bit,dry/reamp;mobile audio is not mobile editing
+- **Audio/control connections** (Connections and practical differences): Mono input;stereoTRS loop/return-aux;balanced main pair;monoAMP OUT;quarter-inch phones;USB-B;sharedEXP
+- **Looper / additional functions** (Connections and practical differences): Full-speed40 s mono/20 s stereo,half-speed80/40;loop uses optional slot;no drums. Wireless adds receiver and charging/storage functions
+- **Used evidence** (Separate IDR evidence): **Rp5.000.000,SECOND/BEKAS,SOLD OUT**
+- **Retail evidence / qualification** (Separate IDR evidence): **Rp7.704.000**,Nuansa Musik,indexed olderAug–Sep delivery text
+
+[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+
+### Preserved seventh Shopee expansion: POD Go Wireless
+
+Historical2026-10-15 source wording for this exact variant. Shared rows apply only where explicitly labelled;current firmware-qualified evidence retains precedence.
+
+- **External control** (Built-in expression): Same documented shared socket
+- **K/F/B** (Built-in expression): 8/8/4
+- **Body and weight** (Built-in expression): Same published body; **2.5 kg**, not standard model's mass
+- **Displays** (Built-in expression): **4.3-inch color LCD**; touch ?
+- **Processing and available choices** (Blocks, categories and presets): **10 semifixed blocks**, including four selectable effects; serial, DSP-limited. Complete qualified category counts below
+- **Preset storage** (Blocks, categories and presets): **256 overwriteable locations**,Factory128/User128 labels;4 snapshots each. Both setlists editable
+- **Synth / acoustic simulation** (Blocks, categories and presets): **Synth and Acoustic Sim yes**; Acoustic Sim consumes an optional slot, not fixed Preset EQ
+- **IR / capture support** (IR, NAM, power and software): **128 imported IR locations**,1024-point;factory cabinets share the IR block;NAM/capture import not established
+- **Power** (IR, NAM, power and software): **9 V3 A center-negative DC-3h** supply;unit USB/battery ?
+- **Configuration / USB audio** (IR, NAM, power and software): POD Go Edit Win/Mac2.50;USB4×4,24-bit,dry/reamp;mobile audio is not mobile editing
+- **Audio/control connections** (Connections and practical differences): Mono input;stereoTRS loop/return-aux;balanced main pair;monoAMP OUT;quarter-inch phones;USB-B;sharedEXP
+- **Looper / additional functions** (Connections and practical differences): Full-speed40 s mono/20 s stereo,half-speed80/40;loop uses optional slot;no drums. Wireless adds receiver and charging/storage functions
+- **Retail evidence / qualification** (Separate IDR evidence): **Rp11.130.500**,melodiasby,reopened withJune–July dates;included transmitter not checkout-verified
+- **Commit** (Individual findings commits): `ac3be6737643e81a13b5d1c3d1f6d18e8e104426`
+
+[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+
 ## POD Express Guitar
 
 **New model, checked2026-10-15.** The2024-generation POD Express Guitar is not the older Pocket POD Express, POD Express Bass, or POD Express Black. It is a fixed-chain guitar multi-effects processor; no built-in expression. The current edit application must not be omitted because an older launch document mentioned only updating.
@@ -331,6 +373,27 @@ Reviewed **2026-10-15**. Compact guitar multi-effects; no built-in expression. S
 Remaining: weight battery inclusion, any later undocumented loading capability and current condition-specific price evidence. **Next: POD Express Bass**, whose effect categories differ from Guitar.
 <!-- LINE6-PE-GUITAR source ends -->
 
+### Preserved seventh Shopee expansion shared comparison
+
+Historical2026-10-15 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **External expression** (No built-in expression): One shared EXP/FS socket
+- **K/F/B** (No built-in expression): 6/2/1
+- **Body and weight** (No built-in expression): **92 W×130 D×56 H mm;350 g;compact**
+- **Display** (No built-in expression): No screen; seven LED segments; screen diagonal N/A; no touchscreen
+- **Processing and available choices** (Blocks, categories and presets): Eight fixed stages:gate,drive,amp,cab,volume,MOD,delay/looper,reverb.7 amps,7 cabs;4 each drive/MOD/delay/reverb plus looper =17 effects
+- **Preset storage** (Blocks, categories and presets): **21 editable**,7 factory-filled
+- **Synth / acoustic simulation** (Blocks, categories and presets): Neither identified in inspected Guitar library
+- **IR / capture support** (IR, NAM, power and software): Factory cabinets,**no third-party IR/NAM import established**
+- **Power** (IR, NAM, power and software): **3 AA or9 V center-negative ≥500 mA/4.5 W;USB power explicitly No**
+- **Configuration / USB audio** (IR, NAM, power and software): Full Edit Win/Mac/iOS/Android,FW2.00+;currentiOS14+,desktop needed for firmware update;USB4×4,24-bit48 kHz
+- **Audio/control connections** (Connections and practical differences): Mono quarter-inch input;two **impedance-balanced** TRS outputs;3.5 phones;sharedEXP/FS;USB-C;DC;no analogaux/loop/mic
+- **Looper / additional functions** (Connections and practical differences): 30 s stereo loop;Guitar loop replaces delay;Bass loop replaces MOD/delay. No drum generator
+- **Retail evidence / qualification** (Separate IDR evidence): **Rp3.030.000**,Seven Stereo,**service unavailable**
+- **Commit** (Individual findings commits): `e8db0979b6ad77793934c92aabf119e54054a33c`
+
+[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+
 ## POD Express Bass
 
 **New bass-specific model, checked2026-10-15.** A separate hardware/sound-library record, not a color option for POD Express Guitar. The official Bass product and joint2.00 manual explicitly document the following common hardware and different processing path. This record remains partial. Dimensions were repaired from the joint manufacturer announcement on2026-10-17; platform-specific OS minima need separate evidence.
@@ -416,6 +479,27 @@ Amp labels: Round,Grit,Vintage,Punch,Modern,Studio,Deep. Compressor: Optical,LA,
 
 Remaining: battery inclusion in mass, later undocumented loading capabilities and active condition-specific offers. **Next Shopee-first model: Hotone Ampero One MP-80.** POD Express Black still needs an exact Indonesian hardware listing before Shopee-priority promotion.
 <!-- LINE6-PE-BASS source ends -->
+
+### Preserved seventh Shopee expansion shared comparison
+
+Historical2026-10-15 source wording. Current firmware-qualified findings retain precedence. Offers,old classifications and unknowns preserve their original context;this is not a new stock/specification verification.
+
+- **External expression** (No built-in expression): One shared EXP/FS socket
+- **K/F/B** (No built-in expression): 6/2/1
+- **Body and weight** (No built-in expression): **92×130×56 mm;350 g;compact**
+- **Display** (No built-in expression): No screen; LED segments, not a color LCD; no touchscreen
+- **Processing and available choices** (Blocks, categories and presets): Eight fixed stages:gate,COMP,synth,drive,amp,cab,volume,MOD/delay/looper.7 amps,7 cabs;COMP4,synth-category4,drive4,MOD3,delay1,looper1 =17
+- **Preset storage** (Blocks, categories and presets): **21 editable**,7 factory-filled
+- **Synth / acoustic simulation** (Blocks, categories and presets): **Synth yes**,including Growl/String;acoustic simulator not identified
+- **IR / capture support** (IR, NAM, power and software): Factory cabinets,**no third-party IR/NAM import established**
+- **Power** (IR, NAM, power and software): **3 AA or9 V center-negative ≥500 mA/4.5 W;USB power explicitly No**
+- **Configuration / USB audio** (IR, NAM, power and software): Full Edit Win/Mac/iOS/Android,FW2.00+;currentiOS14+,desktop needed for firmware update;USB4×4,24-bit48 kHz
+- **Audio/control connections** (Connections and practical differences): Mono quarter-inch input;two **impedance-balanced** TRS outputs;3.5 phones;sharedEXP/FS;USB-C;DC;no analogaux/loop/mic
+- **Looper / additional functions** (Connections and practical differences): 30 s stereo loop;Guitar loop replaces delay;Bass loop replaces MOD/delay. No drum generator
+- **Retail evidence / qualification** (Separate IDR evidence): **Rp3.099.000**,Seven Stereo,August cache;separateRp3.200.000sold-out ask
+- **Commit** (Individual findings commits): `233e29942df322892b9a841f75a54ed7e760479e`
+
+[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
 
 ## HX Effects
 
