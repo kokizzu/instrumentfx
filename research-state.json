@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-20B primary follow-up",
-    "task": "ME-20B added from manufacturer proof and unresolved Shopee lead. Next inspect manual controls, expression/toe, chain, memory and live limits; resolve seller/item before accepting any price. Commit before another model.",
+    "task": "ME-20B controls/expression/memory and external-switch assignments saved. Next verify processing chain, synth tracking/delay limits and qualified exact seller/item offers; retain polarity/import/software gaps. Commit before next model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -2074,14 +2074,26 @@
         "Model-specific90mA draw and13/3.5h battery estimates"
       ],
       "unresolved": [
-        "full controls/expression",
         "ceiling/chain",
-        "factory fill",
         "display",
         "polarity",
         "imports/software",
-        "qualified seller/item offers"
-      ]
+        "qualified seller/item offers",
+        "visual corroboration and external expression qualification"
+      ],
+      "controls_memory_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf",
+        "resolved": [
+          "Text-derived5/3/10 controls; toe additional",
+          "Volume/wah toe switch and calibration",
+          "Thirty factory patch settings inside thirty user slots",
+          "External switches differ in Manual versus Memory mode",
+          "Selectable immediate/pickup controls and Patch Edit requirement",
+          "INPUT power switching and unprocessed AUX"
+        ],
+        "remaining": "Visual corroboration, chain/ceiling, display, polarity/imports/software and exact offers"
+      }
     }
   ],
   "consolidation_and_price_findings": [

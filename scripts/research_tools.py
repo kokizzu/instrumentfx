@@ -290,7 +290,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-me20b':
-            message = 'research(boss): add ME-20B bass processor with unresolved marketplace lead'
+            message = 'research(boss): verify ME-20B controls expression and memory restrictions'
         if mode == 'commit-me50':
             message = 'research(boss): verify ME-50 named controls and toe-switch calibration'
         if mode == 'commit-b2-followup':

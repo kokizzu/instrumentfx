@@ -1738,19 +1738,20 @@ Bass-focused multi-effects; not guitar ME-20. Checked2026-10-17; partial. Owners
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in expression pedal; external/toe behavior pending. | [Product][M20B-P] |
-| K/F/B | Five realtime knobs, three main footswitches; buttons and additional switches pending enumeration. | [Product][M20B-P] |
+| Expression | Built-in volume/wah pedal; firm toe press toggles wah. Heel/toe calibration and activation-force1–9 settings; lower means lighter force. External expression unsupported by inspected evidence. | [Product][M20B-P]; [Manual pp9,30][M20B-M] |
+| K/F/B | **5 / 3 / 10**, text-derived: four parameter knobs plus MASTER; three numbered pedals; four effect-select, EZ EDIT, EDIT/EXIT, WRITE, BASS ENHANCE and two value buttons. Toe switch additional. Visual corroboration pending. | [Product][M20B-P]; [Manual pp7–9][M20B-M] |
 | Display | Two-character seven-segment LED. Diagonal/colour/touch unverified. | [Product][M20B-P] |
 | Dimensions / mass | 294W×179D×54H mm; maximum height74mm;1.6kg including batteries. Medium footprint. | [Manual p37][M20B-M] |
 | Processing / categories | SFX5, COMP/DRIVE6, DELAY/MOD7 choices. Combined CHO+DELAY is one choice; categories are not a verified simultaneous-effect ceiling. EQ, wah, NS and Bass Enhance also documented; full chain/capacity pending. | [Manual pp17–21,33][M20B-M] |
-| Factory / user memory | 30 user locations; factory-filled count and total-memory interpretation pending. | [Product][M20B-P] |
+| Factory / user memory | 30 user slots, ten banks×three. Factory settings list30 patches; reset restores user memory, tuner pitch and knob response, not an additional bank. WRITE overwrites destination; unsaved edits vanish on patch change. | [Product][M20B-P]; [Manual pp23–29,31–33][M20B-M] |
 | Synth / acoustic | SYNTH1/2 offer light/heavy filtering in COMP/DRIVE; DEFRETTER in SFX. Acoustic simulator unverified; defretting is not acoustic-body modeling. | [Manual pp17–18,33][M20B-M] |
 | I/O | Quarter-inch INPUT; L/MONO,R outputs; stereo-mini AUX; stereo quarter-inch PHONES; quarter-inch TRS FOOT SW; DC. USB/MIDI/audio-interface scope unverified. | [Product][M20B-P] |
-| External control | FS-5U/FS-6/FS-7 and PCS-31 listed options; Bass Enhance can use optional pedal. Detailed mode assignments pending. | [Product][M20B-P] |
+| External control | FS-5U/FS-6/FS-7 and PCS-31 listed options; Bass Enhance can use optional pedal. Manual: Bass Enhance/bypass-tuner; Memory: bank up/down. Single FS-5U gives Enhance/bank-up; two FS-5Us via PCS-31 or FS-6 expose both functions. | [Product][M20B-P]; [Manual pp27–28][M20B-M] |
 | Analog conversion | 24-bit+AF A/D,24-bit D/A,44.1kHz. | [Product][M20B-P] |
-| Power / battery / USB | 9V DC,90mA; six R6/LR6 AA or optional PSA adapter. Approx13h alkaline/3.5h carbon. Polarity and USB power unverified. | [Product][M20B-P] |
+| Power / battery / USB | 9V DC,90mA; six R6/LR6 AA or optional PSA adapter. Approx13h alkaline/3.5h carbon. INPUT plug switches power; unplug when idle. Polarity and USB power unverified. | [Product][M20B-P]; [Manual p10][M20B-M] |
 | IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
 | Editor / platforms | Full patch editor, driver/updater and mobile support unestablished. No software downloaded. | Unresolved |
+| Controls / live response | n0 immediate knob changes is default; n1 uses value pickup. Manual mode starts at power-up. Memory effect toggling/NS adjustment requires Patch Edit. AUX is unprocessed, with source-controlled volume. | [Manual pp7,10,23–26][M20B-M] |
 | Looper / drums / live | EZ Edit combines parameters; Bass Enhance boosts dynamics. Looper, drums, scenes, trails and routing restrictions pending. | [Product][M20B-P] |
 
 ### Separate IDR hardware offers
@@ -1766,7 +1767,7 @@ Bass-focused multi-effects; not guitar ME-20. Checked2026-10-17; partial. Owners
 
 Checked2026-10-17: [Shopee search page](https://shopee.co.id/search?category=11043572&keyword=gitar+boss&subcategory=11043648) lists “Efeck Gitar Bass BOSS ME20B 2nd like New”, Rp2,300,000, Bogor. The page exposes a product anchor, but repeated click retrieval returns Internal Error without resolving its target; seller/item IDs and selected variant remain unknown. Used-condition language is title-only; stock, working state, adapter/bundle, warranty, shipping/tax/voucher and final total unknown. This is a lead, excluded from used/new comparison prices. Earlier search-only lead retained in research-state.json; no market-coverage claim.
 
-Remaining: complete physical controls/expression, processing ceiling/chain, factory fill, display details, DC polarity, USB/import/software scope and qualified exact offers. Original manual©2007 identity checked through browser; no documents or dependencies downloaded to workspace.
+Remaining: visual control corroboration/external expression, processing ceiling/chain, display details, DC polarity, USB/import/software scope and qualified exact offers. Original manual©2007 identity checked through browser; no documents or dependencies downloaded to workspace.
 
 [M20B-P]: https://www.boss.info/global/products/me-20b/
 [M20B-M]: https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf
