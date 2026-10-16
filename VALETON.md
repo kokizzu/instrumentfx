@@ -969,16 +969,16 @@ Guitar multi-effects strip; distinct from other Dappers. Checked2026-10-17;parti
 |---|---|---|
 | Expression | Built-in,external andtoe support unverified. | Unresolved |
 | K/F/B | **16 rotary controls**,text-derived:Drive4,Fuzz4,LiquidFX2,Echoes3,Ambient3. Three effect-type toggles;footswitch/button totals await panel inspection. | [Manualp2][DI-M] |
-| Display | Tuner note display with sharp dot andpitch LEDs;diagonal,color,touch/technology unverified. | [Product][DI-P] |
-| Dimensions / mass | **320×65×42mm;650g**. ProductWDH versusmanualDWH;axis conflict retained. Long strip. | [Product][DI-P];[manual][DI-M] |
+| Display | **LED numeric tuner display** perChinese manufacturer;sharp dot andpitch LEDs. Publisheddiagonal,color/touch unverified. | [Product][DI-P];[Chineseproduct][DI-C] |
+| Dimensions / mass | **320×65×42mm;650g**. ProductWDH versusmanualDWH;axis conflict retained. Long strip. | [Product][DI-P];[manual][DI-M];[Chineseproduct][DI-C] |
 | Processing / category choices | **IndieDrive,FuzzWall,LiquidFX,Echoes,Ambient**,plus tuner. Drive two-bandEQ. LiquidFX:chorus/phaser/tremolo;Echoes:analog/tape/reverse;Ambient:room/hall/plate. Exact simultaneous count unverified. Product repeatsEchoes heading;notanotherblock. | [Product][DI-P];[manualp2][DI-M] |
 | Factory / user memory | Factory,user,total storage unverified. | Unresolved |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
-| I/O | INPUT/OUTPUT/PHONES documented,input1MΩ/output100Ω. **PHONES hascab simulation**,can feedrecording/PA;module settings affect headphonevolume. Fullsockettypes/absence audit pending. | [Product][DI-P];[manual][DI-M] |
+| I/O | INPUT/OUTPUT/PHONES documented,input1MΩ/output100Ω. **PHONES hascab simulation**,can feedrecording/PA;module settings affect headphonevolume. Chinese page includesaCabSimparagraph naming**Dapper Amp Mini**;do nottreatasIndieswitch/routing evidence. Fullsockettypes/absence audit pending. | [Product][DI-P];[manual][DI-M] |
 | Power / battery / USB | **9VDC centre-negative,150mA consumption**. Manufacturerincludesadapter;sellerbundle unknown. Battery/USB unverified. | [Product][DI-P] |
 | IR / NAM / capture | Headphonecab simulation doesnotestablishuserIR,NAM orcapture;unverified. | [Manual][DI-M] |
 | Editor / software | Editor/platform support unverified. | Unresolved |
-| Looper / drums / live | Delay **25–2000ms**. LiquidFX/Echoes:holdswitchfortap,holdagainforknobmode. Ambientholdtogglestrail,LEDspulse. HoldFuzzWallformutedtuner. Looper,drums,scenes andpresetspillover unverified. | [Product][DI-P];[manual][DI-M] |
+| Looper / drums / live | Delay **25–2000ms**. LiquidFX/Echoes:holdswitchfortap,holdagainforknobmode. Ambientholdtogglestrail,LEDspulse. HoldFuzzWallformutedtuner;Chinese page saysanyfootswitch exits. Looper,drums,scenes andpresetspillover unverified. | [Product][DI-P];[manual][DI-M] |
 
 ### Separate IDR hardware offers
 
@@ -997,3 +997,9 @@ OfficialEnglishV01_181229manualreadastwo-pagewebtext. No visualpanelverification
 [DI-M]: https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf
 [DI-O]: https://shopee.co.id/efek-gitar-dapper-indie-i.115662249.51416841921
 [DI-S]: https://shopee.co.id/allzzzmusicshop
+
+### Regional source qualification
+
+Chinese manufacturer page identifies an LED numeric tuner display and confirms any-footswitch tuner exit. Its section05 names Dapper Amp Mini and describes a cab-sim switch; this is cross-model copy and does not verify such a switch on Indie. Section07 separately describes Indie headphone cab simulation and module-dependent level, consistent with the English manual. CN V01_190322 manual timed out; no visual panel claim.
+
+[DI-C]: https://zh.valeton.net/product/dapper-indie/
