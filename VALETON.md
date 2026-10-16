@@ -924,3 +924,39 @@ Manufacturer English EVA V01_160825 manual links were found, but both official p
 Search index exposes the manufacturer EVA V01_160825 manual text: control lists, Chorus–Delay loop position, tuner operation and cab-sim on for recording/PA versus off for amp use. Direct PDF open still returns cache miss. These findings are index-derived, not a claim of a fully read or visually checked PDF. Preserve the manual/product dimension-axis disagreement. The unrelated mirror-generated amplifier specifications (15W, speaker, batteries) were rejected; no such facts enter this record.
 
 [DD-I]: https://www.valeton.net/download/122/dapper/18030/dapper-dark_manual_en_eva_v01_160825.pdf
+
+## Dapper Dark Mini
+
+Separate compact guitar multi-effects, not full-size VES-3. Manufacturer marks discontinued. Checked2026-10-17; partial. Exact model code unverified. Product page's stray Dapper Indie heading conflicts with its Dark Mini body/manual; no Indie specifications transferred.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in, external and toe support unverified. | Unresolved |
+| K/F/B | **11 rotary controls**, indexed manual sum: Boost1,HiGain6,Delay3,Phones1. Footswitch/button totals await panel inspection. | [Indexed manual][DKM-M] |
+| Display | Seven bicolor note LEDs and three pitch LEDs; screen diagonal/technology/touch unverified. | [Indexed manual][DKM-M] |
+| Dimensions / mass | **197×65×42mm,417g**. Product labels WDH; indexed manual labels DWH. Axis conflict retained. Compact strip. | [Product][DKM-P]; [indexed manual][DKM-M] |
+| Processing / category choices | **Boost,HiGain and Delay**,plus tuner. Boost up to12dB;HiGain three-band EQ and noise gate. Exact simultaneous count/routing unverified. | [Product][DKM-P] |
+| Factory / user memory | Factory,user and total storage unverified. | Unresolved |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
+| I/O | Adjustable PHONES with cabinet simulation; can serve as recording/PA line output. Complete sockets/types/absence audit pending. | [Product][DKM-P]; [indexed manual][DKM-M] |
+| Power / battery / USB | **9VDC centre-negative,110mA consumption**. Manufacturer includes supply; seller bundle unconfirmed. Battery/USB operation unverified. | [Product][DKM-P] |
+| IR / NAM / capture | Headphone cab simulation does not establish userIR,NAM or capture; unverified. | [Product][DKM-P] |
+| Editor / software | Editor/platform support unverified. | Unresolved |
+| Looper / drums / live | Indexed manual: **1000ms maximum delay**;hold Delay for tap mode,hold again for knob-time;TAP/PHONES LED indicates tempo. Looper,drums,scenes,trails unverified. | [Indexed manual][DKM-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;noexplicitusedcondition. | — |
+| New | Unknown;conditionandliveavailabilityunconfirmed. | — |
+
+### Qualified seller and source observations
+
+rockpizz_singaraja,Buleleng,shop656068322/item18879117394: **Rp1,500,000**,three-week cached direct page; stale delivery26–28September. Stock,condition,working state,bundle/adapter,warrantyregion andvouchereligibility unknown. Not a confirmed new/used range.
+
+Official V01_161208 manual is readable in search index,while directPDF returns cache miss. Control sum and delay detail are index-derived,not visually verified. Product body,URL and own linked manual identify Dark Mini despite the stray Indie heading. No file downloaded.
+
+[DKM-P]: https://www.valeton.net/product/dapper-dark-minidiscontinued/
+[DKM-M]: https://www.valeton.net/download/179/dapper-dark-minidiscontinued/18565/dapper-dark-mini_manual_v01_161208-2.pdf
+[DKM-O]: https://shopee.co.id/VALETON-DAPPER-DARK-MINI-PEDAL-GUITAR-i.656068322.18879117394
