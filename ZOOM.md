@@ -892,11 +892,11 @@ Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalog
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in pedal; FP01/FP02 external control input in V2 manual; product page currently offers FP02M. Toe operation ? | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+| Expression | Built-in pedal; FP01/FP02 external control input in V2 manual; product page currently offers FP02M. **Toe-down switches pedal effect ON/OFF** (V2 p.46). | [Toe instruction](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n-V2.0.pdf); [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
 | K/F/B | Rotary/button totals and full footswitch count ?; product text establishes four effect switches plus dedicated TAP. Do not report five as the complete count. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
 | Display | Four 128×32 LCDs plus one 256×32 LCD; published diagonals, explicit monochrome/color and touch ? | [V2 manual, p.58](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Dimensions / weight | **454 W ×225 D ×75 H mm;3.4 kg**. Large; plug/pedal clearance additional. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
-| Processing | Up to **nine effects**, reorderable; V2 improves DSP efficiency. Resource-dependent combinations require processing-chart review; exact per-category totals ? | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+| Processing | Up to **nine effects**, reorderable; V2 improves DSP efficiency. **V3 DSP budget100 points**; effect costs differ. Exceeding DSP or unit limits triggers PROCESS OVERFLOW and bypasses effects; remove/change effects to recover. Exact per-category totals ? | [V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf); [V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
 | Model choices / version conflict | US page:126=100 effects+13 amps+13 cabs. Japan V3 page:159=127 effects+16 amps+16 cabs. V2 manual:128 types. Preserve version/region wording; not interchangeable inventories. | [US](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [Japan](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/); [V2](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Memory | **200 user patches** in manual; product advertises124 supplied patches. Not200+124; exact overwrite/factory allocation needs manual operation review. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
 | Synth / acoustic | Exact synth and electric-to-acoustic simulator algorithms unverified; amp/cab names alone do not establish acoustic simulation. | Remaining effect-list review |
@@ -905,7 +905,7 @@ Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalog
 | IR / NAM / capture | Third-party IR import, native NAM, converted NAM and user amp-capture import not established; built-in cab simulations are separate. | Workflow documentation still needed |
 | Editors / platforms | Guitar Lab Windows/macOS manages effects, chains and patches. Support lists Guitar Lab7.3, Windows8.1/10/11 and macOS10.13–26; separate Windows10/11 64-bit ASIO driver and firmware3.0 packages. Mobile editor not established. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/g5n-support/) |
 | USB audio | **USB audio:16-bit/44.1kHz** (V2 manual p.50), separate from **24-bit ADC/DAC and32-bit DSP** (p.58). Monitor balance100 selects DAW-return monitoring; other blends can cause flanging. Channel count,loopback/reamp routing remain unverified. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
-| Looper / drums / live | **Mono1.5–80s;stereo1.5–40s**. Undo ON halves maxima to40s/20s. Recording time:MANUAL or1–64 quarter notes; changing it deletes the phrase. 68 rhythms,tuner,output boost and TAP. Looper unit/DSP cost,scenes and tails still unresolved. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [V2 manual,p.44](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
+| Looper / drums / live | **Mono1.5–80s;stereo1.5–40s**. Undo ON halves maxima to40s/20s. Recording time:MANUAL or1–64 quarter notes; changing it deletes the phrase. 68 rhythms,tuner,output boost and TAP. Older V2 processing chart:LP-MONO/LP-MN2=7 points;LP-STEREO/LP-ST2=10. Current chart/revision equivalence,unit-slot cost,scenes and tails still unresolved. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [V2 manual,p.44](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [older V2 cost chart](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n-V2.0_FX-power-chart.pdf) |
 
 ### Exact IDR hardware offers and condition limitations
 
@@ -919,10 +919,16 @@ Exact condition, revision, accessories, warranty region, stock quantity, shippin
 
 ### Remaining checks
 
-Complete panel K/F/B and toe switch; exact display diagonal/color/touch; category choices and DSP limits; memory overwrite; synth/acoustic algorithms; full connector inventory; IR/NAM/capture import; battery/USB supply; USB channels/routing; looper block cost; qualified used/new condition and checkout stock. Bass suitability is unclassified pending model-specific evidence. No sibling specifications substituted.
+Complete panel K/F/B; exact display diagonal/color/touch; category choices and DSP limits; memory overwrite; synth/acoustic algorithms; full connector inventory; IR/NAM/capture import; battery/USB supply; USB channels/routing; looper block cost; qualified used/new condition and checkout stock. Bass suitability is unclassified pending model-specific evidence. No sibling specifications substituted.
 
 ### V2 manual text follow-up
 
-Checked2026-10-17 through manufacturer-hosted indexed text (printed pp.4,44,50); no PDF or image download/visual inspection. The named controls include FS1–FS4,TUNER,BANK/SCROLL,mode and TAP; the pedal switch is separately named. Full physical K/F/B and toe operation remain pending rather than inferred from incomplete text diagrams.
+Checked2026-10-17 through manufacturer-hosted indexed text (printed pp.4,44,50); no PDF or image download/visual inspection. The named controls include FS1–FS4,TUNER,BANK/SCROLL,mode and TAP; the pedal switch is separately named. Full physical K/F/B remains pending rather than inferred from incomplete text diagrams; toe operation is now established by the V2 pedal instruction linked above.
 
 The USB quantization and looper limits above supersede the original unknown fields; they do not establish current firmware architecture, import capabilities or live seller stock.
+
+### Firmware and DSP revision qualifications
+
+[Official firmware history](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf):V2.00 (February2017) optimized amp processing,added the two-unit looper and fixed concurrent rhythm/looper noise and recording failures. V3.00 (April2018) added Guitar Lab3 support,tuner/encoder improvements,OutputVP with volume carryover between patches,and effects previously distributed online. These notes do not prove audio-tail carryover or identical DSP cost between versions.
+
+The [V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf) supplies the100-point budget; the separately labelled [older V2 chart](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n-V2.0_FX-power-chart.pdf) supplies the looper costs above. Neither establishes per-category counts or an arbitrary nine-effect combination. Checked2026-10-17 through official indexed text only; no file downloaded or firmware executed.

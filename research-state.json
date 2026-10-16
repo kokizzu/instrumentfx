@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G5n remaining specification verification",
-    "task": "G5n USB16bit44.1kHz vs24bitADC and mono/stereo/Undo looper limits now resolved from V2 indexed primary text. Next verify panel counts/toe, looper unit/DSP cost, USB channels/routing and effect/import capabilities. Do not repeat these resolved fields or treat unknowns as No. Other shared-source/incoming audits and fresh discovery remain required.",
+    "task": "G5n toe switch, DSP overflow/budget and firmware history now qualified; old V2 looper cost chart kept distinct from V3. Next resolve exact effect choices/synth/acoustic and full connector/USB channels from primary text, plus panel/display where explicit evidence exists. Unavailable fields stay unknown; continue fresh discovery and other source/incoming audits after committing useful findings.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -514,6 +514,34 @@
           "manual/musical-note time and destructive time change"
         ],
         "remaining": "Full controls,display,USBchannels,routing,effect/DSP/import,power and qualified current offers remain"
+      },
+      "processing_followup": {
+        "date": "2026-10-17",
+        "sources": [
+          "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+          "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n-V2.0.pdf",
+          "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
+          "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n-V2.0_FX-power-chart.pdf",
+          "https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf"
+        ],
+        "access": "Official search-indexed text only, no file downloads",
+        "resolved": [
+          "toe-down pedal-effect switching",
+          "DSP overflow causes bypass",
+          "V3 100-point budget",
+          "older V2 looper costs7mono10stereo",
+          "two-unit looper introducedV2 and concurrent rhythm/looper bug fixes"
+        ],
+        "unresolved": [
+          "fullpanelcounts",
+          "display",
+          "USBchannels/routing",
+          "looperunit-slotcost/currentrevisioncostequivalence",
+          "exactcategorycounts",
+          "importworkflows",
+          "battery/USBsupply",
+          "currentcondition/stock"
+        ]
       }
     }
   ],
