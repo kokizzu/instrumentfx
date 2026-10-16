@@ -1251,3 +1251,7 @@ research-commit-stomplab2b:
 .PHONY: research-commit-discovery
 research-commit-discovery:
 	python3 scripts/research_tools.py commit-discovery
+
+.PHONY: research-commit-perform-v
+research-commit-perform-v:
+	python3 scripts/research_tools.py commit-perform-v

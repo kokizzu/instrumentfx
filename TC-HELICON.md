@@ -288,3 +288,42 @@ Remaining: complete controls/expression,processing choices,full port counts/cont
 Quick-guide provenance: manufacturer-authored multilingual VoiceLive3 Extreme quick guide, English pp3/7; Extreme-specific features andconnections match reference record. Mirror inspected as supplemental evidence;exact print revision not exposed.
 
 [VL3X-QN]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEG/QSG_TH_0726-AAY_VOICELIVE-3-EXTREME_WW.pdf
+
+## PERFORM-V
+
+Mic-stand vocal multi-effects;not VK/VG/VE. Checked2026-10-17;partial. No guitar multi-effects classification;AUX chord detection is not an instrument effect path. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/toe/external expression unverified. Switch-3/6 remote footswitch supported;not evidence of continuous expression. | [Manual pp44–45][PV-M] |
+| K/F/B | Separate knob/footswitch/button counts pending. | Unresolved |
+| Display | Diagonal,color,touch and display technology unverified. | Unresolved |
+| Dimensions / mass | Unverified. | Unresolved |
+| Processing / category choices | Onboard Double/Reverb/Echo;imported presets add Harmony,HardTune,Megaphone,µMod,up to7 effects. Adaptive Tone:EQ,de-essing,gate,compression;global pitch correction and anti-feedback. Category subtotals/full block accounting pending. | [Manual pp10,14–16,22][PV-M] |
+| Factory / user memory | Three preset locations1–3 accept imported sounds. Factory fill and complete memory accounting pending. | [Official indexed manual p22][PV-O] |
+| Synth / acoustic | Vocal harmony/pitch correction do not establish instrument synth/acoustic simulation;unverified. | Unresolved |
+| I/O | XLR mic input,+48V;balanced XLR output;1/8 stereo AUX/headphones;TRS pedal;USB for VoiceSupport. Complete connector/power inventory pending. | [Manual pp22,44,49][PV-M] |
+| Power / battery / USB | Voltage,current,polarity,battery,bus-power unverified;USB presence alone proves none. | Unresolved |
+| IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
+| Editor / software | VoiceSupport Windows/MacOSX preset management/firmware;smartphone preset beaming. Full parameter editor,current OS/app support and USB audio unverified. | [Manual pp7,22][PV-M] |
+| Looper / drums / live | AUX delayed for chord detection;unsuitable for live instrument monitoring. Remote must connect before power-on;changing Switch-3/6 needs restart. Looper/drums/scenes/trails unverified;controller printed labels alone are not feature proof. | [Manual pp42,44–45][PV-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;exact offer condition unconfirmed. | — |
+| New | Unknown;exact offer condition unconfirmed. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified exact hardware
+
+[NEO MUSIC item](https://shopee.co.id/TC-HELICON-PERFORM-V-Vocal-Processor-i.158235298.9761707378),shop158235298/item9761707378,Kota Sukabumi,**Rp3,950,000,Habis**. Checked2026-10-17;exact HTML opened,last-month cache;relative Besok delivery does not certify stock. Condition,variant,adapter/bundle,warranty,working state unverified. Late-arrival Rp10,000 compensation not discount;shipping/tax/checkout unknown. Additional indexed offers retained in research-state.json;no used/new amount qualified.
+
+Official PDF repeatedly502;manufacturer-authored mirror firmware1.0/reference2015-11-17 matches official indexed title,revision and pp10/22 content. No hash/visual certification. Browser text only;no files/software/dependencies downloaded or installed.
+
+[PV-M]: https://www.millionheadpro.com/image/upload/files/tc-helicon_perform-v_reference_manual_english.pdf
+[PV-O]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEB/PERFORM-V_M_EN.pdf
