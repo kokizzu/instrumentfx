@@ -1482,6 +1482,40 @@ Checked **2026-10-16**. Exact cached Shopee hardware page,not live checkout/stoc
 
 Earlier indexed offer:[Boss shop](https://shopee.co.id/bosspedals.id),[Shopee category snapshot](https://shopee.co.id/search?category=11043572&keyword=gitar+boss&subcategory=11043648). The exact item above is the hardware identity;the index does not resolve its variants.
 
+### Preserved specialist scope and archive navigation
+
+Historical page context;original technical snapshot and excluded-scope wording retained.
+
+<!-- specialist page context begins -->
+
+[Home](effects/README.md) · [Scope](effects/SCOPE.md) · [Methodology](effects/METHODOLOGY.md) · [Multi-effects](effects/guitar-floorboards.md) · [Vocals](effects/vocal.md)
+
+**Scope corrected 2026-10-14: one eligible multi-instrument processor, five excluded archival pedal records.** Only the GM-800 section below remains part of the active comparison. SY-1, SY-200, AC-3, VO-1 and XS-100 are dedicated-purpose pedals retained as historical research, **not guitar multi-effects candidates and not part of active totals**. The user's guitar scope is multi-effects only.
+
+Technical research snapshot: **2026-10-14**. All records remain partial; `?` means unverified, not No. This reclassification preserves earlier sources and uncertainties; it is not a fresh technical verification. Dimensions are W×D×H in millimetres; cables and pedal travel require additional clearance.
+
+### Excluded archive — not part of the multi-effects comparison
+
+The complete five-model dedicated-effect archive was moved losslessly to [SINGLE-GUITAR.md](SINGLE-GUITAR.md). It remains excluded from active counts. GM-800 above remains eligible because of its independent MFX architecture.
+
+#### Archived hardware and expression
+
+[Complete preserved archive](SINGLE-GUITAR.md#archived-hardware-and-expression).
+
+#### Archived processing and memory
+
+[Complete preserved archive](SINGLE-GUITAR.md#archived-processing-and-memory).
+
+#### Archived connections, power and apps
+
+[Complete preserved archive](SINGLE-GUITAR.md#archived-connections-power-and-apps).
+
+#### Archive sources
+
+[Complete preserved archive](SINGLE-GUITAR.md#archive-sources).
+
+<!-- specialist page context ends -->
+
 ## GT-100
 
 Checked **2026-10-16**. Guitar COSM multi-effects, distinct from GT-1000. Partial first pass; the original manual URL was found but web extraction failed because its PDF exceeded the fetch size limit. No manual file was downloaded.

@@ -250,5 +250,95 @@ def commit():
     print(research.git('diff','--cached','--stat'))
     print(research.git('commit','-m','docs: retire audited shared technical sources with pinned evidence'))
 
+
+SPECIALIST = 'effects/specialist.md'
+SPECIALIST_PLAN = Path('/tmp/instrumentfx-specialist-retirement-plan.json')
+SPECIALIST_MARKER = '<!-- specialist page context begins -->'
+
+def specialist_context(original):
+    prefix=original.split('\n## Eligible record: BOSS GM-800\n',1)[0].split('\n',1)[1]
+    tail='\n## Excluded archive — not part of the multi-effects comparison\n'+original.split('\n## Excluded archive — not part of the multi-effects comparison\n',1)[1]
+    text=comparison_views.relink(prefix+tail,SPECIALIST,{})
+    import re
+    return re.sub(r'^(#{2,5}) ',r'\1# ',text,flags=re.M)
+
+def specialist_stub(original,commit):
+    text=''
+    for index,heading in enumerate(shared.headings(original)):
+        target='BOSS.md#gm-800' if index<2 else 'SINGLE-GUITAR.md'
+        if heading.startswith('### '):
+            candidate=next(iter(shared.anchors(heading)))
+            target+=' #'+candidate
+            target=target.replace(' #','#')
+        shared.validate_target(target)
+        text+=heading+'\n\n[Complete root evidence](../'+target+'). GM-800 remains eligible; dedicated effects remain excluded.\n\n'
+        if index==0:
+            text+='Original source: '+chr(96)+commit+':'+SPECIALIST+chr(96)+'; SHA-256 '+chr(96)+shared.digest(original)+chr(96)+'.\n\n'
+    assert shared.headings(text)==shared.headings(original)
+    return text
+
+def specialist_incoming():
+    return [link for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')) for link in shared.local_links(str(path.relative_to(ROOT)),path.read_text()) if link['target']==SPECIALIST]
+
+def specialist_verify():
+    research.identity()
+    state=json.loads((ROOT/'research-state.json').read_text())
+    consolidation.verify_preserved(state)
+    research.verify()
+    original=research.read_preserved_source(SPECIALIST)
+    record=state['migration'].get('retired_sources',{}).get(SPECIALIST)
+    if record:
+        boss=(ROOT/'BOSS.md').read_text()
+        body=boss.split(SPECIALIST_MARKER+'\n',1)[1].split('<!-- specialist page context ends -->',1)[0]
+        assert body==specialist_context(original)
+        assert (ROOT/SPECIALIST).read_text()==specialist_stub(original,record['source_commit'])
+        assert shared.digest((ROOT/SPECIALIST).read_text())==record['redirect_sha256']
+    for link in specialist_incoming():
+        assert not link['fragment'] or link['fragment'] in shared.anchors((ROOT/SPECIALIST).read_text()),str(link)
+    print('PASS: GM-800 complete section, excluded original archive, specialist context and incoming anchors;retired='+str(bool(record)))
+
+def specialist_plan():
+    specialist_verify()
+    state=json.loads((ROOT/'research-state.json').read_text())
+    assert SPECIALIST not in state['migration']['retired_sources']
+    original=(ROOT/SPECIALIST).read_text()
+    commit=research.git('rev-parse','HEAD').strip()
+    assert research.git('show',commit+':'+SPECIALIST)==original
+    boss=(ROOT/'BOSS.md').read_text()
+    assert SPECIALIST_MARKER not in boss
+    before,section=boss.split('\n## GM-800\n',1)
+    body,separator,after=section.partition('\n## ')
+    context='\n### Preserved specialist scope and archive navigation\n\nHistorical page context;original technical snapshot and excluded-scope wording retained.\n\n'+SPECIALIST_MARKER+'\n'+specialist_context(original)+'<!-- specialist page context ends -->\n'
+    boss=before+'\n## GM-800\n'+body+context+(separator+after if separator else '')
+    stub=specialist_stub(original,commit)
+    state['migration']['retired_sources'][SPECIALIST]=dict(source_commit=commit,source_sha256=shared.digest(original),redirect_sha256=shared.digest(stub),destination='BOSS.md#gm-800',original_headings=shared.headings(original),incoming_before=specialist_incoming(),status='retired_specialist_redirect',context_destination='BOSS.md#preserved-specialist-scope-and-archive-navigation',excluded_destination='SINGLE-GUITAR.md')
+    state['cursor'].update(model='Legacy JSON and navigation audit',task='Specialist page now preserves GM-800 body,full original excluded archive and remaining scope/navigation context in root documents. All technical legacy Markdown pages are redirects;verify remaining JSON snapshots and complete navigation coverage. Technical gaps and fresh Shopee discovery remain.')
+    outputs={SPECIALIST:stub,'BOSS.md':boss,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:shared.digest((ROOT/p).read_text()) for p in [*outputs,'SINGLE-GUITAR.md','SINGLE-VOCAL.md','scripts/technical_retirement.py','Makefile']}
+    SPECIALIST_PLAN.write_text(json.dumps(dict(inputs=inputs,outputs=outputs,rollback=dict(source_commit=commit,exact_paths=list(outputs),method='Restore these exact files from pinned source_commit before any later edits;original Git blobs are retained')),ensure_ascii=False,indent=2)+'\n')
+    print('Exact specialist plan: '+str(SPECIALIST_PLAN)+';paths='+json.dumps(list(outputs)))
+
+def specialist_apply():
+    research.identity()
+    payload=json.loads(SPECIALIST_PLAN.read_text())
+    assert set(payload['outputs'])=={SPECIALIST,'BOSS.md','research-state.json'}
+    for path,sha in payload['inputs'].items():
+        live=(ROOT/path).read_text()
+        assert shared.digest(live)==sha or payload['outputs'].get(path)==live,'Changed input: '+path
+    for path in ['BOSS.md','research-state.json',SPECIALIST]:
+        shared.atomic_write(ROOT/path,payload['outputs'][path])
+    specialist_verify()
+
+def specialist_commit():
+    specialist_verify()
+    comparison_views.verify_views()
+    assert not research.git('diff','--cached','--name-only').strip(),'Existing staged work'
+    changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
+    allowed={SPECIALIST,'BOSS.md','research-state.json','scripts/technical_retirement.py','Makefile'}
+    assert changed<=allowed,changed-allowed
+    research.git('add','--',*sorted(changed))
+    print(research.git('diff','--cached','--stat'))
+    print(research.git('commit','-m','docs(boss): complete specialist scope consolidation and legacy redirects'))
+
 if __name__=='__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'rollback-plan':lambda:plan(True)}[sys.argv[1]]()
+    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'rollback-plan':lambda:plan(True),'specialist-plan':specialist_plan,'specialist-apply':specialist_apply,'specialist-verify':specialist_verify,'specialist-commit':specialist_commit}[sys.argv[1]]()

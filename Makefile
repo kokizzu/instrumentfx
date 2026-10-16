@@ -1119,3 +1119,13 @@ technical-retirement-commit:
 	python3 scripts/technical_retirement.py commit
 technical-retirement-rollback-plan:
 	python3 scripts/technical_retirement.py rollback-plan
+
+.PHONY: specialist-retirement-plan specialist-retirement-apply specialist-retirement-verify specialist-retirement-commit
+specialist-retirement-plan:
+	python3 scripts/technical_retirement.py specialist-plan
+specialist-retirement-apply:
+	python3 scripts/technical_retirement.py specialist-apply
+specialist-retirement-verify:
+	python3 scripts/technical_retirement.py specialist-verify
+specialist-retirement-commit:
+	python3 scripts/technical_retirement.py specialist-commit

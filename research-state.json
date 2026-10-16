@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shared technical source retirement",
-    "task": "99 technical sources redirect with all old headings and pinned originals. Next audit remaining legacy technical/navigation files and preserved JSON snapshots. Technical gaps and fresh Shopee discovery remain.",
+    "model": "Legacy JSON and navigation audit",
+    "task": "Specialist page now preserves GM-800 body,full original excluded archive and remaining scope/navigation context in root documents. All technical legacy Markdown pages are redirects;verify remaining JSON snapshots and complete navigation coverage. Technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Technical rollback: make technical-retirement-rollback-plan then make technical-retirement-apply;metadata rollback targets remain available."
   },
@@ -36386,6 +36386,50 @@
         ],
         "status": "retired_technical_redirect",
         "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/specialist.md": {
+        "source_commit": "865589baf0ff40fbffea7a9956c2c0c064d57f8a",
+        "source_sha256": "a256526503ca2374b5fe677c69870f3a5721eb0fc5b22c9c2f8030d14c2ef179",
+        "redirect_sha256": "eb41b089ce6e047bf1c450d58ef477fa987d61501a8208b7cb66ec01ce82ffb9",
+        "destination": "BOSS.md#gm-800",
+        "original_headings": [
+          "# Multi-instrument synthesis with multi-effects / excluded specialist archive",
+          "## Eligible record: BOSS GM-800",
+          "## Excluded archive — not part of the multi-effects comparison",
+          "### Archived hardware and expression",
+          "### Archived processing and memory",
+          "### Archived connections, power and apps",
+          "### Archive sources"
+        ],
+        "incoming_before": [
+          {
+            "source": "BOSS.md",
+            "line": 1445,
+            "target": "effects/specialist.md",
+            "fragment": "eligible-record-boss-gm-800",
+            "kind": "inline",
+            "raw": "effects/specialist.md#eligible-record-boss-gm-800"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 108,
+            "target": "effects/specialist.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/specialist.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 125,
+            "target": "effects/specialist.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/specialist.md"
+          }
+        ],
+        "status": "retired_specialist_redirect",
+        "context_destination": "BOSS.md#preserved-specialist-scope-and-archive-navigation",
+        "excluded_destination": "SINGLE-GUITAR.md"
       }
     },
     "metadata_retirement": {
