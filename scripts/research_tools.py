@@ -88,6 +88,17 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
+    elif mode == 'commit-field-projection':
+        verify()
+        for check in ('test-fields', 'test-selection', 'verify'):
+            subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
+        assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
+        paths = ['Makefile', 'scripts/research_tools.py', 'scripts/comparison_views.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'README.md', 'research-state.json']
+        changed = set(git('diff', '--name-only').splitlines())
+        assert changed <= set(paths), changed - set(paths)
+        git('add', '--', *paths)
+        print(git('diff', '--cached', '--stat'))
+        print(git('commit', '-m', 'fix(comparisons): retain technical fields omitted by label matching'))
     elif mode == 'verify':
         verify()
     elif mode == 'restore-archive-provenance':

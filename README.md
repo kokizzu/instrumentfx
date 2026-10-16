@@ -46,7 +46,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [SONICAKE.md](SONICAKE.md) |Six profiles,including Sonic Wood |
 | [M-VAVE.md](M-VAVE.md) |Twelve distinct profiles |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. Detailed legacy source material is still being consolidated into root brand documents. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 126 recorded models have root brand sections; complete legacy-source preservation and incoming-link audits remain unfinished. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research saved in the current pass
 
@@ -66,7 +66,7 @@ All model records separate knobs/footswitches/buttons,expression,used/new IDR,si
 
 ## What remains
 
-**Next work: fresh Shopee discovery after the saved BOSS queue, then remaining legacy records and unresolved-field research.** G2 FOUR andG2X FOUR now preserve full legacy records plus current manual looper/USB/processing limits. G6,G1 FOUR andG1X FOUR are now root-canonical with their original evidence dates and complete legacy facts preserved. Standard GS1000 is recorded separately from Li, including bass/microphone routing and native A2 Lite versus converted A1 NAM. GE300 is recorded with converted NAM and firmware-qualified IR capacity. HeadRush Prime is now recorded, including native NAM architecture limits and six recording/four playback USB channels. The ALL-* comparison rebuild and HX Effects consolidation are saved; GP-200JR is recorded and must not be added again. Exact Shopee item links and price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
+**Next work: audit legacy-source preservation and comparison field coverage, continue fresh Shopee discovery by brand/series, and resolve remaining technical fields.** G2 FOUR andG2X FOUR now preserve full legacy records plus current manual looper/USB/processing limits. G6,G1 FOUR andG1X FOUR are now root-canonical with their original evidence dates and complete legacy facts preserved. Standard GS1000 is recorded separately from Li, including bass/microphone routing and native A2 Lite versus converted A1 NAM. GE300 is recorded with converted NAM and firmware-qualified IR capacity. HeadRush Prime is now recorded, including native NAM architecture limits and six recording/four playback USB channels. The ALL-* comparison rebuild and HX Effects consolidation are saved; GP-200JR is recorded and must not be added again. Exact Shopee item links and price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
 
 The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
 

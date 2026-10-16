@@ -380,17 +380,17 @@ BASS_SHARED = {
 }
 
 GROUPS = {
-    'expression': r'expression|^external control',
+    'expression': r'expression|\bEXP\b|^external control',
     'controls': r'k/f/b|knob|rotary|footswitch|buttons|^controls|physical controls|expression.*controls',
-    'display': r'display|screen|diagonal|monochrome|touch',
+    'display': r'display|screen|diagonal|monochrome|touch|^evidence and remaining uncertainty$',
     'body': r'dimension|width|w×|weight|body|size|mass|^physical$',
-    'processing': r'processing|simultaneous|architecture|block|categor|choice|library|^modules|factory amps|efx|^effects',
+    'processing': r'processing|simultaneous|architecture|model-total disagreement|block|categor|choice|library|^modules|factory amps|efx|^effects',
     'memory': r'memory|preset|storage',
-    'sound': r'synth|acoustic|harmony|special sound|^sound',
+    'sound': r'synth|acoustic|harmony|special sound|^sound|^vocal$|^instrument/function$',
     'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary|conversion',
-    'io': r'\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
-    'power': r'power|battery|^dc',
-    'editor': r'app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital',
+    'io': r'^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
+    'power': r'power|battery|^dc|^supply$',
+    'editor': r'app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital|^audio interface$',
     'live': r'live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
 }
 
@@ -503,8 +503,28 @@ def test_comparison_selection():
             raise AssertionError('Malformed comparison range accepted')
     print('PASS: explicit comparison selection keeps current evidence, preserves legacy fallback and rejects malformed ranges.')
 
+
+def test_field_projection():
+    cases = {
+        'expression': ['Built-in / external EXP'],
+        'io': ['Audio/control', 'Audio input', 'Audio inputs', 'Audio output', 'Audio outputs', 'Level conflict', 'Built-in instrument wireless'],
+        'sound': ['Vocal', 'Instrument/function'],
+        'processing': ['Model-total disagreement'],
+        'editor': ['Audio interface'],
+        'power': ['Supply'],
+        'display': ['Evidence and remaining uncertainty'],
+    }
+    for group, labels in cases.items():
+        for label in labels:
+            record = {'facts': [{'field': label, 'value': 'Retained qualified evidence', 'context': ''}]}
+            assert 'Retained qualified evidence' in cell(record, group), (group, label)
+    assert 'Retained qualified evidence' not in cell({'facts': [{'field': 'Manufacturer identity', 'value': 'Retained qualified evidence', 'context': ''}]}, 'processing')
+    print('PASS: technical field labels reach their intended columns; manufacturer identity stays in the full record.')
+
 if __name__=='__main__':
-    if sys.argv[1]=='test-selection':
+    if sys.argv[1]=='test-fields':
+        test_field_projection()
+    elif sys.argv[1]=='test-selection':
         test_comparison_selection()
     elif sys.argv[1]=='plan':
         make_plan()

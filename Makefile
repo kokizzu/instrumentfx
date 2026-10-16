@@ -573,3 +573,11 @@ consolidation-apply-gr-55:
 	python3 scripts/consolidation_tools.py apply gr-55
 consolidation-commit-gr-55:
 	python3 scripts/consolidation_tools.py commit gr-55
+
+.PHONY: comparison-test-fields
+comparison-test-fields:
+	python3 scripts/comparison_views.py test-fields
+
+.PHONY: research-commit-field-projection
+research-commit-field-projection:
+	python3 scripts/research_tools.py commit-field-projection

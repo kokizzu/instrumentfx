@@ -10063,7 +10063,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons:106 guitar,58 documented bass-capable,17 vocal; complete legacy preservation and incoming-link audit remain unfinished.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "0 legacy-only models remain;126 root-canonical. Full migration and research incomplete.",
@@ -11479,7 +11479,12 @@
     "verify_target": "make comparison-verify",
     "scope": "Deterministic existing-evidence comparisons with explicit per-model sources and reviewed instrument membership; not a new research certification",
     "rollback": "Git pre-apply commit 9c8d296 preserves every original source; no source files deleted",
-    "explicit_current_evidence": "Optional paired comparison evidence markers select current comparison facts while the entire dated archive stays in its root brand section;GX-10 adopted first."
+    "explicit_current_evidence": "Optional paired comparison evidence markers select current comparison facts while the entire dated archive stays in its root brand section;GX-10 adopted first.",
+    "field_projection_audit": {
+      "date": "2026-10-17",
+      "result": "Corrected omitted EXP, audio I/O, wireless receiver, vocal, model-count conflict, supply, audio-interface and display-evidence labels. Regression target make comparison-test-fields. This checks projection of retained evidence, not source completeness or specification verification.",
+      "remaining": "Audit source extraction and complete legacy body/URL preservation; continue fresh Shopee discovery and unresolved fields."
+    }
   },
   "discovery_search_pass": {
     "date": "2026-10-16",
