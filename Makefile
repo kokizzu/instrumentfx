@@ -357,3 +357,11 @@ consolidation-apply-ge150-plus-li:
 	python3 scripts/consolidation_tools.py apply ge150-plus-li
 consolidation-commit-ge150-plus-li:
 	python3 scripts/consolidation_tools.py commit ge150-plus-li
+
+.PHONY: consolidation-plan-ge150-max consolidation-apply-ge150-max consolidation-commit-ge150-max
+consolidation-plan-ge150-max:
+	python3 scripts/consolidation_tools.py plan ge150-max
+consolidation-apply-ge150-max:
+	python3 scripts/consolidation_tools.py apply ge150-max
+consolidation-commit-ge150-max:
+	python3 scripts/consolidation_tools.py commit ge150-max

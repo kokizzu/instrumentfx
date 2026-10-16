@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. Four previously researched GE models still require complete consolidation; the original GE models and consolidated Plus/Pro variants are below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. Three previously researched GE models still require complete consolidation; the original GE models and consolidated Max/Plus/Pro variants are below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -1056,3 +1056,64 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Unresolved marketplace evidence** (Separate IDR evidence): Same mixed listing; no assumed lower-price variation
 
 Sources: [effects/findings/2026-10-15-mooer-ge150-plus-li.md](effects/findings/2026-10-15-mooer-ge150-plus-li.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+
+## GE150 Max
+
+Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- MOOER-GE150-MAX source begins -->
+
+**Checked 2026-10-15; partial, eligible guitar multi-effects.** This is GE150 Max, not a manufacturer model called Pro Max. Max Li is separate battery-equipped hardware. The original shared Max/Max Li manual was subsequently retrieved as text, resolving some first-pass gaps without borrowing from the Plus/Pro series.
+
+| Required field | Finding |
+|---|---|
+| Expression | Built-in volume/expression with toe switch; no external EXP socket in the complete shared manual rear inventory [M,J] |
+| Knobs / footswitches / buttons | **3 / 8 / 6**: MASTER, SELECT, MODE; A/B/C/D, bank up/down, TUNER, TAP; separate TAP, RHYTHM, SYSTEM, PLAY, SAVE, EXP buttons. Encoder pushes, rear power/ground and toe switches separate [M,J] |
+| Screen | **3.5-inch color LCD**, explicit manufacturer feature. Touchscreen specification **unverified**; color is not proof of touch [M,G] |
+| Dimensions / weight | Shared manual **326×204×63 mm L×W×H**, versus official regional page **326.5×204.2×55.7 mm**; unresolved discrepancy. **1.63 kg** agrees. Large under either horizontal orientation; cables/pedal-up clearance additional [M,J] |
+| Power | **9 V DC center-negative, published 300 mA specification**. Standard external-power model, no internal Li battery. USB-powered operation not established [M,J,G] |
+| Simultaneous effects | **9 modules**, one type per module. Not nine freely duplicable arbitrary engines [M] |
+| Category choices | **FX12, drive28, amp55, cabinet26, noise suppression3, EQ4, modulation25, delay9, reverb8 = 170**, counted from the actual shared Max manual appendix. Includes amps/cabs, excludes empty sample slots [M] |
+| Presets | **200 editable locations =50 banks×4**, factory content with save/overwrite to a chosen location. Not200 factory plus200 additional user memories [M,G] |
+| Synth / acoustic | No dedicated synthesizer or electric-to-acoustic simulator identified in the inspected shared Max appendix. Three acoustic amps and one acoustic cabinet do not establish acoustic conversion [M] |
+| IR / models | **20 user IRs**, 512-sample24-bit/44.1-kHz WAV or GIR;20 separate GNR/MNRS amp samples. MNRS/GNR/GIR is not native NAM [M,G,J] |
+| NAM | **A2 conversion/import with Max V2.1.6**, August2026 global release notes. AMP-only import; preamp/pedal versus amp+cab import destinations distinguished. No native-loading claim [D] |
+| Audio I/O | One6.35-mm unbalanced mono input; two6.35-mm unbalanced outputs; **two balanced XLR outputs**; separate3.5-mm stereo phones and aux. The actual shared manual specifies stereo aux; regional page says mono. Preserve this conflict [M,J] |
+| Other ports | USB-C editing/update/audio/OTG and DC input. No microphone/phantom, external FX loop, external EXP or DIN/TRS MIDI in complete rear inventory. XLR outputs do not imply microphone input [M] |
+| Applications | Windows/macOS MOOER Studio full editor/import/backup/update. Current global package minimum Win10+/macOS10.13+. Mobile OTG audio is not proof of a mobile editor; Linux editor unverified [M,J,D] |
+| USB audio | Recording/playback/OTG documented; exact channels, USB-MIDI and bus-power capabilities unverified [M,G,J] |
+| Practice/live | **80s stereo looper,40 rhythms+10 metronomes**, tuner, tap tempo, CTRL multi-module toggling, global EQ and conditional delay/reverb spillover [M,J] |
+| Used/new IDR | **? / ? for an exact condition/variant-verified non-Li offer**. Related preorder observation below is not assigned unconditionally |
+
+### Shopee price evidence
+
+[Seven Stereo shop16879370/item29893478067](https://shopee.co.id/Mooer-GE150-Pro-Max-Multi-Effect-Efek-Gitar-Digital-i.16879370.29893478067) displays **Rp3.499.000**, **15-day preorder**, with old August delivery text. Search cache additionally said sold out; reopened text did not expose that label. Title says **GE150 Pro Max**, not an unambiguous manufacturer's exact variant. Until the image/selected variation is established, the amount is **condition/variant-unconfirmed historical or cached listing evidence**, not an active new/used range. The older mixed [item24292677095](https://shopee.co.id/Mooer-GE150-PRO-Li-GE-150-PRO-GE150PRO-GE150-MAX-GE150-MAX-Li-Guitar-Effect-Amp-Modelling-Multi-Effects-Pedal-i.3012339.24292677095) failed to reopen. Case-only results were excluded. No FX conversion or used-price percentage was invented.
+
+### Sources and access limitations
+
+[M] **Actual manufacturer-authored shared GE150 Max/Max Li Owner's Manual**, original text after USER MANUAL in [this mirror](https://www.notice-facile.com/en/manual/1631674/mooer%2Bge150-max-li). Read numbered controls/ports, saving, power/dimension table and complete algorithm appendix. Ignore the mirror's preceding autogenerated product summary/FAQ; they contain contradictory specifications. PDF download did not load and no panel-image inspection is claimed.
+
+[J] [Official Japan GE150 Max page](https://mooer.jp/products/mooer-ge150max), including controls, dimensions, power and signal ports.
+[G] [Manufacturer Max/Max Li page](https://www.mooeraudio.com/products/235.html), indexed full product text; direct access403.
+[D] [Manufacturer GE150-family downloads](https://www.mooeraudio.com/Downloads_xq/6.html), indexed August2026 release notes. Regional installer/version differences remain separate.
+
+The first pass used indexed [Max-only manual text](https://www.notice-facile.com/en/manual/1772133/mooer%2Bge150-max), whose direct reopening failed. The later shared manual supplies the fuller evidence above. Dynamic-range fields repeat maximum-level numbers in dBu; those apparent template errors are not copied as measurements.
+
+**Correction 2026-10-15:** added the complete shared-manual category count, editable-memory behavior, connector inventory and dimensional conflict. Outstanding: explicit touch, aux/dimension disagreement, USB power/channels, current firmware compatibility, visual panel check and unambiguous new/used Indonesian offers. This is not a new model or a full verification claim.
+<!-- MOOER-GE150-MAX source ends -->
+
+### GE150 Max — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **Simultaneous processing / factory choices** (Processing, memory, IR and NAM): 9 modules; **170 choices including amps/cabs** from Max-specific shared appendix
+- **Presets** (Processing, memory, IR and NAM): **200 factory-filled editable,50×4**, not200+200
+- **IR / captures / NAM** (Processing, memory, IR and NAM): 20 user IRs,512 samples,WAV/GIR;20 GNR amp slots; **A2 conversion in Max2.1.6**, not native NAM
+- **Audio/control ports** (Connections, power and applications): Mono6.35mm in;2×unbalanced6.35mm out;**2×balanced XLR out**;3.5mm stereo phones;aux;USB-C;DC
+- **Power and battery** (Connections, power and applications): **9V center-negative,300mA specification;no internal Li battery**
+- **Software / recording / practice** (Connections, power and applications): Windows/macOS Studio;USB/OTG channels unverified;80s stereo looper,40+10 patterns,CTRL switching and trails
+- **Used IDR** (Separate IDR evidence): ?
+- **Model-specific retail evidence** (Separate IDR evidence): ?
+- **Unresolved marketplace evidence** (Separate IDR evidence): Related **Rp3.499.000,15-day preorder** says Pro Max; exact variant/condition unresolved and older delivery text retained
+
+Sources: [effects/findings/2026-10-15-mooer-ge150-max.md](effects/findings/2026-10-15-mooer-ge150-max.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
