@@ -1748,3 +1748,39 @@ Manufacturer's G3X support page links this shared G3/G3X manual. Model-specific 
 [ZG3X-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3x/g3x-support/
 [ZG3X-O1]: https://shopee.co.id/Zoom-G3X-Guitar-Effects-and-Amplifier-Simulator-with-Expression-Pedal-i.736199784.17196313326
 [ZG3X-O2]: https://shopee.co.id/Zoom-G3X-gitar-effect-i.680715980.49705870895
+
+## G2.1u
+
+Original guitar multi-effects; distinct from G2.1Nu. Discontinued. Checked2026-10-17; partial. Ownership and bass/vocal suitability unestablished.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in; CONTROL IN:FS01/FP01/FP02 in parts text,FP02/FS01 in specifications. Toe behavior unverified. | [Manual pp6–7,35][ZG21-M] |
+| K/F/B | **4 rotary /2 main footswitches /6 buttons**: module selector+three parameters; BANK−/+,STORE,TAP,PEDAL ASSIGN,RHYTHM. Power/pedal switching additional; visual corroboration pending. | [Manual pp6–7][ZG21-M] |
+| Display | Two-digit seven-segment LED plus parameter/pedal indicators. Diagonal/color/touch unverified. | [Manual p35][ZG21-M] |
+| Dimensions / mass | **165 D ×255 W ×79 H mm;1100g without batteries**. | [Manual p35][ZG21-M] |
+| Processing / category choices | **54 effects;max9 simultaneous modules**. Per-category choices unresolved. | [Manual p35][ZG21-M] |
+| Factory / user memory | **80 slots:40 user+40 read-only presets**; user factory-fill unresolved. | [Manual pp16,35][ZG21-M] |
+| Synth / acoustic | Exact synth/acoustic choices unverified. | Unresolved |
+| I/O | Mono input1MΩ;shared stereo OUTPUT/PHONES;CONTROL IN,USB,DC9V. USB audio16-bit stereo,44.1/48kHz;not internal96kHz processing. | [Manual pp6–7,35][ZG21-M] |
+| Power / battery / USB | AD-0006:9VDC,300mA,center-negative supply≠draw. FourAA alkaline~7.5h;USB bus power with POWER OFF. No battery charging. | [Manual pp2,35;USB guide][ZG21-M] |
+| IR / NAM / capture | User IR, native/converted NAM and capture imports unverified. | Unresolved |
+| Editor / software | Support lists Windows G-Series ASIO2.0.0 driver; desktop/mobile editor unverified. Bundled DAW/audio driver is not patch-editor evidence. | [Support][ZG21-S] |
+| Looper / drums / live | Rhythm playback disables REVERB. Looper,scenes,trails unverified. | [Manual pp12,35][ZG21-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unverified; exact titles do not establish condition. | — |
+| New | Unverified; exact titles do not establish condition. | — |
+| Conditional historical offer | **Rp1,199,000;Habis**, Dian ardi,Kab.Sukabumi,shop286315490/item24194949415. Checked2026-10-17; two-week rendered cache,stale30September delivery. Condition,working state,adapter/bundle,warranty,revision and voucher eligibility unknown. Late-arrival voucher is not immediate discount. Not live stock/completed sale. | [Exact item][ZG21-O1] |
+| Conditional historical offer | **Rp1,250,000;Habis**, Metz Art Music,Depok,shop25192604/item25866062376. Checked2026-10-17; three-week indexed result with stale relative delivery claim. Condition,bundle,warranty and voucher eligibility unknown; not a verified new/used range. | [Exact item][ZG21-O2] |
+
+Manufacturer PDF includes paired printed pages and appended USB/DAW guides; USB audio rates are separate from internal processing. Read rendered web text; no software,dependencies or source document downloaded to filesystem. Mixed G2.1Nu/G2.1u/B2.1u storefront price excluded. Complete category/control/pedal,editor/import and current market verification remains open.
+
+[ZG21-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21u/
+[ZG21-M]: https://zoomcorp.com/media/documents/E_G21u_0.pdf
+[ZG21-S]: https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g21u/g21u-support/
+[ZG21-O1]: https://shopee.co.id/ZOOM-G2.1u-multi-efek-i.286315490.24194949415
+[ZG21-O2]: https://shopee.co.id/Efek-Gitar-Zoom-G2.1u-i.25192604.25866062376
