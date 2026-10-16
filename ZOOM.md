@@ -1544,3 +1544,42 @@ Official2014 list Z2I-2059-01 names five pedal algorithms:PedalVx,PedalCry,WAH10
 [G1XO-F]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf
 [G1XO-M2]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1on_G1Xon_2.pdf
 [G1XO-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1xon/g1xon-support/
+
+## G1on
+
+Guitar multi-effects, distinct from G1Xon and G1 FOUR. Checked 2026-10-17; partial. Ownership and bass suitability unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in expression or toe switch; shared manual marks these G1Xon-only. External EXP pending panel audit. | [Shared manual pp4–5][G1ON-M] |
+| K/F/B | Separate counts pending model-specific panel audit. | Unresolved |
+| Display | **Backlit dot-matrix LCD**; diagonal, color and touch unverified. | [Zoom G1on][G1ON-P] |
+| Dimensions / mass | **146×154.8×43 mm W×D×H;380 g without batteries**. Compact footprint. | [Zoom G1on][G1ON-P] |
+| Processing / category choices | **Five simultaneous**, reorderable. Product advertises100 effects; shared2013 manual G1on75. Published subtotals11 dynamics/filter+12 drive+22 amp+16 modulation/SFX+14 delay/reverb=75. Revision conflict unresolved;notG1Xon's80. | [Product][G1ON-P];[Manual p31][G1ON-M] |
+| Factory / user memory | **100 writable patches,10×10**. Auto Save andPre Select documented; initial factory-filled subset pending. | [Zoom G1on][G1ON-P] |
+| Synth / acoustic | Acoustic simulation described. Exact algorithm list/synth capability pending. | [Zoom G1on][G1ON-P] |
+| I/O | Mono6.35mm INPUT,stereo3.5mm AUX,shared stereo6.35mm OUTPUT/headphones,USB andDC. Full inventory pending. | [Zoom G1on][G1ON-P] |
+| Power / battery / USB | **9V DC center-negative,500mA AD-16 supply;4AA alkaline/NiMH orUSB power**. 20h alkaline,manual qualifies backlightoff. Measured draw unverified. | [Product][G1ON-P];[Manual pp2,6,31][G1ON-M] |
+| IR / NAM / capture | UserIR,native/converted NAM andproprietary capture import unverified. | Unresolved |
+| Editor / software | USB firmware update;Windows/Mac1.21 updaters listed. Full editor/audio/MIDI/currentOS support unverified. | [Zoom downloads][G1ON-P] |
+| Looper / drums / live | **30s/64beats looper;68 rhythms**,usable together;overdub supported. Storage,routing,trails/scenes pending. | [Zoom G1on][G1ON-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;shopname alone doesnot establish item condition. | — |
+| New | Unknown;condition unconfirmed. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified hardware
+
+[gitar second exact G1on](https://shopee.co.id/Efek-Gitar-ZOOM-G1ON-zoom-G1-on-Multi-Effect-G1-on-i.61848168.18873574731),shop61848168/item18873574731,Kab.PolewaliMandar: **Rp800,000,Habis**,openedmonth-old cache checked2026-10-17. Shopname suggests secondhand focus but doesnot prove itemcondition. Variant,adapter,batteries,box andworkingstate unknown. Sep18–20 delivery stale. Rp10,000late-arrival compensation notpurchasevoucher;shipping/tax/checkout unknown. Notqualified used/new ask orlive stock.
+
+Secondary fullset item194129824/26177529440 directcachemiss;noqualified price,bundleorcondition. Replacement sockets38361451/10456132504 atRp37,000 excluded. Mixed G1Xon/G1on58780289/15654839389 andjonimusic22551702/6866797510 multimodelvariants excluded fromexactmodel pricing. Full discovery provenance remainsinledger.
+
+[G1ON-P]: https://www.zoom.co.jp/node/52
+[G1ON-M]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf

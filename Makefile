@@ -1279,3 +1279,7 @@ research-commit-stomplab2g:
 .PHONY: research-commit-g1xon
 research-commit-g1xon:
 	python3 scripts/research_tools.py commit-g1xon
+
+.PHONY: research-commit-g1on
+research-commit-g1on:
+	python3 scripts/research_tools.py commit-g1on
