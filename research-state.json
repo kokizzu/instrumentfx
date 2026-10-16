@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS ME-20B primary follow-up",
-    "task": "ME-20B controls/expression/memory and external-switch assignments saved. Next verify processing chain, synth tracking/delay limits and qualified exact seller/item offers; retain polarity/import/software gaps. Commit before next model.",
+    "model": "Fresh Shopee discovery after ME-20B delay and listing follow-up",
+    "task": "ME-20B delay/tuner restrictions saved; exact item43102092694 link resolved but page inaccessible and variant/seller name unknown. Preserve price as unqualified. Continue fresh Shopee brand/series discovery; commit each model before next.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery remains necessary."
+    "after_queue": "No exhaustive-coverage or full-verification claim."
   },
   "new_findings": [
     {
@@ -2066,7 +2066,18 @@
         "idr": 2300000,
         "location": "Bogor",
         "seller_item": "unresolved; anchor retrieval Internal Error",
-        "qualified_price": false
+        "qualified_price": false,
+        "resolved_link_followup": {
+          "checked_date": "2026-10-17",
+          "url": "https://shopee.co.id/Efeck-Gitar-Bass-BOSS-ME20B-2nd-like-New-i.156694846.43102092694",
+          "shop": "156694846",
+          "item": "43102092694",
+          "seller_name": "unknown",
+          "display_model_id": "275172467433 unresolved selection",
+          "source_page": "https://shopee.co.id/search?category=11043572&keyword=gitar+boss&page=4&subcategory=11043648",
+          "access": "parameterized click cache miss; clean exact URL inaccessible",
+          "qualified_price": false
+        }
       },
       "resolved": [
         "Exact bass-model identity and54/74mm standard/maximum height",
@@ -2093,6 +2104,17 @@
           "INPUT power switching and unprocessed AUX"
         ],
         "remaining": "Visual corroboration, chain/ceiling, display, polarity/imports/software and exact offers"
+      },
+      "delay_tuner_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf",
+        "resolved": [
+          "Automatic effect ordering",
+          "0–99ms and100–700ms delay ranges/resolution",
+          "CHO+DELAY fixed chorus and delay range",
+          "Tuner dry bypass with pedal-volume silence;435–445Hz saved"
+        ],
+        "remaining": "No synth chord-tracking restriction established; full graphic chain/ceiling remains partial"
       }
     }
   ],
@@ -37786,7 +37808,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-20B primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after ME-20B delay and listing follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

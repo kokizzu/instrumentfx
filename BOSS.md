@@ -1752,6 +1752,8 @@ Bass-focused multi-effects; not guitar ME-20. Checked2026-10-17; partial. Owners
 | IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
 | Editor / platforms | Full patch editor, driver/updater and mobile support unestablished. No software downloaded. | Unresolved |
 | Controls / live response | n0 immediate knob changes is default; n1 uses value pickup. Manual mode starts at power-up. Memory effect toggling/NS adjustment requires Patch Edit. AUX is unprocessed, with source-controlled volume. | [Manual pp7,10,23–26][M20B-M] |
+| Routing / delay limits | Effect order is selected automatically from settings; free reordering unverified. Delay0–99ms uses1ms steps;100–700ms uses10ms steps. CHO+DELAY has100–700ms delay and fixed chorus parameters. These are choices inside DELAY/MOD, not independently selectable chorus and delay blocks. | [Manual pp16,19][M20B-M] |
+| Tuner / live | Tuner passes dry bypass; pedal can reduce volume for silent tuning. Reference435–445Hz, automatically saved. Synth chord-tracking restrictions not established in inspected text; no ME-50 single-note restriction borrowed. | [Manual pp14–15,18][M20B-M] |
 | Looper / drums / live | EZ Edit combines parameters; Bass Enhance boosts dynamics. Looper, drums, scenes, trails and routing restrictions pending. | [Product][M20B-P] |
 
 ### Separate IDR hardware offers
@@ -1765,7 +1767,7 @@ Bass-focused multi-effects; not guitar ME-20. Checked2026-10-17; partial. Owners
 
 ### Unresolved Shopee discovery lead
 
-Checked2026-10-17: [Shopee search page](https://shopee.co.id/search?category=11043572&keyword=gitar+boss&subcategory=11043648) lists “Efeck Gitar Bass BOSS ME20B 2nd like New”, Rp2,300,000, Bogor. The page exposes a product anchor, but repeated click retrieval returns Internal Error without resolving its target; seller/item IDs and selected variant remain unknown. Used-condition language is title-only; stock, working state, adapter/bundle, warranty, shipping/tax/voucher and final total unknown. This is a lead, excluded from used/new comparison prices. Earlier search-only lead retained in research-state.json; no market-coverage claim.
+Checked2026-10-17: [Shopee search page](https://shopee.co.id/search?category=11043572&keyword=gitar+boss&subcategory=11043648) lists “Efeck Gitar Bass BOSS ME20B 2nd like New”, Rp2,300,000, Bogor. Earlier anchor clicks did not resolve its target. The alternate page4 anchor now resolves [shop156694846/item43102092694](https://shopee.co.id/Efeck-Gitar-Bass-BOSS-ME20B-2nd-like-New-i.156694846.43102092694); seller name remains unknown. Parameterized link has display_model_id275172467433, selection unverified; click cache miss and clean URL inaccessible. Used-condition language is title-only; stock, working state, adapter/bundle, warranty, shipping/tax/voucher and final total unknown. This is a lead, excluded from used/new comparison prices. Earlier search-only lead retained in research-state.json; no market-coverage claim.
 
 Remaining: visual control corroboration/external expression, processing ceiling/chain, display details, DC polarity, USB/import/software scope and qualified exact offers. Original manual©2007 identity checked through browser; no documents or dependencies downloaded to workspace.
 
