@@ -1346,3 +1346,35 @@ Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?**
 ### Remaining checks
 
 Verify current category subtotals,installed library/firmware,85preset slot map,displaydiagonal/touch/color-depth wording,external expression,USB electrical/audio/fullMIDI details,userIR/NAM/capture imports,acoustic simulation,performance looper/drums/scenes,currentcondition-qualifiedused/new offers andexact R-output tap interactions. KeeporiginalMS-60B andotherPlus units separate.
+
+## B1on
+
+Reviewed **2026-10-17**,after exact Shopee hardware discovery. **B1on**,not B1Xon,B1 FOUR orB1X FOUR. Bass-focused multi-effects;no ownership assertion. Partial:manufacturer HTML andindexed original manual/effects text;no dependencies,manual files,software orfirmware downloaded to the workspace. The official shared manual explicitly distinguishes the two on-series models.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / controls | **No built-in expression pedal forB1on**;pedal functions in shared manual apply toB1Xon. Retain product-page copy error claiming aB1on built-in pedal;do not promote it over the model distinction. Toe N/A;external expression unverified. **K/F/B:1 parameter knob /? /?**. Manual names RHYTHM/LOOPER,MENU,HOME,ENTER andfour cursor directions;full physical switch/button count andENTER/knob relationship remain visually unverified. | [Shared manual,pp.4,26–27](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf);[conflicting B1on page](https://www.zoom.co.jp/node/61) |
+| Display / body | Backlit dot-matrix LCD withcontrast adjustment;published diagonal,color-depth andtouch ?. **146 W×154.8 D×43 H mm;380 g excluding batteries**. Medium by repository footprint limits;do not use B1Xon237mm width/640g weight. | [B1on specifications](https://www.zoom.co.jp/node/61);[shared manual,p.31](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf) |
+| Simultaneous effects | **Up to5**,freely ordered,DSP-limited. Processing-capacity overflow bypasses an effect;changing effect types can resolve it. | [Manual,pp.3,10](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf) |
+| Categories / choices | **75 effects in original manual/old feature list;100 in retained product prose/specifications**,which linksfirmware1.30. Preserve revision/context distinction;installed version unverified. Compression,filter/EQ,drive,amp,modulation/SFX anddelay/reverb documented;firmware-matched category subtotals ?. B1Xon's extra pedal effects are not added toB1on. | [Product](https://www.zoom.co.jp/node/61);[original manual,p.31](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf);[100-effect list](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf) |
+| Presets / memory | **100 editable memories,10 banks×10**,not100 factory plus100 user. Factory-filled subset unverified. Auto Save,save/swap andpreselect documented;preselection keeps current patch active while choosing another. | [Product](https://www.zoom.co.jp/node/61);[manual,pp.7,15,19](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf) |
+| Synth / acoustic | **Ba Synth,StdSyn,SynTlk andZ-Syn** explicitly documented in the100-effect list;Z-Organ ismarked asan addition. Dedicated acoustic/upright simulation unverified. The named **acoustic** amp models anAcoustic360 amplifier;it is not electric-to-acoustic simulation. Defret is a fretless-bass timbre effect. | [Effects,pp.11,17–18](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf) |
+| Audio / control I/O | Mono quarter-inch input470kΩ;3.5mm stereoAUX;quarter-inch stereooutput shared line/headphones,+2dBm line or17+17mW into32Ω headphones;USB andDC. **AUX bypasses the effects**,so it does not establish aprocessed vocal path. No dedicated EXP,FXloop,XLR orDIN MIDI jack in manual panel;USB connector subtype/audio/MIDI unverified. | [Manual,pp.5,31](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf) |
+| Power / batteries / USB | **9V DC500mA center-negative AD-16**,4AA alkaline/NiMH or**USB bus power**. Adapter rating,not measured draw. Manufacturer20h alkaline estimate is qualified **LCD backlight off** in manual. Battery power starts oninput-cable insertion;eco shutdown10h ifenabled. USB voltage/current ?. | [Manual,pp.2,6,31](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf);[product](https://www.zoom.co.jp/node/61) |
+| IR / NAM / capture | Factory amp/cab models documented;user WAV IR,native NAM,converted NAM anduser capture import unestablished. Firmware/model-library updates are not evidence of those formats. | [Product](https://www.zoom.co.jp/node/61);[effect list](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf) |
+| Editor / platforms | Manufacturer links **Windows/Mac firmware1.30 updaters**;not proof of afull editor. Official full desktop/mobile editor,drivers,Android/Linux andUSB audio support unverified. Do not inherit Guitar Lab fromB1 FOUR. | [Product/software links](https://www.zoom.co.jp/node/61) |
+| Looper / drums / live | **30s looper**,manual time or1–64 quarter notes within30s;record/play/overdub/erase. **Changing time ortempo erases current loop**.68 rhythms can synchronize withlooper;rhythm count-in. Tuner bypass/mute andsilent preselect. Undo/redo,loop persistence,scenes andcross-preset trails unverified. | [Manual,pp.20–25](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf);[product](https://www.zoom.co.jp/node/61) |
+| Instrument scope | Bass-focused by manufacturer identity andbass processing library. Generic series video mentioning guitar/bass is not exact B1on guitar-equivalence proof;outsideALL-GUITAR/ALL-VOCAL. | [B1on product identity](https://www.zoom.co.jp/node/61) |
+
+### Separate IDR hardware offers
+
+Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?**
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no condition-verified exact Indonesian used offer established. | — |
+| Condition unverified / Primanada,Kota Jakarta Utara | **Rp1.040.000;Habis/sold out**. ExactB1on title,index3months old;direct reopen failed withcache miss. Condition,adapter/bundle,selected variation,warranty region,shipping,tax,voucher eligibility anddelivered total unknown. Relative next-day delivery and20k late-delivery compensation do not prove stock orhardware discount. | [15931156/2221821742](https://shopee.co.id/Zoom-B1on-Multi-Effect-Bass-Pedal-Efek-Bass-Zoom-Efek-Bass-Murah-i.15931156.2221821742) |
+
+### Remaining checks
+
+Verify complete physical control counts,firmware-matched categorysubtotals andinstalled version,manufacturer75/100andpedal copy conflicts,factory preset subset,externalexpression/display,USB connector/electrical/audio/MIDI,IR/NAM/capture limits,complete acoustic distinction andlooper persistence/undo/trails,currentcondition-qualifiedoffers. Existing B1Xon ownership does not establish B1on ownership.

@@ -1163,3 +1163,7 @@ research-commit-ms70cdrplus:
 .PHONY: research-commit-ms60bplus
 research-commit-ms60bplus:
 	python3 scripts/research_tools.py commit-ms60bplus
+
+.PHONY: research-commit-b1on
+research-commit-b1on:
+	python3 scripts/research_tools.py commit-b1on
