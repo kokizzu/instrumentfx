@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX StompLab 1G primary follow-up",
-    "task": "Initial guitarprofile saved frommanufacturer1Gpages;103categorysum and9VDC200mA qualified. Findexact1Gmanual forcontrols/expression/categorysharing andfullports;commitbefore PERFORM-VE.",
+    "task": "StompLab1G exactEFGSJ2 manual saved:7simultaneous/sharedAMPDR,3/2/3 controls,noEXP,completeports. Next verify program banks,autooff,outputmode/acoustic details fromsame manual;commit before PERFORM-VE.",
     "next_models": [
       "TC-Helicon PERFORM-VE"
     ],
@@ -3123,7 +3123,27 @@
       "conflicts": [
         "English12cabheadingwith11names;GermanUKT75included",
         "EnglishincludedtestbatteriesvsGermanexcluded"
-      ]
+      ],
+      "manual_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf",
+        "revision": "EFGSJ2",
+        "resolved": [
+          "Seven simultaneous inclNR",
+          "SharedAMPDRcategory;7categories",
+          "Textderived3knobs2footswitches3buttonsPOWERadditional",
+          "Noexpressionpedal/toe/externalEXP",
+          "CompleteINPUTOUTPUTPHONESDCPOWERinventory;noUSBMIDIAUXloop"
+        ],
+        "remaining": [
+          "Initialuserfill",
+          "Acousticfunctiondetails",
+          "Polarity",
+          "Display/visual",
+          "Looperdrumsroutingtrails",
+          "Imports"
+        ]
+      }
     }
   ],
   "consolidation_and_price_findings": [

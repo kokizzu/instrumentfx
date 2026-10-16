@@ -172,17 +172,17 @@ Guitar multi-effects;distinct from2G,1B,2B. Checked2026-10-17;partial. Bass suit
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in/external/toe expression specifics pending manual verification;do not transfer2B pedal. | Unresolved |
-| K/F/B | Separate knob/footswitch/button counts pending. | Unresolved |
+| Expression | **No built-in expression/toe switch;no external EXP socket** in complete panel inventory. FIX WAH is knob-controlled,not pedal wah. | [Manual pp4–6,62][SL1G-M] |
+| K/F/B | **3 / 2 / 3**,text-derived:CATEGORY,VALUE1,VALUE2;UP/DOWN pedals;EDIT andtwo arrow buttons. Rear POWER button additional;visual corroboration pending. | [Manual pp4–6][SL1G-M] |
 | Display | Diagonal,color,touch andtechnology unverified. | Unresolved |
 | Dimensions / mass | **145×125×57mm WDH;590g**. | [Official product][SL1G-P] |
-| Processing / category choices | **103**:8 Pedal+44 Amp+18 Drive+12 Cabinet+9 Modulation+8 Delay+3 Reverb+1 Noise Reduction;sum103,not simultaneous count. English cabinet list names11 despite12heading;German includes UK T75 4×12. Full simultaneous/category sharing pending. | [Official product][SL1G-P];[German product][SL1G-D] |
+| Processing / category choices | **103**:8 Pedal+44 Amp+18 Drive+12 Cabinet+9 Modulation+8 Delay+3 Reverb+1 Noise Reduction;sum103,not simultaneous count. English cabinet list names11 despite12heading;German includes UK T75 4×12. **Seven simultaneous including NR**;AMP/DRIVE shares one category. Seven categories:Pedal,AMP/DR,Cabinet,NR,Modulation,Delay,Reverb. | [Official product][SL1G-P];[German product][SL1G-D];[Manual pp4,9][SL1G-M] |
 | Factory / user memory | **120=100 preset+20 user**;initial user fill pending. | [Official product][SL1G-P] |
 | Synth / acoustic | Pedal category lists Acoustic;dedicated simulation behavior pending. Synth unverified. | [Official product][SL1G-P] |
-| I/O | Mono input;shared stereo OUTPUT/PHONES. Complete connector/power inventory pending. | [German product][SL1G-D] |
+| I/O | Complete rear inventory:mono INPUT,shared stereo OUTPUT/PHONES,DC9V andPOWER;no AUX,USB,MIDI,loop orEXP socket. | [German product][SL1G-D];[Manual p6][SL1G-M] |
 | Power / battery / USB | **9V DC,approximately200mA;4AA,7.5h alkaline**. Polarity andUSB power unverified. English AC-adapter wording describes supply,not proof of9VAC input. Regional included-battery wording differs. | [German product][SL1G-D];[English product][SL1G-P] |
 | IR / NAM / capture | User IR,native/converted NAM andcapture imports unverified. | Unresolved |
-| Editor / software | Editor/platforms,USB audio/MIDI andupdate software unverified. | Unresolved |
+| Editor / software | No USB/MIDI connector in manual inventory;USB audio unavailable through such a port. Editor/imports unverified. | [Manual pp4–6][SL1G-M] |
 | Looper / drums / live | Tuner A0–E6;reference438–445Hz. Looper/drums/routing/trails unverified. | [Official product][SL1G-P] |
 
 ### Separate IDR hardware offers
@@ -196,8 +196,12 @@ Guitar multi-effects;distinct from2G,1B,2B. Checked2026-10-17;partial. Bass suit
 
 [gitar second item][SL1G-S],shop61848168/item20091595478,Kab.Polewali Mandar. Exact HTML opened,two-month cache;direct20–23Augdelivery versus indexed4–7Aug,both stale. Variant,bundle/adapter,warranty andworking state unknown. Rp10,000late-arrival compensation not discount;shipping/tax/checkout unknown. Not completed-sale evidence. Other condition-unverified exact1Gasks retained inledger;shop-only andmixed1G/2G offers excluded.
 
-Manufacturer1Gproduct pages opened;candidate1Gmanual URL inaccessible. No sibling specifications imported. English cabinet list omission andregional battery inclusion conflict retained;no files ordependencies downloaded.
+Manufacturer1Gproduct pages opened;earlier J1 candidate inaccessible;**official EFGSJ2 manual now opened**. No sibling specifications imported. English cabinet list omission andregional battery inclusion conflict retained;no files ordependencies downloaded.
 
 [SL1G-P]: https://voxamps.com/en-gb/product/stomplab-1g/
 [SL1G-D]: https://voxamps.com/de/produkt/stomplab-1g/
 [SL1G-S]: https://shopee.co.id/VOX-STOMPLAB-1G-MULTIEFEK-GUITAR-MULTIEFFECT-MULTI-EFFECT-PEDAL-GITAR-MULTI-EFEK-SECOND-i.61848168.20091595478
+
+Official EFGSJ2 manual identifies StompLab IG;pp4–6 provide complete controls/connectors andp9category architecture. ACOUSTIC parameter table p62 lists TONE0–10;function details remain qualified. This is text-derived verification,no visual count certification.
+
+[SL1G-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf
