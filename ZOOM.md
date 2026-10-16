@@ -1712,3 +1712,39 @@ Manufacturer-authored mirror identity check: Zoom copyright, G5 operation-manual
 [ZG5-R4]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=4
 [ZG5-R33]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=33
 [ZG5-R63]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=63
+
+## G3X
+
+Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in expression; control input accepts FP01/FP02 or FS01. Toe mechanics unverified. | [Product][ZG3X-P]; [Shared manual][ZG3X-M] |
+| K/F/B | Nine rotary parameter controls derived from three sections×three; three main footswitches plus pedal switch. Complete separate-button count and visual corroboration pending. | [Manual pp4–5][ZG3X-M] |
+| Display | Three LCDs; diagonal, color and touch unverified. | [Product][ZG3X-P]; [Manual][ZG3X-M] |
+| Dimensions / mass | **175 D ×323 W ×66 H mm;1.6kg**, explicitly G3X. | [Manual p59][ZG3X-M] |
+| Processing / category choices | **Six simultaneous**, DSP-limited: overload bypasses an effect. **116 types**, matching product94effects+22amp/cabinet models. Per-category counts unverified. | [Product][ZG3X-P]; [Manual pp3,58–59][ZG3X-M] |
+| Factory / user memory | **100 patches;10banks×10**. Factory-filled/blank split unverified. | [Manual pp3,59][ZG3X-M] |
+| Synth / acoustic | Acoustic simulation appears in factory-patch descriptions. Dedicated synth choices unverified. | [Manual appended patch list][ZG3X-M] |
+| I/O | Mono input1MΩ with active/passive selection; R output; shared L/MONO/PHONES; balanced XLR with PRE/POST and ground lift; control input,USB,DC9V. | [Manual pp4–5,59][ZG3X-M] |
+| Power / battery / USB | AD-16:9VDC center-negative,500mA supply,not measured draw. FourAA alkaline~6h. USB bus power supported; set POWER OFF before USB connection. | [Manual pp36,58–59][ZG3X-M] |
+| IR / NAM / capture | User IR, native/converted NAM and capture imports unverified; factory models do not establish import support. | Unresolved |
+| Editor / software | Edit&Share: Windows XP/Vista/7/8/8.1/10; MacOSX10.9–10.12. Separate ASIO2.0.1 driver: Windows7/8/8.1/10. Firmware2.10 Windows/Mac listed. Current OS compatibility unverified. | [Support][ZG3X-S] |
+| Looper / drums / live | **1.5–40s;20s with UNDO**; rhythm synchronization. Changing duration/tempo or powering off erases loop. Scenes/trails unverified. | [Manual pp30–35][ZG3X-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; neither exact listing establishes condition. | — |
+| New | Unknown; neither exact listing establishes condition. | — |
+| Conditional historical offer | **Rp1,700,000;Habis**, Namin Music,Jakarta Timur,shop736199784/item17196313326. Checked2026-10-17; two-week indexed result,stale2October delivery; direct item cache miss. Condition,working state,adapter/bundle,warranty,revision and voucher eligibility unknown. Not current stock/completed sale. | [Exact original G3X][ZG3X-O1] |
+| Conditional historical offer | **Rp1,950,000;Habis**, Lintang Kemukus Musik Shop,Serang,shop680715980/item49705870895. Checked2026-10-17; two-month rendered cache,staleAugust delivery. Same condition/bundle/warranty/revision uncertainties. Late-arrival voucher is not an immediate discount; no verified used/new range. | [Exact item][ZG3X-O2] |
+
+Manufacturer's G3X support page links this shared G3/G3X manual. Model-specific G3X size/mass retained; G3's smaller body and G3Xn specifications are not transferred. Read through web-rendered text; some PDF operation text is encoding-corrupted and visual panel inspection remains pending. No dependency,app,firmware or document downloaded to filesystem. Mixed five-variant Hope Music range and twelve-variant jonimusic range are excluded from model prices; cases,broken boards,knobs and adapters are not hardware offers.
+
+[ZG3X-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3x/
+[ZG3X-M]: https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf
+[ZG3X-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3x/g3x-support/
+[ZG3X-O1]: https://shopee.co.id/Zoom-G3X-Guitar-Effects-and-Amplifier-Simulator-with-Expression-Pedal-i.736199784.17196313326
+[ZG3X-O2]: https://shopee.co.id/Zoom-G3X-gitar-effect-i.680715980.49705870895

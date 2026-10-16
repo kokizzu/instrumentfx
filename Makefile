@@ -1347,3 +1347,7 @@ research-commit-ms50gplus:
 .PHONY: research-commit-g5
 research-commit-g5:
 	python3 scripts/research_tools.py commit-g5
+
+.PHONY: research-commit-g3x
+research-commit-g3x:
+	python3 scripts/research_tools.py commit-g3x
