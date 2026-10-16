@@ -693,3 +693,7 @@ research-commit-cubebabybass-preservation:
 .PHONY: research-commit-mg100-preservation
 research-commit-mg100-preservation:
 	python3 scripts/research_tools.py commit-mg100-preservation
+
+.PHONY: research-commit-mg200-preservation
+research-commit-mg200-preservation:
+	python3 scripts/research_tools.py commit-mg200-preservation

@@ -180,20 +180,73 @@ EFX comprises three wah types, Univibe/tremolo/phaser, boost and five drive/fuzz
 
 ## MG-200
 
+<!-- comparison evidence begins -->
+
 **Preserved review2026-10-14;NUX legacy model.** [Official product](https://nuxaudio.com/product/mg200/); [V1 manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf); [manufacturer photo](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG200.jpg). Prior review inspected all seven PDF pages,printed3–12,and separately the photo for actual color/controls;no new visual inspection claimed.
 
 | Field | Preserved finding / uncertainty |
 |---|---|
 | Expression / controls | **No built-in;CTRL2 external EXP or dual footswitch**. Modes wah,Whammy,parameter,volume. **4/3/8**: SELECT+threeparameter knobs,two presets+CTRL1,eightbuttons. V1/photo labels differ but counts agree. |
 | Body / display | **240L×155W×67H mm;0.95kg**,battery inclusion ?. Normalized240×155horizontal footprint,medium. Color TFT;diagonal/resolution/touch ?. |
-| Memory / processing | **36factory+36user=72**. Eight illustrated positions NG/CMP/EFX/AMP/EQ/MOD/DLY/RVB;explicit max-DSP wording not located. Cabinets inside AMP. |
+| Presets | **36 factory + 36 user = 72**. |
+| Processing | Eight illustrated positions NG/CMP/EFX/AMP/EQ/MOD/DLY/RVB; explicit maximum-simultaneous/DSP wording not located. Cabinets inside AMP. |
 | Choices | V1 **gate1,comp1,EFX11,amp13,cab11,EQ1,MOD10,delay6,reverb3 =57**,excludingDirectOut. Cover says55;inclusion convention unresolved. Expression modes are not extra audio blocks. |
 | EFX / MOD / sound | Auto/touch wah,Univibe,tremolo,phaser,boost,overdrive,fourdrive/fuzz alternatives. MODincludesdetune,pitch,harmonist plussevenchorus/flange/vibrato/tremolo/rotary. Delayanalog/digital/tape/stereo/ping-pong/reverse;reverbroom/hall/plate. No dedicated synth/acoustic simulator inV1. |
 | Ports / power | Instrument,AUX,separateL/mono,R,stereoheadphones,CTRL2,USB-B,DC. Audiojackdiameters not numerically stated. **9V center-negative or6AA**,suppliedadapter/ACD-008;draw?;alkaline/NiMH battery setting. |
-| USB / apps / import | USBexplicitlysystemupdate. USBpower/audio,full editor and updaterplatforms unverified. No documented userIR/NAM/capture importer. |
+| USB / editor / updater | USB explicitly for system updating. USB power/audio, full editor and updater platforms remain unverified. |
+| IR / NAM / captures | No documented user IR, native NAM, converted NAM or capture importer. Firmware-update USB is not evidence of audio or file-import capability. |
+| Synth / acoustic | Neither in inspected V1 algorithm list; pitch/Whammy/Harmonist/wah do not establish these functions. |
 | Practice / live | **70s looper,81patterns**;drums **cannot be recorded into internal loop**;guitar tone can change while loop continues. CTRL1switch/tap/boost/delay+boost;globaloutput/headphones modes;tuner435–445Hz. |
 
 [Shopee Red Musik Bali,198150809/6685314008](https://shopee.co.id/Effect-Gitar-Nux-MG-200-MG200-MG-200-Modelling-Guitar-Processor-i.198150809.6685314008): **Rp1.500.000,SOLD OUT**,successfully reopened in originalreview afterinitialfailure. Condition not exposed,so not assigned to used/new. Current qualified used/new **?**. Preserve55/57,buttonlabels,current/display/software gaps and stock uncertainty.
+
+<!-- comparison evidence ends -->
+
+### Preserved original finding
+
+Complete 2026-10-14 source follows, retaining the 55/57 count conflict, V1/photo revision difference and condition-unconfirmed sold-out ask. The [official legacy page](https://nuxaudio.com/product/mg200/) was rechecked on 2026-10-17: it still identifies MG-200 and links its English manual, without supplying the missing current, screen or updater-platform fields. No new PDF/photo inspection or stock refresh is claimed.
+
+<!-- NUX-MG200 source begins -->
+
+Checked **2026-10-14**. **Partial record**. [NUX classifies MG-200 as a legacy product][NUX-MG200-product]. It is a separate model from MG-100/101/300. The next discovery target is **MOOER GE100 Pro**.
+
+### Shopee IDR evidence
+
+**Rp1.500.000, SOLD OUT**: [Red Musik Bali, shop198150809/item6685314008][NUX-MG200-listing]. The listing was successfully reopened after an initial failure and explicitly displays Habis. Detailed new/used condition, accessories and warranty are not exposed in the retrieved body, so this amount belongs in **condition-unconfirmed historical listing evidence**, not an assumed new or secondhand price range. Independently established used IDR **?**, active new IDR **?**.
+
+### Hardware and features
+
+Evidence is the [manufacturer V1 English manual][NUX-MG200-manual], visually checked across all seven PDF pages, including printed pp.3–12. The current [manufacturer photograph][NUX-MG200-photo] independently establishes its color display and physical controls.
+
+| Required field | Verified result or explicit gap |
+|---|---|
+| Built-in/external expression | **No built-in expression**; **CTRL2 accepts external expression or a dual footswitch**. Four expression modes: wah, Whammy, parameter and volume |
+| Rotary/footswitch/buttons | **4/3/8**: SELECT plus three parameter knobs; two preset switches plus CTRL1; eight front buttons. V1 labels differ from the current photo, but both show those counts |
+| Screen | **Color TFT LCD**; diagonal, resolution and explicit touch specification **?**. The monochrome manual diagrams are not evidence of a monochrome physical screen |
+| Dimensions | Published **240(L)×155(W)×67(H)mm**; normalised horizontal footprint **240×155mm**; **medium**, not compact. **0.95kg**, battery inclusion unspecified |
+| Presets | **36 factory +36 user =72** |
+| Processing blocks | **Eight chain positions** shown: NG/CMP/EFX/AMP/EQ/MOD/DLY/RVB. Separate manufacturer maximum-simultaneous/DSP wording not located; cabinet choices are inside amp processing |
+| Synth/acoustic simulator | Neither in the V1 list; pitch-shift/Whammy/Harmonist and wah do not establish synthesis or acoustic simulation |
+| Inputs/outputs | Instrument input; aux; separate L/mono and R main outputs; dedicated stereo headphones; CTRL2; USB; DC. Diagram shows USB-B; exact audio-jack diameters are not numerically stated in the manual |
+| Power | **9V DC center-negative**, or **6 AA batteries**; supplied adapter or NUX ACD-008. Current requirement **?**; do not copy MG-100's300mA. Battery type can be set to alkaline or NiMH |
+| USB power/audio/editor | USB is explicitly described as **system updating**. USB-powered operation and USB audio are **not established**; no full editor/platform support verified |
+| IR/NAM/captures | Factory cabinet modeling, but **no documented user IR/NAM/capture importer**. A firmware-update socket is not evidence of these features |
+| Looper/rhythm | **70-second looper;81 patterns**. Drums are separate and **cannot be recorded into the internal looper**; guitar tone can be changed while a loop continues |
+| Live controls | Assignable CTRL1 effect switching/tap/boost/delay+boost; global output modes including headphones; tuner435–445Hz |
+
+### Category counts and conflict
+
+Transcribed from printed pp.11–12, excluding Direct Out: **gate1, compressor1, EFX11, amps13, cabinets11, EQ1, modulation10, delay6, reverb3**. These total **57 named entries**, whereas the manual cover advertises **55 models**. The inclusion convention is not explained, so both are retained; no speculative subtraction is presented as a resolution. The external-expression modes are a separate control list, not four extra simultaneous blocks.
+
+EFX includes auto/touch wah, Univibe, tremolo, phaser, boost, overdrive and four distortion/fuzz alternatives. Modulation includes detune, pitch-shift and Harmonist alongside seven chorus/flange/vibrato/tremolo/rotary choices. Delay: analog/digital/tape/stereo/ping-pong/reverse; reverb: room/hall/plate.
+
+Remaining work: reconcile the55-versus57 count and V1/photo button-label revision, source exact current/diagonal/touch specifications, verify updater platforms, and obtain current condition-specific Shopee offers. No app capability, current stock or seller authentication is inferred.
+
+[NUX-MG200-product]: https://nuxaudio.com/product/mg200/
+[NUX-MG200-manual]: https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf
+[NUX-MG200-photo]: https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG200.jpg
+[NUX-MG200-listing]: https://shopee.co.id/Effect-Gitar-Nux-MG-200-MG200-MG-200-Modelling-Guitar-Processor-i.198150809.6685314008
+<!-- NUX-MG200 source ends -->
 
 ## TRIDENT NME-5
 
