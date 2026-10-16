@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / remaining technical gaps after G2.1u",
-    "task": "G2.1u category inventory complete for readmanual54selectors. Do not repeatcounting;continue newexactShopee hardware or remainingprimarygaps. Preserve external-pedal wording conflict.",
+    "model": "Fresh discovery / remaining technical gaps after G3X USB/rhythm follow-up",
+    "task": "G3X USB format and looper/rhythm details saved. Continue exact Shopee hardware discovery or unresolved primary fields; do not repeat completed G2.1u/RP500 inventories.",
     "next_models": [],
-    "after_queue": "Search Shopee broader brands/series; exclude accessories and unmapped mixedvariants."
+    "after_queue": "Search Shopee by broader brand/series, rejecting accessories and unmapped variants."
   },
   "new_findings": [
     {
@@ -40354,7 +40354,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining technical gaps after G2.1u."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining technical gaps after G3X USB/rhythm follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48616,6 +48616,13 @@
       "sum": 54,
       "method": "Count named selectable types in printedpp27–33 once; excludeOFF,parametermodes,cabinet/micpositions,DRIVElive/directvariants and duplicatedDELAYtableexamplep26.",
       "remaining": "Physical/firmware verification and genericFP01/FP02legend versusp21volume-only conflict;screen/draw/editor/import/currentqualifiedprices."
+    },
+    {
+      "model": "Zoom G3X",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "findings": "Printedpp24–25,36:16bit44.1kHzUSB audio,recording level and monitor mix100forDAW-only. pp34–35undo/redo1shold,STOP/FINISH/FADEOUT,holdstopinterrupt. p59rhythmlist41entriesincludingguide/metronome,not41kits.",
+      "remaining": "Category inventory,buttons,display,currentdraw,imports,factoryfill,currentOS/prices and G3Xexternalpedalfunction labels remain unverified."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -1729,8 +1729,9 @@ Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufa
 | I/O | Mono input1MΩ with active/passive selection; R output; shared L/MONO/PHONES; balanced XLR with PRE/POST and ground lift; control input,USB,DC9V. | [Manual pp4–5,59][ZG3X-M] |
 | Power / battery / USB | AD-16:9VDC center-negative,500mA supply,not measured draw. FourAA alkaline~6h. USB bus power supported; set POWER OFF before USB connection. | [Manual pp36,58–59][ZG3X-M] |
 | IR / NAM / capture | User IR, native/converted NAM and capture imports unverified; factory models do not establish import support. | Unresolved |
+| USB audio / monitoring | **16-bit,44.1kHz USB audio**. Adjustable recording level and direct/computer monitoring balance; set USB AUDIO MONITOR to100 for DAW-only monitoring to avoid doubled/flanged sound. Legacy interface OS list differs from editor/driver support; current OS compatibility unverified. | [Manual pp24–25,36][ZG3X-M] |
 | Editor / software | Edit&Share: Windows XP/Vista/7/8/8.1/10; MacOSX10.9–10.12. Separate ASIO2.0.1 driver: Windows7/8/8.1/10. Firmware2.10 Windows/Mac listed. Current OS compatibility unverified. | [Support][ZG3X-S] |
-| Looper / drums / live | **1.5–40s;20s with UNDO**; rhythm synchronization. Changing duration/tempo or powering off erases loop. Two-switch bank changes can briefly trigger the earlier switch and affect sound. Scenes/trails unverified. | [Manual pp13,30–35][ZG3X-M] |
+| Looper / drums / live | **1.5–40s;20s with UNDO**; rhythm synchronization. Changing duration/tempo or powering off erases loop. Last-overdub undo/redo uses a one-second hold. STOP/FINISH/FADE OUT stop modes; holding stop can interrupt the latter two immediately. **41 rhythm-list entries**, including guide/metronome patterns, not41 drum kits. Two-switch bank changes can briefly trigger the earlier switch and affect sound. Scenes/trails unverified. | [Manual pp13,30–35,59][ZG3X-M] |
 
 ### Separate IDR hardware offers
 
