@@ -143,7 +143,6 @@ def main():
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact-links'], check=True)
         if mode == 'commit-nux-mg101-audit':
             paths += ['NUX.md', 'scripts/consolidation_tools.py']
-            message = 'audit(nux): preserve exact MG-101 shared fields and historical qualifications'
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-legacy-audit':
             paths += ['scripts/consolidation_tools.py']
@@ -174,6 +173,8 @@ def main():
         git('add', '--', *paths)
         print(git('diff', '--cached', '--stat'))
         message = 'fix(comparisons): preserve separate technical source columns' if mode == 'commit-field-extraction' else 'fix(comparisons): retain technical fields omitted by label matching'
+        if mode == 'commit-nux-mg101-audit':
+            message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-pe100':
             message = 'research(mooer): add PE100 portable multi-effects with qualified Shopee evidence'
         if mode == 'commit-a1four':
