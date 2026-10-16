@@ -153,6 +153,7 @@ Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;
 |---|---|---|
 | Used | Unknown;condition unconfirmed. | — |
 | New | Unknown;condition unconfirmed. | — |
+| Conditional historical observation | **Rp1,520,000**, Seven Stereo Music & Audio Store, Kota Bandung, shop16879370/item1349945522; checked2026-10-17, opened two-week cache. Earlier two-month index marked Habis; current stock, condition, variant, adapter/bundle, warranty and working state unverified. Stale August delivery and late-arrival compensation do not establish stock or discount; shipping/tax/checkout unknown. Not a verified new or used price. | [Exact item][SL2B-S] |
 
 <!-- comparison evidence ends -->
 

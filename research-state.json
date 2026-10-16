@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX StompLab2B/2G comparison audit",
-    "task": "PERFORM-series comparison coverage corrected individually. Review StompLab2B/2G and PANDORA stomp offer scope; keep unresolved variants separate and historical duplicates outside current fields.",
+    "model": "StompLab 2G comparison audit",
+    "task": "StompLab2B exact historical offer now visible with conditions. Review2G next; mixed bundle price mapping must remain unresolved.",
     "next_models": [],
-    "after_queue": "Continue manufacturer-backed gaps and fresh exact hardware discovery."
+    "after_queue": "Review PANDORA stomp and remaining flagged current evidence."
   },
   "new_findings": [
     {
@@ -4130,6 +4130,12 @@
       "status": "partial",
       "finding": "Comparison cutoff/field coverage correction: saved AUX key-detection contradiction, temporary main exclusion, headphone/RoomSense routing, USB Keyboard wording ambiguity and condition-unverified sold-out offer now reach ALL-VOCAL. Original full prose and source identity retained; no new verification claimed.",
       "source": "TC-HELICON.md#perform-ve"
+    },
+    {
+      "model": "VOX StompLab 2B",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Promoted already preserved Seven Stereo Rp1,520,000 exact observation into conditional/historical comparison row, retaining dated Habis conflict, unknown condition/bundle/stock and access limits. Separate incomplete Rp950,000 lead stays outside active price comparison; no new verification claimed."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40096,7 +40102,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab2B/2G comparison audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume StompLab 2G comparison audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

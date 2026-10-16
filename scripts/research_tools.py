@@ -353,7 +353,7 @@ def main():
         if mode == 'commit-stomplab1g':
             message = 'research(vox): restore StompLab 1G output behavior and price qualifications in comparisons'
         if mode == 'commit-stomplab2b':
-            message = 'research(vox): verify StompLab 2B shared processing and auto-off limits'
+            message = 'research(vox): include qualified StompLab 2B historical offer in bass comparison'
         if mode == 'commit-tonelab-se':
             message = 'research(vox): verify ToneLab SE acoustic Hold Delay and MIDI editor limits'
         if mode == 'commit-tonelab-st':
