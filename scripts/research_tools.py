@@ -31,6 +31,10 @@ def verify():
     workflows = list((ROOT / '.github' / 'workflows').glob('*'))
     assert not workflows, workflows
     assert not git('ls-files', '.github/workflows').strip()
+    if 'B1Xon' in state['root_brand_content'].get('ZOOM.md',[]):
+        original=(ROOT/'effects/findings/2026-10-14-zoom-b1xon.md').read_text().split('\n',1)[1]
+        preserved=(ROOT/'ZOOM.md').read_text().split('<!-- B1Xon preserved source begins -->\n',1)[1].split('<!-- B1Xon preserved source ends -->',1)[0]
+        assert preserved.replace('\n### ','\n## ').replace('(effects/OWNERSHIP.md)','(../OWNERSHIP.md)')==original,'B1Xon consolidation lost source material'
     if state.get('separate_specialist_archives'):
         original=git('show','9c8d296:effects/specialist.md')
         marker='## Excluded archive — not part of the multi-effects comparison'
@@ -121,18 +125,20 @@ def main():
         subprocess.run(['pdftotext','-layout',str(path),str(path.with_suffix('.txt'))],check=True)
         subprocess.run(['pdftoppm','-f','6','-l','7','-scale-to','1600','-png',str(path),str(cache/('prime-panel' if prime else 'ge300-panel'))],check=True)
         print('Saved and rendered original manufacturer manual: '+str(path))
-    elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons', 'commit-prime','commit-ge300','commit-gs1000'):
+    elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons', 'commit-prime','commit-ge300','commit-gs1000','commit-b1xon'):
         verify()
         print(git('status', '--short', '--branch'))
         assert not git('diff', '--cached', '--name-only').strip(), 'Unrelated staged changes; inspect before committing'
         paths = ['Makefile', 'scripts/research_tools.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'MULTI-EFFECTS.md', 'README.md', 'research-state.json']
-        if mode in ('commit-comparisons','commit-prime','commit-ge300','commit-gs1000'):
+        if mode in ('commit-comparisons','commit-prime','commit-ge300','commit-gs1000','commit-b1xon'):
             paths += ['ALL-VOCAL.md','scripts/comparison_views.py','AGENTS.md','SINGLE-GUITAR.md','SINGLE-BASS.md','SINGLE-VOCAL.md','effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md']
             subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
             if mode=='commit-prime':
                 paths.append('HEADRUSH.md')
             elif mode in ('commit-ge300','commit-gs1000'):
                 paths.append('MOOER.md')
+            elif mode=='commit-b1xon':
+                paths.append('ZOOM.md')
         else:
             paths.append('VALETON.md' if mode == 'commit-gp200jr' else 'LINE6.md')
         print(git('add', '--', *paths))
@@ -146,6 +152,8 @@ def main():
             subject='research(mooer): add GE300 with converted NAM and firmware-qualified IR capacity'
         elif mode=='commit-gs1000':
             subject='research(mooer): add GS1000 across guitar bass and live mic comparisons'
+        elif mode=='commit-b1xon':
+            subject='docs(zoom): consolidate complete B1Xon owner-history record'
         print(git('commit', '-m', subject))
     else:
         raise SystemExit('Unknown operation')

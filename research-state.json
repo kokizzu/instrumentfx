@@ -7,8 +7,8 @@
   "active_model_count": 124,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 52,
-  "legacy_only_model_count": 72,
+  "canonical_root_model_count": 53,
+  "legacy_only_model_count": 71,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -32,7 +32,7 @@
     "destination": null,
     "task": "Fresh Shopee brand/series discovery: resolve exact eligible GE200 Plus or GS1000 Li hardware offers, or remaining brands; do not add known models again. Then continue lossless consolidation.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of72 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of71 legacy-only models."
   },
   "new_findings": [
     {
@@ -154,7 +154,8 @@
         "IR source conversion and simultaneous capacity",
         "NAM restrictions",
         "qualified used and live retail stock"
-      ]
+      ],
+      "commit": "f3a37e6"
     }
   ],
   "consolidation_and_price_findings": [
@@ -181,6 +182,35 @@
       "commit_subject": "research(line6): consolidate HX Effects as guitar and bass multi-effects",
       "scope": "Complete legacy HX Effects facts and sources retained; refreshed primary panel controls/ports, synth/IR limits and software; no new model, no legacy deletion.",
       "commit": "9c8d296"
+    },
+    {
+      "models": [
+        "Zoom B1Xon"
+      ],
+      "destination": "ZOOM.md#b1xon",
+      "source": "effects/findings/2026-10-14-zoom-b1xon.md",
+      "supporting_source": "effects/owned-multifx.md",
+      "checked_date": "2026-10-16",
+      "technical_date": "2026-10-14",
+      "scope": "Complete original body preserved byte-for-byte after heading-depth and relative-link normalization; all owned-comparison model facts checked against destination. No source deleted, no model added.",
+      "source_sha256": "c9caf3eb08caa72b8ffff7076eb89c8f5276a873062740dc71ffea581950b681",
+      "incoming_reference_paths": [
+        "ALL-BASS.md",
+        "ALL-GUITAR.md",
+        "ZOOM.md",
+        "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+        "effects/COVERAGE.md",
+        "effects/OWNERSHIP.history-2026-10-14.md",
+        "effects/OWNERSHIP.md",
+        "effects/README.md",
+        "effects/SCOPE.md",
+        "effects/findings/2026-10-14-roland-gr-55.md",
+        "effects/findings/2026-10-14-zoom-b1xon.md",
+        "effects/owned-multifx.md",
+        "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+        "effects/shopee-indonesia.md"
+      ],
+      "status": "partial technical record; consolidation verified"
     }
   ],
   "discovery_leads": [
@@ -429,7 +459,8 @@
       "HX Effects"
     ],
     "ZOOM.md": [
-      "G11"
+      "G11",
+      "B1Xon"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -514,7 +545,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:104 guitar,54 documented bass-capable,17 vocal; full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "72 legacy-only models remain;52 root-canonical after GS1000. Research and full migration incomplete.",
+    "warning": "71 legacy-only models remain;53 root-canonical after B1Xon consolidation. Whole migration and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -584,8 +615,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 124,
-    "canonical_root_models": 52,
-    "legacy_only_models": 72,
+    "canonical_root_models": 53,
+    "legacy_only_models": 71,
     "guitar_view_models": 104,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -601,7 +632,8 @@
     "last_checks": [
       "make comparison-verify",
       "make research-verify",
-      "Actual GS1000 cell inspection: complete rear I/O,14 slots,200 memories,native A2 Lite versus converted A1"
+      "B1Xon complete source body equality after only heading/link normalization; original links retained",
+      "Actual GS1000 and B1Xon comparison cells inspected"
     ]
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
@@ -1891,10 +1923,9 @@
       ]
     },
     "Zoom::B1Xon": {
-      "link": "effects/findings/2026-10-14-zoom-b1xon.md",
+      "link": "ZOOM.md#b1xon",
       "source_files": [
-        "effects/findings/2026-10-14-zoom-b1xon.md",
-        "effects/owned-multifx.md"
+        "ZOOM.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-14-zoom-b1xon.md"

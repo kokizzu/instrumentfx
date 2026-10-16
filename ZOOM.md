@@ -58,4 +58,54 @@ These are individual asking observations, not completed-sale statistics or an ac
 
 ## Existing ZOOM research — consolidation still pending
 
-The existing G1 FOUR,G1X FOUR,G2 FOUR,G2X FOUR,G6,B1 FOUR,B1X FOUR,B2 FOUR,B6,B1Xon,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+The existing G1 FOUR,G1X FOUR,G2 FOUR,G2X FOUR,G6,B1 FOUR,B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+
+## B1Xon
+
+Consolidated 2026-10-16 from the complete original finding and checked against the complete owned-model comparison. Technical observations remain dated2026-10-14; this move does not resolve their explicit unknowns or certify current stock. Original finding commit: `8b6664672c3f0756f754d1b1e10212421e3ca19f`. The final historical next-model sentence below is preserved provenance, not the current cursor.
+
+<!-- B1Xon preserved source begins -->
+
+Checked **2026-10-14**. **Partial record** for **B1Xon**, the bass processor with expression pedal, not B1on, B1X FOUR or G1Xon. The owner explicitly listed this unit in July2026. See [ownership history](effects/OWNERSHIP.md).
+
+### Required comparison
+
+| Field | Verified value / explicit unknown |
+|---|---|
+| Category and size | Bass multi-effects; **medium**, not within200×140mm compact filter |
+| Expression | **Built-in expression pedal**; assignable parameter and per-patch range. Separate external-expression input not listed; toe-switch specification **?** |
+| Rotary / footswitch / button counts | **? / ? / ?**; full control diagram still needs visual verification |
+| Width × depth × height | **237 ×154.8 ×50 mm**; maximum pedal-travel height **?** |
+| Weight | **640 g excluding batteries** |
+| Display | Backlit dot-matrix LCD; diagonal **?**, monochrome/color **?**, touchscreen **?** until supported by explicit or inspected hardware evidence |
+| Simultaneous effects | **Up to5**, freely ordered; do not confuse the105-item library with simultaneous processing |
+| Categories / choice counts | **105 effects total** on the manufacturer's retained page:100 ordinary plus5 pedal-controlled choices. Compression, distortion, modulation, delay, reverb and amp models documented; exact category subtotals **?** |
+| Presets/user storage | **100 editable memories =10 banks×10**; factory-filled subset **?**. These are not100 factory plus100 user slots |
+| Synth / acoustic sim | Exact synth and electric-to-acoustic algorithms **?** pending the firmware-matched effects list |
+| Input | 1×¼-inch mono instrument input; manufacturer supports active/passive instruments |
+| Aux input | 1×⅛-inch/3.5mm stereo aux |
+| Output/headphones | 1×¼-inch stereo output, **shared line/headphones**; not separate line and headphone sockets |
+| Other connections | USB for firmware updates and bus power; DC input. USB connector subtype **?** in checked text; no MIDI DIN, microphone input or FX loop listed |
+| Power | **4 AA alkaline/NiMH**, optional **9V centre-negative500mA AD-16** adapter, or **USB bus power**.500mA is the specified adapter rating, not a measured device draw |
+| Battery runtime | Manufacturer approximately20h alkaline claim; conditions and current battery health matter |
+| IR loading | Factory amp modeling documented; third-party IR import **not established** |
+| NAM / captures | Native NAM, NAM conversion and proprietary user capture import **not established** |
+| Config apps | Official **Windows/macOS firmware updater** links. A full editor or mobile app is **not established**; do not copy B1X FOUR Guitar Lab support to B1Xon |
+| USB audio | **Not established**; the official USB specification lists updating and power, not recording |
+| Practice/live | **30s /64-beat looper**, **68 rhythms**, chromatic tuner, autosave and silent preset preselection |
+| Used IDR | **?** — no freshly verified public offer obtained |
+| New IDR | **?** — no freshly verified public offer obtained; current manufacturer page labels this discontinued |
+
+### Primary sources and firmware context
+
+- [Manufacturer retained B1Xon page, specifications and software links](https://www.zoom.co.jp/node/62):105 effects,100 memories, ports, power, dimensions and practical features.
+- [Current manufacturer B1Xon product entry](https://zoomcorp.com/en/jp/multi-effects/bass-effects/b1xon/): discontinued status and distinct model identity.
+
+The retained page links system version1.30 and a separate effects list. A retailer's older80-effect figure must not replace the manufacturer's105-effect library without firmware context. The owner's installed firmware was not inspected. The linked PDF manuals/effect list were not analysed in this pass; no claim of a complete per-category transcription is made.
+
+### Next verification
+
+Inspect the matching control/effect-list manual for control counts, screen mode, synth choices and effect subtotals; verify any third-party editor independently. Obtain condition-specific Indonesian used/new offers. The exact model remains in owner coverage even if no current Shopee item can be fetched. **Next owned-model addition: original JOYO GEM BOX.**
+<!-- B1Xon preserved source ends -->
+
+The owned-model summary adds no conflicting B1Xon specification or price. Source documents remain available at [original finding](effects/findings/2026-10-14-zoom-b1xon.md) and [owned-model comparison](effects/owned-multifx.md); existing incoming links remain valid. Current next work is in [research-state.json](research-state.json).

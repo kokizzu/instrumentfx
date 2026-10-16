@@ -59,3 +59,7 @@ research-source-gs1000:
 .PHONY: research-commit-gs1000
 research-commit-gs1000:
 	python3 scripts/research_tools.py commit-gs1000
+
+.PHONY: research-commit-b1xon
+research-commit-b1xon:
+	python3 scripts/research_tools.py commit-b1xon

@@ -367,7 +367,7 @@ GROUPS = {
     'controls': r'k/f/b|knob|rotary|footswitch|buttons|^controls|physical controls|expression.*controls',
     'display': r'display|screen|diagonal|monochrome|touch',
     'body': r'dimension|width|w×|weight|body|size|mass|^physical$',
-    'processing': r'processing|architecture|block|categor|choice|library|^modules|factory amps|efx|^effects',
+    'processing': r'processing|simultaneous|architecture|block|categor|choice|library|^modules|factory amps|efx|^effects',
     'memory': r'memory|preset|storage',
     'sound': r'synth|acoustic|harmony|special sound|^sound',
     'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary|conversion',
