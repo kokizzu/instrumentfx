@@ -1343,3 +1343,7 @@ research-commit-505ii:
 .PHONY: research-commit-ms50gplus
 research-commit-ms50gplus:
 	python3 scripts/research_tools.py commit-ms50gplus
+
+.PHONY: research-commit-g5
+research-commit-g5:
+	python3 scripts/research_tools.py commit-g5
