@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shared legacy comparison source audit",
-    "task": "Compact source prose/URL/model-row union passes, but 22 incoming file-link occurrences remain and source is retained. Audit complete guitar-floorboards/shared sources next, preserving dates, references, revision conflicts and all model fields. Fresh Shopee discovery and unresolved technical verification remain required.",
+    "model": "Sonicake Matribox II Pro shared floorboard audit",
+    "task": "Read complete Pro root section against floorboard source; preserve/hash-check its three model rows, MIDI contradiction, firmware/update/preset limitations and source links. Then audit shared prose/reference union and incoming links. Fresh Shopee discovery and remaining technical gaps still required.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10324,6 +10324,118 @@
       "link_normalizations": {},
       "retained_comparison_facts": [],
       "scope": "Complete original including exact knob list, translated terminology conflicts, physical and battery revision differences, manual fetch limitations and dated sold-out/retail Shopee asks. No fresh specification or stock verification."
+    },
+    {
+      "models": [
+        "Sonicake Matribox II QME-100"
+      ],
+      "model_name": "Matribox II QME-100",
+      "brand": "Sonicake",
+      "source_model_aliases": [
+        "Matribox II"
+      ],
+      "destination": "SONICAKE.md#matribox-ii-qme-100",
+      "source": "effects/guitar-floorboards.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "source_sha256": "da7a4cecc79f01e332c524570eb53e061722b6eac55b86455993c95c6cc043e4",
+      "retained_comparison_facts": [
+        {
+          "field": "K/F/B",
+          "value": "5/3/? [manual panel]",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "W×D×H, mm; weight",
+          "value": "276×164×55.8; 1.54 kg",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Medium",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "Used USD",
+          "value": "?",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "New USD observation",
+          "value": "$229.99, official shop",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "Simultaneous processing; categories / choices",
+          "value": "10 movable modules; 63 amps, 61 cabs, 93+ pedal effects",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "Preset storage",
+          "value": "198 total /99 factory-filled",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Acoustic-related models advertised; precise simulator/synth algorithms ?",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "Third-party IR",
+          "value": "15 user slots",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "NAM",
+          "value": "Current desktop workflow advertises **NAM A2**; architecture/conversion limits need matching release notes",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "Audio/control ports",
+          "value": "¼″ TS input; 2×¼″ balanced TRS out; mono TS FX loop; 3.5 mm aux/phones; EXP/FS; 3.5 mm TRS MIDI IN/OUT; USB-C",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Connections, power, applications and live use"
+        },
+        {
+          "field": "Power / battery / USB-powered",
+          "value": "**9V/1000mA centre-negative**; battery/USB bus operation not established",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Connections, power, applications and live use"
+        },
+        {
+          "field": "Configuration apps",
+          "value": "Full editor **Windows/macOS**; USB audio Windows/macOS/iOS/Android",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Connections, power, applications and live use"
+        },
+        {
+          "field": "Other practical features",
+          "value": "90 s looper; 100 rhythms; loopback/reamp; matching 1.3.0 firmware/editor at checking",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Connections, power, applications and live use"
+        }
+      ],
+      "retained_context": [
+        "Checked **2026-10-14**. This page adds three larger processors; the linked brand pages contain the other researched floorboards. **Partial records**: `?` is unverified, not No. Dimensions are **width × depth × height, mm**. A built-in pedal does not establish an external-expression socket; both are recorded separately.",
+        "All three have built-in expression and documented external expression/footswitch support. K/F/B = rotary controls / main footswitches / separate buttons; expression toe switches and power switches are separate.",
+        "New prices are individual official-store observations checked **2026-10-14**, not used-to-new market ranges or Indonesian delivered prices. Matribox II Pro dimensions are intentionally not copied from an unverified reseller listing.",
+        "- [Matribox II official manual, firmware 1.3.0](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623), panel diagrams and printed p.45 specifications, visually checked. A pair of balanced mono TRS outputs is not a single stereo TRS headphone socket."
+      ],
+      "retained_source_urls": [
+        "https://www.sonicake.com/products/matribox-ii",
+        "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623"
+      ],
+      "scope": "All three exact shared model rows, original date/context and manual source retained. No legacy retirement or new technical/stock verification."
     }
   ],
   "discovery_leads": [
@@ -14506,6 +14618,21 @@
         "unregistered_files": [],
         "limitation": "Full-body finding coverage does not certify shared comparison sources or incoming links; no source retirement authorized."
       }
+    },
+    "shared_floorboard_audit": {
+      "date": "2026-10-17",
+      "source": "effects/guitar-floorboards.md",
+      "source_sha256": "da7a4cecc79f01e332c524570eb53e061722b6eac55b86455993c95c6cc043e4",
+      "complete_source_read": true,
+      "verified_models": [
+        "Valeton GP-200",
+        "Sonicake Matribox II QME-100"
+      ],
+      "pending_models": [
+        "Sonicake Matribox II Pro QME-200"
+      ],
+      "remaining_work": "Matribox II Pro row/context preservation, full prose/reference union and incoming links remain. GP-200 existing manifest already covers all 14 fields and its four context groups.",
+      "source_retired": false
     }
   },
   "deferred_work": {

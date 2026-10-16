@@ -109,6 +109,7 @@ def verify_preserved(state):
             section = text.split('\n## ' + model + '\n', 1)[1].split('\n## ', 1)[0]
             actual = []
             aliases = {comparison_views.norm(model), comparison_views.norm(entry.get('brand', 'Zoom')+' '+model)}
+            aliases.update(comparison_views.norm(a) for a in entry.get('source_model_aliases', []))
             for headers, rows, context in comparison_views.tables(source):
                 for row in rows:
                     if comparison_views.norm(row[0]) in aliases:

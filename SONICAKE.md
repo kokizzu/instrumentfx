@@ -276,6 +276,8 @@ Explicit touch support, active used-price evidence and remaining algorithm/prese
 
 ## Matribox II QME-100
 
+<!-- comparison evidence begins -->
+
 **Existing review2026-10-14.**
 
 | Field | Preserved finding / uncertainty |
@@ -291,6 +293,35 @@ Explicit touch support, active used-price evidence and remaining algorithm/prese
 | IDR | Used/new current model-specific qualified quotes not established in the original technical page. Historical Shopee discoveries need separate recheck;do not relabel foreign price. |
 
 Sources: [official model](https://www.sonicake.com/products/matribox-ii); [firmware1.3.0 original manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623). Original review visually checked panels and printed p.45 specifications;this consolidation is not a fresh image inspection. Earlier official-store **USD229.99** retained as2026-10-14 foreign provenance,excluding destination tax/shipping.
+
+<!-- comparison evidence ends -->
+
+### Matribox II shared floorboard provenance
+
+The following retains the 2026-10-14 shared snapshot. Manual-panel shorthand below refers to the linked firmware-1.3.0 manufacturer manual. It adds no new stock, firmware or architecture verification.
+
+Checked **2026-10-14**. This page adds three larger processors; the linked brand pages contain the other researched floorboards. **Partial records**: `?` is unverified, not No. Dimensions are **width × depth × height, mm**. A built-in pedal does not establish an external-expression socket; both are recorded separately.
+
+All three have built-in expression and documented external expression/footswitch support. K/F/B = rotary controls / main footswitches / separate buttons; expression toe switches and power switches are separate.
+
+New prices are individual official-store observations checked **2026-10-14**, not used-to-new market ranges or Indonesian delivered prices. Matribox II Pro dimensions are intentionally not copied from an unverified reseller listing.
+
+- [Matribox II official manual, firmware 1.3.0](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623), panel diagrams and printed p.45 specifications, visually checked. A pair of balanced mono TRS outputs is not a single stereo TRS headphone socket.
+
+- **K/F/B** (Hardware and expression): 5/3/? [manual panel]
+- **W×D×H, mm; weight** (Hardware and expression): 276×164×55.8; 1.54 kg
+- **Size class** (Hardware and expression): Medium
+- **Used USD** (Hardware and expression): ?
+- **New USD observation** (Hardware and expression): $229.99, official shop
+- **Simultaneous processing; categories / choices** (Processing and memory): 10 movable modules; 63 amps, 61 cabs, 93+ pedal effects
+- **Preset storage** (Processing and memory): 198 total /99 factory-filled
+- **Synth / acoustic** (Processing and memory): Acoustic-related models advertised; precise simulator/synth algorithms ?
+- **Third-party IR** (Processing and memory): 15 user slots
+- **NAM** (Processing and memory): Current desktop workflow advertises **NAM A2**; architecture/conversion limits need matching release notes
+- **Audio/control ports** (Connections, power, applications and live use): ¼″ TS input; 2×¼″ balanced TRS out; mono TS FX loop; 3.5 mm aux/phones; EXP/FS; 3.5 mm TRS MIDI IN/OUT; USB-C
+- **Power / battery / USB-powered** (Connections, power, applications and live use): **9V/1000mA centre-negative**; battery/USB bus operation not established
+- **Configuration apps** (Connections, power, applications and live use): Full editor **Windows/macOS**; USB audio Windows/macOS/iOS/Android
+- **Other practical features** (Connections, power, applications and live use): 90 s looper; 100 rhythms; loopback/reamp; matching 1.3.0 firmware/editor at checking
 
 ## Matribox II Pro QME-200
 

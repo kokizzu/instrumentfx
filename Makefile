@@ -775,3 +775,7 @@ consolidation-audit-compact-union:
 	python3 scripts/consolidation_tools.py audit-compact-union
 research-commit-compact-union:
 	python3 scripts/research_tools.py commit-compact-union
+
+.PHONY: research-commit-floorboard-matribox-ii
+research-commit-floorboard-matribox-ii:
+	python3 scripts/research_tools.py commit-floorboard-matribox-ii
