@@ -435,14 +435,14 @@ Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in/external/toe expression unverified. Switch-3/6 remote supported;continuous expression not established. | [Manual p13][PVG-M] |
-| K/F/B | Separate knob/footswitch/button counts unverified;do not transfer V/VK counts. | Unresolved |
+| K/F/B | **1 / 0 / 14**,text-derived from indexed manual panel:central knob;SET,Tone,Anti-Feedback,BodyRez,48V;vocal Harmony/Reverb/Echo;guitar Chorus/Reverb/Echo;Headphone,Tap,MIX. External switches separate. Screenshot failed;independent visual confirmation pending. | [Manual p9 panel][PVG-PANEL];[official control description p5][PVG-O] |
 | Display | Segmented colored LED ring used for effect level/style;screen diagonal,color-LCD/touch unverified. | [Manual p6][PVG-M] |
 | Dimensions / mass | Unverified. | Unresolved |
 | Processing / category choices | Vocal Harmony/Reverb/Echo,Adaptive Tone EQ/de-essing/gate/compression,pitch correction,anti-feedback. Guitar BodyRez,Chorus,Echo,Reverb. Reverb style shared across voice/guitar,levels separate;echo styles/levels independent. **13 Harmony choices;3 each Reverb/Echo/Chorus;8 Tone styles** listed below. Full simultaneous accounting pending. | [Official manual p4][PVG-O];[manufacturer-authored Rev1.0 pp5–6][PVG-M] |
 | Factory / user memory | Total/user/factory preset accounting unverified;do not transfer V/VK three-preset behavior. | Unresolved |
 | Synth / acoustic | BodyRez treats acoustic pickup sound;not proof of electric-to-acoustic simulation. Instrument synth and dedicated acoustic simulation unverified. | [Manual p4][PVG-O] |
 | I/O | Guitar IN/THRU,MIC OUT and headphones documented;full connector inventory pending. | [Manual p4][PVG-O] |
-| Power / battery / USB | Voltage,current,polarity,battery and USB power unverified. | Unresolved |
+| Power / battery / USB | Official QSG diagram labels supply **12V1A**;supply rating is not measured current draw. DC/polarity,battery and USB power unverified. | [Official QSG v3.0 pp14–15][PVG-Q] |
 | IR / NAM / capture | IR,native/converted NAM and capture import unverified. | Unresolved |
 | Editor / software | Full editor/platforms,USB audio/MIDI and update utilities unverified;do not inherit VK interface. | Unresolved |
 | Looper / drums / live | Guitar THRU initially mutes guitar in processor mix but retains chord detection. MIX guitar-level adjustment restores guitar to MIC OUT while retaining THRU;replug THRU or Guitar IN re-mutes. Anti-feedback filtering is mic-only;guitar phase invert is separate. Unit Talk/Tuner bypasses vocal effects except Tone and mutes guitar;mic-control Talk leaves guitar active without tuner. MIX held5s locks/mutes but preserves AUX playback. Guitar takes chord-detection priority over AUX. AUX exclusion and alternate top-level knob assignments reset with power;details below. Looper/drums/scenes/trails unverified;controller labels alone prove none. | [Official manual p4][PVG-O];[Manual pp11–14][PVG-M] |
@@ -484,3 +484,10 @@ Default rotary function is main output level. Startup Harmony/Headphone/MIX sele
 Hold Headphone while inserting the1/8-inch AUX cable to exclude AUX from main output;replug or power resets exclusion. Guitar outranks AUX for chord detection.
 
 A remote harmony-style switch turns its style on when harmony is off,toggles off when pressed again,or changes style while remaining on when a different assigned switch is pressed. Footswitch reassignment excludes SET,48V,Headphone Level andLock/Mute;Talk is assignable. These style switches do not establish simultaneous extra harmony blocks. [Rev1.0 manual pp13–14][PVG-M].
+
+### Current quick-guide evidence
+
+Official QSG v3.0,2024copyright,direct PDF opened2026-10-17;supersedes earlier direct-access failure for this source only. Its setup diagram supplies the12V1A label,and THRU/mix wording agrees with the detailed manual. The setup instructions show loud singing and a flashing SET completion indicator;Rev1.0 user manual p4 instead says normal singing and SET turns red. Preserve revision-specific setup wording;do not infer hardware change. PDF panel screenshot failed,so control inventory remains explicitly text-derived.
+
+[PVG-Q]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DED/QSG_TH_0726-ABR_PERFORM-VG_WW.pdf
+[PVG-PANEL]: https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd.pdf

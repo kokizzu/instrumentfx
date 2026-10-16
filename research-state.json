@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-VG primary follow-up",
-    "task": "PERFORM-VG volatile rotary assignments,AUX exclusion/chordpriority andharmony-style remote behavior saved. Next verify full controls/connector inventory,power/dimensions,memory andUSB. Indexedmanualp9 provides panel labels;count explicitly with qualification. Commit before freshShopeediscovery.",
+    "task": "PERFORM-VG textderived1/0/14 andofficialQSGv3.0 12V1Asupplylabel saved;gain setup wording conflict retained. Next resolve physicalports,memory,USBsoftware anddimensions/power;no sibling assumptions. Commit before freshShopeediscovery.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -3039,6 +3039,25 @@
           "Presetmemoryaccounting",
           "USBeditorimports",
           "Fullsimultaneousprocessing"
+        ]
+      },
+      "controls_power_followup": {
+        "checked_date": "2026-10-17",
+        "sources": [
+          "https://mediadl.musictribe.com/media/PLM/data/docs/P0DED/QSG_TH_0726-ABR_PERFORM-VG_WW.pdf",
+          "https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd.pdf"
+        ],
+        "resolved": [
+          "Textderived1knob/0footswitch/14buttonswithinventory",
+          "OfficialQSG12V1Asupplylabelnotdraw"
+        ],
+        "identity": "QSGv3.0/2024directopened;manualRev1.0p9indexedpanel;PDFscreenshotfailed",
+        "conflict": "QSG loudsinging/flashingSET vsRev1.0normal singing/redSET",
+        "remaining": [
+          "Fullports/polarityDCactualdrawbatteryUSBpower",
+          "Dimensionsmass",
+          "MemoryUSBsoftwareimports",
+          "Independentvisualcontrolcount"
         ]
       }
     }
