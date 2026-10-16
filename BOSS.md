@@ -756,3 +756,129 @@ Checked **2026-10-16**; cached exact hardware bodies, not live checkout/stock. N
 [GX10-PC]: https://static.roland.com/manuals/gx-10_reference/en-US/7392897194721035.html
 [GX10-P]: https://www.boss.info/global/products/gx-10/
 
+
+## GT-1
+
+Consolidated and refreshed **2026-10-16**; partial technical verification. Original dates, prices and limitations remain below. Historical next-model notes are provenance; use research-state.json for the current queue.
+
+<!-- BOSS-GT-1 source begins -->
+
+Checked **2026-10-15**. Existing [BOSS comparison](effects/guitar-boss.md) model; this finding adds no inventory count.
+
+### Display
+
+The [manufacturer specification](https://www.boss.info/global/products/gt-1/) identifies a **132×32-dot backlit graphic LCD**. The [official front photograph](https://static.roland.com/assets/images/products/main/gt-1_main.jpg) successfully rendered and shows a **monochrome readout**; blue footswitch trim does not make it a color screen. **Diagonal is not published in the inspected source**. Explicit touchscreen hardware specification remains unverified/no touch interface documented; it is not inferred from the button layout.
+
+The same primary specification rechecks **3 knobs,3 footswitches,12 buttons**,99 user+99 factory presets,108 effect types and32-second looper. It lists fourAA batteries or a separately sold PSA adapter, not USB bus power. These scoped checks preserve the earlier record rather than re-certifying every algorithm.
+
+### IDR evidence
+
+| Condition / channel | Amount | Source and limitation |
+|---|---:|---|
+| Shopee retail | **Rp4.000.000** | [Eleven Music,shop12356205/item23161745476](https://shopee.co.id/Boss-GT-1-Guitar-Multi-Effects-Pedal-BOSS-GT1-Original-i.12356205.23161745476); indexed hardware offer, checkout/condition detail unverified |
+| Separate retail | **Rp4.000.000** | [CH MUSIC,shop195817632/item22261754122](https://shopee.co.id/BOSS-GT-1-Guitar-Effects-Processor-Efek-Pedal-Gitar-BOSS-GT1-i.195817632.22261754122) |
+| Used, seller says like new | **Rp2.500.000 — old profile-listed ask** | [Carousell seller profile](https://id.carousell.com/u/doyox666/) explicitly lists GT-1,item1317082740,condition Seperti baru; about2-year-old listing. Exact item reopening failed, so not confirmed active |
+| Historical retail | **Rp3.530.000 — SOLD OUT** | [GH MUSIC,shop71552895/item23582874470](https://shopee.co.id/BOSS-GT-1-Guitar-Effects-Processor-Efek-Pedal-Gitar-Digital-GT1-i.71552895.23582874470) |
+
+An adapter bundle is a different offer from a bare processor. Mixed GT-1/GX-1 titles and an OLX result with unverified individual condition were not used as per-model price bounds. The used profile is evidence of an asking price, not a completed sale or guaranteed purchasable unit. Seller authenticity, shipping, warranty, selected accessories and firmware remain unverified.
+
+Old USD offers remain historical provenance. Remaining: manufacturer-published diagonal, explicit touch specification and fuller technical/price verification. **Next existing model: GX-1.**
+<!-- BOSS-GT-1 source ends -->
+
+### GT-1 — supporting comparison facts
+
+| Required field | Retained observation |
+|---|---|
+| Screen type and resolution | Backlit graphic LCD,132×32 |
+| Published diagonal | ? |
+| Monochrome / color evidence | **Monochrome** readout in successfully inspected official photograph |
+| Touchscreen | ?; no touch interface documented |
+| Size | Large; discontinued in earlier source |
+| Built-in / external expression | Yes+toe /1 shared CTL/EXP |
+| K/F/B | 3/3/12 |
+| Dimensions / pedal-up maximum | 305×152×56 /74H |
+| Weight | 1.3kg including batteries |
+| Used IDR | **Rp2.500.000**, old Carousell profile-listed like-new ask; exact item reopening failed |
+| Shopee retail evidence | **Rp4.000.000**, Eleven Music /separate CH MUSIC |
+| Separate local-retailer / historical context | GH MUSIC **Rp3.530.000 SOLD OUT**; used ask is not confirmed active stock |
+| Simultaneous architecture / library | Maximum simultaneous count ?;FX1/COMP,OD/DS,preamp,FX2/MOD,delay,reverb plus pedal/utilities;108types |
+| Factory / user memory | 99P+99U |
+| Synth / acoustic functions | **Acoustic Simulator yes**;synth ? |
+| User IR / NAM | Third-party IR/NAM loading not established |
+| Audio / controller ports | Mono1/4-inch in,stereoout;3.5mm aux/phones;CTL/EXP;USB-B |
+| Power and USB operation | 4AA or separately sold PSA adapter;200mA;USB bus operation not listed |
+| Configuration | ToneStudio Windows/macOS |
+| Additional features | USB audio;32slooper |
+| Follow-up commit | `a0e364d94b9b6da402b01aea5cfe71cd6f0c7d14` |
+
+### GT-1 — original USD and technical provenance
+
+Research date **2026-10-14**. Technical sources are the linked manufacturer's specifications, including current firmware-dependent figures. **Partial records**: `?` means unverified. Dimensions are **W × D × H in mm**; `/max` gives the maximum height with the pedal raised. `K/F/B` = rotary controls / footswitches / separate buttons, excluding the expression toe switch and rear power/mode switches. Price columns are **USD US-market listed/asking observations**, not statistically estimated fair values; see sources below.
+
+Model totals have different inclusion rules. ME-90's selectable alternatives are not all simultaneously present on its panel. A missing NAM claim is not converted into a definitive “No” without model/firmware documentation.
+
+Price retrieval date: **2026-10-14**. Indexed older listings are explicitly less reliable than current, purchasable offers. No guarantee of stock, local Indonesian pricing, delivery cost or completed-sale value.
+
+
+| Required field | Original 2026-10-14 observation |
+|---|---|
+| Size class | Large under this filter; discontinued |
+| Built-in / external EXP | Yes + toe / 1 shared CTL/EXP |
+| K/F/B | 3/3/12 |
+| Dimensions | 305×152×56/max74 |
+| Weight | 1.3 kg incl. batteries |
+| Used USD | $119.99, Good [U1] |
+| New USD | ?; verify old stock |
+| Simultaneous blocks; categories / model choices | Maximum ?; FX1/COMP, OD/DS, preamp, FX2/MOD, delay, reverb plus pedal/utility processing; 108 types |
+| Factory / user memory | 99 P + 99 U |
+| Synth / acoustic simulator | **Acoustic Simulator yes**; synth ? |
+| User IR | No third-party loader established |
+| NAM | Not established |
+| Physical audio/control ports | Mono ¼″ in, stereo ¼″ out; 3.5 mm aux/phones; CTL/EXP; USB-B |
+| Power; USB-powered? | 4 AA or PSA adapter; 200 mA; USB bus operation not listed |
+| Configuration apps | Tone Studio Windows/macOS |
+| Other practical features | USB audio; 32 s looper; discontinued status documented |
+
+U1: Guitar Center used USD119.99, Good, checked2026-10-14. New unknown; old stock requires checking. Asking evidence, not sold-price statistics or IDR. Adapter bundles and open-box separate.
+
+[Historical source](https://www.boss.info/global/products/gt-1/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc)
+
+Original sources remain unchanged: [follow-up](effects/findings/2026-10-15-boss-gt1-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+
+### GT-1 — current comparison evidence
+
+Checked **2026-10-16**. [Manufacturer page](https://www.boss.info/global/products/gt-1/) marks discontinued; this does not establish every seller lacks old stock.
+
+<!-- comparison evidence begins -->
+
+| Required field | Current evidence and limits |
+|---|---|
+| Expression | Built-in pedal and toe switch; one shared CTL2,3/EXP2 socket for external expression or switches. [GT1-M] |
+| K/F/B | **3 /3 /12**; expression toe separate. Input insertion switches power on. [GT1-P], [GT1-M] |
+| Display | **132×32 backlit graphic LCD**; monochrome appearance from previously inspected official photograph. Published diagonal and explicit touch specification remain unverified. [GT1-P] |
+| Dimensions / weight / size | **305×152×56 mm**, maximum height74 mm; **1.3 kg including batteries**. Large under repository width filter. [GT1-P] |
+| Simultaneous processing / category choices | FX1,OD/DS,PREAMP,FX2,DELAY,REVERB plus pedal/utilities; **108 types**, not108 simultaneous blocks. FX1 and FX2 can select the same effect. Complete category counts and a manufacturer-stated simultaneous ceiling remain unresolved. [GT1-P], [GT1-G] |
+| Factory / user / total memory | **99 preset +99 user =198**. [GT1-P] |
+| Synth / acoustic | **AC.GUITAR SIMULATOR**, pickup/body GUITAR SIMULATOR and **AC.PROCESSOR** for electro-acoustic pickups. OVERTONE adds harmonics; this does not prove a general synth engine. [GT1-G] |
+| IR / NAM / capture | No third-party IR loader, native NAM, converted NAM or proprietary capture import established. Factory speaker simulations are distinct from user IR import. |
+| Audio / control I/O | Mono quarter-inch input; stereo quarter-inch outputs;3.5 mm stereo AUX and PHONES; shared TRS CTL/EXP;USB-B;DC. No loop or physical MIDI connector listed. [GT1-P] |
+| Power / battery / USB power | Four alkaline AA or separately sold PSA adapter; **200 mA draw**, about **7 h** alkaline runtime. DC voltage/polarity and USB-powered operation remain unverified. [GT1-P] |
+| Editor / USB / platforms | Tone Studio Windows/macOS; dedicated USB driver required for computer audio. USB diagram sends effected audio to computer and mixes computer return after the chain. Direct monitor resets ON at power-up. USB reamp is not established by that diagram. Mobile editor, channels and bit depth unresolved. [GT1-M], [GT1-G] |
+| Looper / routing / live use | **32 s mono**, overdub; recordings lost when looper or power is switched off. Looper overrides stored CTL1 assignments. Effect order editable; detailed routing, drums/scenes unestablished. [GT1-M], [GT1-G] |
+
+### GT-1 — separate IDR evidence
+
+Exact Shopee hardware bodies reopened2026-10-16; cached relative delivery is not live checkout/stock. Retail-style does not confirm new condition. Bundle/adapter, warranty region, shipping/tax and seller affiliation unverified. Late-delivery vouchers are compensation, not purchase-price discounts.
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used, historical / Carousell doyox666 | **Rp2.500.000**, seller-labelled Seperti baru, item1317082740, about2-year-old profile observation checked2026-10-15. Profile reopen failed2026-10-16; exact item already failed earlier. Not current stock or a completed sale. | [Historical profile](https://id.carousell.com/u/doyox666/) |
+| Retail-style / Eleven Music,Jakarta Pusat | **Rp4.100.000**; same-day delivery before10:00 in cached body. EarlierRp4.000.000 retained above; not merged into a current range. No Habis displayed in retrieved body, not stock proof. | [12356205 /23161745476](https://shopee.co.id/Boss-GT-1-Guitar-Multi-Effects-Pedal-BOSS-GT1-Original-i.12356205.23161745476) |
+| Retail-style / CH MUSIC,Jakarta Pusat | **Rp4.000.000**; cached same-day delivery before10:00. Condition/bundle/current stock unverified. | [195817632 /22261754122](https://shopee.co.id/BOSS-GT-1-Guitar-Effects-Processor-Efek-Pedal-Gitar-BOSS-GT1-i.195817632.22261754122) |
+| Retail-style sold out / GH MUSIC STORE,Tangerang Selatan | **Rp3.530.000,Habis**; cached same-day delivery before09:00 does not override sold-out label. | [71552895 /23582874470](https://shopee.co.id/BOSS-GT-1-Guitar-Effects-Processor-Efek-Pedal-Gitar-Digital-GT1-i.71552895.23582874470) |
+
+<!-- comparison evidence ends -->
+
+[GT1-P]: https://www.boss.info/global/products/gt-1/
+[GT1-M]: https://static.roland.com/assets/media/pdf/GT-1_eng03_W.pdf
+[GT1-G]: https://static.roland.com/assets/media/pdf/GT-1_parameter_eng02_W.pdf

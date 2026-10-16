@@ -7,8 +7,8 @@
   "active_model_count": 124,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 75,
-  "legacy_only_model_count": 49,
+  "canonical_root_model_count": 76,
+  "legacy_only_model_count": 48,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,17 +28,16 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-1",
+    "model": "BOSS GX-1",
     "destination": "BOSS.md",
     "task": "Read complete individual finding,current and historical BOSS comparisons;verify manufacturer/exact Shopee evidence;lossless root consolidation and commit before next.",
     "next_models": [
-      "BOSS GX-1",
       "BOSS ME-90",
       "BOSS GX-100",
       "BOSS GT-1000",
       "BOSS GM-800"
     ],
-    "after_queue": "Continue49 legacy-only models and unresolved fields;fresh Shopee discovery required."
+    "after_queue": "Continue48 legacy-only models and unresolved fields;fresh Shopee discovery required."
   },
   "new_findings": [
     {
@@ -2886,7 +2885,268 @@
         "https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122596708.gc",
         "https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122413069.gc"
       ],
-      "status": "Complete original body/current and historical rows preserved;IR16/formats,acoustics/DSP limits/USB/loop verified;three exact IDR refreshes,Redcachemiss;partial."
+      "status": "Complete original body/current and historical rows preserved;IR16/formats,acoustics/DSP limits/USB/loop verified;three exact IDR refreshes,Redcachemiss;partial.",
+      "commit": "813e3d3"
+    },
+    {
+      "models": [
+        "BOSS GT-1"
+      ],
+      "model_name": "GT-1",
+      "brand": "BOSS",
+      "destination": "BOSS.md#gt-1",
+      "source": "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "BOSS-GT-1",
+      "source_sha256": "2483d8b170b65dc9f3c95286b3827ce2598178b2a16e7994d722499873b47b41",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../guitar-boss.md)": "(effects/guitar-boss.md)"
+      },
+      "retained_comparison_facts": [
+        {
+          "field": "Screen type and resolution",
+          "value": "Backlit graphic LCD,132×32",
+          "source": "effects/guitar-boss.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Published diagonal",
+          "value": "?",
+          "source": "effects/guitar-boss.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Monochrome / color evidence",
+          "value": "**Monochrome** readout in successfully inspected official photograph",
+          "source": "effects/guitar-boss.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?; no touch interface documented",
+          "source": "effects/guitar-boss.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Size",
+          "value": "Large; discontinued in earlier source",
+          "source": "effects/guitar-boss.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Built-in / external expression",
+          "value": "Yes+toe /1 shared CTL/EXP",
+          "source": "effects/guitar-boss.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "3/3/12",
+          "source": "effects/guitar-boss.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Dimensions / pedal-up maximum",
+          "value": "305×152×56 /74H",
+          "source": "effects/guitar-boss.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Weight",
+          "value": "1.3kg including batteries",
+          "source": "effects/guitar-boss.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "**Rp2.500.000**, old Carousell profile-listed like-new ask; exact item reopening failed",
+          "source": "effects/guitar-boss.md",
+          "context": "3. Used and retail IDR evidence"
+        },
+        {
+          "field": "Shopee retail evidence",
+          "value": "**Rp4.000.000**, Eleven Music /separate CH MUSIC",
+          "source": "effects/guitar-boss.md",
+          "context": "3. Used and retail IDR evidence"
+        },
+        {
+          "field": "Separate local-retailer / historical context",
+          "value": "GH MUSIC **Rp3.530.000 SOLD OUT**; used ask is not confirmed active stock",
+          "source": "effects/guitar-boss.md",
+          "context": "3. Used and retail IDR evidence"
+        },
+        {
+          "field": "Simultaneous architecture / library",
+          "value": "Maximum simultaneous count ?;FX1/COMP,OD/DS,preamp,FX2/MOD,delay,reverb plus pedal/utilities;108types",
+          "source": "effects/guitar-boss.md",
+          "context": "4. Processing, memory, IR and sound functions"
+        },
+        {
+          "field": "Factory / user memory",
+          "value": "99P+99U",
+          "source": "effects/guitar-boss.md",
+          "context": "4. Processing, memory, IR and sound functions"
+        },
+        {
+          "field": "Synth / acoustic functions",
+          "value": "**Acoustic Simulator yes**;synth ?",
+          "source": "effects/guitar-boss.md",
+          "context": "4. Processing, memory, IR and sound functions"
+        },
+        {
+          "field": "User IR / NAM",
+          "value": "Third-party IR/NAM loading not established",
+          "source": "effects/guitar-boss.md",
+          "context": "4. Processing, memory, IR and sound functions"
+        },
+        {
+          "field": "Audio / controller ports",
+          "value": "Mono1/4-inch in,stereoout;3.5mm aux/phones;CTL/EXP;USB-B",
+          "source": "effects/guitar-boss.md",
+          "context": "5. Connections, power and applications"
+        },
+        {
+          "field": "Power and USB operation",
+          "value": "4AA or separately sold PSA adapter;200mA;USB bus operation not listed",
+          "source": "effects/guitar-boss.md",
+          "context": "5. Connections, power and applications"
+        },
+        {
+          "field": "Configuration",
+          "value": "ToneStudio Windows/macOS",
+          "source": "effects/guitar-boss.md",
+          "context": "5. Connections, power and applications"
+        },
+        {
+          "field": "Additional features",
+          "value": "USB audio;32slooper",
+          "source": "effects/guitar-boss.md",
+          "context": "5. Connections, power and applications"
+        },
+        {
+          "field": "Follow-up commit",
+          "value": "`a0e364d94b9b6da402b01aea5cfe71cd6f0c7d14`",
+          "source": "effects/guitar-boss.md",
+          "context": "6. Sources and individual follow-up commits"
+        },
+        {
+          "field": "Size class",
+          "value": "Large under this filter; discontinued",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Built-in / external EXP",
+          "value": "Yes + toe / 1 shared CTL/EXP",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "K/F/B",
+          "value": "3/3/12",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Dimensions",
+          "value": "305×152×56/max74",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Weight",
+          "value": "1.3 kg incl. batteries",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Used USD",
+          "value": "$119.99, Good [U1]",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "New USD",
+          "value": "?; verify old stock",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Simultaneous blocks; categories / model choices",
+          "value": "Maximum ?; FX1/COMP, OD/DS, preamp, FX2/MOD, delay, reverb plus pedal/utility processing; 108 types",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Factory / user memory",
+          "value": "99 P + 99 U",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Synth / acoustic simulator",
+          "value": "**Acoustic Simulator yes**; synth ?",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "User IR",
+          "value": "No third-party loader established",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "NAM",
+          "value": "Not established",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Physical audio/control ports",
+          "value": "Mono ¼″ in, stereo ¼″ out; 3.5 mm aux/phones; CTL/EXP; USB-B",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Power; USB-powered?",
+          "value": "4 AA or PSA adapter; 200 mA; USB bus operation not listed",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Configuration apps",
+          "value": "Tone Studio Windows/macOS",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        },
+        {
+          "field": "Other practical features",
+          "value": "USB audio; 32 s looper; discontinued status documented",
+          "source": "effects/guitar-boss.history-2026-10-14.md",
+          "context": "Historical comparison 2026-10-14"
+        }
+      ],
+      "supporting_sources": [
+        "effects/guitar-boss.md",
+        "effects/guitar-boss.history-2026-10-14.md"
+      ],
+      "supporting_source_hashes": {
+        "effects/guitar-boss.md": "da4dfa7448436fd3977f9581b721aedfbc255dc9ee68c810508584939eb9005a",
+        "effects/guitar-boss.history-2026-10-14.md": "336a226e00203170c2295beb773cad87c10d034b5beded133d1c51ba39ba24b7"
+      },
+      "retained_context": [
+        "Research date **2026-10-14**. Technical sources are the linked manufacturer's specifications, including current firmware-dependent figures. **Partial records**: `?` means unverified. Dimensions are **W × D × H in mm**; `/max` gives the maximum height with the pedal raised. `K/F/B` = rotary controls / footswitches / separate buttons, excluding the expression toe switch and rear power/mode switches. Price columns are **USD US-market listed/asking observations**, not statistically estimated fair values; see sources below.",
+        "Model totals have different inclusion rules. ME-90's selectable alternatives are not all simultaneously present on its panel. A missing NAM claim is not converted into a definitive “No” without model/firmware documentation.",
+        "Price retrieval date: **2026-10-14**. Indexed older listings are explicitly less reliable than current, purchasable offers. No guarantee of stock, local Indonesian pricing, delivery cost or completed-sale value.\n"
+      ],
+      "retained_source_urls": [
+        "https://www.boss.info/global/products/gt-1/specifications/",
+        "https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc",
+        "https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc"
+      ],
+      "status": "Full original follow-up/current and historical facts preserved;official parameter/owner manuals inspected for acoustic/USB/looper limits;three exact Shopee refreshes;usedprofile reopenfailed;partial."
     }
   ],
   "discovery_leads": [
@@ -3207,7 +3467,8 @@
       "VE-8",
       "VE-20",
       "GT-1000CORE",
-      "GX-10"
+      "GX-10",
+      "GT-1"
     ]
   },
   "instrument_views": {
@@ -3245,7 +3506,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:104 guitar,54 documented bass-capable,17 vocal; full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "49 legacy-only models remain;75 root-canonical. Research/migration incomplete.",
+    "warning": "48 legacy-only models remain;76 root-canonical. Research/migration incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -3315,8 +3576,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 124,
-    "canonical_root_models": 75,
-    "legacy_only_models": 49,
+    "canonical_root_models": 76,
+    "legacy_only_models": 48,
     "guitar_view_models": 104,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -3330,11 +3591,10 @@
     "specialists_segregated": true,
     "workflow_files": 0,
     "last_checks": [
-      "make comparison-test-selection",
+      "make consolidation-verify",
       "make comparison-verify",
       "make research-verify",
-      "make consolidation-verify",
-      "GX-10 four current comparison rows reviewed in guitar/bass;21current and16historical original facts plus entire finding preserved;IR16 and acoustic/USB/loop updates qualified;legacy sources unchanged."
+      "GT-1 four comparison rows reviewed;full follow-up plus21current/16historical fields and original USD/used IDR qualifications preserved;official manual USB/loop/acoustic restrictions checked;three exact Shopee bodies refreshed."
     ],
     "distinct_capability_labels": "IR and NAM remain separate even when both have the identical Not established value; actual B1X comparison checked."
   },
@@ -3349,7 +3609,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Continue BOSS GT-1 complete consolidation and unresolved-field research."
+    "next": "Continue BOSS GX-1 complete consolidation and unresolved-field research."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -3659,10 +3919,9 @@
       ]
     },
     "BOSS::GT-1": {
-      "link": "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+      "link": "BOSS.md#gt-1",
       "source_files": [
-        "effects/findings/2026-10-15-boss-gt1-display-idr.md",
-        "effects/guitar-boss.md"
+        "BOSS.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-15-boss-gt1-display-idr.md"

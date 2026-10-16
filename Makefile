@@ -189,3 +189,7 @@ consolidation-commit-gx-10:
 .PHONY: comparison-test-selection
 comparison-test-selection:
 	python3 scripts/comparison_views.py test-selection
+
+.PHONY: consolidation-commit-gt-1
+consolidation-commit-gt-1:
+	python3 scripts/consolidation_tools.py commit gt-1
