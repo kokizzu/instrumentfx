@@ -213,3 +213,45 @@ Output compensation:A1 UK-style mid-forward open combo,A2 clean US-style open co
 Both footswitches together bypass all effects including NR;holding about1s mutes. Tuner operates in either state;one switch exits without changing program. Tuner calibration resets to440Hz after power loss. EDIT held2s locks VALUE knobs in Program mode.
 
 Lo/Hi controls belong toAMP/DR andstop with that block. ACOUSTIC distortion troubleshooting recommends lower drive/guitar output;it does not establish extra simulation capabilities. Manual p13 confirms62Amp/Drive choices,consistent with44+18. [EFGSJ2 pp5,8–13][SL1G-M].
+
+## StompLab 2G
+
+Guitar multi-effects with built-in expression, distinct from 1G and 2B. Checked 2026-10-17; partial. Ownership and bass suitability unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | **Built-in expression**; external and toe switching unverified. | [VOX German product][SL2G-D] |
+| K/F/B | Separate control counts pending exact manual/panel inventory. | Unresolved |
+| Display | Diagonal, technology, color and touch unverified. | Unresolved |
+| Dimensions / mass | **207×125×64 mm W×D×H; 780 g**. English also prints21.72oz, inconsistent with780g; retain conflict. Medium horizontal footprint. | [VOX English][SL2G-E];[German][SL2G-D] |
+| Processing / category choices | **104** advertised total. Category choices: pedal8, amp44, drive18, cabinet12, modulation9, delay8, reverb3, noise reduction1, plus expression/volume. Not104 simultaneous blocks. Japanese page gives series-wide7–8 simultaneous effects includingNR; exact2G accounting pending manual. German list includes UK T75 absent from English's11-name list under12 heading. | [English][SL2G-E];[German][SL2G-D];[Japanese][SL2G-J] |
+| Factory / user memory | **100 preset +20 user =120**. Initial user fill/write behavior pending. | [VOX German][SL2G-D] |
+| Synth / acoustic | ACOUSTIC in pedal list; dedicated simulation behavior and synth capability unverified. | [VOX German][SL2G-D] |
+| I/O | Mono instrument input; shared stereo OUTPUT/PHONES. Complete inventory/socket sizes pending. | [VOX German][SL2G-D] |
+| Power / battery / USB | **9V DC, approximately200mA;4AA,7.5h alkaline**, optional adapter. Polarity/USB power unverified. English calls battery set included for testing; German excludes batteries: regional bundle conflict. | [VOX German][SL2G-D];[English][SL2G-E] |
+| IR / NAM / capture | UserIR, native/converted NAM and proprietary capture import unverified. | Unresolved |
+| Editor / software | Editor platforms, drivers and USB functions unverified. | Unresolved |
+| Looper / drums / live | Tuner A0–E6, reference438–445Hz. Looper, drums, routing, trails and scenes unverified. | [VOX English][SL2G-E] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; condition not established. | — |
+| New | Unknown; condition not established. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified hardware leads
+
+[maju jaya gallery](https://shopee.co.id/pedal-efek-gitar-multi-effect-digital-VOX-stomplab-2G-i.33360096.27573361035), shop33360096/item27573361035, Kab.Malang: Rp1,725,000, **Habis** in month-old opened cache. Condition, variant, bundle and working state unknown. Search2-month cache omitted stock marker; opened cache supersedes that omission, not live confirmation. Aug19–22 andSep9–10 delivery claims stale.
+
+[SadewaMusikAudio](https://shopee.co.id/EFEK-DIGITAL-VOX-STOMPLAB-2G-MULTIEFEK-STOMP-LAB-IIG-MULTI-EFEK-II-2-G-i.171167271.23686028621), shop171167271/item23686028621, Kab.Bantul: Rp1,000,000–1,100,000, **Habis**, last-week search index. Lengkap/Unit Only variations have unresolved price mapping; condition/working state unknown.
+
+Both checked2026-10-17. Rp10,000 late-arrival compensation is not a purchase discount; shipping/tax/checkout unknown. Neither is a qualified used/new price. Exact model manual access remains pending; no sibling specifications transferred.
+
+[SL2G-E]: https://voxamps.com/product/stomplab-2g/
+[SL2G-D]: https://voxamps.com/de/produkt/stomplab-2g/
+[SL2G-J]: https://voxamps.com/ja/product/stomplab-2g/

@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [All vocal](ALL-VOCAL.md) · [Repository](README.md)
 
-This category view summarizes **14 selected model records from the 163 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. All recorded models have root brand profiles;technical verification andmarket discovery remain incomplete. Counts in different instrument views overlap and must not be added together.
+This category view summarizes **14 selected model records from the 164 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. All recorded models have root brand profiles;technical verification andmarket discovery remain incomplete. Counts in different instrument views overlap and must not be added together.
 
 Each model link opens the full evidence,firmware context,price qualifications and unknowns. These summaries do not replace those qualifications. A color screen does not prove touch; an expression socket is not an included pedal; a fixed category is not a freely assignable processing block.
 
@@ -16,7 +16,7 @@ Each model link opens the full evidence,firmware context,price qualifications an
 | Hotone Ampero One MP-80 |273×143 mm /medium |4-inch color touchscreen |9 simultaneous category modules;3 flexible FX modules |[HOTONE](HOTONE.md#ampero-one-mp-80) |
 | Line6 POD Go |359×230 mm horizontal envelope /large; source W/D labels retained in brand record |4.3-inch color LCD;touch unverified |10 semifixed blocks,including4 freely selected effects |[LINE6](LINE6.md#pod-go-and-pod-go-wireless) |
 | Line6 POD Go Wireless |Same documented family envelope /large; different mass and wireless hardware |4.3-inch color LCD;touch unverified |Same explicitly documented POD Go architecture |[LINE6](LINE6.md#pod-go-and-pod-go-wireless) |
-| MOOER GE250 |324×163 mm horizontal envelope /large |3.5-inch color TFT;touch unverified |Manual10 effect blocks versus regional11 module types; unresolved |[MOOER](MOOER.md#ge250) |
+| MOOER GE250 |324×164 mm horizontal envelope /large |3.5-inch color TFT;touch unverified |Manual10 effect blocks versus regional11 module types; unresolved |[MOOER](MOOER.md#ge250) |
 | Zoom G11 |495×253 mm /large |5-inch color touchscreen;6 auxiliary LCDs have separate unverified physical specifications |One amp+9 effects,DSP-limited; alternative manual10-effect wording retained |[ZOOM](ZOOM.md#g11) |
 
 ## No built-in expression
@@ -97,7 +97,7 @@ The following groups preserve the2026-10-14 shared source context. Links are nor
 - [MG-300 manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300/NUX_MG300_UserManual_English.pdf), control/I/O diagrams and printed p.14 specifications.
 - [MG-300 MKII manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf), front/rear panels and final specifications. Manual predates some GEN2 additions.
 - [MG-30 manufacturer V2 manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf), printed pp.2–4 and 14; firmware-sensitive algorithms use the current product page instead.
-- MG-101 [front](https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771638910&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771638910&width=2400) official images.
+- MG-101 [front](https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771648910&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771648910&width=2400) official images.
 - [MG-400 control image](https://www.nux.us/cdn/shop/files/MG-400_Thumbnails.jpg?v=1756899623&width=800).
 - MG-50Li [front](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400) official images; rear image establishes two XLR outputs and two send/return pairs.
 
@@ -252,7 +252,7 @@ Paired mono outputs are not one stereo TRS socket. A phones socket and a phone-r
 
 Manufacturer battery runtimes are not independent measurements. Where only charging is established, USB standalone operating power remains unknown. Adapter requirements are not necessarily actual device consumption.
 
-**MK-20:** specification table mentions external EXP, but rear panel and connector descriptions omit it. Preserve the conflict rather than invent a jack. **FX200:** numbered effects sum163 vs advertised163; dimension labels conflict with normal horizontal orientation. **GE150 family:** original, Pro and Li power/loading features are not interchangeable. **Prices:** MK-300, FX100 and Zoom G2-family snippets/body/vouchers differ; model findings preserve every accepted context.
+**MK-20:** specification table mentions external EXP, but rear panel and connector descriptions omit it. Preserve the conflict rather than invent a jack. **FX200:** numbered effects sum164 vs advertised164; dimension labels conflict with normal horizontal orientation. **GE150 family:** original, Pro and Li power/loading features are not interchangeable. **Prices:** MK-300, FX100 and Zoom G2-family snippets/body/vouchers differ; model findings preserve every accepted context.
 
 The next Shopee-first targets are **TANK-PRO, ANN Blackbox, Boin Audio BG300, Scorpion KMF-10, JOYO GemBox variants**, newer MOOER/Hotone/Zoom, and vocal-capable TC-Helicon/HeadRush/Flamma. They remain discoveries, not completed technical records, until researched. The old BOSS display/IDR task is deferred, not discarded. See [the evidence queue](effects/shopee-indonesia.md) and [checkpoint](effects/RESUME.md).
 
