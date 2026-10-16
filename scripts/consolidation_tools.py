@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'ace-100': ('ACE-100', 'effects/findings/2026-10-15-audota-ace-100.md'),
     'ame-200-pro': ('AME-200 Pro', 'effects/findings/2026-10-15-audota-ame-200-pro.md'),
     'ame-200': ('AME-200', 'effects/findings/2026-10-15-audota-ame-200.md'),
     'ame-100': ('AME-100', 'effects/findings/2026-10-15-audota-ame-100.md'),
@@ -632,7 +633,61 @@ def plan_ame200pro():
     print('Preview AME-200 Pro exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_ace100():
+    research_tools.identity()
+    model, source_path = MODELS['ace-100']
+    brand_file = 'AUDOTA.md'
+    assert (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['Audota::ACE-100']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'AUDOTA-ACE-100'
+    body, refs = preserved_body(source, prefix)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/audota.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**2026-10-15:') or p.startswith('K/F/B=') or p.startswith('A display icon') or p.startswith('No guitar model') or p.startswith('All are datedlisted') or p.startswith('Full findingreferences')]
+    section = '\n## ACE-100\n\nConsolidated **2026-10-17**. This is ACE-100 guitar multi-effects, not AME-100 or a power supply. Original dates, source conflicts and historical next-model notes remain below; use research-state.json for current work.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical catalogue counts below are superseded.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nSources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/audota.md). No legacy source or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current ACE-100 comparison fields\n\n| Field | Evidence and qualification |\n|---|---|\n'
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'] == 'Follow-up technical correction':
+            continue
+        value=f['value']
+        if f['field'] == 'Display':
+            value += ' Manufacturer English page now explicitly says **LED screen**, rechecked2026-10-17; this corroborates LED over the quick-guide LCD wording, without proving readout color/diagonal/touch.'
+        if f['field'] == 'Retail IDR':
+            value += ' Exact Apregio listing reopened2026-10-17 at **Rp1.100.000**,Kota Surabaya,now displaying stale27–29August delivery. Keep older July snapshot separately; no authenticated stock, detailed condition, accessory bundle, regional warranty, delivered charges or voucher eligibility verified. Late-delivery compensation is not a purchase discount.'
+        section += '| '+f['field']+' | '+value+' |\n'
+    section += '\n<!-- comparison evidence ends -->\n\n### Current primary-source review\n\nReopened **2026-10-17**: [Manufacturer English ACE-100 page](https://en.audota.com/ACE100EN.html) explicitly documents LED readout, TRS stereo output via splitter, separate stereo phones, two USB functions, Bluetooth audio/app pairing,40 presets, Live/Preset mode,2000mAh battery,5h runtime and2.5h charging ratings. USB charging specification remains5V/2A using USB-A-to-C only. No operating-while-charging, native NAM or touch capability is inferred. Color-customizable footswitch LED bars remain distinct from the numeric display. Manufacturer accessories are quick guide/data cable; seller bundle contents remain unverified.\n\n[Official importer ACE-100 page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ace-100-intelligent-combined-effects-pedal) still lists the16 named control functions,4 footswitches,40 memories and16 IR slots. MOD chorus/flanger/tremolo,delay digital/analog/tape,reverb room/hall/plate and iOS/Android Audota Studio plus PC editor are explicitly named. Its16-IR shorthand does not independently reconcile the manufacturer loading-slot partition; ADT and cabinet IR capacity remain qualified. No new visual rotary verification was performed.\n\n[Exact Apregio Shopee hardware offer](https://shopee.co.id/Audota-ACE100-Multi-Effects-Guitar-ACE-100-ACE100-Multi-Efek-Gitar-seri-atasnya-MVAVE-TANK-G-Apregio-Musik-i.3012339.44079112801),shop3012339/item44079112801,Kota Surabaya,retains the same amount on indexed reopening. A cached offer and relative seller activity do not prove current checkout availability or authenticity. No dependable used quote or verified storefront-only lower hardware price.\n\nAll original manufacturer-filed quick-guide identity, printing-dimension warning, table-label correction, failed visual inspection and full source URLs remain preserved above. No software, dependencies or document files downloaded. Remaining fields: visual rotary corroboration, readout diagonal/color/touch, precise IR/ADT partition,NAM architecture/workflow, USB channels/driver/OS minimums, charging-operation limits and current qualified local prices.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file].append(model)
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['Audota ACE-100'],model_name=model,brand='Audota',destination=brand_file+'#ace-100',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete ACE finding and supporting facts retained; manufacturer LED wording and exact Apregio historical ask rechecked; memory/NAM/USB/visual-control gaps preserved.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Audota AVE-100 — complete legacy consolidation',task='Read complete AVE-100 finding and supporting Audota vocal comparison. Merge losslessly into AUDOTA.md, preserving vocal-only scope, no ownership inference, original routing/phantom/firmware/looper and all source/price qualifications. Check primary and exact Shopee evidence; commit before another model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro |','| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100 |')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:(ROOT/brand_file).read_text().replace('AME-100, standard AME-200 and AME-200 Pro are consolidated below.','AME-100, standard AME-200, AME-200 Pro and ACE-100 are consolidated below.')+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=digest((ROOT/brand_file).read_text())
+    payload=dict(model_id='ace-100',model=model,inputs=inputs,outputs=outputs,new_files=[],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview ACE-100 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'ace-100':
+        return plan_ace100()
     if model_id == 'ame-200-pro':
         return plan_ame200pro()
     if model_id == 'ame-200':
@@ -872,6 +927,9 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'ace-100':
+        print(research_tools.git('commit', '-m', 'research(audota): consolidate ACE-100 and clarify LED source evidence'))
+        return
     if model_id == 'ame-200-pro':
         print(research_tools.git('commit', '-m', 'research(audota): consolidate AME-200 Pro and preserve source conflicts'))
         return

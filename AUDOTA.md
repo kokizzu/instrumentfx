@@ -1,6 +1,6 @@
 # Audota multi-effects
 
-AME-100, standard AME-200 and AME-200 Pro are consolidated below. Other recorded Audota models still need their complete root-brand merge. Research remains partial.
+AME-100, standard AME-200, AME-200 Pro and ACE-100 are consolidated below. Other recorded Audota models still need their complete root-brand merge. Research remains partial.
 
 ## AME-100
 
@@ -335,3 +335,113 @@ Additional exact hardware leads, indexed2026-10-17: [Dial Musik](https://shopee.
 [Apregio mixed200/Pro listing](https://shopee.co.id/Audota-AME-200-PRO-AME200-PRO-AME-200-Amp-Modeler-Multi-Effects-Pedal-Audota-AME200PRO-Apregio-Musik-i.3012339.55856904342),shop3012339/item55856904342,Kota Surabaya, has two variations and **Rp1.750.000–Rp2.350.000** without exposed selection-to-price mapping. Exclude that range from Pro pricing; lower amount is not assumed to buy Pro. The older second Hurtrock quote retains its June delivery provenance in the preserved record.
 
 Remaining: native/converted NAM architecture and workflow, exact concurrent DSP limits, current firmware category totals, factory-filled preset split, touchscreen, USB channels/drivers/bus power/charging, and condition-qualified local used/live retail offers. All source contradictions remain unresolved where current evidence is insufficient.
+
+## ACE-100
+
+Consolidated **2026-10-17**. This is ACE-100 guitar multi-effects, not AME-100 or a power supply. Original dates, source conflicts and historical next-model notes remain below; use research-state.json for current work.
+
+<!-- AUDOTA-ACE-100 source begins -->
+
+**Checked 2026-10-15. Partial guitar multi-effects**, not AME-100 or a BOSS power adapter with a similar name. No ownership tag is assigned. Primary manufacturer quick-guide text and official importer specifications are distinguished below.
+
+| Required field | Finding / qualification |
+|---|---|
+| Expression | No built-in expression or external EXP connector in the complete numbered panel inventory [M,P] |
+| Rotary / footswitch / buttons | **16 named rotary controls in importer specification /4 footswitches /0 separate function buttons**, plus rear power switch. Rotary list: gate,boost,amp,gain,low,mid,high,volume,cab,mod,rate,delay,time,reverb,decay,master. Physical rotary count has not been visually corroborated because panel/PDF rendering failed [I,M] |
+| Display | **Segmented numeric LED readout**, not a color graphical screen; Chinese original specifies numeric tubes, while the English quick guide loosely says LCD. Published diagonal and numeric-readout color unverified; no touchscreen interface documented. Colored footswitch strips are not a color display [M,P] |
+| Size / weight | **L329×W68×H45 mm;573 g**. Large by this repository's300mm medium-width/depth boundary, even though physically narrow. No rotation to pass a fit test [M,P] |
+| Effects architecture | Seven named fixed sections: **noise gate,boost,amp,cab,modulation,delay,reverb**. They are not freely duplicable generic slots; exact DSP-limit wording remains unverified [M,I] |
+| Category choices | Gate1,boost1,amp8,cab8,MOD3 (chorus/flanger/tremolo),delay3 (digital/analog/tape),reverb3 (room/hall/plate). Names of MOD/delay/reverb come from official importer, not a generated manual [M,I] |
+| Presets | **40 storable locations**, Live and Preset modes; factory-filled/user partition not established. Four switches are not four total memories [M] |
+| Synth / acoustic | Dedicated synth/electric-to-acoustic simulator not established in the checked feature lists. A full eight-amp appendix was not available; do not infer an acoustic simulation from an amp preset name |
+| IR / proprietary samples | Official samples and third-party IR loading with **16 advertised loading slots**. The guide does not clearly partition amp samples versus cabinet IR memory; do not silently call all16 additional cabinet IR slots. WAV24-bit/44.1kHz/512 samples; other source rates may be converted. ADT amp files are provided separately on the manufacturer page [M,P] |
+| NAM | Native or converted NAM support and architecture restrictions **not established**; AME-series NAM updates are not automatically ACE-100 updates |
+| Audio I/O | One6.35mm mono input,2MΩ; **one6.35mm TRS stereo output**,100Ω, usable with aTRS-to-dual-TS splitter; dedicated3.5mm stereo headphones,32Ω [M] |
+| Other connections | **Two USB-C ports: charging and OTG recording/data**, separate rear power. Bluetooth5.0 audio reception/app connection. No mic/phantom,FX loop,analog aux or physical MIDI/EXP socket in complete inventory [M] |
+| Power | **2000mAh lithium battery**, about5h rated runtime;5V/2A USB charge,about2.5h. Manufacturer explicitly specifies **USB-A-to-C cable only**; do not assume USB-C-to-C PD support. Battery voltage,device draw and independently documented operation while charging remain unverified [M] |
+| Software | Manufacturer lists **Windows/macOS desktop software and Android app**; official importer also documents Audota Studio **iOS/Android**. Full preset/tone editing and management documented; exact OS minimum/firmware pairing for ACE remains to be checked [P,I] |
+| Audio/practice | OTG phone recording and Bluetooth backing audio;tuner;Live stomp/Preset switching. Exact USB channels/sample rates,looper and internal drum-machine capability not established [M] |
+| Used IDR | **?**, no condition-verified current used offer obtained |
+| Retail IDR | **Rp1.100.000**, Apregio Musik, Shopee shop3012339/item44079112801; indexed with older July delivery text. Separate storefront-onlyRp1.074.999 lacks exact item confirmation and is not a second verified lower bound [S] |
+
+### Sources and inspection limits
+
+[M] **Original manufacturer-filed bilingual ACE-100 quick guide**, part2030501999, printed2025-04-04, FCC document8606047: [PDF](https://device.report/m/2d0b5e0445dcbf62ccf50f781049ad9326972bfaad2cd5fbfdddcd0fd284c2a4_optim.pdf), [filing record](https://fccid.io/2BRLH-ACE-100/User-Manual/User-manual-8606047). Original numbered text and specifications were read; screenshot rendering failed. No panel-image inspection is claimed. The555×260mm values are printing/fold dimensions, not device dimensions. Chinese table transposes weight/size labels; English table and product page identify the values correctly.
+
+[P] [Manufacturer English product page](https://en.audota.com/ACE100EN.html) and [Chinese page](https://www.audota.com/ACE100CN.html). Full manualV1.1.6 and official panel images failed to fetch. Generated retailer-manual pages are not sources.
+
+[I] [Official importer Warwick specification](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ace-100-intelligent-combined-effects-pedal), indexed original control/effect list. Its shorthand16IR wording is retained as a capacity ambiguity against the manufacturer's combined loading language, not imposed as a resolved storage map.
+
+[S] [Exact Shopee listing](https://shopee.co.id/Audota-ACE100-Multi-Effects-Guitar-ACE-100-ACE100-Multi-Efek-Gitar-seri-atasnya-MVAVE-TANK-G-Apregio-Musik-i.3012339.44079112801); [separate GITARO storefront discovery](https://shopee.co.id/gitarostoreindonesia). No current checkout,condition,seller authenticity,bundle,warranty or delivered-price assurance. No FX or secondhand-percentage estimate.
+
+**Next: Audota AVE-100**, evaluated as vocal multi-effects rather than guitar and without an ownership assertion. Outstanding ACE fields include visual rotary corroboration,readout color/size,touch confirmation,IR/ADT memory split,NAM workflow,USB channels and precise current market evidence.
+<!-- AUDOTA-ACE-100 source ends -->
+
+### Preserved supporting comparison evidence
+
+Historical catalogue counts below are superseded.
+
+**2026-10-15: five individually committed partial records.** Four guitar processors and one separate vocal processor; no brand-wide assumptions about power,software orNAM support. AME-100 is the directly identified owned model; AVE-100 ownership is not established. Their inclusion brings the integrated catalogue from96 to **101 active records across16 comparison pages**, with six excluded archives unchanged.
+
+K/F/B=rotary controls/footswitches/separate buttons;encoder presses count once,power/toe switches separate. Touchscreen support remains unverified for the three graphical displays.
+
+A display icon is not a physical button. Pro has **five** switches includingCTRL,notfour. Standard200's externalEXPsupport is not an includedpedal. Narrow ACE100 still exceeds the defined300mm medium boundary. Plugs andpedaltravel are additional.
+
+No guitar model has a microphone/phantom path in its documentedpanel. Stereoouts do not maketheinput stereo. Generalbatterywarnings are not evidenceforaninternalbattery inAME200. Supplyratingisnotmeasuredcurrentdraw.
+
+All are datedlisted/indexedasks,notcompleted-sales orauthenticatedlivecheckout. Condition,stock,warranty,shipping,bundles andfirmwareregion are not silentlyassumed. Usedquoteswerenotverifiedforthese5.
+
+Full findingreferencesretainallmanufacturer,manual,importerandsellerlinks.NoguessedFXoruseddiscount. Nextwork includes originalBOSSdisplay/IDRmigrationandremainingeligiblemarketplacefamilies;all5Audotafirst-passrecordsremainpartial.
+
+- **Expression** (Guitar hardware and screens): No built-in/externalEXP inpanel
+- **K/F/B** (Guitar hardware and screens): **16 namedrotary controls inimporter list/4/0**;visualrotary confirmation pending
+- **Body and weight** (Guitar hardware and screens): L329×W68×H45mm;573g;large bylength boundary
+- **Display** (Guitar hardware and screens): **SegmentednumericLED readout**,notcolorgraphic;size/color/touch detailsunverified
+- **Architecture / choices** (Guitar processing, memory and loading): Fixedgate/boost/amp/cab/MOD/delay/reverb:1/1/8/8/3/3/3;notarbitraryduplicatedslots
+- **Presets** (Guitar processing, memory and loading): 40storable;factorysubset?
+- **IR / captures / NAM** (Guitar processing, memory and loading): 16advertisedloadingslots,amp/IRpartitionambiguous;WAV24/44.1/512;ADTdownload;NAMnotestablished
+- **Synth / acoustic** (Guitar processing, memory and loading): Neitherestablished inavailablelibrary
+- **Ports** (Guitar connections, power and applications): Mono6.35in;**oneTRSstereomainout**;dedicated3.5stereophones;**2USB-C**;BT
+- **Power** (Guitar connections, power and applications): 5V2AUSB-A-to-Cchargeonly;2000mAh,5hrated,2.5hcharge;operationwhilecharge?
+- **Applications / audio / practice** (Guitar connections, power and applications): Windows/macOSdesktop,Android/iOSapp;OTGrecordingchannels?;tuner,Live/Preset;looper/drumsnotestablished
+- **Used IDR** (Separate IDR evidence): ?
+- **Retail evidence / limitation** (Separate IDR evidence): **Rp1.100.000**,Apregioindexed;storefront-onlyloweramountnotverifieditem
+- **Individual findings commit** (Separate IDR evidence): `c88b1aa3a0e2caf73f6e7a871b3ced5340068703`
+
+Sources: [Original finding](effects/findings/2026-10-15-audota-ace-100.md), [Complete supporting comparison](effects/audota.md). No legacy source or incoming link removed.
+
+<!-- comparison evidence begins -->
+
+### Current ACE-100 comparison fields
+
+| Field | Evidence and qualification |
+|---|---|
+| Expression | No built-in expression or external EXP connector in the complete numbered panel inventory [M,P] |
+| Rotary / footswitch / buttons | **16 named rotary controls in importer specification /4 footswitches /0 separate function buttons**, plus rear power switch. Rotary list: gate,boost,amp,gain,low,mid,high,volume,cab,mod,rate,delay,time,reverb,decay,master. Physical rotary count has not been visually corroborated because panel/PDF rendering failed [I,M] |
+| Display | **Segmented numeric LED readout**, not a color graphical screen; Chinese original specifies numeric tubes, while the English quick guide loosely says LCD. Published diagonal and numeric-readout color unverified; no touchscreen interface documented. Colored footswitch strips are not a color display [M,P] Manufacturer English page now explicitly says **LED screen**, rechecked2026-10-17; this corroborates LED over the quick-guide LCD wording, without proving readout color/diagonal/touch. |
+| Size / weight | **L329×W68×H45 mm;573 g**. Large by this repository's300mm medium-width/depth boundary, even though physically narrow. No rotation to pass a fit test [M,P] |
+| Effects architecture | Seven named fixed sections: **noise gate,boost,amp,cab,modulation,delay,reverb**. They are not freely duplicable generic slots; exact DSP-limit wording remains unverified [M,I] |
+| Category choices | Gate1,boost1,amp8,cab8,MOD3 (chorus/flanger/tremolo),delay3 (digital/analog/tape),reverb3 (room/hall/plate). Names of MOD/delay/reverb come from official importer, not a generated manual [M,I] |
+| Presets | **40 storable locations**, Live and Preset modes; factory-filled/user partition not established. Four switches are not four total memories [M] |
+| Synth / acoustic | Dedicated synth/electric-to-acoustic simulator not established in the checked feature lists. A full eight-amp appendix was not available; do not infer an acoustic simulation from an amp preset name |
+| IR / proprietary samples | Official samples and third-party IR loading with **16 advertised loading slots**. The guide does not clearly partition amp samples versus cabinet IR memory; do not silently call all16 additional cabinet IR slots. WAV24-bit/44.1kHz/512 samples; other source rates may be converted. ADT amp files are provided separately on the manufacturer page [M,P] |
+| NAM | Native or converted NAM support and architecture restrictions **not established**; AME-series NAM updates are not automatically ACE-100 updates |
+| Audio I/O | One6.35mm mono input,2MΩ; **one6.35mm TRS stereo output**,100Ω, usable with aTRS-to-dual-TS splitter; dedicated3.5mm stereo headphones,32Ω [M] |
+| Other connections | **Two USB-C ports: charging and OTG recording/data**, separate rear power. Bluetooth5.0 audio reception/app connection. No mic/phantom,FX loop,analog aux or physical MIDI/EXP socket in complete inventory [M] |
+| Power | **2000mAh lithium battery**, about5h rated runtime;5V/2A USB charge,about2.5h. Manufacturer explicitly specifies **USB-A-to-C cable only**; do not assume USB-C-to-C PD support. Battery voltage,device draw and independently documented operation while charging remain unverified [M] |
+| Software | Manufacturer lists **Windows/macOS desktop software and Android app**; official importer also documents Audota Studio **iOS/Android**. Full preset/tone editing and management documented; exact OS minimum/firmware pairing for ACE remains to be checked [P,I] |
+| Audio/practice | OTG phone recording and Bluetooth backing audio;tuner;Live stomp/Preset switching. Exact USB channels/sample rates,looper and internal drum-machine capability not established [M] |
+| Used IDR | **?**, no condition-verified current used offer obtained |
+| Retail IDR | **Rp1.100.000**, Apregio Musik, Shopee shop3012339/item44079112801; indexed with older July delivery text. Separate storefront-onlyRp1.074.999 lacks exact item confirmation and is not a second verified lower bound [S] Exact Apregio listing reopened2026-10-17 at **Rp1.100.000**,Kota Surabaya,now displaying stale27–29August delivery. Keep older July snapshot separately; no authenticated stock, detailed condition, accessory bundle, regional warranty, delivered charges or voucher eligibility verified. Late-delivery compensation is not a purchase discount. |
+
+<!-- comparison evidence ends -->
+
+### Current primary-source review
+
+Reopened **2026-10-17**: [Manufacturer English ACE-100 page](https://en.audota.com/ACE100EN.html) explicitly documents LED readout, TRS stereo output via splitter, separate stereo phones, two USB functions, Bluetooth audio/app pairing,40 presets, Live/Preset mode,2000mAh battery,5h runtime and2.5h charging ratings. USB charging specification remains5V/2A using USB-A-to-C only. No operating-while-charging, native NAM or touch capability is inferred. Color-customizable footswitch LED bars remain distinct from the numeric display. Manufacturer accessories are quick guide/data cable; seller bundle contents remain unverified.
+
+[Official importer ACE-100 page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ace-100-intelligent-combined-effects-pedal) still lists the16 named control functions,4 footswitches,40 memories and16 IR slots. MOD chorus/flanger/tremolo,delay digital/analog/tape,reverb room/hall/plate and iOS/Android Audota Studio plus PC editor are explicitly named. Its16-IR shorthand does not independently reconcile the manufacturer loading-slot partition; ADT and cabinet IR capacity remain qualified. No new visual rotary verification was performed.
+
+[Exact Apregio Shopee hardware offer](https://shopee.co.id/Audota-ACE100-Multi-Effects-Guitar-ACE-100-ACE100-Multi-Efek-Gitar-seri-atasnya-MVAVE-TANK-G-Apregio-Musik-i.3012339.44079112801),shop3012339/item44079112801,Kota Surabaya,retains the same amount on indexed reopening. A cached offer and relative seller activity do not prove current checkout availability or authenticity. No dependable used quote or verified storefront-only lower hardware price.
+
+All original manufacturer-filed quick-guide identity, printing-dimension warning, table-label correction, failed visual inspection and full source URLs remain preserved above. No software, dependencies or document files downloaded. Remaining fields: visual rotary corroboration, readout diagonal/color/touch, precise IR/ADT partition,NAM architecture/workflow, USB channels/driver/OS minimums, charging-operation limits and current qualified local prices.

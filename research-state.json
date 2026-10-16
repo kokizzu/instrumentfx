@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 117,
-  "legacy_only_model_count": 9,
+  "canonical_root_model_count": 118,
+  "legacy_only_model_count": 8,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Audota ACE-100 — complete legacy consolidation",
-    "task": "Read complete ACE-100 finding and supporting Audota comparison; consolidate losslessly into AUDOTA.md. Verify model-specific controls, load-slot ambiguity, power/application limits and exact Shopee hardware evidence. Preserve all sources/prices/conflicts and commit before another model.",
+    "model": "Audota AVE-100 — complete legacy consolidation",
+    "task": "Read complete AVE-100 finding and supporting Audota vocal comparison. Merge losslessly into AUDOTA.md, preserving vocal-only scope, no ownership inference, original routing/phantom/firmware/looper and all source/price qualifications. Check primary and exact Shopee evidence; commit before another model.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 9 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 8 legacy-only models."
   },
   "new_findings": [
     {
@@ -8416,6 +8416,122 @@
         "effects/audota.md": "62c77db84b266796b1c5bd11e443fc33b0843dc06b2c11a87db3cdadd5fc7a42"
       },
       "status": "Complete Pro finding and all supporting rows retained; firmware-qualified A1/A2 confirmed, charging/control/IR/count conflicts and qualified Shopee offers preserved."
+    },
+    {
+      "models": [
+        "Audota ACE-100"
+      ],
+      "model_name": "ACE-100",
+      "brand": "Audota",
+      "destination": "AUDOTA.md#ace-100",
+      "source": "effects/findings/2026-10-15-audota-ace-100.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "source_sha256": "96e43cbf9607f06636de5a1cb44682a2d3dfcfb7f970b394f526f33a03bec23e",
+      "marker": "AUDOTA-ACE-100",
+      "renamed_references": [],
+      "retained_comparison_facts": [
+        {
+          "field": "Expression",
+          "value": "No built-in/externalEXP inpanel",
+          "source": "effects/audota.md",
+          "context": "Guitar hardware and screens"
+        },
+        {
+          "field": "K/F/B",
+          "value": "**16 namedrotary controls inimporter list/4/0**;visualrotary confirmation pending",
+          "source": "effects/audota.md",
+          "context": "Guitar hardware and screens"
+        },
+        {
+          "field": "Body and weight",
+          "value": "L329×W68×H45mm;573g;large bylength boundary",
+          "source": "effects/audota.md",
+          "context": "Guitar hardware and screens"
+        },
+        {
+          "field": "Display",
+          "value": "**SegmentednumericLED readout**,notcolorgraphic;size/color/touch detailsunverified",
+          "source": "effects/audota.md",
+          "context": "Guitar hardware and screens"
+        },
+        {
+          "field": "Architecture / choices",
+          "value": "Fixedgate/boost/amp/cab/MOD/delay/reverb:1/1/8/8/3/3/3;notarbitraryduplicatedslots",
+          "source": "effects/audota.md",
+          "context": "Guitar processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "40storable;factorysubset?",
+          "source": "effects/audota.md",
+          "context": "Guitar processing, memory and loading"
+        },
+        {
+          "field": "IR / captures / NAM",
+          "value": "16advertisedloadingslots,amp/IRpartitionambiguous;WAV24/44.1/512;ADTdownload;NAMnotestablished",
+          "source": "effects/audota.md",
+          "context": "Guitar processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Neitherestablished inavailablelibrary",
+          "source": "effects/audota.md",
+          "context": "Guitar processing, memory and loading"
+        },
+        {
+          "field": "Ports",
+          "value": "Mono6.35in;**oneTRSstereomainout**;dedicated3.5stereophones;**2USB-C**;BT",
+          "source": "effects/audota.md",
+          "context": "Guitar connections, power and applications"
+        },
+        {
+          "field": "Power",
+          "value": "5V2AUSB-A-to-Cchargeonly;2000mAh,5hrated,2.5hcharge;operationwhilecharge?",
+          "source": "effects/audota.md",
+          "context": "Guitar connections, power and applications"
+        },
+        {
+          "field": "Applications / audio / practice",
+          "value": "Windows/macOSdesktop,Android/iOSapp;OTGrecordingchannels?;tuner,Live/Preset;looper/drumsnotestablished",
+          "source": "effects/audota.md",
+          "context": "Guitar connections, power and applications"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/audota.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail evidence / limitation",
+          "value": "**Rp1.100.000**,Apregioindexed;storefront-onlyloweramountnotverifieditem",
+          "source": "effects/audota.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Individual findings commit",
+          "value": "`c88b1aa3a0e2caf73f6e7a871b3ced5340068703`",
+          "source": "effects/audota.md",
+          "context": "Separate IDR evidence"
+        }
+      ],
+      "retained_context": [
+        "**2026-10-15: five individually committed partial records.** Four guitar processors and one separate vocal processor; no brand-wide assumptions about power,software orNAM support. AME-100 is the directly identified owned model; AVE-100 ownership is not established. Their inclusion brings the integrated catalogue from96 to **101 active records across16 comparison pages**, with six excluded archives unchanged.",
+        "K/F/B=rotary controls/footswitches/separate buttons;encoder presses count once,power/toe switches separate. Touchscreen support remains unverified for the three graphical displays.",
+        "A display icon is not a physical button. Pro has **five** switches includingCTRL,notfour. Standard200's externalEXPsupport is not an includedpedal. Narrow ACE100 still exceeds the defined300mm medium boundary. Plugs andpedaltravel are additional.",
+        "No guitar model has a microphone/phantom path in its documentedpanel. Stereoouts do not maketheinput stereo. Generalbatterywarnings are not evidenceforaninternalbattery inAME200. Supplyratingisnotmeasuredcurrentdraw.",
+        "All are datedlisted/indexedasks,notcompleted-sales orauthenticatedlivecheckout. Condition,stock,warranty,shipping,bundles andfirmwareregion are not silentlyassumed. Usedquoteswerenotverifiedforthese5.",
+        "Full findingreferencesretainallmanufacturer,manual,importerandsellerlinks.NoguessedFXoruseddiscount. Nextwork includes originalBOSSdisplay/IDRmigrationandremainingeligiblemarketplacefamilies;all5Audotafirst-passrecordsremainpartial."
+      ],
+      "retained_source_urls": [],
+      "supporting_sources": [
+        "effects/audota.md"
+      ],
+      "supporting_source_hashes": {
+        "effects/audota.md": "62c77db84b266796b1c5bd11e443fc33b0843dc06b2c11a87db3cdadd5fc7a42"
+      },
+      "status": "Complete ACE finding and supporting facts retained; manufacturer LED wording and exact Apregio historical ask rechecked; memory/NAM/USB/visual-control gaps preserved."
     }
   ],
   "discovery_leads": [
@@ -8877,7 +8993,8 @@
     "AUDOTA.md": [
       "AME-100",
       "AME-200",
-      "AME-200 Pro"
+      "AME-200 Pro",
+      "ACE-100"
     ]
   },
   "instrument_views": {
@@ -8915,7 +9032,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "9 legacy-only models remain;117 root-canonical. Full migration and research incomplete.",
+    "warning": "8 legacy-only models remain;118 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -8985,8 +9102,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 117,
-    "legacy_only_models": 9,
+    "canonical_root_models": 118,
+    "legacy_only_models": 8,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -9019,7 +9136,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Audota ACE-100 — complete legacy consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Audota AVE-100 — complete legacy consolidation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -9288,10 +9405,9 @@
       ]
     },
     "Audota::ACE-100": {
-      "link": "effects/findings/2026-10-15-audota-ace-100.md",
+      "link": "AUDOTA.md#ace-100",
       "source_files": [
-        "effects/audota.md",
-        "effects/findings/2026-10-15-audota-ace-100.md"
+        "AUDOTA.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-15-audota-ace-100.md"
