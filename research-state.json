@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A1 FOUR remaining manual verification",
-    "task": "A1 FOUR manual follow-up saved:50 preloaded memories,AUTO SAVE,mono30s Pre/Post looper and destructive setting changes. Remaining A1-only categories,controls/ports,save rules and other explicit gaps;fresh discovery and legacy incoming/shared-source audits remain. Commit useful findings before another model.",
+    "task": "A1 FOUR DSP restriction,AUX bypass and AUTO SAVE OFF prompt verified and saved. Remaining A1-only effect/category inventory,button/display/EXP/ports,copy overwrite,USB supply/audio,looper persistence/import workflow and qualified live offers. Continue fresh Shopee discovery and shared-source/incoming audits;commit before next model.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -863,9 +863,11 @@
       "manual_followup": {
         "checked_date": "2026-10-17",
         "access": "Official search-indexed text only;no files downloaded",
-        "memory": "50 total and preloaded;5 banks of10;AUTO SAVE retains edits",
+        "memory": "50 total and preloaded;5 banks of10;AUTO SAVE retains edits;AUTO SAVE OFF prompts on patch change",
         "looper": "Mono30s;Pre/Post;overdub;holdSTOPwhile stopped clears;time/position/tempo changes erase",
-        "live": "PRESELECT and BANK HOLD documented"
+        "live": "PRESELECT and BANK HOLD documented",
+        "processing": "Up to5effects subject to DSP;3or more effects each with5or more parameters also cause overflow/bypass;delete/change to recover;official quickguide p9",
+        "aux": "AUX bypasses effects to OUTPUT,manual p10"
       }
     }
   ],
