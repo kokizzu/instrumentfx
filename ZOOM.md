@@ -58,7 +58,7 @@ These are individual asking observations, not completed-sale statistics or an ac
 
 ## Existing ZOOM research — consolidation still pending
 
-The existing B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+The existing V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
 
 ## B1Xon
 
@@ -604,3 +604,68 @@ The legacy4/6/4 K/F/B row is retained as its historical photograph-based observa
 | Condition-verified used IDR |**?** |No exact condition-verified used hardware offer established |
 
 All are asking observations,not a new/used market range. Exact condition,selected bundle,stock,shipping,voucher,warranty and seller authenticity remain unverified unless specifically stated. No software/dependency installed and no FX conversion. Remaining:category totals,screen details,physical-control corroboration,IR/NAM import evidence,current full-editor OS support andqualified used/live-stock offers.
+
+## B6
+
+Bass multi-effects; large body, external-only expression. Consolidated and refreshed 2026-10-16; partial. All 15 legacy model fields below retain the original 2026-10-14 observation date. New manual details and IDR evidence are dated separately.
+
+### B6 — complete retained legacy fields
+
+| Field | Retained value / unknown |
+|---|---|
+| External expression | Yes, FP02M |
+| K/F/B | 4/9/0 front-panel [photo] |
+| W×D×H, mm; weight | 418×228×65; 1.89 kg |
+| Size class | Large |
+| Used USD | ? |
+| New USD observation | $359 [P1] |
+| Maximum simultaneous blocks; categories / choices | **6**, DSP-limited; 13 amps; 12 cabinet models ×3 mic positions; 4 DI models; detailed effect-category totals ? |
+| Factory / user memory | 240 editable patch memories total |
+| Synth / acoustic | Bass Standard Synth / Bass Synth Talk; dual-input piezo support |
+| Third-party IR | Yes, WAV import; user-slot count ? |
+| NAM | Not established |
+| Audio / control ports | 2×¼″ selectable inputs, 1M/10MΩ; mono FX loop; 3.5 mm aux; combined ¼″ TRS line/phones; mono XLR DI; EXP; micro-USB; SD; BTA-1 port |
+| Power; USB bus operation | DC9V/500mA centre-negative AD-16; **USB bus power explicitly unsupported** |
+| Configuration apps | Guitar Lab Windows/macOS; iPhone/iPad Handy Guitar Lab with **optional BTA-1** |
+| Other important features | USB 2-in/2-out; 45 s looper, up to 2 h using SD; 68 rhythms; 4.3″ touchscreen |
+
+### B6 — original source context
+
+Checked **2026-10-14**. Records are **partial**, not certifications that every field is complete. `?` = unverified, not No. Dimensions are **width × depth × height, mm**. `K/F/B` = rotary controls / footswitches / separate buttons; toe switches are additional. Prices below are **USD** seller observations, excluding destination tax/shipping. A missing used price is not estimated from the new price.
+
+B1-family downloads now advertise additional BitCrush and DynaDelay releases in February and April 2026; these are downloadable library additions, not evidence that all installed units contain an identical count. On B6, the manual specifies **six** simultaneous effects; do not confuse the nine footswitches with nine processing slots.
+
+[P1] [Thomann B6 listing and cross-listed comparison](https://www.thomannmusic.com/zoom_b6.htm): historical $359 US-facing USD ask, excluding destination tax/shipping; not an IDR estimate or completed sale. Original [bass comparison](effects/bass.md) remains unchanged, preserving incoming links.
+
+Primary sources: [official B6 product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b6/),[manufacturer HTML operation manual](https://zoomcorp.com/manuals/b6-en/),[original official top image](https://zoomcorp.com/media/original_images/01_B6_top.jpg.800x482_q70_crop_size_canvas.jpg). The legacy photograph-based control count is retained, not presented as a new image inspection.
+
+### B6 — current manual clarification
+
+| Field | Verified detail / remaining gap |
+|---|---|
+| Built-in expression / toe |No built-in pedal; FP02M external input. Separate toe input unverified |
+| Display |4.3-inch TFT color touchscreen,480×272 |
+| User IR locations |120 total:001–036 supplied;037–120 user-assignment range =84 by arithmetic. Original unknown resolved; factory overwrite rules and sample-length limit unverified |
+| IR import |WAV44.1–192kHz,16/24/32-bit via SD. Cabinet IRs do not establish NAM/capture loading |
+| Looper |90 s mono /45 s stereo internally; SD extends to2 h,fixed stereo,44.1kHz16-bit WAV. PRE/POST placement |
+| USB audio |2-in/2-out;44.1kHz32-bit or88.2kHz16-bit. Internal sampling88.2kHz is separate. Playback enters after effects |
+| Power |9V500mA center-negative AD-16;USB bus power explicitly unsupported. Operating battery not established |
+| Preset memory |240 editable total; exact factory-filled subset remains unknown |
+| Physical controls verification |Legacy4/9/0 front-panel count retained; no new successful panel inspection. Rear power and input-impedance/ground switches are separate |
+
+The current manufacturer product confirms13 amp choices (11 historical plus2 originals),12 cabinets with3 mic positions each,and Bass Standard Synth/Bass Synth Talk. Four DI choices are separate from the six DSP-limited effect positions. Full current category subtotals remain unknown. Piezo input support is not an electric-to-acoustic simulator. Native NAM,converted NAM and user amp captures remain unverified.
+
+Guitar Lab Windows/macOS and Handy Guitar Lab iOS/iPadOS with optional BTA-1 remain distinct from USB audio. Android full-editor support and current exact OS minimums were not established. No software,driver,firmware or dependency was installed.
+
+### B6 — separate IDR evidence checked2026-10-16
+
+| Price class | Amount | Exact hardware offer and qualification |
+|---|---:|---|
+| Retail older indexed voucher bundle |**Rp8.004.000 with voucher** |[Zoom Official Shop,shop348182890/item18102852763](https://shopee.co.id/Zoom-B6-Bass-Multi-Effects-Processor-Include-Adaptor-i.348182890.18102852763),JakartaBarat. Title includes adapter; body saysDengan Voucher withRp70k spend/8% discount. Cached8June delivery;eligibility,final amount andlive stock unverified. Account name is not authentication |
+| Retail reopened voucher bundle |**Rp8.415.000 with voucher** |[Same Zoom shop348182890/item18102852763](https://shopee.co.id/Zoom-B6-Bass-Multi-Effects-Processor-Include-Adaptor-i.348182890.18102852763). Reopened body differs from older index:Rp1.5m spend/1% discount and relative tomorrow delivery. Not an unconditional price or checkout-confirmed stock;retain both snapshots |
+| Retail indexed adapter bundle |**Rp11.122.505** |[SuperStore112,shop1510199581/item43712267485](https://shopee.co.id/Zoom-B6-Bass-Multi-Effects-Processor-Include-Adaptor-i.1510199581.43712267485),TangerangSelatan. Cached6–7August delivery,stale seller-activity text;direct reopening returned only a JavaScript shell. Not current inventory certification |
+| Condition-verified used IDR |**?** |No exact condition-verified used offer established. No inferred discount |
+
+These asks are separate observations,not a new/used market range. Search/list pages also show other amounts without a verified exact item/condition match;they are not accepted price bounds. Condition,selected bundle,voucher eligibility,warranty,shipping,stock and seller authenticity remain unverified unless explicitly documented.
+
+Remaining:current category inventory,factory preset subset,IR length/overwrite rules,exact physical-control corroboration,external toe implementation,explicit battery operation,NAM/capture support andqualified used/live-stock pricing. Full original facts,dates,URLs and source qualifications are preserved.

@@ -20,6 +20,7 @@ MODELS = {
     'b1-four': ('B1 FOUR', 'effects/bass.md'),
     'b1x-four': ('B1X FOUR', 'effects/bass.md'),
     'b2-four': ('B2 FOUR', 'effects/bass.md'),
+    'b6': ('B6', 'effects/bass.md'),
 }
 
 

@@ -129,3 +129,7 @@ consolidation-commit-b2-four:
 .PHONY: research-source-b2-controls
 research-source-b2-controls:
 	python3 scripts/research_tools.py source-b2-controls
+
+.PHONY: consolidation-commit-b6
+consolidation-commit-b6:
+	python3 scripts/consolidation_tools.py commit b6
