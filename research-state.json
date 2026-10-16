@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 106,
-  "legacy_only_model_count": 20,
+  "canonical_root_model_count": 107,
+  "legacy_only_model_count": 19,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery — no model selected",
-    "task": "Continue fresh Shopee discovery by brand/series, lossless legacy consolidation and unresolved-field research; use current counts.",
+    "model": "Valeton GP-150 — firmware-qualified NAM correction",
+    "task": "Fresh official regional notice explicitly documents GP-150/180 native NAM A2 Lite at firmware1.1.1+. Review GP-150 first, preserve older SnapTone-only evidence and its date, update comparison fields and commit before GP-180. Notice also warrants separate GP-100 conversion review. Then resume fresh Shopee discovery and lossless consolidation.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 20 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 19 legacy-only models."
   },
   "new_findings": [
     {
@@ -6908,6 +6908,114 @@
       "supporting_source_hashes": {
         "effects/guitar-compact.md": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc"
       }
+    },
+    {
+      "models": [
+        "Valeton GP-200"
+      ],
+      "model_name": "GP-200",
+      "brand": "Valeton",
+      "destination": "VALETON.md#gp-200",
+      "source": "effects/guitar-floorboards.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "source_sha256": "da7a4cecc79f01e332c524570eb53e061722b6eac55b86455993c95c6cc043e4",
+      "retained_comparison_facts": [
+        {
+          "field": "K/F/B",
+          "value": "?/8/?; manufacturer gives 25 knobs/buttons combined, not the separate counts",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "W×D×H, mm; weight",
+          "value": "345×220×62.5; 2.37 kg",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "Size class",
+          "value": "Large",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "Used USD",
+          "value": "?",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "New USD observation",
+          "value": "?",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Hardware and expression"
+        },
+        {
+          "field": "Simultaneous processing; categories / choices",
+          "value": "11 freely movable modules; 240+ models, including 140+ guitar/bass/acoustic amp/cab models and 100+ other effects; per-category counts ?",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "Preset storage",
+          "value": "256 total: 100 factory +156 user",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Acoustic amp/cab models documented; dedicated simulator and synth choices ?",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "Third-party IR",
+          "value": "20 user slots",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "NAM",
+          "value": "Not established",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Processing and memory"
+        },
+        {
+          "field": "Audio/control ports",
+          "value": "¼″ TS input; 2×¼″ TS out +2×XLR balanced out; mono FX loop; 3.5 mm aux/phones; EXP/FS; DIN MIDI IN/OUT-THRU; USB-C",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Connections, power, applications and live use"
+        },
+        {
+          "field": "Power / battery / USB-powered",
+          "value": "**9V/1000mA centre-negative**; battery/USB bus operation not established",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Connections, power, applications and live use"
+        },
+        {
+          "field": "Configuration apps",
+          "value": "Full editor **Windows/macOS**; mobile USB audio is not a mobile editor",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Connections, power, applications and live use"
+        },
+        {
+          "field": "Other practical features",
+          "value": "USB 6-in/4-out; 180 s looper; 100 rhythms; switchable acoustic/electric/line input impedance",
+          "source": "effects/guitar-floorboards.md",
+          "context": "Connections, power, applications and live use"
+        }
+      ],
+      "retained_context": [
+        "Checked **2026-10-14**. This page adds three larger processors; the linked brand pages contain the other researched floorboards. **Partial records**: `?` is unverified, not No. Dimensions are **width × depth × height, mm**. A built-in pedal does not establish an external-expression socket; both are recorded separately.",
+        "All three have built-in expression and documented external expression/footswitch support. K/F/B = rotary controls / main footswitches / separate buttons; expression toe switches and power switches are separate.",
+        "New prices are individual official-store observations checked **2026-10-14**, not used-to-new market ranges or Indonesian delivered prices. Matribox II Pro dimensions are intentionally not copied from an unverified reseller listing.",
+        "- GP-200's published 25 combined controls are retained as a combined claim until separate rotary/button counts are verified; no arbitrary split has been invented."
+      ],
+      "retained_source_urls": [
+        "https://www.valeton.net/product/gp-200/"
+      ],
+      "status": "Consolidated; new GP-200X offer and NAM-conversion evidence; partial"
     }
   ],
   "discovery_leads": [
@@ -6962,6 +7070,18 @@
         "https://shopee.co.id/Boss-GT-100-COSM-Amp-Effects-Processor-GT100-GT-100-GARANSI-RESMI-i.10763705.3991620791"
       ],
       "qualification": "Indexed cached asks4.3m/6.645m,Habis;condition/current stock unconfirmed. Not used-price proof."
+    },
+    {
+      "model": "Valeton GP-200X",
+      "checked_date": "2026-10-17",
+      "status": "Anniversary variant retained under GP-200; no additional model count",
+      "url": "https://shopee.co.id/Valeton-GP-200X-Multi-Effects-Processor-GP200X-GP-200-X-GP-200X-GP200-X-i.760002726.48805823582",
+      "seller": "Gallery Music Bekasi",
+      "seller_id": "760002726",
+      "item_id": "48805823582",
+      "indexed_idr": 6620000,
+      "reopened_indexed_idr": 6486800,
+      "qualification": "Both with-voucher cached snapshots; discrepant values retained. Condition/bundle/region/checkout stock unconfirmed. Other sold-out exact item548551522/27173361420 indexed6350000; reopen cache miss."
     }
   ],
   "inventory_by_brand": {
@@ -7152,7 +7272,8 @@
       "GP-200LT",
       "GP-200JR",
       "GP-100",
-      "GP-150"
+      "GP-150",
+      "GP-200"
     ],
     "MOOER.md": [
       "GE250",
@@ -7309,7 +7430,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "20 legacy-only models remain;106 root-canonical. Full migration and research incomplete.",
+    "warning": "19 legacy-only models remain;107 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -7379,8 +7500,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 106,
-    "legacy_only_models": 20,
+    "canonical_root_models": 107,
+    "legacy_only_models": 19,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -7413,7 +7534,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery — no model selected."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-150 — firmware-qualified NAM correction."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -8564,9 +8685,9 @@
       ]
     },
     "Valeton::GP-200": {
-      "link": "effects/guitar-floorboards.md",
+      "link": "VALETON.md#gp-200",
       "source_files": [
-        "effects/guitar-floorboards.md"
+        "VALETON.md"
       ],
       "finding_files": []
     },
@@ -8752,5 +8873,12 @@
       "Shopee Mooer PE100"
     ],
     "result": "No exact newly accepted hardware offer. Preset packs, noisy lists and unresolved storefront-only candidates not added to model counts; absence is not proof of unavailability."
+  },
+  "discovery_search_pass_20261017": {
+    "queries": [
+      "site:shopee.co.id MOOER GS1000 Li",
+      "site:shopee.co.id Valeton GP-200X"
+    ],
+    "result": "No exact GS1000 Li hardware lead returned. GP-200X exact hardware offers found; official shared-feature statement supports variant within existing GP-200 record. Counts unchanged; absence of another exact lead is not market coverage."
   }
 }

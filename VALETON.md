@@ -1,6 +1,6 @@
 # Valeton multi-effects
 
-Root-level brand records. New evidence checked **2026-10-15**. Existing GP-5/50/180/200 records remain in legacy files until their complete source-backed content is consolidated here; they are not counted again or deleted by this addition.
+Root-level brand records. New evidence checked **2026-10-15**. Existing GP-5/50/180 records remain in legacy files until their complete source-backed content is consolidated here; they are not counted again or deleted by this addition.
 
 ## GP-200LT
 
@@ -294,3 +294,69 @@ These earlier observations were recorded on **2026-10-14** before the IDR revisi
 Historical GP-150 source URLs: https://shop.valeton.net/products/gp-150, https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png
 
 Sources: [effects/findings/2026-10-14-valeton-gp-150.md](effects/findings/2026-10-14-valeton-gp-150.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+
+## GP-200
+
+Consolidated 2026-10-17. Historical observations below retain their 2026-10-14 date. GP-200X is retained as an anniversary variant of this existing model, not another active count. Technical verification remains partial.
+
+### Complete legacy GP-200 evidence
+
+Checked **2026-10-14**. This page adds three larger processors; the linked brand pages contain the other researched floorboards. **Partial records**: `?` is unverified, not No. Dimensions are **width × depth × height, mm**. A built-in pedal does not establish an external-expression socket; both are recorded separately.
+
+All three have built-in expression and documented external expression/footswitch support. K/F/B = rotary controls / main footswitches / separate buttons; expression toe switches and power switches are separate.
+
+New prices are individual official-store observations checked **2026-10-14**, not used-to-new market ranges or Indonesian delivered prices. Matribox II Pro dimensions are intentionally not copied from an unverified reseller listing.
+
+- GP-200's published 25 combined controls are retained as a combined claim until separate rotary/button counts are verified; no arbitrary split has been invented.
+
+- **K/F/B** (Hardware and expression): ?/8/?; manufacturer gives 25 knobs/buttons combined, not the separate counts
+- **W×D×H, mm; weight** (Hardware and expression): 345×220×62.5; 2.37 kg
+- **Size class** (Hardware and expression): Large
+- **Used USD** (Hardware and expression): ?
+- **New USD observation** (Hardware and expression): ?
+- **Simultaneous processing; categories / choices** (Processing and memory): 11 freely movable modules; 240+ models, including 140+ guitar/bass/acoustic amp/cab models and 100+ other effects; per-category counts ?
+- **Preset storage** (Processing and memory): 256 total: 100 factory +156 user
+- **Synth / acoustic** (Processing and memory): Acoustic amp/cab models documented; dedicated simulator and synth choices ?
+- **Third-party IR** (Processing and memory): 20 user slots
+- **NAM** (Processing and memory): Not established
+- **Audio/control ports** (Connections, power, applications and live use): ¼″ TS input; 2×¼″ TS out +2×XLR balanced out; mono FX loop; 3.5 mm aux/phones; EXP/FS; DIN MIDI IN/OUT-THRU; USB-C
+- **Power / battery / USB-powered** (Connections, power, applications and live use): **9V/1000mA centre-negative**; battery/USB bus operation not established
+- **Configuration apps** (Connections, power, applications and live use): Full editor **Windows/macOS**; mobile USB audio is not a mobile editor
+- **Other practical features** (Connections, power, applications and live use): USB 6-in/4-out; 180 s looper; 100 rhythms; switchable acoustic/electric/line input impedance
+
+Original primary source: https://www.valeton.net/product/gp-200/
+Legacy source: [guitar-floorboards](effects/guitar-floorboards.md). No source file or incoming link was removed.
+
+### GP-200 comparison fields
+
+| Field | Evidence / qualification |
+|---|---|
+| K/F/B | ?/8/?; manufacturer gives 25 knobs/buttons combined, not the separate counts |
+| W×D×H, mm; weight | 345×220×62.5; 2.37 kg |
+| Size class | Large |
+| Used USD | ? |
+| New USD observation | ? |
+| Simultaneous processing; categories / choices | 11 freely movable modules; 240+ models, including 140+ guitar/bass/acoustic amp/cab models and 100+ other effects; per-category counts ? |
+| Preset storage | 256 total: 100 factory +156 user |
+| Synth / acoustic | Acoustic amp/cab models documented; dedicated simulator and synth choices ? |
+| Third-party IR | 20 user slots |
+| NAM | **NAM A2 conversion**, desktop software **1.8.1+**, explicitly names GP-200, GP-200X and GP-200R in the official regional notice dated 2026-08-18. Native unrestricted NAM, architecture limits and simultaneous import capacity remain unverified. [GP200-N](https://www.hotone.jp/announcements/nama2allbrand). Supersedes the historical unestablished NAM field above. |
+| Audio/control ports | ¼″ TS input; 2×¼″ TS out +2×XLR balanced out; mono FX loop; 3.5 mm aux/phones; EXP/FS; DIN MIDI IN/OUT-THRU; USB-C |
+| Power / battery / USB-powered | **9V/1000mA centre-negative**; battery/USB bus operation not established |
+| Configuration apps | Full editor **Windows/macOS**; mobile USB audio is not a mobile editor |
+| Other practical features | USB 6-in/4-out; 180 s looper; 100 rhythms; switchable acoustic/electric/line input impedance |
+| Expression | Built-in optical expression; external TRS EXP/FS socket. Toe-switch behavior remains unverified. [GP200-P](https://en.valeton.net/product/gp-200/) |
+| Display | Published 4.3-inch 480×272 TFT LCD; color/touch not independently established in this pass. No diagonal estimated from a photograph. [GP200-P](https://en.valeton.net/product/gp-200/) |
+| New / retail IDR — GP-200X anniversary variant only | **Rp6.486.800 with voucher**, Gallery Music Bekasi, seller760002726/item48805823582, Kota Bekasi; indexed reopen checked2026-10-17. Search snapshot instead showed **Rp6.620.000 with voucher** for this same item. Both are conditional cached observations, not a verified standard GP-200 price or live stock. Condition, bundle, warranty region, shipping/tax and checkout voucher eligibility unconfirmed. [GP200-S](https://shopee.co.id/Valeton-GP-200X-Multi-Effects-Processor-GP200X-GP-200-X-GP-200X-GP200-X-i.760002726.48805823582) |
+
+### GP-200X anniversary variant and offer limitations
+
+[Valeton's own GP-200X page](https://www.valeton.net/product/gp-200x/) explicitly states shared features/functions with GP-200. It documents navy/red finishing, anniversary firmware, **28 artist presets from12 artists** and a gift box with pick and copper/leather pick-holder keychain. GP-200/GP-200R can receive the firmware and artist presets too. Do not add28 to the256-location capacity or assume seller bundles contain every advertised gift. The variant has its own physical finish and packaging; its offers must remain labelled GP-200X.
+
+A second [Sunny Music Palembang offer](https://shopee.co.id/Valeton-GP-200X-Multi-Effect-Processor-GP-200-X-GP-200X-i.548551522.27173361420), seller548551522/item27173361420, was indexed at **Rp6.350.000, Habis**, with stale9–12July delivery text. Direct reopening returned a cache miss. This is a historical sold-out anniversary-variant ask, not used-price evidence, a live-stock offer or a standard GP-200 quote. Checked2026-10-17; condition, bundle, warranty region and delivered charges remain unknown. No voucher arithmetic or currency conversion was applied.
+
+The Gallery item's search snapshot had stale4–5October delivery; reopening supplied a different conditional amount and relative delivery text. This disagreement is retained, not resolved by guessing a discount. Neither amount is checkout-confirmed. No dependable used IDR offer was established for GP-200 or its anniversary variant.
+
+### Outstanding GP-200 checks
+
+Separate rotary/button counts and toe operation; complete current category choices and synth/simulator algorithms; factory-memory overwrite rules; IR formats/conversion; NAM architectures/concurrency; explicit screen color/touch; battery/USB operation; driver/updater versions, scenes/routing and qualified standard-model used/new Shopee evidence remain unresolved. Do not import sibling GP-200JR/LT manual specifications without model-specific evidence.
