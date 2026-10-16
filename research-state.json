@@ -30,7 +30,7 @@
   "cursor": {
     "model": "HeadRush Prime",
     "destination": "HEADRUSH.md",
-    "task": "First finish requested all-model comparison views and HX Effects root consolidation; then research HeadRush Prime with exact Shopee/official evidence and commit before GE300.",
+    "task": "Research exact HeadRush Prime hardware leads and official model-specific evidence; update HEADRUSH, affected instrument/category comparisons and ledger, verify and commit before GE300. All-model comparison rebuild and HX Effects consolidation are already saved.",
     "listing_url": "https://shopee.co.id/HEADRUSH-PRIME-%E2%80%93-Next-Generation-Guitar-FX-Amp-Modeler-and-Vocal-Processor-Touchscreen-Pedalboard-Original-i.945642322.52161712736",
     "next_models": [
       "MOOER GE300"
@@ -137,7 +137,8 @@
       "source": "effects/advanced-modelers.md",
       "checked_date": "2026-10-16",
       "commit_subject": "research(line6): consolidate HX Effects as guitar and bass multi-effects",
-      "scope": "Complete legacy HX Effects facts and sources retained; refreshed primary panel controls/ports, synth/IR limits and software; no new model, no legacy deletion."
+      "scope": "Complete legacy HX Effects facts and sources retained; refreshed primary panel controls/ports, synth/IR limits and software; no new model, no legacy deletion.",
+      "commit": "9c8d296"
     }
   ],
   "discovery_leads": [
@@ -424,21 +425,25 @@
   "instrument_views": {
     "ALL-GUITAR.md": {
       "record_count": 101,
-      "scope": "All currently recorded guitar/acoustic models; shared vocal/general-instrument devices can overlap other views",
-      "migration": "Root brand links where consolidated; legacy source links explicitly retained for all other models"
+      "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
+      "technical_refresh": false
     },
     "ALL-BASS.md": {
+      "record_count": 52,
       "bass_focused_record_count": 11,
-      "scope": "Complete bass-focused inventory plus documented cross-instrument references; broader bass-capability classification remains partial"
+      "shared_bass_capable_count": 41,
+      "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
+      "technical_refresh": false
     },
     "ALL-VOCAL.md": {
       "record_count": 15,
       "vocal_only_count": 9,
       "combined_instrument_count": 6,
-      "scope": "Documented vocal or mic/line processing; mic path alone is not proof of harmony or pitch correction"
+      "scope": "All retained vocal/live-mic records across four comparison tables",
+      "technical_refresh": false
     },
     "MULTI-EFFECTS.md": {
-      "root_model_summary_count": 13,
+      "root_model_summary_count": 14,
       "scope": "Expression/size/display comparisons for root canonical records plus qualified recent IDR offers; not all117 technical rows"
     },
     "counts_overlap": true,
@@ -449,7 +454,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Created; legacy-only detailed records still require complete brand consolidation",
+    "root_category_and_instrument_views": "Actual four-table comparisons:101 guitar,52 documented bass-capable,15 vocal; full brand consolidation remains incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "72 models still rely on legacy details;49 root-canonical; all-model comparison rebuilding in progress.",
@@ -530,12 +535,17 @@
     "vocal_view_models": 15,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
-    "date": "2026-10-16"
+    "date": "2026-10-16",
+    "bass_view_models": 52,
+    "bass_shared_models": 41,
+    "comparison_tables_per_instrument": 4,
+    "specialists_segregated": true,
+    "workflow_files": 0
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
   "response_handoff": "At the end of a research session provide the user a copyable agent continuation prompt with this exact cursor, no-workflow boundary, root-document layout, per-model immediate commits and unresolved consolidation. Never promise unattended background continuation.",
   "user_requested_comparison_rebuild": {
-    "status": "in_progress",
+    "status": "verified",
     "requirements": [
       "ALL-GUITAR: one comparable row per eligible guitar/acoustic multifx, including HX Effects",
       "ALL-BASS: all bass-focused and documented bass-capable multifx, no unsupported blanket inference",
@@ -543,6 +553,1311 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Rebuild all comparison tables from complete existing records; separate dedicated/excluded pedal archives."
+    "next": "Research HeadRush Prime from saved exact Shopee leads and official model-specific documentation, commit before MOOER GE300; continue remaining 72 lossless brand consolidations."
+  },
+  "comparison_membership": {
+    "ALL-GUITAR.md": [
+      "Audota::AME-100",
+      "Audota::AME-200",
+      "Audota::AME-200 Pro",
+      "Audota::ACE-100",
+      "Boin Audio::BG300",
+      "BOSS::GT-1000CORE",
+      "BOSS::GX-10",
+      "BOSS::GT-1",
+      "BOSS::GX-1",
+      "BOSS::ME-90",
+      "BOSS::GX-100",
+      "BOSS::GT-1000",
+      "BOSS::VE-8",
+      "BOSS::GM-800",
+      "CUVAVE::H8",
+      "Donner::Arena2000",
+      "Fender::Tone Master Pro",
+      "Flamma::FX100",
+      "Flamma::FX200",
+      "Flamma::FX150",
+      "HeadRush::Core",
+      "HeadRush::Flex Prime",
+      "HeadRush::MX5",
+      "Hotone::Ampero Mini MP-50",
+      "Hotone::Ampero MP-100",
+      "Hotone::Ampero II MP-350",
+      "Hotone::Ampero II Stage MP-380",
+      "Hotone::Ampero II Stomp MP-300",
+      "Hotone::Ampero One MP-80",
+      "IK Multimedia::TONEX ONE",
+      "IK Multimedia::TONEX Pedal",
+      "JOYO::GEM BOX original",
+      "JOYO::GEM BOX II",
+      "JOYO::GEM BOX III",
+      "Line 6::HX Stomp",
+      "Line 6::HX Effects",
+      "Line 6::HX Stomp XL",
+      "Line 6::POD Go",
+      "Line 6::POD Go Wireless",
+      "Line 6::POD Express Guitar",
+      "MOOER::GE100 original",
+      "MOOER::GE150 original",
+      "MOOER::GE150 Pro Li",
+      "MOOER::GE200 original",
+      "MOOER::GE100 Pro",
+      "MOOER::GE100 Pro Li",
+      "MOOER::GE200 Pro",
+      "MOOER::GE200 Pro Li",
+      "MOOER::GE1000",
+      "MOOER::GE150 Pro",
+      "MOOER::GE150 Plus",
+      "MOOER::GE150 Plus Li",
+      "MOOER::GE150 Max",
+      "MOOER::GE150 Max Li",
+      "MOOER::GE1000 Li",
+      "MOOER::GE250",
+      "M-VAVE::TANK-G",
+      "M-VAVE::TANK MINI",
+      "M-VAVE::MK-20",
+      "M-VAVE::MK-300",
+      "M-VAVE::TANK-PRO",
+      "M-VAVE::ANN Blackbox",
+      "M-VAVE::MINI-X",
+      "M-VAVE::Pocket Amp",
+      "M-VAVE::CUBE BABY electric",
+      "M-VAVE::CUBE BABY AC",
+      "Neural DSP::Nano Cortex",
+      "NUX::MG-101",
+      "NUX::MG-300 original",
+      "NUX::MG-300 MKII",
+      "NUX::MG-400",
+      "NUX::MG-30",
+      "NUX::MG-50Li",
+      "NUX::MG-100",
+      "NUX::MG-200",
+      "NUX::TRIDENT NME-5",
+      "NUX::Cerberus NME-3",
+      "Roland::GR-55",
+      "Scorpion::KMF-10",
+      "Sonicake::Matribox QME-50",
+      "Sonicake::Smart Box QME-20",
+      "Sonicake::Pocket Master QME-10",
+      "Sonicake::Matribox II QME-100",
+      "Sonicake::Matribox II Pro QME-200",
+      "Sonicake::Sonic Wood QCE-50",
+      "TC-Helicon::Play Acoustic",
+      "Valeton::GP-100",
+      "Valeton::GP-150",
+      "Valeton::GP-5",
+      "Valeton::GP-50",
+      "Valeton::GP-180",
+      "Valeton::GP-200",
+      "Valeton::GP-200LT",
+      "Valeton::GP-200JR",
+      "VING::Flybro FB-100",
+      "Zoom::G1 FOUR",
+      "Zoom::G1X FOUR",
+      "Zoom::G2 FOUR",
+      "Zoom::G2X FOUR",
+      "Zoom::G6",
+      "Zoom::G11"
+    ],
+    "ALL-BASS.md": [
+      "Audota::AME-200",
+      "Audota::AME-200 Pro",
+      "BOSS::GT-1000CORE",
+      "BOSS::GX-10",
+      "BOSS::GX-100",
+      "BOSS::GT-1000",
+      "BOSS::GT-1B",
+      "BOSS::GX-1B",
+      "BOSS::ME-90B",
+      "BOSS::GM-800",
+      "Fender::Tone Master Pro",
+      "HeadRush::Core",
+      "HeadRush::Flex Prime",
+      "HeadRush::MX5",
+      "Hotone::Ampero MP-100",
+      "Hotone::Ampero II MP-350",
+      "Hotone::Ampero II Stage MP-380",
+      "Hotone::Ampero II Stomp MP-300",
+      "Hotone::Ampero One MP-80",
+      "Line 6::HX Stomp",
+      "Line 6::HX Effects",
+      "Line 6::HX Stomp XL",
+      "Line 6::POD Go",
+      "Line 6::POD Go Wireless",
+      "Line 6::POD Express Bass",
+      "MOOER::GE1000",
+      "MOOER::GE1000 Li",
+      "MOOER::GE250",
+      "M-VAVE::TANK-B",
+      "M-VAVE::TANK MINI",
+      "M-VAVE::MK-20",
+      "M-VAVE::MK-300",
+      "M-VAVE::TANK-PRO",
+      "M-VAVE::ANN Blackbox",
+      "M-VAVE::Pocket Amp",
+      "M-VAVE::CUBE BABY BASS",
+      "NUX::MG-300 original",
+      "NUX::MG-400",
+      "NUX::MG-30",
+      "Roland::GR-55",
+      "Valeton::GP-100",
+      "Valeton::GP-150",
+      "Valeton::GP-180",
+      "Valeton::GP-200",
+      "Valeton::GP-200LT",
+      "Valeton::GP-200JR",
+      "Zoom::B1 FOUR",
+      "Zoom::B2 FOUR",
+      "Zoom::B6",
+      "Zoom::B1X FOUR",
+      "Zoom::B1Xon",
+      "Zoom::G11"
+    ],
+    "ALL-VOCAL.md": [
+      "Audota::AVE-100",
+      "BOSS::VE-1",
+      "BOSS::VE-2",
+      "BOSS::VE-500",
+      "BOSS::VE-22",
+      "BOSS::VE-8",
+      "BOSS::VE-20",
+      "Fender::Tone Master Pro",
+      "HeadRush::Core",
+      "Hotone::Ampero II MP-350",
+      "Hotone::Ampero II Stage MP-380",
+      "TC-Helicon::VoiceLive Play",
+      "TC-Helicon::Play Acoustic",
+      "Zoom::V6-SP",
+      "Zoom::V3"
+    ]
+  },
+  "comparison_bass_basis": {
+    "Audota::AME-200": "Model-specific finding explicitly describes guitar/bass capability.",
+    "Audota::AME-200 Pro": "Separate Pro finding explicitly describes guitar/bass capability.",
+    "BOSS::GT-1000CORE": "Bass mode and bass drive types in retained BOSS comparison.",
+    "BOSS::GT-1000": "Guitar/bass processing in retained BOSS comparison.",
+    "BOSS::GX-10": "Nine bass amps in the documented 32-amp library.",
+    "BOSS::GX-100": "Version 2 adds six bass amps; retained dated primary evidence.",
+    "BOSS::GM-800": "GK-5B/Serial GK bass use; requires divided pickup/interface.",
+    "HeadRush::Core": "Guitar/bass processing retained in existing bass classification; mic is separate.",
+    "HeadRush::MX5": "Root model explicitly identifies guitar/bass processing.",
+    "HeadRush::Flex Prime": "Root model explicitly documents guitar/bass library.",
+    "Fender::Tone Master Pro": "Root model explicitly identifies guitar/bass processing.",
+    "Hotone::Ampero MP-100": "Complete model-specific finding identifies guitar/bass multi-effects.",
+    "Hotone::Ampero II Stomp MP-300": "Complete model-specific finding identifies guitar/bass multi-effects.",
+    "Hotone::Ampero II MP-350": "Complete model-specific finding explicitly identifies guitar/bass/vocal processing.",
+    "Hotone::Ampero II Stage MP-380": "Separate Stage finding explicitly identifies guitar/bass/vocal processing.",
+    "Hotone::Ampero One MP-80": "Manufacturer input and model-specific acoustic/bass library evidence.",
+    "Line 6::HX Stomp": "Documented bass-capable HX processing in retained bass classification.",
+    "Line 6::HX Effects": "Manufacturer FAQ explicitly identifies guitar and bass rigs.",
+    "Line 6::HX Stomp XL": "Firmware 3.80 appendix includes seventeen bass amp models.",
+    "Line 6::POD Go": "Model-specific bass amps and firmware 2.50 bass additions.",
+    "Line 6::POD Go Wireless": "Explicit manufacturer-shared POD Go documentation includes bass models.",
+    "MOOER::GE1000": "Model-specific appendix includes bass preamps and cabinets.",
+    "MOOER::GE1000 Li": "Manufacturer shared manual explicitly covers Li; guitar/bass finding retained.",
+    "MOOER::GE250": "Existing bass view documents bass-capable library; count conflicts retained.",
+    "M-VAVE::TANK MINI": "Five bass amps and factory bass banks.",
+    "M-VAVE::MK-20": "Model-specific finding explicitly identifies guitar/bass processing.",
+    "M-VAVE::MK-300": "Thirty bass amps and twenty-five bass cabinets in retained library.",
+    "M-VAVE::TANK-PRO": "Model-specific bass EQ/amp entries.",
+    "M-VAVE::ANN Blackbox": "Five bass amps/cabs and bass factory presets.",
+    "M-VAVE::Pocket Amp": "Five bass amps/cabs in the model-specific library.",
+    "NUX::MG-300 original": "Model-specific root profile retains firmware-added bass processing.",
+    "NUX::MG-400": "Model-specific acoustic/bass cabinet content documented; no blanket bass-amp claim.",
+    "NUX::MG-30": "Five bass amps in manufacturer 35-amp breakdown.",
+    "Roland::GR-55": "Separate guitar/bass modes with bass modeling and firmware-qualified factory memory; GK required.",
+    "Valeton::GP-100": "Forty-five guitar/bass/acoustic amp models in retained evidence.",
+    "Valeton::GP-150": "Ten bass factory presets in retained model-specific record.",
+    "Valeton::GP-180": "Documented bass-related processing in retained bass comparison; full profile remains partial.",
+    "Valeton::GP-200": "Explicit guitar/bass/acoustic amp/cab library.",
+    "Valeton::GP-200LT": "Root record explicitly identifies guitar/bass/acoustic processing.",
+    "Valeton::GP-200JR": "Root record explicitly identifies guitar/bass/acoustic processing; manual copy errors retained.",
+    "Zoom::G11": "V2 adds nine bass amps and bass effects; root record retains dated distinctions."
+  },
+  "comparison_model_sources": {
+    "Audota::AME-100": {
+      "link": "effects/findings/2026-10-15-audota-ame-100.md",
+      "source_files": [
+        "effects/audota.md",
+        "effects/findings/2026-10-15-audota-ame-100.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-audota-ame-100.md"
+      ]
+    },
+    "Audota::AME-200": {
+      "link": "effects/findings/2026-10-15-audota-ame-200.md",
+      "source_files": [
+        "effects/audota.md",
+        "effects/findings/2026-10-15-audota-ame-200.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-audota-ame-200.md"
+      ]
+    },
+    "Audota::AME-200 Pro": {
+      "link": "effects/findings/2026-10-15-audota-ame-200-pro.md",
+      "source_files": [
+        "effects/audota.md",
+        "effects/findings/2026-10-15-audota-ame-200-pro.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-audota-ame-200-pro.md"
+      ]
+    },
+    "Audota::ACE-100": {
+      "link": "effects/findings/2026-10-15-audota-ace-100.md",
+      "source_files": [
+        "effects/audota.md",
+        "effects/findings/2026-10-15-audota-ace-100.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-audota-ace-100.md"
+      ]
+    },
+    "Audota::AVE-100": {
+      "link": "effects/findings/2026-10-15-audota-ave-100.md",
+      "source_files": [
+        "effects/audota.md",
+        "effects/findings/2026-10-15-audota-ave-100.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-audota-ave-100.md"
+      ]
+    },
+    "Boin Audio::BG300": {
+      "link": "effects/findings/2026-10-14-boin-audio-bg300.md",
+      "source_files": [
+        "effects/findings/2026-10-14-boin-audio-bg300.md",
+        "effects/shopee-multifx-2.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-boin-audio-bg300.md"
+      ]
+    },
+    "BOSS::GT-1000CORE": {
+      "link": "effects/findings/2026-10-15-boss-gt1000core-display-idr.md",
+      "source_files": [
+        "effects/findings/2026-10-15-boss-gt1000core-display-idr.md",
+        "effects/guitar-boss.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-boss-gt1000core-display-idr.md"
+      ]
+    },
+    "BOSS::GX-10": {
+      "link": "effects/findings/2026-10-15-boss-gx10-display-idr.md",
+      "source_files": [
+        "effects/findings/2026-10-15-boss-gx10-display-idr.md",
+        "effects/guitar-boss.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-boss-gx10-display-idr.md"
+      ]
+    },
+    "BOSS::GT-1": {
+      "link": "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+      "source_files": [
+        "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+        "effects/guitar-boss.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-boss-gt1-display-idr.md"
+      ]
+    },
+    "BOSS::GX-1": {
+      "link": "effects/findings/2026-10-15-boss-gx1-display-idr.md",
+      "source_files": [
+        "effects/findings/2026-10-15-boss-gx1-display-idr.md",
+        "effects/guitar-boss.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-boss-gx1-display-idr.md"
+      ]
+    },
+    "BOSS::ME-90": {
+      "link": "effects/findings/2026-10-15-boss-me90-display-idr.md",
+      "source_files": [
+        "effects/findings/2026-10-15-boss-me90-display-idr.md",
+        "effects/guitar-boss.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-boss-me90-display-idr.md"
+      ]
+    },
+    "BOSS::GX-100": {
+      "link": "effects/findings/2026-10-15-boss-gx100-display-idr.md",
+      "source_files": [
+        "effects/findings/2026-10-15-boss-gx100-display-idr.md",
+        "effects/guitar-boss.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-boss-gx100-display-idr.md"
+      ]
+    },
+    "BOSS::GT-1000": {
+      "link": "effects/findings/2026-10-15-boss-gt1000-display-idr.md",
+      "source_files": [
+        "effects/findings/2026-10-15-boss-gt1000-display-idr.md",
+        "effects/guitar-boss.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-boss-gt1000-display-idr.md"
+      ]
+    },
+    "BOSS::GT-1B": {
+      "link": "effects/bass.md",
+      "source_files": [
+        "effects/bass.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::GX-1B": {
+      "link": "effects/bass.md",
+      "source_files": [
+        "effects/bass.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::ME-90B": {
+      "link": "effects/bass.md",
+      "source_files": [
+        "effects/bass.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::VE-1": {
+      "link": "effects/vocal.md",
+      "source_files": [
+        "effects/vocal.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::VE-2": {
+      "link": "effects/vocal.md",
+      "source_files": [
+        "effects/vocal.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::VE-500": {
+      "link": "effects/vocal.md",
+      "source_files": [
+        "effects/vocal.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::VE-22": {
+      "link": "effects/vocal.md",
+      "source_files": [
+        "effects/vocal.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::VE-8": {
+      "link": "effects/vocal.md",
+      "source_files": [
+        "effects/vocal.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::VE-20": {
+      "link": "effects/vocal.md",
+      "source_files": [
+        "effects/vocal.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::GM-800": {
+      "link": "effects/specialist.md#eligible-record-boss-gm-800",
+      "source_files": [
+        "effects/specialist.md"
+      ],
+      "finding_files": []
+    },
+    "CUVAVE::H8": {
+      "link": "effects/findings/2026-10-15-cuvave-h8.md",
+      "source_files": [
+        "effects/findings/2026-10-15-cuvave-h8.md",
+        "effects/owned-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-cuvave-h8.md"
+      ]
+    },
+    "Donner::Arena2000": {
+      "link": "DONNER.md#arena2000",
+      "source_files": [
+        "DONNER.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-donner-arena2000.md"
+      ]
+    },
+    "Fender::Tone Master Pro": {
+      "link": "FENDER.md#tone-master-pro",
+      "source_files": [
+        "FENDER.md"
+      ],
+      "finding_files": []
+    },
+    "Flamma::FX100": {
+      "link": "FLAMMA.md#fx100",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-flamma-fx100.md"
+      ]
+    },
+    "Flamma::FX200": {
+      "link": "FLAMMA.md#fx200",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-flamma-fx200.md"
+      ]
+    },
+    "Flamma::FX150": {
+      "link": "FLAMMA.md#fx150",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": []
+    },
+    "HeadRush::Core": {
+      "link": "HEADRUSH.md#core",
+      "source_files": [
+        "HEADRUSH.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-headrush-core.md"
+      ]
+    },
+    "HeadRush::Flex Prime": {
+      "link": "HEADRUSH.md#flex-prime",
+      "source_files": [
+        "HEADRUSH.md"
+      ],
+      "finding_files": []
+    },
+    "HeadRush::MX5": {
+      "link": "HEADRUSH.md#mx5",
+      "source_files": [
+        "HEADRUSH.md"
+      ],
+      "finding_files": []
+    },
+    "Hotone::Ampero Mini MP-50": {
+      "link": "effects/findings/2026-10-14-hotone-ampero-mini.md",
+      "source_files": [
+        "effects/findings/2026-10-14-hotone-ampero-mini.md",
+        "effects/shopee-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-hotone-ampero-mini.md"
+      ]
+    },
+    "Hotone::Ampero MP-100": {
+      "link": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+      "source_files": [
+        "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+        "effects/shopee-multifx-5.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-hotone-ampero-mp100.md"
+      ]
+    },
+    "Hotone::Ampero II MP-350": {
+      "link": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md",
+      "source_files": [
+        "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md",
+        "effects/shopee-multifx-5.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md"
+      ]
+    },
+    "Hotone::Ampero II Stage MP-380": {
+      "link": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
+      "source_files": [
+        "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
+        "effects/shopee-multifx-5.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md"
+      ]
+    },
+    "Hotone::Ampero II Stomp MP-300": {
+      "link": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+      "source_files": [
+        "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+        "effects/shopee-multifx-7.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md"
+      ]
+    },
+    "Hotone::Ampero One MP-80": {
+      "link": "HOTONE.md#ampero-one-mp-80",
+      "source_files": [
+        "HOTONE.md"
+      ],
+      "finding_files": []
+    },
+    "IK Multimedia::TONEX ONE": {
+      "link": "effects/advanced-modelers.md",
+      "source_files": [
+        "effects/advanced-modelers.md"
+      ],
+      "finding_files": []
+    },
+    "IK Multimedia::TONEX Pedal": {
+      "link": "effects/advanced-modelers.md",
+      "source_files": [
+        "effects/advanced-modelers.md"
+      ],
+      "finding_files": []
+    },
+    "JOYO::GEM BOX original": {
+      "link": "JOYO.md#gem-box-original",
+      "source_files": [
+        "JOYO.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-joyo-gembox-original.md"
+      ]
+    },
+    "JOYO::GEM BOX II": {
+      "link": "JOYO.md#gem-box-ii",
+      "source_files": [
+        "JOYO.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-joyo-gembox-ii.md"
+      ]
+    },
+    "JOYO::GEM BOX III": {
+      "link": "JOYO.md#gem-box-iii",
+      "source_files": [
+        "JOYO.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-joyo-gembox-iii.md"
+      ]
+    },
+    "Line 6::HX Stomp": {
+      "link": "effects/advanced-modelers.md",
+      "source_files": [
+        "effects/advanced-modelers.md"
+      ],
+      "finding_files": []
+    },
+    "Line 6::HX Effects": {
+      "link": "LINE6.md#hx-effects",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": []
+    },
+    "Line 6::HX Stomp XL": {
+      "link": "effects/findings/2026-10-14-line6-hx-stomp-xl.md",
+      "source_files": [
+        "effects/findings/2026-10-14-line6-hx-stomp-xl.md",
+        "effects/shopee-multifx-5.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-line6-hx-stomp-xl.md"
+      ]
+    },
+    "Line 6::POD Go": {
+      "link": "LINE6.md#pod-go-and-pod-go-wireless",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-line6-pod-go.md"
+      ]
+    },
+    "Line 6::POD Go Wireless": {
+      "link": "LINE6.md#pod-go-and-pod-go-wireless",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-line6-pod-go-wireless.md"
+      ]
+    },
+    "Line 6::POD Express Guitar": {
+      "link": "LINE6.md#pod-express-guitar",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-line6-pod-express-guitar.md"
+      ]
+    },
+    "Line 6::POD Express Bass": {
+      "link": "LINE6.md#pod-express-bass",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-line6-pod-express-bass.md"
+      ]
+    },
+    "MOOER::GE100 original": {
+      "link": "effects/findings/2026-10-14-mooer-ge100.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge100.md",
+        "effects/shopee-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge100.md"
+      ]
+    },
+    "MOOER::GE150 original": {
+      "link": "effects/findings/2026-10-14-mooer-ge150.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge150.md",
+        "effects/shopee-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge150.md"
+      ]
+    },
+    "MOOER::GE150 Pro Li": {
+      "link": "effects/findings/2026-10-14-mooer-ge150-pro-li.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge150-pro-li.md",
+        "effects/shopee-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge150-pro-li.md"
+      ]
+    },
+    "MOOER::GE200 original": {
+      "link": "effects/findings/2026-10-14-mooer-ge200.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge200.md",
+        "effects/shopee-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge200.md"
+      ]
+    },
+    "MOOER::GE100 Pro": {
+      "link": "effects/findings/2026-10-14-mooer-ge100-pro.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge100-pro.md",
+        "effects/shopee-multifx-4.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge100-pro.md"
+      ]
+    },
+    "MOOER::GE100 Pro Li": {
+      "link": "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+        "effects/shopee-multifx-4.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge100-pro-li.md"
+      ]
+    },
+    "MOOER::GE200 Pro": {
+      "link": "effects/findings/2026-10-14-mooer-ge200-pro.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge200-pro.md",
+        "effects/shopee-multifx-4.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge200-pro.md"
+      ]
+    },
+    "MOOER::GE200 Pro Li": {
+      "link": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+        "effects/shopee-multifx-4.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge200-pro-li.md"
+      ]
+    },
+    "MOOER::GE1000": {
+      "link": "effects/findings/2026-10-14-mooer-ge1000.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge1000.md",
+        "effects/shopee-multifx-5.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge1000.md"
+      ]
+    },
+    "MOOER::GE150 Pro": {
+      "link": "effects/findings/2026-10-14-mooer-ge150-pro.md",
+      "source_files": [
+        "effects/findings/2026-10-14-mooer-ge150-pro.md",
+        "effects/shopee-multifx-5.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mooer-ge150-pro.md"
+      ]
+    },
+    "MOOER::GE150 Plus": {
+      "link": "effects/findings/2026-10-15-mooer-ge150-plus.md",
+      "source_files": [
+        "effects/findings/2026-10-15-mooer-ge150-plus.md",
+        "effects/shopee-multifx-6.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-mooer-ge150-plus.md"
+      ]
+    },
+    "MOOER::GE150 Plus Li": {
+      "link": "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
+      "source_files": [
+        "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
+        "effects/shopee-multifx-6.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-mooer-ge150-plus-li.md"
+      ]
+    },
+    "MOOER::GE150 Max": {
+      "link": "effects/findings/2026-10-15-mooer-ge150-max.md",
+      "source_files": [
+        "effects/findings/2026-10-15-mooer-ge150-max.md",
+        "effects/shopee-multifx-6.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-mooer-ge150-max.md"
+      ]
+    },
+    "MOOER::GE150 Max Li": {
+      "link": "effects/findings/2026-10-15-mooer-ge150-max-li.md",
+      "source_files": [
+        "effects/findings/2026-10-15-mooer-ge150-max-li.md",
+        "effects/shopee-multifx-6.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-mooer-ge150-max-li.md"
+      ]
+    },
+    "MOOER::GE1000 Li": {
+      "link": "effects/findings/2026-10-15-mooer-ge1000-li.md",
+      "source_files": [
+        "effects/findings/2026-10-15-mooer-ge1000-li.md",
+        "effects/shopee-multifx-6.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-mooer-ge1000-li.md"
+      ]
+    },
+    "MOOER::GE250": {
+      "link": "MOOER.md#ge250",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "M-VAVE::TANK-G": {
+      "link": "M-VAVE.md#tank-g",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mvave-tank-g.md"
+      ]
+    },
+    "M-VAVE::TANK-B": {
+      "link": "M-VAVE.md#tank-b",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mvave-tank-b.md"
+      ]
+    },
+    "M-VAVE::TANK MINI": {
+      "link": "M-VAVE.md#tank-mini",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mvave-tank-mini.md"
+      ]
+    },
+    "M-VAVE::MK-20": {
+      "link": "M-VAVE.md#mk-20",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mvave-mk-20.md"
+      ]
+    },
+    "M-VAVE::MK-300": {
+      "link": "M-VAVE.md#mk-300",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mvave-mk-300.md"
+      ]
+    },
+    "M-VAVE::TANK-PRO": {
+      "link": "M-VAVE.md#tank-pro",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mvave-tank-pro.md"
+      ]
+    },
+    "M-VAVE::ANN Blackbox": {
+      "link": "M-VAVE.md#ann-blackbox",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-mvave-ann-blackbox.md"
+      ]
+    },
+    "M-VAVE::MINI-X": {
+      "link": "M-VAVE.md#mini-x",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-mvave-mini-x.md"
+      ]
+    },
+    "M-VAVE::Pocket Amp": {
+      "link": "M-VAVE.md#pocket-amp",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-mvave-pocket-amp.md"
+      ]
+    },
+    "M-VAVE::CUBE BABY electric": {
+      "link": "M-VAVE.md#cube-baby-electric",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": []
+    },
+    "M-VAVE::CUBE BABY AC": {
+      "link": "M-VAVE.md#cube-baby-ac",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-mvave-cube-baby-ac.md"
+      ]
+    },
+    "M-VAVE::CUBE BABY BASS": {
+      "link": "M-VAVE.md#cube-baby-bass",
+      "source_files": [
+        "M-VAVE.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-mvave-cube-baby-bass.md"
+      ]
+    },
+    "Neural DSP::Nano Cortex": {
+      "link": "effects/advanced-modelers.md",
+      "source_files": [
+        "effects/advanced-modelers.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::MG-101": {
+      "link": "NUX.md#mg-101",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::MG-300 original": {
+      "link": "NUX.md#mg-300-original",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::MG-300 MKII": {
+      "link": "NUX.md#mg-300-mkii",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::MG-400": {
+      "link": "NUX.md#mg-400",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::MG-30": {
+      "link": "NUX.md#mg-30",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::MG-50Li": {
+      "link": "NUX.md#mg-50li",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::MG-100": {
+      "link": "NUX.md#mg-100",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-nux-mg-100.md"
+      ]
+    },
+    "NUX::MG-200": {
+      "link": "NUX.md#mg-200",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-nux-mg-200.md"
+      ]
+    },
+    "NUX::TRIDENT NME-5": {
+      "link": "NUX.md#trident-nme-5",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-nux-trident.md"
+      ]
+    },
+    "NUX::Cerberus NME-3": {
+      "link": "NUX.md#cerberus-nme-3",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "Roland::GR-55": {
+      "link": "effects/findings/2026-10-14-roland-gr-55.md",
+      "source_files": [
+        "effects/findings/2026-10-14-roland-gr-55.md",
+        "effects/owned-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-roland-gr-55.md"
+      ]
+    },
+    "Scorpion::KMF-10": {
+      "link": "effects/findings/2026-10-14-scorpion-kmf-10.md",
+      "source_files": [
+        "effects/findings/2026-10-14-scorpion-kmf-10.md",
+        "effects/shopee-multifx-2.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-scorpion-kmf-10.md"
+      ]
+    },
+    "Sonicake::Matribox QME-50": {
+      "link": "SONICAKE.md#matribox-qme-50",
+      "source_files": [
+        "SONICAKE.md"
+      ],
+      "finding_files": []
+    },
+    "Sonicake::Smart Box QME-20": {
+      "link": "SONICAKE.md#smart-box-qme-20",
+      "source_files": [
+        "SONICAKE.md"
+      ],
+      "finding_files": []
+    },
+    "Sonicake::Pocket Master QME-10": {
+      "link": "SONICAKE.md#pocket-master-qme-10",
+      "source_files": [
+        "SONICAKE.md"
+      ],
+      "finding_files": []
+    },
+    "Sonicake::Matribox II QME-100": {
+      "link": "SONICAKE.md#matribox-ii-qme-100",
+      "source_files": [
+        "SONICAKE.md"
+      ],
+      "finding_files": []
+    },
+    "Sonicake::Matribox II Pro QME-200": {
+      "link": "SONICAKE.md#matribox-ii-pro-qme-200",
+      "source_files": [
+        "SONICAKE.md"
+      ],
+      "finding_files": []
+    },
+    "Sonicake::Sonic Wood QCE-50": {
+      "link": "SONICAKE.md#sonic-wood-qce-50",
+      "source_files": [
+        "SONICAKE.md"
+      ],
+      "finding_files": []
+    },
+    "TC-Helicon::VoiceLive Play": {
+      "link": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+      "source_files": [
+        "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+        "effects/shopee-multifx-2.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-tchelicon-voicelive-play.md"
+      ]
+    },
+    "TC-Helicon::Play Acoustic": {
+      "link": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+      "source_files": [
+        "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+        "effects/shopee-multifx-2.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-tchelicon-play-acoustic.md"
+      ]
+    },
+    "Valeton::GP-100": {
+      "link": "effects/findings/2026-10-14-valeton-gp-100.md",
+      "source_files": [
+        "effects/findings/2026-10-14-valeton-gp-100.md",
+        "effects/guitar-compact.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-valeton-gp-100.md"
+      ]
+    },
+    "Valeton::GP-150": {
+      "link": "effects/findings/2026-10-14-valeton-gp-150.md",
+      "source_files": [
+        "effects/findings/2026-10-14-valeton-gp-150.md",
+        "effects/guitar-compact.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-valeton-gp-150.md"
+      ]
+    },
+    "Valeton::GP-5": {
+      "link": "effects/findings/2026-10-14-valeton-gp-5.md",
+      "source_files": [
+        "effects/findings/2026-10-14-valeton-gp-5.md",
+        "effects/guitar-compact.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-valeton-gp-5.md"
+      ]
+    },
+    "Valeton::GP-50": {
+      "link": "effects/findings/2026-10-14-valeton-gp-50.md",
+      "source_files": [
+        "effects/findings/2026-10-14-valeton-gp-50.md",
+        "effects/guitar-compact.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-valeton-gp-50.md"
+      ]
+    },
+    "Valeton::GP-180": {
+      "link": "effects/findings/2026-10-14-valeton-gp-180.md",
+      "source_files": [
+        "effects/findings/2026-10-14-valeton-gp-180.md",
+        "effects/guitar-compact.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-valeton-gp-180.md"
+      ]
+    },
+    "Valeton::GP-200": {
+      "link": "effects/guitar-floorboards.md",
+      "source_files": [
+        "effects/guitar-floorboards.md"
+      ],
+      "finding_files": []
+    },
+    "Valeton::GP-200LT": {
+      "link": "VALETON.md#gp-200lt",
+      "source_files": [
+        "VALETON.md"
+      ],
+      "finding_files": []
+    },
+    "Valeton::GP-200JR": {
+      "link": "VALETON.md#gp-200jr",
+      "source_files": [
+        "VALETON.md"
+      ],
+      "finding_files": []
+    },
+    "VING::Flybro FB-100": {
+      "link": "effects/findings/2026-10-15-ving-fb100.md",
+      "source_files": [
+        "effects/findings/2026-10-15-ving-fb100.md",
+        "effects/owned-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-ving-fb100.md"
+      ]
+    },
+    "Zoom::B1 FOUR": {
+      "link": "effects/bass.md",
+      "source_files": [
+        "effects/bass.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::B2 FOUR": {
+      "link": "effects/bass.md",
+      "source_files": [
+        "effects/bass.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::B6": {
+      "link": "effects/bass.md",
+      "source_files": [
+        "effects/bass.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::B1X FOUR": {
+      "link": "effects/bass.md",
+      "source_files": [
+        "effects/bass.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::V6-SP": {
+      "link": "effects/vocal.md",
+      "source_files": [
+        "effects/vocal.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::V3": {
+      "link": "effects/vocal.md",
+      "source_files": [
+        "effects/vocal.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::G1 FOUR": {
+      "link": "effects/findings/2026-10-14-zoom-g1-four.md",
+      "source_files": [
+        "effects/findings/2026-10-14-zoom-g1-four.md",
+        "effects/shopee-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-zoom-g1-four.md"
+      ]
+    },
+    "Zoom::G1X FOUR": {
+      "link": "effects/findings/2026-10-14-zoom-g1x-four.md",
+      "source_files": [
+        "effects/findings/2026-10-14-zoom-g1x-four.md",
+        "effects/shopee-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-zoom-g1x-four.md"
+      ]
+    },
+    "Zoom::G2 FOUR": {
+      "link": "effects/findings/2026-10-14-zoom-g2-four.md",
+      "source_files": [
+        "effects/findings/2026-10-14-zoom-g2-four.md",
+        "effects/shopee-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-zoom-g2-four.md"
+      ]
+    },
+    "Zoom::G2X FOUR": {
+      "link": "effects/findings/2026-10-14-zoom-g2x-four.md",
+      "source_files": [
+        "effects/findings/2026-10-14-zoom-g2x-four.md",
+        "effects/shopee-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-zoom-g2x-four.md"
+      ]
+    },
+    "Zoom::B1Xon": {
+      "link": "effects/findings/2026-10-14-zoom-b1xon.md",
+      "source_files": [
+        "effects/findings/2026-10-14-zoom-b1xon.md",
+        "effects/owned-multifx.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-14-zoom-b1xon.md"
+      ]
+    },
+    "Zoom::G6": {
+      "link": "effects/findings/2026-10-15-zoom-g6.md",
+      "source_files": [
+        "effects/findings/2026-10-15-zoom-g6.md",
+        "effects/shopee-multifx-7.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-zoom-g6.md"
+      ]
+    },
+    "Zoom::G11": {
+      "link": "ZOOM.md#g11",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": [
+        "effects/findings/2026-10-15-zoom-g11.md"
+      ]
+    }
+  },
+  "separate_specialist_archives": {
+    "SINGLE-GUITAR.md": [
+      "BOSS SY-1",
+      "BOSS SY-200",
+      "BOSS AC-3",
+      "BOSS VO-1",
+      "BOSS XS-100"
+    ],
+    "SINGLE-BASS.md": [
+      "BOSS SY-1",
+      "BOSS SY-200"
+    ],
+    "SINGLE-VOCAL.md": [
+      "Flamma FV01",
+      "BOSS VO-1 (cross-reference)"
+    ],
+    "counted_as_active": false,
+    "moved_on": "2026-10-16",
+    "legacy_anchor_redirects_preserved": true,
+    "source_before_move_sha256": {
+      "effects/specialist.md": "b6930e6109085bf6d989cea9193ac3e458ef66fd95fb11e7a2fc827e3b168260",
+      "effects/findings/2026-10-14-flamma-fv01.md": "9bbda590bdf6aa656bafb4c4ba675b658142bfce34e571f082e9ca8247ebf38a"
+    }
+  },
+  "comparison_generation": {
+    "script": "scripts/comparison_views.py",
+    "plan_target": "make comparison-plan",
+    "apply_target": "make comparison-apply",
+    "verify_target": "make comparison-verify",
+    "scope": "Deterministic existing-evidence comparisons with explicit per-model sources and reviewed instrument membership; not a new research certification",
+    "rollback": "Git pre-apply commit 9c8d296 preserves every original source; no source files deleted"
   }
 }

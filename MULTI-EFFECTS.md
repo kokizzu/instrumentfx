@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [All vocal](ALL-VOCAL.md) · [Repository](README.md)
 
-This category view summarizes the **13 selected model records from the 49 root-canonical profiles**. It is not the complete121-model technical table: remaining source-backed records are indexed by instrument and still await lossless consolidation from legacy documents. Counts in different views overlap and must not be added together.
+This category view summarizes **14 selected model records from the 49 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. Root brand consolidation remains incomplete. Counts in different instrument views overlap and must not be added together.
 
 Each model link opens the full evidence,firmware context,price qualifications and unknowns. These summaries do not replace those qualifications. A color screen does not prove touch; an expression socket is not an included pedal; a fixed category is not a freely assignable processing block.
 
@@ -23,6 +23,7 @@ Each model link opens the full evidence,firmware context,price qualifications an
 
 | Model | External expression | Body footprint / size | Main screen | Full record |
 |---|---|---|---|---|
+| Line6 HX Effects |2 expression sockets shared with amp control |Approx.274×201 mm /large; rounded official dimensions |6 LCD scribble strips; diagonals/color/touch unverified; capacitive switches are separate |[LINE6](LINE6.md#hx-effects) |
 | HeadRush Core |TRS EXP plus separate toe input |408.4×234.6 mm /large |7-inch full-color touchscreen |[HEADRUSH](HEADRUSH.md#core) |
 | Fender Tone Master Pro |2 TRS expression inputs plus separate toe |371×261.6 mm /large; old manual261.4 mm depth conflict retained |7-inch color touchscreen,auxiliary LCDs separately unverified |[FENDER](FENDER.md#tone-master-pro) |
 | Valeton GP-200LT |2 shared EXP/FS sockets |253×165 mm /medium |4.3-inch color TFT;touch unverified |[VALETON](VALETON.md#gp-200lt) |

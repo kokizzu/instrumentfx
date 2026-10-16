@@ -1,0 +1,479 @@
+"""Build complete instrument comparison views from retained evidence, without research/network."""
+from collections import defaultdict
+import hashlib
+import json
+from pathlib import Path
+import re
+import sys
+from urllib.parse import unquote
+
+ROOT = Path(__file__).resolve().parent.parent
+PLAN = Path('/tmp/instrumentfx-comparison-plan.json')
+
+def norm(text):
+    text = re.sub(r'\[([^\]]+)\](?:\([^)]*\)|\[[^\]]*\])', r'\1', text)
+    return re.sub(r'[^a-z0-9]', '', text.lower())
+
+def slug(text):
+    return re.sub(r'[^\w\- ]', '', text.lower()).replace(' ', '-')
+
+def identity():
+    assert 'git@github.com:kokizzu/instrumentfx.git' in (ROOT / '.git/config').read_text()
+
+def sections(text):
+    matches = list(re.finditer(r'^## (.+)$', text, re.M))
+    return [(m[1], text[m.end():matches[i+1].start() if i+1<len(matches) else len(text)]) for i,m in enumerate(matches)]
+
+def tables(text):
+    lines = text.splitlines()
+    context = ''
+    i = 0
+    while i < len(lines)-1:
+        if lines[i].startswith('#'):
+            context = lines[i].lstrip('# ').strip()
+        if lines[i].startswith('|') and re.fullmatch(r'\|[\s:|\-]+\|', lines[i+1]):
+            headers = [c.strip() for c in lines[i].strip('|').split('|')]
+            i += 2
+            rows = []
+            while i < len(lines) and lines[i].startswith('|'):
+                row = [c.strip() for c in lines[i].strip('|').split('|')]
+                if len(row)==len(headers):
+                    rows.append(row)
+                i += 1
+            yield headers, rows, context
+        else:
+            i += 1
+
+def aliases(brand, model):
+    names = {model, brand+' '+model}
+    cleaned = re.sub(r' original$', '', model)
+    names |= {cleaned, brand+' '+cleaned}
+    for suffix in (' MP-50',' MP-100',' MP-350',' MP-380',' MP-300',' MP-80',' QME-50',' QME-20',' QME-10',' QME-100',' QME-200',' QCE-50',' NME-5',' NME-3',' FB-100'):
+        if model.endswith(suffix):
+            names |= {model[:-len(suffix)], suffix.strip()}
+    extra = {
+        'GEM BOX original':['GEM BOX','Original GEM BOX'],
+        'POD Go':['POD Go standard','POD Go, standard non-Wireless'],
+        'CUBE BABY electric':['CUBE BABY','Cube Baby Electric','Cube Baby electric'],
+        'ANN Blackbox':['ANN Blackbox','ANN BLACK BOX'],
+        'Ampero Mini MP-50':['Ampero Mini'],
+        'Matribox QME-50':['Matribox','Sonicake Matribox, QME-50'],
+        'Matribox II QME-100':['Matribox II','Sonicake Matribox II, QME-100'],
+        'Matribox II Pro QME-200':['Matribox II Pro','Sonicake Matribox II Pro, QME-200'],
+        'TRIDENT NME-5':['TRIDENT'],
+    }
+    names |= set(extra.get(model, []))
+    return {norm(n) for n in names}
+
+def relink(value, source, refs):
+    value = re.sub(r'\[([^\]]+)\]\[([^\]]+)\]', lambda m: '['+m[1]+']('+refs.get(m[2].lower(), '#')+')', value)
+    def link(m):
+        target = m[2]
+        if '://' in target or target.startswith('mailto:'):
+            return m[0]
+        path, sep, anchor = target.partition('#')
+        absolute = (ROOT / source).parent / unquote(path) if path else ROOT / source
+        target = str(absolute.resolve().relative_to(ROOT)) + (sep+anchor if sep else '')
+        return '['+m[1]+']('+target+')'
+    return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', link, value)
+
+def source_map(state, files):
+    result = {}
+    root_aliases = {'Line 6':'LINE6.md', 'M-VAVE':'M-VAVE.md', 'IK Multimedia':'IK-MULTIMEDIA.md'}
+    for brand, models in state['inventory_by_brand'].items():
+        for model in models:
+            key = brand+'::'+model
+            alias = aliases(brand, model)
+            canonical = None
+            for filename, listed in state['root_brand_content'].items():
+                if model in listed:
+                    # Model names Core etc. are unique across this inventory.
+                    for heading, body in sections(files[filename]):
+                        if norm(heading) in alias or (model in ('POD Go','POD Go Wireless') and heading=='POD Go and POD Go Wireless'):
+                            canonical = (filename, heading, body)
+                            break
+            result[key] = dict(brand=brand, model=model, aliases=alias, canonical=canonical)
+    return result
+
+def make_plan():
+    identity()
+    files = {str(p.relative_to(ROOT)):p.read_text() for p in ROOT.rglob('*.md') if '.git' not in p.parts and 'history' not in p.name}
+    state = json.loads((ROOT/'research-state.json').read_text())
+    records = source_map(state, files)
+    references = {path:{m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', text, re.M)} for path,text in files.items()}
+    facts = defaultdict(list)
+    root_models = set(records)
+    finding_for = defaultdict(set)
+    # Exact model names in model-column tables; no substring matching across variants.
+    for path, text in files.items():
+        if not path.startswith('effects/') or '/findings/' in path:
+            continue
+        if any(x in path for x in ('COVERAGE','RESUME','MIGRATION','README','OWNERSHIP','SCOPE','METHODOLOGY','shopee-indonesia')):
+            continue
+        for headers, rows, context in tables(text):
+            if 'model' not in headers[0].lower():
+                continue
+            if any(x in ' '.join(headers).lower() for x in ('findings commit','original findings','initial findings','individually saved','original model commit')) and len(headers)<4:
+                continue
+            for row in rows:
+                label = norm(row[0])
+                matches = [k for k,r in records.items() if label in r['aliases']]
+                # Certain legacy tables abbreviate these exact variants.
+                if path.endswith('shopee-multifx-6.md'):
+                    short={'plus':'GE150 Plus','plusli':'GE150 Plus Li','max':'GE150 Max','maxli':'GE150 Max Li'}
+                    if label in short:
+                        matches=['MOOER::'+short[label]]
+                for key in matches:
+                    for h,v in zip(headers[1:],row[1:]):
+                        facts[key].append(dict(field=h,value=relink(v,path,references[path]),source=path,context=context))
+                    # Complete model findings linked in the original model cell.
+                    resolved = relink(row[0], path, references[path])
+                    for link in re.findall(r'\]\(([^)#]+)',resolved):
+                        if link in files and '/findings/' in link:
+                            finding_for[key].add(link)
+    # Some findings are not linked by name in a newer comparison. Resolve by filename alias,
+    # with a unique longest match, never by sibling-model specification substitution.
+    for path in files:
+        if '/findings/' not in path:
+            continue
+        name = re.sub(r'^\d{4}-\d{2}-\d{2}-','',Path(path).stem)
+        name = re.sub(r'-display-idr$','',name)
+        n=norm(name)
+        matches=[(len(a),k) for k,r in records.items() for a in r['aliases'] if len(a)>4 and n==a]
+        if matches:
+            longest=max(x[0] for x in matches)
+            keys={k for length,k in matches if length==longest}
+            if len(keys)==1:
+                finding_for[next(iter(keys))].add(path)
+    for key,r in records.items():
+        if r['canonical']:
+            filename, heading, body = r['canonical']
+            sources=[(filename,body)]
+            r['link']=filename+'#'+slug(heading)
+            # Canonical records supersede stale legacy summaries (e.g. POD Express dimensions).
+            facts[key]=[]
+        else:
+            sources=[(p,files[p]) for p in sorted(finding_for[key])]
+            r['link']=next(iter(sorted(finding_for[key])),facts[key][0]['source'] if facts[key] else '')
+            if key=='BOSS::GM-800':
+                sources=[('effects/specialist.md',dict(sections(files['effects/specialist.md']))['Eligible record: BOSS GM-800'])]
+                r['link']='effects/specialist.md#eligible-record-boss-gm-800'
+        for path,text in sources:
+            refs=references[path]
+            for headers, rows, context in tables(text):
+                field_table = len(headers) in (2,3) and any(x in headers[0].lower() for x in ('field','required'))
+                price_table = any(x in ' '.join(headers).lower() for x in ('amount','idr','price','condition','seller')) and not field_table
+                family_table = path=='LINE6.md' and headers[1].startswith('POD Go,')
+                if not field_table and not price_table and not family_table and ('category' in headers[0].lower() or re.search(r'fx/|^fx$|^fx/wah',headers[0],re.I)):
+                    values=['; '.join(h+': '+v for h,v in zip(headers,row)) for row in rows]
+                    facts[key].append(dict(field='Category choices, dated source table',value=relink(' / '.join(values),path,refs),source=path,context=context))
+                for row in rows:
+                    if family_table:
+                        col=2 if r['model']=='POD Go Wireless' else 1
+                        value=row[col]
+                        if col==2 and value.startswith('Same'):
+                            value=row[1]+'; Wireless: '+value
+                        facts[key].append(dict(field=row[0],value=relink(value,path,refs),source=path,context=context))
+                    elif field_table:
+                        facts[key].append(dict(field=row[0],value=relink(row[1],path,refs),source=path,context=context))
+                    elif price_table:
+                        if r['model'] in ('POD Go','POD Go Wireless'):
+                            if ('Wireless' in row[0]) != (r['model']=='POD Go Wireless'):
+                                continue
+                        facts[key].append(dict(field='IDR '+row[0],value=relink(' — '.join(row[1:]),path,refs),source=path,context=context))
+            # Preserve model-specific prose evidence, excluding source lists and stale next cursors.
+            prose_heading=''
+            for paragraph in re.split(r'\n\s*\n',text):
+                paragraph=paragraph.strip()
+                if paragraph.startswith('#'):
+                    prose_heading=paragraph.lstrip('# ').strip()
+                if not paragraph or paragraph.startswith(('|','#','[','Sources:','Source:','Original source')):
+                    continue
+                if 'Next:' in paragraph or 'Next model' in paragraph or 'next model' in paragraph:
+                    continue
+                if re.search(r'Rp[\d\s.]',paragraph):
+                    facts[key].append(dict(field='IDR qualified observations',value=relink(paragraph.replace('\n',' '),path,refs),source=path,context='model-specific price prose'))
+                elif not r['canonical'] and re.search(r'display|screen|rotary|footswitch|current|looper',paragraph,re.I):
+                    facts[key].append(dict(field='Follow-up '+('display' if re.search('display|screen',paragraph,re.I) else 'technical correction'),value=relink(paragraph.replace('\n',' '),path,refs),source=path,context='model-specific follow-up prose'))
+                elif r['canonical'] and paragraph.startswith('Ports:'):
+                    facts[key].append(dict(field='Ports',value=relink(paragraph,path,refs),source=path,context='canonical model-specific prose'))
+                elif r['canonical'] and re.search(r'ports|connections|i/o|power|software|routing|category|firmware|recording|stage|operation',prose_heading,re.I) and not re.search(r'source|provenance|verification|idr|price|remaining',prose_heading,re.I):
+                    label=prose_heading
+                    plain=paragraph.replace('**','')
+                    if plain.startswith('Power:'):
+                        label='Power'
+                    elif plain.startswith('Pro Control full editor:'):
+                        label='Editor platforms'
+                    elif plain.startswith('USB') or plain.startswith('Normal USB mode:'):
+                        label='USB audio / recording / routing'
+                    elif plain.startswith('Rear diagram:') or plain.startswith('One') or plain.startswith('Four send/return'):
+                        label='Audio/control ports'
+                    elif plain.startswith('AMP OUT'):
+                        label='I/O routing'
+                    elif plain.startswith('Looper'):
+                        label='Looper / live'
+                    facts[key].append(dict(field=label,value=relink(paragraph.replace('\n',' '),path,refs),source=path,context='canonical model-specific prose'))
+        r['facts']=facts[key]
+        r['sources']=sorted({f['source'] for f in facts[key]})
+        r['findings']=sorted(finding_for[key])
+    serial = {k:{a:b for a,b in r.items() if a not in ('canonical','aliases')} for k,r in records.items()}
+    missing=[k for k,r in serial.items() if not r['facts'] or not r['link']]
+    payload={'input_hashes':{p:hashlib.sha256(text.encode()).hexdigest() for p,text in files.items()},'ledger_hash':hashlib.sha256((ROOT/'research-state.json').read_bytes()).hexdigest(),'records':serial,'missing':missing}
+    payload.update(render(serial,state))
+    archives=archive_outputs(files)
+    payload['outputs'].update(archives)
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print(f'Preview saved: {PLAN}; {len(serial)} records; missing evidence: {missing}')
+    print('Per-model evidence fields:')
+    for k,r in serial.items():
+        print(k+' | '+r['link']+' | '+str(len(r['facts']))+' fields')
+
+def archive_outputs(files):
+    if all(p in files for p in ('SINGLE-GUITAR.md','SINGLE-BASS.md','SINGLE-VOCAL.md')):
+        return {}
+    path='effects/specialist.md'
+    original=files[path]
+    marker='## Excluded archive — not part of the multi-effects comparison'
+    before,archive=original.split(marker,1)
+    archive=marker+archive
+    migrated=archive.replace('[SCOPE.md](SCOPE.md)','[SCOPE.md](effects/SCOPE.md)')
+    guitar='# Single-purpose guitar effects — separate archive\n\n[All guitar multi-effects](ALL-GUITAR.md) · [Single bass](SINGLE-BASS.md) · [Single vocal](SINGLE-VOCAL.md) · [Repository](README.md)\n\nDedicated synthesis, acoustic simulation, vocoding and pitch pedals are kept here, **outside ALL-GUITAR and active multi-effects counts**. This is preserved partial research checked 2026-10-14, reorganized 2026-10-16, not a new price/specification verification. A mode or preset count is not a simultaneous multi-effects architecture.\n\n'+migrated
+    # Every original archive fact, qualifier, URL and date survives the relocation.
+    assert migrated.replace('[SCOPE.md](effects/SCOPE.md)','[SCOPE.md](SCOPE.md)')==archive
+    redirect='## Excluded archive — not part of the multi-effects comparison\n\nThe complete five-model dedicated-effect archive was moved losslessly to [SINGLE-GUITAR.md](../SINGLE-GUITAR.md). It remains excluded from active counts. GM-800 above remains eligible because of its independent MFX architecture.\n\n'
+    for heading in re.findall(r'^### (.+)$',archive,re.M):
+        redirect+='### '+heading+'\n\n[Complete preserved archive](../SINGLE-GUITAR.md#'+slug(heading)+').\n\n'
+    specialist=before+redirect
+    fvpath='effects/findings/2026-10-14-flamma-fv01.md'
+    fv=files[fvpath]
+    fvbody=fv.split('\n',1)[1]
+    migrated_fv=re.sub(r'^## ', '### ',fvbody,flags=re.M).replace('(../SCOPE.md)','(effects/SCOPE.md)')
+    vocal='# Single-purpose and explicitly excluded vocal effects\n\n[All vocal multi-effects](ALL-VOCAL.md) · [Single guitar](SINGLE-GUITAR.md) · [Repository](README.md)\n\nThis archive is separate from the active multi-effects comparisons. FV01 is retained because the user explicitly excluded it, not because every supporting effect must be denied. BOSS VO-1 is a dedicated vocoder with microphone input; its complete preserved record is in [SINGLE-GUITAR](SINGLE-GUITAR.md#archived-processing-and-memory), not the vocal multi-effects table. No new technical or market verification is claimed.\n\n## Flamma FV01 Corrector\n'+migrated_fv
+    assert migrated_fv.replace('(effects/SCOPE.md)','(../SCOPE.md)').replace('\n### ','\n## ')==fvbody
+    fvredirect=fv.split('\n',1)[0]+'\n\nThe complete archived record is now [SINGLE-VOCAL.md](../../SINGLE-VOCAL.md#flamma-fv01-corrector). It remains explicitly excluded; no facts or sources were discarded.\n\n'
+    for heading in re.findall(r'^## (.+)$',fvbody,re.M):
+        fvredirect+='## '+heading+'\n\n[Preserved section](../../SINGLE-VOCAL.md#'+slug(heading)+').\n\n'
+    bass='# Single-purpose bass effects — separate archive\n\n[All bass multi-effects](ALL-BASS.md) · [Single guitar](SINGLE-GUITAR.md) · [Repository](README.md)\n\nDedicated pedals are not promoted to bass multi-effects merely because they have multiple sounds or memories. These are shared records, not new active catalogue entries. No new price or specification verification is claimed.\n\n| Dedicated model | Bass-related function | Complete preserved comparison |\n|---|---|---|\n| BOSS SY-1 | Standard-input guitar/bass synthesizer; one selected engine, 121 sounds | [Controls, memory, I/O, power, historical prices and sources](SINGLE-GUITAR.md#archived-hardware-and-expression) |\n| BOSS SY-200 | Standard-input guitar/bass synthesizer; one selected engine, 171 sounds and 128 memories | [Full archive](SINGLE-GUITAR.md#archived-processing-and-memory) |\n\nOther dedicated bass-effect records have not been researched here. Absence is not a negative capability claim or market-coverage claim.\n'
+    return {'SINGLE-GUITAR.md':guitar,'SINGLE-VOCAL.md':vocal,'SINGLE-BASS.md':bass,path:specialist,fvpath:fvredirect}
+
+def apply_plan():
+    identity()
+    payload=json.loads(PLAN.read_text())
+    assert not payload['missing'],payload['missing']
+    for path,digest in payload['input_hashes'].items():
+        assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest,'Concurrent change: '+path
+    assert hashlib.sha256((ROOT/'research-state.json').read_bytes()).hexdigest()==payload['ledger_hash'],'Concurrent ledger change'
+    for path in payload['outputs']:
+        assert path in payload['input_hashes'] or not (ROOT/path).exists(),'Concurrent new file: '+path
+    # Rollback is the pre-apply Git commit; only exact reviewed documents are written.
+    for path,text in payload['outputs'].items():
+        (ROOT/path).write_text(text)
+        assert (ROOT/path).read_text()==text
+    state=json.loads((ROOT/'research-state.json').read_text())
+    state['user_requested_comparison_rebuild']['status']='implemented_pending_validation'
+    state['user_requested_comparison_rebuild']['next']='Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HeadRush Prime.'
+    state['comparison_membership']=payload['view_membership']
+    state['comparison_bass_basis']=payload['bass_membership_basis']
+    state['comparison_model_sources']={k:{'link':r['link'],'source_files':r['sources'],'finding_files':r['findings']} for k,r in payload['records'].items()}
+    state['instrument_views']['ALL-GUITAR.md']={'record_count':len(payload['view_membership']['ALL-GUITAR.md']),'scope':'All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only','technical_refresh':False}
+    state['instrument_views']['ALL-BASS.md']={'record_count':len(payload['view_membership']['ALL-BASS.md']),'bass_focused_record_count':len(BASS_FOCUSED),'shared_bass_capable_count':len(BASS_SHARED),'scope':'All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved','technical_refresh':False}
+    state['instrument_views']['ALL-VOCAL.md']={'record_count':len(payload['view_membership']['ALL-VOCAL.md']),'vocal_only_count':len(VOCAL_ONLY),'combined_instrument_count':len(VOCAL_SHARED),'scope':'All retained vocal/live-mic records across four comparison tables','technical_refresh':False}
+    state['separate_specialist_archives']={'SINGLE-GUITAR.md':['BOSS SY-1','BOSS SY-200','BOSS AC-3','BOSS VO-1','BOSS XS-100'],'SINGLE-BASS.md':['BOSS SY-1','BOSS SY-200'],'SINGLE-VOCAL.md':['Flamma FV01','BOSS VO-1 (cross-reference)'],'counted_as_active':False,'moved_on':'2026-10-16','legacy_anchor_redirects_preserved':True,'source_before_move_sha256':{p:payload['input_hashes'][p] for p in ('effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md')}}
+    (ROOT/'research-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
+    print('Applied reviewed plan: '+', '.join(payload['outputs']))
+
+def verify_views():
+    identity()
+    state=json.loads((ROOT/'research-state.json').read_text())
+    assert set(state['comparison_model_sources'])=={b+'::'+m for b,ms in state['inventory_by_brand'].items() for m in ms}
+    for filename,ids in state['comparison_membership'].items():
+        assert len(ids)==len(set(ids))
+        text=(ROOT/filename).read_text()
+        comparison_tables=[(h,r,c) for h,r,c in tables(text) if h[0]=='Model / complete evidence']
+        assert len(comparison_tables)==4,(filename,len(comparison_tables))
+        expected=[k.replace('::',' ') for k in ids]
+        for headers,rows,context in comparison_tables:
+            actual=[re.match(r'\[([^\]]+)\]',r[0])[1] for r in rows]
+            assert actual==expected,(filename,context,'membership mismatch')
+            assert not set(actual)&set(state['excluded_models'])
+        assert '](#)' not in text
+        print(f'PASS {filename}: {len(ids)} exact models in each of 4 comparison tables; no excluded model rows')
+    for filename in ('ALL-GUITAR.md','ALL-BASS.md'):
+        assert (ROOT/filename).read_text().count('[Line 6 HX Effects](LINE6.md#hx-effects)')>=4
+    for filename in ('ALL-GUITAR.md','ALL-BASS.md'):
+        rows=[r for h,rs,c in tables((ROOT/filename).read_text()) if h[0]=='Model / complete evidence' and c=='Hardware and expression' for r in rs]
+        wireless=next(r for r in rows if r[0].startswith('[Line 6 POD Go Wireless]'))
+        standard=next(r for r in rows if r[0].startswith('[Line 6 POD Go]'))
+        assert '**2.5 kg**' in wireless[-1] and '**2.35 kg**' not in wireless[-1]
+        assert '**2.35 kg**' in standard[-1]
+    assert (ROOT/'SINGLE-GUITAR.md').exists() and (ROOT/'SINGLE-VOCAL.md').exists() and (ROOT/'SINGLE-BASS.md').exists()
+    assert not list((ROOT/'.github/workflows').glob('*'))
+    print('PASS: HX Effects guitar/bass inclusion, POD Go variant mass, specialist segregation and no workflows')
+
+# Instrument membership is explicit and reviewable. It is not inferred from a shared
+# enclosure, a BASS tone knob, a capture microphone, or an output connector.
+BASS_FOCUSED = ['BOSS::GT-1B','BOSS::GX-1B','BOSS::ME-90B','M-VAVE::TANK-B','M-VAVE::CUBE BABY BASS','Line 6::POD Express Bass','Zoom::B1 FOUR','Zoom::B1X FOUR','Zoom::B2 FOUR','Zoom::B6','Zoom::B1Xon']
+VOCAL_ONLY = ['Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
+VOCAL_SHARED = ['BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro']
+BASS_SHARED = {
+    'Audota::AME-200':'Model-specific finding explicitly describes guitar/bass capability.',
+    'Audota::AME-200 Pro':'Separate Pro finding explicitly describes guitar/bass capability.',
+    'BOSS::GT-1000CORE':'Bass mode and bass drive types in retained BOSS comparison.',
+    'BOSS::GT-1000':'Guitar/bass processing in retained BOSS comparison.',
+    'BOSS::GX-10':'Nine bass amps in the documented 32-amp library.',
+    'BOSS::GX-100':'Version 2 adds six bass amps; retained dated primary evidence.',
+    'BOSS::GM-800':'GK-5B/Serial GK bass use; requires divided pickup/interface.',
+    'HeadRush::Core':'Guitar/bass processing retained in existing bass classification; mic is separate.',
+    'HeadRush::MX5':'Root model explicitly identifies guitar/bass processing.',
+    'HeadRush::Flex Prime':'Root model explicitly documents guitar/bass library.',
+    'Fender::Tone Master Pro':'Root model explicitly identifies guitar/bass processing.',
+    'Hotone::Ampero MP-100':'Complete model-specific finding identifies guitar/bass multi-effects.',
+    'Hotone::Ampero II Stomp MP-300':'Complete model-specific finding identifies guitar/bass multi-effects.',
+    'Hotone::Ampero II MP-350':'Complete model-specific finding explicitly identifies guitar/bass/vocal processing.',
+    'Hotone::Ampero II Stage MP-380':'Separate Stage finding explicitly identifies guitar/bass/vocal processing.',
+    'Hotone::Ampero One MP-80':'Manufacturer input and model-specific acoustic/bass library evidence.',
+    'Line 6::HX Stomp':'Documented bass-capable HX processing in retained bass classification.',
+    'Line 6::HX Effects':'Manufacturer FAQ explicitly identifies guitar and bass rigs.',
+    'Line 6::HX Stomp XL':'Firmware 3.80 appendix includes seventeen bass amp models.',
+    'Line 6::POD Go':'Model-specific bass amps and firmware 2.50 bass additions.',
+    'Line 6::POD Go Wireless':'Explicit manufacturer-shared POD Go documentation includes bass models.',
+    'MOOER::GE1000':'Model-specific appendix includes bass preamps and cabinets.',
+    'MOOER::GE1000 Li':'Manufacturer shared manual explicitly covers Li; guitar/bass finding retained.',
+    'MOOER::GE250':'Existing bass view documents bass-capable library; count conflicts retained.',
+    'M-VAVE::TANK MINI':'Five bass amps and factory bass banks.',
+    'M-VAVE::MK-20':'Model-specific finding explicitly identifies guitar/bass processing.',
+    'M-VAVE::MK-300':'Thirty bass amps and twenty-five bass cabinets in retained library.',
+    'M-VAVE::TANK-PRO':'Model-specific bass EQ/amp entries.',
+    'M-VAVE::ANN Blackbox':'Five bass amps/cabs and bass factory presets.',
+    'M-VAVE::Pocket Amp':'Five bass amps/cabs in the model-specific library.',
+    'NUX::MG-300 original':'Model-specific root profile retains firmware-added bass processing.',
+    'NUX::MG-400':'Model-specific acoustic/bass cabinet content documented; no blanket bass-amp claim.',
+    'NUX::MG-30':'Five bass amps in manufacturer 35-amp breakdown.',
+    'Roland::GR-55':'Separate guitar/bass modes with bass modeling and firmware-qualified factory memory; GK required.',
+    'Valeton::GP-100':'Forty-five guitar/bass/acoustic amp models in retained evidence.',
+    'Valeton::GP-150':'Ten bass factory presets in retained model-specific record.',
+    'Valeton::GP-180':'Documented bass-related processing in retained bass comparison; full profile remains partial.',
+    'Valeton::GP-200':'Explicit guitar/bass/acoustic amp/cab library.',
+    'Valeton::GP-200LT':'Root record explicitly identifies guitar/bass/acoustic processing.',
+    'Valeton::GP-200JR':'Root record explicitly identifies guitar/bass/acoustic processing; manual copy errors retained.',
+    'Zoom::G11':'V2 adds nine bass amps and bass effects; root record retains dated distinctions.',
+}
+
+GROUPS = {
+    'expression': r'expression|^external control',
+    'controls': r'k/f/b|knob|rotary|^controls|physical controls|expression.*controls',
+    'display': r'display|screen|diagonal|monochrome|touch',
+    'body': r'dimension|width|w×|weight|body|size|mass|^physical$',
+    'processing': r'processing|architecture|block|categor|choice|library|^modules|factory amps|efx|^effects',
+    'memory': r'memory|preset|storage',
+    'sound': r'synth|acoustic|harmony|special sound|^sound',
+    'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary|conversion',
+    'io': r'\bports?\b|connections?|i/o|^inputs?|^outputs?|^aux|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
+    'power': r'power|battery|^dc',
+    'editor': r'app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital',
+    'live': r'live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
+}
+
+def clean(value):
+    # Source marker shorthand is resolved through the linked full model record;
+    # never leave broken reference-style links in generated standalone views.
+    value=re.sub(r'(?<!!)\[([^\]]+)\](?!\()',r'\1',value)
+    value=value.replace('|','&#124;').replace('\n',' ')
+    return re.sub(r'\s+',' ',value).strip()
+
+def cell(record, group):
+    selected=[]
+    seen=set()
+    # Canonical/complete field rows take precedence over looser legacy summary rows.
+    for fact in record['facts']:
+        field=fact['field']
+        if re.search(r'IDR|USD|price|retail|used evidence|commit',field,re.I):
+            continue
+        if not re.search(GROUPS[group],field,re.I):
+            continue
+        if group=='io' and re.search(r'display|screen|diagonal',field,re.I):
+            continue
+        value=clean(fact['value'])
+        if value in seen or value in ('?','**?**',''):
+            continue
+        seen.add(value)
+        if group=='expression' and field=='External expression':
+            if 'No built-in' in fact['context']:
+                value='Built-in: no. External: '+value
+            elif 'Built-in expression' in fact['context']:
+                value='Built-in: yes. External: '+value
+        selected.append('**'+clean(field).replace('**','')+':** '+value)
+    return '<br>'.join(selected) if selected else '? — not established in retained model evidence'
+
+def price_cells(record):
+    used=[]
+    other=[]
+    for fact in record['facts']:
+        label=fact['field']
+        value=clean(fact['value'])
+        if not re.search(r'IDR|retail evidence|retail observation|^prices|^idr$',label,re.I):
+            continue
+        if 'USD' in label or not ('Rp' in value or '?' in value):
+            continue
+        entry='**'+clean(label).replace('**','')+':** '+value
+        if re.search(r'used|preloved|bekas|second',label,re.I) and not re.search(r'new|retail',label,re.I):
+            used.append(entry)
+        else:
+            other.append(entry)
+            # Many canonical records preserve qualified used evidence in a retail/used
+            # paragraph. Keep its wording rather than extracting an unqualified number.
+            hit=re.search(r'(?:\*\*)?(?:Explicit\s*)?(?:used|usedlike-new|Used IDR|seller-labelled used)[\s\S]*',value,re.I)
+            if hit and 'Rp' in hit[0]:
+                used.append(hit[0])
+    return ('<br>'.join(dict.fromkeys(used)) or '? — no qualified used IDR amount established'), ('<br>'.join(dict.fromkeys(other)) or '? — no qualified retail/new IDR amount established; foreign prices are not converted')
+
+def table(records, ids, headers, groups):
+    result=['| Model / complete evidence | '+' | '.join(headers)+' |','|'+'---|'*(len(headers)+1)]
+    for key in ids:
+        record=records[key]
+        name=record['brand']+' '+record['model']
+        cells=price_cells(record) if groups==['prices'] else [cell(record,g) for g in groups]
+        result.append('| ['+name+']('+record['link']+') | '+' | '.join(cells)+' |')
+    return '\n'.join(result)+'\n'
+
+def render(records,state):
+    assert len(records)==state['active_model_count']
+    guitar=[k for k in records if k not in BASS_FOCUSED+VOCAL_ONLY]
+    bass=[k for k in records if k in BASS_FOCUSED or k in BASS_SHARED]
+    vocal=[k for k in records if k in VOCAL_ONLY+VOCAL_SHARED]
+    ids={'ALL-GUITAR.md':guitar,'ALL-BASS.md':bass,'ALL-VOCAL.md':vocal}
+    descriptions={
+        'ALL-GUITAR.md':'All '+str(len(guitar))+' recorded guitar/acoustic **multi-effects**, including effects-only HX Effects and Cerberus. Amp modeling, an expression pedal and floor operation are not inclusion requirements. Dedicated single-function pedals are in [SINGLE-GUITAR.md](SINGLE-GUITAR.md), outside these tables and active counts.',
+        'ALL-BASS.md':str(len(bass))+' recorded bass-focused or explicitly documented bass-capable multi-effects: '+str(len(BASS_FOCUSED))+' bass-focused and '+str(len(BASS_SHARED))+' shared models. This compares actual model records, not only bass-branded units. Capability evidence is listed below; it does not establish equal low-end retention or every effect working equally well on bass.',
+        'ALL-VOCAL.md':'All '+str(len(vocal))+' recorded vocal or live mic-path multi-effects: '+str(len(VOCAL_ONLY))+' vocal-only and '+str(len(VOCAL_SHARED))+' with independent acoustic/general-instrument processing. Guitar-thru/chord detection is not a processed guitar path. FV01 remains excluded in [SINGLE-VOCAL.md](SINGLE-VOCAL.md); a mic input does not imply harmony or pitch correction.',
+    }
+    outputs={}
+    for filename,model_ids in ids.items():
+        title={'ALL-GUITAR.md':'All guitar and acoustic-guitar multi-effects — comparison','ALL-BASS.md':'All bass multi-effects — comparison','ALL-VOCAL.md':'All vocal and live mic-path multi-effects — comparison'}[filename]
+        text='# '+title+'\n\n[Guitar](ALL-GUITAR.md) · [Bass](ALL-BASS.md) · [Vocal](ALL-VOCAL.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)\n\n'+descriptions[filename]+'\n\n'
+        text+='These are **comparisons of the recorded catalogue**, not exhaustive market coverage or fresh stock certification. Organized 2026-10-16 from the linked source records; their original technical/price dates, firmware, revision and access limits still apply. Every model remains partial. **? means unverified, not No.** Read the complete linked record for sources and conflicting evidence; this view does not silently resolve those conflicts.\n\n'
+        text+='K/F/B = independently adjustable rotary controls / footswitches / separate buttons; toe and power switches are additional unless explicitly stated. Body axes and mass qualifications are retained. Color does not prove touch; USB audio does not prove bus power; IRs, native NAM, converted NAM and proprietary captures differ.\n\n'
+        text+='## Hardware and expression\n\n'+table(records,model_ids,['Built-in / external / toe expression','Knobs / footswitches / buttons','Display diagonal / color / touch','Dimensions / mass / size'],['expression','controls','display','body'])
+        text+='\n## Processing and memory\n\n'+table(records,model_ids,['Simultaneous blocks / category choices','Factory / user / total memory','Synth / acoustic or vocal functions','IR / NAM / proprietary captures'],['processing','memory','sound','loading'])
+        text+='\n## Connections, power and practical use\n\n'+table(records,model_ids,['Audio / control I/O','Voltage / polarity / current / battery / USB power','Editors / recording / platform distinctions','Looper / drums / scenes / routing'],['io','power','editor','live'])
+        text+='\n## Separate IDR asking-price evidence\n\nAll amounts are dated asking observations, **not a verified used-to-new range, completed sale or checkout stock**. Sold-out, voucher, region, bundle, condition and cached-access qualifications belong to the offer and remain visible. Missing IDR is not estimated from USD. A retail-labelled offer is not independently confirmed new condition.\n\n'+table(records,model_ids,['Used IDR evidence / limitations','Retail, new, conditional or historical IDR evidence / limitations'],['prices'])
+        if filename=='ALL-BASS.md':
+            text+='\n## Why shared models are included\n\n| Shared model | Retained bass evidence |\n|---|---|\n'
+            text+='\n'.join('| ['+records[k]['brand']+' '+records[k]['model']+']('+records[k]['link']+') | '+basis+' |' for k,basis in BASS_SHARED.items())+'\n'
+            unresolved=[k for k in guitar if k not in BASS_SHARED]
+            text+='\n## Bass classification still unresolved\n\nThese other guitar/acoustic records have **not been certified bass-capable or unsuitable** by this pass. They stay outside the positive bass comparison until model-specific evidence establishes the intended processing path; a BASS EQ knob or sibling product is insufficient.\n\n'
+            text+='; '.join('['+records[k]['brand']+' '+records[k]['model']+']('+records[k]['link']+')' for k in unresolved)+'.\n'
+        text+='\n## Scope and provenance\n\nInstrument views overlap and must not be summed. All '+str(state['active_model_count'])+' active models count once in `research-state.json`; the six explicitly excluded archives never enter these tables. Former/donated eligible devices remain without private receipt/order/payment details. Root brand records take precedence where consolidated; legacy sources remain for full evidence until a checked lossless merge. No GitHub workflow is used.\n'
+        outputs[filename]=text
+        Path('/tmp/instrumentfx-'+filename).write_text(text)
+    return {'outputs':outputs,'view_membership':ids,'bass_membership_basis':BASS_SHARED}
+
+if __name__=='__main__':
+    if sys.argv[1]=='plan':
+        make_plan()
+    elif sys.argv[1]=='apply':
+        apply_plan()
+    elif sys.argv[1]=='verify':
+        verify_views()
+    else:
+        raise SystemExit('Only reviewed preview mode is currently implemented')

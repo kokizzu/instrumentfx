@@ -8,10 +8,13 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 | View | Contents |
 |---|---|
-| **[ALL-GUITAR.md](ALL-GUITAR.md)** |All101 recorded guitar/acoustic models,including genuine combined instrument/vocal processors; links to full records |
-| **[ALL-BASS.md](ALL-BASS.md)** |All11 bass-focused models plus documented multi-instrument cross-references; wider bass-capability classification remains open |
-| **[ALL-VOCAL.md](ALL-VOCAL.md)** |15 documented vocal/mic-path processors,with vocal-only and separate instrument paths distinguished |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Expression,footprint,screen and processing summaries for 13 selected root profiles (48 are root-canonical),plus qualified recent IDR evidence |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |101 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
+| **[ALL-BASS.md](ALL-BASS.md)** |52 documented bass-capable models: 11 bass-focused plus 41 shared processors, with full comparison tables and explicit capability evidence |
+| **[ALL-VOCAL.md](ALL-VOCAL.md)** |15 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 49 detailed models are root-canonical |
+| **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
+| **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
+| **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
 
 Instrument views overlap; a shared processor counts once. View counts are not added to obtain the catalogue total.
 
@@ -33,7 +36,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [SONICAKE.md](SONICAKE.md) |Six profiles,including Sonic Wood |
 | [M-VAVE.md](M-VAVE.md) |Twelve distinct profiles |
 
-Other recorded models remain accessible through the instrument indexes while their complete source material is being consolidated into root brand documents. Do not create a new dated finding,progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. Detailed legacy source material is still being consolidated into root brand documents. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research saved in the current pass
 
@@ -43,6 +46,9 @@ Other recorded models remain accessible through the instrument indexes while the
 | Fender Tone Master Pro |`85bc8c6` |Instrument/mic routing,regional firmware-history differences,three-minute looper and documented polysynth update |
 | Valeton GP-200LT |`4824546` |Version1.8 SnapTone documentation,external-only expression,editable memory and balanced-output distinctions |
 | MOOER GE250 |`9c65e37` |Five footswitches,acoustic algorithms,one configurable MIDI socket and retained count/IR/looper conflicts |
+| Valeton GP-200JR |`3c9b9a3` |Rendered original panel diagrams expose manual copy errors; 255/99 memories, model-specific power and qualified Shopee asks |
+
+Existing **HX Effects** was consolidated and refreshed in `9c8d296`, not added as a new model. Its nine effects blocks, four snapshots per preset, two expression/amp-control sockets and USB MIDI without USB audio are now explicit in both guitar and bass comparisons.
 
 Each model was committed before researching the next. Core and Flex Prime were subsequently consolidated into HEADRUSH.md,with technical observation dates retained and additional Flex Prime IDR offers saved in `b30cec0`. Consolidation and repeated prices do not add models.
 
@@ -50,11 +56,11 @@ All model records separate knobs/footswitches/buttons,expression,used/new IDR,si
 
 ## What remains
 
-**Next: rebuild the ALL-* pages as actual all-model comparisons and consolidate HX Effects; then research HeadRush Prime and MOOER GE300.** GP-200JR is now recorded; do not repeat it. Exact newly found Shopee item links and their price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
+**Next research: HeadRush Prime, then MOOER GE300.** The ALL-* comparison rebuild and HX Effects consolidation are saved; GP-200JR is recorded and must not be added again. Exact Shopee item links and price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
 
 The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
 
-**Organization migration is incomplete:**49 detailed models are now root-canonical;72 still rely on legacy source records. The new instrument views are complete navigation for the recorded categories,not a claim those legacy details have already been migrated. No old source was deleted in this pass. Preserve every fact,source URL,date,variant distinction,correction and unresolved contradiction; verify the destination and incoming links before retiring old files.
+**Organization migration is incomplete:** 49 detailed models are root-canonical; 72 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. No source file was deleted. Other legacy records remain until destination contents and incoming links are checked.
 
 ## Scope and ownership
 

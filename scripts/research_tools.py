@@ -82,15 +82,21 @@ def main():
         gp200jr()
     elif mode == 'render-gp200jr':
         subprocess.run(['pdftoppm', '-f', '5', '-l', '6', '-scale-to', '1800', '-png', '/tmp/instrumentfx-sources/gp-200jr-v1.8.0.pdf', '/tmp/instrumentfx-sources/gp200jr-panel'], check=True)
-    elif mode in ('commit-gp200jr', 'commit-hx-effects'):
+    elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons'):
         verify()
         print(git('status', '--short', '--branch'))
         assert not git('diff', '--cached', '--name-only').strip(), 'Unrelated staged changes; inspect before committing'
         paths = ['Makefile', 'scripts/research_tools.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'MULTI-EFFECTS.md', 'README.md', 'research-state.json']
-        paths.append('VALETON.md' if mode == 'commit-gp200jr' else 'LINE6.md')
+        if mode=='commit-comparisons':
+            paths += ['scripts/comparison_views.py','AGENTS.md','SINGLE-GUITAR.md','SINGLE-BASS.md','SINGLE-VOCAL.md','effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md']
+            subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
+        else:
+            paths.append('VALETON.md' if mode == 'commit-gp200jr' else 'LINE6.md')
         print(git('add', '--', *paths))
         print(git('diff', '--cached', '--stat'))
         subject = 'research(valeton): verify GP-200JR and reconcile newer catalogue checkpoints' if mode == 'commit-gp200jr' else 'research(line6): consolidate HX Effects as guitar and bass multi-effects'
+        if mode=='commit-comparisons':
+            subject='docs(comparisons): compare every recorded instrument model and separate specialist archives'
         print(git('commit', '-m', subject))
     else:
         raise SystemExit('Unknown operation')
