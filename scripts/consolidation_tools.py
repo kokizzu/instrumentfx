@@ -19,6 +19,7 @@ MODELS = {
     'g2x-four': ('G2X FOUR', 'effects/findings/2026-10-14-zoom-g2x-four.md'),
     'b1-four': ('B1 FOUR', 'effects/bass.md'),
     'b1x-four': ('B1X FOUR', 'effects/bass.md'),
+    'b2-four': ('B2 FOUR', 'effects/bass.md'),
 }
 
 
@@ -146,7 +147,7 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py']
+    paths = ['ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))

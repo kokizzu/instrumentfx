@@ -121,3 +121,11 @@ consolidation-commit-b1-four:
 .PHONY: consolidation-commit-b1x-four
 consolidation-commit-b1x-four:
 	python3 scripts/consolidation_tools.py commit b1x-four
+
+.PHONY: consolidation-commit-b2-four
+consolidation-commit-b2-four:
+	python3 scripts/consolidation_tools.py commit b2-four
+
+.PHONY: research-source-b2-controls
+research-source-b2-controls:
+	python3 scripts/research_tools.py source-b2-controls

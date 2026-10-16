@@ -96,6 +96,15 @@ def main():
         state['separate_specialist_archives']['source_before_move_sha256']={p:hashlib.sha256(git('show','9c8d296:'+p).encode()).hexdigest() for p in ('effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md')}
         (ROOT/'research-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
         verify()
+    elif mode == 'source-b2-controls':
+        url='https://zoomcorp.com/media/original_images/Hero_1_0EAQFMB.png.768x0_q60_focal_area-825%2C633%2C1650%2C1267.png'
+        with urllib.request.urlopen(url,timeout=40) as response:
+            data=response.read()
+        assert data.startswith(b'\x89PNG')
+        path=Path('/tmp/instrumentfx-sources/b2-four-official-controls.png')
+        path.parent.mkdir(exist_ok=True)
+        path.write_bytes(data)
+        print('Saved official control photograph: '+str(path))
     elif mode == 'source-gs1000':
         url='https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf'
         cache=Path('/tmp/instrumentfx-sources')

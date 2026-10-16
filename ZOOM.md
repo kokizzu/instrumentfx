@@ -58,7 +58,7 @@ These are individual asking observations, not completed-sale statistics or an ac
 
 ## Existing ZOOM research — consolidation still pending
 
-The existing B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+The existing B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
 
 ## B1Xon
 
@@ -541,3 +541,66 @@ The original comparison explicitly gives this model the same ports and three pow
 | Condition-verified used IDR |**?** |Not established;no assumed used discount |
 
 Other search pages show adapter-bundle amounts but no resolved exact item in this pass;those do not establish additional accepted asks or a market range. The older $105 observation remains historical USD evidence. [Complete original bass comparison](effects/bass.md) is retained unchanged; all incoming links remain valid. No new manual image inspection or installed firmware check is claimed.
+
+## B2 FOUR
+
+Bass multi-effects; external-only expression. Consolidated and expanded2026-10-16; partial. All15 model fields from the complete legacy bass comparison are preserved below with their original2026-10-14 dates and USD qualifications. New primary checks and IDR observations are separate.
+
+### B2 FOUR — complete retained model fields
+
+| Field | Retained value / unknown |
+|---|---|
+| External expression | Yes, FP02M |
+| K/F/B | 4/6/4 [photo] |
+| W×D×H, mm; weight | 249×146×72; 906 g |
+| Size class | Medium |
+| Used USD | ? |
+| New USD observation | $178 [P1] |
+| Maximum simultaneous blocks; categories / choices | 5, DSP-limited; 104 effects and 6 DI models; exact category breakdown ? |
+| Factory / user memory | 300 editable total, 250 factory-filled |
+| Synth / acoustic | Bass Standard Synth and Bass Synth Talk; piezo-input setting, not an acoustic simulator |
+| Third-party IR | Factory Multi-Layer IR documented; user import not established |
+| NAM | Not established |
+| Audio / control ports | ¼″ input, switchable 1M/10MΩ; 3.5 mm aux; 2×¼″ out; mono XLR DI/ground lift; 3.5 mm phones; EXP; USB-C |
+| Power; USB bus operation | DC9V/500mA centre-negative AD-16 **or USB bus** |
+| Configuration apps | Handy Guitar Lab for B2 FOUR, **iOS/iPadOS**, paid app; Android editor not established |
+| Other important features | USB 2-in/2-out; 60 s looper; 68 rhythms; DI and effect bypass controls |
+
+### B2 FOUR — retained source context and sources
+
+Checked **2026-10-14**. Records are **partial**, not certifications that every field is complete. `?` = unverified, not No. Dimensions are **width × depth × height, mm**. `K/F/B` = rotary controls / footswitches / separate buttons; toe switches are additional. Prices below are **USD** seller observations, excluding destination tax/shipping. A missing used price is not estimated from the new price.
+
+[P1] Historical $178 is a US-facing USD ask,not IDR: [Thomann cross-listed B6 comparison](https://www.thomannmusic.com/zoom_b6.htm),[exact B2 FOUR listing](https://www.thomannmusic.com/zoom_b2_four.htm). It excludes destination tax/shipping and is not a completed sale.
+
+Primary sources: [manufacturer product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/),[original HTML operation manual](https://zoomcorp.com/manuals/b2four-en/),[original control photograph](https://zoomcorp.com/media/original_images/Hero_1_0EAQFMB.png.768x0_q60_focal_area-825%2C633%2C1650%2C1267.png). Legacy source [effects/bass.md](effects/bass.md) remains unchanged and incoming links remain valid.
+
+### B2 FOUR — current manual and product clarification
+
+| Field | Current verified limit / gap |
+|---|---|
+| Built-in expression / toe |No built-in pedal; FP02M external input. Separate toe input unverified |
+| Physical controls verification |Historical4/6/4 fromlegacy photo;not visually corroborated in current pass. Manual diagram/photo retrieval failed;DI/bypass versus main-switch classification needs inspection |
+| Display |256×128 dot-matrix LCD; diagonal,color mode,touch unknown |
+| Processing / DI |Five simultaneous DSP-limited effects; six DI models do not establish a freely assignable sixth effect slot |
+| Looper / rhythm |60 s mono or30 s stereo; UNDO reduces to30/15 s. Minimum1.5 s. Looper/rhythm each occupy one selectable instance |
+| Looper switching |Patch change stops and erases loops; Library entry stops playback. AUX input is not recorded |
+| USB audio / editor |USB2-in/2-out,32-bit. Android audio connection is documented; Android full editor remains unverified. Product advertises the paid iOS editor |
+| Power / body |9V500mA center-negative AD-16 orUSB bus.249W×146D×72H mm,906g. Battery operation not specified |
+| IR / NAM / capture |Factory Multi-Layer IR is not third-party import; native/converted NAM and user capture loading remain unverified |
+
+The [current product page](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/) confirms104 effects and6DI choices:Tube1/2/3 andSolidState1/2/3. Complete current category counts remain unresolved; those are choices,not simultaneous block counts. Three-level factory cabinet IR blending does not establish a user IR loader.
+
+### B2 FOUR — physical control verification limits
+
+The legacy4/6/4 K/F/B row is retained as its historical photograph-based observation. Current manual text identifies direction controls,parameter knobs,footswitches,DI MODEL andbypass switches,plus rear ground/impedance/power toggles. **The exact separate count was not visually corroborated in this pass.** Manual SVG retrieval failed; direct official-photo retrieval returned403;the in-app browser was unavailable. No successful current image inspection is claimed. This gap remains explicit rather than silently recertifying a parsed count.
+
+### B2 FOUR — separate IDR evidence checked2026-10-16
+
+| Price class | Amount | Exact offer and qualification |
+|---|---:|---|
+| Retail voucher adapter bundle |**Rp4.144.219 with voucher** |[Zoom Official Shop,shop348182890/item23161833031](https://shopee.co.id/Zoom-B2-Four-G.Multi-Effects-Processor-With-Adaptor-AD-16E-i.348182890.23161833031),JakartaBarat,titleAD-16E. Body saysDengan Voucher withRp1.5m spend/1% discount;eligibility/final amount unverified. Indexed3August delivery versus reopened relative tomorrow text;not live stock proof |
+| Retail historical ask — sold out |**Rp4.184.000** |[Imagination Music Store,shop19576516/item22861014005](https://shopee.co.id/Zoom-B2-Four-Bass-Multi-effects-Processor-i.19576516.22861014005),JakartaPusat. Reopened body explicitlyHabis;not an available offer or used-condition evidence |
+| Retail adapter bundle ask |**Rp4.270.000** |[ACOUSTIC MUSIK,shop1104950239/item42458813522](https://shopee.co.id/ZOOM-B2-FOUR-BASS-MULTI-EFFECT-PROCESSOR-WITH-ADAPTOR-AD-16E-B2-FOUR-ORIGINAL-GARANSI-RESMI-1TAHUN-i.1104950239.42458813522),JakartaBarat. TitleAD-16E/one-year official warranty are seller claims. Reopened body retains29May delivery;not current stock certification |
+| Condition-verified used IDR |**?** |No exact condition-verified used hardware offer established |
+
+All are asking observations,not a new/used market range. Exact condition,selected bundle,stock,shipping,voucher,warranty and seller authenticity remain unverified unless specifically stated. No software/dependency installed and no FX conversion. Remaining:category totals,screen details,physical-control corroboration,IR/NAM import evidence,current full-editor OS support andqualified used/live-stock offers.
