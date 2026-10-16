@@ -19,7 +19,7 @@ CHECKPOINT = Path('/tmp/instrumentfx-metadata-retirement-checkpoint.json')
 SOURCES = metadata_consolidation.SOURCES
 TOOLS = ('scripts/source_retirement.py','scripts/research_tools.py','scripts/metadata_consolidation.py','Makefile')
 OLD_STATUS = 'No source file was deleted. Other legacy records remain until destination contents and incoming links are checked.'
-NEW_STATUS = 'Thirteen consolidated metadata pages now redirect to root documents while preserving historical heading anchors. Their full content remains in the root ledger and pinned Git history. Technical legacy pages and remaining navigation audits still await retirement; no source file was deleted.'
+NEW_STATUS = 'All 117 legacy paths are retained as compatibility redirects or JSON pointers: 13 metadata pages, 100 technical pages, one previously redirected excluded archive and three JSON snapshots. Their complete content is preserved in root documents/ledger and pinned Git history. Local navigation and original heading anchors have been audited; compatibility files remain, so the overall migration is not marked complete. Technical verification and market discovery remain incomplete.'
 
 def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()

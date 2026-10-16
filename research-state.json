@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Complete navigation and field coverage audit",
-    "task": "All legacy JSON snapshots have typed root-ledger provenance and pinned originals;all technical/metadata Markdown pages are redirects. Audit every legacy path and live navigation before claiming organization complete;technical gaps and fresh Shopee discovery remain.",
+    "model": "Fresh Shopee discovery and remaining model fields",
+    "task": "Navigation audit passed across146 Markdown files/2029 local link occurrences;117 legacy paths accounted for. Do not repeat completed source retirement. Resume fresh Shopee Indonesia discovery by brand/series and model-specific manufacturer gaps,committing each model before the next.",
     "next_models": [],
-    "after_queue": "Technical rollback: make technical-retirement-rollback-plan then make technical-retirement-apply;metadata rollback targets remain available."
+    "after_queue": "Unknown fields and qualified historical prices remain explicit;no exhaustive market or stock claim. Keep legacy redirects until a separate reviewed cleanup is warranted."
   },
   "new_findings": [
     {
@@ -19786,7 +19786,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:113 guitar,62 documented bass-capable,17 vocal;remaining technical retirement and field verification incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "0 legacy-only models;135 root-canonical. Full migration and research incomplete.",
+    "warning": "135 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -36591,7 +36591,24 @@
       "unique_snapshots": 2,
       "typed_root_content_verified": true,
       "no_source_deletion": true
-    }
+    },
+    "navigation_audit": {
+      "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
+      "markdown_files": 146,
+      "local_link_occurrences": 2029,
+      "legacy_files": 117,
+      "registered_redirects": 116,
+      "separately_verified_archival_redirect": [
+        "effects/findings/2026-10-14-flamma-fv01.md"
+      ],
+      "unclassified_legacy_files": [],
+      "errors": [],
+      "root_to_legacy_links": 403,
+      "checked_date": "2026-10-17",
+      "status": "passed",
+      "remaining": "Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications."
+    },
+    "content_consolidation_status": "All117 legacy Markdown/JSON paths accounted for;root content and pinned-original checks pass;compatibility redirects remain."
   },
   "deferred_work": {
     "original_display_idr_pages_remaining": [

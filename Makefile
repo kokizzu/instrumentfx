@@ -1141,3 +1141,13 @@ json-retirement-commit:
 	python3 scripts/source_retirement.py json-commit
 json-retirement-rollback-plan:
 	python3 scripts/source_retirement.py json-rollback-plan
+
+.PHONY: navigation-audit
+navigation-audit:
+	python3 scripts/navigation_tools.py
+
+.PHONY: navigation-save navigation-commit
+navigation-save:
+	python3 scripts/navigation_tools.py save
+navigation-commit:
+	python3 scripts/navigation_tools.py commit
