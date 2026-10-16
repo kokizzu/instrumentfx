@@ -254,6 +254,7 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg400/) · [Source 2](htt
 
 ## MG-30
 
+<!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg30/); [NUX V2 manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf),pp.2–4,14; [architecture-specific NAM documentation](https://www.nux.us/pages/nam-a2-native).
 
 | Field | Preserved finding / unresolved detail |
@@ -269,6 +270,49 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg400/) · [Source 2](htt
 | IDR | Used/new qualified prices ?. |
 
 GEN2 was firmware1.0.5 at the original check;it is not a new physical model solely because the software is called GEN2.
+<!-- comparison evidence ends -->
+
+### Preserved shared-source MG-30 fields
+
+Historical snapshot **2026-10-14**,retained2026-10-17. Original wording,GEN2 firmware scope and uncertainties remain. The historical USD329 quote cites [NAM],the architecture page;whether that page supported the price remains unresolved. It is not promoted to a verified current offer or an IDR amount.
+
+| Original field | Original value |
+|---|---|
+| External expression | Yes, EXP or NMP-2 Lite |
+| K/F/B | 6/3/10 [manual] |
+| Dimensions; weight | 313×166×55; 1.5 kg |
+| Size class | Large |
+| Used USD | ? |
+| New USD observation | $329, NUX USA [NAM] |
+| Simultaneous blocks / available categories | **11** movable; base published categories: wah5, comp3, gate1, EFX14, EQ4, MOD13, delay8, reverb5; current page lists **35 amps =28 guitar+2 acoustic+5 bass** |
+| Presets: factory / user | Total/factory split ?; 3 Pro Scenes per preset |
+| Acoustic / synth | **3 acoustic IRs +2 acoustic amps**; synth ? |
+| Third-party IR | **128 per-patch user IRs**, 1024 samples |
+| NAM / other captures | GEN2 adds **10 NAM slots**; native **A2-Lite** documented by NUX; do not assume all NAM architectures |
+| Audio / control connections | ¼″ input; 2×¼″ out; mono FX send/return; 3.5 mm aux/phones; EXP1; USB; DC |
+| Power and batteries; USB-powered? | **9V centre-negative; <400mA** draw; USB bus/battery operation not established |
+| Editing apps / other USB functions | QuickTone **Windows/macOS**; USB audio/MIDI; GEN2 requires GEN2 editor |
+| Practical features | Parallel post-FX; flexible loop placement; manufacturer includes NMP-2 Lite in documented bundle |
+
+The literal [manual] label refers to the MG-30 V2 manual below.
+
+[NAM]: https://www.nux.us/pages/nam-a2-native
+
+### Shared historical qualifications
+
+Other model names preserve shared-source context;their specifications are not assigned to MG-30.
+
+Checked **2026-10-14**. **Partial records**; `?` is unverified. K/F/B = rotary controls / footswitches / separate front buttons; expression toe switches and rear power toggles are additional. Dimensions are normalised to **W×D×H, mm**; NUX manuals often call the long horizontal side `L` rather than `W`. Used prices are deliberately blank where no dependable observation was obtained.
+
+These are single new-price observations, **not** used-to-new market ranges. US versus international seller pricing can differ. All prices checked **2026-10-14**, before destination tax/shipping. MG-300 and MG-300 MKII are distinct hardware records. **MG-30 GEN2 is documented as a firmware update for MG-30**; it is not silently treated as a new hardware model.
+
+The category numbers describe the cited list, not guaranteed totals after every firmware update. Utility blocks, amps, cabinet IRs and captures are not interchangeable effect-count units.
+
+**NAM:** the checked NUX page names MG-300 MKII, MG-400, MG-30 and MG-50Li as currently supported **A2-Lite native** devices. It separately describes A1 conversion and planned support for other devices. “Native” here must retain the architecture qualifier; it does not mean arbitrary `.nam` models run unmodified.
+
+The global download pages explicitly distinguish domestic/Mandarin versus global/English hardware firmware. Use the correct regional firmware, back up presets and install the matching editor. At checking, MG-300 MKII GEN2 was 3.0.0, MG-400 GEN2 3.0.3, MG-30 GEN2 1.0.5, and MG-50Li English firmware 1.1.1. This is a dated documentation snapshot, not an update instruction for an unidentified unit.
+
+Model sources: [Source 1](https://nuxaudio.com/product/mg30/) · [Source 2](https://www.nux.us/pages/nam-a2-native) · [Source 3](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf)
 
 ## MG-50Li
 
