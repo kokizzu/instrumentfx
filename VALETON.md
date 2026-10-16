@@ -1,6 +1,6 @@
 # Valeton multi-effects
 
-Root-level brand records. New evidence checked **2026-10-15**. Existing GP-5/50/180 records remain in legacy files until their complete source-backed content is consolidated here; they are not counted again or deleted by this addition.
+Root-level brand records. New evidence checked **2026-10-15**. Existing GP-5/50 records remain in legacy files until their complete source-backed content is consolidated here; they are not counted again or deleted by this addition.
 
 ## GP-200LT
 
@@ -360,3 +360,98 @@ The Gallery item's search snapshot had stale4–5October delivery; reopening sup
 ### Outstanding GP-200 checks
 
 Separate rotary/button counts and toe operation; complete current category choices and synth/simulator algorithms; factory-memory overwrite rules; IR formats/conversion; NAM architectures/concurrency; explicit screen color/touch; battery/USB operation; driver/updater versions, scenes/routing and qualified standard-model used/new Shopee evidence remain unresolved. Do not import sibling GP-200JR/LT manual specifications without model-specific evidence.
+
+## GP-180
+
+Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility, published power requirements and qualified Shopee snapshots were additionally checked2026-10-17; checkout stock and complete firmware contents remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- VALETON-GP-180 source begins -->
+
+Research date: **2026-10-14**. Existing model; inventory unchanged. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+
+### Display and hardware evidence
+
+The [manufacturer product page](https://www.valeton.net/product/gp-180/) and [manufacturer GP-150/180 comparison graphic](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) specify a **2.4-inch HD color LCD**.
+
+The [manufacturer firmware-1.0.0 manual, mirrored by Kirstein](https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf), panel and editing sections, corroborates the distinction between physical controls and on-screen interaction. Retain **5 rotary controls / 3 footswitches / 16 separate buttons**: the button total includes six quick-access controls and ten module buttons. There is **no built-in expression pedal**; external expression support is separate.
+
+**Touchscreen: unverified.** Knob/button navigation is documented, but this review did not establish an explicit touch specification. HD is not a numerical resolution specification.
+
+### Indonesian price observation
+
+[Galeri Musik Indonesia's exact GP-180 listing](https://galerimusikindonesia.com/product/valeton-gp-180-multi-effects-guitar-processor/) shows **Rp3.250.000** and labels the item **available**. This is the retailer's displayed status at retrieval, not checkout confirmation.
+
+| Used IDR | New IDR | Basis |
+|---|---|---|
+| **?** | **Rp3.250.000** | One Indonesian retail listing, checked 2026-10-14. |
+
+No dependable local used quote was established. Do not include delivery or assume an exact accessory bundle without checking. The earlier USD179.99 official-shop quote remains foreign provenance; no FX rate was selected.
+
+### Remaining work / next checkpoint
+
+Explicit touch capability, full firmware-specific category counts and used-price observations remain open. Next model: **Sonicake Smart Box QME-20**.
+<!-- VALETON-GP-180 source ends -->
+
+### GP-180 — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **Display** (1. Displays): HD LCD
+- **Diagonal, inches** (1. Displays): 2.4
+- **Monochrome / color** (1. Displays): Color
+- **Touchscreen** (1. Displays): ?
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer product page and firmware-1.0.0 manual](effects/findings/2026-10-14-valeton-gp-180.md)
+- **Built-in / external expression** (No built-in expression pedal): No / 2 × EXP/FS, shared MIDI functions
+- **K/F/B** (No built-in expression pedal): 5/3/16 [controls]
+- **Width × depth × height, mm** (No built-in expression pedal): 181 × 139 × 52
+- **Weight** (No built-in expression pedal): 843 g
+- **Used IDR observation** (No built-in expression pedal): ?
+- **New / retail IDR observation** (No built-in expression pedal): **Rp3.250.000**, Galeri Musik Indonesia; page marks available [F180]
+- **Simultaneous blocks / categories and choices** (3. Processing, memory, IR and NAM): 12 reorderable blocks; 200+ effects; category breakdown ?
+- **Presets and user storage** (3. Processing, memory, IR and NAM): 200 total / 100 factory-filled
+- **Synth / acoustic functions** (3. Processing, memory, IR and NAM): Acoustic presets documented; specific simulator/synth ?
+- **Third-party IR** (3. Processing, memory, IR and NAM): 20, 1024/2048 samples
+- **NAM / captured models** (3. Processing, memory, IR and NAM): SnapTone converted NAM; 100 slots / 50 supplied
+- **Audio / control connections** (4. Connections, power, apps and practical differences): ¼″ input; L TS unbalanced / R TRS balanced outputs; TRRS headset/mic; 2 × EXP/FS shared MIDI IN and OUT/THRU; USB-C
+- **Power and battery** (4. Connections, power, apps and practical differences): 3000 mAh rechargeable; DC 9 V centre-negative, USB 5 V/PD; use official operation versus charging requirements
+- **Configuration software** (4. Connections, power, apps and practical differences): Windows/macOS editor; iOS/Android via Bluetooth
+- **Other relevant features** (4. Connections, power, apps and practical differences): USB 6-in/4-out; 180 s looper; 100+ rhythms; analog/DSP bypass
+- **Original used quote** (Archived foreign-price provenance — not the comparison currency): Unverified
+- **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD179.99
+- **Original evidence** (Archived foreign-price provenance — not the comparison currency): [P8]
+
+### GP-180 comparison fields — dated evidence
+
+| Field | Dated evidence |
+|---|---|
+| Display | HD LCD |
+| Diagonal, inches | 2.4 |
+| Monochrome / color | Color |
+| Touchscreen | ? |
+| Evidence and remaining uncertainty | [Manufacturer product page and firmware-1.0.0 manual](effects/findings/2026-10-14-valeton-gp-180.md) |
+| Built-in / external expression | No / 2 × EXP/FS, shared MIDI functions |
+| K/F/B | 5/3/16 [controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
+| Width × depth × height, mm | 181 × 139 × 52 |
+| Weight | 843 g |
+| Used IDR observation | ? |
+| New / retail IDR observation | **Rp3.250.000**, Galeri Musik Indonesia; page marks available [detail](VALETON.md#gp-180) |
+| Simultaneous blocks / categories and choices | 12 reorderable blocks; 200+ effects; category breakdown ? |
+| Presets and user storage | 200 total / 100 factory-filled |
+| Synth / acoustic functions | Acoustic presets documented; specific simulator/synth ? |
+| Third-party IR | 20, 1024/2048 samples |
+| NAM / captured models | **Native NAM A2 Lite at firmware1.1.1+**, per [official regional notice,2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. The product page still describes SnapTone conversion with100 slots/50 supplied; preserve this earlier workflow separately. Native A2 Full, other architectures and native capacity/concurrency remain unverified; conversion-slot counts do not establish native capacity. |
+| Audio / control connections | ¼″ input; L TS unbalanced / R TRS balanced outputs; TRRS headset/mic; 2 × EXP/FS shared MIDI IN and OUT/THRU; USB-C |
+| Power and battery | 3000mAh/3.7V battery; DC9V center-negative,5.5×2.1mm. Official page lists DC≥1.5A, minimum operating1A, charging2A; retain these distinct figures without assuming one adapter rating resolves them. USB-C5V≥1A, minimum operating1A, PD fast-charge3A. DC/USB operation and charging advertised. Over6h battery claim at screen brightnessII is manufacturer-rated, not measured. [GP180-P](https://www.valeton.net/product/gp-180/) |
+| Configuration software | Windows/macOS editor; iOS/Android via Bluetooth |
+| Other relevant features | USB 6-in/4-out; 180 s looper; 100+ rhythms; analog/DSP bypass |
+| New / retail Shopee IDR observations | Checked2026-10-17: [Bandung Music Gallery](https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.394955725.48113176759), seller394955725/item48113176759, Kota Bandung, indexed **Rp3.619.140**, comparison Rp3.693.000, displayed2% reduction; stale August delivery. [Artech Music](https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.31171541.51763144425), seller31171541/item51763144425, Kota Bekasi: search showed **Rp3.693.000,Habis**; reopening instead showed Rp3.619.140/comparison Rp3.693.000 without that label. Preserve discrepancy; neither is checkout-confirmed stock. Condition, bundle, warranty region, tax/shipping and voucher eligibility unconfirmed. No dependable used quote established. |
+
+Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
+
+GP-150/180 documentation distinguishes operating, charging and fast-charging current. A USB socket or under-rated charger should not be assumed sufficient for every operation. Manufacturer battery runtimes are not independent measurements.
+
+These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected.
+
+Historical GP-180 source URLs: https://shop.valeton.net/products/gp-180, https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png
+
+Sources: [effects/findings/2026-10-14-valeton-gp-180.md](effects/findings/2026-10-14-valeton-gp-180.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
