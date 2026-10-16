@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-V primary follow-up",
-    "task": "PERFORM-V styles,memory,HIT,Talk and RoomSense now verified and saved. Next resolve manufacturer technical page,power,dimensions,controls/display;commit useful findings before distinct VK/VG leads.",
+    "task": "PERFORM-V quickguide12V1A supply label/globaltempo/gain setup saved;current official-page controls/guitar/USB claims conflict with detailed manual. Resolve via technical documentation;do not infer revisions. Then exact VK/VG leads,with per-model immediate commits.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -2791,6 +2791,30 @@
           "Technical final page extraction incomplete;screenshot failed",
           "Power/dimensions/control count/display",
           "Factory initial fill/current software/import formats"
+        ]
+      },
+      "power_quickguide_followup": {
+        "checked_date": "2026-10-17",
+        "sources": [
+          "https://manualzz.com/doc/html/54082694/tc-helicon-perform-v-quick-start-guide",
+          "https://www.bax-shop.nl/downloads/products/9000-0032-5727/perform_v_qsg_en.pdf",
+          "https://www.tchelicon.com/en/products/0726-AAG"
+        ],
+        "identity": "PERFORM-V manufacturer-authored2018 quickguide;Bax indexedP0DEB2018-12-03Rev6 same title/feature sequence and supply label;no hash/visual certification",
+        "resolved": [
+          "Supply diagram12V1A label;not draw or polarity proof",
+          "Global tempo not stored in presets",
+          "HoldSET2s loud-vocal gain setup"
+        ],
+        "conflicts": [
+          "Current official page3knobs3buttons vs detailed manual one ControlKnob and many buttons",
+          "Official copy suggests guitarfeed/USBrecording;manual only delayedAUXchord guidance and USBVoiceSupport",
+          "QSG all-effects Talk shorthand vs manual preservesTone"
+        ],
+        "remaining": [
+          "Dimensions/mass,powerDCpolarity/battery/USBpower",
+          "Full controls/display inventory",
+          "USB audio independent technical evidence"
         ]
       }
     }

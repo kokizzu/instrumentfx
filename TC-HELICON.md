@@ -305,10 +305,10 @@ Mic-stand vocal multi-effects;not VK/VG/VE. Checked2026-10-17;partial. No guitar
 | Factory / user memory | Three editable presets1–3 store effect state/style/level;imports replace their sounds. Changes save automatically. Initial factory fill remains unverified. | [Manual pp19,21–25][PV-B] |
 | Synth / acoustic | Vocal harmony/pitch correction do not establish instrument synth/acoustic simulation;unverified. | Unresolved |
 | I/O | XLR mic input,+48V;balanced XLR output;1/8 stereo AUX/headphones;TRS pedal;USB for VoiceSupport. Complete connector/power inventory pending. | [Manual pp22,44,49][PV-M] |
-| Power / battery / USB | Voltage,current,polarity,battery,bus-power unverified;USB presence alone proves none. | Unresolved |
+| Power / battery / USB | Manufacturer quick-guide diagram labels supply **12V1A**. This is a supply label,not measured current draw;DC/polarity,battery and USB-powered operation remain unverified. | [2018 quick guide][PV-Q];[indexed Rev6 copy][PV-QI] |
 | IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
 | Editor / software | VoiceSupport Windows/MacOSX preset management/firmware;smartphone preset beaming. Full parameter editor,current OS/app support and USB audio unverified. | [Manual pp7,22][PV-M] |
-| Looper / drums / live | AUX delayed for chord detection;unsuitable for live instrument monitoring. Remote must connect before power-on;changing Switch-3/6 needs restart. HIT toggles imported layered effects;both states editable and automatically saved. Talk bypasses effects except Tone;AUX still reaches XLR. Hold Talk locks panel and mutes XLR/headphones. RoomSense vocal practice requires headphones and no external mic;XLR muted. Looper/drums/scenes/trails unverified;controller labels alone are not feature proof. | [Manual pp24–25,38,42,44–45][PV-B] |
+| Looper / drums / live | AUX delayed for chord detection;unsuitable for live instrument monitoring. Remote must connect before power-on;changing Switch-3/6 needs restart. HIT toggles imported layered effects;both states editable and automatically saved. Talk bypasses effects except Tone;AUX still reaches XLR. Hold Talk locks panel and mutes XLR/headphones. RoomSense vocal practice requires headphones and no external mic;XLR muted. **Tap tempo is global,not stored per preset**. Hold SET2s then sing loudly for automatic gain setup. Looper/drums/scenes/trails unverified;controller labels alone are not feature proof. | [Manual pp24–25,38,42,44–45][PV-B];[quick guide][PV-Q] |
 
 ### Separate IDR hardware offers
 
@@ -331,3 +331,13 @@ Official PDF repeatedly502;manufacturer-authored mirror firmware1.0/reference201
 [Manufacturer-authored B&H mirror][PV-B] independently identifies firmware1.0/reference2015-11-17;pp18–25,38,42 corroborate styles,memory and live behavior. Final technical page text incomplete and screenshot failed;power/dimensions remain unresolved.
 
 [PV-B]: https://www.bhphotovideo.com/lit_files/1188880.pdf
+
+### Current official-page conflicts
+
+The [current official page][PV-P],checked2026-10-17,says three knobs/three buttons and suggests guitar feed and USB recording. The2015 manual instead documents one Control Knob,numerous named buttons,delayed AUX chord detection and USB preset management. Keep exact K/F/B,USB audio and direct guitar-processing claims unresolved;do not infer revised hardware or transfer VK/VG features.
+
+Quick-guide supplement:[manufacturer-authored 2018 document][PV-Q],PERFORM-V title and matching feature sequence;[indexed Bax copy][PV-QI] identifies P0DEB/2018-12-03/Rev6 and the same12V1A setup. Bax direct access unsupported content-type;official QSG direct unavailable. This is text/identity corroboration,not hash or visual certification. Guide says Talk bypasses all effects;the detailed manual p38 explicitly preserves Tone,so that exception remains above.
+
+[PV-Q]: https://manualzz.com/doc/html/54082694/tc-helicon-perform-v-quick-start-guide
+[PV-QI]: https://www.bax-shop.nl/downloads/products/9000-0032-5727/perform_v_qsg_en.pdf
+[PV-P]: https://www.tchelicon.com/en/products/0726-AAG
