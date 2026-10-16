@@ -91,6 +91,46 @@ SOURCES = {
   "effects/findings/2026-10-14-sonicake-pocket-master.md": "SONICAKE.md#pocket-master-qme-10",
   "effects/findings/2026-10-15-mvave-cube-baby.md": "M-VAVE.md#cube-baby-electric"
 }
+SHARED = {
+  "effects/guitar-compact.md": "shared_compact_audit",
+  "effects/guitar-floorboards.md": "shared_floorboard_audit",
+  "effects/guitar-nux.md": "shared_nux_audit",
+  "effects/bass.md": "shared_bass_audit",
+  "effects/vocal.md": "shared_vocal_audit",
+  "effects/advanced-modelers.md": "shared_advanced_audit",
+  "effects/guitar-boss.md": "shared_boss_audit",
+  "effects/guitar-boss.history-2026-10-14.md": "shared_boss_history_audit",
+  "effects/audota.md": "shared_audota_audit",
+  "effects/cube-baby.md": "shared_cube_audit",
+  "effects/owned-multifx.md": "shared_owned_audit",
+  "effects/shopee-multifx.md": "shared_market1_audit",
+  "effects/shopee-multifx-2.md": "shared_market2_audit",
+  "effects/shopee-multifx-3.md": "shared_market3_audit",
+  "effects/shopee-multifx-4.md": "shared_market4_audit",
+  "effects/shopee-multifx-5.md": "shared_market5_audit",
+  "effects/shopee-multifx-6.md": "shared_market6_audit",
+  "effects/shopee-multifx-7.md": "shared_market7_audit"
+}
+SOURCES.update({
+  "effects/guitar-compact.md": "MULTI-EFFECTS.md",
+  "effects/guitar-floorboards.md": "MULTI-EFFECTS.md",
+  "effects/guitar-nux.md": "NUX.md",
+  "effects/bass.md": "ALL-BASS.md",
+  "effects/vocal.md": "ALL-VOCAL.md",
+  "effects/advanced-modelers.md": "MULTI-EFFECTS.md",
+  "effects/guitar-boss.md": "BOSS.md",
+  "effects/guitar-boss.history-2026-10-14.md": "BOSS.md",
+  "effects/audota.md": "AUDOTA.md",
+  "effects/cube-baby.md": "M-VAVE.md",
+  "effects/owned-multifx.md": "MULTI-EFFECTS.md",
+  "effects/shopee-multifx.md": "MULTI-EFFECTS.md",
+  "effects/shopee-multifx-2.md": "MULTI-EFFECTS.md",
+  "effects/shopee-multifx-3.md": "MULTI-EFFECTS.md",
+  "effects/shopee-multifx-4.md": "MULTI-EFFECTS.md",
+  "effects/shopee-multifx-5.md": "MULTI-EFFECTS.md",
+  "effects/shopee-multifx-6.md": "MULTI-EFFECTS.md",
+  "effects/shopee-multifx-7.md": "MULTI-EFFECTS.md"
+})
 PLAN = Path('/tmp/instrumentfx-technical-retirement-plan.json')
 TOOLS = ['scripts/technical_retirement.py','scripts/consolidation_tools.py','scripts/research_tools.py','Makefile']
 
@@ -100,7 +140,7 @@ def incoming():
 
 def redirect(path,original,commit):
     headings=shared.headings(original)
-    target='../../'+SOURCES[path]
+    target=('../'*len(Path(path).parent.parts))+SOURCES[path]
     text=headings[0]+'\n\nThis technical finding is consolidated in [the complete root model record]('+target+'). Original dates, prices, qualifications and unresolved contradictions remain there.\n\n'
     text+='Pinned original: '+chr(96)+commit+':'+path+chr(96)+'. SHA-256: '+chr(96)+shared.digest(original)+chr(96)+'.\n\n'
     for heading in headings[1:]:
@@ -112,14 +152,28 @@ def verify():
     research.identity()
     state=json.loads((ROOT/'research-state.json').read_text())
     consolidation.verify_preserved(state)
+    consolidation.audit_compact_union()
+    consolidation.audit_floorboard_union()
+    for kind in ('nux','bass','vocal','advanced'):
+        consolidation.audit_nux_union(kind=kind)
+    consolidation.audit_boss_shared()
+    consolidation.audit_boss_shared(history=True)
+    consolidation.audit_audota_union()
+    for kind in ('cube','owned','market1','market2','market3','market4','market5','market6','market7'):
+        consolidation.audit_shared_variant_union(kind=kind)
     records=state['migration'].get('retired_sources',{})
     retired=0
     for path,destination in SOURCES.items():
         original=research.read_preserved_source(path)
-        manifests=[e for e in state['consolidation_and_price_findings'] if e.get('source')==path and e.get('verification_kind')=='complete-source-body-v1']
-        assert len(manifests)==1 and manifests[0]['destination']==destination
-        assert not manifests[0].get('source_section'),'Partial source not eligible: '+path
-        assert shared.digest(original)==manifests[0]['source_sha256'],path
+        if path in SHARED:
+            audit=state['migration'][SHARED[path]]
+            assert audit['complete_source_read']
+            assert shared.digest(original)==audit['source_sha256'],path
+        else:
+            manifests=[e for e in state['consolidation_and_price_findings'] if e.get('source')==path and e.get('verification_kind')=='complete-source-body-v1']
+            assert len(manifests)==1 and manifests[0]['destination']==destination
+            assert not manifests[0].get('source_section'),'Partial source not eligible: '+path
+            assert shared.digest(original)==manifests[0]['source_sha256'],path
         shared.validate_target(destination)
         if path in records:
             entry=records[path]
@@ -131,7 +185,7 @@ def verify():
     links=incoming()
     for link in links:
         assert not link['fragment'] or link['fragment'] in shared.anchors((ROOT/link['target']).read_text()),str(link)
-    print('PASS: '+str(len(SOURCES))+' complete-body findings; '+str(retired)+' retired; '+str(len(links))+' incoming link occurrences; every original heading/root destination preserved.')
+    print('PASS: '+str(len(SOURCES))+' technical sources; '+str(retired)+' retired; '+str(len(links))+' incoming link occurrences; every original heading/root destination preserved.')
 
 def plan(rollback=False):
     verify()
@@ -147,14 +201,19 @@ def plan(rollback=False):
         if rollback:
             outputs[path]=original
             del records[path]
+            if path in SHARED:
+                state['migration'][SHARED[path]]['source_retired']=False
         else:
             assert research.git('show',commit+':'+path)==original,path
             outputs[path]=redirect(path,original,commit)
             records[path]=dict(source_commit=commit,source_sha256=shared.digest(original),redirect_sha256=shared.digest(outputs[path]),destination=SOURCES[path],original_headings=shared.headings(original),incoming_before=[l for l in links if l['target']==path],status='retired_technical_redirect',rollback='make technical-retirement-rollback-plan then make technical-retirement-apply')
+    for path in SHARED:
+        if path in records:
+            state['migration'][SHARED[path]].update(source_retired=True,remaining_work='Redirect and all original heading anchors verified;technical research remains partial.')
     retired=[p for p in SOURCES if p in records]
-    state['migration']['technical_retirement']=dict(status='partial' if retired else 'rolled_back',sources=retired,complete_body_finding_count=len(SOURCES),remaining='Shared technical sources, excluded archival finding and legacy JSON/navigation audits remain;research remains incomplete.')
+    state['migration']['technical_retirement']=dict(status='partial' if retired else 'rolled_back',sources=retired,complete_body_finding_count=len(SOURCES)-len(SHARED),shared_source_count=len(SHARED),remaining='Excluded archival finding, remaining technical/navigation sources and legacy JSON audits remain;research remains incomplete.')
     state['cursor']['model']='Shared technical source retirement'
-    state['cursor']['task']=str(len(retired))+' complete-body technical findings redirect with all old headings and pinned originals. Next audit shared technical source preservation/readers and navigation before retiring them. Technical gaps and fresh Shopee discovery remain.'
+    state['cursor']['task']=str(len(retired))+' technical sources redirect with all old headings and pinned originals. Next audit remaining legacy technical/navigation files and preserved JSON snapshots. Technical gaps and fresh Shopee discovery remain.'
     state['cursor']['after_queue']='Technical rollback: make technical-retirement-rollback-plan then make technical-retirement-apply;metadata rollback targets remain available.'
     outputs['research-state.json']=json.dumps(state,ensure_ascii=False,indent=2)+'\n'
     inputs={p:shared.digest((ROOT/p).read_text()) for p in sorted(set(SOURCES)|set(TOOLS)|{'research-state.json'}|{d.split('#')[0] for d in SOURCES.values()})}
@@ -189,7 +248,7 @@ def commit():
     assert changed<=allowed,changed-allowed
     research.git('add','--',*sorted(changed))
     print(research.git('diff','--cached','--stat'))
-    print(research.git('commit','-m','docs: retire complete-body technical findings with stable legacy anchors'))
+    print(research.git('commit','-m','docs: retire audited shared technical sources with pinned evidence'))
 
 if __name__=='__main__':
     {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'rollback-plan':lambda:plan(True)}[sys.argv[1]]()

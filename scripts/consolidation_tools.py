@@ -166,7 +166,7 @@ def plan_gp200():
     assert comparison['ledger_hash'] == digest(state_text), 'Run make comparison-plan first'
     record = comparison['records']['Valeton::GP-200']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     facts = record['facts']
     assert all(f['source'] == source_path for f in facts)
     contexts = [p for p in source.split('\n\n') if p.startswith('Checked **2026-10-14**') or p.startswith('All three have built-in expression') or p.startswith('New prices are individual') ] + [line for line in source.splitlines() if line.startswith("- GP-200's published")]
@@ -229,7 +229,7 @@ def plan_hx_stomp():
     assert comparison['ledger_hash'] == digest(state_text), 'Run make comparison-plan first'
     record = comparison['records']['Line 6::HX Stomp']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     facts = record['facts']
     assert all(f['source'] == source_path for f in facts)
     contexts = [p for p in source.split('\n\n') if p.startswith('Checked **2026-10-14**') or p.startswith('K/F/B =') or p.startswith('The rounded Line 6 FAQ') or p.startswith("**HX Stomp's old FAQ") or p.startswith('USB audio input/output counts')]
@@ -297,7 +297,7 @@ def plan_tonex_one():
     assert comparison['ledger_hash'] == digest(state_text), 'Run make comparison-plan first'
     record = comparison['records']['IK Multimedia::TONEX ONE']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     facts = record['facts']
     assert all(f['source'] == source_path for f in facts)
     contexts = [p for p in source.split('\n\n') if p.startswith('Checked **2026-10-14**') or p.startswith('K/F/B =') or p.startswith("**TONEX ONE's 20-versus-30") or p.startswith('USB audio input/output counts')]
@@ -369,7 +369,7 @@ def plan_tonex_pedal():
     assert comparison['ledger_hash'] == digest(state_text), 'Run make comparison-plan first'
     record = comparison['records']['IK Multimedia::TONEX Pedal']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     facts = record['facts']
     assert all(f['source'] == source_path for f in facts)
     contexts = [p for p in source.split('\n\n') if p.startswith('Checked **2026-10-14**') or p.startswith('K/F/B =') or p.startswith('USB audio input/output counts')]
@@ -438,7 +438,7 @@ def plan_nano_cortex():
     record = comparison['records']['Neural DSP::Nano Cortex']
     assert record['link'] == source_path
     facts = record['facts']
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     contexts = [p for p in source.split('\n\n') if p.startswith('Checked **2026-10-14**') or p.startswith('K/F/B =') or p.startswith('USB audio input/output counts')]
     contexts += [p for p in source.splitlines() if p.startswith('- [Nano Cortex current product page]')]
     assert len(contexts) == 4 and len(facts) == 15
@@ -479,7 +479,7 @@ def plan_ame100():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['Audota::AME-100']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'AUDOTA-AME-100'
     body, refs = preserved_body(source, prefix)
     extra = [f for f in record['facts'] if f['source'] != source_path]
@@ -531,7 +531,7 @@ def plan_ame200():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['Audota::AME-200']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'AUDOTA-AME-200'
     body, refs = preserved_body(source, prefix)
     extra = [f for f in record['facts'] if f['source'] != source_path]
@@ -590,7 +590,7 @@ def plan_ame200pro():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['Audota::AME-200 Pro']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'AUDOTA-AME-200 Pro'
     body, refs = preserved_body(source, prefix)
     extra = [f for f in record['facts'] if f['source'] != source_path]
@@ -657,7 +657,7 @@ def plan_ace100():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['Audota::ACE-100']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'AUDOTA-ACE-100'
     body, refs = preserved_body(source, prefix)
     extra = [f for f in record['facts'] if f['source'] != source_path]
@@ -709,7 +709,7 @@ def plan_ave100():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['Audota::AVE-100']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'AUDOTA-AVE-100'
     body, refs = preserved_body(source, prefix)
     extra = [f for f in record['facts'] if f['source'] != source_path]
@@ -767,7 +767,7 @@ def plan_bg300():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['Boin Audio::BG300']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'AUDOTA-BG300'
     body, refs = preserved_body(source, prefix)
     normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
@@ -827,7 +827,7 @@ def plan_kmf10():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['Scorpion::KMF-10']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'SCORPION-KMF-10'
     body, refs = preserved_body(source, prefix)
     normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
@@ -882,7 +882,7 @@ def plan_voiceliveplay():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['TC-Helicon::VoiceLive Play']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'SCORPION-VoiceLive Play'
     body, refs = preserved_body(source, prefix)
     normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
@@ -934,7 +934,7 @@ def plan_playacoustic():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['TC-Helicon::Play Acoustic']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'TCHELICON-PLAY-ACOUSTIC'
     body, refs = preserved_body(source, prefix)
     normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
@@ -985,7 +985,7 @@ def plan_h8():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['CUVAVE::H8']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'CUVAVE-H8'
     body, refs = preserved_body(source, prefix)
     normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
@@ -1042,7 +1042,7 @@ def plan_fb100():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['VING::Flybro FB-100']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'VING-FB-100'
     body, refs = preserved_body(source, prefix)
     normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
@@ -1100,7 +1100,7 @@ def plan_gr55():
     assert comparison['ledger_hash'] == digest(state_text)
     record = comparison['records']['Roland::GR-55']
     assert record['link'] == source_path
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = 'ROLAND-GR-55'
     body, refs = preserved_body(source, prefix)
     normalizations={'(../OWNERSHIP.md)':'(effects/OWNERSHIP.md)','(2026-10-14-zoom-b1xon.md)':'(ZOOM.md#b1xon)','(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
@@ -1194,7 +1194,7 @@ def plan(model_id):
     assert comparison['ledger_hash'] == digest((ROOT / 'research-state.json').read_text()), 'Run make comparison-plan first'
     record = comparison['records'][brand + '::' + model]
     assert record['link'] == source_path
-    source = (ROOT / source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     prefix = brand_file.removesuffix('.md') + '-' + model_id.upper()
     body, refs = preserved_body(source, prefix)
     link_normalizations = {}
@@ -1519,7 +1519,7 @@ def audit_legacy():
 
 def audit_compact_matribox():
     research_tools.identity()
-    source = (ROOT/'effects/guitar-compact.md').read_text()
+    source = research_tools.read_preserved_source('effects/guitar-compact.md')
     destination = (ROOT/'SONICAKE.md').read_text().split('\n## Matribox QME-50\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
@@ -1538,7 +1538,7 @@ def audit_compact_matribox():
 
 def audit_compact_smartbox():
     research_tools.identity()
-    source = (ROOT/'effects/guitar-compact.md').read_text()
+    source = research_tools.read_preserved_source('effects/guitar-compact.md')
     destination = (ROOT/'SONICAKE.md').read_text().split('\n## Smart Box QME-20\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
@@ -1557,7 +1557,7 @@ def audit_compact_smartbox():
 
 def audit_compact_pocketmaster():
     research_tools.identity()
-    source = (ROOT/'effects/guitar-compact.md').read_text()
+    source = research_tools.read_preserved_source('effects/guitar-compact.md')
     destination = (ROOT/'SONICAKE.md').read_text().split('\n## Pocket Master QME-10\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
@@ -1585,7 +1585,7 @@ def audit_compact(model):
     assert model in ('GP-100', 'GP-150', 'GP-5', 'GP-50', 'GP-180'), 'Additional models require explicit scope review'
     state = json.loads((ROOT/'research-state.json').read_text())
     source_path = 'effects/guitar-compact.md'
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     entry = next(e for e in state['consolidation_and_price_findings'] if e.get('model_name') == model and e.get('destination') == 'VALETON.md#'+model.lower())
     expected = []
     for headers, rows, context in comparison_views.tables(source):
@@ -1620,7 +1620,7 @@ def audit_compact(model):
 def audit_compact_union():
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
-    source = (ROOT/'effects/guitar-compact.md').read_text()
+    source = research_tools.read_preserved_source('effects/guitar-compact.md')
     entry = state['migration']['shared_compact_audit']['prose_union']
     assert digest(source) == entry['source_sha256'], 'Compact source changed'
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
@@ -1640,7 +1640,7 @@ def audit_floorboard_union():
     state = json.loads((ROOT/'research-state.json').read_text())
     entry = state['migration']['shared_floorboard_audit']
     path = entry['source']
-    source = (ROOT/path).read_text()
+    source = research_tools.read_preserved_source(path)
     assert digest(source) == entry['source_sha256'], 'Floorboard source changed'
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
     paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|\[]', p.strip())]
@@ -1682,7 +1682,7 @@ def audit_compact_links(kind='compact'):
         source_key = 'effects/advanced-modelers.md'
     if kind == 'boss-history':
         source_key = 'effects/guitar-boss.history-2026-10-14.md'
-    source = (ROOT/source_key).read_text()
+    source = research_tools.read_preserved_source(source_key)
     state = json.loads((ROOT/'research-state.json').read_text())
     assert digest(source) == state['migration']['shared_'+kind.replace('-', '_')+'_audit']['source_sha256']
     paths = sorted(ROOT.glob('*.md')) + sorted((ROOT/'effects').rglob('*.md'))
@@ -1735,7 +1735,7 @@ def plan_nux_shared(model='MG-101'):
     key, labels, url_prefixes, url_count = configs[model]
     research_tools.identity()
     source_path = 'effects/guitar-nux.md'
-    source = (ROOT/source_path).read_text()
+    source = research_tools.read_preserved_source(source_path)
     destination = (ROOT/'NUX.md').read_text()
     facts = []
     for headers, rows, context in comparison_views.tables(source):
@@ -1766,7 +1766,7 @@ def audit_nux_union(verify=True, kind='nux'):
     state = json.loads((ROOT/'research-state.json').read_text())
     entry = state['migration']['shared_'+kind+'_audit']
     path = entry['source']
-    source = (ROOT/path).read_text()
+    source = research_tools.read_preserved_source(path)
     assert digest(source) == entry['source_sha256'], 'Shared source changed'
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
     paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|]', p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
@@ -1802,7 +1802,7 @@ def plan_advanced_hxe(model='HX Effects'):
     brand_file = 'HEADRUSH.md' if flex else 'LINE6.md'
     research_tools.identity()
     path = 'effects/advanced-modelers.md'
-    source = (ROOT/path).read_text()
+    source = research_tools.read_preserved_source(path)
     destination = (ROOT/brand_file).read_text()
     section = destination.split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
     facts = []
@@ -1829,7 +1829,7 @@ def audit_boss_shared(verify=True, history=False):
     field_count = 16 if history else 21
     research_tools.identity()
     path = 'effects/guitar-boss.history-2026-10-14.md' if history else 'effects/guitar-boss.md'
-    source = (ROOT/path).read_text()
+    source = research_tools.read_preserved_source(path)
     state = json.loads((ROOT/'research-state.json').read_text())
     assert digest(source) == state['migration'][state_key]['source_sha256']
     destination = (ROOT/'BOSS.md').read_text()
@@ -1865,7 +1865,7 @@ def audit_audota_union(verify=True):
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
     path = 'effects/audota.md'
-    source = (ROOT/path).read_text()
+    source = research_tools.read_preserved_source(path)
     assert digest(source) == state['migration']['shared_audota_audit']['source_sha256']
     destination = (ROOT/'AUDOTA.md').read_text()
     union = destination+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
@@ -1919,7 +1919,7 @@ def audit_shared_variant_union(verify=True, kind='cube'):
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
     path = {'cube':'effects/cube-baby.md','owned':'effects/owned-multifx.md','market1':'effects/shopee-multifx.md','market2':'effects/shopee-multifx-2.md','market3':'effects/shopee-multifx-3.md','market4':'effects/shopee-multifx-4.md','market5':'effects/shopee-multifx-5.md','market6':'effects/shopee-multifx-6.md','market7':'effects/shopee-multifx-7.md'}[kind]
-    source = (ROOT/path).read_text()
+    source = research_tools.read_preserved_source(path)
     assert digest(source) == state['migration']['shared_'+kind+'_audit']['source_sha256']
     aliases = {'CUBE BABY electric':{'electriccubebaby','electric'},'CUBE BABY AC':{'cubebabyac','ac'},'CUBE BABY BASS':{'cubebabybass','bass'}}
     files = {model:'M-VAVE.md' for model in aliases}

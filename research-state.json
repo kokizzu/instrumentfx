@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shared technical source retirement",
-    "task": "81 complete-body technical findings redirect with all old headings and pinned originals. Next audit shared technical source preservation/readers and navigation before retiring them. Technical gaps and fresh Shopee discovery remain.",
+    "task": "99 technical sources redirect with all old headings and pinned originals. Next audit remaining legacy technical/navigation files and preserved JSON snapshots. Technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Technical rollback: make technical-retirement-rollback-plan then make technical-retirement-apply;metadata rollback targets remain available."
   },
@@ -23295,9 +23295,9 @@
         }
       ],
       "remaining_models": [],
-      "source_retired": false,
+      "source_retired": true,
       "complete": false,
-      "remaining_work": "Current explicit-link audit supersedes stale22occurrence snapshot:33incoming links,nonewithfragments;25outgoinglocal referencesallresolve. effects/MIGRATION.md also names source asliteral table text;JSONprovenance references remain. Reference-key/anchor equivalence,HTML/code/shortcut/external references and navigation redirects still require handling before retirement. Source retained;other shared sources remain unaudited.",
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "union_scan": {
         "date": "2026-10-17",
         "exact_prose_paragraphs": 18,
@@ -23818,8 +23818,8 @@
         "Sonicake Matribox II Pro QME-200"
       ],
       "pending_models": [],
-      "remaining_work": "Source content union passed for all three model-row subsets, prose and external URLs. Incoming links remain; retain source. Other shared-source preservation and technical gaps still pending.",
-      "source_retired": false,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
+      "source_retired": true,
       "prose_union": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-floorboard-union",
@@ -23892,8 +23892,8 @@
         "MG-50Li"
       ],
       "pending_models": [],
-      "source_retired": false,
-      "remaining_work": "Content union verified:90 model fields,9 prose/navigation/source-list groups and20 external URLs. Six incoming explicit links with no fragments remain;three outgoing local links resolve. Preserve provenance and handle navigation/shortcut/HTML/code/external references before retirement. Other shared sources,fresh discovery and technical gaps remain.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "prose_union": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-nux-union",
@@ -24017,8 +24017,8 @@
       "source": "effects/bass.md",
       "source_sha256": "757f426d9a03ff1fd2fef266c9a2ebecd50a0d0d1254862868dfaa1d130aea11",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Content union verified:105model fields,6shared groups,20 externalURLs.13incominglinks,nofragments,6resolvingoutgoinglinks. Navigation/shortcut/HTML/code/external references and provenance must be handled before retirement. Other shared sources,technical gaps and fresh discovery remain.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "prose_union": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-bass-union",
@@ -24222,8 +24222,8 @@
       "source": "effects/vocal.md",
       "source_sha256": "418bdf05e190f37e35e31b32d958014f3c019522f4891118d9d1ecd2c667107b",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Content union verified:112model fields,6shared groups,19 external URLs.13incoming links,no fragments,4resolving outgoing links. Navigation/shortcut/HTML/code/external references and provenance remain before retirement. Other shared sources,technical gaps and fresh discovery remain.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "prose_union": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-vocal-union",
@@ -24424,8 +24424,8 @@
         "Flex Prime"
       ],
       "pending_models": [],
-      "source_retired": false,
-      "remaining_work": "Content union verified:90model fields,10shared groups,19 externalURLs.10incominglinks,nofragments,5resolvingoutgoinglinks. Source remains until navigation/shortcut/HTML/code/external references and provenance handled. Other shared sources,fresh discovery and technical gaps remain.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "prose_union": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-advanced-union",
@@ -24604,8 +24604,8 @@
       "source": "effects/guitar-boss.md",
       "source_sha256": "da4dfa7448436fd3977f9581b721aedfbc255dc9ee68c810508584939eb9005a",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Current BOSS shared source verified:147fields/7models,12sharedgroups,7primaryURLs.30incominglinks,no fragments,28resolvingoutgoing references. Original2026-10-14history source requires its own full union audit;navigation/provenance/shortcut/HTML/code/external references remain before retirement. Other sources,fresh discovery and technical gaps remain.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "prose_union": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-boss-union",
@@ -24957,8 +24957,8 @@
       "source": "effects/guitar-boss.history-2026-10-14.md",
       "source_sha256": "336a226e00203170c2295beb773cad87c10d034b5beded133d1c51ba39ba24b7",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Original BOSS content verified:112fields,6sharedgroups,14URLs.11incominglinks,nofragments,4resolvingoutgoinglinks. Source retained;navigation,provenance and other reference forms remain before retirement. Other legacy sources,fresh discovery and technical gaps remain.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "prose_union": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-boss-history-union",
@@ -25125,9 +25125,9 @@
       "source": "effects/audota.md",
       "source_sha256": "62c77db84b266796b1c5bd11e443fc33b0843dc06b2c11a87db3cdadd5fc7a42",
       "complete_source_read": true,
-      "source_retired": false,
+      "source_retired": true,
       "status": "Verified complete shared source content union;source retained",
-      "remaining_work": "Full shared Audota content verified;6incoming links/no fragments,14outgoing occurrences resolve. Source retained while navigation/provenance/other reference forms and remaining legacy sources are audited. No complete technical verification claim.",
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "prose_union": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-audota-union",
@@ -25255,8 +25255,8 @@
       "source": "effects/cube-baby.md",
       "source_sha256": "45f38fc611d8e57338a6e8bce500335ddf7e81eddd8ab83c079315849afc1627",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "42shared model fields,8prose groups,3reference targets and1manufacturerURL verified.4incoming links/no fragments;9outgoing occurrences resolve. Source retained pending broader navigation/provenance audits;technical/market research remains partial.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "status": "Full shared-source content union verified;source retained",
       "prose_union": {
         "date": "2026-10-17",
@@ -25363,8 +25363,8 @@
       "source": "effects/owned-multifx.md",
       "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "All99shared model fields/9prose groups/7finding targets verified;16incoming links without fragments and18outgoing occurrences resolve. Source retained pending broader navigation/provenance and other shared source audits. Technical gaps/ownership identities remain explicit.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "status": "Full shared content union verified;source retained",
       "prose_union": {
         "date": "2026-10-17",
@@ -25589,8 +25589,8 @@
       "source": "effects/shopee-multifx.md",
       "source_sha256": "c8135f1fad8b81a01c289c6d55e96d8cc4de1500767d7459313a5ad8e7a93977",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "288shared fields/16models,13prose groups,16finding refs verified;28incoming links/no fragments and38outgoing occurrences resolve. Source retained pending broader navigation/provenance;remaining Shopee shared sources and technical/market research incomplete.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "status": "Full shared-source union verified;source retained",
       "prose_union": {
         "date": "2026-10-17",
@@ -25943,8 +25943,8 @@
       "source": "effects/shopee-multifx-2.md",
       "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Shared content union verified;source retained pending broader navigation/provenance and remaining shared source audits. Technical/market research incomplete.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "status": "Full shared-source union verified;source retained",
       "prose_union": {
         "date": "2026-10-17",
@@ -26164,8 +26164,8 @@
       "source": "effects/shopee-multifx-3.md",
       "source_sha256": "f32219503ad36584e62bb19e14638dd987d86ae77cc42517c3e81a2b0b64761e",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Shared content union verified;source retained pending broader navigation/provenance and remaining shared source audits. Technical/market research incomplete.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "status": "Full shared-source union verified;source retained",
       "prose_union": {
         "date": "2026-10-17",
@@ -26342,8 +26342,8 @@
       "source": "effects/shopee-multifx-4.md",
       "source_sha256": "63bb680b8f9d93b8b9606dd3e0ef2d652d2ed1b137d94c5db922d49e27726d3c",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Shared content union verified;source retained pending broader navigation/provenance and remaining shared source audits. Technical/market research incomplete.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "status": "Full shared-source union verified;source retained",
       "prose_union": {
         "date": "2026-10-17",
@@ -26529,8 +26529,8 @@
       "source": "effects/shopee-multifx-5.md",
       "source_sha256": "fd019708f1b54730dbcc787d4c70c7f4cb2834aceccff9754793020c663d4c7d",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Shared content union verified;source retained pending broader navigation/provenance and remaining shared source audits. Technical/market research incomplete.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "status": "Full shared-source union verified;source retained",
       "prose_union": {
         "date": "2026-10-17",
@@ -26680,8 +26680,8 @@
       "source": "effects/shopee-multifx-6.md",
       "source_sha256": "5e9393d5f1c39de2b57dff760c42693ce281952c9deb8c0dc007c52b71aacb98",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Shared content union verified;source retained pending broader navigation/provenance and remaining shared source audits. Technical/market research incomplete.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "status": "Full shared-source union verified;source retained",
       "prose_union": {
         "date": "2026-10-17",
@@ -26856,8 +26856,8 @@
       "source": "effects/shopee-multifx-7.md",
       "source_sha256": "b63cff6d01057f162729850c8961d30f47411f3a0d0fd14f03d86f51b284e837",
       "complete_source_read": true,
-      "source_retired": false,
-      "remaining_work": "Shared content union verified;source retained pending broader navigation/provenance and remaining shared source audits. Technical/market research incomplete.",
+      "source_retired": true,
+      "remaining_work": "Redirect and all original heading anchors verified;technical research remains partial.",
       "status": "Full shared-source union verified;source retained",
       "prose_union": {
         "date": "2026-10-17",
@@ -34579,6 +34579,1813 @@
         ],
         "status": "retired_technical_redirect",
         "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/guitar-compact.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc",
+        "redirect_sha256": "34844cd85390a15f315ad08a4f10df7352b0f2020cb6f835d53a9f02aa49539b",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Compact guitar / multi-instrument processors",
+          "## 1. Displays",
+          "## 2. Hardware, expression and IDR prices",
+          "### Built-in expression pedal",
+          "### No built-in expression pedal",
+          "## 3. Processing, memory, IR and NAM",
+          "## 4. Connections, power, apps and practical differences",
+          "### Firmware-sensitive notes",
+          "## Sources and per-model findings",
+          "## Archived foreign-price provenance — not the comparison currency"
+        ],
+        "incoming_before": [
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 119,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 142,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 159,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 187,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "SONICAKE.md",
+            "line": 76,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "SONICAKE.md",
+            "line": 163,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "SONICAKE.md",
+            "line": 250,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 110,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 200,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 214,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 302,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 388,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 475,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 495,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 594,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 614,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 701,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-compact.md"
+          },
+          {
+            "source": "effects/advanced-modelers.md",
+            "line": 3,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-compact.md"
+          },
+          {
+            "source": "effects/bass.md",
+            "line": 74,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-compact.md"
+          },
+          {
+            "source": "effects/guitar-boss.history-2026-10-14.md",
+            "line": 3,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-compact.md"
+          },
+          {
+            "source": "effects/guitar-boss.md",
+            "line": 3,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-compact.md"
+          },
+          {
+            "source": "effects/guitar-floorboards.md",
+            "line": 3,
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-compact.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/guitar-floorboards.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "da7a4cecc79f01e332c524570eb53e061722b6eac55b86455993c95c6cc043e4",
+        "redirect_sha256": "23472284f277f4ccaf451e6e9d0cc0de4cd9b9cd19a075541b695c35819b1928",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Guitar / multi-instrument floorboard index",
+          "## Hardware and expression",
+          "## Processing and memory",
+          "## Connections, power, applications and live use",
+          "## Sources"
+        ],
+        "incoming_before": [
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 95,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-floorboards.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 108,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-floorboards.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 142,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-floorboards.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 187,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-floorboards.md"
+          },
+          {
+            "source": "VALETON.md",
+            "line": 346,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-floorboards.md"
+          },
+          {
+            "source": "effects/advanced-modelers.md",
+            "line": 3,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/bass.md",
+            "line": 3,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/guitar-boss.history-2026-10-14.md",
+            "line": 3,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/guitar-compact.md",
+            "line": 3,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/guitar-nux.md",
+            "line": 3,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/specialist.md",
+            "line": 3,
+            "target": "effects/guitar-floorboards.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-floorboards.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/guitar-nux.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "6259d5777c8ed841b7d629f16e913d4ad618ad1da6470d091156ee57022bb6a0",
+        "redirect_sha256": "70c08de864c8f176353774831bb682fd8bfe85bedbe916815da875aa7fe57e3b",
+        "destination": "NUX.md",
+        "original_headings": [
+          "# NUX guitar / bass multi-effects",
+          "## Hardware and size — all six have built-in expression",
+          "## Processing, presets, acoustic/synth and model loading",
+          "## Ports, power and software",
+          "## Conflicts and firmware cautions",
+          "## Sources"
+        ],
+        "incoming_before": [
+          {
+            "source": "effects/guitar-floorboards.md",
+            "line": 3,
+            "target": "effects/guitar-nux.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-nux.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/bass.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "757f426d9a03ff1fd2fef266c9a2ebecd50a0d0d1254862868dfaa1d130aea11",
+        "redirect_sha256": "45f5631be1eaa6ca51267d4747869bb5ee55db74495587cccfd12044d05055d6",
+        "destination": "ALL-BASS.md",
+        "original_headings": [
+          "# Bass-focused multi-effects",
+          "## Hardware, expression, size and prices",
+          "### No built-in expression pedal",
+          "### Built-in expression pedal",
+          "## Processing, memory and loading",
+          "## I/O, power, apps and stage features",
+          "## Sources",
+          "## Multi-instrument alternatives"
+        ],
+        "incoming_before": [
+          {
+            "source": "BOSS.md",
+            "line": 31,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/bass.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 91,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/bass.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 154,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/bass.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 159,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/bass.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 187,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/bass.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 617,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/bass.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 693,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/bass.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 725,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/bass.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 788,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/bass.md"
+          },
+          {
+            "source": "effects/guitar-boss.history-2026-10-14.md",
+            "line": 3,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "bass.md"
+          },
+          {
+            "source": "effects/guitar-boss.md",
+            "line": 3,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "bass.md"
+          },
+          {
+            "source": "effects/guitar-compact.md",
+            "line": 3,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "bass.md"
+          },
+          {
+            "source": "effects/guitar-floorboards.md",
+            "line": 3,
+            "target": "effects/bass.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "bass.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/vocal.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "418bdf05e190f37e35e31b32d958014f3c019522f4891118d9d1ecd2c667107b",
+        "redirect_sha256": "f2b6fd2d7a4b3b4c4e5e12c9dcb810b7f3dbbc2f4710f861c79b4d568eeff1c3",
+        "destination": "ALL-VOCAL.md",
+        "original_headings": [
+          "# Vocal and acoustic/vocal processors",
+          "## Hardware, expression, size and prices",
+          "### Built-in expression",
+          "### No built-in expression",
+          "## Processing, presets and sound functions",
+          "## Ports, power, apps and live use",
+          "## Sources"
+        ],
+        "incoming_before": [
+          {
+            "source": "BOSS.md",
+            "line": 211,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/vocal.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 268,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/vocal.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 325,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/vocal.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 381,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/vocal.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 438,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/vocal.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 493,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/vocal.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 848,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/vocal.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 905,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/vocal.md"
+          },
+          {
+            "source": "effects/guitar-compact.md",
+            "line": 3,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "vocal.md"
+          },
+          {
+            "source": "effects/specialist.md",
+            "line": 3,
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "vocal.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/advanced-modelers.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "1299f5d02d73f1bc372aab883458d28edb739ad4c4a8149f98cc7f6d9bebcec7",
+        "redirect_sha256": "de4534179143d6fe6fa82f50f3658b03bb1f10dbadb6d96e3a43c192471385af",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Advanced modelers, capture pedals and effects-only processors",
+          "## Hardware, size and expression",
+          "### No built-in expression pedal",
+          "### Built-in expression pedal",
+          "## Processing, presets, IR and capture formats",
+          "### NAM and firmware corrections",
+          "## Connections, power, software and live use",
+          "## Sources"
+        ],
+        "incoming_before": [
+          {
+            "source": "IK-MULTIMEDIA.md",
+            "line": 39,
+            "target": "effects/advanced-modelers.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/advanced-modelers.md"
+          },
+          {
+            "source": "IK-MULTIMEDIA.md",
+            "line": 111,
+            "target": "effects/advanced-modelers.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/advanced-modelers.md"
+          },
+          {
+            "source": "LINE6.md",
+            "line": 731,
+            "target": "effects/advanced-modelers.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/advanced-modelers.md"
+          },
+          {
+            "source": "NEURAL-DSP.md",
+            "line": 35,
+            "target": "effects/advanced-modelers.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/advanced-modelers.md"
+          },
+          {
+            "source": "effects/guitar-floorboards.md",
+            "line": 3,
+            "target": "effects/advanced-modelers.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "advanced-modelers.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/guitar-boss.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "da4dfa7448436fd3977f9581b721aedfbc255dc9ee68c810508584939eb9005a",
+        "redirect_sha256": "b65793bd89353f51463c99eaae1480e9e9c80dfe30257a84d4a0613d0928b7eb",
+        "destination": "BOSS.md",
+        "original_headings": [
+          "# BOSS guitar / multi-instrument multi-effects",
+          "## 1. Displays",
+          "## 2. Hardware, size and expression",
+          "### No built-in expression",
+          "### Built-in expression",
+          "## 3. Used and retail IDR evidence",
+          "## 4. Processing, memory, IR and sound functions",
+          "## 5. Connections, power and applications",
+          "## 6. Sources and individual follow-up commits"
+        ],
+        "incoming_before": [
+          {
+            "source": "BOSS.md",
+            "line": 530,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 616,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 633,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 714,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 766,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 846,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 892,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 977,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1027,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1110,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1156,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1239,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1289,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1372,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 78,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 119,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.md"
+          },
+          {
+            "source": "effects/bass.md",
+            "line": 74,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-boss.md"
+          },
+          {
+            "source": "effects/guitar-compact.md",
+            "line": 146,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-boss.md"
+          },
+          {
+            "source": "effects/guitar-floorboards.md",
+            "line": 3,
+            "target": "effects/guitar-boss.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-boss.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/guitar-boss.history-2026-10-14.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "336a226e00203170c2295beb773cad87c10d034b5beded133d1c51ba39ba24b7",
+        "redirect_sha256": "7b09ff70f547fac8a72724fbee7b4874bbffc825b50677743bc58a65812977bf",
+        "destination": "BOSS.md",
+        "original_headings": [
+          "# BOSS guitar / multi-instrument multi-effects",
+          "## Hardware, size and expression",
+          "### No built-in expression",
+          "### Built-in expression",
+          "## Processing, presets, IR and synth/acoustic functions",
+          "## I/O, power and software",
+          "## Sources"
+        ],
+        "incoming_before": [
+          {
+            "source": "BOSS.md",
+            "line": 616,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 714,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 846,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 977,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1110,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1239,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "BOSS.md",
+            "line": 1372,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 163,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 179,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "effects/guitar-boss.md",
+            "line": 7,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-boss.history-2026-10-14.md"
+          },
+          {
+            "source": "effects/guitar-boss.md",
+            "line": 92,
+            "target": "effects/guitar-boss.history-2026-10-14.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "guitar-boss.history-2026-10-14.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/audota.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "62c77db84b266796b1c5bd11e443fc33b0843dc06b2c11a87db3cdadd5fc7a42",
+        "redirect_sha256": "c2b5b9ae32838f598023eff116d9009733556b6a281ff7b55c21381f80cae676",
+        "destination": "AUDOTA.md",
+        "original_headings": [
+          "# Audota guitar and vocal multi-effects",
+          "## Guitar hardware and screens",
+          "## Guitar processing, memory and loading",
+          "### AME-200 and Pro: actual appendix counts",
+          "## Guitar connections, power and applications",
+          "## Vocal model: AVE-100",
+          "## Separate IDR evidence"
+        ],
+        "incoming_before": [
+          {
+            "source": "AUDOTA.md",
+            "line": 105,
+            "target": "effects/audota.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/audota.md"
+          },
+          {
+            "source": "AUDOTA.md",
+            "line": 210,
+            "target": "effects/audota.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/audota.md"
+          },
+          {
+            "source": "AUDOTA.md",
+            "line": 316,
+            "target": "effects/audota.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/audota.md"
+          },
+          {
+            "source": "AUDOTA.md",
+            "line": 427,
+            "target": "effects/audota.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/audota.md"
+          },
+          {
+            "source": "AUDOTA.md",
+            "line": 535,
+            "target": "effects/audota.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/audota.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/cube-baby.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "45f38fc611d8e57338a6e8bce500335ddf7e81eddd8ab83c079315849afc1627",
+        "redirect_sha256": "b103a18630f3763060109b235f22f8ac408f07c6b8a716465e27db2fe0849b76",
+        "destination": "M-VAVE.md",
+        "original_headings": [
+          "# Cube Baby guitar, acoustic and bass multi-effects",
+          "## Hardware, expression and screens",
+          "## Processing, memory and loading",
+          "## Connections, power and apps",
+          "## Separate IDR evidence",
+          "## Individual findings commits"
+        ],
+        "incoming_before": [
+          {
+            "source": "M-VAVE.md",
+            "line": 906,
+            "target": "effects/cube-baby.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/cube-baby.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 996,
+            "target": "effects/cube-baby.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/cube-baby.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 1099,
+            "target": "effects/cube-baby.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/cube-baby.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/owned-multifx.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+        "redirect_sha256": "04a84ab2d55cb9d2641c8951de626b6e9c14b0a49d903a23f70ee078c17b7686",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Ever-owned multi-effects — additional technical records",
+          "## Built-in expression processors",
+          "## No built-in expression: handheld/desktop processors",
+          "## Processing, memory and loading",
+          "## Connections, power, apps and practice",
+          "## Separate IDR evidence",
+          "## Saved individual commits"
+        ],
+        "incoming_before": [
+          {
+            "source": "CUVAVE.md",
+            "line": 71,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          },
+          {
+            "source": "CUVAVE.md",
+            "line": 115,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          },
+          {
+            "source": "JOYO.md",
+            "line": 110,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 727,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 819,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          },
+          {
+            "source": "ROLAND.md",
+            "line": 91,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          },
+          {
+            "source": "VING.md",
+            "line": 79,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          },
+          {
+            "source": "VING.md",
+            "line": 123,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 195,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 214,
+            "target": "effects/owned-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/owned-multifx.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/shopee-multifx.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "c8135f1fad8b81a01c289c6d55e96d8cc4de1500767d7459313a5ad8e7a93977",
+        "redirect_sha256": "58d9d2b2d15be7606c942871fa5e4cf4f3c880ebe752fa54eefcfa8a029caf92",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Shopee Indonesia multi-effects — first expansion batch",
+          "## 1. Hardware, expression and IDR observations",
+          "### No built-in expression",
+          "### Built-in expression",
+          "## 2. Displays",
+          "## 3. Processing, presets and loading",
+          "## 4. Audio/control connections",
+          "## 5. Power, software and practice/live features",
+          "## Conflicts and next work",
+          "## Individually committed findings and source provenance"
+        ],
+        "incoming_before": [
+          {
+            "source": "FLAMMA.md",
+            "line": 106,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "FLAMMA.md",
+            "line": 205,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "HOTONE.md",
+            "line": 128,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 100,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 180,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 260,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 344,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 426,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 309,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 374,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 443,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 518,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 265,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 277,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 340,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 351,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 408,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 420,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 475,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 500,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 559,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 581,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx.md"
+          },
+          {
+            "source": "effects/shopee-multifx-2.md",
+            "line": 3,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "shopee-multifx.md"
+          },
+          {
+            "source": "effects/shopee-multifx-3.md",
+            "line": 3,
+            "target": "effects/shopee-multifx.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "shopee-multifx.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/shopee-multifx-2.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+        "redirect_sha256": "8e5f4ce22a6cf3b991e7be69a370f54fa1611d585eb02c744ebb019a570e54ab",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Shopee Indonesia multi-effects — second expansion batch",
+          "## 1. Hardware, expression and IDR prices",
+          "### No built-in expression",
+          "### Built-in expression",
+          "## 2. Displays",
+          "## 3. Processing, memory, acoustic/synth and loading",
+          "## 4. Power, apps, I/O and stage use",
+          "## Source conflicts and next research"
+        ],
+        "incoming_before": [
+          {
+            "source": "BOIN-AUDIO.md",
+            "line": 90,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-2.md"
+          },
+          {
+            "source": "JOYO.md",
+            "line": 207,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-2.md"
+          },
+          {
+            "source": "JOYO.md",
+            "line": 306,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-2.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 544,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-2.md"
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 638,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-2.md"
+          },
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 277,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-2.md"
+          },
+          {
+            "source": "SCORPION.md",
+            "line": 90,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-2.md"
+          },
+          {
+            "source": "TC-HELICON.md",
+            "line": 82,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-2.md"
+          },
+          {
+            "source": "TC-HELICON.md",
+            "line": 199,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-2.md"
+          },
+          {
+            "source": "effects/shopee-multifx-3.md",
+            "line": 3,
+            "target": "effects/shopee-multifx-2.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "shopee-multifx-2.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/shopee-multifx-3.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "f32219503ad36584e62bb19e14638dd987d86ae77cc42517c3e81a2b0b64761e",
+        "redirect_sha256": "cc51d25caf891fab567fafd10062fae9b34eee7a02a6a386606e5b46d454829d",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Shopee Indonesia multi-effects — expansion 3",
+          "## 1. Hardware and expression",
+          "### No built-in expression",
+          "### Built-in expression",
+          "## 2. Screens",
+          "## 3. Separate IDR price evidence",
+          "## 4. Processing, presets and model loading",
+          "## 5. Connections, power, software and live use",
+          "## 6. Evidence gaps and immediate commits",
+          "## Excluded historical entry"
+        ],
+        "incoming_before": [
+          {
+            "source": "DONNER.md",
+            "line": 131,
+            "target": "effects/shopee-multifx-3.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-3.md"
+          },
+          {
+            "source": "HEADRUSH.md",
+            "line": 249,
+            "target": "effects/shopee-multifx-3.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-3.md"
+          },
+          {
+            "source": "NUX.md",
+            "line": 469,
+            "target": "effects/shopee-multifx-3.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-3.md"
+          },
+          {
+            "source": "NUX.md",
+            "line": 561,
+            "target": "effects/shopee-multifx-3.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-3.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/shopee-multifx-4.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "63bb680b8f9d93b8b9606dd3e0ef2d652d2ed1b137d94c5db922d49e27726d3c",
+        "redirect_sha256": "386bf3e3b1bd1eb70eb84d507aee5555cfd5869779d7ab689fea61de9005bc46",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Shopee Indonesia multi-effects — MOOER Pro variants",
+          "## Hardware, expression and display",
+          "## Processing, memory and loading",
+          "## Ports, power and software",
+          "## Separate IDR evidence",
+          "## Immediate model commits"
+        ],
+        "incoming_before": [
+          {
+            "source": "MOOER.md",
+            "line": 601,
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-4.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 609,
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-4.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 692,
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-4.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 700,
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-4.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 780,
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-4.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 788,
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-4.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 868,
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-4.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 876,
+            "target": "effects/shopee-multifx-4.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-4.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/shopee-multifx-5.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "fd019708f1b54730dbcc787d4c70c7f4cb2834aceccff9754793020c663d4c7d",
+        "redirect_sha256": "31c9fc0ed6f95996c1be06440e1674c27a67021860ca9a9e47586d3a1bc13791",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Shopee multi-effects — recovered Hotone, MOOER and Line 6 batch",
+          "## Hardware and displays",
+          "## Processing, storage and loading",
+          "## Connections, power and apps",
+          "## IDR observations and original commits"
+        ],
+        "incoming_before": [
+          {
+            "source": "HOTONE.md",
+            "line": 203,
+            "target": "effects/shopee-multifx-5.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-5.md"
+          },
+          {
+            "source": "HOTONE.md",
+            "line": 277,
+            "target": "effects/shopee-multifx-5.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-5.md"
+          },
+          {
+            "source": "HOTONE.md",
+            "line": 354,
+            "target": "effects/shopee-multifx-5.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-5.md"
+          },
+          {
+            "source": "LINE6.md",
+            "line": 695,
+            "target": "effects/shopee-multifx-5.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-5.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 951,
+            "target": "effects/shopee-multifx-5.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-5.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 961,
+            "target": "effects/shopee-multifx-5.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-5.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1359,
+            "target": "effects/shopee-multifx-5.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-5.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1368,
+            "target": "effects/shopee-multifx-5.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-5.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/shopee-multifx-6.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "5e9393d5f1c39de2b57dff760c42693ce281952c9deb8c0dc007c52b71aacb98",
+        "redirect_sha256": "2ff39272d7c753f1bfcf029b56ed18e6d7d720c1b9153d6d4df815964686ab89",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# MOOER remaining GE150 variants and GE1000 Li",
+          "## Hardware, expression and screen",
+          "## Processing, memory, IR and NAM",
+          "### GE150 Plus and Max manuals: category counts",
+          "## Connections, power and applications",
+          "## Separate IDR evidence",
+          "## Individual commits"
+        ],
+        "incoming_before": [
+          {
+            "source": "MOOER.md",
+            "line": 1037,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1050,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1113,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1122,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1183,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1195,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1268,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1277,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1433,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          },
+          {
+            "source": "MOOER.md",
+            "line": 1442,
+            "target": "effects/shopee-multifx-6.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-6.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
+      },
+      "effects/shopee-multifx-7.md": {
+        "source_commit": "b5593add5d0bda5a82477563f76bb8b637b5b774",
+        "source_sha256": "b63cff6d01057f162729850c8961d30f47411f3a0d0fd14f03d86f51b284e837",
+        "redirect_sha256": "8536a8492b7cc3d28044bed01ff3a5007c4d95a88f75a4b9050fb99300dabbf9",
+        "destination": "MULTI-EFFECTS.md",
+        "original_headings": [
+          "# Shopee-first multi-effects — NUX, Zoom, Hotone and Line 6",
+          "## Hardware, expression and screens",
+          "### No built-in expression",
+          "### Built-in expression",
+          "## Blocks, categories and presets",
+          "## IR, NAM, power and software",
+          "## Connections and practical differences",
+          "## Separate IDR evidence",
+          "## Individual findings commits"
+        ],
+        "incoming_before": [
+          {
+            "source": "HOTONE.md",
+            "line": 435,
+            "target": "effects/shopee-multifx-7.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-7.md"
+          },
+          {
+            "source": "LINE6.md",
+            "line": 258,
+            "target": "effects/shopee-multifx-7.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-7.md"
+          },
+          {
+            "source": "LINE6.md",
+            "line": 279,
+            "target": "effects/shopee-multifx-7.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-7.md"
+          },
+          {
+            "source": "LINE6.md",
+            "line": 395,
+            "target": "effects/shopee-multifx-7.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-7.md"
+          },
+          {
+            "source": "LINE6.md",
+            "line": 502,
+            "target": "effects/shopee-multifx-7.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-7.md"
+          },
+          {
+            "source": "NUX.md",
+            "line": 665,
+            "target": "effects/shopee-multifx-7.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-7.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 141,
+            "target": "effects/shopee-multifx-7.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-7.md"
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 284,
+            "target": "effects/shopee-multifx-7.md",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/shopee-multifx-7.md"
+          }
+        ],
+        "status": "retired_technical_redirect",
+        "rollback": "make technical-retirement-rollback-plan then make technical-retirement-apply"
       }
     },
     "metadata_retirement": {
@@ -34672,10 +36479,29 @@
         "effects/findings/2026-10-14-sonicake-matribox.md",
         "effects/findings/2026-10-14-sonicake-smart-box.md",
         "effects/findings/2026-10-14-sonicake-pocket-master.md",
-        "effects/findings/2026-10-15-mvave-cube-baby.md"
+        "effects/findings/2026-10-15-mvave-cube-baby.md",
+        "effects/guitar-compact.md",
+        "effects/guitar-floorboards.md",
+        "effects/guitar-nux.md",
+        "effects/bass.md",
+        "effects/vocal.md",
+        "effects/advanced-modelers.md",
+        "effects/guitar-boss.md",
+        "effects/guitar-boss.history-2026-10-14.md",
+        "effects/audota.md",
+        "effects/cube-baby.md",
+        "effects/owned-multifx.md",
+        "effects/shopee-multifx.md",
+        "effects/shopee-multifx-2.md",
+        "effects/shopee-multifx-3.md",
+        "effects/shopee-multifx-4.md",
+        "effects/shopee-multifx-5.md",
+        "effects/shopee-multifx-6.md",
+        "effects/shopee-multifx-7.md"
       ],
       "complete_body_finding_count": 81,
-      "remaining": "Shared technical sources, excluded archival finding and legacy JSON/navigation audits remain;research remains incomplete."
+      "shared_source_count": 18,
+      "remaining": "Excluded archival finding, remaining technical/navigation sources and legacy JSON audits remain;research remains incomplete."
     }
   },
   "deferred_work": {
