@@ -333,3 +333,11 @@ consolidation-apply-ge200-pro-li:
 	python3 scripts/consolidation_tools.py apply ge200-pro-li
 consolidation-commit-ge200-pro-li:
 	python3 scripts/consolidation_tools.py commit ge200-pro-li
+
+.PHONY: consolidation-plan-ge150-pro consolidation-apply-ge150-pro consolidation-commit-ge150-pro
+consolidation-plan-ge150-pro:
+	python3 scripts/consolidation_tools.py plan ge150-pro
+consolidation-apply-ge150-pro:
+	python3 scripts/consolidation_tools.py apply ge150-pro
+consolidation-commit-ge150-pro:
+	python3 scripts/consolidation_tools.py commit ge150-pro
