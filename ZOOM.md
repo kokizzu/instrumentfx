@@ -58,7 +58,7 @@ These are individual asking observations, not completed-sale statistics or an ac
 
 ## Existing ZOOM research — consolidation still pending
 
-The existing G2X FOUR,B1 FOUR,B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+The existing B1 FOUR,B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
 
 ## B1Xon
 
@@ -360,3 +360,72 @@ Checked 2026-10-16 against the [manufacturer HTML operation manual](https://zoom
 | USB audio routing |Two processed recording channels to computer/phone; two playback channels enter after effects. Windows requires the model driver; Mac/mobile do not. Playback is not documented as a reamp input through the chain |
 
 The [current official product page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/) lists57 downloadable additions, including54 fromNovember2024 and later OverDrive,Modulation Delay2 andStereo Guitar Graphic EQ7. This is not a verified installed category total for every unit. No app or driver was installed.
+
+## G2X FOUR
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- ZOOM-G2X-FOUR source begins -->
+
+Checked **2026-10-14**. **Partial new record.** [Manufacturer product page][ZOOM-G2X-FOUR-P], [manual][ZOOM-G2X-FOUR-M] and [downloads][ZOOM-G2X-FOUR-D]. The expression-equipped model is separate from G2 FOUR.
+
+| Field | Established / unknown |
+|---|---|
+| Expression | **Built-in with front/toe switching**; external FP02M jack belongs to G2 FOUR, not this model |
+| Controls | **4 rotary /4 main footswitches /4 foot-operable direction buttons**; toe and rear power switches separate |
+| Screen | **256×128 dot-matrix monochrome LCD**; diagonal and explicit touch specification ? |
+| Size / weight | **274×150×71 mm; 951 g**; medium; allow pedal travel |
+| Processing | **6 effects +1 pedal effect**, DSP-limited; 100+ advertised effects plus expanding downloads; category counts ? |
+| Presets | **300 editable, 250 factory-filled** |
+| Synth / acoustic simulator | ? / ? |
+| Ports | ¼-inch mono input; 2×¼-inch outputs; ⅛-inch aux/phones; USB-C |
+| Power | **9 V/500 mA center-negative AD-16 or USB bus**; internal battery not listed |
+| IR / NAM | Factory Multi-Layer IR is not evidence of third-party IR import; NAM ? |
+| Editor | Paid **Handy Guitar Lab iOS/iPadOS/Android**, USB connection; Windows/macOS USB audio is a different function |
+| Extras | **80 s mono looper; 68 rhythms; USB 2-in/2-out, 44.1 kHz/32-bit** |
+
+### Shopee Indonesia
+
+- **Rp4.500.000**, [cveri accessories retail item][ZOOM-G2X-FOUR-S1]; live stock/condition unconfirmed.
+- **Rp3.536.000**, [Imagination Music Store][ZOOM-G2X-FOUR-S2]; older indexed retail observation, not current checkout confirmation.
+- [zoomsoundlab.id adapter bundle][ZOOM-G2X-FOUR-S3] explicitly **sold out**: body shows **Rp3.891.888 with voucher**, while snippet shows **Rp4.324.320**. Keep both the historical availability and price-context conflict; neither is a completed sale.
+
+Used-condition price **?**. Do not use an unresolved mixed listing of G5n/GFX-5/G2/G2X as a G2X-specific price. Shipping and warranty are not silently included.
+
+[ZOOM-G2X-FOUR-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/
+[ZOOM-G2X-FOUR-M]: https://zoomcorp.com/manuals/g2four_g2xfour-en/
+[ZOOM-G2X-FOUR-D]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/
+[ZOOM-G2X-FOUR-S1]: https://shopee.co.id/Zoom-G2X-Four-Guitar-Multi-Effect-Processor-Pedal-Original-Efek-Gitar-i.785734870.19285664445
+[ZOOM-G2X-FOUR-S2]: https://shopee.co.id/Zoom-G2X-Four-Multi-effects-Processor-with-Expression-Pedal-i.19576516.25801145561
+[ZOOM-G2X-FOUR-S3]: https://shopee.co.id/Zoom-G2X-Four-Multi-Effects-Processor-With-Adaptor-AD-16E-i.348182890.21684127932
+
+**Next:** current library counts, display diagonal/touch specification and unambiguous used offers.
+<!-- ZOOM-G2X-FOUR source ends -->
+
+### G2X FOUR — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **External expression / toe** (Built-in expression): No socket / toe yes
+- **K/F/B** (Built-in expression): 4/4/4*
+- **Dimensions; weight** (Built-in expression): 274×150×71; 951 g
+- **Size** (Built-in expression): Medium
+- **Used IDR** (Built-in expression): ?
+- **Retail IDR observation** (Built-in expression): Rp4.500.000; other older/voucher/sold-out observations kept in findings
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 6 effects +1 pedal effect, DSP-limited; installed category counts ?
+- **Preset storage** (3. Processing, presets and loading): 300 editable /250 factory-filled
+- **Acoustic simulation / synth** (3. Processing, presets and loading): ? / ?
+- **IR / NAM** (3. Processing, presets and loading): Same factory-IR distinction; NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): Same audio ports as G2, USB-C; **no external-expression jack**
+
+Sources: [effects/findings/2026-10-14-zoom-g2x-four.md](effects/findings/2026-10-14-zoom-g2x-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+
+### G2X FOUR — current shared-manual limits
+
+Checked2026-10-16 in the [manufacturer manual naming both models](https://zoomcorp.com/manuals/g2four_g2xfour-en/); see also the expanded [G2 FOUR discussion](ZOOM.md#g2-four). These apply explicitly to G2X FOUR, without borrowing its mass or expression connections from G2 FOUR.
+
+| Field | Additional verified limit |
+|---|---|
+| Looper |80 s mono /40 s stereo; UNDO halves both limits. Patch changes stop loops; Library entry clears them |
+| Processing restrictions |One instance each of amp,pedal,rhythm,looper categories; DSP limits still apply |
+| USB audio routing |Processed stereo recording; stereo playback enters after effects |
