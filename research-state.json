@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VoiceLive 3 Extreme primary follow-up",
-    "task": "Exact Extreme model added to guitar/vocal comparisons. Continue official/mirrored manual technical gaps,ports/DC/USB/looper and qualified offers. Commit before another model.",
+    "task": "VoiceLive3 Extreme USB/analog/phantom follow-up saved. Continue DC power,physical counts,looper andautomation/import limits with revision-qualified primary evidence;thenexactoffers. Commit eachmodel before next.",
     "next_models": [],
     "after_queue": "Resume fresh Shopee discovery;no exhaustivecoverageclaim."
   },
@@ -1702,15 +1702,28 @@
       "unresolved": [
         "expression and physical counts",
         "simultaneous/category counts",
-        "complete ports andphantom",
+        "exact port counts and control sockets",
         "DC power/battery/USB",
         "display",
-        "USB routing",
+        "USB MIDI and recording/live limits",
         "IR/NAM/capture",
         "editor/platforms",
         "looper/automation/live limits",
         "qualified used/new prices"
-      ]
+      ],
+      "usb_ports_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+        "manual_revision": "2015-10-20 firmware2.1.00build346",
+        "resolved": [
+          "Analog connector types and +48V Setup/Condenser Mic behavior",
+          "Stereo16-bit48kHz2in2out;genericWin/OSXdrivers",
+          "USB audio/backing tracks mutually exclusive",
+          "Stereo vs Tracking returns; InsertL vocal/R guitar",
+          "Tracking-only USB dry vocalL/processed guitarR output option"
+        ],
+        "remaining": "Exact output/control socket counts,DC power,USB MIDI andsavedgaps"
+      }
     }
   ],
   "consolidation_and_price_findings": [

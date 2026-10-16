@@ -252,9 +252,10 @@ Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17
 | Processing / choices | Independent vocal and guitar layers. Vocal harmony,HardTune,delay,reverb,µMod; guitar amp,drive,delay,reverb,compression,wah,octaver. Simultaneous ceiling/category subtotals unresolved. | [Manual][VL3X-M] contents,pp194–195 |
 | Factory / user memory | 500 presets capacity;250 factory presets;10 steps/preset. Do not add factory count tocapacity. | [Manual][VL3X-M] p195 |
 | Synth / acoustic | Vocal Synth/vocoder documented; dedicated guitar synth/acoustic simulation unverified. | [Manual][VL3X-M] contents,p195 |
-| I/O | Combo XLR/TRS voice input;USB A and Mini-B;MIDI in/out5-pin DIN;pedal TRS. Full audio inventory/routing andphantom settings pending. | [Manual][VL3X-M] pp196–198 |
+| I/O | Combo XLR/TRS voice input;quarter-inch guitar input;balanced XLR monitor input/thru;3.5mm stereo AUX/headphones;balanced XLR vocal outputs;quarter-inch TRS guitar outputs/buffered thru;USB A/Mini-B,MIDI in/out5-pin DIN,pedal TRS. Exact output counts/control-socket inventory still require panel verification. | [Manual][VL3X-M] pp196–198 |
+| Phantom / mic control | +48V switchable in Setup; Condenser Mic input type activates it with temporary muting. MP-75/MP-76/e835fx enable microphone control. | [Manual][VL3X-M] p156,196,198 |
 | Power / battery / USB | External supply mains100–240V50–60Hz;consumption<14W. Device DC voltage,current,polarity,battery andUSB bus power unverified. | [Manual][VL3X-M] p198 |
-| USB audio / MIDI | USB Audio anddirect-to-USB recording documented;formats/channels/routing unresolved. DIN MIDI present;USB MIDI scope pending. | [Manual][VL3X-M] contents,p198 |
+| USB audio / MIDI | Stereo2-in/2-out,16-bit48kHz, generic Windows/OS X drivers. **USB audio and backing tracks mutually exclusive.** Stereo input feeds XLR/headphones; DAW Tracking return feeds headphones only. DAW Insert processes left via vocal and right via guitar path. Tracking-only output option sends dry vocal left and processed guitar right;other modes lock it. DIN MIDI present;USB MIDI scope pending. | [Manual][VL3X-M] pp85–87,198 |
 | IR / NAM / capture | Native/converted NAM,user IR andcapture import unestablished. | Unresolved |
 | Editor / platforms | VoiceSupport documented;editor versus updater/librarian scope andOS support unresolved. | [Manual][VL3X-M] contents |
 | Looper / drums / scenes | Looper,backing tracks andFX automation documented;capacity,simultaneous limits,drums,scenes andtrails need verification. Steps are retained separately fromscene claims. | [Manual][VL3X-M] contents,p195 |
@@ -272,7 +273,7 @@ Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17
 
 **Rp18,919,000**, Kisama Storee,Kota Jakarta Utara;shop1518350861/item29085370240. Exact Extreme guitar/vocal processor title. Checked2026-10-17;last-month index andJS-limited direct body,13–16Sep delivery stale. Condition,stock,selected variation,adapter/bundle,warranty/import region,shipping,tax,voucher and delivered total unknown. Late-delivery10k compensation is not hardware discount. Preserved outside used/new price columns. [Item](https://shopee.co.id/Tc-Helicon-Voicelive-3-Extreme-Guitar-And-Vocal-Effects-Processor-Pedal-Co-i.1518350861.29085370240).
 
-Remaining: complete controls/expression,processing choices,ports/phantom,DC power,screen details,USB routing,imports/software,looper/automation limits andcondition-qualified prices. Standard VoiceLive3 specifications are not silently substituted.
+Remaining: complete controls/expression,processing choices,full port counts/control sockets,DC power,screen details,USB routing,imports/software,looper/automation limits andcondition-qualified prices. Standard VoiceLive3 specifications are not silently substituted.
 
 [VL3X-M]: https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual
 [VL3X-O]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEG/VOICELIVE%203%20EXTREME_M_EN.pdf
