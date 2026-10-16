@@ -122,3 +122,63 @@ Checked2026-10-16;cached exact hardware offers,not checkout/current-stock proof.
 | Retail-style / Salomo Musik,Jakarta Utara | Rp4.868.000 with voucher,minRp10,000/10% discount. Relative tomorrow delivery;voucher cap,stock,condition and adapter/bundle unconfirmed. Exact page body accessible. | [1776275 /52656028208](https://shopee.co.id/Boss-GX1B-Pedal-Bass-Multi-Effects-Original-i.1776275.52656028208) |
 
 Remaining:screen diagonal/touch;power DC voltage/polarity;IR sample length;full per-category subtype counts;USB channel/bit-depth/driver details;condition-verified used/new offers,current stock and bundles.
+
+## ME-90B
+
+Bass multi-effects;built-in expression with toe switch. Consolidated/researched2026-10-16;partial verification.
+
+### ME-90B — preserved original comparison
+
+Checked **2026-10-14**. Records are **partial**, not certifications that every field is complete. `?` = unverified, not No. Dimensions are **width × depth × height, mm**. `K/F/B` = rotary controls / footswitches / separate buttons; toe switches are additional. Prices below are **USD** seller observations, excluding destination tax/shipping. A missing used price is not estimated from the new price.
+
+Do not interpret the lower international new price versus a US used ask as an error or an arbitrage guarantee: markets, taxes, warranty regions, shipping, listing age and conditions differ. The used ME-90B observations are indexed listings, not confirmed completed sales.
+
+| Required field | Original observation (2026-10-14) |
+|---|---|
+| External expression | No external EXP socket listed |
+| K/F/B | 30/8/4 + toe [photo/specs] |
+| W×D×H, mm; weight | 443×220×67, max H93; 2.9 kg incl. batteries |
+| Size class | Large |
+| Used USD | $349.99–399.99 indexed asks; stock/condition verification pending [P3] |
+| New USD observation | $450.99, GC [P4]; $295, Thomann US-facing [P1] |
+| Maximum simultaneous blocks; categories / choices | Preamp plus **6 simultaneous effect categories**; 10 onboard preamps, 61 onboard bass effects; specs count 93 types including alternatives |
+| Factory / user memory | 36 P + 36 U |
+| Synth / acoustic | **Synth yes**; acoustic-bass preamp, not electric-to-acoustic conversion |
+| Third-party IR | 3 user speaker IRs |
+| NAM | Not established |
+| Audio / control ports | ¼″ input; 2×¼″ out; mono FX loop; mono XLR DI/ground lift; 3.5 mm phones; USB-C; BT-DUAL port |
+| Power; USB bus operation | 4 AA or PSA adapter; 195mA; USB power not listed |
+| Configuration apps | Tone Studio Windows/macOS; iOS/Android with **optional BT-DUAL** |
+| Other important features | Dry-blend knob; manual stomp mode; 38 s mono looper; USB audio |
+
+Original source URLs: [source](https://www.boss.info/global/products/me-90b/specifications/); [source](https://static.roland.com/products/me-90b/image/me-90b_gal_top.jpg); [source](https://www.thomannmusic.com/zoom_b6.htm); [source](https://www.thomannmusic.com/boss_me_90b.htm); [source](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=13); [source](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=9); [source](https://www.guitarcenter.com/BOSS/Bass-Effects-Pedals.gc). P1:Thomann US-facing/tax-shipping excluded;P3:GC indexed used349.99 and399.99Excellent,unusual Fender path retained;P4:GC bass catalogue. Original photo checked against manufacturer control list. Historical USD asks remain separate from IDR;no conversion. [Complete original](effects/bass.md) retained unchanged.
+
+### ME-90B — current manufacturer checks
+
+| Required field | Evidence / limits (2026-10-16) |
+|---|---|
+| Physical controls / expression | Legacy30knobs/8footswitches/4buttons+toe retained;current manufacturer confirms eight switches and expression/toe. No external EXP socket in published connector list;complete rotary recount still pending. [ME90B-S] |
+| Processing / memory / acoustic | Dedicated preamp plus six simultaneous effect categories;10 onboard AIRD preamps,61 onboard effects versus93 types in specification with alternatives.36preset+36user=72 memories. Acoustic preamp is optimized for acoustic-electric/upright pickups,not proof of conversion from electric bass. [ME90B-S] |
+| Editor / Bluetooth / IR | Tone Studio Windows/macOS;mobile iOS/Android editing and audio streaming require optional BT-DUAL.Three user speaker IRs;not NAM/capture support. [ME90B-S] IR loader launches from Tone Studio;USER1–3 empty at factory. [ME90B-M] IR format/sample-length and native/converted NAM/proprietary capture remain unverified. |
+| Display / power / body | Two-character seven-segment LED plus tuning LEDs;diagonal/color/touch unspecified.195mA;fourAA about6h;PSA-S optional.443×220×67mm,max93mm;2.9kg incl.batteries.USB bus power and DC voltage/polarity remain unverified in inspected text. [ME90B-M] |
+| Ports / routing | Quarter-inch input,L/MONO/R outs,mono SEND/RETURN;XLR balanced out/ground lift;stereo-mini phones;USB-C;BT adapter port;DC. [ME90B-M] Loop defaults before preamp,can move after it;SEND produces no output unless RETURN connected. [ME90B-M] |
+| Looper / carryover | 38s mono. [ME90B-S] DLY/REV carryover enabled by default and switchable;does not apply to delay in MOD. [ME90B-M] |
+| USB / editor requirements | USB recording/playback. [ME90B-S] Tone Studio guide requires dedicated USB driver before software;Windows/Mac installer instructions distinct from firmware. [ME90B-B] Direct monitoring resets on at startup;USB return mixes with processed bass. [ME90B-P] Exact channels/bitdepth/OS compatibility remain unverified. |
+
+[ME90B-S]: https://www.boss.info/global/products/me-90b/specifications/
+[ME90B-M]: https://static.roland.com/assets/media/pdf/ME-90B_Reference_eng01_W.pdf
+[ME90B-P]: https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf
+[ME90B-B]: https://static.roland.com/assets/media/pdf/ME-90B_BTS_PC_eng01_W.pdf
+
+### ME-90B — separate IDR asking-price evidence
+
+Checked2026-10-16 using exact hardware pages. Cached asks do not establish current stock,new condition,checkout,shipping/tax or warranty region. Store names not authenticated. Seller adapter/BT-DUAL bundles unspecified;manufacturer options do not prove seller inclusion.
+
+| Condition / seller | IDR observation / qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no exact condition-verified used IDR ask established. Historical USD used records above are not IDR evidence. | — |
+| Retail-style / Boss Official Shop,Tangerang Selatan | Rp8.831.500 versus crossedRp10.390.000,15% off. Search mentions free gift and same-day delivery;reopened body instead tomorrow-before09:00 cutoff,no gift text. Gift contents unspecified;not confirmed bundle. Late-delivery voucher not price discount. | [341882414 /25524949832](https://shopee.co.id/BOSS-ME-90B-Bass-Multiple-Effects-i.341882414.25524949832) |
+| Retail-style / CH MUSIC,Jakarta Pusat | Rp8.580.000. Index four-hour delivery-before15:00;reopened cached body tomorrow-before10:00. No price voucher shown;stock/bundle unverified. | [195817632 /26201831823](https://shopee.co.id/Boss-ME90B-Bass-Multiple-Effect-BOSS-ME-90B-Effect-Bass-Original-i.195817632.26201831823) |
+| Retail-style / Eleven Music,Jakarta Pusat | Indexed Rp7.950.000 with Layanan Tidak Tersedia;direct reopen cache miss. Delivery service unavailable in snapshot,not evidence of nationwide availability or sold-out stock. Two URL slugs share same seller/item,one offer not two. | [12356205 /25781715958](https://shopee.co.id/Boss-ME-90B-Bass-Multi-Effects-Pedal-BOSS-ME90B-Original-i.12356205.25781715958) |
+
+Unresolved:full category/subtype counts,IR formats/length,screen diagonal/color/touch,rotary recount,DC voltage/polarity/USB power,current software versions/USB channels/bitdepth,condition-verified used/new asks/current stock/bundles. No legacy source deleted.
