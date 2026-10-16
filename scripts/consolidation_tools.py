@@ -1506,7 +1506,36 @@ def audit_legacy():
     for e in shared:
         print(e['path']+' | tables='+str(e['table_count'])+' | source-manifests='+str(len(e['manifest_scopes']))+' | incoming='+str(len(e['incoming'])))
 
+
+def audit_compact(model):
+    research_tools.identity()
+    assert model == 'GP-100', 'Additional models require explicit scope review'
+    state = json.loads((ROOT/'research-state.json').read_text())
+    source_path = 'effects/guitar-compact.md'
+    source = (ROOT/source_path).read_text()
+    entry = next(e for e in state['consolidation_and_price_findings'] if e.get('model_name') == model and e.get('destination') == 'VALETON.md#gp-100')
+    expected = []
+    for headers, rows, context in comparison_views.tables(source):
+        for row in rows:
+            label = re.sub(r'\[([^\]]+)\]\[[^\]]+\]', r'\1', row[0])
+            if label not in ('GP-100', 'Valeton GP-100'):
+                continue
+            for header, value in zip(headers[1:], row[1:]):
+                value = value.replace('(findings/', '(effects/findings/')
+                expected.append(dict(field=header,value=value,source=source_path,context=context))
+    retained = [f for f in entry['retained_comparison_facts'] if f['source'] == source_path]
+    assert len(expected) == 23 and expected == retained, 'Shared model row completeness changed'
+    destination = (ROOT/'VALETON.md').read_text().split('\n## GP-100\n',1)[1].split('\n## ',1)[0]
+    for fact in expected:
+        assert fact['value'] in destination, 'Missing shared fact: '+fact['field']
+    context = next(p for p in source.split('\n\n') if p.startswith('**Availability warning:**'))
+    assert context in destination, 'Shared availability context missing'
+    print('PASS GP-100: all 23 fields across five model rows retained; shared availability conflict retained. Other models, shared prose and incoming-link retirement remain unaudited.')
+
 if __name__ == '__main__':
+    if len(sys.argv) == 3 and sys.argv[1] == 'audit-compact':
+        audit_compact(sys.argv[2])
+        raise SystemExit(0)
     if sys.argv[1:] == ['audit-legacy']:
         audit_legacy()
         raise SystemExit(0)

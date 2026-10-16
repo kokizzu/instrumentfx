@@ -199,6 +199,12 @@ Historical GP-100 source URLs: https://www.guitarcenter.com/Valeton/Used-Valeton
 
 Sources: [effects/findings/2026-10-14-valeton-gp-100.md](effects/findings/2026-10-14-valeton-gp-100.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
 
+### GP-100 shared-source audit
+
+The complete compact comparison was re-read on 2026-10-17. Its original 2026-10-14 GP-100 rows are preserved as dated supporting facts above; the later NAM conversion qualification remains separate. The shared availability paragraph is retained verbatim for its conflicting purchase-state context:
+
+**Availability warning:** the Nafiri GP-100/Pocket Master and Smosyu GP-5 extracted pages contain both a sold-out label and Add to cart. Those conflicting page elements are recorded as **unconfirmed**, not definite stock. The GP-100 used and GP-50 new listings have an explicit sold-out purchase state; these are historical listed amounts, not active offers or proven sale prices. A seller account name does not establish authorized-dealer status.
+
 ## GP-150
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

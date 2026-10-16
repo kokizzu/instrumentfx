@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shared guitar-compact source audit",
-    "task": "Read complete effects/guitar-compact.md, identify every model row and shared context/source URL, compare exact root destination model sections and existing manifests. Repair one model at a time and commit before next. New make consolidation-audit-legacy inventories 114 Markdown sources,32 shared,413 lexical incoming-link occurrences. Broader anchor/JSON/code references, unregistered findings, technical gaps and fresh Shopee discovery remain.",
+    "model": "Valeton GP-150 shared compact-source audit",
+    "task": "GP-100 exact 23 fields/five rows audited; missing shared availability paragraph restored and source retained. Next inspect GP-150 exact root section against complete guitar-compact source, all fields/shared context/reference URLs; preserve dated NAM distinctions. Commit each model before another. Remaining sources/incoming links, technical gaps and fresh Shopee discovery still required.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -14203,6 +14203,33 @@
         "No manifest does not prove lost content; each original must be read and checked against root destinations.",
         "All legacy sources retained; hashes and incoming references provide an audit checkpoint, not deletion approval."
       ]
+    },
+    "shared_compact_audit": {
+      "date": "2026-10-17",
+      "source": "effects/guitar-compact.md",
+      "source_sha256": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc",
+      "complete_source_read": true,
+      "models": [
+        {
+          "model": "Valeton GP-100",
+          "destination": "VALETON.md#gp-100",
+          "target": "make consolidation-audit-compact-gp100",
+          "retained_fields": 23,
+          "model_rows": 5,
+          "repair": "Added exact shared availability paragraph; previous row facts already retained.",
+          "scope": "Model table fields and availability paragraph only; other shared context and reference resolution not globally certified."
+        }
+      ],
+      "remaining_models": [
+        "GP-150",
+        "Matribox QME-50",
+        "GP-5",
+        "GP-50",
+        "GP-180",
+        "Smart Box QME-20",
+        "Pocket Master QME-10"
+      ],
+      "source_retired": false
     }
   },
   "deferred_work": {

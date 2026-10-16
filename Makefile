@@ -715,3 +715,11 @@ consolidation-audit-legacy:
 .PHONY: research-commit-legacy-audit
 research-commit-legacy-audit:
 	python3 scripts/research_tools.py commit-legacy-audit
+
+.PHONY: consolidation-audit-compact-gp100
+consolidation-audit-compact-gp100:
+	python3 scripts/consolidation_tools.py audit-compact GP-100
+
+.PHONY: research-commit-compact-gp100-audit
+research-commit-compact-gp100-audit:
+	python3 scripts/research_tools.py commit-compact-gp100-audit
