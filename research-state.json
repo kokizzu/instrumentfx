@@ -47768,6 +47768,37 @@
         "fullShuffling/control details",
         "qualifiedused/newIDR"
       ]
+    },
+    {
+      "checked_date": "2026-10-17",
+      "model": "Sonicake Black Hammer QCE-30",
+      "source": "https://cdn.shopifycdn.net/s/files/1/0100/1950/4185/files/Black_Hammer-User_Manual.jpg?v=1647482298",
+      "access": "Direct web open inaccessible. Targeted searches did not expose readable manufacturer-authored manual.",
+      "remaining": "Controls/expression/fullIO unresolved;do not substitute otherSonicbarproducts or sellerclaims.",
+      "next": "Retainpartialrecord;revisitwhenprimaryimagecanbeinspected"
+    },
+    {
+      "checked_date": "2026-10-17",
+      "seller_url": "https://shopee.co.id/Tech-21-Sansamp-RK5-Richie-Kotzen-Signature-Fly-Rig-Fullset-Pedal-Efek-Gitar-2nd-i.1421445165.41329827063",
+      "access": "Readable2monthcachedsellerpage",
+      "offer": {
+        "idr": 2856000,
+        "condition": "Explicit2nd",
+        "stock": "unknown",
+        "seller": "Kamar Gear",
+        "region": "Jambi",
+        "bundle": "Fullsettitleunverifiedcontents",
+        "voucher": "unknown",
+        "revision": "Notstatedintheaccessibletext"
+      },
+      "manufacturer_sources": [
+        "https://www.tech21nyc.com/support/",
+        "https://www.tech21nyc.com/archive/rk5-2/",
+        "https://www.tech21nyc.com/t21manuals/RK5_v2_OM.pdf"
+      ],
+      "revision_evidence": "Officialsupport listsseparateoriginal/v2/v3manuals. v2archive identifiesaddedindependentreverb,rotarymode,compression,fuzz,tuner,headphones,XLR andSansAmponoffbutton. Sellertextdoesnotestablishthese.",
+      "decision": "Deferred exactmodeladmission andpriceassignment:do notassigngenericRK5offer tov1/v2/v3. Activecountunchanged.",
+      "next": "Resolvephysicalrevisionfrominspectableunitphotosornewexplicitversionlisting. Do notcontactsellerwithoutuserinstruction."
     }
   ],
   "discovery_cross_brand_bass": {
