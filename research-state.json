@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX TRIDENT NME-5 complete-body audit",
-    "task": "MG-200 complete original hash-verified; required comparison fields separated, 55/57 and V1/photo conflicts retained. Next audit complete TRIDENT source/root and manufacturer evidence; commit before another model. B1Xon uses special preservation checks. Full shared-table/incoming-link audits, required technical gaps and fresh Shopee discovery remain.",
+    "model": "Zoom B1Xon preservation-check reconciliation",
+    "task": "TRIDENT complete original hash-verified and exact product routing details qualified. Only B1Xon remains in generic-manifest audit list but already uses special full-body check: inspect and reconcile rather than duplicate blindly. Then broaden shared-table/incoming-link/source audit and fresh Shopee discovery; technical gaps remain. Commit useful model work before another model.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10226,6 +10226,22 @@
       "link_normalizations": {},
       "retained_comparison_facts": [],
       "scope": "Whole original retained including 55/57 model-count conflict, V1/photo label revision and historical condition-unconfirmed offer. Preset/processing/synth/import/editor fields separated; legacy page rechecked without asserting missing specs."
+    },
+    {
+      "models": [
+        "NUX TRIDENT NME-5"
+      ],
+      "model_name": "TRIDENT NME-5",
+      "destination": "NUX.md#trident-nme-5",
+      "source": "effects/findings/2026-10-15-nux-trident.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "NUX-TRIDENT",
+      "source_sha256": "12123fa17710d9b2e2edeee24acfbf4dc1903d05450b75db1f0bb04e07b9908b",
+      "renamed_references": [],
+      "link_normalizations": {},
+      "retained_comparison_facts": [],
+      "scope": "Whole original preserved including IR bank distinctions and manual rendering limits. Split synth/import fields; exact official USB volume, IR conversion, loop impedances and MIDI adapter details qualified without channel/power inference."
     }
   ],
   "discovery_leads": [
@@ -10786,11 +10802,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "NUX::TRIDENT NME-5",
-          "source": "effects/findings/2026-10-15-nux-trident.md",
-          "dest": "NUX.md#trident-nme-5"
-        },
-        {
           "model": "Zoom::B1Xon",
           "source": "effects/findings/2026-10-14-zoom-b1xon.md",
           "dest": "ZOOM.md#b1xon"
@@ -10880,7 +10891,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX TRIDENT NME-5 complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B1Xon preservation-check reconciliation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
