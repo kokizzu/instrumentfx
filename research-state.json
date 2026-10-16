@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 137,
+  "active_model_count": 138,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 137,
+  "canonical_root_model_count": 138,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Model-specific gaps after HX Effects3.80 refresh",
-    "task": "HX Effects acoustic simulation andlooper type/time/preset-continuity evidence saved from own RevDmanual. Continue Shopee brand/series discovery andmanufacturer gaps;commit each model before next.",
+    "model": "Fresh Shopee discovery after MS-60B Plus",
+    "task": "MS-60B+ saved as distinct bass-focused MS-60B Plus;not originalMS-60B orMS-70CDR+. Continue manufacturer gaps andbrand/series Shopee discovery;commit each model before next.",
     "next_models": [],
-    "after_queue": "HX Effects power/diagonal/category totals andqualified Indonesian offers unresolved.137 active models unchanged."
+    "after_queue": "Keep factory Multi-layerIR distinct from userIR import;oneBassAmp/BPM/LineSelector perpatch restrictions retained. No downloaded dependencies/manual/software files."
   },
   "new_findings": [
     {
@@ -1123,6 +1123,48 @@
         "qualifiedused/newoffers",
         "acoustic/IR/NAM/capture",
         "performancelooper/drums/scenes"
+      ]
+    },
+    {
+      "model": "Zoom MS-60B Plus",
+      "manufacturer_model": "MS-60B+",
+      "path": "ZOOM.md#ms-60b-plus",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "classification": "bass-focused multi-effects",
+      "sources": [
+        "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/",
+        "https://zoomcorp.com/manuals/ms-60bplus-en/",
+        "https://zoomcorp.com/media/documents/E_MS-60Bplus_FX-list.pdf",
+        "https://zoomcorp.com/media/documents/E_MS-60Bplus_QuickTour.pdf",
+        "https://zoomcorp.com/media/documents/E_MS-60Bplus_Patchlist.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/ms-60b-support/"
+      ],
+      "offers": [
+        {
+          "url": "https://shopee.co.id/Zoom-MS-60B-MultiStomp-Guitar-Multi-Effects-Pedal-Zoom-MS-60B-Zoom-MS-60B-Plus-Original-i.64556181.28979622963",
+          "seller": "sarana musik",
+          "shop": "64556181",
+          "item": "28979622963",
+          "idr": 2527000,
+          "condition": "unverified",
+          "stock": "unverified",
+          "location": "Kota Jakarta Barat",
+          "access": "Search4months old26Maydelivery;reopened2monthsnapshotrelative same-day;JS-limited",
+          "bundle_warranty_shipping_tax_voucher": "unverified"
+        }
+      ],
+      "unresolved": [
+        "currentcategorysubtotals",
+        "installedfirmware/library",
+        "85presetmapping",
+        "display/externalEXP",
+        "USBpower/audio/fullMIDI",
+        "userIR/NAM/capture",
+        "acousticsimulation",
+        "performancelooper/drums/scenes",
+        "currentused/newcondition",
+        "Routputtapinteractions"
       ]
     }
   ],
@@ -19654,7 +19696,8 @@
       "A1X FOUR",
       "MS-50G",
       "MS-70CDR",
-      "MS-70CDR Plus"
+      "MS-70CDR Plus",
+      "MS-60B Plus"
     ]
   },
   "root_brand_content": {
@@ -19739,7 +19782,8 @@
       "A1X FOUR",
       "MS-50G",
       "MS-70CDR",
-      "MS-70CDR Plus"
+      "MS-70CDR Plus",
+      "MS-60B Plus"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -19849,8 +19893,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 64,
-      "bass_focused_record_count": 13,
+      "record_count": 65,
+      "bass_focused_record_count": 14,
       "shared_bass_capable_count": 51,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -19877,7 +19921,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:113 guitar,62 documented bass-capable,17 vocal;remaining technical retirement and field verification incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "137 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "138 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -36747,8 +36791,8 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 137,
-    "canonical_root_models": 137,
+    "unique_brand_model_pairs": 138,
+    "canonical_root_models": 138,
     "legacy_only_models": 0,
     "guitar_view_models": 115,
     "bass_focused_models": 13,
@@ -36757,7 +36801,7 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-16",
-    "bass_view_models": 64,
+    "bass_view_models": 65,
     "bass_shared_models": 51,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -36782,7 +36826,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Model-specific gaps after HX Effects3.80 refresh."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after MS-60B Plus."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -36966,7 +37010,8 @@
       "Zoom::MS-60B",
       "Zoom::A1X FOUR",
       "Zoom::MS-70CDR",
-      "Zoom::MS-70CDR Plus"
+      "Zoom::MS-70CDR Plus",
+      "Zoom::MS-60B Plus"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -38160,6 +38205,13 @@
     },
     "Zoom::MS-70CDR Plus": {
       "link": "ZOOM.md#ms-70cdr-plus",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::MS-60B Plus": {
+      "link": "ZOOM.md#ms-60b-plus",
       "source_files": [
         "ZOOM.md"
       ],
