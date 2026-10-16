@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "M-VAVE TANK-G complete-body audit",
-    "task": "Both PODGo originals nowhash-checked;Wireless-only operatingprose filtered fromstandard,commonUSBmapping retained. Next inspect TANK-G original/root andexisting checks,one modelpercommit. Broader body/shared-table/incoming-link audit,requiredfields andfreshShopee discovery remain.",
+    "model": "M-VAVE TANK-B complete-body audit",
+    "task": "TANK-Goriginal fullyhashchecked;originalv96AM3,converterNAMtoAM3DATA,GV2v97AM4boundary andloopback/MIDI qualifications saved. Next inspectTANK-Bfulloriginal/root andmatchingrelease notes,commit beforeanothermodel. Fullsharedtable/incominglinkaudit,technicalgaps,freshShopeediscovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -410,6 +410,25 @@
         "touch/USBpower",
         "current amp/cab counts",
         "blank delay entry"
+      ]
+    },
+    {
+      "model": "M-VAVE TANK-G",
+      "path": "M-VAVE.md#tank-g",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "research(mvave): preserve TANK-G original and qualify converted-model firmware",
+      "sources": [
+        "https://www.cuvave.com/appdownload",
+        "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt"
+      ],
+      "unresolved": [
+        "original/v2V97indexambiguity",
+        "exactconvertedNAMarchitectures/end-to-endcompatibility",
+        "nativeNAM",
+        "synth/acoustic",
+        "MIDItransport",
+        "currentcondition/stock"
       ]
     }
   ],
@@ -9958,6 +9977,25 @@
       },
       "retained_comparison_facts": [],
       "scope": "Complete original preserved; current WirelessFAQ setup/sleep/coexistence qualified. Regression rejects Wireless-only operation in standard rows; shared USB mapping retained."
+    },
+    {
+      "models": [
+        "M-VAVE TANK-G"
+      ],
+      "model_name": "TANK-G",
+      "destination": "M-VAVE.md#tank-g",
+      "source": "effects/findings/2026-10-14-mvave-tank-g.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MVAVE-TANK-G",
+      "source_sha256": "4c26f81f139831df16fa957fecedb4c03c3a2fc6878d0c75357e65030d89fd4f",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../README.md)": "(effects/README.md)",
+        "(../METHODOLOGY.md)": "(effects/METHODOLOGY.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Whole original retained. Version-qualified originalv96AM3 andconverterNAM→AM3DATA evidence,GV2v97boundary,loopback/MIDI notes added;no nativeNAM ortransport assumptions."
     }
   ],
   "discovery_leads": [
@@ -10518,11 +10556,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "M-VAVE::TANK-G",
-          "source": "effects/findings/2026-10-14-mvave-tank-g.md",
-          "dest": "M-VAVE.md#tank-g"
-        },
-        {
           "model": "M-VAVE::TANK-B",
           "source": "effects/findings/2026-10-14-mvave-tank-b.md",
           "dest": "M-VAVE.md#tank-b"
@@ -10677,7 +10710,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE TANK-G complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE TANK-B complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

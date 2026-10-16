@@ -645,3 +645,7 @@ research-commit-podgo-preservation:
 .PHONY: research-commit-podgo-wireless-preservation
 research-commit-podgo-wireless-preservation:
 	python3 scripts/research_tools.py commit-podgo-wireless-preservation
+
+.PHONY: research-commit-tank-g-preservation
+research-commit-tank-g-preservation:
+	python3 scripts/research_tools.py commit-tank-g-preservation

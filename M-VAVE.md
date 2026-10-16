@@ -10,20 +10,74 @@ Original observations below retain **2026-10-14 or2026-10-15** as stated. This c
 
 **Original review2026-10-14. Original TANK-G,not TANK-PRO or an assumed interchangeable rebadge.**
 
+<!-- comparison evidence begins -->
 | Field | Preserved evidence / uncertainty |
 |---|---|
 | Expression / controls | No built-in or external-expression socket in complete manual panel. **15/4/0**,power separate. |
 | Display / body | Segmented bank/note indicator,not graphical;diagonal/emitted color unspecified,no documented touch interface. **310×65×40mm;613g**,long side normalized as width,large. |
 | Architecture / choices | **Six fixed stages** gate,amp/EQ,modulation,delay,reverb,IR; tuner additional. Nine amp slots,three modulation,three delay,three reverb,eight cabinet IR slots;three-band amp EQ is integrated,not another freely assignable block. |
-| Presets / sound | **36 editable**,factory-filled subset ?. Dedicated synth/acoustic simulator ?. |
+| Presets | **36 editable**,factory-filled subset unverified. |
+| Synth / acoustic | Dedicated synth andacoustic simulator each **unverified**;firmware format support does not establish these algorithms. |
 | Ports | 6.35 mm mono input/output;balanced XLR output;3.5 mm headphones;phone-recording output;USB-C. |
 | Power | **USB5V ≥300mA**,200mA draw;**3000mAh/3.7V** rechargeable battery. |
-| Loading / apps | User mono WAV IR **24-bit/44.1kHz,1024 points**. Amp-data import is not proof of native/unrestricted NAM. **M-EFCS Windows/macOS/iOS/Android**,editor versus updater distinguished. |
+| IR loading | User mono WAV IR **24-bit/44.1kHz,1024 points** in original manual. |
+| NAM / amp-format loading | [Manufacturer TANK-G release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt): **originalTANK-G v96,2024-12-31,supportsAM3**. [Official software changelog](https://www.cuvave.com/appdownload) says converter1.0.7 addedNAM→AM3DATA. Together these support a **converted-format route**,not nativeNAM; exact accepted NAM architectures,conversion fidelity andend-to-end file compatibility remain unverified. v97 heading says**TANK-GV2**,AM4;do not silently transfer tooriginal. |
+| Editor / firmware platforms | Current [manufacturer index](https://www.cuvave.com/appdownload),checked2026-10-17,explicitly namesTANK-G for **M-EFCS Windows/macOS/iOS/Android**;M-UPGRADE is separately listed for firmware updates. Index listsoriginal andv2 bothV97/2026-01-31,butlinked release-note header explicitlysaysGV2. Exactphysical revision must match;no software downloaded orrun. |
+| Firmware / recording / control | Originalv46/2024-03-13 notes add **ComputerLoopback inEFCS1.2**,MIDI PC control of36presets andCC block control inlive/preset modes;control transport remains unverified,noDIN socket inferred. v96 notes USB record/playback timing changes;not a verified exactchannel/rate specification. [Original release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt) |
 | Recording / live | USB audio/OTG;live/preset modes;independent phone/backing playback level. Looper not established from a similarly named model. |
 
 Retail **Rp995.000**, [Cilacap,shop1343638406/item51153739045](https://shopee.co.id/product/1343638406/51153739045),indexed,checkout unverified. Separate historical **Rp849.500 SOLD OUT**, [MICKEY MOUSE19700013/24654484661](https://shopee.co.id/Efek-Gitar-M-VAVE-TANK-G-Multi-Effects-Soundcard-Interface-Pedal-i.19700013.24654484661). Used **?**. These are not an available retail range;condition,bundle,warranty,authenticity,delivery and crawl recency remain qualified.
 
 Sources: [manufacturer-authored multilingual manual hosted on Amazon](https://m.media-amazon.com/images/I/B1iPdtSRxtL.pdf),English pp.1–8 previously visually checked; [official model identity](https://www.cuvave.com/product?id=tank-g),which exposed only a shell in original retrieval; [manufacturer downloads](https://www.cuvave.com/appdownload). Separate TANK-G/TANK-Gv2 firmware entries require actual hardware matching. Remaining: current import architectures,precise revision,synth/acoustic functions and active condition-specific offers.
+
+<!-- comparison evidence ends -->
+
+### TANK-G — version boundary and complete original finding
+
+The2026-10-17 follow-up used manufacturerHTML andplain-text release notes only. Theoriginalproduct endpoint still exposed a shell;themanufacturer preset-PDF link returnedunsupportedcontent-type. No manual/package/dependency downloaded ordevice executed. AM3support is tied tooriginalv96;AM4v97notes explicitlylabelGV2,despiteindexoverlap. Available conversion software doesnotprove unrestrictednativeNAM playback. Original2026-10-14 manual/panel observations,prices andlimitations are preserved below withouta renewedvisual-inspection claim.
+
+<!-- MVAVE-TANK-G source begins -->
+
+[Comparison home](effects/README.md) · [Methodology](effects/METHODOLOGY.md)
+
+Checked **2026-10-14**. **New model record; partial.** Original TANK-G, not TANK-PRO or an assumed interchangeable OEM version. Technical baseline is the manufacturer-authored multilingual manual mirrored on Amazon [M], English pp.1–8; panel/chain/specification diagrams were visually checked. Current firmware may add features.
+
+| Required field | Established information / remaining unknown |
+|---|---|
+| Instrument | Guitar multi-effects |
+| Expression | No built-in pedal; no external-expression socket in complete manual panel inventory |
+| Knobs / footswitches / buttons | **15 / 4 / 0**; power switch separate |
+| Display | Segmented bank/note indicator, not a graphical screen; diagonal and emitted color unspecified; no touch interface in documented hardware |
+| Dimensions / weight | **310×65×40 mm; 613 g**. Long horizontal dimension becomes width; **large** under project bins |
+| Processing | Diagram: **6 processing stages**—gate, amp/EQ, modulation, delay, reverb, IR—plus tuner; not 6 freely assignable slots |
+| Choices | 9 amp slots; 3 modulations; 3 delays; 3 reverbs; 8 cabinet IR slots; three-band amp EQ |
+| Presets | **36 editable**, factory/user split not specified |
+| Synth / acoustic simulator | ? / ? |
+| I/O | ¼-inch mono input/output; XLR balanced output; ⅛-inch headphones; phone-recording output; USB-C |
+| Power | **USB 5 V ≥300 mA**; 200 mA draw; **3000 mAh/3.7 V** rechargeable battery |
+| IR | User import; mono WAV, **24-bit/44.1 kHz, 1024 points** |
+| NAM | Native NAM unverified; amp-data import is not proof of unrestricted `.nam` loading |
+| Apps | **M-EFCS: Windows/macOS/iOS/Android** [D]; do not confuse updater with editor |
+| USB / extra | USB audio and OTG; live/preset modes; independent phone/backing playback level |
+
+### Shopee offers — IDR, not sold-price statistics
+
+| Condition bucket | Amount | Exact listing evidence |
+|---|---:|---|
+| Retail; detailed condition unconfirmed | **Rp995.000** | [Cilacap Musik Store, item 51153739045](https://shopee.co.id/product/1343638406/51153739045). Indexed price; live checkout/stock not verified |
+| Retail historical ask | **Rp849.500** | [MICKEY MOUSE SHOP, item 24654484661](https://shopee.co.id/Efek-Gitar-M-VAVE-TANK-G-Multi-Effects-Soundcard-Interface-Pedal-i.19700013.24654484661). Search evidence explicitly says **Habis / sold out** |
+| Explicitly used | **?** | No verified used-condition quote in this pass |
+
+Do not merge these into an active new-price range. Retrieval date is not the crawl date or proof of present stock. Accessories, warranty, seller authenticity and delivered cost were not independently verified. A seller's “original” wording is not authentication.
+
+### Sources
+
+- [M: manufacturer-authored TANK-G manual, hosted copy](https://m.media-amazon.com/images/I/B1iPdtSRxtL.pdf), English pp.1–8. Six stages are counted from the signal diagram, with amp EQ integrated rather than counted again.
+- [D: current manufacturer downloads](https://www.cuvave.com/appdownload), M-EFCS platform lists; separate TANK-G and TANK-Gv2 firmware entries exist. Match the physical revision before updating.
+- [Manufacturer product identity](https://www.cuvave.com/product?id=tank-g). The direct page exposed only its shell in the reader; manual evidence, not the shell, supports the detailed table.
+
+**Next:** verify listing condition/stock and exact hardware revision; review current firmware-specific amp-import formats and unresolved synth/acoustic capabilities. Do not infer a looper from a similarly named model.
+<!-- MVAVE-TANK-G source ends -->
 
 ## TANK-B
 
