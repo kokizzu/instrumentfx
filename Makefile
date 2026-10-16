@@ -665,3 +665,7 @@ research-commit-mk20-preservation:
 .PHONY: research-commit-mk300-preservation
 research-commit-mk300-preservation:
 	python3 scripts/research_tools.py commit-mk300-preservation
+
+.PHONY: research-commit-tankpro-preservation
+research-commit-tankpro-preservation:
+	python3 scripts/research_tools.py commit-tankpro-preservation

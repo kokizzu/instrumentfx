@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "M-VAVE TANK-PRO complete-body audit",
-    "task": "MK-300 complete original hash-verified, firmware GLOB reset and stereo app evidence qualified, exact import/algorithm/routing limits unresolved. Next inspect complete TANK-PRO original/root and manufacturer firmware notes, commit before another model. Full shared-table/incoming-link audits, required technical gaps and fresh Shopee discovery remain.",
+    "model": "M-VAVE ANN Blackbox complete-body audit",
+    "task": "TANK-PRO whole original hash-verified, AM4DATA route and A2 app announcement separately qualified; native/import architecture gaps remain. Next inspect ANN Blackbox complete original/root and exact firmware evidence, commit before another model. Full shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10079,6 +10079,26 @@
       "link_normalizations": {},
       "retained_comparison_facts": [],
       "scope": "Complete original preserved with price and revision qualifications; v73 GLOB reset warning, v75 index and exact-model stereo app entry added. Firmware/MIDI/DS documents not used for unverified mappings or counts."
+    },
+    {
+      "models": [
+        "M-VAVE TANK-PRO"
+      ],
+      "model_name": "TANK-PRO",
+      "destination": "M-VAVE.md#tank-pro",
+      "source": "effects/findings/2026-10-14-mvave-tank-pro.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MVAVE-TANKPRO",
+      "source_sha256": "b61cc400b096550608b2e2b7ac7989758e52c5d5b66d5619aec26250d535d6d5",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../README.md)": "(effects/README.md)",
+        "(../shopee-indonesia.md)": "(effects/shopee-indonesia.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Complete original preserved including source evidence columns, DSP and power limits, mass conflict, dates and prices. Added model-specific A2 app evidence without asserting native .nam; firmware release-note access failure retained."
     }
   ],
   "discovery_leads": [
@@ -10639,11 +10659,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "M-VAVE::TANK-PRO",
-          "source": "effects/findings/2026-10-14-mvave-tank-pro.md",
-          "dest": "M-VAVE.md#tank-pro"
-        },
-        {
           "model": "M-VAVE::ANN Blackbox",
           "source": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
           "dest": "M-VAVE.md#ann-blackbox"
@@ -10773,7 +10788,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE TANK-PRO complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE ANN Blackbox complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
