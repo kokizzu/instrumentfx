@@ -1602,15 +1602,15 @@ Guitar multi-effects,distinct from ME-80/ME-90. Checked2026-10-17;partial. Disco
 |---|---|---|
 | Expression / controls | Built-in expression with ON/OFF toe switch. K/F/B:25 knobs /4 main footswitches /5 named panel buttons:EZ TONE,EDIT/EXIT,WRITE and NS THRES/BANK left/right. Button count enumerated from manual controls;toe switch is additional. External expression support unverified;FS-5U/FS-6 are separate switch options. | [ME70-BR][ME70-BR]; [ME70-M][ME70-M] E12; [ME70-T][ME70-T] pp9–10 |
 | Display | Two-digit seven-segment LED;diagonal,color/touch unpublished here. | [ME70-P][ME70-P] |
-| Dimensions / weight / size | 384W×229D×74H mm,maxheight100mm;3.5kg including batteries;large. | [ME70-P][ME70-P] |
-| Processing / category choices | COMP/FX8;OD/DS10;MOD10;DELAY10 selector positions includingPhraseLoop;PREAMP6amp types plusEQ andOFF;REVERB2;NS. These choice counts are not a simultaneous-block ceiling,which remains unverified. | [ME70-P][ME70-P] |
+| Dimensions / weight / size | Product page:384W×229D×74H mm,maxheight100mm;3.5kg including batteries;large. Indexed2012 catalogue instead reports384×229×78mm andmaximum384×272×100mm. Catalogue PDF could not be opened for visual checking; retain as indexed source discrepancy,not a confirmed hardware revision. | [ME70-P][ME70-P] [ME70-C12][ME70-C12] specifications ME-70 |
+| Processing / category choices | COMP/FX8;OD/DS10;MOD10;DELAY10 selector positions includingPhraseLoop;PREAMP6amp types plusEQ andOFF;REVERB2;NS. Training guide names eight groups including NS:PREAMP,COMP/FX,OD/DS,MOD,DELAY,REVERB,PEDAL FX,NS. These are fixed categories,not eight freely assignable slots; explicit simultaneous ceiling remains unverified. | [ME70-P][ME70-P] [ME70-T][ME70-T] p2 |
 | Memory | 36 user+36 preset=72 whole patches; factory-filled user subset unverified. EZ Tone separately stores settings for individual effect types, initially factory optimized and overwriteable. It does not add whole-patch slots. | [ME70-P][ME70-P] [ME70-M][ME70-M] E12 |
 | Synth / acoustic | Factory Bank9/2 described as synth-like viaSlowGear;this does not establish a dedicated synth engine. Dedicated acoustic simulation unverified. | [ME70-P][ME70-P] |
 | I/O | Manual documents GUITAR INPUT, AMP OUTPUT L/MONO and R, AUX IN, REC OUT/PHONES, external footswitch connection and DC supply. Full socket sizes remain unverified. REC OUT/PHONES insertion enables speaker simulation on both headphones and main outputs. Guitar input plug controls power. External footswitch connection alone does not prove external expression support. | [ME70-PL][ME70-PL] E2–3,13 |
 | Power / battery / USB | DC9V,sixR6/LR6AA oroptionalPSA adapter;130mA draw;approx12h alkaline/3.5h carbon,conditions vary. Polish manual E2 instead gives 13h alkaline/5h carbon; preserve source conflict. Polarity and USB operation unverified. Current support confirms DC9V/130mA; adapter capacity200/500mA is separate. | [ME70-P][ME70-P] [ME70-PL][ME70-PL] E2 [ME70-PWR][ME70-PWR] |
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietary capture import not established. | Unresolved |
 | Editor / drivers | Desktop/mobile patch editor,driver andupdater capabilities unverified;no ME-80 ToneStudio inheritance. | Unresolved |
-| Looper / drums / scenes / routing | DELAY-section Phrase Loop38s with unlimited overdubs per training guide. Stopping via double-tap (within1s), changing DELAY type or powering off erases the loop. Undo, stereo, drums and scenes remain unverified. | [ME70-P][ME70-P] [ME70-PL][ME70-PL] E15 [ME70-T][ME70-T] p2 |
+| Looper / drums / scenes / routing | DELAY-section Phrase Loop38s with unlimited overdubs per training guide. Stopping playback via double-tap (within1s), changing DELAY type or powering off erases the loop. English Q&A specifies three presses when stopping from overdubbing. Undo, stereo, drums and scenes remain unverified. | [ME70-P][ME70-P] [ME70-PL][ME70-PL] E15 [ME70-T][ME70-T] p2 [ME70-QA][ME70-QA] p5 |
 | Expression destinations / conflict | Feature text names six:Wah,Voice,+1Octave,-1Octave,ModRate,DelayLevel. Specification list omits DelayLevel and names five; Polish manual E9 lists all six, corroborating feature text. Preserve discrepancy; not evidence of a hardware revision. | [ME70-P][ME70-P] [ME70-PL][ME70-PL] E9 |
 
 ### ME-70 — separate IDR asking-price evidence
@@ -1630,3 +1630,6 @@ Remaining:complete socket formats/manual processing,externalEXP,powerpolarity/US
 
 [ME70-BR]: https://www.boss.info/br/products/me-70/
 [ME70-T]: https://cdn.roland.com/assets/media/pdf/ME-70_Training_Guide.pdf
+
+[ME70-C12]: https://cdn.roland.com/assets/media/pdf/boss_catalog_2012.pdf
+[ME70-QA]: https://cdn.roland.com/assets/media/pdf/ME_70_Q_A.pdf

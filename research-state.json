@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "ME-70 remaining hardware fields / fresh Shopee discovery",
-    "task": "ME-70 25/4/5 controls and separate EZ Tone memory verified. Continue socketformats/simultaneousceiling or fresh exact Shopee discovery; commit eachmodel before next.",
+    "task": "ME-70 fixedgroup architecture,EnglishQA overdub stop andindexedcataloguedimensionconflict saved. Resume freshShopeeIndonesia hardwarediscovery;remainingME-70socketformats/ceiling unresolved.",
     "next_models": [],
     "after_queue": "Research remains incomplete;RP360XP andME-70 alreadyrecorded."
   },
@@ -1278,7 +1278,9 @@
         "https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-70_PL.pdf",
         "https://support.roland.com/hc/en-us/articles/41720498944027-ME-70-Recommended-Power-Supply",
         "https://www.boss.info/br/products/me-70/",
-        "https://cdn.roland.com/assets/media/pdf/ME-70_Training_Guide.pdf"
+        "https://cdn.roland.com/assets/media/pdf/ME-70_Training_Guide.pdf",
+        "https://cdn.roland.com/assets/media/pdf/boss_catalog_2012.pdf",
+        "https://cdn.roland.com/assets/media/pdf/ME_70_Q_A.pdf"
       ],
       "classification": "guitar; bass unclassified",
       "offers": [
@@ -1297,7 +1299,8 @@
       ],
       "conflicts": [
         "Six expression destinations infeatures versusfive inspecification list; DelayLevel omitted",
-        "Polish manual E2 battery life13halkaline/5hcarbon vs product12h/3.5h;both retained"
+        "Polish manual E2 battery life13halkaline/5hcarbon vs product12h/3.5h;both retained",
+        "Indexed2012 catalogue384x229x78/max384x272x100 differsproduct384x229x74/maxheight100;PDFvisualcheckunavailable;notrevisionproof"
       ],
       "unresolved": [
         "ports",
@@ -1344,6 +1347,13 @@
         "ez_tone": "Per-effect-type settings, initiallyfactoryoptimized/overwriteable;notwholepatchslots",
         "looper": "Trainingp2 explicitlyunlimitedoverdubs",
         "remaining": "Socketformats,processingceiling andother savedgaps"
+      },
+      "architecture_loop_followup": {
+        "checked_date": "2026-10-17",
+        "training": "Eight namedgroups includesNS;notfreelyassignableslots;explicit simultaneousceiling stillunknown",
+        "qa": "English2009RolandQ&A p5 corroboratesstop-erasesloop;threepressestostopfromoverdub",
+        "catalogue": "Indexed2012dimensionsdiscrepancy retained pendingvisualsourceverification",
+        "remaining": "Socketformats andceiling stillunverified;no newhardwaremodel"
       }
     },
     {
