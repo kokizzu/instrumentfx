@@ -1,6 +1,6 @@
 # Audota multi-effects
 
-Standard AME-100 and AME-200 are consolidated below. Other recorded Audota models still need their complete root-brand merge. Research remains partial.
+AME-100, standard AME-200 and AME-200 Pro are consolidated below. Other recorded Audota models still need their complete root-brand merge. Research remains partial.
 
 ## AME-100
 
@@ -227,3 +227,111 @@ Checked **2026-10-17**: [English manufacturer page](https://en.audota.com/AME200
 [Audota-authored original manual text, V01 dated2025-07-25](https://manuals.plus/m/e83dfa8d3d3ef2939052a142e66f922ba406bc6d9f9b8cfad226ccaaa2266893) reopened with matching model/revision identity and model-specific numbered panel/connection/specification text; no generated FAQ or PDF visual inspection used. [Chinese product page](https://www.audota.com/AME200CN.html) timed out. Exact Shopee item reopening failed and targeted search yielded no new exact price. No dependency, software or document file was downloaded or executed.
 
 Complete source bodies retain all original source URLs, revision conflicts and acoustic algorithms. Remaining gaps: toe behavior, touch, exact concurrent DSP budget, factory/user split, NAM conversion/native architecture, USB channels/drivers, battery/bus-power and current condition-specific price/stock. Do not substitute Pro battery or expression specifications.
+
+## AME-200 Pro
+
+Distinct Pro hardware: built-in toe-switch expression, CTRL footswitch and rechargeable battery. Consolidated **2026-10-17**; the complete original finding and supporting facts retain their dates and disagreements. Historical next notes are provenance; use research-state.json for current tasks.
+
+<!-- AUDOTA-AME-200 Pro source begins -->
+
+**Checked2026-10-15. Partial guitar/bass-capable multi-effects; large.** Distinct from AME-200: built-in expression, an additional CTRL footswitch and a rechargeable battery. Manufacturer documentation overrides retailer four-switch/FX-loop/stereo-input flags.
+
+| Required field | Finding / source |
+|---|---|
+| Expression / controls | **Built-in pedal with toe switching; no external EXP socket in full inventory. 2 rotary /5 footswitches /4 buttons**: EDIT,MASTER;A/B/C/D+CTRL;PLAY,BACK,SWITCH,SAVE. Power and toe separate [M] |
+| Display / body | **3.5-inch color display**,touch unverified. **L324.5×W144.7×H49.8mm;1.145kg**,large under either horizontal orientation [P] |
+| Power / battery | **9V1.5A center-negative supply;7.4V2000mAh battery**,about7.5h runtime and3h charge per manual. Website also has a2.5h line; preserve revision/template discrepancy. USB bus-power/charging not established [P,M] |
+| Processing | **10 module categories**, rearrangeable chain; exact maximum simultaneous DSP wording not independently resolved [P,M] |
+| Category choices | Pro-specific appendix: **drive22,COMP4,filter/wah5,gate1,AMP98,CAB55,EQ3,MOD19,delay7,reverb6 =220** including amps/cabs. Advertised221 remains a documented disagreement [M,P] |
+| Presets | **200 editable locations**,save/copy/delete documented; factory-filled subset unverified. Not200 factory+200 user [M] |
+| Synth / acoustic | **Acoustic Sim A/B in AMP and Acoustic Sim in MOD**; no dedicated synth identified in inspected appendix. Octave/pitch shifting do not establish synthesis [M] |
+| IR / sample memory | **20 cabinet IRs +10 separate amp-sample slots**, not30 cabinet IRs. WAV24-bit/44.1kHz/512 samples; importer may convert other source rates. Onboard capture creation not established [M,P] |
+| NAM | Official importer documents **A1/A2 support fromV1.37**, manufacturer package named1.3.7. Native versus converted workflow and architecture limits remain unresolved; do not copy the AME-100 conversion implementation by assumption [U,D] |
+| Audio I/O | **One**6.35mm mono instrument input;2×6.35mm L/R outputs;3.5mm stereo headphones;USB-C;DC. **No FX loop,external EXP,mic/phantom,analog aux or DIN/TRS MIDI** in the complete rear inventory [M] |
+| Configuration / recording | **Windows/macOS Studio full editor/import/backup/update**. Stereo OTG recording/playback documented; exact channels/sample rates/mobile full-editor support unverified. Bluetooth backing audio reception documented [M,D] |
+| Practice | **60s looper**,CTRL multi-effect toggles,tuner435–445Hz. Product50 rhythms versus operating-manual40 styles remains unresolved; no invented metronome explanation [M,P] |
+| Used IDR | **?**, no condition-verified current used offer |
+| Retail IDR | **Rp2.350.000** Hurtrock Music Store Bandung, Shopee shop11170212/item48254962450; indexed, direct reopen failed. Separate same-price shop182719800/item28293894803 retains June delivery text. Not live-stock evidence [S] |
+
+### Sources and inspection
+
+[P] [Manufacturer Pro English page](https://en.audota.com/AME200ProEN.html) and [Chinese page](https://www.audota.com/AME200ProCN.html), specifically naming five switches and Pro battery.
+[M] **Audota-authored Pro Owner's Manual**, [original70-page PDF](https://device.report/m/9db4b8897909b0e3caf1c69d2e43ea9721e2eecd25deb4ff2d25092da9078b54_optim.pdf), [original-text mirror](https://device.report/manuals/shenzhen-audota-ame-200pro-user-manual). Read numbered panels/ports,saving,software and complete effects appendix. **Printed pages66–67 rendered successfully**: reverb table and technical specifications inspected. Attempts to render front/rear panels failed; their numbered text was read instead, not falsely described as a successful visual inspection. Printed41 explicitly separates10 amp samples and20 IRs. Category total is our arithmetic, not a correction asserted by Audota.
+[U] [Official importer firmware-qualified NAM description](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-pro-amp-modeler-multi-effects).
+[D] [Manufacturer software index](https://en.audota.com/EN_software.html), Pro1.3.7 Windows/Mac. Current installer names do not certify the owner's installed firmware.
+[S] [Exact Shopee Pro listing](https://shopee.co.id/Audota-AME-200-Pro-Digital-Multi-Efek-Original-i.11170212.48254962450).
+
+Do not combine mixed200/Pro variations, sold-out listings or voucher compensation into a new/used price range. Seller authenticity,exact condition,warranty,shipping and stock remain unverified. Outstanding: explicit touch,concurrent DSP limit,factory-filled count,NAM workflow,USB details and source-count discrepancies. **Next: Audota ACE-100.**
+<!-- AUDOTA-AME-200 Pro source ends -->
+
+### Preserved supporting comparison evidence
+
+Historical catalogue totals below are superseded.
+
+**2026-10-15: five individually committed partial records.** Four guitar processors and one separate vocal processor; no brand-wide assumptions about power,software orNAM support. AME-100 is the directly identified owned model; AVE-100 ownership is not established. Their inclusion brings the integrated catalogue from96 to **101 active records across16 comparison pages**, with six excluded archives unchanged.
+
+K/F/B=rotary controls/footswitches/separate buttons;encoder presses count once,power/toe switches separate. Touchscreen support remains unverified for the three graphical displays.
+
+A display icon is not a physical button. Pro has **five** switches includingCTRL,notfour. Standard200's externalEXPsupport is not an includedpedal. Narrow ACE100 still exceeds the defined300mm medium boundary. Plugs andpedaltravel are additional.
+
+No guitar model has a microphone/phantom path in its documentedpanel. Stereoouts do not maketheinput stereo. Generalbatterywarnings are not evidenceforaninternalbattery inAME200. Supplyratingisnotmeasuredcurrentdraw.
+
+All are datedlisted/indexedasks,notcompleted-sales orauthenticatedlivecheckout. Condition,stock,warranty,shipping,bundles andfirmwareregion are not silentlyassumed. Usedquoteswerenotverifiedforthese5.
+
+Full findingreferencesretainallmanufacturer,manual,importerandsellerlinks.NoguessedFXoruseddiscount. Nextwork includes originalBOSSdisplay/IDRmigrationandremainingeligiblemarketplacefamilies;all5Audotafirst-passrecordsremainpartial.
+
+Each model's original manual appendix was checked. This calculation includesamps/cabs andexcludesemptyimports;the advertised221discrepancy is not silently corrected. Firmware-nativearchitecture claims require explicit evidence,not a generic NAM logo orfeatures borrowedfromanotherAudota model.
+
+- **Expression** (Guitar hardware and screens): **Built-in withtoe;noexternalEXP inpanel**
+- **K/F/B** (Guitar hardware and screens): **2/5/4**
+- **Body and weight** (Guitar hardware and screens): L324.5×W144.7×H49.8mm;1.145kg;large
+- **Display** (Guitar hardware and screens): **3.5-inch color**,touch?
+- **Architecture / choices** (Guitar processing, memory and loading): Samecounts independentlychecked inProappendix;10categories,exactconcurrentlimit?
+- **Presets** (Guitar processing, memory and loading): 200editable;factorysubset?
+- **IR / captures / NAM** (Guitar processing, memory and loading): 20IR+10amp;A1/A2fromV1.37/importer;nativevsconversionunresolved
+- **Synth / acoustic** (Guitar processing, memory and loading): Same specificallynamedacoustics;nosynthidentified
+- **Ports** (Guitar connections, power and applications): One6.35monoIN;2outs;3.5stereophones;USB-C;DC;**noFXloop/externalEXP**
+- **Power** (Guitar connections, power and applications): **9V1.5Anegative;7.4V2000mAh**,7.5hrated;manual3hchargevswebsite2.5h
+- **Applications / audio / practice** (Guitar connections, power and applications): Win/MacStudio;Bluetoothaudio;OTGchannels?;60sloop,CTRL;50/40rhythmconflict
+- **Used IDR** (Separate IDR evidence): ?
+- **Retail evidence / limitation** (Separate IDR evidence): **Rp2.350.000**,Hurtrockindexed;separateJunecachequotequalified
+- **Individual findings commit** (Separate IDR evidence): `993fe0b5b7d77512ce31278115647cbdff959e3d`
+
+Sources: [Original finding](effects/findings/2026-10-15-audota-ame-200-pro.md), [Complete supporting comparison](effects/audota.md). No legacy source or incoming link removed.
+
+<!-- comparison evidence begins -->
+
+### Current Pro comparison fields
+
+| Field | Evidence and limitations |
+|---|---|
+| Expression | **Built-in expression with toe switching**; no external EXP socket in complete inventory. [M] |
+| K/F/B | **2 rotary /5 footswitches /4 buttons**: EDIT,MASTER;A/B/C/D+CTRL;PLAY,BACK,SWITCH,SAVE. Toe and power separate. [M] |
+| Display | **3.5-inch color**, touch unverified. [P] |
+| Dimensions / weight | **L324.5×W144.7×H49.8mm;1.145kg**; large under either orientation. [P] |
+| Power / battery | **9V1.5A center-negative supply;7.4V2000mAh battery**,about7.5h runtime and3h charge per manual. Website also has a2.5h line; preserve revision/template discrepancy. USB bus-power/charging not established [P,M] Rechecked2026-10-17: English manufacturer page still contains both2.5h and3h charge statements; importer says3h. Preserve conflict; ratings not measured runtime. |
+| Processing | **10 module categories**, rearrangeable chain; exact maximum simultaneous DSP wording not independently resolved [P,M] |
+| Category choices | Pro-specific appendix: **drive22,COMP4,filter/wah5,gate1,AMP98,CAB55,EQ3,MOD19,delay7,reverb6 =220** including amps/cabs. Advertised221 remains a documented disagreement [M,P] |
+| Presets | **200 editable locations**,save/copy/delete documented; factory-filled subset unverified. Not200 factory+200 user [M] |
+| Synth / acoustic | **Acoustic Sim A/B in AMP and Acoustic Sim in MOD**; no dedicated synth identified in inspected appendix. Octave/pitch shifting do not establish synthesis [M] |
+| IR / sample memory | **20 cabinet IRs +10 separate amp-sample slots**, not30 cabinet IRs. WAV24-bit/44.1kHz/512 samples; importer may convert other source rates. Onboard capture creation not established [M,P] Importer still labels combined capacity30 IR slots; retain that source conflict without replacing the manual split. [U] |
+| NAM | Official importer documents **A1/A2 support fromV1.37**, manufacturer package named1.3.7. Native versus converted workflow and architecture limits remain unresolved; do not copy the AME-100 conversion implementation by assumption [U,D] Importer statement reopened2026-10-17 confirms the same firmware-qualified A1/A2 claim; it does not establish native architecture or conversion procedure. |
+| Audio I/O | **One**6.35mm mono instrument input;2×6.35mm L/R outputs;3.5mm stereo headphones;USB-C;DC. **No FX loop,external EXP,mic/phantom,analog aux or DIN/TRS MIDI** in the complete rear inventory [M] |
+| Configuration / recording | **Windows/macOS Studio full editor/import/backup/update**. Stereo OTG recording/playback documented; exact channels/sample rates/mobile full-editor support unverified. Bluetooth backing audio reception documented [M,D] |
+| Practice | **60s looper**,CTRL multi-effect toggles,tuner435–445Hz. Product50 rhythms versus operating-manual40 styles remains unresolved; no invented metronome explanation [M,P] |
+| Used IDR | **?**, no condition-verified current used offer |
+| Retail IDR | **Rp2.350.000** Hurtrock Music Store Bandung, Shopee shop11170212/item48254962450; indexed, direct reopen failed. Separate same-price shop182719800/item28293894803 retains June delivery text. Not live-stock evidence [S] Reindexed2026-10-17 at the same amount; direct reopen failed. Condition, live stock, accessories, regional warranty, vouchers and delivered charges remain unverified. No used quote inferred. |
+
+<!-- comparison evidence ends -->
+
+### Source qualifications and current marketplace limits
+
+Checked **2026-10-17**: [Manufacturer Pro English page](https://en.audota.com/AME200ProEN.html) corroborates five switches, built-in expression,7.4V2000mAh battery,9V1.5A center-negative supply,7.5h runtime rating and contradictory2.5h/3h charging lines. It still advertises221 models and50 rhythms, preserving the original appendix/operation disagreements. Published operating temperature0–60°C; input2.2MΩ/output510Ω/headphones32Ω. No touch inference or USB charging claim.
+
+[Official importer Pro page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-pro-amp-modeler-multi-effects) explicitly retains NAM A1/A2 fromV1.37. Its four-foot-switch summary and30-IR wording conflict with manufacturer five switches and original20-IR/10-amp split. Mobile OTG recording is not proof of a mobile full editor. No sibling workflow imported. [Original manual-text mirror](https://device.report/manuals/shenzhen-audota-ame-200pro-user-manual) reopened; original PDF/render inspection claims above retain their original date and are not claimed repeated today. [Chinese manufacturer page](https://www.audota.com/AME200ProCN.html) timed out. No files or dependencies downloaded.
+
+Additional exact hardware leads, indexed2026-10-17: [Dial Musik](https://shopee.co.id/Audota-AME-200-Pro-Multi-Effects-Digital-AME-200-Pro-AME200Pro-Multi-Efek-i.338305078.41127780541),shop338305078/item41127780541,Kota Palembang, **Rp2.350.000,Habis**,stale2–3October delivery; historical ask, not live stock. [GITARO STORE INDONESIA](https://shopee.co.id/Audota-Ame-200Pro-Amp-Modeler-Multi-Effects-Pedal-Five-Switches-Expression-Pedal-Audota-Ame-200-Pro-i.1643318004.47303247859),shop1643318004/item47303247859,Kota Jakarta Barat, **Rp2.349.999**,indexed title/ask only, checkout stock unverified. Both lack condition-grade, bundle, warranty-region, delivered-charge and usable-voucher verification. Late-delivery compensation is not a current purchase discount.
+
+[Apregio mixed200/Pro listing](https://shopee.co.id/Audota-AME-200-PRO-AME200-PRO-AME-200-Amp-Modeler-Multi-Effects-Pedal-Audota-AME200PRO-Apregio-Musik-i.3012339.55856904342),shop3012339/item55856904342,Kota Surabaya, has two variations and **Rp1.750.000–Rp2.350.000** without exposed selection-to-price mapping. Exclude that range from Pro pricing; lower amount is not assumed to buy Pro. The older second Hurtrock quote retains its June delivery provenance in the preserved record.
+
+Remaining: native/converted NAM architecture and workflow, exact concurrent DSP limits, current firmware category totals, factory-filled preset split, touchscreen, USB channels/drivers/bus power/charging, and condition-qualified local used/live retail offers. All source contradictions remain unresolved where current evidence is insufficient.

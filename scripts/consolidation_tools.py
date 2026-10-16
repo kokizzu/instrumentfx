@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'ame-200-pro': ('AME-200 Pro', 'effects/findings/2026-10-15-audota-ame-200-pro.md'),
     'ame-200': ('AME-200', 'effects/findings/2026-10-15-audota-ame-200.md'),
     'ame-100': ('AME-100', 'effects/findings/2026-10-15-audota-ame-100.md'),
     'nano-cortex': ('Nano Cortex', 'effects/advanced-modelers.md'),
@@ -564,7 +565,76 @@ def plan_ame200():
     print('Preview AME-200 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_ame200pro():
+    research_tools.identity()
+    model, source_path = MODELS['ame-200-pro']
+    brand_file = 'AUDOTA.md'
+    assert (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['Audota::AME-200 Pro']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'AUDOTA-AME-200 Pro'
+    body, refs = preserved_body(source, prefix)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/audota.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**2026-10-15:') or p.startswith('K/F/B=') or p.startswith('A display icon') or p.startswith('No guitar model') or p.startswith('All are datedlisted') or p.startswith('Full findingreferences')]
+    for headers, rows, context in comparison_views.tables(supporting):
+        for row in rows:
+            if comparison_views.norm(row[0]) == 'pro':
+                extra += [dict(field=h,value=v,source=shared[0],context=context) for h,v in zip(headers[1:],row[1:])]
+    contexts += [p for p in supporting.split('\n\n') if p.startswith("Each model's original manual appendix")]
+    section = '\n## AME-200 Pro\n\nDistinct Pro hardware: built-in toe-switch expression, CTRL footswitch and rechargeable battery. Consolidated **2026-10-17**; the complete original finding and supporting facts retain their dates and disagreements. Historical next notes are provenance; use research-state.json for current tasks.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical catalogue totals below are superseded.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nSources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/audota.md). No legacy source or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current Pro comparison fields\n\n| Field | Evidence and limitations |\n|---|---|\n'
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'] == 'Follow-up technical correction':
+            continue
+        if f['field'] == 'Expression / controls':
+            section += '| Expression | **Built-in expression with toe switching**; no external EXP socket in complete inventory. [M] |\n| K/F/B | **2 rotary /5 footswitches /4 buttons**: EDIT,MASTER;A/B/C/D+CTRL;PLAY,BACK,SWITCH,SAVE. Toe and power separate. [M] |\n'
+            continue
+        if f['field'] == 'Display / body':
+            section += '| Display | **3.5-inch color**, touch unverified. [P] |\n| Dimensions / weight | **L324.5×W144.7×H49.8mm;1.145kg**; large under either orientation. [P] |\n'
+            continue
+        value=f['value']
+        if f['field'] == 'Power / battery':
+            value += ' Rechecked2026-10-17: English manufacturer page still contains both2.5h and3h charge statements; importer says3h. Preserve conflict; ratings not measured runtime.'
+        if f['field'] == 'NAM':
+            value += ' Importer statement reopened2026-10-17 confirms the same firmware-qualified A1/A2 claim; it does not establish native architecture or conversion procedure.'
+        if f['field'] == 'IR / sample memory':
+            value += ' Importer still labels combined capacity30 IR slots; retain that source conflict without replacing the manual split. [U]'
+        if f['field'] == 'Retail IDR':
+            value += ' Reindexed2026-10-17 at the same amount; direct reopen failed. Condition, live stock, accessories, regional warranty, vouchers and delivered charges remain unverified. No used quote inferred.'
+        section += '| '+f['field']+' | '+value+' |\n'
+    section += '\n<!-- comparison evidence ends -->\n\n### Source qualifications and current marketplace limits\n\nChecked **2026-10-17**: [Manufacturer Pro English page](https://en.audota.com/AME200ProEN.html) corroborates five switches, built-in expression,7.4V2000mAh battery,9V1.5A center-negative supply,7.5h runtime rating and contradictory2.5h/3h charging lines. It still advertises221 models and50 rhythms, preserving the original appendix/operation disagreements. Published operating temperature0–60°C; input2.2MΩ/output510Ω/headphones32Ω. No touch inference or USB charging claim.\n\n[Official importer Pro page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-pro-amp-modeler-multi-effects) explicitly retains NAM A1/A2 fromV1.37. Its four-foot-switch summary and30-IR wording conflict with manufacturer five switches and original20-IR/10-amp split. Mobile OTG recording is not proof of a mobile full editor. No sibling workflow imported. [Original manual-text mirror](https://device.report/manuals/shenzhen-audota-ame-200pro-user-manual) reopened; original PDF/render inspection claims above retain their original date and are not claimed repeated today. [Chinese manufacturer page](https://www.audota.com/AME200ProCN.html) timed out. No files or dependencies downloaded.\n\nAdditional exact hardware leads, indexed2026-10-17: [Dial Musik](https://shopee.co.id/Audota-AME-200-Pro-Multi-Effects-Digital-AME-200-Pro-AME200Pro-Multi-Efek-i.338305078.41127780541),shop338305078/item41127780541,Kota Palembang, **Rp2.350.000,Habis**,stale2–3October delivery; historical ask, not live stock. [GITARO STORE INDONESIA](https://shopee.co.id/Audota-Ame-200Pro-Amp-Modeler-Multi-Effects-Pedal-Five-Switches-Expression-Pedal-Audota-Ame-200-Pro-i.1643318004.47303247859),shop1643318004/item47303247859,Kota Jakarta Barat, **Rp2.349.999**,indexed title/ask only, checkout stock unverified. Both lack condition-grade, bundle, warranty-region, delivered-charge and usable-voucher verification. Late-delivery compensation is not a current purchase discount.\n\n[Apregio mixed200/Pro listing](https://shopee.co.id/Audota-AME-200-PRO-AME200-PRO-AME-200-Amp-Modeler-Multi-Effects-Pedal-Audota-AME200PRO-Apregio-Musik-i.3012339.55856904342),shop3012339/item55856904342,Kota Surabaya, has two variations and **Rp1.750.000–Rp2.350.000** without exposed selection-to-price mapping. Exclude that range from Pro pricing; lower amount is not assumed to buy Pro. The older second Hurtrock quote retains its June delivery provenance in the preserved record.\n\nRemaining: native/converted NAM architecture and workflow, exact concurrent DSP limits, current firmware category totals, factory-filled preset split, touchscreen, USB channels/drivers/bus power/charging, and condition-qualified local used/live retail offers. All source contradictions remain unresolved where current evidence is insufficient.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file].append(model)
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['Audota AME-200 Pro'],model_name=model,brand='Audota',destination=brand_file+'#ame-200-pro',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete Pro finding and all supporting rows retained; firmware-qualified A1/A2 confirmed, charging/control/IR/count conflicts and qualified Shopee offers preserved.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Audota ACE-100 — complete legacy consolidation',task='Read complete ACE-100 finding and supporting Audota comparison; consolidate losslessly into AUDOTA.md. Verify model-specific controls, load-slot ambiguity, power/application limits and exact Shopee hardware evidence. Preserve all sources/prices/conflicts and commit before another model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200 |','| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro |')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:(ROOT/brand_file).read_text().replace('Standard AME-100 and AME-200 are consolidated below.','AME-100, standard AME-200 and AME-200 Pro are consolidated below.')+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=digest((ROOT/brand_file).read_text())
+    payload=dict(model_id='ame-200-pro',model=model,inputs=inputs,outputs=outputs,new_files=[],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview AME-200 Pro exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'ame-200-pro':
+        return plan_ame200pro()
     if model_id == 'ame-200':
         return plan_ame200()
     if model_id == 'ame-100':
@@ -802,6 +872,9 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'ame-200-pro':
+        print(research_tools.git('commit', '-m', 'research(audota): consolidate AME-200 Pro and preserve source conflicts'))
+        return
     if model_id == 'ame-200':
         print(research_tools.git('commit', '-m', 'research(audota): consolidate standard AME-200 evidence'))
         return

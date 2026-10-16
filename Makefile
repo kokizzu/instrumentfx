@@ -493,3 +493,11 @@ consolidation-apply-ame-200:
 	python3 scripts/consolidation_tools.py apply ame-200
 consolidation-commit-ame-200:
 	python3 scripts/consolidation_tools.py commit ame-200
+
+.PHONY: consolidation-plan-ame-200-pro consolidation-apply-ame-200-pro consolidation-commit-ame-200-pro
+consolidation-plan-ame-200-pro:
+	python3 scripts/consolidation_tools.py plan ame-200-pro
+consolidation-apply-ame-200-pro:
+	python3 scripts/consolidation_tools.py apply ame-200-pro
+consolidation-commit-ame-200-pro:
+	python3 scripts/consolidation_tools.py commit ame-200-pro
