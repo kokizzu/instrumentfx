@@ -711,3 +711,38 @@ The unchanged complete compact source was rechecked on 2026-10-17. All 23 GP-50 
 
 Original firmware 1.0.5 evidence and later firmware 1.1.0+/app 2.1.0+ NAM A2 conversion requirements remain separately dated above. This audit does not refresh stock or certify native NAM.
 
+
+## Dapper Bass VES-2
+
+Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/external/toe unverified. | Unresolved |
+| K/F/B | Independent rotary/footswitch/button counts unverified. | Image-onlymanual |
+| Display | Tuner indicated;screen diagonal,color,touch/technology unverified. | [Product][DB-P] |
+| Dimensions / mass | **320×65×42mm WDH;690g**. Long narrowstrip. | [Product][DB-P] |
+| Processing / category choices | Distinct **BoostComp,DirtyQ envelopefilter,BassAmp,Octave,Chorus** modules,plus tuner/FXloop. Multiplefunctions establisheligibility;exact simultaneouscount/routing pendingmanual. Octave is **analog monophonic**,withseparateoctave/dry levels. Chorus hasdepthcontrol. | [Product][DB-P] |
+| Factory / user memory | Total/factory/user storage unverified. | Unresolved |
+| Synth / acoustic | Octave supports synth-like tones;dedicatedsynth/acousticalgorithms unverified. | [Product][DB-P] |
+| I/O | FXloop,THRU andbalancedXLRout confirmed;fullsocketinventory pending. | [Product][DB-P] |
+| Power / battery / USB | **9VDC centre-negative,85mA consumption**;supplyincluded permanufacturer,notverifiedsellerbundle. Battery/USB unverified. | [Product][DB-P] |
+| IR / NAM / capture | UserIR,native/convertedNAM andcapture unverified. | Unresolved |
+| Editor / software | Editor/platformsupport unverified. | Unresolved |
+| Looper / drums / live | Looper,drums,scenes/trails unverified. THRU supportsparallelout/reamping;XLR feedsinterface/mixer. | [Product][DB-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;noqualifiedcondition-specificoffer. | — |
+| New | Unknown;condition/bundle/stock unresolved. | — |
+
+### Seller and manual qualifications
+
+SalomoMusic JakartaUtara,shop1776275/item23550783398: **Rp3,239,000**,2month-oldsearchcache;directitemcachemiss. SevenStereo Bandung,shop16879370/item284845770: **Rp3,240,000**,4monthcache,LayananTidakTersedia. Neitherprovesliveavailability,new/usedcondition,adapterbundle,variant,regionalwarranty orvouchereligibility. ExactURLs retainedinledger.
+
+Officialproduct linksEnglishmanualV01_170103(Curve);PDFhas2pages butnotextlayer. Screenshotattemptreturnednoreadableimages;no controlcountorabsentfeatureinferred. No filedownloaded.
+
+[DB-P]: https://www.valeton.net/product/dapper-bass/
+[DB-M]: https://www.valeton.net/download/174/dapper-bass/18492/dapper-bass_manual_en_v01_170103curve-2.pdf
