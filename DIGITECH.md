@@ -36,3 +36,43 @@ Remaining:display,category counts/count conflicts,dedicated synth,CONTROL IN for
 [RPXP-SW]: https://digitech.com/software-downloads/
 [RPXP-MM]: https://manualmachine.com/digitech/rp360/1256376-user-manual/
 [RPXP-Q]: https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Quick_Start_Guide_5036028-A.pdf
+
+## RP255
+
+Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in expression with pressure-toe **V-Switch** for wah. No external EXP jack in complete inventory. | [Manual pp9–11][R255-M] |
+| K/F/B | **4 /2 /5**, text-derived: four knobs; Up/Down footswitches; two Edit,Drums,Store and rear Amp/Mixer buttons. Toe additional; no power switch. Visual corroboration pending. | [Manual pp6–12][R255-M] |
+| Display | Preset/parameter/tuner display; diagonal,colour,touch and display technology unverified. | [Manual p9][R255-M] |
+| Dimensions / mass | **14.5L×8.75W×2.5H inches;4.9lb**, approximately368×222×64mm L×W×H;2.22kg. Rounded conversion;large. | [Manual p43][R255-M] |
+| Processing / categories | **11 simultaneous effects**. Product94 total includes amps,cabinets,stompboxes/effects; not94 simultaneous. Category subtotals pending. | [Manual p43][R255-M]; [Product][R255-P] |
+| Factory / user memory | **120:60 user+60 read-only factory**. User1–60 initially duplicate factory61–120; not120 unique factory sounds. | [Manual p5][R255-M] |
+| Synth / acoustic | Dedicated synth/acoustic-simulator capabilities unverified. Pitch shifting alone is not synth proof. | Unresolved |
+| I/O | 1/4-inch TS INPUT;1/4-inch L/MONO/R outputs;1/8-inch stereo PHONES/AUX;USB-B;power. No DIN MIDI or FX loop in complete inventory. | [Manual pp10–11,43][R255-M] |
+| Power / battery / USB | **PS0913B:9V AC,1.3A supply rating**;2.5mm pin,5.5mm barrel,9.5mm length. Rating is not measured device draw. DC polarity inapplicable; battery/USB bus operation unverified. Regional mains adapters differ. | [Manufacturer FAQ][R255-F]; [Manual p44][R255-M] |
+| IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. Factory models do not prove import. | Unresolved |
+| Editor / USB audio | **X-Edit editor/librarian**, listed2.7.0 Windows/2.7.1 Intel Mac OS X. Manufacturer says discontinued-product software lacks newer-OS support. USB2in/2out,44.1kHz,16/24bit. Driver,full editor and bundled Cubase LE4 are distinct. | [Product][R255-P]; [Manual pp4,11][R255-M]; [Manufacturer FAQ][R255-F] |
+| Looper / drums / live | **20s looper;60 drum patterns**. Drums unavailable while looper active. Scenes/trails unverified. | [Manual pp9,43][R255-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; exact page lacks condition confirmation. | — |
+| New | Unknown; exact page lacks condition confirmation. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified exact Shopee hardware
+
+Checked2026-10-17: [DIGITECH RP255](https://shopee.co.id/DIGITECH-RP255-i.120981304.17884883872),**Ch.storee**,shop120981304/item17884883872,Kab.Pekalongan,**Rp1,700,000**. Exact HTML opened; condition,selected variant,bundle/adapter,working state,warranty and stock unverified. Cached August delivery window does not confirm present availability. Rp10,000 late-arrival voucher is conditional compensation, not hardware discount. Taxes/shipping/checkout total unknown. Amount excluded from used/new projections.
+
+Official56-page manual viewed through browser text; no file/software/driver/dependency downloaded to workspace or installed. Remaining: visual controls,screen details,category subtotals,synth/acoustic/import evidence,power draw and condition-qualified offers.
+
+[R255-M]: https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf
+[R255-P]: https://digitech.com/dp/rp255/
+[R255-F]: https://digitech.com/faqs/
