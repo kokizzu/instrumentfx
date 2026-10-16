@@ -329,7 +329,7 @@ def main():
         if mode == 'commit-dapper-dark-mini':
             message = 'research(valeton): add separate Dark Mini with indexed-manual qualifications'
         if mode == 'commit-ms50gplus':
-            message = 'research(zoom): verify MS-50G Plus MIDI acoustic and sample-hold limits'
+            message = 'research(zoom): distinguish MS-50G Plus document categories from installed effects'
         if mode == 'commit-505ii':
             message = 'research(zoom): enumerate 505II category modes without inflating algorithm totals'
         if mode == 'commit-ving-coverage':
