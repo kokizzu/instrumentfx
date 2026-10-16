@@ -88,7 +88,7 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
-    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation', 'commit-arena-preservation', 'commit-fx100-preservation', 'commit-fx200-preservation', 'commit-core-preservation', 'commit-gembox-preservation', 'commit-gembox-ii-preservation', 'commit-gembox-iii-preservation'):
+    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation', 'commit-arena-preservation', 'commit-fx100-preservation', 'commit-fx200-preservation', 'commit-core-preservation', 'commit-gembox-preservation', 'commit-gembox-ii-preservation', 'commit-gembox-iii-preservation', 'commit-podgo-preservation'):
         verify()
         for check in ('test-fields', 'test-extraction', 'test-selection', 'verify'):
             subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
@@ -115,6 +115,9 @@ def main():
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-gembox-preservation', 'commit-gembox-ii-preservation', 'commit-gembox-iii-preservation'):
             paths += ['JOYO.md']
+            subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
+        if mode == 'commit-podgo-preservation':
+            paths += ['LINE6.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         changed = set(git('diff', '--name-only').splitlines())
         assert changed <= set(paths), changed - set(paths)
@@ -145,6 +148,8 @@ def main():
             message = 'docs(joyo): verify GEM BOX II original and qualify overdub evidence'
         if mode == 'commit-gembox-iii-preservation':
             message = 'research(joyo): verify GEM BOX III dimensions and retain regional IR conflict'
+        if mode == 'commit-podgo-preservation':
+            message = 'research(line6): preserve standard POD Go and specify IR conversion limits'
         print(git('commit', '-m', message))
     elif mode == 'verify':
         verify()

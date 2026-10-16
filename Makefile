@@ -637,3 +637,7 @@ research-commit-gembox-ii-preservation:
 .PHONY: research-commit-gembox-iii-preservation
 research-commit-gembox-iii-preservation:
 	python3 scripts/research_tools.py commit-gembox-iii-preservation
+
+.PHONY: research-commit-podgo-preservation
+research-commit-podgo-preservation:
+	python3 scripts/research_tools.py commit-podgo-preservation

@@ -6,6 +6,7 @@ Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Exp
 
 Both are guitar/bass multi-effects with a semi-fixed serial path and built-in expression. **Shared specifications are explicitly supported by Line 6's Wireless FAQ**, which says the ordinary POD Go documentation also covers Wireless unless marked otherwise. This is not an inferred similarity between unrelated hardware. Both records remain partial.
 
+<!-- comparison evidence begins -->
 ### Hardware, display and expression
 
 | Field | POD Go, standard non-Wireless | POD Go Wireless |
@@ -29,10 +30,10 @@ Sources: [PG-P], [PG-M], [PG-J], [PG-Y], [PG-W]. The normal GUITAR IN remains us
 | Presets | **256 overwriteable locations**, Factory128 and User128, with **four snapshots per preset**. Either setlist can be overwritten; Factory does not mean read-only. Current factory-filled subset is not separately established. [PG-M] |
 | Acoustic simulation | **Yes: Acoustic Sim**, an optional EQ-category effect. It is excluded from the fixed Preset EQ choices, so it consumes a selectable effect slot. Acoustic simulation is not merely an acoustic amp. [PG-L,PG-M] |
 | Synth | **Yes**, named algorithms in Pitch/Synth. Exact current algorithm-by-algorithm inventory and amp/cab subtotals still require reconciliation with the firmware-matched model list. [PG-L] |
-| User IRs | **128 IR library locations**;1024-point processing per the official Yamaha specification; WAV import with POD Go Edit. Cab and IR share one processing position. Complete source-file conversion restrictions remain untranscribed. [PG-Y,PG-F] |
+| User IRs | **128 IR library locations**;1024-point processing per Yamaha specification;WAV import throughPOD Go Edit. Cab/IR share one position. [Official FAQ](https://kb.line6.com/pod-go-faq),rechecked2026-10-17,explicitly converts allIRs to **16-bit/48kHz/mono**. Accepted source-rate/bit-depth ceilings remain incompletely transcribed;conversion target is not native arbitrary-format playback. [PG-Y,PG-F] |
 | NAM / captures | Native NAM, converted NAM and user amp-capture import **not established** in the checked documentation. Helix-derived amp models and cabinet IR import prove none of these capabilities. |
 | Editor | **POD Go Edit Windows/macOS**, full preset/IR editing and management. Hardware2.50 needs Edit2.50 for its newly added models. iOS USB audio is not a mobile editor; Android/Linux full editors are not established. [PG-P,PG-R,PG-M] |
-| USB audio / MIDI | **4-in/4-out,24-bit**, dry recording/reamping and USB MIDI; Windows ASIO driver. Mac class-compliant audio defaults to48 kHz; other rates require the documented driver. Complete supported-rate set is not independently transcribed. [PG-M] |
+| USB audio / MIDI | **4-in/4-out,24-bit**, dry recording/reamping and USB MIDI; Windows ASIO driver. Mac class-compliant audio defaults to48 kHz; other rates require the documented driver. Complete supported-rate set is not independently transcribed. CurrentFAQ says Windows ARM/Snapdragon drivers have **not been tested**;this is not a tested incompatibility or support guarantee. [PG-M,PG-F] |
 | Power | Supplied **DC-3h family adapter,9 V,3 A,center-negative**. This is an adapter specification, not measured draw. Internal floorboard battery operation and USB-bus-powered operation are not established. **Wireless transmitter battery is separate from the floorboard's power source.** [PG-J,PG-A,PG-P] |
 
 ### POD Go family category-choice evidence
@@ -56,7 +57,7 @@ No definitive grand total is claimed from an incomplete delay/cabinet inventory.
 
 ### Connections and practical features — both models
 
-One6.35 mm mono GUITAR IN; one external EXP/footswitch TRS socket; stereo TRS SEND and RETURN; two balanced/unbalanced6.35 mm MAIN OUTs; separate mono AMP OUT; dedicated6.35 mm stereo headphones; USB-B and DC. RETURN can become an always-on stereo aux input. No microphone/XLR/phantom, physical DIN MIDI or separate3.5 mm aux socket in the complete inventory. [PG-P,PG-M]
+One6.35 mm mono GUITAR IN; one external EXP/footswitch TRS socket; stereo TRS SEND and RETURN; two balanced/unbalanced6.35 mm MAIN OUTs; separate mono AMP OUT; dedicated6.35mm stereo headphones (**63Ω output impedance**,currentFAQ);USB-B andDC. RETURN can become an always-on stereo aux input. No microphone/XLR/phantom, physical DIN MIDI or separate3.5 mm aux socket in the complete inventory. [PG-P,PG-M]
 
 AMP OUT can tap the signal before Cab/IR while the main outs retain cabinet processing. This is **not** a second independent effects chain. Four-cable-method use and external stereo effects insertion are documented. [PG-P]
 
@@ -102,6 +103,85 @@ Do not combine these variants into one used-to-new range. No guessed currency co
 [PG-M] Manufacturer-authored **2.50 Owner's Manual,RevG,2025**, [original manual text mirror](https://manuals.plus/m/ce56ac3123bea01e1af09c67ee23bbacde033cc732eecebac95132e123405944): pp.6–8 controls/ports,13 blocks,15–16 overwriteable setlists,31–33 looper/EQ,45–47 USB. The previous standard-model research could not complete PDF rendering and did not claim visual inspection. The official manual index was rechecked for this consolidation; a fresh successful PDF visual inspection is not claimed. Generated mirror FAQs are not evidence.
 
 The existing standard record originated in commit `4f82a0b2893f2ec4b9bf7a01a45da394acca1164`, source blob `14f1c485763e10810e2f4ee673f41436edc6970f`. Its fields,prices,source URLs,known conflicts and incomplete-verification qualifications are retained here. The old file is not deleted until full migration/link validation. Consolidation does not count standard POD Go twice.
+
+<!-- comparison evidence ends -->
+
+### Standard POD Go — complete original finding
+
+The2026-10-17 standard-model FAQ follow-up resolves the IR conversion target and adds headphone impedance/WindowsARM testing limits. Shared hardware/software applicability follows the already documented WirelessFAQ rule;it does not transfer the standard2.35kg mass or used/new offers toWireless. No newWireless listing or transmitter check is implied. Original source-input limits and revision gaps remain. No PDF,editor,driver or dependency downloaded or run.
+
+The entire2026-10-15 standard,non-Wireless finding follows,including original dates,allcategory-count conflicts,price andinspection qualifications. Older unknown conversion details remain historical;current qualification above has priority. No source deleted.
+
+<!-- LINE6-PODGO-STANDARD source begins -->
+
+Reviewed **2026-10-15**. Guitar/bass multi-effects; **large**, built-in expression. Distinct from POD Go Wireless and POD Express. Partial record; undocumented capabilities and dated listing limitations remain explicit.
+
+### Required comparison
+
+| Field | Evidence-backed result |
+|---|---|
+| Expression | Built-in expression with toe switch, plus one shared TRS **EXP2 / FS7,8** input. A Y cable supports two external momentary switches; this is not two expression sockets [P,M] |
+| Knobs / footswitches / buttons | **8 / 8 / 4**: upper/lower encoders, volume and five parameter knobs; up/down, A/B/C/D, Mode and Tap; Home/View, Action and two Page buttons. Toe/power switches separate; encoder presses counted once [P,M] |
+| Dimensions / weight | Official Japan page publishes **88 H × 230 W × 359 D mm; 2.35 kg**. The horizontal labels appear counterintuitive for the illustrated orientation; retain the published envelope rather than invent a drilling template. Large under either orientation. Official Yamaha store gives 89 mm height, so preserve the 1 mm source disagreement. Wireless mass is different [J,Y] |
+| Display | **4.3-inch color LCD**. Explicit touchscreen specification **unverified**; knob navigation is not by itself proof of absence [P] |
+| Blocks / routing | **10 semifixed blocks**: amp/preamp, cab/IR, preset EQ, wah, volume, FX loop and **four freely selected effects**, DSP-limited. Input gate and output utility settings are additional functions, not unlimited extra effect slots. Serial path only; no dual parallel chain [F,M] |
+| Presets | **256 overwriteable locations**, arranged as Factory128 and User128, with **four snapshots per preset**. Manual explicitly permits overwriting either setlist. Factory-labelled locations are not read-only; current factory-filled subset is not separately counted [M] |
+| Acoustic / synth | **Yes / yes**: Acoustic Sim in the optional EQ-effect category; Pitch/Synth includes named synth algorithms. Acoustic Sim is excluded from the dedicated fixed Preset EQ block, so it consumes an optional effect slot [L,M] |
+| IR import | **128 user IR library locations**, 1024-point processing in official Yamaha specification; WAV import through POD Go Edit. A cabinet block and IR share the same processing position. Detailed source-file conversion restrictions not fully transcribed [Y,F] |
+| NAM / captures | Native NAM, converted NAM and user amp-capture import **not established**. Helix-derived amp modeling and cabinet IR loading are not NAM support |
+| Power | Supplied **DC-3h family adapter**, 9 V, 3 A, center-negative. This is the adapter specification, not measured device draw. Battery/USB-powered operation not established in checked material [J,A] |
+| Configuration | **POD Go Edit Windows/macOS**, full editor/IR/preset management. Firmware2.50 requires Edit2.50 to expose its new models. iOS USB audio is not an iOS editor; Android/Linux full editors not established [P,R,M] |
+| Audio interface | **USB 4-in/4-out, 24-bit**, dry recording/reamp, USB MIDI; Windows ASIO driver. Mac class-compliant operation defaults to48 kHz; other rates require the documented Line6 driver. Exact supported-rate set not fully transcribed [M] |
+
+### Category-choice inventory
+
+Counts below are transcribed from the **official POD Go model-list webpage** as retrieved, not copied from HX Stomp or the broader Helix library. Mono/stereo implementations are not counted twice; different HX versus Legacy entries remain separate.
+
+| Category | Named entries / qualification |
+|---|---:|
+| Distortion |55|
+| Dynamics |18|
+| EQ effects |8; fixed Preset EQ offers7 because Acoustic Sim is excluded|
+| Modulation |55|
+| Delay |41 named entries plus one blank-name table row; unresolved rather than fabricated|
+| Reverb |23|
+| Pitch/Synth |24|
+| Filter |15|
+| Wah |11|
+| Volume/Pan |4|
+
+Amp/preamp and cabinet subtotals have not been fully reconciled with the current webpage and firmware2.50 additions. No definitive grand total is claimed from the incomplete delay/cabinet tables. Source [L]; the 2.50 release notes [R] add11 guitar amps,2 bass amps,11 guitar cabs,2 bass cabs and2 effects. Their firmware date is **2025-01-23**, not a newly released October2026 update.
+
+### Connections and live/practice features
+
+One 6.35 mm mono guitar input; one shared external EXP/footswitch socket; stereo TRS send and return; two balanced/unbalanced 6.35 mm main outputs; separate mono AMP OUT; dedicated 6.35 mm stereo headphones; USB-B and DC. Return can operate as a stereo aux input. No XLR microphone/phantom, physical DIN MIDI or separate 3.5 mm aux socket in the complete inventory [P,M].
+
+AMP OUT may be tapped before Cab/IR while the main outputs retain cabinet processing. This is not a second independent internal signal chain. Standard POD Go has **no built-in Relay receiver**; the Wireless variant does [P,M].
+
+Looper uses one of the four optional effects: **40 seconds mono /20 seconds stereo at full speed; 80/40 seconds at half speed**. The 2.50 manual documents one-switch and six-switch mono/stereo implementations. An official store comparison table also mentions Shuffling Looper, which the model list/manual do not establish; it remains a source discrepancy, not an added verified algorithm. Tuner, snapshots, trails and USB MIDI are documented; no internal drum machine is established [M,Y].
+
+### Separate IDR observations
+
+| Condition | Amount | Exact evidence / limitation |
+|---|---:|---|
+| Retail indexed ask; detailed condition/stock unconfirmed | **Rp7.704.000** | [Nuansa Musik Official Shop, Shopee shop51110469/item9145739709](https://shopee.co.id/Yamaha-Line-6-POD-GO-Multi-Effects-Guitar-Processor-i.51110469.9145739709). Search evidence contained older August–September delivery dates; subsequent direct reopening failed |
+| Explicit SECOND / BEKAS, sold out | **Rp5.000.000** | [Pomade.borneo, shop7513711/item18366387490](https://shopee.co.id/LINE-6-POD-GO-Floor-Processor-Multi-Effect-%28SECOND-BEKAS%29-i.7513711.18366387490). Historical used asking price, not an active offer or verified completed sale; direct reopening failed |
+
+Not a current used-to-new market range. Seller names, badges or familiar branding do not independently authenticate a seller. Exact accessories, warranty, regional variant, shipping and checkout stock remain unverified. No currency conversion or guessed used discount.
+
+### Sources and inspection limits
+
+[P] [Official product and numbered interactive control descriptions](https://line6.com/podgo/).
+[F] [Official POD Go FAQ](https://kb.line6.com/pod-go-faq). Launch prices and launch-era effect counts are not used as current offers/library totals.
+[L] [Official model list](https://line6.com/podgo-models/).
+[R] [Official firmware2.50 release notes](https://kb.line6.com/pod-go-2-50) and [official manual index](https://line6.com/support/manuals/podgo), identifying the2.50 manual/editor generation.
+[J] [Official Line6 Japan product](https://line6.jp/podgo/), model-specific weight and published dimensions.
+[A] [Official DC-3h accessory specification](https://line6.jp/effects-pedals/accessories/).
+[Y] [Official Yamaha Singapore product specification](https://shop.sg.yamaha.com/products/pod-go.html), IR/USB/looper chart; its height and Shuffling Looper disagreements are retained above.
+[M] Manufacturer-authored **2.50 Owner's Manual, RevG,2025**, [actual manual text mirror](https://manuals.plus/m/ce56ac3123bea01e1af09c67ee23bbacde033cc732eecebac95132e123405944): printed pp.6–8 controls/ports,13 blocks,15–16 preset storage/overwrite,31–33 looper/EQ,45–47 USB. Download/PDF rendering could not be completed; no successful PDF image inspection is claimed. The original manual text is used, not generated Q&A.
+
+Remaining: current amp/cabinet subtotals, blank delay entry, explicit touchscreen/USB-power specifications, complete IR input-format rules and independently verified active offers. **Next Shopee-first target: Zoom G11**, subject to exact hardware-listing discovery.
+<!-- LINE6-PODGO-STANDARD source ends -->
 
 ## POD Express Guitar
 

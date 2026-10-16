@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD Go original complete-body audit",
-    "task": "JOYO three originals nowhash-checked. GEM BOX III primary311x175x53mm/1737g found;regional512/1024IR conflict remains. Next inspect original POD Go full finding andcombinedPODGo/Wireless root section carefully;preserve variant isolation andcommit one model before next. Shared-table/incoming-link audit,technicalgaps andfreshShopee discovery remain.",
+    "model": "Line 6 POD Go Wireless complete-body audit",
+    "task": "Standard POD Go complete original hash-checked;FAQ explicitly16bit48kHzmonoIRconversion,63ohmheadphones anduntestedWindowsARMdrivers. Next inspect Wireless original andcombinedroot,ensure archive cannot leak standardprice/mass intoWireless. Commit before nextmodel. Shared-table/incoming-link audit,primarygaps andfreshShopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -377,6 +377,23 @@
         "display diagonal/touch",
         "USB modes and firmware",
         "currentcondition-specificIDR"
+      ]
+    },
+    {
+      "model": "Line 6 POD Go",
+      "path": "LINE6.md#pod-go-and-pod-go-wireless",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "research(line6): preserve standard POD Go and specify IR conversion limits",
+      "sources": [
+        "https://kb.line6.com/pod-go-faq"
+      ],
+      "unresolved": [
+        "complete accepted IR input ceilings",
+        "currentamp/cab inventory",
+        "blankdelayentry",
+        "touch/USBpower",
+        "qualified current offers"
       ]
     }
   ],
@@ -9892,6 +9909,21 @@
       },
       "retained_comparison_facts": [],
       "scope": "Complete original preserved. New exact-model Chinese primary dimensions/mass and port values; regional512/1024IR and software listing-date differences retained. No source deletion/new model."
+    },
+    {
+      "models": [
+        "Line 6 POD Go"
+      ],
+      "model_name": "POD Go and POD Go Wireless",
+      "destination": "LINE6.md#pod-go-and-pod-go-wireless",
+      "source": "effects/findings/2026-10-15-line6-pod-go.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "LINE6-PODGO-STANDARD",
+      "source_sha256": "faeaf78f59ac51390366f6ff14cb2280ff829adeaf330225656b23b8aed7d5ee",
+      "renamed_references": [],
+      "retained_comparison_facts": [],
+      "scope": "Complete standard original preserved in shared family section outside selected comparison. CurrentFAQ conversion/headphone/ARM limits added; variant mass/prices remain distinct."
     }
   ],
   "discovery_leads": [
@@ -10452,11 +10484,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "Line 6::POD Go",
-          "source": "effects/findings/2026-10-15-line6-pod-go.md",
-          "dest": "LINE6.md#pod-go-and-pod-go-wireless"
-        },
-        {
           "model": "Line 6::POD Go Wireless",
           "source": "effects/findings/2026-10-15-line6-pod-go-wireless.md",
           "dest": "LINE6.md#pod-go-and-pod-go-wireless"
@@ -10621,7 +10648,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD Go original complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD Go Wireless complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
