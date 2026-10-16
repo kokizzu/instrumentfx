@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD500 primary follow-up",
-    "task": "Pilot RevC text inventory saved. Verify panel images and remaining socket sizes/types; resolve power operation,mass/display,current editor/IR claims and qualified offers. Then resume bass discovery.",
+    "task": "HD500 firmware2.62/globalEQ/paidpack distinction andeditorbug documented. Remaining panel/socket,mass/display,power/IR/currentOS/qualifiedoffers unresolved. Continue fresh Shopee bass discovery before returning to low-yield HD500 gaps.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee bass discovery; do not add HD500 again."
   },
@@ -3391,7 +3391,9 @@
       "sources": [
         "https://l6c-acdn2.line6.net/data/6/0a06434dc1a55085c5d6532bf/application/pdf/POD%20HD500%20Advanced%20Guide%20v2.10%20%28%20Rev%20A%20%29.pdf",
         "https://kb.line6.com/pod-hd500x-hd500-pod-hd-pod-hd-pro-faq",
-        "https://manualzilla.com/doc/5804481/hd500-quick-start-guide"
+        "https://manualzilla.com/doc/5804481/hd500-quick-start-guide",
+        "https://kb.line6.com/pod-hd500-hd-desktop-hd-pro-v2-62-release-notes",
+        "https://kb.line6.com/pod-hd500x-hd500-hd400-hd300-hd-hd-pro-firmware-v2-62-and-pod-hd-hd500-hd400-hd300-hd-pro-edit-v2-26-update-instructions"
       ],
       "offer": {
         "model": "Line 6 POD HD500 identity pending",
@@ -3445,6 +3447,11 @@
         "identity": "Manufacturer Pilot Handbook 40-00-0281 RevC; original HD500, readable mirrored transcript",
         "verified": "13 rotary including rear mic trim;12 footswitches plus toe;4 dedicated buttons+4-way pad+PRESETS push;LCD;all preset locations writable;stereoTRS FXsend vs two return sockets;MIDIIn/OutThru",
         "limits": "Text-derived;panel images not verified;some socket sizes/types unresolved;officialRevB inaccessible"
+      },
+      "firmware_followup": {
+        "verified": "v2.62 free GlobalEQ:3parametricbands+low/highcut;notL6LINK. OptionalpurchasedMetal/Vintage/Basspacks;USBfirmware1.04. Englishupdatepairsflash2.62/Edit2.26topreventinvalidpreset/high-volumeevents.",
+        "conflicts": "French/Germantranslations2.02/2.00;EnglishrestoreparagraphEdit2.00",
+        "execution": "Documentationonly;noinstallersdownloadedorrun"
       }
     }
   ],
