@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD500 primary follow-up",
-    "task": "HD500 FAQ phantom/outputmodes/USBformat andqualifiedfamilycounts saved. OfficialQuickStartRevBfailed;seekreadablemanufacturer-authoredcopyforphysicalinventory. Thenv2.10synth/USBchannels andfirmware2.62basscapability.",
+    "task": "HD500 synthalgorithms,stereo1–2USBrecordsend andmono/stereorouting verified. SeekreadablePilotGuideforcontrols/fullIO;firmware2.62basssupport stillpending. Do notinferacsim fromVariaxAcousticcontrol.",
     "next_models": [],
     "after_queue": "ContinuebassShopeediscovery;HD500basscapability notyetclassified."
   },
@@ -3430,6 +3430,10 @@
         "verified": "Micnophantom;familycategorycountsqualified;USBrecord1–2;44.1/48/88.2/96k16/24bit;globaloutputmodes",
         "access": "OfficialQuickStartRevBcachemiss;alternateofficialhostinaccessible",
         "remaining": "Fullcontrol/socketinventory andfirmware-currentlibrary,synth,USBplaybackchannels,currentOS,prices"
+      },
+      "synth_stereo_followup": {
+        "verified": "v2.10Octisynth/SynthOMatic/AttackSynth/SynthString/Growler;onestereoMainOut1–2USBrecordsend;monoPrecombinesinputs andmonoFXcollapseupstreamstereo",
+        "limits": "Acousticsimulation,currentUSBplaybackchannels andphysicalinventory unresolved;mirrorsfailed"
       }
     }
   ],
