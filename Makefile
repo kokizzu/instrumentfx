@@ -181,3 +181,11 @@ consolidation-commit-ve-20:
 .PHONY: consolidation-commit-gt-1000core
 consolidation-commit-gt-1000core:
 	python3 scripts/consolidation_tools.py commit gt-1000core
+
+.PHONY: consolidation-commit-gx-10
+consolidation-commit-gx-10:
+	python3 scripts/consolidation_tools.py commit gx-10
+
+.PHONY: comparison-test-selection
+comparison-test-selection:
+	python3 scripts/comparison_views.py test-selection

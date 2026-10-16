@@ -623,3 +623,136 @@ Checked 2026-10-16. [Official product](https://www.boss.info/global/products/gt-
 |---|---|---|
 | Used | Unknown;no exact condition-verified Indonesian used offer established. | — |
 | Retail-style / Boss Official Shop,Tangerang Selatan | Rp14.450.000,Habis;crossedRp17.000.000,15% off. Cached body reopened2026-10-16,relative tomorrow delivery;not current stock. Free gift advertised but contents unknown. Condition,adapter/bundle,warranty region,shipping/tax and seller affiliation unconfirmed. Late-delivery voucher up toRp10.000 is not a checkout discount. | [341882414 /15035629131](https://shopee.co.id/BOSS-GT-1000CORE-Guitar-Effects-Processor-Pedal-Multi-Efek-i.341882414.15035629131) |
+
+## GX-10
+
+Consolidated and refreshed2026-10-16;partial technical verification. Original dates/contradictions retained. Historical next-model notes below are provenance;current queue is in research-state.json.
+
+<!-- BOSS-GX-10 source begins -->
+
+Checked **2026-10-15**. Existing model in [BOSS comparison](effects/guitar-boss.md), not an additional catalogue entry.
+
+### Display and directly rechecked specifications
+
+The [manufacturer page](https://www.boss.info/global/products/gx-10/) explicitly specifies **one color graphic LCD,480×272 pixels, with touchscreen**. **Diagonal remains unknown**: a numeric size was not located in the checked primary text and is not inferred from the chassis or retailer wording. The [manufacturer getting-started article](https://articles.boss.info/getting-started-with-the-boss-gx-10/) confirms actual finger-based editing and says the display is the same design introduced on GX-100.
+
+The current product specification confirms **6 knobs,3 footswitches,5 buttons**, plus expression/toe and power separately;15 assignable blocks;32 amps split23 guitar/9 bass;170 effects. Windows/macOS editing and **iOS/Android editing with optional BT-DUAL** remain distinct from ordinary USB mobile recording. This scoped review does not independently certify the complete effect-category inventory or every earlier power/loading field.
+
+### IDR asking observations
+
+| Channel / seller | Amount | Availability evidence |
+|---|---:|---|
+| Shopee NEO MUSIC | **Rp7.100.000** | [shop158235298/item27770140379](https://shopee.co.id/BOSS-GX-10-GX10-Guitar-Effects-Processor-i.158235298.27770140379); indexed, July delivery text, checkout unverified |
+| Shopee Dial Musik | **Rp7.210.500** | [shop338305078/item24378659919](https://shopee.co.id/Boss-GX-10-Guitar-Effect-Processor-Pedal-Multi-Effects-GX10-GX-10-Efek-Digital-Boss-Original-i.338305078.24378659919); listed discount, cached August delivery text |
+| Shopee seller named Boss Official Shop | **Rp7.641.500 — SOLD OUT** | [shop341882414/item25839476168](https://shopee.co.id/BOSS-GX-10-Guitar-Effects-Processor-i.341882414.25839476168); Habis and service unavailable |
+| Shopee Red Musik Bali | **Rp7.948.000 — SOLD OUT** | [shop198150809/item26419884836](https://shopee.co.id/Boss-GX-10-Efek-Gitar-Proccesor-GX10-Guitar-Effect-Proccesor-GX-10-i.198150809.26419884836) |
+| Used | **Unknown** | No condition-verified Indonesian used offer established |
+
+Do not combine historical sold-out asks with cached retail amounts as a reliable active market range. Seller name, original-product badge and delivery compensation are not seller authentication or an applied purchase discount. Exact accessories, firmware region, condition and shipping remain unverified.
+
+Old USD offers remain separate historical provenance. Remaining display gap is the **published diagonal**, not color/touch; those two fields are now primary-confirmed. Next existing-model review: **GT-1**.
+<!-- BOSS-GX-10 source ends -->
+
+### GX-10 — supporting comparison facts
+
+| Required field | Retained observation |
+|---|---|
+| Screen type and resolution | Graphic LCD,480×272 |
+| Published diagonal | ? |
+| Monochrome / color evidence | **Color**, explicit manufacturer specification |
+| Touchscreen | **Yes**, explicit |
+| Size | Medium |
+| Built-in / external expression | Yes+toe /1 shared CTL/EXP |
+| K/F/B | 6/3/5 |
+| Dimensions / pedal-up maximum | 300×183×74 /96H |
+| Weight | 2.2kg |
+| Used IDR | ? |
+| Shopee retail evidence | **Rp7.100.000** NEO MUSIC; separate **Rp7.210.500** Dial Musik |
+| Separate local-retailer / historical context | Cached delivery text. Boss-shop **Rp7.641.500** and RedMusik **Rp7.948.000** are **sold out** |
+| Simultaneous architecture / library | 15 assignable plus divider/mixer,send/return and looper utilities;32amps=23guitar+9bass;170effects |
+| Factory / user memory | 99P+198U |
+| Synth / acoustic functions | Exact algorithms ? |
+| User IR / NAM | WAV import,capacity ?;NAM not established |
+| Audio / controller ports | Mono1/4-inch in,stereoout;mono FX loop;1/4-inch phones;CTL/EXP;USB-C;BT-DUAL slot |
+| Power and USB operation | PSB-1U adapter;600mA;no battery/USB bus operation listed |
+| Configuration | Windows/macOS;**iOS/Android with optional BT-DUAL** |
+| Additional features | Touchscreen;parallel routing;USB audio;38/19slooper |
+| Follow-up commit | `439a6ff0975e89632a40845ff28a63ebc558877f` |
+
+### GX-10 — original USD and technical provenance
+
+Research date **2026-10-14**. Technical sources are the linked manufacturer's specifications, including current firmware-dependent figures. **Partial records**: `?` means unverified. Dimensions are **W × D × H in mm**; `/max` gives the maximum height with the pedal raised. `K/F/B` = rotary controls / footswitches / separate buttons, excluding the expression toe switch and rear power/mode switches. Price columns are **USD US-market listed/asking observations**, not statistically estimated fair values; see sources below.
+
+Model totals have different inclusion rules. ME-90's selectable alternatives are not all simultaneously present on its panel. A missing NAM claim is not converted into a definitive “No” without model/firmware documentation.
+
+Price retrieval date: **2026-10-14**. Indexed older listings are explicitly less reliable than current, purchasable offers. No guarantee of stock, local Indonesian pricing, delivery cost or completed-sale value.
+
+
+| Required field | Original 2026-10-14 observation |
+|---|---|
+| Size class | Medium ≤300×200 |
+| Built-in / external EXP | Yes + toe / 1 shared CTL/EXP |
+| K/F/B | 6/3/5 |
+| Dimensions | 300×183×74/max96 |
+| Weight | 2.2 kg |
+| Used USD | $324.99–329.99, Great [U3] |
+| New USD | $439.99 [N] |
+| Simultaneous blocks; categories / model choices | 15 assignable + divider/mixer, send/return, looper utilities; 32 amps = 23 guitar + 9 bass; 170 effects |
+| Factory / user memory | 99 P + 198 U |
+| Synth / acoustic simulator | Specific synth/acoustic algorithms ? |
+| User IR | WAV import; capacity ? |
+| NAM | Not established |
+| Physical audio/control ports | Mono ¼″ in, stereo ¼″ out; mono FX loop; ¼″ phones; CTL/EXP; USB-C; BT-DUAL slot |
+| Power; USB-powered? | PSB-1U adapter; 600 mA draw; battery/USB bus operation not listed |
+| Configuration apps | Windows/macOS; iOS/Android **requires optional BT-DUAL** |
+| Other practical features | Touchscreen; parallel routing; USB audio; 38/19 s looper |
+
+U3:GC used item122596708 USD324.99,item122413069 USD329.99,Great;N:GC newUSD439.99. Checked2026-10-14,asking observations not sold prices/current stock/IDR. Adapter bundles/open-box separate.
+
+[Historical source](https://www.boss.info/global/products/gx-10/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc?page=7) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122596708.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122413069.gc)
+
+Sources preserved unchanged:[follow-up](effects/findings/2026-10-15-boss-gx10-display-idr.md),[current comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+
+### GX-10 — current comparison evidence
+
+Checked **2026-10-16**. These rows update the dated facts above. The retained source body and historical rows preserve all earlier observations.
+
+<!-- comparison evidence begins -->
+
+| Required field | Current evidence and limits |
+|---|---|
+| Expression | Built-in pedal with toe switch; one shared CTL 2,3/EXP 2 socket accepts external expression or footswitches. [GX10-P] |
+| K/F/B | **6 / 3 / 5**; power and expression toe switches counted separately. [GX10-P] |
+| Display | **480×272 color touchscreen**; published diagonal remains unknown. [GX10-P] |
+| Dimensions / weight / size | **300×183×74 mm**, maximum height 96 mm; **2.2 kg**. Medium under the repository's width/depth filter. [GX10-P] |
+| Simultaneous processing / category choices | Product specification: **15+3 utilities**. HTML manual describes 15 effects/devices including utilities; counting wording differs. DSP-limited; maximum nine of the same effect, two amps and one each looper, divider/mixer and send/return. 32 amps (23 guitar/9 bass),170 effects retained; complete per-category selectable totals unresolved. [GX10-CHAIN], [GX10-DSP] |
+| Factory / user / total memory | **99 preset +198 user =297** locations. [GX10-P] |
+| Synth / acoustic | **AC.GUITAR SIMULATOR** and **AC RESONANCE** explicitly listed. Sitar Simulator, Humanizer and Ring Modulator alone do not establish a general synth engine. [GX10-DSP] |
+| IR / NAM / capture | **16 user IR slots**; WAV at **44.1/48/96 kHz,16/24-bit linear**. Tone Studio converts IRs before loading USER-1–16; this is not NAM conversion. Native NAM, converted NAM and proprietary capture imports unestablished. [GX10-IR] |
+| Audio / control I/O | Mono quarter-inch input; two quarter-inch outputs; mono SEND/RETURN; stereo quarter-inch PHONES; CTL/EXP; USB-C; dedicated BT-DUAL slot; DC. [GX10-P] |
+| Power / battery / USB power | Included **PSB-1U**, **600 mA draw**. Voltage/polarity, battery and USB-powered operation remain unverified. [GX10-P] |
+| Editor / USB / platforms | Tone Studio Windows/macOS; mobile editing needs optional BT-DUAL. USB audio/MIDI; VENDOR requires dedicated computer driver, GENERIC uses iOS standard functionality with limits. Dry recording and DAW-to-effects reamp; loopback. Direct monitor resets ON at power-up and is bypassed by loopback. Exact USB channel/bit-depth and Android USB compatibility unresolved. Firmware1.06, editor1.0.2, drivers1.0.0 listed, not installed-version proof. [GX10-USB], [GX10-PC], [GX10-P] |
+| Looper / routing / live use | **38 s mono /19 s stereo**, overdubbing. Insert LOOP and assign switches; LOOP CTL cycles record/play/dub, double press stops, long press erases. External switches can separately stop/clear. Serial/parallel placement; no drums or scenes claim established. [GX10-LOOP], [GX10-CHAIN] |
+
+### GX-10 — separate IDR snapshot refresh
+
+Checked **2026-10-16**; cached exact hardware bodies, not live checkout/stock. New condition, adapter/bundle, warranty region, shipping/tax and store affiliation unconfirmed. Late-delivery compensation is not an applied discount. Earlier prices remain above; they are not merged into a current range.
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown; no condition-verified exact Indonesian used offer established. | — |
+| Retail-style / NEO MUSIC, Sukabumi | Rp7.100.000; relative tomorrow delivery before12:00. No explicit Habis in retrieved body; not stock proof. | [158235298 /27770140379](https://shopee.co.id/BOSS-GX-10-GX10-Guitar-Effects-Processor-i.158235298.27770140379) |
+| Retail-style / Dial Musik, Palembang | Rp7.590.000;11–12 Oct cached delivery. Earlier Rp7.210.500 remains a historical observation. | [338305078 /24378659919](https://shopee.co.id/Boss-GX-10-Guitar-Effect-Processor-Pedal-Multi-Effects-GX10-GX-10-Efek-Digital-Boss-Original-i.338305078.24378659919) |
+| Voucher-conditional / Boss Official Shop, Tangerang Selatan | Rp7.907.500 Dengan Voucher; same-day relative delivery. Eligibility and undiscounted price unexposed. Earlier Rp7.641.500 Habis retained; new body does not establish stock. Separate Belanja Rp30RB Diskon99% banner not accepted as hardware discount. | [341882414 /25839476168](https://shopee.co.id/BOSS-GX-10-Guitar-Effects-Processor-i.341882414.25839476168) |
+| Historical only / Red Musik Bali | Earlier Rp7.948.000 Habis; direct reopen cache miss, not fresh price verification. | [198150809 /26419884836](https://shopee.co.id/Boss-GX-10-Efek-Gitar-Proccesor-GX10-Guitar-Effect-Proccesor-GX-10-i.198150809.26419884836) |
+
+<!-- comparison evidence ends -->
+
+[GX10-IR]: https://static.roland.com/manuals/gx-10_bts_pc/en-US/141904267164166795.html
+[GX10-CHAIN]: https://static.roland.com/manuals/gx-10_reference/en-US/7374618794712843.html
+[GX10-DSP]: https://static.roland.com/manuals/gx-10_parameter/en-US/158050315161293707.html
+[GX10-LOOP]: https://static.roland.com/manuals/gx-10_reference/en-US/7424743594731019.html
+[GX10-USB]: https://static.roland.com/manuals/gx-10_parameter/en-US/95938699159020939.html
+[GX10-PC]: https://static.roland.com/manuals/gx-10_reference/en-US/7392897194721035.html
+[GX10-P]: https://www.boss.info/global/products/gx-10/
+

@@ -77,6 +77,17 @@ def relink(value, source, refs):
         return '['+m[1]+']('+target+')'
     return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', link, value)
 
+def comparison_body(body):
+    """Use an explicitly maintained comparison without repeating the retained archive."""
+    start = '<!-- comparison evidence begins -->'
+    end = '<!-- comparison evidence ends -->'
+    if start not in body and end not in body:
+        return body
+    assert body.count(start) == body.count(end) == 1, 'Ambiguous comparison evidence markers'
+    selected = body.split(start, 1)[1].split(end, 1)[0]
+    assert body.index(start) < body.index(end) and selected.strip(), 'Invalid comparison evidence range'
+    return selected
+
 def source_map(state, files):
     result = {}
     root_aliases = {'Line 6':'LINE6.md', 'M-VAVE':'M-VAVE.md', 'IK Multimedia':'IK-MULTIMEDIA.md'}
@@ -90,7 +101,7 @@ def source_map(state, files):
                     # Model names Core etc. are unique across this inventory.
                     for heading, body in sections(files[filename]):
                         if norm(heading) in alias or (model in ('POD Go','POD Go Wireless') and heading=='POD Go and POD Go Wireless'):
-                            canonical = (filename, heading, body)
+                            canonical = (filename, heading, comparison_body(body))
                             break
             result[key] = dict(brand=brand, model=model, aliases=alias, canonical=canonical)
     return result
@@ -474,8 +485,24 @@ def render(records,state):
         Path('/tmp/instrumentfx-'+filename).write_text(text)
     return {'outputs':outputs,'view_membership':ids,'bass_membership_basis':BASS_SHARED}
 
+def test_comparison_selection():
+    current = '| Required field | Evidence |\n|---|---|\n| IR | 16 user slots |\n'
+    fixture = 'Historical capacity unknown\n<!-- comparison evidence begins -->'+current+'<!-- comparison evidence ends -->Archive remains'
+    assert comparison_body(fixture) == current
+    assert comparison_body('Legacy without markers') == 'Legacy without markers'
+    for invalid in ('<!-- comparison evidence begins -->', '<!-- comparison evidence ends -->', '<!-- comparison evidence ends --><!-- comparison evidence begins -->', fixture+fixture):
+        try:
+            comparison_body(invalid)
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Malformed comparison range accepted')
+    print('PASS: explicit comparison selection keeps current evidence, preserves legacy fallback and rejects malformed ranges.')
+
 if __name__=='__main__':
-    if sys.argv[1]=='plan':
+    if sys.argv[1]=='test-selection':
+        test_comparison_selection()
+    elif sys.argv[1]=='plan':
         make_plan()
     elif sys.argv[1]=='apply':
         apply_plan()
