@@ -1235,3 +1235,7 @@ research-commit-ax1500g:
 .PHONY: research-commit-tonelab-le
 research-commit-tonelab-le:
 	python3 scripts/research_tools.py commit-tonelab-le
+
+.PHONY: research-commit-tonelab-st
+research-commit-tonelab-st:
+	python3 scripts/research_tools.py commit-tonelab-st

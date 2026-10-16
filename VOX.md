@@ -39,3 +39,41 @@ Primary Japanese J2 manual is manufacturer-hosted. English manufacturer-authored
 [TLLE-J]: https://voxamps.com/wp-content/uploads/2024/05/ToneLabLE_OM_J2.pdf
 [TLLE-E]: https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf
 [TLLE-S]: https://shopee.co.id/Vox-Valvetronix-ToneLab-LE-Efek-Gitar-Second-i.1887861133.52514565252?extraParams=%7B%22display_model_id%22%3A267809844474%2C%22model_selection_logic%22%3A3%7D
+
+## ToneLab ST
+
+Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass suitability/ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in with firm-forward switching; volume cannot be toggled off. External EXP absent from complete ports. | [Manual pp6–7][TLST-M] |
+| K/F/B | **12 / 2 / 9**, text-derived:AMP selector+five amp controls;PEDAL selector/edit;MOD/DELAY selector/edit;REVERB;rear LEVEL. UP/DOWN footswitches;AMP,CAB,PEDAL,MOD/DELAY,TAP,REVERB,WRITE,EXIT/TUNE,EXP PARAM buttons. Toe,STANDBY and AMP/LINE switch additional. Visual check pending. | [Manual pp2–7][TLST-M] |
+| Display | Program/value LED display; diagonal,color,touch unverified. | [Manual p5][TLST-M] |
+| Dimensions / mass | **270×180×70mm WDH;1.6kg**. Product metric row wrongly labels first dimension H; its inch row identifies W. | [Product][TLST-P] |
+| Processing / category choices | **33 amps;11 cabinets;11 pedal;11 MOD/DELAY;3 reverbs;1 noise reduction**. Manufacturer claims up to eight simultaneous types; detailed block accounting pending. | [Product][TLST-P]; [Manual p1][TLST-M] |
+| Factory / user memory | **100=50 user0–49+50 preset50–99**. Initial user fill unverified. | [Manual p9][TLST-M] |
+| Synth / acoustic | Dedicated synth/acoustic algorithms unverified; do not infer from LE. | Unresolved |
+| I/O | INPUT;stereo-mini AUX;shared stereo/mono OUTPUT/PHONES;USB-B;DC. No DIN MIDI or FX loop in complete inventory. Mono output cable takes left channel only. | [Manual pp7–9][TLST-M] |
+| Power / battery / USB | **12V DC;540mA consumption**. Polarity,battery and USB bus operation unverified. | [Product][TLST-P] |
+| IR / NAM / capture | User IR,native/converted NAM and captures unverified. | Unresolved |
+| Editor / USB audio | **Librarian**, not confirmed full editor. Historical requirements:XP SP3/Vista SP1+,MacOSX10.4+ G4/Intel. Windows MIDI driver for librarian;ASIO driver for audio. USB playback bypasses effects. Current OS support unverified. | [Manual p28][TLST-M] |
+| Looper / drums / live | Looper,drums,scenes,trails unverified. Tube warm-up delays initial sound. | [Manual p9][TLST-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; exact item does not establish condition. | — |
+| New | Unknown; exact item does not establish condition. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified Shopee hardware
+
+[Exact ST item][TLST-S],**Rp1,200,000**,herykurniawanipunk,shop94150896/item21882548072,Kab.Lombok Barat. Checked2026-10-17; exact HTML opened with last-week cache and9–11Oct delivery. Condition,stock,variant,adapter/bundle,warranty and working state unverified. Late-arrival Rp10,000 compensation is not a discount; shipping/tax/checkout unknown. Excluded from condition-specific price columns. No dependencies,software or manual files saved/installed; manual viewed as browser text.
+
+[TLST-M]: https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf
+[TLST-P]: https://voxamps.com/en-gb/product/tonelab-st/
+[TLST-S]: https://shopee.co.id/vox-tonelab-st-i.94150896.21882548072
