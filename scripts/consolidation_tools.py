@@ -1631,7 +1631,29 @@ def audit_compact_union():
         audit_compact(model)
     print('PASS compact union: '+str(len(paragraphs))+' prose/source-list groups, '+str(len(urls))+' external URLs, eight model-row audits. Incoming links remain; no source retirement.')
 
+
+def audit_floorboard_union():
+    research_tools.identity()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    entry = state['migration']['shared_floorboard_audit']
+    path = entry['source']
+    source = (ROOT/path).read_text()
+    assert digest(source) == entry['source_sha256'], 'Floorboard source changed'
+    refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
+    paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|\[]', p.strip())]
+    union = '\n'.join((ROOT/p).read_text() for p in ('VALETON.md','SONICAKE.md','MULTI-EFFECTS.md'))
+    assert all(comparison_views.relink(p,path,refs) in union for p in paragraphs), 'Floorboard prose missing'
+    urls = set(re.findall(r'https?://[^\s)]+', source))
+    assert all(url in union for url in urls), 'Floorboard external URL missing'
+    manifests = [e for e in state['consolidation_and_price_findings'] if e.get('source') == path and e.get('verification_kind') == 'complete-model-rows-v1']
+    assert {e['model_name'] for e in manifests} == {'GP-200','Matribox II QME-100','Matribox II Pro QME-200'}
+    verify_preserved(state)
+    print('PASS floorboard union: '+str(len(paragraphs))+' prose/source groups, '+str(len(urls))+' external URLs, three model manifests / 42 fields. Incoming links remain; no source retirement.')
+
 if __name__ == '__main__':
+    if sys.argv[1:] == ['audit-floorboard-union']:
+        audit_floorboard_union()
+        raise SystemExit(0)
     if sys.argv[1:] == ['audit-compact-union']:
         audit_compact_union()
         raise SystemExit(0)

@@ -77,3 +77,13 @@ Technical model links lead to manufacturers. The eight findings notes contain th
 
 Other compact processors, including HX Stomp, GT-1000CORE, Ampero Mini and compact capture/specialist pedals, are indexed separately as their records are added. Absence from this page does not mean a device fails the size filter. The next saved review page is [BOSS guitar processors](effects/guitar-boss.md); unresolved compact fields remain tracked in [research-state.json](effects/research-state.json).
 
+
+## Preserved floorboard source context
+
+The following source grouping and navigation retain the 2026-10-14 floorboard snapshot. The current root brand and ALL-* records remain authoritative; these historical links do not claim migration is complete.
+
+- [Matribox II official manual, firmware 1.3.0](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623), panel diagrams and printed p.45 specifications, visually checked. A pair of balanced mono TRS outputs is not a single stereo TRS headphone socket.
+- GP-200's published 25 combined controls are retained as a combined claim until separate rotary/button counts are verified; no arbitrary split has been invented.
+
+For all researched processors organised by size and expression, start at the [comparison home](effects/README.md). Unresearched families and unresolved fields are recorded in [coverage](effects/COVERAGE.md).
+

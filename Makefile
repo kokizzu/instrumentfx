@@ -783,3 +783,9 @@ research-commit-floorboard-matribox-ii:
 .PHONY: research-commit-floorboard-matribox-ii-pro
 research-commit-floorboard-matribox-ii-pro:
 	python3 scripts/research_tools.py commit-floorboard-matribox-ii-pro
+
+.PHONY: consolidation-audit-floorboard-union research-commit-floorboard-union
+consolidation-audit-floorboard-union:
+	python3 scripts/consolidation_tools.py audit-floorboard-union
+research-commit-floorboard-union:
+	python3 scripts/research_tools.py commit-floorboard-union

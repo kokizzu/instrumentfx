@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shared floorboard prose/reference union and incoming links",
-    "task": "GP-200, Matribox II and Pro source model rows verified; audit all file-wide prose and reference definitions across root destinations, inspect incoming links and preserve any omissions before considering redirects/retirement. Continue other shared sources, fresh Shopee discovery and unresolved technical fields.",
+    "model": "Fresh Shopee Indonesia discovery — Zoom G5n",
+    "task": "Search Shopee Indonesia exact Zoom G5n hardware (not accessories), confirm it is absent from inventory and verify exact model official specifications. Preserve all requested fields/uncertainties and commit useful findings before next model. Shared compact/floorboard content unions verified; legacy incoming links and other shared sources remain, no retirement authorized.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -14741,8 +14741,65 @@
         "Sonicake Matribox II Pro QME-200"
       ],
       "pending_models": [],
-      "remaining_work": "All three model-row subsets now have independent manifests; full shared prose/reference union and incoming-link audit remain. Source retained.",
-      "source_retired": false
+      "remaining_work": "Source content union passed for all three model-row subsets, prose and external URLs. Incoming links remain; retain source. Other shared-source preservation and technical gaps still pending.",
+      "source_retired": false,
+      "prose_union": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-floorboard-union",
+        "destinations": [
+          "VALETON.md",
+          "SONICAKE.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "paragraph_groups": 6,
+        "external_urls": 4,
+        "model_manifests": 3,
+        "model_fields": 42,
+        "normalization": "Resolve reference-style links and normalize local paths to root; all remaining prose retained verbatim.",
+        "source_retired": false
+      },
+      "incoming_link_check": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-legacy",
+        "source_sha256": "da7a4cecc79f01e332c524570eb53e061722b6eac55b86455993c95c6cc043e4",
+        "incoming": [
+          {
+            "source": "effects/COVERAGE.history-2026-10-14.md",
+            "link": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/README.md",
+            "link": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/advanced-modelers.md",
+            "link": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/bass.md",
+            "link": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/guitar-boss.history-2026-10-14.md",
+            "link": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/guitar-compact.md",
+            "link": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/guitar-nux.md",
+            "link": "guitar-floorboards.md"
+          },
+          {
+            "source": "effects/specialist.md",
+            "link": "guitar-floorboards.md"
+          }
+        ],
+        "occurrences": 8,
+        "retirement_authorized": false,
+        "limitation": "Lexical Markdown file-link scan, not anchor/HTML/code certification."
+      }
     }
   },
   "deferred_work": {
