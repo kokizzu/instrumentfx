@@ -1211,3 +1211,7 @@ research-commit-b2-followup:
 .PHONY: research-commit-me50
 research-commit-me50:
 	python3 scripts/research_tools.py commit-me50
+
+.PHONY: research-commit-me20b
+research-commit-me20b:
+	python3 scripts/research_tools.py commit-me20b

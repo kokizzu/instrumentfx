@@ -1729,3 +1729,44 @@ Remaining: simultaneous ceiling, complete chain/visual corroboration, connector 
 [M50-P]: https://www.boss.info/global/products/me-50/specifications/
 [M50-J]: https://www.boss.info/jp/products/me-50/
 [M50-M]: https://static.roland.com/assets/media/pdf/ME-50_OM.pdf
+
+## ME-20B
+
+Bass-focused multi-effects; not guitar ME-20. Checked2026-10-17; partial. Ownership unestablished. Shopee lead remains search-only and is not an exact qualified price.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in expression pedal; external/toe behavior pending. | [Product][M20B-P] |
+| K/F/B | Five realtime knobs, three main footswitches; buttons and additional switches pending enumeration. | [Product][M20B-P] |
+| Display | Two-character seven-segment LED. Diagonal/colour/touch unverified. | [Product][M20B-P] |
+| Dimensions / mass | 294W×179D×54H mm; maximum height74mm;1.6kg including batteries. Medium footprint. | [Manual p37][M20B-M] |
+| Processing / categories | SFX5, COMP/DRIVE6, DELAY/MOD7 choices. Combined CHO+DELAY is one choice; categories are not a verified simultaneous-effect ceiling. EQ, wah, NS and Bass Enhance also documented; full chain/capacity pending. | [Manual pp17–21,33][M20B-M] |
+| Factory / user memory | 30 user locations; factory-filled count and total-memory interpretation pending. | [Product][M20B-P] |
+| Synth / acoustic | SYNTH1/2 offer light/heavy filtering in COMP/DRIVE; DEFRETTER in SFX. Acoustic simulator unverified; defretting is not acoustic-body modeling. | [Manual pp17–18,33][M20B-M] |
+| I/O | Quarter-inch INPUT; L/MONO,R outputs; stereo-mini AUX; stereo quarter-inch PHONES; quarter-inch TRS FOOT SW; DC. USB/MIDI/audio-interface scope unverified. | [Product][M20B-P] |
+| External control | FS-5U/FS-6/FS-7 and PCS-31 listed options; Bass Enhance can use optional pedal. Detailed mode assignments pending. | [Product][M20B-P] |
+| Analog conversion | 24-bit+AF A/D,24-bit D/A,44.1kHz. | [Product][M20B-P] |
+| Power / battery / USB | 9V DC,90mA; six R6/LR6 AA or optional PSA adapter. Approx13h alkaline/3.5h carbon. Polarity and USB power unverified. | [Product][M20B-P] |
+| IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
+| Editor / platforms | Full patch editor, driver/updater and mobile support unestablished. No software downloaded. | Unresolved |
+| Looper / drums / live | EZ Edit combines parameters; Bass Enhance boosts dynamics. Looper, drums, scenes, trails and routing restrictions pending. | [Product][M20B-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no exact seller/item offer resolved. | — |
+| New | Unknown; no exact qualified retail offer. | — |
+
+<!-- comparison evidence ends -->
+
+### Unresolved Shopee discovery lead
+
+Checked2026-10-17: [Shopee search page](https://shopee.co.id/search?category=11043572&keyword=gitar+boss&subcategory=11043648) lists “Efeck Gitar Bass BOSS ME20B 2nd like New”, Rp2,300,000, Bogor. The page exposes a product anchor, but repeated click retrieval returns Internal Error without resolving its target; seller/item IDs and selected variant remain unknown. Used-condition language is title-only; stock, working state, adapter/bundle, warranty, shipping/tax/voucher and final total unknown. This is a lead, excluded from used/new comparison prices. Earlier search-only lead retained in research-state.json; no market-coverage claim.
+
+Remaining: complete physical controls/expression, processing ceiling/chain, factory fill, display details, DC polarity, USB/import/software scope and qualified exact offers. Original manual©2007 identity checked through browser; no documents or dependencies downloaded to workspace.
+
+[M20B-P]: https://www.boss.info/global/products/me-20b/
+[M20B-M]: https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf
