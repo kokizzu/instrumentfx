@@ -7,8 +7,8 @@
   "active_model_count": 124,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 65,
-  "legacy_only_model_count": 59,
+  "canonical_root_model_count": 66,
+  "legacy_only_model_count": 58,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,13 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GX-1B",
+    "model": "BOSS ME-90B",
     "destination": "BOSS.md",
-    "task": "Read complete bass and all supporting sources;verify model-specific official manual/Shopee offers,consolidate losslessly,commit before ME-90B.",
-    "next_models": [
-      "BOSS ME-90B"
-    ],
-    "after_queue": "Continue59 legacy-only records and unresolved checks;fresh Shopee discovery remains required."
+    "task": "Read complete bass comparison and all supporting sources;verify model-specific official manual and exact Shopee hardware offers;consolidate losslessly and commit.",
+    "next_models": [],
+    "after_queue": "Continue58 legacy-only models and unresolved checks;fresh Shopee discovery remains required."
   },
   "new_findings": [
     {
@@ -1471,7 +1469,122 @@
       "retained_source_urls": [
         "https://www.boss.info/global/products/gt-1b/specifications/"
       ],
-      "status": "All15 original fields preserved;display/toe/198memories/FX independence checked;two indexed exact IDR asks;partial verification"
+      "status": "All15 original fields preserved;display/toe/198memories/FX independence checked;two indexed exact IDR asks;partial verification",
+      "commit": "bf2c785"
+    },
+    {
+      "models": [
+        "BOSS GX-1B"
+      ],
+      "model_name": "GX-1B",
+      "brand": "BOSS",
+      "destination": "BOSS.md#gx-1b",
+      "source": "effects/bass.md",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-model-rows-v1",
+      "source_sha256": "757f426d9a03ff1fd2fef266c9a2ebecd50a0d0d1254862868dfaa1d130aea11",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "Shared CTL/EXP; wireless control supported",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "K/F/B",
+          "value": "3/3/14 + toe",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "W×D×H, mm; weight",
+          "value": "307×149×56, max H73; 1.2 kg",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Size class",
+          "value": "Large by this filter",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Used USD",
+          "value": "?",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "New USD observation",
+          "value": "$229.99, GC [P2]; $225, Thomann [P1]",
+          "source": "effects/bass.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Maximum simultaneous blocks; categories / choices",
+          "value": "8 + volume + noise suppression; 16 bass amps; 135 effect types",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Factory / user memory",
+          "value": "99 P + 99 U",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic",
+          "value": "Exact synth/acoustic algorithms ?",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Third-party IR",
+          "value": "WAV speaker IR loading; capacity ?",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "NAM",
+          "value": "Not established",
+          "source": "effects/bass.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Audio / control ports",
+          "value": "¼″ input; 2×¼″ out; 3.5 mm phones; CTL/EXP; USB-C",
+          "source": "effects/bass.md",
+          "context": "I/O, power, apps and stage features"
+        },
+        {
+          "field": "Power; USB bus operation",
+          "value": "4 AA, PSA adapter **or USB bus**; 250mA DC/battery, 400mA USB",
+          "source": "effects/bass.md",
+          "context": "I/O, power, apps and stage features"
+        },
+        {
+          "field": "Configuration apps",
+          "value": "BOSS Tone Studio Windows/macOS/iOS/Android; built-in Bluetooth",
+          "source": "effects/bass.md",
+          "context": "I/O, power, apps and stage features"
+        },
+        {
+          "field": "Other important features",
+          "value": "USB audio; 38 s mono/19 s stereo looper; wireless MIDI-control options",
+          "source": "effects/bass.md",
+          "context": "I/O, power, apps and stage features"
+        }
+      ],
+      "retained_context": [
+        "Checked **2026-10-14**. Records are **partial**, not certifications that every field is complete. `?` = unverified, not No. Dimensions are **width × depth × height, mm**. `K/F/B` = rotary controls / footswitches / separate buttons; toe switches are additional. Prices below are **USD** seller observations, excluding destination tax/shipping. A missing used price is not estimated from the new price.",
+        "Do not interpret the lower international new price versus a US used ask as an error or an arbitrage guarantee: markets, taxes, warranty regions, shipping, listing age and conditions differ. The used ME-90B observations are indexed listings, not confirmed completed sales."
+      ],
+      "retained_source_urls": [
+        "https://www.boss.info/global/products/gx-1b/specifications/",
+        "https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc",
+        "https://www.thomannmusic.com/zoom_b6.htm"
+      ],
+      "status": "Complete15 legacy fields;IR8slots/formats,synth/acoustic,40FXfamilies/carryover/power priority checked;two exact IDR items with cache conflicts;partial"
     }
   ],
   "discovery_leads": [
@@ -1782,7 +1895,8 @@
       "CUBE BABY BASS"
     ],
     "BOSS.md": [
-      "GT-1B"
+      "GT-1B",
+      "GX-1B"
     ]
   },
   "instrument_views": {
@@ -1820,7 +1934,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:104 guitar,54 documented bass-capable,17 vocal; full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "59 legacy-only records remain;65 root-canonical. Migration and research incomplete.",
+    "warning": "58 legacy-only models remain;66 root-canonical. Research/migration incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -1890,8 +2004,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 124,
-    "canonical_root_models": 65,
-    "legacy_only_models": 59,
+    "canonical_root_models": 66,
+    "legacy_only_models": 58,
     "guitar_view_models": 104,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -1908,7 +2022,7 @@
       "make comparison-verify",
       "make research-verify",
       "make consolidation-verify",
-      "GT-1B four actual rows reviewed:15 original fields,132x32 LCD,toe control,198totalmemories,FX1/FX2 independence,two exact cached asks,unknown used price separate."
+      "GX-1B all four comparison rows reviewed:15 original facts,IR8slots/formats,AC BASS/synth,carryover restrictions,USB priority,two exact IDR items with conflicts and used unknown separate."
     ],
     "distinct_capability_labels": "IR and NAM remain separate even when both have the identical Not established value; actual B1X comparison checked."
   },
@@ -1923,7 +2037,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Continue BOSS GX-1B,then ME-90B;59 legacy-only profiles remain."
+    "next": "Continue BOSS ME-90B;58 legacy-only models remain."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -2292,9 +2406,9 @@
       "finding_files": []
     },
     "BOSS::GX-1B": {
-      "link": "effects/bass.md",
+      "link": "BOSS.md#gx-1b",
       "source_files": [
-        "effects/bass.md"
+        "BOSS.md"
       ],
       "finding_files": []
     },

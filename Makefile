@@ -145,3 +145,7 @@ consolidation-commit-v6-sp:
 .PHONY: consolidation-commit-gt-1b
 consolidation-commit-gt-1b:
 	python3 scripts/consolidation_tools.py commit gt-1b
+
+.PHONY: consolidation-commit-gx-1b
+consolidation-commit-gx-1b:
+	python3 scripts/consolidation_tools.py commit gx-1b
