@@ -367,7 +367,7 @@ def main():
         if mode == 'commit-ax1500g':
             message = 'research(korg): enumerate AX1500G blocks and verify volatile phrase storage'
         if mode == 'commit-rp255':
-            message = 'research(digitech): reconcile RP255 named FX choices and retain manual conflicts'
+            message = 'research(digitech): include qualified RP255 historical hardware offer in comparison'
         if mode == 'commit-gt8':
             message = 'research(boss): verify GT-8 category choices shared custom settings and MIDI backups'
         if mode == 'commit-gt10':

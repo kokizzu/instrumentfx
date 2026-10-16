@@ -70,6 +70,7 @@ Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; part
 |---|---|---|
 | Used | Unknown; exact page lacks condition confirmation. | — |
 | New | Unknown; exact page lacks condition confirmation. | — |
+| Conditional historical observation | **Rp1,700,000**, Ch.storee, Kab. Pekalongan, shop120981304/item17884883872; checked2026-10-17, exact HTML opened with stale August delivery. Condition, selected variant, adapter/bundle, working state, warranty and stock unverified. Late-arrival Rp10,000 compensation is not hardware discount; shipping/tax/checkout total unknown. Not a confirmed new/used offer or live-stock check. | [Exact item](https://shopee.co.id/DIGITECH-RP255-i.120981304.17884883872) |
 
 <!-- comparison evidence ends -->
 
