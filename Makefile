@@ -229,3 +229,11 @@ consolidation-apply-hx-stomp-xl:
 	python3 scripts/consolidation_tools.py apply hx-stomp-xl
 consolidation-commit-hx-stomp-xl:
 	python3 scripts/consolidation_tools.py commit hx-stomp-xl
+
+.PHONY: consolidation-plan-ampero-mini consolidation-apply-ampero-mini consolidation-commit-ampero-mini
+consolidation-plan-ampero-mini:
+	python3 scripts/consolidation_tools.py plan ampero-mini
+consolidation-apply-ampero-mini:
+	python3 scripts/consolidation_tools.py apply ampero-mini
+consolidation-commit-ampero-mini:
+	python3 scripts/consolidation_tools.py commit ampero-mini

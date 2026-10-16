@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'ampero-mini': ('Ampero Mini MP-50', 'effects/findings/2026-10-14-hotone-ampero-mini.md'),
     'hx-stomp-xl': ('HX Stomp XL', 'effects/findings/2026-10-14-line6-hx-stomp-xl.md'),
     'g6': ('G6', 'effects/findings/2026-10-15-zoom-g6.md'),
     'g1-four': ('G1 FOUR', 'effects/findings/2026-10-14-zoom-g1-four.md'),
@@ -111,8 +112,8 @@ def verify_preserved(state):
 def plan(model_id):
     research_tools.identity()
     model, source_path = MODELS[model_id]
-    brand = 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
-    brand_file = 'LINE6.md' if brand == 'Line 6' else 'ZOOM.md'
+    brand = 'Hotone' if model_id == 'ampero-mini' else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
+    brand_file = {'Hotone':'HOTONE.md','Line 6':'LINE6.md','Zoom':'ZOOM.md'}[brand]
     state = json.loads((ROOT / 'research-state.json').read_text())
     assert model not in state['root_brand_content'][brand_file], 'Already consolidated'
     comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
@@ -120,11 +121,14 @@ def plan(model_id):
     record = comparison['records'][brand + '::' + model]
     assert record['link'] == source_path
     source = (ROOT / source_path).read_text()
-    prefix = ('LINE6-' if brand == 'Line 6' else 'ZOOM-') + model_id.upper()
+    prefix = brand_file.removesuffix('.md') + '-' + model_id.upper()
     body, refs = preserved_body(source, prefix)
     extra = [f for f in record['facts'] if f['source'] != source_path]
     shared = sorted({f['source'] for f in extra})
     zoom = (ROOT / brand_file).read_text()
+    if model_id == 'ampero-mini':
+        zoom = zoom.replace('The five already-researched Hotone models still require complete consolidation', 'Four other already-researched Hotone models still require complete consolidation')
+        zoom = zoom.replace('Already-researched Ampero Mini MP-50,Ampero MP-100,', 'Already-researched Ampero MP-100,')
     zoom = re.sub(r'^The existing .+$', lambda m: m[0].replace(model + ',', '').replace(',' + model + ' records', ' records'), zoom, flags=re.M)
     section = '\n## ' + model + '\n\n'
     section += 'Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.\n\n'
@@ -181,11 +185,11 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('hotone' if model_id == 'ampero-mini' else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':

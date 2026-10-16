@@ -1,6 +1,6 @@
 # Hotone multi-effects
 
-Root-level canonical brand document. **Checked2026-10-15.** Ampero One MP-80 is a new record. The five already-researched Hotone models still require complete consolidation from their legacy records; they must not be counted again or discarded. No GitHub workflows are used.
+Root-level canonical brand document. **Checked2026-10-15.** Ampero One MP-80 is a new record. Four other already-researched Hotone models still require complete consolidation from their legacy records; they must not be counted again or discarded. No GitHub workflows are used.
 
 ## Ampero One MP-80
 
@@ -58,4 +58,71 @@ These are individual asking observations,not a current market range or completed
 
 ## Existing Hotone records awaiting complete consolidation
 
-Already-researched Ampero Mini MP-50,Ampero MP-100,Ampero II Stomp MP-300,Ampero II MP-350 and Ampero II Stage MP-380 remain in their legacy source records. They are not new models. Merge their complete details,sources,price qualifications and firmware conflicts here before retiring the originals. The root brand migration is not finished merely because this MP-80 entry exists.
+Already-researched Ampero MP-100,Ampero II Stomp MP-300,Ampero II MP-350 and Ampero II Stage MP-380 remain in their legacy source records. They are not new models. Merge their complete details,sources,price qualifications and firmware conflicts here before retiring the originals. The root brand migration is not finished merely because this MP-80 entry exists.
+
+## Ampero Mini MP-50
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- HOTONE-AMPERO-MINI source begins -->
+
+Checked **2026-10-14**. **Partial new record.** [Manufacturer product page][HOTONE-AMPERO-MINI-P] supplies the specifications below; [official front image][HOTONE-AMPERO-MINI-I] confirms the two footswitches. Do not substitute Ampero One or a larger Ampero model.
+
+| Field | Established / unknown |
+|---|---|
+| Expression | No built-in pedal; external TRS expression/footswitch input |
+| Controls | Rotary total **?**; **2 footswitches**; zero separate front-panel buttons; rear controls need complete review |
+| Screen | Manufacturer publishes **4-inch, 800×480, color touchscreen**; yes to touch; not photo-measured |
+| Dimensions / weight | **134×120×49 mm; 529 g**; compact |
+| Processing | **9 simultaneous modules; 199 effects**; per-category counts pending |
+| Presets | **99 factory +99 user** |
+| Synth / acoustic | Synth ?; **electric-to-acoustic simulation yes**, steel/nylon examples |
+| Audio/control | ¼-inch TS input; ⅛-inch stereo aux; ¼-inch TRS external control; single ¼-inch TRS stereo output; ⅛-inch headphones; USB-C |
+| Power | **9 V center-negative, 500 mA maximum**; battery/USB bus operation unverified |
+| IR / NAM | Third-party IR: mono WAV **24-bit/44.1 kHz, 1024 points**, capacity ?; NAM unverified |
+| Editor | **Windows/macOS**; mobile USB audio is not a mobile editor |
+| Extras | USB audio; looper **100 s mono /50 s stereo**; **100 rhythms** |
+
+### Shopee Indonesia observations
+
+| Condition / availability | IDR ask | Source |
+|---|---:|---|
+| Retail, Purple Taro variant with adapter in title; stock unconfirmed | **Rp4.315.000** | [Item 21384344851][HOTONE-AMPERO-MINI-S1] |
+| Retail, **sold out** in search evidence | **Rp3.250.000** | [Item 48456875050][HOTONE-AMPERO-MINI-S2] |
+| Explicit **PRELOVED**, **sold out** | **Rp2.800.000** | [Item 46555574691][HOTONE-AMPERO-MINI-S3] |
+
+These are separate indexed observations, not a market range or completed sales. Do not compare a sold-out used ask with an active-delivered new quote without preserving availability and variant. Seller authenticity, checkout stock, warranty and shipping remain unverified.
+
+[HOTONE-AMPERO-MINI-P]: https://www.hotone.com/products/multi-effects/Ampero%20Mini
+[HOTONE-AMPERO-MINI-I]: https://hotoneaudio.oss-cn-shenzhen.aliyuncs.com/prod/default/U%20Picture%20For%20Page%204_New%20Product%20Introduction_Ampero%20Mini_V01_230529.1685440379045.jpg
+[HOTONE-AMPERO-MINI-S1]: https://shopee.co.id/Multi-Efek-Pedal-Hotone-Ampero-Mini-MP-50PT-w-9V-adapter-Purple-Taro-i.306155985.21384344851
+[HOTONE-AMPERO-MINI-S2]: https://shopee.co.id/HOTONE-AMPERO-MINI-EFEK-GITAR-PEDAL-DIGITAL-MULTIEFEK-ONE-EFX-GUITAR-i.171167271.48456875050
+[HOTONE-AMPERO-MINI-S3]: https://shopee.co.id/HOTONE-AMPERO-MINI-PRELOVED-i.87936304.46555574691
+
+**Next:** verify rear rotary controls, algorithm breakdown, IR capacity and current listing condition/stock. The published screen specification is retained as a manufacturer claim, not an independently measured diagonal.
+<!-- HOTONE-AMPERO-MINI source ends -->
+
+### Ampero Mini MP-50 — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **External expression** (No built-in expression): Yes, EXP/FS
+- **K/F/B** (No built-in expression): ?/2/0 front buttons
+- **Dimensions; weight** (No built-in expression): 134×120×49; 529 g
+- **Size** (No built-in expression): Compact
+- **Used IDR** (No built-in expression): **Rp2.800.000, PRELOVED, sold out**
+- **Retail IDR observation** (No built-in expression): Rp4.315.000, Purple Taro + adapter; unconfirmed stock; separate Rp3.250.000 sold-out ask
+- **Display type** (2. Displays): Manufacturer specifies 800×480
+- **Diagonal** (2. Displays): **4**
+- **Monochrome / color** (2. Displays): Color
+- **Touch** (2. Displays): **Yes**
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 9 simultaneous modules; 199 effects; category counts ?
+- **Preset storage** (3. Processing, presets and loading): 99 factory +99 user
+- **Acoustic simulation / synth** (3. Processing, presets and loading): **Electric-to-acoustic yes** / synth ?
+- **IR / NAM** (3. Processing, presets and loading): User mono WAV 24-bit/44.1 kHz/1024; slot count ?, NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch TS input; ⅛-inch aux; TRS EXP/FS; single ¼-inch TRS stereo output; ⅛-inch headphones; USB-C
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative,500mA maximum**; battery/USB power ?
+- **Configuration apps** (5. Power, software and practice/live features): Windows/macOS editor
+- **Other documented functions** (5. Power, software and practice/live features): USB audio;100 s mono/50 s stereo looper;100 rhythms
+
+Sources: [effects/findings/2026-10-14-hotone-ampero-mini.md](effects/findings/2026-10-14-hotone-ampero-mini.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
