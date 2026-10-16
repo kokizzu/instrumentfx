@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-VK primary follow-up",
-    "task": "Initial vocal-only profile saved;official indexed pp4/12 and identity-checked2017 mirror. Next read complete manual for I/O,audio channel mappings,controls,power and effect styles;commit before VG lead.",
+    "task": "PERFORM-VK USB map,AUXpriority/latency and temporary routing now saved;retain duplicateINST IN R andXLR/MicOut manual ambiguities. Next enumerate styles/presets/gain from complete mirror,then verify physical I/O/power/controls;commit before VG.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -2867,7 +2867,36 @@
         "USB driver platform/revision scope and audio mapping details",
         "IR/NAM/capture/current editor",
         "Qualified used/new offers"
-      ]
+      ],
+      "usb_routing_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://www.manualslib.com/guide/3106539/tc-helicon-perform-vk-ultimate-mic-stand-mount-vocal-processor-manual.html",
+        "sections": [
+          "USB Audio",
+          "RoomSense",
+          "AUX Input",
+          "Aux to Main Out",
+          "Talk"
+        ],
+        "resolved": [
+          "USB playback analog-only,excluded capture",
+          "NaturalPlay silent guide",
+          "USB3 analog fallback",
+          "AUX delayed only absent MIDI/INST guidance",
+          "MIDI/INST detection priority",
+          "Temporary AUX main-output exclusion",
+          "RoomSense practice mutes mains"
+        ],
+        "conflicts": [
+          "DryUSB5and6 both printedINST IN R;not silently corrected",
+          "TalkXLR claim vsRoomSense explicit noMicOut;physical connector unresolved"
+        ],
+        "remaining": [
+          "Styles/preset/gain details already readable;save next",
+          "Physical I/O,power/dimensions,controls/display",
+          "Driver platform/revision scope"
+        ]
+      }
     }
   ],
   "consolidation_and_price_findings": [

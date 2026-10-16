@@ -303,7 +303,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-perform-vk':
-            message = 'research(tc-helicon): add PERFORM-VK with model-specific USB and vocal evidence'
+            message = 'research(tc-helicon): verify PERFORM-VK USB and AUX routing limits'
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): document PERFORM-V controls and microphone remote modes'
         if mode == 'commit-stomplab2b':
