@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'gp-150': ('GP-150', 'effects/findings/2026-10-14-valeton-gp-150.md'),
     'gp-100': ('GP-100', 'effects/findings/2026-10-14-valeton-gp-100.md'),
     'ge1000-li': ('GE1000 Li', 'effects/findings/2026-10-15-mooer-ge1000-li.md'),
     'ge1000': ('GE1000', 'effects/findings/2026-10-14-mooer-ge1000.md'),
@@ -132,7 +133,7 @@ def verify_preserved(state):
 def plan(model_id):
     research_tools.identity()
     model, source_path = MODELS[model_id]
-    brand = 'Valeton' if model_id == 'gp-100' else 'MOOER' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'Hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
+    brand = 'Valeton' if model_id in ('gp-100', 'gp-150') else 'MOOER' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'Hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
     brand_file = {'Valeton':'VALETON.md','MOOER':'MOOER.md','Hotone':'HOTONE.md','Line 6':'LINE6.md','Zoom':'ZOOM.md'}[brand]
     state = json.loads((ROOT / 'research-state.json').read_text())
     assert model not in state['root_brand_content'][brand_file], 'Already consolidated'
@@ -160,7 +161,7 @@ def plan(model_id):
         link_normalizations = {'(2026-10-14-mooer-ge1000.md)':'(MOOER.md#ge1000)'}
         for old, new in link_normalizations.items():
             body = body.replace(old, new)
-    if model_id == 'gp-100':
+    if model_id in ('gp-100', 'gp-150'):
         link_normalizations = {'(../guitar-compact.md)':'(effects/guitar-compact.md)', '(../RESUME.md)':'(effects/RESUME.md)'}
         for old, new in link_normalizations.items():
             body = body.replace(old, new)
@@ -213,8 +214,10 @@ def plan(model_id):
         zoom = zoom.replace('Two previously researched GE models still require complete consolidation; the original GE models and consolidated Max/Plus/Pro variants are below.', 'GE1000 Li is the remaining previously researched GE model awaiting complete consolidation; other recorded MOOER models are consolidated below.')
     if model_id == 'ge1000-li':
         zoom = zoom.replace('GE1000 Li is the remaining previously researched GE model awaiting complete consolidation; other recorded MOOER models are consolidated below.', 'All eighteen recorded MOOER models have root records below; technical verification and market discovery remain incomplete. Original legacy sources are retained.')
-    if model_id == 'gp-100':
+    if model_id in ('gp-100', 'gp-150'):
         zoom = zoom.replace('Existing GP-5/50/100/150/180/200 records remain', 'Existing GP-5/50/150/180/200 records remain')
+        if model_id == 'gp-150':
+            zoom = zoom.replace('Existing GP-5/50/150/180/200 records remain', 'Existing GP-5/50/180/200 records remain')
     zoom = re.sub(r'^The existing .+$', lambda m: m[0].replace(model + ',', '').replace(',' + model + ' records', ' records'), zoom, flags=re.M)
     section = '\n## ' + model + '\n\n'
     section += 'Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.\n\n'
@@ -231,15 +234,18 @@ def plan(model_id):
     section += 'The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.\n\n'
     for fact in extra:
         section += '- **' + fact['field'] + '** (' + fact['context'] + '): ' + fact['value'] + '\n'
-    if model_id == 'gp-100':
-        section += '\n### GP-100 comparison fields from retained snapshot\n\n| Field | Dated evidence |\n|---|---|\n'
+    if model_id in ('gp-100', 'gp-150'):
+        section += '\n### ' + model + ' comparison fields from retained snapshot\n\n| Field | Dated evidence |\n|---|---|\n'
         for fact in extra:
             if 'Archived foreign' not in fact['context']:
-                section += '| ' + fact['field'] + ' | ' + fact['value'].replace('[F100]', '[detail](VALETON.md#gp-100)') + ' |\n'
+                section += '| ' + fact['field'] + ' | ' + fact['value'].replace('[F100]', '[detail](VALETON.md#gp-100)').replace('[F150]', '[detail](VALETON.md#gp-150)').replace('[controls]', '[controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png)') + ' |\n'
         shared_text = (ROOT / shared[0]).read_text()
         contexts = [p for p in shared_text.split('\n\n') if p.startswith('*GP-100 height') or p.startswith('GP-100\'s checked firmware') or p.startswith('These earlier observations were recorded') or p.startswith('P2 separately listed')]
         urls = ['https://www.guitarcenter.com/Valeton/Used-Valeton-GP-100-Effect-Processor-122531515.gc','https://www.thomannmusic.com/valeton_gp_100.htm','https://nafiriguitar.com/products/valeton-gp-100-multi-effects-processor']
-        section += '\n'+'\n\n'.join(contexts)+'\n\nHistorical GP-100 source URLs: '+', '.join(urls)+'\n'
+        if model_id == 'gp-150':
+            contexts = [p for p in shared_text.split('\n\n') if p.startswith('*GP-100 height') or p.startswith('GP-150/180 documentation') or p.startswith('These earlier observations were recorded') or p.startswith('Prices are individual asking/listed observations')]
+            urls = ['https://shop.valeton.net/products/gp-150','https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png']
+        section += '\n'+'\n\n'.join(contexts)+'\n\nHistorical ' + model + ' source URLs: '+', '.join(urls)+'\n'
     section += '\nSources: ' + ', '.join('[' + p + '](' + p + ')' for p in [source_path] + shared) + '. No legacy file was deleted.\n'
     state['root_brand_content'][brand_file].append(model)
     old_count = state['canonical_root_model_count']
@@ -250,7 +256,7 @@ def plan(model_id):
                  checked_date='2026-10-17', verification_kind='complete-source-body-v1', marker=prefix,
                  source_sha256=digest(source), renamed_references=refs, retained_comparison_facts=extra,
                  link_normalizations=link_normalizations, supporting_sources=shared, status='Consolidated; technical verification remains partial')
-    if model_id == 'gp-100':
+    if model_id in ('gp-100', 'gp-150'):
         entry.update(retained_context=contexts,retained_source_urls=urls,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared})
     state['consolidation_and_price_findings'].append(entry)
     state['migration']['warning'] = f"{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete."
@@ -295,7 +301,7 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('valeton' if model_id == 'gp-100' else 'mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('valeton' if model_id in ('gp-100', 'gp-150') else 'mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':

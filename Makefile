@@ -397,3 +397,11 @@ consolidation-apply-gp-100:
 	python3 scripts/consolidation_tools.py apply gp-100
 consolidation-commit-gp-100:
 	python3 scripts/consolidation_tools.py commit gp-100
+
+.PHONY: consolidation-plan-gp-150 consolidation-apply-gp-150 consolidation-commit-gp-150
+consolidation-plan-gp-150:
+	python3 scripts/consolidation_tools.py plan gp-150
+consolidation-apply-gp-150:
+	python3 scripts/consolidation_tools.py apply gp-150
+consolidation-commit-gp-150:
+	python3 scripts/consolidation_tools.py commit gp-150

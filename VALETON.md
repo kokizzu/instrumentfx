@@ -1,6 +1,6 @@
 # Valeton multi-effects
 
-Root-level brand records. New evidence checked **2026-10-15**. Existing GP-5/50/150/180/200 records remain in legacy files until their complete source-backed content is consolidated here; they are not counted again or deleted by this addition.
+Root-level brand records. New evidence checked **2026-10-15**. Existing GP-5/50/180/200 records remain in legacy files until their complete source-backed content is consolidated here; they are not counted again or deleted by this addition.
 
 ## GP-200LT
 
@@ -198,3 +198,99 @@ P2 separately listed USD102 B-stock; that is not used-price evidence. P5 contain
 Historical GP-100 source URLs: https://www.guitarcenter.com/Valeton/Used-Valeton-GP-100-Effect-Processor-122531515.gc, https://www.thomannmusic.com/valeton_gp_100.htm, https://nafiriguitar.com/products/valeton-gp-100-multi-effects-processor
 
 Sources: [effects/findings/2026-10-14-valeton-gp-100.md](effects/findings/2026-10-14-valeton-gp-100.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+
+## GP-150
+
+Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- VALETON-GP-150 source begins -->
+
+Research date: **2026-10-14**. Existing model; inventory count unchanged. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+
+### Display
+
+The [manufacturer's product page](https://www.valeton.net/product/gp-150/) explicitly specifies **one 2.4-inch HD color LCD**. The [manufacturer's GP-150/GP-180 comparison graphic](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) independently corroborates the display size/type and differentiates the hardware controls.
+
+**Touchscreen: unverified.** The page describes knob/button interaction and uses drag-and-drop routing language. That language alone is not evidence that the physical screen senses touch. No numerical pixel resolution is inferred from the word HD.
+
+Keep the existing distinction between built-in expression and the shared external EXP/FS/MIDI connection. This display check does not certify every remaining field or all firmware-dependent algorithms.
+
+### Indonesian prices
+
+[Salomo Musik's exact GP-150 listing](https://www.salomomusik.com/product/valeton-gp-150) shows a current listed price of **Rp2.950.000**, separately from the higher Rp3.352.000 comparison price. The retrieved page reports **17 in stock**; this is the seller's displayed inventory, not checkout-confirmed availability. Additional wooden packing is charged separately.
+
+| Used IDR | New IDR | Basis |
+|---|---|---|
+| **?** | **Rp2.950.000** | One Indonesian retailer observation, checked 2026-10-14; no exchange rate used. |
+
+No dependable local used offer was established. Delivery, final tax treatment and included accessories are not assumed. The earlier USD169.99 official-shop quote is retained only as dated foreign-price provenance, not converted using an assumed exchange rate.
+
+### Remaining work / next checkpoint
+
+Explicit touch capability, complete effects-by-category counts and used-price evidence remain unresolved. Next model in the saved compact-page review: **Sonicake Matribox QME-50**.
+<!-- VALETON-GP-150 source ends -->
+
+### GP-150 — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **Display** (1. Displays): HD LCD
+- **Diagonal, inches** (1. Displays): 2.4
+- **Monochrome / color** (1. Displays): Color
+- **Touchscreen** (1. Displays): ?
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer specification; drag-and-drop wording is not touch proof](effects/findings/2026-10-14-valeton-gp-150.md)
+- **Built-in / external expression** (Built-in expression pedal): Yes / EXP/FS
+- **K/F/B** (Built-in expression pedal): 5/2/6 [controls]
+- **Width × depth × height, mm** (Built-in expression pedal): 200 × 139 × 55
+- **Weight** (Built-in expression pedal): 958 g
+- **Used IDR observation** (Built-in expression pedal): ?
+- **New / retail IDR observation** (Built-in expression pedal): **Rp2.950.000**, Salomo; page reports 17 in stock [F150]
+- **Simultaneous blocks / categories and choices** (3. Processing, memory, IR and NAM): 12 reorderable blocks; 200+ effects; per-category counts ?
+- **Presets and user storage** (3. Processing, memory, IR and NAM): 200 total, 100 factory-filled; factory mix 85 guitar / 10 bass / 5 acoustic
+- **Synth / acoustic functions** (3. Processing, memory, IR and NAM): Acoustic presets documented, not proof of a specific simulator; synth ?
+- **Third-party IR** (3. Processing, memory, IR and NAM): 20, 1024/2048 samples
+- **NAM / captured models** (3. Processing, memory, IR and NAM): **SnapTone conversion**, 100 model slots / 50 supplied; not labelled unrestricted native `.nam`
+- **Audio / control connections** (4. Connections, power, apps and practical differences): ¼″ input; **L TS unbalanced / R TRS balanced** outputs; 3.5 mm TRRS headset/mic; EXP/FS shared MIDI-in; USB-C
+- **Power and battery** (4. Connections, power, apps and practical differences): Rechargeable 3000 mAh/3.7 V; DC 9 V centre-negative and USB 5 V/PD charging; ≥1 A operating USB figure; see official charging/adapter requirements
+- **Configuration software** (4. Connections, power, apps and practical differences): Windows/macOS editor; iOS/Android via Bluetooth
+- **Other relevant features** (4. Connections, power, apps and practical differences): USB 6-in/4-out; 180 s looper; 100+ rhythms; no FX-loop claim
+- **Original used quote** (Archived foreign-price provenance — not the comparison currency): Unverified
+- **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD169.99
+- **Original evidence** (Archived foreign-price provenance — not the comparison currency): [P4]
+
+### GP-150 comparison fields from retained snapshot
+
+| Field | Dated evidence |
+|---|---|
+| Display | HD LCD |
+| Diagonal, inches | 2.4 |
+| Monochrome / color | Color |
+| Touchscreen | ? |
+| Evidence and remaining uncertainty | [Manufacturer specification; drag-and-drop wording is not touch proof](effects/findings/2026-10-14-valeton-gp-150.md) |
+| Built-in / external expression | Yes / EXP/FS |
+| K/F/B | 5/2/6 [controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
+| Width × depth × height, mm | 200 × 139 × 55 |
+| Weight | 958 g |
+| Used IDR observation | ? |
+| New / retail IDR observation | **Rp2.950.000**, Salomo; page reports 17 in stock [detail](VALETON.md#gp-150) |
+| Simultaneous blocks / categories and choices | 12 reorderable blocks; 200+ effects; per-category counts ? |
+| Presets and user storage | 200 total, 100 factory-filled; factory mix 85 guitar / 10 bass / 5 acoustic |
+| Synth / acoustic functions | Acoustic presets documented, not proof of a specific simulator; synth ? |
+| Third-party IR | 20, 1024/2048 samples |
+| NAM / captured models | **SnapTone conversion**, 100 model slots / 50 supplied; not labelled unrestricted native `.nam` |
+| Audio / control connections | ¼″ input; **L TS unbalanced / R TRS balanced** outputs; 3.5 mm TRRS headset/mic; EXP/FS shared MIDI-in; USB-C |
+| Power and battery | Rechargeable 3000 mAh/3.7 V; DC 9 V centre-negative and USB 5 V/PD charging; ≥1 A operating USB figure; see official charging/adapter requirements |
+| Configuration software | Windows/macOS editor; iOS/Android via Bluetooth |
+| Other relevant features | USB 6-in/4-out; 180 s looper; 100+ rhythms; no FX-loop claim |
+
+Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
+
+*GP-100 height is the manufacturer's published 28 mm figure; do not assume it includes maximum expression-pedal travel. GP-5 dimensions retain the manufacturer's width/depth labels rather than silently rotating the unit. GP-150's 200 × 139 mm fit leaves essentially no spare depth under this filter; cable clearance is additional.*
+
+GP-150/180 documentation distinguishes operating, charging and fast-charging current. A USB socket or under-rated charger should not be assumed sufficient for every operation. Manufacturer battery runtimes are not independent measurements.
+
+These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected.
+
+Historical GP-150 source URLs: https://shop.valeton.net/products/gp-150, https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png
+
+Sources: [effects/findings/2026-10-14-valeton-gp-150.md](effects/findings/2026-10-14-valeton-gp-150.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.

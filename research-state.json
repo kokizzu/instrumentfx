@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 105,
-  "legacy_only_model_count": 21,
+  "canonical_root_model_count": 106,
+  "legacy_only_model_count": 20,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -31,7 +31,7 @@
     "model": "Fresh Shopee discovery — no model selected",
     "task": "Continue fresh Shopee discovery by brand/series, lossless legacy consolidation and unresolved-field research; use current counts.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 21 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 20 legacy-only models."
   },
   "new_findings": [
     {
@@ -6733,6 +6733,181 @@
       "supporting_source_hashes": {
         "effects/guitar-compact.md": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc"
       }
+    },
+    {
+      "models": [
+        "Valeton GP-150"
+      ],
+      "model_name": "GP-150",
+      "brand": "Valeton",
+      "destination": "VALETON.md#gp-150",
+      "source": "effects/findings/2026-10-14-valeton-gp-150.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "VALETON-GP-150",
+      "source_sha256": "8478c0b9bf2c31cc47a650cc22c8840c97c4a96bf26e844027cf80de77b6c8e2",
+      "renamed_references": [],
+      "retained_comparison_facts": [
+        {
+          "field": "Display",
+          "value": "HD LCD",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Diagonal, inches",
+          "value": "2.4",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Monochrome / color",
+          "value": "Color",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Touchscreen",
+          "value": "?",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Evidence and remaining uncertainty",
+          "value": "[Manufacturer specification; drag-and-drop wording is not touch proof](effects/findings/2026-10-14-valeton-gp-150.md)",
+          "source": "effects/guitar-compact.md",
+          "context": "1. Displays"
+        },
+        {
+          "field": "Built-in / external expression",
+          "value": "Yes / EXP/FS",
+          "source": "effects/guitar-compact.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "K/F/B",
+          "value": "5/2/6 [controls]",
+          "source": "effects/guitar-compact.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Width × depth × height, mm",
+          "value": "200 × 139 × 55",
+          "source": "effects/guitar-compact.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Weight",
+          "value": "958 g",
+          "source": "effects/guitar-compact.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Used IDR observation",
+          "value": "?",
+          "source": "effects/guitar-compact.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "New / retail IDR observation",
+          "value": "**Rp2.950.000**, Salomo; page reports 17 in stock [F150]",
+          "source": "effects/guitar-compact.md",
+          "context": "Built-in expression pedal"
+        },
+        {
+          "field": "Simultaneous blocks / categories and choices",
+          "value": "12 reorderable blocks; 200+ effects; per-category counts ?",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Presets and user storage",
+          "value": "200 total, 100 factory-filled; factory mix 85 guitar / 10 bass / 5 acoustic",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Synth / acoustic functions",
+          "value": "Acoustic presets documented, not proof of a specific simulator; synth ?",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Third-party IR",
+          "value": "20, 1024/2048 samples",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "NAM / captured models",
+          "value": "**SnapTone conversion**, 100 model slots / 50 supplied; not labelled unrestricted native `.nam`",
+          "source": "effects/guitar-compact.md",
+          "context": "3. Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Audio / control connections",
+          "value": "¼″ input; **L TS unbalanced / R TRS balanced** outputs; 3.5 mm TRRS headset/mic; EXP/FS shared MIDI-in; USB-C",
+          "source": "effects/guitar-compact.md",
+          "context": "4. Connections, power, apps and practical differences"
+        },
+        {
+          "field": "Power and battery",
+          "value": "Rechargeable 3000 mAh/3.7 V; DC 9 V centre-negative and USB 5 V/PD charging; ≥1 A operating USB figure; see official charging/adapter requirements",
+          "source": "effects/guitar-compact.md",
+          "context": "4. Connections, power, apps and practical differences"
+        },
+        {
+          "field": "Configuration software",
+          "value": "Windows/macOS editor; iOS/Android via Bluetooth",
+          "source": "effects/guitar-compact.md",
+          "context": "4. Connections, power, apps and practical differences"
+        },
+        {
+          "field": "Other relevant features",
+          "value": "USB 6-in/4-out; 180 s looper; 100+ rhythms; no FX-loop claim",
+          "source": "effects/guitar-compact.md",
+          "context": "4. Connections, power, apps and practical differences"
+        },
+        {
+          "field": "Original used quote",
+          "value": "Unverified",
+          "source": "effects/guitar-compact.md",
+          "context": "Archived foreign-price provenance — not the comparison currency"
+        },
+        {
+          "field": "Original new quote",
+          "value": "USD169.99",
+          "source": "effects/guitar-compact.md",
+          "context": "Archived foreign-price provenance — not the comparison currency"
+        },
+        {
+          "field": "Original evidence",
+          "value": "[P4]",
+          "source": "effects/guitar-compact.md",
+          "context": "Archived foreign-price provenance — not the comparison currency"
+        }
+      ],
+      "link_normalizations": {
+        "(../guitar-compact.md)": "(effects/guitar-compact.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "supporting_sources": [
+        "effects/guitar-compact.md"
+      ],
+      "status": "Consolidated; technical verification remains partial",
+      "retained_context": [
+        "Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.",
+        "*GP-100 height is the manufacturer's published 28 mm figure; do not assume it includes maximum expression-pedal travel. GP-5 dimensions retain the manufacturer's width/depth labels rather than silently rotating the unit. GP-150's 200 × 139 mm fit leaves essentially no spare depth under this filter; cable clearance is additional.*",
+        "GP-150/180 documentation distinguishes operating, charging and fast-charging current. A USB socket or under-rated charger should not be assumed sufficient for every operation. Manufacturer battery runtimes are not independent measurements.",
+        "These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected."
+      ],
+      "retained_source_urls": [
+        "https://shop.valeton.net/products/gp-150",
+        "https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png"
+      ],
+      "supporting_source_hashes": {
+        "effects/guitar-compact.md": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc"
+      }
     }
   ],
   "discovery_leads": [
@@ -6976,7 +7151,8 @@
     "VALETON.md": [
       "GP-200LT",
       "GP-200JR",
-      "GP-100"
+      "GP-100",
+      "GP-150"
     ],
     "MOOER.md": [
       "GE250",
@@ -7133,7 +7309,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "21 legacy-only models remain;105 root-canonical. Full migration and research incomplete.",
+    "warning": "20 legacy-only models remain;106 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -7203,8 +7379,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 105,
-    "legacy_only_models": 21,
+    "canonical_root_models": 106,
+    "legacy_only_models": 20,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -8349,10 +8525,9 @@
       ]
     },
     "Valeton::GP-150": {
-      "link": "effects/findings/2026-10-14-valeton-gp-150.md",
+      "link": "VALETON.md#gp-150",
       "source_files": [
-        "effects/findings/2026-10-14-valeton-gp-150.md",
-        "effects/guitar-compact.md"
+        "VALETON.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-14-valeton-gp-150.md"
