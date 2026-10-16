@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [All vocal](ALL-VOCAL.md) · [Repository](README.md)
 
-This category view summarizes **14 selected model records from the 87 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. Root brand consolidation remains incomplete. Counts in different instrument views overlap and must not be added together.
+This category view summarizes **14 selected model records from the 88 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. Root brand consolidation remains incomplete. Counts in different instrument views overlap and must not be added together.
 
 Each model link opens the full evidence,firmware context,price qualifications and unknowns. These summaries do not replace those qualifications. A color screen does not prove touch; an expression socket is not an included pedal; a fixed category is not a freely assignable processing block.
 

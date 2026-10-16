@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'ampero-mp380': ('Ampero II Stage MP-380', 'effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md'),
     'ampero-mp350': ('Ampero II MP-350', 'effects/findings/2026-10-14-hotone-ampero-ii-mp350.md'),
     'ampero-mp100': ('Ampero MP-100', 'effects/findings/2026-10-14-hotone-ampero-mp100.md'),
     'ampero-mini': ('Ampero Mini MP-50', 'effects/findings/2026-10-14-hotone-ampero-mini.md'),
@@ -114,7 +115,7 @@ def verify_preserved(state):
 def plan(model_id):
     research_tools.identity()
     model, source_path = MODELS[model_id]
-    brand = 'Hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350') else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
+    brand = 'Hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380') else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
     brand_file = {'Hotone':'HOTONE.md','Line 6':'LINE6.md','Zoom':'ZOOM.md'}[brand]
     state = json.loads((ROOT / 'research-state.json').read_text())
     assert model not in state['root_brand_content'][brand_file], 'Already consolidated'
@@ -142,10 +143,15 @@ def plan(model_id):
     if model_id == 'ampero-mp350':
         zoom = zoom.replace('Three other already-researched Hotone models', 'Two other already-researched Hotone models')
         zoom = zoom.replace('Ampero II Stomp MP-300,Ampero II MP-350 and Ampero II Stage MP-380 remain', 'Ampero II Stomp MP-300 and Ampero II Stage MP-380 remain')
+    if model_id == 'ampero-mp380':
+        zoom = zoom.replace('Two other already-researched Hotone models still require', 'One other already-researched Hotone model still requires')
+        zoom = zoom.replace('Already-researched Ampero II Stomp MP-300 and Ampero II Stage MP-380 remain', 'Already-researched Ampero II Stomp MP-300 remains')
     zoom = re.sub(r'^The existing .+$', lambda m: m[0].replace(model + ',', '').replace(',' + model + ' records', ' records'), zoom, flags=re.M)
     section = '\n## ' + model + '\n\n'
     section += 'Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.\n\n'
     section += '<!-- ' + prefix + ' source begins -->\n' + body + '<!-- ' + prefix + ' source ends -->\n'
+    if model_id == 'ampero-mp380':
+        section += '\n### Stage processing comparison fields\n\n| Field | Preserved source qualification |\n|---|---|\n| Category choices | 460+ published;68 cabs,100+ pedal models,60+ originals;87 versus90+ amp conflict. Current category subtotals unresolved. |\n| IR / NAM / captures | 50 user IR slots,24-bit/44.1kHz mono WAV,1024/2048 samples;20 Celestion IRs separate. Native NAM A2 Lite firmware1.7.0+,not A2 Full;earlier Sound Clone conversion and Tone Catch are separate. |\n| Synth / acoustic | Acoustic effects/presets advertised;exact electric-to-acoustic and synth algorithms unverified. |\n'
     section += '\n### ' + model + ' — supporting comparison provenance\n\n'
     section += 'The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.\n\n'
     for fact in extra:
@@ -203,7 +209,7 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350') else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380') else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':
