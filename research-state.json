@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "JOYO GEM BOX II complete-body audit",
-    "task": "Original GEM BOX whole body now hash-checked;384x oversampling andbypass/mute tuner qualified;internal conversion removed from NAM/loading column by field label. Next inspect GEM BOX II original/root andexisting preservation checks,one model percommit. Full shared-table/incoming-link audit,remaining technical gaps andfreshShopee discovery remain.",
+    "model": "JOYO GEM BOX III complete-body audit",
+    "task": "GEM BOX II original nowhash-checked;manufacturer/UK pages rechecked without assigning missing display/AUX specs. Next inspect GEM BOX III full original/root andexisting checks before repair;commit before anothermodel. Full shared-table/incoming-link audit,primary gaps andfreshShopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -339,6 +339,24 @@
         "complete I/O",
         "synth/acoustic",
         "current IDR conditions/stock"
+      ]
+    },
+    {
+      "model": "JOYO GEM BOX II",
+      "path": "JOYO.md#gem-box-ii",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "docs(joyo): verify GEM BOX II original and qualify overdub evidence",
+      "sources": [
+        "https://www.joyoaudio.com/product/84.html",
+        "https://www.joyoaudio.co.uk/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner"
+      ],
+      "unresolved": [
+        "screen diagonal/color/touch",
+        "AUX details",
+        "measured draw",
+        "precise hardware/firmware revision",
+        "current used/new stock"
       ]
     }
   ],
@@ -9814,6 +9832,26 @@
       },
       "retained_comparison_facts": [],
       "scope": "Complete original body preserved; manufacturer conversion/oversampling and manual bypass/mute tuner detail rechecked. Digital processing field no longer mislabeled as NAM conversion. No model added/source removed."
+    },
+    {
+      "models": [
+        "JOYO GEM BOX II"
+      ],
+      "model_name": "GEM BOX II",
+      "destination": "JOYO.md#gem-box-ii",
+      "source": "effects/findings/2026-10-14-joyo-gembox-ii.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "JOYO-GEMBOX-II",
+      "source_sha256": "9af452ac341a22333dd9d3d578c81adc578a1694be50e3819febe52faf549d70",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../README.md)": "(effects/README.md)",
+        "(../shopee-indonesia.md)": "(effects/shopee-indonesia.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Complete original retained with navigation links normalized. Manufacturer/UK pages rechecked,overdub wording qualified without inventing multitrack/export ability. No source deletion/new model."
     }
   ],
   "discovery_leads": [
@@ -10374,11 +10412,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "JOYO::GEM BOX II",
-          "source": "effects/findings/2026-10-14-joyo-gembox-ii.md",
-          "dest": "JOYO.md#gem-box-ii"
-        },
-        {
           "model": "JOYO::GEM BOX III",
           "source": "effects/findings/2026-10-14-joyo-gembox-iii.md",
           "dest": "JOYO.md#gem-box-iii"
@@ -10553,7 +10586,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume JOYO GEM BOX II complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume JOYO GEM BOX III complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

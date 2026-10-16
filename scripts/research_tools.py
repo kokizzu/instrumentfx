@@ -88,7 +88,7 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
-    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation', 'commit-arena-preservation', 'commit-fx100-preservation', 'commit-fx200-preservation', 'commit-core-preservation', 'commit-gembox-preservation'):
+    elif mode in ('commit-field-projection', 'commit-field-extraction', 'commit-pe100', 'commit-g3xn', 'commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation', 'commit-g11-preservation', 'commit-arena-preservation', 'commit-fx100-preservation', 'commit-fx200-preservation', 'commit-core-preservation', 'commit-gembox-preservation', 'commit-gembox-ii-preservation'):
         verify()
         for check in ('test-fields', 'test-extraction', 'test-selection', 'verify'):
             subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
@@ -113,7 +113,7 @@ def main():
         if mode == 'commit-core-preservation':
             paths += ['HEADRUSH.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
-        if mode == 'commit-gembox-preservation':
+        if mode in ('commit-gembox-preservation', 'commit-gembox-ii-preservation'):
             paths += ['JOYO.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         changed = set(git('diff', '--name-only').splitlines())
@@ -141,6 +141,8 @@ def main():
             message = 'research(headrush): preserve Core original and document routing and clone limits'
         if mode == 'commit-gembox-preservation':
             message = 'research(joyo): preserve original GEM BOX finding and clarify digital and tuner fields'
+        if mode == 'commit-gembox-ii-preservation':
+            message = 'docs(joyo): verify GEM BOX II original and qualify overdub evidence'
         print(git('commit', '-m', message))
     elif mode == 'verify':
         verify()
