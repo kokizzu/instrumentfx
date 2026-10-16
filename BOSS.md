@@ -464,3 +464,59 @@ Checked2026-10-16;cached exact hardware pages,not condition/live-stock/checkout 
 | Indexed adapter bundle / Artech Music,Bekasi | Rp7.820.000,Habis;title+Adaptor,same-day-before09:00 cached delivery. Search-only evidence in this pass;adapter type,condition and current stock not verified. | [31171541 /6641453484](https://shopee.co.id/Boss-VE-8-Acoustic-Singer-Adaptor-VE8-Effect-vocal-Efek-Vokal-i.31171541.6641453484) |
 
 Remaining:rotary/button totals,screen diagonal/color/touch,full processing ceilings,USB power/DCvoltage/polarity,editor/driverOS/channels/rates,imports,usedcondition/currentstock/bundles. No legacy source deleted.
+
+## VE-20
+
+Vocal multi-effects;manufacturer page marks discontinued. Consolidated/researched2026-10-16;partial verification.
+
+### VE-20 — preserved original comparison
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimensions are **W×D×H, mm**. K/F/B = rotary controls / main footswitches / separate buttons; rear power, phantom and ground-lift toggles are additional. Used and new prices are separate **USD US-market asking/listing observations**, not sold-price statistics. Tax, shipping and condition matter.
+
+| Required field | Original observation (2026-10-14) |
+|---|---|
+| External expression | No external controller socket listed |
+| K/F/B | ?/2/? |
+| Dimensions; weight | 173×158×57; 1.1 kg incl. batteries |
+| Size class | Medium; discontinued |
+| Used USD | $159.99–224.99, Good–Excellent [P2] |
+| New USD | ?; old stock must be checked |
+| Processing architecture; categories / choices | Dynamics, pitch correction, doubling/harmony, delay, reverb and special effects; verified simultaneous/category counts ? |
+| Factory / user storage | **30 P + 50 U** |
+| Harmony, pitch, synth-like and acoustic functions | Up to 3-part harmony including the lead; pitch correction and special voice effects |
+| IR / NAM loading | No digital import path listed |
+| Physical audio/control ports | Combo XLR/¼″ mic input with **48 V**; 2×XLR out; ¼″ stereo phones/line; DC; **no USB listed** |
+| Battery / power / USB-powered? | 6 AA or PSA 9 V; 190 mA |
+| Configuration apps versus USB functions | No computer editor/import connection listed |
+| Looper / live considerations | **38 s mono** looper; discontinued product; older software-free workflow |
+
+Original sources: [source](https://www.boss.info/global/products/ve-20/specifications/); [source](https://www.guitarcenter.com/BOSS/Vocal-Processors.gc). P2:GC used USD159.99–224.99,Good–Excellent,checked2026-10-14;not guaranteed stock/completed sales,not converted IDR. [Complete original](effects/vocal.md) retained unchanged.
+
+### VE-20 — manufacturer checks and conflicts
+
+| Required field | Evidence / uncertainty (2026-10-16) |
+|---|---|
+| Display / memory |16-character,two-line backlit LCD;diagonal/color/touch unspecified.30preset+50user=80 sounds total. [VE20-M] |
+| Power / body / ports | Original manual:9V,180mA;legacy190mA retained. Manufacturer2009 brochure instead190mA;revision unresolved. SixAA orPSA;manual estimates8h alkaline/2h carbon.173×158×57mm,1.1kg incl.batteries. Combo balancedXLR/TRS mic48V;twoXLR outs;quarter-inch stereo phones/line;DC. NoUSB/controller socket listed. [VE20-M], [VE20-B] |
+| Level conflict | Original manual nominal INPUT/OUTPUT -20dBu,phones-4dBu;2009 brochure -40/-40/-25dBu respectively. Both specify MicSens40 for input. Do not silently pick one revision. [VE20-M], [VE20-B] |
+| Looper / routing |38s mono;recorded phrase cannot be stored. Perform mode permits overdub;Check mode records dry voice for auditioning effects and cannot overdub. Outputs select mono,stereo,or leftmono/rightdry;also applies to phonesL/R. [VE20-M] |
+| Controls / expression / effects | Two main footswitches retained;rotary/button totals await complete panel count. No builtin expression/toe pedal or listed external controller. Dynamics,pitch,doubling/harmony,tone/SFX,delay,reverb;full simultaneous/category choices remain unverified. |
+| Editor / IR / NAM / capture | No listed digital editor/import connection;IR,native NAM,converted NAM,capture and USB powering unestablished. No guitar processing inferred. DCpolarity still unverified. |
+
+[VE20-M]: https://static.roland.com/assets/media/pdf/VE-20_OM.pdf
+[VE20-B]: https://static.roland.com/assets/media/pdf/ve-20_brochure.pdf
+
+The brochure is dated September2009. Manufacturer status: [VE-20](https://www.boss.info/global/products/ve-20/specifications/). Discontinued does not prove every seller lacks old stock.
+
+### VE-20 — separate IDR asking-price evidence
+
+Checked2026-10-16;exact hardware pages;condition,adapter/bundle,shipping,tax and warranty region unverified. Prices below are condition-unresolved asks,not verified new or used. Late-delivery voucher is not a price discount.
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Verified used | Unknown;no exact condition-verified used IDR offer established. USDused history remains separate. | — |
+| Condition-unresolved / guitardistro,Bandung | Rp3.000.000,Habis,5–7Sep cached delivery. Condition not exposed;do not assume used from price. Reopened exact body. | [212343682 /23225176714](https://shopee.co.id/Boss-VE-20-Vocal-Effect-Processor-VE20-VE-20-Efek-Vokal-VE20-i.212343682.23225176714) |
+| Condition-unresolved / guitardistro,Bandung | Rp4.800.000,Habis,7–9Oct cached delivery. Separate item from3m ask,not a variant range. Condition/bundle unknown;exact body reopened. | [212343682 /21554041531](https://shopee.co.id/Boss-VE-20-Vocal-Effect-Processor-Efek-Vocal-i.212343682.21554041531) |
+| Condition-unresolved indexed offer / seller338305078 | Rp4.200.000;direct reopen cache miss. Seller name/location/condition/bundle not established in retrieved snippet;not accepted as confirmed new/used bound. | [338305078 /18993563259](https://shopee.co.id/Boss-VE-20-Vocal-Processor-Efek-Vokal-Original-Boss-VE20-i.338305078.18993563259) |
+
+Remaining:control counts,processing distribution/simultaneous ceiling,screen diagonal/color/touch,hardware-revision current/level conflicts,DCpolarity,import capabilities,condition-verified used/new/currentstock/bundles. No original source deleted.
