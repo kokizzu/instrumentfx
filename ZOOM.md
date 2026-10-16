@@ -1444,10 +1444,11 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 | Synth / acoustic | V-Syn and Z-Syn bass synthesis; Z-Organ organ simulation. Dedicated acoustic/upright simulation unverified; acoustic360 is an amplifier model, not acoustic-instrument conversion. | [Manual][B3-M] p43; [Product][B3-P] |
 | I/O | Mono quarter-inch INPUT with active/passive switch; mono R and stereo L/MONO/PHONES; XLR balanced PRE/POST and ground lift; CONTROL IN,USB,DC. USB/control subtype unknown. | [Product][B3-P]; [Specifications][B3-S] |
 | Power / battery / USB | AD-16 rating9V DC500mA center-negative;fourAA, approximately6h alkaline; USB bus power supported. Adapter rating is not measured draw; USB electrical requirements unknown. | [Specifications][B3-S] |
-| USB audio / MIDI | 2-in/2-out;16-bit44.1kHz. Monitor balance and recording level adjustable. USB MIDI/dry/reamp routing unverified. | [Product][B3-P]; [Manual][B3-M] p32 |
+| USB audio / MIDI | 2-in/2-out;16-bit44.1kHz. Recording gain ±6dB; monitor balance0–100 mixes processed direct sound with DAW return (0 direct-only,100 DAW-only). USB MIDI/dry/reamp routing unverified. | [Product][B3-P]; [Manual][B3-M] p32 |
+| External control / routing | External-pedal OUTPUT VOL excludes rhythm/looper levels. Manual min/max can invert response. FS01: bypass/mute,tap tempo or effect function; assigned effect must be on. Global signal-flow direction reversible. | [Manual][B3-M] pp16–19 |
 | IR / NAM / capture | User IR,native/converted NAM and capture imports unestablished. Factory cabinets do not prove import capability. | Unresolved |
 | Editor / platforms | Edit&Share Windows XP/Vista/7/8/8.1/10 and Mac10.9–10.12. Firmware1.20 updaters and Windows ASIO2.0.1 driver are separate. Current OS/mobile compatibility unknown. | [Support][B3-D] |
-| Looper / rhythms / live | 40s maximum,20s with Undo enabled; overdub/erase and rhythm synchronization. Changing TIME erases loop. 41 rhythms. Scenes,trails,persistence and full control details unresolved. | [Manual][B3-M] pp26–29; [Product][B3-P] |
+| Looper / rhythms / live | 40s maximum,20s with Undo enabled; overdub/erase and rhythm synchronization. Changing TIME or tempo and switching power off erase the loop; Home screens preserve it. Undo/redo affects last overdub. Stop modes: immediate,end-of-loop,fade-out. Rhythm recording uses precount and quantization. 41 rhythms; tempo40–250. Scenes,trails and exact switch gestures unresolved. | [Manual][B3-M] pp26–29; [Product][B3-P] |
 | Source conflict | Frequency response: product +1/−6dB versus indexed manual +1/−3dB,20Hz–20kHz at10kΩ. Preserve discrepancy; no measured resolution. | [Product][B3-P]; [Specifications][B3-S] |
 
 ### Separate IDR hardware offers
@@ -1465,7 +1466,7 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 
 Ambiguous B3/B3N title from STONED MAGHRIB,Depok,shop65245619/item17399777546 showed Rp1,700,000 and Habis; not attributed to either model. [Listing](https://shopee.co.id/Efek-Pedal-Bass-Zoom-B3-B3N-not-NUX-Boss-MXR-i.65245619.17399777546). Shop-level Segalasementara.Fx°/gyulalis usedB3 Rp1,999,999 lacks resolved item link; not accepted as exact offer.
 
-Remaining: physical counts,screen details,category subtotals,connector formats,power draw,imports/MIDI,current software,looper persistence and qualified current offers.
+Remaining: physical counts,screen details,category subtotals,connector formats,power draw,imports/MIDI,current software,exact looper switch gestures/scenes/trails and qualified current offers.
 
 [B3-P]: https://www.zoom.co.jp/node/47
 [B3-M]: https://zoomcorp.com/media/documents/E_B3.pdf

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "B3 primary follow-up / fresh Shopee discovery",
-    "task": "Original B3 added separately from B3n. Verify physical controls, category subtotals, manual live/USB restrictions and current offers; commit each model before next.",
+    "task": "B3 manual USB/live follow-up saved; loop persistence resolved. Continue physical controls, firmware/category counts and qualified offers or fresh Shopee discovery. Commit each model before the next.",
     "next_models": [],
     "after_queue": "Continue exact Shopee discovery by brand and series."
   },
@@ -1613,9 +1613,33 @@
         "power draw",
         "imports/MIDI",
         "current software",
-        "looper persistence",
+        "exact looper switch gestures/scenes/trails",
         "qualified used/new offers"
-      ]
+      ],
+      "live_usb_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+        "pages": [
+          16,
+          17,
+          19,
+          20,
+          24,
+          26,
+          27,
+          28,
+          29,
+          32
+        ],
+        "resolved": [
+          "Tempo/time/power-off erase loop; Home preserves",
+          "Last-overdub Undo/redo; immediate/end/fade stop modes",
+          "Rhythm precount/quantization;tempo40–250",
+          "USB recording gain ±6dB;direct/DAW monitor0–100",
+          "Pedal output volume excludes drums/loop; invertible min/max; FS01 and reverse flow"
+        ],
+        "remaining": "Physical controls,exact switch gestures,screen/category and previously saved gaps"
+      }
     }
   ],
   "consolidation_and_price_findings": [
