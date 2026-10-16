@@ -221,3 +221,11 @@ research-commit-helix-lt:
 .PHONY: research-commit-gt100
 research-commit-gt100:
 	python3 scripts/research_tools.py commit-gt100
+
+.PHONY: consolidation-plan-hx-stomp-xl consolidation-apply-hx-stomp-xl consolidation-commit-hx-stomp-xl
+consolidation-plan-hx-stomp-xl:
+	python3 scripts/consolidation_tools.py plan hx-stomp-xl
+consolidation-apply-hx-stomp-xl:
+	python3 scripts/consolidation_tools.py apply hx-stomp-xl
+consolidation-commit-hx-stomp-xl:
+	python3 scripts/consolidation_tools.py commit hx-stomp-xl

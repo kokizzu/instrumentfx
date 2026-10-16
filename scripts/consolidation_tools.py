@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'hx-stomp-xl': ('HX Stomp XL', 'effects/findings/2026-10-14-line6-hx-stomp-xl.md'),
     'g6': ('G6', 'effects/findings/2026-10-15-zoom-g6.md'),
     'g1-four': ('G1 FOUR', 'effects/findings/2026-10-14-zoom-g1-four.md'),
     'g1x-four': ('G1X FOUR', 'effects/findings/2026-10-14-zoom-g1x-four.md'),
@@ -110,18 +111,20 @@ def verify_preserved(state):
 def plan(model_id):
     research_tools.identity()
     model, source_path = MODELS[model_id]
+    brand = 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
+    brand_file = 'LINE6.md' if brand == 'Line 6' else 'ZOOM.md'
     state = json.loads((ROOT / 'research-state.json').read_text())
-    assert model not in state['root_brand_content']['ZOOM.md'], 'Already consolidated'
+    assert model not in state['root_brand_content'][brand_file], 'Already consolidated'
     comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
     assert comparison['ledger_hash'] == digest((ROOT / 'research-state.json').read_text()), 'Run make comparison-plan first'
-    record = comparison['records']['Zoom::' + model]
+    record = comparison['records'][brand + '::' + model]
     assert record['link'] == source_path
     source = (ROOT / source_path).read_text()
-    prefix = 'ZOOM-' + model_id.upper()
+    prefix = ('LINE6-' if brand == 'Line 6' else 'ZOOM-') + model_id.upper()
     body, refs = preserved_body(source, prefix)
     extra = [f for f in record['facts'] if f['source'] != source_path]
     shared = sorted({f['source'] for f in extra})
-    zoom = (ROOT / 'ZOOM.md').read_text()
+    zoom = (ROOT / brand_file).read_text()
     zoom = re.sub(r'^The existing .+$', lambda m: m[0].replace(model + ',', '').replace(',' + model + ' records', ' records'), zoom, flags=re.M)
     section = '\n## ' + model + '\n\n'
     section += 'Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.\n\n'
@@ -131,12 +134,12 @@ def plan(model_id):
     for fact in extra:
         section += '- **' + fact['field'] + '** (' + fact['context'] + '): ' + fact['value'] + '\n'
     section += '\nSources: ' + ', '.join('[' + p + '](' + p + ')' for p in [source_path] + shared) + '. No legacy file was deleted.\n'
-    state['root_brand_content']['ZOOM.md'].append(model)
+    state['root_brand_content'][brand_file].append(model)
     old_count = state['canonical_root_model_count']
     old_legacy = state['legacy_only_model_count']
     state['canonical_root_model_count'] += 1
     state['legacy_only_model_count'] -= 1
-    entry = dict(models=['Zoom ' + model], destination='ZOOM.md#' + comparison_views.slug(model), source=source_path,
+    entry = dict(models=[brand + ' ' + model], model_name=model, brand=brand, destination=brand_file+'#' + comparison_views.slug(model), source=source_path,
                  checked_date='2026-10-16', verification_kind='complete-source-body-v1', marker=prefix,
                  source_sha256=digest(source), renamed_references=refs, retained_comparison_facts=extra,
                  supporting_sources=shared, status='Consolidated; technical verification remains partial')
@@ -144,9 +147,9 @@ def plan(model_id):
     state['migration']['warning'] = f"{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete."
     state['cursor']['after_queue'] = f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.'
     readme = (ROOT / 'README.md').read_text().replace(f'{old_count} detailed', f'{old_count+1} detailed').replace(f'{old_legacy} still rely', f'{old_legacy-1} still rely')
-    readme = re.sub(r'(\| \[ZOOM.md\]\(ZOOM.md\) \|)([^\n]+) \|', lambda m: m[1]+m[2]+','+model+' |', readme)
+    readme = re.sub(r'(\| \['+re.escape(brand_file)+r'\]\('+re.escape(brand_file)+r'\) \|)([^\n]+) \|', lambda m: m[1]+m[2]+','+model+' |', readme)
     multi = (ROOT / 'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical', f'{old_count+1} root-canonical')
-    outputs = {'ZOOM.md': zoom + section, 'README.md': readme, 'MULTI-EFFECTS.md': multi,
+    outputs = {brand_file: zoom + section, 'README.md': readme, 'MULTI-EFFECTS.md': multi,
                'research-state.json': json.dumps(state, ensure_ascii=False, indent=2) + '\n'}
     inputs = {p: digest((ROOT / p).read_text()) for p in list(outputs) + [source_path] + shared}
     payload = dict(model_id=model_id, model=model, inputs=inputs, outputs=outputs,
@@ -178,11 +181,11 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':
