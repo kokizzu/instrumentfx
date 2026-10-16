@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Fresh discovery / remaining technical gaps after RP500",
-    "task": "RP500 category inventory and7-versus8 delay conflict saved. Full amp/cab/ChorusFX totals remain unresolved; continue fresh Shopee discovery or missing exact primary fields.",
+    "task": "RP500 category counts now saved including35sharedChorusFX alternatives,52amp/acoustic sounds and25cab/comp choices,withDirect separate. Continue exact Shopee discovery or remaining primary gaps; do not repeat completed count enumeration.",
     "next_models": [],
-    "after_queue": "Search Shopee by brand/series; reject accessories and unmapped mixed-model prices."
+    "after_queue": "Search Shopee brands/series; reject accessories and unresolved mixed variants."
   },
   "new_findings": [
     {
@@ -4335,6 +4335,14 @@
       "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
       "finding": "Enumerated3wah,3compressor,18distortion,oneEQ,2gate/swell choices;ChorusFX oneatatime with5chorus5flanger4phaser partialsubgroups;8listed/tabulateddelays despite7prose,6reverbs. DelayRepeatHoldexcludesDM2/Echoplex. Unsavededitslostonpatch/powerchange.",
       "remaining": "Full amp/cabinet andChorusFX counts;exactroutingexceptions,screen/power/import/currentmarketgaps. Known subgroupcounts are not simultaneousslots."
+    },
+    {
+      "model": "DigiTech RP500",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+      "finding": "Completed manual-derived amp/cabinet/ChorusFX counts:50amp+2acoustic+Direct;24cab+speakercomp+Direct;35ChorusFX one-slot alternatives. Separate bypass entries and parameter modes from modeled-sound totals.",
+      "remaining": "Displaydiagonal/color/touch,draw/poweroptions,imports,exactsoftware/currentmarket/sourceconflicts andphysical/firmwareverification."
     }
   ],
   "consolidation_and_price_findings": [
@@ -48514,6 +48522,48 @@
       "total_document_entries": 128,
       "qualification": "Includes BPM utility and optional additions; not128 sound algorithms, installed count, or simultaneous count. Product102base+27announced additions not reconciled. Screenshot call supplied no readable image; no visual corroboration claimed.",
       "next": "Resolve PDF/product revision and optional-star mapping if readable official source becomes available; continue fresh Shopee discovery rather than repeatedly auditing unchanged extraction."
+    },
+    {
+      "model": "DigiTech RP500",
+      "checked_date": "2026-10-17",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+      "method": "Count named alternatives, excluding bypass and parameter modes from model totals; not physical-unit or firmware inspection.",
+      "amp_selector": {
+        "classic": 30,
+        "digitech_custom": 20,
+        "acoustic": 2,
+        "direct_bypass": 1,
+        "total_entries": 53
+      },
+      "cabinet_selector": {
+        "cabinet_models": 24,
+        "speaker_compensation": 1,
+        "direct_bypass": 1,
+        "total_entries": 26
+      },
+      "chorus_fx_selector": {
+        "chorus": 5,
+        "flanger": 5,
+        "phaser": 4,
+        "vibrato": 1,
+        "rotary": 1,
+        "vibropan": 1,
+        "univibe": 1,
+        "tremolo_panner": 5,
+        "envelope_filter": 2,
+        "autoya": 1,
+        "yaya": 1,
+        "synthtalk": 1,
+        "step_filter": 1,
+        "sample_hold": 1,
+        "whammy": 1,
+        "pitch_shift": 1,
+        "detune": 1,
+        "harmony": 1,
+        "octaver": 1,
+        "total_choices": 35
+      },
+      "qualification": "ChorusFX one slot. Direct is bypass. Counts are manual-derived selectable alternatives, not simultaneous total. Earlier delay7-vs8conflict retained."
     }
   ],
   "discovery_cross_brand_bass": {

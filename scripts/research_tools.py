@@ -329,7 +329,7 @@ def main():
         if mode == 'commit-dapper-dark-mini':
             message = 'research(valeton): add separate Dark Mini with indexed-manual qualifications'
         if mode == 'commit-rp500':
-            message = 'research(digitech): enumerate RP500 categories and preserve delay-count conflict'
+            message = 'research(digitech): count RP500 amp cabinet and shared FX alternatives'
         if mode == 'commit-g21u':
             message = 'research(zoom): add original G2.1u with USB and rhythm restrictions'
         if mode == 'commit-g3x':
