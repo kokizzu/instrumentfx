@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-10 primary follow-up",
-    "task": "GT-10 category/routing followup saved: delay11/chorus3/reverb7, speaker selections and USB/DIN restrictions. Next reconcile preamp/OD totals and simultaneous architecture from original tables, power/imports if primary evidence permits; then fresh Shopee discovery. Preserve known access limits; commit before another model.",
+    "model": "Fresh Shopee discovery after GT-10 followups",
+    "task": "GT-10 accessible preamp/drive tables counted with extraction discrepancy retained. Resume Shopee Indonesia discovery by brand/series for unrecorded eligible hardware, including distinct GT-10B if found; verify exact model using manufacturer sources and commit before another. GT-10 visual panel/OD count/power/import/current macOS gaps remain deferred, not completed.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2226,6 +2226,28 @@
           "USB disables DIN MIDI transfer;USB input processing and shared digital output level"
         ],
         "remaining": "Preamp exact total, full simultaneous-count reconciliation, polarity/imports and visual controls"
+      },
+      "preamp_drive_reconciliation": {
+        "checked_date": "2026-10-17",
+        "sources": [
+          "https://manualzilla.com/doc/7429915/boss-gt-10-owner-s-manual",
+          "https://static.roland.com/assets/media/pdf/GT-10_OM.pdf"
+        ],
+        "readable_preamp_entries": {
+          "named": 39,
+          "custom": 1,
+          "through_bypass": 1,
+          "total_selections": 41
+        },
+        "drive_accessible_text": {
+          "named": 25,
+          "custom": 1,
+          "intro_claim": 30,
+          "actual_total": "unresolved",
+          "reason": "Official indexed p97 METAL span3 but only2 readable names; cannot certify transcript completeness"
+        },
+        "custom_drive_base_types": 8,
+        "status": "partial; do not infer missing choices from GT-8/GT-PRO"
       }
     }
   ],
@@ -37921,7 +37943,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-10 primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after GT-10 followups."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
