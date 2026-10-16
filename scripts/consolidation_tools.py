@@ -1,0 +1,138 @@
+"""Reviewable, lossless model consolidation; keeps legacy sources and their links."""
+import hashlib
+import json
+from pathlib import Path
+import re
+import sys
+
+import comparison_views
+import research_tools
+
+ROOT = Path(__file__).resolve().parent.parent
+PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
+MODELS = {
+    'g6': ('G6', 'effects/findings/2026-10-15-zoom-g6.md'),
+    'g1-four': ('G1 FOUR', 'effects/findings/2026-10-14-zoom-g1-four.md'),
+    'g1x-four': ('G1X FOUR', 'effects/findings/2026-10-14-zoom-g1x-four.md'),
+}
+
+
+def digest(text):
+    return hashlib.sha256(text.encode()).hexdigest()
+
+
+def preserved_body(source, prefix):
+    body = source.split('\n', 1)[1]
+    body = re.sub(r'^## ', '### ', body, flags=re.M)
+    refs = re.findall(r'^\[([^\]]+)\]:', body, re.M)
+    for ref in refs:
+        body = body.replace('[' + ref + ']', '[' + prefix + '-' + ref + ']')
+    return body, refs
+
+
+def verify_preserved(state):
+    for entry in state.get('consolidation_and_price_findings', []):
+        if entry.get('verification_kind') != 'complete-source-body-v1':
+            continue
+        source = (ROOT / entry['source']).read_text()
+        assert digest(source) == entry['source_sha256'], entry['source']
+        text = (ROOT / entry['destination'].split('#')[0]).read_text()
+        prefix = entry['marker']
+        body = text.split('<!-- ' + prefix + ' source begins -->\n', 1)[1].split('<!-- ' + prefix + ' source ends -->', 1)[0]
+        for ref in entry['renamed_references']:
+            body = body.replace('[' + prefix + '-' + ref + ']', '[' + ref + ']')
+        body = re.sub(r'^### ', '## ', body, flags=re.M)
+        assert body == source.split('\n', 1)[1], 'Lost original body: ' + entry['source']
+        model = entry['models'][0].removeprefix('Zoom ')
+        section = text.split('\n## ' + model + '\n', 1)[1].split('\n## ', 1)[0]
+        for fact in entry['retained_comparison_facts']:
+            assert fact['value'] in section, 'Lost supporting evidence: ' + fact['field']
+    print('PASS: complete consolidated bodies and supporting comparison facts retained.')
+
+
+def plan(model_id):
+    research_tools.identity()
+    model, source_path = MODELS[model_id]
+    state = json.loads((ROOT / 'research-state.json').read_text())
+    assert model not in state['root_brand_content']['ZOOM.md'], 'Already consolidated'
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest((ROOT / 'research-state.json').read_text()), 'Run make comparison-plan first'
+    record = comparison['records']['Zoom::' + model]
+    assert record['link'] == source_path
+    source = (ROOT / source_path).read_text()
+    prefix = 'ZOOM-' + model_id.upper()
+    body, refs = preserved_body(source, prefix)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    zoom = (ROOT / 'ZOOM.md').read_text()
+    zoom = re.sub(r'^The existing .+$', lambda m: m[0].replace(model + ',', '').replace(',' + model + ' records', ' records'), zoom, flags=re.M)
+    section = '\n## ' + model + '\n\n'
+    section += 'Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.\n\n'
+    section += '<!-- ' + prefix + ' source begins -->\n' + body + '<!-- ' + prefix + ' source ends -->\n'
+    section += '\n### ' + model + ' — supporting comparison provenance\n\n'
+    section += 'The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.\n\n'
+    for fact in extra:
+        section += '- **' + fact['field'] + '** (' + fact['context'] + '): ' + fact['value'] + '\n'
+    section += '\nSources: ' + ', '.join('[' + p + '](' + p + ')' for p in [source_path] + shared) + '. No legacy file was deleted.\n'
+    state['root_brand_content']['ZOOM.md'].append(model)
+    old_count = state['canonical_root_model_count']
+    old_legacy = state['legacy_only_model_count']
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    entry = dict(models=['Zoom ' + model], destination='ZOOM.md#' + comparison_views.slug(model), source=source_path,
+                 checked_date='2026-10-16', verification_kind='complete-source-body-v1', marker=prefix,
+                 source_sha256=digest(source), renamed_references=refs, retained_comparison_facts=extra,
+                 supporting_sources=shared, status='Consolidated; technical verification remains partial')
+    state['consolidation_and_price_findings'].append(entry)
+    state['migration']['warning'] = f"{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete."
+    state['cursor']['after_queue'] = f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.'
+    readme = (ROOT / 'README.md').read_text().replace(f'{old_count} detailed', f'{old_count+1} detailed').replace(f'{old_legacy} still rely', f'{old_legacy-1} still rely')
+    readme = re.sub(r'(\| \[ZOOM.md\]\(ZOOM.md\) \|)([^\n]+) \|', lambda m: m[1]+m[2]+','+model+' |', readme)
+    multi = (ROOT / 'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical', f'{old_count+1} root-canonical')
+    outputs = {'ZOOM.md': zoom + section, 'README.md': readme, 'MULTI-EFFECTS.md': multi,
+               'research-state.json': json.dumps(state, ensure_ascii=False, indent=2) + '\n'}
+    inputs = {p: digest((ROOT / p).read_text()) for p in list(outputs) + [source_path] + shared}
+    payload = dict(model_id=model_id, model=model, inputs=inputs, outputs=outputs,
+                   rollback_commit=research_tools.git('rev-parse', 'HEAD').strip())
+    PLAN.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n')
+    print('Preview: ' + model + '; rollback is existing Git HEAD ' + payload['rollback_commit'])
+    print('Exact writes: ' + ', '.join(outputs))
+    print('Read source: ' + source_path + '; supporting sources: ' + ', '.join(shared))
+    print(f'Counts: {old_count}->{old_count+1} canonical; {old_legacy}->{old_legacy-1} legacy; active count unchanged')
+    print('Plan saved: ' + str(PLAN))
+
+
+def apply(model_id):
+    research_tools.identity()
+    payload = json.loads(PLAN.read_text())
+    assert payload['model_id'] == model_id
+    for p, sha in payload['inputs'].items():
+        assert digest((ROOT / p).read_text()) == sha, 'Concurrent change: ' + p
+    for p, text in payload['outputs'].items():
+        (ROOT / p).write_text(text)
+    verify_preserved(json.loads((ROOT / 'research-state.json').read_text()))
+    print('Applied only the reviewed exact outputs; legacy sources untouched.')
+
+
+def commit(model_id):
+    research_tools.identity()
+    state = json.loads((ROOT / 'research-state.json').read_text())
+    verify_preserved(state)
+    research_tools.verify()
+    comparison_views.verify_views()
+    assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
+    paths = ['ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py']
+    print(research_tools.git('status', '--short'))
+    print(research_tools.git('add', '--', *paths))
+    print(research_tools.git('diff', '--cached', '--stat'))
+    print(research_tools.git('commit', '-m', 'docs(zoom): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+
+
+if __name__ == '__main__':
+    if sys.argv[1:] == ['verify']:
+        research_tools.identity()
+        verify_preserved(json.loads((ROOT / 'research-state.json').read_text()))
+        raise SystemExit(0)
+    mode, model_id = sys.argv[1:]
+    assert model_id in MODELS
+    {'plan': plan, 'apply': apply, 'commit': commit}[mode](model_id)

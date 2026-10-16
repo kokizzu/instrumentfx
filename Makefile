@@ -63,3 +63,31 @@ research-commit-gs1000:
 .PHONY: research-commit-b1xon
 research-commit-b1xon:
 	python3 scripts/research_tools.py commit-b1xon
+
+.PHONY: consolidation-plan-g6 consolidation-apply-g6 consolidation-commit-g6
+consolidation-plan-g6:
+	python3 scripts/consolidation_tools.py plan g6
+consolidation-apply-g6:
+	python3 scripts/consolidation_tools.py apply g6
+consolidation-commit-g6:
+	python3 scripts/consolidation_tools.py commit g6
+
+.PHONY: consolidation-plan-g1-four consolidation-apply-g1-four consolidation-commit-g1-four
+consolidation-plan-g1-four:
+	python3 scripts/consolidation_tools.py plan g1-four
+consolidation-apply-g1-four:
+	python3 scripts/consolidation_tools.py apply g1-four
+consolidation-commit-g1-four:
+	python3 scripts/consolidation_tools.py commit g1-four
+
+.PHONY: consolidation-plan-g1x-four consolidation-apply-g1x-four consolidation-commit-g1x-four
+consolidation-plan-g1x-four:
+	python3 scripts/consolidation_tools.py plan g1x-four
+consolidation-apply-g1x-four:
+	python3 scripts/consolidation_tools.py apply g1x-four
+consolidation-commit-g1x-four:
+	python3 scripts/consolidation_tools.py commit g1x-four
+
+.PHONY: consolidation-verify
+consolidation-verify:
+	python3 scripts/consolidation_tools.py verify

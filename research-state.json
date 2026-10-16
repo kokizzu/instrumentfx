@@ -7,8 +7,8 @@
   "active_model_count": 124,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 53,
-  "legacy_only_model_count": 71,
+  "canonical_root_model_count": 54,
+  "legacy_only_model_count": 70,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -32,7 +32,7 @@
     "destination": null,
     "task": "Fresh Shopee brand/series discovery: resolve exact eligible GE200 Plus or GS1000 Li hardware offers, or remaining brands; do not add known models again. Then continue lossless consolidation.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of71 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 70 legacy-only models."
   },
   "new_findings": [
     {
@@ -211,6 +211,114 @@
         "effects/shopee-indonesia.md"
       ],
       "status": "partial technical record; consolidation verified"
+    },
+    {
+      "models": [
+        "Zoom G6"
+      ],
+      "destination": "ZOOM.md#g6",
+      "source": "effects/findings/2026-10-15-zoom-g6.md",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "ZOOM-G6",
+      "source_sha256": "fbb5cbee6ca9f9c1940fa05c1ad94ea3fb7e15e9e793dfd8a94cd9a9d1c48bb9",
+      "renamed_references": [],
+      "retained_comparison_facts": [
+        {
+          "field": "External control",
+          "value": "External FP02M",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "5/6/0",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Body and weight",
+          "value": "**418 W×228 D×65 H mm;1.94 kg;large**",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Displays",
+          "value": "**4.3-inch,480×272,TFT color touchscreen**",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Processing and available choices",
+          "value": "**Nine effect spaces, DSP-limited**; large models consume two; seven effects plus amp documented separately.12 category names; current full subtotals ?",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Blocks, categories and presets"
+        },
+        {
+          "field": "Preset storage",
+          "value": "**240 editable**,60×4,including100 factory-supplied",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Blocks, categories and presets"
+        },
+        {
+          "field": "Synth / acoustic simulation",
+          "value": "**Acoustic Sim yes**; synth ?",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Blocks, categories and presets"
+        },
+        {
+          "field": "IR / capture support",
+          "value": "**70 factory+130 user IRs**;WAV44.1–192 kHz16/24/32-bit;NAM not established",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "IR, NAM, power and software"
+        },
+        {
+          "field": "Power",
+          "value": "**9 V500 mA center-negative;USB bus power explicitly No**",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "IR, NAM, power and software"
+        },
+        {
+          "field": "Configuration / USB audio",
+          "value": "Guitar Lab Win/Mac;Handy iOS/iPadOS requiresBTA-1;USB2×2,44.1 kHz/32-bit",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "IR, NAM, power and software"
+        },
+        {
+          "field": "Audio/control connections",
+          "value": "Mono quarter-inch in/loop;two main outs;**LEFT main doubles as stereo phones**,not an additional socket;3.5 aux;Micro-USB,SD,REMOTE,CONTROL",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Connections and practical differences"
+        },
+        {
+          "field": "Looper / additional functions",
+          "value": "90 s mono/45 s stereo;up to2 h withSD;68 rhythms",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Connections and practical differences"
+        },
+        {
+          "field": "Used evidence",
+          "value": "?",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail evidence / qualification",
+          "value": "**Rp6.319.000**,Destiny Sound,reopened with olderJune9 delivery text",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Commit",
+          "value": "`ece2b1e97bd5b0ffe5b5fa387ac4ab83784deb80`",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Individual findings commits"
+        }
+      ],
+      "supporting_sources": [
+        "effects/shopee-multifx-7.md"
+      ],
+      "status": "Consolidated; technical verification remains partial"
     }
   ],
   "discovery_leads": [
@@ -460,7 +568,8 @@
     ],
     "ZOOM.md": [
       "G11",
-      "B1Xon"
+      "B1Xon",
+      "G6"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -545,7 +654,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:104 guitar,54 documented bass-capable,17 vocal; full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "71 legacy-only models remain;53 root-canonical after B1Xon consolidation. Whole migration and market research incomplete.",
+    "warning": "70 legacy-only models remain;54 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -615,8 +724,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 124,
-    "canonical_root_models": 53,
-    "legacy_only_models": 71,
+    "canonical_root_models": 54,
+    "legacy_only_models": 70,
     "guitar_view_models": 104,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -632,8 +741,7 @@
     "last_checks": [
       "make comparison-verify",
       "make research-verify",
-      "B1Xon complete source body equality after only heading/link normalization; original links retained",
-      "Actual GS1000 and B1Xon comparison cells inspected"
+      "G6 used/retail cells inspected; full original body and supporting facts retained"
     ]
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
@@ -1932,10 +2040,9 @@
       ]
     },
     "Zoom::G6": {
-      "link": "effects/findings/2026-10-15-zoom-g6.md",
+      "link": "ZOOM.md#g6",
       "source_files": [
-        "effects/findings/2026-10-15-zoom-g6.md",
-        "effects/shopee-multifx-7.md"
+        "ZOOM.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-15-zoom-g6.md"
@@ -1991,5 +2098,16 @@
       "site:shopee.co.id Mooer GS1000"
     ],
     "result": "Exact GS1000 hardware found and researched; GE300 Lite/K8 queries did not establish an exact offer. Do not treat noisy search absence as unavailability."
+  },
+  "discovery_search_pass_20261016_followup": {
+    "queries": [
+      "Shopee GS1000 Li",
+      "Shopee GE200 Plus",
+      "Shopee GE300 Lite",
+      "Shopee Donner Alpha",
+      "Shopee Sonicake Rockstage",
+      "Shopee Mooer PE100"
+    ],
+    "result": "No exact newly accepted hardware offer. Preset packs, noisy lists and unresolved storefront-only candidates not added to model counts; absence is not proof of unavailability."
   }
 }

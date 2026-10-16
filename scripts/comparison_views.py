@@ -187,6 +187,8 @@ def make_plan():
                 paragraph=paragraph.strip()
                 if paragraph.startswith('#'):
                     prose_heading=paragraph.lstrip('# ').strip()
+                if re.search(r'provenance',prose_heading,re.I):
+                    continue
                 if not paragraph or paragraph.startswith(('|','#','[','Sources:','Source:','Original source')):
                     continue
                 if 'Next:' in paragraph or 'Next model' in paragraph or 'next model' in paragraph:
