@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-10 primary follow-up",
-    "task": "GT-10 manual transcript identity checked and controls/synth/acoustic/shared FX count saved. Next read manufacturer manual pp96–101/118–121 for remaining category choices and routing, then fresh Shopee discovery. Primary full-PDF size limit remains; accessible transcript supplements indexed official passages. Commit before another model.",
+    "task": "GT-10 category/routing followup saved: delay11/chorus3/reverb7, speaker selections and USB/DIN restrictions. Next reconcile preamp/OD totals and simultaneous architecture from original tables, power/imports if primary evidence permits; then fresh Shopee discovery. Preserve known access limits; commit before another model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2212,6 +2212,20 @@
           "modern macOS",
           "qualified offers"
         ]
+      },
+      "category_routing_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://manualzilla.com/doc/7429915/boss-gt-10-owner-s-manual",
+        "pages": "90,92,95–100,119–121",
+        "resolved": [
+          "COMP2;OD/DS claimed30 and custom with reconciliationpending",
+          "Nine enabled speaker choices plusOff",
+          "Delay11/chorus3/reverb7 selectable choices",
+          "Preamp routing modes and dual channel delay",
+          "Delay range and patch-transition/stereo restrictions",
+          "USB disables DIN MIDI transfer;USB input processing and shared digital output level"
+        ],
+        "remaining": "Preamp exact total, full simultaneous-count reconciliation, polarity/imports and visual controls"
       }
     }
   ],
