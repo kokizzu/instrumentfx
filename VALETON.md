@@ -474,6 +474,18 @@ Historical GP-180 source URLs: https://shop.valeton.net/products/gp-180, https:/
 
 Sources: [effects/findings/2026-10-14-valeton-gp-180.md](effects/findings/2026-10-14-valeton-gp-180.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
 
+### GP-180 shared-source reference key
+
+The complete compact source, unchanged since the preceding audit, was checked on 2026-10-17. Its 23 GP-180 fields across five rows and retained shared paragraphs remain dated evidence. Historical reference labels resolve here:
+
+| Historical label | Exact source |
+|---|---|
+| `controls` | [Manufacturer GP-150/GP-180 comparison image](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
+| `F180` | [Original GP-180 finding](effects/findings/2026-10-14-valeton-gp-180.md) |
+| `P8` | [Official-shop historical USD179.99 source](https://shop.valeton.net/products/gp-180) |
+
+The original SnapTone row remains separate from the later native NAM A2 Lite firmware qualification. The expanded DC/USB operation-versus-charging figures and two shared EXP/FS/MIDI connections above remain intact; this source audit does not retest them or refresh stock.
+
 ## GP-5
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.

@@ -1530,7 +1530,7 @@ def audit_compact(model):
     if model == 'Matribox':
         return audit_compact_matribox()
     research_tools.identity()
-    assert model in ('GP-100', 'GP-150', 'GP-5', 'GP-50'), 'Additional models require explicit scope review'
+    assert model in ('GP-100', 'GP-150', 'GP-5', 'GP-50', 'GP-180'), 'Additional models require explicit scope review'
     state = json.loads((ROOT/'research-state.json').read_text())
     source_path = 'effects/guitar-compact.md'
     source = (ROOT/source_path).read_text()
@@ -1558,6 +1558,8 @@ def audit_compact(model):
         urls = ('https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png', 'effects/findings/2026-10-14-valeton-gp-150.md', 'https://shop.valeton.net/products/gp-150') if model == 'GP-150' else ('effects/findings/2026-10-14-valeton-gp-5.md', 'https://www.guitarcenter.com/Valeton/Multi-Effects-Pedals.gc', 'https://shop.valeton.net/products/gp-5')
         if model == 'GP-50':
             urls = ('effects/findings/2026-10-14-valeton-gp-50.md', 'https://shop.valeton.net/products/gp-50', 'https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png')
+        if model == 'GP-180':
+            urls = ('effects/findings/2026-10-14-valeton-gp-180.md', 'https://shop.valeton.net/products/gp-180', 'https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png')
         for url in urls:
             assert ']('+url+')' in destination, 'Reference key missing: '+url
     print('PASS '+model+': 23 fields across five model rows retained, with model-specific context/reference checks. Other models and incoming-link retirement remain unaudited.')
