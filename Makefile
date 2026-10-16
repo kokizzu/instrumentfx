@@ -633,3 +633,7 @@ research-commit-gembox-preservation:
 .PHONY: research-commit-gembox-ii-preservation
 research-commit-gembox-ii-preservation:
 	python3 scripts/research_tools.py commit-gembox-ii-preservation
+
+.PHONY: research-commit-gembox-iii-preservation
+research-commit-gembox-iii-preservation:
+	python3 scripts/research_tools.py commit-gembox-iii-preservation

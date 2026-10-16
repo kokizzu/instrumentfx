@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "JOYO GEM BOX III complete-body audit",
-    "task": "GEM BOX II original nowhash-checked;manufacturer/UK pages rechecked without assigning missing display/AUX specs. Next inspect GEM BOX III full original/root andexisting checks before repair;commit before anothermodel. Full shared-table/incoming-link audit,primary gaps andfreshShopee discovery remain.",
+    "model": "Line 6 POD Go original complete-body audit",
+    "task": "JOYO three originals nowhash-checked. GEM BOX III primary311x175x53mm/1737g found;regional512/1024IR conflict remains. Next inspect original POD Go full finding andcombinedPODGo/Wireless root section carefully;preserve variant isolation andcommit one model before next. Shared-table/incoming-link audit,technicalgaps andfreshShopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -357,6 +357,26 @@
         "measured draw",
         "precise hardware/firmware revision",
         "current used/new stock"
+      ]
+    },
+    {
+      "model": "JOYO GEM BOX III",
+      "path": "JOYO.md#gem-box-iii",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "research(joyo): verify GEM BOX III dimensions and retain regional IR conflict",
+      "sources": [
+        "https://www.joyochina.cn/product/85.html",
+        "https://www.joyoaudio.com/product/85.html",
+        "https://www.joyoaudio.co.uk/support/Gem-Box-3-III--Software"
+      ],
+      "unresolved": [
+        "dimension axis names/mass conditions",
+        "512/1024IR regional revision conflict",
+        "user import capacity",
+        "display diagonal/touch",
+        "USB modes and firmware",
+        "currentcondition-specificIDR"
       ]
     }
   ],
@@ -9852,6 +9872,26 @@
       },
       "retained_comparison_facts": [],
       "scope": "Complete original retained with navigation links normalized. Manufacturer/UK pages rechecked,overdub wording qualified without inventing multitrack/export ability. No source deletion/new model."
+    },
+    {
+      "models": [
+        "JOYO GEM BOX III"
+      ],
+      "model_name": "GEM BOX III",
+      "destination": "JOYO.md#gem-box-iii",
+      "source": "effects/findings/2026-10-14-joyo-gembox-iii.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "JOYO-GEMBOX-III",
+      "source_sha256": "91fcef1aa3e60505efeab6b9b2221d31d3ad60a037ea420cb02ff99a55dc888b",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../README.md)": "(effects/README.md)",
+        "(../shopee-indonesia.md)": "(effects/shopee-indonesia.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Complete original preserved. New exact-model Chinese primary dimensions/mass and port values; regional512/1024IR and software listing-date differences retained. No source deletion/new model."
     }
   ],
   "discovery_leads": [
@@ -10412,11 +10452,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "JOYO::GEM BOX III",
-          "source": "effects/findings/2026-10-14-joyo-gembox-iii.md",
-          "dest": "JOYO.md#gem-box-iii"
-        },
-        {
           "model": "Line 6::POD Go",
           "source": "effects/findings/2026-10-15-line6-pod-go.md",
           "dest": "LINE6.md#pod-go-and-pod-go-wireless"
@@ -10586,7 +10621,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume JOYO GEM BOX III complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD Go original complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
