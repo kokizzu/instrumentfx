@@ -99,3 +99,40 @@ Remaining: external expression details, display details, retained specification-
 [AX-A]: https://www.korg.com/us/support/download/software/1/28/1388/
 
 [AX-P]: https://www.korg.com/jp/support/adapter/
+
+## AX1500G
+
+Guitar multi-effects; distinct from AX1000G/AX3000G. Checked 2026-10-17; partial. Bass capability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in; under-pedal switch. External EXP absent from complete ports. | [Manual pp6,10][AX15-M] |
+| K/F/B | **10 / 5 / 13**, text-derived: five selectors + five value knobs; channel + three program + bank footswitches; five block + eight control buttons. Pedal switch additional; visual check pending. | [Manual pp4–5][AX15-M] |
+| Display | Backlit LCD; diagonal, color and touch unverified. | [Manual p3][AX15-M] |
+| Dimensions / mass | **420×187.7×65.4mm WDH; 2.4kg**. | [Manual p15][AX15-M] |
+| Processing / categories | **56 variations; maximum eight simultaneous**. Five selectable blocks: DRIVE-AMP/CABINET/MODULATION/PEDAL/AMBIENCE; some PEDAL pairings disable MODULATION or AMBIENCE. Category subtotals pending. | [Manual pp3,10][AX15-M] |
+| Factory / user memory | **96=48 preset+48 user**; presets cannot be overwritten. Initial user contents unverified. | [Manual pp3,13][AX15-M] |
+| Synth / acoustic | Acoustic simulation confirmed; synth engine unverified. | [Korg product][AX15-P] |
+| I/O | Mono guitar input; stereo-mini AUX/headphones; L/MONO,R mono-phone outputs; DC input. No USB, MIDI or FX loop in inventory. | [Manual pp6,15][AX15-M] |
+| Power / battery / USB | **9V DC**; current, polarity and battery operation unverified. No USB connector. KA-189 compatible supply rated **9V/600mA**, not device draw. | [Manual p15][AX15-M]; [Korg adapter][AX15-A] |
+| IR / NAM / capture | User IR, native/converted NAM and captures unverified. | Unresolved |
+| Editor / software | Full editor and supported platforms unverified. | Unresolved |
+| Looper / drums / live | Sample & Play8s; Phrase Trainer8s high-quality/16s extended, mono; metronome. A/B switches drive/cabinet combinations within a program. Trainer disables three downstream blocks. Phrase persistence, overdub and trails unverified. | [Manual pp3,7,11][AX15-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | **Rp1,500,000**, title says Bekas; **Habis/sold out**, historical ask only. ditokoku, shop18190367/item28842881961, Kota Depok. Checked2026-10-17; two-month cache with August delivery date. Working state, adapter/bundle, warranty and variants unverified. Rp10,000 late-arrival compensation is not a discount; shipping/tax/checkout unknown. | [Exact Shopee item][AX15-S] |
+| New | Unknown; no qualified new offer established. | — |
+
+<!-- comparison evidence ends -->
+
+Manual E2 viewed as browser text; controls not visually certified. No manual/software/dependency saved or installed. Multi-model shop offers and accessories excluded from prices. Full category enumeration, display details, power limits, imports, software and live restrictions remain open.
+
+[AX15-M]: https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf
+[AX15-P]: https://www.korg.com/de/products/effects/ax1500g/
+[AX15-A]: https://www.korg.com/de/products/accessories/ka_189/
+[AX15-S]: https://shopee.co.id/Efek-Multi-Gitar-Listrik-Korg-Toneworks-AX1500G-Bekas-i.18190367.28842881961

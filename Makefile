@@ -1227,3 +1227,7 @@ research-commit-gt8:
 .PHONY: research-commit-rp255
 research-commit-rp255:
 	python3 scripts/research_tools.py commit-rp255
+
+.PHONY: research-commit-ax1500g
+research-commit-ax1500g:
+	python3 scripts/research_tools.py commit-ax1500g
