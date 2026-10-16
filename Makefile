@@ -955,3 +955,7 @@ research-commit-boss-history-union:
 .PHONY: research-commit-ms60b
 research-commit-ms60b:
 	python3 scripts/research_tools.py commit-ms60b
+
+.PHONY: research-commit-a1xfour
+research-commit-a1xfour:
+	python3 scripts/research_tools.py commit-a1xfour

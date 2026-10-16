@@ -1096,3 +1096,36 @@ Checked **2026-10-17**. Original discontinued bass multi-effects,distinct from M
 ### Remaining verification
 
 Reconcile original58-effect marketing withV2effectsheet;verifycomplete synth inventory,complete I/O/expression exclusions,screen specifications,USB supply/audio/MIDI,editor availability,memory overwrite,looper/drums andqualified current used/new offers. Do not borrow MS-60B+ specifications.
+
+## A1X FOUR
+
+Reviewed **2026-10-17**. Separate acoustic multi-effects model with built-in expression,not A1 FOUR. Shared bass classification follows the manufacturer's explicit acoustic-bass scope;no ownership assertion. Partial research from official HTML and search-indexed manual text;no manual,software,firmware or dependency downloaded.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / controls | Built-in expression controls PEDAL effects;dedicated pedal switch toggles that effect. Physical toe/front-end actuation and external EXP support remain unverified. Four rotary knobs;complete footswitch/button counts ?. | [Manual,p.8](https://zoomcorp.com/documents/119/E_A1FOUR.pdf); [quick guide,p.6](https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf) |
+| Display / body | 128×32 dot-matrix LCD;diagonal,color/mono and touch ?. **216 W ×156 D ×52 H mm;610g excluding batteries**. Medium footprint;A1 FOUR's130mm width/340g do not apply. | [Quick guide,p.15](https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf) |
+| Simultaneous effects | **Up to5 effects**;DSP/parameter-complexity limits need exact-model verification. 80+ library choices are not simultaneous blocks. | [Quick guide,p.15](https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf); [product](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/) |
+| Categories / choices | Family advertised80+ effects,35+ for acoustic instruments;A1X adds8pedal effects covering volume,pitch,reverb,delay,wah. Exact category inventory/factory versus downloadable counts unresolved. | [Product](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/) |
+| Presets / memory | **50 total,all50 preloaded**,five banks of10,patch numbers10–59. Factory/user are not100 separate memories. Save/copy/overwrite behavior remains unverified. | [Quick guide,pp.6,15](https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf) |
+| Acoustic / synth | IR-based AG body models with Gain/Bass/Mid/Treble and piezo/magnetic pickup selection. Marketing15factory AG presets+13Guitar Lab additions is not extra hardware memory. Electric-to-acoustic simulation and exact synth inventory remain unverified. | [Product](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/) |
+| Bass / instrument scope | Family page explicitly includes acoustic bass plus guitar,sax,trumpet,violin,harmonica. Shared bass membership is acoustic-bass scoped;the linked upright-bass demonstration identifies A1 FOUR,not an A1X demonstration. | [Product](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/) |
+| Audio / control ports | Mono standard-phone input470kΩ;stereo mini AUX;one stereo standard-phone **combined line/headphone output**;Micro-B USB MIDI. AUX bypasses effects to OUTPUT. External EXP,MIDI-DIN and FX-loop exclusions remain unverified. | [Quick guide,p.15](https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf); [manual,p.8](https://zoomcorp.com/documents/119/E_A1FOUR.pdf) |
+| Power | **9V DC500mA center-negative AD-16**,4AA or USB supply. Manufacturer rated18h alkaline with backlight off;actual runtime varies. USB voltage/current ?. | [Quick guide,p.15](https://zoomcorp.com/documents/118/E_A1FOUR_QuickGuide.pdf) |
+| Mic / phantom | Separate MAA-1 adapter supplies microphone connection and phantom;not onboard pedal XLR/phantom. Official box list includes MAA-1;actual seller bundle contents unverified. | [Product](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/) |
+| IR / NAM / capture | AG modeling uses proprietary IR technology. Third-party WAV IR import,native NAM,converted NAM and user capture support not established. | [Product](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/) |
+| Editor / platforms | Guitar Lab manages patches and edits/adds effects via computer USB. Exact current OS support,drivers/updaters,mobile editor and USB audio remain unverified. USB MIDI does not establish USB audio. | [Manual,p.8](https://zoomcorp.com/documents/119/E_A1FOUR.pdf) |
+| Looper / rhythm / live |30-second looper;68rhythm patterns;MEMORY/STOMP modes and feedback filter. Looper mono/stereo,Undo,power-off persistence,slot cost,scenes/tails and detailed routing remain unverified for this record. | [Product](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/) |
+
+### Separate IDR hardware offers
+
+Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?** Exact-model indexed asks below do not establish condition,current stock or completed sales.
+
+- **Rp2.838.000** — [Jagoan Electronic,shop645393778/item18364051838](https://shopee.co.id/Zoom-A1X-Four-Multi-Effect-Processor-Efek-Digital-Efek-Gitar-i.645393778.18364051838),Kota Jakarta Utara. Search-indexed body exposed amount/seller;direct retrieval returned a generic Shopee shell. No Habis marker exposed;quantity/checkout unverified. Relative next-day delivery is not current-stock evidence;index crawled last month.
+- **Rp3.249.680 conditional voucher ask;Habis/sold out** — [Zoom Official Shop,shop348182890/item9601659084](https://shopee.co.id/Zoom-A1X-Four-Multi-Effects-Processor-With-Adaptor-AD-16E-i.348182890.9601659084),Kota Jakarta Barat. Index labels Dengan Voucher with a2% discount atRp1JT minimum;unconditional base price unknown. Title advertises AD-16E adapter,contents unverified. Earlier discovery exposed full indexed body;reopen failed and later search only recovered title. Three-month-old crawl/relative17:00 delivery are stale. Seller's name does not verify manufacturer affiliation.
+
+Both offers:condition,revision,MAA-1/adapter bundle,warranty region,shipping/tax and delivered totals unverified. No late-delivery compensation voucher treated as price discount;no estimated used discount or currency conversion.
+
+### Scope and remaining checks
+
+No automatic vocal membership from acoustic-instrument mic support. Resolve full K/F/B and toe actuation,external expression,display specifications,category/synth inventory,DSP limits,save rules,complete ports,import workflows,editor OS/USB audio and supply requirements,looper limits,and verified used/new stock/condition. Preserve A1X-specific dimensions and expression distinctions.
