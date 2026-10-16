@@ -883,3 +883,15 @@ consolidation-audit-bass-links:
 .PHONY: research-commit-bass-union
 research-commit-bass-union:
 	python3 scripts/research_tools.py commit-bass-union
+
+.PHONY: consolidation-plan-vocal-union consolidation-audit-vocal-union consolidation-audit-vocal-links
+consolidation-plan-vocal-union:
+	python3 scripts/consolidation_tools.py plan-vocal-union
+consolidation-audit-vocal-union:
+	python3 scripts/consolidation_tools.py audit-vocal-union
+consolidation-audit-vocal-links:
+	python3 scripts/consolidation_tools.py audit-vocal-links
+
+.PHONY: research-commit-vocal-union
+research-commit-vocal-union:
+	python3 scripts/research_tools.py commit-vocal-union

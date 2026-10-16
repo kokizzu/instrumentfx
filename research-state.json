@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Vocal shared-source consolidation",
-    "task": "Bass shared-source content union verified (105fields,6groups,20 URLs);source retained with13incominglinks. Next read full vocal source and compare root records/shared prose,then other shared sources/navigation and fresh Shopee discovery. Counts do not prove exhaustive coverage or complete migration.",
+    "model": "Advanced-modelers shared-source consolidation",
+    "task": "Vocal content union verified (112fields,6groups,19URLs);source retained with13incominglinks. Next read advanced-modelers shared source and verify model/shared-context preservation,then BOSS and other shared sources/navigation. Fresh Shopee discovery and technical verification remain required.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -16664,6 +16664,199 @@
         ],
         "retirement_authorized": false
       }
+    },
+    "shared_vocal_audit": {
+      "date": "2026-10-17",
+      "source": "effects/vocal.md",
+      "source_sha256": "418bdf05e190f37e35e31b32d958014f3c019522f4891118d9d1ecd2c667107b",
+      "complete_source_read": true,
+      "source_retired": false,
+      "remaining_work": "Content union verified:112model fields,6shared groups,19 external URLs.13incoming links,no fragments,4resolving outgoing links. Navigation/shortcut/HTML/code/external references and provenance remain before retirement. Other shared sources,technical gaps and fresh discovery remain.",
+      "prose_union": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-vocal-union",
+        "source_sha256": "418bdf05e190f37e35e31b32d958014f3c019522f4891118d9d1ecd2c667107b",
+        "destinations": [
+          "ZOOM.md",
+          "BOSS.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "paragraph_groups": 6,
+        "external_urls": 19,
+        "model_manifests": 8,
+        "model_fields": 112,
+        "normalization": "Resolve reference links and local paths to root;all other text retained.",
+        "source_retired": false
+      },
+      "explicit_link_audit": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-vocal-links",
+        "incoming_occurrences": 13,
+        "incoming": [
+          {
+            "source": "BOSS.md",
+            "line": 211,
+            "link": "effects/vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 268,
+            "link": "effects/vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 325,
+            "link": "effects/vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 381,
+            "link": "effects/vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 438,
+            "link": "effects/vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 493,
+            "link": "effects/vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 761,
+            "link": "effects/vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 818,
+            "link": "effects/vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/COVERAGE.history-2026-10-14.md",
+            "line": 16,
+            "link": "vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.history-2026-10-14.md",
+            "line": 45,
+            "link": "vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/README.md",
+            "line": 25,
+            "link": "vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-compact.md",
+            "line": 3,
+            "link": "vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/specialist.md",
+            "line": 3,
+            "link": "vocal.md",
+            "kind": "inline",
+            "target": "effects/vocal.md",
+            "fragment": "",
+            "exists": true
+          }
+        ],
+        "outgoing_occurrences": 4,
+        "missing_outgoing": [],
+        "incoming_fragments": [],
+        "headings": [
+          {
+            "line": 1,
+            "heading": "Vocal and acoustic/vocal processors"
+          },
+          {
+            "line": 7,
+            "heading": "Hardware, expression, size and prices"
+          },
+          {
+            "line": 9,
+            "heading": "Built-in expression"
+          },
+          {
+            "line": 15,
+            "heading": "No built-in expression"
+          },
+          {
+            "line": 29,
+            "heading": "Processing, presets and sound functions"
+          },
+          {
+            "line": 44,
+            "heading": "Ports, power, apps and live use"
+          },
+          {
+            "line": 57,
+            "heading": "Sources"
+          }
+        ],
+        "unmatched_markdown_literal_mentions": [
+          {
+            "source": "effects/MIGRATION.md",
+            "line": 26
+          }
+        ],
+        "limitations": [
+          "Lexical explicit inline/reference/definition links; definition and use are separate occurrences.",
+          "Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.",
+          "No link rewrite, anchor mapping, source deletion or external availability verification."
+        ],
+        "retirement_authorized": false
+      }
     }
   },
   "deferred_work": {
@@ -16747,7 +16940,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Vocal shared-source consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Advanced-modelers shared-source consolidation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

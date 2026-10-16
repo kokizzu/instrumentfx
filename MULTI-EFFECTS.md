@@ -117,3 +117,20 @@ The following groups preserve the2026-10-14 comparison context and source qualif
 - P4: [GC BOSS bass catalogue](https://www.guitarcenter.com/BOSS/Bass-Effects-Pedals.gc).
 
 Bass is not restricted to products labelled “bass” on the enclosure. The sourced [Valeton GP-100/150/180](effects/guitar-compact.md), [BOSS GX-10/GT-1000/GT-1000CORE](effects/guitar-boss.md), and other multi-instrument processors have documented bass-related processing. Compare input headroom, dry blend, DI output, parallel routing and low-end retention rather than assuming every guitar preset is appropriate for bass.
+
+### Historical vocal shared-source navigation and evidence context
+
+The following groups preserve the2026-10-14 source context. Local links are normalized to repository root. Manual-page/control-count and seller qualifications retain their original scope. The final backlog statement is historical:current HeadRush and TC-Helicon records are linked from README.md. This is preservation,not fresh stock or hardware verification.
+
+[Home](effects/README.md) · [Methodology](effects/METHODOLOGY.md) · [Specialist effects](effects/specialist.md)
+
+- [V6 manufacturer manual](https://zoomcorp.com/media/documents/E_V6_2.pdf), printed pp.7–9 controls, 17–21 algorithms, 38 specifications. Nine rotary controls include the rear headphone-level knob. Seven small buttons include all five harmony buttons plus Store and Enhance.
+- [V3 manufacturer manual](https://zoomcorp.com/documents/1332/E_V3_2.pdf), control diagram, power, USB audio and effect-setting sections. Desktop buttons are not footswitches.
+- [VE-1 official photo](https://static.roland.com/assets/images/products/main/ve-1_top_main.jpg), [VE-2 official photo](https://static.roland.com/assets/images/products/main/ve-2_top_main.jpg); rotary counts include rear MIC SENS.
+- [VE-500 architecture, editor and USB-MIDI](https://www.boss.info/global/products/ve-500/).
+- [V6-SP software/support](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/v6-sp-support/).
+- P1: [Sweetwater BOSS signal-processing listings](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series), [VE-22](https://www.sweetwater.com/store/detail/VE22--boss-ve-22-vocal-effects-and-looper-pedal), [VE-500](https://www.sweetwater.com/store/detail/VE500--boss-ve-500-vocal-performer). New prices checked **2026-10-14**; bundles and open-box prices excluded.
+- P2: [Guitar Center BOSS vocal processors](https://www.guitarcenter.com/BOSS/Vocal-Processors.gc), used asking prices checked **2026-10-14**, not guaranteed stock or completed-sale values.
+- P4: [zZounds V6-SP](https://www.zzounds.com/item--ZOMZV6SP), $369.99 observation, checked **2026-10-14**.
+
+TC-Helicon, HeadRush vocal processing and other brands remain in the [coverage backlog](effects/COVERAGE.md) until their required fields have been researched. The absence of a brand here is not a recommendation against it.
