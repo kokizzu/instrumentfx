@@ -673,3 +673,7 @@ research-commit-tankpro-preservation:
 .PHONY: research-commit-annblackbox-preservation
 research-commit-annblackbox-preservation:
 	python3 scripts/research_tools.py commit-annblackbox-preservation
+
+.PHONY: research-commit-minix-preservation
+research-commit-minix-preservation:
+	python3 scripts/research_tools.py commit-minix-preservation

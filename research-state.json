@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "M-VAVE MINI-X complete-body audit",
-    "task": "ANN Blackbox complete original hash-verified; v20 index and software-label differences qualified, older hardware/import limits unresolved. Next read complete MINI-X original/root and exact primary evidence, commit before another model. Full shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
+    "model": "M-VAVE Pocket Amp complete-body audit",
+    "task": "MINI-X original body hash-verified, comparison memory/synth/import/editor fields separated, exact manufacturer catalogue/detail access limits saved. Next inspect Pocket Amp complete original/root and exact firmware evidence, commit before another model. Shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10119,6 +10119,22 @@
       },
       "retained_comparison_facts": [],
       "scope": "Complete original retained including page-specific source column and rejected older-hardware conflation. Added v20 index and exact mobile/editor-label qualification; unavailable release notes do not establish native NAM or hardware revisions."
+    },
+    {
+      "models": [
+        "M-VAVE MINI-X"
+      ],
+      "model_name": "MINI-X",
+      "destination": "M-VAVE.md#mini-x",
+      "source": "effects/findings/2026-10-15-mvave-mini-x.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MVAVE-MINIX",
+      "source_sha256": "3b6ccfcb3db00ab0b56906cb08c058957f92cc91b471ee4dc5b49bb801f2fea7",
+      "renamed_references": [],
+      "link_normalizations": {},
+      "retained_comparison_facts": [],
+      "scope": "Whole original retained including exact access/price limits and one-model ownership. Split preset/synth/import/editor fields for projection; current manufacturer catalogue confirms only nine tones and rated runtime, not missing hardware fields."
     }
   ],
   "discovery_leads": [
@@ -10679,11 +10695,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "M-VAVE::MINI-X",
-          "source": "effects/findings/2026-10-15-mvave-mini-x.md",
-          "dest": "M-VAVE.md#mini-x"
-        },
-        {
           "model": "M-VAVE::Pocket Amp",
           "source": "effects/findings/2026-10-15-mvave-pocket-amp.md",
           "dest": "M-VAVE.md#pocket-amp"
@@ -10803,7 +10814,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE MINI-X complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE Pocket Amp complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
