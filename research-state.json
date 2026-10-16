@@ -2697,7 +2697,7 @@
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
   "response_handoff": "At the end of a research session provide the user a copyable agent continuation prompt with this exact cursor, no-workflow boundary, root-document layout, per-model immediate commits and unresolved consolidation. Never promise unattended background continuation.",
   "user_requested_comparison_rebuild": {
-    "status": "verified",
+    "status": "implemented_pending_validation",
     "requirements": [
       "ALL-GUITAR: one comparable row per eligible guitar/acoustic multifx, including HX Effects",
       "ALL-BASS: all bass-focused and documented bass-capable multifx, no unsupported blanket inference",
@@ -2705,7 +2705,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Continue BOSS VE-20;52 legacy-only models remain."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-20."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

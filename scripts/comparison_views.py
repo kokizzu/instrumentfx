@@ -422,7 +422,7 @@ def price_cells(record):
         if 'USD' in label or not ('Rp' in value or '?' in value):
             continue
         entry='**'+clean(label).replace('**','')+':** '+value
-        if re.search(r'used|preloved|bekas|second',label,re.I) and not re.search(r'new|retail',label,re.I):
+        if re.search(r'\b(?:used|preloved|bekas|second)\b',label,re.I) and not re.search(r'new|retail',label,re.I):
             used.append(entry)
         else:
             other.append(entry)
