@@ -78,7 +78,8 @@ For guitars,include **multi-effects processors only**. Effects-only processors c
 
 Ever-owned coverage includes former/donated and hand-operated multi-effects. The preserved ownership overlay has21 identified entries,20 with technical profiles; the older BlackBox revision,exact Zoom vocal model/bundle and RH-4 ownership remain unresolved. AME-100 ownership does not establish AVE-100 ownership. The rejected MG-400 order and GP-50 backup plan are not confirmed purchases. Private receipt/order/payment information must not be published.
 
-The root [research ledger](research-state.json) also contains the complete structured ownership overlay and dated policy/history sources under public_metadata:21 identified entries,20 root-profile links,explicit unresolved identities and ownership corrections. Historical missing-profile states are preserved alongside current links;they do not add catalogue models.
+
+The root [research ledger](research-state.json) also contains the structured ownership overlay,dated policy/history and marketplace discovery evidence under public_metadata:21 identified entries,20 root-profile links,explicit identity corrections,rejected-price hits and superseded queues. Historical states and duplicate snapshots do not add catalogue models or establish live stock.
 
 ## Evidence and resuming
 

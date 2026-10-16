@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Public ownership and policy metadata",
-    "task": "Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Next read complete discovery index/history,coverage and remaining navigation metadata;map incoming links before source retirement. Technical gaps and fresh discovery remain.",
+    "task": "Ownership/current and original history plus scope/methodology semantics consolidated in root public_metadata;21entries/20rootprofiles,unresolved identities and exclusions retained. Discovery index/history now preserved with rejected-price hits and duplicate snapshots identified. Next read coverage/README/RESUME/MIGRATION and remaining JSON provenance,then map incoming navigation before source retirement. Technical gaps and fresh discovery remain.",
     "next_models": [],
     "after_queue": "No private receipts/mail/order/payment contents included;historical source cursors are not active instructions."
   },
@@ -27018,7 +27018,10 @@
         "effects/OWNERSHIP.md": "fab6ef708baad6831cb83f4ff8f252faf1620d3d259c16155ce555f19fea2a40",
         "effects/OWNERSHIP.history-2026-10-14.md": "55632de3503d8ee934641e51eb983e10c414cbcbe5e026a43310f9bd996afd49",
         "effects/SCOPE.md": "f74360baf27489b62f389a1dcfb29987d0399d93477195bf2e2b42a05f908517",
-        "effects/METHODOLOGY.md": "73e884f01904b5e5c5a8e719cd6f21cc16d0ca4af1cddc25138c2f5bee8d57f9"
+        "effects/METHODOLOGY.md": "73e884f01904b5e5c5a8e719cd6f21cc16d0ca4af1cddc25138c2f5bee8d57f9",
+        "effects/shopee-indonesia.md": "c9eac929b4d49fa779935d412d78f3e4d9e4a7505f1e9ea994fabf86581e483b",
+        "effects/shopee-indonesia.history-2026-10-14.md": "c607138ae4734f36eba079cb9c018fb20373cb3801cba948d19b926c95950422",
+        "effects/shopee-indonesia.history-2026-10-15-pre-boss.md": "c9eac929b4d49fa779935d412d78f3e4d9e4a7505f1e9ea994fabf86581e483b"
       },
       "destination": "research-state.json#public_metadata",
       "ownership_entries": 21,
@@ -29651,7 +29654,1911 @@
             "end_line": 81
           }
         ]
+      },
+      "effects/shopee-indonesia.md": {
+        "source": "effects/shopee-indonesia.md",
+        "sha256": "c9eac929b4d49fa779935d412d78f3e4d9e4a7505f1e9ea994fabf86581e483b",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 36,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Shopee Indonesia — current multi-effects evidence and queue",
+            "context": "Shopee Indonesia — current multi-effects evidence and queue",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparisons](README.md) · [Scope](SCOPE.md) · [Resume](RESUME.md) · [Ledger](research-state.json)",
+            "context": "Shopee Indonesia — current multi-effects evidence and queue",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "**2026-10-14:32 active Shopee-first expansion records within80 active catalogue models.** A technical record is not a live-stock guarantee. The catalogue is not an exhaustive seller inventory. FV01 and other SCOPE exclusions are not active candidates.",
+            "context": "Shopee Indonesia — current multi-effects evidence and queue",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "The full earlier item-by-item discovery,original-model cross-references,quoted prices and excluded accessory/preset hits are preserved byte-for-byte in [historical marketplace evidence](shopee-indonesia.history-2026-10-14.md). Its old counts/cursor and FV01 row are historical only. Each current comparison links to individual findings with exact seller/item evidence.",
+            "context": "Shopee Indonesia — current multi-effects evidence and queue",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Researched expansion models",
+            "context": "Researched expansion models",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Comparison",
+              "Active records",
+              "Models"
+            ],
+            "alignment": "|---|---:|---|",
+            "rows": [
+              {
+                "Comparison": "[Expansion1](shopee-multifx.md)",
+                "Active records": "16",
+                "Models": "TANK-G/B/MINI,MK-20/300,Ampero Mini,original GE100/GE150/GE200,GE150 Pro Li,G1/G1X/G2/G2X FOUR,FX100/200"
+              },
+              {
+                "Comparison": "[Expansion2](shopee-multifx-2.md)",
+                "Active records": "8",
+                "Models": "TANK-PRO,ANN Blackbox,BG300,KMF-10,GEM BOX II/III,VoiceLive Play,Play Acoustic"
+              },
+              {
+                "Comparison": "[Expansion3](shopee-multifx-3.md)",
+                "Active records": "4",
+                "Models": "Core,Arena2000,MG-100,MG-200;FV01 excluded"
+              },
+              {
+                "Comparison": "[MOOER Pro variants](shopee-multifx-4.md)",
+                "Active records": "4",
+                "Models": "GE100 Pro/Pro Li,GE200 Pro/Pro Li"
+              }
+            ],
+            "context": "Researched expansion models",
+            "line": 11,
+            "end_line": 16
+          },
+          {
+            "kind": "paragraph",
+            "text": "The original-catalogue models and owned GR-55/B1Xon are not counted again in this32. Owner history is a separate inclusion route even when current Shopee offers are unavailable.",
+            "context": "Researched expansion models",
+            "line": 18,
+            "end_line": 18
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Latest exact offers and qualifications",
+            "context": "Latest exact offers and qualifications",
+            "line": 20,
+            "end_line": 20
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Model / full finding",
+              "Shopee evidence",
+              "Price context"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Model / full finding": "[GE100 Pro](findings/2026-10-14-mooer-ge100-pro.md)",
+                "Shopee evidence": "[LOBAJET item54064319398](https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398)",
+                "Price context": "**Rp2.103.300 indexed**,older snippet/voucher conflict not fully resolved. Separate30-day preorderRp5.729.000 in finding"
+              },
+              {
+                "Model / full finding": "[GE100 Pro Li](findings/2026-10-14-mooer-ge100-pro-li.md)",
+                "Shopee evidence": "[LOBAJET item47314329999](https://shopee.co.id/MOOER-GE100-Pro-Li-with-AI-Intelligent-Multi-Effects-Technology-i.70636842.47314329999)",
+                "Price context": "**Rp2.923.526 WITH VOUCHER**;separate [item45116479274](https://shopee.co.id/MOOER-GE100-Pro-Li-Black-Multi-Effects-Guitar-Pedal-i.1875151955.45116479274) **Rp1.734.000 SOLD OUT**. Mandarin Blibli offer remains separate"
+              },
+              {
+                "Model / full finding": "[GE200 Pro](findings/2026-10-14-mooer-ge200-pro.md)",
+                "Shopee evidence": "[Mixed Pro/ProLi item46856067378](https://shopee.co.id/Mooer-GE200-PRO-GE-200-PRO-GE200-PRO-Li-Amp-Modeling-Multi-Effects-Processor-i.3012339.46856067378)",
+                "Price context": "**? per model**;old5.95–6.95million mixed range not assigned to non-Li. GMI retailerRp5.8million is not Shopee evidence"
+              },
+              {
+                "Model / full finding": "[GE200 Pro Li](findings/2026-10-14-mooer-ge200-pro-li.md)",
+                "Shopee evidence": "[Item43405138331](https://shopee.co.id/Mooer-GE200-PROLi-Amp-Modeling-Multi-Effects-Processor-with-Built-In-Rechargeable-Battery-i.96878449.43405138331)",
+                "Price context": "**Rp6.896.000 indexed**,seller name Nafiri Music Store;direct reopening failed,not authenticated or checkout-verified"
+              }
+            ],
+            "context": "Latest exact offers and qualifications",
+            "line": 22,
+            "end_line": 27
+          },
+          {
+            "kind": "paragraph",
+            "text": "No condition-verified used offers were obtained for the latest four. These observations are not a current market range or completed-sale statistics. Do not subtract a late-delivery compensation voucher from a product price.",
+            "context": "Latest exact offers and qualifications",
+            "line": 29,
+            "end_line": 29
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Pending technical records — not included in active count",
+            "context": "Pending technical records — not included in active count",
+            "line": 31,
+            "end_line": 31
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Queue",
+              "Exact saved lead",
+              "Next verification"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Queue": "**Hotone Ampero MP-100 — next**",
+                "Exact saved lead": "[Item28319916328](https://shopee.co.id/Hotone-MP-100-Ampero-Multieffects-Pedal-i.799119783.28319916328)",
+                "Next verification": "EarlierRp7.535.000 is historical discovery;recheck exact MP-100,not Mini/One/II"
+              },
+              {
+                "Queue": "Hotone Ampero II MP-350",
+                "Exact saved lead": "[Item48255478715](https://shopee.co.id/Hotone-MP-350-MP350-Ampero-II-Multieffects-Pedal-i.16879370.48255478715)",
+                "Next verification": "EarlierRp11.900.000;not Ampero II Stomp"
+              },
+              {
+                "Queue": "MOOER GE1000",
+                "Exact saved lead": "[Item29678282909](https://shopee.co.id/Mooer-GE-1000-Multi-Effects-Processor-with-Exp-pedals-i.158144224.29678282909)",
+                "Next verification": "EarlierRp7.966.500;standard/Li and current firmware separate"
+              },
+              {
+                "Queue": "Hotone Ampero II Stage MP-380",
+                "Exact saved lead": "[Item56202249780](https://shopee.co.id/Hotone-MP-380-Ampero-II-Stage-Multieffects-Pedal-2-i.72439811.56202249780)",
+                "Next verification": "Price and exact Stage documentation pending"
+              },
+              {
+                "Queue": "Line6 HX Stomp XL",
+                "Exact saved lead": "[Item22454857163](https://shopee.co.id/Line-6-HX-Stomp-XL-Guitar-Multi-effects-Floor-Processor-i.16879370.22454857163)",
+                "Next verification": "EarlierRp14.899.000;not existing non-XL record"
+              },
+              {
+                "Queue": "MOOER GE150 Pro non-Li",
+                "Exact saved lead": "[Item45400597501](https://shopee.co.id/Mooer-GE150-Pro-Multi-Effect-Efek-Gitar-Digital-i.16879370.45400597501)",
+                "Next verification": "**Rp2.750.000 SOLD OUT**,newly indexed discovery;Pro Li already covered,do not duplicate"
+              },
+              {
+                "Queue": "MOOER GE150 Plus/Plus Li",
+                "Exact saved lead": "[Mixed preorder item57810886739](https://shopee.co.id/Mooer-GE150-Plus-GE150-Plus-Li-Compact-Guitar-Pedal-Multi-Effects-Processor-Preamp-Cab-Sim-Reverb-i.1696008947.57810886739)",
+                "Next verification": "Variant mapping and atypical earlier price unresolved"
+              },
+              {
+                "Queue": "MOOER GE150 Pro/Max family",
+                "Exact saved lead": "[Mixed item24292677095](https://shopee.co.id/Mooer-GE150-PRO-Li-GE-150-PRO-GE150PRO-GE150-MAX-GE150-MAX-Li-Guitar-Effect-Amp-Modelling-Multi-Effects-Pedal-i.3012339.24292677095)",
+                "Next verification": "ProLi already covered;other variants need distinct specs/power/price"
+              },
+              {
+                "Queue": "Original JOYO GEM BOX,also ever-owned",
+                "Exact saved lead": "[Item26533613317](https://shopee.co.id/JOYO-GEMBOX-I-Guitar-Effect-Pedal-Pedal-Efek-Gitar-Joyo-GEM-BOX-1-GEM-BOX-One-i.31171541.26533613317)",
+                "Next verification": "Matching JOYO primary manual still needed;MOOER-identified document rejected"
+              }
+            ],
+            "context": "Pending technical records — not included in active count",
+            "line": 33,
+            "end_line": 43
+          },
+          {
+            "kind": "paragraph",
+            "text": "Other eligible families require continuing discovery; absence here does not prove Indonesian unavailability. All older unresolved discoveries and original NUX/GP-50/GX-100/HX Stomp/Matribox item links remain in the historical index and source findings.",
+            "context": "Pending technical records — not included in active count",
+            "line": 45,
+            "end_line": 45
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Price and eligibility guardrails",
+            "context": "Price and eligibility guardrails",
+            "line": 47,
+            "end_line": 47
+          },
+          {
+            "kind": "paragraph",
+            "text": "Verify actual hardware,not a preset download,case,adapter,controller or unresolved lowest-priced accessory variation. Keep condition,stock,region,variant,bundle,voucher and observation date. Historical sold-out amounts are not active offers. A seller name containing Official or a familiar retailer name does not authenticate ownership/authorization. No FX rate or used-price percentage is guessed.",
+            "context": "Price and eligibility guardrails",
+            "line": 49,
+            "end_line": 49
+          },
+          {
+            "kind": "paragraph",
+            "text": "Research and commit **one model at a time**,then integrate and advance the checkpoint. Keep owner-specific gaps and the original BOSS display/IDR queue. No unattended scraping or recurring price watch is configured.",
+            "context": "Price and eligibility guardrails",
+            "line": 51,
+            "end_line": 51
+          }
+        ]
+      },
+      "effects/shopee-indonesia.history-2026-10-14.md": {
+        "source": "effects/shopee-indonesia.history-2026-10-14.md",
+        "sha256": "c607138ae4734f36eba079cb9c018fb20373cb3801cba948d19b926c95950422",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 92,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Shopee Indonesia — hardware evidence and research queue",
+            "context": "Shopee Indonesia — hardware evidence and research queue",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparison home](README.md) · [First 16 additions](shopee-multifx.md) · [Next 8 additions](shopee-multifx-2.md) · [Latest 5 additions](shopee-multifx-3.md) · [Resume](RESUME.md) · [Progress ledger](research-state.json)",
+            "context": "Shopee Indonesia — hardware evidence and research queue",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Checked 2026-10-14. Priority: multi-effects listed on Shopee Indonesia.** The catalogue contains **80 partial model records**, including **29 Shopee-first additions**. This index separates those technical records from existing-model listing evidence and still-unresearched hardware. It is **not an exhaustive seller inventory, current-stock guarantee or recommendation ranking**. A fetched or indexed listing may be older than its retrieval date.",
+            "context": "Shopee Indonesia — hardware evidence and research queue",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "An item URL establishes listing evidence, not authenticity, authorization, current availability, condition grade, exact selected variant, delivered cost or completed-sale value. Prices below are **IDR asking/listed observations**. Sold out is historical listing evidence, not proof a transaction completed. Official in a seller name is not independent authentication. No foreign-currency conversion or percentage-of-new used estimate is used.",
+            "context": "Shopee Indonesia — hardware evidence and research queue",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "A1. First 16 Shopee-first technical records",
+            "context": "A1. First 16 Shopee-first technical records",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "paragraph",
+            "text": "Each model's finding contains primary specifications, exact item links, price/condition caveats, unresolved fields and next steps. [Comparison 1](shopee-multifx.md) groups them by expression and footprint.",
+            "context": "A1. First 16 Shopee-first technical records",
+            "line": 11,
+            "end_line": 11
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Model",
+              "Technical finding",
+              "Shopee price context"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Model": "M-VAVE TANK-G",
+                "Technical finding": "[Record](findings/2026-10-14-mvave-tank-g.md)",
+                "Shopee price context": "Rp995.000 retail; separate sold-out Rp849.500"
+              },
+              {
+                "Model": "M-VAVE TANK-B",
+                "Technical finding": "[Record](findings/2026-10-14-mvave-tank-b.md)",
+                "Shopee price context": "Rp1.079.000, sold out"
+              },
+              {
+                "Model": "M-VAVE TANK MINI",
+                "Technical finding": "[Record](findings/2026-10-14-mvave-tank-mini.md)",
+                "Shopee price context": "Rp725.000 and Rp740.000 individual retail asks"
+              },
+              {
+                "Model": "M-VAVE MK-20",
+                "Technical finding": "[Record](findings/2026-10-14-mvave-mk-20.md)",
+                "Shopee price context": "Rp1.850.000; external-expression specification conflict"
+              },
+              {
+                "Model": "M-VAVE MK-300",
+                "Technical finding": "[Record](findings/2026-10-14-mvave-mk-300.md)",
+                "Shopee price context": "Rp2.700.000 New-title offer; another item has body/snippet conflict"
+              },
+              {
+                "Model": "Hotone Ampero Mini",
+                "Technical finding": "[Record](findings/2026-10-14-hotone-ampero-mini.md)",
+                "Shopee price context": "Rp4.315.000 Purple Taro adapter bundle; sold-out PRELOVED Rp2.800.000"
+              },
+              {
+                "Model": "MOOER GE100 original",
+                "Technical finding": "[Record](findings/2026-10-14-mooer-ge100.md)",
+                "Shopee price context": "Rp1.399.000 retail; used listing found without verified price"
+              },
+              {
+                "Model": "MOOER GE150 original",
+                "Technical finding": "[Record](findings/2026-10-14-mooer-ge150.md)",
+                "Shopee price context": "Rp2.744.000 retail; lower sold-out asks kept separate"
+              },
+              {
+                "Model": "MOOER GE150 Pro Li",
+                "Technical finding": "[Record](findings/2026-10-14-mooer-ge150-pro-li.md)",
+                "Shopee price context": "Rp2.400.000 Second like new; retail offers checked were sold out"
+              },
+              {
+                "Model": "MOOER GE200 original",
+                "Technical finding": "[Record](findings/2026-10-14-mooer-ge200.md)",
+                "Shopee price context": "Rp4.612.000; not GE200 Pro/Pro Li"
+              },
+              {
+                "Model": "Zoom G1 FOUR",
+                "Technical finding": "[Record](findings/2026-10-14-zoom-g1-four.md)",
+                "Shopee price context": "Rp2.178.000 adapter bundle"
+              },
+              {
+                "Model": "Zoom G1X FOUR",
+                "Technical finding": "[Record](findings/2026-10-14-zoom-g1x-four.md)",
+                "Shopee price context": "Rp2.539.350 adapter bundle"
+              },
+              {
+                "Model": "Zoom G2 FOUR",
+                "Technical finding": "[Record](findings/2026-10-14-zoom-g2-four.md)",
+                "Shopee price context": "Rp3.490.848 storefront vs Rp3.410.599 voucher"
+              },
+              {
+                "Model": "Zoom G2X FOUR",
+                "Technical finding": "[Record](findings/2026-10-14-zoom-g2x-four.md)",
+                "Shopee price context": "Rp4.500.000 retail; older/voucher/sold-out evidence separate"
+              },
+              {
+                "Model": "Flamma FX100",
+                "Technical finding": "[Record](findings/2026-10-14-flamma-fx100.md)",
+                "Shopee price context": "Rp2.480.000; another item's snippet/body conflict retained"
+              },
+              {
+                "Model": "Flamma FX200",
+                "Technical finding": "[Record](findings/2026-10-14-flamma-fx200.md)",
+                "Shopee price context": "Rp4.999.000 variant listing; Rp5.047.000 Pink listing"
+              }
+            ],
+            "context": "A1. First 16 Shopee-first technical records",
+            "line": 13,
+            "end_line": 30
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "A2. Second batch: 8 individually committed records",
+            "context": "A2. Second batch: 8 individually committed records",
+            "line": 32,
+            "end_line": 32
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparison 2](shopee-multifx-2.md) integrates all required fields with explicit unknowns. **Used-price evidence remains unknown for these eight.** The findings—not these summaries—carry technical and firmware qualifications.",
+            "context": "A2. Second batch: 8 individually committed records",
+            "line": 34,
+            "end_line": 34
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Model",
+              "Technical finding",
+              "New retail listing evidence / unresolved issues"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Model": "M-VAVE TANK-PRO",
+                "Technical finding": "[Record](findings/2026-10-14-mvave-tank-pro.md)",
+                "New retail listing evidence / unresolved issues": "**Rp1.900.000**, [Seven Stereo item44814342587](https://shopee.co.id/M-Vave-Tank-Pro-Mvave-Tank-Pro-Multi-Effect-Processor-i.16879370.44814342587); variants unresolved, old cached delivery dates. Original [item55016320305](https://shopee.co.id/product/1408254222/55016320305) was not reopened"
+              },
+              {
+                "Model": "M-VAVE ANN Blackbox",
+                "Technical finding": "[Record](findings/2026-10-14-mvave-ann-blackbox.md)",
+                "New retail listing evidence / unresolved issues": "**Rp1.089.000**, [Vi Music item41328082291](https://shopee.co.id/M-Vave-MVAVE-Ann-BlackBox-Black-box-Amp-Modeler-Effects-Processor-Multi-Effect-Guitar-i.31581393.41328082291); color variants, not a blanket specification for legacy Blackbox"
+              },
+              {
+                "Model": "Boin Audio BG300",
+                "Technical finding": "[Record](findings/2026-10-14-boin-audio-bg300.md)",
+                "New retail listing evidence / unresolved issues": "**Rp1.749.990**, [Primanada item48853835827](https://shopee.co.id/Boin-Audio-BG300-Efek-Gitar-Bass-BG-300-With-Battery-i.15931156.48853835827); With Battery title. Linked manual conflicts with retailer specifications; revision confirmation needed"
+              },
+              {
+                "Model": "Scorpion KMF-10",
+                "Technical finding": "[Record](findings/2026-10-14-scorpion-kmf-10.md)",
+                "New retail listing evidence / unresolved issues": "**Rp1.350.000**, [Imagination item44201903491](https://shopee.co.id/Scorpion-KMF10-KMF-10-KMF-10-Multi-Effect-Guitar-Processor-i.19576516.44201903491); official power/preset ambiguities retained"
+              },
+              {
+                "Model": "JOYO GEM BOX II",
+                "Technical finding": "[Record](findings/2026-10-14-joyo-gembox-ii.md)",
+                "New retail listing evidence / unresolved issues": "**Rp1.750.000**, [TOKOAUDIOPRO item21979847112](https://shopee.co.id/Efek-Joyo-Gem-Box-II-Efek-Gitar-Gembox-II-Original-Effect-Guitar-Joyo-i.253483262.21979847112). Earlier [item27481349883](https://shopee.co.id/Digital-Effect-Gitar-Joyo-Gem-Box-Gembox-II-2-Multi-Effect-Processor-i.1458451429.27481349883) Rp1.449.999 could not be reopened; historical, not an active range"
+              },
+              {
+                "Model": "JOYO GEM BOX III",
+                "Technical finding": "[Record](findings/2026-10-14-joyo-gembox-iii.md)",
+                "New retail listing evidence / unresolved issues": "**Rp4.800.000**, [GH MUSIC item25879876423](https://shopee.co.id/JOYO-GEM-BOX-III-Guitar-Multi-Effects-Processor-Efek-Gitar-i.71552895.25879876423). Earlier [item19770702484](https://shopee.co.id/joyo-gembox-III-original-garansi-resmi-joyo-i.173433434.19770702484) Rp4.500.000 was not reopened. Cheaper mixed variants excluded"
+              },
+              {
+                "Model": "TC-Helicon VoiceLive Play",
+                "Technical finding": "[Record](findings/2026-10-14-tchelicon-voicelive-play.md)",
+                "New retail listing evidence / unresolved issues": "**Rp5.280.000, SOLD OUT**, [Asia Pro Sound item26030546305](https://shopee.co.id/TC-Helicon-VoiceLive-Play-Guitar-Effects-i.703046367.26030546305). Vocal processor despite seller's Guitar Effects title; current firmware remains to be reconciled"
+              },
+              {
+                "Model": "TC-Helicon Play Acoustic",
+                "Technical finding": "[Record](findings/2026-10-14-tchelicon-play-acoustic.md)",
+                "New retail listing evidence / unresolved issues": "**Rp5.100.000**, [NEO MUSIC item11220047810](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810). Earlier same-price [item28601255384](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.32743136.28601255384) retained as historical discovery; separate guitar/vocal path documented"
+              }
+            ],
+            "context": "A2. Second batch: 8 individually committed records",
+            "line": 36,
+            "end_line": 45
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "A3. Latest 5, each committed before the next model",
+            "context": "A3. Latest 5, each committed before the next model",
+            "line": 47,
+            "end_line": 47
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparison 3](shopee-multifx-3.md) integrates their hardware, display, processing, memory, power, software and loading evidence. No verified current used-price range was obtained. These five are no longer discovery-only rows.",
+            "context": "A3. Latest 5, each committed before the next model",
+            "line": 49,
+            "end_line": 49
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Model",
+              "Finding / Shopee item",
+              "Price and evidence status"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Model": "HeadRush Core",
+                "Finding / Shopee item": "[Technical record](findings/2026-10-14-headrush-core.md); [ROCKPIZZ item44463652142](https://shopee.co.id/HEADRUSH-CORE-GUITAR-MULTI-EFFECT-AMP-MODELER-VOCAL-PROCESSOR-i.440477624.44463652142)",
+                "Price and evidence status": "**Rp15.120.000** reopened retail ask; condition/accessories/checkout stock unverified. Core-specific firmware5.2 native NAM documented; power/category conflicts preserved"
+              },
+              {
+                "Model": "Flamma FV01",
+                "Finding / Shopee item": "[Technical record](findings/2026-10-14-flamma-fv01.md); [Tokosound item20283837190](https://shopee.co.id/FLAMMA-FV01-FV-01-CORRECTOR-Vocal-Pitch-Correction-Effect-Pedal-i.59331526.20283837190)",
+                "Price and evidence status": "**Rp2.145.000**; older [NEO MUSIC item14463857534](https://shopee.co.id/Flamma-FV01-Correcior-Vocal-Pitch-Correction-Effect-Pedal-i.158235298.14463857534) **Rp1.816.920** retains August delivery text, not a verified current lower bound"
+              },
+              {
+                "Model": "Donner Arena2000",
+                "Finding / Shopee item": "[Technical record](findings/2026-10-14-donner-arena2000.md); [item22664158485](https://shopee.co.id/Donner-Arena-2000-Pedal-Multi-Efek-Gitar-i.1087619206.22664158485)",
+                "Price and evidence status": "**Rp4.257.000, SOLD OUT, WITH VOUCHER**. Earlier [wooden-packing item45005643636](https://shopee.co.id/Donner-Arena-2000-Free-Packing-Kayu-Multi-Effect-Pedal-i.49070533.45005643636) Rp4.180.000 could not be reopened; historical discovery only"
+              },
+              {
+                "Model": "NUX MG-100",
+                "Finding / Shopee item": "[Technical record](findings/2026-10-14-nux-mg-100.md); [item1303695159](https://shopee.co.id/NUX-MG-100-MG-100-Electric-Guitar-Multi-Effects-Pedal-Processor-i.49070533.1303695159)",
+                "Price and evidence status": "Earlier **Rp1.462.000, sold out** retained from this index; listing could not be reopened. Fresh price/stock **?**, not newly verified. V1 manual category counts now recorded"
+              },
+              {
+                "Model": "NUX MG-200",
+                "Finding / Shopee item": "[Technical record](findings/2026-10-14-nux-mg-200.md); [Red Musik Bali item6685314008](https://shopee.co.id/Effect-Gitar-Nux-MG-200-MG200-MG-200-Modelling-Guitar-Processor-i.198150809.6685314008)",
+                "Price and evidence status": "**Rp1.500.000, SOLD OUT**, reopened. Condition not exposed: do not classify the amount as either new or used. V1 cover/list effect-count conflict preserved"
+              }
+            ],
+            "context": "A3. Latest 5, each committed before the next model",
+            "line": 51,
+            "end_line": 57
+          },
+          {
+            "kind": "paragraph",
+            "text": "All **29 additions** remain partial. Findings and these table rows represent the same underlying models, not duplicate inventory. A technical first pass is not a current-stock or complete-price-range certification.",
+            "context": "A3. Latest 5, each committed before the next model",
+            "line": 59,
+            "end_line": 59
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "B. Shopee evidence for original-catalogue models",
+            "context": "B. Shopee evidence for original-catalogue models",
+            "line": 61,
+            "end_line": 61
+          },
+          {
+            "kind": "paragraph",
+            "text": "These are cross-references, not additional models. Original technical pages and older source evidence remain preserved; these observations do not silently migrate or re-certify an entire page.",
+            "context": "B. Shopee evidence for original-catalogue models",
+            "line": 63,
+            "end_line": 63
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Existing model",
+              "Exact Shopee hardware listing",
+              "Observation / integration task"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Existing model": "NUX MG-101",
+                "Exact Shopee hardware listing": "[Item29053060255](https://shopee.co.id/Efek-Gitar-NUX-MG-101-%28ORIGINAL%29-i.398392448.29053060255)",
+                "Observation / integration task": "Rp1.590.000, **sold out**; historical only"
+              },
+              {
+                "Existing model": "NUX MG-300 original",
+                "Exact Shopee hardware listing": "[Item9151053239](https://shopee.co.id/NUX-MG300-Efek-Gitar-NUX-MG-300-ORIGINAL-Modeling-Guitar-Processor-Multi-Efek-Digital-i.154467850.9151053239)",
+                "Observation / integration task": "Identity found; price/stock not established"
+              },
+              {
+                "Existing model": "NUX MG-300 MKII",
+                "Exact Shopee hardware listing": "[Item25339437490](https://shopee.co.id/NUX-MG300-MKII-Guitar-Modelling-Processor-Multi-Effects-Guitar-Pedal-NUX-MG-300-MKii-i.12356205.25339437490)",
+                "Observation / integration task": "Separate from original MG-300; price pending"
+              },
+              {
+                "Existing model": "NUX MG-400",
+                "Exact Shopee hardware listing": "[Imagination item20552512814](https://shopee.co.id/Nux-MG-400-Modeling-Guitar-Bass-Processor-i.19576516.20552512814)",
+                "Observation / integration task": "Rp3.424.000 indexed retail; stock/condition unconfirmed"
+              },
+              {
+                "Existing model": "NUX MG-30",
+                "Exact Shopee hardware listing": "[Item11596793646](https://shopee.co.id/Nux-MG-30-Multi-Effects-Guitar-i.236930016.11596793646)",
+                "Observation / integration task": "Rp5.550.000 older indexed; current availability unconfirmed"
+              },
+              {
+                "Existing model": "NUX MG-50Li",
+                "Exact Shopee hardware listing": "[Item8306275370](https://shopee.co.id/Nux-MG-50-LI-Multi-Effects-Processor-for-Guitar-and-Bass-Nux-MG50Li-Multi-Efek-Gitar-i.195817632.8306275370)",
+                "Observation / integration task": "Listing found; price/stock pending"
+              },
+              {
+                "Existing model": "Valeton GP-50",
+                "Exact Shopee hardware listing": "[Item43928304060](https://shopee.co.id/Valeton-GP-50-Multi-Effect-Processor-Gp50-Efek-Valeton-Gp50-i.440269597.43928304060)",
+                "Observation / integration task": "Rp2.255.000; Chocolate-controller bundles are not bare-unit prices"
+              },
+              {
+                "Existing model": "BOSS GX-100",
+                "Exact Shopee hardware listing": "[Seven Stereo item15965574796](https://shopee.co.id/Boss-GX100-GX-100-Guitar-Effect-Processor-Pedal-Multi-Efek-i.16879370.15965574796)",
+                "Observation / integration task": "Rp13.685.000 indexed; BOSS page still needs IDR/display review"
+              },
+              {
+                "Existing model": "Line6 HX Stomp",
+                "Exact Shopee hardware listing": "[Seven Stereo item1839325370](https://shopee.co.id/Line-6-HX-Stomp-Compact-Professional-Guitar-Processor-i.16879370.1839325370)",
+                "Observation / integration task": "Rp11.625.000; hardware, not a preset pack"
+              },
+              {
+                "Existing model": "Sonicake Matribox QME-50",
+                "Exact Shopee hardware listing": "[Item23073934646](https://shopee.co.id/Efek-Gitar-SONICAKE-Matribox-QME-50-Multi-Effects-Processor-Pedal-i.19700013.23073934646)",
+                "Observation / integration task": "Rp1.799.500, **sold out**; language/region unverified"
+              },
+              {
+                "Existing model": "Sonicake Matribox II QME-100",
+                "Exact Shopee hardware listing": "[Item23662747212](https://shopee.co.id/Efek-Gitar-SONICAKE-Matribox-II-QME-100-Multi-Effects-Processor-Pedal-i.19700013.23662747212)",
+                "Observation / integration task": "Rp2.995.000, **sold out**; [Like new item26586942645](https://shopee.co.id/EFEK-GITAR-SONICAKE-MATRIBOX-II-Like-new-i.142458734.26586942645) Rp2.657.000 also sold out"
+              },
+              {
+                "Existing model": "Sonicake Matribox II Pro QME-200",
+                "Exact Shopee hardware listing": "[Item28130671930](https://shopee.co.id/Efek-Gitar-Elektrik-Gitar-Akustik-Bass-SONICAKE-Matribox-II-Pro-QME-200-Multi-Effects-Processor-63-Amplifier-Simuator-93-Effects-61-Cabsim-6-Footswitch-Built-in-Expression-Pedal-XLR-Output-Drum-Machine-Touchscreen-4.3-USB-Audio-Interface-Soundcard-Pedal-i.19700013.28130671930)",
+                "Observation / integration task": "Hardware listing found; price pending; long seller specification title is not primary evidence"
+              }
+            ],
+            "context": "B. Shopee evidence for original-catalogue models",
+            "line": 65,
+            "end_line": 78
+          },
+          {
+            "kind": "paragraph",
+            "text": "Original pages: [NUX](guitar-nux.md), [compact](guitar-compact.md), [BOSS](guitar-boss.md), [advanced](advanced-modelers.md), [larger floorboards](guitar-floorboards.md).",
+            "context": "B. Shopee evidence for original-catalogue models",
+            "line": 80,
+            "end_line": 80
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "C. Hardware still awaiting technical comparison",
+            "context": "C. Hardware still awaiting technical comparison",
+            "line": 82,
+            "end_line": 82
+          },
+          {
+            "kind": "paragraph",
+            "text": "**These rows do not count toward the 80 researched models.** Obtain matching primary documentation before adding specifications. Mixed listings require selected-variant verification; an unresolved price range does not apply to every model in its title.",
+            "context": "C. Hardware still awaiting technical comparison",
+            "line": 84,
+            "end_line": 84
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Priority / family",
+              "Shopee evidence",
+              "Price observation / next verification"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Priority / family": "**Next: MOOER GE100 Pro**",
+                "Shopee evidence": "[Item54064319398](https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398)",
+                "Price observation / next verification": "Rp3.019.000 snippet vs Rp2.103.300 voucher/body; reconcile before quoting. Not original GE100 or Pro Li"
+              },
+              {
+                "Priority / family": "MOOER GE100 Pro Li",
+                "Shopee evidence": "[Item47314329999](https://shopee.co.id/MOOER-GE100-Pro-Li-with-AI-Intelligent-Multi-Effects-Technology-i.70636842.47314329999)",
+                "Price observation / next verification": "Rp3.529.000, **sold out**; Li power differs"
+              },
+              {
+                "Priority / family": "MOOER GE200 Pro / Pro Li",
+                "Shopee evidence": "[Mixed item46856067378](https://shopee.co.id/Mooer-GE200-PRO-GE-200-PRO-GE200-PRO-Li-Amp-Modeling-Multi-Effects-Processor-i.3012339.46856067378)",
+                "Price observation / next verification": "Rp5.950.000–Rp6.950.000 **mixed variants**, not a per-model range"
+              },
+              {
+                "Priority / family": "MOOER GE1000",
+                "Shopee evidence": "[Item29678282909](https://shopee.co.id/Mooer-GE-1000-Multi-Effects-Processor-with-Exp-pedals-i.158144224.29678282909)",
+                "Price observation / next verification": "Rp7.966.500; firmware/manual pending"
+              },
+              {
+                "Priority / family": "MOOER GE150 Plus / Plus Li",
+                "Shopee evidence": "[Mixed preorder item57810886739](https://shopee.co.id/Mooer-GE150-Plus-GE150-Plus-Li-Compact-Guitar-Pedal-Multi-Effects-Processor-Preamp-Cab-Sim-Reverb-i.1696008947.57810886739)",
+                "Price observation / next verification": "Rp7.295.000 indexed preorder; selected variant/unusual price not validated as typical"
+              },
+              {
+                "Priority / family": "MOOER GE150 Pro / Max families",
+                "Shopee evidence": "[Mixed item24292677095](https://shopee.co.id/Mooer-GE150-PRO-Li-GE-150-PRO-GE150PRO-GE150-MAX-GE150-MAX-Li-Guitar-Effect-Amp-Modelling-Multi-Effects-Pedal-i.3012339.24292677095)",
+                "Price observation / next verification": "Pro Li **already researched**; Pro/Max/Max Li remain pending"
+              },
+              {
+                "Priority / family": "Hotone Ampero MP-100",
+                "Shopee evidence": "[Item28319916328](https://shopee.co.id/Hotone-MP-100-Ampero-Multieffects-Pedal-i.799119783.28319916328)",
+                "Price observation / next verification": "Rp7.535.000 indexed; exact revision needed"
+              },
+              {
+                "Priority / family": "Hotone Ampero II Stage MP-380",
+                "Shopee evidence": "[Item56202249780](https://shopee.co.id/Hotone-MP-380-Ampero-II-Stage-Multieffects-Pedal-2-i.72439811.56202249780)",
+                "Price observation / next verification": "Listing found; price/stock pending"
+              },
+              {
+                "Priority / family": "Hotone Ampero II MP-350",
+                "Shopee evidence": "[Seven Stereo item48255478715](https://shopee.co.id/Hotone-MP-350-MP350-Ampero-II-Multieffects-Pedal-i.16879370.48255478715)",
+                "Price observation / next verification": "Rp11.900.000 indexed; not Ampero II Stomp"
+              },
+              {
+                "Priority / family": "Line6 HX Stomp XL",
+                "Shopee evidence": "[Item22454857163](https://shopee.co.id/Line-6-HX-Stomp-XL-Guitar-Multi-effects-Floor-Processor-i.16879370.22454857163)",
+                "Price observation / next verification": "Rp14.899.000; distinct from existing non-XL record"
+              },
+              {
+                "Priority / family": "JOYO GEM BOX I",
+                "Shopee evidence": "[Item26533613317](https://shopee.co.id/JOYO-GEMBOX-I-Guitar-Effect-Pedal-Pedal-Efek-Gitar-Joyo-GEM-BOX-1-GEM-BOX-One-i.31171541.26533613317)",
+                "Price observation / next verification": "Earlier Rp1.100.000; matching JOYO manual still needed. Similarly titled manual with MOOER identifiers rejected as JOYO evidence"
+              }
+            ],
+            "context": "C. Hardware still awaiting technical comparison",
+            "line": 86,
+            "end_line": 98
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "D. Search hits not accepted as processor prices",
+            "context": "D. Search hits not accepted as processor prices",
+            "line": 100,
+            "end_line": 100
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Example",
+              "Why excluded"
+            ],
+            "alignment": "|---|---|",
+            "rows": [
+              {
+                "Example": "[GE200 lead/solo tones](https://shopee.co.id/Lead-Solo-Mooer-GE-200-Guitar-tones-i.28713236.28357599850)",
+                "Why excluded": "Downloadable presets, not GE200 hardware"
+              },
+              {
+                "Example": "[ACDC HX Stomp presets](https://shopee.co.id/ACDC-Helix-HX-Stomp-presets-i.28713236.29520007425)",
+                "Why excluded": "Digital presets, not a processor"
+              },
+              {
+                "Example": "[Arena preset pack](https://shopee.co.id/Donner-Arena-2000-Presets-All-Genre-Worship-i.28713236.41713144370)",
+                "Why excluded": "Rp32.999 preset content, not an Arena2000"
+              },
+              {
+                "Example": "[FX200 / NUX bag](https://shopee.co.id/Softcase-tas-Flamma-FX200-NUX-MG-30-NUX-Trident-NME-5-i.14174668.57765920939)",
+                "Why excluded": "Softcase only, despite several model names"
+              },
+              {
+                "Example": "[HX Stomp dual footswitch](https://shopee.co.id/Dual-footswitch-line6-hx-stomp-i.238376874.50763901210)",
+                "Why excluded": "Controller accessory"
+              },
+              {
+                "Example": "[TC-Helicon adapter](https://shopee.co.id/SWITCHING-ADAPTER-BUAT-TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.14849321.25588228911)",
+                "Why excluded": "Power supply only"
+              },
+              {
+                "Example": "[GEM BOX III item425693325](https://shopee.co.id/Guitar-multi-efect-Joyo-GEM-BOX-3-gembox-III-i.31173885.425693325), [item25068621708](https://shopee.co.id/EFEK-GITAR-JOYO-GEMBOX-3-GEM-BOX-III-EFEK-GITAR-ELEKTRIK-i.38404754.25068621708)",
+                "Why excluded": "Low/mixed variation amounts not proven to buy a complete GEM BOX III"
+              },
+              {
+                "Example": "Very low MK-300/FX100 hits without resolved hardware variation",
+                "Why excluded": "Insufficient full-unit evidence, not automatically branded fraudulent"
+              }
+            ],
+            "context": "D. Search hits not accepted as processor prices",
+            "line": 102,
+            "end_line": 111
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Continuation protocol",
+            "context": "Continuation protocol",
+            "line": 113,
+            "end_line": 113
+          },
+          {
+            "kind": "paragraph",
+            "text": "**Start at MOOER GE100 Pro**, then Pro Li, GE200 Pro/Pro Li and remaining saved families. All models in A1–A3 are already partial technical records; do not restart them or count their findings twice. Obtain exact primary sources, verify firmware/region and commit **each model immediately** before moving on. Integrate and update the checkpoint; preserve the original BOSS/NUX/bass/vocal display-IDR queue.",
+            "context": "Continuation protocol",
+            "line": 115,
+            "end_line": 115
+          },
+          {
+            "kind": "paragraph",
+            "text": "Further discovery is needed across Zoom, Hotone, MOOER, BOSS, Line6, HeadRush, Valeton, NUX, TC-Helicon and lesser-documented brands. Absence from this index is not Indonesian unavailability. No automated scraping, recurring price watch or unattended research is configured.",
+            "context": "Continuation protocol",
+            "line": 117,
+            "end_line": 117
+          }
+        ]
+      },
+      "effects/shopee-indonesia.history-2026-10-15-pre-boss.md": {
+        "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+        "sha256": "c9eac929b4d49fa779935d412d78f3e4d9e4a7505f1e9ea994fabf86581e483b",
+        "historical": true,
+        "not_active_instructions": true,
+        "nonblank_lines": 36,
+        "blocks": [
+          {
+            "kind": "heading",
+            "level": 1,
+            "text": "Shopee Indonesia — current multi-effects evidence and queue",
+            "context": "Shopee Indonesia — current multi-effects evidence and queue",
+            "line": 1,
+            "end_line": 1
+          },
+          {
+            "kind": "paragraph",
+            "text": "[Comparisons](README.md) · [Scope](SCOPE.md) · [Resume](RESUME.md) · [Ledger](research-state.json)",
+            "context": "Shopee Indonesia — current multi-effects evidence and queue",
+            "line": 3,
+            "end_line": 3
+          },
+          {
+            "kind": "paragraph",
+            "text": "**2026-10-14:32 active Shopee-first expansion records within80 active catalogue models.** A technical record is not a live-stock guarantee. The catalogue is not an exhaustive seller inventory. FV01 and other SCOPE exclusions are not active candidates.",
+            "context": "Shopee Indonesia — current multi-effects evidence and queue",
+            "line": 5,
+            "end_line": 5
+          },
+          {
+            "kind": "paragraph",
+            "text": "The full earlier item-by-item discovery,original-model cross-references,quoted prices and excluded accessory/preset hits are preserved byte-for-byte in [historical marketplace evidence](shopee-indonesia.history-2026-10-14.md). Its old counts/cursor and FV01 row are historical only. Each current comparison links to individual findings with exact seller/item evidence.",
+            "context": "Shopee Indonesia — current multi-effects evidence and queue",
+            "line": 7,
+            "end_line": 7
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Researched expansion models",
+            "context": "Researched expansion models",
+            "line": 9,
+            "end_line": 9
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Comparison",
+              "Active records",
+              "Models"
+            ],
+            "alignment": "|---|---:|---|",
+            "rows": [
+              {
+                "Comparison": "[Expansion1](shopee-multifx.md)",
+                "Active records": "16",
+                "Models": "TANK-G/B/MINI,MK-20/300,Ampero Mini,original GE100/GE150/GE200,GE150 Pro Li,G1/G1X/G2/G2X FOUR,FX100/200"
+              },
+              {
+                "Comparison": "[Expansion2](shopee-multifx-2.md)",
+                "Active records": "8",
+                "Models": "TANK-PRO,ANN Blackbox,BG300,KMF-10,GEM BOX II/III,VoiceLive Play,Play Acoustic"
+              },
+              {
+                "Comparison": "[Expansion3](shopee-multifx-3.md)",
+                "Active records": "4",
+                "Models": "Core,Arena2000,MG-100,MG-200;FV01 excluded"
+              },
+              {
+                "Comparison": "[MOOER Pro variants](shopee-multifx-4.md)",
+                "Active records": "4",
+                "Models": "GE100 Pro/Pro Li,GE200 Pro/Pro Li"
+              }
+            ],
+            "context": "Researched expansion models",
+            "line": 11,
+            "end_line": 16
+          },
+          {
+            "kind": "paragraph",
+            "text": "The original-catalogue models and owned GR-55/B1Xon are not counted again in this32. Owner history is a separate inclusion route even when current Shopee offers are unavailable.",
+            "context": "Researched expansion models",
+            "line": 18,
+            "end_line": 18
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Latest exact offers and qualifications",
+            "context": "Latest exact offers and qualifications",
+            "line": 20,
+            "end_line": 20
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Model / full finding",
+              "Shopee evidence",
+              "Price context"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Model / full finding": "[GE100 Pro](findings/2026-10-14-mooer-ge100-pro.md)",
+                "Shopee evidence": "[LOBAJET item54064319398](https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398)",
+                "Price context": "**Rp2.103.300 indexed**,older snippet/voucher conflict not fully resolved. Separate30-day preorderRp5.729.000 in finding"
+              },
+              {
+                "Model / full finding": "[GE100 Pro Li](findings/2026-10-14-mooer-ge100-pro-li.md)",
+                "Shopee evidence": "[LOBAJET item47314329999](https://shopee.co.id/MOOER-GE100-Pro-Li-with-AI-Intelligent-Multi-Effects-Technology-i.70636842.47314329999)",
+                "Price context": "**Rp2.923.526 WITH VOUCHER**;separate [item45116479274](https://shopee.co.id/MOOER-GE100-Pro-Li-Black-Multi-Effects-Guitar-Pedal-i.1875151955.45116479274) **Rp1.734.000 SOLD OUT**. Mandarin Blibli offer remains separate"
+              },
+              {
+                "Model / full finding": "[GE200 Pro](findings/2026-10-14-mooer-ge200-pro.md)",
+                "Shopee evidence": "[Mixed Pro/ProLi item46856067378](https://shopee.co.id/Mooer-GE200-PRO-GE-200-PRO-GE200-PRO-Li-Amp-Modeling-Multi-Effects-Processor-i.3012339.46856067378)",
+                "Price context": "**? per model**;old5.95–6.95million mixed range not assigned to non-Li. GMI retailerRp5.8million is not Shopee evidence"
+              },
+              {
+                "Model / full finding": "[GE200 Pro Li](findings/2026-10-14-mooer-ge200-pro-li.md)",
+                "Shopee evidence": "[Item43405138331](https://shopee.co.id/Mooer-GE200-PROLi-Amp-Modeling-Multi-Effects-Processor-with-Built-In-Rechargeable-Battery-i.96878449.43405138331)",
+                "Price context": "**Rp6.896.000 indexed**,seller name Nafiri Music Store;direct reopening failed,not authenticated or checkout-verified"
+              }
+            ],
+            "context": "Latest exact offers and qualifications",
+            "line": 22,
+            "end_line": 27
+          },
+          {
+            "kind": "paragraph",
+            "text": "No condition-verified used offers were obtained for the latest four. These observations are not a current market range or completed-sale statistics. Do not subtract a late-delivery compensation voucher from a product price.",
+            "context": "Latest exact offers and qualifications",
+            "line": 29,
+            "end_line": 29
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Pending technical records — not included in active count",
+            "context": "Pending technical records — not included in active count",
+            "line": 31,
+            "end_line": 31
+          },
+          {
+            "kind": "table",
+            "headers": [
+              "Queue",
+              "Exact saved lead",
+              "Next verification"
+            ],
+            "alignment": "|---|---|---|",
+            "rows": [
+              {
+                "Queue": "**Hotone Ampero MP-100 — next**",
+                "Exact saved lead": "[Item28319916328](https://shopee.co.id/Hotone-MP-100-Ampero-Multieffects-Pedal-i.799119783.28319916328)",
+                "Next verification": "EarlierRp7.535.000 is historical discovery;recheck exact MP-100,not Mini/One/II"
+              },
+              {
+                "Queue": "Hotone Ampero II MP-350",
+                "Exact saved lead": "[Item48255478715](https://shopee.co.id/Hotone-MP-350-MP350-Ampero-II-Multieffects-Pedal-i.16879370.48255478715)",
+                "Next verification": "EarlierRp11.900.000;not Ampero II Stomp"
+              },
+              {
+                "Queue": "MOOER GE1000",
+                "Exact saved lead": "[Item29678282909](https://shopee.co.id/Mooer-GE-1000-Multi-Effects-Processor-with-Exp-pedals-i.158144224.29678282909)",
+                "Next verification": "EarlierRp7.966.500;standard/Li and current firmware separate"
+              },
+              {
+                "Queue": "Hotone Ampero II Stage MP-380",
+                "Exact saved lead": "[Item56202249780](https://shopee.co.id/Hotone-MP-380-Ampero-II-Stage-Multieffects-Pedal-2-i.72439811.56202249780)",
+                "Next verification": "Price and exact Stage documentation pending"
+              },
+              {
+                "Queue": "Line6 HX Stomp XL",
+                "Exact saved lead": "[Item22454857163](https://shopee.co.id/Line-6-HX-Stomp-XL-Guitar-Multi-effects-Floor-Processor-i.16879370.22454857163)",
+                "Next verification": "EarlierRp14.899.000;not existing non-XL record"
+              },
+              {
+                "Queue": "MOOER GE150 Pro non-Li",
+                "Exact saved lead": "[Item45400597501](https://shopee.co.id/Mooer-GE150-Pro-Multi-Effect-Efek-Gitar-Digital-i.16879370.45400597501)",
+                "Next verification": "**Rp2.750.000 SOLD OUT**,newly indexed discovery;Pro Li already covered,do not duplicate"
+              },
+              {
+                "Queue": "MOOER GE150 Plus/Plus Li",
+                "Exact saved lead": "[Mixed preorder item57810886739](https://shopee.co.id/Mooer-GE150-Plus-GE150-Plus-Li-Compact-Guitar-Pedal-Multi-Effects-Processor-Preamp-Cab-Sim-Reverb-i.1696008947.57810886739)",
+                "Next verification": "Variant mapping and atypical earlier price unresolved"
+              },
+              {
+                "Queue": "MOOER GE150 Pro/Max family",
+                "Exact saved lead": "[Mixed item24292677095](https://shopee.co.id/Mooer-GE150-PRO-Li-GE-150-PRO-GE150PRO-GE150-MAX-GE150-MAX-Li-Guitar-Effect-Amp-Modelling-Multi-Effects-Pedal-i.3012339.24292677095)",
+                "Next verification": "ProLi already covered;other variants need distinct specs/power/price"
+              },
+              {
+                "Queue": "Original JOYO GEM BOX,also ever-owned",
+                "Exact saved lead": "[Item26533613317](https://shopee.co.id/JOYO-GEMBOX-I-Guitar-Effect-Pedal-Pedal-Efek-Gitar-Joyo-GEM-BOX-1-GEM-BOX-One-i.31171541.26533613317)",
+                "Next verification": "Matching JOYO primary manual still needed;MOOER-identified document rejected"
+              }
+            ],
+            "context": "Pending technical records — not included in active count",
+            "line": 33,
+            "end_line": 43
+          },
+          {
+            "kind": "paragraph",
+            "text": "Other eligible families require continuing discovery; absence here does not prove Indonesian unavailability. All older unresolved discoveries and original NUX/GP-50/GX-100/HX Stomp/Matribox item links remain in the historical index and source findings.",
+            "context": "Pending technical records — not included in active count",
+            "line": 45,
+            "end_line": 45
+          },
+          {
+            "kind": "heading",
+            "level": 2,
+            "text": "Price and eligibility guardrails",
+            "context": "Price and eligibility guardrails",
+            "line": 47,
+            "end_line": 47
+          },
+          {
+            "kind": "paragraph",
+            "text": "Verify actual hardware,not a preset download,case,adapter,controller or unresolved lowest-priced accessory variation. Keep condition,stock,region,variant,bundle,voucher and observation date. Historical sold-out amounts are not active offers. A seller name containing Official or a familiar retailer name does not authenticate ownership/authorization. No FX rate or used-price percentage is guessed.",
+            "context": "Price and eligibility guardrails",
+            "line": 49,
+            "end_line": 49
+          },
+          {
+            "kind": "paragraph",
+            "text": "Research and commit **one model at a time**,then integrate and advance the checkpoint. Keep owner-specific gaps and the original BOSS display/IDR queue. No unattended scraping or recurring price watch is configured.",
+            "context": "Price and eligibility guardrails",
+            "line": 51,
+            "end_line": 51
+          }
+        ]
       }
+    },
+    "marketplace": {
+      "sources": [
+        "effects/shopee-indonesia.md",
+        "effects/shopee-indonesia.history-2026-10-14.md",
+        "effects/shopee-indonesia.history-2026-10-15-pre-boss.md"
+      ],
+      "duplicate_snapshots": {
+        "effects/shopee-indonesia.history-2026-10-15-pre-boss.md": "effects/shopee-indonesia.md"
+      },
+      "indexed_rows": [
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 5,
+          "row_index": 0,
+          "context": "Researched expansion models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 5,
+          "row_index": 1,
+          "context": "Researched expansion models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 5,
+          "row_index": 2,
+          "context": "Researched expansion models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 5,
+          "row_index": 3,
+          "context": "Researched expansion models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 8,
+          "row_index": 0,
+          "context": "Latest exact offers and qualifications",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 8,
+          "row_index": 1,
+          "context": "Latest exact offers and qualifications",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/MOOER-GE100-Pro-Li-Black-Multi-Effects-Guitar-Pedal-i.1875151955.45116479274",
+            "https://shopee.co.id/MOOER-GE100-Pro-Li-with-AI-Intelligent-Multi-Effects-Technology-i.70636842.47314329999"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 8,
+          "row_index": 2,
+          "context": "Latest exact offers and qualifications",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE200-PRO-GE-200-PRO-GE200-PRO-Li-Amp-Modeling-Multi-Effects-Processor-i.3012339.46856067378"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 8,
+          "row_index": 3,
+          "context": "Latest exact offers and qualifications",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE200-PROLi-Amp-Modeling-Multi-Effects-Processor-with-Built-In-Rechargeable-Battery-i.96878449.43405138331"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 11,
+          "row_index": 0,
+          "context": "Pending technical records — not included in active count",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Hotone-MP-100-Ampero-Multieffects-Pedal-i.799119783.28319916328"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 11,
+          "row_index": 1,
+          "context": "Pending technical records — not included in active count",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Hotone-MP-350-MP350-Ampero-II-Multieffects-Pedal-i.16879370.48255478715"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 11,
+          "row_index": 2,
+          "context": "Pending technical records — not included in active count",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE-1000-Multi-Effects-Processor-with-Exp-pedals-i.158144224.29678282909"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 11,
+          "row_index": 3,
+          "context": "Pending technical records — not included in active count",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Hotone-MP-380-Ampero-II-Stage-Multieffects-Pedal-2-i.72439811.56202249780"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 11,
+          "row_index": 4,
+          "context": "Pending technical records — not included in active count",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Line-6-HX-Stomp-XL-Guitar-Multi-effects-Floor-Processor-i.16879370.22454857163"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 11,
+          "row_index": 5,
+          "context": "Pending technical records — not included in active count",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE150-Pro-Multi-Effect-Efek-Gitar-Digital-i.16879370.45400597501"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 11,
+          "row_index": 6,
+          "context": "Pending technical records — not included in active count",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE150-Plus-GE150-Plus-Li-Compact-Guitar-Pedal-Multi-Effects-Processor-Preamp-Cab-Sim-Reverb-i.1696008947.57810886739"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 11,
+          "row_index": 7,
+          "context": "Pending technical records — not included in active count",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE150-PRO-Li-GE-150-PRO-GE150PRO-GE150-MAX-GE150-MAX-Li-Guitar-Effect-Amp-Modelling-Multi-Effects-Pedal-i.3012339.24292677095"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "block_index": 11,
+          "row_index": 8,
+          "context": "Pending technical records — not included in active count",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/JOYO-GEMBOX-I-Guitar-Effect-Pedal-Pedal-Efek-Gitar-Joyo-GEM-BOX-1-GEM-BOX-One-i.31171541.26533613317"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 0,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 1,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 2,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 3,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 4,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 5,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 6,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 7,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 8,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 9,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 10,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 11,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 12,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 13,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 14,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 6,
+          "row_index": 15,
+          "context": "A1. First 16 Shopee-first technical records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 9,
+          "row_index": 0,
+          "context": "A2. Second batch: 8 individually committed records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/M-Vave-Tank-Pro-Mvave-Tank-Pro-Multi-Effect-Processor-i.16879370.44814342587",
+            "https://shopee.co.id/product/1408254222/55016320305"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 9,
+          "row_index": 1,
+          "context": "A2. Second batch: 8 individually committed records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/M-Vave-MVAVE-Ann-BlackBox-Black-box-Amp-Modeler-Effects-Processor-Multi-Effect-Guitar-i.31581393.41328082291"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 9,
+          "row_index": 2,
+          "context": "A2. Second batch: 8 individually committed records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Boin-Audio-BG300-Efek-Gitar-Bass-BG-300-With-Battery-i.15931156.48853835827"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 9,
+          "row_index": 3,
+          "context": "A2. Second batch: 8 individually committed records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Scorpion-KMF10-KMF-10-KMF-10-Multi-Effect-Guitar-Processor-i.19576516.44201903491"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 9,
+          "row_index": 4,
+          "context": "A2. Second batch: 8 individually committed records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Digital-Effect-Gitar-Joyo-Gem-Box-Gembox-II-2-Multi-Effect-Processor-i.1458451429.27481349883",
+            "https://shopee.co.id/Efek-Joyo-Gem-Box-II-Efek-Gitar-Gembox-II-Original-Effect-Guitar-Joyo-i.253483262.21979847112"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 9,
+          "row_index": 5,
+          "context": "A2. Second batch: 8 individually committed records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/JOYO-GEM-BOX-III-Guitar-Multi-Effects-Processor-Efek-Gitar-i.71552895.25879876423",
+            "https://shopee.co.id/joyo-gembox-III-original-garansi-resmi-joyo-i.173433434.19770702484"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 9,
+          "row_index": 6,
+          "context": "A2. Second batch: 8 individually committed records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/TC-Helicon-VoiceLive-Play-Guitar-Effects-i.703046367.26030546305"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 9,
+          "row_index": 7,
+          "context": "A2. Second batch: 8 individually committed records",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810",
+            "https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.32743136.28601255384"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 12,
+          "row_index": 0,
+          "context": "A3. Latest 5, each committed before the next model",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/HEADRUSH-CORE-GUITAR-MULTI-EFFECT-AMP-MODELER-VOCAL-PROCESSOR-i.440477624.44463652142"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 12,
+          "row_index": 1,
+          "context": "A3. Latest 5, each committed before the next model",
+          "classification": "excluded_specialist_history",
+          "external_urls": [
+            "https://shopee.co.id/FLAMMA-FV01-FV-01-CORRECTOR-Vocal-Pitch-Correction-Effect-Pedal-i.59331526.20283837190",
+            "https://shopee.co.id/Flamma-FV01-Correcior-Vocal-Pitch-Correction-Effect-Pedal-i.158235298.14463857534"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 12,
+          "row_index": 2,
+          "context": "A3. Latest 5, each committed before the next model",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Donner-Arena-2000-Free-Packing-Kayu-Multi-Effect-Pedal-i.49070533.45005643636",
+            "https://shopee.co.id/Donner-Arena-2000-Pedal-Multi-Efek-Gitar-i.1087619206.22664158485"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 12,
+          "row_index": 3,
+          "context": "A3. Latest 5, each committed before the next model",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/NUX-MG-100-MG-100-Electric-Guitar-Multi-Effects-Pedal-Processor-i.49070533.1303695159"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 12,
+          "row_index": 4,
+          "context": "A3. Latest 5, each committed before the next model",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Effect-Gitar-Nux-MG-200-MG200-MG-200-Modelling-Guitar-Processor-i.198150809.6685314008"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 0,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Efek-Gitar-NUX-MG-101-%28ORIGINAL%29-i.398392448.29053060255"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 1,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/NUX-MG300-Efek-Gitar-NUX-MG-300-ORIGINAL-Modeling-Guitar-Processor-Multi-Efek-Digital-i.154467850.9151053239"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 2,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/NUX-MG300-MKII-Guitar-Modelling-Processor-Multi-Effects-Guitar-Pedal-NUX-MG-300-MKii-i.12356205.25339437490"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 3,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Nux-MG-400-Modeling-Guitar-Bass-Processor-i.19576516.20552512814"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 4,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Nux-MG-30-Multi-Effects-Guitar-i.236930016.11596793646"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 5,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Nux-MG-50-LI-Multi-Effects-Processor-for-Guitar-and-Bass-Nux-MG50Li-Multi-Efek-Gitar-i.195817632.8306275370"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 6,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Valeton-GP-50-Multi-Effect-Processor-Gp50-Efek-Valeton-Gp50-i.440269597.43928304060"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 7,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Boss-GX100-GX-100-Guitar-Effect-Processor-Pedal-Multi-Efek-i.16879370.15965574796"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 8,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Line-6-HX-Stomp-Compact-Professional-Guitar-Processor-i.16879370.1839325370"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 9,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Efek-Gitar-SONICAKE-Matribox-QME-50-Multi-Effects-Processor-Pedal-i.19700013.23073934646"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 10,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/EFEK-GITAR-SONICAKE-MATRIBOX-II-Like-new-i.142458734.26586942645",
+            "https://shopee.co.id/Efek-Gitar-SONICAKE-Matribox-II-QME-100-Multi-Effects-Processor-Pedal-i.19700013.23662747212"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 16,
+          "row_index": 11,
+          "context": "B. Shopee evidence for original-catalogue models",
+          "classification": "historical_listing_or_summary",
+          "external_urls": [
+            "https://shopee.co.id/Efek-Gitar-Elektrik-Gitar-Akustik-Bass-SONICAKE-Matribox-II-Pro-QME-200-Multi-Effects-Processor-63-Amplifier-Simuator-93-Effects-61-Cabsim-6-Footswitch-Built-in-Expression-Pedal-XLR-Output-Drum-Machine-Touchscreen-4.3-USB-Audio-Interface-Soundcard-Pedal-i.19700013.28130671930"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 0,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 1,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/MOOER-GE100-Pro-Li-with-AI-Intelligent-Multi-Effects-Technology-i.70636842.47314329999"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 2,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE200-PRO-GE-200-PRO-GE200-PRO-Li-Amp-Modeling-Multi-Effects-Processor-i.3012339.46856067378"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 3,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE-1000-Multi-Effects-Processor-with-Exp-pedals-i.158144224.29678282909"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 4,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE150-Plus-GE150-Plus-Li-Compact-Guitar-Pedal-Multi-Effects-Processor-Preamp-Cab-Sim-Reverb-i.1696008947.57810886739"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 5,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Mooer-GE150-PRO-Li-GE-150-PRO-GE150PRO-GE150-MAX-GE150-MAX-Li-Guitar-Effect-Amp-Modelling-Multi-Effects-Pedal-i.3012339.24292677095"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 6,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Hotone-MP-100-Ampero-Multieffects-Pedal-i.799119783.28319916328"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 7,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Hotone-MP-380-Ampero-II-Stage-Multieffects-Pedal-2-i.72439811.56202249780"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 8,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Hotone-MP-350-MP350-Ampero-II-Multieffects-Pedal-i.16879370.48255478715"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 9,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/Line-6-HX-Stomp-XL-Guitar-Multi-effects-Floor-Processor-i.16879370.22454857163"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 20,
+          "row_index": 10,
+          "context": "C. Hardware still awaiting technical comparison",
+          "classification": "superseded_research_queue_not_current_status",
+          "external_urls": [
+            "https://shopee.co.id/JOYO-GEMBOX-I-Guitar-Effect-Pedal-Pedal-Efek-Gitar-Joyo-GEM-BOX-1-GEM-BOX-One-i.31171541.26533613317"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 22,
+          "row_index": 0,
+          "context": "D. Search hits not accepted as processor prices",
+          "classification": "rejected_price_evidence_accessory_preset_or_unresolved_variant",
+          "external_urls": [
+            "https://shopee.co.id/Lead-Solo-Mooer-GE-200-Guitar-tones-i.28713236.28357599850"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 22,
+          "row_index": 1,
+          "context": "D. Search hits not accepted as processor prices",
+          "classification": "rejected_price_evidence_accessory_preset_or_unresolved_variant",
+          "external_urls": [
+            "https://shopee.co.id/ACDC-Helix-HX-Stomp-presets-i.28713236.29520007425"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 22,
+          "row_index": 2,
+          "context": "D. Search hits not accepted as processor prices",
+          "classification": "rejected_price_evidence_accessory_preset_or_unresolved_variant",
+          "external_urls": [
+            "https://shopee.co.id/Donner-Arena-2000-Presets-All-Genre-Worship-i.28713236.41713144370"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 22,
+          "row_index": 3,
+          "context": "D. Search hits not accepted as processor prices",
+          "classification": "rejected_price_evidence_accessory_preset_or_unresolved_variant",
+          "external_urls": [
+            "https://shopee.co.id/Softcase-tas-Flamma-FX200-NUX-MG-30-NUX-Trident-NME-5-i.14174668.57765920939"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 22,
+          "row_index": 4,
+          "context": "D. Search hits not accepted as processor prices",
+          "classification": "rejected_price_evidence_accessory_preset_or_unresolved_variant",
+          "external_urls": [
+            "https://shopee.co.id/Dual-footswitch-line6-hx-stomp-i.238376874.50763901210"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 22,
+          "row_index": 5,
+          "context": "D. Search hits not accepted as processor prices",
+          "classification": "rejected_price_evidence_accessory_preset_or_unresolved_variant",
+          "external_urls": [
+            "https://shopee.co.id/SWITCHING-ADAPTER-BUAT-TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.14849321.25588228911"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 22,
+          "row_index": 6,
+          "context": "D. Search hits not accepted as processor prices",
+          "classification": "rejected_price_evidence_accessory_preset_or_unresolved_variant",
+          "external_urls": [
+            "https://shopee.co.id/EFEK-GITAR-JOYO-GEMBOX-3-GEM-BOX-III-EFEK-GITAR-ELEKTRIK-i.38404754.25068621708",
+            "https://shopee.co.id/Guitar-multi-efect-Joyo-GEM-BOX-3-gembox-III-i.31173885.425693325"
+          ],
+          "historical": true,
+          "live_stock_verified": false
+        },
+        {
+          "source": "effects/shopee-indonesia.history-2026-10-14.md",
+          "block_index": 22,
+          "row_index": 7,
+          "context": "D. Search hits not accepted as processor prices",
+          "classification": "rejected_price_evidence_accessory_preset_or_unresolved_variant",
+          "external_urls": [],
+          "historical": true,
+          "live_stock_verified": false
+        }
+      ],
+      "row_count": 77,
+      "new_active_models": 0,
+      "scope": "Dated discovery/offer/summary evidence;full row cells in sources blocks,not current offers or an active queue",
+      "current_research_cursor": "cursor",
+      "excluded_specialist_rows_stay_excluded": true
     },
     "ownership": {
       "entry_count": 21,
@@ -29940,6 +31847,6 @@
       "ownership_is_not_specification_evidence": true,
       "source_dates_not_refreshed_by_consolidation": true
     },
-    "remaining_work": "Sources retained. Incoming links,discovery/history metadata,remaining navigation and source retirement are not completed by this semantic consolidation."
+    "remaining_work": "Sources retained. Incoming links,coverage/remaining provenance metadata,navigation and source retirement are not completed by this semantic consolidation."
   }
 }
