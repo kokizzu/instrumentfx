@@ -1630,3 +1630,36 @@ Original manufacturer PDF read as17 web-rendered pages with printed paired-page 
 [Z505-M]: https://zoomcorp.com/media/documents/E_505II.pdf
 [Z505-P]: https://zoomcorp.com/en/gb/multi-effects/guitar-effects/505ii/
 [Z505-O]: https://shopee.co.id/Efek-Gitar-Zoom-505II-Made-in-Japan-i.113149484.29577709662
+
+## MS-50G Plus
+
+MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in, external and toe support unverified; no pedal inferred from compact format. | Unresolved |
+| K/F/B | Four encoders; main footswitch plus directional buttons operable by foot. Separate directional count and encoder pushes need corroboration. | [Product][Z50P-P]; [Manual, parts][Z50P-M] |
+| Display | 160×128 LCD; category-dependent backlight colors. Diagonal and touch unverified; not proof of full-color graphics. | [Manual][Z50P-M]; [Product][Z50P-P] |
+| Dimensions / mass | 133 D ×79 W ×61 H mm; 353g without /400g with batteries. | [Manual specifications][Z50P-M] |
+| Processing / category choices | Six simultaneous effects; 102 advertised base effects across drive, modulation, delay, reverb, compressor, filter and special categories. Per-category counts unresolved. Product announces 27 additional effects: 24 November2024, OverDrive December2025, Modulation Delay2 January2026, Stereo Guitar Graphic EQ7 June2026. Installed content/capacity unverified; do not assume129 installed. | [Product][Z50P-P]; [Manual][Z50P-M] |
+| Factory / user memory | 100 user patch memories; factory-filled count unresolved. Automatic saving can be disabled; factory reset overwrites settings and patches. | [Manual][Z50P-M] |
+| Synth / acoustic | Dedicated synth and acoustic-simulation choices unverified pending exact effects list. | Unresolved |
+| I/O | Mono¼-inch input,470kΩ; separate mono¼-inch L/R outputs; USB-C and DC9V. Headphones, MIDI, audio interface and external control unverified. | [Manual specifications][Z50P-M] |
+| Power / battery / USB | AD-16:9VDC,500mA,center-negative supply rating, not measured draw. TwoAA: alkaline~7h,NiMH1900mAh~6.5h,lithium~14h; conditions affect duration. USB bus power supported. | [Manual][Z50P-M] |
+| IR / NAM / capture | Factory preamps use Multi-Layer IR technology; user IR import, native/converted NAM and capture support unverified. | [Product][Z50P-P] |
+| Editor / software | Handy Guitar Lab for MS-50G+ on iOS/iPadOS manages patches and edits/adds effects. Computer firmware updating is distinct from a desktop editor; desktop editor unverified. | [Manual][Z50P-M] |
+| Looper / drums / live | Chromatic tuner supports open/drop tunings. Looper, drums, scenes and trails unverified. | [Product][Z50P-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unverified; no qualified used observation. | — |
+| New | Unverified; shop name does not prove item condition. | — |
+| Conditional historical retail ask | **Rp2,465,100 with voucher**, Zoom Official Shop, Jakarta Barat,shop348182890/item27374162064. Checked2026-10-17; month-old rendered cache. Voucher text: minimumRp1.5million,1% discount; eligibility/final checkout unknown. Earlier search previewRp2,286,900 differs; not a verified price range. Stock, condition, bundle, warranty and exact delivered revision unconfirmed. Stale arrival and shop-active claims do not establish live availability. | [Exact PLUS item][Z50P-O] |
+
+No dependencies, firmware, apps or source documents downloaded to the filesystem; sources read through rendered web text. Original MS-50G offers and unresolved mixed-model listings are excluded from this model's prices.
+
+[Z50P-P]: https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g-plus/
+[Z50P-M]: https://zoomcorp.com/manuals/ms-50gplus-en/
+[Z50P-O]: https://shopee.co.id/Zoom-MS-50G-MultiStomp-Guitar-Multi-Effects-Pedal-i.348182890.27374162064

@@ -1339,3 +1339,7 @@ research-commit-ving-coverage:
 .PHONY: research-commit-505ii
 research-commit-505ii:
 	python3 scripts/research_tools.py commit-505ii
+
+.PHONY: research-commit-ms50gplus
+research-commit-ms50gplus:
+	python3 scripts/research_tools.py commit-ms50gplus
