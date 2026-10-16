@@ -11,7 +11,7 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 | **[ALL-GUITAR.md](ALL-GUITAR.md)** |106 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
 | **[ALL-BASS.md](ALL-BASS.md)** |58 documented bass-capable models: 11 bass-focused plus 47 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |17 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 121 detailed models are root-canonical |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 122 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -35,6 +35,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100,AVE-100 |
 | [BOIN-AUDIO.md](BOIN-AUDIO.md) |BG300 |
 | [SCORPION.md](SCORPION.md) |KMF-10 |
+| [TC-HELICON.md](TC-HELICON.md) |VoiceLive Play |
 | [JOYO.md](JOYO.md) |GEM BOX original,II,III |
 | [DONNER.md](DONNER.md) |Arena2000 |
 | [FLAMMA.md](FLAMMA.md) |FX100,FX200,FX150 |
@@ -66,7 +67,7 @@ All model records separate knobs/footswitches/buttons,expression,used/new IDR,si
 
 The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
 
-**Organization migration is incomplete:** 121 detailed models are root-canonical; 5 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. No source file was deleted. Other legacy records remain until destination contents and incoming links are checked.
+**Organization migration is incomplete:** 122 detailed models are root-canonical; 4 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. No source file was deleted. Other legacy records remain until destination contents and incoming links are checked.
 
 ## Scope and ownership
 

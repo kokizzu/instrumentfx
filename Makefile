@@ -533,3 +533,11 @@ consolidation-apply-kmf-10:
 	python3 scripts/consolidation_tools.py apply kmf-10
 consolidation-commit-kmf-10:
 	python3 scripts/consolidation_tools.py commit kmf-10
+
+.PHONY: consolidation-plan-voicelive-play consolidation-apply-voicelive-play consolidation-commit-voicelive-play
+consolidation-plan-voicelive-play:
+	python3 scripts/consolidation_tools.py plan voicelive-play
+consolidation-apply-voicelive-play:
+	python3 scripts/consolidation_tools.py apply voicelive-play
+consolidation-commit-voicelive-play:
+	python3 scripts/consolidation_tools.py commit voicelive-play

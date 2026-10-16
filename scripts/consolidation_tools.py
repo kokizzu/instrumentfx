@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'voicelive-play': ('VoiceLive Play', 'effects/findings/2026-10-14-tchelicon-voicelive-play.md'),
     'kmf-10': ('KMF-10', 'effects/findings/2026-10-14-scorpion-kmf-10.md'),
     'bg300': ('BG300', 'effects/findings/2026-10-14-boin-audio-bg300.md'),
     'ave-100': ('AVE-100', 'effects/findings/2026-10-15-audota-ave-100.md'),
@@ -861,7 +862,60 @@ def plan_kmf10():
     print('Preview KMF-10 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_voiceliveplay():
+    research_tools.identity()
+    model, source_path = MODELS['voicelive-play']
+    brand_file = 'TC-HELICON.md'
+    assert not (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['TC-Helicon::VoiceLive Play']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'SCORPION-VoiceLive Play'
+    body, refs = preserved_body(source, prefix)
+    normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
+    for old,new in normalizations.items():
+        body=body.replace(old,new)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/shopee-multifx-2.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**8 new partial') or p.startswith('Dimensions are') or p.startswith('These are separate') or p.startswith('No diagonal') or p.startswith('Counts include') or p.startswith('The individual notes retain')]
+    section = '# TC-Helicon multi-effects\n\n## VoiceLive Play\n\nBlue VoiceLive Play vocal processor, not GTX or Play Acoustic. Consolidated **2026-10-17**; complete original findings and supporting facts retain their original technical dates. Current firmware remains unverified.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical catalogue totals below are superseded.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nSources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/shopee-multifx-2.md). No source or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current VoiceLive Play comparison fields\n\nOriginal manualv1.0 technical context remains explicit; current firmware is not assumed identical.\n\n| Field | Evidence and qualification |\n|---|---|\n'
+    mapping={'Other useful features':'Other relevant features','Control/data':'Control/data ports','Harmony / special sounds':'Synth / acoustic and vocal special sounds'}
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'].startswith('Follow-up') or f['field']=='IDR qualified observations':
+            continue
+        section += '| '+mapping.get(f['field'],f['field'])+' | '+f['value']+' |\n'
+    section += '| Used IDR | ? — no condition-qualified local used offer established. |\n| New / retail IDR | **Rp5.280.000,Habis**, [Asia Pro Sound exact blue VoiceLive Play listing](https://shopee.co.id/TC-Helicon-VoiceLive-Play-Guitar-Effects-i.703046367.26030546305),shop703046367/item26030546305,Kota Bekasi, indexed reopening2026-10-17. Historical sold-out hardware ask, not completed sale or current available stock. Seller title says Guitar Effects but does not establish guitar processing. Condition, accessory bundle, warranty region, delivered charges and voucher eligibility unverified; late-delivery compensation is not a purchase discount. |\n\n<!-- comparison evidence ends -->\n\n### Current access and unresolved fields\n\nChecked **2026-10-17**: [manufacturer model-code page](https://www.tcelectronic.com/tcelectronic/product?modelCode=0726-AAZ) remained inaccessible. A [Music Tribe-hosted original manual lead](https://cdn.mediavalet.com/aunsw/musictribe/UdE6-mBzr0u6TqC_r6vYEw/f65JG-Kc9EWdWD5StvC6ig/Original/VOICELIVE%20PLAY_M_EN.pdf) failed to open. Its searchable title does not establish complete contents or a newer firmware revision. [Electori model-page lead](https://mail.electori.co.jp/tc-helicon/vocal/voicelive_play.php) timed out. Retailer dimensions surfaced in search but were not adopted as independently verified manufacturer specifications; no sibling enclosure dimensions borrowed.\n\nThe exact Shopee item reopened with the same5.280.000 sold-out ask and identifies Asia Pro Sound,Kota Bekasi. Relative delivery text does not override Habis. Old quote dates remain preserved, and no used-price estimate or exchange-rate conversion was created.\n\nOriginal v1.0 manual and VoiceSupport reference identities, complete source URLs, earlier visual-inspection qualifications,15/30-second undo-dependent looper limits, style counts and librarian/updater distinction remain preserved above. No files or dependencies downloaded; no new PDF image inspection claimed. Remaining: matching current firmware release/looper limit, total/factory/user memories, model-specific dimensions/mass, display diagonal/color/touch, phantom voltage/current, power polarity/battery/bus operation, USB channel/rate and present OS/editor compatibility, plus qualified current local offers. Vocal-only inclusion remains; GTX/Play Acoustic are separate models.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file] = [model]
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['TC-Helicon VoiceLive Play'],model_name=model,brand='TC-Helicon',destination=brand_file+'#voicelive-play',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete VoiceLive Play finding/supporting rows retained; v1.0 firmware context preserved; manufacturer access limited and exact sold-out Shopee ask rechecked.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='TC-Helicon Play Acoustic — complete legacy consolidation',task='Read complete Play Acoustic finding and supporting comparisons. Merge losslessly into TC-HELICON.md, preserving distinct guitar/vocal paths, BodyRez meaning, global guitar settings, firmware/looper/model-count conflicts and all source/price qualifications. Check primary and exact Shopee evidence; commit before another model. Continue remaining legacy records, discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [TC-HELICON.md](TC-HELICON.md) |VoiceLive Play |\n| [JOYO.md](JOYO.md)')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=None
+    payload=dict(model_id='voicelive-play',model=model,inputs=inputs,outputs=outputs,new_files=[brand_file],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview VoiceLive Play exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'voicelive-play':
+        return plan_voiceliveplay()
     if model_id == 'kmf-10':
         return plan_kmf10()
     if model_id == 'bg300':
@@ -1105,10 +1159,13 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'voicelive-play':
+        print(research_tools.git('commit', '-m', 'research(tchelicon): consolidate VoiceLive Play with firmware context'))
+        return
     if model_id == 'kmf-10':
         print(research_tools.git('commit', '-m', 'research(scorpion): consolidate KMF-10 and preserve power uncertainty'))
         return
