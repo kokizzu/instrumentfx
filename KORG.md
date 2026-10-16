@@ -66,14 +66,14 @@ Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass s
 | Display | Backlit LCD; diagonal, colour depth and touch unverified. | [EasyStart][AX-E] |
 | Dimensions / mass | 500×241×72mm W×D×H pedal lowered; 100mm raised; 3.6kg. | [Manual p56][AX-M] |
 | Simultaneous effects | Seven including noise reduction; external insert additionally usable. 72 modeled variations. | [Manual p1][AX-M] |
-| Categories / choices | Manual p56: amp11, cabinet16, pedal/modulation/delay/reverb11 each, NR1. EasyStart instead says drive/amp16 and cabinet11; manual p4 also specifies drive/amp16. Conflict with p56 retained pending full model-list reconciliation. | [Manual][AX-M]; [EasyStart][AX-E] |
+| Categories / choices | Detailed pp23–26 enumerate **16 drive/amp choices (8 drives + 8 amps), 11 cabinets**, matching p23 and EasyStart. Pre/modulation/delay/reverb11 each; NR1. These yield72 choices by addition. Contradictory p56 summary says amp11/cabinet16; retained as a source discrepancy, not used to override enumerated models. | [Manual][AX-M]; [EasyStart][AX-E] |
 | Factory / user memory | 96 rewritable slots (24×4). Factory banks1–8 hold32 sounds, repeated in9–16 and17–24; not128 slots. | [Manual p15][AX-M] |
-| Synth / acoustic | Pickup, acoustic body/top and synth modeling documented. | [EasyStart][AX-E] |
+| Synth / acoustic | Pickup, acoustic body/top and synth modeling documented. Acoustic has four body types; synth offers square/saw/sine at −2 to +2 octaves. Octave effect is single-note only. | [EasyStart][AX-E]; [Manual pp27–29][AX-M] |
 | I/O | Mono INPUT/INSERT RETURN; stereo-mini AUX/PHONES; two mono OUTPUTs, INSERT SEND; optical S/PDIF16-bit/44.1kHz; MIDI IN/OUT; DC9V. Panel p10 specifies balanced/unbalanced TRS main outputs; p56 calls them monaural phone jacks. L/MONO handles mono; headphones silence main outputs. Rear LEVEL controls main/headphones. No USB or external EXP jack in complete rear enumeration; MIDI control remains available. | [Manual pp10–13,56][AX-M] |
 | Analog conversion | A/D and D/A20-bit,44.1kHz. | [Manual p56][AX-M] |
 | Power / battery / USB | 9V DC, supplied adapter. Current/polarity, battery and USB power unverified; no inference from ambiguous polarity glyph extraction. | [Manual p56][AX-M] |
 | IR / NAM / capture | User IR, native/converted NAM and capture loading unverified; REMS is not import evidence. | Unresolved |
-| Editor / platforms | MIDI-connected editor/librarian supports Windows/Mac. Support lists Windows1.01 and Mac1.1, dated2015-06-01; current OS support unverified. | [EasyStart][AX-E]; [Support][AX-D] |
+| Editor / platforms | MIDI-connected editor/librarian supports Windows/Mac. Support lists Windows1.01 and Mac1.1, dated2015-06-01; current OS support unverified. Individual release pages identify EXE/ZIP respectively but publish no OS requirements in their accessible HTML; neither package downloaded. | [EasyStart][AX-E]; [Support][AX-D]; [Windows release][AX-W]; [Mac release][AX-A] |
 | Looper / drums / live | ESS automates parameter steps; Individual mode switches effects. Drive/amp selection resets cabinet to an appropriate model. Delay trails require matching type/time; reverb matching type. Looper, drums and scenes unverified. | [Manual pp1–4][AX-M]; [EasyStart][AX-E] |
 
 ### Separate IDR hardware offers
@@ -87,8 +87,11 @@ Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass s
 
 Other observations checked2026-10-17: [Hope Music, Kota Bandung,703817770/21944834396](https://shopee.co.id/Efek-Gitar-Korg-AX3000G-i.703817770.21944834396) displays Rp2,200,000 with voucher and three unresolved variations; advertised150k voucher threshold1m, eligibility/base price/variant/condition/stock/bundle unknown. Excluded from used/new exact-price projection. [studio_musik_gema, Kab. Blitar,102019323/25663831731](https://shopee.co.id/efek-gitar-second-korg-ax3000g-ax1500g-pod-floor-plus.-bonus-tas-effect-guitar-ax-3000g-1500g-3000-1500-bekas-normal-bukan-zoom-nux-mg-valeton-line-6-moer-i.102019323.25663831731) is sold out, four variations across multiple models, Rp2m–2.5m with bag claim; exact AX3000G selection unresolved, not a qualified model price.
 
-Remaining: external expression details, display details, category-count conflict, routing limits, electrical current/polarity, USB/import scope, current software compatibility, looper/live restrictions and fresh qualified offers. No software or dependencies downloaded.
+Remaining: external expression details, display details, retained specification-summary discrepancy, routing limits, electrical current/polarity, USB/import scope, current software compatibility, looper/live restrictions and fresh qualified offers. No software or dependencies downloaded.
 
 [AX-M]: https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf
 [AX-E]: https://cdn.korg.com/us/support/download/files/f3b3eaaa9d32a6666c10ecb9daa632e9.pdf
 [AX-D]: https://www.korg.com/us/support/download/product/1/28/
+
+[AX-W]: https://www.korg.com/us/support/download/software/1/28/1387/
+[AX-A]: https://www.korg.com/us/support/download/software/1/28/1388/

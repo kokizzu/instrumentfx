@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3000G primary follow-up",
-    "task": "AX3000G panel counts, under-pedal switch and headphone/output restrictions saved. Next reconcile full model list and verify electrical/editor OS requirements; commit before another model.",
+    "task": "AX3000G detailed model list reconciled; release pages lack OS requirements. Continue MIDI/ESS routing restrictions and model-specific electrical evidence, then fresh Shopee discovery; commit before next model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains required; no coverage-complete claim."
   },
@@ -1882,7 +1882,7 @@
         "working_bundle": "unverified"
       },
       "conflicts": [
-        "Manual amp11/cab16 versus EasyStart driveamp16/cab11"
+        "p56 amp11/cab16 contradicts detailed list and explanatory section16driveamp/11cab; use enumerated list while retaining discrepancy"
       ],
       "unresolved": [
         "display",
@@ -1903,6 +1903,21 @@
           "Manual p4 agrees with sixteen drive/amp choices; p56 conflict retained"
         ],
         "remaining": "Full model list, current/polarity, editor OS and other recorded gaps"
+      },
+      "model_list_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf",
+        "pages": "23–29",
+        "resolved": [
+          "Eight drives plus eight amps and eleven cabinets explicitly enumerated",
+          "72 total from16+11+11+11+11+11+1; p56 discrepancy preserved",
+          "Four acoustic bodies; synth waveform/octave options; octave single-note restriction"
+        ],
+        "editor_release_pages": [
+          "https://www.korg.com/us/support/download/software/1/28/1387/",
+          "https://www.korg.com/us/support/download/software/1/28/1388/"
+        ],
+        "editor_limit": "Accessible HTML identifies versions/packages but no OS requirements; no download"
       }
     }
   ],
