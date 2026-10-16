@@ -1505,18 +1505,18 @@ Guitar multi-effects,distinct from G1on and G1X FOUR. Checked2026-10-17;partial.
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | **Built-in expression** with per-patch range/inversion. Toe/external support pending. | [Zoom product][G1XO-P] |
-| K/F/B | Separate controls pending manual inventory. | Unresolved |
+| Expression | **Built-in expression** with per-patch range/inversion. **Pedal switch toggles assigned effects;its on/off state isnot saved.** AUTO ASSIGN controls all inserted PEDAL-category effects. OUTPUT VOL excludes rhythm/looper. Noexternal EXP in full panel inventory. | [Manual pp4–5,26–27][G1XO-M] |
+| K/F/B | **1 / 2 / 8**, text-derived:parameterknob;twofoot switches;RHYTHM/LOOPER,MENU,HOME,ENTER andfourcursor keys. Pedal switch additional;virtualknobs excluded. Visual corroboration pending. | [Manual p4][G1XO-M] |
 | Display | **Backlit dot-matrix LCD**;diagonal,color,touch unverified. | [Zoom product][G1XO-P] |
 | Dimensions / mass | **237×154.8×50mm W×D×H;640g without batteries**. Medium footprint. | [Zoom product][G1XO-P] |
-| Processing / category choices | **Five simultaneous**,reorderable. Product advertises100 effects;older2013 manual specifiesG1Xon80. Product category subtotals11/12/22/16/14 do not reconcile100;revision-specific list audit pending. | [Product][G1XO-P];[Manual specifications][G1XO-M] |
-| Factory / user memory | **100 writable locations,10×10**;Auto Save optional,Pre Select retains current sound while browsing. Factory-filled subset pending. | [Zoom product][G1XO-P] |
+| Processing / category choices | **Five simultaneous**,reorderable andDSP-limited. PROCESSING LIMIT bypasses aneffect when capacity isexceeded. Product advertises100 effects;older2013 manual specifiesG1Xon80. Product category subtotals11/12/22/16/14 do not reconcile100;revision-specific list audit pending. | [Product][G1XO-P];[Manual pp10,31][G1XO-M] |
+| Factory / user memory | **100 writable locations,10×10**;Auto Save optional,Pre Select retains current sound while browsing. Auto Save defaultsON atfactory. Unsaved patch cannotbe swapped. Factory-filled subset pending. | [Zoom product][G1XO-P] |
 | Synth / acoustic | Product describes acoustic simulation. Synth-specific algorithms pending exactlist. | [Zoom product][G1XO-P] |
-| I/O | Mono6.35mm input,stereo3.5mm AUX,shared stereo6.35mm output/headphones;USB andDC. Complete panel audit pending. | [Zoom product][G1XO-P] |
+| I/O | Mono6.35mm input,stereo3.5mm AUX,shared stereo6.35mm output/headphones;USB andDC. Complete pp4–5 panel inventory has no MIDI,send/return orexternalEXP. AUX bypasses effects directly tooutput. | [Product][G1XO-P];[Manual pp4–5][G1XO-M] |
 | Power / battery / USB | **9V DC center-negative,500mA AD-16 supply;4AA alkaline/NiMH;USB power**. 20h alkaline;manual qualifies backlightoff. Measured draw unknown. | [Product][G1XO-P];[2013 manual][G1XO-M] |
 | IR / NAM / capture | UserIR,native/converted NAM andcapture imports unverified. | Unresolved |
 | Editor / software | USB firmware update;Windows/Mac1.21 updaters listed. Editor platforms/audio/MIDI pending;updater isnot editor. | [Zoom product downloads][G1XO-P] |
-| Looper / drums / live | **30s looper,up to64beats;68 rhythms**,usable together. Overdub supported. Storage/routing/trails pending. | [Zoom product][G1XO-P] |
+| Looper / drums / live | **30s looper,up to64beats;68 rhythms**,usable together. Overdub supported. Changing loop time ortempo **erases recorded loop**. Rhythm playback adds pre-count. Storage/trails pending. | [Product][G1XO-P];[Manual pp24–25][G1XO-M] |
 
 ### Separate IDR hardware offers
 

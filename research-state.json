@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G1Xon manual follow-up",
-    "task": "Initialexactmodelprofile saved. Verify2013manualpanel/controls/toe,USBfunctions,looperandfirmwarerevision80vs100. Commit beforeanothermodel.",
+    "task": "G1Xon manual controls1/2/8,expression,completeIO,DSP/looperrestrictions saved. Nextverifyfirmware80vs100 andeffectlist,synth/acoustic,USBfunctions/editor andprices;thenfreshShopeediscovery.",
     "next_models": [],
     "after_queue": "FreshShopee discovery necessary."
   },
@@ -3328,7 +3328,12 @@
         "EditorUSBfunctions",
         "Looperstorage/routing",
         "Qualifiedprices"
-      ]
+      ],
+      "manual_followup": {
+        "source": "Official2013manualpp4–5,10–11,15,24–27",
+        "verified": "1/2/8text-derivedcontrols;pedalswitchstateunsaved;AUTOASSIGNmultiPEDAL;outputvolexcludeslooprhythm;AUXdry;DSPbypass;looperasureontime/tempochange",
+        "remaining": "USBaudio/MIDInotestablished;firmwarecounts,display,synth/imports,prices"
+      }
     }
   ],
   "consolidation_and_price_findings": [
