@@ -28,11 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX StompLab 1G primary follow-up",
-    "task": "StompLab1G exactEFGSJ2 manual saved:7simultaneous/sharedAMPDR,3/2/3 controls,noEXP,completeports. Next verify program banks,autooff,outputmode/acoustic details fromsame manual;commit before PERFORM-VE.",
-    "next_models": [
-      "TC-Helicon PERFORM-VE"
-    ],
+    "model": "TC-Helicon PERFORM-VE",
+    "task": "StompLab1G initial andmanualfollowups committed;remainingtechnicalfields explicit. Next verify exact PERFORM-VE hardware95687096/3406909366 Rp3900000Habisindexed andmanufacturer manual;do not inherit V/VK/VG functions. Commit before another model.",
+    "next_models": [],
     "after_queue": "FreshShopeediscovery remainsnecessary."
   },
   "new_findings": [
@@ -3142,6 +3140,28 @@
           "Display/visual",
           "Looperdrumsroutingtrails",
           "Imports"
+        ]
+      },
+      "banks_live_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf",
+        "revision": "EFGSJ2",
+        "pages": "5,7–13",
+        "resolved": [
+          "Readonly00–99,writableU/u0–9,explicitWRITE",
+          "Autooff1hwithoutcontrolsoraudio;persistentenabledsetting",
+          "A1/A2/A3/Lnoutputcompensation",
+          "Masterresets7.0;targetmodepersists",
+          "BypassallinclNRvsheldmute;exitnoprogramchange",
+          "Tuner440reset;VALUElock",
+          "62AMPDRchoicesandLoHipartofblock"
+        ],
+        "remaining": [
+          "Initialuserfill",
+          "Displayvisual",
+          "Polarity",
+          "Acousticbehavior/synth",
+          "Imports/looperdrums/trails"
         ]
       }
     }
@@ -38864,7 +38884,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab 1G primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-VE."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

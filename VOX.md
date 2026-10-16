@@ -177,13 +177,13 @@ Guitar multi-effects;distinct from2G,1B,2B. Checked2026-10-17;partial. Bass suit
 | Display | Diagonal,color,touch andtechnology unverified. | Unresolved |
 | Dimensions / mass | **145×125×57mm WDH;590g**. | [Official product][SL1G-P] |
 | Processing / category choices | **103**:8 Pedal+44 Amp+18 Drive+12 Cabinet+9 Modulation+8 Delay+3 Reverb+1 Noise Reduction;sum103,not simultaneous count. English cabinet list names11 despite12heading;German includes UK T75 4×12. **Seven simultaneous including NR**;AMP/DRIVE shares one category. Seven categories:Pedal,AMP/DR,Cabinet,NR,Modulation,Delay,Reverb. | [Official product][SL1G-P];[German product][SL1G-D];[Manual pp4,9][SL1G-M] |
-| Factory / user memory | **120=100 preset+20 user**;initial user fill pending. | [Official product][SL1G-P] |
+| Factory / user memory | **120=100 read-only00–99+20 writableU0–U9/u0–u9**. WRITE required;unsaved edits lost on program change/power-off. Initial user fill pending. | [Official product][SL1G-P];[Manual pp7,10][SL1G-M] |
 | Synth / acoustic | Pedal category lists Acoustic;dedicated simulation behavior pending. Synth unverified. | [Official product][SL1G-P] |
 | I/O | Complete rear inventory:mono INPUT,shared stereo OUTPUT/PHONES,DC9V andPOWER;no AUX,USB,MIDI,loop orEXP socket. | [German product][SL1G-D];[Manual p6][SL1G-M] |
 | Power / battery / USB | **9V DC,approximately200mA;4AA,7.5h alkaline**. Polarity andUSB power unverified. English AC-adapter wording describes supply,not proof of9VAC input. Regional included-battery wording differs. | [German product][SL1G-D];[English product][SL1G-P] |
 | IR / NAM / capture | User IR,native/converted NAM andcapture imports unverified. | Unresolved |
 | Editor / software | No USB/MIDI connector in manual inventory;USB audio unavailable through such a port. Editor/imports unverified. | [Manual pp4–6][SL1G-M] |
-| Looper / drums / live | Tuner A0–E6;reference438–445Hz. Looper/drums/routing/trails unverified. | [Official product][SL1G-P] |
+| Looper / drums / live | Tuner A0–E6;reference438–445Hz. **Auto-off after1h without controls orinput audio**,default enabled;EDIT+UP at startup disables,EDIT+DOWN enables;setting persists,restart required after shutdown. Global output modes andbypass details below. Looper/drums/trails unverified. | [Official product][SL1G-P];[Manual pp7–11][SL1G-M] |
 
 ### Separate IDR hardware offers
 
@@ -205,3 +205,11 @@ Manufacturer1Gproduct pages opened;earlier J1 candidate inaccessible;**official 
 Official EFGSJ2 manual identifies StompLab IG;pp4–6 provide complete controls/connectors andp9category architecture. ACOUSTIC parameter table p62 lists TONE0–10;function details remain qualified. This is text-derived verification,no visual count certification.
 
 [SL1G-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf
+
+### Global output and stage behavior
+
+Output compensation:A1 UK-style mid-forward open combo,A2 clean US-style open combo,A3 closed4×12stack,Ln line/headphones/power-amp input/recorder. Target mode persists;global master resets to7.0 at power-on.
+
+Both footswitches together bypass all effects including NR;holding about1s mutes. Tuner operates in either state;one switch exits without changing program. Tuner calibration resets to440Hz after power loss. EDIT held2s locks VALUE knobs in Program mode.
+
+Lo/Hi controls belong toAMP/DR andstop with that block. ACOUSTIC distortion troubleshooting recommends lower drive/guitar output;it does not establish extra simulation capabilities. Manual p13 confirms62Amp/Drive choices,consistent with44+18. [EFGSJ2 pp5,8–13][SL1G-M].
