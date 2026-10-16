@@ -541,3 +541,11 @@ consolidation-apply-voicelive-play:
 	python3 scripts/consolidation_tools.py apply voicelive-play
 consolidation-commit-voicelive-play:
 	python3 scripts/consolidation_tools.py commit voicelive-play
+
+.PHONY: consolidation-plan-play-acoustic consolidation-apply-play-acoustic consolidation-commit-play-acoustic
+consolidation-plan-play-acoustic:
+	python3 scripts/consolidation_tools.py plan play-acoustic
+consolidation-apply-play-acoustic:
+	python3 scripts/consolidation_tools.py apply play-acoustic
+consolidation-commit-play-acoustic:
+	python3 scripts/consolidation_tools.py commit play-acoustic

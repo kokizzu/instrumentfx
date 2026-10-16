@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'play-acoustic': ('Play Acoustic', 'effects/findings/2026-10-14-tchelicon-play-acoustic.md'),
     'voicelive-play': ('VoiceLive Play', 'effects/findings/2026-10-14-tchelicon-voicelive-play.md'),
     'kmf-10': ('KMF-10', 'effects/findings/2026-10-14-scorpion-kmf-10.md'),
     'bg300': ('BG300', 'effects/findings/2026-10-14-boin-audio-bg300.md'),
@@ -913,7 +914,61 @@ def plan_voiceliveplay():
     print('Preview VoiceLive Play exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_playacoustic():
+    research_tools.identity()
+    model, source_path = MODELS['play-acoustic']
+    brand_file = 'TC-HELICON.md'
+    assert (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['TC-Helicon::Play Acoustic']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'TCHELICON-PLAY-ACOUSTIC'
+    body, refs = preserved_body(source, prefix)
+    normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
+    for old,new in normalizations.items():
+        body=body.replace(old,new)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/shopee-multifx-2.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**8 new partial') or p.startswith('Dimensions are') or p.startswith('These are separate') or p.startswith('No diagonal') or p.startswith('Counts include') or p.startswith('The individual notes retain')]
+    section = '\n## Play Acoustic\n\nSeparate acoustic-guitar and vocal processor, not VoiceLive Play, Play Electric or GTX. Consolidated **2026-10-17**; complete original2014 firmware/manual context retained. BodyRez processing is not proof of IR import or electric-to-acoustic simulation.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical catalogue totals below are superseded.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nSources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/shopee-multifx-2.md). No legacy source or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current Play Acoustic comparison fields\n\nInspected original reference is firmware1.0/2014-05-09; later firmware behavior remains unresolved.\n\n| Field | Evidence and qualification |\n|---|---|\n'
+    mapping={'Other features':'Other relevant features','Harmony / acoustic functions':'Synth / acoustic and harmony functions'}
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'].startswith('Follow-up') or f['field']=='IDR qualified observations':
+            continue
+        section += '| '+mapping.get(f['field'],f['field'])+' | '+f['value']+' |\n'
+    section += '| Used IDR | ? — no condition-qualified local used offer established. |\n| New / retail IDR | **Rp5.100.000**, [NEO MUSIC exact Play Acoustic hardware](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810),shop158235298/item11220047810,Kota Sukabumi, indexed reopening checked2026-10-17. Exact condition grade, accessory bundle, warranty region, delivered charges, voucher eligibility and checkout stock unverified. Historical retail ask, not completed sale or guaranteed availability; relative delivery and late-delivery compensation are not a purchase discount or stock proof. |\n\n<!-- comparison evidence ends -->\n\n### Current source access and firmware lead\n\nChecked **2026-10-17**: [manufacturer model-code page](https://www.tcelectronic.com/tcelectronic/product?modelCode=0726-AAI) returned404. Official search indexed a [Music Tribe English reference manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_P0DEF_PLAY_ACOUSTIC_M.pdf) whose excerpt identifies **2014-07-16**, distinct from the inspected2014-05-09 source. Direct opening failed502, as did the [WW manual lead](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_0726-AAI_PLAY%20ACOUSTIC_WW.pdf). Search excerpts establish a lead, not full manual inspection or firmware behavior. Do not assign new guitar-preset storage, looper limits, memory counts or USB specifications from an inaccessible file.\n\nThe [exact NEO MUSIC Shopee listing](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810) reopened at the same5.100.000 ask and identifies Kota Sukabumi. No authenticated checkout, condition, accessories, warranty or delivered-price verification; no used quote inferred. Original dated offer remains above.\n\nComplete original source body,URLs,firmware1.0 category/reverb-duplicate qualification, global guitar-setting limitation and undo-dependent15/30-second loop limits remain preserved. Those original observations do not establish current firmware behavior. BodyRez continues to mean acoustic-pickup EQ/compression/ambience, not user IR or synthesis. Distinct guitar reverb/modulation processing and vocal effects support membership in both guitar and vocal comparisons; the two rows do not add another unique model.\n\nNo files/dependencies downloaded or new PDF visual inspection performed. Remaining: accessible current official firmware/change notes, later manual comparison, preset/guitar-setting behavior, looper duration, factory/user split, screen diagonal/color/touch, USB channels/rates/drivers, power polarity/battery/bus operation, present VoiceSupport compatibility and qualified current local offers.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file].append(model)
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['TC-Helicon Play Acoustic'],model_name=model,brand='TC-Helicon',destination=brand_file+'#play-acoustic',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete Play Acoustic finding/supporting rows retained; inspected May2014 reference preserved, inaccessible July2014 official manual lead recorded; NEO exact ask rechecked.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='CUVAVE H8 — complete legacy consolidation',task='Read complete H8 finding and supporting comparisons; consolidate losslessly in root CUVAVE.md, preserving CUVAVE versus M-VAVE brand/model distinctions, exact technical variants, source/price dates and unresolved fields. Check primary and Shopee evidence; commit before another model. Continue remaining VING FB-100/Roland GR-55 legacy records, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [TC-HELICON.md](TC-HELICON.md) |VoiceLive Play |','| [TC-HELICON.md](TC-HELICON.md) |VoiceLive Play,Play Acoustic |')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:(ROOT/brand_file).read_text()+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=digest((ROOT/brand_file).read_text())
+    payload=dict(model_id='play-acoustic',model=model,inputs=inputs,outputs=outputs,new_files=[],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview Play Acoustic exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'play-acoustic':
+        return plan_playacoustic()
     if model_id == 'voicelive-play':
         return plan_voiceliveplay()
     if model_id == 'kmf-10':
@@ -1163,6 +1218,9 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'play-acoustic':
+        print(research_tools.git('commit', '-m', 'research(tchelicon): consolidate Play Acoustic and preserve firmware limits'))
+        return
     if model_id == 'voicelive-play':
         print(research_tools.git('commit', '-m', 'research(tchelicon): consolidate VoiceLive Play with firmware context'))
         return

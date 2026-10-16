@@ -118,3 +118,122 @@ Checked **2026-10-17**: [manufacturer model-code page](https://www.tcelectronic.
 The exact Shopee item reopened with the same5.280.000 sold-out ask and identifies Asia Pro Sound,Kota Bekasi. Relative delivery text does not override Habis. Old quote dates remain preserved, and no used-price estimate or exchange-rate conversion was created.
 
 Original v1.0 manual and VoiceSupport reference identities, complete source URLs, earlier visual-inspection qualifications,15/30-second undo-dependent looper limits, style counts and librarian/updater distinction remain preserved above. No files or dependencies downloaded; no new PDF image inspection claimed. Remaining: matching current firmware release/looper limit, total/factory/user memories, model-specific dimensions/mass, display diagonal/color/touch, phantom voltage/current, power polarity/battery/bus operation, USB channel/rate and present OS/editor compatibility, plus qualified current local offers. Vocal-only inclusion remains; GTX/Play Acoustic are separate models.
+
+## Play Acoustic
+
+Separate acoustic-guitar and vocal processor, not VoiceLive Play, Play Electric or GTX. Consolidated **2026-10-17**; complete original2014 firmware/manual context retained. BodyRez processing is not proof of IR import or electric-to-acoustic simulation.
+
+<!-- TCHELICON-PLAY-ACOUSTIC source begins -->
+
+[Home](README.md) · [Marketplace](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+
+Checked **2026-10-14**. **Partial record** for Play Acoustic, with separate acoustic-guitar and vocal processing. Do not substitute VoiceLive Play, Play Electric or Play GTX. The manufacturer reference manual inspected here is **firmware1.0 /2014-05-09**; later firmware capabilities remain to be reconciled.
+
+| Field | Finding |
+|---|---|
+| Built-in / external expression | **No / not established**. PEDAL supports **Switch-3 footswitch control**, not a documented continuous-expression pedal |
+| Rotary / footswitches / buttons | **2 /3 /10**: mic gain plus control knob; down/up/HIT; six soft buttons plus BACK/STORE/two arrows; rear ground-lift control separate |
+| Dimensions / weight | **200×156×45 mm W×D×H;950 g**. Medium; depth exceeds140mm compact limit |
+| Display | **One backlit graphical LCD**. Size, explicit monochrome/color hardware specification, resolution and touchscreen **?**. Blue backlight/button LEDs alone do not establish color-display capability |
+| Processing architecture | **7 vocal FX blocks plus adaptive Tone**, with a separate guitar chain containing reverb, modulation, BodyRez/EQ/compression/ambience and anti-feedback. These are dedicated stages, not a count of freely assignable slots |
+| Vocal choices, manual version | Harmony **28**, double **10**, delay **18** plus13 filter styles, reverb **28 advertised**, µMod **24**, transducer **8**; HardTune count not transcribed. The reverb list repeats Warehouse, so28 is retained as the manual's claim, not28 independently verified unique algorithms |
+| Guitar choices, manual version | Reverb **36**, µMod **6**; compressor/BodyRez style counts **?**. Phase, low-cut and adjustable notch filter support feedback control |
+| Presets | Vocal preset editing/renaming/storage documented; **current factory count, total memory and user split unverified**. v1.0 manual says guitar settings are global, not stored per vocal preset. **Do not assume that limitation remains in later firmware** |
+| Harmony / acoustic functions | Harmony key detection prioritizes guitar, then AUX and RoomSense; up to2 harmony voices. **BodyRez processes an acoustic pickup using EQ, compression and ambience**, not proof of a user-IR loader or electric-to-acoustic simulator. Dedicated synth **?** |
+| IR / NAM / captures | **Third-party IR, NAM and capture loading not established**. Preset downloads and BodyRez are not equivalent to model/IR import |
+| Audio I/O | **XLR mic with48V phantom;¼″ unbalanced guitar input;⅛″ stereo AUX;2×balanced XLR outputs;⅛″ stereo headphones**. Outputs configurable for stereo mix or separate mono vocal/guitar paths |
+| Other ports | **¼″ TRS Switch-3;USB Mini-B as shown in rear diagram;12V inlet**. Specification table calls it USB-B generically. No MIDI DIN/TRS or FX-loop sockets in complete panel |
+| Power / USB / battery | **12V DC400mA specified supply**. Polarity, battery operation and USB-powered operation **not established**. USB audio/data is not power evidence |
+| Apps | **VoiceSupport Windows/macOS**, preset librarian and firmware updater; full parameter editor and Android/iOS/Linux editing **not established**. Current OS-version compatibility and download availability need checking |
+| USB audio | Recording/playback and DAW vocal processing documented; exact channel counts/rates **?**. The ADC/DAC24-bit specification is not automatically a USB stream specification |
+| Looper | v1.0 manual: **15s with undo /30s without**, selectable guitar/vocal/AUX sources. **Current firmware duration unverified** |
+| Other features | RoomSense microphones, vocal HIT/TALK, guitar tuner/boost, separate headphone/monitor mix and optional Switch-3 direct looping |
+
+### IDR price
+
+**Retail ask Rp5.100.000**, [NEO MUSIC, Shopee item11220047810](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810). **Used: ?**. Listing fetched on the review date; checkout stock, explicit condition/accessories, authorization and delivered price were not independently confirmed. A cached Tomorrow banner is not a current delivery guarantee.
+
+### Primary evidence
+
+- **M1:** [TC-Helicon-authored Play Acoustic reference manual](https://c3.zzounds.com/media/manual-59d26e4cea87ce459a68b6f22b9c2f6f.pdf), firmware1.0,2014-05-09. Printed pp.5 software;10–18 controls/presets;20 complete rear panel;32–33 original looper limits;36–47 effects;60–61 physical/connection/power tables. Relevant diagrams/tables visually inspected.
+- **M2:** [Manufacturer product identity](https://www.tcelectronic.com/tcelectronic/product?modelCode=0726-AAI). The dynamic product shell and unavailable current quick-start PDF did not establish updated firmware specifications.
+- **M3:** [Manufacturer VoiceSupport2 manual](https://medias.audiofanzine.com/files/voicesupport-2-reference-manual-english-478887.pdf), librarian/updater distinction; no current OS support guarantee is inferred from old documentation.
+
+**Remaining:** current firmware and guitar-preset behavior/looper duration, memory counts, screen diagonal/color/touch, exact USB modes, polarity, current software support and used-market evidence. **Next Shopee-first model: HeadRush Core**. Original JOYO GEM BOX remains discovery-only until JOYO-specific documentation is distinguished from the similarly named MOOER GEM Box manual.
+<!-- TCHELICON-PLAY-ACOUSTIC source ends -->
+
+### Preserved supporting comparison evidence
+
+Historical catalogue totals below are superseded.
+
+**8 new partial records · checked 2026-10-14.** Together with the existing67 records, the catalogue now contains **75 distinct models across10 comparison pages**. Each new model was researched and committed separately before this integration. This is not an exhaustive Shopee inventory or a claim of current checkout stock. All used-price cells genuinely remain unverified in this batch.
+
+Dimensions are **W×D×H, mm**, except explicitly unresolved source orientation. Compact ≤200×140; medium ≤300×200 but not compact; large otherwise. Cable and pedal clearance are additional. K/F/B = independently adjustable rotary controls / main footswitches / separate buttons; push-encoders once, toe/power/ground switches separate.
+
+These are separate **asking-price observations**, not completed-sale statistics or active market ranges. Delivery, authenticity, included accessories and condition were not independently confirmed. BG300's separate Nafiri Rp1.500.000 observation has conflicting stock markers and a conflicting hardware description; it is not merged into an active range. Low prices on mixed GEM BOX III variations are not accepted as full-unit prices without identifying the selected variant.
+
+No diagonal was measured from a photograph. A complete display field with an explicit unknown is not a verified specification. The two TC-Helicon records retain original-manual context while current firmware and hardware documentation are pending.
+
+Counts include amps/cabs where noted and are not sound-quality rankings. Shared FX libraries, IR locations and factory-filled patches are not extra unique algorithms or additional memory. Play Acoustic's old reverb list repeats one name; the advertised28 is retained with that discrepancy in its finding.
+
+The individual notes retain **TANK-PRO weight**, **BG300 manual/revision/display/power/I/O**, **KMF-10 power/presets**, **GEM BOX III IR length**, and **TC-Helicon current firmware/memory/display/software** uncertainties. Do not fill those with sibling-model specifications.
+
+- **External expression** (No built-in expression): PEDAL is Switch-3; continuous EXP not established
+- **K/F/B** (No built-in expression): 2/3/10
+- **Dimensions; weight** (No built-in expression): 200×156×45;950g
+- **Size class** (No built-in expression): Medium
+- **Used IDR** (No built-in expression): ?
+- **Retail IDR observation** (No built-in expression): **Rp5.100.000**, NEO MUSIC; stock/condition unconfirmed
+- **Main display** (2. Displays): Backlit graphical LCD
+- **Published diagonal** (2. Displays): ?
+- **Color mode** (2. Displays): ?; blue backlight alone is insufficient
+- **Touchscreen** (2. Displays): ?
+- **Simultaneous processing and choices** (3. Processing, memory, acoustic/synth and loading): **7 vocal FX+Tone plus dedicated guitar chain**; v1.0 harmony28,double10,DLY18(+13 filters),RVB28 advertised,µMod24,transducer8; guitar RVB36,µMod6
+- **Memory organization** (3. Processing, memory, acoustic/synth and loading): Counts ?; **v1.0 guitar settings global**, current firmware behavior pending
+- **Synth / acoustic distinction** (3. Processing, memory, acoustic/synth and loading): **BodyRez acoustic-pickup processing**, not proof of electric-to-acoustic sim or body-IR import
+- **IR / NAM / captures** (3. Processing, memory, acoustic/synth and loading): IR/NAM/capture imports not established
+- **Power / battery / USB operation** (4. Power, apps, I/O and stage use): **12V400mA specified supply**;polarity/battery/USB power ?
+- **Apps** (4. Power, apps, I/O and stage use): VoiceSupport Windows/macOS **librarian/updater**
+- **Key I/O and performance details** (4. Power, apps, I/O and stage use): **48V XLR mic+¼″ guitar**;2XLR out,aux/phones,Switch-3,USB Mini-B;BodyRez/anti-feedback;**v1.0 looper15/30s**,current firmware pending
+
+Sources: [Original finding](effects/findings/2026-10-14-tchelicon-play-acoustic.md), [Complete supporting comparison](effects/shopee-multifx-2.md). No legacy source or incoming link removed.
+
+<!-- comparison evidence begins -->
+
+### Current Play Acoustic comparison fields
+
+Inspected original reference is firmware1.0/2014-05-09; later firmware behavior remains unresolved.
+
+| Field | Evidence and qualification |
+|---|---|
+| Built-in / external expression | **No / not established**. PEDAL supports **Switch-3 footswitch control**, not a documented continuous-expression pedal |
+| Rotary / footswitches / buttons | **2 /3 /10**: mic gain plus control knob; down/up/HIT; six soft buttons plus BACK/STORE/two arrows; rear ground-lift control separate |
+| Dimensions / weight | **200×156×45 mm W×D×H;950 g**. Medium; depth exceeds140mm compact limit |
+| Display | **One backlit graphical LCD**. Size, explicit monochrome/color hardware specification, resolution and touchscreen **?**. Blue backlight/button LEDs alone do not establish color-display capability |
+| Processing architecture | **7 vocal FX blocks plus adaptive Tone**, with a separate guitar chain containing reverb, modulation, BodyRez/EQ/compression/ambience and anti-feedback. These are dedicated stages, not a count of freely assignable slots |
+| Vocal choices, manual version | Harmony **28**, double **10**, delay **18** plus13 filter styles, reverb **28 advertised**, µMod **24**, transducer **8**; HardTune count not transcribed. The reverb list repeats Warehouse, so28 is retained as the manual's claim, not28 independently verified unique algorithms |
+| Guitar choices, manual version | Reverb **36**, µMod **6**; compressor/BodyRez style counts **?**. Phase, low-cut and adjustable notch filter support feedback control |
+| Presets | Vocal preset editing/renaming/storage documented; **current factory count, total memory and user split unverified**. v1.0 manual says guitar settings are global, not stored per vocal preset. **Do not assume that limitation remains in later firmware** |
+| Synth / acoustic and harmony functions | Harmony key detection prioritizes guitar, then AUX and RoomSense; up to2 harmony voices. **BodyRez processes an acoustic pickup using EQ, compression and ambience**, not proof of a user-IR loader or electric-to-acoustic simulator. Dedicated synth **?** |
+| IR / NAM / captures | **Third-party IR, NAM and capture loading not established**. Preset downloads and BodyRez are not equivalent to model/IR import |
+| Audio I/O | **XLR mic with48V phantom;¼″ unbalanced guitar input;⅛″ stereo AUX;2×balanced XLR outputs;⅛″ stereo headphones**. Outputs configurable for stereo mix or separate mono vocal/guitar paths |
+| Other ports | **¼″ TRS Switch-3;USB Mini-B as shown in rear diagram;12V inlet**. Specification table calls it USB-B generically. No MIDI DIN/TRS or FX-loop sockets in complete panel |
+| Power / USB / battery | **12V DC400mA specified supply**. Polarity, battery operation and USB-powered operation **not established**. USB audio/data is not power evidence |
+| Apps | **VoiceSupport Windows/macOS**, preset librarian and firmware updater; full parameter editor and Android/iOS/Linux editing **not established**. Current OS-version compatibility and download availability need checking |
+| USB audio | Recording/playback and DAW vocal processing documented; exact channel counts/rates **?**. The ADC/DAC24-bit specification is not automatically a USB stream specification |
+| Looper | v1.0 manual: **15s with undo /30s without**, selectable guitar/vocal/AUX sources. **Current firmware duration unverified** |
+| Other relevant features | RoomSense microphones, vocal HIT/TALK, guitar tuner/boost, separate headphone/monitor mix and optional Switch-3 direct looping |
+| Used IDR | ? — no condition-qualified local used offer established. |
+| New / retail IDR | **Rp5.100.000**, [NEO MUSIC exact Play Acoustic hardware](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810),shop158235298/item11220047810,Kota Sukabumi, indexed reopening checked2026-10-17. Exact condition grade, accessory bundle, warranty region, delivered charges, voucher eligibility and checkout stock unverified. Historical retail ask, not completed sale or guaranteed availability; relative delivery and late-delivery compensation are not a purchase discount or stock proof. |
+
+<!-- comparison evidence ends -->
+
+### Current source access and firmware lead
+
+Checked **2026-10-17**: [manufacturer model-code page](https://www.tcelectronic.com/tcelectronic/product?modelCode=0726-AAI) returned404. Official search indexed a [Music Tribe English reference manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_P0DEF_PLAY_ACOUSTIC_M.pdf) whose excerpt identifies **2014-07-16**, distinct from the inspected2014-05-09 source. Direct opening failed502, as did the [WW manual lead](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_0726-AAI_PLAY%20ACOUSTIC_WW.pdf). Search excerpts establish a lead, not full manual inspection or firmware behavior. Do not assign new guitar-preset storage, looper limits, memory counts or USB specifications from an inaccessible file.
+
+The [exact NEO MUSIC Shopee listing](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810) reopened at the same5.100.000 ask and identifies Kota Sukabumi. No authenticated checkout, condition, accessories, warranty or delivered-price verification; no used quote inferred. Original dated offer remains above.
+
+Complete original source body,URLs,firmware1.0 category/reverb-duplicate qualification, global guitar-setting limitation and undo-dependent15/30-second loop limits remain preserved. Those original observations do not establish current firmware behavior. BodyRez continues to mean acoustic-pickup EQ/compression/ambience, not user IR or synthesis. Distinct guitar reverb/modulation processing and vocal effects support membership in both guitar and vocal comparisons; the two rows do not add another unique model.
+
+No files/dependencies downloaded or new PDF visual inspection performed. Remaining: accessible current official firmware/change notes, later manual comparison, preset/guitar-setting behavior, looper duration, factory/user split, screen diagonal/color/touch, USB channels/rates/drivers, power polarity/battery/bus operation, present VoiceSupport compatibility and qualified current local offers.
