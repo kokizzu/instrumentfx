@@ -1283,3 +1283,7 @@ research-commit-g1xon:
 .PHONY: research-commit-g1on
 research-commit-g1on:
 	python3 scripts/research_tools.py commit-g1on
+
+.PHONY: research-commit-hd500
+research-commit-hd500:
+	python3 scripts/research_tools.py commit-hd500

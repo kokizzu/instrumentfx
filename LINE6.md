@@ -757,3 +757,42 @@ The P1 **USD555** observation was checked2026-10-14 at an international store, e
 ### HX Stomp evidence limits
 
 The product page/FAQ still contain six-block wording. Retain the firmware3.0 eight-block correction above; do not revert based on launch copy or equate advertised available-model totals with simultaneous capacity. Firmware-current category counts, exact synth/acoustic algorithms, IR import conversion, NAM/capture support, screen touch/pixels, detailed USB channel/driver/updater requirements and looper/drum limits remain open. No sibling XL specifications are substituted. Published2.4-inch display and numbered control descriptions are model-specific evidence; no screen size was measured from a photo. The3.80 manual/guide details above came from indexed original-document excerpts; full-file reading or visual inspection is not claimed.
+
+## POD HD500
+
+Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Exactsellerunit identity remainsunconfirmed;ownership andbassclassification pending.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | **Built-in pedal+toe switch;external PEDAL2**. Without external, toe togglesEXP1/2;with external,built-inEXP1/externalEXP2. Toe can toggleamp/FX blocks. | [Guide3•7–13][HD5-M] |
+| K/F/B | Separate control counts pending pilotguide. | Unresolved |
+| Display | Diagonal,color,touch/technology unverified. | Unresolved |
+| Dimensions / mass | FAQ: **21.50W×10.29D×2.91H inches**;masspending. Large footprint. | [OfficialFAQ][HD5-F] |
+| Processing / category choices | Pre/Post andparallelA/B paths withmixer;exactblock/categorycounts pending. Do nottransferHD500X DSPcapacity. | [Guide1•1][HD5-M] |
+| Factory / user memory | **8 setlists×64=512 presetlocations**. Initialfactoryfill pending. | [Guide4•1][HD5-M] |
+| Synth / acoustic | Exactmodelalgorithms pending. | Unresolved |
+| I/O | Rear diagram includesguitar,mic,AUX,CD/MP3,phones,balanced/unbalanced outputs,FXloop,PEDAL2,MIDI,S/PDIFout,USB,Variax,L6LINK,DC. Complete sockettypes/counts pending. | [Guide1•4][HD5-M] |
+| Power / battery / USB | FAQ **DC-3g9V DC3A,2.5mm,center-negative**;guide rearlabel2.5Aminimum. Supplyrating≠measureddraw. Battery/USBpower unknown. | [FAQ][HD5-F];[Guide1•4][HD5-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,captureimports unverified. | Unresolved |
+| Editor / software | **POD HD500 Edit Windows/Mac editor/librarian**;USB audio driver chapter. Audiochannels/currentOS pending. | [Guide1•5,9•1][HD5-M] |
+| Looper / drums / live | Dedicatedlooper chapter;duration/storage/drums/scenes/trails pending. | [Guide8•1][HD5-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;conditionandunitidentity unconfirmed. | — |
+| New | Unknown;conditionandunitidentity unconfirmed. | — |
+
+<!-- comparison evidence ends -->
+
+### Identity-unverified seller lead
+
+[HopeMusic HD500](https://shopee.co.id/Efek-Line6-HD500-i.703817770.29524092321),shop703817770/item29524092321:Rp3,499,000,22%display,month-oldstorefront;itemcachemiss. Displaymodel242513456401 notvalidatedvariant. Condition,stock,region,bundle/adapter,workingstate andvoucher/checkout terms unknown. Checked2026-10-17;notqualifiedused/newprice. SellerHD500title doesnot prove exactunitversusHD500X.
+
+Officialguide v2.10RevA©2012 explicitly coversoriginalHD500;manufactureridentity established independently ofsellerunit. No software/firmwaredownloaded.
+
+[HD5-M]: https://l6c-acdn2.line6.net/data/6/0a06434dc1a55085c5d6532bf/application/pdf/POD%20HD500%20Advanced%20Guide%20v2.10%20%28%20Rev%20A%20%29.pdf
+[HD5-F]: https://kb.line6.com/pod-hd500x-hd500-pod-hd-pod-hd-pro-faq
