@@ -447,7 +447,7 @@ Guitar multi-effects strip, distinct from Black Hammer and G3-series products. M
 | K/F/B | Separate rotary, footswitch and button totals require readable panel evidence. | Unresolved |
 | Display | Illuminated knobs indicate operating state; screen presence, diagonal, color and touch remain unverified. | [Product][RS-P] |
 | Dimensions / mass | **262 D × 64 W × 44 H mm; 480 g**. Long strip. | [Product][RS-P] |
-| Processing / category choices | **Analog Plexi-style distortion, BBD-style chorus, digital delay and digital reverb**. Delay has analog voicing, not an all-analog implementation. Japanese official listing names four effects: Chorus, Amp, Delay and Reverb. This corroborates the architecture; exact simultaneous count and signal order remain unverified. | [Product][RS-P] |
+| Processing / category choices | **Analog Plexi-style distortion, BBD-style chorus, digital delay and digital reverb**. Delay has analog voicing, not an all-analog implementation. Japanese official listing names four effects: Chorus, Amp, Delay and Reverb. This corroborates the architecture; exact simultaneous count and signal order remain unverified. | [Product][RS-P]; [Japanese source][RS-J] |
 | Factory / user memory | Factory-filled, user and total storage unverified. | Unresolved |
 | Synth / acoustic | Dedicated synth and electric-to-acoustic simulation unverified. | Unresolved |
 | I/O | Cab simulation supports direct PA, mixer or interface use. Full socket inventory, connector types and cab-sim routing remain unverified. | [Product][RS-P] |
