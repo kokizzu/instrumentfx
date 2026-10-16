@@ -128,6 +128,7 @@ Original-model sources: [Source 1](https://nuxaudio.com/product/mg300/) · [Sour
 
 ## MG-300 MKII
 
+<!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg300mkii/); [manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf); [NUX USA](https://www.nux.us/products/mg-300-mkii).
 
 | Field | Preserved finding / unresolved detail |
@@ -143,6 +144,51 @@ Original-model sources: [Source 1](https://nuxaudio.com/product/mg300/) · [Sour
 | Prices | Used/new IDR ?. Foreign quote retained separately. |
 
 The manual predates GEN2 additions. The original review identified GEN2 firmware3.0.0;that date is not refreshed by this merge or a claim about any owner's installed unit.
+<!-- comparison evidence ends -->
+
+### Preserved shared-source MG-300 MKII fields
+
+Historical snapshot **2026-10-14**,retained2026-10-17. These rows preserve original wording,firmware scope and uncertainties;they do not certify current firmware or stock. The USD quote is historical foreign-price provenance.
+
+| Original field | Original value |
+|---|---|
+| External expression | No socket in manual |
+| K/F/B | 4/2/9 [manual] |
+| Dimensions; weight | 241×160×49; 760 g |
+| Size class | Medium |
+| Used USD | ? |
+| New USD observation | $169, NUX USA [US300] |
+| Simultaneous blocks / available categories | **10** movable; base library: NG1, CMP2, OD/DIST13, touch-wah1, EQ2, MOD14, DLY7, RVB5; GEN2 adds 4 wah and 3 DeepImage amps |
+| Presets: factory / user | ? / ? |
+| Acoustic / synth | Acoustic-body IRs; octave/rotary can make organ-like sounds, not proof of a full synth engine |
+| Third-party IR | **24 collection slots**, 512 samples; per-patch user-IR workflow |
+| NAM / other captures | **10 NAM A2-Lite native slots** with GEN2; older-format acceptance must follow matching firmware notes |
+| Audio / control connections | ¼″ input; single ¼″ stereo main output; 3.5 mm aux; **TRRS headset/mic**; USB-C; DC |
+| Power and batteries; USB-powered? | **9V**, supplied ACD-006A; required current ?; batteries/USB bus power not established |
+| Editing apps / other USB functions | QuickTone **Windows/macOS**; USB recording/OTG, reamp and loopback; **match GEN2 editor to GEN2 firmware** |
+| Practical features | 3 Pro Scenes; independent headset-mic settings; not an XLR phantom-powered mic preamp |
+
+The literal [manual] label refers to the MG-300 MKII manual linked below;[US300] resolves the original US offer.
+
+[US300]: https://www.nux.us/products/mg-300-mkii
+
+### Shared historical qualifications
+
+Other model names below retain the shared source context;their specifications are not inherited by MKII.
+
+Checked **2026-10-14**. **Partial records**; `?` is unverified. K/F/B = rotary controls / footswitches / separate front buttons; expression toe switches and rear power toggles are additional. Dimensions are normalised to **W×D×H, mm**; NUX manuals often call the long horizontal side `L` rather than `W`. Used prices are deliberately blank where no dependable observation was obtained.
+
+These are single new-price observations, **not** used-to-new market ranges. US versus international seller pricing can differ. All prices checked **2026-10-14**, before destination tax/shipping. MG-300 and MG-300 MKII are distinct hardware records. **MG-30 GEN2 is documented as a firmware update for MG-30**; it is not silently treated as a new hardware model.
+
+The category numbers describe the cited list, not guaranteed totals after every firmware update. Utility blocks, amps, cabinet IRs and captures are not interchangeable effect-count units.
+
+**MG-101 / MG-300 MKII:** portions of the US pages contain apparent copied model names and mutually inconsistent amp totals. The global page/manual takes precedence where clear. No “MG-101 MKII” record is invented from that wording.
+
+**NAM:** the checked NUX page names MG-300 MKII, MG-400, MG-30 and MG-50Li as currently supported **A2-Lite native** devices. It separately describes A1 conversion and planned support for other devices. “Native” here must retain the architecture qualifier; it does not mean arbitrary `.nam` models run unmodified.
+
+The global download pages explicitly distinguish domestic/Mandarin versus global/English hardware firmware. Use the correct regional firmware, back up presets and install the matching editor. At checking, MG-300 MKII GEN2 was 3.0.0, MG-400 GEN2 3.0.3, MG-30 GEN2 1.0.5, and MG-50Li English firmware 1.1.1. This is a dated documentation snapshot, not an update instruction for an unidentified unit.
+
+Model sources: [Source 1](https://nuxaudio.com/product/mg300mkii/) · [Source 2](https://www.nux.us/products/mg-300-mkii) · [Source 3](https://www.nux.us/pages/nam-a2-native) · [Source 4](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf)
 
 ## MG-400
 
