@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G1on manual follow-up",
-    "task": "G1on manualpanel/controls/loopconstraints andAcoSim saved. Remaining75vs100,display/imports/editorUSB/liveprices retained. NextfreshShopee bassdiscoverybybrand/series;ME50B exactleadstillmissing.",
+    "model": "Line 6 POD HD500 identity verification",
+    "task": "ExactShopeeHD500itemlink recoveredfromHopeMusic;directcachemiss andconditionunresolved. Verifyidentityagainstmanufacturer;researchrequiredfields,canonicalrecord/fourrows onlyaftereligibility established. Commitbeforeanothermodel.",
     "next_models": [],
-    "after_queue": "FreshShopeebassdiscovery required;ME50B exactitem notestablished."
+    "after_queue": "ContinueShopeebassdiscovery;StompLab1B/B2.1u/ME50B/GT6B exacthardwareitems notestablished."
   },
   "new_findings": [
     {
@@ -47561,5 +47561,46 @@
     ],
     "bass_search": "No exact ME50B hardwareitem established in this pass. This is a search limitation,notproofmarketabsence.",
     "next": "G1on exactofficialprofile;do notborrowG1Xon expression,mass,dimensions orfirmwarecount."
+  },
+  "discovery_bass_legacy_and_hd500": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"Vox\" \"Stomplab 1B\"",
+      "site:shopee.co.id \"Zoom B2.1u\"",
+      "site:shopee.co.id \"Boss ME50B\" efek bass",
+      "site:shopee.co.id \"Stomplab\" \"1B\" efek",
+      "site:shopee.co.id \"B2.1u\" -adaptor -tas -socket",
+      "site:shopee.co.id \"GT-6B\"",
+      "site:shopee.co.id \"B1X\" \"Next\" efek",
+      "site:shopee.co.id \"Stomplab IB\""
+    ],
+    "bass_result": "No exacthardwareitem established;notmarketabsence. HopeMusic cachedstorefront names mixedG2.1Nu/G2.1u/B2.1u Rp1699000 andG1xNext/B1xNext Rp999000. No itemID orvariantmapping;notqualifiedprice/candidate technical proof.",
+    "storefront": {
+      "url": "https://shopee.co.id/hopemusik",
+      "seller": "Hope Music",
+      "shop": "703817770",
+      "search_access": "4monthcachedindex",
+      "opened_access": "1monthcachedHTML;visibleassortment changed andbassmixeditems absent",
+      "qualification": "Storefrontprices vary bycache/assortment;notlive confirmation"
+    },
+    "next_exact": {
+      "model": "Line 6 POD HD500 identity pending",
+      "url": "https://shopee.co.id/Efek-Line6-HD500-i.703817770.29524092321",
+      "observed_url": "https://shopee.co.id/Efek-Line6-HD500-i.703817770.29524092321?extraParams=%7B%22display_model_id%22%3A242513456401%2C%22model_selection_logic%22%3A3%7D",
+      "shop": "703817770",
+      "item": "29524092321",
+      "display_model_id": "242513456401",
+      "seller": "Hope Music",
+      "idr": 3499000,
+      "display_discount": "22%",
+      "stock": "unknown",
+      "condition": "unknown",
+      "region": "not established fromthisstorefront",
+      "bundle_variant": "unknown;displaymodelID isnotvalidatedvariant",
+      "access": "Linkedfromreadablemonth-oldstorefront;itemdirectcachemiss",
+      "qualified_used_new": false,
+      "identity_limit": "SellerHD500title requires verificationasPODHD500,notHD500X"
+    },
+    "remaining": "VerifyexactHD500identity andofficialmanufacturer guitar/bass capabilities;do notinferbass fromsearchintent. Continuebassdiscovery independently."
   }
 }
