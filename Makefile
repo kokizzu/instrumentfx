@@ -1299,3 +1299,7 @@ research-commit-dapper-bass-mini:
 .PHONY: research-commit-dapper-mini
 research-commit-dapper-mini:
 	python3 scripts/research_tools.py commit-dapper-mini
+
+.PHONY: research-commit-dapper-acoustic-mini
+research-commit-dapper-acoustic-mini:
+	python3 scripts/research_tools.py commit-dapper-acoustic-mini

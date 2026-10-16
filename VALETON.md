@@ -839,3 +839,39 @@ Official product links English manual V03_170227(Curve), two pages but no readab
 Manufacturer-authored two-page Owner’s Manual on ManualMachine matches Dapper Mini architecture,110mA/417g and 1000ms delay. Mirror revision is unreadable; byte identity with linked V03 is not established. Manual body used, not mirror-generated FAQs or ASIN instructions. Footswitch totals and complete socket sizes/absence still require panel verification.
 
 [DM-MM]: https://manualmachine.com/valeton/dappermini/2574559-user-manual/
+
+## Dapper Acoustic Mini
+
+Distinct acoustic-guitar multi-effects strip, separate from full-size Dapper Acoustic and other Minis. Checked 2026-10-17; partial. Exact model code remains unverified; no MES-4 identity inferred from third-party instructions.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in, external and toe support unverified. | Unresolved |
+| K/F/B | **11 rotary controls**, text-derived: Comp 3, Preamp 6, Reverb 1, Phones 1. Footswitch/button totals require panel inspection. | [Manual pp.1–2][DA-M] |
+| Display | Seven bicolor note LEDs, three pitch LEDs; screen diagonal and touch unverified. | [Manual p.2][DA-M] |
+| Dimensions / mass | **197 × 65 × 42 mm; 435 g**. Product labels WDH, manual DWH; axis conflict retained. Compact strip. | [Product][DA-P]; [manual][DA-M] |
+| Processing / category choices | Separate **Compressor, Preamp and Reverb** modules, plus tuner. Comp volume/amount/attack; Preamp volume/three-band EQ/notch cut-gain/notch frequency; one-knob hall-style reverb. Exact simultaneous count awaits diagram verification. | [Manual pp.1–2][DA-M]; [product][DA-P] |
+| Factory / user memory | Factory, user and total storage unverified. | Unresolved |
+| Synth / acoustic | Processes acoustic instruments; this is not proof of electric-to-acoustic simulation. Dedicated synth/acoustic-simulation algorithms unverified. | [Product][DA-P] |
+| I/O | INPUT, OUTPUT, balanced XLR and PHONES documented; **all outputs usable together**. Complete socket types/sizes and additional-port absence pending. | [Manual pp.1–2][DA-M] |
+| Power / battery / USB | **9 V DC centre-negative, 140 mA consumption**. Cannot use phantom power; disable phantom at mixer/interface for XLR connection. Product includes adapter; seller bundle unconfirmed. Battery/USB unverified. | [Manual p.2][DA-M]; [product][DA-P] |
+| IR / NAM / capture | Product headphone heading says cab simulation; manual headphone prose does not specify it. Retain this qualification; user IR, native/converted NAM and capture remain unverified. | [Product][DA-P]; [manual][DA-M] |
+| Editor / software | Editor/platform support unverified. | Unresolved |
+| Looper / drums / live | Hold Reverb for muted tuner. Preamp notch has cut/gain (neutral at noon) and centre-frequency controls. Looper/drums/scenes/trails unverified. | [Manual pp.1–2][DA-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no qualified used offer. | — |
+| New | Unknown; seller condition/availability unconfirmed. | — |
+
+### Qualified seller observation
+
+Dooit Music Store, Tasikmalaya, shop1051758555/item23456048014: Rp1,880,000, month-old search cache, shop on holiday; direct item cache miss. Condition, live checkout stock, adapter/bundle, warranty region and voucher eligibility unverified. Seller calls it Mini Acoustic; exact physical revision unconfirmed. This is not a confirmed new/used range.
+
+Official English V01_170213 manual is readable as two-page web text. Older /download/122/ URL returns an incorrect-download message; retain the working /download/178/ link below. Control inventory is text-derived, not visually verified. No file downloaded.
+
+[DA-M]: https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf
+[DA-P]: https://www.valeton.net/product/dapper-acoustic-mini/
+[DA-O]: https://shopee.co.id/Valeton-Dapper-Mini-Acoustic-Multi-Effect-Analog-Strip-Efek-Preamp-Reverb-Compressor-Gitar-Akustik-i.1051758555.23456048014
