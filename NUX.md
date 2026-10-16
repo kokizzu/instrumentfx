@@ -192,6 +192,7 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg300mkii/) · [Source 2]
 
 ## MG-400
 
+<!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg400/); [NUX USA](https://www.nux.us/products/mg-400); [official controls photo](https://www.nux.us/cdn/shop/files/MG-400_Thumbnails.jpg?v=1756899623&width=800).
 
 | Field | Preserved finding / unresolved detail |
@@ -206,6 +207,50 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg300mkii/) · [Source 2]
 | Prices / ownership | Used/new IDR ?. The owner's rejected fake-seller MG-400 order is **not confirmed ownership**;general model coverage remains eligible. |
 
 Original checked firmware: GEN2 3.0.3. Do not infer exact current firmware or source-resolution of unknowns from this consolidation.
+<!-- comparison evidence ends -->
+
+### Preserved shared-source MG-400 fields
+
+Historical snapshot **2026-10-14**,retained2026-10-17. Original wording,GEN2 qualifications and uncertainties remain. USD quotes are historical foreign-price provenance,not current IDR offers.
+
+| Original field | Original value |
+|---|---|
+| External expression | ? |
+| K/F/B | 5/4/9 [photo] |
+| Dimensions; weight | ?; ? |
+| Size class | Unverified |
+| Used USD | ? |
+| New USD observation | $229, NUX USA [US400]; $172, Thomann [P1] |
+| Simultaneous blocks / available categories | **10** movable; selected blocks can change category; GEN2 adds 4 wah, 3 DeepImage amps and 5 DeepImage EFX; exact current total ? |
+| Presets: factory / user | ? / ?; **3 scenes per preset** |
+| Acoustic / synth | **3 acoustic IRs** for electric-to-acoustic sound; 8 bass cab IRs; synth ? |
+| Third-party IR | **512 samples**, per-patch user IR plus 12 collection slots |
+| NAM / other captures | **10 slots; A2-Lite native, A1 converted**, explicitly distinguished in GEN2 notes |
+| Audio / control connections | USB audio, main audio ports; exact complete connector inventory remains ? |
+| Power and batteries; USB-powered? | Adapter requirement and battery/USB-power capability need manual confirmation |
+| Editing apps / other USB functions | QuickTone **Windows/macOS**; GEN2 requires matching editor; USB recording/reamp/loopback |
+| Practical features | **60 s mono /30 s stereo** looper; scene-based effect switching with trails |
+
+The literal [photo] label refers to the official MG-400 control image below;[US400] and [P1] resolve the historical US/Thomann observations.
+
+[US400]: https://www.nux.us/products/mg-400
+[P1]: https://www.thomannmusic.com/nux_mg_400.htm
+
+### Shared historical qualifications
+
+Other model names retain original shared context;their specifications are not assigned to MG-400.
+
+Checked **2026-10-14**. **Partial records**; `?` is unverified. K/F/B = rotary controls / footswitches / separate front buttons; expression toe switches and rear power toggles are additional. Dimensions are normalised to **W×D×H, mm**; NUX manuals often call the long horizontal side `L` rather than `W`. Used prices are deliberately blank where no dependable observation was obtained.
+
+These are single new-price observations, **not** used-to-new market ranges. US versus international seller pricing can differ. All prices checked **2026-10-14**, before destination tax/shipping. MG-300 and MG-300 MKII are distinct hardware records. **MG-30 GEN2 is documented as a firmware update for MG-30**; it is not silently treated as a new hardware model.
+
+The category numbers describe the cited list, not guaranteed totals after every firmware update. Utility blocks, amps, cabinet IRs and captures are not interchangeable effect-count units.
+
+**NAM:** the checked NUX page names MG-300 MKII, MG-400, MG-30 and MG-50Li as currently supported **A2-Lite native** devices. It separately describes A1 conversion and planned support for other devices. “Native” here must retain the architecture qualifier; it does not mean arbitrary `.nam` models run unmodified.
+
+The global download pages explicitly distinguish domestic/Mandarin versus global/English hardware firmware. Use the correct regional firmware, back up presets and install the matching editor. At checking, MG-300 MKII GEN2 was 3.0.0, MG-400 GEN2 3.0.3, MG-30 GEN2 1.0.5, and MG-50Li English firmware 1.1.1. This is a dated documentation snapshot, not an update instruction for an unidentified unit.
+
+Model sources: [Source 1](https://nuxaudio.com/product/mg400/) · [Source 2](https://www.nux.us/products/mg-400) · [Source 3](https://www.nux.us/pages/nam-a2-native) · [Source 4](https://www.thomannmusic.com/nux_mg_400.htm) · [Source 5](https://www.nux.us/cdn/shop/files/MG-400_Thumbnails.jpg?v=1756899623&width=800)
 
 ## MG-30
 

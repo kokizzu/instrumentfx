@@ -833,3 +833,11 @@ consolidation-plan-nux-mg300mkii:
 .PHONY: research-commit-nux-mg300mkii-audit
 research-commit-nux-mg300mkii-audit:
 	python3 scripts/research_tools.py commit-nux-mg300mkii-audit
+
+.PHONY: consolidation-plan-nux-mg400
+consolidation-plan-nux-mg400:
+	python3 scripts/consolidation_tools.py plan-nux-mg400
+
+.PHONY: research-commit-nux-mg400-audit
+research-commit-nux-mg400-audit:
+	python3 scripts/research_tools.py commit-nux-mg400-audit

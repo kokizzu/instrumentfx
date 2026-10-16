@@ -1698,11 +1698,12 @@ def audit_compact_links():
 
 
 def plan_nux_shared(model='MG-101'):
-    assert model in ('MG-101', 'MG-300 original', 'MG-300 MKII')
+    assert model in ('MG-101', 'MG-300 original', 'MG-300 MKII', 'MG-400')
+    mg400 = model == 'MG-400'
     mkii = model == 'MG-300 MKII'
     original = model == 'MG-300 original'
-    labels = {'mg300mkii'} if mkii else ({'mg300', 'mg300original'} if original else {'mg101'})
-    key = 'mg300mkii' if mkii else ('mg300' if original else 'mg101')
+    labels = {'mg400'} if mg400 else ({'mg300mkii'} if mkii else ({'mg300', 'mg300original'} if original else {'mg101'}))
+    key = 'mg400' if mg400 else ('mg300mkii' if mkii else ('mg300' if original else 'mg101'))
     research_tools.identity()
     source_path = 'effects/guitar-nux.md'
     source = (ROOT/source_path).read_text()
@@ -1713,19 +1714,23 @@ def plan_nux_shared(model='MG-101'):
             if comparison_views.norm(row[0]) in labels:
                 facts += [dict(field=h,value=v,source=source_path,context=context) for h,v in zip(headers[1:],row[1:])]
     assert len(facts) == 15, model+' row scope changed'
-    prefixes = ('Checked **2026-10-14**.', 'These are single new-price observations', 'The category numbers describe', '**NAM:**' if original else '**MG-101 / MG-300 MKII:**', 'The global download pages explicitly')
+    prefixes = ('Checked **2026-10-14**.', 'These are single new-price observations', 'The category numbers describe', '**NAM:**' if original or mg400 else '**MG-101 / MG-300 MKII:**', 'The global download pages explicitly')
     if mkii:
         prefixes += ('**NAM:**',)
     contexts = [p for p in source.split('\n\n') if p.startswith(prefixes)]
     assert len(contexts) == (6 if mkii else 5)
-    urls = re.findall(r'https?://[^\s)]+', '\n'.join(line for line in source.splitlines() if line.startswith(('[300ii]:','[US300]:','[NAM]:','- [MG-300 MKII manufacturer manual]') if mkii else (('[300]:','- [MG-300 manufacturer manual]') if original else ('[101]:','[US101]:','- MG-101 ')))))
-    assert len(urls) == (2 if original else 4)
+    url_prefixes = ('[400]:','[US400]:','[P1]:','[NAM]:','- [MG-400 control image]') if mg400 else (('[300ii]:','[US300]:','[NAM]:','- [MG-300 MKII manufacturer manual]') if mkii else (('[300]:','- [MG-300 manufacturer manual]') if original else ('[101]:','[US101]:','- MG-101 ')))
+    urls = re.findall(r'https?://[^\s)]+', '\n'.join(line for line in source.splitlines() if line.startswith(url_prefixes)))
+    assert len(urls) == (5 if mg400 else (2 if original else 4))
     section = destination.split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
     report = dict(model=model, source=source_path, source_sha256=digest(source), destination_sha256=digest(destination), retained_comparison_facts=facts, retained_context=contexts,retained_source_urls=urls,missing_exact_fields=[f for f in facts if f['value'] not in section])
     Path('/tmp/instrumentfx-nux-'+key+'-plan.json').write_text(json.dumps(report,indent=2)+'\n')
     print(model+':15 fields/3rows,'+str(len(contexts))+'historical context paragraphs,'+str(len(urls))+'sourceURLs;exact field omissions='+str(len(report['missing_exact_fields'])))
 
 if __name__ == '__main__':
+    if sys.argv[1:] == ['plan-nux-mg400']:
+        plan_nux_shared('MG-400')
+        raise SystemExit(0)
     if sys.argv[1:] == ['plan-nux-mg300mkii']:
         plan_nux_shared('MG-300 MKII')
         raise SystemExit(0)
