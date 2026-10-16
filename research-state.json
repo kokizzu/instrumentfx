@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX ToneLab ST primary follow-up",
-    "task": "Initial ST profile saved with 12/2/9 controls,USB/librarian distinction and unqualified exact offer. Next verify synth/acoustic algorithms,category combinations and USB/power limits from ST primary sources; commit before SE discovery lead.",
+    "model": "VOX ToneLab SE discovery lead",
+    "task": "ST acoustic simulation,shared effect slots,pitch and delay restrictions saved. Unknown ST power/import/display/current software fields remain explicit. Next inspect exact SE hardware lead in discovery_vox and primary SE manual, then commit before another model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -2595,7 +2595,28 @@
         "power polarity/battery/bus",
         "modern editor support",
         "looper/drums/trails"
-      ]
+      ],
+      "algorithm_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf",
+        "pages": "18–22",
+        "resolved": [
+          "ACOUSTIC simulation in shared PEDAL slot",
+          "25 choices11pedal11moddelay3reverb;NRseparate",
+          "Chorus+Delay fixed chorus depth",
+          "Chord-capable pitch shift ±12 semitones/detune",
+          "40–1480ms delays",
+          "Expression-controlled FILTRON changes control behavior"
+        ],
+        "remaining": [
+          "full simultaneous accounting",
+          "USB power/polarity",
+          "current software support",
+          "imports/display",
+          "visual controls",
+          "qualified offers"
+        ]
+      }
     }
   ],
   "consolidation_and_price_findings": [
@@ -38304,7 +38325,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab ST primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab SE discovery lead."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

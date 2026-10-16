@@ -53,8 +53,10 @@ Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass s
 | Display | Program/value LED display; diagonal,color,touch unverified. | [Manual p5][TLST-M] |
 | Dimensions / mass | **270×180×70mm WDH;1.6kg**. Product metric row wrongly labels first dimension H; its inch row identifies W. | [Product][TLST-P] |
 | Processing / category choices | **33 amps;11 cabinets;11 pedal;11 MOD/DELAY;3 reverbs;1 noise reduction**. Manufacturer claims up to eight simultaneous types; detailed block accounting pending. | [Product][TLST-P]; [Manual p1][TLST-M] |
+| Category choices / combinations | **25 effects=11 PEDAL+11 MOD/DELAY+3 reverb**, with noise reduction separately listed. ACOUSTIC and drive/compressor choices share PEDAL. MOD/DELAY has8 modulation/pitch/filter choices plus Echo Plus,Delay,Chorus+Delay; not separate freely combinable modulation and delay slots. Chorus+Delay fixes chorus depth. | [Manual pp18–22][TLST-M] |
+| Routing / pitch and delay | Pitch Shifter supports chords,±12 semitones and detune. Delay types40–1480ms;TAP+EDIT adjusts feedback. Assigning FILTRON to expression changes it from envelope sensitivity to direct cutoff control. | [Manual pp21–22][TLST-M] |
 | Factory / user memory | **100=50 user0–49+50 preset50–99**. Initial user fill unverified. | [Manual p9][TLST-M] |
-| Synth / acoustic | Dedicated synth/acoustic algorithms unverified; do not infer from LE. | Unresolved |
+| Synth / acoustic | **Acoustic simulation yes:ACOUSTIC** in PEDAL; recommended low-output single-coil neck pickup. Dedicated synth engine remains unverified. | [Manual p19][TLST-M] |
 | I/O | INPUT;stereo-mini AUX;shared stereo/mono OUTPUT/PHONES;USB-B;DC. No DIN MIDI or FX loop in complete inventory. Mono output cable takes left channel only. | [Manual pp7–9][TLST-M] |
 | Power / battery / USB | **12V DC;540mA consumption**. Polarity,battery and USB bus operation unverified. | [Product][TLST-P] |
 | IR / NAM / capture | User IR,native/converted NAM and captures unverified. | Unresolved |
