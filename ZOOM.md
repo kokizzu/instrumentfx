@@ -1642,13 +1642,13 @@ MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17;
 | Display | 160×128 LCD; category-dependent backlight colors. Diagonal and touch unverified; not proof of full-color graphics. | [Manual][Z50P-M]; [Product][Z50P-P] |
 | Dimensions / mass | 133 D ×79 W ×61 H mm; 353g without /400g with batteries. | [Manual specifications][Z50P-M] |
 | Processing / category choices | Six simultaneous effects; 102 advertised base effects across drive, modulation, delay, reverb, compressor, filter and special categories. Per-category counts unresolved. Product announces 27 additional effects: 24 November2024, OverDrive December2025, Modulation Delay2 January2026, Stereo Guitar Graphic EQ7 June2026. Installed content/capacity unverified; do not assume129 installed. | [Product][Z50P-P]; [Manual][Z50P-M] |
-| Factory / user memory | 100 user patch memories; factory-filled count unresolved. Automatic saving can be disabled; factory reset overwrites settings and patches. | [Manual][Z50P-M] |
-| Synth / acoustic | Dedicated synth and acoustic-simulation choices unverified pending exact effects list. | Unresolved |
-| I/O | Mono¼-inch input,470kΩ; separate mono¼-inch L/R outputs; USB-C and DC9V. Headphones, MIDI, audio interface and external control unverified. | [Manual specifications][Z50P-M] |
+| Factory / user memory | 100 user patch memories. Official preset list documents001–085 (Krampus Drive through Hound Dog); remaining slot initialization and firmware-specific factory contents unresolved. Automatic saving can be disabled; factory reset overwrites settings and patches. | [Manual][Z50P-M]; [Preset list][Z50P-L] |
+| Synth / acoustic | ACOUSTIC SIMULATOR explicitly reshapes electric guitar toward acoustic tone. Sitar simulation, talking filters and BOMBER sound generation are distinct effects; no dedicated synth architecture established. | [Effects list pp5,11,26][Z50P-E] |
+| I/O | Mono¼-inch input,470kΩ; separate mono¼-inch L/R outputs; USB-C and DC9V. Firmware1.30 adds USB MIDI program-change reception with selectable channel or OMNI. Headphones, USB audio and further external control unverified. | [Manual specifications][Z50P-M]; [v1.30 supplement pp3–4][Z50P-S] |
 | Power / battery / USB | AD-16:9VDC,500mA,center-negative supply rating, not measured draw. TwoAA: alkaline~7h,NiMH1900mAh~6.5h,lithium~14h; conditions affect duration. USB bus power supported. | [Manual][Z50P-M] |
 | IR / NAM / capture | Factory preamps use Multi-Layer IR technology; user IR import, native/converted NAM and capture support unverified. | [Product][Z50P-P] |
-| Editor / software | Handy Guitar Lab for MS-50G+ on iOS/iPadOS manages patches and edits/adds effects. Computer firmware updating is distinct from a desktop editor; desktop editor unverified. | [Manual][Z50P-M] |
-| Looper / drums / live | Chromatic tuner supports open/drop tunings. Looper, drums, scenes and trails unverified. | [Product][Z50P-P] |
+| Editor / software | Handy Guitar Lab for MS-50G+ on iOS/iPadOS manages patches and edits/adds effects. App supports individual/all-patch backup to Pool, restore and .zptc import, effect deletion/restoration, effect-property version/power/slot-count display and VoiceOver. Windows/Mac firmware1.40 listed; desktop editor unverified. | [Manual][Z50P-M]; [App manual pp4–21][Z50P-A]; [Support][Z50P-U] |
+| Looper / drums / live | Chromatic tuner supports open/drop tunings. LOOP ROLL samples/holds10–4000ms; HOLD DELAY also holds sound by footswitch. These do not establish an overdubbing performance looper. Selected reverbs and HOLD DELAY offer TAIL after effect bypass; patch-change spillover, drums and scenes unverified. LINE SELECTOR can route input onward or to outputs. | [Product][Z50P-P]; [Effects list pp24–26][Z50P-E] |
 
 ### Separate IDR hardware offers
 
@@ -1663,3 +1663,9 @@ No dependencies, firmware, apps or source documents downloaded to the filesystem
 [Z50P-P]: https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g-plus/
 [Z50P-M]: https://zoomcorp.com/manuals/ms-50gplus-en/
 [Z50P-O]: https://shopee.co.id/Zoom-MS-50G-MultiStomp-Guitar-Multi-Effects-Pedal-i.348182890.27374162064
+
+[Z50P-E]: https://zoomcorp.com/media/documents/E_MS-50Gplus_EffectsList.pdf
+[Z50P-L]: https://zoomcorp.com/media/documents/E_MS-50Gplus_Patchlist.pdf
+[Z50P-S]: https://zoomcorp.com/media/documents/E_MS-50Gplus_v1.30_Supplementary.pdf
+[Z50P-A]: https://zoomcorp.com/media/documents/E_HandyGuitarLab_for_MS-50Gplus.pdf
+[Z50P-U]: https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g-plus/ms-50g-support/

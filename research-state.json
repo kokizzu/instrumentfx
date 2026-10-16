@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom MS-50G Plus",
-    "task": "Continue exact effects-list/support evidence and unresolved technical fields; then fresh Shopee discovery. Do not merge with original MS-50G or assume129 installed effects.",
+    "task": "MS-50G Plus practical/software evidence saved. Next inspect per-category effects inventory and additional-effect flags, then fresh exact Shopee discovery; preserve firmware and installed-content limits.",
     "next_models": [],
     "after_queue": "Search Shopee brands/series for exact eligible hardware."
   },
@@ -4227,6 +4227,20 @@
       ],
       "finding": "Added exact Plus model; six simultaneous,100user patches,102base plus27announced additions distinguished; cached voucher ask2465100 differs from2286900preview.",
       "remaining": "Exact category/factory counts, separate directional controls, expression, imports, desktop editor, practical features and qualified current used/new prices."
+    },
+    {
+      "model": "Zoom MS-50G Plus",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_MS-50Gplus_EffectsList.pdf",
+        "https://zoomcorp.com/media/documents/E_MS-50Gplus_Patchlist.pdf",
+        "https://zoomcorp.com/media/documents/E_MS-50Gplus_v1.30_Supplementary.pdf",
+        "https://zoomcorp.com/media/documents/E_HandyGuitarLab_for_MS-50Gplus.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g-plus/ms-50g-support/"
+      ],
+      "finding": "Resolved acoustic simulator, limited sample/hold versus performance looper, bypass-tail versus patch-spillover distinction; USB MIDI program changes from1.30;1.40Windows/Mac updaters;app backups/.zptc import and85documented preset entries.",
+      "remaining": "Exact category counts and additional-effect flags;factory slot initialization/current firmware contents;controls/expression,USB audio/imports and current condition-qualified prices. PDF text only; no visual inspection or software download."
     }
   ],
   "consolidation_and_price_findings": [
