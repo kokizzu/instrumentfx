@@ -1703,6 +1703,7 @@ def plan_nux_shared(model='MG-101'):
         'MG-300 original': ('mg300', {'mg300','mg300original'}, ('[300]:','- [MG-300 manufacturer manual]'), 2),
         'MG-300 MKII': ('mg300mkii', {'mg300mkii'}, ('[300ii]:','[US300]:','[NAM]:','- [MG-300 MKII manufacturer manual]'), 4),
         'MG-400': ('mg400', {'mg400'}, ('[400]:','[US400]:','[P1]:','[NAM]:','- [MG-400 control image]'), 5),
+        'MG-50Li': ('mg50li', {'mg50li'}, ('[50]:','[US50]:','[NAM]:','- MG-50Li '), 5),
         'MG-30': ('mg30', {'mg30'}, ('[30]:','[NAM]:','- [MG-30 manufacturer V2 manual]'), 3),
     }
     key, labels, url_prefixes, url_count = configs[model]
@@ -1721,8 +1722,10 @@ def plan_nux_shared(model='MG-101'):
         prefixes += ('**MG-101 / MG-300 MKII:**',)
     if model != 'MG-101':
         prefixes += ('**NAM:**',)
+    if model == 'MG-50Li':
+        prefixes += ('**MG-50Li:**',)
     contexts = [p for p in source.split('\n\n') if p.startswith(prefixes)]
-    assert len(contexts) == (6 if model == 'MG-300 MKII' else 5)
+    assert len(contexts) == (6 if model in ('MG-300 MKII','MG-50Li') else 5)
     urls = re.findall(r'https?://[^\s)]+', '\n'.join(line for line in source.splitlines() if line.startswith(url_prefixes)))
     assert len(urls) == url_count
     section = destination.split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
@@ -1731,6 +1734,9 @@ def plan_nux_shared(model='MG-101'):
     print(model+':15 fields/3rows,'+str(len(contexts))+' historical context paragraphs,'+str(len(urls))+' source URLs; exact field omissions='+str(len(report['missing_exact_fields'])))
 
 if __name__ == '__main__':
+    if sys.argv[1:] == ['plan-nux-mg50li']:
+        plan_nux_shared('MG-50Li')
+        raise SystemExit(0)
     if sys.argv[1:] == ['plan-nux-mg30']:
         plan_nux_shared('MG-30')
         raise SystemExit(0)

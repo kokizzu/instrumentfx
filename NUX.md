@@ -316,6 +316,7 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg30/) · [Source 2](http
 
 ## MG-50Li
 
+<!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Global product](https://nuxaudio.com/product/mg50li/); [US product](https://www.nux.us/products/mg-50li); [native NAM](https://www.nux.us/pages/nam-a2-native).
 
 | Field | Preserved finding / unresolved detail |
@@ -332,6 +333,51 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg30/) · [Source 2](http
 | Prices | Used/new IDR ?. Foreign quotes separately preserved. |
 
 The previous review used official [front](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400) photos to verify controls,XLR and two send/return pairs. Checked English firmware1.1.1 was a dated snapshot. Domestic/Mandarin firmware and global/English firmware must not be interchanged by assumption.
+<!-- comparison evidence ends -->
+
+### Preserved shared-source MG-50Li fields
+
+Historical snapshot **2026-10-14**,retained2026-10-17. Original wording,source conflicts and uncertainties remain. The USD549 quote is historical foreign-price provenance,not a current IDR offer.
+
+| Original field | Original value |
+|---|---|
+| External expression | Yes, EXP or NMP-2 Lite |
+| K/F/B | 7/6/4 [photos] |
+| Dimensions; weight | 393×210×72; 2.8 kg |
+| Size class | Large |
+| Used USD | ? |
+| New USD observation | $549, NUX USA [US50] |
+| Simultaneous blocks / available categories | **14**, serial/parallel/split, dual amp paths; published EFX14, MOD13, DLY8, RVB5, wah5, comp3, gate1, EQ4 |
+| Presets: factory / user | **297 total; factory/user split conflicts**, see below |
+| Acoustic / synth | Exact acoustic/synth algorithms ? |
+| Third-party IR | **60 user IRs**; factory count conflicts |
+| NAM / other captures | **NAM A2-Lite native** listed; separate proprietary **DeepImage/NUX Image** capture workflow, 30 user amp slots |
+| Audio / control connections | ¼″ input; 2×¼″ out + **2×XLR out**; **2 mono FX loops**; 3.5 mm aux/phones; 3.5 mm MIDI IN/OUT; EXP; USB-C; NBT-1 port |
+| Power and batteries; USB-powered? | **12V/1.5A centre-negative**, draw <1400mA; **5000mAh/7.4V rechargeable**; USB-powered operation not established |
+| Editing apps / other USB functions | NUX Audio **Windows/macOS/iOS/Android**; included NBT-1 Bluetooth module; NUX Image capture app **Windows/macOS**; USB audio/MIDI |
+| Practical features | Dual signal chains; global source rates battery at 6 h, US copy at 5 h: not independently tested |
+
+The literal [photos] label refers to the official front/rear images linked below;[US50] resolves the original US observation.
+
+[US50]: https://www.nux.us/products/mg-50li
+
+### Shared historical qualifications and conflicting figures
+
+Other model names preserve shared-source context;their specifications are not assigned to MG-50Li. All conflicting counts below remain unresolved.
+
+Checked **2026-10-14**. **Partial records**; `?` is unverified. K/F/B = rotary controls / footswitches / separate front buttons; expression toe switches and rear power toggles are additional. Dimensions are normalised to **W×D×H, mm**; NUX manuals often call the long horizontal side `L` rather than `W`. Used prices are deliberately blank where no dependable observation was obtained.
+
+These are single new-price observations, **not** used-to-new market ranges. US versus international seller pricing can differ. All prices checked **2026-10-14**, before destination tax/shipping. MG-300 and MG-300 MKII are distinct hardware records. **MG-30 GEN2 is documented as a firmware update for MG-30**; it is not silently treated as a new hardware model.
+
+The category numbers describe the cited list, not guaranteed totals after every firmware update. Utility blocks, amps, cabinet IRs and captures are not interchangeable effect-count units.
+
+**MG-50Li:** the global page lists **96 factory +201 user** presets, **42 factory IRs**, and **28 white-box +30 DeepImage** amps; the US page lists **150 factory +147 user**, **60 factory IRs**, and **27 white-box +33 DeepImage** amps. Both agree on 297 total preset locations, 60 user IRs and 30 user amp slots. This catalogue preserves the conflict rather than assigning an unexplained mixture to one firmware. The US introduction's “120 user IR” wording also conflicts with its own detailed 60-user specification.
+
+**NAM:** the checked NUX page names MG-300 MKII, MG-400, MG-30 and MG-50Li as currently supported **A2-Lite native** devices. It separately describes A1 conversion and planned support for other devices. “Native” here must retain the architecture qualifier; it does not mean arbitrary `.nam` models run unmodified.
+
+The global download pages explicitly distinguish domestic/Mandarin versus global/English hardware firmware. Use the correct regional firmware, back up presets and install the matching editor. At checking, MG-300 MKII GEN2 was 3.0.0, MG-400 GEN2 3.0.3, MG-30 GEN2 1.0.5, and MG-50Li English firmware 1.1.1. This is a dated documentation snapshot, not an update instruction for an unidentified unit.
+
+Model sources: [Source 1](https://nuxaudio.com/product/mg50li/) · [Source 2](https://www.nux.us/products/mg-50li) · [Source 3](https://www.nux.us/pages/nam-a2-native) · [Source 4](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) · [Source 5](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400)
 
 ## MG-100
 
