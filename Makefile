@@ -193,3 +193,7 @@ comparison-test-selection:
 .PHONY: consolidation-commit-gt-1
 consolidation-commit-gt-1:
 	python3 scripts/consolidation_tools.py commit gt-1
+
+.PHONY: consolidation-commit-gx-1
+consolidation-commit-gx-1:
+	python3 scripts/consolidation_tools.py commit gx-1

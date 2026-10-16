@@ -882,3 +882,138 @@ Exact Shopee hardware bodies reopened2026-10-16; cached relative delivery is not
 [GT1-P]: https://www.boss.info/global/products/gt-1/
 [GT1-M]: https://static.roland.com/assets/media/pdf/GT-1_eng03_W.pdf
 [GT1-G]: https://static.roland.com/assets/media/pdf/GT-1_parameter_eng02_W.pdf
+
+## GX-1
+
+Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
+
+<!-- BOSS-GX-1 source begins -->
+
+Checked **2026-10-15**. Existing model in [BOSS comparison](effects/guitar-boss.md); not an additional catalogue entry and not GX-1B.
+
+### Display and directly rechecked hardware
+
+The [manufacturer specification](https://www.boss.info/global/products/gx-1/) confirms **one color graphic LCD,320×240 pixels**. A published diagonal was not located. **Touchscreen remains unverified/no touch interface documented**; references to touching the separate effect-category buttons do not prove touchscreen hardware.
+
+The enumerated controls confirm **3 knobs,3 main footswitches,14 separate buttons**, plus expression/toe switching. There are99 user+99 factory memories and146 effect types. Eight simultaneous effects plus volume/noise suppression are distinct from the total model library.
+
+Power is explicitly **fourAA batteries,PSA adapter or USB bus**, with250mA DC/battery and400mA USB draw. The official [GX-1 support page](https://www.boss.info/global/products/gx-1/support/) confirms Windows/macOS/iOS/Android Tone Studio, built-in Bluetooth and WAV IR loading. Those checks do not complete the remaining algorithm/IR-capacity fields.
+
+### Separate IDR observations
+
+| Channel | Amount | Evidence and qualification |
+|---|---:|---|
+| Shopee V Musik Central | **Rp4.743.000** | [shop29988284/item27644034847](https://shopee.co.id/Boss-GX-1-prosesor-efek-gitar-multi-efek-%28multi-effects%29-gx1-Boss-Original-i.29988284.27644034847); indexed hardware ask, checkout unverified |
+| Shopee seller named Boss Official Shop | **Rp5.410.000 — SOLD OUT** | [shop341882414/item56705406518](https://shopee.co.id/Boss-GX-1-Guitar-Effects-Processor-Multi-Efek-Pedal-Ultra-Portable-i.341882414.56705406518); Habis explicitly shown |
+| Local retailer Melodia | **Rp4.743.000** | [Product page](https://www.melodiamusik.com/product/boss-gx-1-guitar-multi-effects-pedal/), stock shown for selected branches; not Shopee checkout evidence |
+| Local retailer GMI | **Rp4.328.000** | [Product page](https://galerimusikindonesia.com/product/boss-gx-1-guitar-multieffects-processor/), indexed available; older crawl than Melodia |
+| Used | **Unknown** | No condition-verified Indonesian used offer established |
+
+The lower retailer amount and sold-out Shopee ask are separate observations, not bounds of a confirmed active range. A mixed GX-1/GX-1B title with adapter variations was excluded from per-model pricing. The GX-1B bass listing is not an interchangeable GX-1 quote. Condition detail, warranty, accessories, shipping, region and seller authenticity remain unverified.
+
+Original USD evidence stays historical and is not relabelled as IDR. Remaining display work is the published diagonal and explicit touch specification. **Next existing-model review: ME-90.**
+<!-- BOSS-GX-1 source ends -->
+
+### GX-1 — supporting comparison facts
+
+| Required field | Retained observation |
+|---|---|
+| Screen type and resolution | Graphic LCD,320×240 |
+| Published diagonal | ? |
+| Monochrome / color evidence | **Color**, explicit manufacturer specification |
+| Touchscreen | ?; effect-button touch wording is not screen-touch evidence |
+| Size | Large by width boundary |
+| Built-in / external expression | Yes+toe /1 shared CTL/EXP |
+| K/F/B | 3/3/14 |
+| Dimensions / pedal-up maximum | 307×149×56 /73H |
+| Weight | 1.2kg |
+| Used IDR | ? |
+| Shopee retail evidence | **Rp4.743.000** V Musik Central |
+| Separate local-retailer / historical context | Melodia **Rp4.743.000**; older GMI **Rp4.328.000**. Boss-shop **Rp5.410.000 SOLD OUT**; different channels/crawl dates |
+| Simultaneous architecture / library | 8 effects+volume+noise suppression;23amps;146effect types |
+| Factory / user memory | 99P+99U |
+| Synth / acoustic functions | Exact algorithms ? |
+| User IR / NAM | WAV import,capacity ?;NAM not established |
+| Audio / controller ports | Mono1/4-inch in,stereoout;3.5mm phones;CTL/EXP;USB-C |
+| Power and USB operation | **4AA,PSA or USB bus**;250mADC/battery,400mAUSB |
+| Configuration | ToneStudio Windows/macOS/iOS/Android;built-in Bluetooth |
+| Additional features | USB audio;38/19slooper;wireless MIDI-control options |
+| Follow-up commit | `3d54626de68abaf5e056851d0d7a99a4915d1c48` |
+
+### GX-1 — original USD and technical provenance
+
+Research date **2026-10-14**. Technical sources are the linked manufacturer's specifications, including current firmware-dependent figures. **Partial records**: `?` means unverified. Dimensions are **W × D × H in mm**; `/max` gives the maximum height with the pedal raised. `K/F/B` = rotary controls / footswitches / separate buttons, excluding the expression toe switch and rear power/mode switches. Price columns are **USD US-market listed/asking observations**, not statistically estimated fair values; see sources below.
+
+“Large” here is a mechanical filter result, not the manufacturer's marketing classification: the GX-1 misses both the 200×140 compact limit and the 300 mm medium-width limit.
+
+Model totals have different inclusion rules. ME-90's selectable alternatives are not all simultaneously present on its panel. A missing NAM claim is not converted into a definitive “No” without model/firmware documentation.
+
+Price retrieval date: **2026-10-14**. Indexed older listings are explicitly less reliable than current, purchasable offers. No guarantee of stock, local Indonesian pricing, delivery cost or completed-sale value.
+
+
+| Required field | Original 2026-10-14 observation |
+|---|---|
+| Size class | Large under this filter |
+| Built-in / external EXP | Yes + toe / 1 shared CTL/EXP |
+| K/F/B | 3/3/14 |
+| Dimensions | 307×149×56/max73 |
+| Weight | 1.2 kg |
+| Used USD | ? |
+| New USD | $229.99 [N] |
+| Simultaneous blocks; categories / model choices | 8 simultaneous + volume + noise suppression; 23 amps; 146 effect types in specs |
+| Factory / user memory | 99 P + 99 U |
+| Synth / acoustic simulator | Specific synth/acoustic algorithms ? |
+| User IR | WAV import; capacity ? |
+| NAM | Not established |
+| Physical audio/control ports | Mono ¼″ in, stereo ¼″ out; 3.5 mm phones; CTL/EXP; USB-C |
+| Power; USB-powered? | **4 AA, PSA adapter or USB bus**; 250 mA DC/battery, 400 mA USB |
+| Configuration apps | Tone Studio Windows/macOS/iOS/Android; built-in Bluetooth |
+| Other practical features | USB audio; 38/19 s looper; wireless MIDI-control support |
+
+N: Guitar Center new USD229.99, checked2026-10-14; used USD unknown. Historical asking evidence, not IDR or completed sales. Adapter bundles/open-box separate.
+
+[Historical source](https://www.boss.info/global/products/gx-1/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc)
+
+Sources retained unchanged: [follow-up](effects/findings/2026-10-15-boss-gx1-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+
+### GX-1 — current comparison evidence
+
+Checked **2026-10-16**; these rows qualify the older observations above.
+
+<!-- comparison evidence begins -->
+
+| Required field | Current evidence and limits |
+|---|---|
+| Expression | Built-in pedal and toe switch; one shared CTL2,3/EXP2 socket for external expression or footswitches. [GX1-P], [GX1-IO] |
+| K/F/B | **3 /3 /14**; toe separate. INPUT insertion switches power on. [GX1-P], [GX1-IO] |
+| Display | **320×240 color graphic LCD**. Published diagonal and touchscreen hardware unverified; separate effect-button touch wording does not establish screen touch. [GX1-P] |
+| Dimensions / weight / size | **307×149×56 mm**, maximum height73 mm; **1.2 kg** retained. Large by repository width boundary. [GX1-P] |
+| Simultaneous processing / category choices | **8 effects plus volume/noise suppression**,23 amps and146 effect types retained. GX-1 HTML FX table lists38 families; OVERTONE appears separately in its additional-information list/footnote and is **FX3-only**. Thus39 documented FX families including OVERTONE,38 available to FX1/2; same-effect reuse permitted. Counts are families, not all subtypes or simultaneous blocks. Other category subtotals unresolved. [GX1-P], [GX1-FX] |
+| Factory / user / total memory | **99 preset +99 user =198**. [GX1-P] |
+| Synth / acoustic | **AC. GTR SIM** and **AC RESO** explicitly documented; latter processes electro-acoustic pickup sound. Sitar simulation, Humanizer and OVERTONE do not by themselves prove a general synth engine. [GX1-FX] |
+| IR / NAM / capture | **8 IR slots**, WAV **44.1/48/96 kHz**, **16/24-bit linear or32-bit float**. Joint official GX-1/GX-1B editor manual explicitly covers both models. Native NAM, converted NAM and proprietary capture imports unestablished. [GX1-IR] |
+| Audio / control I/O | Mono quarter-inch input; two quarter-inch outputs;3.5 mm PHONES; shared CTL/EXP;USB-C;DC; built-in Bluetooth. No AUX, FX loop or physical MIDI socket listed. [GX1-P] |
+| Power / battery / USB power | Four AA, PSA adapter or USB bus. Draw250 mA DC/battery,400 mA USB. USB adapter **5 V/500 mA or greater**; USB takes priority over batteries. Connecting the PSA while on transfers supply to PSA. DC voltage/polarity remain unverified. [GX1-P], [GX1-IO] |
+| Editor / USB / platforms | Tone Studio Windows/macOS/iOS/Android; built-in Bluetooth. USB VENDOR uses dedicated computer driver; GENERIC uses standard iOS functions with limits. Dry output, DAW-to-effects input and loopback documented. Direct monitor resets ON at power-up. USB channels/bit depth and Android USB compatibility unresolved. [GX1-P], [GX1-USB] |
+| Looper / live use | **38 s mono /19 s stereo**, overdub. UP+CTL1 toggles looper; stored CTL1 assignments ignored while active. Recording persistence, full routing/scenes/drums remain unchecked. [GX1-LOOP] |
+
+### GX-1 — separate IDR evidence
+
+Checked **2026-10-16**. Cached exact hardware text is not live checkout or stock confirmation. New condition, selected bundle/adapter, warranty region, shipping/tax and seller affiliation unverified; late-delivery compensation is not a purchase discount. Local-retailer quotes below retain their earlier date.
+
+| Condition / seller | IDR evidence and qualifications | Exact item / source |
+|---|---|---|
+| Used | Unknown; no condition-verified exact Indonesian used offer established. | — |
+| Retail-style / V Musik Central,Depok | **Rp4.743.000**; reopened cached body, same-day delivery before10:00. No Habis displayed, not stock proof. | [29988284 /27644034847](https://shopee.co.id/Boss-GX-1-prosesor-efek-gitar-multi-efek-%28multi-effects%29-gx1-Boss-Original-i.29988284.27644034847) |
+| Historical sold out / Boss Official Shop | **Rp5.410.000,Habis**, checked2026-10-15. Direct reopen failed2026-10-16; no refreshed price/stock claim. | [341882414 /56705406518](https://shopee.co.id/Boss-GX-1-Guitar-Effects-Processor-Multi-Efek-Pedal-Ultra-Portable-i.341882414.56705406518) |
+| Historical local retail / Melodia | **Rp4.743.000**, selected-branch stock label observed2026-10-15; not reopened or Shopee evidence. | [Melodia](https://www.melodiamusik.com/product/boss-gx-1-guitar-multi-effects-pedal/) |
+| Historical local retail / GMI | **Rp4.328.000**, older indexed available observation retained2026-10-15; not reopened or current stock. | [GMI](https://galerimusikindonesia.com/product/boss-gx-1-guitar-multieffects-processor/) |
+
+<!-- comparison evidence ends -->
+
+[GX1-P]: https://www.boss.info/global/products/gx-1/
+[GX1-IO]: https://static.roland.com/manuals/gx-1_reference/en-US/323024907357714059.html
+[GX1-FX]: https://static.roland.com/manuals/gx-1_parameter/en-US/357724555362474891.html
+[GX1-IR]: https://static.roland.com/manuals/gx-1_gx-1b_bts_pc/en-US/490025739490499467.html
+[GX1-USB]: https://static.roland.com/manuals/gx-1_parameter/en-US/368274827368317323.html
+[GX1-LOOP]: https://static.roland.com/manuals/gx-1_reference/en-US/353623307356944011.html

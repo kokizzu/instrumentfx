@@ -32,6 +32,7 @@ MODELS = {
     've-22': ('VE-22', 'effects/vocal.md'),
     've-8': ('VE-8', 'effects/vocal.md'),
     've-20': ('VE-20', 'effects/vocal.md'),
+    'gx-1': ('GX-1', 'effects/findings/2026-10-15-boss-gx1-display-idr.md'),
     'gt-1': ('GT-1', 'effects/findings/2026-10-15-boss-gt1-display-idr.md'),
     'gx-10': ('GX-10', 'effects/findings/2026-10-15-boss-gx10-display-idr.md'),
     'gt-1000core': ('GT-1000CORE', 'effects/findings/2026-10-15-boss-gt1000core-display-idr.md'),
@@ -174,7 +175,7 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':
