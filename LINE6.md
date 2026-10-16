@@ -419,6 +419,7 @@ Remaining: battery inclusion in mass, later undocumented loading capabilities an
 
 ## HX Effects
 
+<!-- comparison evidence begins -->
 **Guitar/bass effects-only multi-effects**, not a single-function pedal. No amp modeling is required for inclusion. Consolidated from the complete `effects/advanced-modelers.md` record (technical snapshot 2026-10-14), with model-specific manufacturer rechecks **2026-10-16**. This is the existing inventory entry, not a new model.
 
 | Required field | Evidence / qualification |
@@ -446,6 +447,45 @@ Remaining: battery inclusion in mass, later undocumented loading capabilities an
 - [HXE-E: manufacturer HX Edit Pilot's Guide Rev E](https://line6.com/data/6/0a020a3f182a45b4f6d41c90dc/application/pdf/HX%20Edit%20Pilot), full editing from 2.60; [current HX Edit software listing](https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set).
 
 All earlier HX Effects facts, rounded-dimension provenance, nine-block/128-preset/four-snapshot distinctions, amp-control sharing, IR/acoustic qualifications, source URLs and launch-FAQ correction are preserved. Legacy source retained because it also contains five other model records. Remaining: current category totals, exact display specifications, supply voltage/polarity, explicit battery/USB-power statements, looper limits and qualified IDR offers.
+<!-- comparison evidence ends -->
+
+### Preserved original shared-source HX Effects fields
+
+Historical snapshot **2026-10-14**,retained2026-10-17. Earlier unknown controls,ports and synth details below are superseded where the current2026-10-16 record above supplies verified evidence. Preserving these rows does not reverse those corrections or add another model.
+
+| Original field | Original value |
+|---|---|
+| External expression | **2**, shared with amp-control outputs |
+| K/F/B | ?/8/?; six assignable stomp switches plus Mode and Tap |
+| W×D×H; weight | Approx. **274×201×71**, 2.15 kg, converted from official FAQ |
+| Size class | Large by the 200 mm medium-depth limit |
+| Used USD | ? |
+| New USD observation | ? |
+| Simultaneous processing / available choices | **9 blocks, DSP-limited**; no amp-model or factory cab-model blocks; current category counts pending |
+| Preset storage | **128 editable presets**, **4 snapshots each** |
+| Synth / acoustic functions | Acoustic-body IR use documented; individual synth algorithms ? |
+| Third-party IR | Yes, including acoustic-body IRs |
+| NAM / proprietary capture | NAM not established |
+| Audio/control ports | Stereo instrument/line routing; **2 mono FX loops or1 stereo**; 2 EXP/amp-control ports; MIDI/USB; exact complete connector inventory and headphone provision pending |
+| Power; battery/USB-powered? | Supplied **DC-3G**; FAQ requires at least **2 A clean DC**, 2.5 mm pin; USB/battery power not established |
+| Configuration apps and USB functions | **HX Edit Windows/macOS**; **USB MIDI, not USB audio** |
+| Other important differences | Effects-only; analog/DSP bypass; snapshots and parallel path; looper consumes one of nine blocks |
+
+### Original shared qualifications
+
+These paragraphs retain the original shared scope;references to other devices do not assign their features to HX Effects.
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Native NAM, architecture-limited NAM, converted NAM, proprietary captures and cabinet IRs are different capabilities. An effects-only unit is not necessarily an amp modeler.
+
+K/F/B = rotary controls / footswitches / separate buttons. Push-encoders are counted once. Nano Cortex's rotary footswitches are explicitly called out rather than hidden in the knob count. Dimensions are **W×D×H, mm**. Prices are separate **USD** new and used observations; missing used prices have not been invented.
+
+The rounded Line 6 FAQ dimensions are not precision measurements. They establish the category but should not be used as a millimetre-perfect drilling template. Manufacturer FAQ launch prices are **not** presented as current offers.
+
+**HX Stomp's old FAQ says six blocks**, but the official firmware-3.0 release notes increased the limit to **eight**. Similarly, HX Effects' launch FAQ predates full HX Edit support and later model additions. This comparison uses the release notes/current software listing rather than treating the old FAQ's launch-era software limitations and prices as current.
+
+USB audio input/output counts use the manufacturer's interface convention. A capture microphone connector does not establish a dedicated live vocal-effects path. Do not connect an amplifier's speaker output directly to an instrument/capture input; the appropriate load/interface is required.
+
+Original model sources: [Source 1](https://line6.com/hx-effects/) · [Source 2](https://kb.line6.com/hx-effects-faq) · [Source 3](https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set)
 
 ## Other Line 6 records awaiting consolidation
 

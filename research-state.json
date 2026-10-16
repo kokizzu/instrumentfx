@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Advanced-modelers shared-source consolidation",
-    "task": "Vocal content union verified (112fields,6groups,19URLs);source retained with13incominglinks. Next read advanced-modelers shared source and verify model/shared-context preservation,then BOSS and other shared sources/navigation. Fresh Shopee discovery and technical verification remain required.",
+    "model": "Flex Prime advanced shared-source preservation",
+    "task": "HX Effects exact historical15fields/3rows,5qualifications,3URLs now manifest-verified without reverting current controls/ports/synth evidence. Next Flex Prime shared rows,then full advanced source union/incoming links. Fresh Shopee discovery and other shared-source/technical work remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -896,8 +896,117 @@
       "source": "effects/advanced-modelers.md",
       "checked_date": "2026-10-16",
       "commit_subject": "research(line6): consolidate HX Effects as guitar and bass multi-effects",
-      "scope": "Complete legacy HX Effects facts and sources retained; refreshed primary panel controls/ports, synth/IR limits and software; no new model, no legacy deletion.",
-      "commit": "9c8d296"
+      "scope": "Exact15originalHXEffectsfields/3rows,5sharedqualifications,3URLs preserved;2026-10-16correctedcurrentrecord remains authoritative. Other sharedmodels/prose/incoming audits pending.",
+      "commit": "9c8d296",
+      "model_name": "HX Effects",
+      "brand": "Line 6",
+      "source_sha256": "1299f5d02d73f1bc372aab883458d28edb739ad4c4a8149f98cc7f6d9bebcec7",
+      "verification_kind": "complete-model-rows-v1",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "**2**, shared with amp-control outputs",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "K/F/B",
+          "value": "?/8/?; six assignable stomp switches plus Mode and Tap",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "W×D×H; weight",
+          "value": "Approx. **274×201×71**, 2.15 kg, converted from official FAQ",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Size class",
+          "value": "Large by the 200 mm medium-depth limit",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Used USD",
+          "value": "?",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "New USD observation",
+          "value": "?",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Simultaneous processing / available choices",
+          "value": "**9 blocks, DSP-limited**; no amp-model or factory cab-model blocks; current category counts pending",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "Preset storage",
+          "value": "**128 editable presets**, **4 snapshots each**",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "Synth / acoustic functions",
+          "value": "Acoustic-body IR use documented; individual synth algorithms ?",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "Third-party IR",
+          "value": "Yes, including acoustic-body IRs",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "NAM / proprietary capture",
+          "value": "NAM not established",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "Audio/control ports",
+          "value": "Stereo instrument/line routing; **2 mono FX loops or1 stereo**; 2 EXP/amp-control ports; MIDI/USB; exact complete connector inventory and headphone provision pending",
+          "source": "effects/advanced-modelers.md",
+          "context": "Connections, power, software and live use"
+        },
+        {
+          "field": "Power; battery/USB-powered?",
+          "value": "Supplied **DC-3G**; FAQ requires at least **2 A clean DC**, 2.5 mm pin; USB/battery power not established",
+          "source": "effects/advanced-modelers.md",
+          "context": "Connections, power, software and live use"
+        },
+        {
+          "field": "Configuration apps and USB functions",
+          "value": "**HX Edit Windows/macOS**; **USB MIDI, not USB audio**",
+          "source": "effects/advanced-modelers.md",
+          "context": "Connections, power, software and live use"
+        },
+        {
+          "field": "Other important differences",
+          "value": "Effects-only; analog/DSP bypass; snapshots and parallel path; looper consumes one of nine blocks",
+          "source": "effects/advanced-modelers.md",
+          "context": "Connections, power, software and live use"
+        }
+      ],
+      "retained_context": [
+        "Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Native NAM, architecture-limited NAM, converted NAM, proprietary captures and cabinet IRs are different capabilities. An effects-only unit is not necessarily an amp modeler.",
+        "K/F/B = rotary controls / footswitches / separate buttons. Push-encoders are counted once. Nano Cortex's rotary footswitches are explicitly called out rather than hidden in the knob count. Dimensions are **W×D×H, mm**. Prices are separate **USD** new and used observations; missing used prices have not been invented.",
+        "The rounded Line 6 FAQ dimensions are not precision measurements. They establish the category but should not be used as a millimetre-perfect drilling template. Manufacturer FAQ launch prices are **not** presented as current offers.",
+        "**HX Stomp's old FAQ says six blocks**, but the official firmware-3.0 release notes increased the limit to **eight**. Similarly, HX Effects' launch FAQ predates full HX Edit support and later model additions. This comparison uses the release notes/current software listing rather than treating the old FAQ's launch-era software limitations and prices as current.",
+        "USB audio input/output counts use the manufacturer's interface convention. A capture microphone connector does not establish a dedicated live vocal-effects path. Do not connect an amplifier's speaker output directly to an instrument/capture input; the appropriate load/interface is required."
+      ],
+      "retained_source_urls": [
+        "https://line6.com/hx-effects/",
+        "https://kb.line6.com/hx-effects-faq",
+        "https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set"
+      ],
+      "preservation_checked_date": "2026-10-17"
     },
     {
       "models": [
@@ -16857,6 +16966,24 @@
         ],
         "retirement_authorized": false
       }
+    },
+    "shared_advanced_audit": {
+      "date": "2026-10-17",
+      "source": "effects/advanced-modelers.md",
+      "source_sha256": "1299f5d02d73f1bc372aab883458d28edb739ad4c4a8149f98cc7f6d9bebcec7",
+      "complete_source_read": true,
+      "model_row_manifests": [
+        "HX Stomp",
+        "HX Effects",
+        "Nano Cortex",
+        "TONEX ONE",
+        "TONEX Pedal"
+      ],
+      "pending_models": [
+        "Flex Prime"
+      ],
+      "source_retired": false,
+      "remaining_work": "Audit Flex Prime model-row preservation,then full shared prose/source URL union and incoming navigation. Original HXEffectsunknownsretainedashistory,currentcorrectionsremainactive."
     }
   },
   "deferred_work": {
@@ -16940,7 +17067,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Advanced-modelers shared-source consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Flex Prime advanced shared-source preservation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

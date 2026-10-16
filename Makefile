@@ -895,3 +895,11 @@ consolidation-audit-vocal-links:
 .PHONY: research-commit-vocal-union
 research-commit-vocal-union:
 	python3 scripts/research_tools.py commit-vocal-union
+
+.PHONY: consolidation-plan-advanced-hxe
+consolidation-plan-advanced-hxe:
+	python3 scripts/consolidation_tools.py plan-advanced-hxe
+
+.PHONY: research-commit-advanced-hxe-audit
+research-commit-advanced-hxe-audit:
+	python3 scripts/research_tools.py commit-advanced-hxe-audit
