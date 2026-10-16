@@ -329,7 +329,7 @@ def main():
         if mode == 'commit-dapper-dark-mini':
             message = 'research(valeton): add separate Dark Mini with indexed-manual qualifications'
         if mode == 'commit-505ii':
-            message = 'research(zoom): clarify 505II storage combined effects and external-control restrictions'
+            message = 'research(zoom): enumerate 505II category modes without inflating algorithm totals'
         if mode == 'commit-ving-coverage':
             message = 'research(ving): preserve seller and app identity qualifications in comparison rows'
         if mode == 'commit-ax5g':
