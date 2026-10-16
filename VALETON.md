@@ -848,16 +848,16 @@ Distinct acoustic-guitar multi-effects strip, separate from full-size Dapper Aco
 |---|---|---|
 | Expression | Built-in, external and toe support unverified. | Unresolved |
 | K/F/B | **11 rotary controls**, text-derived: Comp 3, Preamp 6, Reverb 1, Phones 1. Footswitch/button totals require panel inspection. | [Manual pp.1–2][DA-M] |
-| Display | Seven bicolor note LEDs, three pitch LEDs; screen diagonal and touch unverified. | [Manual p.2][DA-M] |
+| Display | Seven bicolor note LEDs: **blue for natural notes, green for sharps**. Three pitch LEDs: **red flat / green in tune / red sharp**. Screen diagonal and touch remain unverified. | [Manual p.2][DA-M] |
 | Dimensions / mass | **197 × 65 × 42 mm; 435 g**. Product labels WDH, manual DWH; axis conflict retained. Compact strip. | [Product][DA-P]; [manual][DA-M] |
-| Processing / category choices | Separate **Compressor, Preamp and Reverb** modules, plus tuner. Comp volume/amount/attack; Preamp volume/three-band EQ/notch cut-gain/notch frequency; one-knob hall-style reverb. Manufacturer Chinese page explicitly calls the reverb **digital**; do not classify the whole strip as all-analog. Exact simultaneous count awaits diagram verification. | [Manual pp.1–2][DA-M]; [product][DA-P]; [Chinese product][DA-C] |
+| Processing / category choices | Separate **Compressor, Preamp and Reverb** modules, plus tuner. Comp volume/amount/attack intensity (the manual does not specify an attack-time range); Preamp volume/three-band EQ/notch cut-gain/notch frequency; one-knob hall-style reverb. Manufacturer Chinese page explicitly calls the reverb **digital**; do not classify the whole strip as all-analog. Exact simultaneous count awaits diagram verification. | [Manual pp.1–2][DA-M]; [product][DA-P]; [Chinese product][DA-C] |
 | Factory / user memory | Factory, user and total storage unverified. | Unresolved |
 | Synth / acoustic | Processes acoustic instruments; this is not proof of electric-to-acoustic simulation. Dedicated synth/acoustic-simulation algorithms unverified. | [Product][DA-P] |
-| I/O | INPUT, OUTPUT, balanced XLR and PHONES documented; **all outputs usable together**. Complete socket types/sizes and additional-port absence pending. | [Manual pp.1–2][DA-M] |
+| I/O | INPUT, OUTPUT, balanced XLR and PHONES documented; **all outputs usable together**. A dedicated **PHONES knob adjusts headphone output volume**; this does not establish independent processing or the knob affecting other outputs. XLR feeds a mixer or recording interface. Complete socket types/sizes and additional-port absence remain pending. | [Manual pp.1–2][DA-M] |
 | Power / battery / USB | **9 V DC centre-negative, 140 mA consumption**. Cannot use phantom power; disable phantom at mixer/interface for XLR connection. Product includes adapter; seller bundle unconfirmed. Battery/USB unverified. | [Manual p.2][DA-M]; [product][DA-P] |
 | IR / NAM / capture | Product headphone heading says cab simulation; manual headphone prose does not specify it. Retain this qualification; user IR, native/converted NAM and capture remain unverified. | [Product][DA-P]; [manual][DA-M] |
 | Editor / software | Editor/platform support unverified. | Unresolved |
-| Looper / drums / live | Hold Reverb for muted tuner. Preamp notch has cut/gain (neutral at noon) and centre-frequency controls. Looper/drums/scenes/trails unverified. | [Manual pp.1–2][DA-M] |
+| Looper / drums / live | Hold Reverb for muted tuner; the manual says its tuner indicator lights only during tuning. Preamp notch has cut/gain (neutral at noon) and centre-frequency controls. Looper/drums/scenes/trails unverified. | [Manual pp.1–2][DA-M] |
 
 ### Separate IDR hardware offers
 

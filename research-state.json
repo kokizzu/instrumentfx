@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery after Acoustic Mini offers",
-    "task": "Find another eligible exact hardware offer or resolve technical gaps; Acoustic Mini offers saved without changing model count.",
+    "model": "Remaining manufacturer-backed technical gaps",
+    "task": "Acoustic Mini tuner colors, phones volume and compressor wording saved. Continue another partial model with a readable manufacturer manual; avoid repeatedly revisiting unresolved image-only panel evidence.",
     "next_models": [],
-    "after_queue": "Continue brand/series searches; do not treat cached asking prices as live stock."
+    "after_queue": "Continue exact Shopee discovery when saved leads are exhausted."
   },
   "new_findings": [
     {
@@ -3976,6 +3976,21 @@
           "access": "Search-index text readable; direct item cache miss",
           "qualified_used_new": false
         }
+      ]
+    },
+    {
+      "model": "Valeton Dapper Acoustic Mini",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf",
+      "finding": "Original manual specifies blue natural-note/green sharp-note LEDs and red/green/red pitch indications, headphone level knob, tuner-only indicator, and compressor attack intensity without a timing range. Preserved output simultaneity and unresolved socket dimensions; no panel-absence inference.",
+      "remaining": [
+        "Complete socket types and control inventory",
+        "Expression",
+        "Storage and editor",
+        "IR/NAM/capture",
+        "Battery/USB power",
+        "Published screen dimensions"
       ]
     }
   ],
@@ -39939,7 +39954,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after Acoustic Mini offers."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Remaining manufacturer-backed technical gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
