@@ -760,7 +760,7 @@ The product page/FAQ still contain six-block wording. Retain the firmware3.0 eig
 
 ## POD HD500
 
-Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Exactsellerunit identity remainsunconfirmed;ownership andbassclassification pending.
+Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Exactsellerunit identity remainsunconfirmed;ownership pending. Bass support is documented in the original v2.10 guide.
 
 <!-- comparison evidence begins -->
 
@@ -771,6 +771,7 @@ Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Ex
 | Display | Diagonal,color,touch/technology unverified. | Unresolved |
 | Dimensions / mass | FAQ: **21.50W×10.29D×2.91H inches**;masspending. Large footprint. | [OfficialFAQ][HD5-F] |
 | Processing / category choices | **Eight FX blocks**,any one caninstead hosthardwareFXloop. **Up to two amp blocks** whenplaced inparallelA/B;singleamp canusePre/Post/A. Mixer fixedafterA/B. DSPlimits constraincombinations. FamilyFAQ lists dynamics8,distortion15,modulation22,filter17,pitch3,EQ5,delay19,reverb12,wah8,volume/pan. Family80/90/100+ wording isnotfirmware-currentHD500 total;revisionaudit pending. Do nottransferHD500X DSPcapacity. | [Guide3•1–4,3•14][HD5-M];[FAQ][HD5-F] |
+| Bass capability | **Yes: Flip Top bass amp (Ampeg B-15NF Portaflex), matching 1×15 cabinet and eight bass-cab microphone models**. Guide explicitly recommends this processing to bass players; no optional pack is needed to establish this documented v2.10 capability. Later paid-pack contents remain unaudited. | [Guide6•4,6•6,6•13,6•15][HD5-M] |
 | Factory / user memory | **8 setlists×64=512 presetlocations**. Initialfactoryfill pending. | [Guide4•1][HD5-M] |
 | Synth / acoustic | **Synth yes**:v2.10 filter-model table listsOctisynth,Synth O Matic,Attack Synth,Synth String andGrowler. Dedicated acoustic-simulation algorithm unverified. Variax Acoustic control isnot onboardacousticsimulation proof. | [Guide7•5][HD5-M] |
 | I/O | Rear diagram includesguitar,mic,AUX,CD/MP3,phones,balanced/unbalanced outputs,FXloop,PEDAL2,MIDI,S/PDIFout,USB,Variax,L6LINK,DC. FAQ confirms **XLRmic has no phantom power**;externalphantomsupply/preamp neededforcondenser. Complete sockettypes/counts pending. | [Guide1•4][HD5-M];[FAQ][HD5-F] |

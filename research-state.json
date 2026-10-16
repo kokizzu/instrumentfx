@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Line 6 POD HD500 primary follow-up",
-    "task": "HD500 synthalgorithms,stereo1–2USBrecordsend andmono/stereorouting verified. SeekreadablePilotGuideforcontrols/fullIO;firmware2.62basssupport stillpending. Do notinferacsim fromVariaxAcousticcontrol.",
+    "task": "Bass support verified directly in v2.10 guide; now shared ALL-BASS member. Seek readable Pilot Guide for control counts/full socket inventory, then remaining power/display/IR/software fields.",
     "next_models": [],
-    "after_queue": "ContinuebassShopeediscovery;HD500basscapability notyetclassified."
+    "after_queue": "Continue fresh Shopee bass discovery; do not add HD500 again."
   },
   "new_findings": [
     {
@@ -3434,6 +3434,11 @@
       "synth_stereo_followup": {
         "verified": "v2.10Octisynth/SynthOMatic/AttackSynth/SynthString/Growler;onestereoMainOut1–2USBrecordsend;monoPrecombinesinputs andmonoFXcollapseupstreamstereo",
         "limits": "Acousticsimulation,currentUSBplaybackchannels andphysicalinventory unresolved;mirrorsfailed"
+      },
+      "bass_followup": {
+        "verified": "Original v2.10 Rev A guide pp.6•4,6•6,6•13,6•15: Flip Top Ampeg B-15NF bass amp, matching 1×15 cab and eight bass-cab microphones; explicit bass-player recommendation",
+        "classification": "Shared bass-capable; added to ALL-BASS",
+        "limit": "Later optional model packs not audited; not inferred from HD500X"
       }
     }
   ],
@@ -22232,9 +22237,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 70,
+      "record_count": 71,
       "bass_focused_record_count": 18,
-      "shared_bass_capable_count": 52,
+      "shared_bass_capable_count": 53,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -39140,8 +39145,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 70,
-    "bass_shared_models": 52,
+    "bass_view_models": 71,
+    "bass_shared_models": 53,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -39338,6 +39343,7 @@
       "Line 6::POD Go Wireless",
       "Line 6::POD Express Bass",
       "Line 6::Helix LT",
+      "Line 6::POD HD500",
       "MOOER::GE1000",
       "MOOER::GE1000 Li",
       "MOOER::GE250",
@@ -39405,6 +39411,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Line 6::POD HD500": "Original HD500 Advanced Guide v2.10 Rev A pp.6•4,6•6,6•13,6•15 explicitly recommends Flip Top bass amp, matching 1×15 cabinet and eight bass-cab microphone models. This establishes model-specific bass support without relying on HD500X or later paid packs. [Official guide](https://l6c-acdn2.line6.net/data/6/0a06434dc1a55085c5d6532bf/application/pdf/POD%20HD500%20Advanced%20Guide%20v2.10%20%28%20Rev%20A%20%29.pdf).",
     "Korg::PANDORA stomp": "Korg specifies guitar/bass input and explicitly marks bass-specific amps/cabs/effects.",
     "Zoom::MS-70CDR Plus": "Own manufacturer preset Ver1.00 patch004 Phase Room explicitly covers guitar or bass;own effects include bass chorus andbass autowah. Not original/seller inference. [Preset list](https://zoomcorp.com/media/documents/E_MS-70CDRplus_Patchlist.pdf).",
     "Zoom::MS-70CDR": "Original manufacturer MS-70CDR product explicitly identifies guitar/bass effects and manual p.4 bass input. Not inferred from plus or a BASS EQ knob. [Primary product](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr/).",

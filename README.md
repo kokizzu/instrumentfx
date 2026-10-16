@@ -9,7 +9,7 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 | View | Contents |
 |---|---|
 | **[ALL-GUITAR.md](ALL-GUITAR.md)** |137 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
-| **[ALL-BASS.md](ALL-BASS.md)** |70 documented bass-capable models: 18 bass-focused plus 52 shared processors, with full comparison tables and explicit capability evidence |
+| **[ALL-BASS.md](ALL-BASS.md)** |71 documented bass-capable models: 18 bass-focused plus 53 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |22 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
 | **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 167 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
