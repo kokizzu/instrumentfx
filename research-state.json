@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "ToneLab ST/SE comparison cutoff review",
-    "task": "RP255 exact historical ask now visible; technical fields already covered. Review ToneLab ST and SE saved offers individually next.",
+    "model": "ToneLab SE comparison cutoff review",
+    "task": "ToneLabST exact historical ask included conditionally. ReviewSE next; keep sold-out and unknown-condition qualifications.",
     "next_models": [],
-    "after_queue": "Resume missing manufacturer fields and exact Shopee discovery."
+    "after_queue": "Return to primary-source gaps and fresh exact hardware discovery."
   },
   "new_findings": [
     {
@@ -4160,6 +4160,12 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "Comparison coverage audit: existing technical follow-ups already in scope. Added preserved exact Ch.storee historical ask to conditional price row, carrying all condition/bundle/stock/access/compensation limits. No source refresh or used/new classification claimed."
+    },
+    {
+      "model": "VOX ToneLab ST",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Comparison coverage correction: saved exact herykurniawanipunk historical ask now projects with seller/item/region, date, condition/bundle/stock and checkout uncertainty. Technical follow-ups already covered; no new source verification claimed."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40126,7 +40132,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume ToneLab ST/SE comparison cutoff review."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume ToneLab SE comparison cutoff review."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

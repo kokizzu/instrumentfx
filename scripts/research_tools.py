@@ -361,7 +361,7 @@ def main():
         if mode == 'commit-tonelab-se':
             message = 'research(vox): verify ToneLab SE acoustic Hold Delay and MIDI editor limits'
         if mode == 'commit-tonelab-st':
-            message = 'research(vox): verify ToneLab ST acoustic simulation and shared effect choices'
+            message = 'research(vox): include qualified ToneLab ST historical offer in comparison'
         if mode == 'commit-tonelab-le':
             message = 'research(vox): qualify ToneLab LE Hold Delay and editor MIDI requirements'
         if mode == 'commit-ax1500g':

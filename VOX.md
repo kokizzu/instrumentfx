@@ -69,6 +69,7 @@ Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass s
 |---|---|---|
 | Used | Unknown; exact item does not establish condition. | — |
 | New | Unknown; exact item does not establish condition. | — |
+| Conditional historical observation | **Rp1,200,000**, herykurniawanipunk, Kab. Lombok Barat, shop94150896/item21882548072. Checked2026-10-17; last-week cache, exact HTML opened, stale9–11Oct delivery. Condition, stock, variant, adapter/bundle, warranty and working state unverified; shipping/tax/checkout total unknown. Late-arrival compensation is not discount. Not a confirmed new/used range or current-stock check. | [Exact ST item][TLST-S] |
 
 <!-- comparison evidence ends -->
 
