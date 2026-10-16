@@ -92,6 +92,18 @@ def main():
         state['separate_specialist_archives']['source_before_move_sha256']={p:hashlib.sha256(git('show','9c8d296:'+p).encode()).hexdigest() for p in ('effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md')}
         (ROOT/'research-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
         verify()
+    elif mode == 'source-gs1000':
+        url='https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf'
+        cache=Path('/tmp/instrumentfx-sources')
+        cache.mkdir(exist_ok=True)
+        path=cache/'mooer-gs1000-original.pdf'
+        with urllib.request.urlopen(url,timeout=60) as response:
+            data=response.read()
+        assert data.startswith(b'%PDF')
+        path.write_bytes(data)
+        subprocess.run(['pdftotext','-layout',str(path),str(path.with_suffix('.txt'))],check=True)
+        subprocess.run(['pdftoppm','-f','8','-l','10','-scale-to','1600','-png',str(path),str(cache/'gs1000-panel')],check=True)
+        print('Saved manufacturer manual and rendered controls/connections: '+str(path))
     elif mode == 'gp200jr':
         gp200jr()
     elif mode == 'render-gp200jr':
@@ -109,17 +121,17 @@ def main():
         subprocess.run(['pdftotext','-layout',str(path),str(path.with_suffix('.txt'))],check=True)
         subprocess.run(['pdftoppm','-f','6','-l','7','-scale-to','1600','-png',str(path),str(cache/('prime-panel' if prime else 'ge300-panel'))],check=True)
         print('Saved and rendered original manufacturer manual: '+str(path))
-    elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons', 'commit-prime','commit-ge300'):
+    elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons', 'commit-prime','commit-ge300','commit-gs1000'):
         verify()
         print(git('status', '--short', '--branch'))
         assert not git('diff', '--cached', '--name-only').strip(), 'Unrelated staged changes; inspect before committing'
         paths = ['Makefile', 'scripts/research_tools.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'MULTI-EFFECTS.md', 'README.md', 'research-state.json']
-        if mode in ('commit-comparisons','commit-prime','commit-ge300'):
+        if mode in ('commit-comparisons','commit-prime','commit-ge300','commit-gs1000'):
             paths += ['ALL-VOCAL.md','scripts/comparison_views.py','AGENTS.md','SINGLE-GUITAR.md','SINGLE-BASS.md','SINGLE-VOCAL.md','effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md']
             subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
             if mode=='commit-prime':
                 paths.append('HEADRUSH.md')
-            elif mode=='commit-ge300':
+            elif mode in ('commit-ge300','commit-gs1000'):
                 paths.append('MOOER.md')
         else:
             paths.append('VALETON.md' if mode == 'commit-gp200jr' else 'LINE6.md')
@@ -132,6 +144,8 @@ def main():
             subject='research(headrush): add Prime with native NAM limits and qualified used retail evidence'
         elif mode=='commit-ge300':
             subject='research(mooer): add GE300 with converted NAM and firmware-qualified IR capacity'
+        elif mode=='commit-gs1000':
+            subject='research(mooer): add GS1000 across guitar bass and live mic comparisons'
         print(git('commit', '-m', subject))
     else:
         raise SystemExit('Unknown operation')

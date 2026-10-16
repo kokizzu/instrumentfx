@@ -138,3 +138,102 @@ Selected condition/variant,bundle,region,warranty,voucher,shipping and live stoc
 [F] [Official exact-model downloads and firmware history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html): model-specific current capabilities override old promotional capacities. Research read documentation only, without installing firmware/editor/dependencies.
 
 Remaining: complete current algorithms,factory/user memory split,pixels/touch,explicit battery/USB operation,current IR source formats,NAM subvariant/quality limits,USB MIDI,drums/scenes,qualified used and live-stock IDR evidence. No whole-model verification claim.
+
+## GS1000
+
+**Checked 2026-10-16; partial standard-model profile.** GS1000 uses an external supply; **GS1000 Li is a separate battery variant**, not added to this inventory by this record. The manufacturer manual covers both and explicitly separates current rating and mass. Guitar/bass and independent live microphone processing qualify this model for all three instrument views; acoustic instrument mic+line use does not establish a dedicated acoustic simulator or vocal harmony. [Original manual][GS-M] and [regional exact-model product][GS-J].
+
+### GS1000 — hardware, expression and display
+
+| Field | Exact-model evidence |
+|---|---|
+| Built-in expression |**No** pedal in the complete control diagram; no built-in toe switch |
+| External expression |One 6.35mm TRS EXP input for 10–100kΩ pedals; controls volume or multiple effect parameters, mappings saved per preset, global calibration. Pre/post master-volume placement. Separate external toe-switch connection not established |
+| Rotary knobs |**3 total**: front MASTER and SELECT, rear MIC GAIN. SELECT also presses; do not count its push as a separate button |
+| Footswitches |**4**, A–D; bank selection/tuner/Groove Station via pairs. Optional F4 wireless controller adds controls, not four extra switches on the unit |
+| Buttons |**3** front menu buttons: HOME, SAVE, SAMPLING. Front power pushbutton and rear 48V toggle counted separately |
+| Display |**5-inch color touchscreen**, original rendered color panel and regional specifications; resolution pixels unknown |
+| Dimensions / weight |**240×161×67mm (L×W×H); 1.23kg**, standard unit; medium footprint. Li is 1.37kg, not this unit |
+| Power / battery / USB |**DC 9V 2A center-negative**, supplied adapter. Standard version has no integrated operating battery; Li's 9V 3A adapter, 7.4V 4750mAh battery and conditional six-hour rating must not be copied here. USB-bus operation unknown |
+
+Original PDF controls/rear pages (printed3–5) were read and rendered; front and rear diagrams were visually inspected. The filter appendix generically mentions a Toe switch function, but the dedicated external-pedal calibration/mapping chapter does not establish a separate toe input or switch implementation. That inconsistency stays unresolved rather than inventing a physical toe control. [Original manual][GS-M].
+
+### GS1000 — processing, memory and sound
+
+| Field | Evidence and limits |
+|---|---|
+| Simultaneous processing blocks |**14 effect positions**, seven in chain A and seven in B, DSP-limited; **11 categories**, not an 11-block ceiling. Repeated category instances supported except FX LOOP; merely bypassing a loaded module does not release its DSP resources |
+| Routing architecture |Five templates: Serial, Dual, Split, Mix, Parallel. Independent input/output nodes, movable split/mix; dual chains can separately process instrument and microphone. Mix cannot precede split or share its position |
+| Preset memory |**200 total**, 50 banks×4(A–D); editable/saveable. Empty presets exist; exact current factory-filled and reserved-user subsets unknown. Not200 factory + 200 user |
+| Synth / acoustic / vocal |Pitch/harmony/ring modulation are listed; dedicated synth engine and acoustic simulator unverified in inspected appendix. Mic/line acoustic processing documented. Vocal harmony, autotune and formant engines unverified; live microphone multi-effects does not imply them |
+| Scene / sub-patch control |**3 SubPatches per preset** with module states and parameter mappings, plus stomp/tap/single/multiple/A–B CTRL functions. F4 wireless/MIDI can extend control |
+| Looper / drums |**480 seconds/8minutes**, overdub, undo/redo, auto-record threshold, independent levels, drum sync, count-in and loop import/export. Global product prose56 drum kits conflicts with its54kits+4 metronome bullet; exact current rhythm inventory unresolved |
+
+Original appendix model-choice counts, not freely assignable block counts or a verified current total:
+
+| Category | Original manufacturer's printed list |
+|---|---|
+| Dynamic |13: 10 compressor/limiter choices and 3 gate/reducer choices |
+| Filter |13 wah/filter models, including envelope/talk and fixed low/high-pass/Q |
+| Overdrive |35 drive/boost/fuzz choices |
+| Amplifier |116 named entries: 52 Classic preamps + 28 Boutique preamps + 26 Boutique full amps + 10 Bass models; imported sample slots separate |
+| Power amp |11 choices |
+| Cabinet |25 Classic + 53 printed Boutique names + 10 Bass = 88 named entries. Boutique numbering runs 1–54 but skips 47; do not silently claim 54 listed names |
+| Equalizer |9 in appendix including AI EQ Master; later v1.2.5 adds Graphic EQ. Full current inventory reconciliation pending |
+| FX Loop |3 modes:loop, send-only, return-only; one loop module at a time |
+| Modulation |30 base+3V2 choices, including Poly Shift, Harmony, Octave, Ring and 60sVibe/Double/StereoRotary |
+| Delay |16 base+3V2 choices |
+| Reverb |11 base+3V2 choices |
+
+The specification says 350 models while the feature prose says more than 350; the visible appendix rows above total 354 with cabinet 47 absent. These are retained revision/count differences, not a silently normalized current total. Actual bass library includes Ampeg, Markbass, Aguilar and Darkglass-derived models and 10 bass cabinets, supporting bass membership without relying on a tone knob. [Original manual][GS-M].
+
+**Effect trails:** per-module Trail and global SPILL-OVER are distinct. Between-preset trails require copying a preset and retaining the effect chain and delay/reverb model choices; they do not support arbitrary changes to chains or those models. SubPatch switching changes mapped parameters/status within one preset. AI EQ Master learns a played phrase against selected type/genre and stores its result per preset; it is not a NAM-format claim. [Original manual][GS-M].
+
+### GS1000 — IR, NAM, capture and editing
+
+| Field | Evidence and firmware qualification |
+|---|---|
+| User IR |**50 slots**, third-party WAV, 44.1kHz24bit, up to2048points in original specs. Broader source-rate/bit-depth conversion and simultaneous IR ceiling unknown |
+| Proprietary samples |**120 MNRS positions**, 30 each for drive/preamp/full amp/cabinet. Onboard capture, desktop/cloud exchange; .GNR fordrive/preamp/fullamp and.GIR forcabinet. These are separate from 50 third-party IR slots |
+| NAM |v1.3.0 dated 2026-07-28: **native A2 Lite**, **A1 converted**; AMP module only. Do not expand Lite to all A2 architectures. Pedal/head samples recommended in PREAMP SAMPLE, amp+cab in ENTIRE SAMPLE. Concurrency, fidelity and architecture-size restrictions unknown |
+| Desktop editor |**MOOER Studio Windows 10+ and macOS 10.13+** in current exact-model download page; original manual says macOS 10.11+, retained as dated conflict. Full parameter/chain editing, preset management, IR/GNR/GIR transfer, backup, loop audio import/export and firmware updates |
+| Mobile software |Original MOOER Cloud supports iOS 11+/Android 5.0+ over Bluetooth for preset/sample upload/download; these are historical app requirements, not confirmed current minima. Do not equate cloud exchange with a full mobile parameter editor |
+| Drivers / USB audio |Separate Windows ASIO driver; original Mac audio plug-and-play. **2in/2out, 24bit44.1–192kHz USB**, wet/dry channel selection, hardware/software monitor mix and reamp.192kHz USB support is separate from44.1kHz internal ADC and IR specs |
+
+[Original manual][GS-M], [current GS1000 firmware/editor page][GS-F] and [Chinese regional version notes][GS-C]. No editor, firmware, driver or dependency was installed. The global and Chinese v1.2.7 dates differ (July 14 versus June 20); v1.3.0 native/converted distinction agrees. Current page container September 1 is not the firmware's July 28 release date.
+
+### GS1000 — complete connections
+
+| Field | Physical ports / function |
+|---|---|
+| Inputs |One 6.35mm mono GUITAR IN/INPUT L for guitar/bass; one 6.35mm/XLR MIC IN/INPUT R combo for microphone or instrument/line. Together can form stereo input. Rear mic gain up to 60dB; switchable **48V phantom** |
+| Main outputs |Two 6.35mm L/R**balanced TRS** by rear connection chapter, rendered labeling andglobal product. Japanese specification list calls them unbalanced; balanced claim is corroborated, conflict retained. TS cables provide unbalanced operation. **No XLR main outputs** |
+| FX loop |One 6.35mm stereo TRS SEND andone RETURN, unbalanced stereo; TRS-to-dualTS breakout for stereo external effects. Serial/parallel, send/return levels, movable positions, four-cable/extended-I/O configurations |
+| Headphones / auxiliary |3.5mm stereo PHONES. No separate analog AUX input in complete rear inventory; Bluetooth audio for accompaniment |
+| Control / data |6.35mm TRS EXP; single 3.5mm TRS MIDI port configured **IN or OUT**, not two concurrent physical ports; USB-C for USB MIDI, audio, editor/data; wireless F4 support |
+| Supply |DC input; front power pushbutton; rear 48Vtoggle. No speaker-power output |
+
+The manual explicitly shows instrument and microphone entering independently processed chains. This establishes live mic-path membership in ALL-VOCAL without claiming a specialized singer harmony engine. [Original manual][GS-M] and [regional product][GS-J].
+
+### GS1000 — separate IDR asking evidence
+
+| Price class | Amount | Exact offer and qualifications |
+|---|---:|---|
+| Retail indexed standard hardware ask |**Rp6.888.000** |[Nafiri Music Store, shop96878449/item25445636952](https://shopee.co.id/Mooer-GS1000-Intelligent-Amp-Profiling-Processor-Multi-Effects-Pedal-i.96878449.25445636952), checked 2026-10-16. Indexed/directly retrieved text has 29 June delivery and seller Jakarta Utara; cached timing, not live checkout stock |
+| Condition-verified used offer |**?** |No exact qualified used offer found in targeted bekas/second searches; no inferred discount |
+
+Selected condition, variant, bundle, warranty, voucher, shipping and seller authenticity remain unverified. A separate list page shows Rp6.500.000 now and Rp6.120.000 in another cached page, but without a resolved item/seller/variation those are **not accepted offers or a retail range**. Acrylic covers, preset packs and unrelated items were excluded. Li pricing is not standard-model pricing.
+
+### GS1000 — sources and outstanding fields
+
+[GS-M]: https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf
+[GS-J]: https://mooer.jp/products/mooer-gs1000
+[GS-F]: https://www.mooeraudio.com/Downloads_xq/7.html
+[GS-C]: https://cn.mooeraudio.com/Downloads_xq/5.html
+
+- [Original manufacturer GS1000/GS1000 Li manual][GS-M], mirrored by RockBoard, 97 PDFpages:cover/model identity checked; printed 3–5 controls/ports, 10–17 architecture, 27–34 SubPatch/EXP, 40–43 sampling, 46–51 Groove/USB, 66–67 trails, 69–74 software/import, 76–77 specs, 78–92 effect appendix. No mirror-generated FAQ used.
+- [Official global product](https://www.mooeraudio.com/products/219.html):multiple duplicated marketing sections and drum-count conflict retained. Local HTML retrieval returned 403; web tool access worked, original PDF mirror retrieval/rendering worked.
+- [Official Japanese standard-model product][GS-J] and[series comparison](https://mooer.jp/pages/mooer-ge):explicit color, external-only expression, bass and acoustic mic/line use; regional unbalanced output conflict disclosed.
+- [Current exact-model software/firmware][GS-F] and[regional Chinese notes][GS-C]:native A2 Lite versus converted A1, current desktop requirements, dated changes.
+
+Remaining:current complete category inventory and drum count; factory-filled memory subset; pixel resolution; external toe function; USB power; IR source conversion/concurrency; NAM architecture/concurrency/fidelity; full mobile editor scope; qualified used/retail stock. This model is partial, not fully verified.

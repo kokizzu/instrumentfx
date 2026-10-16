@@ -315,8 +315,9 @@ def verify_views():
 # enclosure, a BASS tone knob, a capture microphone, or an output connector.
 BASS_FOCUSED = ['BOSS::GT-1B','BOSS::GX-1B','BOSS::ME-90B','M-VAVE::TANK-B','M-VAVE::CUBE BABY BASS','Line 6::POD Express Bass','Zoom::B1 FOUR','Zoom::B1X FOUR','Zoom::B2 FOUR','Zoom::B6','Zoom::B1Xon']
 VOCAL_ONLY = ['Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
-VOCAL_SHARED = ['BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro']
+VOCAL_SHARED = ['BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
 BASS_SHARED = {
+    'MOOER::GS1000':'Exact manufacturer manual specifies guitar/bass input, ten bass amp models and ten bass cabinet models; regional product confirms bass use.',
     'HeadRush::Prime':'Model-specific manufacturer Prime input/routing and bass library evidence; not inferred from Core.',
     'Audota::AME-200':'Model-specific finding explicitly describes guitar/bass capability.',
     'Audota::AME-200 Pro':'Separate Pro finding explicitly describes guitar/bass capability.',
@@ -370,7 +371,7 @@ GROUPS = {
     'memory': r'memory|preset|storage',
     'sound': r'synth|acoustic|harmony|special sound|^sound',
     'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary|conversion',
-    'io': r'\bports?\b|connections?|i/o|^inputs?|^outputs?|^aux|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
+    'io': r'\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
     'power': r'power|battery|^dc',
     'editor': r'app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital',
     'live': r'live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',

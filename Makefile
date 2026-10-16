@@ -51,3 +51,11 @@ research-source-ge300:
 
 research-commit-ge300:
 	python3 scripts/research_tools.py commit-ge300
+
+.PHONY: research-source-gs1000
+research-source-gs1000:
+	python3 scripts/research_tools.py source-gs1000
+
+.PHONY: research-commit-gs1000
+research-commit-gs1000:
+	python3 scripts/research_tools.py commit-gs1000
