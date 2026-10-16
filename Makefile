@@ -963,3 +963,15 @@ research-commit-a1xfour:
 .PHONY: research-commit-ms50g
 research-commit-ms50g:
 	python3 scripts/research_tools.py commit-ms50g
+
+.PHONY: consolidation-plan-audota-union consolidation-audit-audota-union consolidation-audit-audota-links
+consolidation-plan-audota-union:
+	python3 scripts/consolidation_tools.py plan-audota-union
+consolidation-audit-audota-union:
+	python3 scripts/consolidation_tools.py audit-audota-union
+consolidation-audit-audota-links:
+	python3 scripts/consolidation_tools.py audit-audota-links
+
+.PHONY: research-commit-audota-union
+research-commit-audota-union:
+	python3 scripts/research_tools.py commit-audota-union

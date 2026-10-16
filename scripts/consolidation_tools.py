@@ -1652,11 +1652,11 @@ def audit_floorboard_union():
 
 
 def audit_compact_links(kind='compact'):
-    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history')
+    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota')
     """Inventory explicit Markdown links and literal references before source retirement."""
     import urllib.parse
     research_tools.identity()
-    source_key = 'effects/'+kind+'.md' if kind in ('bass','vocal') else 'effects/guitar-'+kind+'.md'
+    source_key = 'effects/'+kind+'.md' if kind in ('bass','vocal','audota') else 'effects/guitar-'+kind+'.md'
     if kind == 'advanced':
         source_key = 'effects/advanced-modelers.md'
     if kind == 'boss-history':
@@ -1837,7 +1837,67 @@ def audit_boss_shared(verify=True, history=False):
         verify_preserved(json.loads((ROOT/'research-state.json').read_text()))
     print(json.dumps(dict(models=len(records),fields=field_count*7,missing_model_fields=sum(len(r['missing_fields']) for r in records),paragraph_groups=len(groups),missing_groups=len(missing),external_urls=len(urls),missing_urls=report['missing_external_urls']),indent=2))
 
+
+
+def audit_audota_union(verify=True):
+    """Check all shared rows, appendix cells, prose and reference targets."""
+    research_tools.identity()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    path = 'effects/audota.md'
+    source = (ROOT/path).read_text()
+    assert digest(source) == state['migration']['shared_audota_audit']['source_sha256']
+    destination = (ROOT/'AUDOTA.md').read_text()
+    union = destination+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
+    aliases = {'AME-100':{'ame100'},'AME-200':{'ame200'},'AME-200 Pro':{'ame200pro','pro'},'ACE-100':{'ace100'},'AVE-100':{'ave100'}}
+    records = {model:[] for model in aliases}
+    appendix = []
+    for headers, rows, context in comparison_views.tables(source):
+        if context == 'AME-200 and Pro: actual appendix counts':
+            appendix = [dict(field=h,value=v) for row in rows for h,v in zip(headers,row)]
+            continue
+        for row in rows:
+            if context == 'Vocal model: AVE-100':
+                assert len(row) == 2
+                records['AVE-100'].append(dict(field=row[0],value=row[1],source=path,context=context))
+                continue
+            matched = [m for m, names in aliases.items() if comparison_views.norm(row[0]) in names]
+            assert len(matched) == 1, 'Unmapped shared row: '+str(row)
+            records[matched[0]] += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
+    assert [len(records[m]) for m in aliases] == [14,14,14,14,11]
+    assert len(appendix) == 11
+    manifests = {e['model_name']:e for e in state['consolidation_and_price_findings'] if e.get('destination','').startswith('AUDOTA.md#')}
+    model_reports = []
+    ordered = lambda facts: sorted((f['field'],f['value'],f['source'],f['context']) for f in facts)
+    for model,facts in records.items():
+        entry = manifests[model]
+        assert entry['supporting_source_hashes'][path] == digest(source)
+        assert ordered(entry['retained_comparison_facts']) == ordered(facts), 'Source/manifest field mismatch: '+model
+        section = destination.split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
+        model_reports.append(dict(model=model,fields=len(facts),missing=[f for f in facts if f['value'] not in section]))
+    refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)',source,re.M)}
+    groups = [p for p in re.split(r'\n\s*\n',source) if p.strip() and not re.match(r'^[#|]',p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
+    normalized = [comparison_views.relink(p,path,refs) for p in groups]
+    appendix_text = source.split('| Drive |',1)[1].split('\n\n',1)[0]
+    appendix_text = '| Drive |'+appendix_text
+    targets = [comparison_views.relink('[source]('+target+')',path,{}) for target in refs.values()]
+    target_paths = [re.search(r'\]\(([^)]+)\)',target)[1] for target in targets]
+    report = dict(source=path,source_sha256=digest(source),model_reports=model_reports,model_fields=67,appendix_cells=appendix,appendix_table_preserved=appendix_text in destination,paragraph_groups=len(groups),normalized_missing_groups=[p for p in normalized if p not in union],reference_targets=target_paths,missing_reference_targets=[target for target in target_paths if target not in union],retirement_authorized=False)
+    Path('/tmp/instrumentfx-audota-union-plan.json').write_text(json.dumps(report,indent=2)+'\n')
+    print(json.dumps({k:v for k,v in report.items() if k not in ('model_reports','appendix_cells','normalized_missing_groups','reference_targets')},indent=2))
+    print('Missing model fields: '+str(sum(len(r['missing']) for r in model_reports))+';missing prose groups: '+str(len(report['normalized_missing_groups'])))
+    if verify:
+        assert not any(r['missing'] for r in model_reports)
+        assert report['appendix_table_preserved']
+        assert not report['normalized_missing_groups'] and not report['missing_reference_targets']
+        verify_preserved(state)
+
 if __name__ == '__main__':
+    if sys.argv[1:] in (['plan-audota-union'], ['audit-audota-union']):
+        audit_audota_union(sys.argv[1] == 'audit-audota-union')
+        raise SystemExit(0)
+    if sys.argv[1:] == ['audit-audota-links']:
+        audit_compact_links('audota')
+        raise SystemExit(0)
     if sys.argv[1:] == ['audit-boss-history-links']:
         audit_compact_links('boss-history')
         raise SystemExit(0)

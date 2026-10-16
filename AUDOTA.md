@@ -2,6 +2,22 @@
 
 All five recorded Audota models are consolidated below: AME-100, standard AME-200, AME-200 Pro, ACE-100 and vocal-only AVE-100. Technical research and market coverage remain partial.
 
+## Shared historical comparison context
+
+Preserved from the2026-10-15 shared Audota comparison. Historical navigation and scope statements below are source provenance;current totals and cursor remain in research-state.json. Technical findings are partial.
+
+[All comparisons](effects/README.md) · [Scope](effects/SCOPE.md) · [Owner history](effects/OWNERSHIP.md) · [Resume](effects/RESUME.md)
+
+Each model links to its full finding,primary manual,firmware notes,price sources and unresolved details. This is not proof of complete market coverage or full verification of every field.
+
+### AME-200 and Pro shared appendix
+
+| Drive | Compressor | Filter/wah | Gate | Amp | Cab | EQ | Modulation | Delay | Reverb | Calculated total |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|22|4|5|1|98|55|3|19|7|6|**220**|
+
+Each model's original manual appendix was checked. This calculation includesamps/cabs andexcludesemptyimports;the advertised221discrepancy is not silently corrected. Firmware-nativearchitecture claims require explicit evidence,not a generic NAM logo orfeatures borrowedfromanotherAudota model.
+
 ## AME-100
 
 Consolidated **2026-10-17**. The complete original finding retains its2026-10-15 date, contradictions and historical next-model notes. Current cursor is in research-state.json. AME-100 ownership does not establish AVE-100 ownership.
