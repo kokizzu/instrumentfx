@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VoiceLive 3 Extreme primary follow-up",
-    "task": "VL3X dual-expression,automation restrictions,12VDC andVoiceSupport functions saved. Continue processing counts,loop storage,DCcurrent/polarity andqualifiedoffers;commitbeforeanothermodel.",
+    "task": "VL3X vocal-synth carrier architecture andlooptrigger/MIDI tempo restrictions saved. Continue remainingprocessing/storage/power/control fields orfresh exactShopee discovery;commit eachmodel before next.",
     "next_models": [],
     "after_queue": "Resume fresh Shopee discovery;no exhaustivecoverageclaim."
   },
@@ -1747,6 +1747,17 @@
         ],
         "quickguide_identity": "Manufacturer-authored multilingual Extreme guide;Englishpp3,7;model/features/connections matchreference;printrevisionunexposed",
         "remaining": "DCcurrent/polarity,fullphysicalcounts,loopstorage,processingtotals/imports,currentsoftwareandprices"
+      },
+      "synth_loop_sync_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+        "resolved": [
+          "Polyphonic vocal Synth accepts instrument chords orinternal carriers;not guitar synth proof",
+          "Loop slot A/B/C with A+B orA+C combinations",
+          "TriggersA–H per-preset/global;loop trigger recalls tempo affecting other effects",
+          "MIDI tempo slave only;recorded loops do nottime-stretch"
+        ],
+        "remaining": "No explicit simultaneous processing ceiling orloopstorage total found;keepDCcurrent/polarity/controlandpricegaps"
       }
     }
   ],
