@@ -557,3 +557,11 @@ consolidation-apply-h8:
 	python3 scripts/consolidation_tools.py apply h8
 consolidation-commit-h8:
 	python3 scripts/consolidation_tools.py commit h8
+
+.PHONY: consolidation-plan-fb100 consolidation-apply-fb100 consolidation-commit-fb100
+consolidation-plan-fb100:
+	python3 scripts/consolidation_tools.py plan fb100
+consolidation-apply-fb100:
+	python3 scripts/consolidation_tools.py apply fb100
+consolidation-commit-fb100:
+	python3 scripts/consolidation_tools.py commit fb100

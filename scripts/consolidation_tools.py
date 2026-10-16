@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'fb100': ('Flybro FB-100', 'effects/findings/2026-10-15-ving-fb100.md'),
     'h8': ('H8', 'effects/findings/2026-10-15-cuvave-h8.md'),
     'play-acoustic': ('Play Acoustic', 'effects/findings/2026-10-14-tchelicon-play-acoustic.md'),
     'voicelive-play': ('VoiceLive Play', 'effects/findings/2026-10-14-tchelicon-voicelive-play.md'),
@@ -1024,7 +1025,67 @@ def plan_h8():
     print('Preview H8 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_fb100():
+    research_tools.identity()
+    model, source_path = MODELS['fb100']
+    brand_file = 'VING.md'
+    assert not (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['VING::Flybro FB-100']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'VING-FB-100'
+    body, refs = preserved_body(source, prefix)
+    normalizations={'(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
+    for old,new in normalizations.items():
+        body=body.replace(old,new)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/owned-multifx.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**Seven partial') or p.startswith('K/F/B means') or p.startswith('The original printed VING') or p.startswith('Older manuals') or p.startswith('Exact item/seller') or p.startswith('These five former')]
+    original_commit='7962a72f6ecc5864e54fd2437cad25ed93507a5b'
+    assert original_commit in supporting
+    section = '# VING multi-effects\n\n## Flybro FB-100\n\nVING/Flybro FB-100 desktop guitar multi-effects. Consolidated **2026-10-17**; full original model/revision identity,405g/450g and power-source conflicts retained. Shared manufacturer identity does not make this BG300.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical counts and next notes below are provenance.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nOriginal individual finding commit: '+original_commit+'. Sources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/owned-multifx.md). No legacy source or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current FB-100 comparison fields\n\n| Field | Evidence and qualification |\n|---|---|\n'
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'].startswith('Follow-up'):
+            continue
+        value=f['value']
+        if f['field']=='Apps':
+            value += ' Rechecked2026-10-17: same editing/import functions and iOS/iPadOS12+ requirements. Mac compatibility specifies macOS11+/M1+, while listing says not verified for macOS; this is mobile-app compatibility, not a dedicated desktop editor.'
+        if f['field']=='Retail IDR':
+            value += ' Rechecked2026-10-17: first item exposes only a generic Shopee shell; original1.450.000 ask remains historical. Second item now shows1.860.000 with four unspecified variations and no Habis label in current extraction. Keep all snapshots; no verified variant-to-price mapping or checkout stock, and no current per-model range.'
+        field={'Input':'Input ports','Outputs':'Output ports','USB / practice':'USB audio / practical features'}.get(f['field'],f['field'])
+        section += '| '+field+' | '+value+' |\n'
+    section += '\n<!-- comparison evidence ends -->\n\n### Current primary-source and price qualifications\n\nChecked **2026-10-17**: [Developer VING App Store listing](https://apps.apple.com/th/app/ving/id6740554685) still names preset parameter editing, preset import/export, IR import and drum rhythms. Minimum iOS/iPadOS12 remains explicit. macOS11+/M1+ compatibility applies to the mobile app; listing also says not verified for macOS. Provider identifies Zhuhai boyin Technology, while copyright identifies Shanghai Weiyin Technology; preserve these distinct labels without inventing a corporate/rebadge explanation. The [linked musicving site](https://musicving.com) again failed to open. No Android APK or separate desktop compatibility assumed.\n\n[SEVEN STEREO Malang original item](https://shopee.co.id/Ving-FB100-FB-100-%E2%80%93-Portable-Multi-Effects-Processor-dengan-Bluetooth-Speaker-i.1408254222.28741861094),shop1408254222/item28741861094,now exposes only a generic Shopee shell. Its earlier1.450.000 amount/date is retained, not newly verified. [queenmusicsolo exact listing](https://shopee.co.id/VING-FB100-VING-FLYBRO-FB100-MULTI-EFFECT-PROCESSOR-WITH-SPEAKER-BLUETOOTH-i.60582947.40872427417),shop60582947/item40872427417,Kota Surakarta,now displays **Rp1.860.000 with four unspecified variations**. Earlier1.565.000/Habis body and1.885.000 search snippet remain historical conflicting snapshots. Variation mapping,condition,accessories,regional warranty,checkout stock,shipping/tax and usable vouchers unverified. Exclude unresolved variation amount from a confirmed standard-hardware price range; late-delivery compensation not a purchase discount.\n\nComplete original quick-guide V03/2025-07-02 and testedV1.0 report identities, prior actual visual-inspection qualifications, shared FS/EXP socket, balanced-mono main versus stereo-headphone distinction,405/450g conflict and5V/12V source distinctions remain preserved. No new original-PDF visual verification or file/dependency downloads performed. Remaining: actual power negotiation/hardware-revision match, full category choices, IR capacity/format,NAM/capture compatibility, memory-overwrite rules, touch,USB channels,Android/dedicated desktop support and qualified current used/new offers.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file] = [model]
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['VING Flybro FB-100'],model_name=model,brand='VING',destination=brand_file+'#flybro-fb-100',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete FB-100 body/supporting facts retained; developer app verified and changed four-variation seller snapshot preserved; power/mass/IR/USB uncertainties remain.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Roland GR-55 — complete legacy consolidation',task='Read complete GR-55 original finding/corrections and supporting owner comparisons. Consolidate losslessly into root ROLAND.md; preserve GK/divided-pickup restrictions, guitar/bass firmware1.50 memory changes, exact processing counts and all source/price dates. Verify model-specific primary and exact Shopee evidence, update views and commit. Then audit entire root migration and continue fresh discovery/unresolved-field research; zero legacy-only count alone does not complete the full objective.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [VING.md](VING.md) |Flybro FB-100 |\n| [JOYO.md](JOYO.md)')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=None
+    payload=dict(model_id='fb100',model=model,inputs=inputs,outputs=outputs,new_files=[brand_file],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview Flybro FB-100 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'fb100':
+        return plan_fb100()
     if model_id == 'h8':
         return plan_h8()
     if model_id == 'play-acoustic':
@@ -1274,10 +1335,13 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['CUVAVE.md', 'TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['VING.md', 'CUVAVE.md', 'TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'fb100':
+        print(research_tools.git('commit', '-m', 'research(ving): consolidate FB-100 and preserve variant price conflicts'))
+        return
     if model_id == 'h8':
         print(research_tools.git('commit', '-m', 'research(cuvave): consolidate H8 and verify desktop CubeSuite support'))
         return
