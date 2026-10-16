@@ -1755,13 +1755,13 @@ Original guitar multi-effects; distinct from G2.1Nu. Discontinued. Checked2026-1
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in; CONTROL IN:FS01/FP01/FP02 in parts text,FP02/FS01 in specifications. Toe behavior unverified. | [Manual pp6–7,35][ZG21-M] |
+| Expression | Built-in; CONTROL IN:FS01/FP01/FP02 in parts text,FP02/FS01 in specifications. Full depression toggles the PEDAL ASSIGN module; assignment is saved per patch. External FP01/FP02 always controls volume separately, in play/edit modes; connect before power-on. Built-in pedal controls volume in bypass. | [Manual pp18–21,35][ZG21-M] |
 | K/F/B | **4 rotary /2 main footswitches /6 buttons**: module selector+three parameters; BANK−/+,STORE,TAP,PEDAL ASSIGN,RHYTHM. Power/pedal switching additional; visual corroboration pending. | [Manual pp6–7][ZG21-M] |
 | Display | Two-digit seven-segment LED plus parameter/pedal indicators. Diagonal/color/touch unverified. | [Manual p35][ZG21-M] |
 | Dimensions / mass | **165 D ×255 W ×79 H mm;1100g without batteries**. | [Manual p35][ZG21-M] |
-| Processing / category choices | **54 effects;max9 simultaneous modules**. Per-category choices unresolved. | [Manual p35][ZG21-M] |
+| Processing / category choices | **54 effects;max9 simultaneous modules**. DRIVE offers16 distortion/amp choices plus1acoustic simulator. Each has live/direct modeling variants selected by CABINET & MIC state; do not count34 independently assignable DRIVE slots. Other category counts unresolved. | [Manual pp29,35][ZG21-M] |
 | Factory / user memory | **80 slots:40 user+40 read-only presets**; user factory-fill unresolved. | [Manual pp16,35][ZG21-M] |
-| Synth / acoustic | Exact synth/acoustic choices unverified. | Unresolved |
+| Synth / acoustic | ACOUSTIC converts electric-guitar timbre toward acoustic. Dedicated synth architecture unverified; a SynthDaze preset name alone is insufficient. | [Manual p29 and patch list][ZG21-M] |
 | I/O | Mono input1MΩ;shared stereo OUTPUT/PHONES;CONTROL IN,USB,DC9V. USB audio16-bit stereo,44.1/48kHz;not internal96kHz processing. | [Manual pp6–7,35][ZG21-M] |
 | Power / battery / USB | AD-0006:9VDC,300mA,center-negative supply≠draw. FourAA alkaline~7.5h;USB bus power with POWER OFF. No battery charging. | [Manual pp2,35;USB guide][ZG21-M] |
 | IR / NAM / capture | User IR, native/converted NAM and capture imports unverified. | Unresolved |

@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / remaining technical gaps after RP500",
-    "task": "RP500 category counts now saved including35sharedChorusFX alternatives,52amp/acoustic sounds and25cab/comp choices,withDirect separate. Continue exact Shopee discovery or remaining primary gaps; do not repeat completed count enumeration.",
+    "model": "Fresh discovery / remaining technical gaps after G2.1u",
+    "task": "G2.1u expression andDRIVE distinctions saved. Bass discovery yieldedmixedvariants/accessories,notverifiednewmodels. Continue fresh exact hardware search or remaining categorycounts;do not repeat samequeries as proof ofabsence.",
     "next_models": [],
-    "after_queue": "Search Shopee brands/series; reject accessories and unresolved mixed variants."
+    "after_queue": "Search Shopee broader brands/series and verify manufacturer architecture."
   },
   "new_findings": [
     {
@@ -4343,6 +4343,14 @@
       "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
       "finding": "Completed manual-derived amp/cabinet/ChorusFX counts:50amp+2acoustic+Direct;24cab+speakercomp+Direct;35ChorusFX one-slot alternatives. Separate bypass entries and parameter modes from modeled-sound totals.",
       "remaining": "Displaydiagonal/color/touch,draw/poweroptions,imports,exactsoftware/currentmarket/sourceconflicts andphysical/firmwareverification."
+    },
+    {
+      "model": "Zoom G2.1u",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://zoomcorp.com/media/documents/E_G21u_0.pdf",
+      "finding": "Resolved full-depression assigned-module switching;externalFP01/FP02 volume-only independently inplay/edit;connectbeforepower,builtinvolumeinbypass. DRIVE16+acoustic withlive/directvariants tiedtoCAB/MIC;SynthDazepresetname notsynthproof.",
+      "remaining": "Other categorycounts,factoryfill,screen/draw/editor/imports andcondition-qualifiedmarket verification."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40338,7 +40346,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining technical gaps after RP500."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining technical gaps after G2.1u."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48564,6 +48572,23 @@
         "total_choices": 35
       },
       "qualification": "ChorusFX one slot. Direct is bypass. Counts are manual-derived selectable alternatives, not simultaneous total. Earlier delay7-vs8conflict retained."
+    },
+    {
+      "audit": "Fresh bass-market discovery",
+      "checked_date": "2026-10-17",
+      "queries": [
+        "site:shopee.co.id Boss ME50B",
+        "site:shopee.co.id Zoom B2.1u",
+        "site:shopee.co.id DigiTech BP200",
+        "site:shopee.co.id Zoom B1X Next",
+        "site:shopee.co.id Boss ME-50B efek"
+      ],
+      "results": "No new exact qualifying hardware offer established in this pass. HopeMusic mixedG2.1Nu/G2.1u/B2.1u andG1xNext/B1xNext prices notmapped. BP200onlyadapter16626959/4486100964 rejected. ExistingB2FOUR exactoffers surfaced,notnewmodels.",
+      "evidence": [
+        "https://shopee.co.id/hopemusik",
+        "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964"
+      ],
+      "qualification": "Search omission is not market unavailability;no negative capability oravailabilityclaim."
     }
   ],
   "discovery_cross_brand_bass": {

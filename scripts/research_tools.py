@@ -331,7 +331,7 @@ def main():
         if mode == 'commit-rp500':
             message = 'research(digitech): count RP500 amp cabinet and shared FX alternatives'
         if mode == 'commit-g21u':
-            message = 'research(zoom): add original G2.1u with USB and rhythm restrictions'
+            message = 'research(zoom): verify G2.1u external volume and drive-mode distinctions'
         if mode == 'commit-g3x':
             message = 'research(zoom): verify G3X synth DSP and expression qualifications'
         if mode == 'commit-g5':
