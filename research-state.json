@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "M-VAVE CUBE BABY AC complete-body audit",
-    "task": "Pocket Amp complete original hash-verified; official v105 native NAM A2 and new effects/routing claims qualified with date conflict and v103 Speaker Mode setup. Exact architecture/import limits unresolved. Next audit complete CUBE BABY AC source/root and exact primary evidence, commit before another model. Broader shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
+    "model": "M-VAVE CUBE BABY BASS complete-body audit",
+    "task": "CUBE BABY AC whole original hash-verified and required comparison fields separated; desktop CubeSuite model support rechecked, mobile/IR/port/power gaps remain. Next audit CUBE BABY BASS complete source/root and exact primary evidence, commit before another model. Full shared-table/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10151,6 +10151,22 @@
       "link_normalizations": {},
       "retained_comparison_facts": [],
       "scope": "Whole original retained; official v105 native NAM A2 claim, stereo MOD/DLY/tails and six MW additions qualified by firmware. v07 AM4, v103 Speaker Mode preset requirement and v105 date conflict retained; no tested import or new hardware claim."
+    },
+    {
+      "models": [
+        "M-VAVE CUBE BABY AC"
+      ],
+      "model_name": "CUBE BABY AC",
+      "destination": "M-VAVE.md#cube-baby-ac",
+      "source": "effects/findings/2026-10-15-mvave-cube-baby-ac.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MVAVE-CUBEBABYAC",
+      "source_sha256": "196c0eba7dda12df08d1f4271ffa308c7cd5346b31e92e84525a3b152c7af4d3",
+      "renamed_references": [],
+      "link_normalizations": {},
+      "retained_comparison_facts": [],
+      "scope": "Whole original retained with price conditions and source-access limits; separate preset, synth and IR/NAM fields improve comparison coverage. Exact desktop CubeSuite compatibility rechecked; mobile omission remains uncertainty, not No."
     }
   ],
   "discovery_leads": [
@@ -10711,11 +10727,6 @@
       "arena2000_repaired": true,
       "remaining_pairs": [
         {
-          "model": "M-VAVE::CUBE BABY AC",
-          "source": "effects/findings/2026-10-15-mvave-cube-baby-ac.md",
-          "dest": "M-VAVE.md#cube-baby-ac"
-        },
-        {
           "model": "M-VAVE::CUBE BABY BASS",
           "source": "effects/findings/2026-10-15-mvave-cube-baby-bass.md",
           "dest": "M-VAVE.md#cube-baby-bass"
@@ -10825,7 +10836,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE CUBE BABY AC complete-body audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE CUBE BABY BASS complete-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

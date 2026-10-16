@@ -664,20 +664,72 @@ Sources: **Sinco FCC2ARCP-CUBE-BABY originalmanual** [text](https://device.repor
 
 ## CUBE BABY AC
 
+<!-- comparison evidence begins -->
+
 **Existing review2026-10-15. Acoustic-input multi-effects,not electric version in another mode.**
 
 | Field | Preserved evidence / uncertainty |
 |---|---|
 | Expression / controls / display | No built-in/EXP;**10/3/0**,power separate:TREB,MID,BASS,COMP,ANTI FB,MOD,SPACE,TIME,IR CAB,VOLUME,A/B/C. No screen,touchNo. |
 | Architecture / choices | **Six fixed stages** EQ→COMP→anti-feedback→MOD→SPACE→IR. EQ1,COMP1,anti-feedback1/up to8notches,MOD2chorus/tremolo,SPACE2**delay OR reverb**,IR8. Notindependentlysimultaneousdelayandreverb. |
-| Presets / sound | **Threefactory-filledoverwriteabletotal**,Live/Preset/Edit. Acoustic-input/bodyIRs,not verifiedelectric-to-acousticmodeling or synth. |
+| Presets | **Three factory-filled overwriteable memories total**, Live/Preset/Edit modes. |
+| Synth / acoustic | Acoustic-input processing and body IRs; electric-to-acoustic modeling and synth algorithms are not established. |
 | Body / power | **161×57×17.5mm LWH;260g**,compact,maxprotrusionsunmeasured. **780mAh,USB5Vcharge**,5V2Aexample,2hcharge/6hruntime rated;voltage/draw?. AC-specificoperationwhilechargingnotexplicit,sodo not copyelectricrule. |
-| Ports / loading | Mono6.35TSin/out,separatephones/mobile-record,USBsubtype/smalljackdetails?. NoXLRmic/phantom,MIDI,EXP,loop. **EightreplaceableIRslots**,formatlimits?;noNAM/capturesestablished. |
+| Ports | Mono 6.35 mm TS input/output, separate phones/mobile-record sockets; USB subtype and small-jack details unverified. No XLR mic/phantom, MIDI, EXP or loop in complete inventory. |
+| IR / NAM / captures | **Eight replaceable IR slots**, format limits unverified. No native NAM, converted NAM or capture-import workflow established; 24-bit/48 kHz processing does not specify IR import limits. |
+| Editor compatibility | [Official download list](https://www.m-vave.com/download), checked 2026-10-17, explicitly names CubeBabyAc for USB-connected CubeSuite Windows/macOS. Its mobile CubeSuite list omits CubeBabyAc; this omission does not prove incompatibility, and mobile editing remains unverified. M-EFCS or SINCO ANN support for other models does not establish AC compatibility. |
 | Apps / recording | CubeSuite **Windows/macOS**USBedit/IR/factoryrestore;officialmobilelistdoesnotincludeAC. Bluetoothbacking. 24/48processing,USBcomputerrecord/play,separatemobilecable;channels,looper,drums?. Tuner/bypass. |
 
 Retail **Rp520.000** [Imagination19576516/28086638429](https://shopee.co.id/M-VAVE-Cube-Baby-AC-Guitar-Acoustic-Pedal-Effect-i.19576516.28086638429);**Rp524.000 NEWtitle** [Henry23465113/23957990128](https://shopee.co.id/M-Vave-Cube-Baby-AC-Multi-Effects-for-Acoustic-Guitar-NEW-i.23465113.23957990128),oldJune. **Usedlike-newRp320.000** [Carousell1397707940](https://id.carousell.com/p/cuvave-m-vave-cube-baby-multi-efek-gitar-1397707940/),generic title butACdescription,oldernotconfirmedactive. Historicalretail **Rp435.000 SOLD OUT** [MICKEY19700013/18269510608](https://shopee.co.id/Efek-Gitar-M-VAVE-Cube-Baby-AC-Multi-Effects-Soundcard-Pedal-Acoustic-Guitar-Muslady-Cuvave-i.19700013.18269510608). Differentmarkets/conditionsnotoneliveShopeerange;authenticity,bundle,shipping,revision,warrantyunverified.
 
 Source: **original eight-page AC manual**,[Scribd originalsectionsI–VIII](https://www.scribd.com/document/826512660/M008-Cube-golden). Actualmanualbody/chain/controls/preset/IR/table read,notAI-enhancedtitleor summary;no fetchedPDFobject/screenshots. [Officialdownloads](https://www.m-vave.com/download),[catalogue](https://www.m-vave.com/products) confirmdistinctmodel/desktopcompatibility. Currentrevision,smallports,IRlimits/USBchannelsremainopen.
+
+<!-- comparison evidence ends -->
+
+### Preserved original finding
+
+Complete 2026-10-15 source is retained below, including all separate price conditions and original manual-access limitations. The software-list check above does not constitute a new manual inspection or fresh stock verification.
+
+<!-- MVAVE-CUBEBABYAC source begins -->
+
+Checked **2026-10-15**. Eligible acoustic-guitar multi-effects, separate from electric Cube Baby and Cube Baby Bass. No ownership assertion. Manufacturer-authored AC manual text was checked against the model-specific catalogue and software list.
+
+| Required field | Finding |
+|---|---|
+| Expression | No built-in pedal or external EXP socket in complete connector inventory [M] |
+| Knobs / footswitches / buttons | **10 / 3 / 0**, plus power switch: TREB, MID, BASS, COMP, ANTI FB, MOD, SPACE, TIME, IR CAB, VOLUME; A/B/C footswitches [M] |
+| Screen | **None**; LEDs show tuner/effect states. Diagonal and color-screen N/A; touchscreen No [M] |
+| Processing | **Six fixed sound stages**: 3-band EQ → compressor → anti-feedback → modulation → ambience → IR, plus tuner. Not freely reorderable generic DSP slots [M] |
+| Category choices | EQ1, compressor1, automatic anti-feedback1 with up to8 notch filters, MOD2 (chorus/tremolo), SPACE2 (reverb/delay), IR8. **Reverb and delay share the SPACE block and are alternatives, not independently simultaneous effects** [M] |
+| Presets | **3 factory-filled overwriteable memories**, A/B/C; Live, Preset and Edit modes. No additional bank of user memories [M] |
+| Acoustic / synth | Eight acoustic-oriented/body/cab IR choices plus acoustic-input processing. This is not a documented electric-to-acoustic modeling algorithm or synthesizer [M] |
+| Dimensions / weight | Manual **161×57×17.5 mm L×W×H;260 g**, compact. Seller specifications differ; do not replace unit dimensions with packaging or sibling-model figures. Maximum protrusion/installed clearance not independently measured [M] |
+| Power | **780 mAh built-in battery**, 5 V USB charging; manufacturer uses a5 V/2 A charger example, about2 h charging and6 h runtime. Battery voltage and actual draw unverified. Exact simultaneous operation/charging is not explicitly established in this AC manual text, so the electric-model wording is not transferred [M] |
+| I/O | One6.35mm TS mono input, one6.35mm TS mono main output, separate headphone and mobile-recording sockets, USB data/charge. USB subtype and small-jack diameters/wiring are unverified in inspected manual. No XLR, mic/phantom, MIDI, EXP or FX loop in complete inventory [M] |
+| IR loading | **8 replaceable IR slots**, desktop import and factory restore. Exact file-format/sample-length limits not published in inspected text; 24-bit/48kHz processing is not automatically an IR import specification [M] |
+| NAM / captures | No NAM or amp-capture import established. The eight IR profiles do not mean eight neural amp captures [M,D] |
+| Apps | **CubeSuite Windows/macOS**, USB-connected preset editing and IR import. Current mobile compatibility list does not include Cube Baby AC; Android/iOS editor support is not established. Bluetooth receives backing audio [M,D] |
+| Recording / practice | **24-bit/48kHz** processing; USB computer recording/playback and separate mobile recording; tuner and bypass. USB channel count, looper and built-in rhythms not established [M] |
+
+### Separate IDR asking prices
+
+| Condition | Amount | Evidence |
+|---|---:|---|
+| Retail AC hardware | **Rp520.000** | [Imagination Music Store, Shopee shop19576516/item28086638429](https://shopee.co.id/M-VAVE-Cube-Baby-AC-Guitar-Acoustic-Pedal-Effect-i.19576516.28086638429); indexed recently, checkout not verified |
+| Explicit NEW title | **Rp524.000** | [Henry Music Gear shop23465113/item23957990128](https://shopee.co.id/M-Vave-Cube-Baby-AC-Multi-Effects-for-Acoustic-Guitar-NEW-i.23465113.23957990128); cached June delivery text |
+| Used, seller says like new | **Rp320.000** | [Carousell item1397707940](https://id.carousell.com/p/cuvave-m-vave-cube-baby-multi-efek-gitar-1397707940/); description explicitly names AC although title is generic; older listing, not confirmed active stock |
+| Historical retail | **Rp435.000 — SOLD OUT** | [MICKEY MOUSE SHOP shop19700013/item18269510608](https://shopee.co.id/Efek-Gitar-M-VAVE-Cube-Baby-AC-Multi-Effects-Soundcard-Pedal-Acoustic-Guitar-Muslady-Cuvave-i.19700013.18269510608) |
+
+The used amount is a separate market/condition observation, not the low end of a guaranteed available Shopee range. Seller authenticity, physical revision, accessories, shipping and warranty were not independently established. Service-unavailable and mixed-version listings are not silently folded into prices above.
+
+### Primary documentation
+
+[M] **Manufacturer-authored CUBE-BABY AC User Manual**, eight-page text [mirrored on Scribd](https://www.scribd.com/document/826512660/M008-Cube-golden), sections I–VIII. Only the original numbered manual body is used; Scribd's AI-enhanced title/summary is not evidence. Full original chain, control inventory, SPACE selection, preset overwrite, IR editor and technical table were read. The PDF was not available as a fetched PDF object; no screenshot inspection is claimed.
+
+[D] [Manufacturer download compatibility lists](https://www.m-vave.com/download). [Catalogue](https://www.m-vave.com/products) separately identifies the AC processor; its dynamically rendered product detail page exposed no specification body in this retrieval.
+
+Next model: **CUBE BABY BASS**. Unresolved: current revision/protruding-height confirmation, small-port specifications, IR file constraints, current used availability and exact USB channels. Do not infer electric Cube Baby's amp library or independently simultaneous delay/reverb.
+<!-- MVAVE-CUBEBABYAC source ends -->
 
 ## CUBE BABY BASS
 

@@ -681,3 +681,7 @@ research-commit-minix-preservation:
 .PHONY: research-commit-pocketamp-preservation
 research-commit-pocketamp-preservation:
 	python3 scripts/research_tools.py commit-pocketamp-preservation
+
+.PHONY: research-commit-cubebabyac-preservation
+research-commit-cubebabyac-preservation:
+	python3 scripts/research_tools.py commit-cubebabyac-preservation
