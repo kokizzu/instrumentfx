@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 124,
+  "active_model_count": 125,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 81,
+  "canonical_root_model_count": 82,
   "legacy_only_model_count": 43,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "task": "Fresh Shopee Indonesia discovery by brand/series after saved BOSS queue;accept only exact eligible hardware absent from inventory. Then continue remaining legacy-only consolidation and unresolved field checks.",
-    "next_models": [],
-    "after_queue": "Continue43 legacy-only models;all models retain verification gaps. Do not claim exhaustive market coverage.",
-    "model": "Fresh Shopee discovery — no model selected"
+    "model": "BOSS GT-100",
+    "task": "Verify exact discovered GT-100 hardware leads, then official specifications; do not confuse GT-1000.",
+    "next_models": [
+      "BOSS GT-100"
+    ],
+    "after_queue": "Continue43 legacy-only consolidations and unresolved fields; fresh Shopee discovery remains required."
   },
   "new_findings": [
     {
@@ -155,6 +157,22 @@
         "qualified used and live retail stock"
       ],
       "commit": "f3a37e6"
+    },
+    {
+      "model": "Line 6 Helix LT",
+      "path": "LINE6.md#helix-lt",
+      "checked_date": "2026-10-16",
+      "status": "partial",
+      "commit_subject": "research(line6): add Helix LT with dated specifications and qualified hardware offer",
+      "unresolved": [
+        "direct manual/control inspection",
+        "current algorithms/synth/acoustic",
+        "power ratings",
+        "IR formats/NAM/capture",
+        "factory subset",
+        "driver/updater requirements",
+        "condition-verified used/live retail"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -4339,6 +4357,16 @@
       "checked_date": "2026-10-16",
       "qualification": "Cached29June delivery,JakartaUtara; exact hardware title,condition/bundle/stock unverified",
       "status": "partial profile recorded"
+    },
+    {
+      "model": "BOSS GT-100",
+      "checked_date": "2026-10-16",
+      "status": "unresearched exact hardware leads",
+      "urls": [
+        "https://shopee.co.id/BOSS-GT-100-i.266296121.3068716612",
+        "https://shopee.co.id/Boss-GT-100-COSM-Amp-Effects-Processor-GT100-GT-100-GARANSI-RESMI-i.10763705.3991620791"
+      ],
+      "qualification": "Indexed cached asks4.3m/6.645m,Habis;condition/current stock unconfirmed. Not used-price proof."
     }
   ],
   "inventory_by_brand": {
@@ -4415,7 +4443,8 @@
       "POD Go",
       "POD Go Wireless",
       "POD Express Guitar",
-      "POD Express Bass"
+      "POD Express Bass",
+      "Helix LT"
     ],
     "MOOER": [
       "GE100 original",
@@ -4540,7 +4569,8 @@
       "POD Go Wireless",
       "POD Express Guitar",
       "POD Express Bass",
-      "HX Effects"
+      "HX Effects",
+      "Helix LT"
     ],
     "ZOOM.md": [
       "G11",
@@ -4626,14 +4656,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 104,
+      "record_count": 105,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 54,
+      "record_count": 55,
       "bass_focused_record_count": 11,
-      "shared_bass_capable_count": 43,
+      "shared_bass_capable_count": 44,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -4656,10 +4686,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons:104 guitar,54 documented bass-capable,17 vocal; full brand consolidation incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons:105 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "43 legacy-only models remain;81 root-canonical. Research/migration incomplete.",
+    "warning": "43 legacy-only models remain;82 root-canonical. Research/migration incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -4728,18 +4758,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 124,
-    "canonical_root_models": 81,
+    "unique_brand_model_pairs": 125,
+    "canonical_root_models": 82,
     "legacy_only_models": 43,
-    "guitar_view_models": 104,
+    "guitar_view_models": 105,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
     "vocal_view_models": 17,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-16",
-    "bass_view_models": 54,
-    "bass_shared_models": 43,
+    "bass_view_models": 55,
+    "bass_shared_models": 44,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -4755,7 +4785,7 @@
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
   "response_handoff": "At the end of a research session provide the user a copyable agent continuation prompt with this exact cursor, no-workflow boundary, root-document layout, per-model immediate commits and unresolved consolidation. Never promise unattended background continuation.",
   "user_requested_comparison_rebuild": {
-    "status": "verified",
+    "status": "implemented_pending_validation",
     "requirements": [
       "ALL-GUITAR: one comparable row per eligible guitar/acoustic multifx, including HX Effects",
       "ALL-BASS: all bass-focused and documented bass-capable multifx, no unsupported blanket inference",
@@ -4763,7 +4793,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Fresh Shopee discovery after the saved BOSS queue;then remaining43 legacy-only models and unresolved fields."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -4808,6 +4838,7 @@
       "Line 6::POD Go",
       "Line 6::POD Go Wireless",
       "Line 6::POD Express Guitar",
+      "Line 6::Helix LT",
       "MOOER::GE100 original",
       "MOOER::GE150 original",
       "MOOER::GE150 Pro Li",
@@ -4899,6 +4930,7 @@
       "Line 6::POD Go",
       "Line 6::POD Go Wireless",
       "Line 6::POD Express Bass",
+      "Line 6::Helix LT",
       "MOOER::GE1000",
       "MOOER::GE1000 Li",
       "MOOER::GE250",
@@ -4949,6 +4981,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Line 6::Helix LT": "LT-specific manufacturer comparison chart v1.03 explicitly lists twelve bass amp models and Return1/2 guitar/bass inputs; not sibling inference.",
     "MOOER::GS1000": "Exact manufacturer manual specifies guitar/bass input, ten bass amp models and ten bass cabinet models; regional product confirms bass use.",
     "HeadRush::Prime": "Model-specific manufacturer Prime input/routing and bass library evidence; not inferred from Core.",
     "Audota::AME-200": "Model-specific finding explicitly describes guitar/bass capability.",
@@ -5425,6 +5458,13 @@
       "finding_files": [
         "effects/findings/2026-10-15-line6-pod-express-bass.md"
       ]
+    },
+    "Line 6::Helix LT": {
+      "link": "LINE6.md#helix-lt",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": []
     },
     "MOOER::GE100 original": {
       "link": "effects/findings/2026-10-14-mooer-ge100.md",

@@ -213,3 +213,7 @@ consolidation-commit-gt-1000:
 .PHONY: consolidation-commit-gm-800
 consolidation-commit-gm-800:
 	python3 scripts/consolidation_tools.py commit gm-800
+
+.PHONY: research-commit-helix-lt
+research-commit-helix-lt:
+	python3 scripts/research_tools.py commit-helix-lt

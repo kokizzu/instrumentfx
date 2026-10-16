@@ -217,3 +217,38 @@ All earlier HX Effects facts, rounded-dimension provenance, nine-block/128-prese
 ## Other Line 6 records awaiting consolidation
 
 HX Stomp and HX Stomp XL already have research in legacy pages and are not newly discovered models. HX Effects is now root-canonical above. Merge the complete remaining records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Ampero One is already recorded; do not restart that stale cursor. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.
+
+## Helix LT
+
+Guitar/bass multi-effects; checked **2026-10-16**. First pass, not fully verified. The LT-specific manufacturer chart explicitly lists bass amps and bass inputs; this is not inferred from Helix Floor.
+
+| Field | Evidence and limits |
+|---|---|
+| Expression | Built-in treadle; toe switch. One external EXP2 socket shares amp control. [Chart][HLT-C]; [product][HLT-P] |
+| K/F/B | 12 footswitches, plus separate toe; rotary/button totals await direct panel inspection. Indexed manual diagrams are insufficient for a final count. |
+| Display | 6.2-inch 800×480 color LCD; touchscreen unverified. Capacitive footswitches do not establish screen touch. No scribble strips. [KB][HLT-K] |
+| Dimensions / weight | KB:20.87×11.93×3.66 inches,12.5 lb. Chart:20.86×11.87×3.61 inches,12.0 lb. Both published figures retained; reconciliation unresolved. [KB][HLT-K], [chart][HLT-C] |
+| Simultaneous processing / categories | Up to32 DSP-limited blocks; four stereo paths. Chart's **2017** library:50 guitar amps,12 bass amps,37 cabs,16 mics,104 effects; not current firmware totals. Full current category subtotals unresolved. [Chart][HLT-C] |
+| Factory / user / total memory | 1,024 locations,8×128; all overwriteable per indexed RevD manual. Factory-filled subset unresolved. [Chart][HLT-C]; [manual][HLT-M] |
+| Synth / acoustic | Exact current LT algorithms and acoustic-simulation distinctions require firmware/model-list review; unknown. |
+| IR / NAM / captures | Chart:128 mono IR slots,1024/2048 points; simultaneous four1024 or two2048,DSP permitting. Native NAM,converted NAM,proprietary captures unverified. [Chart][HLT-C] |
+| Audio / control I/O | Variable-impedance guitar,Variax; paired quarter-inch/XLR outputs; headphones; two sends/two returns; DIN MIDI in/out-thru; shared L6 LINK/AES-EBU output; USB. No mic input,AUX,EXP3,dedicated S/PDIF. EXP2 shares tip/ring amp-control outputs. Connector-level routing review pending. [Chart][HLT-C]; [KB][HLT-K] |
+| Power / battery / USB power | Internal AC,IEC inlet. Voltage,current,frequency,battery/USB operation unresolved; DC polarity inapplicable to IEC mains. [Chart][HLT-C] |
+| Editor / USB / platforms | HX Edit explicitly supports LT on Windows and macOS; downloads distinguish editor versions3.82 Windows/3.81 Mac. Driver/updater OS requirements need separate review. Chart:8×8 USB audio,USB MIDI,class compliant,iOS audio; iOS editing not established. [Software][HLT-S]; [chart][HLT-C] |
+| Looper / scenes / routing | Chart:half-speed120s mono/60s stereo; eight snapshot switches; parallel routing; per-block trails. Full-speed/current looper,drums and snapshot restrictions require manual review. [Chart][HLT-C] |
+
+### Separate IDR offers
+
+| Condition / evidence | IDR ask and qualification |
+|---|---|
+| Used | Unknown; no condition-verified used offer established. |
+| Retail-style hardware offer | **Rp20.040.000**, Seven Stereo Music & Audio Store,Bandung,item1167670551/shop16879370. [Exact hardware][HLT-O]. Reopened2026-10-16 via cached web extraction with **5–7Sep** delivery text; current stock,checkout,new condition,bundle,warranty region,shipping/tax unconfirmed. Late-delivery voucher up toRp10.000 is compensation,not a price discount. |
+
+Remaining:direct complete manual/control inspection,current firmware/category counts,synth/acoustic details,power ratings,IR formats/capture limits,driver/updater requirements,factory subset and condition-verified used/live retail offers. No software,dependencies or project payloads were downloaded or executed for this record.
+
+[HLT-K]: https://kb.line6.com/helix-lt-comparison
+[HLT-C]: https://kb.line6.com/__attachments/a_a2761f537d297d89a096c84ee7708fb1fda432484a7b5e3886f8b9d36269c408/Comparison_HELIX_LT.pdf?cb=29d5d8b9fb12df962b8061a40302f54d
+[HLT-P]: https://origin.line6.com/helix/helix-lt.html
+[HLT-M]: https://line6.com/data/6/0a020a3f18374611d5dffd3a45/application/pdf/Helix%20LT%203.0%20Owner%27s%20Manual%20-%20Rev%20D%20-%20English%20.pdf
+[HLT-S]: https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set
+[HLT-O]: https://shopee.co.id/Line-6-Helix-LT-Streamlined-HX-Guitar-Processor-i.16879370.1167670551

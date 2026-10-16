@@ -330,6 +330,7 @@ BASS_FOCUSED = ['BOSS::GT-1B','BOSS::GX-1B','BOSS::ME-90B','M-VAVE::TANK-B','M-V
 VOCAL_ONLY = ['Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
 VOCAL_SHARED = ['BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
 BASS_SHARED = {
+    'Line 6::Helix LT':'LT-specific manufacturer comparison chart v1.03 explicitly lists twelve bass amp models and Return1/2 guitar/bass inputs; not sibling inference.',
     'MOOER::GS1000':'Exact manufacturer manual specifies guitar/bass input, ten bass amp models and ten bass cabinet models; regional product confirms bass use.',
     'HeadRush::Prime':'Model-specific manufacturer Prime input/routing and bass library evidence; not inferred from Core.',
     'Audota::AME-200':'Model-specific finding explicitly describes guitar/bass capability.',
