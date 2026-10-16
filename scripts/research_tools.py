@@ -315,7 +315,7 @@ def main():
         if mode == 'commit-perform-ve':
             message = 'research(tc-helicon): verify PERFORM-VE category choices and routing conflicts'
         if mode == 'commit-perform-vg':
-            message = 'research(tc-helicon): verify PERFORM-VG mic control and connector details'
+            message = 'research(tc-helicon): restore PERFORM-VG styles remote rules and offer in comparisons'
         if mode == 'commit-perform-vk':
             message = 'research(tc-helicon): restore PERFORM-VK harmony routing and offer comparison coverage'
         if mode == 'commit-perform-v':

@@ -437,16 +437,17 @@ Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026
 |---|---|---|
 | Expression | Built-in/external/toe expression unverified. Switch-3/6 remote supported;continuous expression not established. | [Manual p13][PVG-M] |
 | K/F/B | **1 / 0 / 14**,text-derived from indexed manual panel:central knob;SET,Tone,Anti-Feedback,BodyRez,48V;vocal Harmony/Reverb/Echo;guitar Chorus/Reverb/Echo;Headphone,Tap,MIX. External switches separate. Screenshot failed;independent visual confirmation pending. | [Manual p9 panel][PVG-PANEL];[official control description p5][PVG-O] |
+| External control / microphone modes | Mic Control requires +48V. Hold48V with guitar Chorus disables it, Reverb selects MP-75, Echo selects MP-76. MP-75 defaults Harmony; MP-76 top Harmony,left vocal Echo,right vocal Reverb,bottom Talk. MP-75 mode on MP-76 uses only top. Switch-3 defaults High/Low/High+Low harmony; Switch-6 adds guitar Chorus/Echo/Boost. MIX mapping gives +6 dB guitar boost; Anti-Feedback mapping inverts guitar phase. These remote buttons do not increase processor K/F/B. | [Official p12][PVG-O]; [Rev1.0 pp10–14][PVG-M] |
 | Display | Segmented colored LED ring used for effect level/style;screen diagonal,color-LCD/touch unverified. | [Manual p6][PVG-M] |
 | Dimensions / mass | Unverified. | Unresolved |
-| Processing / category choices | Vocal Harmony/Reverb/Echo,Adaptive Tone EQ/de-essing/gate/compression,pitch correction,anti-feedback. Guitar BodyRez,Chorus,Echo,Reverb. Reverb style shared across voice/guitar,levels separate;echo styles/levels independent. **13 Harmony choices;3 each Reverb/Echo/Chorus;8 Tone styles** listed below. Full simultaneous accounting pending. | [Official manual p4][PVG-O];[manufacturer-authored Rev1.0 pp5–6][PVG-M] |
+| Processing / category choices | Vocal Harmony/Reverb/Echo,Adaptive Tone EQ/de-essing/gate/compression,pitch correction,anti-feedback. Guitar BodyRez,Chorus,Echo,Reverb. Reverb style shared across voice/guitar,levels separate;echo styles/levels independent. **13 Harmony choices;3 each Reverb/Echo/Chorus;8 Tone styles**. Guitar Chorus choices are Chorus/Flanger/Detune; Reverb Room/Club/Hall; Echo Slap/eighth/quarter. Tone has Normal/Less Bright/Normal+Warmth/More Compression, each with or without gate. Full simultaneous accounting pending. | [Official manual p4][PVG-O];[manufacturer-authored Rev1.0 pp5–6][PVG-M] |
 | Factory / user memory | Total/user/factory preset accounting unverified;do not transfer V/VK three-preset behavior. | Unresolved |
 | Synth / acoustic | BodyRez treats acoustic pickup sound;not proof of electric-to-acoustic simulation. Instrument synth and dedicated acoustic simulation unverified. | [Manual p4][PVG-O] |
 | I/O | Guitar IN/THRU,**XLR MIC OUT**,headphones and **1/8-inch AUX** documented. Switch-3/6 uses TRS cable. Full mic-input/USB/power connector inventory pending. | [Manual pp4,12][PVG-O];[Manual p13][PVG-M] |
 | Power / battery / USB | Official QSG diagram labels supply **12V1A**;supply rating is not measured current draw. DC/polarity,battery and USB power unverified. | [Official QSG v3.0 pp14–15][PVG-Q] |
 | IR / NAM / capture | IR,native/converted NAM and capture import unverified. | Unresolved |
 | Editor / software | Full editor/platforms,USB audio/MIDI and update utilities unverified;do not inherit VK interface. | Unresolved |
-| Looper / drums / live | Guitar THRU initially mutes guitar in processor mix but retains chord detection. MIX guitar-level adjustment restores guitar to MIC OUT while retaining THRU;replug THRU or Guitar IN re-mutes. Anti-feedback filtering is mic-only;guitar phase invert is separate. Unit Talk/Tuner bypasses vocal effects except Tone and mutes guitar;mic-control Talk leaves guitar active without tuner. MIX held5s locks/mutes but preserves AUX playback. Guitar takes chord-detection priority over AUX. AUX exclusion and alternate top-level knob assignments reset with power;details below. Looper/drums/scenes/trails unverified;controller labels alone prove none. | [Official manual p4][PVG-O];[Manual pp11–14][PVG-M] |
+| Looper / drums / live | Guitar THRU initially mutes guitar in processor mix but retains chord detection. MIX guitar-level adjustment restores guitar to MIC OUT while retaining THRU;replug THRU or Guitar IN re-mutes. Anti-feedback filtering is mic-only;guitar phase invert is separate. Unit Talk/Tuner bypasses vocal effects except Tone and mutes guitar;mic-control Talk leaves guitar active without tuner. MIX held5s locks/mutes but preserves AUX playback. Guitar takes chord-detection priority over AUX. Hold Headphone while inserting AUX to exclude it from main output; replug or power resets. Startup Harmony/Headphone/MIX temporarily assigns the knob to harmony/headphone/guitar level; without guitar, guitar-level mode falls back to main level. Prior main level remains; restart in default mode to change it. Looper/drums/scenes/trails unverified;controller labels alone prove none. | [Official manual p4][PVG-O];[Manual pp11–14][PVG-M] |
 
 ### Separate IDR hardware offers
 
@@ -455,11 +456,9 @@ Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026
 | Used | Unknown;condition unconfirmed. | — |
 | New | Unknown;condition unconfirmed. | — |
 
-<!-- comparison evidence ends -->
-
 ### Condition-unverified exact hardware
 
-[DealerJaya item](https://shopee.co.id/Vocal-Processor-TC-Helicon-PERFORM-VG-i.510844912.23623712017),shop510844912/item23623712017,Kota Malang:Rp3,680,000,Habis,shop holiday flag. Checked2026-10-17,two-month index;16–17Aug delivery stale;direct open returned site shell. Condition,variant,bundle/adapter,warranty,working state and current stock unverified. Rp10,000 late-arrival compensation is not discount;shipping/tax/checkout unknown. Other indexed offers retained in ledger,not qualified used/new prices.
+DealerJaya: [exact item](https://shopee.co.id/Vocal-Processor-TC-Helicon-PERFORM-VG-i.510844912.23623712017),shop510844912/item23623712017,Kota Malang:Rp3,680,000,Habis,shop holiday flag. Checked2026-10-17,two-month index;16–17Aug delivery stale;direct open returned site shell. Condition,variant,bundle/adapter,warranty,working state and current stock unverified. Rp10,000 late-arrival compensation is not discount;shipping/tax/checkout unknown. Other indexed offers retained in ledger,not qualified used/new prices.
 
 Official manual direct unavailable. Manufacturer-authored mirror identifies PERFORM-VG/User Manual Rev1.0/2017copyright;title and p4 introduction/routing match official indexed text. Indexed manufacturerCDN p6 independently corroborates LED/style material. Mirror-added Manual-Hub stamps and2023host update are not manufacturer revision dates. No hash/visual certification or local downloads.
 
@@ -498,6 +497,8 @@ Official QSG v3.0,2024copyright,direct PDF opened2026-10-17;supersedes earlier d
 Mic Control requires +48V. Hold48V with guitar Chorus to disable,with guitar Reverb for MP-75,or guitar Echo for MP-76. MP-75 defaults to Harmony and is reassignable;MP-76 defaults top Harmony,left vocal Echo,right vocal Reverb,bottom Talk. MP-75 mode on MP-76 enables only the top button. Remote-accessible functions include harmony/styles,reverb,echo,tap and Talk. [Official user manual p12][PVG-O]. These microphone switches do not increase the processor’s K/F/B count.
 
 USB audio and preset-bank claims found in retailer/mirror summaries remain unverified by manufacturer technical documentation. Service front-test and mainboard-schematic leads were identified but direct access failed;no circuitry-derived claims or device tests were made. The original gaps remain open rather than being converted to No.
+
+<!-- comparison evidence ends -->
 
 ## PERFORM-VE
 
