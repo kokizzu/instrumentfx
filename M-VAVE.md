@@ -710,6 +710,27 @@ These are dated indexed asks, not authenticated stock, checkout prices or a stat
 Next model: **CUBE BABY AC**. Remaining gaps: physical revision/dimensions/battery match, small-port specifications, exact IR file limits, USB audio channel count and active used offers. Do not mistake a fully enumerated first pass for independently tested hardware.
 <!-- MVAVE-CUBEBABY-ELECTRIC source ends -->
 
+### Preserved shared CUBE BABY comparison
+
+Historical2026-10-15 summary,retained separately from current comparison fields. Earlier compact-filter and price wording keeps its original scope;not a new stock/specification verification.
+
+- **Expression** (Hardware, expression and screens): No built-in or external EXP documented
+- **Knobs / footswitches / buttons** (Hardware, expression and screens): 10 / 3 / 0, rear power separate
+- **Display** (Hardware, expression and screens): No screen; LEDs only; touch No
+- **Dimensions / weight** (Hardware, expression and screens): Earlier manual162×61×23 mm, later guide161×57×17.5 mm;260 g; revision conflict
+- **Fixed sound stages** (Processing, memory and loading): Preamp → MOD → delay → reverb → IR; tuner separate
+- **Choices per category** (Processing, memory and loading): 9 preamps,2 MOD,1 delay,1 reverb,8 IRs
+- **Presets** (Processing, memory and loading): **3 factory-filled overwriteable total**, not3+3
+- **Synth / acoustic / loading** (Processing, memory and loading): No synth/acoustic algorithm identified;8 replaceable IRs, exact import limits unresolved; NAM not established
+- **Battery and power evidence** (Connections, power and apps): Earlier600 mAh versus later780 mAh; USB5 V; operation while charging explicitly documented in earlier manual.2 A charger example is not current draw
+- **Software** (Connections, power and apps): **CubeSuite Windows/macOS**, USB preset editing and IR import
+- **Used observation** (Separate IDR evidence): **Rp320.000, Bekas, SOLD OUT**
+- **Retail observation** (Separate IDR evidence): **Rp560.000**, two model-specific Shopee listings
+- **Limitation** (Separate IDR evidence): Used is historical; retail checkout/condition unverified
+- **Commit** (Individual findings commits): `e4a41de58585514c0acb64e8262f269739593eab`
+
+[Complete shared source](effects/cube-baby.md) remains available pending navigation/provenance audits.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->
@@ -778,6 +799,27 @@ The used amount is a separate market/condition observation, not the low end of a
 
 Next model: **CUBE BABY BASS**. Unresolved: current revision/protruding-height confirmation, small-port specifications, IR file constraints, current used availability and exact USB channels. Do not infer electric Cube Baby's amp library or independently simultaneous delay/reverb.
 <!-- MVAVE-CUBEBABYAC source ends -->
+
+### Preserved shared CUBE BABY comparison
+
+Historical2026-10-15 summary,retained separately from current comparison fields. Earlier compact-filter and price wording keeps its original scope;not a new stock/specification verification.
+
+- **Expression** (Hardware, expression and screens): No built-in or external EXP documented
+- **Knobs / footswitches / buttons** (Hardware, expression and screens): 10 / 3 / 0, rear power separate
+- **Display** (Hardware, expression and screens): No screen; LEDs only; touch No
+- **Dimensions / weight** (Hardware, expression and screens): Manual161×57×17.5 mm;260 g; protrusion/revision check pending
+- **Fixed sound stages** (Processing, memory and loading): EQ → compressor → anti-feedback → MOD → SPACE → IR
+- **Choices per category** (Processing, memory and loading): EQ1,COMP1,anti-feedback1 up to8 notches,MOD2,SPACE2,IR8
+- **Presets** (Processing, memory and loading): **3 factory-filled overwriteable total**
+- **Synth / acoustic / loading** (Processing, memory and loading): Acoustic-input/body-IR processing, not verified electric-to-acoustic modeling;8 replaceable IRs; NAM not established
+- **Battery and power evidence** (Connections, power and apps): 780 mAh; USB5 V charging; about6 h runtime/2 h charge rated. AC-specific operation while charging not confirmed
+- **Software** (Connections, power and apps): Same explicitly manufacturer-listed desktop compatibility
+- **Used observation** (Separate IDR evidence): **Rp320.000**, seller says like new, Carousell
+- **Retail observation** (Separate IDR evidence): **Rp520.000** Shopee; separate **Rp524.000 NEW** title
+- **Limitation** (Separate IDR evidence): Separate marketplaces and dated asks, not a guaranteed active range; Rp435.000 sold-out retail kept historical
+- **Commit** (Individual findings commits): `c870347644ba9c7be313c9231fd75284e992375b`
+
+[Complete shared source](effects/cube-baby.md) remains available pending navigation/provenance audits.
 
 ## CUBE BABY BASS
 
@@ -860,6 +902,27 @@ A regulatory model-family declaration groups the versions together, but that doe
 
 Next work: obtain the original Bass PDF/panel and verify its transcription; retain all three new Cube Baby records in their own comparison. Then continue the original BOSS display/IDR review, starting with GT-1000CORE, rather than leaving earlier required columns pending indefinitely.
 <!-- MVAVE-CUBEBABYBASS source ends -->
+
+### Preserved shared CUBE BABY comparison
+
+Historical2026-10-15 summary,retained separately from current comparison fields. Earlier compact-filter and price wording keeps its original scope;not a new stock/specification verification.
+
+- **Expression** (Hardware, expression and screens): None in indexed manual inventory
+- **Knobs / footswitches / buttons** (Hardware, expression and screens): 10 / 3 / 0, power separate
+- **Display** (Hardware, expression and screens): No screen enumerated; touch No
+- **Dimensions / weight** (Hardware, expression and screens): Indexed manual161×57×17.5 mm;260 g; original PDF not obtained
+- **Fixed sound stages** (Processing, memory and loading): Boost → EQ → compressor → MOD → SPACE → IR
+- **Choices per category** (Processing, memory and loading): Boost1,EQ1,COMP1,MOD2,SPACE2,IR8
+- **Presets** (Processing, memory and loading): **3 editable total**; original overwrite details need confirmation
+- **Synth / acoustic / loading** (Processing, memory and loading): Bass cabinet IR processing; no synth/acoustic modeling documented;8 replaceable IRs; NAM not established
+- **Battery and power evidence** (Connections, power and apps): Indexed manual780 mAh/3.7 V; USB5 V charge; original PDF needs verification; operation while charging not independently established
+- **Software** (Connections, power and apps): Same manufacturer-listed desktop compatibility
+- **Used observation** (Separate IDR evidence): **Unknown**
+- **Retail observation** (Separate IDR evidence): Earlier indexed **Rp560.000**
+- **Limitation** (Separate IDR evidence): Later reopening/exact-item searches failed; not a freshly reproduced live offer
+- **Commit** (Individual findings commits): `7c62703c0fe5bd8584deab523840696c1ca0f8dd`
+
+[Complete shared source](effects/cube-baby.md) remains available pending navigation/provenance audits.
 
 ## Evidence and consolidation boundary
 

@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Audota shared-source consolidation",
-    "task": "Audota five-model shared source read completely;67model fields,11cell appendix,10prose/reference groups audited against root documents. Preserve historical scope/nav and exact appendix table. Complete link audit and commit;then audit cube-baby/owned/shopee shared sources and navigation. No source retirement yet.",
+    "model": "CUBE BABY shared-source consolidation",
+    "task": "All42shared summary fields/3distinct variants preserved in root M-VAVE profiles outside current comparison markers;8shared prose/source groups in MULTI-EFFECTS. Verify union/navigation and commit. Next read complete owned-multifx and remaining Shopee shared sources;no source retirement until full audits.",
     "next_models": [],
-    "after_queue": "Continue technical gaps and fresh eligible Shopee discovery;full migration and research remain incomplete."
+    "after_queue": "Continue technical gaps/fresh eligible Shopee discovery;do not relabel historical/provisional/manual-transcription facts as new verification."
   },
   "new_findings": [
     {
@@ -12093,6 +12093,321 @@
         "https://www.headrushfx.com/cloud/index.html"
       ],
       "scope": "Exact15FlexPrimefields/3rows,4qualifications,4URLs preserved. LaterIDRoffersandoriginaltechnicaldatesretainseparatescope;sharedunion/incoming audits pending."
+    },
+    {
+      "models": [
+        "M-VAVE CUBE BABY electric"
+      ],
+      "model_name": "CUBE BABY electric",
+      "brand": "M-VAVE",
+      "destination": "M-VAVE.md#cube-baby-electric",
+      "source": "effects/cube-baby.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "source_sha256": "45f38fc611d8e57338a6e8bce500335ddf7e81eddd8ab83c079315849afc1627",
+      "source_model_aliases": [
+        "Electric CUBE BABY",
+        "Electric"
+      ],
+      "retained_comparison_facts": [
+        {
+          "field": "Expression",
+          "value": "No built-in or external EXP documented",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Knobs / footswitches / buttons",
+          "value": "10 / 3 / 0, rear power separate",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Display",
+          "value": "No screen; LEDs only; touch No",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Dimensions / weight",
+          "value": "Earlier manual162×61×23 mm, later guide161×57×17.5 mm;260 g; revision conflict",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Fixed sound stages",
+          "value": "Preamp → MOD → delay → reverb → IR; tuner separate",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Choices per category",
+          "value": "9 preamps,2 MOD,1 delay,1 reverb,8 IRs",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**3 factory-filled overwriteable total**, not3+3",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic / loading",
+          "value": "No synth/acoustic algorithm identified;8 replaceable IRs, exact import limits unresolved; NAM not established",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Battery and power evidence",
+          "value": "Earlier600 mAh versus later780 mAh; USB5 V; operation while charging explicitly documented in earlier manual.2 A charger example is not current draw",
+          "source": "effects/cube-baby.md",
+          "context": "Connections, power and apps"
+        },
+        {
+          "field": "Software",
+          "value": "**CubeSuite Windows/macOS**, USB preset editing and IR import",
+          "source": "effects/cube-baby.md",
+          "context": "Connections, power and apps"
+        },
+        {
+          "field": "Used observation",
+          "value": "**Rp320.000, Bekas, SOLD OUT**",
+          "source": "effects/cube-baby.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail observation",
+          "value": "**Rp560.000**, two model-specific Shopee listings",
+          "source": "effects/cube-baby.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Limitation",
+          "value": "Used is historical; retail checkout/condition unverified",
+          "source": "effects/cube-baby.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Commit",
+          "value": "`e4a41de58585514c0acb64e8262f269739593eab`",
+          "source": "effects/cube-baby.md",
+          "context": "Individual findings commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;original individual body remains;technical verification partial"
+    },
+    {
+      "models": [
+        "M-VAVE CUBE BABY AC"
+      ],
+      "model_name": "CUBE BABY AC",
+      "brand": "M-VAVE",
+      "destination": "M-VAVE.md#cube-baby-ac",
+      "source": "effects/cube-baby.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "source_sha256": "45f38fc611d8e57338a6e8bce500335ddf7e81eddd8ab83c079315849afc1627",
+      "source_model_aliases": [
+        "CUBE BABY AC",
+        "AC"
+      ],
+      "retained_comparison_facts": [
+        {
+          "field": "Expression",
+          "value": "No built-in or external EXP documented",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Knobs / footswitches / buttons",
+          "value": "10 / 3 / 0, rear power separate",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Display",
+          "value": "No screen; LEDs only; touch No",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Dimensions / weight",
+          "value": "Manual161×57×17.5 mm;260 g; protrusion/revision check pending",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Fixed sound stages",
+          "value": "EQ → compressor → anti-feedback → MOD → SPACE → IR",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Choices per category",
+          "value": "EQ1,COMP1,anti-feedback1 up to8 notches,MOD2,SPACE2,IR8",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**3 factory-filled overwriteable total**",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic / loading",
+          "value": "Acoustic-input/body-IR processing, not verified electric-to-acoustic modeling;8 replaceable IRs; NAM not established",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Battery and power evidence",
+          "value": "780 mAh; USB5 V charging; about6 h runtime/2 h charge rated. AC-specific operation while charging not confirmed",
+          "source": "effects/cube-baby.md",
+          "context": "Connections, power and apps"
+        },
+        {
+          "field": "Software",
+          "value": "Same explicitly manufacturer-listed desktop compatibility",
+          "source": "effects/cube-baby.md",
+          "context": "Connections, power and apps"
+        },
+        {
+          "field": "Used observation",
+          "value": "**Rp320.000**, seller says like new, Carousell",
+          "source": "effects/cube-baby.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail observation",
+          "value": "**Rp520.000** Shopee; separate **Rp524.000 NEW** title",
+          "source": "effects/cube-baby.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Limitation",
+          "value": "Separate marketplaces and dated asks, not a guaranteed active range; Rp435.000 sold-out retail kept historical",
+          "source": "effects/cube-baby.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Commit",
+          "value": "`c870347644ba9c7be313c9231fd75284e992375b`",
+          "source": "effects/cube-baby.md",
+          "context": "Individual findings commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;original individual body remains;technical verification partial"
+    },
+    {
+      "models": [
+        "M-VAVE CUBE BABY BASS"
+      ],
+      "model_name": "CUBE BABY BASS",
+      "brand": "M-VAVE",
+      "destination": "M-VAVE.md#cube-baby-bass",
+      "source": "effects/cube-baby.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "source_sha256": "45f38fc611d8e57338a6e8bce500335ddf7e81eddd8ab83c079315849afc1627",
+      "source_model_aliases": [
+        "CUBE BABY BASS",
+        "Bass"
+      ],
+      "retained_comparison_facts": [
+        {
+          "field": "Expression",
+          "value": "None in indexed manual inventory",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Knobs / footswitches / buttons",
+          "value": "10 / 3 / 0, power separate",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Display",
+          "value": "No screen enumerated; touch No",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Dimensions / weight",
+          "value": "Indexed manual161×57×17.5 mm;260 g; original PDF not obtained",
+          "source": "effects/cube-baby.md",
+          "context": "Hardware, expression and screens"
+        },
+        {
+          "field": "Fixed sound stages",
+          "value": "Boost → EQ → compressor → MOD → SPACE → IR",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Choices per category",
+          "value": "Boost1,EQ1,COMP1,MOD2,SPACE2,IR8",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Presets",
+          "value": "**3 editable total**; original overwrite details need confirmation",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Synth / acoustic / loading",
+          "value": "Bass cabinet IR processing; no synth/acoustic modeling documented;8 replaceable IRs; NAM not established",
+          "source": "effects/cube-baby.md",
+          "context": "Processing, memory and loading"
+        },
+        {
+          "field": "Battery and power evidence",
+          "value": "Indexed manual780 mAh/3.7 V; USB5 V charge; original PDF needs verification; operation while charging not independently established",
+          "source": "effects/cube-baby.md",
+          "context": "Connections, power and apps"
+        },
+        {
+          "field": "Software",
+          "value": "Same manufacturer-listed desktop compatibility",
+          "source": "effects/cube-baby.md",
+          "context": "Connections, power and apps"
+        },
+        {
+          "field": "Used observation",
+          "value": "**Unknown**",
+          "source": "effects/cube-baby.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail observation",
+          "value": "Earlier indexed **Rp560.000**",
+          "source": "effects/cube-baby.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Limitation",
+          "value": "Later reopening/exact-item searches failed; not a freshly reproduced live offer",
+          "source": "effects/cube-baby.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Commit",
+          "value": "`7c62703c0fe5bd8584deab523840696c1ca0f8dd`",
+          "source": "effects/cube-baby.md",
+          "context": "Individual findings commits"
+        }
+      ],
+      "retained_context": [],
+      "retained_source_urls": [],
+      "status": "Complete shared model rows preserved;original individual body remains;technical verification partial"
     }
   ],
   "discovery_leads": [
@@ -18094,6 +18409,114 @@
         ],
         "retirement_authorized": false
       }
+    },
+    "shared_cube_audit": {
+      "date": "2026-10-17",
+      "source": "effects/cube-baby.md",
+      "source_sha256": "45f38fc611d8e57338a6e8bce500335ddf7e81eddd8ab83c079315849afc1627",
+      "complete_source_read": true,
+      "source_retired": false,
+      "remaining_work": "42shared model fields,8prose groups,3reference targets and1manufacturerURL verified.4incoming links/no fragments;9outgoing occurrences resolve. Source retained pending broader navigation/provenance audits;technical/market research remains partial.",
+      "status": "Full shared-source content union verified;source retained",
+      "prose_union": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-cube-union",
+        "source_sha256": "45f38fc611d8e57338a6e8bce500335ddf7e81eddd8ab83c079315849afc1627",
+        "destinations": [
+          "M-VAVE.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "model_records": 3,
+        "model_fields": 42,
+        "paragraph_groups": 8,
+        "external_urls": [
+          "https://www.m-vave.com/download"
+        ],
+        "reference_targets": [
+          "effects/findings/2026-10-15-mvave-cube-baby.md",
+          "effects/findings/2026-10-15-mvave-cube-baby-ac.md",
+          "effects/findings/2026-10-15-mvave-cube-baby-bass.md"
+        ],
+        "source_retired": false
+      },
+      "explicit_link_audit": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-cube-links",
+        "incoming_occurrences": 4,
+        "incoming": [
+          {
+            "source": "M-VAVE.md",
+            "line": 732,
+            "link": "effects/cube-baby.md",
+            "kind": "inline",
+            "target": "effects/cube-baby.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 822,
+            "link": "effects/cube-baby.md",
+            "kind": "inline",
+            "target": "effects/cube-baby.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "M-VAVE.md",
+            "line": 925,
+            "link": "effects/cube-baby.md",
+            "kind": "inline",
+            "target": "effects/cube-baby.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/RESUME.md",
+            "line": 7,
+            "link": "cube-baby.md",
+            "kind": "inline",
+            "target": "effects/cube-baby.md",
+            "fragment": "",
+            "exists": true
+          }
+        ],
+        "outgoing_occurrences": 9,
+        "missing_outgoing": [],
+        "incoming_fragments": [],
+        "headings": [
+          {
+            "line": 1,
+            "heading": "Cube Baby guitar, acoustic and bass multi-effects"
+          },
+          {
+            "line": 7,
+            "heading": "Hardware, expression and screens"
+          },
+          {
+            "line": 17,
+            "heading": "Processing, memory and loading"
+          },
+          {
+            "line": 27,
+            "heading": "Connections, power and apps"
+          },
+          {
+            "line": 39,
+            "heading": "Separate IDR evidence"
+          },
+          {
+            "line": 49,
+            "heading": "Individual findings commits"
+          }
+        ],
+        "limitations": [
+          "Lexical explicit inline/reference/definition links; definition and use are separate occurrences.",
+          "Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.",
+          "No link rewrite, anchor mapping, source deletion or external availability verification."
+        ],
+        "retirement_authorized": false
+      }
     }
   },
   "deferred_work": {
@@ -18177,7 +18600,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Audota shared-source consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume CUBE BABY shared-source consolidation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

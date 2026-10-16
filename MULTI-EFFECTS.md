@@ -191,3 +191,25 @@ The following groups preserve the2026-10-14 original USD observations and source
 - U2: GT-1000CORE [indexed $414.99 ask](https://www.guitarcenter.com/BOSS/Floor-Guitar-Effects.gc?Ntt=%E2%80%8B&page=12) and [indexed $499.99 asks](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc?page=7). These paginated/indexed listings can be stale; availability is not confirmed.
 - U3: GX-10 [item 122596708, $324.99](https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122596708.gc) and [item 122413069, $329.99](https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122413069.gc).
 - [U4: indexed ME-90 $254.99 Good-condition ask](https://www.guitarcenter.com/Used/Boss/?page=60).
+
+### CUBE BABY shared historical qualifications
+
+Preserved2026-10-15 source context. The104-record/17-page checkpoint and200×140mm compact filter below are historical definitions,not current inventory or current compact classification. The three variants retain separate root profiles.
+
+[All comparisons](effects/README.md) · [Scope](effects/SCOPE.md) · [Resume](effects/RESUME.md)
+
+**Reviewed 2026-10-15. Three individually committed records.** These are distinct processing variants, not interchangeable presets of one processor. Read the linked findings for exact sources, prices and limitations.
+
+All listed horizontal envelopes meet the200×140 mm compact filter. Dimension variants must not be combined into a precision fit specification. Screen diagonal/color-screen are N/A, not zero inches or a monochrome LCD. The Bass record is explicitly **provisional manual-transcription evidence**, not a successful original-PDF inspection.
+
+**AC and Bass select delay OR reverb in their shared SPACE block.** Electric has separate delay and reverb stages. MOD differs: electric chorus/phaser, AC chorus/tremolo, Bass chorus/phaser. Cabinet selector OFF is not an extra IR choice. Counting tuner as a utility must not inflate the number of independently usable sound stages.
+
+All three manuals enumerate mono6.35 mm TS input and main output, separate headphone/mobile-recording sockets and USB data/charge. Small-jack dimensions/wiring and USB subtype remain unresolved in the inspected primary text. No microphone/phantom, XLR, FX loop, physical MIDI or EXP connector is established. USB recording/playback and24-bit/48 kHz processing are documented; exact interface channels and IR import limits remain unknown.
+
+The [manufacturer PC compatibility list](https://www.m-vave.com/download) names all three, but its mobile CubeSuite list does not. **Android/iOS editing is not confirmed.** Bluetooth backing-audio reception is not proof of wireless editing. No looper or internal rhythm generator is established in these records.
+
+Exact shop/item IDs, URLs and stock/revision qualifications are in the findings. No currency conversion or estimated percentage-of-new used price. None of these prices proves seller authenticity or a completed sale.
+
+Together with the already-integrated five Audota records, these raise the former96-model checkpoint to **104 integrated active records on17 pages**. Six excluded archives remain separate. This is a count of records, not a claim of exhaustive Shopee stock or complete specification verification.
+
+Original detailed source references: [CUBE BABY electric](effects/findings/2026-10-15-mvave-cube-baby.md) · [CUBE BABY AC](effects/findings/2026-10-15-mvave-cube-baby-ac.md) · [CUBE BABY BASS](effects/findings/2026-10-15-mvave-cube-baby-bass.md).

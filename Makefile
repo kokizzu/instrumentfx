@@ -975,3 +975,15 @@ consolidation-audit-audota-links:
 .PHONY: research-commit-audota-union
 research-commit-audota-union:
 	python3 scripts/research_tools.py commit-audota-union
+
+.PHONY: consolidation-plan-cube-union consolidation-audit-cube-union consolidation-audit-cube-links
+consolidation-plan-cube-union:
+	python3 scripts/consolidation_tools.py plan-cube-union
+consolidation-audit-cube-union:
+	python3 scripts/consolidation_tools.py audit-cube-union
+consolidation-audit-cube-links:
+	python3 scripts/consolidation_tools.py audit-cube-links
+
+.PHONY: research-commit-cube-union
+research-commit-cube-union:
+	python3 scripts/research_tools.py commit-cube-union

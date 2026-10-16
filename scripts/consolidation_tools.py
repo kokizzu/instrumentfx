@@ -1652,11 +1652,13 @@ def audit_floorboard_union():
 
 
 def audit_compact_links(kind='compact'):
-    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota')
+    assert kind in ('compact','nux','bass','vocal','advanced','boss','boss-history','audota','cube')
     """Inventory explicit Markdown links and literal references before source retirement."""
     import urllib.parse
     research_tools.identity()
     source_key = 'effects/'+kind+'.md' if kind in ('bass','vocal','audota') else 'effects/guitar-'+kind+'.md'
+    if kind == 'cube':
+        source_key = 'effects/cube-baby.md'
     if kind == 'advanced':
         source_key = 'effects/advanced-modelers.md'
     if kind == 'boss-history':
@@ -1891,7 +1893,50 @@ def audit_audota_union(verify=True):
         assert not report['normalized_missing_groups'] and not report['missing_reference_targets']
         verify_preserved(state)
 
+
+
+def audit_cube_union(verify=True):
+    research_tools.identity()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    path = 'effects/cube-baby.md'
+    source = (ROOT/path).read_text()
+    assert digest(source) == state['migration']['shared_cube_audit']['source_sha256']
+    destination = (ROOT/'M-VAVE.md').read_text()
+    union = destination+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
+    aliases = {'CUBE BABY electric':{'electriccubebaby','electric'},'CUBE BABY AC':{'cubebabyac','ac'},'CUBE BABY BASS':{'cubebabybass','bass'}}
+    records = {model:[] for model in aliases}
+    for headers,rows,context in comparison_views.tables(source):
+        for row in rows:
+            matched = [m for m,names in aliases.items() if comparison_views.norm(row[0]) in names]
+            assert len(matched) == 1, 'Unmapped Cube Baby row: '+str(row)
+            records[matched[0]] += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
+    assert all(len(facts) == 14 for facts in records.values())
+    reports = []
+    for model,facts in records.items():
+        section = destination.split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
+        reports.append(dict(model=model,facts=facts,missing=[f for f in facts if f['value'] not in section]))
+    refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)',source,re.M)}
+    groups = [p for p in re.split(r'\n\s*\n',source) if p.strip() and not re.match(r'^[#|]',p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
+    normalized = [comparison_views.relink(p,path,refs) for p in groups]
+    targets = [re.search(r'\]\(([^)]+)\)',comparison_views.relink('[source]('+target+')',path,{}))[1] for target in refs.values()]
+    urls = sorted(set(re.findall(r'https?://[^\s)]+',source)))
+    report = dict(source=path,source_sha256=digest(source),records=reports,model_fields=42,paragraph_groups=len(groups),normalized_missing_groups=[p for p in normalized if p not in union],reference_targets=targets,missing_reference_targets=[t for t in targets if t not in union],external_urls=urls,missing_external_urls=[u for u in urls if u not in union],retirement_authorized=False)
+    Path('/tmp/instrumentfx-cube-union-plan.json').write_text(json.dumps(report,indent=2)+'\n')
+    print('Cube Baby shared union:3models/42fields;missingfields='+str(sum(len(r['missing']) for r in reports))+';prosegroups='+str(len(groups))+';missinggroups='+str(len(report['normalized_missing_groups']))+';missingrefs='+str(len(report['missing_reference_targets']))+';missingURLs='+str(len(report['missing_external_urls'])))
+    if verify:
+        assert not any(r['missing'] for r in reports)
+        assert not report['normalized_missing_groups'] and not report['missing_reference_targets'] and not report['missing_external_urls']
+        manifests = [e for e in state['consolidation_and_price_findings'] if e.get('source') == path and e.get('verification_kind') == 'complete-model-rows-v1']
+        assert {e['model_name'] for e in manifests} == set(aliases)
+        verify_preserved(state)
+
 if __name__ == '__main__':
+    if sys.argv[1:] in (['plan-cube-union'], ['audit-cube-union']):
+        audit_cube_union(sys.argv[1] == 'audit-cube-union')
+        raise SystemExit(0)
+    if sys.argv[1:] == ['audit-cube-links']:
+        audit_compact_links('cube')
+        raise SystemExit(0)
     if sys.argv[1:] in (['plan-audota-union'], ['audit-audota-union']):
         audit_audota_union(sys.argv[1] == 'audit-audota-union')
         raise SystemExit(0)
