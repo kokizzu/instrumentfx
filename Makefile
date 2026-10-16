@@ -871,3 +871,15 @@ consolidation-audit-nux-links:
 .PHONY: research-commit-nux-union
 research-commit-nux-union:
 	python3 scripts/research_tools.py commit-nux-union
+
+.PHONY: consolidation-plan-bass-union consolidation-audit-bass-union consolidation-audit-bass-links
+consolidation-plan-bass-union:
+	python3 scripts/consolidation_tools.py plan-bass-union
+consolidation-audit-bass-union:
+	python3 scripts/consolidation_tools.py audit-bass-union
+consolidation-audit-bass-links:
+	python3 scripts/consolidation_tools.py audit-bass-links
+
+.PHONY: research-commit-bass-union
+research-commit-bass-union:
+	python3 scripts/research_tools.py commit-bass-union

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Remaining shared-source consolidation and fresh discovery",
-    "task": "NUX shared-source content union verified;source retained with6incoming links. Next audit other shared source bodies (bass/vocal/advanced-modelers/BOSS etc),continue navigation mapping and fresh Shopee discovery. All-root-canonical counts do not mean complete migration or full specification verification.",
+    "model": "Vocal shared-source consolidation",
+    "task": "Bass shared-source content union verified (105fields,6groups,20 URLs);source retained with13incominglinks. Next read full vocal source and compare root records/shared prose,then other shared sources/navigation and fresh Shopee discovery. Counts do not prove exhaustive coverage or complete migration.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -16459,6 +16459,211 @@
         ],
         "retirement_authorized": false
       }
+    },
+    "shared_bass_audit": {
+      "date": "2026-10-17",
+      "source": "effects/bass.md",
+      "source_sha256": "757f426d9a03ff1fd2fef266c9a2ebecd50a0d0d1254862868dfaa1d130aea11",
+      "complete_source_read": true,
+      "source_retired": false,
+      "remaining_work": "Content union verified:105model fields,6shared groups,20 externalURLs.13incominglinks,nofragments,6resolvingoutgoinglinks. Navigation/shortcut/HTML/code/external references and provenance must be handled before retirement. Other shared sources,technical gaps and fresh discovery remain.",
+      "prose_union": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-bass-union",
+        "source_sha256": "757f426d9a03ff1fd2fef266c9a2ebecd50a0d0d1254862868dfaa1d130aea11",
+        "destinations": [
+          "ZOOM.md",
+          "BOSS.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "paragraph_groups": 6,
+        "external_urls": 20,
+        "model_manifests": 7,
+        "model_fields": 105,
+        "normalization": "Resolve reference links and local paths to root;all other text retained.",
+        "source_retired": false
+      },
+      "explicit_link_audit": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-bass-links",
+        "incoming_occurrences": 13,
+        "incoming": [
+          {
+            "source": "BOSS.md",
+            "line": 31,
+            "link": "effects/bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 91,
+            "link": "effects/bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "BOSS.md",
+            "line": 154,
+            "link": "effects/bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 530,
+            "link": "effects/bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 606,
+            "link": "effects/bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 638,
+            "link": "effects/bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "ZOOM.md",
+            "line": 701,
+            "link": "effects/bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/COVERAGE.history-2026-10-14.md",
+            "line": 15,
+            "link": "bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/README.md",
+            "line": 24,
+            "link": "bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-boss.history-2026-10-14.md",
+            "line": 3,
+            "link": "bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-boss.md",
+            "line": 3,
+            "link": "bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-compact.md",
+            "line": 3,
+            "link": "bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-floorboards.md",
+            "line": 3,
+            "link": "bass.md",
+            "kind": "inline",
+            "target": "effects/bass.md",
+            "fragment": "",
+            "exists": true
+          }
+        ],
+        "outgoing_occurrences": 6,
+        "missing_outgoing": [],
+        "incoming_fragments": [],
+        "headings": [
+          {
+            "line": 1,
+            "heading": "Bass-focused multi-effects"
+          },
+          {
+            "line": 7,
+            "heading": "Hardware, expression, size and prices"
+          },
+          {
+            "line": 9,
+            "heading": "No built-in expression pedal"
+          },
+          {
+            "line": 17,
+            "heading": "Built-in expression pedal"
+          },
+          {
+            "line": 28,
+            "heading": "Processing, memory and loading"
+          },
+          {
+            "line": 42,
+            "heading": "I/O, power, apps and stage features"
+          },
+          {
+            "line": 54,
+            "heading": "Sources"
+          },
+          {
+            "line": 72,
+            "heading": "Multi-instrument alternatives"
+          }
+        ],
+        "unmatched_markdown_literal_mentions": [
+          {
+            "source": "effects/MIGRATION.md",
+            "line": 25
+          },
+          {
+            "source": "effects/cube-baby.md",
+            "line": 61
+          },
+          {
+            "source": "effects/shopee-multifx-7.md",
+            "line": 108
+          }
+        ],
+        "limitations": [
+          "Lexical explicit inline/reference/definition links; definition and use are separate occurrences.",
+          "Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.",
+          "No link rewrite, anchor mapping, source deletion or external availability verification."
+        ],
+        "retirement_authorized": false
+      }
     }
   },
   "deferred_work": {
@@ -16542,7 +16747,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Remaining shared-source consolidation and fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Vocal shared-source consolidation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

@@ -100,3 +100,20 @@ The following groups preserve the2026-10-14 shared source context. Links are nor
 - MG-101 [front](https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771628910&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771628910&width=2400) official images.
 - [MG-400 control image](https://www.nux.us/cdn/shop/files/MG-400_Thumbnails.jpg?v=1756899623&width=800).
 - MG-50Li [front](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400) official images; rear image establishes two XLR outputs and two send/return pairs.
+
+### Historical bass shared-source navigation and evidence context
+
+The following groups preserve the2026-10-14 comparison context and source qualifications. Local links are normalized to repository root. Historical price/indexing statements retain their dates;this is not a fresh stock or hardware check.
+
+[Home](effects/README.md) · [Methodology](effects/METHODOLOGY.md) · [Guitar/multi-instrument alternatives](effects/guitar-floorboards.md) · [Dedicated synth/acoustic effects](effects/specialist.md)
+
+- [B1/B1X official manual](https://zoomcorp.com/documents/129/E_B1FOUR.pdf), printed pp.7 and 60 for controls/specifications. The two small arrow buttons are additional to the two large footswitches.
+- [B2 FOUR official manual](https://zoomcorp.com/manuals/b2four-en/), specifications, memory and USB/app sections; [official control image](https://zoomcorp.com/media/original_images/Hero_1_0EAQFMB.png.768x0_q60_focal_area-825%2C633%2C1650%2C1267.png).
+- [B6 official manual](https://zoomcorp.com/manuals/b6-en/), especially six-effect limit and explicit USB-power exclusion; [official top image](https://zoomcorp.com/media/original_images/01_B6_top.jpg.800x482_q70_crop_size_canvas.jpg).
+- [ME-90B official top image](https://static.roland.com/products/me-90b/image/me-90b_gal_top.jpg), checked against the manufacturer's control list.
+- P1: [Thomann B6 listing and cross-listed comparison prices](https://www.thomannmusic.com/zoom_b6.htm), US-facing USD, tax/shipping excluded; [B1 FOUR](https://www.thomannmusic.com/zoom_b1four_bass_multi_effect.htm), [B2 FOUR](https://www.thomannmusic.com/zoom_b2_four.htm), [ME-90B](https://www.thomannmusic.com/boss_me_90b.htm).
+- P2: [GC BOSS multi-effects catalogue](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc).
+- P3: [Indexed used ME-90B $349.99 listing](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=13), [indexed $399.99 Excellent listing](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=9). The site's unusual category path is retained rather than inventing an item URL.
+- P4: [GC BOSS bass catalogue](https://www.guitarcenter.com/BOSS/Bass-Effects-Pedals.gc).
+
+Bass is not restricted to products labelled “bass” on the enclosure. The sourced [Valeton GP-100/150/180](effects/guitar-compact.md), [BOSS GX-10/GT-1000/GT-1000CORE](effects/guitar-boss.md), and other multi-instrument processors have documented bass-related processing. Compare input headroom, dry blend, DI output, parallel routing and low-end retention rather than assuming every guitar preset is appropriate for bass.
