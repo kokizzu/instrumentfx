@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 88,
-  "legacy_only_model_count": 38,
+  "canonical_root_model_count": 89,
+  "legacy_only_model_count": 37,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -31,7 +31,7 @@
     "model": "Fresh Shopee discovery — no model selected",
     "task": "Continue fresh Shopee discovery by brand/series, lossless legacy consolidation and unresolved-field research; use current counts.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 38 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 37 legacy-only models."
   },
   "new_findings": [
     {
@@ -4816,6 +4816,117 @@
         "effects/shopee-multifx-5.md"
       ],
       "status": "Consolidated; technical verification remains partial"
+    },
+    {
+      "models": [
+        "Hotone Ampero II Stomp MP-300"
+      ],
+      "model_name": "Ampero II Stomp MP-300",
+      "brand": "Hotone",
+      "destination": "HOTONE.md#ampero-ii-stomp-mp-300",
+      "source": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "HOTONE-AMPERO-MP300",
+      "source_sha256": "28a59b4051f3fdf185e2d57827de975d04f0e0ff7bb0c54cd88a48b04b2737f0",
+      "renamed_references": [],
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "One TRS EXP/CTRL socket, not two",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "5/3/1",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Body and weight",
+          "value": "**185 W×145 D×58 H mm;1050 g;medium**",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Display",
+          "value": "**4-inch,800×480,color touchscreen**",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "No built-in expression"
+        },
+        {
+          "field": "Processing and available choices",
+          "value": "**12 slots,16 module types**,DSP-limited dual serial/parallel chains;460 specification versus400+ marketing;87 amps,68 cabs,100+ modeled pedals/60+ originals overlap",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Blocks, categories and presets"
+        },
+        {
+          "field": "Preset storage",
+          "value": "**300 editable**,100×3; old99 factory-fill statement not certified current;3 scenes",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Blocks, categories and presets"
+        },
+        {
+          "field": "Synth / acoustic simulation",
+          "value": "Exact algorithms ?; acoustic-input mode alone is not simulation",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Blocks, categories and presets"
+        },
+        {
+          "field": "IR / capture support",
+          "value": "**50 user IRs**,1024/2048,mono24-bit44.1;20 Celestion supplied;**native NAM A2 Lite FW2.5.0+**,earlier Sound Clone conversion/capture separate",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "IR, NAM, power and software"
+        },
+        {
+          "field": "Power",
+          "value": "**9–18 V center-negative;800 mA max at9 V**;USB/battery ?",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "IR, NAM, power and software"
+        },
+        {
+          "field": "Configuration / USB audio",
+          "value": "Win/Mac full editor;USB8×8,reamp;mobile full editor not established forMP-300",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "IR, NAM, power and software"
+        },
+        {
+          "field": "Audio/control connections",
+          "value": "TwoTS inputs;stereoTRS loop;two balanced quarter-inch main outs;3.5 phones/aux;DIN MIDI pair;USB-C;oneEXP",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Connections and practical differences"
+        },
+        {
+          "field": "Looper / additional functions",
+          "value": "60 s stereo;three scenes;drums inV2 manual,pattern count ?;noXLR/mic/phantom",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Connections and practical differences"
+        },
+        {
+          "field": "Used evidence",
+          "value": "?",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Retail evidence / qualification",
+          "value": "**Rp9.090.000**,Seven Stereo,indexed August cache;reopenedJS shell",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Commit",
+          "value": "`117a5aaa2e58a39fb9e2160ed68f09e9f8f617ea`",
+          "source": "effects/shopee-multifx-7.md",
+          "context": "Individual findings commits"
+        }
+      ],
+      "link_normalizations": {},
+      "supporting_sources": [
+        "effects/shopee-multifx-7.md"
+      ],
+      "status": "Consolidated; technical verification remains partial"
     }
   ],
   "discovery_leads": [
@@ -5070,7 +5181,8 @@
       "Ampero Mini MP-50",
       "Ampero MP-100",
       "Ampero II MP-350",
-      "Ampero II Stage MP-380"
+      "Ampero II Stage MP-380",
+      "Ampero II Stomp MP-300"
     ],
     "LINE6.md": [
       "POD Go",
@@ -5199,7 +5311,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "38 legacy-only models remain;88 root-canonical. Full migration and research incomplete.",
+    "warning": "37 legacy-only models remain;89 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -5269,8 +5381,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 88,
-    "legacy_only_models": 38,
+    "canonical_root_models": 89,
+    "legacy_only_models": 37,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -5856,10 +5968,9 @@
       ]
     },
     "Hotone::Ampero II Stomp MP-300": {
-      "link": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+      "link": "HOTONE.md#ampero-ii-stomp-mp-300",
       "source_files": [
-        "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
-        "effects/shopee-multifx-7.md"
+        "HOTONE.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md"

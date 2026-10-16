@@ -261,3 +261,11 @@ consolidation-apply-ampero-mp380:
 	python3 scripts/consolidation_tools.py apply ampero-mp380
 consolidation-commit-ampero-mp380:
 	python3 scripts/consolidation_tools.py commit ampero-mp380
+
+.PHONY: consolidation-plan-ampero-mp300 consolidation-apply-ampero-mp300 consolidation-commit-ampero-mp300
+consolidation-plan-ampero-mp300:
+	python3 scripts/consolidation_tools.py plan ampero-mp300
+consolidation-apply-ampero-mp300:
+	python3 scripts/consolidation_tools.py apply ampero-mp300
+consolidation-commit-ampero-mp300:
+	python3 scripts/consolidation_tools.py commit ampero-mp300
