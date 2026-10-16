@@ -292,7 +292,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-tonelab-le':
-            message = 'research(vox): add ToneLab LE and retain manual weight conflict'
+            message = 'research(vox): verify ToneLab LE controls output routing and MIDI backup'
         if mode == 'commit-ax1500g':
             message = 'research(korg): enumerate AX1500G blocks and verify volatile phrase storage'
         if mode == 'commit-rp255':

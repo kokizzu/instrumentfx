@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "VOX ToneLab LE primary follow-up",
-    "task": "Initial LE exact secondhand offer and manufacturer-manual identity saved. Next enumerate controls, complete I/O and power/live restrictions; retain J2/E1 weight conflict. Commit before researching ST/SE discovery leads.",
+    "task": "12/7/17 text-derived controls and output/live/MIDI backup constraints saved. Next verify Hold Delay recording behavior and editor/platform documentation; retain weight conflict and unknown fields, then pursue saved ST/SE hardware leads. Commit before another model.",
     "next_models": [],
-    "after_queue": "Continue fresh Shopee discovery; no exhaustive market coverage claim."
+    "after_queue": "Fresh Shopee discovery remains necessary."
   },
   "new_findings": [
     {
@@ -2513,7 +2513,35 @@
         "editor platforms",
         "looper/drums/trails",
         "weight conflict"
-      ]
+      ],
+      "controls_routing_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf",
+        "pages": "12–23",
+        "controls": {
+          "rotary": 12,
+          "footswitch": 7,
+          "buttons": 17,
+          "basis": "Text enumeration;pedal andSTANDBYadditional;visualpending"
+        },
+        "resolved": [
+          "Shared main/headphone level;phones do not mute outputs",
+          "Output destination and EQ conditions",
+          "Preselected bank keeps current sound",
+          "Valve warmup and key lock",
+          "SysEx external backup and separate optical output level"
+        ],
+        "remaining": [
+          "visual controls/display",
+          "connector sizes",
+          "full block accounting",
+          "current editor platforms",
+          "device power draw/battery",
+          "imports",
+          "looper/drums/trails",
+          "J2/E1 mass conflict"
+        ]
+      }
     }
   ],
   "consolidation_and_price_findings": [
