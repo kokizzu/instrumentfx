@@ -172,7 +172,7 @@ def main():
         if mode == 'commit-pe100':
             message = 'research(mooer): add PE100 portable multi-effects with qualified Shopee evidence'
         if mode == 'commit-g3n':
-            message = 'research(zoom): add G3n with exact sold-out offers and model-specific distinctions'
+            message = 'research(zoom): resolve G3n acoustic patches rhythm memory and looper limits'
         if mode == 'commit-g5n':
             message = 'research(zoom): establish G5n acoustic simulation and qualify synth-style presets'
         if mode == 'commit-g3xn':
