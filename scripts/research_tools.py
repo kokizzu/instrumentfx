@@ -278,7 +278,7 @@ def main():
         if mode == 'commit-ms60b':
             message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-me80':
-            message = 'research(boss): add ME-80 with model-specific architecture and qualified Shopee ask'
+            message = 'research(boss): resolve ME-80 buttons battery mass and loop erasure'
         if mode == 'commit-b1on':
             message = 'research(zoom): add B1on with original-model conflicts and qualified sold-out ask'
         if mode == 'commit-ms60bplus':

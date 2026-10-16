@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Cross-brand discovery after BOSS ME-80",
-    "task": "ME-80 partial record saved; continue fresh Shopee Indonesia discovery by brand/series or resolve manufacturer gaps; commit each model before next.",
+    "task": "ME-80 hardware andloop-erasure followup saved. Continue fresh Shopee Indonesia brand/series discovery or unresolved manufacturer fields; commit each model before next.",
     "next_models": [],
     "after_queue": "DigiTech RP360 and MOOER GE300 Lite initial queries did not establish exact Indonesian Shopee offers; foreign-region hits do not prove local availability or absence."
   },
@@ -1225,7 +1225,8 @@
         "https://support.roland.com/hc/en-us/articles/201978459-ME-80-Recommended-Power-Adapter",
         "https://support.roland.com/hc/en-us/articles/115005533006-ME-80-Connecting-to-Computer",
         "https://support.roland.com/hc/en-us/articles/24300263324955-ME-80-Does-the-audio-signal-input-to-the-AUX-IN-jack-output-through-the-USB",
-        "https://support.roland.com/hc/en-us/articles/4404885594779-ME-80-Can-I-save-to-the-unit-the-phrase-I-created-with-Phrase-Loop"
+        "https://support.roland.com/hc/en-us/articles/4404885594779-ME-80-Can-I-save-to-the-unit-the-phrase-I-created-with-Phrase-Loop",
+        "https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-80_PL.pdf"
       ],
       "offers": [
         {
@@ -1245,18 +1246,26 @@
         "Training guide COMP/FX1 overview eleven versus nine-item end list; indexed manual eleven including Ring Mod/AC SIM"
       ],
       "unresolved": [
-        "button count",
         "full manual category reconciliation",
         "factory-filled user count",
         "display details",
-        "weight battery basis",
         "power voltage/polarity/USB",
         "IR/NAM/capture",
         "dedicated synth",
         "drums/scenes/looper limits",
         "current OS compatibility",
         "qualified used/new offers"
-      ]
+      ],
+      "resolved_followup": {
+        "checked_date": "2026-10-17",
+        "source": "Official Polish ME-80 manual,Copyright2013 BOSS",
+        "facts": [
+          "4 panel buttons EXIT/WRITE/CTL/EDIT p2",
+          "3.6kg includes batteries p19",
+          "Stopping playback,changing DELAY selector or powering off erases loop;doubletap within1s p15"
+        ],
+        "limitations": "Polish translation; English multilingual PDF too large for browser; no firmware-specific change inferred"
+      }
     }
   ],
   "consolidation_and_price_findings": [

@@ -225,7 +225,7 @@ Original sources: [source](https://www.boss.info/global/products/ve-1/specificat
 [VE1-S]: https://www.boss.info/global/products/ve-1/specifications/
 [VE1-M]: https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf
 
-USB/control details checked in manufacturer-authored Spanish manual;English support link currently exposes a download agreement without PDF link in retrieved text. No software installed.
+USB/control details checked in manufacturer-authored Spanish manual;English support link currently exposes a download agreement without PDF link in retrieved text. Official Polish manual (Copyright2013 BOSS,ME-80 model-specific panels andspecifications) is accessible in-browser and resolves controls,weight andloop-erasure details. No software installed.
 
 ### VE-1 — separate IDR asking-price evidence
 
@@ -1558,9 +1558,9 @@ Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verificati
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression / K/F/B | Built-in expression with toe switch;30 knobs/8 main footswitches/separate button count unverified. Toe toggles foot volume/Pedal FX and is additional to8. No external expression socket in published port inventory. | [ME80-PR][ME80-PR] [ME80-S][ME80-S] |
+| Expression / K/F/B | Built-in expression with toe switch;30 knobs/8 main footswitches/4 panel buttons (EXIT,WRITE,CTL,EDIT). Toe toggles foot volume/Pedal FX and is additional to8. No external expression socket in published port inventory. | [ME80-PR][ME80-PR] [ME80-S][ME80-S] [ME80-PL][ME80-PL] p2 |
 | Display | Two-digit seven-segment LED;diagonal,color/touch specifications unpublished here. Do not borrow ME-90 display details. | [ME80-S][ME80-S] |
-| Dimensions / weight / size | 447W×231D×70H mm;maximum height91mm;3.6kg,battery inclusion unqualified on inspected specs. Large footprint. | [ME80-S][ME80-S] |
+| Dimensions / weight / size | 447W×231D×70H mm;maximum height91mm;3.6kg including batteries per Polish manual;product specs omit the battery qualification. Large footprint. | [ME80-S][ME80-S] [ME80-PL][ME80-PL] p19 |
 | Simultaneous processing / categories | Eight simultaneous categories;NS additionally documented as global. PREAMP9,OD/DS11,MOD11,DELAY11 selector positions including Phrase Loop,EQ/FX2 six,REVERB3,PEDAL FX10. Training overview says COMP/FX1 eleven but its end list only enumerates nine;owner manual lists eleven including RING MOD and AC SIM. These are choices,not freely assignable blocks. | [ME80-T][ME80-T] [ME80-M][ME80-M] [ME80-CHAIN][ME80-CHAIN] |
 | Memory | 36 permanent factory presets plus36 user locations=72;factory-filled user subset not established. Manual mode individual effects;Memory mode whole patches. | [ME80-MEM][ME80-MEM] |
 | Synth / acoustic | AC SIM converts electric guitar toward acoustic sound in COMP/FX1;separate AC preamp serves acoustic/electric guitar. Ring modulation,Overtone,Freeze andVoice pedal effects documented;dedicated guitar-synth engine unverified. Synth-style demo titles alone do not establish one. | [ME80-M][ME80-M] [ME80-PR][ME80-PR] [ME80-T][ME80-T] |
@@ -1569,7 +1569,7 @@ Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verificati
 | USB audio / MIDI | Audio recording/playback andMIDI documented. Driver required for supportedOS;Win10/11 driver auto-install needsinternet. USB LEVEL,direct monitor,loopback,dry-record settings available. AUX input does not reachUSB output. | [ME80-USB][ME80-USB] [ME80-AUX][ME80-AUX] |
 | Editor / software | BOSS Tone Studio patch editing/organizing onWindows/macOS;listed versions1.1.3Windows/1.1.2Mac. Support procedure requiresAdobeAIR. Driver is separate;exactcurrentOS compatibility needsversion-specific review. No mobileeditor established. | [ME80-P][ME80-P] [ME80-USB][ME80-USB] |
 | IR / NAM / capture | User IR import,nativeNAM,convertedNAM andproprietary capture loading not established. COSM factory amp/cab simulation does not prove any import capability. | Unresolved |
-| Looper / rhythms / scenes | PhraseLoop38s inDELAY selector,unlimited overdubs;delaypedal records/plays/overdubs,doubletapstops. Loops cannot be saved onunit. Undo,stereo limits,trails,drums andsnapshot-style scenes unverified. | [ME80-T][ME80-T] [ME80-LOOP][ME80-LOOP] |
+| Looper / rhythms / scenes | PhraseLoop38s inDELAY selector,unlimited overdubs;delaypedal records/plays/overdubs,doubletapstops. Loops cannot be saved onunit. Polish manual p15 says stopping playback,changing DELAY type or powering off erases the recording;doubletap interval within1s. Undo,stereo limits,trails,drums andsnapshot-style scenes unverified. | [ME80-T][ME80-T] [ME80-LOOP][ME80-LOOP] [ME80-PL][ME80-PL] |
 | Routing / live | Category order fixed:COMP/FX1→OD/DS→PREAMP→PedalFX(off)→MOD→EQ/FX2→DELAY→REVERB;activatedPedalFX moves beforeOD/DS. NS global. Taptempo andchromatic tuner documented. | [ME80-CHAIN][ME80-CHAIN] [ME80-T][ME80-T] |
 
 ### ME-80 — separate IDR asking-price evidence
@@ -1579,7 +1579,7 @@ Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verificati
 | Used | Unknown;no condition-verified used IDR offer established. | — |
 | Retail-style;condition unverified / Awlind Music Official,Kota Bandung | Rp4,992,000 indexed asking price,checked2026-10-17;cache approximately2months old with3–8August delivery. Stock,selected variant,bundle/adapter,warranty region,shipping,tax,voucher anddeliveredtotal unverified. Rp10,000 late-delivery compensation is not a product discount. Seller name does not authenticate the store. Not a verified new-condition orlive-stock price. | [78230612 /2847274757](https://shopee.co.id/ALAT-MUSIK-Boss-ME-80-Multi-Effects-Pedal-i.78230612.2847274757) |
 
-Remaining:separate button count,full manual category reconciliation,user preset initialization,display details,weight battery basis,power voltage/polarity/USB,import capabilities,dedicated synth,rhythm/scenes/looper details,currenteditor compatibility andqualifiedused/newoffers. Official multilingual manual open exceeded browser file-size limit;indexed manufacturer text inspected without saving a file. No software installed.
+Remaining:full manual category reconciliation,user preset initialization,display details,power voltage/polarity/USB,import capabilities,dedicated synth,rhythm/scenes/looper details,currenteditor compatibility andqualifiedused/newoffers. Official multilingual manual open exceeded browser file-size limit;indexed manufacturer text inspected without saving a file. No software installed.
 
 [ME80-P]: https://www.boss.info/us/products/ME-80/
 [ME80-S]: https://www.boss.info/fi/products/me-80/
@@ -1592,3 +1592,4 @@ Remaining:separate button count,full manual category reconciliation,user preset 
 [ME80-USB]: https://support.roland.com/hc/en-us/articles/115005533006-ME-80-Connecting-to-Computer
 [ME80-AUX]: https://support.roland.com/hc/en-us/articles/24300263324955-ME-80-Does-the-audio-signal-input-to-the-AUX-IN-jack-output-through-the-USB
 [ME80-LOOP]: https://support.roland.com/hc/en-us/articles/4404885594779-ME-80-Can-I-save-to-the-unit-the-phrase-I-created-with-Phrase-Loop
+[ME80-PL]: https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-80_PL.pdf
