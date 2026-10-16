@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 126,
+  "active_model_count": 127,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 126,
+  "canonical_root_model_count": 127,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Full root migration audit and fresh discovery",
-    "task": "All126 recorded models now have root-brand records; audit complete legacy-source preservation, incoming links, comparison field coverage and root layout against the full objective. Do not equate canonical count with verified specs or completed migration. Identify uncovered bodies/URLs/fields, repair omissions, then continue fresh Shopee discovery by brand/series and unresolved primary-field research one model per commit. Keep six excluded records and ownership boundaries.",
+    "task": "PE100 added and must not be duplicated. Continue fresh Shopee brand/series discovery, primary unresolved-field research one model per commit, and full legacy preservation/prose extraction audit. Counts do not establish completion.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -224,6 +224,27 @@
         "complete current effect category counts",
         "published diagonal/touch",
         "qualified live used/new stock"
+      ]
+    },
+    {
+      "model": "MOOER PE100",
+      "path": "MOOER.md#pe100",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "research(mooer): add PE100 portable multi-effects with qualified Shopee evidence",
+      "sources": [
+        "https://www.mooeraudio.com/product/PE100-166.html",
+        "https://cn.mooeraudio.com/product/PE100-166.html",
+        "https://mooer.jp/products/mooerpe100",
+        "https://manualsnet.com/mooer/pe100",
+        "https://shopee.co.id/Efek-Gitar-MOOER-PE100-Multi-Effects-Processors-Pedal-Guitar-PE-100-i.19700013.20865647747"
+      ],
+      "unresolved": [
+        "98/99 factory conflict",
+        "published display diagonal/color/touch",
+        "battery runtime",
+        "editor/import support",
+        "condition-qualified current IDR stock"
       ]
     }
   ],
@@ -9779,7 +9800,8 @@
       "GE1000 Li",
       "GE250",
       "GE300",
-      "GS1000"
+      "GS1000",
+      "PE100"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -9895,7 +9917,8 @@
       "GE150 Max",
       "GE150 Max Li",
       "GE1000",
-      "GE1000 Li"
+      "GE1000 Li",
+      "PE100"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -10033,7 +10056,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 106,
+      "record_count": 107,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -10063,10 +10086,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons:106 guitar,58 documented bass-capable,17 vocal; complete legacy preservation and incoming-link audit remain unfinished.",
+    "root_category_and_instrument_views": "Four-table comparisons:107 guitar,58 documented bass-capable,17 vocal; complete legacy preservation and incoming-link audit remain unfinished.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "0 legacy-only models remain;126 root-canonical. Full migration and research incomplete.",
+    "warning": "0 legacy-only models;127 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -10135,10 +10158,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 126,
-    "canonical_root_models": 126,
+    "unique_brand_model_pairs": 127,
+    "canonical_root_models": 127,
     "legacy_only_models": 0,
-    "guitar_view_models": 106,
+    "guitar_view_models": 107,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
     "vocal_view_models": 17,
@@ -10235,6 +10258,7 @@
       "MOOER::GE250",
       "MOOER::GE300",
       "MOOER::GS1000",
+      "MOOER::PE100",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -11000,6 +11024,13 @@
       ],
       "finding_files": []
     },
+    "MOOER::PE100": {
+      "link": "MOOER.md#pe100",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
     "M-VAVE::TANK-G": {
       "link": "M-VAVE.md#tank-g",
       "source_files": [
@@ -11518,5 +11549,13 @@
       "site:shopee.co.id Valeton GP-200X"
     ],
     "result": "No exact GS1000 Li hardware lead returned. GP-200X exact hardware offers found; official shared-feature statement supports variant within existing GP-200 record. Counts unchanged; absence of another exact lead is not market coverage."
+  },
+  "discovery_search_pass_20261017_pe100": {
+    "queries": [
+      "site:shopee.co.id Mooer GE200 Plus",
+      "site:shopee.co.id Mooer PE100",
+      "site:shopee.co.id PE100 Bekas"
+    ],
+    "result": "Exact PE100 hardware item19700013/20865647747 accepted; sold-out Rp749500 unclassified condition retained. No exact GE200 Plus or used PE100 offer established; search absence is not unavailability."
   }
 }

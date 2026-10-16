@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. All eighteen recorded MOOER models have root records below; technical verification and market discovery remain incomplete. Original legacy sources are retained. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. All nineteen recorded MOOER models have root records below; technical verification and market discovery remain incomplete. Original legacy sources are retained. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -1337,3 +1337,41 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Unresolved marketplace evidence** (Separate IDR evidence): Exact Indonesian Shopee item not established in this pass; Thai results excluded. Nafiri same-price page has contradictory stock markers
 
 Sources: [effects/findings/2026-10-15-mooer-ge1000-li.md](effects/findings/2026-10-15-mooer-ge1000-li.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+
+## PE100
+
+Portable desktop guitar multi-effects; first pass checked **2026-10-17**. Separate from GE100 and ordinary single-function pedals. Bass suitability is unresolved; no vocal processing claim. No ownership is inferred from discovery.
+
+<!-- comparison evidence begins -->
+| Required field | Model-specific evidence / qualification |
+|---|---|
+| Expression | No built-in treadle; external EXP/toe control not established in the documented connector inventory. Auto-wah does not imply a pedal input. [PE-P][pe-p], [PE-M][pe-m] |
+| Controls: knobs / footswitches / buttons | **3 / 0 / 8 touch-panel controls** from manual panel inventory: MODE, VALUE and master volume rotaries; SAVE, RHYTHM, TUNER, TAP and A–D. VALUE press counted once. Eight touch controls are separate from the LCD; not eight footswitches. [PE-M][pe-m] |
+| Display | LCD; numerical diagonal, pixel resolution and explicit color/monochrome specification **?**. Manual provides brightness/inversion. **Touch-panel operation is not proof of a touchscreen LCD**. [PE-M][pe-m], [PE-J][pe-j] |
+| Dimensions / weight | **137 ×81 ×32 mm;230 g**, manufacturer's axis order unlabelled; battery inclusion in mass unverified. Small desktop unit. [PE-P][pe-p] |
+| Simultaneous blocks / category choices | **Six simultaneous**, one selection per block: wah2,drive/distortion10,amp7,modulation11,delay5,reverb4; **39 types**, not39 simultaneous. [PE-C][pe-c], [PE-P][pe-p] |
+| Factory / user memory | **99 factory +99 user =198 addressed presets** in manual and Japanese page. Global page contradicts itself: headline99 factory, subordinate bullet98. Four quick-recall assignments are shortcuts, not four extra full-memory slots. [PE-M][pe-m], [PE-P][pe-p], [PE-J][pe-j] |
+| Synth / acoustic | Manual lists **ACOUSTIC** in drive category as an acoustic-guitar pedal. Acoustic simulation exists; exact algorithm detail **?**. Dedicated synth engine not established; preset names alone are insufficient. [PE-M][pe-m] |
+| Audio/control ports | Mono6.35mm instrument input and output; stereo3.5mm headphones and aux input; DC input. No USB, MIDI, XLR, FX-loop or expression connector appears in the model-specific inventory. Computer connection wording describes analog output, not USB audio. [PE-P][pe-p] |
+| Power / battery / USB | **9V DC,300mA,center-negative**; **two AAA batteries** supported. Battery runtime, measured draw and rechargeable-cell compatibility **?**. USB bus power not established; no USB port listed. [PE-J][pe-j], [PE-M][pe-m] |
+| IR / native NAM / converted NAM / captures | User IR, native NAM, converted NAM and proprietary capture import are each **not established**. Amp modeling alone proves none of them. |
+| Editor / recording | On-device editing. Desktop/mobile editor, updater and driver support **?**. Analog recording needs external equipment; USB audio not established. [PE-P][pe-p], [PE-M][pe-m] |
+| Looper / drums / scenes / routing | **40 drum patterns,10 metronomes**, tap tempo and tuner; four quick recalls. Looper and scenes **?**. Six-category chain is not evidence of arbitrary parallel routing. [PE-P][pe-p], [PE-C][pe-c] |
+| Used IDR evidence | **?** — no exact condition-qualified used offer established in this pass; no inferred discount. |
+| Retail / historical IDR evidence | **Rp749.500**, [MICKEY MOUSE SHOP,shop19700013/item20865647747](https://shopee.co.id/Efek-Gitar-MOOER-PE100-Multi-Effects-Processors-Pedal-Guitar-PE-100-i.19700013.20865647747). **Habis**, shop on holiday, Kota Jakarta Utara. Page retrieved2026-10-17 with stale1–4Sep delivery. Condition/new status, bundle, warranty region, checkout stock, shipping/taxes and payable total unverified. Late-delivery voucher up toRp10.000 is compensation, not an extra hardware discount. Historical unclassified ask; not live stock or completed sale. |
+<!-- comparison evidence ends -->
+
+### PE100 sources and unresolved work
+
+[pe-p]: https://www.mooeraudio.com/product/PE100-166.html
+[pe-c]: https://cn.mooeraudio.com/product/PE100-166.html
+[pe-j]: https://mooer.jp/products/mooerpe100
+[pe-m]: https://manualsnet.com/mooer/pe100
+
+- [PE-P: global manufacturer page][pe-p]; opened and read. Contains internal factory-count conflict.
+- [PE-C: Chinese manufacturer page][pe-c]; indexed text confirms six simultaneous blocks, one choice each and center-negative power. Direct access returned403; indexed observation retained as such.
+- [PE-J: manufacturer-linked Japanese regional page][pe-j]; global site links mooer.jp. Exact PE100 confirms battery/power and99+99 memory; no currency conversion used.
+- [PE-M: manufacturer-authored PE100 manual,20-page English transcription][pe-m]; exact rear ART NO PE100, matching connector/layout, contents and specification sections establish model identity. Revision/date not printed in retrieved transcription. Only manual text used, not generated FAQs. Sections read: panel, editing/saving, system settings, batteries, effects and specifications. No local PDF download or device execution.
+- Official page exposes an English-manual filename without a usable PDF link in retrieved text. [Candidate V02 mirror](https://jam.ua/files/files/PE100%20_Manual_EN_V02.pdf) returned cache miss; its revision was not used as evidence.
+
+Remaining: published LCD size/color/touch specification, explicit negative capability statements, full model-list reconciliation, runtime/current measurement context, editor/import verification and condition/stock-qualified new/used offers. Unknown is not No. Six blocks establish eligibility without floor operation or amp-capture support.

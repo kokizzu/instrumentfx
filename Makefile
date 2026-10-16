@@ -589,3 +589,7 @@ comparison-test-extraction:
 .PHONY: research-commit-field-extraction
 research-commit-field-extraction:
 	python3 scripts/research_tools.py commit-field-extraction
+
+.PHONY: research-commit-pe100
+research-commit-pe100:
+	python3 scripts/research_tools.py commit-pe100
