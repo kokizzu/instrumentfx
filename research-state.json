@@ -28,10 +28,15 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee hardware discovery",
-    "task": "Acoustic Mini regional follow-up saved; unresolved panel/code/IO retained. Search remaining Dapper Indie/Dark or other under-covered brand/series for exact hardware leads.",
-    "next_models": [],
-    "after_queue": "Continue model-specific verification and fresh market discovery."
+    "model": "Valeton Dapper Dark VES-3",
+    "task": "Verify exact full-size manufacturer product/manual using saved discovery_strips_followup. Keep Dark Mini separate. Commit model before next.",
+    "next_models": [
+      "Tech 21 Fly Rig 5 v2",
+      "Sonicake Black Hammer",
+      "Tech 21 RK5 exact revision pending",
+      "Valeton Dapper Dark Mini"
+    ],
+    "after_queue": "Resolve Dapper Indie storefront item;continue fresh Shopee discovery."
   },
   "new_findings": [
     {
@@ -22161,6 +22166,76 @@
       "bundle_variant": "Unknown;adapter/warranty/variant not verified",
       "qualified_live_stock": false,
       "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
+    },
+    {
+      "model": "Valeton Dapper Dark VES-3",
+      "url": "https://shopee.co.id/VALETON-DAPPER-DARK-VES-3-Guitar-Multi-Efek-5in1-Efek-Pedal-i.362117058.24908463001",
+      "shop": "362117058",
+      "item": "24908463001",
+      "seller": "GhiNAda Music",
+      "region": "Bandung",
+      "idr": 2285000,
+      "stock": "unknown",
+      "cache": "month-old search result;direct cache miss",
+      "checked_date": "2026-10-17",
+      "condition": "unknown",
+      "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
+      "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
+      "status": "Unrecorded candidate;manufacturerverificationrequired",
+      "qualified_live_stock": false
+    },
+    {
+      "model": "Tech 21 Fly Rig 5 v2",
+      "url": "https://shopee.co.id/Tech-21-Fly-Rig-5-v2-i.30194339.16373527441",
+      "shop": "30194339",
+      "item": "16373527441",
+      "seller": "Melodia Musik Roland Store JKT",
+      "region": "Jakarta Selatan",
+      "idr": 5243000,
+      "crossed_idr": 6721000,
+      "display_discount": "22%",
+      "stock": "unknown",
+      "cache": "month-old direct cached page;search2week Rp5376800/20%;differentobservationsnotaveraged",
+      "checked_date": "2026-10-17",
+      "condition": "unknown",
+      "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
+      "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
+      "status": "Unrecorded candidate;manufacturerverificationrequired",
+      "qualified_live_stock": false
+    },
+    {
+      "model": "Sonicake Black Hammer",
+      "url": "https://shopee.co.id/Efek-Gitar-SONICAKE-Black-Hammer-Multi-Effects-Pedal-4-In-1-Distortion-i.19700013.19281940040",
+      "shop": "19700013",
+      "item": "19281940040",
+      "seller": "MICKEY MOUSE SHOP",
+      "region": "Jakarta Utara",
+      "idr": 1650000,
+      "stock": "Habis",
+      "cache": "month-old search result;direct cache miss",
+      "checked_date": "2026-10-17",
+      "condition": "unknown",
+      "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
+      "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
+      "status": "Unrecorded candidate;manufacturerverificationrequired",
+      "qualified_live_stock": false
+    },
+    {
+      "model": "Tech 21 RK5 exact revision pending",
+      "url": "https://shopee.co.id/Tech-21-Sansamp-RK5-Richie-Kotzen-Signature-Fly-Rig-Fullset-Pedal-Efek-Gitar-2nd-i.1421445165.41329827063",
+      "shop": "1421445165",
+      "item": "41329827063",
+      "seller": "Kamar Gear",
+      "region": "Jambi",
+      "idr": 2856000,
+      "stock": "unknown",
+      "condition": "Explicit2nd title;workingconditionunverified",
+      "cache": "2month-old search result;notreopened",
+      "checked_date": "2026-10-17",
+      "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
+      "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
+      "status": "Unrecorded candidate;manufacturerverificationrequired",
+      "qualified_live_stock": false
     }
   ],
   "inventory_by_brand": {
@@ -48261,5 +48336,101 @@
       }
     ],
     "missing": "Indie/Dark searches did not surface exact leads in this batch;not absence proof."
+  },
+  "discovery_strips_followup": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Dapper Indie pedal",
+      "site:shopee.co.id Dapper Dark efek",
+      "site:shopee.co.id Tech21 FlyRig",
+      "site:shopee.co.id Sonicake BlackHammer"
+    ],
+    "leads": [
+      {
+        "model": "Valeton Dapper Dark VES-3",
+        "url": "https://shopee.co.id/VALETON-DAPPER-DARK-VES-3-Guitar-Multi-Efek-5in1-Efek-Pedal-i.362117058.24908463001",
+        "shop": "362117058",
+        "item": "24908463001",
+        "seller": "GhiNAda Music",
+        "region": "Bandung",
+        "idr": 2285000,
+        "stock": "unknown",
+        "cache": "month-old search result;direct cache miss",
+        "checked_date": "2026-10-17",
+        "condition": "unknown",
+        "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
+        "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
+        "status": "Unrecorded candidate;manufacturerverificationrequired",
+        "qualified_live_stock": false
+      },
+      {
+        "model": "Tech 21 Fly Rig 5 v2",
+        "url": "https://shopee.co.id/Tech-21-Fly-Rig-5-v2-i.30194339.16373527441",
+        "shop": "30194339",
+        "item": "16373527441",
+        "seller": "Melodia Musik Roland Store JKT",
+        "region": "Jakarta Selatan",
+        "idr": 5243000,
+        "crossed_idr": 6721000,
+        "display_discount": "22%",
+        "stock": "unknown",
+        "cache": "month-old direct cached page;search2week Rp5376800/20%;differentobservationsnotaveraged",
+        "checked_date": "2026-10-17",
+        "condition": "unknown",
+        "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
+        "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
+        "status": "Unrecorded candidate;manufacturerverificationrequired",
+        "qualified_live_stock": false
+      },
+      {
+        "model": "Sonicake Black Hammer",
+        "url": "https://shopee.co.id/Efek-Gitar-SONICAKE-Black-Hammer-Multi-Effects-Pedal-4-In-1-Distortion-i.19700013.19281940040",
+        "shop": "19700013",
+        "item": "19281940040",
+        "seller": "MICKEY MOUSE SHOP",
+        "region": "Jakarta Utara",
+        "idr": 1650000,
+        "stock": "Habis",
+        "cache": "month-old search result;direct cache miss",
+        "checked_date": "2026-10-17",
+        "condition": "unknown",
+        "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
+        "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
+        "status": "Unrecorded candidate;manufacturerverificationrequired",
+        "qualified_live_stock": false
+      },
+      {
+        "model": "Tech 21 RK5 exact revision pending",
+        "url": "https://shopee.co.id/Tech-21-Sansamp-RK5-Richie-Kotzen-Signature-Fly-Rig-Fullset-Pedal-Efek-Gitar-2nd-i.1421445165.41329827063",
+        "shop": "1421445165",
+        "item": "41329827063",
+        "seller": "Kamar Gear",
+        "region": "Jambi",
+        "idr": 2856000,
+        "stock": "unknown",
+        "condition": "Explicit2nd title;workingconditionunverified",
+        "cache": "2month-old search result;notreopened",
+        "checked_date": "2026-10-17",
+        "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
+        "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
+        "status": "Unrecorded candidate;manufacturerverificationrequired",
+        "qualified_live_stock": false
+      }
+    ],
+    "other_leads": [
+      {
+        "model": "Valeton Dapper Dark Mini",
+        "url": "https://shopee.co.id/VALETON-DAPPER-DARK-MINI-PEDAL-GUITAR-i.656068322.18879117394",
+        "price": "notestablished",
+        "qualification": "3weeksearchtitleonly;exacthardwarecode,condition,stock,sellerunverified"
+      },
+      {
+        "model": "Valeton Dapper Indie",
+        "url": "https://shopee.co.id/allzzzmusicshop",
+        "idr": 1138000,
+        "qualification": "month-oldstorefrontonly;itemidentitynotresolved,notqualifiedoffer"
+      }
+    ],
+    "limits": "No new models admitted;nonemptyfreshqueue. Seller specifications nottreatedasmanufacturer evidence."
   }
 }
