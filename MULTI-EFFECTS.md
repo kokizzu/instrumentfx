@@ -50,3 +50,30 @@ All amounts are **IDR asking observations checked2026-10-15 unless the row expli
 **Compact:** width≤200 mm AND depth≤140 mm. **Medium:** width≤300 mm AND depth≤200 mm,excluding compact. **Large:** exceeds either medium boundary. **Unknown:** primary dimensions or axis mapping not established. Never substitute shipping dimensions or rotate a unit to force a fit. Cables,plugs,adapter space and pedal movement are additional.
 
 Guitar scope is multi-effects only,including effects-only processors; not every dedicated-purpose pedal with multiple modes qualifies. Flamma FV01 and BOSS SY-1,SY-200,AC-3,VO-1,XS-100 remain excluded archives. Genuine bass and vocal processors remain separate. The current inventory and unfinished consolidation are recorded in `research-state.json`,not new progress Markdown files. No GitHub workflow is used.
+
+## Preserved compact comparison context
+
+The following paragraphs retain the 2026-10-14 compact comparison snapshot and its original terminology. Historical counts and next-page instructions describe that snapshot; current model records and instrument comparisons take precedence. This preservation adds no stock or technical verification.
+
+Research snapshot **2026-10-14**. All eight units satisfy the **200 mm width × 140 mm depth** filter using published dimensions. Height, plug clearance and expression-pedal movement still matter. Pocket Master is a handheld/desktop processor, not a conventional foot-operated pedal.
+
+**Status: partial records.** The first display/Indonesian-price review is now saved for all eight models, with a separate findings commit for each. Five screen diagonals are established; three diagonals and explicit touch specifications remain unresolved. **All primary comparison price columns below now use IDR.** Missing local quotes remain `?`; old foreign quotes are preserved separately as provenance, not silently converted.
+
+`?` means unverified, not No. `K/F/B` = rotary controls / main footswitches / separate push-buttons; expression toe switches are separate. A push-encoder is counted once. `P/U` = factory/user memory unless factory-filled total storage is explicitly stated. No model is certified fully researched.
+
+The source links open dated findings with manufacturer/manual evidence. A color screen is not automatically a touchscreen. The checked interfaces document knob/button navigation, but that alone is not promoted to an explicit no-touch hardware specification. Screen sizes are published diagonals, not estimates from photographs; HD does not establish pixel resolution.
+
+Existing technical research and its unresolved fields are retained; this display/price pass does not independently re-certify every algorithm or firmware claim.
+
+Connector counts refer to physical sockets. A single TRS stereo output is not two independently balanced outputs. Driver/audio compatibility is not the same as an editor.
+
+Technical model links lead to manufacturers. The eight findings notes contain the new display/manual and exact Indonesian-price links, observation qualifications and outstanding fields. **Price/display review date: 2026-10-14**. Earlier technical claims retain their original snapshot context; this is not a blanket re-verification of all fields.
+
+- GP-150/180 physical controls: [manufacturer comparison image](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png). GP-180 button count includes six quick-access and ten module buttons.
+- GP-50 original control photo: [manufacturer image](https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png); completed button count now uses its manual in [F50].
+- Matribox controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/products/QME-50.jpg?v=1678434988&width=1096); [official manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433).
+- Smart Box original control photo: [manufacturer image](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1440); display size from its manual in [FSB].
+- Pocket Master original controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440); display/USB roles from its manual in [FPM].
+
+Other compact processors, including HX Stomp, GT-1000CORE, Ampero Mini and compact capture/specialist pedals, are indexed separately as their records are added. Absence from this page does not mean a device fails the size filter. The next saved review page is [BOSS guitar processors](effects/guitar-boss.md); unresolved compact fields remain tracked in [research-state.json](effects/research-state.json).
+

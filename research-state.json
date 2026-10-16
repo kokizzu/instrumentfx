@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shared compact prose union and incoming-link audit",
-    "task": "All actual active findings now have generic complete-body manifests; FV01 uses separate historical-original verification. Verify directory-wide coverage, then reconcile nine nonidentical shared compact prose paragraphs across root destinations; preserve remaining shared source facts and incoming links. Fresh eligible Shopee discovery and unresolved technical fields remain required; do not retire sources yet.",
+    "model": "Shared legacy comparison source audit",
+    "task": "Compact source prose/URL/model-row union passes, but 22 incoming file-link occurrences remain and source is retained. Audit complete guitar-floorboards/shared sources next, preserving dates, references, revision conflicts and all model fields. Fresh Shopee discovery and unresolved technical verification remain required.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -14359,13 +14359,130 @@
       "remaining_models": [],
       "source_retired": false,
       "complete": false,
-      "remaining_work": "Eight model-row subsets checked; file-wide prose, all reference definitions, date context and incoming links still need union audit. No legacy retirement authorized.",
+      "remaining_work": "Prose, external URLs and eight model-row subsets now verified across root destinations. 22 incoming Markdown file-link occurrences remain. Reference-key/anchor equivalence and safe redirects or link updates must be resolved before source retirement; other shared sources remain unaudited.",
       "union_scan": {
         "date": "2026-10-17",
         "exact_prose_paragraphs": 18,
         "exact_paragraphs_present": 9,
         "external_URL_omissions": [],
         "limitation": "Nine paragraphs not byte-identical in VALETON/SONICAKE union; semantic equivalents may exist. Generic definitions, navigation and source-list grouping need review before retirement. No source retired."
+      },
+      "prose_union": {
+        "date": "2026-10-17",
+        "source_sha256": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc",
+        "destinations": [
+          "VALETON.md",
+          "SONICAKE.md",
+          "MULTI-EFFECTS.md"
+        ],
+        "paragraphs": 18,
+        "added_paragraphs": 9,
+        "normalization": "Reference-style links resolved and local links normalized from effects/ to repository root; all other paragraph text kept verbatim.",
+        "retirement_authorized": false,
+        "verified": {
+          "target": "make consolidation-audit-compact-union",
+          "paragraphs": 18,
+          "external_urls": 22,
+          "model_row_audits": 8
+        }
+      },
+      "incoming_link_check": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-legacy",
+        "source_sha256": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc",
+        "occurrences": 22,
+        "incoming": [
+          {
+            "source": "SONICAKE.md",
+            "link": "effects/guitar-compact.md"
+          },
+          {
+            "source": "SONICAKE.md",
+            "link": "effects/guitar-compact.md"
+          },
+          {
+            "source": "SONICAKE.md",
+            "link": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "link": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "link": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "link": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "link": "effects/guitar-compact.md"
+          },
+          {
+            "source": "VALETON.md",
+            "link": "effects/guitar-compact.md"
+          },
+          {
+            "source": "effects/COVERAGE.history-2026-10-14.md",
+            "link": "guitar-compact.md"
+          },
+          {
+            "source": "effects/README.md",
+            "link": "guitar-compact.md"
+          },
+          {
+            "source": "effects/advanced-modelers.md",
+            "link": "guitar-compact.md"
+          },
+          {
+            "source": "effects/findings/2026-10-14-sonicake-matribox.md",
+            "link": "../guitar-compact.md"
+          },
+          {
+            "source": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+            "link": "../guitar-compact.md"
+          },
+          {
+            "source": "effects/findings/2026-10-14-sonicake-smart-box.md",
+            "link": "../guitar-compact.md"
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-100.md",
+            "link": "../guitar-compact.md"
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-150.md",
+            "link": "../guitar-compact.md"
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-180.md",
+            "link": "../guitar-compact.md"
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-5.md",
+            "link": "../guitar-compact.md"
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-50.md",
+            "link": "../guitar-compact.md"
+          },
+          {
+            "source": "effects/guitar-boss.history-2026-10-14.md",
+            "link": "guitar-compact.md"
+          },
+          {
+            "source": "effects/guitar-boss.md",
+            "link": "guitar-compact.md"
+          },
+          {
+            "source": "effects/guitar-floorboards.md",
+            "link": "guitar-compact.md"
+          }
+        ],
+        "retirement_authorized": false,
+        "limitation": "Lexical Markdown file links only; reference definitions, HTML/code links and all anchors require independent handling before retirement."
       }
     },
     "unregistered_finding_audit": {

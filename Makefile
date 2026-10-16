@@ -769,3 +769,9 @@ research-commit-compact-pocketmaster-audit:
 .PHONY: research-commit-cubebabyelectric-preservation
 research-commit-cubebabyelectric-preservation:
 	python3 scripts/research_tools.py commit-cubebabyelectric-preservation
+
+.PHONY: consolidation-audit-compact-union research-commit-compact-union
+consolidation-audit-compact-union:
+	python3 scripts/consolidation_tools.py audit-compact-union
+research-commit-compact-union:
+	python3 scripts/research_tools.py commit-compact-union
