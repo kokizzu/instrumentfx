@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-VG primary follow-up",
-    "task": "PERFORM-VG choice enumeration andlive/remote differences saved. Next verify memory,physicalports,power,dimensions,controls andUSB;also preserve volatiletop-levelcontrol andAUX routing frommanualpp13–14. Commit before freshShopeediscovery.",
+    "task": "PERFORM-VG volatile rotary assignments,AUX exclusion/chordpriority andharmony-style remote behavior saved. Next verify full controls/connector inventory,power/dimensions,memory andUSB. Indexedmanualp9 provides panel labels;count explicitly with qualification. Commit before freshShopeediscovery.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -3018,6 +3018,27 @@
           "Powerdimensionsportscontrols",
           "USBeditorimports",
           "Qualifiedoffers"
+        ]
+      },
+      "volatile_routing_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd",
+        "revision": "UserManualRev1.0/2017",
+        "pages": "13–14",
+        "resolved": [
+          "Defaultrotarymainlevel;startupalternateassignmentsvolatile",
+          "Guitarlevelmodefallback",
+          "Mainlevelretainedinbackgroundwithrestartrequiredtochange",
+          "TemporaryAUXmainexclusion",
+          "GuitarpriorityoverAUXchordtracking",
+          "Harmonyassignedswitchtoggleandstylechange",
+          "Remoteassignmentexclusions"
+        ],
+        "remaining": [
+          "Hardwarepowerdimensions",
+          "Presetmemoryaccounting",
+          "USBeditorimports",
+          "Fullsimultaneousprocessing"
         ]
       }
     }

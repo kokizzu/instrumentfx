@@ -445,7 +445,7 @@ Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026
 | Power / battery / USB | Voltage,current,polarity,battery and USB power unverified. | Unresolved |
 | IR / NAM / capture | IR,native/converted NAM and capture import unverified. | Unresolved |
 | Editor / software | Full editor/platforms,USB audio/MIDI and update utilities unverified;do not inherit VK interface. | Unresolved |
-| Looper / drums / live | Guitar THRU initially mutes guitar in processor mix but retains chord detection. MIX guitar-level adjustment restores guitar to MIC OUT while retaining THRU;replug THRU or Guitar IN re-mutes. Anti-feedback filtering is mic-only;guitar phase invert is separate. Unit Talk/Tuner bypasses vocal effects except Tone and mutes guitar;mic-control Talk leaves guitar active without tuner. MIX held5s locks/mutes but preserves AUX playback. Looper/drums/scenes/trails unverified;controller labels alone prove none. | [Official manual p4][PVG-O];[Manual pp11–13][PVG-M] |
+| Looper / drums / live | Guitar THRU initially mutes guitar in processor mix but retains chord detection. MIX guitar-level adjustment restores guitar to MIC OUT while retaining THRU;replug THRU or Guitar IN re-mutes. Anti-feedback filtering is mic-only;guitar phase invert is separate. Unit Talk/Tuner bypasses vocal effects except Tone and mutes guitar;mic-control Talk leaves guitar active without tuner. MIX held5s locks/mutes but preserves AUX playback. Guitar takes chord-detection priority over AUX. AUX exclusion and alternate top-level knob assignments reset with power;details below. Looper/drums/scenes/trails unverified;controller labels alone prove none. | [Official manual p4][PVG-O];[Manual pp11–14][PVG-M] |
 
 ### Separate IDR hardware offers
 
@@ -476,3 +476,11 @@ Official manual direct unavailable. Manufacturer-authored mirror identifies PERF
 | Tone8 | Normal;Less Bright;Normal+Warmth;More Compression—each with gate or without gate |
 
 Harmony edit separately toggles level/style;pitch-correction amount0–100%;BodyRez amount adjustable. Switch3 defaults High/Low/High+Low harmony;Switch6 adds Guitar Chorus/Guitar Echo/Guitar Boost. Mapping MIX supplies +6dB guitar boost;Anti-Feedback maps guitar phase inversion. [Rev1.0 manual pp6,10–13][PVG-M].
+
+### Routing and temporary control assignments
+
+Default rotary function is main output level. Startup Harmony/Headphone/MIX selects harmony/headphone/guitar level respectively for that power cycle. Guitar-level mode falls back to main level without a connected guitar. Previous main level remains in the background;changing it requires restarting in default mode. These assignments are not stored presets.
+
+Hold Headphone while inserting the1/8-inch AUX cable to exclude AUX from main output;replug or power resets exclusion. Guitar outranks AUX for chord detection.
+
+A remote harmony-style switch turns its style on when harmony is off,toggles off when pressed again,or changes style while remaining on when a different assigned switch is pressed. Footswitch reassignment excludes SET,48V,Headphone Level andLock/Mute;Talk is assignable. These style switches do not establish simultaneous extra harmony blocks. [Rev1.0 manual pp13–14][PVG-M].
