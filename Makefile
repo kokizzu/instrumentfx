@@ -1331,3 +1331,7 @@ research-commit-rockstage:
 .PHONY: research-commit-ax5g
 research-commit-ax5g:
 	python3 scripts/research_tools.py commit-ax5g
+
+.PHONY: research-commit-ving-coverage
+research-commit-ving-coverage:
+	python3 scripts/research_tools.py commit-ving-coverage
