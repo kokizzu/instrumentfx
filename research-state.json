@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Cross-brand discovery after DigiTech RP360XP",
-    "task": "RP360XP saved distinctly;continue exactShopeeIndonesia hardwarediscoveryorremainingprimaryfields;commiteachmodelbeforethenext.",
+    "task": "RP360XP toe switch and looper/drum concurrency verified and saved. Continue exact Shopee Indonesia discovery or unresolved manufacturer fields; commit each model before next.",
     "next_models": [],
     "after_queue": "Research remains incomplete;do notcountRP360withoutownprofile."
   },
@@ -1339,7 +1339,6 @@
         "8effects/preset description versus10simultaneousspecifications"
       ],
       "unresolved": [
-        "toe switch",
         "display",
         "categorycounts/conflicts",
         "synth/acoustic",
@@ -1350,7 +1349,24 @@
         "currentsoftware",
         "looper/live limits",
         "qualifiedused/newoffers"
-      ]
+      ],
+      "resolved_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf",
+        "pages": [
+          5,
+          28,
+          29,
+          30
+        ],
+        "facts": [
+          "Toe-pressure V-Switch toggles wah",
+          "Looper and drum machine mutually exclusive; recorded loop must be cleared before drums",
+          "FS3 arms; input triggers recording; presses control loop/overdub;doubletap stops;hold2s stopped clears",
+          "Preset changes leave recorded loop sound unchanged"
+        ],
+        "limitations": "Indexed manufacturer manual inspected;undo,power-off persistence,trails/scenes remain unresolved"
+      }
     }
   ],
   "consolidation_and_price_findings": [
