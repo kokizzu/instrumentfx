@@ -301,3 +301,11 @@ consolidation-apply-ge150-pro-li:
 	python3 scripts/consolidation_tools.py apply ge150-pro-li
 consolidation-commit-ge150-pro-li:
 	python3 scripts/consolidation_tools.py commit ge150-pro-li
+
+.PHONY: consolidation-plan-ge100-pro consolidation-apply-ge100-pro consolidation-commit-ge100-pro
+consolidation-plan-ge100-pro:
+	python3 scripts/consolidation_tools.py plan ge100-pro
+consolidation-apply-ge100-pro:
+	python3 scripts/consolidation_tools.py apply ge100-pro
+consolidation-commit-ge100-pro:
+	python3 scripts/consolidation_tools.py commit ge100-pro

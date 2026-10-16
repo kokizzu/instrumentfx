@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. Eleven previously researched GE models still require complete consolidation; original GE100,GE150,GE200 and GE150 Pro Li are consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. Ten previously researched GE models still require complete consolidation; original GE100,GE150,GE200,GE150 Pro Li and GE100 Pro are consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -516,3 +516,86 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Other documented functions** (5. Power, software and practice/live features): 80 s stereo looper;40 rhythms+10 metronomes; conditional spillover/global EQ with firmware
 
 Sources: [effects/findings/2026-10-14-mooer-ge150-pro-li.md](effects/findings/2026-10-14-mooer-ge150-pro-li.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+
+## GE100 Pro
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- MOOER-GE100-PRO source begins -->
+
+Reviewed **2026-10-14**. **Partial**, eligible guitar multi-effects; original GE100 and battery-equipped GE100 Pro Li are separate records. This note is committed before the next model is researched. Sources were retrieved through web search/open; indexed material is distinguished from a live checkout.
+
+### Hardware and processing
+
+| Required field | Evidence / unknown |
+|---|---|
+| Expression | Built-in, assignable volume/effect control. External EXP socket absent from the complete documented connector list; toe-switch details **?** [MOOER-GE100-PRO-Q] |
+| Knobs / footswitches / buttons | **2 / 3 / 6**, counted from the manufacturer's enumerated panel description: SELECT/MASTER and CHAIN; A/B/C; SAVE, TAP, SYSTEM, RHYTHM, HOME, EXP. Encoder presses not counted again; rear power switch separate. A+B and B+C are combinations, not additional footswitches [MOOER-GE100-PRO-Q] |
+| Screen | **3.5-inch color**. Explicit touchscreen specification **?**; knob navigation is not conclusive negative evidence [P,Q] |
+| Dimensions / weight | Published **255.7 × 144 × 53.5 mm; 760 g**. Width/depth labels and maximum pedal-up height not established in retrieved text. Fails the200×140 compact test in either horizontal orientation; strict medium/large classification remains pending axis confirmation [MOOER-GE100-PRO-P] |
+| Blocks / library | **9 modules**; flexible order and repeated module loading advertised. Page says **200+** in specifications and **240+** in introduction, not an exact counted library. Detailed simultaneous/DSP exceptions **?** [MOOER-GE100-PRO-P] |
+| Categories / choices | Published material establishes drive, preamp, cabinet and a broader effects library; complete firmware-specific per-category counts **?**. Retailer lists are not substituted for the unread detailed effect list [P,Q] |
+| Presets | **150 locations =50 banks×3**; saving supported. Factory-filled versus dedicated factory/user split **?**; not150+150 [P,Q] |
+| Synth / acoustic sim | Specific algorithms **?**; IR support alone does not establish an acoustic simulator |
+| Audio connections | 1×¼-inch unbalanced mono input; 2×¼-inch unbalanced mono L/R outputs; 1×3.5mm stereo headphones. No XLR/mic, analog aux, FX-loop or DIN/TRS MIDI socket in the complete quick-guide connector inventory [MOOER-GE100-PRO-Q] |
+| USB | **Two USB-C ports**: audio/data/editing, and separate power input. Mobile recording/playback documented; exact audio channels, USB-MIDI and loopback details **?** [MOOER-GE100-PRO-Q] |
+| Power / battery | **5V/2A USB-C power**, external power model; no internal Li battery. The Pro Li battery specification does not belong to this record.2A is the published supply requirement, not measured draw. Barrel-plug polarity N/A [P,Q] |
+| IR | Third-party **WAV,44.1kHz,24-bit,512 samples**. User-slot capacity **?** [MOOER-GE100-PRO-P] |
+| NAM / proprietary formats | **NAM A2 conversion**, explicitly in manufacturer's August2026 availability table; native A2 not claimed. MNRS2.0 support separate. Exact supported conversion architectures, minimum matching firmware and onboard capture ability **?** [N,P] |
+| Editor platforms | MOOER Studio: **Windows10+ / macOS13+** [MOOER-GE100-PRO-D]. MOOER Cloud: **iOS**, developer lists GE100 Pro; current App Store requires **iOS15.6+** [MOOER-GE100-PRO-A]. Android app published by MOOER [MOOER-GE100-PRO-G]; current minimum Android version **?**. Linux editor not established |
+| Practice / stage | **80-second stereo looper;40 drum grooves+10 metronome patterns**, tuner, Bluetooth backing audio [MOOER-GE100-PRO-Q]. Spillover, scenes, preset gap and independent latency measurements **?** |
+
+[MOOER-GE100-PRO-P] manufacturer product page was available as indexed text; direct page opens returned403. [MOOER-GE100-PRO-Q] is the manufacturer quick-guide text mirrored by Manuals+, not its generated Q&A. Panel counts use the enumerated text; attempts to render the PDF pages returned403/cache errors, so **no visual verification is claimed**. The full September2026 manual/effect appendix was not successfully read.
+
+### Separate IDR evidence
+
+| Condition / market | Amount | Qualification |
+|---|---:|---|
+| Shopee retail listing, detailed condition unknown | **Rp2.103.300** | LOBAJET, shop70636842/item54064319398 [MOOER-GE100-PRO-S1], indexed page. Earlier repository evidence gave Rp3.019.000 and voucher wording; the current excerpt does not resolve base versus conditional price. **Not a verified active lower bound** |
+| Shopee preorder, detailed condition unknown | **Rp5.729.000** | SakaSentosa_77, shop1807023911/item50560296600 [MOOER-GE100-PRO-S2], explicitly30-day preorder; selected variant/region, accessories and delivered cost unverified |
+| Indonesian retailer, historical | **Rp1.750.000** | GP Music white model, explicitly sold out [MOOER-GE100-PRO-R] |
+| Used | **?** | No condition-verified used quote obtained |
+
+Do not combine these into a market range. No stock, warranty, seller authenticity or completed sale is verified. A mixed Pro/Pro Li Shopee listing is excluded from per-model prices. Another LOBAJET product page for **Pro Li**, not this exact item, explicitly sells a Mandarin version; this is a reason to verify this listing's region, **not proof this Pro item is Chinese-only**. Late-delivery compensation is not an applied discount.
+
+### Sources
+
+[MOOER-GE100-PRO-P]: https://www.mooeraudio.com/products/244.html
+[MOOER-GE100-PRO-Q]: https://manuals.plus/mooer/ge100-pro-ge100-pro-li-electric-guitar-effects-pedal-manual
+[MOOER-GE100-PRO-N]: https://www.mooeraudio.com/news/29.html
+[MOOER-GE100-PRO-D]: https://www.mooeraudio.com/Downloads_xq/12.html
+[MOOER-GE100-PRO-A]: https://apps.apple.com/id/app/mooer-cloud/id6471785934
+[MOOER-GE100-PRO-G]: https://play.google.com/store/apps/developer?hl=en&id=MOOER
+[MOOER-GE100-PRO-S1]: https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398
+[MOOER-GE100-PRO-S2]: https://shopee.co.id/MOOER-GE100-Pro-Guitar-Multi-Effects-Pedal-AI-Tone-Amp-Modeling-IR-NAM-Bluetooth-Looper-Drum-Machine-i.1807023911.50560296600
+[MOOER-GE100-PRO-R]: https://www.gpmusic.co.id/products/mooer-ge100-pro-white-multi-effects-guitar-pedal
+
+Primary document identity: [manufacturer-submitted quick guide metadata](https://fccid.io/2ATQZ-GE100/User-Manual/User-manual-9251825). Retrieved PDF: https://manuals.plus/m/87754e4116d0318127b022cdb267533240f2b7cbad51f37663850ff763994840_optim.pdf . Text encoding was garbled and screenshots failed; use readable guide transcription above with that limitation. [Separate Pro Li seller regional warning](https://www.blibli.com/p/mooer-ge100-pro-li-with-ai-intelligent-multi-effects-technology/ps--LOT-60022-00989).
+
+### Resume
+
+Next: **GE100 Pro Li**, with its own battery/accessory/price evidence; shared quick guide explicitly covers both models. Resolve exact effect counts, IR slots, touchscreen, USB routing, dimension labels and firmware/region before full verification. Preserve the existing owner-history work and scope exclusions.
+<!-- MOOER-GE100-PRO source ends -->
+
+### GE100 Pro — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **K/F/B** (Hardware, expression and display): **2/3/6**
+- **External expression / toe switch** (Hardware, expression and display): No EXP socket in complete guide; toe ?
+- **Published dimensions, mm; weight** (Hardware, expression and display): **255.7×144×53.5;760g**
+- **Size classification** (Hardware, expression and display): Not compact; W/D labels pending for medium/large bin
+- **Display** (Hardware, expression and display): **3.5-inch color; touch ?**
+- **Blocks and category choices** (Processing, memory and loading): **9 modules**, reorder/repeat advertised; exact DSP exceptions ?. Manufacturer **200+/240+** wording not reconciled; category subtotals ?
+- **Presets** (Processing, memory and loading): **150=50×3**; factory/user split ?
+- **IR / NAM / proprietary models** (Processing, memory and loading): User WAV **44.1kHz/24-bit/512 samples**, capacity ?; **NAM A2 conversion**, MNRS2.0 separate
+- **Synth / acoustic simulator** (Processing, memory and loading): Specific algorithms ?
+- **Audio and control ports** (Ports, power and software): Mono1/4-inch input;2×1/4-inch unbalanced out;3.5mm stereo phones;**2 USB-C: data/audio and power**. No XLR/mic,analog aux,FX loop or DIN/TRS MIDI in complete guide
+- **Power / battery** (Ports, power and software): **5V/2A USB-C**; no internal Li battery
+- **Configuration and recording** (Ports, power and software): MOOER Studio **Win10+/macOS13+**; Cloud iOS/Android. USB recording/playback; channels ?
+- **Practice/live** (Ports, power and software): **80s stereo looper;40 grooves+10 metronomes**, tuner,Bluetooth audio
+- **Used IDR** (Separate IDR evidence): ?
+- **Shopee retail/indexed evidence** (Separate IDR evidence): **Rp2.103.300**, LOBAJET; earlier snippet/voucher discrepancy unresolved. Separate **Rp5.729.000**,30-day preorder
+- **Separate local retailer / qualification** (Separate IDR evidence): GP Music **Rp1.750.000 sold out**. Do not combine conditional,preorder and historical amounts
+
+Sources: [effects/findings/2026-10-14-mooer-ge100-pro.md](effects/findings/2026-10-14-mooer-ge100-pro.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
