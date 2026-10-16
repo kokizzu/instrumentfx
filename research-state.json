@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-VG primary follow-up",
-    "task": "Initial combined guitar/vocal profile saved;Rev1.0mirror matchedofficialp4. Next enumerate styles and verify memory,ports,power,controls andUSB from complete manual/QSG;commit before fresh Shopee discovery.",
+    "task": "PERFORM-VG choice enumeration andlive/remote differences saved. Next verify memory,physicalports,power,dimensions,controls andUSB;also preserve volatiletop-levelcontrol andAUX routing frommanualpp13–14. Commit before freshShopeediscovery.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -2998,7 +2998,28 @@
         "USB/editor/imports",
         "Livefeatures",
         "Qualified used/new prices"
-      ]
+      ],
+      "styles_live_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd",
+        "revision": "UserManualRev1.0/2017",
+        "pages": "6,10–13",
+        "resolved": [
+          "13Harmony/3Reverb/3Echo/3GuitarMod/8Tonechoices",
+          "Pitchcorrection0–100andadjustableBodyRez",
+          "Mic-onlyantifeedbackvsguitarphaseinvert",
+          "UnitTalkTuner vsmicTalk behavior",
+          "LockmutepreservesAUX",
+          "Switch3/6defaultsand+6dBguitarboost"
+        ],
+        "remaining": [
+          "Fullsimultaneousaccounting",
+          "Presetmemory",
+          "Powerdimensionsportscontrols",
+          "USBeditorimports",
+          "Qualifiedoffers"
+        ]
+      }
     }
   ],
   "consolidation_and_price_findings": [

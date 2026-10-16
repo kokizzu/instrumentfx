@@ -434,18 +434,18 @@ Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in/external/toe expression unverified. Remote controller specifics pending. | Unresolved |
+| Expression | Built-in/external/toe expression unverified. Switch-3/6 remote supported;continuous expression not established. | [Manual p13][PVG-M] |
 | K/F/B | Separate knob/footswitch/button counts unverified;do not transfer V/VK counts. | Unresolved |
 | Display | Segmented colored LED ring used for effect level/style;screen diagonal,color-LCD/touch unverified. | [Manual p6][PVG-M] |
 | Dimensions / mass | Unverified. | Unresolved |
-| Processing / category choices | Vocal Harmony/Reverb/Echo,Adaptive Tone EQ/de-essing/gate/compression,pitch correction,anti-feedback. Guitar BodyRez,Chorus,Echo,Reverb. Reverb style shared across voice/guitar,levels separate;echo styles/levels independent. Complete choices and simultaneous accounting pending. | [Official manual p4][PVG-O];[manufacturer-authored Rev1.0 pp5–6][PVG-M] |
+| Processing / category choices | Vocal Harmony/Reverb/Echo,Adaptive Tone EQ/de-essing/gate/compression,pitch correction,anti-feedback. Guitar BodyRez,Chorus,Echo,Reverb. Reverb style shared across voice/guitar,levels separate;echo styles/levels independent. **13 Harmony choices;3 each Reverb/Echo/Chorus;8 Tone styles** listed below. Full simultaneous accounting pending. | [Official manual p4][PVG-O];[manufacturer-authored Rev1.0 pp5–6][PVG-M] |
 | Factory / user memory | Total/user/factory preset accounting unverified;do not transfer V/VK three-preset behavior. | Unresolved |
 | Synth / acoustic | BodyRez treats acoustic pickup sound;not proof of electric-to-acoustic simulation. Instrument synth and dedicated acoustic simulation unverified. | [Manual p4][PVG-O] |
 | I/O | Guitar IN/THRU,MIC OUT and headphones documented;full connector inventory pending. | [Manual p4][PVG-O] |
 | Power / battery / USB | Voltage,current,polarity,battery and USB power unverified. | Unresolved |
 | IR / NAM / capture | IR,native/converted NAM and capture import unverified. | Unresolved |
 | Editor / software | Full editor/platforms,USB audio/MIDI and update utilities unverified;do not inherit VK interface. | Unresolved |
-| Looper / drums / live | Guitar THRU initially mutes guitar in processor mix but retains chord detection. MIX guitar-level adjustment restores guitar to MIC OUT while retaining THRU;replug THRU or Guitar IN re-mutes. Looper/drums/scenes/trails unverified;controller illustration labels are not feature proof. | [Official manual p4][PVG-O] |
+| Looper / drums / live | Guitar THRU initially mutes guitar in processor mix but retains chord detection. MIX guitar-level adjustment restores guitar to MIC OUT while retaining THRU;replug THRU or Guitar IN re-mutes. Anti-feedback filtering is mic-only;guitar phase invert is separate. Unit Talk/Tuner bypasses vocal effects except Tone and mutes guitar;mic-control Talk leaves guitar active without tuner. MIX held5s locks/mutes but preserves AUX playback. Looper/drums/scenes/trails unverified;controller labels alone prove none. | [Official manual p4][PVG-O];[Manual pp11–13][PVG-M] |
 
 ### Separate IDR hardware offers
 
@@ -464,3 +464,15 @@ Official manual direct unavailable. Manufacturer-authored mirror identifies PERF
 
 [PVG-O]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DED/PERFORM-VG_M_EN.pdf
 [PVG-M]: https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd
+
+### Enumerated choices
+
+| Category | Choices |
+|---|---|
+| Harmony13 | High;High+Higher;Higher;Octave Up;Bass+High;Bass;Octave Up+Down;Octave Down;Lower+Higher;Lower;Lower+Low;Low;High+Low |
+| Reverb3 | Room;Club;Hall |
+| Echo3 | Slap;eighth-note;quarter-note |
+| Guitar Chorus3 | Chorus;Flanger;Detune |
+| Tone8 | Normal;Less Bright;Normal+Warmth;More Compression—each with gate or without gate |
+
+Harmony edit separately toggles level/style;pitch-correction amount0–100%;BodyRez amount adjustable. Switch3 defaults High/Low/High+Low harmony;Switch6 adds Guitar Chorus/Guitar Echo/Guitar Boost. Mapping MIX supplies +6dB guitar boost;Anti-Feedback maps guitar phase inversion. [Rev1.0 manual pp6,10–13][PVG-M].
