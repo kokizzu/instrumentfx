@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'tonex-pedal': ('TONEX Pedal', 'effects/advanced-modelers.md'),
     'tonex-one': ('TONEX ONE', 'effects/advanced-modelers.md'),
     'hx-stomp': ('HX Stomp', 'effects/advanced-modelers.md'),
     'gp-50': ('GP-50', 'effects/findings/2026-10-14-valeton-gp-50.md'),
@@ -339,7 +340,77 @@ The source body retains the original20/30 conflict and historical USD199.99 quot
     print('Plan saved: '+str(PLAN))
 
 
+
+def plan_tonex_pedal():
+    research_tools.identity()
+    model, source_path = MODELS['tonex-pedal']
+    brand_file = 'IK-MULTIMEDIA.md'
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    assert model not in state['root_brand_content'][brand_file]
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text), 'Run make comparison-plan first'
+    record = comparison['records']['IK Multimedia::TONEX Pedal']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    facts = record['facts']
+    assert all(f['source'] == source_path for f in facts)
+    contexts = [p for p in source.split('\n\n') if p.startswith('Checked **2026-10-14**') or p.startswith('K/F/B =') or p.startswith('USB audio input/output counts')]
+    contexts += [line for line in source.splitlines() if line.startswith('- P1:')]
+    assert len(contexts) == 4
+    urls = ['https://ikmultimedia.com/products/tonexpedal','https://www.ikmultimedia.com/products/tonexpedal/','https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal---Studio-57101.jpg?v=1783348434&width=1100','https://www.thomannmusic.com/zoom_b6.htm']
+    section = '\n## TONEX Pedal\n\nStandard guitar/bass TONEX Pedal, not TONEX ONE, Bass Edition or an anniversary bundle. Consolidated and partially refreshed **2026-10-17**; no new unique model.\n\n### Preserved historical evidence\n\n'
+    section += '\n\n'.join(contexts)+'\n\n'
+    for fact in facts:
+        section += '- **'+fact['field']+'** ('+fact['context']+'): '+fact['value']+'\n'
+    section += '\nRetained model-source URLs: '+', '.join(urls)+'\n\n[Complete original comparison](effects/advanced-modelers.md) is retained; no source or incoming link was removed. The USD429.99 official tax-excluded and USD299 international-seller observations retain their2026-10-14 context; no conversion or current delivered-price claim is made.\n\n### Source identity and limits\n\n[TP-M: manufacturer-authored manual mirrored by Kraft Music](https://files.kraftmusic.com/media/ownersmanual/TONEX_Pedal_User_Manual.pdf). English document v1.0.4, dated2023/04/12, printed pp.1–36; the same67-page PDF also contains a separate Japanese v1.0.2 dated2023/02/27. Title, IK Multimedia authorship, standard hardware and connections identify TONEX Pedal. English text was inspected; attempted front-panel PDF rendering failed. No successful visual panel verification is claimed. The attempted direct manufacturer manual endpoint returned403.\n\n[TP-P: current standard product page](https://ikmultimedia.com/products/tonexpedal), rechecked2026-10-17, confirms150 presets and2 delay/5 modulation/6 stereo-reverb choices. These are choices within processing stages, not a simultaneous count or proof of arbitrary duplicate blocks. Newer software TONEX Rig routing is not borrowed into this hardware record.\n\n### TONEX Pedal comparison fields\n\n| Field | Dated evidence / qualification |\n|---|---|\n'
+    replacements = {
+        'External expression': ('Expression','No built-in pedal/toe; EXT.CONTROL accepts an expression pedal or single/dual switch. External toe behavior unverified. [TP-M pp.16,26–27]'),
+        'K/F/B': ('K/F/B','**7/3/0 front-panel**, retained photograph count. Encoder-role mapping has not been newly visually verified; do not add encoder presses as extra buttons. Rear power control separate.'),
+        'Preset storage': ('Preset storage','**150 editable presets /50 banks**; Reloaded factory content fills150. Early manual separately specifies **up to300 Tone Models** with automatic replacement when full; this is not300 presets. [TP-M pp.13,18–19;TP-P]'),
+        'Third-party IR': ('Third-party IR','**Yes:** create a custom-IR cabinet preset and transfer it through TONEX Librarian. Independent IR capacity, formats and sample conversion remain unverified. [TP-M p.18]'),
+        'Audio/control ports': ('Audio/control ports','Mono unbalanced instrument input; L/R unbalanced outputs; headphones; MIDI IN/OUT; EXT.CONTROL; USB-B; DC. Output/headphone jack-size verification remains open. [TP-M p.16;retained source]'),
+        'Configuration apps and USB functions': ('Configuration apps and USB functions','**TONEX Editor Mac/PC**; USB audio **24-bit/44.1kHz**. Early manual requires Windows10+ and ASIO driver for interface operation. Current OS/updater versions remain unverified. [TP-P;TP-M pp.28,34]'),
+        'Other important differences': ('Other relevant features','Custom IRs and captures remain distinct. Expression macros, lock mode, bank/preset MIDI control. Early manual says dedicated interface needed for full rig modeling; no onboard capture claim. [TP-M pp.16,26–29]'),
+    }
+    for fact in facts:
+        field, value = replacements.get(fact['field'],(fact['field'],fact['value']))
+        if field == 'New USD observation':
+            continue
+        section += '| '+field+' | '+value+' |\n'
+    section += '''| Display | Manufacturer indexed original page describes **eight16-segment characters**; manual documents color-coded AMP/CAB/ALT indicators. Published diagonal, touch and precise display technology remain unverified. Colored indicators do not establish a color LCD. [Original product-page index](https://www.ikmultimedia.com/products/tonexpedal/index.php);TP-M pp.14–15 |
+| Used IDR | ? — no dependable condition-qualified local used quote established. |
+| New / retail IDR | [Eleven Music exact TONEX Pedal offer](https://shopee.co.id/Tonex-Pedal-IK-Multimedia-TONE-X-Pedal-Amplifier-Pedal-Modeler-ToneX-i.12356205.21991009410),shop12356205/item21991009410,Kota Jakarta Pusat: **Rp7.640.000 search versus Rp8.150.000 reopened**, checked2026-10-17. Snapshot discrepancy retained; neither proves live checkout stock. Standard hardware title; condition, accessory/software-license bundle, region, delivered charges and voucher eligibility unconfirmed. No guessed discount or exchange rate. |
+
+### Remaining model questions
+
+A second [CH MUSIC exact Pedal listing](https://shopee.co.id/TONEX-Pedal-IK-Multimedia-TONEX-Pedal-Amplifier-Cabinet-Pedal-Modeler-i.195817632.17298184084),shop195817632/item17298184084,Kota Jakarta Pusat, was indexed at **Rp7.640.000** with **Layanan Tidak Tersedia**; reopening failed. This shipping/service limitation does not establish sold-out stock. Its observation is not substituted for the available checkout price of another seller. Condition, bundle, region and final charges remain unconfirmed.
+
+Standard-model bass capability is explicit in the manufacturer-authored manual and standard Reloaded library; adding this shared bass row does not create another unique model or silently import Bass Edition presets. All fifteen original model fields and associated date/price qualifications remain above.
+
+Current firmware-specific processing concurrency and complete category algorithms, IR limits, exact synth/acoustic functions, native/converted NAM, USB channel counts and bus-powered operation, internal battery, graphical-screen attributes, external toe behavior, scenes/looper/drums and condition-verified stock remain unresolved. Early-manual details retain their revision; new firmware is not assumed installed. No manual screenshot success or physical hardware test is claimed.
+'''
+    brand = (ROOT/brand_file).read_text().replace('TONEX ONE is consolidated below; TONEX Pedal remains in its complete legacy source pending consolidation.','Both recorded TONEX ONE and TONEX Pedal profiles are consolidated below; original sources remain available.')
+    old_count,old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file].append(model)
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['IK Multimedia TONEX Pedal'],model_name=model,brand='IK Multimedia',destination=brand_file+'#tonex-pedal',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,manual_source='https://files.kraftmusic.com/media/ownersmanual/TONEX_Pedal_User_Manual.pdf',manual_revision='English1.0.4 dated2023/04/12;Japanese1.0.2 separate',status='Consolidated, partial; direct model bass evidence, qualified Shopee discrepancies and early manual limitations preserved'))
+    state['discovery_leads'].append(dict(model='IK Multimedia TONEX Pedal',checked_date='2026-10-17',status='Existing model refreshed; no new unique model',urls=['https://shopee.co.id/Tonex-Pedal-IK-Multimedia-TONE-X-Pedal-Amplifier-Pedal-Modeler-ToneX-i.12356205.21991009410','https://shopee.co.id/TONEX-Pedal-IK-Multimedia-TONEX-Pedal-Amplifier-Cabinet-Pedal-Modeler-i.195817632.17298184084'],qualification='Eleven Music search7640000 versus reopen8150000. CH MUSIC indexed7640000 shipping/service unavailable,reopen failed. All condition/bundle/license/region/checkout stock unconfirmed.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Neural DSP Nano Cortex — complete legacy consolidation',task='Read complete Nano Cortex record and original advanced-modelers source. Consolidate in root NEURAL-DSP.md, preserving NanOS2 limits, capture versus mic-path distinctions, power restrictions and original uncertainty. Verify primary manual/current firmware and exact Shopee offers. Commit before another model; continue remaining legacy records and fresh discovery.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely').replace('56 documented bass-capable models: 11 bass-focused plus 45 shared processors','57 documented bass-capable models: 11 bass-focused plus 46 shared processors').replace('| [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |TONEX ONE |','| [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |TONEX ONE,TONEX Pedal |')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:brand+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    payload=dict(model_id='tonex-pedal',model=model,inputs={p:digest((ROOT/p).read_text()) for p in list(outputs)+[source_path]},outputs=outputs,rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview TONEX Pedal: writes '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged. Rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
+
 def plan(model_id):
+    if model_id == 'tonex-pedal':
+        return plan_tonex_pedal()
     if model_id == 'tonex-one':
         return plan_tonex_one()
     if model_id == 'hx-stomp':
@@ -569,8 +640,8 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    if model_id == 'tonex-one':
-        print(research_tools.git('commit', '-m', 'research(ik): consolidate TONEX ONE and document bass capability'))
+    if model_id in ('tonex-one','tonex-pedal'):
+        print(research_tools.git('commit', '-m', 'research(ik): consolidate '+MODELS[model_id][0]+' and document bass capability'))
         return
     if model_id == 'hx-stomp':
         print(research_tools.git('commit', '-m', 'docs(line6): retain HX Stomp practical features in comparisons'))

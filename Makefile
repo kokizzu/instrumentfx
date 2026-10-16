@@ -461,3 +461,11 @@ consolidation-apply-tonex-one:
 	python3 scripts/consolidation_tools.py apply tonex-one
 consolidation-commit-tonex-one:
 	python3 scripts/consolidation_tools.py commit tonex-one
+
+.PHONY: consolidation-plan-tonex-pedal consolidation-apply-tonex-pedal consolidation-commit-tonex-pedal
+consolidation-plan-tonex-pedal:
+	python3 scripts/consolidation_tools.py plan tonex-pedal
+consolidation-apply-tonex-pedal:
+	python3 scripts/consolidation_tools.py apply tonex-pedal
+consolidation-commit-tonex-pedal:
+	python3 scripts/consolidation_tools.py commit tonex-pedal

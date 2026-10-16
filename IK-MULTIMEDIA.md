@@ -1,6 +1,6 @@
 # IK Multimedia multi-effects
 
-Root brand records with individual observation dates. TONEX ONE is consolidated below; TONEX Pedal remains in its complete legacy source pending consolidation. Verification and market coverage remain incomplete.
+Root brand records with individual observation dates. Both recorded TONEX ONE and TONEX Pedal profiles are consolidated below; original sources remain available. Verification and market coverage remain incomplete.
 
 ## TONEX ONE
 
@@ -75,3 +75,73 @@ Retained model-source URLs: https://ikmultimedia.com/products/tonexone, https://
 TONEX ONE is added to the shared bass comparison because the standard-model announcement explicitly supports bass and the original manual corroborates it. This does not add a unique model or assert equal bass performance for every effect. The BASS knob alone is not the inclusion basis. Dedicated Bass Edition and ONE+ remain distinct discovery candidates requiring exact hardware leads and variant verification.
 
 The source body retains the original20/30 conflict and historical USD199.99 quote. Updated custom-IR, power and USB facts supersede their historical unknowns for the documented manual revision. Complete current delay/modulation/reverb choices and simultaneous architecture need matching firmware documentation; software descriptions do not automatically establish onboard blocks. Exact NAM compatibility, synth/acoustic algorithms, looper/drums/scenes, editor OS versions and firmware release requirements remain unverified. Capturing one's own rig is a documented companion-software workflow, not onboard hardware capture.
+
+## TONEX Pedal
+
+Standard guitar/bass TONEX Pedal, not TONEX ONE, Bass Edition or an anniversary bundle. Consolidated and partially refreshed **2026-10-17**; no new unique model.
+
+### Preserved historical evidence
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Native NAM, architecture-limited NAM, converted NAM, proprietary captures and cabinet IRs are different capabilities. An effects-only unit is not necessarily an amp modeler.
+
+K/F/B = rotary controls / footswitches / separate buttons. Push-encoders are counted once. Nano Cortex's rotary footswitches are explicitly called out rather than hidden in the knob count. Dimensions are **W×D×H, mm**. Prices are separate **USD** new and used observations; missing used prices have not been invented.
+
+USB audio input/output counts use the manufacturer's interface convention. A capture microphone connector does not establish a dedicated live vocal-effects path. Do not connect an amplifier's speaker output directly to an instrument/capture input; the appropriate load/interface is required.
+
+- P1: [Thomann B6 page with cross-listed HX Stomp and TONEX Pedal prices](https://www.thomannmusic.com/zoom_b6.htm), USD international-store observations checked **2026-10-14**; destination tax/shipping not included.
+
+- **External expression** (No built-in expression pedal): EXP or external single/dual switch
+- **K/F/B** (No built-in expression pedal): **7/3/0 front-panel** [photo]
+- **W×D×H; weight** (No built-in expression pedal): **176×142×55**, 906 g
+- **Size class** (No built-in expression pedal): Medium; **2 mm too deep** for compact filter
+- **Used USD** (No built-in expression pedal): ?
+- **New USD observation** (No built-in expression pedal): $429.99 official, tax excluded; $299 international seller [P1]
+- **Simultaneous processing / available choices** (Processing, presets, IR and capture formats): Tone Model plus cabinet/VIR or custom IR and tone-shaping stages: gate, EQ, compressor, **2 delay choices, 5 modulation choices, 6 stereo reverbs**; exact freely assignable block limit N/A
+- **Preset storage** (Processing, presets, IR and capture formats): **150 editable presets /50 banks**; current Reloaded factory content fills 150
+- **Synth / acoustic functions** (Processing, presets, IR and capture formats): Specific synth/acoustic simulation ?
+- **Third-party IR** (Processing, presets, IR and capture formats): **Yes**, custom IR loader separate from Tone Models
+- **NAM / proprietary capture** (Processing, presets, IR and capture formats): **Proprietary TONEX Tone Models**; capture creation is a software workflow, not proof of onboard capture or NAM
+- **Audio/control ports** (Connections, power, software and live use): ¼″ instrument input; L/R outputs; headphones; DIN MIDI IN/OUT; EXT.CONTROL; USB-B; DC; output/headphone connector-size verification pending
+- **Power; battery/USB-powered?** (Connections, power, software and live use): **9 V centre-negative/320 mA**, included supply; USB-powered operation and batteries not established
+- **Configuration apps and USB functions** (Connections, power, software and live use): TONEX Editor/software **Mac/PC**; USB audio **24-bit/44.1 kHz**
+- **Other important differences** (Connections, power, software and live use): Custom IRs and captures stored separately; included software effects are not automatically additional onboard blocks
+
+Retained model-source URLs: https://ikmultimedia.com/products/tonexpedal, https://www.ikmultimedia.com/products/tonexpedal/, https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal---Studio-57101.jpg?v=1783348434&width=1100, https://www.thomannmusic.com/zoom_b6.htm
+
+[Complete original comparison](effects/advanced-modelers.md) is retained; no source or incoming link was removed. The USD429.99 official tax-excluded and USD299 international-seller observations retain their2026-10-14 context; no conversion or current delivered-price claim is made.
+
+### Source identity and limits
+
+[TP-M: manufacturer-authored manual mirrored by Kraft Music](https://files.kraftmusic.com/media/ownersmanual/TONEX_Pedal_User_Manual.pdf). English document v1.0.4, dated2023/04/12, printed pp.1–36; the same67-page PDF also contains a separate Japanese v1.0.2 dated2023/02/27. Title, IK Multimedia authorship, standard hardware and connections identify TONEX Pedal. English text was inspected; attempted front-panel PDF rendering failed. No successful visual panel verification is claimed. The attempted direct manufacturer manual endpoint returned403.
+
+[TP-P: current standard product page](https://ikmultimedia.com/products/tonexpedal), rechecked2026-10-17, confirms150 presets and2 delay/5 modulation/6 stereo-reverb choices. These are choices within processing stages, not a simultaneous count or proof of arbitrary duplicate blocks. Newer software TONEX Rig routing is not borrowed into this hardware record.
+
+### TONEX Pedal comparison fields
+
+| Field | Dated evidence / qualification |
+|---|---|
+| Expression | No built-in pedal/toe; EXT.CONTROL accepts an expression pedal or single/dual switch. External toe behavior unverified. [TP-M pp.16,26–27] |
+| K/F/B | **7/3/0 front-panel**, retained photograph count. Encoder-role mapping has not been newly visually verified; do not add encoder presses as extra buttons. Rear power control separate. |
+| W×D×H; weight | **176×142×55**, 906 g |
+| Size class | Medium; **2 mm too deep** for compact filter |
+| Used USD | ? |
+| Simultaneous processing / available choices | Tone Model plus cabinet/VIR or custom IR and tone-shaping stages: gate, EQ, compressor, **2 delay choices, 5 modulation choices, 6 stereo reverbs**; exact freely assignable block limit N/A |
+| Preset storage | **150 editable presets /50 banks**; Reloaded factory content fills150. Early manual separately specifies **up to300 Tone Models** with automatic replacement when full; this is not300 presets. [TP-M pp.13,18–19;TP-P] |
+| Synth / acoustic functions | Specific synth/acoustic simulation ? |
+| Third-party IR | **Yes:** create a custom-IR cabinet preset and transfer it through TONEX Librarian. Independent IR capacity, formats and sample conversion remain unverified. [TP-M p.18] |
+| NAM / proprietary capture | **Proprietary TONEX Tone Models**; capture creation is a software workflow, not proof of onboard capture or NAM |
+| Audio/control ports | Mono unbalanced instrument input; L/R unbalanced outputs; headphones; MIDI IN/OUT; EXT.CONTROL; USB-B; DC. Output/headphone jack-size verification remains open. [TP-M p.16;retained source] |
+| Power; battery/USB-powered? | **9 V centre-negative/320 mA**, included supply; USB-powered operation and batteries not established |
+| Configuration apps and USB functions | **TONEX Editor Mac/PC**; USB audio **24-bit/44.1kHz**. Early manual requires Windows10+ and ASIO driver for interface operation. Current OS/updater versions remain unverified. [TP-P;TP-M pp.28,34] |
+| Other relevant features | Custom IRs and captures remain distinct. Expression macros, lock mode, bank/preset MIDI control. Early manual says dedicated interface needed for full rig modeling; no onboard capture claim. [TP-M pp.16,26–29] |
+| Display | Manufacturer indexed original page describes **eight16-segment characters**; manual documents color-coded AMP/CAB/ALT indicators. Published diagonal, touch and precise display technology remain unverified. Colored indicators do not establish a color LCD. [Original product-page index](https://www.ikmultimedia.com/products/tonexpedal/index.php);TP-M pp.14–15 |
+| Used IDR | ? — no dependable condition-qualified local used quote established. |
+| New / retail IDR | [Eleven Music exact TONEX Pedal offer](https://shopee.co.id/Tonex-Pedal-IK-Multimedia-TONE-X-Pedal-Amplifier-Pedal-Modeler-ToneX-i.12356205.21991009410),shop12356205/item21991009410,Kota Jakarta Pusat: **Rp7.640.000 search versus Rp8.150.000 reopened**, checked2026-10-17. Snapshot discrepancy retained; neither proves live checkout stock. Standard hardware title; condition, accessory/software-license bundle, region, delivered charges and voucher eligibility unconfirmed. No guessed discount or exchange rate. |
+
+### Remaining model questions
+
+A second [CH MUSIC exact Pedal listing](https://shopee.co.id/TONEX-Pedal-IK-Multimedia-TONEX-Pedal-Amplifier-Cabinet-Pedal-Modeler-i.195817632.17298184084),shop195817632/item17298184084,Kota Jakarta Pusat, was indexed at **Rp7.640.000** with **Layanan Tidak Tersedia**; reopening failed. This shipping/service limitation does not establish sold-out stock. Its observation is not substituted for the available checkout price of another seller. Condition, bundle, region and final charges remain unconfirmed.
+
+Standard-model bass capability is explicit in the manufacturer-authored manual and standard Reloaded library; adding this shared bass row does not create another unique model or silently import Bass Edition presets. All fifteen original model fields and associated date/price qualifications remain above.
+
+Current firmware-specific processing concurrency and complete category algorithms, IR limits, exact synth/acoustic functions, native/converted NAM, USB channel counts and bus-powered operation, internal battery, graphical-screen attributes, external toe behavior, scenes/looper/drums and condition-verified stock remain unresolved. Early-manual details retain their revision; new firmware is not assumed installed. No manual screenshot success or physical hardware test is claimed.
