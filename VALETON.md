@@ -963,35 +963,35 @@ Official V01_161208 manual is readable in search index,while directPDF returns c
 
 ## Dapper Indie
 
-Guitar multi-effects strip; distinct from other Dappers. Checked2026-10-17;partial. Exact model code awaits primary corroboration.
+Guitar multi-effects strip; distinct from other Dappers. Checked 2026-10-17; partial. Exact model code awaits primary corroboration.
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in,external andtoe support unverified. | Unresolved |
-| K/F/B | **16 rotary controls**,text-derived:Drive4,Fuzz4,LiquidFX2,Echoes3,Ambient3. Three effect-type toggles;footswitch/button totals await panel inspection. | [Manualp2][DI-M] |
-| Display | **LED numeric tuner display** perChinese manufacturer;sharp dot andpitch LEDs. Publisheddiagonal,color/touch unverified. | [Product][DI-P];[Chineseproduct][DI-C] |
-| Dimensions / mass | **320×65×42mm;650g**. ProductWDH versusmanualDWH;axis conflict retained. Long strip. | [Product][DI-P];[manual][DI-M];[Chineseproduct][DI-C] |
-| Processing / category choices | **IndieDrive,FuzzWall,LiquidFX,Echoes,Ambient**,plus tuner. Drive two-bandEQ. LiquidFX:chorus/phaser/tremolo;Echoes:analog/tape/reverse;Ambient:room/hall/plate. Exact simultaneous count unverified. Product repeatsEchoes heading;notanotherblock. | [Product][DI-P];[manualp2][DI-M] |
-| Factory / user memory | Factory,user,total storage unverified. | Unresolved |
+| Expression | Built-in, external and toe support unverified. | Unresolved |
+| K/F/B | **16 rotary controls**, derived from the manual text: Drive 4, Fuzz 4, Liquid FX 2, Echoes 3, Ambient 3. Three effect-type toggles; footswitch and button totals await panel inspection. | [Manualp2][DI-M] |
+| Display | **LED numeric tuner display** per Chinese manufacturer; sharp dot and pitch LEDs. Published diagonal, color and touch unverified. | [Product][DI-P];[Chineseproduct][DI-C] |
+| Dimensions / mass | **320×65×42mm;650g**. Product WDH versus manual DWH; axis conflict retained. Long strip. | [Product][DI-P];[manual][DI-M];[Chineseproduct][DI-C] |
+| Processing / category choices | **Indie Drive, Fuzz Wall, Liquid FX, Echoes and Ambient**, plus tuner. Drive has two-band EQ. Liquid FX selects chorus, phaser or tremolo; Echoes selects analog, tape or reverse delay; Ambient selects room, hall or plate reverb. Exact simultaneous count is unverified. The repeated Echoes product heading does not establish another block. | [Product][DI-P];[manualp2][DI-M] |
+| Factory / user memory | Factory, user and total storage unverified. | Unresolved |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
-| I/O | INPUT/OUTPUT/PHONES documented,input1MΩ/output100Ω. **PHONES hascab simulation**,can feedrecording/PA;module settings affect headphonevolume. Chinese page includesaCabSimparagraph naming**Dapper Amp Mini**;do nottreatasIndieswitch/routing evidence. Fullsockettypes/absence audit pending. | [Product][DI-P];[manual][DI-M] |
-| Power / battery / USB | **9VDC centre-negative,150mA consumption**. Manufacturerincludesadapter;sellerbundle unknown. Battery/USB unverified. | [Product][DI-P] |
-| IR / NAM / capture | Headphonecab simulation doesnotestablishuserIR,NAM orcapture;unverified. | [Manual][DI-M] |
+| I/O | INPUT, OUTPUT and PHONES are documented; input impedance 1 MΩ, output impedance 100 Ω. **PHONES includes cab simulation**, supports recording/PA connections, and follows module levels. A Chinese-page cab-sim paragraph names **Dapper Amp Mini** and cannot verify an Indie switch. Complete socket types and panel inventory remain unverified. | [Product][DI-P];[manual][DI-M] |
+| Power / battery / USB | **9 V DC centre-negative; 150 mA consumption**. Manufacturer lists an adapter; the seller bundle is unknown. Battery and USB power unverified. | [Product][DI-P] |
+| IR / NAM / capture | Headphone cab simulation does not establish user IR, NAM or capture support; all remain unverified. | [Manual][DI-M] |
 | Editor / software | Editor/platform support unverified. | Unresolved |
-| Looper / drums / live | Delay **25–2000ms**. LiquidFX/Echoes:holdswitchfortap,holdagainforknobmode. Ambientholdtogglestrail,LEDspulse. HoldFuzzWallformutedtuner;Chinese page saysanyfootswitch exits. Looper,drums,scenes andpresetspillover unverified. | [Product][DI-P];[manual][DI-M] |
+| Looper / drums / live | Delay range **25–2000 ms**. Liquid FX and Echoes use a hold for tap mode and another hold to restore knob control. Holding Ambient toggles trails, indicated by pulsing LEDs. Hold Fuzz Wall for muted tuning; the Chinese page says any footswitch exits. Looper, drums, scenes and preset spillover remain unverified. | [Product][DI-P];[manual][DI-M] |
 
 ### Separate IDR hardware offers
 
 | Condition | Evidence | Source |
 |---|---|---|
-| Used | Unknown;conditionnotestablished. | — |
-| New | Unknown;conditionandliveavailabilitynotestablished. | — |
+| Used | Unknown; condition not established. | — |
+| New | Unknown; condition and live availability not established. | — |
 
 ### Qualified seller observation
 
-ALLZ MUSIC SHOP,shop115662249/item51416841921: **Rp1,138,000**,month-old storefront. Exactitemlinkresolved;directitemcachemiss. Condition,stock,region,workingstate,bundle/adapter,warrantyandvouchereligibility unknown. Notaconfirmednew/usedrange. Manufactureridentityindependentofsellerunit;physicalrevisionunconfirmed.
+ALLZ MUSIC SHOP, shop 115662249 / item 51416841921: **Rp1,138,000**, observed in a month-old storefront cache. The exact item link is resolved; direct item access returned a cache miss. Condition, stock, region, working state, bundle/adapter, warranty and voucher eligibility remain unknown. This is not a confirmed new or used price range. Manufacturer documentation establishes the model independently of the seller unit; its physical revision is unconfirmed.
 
-OfficialEnglishV01_181229manualreadastwo-pagewebtext. No visualpanelverificationorfiledownload. ProductduplicatedEchoessectiondoesnotaddamodel/block;manualandproductaxislabelsremainvisible.
+The official English V01_181229 manual was read as two pages of web-rendered text. The panel has not been visually verified; no file was downloaded. The duplicated Echoes section does not add a model or block. Conflicting dimension-axis labels remain explicit.
 
 [DI-P]: https://www.valeton.net/product/dapper-indie/
 [DI-M]: https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf
@@ -1000,6 +1000,6 @@ OfficialEnglishV01_181229manualreadastwo-pagewebtext. No visualpanelverification
 
 ### Regional source qualification
 
-Chinese manufacturer page identifies an LED numeric tuner display and confirms any-footswitch tuner exit. Its section05 names Dapper Amp Mini and describes a cab-sim switch; this is cross-model copy and does not verify such a switch on Indie. Section07 separately describes Indie headphone cab simulation and module-dependent level, consistent with the English manual. CN V01_190322 manual timed out; no visual panel claim.
+Chinese manufacturer page identifies an LED numeric tuner display and confirms any-footswitch tuner exit. Its section 05 names Dapper Amp Mini and describes a cab-sim switch; this is cross-model copy and does not verify such a switch on Indie. Section 07 separately describes Indie headphone cab simulation and module-dependent level, consistent with the English manual. CN V01_190322 manual timed out; no visual panel claim.
 
 [DI-C]: https://zh.valeton.net/product/dapper-indie/

@@ -319,7 +319,7 @@ def main():
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): document PERFORM-V controls and microphone remote modes'
         if mode == 'commit-dapper-indie':
-            message = 'research(valeton): qualify Indie regional display and cross-model copy error'
+            message = 'research(valeton): clarify Indie fields and reconcile recorded discovery status'
         if mode == 'commit-dapper-dark-mini':
             message = 'research(valeton): add separate Dark Mini with indexed-manual qualifications'
         if mode == 'commit-blackhammer':

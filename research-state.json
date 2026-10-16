@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery after Indie",
-    "task": "Indie regional copy error/tuner details saved;panel/code/fullIOgapsretained. Resolve exact RK5 v2 search item,thenfreshbrand/seriesdiscovery.",
+    "model": "Fresh Shopee discovery / remaining technical gaps",
+    "task": "RK5 v2 exact item unresolved after Melodia storefront attempt. Do not repeat identical queries; use a new source or discover another eligible exact hardware offer.",
     "next_models": [],
-    "after_queue": "Do notassigngenericusedRK5toaversion;continueunverifiedfieldwork."
+    "after_queue": "Preserve revision separation and finish partial model fields using manufacturer evidence."
   },
   "new_findings": [
     {
@@ -3911,6 +3911,13 @@
         "access": "CNV01_190322manualtimeout;panel/code/fullIOremainunresolved",
         "source": "https://zh.valeton.net/product/dapper-indie/"
       }
+    },
+    {
+      "model": "Valeton Dapper Indie",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Rewrote the canonical section and projected comparison fields in readable prose without filling unsupported controls, port or capability gaps. Corrected stale discovery status so the already recorded model is not queued as new.",
+      "source": "https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf"
     }
   ],
   "consolidation_and_price_findings": [
@@ -39873,7 +39880,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after Indie."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / remaining technical gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -47919,6 +47926,14 @@
       "revision_evidence": "Officialsupport listsseparateoriginal/v2/v3manuals. v2archive identifiesaddedindependentreverb,rotarymode,compression,fuzz,tuner,headphones,XLR andSansAmponoffbutton. Sellertextdoesnotestablishthese.",
       "decision": "Deferred exactmodeladmission andpriceassignment:do notassigngenericRK5offer tov1/v2/v3. Activecountunchanged.",
       "next": "Resolvephysicalrevisionfrominspectableunitphotosornewexplicitversionlisting. Do notcontactsellerwithoutuserinstruction."
+    },
+    {
+      "id": "rk5_v2_resolution_followup",
+      "checked_date": "2026-10-17",
+      "model": "Tech 21 RK5 v2",
+      "seller_storefront": "https://shopee.co.id/melodiamusik?entryPoint=ShopByPDP",
+      "result": "Seller link from exact Fly Rig 5 v2 page resolved to Melodia storefront, but storefront access returned cache miss. Model/seller-specific RK5 searches returned no exact item. Existing generic Kamar Gear used RK5 remains unassigned to a revision.",
+      "next": "Use a new exact-item or revision-visible source before assigning RK5 used/new prices."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -48766,7 +48781,7 @@
       "bundle_variant": "unknown",
       "voucher": "unknown",
       "access": "Exactitemlinkfrommonth-oldreadablestorefront;directitemcachemiss",
-      "status": "Unrecorded candidate;manufacturerarchitecture/manualverificationrequired",
+      "status": "Recorded as Dapper Indie in VALETON.md; technical verification remains partial.",
       "qualified_used_new": false
     },
     "queries": [
@@ -48784,6 +48799,6 @@
       "access": "3monthsearchcache;item/sellernotresolved",
       "qualification": "NotassignedtogenericusedKamarGearRK5;notqualifiedexactoffer"
     },
-    "decision": "Indieexactitemnowresolved;nextprimaryverification. RK5genericversionstillunknown;v2specificsearchleadrequiresownitemlink."
+    "decision": "Indie is recorded once. RK5 generic used listing remains revision-unknown; v2 search result has no resolved exact item link."
   }
 }
