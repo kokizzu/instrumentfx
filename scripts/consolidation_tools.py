@@ -1767,28 +1767,36 @@ def audit_nux_union(verify=True, kind='nux'):
     print('Missing prose/source groups: '+str(len(missing)))
 
 
-def plan_advanced_hxe():
+def plan_advanced_hxe(model='HX Effects'):
+    assert model in ('HX Effects','Flex Prime')
+    flex = model == 'Flex Prime'
+    brand_file = 'HEADRUSH.md' if flex else 'LINE6.md'
     research_tools.identity()
     path = 'effects/advanced-modelers.md'
     source = (ROOT/path).read_text()
-    destination = (ROOT/'LINE6.md').read_text()
-    section = destination.split('\n## HX Effects\n',1)[1].split('\n## ',1)[0]
+    destination = (ROOT/brand_file).read_text()
+    section = destination.split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
-            if comparison_views.norm(row[0]) in ('hxeffects','line6hxeffects'):
+            if comparison_views.norm(row[0]) in (('flexprime','headrushflexprime') if flex else ('hxeffects','line6hxeffects')):
                 facts += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
     assert len(facts) == 15
     prefixes = ('Checked **2026-10-14**.', 'K/F/B =', 'The rounded Line 6 FAQ', "**HX Stomp's old FAQ", 'USB audio input/output counts')
+    if flex:
+        prefixes = ('Checked **2026-10-14**.', 'K/F/B =', '**Flex Prime is not restricted', 'USB audio input/output counts')
     contexts = [p for p in source.split('\n\n') if p.startswith(prefixes)]
-    assert len(contexts) == 5
-    urls = re.findall(r'https?://[^\s)]+', '\n'.join(line for line in source.splitlines() if line.startswith(('[hxe]:','- [HX Effects FAQ]'))))
-    assert len(urls) == 3
-    report = dict(model='HX Effects',source=path,source_sha256=digest(source),destination_sha256=digest(destination),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,missing_exact_fields=[f for f in facts if f['value'] not in section])
-    Path('/tmp/instrumentfx-advanced-hxe-plan.json').write_text(json.dumps(report,indent=2)+'\n')
-    print('HX Effects:15 fields/3rows,5 shared context paragraphs,3 model URLs;exact omissions='+str(len(report['missing_exact_fields'])))
+    assert len(contexts) == (4 if flex else 5)
+    urls = re.findall(r'https?://[^\s)]+', '\n'.join(line for line in source.splitlines() if line.startswith(('[flex]:','- [Flex Prime FAQ]') if flex else ('[hxe]:','- [HX Effects FAQ]'))))
+    assert len(urls) == (4 if flex else 3)
+    report = dict(model=model,source=path,source_sha256=digest(source),destination_sha256=digest(destination),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,missing_exact_fields=[f for f in facts if f['value'] not in section])
+    Path('/tmp/instrumentfx-advanced-'+('flex' if flex else 'hxe')+'-plan.json').write_text(json.dumps(report,indent=2)+'\n')
+    print(model+':15 fields/3rows,'+str(len(contexts))+' shared paragraphs,'+str(len(urls))+' model URLs;exact omissions='+str(len(report['missing_exact_fields'])))
 
 if __name__ == '__main__':
+    if sys.argv[1:] == ['plan-advanced-flex']:
+        plan_advanced_hxe('Flex Prime')
+        raise SystemExit(0)
     if sys.argv[1:] == ['plan-advanced-hxe']:
         plan_advanced_hxe()
         raise SystemExit(0)

@@ -903,3 +903,11 @@ consolidation-plan-advanced-hxe:
 .PHONY: research-commit-advanced-hxe-audit
 research-commit-advanced-hxe-audit:
 	python3 scripts/research_tools.py commit-advanced-hxe-audit
+
+.PHONY: consolidation-plan-advanced-flex
+consolidation-plan-advanced-flex:
+	python3 scripts/consolidation_tools.py plan-advanced-flex
+
+.PHONY: research-commit-advanced-flex-audit
+research-commit-advanced-flex-audit:
+	python3 scripts/research_tools.py commit-advanced-flex-audit

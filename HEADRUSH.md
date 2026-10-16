@@ -225,6 +225,7 @@ Confirm complete physical controls, actual power-label/manual consistency, curre
 
 ## Flex Prime
 
+<!-- comparison evidence begins -->
 **Technical observations retained from2026-10-14; new Shopee price evidence checked2026-10-15.** Guitar/bass multi-effects; **medium**, built-in expression. This consolidates all Flex Prime fields,qualifications and references from the mixed-brand advanced comparison, without importing the other brands' specifications.
 
 | Required field | Existing source-backed result / unresolved value |
@@ -265,3 +266,41 @@ Do not call these an authenticated active range. Exact condition,variant,bundle,
 [Official product](https://www.headrushfx.com/products/flex-prime/index.html); [model-specific FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000862403-headrush-flex-prime-frequently-asked-questions); [firmware downloads](https://www.headrushfx.com/downloads.html); [NAM format details](https://www.headrushfx.com/cloud/index.html).
 
 All Flex Prime technical statements above were consolidated from `effects/advanced-modelers.md` at source blob `f4ecc7b15636ab477803031d34bf280afa9b98dc`. Core was consolidated from its complete original finding at blob `dcff2b12eb7dc4196c93fdba5d8ca274d99d57f2`, together with its existing comparison context. Every model-specific source URL and unresolved qualification is retained. The old mixed-brand documents remain until their other brands and incoming links are checked; **the whole repository migration is not complete**. Neither consolidation nor new price observations add Core/Flex Prime again to the model count.
+<!-- comparison evidence ends -->
+
+### Preserved original shared-source Flex Prime fields
+
+Historical technical snapshot **2026-10-14**,retained2026-10-17. These exact rows preserve original wording and uncertainties. Later2026-10-15 IDR offers above retain their separate date;the original missing USD asks below do not erase them. Firmware5.2 references remain dated evidence,not proof of an installed version.
+
+| Original field | Original value |
+|---|---|
+| External expression | Yes, separate TRS EXP |
+| K/F/B | ?/3/? + expression toe switch |
+| W×D×H; weight | **295×150×70**, 1.57 kg |
+| Size class | Medium |
+| Used USD | ? |
+| New USD | ? |
+| Simultaneous processing / available choices | **14 DSP blocks**, 5 routing types; current page advertises 600+ amps/cabs/mics/effects, 100+ effects, 100+ amps, 80+ cabs and 360+ cab IRs |
+| Preset storage | Older FAQ states **40 factory rigs**; current factory count and total user capacity ? |
+| Synth / acoustic functions | Guitar/bass processing; exact synth/acoustic algorithms ? |
+| Third-party IR | **Yes**, WAV/AIFF; two IRs can share a block |
+| NAM / proprietary capture | **Native NAM**, current firmware: A2 Full/Lite and supported legacy models; also proprietary HeadRush/ReValver clones and SuperClones |
+| Audio/control ports | ¼″ guitar in; 2×¼″ main out; 3.5 mm aux/phones; stereo TRS FX send/return; external EXP; 3.5 mm MIDI IN/OUT; USB-B |
+| Power; battery/USB-powered? | **12 V/3 A centre-POSITIVE** adapter; USB/battery operation not established |
+| Configuration apps and USB functions | Wi-Fi **browser Remote Editor Windows/macOS/iOS/Android**; USB audio **4-in/4-out**, up to 24-bit/96 kHz |
+| Other important differences | 4″ touchscreen; scenes, gapless switching/spillover; 5-min loop layer, 20-min total loop audio; capture creation needs the documented external software/interface workflow |
+
+### Original shared qualifications
+
+Other model names retain shared context;their features are not assigned to Flex Prime.
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Native NAM, architecture-limited NAM, converted NAM, proprietary captures and cabinet IRs are different capabilities. An effects-only unit is not necessarily an amp modeler.
+
+K/F/B = rotary controls / footswitches / separate buttons. Push-encoders are counted once. Nano Cortex's rotary footswitches are explicitly called out rather than hidden in the knob count. Dimensions are **W×D×H, mm**. Prices are separate **USD** new and used observations; missing used prices have not been invented.
+
+**Flex Prime is not restricted to proprietary clones.** Its current manufacturer page explicitly documents **native NAM and TONE3000 access**. It specifies two A2 Full captures simultaneously, or four A2 Lite captures within two NAM blocks. The checked downloads include firmware **5.2**; architecture and DSP restrictions still apply. Its missing vocal input means Prime/Core presets do not automatically preserve vocal processing on Flex Prime.
+
+USB audio input/output counts use the manufacturer's interface convention. A capture microphone connector does not establish a dedicated live vocal-effects path. Do not connect an amplifier's speaker output directly to an instrument/capture input; the appropriate load/interface is required.
+
+Original model sources: [Source 1](https://www.headrushfx.com/products/flex-prime/index.html) · [Source 2](https://support.headrushfx.com/en/support/solutions/articles/69000862403-headrush-flex-prime-frequently-asked-questions) · [Source 3](https://www.headrushfx.com/downloads.html) · [Source 4](https://www.headrushfx.com/cloud/index.html)
+
