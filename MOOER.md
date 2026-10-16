@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. Twelve previously researched GE models still require complete consolidation; original GE100,GE150 and GE200 are consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. Eleven previously researched GE models still require complete consolidation; original GE100,GE150,GE200 and GE150 Pro Li are consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -441,3 +441,78 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Other documented functions** (5. Power, software and practice/live features): USB audio;52 s looper;40 rhythms+10 metronomes; Merge morphing
 
 Sources: [effects/findings/2026-10-14-mooer-ge200.md](effects/findings/2026-10-14-mooer-ge200.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+
+## GE150 Pro Li
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- MOOER-GE150-PRO-LI source begins -->
+
+Checked **2026-10-14**. **Partial new record**: battery-equipped Pro Li, not original GE150, mains-only Pro, Plus or Max. [Manufacturer page][MOOER-GE150-PRO-LI-P], [manufacturer-authored manual hosted by Rockboard][MOOER-GE150-PRO-LI-M] and [current firmware release notes][MOOER-GE150-PRO-LI-F]. Manual panel and specification pages were visually checked. The PDF metadata says P2, but its cover/content explicitly identify GE150 Pro / Pro Li.
+
+| Field | Established / unresolved |
+|---|---|
+| Expression | Built-in with toe switch; no external-expression jack in complete rear inventory |
+| Controls | **3 rotary /4 footswitches /6 buttons**; toe and rear power switch separate |
+| Display | **2.8-inch color LCD**; touch specification ? |
+| Size / weight | **310×153×55 mm; 1.2 kg**; large. Manufacturer L×W×H normalized with the long horizontal side as width |
+| Processing | **9 simultaneous modules**; manual baseline **151 models**, 55 amps/26 cabs; later firmware adds choices, so 151 is not asserted as the complete current library |
+| Presets | **200 editable, 200 factory-filled**, not 400 |
+| Synth / acoustic | Synth ?; three acoustic entries are described as **acoustic guitar amp simulations**, not proof of electric-to-acoustic conversion |
+| Ports | ¼-inch mono input; 2×¼-inch unbalanced outputs; ⅛-inch aux/phones; USB-C; no XLR or FX-loop jacks in panel inventory |
+| Power | **9 V center-negative, 1.5 A adapter**; rechargeable **2000 mAh, 7.4 V, 14.8 Wh**; manufacturer-rated about 9 h. USB operation/charging not established; do not copy mains-only Pro's 300 mA rating |
+| IR / sample storage | WAV **24-bit/44.1 kHz, 512 points**; launch page says 10 user IRs, but firmware V1.5 expands CAB sample slots to **20**, with **20 AMP sample slots** |
+| NAM | **Converted NAM A2**, not unrestricted native loading; see firmware details below |
+| Apps | Current editor/update package: **Windows 10+ /macOS 10.13+**; mobile OTG audio is not a mobile editor |
+| Extras | **80 s stereo looper; 40 drum rhythms +10 metronomes**; firmware adds global EQ and conditional delay/reverb spillover |
+
+### Current loading support — firmware-dependent
+
+MOOER's **August 2026 GE150 Pro V2.1.4** release notes document **NAM A2 conversion/import through the built-in converter**, into the AMP module only. Pedal/amp-head captures use PREAMP SAMPLE; amp-plus-cab captures use ENTIRE SAMPLE. April 2026 introduced the earlier NAM import workflow; the August update explicitly adds A2. This is not evidence that arbitrary NAM architectures run natively.
+
+V1.5 notes also document proprietary **MNRS GNR/GIR** support, sample-slot expansion and additional algorithms. Current per-category totals have not been fully recounted. Firmware notes for the **Plus/Pro/Max family do not establish support on original GE150**.
+
+### Shopee Indonesia
+
+| Condition / status | IDR ask | Exact evidence |
+|---|---:|---|
+| Explicit **Second like new**, stock unconfirmed | **Rp2.400.000** | [Deny Shop9805 exact item][MOOER-GE150-PRO-LI-S1], reached from its storefront |
+| Retail, **sold out** | **Rp2.695.000** | [One Two Three listing][MOOER-GE150-PRO-LI-S2] |
+| Retail, **sold out** | **Rp3.160.000** | [Wiras listing][MOOER-GE150-PRO-LI-S3] |
+
+These are asking/listed amounts, not completed sales or an active used-to-new market range. Condition is the seller's claim; accessories, selected variant, authenticity, warranty and delivery need confirmation. Mixed Pro/Pro Li/Max listings are excluded from model-specific prices unless the selected variation is established.
+
+[MOOER-GE150-PRO-LI-P]: https://www.mooeraudio.com/products/207.html
+[MOOER-GE150-PRO-LI-M]: https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE150_Pro_Manual_EN.pdf
+[MOOER-GE150-PRO-LI-F]: https://www.mooeraudio.com/Downloads_xq/6.html
+[MOOER-GE150-PRO-LI-S1]: https://shopee.co.id/Mooer-GE150-Pro-Li-Second-like-new-i.1314213207.53654639500
+[MOOER-GE150-PRO-LI-S2]: https://shopee.co.id/Efek-Gitar-MOOER-GE150-PRO-Li-Rechargeable-Internal-Battery-Li-ion-AMP-Modelling-Multi-Effects-Pedal-Guitar-GE-150-PRO-Li-150-Effects-Impulse-Response-Stompbox-i.1505062399.29040470326
+[MOOER-GE150-PRO-LI-S3]: https://shopee.co.id/MOOER-GE150-Pro-Li-MULTI-EFFECTS-i.399870342.27980677757
+
+**Next:** complete current category counts and converter restrictions; verify explicit touch, USB-power behavior and live listing conditions. Back up presets and match exact hardware/editor before any update.
+<!-- MOOER-GE150-PRO-LI source ends -->
+
+### GE150 Pro Li — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **External expression / toe** (Built-in expression): No socket / toe yes
+- **K/F/B** (Built-in expression): 3/4/6
+- **Dimensions; weight** (Built-in expression): 310×153×55; 1.2 kg
+- **Size** (Built-in expression): Large
+- **Used IDR** (Built-in expression): **Rp2.400.000, Second like new**, stock unconfirmed
+- **Retail IDR observation** (Built-in expression): **Rp2.695.000 / Rp3.160.000, separate sold-out asks**
+- **Display type** (2. Displays): LCD
+- **Diagonal** (2. Displays): 2.8
+- **Monochrome / color** (2. Displays): Color
+- **Touch** (2. Displays): ?
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 9 simultaneous; **151 manual baseline**, later firmware adds models; current full count pending
+- **Preset storage** (3. Processing, presets and loading): 200 editable /200 factory-filled
+- **Acoustic simulation / synth** (3. Processing, presets and loading): 3 acoustic **amp** simulations, converter sim ? / synth ?
+- **IR / NAM** (3. Processing, presets and loading): CAB sample slots expanded to **20**, AMP samples20; **NAM A2 conversion** via Pro V2.1.4, not unrestricted native NAM
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch mono input; 2×¼-inch unbalanced outputs; ⅛-inch aux/phones; USB-C; no XLR/FX-loop/EXP jacks in panel inventory
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative/1.5A adapter**;2000mAh/7.4V battery; rated~9h; USB power/charge ?
+- **Configuration apps** (5. Power, software and practice/live features): Current Windows10+/macOS10.13+ editor
+- **Other documented functions** (5. Power, software and practice/live features): 80 s stereo looper;40 rhythms+10 metronomes; conditional spillover/global EQ with firmware
+
+Sources: [effects/findings/2026-10-14-mooer-ge150-pro-li.md](effects/findings/2026-10-14-mooer-ge150-pro-li.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
