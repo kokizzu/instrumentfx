@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "POD Express Bass lossless repair",
-    "task": "Audit found omitted original URLs in POD Express Bass (five) and G11(one). Guitar full body restored and Yamaha dimensions reverified. Read complete Bass legacy/root sections,repair one model and commit before G11. Then broaden exact body/section/URL audit, fresh discovery and unresolved fields. Do not treat URL presence as full lossless proof.",
+    "model": "Zoom G11 lossless repair",
+    "task": "POD Express Guitar and Bass full bodies restored with hashes. Inspect G11 original/root: one omitted quick-guide URL identified. Repair full model preservation and commit,then broaden source-body/section/URL audit and continue fresh discovery/unresolved fields.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -9602,6 +9602,21 @@
       "renamed_references": [],
       "retained_comparison_facts": [],
       "scope": "Complete original body restored with all six missing URLs and historical contradictions. Fresh primary Yamaha dimensions and App Store iOS minimum correct earlier root regressions; no model added, no source removed."
+    },
+    {
+      "models": [
+        "Line 6 POD Express Bass"
+      ],
+      "model_name": "POD Express Bass",
+      "destination": "LINE6.md#pod-express-bass",
+      "source": "effects/findings/2026-10-15-line6-pod-express-bass.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "LINE6-PE-BASS",
+      "source_sha256": "505c0fa7edbddc89478287c2276fb0b9305dddd70085dda2556c02350b0b8373",
+      "renamed_references": [],
+      "retained_comparison_facts": [],
+      "scope": "Complete original body restored,including Dial Musik sold-out ask and omitted source URLs. Joint manufacturer dimensions restore earlier root regression. Comparison keeps current evidence separate from dated archive; no added model or deleted source."
     }
   ],
   "discovery_leads": [
@@ -10151,13 +10166,8 @@
     "url_audit": {
       "date": "2026-10-17",
       "scope": "Original finding_files URL presence against destination brand file,not proof of exact model-section coverage or full body preservation.",
-      "finding": "Three model destinations had omissions. POD Express Guitar repaired first and must be committed before other models.",
+      "finding": "POD Express Guitar and Bass complete original findings restored; G11 remains before broadening the audit. URL presence alone does not establish lossless preservation.",
       "pending": [
-        {
-          "model": "Line 6 POD Express Bass",
-          "source": "effects/findings/2026-10-15-line6-pod-express-bass.md",
-          "missing_url_count": 5
-        },
         {
           "model": "Zoom G11",
           "source": "effects/findings/2026-10-15-zoom-g11.md",
@@ -10247,7 +10257,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume POD Express Bass lossless repair."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G11 lossless repair."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

@@ -200,14 +200,15 @@ Remaining: weight battery inclusion, any later undocumented loading capability a
 
 ## POD Express Bass
 
-**New bass-specific model, checked2026-10-15.** A separate hardware/sound-library record, not a color option for POD Express Guitar. The official Bass product and joint2.00 manual explicitly document the following common hardware and different processing path. This record is partial; current dimensional evidence and precise OS minima remain unresolved.
+**New bass-specific model, checked2026-10-15.** A separate hardware/sound-library record, not a color option for POD Express Guitar. The official Bass product and joint2.00 manual explicitly document the following common hardware and different processing path. This record remains partial. Dimensions were repaired from the joint manufacturer announcement on2026-10-17; platform-specific OS minima need separate evidence.
 
+<!-- comparison evidence begins -->
 | Required field | Verified specification / limitation |
 |---|---|
 | Expression | **No built-in pedal**;one shared TRS VOLUME/FS3,4 port for volume expression,two switches or expression plus one switch. Arbitrary effect-parameter expression is not established. [PE-B,PE-M] |
 | Controls | **6 rotary /2 footswitches /1 button**: amp encoder,four category knobs,side volume;ON,TAP;ALT. Encoder press is not counted again. [PE-B] |
 | Display | **No graphical/numeric screen;no touchscreen**. Seven multicolor LED ring segments and switch LEDs are indicators,not a color graphical display. Diagonal and screen color classification N/A. |
-| Dimensions / mass | **Unverified from primary sources**. The inconsistent350g/400g and rounded reseller measurements are not substituted for manufacturer specifications; mechanical size bin remains unknown. |
+| Dimensions / mass | **92 W ×130 D ×56 H mm;350g**,compact. [Yamaha announcement2024-03-06](https://www.yamaha.com/ja/news_release/2024/24030601/) explicitly names both Guitar and Bass; reopened2026-10-17 during the Guitar repair. Battery inclusion in the published mass remains unresolved; retailer400g is not silently substituted. |
 | Processing | Fixed serial path: **gate → compressor → synth → distortion → amp → cab → volume → modulation/delay**. Four effect categories plus amp/cab and utilities,not freely assignable slots. The30-second stereo looper shares the final MOD/DELAY selector and is placed post-processing when active. [PE-M] |
 | Library | **7 bass amps,7 bass cabinets,17 effect choices including looper**. Amp names: Round,Grit,Vintage,Punch,Modern,Studio,Deep. Gate/volume do not add to the advertised17. [PE-B,PE-M] |
 | Compression choices | **4**: Optical,LA,Deluxe,Limiter. |
@@ -219,7 +220,7 @@ Remaining: weight battery inclusion, any later undocumented loading capability a
 | IR / NAM / captures | Seven factory cabinets selectable/bypassable;third-party IR,native/converted NAM or user capture import **not established** in the2.00/editor documentation. Preset management is not model/IR import. |
 | Ports | One6.35mm mono1MΩ input;two6.35mm impedance-balanced680Ω TRS main outs L/MONO,R;3.5mm stereo phones;USB-C;external-control TRS;DC. Not true differential-balanced outputs. No mic/XLR/phantom,analog aux,FX loop or physical MIDI port in the documented inventory. [PE-B,PE-IO] |
 | Power | **3 AA or9V center-negative,2.1mm,≥500mA/4.5W supply;NO USB bus power.** Supply rating is not measured draw. Battery operation powers on with an instrument cable. Manufacturer alkaline runtime typically6h and up to10h ideal;depends on use. No internal AA charger documented. [PE-M,PE-F] |
-| Editor | **POD Express Edit Windows/macOS/iOS/iPadOS/Android**,hardware2.00+;desktop Central updater separately. The joint manual's contradictory OS-minimum tables are retained in the Guitar entry; no arbitrary minimum or Linux-editor claim. [PE-R,PE-M] |
+| Editor | **POD Express Edit Windows/macOS/iOS/iPadOS/Android**,hardware2.00+;desktop Central updater separately. Current Line6 [App Store1.10](https://apps.apple.com/gb/app/pod-express-edit/id6504572519),checked2026-10-17,requires **iOS/iPadOS14+**; this is the mobile package,not the separate desktop editor. Conflicting old manual minima remain historical; no Linux editor established. [PE-R,PE-M] |
 | USB audio | **4-in/4-out,24-bit/48kHz**,processed1/2,dry3/4,reampUSB3/4;Windows ASIO,other supported platforms class compliant. USB recording still requires AA/DC power. [PE-M,PE-F] |
 | Live / practice | **30s stereo looper**,one-switch,post-effects,undo/redo;clears on preset change,exiting looper or power-off. Tuner,tap,external-switch assignments. Internal drums not established. [PE-M] |
 
@@ -230,6 +231,58 @@ The family manual's headphone/main-output caveat also applies: L/MONO sums to mo
 **Retail indexed ask: Rp3.099.000**, [Seven Stereo Music & Audio Store, Shopee shop16879370/item29813481193](https://shopee.co.id/Line-6-POD-Express-Bass-INT-P38-2-i.16879370.29813481193). Re-found2026-10-15; the indexed body retains **August13–15 delivery text**, and direct reopening failed. Not verified current stock,new-condition certification or a completed sale. Accessories,regional warranty and shipping remain unknown. **Used IDR: ?**. No conversion or assumed secondhand percentage.
 
 [PE-B] [Official POD Express Bass page with numbered controls/ports](https://line6.com/podexpress/bass-effects). The Bass-specific effect table and signal path are in [PE-M] above, especially printed pp.26–27. [PE-F] explicitly names Bass for the battery,USB-power and driver rules. Sources shared across models are explicit manufacturer family documentation,not sibling-model inference.
+
+**Additional historical retail IDR ask Rp3.200.000**, [Dial Musik,shop338305078/item29164837310](https://shopee.co.id/Line-6-Pod-Ekspress-Bass-Efek-Bass-Line-6-Pod-Original-i.338305078.29164837310),observed2026-10-15 as **sold out** in the preserved original finding. No2026-10-17 offer refresh claimed. Condition grade,new status,bundle,warranty region,shipping,total and stock unverified. Not a current market upper/lower bound or completed sale.
+
+<!-- comparison evidence ends -->
+
+### POD Express Bass — migration correction and complete original finding
+
+The root previously said: **Unverified from primary sources**. The inconsistent350g/400g and rounded reseller measurements are not substituted for manufacturer specifications; mechanical size bin remains unknown. That uncertainty was a consolidation regression: the original finding cited Yamaha directly. The primary announcement explicitly documents Bass as well as Guitar. Current field corrected; battery-inclusion uncertainty remains. The legacy seven-factory-filled statement and all price/access/OS/manual qualifications are retained below without presenting an old observation as a new device inspection. No original source deleted.
+
+<!-- LINE6-PE-BASS source begins -->
+
+Reviewed **2026-10-15**. Compact bass multi-effects, separate from Guitar and Black. The manufacturer shared manual expressly documents this model; common hardware is not borrowed without that evidence.
+
+### Required comparison
+
+| Field | Verified result / explicit limitation |
+|---|---|
+| Expression / controls | No built-in pedal; one shared6.35 mm TRS input for volume expression, one expression plus footswitch, or two footswitches. **6 rotary /2 footswitches /1 ALT button**, including side volume thumbwheel [P,M] |
+| Size / weight | **92 W ×130 D ×56 H mm;350 g**, compact. Published mass does not explicitly identify battery inclusion [Y] |
+| Display | No screen: seven multicolor LED segments plus indicators. Diagonal/color screen fields N/A; touchscreen No [P] |
+| Signal chain | **8 fixed serial stages**: gate, compressor, synth, distortion, amp, cab, volume, and modulation/delay/looper. Four simultaneous effect categories plus amp/cab/utilities; not freely assignable slots [M] |
+| Library | **7 bass amps,7 cabinets; compressor4,synth-category4,drive4,modulation3,delay1,looper1 =17 effects**. The synth category mixes octave/filter and true synth-style choices; not four independent synthesizers [P,M] |
+| Synth / acoustic | **Synth yes:** Growl and String are among the documented bass synth choices. Acoustic simulator not identified in the inspected library. Guitar version's reverb section is not present here [M] |
+| Presets | **21 overwriteable locations;7 factory-filled**. No separate21-slot user bank beyond those locations [P,M] |
+| IR / NAM | Seven factory cabinets, separately selectable/bypassable. Third-party IR import and native/converted NAM or amp-capture loading **not established**; preset-file management does not imply sample loading [M] |
+| I/O | One6.35 mm mono input;2×6.35 mm main outs;dedicated3.5 mm stereo phones;shared external EXP/FS;USB-C;DC. No analog aux,FX loop,mic/phantom or physical MIDI socket [P] |
+| Output electrical type | **Impedance-balanced TRS**, not fully differential balanced outputs, per the official family electrical specification [K] |
+| Power | **3 AA or9 V center-negative supply,minimum500 mA/4.5 W,2.1 mm center pin. USB power explicitly unsupported.** Adapter specification is not measured draw [M,F] |
+| Configuration | **POD Express Edit Windows/macOS/iOS/Android**, full parameter/preset/backup editing, requiring device firmware2.00+. Current iOS/iPadOS minimum14 supersedes old manual12.1. Firmware updates use the desktop app/Line6 Central; Linux editor not established [M,A,G] |
+| USB audio | **4-in/4-out,24-bit/48 kHz**, dry capture/reamp and stereo playback; Windows ASIO and Mac/iOS/Android class support [M,F] |
+| Practice/live | **30-second stereo looper**, undo/redo,tuner,tap,preset preselection. **Modulation,delay and looper are alternatives in one block**, so do not imply simultaneous chorus+delay+looper. No internal drum machine established [M] |
+
+### Bass model choices
+
+Amp labels: Round,Grit,Vintage,Punch,Modern,Studio,Deep. Compressor: Optical,LA,Deluxe,Limiter. Synth category: Octave,Growl,String,Mutant. Drive: Boost,Overdrive,Distortion,Fuzz. Last block: Chorus,Flanger,Phaser,Digital Delay or Looper. These are the Bass-specific choices, not a reused Guitar effect table [M].
+
+### IDR listing evidence
+
+**Retail indexed ask Rp3.099.000**, [Seven Stereo, Shopee shop16879370/item29813481193](https://shopee.co.id/Line-6-POD-Express-Bass-INT-P38-2-i.16879370.29813481193); cached13–15 August delivery text, direct reopening failed. Separate **Rp3.200.000 sold-out** offer: [Dial Musik shop338305078/item29164837310](https://shopee.co.id/Line-6-Pod-Ekspress-Bass-Efek-Bass-Line-6-Pod-Original-i.338305078.29164837310). **Used IDR unknown.** No checkout stock, seller authentication, warranty, condition grade or completed-sale assertion; the sold-out ask is not a current upper/lower market bound.
+
+### Primary sources
+
+[P] [Line6 Bass product and numbered hardware features](https://line6.com/podexpress/bass-effects).
+[Y] [Yamaha manufacturer announcement](https://www.yamaha.com/ja/news_release/2024/24030601/), body dimensions/weight.
+[F] [Official shared FAQ](https://kb.line6.com/pod-express-guitar-pod-express-bass-pod-express-black-faq).
+[K] [Official I/O electrical specifications](https://kb.line6.com/pod-express-input-and-output-specs).
+[A] [Line6 developer App Store listing](https://apps.apple.com/gb/app/pod-express-edit/id6504572519).
+[G] [Yamaha Guitar Group Google Play listing](https://play.google.com/store/apps/details?id=com.line6.podexpressedit&hl=en).
+[M] Manufacturer **2.00 RevE manual**, [actual manual text](https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual), named Bass signal path/library, power, memory and editor. Older RevC PDF was also parsed; attempted screenshots failed, so no visual PDF verification is claimed. Its obsolete seven-block sentence is superseded by the explicitly enumerated eight-stage chain and current manual.
+
+Remaining: battery inclusion in mass, later undocumented loading capabilities and active condition-specific offers. **Next Shopee-first model: Hotone Ampero One MP-80.** POD Express Black still needs an exact Indonesian hardware listing before Shopee-priority promotion.
+<!-- LINE6-PE-BASS source ends -->
 
 ## HX Effects
 
