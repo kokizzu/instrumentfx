@@ -753,3 +753,9 @@ consolidation-audit-compact-gp180:
 	python3 scripts/consolidation_tools.py audit-compact GP-180
 research-commit-compact-gp180-audit:
 	python3 scripts/research_tools.py commit-compact-gp180-audit
+
+.PHONY: consolidation-audit-compact-smartbox research-commit-compact-smartbox-audit
+consolidation-audit-compact-smartbox:
+	python3 scripts/consolidation_tools.py audit-compact "Smart Box"
+research-commit-compact-smartbox-audit:
+	python3 scripts/research_tools.py commit-compact-smartbox-audit

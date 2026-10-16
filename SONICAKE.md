@@ -83,6 +83,40 @@ Retail **Rp1.840.000**, [Shopee sonicakeindonesia,shop1563832992/item54263539629
 
 Sources: [manufacturer product/downloads](https://www.sonicake.com/products/smart-box); [original multilingual manual](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf),English p.5 visually inspected in original review; [official panel photo](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1440). Physical navigation does not establish an explicit no-touch specification. Remaining: touch,NAM restrictions,complete category list and condition-specific prices.
 
+### Smart Box shared comparison provenance
+
+Complete compact-source audit checked on 2026-10-17. Exact model fields below preserve the 2026-10-14 snapshot, not new stock or compatibility tests.
+
+- **Display** (1. Displays): LCD
+- **Diagonal, inches** (1. Displays): 1.77
+- **Monochrome / color** (1. Displays): Color
+- **Touchscreen** (1. Displays): ?
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer multilingual manual, English printed p.5](effects/findings/2026-10-14-sonicake-smart-box.md)
+- **Built-in / external expression** (No built-in expression pedal): No / EXP/FS
+- **K/F/B** (No built-in expression pedal): 1/2/13 [manual]; rear power separate
+- **Width × depth × height, mm** (No built-in expression pedal): 135 × 114 × 51
+- **Weight** (No built-in expression pedal): 378 g
+- **Used IDR observation** (No built-in expression pedal): ?
+- **New / retail IDR observation** (No built-in expression pedal): **Rp1.840.000**, Shopee seller sonicakeindonesia; retail listing, detailed condition/stock unconfirmed [FSB]
+- **Simultaneous blocks / categories and choices** (3. Processing, memory, IR and NAM): 9: NR, FX1, DRV, AMP, IR, EQ, FX2, DLY, RVB; 130+ effects; individual counts ?
+- **Presets and user storage** (3. Processing, memory, IR and NAM): 100 total / 50 factory-filled
+- **Synth / acoustic functions** (3. Processing, memory, IR and NAM): Exact synth/acoustic choices ?
+- **Third-party IR** (3. Processing, memory, IR and NAM): 5 user slots
+- **NAM / captured models** (3. Processing, memory, IR and NAM): Third-party NAM / NAM A2 workflow advertised; architecture restrictions not established
+- **Audio / control connections** (4. Connections, power, apps and practical differences): ¼″ input; one ¼″ TRS stereo output; separate 3.5 mm headphones; EXP/FS; USB-C
+- **Power and battery** (4. Connections, power, apps and practical differences): 2000 mAh rechargeable; DC 9 V centre-negative >700 mA or USB 5 V >1 A
+- **Configuration software** (4. Connections, power, apps and practical differences): Windows/macOS; **iOS/Android SONICLINK explicitly listed** [FSB]
+- **Other relevant features** (4. Connections, power, apps and practical differences): USB 2-in/2-out with loopback/reamp; 20 s looper; 100 rhythms
+- **Original used quote** (Archived foreign-price provenance — not the comparison currency): Unverified
+- **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD94.99
+- **Original evidence** (Archived foreign-price provenance — not the comparison currency): [Official product page][smartbox]
+
+Sonicake's checked Matribox download section lists firmware **1.1.0** and desktop software **1.1.1** with NAM A2 support; its instructions require the older software for the firmware-update step. Pocket Master's page lists firmware **1.3.3**, Manager **1.5.2**, and SONICLINK **1.7.2**. Smart Box also lists iOS/Android SONICLINK **1.7.2**. Follow the matching manufacturer instructions. These are documented workflows, not compatibility tests of every NAM architecture or regional unit.
+
+These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected.
+
+Historical source key: `FSB` means the [original Smart Box finding](effects/findings/2026-10-14-sonicake-smart-box.md); `manual` means the [manufacturer multilingual manual](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf); `smartbox` means the [official model page](https://www.sonicake.com/products/smart-box). The shared firmware paragraph discusses distinct devices and is not permission to transfer their firmware or architecture limits.
+
 ## Pocket Master QME-10
 
 **Existing review2026-10-14. Handheld/desktop multi-effects, not conventional foot-operated hardware.** Separate from M-VAVE Pocket Amp.

@@ -1526,7 +1526,29 @@ def audit_compact_matribox():
         assert paragraph.replace('(findings/', '(effects/findings/') in destination, 'Missing shared context: '+prefix
     print('PASS Matribox: 23 fields/five rows plus exact regional-price and firmware context retained. No source retirement or new firmware/stock verification.')
 
+
+def audit_compact_smartbox():
+    research_tools.identity()
+    source = (ROOT/'effects/guitar-compact.md').read_text()
+    destination = (ROOT/'SONICAKE.md').read_text().split('\n## Smart Box QME-20\n',1)[1].split('\n## ',1)[0]
+    facts = []
+    for headers, rows, context in comparison_views.tables(source):
+        for row in rows:
+            label = re.sub(r'\[([^\]]+)\]\[[^\]]+\]', r'\1', row[0])
+            if label in ('Smart Box', 'Smart Box QME-20', 'Sonicake Smart Box, QME-20'):
+                facts += [(h,v.replace('(findings/', '(effects/findings/')) for h,v in zip(headers[1:],row[1:])]
+    assert len(facts) == 23, 'Smart Box field count changed'
+    for field, value in facts:
+        assert value in destination, 'Missing Smart Box field: '+field
+    for prefix in ("Sonicake's checked Matribox", 'These earlier observations'):
+        assert next(p for p in source.split('\n\n') if p.startswith(prefix)) in destination, 'Shared context missing'
+    for url in ('effects/findings/2026-10-14-sonicake-smart-box.md', 'https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf', 'https://www.sonicake.com/products/smart-box'):
+        assert ']('+url+')' in destination, 'Source key missing'
+    print('PASS Smart Box: 23 fields/five rows, shared firmware/foreign-price context and source-key links retained. No stock or native NAM certification.')
+
 def audit_compact(model):
+    if model == 'Smart Box':
+        return audit_compact_smartbox()
     if model == 'Matribox':
         return audit_compact_matribox()
     research_tools.identity()

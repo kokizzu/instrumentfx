@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Smart Box QME-20 shared compact-source audit",
-    "task": "GP-180 exact 23 fields/five rows and registered shared context verified; historical reference key added, later NAM/power/price evidence retained. Next audit Smart Box shared compact rows/context/URLs and projection, commit before another model. Pocket Master then broader shared/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
+    "model": "Sonicake Pocket Master QME-10 shared compact-source audit",
+    "task": "Smart Box shared 23 fields/five rows, firmware/foreign-price context and source key preserved. Next inspect Pocket Master root/shared rows and exact context/URLs, commit before another model. Broader source/incoming-link audits, technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -14263,10 +14263,18 @@
           "model_rows": 5,
           "repair": "Added controls/F180/P8 source key; existing shared power context and later NAM/power/price qualifications retained.",
           "scope": "Shared row/context/reference audit, not new hardware or stock verification."
+        },
+        {
+          "model": "Sonicake Smart Box QME-20",
+          "destination": "SONICAKE.md#smart-box-qme-20",
+          "target": "make consolidation-audit-compact-smartbox",
+          "retained_fields": 23,
+          "model_rows": 5,
+          "repair": "Exact shared rows, firmware/foreign-price paragraphs and explicit source key added.",
+          "scope": "Shared evidence preservation only; native-versus-converted NAM and current stock remain unverified."
         }
       ],
       "remaining_models": [
-        "Smart Box QME-20",
         "Pocket Master QME-10"
       ],
       "source_retired": false
