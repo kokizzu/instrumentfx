@@ -389,3 +389,11 @@ consolidation-apply-ge1000-li:
 	python3 scripts/consolidation_tools.py apply ge1000-li
 consolidation-commit-ge1000-li:
 	python3 scripts/consolidation_tools.py commit ge1000-li
+
+.PHONY: consolidation-plan-gp-100 consolidation-apply-gp-100 consolidation-commit-gp-100
+consolidation-plan-gp-100:
+	python3 scripts/consolidation_tools.py plan gp-100
+consolidation-apply-gp-100:
+	python3 scripts/consolidation_tools.py apply gp-100
+consolidation-commit-gp-100:
+	python3 scripts/consolidation_tools.py commit gp-100
