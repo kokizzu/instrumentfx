@@ -1017,3 +1017,132 @@ Checked **2026-10-16**. Cached exact hardware text is not live checkout or stock
 [GX1-IR]: https://static.roland.com/manuals/gx-1_gx-1b_bts_pc/en-US/490025739490499467.html
 [GX1-USB]: https://static.roland.com/manuals/gx-1_parameter/en-US/368274827368317323.html
 [GX1-LOOP]: https://static.roland.com/manuals/gx-1_reference/en-US/353623307356944011.html
+
+## ME-90
+
+Consolidated and refreshed **2026-10-16**; partial verification. This is the guitar ME-90, not ME-90B. Original dates, sources and price qualifications remain below. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- BOSS-ME-90 source begins -->
+
+Checked **2026-10-15**. Updates an existing [BOSS comparison](effects/guitar-boss.md) record; not another model.
+
+### Display and controls
+
+The [manufacturer specification](https://www.boss.info/global/products/me-90/) explicitly identifies a **two-character, seven-segment LED display**, not a graphical LCD. Graphical-screen diagonal/color classification is **N/A**; physical readout dimensions/color are not published in the checked specification. **No touchscreen interface** is documented. Multicolored footswitch status LEDs must not be described as a color graphical display.
+
+The control list rechecks **25 knobs,8 main footswitches,4 buttons**, plus expression toe, rear power and output-mode switches separately. The page confirms36 factory+36 user presets,97 effect types,11 onboard amps,3 user IR slots and a38-second mono looper. Windows/macOS Tone Studio and IR loader remain separate applications; iOS/Android editing needs optional BT-DUAL. This is a scoped review, not a complete current algorithm-list transcription.
+
+### Separate IDR evidence
+
+| Channel / condition | Amount | Exact evidence and qualification |
+|---|---:|---|
+| Shopee retail, Eleven Music | **Rp7.450.000** | [shop12356205/item25352150117](https://shopee.co.id/Boss-ME-90-Guitar-Multi-Effects-Pedal-BOSS-ME90-Effect-Gitar-Original-i.12356205.25352150117); indexed hardware ask, detailed condition/checkout not verified |
+| Indonesian retailer Swee Lee | **Rp7.633.000** | [Retail page](https://www.sweelee.co.id/en/products/boss-me-90-guitar-multi-effects-pedal), opened and displays price, tax inclusion and in-store/online availability; delivery terms remain subject to checkout |
+| Shopee voucher-dependent | **Rp7.590.000 WITH VOUCHER** | [Gallery Music Bekasi shop760002726/item24507018815](https://shopee.co.id/Boss-ME-90-Guitar-Multiple-Effect-ME90-Efek-Gitar-i.760002726.24507018815); not an unconditional bare-unit amount |
+| Historical retail | **Rp8.980.000 — SOLD OUT** | [Melodia/Roland Store JKT shop30194339/item22780355508](https://shopee.co.id/Boss-ME-90-Guitar-Multi-effects-Pedal-i.30194339.22780355508) |
+| Used | **Unknown verified individual quote** | OLX search pages expose Rp5.300.000 ME-90 and Rp4.500.000 with PSA adapter, but individual ads/condition could not be opened; retained below as discovery only |
+
+Used-price leads: [OLX Studio/Panggung search](https://www.olx.co.id/bekasi-kota_g4000020/alat-musik-aksesoris_c217/q-boss?filter=type_eq_hobi-olahraga-alat-alat-musik-studio-panggung), [Bogor effects search](https://www.olx.co.id/bogor-kota_g4000021/alat-musik-aksesoris_c217/q-efek-bass). A category filter containing Bekas is not sufficient to assign an independently verified condition to an unopened individual ad. Neither lead is promoted to a confirmed active used lower bound.
+
+The manufacturer includes batteries, not the optional PSA adapter. A retailer [explicitly lists the adapter as excluded](https://www.blibli.com/p/boss-me-90-guitar-multi-effects-pedal/ps--MEM-70158-00082). Another Shopee item mixes four variations and sold-out states; its whole range is not treated as the processor's market price. Seller authenticity, accessories, region and delivered cost remain unverified unless specifically stated.
+
+Official product-image attempts failed; the segmented-display classification comes from the explicit specification, not an uninspected photo. Original USD observations remain historical. **Next existing-model review: GX-100.**
+<!-- BOSS-ME-90 source ends -->
+
+### ME-90 — supporting comparison facts
+
+| Required field | Retained observation |
+|---|---|
+| Screen type and resolution | **Two-character seven-segment LED readout**, not a graphical screen |
+| Published diagonal | N/A for graphical screen; physical readout size unpublished |
+| Monochrome / color evidence | Graphical-color classification N/A; separate status LEDs have colors |
+| Touchscreen | No touchscreen interface documented |
+| Size | Large |
+| Built-in / external expression | Yes+toe /no external EXP socket listed |
+| K/F/B | 25/8/4 |
+| Dimensions / pedal-up maximum | 443×220×67 /93H |
+| Weight | 2.9kg including batteries |
+| Used IDR | ? verified individual offer |
+| Shopee retail evidence | **Rp7.450.000** Eleven Music |
+| Separate local-retailer / historical context | Swee Lee **Rp7.633.000** retail; GalleryMusic **Rp7.590.000 WITH VOUCHER**; MelodiaShopee **Rp8.980.000 SOLD OUT** |
+| Simultaneous architecture / library | Dedicated amp+7effect categories;11onboardamps,60onboardeffects and20+alternate app selections;spec97types |
+| Factory / user memory | 36P+36U |
+| Synth / acoustic functions | **Acoustic simulation yes**;11PedalFX choices |
+| User IR / NAM | 3userIRs;NAM not established |
+| Audio / controller ports | Mono1/4-inch in,stereoout;mono FX loop;3.5mm phones;USB-C;BT-DUAL slot |
+| Power and USB operation | 4AA or PSA;190mA;USB bus operation not listed |
+| Configuration | Windows/macOS;mobile with optional BT-DUAL;separate IR Loader |
+| Additional features | USB audio;manualstompmode;38smono looper;noXLR DI |
+| Follow-up commit | `159700d4e4adbc9cd03b2094c35e9e7def9c01d4` |
+
+### ME-90 — original USD and technical provenance
+
+Research date **2026-10-14**. Technical sources are the linked manufacturer's specifications, including current firmware-dependent figures. **Partial records**: `?` means unverified. Dimensions are **W × D × H in mm**; `/max` gives the maximum height with the pedal raised. `K/F/B` = rotary controls / footswitches / separate buttons, excluding the expression toe switch and rear power/mode switches. Price columns are **USD US-market listed/asking observations**, not statistically estimated fair values; see sources below.
+
+Model totals have different inclusion rules. ME-90's selectable alternatives are not all simultaneously present on its panel. A missing NAM claim is not converted into a definitive “No” without model/firmware documentation.
+
+Price retrieval date: **2026-10-14**. Indexed older listings are explicitly less reliable than current, purchasable offers. No guarantee of stock, local Indonesian pricing, delivery cost or completed-sale value.
+
+
+| Required field | Original 2026-10-14 observation |
+|---|---|
+| Size class | Large |
+| Built-in / external EXP | Yes + toe / no external EXP socket listed |
+| K/F/B | 25/8/4 |
+| Dimensions | 443×220×67/max93 |
+| Weight | 2.9 kg incl. batteries |
+| Used USD | $254.99–294.99, Good–Great [U1,U4] |
+| New USD | $338.79, pedal without adapter bundle [N] |
+| Simultaneous blocks; categories / model choices | Dedicated amp + 7 effect categories; 11 onboard amps; 60 onboard effects and 20+ additional selections via app; specs count 97 types |
+| Factory / user memory | 36 P + 36 U |
+| Synth / acoustic simulator | **Acoustic simulation yes**; 11 Pedal FX choices |
+| User IR | 3 user speaker IRs |
+| NAM | Not established |
+| Physical audio/control ports | Mono ¼″ in, stereo ¼″ out; mono FX loop; 3.5 mm phones; USB-C; BT-DUAL slot |
+| Power; USB-powered? | 4 AA or PSA adapter; 190 mA; USB bus operation not listed |
+| Configuration apps | Windows/macOS; iOS/Android with optional BT-DUAL; separate IR loader |
+| Other practical features | USB audio; manual stomp mode; 38 s mono looper; no XLR DI |
+
+U1/U4: Guitar Center used USD254.99–294.99, Good–Great; U4 indexedUSD254.99 Good. N: newUSD338.79, pedal without adapter bundle. Checked2026-10-14; asking evidence, not completed sales or IDR. Adapter bundles/open-box separate.
+
+[Historical source](https://www.boss.info/global/products/me-90/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/Boss/?page=60)
+
+Sources retained unchanged: [follow-up](effects/findings/2026-10-15-boss-me90-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+
+### ME-90 — current comparison evidence
+
+Checked **2026-10-16**; fresh manual checks qualify the original facts above.
+
+<!-- comparison evidence begins -->
+
+| Required field | Current evidence and limits |
+|---|---|
+| Expression | Built-in pedal with toe switching; no external expression socket listed. Pedal becomes volume when PEDAL FX is off. [ME90-P], [ME90-M] |
+| K/F/B | **25 /8 /4**; toe, rear power and output-mode switches separate. [ME90-P] |
+| Display | **Two-character seven-segment LED**, not a graphical LCD. Graphical diagonal/color classification N/A; physical readout size/color unpublished in checked source. No touchscreen interface documented. [ME90-P] |
+| Dimensions / weight / size | **443×220×67 mm**, maximum height93 mm; **2.9 kg including batteries**. Large. [ME90-P] |
+| Simultaneous processing / category choices | Dedicated preamp plus seven effect sections, with noise suppression and volume utilities. 11 onboard amps,60 onboard effects and20+ alternate app selections retained; specification97 types uses different inclusion rules. Eleven PEDAL FX choices retained; complete current category subtotals and explicit maximum simultaneous count need checking. [ME90-P] |
+| Factory / user / total memory | **36 preset +36 user =72**. [ME90-P] |
+| Synth / acoustic | Acoustic simulation documented; dedicated synth engine unestablished. Do not infer from another ME processor. [ME90-P] |
+| IR / NAM / capture | **3 user IR slots**, empty at factory; select/store original cabinet or USER1–3 per patch using separate IR Loader. Native NAM, converted NAM and proprietary capture imports unestablished; exact IR format/rate/depth/length still unverified. [ME90-M] |
+| Audio / control I/O | Mono quarter-inch INPUT; two quarter-inch outputs; mono SEND/RETURN;3.5 mm PHONES;USB-C; dedicated BT-DUAL connector;DC. No XLR DI or external CTL/EXP socket listed. [ME90-P] |
+| Power / battery / USB power | Four AA or optional PSA adapter; **190 mA draw** retained. Manufacturer includes batteries, adapter sold separately. DC voltage/polarity and USB bus power remain unverified. [ME90-P] |
+| Editor / USB / platforms | Tone Studio Windows/macOS; separate IR Loader. iOS/Android editing requires optional BT-DUAL. USB audio/MIDI needs dedicated computer driver; dry-record, loopback and direct-monitor settings documented. USB channels/bit depth, mobile USB audio compatibility and detailed reamp path remain unresolved. [ME90-P], [ME90-M] |
+| Looper / routing / live use | **38 s mono**, overdub. Manual stomp and memory modes. FX-loop insertion before/after preamp; **SEND is silent without RETURN connected**. Dedicated DELAY carryover selectable; excludes delays in EQ/FX2 and MOD. No broader spillover/scenes/drums claim established. [ME90-M] |
+
+### ME-90 — separate IDR evidence
+
+Checked **2026-10-16**; cached exact hardware text is not live checkout/stock. Condition, adapter/bundle, warranty region, shipping/tax and seller affiliation unverified unless stated. Late-delivery compensation is not a checkout discount. Earlier retailer/OLX observations retain their2026-10-15 provenance above.
+
+| Condition / seller | IDR evidence and qualifications | Exact item / source |
+|---|---|---|
+| Used | Unknown; the older unopened OLX leads in the preserved finding are discovery only, with no verified individual condition/stock. | See full preserved finding above. |
+| Historical retail / Eleven Music | **Rp7.450.000**, indexed2026-10-15. Exact reopen failed2026-10-16; no new price/stock assertion. | [12356205 /25352150117](https://shopee.co.id/Boss-ME-90-Guitar-Multi-Effects-Pedal-BOSS-ME90-Effect-Gitar-Original-i.12356205.25352150117) |
+| Voucher-conditional / Gallery Music Bekasi | **Rp7.590.000 Dengan Voucher**; reopened cached body. Eligibility and undiscounted price unexposed; separate BelanjaRp10RB Diskon6% banner not applied as another hardware discount. Same-day delivery before09:00, not stock proof. | [760002726 /24507018815](https://shopee.co.id/Boss-ME-90-Guitar-Multiple-Effect-ME90-Efek-Gitar-i.760002726.24507018815) |
+| Sold-out retail / Melodia Musik Roland Store JKT,Jakarta Selatan | **Rp8.980.000,Habis**; cached same-day delivery before10:00 does not override sold-out label. Reopened exact body. | [30194339 /22780355508](https://shopee.co.id/Boss-ME-90-Guitar-Multi-effects-Pedal-i.30194339.22780355508) |
+| Historical local retail / Swee Lee | **Rp7.633.000**, tax included and online/in-store availability observed2026-10-15; not reopened or Shopee checkout evidence. | [Swee Lee](https://www.sweelee.co.id/en/products/boss-me-90-guitar-multi-effects-pedal) |
+
+<!-- comparison evidence ends -->
+
+[ME90-P]: https://www.boss.info/global/products/me-90/
+[ME90-M]: https://static.roland.com/assets/media/pdf/ME-90_reference_eng01_W.pdf
