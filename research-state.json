@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 157,
+  "active_model_count": 158,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 157,
+  "canonical_root_model_count": 158,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal. Exact ME-80 Shopee hardware discovery adds one distinct guitar processor:140active/root-canonical;116guitar,66bass,17vocal. ExactME-70hardwareShopee lead addsone distinctguitarprocessor:141active/rootcanonical,117guitar,66bass,17vocal. ExactRP360XP lead addsoneexpressionguitarprocessorandDigiTechbrand:142active/rootcanonical,24brands,118guitar,66bass,17vocal. ExactfaultyME-25hardwarelead plusmanufacturerproof addsoneeligibleguitarprocessor:143active/rootcanonical,119guitar,66bass,17vocal;faultyasknotworkingprice. Original G3 exact used hardware discovery adds one distinct guitar model:144 active/root-canonical;120 guitar,66 bass,17 vocal. Original B3 exact hardware discovery adds one bass-focused model:145 active/root-canonical;120 guitar,67 bass(16focused51shared),17 vocal. VoiceLive3 Extreme exact Indonesian hardware lead and manufacturer-authored manual add one distinct guitar/vocal model:146active/rootcanonical;121guitar,67bass,18vocal. Exact PANDORA stomp Shopee hardware andKorgguitar/bass evidence addone sharedmodel andKorgbrand:147active/rootcanonical,25brands;122guitar,68bass(16focused52shared),18vocal. Exact AX3000G used hardware and manufacturer documentation add one guitar model:148 active/root-canonical;123 guitar,68 bass,18 vocal. ME-50 exact Shopee lead and BOSS documentation add one effects-only guitar processor:149 active/root-canonical;124 guitar,68 bass,18 vocal. ME-20B manufacturer-confirmed bass processor, discovered via unresolved Shopee search anchor, adds one record:150 active/root-canonical;124 guitar,69 bass(17focused52shared),18 vocal. Search amount not a qualified exact offer. Exact GT-10 Shopee anchor and model-specific BOSS regional documentation add one guitar processor:151 active/root-canonical;125 guitar,69 bass,18 vocal. Exact GT-8 sold-out Shopee hardware and BOSS primary documentation add one guitar model:152 active/root-canonical;126 guitar,69 bass,18 vocal. RP255 exact Shopee hardware and DigiTech documentation add one guitar processor:153 active/root-canonical;127 guitar,69 bass,18 vocal. Exact used sold-out AX1500G hardware and Korg E2 manual add one guitar processor:154 active/root-canonical;128 guitar,69 bass,18 vocal. Exact ToneLab LE secondhand Shopee hardware and manufacturer manuals add one guitar processor and VOX brand:155 active/root-canonical,26 brands;129 guitar,69 bass,18 vocal. Exact ST Shopee hardware and VOX documentation add one distinct guitar processor:156active/rootcanonical;130guitar,69bass,18vocal. Exact sold-out SE Shopee hardware and manufacturer J1 manual add one distinct guitar processor:157active/rootcanonical;131guitar,69bass,18vocal.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal. Exact ME-80 Shopee hardware discovery adds one distinct guitar processor:140active/root-canonical;116guitar,66bass,17vocal. ExactME-70hardwareShopee lead addsone distinctguitarprocessor:141active/rootcanonical,117guitar,66bass,17vocal. ExactRP360XP lead addsoneexpressionguitarprocessorandDigiTechbrand:142active/rootcanonical,24brands,118guitar,66bass,17vocal. ExactfaultyME-25hardwarelead plusmanufacturerproof addsoneeligibleguitarprocessor:143active/rootcanonical,119guitar,66bass,17vocal;faultyasknotworkingprice. Original G3 exact used hardware discovery adds one distinct guitar model:144 active/root-canonical;120 guitar,66 bass,17 vocal. Original B3 exact hardware discovery adds one bass-focused model:145 active/root-canonical;120 guitar,67 bass(16focused51shared),17 vocal. VoiceLive3 Extreme exact Indonesian hardware lead and manufacturer-authored manual add one distinct guitar/vocal model:146active/rootcanonical;121guitar,67bass,18vocal. Exact PANDORA stomp Shopee hardware andKorgguitar/bass evidence addone sharedmodel andKorgbrand:147active/rootcanonical,25brands;122guitar,68bass(16focused52shared),18vocal. Exact AX3000G used hardware and manufacturer documentation add one guitar model:148 active/root-canonical;123 guitar,68 bass,18 vocal. ME-50 exact Shopee lead and BOSS documentation add one effects-only guitar processor:149 active/root-canonical;124 guitar,68 bass,18 vocal. ME-20B manufacturer-confirmed bass processor, discovered via unresolved Shopee search anchor, adds one record:150 active/root-canonical;124 guitar,69 bass(17focused52shared),18 vocal. Search amount not a qualified exact offer. Exact GT-10 Shopee anchor and model-specific BOSS regional documentation add one guitar processor:151 active/root-canonical;125 guitar,69 bass,18 vocal. Exact GT-8 sold-out Shopee hardware and BOSS primary documentation add one guitar model:152 active/root-canonical;126 guitar,69 bass,18 vocal. RP255 exact Shopee hardware and DigiTech documentation add one guitar processor:153 active/root-canonical;127 guitar,69 bass,18 vocal. Exact used sold-out AX1500G hardware and Korg E2 manual add one guitar processor:154 active/root-canonical;128 guitar,69 bass,18 vocal. Exact ToneLab LE secondhand Shopee hardware and manufacturer manuals add one guitar processor and VOX brand:155 active/root-canonical,26 brands;129 guitar,69 bass,18 vocal. Exact ST Shopee hardware and VOX documentation add one distinct guitar processor:156active/rootcanonical;130guitar,69bass,18vocal. Exact sold-out SE Shopee hardware and manufacturer J1 manual add one distinct guitar processor:157active/rootcanonical;131guitar,69bass,18vocal. Exact StompLab2B hardware and model-specific VOX bass documentation add one bass-focused processor:158active/rootcanonical;131guitar,70bass(18focused52shared),18vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee Indonesia discovery",
-    "task": "SE acoustic simulation,Hold Delay and editor MIDI constraints saved. Resume exact Shopee hardware discovery by brand/series; verify model-specific primary specifications and commit each model before another. Existing remaining technical fields and legacy compatibility paths still require work.",
+    "model": "VOX StompLab 2B primary follow-up",
+    "task": "Initial bass-only profile saved. Verify61total,amp/drive sharing,acoustic function,initial memories and power/live restrictions from IIB manual;commit before next model.",
     "next_models": [],
-    "after_queue": "No exhaustive market coverage claim."
+    "after_queue": "Continue fresh Shopee discovery."
   },
   "new_findings": [
     {
@@ -2683,6 +2683,37 @@
           "qualified offers"
         ]
       }
+    },
+    {
+      "model": "VOX StompLab 2B",
+      "path": "VOX.md#stomplab-2b",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf",
+        "https://voxamps.com/ja/product/stomplab-2b/"
+      ],
+      "offer": {
+        "url": "https://shopee.co.id/Vox-StompLab-2B-Bass-Modelling-Effect-Processor-i.16879370.1349945522",
+        "shop": "16879370",
+        "item": "1349945522",
+        "seller": "Seven Stereo Music & Audio Store",
+        "location": "Kota Bandung",
+        "idr": 1520000,
+        "condition": "unknown",
+        "stock": "Earlier index Habis;present unverified",
+        "access": "exact HTML opened,two-week cache",
+        "qualified_price": false
+      },
+      "remaining": [
+        "visual/display",
+        "61reconciliation and ampdrive sharing",
+        "initial user fill",
+        "acoustic/synth",
+        "polarity",
+        "imports/editor",
+        "looper/drums/trails"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -21239,7 +21270,8 @@
     "VOX": [
       "ToneLab LE",
       "ToneLab ST",
-      "ToneLab SE"
+      "ToneLab SE",
+      "StompLab 2B"
     ]
   },
   "root_brand_content": {
@@ -21450,7 +21482,8 @@
     "VOX.md": [
       "ToneLab LE",
       "ToneLab ST",
-      "ToneLab SE"
+      "ToneLab SE",
+      "StompLab 2B"
     ]
   },
   "instrument_views": {
@@ -21460,8 +21493,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 69,
-      "bass_focused_record_count": 17,
+      "record_count": 70,
+      "bass_focused_record_count": 18,
       "shared_bass_capable_count": 52,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -38358,8 +38391,8 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 157,
-    "canonical_root_models": 157,
+    "unique_brand_model_pairs": 158,
+    "canonical_root_models": 158,
     "legacy_only_models": 0,
     "guitar_view_models": 131,
     "bass_focused_models": 17,
@@ -38368,7 +38401,7 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 69,
+    "bass_view_models": 70,
     "bass_shared_models": 52,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -38393,7 +38426,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab 2B primary follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -38598,7 +38631,8 @@
       "Zoom::MS-60B Plus",
       "Zoom::B1on",
       "Zoom::B3",
-      "Korg::PANDORA stomp"
+      "Korg::PANDORA stomp",
+      "VOX::StompLab 2B"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -39934,6 +39968,13 @@
     },
     "VOX::ToneLab SE": {
       "link": "VOX.md#tonelab-se",
+      "source_files": [
+        "VOX.md"
+      ],
+      "finding_files": []
+    },
+    "VOX::StompLab 2B": {
+      "link": "VOX.md#stomplab-2b",
       "source_files": [
         "VOX.md"
       ],
@@ -46413,6 +46454,18 @@
       }
     ],
     "rejected": "Generic ToneLab model unresolved; ST title with EX URL slug ambiguous; casing/switch/potentiometer accessories excluded. No exact new bass model item established.",
+    "coverage_complete": false
+  },
+  "discovery_stomplab_bass": {
+    "checked_date": "2026-10-17",
+    "selected": "Exact StompLab2B",
+    "queries": [
+      "site:shopee.co.id Vox Stomplab bass",
+      "site:shopee.co.id Zoom B2.1u",
+      "site:shopee.co.id Digitech Vocal efek",
+      "site:shopee.co.id TC Helicon VoiceLive Touch"
+    ],
+    "rejected": "B2.1u mixed-model shop only;switch accessories;no exact new vocal item established",
     "coverage_complete": false
   }
 }

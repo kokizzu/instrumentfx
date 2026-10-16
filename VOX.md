@@ -122,3 +122,41 @@ Manufacturer-hosted Japanese J1 manual viewed as browser text;printed pagination
 
 [TLSE-M]: https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf
 [TLSE-S]: https://shopee.co.id/Multi-FX-VOX-Tonelab-SE-Twin-Pedal-Multi-Effect-i.1452686572.41751511183
+
+## StompLab 2B
+
+Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;partial. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in;firm press toggles assigned function. External EXP absent from complete ports. | [Manual pp5–6][SL2B-M] |
+| K/F/B | **3 /2 /4**,text-derived:CATEGORY,VALUE1/2;UP/DOWN;EDIT,▲,▼,expression-setting. Rear POWER and pedal switch additional;visual check pending. | [Manual pp4–6][SL2B-M] |
+| Display | Program/value display;diagonal,color,touch unverified. | [Manual p4][SL2B-M] |
+| Dimensions / mass | **207×125×64mm WDH;780g**. | [Product][SL2B-P] |
+| Processing / category choices | **61 variations;up to8 simultaneous including NR**. Pedal9;Amp10/Drive8;cabinet12;modulation9;delay8;reverb3;NR1. Amp/drive sharing and61 reconciliation pending. | [Manual p3][SL2B-M]; [Product][SL2B-P] |
+| Factory / user memory | **120:100 preset+20 user**. Initial user fill unverified. | [Manual p3][SL2B-M] |
+| Synth / acoustic | ACOUSTIC pedal listed;function details and dedicated synth engine unverified. | [Product][SL2B-P] |
+| I/O | Mono INPUT;shared stereo OUTPUT/PHONES;DC. NoUSB,DIN MIDI,AUX or loop in complete inventory. | [Manual pp5–6][SL2B-M]; [Product][SL2B-P] |
+| Power / battery / USB | **9VDC or4AA;approximately200mA;7.5h alkaline**. Polarity unverified;noUSB. | [Product][SL2B-P] |
+| IR / NAM / capture | User IR,native/converted NAM,captures unverified. | Unresolved |
+| Editor / software | Editor/platforms unverified. | Unresolved |
+| Looper / drums / live | Tuner in bypass/mute;looper,drums,scenes,trails unverified. | [Manual p3][SL2B-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;condition unconfirmed. | — |
+| New | Unknown;condition unconfirmed. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified exact hardware
+
+[Exact item][SL2B-S],**Rp1,520,000**,Seven Stereo Music & Audio Store,shop16879370/item1349945522,Kota Bandung. Checked2026-10-17;exact HTML opened,two-week cache;earlier two-month index said Habis and19–21Aug delivery. Present stock,condition,variant,adapter/bundle,warranty and working state unverified. Late-arrival Rp10,000 compensation is not discount;shipping/tax/checkout unknown. Excluded from used/new columns. Separate NEW-title sold-out item258736226/10788059230 Rp950000 remains index-only,not a live retail quote. No files/software/dependencies downloaded or installed;manual browser text only.
+
+[SL2B-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf
+[SL2B-P]: https://voxamps.com/ja/product/stomplab-2b/
+[SL2B-S]: https://shopee.co.id/Vox-StompLab-2B-Bass-Modelling-Effect-Processor-i.16879370.1349945522

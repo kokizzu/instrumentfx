@@ -1243,3 +1243,7 @@ research-commit-tonelab-st:
 .PHONY: research-commit-tonelab-se
 research-commit-tonelab-se:
 	python3 scripts/research_tools.py commit-tonelab-se
+
+.PHONY: research-commit-stomplab2b
+research-commit-stomplab2b:
+	python3 scripts/research_tools.py commit-stomplab2b
