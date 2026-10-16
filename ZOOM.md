@@ -1378,3 +1378,45 @@ Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?**
 ### Remaining checks
 
 Verify complete physical control counts,firmware-matched categorysubtotals andinstalled version,manufacturer75/100andpedal copy conflicts,factory preset subset,externalexpression/display,USB connector/electrical/audio/MIDI,IR/NAM/capture limits,complete acoustic distinction andlooper persistence/undo/trails,currentcondition-qualifiedoffers. Existing B1Xon ownership does not establish B1on ownership.
+
+## G3
+
+Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability unclassified. Later shared-manual evidence below is not proof of the offered unit’s installed firmware.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / controls K/F/B | External FP01/FP02 expression or FS01 footswitch via CONTROL IN. Built-in pedal belongs to G3X; G3 toe N/A. Three main footswitches; complete knob/button counts pending panel verification. | [Manual][G3-M] pp4–5; [Product][G3-P] |
+| Display | Three backlit dot-matrix LCDs; published diagonal, color depth and touch unverified. | [Product][G3-P] |
+| Dimensions / weight | 234 W ×170 D ×54 H mm; 1.2 kg excluding batteries. Large footprint. | [Japanese specifications][G3-J] |
+| Simultaneous effects | Up to six, freely ordered, DSP-limited; overflow bypasses an effect. Off effects still consume DSP. Multiple amp models simultaneously are prohibited per FAQ. | [Manual][G3-M] p10; [FAQ][G3-Q] |
+| Categories / choices | 116 total: 94 effects plus22 amp/cab models in later product description. Category subtotals and earlier revision differences unresolved. | [Product][G3-P] |
+| Presets / memory | 100 editable memories (10×10), factory-filled; not100 factory plus100 additional user slots. Auto Save and Store/Swap. | [Product][G3-P] |
+| Synth / acoustic | MonoSynth detects single-note pitch; Aco.Sim transforms electric-guitar tone toward acoustic. Separate algorithms, not an acoustic preamp claim. | [Manual][G3-M] pp45,52 |
+| I/O | Quarter-inch mono INPUT with active/passive selection; mono R and stereo L/MONO/PHONES outputs; balanced XLR with PRE/POST and ground lift; CONTROL IN, USB and DC. USB/control connector subtype pending. | [Product][G3-P]; [Manual specifications][G3-S] |
+| Power / battery / USB | AD-16: 9V DC center-negative,500mA adapter rating; fourAA, approximately6h alkaline; USB bus power supported. Measured draw and USB electrical requirements unknown. | [Manual specifications][G3-S]; [FAQ][G3-Q] |
+| USB audio / MIDI | 2-in/2-out stereo,16-bit44.1kHz. REC GAIN adjustable; playback exits through G3 outputs. USB MIDI and dry/reamp paths unverified. | [FAQ][G3-Q] |
+| IR / NAM / capture | User IR, native/converted NAM and capture imports unestablished. Factory cab modeling is not import evidence. | Unresolved |
+| Editor / platforms | Edit&Share patch editor/librarian: Windows XP/Vista/7/8/8.1/10, Mac10.9–10.12 listed. Firmware2.10 updaters and Windows ASIO2.0.1 driver are separate; current OS compatibility unknown. | [Support][G3-D] |
+| Looper / rhythms / live | 40s, or20s with Undo enabled; overdub/erase. Time/tempo changes and power-off erase loop; returning Home does not. 41 rhythms with looper synchronization. Scenes/trails unresolved. | [Manual][G3-M] pp30–35; [Product][G3-P] |
+
+### Separate IDR hardware offers
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used / preztomusic, Kota Surakarta (Solo) | Rp1,300,000 cached ask; **Habis**, without adapter. Checked2026-10-17; direct retrieved body remains JS-limited, delivery28Aug stale. Working condition, other bundle, warranty, shipping/tax/voucher and delivered total unverified. Historical ask, not live stock or completed sale. Late-delivery10k compensation is not discount. | [7439397 /28976797436](https://shopee.co.id/efek-gitar-zoom-g3-%28bekas%29-tanpa-adaptor-i.7439397.28976797436) |
+| New | Unknown; no qualified exact offer established. | — |
+
+<!-- comparison evidence ends -->
+
+Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).
+
+Remaining: physical controls, screen details, revision/category counts, full connector formats, current software, imports/MIDI, scenes/trails and qualified current used/new offers. Original G3-only manual retrieval failed; shared G3/G3X manual is the inspected primary text.
+
+[G3-P]: https://www.zoom.co.jp/node/49
+[G3-J]: https://www.zoom.co.jp/ja/products/guitar/g3-guitar-effects-amp-simulator-pedal
+[G3-M]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3_G3X_1.pdf
+[G3-S]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3_G3X.pdf
+[G3-Q]: https://www.zoom.co.jp/node/707
+[G3-D]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/

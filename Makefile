@@ -1183,3 +1183,7 @@ research-commit-rp360xp:
 .PHONY: research-commit-me25
 research-commit-me25:
 	python3 scripts/research_tools.py commit-me25
+
+.PHONY: research-commit-g3
+research-commit-g3:
+	python3 scripts/research_tools.py commit-g3

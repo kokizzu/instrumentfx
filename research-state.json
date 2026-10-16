@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 143,
+  "active_model_count": 144,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 143,
+  "canonical_root_model_count": 144,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal. Exact ME-80 Shopee hardware discovery adds one distinct guitar processor:140active/root-canonical;116guitar,66bass,17vocal. ExactME-70hardwareShopee lead addsone distinctguitarprocessor:141active/rootcanonical,117guitar,66bass,17vocal. ExactRP360XP lead addsoneexpressionguitarprocessorandDigiTechbrand:142active/rootcanonical,24brands,118guitar,66bass,17vocal. ExactfaultyME-25hardwarelead plusmanufacturerproof addsoneeligibleguitarprocessor:143active/rootcanonical,119guitar,66bass,17vocal;faultyasknotworkingprice.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal. Exact ME-80 Shopee hardware discovery adds one distinct guitar processor:140active/root-canonical;116guitar,66bass,17vocal. ExactME-70hardwareShopee lead addsone distinctguitarprocessor:141active/rootcanonical,117guitar,66bass,17vocal. ExactRP360XP lead addsoneexpressionguitarprocessorandDigiTechbrand:142active/rootcanonical,24brands,118guitar,66bass,17vocal. ExactfaultyME-25hardwarelead plusmanufacturerproof addsoneeligibleguitarprocessor:143active/rootcanonical,119guitar,66bass,17vocal;faultyasknotworkingprice. Original G3 exact used hardware discovery adds one distinct guitar model:144 active/root-canonical;120 guitar,66 bass,17 vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "ME-25 owner-manual follow-up / fresh Shopee discovery",
-    "task": "ME-25 English manual follow-up saved: Library save restrictions, SONAR Windows-only scope, converter and analog specifications. Continue remaining primary fields or fresh exact Shopee discovery; commit each model before the next.",
+    "model": "G3 follow-up / fresh Shopee discovery",
+    "task": "Original G3 recorded separately from G3n/G3X; verify controls, revision differences and remaining fields or continue exact Shopee discovery. Commit each model before the next.",
     "next_models": [],
-    "after_queue": "No exhaustivecoverageclaim;ME-25nottoaddagain."
+    "after_queue": "Search brands/series again; no exhaustive coverage claim."
   },
   "new_findings": [
     {
@@ -1516,6 +1516,42 @@
         ],
         "remaining": "USB bus power not explicitly established; full connector formats and saved unresolved fields retained"
       }
+    },
+    {
+      "model": "Zoom G3",
+      "path": "ZOOM.md#g3",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.zoom.co.jp/node/49",
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3_G3X_1.pdf",
+        "https://www.zoom.co.jp/node/707",
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/"
+      ],
+      "offers": [
+        {
+          "url": "https://shopee.co.id/efek-gitar-zoom-g3-%28bekas%29-tanpa-adaptor-i.7439397.28976797436",
+          "seller": "preztomusic",
+          "location": "Kota Surakarta (Solo)",
+          "shop": "7439397",
+          "item": "28976797436",
+          "idr": 1300000,
+          "condition": "used; working state unverified",
+          "stock": "Habis",
+          "bundle": "without adapter; other items unknown",
+          "access": "JS-limited cached direct body; 28 August delivery stale"
+        }
+      ],
+      "unresolved": [
+        "physical K/B counts",
+        "screen details",
+        "revision and category subtotals",
+        "connector formats",
+        "imports/MIDI",
+        "current software",
+        "scenes/trails",
+        "qualified current offers"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -20051,7 +20087,8 @@
       "MS-70CDR",
       "MS-70CDR Plus",
       "MS-60B Plus",
-      "B1on"
+      "B1on",
+      "G3"
     ],
     "DigiTech": [
       "RP360XP"
@@ -20141,7 +20178,8 @@
       "MS-70CDR",
       "MS-70CDR Plus",
       "MS-60B Plus",
-      "B1on"
+      "B1on",
+      "G3"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -20252,7 +20290,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 119,
+      "record_count": 120,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -37155,10 +37193,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 143,
-    "canonical_root_models": 143,
+    "unique_brand_model_pairs": 144,
+    "canonical_root_models": 144,
     "legacy_only_models": 0,
-    "guitar_view_models": 119,
+    "guitar_view_models": 120,
     "bass_focused_models": 15,
     "vocal_only_models": 9,
     "vocal_view_models": 17,
@@ -37190,7 +37228,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume ME-25 owner-manual follow-up / fresh Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume G3 follow-up / fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -37312,6 +37350,7 @@
       "Zoom::MS-50G",
       "Zoom::MS-70CDR",
       "Zoom::MS-70CDR Plus",
+      "Zoom::G3",
       "DigiTech::RP360XP"
     ],
     "ALL-BASS.md": [
@@ -38609,6 +38648,13 @@
     },
     "Zoom::B1on": {
       "link": "ZOOM.md#b1on",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::G3": {
+      "link": "ZOOM.md#g3",
       "source_files": [
         "ZOOM.md"
       ],
@@ -44986,5 +45032,16 @@
     },
     "rejected": "Adapter/knob/switch/case offers;shop-levelRP155manual ambiguous",
     "source": "https://shopee.co.id/search?keyword=boss+me-25"
+  },
+  "discovery_g3": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site.shopee.co.id Zoom G3 multi effect",
+      "site.shopee.co.id Boss GT-10"
+    ],
+    "selected": "Original G3 exact used sold-out hardware",
+    "unresolved_variant_offer": "https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237",
+    "other_leads": "GT-10 search page only; no exact qualified item established",
+    "original_manual_access": "https://zoomcorp.com/media/documents/G3_OperationManual_English.pdf failed; no original revision limits inferred"
   }
 }
