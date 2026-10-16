@@ -565,3 +565,11 @@ consolidation-apply-fb100:
 	python3 scripts/consolidation_tools.py apply fb100
 consolidation-commit-fb100:
 	python3 scripts/consolidation_tools.py commit fb100
+
+.PHONY: consolidation-plan-gr-55 consolidation-apply-gr-55 consolidation-commit-gr-55
+consolidation-plan-gr-55:
+	python3 scripts/consolidation_tools.py plan gr-55
+consolidation-apply-gr-55:
+	python3 scripts/consolidation_tools.py apply gr-55
+consolidation-commit-gr-55:
+	python3 scripts/consolidation_tools.py commit gr-55

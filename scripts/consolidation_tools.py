@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'gr-55': ('GR-55', 'effects/findings/2026-10-14-roland-gr-55.md'),
     'fb100': ('Flybro FB-100', 'effects/findings/2026-10-15-ving-fb100.md'),
     'h8': ('H8', 'effects/findings/2026-10-15-cuvave-h8.md'),
     'play-acoustic': ('Play Acoustic', 'effects/findings/2026-10-14-tchelicon-play-acoustic.md'),
@@ -1083,7 +1084,70 @@ def plan_fb100():
     print('Preview Flybro FB-100 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
     print('Plan saved: '+str(PLAN))
 
+def plan_gr55():
+    research_tools.identity()
+    model, source_path = MODELS['gr-55']
+    brand_file = 'ROLAND.md'
+    assert not (ROOT/brand_file).exists()
+    assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text)
+    record = comparison['records']['Roland::GR-55']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    prefix = 'ROLAND-GR-55'
+    body, refs = preserved_body(source, prefix)
+    normalizations={'(../OWNERSHIP.md)':'(effects/OWNERSHIP.md)','(2026-10-14-zoom-b1xon.md)':'(ZOOM.md#b1xon)','(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
+    for old,new in normalizations.items():
+        body=body.replace(old,new)
+    extra = [f for f in record['facts'] if f['source'] != source_path]
+    shared = sorted({f['source'] for f in extra})
+    assert shared == ['effects/owned-multifx.md']
+    supporting = (ROOT/shared[0]).read_text()
+    contexts = [p for p in supporting.split('\n\n') if p.startswith('**Seven partial') or p.startswith('K/F/B means') or p.startswith('The original printed VING') or p.startswith('Older manuals') or p.startswith('Exact item/seller') or p.startswith('These five former')]
+    original_commit='2b637fb61c243776b1a0a9d192ce17848295eeac'
+    correction_commit='da9ff9bb01b8be8109f5b588c656de3daaf41c9c'
+    assert original_commit in supporting and correction_commit in supporting
+    section = '# Roland multi-effects\n\n## GR-55\n\nGuitar/bass synthesis and multi-effects with13-pin divided-pickup/GK system, not GM-800 Serial GK. Consolidated **2026-10-17**. Full original body and corrections retained; eligible owner history is separate from public specification/price evidence.\n\n<!-- '+prefix+' source begins -->\n'+body+'<!-- '+prefix+' source ends -->\n\n### Preserved supporting comparison evidence\n\nHistorical counts and next notes below are provenance.\n\n'+'\n\n'.join(contexts)+'\n\n'
+    for f in extra:
+        section += '- **'+f['field']+'** ('+f['context']+'): '+f['value']+'\n'
+    section += '\nOriginal finding commit: '+original_commit+'; correction: '+correction_commit+'. Sources: [Original finding]('+source_path+'), [Complete supporting comparison](effects/owned-multifx.md). No original file or incoming link removed.\n\n<!-- comparison evidence begins -->\n\n### Current GR-55 comparison fields\n\n| Field | Evidence and qualification |\n|---|---|\n'
+    mapping={'USB/audio extras':'USB audio / other relevant features','Other editors':'Other editor platforms','Acoustic simulation':'Acoustic simulation algorithms'}
+    for f in record['facts']:
+        if f['source'] != source_path or f['field'].startswith('Follow-up'):
+            continue
+        value=f['value']
+        if f['field']=='Used IDR':
+            value='**Rp7.500.000**, seller-labelled SECOND GR-55 **with GK3 pickup**: [HUTAURUK MUSIC exact offer](https://shopee.co.id/ROLAND-GR-55-DENGAN-PICK-UP-GK3-SECOND-ORIGINAL-i.190993829.22101819979),shop190993829/item22101819979,Kota Bekasi,indexed2026-10-17;stale21July delivery. Detailed condition,functionality,13-pin cable/adapter inclusion,warranty region,delivered charges,vouchers and current checkout stock unverified. Historical used-bundle ask,not a completed sale or bare-processor price.'
+        if f['field']=='Effect architecture / choices':
+            value += ' Roland US page rechecked2026-10-17 corroborates these counts; four source layers remain distinct from effect blocks.'
+        if f['field']=='Presets / user memory':
+            value += ' v1.50 release page rechecked2026-10-17 corroborates90 guitar/18 bass additions; MIDI program changes may select different patches after updating. No actual unit update performed.'
+        section += '| '+mapping.get(f['field'],f['field'])+' | '+value+' |\n'
+    section += '\n<!-- comparison evidence ends -->\n\n### Current primary-source and marketplace review\n\nChecked **2026-10-17**: [Roland US GR-55 page](https://www.roland.com/us/products/gr-55/) corroborates model-specific dimensions/mass,240×64 LCD,910 PCM tones,23/17 modeled guitar/bass types, published effects categories,9V700mA draw,PSB-1U supply and complete connector inventory. Its launch270/90 factory counts coexist with later firmware additions. Output and GUITAR OUT impedance2kΩ,nominal−10dBu. GK-included version explicitly supplies GK-3 and5m cable; do not assume every seller bundle does. Ordinary guitar input is through the divided-pickup system, not an added quarter-inch input.\n\n[Roland system1.50 release notes](https://www.roland.com/global/support/by_product/gr-55/updates_drivers/f64a41ce-c897-4fd5-94d7-71ec8ff6f036/) confirms90 guitar/18 bass preset additions and warns of MIDI program-change mapping differences. It also documents fixes for alternate-tuning MIDI notes,piezo sensitivity-meter display,USB-audio noise at high voice counts,PCM interruptions,drum tone levels,CTL/EXP-switch effect status and Librarian drum-kit patch silence. These are documented fixes,not tests on the owner unit. Firmware procedures do not establish new USB power or editor capabilities.\n\n[HUTAURUK MUSIC secondhand GK3 bundle](https://shopee.co.id/ROLAND-GR-55-DENGAN-PICK-UP-GK3-SECOND-ORIGINAL-i.190993829.22101819979) indexed at7.500.000 with old21July delivery; exact condition/stock/accessories remain unverified. Separate [Koko DC Musik Shop listing](https://shopee.co.id/efek-gitar-synthesizer-boss-roland-gr-55-black-hitam-gk3-keyboard-i.4074307.24802346959),shop4074307/item24802346959,Kab.Malang, **Rp7.250.000,Habis**,stale30June–2July delivery. Its title does not establish detailed condition or GK3/cable bundle contents; not classified as verified new or used. Neither is a confirmed transaction or current market range. Regional warranty,shipping/tax and voucher eligibility unknown; late-delivery compensation is not a discount.\n\nGlobal product URL timed out; US primary page provided the corroboration. No original control/signal-flow manual was newly inspected or firmware/software downloaded. Complete original sources and corrections remain above. Open fields: visually checked K/F/B/toe,explicit display diagonal/color/touch, acoustic modeling names,routing concurrency,PSU polarity/battery/bus power,looper duration,USB channels/bit depth,current librarian scope/OS support and condition-qualified new/current used availability.\n'
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file] = [model]
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['Roland GR-55'],model_name=model,brand='Roland',destination=brand_file+'#gr-55',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete GR-55 body/supporting facts/correction provenance retained; primary US specs and1.50 additions rechecked; seller-labelled used GK3 bundle qualified.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='Full root migration audit and fresh discovery',task='All126 recorded models now have root-brand records; audit complete legacy-source preservation, incoming links, comparison field coverage and root layout against the full objective. Do not equate canonical count with verified specs or completed migration. Identify uncovered bodies/URLs/fields, repair omissions, then continue fresh Shopee discovery by brand/series and unresolved primary-field research one model per commit. Keep six excluded records and ownership boundaries.',after_queue='Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
+    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [ROLAND.md](ROLAND.md) |GR-55 |\n| [JOYO.md](JOYO.md)')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
+    inputs[brand_file]=None
+    payload=dict(model_id='gr-55',model=model,inputs=inputs,outputs=outputs,new_files=[brand_file],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview GR-55 exact writes: '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged; rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
 def plan(model_id):
+    if model_id == 'gr-55':
+        return plan_gr55()
     if model_id == 'fb100':
         return plan_fb100()
     if model_id == 'h8':
@@ -1335,10 +1399,13 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['VING.md', 'CUVAVE.md', 'TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['ROLAND.md', 'VING.md', 'CUVAVE.md', 'TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'gr-55':
+        print(research_tools.git('commit', '-m', 'research(roland): consolidate GR-55 with firmware and used-bundle evidence'))
+        return
     if model_id == 'fb100':
         print(research_tools.git('commit', '-m', 'research(ving): consolidate FB-100 and preserve variant price conflicts'))
         return
