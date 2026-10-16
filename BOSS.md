@@ -1606,12 +1606,12 @@ Guitar multi-effects,distinct from ME-80/ME-90. Checked2026-10-17;partial. Disco
 | Processing / category choices | COMP/FX8;OD/DS10;MOD10;DELAY10 selector positions includingPhraseLoop;PREAMP6amp types plusEQ andOFF;REVERB2;NS. These choice counts are not a simultaneous-block ceiling,which remains unverified. | [ME70-P][ME70-P] |
 | Memory | 36user+36preset=72;factory-filled user subset unverified. | [ME70-P][ME70-P] |
 | Synth / acoustic | Factory Bank9/2 described as synth-like viaSlowGear;this does not establish a dedicated synth engine. Dedicated acoustic simulation unverified. | [ME70-P][ME70-P] |
-| I/O | Complete port inventory remains unverified in this pass;do not borrow ME-80 USB orsocket layout. ExternalFS options alone do not establish externalEXP. | Unresolved |
-| Power / battery / USB | DC9V,sixR6/LR6AA oroptionalPSA adapter;130mA draw;approx12h alkaline/3.5h carbon,conditions vary. Polarity andUSB operation unverified. | [ME70-P][ME70-P] |
+| I/O | Manual documents GUITAR INPUT, AMP OUTPUT L/MONO and R, AUX IN, REC OUT/PHONES, external footswitch connection and DC supply. Full socket sizes remain unverified. REC OUT/PHONES insertion enables speaker simulation on both headphones and main outputs. Guitar input plug controls power. External footswitch connection alone does not prove external expression support. | [ME70-PL][ME70-PL] E2–3,13 |
+| Power / battery / USB | DC9V,sixR6/LR6AA oroptionalPSA adapter;130mA draw;approx12h alkaline/3.5h carbon,conditions vary. Polish manual E2 instead gives 13h alkaline/5h carbon; preserve source conflict. Polarity and USB operation unverified. Current support confirms DC9V/130mA; adapter capacity200/500mA is separate. | [ME70-P][ME70-P] [ME70-PL][ME70-PL] E2 [ME70-PWR][ME70-PWR] |
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietary capture import not established. | Unresolved |
 | Editor / drivers | Desktop/mobile patch editor,driver andupdater capabilities unverified;no ME-80 ToneStudio inheritance. | Unresolved |
-| Looper / drums / scenes / routing | DELAY-section PhraseLoop38s;detailed loop persistence,undo,stereo,drums,scenes androuting remain unverified. | [ME70-P][ME70-P] |
-| Expression destinations / conflict | Feature text names six:Wah,Voice,+1Octave,-1Octave,ModRate,DelayLevel. Specification list omitsDelayLevel andnames five. Preserve discrepancy;not evidence of a hardware revision. | [ME70-P][ME70-P] |
+| Looper / drums / scenes / routing | DELAY-section Phrase Loop38s with overdubbing. Stopping via double-tap (within1s), changing DELAY type or powering off erases the loop. Undo, stereo, drums and scenes remain unverified. | [ME70-P][ME70-P] [ME70-PL][ME70-PL] E15 |
+| Expression destinations / conflict | Feature text names six:Wah,Voice,+1Octave,-1Octave,ModRate,DelayLevel. Specification list omits DelayLevel and names five; Polish manual E9 lists all six, corroborating feature text. Preserve discrepancy; not evidence of a hardware revision. | [ME70-P][ME70-P] [ME70-PL][ME70-PL] E9 |
 
 ### ME-70 — separate IDR asking-price evidence
 
@@ -1620,7 +1620,10 @@ Guitar multi-effects,distinct from ME-80/ME-90. Checked2026-10-17;partial. Disco
 | Used | Unknown;no condition-verified used IDR offer established. | — |
 | Condition unverified / BANKO MUSIC STORE,Kab.Bandung | Rp3,000,000 cached hardware ask,checked2026-10-17;index about4months old withrelative tomorrow-delivery text. Direct open cache miss. Stock,variant,bundle/adapter,warrantyregion,shipping,tax,voucher anddeliveredtotal unknown. Late-delivery Rp10,000 compensation is not product discount. Not verifiednewcondition,live stock orcompleted sale;store identity unverified. | [1452686572 /40801526404](https://shopee.co.id/Multi-FX-Gitar-BOSS-ME-70-i.1452686572.40801526404) |
 
-Remaining:fullcontrols/ports/manualprocessing,externalEXP,powerpolarity/USB,screen details,initializeduser memories,imports,software,acousticsim andlooper/live limits;qualifiedused/newoffers. Official Copyright2008 ME-70 owner manual is indexed,but direct browseropen exceededfilelimit;no file saved. No sibling specifications substituted.
+Remaining:fullcontrols/ports/manualprocessing,externalEXP,powerpolarity/USB,screen details,initializeduser memories,imports,software,acousticsim andlooper/live limits;qualifiedused/newoffers. Official Copyright2008 ME-70 owner manual is indexed,but direct browseropen exceededfilelimit;no file saved. Official Polish manual G6037008-01, Copyright2008 BOSS, inspected in-browser; model-specific connections and loop instructions supplement the oversized multilingual file. No sibling specifications substituted.
 
 [ME70-P]: https://www.boss.info/us/products/me-70/
 [ME70-M]: https://static.roland.com/assets/media/pdf/ME-70_OM.pdf
+
+[ME70-PL]: https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-70_PL.pdf
+[ME70-PWR]: https://support.roland.com/hc/en-us/articles/41720498944027-ME-70-Recommended-Power-Supply

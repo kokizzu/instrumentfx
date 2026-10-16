@@ -282,7 +282,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-me70':
-            message = 'research(boss): add ME-70 with own specifications and qualified Shopee lead'
+            message = 'research(boss): verify ME-70 loop routing and retain battery-life conflict'
         if mode == 'commit-me80':
             message = 'research(boss): resolve ME-80 buttons battery mass and loop erasure'
         if mode == 'commit-b1on':

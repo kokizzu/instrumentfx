@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Cross-brand discovery after DigiTech RP360XP",
-    "task": "RP360XP USB record/monitor controls and output-mode requirements saved;continue unresolved primaryfields orfreshShopee discovery;commit eachmodel before next.",
+    "model": "ME-70 remaining hardware fields / fresh Shopee discovery",
+    "task": "ME-70 manual routing,loop-erasure andbattery conflict saved. Continue controls/socketformats or fresh exact Shopee hardware discovery;commit eachmodel beforethenext.",
     "next_models": [],
-    "after_queue": "Research remains incomplete;do notcountRP360withoutownprofile."
+    "after_queue": "Research remains incomplete;RP360XP andME-70 alreadyrecorded."
   },
   "new_findings": [
     {
@@ -1274,7 +1274,9 @@
       "status": "partial",
       "sources": [
         "https://www.boss.info/us/products/me-70/",
-        "https://static.roland.com/assets/media/pdf/ME-70_OM.pdf"
+        "https://static.roland.com/assets/media/pdf/ME-70_OM.pdf",
+        "https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-70_PL.pdf",
+        "https://support.roland.com/hc/en-us/articles/41720498944027-ME-70-Recommended-Power-Supply"
       ],
       "classification": "guitar; bass unclassified",
       "offers": [
@@ -1292,7 +1294,8 @@
         }
       ],
       "conflicts": [
-        "Six expression destinations infeatures versusfive inspecification list; DelayLevel omitted"
+        "Six expression destinations infeatures versusfive inspecification list; DelayLevel omitted",
+        "Polish manual E2 battery life13halkaline/5hcarbon vs product12h/3.5h;both retained"
       ],
       "unresolved": [
         "fullcontrols",
@@ -1307,7 +1310,20 @@
         "acousticsim",
         "looper/drums/scenes/routing",
         "qualified used/new offers"
-      ]
+      ],
+      "manual_followup": {
+        "checked_date": "2026-10-17",
+        "revision": "Polish G6037008-01,Copyright2008 BOSS",
+        "resolved": [
+          "Six expression destinations includingDelayLevel E9",
+          "Loop erased onstop/typechange/poweroff E15",
+          "RECOUTPHONES insertion enables speakersim onmainoutputs E3",
+          "Input plug controls power E2–3",
+          "Namedportinventory E2–3/13;fullsocketformatsstillunknown"
+        ],
+        "support_update": "2026-06-16 confirmsDC9V130mA;adapterratingseparate",
+        "remaining": "Controlcounts/socketformats/simultaneousceiling/currentsoftware/imports/screen/qualifiedoffers andotherledgergaps"
+      }
     },
     {
       "model": "DigiTech RP360XP",
@@ -37075,7 +37091,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Cross-brand discovery after DigiTech RP360XP."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume ME-70 remaining hardware fields / fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
