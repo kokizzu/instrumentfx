@@ -765,3 +765,7 @@ consolidation-audit-compact-pocketmaster:
 	python3 scripts/consolidation_tools.py audit-compact "Pocket Master"
 research-commit-compact-pocketmaster-audit:
 	python3 scripts/research_tools.py commit-compact-pocketmaster-audit
+
+.PHONY: research-commit-cubebabyelectric-preservation
+research-commit-cubebabyelectric-preservation:
+	python3 scripts/research_tools.py commit-cubebabyelectric-preservation

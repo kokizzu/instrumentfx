@@ -1463,7 +1463,12 @@ def audit_findings():
             matches = [e for e in manifests if e['source'] == source and e['destination'] == record['link']]
             pairs.append(dict(model=model, source=source, destination=record['link'], covered=bool(matches)))
     missing = [p for p in pairs if not p['covered']]
-    report = dict(scope='Registered finding/model pairs only; not shared-source or incoming-link certification', pairs=len(pairs), covered=len(pairs)-len(missing), missing=missing, records=pairs)
+    actual = {str(p.relative_to(ROOT)) for p in (ROOT/'effects/findings').glob('*.md')}
+    preserved = {e['source'] for e in manifests}
+    special = {'effects/findings/2026-10-14-flamma-fv01.md'}
+    unregistered = sorted(actual - preserved - special)
+    assert not unregistered, 'Actual finding paths without body manifests: '+str(unregistered)
+    report = dict(actual_finding_files=len(actual), generic_preserved_files=len(actual & preserved), separately_verified_excluded_files=sorted(actual & special), unregistered_files=unregistered, scope='Registered finding/model pairs and actual finding-directory coverage; FV01 historical-original check is in research-verify. Not shared-source or incoming-link certification', pairs=len(pairs), covered=len(pairs)-len(missing), missing=missing, records=pairs)
     Path('/tmp/instrumentfx-finding-coverage.json').write_text(json.dumps(report, indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k != 'records'}, indent=2))
     assert not missing, 'Registered finding body coverage missing'

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "M-VAVE CUBE BABY electric complete original-body audit",
-    "task": "Read complete electric CUBE BABY finding/root, preserve and hash-check full original. Then reconcile all actual finding paths with manifests, continue shared-source prose and incoming-link audits, fresh Shopee discovery and technical gaps. Do not retire sources on registered-pair count.",
+    "model": "Shared compact prose union and incoming-link audit",
+    "task": "All actual active findings now have generic complete-body manifests; FV01 uses separate historical-original verification. Verify directory-wide coverage, then reconcile nine nonidentical shared compact prose paragraphs across root destinations; preserve remaining shared source facts and incoming links. Fresh eligible Shopee discovery and unresolved technical fields remain required; do not retire sources yet.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10308,6 +10308,22 @@
       },
       "retained_comparison_facts": [],
       "scope": "Complete original retained with manual revision, palm-button/USB distinctions, ambiguous retail stock and all price/access qualifications. No refreshed stock or technical verification."
+    },
+    {
+      "models": [
+        "M-VAVE CUBE BABY electric"
+      ],
+      "model_name": "CUBE BABY electric",
+      "destination": "M-VAVE.md#cube-baby-electric",
+      "source": "effects/findings/2026-10-15-mvave-cube-baby.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MVAVE-CUBEBABY-ELECTRIC",
+      "source_sha256": "1108dbddb84c304dfc11beb4d637e230c329aebb3e5c9768b8e58870654b2878",
+      "renamed_references": [],
+      "link_normalizations": {},
+      "retained_comparison_facts": [],
+      "scope": "Complete original including exact knob list, translated terminology conflicts, physical and battery revision differences, manual fetch limitations and dated sold-out/retail Shopee asks. No fresh specification or stock verification."
     }
   ],
   "discovery_leads": [
@@ -10879,10 +10895,10 @@
       "current_check": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-findings",
-        "registered_pairs": 82,
-        "covered": 82,
+        "registered_pairs": 83,
+        "covered": 83,
         "missing": [],
-        "scope": "Registered finding/model pairs only, including both original sources at shared POD Go canonical destination. One actual-directory active finding (electric CUBE BABY) pending; excluded FV01 separately verified. Not whole shared-source/incoming-link certification."
+        "scope": "Registered source/model pairs including shared POD Go provenance; actual-directory verification now separately enforced. Shared-source preservation and incoming links remain incomplete."
       }
     },
     "legacy_source_inventory": {
@@ -14358,12 +14374,21 @@
       "repaired": [
         "effects/findings/2026-10-14-sonicake-matribox.md",
         "effects/findings/2026-10-14-sonicake-smart-box.md",
-        "effects/findings/2026-10-14-sonicake-pocket-master.md"
-      ],
-      "pending_active": [
+        "effects/findings/2026-10-14-sonicake-pocket-master.md",
         "effects/findings/2026-10-15-mvave-cube-baby.md"
       ],
-      "separate_specialist_check": "effects/findings/2026-10-14-flamma-fv01.md is preserved and verified against historical original by research_tools.verify; remains excluded."
+      "pending_active": [],
+      "separate_specialist_check": "effects/findings/2026-10-14-flamma-fv01.md is preserved and verified against historical original by research_tools.verify; remains excluded.",
+      "directory_check": {
+        "date": "2026-10-17",
+        "actual_finding_files": 82,
+        "generic_preserved_files": 81,
+        "separately_verified_excluded_files": [
+          "effects/findings/2026-10-14-flamma-fv01.md"
+        ],
+        "unregistered_files": [],
+        "limitation": "Full-body finding coverage does not certify shared comparison sources or incoming links; no source retirement authorized."
+      }
     }
   },
   "deferred_work": {
@@ -15374,7 +15399,9 @@
       "source_files": [
         "M-VAVE.md"
       ],
-      "finding_files": []
+      "finding_files": [
+        "effects/findings/2026-10-15-mvave-cube-baby.md"
+      ]
     },
     "M-VAVE::CUBE BABY AC": {
       "link": "M-VAVE.md#cube-baby-ac",
