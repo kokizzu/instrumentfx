@@ -904,8 +904,8 @@ Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalog
 | Power | **DC9V,500mA,center-negative AD-16**. Battery and USB-powered operation not established. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | IR / NAM / capture | Third-party IR import, native NAM, converted NAM and user amp-capture import not established; built-in cab simulations are separate. | Workflow documentation still needed |
 | Editors / platforms | Guitar Lab Windows/macOS manages effects, chains and patches. Support lists Guitar Lab7.3, Windows8.1/10/11 and macOS10.13–26; separate Windows10/11 64-bit ASIO driver and firmware3.0 packages. Mobile editor not established. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/g5n-support/) |
-| USB audio | USB Audio listed;44.1kHz sampling,24-bit ADC/DAC,32-bit processing. Channel count, loopback and reamp routing ? | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
-| Looper / drums / live | Up to80-second looper,68 rhythms,tuner,output boost and TAP; mono/stereo time split, looper block cost, scene/snapshot and tail behavior unresolved. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+| USB audio | **USB audio:16-bit/44.1kHz** (V2 manual p.50), separate from **24-bit ADC/DAC and32-bit DSP** (p.58). Monitor balance100 selects DAW-return monitoring; other blends can cause flanging. Channel count,loopback/reamp routing remain unverified. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
+| Looper / drums / live | **Mono1.5–80s;stereo1.5–40s**. Undo ON halves maxima to40s/20s. Recording time:MANUAL or1–64 quarter notes; changing it deletes the phrase. 68 rhythms,tuner,output boost and TAP. Looper unit/DSP cost,scenes and tails still unresolved. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [V2 manual,p.44](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 
 ### Exact IDR hardware offers and condition limitations
 
@@ -919,4 +919,10 @@ Exact condition, revision, accessories, warranty region, stock quantity, shippin
 
 ### Remaining checks
 
-Complete panel K/F/B and toe switch; exact display diagonal/color/touch; category choices and DSP limits; memory overwrite; synth/acoustic algorithms; full connector inventory; IR/NAM/capture import; battery/USB supply; USB channels/routing; mono/stereo looper times and block cost; qualified used/new condition and checkout stock. Bass suitability is unclassified pending model-specific evidence. No sibling specifications substituted.
+Complete panel K/F/B and toe switch; exact display diagonal/color/touch; category choices and DSP limits; memory overwrite; synth/acoustic algorithms; full connector inventory; IR/NAM/capture import; battery/USB supply; USB channels/routing; looper block cost; qualified used/new condition and checkout stock. Bass suitability is unclassified pending model-specific evidence. No sibling specifications substituted.
+
+### V2 manual text follow-up
+
+Checked2026-10-17 through manufacturer-hosted indexed text (printed pp.4,44,50); no PDF or image download/visual inspection. The named controls include FS1–FS4,TUNER,BANK/SCROLL,mode and TAP; the pedal switch is separately named. Full physical K/F/B and toe operation remain pending rather than inferred from incomplete text diagrams.
+
+The USB quantization and looper limits above supersede the original unknown fields; they do not establish current firmware architecture, import capabilities or live seller stock.

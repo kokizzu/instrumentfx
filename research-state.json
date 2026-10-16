@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G5n remaining specification verification",
-    "task": "G5n new record saved with exact offers and official regional/version conflicts. Resolve panel counts, display, category/DSP, USB/looper and import capabilities from exact-model primary text without downloading/installing files; commit useful findings before next-model research. Further fresh Shopee brand/series discovery and shared-source/incoming audits remain.",
+    "task": "G5n USB16bit44.1kHz vs24bitADC and mono/stereo/Undo looper limits now resolved from V2 indexed primary text. Next verify panel counts/toe, looper unit/DSP cost, USB channels/routing and effect/import capabilities. Do not repeat these resolved fields or treat unknowns as No. Other shared-source/incoming audits and fresh discovery remain required.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -503,7 +503,18 @@
         "USBsupply/audio",
         "looperlimits",
         "usedcondition/liveoffers"
-      ]
+      ],
+      "followup": {
+        "date": "2026-10-17",
+        "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+        "access": "Manufacturer-hosted search-indexed text, printed pp.4,44,50; no PDF download or visual inspection",
+        "resolved": [
+          "USB16bit44.1kHz distinct from converters",
+          "mono/stereo looper duration and Undo halving",
+          "manual/musical-note time and destructive time change"
+        ],
+        "remaining": "Full controls,display,USBchannels,routing,effect/DSP/import,power and qualified current offers remain"
+      }
     }
   ],
   "consolidation_and_price_findings": [
