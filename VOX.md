@@ -112,6 +112,7 @@ Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass s
 |---|---|---|
 | Used | Unknown; exact offer lacks condition evidence. | — |
 | New | Unknown; exact offer lacks condition evidence. | — |
+| Conditional historical observation | **Rp3,850,000; Habis/sold out**, BANKO MUSIC STORE, Kab. Bandung, shop1452686572/item41751511183. Checked2026-10-17; month-old opened HTML, stale26Aug delivery. Condition, working state, variant, adapter/bundle and warranty unverified; shipping/tax/checkout unknown. Late-arrival compensation is not discount. Historical ask, not live stock, completed sale or confirmed new/used range. | [Exact SE item][TLSE-S] |
 
 <!-- comparison evidence ends -->
 

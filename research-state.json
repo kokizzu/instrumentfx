@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "ToneLab SE comparison cutoff review",
-    "task": "ToneLabST exact historical ask included conditionally. ReviewSE next; keep sold-out and unknown-condition qualifications.",
+    "model": "Remaining current-field coverage / manufacturer verification",
+    "task": "ToneLabST andSE saved offers now project. Review other flagged current evidence individually; avoid duplicating pinned original snapshots or unresolved model/variant prices.",
     "next_models": [],
-    "after_queue": "Return to primary-source gaps and fresh exact hardware discovery."
+    "after_queue": "Continue required technical gaps and exact Shopee discovery."
   },
   "new_findings": [
     {
@@ -4166,6 +4166,12 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "Comparison coverage correction: saved exact herykurniawanipunk historical ask now projects with seller/item/region, date, condition/bundle/stock and checkout uncertainty. Technical follow-ups already covered; no new source verification claimed."
+    },
+    {
+      "model": "VOX ToneLab SE",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Comparison coverage correction: saved exact BANKO sold-out historical offer now projects with seller/item/region/date, condition/bundle/warranty and checkout limits. Technical follow-ups already covered; full original prose retained and no price refresh claimed."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40132,7 +40138,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume ToneLab SE comparison cutoff review."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Remaining current-field coverage / manufacturer verification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
