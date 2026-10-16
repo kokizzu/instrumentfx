@@ -217,3 +217,7 @@ consolidation-commit-gm-800:
 .PHONY: research-commit-helix-lt
 research-commit-helix-lt:
 	python3 scripts/research_tools.py commit-helix-lt
+
+.PHONY: research-commit-gt100
+research-commit-gt100:
+	python3 scripts/research_tools.py commit-gt100

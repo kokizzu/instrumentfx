@@ -1481,3 +1481,39 @@ Checked **2026-10-16**. Exact cached Shopee hardware page,not live checkout/stoc
 [GM800-U]: https://www.boss.info/global/support/by_product/gm-800/updates_drivers/b191aadf-edff-48b6-8bee-86db3af5f533/
 
 Earlier indexed offer:[Boss shop](https://shopee.co.id/bosspedals.id),[Shopee category snapshot](https://shopee.co.id/search?category=11043572&keyword=gitar+boss&subcategory=11043648). The exact item above is the hardware identity;the index does not resolve its variants.
+
+## GT-100
+
+Checked **2026-10-16**. Guitar COSM multi-effects, distinct from GT-1000. Partial first pass; the original manual URL was found but web extraction failed because its PDF exceeded the fetch size limit. No manual file was downloaded.
+
+| Field | Model-specific evidence / unresolved fields |
+|---|---|
+| Expression | Built-in treadle; external SUB CTL1,2/SUB EXP shared socket. Toe operation requires manual verification. [Product][GT100-P] |
+| K/F/B | Eight parameter knobs advertised; total rotary count including output level,independent footswitch/button counts require panel verification. |
+| Display | Two backlit132×64 LCDs; diagonal,color/monochrome and touch remain unverified. |
+| Dimensions / weight | 542×271×80mm; maximum height102mm;4.8kg. |
+| Simultaneous processing / categories | Dual A/B paths; numerical simultaneous-block ceiling unverified. Product lists COMP,PREAMP,OD/DS,EQ,FX1/2,DELAY,CHORUS,REVERB,PEDAL FX,NS1/2,ACCEL FX. Current per-category totals need parameter-guide reconciliation. |
+| Factory / user / total memory | 200 preset+200 user=400 locations. |
+| Synth / acoustic | WAVE SYNTH,AC.GUITAR SIM and AC.PROCESSOR listed; simulation and acoustic processing are separate functions. |
+| IR / native NAM / converted NAM / captures | Import/capture support unverified; do not infer from COSM modeling or USB. |
+| Audio / control I/O | Quarter-inch input,L/mono+R outputs,stereo quarter-inch phones,send/return,amp control,TRS external control;stereo mini AUX;USB,DIN MIDI in/out,DC input. |
+| Power / battery / USB power | 9V DC,600mA; PSB-1U adapter. Polarity,battery/USB operation unresolved. |
+| Editor / drivers | BOSS TONE STUDIO Mac/Windows requires system2.0. Product support lists system2.12,editor1.1.3 and separate Windows10/11/macOS audio drivers; exact OS requirements/current updater procedure not yet verified. |
+| Looper / scenes / routing | A/B blending/switching; playing strength/frequency switching. Accel controls multiple parameters. Looper duration,drums,scene behavior and USB channel count require manual review. |
+
+Technical table source: [BOSS product specifications and version-2 notes][GT100-P]. **Firmware limits:** A-DIST is in OD/DS and FX2 SUB OD/DS; OVERTONE and TERA ECHO are FX2-only. Do not treat the FX1/FX2 combined list as two identical freely interchangeable libraries.
+
+### Separate IDR evidence
+
+| Condition / evidence | IDR ask and limits |
+|---|---|
+| Used | Unknown; neither saved offer establishes used condition. |
+| Condition unresolved | **Rp4.300.000**,Aliska skincare,Kab.Pangandaran,shop266296121/item3068716612,[hardware offer][GT100-S1]. Reopened2026-10-16,cached **Habis**,22–24Aug delivery text. Condition,bundle,warranty region and current checkout/stock unconfirmed. Late-arrival voucher up toRp10.000 is compensation,not a discount. |
+| Retail-title historical lead | Prior indexed **Rp6.645.000**,multi_store_music,Surabaya,shop10763705/item3991620791,[GT-100 GARANSI RESMI title][GT100-S2]; previously cached Habis,5–8Oct delivery. Reopen2026-10-16 returned only JavaScript placeholder. Seller warranty claim is unverified;condition,bundle,shipping/tax,voucher/current stock unknown. Not a verified current offer or condition-qualified price. |
+
+Remaining:complete original manual and parameter guide,independent controls/toe,block ceiling/category subtotals,power polarity/operation,display properties,IR/NAM/capture,looper/drums/USB routing and condition-verified offers. Bass suitability stays unclassified until exact-model evidence is established.
+
+[GT100-P]: https://www.boss.info/global/products/gt-100/
+[GT100-M]: https://cdn.roland.com/assets/media/pdf/GT-100_OM.pdf
+[GT100-S1]: https://shopee.co.id/BOSS-GT-100-i.266296121.3068716612
+[GT100-S2]: https://shopee.co.id/Boss-GT-100-COSM-Amp-Effects-Processor-GT100-GT-100-GARANSI-RESMI-i.10763705.3991620791
