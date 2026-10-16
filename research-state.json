@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery after Dark Mini",
-    "task": "Dark Mini initial record saved;remaining gaps explicit. Resolve Dapper Indie storefront item and search exact RK5 revision leads;thencontinue eligible brands/series.",
+    "model": "Valeton Dapper Indie",
+    "task": "ExactShopeeitem115662249/51416841921resolvedfromALLZstorefront;Rp1138000condition/stockunknown,directcachemiss. Verifyownmanufacturerproduct/manual;commitbeforeanynextmodel.",
     "next_models": [],
-    "after_queue": "Continue discovery and specification follow-ups;not complete."
+    "after_queue": "ResolveRK5v2exactsearchitemandcontinuefreshShopeediscovery;retainambiguoususedRK5separately."
   },
   "new_findings": [
     {
@@ -22402,6 +22402,24 @@
       "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
       "status": "Unrecorded candidate;manufacturerverificationrequired",
       "qualified_live_stock": false
+    },
+    {
+      "model": "Valeton Dapper Indie",
+      "checked_date": "2026-10-17",
+      "url": "https://shopee.co.id/efek-gitar-dapper-indie-i.115662249.51416841921",
+      "shop": "115662249",
+      "item": "51416841921",
+      "seller": "ALLZ MUSIC SHOP",
+      "storefront": "https://shopee.co.id/allzzzmusicshop",
+      "idr": 1138000,
+      "condition": "unknown",
+      "stock": "unknown",
+      "region": "unknown",
+      "bundle_variant": "unknown",
+      "voucher": "unknown",
+      "access": "Exactitemlinkfrommonth-oldreadablestorefront;directitemcachemiss",
+      "status": "Unrecorded candidate;manufacturerarchitecture/manualverificationrequired",
+      "qualified_used_new": false
     }
   ],
   "inventory_by_brand": {
@@ -48673,5 +48691,42 @@
       }
     ],
     "limits": "No new models admitted;nonemptyfreshqueue. Seller specifications nottreatedasmanufacturer evidence."
+  },
+  "discovery_indie_exact": {
+    "checked_date": "2026-10-17",
+    "lead": {
+      "model": "Valeton Dapper Indie",
+      "checked_date": "2026-10-17",
+      "url": "https://shopee.co.id/efek-gitar-dapper-indie-i.115662249.51416841921",
+      "shop": "115662249",
+      "item": "51416841921",
+      "seller": "ALLZ MUSIC SHOP",
+      "storefront": "https://shopee.co.id/allzzzmusicshop",
+      "idr": 1138000,
+      "condition": "unknown",
+      "stock": "unknown",
+      "region": "unknown",
+      "bundle_variant": "unknown",
+      "voucher": "unknown",
+      "access": "Exactitemlinkfrommonth-oldreadablestorefront;directitemcachemiss",
+      "status": "Unrecorded candidate;manufacturerarchitecture/manualverificationrequired",
+      "qualified_used_new": false
+    },
+    "queries": [
+      "site:shopee.co.id Valeton Dapper Indie",
+      "site:shopee.co.id RK5 v2",
+      "site:shopee.co.id RK5 v3",
+      "site:shopee.co.id Tech21 RitchieKotzenSignatureFlyRigv2"
+    ],
+    "rk5_v2_separate_search_lead": {
+      "url": "https://shopee.co.id/search?keyword=fly+v2",
+      "title": "Tech 21 Ritchie Kotzen Signature Fly Rig v2",
+      "idr": 5284750,
+      "display_discount": "24%",
+      "region": "Jakarta Selatan",
+      "access": "3monthsearchcache;item/sellernotresolved",
+      "qualification": "NotassignedtogenericusedKamarGearRK5;notqualifiedexactoffer"
+    },
+    "decision": "Indieexactitemnowresolved;nextprimaryverification. RK5genericversionstillunknown;v2specificsearchleadrequiresownitemlink."
   }
 }
