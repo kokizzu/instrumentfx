@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G1Xon manual follow-up",
-    "task": "G1Xon officiallist/manualrevision audit saved:80reconcilescategories,100marketing unresolved. Remaining screen/nativeimports/USB/editor/liveprices retained. NextfreshShopeediscoverybybrand/series;do notclaimcomplete.",
+    "model": "Zoom G1on",
+    "task": "ExactG1onhardwarelead saved,notqualifiedused/new. VerifyG1on primarymanual/product,createcanonicalrecord andfourcomparisonrows,commit beforeanothermodel.",
     "next_models": [],
-    "after_queue": "FreshShopee discovery necessary."
+    "after_queue": "FreshShopee bassdiscovery stillneeded;ME50B exactitem notestablished."
   },
   "new_findings": [
     {
@@ -47458,5 +47458,58 @@
       }
     ],
     "technical_next": "Verify StompLab2G with exact officialmanual/product;do notborrow1G/2B. ThenG1Xon distinctfromG1on. Noactivecountchange untilprofile."
+  },
+  "discovery_g1on": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"Boss ME50B\"",
+      "site:shopee.co.id \"Boss ME-50B\"",
+      "site:shopee.co.id \"Zoom G1on\" efek",
+      "site:shopee.co.id \"ME50B\" bass efek"
+    ],
+    "lead": {
+      "model": "Zoom G1on",
+      "url": "https://shopee.co.id/Efek-Gitar-ZOOM-G1ON-zoom-G1-on-Multi-Effect-G1-on-i.61848168.18873574731",
+      "shop": "61848168",
+      "item": "18873574731",
+      "seller": "gitar second",
+      "region": "Kab. Polewali Mandar",
+      "idr": 800000,
+      "stock": "Habis in opened month-old cache",
+      "condition": "Unconfirmed;secondhand-focused shopname is not item-specific condition evidence",
+      "variant_bundle": "Unknown;adapter,battery,box andworkingstate unverified",
+      "voucher": "Rp10000 late-arrival compensation isnot purchasevoucher",
+      "access": "CachedHTMLreadable;Sep18–20 delivery dates stale;notlive stock confirmation",
+      "qualified_used_new": false
+    },
+    "secondary": {
+      "url": "https://shopee.co.id/Efek-Zoom-G1on-fullset-i.194129824.26177529440",
+      "shop": "194129824",
+      "item": "26177529440",
+      "access": "Searchtitlelead;directcachemiss;subsequentexactIDsearchempty",
+      "qualification": "Fullset title doesnot establish bundle,condition,priceorstock"
+    },
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/soket-satu-set-G1on-G1Xon-socket-input-output-efek-effect-zoom-G1on-zoom-G1Xon-i.38361451.10456132504",
+        "idr": 37000,
+        "reason": "Replacement sockets,notprocessorhardware"
+      },
+      {
+        "url": "https://shopee.co.id/Zoom-G1xon-efek-gitaR-zoom-G1on-i.58780289.15654839389",
+        "idr": 1398000,
+        "stock": "Habis cached",
+        "reason": "Mixed G1Xon/G1on title,identity unresolved"
+      },
+      {
+        "shop": "22551702",
+        "item": "6866797510",
+        "seller": "jonimusic",
+        "region": "Kota Tangerang Selatan",
+        "reason": "11/12multimodelvariants;Rp2099900–3999900and3999900 excerptsnotmappedtoG1on;differentURLslugsareoneshop/item,notdistinctoffers"
+      }
+    ],
+    "bass_search": "No exact ME50B hardwareitem established in this pass. This is a search limitation,notproofmarketabsence.",
+    "next": "G1on exactofficialprofile;do notborrowG1Xon expression,mass,dimensions orfirmwarecount."
   }
 }
