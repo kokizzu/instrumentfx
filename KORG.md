@@ -225,3 +225,36 @@ Korg AX10G support links the AX10-Series EasyStart. The readable filename= query
 **Instruction conflict:** EasyStart p2 says to select PRE types using VALUE arrows; owner manual p6 instead assigns type selection to PRE FX and parameter adjustment to VALUE, with both VALUE buttons toggling bypass. Retain the manual procedure rather than silently merging these descriptions. The guide’s26effect headline does not imply26 simultaneous blocks or independently selectable cabinets. No new power/display/import verification or physical inspection.
 
 [AX10-E]: https://cdn.korg.com/us/support/download/files/6d29b2b401333c3fa4b58f256d3b30e4.pdf?response-content-disposition=inline%3Bfilename%3DAX10_Series_EasyStart.pdf&response-content-type=application%2Fpdf%3B
+
+## AX1000G
+
+Guitar multi-effects;distinct fromAX1500G/AX100G. Checked2026-10-17;partial. Korg discontinued. Bass/vocal suitability and ownership unverified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal with full-forward switch. PEDAL block11choices;modulation-type pedal effects disableMOD,delay/sample pedal effects disableAMBIENCE. External support unverified. | [Manual pp9,20–21][AX1000-M] |
+| K/F/B | **10 rotary /5 main footswitches**:five selectors+five value knobs;fourprogram+bank. Separate buttons count unverified;toe additional. | [Manual pp4–6][AX1000-M] |
+| Display | BacklitLCD plus bank indicator;diagonal,color,touch unverified. | [Manual pp3,5][AX1000-M] |
+| Dimensions / mass | **420W×187.7D×65.4H mm;2.4kg**. | [Manual p15][AX1000-M] |
+| Processing / category choices | **56types;maximum8effects**,with pedal/block exclusions. Manual-derived five selector categories×11 choices(DRIVE-AMP,CABINET,MODULATION,PEDAL,AMBIENCE)=55;NR adds1. DRIVE includes3bandEQ;compositeeffects are not independent extra slots. | [Manual pp3,15–22][AX1000-M] |
+| Factory / user memory | **80=40preset+40user**,factory user copies presets. Presets read-only;WRITE twice with destination. Reload overwrites users/settings. | [Manual pp7,13–14][AX1000-M] |
+| Synth / acoustic | ACOUSTIC electric-to-acoustic simulator includes compressor. TALK vowel processing andRINGMOD do not establish synthesizer architecture. | [Manual pp16,20–21][AX1000-M] |
+| I/O | Mono¼guitar;stereo⅛AUX;L/mono+R¼outputs;stereo⅛headphones;DC9V. Rear inventory lists no USB/MIDI/external-control socket. | [Manual pp6,15][AX1000-M] |
+| Power / battery / USB | **DC9V**,included adapter;connection powers unit. Polarity,current,battery andUSB power unverified. | [Manual pp6,15][AX1000-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified;factory cabinet models do not establish imports. | Unresolved |
+| Editor / software | Editor/platform support unverified;onboard editing documented. | [Manual p12][AX1000-M] |
+| Looper / drums / live | Sample&Play**8s**;PhraseTrainer**up to16s**,slower playback without pitch change;metronome40–208BPM. Individual mode toggles blocks but prevents patch switching. Trainer disables metronome. Overdub,drumkit,scenes,trails unverified. | [Manual pp3,7,11,15][AX1000-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;title does not establish condition. | — |
+| New | Unknown;no qualified new offer established. | — |
+| Conditional historical offer | **Rp1,700,000;Habis**, UM Audio Official,Kab.Ponorogo;shop238779157/item13913725973. Checked2026-10-17;two-month rendered cache,stale3–6September delivery;shop onholiday. Condition,working state,revision,adapter/bundle,warranty,voucher unknown. Not currentstock/completedsale;late-arrival compensation notdiscount. | [Exact hardware][AX1000-O] |
+
+Manufacturer E1 manual used as web text;no files downloaded,software installed or physical inspection. Up-to-eight is an advertised maximum,not permission to combine every PEDAL choice with MODULATION/AMBIENCE. Category count excludes OFF,parameter settings andduplicated descriptions. NoAX1500G dimensions,power or features transferred;power polarity must remain unresolved rather than inferred from anotherKorg adapter.
+
+[AX1000-M]: https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf
+[AX1000-P]: https://www.korg.com/us/support/download/product/1/19/
+[AX1000-O]: https://shopee.co.id/korg-ax1000g-i.238779157.13913725973

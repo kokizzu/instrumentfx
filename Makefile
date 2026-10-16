@@ -1375,3 +1375,7 @@ research-commit-gfx3:
 .PHONY: research-commit-gfx5
 research-commit-gfx5:
 	python3 scripts/research_tools.py commit-gfx5
+
+.PHONY: research-commit-ax1000g
+research-commit-ax1000g:
+	python3 scripts/research_tools.py commit-ax1000g
