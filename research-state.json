@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3000G primary follow-up",
-    "task": "AX3000G added from exact used Shopee lead. Verify manual panel/toe controls, routing, category-count conflict and power/editor requirements; commit before another model.",
+    "task": "AX3000G panel counts, under-pedal switch and headphone/output restrictions saved. Next reconcile full model list and verify electrical/editor OS requirements; commit before another model.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains required; no coverage-complete claim."
   },
@@ -1885,13 +1885,25 @@
         "Manual amp11/cab16 versus EasyStart driveamp16/cab11"
       ],
       "unresolved": [
-        "control counts/expression",
         "display",
         "electrical",
         "imports",
         "current OS",
-        "live limits"
-      ]
+        "live limits",
+        "external expression qualification"
+      ],
+      "panel_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf",
+        "pages": "3–13",
+        "resolved": [
+          "K/F/B 11/7/20 derived from named control groups; under-pedal switch additional",
+          "Expression switch disabled for volume assignment",
+          "TRS balanced/unbalanced outputs, headphone main-output muting and shared rear LEVEL",
+          "Manual p4 agrees with sixteen drive/amp choices; p56 conflict retained"
+        ],
+        "remaining": "Full model list, current/polarity, editor OS and other recorded gaps"
+      }
     }
   ],
   "consolidation_and_price_findings": [
