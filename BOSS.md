@@ -239,3 +239,58 @@ Checked2026-10-16. Exact hardware pages;cached asks are not live checkout/stock 
 | Retail-style / Boss Official Shop,Tangerang Selatan | Rp3.720.000,Habis in search/reopened body. Relative today versus tomorrow delivery conflict;no live-stock inference. Late-delivery voucher is not price discount. Bundle unspecified. | [341882414 /20878357685](https://shopee.co.id/BOSS-VE-1-Vocal-Echo-Pedal-Efek-Vokal-i.341882414.20878357685) |
 
 Remaining:visual controls/display verification,USB power/DC polarity,USB channel/rate/bit-depth,current software compatibility,import capabilities,condition-verified used price,current seller stock/bundles.
+
+## VE-2
+
+Vocal multi-effects;guitar chord detection does not establish guitar multi-effects. Consolidated/researched2026-10-16;partial verification.
+
+### VE-2 — preserved original comparison
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimensions are **W×D×H, mm**. K/F/B = rotary controls / main footswitches / separate buttons; rear power, phantom and ground-lift toggles are additional. Used and new prices are separate **USD US-market asking/listing observations**, not sold-price statistics. Tax, shipping and condition matter.
+
+| Required field | Original observation (2026-10-14) |
+|---|---|
+| External expression | External **footswitch only**, not EXP |
+| K/F/B | 5/1/4 [photo/specs] |
+| Dimensions; weight | 156×116×64; 600 g |
+| Size class | Compact |
+| Used USD | ? |
+| New USD | $229.98 [P1] |
+| Processing architecture; categories / choices | Harmony **24** types = 12 ×2 variations; Echo and Enhance stages |
+| Factory / user storage | **3 saved memories** |
+| Harmony, pitch, synth-like and acoustic functions | 1–2 added harmony voices; guitar-guided, manual-key or hybrid harmony; enhancement/pitch correction |
+| IR / NAM loading | Neither established |
+| Physical audio/control ports | XLR mic **48 V/10 mA max**; ¼″ guitar in/thru; mono XLR out; 3.5 mm phones/line; TRS footswitch; USB-B |
+| Battery / power / USB-powered? | 4 AA or PSA 9 V; up to 200 mA; USB powering not listed |
+| Configuration apps versus USB functions | Full editor not established; Windows/macOS drivers; USB audio/loopback |
+| Looper / live considerations | Guitar detection assists harmony without requiring a pre-programmed key |
+
+Original sources: [source](https://www.boss.info/global/products/ve-2/); [source](https://static.roland.com/assets/images/products/main/ve-2_top_main.jpg); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series). Original rotary count includes rear MIC SENS. P1:Sweetwater BOSS signal-processing listings,new USD229.98 checked2026-10-14,bundles/open-box excluded;not converted IDR. [Complete original](effects/vocal.md) read and retained unchanged.
+
+### VE-2 — current manufacturer checks
+
+| Required field | Evidence / remaining uncertainty (2026-10-16) |
+|---|---|
+| Processing / memory | HARMONY,ECHO,ENHANCE;24 harmony choices=12×2variations. Base types add one/two voices;manufacturer describes variation settings with more voices,so legacy1–2 is not a proved absolute ceiling across variations. Three stored memories. Auto guitar-guided,manual key,and hybrid modes. [VE2-S] |
+| Ports / power / body | XLR mic48V10mAmax;guitar input/thru;XLR out;mini phones/line;TRS VARIATION/MEMORY;USB-B;DC.9V200mAmax;fourAA alkaline/NiMH;PSA optional. Alkaline11h phantomoff/7h on;2450mAhNiMH12h/8h.156×116×64mm,600g,battery basis unspecified. [VE2-S] |
+| Physical controls / expression / display | Legacy5knobs/1footswitch/4buttons retained;fresh panel recount pending. No builtin expression/toe pedal;external footswitch,not expression. Screen diagonal/color/touch unestablished. |
+| Guitar / vocal routing | GUITAR THRU sends input unchanged;guitar absent from XLR/phones and cannot be USB-recorded. One singer at mic required for reliable harmony/echo. [VE2-M] |
+| USB / software | NORMAL records processed voice;LOOP BACK adds computer playback;INPUT harmonizes computer playback. USB driver required;full editor unestablished.USB power,channel/rate/bitdepth and current OS versions remain unverified. [VE2-M] |
+| Footswitch / live / pitch | External TRS tip=VARIATION,ring=MEMORY;FS-5U×2,FS-6/FS-7. Momentary onboard mode prevents pedal bypass/memory switching. Reference pitch437–443Hz;minor key uses relative major. Ten-hour sleep leaves only guitar-thru. [VE2-M] |
+| IR / NAM / capture / synth | IR,native NAM,converted NAM,proprietary capture,synth/acoustic conversion and looper/drums/scenes unestablished. Vocal harmony does not imply guitar processing. DC polarity remains unverified. |
+
+[VE2-S]: https://www.boss.info/global/products/ve-2/
+[VE2-M]: https://static.roland.com/assets/media/pdf/VE-2_eng04_W.pdf
+
+### VE-2 — separate IDR asking-price evidence
+
+Checked2026-10-16;cached exact hardware asks,not current checkout/stock or condition proof. Shipping,tax and warranty region require confirmation. Seller names not authenticated.
+
+| Condition / seller | IDR observation and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no exact condition-verified used ask established. | — |
+| Retail-style / CH MUSIC,Jakarta Pusat | Indexed Rp4.450.000,two-hour delivery-before15:00. Direct reopen cache miss;no live-stock inference;bundle unspecified. Late-delivery voucher not price discount. | [195817632 /23764667747](https://shopee.co.id/Boss-VE-2-Vocal-Harmonist-Effects-Processor-Original-VE2-i.195817632.23764667747) |
+| Retail-style / Bandung Music Gallery,Bandung | Rp4.670.000,index10Aug/reopened1Sep delivery. Bare-unit title;adapter inclusion unknown. No price voucher shown;stock unverified. | [394955725 /8862641319](https://shopee.co.id/Boss-VE-2-Vocal-Harmonist-VE-2-VE2-Efek-Vokal-Effect-Vocal-i.394955725.8862641319) |
+| Retail-style adapter bundle / Bandung Music Gallery,Bandung | Rp5.460.000,title explicitly +Adaptor;adapter model/authenticity unconfirmed. Index tomorrow/reopened1Sep delivery. Separate item from bare-unit listing;do not collapse into unconditional unit-price range. | [394955725 /11708755293](https://shopee.co.id/Boss-VE-2-Vocal-Harmonist-Adaptor-VE2-VE-2-Efek-Vokal-i.394955725.11708755293) |
+
+Remaining:variation voice ceiling;panel/display proof;USB power/channels/rates/driverOS;DC polarity;imports;used-condition price,current seller stock and bundle verification. No legacy source deleted.
