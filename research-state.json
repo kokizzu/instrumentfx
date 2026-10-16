@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS ME-50 primary follow-up",
-    "task": "ME-50 Tone Modify/delay choices and routing/output restrictions saved. Next corroborate complete physical controls and connector/polarity evidence; then fresh Shopee discovery. Commit before next model.",
+    "model": "Fresh Shopee discovery after ME-50 controls",
+    "task": "ME-50 text-derived20/3/5 controls and toe calibration saved. Remaining ceiling, full chain/visual corroboration, connector subtypes/polarity, imports/software and offers. Resume fresh Shopee discovery; resolve exact item links from search-page anchors where available; commit before next model.",
     "next_models": [],
-    "after_queue": "Continue fresh Shopee discovery; missing bass leads still unresolved."
+    "after_queue": "Continue discovery; no exhaustive-coverage or fully-verified claim."
   },
   "new_findings": [
     {
@@ -2006,7 +2006,6 @@
         "Two-second Hold delay recording"
       ],
       "unresolved": [
-        "full controls",
         "processing/category counts",
         "factory fill",
         "ports/polarity",
@@ -2039,6 +2038,17 @@
           "PHONES/LINE amp simulator and stereo split"
         ],
         "remaining": "Complete controls, full chain, ceiling, connector subtypes/polarity, imports/software and qualified prices"
+      },
+      "controls_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://static.roland.com/assets/media/pdf/ME-50_OM.pdf",
+        "resolved": [
+          "K/F/B20/3/5 derived from named physical control groups; toe/power additional",
+          "Toe calibration and activation force1–9",
+          "Single-note Harmonist/octave-bend restrictions"
+        ],
+        "method": "Manual text enumeration; screenshot endpoint failed, no successful visual inspection claimed",
+        "remaining": "DC polarity not explicit in inspected text; other recorded gaps retained"
       }
     }
   ],
@@ -37730,7 +37740,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-50 primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after ME-50 controls."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
