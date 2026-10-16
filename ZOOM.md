@@ -669,3 +669,58 @@ Guitar Lab Windows/macOS and Handy Guitar Lab iOS/iPadOS with optional BTA-1 rem
 These asks are separate observations,not a new/used market range. Search/list pages also show other amounts without a verified exact item/condition match;they are not accepted price bounds. Condition,selected bundle,voucher eligibility,warranty,shipping,stock and seller authenticity remain unverified unless explicitly documented.
 
 Remaining:current category inventory,factory preset subset,IR length/overwrite rules,exact physical-control corroboration,external toe implementation,explicit battery operation,NAM/capture support andqualified used/live-stock pricing. Full original facts,dates,URLs and source qualifications are preserved.
+
+## V3
+
+Vocal multi-effects; hand-operated desktop/mic-stand unit. Consolidated and researched 2026-10-16; partial verification. No guitar processing membership inferred from vocal effects.
+
+### V3 — preserved original comparison
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimensions are **W×D×H, mm**. K/F/B = rotary controls / main footswitches / separate buttons; rear power, phantom and ground-lift toggles are additional. Used and new prices are separate **USD US-market asking/listing observations**, not sold-price statistics. Tax, shipping and condition matter.
+
+| Required field | Original observation (2026-10-14) |
+|---|---|
+| External expression | FP02M expression or FS01 footswitch |
+| K/F/B | 7/0/23 [V3 manual] |
+| Dimensions; weight | ?; weight ? |
+| Size class | Unverified; **desktop/mic-stand processor, not foot-operated** |
+| Used USD | ? |
+| New USD | ? |
+| Processing architecture; categories / choices | Selected voice effect + delay + reverb, with compressor/enhance; **16 voice-effect choices**, 5 harmony styles, up to 2 added voices |
+| Factory / user storage | No named patch bank established; per-effect settings are remembered |
+| Harmony, pitch, synth-like and acoustic functions | Vocoder/talkbox/robot/formant and pitch correction; manual major/minor key |
+| IR / NAM loading | Neither established |
+| Physical audio/control ports | XLR mic **48 V**; L/R line outputs; 3.5 mm aux and phones; CTL; micro-USB; exact line-output connector specification ? |
+| Battery / power / USB-powered? | **4 AA, AD-16 adapter or USB bus/power bank** |
+| Configuration apps versus USB functions | Full editor not established; Windows ASIO driver; USB **2-in/2-out**, Mac/iOS audio supported |
+| Looper / live considerations | Hand-operated; no built-in looper established; harmony key entered manually |
+
+Original V3 sources: [manufacturer source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/); [manufacturer source](https://zoomcorp.com/documents/1332/E_V3_2.pdf). Complete legacy comparison read; [original](effects/vocal.md) retained with incoming links.
+
+### V3 — current manufacturer checks
+
+| Required field | Current evidence / limits (2026-10-16) |
+|---|---|
+| Physical controls / expression | Seven named rotary controls: KEY, COMP, DELAY, REVERB, EFFECT ADJUST, rear VOLUME and PHONES VOLUME. Buttons:16 effect selectors +5 harmony +ENHANCE +EFFECT OFF =23; no built-in footswitch or expression/toe pedal. Rear power/phantom toggles separate. External FP02M adjusts effect amount; FS01 switches selected effect off. [V3-M] |
+| Processing / presets | One selected effect alongside delay/reverb and compression/enhance;16 choices are alternatives. Per-effect states retained; named preset-bank capacity not established. Harmony permits two of five options; selecting a third cancels the earliest. [V3-M] |
+| Power / USB / live | Four AA; USB power supported. Low bus supply may require AD-16. Lightning iOS connection instructions require camera adapter and AD-16. Alkaline estimate3.5h; standard pitch435–445Hz in1Hz steps; ECO auto-off10h. [V3-M] |
+| Screen / dimensions / ports / loading | Screen type/size/touch and body dimensions/mass remain unverified; no screen assertion from missing text. Exact line-output connector/balancing, sample rates/bit depths, rated current/polarity, native/converted NAM, IR and capture support remain unestablished in inspected sources; do not borrow V6 specs. |
+| Editor / driver / updater | Support lists firmware1.30 for Windows/Mac and Windows10/11 64-bit ASIO driver; these are not evidence of a full editor. [V3-S] |
+| Synth / acoustic / bundle | Vocal character, vocoder and talkbox effects do not establish guitar/acoustic simulation. SGV-6 mic, stand mounts and external controllers are optional; manufacturer box list names processor/manual. Seller bundle unknown unless specified. [V3-P] |
+
+[V3-M]: https://zoomcorp.com/documents/1332/E_V3_2.pdf
+[V3-P]: https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/
+[V3-S]: https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/v3-support/
+
+### V3 — separate IDR asking-price evidence
+
+Checked2026-10-16 using exact hardware pages; cached bodies differ from search snapshots. No checkout, condition or stock authentication; tax/shipping/region and selected bundles require seller confirmation. Retail-style asks below are not condition-verified used prices. Store names are not authentication.
+
+| Condition / seller | IDR observation and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown; searches found no exact condition-verified used offer. Do not estimate. | — |
+| Retail-style / Zoom Official Shop, Jakarta Barat | Search snapshot:Rp4.140.000 marked Habis; reopened cached body:Rp3.653.100 with voucher,minimum Rp1.5m/1% discount. Relative same-day delivery text is not current stock proof. Bundle/adapter unspecified. Preserve both snapshots separately, not an unconditional price range. | [348182890 /8113607655](https://shopee.co.id/Zoom-V3-Vocal-Processor-i.348182890.8113607655) |
+| Retail-style / Ixus Pro, Jakarta Pusat | Rp3.631.000 with voucher;spendRp2.5m,discountRp5,000. Cached five-hour delivery promise; stock and adapter/mic bundle unconfirmed. Exact page reopened with same ask. | [8624665 /54253225830](https://shopee.co.id/Zoom-V3-Vocal-Processor-Multi-Efect-i.8624665.54253225830) |
+| Retail-style / LangitLofi244, Jakarta Barat | Rp9.070.349. Search snapshot says preorder ships30days,21–24Sep delivery; reopened body instead26–29Aug without preorder badge. Both are stale date contexts, not confirmed dispatch. Bundle unspecified. | [1638432201 /53450228369](https://shopee.co.id/Professional-vocal-processor-16-voice-changing-effects-ZOOM-V3-with-USB-audio-interface-for-Playing-harmony-Karaoke-Streaming-i.1638432201.53450228369) |
+
+No Malaysian RM listings or noisy accessory/search-page prices used as IDR hardware evidence. Exact owned Zoom vocal model/bundle remains unresolved; this profile does not establish ownership.
