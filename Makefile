@@ -1187,3 +1187,7 @@ research-commit-me25:
 .PHONY: research-commit-g3
 research-commit-g3:
 	python3 scripts/research_tools.py commit-g3
+
+.PHONY: research-commit-b3
+research-commit-b3:
+	python3 scripts/research_tools.py commit-b3

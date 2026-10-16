@@ -1426,3 +1426,48 @@ Remaining: physical controls, screen details, revision/category counts, full con
 [G3-F]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf
 
 [G3-MC]: https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf
+
+## B3
+
+Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Discontinued. Guitar/vocal applicability unclassified; ownership not established.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / K/F/B | External FP01/FP02 expression or FS01 through CONTROL IN. No integrated pedal; toe N/A. Three main footswitches; complete knob/button count remains unverified. | [Manual][B3-M] pp4–5,51 |
+| Display | Three backlit dot-matrix LCDs; diagonal,color depth,touch unknown. | [Product][B3-P] |
+| Dimensions / weight | 234 W×170 D×54 H mm;1.2kg, battery inclusion not specified in inspected English specifications. Large footprint. | [Manual specifications][B3-S] |
+| Simultaneous effects | Up to3, freely ordered; DSP overflow bypasses an effect with THRU. Disabled effects still consume DSP. Do not inherit G3 firmware’s six-effect ceiling. | [Manual][B3-M] p9; [Product][B3-P] |
+| Categories / choices | 111 total:99 effects plus12 amp/cab models. Compression,filter/EQ,drive,modulation,synth,delay/reverb; exact category subtotals unresolved. | [Product][B3-P] |
+| Factory / user memory | 100 editable memories (10×10), first50 factory-filled; not150 total. Auto Save and Store/Swap. | [Product][B3-P] |
+| Synth / acoustic | V-Syn and Z-Syn bass synthesis; Z-Organ organ simulation. Dedicated acoustic/upright simulation unverified; acoustic360 is an amplifier model, not acoustic-instrument conversion. | [Manual][B3-M] p43; [Product][B3-P] |
+| I/O | Mono quarter-inch INPUT with active/passive switch; mono R and stereo L/MONO/PHONES; XLR balanced PRE/POST and ground lift; CONTROL IN,USB,DC. USB/control subtype unknown. | [Product][B3-P]; [Specifications][B3-S] |
+| Power / battery / USB | AD-16 rating9V DC500mA center-negative;fourAA, approximately6h alkaline; USB bus power supported. Adapter rating is not measured draw; USB electrical requirements unknown. | [Specifications][B3-S] |
+| USB audio / MIDI | 2-in/2-out;16-bit44.1kHz. Monitor balance and recording level adjustable. USB MIDI/dry/reamp routing unverified. | [Product][B3-P]; [Manual][B3-M] p32 |
+| IR / NAM / capture | User IR,native/converted NAM and capture imports unestablished. Factory cabinets do not prove import capability. | Unresolved |
+| Editor / platforms | Edit&Share Windows XP/Vista/7/8/8.1/10 and Mac10.9–10.12. Firmware1.20 updaters and Windows ASIO2.0.1 driver are separate. Current OS/mobile compatibility unknown. | [Support][B3-D] |
+| Looper / rhythms / live | 40s maximum,20s with Undo enabled; overdub/erase and rhythm synchronization. Changing TIME erases loop. 41 rhythms. Scenes,trails,persistence and full control details unresolved. | [Manual][B3-M] pp26–29; [Product][B3-P] |
+| Source conflict | Frequency response: product +1/−6dB versus indexed manual +1/−3dB,20Hz–20kHz at10kΩ. Preserve discrepancy; no measured resolution. | [Product][B3-P]; [Specifications][B3-S] |
+
+### Separate IDR hardware offers
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown; no exact condition-verified used ask established. | — |
+| New | Unknown; no exact condition-verified new ask established. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified historical hardware ask
+
+**Rp1,750,000**, seller **jakartamusicstore**, Kota Jakarta Selatan; shop103358249/item6955032247. Exact originalB3 title; **Habis**. Checked2026-10-17; last-week cached direct body is JS-limited,9–10Oct delivery stale. Condition,working state,selected variant,adapter/bundle,warranty,shipping,tax,voucher and delivered total unknown. Late-delivery10k compensation is not hardware discount. Not assigned to used/new columns. [Exact item](https://shopee.co.id/Zoom-B3-Preamp-Bass-effects-digital-efek-DI-Overdrive-EQ-Compressor-Octaver-Chorus-i.103358249.6955032247).
+
+Ambiguous B3/B3N title from STONED MAGHRIB,Depok,shop65245619/item17399777546 showed Rp1,700,000 and Habis; not attributed to either model. [Listing](https://shopee.co.id/Efek-Pedal-Bass-Zoom-B3-B3N-not-NUX-Boss-MXR-i.65245619.17399777546). Shop-level Segalasementara.Fx°/gyulalis usedB3 Rp1,999,999 lacks resolved item link; not accepted as exact offer.
+
+Remaining: physical counts,screen details,category subtotals,connector formats,power draw,imports/MIDI,current software,looper persistence and qualified current offers.
+
+[B3-P]: https://www.zoom.co.jp/node/47
+[B3-M]: https://zoomcorp.com/media/documents/E_B3.pdf
+[B3-S]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B3.pdf
+[B3-D]: https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/

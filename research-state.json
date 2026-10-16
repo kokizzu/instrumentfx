@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 144,
+  "active_model_count": 145,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 144,
+  "canonical_root_model_count": 145,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal. Exact ME-80 Shopee hardware discovery adds one distinct guitar processor:140active/root-canonical;116guitar,66bass,17vocal. ExactME-70hardwareShopee lead addsone distinctguitarprocessor:141active/rootcanonical,117guitar,66bass,17vocal. ExactRP360XP lead addsoneexpressionguitarprocessorandDigiTechbrand:142active/rootcanonical,24brands,118guitar,66bass,17vocal. ExactfaultyME-25hardwarelead plusmanufacturerproof addsoneeligibleguitarprocessor:143active/rootcanonical,119guitar,66bass,17vocal;faultyasknotworkingprice. Original G3 exact used hardware discovery adds one distinct guitar model:144 active/root-canonical;120 guitar,66 bass,17 vocal.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal. Exact ME-80 Shopee hardware discovery adds one distinct guitar processor:140active/root-canonical;116guitar,66bass,17vocal. ExactME-70hardwareShopee lead addsone distinctguitarprocessor:141active/rootcanonical,117guitar,66bass,17vocal. ExactRP360XP lead addsoneexpressionguitarprocessorandDigiTechbrand:142active/rootcanonical,24brands,118guitar,66bass,17vocal. ExactfaultyME-25hardwarelead plusmanufacturerproof addsoneeligibleguitarprocessor:143active/rootcanonical,119guitar,66bass,17vocal;faultyasknotworkingprice. Original G3 exact used hardware discovery adds one distinct guitar model:144 active/root-canonical;120 guitar,66 bass,17 vocal. Original B3 exact hardware discovery adds one bass-focused model:145 active/root-canonical;120 guitar,67 bass(16focused51shared),17 vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "G3 follow-up / fresh Shopee discovery",
-    "task": "G3 external-control and routing follow-up saved. Next verify physical counts with usable primary panel evidence, or resume fresh exact Shopee discovery. Do not add G3 again; commit each model before the next.",
+    "model": "B3 primary follow-up / fresh Shopee discovery",
+    "task": "Original B3 added separately from B3n. Verify physical controls, category subtotals, manual live/USB restrictions and current offers; commit each model before next.",
     "next_models": [],
-    "after_queue": "Search brands/series again; no exhaustive coverage claim."
+    "after_queue": "Continue exact Shopee discovery by brand and series."
   },
   "new_findings": [
     {
@@ -1575,6 +1575,47 @@
         ],
         "remaining": "Physical control counts require usable panel image; browser surfaces unavailable; original G3-only PDF still inaccessible; retain other saved gaps"
       }
+    },
+    {
+      "model": "Zoom B3",
+      "path": "ZOOM.md#b3",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "classification": "bass-focused; distinct from B3n",
+      "sources": [
+        "https://www.zoom.co.jp/node/47",
+        "https://zoomcorp.com/media/documents/E_B3.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/"
+      ],
+      "offers": [
+        {
+          "url": "https://shopee.co.id/Zoom-B3-Preamp-Bass-effects-digital-efek-DI-Overdrive-EQ-Compressor-Octaver-Chorus-i.103358249.6955032247",
+          "seller": "jakartamusicstore",
+          "location": "Kota Jakarta Selatan",
+          "shop": "103358249",
+          "item": "6955032247",
+          "idr": 1750000,
+          "condition": "unverified",
+          "stock": "Habis",
+          "access": "Last-week cached JS-limited direct body;9–10Octdelivery stale",
+          "bundle_variant_warranty_shipping_tax_voucher": "unknown",
+          "accepted_used_new_price": false
+        }
+      ],
+      "conflicts": [
+        "Frequency response product−6dB versus indexed manual−3dB"
+      ],
+      "unresolved": [
+        "physical counts",
+        "display",
+        "category subtotals",
+        "connector formats",
+        "power draw",
+        "imports/MIDI",
+        "current software",
+        "looper persistence",
+        "qualified used/new offers"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -20111,7 +20152,8 @@
       "MS-70CDR Plus",
       "MS-60B Plus",
       "B1on",
-      "G3"
+      "G3",
+      "B3"
     ],
     "DigiTech": [
       "RP360XP"
@@ -20202,7 +20244,8 @@
       "MS-70CDR Plus",
       "MS-60B Plus",
       "B1on",
-      "G3"
+      "G3",
+      "B3"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -20318,8 +20361,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 66,
-      "bass_focused_record_count": 15,
+      "record_count": 67,
+      "bass_focused_record_count": 16,
       "shared_bass_capable_count": 51,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -37216,8 +37259,8 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 144,
-    "canonical_root_models": 144,
+    "unique_brand_model_pairs": 145,
+    "canonical_root_models": 145,
     "legacy_only_models": 0,
     "guitar_view_models": 120,
     "bass_focused_models": 15,
@@ -37226,7 +37269,7 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 66,
+    "bass_view_models": 67,
     "bass_shared_models": 51,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -37251,7 +37294,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume G3 follow-up / fresh Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume B3 primary follow-up / fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -37442,7 +37485,8 @@
       "Zoom::MS-70CDR",
       "Zoom::MS-70CDR Plus",
       "Zoom::MS-60B Plus",
-      "Zoom::B1on"
+      "Zoom::B1on",
+      "Zoom::B3"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -38678,6 +38722,13 @@
     },
     "Zoom::G3": {
       "link": "ZOOM.md#g3",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::B3": {
+      "link": "ZOOM.md#b3",
       "source_files": [
         "ZOOM.md"
       ],
@@ -45066,5 +45117,19 @@
     "unresolved_variant_offer": "https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237",
     "other_leads": "GT-10 search page only; no exact qualified item established",
     "original_manual_access": "https://zoomcorp.com/media/documents/G3_OperationManual_English.pdf failed; no original revision limits inferred"
+  },
+  "discovery_b3": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site.shopee.co.id Zoom B3 efek bass",
+      "site.shopee.co.id Boss ME-50B"
+    ],
+    "selected": "Exact original B3 hardware sold-out ask; condition unknown",
+    "rejected": [
+      "B3/B3N unresolved item17399777546 Rp1700000",
+      "Shop-only used B3 Rp1999999 without exact item",
+      "Foreign Thai ME50B listing"
+    ],
+    "no_exhaustive_coverage_claim": true
   }
 }
