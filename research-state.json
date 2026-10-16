@@ -38938,6 +38938,13 @@
       "result": "Root-brand table scan found no mismatched table row widths. Three-column required-field tables in HeadRush MX5 and Core previously discarded the separate Source/Evidence column; extraction now preserves and resolves it. POD Go family variant table remains separately selected, with Wireless 2.5kg distinct from standard2.35kg.",
       "test": "make comparison-test-extraction",
       "limitations": "Does not prove complete source-body migration, all prose extraction, manufacturer truth or current price/stock. No source removed."
+    },
+    "analog_automation_projection_audit": {
+      "checked_date": "2026-10-17",
+      "regression": "Analog conversion/levels were missing from I/O and falsely matched IR/NAM loading via conversion;automation-only label could be omitted from practical-use column",
+      "change": "Route analog/converter labels to I/O,exclude analog-only conversion fromIR/capture andincludeautomationinlive",
+      "verification": "Focused failing regression beforefix;rebuild andfullcomparisonchecks required",
+      "counts_unchanged": true
     }
   },
   "discovery_search_pass": {

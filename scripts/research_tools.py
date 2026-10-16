@@ -264,7 +264,7 @@ def main():
         assert changed <= set(paths), changed - set(paths)
         git('add', '--', *paths)
         print(git('diff', '--cached', '--stat'))
-        message = 'fix(comparisons): preserve separate technical source columns' if mode == 'commit-field-extraction' else 'fix(comparisons): retain technical fields omitted by label matching'
+        message = 'fix(comparisons): preserve separate technical source columns' if mode == 'commit-field-extraction' else 'fix(comparisons): route analog conversion and automation to useful columns'
         if mode == 'commit-nux-mg50li-audit':
             message = 'audit(nux): preserve MG-50Li shared fields and conflicting source counts'
         if mode == 'commit-nux-mg30-audit':

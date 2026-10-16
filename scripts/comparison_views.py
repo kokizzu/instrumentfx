@@ -414,10 +414,10 @@ GROUPS = {
     'memory': r'memory|preset|storage',
     'sound': r'synth|acoustic|harmony|special sound|^sound|^vocal$|^instrument/function$',
     'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary|conversion',
-    'io': r'^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
+    'io': r'^analog|^conversion.*analog|^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
     'power': r'power|battery|^dc|^supply$',
     'editor': r'app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital|^audio interface$',
-    'live': r'live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
+    'live': r'automation|live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
 }
 
 def clean(value):
@@ -436,6 +436,8 @@ def cell(record, group):
         if re.search(r'IDR|USD|price|retail|used evidence|commit',field,re.I):
             continue
         if not re.search(GROUPS[group],field,re.I):
+            continue
+        if group=='loading' and re.search(r'analog|converter',field,re.I) and not re.search(r'\bIRs?\b|\bNAM\b|capture',field,re.I):
             continue
         if group=='io' and re.search(r'display|screen|diagonal',field,re.I):
             continue
@@ -537,17 +539,21 @@ def test_field_projection():
     assert 'Rp3.000.000' in price_cells(positive)[0]
     cases = {
         'expression': ['Built-in / external EXP'],
-        'io': ['Audio/control', 'Audio input', 'Audio inputs', 'Audio output', 'Audio outputs', 'Level conflict', 'Built-in instrument wireless'],
+        'io': ['Audio/control', 'Audio input', 'Audio inputs', 'Audio output', 'Audio outputs', 'Level conflict', 'Built-in instrument wireless', 'Analog levels / conversion', 'Conversion / analog levels'],
         'sound': ['Vocal', 'Instrument/function'],
         'processing': ['Model-total disagreement'],
         'editor': ['Audio interface'],
         'power': ['Supply'],
         'display': ['Evidence and remaining uncertainty'],
+        'live': ['Backing-track automation'],
     }
     for group, labels in cases.items():
         for label in labels:
             record = {'facts': [{'field': label, 'value': 'Retained qualified evidence', 'context': ''}]}
             assert 'Retained qualified evidence' in cell(record, group), (group, label)
+    for label in ('Analog levels / conversion', 'Conversion / analog levels'):
+        record = {'facts': [{'field': label, 'value': '24-bit converters, analog level limits', 'context': ''}]}
+        assert '24-bit converters' not in cell(record, 'loading'), 'Analog conversion leaked into IR/capture column'
     assert 'Retained qualified evidence' not in cell({'facts': [{'field': 'Manufacturer identity', 'value': 'Retained qualified evidence', 'context': ''}]}, 'processing')
     print('PASS: technical field labels reach their intended columns; manufacturer identity stays in the full record.')
 
