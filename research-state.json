@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 127,
+  "active_model_count": 128,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 127,
+  "canonical_root_model_count": 128,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Full root migration audit and fresh discovery",
-    "task": "PE100 added and must not be duplicated. Continue fresh Shopee brand/series discovery, primary unresolved-field research one model per commit, and full legacy preservation/prose extraction audit. Counts do not establish completion.",
+    "task": "PE100 and G3Xn added; do not duplicate. Continue fresh exact Shopee hardware discovery and unresolved primary-field research one model per commit; complete lossless legacy/source extraction audit remains outstanding.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -245,6 +245,26 @@
         "battery runtime",
         "editor/import support",
         "condition-qualified current IDR stock"
+      ]
+    },
+    {
+      "model": "Zoom G3Xn",
+      "path": "ZOOM.md#g3xn",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "commit_subject": "research(zoom): add G3Xn with qualified used offers and revision limits",
+      "sources": [
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/",
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/",
+        "https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf",
+        "https://shopee.co.id/EFEK-ZOOM-G3XN-BEKAS-NORMAL-i.16677197.20694505851"
+      ],
+      "unresolved": [
+        "exact control counts",
+        "headphone routing/complete ports",
+        "display physical specification",
+        "category census and installed revision",
+        "condition/bundle/stock-qualified offers"
       ]
     }
   ],
@@ -9876,7 +9896,8 @@
       "G2X FOUR",
       "B1Xon",
       "G6",
-      "G11"
+      "G11",
+      "G3Xn"
     ]
   },
   "root_brand_content": {
@@ -9951,7 +9972,8 @@
       "B2 FOUR",
       "B6",
       "V3",
-      "V6-SP"
+      "V6-SP",
+      "G3Xn"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -10056,7 +10078,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 107,
+      "record_count": 108,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -10086,10 +10108,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons:107 guitar,58 documented bass-capable,17 vocal; complete legacy preservation and incoming-link audit remain unfinished.",
+    "root_category_and_instrument_views": "Four-table comparisons:108 guitar,58 documented bass-capable,17 vocal; full preservation and incoming-link audit incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "0 legacy-only models;127 root-canonical. Full migration and research incomplete.",
+    "warning": "0 legacy-only models;128 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -10158,10 +10180,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 127,
-    "canonical_root_models": 127,
+    "unique_brand_model_pairs": 128,
+    "canonical_root_models": 128,
     "legacy_only_models": 0,
-    "guitar_view_models": 107,
+    "guitar_view_models": 108,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
     "vocal_view_models": 17,
@@ -10303,7 +10325,8 @@
       "Zoom::G2 FOUR",
       "Zoom::G2X FOUR",
       "Zoom::G6",
-      "Zoom::G11"
+      "Zoom::G11",
+      "Zoom::G3Xn"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -11477,6 +11500,13 @@
       "finding_files": [
         "effects/findings/2026-10-15-zoom-g11.md"
       ]
+    },
+    "Zoom::G3Xn": {
+      "link": "ZOOM.md#g3xn",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
     }
   },
   "separate_specialist_archives": {
@@ -11557,5 +11587,13 @@
       "site:shopee.co.id PE100 Bekas"
     ],
     "result": "Exact PE100 hardware item19700013/20865647747 accepted; sold-out Rp749500 unclassified condition retained. No exact GE200 Plus or used PE100 offer established; search absence is not unavailability."
+  },
+  "discovery_search_pass_20261017_g3xn": {
+    "queries": [
+      "site:shopee.co.id Mooer Red Truck i.",
+      "site:shopee.co.id Zoom G3Xn",
+      "site:shopee.co.id Red Truck Mooer"
+    ],
+    "result": "Exact G3Xn hardware accepted,including explicit used offer with shipping unavailable. No exact Red Truck lead established. Presets,LCD spare parts,rentals and mixed-model variations excluded."
   }
 }

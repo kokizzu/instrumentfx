@@ -593,3 +593,7 @@ research-commit-field-extraction:
 .PHONY: research-commit-pe100
 research-commit-pe100:
 	python3 scripts/research_tools.py commit-pe100
+
+.PHONY: research-commit-g3xn
+research-commit-g3xn:
+	python3 scripts/research_tools.py commit-g3xn

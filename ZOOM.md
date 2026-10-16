@@ -785,3 +785,40 @@ Checked2026-10-16. Exact retail-style hardware offers,not condition-verified use
 | Retail-style / Imagination Music Store,Jakarta Pusat | Rp5.090.000,Habis in index and reopened body. Index store-on-holiday/3Jun delivery;reopen relative tomorrow delivery and active seller. Availability unconfirmed;bundle unknown. | [19576516 /21795232461](https://shopee.co.id/Zoom-V6-SP-Vocal-Effects-Processor-Pedal-i.19576516.21795232461) |
 
 Unresolved:screen diagonal/color/touch;separate toe-switch proof;full editor/import capabilities;used-price/condition;current seller stock/bundles;exact ever-owned Zoom vocal identity. No source file deleted.
+
+## G3Xn
+
+Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, not G3n, G3X or G3. Bass capability unresolved; no ownership inferred. Manufacturer UK page marks discontinued; aftermarket offers do not reverse that status.
+
+<!-- comparison evidence begins -->
+| Required field | Evidence / qualification |
+|---|---|
+| Expression | **Built-in**, with front-end press toggling pedal effect; manual warns this differs from the stored ON/OFF setting. External CONTROL IN is **G3n only**, not G3Xn. [G3-M][g3-m] |
+| Controls: knobs / footswitches / buttons | Exact K/F/B counts **?**, pending original panel inspection. Manual names parameter knobs, TYPE keys,FS1–FS3,BANK/SCROLL,mode switch,control/enter andMENU. Do not report three total foot controls from FS1–FS3 alone. Power and pedal switching separate. [G3-M][g3-m] |
+| Display | **Three128×32 dot-matrix LCDs**. Numerical physical diagonals, explicit color/monochrome and touchscreen specifications **?**; pixel counts cannot establish diagonal. [G3-M][g3-m] |
+| Dimensions / weight | **318 W ×181 D ×64 H mm;1.84kg**, G3Xn-specific. G3n1.28kg is not this model. Pedal-up height/measurement conditions **?**. [G3-M][g3-m] |
+| Simultaneous processing | **Up to seven** effects/amp/cab models in arbitrary serial order; CPU limits need processing-chart audit. [G3-P][g3-p] |
+| Effect library / category choices | Product page qualifies **v2.0:127 DSP effects =125 effects +looper +rhythm**, plus32 amp/cab emulators, broken down16 amps/16 cabs. Older manual says80 types; retain revision context. Complete installed per-category counts **?**; newer library additions are not automatically installed on a used unit. [G3-P][g3-p], [G3-M][g3-m] |
+| Factory / user memory | **150 user patch locations**; product advertises75 prepared patches. Do not add75 to150 as extra memory. Exact factory-fill state of a listed used unit **?**. [G3-P][g3-p], [G3-M][g3-m] |
+| Synth / acoustic | Dedicated synth engine and acoustic simulator **not established** in this pass; guitar library examples do not prove their absence. Full effect-list review remains. |
+| Audio/control ports | Instrument input,stereo aux,dual L/R outputs,headphones,Micro-B USB,DC input. **Conflict:** manual specification table labels L/MONO/PHONES as combined; rear diagram/product prose describe a PHONES jack. Connector sizes and complete routing require reconciliation. CONTROL IN applies only to G3n. No microphone/XLR/FX-loop path established. [G3-M][g3-m], [G3-P][g3-p] |
+| Power / battery / USB | **9V DC,center-negative,500mA**, AD-16 adapter specification; measured draw **?**. Battery/USB bus-powered operation **not established**. USB connector alone is insufficient. [G3-M][g3-m] |
+| IR / native NAM / converted NAM / captures | User IR, native NAM, converted NAM and proprietary capture import each **not established**. Built-in cabinet emulation is distinct from user IR loading. |
+| Editor / USB / recording | **Guitar Lab** edits parameters/chains and manages effects/patches. Support lists7.3:Windows8.1/10/11,macOS10.13–26; separate G3Xn firmware2.20 installers forWindows/Mac. Manual labelsUSB MIDI/Micro-B. USB audio,driver and mobile editor support **not established**; no software downloaded or run. [G3-P][g3-p], [G3-S][g3-s], [G3-M][g3-m] |
+| Looper / drums / scenes / routing | Product states **up to80-second looper**, usable with **68 rhythm patterns**, plus bypass/mute tuner. Stereo/quality/CPU restrictions and scenes **?**. Product advertises arbitrary effect order; parallel routing unverified. [G3-P][g3-p] |
+| Used IDR evidence | **Rp2.000.000**, seller title **BEKAS NORMAL**, [Fakhira Store,16677197/20694505851](https://shopee.co.id/EFEK-ZOOM-G3XN-BEKAS-NORMAL-i.16677197.20694505851),Kab.Cilacap. Opened2026-10-17: **shipping unavailable, contact seller**; accessories,condition grade,warranty,stock and delivered total unverified. Separately indexed **like new Rp2.150.000**, [_Naufal_Riyadi_,202564202/28659244740](https://shopee.co.id/ZOOM-G3XN-efek-digital-multieffect-guitar-zoom-like-new-i.202564202.28659244740),Kab.Bantul; stale22Jul delivery,direct reopen cache miss. No stock authentication. |
+| Retail / historical IDR evidence | **Rp3.950.000**, [Praiseyah Shop,77738264/3215653552](https://shopee.co.id/Zoom-G3Xn-Multi-Effect-Guitar-Original-G3X-n-Efek-Gitar-Pedal-i.77738264.3215653552),JakartaUtara: indexed **Habis**, stale6Jul delivery; direct reopen cache miss. New condition,bundle,warranty region,shipping/tax and payable total unverified. Historical unclassified retail ask; not a completed sale. Late-delivery voucher is compensation,not hardware discount. |
+<!-- comparison evidence ends -->
+
+### G3Xn sources and next verification
+
+[g3-p]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/
+[g3-s]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/
+[g3-m]: https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf
+
+- [G3-P: official shared G3n/G3Xn product page][g3-p], with explicit G3Xn pedal and shared processing claims. [UK regional page](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g3n-g3xn/) states discontinued. Its optionalG3n expression accessory must not be copied toG3Xn.
+- [G3-S: current manufacturer support index][g3-s]; firmware/editor packages listed but not downloaded. Official current effect list and processing chart remain to audit before claiming reconciled category counts.
+- [G3-M: original manufacturer G3n/G3Xn operation manual][g3-m], indexed sections only: parts pp.4–5,expression p.42,specifications p.51. [Spanish manual indexed specification](https://zoomcorp.com/media/documents/S_G3n_G3Xn.pdf) preserves labelled G3Xn dimensions. No local PDF downloaded; panel illustration not visually verified. Search-rendered diagram descriptions are insufficient for exact control counts.
+- [Guitar Lab current release notice](https://zoomcorp.com/en/us/news/zoomclassics/) names G3Xn among models receivingDynaDelay inApril2026 andBitCrush inFebruary2026; available library content is not proof of installed content.
+
+Excluded from price evidence: preset packs,LCD replacement parts,rental offers and unresolved mixedG3/G3X/G3Xn variations. Remaining: exact controls,complete ports/headphone conflict,display physical specifications,category census,synth/acoustic,looper/CPU limits,power negatives,import/editor/audio distinctions and verified current condition/bundle/stock.
