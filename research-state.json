@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP500",
-    "task": "RP500 first pass saved. Next enumerate exact per-category algorithms and routing/looper limits; then fresh Shopee discovery. Do not infer RP1000 loop or9VDC power.",
+    "model": "Fresh discovery / remaining technical gaps after RP500",
+    "task": "RP500 category inventory and7-versus8 delay conflict saved. Full amp/cab/ChorusFX totals remain unresolved; continue fresh Shopee discovery or missing exact primary fields.",
     "next_models": [],
-    "after_queue": "Search Shopee brand/series for exact eligible hardware."
+    "after_queue": "Search Shopee by brand/series; reject accessories and unmapped mixed-model prices."
   },
   "new_findings": [
     {
@@ -4327,6 +4327,14 @@
       ],
       "finding": "Added10simultaneous,100user+100factory,6rotary9foot5buttons,toeV-switch,20slooper,2in2outUSB,XEdit and9VACsupply;exact2400000Habislike-newask. Productaxes andexternalstompbox marketing conflicts qualified.",
       "remaining": "Categorycounts,displaydetails,draw,battery/USBpower,imports,currentOS/currentmarket verification andsourceconflicts."
+    },
+    {
+      "model": "DigiTech RP500",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+      "finding": "Enumerated3wah,3compressor,18distortion,oneEQ,2gate/swell choices;ChorusFX oneatatime with5chorus5flanger4phaser partialsubgroups;8listed/tabulateddelays despite7prose,6reverbs. DelayRepeatHoldexcludesDM2/Echoplex. Unsavededitslostonpatch/powerchange.",
+      "remaining": "Full amp/cabinet andChorusFX counts;exactroutingexceptions,screen/power/import/currentmarketgaps. Known subgroupcounts are not simultaneousslots."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40322,7 +40330,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP500."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / remaining technical gaps after RP500."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
