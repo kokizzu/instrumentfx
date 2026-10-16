@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'ge1000': ('GE1000', 'effects/findings/2026-10-14-mooer-ge1000.md'),
     'ge150-max-li': ('GE150 Max Li', 'effects/findings/2026-10-15-mooer-ge150-max-li.md'),
     'ge150-max': ('GE150 Max', 'effects/findings/2026-10-15-mooer-ge150-max.md'),
     'ge150-plus-li': ('GE150 Plus Li', 'effects/findings/2026-10-15-mooer-ge150-plus-li.md'),
@@ -129,7 +130,7 @@ def verify_preserved(state):
 def plan(model_id):
     research_tools.identity()
     model, source_path = MODELS[model_id]
-    brand = 'MOOER' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li') else 'Hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
+    brand = 'MOOER' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000') else 'Hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
     brand_file = {'MOOER':'MOOER.md','Hotone':'HOTONE.md','Line 6':'LINE6.md','Zoom':'ZOOM.md'}[brand]
     state = json.loads((ROOT / 'research-state.json').read_text())
     assert model not in state['root_brand_content'][brand_file], 'Already consolidated'
@@ -198,6 +199,8 @@ def plan(model_id):
         zoom = zoom.replace('Four previously researched GE models still require complete consolidation; the original GE models and consolidated Plus/Pro variants are below.', 'Three previously researched GE models still require complete consolidation; the original GE models and consolidated Max/Plus/Pro variants are below.')
     if model_id == 'ge150-max-li':
         zoom = zoom.replace('Three previously researched GE models still require complete consolidation; the original GE models and consolidated Max/Plus/Pro variants are below.', 'Two previously researched GE models still require complete consolidation; the original GE models and consolidated Max/Plus/Pro variants are below.')
+    if model_id == 'ge1000':
+        zoom = zoom.replace('Two previously researched GE models still require complete consolidation; the original GE models and consolidated Max/Plus/Pro variants are below.', 'GE1000 Li is the remaining previously researched GE model awaiting complete consolidation; other recorded MOOER models are consolidated below.')
     zoom = re.sub(r'^The existing .+$', lambda m: m[0].replace(model + ',', '').replace(',' + model + ' records', ' records'), zoom, flags=re.M)
     section = '\n## ' + model + '\n\n'
     section += 'Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.\n\n'
@@ -206,6 +209,8 @@ def plan(model_id):
         section += '\n### GE100 Pro Li comparison dimensions\n\n| Field | Preserved qualification |\n|---|---|\n| Dimensions / weight | 255.7×144×53.5mm;856g. W/D labels and raised-pedal height unverified;medium/large bin awaits axis verification. |\n'
     if model_id == 'ge150-pro':
         section += '\n### GE150 Pro comparison category counts\n\n| Field | Preserved firmware qualification |\n|---|---|\n| Category choices | Firmware1.5.0:FX12,drive28,AMP55,CAB26,NS3,EQ4,MOD25,delay9,reverb8=170 including amps/cabs. Current NAM-enabled firmware not recounted;empty user slots are not algorithms. |\n'
+    if model_id == 'ge1000':
+        section += '\n### GE1000 comparison category counts\n\n| Field | Preserved manual qualification |\n|---|---|\n| Category choices | Manual2.5:dynamic13,filter13,drive35,power-amp11,EQ9,FX-loop3,MOD30,delay16,reverb11;cabs25 classic+54 boutique+10 bass;28 boutique preamps,26 complete boutique amps,10 bass preamps;classic amp subtotal incomplete. Manual340+ versus regional280+ retained;not a current native-NAM inventory. |\n'
     if model_id == 'ampero-mp380':
         section += '\n### Stage processing comparison fields\n\n| Field | Preserved source qualification |\n|---|---|\n| Category choices | 460+ published;68 cabs,100+ pedal models,60+ originals;87 versus90+ amp conflict. Current category subtotals unresolved. |\n| IR / NAM / captures | 50 user IR slots,24-bit/44.1kHz mono WAV,1024/2048 samples;20 Celestion IRs separate. Native NAM A2 Lite firmware1.7.0+,not A2 Full;earlier Sound Clone conversion and Tone Catch are separate. |\n| Synth / acoustic | Acoustic effects/presets advertised;exact electric-to-acoustic and synth algorithms unverified. |\n'
     section += '\n### ' + model + ' — supporting comparison provenance\n\n'
@@ -265,7 +270,7 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id == 'hx-stomp-xl' else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':

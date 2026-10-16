@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. Two previously researched GE models still require complete consolidation; the original GE models and consolidated Max/Plus/Pro variants are below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. GE1000 Li is the remaining previously researched GE model awaiting complete consolidation; other recorded MOOER models are consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -1190,3 +1190,85 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Unresolved marketplace evidence** (Separate IDR evidence): Collection-index-only **Rp3.500.000** without exact item ID; not promoted to a verified current offer
 
 Sources: [effects/findings/2026-10-15-mooer-ge150-max-li.md](effects/findings/2026-10-15-mooer-ge150-max-li.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+
+## GE1000
+
+Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- MOOER-GE1000 source begins -->
+
+Reviewed 2026-10-14. Guitar/bass multi-effects, **large**, built-in expression. Separate from GE1000 Li and GS1000. Partial record; current firmware and contradictory source wording are not silently reconciled.
+
+### Required fields
+
+| Field | Finding |
+|---|---|
+| Expression | Built-in volume/expression with assignable toe switch; no external EXP socket in complete rear inventory. MIDI/wireless controllers are separate options [J,M] |
+| Controls K/F/B | **2/5/17**, plus power button, toe switch and rear ground toggle separately. MASTER and SELECT; bank up/down and A/B/C;14 module buttons plus HOME/SAVE/SETTINGS. Checked against manufacturer's product photograph and numbered manual [I,M]. Global marketing says six rotary controls, inconsistent with the actual panel |
+| Size / weight | **337×170×57 mm**, published L×W×H; **1.9 kg**. Large under either horizontal orientation. Pedal-up clearance additional [J] |
+| Screen | **5-inch color LCD touchscreen** [J,P] |
+| Processing | **14 slots**, two seven-position rows, DSP-limited; **11 module categories** in the checked manual. Repeat modules supported except loop restrictions; do not equate categories with simultaneous slots [J,M] |
+| Presets | **255 editable locations =85 banks×3**; factory-filled subset not established [J,M] |
+| IR import | **50 user IR slots**, WAV24-bit/44.1kHz, up to2048 samples. Separate50 MNRS amp slots [J,C] |
+| NAM / capture | **Native NAM A2 Lite** in current manufacturer roadmap; unrestricted A2 Full not claimed. MNRS/GNR amp and GIR cabinet files are proprietary and separate. Exact current firmware build/A1 workflow not established in this pass [N] |
+| Synth / acoustic sim | No specifically named synth or electric-to-acoustic simulator established in the inspected appendix; current firmware additions remain unverified. Pitch/ring modulation is not automatically synthesis |
+| DC / battery / USB power | **9V/1A center-negative specified supply**; standard GE1000 has no Li battery. USB-powered operation not established. Li model's3A supply must not be transferred to this record [J,M] |
+| Audio I/O | One¼-inch instrument input; stereo TRS send and return;2×¼-inch unbalanced main outs;2×balanced XLR outs;3.5mm stereo phones. No mic/phantom or analog aux input in complete rear diagram [J,M] |
+| MIDI / USB | **One** five-pin DIN socket selectable IN or OUT, not two ports; USB-C audio/MIDI/editing; wireless footswitch support [J,M] |
+| Configuration | MOOER Studio **Windows/macOS** full editor; Cloud mobile preset/sample management. Exact mobile OS/minimums and full mobile editing not established. Manual minimum Win10/macOS10.11 is revision-specific [M] |
+| Recording | **2-in/2-out**,24-bit,44.1–192kHz USB; dry/wet and reamp; Windows ASIO/macOS class-compliant [J,M] |
+| Practice/live | **8-minute looper** in manual2.5; drum/looper synchronization, sub-patches, tuner and trails. Current rhythm-pattern count unverified [M] |
+
+### Category-count evidence
+
+The manufacturer-authored manual labelled **2.5** lists: dynamic13,filter13,drive35,power-amp11,EQ9,FX-loop3,modulation30,delay16,reverb11. Cabinets:25 classic+54 boutique+10 bass. Amplifier sublists include28 boutique preamps,26 complete boutique amps and10 bass preamps; the complete classic-amp subtotal was not independently transcribed here.
+
+These are **manual-revision counts**, not a claim of the current native-NAM firmware's complete library. The same manual advertises340+ models, while the Japanese landing page retains280+. No invented grand total is calculated from incomplete or overlapping inventories.
+
+### IDR offers
+
+| Condition | Amount | Evidence |
+|---|---:|---|
+| Retail listing; detailed condition/stock unconfirmed | **Rp7.520.000** | [Shopee seller named Nafiri Music Store, shop96878449/item44105166119](https://shopee.co.id/MOOER-GE1000-Multi-Effect-i.96878449.44105166119); indexed, direct reopening failed |
+| Separate Indonesian retailer | **Rp7.520.000** | [Galeri Musik Indonesia](https://galerimusikindonesia.com/product/mooer-ge1000-guitar-multi-effect-processor-id/), page marks available; not Shopee checkout evidence |
+| Used | **?** | No condition-verified used offer obtained |
+
+Earlier Shopee item29678282909/Rp7.966.500 remains historical discovery, not reverified in this pass. Seller names, cached delivery claims and listing availability do not authenticate a seller or prove checkout stock. Shipping, regional variant, accessories and warranty are separate.
+
+### Source conflicts and access limits
+
+The manual's connection section explicitly describes a **mono input and stereo FX send/return**; its specification table calls INPUT stereo and RETURN mono. The Japanese page likewise has a mono-loop specification line despite explicitly documenting TRS stereo-loop operation. Preserve this discrepancy; use the operational connector descriptions, not an unsupported stereo-input claim.
+
+Global marketing mentions Bluetooth output and six rotary controls; Japanese documentation/manual describe Bluetooth playback from a phone and the panel shows two rotary controls. Bluetooth headphone transmission is therefore **not confirmed**. The Japanese family summary's four-switch figure appears to count the lower assignable row; the physical panel and manual show five switches total.
+
+PDF screenshots failed. Parsed manufacturer-manual text was inspected; the separate official product PNG was successfully opened and visually checked. No claim is made that failed PDF images were inspected.
+
+[J] [MOOER Japan GE1000](https://mooer.jp/products/mooer-ge1000).
+[C] [MOOER Japan GE-family comparison](https://mooer.jp/pages/mooer-ge), IR/MNRS capacities; note its switch-count convention.
+[P] [Global GE1000/GE1000 Li product page](https://www.mooeraudio.com/products/224.html), indexed manufacturer content; direct403.
+[I] [Official product PNG](https://mooer.jp/cdn/shop/files/GE1000-01.png?v=1710383838&width=1946).
+[M] [Manufacturer manual2.5 mirrored as PDF](https://device.report/m/5403155073cfb71359e53afafadf89ef33fa549dc3d2271270ddff47915c16fc_optim.pdf); [text mirror](https://device.report/manuals/mooer-ge1000-multi-effects-manual-b-stock). Use the actual manual, not the mirror's generated FAQ.
+[N] [Manufacturer August2026 NAM roadmap](https://www.mooeraudio.com/news/29.html), indexed complete announcement; direct retrieval failed.
+
+Next saved marketplace model: **Hotone Ampero II Stage MP-380**. GE1000 Li is a separate pending regional-retail variant, not counted by this record.
+<!-- MOOER-GE1000 source ends -->
+
+### GE1000 comparison category counts
+
+| Field | Preserved manual qualification |
+|---|---|
+| Category choices | Manual2.5:dynamic13,filter13,drive35,power-amp11,EQ9,FX-loop3,MOD30,delay16,reverb11;cabs25 classic+54 boutique+10 bass;28 boutique preamps,26 complete boutique amps,10 bass preamps;classic amp subtotal incomplete. Manual340+ versus regional280+ retained;not a current native-NAM inventory. |
+
+### GE1000 — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **Processing and memory** (Processing, storage and loading): 14 DSP-limited slots, 11 module categories in checked manual; 255 editable locations; revision-specific category counts retained
+- **IR / NAM / captures** (Processing, storage and loading): 50 IR slots up to 2048 samples; 50 separate MNRS amp slots; native NAM A2 Lite in dated manufacturer roadmap, exact installed build unverified
+- **Connection / software highlights** (Connections, power and apps): Mono input, stereo TRS loop, XLR/quarter-inch outs, phones, single selectable DIN MIDI IN/OUT, USB-C; desktop Studio and mobile Cloud functions distinguished
+- **Documented power** (Connections, power and apps): Non-Li 9 V/1 A center-negative supply; no internal Li battery; USB powering unverified
+- **Used IDR** (IDR observations and original commits): ?
+- **Retail observation** (IDR observations and original commits): Rp7.520.000, indexed Shopee; separate retailer observation same amount
+- **Original model commit** (IDR observations and original commits): `671fc47896c8c6544598926e789ad4a0be19c1eb`
+
+Sources: [effects/findings/2026-10-14-mooer-ge1000.md](effects/findings/2026-10-14-mooer-ge1000.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
