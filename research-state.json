@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Broad legacy source and incoming-link audit",
-    "task": "B1Xon special check reconciled with generic manifest; run consolidation-audit-findings for current exact finding/model coverage. Next enumerate legacy shared comparison sources and per-model rows/context not covered by finding manifests, then audit incoming links before any source retirement. Fresh Shopee discovery and technical gaps remain required; commit each model before the next.",
+    "model": "Shared guitar-compact source audit",
+    "task": "Read complete effects/guitar-compact.md, identify every model row and shared context/source URL, compare exact root destination model sections and existing manifests. Repair one model at a time and commit before next. New make consolidation-audit-legacy inventories 114 Markdown sources,32 shared,413 lexical incoming-link occurrences. Broader anchor/JSON/code references, unregistered findings, technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10827,6 +10827,3382 @@
         "missing": [],
         "scope": "Registered finding/model pairs only; not shared-source or incoming-link certification"
       }
+    },
+    "legacy_source_inventory": {
+      "date": "2026-10-17",
+      "target": "make consolidation-audit-legacy",
+      "scope": "Read-only lexical source/link inventory; manifests do not certify an entire shared file; no retirement authorization",
+      "markdown_files": 114,
+      "shared_files": 32,
+      "incoming_link_occurrences": 413,
+      "files": [
+        {
+          "path": "effects/COVERAGE.history-2026-10-14.md",
+          "sha256": "96346da1322809432658c1bb0010dcb40d43f16a8770c95fdd9a1043fd784e7e",
+          "lines": 97,
+          "table_count": 2,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+              "link": "COVERAGE.history-2026-10-14.md"
+            },
+            {
+              "source": "effects/COVERAGE.md",
+              "link": "COVERAGE.history-2026-10-14.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+          "sha256": "8ab61e6ff4b1f4694ce56c6cd5e66db614bce161314b6e575f927f374a66d7ea",
+          "lines": 43,
+          "table_count": 1,
+          "manifest_scopes": [],
+          "incoming": [],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/COVERAGE.md",
+          "sha256": "8ab61e6ff4b1f4694ce56c6cd5e66db614bce161314b6e575f927f374a66d7ea",
+          "lines": 43,
+          "table_count": 1,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/README.md",
+              "link": "COVERAGE.md"
+            },
+            {
+              "source": "effects/vocal.md",
+              "link": "COVERAGE.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/METHODOLOGY.md",
+          "sha256": "73e884f01904b5e5c5a8e719cd6f21cc16d0ca4af1cddc25138c2f5bee8d57f9",
+          "lines": 81,
+          "table_count": 0,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "M-VAVE.md",
+              "link": "effects/METHODOLOGY.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "METHODOLOGY.md"
+            },
+            {
+              "source": "effects/OWNERSHIP.history-2026-10-14.md",
+              "link": "METHODOLOGY.md"
+            },
+            {
+              "source": "effects/advanced-modelers.md",
+              "link": "METHODOLOGY.md"
+            },
+            {
+              "source": "effects/bass.md",
+              "link": "METHODOLOGY.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-mvave-tank-g.md",
+              "link": "../METHODOLOGY.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "METHODOLOGY.md"
+            },
+            {
+              "source": "effects/guitar-nux.md",
+              "link": "METHODOLOGY.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "METHODOLOGY.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "METHODOLOGY.md"
+            },
+            {
+              "source": "effects/specialist.md",
+              "link": "METHODOLOGY.md"
+            },
+            {
+              "source": "effects/vocal.md",
+              "link": "METHODOLOGY.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/MIGRATION.md",
+          "sha256": "de9cd87750e3cafac83039d290078044bbb8a5468158f479cf58031e1c6c1430",
+          "lines": 51,
+          "table_count": 2,
+          "manifest_scopes": [],
+          "incoming": [],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/OWNERSHIP.history-2026-10-14.md",
+          "sha256": "55632de3503d8ee934641e51eb983e10c414cbcbe5e026a43310f9bd996afd49",
+          "lines": 60,
+          "table_count": 2,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/OWNERSHIP.md",
+              "link": "OWNERSHIP.history-2026-10-14.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/OWNERSHIP.md",
+          "sha256": "fab6ef708baad6831cb83f4ff8f252faf1620d3d259c16155ce555f19fea2a40",
+          "lines": 53,
+          "table_count": 1,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+              "link": "OWNERSHIP.md"
+            },
+            {
+              "source": "effects/COVERAGE.md",
+              "link": "OWNERSHIP.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "OWNERSHIP.md"
+            },
+            {
+              "source": "effects/SCOPE.md",
+              "link": "OWNERSHIP.md"
+            },
+            {
+              "source": "effects/audota.md",
+              "link": "OWNERSHIP.md"
+            },
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "OWNERSHIP.md"
+            },
+            {
+              "source": "effects/shopee-multifx-4.md",
+              "link": "OWNERSHIP.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/README.md",
+          "sha256": "d022b1e6edbdf2308777d14a7452b5f5e2be812813a70a06078e3d0cf11ff75c",
+          "lines": 48,
+          "table_count": 1,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "JOYO.md",
+              "link": "effects/README.md"
+            },
+            {
+              "source": "JOYO.md",
+              "link": "effects/README.md"
+            },
+            {
+              "source": "M-VAVE.md",
+              "link": "effects/README.md"
+            },
+            {
+              "source": "M-VAVE.md",
+              "link": "effects/README.md"
+            },
+            {
+              "source": "M-VAVE.md",
+              "link": "effects/README.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/COVERAGE.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/METHODOLOGY.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/OWNERSHIP.history-2026-10-14.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/OWNERSHIP.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/SCOPE.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/advanced-modelers.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/audota.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/bass.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/cube-baby.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-boin-audio-bg300.md",
+              "link": "../README.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-joyo-gembox-ii.md",
+              "link": "../README.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-joyo-gembox-iii.md",
+              "link": "../README.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+              "link": "../README.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-mvave-tank-g.md",
+              "link": "../README.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-mvave-tank-pro.md",
+              "link": "../README.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-scorpion-kmf-10.md",
+              "link": "../README.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+              "link": "../README.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+              "link": "../README.md"
+            },
+            {
+              "source": "effects/guitar-boss.history-2026-10-14.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/guitar-floorboards.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/guitar-nux.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-multifx-4.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-multifx-5.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-multifx-6.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/specialist.md",
+              "link": "README.md"
+            },
+            {
+              "source": "effects/vocal.md",
+              "link": "README.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/RESUME.md",
+          "sha256": "e6f7843b1f579c201cf9d03f5af774c4bdcb3dd4472d3de2d23c5db96ba6ab2d",
+          "lines": 49,
+          "table_count": 1,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "BOIN-AUDIO.md",
+              "link": "effects/RESUME.md"
+            },
+            {
+              "source": "JOYO.md",
+              "link": "effects/RESUME.md"
+            },
+            {
+              "source": "JOYO.md",
+              "link": "effects/RESUME.md"
+            },
+            {
+              "source": "M-VAVE.md",
+              "link": "effects/RESUME.md"
+            },
+            {
+              "source": "M-VAVE.md",
+              "link": "effects/RESUME.md"
+            },
+            {
+              "source": "SCORPION.md",
+              "link": "effects/RESUME.md"
+            },
+            {
+              "source": "TC-HELICON.md",
+              "link": "effects/RESUME.md"
+            },
+            {
+              "source": "TC-HELICON.md",
+              "link": "effects/RESUME.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/COVERAGE.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/METHODOLOGY.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/METHODOLOGY.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/MIGRATION.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/OWNERSHIP.history-2026-10-14.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/OWNERSHIP.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/SCOPE.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/audota.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/cube-baby.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-boin-audio-bg300.md",
+              "link": "../RESUME.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-joyo-gembox-ii.md",
+              "link": "../RESUME.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-joyo-gembox-iii.md",
+              "link": "../RESUME.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+              "link": "../RESUME.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-mvave-tank-pro.md",
+              "link": "../RESUME.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-scorpion-kmf-10.md",
+              "link": "../RESUME.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+              "link": "../RESUME.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+              "link": "../RESUME.md"
+            },
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-multifx-4.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-multifx-5.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-multifx-6.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "RESUME.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "RESUME.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/SCOPE.md",
+          "sha256": "f74360baf27489b62f389a1dcfb29987d0399d93477195bf2e2b42a05f908517",
+          "lines": 40,
+          "table_count": 1,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "HOTONE.md",
+              "link": "effects/SCOPE.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/COVERAGE.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/OWNERSHIP.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/audota.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/cube-baby.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+              "link": "../SCOPE.md"
+            },
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/shopee-multifx-4.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/shopee-multifx-5.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/shopee-multifx-6.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "SCOPE.md"
+            },
+            {
+              "source": "effects/specialist.md",
+              "link": "SCOPE.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/advanced-modelers.md",
+          "sha256": "1299f5d02d73f1bc372aab883458d28edb739ad4c4a8149f98cc7f6d9bebcec7",
+          "lines": 79,
+          "table_count": 4,
+          "manifest_scopes": [
+            {
+              "destination": "LINE6.md#hx-effects",
+              "kind": null,
+              "scope": "Complete legacy HX Effects facts and sources retained; refreshed primary panel controls/ports, synth/IR limits and software; no new model, no legacy deletion."
+            },
+            {
+              "destination": "LINE6.md#hx-stomp",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "IK-MULTIMEDIA.md#tonex-one",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "IK-MULTIMEDIA.md#tonex-pedal",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "NEURAL-DSP.md#nano-cortex",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "IK-MULTIMEDIA.md",
+              "link": "effects/advanced-modelers.md"
+            },
+            {
+              "source": "IK-MULTIMEDIA.md",
+              "link": "effects/advanced-modelers.md"
+            },
+            {
+              "source": "LINE6.md",
+              "link": "effects/advanced-modelers.md"
+            },
+            {
+              "source": "NEURAL-DSP.md",
+              "link": "effects/advanced-modelers.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "advanced-modelers.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "advanced-modelers.md"
+            },
+            {
+              "source": "effects/guitar-floorboards.md",
+              "link": "advanced-modelers.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/audota.md",
+          "sha256": "62c77db84b266796b1c5bd11e443fc33b0843dc06b2c11a87db3cdadd5fc7a42",
+          "lines": 83,
+          "table_count": 6,
+          "manifest_scopes": [],
+          "incoming": [],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/bass.md",
+          "sha256": "757f426d9a03ff1fd2fef266c9a2ebecd50a0d0d1254862868dfaa1d130aea11",
+          "lines": 74,
+          "table_count": 4,
+          "manifest_scopes": [
+            {
+              "destination": "ZOOM.md#b1-four",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "ZOOM.md#b1x-four",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "ZOOM.md#b2-four",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "ZOOM.md#b6",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "BOSS.md#gt-1b",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "BOSS.md#gx-1b",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "BOSS.md#me-90b",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "BOSS.md",
+              "link": "effects/bass.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/bass.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/bass.md"
+            },
+            {
+              "source": "ZOOM.md",
+              "link": "effects/bass.md"
+            },
+            {
+              "source": "ZOOM.md",
+              "link": "effects/bass.md"
+            },
+            {
+              "source": "ZOOM.md",
+              "link": "effects/bass.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "bass.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "bass.md"
+            },
+            {
+              "source": "effects/guitar-boss.history-2026-10-14.md",
+              "link": "bass.md"
+            },
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "bass.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "bass.md"
+            },
+            {
+              "source": "effects/guitar-floorboards.md",
+              "link": "bass.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/cube-baby.md",
+          "sha256": "45f38fc611d8e57338a6e8bce500335ddf7e81eddd8ab83c079315849afc1627",
+          "lines": 61,
+          "table_count": 5,
+          "manifest_scopes": [],
+          "incoming": [],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-boin-audio-bg300.md",
+          "sha256": "4ed913d48560f7f2187816ad75dc87f645276652cb0011b5438664380b46681d",
+          "lines": 47,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "BOIN-AUDIO.md#bg300",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-boin-audio-bg300.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "findings/2026-10-14-boin-audio-bg300.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-donner-arena2000.md",
+          "sha256": "0d44f3b2996b9a9b2f182abf7cae834e2ee23bfcb3f88ecab35197e3425f2f02",
+          "lines": 48,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "DONNER.md#arena2000",
+              "kind": "complete-source-body-v1",
+              "scope": "Whole original finding retained with reversible reference prefixes and heading changes. Current dimensional correction remains selected; no source deletion or new technical/market certification."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "findings/2026-10-14-donner-arena2000.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-flamma-fv01.md",
+          "sha256": "7b24f38bac1d60a85bf39634763df40a4419df180943855a993765ca49ae7a55",
+          "lines": 16,
+          "table_count": 0,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/SCOPE.md",
+              "link": "findings/2026-10-14-flamma-fv01.md"
+            },
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "findings/2026-10-14-flamma-fv01.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-flamma-fx100.md",
+          "sha256": "75e1425dd68d7b00da7514a6b623c247b8cba2c82712144db796595368311571",
+          "lines": 39,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "FLAMMA.md#fx100",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original body preserved; current store1kg versus original859g conflict and explicit computerUSB recording added with access date. No model added/source deleted."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-flamma-fx100.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-flamma-fx100.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-flamma-fx200.md",
+          "sha256": "b36bf98814ae4c144782f956133a1b8a6a6e512b3bb735e18b402fcbf87d9770",
+          "lines": 38,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "FLAMMA.md#fx200",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original body preserved. Current support editor/version/reset/backup and routing changes added; store mono/stereo FX-loop conflict explicit. No model added or source removed."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-flamma-fx200.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-flamma-fx200.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-headrush-core.md",
+          "sha256": "67f0ea3d7bc1f00394a8c76a62d54785585096abd690b994679973fea4af2173",
+          "lines": 55,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "HEADRUSH.md#core",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete dated Core original preserved with reversible references/headings. Current FAQ mic-path/cloner/MIDI limits added; power andcontrol gaps remain. No model added or source removed."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "findings/2026-10-14-headrush-core.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md",
+          "sha256": "664deee3ecd6ffac23412798f295d1551da770ec4861d5a76981f9c2c1d6c63c",
+          "lines": 50,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "HOTONE.md#ampero-ii-mp-350",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-5.md",
+              "link": "findings/2026-10-14-hotone-ampero-ii-mp350.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
+          "sha256": "efcf7e9ed7c2fc71c0f8e43b0eeed880e7e98f9a49d37fb29ce9fea94658124e",
+          "lines": 45,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "HOTONE.md#ampero-ii-stage-mp-380",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-5.md",
+              "link": "findings/2026-10-14-hotone-ampero-ii-stage-mp380.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-hotone-ampero-mini.md",
+          "sha256": "4b5628bc7937f629d86257be082af705c2acc0da54a08a488f8d2811e901d303",
+          "lines": 36,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "HOTONE.md#ampero-mini-mp-50",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-hotone-ampero-mini.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-hotone-ampero-mini.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+          "sha256": "b9d0939a211660b340eaa24c6e0b617de72726ef2e0cd8bae2650db0ff20d274",
+          "lines": 51,
+          "table_count": 3,
+          "manifest_scopes": [
+            {
+              "destination": "HOTONE.md#ampero-mp-100",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-5.md",
+              "link": "findings/2026-10-14-hotone-ampero-mp100.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-joyo-gembox-ii.md",
+          "sha256": "9af452ac341a22333dd9d3d578c81adc578a1694be50e3819febe52faf549d70",
+          "lines": 37,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "JOYO.md#gem-box-ii",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original retained with navigation links normalized. Manufacturer/UK pages rechecked,overdub wording qualified without inventing multitrack/export ability. No source deletion/new model."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-joyo-gembox-ii.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "findings/2026-10-14-joyo-gembox-ii.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-joyo-gembox-iii.md",
+          "sha256": "91fcef1aa3e60505efeab6b9b2221d31d3ad60a037ea420cb02ff99a55dc888b",
+          "lines": 38,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "JOYO.md#gem-box-iii",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original preserved. New exact-model Chinese primary dimensions/mass and port values; regional512/1024IR and software listing-date differences retained. No source deletion/new model."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-joyo-gembox-iii.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "findings/2026-10-14-joyo-gembox-iii.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-line6-hx-stomp-xl.md",
+          "sha256": "fb496f752978908a49f3431fbad36590fc3a438c8fefe28ead6893db27d9f48a",
+          "lines": 60,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "LINE6.md#hx-stomp-xl",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-5.md",
+              "link": "findings/2026-10-14-line6-hx-stomp-xl.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+          "sha256": "929c85e0af7aa5f514f42526e75afcf224282760bef3358cae566033f12bec09",
+          "lines": 48,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge100-pro-li",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "findings/2026-10-14-mooer-ge100-pro-li.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "findings/2026-10-14-mooer-ge100-pro-li.md"
+            },
+            {
+              "source": "effects/shopee-multifx-4.md",
+              "link": "findings/2026-10-14-mooer-ge100-pro-li.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge100-pro.md",
+          "sha256": "77e49f6c5476660c1d6dbc2b48e1c5625c47f1dc358012b5b721b36948342627",
+          "lines": 54,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge100-pro",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "findings/2026-10-14-mooer-ge100-pro.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "findings/2026-10-14-mooer-ge100-pro.md"
+            },
+            {
+              "source": "effects/shopee-multifx-4.md",
+              "link": "findings/2026-10-14-mooer-ge100-pro.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge100.md",
+          "sha256": "bed5df6db24e2387dca4c40609a4220aba08e5817a0675d54871aa8251fd8827",
+          "lines": 39,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge100-original",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mooer-ge100.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-mooer-ge100.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge1000.md",
+          "sha256": "387f02ae7a6e635cdb1eef376928510401c6cd7a3fed1b7a0fd0d0ec29e9fe37",
+          "lines": 56,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge1000",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-5.md",
+              "link": "findings/2026-10-14-mooer-ge1000.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge150-pro-li.md",
+          "sha256": "6ec27207509bb0be20d57f0872fe50b506ff01d0d59baf997472b19b21384c41",
+          "lines": 44,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge150-pro-li",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mooer-ge150-pro-li.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-mooer-ge150-pro-li.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge150-pro.md",
+          "sha256": "67187eb002cc3161a49477cc52da959c25ef49387260f3f348306c5147a615a1",
+          "lines": 49,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge150-pro",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-5.md",
+              "link": "findings/2026-10-14-mooer-ge150-pro.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge150.md",
+          "sha256": "5b6977e06b88e1d3046f530dee1783560e8b8b961904c0dd374071c03f78cee6",
+          "lines": 34,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge150-original",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mooer-ge150.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-mooer-ge150.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+          "sha256": "fae554b503a0a3d9c0d9911959c2b5c487724e5769ca0b040faa44ce0f117705",
+          "lines": 51,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge200-pro-li",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "findings/2026-10-14-mooer-ge200-pro-li.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "findings/2026-10-14-mooer-ge200-pro-li.md"
+            },
+            {
+              "source": "effects/shopee-multifx-4.md",
+              "link": "findings/2026-10-14-mooer-ge200-pro-li.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge200-pro.md",
+          "sha256": "59ab36b3ca4f0c3d39a72750cde1b4ff21b53223e97b2ce6a40780ea08165a08",
+          "lines": 51,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge200-pro",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+              "link": "2026-10-14-mooer-ge200-pro.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "findings/2026-10-14-mooer-ge200-pro.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "findings/2026-10-14-mooer-ge200-pro.md"
+            },
+            {
+              "source": "effects/shopee-multifx-4.md",
+              "link": "findings/2026-10-14-mooer-ge200-pro.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mooer-ge200.md",
+          "sha256": "01dbe146e030a4d5bbd6b2a0832d1787031e1fc06bfceba58d3c7e211bf903ac",
+          "lines": 38,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge200-original",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mooer-ge200.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-mooer-ge200.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+          "sha256": "2587482f195b612239ae8875eee50a68e98a2ae555a4f59f7c89f95bbf2f368a",
+          "lines": 44,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#ann-blackbox",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original retained including page-specific source column and rejected older-hardware conflation. Added v20 index and exact mobile/editor-label qualification; unavailable release notes do not establish native NAM or hardware revisions."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mvave-ann-blackbox.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "findings/2026-10-14-mvave-ann-blackbox.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mvave-mk-20.md",
+          "sha256": "ea4cee95e7bb3b267c20b3a039fa3fb4e7567033d87e895b30bae81fe3fb54c7",
+          "lines": 33,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#mk-20",
+              "kind": "complete-source-body-v1",
+              "scope": "Whole original retained including EXP-port conflict. Model-specific iOS A2 and preset bugfix evidence qualified; v085 index retained with unavailable release notes. Native versus converted NAM remains unresolved."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/OWNERSHIP.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mvave-mk-20.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mvave-mk-20.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-mvave-mk-20.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mvave-mk-300.md",
+          "sha256": "df8836c3e08c952f76687e23c1ff4a1439c5e6ab5e8608bdaf97d5e646b5add7",
+          "lines": 32,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#mk-300",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original preserved with price and revision qualifications; v73 GLOB reset warning, v75 index and exact-model stereo app entry added. Firmware/MIDI/DS documents not used for unverified mappings or counts."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mvave-mk-300.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-mvave-mk-300.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mvave-tank-b.md",
+          "sha256": "c5a3fccdbf15e9d10152689868e43b049810a63472c8a7b60c6d004df593ffb4",
+          "lines": 30,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#tank-b",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original retained; original v96 AM3 and converter route qualified separately from V2 v99 AM4. Original v46 MIDI and loopback limits retained; no source retired."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mvave-tank-b.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-mvave-tank-b.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mvave-tank-g.md",
+          "sha256": "4c26f81f139831df16fa957fecedb4c03c3a2fc6878d0c75357e65030d89fd4f",
+          "lines": 41,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#tank-g",
+              "kind": "complete-source-body-v1",
+              "scope": "Whole original retained. Version-qualified originalv96AM3 andconverterNAM→AM3DATA evidence,GV2v97boundary,loopback/MIDI notes added;no nativeNAM ortransport assumptions."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mvave-tank-g.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-mvave-tank-g.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mvave-tank-mini.md",
+          "sha256": "51cef4097903c9ed0971652fd78fb2ea4647d48aa55e5844baefbfd1e14ea539",
+          "lines": 30,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#tank-mini",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original retained; exact-model mobile editor changelog and desktop index qualified. v09 index recorded with inaccessible release notes; no inferred native NAM, AM4 or hardware looper."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mvave-tank-mini.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-mvave-tank-mini.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-mvave-tank-pro.md",
+          "sha256": "b61cc400b096550608b2e2b7ac7989758e52c5d5b66d5619aec26250d535d6d5",
+          "lines": 64,
+          "table_count": 4,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#tank-pro",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original preserved including source evidence columns, DSP and power limits, mass conflict, dates and prices. Added model-specific A2 app evidence without asserting native .nam; firmware release-note access failure retained."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-mvave-tank-pro.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "findings/2026-10-14-mvave-tank-pro.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-nux-mg-100.md",
+          "sha256": "e6010ae512be9d8c8051acccd6dd2d44850376337d750c69642b606513c02a02",
+          "lines": 36,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "NUX.md#mg-100",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original retained; exact official page confirms converter/looper/main totals, while spring wording conflicts with V1 three-reverb list. Required preset/synth/import/editor fields separated; no sibling or USB inference."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "findings/2026-10-14-nux-mg-100.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-nux-mg-200.md",
+          "sha256": "25ad8d21c9a4205136a8b79a3ca38f50a057ae723a59c02a37a76a0e742dfa73",
+          "lines": 40,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "NUX.md#mg-200",
+              "kind": "complete-source-body-v1",
+              "scope": "Whole original retained including 55/57 model-count conflict, V1/photo label revision and historical condition-unconfirmed offer. Preset/processing/synth/import/editor fields separated; legacy page rechecked without asserting missing specs."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "findings/2026-10-14-nux-mg-200.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-roland-gr-55.md",
+          "sha256": "780ca2a7818bdd9a4a4796f09802d7773e9c691766bf822269898118a4784043",
+          "lines": 51,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "ROLAND.md#gr-55",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "findings/2026-10-14-roland-gr-55.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-scorpion-kmf-10.md",
+          "sha256": "b2bd36f82a238c39c71a9ef130e11c22e8bf89d5b85f43504a59e464464bdcc2",
+          "lines": 47,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "SCORPION.md#kmf-10",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/OWNERSHIP.history-2026-10-14.md",
+              "link": "findings/2026-10-14-scorpion-kmf-10.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-scorpion-kmf-10.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "findings/2026-10-14-scorpion-kmf-10.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-sonicake-matribox.md",
+          "sha256": "c91556f14b5eb8b3d0768c1d4626ee7853aee5dc0930208c8b4acd3a5a6ec117",
+          "lines": 25,
+          "table_count": 1,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-sonicake-matribox.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-sonicake-matribox.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+          "sha256": "a1953ddd0e1810eb5da8df304fdf6b8a34a9847d104c9123f87610db3567f6d7",
+          "lines": 27,
+          "table_count": 1,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-sonicake-pocket-master.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-sonicake-pocket-master.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-sonicake-smart-box.md",
+          "sha256": "bf557b22e535a35e3cb96030c869c0c0202ceec842e8778d3fa4a4cefecbe714",
+          "lines": 25,
+          "table_count": 1,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-sonicake-smart-box.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-sonicake-smart-box.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+          "sha256": "89cb77669e97ac1104b8d4b701930189de4c9e718d750d83f9b23f24441a07f5",
+          "lines": 37,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "TC-HELICON.md#play-acoustic",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-tchelicon-play-acoustic.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "findings/2026-10-14-tchelicon-play-acoustic.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+          "sha256": "7ecdb1418b00c7f8273e17b8a9be0d53527aff5f4be4d55efc562d6c6e7ad12c",
+          "lines": 39,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "TC-HELICON.md#voicelive-play",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-tchelicon-voicelive-play.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "findings/2026-10-14-tchelicon-voicelive-play.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-valeton-gp-100.md",
+          "sha256": "c16d8b89fc35d8a5b4ee544c2b2259e83892456d0a35a016bfea4ee3bf2b5c8b",
+          "lines": 27,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "VALETON.md#gp-100",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "ALL-BASS.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-100.md"
+            },
+            {
+              "source": "ALL-GUITAR.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-100.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-100.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-100.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-100.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-100.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-valeton-gp-150.md",
+          "sha256": "8478c0b9bf2c31cc47a650cc22c8840c97c4a96bf26e844027cf80de77b6c8e2",
+          "lines": 25,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "VALETON.md#gp-150",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "ALL-BASS.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-150.md"
+            },
+            {
+              "source": "ALL-GUITAR.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-150.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-150.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-150.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-150.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-150.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-valeton-gp-180.md",
+          "sha256": "834d981ebd386ef8d73f912b519bbb93fc9d097fcdcba90e02a8345a803a7f77",
+          "lines": 25,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "VALETON.md#gp-180",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete historical body and supporting comparison fields preserved; native NAM A2 Lite firmware1.1.1+, model-specific power distinctions and two qualified Shopee offers checked2026-10-17."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "ALL-BASS.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-180.md"
+            },
+            {
+              "source": "ALL-GUITAR.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-180.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-180.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-180.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-180.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-180.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-valeton-gp-5.md",
+          "sha256": "0ab2f094ce2b32d3f90379a68d4b5e7ffc43aa18e7359172575478d0095b36d5",
+          "lines": 31,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "VALETON.md#gp-5",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original GP-5 finding and compact comparison preserved; model-specific NAM A2 conversion app2.1.0+ and qualified sold-out Shopee asks checked2026-10-17. July2025 FAQ remains dated, not a blanket current controller limitation."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "ALL-GUITAR.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-5.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-5.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-5.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-5.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-5.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-valeton-gp-50.md",
+          "sha256": "c0bebf3ebe1979d9255da96d3b7913949157ec77c00d97d616fef3934141f722",
+          "lines": 25,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "VALETON.md#gp-50",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original GP-50 finding and compact comparison preserved; NAM A2 conversion firmware1.1.0+/mobile2.1.0+ and qualified exact Shopee observations checked2026-10-17. Older1.0.5 manual and sold-out retail evidence retain dates."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "ALL-GUITAR.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-50.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-50.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/findings/2026-10-14-valeton-gp-50.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-50.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "findings/2026-10-14-valeton-gp-50.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-zoom-b1xon.md",
+          "sha256": "c9caf3eb08caa72b8ffff7076eb89c8f5276a873062740dc71ffea581950b681",
+          "lines": 42,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "ZOOM.md#b1xon",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original body preserved byte-for-byte after heading-depth and relative-link normalization; all owned-comparison model facts checked against destination. No source deleted, no model added."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "ZOOM.md",
+              "link": "effects/findings/2026-10-14-zoom-b1xon.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-roland-gr-55.md",
+              "link": "2026-10-14-zoom-b1xon.md"
+            },
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "findings/2026-10-14-zoom-b1xon.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-zoom-g1-four.md",
+          "sha256": "da04a1de47b26454f7e38cb7fb0e04e05c1555b361db0c79d1b1a9fa3597e02f",
+          "lines": 33,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "ZOOM.md#g1-four",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-zoom-g1-four.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-zoom-g1-four.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-zoom-g1x-four.md",
+          "sha256": "dc4270d06df365c7f44bdc96b251ad9e617f5cb99d78b1507438d42419a3b806",
+          "lines": 34,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "ZOOM.md#g1x-four",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-zoom-g1x-four.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-zoom-g1x-four.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-zoom-g2-four.md",
+          "sha256": "afd6f0c5bb2c4be3e96b867d0fa3fe0b0671e2bfa2a0a5f739b0d83c5e6d6f2c",
+          "lines": 31,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "ZOOM.md#g2-four",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-zoom-g2-four.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-zoom-g2-four.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-14-zoom-g2x-four.md",
+          "sha256": "eff406c5cc6b346b0df225f3697df1f651095cfe6fa7af2a11c5d3237d643306",
+          "lines": 35,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "ZOOM.md#g2x-four",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "findings/2026-10-14-zoom-g2x-four.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "findings/2026-10-14-zoom-g2x-four.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-audota-ace-100.md",
+          "sha256": "96e43cbf9607f06636de5a1cb44682a2d3dfcfb7f970b394f526f33a03bec23e",
+          "lines": 35,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "AUDOTA.md#ace-100",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/audota.md",
+              "link": "findings/2026-10-15-audota-ace-100.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-audota-ame-100.md",
+          "sha256": "3cdea70426de70e3667ee9bc783be1c68440ded2b1629e147aafabf0b726cbec",
+          "lines": 47,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "AUDOTA.md#ame-100",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/audota.md",
+              "link": "findings/2026-10-15-audota-ame-100.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-audota-ame-200-pro.md",
+          "sha256": "bea7a5aa9742125ebd4419d5bc1842e5f326be474966b2ff835bcee3a770e8b9",
+          "lines": 30,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "AUDOTA.md#ame-200-pro",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/audota.md",
+              "link": "findings/2026-10-15-audota-ame-200-pro.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-audota-ame-200.md",
+          "sha256": "d81cb626e70b009e6f0e37f29d0c2e32453ab261f0a5da4ad6a1eda0bb0b25ad",
+          "lines": 34,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "AUDOTA.md#ame-200",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/audota.md",
+              "link": "findings/2026-10-15-audota-ame-200.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-audota-ave-100.md",
+          "sha256": "66afa9d43c7f9a24d8624649d965fd9f3005a63736167ee3bfa2b88a39792b17",
+          "lines": 34,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "AUDOTA.md#ave-100",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/audota.md",
+              "link": "findings/2026-10-15-audota-ave-100.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+          "sha256": "2483d8b170b65dc9f3c95286b3827ce2598178b2a16e7994d722499873b47b41",
+          "lines": 22,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "BOSS.md#gt-1",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "findings/2026-10-15-boss-gt1-display-idr.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-boss-gt1000-display-idr.md",
+          "sha256": "28e3ea6a122e4177d1cf68420b577f12719f5a9ae848db61fdf6af9feaa532ed",
+          "lines": 25,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "BOSS.md#gt-1000",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "findings/2026-10-15-boss-gt1000-display-idr.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-boss-gt1000core-display-idr.md",
+          "sha256": "b65fb2720e03c84bdd342290e0169f0f1b3a4c577416de95def5d55d713ef0bd",
+          "lines": 26,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "BOSS.md#gt-1000core",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "findings/2026-10-15-boss-gt1000core-display-idr.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-boss-gx1-display-idr.md",
+          "sha256": "58abdff525a8e7fbafe528bbeef4a1901b45521f06aa2fae9867059d64b48708",
+          "lines": 25,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "BOSS.md#gx-1",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "findings/2026-10-15-boss-gx1-display-idr.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-boss-gx10-display-idr.md",
+          "sha256": "610d2d35e0b89f9e046103f2e4e9289d7252a545d7d0bed67246dc1f8d01162b",
+          "lines": 23,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "BOSS.md#gx-10",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "findings/2026-10-15-boss-gx10-display-idr.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-boss-gx100-display-idr.md",
+          "sha256": "3a3d89b90cd5a80565b795000d926c166e873f295202b5c8d4b10a89be08e065",
+          "lines": 25,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "BOSS.md#gx-100",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "findings/2026-10-15-boss-gx100-display-idr.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-boss-me90-display-idr.md",
+          "sha256": "b15ef11b218d8d0bf257ae85ad3e1fb46c0d8be4b880051e969a2507678d3ee7",
+          "lines": 25,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "BOSS.md#me-90",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "findings/2026-10-15-boss-me90-display-idr.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-cuvave-h8.md",
+          "sha256": "5b890d3a0548ffb9bb8a1ee6db5502fc7a49ef8d21651a0bf9b5d7e13983c65f",
+          "lines": 32,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "CUVAVE.md#h8",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "findings/2026-10-15-cuvave-h8.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+          "sha256": "28a59b4051f3fdf185e2d57827de975d04f0e0ff7bb0c54cd88a48b04b2737f0",
+          "lines": 53,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "HOTONE.md#ampero-ii-stomp-mp-300",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/RESUME.md",
+              "link": "findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md"
+            },
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-joyo-gembox-original.md",
+          "sha256": "5270ede08f9ca0c4235da3acd15d235e3b0ec631890a4209c501843602d68fd6",
+          "lines": 40,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "JOYO.md#gem-box-original",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original body preserved; manufacturer conversion/oversampling and manual bypass/mute tuner detail rechecked. Digital processing field no longer mislabeled as NAM conversion. No model added/source removed."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "findings/2026-10-15-joyo-gembox-original.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-line6-pod-express-bass.md",
+          "sha256": "505c0fa7edbddc89478287c2276fb0b9305dddd70085dda2556c02350b0b8373",
+          "lines": 42,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "LINE6.md#pod-express-bass",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original body restored,including Dial Musik sold-out ask and omitted source URLs. Joint manufacturer dimensions restore earlier root regression. Comparison keeps current evidence separate from dated archive; no added model or deleted source."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "findings/2026-10-15-line6-pod-express-bass.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-line6-pod-express-guitar.md",
+          "sha256": "dbbcf37cc73d75ff2215c67044a273e293769c045b37c15f5427ddbc68b7e806",
+          "lines": 38,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "LINE6.md#pod-express-guitar",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original body restored with all six missing URLs and historical contradictions. Fresh primary Yamaha dimensions and App Store iOS minimum correct earlier root regressions; no model added, no source removed."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "findings/2026-10-15-line6-pod-express-guitar.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-line6-pod-go-wireless.md",
+          "sha256": "1a54d0a7b8fe1e7ac0c706ce5cdff7c3b4dd51e17372f6bffa0ce3d9183fdc39",
+          "lines": 45,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "LINE6.md#pod-go-and-pod-go-wireless",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original preserved; current WirelessFAQ setup/sleep/coexistence qualified. Regression rejects Wireless-only operation in standard rows; shared USB mapping retained."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "findings/2026-10-15-line6-pod-go-wireless.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-line6-pod-go.md",
+          "sha256": "faeaf78f59ac51390366f6ff14cb2280ff829adeaf330225656b23b8aed7d5ee",
+          "lines": 69,
+          "table_count": 3,
+          "manifest_scopes": [
+            {
+              "destination": "LINE6.md#pod-go-and-pod-go-wireless",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete standard original preserved in shared family section outside selected comparison. CurrentFAQ conversion/headphone/ARM limits added; variant mass/prices remain distinct."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "LINE6.md",
+              "link": "effects/findings/2026-10-15-line6-pod-go.md"
+            },
+            {
+              "source": "effects/RESUME.md",
+              "link": "findings/2026-10-15-line6-pod-go.md"
+            },
+            {
+              "source": "effects/findings/2026-10-15-line6-pod-go-wireless.md",
+              "link": "2026-10-15-line6-pod-go.md"
+            },
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "findings/2026-10-15-line6-pod-go.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mooer-ge1000-li.md",
+          "sha256": "27fa8d78c5b5458d512e536a1ebbeb6350a0610754e8fb9341d674f6f5aef880",
+          "lines": 39,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge1000-li",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-6.md",
+              "link": "findings/2026-10-15-mooer-ge1000-li.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mooer-ge150-max-li.md",
+          "sha256": "7a184b5b0b95380c2ea1a76391e7c808e2b2d83492ef6ade78b079e7fb22db3f",
+          "lines": 47,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge150-max-li",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-6.md",
+              "link": "findings/2026-10-15-mooer-ge150-max-li.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mooer-ge150-max.md",
+          "sha256": "4d7f2dbb99923608fb5ecec74949fc138afc9d3d113cc7d165da824c0f65fe37",
+          "lines": 39,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge150-max",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-6.md",
+              "link": "findings/2026-10-15-mooer-ge150-max.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
+          "sha256": "5d8a4b1141e89a8c87dd7620853fa621d5997d149c1426bb24fa4d54f65be4d6",
+          "lines": 37,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge150-plus-li",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-6.md",
+              "link": "findings/2026-10-15-mooer-ge150-plus-li.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mooer-ge150-plus.md",
+          "sha256": "b02165adb37182349c34895332631c87da2bb8c53eb67543f5c7e82058b697d1",
+          "lines": 54,
+          "table_count": 3,
+          "manifest_scopes": [
+            {
+              "destination": "MOOER.md#ge150-plus",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-6.md",
+              "link": "findings/2026-10-15-mooer-ge150-plus.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mvave-cube-baby-ac.md",
+          "sha256": "196c0eba7dda12df08d1f4271ffa308c7cd5346b31e92e84525a3b152c7af4d3",
+          "lines": 39,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#cube-baby-ac",
+              "kind": "complete-source-body-v1",
+              "scope": "Whole original retained with price conditions and source-access limits; separate preset, synth and IR/NAM fields improve comparison coverage. Exact desktop CubeSuite compatibility rechecked; mobile omission remains uncertainty, not No."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/cube-baby.md",
+              "link": "findings/2026-10-15-mvave-cube-baby-ac.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mvave-cube-baby-bass.md",
+          "sha256": "9a07519a5e0d342eef264dda13d19c4223eaa56920da7b14189537f5ff5885ec",
+          "lines": 53,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#cube-baby-bass",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original retained with provisional-transcription provenance, failed price reproduction and separate software confirmation. Presets/synth/IR/NAM fields separated for comparison coverage; no new primary hardware verification claimed."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/cube-baby.md",
+              "link": "findings/2026-10-15-mvave-cube-baby-bass.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mvave-cube-baby.md",
+          "sha256": "1108dbddb84c304dfc11beb4d637e230c329aebb3e5c9768b8e58870654b2878",
+          "lines": 40,
+          "table_count": 2,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/cube-baby.md",
+              "link": "findings/2026-10-15-mvave-cube-baby.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mvave-mini-x.md",
+          "sha256": "3b6ccfcb3db00ab0b56906cb08c058957f92cc91b471ee4dc5b49bb801f2fea7",
+          "lines": 37,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#mini-x",
+              "kind": "complete-source-body-v1",
+              "scope": "Whole original retained including exact access/price limits and one-model ownership. Split preset/synth/import/editor fields for projection; current manufacturer catalogue confirms only nine tones and rated runtime, not missing hardware fields."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "findings/2026-10-15-mvave-mini-x.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-mvave-pocket-amp.md",
+          "sha256": "6a1e9909075f5cc1d661fd7363f5a8360d2747c1763c7c7d33209ff74815777b",
+          "lines": 39,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "M-VAVE.md#pocket-amp",
+              "kind": "complete-source-body-v1",
+              "scope": "Whole original retained; official v105 native NAM A2 claim, stereo MOD/DLY/tails and six MW additions qualified by firmware. v07 AM4, v103 Speaker Mode preset requirement and v105 date conflict retained; no tested import or new hardware claim."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "findings/2026-10-15-mvave-pocket-amp.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-nux-trident.md",
+          "sha256": "12123fa17710d9b2e2edeee24acfbf4dc1903d05450b75db1f0bb04e07b9908b",
+          "lines": 50,
+          "table_count": 3,
+          "manifest_scopes": [
+            {
+              "destination": "NUX.md#trident-nme-5",
+              "kind": "complete-source-body-v1",
+              "scope": "Whole original preserved including IR bank distinctions and manual rendering limits. Split synth/import fields; exact official USB volume, IR conversion, loop impedances and MIDI adapter details qualified without channel/power inference."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/RESUME.md",
+              "link": "findings/2026-10-15-nux-trident.md"
+            },
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "findings/2026-10-15-nux-trident.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-ving-fb100.md",
+          "sha256": "9cd7deeb400bece5dcadd012bd799a00ec9b8b3aae9e3b9be37df5a18d90d7f8",
+          "lines": 40,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "VING.md#flybro-fb-100",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/owned-multifx.md",
+              "link": "findings/2026-10-15-ving-fb100.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-zoom-g11.md",
+          "sha256": "5b7d6588d4a6c2885b0002d5b38e28e4fc7b5b0cba1f642379a9bef15e925565",
+          "lines": 54,
+          "table_count": 2,
+          "manifest_scopes": [
+            {
+              "destination": "ZOOM.md#g11",
+              "kind": "complete-source-body-v1",
+              "scope": "Complete original body restored with omitted quick-guide URL,Dynamics15 and textual27-rotary finding. Later visual-inspection uncertainty remains explicit; no fresh specification or price certification."
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "findings/2026-10-15-zoom-g11.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/findings/2026-10-15-zoom-g6.md",
+          "sha256": "fbb5cbee6ca9f9c1940fa05c1ad94ea3fb7e15e9e793dfd8a94cd9a9d1c48bb9",
+          "lines": 42,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "ZOOM.md#g6",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/RESUME.md",
+              "link": "findings/2026-10-15-zoom-g6.md"
+            },
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "findings/2026-10-15-zoom-g6.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/guitar-boss.history-2026-10-14.md",
+          "sha256": "336a226e00203170c2295beb773cad87c10d034b5beded133d1c51ba39ba24b7",
+          "lines": 70,
+          "table_count": 4,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "guitar-boss.history-2026-10-14.md"
+            },
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "guitar-boss.history-2026-10-14.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/guitar-boss.md",
+          "sha256": "da4dfa7448436fd3977f9581b721aedfbc255dc9ee68c810508584939eb9005a",
+          "lines": 119,
+          "table_count": 7,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "BOSS.md",
+              "link": "effects/guitar-boss.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/guitar-boss.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/guitar-boss.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/guitar-boss.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "guitar-boss.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "guitar-boss.md"
+            },
+            {
+              "source": "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+              "link": "../guitar-boss.md"
+            },
+            {
+              "source": "effects/findings/2026-10-15-boss-gt1000-display-idr.md",
+              "link": "../guitar-boss.md"
+            },
+            {
+              "source": "effects/findings/2026-10-15-boss-gx100-display-idr.md",
+              "link": "../guitar-boss.md"
+            },
+            {
+              "source": "effects/findings/2026-10-15-boss-me90-display-idr.md",
+              "link": "../guitar-boss.md"
+            },
+            {
+              "source": "effects/guitar-floorboards.md",
+              "link": "guitar-boss.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/guitar-compact.md",
+          "sha256": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc",
+          "lines": 146,
+          "table_count": 6,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "VALETON.md",
+              "link": "effects/guitar-compact.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/guitar-compact.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/guitar-compact.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/guitar-compact.md"
+            },
+            {
+              "source": "VALETON.md",
+              "link": "effects/guitar-compact.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "guitar-compact.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "guitar-compact.md"
+            },
+            {
+              "source": "effects/advanced-modelers.md",
+              "link": "guitar-compact.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-sonicake-matribox.md",
+              "link": "../guitar-compact.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+              "link": "../guitar-compact.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-sonicake-smart-box.md",
+              "link": "../guitar-compact.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-valeton-gp-100.md",
+              "link": "../guitar-compact.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-valeton-gp-150.md",
+              "link": "../guitar-compact.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-valeton-gp-180.md",
+              "link": "../guitar-compact.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-valeton-gp-5.md",
+              "link": "../guitar-compact.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-valeton-gp-50.md",
+              "link": "../guitar-compact.md"
+            },
+            {
+              "source": "effects/guitar-boss.history-2026-10-14.md",
+              "link": "guitar-compact.md"
+            },
+            {
+              "source": "effects/guitar-boss.md",
+              "link": "guitar-compact.md"
+            },
+            {
+              "source": "effects/guitar-floorboards.md",
+              "link": "guitar-compact.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/guitar-floorboards.md",
+          "sha256": "da7a4cecc79f01e332c524570eb53e061722b6eac55b86455993c95c6cc043e4",
+          "lines": 46,
+          "table_count": 3,
+          "manifest_scopes": [
+            {
+              "destination": "VALETON.md#gp-200",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "guitar-floorboards.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "guitar-floorboards.md"
+            },
+            {
+              "source": "effects/advanced-modelers.md",
+              "link": "guitar-floorboards.md"
+            },
+            {
+              "source": "effects/bass.md",
+              "link": "guitar-floorboards.md"
+            },
+            {
+              "source": "effects/guitar-boss.history-2026-10-14.md",
+              "link": "guitar-floorboards.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "guitar-floorboards.md"
+            },
+            {
+              "source": "effects/guitar-nux.md",
+              "link": "guitar-floorboards.md"
+            },
+            {
+              "source": "effects/specialist.md",
+              "link": "guitar-floorboards.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/guitar-nux.md",
+          "sha256": "6259d5777c8ed841b7d629f16e913d4ad618ad1da6470d091156ee57022bb6a0",
+          "lines": 74,
+          "table_count": 3,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "guitar-nux.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "guitar-nux.md"
+            },
+            {
+              "source": "effects/guitar-floorboards.md",
+              "link": "guitar-nux.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/owned-multifx.md",
+          "sha256": "bede202314396a9b9f8ac447462c555b9ea6f59aa79f55503f0f11d802157207",
+          "lines": 90,
+          "table_count": 6,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/OWNERSHIP.md",
+              "link": "owned-multifx.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-indonesia.history-2026-10-14.md",
+          "sha256": "c607138ae4734f36eba079cb9c018fb20373cb3801cba948d19b926c95950422",
+          "lines": 117,
+          "table_count": 6,
+          "manifest_scopes": [],
+          "incoming": [],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+          "sha256": "c9eac929b4d49fa779935d412d78f3e4d9e4a7505f1e9ea994fabf86581e483b",
+          "lines": 51,
+          "table_count": 3,
+          "manifest_scopes": [],
+          "incoming": [],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-indonesia.md",
+          "sha256": "c9eac929b4d49fa779935d412d78f3e4d9e4a7505f1e9ea994fabf86581e483b",
+          "lines": 51,
+          "table_count": 3,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "BOIN-AUDIO.md",
+              "link": "effects/shopee-indonesia.md"
+            },
+            {
+              "source": "JOYO.md",
+              "link": "effects/shopee-indonesia.md"
+            },
+            {
+              "source": "JOYO.md",
+              "link": "effects/shopee-indonesia.md"
+            },
+            {
+              "source": "M-VAVE.md",
+              "link": "effects/shopee-indonesia.md"
+            },
+            {
+              "source": "M-VAVE.md",
+              "link": "effects/shopee-indonesia.md"
+            },
+            {
+              "source": "SCORPION.md",
+              "link": "effects/shopee-indonesia.md"
+            },
+            {
+              "source": "TC-HELICON.md",
+              "link": "effects/shopee-indonesia.md"
+            },
+            {
+              "source": "TC-HELICON.md",
+              "link": "effects/shopee-indonesia.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "shopee-indonesia.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "shopee-indonesia.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-boin-audio-bg300.md",
+              "link": "../shopee-indonesia.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-joyo-gembox-ii.md",
+              "link": "../shopee-indonesia.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-joyo-gembox-iii.md",
+              "link": "../shopee-indonesia.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+              "link": "../shopee-indonesia.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-mvave-tank-pro.md",
+              "link": "../shopee-indonesia.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-scorpion-kmf-10.md",
+              "link": "../shopee-indonesia.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+              "link": "../shopee-indonesia.md"
+            },
+            {
+              "source": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+              "link": "../shopee-indonesia.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "shopee-indonesia.md"
+            },
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "shopee-indonesia.md"
+            },
+            {
+              "source": "effects/shopee-multifx-4.md",
+              "link": "shopee-indonesia.md"
+            },
+            {
+              "source": "effects/shopee-multifx-6.md",
+              "link": "shopee-indonesia.md"
+            },
+            {
+              "source": "effects/shopee-multifx-7.md",
+              "link": "shopee-indonesia.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "shopee-indonesia.md"
+            },
+            {
+              "source": "effects/shopee-multifx.md",
+              "link": "shopee-indonesia.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-multifx-2.md",
+          "sha256": "fcd44a069fbd4965e00b708b0f2b2259adf87b195588168ca8ddd398ff2875af",
+          "lines": 89,
+          "table_count": 5,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "shopee-multifx-2.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "shopee-multifx-2.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "shopee-multifx-2.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "shopee-multifx-2.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "shopee-multifx-2.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "shopee-multifx-2.md"
+            },
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "shopee-multifx-2.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-multifx-3.md",
+          "sha256": "f32219503ad36584e62bb19e14638dd987d86ae77cc42517c3e81a2b0b64761e",
+          "lines": 95,
+          "table_count": 7,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "shopee-multifx-3.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "shopee-multifx-3.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "shopee-multifx-3.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "shopee-multifx-3.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "shopee-multifx-3.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "shopee-multifx-3.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-multifx-4.md",
+          "sha256": "63bb680b8f9d93b8b9606dd3e0ef2d652d2ed1b137d94c5db922d49e27726d3c",
+          "lines": 69,
+          "table_count": 5,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/README.md",
+              "link": "shopee-multifx-4.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "shopee-multifx-4.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "shopee-multifx-4.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-multifx-5.md",
+          "sha256": "fd019708f1b54730dbcc787d4c70c7f4cb2834aceccff9754793020c663d4c7d",
+          "lines": 68,
+          "table_count": 4,
+          "manifest_scopes": [],
+          "incoming": [],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-multifx-6.md",
+          "sha256": "5e9393d5f1c39de2b57dff760c42693ce281952c9deb8c0dc007c52b71aacb98",
+          "lines": 77,
+          "table_count": 6,
+          "manifest_scopes": [],
+          "incoming": [],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-multifx-7.md",
+          "sha256": "b63cff6d01057f162729850c8961d30f47411f3a0d0fd14f03d86f51b284e837",
+          "lines": 108,
+          "table_count": 7,
+          "manifest_scopes": [],
+          "incoming": [],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/shopee-multifx.md",
+          "sha256": "c8135f1fad8b81a01c289c6d55e96d8cc4de1500767d7459313a5ad8e7a93977",
+          "lines": 153,
+          "table_count": 6,
+          "manifest_scopes": [],
+          "incoming": [
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "shopee-multifx.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "shopee-multifx.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "shopee-multifx.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-14.md",
+              "link": "shopee-multifx.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+              "link": "shopee-multifx.md"
+            },
+            {
+              "source": "effects/shopee-indonesia.md",
+              "link": "shopee-multifx.md"
+            },
+            {
+              "source": "effects/shopee-multifx-2.md",
+              "link": "shopee-multifx.md"
+            },
+            {
+              "source": "effects/shopee-multifx-3.md",
+              "link": "shopee-multifx.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/specialist.md",
+          "sha256": "a256526503ca2374b5fe677c69870f3a5721eb0fc5b22c9c2f8030d14c2ef179",
+          "lines": 51,
+          "table_count": 1,
+          "manifest_scopes": [
+            {
+              "destination": "BOSS.md#gm-800",
+              "kind": "complete-source-body-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "BOSS.md",
+              "link": "effects/specialist.md#eligible-record-boss-gm-800"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "specialist.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "specialist.md"
+            },
+            {
+              "source": "effects/SCOPE.md",
+              "link": "specialist.md"
+            },
+            {
+              "source": "effects/SCOPE.md",
+              "link": "specialist.md"
+            },
+            {
+              "source": "effects/SCOPE.md",
+              "link": "specialist.md"
+            },
+            {
+              "source": "effects/SCOPE.md",
+              "link": "specialist.md"
+            },
+            {
+              "source": "effects/SCOPE.md",
+              "link": "specialist.md"
+            },
+            {
+              "source": "effects/bass.md",
+              "link": "specialist.md"
+            },
+            {
+              "source": "effects/vocal.md",
+              "link": "specialist.md"
+            }
+          ],
+          "retirement_authorized": false
+        },
+        {
+          "path": "effects/vocal.md",
+          "sha256": "418bdf05e190f37e35e31b32d958014f3c019522f4891118d9d1ecd2c667107b",
+          "lines": 77,
+          "table_count": 4,
+          "manifest_scopes": [
+            {
+              "destination": "ZOOM.md#v3",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "ZOOM.md#v6-sp",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "BOSS.md#ve-1",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "BOSS.md#ve-2",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "BOSS.md#ve-500",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "BOSS.md#ve-22",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "BOSS.md#ve-8",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            },
+            {
+              "destination": "BOSS.md#ve-20",
+              "kind": "complete-model-rows-v1",
+              "scope": null
+            }
+          ],
+          "incoming": [
+            {
+              "source": "BOSS.md",
+              "link": "effects/vocal.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/vocal.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/vocal.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/vocal.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/vocal.md"
+            },
+            {
+              "source": "BOSS.md",
+              "link": "effects/vocal.md"
+            },
+            {
+              "source": "ZOOM.md",
+              "link": "effects/vocal.md"
+            },
+            {
+              "source": "ZOOM.md",
+              "link": "effects/vocal.md"
+            },
+            {
+              "source": "effects/COVERAGE.history-2026-10-14.md",
+              "link": "vocal.md"
+            },
+            {
+              "source": "effects/OWNERSHIP.history-2026-10-14.md",
+              "link": "vocal.md"
+            },
+            {
+              "source": "effects/README.md",
+              "link": "vocal.md"
+            },
+            {
+              "source": "effects/guitar-compact.md",
+              "link": "vocal.md"
+            },
+            {
+              "source": "effects/specialist.md",
+              "link": "vocal.md"
+            }
+          ],
+          "retirement_authorized": false
+        }
+      ],
+      "limitations": [
+        "Lexical Markdown file references only; not a complete anchor, HTML, code or JSON reference audit.",
+        "Per-source manifests may cover only selected rows or sections; counts do not prove full shared-file preservation.",
+        "No manifest does not prove lost content; each original must be read and checked against root destinations.",
+        "All legacy sources retained; hashes and incoming references provide an audit checkpoint, not deletion approval."
+      ]
     }
   },
   "deferred_work": {

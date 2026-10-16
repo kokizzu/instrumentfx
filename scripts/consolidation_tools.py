@@ -1468,7 +1468,48 @@ def audit_findings():
     print(json.dumps({k:v for k,v in report.items() if k != 'records'}, indent=2))
     assert not missing, 'Registered finding body coverage missing'
 
+
+def audit_legacy():
+    research_tools.identity()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    files = sorted((ROOT/'effects').rglob('*.md'))
+    all_md = sorted(ROOT.glob('*.md')) + files
+    texts = {str(p.relative_to(ROOT)): p.read_text() for p in all_md}
+    incoming = {str(p.relative_to(ROOT)): [] for p in files}
+    # Lexical file-link inventory; deliberately does not certify anchors or prose.
+    import urllib.parse
+    for source, text in texts.items():
+        targets = re.findall(r'\]\(([^\s]+)', text) + re.findall(r'^\[[^\]]+\]:\s*(\S+)', text, re.M)
+        for raw in targets:
+            raw = raw.rstrip(')')
+            if '://' in raw or raw.startswith(('#', 'mailto:')):
+                continue
+            target = urllib.parse.unquote(raw.split('#',1)[0])
+            resolved = (ROOT/source).parent.joinpath(target).resolve()
+            try:
+                key = str(resolved.relative_to(ROOT))
+            except ValueError:
+                continue
+            if key in incoming:
+                incoming[key].append(dict(source=source, link=raw))
+    entries = []
+    manifests = state.get('consolidation_and_price_findings', [])
+    for p in files:
+        key = str(p.relative_to(ROOT))
+        text = texts[key]
+        checked = [dict(destination=e.get('destination'), kind=e.get('verification_kind'), scope=e.get('scope')) for e in manifests if e.get('source') == key]
+        entries.append(dict(path=key, sha256=digest(text), lines=len(text.splitlines()), table_count=len(list(comparison_views.tables(text))), manifest_scopes=checked, incoming=incoming[key], retirement_authorized=False))
+    shared = [e for e in entries if '/findings/' not in e['path']]
+    report = dict(scope='Read-only lexical source/link inventory; manifests do not certify an entire shared file; no retirement authorization', markdown_files=len(entries), shared_files=len(shared), incoming_link_occurrences=sum(len(e['incoming']) for e in entries), files=entries)
+    Path('/tmp/instrumentfx-legacy-audit.json').write_text(json.dumps(report,indent=2)+'\n')
+    print(json.dumps({k:v for k,v in report.items() if k != 'files'},indent=2))
+    for e in shared:
+        print(e['path']+' | tables='+str(e['table_count'])+' | source-manifests='+str(len(e['manifest_scopes']))+' | incoming='+str(len(e['incoming'])))
+
 if __name__ == '__main__':
+    if sys.argv[1:] == ['audit-legacy']:
+        audit_legacy()
+        raise SystemExit(0)
     if sys.argv[1:] == ['audit-findings']:
         audit_findings()
         raise SystemExit(0)

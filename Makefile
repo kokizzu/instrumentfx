@@ -707,3 +707,11 @@ consolidation-audit-findings:
 	python3 scripts/consolidation_tools.py audit-findings
 research-commit-finding-audit:
 	python3 scripts/research_tools.py commit-finding-audit
+
+.PHONY: consolidation-audit-legacy
+consolidation-audit-legacy:
+	python3 scripts/consolidation_tools.py audit-legacy
+
+.PHONY: research-commit-legacy-audit
+research-commit-legacy-audit:
+	python3 scripts/research_tools.py commit-legacy-audit
