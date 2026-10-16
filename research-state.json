@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-50 primary follow-up",
-    "task": "ME-50 added, distinct from ME-50B. Next inspect manual full controls, effect chain/category counts and memory/live restrictions; commit useful findings before another model.",
+    "task": "ME-50 memory/live restrictions and modulation choices saved. Next verify complete controls, effect chain, delay/Tone Modify counts and connector/polarity details; commit before another model.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; missing bass leads still unresolved."
   },
@@ -2012,7 +2012,20 @@
         "ports/polarity",
         "imports/software",
         "qualified offers"
-      ]
+      ],
+      "memory_live_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://static.roland.com/assets/media/pdf/ME-50_OM.pdf",
+        "pages": "12–26",
+        "resolved": [
+          "Eleven modulation choices, one selected",
+          "Factory reset restores thirty factory patch settings; no extra bank inferred",
+          "WRITE/knob-pickup and Memory/Patch Edit switching limits",
+          "Tuner loses temporary edits/tempo and mutes output",
+          "Delay bypass tails distinguished from unverified patch-change spillover"
+        ],
+        "remaining": "Full controls, remaining categories, chain, electrical polarity, imports/software and qualified offers"
+      }
     }
   ],
   "consolidation_and_price_findings": [
