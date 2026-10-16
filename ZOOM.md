@@ -318,6 +318,17 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-zoom-g1-four.md](effects/findings/2026-10-14-zoom-g1-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
 
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **Monochrome / color** (2. Displays): Monochrome, official color photograph
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch mono input; ⅛-inch aux; shared ¼-inch TRS stereo line/phones; micro-USB
+- **Power / batteries** (5. Power, software and practice/live features): **4AA,9V/500mA center-negative AD-16, orUSB bus**
+- **Other documented functions** (5. Power, software and practice/live features): 30 s looper;68 rhythms; USB editing, **not documented USB audio**
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+
 ## G1X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -374,6 +385,18 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **IR / NAM** (3. Processing, presets and loading): User IR/NAM import not established
 
 Sources: [effects/findings/2026-10-14-zoom-g1x-four.md](effects/findings/2026-10-14-zoom-g1x-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **Display type** (2. Displays): 128×32 dot-matrix LCD
+- **Monochrome / color** (2. Displays): Monochrome, official color photograph
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch mono input; ⅛-inch aux; shared ¼-inch TRS stereo line/phones; micro-USB
+- **Power / batteries** (5. Power, software and practice/live features): **4AA,9V/500mA center-negative AD-16, orUSB bus**
+- **Other documented functions** (5. Power, software and practice/live features): 30 s looper;68 rhythms; USB editing, **not documented USB audio**
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
 
 ## G2 FOUR
 
@@ -443,6 +466,18 @@ Checked 2026-10-16 against the [manufacturer HTML operation manual](https://zoom
 
 The [current official product page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/) lists57 downloadable additions, including54 fromNovember2024 and later OverDrive,Modulation Delay2 andStereo Guitar Graphic EQ7. This is not a verified installed category total for every unit. No app or driver was installed.
 
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **Display type** (2. Displays): 256×128 dot-matrix LCD
+- **Monochrome / color** (2. Displays): Monochrome, official color photograph
+- **Power / batteries** (5. Power, software and practice/live features): **9V/500mA center-negative AD-16 orUSB bus**; no internal battery listed
+- **Configuration apps** (5. Power, software and practice/live features): Paid Handy Guitar Lab **iOS/iPadOS/Android**, wired USB
+- **Other documented functions** (5. Power, software and practice/live features): 80 s mono looper;68 rhythms; USB2-in/2-out,44.1kHz/32-bit; desktop driver ≠ editor
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+
 ## G2X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -511,6 +546,18 @@ Checked2026-10-16 in the [manufacturer manual naming both models](https://zoomco
 | Looper |80 s mono /40 s stereo; UNDO halves both limits. Patch changes stop loops; Library entry clears them |
 | Processing restrictions |One instance each of amp,pedal,rhythm,looper categories; DSP limits still apply |
 | USB audio routing |Processed stereo recording; stereo playback enters after effects |
+
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **Display type** (2. Displays): 256×128 dot-matrix LCD
+- **Monochrome / color** (2. Displays): Monochrome, official color photograph
+- **Power / batteries** (5. Power, software and practice/live features): **9V/500mA center-negative AD-16 orUSB bus**; no internal battery listed
+- **Configuration apps** (5. Power, software and practice/live features): Paid Handy Guitar Lab **iOS/iPadOS/Android**, wired USB
+- **Other documented functions** (5. Power, software and practice/live features): 80 s mono looper;68 rhythms; USB2-in/2-out,44.1kHz/32-bit; desktop driver ≠ editor
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
 
 ## B1 FOUR
 

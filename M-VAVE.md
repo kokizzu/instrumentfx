@@ -79,6 +79,26 @@ Do not merge these into an active new-price range. Retrieval date is not the cra
 **Next:** verify listing condition/stock and exact hardware revision; review current firmware-specific amp-import formats and unresolved synth/acoustic capabilities. Do not infer a looper from a similarly named model.
 <!-- MVAVE-TANK-G source ends -->
 
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **External expression** (No built-in expression): No socket
+- **Dimensions; weight** (No built-in expression): 310×65×40; 613 g
+- **Size** (No built-in expression): Large
+- **Retail IDR observation** (No built-in expression): Rp995.000, Cilacap; separate Rp849.500 **sold-out** ask
+- **Display type** (2. Displays): Segmented bank/note indicator, not graphical
+- **Monochrome / color** (2. Displays): Emitted color unspecified
+- **Touch** (2. Displays): No touch interface in documented hardware
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 6 stages: gate, amp/EQ, mod, delay, reverb, IR; 9 amps, 3 mod, 3 delay, 3 reverb, 8 IR
+- **Preset storage** (3. Processing, presets and loading): 36 editable; factory split ?
+- **IR / NAM** (3. Processing, presets and loading): User IR 24-bit/44.1 kHz/1024; native NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch TS mono input/output; XLR balanced output; ⅛-inch headphones; phone-recording output; USB-C
+- **Power / batteries** (5. Power, software and practice/live features): USB5V ≥300mA; draw200mA; 3000mAh/3.7V rechargeable
+- **Other documented functions** (5. Power, software and practice/live features): USB audio/OTG, Bluetooth backing, live/preset modes; looper not established in checked baseline
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+
 ## TANK-B
 
 <!-- comparison evidence begins -->
@@ -138,6 +158,26 @@ Checked **2026-10-14**. **Partial new bass multi-effects record**, not TANK-G or
 
 **Next:** match original versus v2 hardware/firmware, verify live listings and current import formats. Looper support is not established by this manual; do not copy a product-search snippet's looper claim into the verified row without reconciliation.
 <!-- MVAVE-TANK-B source ends -->
+
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **External expression** (No built-in expression): No socket
+- **Dimensions; weight** (No built-in expression): 310×65×40; 613 g
+- **Size** (No built-in expression): Large
+- **Retail IDR observation** (No built-in expression): **Rp1.079.000, sold out**
+- **Display type** (2. Displays): Segmented bank/note indicator, not graphical
+- **Monochrome / color** (2. Displays): Emitted color unspecified
+- **Touch** (2. Displays): No touch interface in documented hardware
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 6: gate, compressor, amp/EQ, mod, Space, IR; 9 bass amps, 3 mod, 3 Space choices, 8 IR
+- **Preset storage** (3. Processing, presets and loading): 36 editable; factory split ?
+- **IR / NAM** (3. Processing, presets and loading): Same documented IR format; native NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch TS mono input/output; XLR balanced output; ⅛-inch headphones; phone-recording output; USB-C
+- **Power / batteries** (5. Power, software and practice/live features): USB5V ≥300mA; draw200mA; 3000mAh/3.7V rechargeable
+- **Other documented functions** (5. Power, software and practice/live features): USB audio/OTG, Bluetooth backing, live/preset modes; looper not established in checked baseline
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
 
 ## TANK MINI
 
@@ -199,6 +239,25 @@ Retail indexed asks: **Rp725.000**, [Vin's Music Store, pink/green variants][MVA
 
 **Next:** current firmware/import-format restrictions, any undocumented algorithms and used-market evidence. The manual's app screenshot is explicitly a software screen, not a built-in hardware screen. Bank changes use combinations of footswitches; there are no extra bank buttons.
 <!-- MVAVE-TANK-MINI source ends -->
+
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **External expression** (No built-in expression): No socket in manual
+- **K/F/B** (No built-in expression): 1 rear wheel /3/0
+- **Dimensions; weight** (No built-in expression): 165×60×40; ~325 g
+- **Size** (No built-in expression): Compact
+- **Retail IDR observation** (No built-in expression): Rp725.000, Vin's; stock unconfirmed
+- **Display type** (2. Displays): None; switch LEDs only
+- **Touch** (2. Displays): No / N/A
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 6 movable modules, specification says 6+1; 60+ choices, 20 amps =15 guitar+5 bass, 20 IR, 7 mod, 5 delay, 6 reverb
+- **Preset storage** (3. Processing, presets and loading): 21 editable, factory-filled
+- **IR / NAM** (3. Processing, presets and loading): User IR 24-bit/44.1 kHz/1024; native NAM ?
+- **Power / batteries** (5. Power, software and practice/live features): USB5V ≥300mA; draw~250mA; 1500mAh/3.7V rechargeable
+- **Other documented functions** (5. Power, software and practice/live features): USB audio/OTG/loopback, Bluetooth; detailed edits require app
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
 
 ## MK-20
 
@@ -265,6 +324,25 @@ The manual's specification table says **one external pedal jack**, but its compl
 **Next:** resolve external-control conflict and actual revision; verify current NAM conversion workflow and dated used offers. Do not copy MK-300's XLR outputs, larger screen or longer looper into this record.
 <!-- MVAVE-MK20 source ends -->
 
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **External expression / toe** (Built-in expression): **External-jack conflict** / toe ?
+- **Dimensions; weight** (Built-in expression): 271.5×136.5×51; ~795.5 g
+- **Size** (Built-in expression): Medium
+- **Retail IDR observation** (Built-in expression): Rp1.850.000, two retail listings; stock unconfirmed
+- **Monochrome / color** (2. Displays): Color
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 10 movable, DSP-limited; 320+, 120 amps, 40 drives, 100 cabs
+- **Preset storage** (3. Processing, presets and loading): 150 editable /75 factory-filled
+- **Acoustic simulation / synth** (3. Processing, presets and loading): Acoustic amp/cabs, simulator ? / synth ?
+- **IR / NAM** (3. Processing, presets and loading): IR 1024/2048; proprietary AMP/DS import; native NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch TS input; 2×¼-inch unbalanced outputs; ⅛-inch headphones; 3.5 mm MIDI; USB-C; **external EXP jack disputed**
+- **Power / batteries** (5. Power, software and practice/live features): 3000mAh/3.7V rechargeable; USB5V/2A specified; draw300mA; charging vs independent USB operation ?
+- **Other documented functions** (5. Power, software and practice/live features): **20 s mono pre-effects looper**,128 rhythms, USB audio/MIDI/reamp
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+
 ## MK-300
 
 <!-- comparison evidence begins -->
@@ -328,6 +406,24 @@ Very low MK300 search hits around Rp239.500 or Rp267.982 were **not accepted as 
 
 **Next:** firmware-specific algorithm/NAM-conversion matrix, reliable used offers, explicit touch and operating-power specifications. Manufacturer download page listed V75 dated 2026-10-12; that does not independently re-certify every older manual value.
 <!-- MVAVE-MK300 source ends -->
+
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **External expression / toe** (Built-in expression): Yes / toe A/B
+- **Dimensions; weight** (Built-in expression): 330×175×55; ~1550 g
+- **Size** (Built-in expression): Large
+- **Retail IDR observation** (Built-in expression): Rp2.700.000, title says New; **Seven Stereo item conflicts: Rp2.699.000 body vs Rp2.830.000 snippet**
+- **Monochrome / color** (2. Displays): Color
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 11 movable, DSP-limited; 320+, 120 amps =85 guitar+30 bass+5 acoustic; 40 drives, 100 cabs
+- **Preset storage** (3. Processing, presets and loading): 160 editable /80 factory-filled
+- **Acoustic simulation / synth** (3. Processing, presets and loading): Acoustic amp/cabs, simulator ? / synth ?
+- **IR / NAM** (3. Processing, presets and loading): IR 1024/2048; proprietary AMP/DS import; native NAM ?
+- **Power / batteries** (5. Power, software and practice/live features): 5000mAh/3.7V rechargeable; USB5V/2A specified; draw350mA; USB-operation nuance ?
+- **Other documented functions** (5. Power, software and practice/live features): **150 s looper**,128 rhythms, USB audio/MIDI/reamp, Bluetooth
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
 
 ## TANK-PRO
 

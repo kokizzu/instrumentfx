@@ -999,3 +999,15 @@ consolidation-audit-owned-links:
 .PHONY: research-commit-owned-union
 research-commit-owned-union:
 	python3 scripts/research_tools.py commit-owned-union
+
+.PHONY: consolidation-plan-market1-union consolidation-audit-market1-union consolidation-audit-market1-links
+consolidation-plan-market1-union:
+	python3 scripts/consolidation_tools.py plan-market1-union
+consolidation-audit-market1-union:
+	python3 scripts/consolidation_tools.py audit-market1-union
+consolidation-audit-market1-links:
+	python3 scripts/consolidation_tools.py audit-market1-links
+
+.PHONY: research-commit-market1-union
+research-commit-market1-union:
+	python3 scripts/research_tools.py commit-market1-union

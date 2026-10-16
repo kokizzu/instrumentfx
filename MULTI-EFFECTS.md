@@ -225,3 +225,35 @@ JOYO's original product identity is now established by its own Chinese/English p
 GR-55 initial `2b637fb61c243776b1a0a9d192ce17848295eeac`,correction `da9ff9bb01b8be8109f5b588c656de3daaf41c9c`;B1Xon `8b6664672c3f0756f754d1b1e10212421e3ca19f`.
 
 Shared finding references: [Original finding1](effects/findings/2026-10-14-roland-gr-55.md) · [Original finding2](effects/findings/2026-10-14-zoom-b1xon.md) · [Original finding3](effects/findings/2026-10-15-joyo-gembox-original.md) · [Original finding4](effects/findings/2026-10-15-mvave-mini-x.md) · [Original finding5](effects/findings/2026-10-15-mvave-pocket-amp.md) · [Original finding6](effects/findings/2026-10-15-cuvave-h8.md) · [Original finding7](effects/findings/2026-10-15-ving-fb100.md).
+
+### First Shopee expansion: historical shared qualifications
+
+Preserved2026-10-14 source context. The67-record/nine-page checkpoint,old compact/medium thresholds and next-target queue below are historical provenance. They do not replace current inventory,classification or continuation state. Dated offers remain separate by condition,stock,bundle,voucher and snippet/body conflict.
+
+[Home](effects/README.md) · [Shopee discovery index and next queue](effects/shopee-indonesia.md) · [Methodology](effects/METHODOLOGY.md) · [Resume](effects/RESUME.md)
+
+**16 additional model records · checked 2026-10-14 · all partial.** Each model name links to its individually committed findings, primary technical evidence and exact Shopee offers. These are new records, not duplicates of the original 51-model catalogue. The catalogue therefore has **67 distinct records across nine comparison pages** after this batch.
+
+This is a **Shopee-first expansion, not an exhaustive or live-stock inventory**. Retail listing evidence is not a confirmed new-condition declaration, authenticity check, completed sale or delivered price. Used and retail prices are separate. `?` means unverified, not No. No arbitrary used-price discounts or exchange rates are used.
+
+Dimensions are **W×D×H, mm**; weight excludes packaging. `K/F/B` means rotary controls / main footswitches / separate buttons; push-encoders count once. Toe/power switches are additional. Compact is ≤200×140; medium ≤300×200 but not compact; large otherwise, without rotating the unit. Plugs and pedal travel need extra room.
+
+*G2/G2X have four main footswitches plus four direction buttons designed for foot operation. These are called out rather than silently counted as eight identical switches. G1/G1X's two small arrows are included among their eleven buttons, not their two main footswitches.*
+
+**Do not collapse these observations into active market ranges.** Sold-out prices, bundle prices, vouchers, selected variants, old indexed evidence and conflicting snippet/body values are different contexts. Exact seller/item links and conditions are in each model's findings. Retail prices exclude unverified shipping/warranty assumptions; most used-price cells genuinely remain unknown.
+
+Diagonal is manufacturer-published inches, never measured from a photograph. Colored indicator LEDs do not count as a graphical display. Knob navigation does not by itself prove that a screen lacks touch.
+
+The Ampero Mini diagonal is retained as the checked manufacturer's published specification, not an independent measurement. Screen sizes from similarly named products are not substituted.
+
+`Editable / factory-filled` describes overlapping storage, not additive banks. Amp/cab choices are included in some advertised totals. Effects are not all freely assignable merely because modules can move. Detailed category counts and their version context are in the findings.
+
+Paired mono outputs are not one stereo TRS socket. A phones socket and a phone-recording output are different functions. A USB socket establishes neither audio nor power without specific evidence.
+
+Manufacturer battery runtimes are not independent measurements. Where only charging is established, USB standalone operating power remains unknown. Adapter requirements are not necessarily actual device consumption.
+
+**MK-20:** specification table mentions external EXP, but rear panel and connector descriptions omit it. Preserve the conflict rather than invent a jack. **FX200:** numbered effects sum161 vs advertised160; dimension labels conflict with normal horizontal orientation. **GE150 family:** original, Pro and Li power/loading features are not interchangeable. **Prices:** MK-300, FX100 and Zoom G2-family snippets/body/vouchers differ; model findings preserve every accepted context.
+
+The next Shopee-first targets are **TANK-PRO, ANN Blackbox, Boin Audio BG300, Scorpion KMF-10, JOYO GemBox variants**, newer MOOER/Hotone/Zoom, and vocal-capable TC-Helicon/HeadRush/Flamma. They remain discoveries, not completed technical records, until researched. The old BOSS display/IDR task is deferred, not discarded. See [the evidence queue](effects/shopee-indonesia.md) and [checkpoint](effects/RESUME.md).
+
+Original finding references: [Source1](effects/findings/2026-10-14-mvave-tank-g.md) · [Source2](effects/findings/2026-10-14-mvave-tank-b.md) · [Source3](effects/findings/2026-10-14-mvave-tank-mini.md) · [Source4](effects/findings/2026-10-14-mvave-mk-20.md) · [Source5](effects/findings/2026-10-14-mvave-mk-300.md) · [Source6](effects/findings/2026-10-14-hotone-ampero-mini.md) · [Source7](effects/findings/2026-10-14-mooer-ge100.md) · [Source8](effects/findings/2026-10-14-mooer-ge150.md) · [Source9](effects/findings/2026-10-14-mooer-ge150-pro-li.md) · [Source10](effects/findings/2026-10-14-mooer-ge200.md) · [Source11](effects/findings/2026-10-14-zoom-g1-four.md) · [Source12](effects/findings/2026-10-14-zoom-g1x-four.md) · [Source13](effects/findings/2026-10-14-zoom-g2-four.md) · [Source14](effects/findings/2026-10-14-zoom-g2x-four.md) · [Source15](effects/findings/2026-10-14-flamma-fx100.md) · [Source16](effects/findings/2026-10-14-flamma-fx200.md).

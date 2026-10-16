@@ -86,6 +86,25 @@ These sum to **151**, including amps/cabinets. The three AMP acoustic entries ex
 **Next:** display diagonal/touch, preset overwrite rules, current firmware/import limits and used-condition quotes. Price retrieval does not authenticate sellers or include shipping.
 <!-- FLAMMA-FX100 source ends -->
 
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **External expression / toe** (Built-in expression): No socket / toe ?
+- **Dimensions; weight** (Built-in expression): 230×155.99×32.8; 859 g
+- **Size** (Built-in expression): Medium
+- **Retail IDR observation** (Built-in expression): Rp2.480.000; **another item conflicts: Rp1.985.000 body vs Rp2.185.000 snippet**
+- **Display type** (2. Displays): Graphical screen
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 9 modules; **151**, manual category counts 8/20/55/26/3/4/19/9/7 in FX/DS/AMP/CAB/NS/EQ/MOD/DLY/REV order
+- **Preset storage** (3. Processing, presets and loading): 200 slots; overwrite/factory split ?
+- **Acoustic simulation / synth** (3. Processing, presets and loading): **3 acoustic simulators** / synth ?
+- **IR / NAM** (3. Processing, presets and loading): **10 user IR slots**, WAV512; NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch input; 2×¼-inch outputs; ⅛-inch aux/phones; **USB-B editor +separate micro-USB OTG**
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative/300mA**; battery/USB power ?
+- **Other documented functions** (5. Power, software and practice/live features): 80 s looper;40 rhythms+10 metronomes; separate OTG recording connection
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+
 ## FX200
 
 **Original technical/price date:2026-10-14. Support/store follow-up2026-10-17. Partial.** Standard FX200,not battery FX200b; new software observations do not certify all older specifications.
@@ -163,6 +182,27 @@ The numbered tables sum to **161**, whereas the feature/specification text says 
 
 **Next:** reconcile effect totals and dimension labels against current firmware/manual, verify used prices and exact selected variants. A programmable single MIDI socket is not simultaneous separate MIDI IN and OUT.
 <!-- FLAMMA-FX200 source ends -->
+
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **External expression / toe** (Built-in expression): EXP2 / toe yes
+- **Dimensions; weight** (Built-in expression): **343×170×55, W/D labels unresolved**; 1780 g
+- **Size** (Built-in expression): Large either orientation
+- **Retail IDR observation** (Built-in expression): Rp4.999.000, Grey/Pink listing; Rp5.047.000 Pink listing; selected variant/stock unconfirmed
+- **Diagonal** (2. Displays): **5**
+- **Monochrome / color** (2. Displays): Color
+- **Touch** (2. Displays): **Yes**
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 10 modules incl. FX loop; **160 advertised vs161 in numbered tables**: FX8 DS22 AMP58 CAB30 NR3 EQ4 MOD20 DLY9 REV7
+- **Preset storage** (3. Processing, presets and loading): 200 editable; factory subset ?
+- **Acoustic simulation / synth** (3. Processing, presets and loading): Simulator not identified in checked list / synth ?
+- **IR / NAM** (3. Processing, presets and loading): **50 user IRs**, 24-bit/44.1 kHz/1024; NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch input; 2×¼-inch +2×XLR outputs; mono send/return; ⅛-inch aux/phones; EXP2; **one selectable DIN MIDI IN or OUT**; USB-C
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative,≥1A adapter**; battery/USB power ?
+- **Other documented functions** (5. Power, software and practice/live features): USB audio;52 s stereo pre/post looper;80 drum variations+10 metronomes; spillover
+
+[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
 
 ## FX150
 
