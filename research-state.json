@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake RockStage QCE-10 follow-up",
-    "task": "Initial model saved; obtain readable primary manual/panel for controls and full I/O. Twiggy Blues and BOOM Ave. remain discovery candidates, not counted.",
+    "model": "Fresh Sonicake discovery after RockStage regional audit",
+    "task": "RockStage regional corroboration saved. Stop repeating inaccessible manual-image requests; seek exact Twiggy Blues or BOOM Ave. offers next.",
     "next_models": [],
-    "after_queue": "Continue manufacturer-backed gaps and exact Shopee discovery."
+    "after_queue": "Continue technical gaps with readable primary sources."
   },
   "new_findings": [
     {
@@ -4028,6 +4028,14 @@
         "Battery/USB",
         "Looper/drums/tap/trails/scenes"
       ]
+    },
+    {
+      "model": "Sonicake RockStage QCE-10",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "source": "https://www.hotone.jp/brands/sonicake/products/rockstage",
+      "finding": "Readable indexed Japanese official listing corroborates model, four named effects, dimensions/current/weight/delay. Direct regional page inaccessible; original English manual image yields no readable content. Generated Manuals+ ASIN guide excluded; no control/socket/signal-format claims imported.",
+      "remaining": "Panel, complete I/O and other gaps unchanged."
     }
   ],
   "consolidation_and_price_findings": [
@@ -39992,7 +40000,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake RockStage QCE-10 follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Sonicake discovery after RockStage regional audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

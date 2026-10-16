@@ -447,7 +447,7 @@ Guitar multi-effects strip, distinct from Black Hammer and G3-series products. M
 | K/F/B | Separate rotary, footswitch and button totals require readable panel evidence. | Unresolved |
 | Display | Illuminated knobs indicate operating state; screen presence, diagonal, color and touch remain unverified. | [Product][RS-P] |
 | Dimensions / mass | **262 D × 64 W × 44 H mm; 480 g**. Long strip. | [Product][RS-P] |
-| Processing / category choices | **Analog Plexi-style distortion, BBD-style chorus, digital delay and digital reverb**. Delay has analog voicing, not an all-analog implementation. Exact simultaneous count and routing unverified. | [Product][RS-P] |
+| Processing / category choices | **Analog Plexi-style distortion, BBD-style chorus, digital delay and digital reverb**. Delay has analog voicing, not an all-analog implementation. Japanese official listing names four effects: Chorus, Amp, Delay and Reverb. This corroborates the architecture; exact simultaneous count and signal order remain unverified. | [Product][RS-P] |
 | Factory / user memory | Factory-filled, user and total storage unverified. | Unresolved |
 | Synth / acoustic | Dedicated synth and electric-to-acoustic simulation unverified. | Unresolved |
 | I/O | Cab simulation supports direct PA, mixer or interface use. Full socket inventory, connector types and cab-sim routing remain unverified. | [Product][RS-P] |
@@ -472,3 +472,10 @@ The official Japanese manual link returned cache miss. No panel image was inspec
 [RS-P]: https://www.sonicake.com/products/rockstage
 [RS-MJ]: https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QCE-10-JP.webp?v=1789627945
 [RS-O]: https://shopee.co.id/Efek-Gitar-SONICAKE-RockStage-Multi-Effects-Pedal-4-In-1-Distortion-i.19700013.22648443827
+
+### Regional evidence and manual access
+
+The Hotone Japan SONICAKE listing identifies QCE-10 and independently repeats 130 mA, 480 g, 500 ms and 64 W × 262 D × 44 H mm. The dimension labels agree with the global page; no axis correction is inferred from the strip shape. Search-index text was readable, while direct page access failed. The English manual-image link yielded no readable content. A generated Manuals+ ASIN guide is excluded from technical evidence: it is not an authenticated original manual and its control, connector and signal-format claims are not transferred here. No new panel inspection is claimed.
+
+[RS-J]: https://www.hotone.jp/brands/sonicake/products/rockstage
+[RS-M]: https://cdn.shopifycdn.net/s/files/1/0100/1950/4185/files/Rockstage-User_Manual.jpg?v=1647482298

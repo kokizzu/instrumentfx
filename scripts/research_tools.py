@@ -323,7 +323,7 @@ def main():
         if mode == 'commit-dapper-dark-mini':
             message = 'research(valeton): add separate Dark Mini with indexed-manual qualifications'
         if mode == 'commit-rockstage':
-            message = 'research(sonicake): add RockStage QCE-10 with exact sold-out offer and primary limits'
+            message = 'research(sonicake): qualify RockStage regional corroboration and manual limits'
         if mode == 'commit-blackhammer':
             message = 'research(sonicake): add Black Hammer QCE-30 with qualified manufacturer evidence'
         if mode == 'commit-flyrig5v2':
