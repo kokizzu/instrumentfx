@@ -311,7 +311,7 @@ def main():
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): document PERFORM-V controls and microphone remote modes'
         if mode == 'commit-g1on':
-            message = 'research(zoom): add distinct G1on with qualified hardware and primary evidence'
+            message = 'research(zoom): verify G1on controls routing and looper limits'
         if mode == 'commit-g1xon':
             message = 'research(zoom): reconcile G1Xon library counts and acoustic algorithm'
         if mode == 'commit-stomplab2g':

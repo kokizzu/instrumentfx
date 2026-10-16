@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G1on manual follow-up",
-    "task": "InitialG1on exactprimaryprofile saved. Nextmodel-specificpanel/controlaudit,sharedmanualmemory/loopconstraints,effectlist75vs100;retainG1Xondistinction. Commitbeforeanothermodel.",
+    "task": "G1on manualpanel/controls/loopconstraints andAcoSim saved. Remaining75vs100,display/imports/editorUSB/liveprices retained. NextfreshShopee bassdiscoverybybrand/series;ME50B exactleadstillmissing.",
     "next_models": [],
     "after_queue": "FreshShopeebassdiscovery required;ME50B exactitem notestablished."
   },
@@ -3350,7 +3350,8 @@
       "status": "partial",
       "sources": [
         "https://www.zoom.co.jp/node/52",
-        "https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf"
+        "https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf",
+        "https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf"
       ],
       "offer": {
         "model": "Zoom G1on",
@@ -3376,7 +3377,11 @@
         "Imports/editorUSB",
         "Loopstorage/routing",
         "Qualifiedprices"
-      ]
+      ],
+      "manual_followup": {
+        "verified": "1/2/8controls;noexternalEXP/MIDI/loopports;AUXunprocessed;DSPcapacitybypass;autosavedefault;looperaresetime/tempo;AcoSimTopBodyLevel",
+        "remaining": "Display,75vs100firmware,imports/editorUSB,qualifiedprices;notfullyverified"
+      }
     }
   ],
   "consolidation_and_price_findings": [

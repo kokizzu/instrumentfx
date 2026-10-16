@@ -1553,18 +1553,18 @@ Guitar multi-effects, distinct from G1Xon and G1 FOUR. Checked 2026-10-17; parti
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | No built-in expression or toe switch; shared manual marks these G1Xon-only. External EXP pending panel audit. | [Shared manual pp4–5][G1ON-M] |
-| K/F/B | Separate counts pending model-specific panel audit. | Unresolved |
+| Expression | No built-in expression or toe switch; shared manual marks these G1Xon-only. Noexternal EXP socket in complete panel inventory. | [Shared manual pp4–5][G1ON-M] |
+| K/F/B | **1 / 2 / 8**, text-derived:Parameterknob;twofoot switches;MENU,HOME,ENTER,RHYTHM/LOOPER andfourcursor keys. Virtualknobs excluded. Visualcorroboration pending. | [Manual p4][G1ON-M] |
 | Display | **Backlit dot-matrix LCD**; diagonal, color and touch unverified. | [Zoom G1on][G1ON-P] |
 | Dimensions / mass | **146×154.8×43 mm W×D×H;380 g without batteries**. Compact footprint. | [Zoom G1on][G1ON-P] |
-| Processing / category choices | **Five simultaneous**, reorderable. Product advertises100 effects; shared2013 manual G1on75. Published subtotals11 dynamics/filter+12 drive+22 amp+16 modulation/SFX+14 delay/reverb=75. Revision conflict unresolved;notG1Xon's80. | [Product][G1ON-P];[Manual p31][G1ON-M] |
-| Factory / user memory | **100 writable patches,10×10**. Auto Save andPre Select documented; initial factory-filled subset pending. | [Zoom G1on][G1ON-P] |
-| Synth / acoustic | Acoustic simulation described. Exact algorithm list/synth capability pending. | [Zoom G1on][G1ON-P] |
-| I/O | Mono6.35mm INPUT,stereo3.5mm AUX,shared stereo6.35mm OUTPUT/headphones,USB andDC. Full inventory pending. | [Zoom G1on][G1ON-P] |
+| Processing / category choices | **Five simultaneous**, reorderable andDSP-limited;PROCESSING LIMIT bypasses theover-budgeteffect. Product advertises100 effects; shared2013 manual G1on75. Published subtotals11 dynamics/filter+12 drive+22 amp+16 modulation/SFX+14 delay/reverb=75. Revision conflict unresolved;notG1Xon's80. | [Product][G1ON-P];[Manual p31][G1ON-M] |
+| Factory / user memory | **100 writable patches,10×10**. Auto Save andPre Select documented; AutoSave defaultsON;unsavedpatches cannotbe swapped. Initial factory-filled subset pending. | [Zoom G1on][G1ON-P] |
+| Synth / acoustic | **Aco.Sim** hasTop,Body andLevel controls for electric-to-acoustic tone/bodyresonance. Synth capability unverified. | [Official shared effectlist p6][G1ON-F] |
+| I/O | Mono6.35mm INPUT,stereo3.5mm AUX,shared stereo6.35mm OUTPUT/headphones,USB andDC. Completepanelinventory hasno MIDI,send/return orexternalEXP. AUX routesdirectly toOUTPUT,unprocessed. | [Manual pp4–5][G1ON-M] |
 | Power / battery / USB | **9V DC center-negative,500mA AD-16 supply;4AA alkaline/NiMH orUSB power**. 20h alkaline,manual qualifies backlightoff. Measured draw unverified. | [Product][G1ON-P];[Manual pp2,6,31][G1ON-M] |
 | IR / NAM / capture | UserIR,native/converted NAM andproprietary capture import unverified. | Unresolved |
 | Editor / software | USB firmware update;Windows/Mac1.21 updaters listed. Full editor/audio/MIDI/currentOS support unverified. | [Zoom downloads][G1ON-P] |
-| Looper / drums / live | **30s/64beats looper;68 rhythms**,usable together;overdub supported. Storage,routing,trails/scenes pending. | [Zoom G1on][G1ON-P] |
+| Looper / drums / live | **30s/64beats looper;68 rhythms**,usable together;overdub supported. Changing recordingtime ortempo **erases loop**. Tempo40–250BPM isshared byeffects/rhythm/looper;rhythm addsrecordingpre-count. Loopcancontinue whileHOME isdisplayed. Persistentstorage,trails/scenes pending. | [Manual pp24–25][G1ON-M] |
 
 ### Separate IDR hardware offers
 
@@ -1583,3 +1583,5 @@ Secondary fullset item194129824/26177529440 directcachemiss;noqualified price,bu
 
 [G1ON-P]: https://www.zoom.co.jp/node/52
 [G1ON-M]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf
+
+[G1ON-F]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf
