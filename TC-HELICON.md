@@ -369,7 +369,7 @@ Keyboard-guided vocal multi-effects,distinct from V/VG/VE. Checked2026-10-17;ini
 | Power / battery / USB | Quick-guide supply diagram labels **12V1A**;supply label is not measured draw. DC/polarity,battery and USB power remain unverified. | [QSG v4.0 printed pp14–15][PVK-Q];[indexed 2018 Rev8][PVK-QI] |
 | IR / NAM / capture | User IR,native/converted NAM and capture imports unverified. | Unresolved |
 | Editor / software | VoiceSupport2 firmware/preset utility;Windows USB driver prerequisite,Mac update instructions omit driver. p12 separately says driver required for USB audio/MIDI;platform/revision scope unresolved. Full editor/current OS support unverified. | [Manual pp4,12][PVK-O] |
-| Looper / drums / live | Firmware update required for preset beaming per manual introduction. Switch-3/6 connects before power-on. MIDI accepts CC/PC/Tempo,explicitly not MIDI Clock. AUX chord tracking is delayed unless MIDI/INST guidance is present;use INST for live playing. MIDI/INST take detection priority. Hold Headphone while inserting AUX to omit it from main mix;replug/power resets this. RoomSense vocal practice mutes main outputs. Auto/manual gain resets at power-off. Manual adjustment disables gain-nudge;pressing SET re-enables it. Looper/drums/scenes/trails unverified. | [Manual pp4,12][PVK-O];[AUX/RoomSense sections][PVK-M] |
+| Looper / drums / live | Firmware update required for preset beaming per manual introduction. Switch-3/6 connects before power-on. MIDI accepts CC/PC/Tempo,explicitly not MIDI Clock. SET-at-startup filter scope conflicts:2016 service sheet names CC only,user manual CC+PC;notes remain accepted per user manual. AUX chord tracking is delayed unless MIDI/INST guidance is present;use INST for live playing. MIDI/INST take detection priority. Hold Headphone while inserting AUX to omit it from main mix;replug/power resets this. RoomSense vocal practice mutes main outputs. Auto/manual gain resets at power-off. Manual adjustment disables gain-nudge;pressing SET re-enables it. Looper/drums/scenes/trails unverified. | [Manual pp4,12][PVK-O];[AUX/RoomSense sections][PVK-M];[Service v1.0 p2][PVK-S] |
 
 ### Separate IDR hardware offers
 
@@ -419,3 +419,9 @@ HIT toggles imported layers;both states are editable. Auto-gain nudge reduces ga
 [PVK-P]: https://device.report/m/e0b05e0c2e3bf69502ed993ff12449ffda781853371a00b21f6ed520ef6d2ed3.pdf
 [PVK-Q]: https://manuals.plus/m/8c96a8244d3570c3bd4f681fe182279658c58485bd5d6dad3883f846a79abb23_optim.pdf
 [PVK-QI]: https://www.bax-shop.nl/downloads/products/9000-0032-0334/perform-vk_qsg_en.pdf
+
+### Manufacturer service document
+
+[Perform VK Test Modes][PVK-S],TC-Helicon Vocal Technologies Inc.,v1.0,2016-09-21,explicitly supports Perform VK. It documents HARMONY+ECHO at startup for factory reset and SET+HEADPHONES for safe mode,which does not start the DSP and awaits USB MIDI SysEx. SET-at-startup names CC filtering only,unlike the user manual’s CC+PC wording. These are documentation findings;no device operation,firmware installation or service procedure was performed.
+
+[PVK-S]: https://service-tcgroup.tcelectronic.com/files/Tech_Service/Perform_VK/Gadwall_Test_Modes_Config.pdf
