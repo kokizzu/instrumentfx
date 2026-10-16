@@ -696,6 +696,8 @@ Other search pages show adapter-bundle amounts but no resolved exact item in thi
 
 Bass multi-effects; external-only expression. Consolidated and expanded2026-10-16; partial. All15 model fields from the complete legacy bass comparison are preserved below with their original2026-10-14 dates and USD qualifications. New primary checks and IDR observations are separate.
 
+<!-- comparison evidence begins -->
+
 ### B2 FOUR — complete retained model fields
 
 | Field | Retained value / unknown |
@@ -754,6 +756,22 @@ The legacy4/6/4 K/F/B row is retained as its historical photograph-based observa
 | Condition-verified used IDR |**?** |No exact condition-verified used hardware offer established |
 
 All are asking observations,not a new/used market range. Exact condition,selected bundle,stock,shipping,voucher,warranty and seller authenticity remain unverified unless specifically stated. No software/dependency installed and no FX conversion. Remaining:category totals,screen details,physical-control corroboration,IR/NAM import evidence,current full-editor OS support andqualified used/live-stock offers.
+
+### B2 FOUR — editor compatibility and exact-offer follow-up, 2026-10-17
+
+| Field | Current evidence / qualification |
+|---|---|
+| Editor / OS compatibility | Zoom’s January2026 [iOS26/iPadOS26 compatibility table](https://zoomcorp.com/en/jp/news/ios26compatibility/) explicitly marks both B2 FOUR hardware and Handy Guitar Lab for B2 FOUR **Yes** on both platforms. This resolves those named OS versions, not all future releases or Android editing. |
+| Editor functions / connection | [Model-specific app page](https://zoomcorp.com/en/us/software-product-page/software-sub-cat/handy-guitarlab-for-b2-four/) documents effect installation/management, patch creation/editing, backups and firmware updates; VoiceOver supported. Apple Camera Adapter required and not included according to page. No app or firmware downloaded. |
+
+<!-- comparison evidence ends -->
+
+Condition-unverified exact hardware observations, checked2026-10-17:
+
+- [IDB MUSIK PLUS, Kota Jakarta Utara, shop800959591/item24004987590](https://shopee.co.id/Multi-Efek-Bass-Zoom-B2-FOUR-Adaptor-Zoom-AD-16E-Original-i.800959591.24004987590): Rp4,495,000, AD-16E bundle title. Three-week index only; direct retrieval cache miss. Condition, live stock, selected bundle, warranty, shipping/tax/voucher and final total unknown. Sep26–28 delivery stale. Not a qualified used/new price.
+- [LYN AUDIO, Kota Jakarta Barat, shop1203229574/item42758785757](https://shopee.co.id/ZOOM-B2-FOUR-BASS-MULTIEFFECTS-PROCESSOR-B2FOUR-GARANSI-RESMI-1TAHUN-i.1203229574.42758785757): Rp4,545,000; one-year official warranty is a seller title claim. JS-limited direct body, five-day crawl; condition, live stock, adapter/bundle, selected variant, shipping/tax/voucher and delivered total unknown. Relative four-hour delivery does not verify stock;10k late compensation is not a discount. Misfiled automotive category does not prove a different model or seller authenticity.
+
+Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; existing ACOUSTIC MUSIK item42458813522 still shows Rp4,270,000 with stale29May delivery. Preserve their2026-10-16 observations above; this does not refresh stock certification.
 
 ## B6
 

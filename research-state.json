@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery after AX3000G follow-up",
-    "task": "AX3000G MIDI/ESS and KA181 compatibility saved. Remaining display, electrical current/polarity, imports and current editor OS unsupported by inspected sources. Search Shopee by brand/series for eligible missing hardware; preserve all remaining gaps and commit each model before next.",
+    "model": "Fresh Shopee discovery after B2 FOUR follow-up",
+    "task": "B2 FOUR iOS26/iPadOS26 compatibility and new condition-unverified offers saved. Bass missing-model leads unresolved; search additional brand/series terms and commit model findings before next.",
     "next_models": [],
-    "after_queue": "Continue fresh Shopee discovery; coverage incomplete."
+    "after_queue": "Continue fresh Shopee discovery; all model verification remains partial."
   },
   "new_findings": [
     {
@@ -1933,6 +1933,49 @@
         ],
         "remaining": "Current/polarity still unresolved; do not infer draw from adapter rating. Other prior gaps remain."
       }
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "path": "ZOOM.md#b2-four",
+      "checked_date": "2026-10-17",
+      "status": "partial follow-up",
+      "resolved": [
+        "Manufacturer explicitly confirms hardware and app compatibility with iOS26/iPadOS26 as of January2026",
+        "Editor functions distinguished from generic audio connectivity"
+      ],
+      "sources": [
+        "https://zoomcorp.com/en/jp/news/ios26compatibility/",
+        "https://zoomcorp.com/en/us/software-product-page/software-sub-cat/handy-guitarlab-for-b2-four/"
+      ],
+      "offers": [
+        {
+          "shop": "800959591",
+          "item": "24004987590",
+          "idr": 4495000,
+          "seller": "IDB MUSIK PLUS",
+          "location": "Kota Jakarta Utara",
+          "condition_stock": "unknown",
+          "access": "three-week index; direct cache miss",
+          "bundle": "AD-16E title; unverified"
+        },
+        {
+          "shop": "1203229574",
+          "item": "42758785757",
+          "idr": 4545000,
+          "seller": "LYN AUDIO",
+          "location": "Kota Jakarta Barat",
+          "condition_stock": "unknown",
+          "access": "JS-limited direct body; five-day crawl",
+          "warranty": "one-year seller claim"
+        }
+      ],
+      "remaining": [
+        "Physical-control corroboration",
+        "Category totals",
+        "Display",
+        "Imports",
+        "Qualified used/live-stock offers"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -37621,7 +37664,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after AX3000G follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after B2 FOUR follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45519,5 +45562,18 @@
     ],
     "selected": "AX3000G exact used sold-out hardware",
     "rejected": "GT10 parts/search-only prices, RP155 shop-only ambiguous manual; AX3000G multi-variant prices unresolved"
+  },
+  "discovery_bass_followup": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Boss ME-50B",
+      "site:shopee.co.id Korg AX3000B",
+      "site:shopee.co.id Digitech BP355",
+      "site:shopee.co.id ME20B",
+      "site:shopee.co.id Zoom B2.1u",
+      "site:shopee.co.id Bass BP90"
+    ],
+    "result": "No exact new-model Indonesian item resolved. ME20B search-only and B2.1u mixed shop lead excluded from qualified offers. B2 FOUR exact offers checked instead.",
+    "coverage_complete": false
   }
 }
