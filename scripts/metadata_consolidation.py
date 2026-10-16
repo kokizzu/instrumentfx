@@ -84,7 +84,7 @@ def parse_json_provenance():
             for child in value:
                 inspect(child)
     for path in JSON_SOURCES:
-        text = (ROOT/path).read_text()
+        text = research_tools.read_preserved_source(path)
         data = json.loads(text)
         inspect(data)
         sha = digest(text)
@@ -100,7 +100,7 @@ def parse_json_provenance():
         reconstructed = {key:value for group in groups.values() for key,value in group.items()}
         assert reconstructed == data and sum(map(len,groups.values())) == len(data), 'Lost legacy JSON keys/values'
         snapshots[sha] = dict(groups=groups,source_key_count=len(data),historical=True,not_current_inventory_or_cursor=True)
-    original = json.loads((ROOT/JSON_SOURCES[0]).read_text())
+    original = json.loads(research_tools.read_preserved_source(JSON_SOURCES[0]))
     return dict(source_index=index,unique_snapshots=snapshots,source_count=len(index),unique_snapshot_count=len(snapshots),record_template=original['record_template'],record_template_is_not_an_actual_model=True,template_scope='Historical reusable template;current required_fields and active scope take precedence',current_inventory='inventory_by_brand',current_cursor='cursor')
 
 def build_metadata(state):

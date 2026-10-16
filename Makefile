@@ -1129,3 +1129,15 @@ specialist-retirement-verify:
 	python3 scripts/technical_retirement.py specialist-verify
 specialist-retirement-commit:
 	python3 scripts/technical_retirement.py specialist-commit
+
+.PHONY: json-retirement-plan json-retirement-apply json-retirement-verify json-retirement-commit json-retirement-rollback-plan
+json-retirement-plan:
+	python3 scripts/source_retirement.py json-plan
+json-retirement-apply:
+	python3 scripts/source_retirement.py json-apply
+json-retirement-verify:
+	python3 scripts/source_retirement.py json-verify
+json-retirement-commit:
+	python3 scripts/source_retirement.py json-commit
+json-retirement-rollback-plan:
+	python3 scripts/source_retirement.py json-rollback-plan

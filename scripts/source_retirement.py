@@ -211,6 +211,86 @@ def commit():
     print(research_tools.git('diff','--cached','--stat'))
     print(research_tools.git('commit','-m','docs: retire consolidated metadata into root redirects with pinned provenance'))
 
+
+JSON_PLAN = Path('/tmp/instrumentfx-json-retirement-plan.json')
+JSON_PATHS = metadata_consolidation.JSON_SOURCES
+
+def json_pointer(path,entry):
+    return json.dumps(dict(status='retired_historical_snapshot',current_ledger='../research-state.json',preserved_content='public_metadata.legacy_json.unique_snapshots.'+entry['source_sha256'],source_commit=entry['source_commit'],source_path=path,source_sha256=entry['source_sha256'],not_current_inventory_or_cursor=True),ensure_ascii=False,indent=2)+'\n'
+
+def json_incoming():
+    return [link for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')) for link in local_links(str(path.relative_to(ROOT)),path.read_text()) if link['target'] in JSON_PATHS]
+
+def json_verify():
+    research_tools.identity()
+    metadata_consolidation.verify()
+    state=json.loads((ROOT/'research-state.json').read_text())
+    retired=state['migration'].get('retired_sources',{})
+    archive=state['public_metadata']['legacy_json']
+    for path in JSON_PATHS:
+        original=research_tools.read_preserved_source(path)
+        index=archive['source_index'][path]
+        assert digest(original)==index['sha256']
+        groups=archive['unique_snapshots'][index['snapshot']]['groups']
+        restored={key:value for group in groups.values() for key,value in group.items()}
+        assert json.dumps(restored,sort_keys=True)==json.dumps(json.loads(original),sort_keys=True),'Typed JSON loss: '+path
+        if path in retired:
+            assert (ROOT/path).read_text()==json_pointer(path,retired[path])
+            assert digest((ROOT/path).read_text())==retired[path]['redirect_sha256']
+    for link in json_incoming():
+        assert (ROOT/link['target']).is_file() and not link['fragment'],str(link)
+    print('PASS:3 original JSON files/2 unique typed snapshots reconstructed exactly;current ledger,provenance and incoming paths resolve.')
+
+def json_plan(rollback=False):
+    json_verify()
+    state=json.loads((ROOT/'research-state.json').read_text())
+    records=state['migration'].setdefault('retired_sources',{})
+    selected=[p for p in JSON_PATHS if (p in records)==rollback]
+    assert len(selected)==3,'JSON retirement is all-or-none'
+    commit=research_tools.git('rev-parse','HEAD').strip()
+    outputs={}
+    for path in selected:
+        original=research_tools.read_preserved_source(path)
+        if rollback:
+            outputs[path]=original
+            del records[path]
+        else:
+            assert research_tools.git('show',commit+':'+path)==original
+            entry=dict(source_commit=commit,source_sha256=digest(original),destination='research-state.json',status='retired_json_pointer',incoming_before=[l for l in json_incoming() if l['target']==path])
+            outputs[path]=json_pointer(path,entry)
+            entry['redirect_sha256']=digest(outputs[path])
+            records[path]=entry
+    state['migration']['legacy_json_retirement']=dict(status='rolled_back' if rollback else 'retired',source_paths=list(JSON_PATHS),source_count=3,unique_snapshots=2,typed_root_content_verified=True,no_source_deletion=True)
+    state['cursor'].update(model='Complete navigation and field coverage audit',task='All legacy JSON snapshots have typed root-ledger provenance and pinned originals;all technical/metadata Markdown pages are redirects. Audit every legacy path and live navigation before claiming organization complete;technical gaps and fresh Shopee discovery remain.')
+    outputs['research-state.json']=json.dumps(state,ensure_ascii=False,indent=2)+'\n'
+    inputs={p:digest((ROOT/p).read_text()) for p in [*outputs,'scripts/source_retirement.py','scripts/metadata_consolidation.py','Makefile']}
+    JSON_PLAN.write_text(json.dumps(dict(inputs=inputs,outputs=outputs,kind='rollback' if rollback else 'retire',rollback_commit=commit),ensure_ascii=False,indent=2)+'\n')
+    print('Exact JSON plan: '+str(JSON_PLAN)+';paths='+json.dumps(list(outputs)))
+
+def json_apply():
+    research_tools.identity()
+    payload=json.loads(JSON_PLAN.read_text())
+    assert set(payload['outputs'])==set(JSON_PATHS)|{'research-state.json'}
+    for path,sha in payload['inputs'].items():
+        current=(ROOT/path).read_text()
+        assert digest(current)==sha or payload['outputs'].get(path)==current,'Changed input: '+path
+    for path in ['research-state.json',*JSON_PATHS]:
+        atomic_write(ROOT/path,payload['outputs'][path])
+    json_verify()
+
+def json_commit():
+    json_verify()
+    research_tools.verify()
+    import comparison_views
+    comparison_views.verify_views()
+    assert not research_tools.git('diff','--cached','--name-only').strip(),'Existing staged changes'
+    changed=set(research_tools.git('diff','--name-only').splitlines())|set(research_tools.git('ls-files','--others','--exclude-standard').splitlines())
+    allowed=set(JSON_PATHS)|{'research-state.json','scripts/source_retirement.py','scripts/metadata_consolidation.py','Makefile'}
+    assert changed<=allowed,changed-allowed
+    research_tools.git('add','--',*sorted(changed))
+    print(research_tools.git('diff','--cached','--stat'))
+    print(research_tools.git('commit','-m','docs: retire legacy JSON snapshots with typed root provenance'))
+
 if __name__ == '__main__':
-    modes = {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'rollback-plan':rollback_plan,'rollback-apply':lambda:apply(ROLLBACK)}
+    modes = {'json-plan':json_plan,'json-apply':json_apply,'json-verify':json_verify,'json-commit':json_commit,'json-rollback-plan':lambda:json_plan(True),'plan':plan,'apply':apply,'verify':verify,'commit':commit,'rollback-plan':rollback_plan,'rollback-apply':lambda:apply(ROLLBACK)}
     modes[sys.argv[1]]()

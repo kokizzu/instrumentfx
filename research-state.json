@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Legacy JSON and navigation audit",
-    "task": "Specialist page now preserves GM-800 body,full original excluded archive and remaining scope/navigation context in root documents. All technical legacy Markdown pages are redirects;verify remaining JSON snapshots and complete navigation coverage. Technical gaps and fresh Shopee discovery remain.",
+    "model": "Complete navigation and field coverage audit",
+    "task": "All legacy JSON snapshots have typed root-ledger provenance and pinned originals;all technical/metadata Markdown pages are redirects. Audit every legacy path and live navigation before claiming organization complete;technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Technical rollback: make technical-retirement-rollback-plan then make technical-retirement-apply;metadata rollback targets remain available."
   },
@@ -36430,6 +36430,39 @@
         "status": "retired_specialist_redirect",
         "context_destination": "BOSS.md#preserved-specialist-scope-and-archive-navigation",
         "excluded_destination": "SINGLE-GUITAR.md"
+      },
+      "effects/research-state.history-2026-10-14.json": {
+        "source_commit": "d6e730f27dd2e45898914cd82053d87778107de9",
+        "source_sha256": "c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83",
+        "destination": "research-state.json",
+        "status": "retired_json_pointer",
+        "incoming_before": [],
+        "redirect_sha256": "1ea0603c6757dfb488f42f1f32a1d15ff47d7d15758f132ee046bc450538d622"
+      },
+      "effects/research-state.history-2026-10-15-pre-cube-baby.json": {
+        "source_commit": "d6e730f27dd2e45898914cd82053d87778107de9",
+        "source_sha256": "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
+        "destination": "research-state.json",
+        "status": "retired_json_pointer",
+        "incoming_before": [],
+        "redirect_sha256": "ffba5ba190241c02967091ad8ab862559b3a25cac851d18458d70aa4c659a771"
+      },
+      "effects/research-state.json": {
+        "source_commit": "d6e730f27dd2e45898914cd82053d87778107de9",
+        "source_sha256": "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
+        "destination": "research-state.json",
+        "status": "retired_json_pointer",
+        "incoming_before": [
+          {
+            "source": "MULTI-EFFECTS.md",
+            "line": 78,
+            "target": "effects/research-state.json",
+            "fragment": "",
+            "kind": "inline",
+            "raw": "effects/research-state.json"
+          }
+        ],
+        "redirect_sha256": "60a28449789479af6ea5c9b84b253564de79dcd6e62b4244def2dce137c6ef68"
       }
     },
     "metadata_retirement": {
@@ -36546,6 +36579,18 @@
       "complete_body_finding_count": 81,
       "shared_source_count": 18,
       "remaining": "Excluded archival finding, remaining technical/navigation sources and legacy JSON audits remain;research remains incomplete."
+    },
+    "legacy_json_retirement": {
+      "status": "retired",
+      "source_paths": [
+        "effects/research-state.history-2026-10-14.json",
+        "effects/research-state.history-2026-10-15-pre-cube-baby.json",
+        "effects/research-state.json"
+      ],
+      "source_count": 3,
+      "unique_snapshots": 2,
+      "typed_root_content_verified": true,
+      "no_source_deletion": true
     }
   },
   "deferred_work": {
