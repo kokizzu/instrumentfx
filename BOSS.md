@@ -1773,3 +1773,45 @@ Remaining: visual control corroboration/external expression, processing ceiling/
 
 [M20B-P]: https://www.boss.info/global/products/me-20b/
 [M20B-M]: https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf
+
+## GT-10
+
+Guitar multi-effects; distinct from GT-10B and GT-100. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal; shared EXP PEDAL2/CTL3,4 TRS socket supports external expression or switches. Toe/assignment restrictions pending. | [Specifications][G10-S] |
+| K/F/B | Marketing describes six dedicated footswitches; full physical total including bank switches, rotary controls and buttons pending. Do not treat marketing count as complete panel inventory. | [Specifications][G10-S] |
+| Display | Backlit132×64 graphic LCD plus three-character seven-segment LED. Diagonal/colour/touch unverified. | [Specifications][G10-S] |
+| Dimensions / mass | 542W×272D×77H mm; pedal-up maximum104mm;4.9kg. Large floorboard. | [Specifications][G10-S] |
+| Processing / categories | Finnish manufacturer page advertises maximum13 simultaneous effects and dual signal paths with COSM amps. Exact counting basis, shared resources and per-category choices pending manual verification. | [Regional product][G10-F] |
+| Factory / user memory | 400 total:200 user+200 preset. Initial user-bank fill and write restrictions pending. | [Specifications][G10-S] |
+| Synth / acoustic | Synth and acoustic-simulator specifics unverified; no sibling inference. | Unresolved |
+| I/O | Quarter-inch INPUT, L/MONO/R OUTPUT, stereo PHONES, loop SEND/RETURN, AMP CONTROL; TRS EXP2/CTL3,4; USB; coaxial DIGITAL OUT; MIDI IN/OUT; DC IN. USB connector subtype pending. | [Specifications][G10-S] |
+| Analog conversion / levels | 24-bit+AF A/D,24-bit D/A,44.1kHz. Input/return−10dBu; output−10/+4dBu,send−10dBu. Input1MΩ,return220kΩ; output2kΩ,send3kΩ. Dynamic range≥100dB IHF-A. | [Specifications][G10-S] |
+| Power / battery / USB | 9V DC,800mA; PSB-1U supplied. Polarity, battery and USB bus operation unverified. | [Specifications][G10-S] |
+| IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. COSM factory modeling is not import proof. | Unresolved |
+| USB / editor / platforms | USB audio/MIDI documented. Windows/Mac Librarian1.00 listed for backup/organization, not full patch-editor proof. Windows10 driver1.0.0 and macOS10.13/10.14 driver1.0.3 listed; no current-OS blanket claim. System Program1.02 is an updater, not an editor. | [Support listing][G10-F] |
+| Looper / drums / live | Regional page advertises40s phrase looper; channel/quality/overdub/storage restrictions pending. Drums/scenes/trails and routing limits unverified. | [Regional product][G10-F] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; exact condition/selected variant not verified. | — |
+| New | Unknown; no exact qualified retail offer. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified exact Shopee lead
+
+Checked2026-10-17: [Boss GT-10 Effek Gitar Berkualitas Mulus dan Normal dengan Fitur Lengkap,shop632808697/item56508982735](https://shopee.co.id/Boss-GT-10-Effek-Gitar-Berkualitas-Mulus-dan-Normal-dengan-Fitur-Lengkap-i.632808697.56508982735), Rp3,200,000, Kab.Nganjuk from [search-page anchor](https://shopee.co.id/search?category=11043572&keyword=gitar+boss&page=4&subcategory=11043648). Seller name unknown. display_model_id420796323509 unresolved; parameterized click cache miss and clean exact URL inaccessible. Condition, stock, working state, adapter/bundle, warranty, voucher/shipping/tax and delivered total unknown. Title condition language is not independent working verification. Excluded from used/new price projection.
+
+Original [manufacturer manual](https://static.roland.com/assets/media/pdf/GT-10_OM.pdf) retrieval failed because18972196-byte content exceeds browser tool limit; CDN alternative same limit. No manual, driver, librarian, firmware or dependency downloaded to workspace. Global product timed out; Finnish regional page opened and Swedish specifications were indexed. Retain access limits instead of silently borrowing GT-10B specifications.
+
+Remaining: complete controls/expression, screen details, processing/library counts and restrictions, synth/acoustic details, power polarity, imports, exact USB/looper limits, modern OS compatibility and qualified offers.
+
+[G10-S]: https://www.boss.info/se/products/gt-10/specifications/
+[G10-F]: https://www.boss.info/fi/products/gt-10/
