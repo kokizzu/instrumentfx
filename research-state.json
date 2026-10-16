@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery",
-    "task": "PERFORM-VG initial andmanualfollowups committed;remainingtechnicalgaps retained explicitly. Saved new-modelqueueempty. Search Shopee Indonesia bybrand/series for eligible unrecordedbass/guitar/vocal hardware,then verifymanufacturer evidence andcommit permodel. Do not repeatV/VK/VG orconvertunknownUSB/presetfields toNo.",
-    "next_models": [],
-    "after_queue": "Continue fresh Shopee discovery;coverage not exhaustive."
+    "model": "VOX StompLab 1G",
+    "task": "Fresh exact SECOND hardware lead saved:61848168/20091595478 Rp850000Habis,cachedhistoricalusedask. Verify manufacturer1Gmanual/product separately from2B,then add rootbrand+views andcommit before PERFORM-VE lead95687096/3406909366. No dependencies/downloads/workflows.",
+    "next_models": [
+      "TC-Helicon PERFORM-VE"
+    ],
+    "after_queue": "Fresh Shopee discovery remains necessary;no exhaustive claim."
   },
   "new_findings": [
     {
@@ -47009,6 +47011,83 @@
         "condition": "unknown"
       }
     ],
+    "coverage_complete": false
+  },
+  "discovery_stomplab1g_performve": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Zoom B2.1u",
+      "site:shopee.co.id Boss GT-6B",
+      "site:shopee.co.id Korg AX5B",
+      "site:shopee.co.id Digitech BP90",
+      "site:shopee.co.id Zoom G1xon",
+      "site:shopee.co.id Zoom G5 Tube",
+      "site:shopee.co.id GT-6 Boss",
+      "site:shopee.co.id Stomplab1B",
+      "site:shopee.co.id Line6M9",
+      "site:shopee.co.id Line6M13",
+      "site:shopee.co.id PERFORM-VE",
+      "site:shopee.co.id VoxStomplab1G"
+    ],
+    "selected": {
+      "model": "VOX StompLab 1G",
+      "url": "https://shopee.co.id/VOX-STOMPLAB-1G-MULTIEFEK-GUITAR-MULTIEFFECT-MULTI-EFFECT-PEDAL-GITAR-MULTI-EFEK-SECOND-i.61848168.20091595478",
+      "shop": "61848168",
+      "item": "20091595478",
+      "seller": "gitar second",
+      "region": "Kab. Polewali Mandar",
+      "idr": 850000,
+      "condition": "SECOND in exact title;working state unknown",
+      "stock": "Habis",
+      "access": "Exact HTML opened,two-month cache;direct20–23Augdelivery conflicts indexed4–7Aug;both stale",
+      "variant_bundle_warranty": "unverified",
+      "voucher": "Rp10000late-arrivalcompensation,notdiscount",
+      "qualified_context": "Historical sold-out used ask only;not live stock/completed sale"
+    },
+    "additional_same_model": [
+      {
+        "url": "https://shopee.co.id/efek-Vox-Stomplab-1G-i.829591532.22263783787",
+        "shop": "829591532",
+        "item": "22263783787",
+        "seller": "Putra Guitar Store",
+        "region": "Kab. Cilacap",
+        "idr": 750000,
+        "condition": "unknown",
+        "stock": "Habis direct HTML,not present in earlier search excerpt",
+        "access": "Exact HTML,last-month cache",
+        "qualified_price": false
+      },
+      {
+        "url": "https://shopee.co.id/Multi-Effect-VOX-Stomplab-1G-Model-Pedal-Plus-Adaptor-Original-i.303905382.12940436449",
+        "idr": 1300000,
+        "seller": "tokonline93",
+        "region": "Kota Jakarta Barat",
+        "condition": "unknown",
+        "access": "Two-month index only;adapter title claim not independently verified",
+        "qualified_price": false
+      }
+    ],
+    "next_distinct": {
+      "model": "TC-Helicon PERFORM-VE",
+      "url": "https://shopee.co.id/TC-Helicon-Perform-VE-Garansi-Resmi-Original-i.95687096.3406909366",
+      "shop": "95687096",
+      "item": "3406909366",
+      "seller": "limitless__store",
+      "region": "Kota Jakarta Pusat",
+      "idr": 3900000,
+      "stock": "Habis indexed",
+      "condition": "unknown;Garansi Resmi Original does not prove new",
+      "access": "Two-month index,direct cache miss",
+      "qualified_price": false
+    },
+    "rejected": [
+      "HopeMusic mixed G2.1Nu/G2.1u/B2.1u and G1xNext/B1xNext unresolvedvariants",
+      "GT6 search-only prices without exactitem",
+      "GT3/5/6/8adapter732732692/19432737909 accessory",
+      "StompLab1G/2G mixed listing and shop-only ChainOfTones",
+      "No exact new bass item established;not absence/exhaustivecoverage"
+    ],
+    "added_active_models": 0,
     "coverage_complete": false
   }
 }
