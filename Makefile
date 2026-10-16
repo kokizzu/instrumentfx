@@ -1363,3 +1363,7 @@ research-commit-rp500:
 .PHONY: research-commit-ax10g
 research-commit-ax10g:
 	python3 scripts/research_tools.py commit-ax10g
+
+.PHONY: research-commit-rp90
+research-commit-rp90:
+	python3 scripts/research_tools.py commit-rp90

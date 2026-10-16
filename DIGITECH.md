@@ -122,3 +122,39 @@ Read manufacturer manual/addendum and seller cache as web text; no dependencies,
 [RP5-L]: https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP500_Looper_Addendum_original.pdf
 [RP5-F]: https://digitech.com/faqs/
 [RP5-O]: https://shopee.co.id/Digitech-Rp500-like-new-i.58780289.18228745237
+
+## RP90
+
+Guitar multi-effects;distinct fromRP80/RP55/BP90. Checked2026-10-17;partial. Bass/vocal suitability and ownership unverified. Manufacturer classifies discontinued.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal,per-preset assignment,min/max;pre/post-delay volume,wah,Whammy,YaYa and parameters. External/toe-switch support unverified. | [Manual pp32–33][RP90-M] |
+| K/F/B | **0 rotary /2 footswitches /10 front buttons**, plus rear Amp/Mixer push switch. Front:four library/level,Edit pair,Value pair,Drums,Store. Text-derived;visual corroboration pending. | [Manual pp6–11][RP90-M] |
+| Display | Two-character parameter/preset display plus LED matrix;diagonal,color,touch unverified. | [Manual pp9,32][RP90-M] |
+| Dimensions / mass | **6.5L×8.5W×2H inches;1.52lb** unit. | [Manual p36][RP90-M] |
+| Processing / category choices | **9 simultaneous**. Pickup/Wah5 choices:two pickup simulations,three wahs;compressor1;Amp/Distortion12amps+6drives+acoustic;EQ1;Gate2;ChorusFX table15 versus prose12;Delay4;Reverb3. Variations are parameter settings,not additional models. | [Manual pp21–31,36][RP90-M] |
+| Factory / user memory | **100=50user+50factory**,users initially duplicate factory. STORE required;unsaved edits lost on patch/power change. | [Manual pp5,18][RP90-M] |
+| Synth / acoustic | Acoustic simulator confirmed;YaYa/AutoYa do not establish synthesizer architecture. | [Manual pp24,28][RP90-M] |
+| I/O | ¼TS guitar input500kΩ;L/mono+R¼outputs;⅛stereo headphones;DC. No USB/MIDI/external control listed. Headphones become mono with onlyL output connected;none/both outputs retain stereo. | [Manual pp10–11,36][RP90-M] |
+| Power / battery / USB | **9VDC center-negative**. PS200R300mA orPS0913DC1300mA supply ratings,not draw. FAQ confirmsPS0913DC2.1mm pin. Battery/USB power unverified. | [Manual p37][RP90-M];[FAQ][RP90-F] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. Factory cabinets do not establish imports. | Unresolved |
+| Editor / software | Editor/platforms unverified;onboard editing documented. | [Manual p17][RP90-M] |
+| Looper / drums / live | **40 drum patterns,40–240BPM**;settings global. Whammy moves beforeamp. Looper,scenes,trails unverified. | [Manual pp29,34][RP90-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | No qualified working-used ask established. Faulty listing below is not a working-unit price. | — |
+| New | Unknown;no qualified retail/new offer. | — |
+| Conditional historical offer | **Rp998,000;Habis**, rizki_stratoman,Surabaya;shop77743122/item47652738573. Checked2026-10-17;month-old rendered cache,stale2–4September delivery;search preview was two months old with July delivery. Condition,working state,revision,adapter/bundle,warranty,voucher unknown. Not live stock/completed sale. | [Exact hardware][RP90-O1] |
+| Faulty historical offer | **Rp400,000;Habis**, title says **minus**;fault unspecified. hubby shop,Bekasi;shop729907257/item51202235862. Three-month rendered cache,stale6–9July delivery. Search preview omitted sold-out status;rendered page confirmsHabis. Bundle,repairability,warranty unknown. Excluded from working used/new ranges. | [Faulty exact hardware][RP90-O2] |
+
+Late-arrival compensation is not an immediate discount. No documents,software,firmware or dependencies downloaded;no physical inspection. Manufacturer's manual index links the CDN manual below;body identifiesRP90,2011declaration and2007copyright. Amp-section prose mentionsDirect but selector listing does not enumerate it separately;retain unresolved rather than invent an extra entry. ChorusFX table has15 named choices despite prose12. Display and power-supply polarity symbols were not visually decoded;polarity comes from manufacturer FAQ.
+
+[RP90-M]: https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP90_User_User_Manual.pdf
+[RP90-F]: https://digitech.com/faqs/
+[RP90-P]: https://digitech.com/product-manuals/
+[RP90-O1]: https://shopee.co.id/Efek-Gitar-Digitech-RP90-i.77743122.47652738573
+[RP90-O2]: https://shopee.co.id/efek-gitar-digitech-RP90-minus-i.729907257.51202235862
