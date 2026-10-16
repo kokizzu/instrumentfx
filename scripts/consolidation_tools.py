@@ -26,6 +26,7 @@ MODELS = {
     'gt-1b': ('GT-1B', 'effects/bass.md'),
     'gx-1b': ('GX-1B', 'effects/bass.md'),
     'me-90b': ('ME-90B', 'effects/bass.md'),
+    've-1': ('VE-1', 'effects/vocal.md'),
 }
 
 
@@ -157,7 +158,7 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':

@@ -153,3 +153,7 @@ consolidation-commit-gx-1b:
 .PHONY: consolidation-commit-me-90b
 consolidation-commit-me-90b:
 	python3 scripts/consolidation_tools.py commit me-90b
+
+.PHONY: consolidation-commit-ve-1
+consolidation-commit-ve-1:
+	python3 scripts/consolidation_tools.py commit ve-1

@@ -182,3 +182,60 @@ Checked2026-10-16 using exact hardware pages. Cached asks do not establish curre
 | Retail-style / Eleven Music,Jakarta Pusat | Indexed Rp7.950.000 with Layanan Tidak Tersedia;direct reopen cache miss. Delivery service unavailable in snapshot,not evidence of nationwide availability or sold-out stock. Two URL slugs share same seller/item,one offer not two. | [12356205 /25781715958](https://shopee.co.id/Boss-ME-90B-Bass-Multi-Effects-Pedal-BOSS-ME90B-Original-i.12356205.25781715958) |
 
 Unresolved:full category/subtype counts,IR formats/length,screen diagonal/color/touch,rotary recount,DC voltage/polarity/USB power,current software versions/USB channels/bitdepth,condition-verified used/new asks/current stock/bundles. No legacy source deleted.
+
+## VE-1
+
+Vocal multi-effects:echo,double,pitch correction and enhance. Consolidated/researched2026-10-16;partial verification. Seller Harmonist/Guitar Pedal titles do not establish guitar processing or intelligent harmony.
+
+### VE-1 — preserved original comparison
+
+Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimensions are **W×D×H, mm**. K/F/B = rotary controls / main footswitches / separate buttons; rear power, phantom and ground-lift toggles are additional. Used and new prices are separate **USD US-market asking/listing observations**, not sold-price statistics. Tax, shipping and condition matter.
+
+| Required field | Original observation (2026-10-14) |
+|---|---|
+| External expression | External **footswitch only**, not EXP |
+| K/F/B | 5/1/3 [photo/specs] |
+| Dimensions; weight | 156×116×64; 600 g |
+| Size class | Compact |
+| Used USD | ? |
+| New USD | $240.99 [P1] |
+| Processing architecture; categories / choices | Echo **7** ambience types; Double, Pitch Correct and Enhance; not 7 simultaneous echoes |
+| Factory / user storage | **3 saved memories + current live setting**, not 4 saved patches |
+| Harmony, pitch, synth-like and acoustic functions | Doubling and pitch correction; no intelligent-harmony claim |
+| IR / NAM loading | Neither established |
+| Physical audio/control ports | XLR mic **48 V/10 mA max**; mono XLR out; 3.5 mm phones/line; TRS footswitch; USB-B |
+| Battery / power / USB-powered? | 4 AA or PSA 9 V; up to 200 mA; USB powering not listed |
+| Configuration apps versus USB functions | Full editor not established; Windows/macOS drivers and USB audio |
+| Looper / live considerations | No guitar input; three memories; small single-switch interface |
+
+Original sources: [source](https://www.boss.info/global/products/ve-1/specifications/); [source](https://static.roland.com/assets/images/products/main/ve-1_top_main.jpg); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series). P1:Sweetwater BOSS signal-processing listings,new USD240.99 checked2026-10-14;bundles/open-box excluded. Original rotary count includes rear MIC SENS. USD is not converted IDR. [Complete original](effects/vocal.md) retained unchanged;no source deleted.
+
+### VE-1 — current manufacturer checks
+
+| Required field | Verified evidence / limits (2026-10-16) |
+|---|---|
+| Processing / memory | Four named effect stages:ECHO,DOUBLE,PITCH CORRECT,ENHANCE;seven echo choices are alternatives.Three stored memories plus live setting,not four stored patches. Hard-tuned electronic voice is not intelligent harmony. [VE1-S] |
+| Power / body / ports | 9V200mA maximum;four alkaline orNiMH AA;PSA optional. Alkaline approximately11h phantomoff/7h on;2450mAhNiMH12h/8h.156×116×64mm;600g,battery basis unspecified on current specs. XLR mic48V10mAmax;XLR out;stereo-mini phones/line;TRSfoot switch;USB-B;DC. [VE1-S] |
+| Physical controls / expression / screen | Legacy5knobs/1footswitch/3buttons retained,rear MIC SENS included;fresh visual recount pending. No built-in expression/toe pedal;external footswitch only,not EXP. Screen diagonal/color/touch unestablished;do not infer screen from status LEDs. |
+| USB / routing | NORMAL records mic/effects;LOOP BACK also records computer playback;INPUT applies effects to computer playback;DIRECT MONITOR OFF monitors via computer return. Dedicated USB driver required. [VE1-M] |
+| External control / live | FS-5U/FS-6/FS-7 can toggle DOUBLE or change memories;TRS tip/ring assignments separate. Memory A/B/C plus normal manual mode. Reference pitch437–443Hz,440default. [VE1-M] No looper/drums/scenes established. |
+| Editor / driver | Manufacturer lists Windows10/11 driver1.0.2 and macOS Sonoma14.x-or-later driver1.0.5;driver availability is not proof of full editor. [VE1-S] Current exact OS/device compatibility and USB channels/rates remain unchecked. |
+| Synth / acoustic / imports | Doubling/pitch correction do not establish synth engine,acoustic/guitar processing,IR,native NAM,converted NAM or capture import;these remain unverified. USB powering/DC polarity unverified. |
+
+[VE1-S]: https://www.boss.info/global/products/ve-1/specifications/
+[VE1-M]: https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf
+
+USB/control details checked in manufacturer-authored Spanish manual;English support link currently exposes a download agreement without PDF link in retrieved text. No software installed.
+
+### VE-1 — separate IDR asking-price evidence
+
+Checked2026-10-16. Exact hardware pages;cached asks are not live checkout/stock proof. Shipping,tax,warranty region and adapter bundle unconfirmed. Store name does not authenticate affiliation.
+
+| Condition / seller | IDR observation and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no exact condition-verified used offer established. | — |
+| Seller-claimed new / Jagoan Electronic,Jakarta Utara | Indexed Rp3.077.000,title New/one-year official-warranty claim. Same-day-before10:00 cached delivery. Direct reopen cache miss;condition/warranty/stock and bundle not independently confirmed. | [645393778 /25216175744](https://shopee.co.id/BOSS-VE-1-VE-1-VE1-Vocal-Echo-Pedal-Original-New-Garansi-Resmi-1-Tahun-i.645393778.25216175744) |
+| Retail-style / cveri accessories,Jakarta Pusat | Rp3.200.000 in indexed/reopened body;same-day-before10:00 delivery. No price voucher shown;condition/adapter/stock unconfirmed. | [785734870 /25531707980](https://shopee.co.id/Boss-VE-1-VE1-Vocal-Echo-Pedal-Efek-Vokal-Original-i.785734870.25531707980) |
+| Retail-style / Boss Official Shop,Tangerang Selatan | Rp3.720.000,Habis in search/reopened body. Relative today versus tomorrow delivery conflict;no live-stock inference. Late-delivery voucher is not price discount. Bundle unspecified. | [341882414 /20878357685](https://shopee.co.id/BOSS-VE-1-Vocal-Echo-Pedal-Efek-Vokal-i.341882414.20878357685) |
+
+Remaining:visual controls/display verification,USB power/DC polarity,USB channel/rate/bit-depth,current software compatibility,import capabilities,condition-verified used price,current seller stock/bundles.
