@@ -1633,3 +1633,46 @@ Remaining:complete socket formats/manual processing,externalEXP,powerpolarity/US
 
 [ME70-C12]: https://cdn.roland.com/assets/media/pdf/boss_catalog_2012.pdf
 [ME70-QA]: https://cdn.roland.com/assets/media/pdf/ME_70_Q_A.pdf
+
+## ME-25
+
+Guitar multi-effects; checked 2026-10-17, partial. Manufacturer marks discontinued. Bass suitability unclassified. An exact Shopee hardware lead is faulty and sold out; it is not a working-unit price.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / K/F/B | Built-in expression;4 knobs/3 footswitches/9 backlit buttons. Toe switch and external expression support unverified. | [ME25-P][ME25-P] |
+| Display | Two-digit seven-segment LED;diagonal,color/touch unpublished here. | [ME25-P][ME25-P] |
+| Dimensions / weight / size | 300W×191D×72H mm;raised-pedal height93mm;1.9kg including batteries. Large footprint. | [ME25-P][ME25-P] |
+| Processing / category choices | Seven named groups:PREAMP10,COMP/FX3,OD/DS10,MOD8,DELAY4 ranges/types,REVERB2,PEDAL FX4. NS andSUPER STACK separately listed. Explicit simultaneous ceiling unverified;choices are not freely assignable slots. | [ME25-T][ME25-T] pp2,8–9 |
+| Factory / user memory | 60 programmable whole programs;separate60-entry Sound Library. Library categories:CLEAN,CRUNCH,DRIVE,HEAVY,LEAD,EXTREME. Initial user fill andwhether library entries duplicate programs unverified;do not assume120 whole-patch memories. | [ME25-T][ME25-T] p2; [ME25-P][ME25-P] |
+| Synth / acoustic | COMP/FX includes ACOUSTIC SIMULATOR,distinct from acoustic preamp. Pedal FX includesFreeze andoctave shifts. Dedicated synth engine unverified. | [ME25-T][ME25-T] pp8–9 |
+| I/O | Guitar input,mainL/MONO output,AUX input andUSB audio documented;complete socket inventory/sizes,headphone socket,USB type andexternalcontrol sockets require owner-manual check. No sibling layout substituted. | [ME25-T][ME25-T] p3; [ME25-P][ME25-P] |
+| Power / battery / USB | DC9V,sixR6/LR6AA oroptionalPSA;150mA draw. Approx9h alkaline/3h carbon,conditions vary. Polarity andUSB bus operation unverified. | [ME25-P][ME25-P] |
+| USB audio / MIDI | USB audio interface documented;channel counts,USB MIDI,dry/reamp/monitoring paths unverified. | [ME25-P][ME25-P] |
+| IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietarycapture import not established. COSM factory modeling is not evidence of imports. | Unresolved |
+| Editor / drivers | BOSS Tone Studio librarian Windows/macOS listed1.1.2;full patch-editor scope andcurrentOS compatibility need separate checks. Driver is separate. BundledSonarLE is recordingsoftware,not deviceeditor. | [ME25-P][ME25-P] |
+| Looper / drums / scenes / routing | PhraseLoop38s,unlimited overdubs. SOLO pedal hold2s enters standby;press records/plays/overdubs,doubletap stops,hold2s exits. Loop persistence,undo,stereo,trails,scenes andonboarddrums unverified. Bundledloops/rhythms do not prove onboarddrum engine. | [ME25-T][ME25-T] pp2,6–7 |
+
+### ME-25 — separate IDR asking-price evidence
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used working unit | Unknown;no exact condition-verified working used ask established. | — |
+| New working unit | Unknown;search-page snippets lack exact seller/item/variant verification. | — |
+
+<!-- comparison evidence ends -->
+
+### ME-25 — rejected working-price evidence
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Faulty hardware / BUMDes SEMBADA,Kab.Wonogiri | Rp350,000 cached ask explicitly titled blank error,without adapter;markedHabis. Checked2026-10-17;index3weeks old,21Sepdelivery stale,directJS-limitedbody. Repairability,otherbundleitems,warranty,shipping,tax,vouchersanddeliveredtotal unknown. Late-deliveryRp10,000 compensation is not productdiscount. Excluded fromworkingused/newprice comparisons;storeidentity unverified. | [159831486 /24669831394](https://shopee.co.id/efek-gitar-BOSS-ME-25-blank-error-non-adaptor-%28tanpa-adaptor%29-i.159831486.24669831394) |
+
+Search-only context,not accepted exact hardware prices:Shopee search for boss me-25 showed retail-styleRp2,650,000 andRp2,250,000 plussecond-with-adapterRp1,800,000;exactitems notresolved. Adapter,knob,switch andcase offers rejected. [Discovery page](https://shopee.co.id/search?keyword=boss+me-25). Shop-levelRP155manual title remains ambiguous andis not a hardware offer accepted in this pass.
+
+Remaining:toe/externalexpression,fullports,powerpolarity/USB,screen details,simultaneous ceiling,initialmemoryfill,synth,imports,currentsoftware,USB paths andlooper/drums/scenes;qualifiedworkingused/newoffers. Search catalogue snippets mix adjacent product columns;they do not establish USB bus power or supersede model-specific product specifications.
+
+[ME25-P]: https://www.boss.info/us/products/me-25/
+[ME25-T]: https://cdn.roland.com/assets/media/pdf/ME-25_Training_Guide.pdf
