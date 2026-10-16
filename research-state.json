@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon PERFORM-V primary follow-up",
-    "task": "PERFORM-V quickguide12V1A supply label/globaltempo/gain setup saved;current official-page controls/guitar/USB claims conflict with detailed manual. Resolve via technical documentation;do not infer revisions. Then exact VK/VG leads,with per-model immediate commits.",
+    "model": "TC-Helicon PERFORM-VK",
+    "task": "PERFORM-V controls text-derived1/0/14,LEDguide andMicControl saved. Power/dimensions/currentUSBfirmware remain deferred with explicit conflicts. Next verify exact PERFORM-VK Shopee lead and manufacturer manual;commit before VG. No downloads/workflows.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary."
   },
@@ -2815,6 +2815,25 @@
           "Dimensions/mass,powerDCpolarity/battery/USBpower",
           "Full controls/display inventory",
           "USB audio independent technical evidence"
+        ]
+      },
+      "controls_followup": {
+        "checked_date": "2026-10-17",
+        "sources": [
+          "https://images.thomann.de/pics/atg/atgdata/document/manual/tc_helicon_perform_v_reference_manual_italian.pdf",
+          "https://www.bhphotovideo.com/lit_files/1188880.pdf"
+        ],
+        "revision": "Firmware1.0/reference2015-11-17",
+        "resolved": [
+          "Text-derived1rotary/0builtinfootswitch/14buttons with explicit inventory",
+          "Segmented LED pitchguide functions;not LCD/touch proof",
+          "MicControl phantom prerequisite,modes and button defaults"
+        ],
+        "qualification": "Indexed cover description only;PDF screenshot failed;marketing3knobs3buttons conflict retained",
+        "remaining": [
+          "Dimensions/mass,DCpolarity/currentdraw/battery/USBpower",
+          "Independent visual count and display screen specification",
+          "USB audio and current firmware/software"
         ]
       }
     }
@@ -38531,7 +38550,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-V primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-VK."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

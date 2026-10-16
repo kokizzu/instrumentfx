@@ -298,8 +298,8 @@ Mic-stand vocal multi-effects;not VK/VG/VE. Checked2026-10-17;partial. No guitar
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in/toe/external expression unverified. Switch-3/6 remote footswitch supported;not evidence of continuous expression. | [Manual pp44–45][PV-M] |
-| K/F/B | Separate knob/footswitch/button counts pending. | Unresolved |
-| Display | Diagonal,color,touch and display technology unverified. | Unresolved |
+| K/F/B | **1 / 0 / 14**,text-derived from manufacturer manual cover:one central rotary;SET,Tone,Anti-Feedback,Pitch,48V;Double,Reverb,Echo;presets1–3;Headphone,Tap,Talk. Mic-stand unit has no built-in footswitch;external Switch-3/6 separate. Indexed cover description,not an independently rendered visual count;current marketing count conflict retained below. | [Italian manual cover,firmware1.0/2015-11-17][PV-I] |
+| Display | **Segmented LED ring** indicates effect level/style and pitch guide:green in tune,yellow/red left flat,right sharp. Hold Pitch toggles guide. This does not establish a color LCD or touchscreen;screen diagonal/technology remains unverified. | [Manual pp18,33][PV-B] |
 | Dimensions / mass | Unverified. | Unresolved |
 | Processing / category choices | Onboard Double/Reverb/Echo;imported presets add Harmony,HardTune,Megaphone,µMod,up to7 effects. Adaptive Tone:EQ,de-essing,gate,compression;global pitch correction and anti-feedback. Factory styles:Reverb Room/Club/Hall;Double 1 Voice Tight/2 Voices Tight/Octave Up and Down;Echo quarter-note/eighth-note/Slap. Each also accepts one imported style. Full block accounting pending. | [Manual pp10,14–19,22][PV-M];[same revision][PV-B] |
 | Factory / user memory | Three editable presets1–3 store effect state/style/level;imports replace their sounds. Changes save automatically. Initial factory fill remains unverified. | [Manual pp19,21–25][PV-B] |
@@ -341,3 +341,11 @@ Quick-guide supplement:[manufacturer-authored 2018 document][PV-Q],PERFORM-V tit
 [PV-Q]: https://manualzz.com/doc/html/54082694/tc-helicon-perform-v-quick-start-guide
 [PV-QI]: https://www.bax-shop.nl/downloads/products/9000-0032-5727/perform_v_qsg_en.pdf
 [PV-P]: https://www.tchelicon.com/en/products/0726-AAG
+
+### Microphone remote control
+
+Manual pp36–37 requires phantom power for Mic Control. Hold48V+1 disables it for a regular condenser;48V+2 selects MP-75;48V+3 MP-76. MP-75 defaults to preset cycling and is reassignable. MP-76 mode:top Double,left preset1,right preset2,bottom preset3;MP-75 mode on MP-76 enables only its top button. Assignable functions:Double,Reverb,Echo,Tap,Talk,presets1–3,Tone,Anti-Feedback,Pitch;preset assignment can trigger HIT. These are microphone buttons,not extra processor footswitches. [Manual pp36–37][PV-B].
+
+Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;cover labels corroborate existing English controls. PDF screenshot failed;inventory remains explicitly text-derived. Manufacturer service-test PDF dated2015-07-14 indexed SET/Headphone separately,but direct502;no test modes were run.
+
+[PV-I]: https://images.thomann.de/pics/atg/atgdata/document/manual/tc_helicon_perform_v_reference_manual_italian.pdf
