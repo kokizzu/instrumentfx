@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 139,
+  "active_model_count": 140,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 139,
+  "canonical_root_model_count": 140,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal.",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only. Fresh2026-10-17 exact PE100 hardware discovery adds one portable desktop multi-effects:127 active,127 root-canonical,0 legacy-only. G3Xn exact Shopee hardware discovery adds one:128 active,128 root-canonical,0 legacy-only. Fresh2026-10-17 exact G5n Shopee hardware discovery adds one:129 active,129 root-canonical,0 legacy-only. Fresh2026-10-17 exact G3n hardware discovery adds one:130 active,130 root-canonical,0 legacy-only. Fresh2026-10-17 B3n exact hardware discovery adds one bass model:131 active,131 root-canonical,0 legacy-only;12 bass-focused plus47shared=59bass. Fresh2026-10-17 A1 FOUR exact hardware discovery adds one acoustic processor:132 active/root-canonical;111guitar,60bass(12focused48shared),17vocal. Fresh2026-10-17 originalMS-60B exact hardware discovery adds one bass-focused model:133active/rootcanonical;111guitar,61bass(13focused48shared),17vocal. A1X FOUR exact Shopee discovery adds one separate expression-equipped acoustic processor:134active/rootcanonical;112guitar,62bass(13focused49shared),17vocal. OriginalMS-50G exact Shopee discovery adds one distinct guitar processor:135active/rootcanonical;113guitar,62bass(13focused49shared),17vocal;plusnotcounted. OriginalMS-70CDR exact Shopee discovery adds one distinct guitar/bass processor:136active/rootcanonical;114guitar,63bass(13focused50shared),17vocal;plusnotcounted. ExactMS-70CDR+ hardware discovery adds distinct MS-70CDR Plus:137active/rootcanonical;115guitar,64bass(13focused51shared),17vocal;originalretainedseparately. ExactMS-60B+ Shopeehardwarediscovery adds distinct bass-focused MS-60B Plus:138active/rootcanonical;115guitar,65bass(14focused51shared),17vocal. ExactB1on hardwarediscovery adds distinct bass-focused non-expressionmodel:139active/rootcanonical;115guitar,66bass(15focused51shared),17vocal. Exact ME-80 Shopee hardware discovery adds one distinct guitar processor:140active/root-canonical;116guitar,66bass,17vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Cross-brand bass discovery after B1on",
-    "task": "B1on saved separately fromB1Xon;noownershipinference. Continue cross-brand/series ShopeeIndonesia discovery ormanufacturer gaps,committing eachmodel beforethenext.",
+    "model": "Cross-brand discovery after BOSS ME-80",
+    "task": "ME-80 partial record saved; continue fresh Shopee Indonesia discovery by brand/series or resolve manufacturer gaps; commit each model before next.",
     "next_models": [],
-    "after_queue": "DigiTechBP90/BP355 initialqueryreturnednoexactIndonesianShopeeoffer;notunavailabilityproof. B1onpartial75/100,pedalcopyandcontrolgapsremain."
+    "after_queue": "DigiTech RP360 and MOOER GE300 Lite initial queries did not establish exact Indonesian Shopee offers; foreign-region hits do not prove local availability or absence."
   },
   "new_findings": [
     {
@@ -1206,6 +1206,56 @@
         "acousticsim",
         "looperundo/persistence/trails",
         "currentused/newcondition"
+      ]
+    },
+    {
+      "model": "BOSS ME-80",
+      "path": "BOSS.md#me-80",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "classification": "guitar; bass suitability unclassified",
+      "sources": [
+        "https://www.boss.info/us/products/ME-80/",
+        "https://www.boss.info/fi/products/me-80/",
+        "https://www.roland.com/us/company/press_releases/2014/1771/",
+        "https://cdn.roland.com/assets/media/pdf/ME-80_Training_Guide.pdf",
+        "https://static.roland.com/assets/media/pdf/ME-80_egfispd03_W.pdf",
+        "https://support.roland.com/hc/en-us/articles/201978419-ME-80-Manual-Mode-and-Memory-Patch-Mode",
+        "https://support.roland.com/hc/en-us/articles/115001681366-ME-80-EFFECTS-CHAIN-PEDAL-ORDER-NOISE-SUPPRESSOR",
+        "https://support.roland.com/hc/en-us/articles/201978459-ME-80-Recommended-Power-Adapter",
+        "https://support.roland.com/hc/en-us/articles/115005533006-ME-80-Connecting-to-Computer",
+        "https://support.roland.com/hc/en-us/articles/24300263324955-ME-80-Does-the-audio-signal-input-to-the-AUX-IN-jack-output-through-the-USB",
+        "https://support.roland.com/hc/en-us/articles/4404885594779-ME-80-Can-I-save-to-the-unit-the-phrase-I-created-with-Phrase-Loop"
+      ],
+      "offers": [
+        {
+          "url": "https://shopee.co.id/ALAT-MUSIK-Boss-ME-80-Multi-Effects-Pedal-i.78230612.2847274757",
+          "seller": "Awlind Music Official",
+          "shop": "78230612",
+          "item": "2847274757",
+          "idr": 4992000,
+          "condition": "unverified",
+          "stock": "unverified",
+          "location": "Kota Bandung",
+          "access": "Two-month cached index; August delivery stale",
+          "bundle_warranty_shipping_tax_voucher": "unverified"
+        }
+      ],
+      "conflicts": [
+        "Training guide COMP/FX1 overview eleven versus nine-item end list; indexed manual eleven including Ring Mod/AC SIM"
+      ],
+      "unresolved": [
+        "button count",
+        "full manual category reconciliation",
+        "factory-filled user count",
+        "display details",
+        "weight battery basis",
+        "power voltage/polarity/USB",
+        "IR/NAM/capture",
+        "dedicated synth",
+        "drums/scenes/looper limits",
+        "current OS compatibility",
+        "qualified used/new offers"
       ]
     }
   ],
@@ -19584,7 +19634,8 @@
       "VE-8",
       "VE-20",
       "GM-800",
-      "GT-100"
+      "GT-100",
+      "ME-80"
     ],
     "CUVAVE": [
       "H8"
@@ -19893,7 +19944,8 @@
       "GX-100",
       "GT-1000",
       "GM-800",
-      "GT-100"
+      "GT-100",
+      "ME-80"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -19931,7 +19983,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 115,
+      "record_count": 116,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -36834,16 +36886,16 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 139,
-    "canonical_root_models": 139,
+    "unique_brand_model_pairs": 140,
+    "canonical_root_models": 140,
     "legacy_only_models": 0,
-    "guitar_view_models": 115,
-    "bass_focused_models": 13,
+    "guitar_view_models": 116,
+    "bass_focused_models": 15,
     "vocal_only_models": 9,
     "vocal_view_models": 17,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "bass_view_models": 66,
     "bass_shared_models": 51,
     "comparison_tables_per_instrument": 4,
@@ -36869,7 +36921,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Cross-brand bass discovery after B1on."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Cross-brand discovery after BOSS ME-80."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -36888,6 +36940,7 @@
       "BOSS::VE-8",
       "BOSS::GM-800",
       "BOSS::GT-100",
+      "BOSS::ME-80",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Fender::Tone Master Pro",
@@ -37320,6 +37373,13 @@
     },
     "BOSS::GT-100": {
       "link": "BOSS.md#gt-100",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::ME-80": {
+      "link": "BOSS.md#me-80",
       "source_files": [
         "BOSS.md"
       ],
@@ -44587,5 +44647,15 @@
     "digitech": "No exact Indonesian ShopeeBP90/BP355 offer established;TaiwanShopeeBP355 andBlibli results are not IndonesianShopee evidence. Do not infer unavailability orcoveragecomplete.",
     "selected": "Zoom B1on exact hardware",
     "foreign_lead": "https://shopee.tw/Digitech-BP355-Bass-%E5%9C%B0%E6%9D%BF%E5%9E%8B-%E7%B6%9C%E5%90%88-%E6%95%88%E6%9E%9C%E5%99%A8-%E5%94%90%E5%B0%BC%E6%A8%82%E5%99%A8--i.163056973.2871248760"
+  },
+  "discovery_guitar_me80": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site.shopee.co.id Digitech RP360",
+      "site.shopee.co.id Mooer GE300 Lite",
+      "site.shopee.co.id Boss ME 80"
+    ],
+    "selected": "BOSS ME-80",
+    "other_results": "No exact Indonesian offer established for RP360 or GE300 Lite; do not infer unavailability."
   }
 }

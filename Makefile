@@ -1167,3 +1167,7 @@ research-commit-ms60bplus:
 .PHONY: research-commit-b1on
 research-commit-b1on:
 	python3 scripts/research_tools.py commit-b1on
+
+.PHONY: research-commit-me80
+research-commit-me80:
+	python3 scripts/research_tools.py commit-me80
