@@ -222,17 +222,17 @@ Guitar multi-effects with built-in expression, distinct from 1G and 2B. Checked 
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | **Built-in expression**; external and toe switching unverified. | [VOX German product][SL2G-D] |
-| K/F/B | Separate control counts pending exact manual/panel inventory. | Unresolved |
-| Display | Diagonal, technology, color and touch unverified. | Unresolved |
+| Expression | **Built-in expression with pressure switching** of assigned target; wah,volume andeffect parameters. No external EXP socket in complete rear inventory. | [Official IIG manual pp3–6][SL2G-M] |
+| K/F/B | **3 / 2 / 4**, text-derived: CATEGORY,VALUE1/2;UP/DOWN footswitches;EDIT,up/down buttons,expression-setting button. Pedal pressure switch and rear POWER additional. Visual corroboration pending. | [Manual pp4–5][SL2G-M] |
+| Display | Program/value readout plus tuner andexpression LEDs. Diagonal,technology,color andtouch unverified. | [Manual pp4–5][SL2G-M] |
 | Dimensions / mass | **207×125×64 mm W×D×H; 780 g**. English also prints21.72oz, inconsistent with780g; retain conflict. Medium horizontal footprint. | [VOX English][SL2G-E];[German][SL2G-D] |
-| Processing / category choices | **104** advertised total. Category choices: pedal8, amp44, drive18, cabinet12, modulation9, delay8, reverb3, noise reduction1, plus expression/volume. Not104 simultaneous blocks. Japanese page gives series-wide7–8 simultaneous effects includingNR; exact2G accounting pending manual. German list includes UK T75 absent from English's11-name list under12 heading. | [English][SL2G-E];[German][SL2G-D];[Japanese][SL2G-J] |
+| Processing / category choices | **104** advertised total. Category choices: pedal8, amp44, drive18, cabinet12, modulation9, delay8, reverb3, noise reduction1, plus expression/volume. Not104 simultaneous blocks. Exact IIG manual confirms **eight simultaneous effects includingNR**,superseding series-wide7–8 ambiguity. German list includes UK T75 absent from English's11-name list under12 heading. | [English][SL2G-E];[German][SL2G-D];[Japanese][SL2G-J];[Manual p3][SL2G-M] |
 | Factory / user memory | **100 preset +20 user =120**. Initial user fill/write behavior pending. | [VOX German][SL2G-D] |
 | Synth / acoustic | ACOUSTIC in pedal list; dedicated simulation behavior and synth capability unverified. | [VOX German][SL2G-D] |
-| I/O | Mono instrument input; shared stereo OUTPUT/PHONES. Complete inventory/socket sizes pending. | [VOX German][SL2G-D] |
-| Power / battery / USB | **9V DC, approximately200mA;4AA,7.5h alkaline**, optional adapter. Polarity/USB power unverified. English calls battery set included for testing; German excludes batteries: regional bundle conflict. | [VOX German][SL2G-D];[English][SL2G-E] |
+| I/O | Complete rear inventory: **INPUT,shared OUTPUT/PHONES,DC9V andPOWER**. No USB,MIDI,AUX,send/return or externalEXP in inventory. Audio socket sizes pending. | [Manual pp5–6][SL2G-M] |
+| Power / battery / USB | **9V DC, approximately200mA;4AA,7.5h alkaline**, optional adapter. Polarity unverified; noUSB socket,so noUSB operation. English calls battery set included for testing; German excludes batteries: regional bundle conflict. | [VOX German][SL2G-D];[English][SL2G-E] |
 | IR / NAM / capture | UserIR, native/converted NAM and proprietary capture import unverified. | Unresolved |
-| Editor / software | Editor platforms, drivers and USB functions unverified. | Unresolved |
+| Editor / software | No USB port in complete inventory. Model-specific editor/platform availability unverified. | Unresolved |
 | Looper / drums / live | Tuner A0–E6, reference438–445Hz. Looper, drums, routing, trails and scenes unverified. | [VOX English][SL2G-E] |
 
 ### Separate IDR hardware offers
@@ -250,8 +250,10 @@ Guitar multi-effects with built-in expression, distinct from 1G and 2B. Checked 
 
 [SadewaMusikAudio](https://shopee.co.id/EFEK-DIGITAL-VOX-STOMPLAB-2G-MULTIEFEK-STOMP-LAB-IIG-MULTI-EFEK-II-2-G-i.171167271.23686028621), shop171167271/item23686028621, Kab.Bantul: Rp1,000,000–1,100,000, **Habis**, last-week search index. Lengkap/Unit Only variations have unresolved price mapping; condition/working state unknown.
 
-Both checked2026-10-17. Rp10,000 late-arrival compensation is not a purchase discount; shipping/tax/checkout unknown. Neither is a qualified used/new price. Exact model manual access remains pending; no sibling specifications transferred.
+Both checked2026-10-17. Rp10,000 late-arrival compensation is not a purchase discount; shipping/tax/checkout unknown. Neither is a qualified used/new price. Official 84-page IIG manual EFGSJ1 is now readable;title/introduction explicitly identify StompLab IIG. Control inventory is text-derived;no sibling specifications transferred.
 
 [SL2G-E]: https://voxamps.com/product/stomplab-2g/
 [SL2G-D]: https://voxamps.com/de/produkt/stomplab-2g/
 [SL2G-J]: https://voxamps.com/ja/product/stomplab-2g/
+
+[SL2G-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IIG_OM_EFGSJ1.pdf
