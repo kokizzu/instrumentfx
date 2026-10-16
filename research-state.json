@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 98,
-  "legacy_only_model_count": 28,
+  "canonical_root_model_count": 99,
+  "legacy_only_model_count": 27,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -31,7 +31,7 @@
     "model": "Fresh Shopee discovery — no model selected",
     "task": "Continue fresh Shopee discovery by brand/series, lossless legacy consolidation and unresolved-field research; use current counts.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 28 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 27 legacy-only models."
   },
   "new_findings": [
     {
@@ -6045,6 +6045,81 @@
         "effects/shopee-multifx-5.md"
       ],
       "status": "Consolidated; technical verification remains partial"
+    },
+    {
+      "models": [
+        "MOOER GE150 Plus"
+      ],
+      "model_name": "GE150 Plus",
+      "brand": "MOOER",
+      "destination": "MOOER.md#ge150-plus",
+      "source": "effects/findings/2026-10-15-mooer-ge150-plus.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "MOOER-GE150-PLUS",
+      "source_sha256": "b02165adb37182349c34895332631c87da2bb8c53eb67543f5c7e82058b697d1",
+      "renamed_references": [],
+      "retained_comparison_facts": [
+        {
+          "field": "Simultaneous processing / factory choices",
+          "value": "9 modules; **170 choices including amps/cabs**, category table below",
+          "source": "effects/shopee-multifx-6.md",
+          "context": "Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Presets",
+          "value": "**198 editable,66×3**; factory-filled subset unverified",
+          "source": "effects/shopee-multifx-6.md",
+          "context": "Processing, memory, IR and NAM"
+        },
+        {
+          "field": "IR / captures / NAM",
+          "value": "20 user cab IRs,512 samples,24-bit44.1kHz WAV;20 separate GNR amp slots; **A2 conversion in Plus2.1.3**, not native NAM",
+          "source": "effects/shopee-multifx-6.md",
+          "context": "Processing, memory, IR and NAM"
+        },
+        {
+          "field": "Audio/control ports",
+          "value": "Mono6.35mm input;2×unbalanced6.35mm out;separate3.5mm stereo aux/phones;USB-C;DC",
+          "source": "effects/shopee-multifx-6.md",
+          "context": "Connections, power and applications"
+        },
+        {
+          "field": "Power and battery",
+          "value": "**9V center-negative,300mA published specification;no internal Li battery**. USB powering unverified",
+          "source": "effects/shopee-multifx-6.md",
+          "context": "Connections, power and applications"
+        },
+        {
+          "field": "Software / recording / practice",
+          "value": "Windows/macOS Studio editor;USB/OTG recording/playback,channels unverified;80s stereo looper,40 rhythms+10 metronomes,tuner,globalEQ,trails",
+          "source": "effects/shopee-multifx-6.md",
+          "context": "Connections, power and applications"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx-6.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Model-specific retail evidence",
+          "value": "?",
+          "source": "effects/shopee-multifx-6.md",
+          "context": "Separate IDR evidence"
+        },
+        {
+          "field": "Unresolved marketplace evidence",
+          "value": "Saved mixed Plus/Plus Li preorder could not reopen; no per-variant price assigned",
+          "source": "effects/shopee-multifx-6.md",
+          "context": "Separate IDR evidence"
+        }
+      ],
+      "link_normalizations": {},
+      "supporting_sources": [
+        "effects/shopee-multifx-6.md"
+      ],
+      "status": "Consolidated; technical verification remains partial"
     }
   ],
   "discovery_leads": [
@@ -6301,7 +6376,8 @@
       "GE100 Pro Li",
       "GE200 Pro",
       "GE200 Pro Li",
-      "GE150 Pro"
+      "GE150 Pro",
+      "GE150 Plus"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -6438,7 +6514,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "28 legacy-only models remain;98 root-canonical. Full migration and research incomplete.",
+    "warning": "27 legacy-only models remain;99 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -6508,8 +6584,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 98,
-    "legacy_only_models": 28,
+    "canonical_root_models": 99,
+    "legacy_only_models": 27,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -7309,10 +7385,9 @@
       ]
     },
     "MOOER::GE150 Plus": {
-      "link": "effects/findings/2026-10-15-mooer-ge150-plus.md",
+      "link": "MOOER.md#ge150-plus",
       "source_files": [
-        "effects/findings/2026-10-15-mooer-ge150-plus.md",
-        "effects/shopee-multifx-6.md"
+        "MOOER.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-15-mooer-ge150-plus.md"

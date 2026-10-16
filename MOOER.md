@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. Six previously researched GE models still require complete consolidation; the original GE models and consolidated Pro variants are below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. Five previously researched GE models still require complete consolidation; the original GE models and consolidated Plus/Pro variants are below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -917,3 +917,79 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Original model commit** (IDR observations and original commits): `be016fb50f1df0642ef1c06890a19a3ba3574fb7`
 
 Sources: [effects/findings/2026-10-14-mooer-ge150-pro.md](effects/findings/2026-10-14-mooer-ge150-pro.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
+
+## GE150 Plus
+
+Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- MOOER-GE150-PLUS source begins -->
+
+**Checked 2026-10-15. Partial, eligible guitar multi-effects.** Not original GE150, GE150 Pro or Plus Li. Unresolved fields remain explicit. The companion Li specification is used only where the manufacturer expressly identifies shared hardware/functions.
+
+### Hardware and display
+
+| Field | Finding / source |
+|---|---|
+| Expression | Built-in volume/expression with toe switch; no external EXP socket in the complete connector inventory [M,J] |
+| Knobs / footswitches / buttons | **3 / 3 / 6**: MASTER, SELECT, MODE; A/B/C; PLAY, SAVE, EXP, TAP, RHYTHM, SYSTEM. Encoder presses count once; rear power and toe switches separate [M] |
+| Screen | **2.8-inch color LCD**. The actual manual's parameter-editing instructions explicitly describe green selection backgrounds and the looper describes red onscreen progress bars. This is screen-color evidence, not inferred from status LEDs. **Touchscreen specification remains unverified**; retailer touch wording is not promoted to primary verification [M] |
+| Dimensions / mass | Manual: **256×145×54 mm L×W×H, 860 g**. Japanese official product page: **255.7×142.4×34.4 mm, 926 g**. Conflict unresolved; do not average or mix these values [M,J] |
+| Size bin | Definitely not compact. Normal playing-width/depth mapping needs authoritative confirmation for a strict medium classification; keep axis caveat rather than rotate to force a fit |
+
+### Effects, storage and loading
+
+| Field | Finding / source |
+|---|---|
+| Simultaneous processing | **9 modules**, one chosen effect per module; no evidence of freely duplicating arbitrary blocks [J,M] |
+| Category counts | **FX12, drive28, amp55, cabinet26, noise suppression3, EQ4, modulation25, delay9, reverb8 = 170**. Calculated from the actual manual appendix; includes amps/cabs, excludes empty import slots [M] |
+| Presets | **198 editable locations, 66 banks×3**. Factory-filled count not independently established; not 198 factory plus 198 extra user slots [M] |
+| Synth / acoustic | No dedicated synthesizer or electric-to-acoustic simulator identified in the inspected appendix. Three acoustic **amp** models and an acoustic cabinet are present; these are not acoustic conversion [M] |
+| IR | **20 user cabinet slots**, 512-sample, 24-bit/44.1-kHz WAV. Twenty separate GNR amp slots; GIR/MNRS and WAV imports are distinguished [M,D] |
+| NAM | **A2 conversion/import with Plus V2.1.3**, according to the August 2026 global release notes. Not native loading. AMP module only; preamp/pedal versus entire-amp captures have separate import destinations [D,N] |
+| Proprietary captures | MNRS GNR/GIR playback; no onboard capture-creation claim established [M,J] |
+
+### Ports, power, software and live use
+
+| Field | Finding / source |
+|---|---|
+| Audio | 1×6.35-mm mono input; 2×6.35-mm unbalanced mono outputs; separate 3.5-mm stereo headphones and aux [M] |
+| Data/control | USB-C editing/update/audio/OTG and DC input. No XLR, microphone/phantom, external FX loop, external EXP or physical DIN/TRS MIDI in complete panel inventory [M] |
+| Power | **9 V DC center-negative, published 300 mA specification**. Standard model has no internal Li battery. USB-powered operation not established; USB audio is not proof of bus power [M,J] |
+| Apps | Full **Windows/macOS MOOER Studio** editing, backup and import. Global update page lists Win10+/macOS10.13+; older manual lists macOS10.11+. Preserve installer/revision differences. No verified mobile/Linux full editor [M,D] |
+| Audio interface | USB/OTG recording and playback documented; exact channel count and computer-driver details remain unverified [M] |
+| Practice/live | **80-second stereo looper**, 40 rhythms +10 metronomes, tuner, global EQ, output-selective cab bypass and conditional delay/reverb spillover between compatible patches [M,J] |
+
+### IDR price and Shopee evidence
+
+**Verified current used IDR: ?; verified model-specific new IDR: ?.** The saved [Shopee mixed Plus/Plus Li preorder item 57810886739, shop1696008947](https://shopee.co.id/Mooer-GE150-Plus-GE150-Plus-Li-Compact-Guitar-Pedal-Multi-Effects-Processor-Preamp-Cab-Sim-Reverb-i.1696008947.57810886739) could not be reopened. Its earlier mixed-variant amount is not assigned to this non-Li model. New targeted searches did not yield a dependable exact current offer. This is an access/evidence limitation, not proof of Indonesian unavailability. No guessed secondhand discount or FX conversion is used.
+
+### Sources and inspection limits
+
+[M] MOOER-authored Plus/Plus Li Owner's Manual, [actual PDF](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416.pdf), [HTML transcription](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416). Read numbered controls, connector definitions, save operations, specifications and the complete effect appendix. Color confirmed from original Parameter editing and Looper instructions, not the mirror's generated diagram descriptions. PDF screenshots failed with cache-miss errors; no visual inspection is claimed.
+
+[J] [Official Japanese Plus page](https://mooer.jp/products/mooer-ge150plus). Its erroneous dynamic-range lines repeat maximum-level values; those are not copied as measured dynamic range.
+
+[D] [Global GE150 Plus/Pro/Max downloads and release notes](https://www.mooeraudio.com/Downloads_xq/6.html), indexed primary text; global and China installers have different version/minimum-OS listings and are not assumed interchangeable.
+
+[N] [Manufacturer August 2026 NAM roadmap](https://www.mooeraudio.com/news/29.html).
+
+[G] [Global Plus/Plus Li product page](https://www.mooeraudio.com/products/236.html), indexed manufacturer description; direct fetch returned403.
+
+**Correction 2026-10-15:** color display is now established from the manual, replacing the earlier unknown. Keep physical-specification conflict, touch, USB power/channels and current used/new prices open. Other queued GE150 variants have their own findings; do not repeat or count this correction as a new model.
+<!-- MOOER-GE150-PLUS source ends -->
+
+### GE150 Plus — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **Simultaneous processing / factory choices** (Processing, memory, IR and NAM): 9 modules; **170 choices including amps/cabs**, category table below
+- **Presets** (Processing, memory, IR and NAM): **198 editable,66×3**; factory-filled subset unverified
+- **IR / captures / NAM** (Processing, memory, IR and NAM): 20 user cab IRs,512 samples,24-bit44.1kHz WAV;20 separate GNR amp slots; **A2 conversion in Plus2.1.3**, not native NAM
+- **Audio/control ports** (Connections, power and applications): Mono6.35mm input;2×unbalanced6.35mm out;separate3.5mm stereo aux/phones;USB-C;DC
+- **Power and battery** (Connections, power and applications): **9V center-negative,300mA published specification;no internal Li battery**. USB powering unverified
+- **Software / recording / practice** (Connections, power and applications): Windows/macOS Studio editor;USB/OTG recording/playback,channels unverified;80s stereo looper,40 rhythms+10 metronomes,tuner,globalEQ,trails
+- **Used IDR** (Separate IDR evidence): ?
+- **Model-specific retail evidence** (Separate IDR evidence): ?
+- **Unresolved marketplace evidence** (Separate IDR evidence): Saved mixed Plus/Plus Li preorder could not reopen; no per-variant price assigned
+
+Sources: [effects/findings/2026-10-15-mooer-ge150-plus.md](effects/findings/2026-10-15-mooer-ge150-plus.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.

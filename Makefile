@@ -341,3 +341,11 @@ consolidation-apply-ge150-pro:
 	python3 scripts/consolidation_tools.py apply ge150-pro
 consolidation-commit-ge150-pro:
 	python3 scripts/consolidation_tools.py commit ge150-pro
+
+.PHONY: consolidation-plan-ge150-plus consolidation-apply-ge150-plus consolidation-commit-ge150-plus
+consolidation-plan-ge150-plus:
+	python3 scripts/consolidation_tools.py plan ge150-plus
+consolidation-apply-ge150-plus:
+	python3 scripts/consolidation_tools.py apply ge150-plus
+consolidation-commit-ge150-plus:
+	python3 scripts/consolidation_tools.py commit ge150-plus
