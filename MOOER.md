@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. Nine previously researched GE models still require complete consolidation; original GE100,GE150,GE200,GE150 Pro Li,GE100 Pro and GE100 Pro Li are consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. Eight previously researched GE models still require complete consolidation; the original GE models and consolidated Pro variants are below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -682,3 +682,83 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Separate local retailer / qualification** (Separate IDR evidence): Blibli LOBAJET **Rp3.499.000 explicitly Mandarin version**; not an English/global Shopee price
 
 Sources: [effects/findings/2026-10-14-mooer-ge100-pro-li.md](effects/findings/2026-10-14-mooer-ge100-pro-li.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
+
+## GE200 Pro
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- MOOER-GE200-PRO source begins -->
+
+Reviewed **2026-10-14**. **Partial**, eligible guitar multi-effects. Separate from original GE200, GE200 Pro Li and GE200 Plus. Sources identify both Pro variants explicitly; battery specifications are not transferred to the non-Li model.
+
+### Required fields
+
+| Field | Evidence / unknown |
+|---|---|
+| Expression | Built-in EXP1 with assignable **toe switch**; external EXP2 through one 1/4-inch TRS socket, documented 10–100 kOhm pedal range [M,J] |
+| Knobs / footswitches / buttons | **2 / 5 / 7 plus module-button row**. MASTER/SELECT; BANK up/down,A/B/C; HOME,SAVE,EXP,SYSTEM,GLB-EQ,CTRL,GROOVE STATION. Total module-row button count **?** pending visual check. Toe and rear switches separate [M,J] |
+| Display | **3.5-inch color LCD**; explicit touchscreen specification **?** [P,J] |
+| Dimensions / weight | **324×162×58 mm, manufacturer L×W×H;1.6 kg**. Large under the defined footprint test in either horizontal orientation. Maximum pedal-up height **?** [MOOER-GE200-PRO-M] |
+| Architecture | **11 module types**, movable chain, DSP-use limits; includes FX LOOP utility, not eleven unrestricted copies of arbitrary algorithms [MOOER-GE200-PRO-M] |
+| Category choices | Inspected original appendix: **FXA35,DS/OD28,POWERAMP9,EQ6,FXB38,DELAY11,REVERB9**. FXA/FXB share some algorithms. AMP/CAB/NS detailed counts not independently transcribed in this pass [MOOER-GE200-PRO-M] |
+| Model-total disagreement | Global launch page advertises **286**. Japanese regional copy lists **100 amps,9 power amps,77 cabs,114 effects**, with different inclusion/firmware context not resolved. Do not sum a supposedly unique current grand total [P,J] |
+| Presets | **255 locations=85 banks×3**, editable; factory-filled/dedicated user split **?** [M,P] |
+| Synth / acoustic simulator | Not established in this pass; absence of matching names in the older appendix is not a current-firmware exclusion |
+| Audio I/O | **One mono** 1/4-inch instrument input; one mono send and return;2×1/4-inch unbalanced outputs;2×balanced XLR outputs;3.5mm stereo headphones. No mic/phantom or analog aux input in the full connector list [MOOER-GE200-PRO-M] |
+| MIDI / USB | **One 5-pin DIN socket, selectable MIDI IN or OUT**, not two sockets. USB-C supports USB-MIDI and **2-in/2-out,24-bit/44.1kHz** audio, dry/wet recording and reamp [M,J] |
+| Power | **9V DC,1A supply,center-negative**. No internal battery on non-Li Pro. USB-powered operation not established; USB audio does not prove bus power [M,J] |
+| IR / proprietary imports | **20 user IR slots,up to2048 samples,WAV44.1kHz/24-bit**; separate **20 MNRS amp-model slots**. GE Labs sampling/import workflow is not onboard capture [P,M] |
+| NAM | Manufacturer **GE200 Pro-family NAM A2 conversion**, not unrestricted native loading. Exact minimum firmware, architecture and region restrictions remain **?** [MOOER-GE200-PRO-N] |
+| Computer editor | MOOER Studio **Windows/macOS** full editing. Older manual gives Win10+/macOS10.11+; current Chinese-region download page instead gives Win10+/macOS10.15+ for updating. Preserve version/region distinction; do not substitute another model's installer [M,D] |
+| Mobile software | MOOER Cloud **iOS/Android** preset/sample management supported; independent verification of full mobile parameter editing **?**. Current iOS listing requires15.6+; Android minimum **?** [A,G,M] |
+| Other features | **60s looper,70 drum patterns**, synchronized Groove Station, tuner,tap tempo,global EQ,Bluetooth audio,documented delay/reverb trails. FX-loop serial/parallel routing is not proof of two independent complete internal chains [P,J,M] |
+
+### IDR evidence
+
+| Condition / channel | Amount | Qualification |
+|---|---:|---|
+| Shopee, mixed Pro/Pro Li item [MOOER-GE200-PRO-S] | **? per model** | Saved discovery was Rp5.950.000–Rp6.950.000, but the exact variant-price mapping was not established; direct reopening failed. Not a GE200 Pro price range |
+| Indonesian retailer: Galeri Musik Indonesia [MOOER-GE200-PRO-R] | **Rp5.800.000** | Current indexed page marks available. This is a retailer observation, **not Shopee checkout evidence**; shipping, accessories and final stock not verified |
+| Used | **?** | No condition-verified used offer obtained |
+
+The separately found Rp6.896.000 Shopee hardware offer is explicitly **Pro Li** and is not assigned to this model. No foreign conversion, voucher deduction or percentage-of-new used estimate is used.
+
+### Evidence limitations
+
+[MOOER-GE200-PRO-M] is the manufacturer-authored owner's manual transcription, beginning after the mirror's generated introduction/FAQ. Actual contents and appendix sections were read; the linked PDF could not be opened/rendered, so no visual control-count verification is claimed. Its original algorithm inventory is not represented as a tested October2026 firmware inventory. [MOOER-GE200-PRO-J] has mixed Pro/Li introductory copy; variant-specific power/weight use the explicitly separated manual specifications. Global product wording about stereo I/O does not override the manual's **single mono instrument input**.
+
+[MOOER-GE200-PRO-M]: https://device.report/manual/14206389
+[MOOER-GE200-PRO-P]: https://www.mooeraudio.com/products/205.html
+[MOOER-GE200-PRO-J]: https://mooer.jp/products/mooer-ge200pro
+[MOOER-GE200-PRO-N]: https://www.mooeraudio.com/news/29.html
+[MOOER-GE200-PRO-D]: https://cn.mooeraudio.com/Downloads_xq/3.html
+[MOOER-GE200-PRO-A]: https://apps.apple.com/id/app/mooer-cloud/id6471785934
+[MOOER-GE200-PRO-G]: https://play.google.com/store/apps/developer?hl=en&id=MOOER
+[MOOER-GE200-PRO-S]: https://shopee.co.id/Mooer-GE200-PRO-GE-200-PRO-GE200-PRO-Li-Amp-Modeling-Multi-Effects-Processor-i.3012339.46856067378
+[MOOER-GE200-PRO-R]: https://galerimusikindonesia.com/product/mooer-ge200-pro-guitar-multi-effects-processor-id/
+
+Next: **GE200 Pro Li**; verify its battery, supply, mass and exact Shopee offer separately. Resolve the module-button count, touch status, current category totals, firmware restrictions and used prices before declaring full verification.
+<!-- MOOER-GE200-PRO source ends -->
+
+### GE200 Pro — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **K/F/B** (Hardware, expression and display): **2/5/7 + module-button row**; complete button total ?
+- **External expression / toe switch** (Hardware, expression and display): EXP2 TRS; built-in toe switch yes
+- **Published dimensions, mm; weight** (Hardware, expression and display): **324×162×58 (L×W×H);1.6kg**
+- **Size classification** (Hardware, expression and display): Large under either horizontal orientation
+- **Display** (Hardware, expression and display): **3.5-inch color LCD; touch ?**
+- **Blocks and category choices** (Processing, memory and loading): **11 module types**, DSP-limited chain including FX LOOP. Original appendix: **FXA35,DS/OD28,POWERAMP9,EQ6,FXB38,DELAY11,REVERB9**. AMP/CAB/NS exact appendix subtotals not independently transcribed
+- **Presets** (Processing, memory and loading): **255=85×3**; editable, factory-filled split ?
+- **IR / NAM / proprietary models** (Processing, memory and loading): **20 user IRs up to2048 samples**, WAV44.1kHz/24-bit;20 separate MNRS amp slots; **NAM A2 conversion**
+- **Synth / acoustic simulator** (Processing, memory and loading): Current algorithms ?
+- **Audio and control ports** (Ports, power and software): **One mono input**,mono send/return;2×1/4-inch and2×XLR out;3.5mm phones;EXP2;**one DIN socket selectable IN/OUT**;USB-C
+- **Power / battery** (Ports, power and software): **9V/1A center-negative**; no internal Li battery; USB-powered operation ?
+- **Configuration and recording** (Ports, power and software): Studio Windows/macOS;Cloud iOS/Android preset/sample management,full mobile editing ?. **USB2-in/2-out24-bit44.1kHz**, MIDI,dry/wet,reamp
+- **Practice/live** (Ports, power and software): **60s looper;70 rhythms**,sync,tuner,tap,globalEQ,FX-loop serial/parallel,delay/reverb trails
+- **Used IDR** (Separate IDR evidence): ?
+- **Shopee retail/indexed evidence** (Separate IDR evidence): **? per variant**; earlier mixed Pro/Pro Li item cannot supply a model-specific range
+- **Separate local retailer / qualification** (Separate IDR evidence): GMI **Rp5.800.000**, indexed available; not Shopee checkout evidence
+
+Sources: [effects/findings/2026-10-14-mooer-ge200-pro.md](effects/findings/2026-10-14-mooer-ge200-pro.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
