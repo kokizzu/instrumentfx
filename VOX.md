@@ -79,3 +79,42 @@ Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass s
 [TLST-M]: https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf
 [TLST-P]: https://voxamps.com/en-gb/product/tonelab-st/
 [TLST-S]: https://shopee.co.id/vox-tonelab-st-i.94150896.21882548072
+
+## ToneLab SE
+
+Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | **Two built-in expression pedals**;toe switching unverified. External EXP absent from complete ports. | [Manual pp1,63][TLSE-M] |
+| K/F/B | Separate knob,footswitch,button counts pending. | Unresolved |
+| Display | Diagonal,technology,color,touch unverified. | Unresolved |
+| Dimensions / mass | **710×249×76mm WDH;6.2kg**; large. | [Manual p63][TLSE-M] |
+| Processing / category choices | Amp16;cabinet11;pedal16;modulation11;delay11;reverb11;noise reduction1. One per effect category concurrently; full simultaneous-block count pending. 12AX7/ECC83 Valve Reactor. | [Manual pp1,63][TLSE-M] |
+| Factory / user memory | **96 writable memories**,24×4;32 factory programs repeated across three eight-bank groups. | [Manual piv,p1][TLSE-M] |
+| Synth / acoustic | Detailed synth/acoustic verification pending; ACOUSTIC is mentioned in troubleshooting. | [Manual p62][TLSE-M] |
+| I/O | INPUT;INSERT SEND/RETURN;two balanced/unbalanced TRS OUTPUTs;PHONES;MIDI IN/OUT;AC input. No USB or S/PDIF in complete inventory. | [Manual p63][TLSE-M] |
+| Power / battery / USB | **9V AC;18W consumption**. Included3.0A supply rating is not measured draw. DC polarity inapplicable;battery unverified;noUSB. | [Manual p63][TLSE-M] |
+| IR / NAM / capture | User IR,native/converted NAM,capture loading unverified. | Unresolved |
+| Editor / software | **ToneLabSE Sound Editor** edits/manages programs;platforms/current support unverified. No ST software inference. | [Manual p2][TLSE-M] |
+| Looper / drums / live | A/B switches stored amp,cabinet,noise-reduction combinations within a program. Looper,drums,scenes,trails unverified. | [Manual p1][TLSE-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; exact offer lacks condition evidence. | — |
+| New | Unknown; exact offer lacks condition evidence. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified sold-out Shopee hardware
+
+[Exact SE item][TLSE-S],**Rp3,850,000**,**Habis/sold out**,BANKO MUSIC STORE,shop1452686572/item41751511183,Kab.Bandung. Checked2026-10-17; exact HTML opened,last-month cache,26Aug delivery stale. Condition,working state,variant,adapter/bundle,warranty unverified. Rp10,000 late-arrival compensation not discount;shipping/tax/checkout unknown. Excluded from used/new prices;not live stock or completed sale.
+
+Manufacturer-hosted Japanese J1 manual viewed as browser text;printed pagination differs from PDF index. No manual/software/dependencies saved or installed. Controls,display,algorithm detail,modern software support and import/power/live restrictions remain unresolved.
+
+[TLSE-M]: https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf
+[TLSE-S]: https://shopee.co.id/Multi-FX-VOX-Tonelab-SE-Twin-Pedal-Multi-Effect-i.1452686572.41751511183
