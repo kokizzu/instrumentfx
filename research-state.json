@@ -7,8 +7,8 @@
   "active_model_count": 126,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 111,
-  "legacy_only_model_count": 15,
+  "canonical_root_model_count": 112,
+  "legacy_only_model_count": 14,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted. Helix LT exact Shopee hardware discovery adds one:125 active,82 canonical,43 legacy-only. GT-100 exact Shopee discovery adds one:126 active,83 canonical,43 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "IK Multimedia TONEX ONE — complete legacy consolidation",
-    "task": "Read complete advanced-modelers source and all model-specific records for TONEX ONE. Preserve20-versus30 preset contradiction and original firmware/software dates; verify model-specific current official evidence and exact Shopee offers, consolidate in root IK-MULTIMEDIA.md and commit before TONEX Pedal. Continue remaining legacy models and fresh discovery.",
+    "model": "IK Multimedia TONEX Pedal — complete legacy consolidation",
+    "task": "Read complete TONEX Pedal legacy rows and supporting original comparison. Consolidate in existing IK-MULTIMEDIA.md without losing firmware-qualified effects, prices or source URLs. Verify model-specific bass use and current official/manual/Shopee evidence; commit before another model. Continue remaining legacy models and fresh discovery.",
     "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 15 legacy-only models."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of 14 legacy-only models."
   },
   "new_findings": [
     {
@@ -7709,6 +7709,125 @@
         "https://www.thomannmusic.com/zoom_b6.htm"
       ],
       "status": "Consolidated, partial; primary controls/display and qualified IDR offers added; indexed manual access limits explicit"
+    },
+    {
+      "models": [
+        "IK Multimedia TONEX ONE"
+      ],
+      "model_name": "TONEX ONE",
+      "brand": "IK Multimedia",
+      "destination": "IK-MULTIMEDIA.md#tonex-one",
+      "source": "effects/advanced-modelers.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-model-rows-v1",
+      "source_sha256": "1299f5d02d73f1bc372aab883458d28edb739ad4c4a8149f98cc7f6d9bebcec7",
+      "retained_comparison_facts": [
+        {
+          "field": "External expression",
+          "value": "No dedicated EXP socket established",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "K/F/B",
+          "value": "**4/1/1** [photo]",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "W×D×H; weight",
+          "value": "**48×94×53**, 160 g",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Size class",
+          "value": "Compact",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Used USD",
+          "value": "?",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "New USD observation",
+          "value": "$199.99, official indexed listing [P2]",
+          "source": "effects/advanced-modelers.md",
+          "context": "No built-in expression pedal"
+        },
+        {
+          "field": "Simultaneous processing / available choices",
+          "value": "Tone Model playback plus gate, compressor, EQ and reverb; page mentions delay/modulation through software, but exact current onboard algorithm/slot limits need matching firmware documentation",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "Preset storage",
+          "value": "**Official-page conflict: 30 in marketing, 20 in specifications**; do not silently pick one",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "Synth / acoustic functions",
+          "value": "Amp/cab/pedal captures are not a general synth engine; acoustic simulator ?",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "Third-party IR",
+          "value": "Dedicated third-party import workflow not yet verified here",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "NAM / proprietary capture",
+          "value": "**Proprietary TONEX Tone Models**; NAM compatibility not established",
+          "source": "effects/advanced-modelers.md",
+          "context": "Processing, presets, IR and capture formats"
+        },
+        {
+          "field": "Audio/control ports",
+          "value": "Instrument in, shared stereo output/headphone workflow and USB-C; exact jack specifications pending",
+          "source": "effects/advanced-modelers.md",
+          "context": "Connections, power, software and live use"
+        },
+        {
+          "field": "Power; battery/USB-powered?",
+          "value": "**9 V/120 mA OR USB-C**; polarity not verified here; no internal battery established",
+          "source": "effects/advanced-modelers.md",
+          "context": "Connections, power, software and live use"
+        },
+        {
+          "field": "Configuration apps and USB functions",
+          "value": "TONEX software/editor computer workflow; exact OS-version requirements need linked software specification; USB audio **24-bit/44.1 kHz**",
+          "source": "effects/advanced-modelers.md",
+          "context": "Connections, power, software and live use"
+        },
+        {
+          "field": "Other important differences",
+          "value": "One footswitch with A/B or bypass workflow; no dedicated expression socket established",
+          "source": "effects/advanced-modelers.md",
+          "context": "Connections, power, software and live use"
+        }
+      ],
+      "retained_context": [
+        "Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Native NAM, architecture-limited NAM, converted NAM, proprietary captures and cabinet IRs are different capabilities. An effects-only unit is not necessarily an amp modeler.",
+        "K/F/B = rotary controls / footswitches / separate buttons. Push-encoders are counted once. Nano Cortex's rotary footswitches are explicitly called out rather than hidden in the knob count. Dimensions are **W×D×H, mm**. Prices are separate **USD** new and used observations; missing used prices have not been invented.",
+        "**TONEX ONE's 20-versus-30 preset disagreement** occurs on the same checked official page. It remains unresolved here; no unsupported firmware explanation is invented. TONEX ONE+, TONEX Pedal Bass Edition and other variants should not be substituted silently for the named hardware.",
+        "USB audio input/output counts use the manufacturer's interface convention. A capture microphone connector does not establish a dedicated live vocal-effects path. Do not connect an amplifier's speaker output directly to an instrument/capture input; the appropriate load/interface is required.",
+        "- P2: [TONEX ONE official indexed listing](https://www.ikmultimedia.com/products/tonexone/), $199.99 observation checked **2026-10-14**. The corresponding unprefixed product page did not expose a price in extracted text, so this is an indexed observation rather than confirmed checkout pricing."
+      ],
+      "retained_source_urls": [
+        "https://ikmultimedia.com/products/tonexone",
+        "https://www.ikmultimedia.com/products/tonexone/",
+        "https://ikmultimedia.com/cdn/shop/files/TONEX_ONE_MG_3569_r2.jpg?v=1783342577&width=1100"
+      ],
+      "manual_source": "https://www.dlxmusic.no/storage/C4DD59BE093554E6A03FCB475D76A724779D0AC890B654D94F944E14CE1A904F/b7557a90e3bd4196a7a49786bb2d0bc0/pdf/media/f5a0f1b04f054ed4b4182b51109983d9/TONEX_ONE_User_Manual.pdf",
+      "manual_revision": "v1.0 rev05 dated2024/03/17",
+      "status": "Consolidated, partial;20/30 contradiction preserved; standard bass membership supported by direct primary documentation"
     }
   ],
   "discovery_leads": [
@@ -7815,6 +7934,16 @@
         "https://shopee.co.id/LINE-6-HX-STOMP-MULTI-EFFECTS-GUITAR-PEDAL-BLACK-i.440477624.23519849983"
       ],
       "qualification": "Used8900000,explicitsecond/preloved,Habis,otnielsusanto Surabaya. Retail11229000,ROCKPIZZ MUSIC Denpasar,staleAugust delivery. Condition/accessories/region/checkout stock unconfirmed."
+    },
+    {
+      "model": "IK Multimedia TONEX ONE",
+      "checked_date": "2026-10-17",
+      "status": "Existing model refreshed; no new unique model",
+      "urls": [
+        "https://shopee.co.id/IK-Multimedia-TONEX-ONE-Stompbox-Modeler-i.16879370.28250929069",
+        "https://shopee.co.id/IK-Multimedia-TONEX-ONE-Amplifier-Cab-Pedal-Modeler-Efek-Gitar-Bass-i.253483262.26851077985"
+      ],
+      "qualification": "Seven Stereo Bandung3420000 exact standard hardware; condition/license/bundle/region/checkout stock unknown. TOKOAUDIOPRO JakartaPusat3550000–4100000 two unspecified variations, excluded from retail comparison until mapping verified."
     }
   ],
   "inventory_by_brand": {
@@ -8130,6 +8259,9 @@
       "GT-1000",
       "GM-800",
       "GT-100"
+    ],
+    "IK-MULTIMEDIA.md": [
+      "TONEX ONE"
     ]
   },
   "instrument_views": {
@@ -8139,9 +8271,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 55,
+      "record_count": 56,
       "bass_focused_record_count": 11,
-      "shared_bass_capable_count": 44,
+      "shared_bass_capable_count": 45,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -8167,7 +8299,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:106 guitar,55 documented bass-capable,17 vocal;full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "15 legacy-only models remain;111 root-canonical. Full migration and research incomplete.",
+    "warning": "14 legacy-only models remain;112 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -8237,8 +8369,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 126,
-    "canonical_root_models": 111,
-    "legacy_only_models": 15,
+    "canonical_root_models": 112,
+    "legacy_only_models": 14,
     "guitar_view_models": 106,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -8246,8 +8378,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-16",
-    "bass_view_models": 55,
-    "bass_shared_models": 44,
+    "bass_view_models": 56,
+    "bass_shared_models": 45,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -8271,7 +8403,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume IK Multimedia TONEX ONE — complete legacy consolidation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume IK Multimedia TONEX Pedal — complete legacy consolidation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -8403,6 +8535,7 @@
       "Hotone::Ampero II Stage MP-380",
       "Hotone::Ampero II Stomp MP-300",
       "Hotone::Ampero One MP-80",
+      "IK Multimedia::TONEX ONE",
       "Line 6::HX Stomp",
       "Line 6::HX Effects",
       "Line 6::HX Stomp XL",
@@ -8460,6 +8593,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "IK Multimedia::TONEX ONE": "Standard TONEX ONE manufacturer announcement24April2024 explicitly identifies guitar/bass rigs; original model manual v1.0rev05 pp.4,32 confirms. Not inferred from Bass Edition or a BASS EQ knob. [Primary announcement](https://www.ikmultimedia.com/news/index.php?id=TonexOneAnnounced).",
     "Line 6::Helix LT": "LT-specific manufacturer comparison chart v1.03 explicitly lists twelve bass amp models and Return1/2 guitar/bass inputs; not sibling inference.",
     "MOOER::GS1000": "Exact manufacturer manual specifies guitar/bass input, ten bass amp models and ten bass cabinet models; regional product confirms bass use.",
     "HeadRush::Prime": "Model-specific manufacturer Prime input/routing and bass library evidence; not inferred from Core.",
@@ -8840,9 +8974,9 @@
       "finding_files": []
     },
     "IK Multimedia::TONEX ONE": {
-      "link": "effects/advanced-modelers.md",
+      "link": "IK-MULTIMEDIA.md#tonex-one",
       "source_files": [
-        "effects/advanced-modelers.md"
+        "IK-MULTIMEDIA.md"
       ],
       "finding_files": []
     },

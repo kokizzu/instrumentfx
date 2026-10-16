@@ -12,6 +12,7 @@ import research_tools
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = Path('/tmp/instrumentfx-consolidation-plan.json')
 MODELS = {
+    'tonex-one': ('TONEX ONE', 'effects/advanced-modelers.md'),
     'hx-stomp': ('HX Stomp', 'effects/advanced-modelers.md'),
     'gp-50': ('GP-50', 'effects/findings/2026-10-14-valeton-gp-50.md'),
     'gp-5': ('GP-5', 'effects/findings/2026-10-14-valeton-gp-5.md'),
@@ -265,7 +266,82 @@ The product page/FAQ still contain six-block wording. Retain the firmware3.0 eig
     print('Plan saved: '+str(PLAN))
 
 
+
+def plan_tonex_one():
+    research_tools.identity()
+    model, source_path = MODELS['tonex-one']
+    brand_file = 'IK-MULTIMEDIA.md'
+    assert not (ROOT/brand_file).exists(), 'Inspect existing brand content before merging'
+    state_text = (ROOT/'research-state.json').read_text()
+    state = json.loads(state_text)
+    assert model not in state['root_brand_content'].get(brand_file, [])
+    comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
+    assert comparison['ledger_hash'] == digest(state_text), 'Run make comparison-plan first'
+    record = comparison['records']['IK Multimedia::TONEX ONE']
+    assert record['link'] == source_path
+    source = (ROOT/source_path).read_text()
+    facts = record['facts']
+    assert all(f['source'] == source_path for f in facts)
+    contexts = [p for p in source.split('\n\n') if p.startswith('Checked **2026-10-14**') or p.startswith('K/F/B =') or p.startswith("**TONEX ONE's 20-versus-30") or p.startswith('USB audio input/output counts')]
+    contexts += [line for line in source.splitlines() if line.startswith('- P2:')]
+    assert len(contexts) == 5
+    urls = ['https://ikmultimedia.com/products/tonexone','https://www.ikmultimedia.com/products/tonexone/','https://ikmultimedia.com/cdn/shop/files/TONEX_ONE_MG_3569_r2.jpg?v=1783342577&width=1100']
+    manual = 'https://www.dlxmusic.no/storage/C4DD59BE093554E6A03FCB475D76A724779D0AC890B654D94F944E14CE1A904F/b7557a90e3bd4196a7a49786bb2d0bc0/pdf/media/f5a0f1b04f054ed4b4182b51109983d9/TONEX_ONE_User_Manual.pdf'
+    section = '# IK Multimedia multi-effects\n\nRoot brand records with individual observation dates. TONEX ONE is consolidated below; TONEX Pedal remains in its complete legacy source pending consolidation. Verification and market coverage remain incomplete.\n\n## TONEX ONE\n\nStandard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.\n\n### Preserved historical evidence\n\n'
+    section += '\n\n'.join(contexts)+'\n\n'
+    for fact in facts:
+        section += '- **'+fact['field']+'** ('+fact['context']+'): '+fact['value']+'\n'
+    section += '\nRetained model-source URLs: '+', '.join(urls)+'\n\n[Complete original comparison](effects/advanced-modelers.md) remains available. No legacy source or incoming link was removed.\n\n### Source identity and dates\n\n[M] [Manufacturer-authored TONEX ONE manual mirrored by DLX Music]('+manual+'),34 pages, document version1.0,rev05, dated2024/03/17 on its copyright page. Title, IK Multimedia authorship, standard ONE controls and dimensions match this model; it is an early manual, not evidence for every current firmware feature. Text was inspected; no visual diagram inspection is claimed.\n\n[P] [Current standard product page](https://ikmultimedia.com/products/tonexone), reopened2026-10-17.\n\n[B] [Official standard TONEX ONE launch announcement,24April2024](https://www.ikmultimedia.com/news/index.php?id=TonexOneAnnounced), explicitly documents guitar/bass use. No Bass Edition specification was borrowed.\n\n### TONEX ONE comparison fields\n\n| Field | Evidence and qualification |\n|---|---|\n'
+    replacements = {
+        'External expression': ('Expression', 'No built-in pedal/toe; no EXP socket in complete manual connection inventory. [M p.18]'),
+        'K/F/B': ('K/F/B', '**4/1/1**: main plus three micro knobs, one footswitch, ALT button. [M p.18]'),
+        'Preset storage': ('Preset storage', '**Conflict retained:** early manual p.21 has **20 presets and three active slots**; current page still advertises **30**, while its own specs say **20**. Rechecked2026-10-17. Firmware-specific capacity remains unresolved; do not substitute ONE+ storage. [M,P]'),
+        'Third-party IR': ('Third-party IR', '**Yes:** create a custom-IR cabinet preset in TONEX Mac/PC, then transfer through Librarian. File formats, sample limits and independent IR capacity unverified. [M p.22]'),
+        'Audio/control ports': ('Audio/control ports', 'Mono unbalanced instrument input; mono/stereo unbalanced output shared with headphones; USB-C; DC. Jack sizes remain unverified in this pass. [M p.18]'),
+        'Power; battery/USB-powered?': ('Power / battery / USB', '**9V DC,120mA,center-negative**, or **USB5V,260mA**; USB operation explicit. Internal battery not established. [M pp.18,30]'),
+        'Configuration apps and USB functions': ('Configuration apps and USB functions', 'Mac/PC Librarian; **USB2-in/2-out processed stereo,24-bit/44.1kHz**, always-active monitoring. Driver/updater/platform-version requirements unresolved. [M pp.29–31]'),
+        'Other important differences': ('Other relevant features', 'Dual A/B has no bypass; Stomp mode is on/off. Auto-save, panel lock and mute/thru tuner. [M pp.19–20]'),
+    }
+    for fact in facts:
+        field, value = replacements.get(fact['field'], (fact['field'],fact['value']))
+        if field == 'New USD observation':
+            continue
+        section += '| '+field+' | '+value+' |\n'
+    section += '''| Display | Colored LED status/tuner indications; graphical-screen specifications not established. [M pp.18–19] |
+| Used IDR | ? — no condition-qualified local used amount established. |
+| New / retail IDR | **Rp3.420.000**, Seven Stereo Music & Audio Store,shop16879370/item28250929069,Kota Bandung. Exact standard TONEX ONE hardware title; indexed reopening checked2026-10-17. Stock, detailed condition, accessory/software-license bundle, warranty region, delivered charges and voucher eligibility unconfirmed; relative delivery text is not checkout evidence. [Exact offer](https://shopee.co.id/IK-Multimedia-TONEX-ONE-Stompbox-Modeler-i.16879370.28250929069) |
+
+### Qualified discovery and remaining uncertainty
+
+[TOKOAUDIOPRO.COM](https://shopee.co.id/IK-Multimedia-TONEX-ONE-Amplifier-Cab-Pedal-Modeler-Efek-Gitar-Bass-i.253483262.26851077985),shop253483262/item26851077985,Kota Jakarta Pusat, showed **Rp3.550.000–Rp4.100.000 across two unspecified variations** on2026-10-17. Variant/condition/bundle mapping was not exposed. This unresolved variation range is excluded from the model's retail comparison; neither endpoint is assumed to buy the standard pedal. Stock, region, delivered charges and voucher eligibility remain unknown.
+
+TONEX ONE is added to the shared bass comparison because the standard-model announcement explicitly supports bass and the original manual corroborates it. This does not add a unique model or assert equal bass performance for every effect. The BASS knob alone is not the inclusion basis. Dedicated Bass Edition and ONE+ remain distinct discovery candidates requiring exact hardware leads and variant verification.
+
+The source body retains the original20/30 conflict and historical USD199.99 quote. Updated custom-IR, power and USB facts supersede their historical unknowns for the documented manual revision. Complete current delay/modulation/reverb choices and simultaneous architecture need matching firmware documentation; software descriptions do not automatically establish onboard blocks. Exact NAM compatibility, synth/acoustic algorithms, looper/drums/scenes, editor OS versions and firmware release requirements remain unverified. Capturing one's own rig is a documented companion-software workflow, not onboard hardware capture.
+'''
+    old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
+    state['root_brand_content'][brand_file] = [model]
+    state['canonical_root_model_count'] += 1
+    state['legacy_only_model_count'] -= 1
+    state['consolidation_and_price_findings'].append(dict(models=['IK Multimedia TONEX ONE'],model_name=model,brand='IK Multimedia',destination=brand_file+'#tonex-one',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,manual_source=manual,manual_revision='v1.0 rev05 dated2024/03/17',status='Consolidated, partial;20/30 contradiction preserved; standard bass membership supported by direct primary documentation'))
+    state['discovery_leads'].append(dict(model='IK Multimedia TONEX ONE',checked_date='2026-10-17',status='Existing model refreshed; no new unique model',urls=['https://shopee.co.id/IK-Multimedia-TONEX-ONE-Stompbox-Modeler-i.16879370.28250929069','https://shopee.co.id/IK-Multimedia-TONEX-ONE-Amplifier-Cab-Pedal-Modeler-Efek-Gitar-Bass-i.253483262.26851077985'],qualification='Seven Stereo Bandung3420000 exact standard hardware; condition/license/bundle/region/checkout stock unknown. TOKOAUDIOPRO JakartaPusat3550000–4100000 two unspecified variations, excluded from retail comparison until mapping verified.'))
+    state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
+    state['cursor'].update(model='IK Multimedia TONEX Pedal — complete legacy consolidation',task='Read complete TONEX Pedal legacy rows and supporting original comparison. Consolidate in existing IK-MULTIMEDIA.md without losing firmware-qualified effects, prices or source URLs. Verify model-specific bass use and current official/manual/Shopee evidence; commit before another model. Continue remaining legacy models and fresh discovery.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely').replace('55 documented bass-capable models: 11 bass-focused plus 44 shared processors','56 documented bass-capable models: 11 bass-focused plus 45 shared processors')
+    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |TONEX ONE |\n| [JOYO.md](JOYO.md)')
+    multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
+    outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]}
+    inputs[brand_file]=None
+    payload=dict(model_id='tonex-one',model=model,inputs=inputs,outputs=outputs,new_files=[brand_file],rollback_commit=research_tools.git('rev-parse','HEAD').strip())
+    PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print('Preview TONEX ONE: writes '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged. Creates '+brand_file+'; original absence recorded. Rollback '+payload['rollback_commit'])
+    print('Plan saved: '+str(PLAN))
+
+
 def plan(model_id):
+    if model_id == 'tonex-one':
+        return plan_tonex_one()
     if model_id == 'hx-stomp':
         return plan_hx_stomp()
     if model_id == 'gp-200':
@@ -472,7 +548,10 @@ def apply(model_id):
     payload = json.loads(PLAN.read_text())
     assert payload['model_id'] == model_id
     for p, sha in payload['inputs'].items():
-        assert digest((ROOT / p).read_text()) == sha, 'Concurrent change: ' + p
+        if sha is None:
+            assert not (ROOT/p).exists(), 'Concurrent new file: '+p
+        else:
+            assert digest((ROOT / p).read_text()) == sha, 'Concurrent change: ' + p
     for p, text in payload['outputs'].items():
         (ROOT / p).write_text(text)
     verify_preserved(json.loads((ROOT / 'research-state.json').read_text()))
@@ -486,10 +565,13 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'tonex-one':
+        print(research_tools.git('commit', '-m', 'research(ik): consolidate TONEX ONE and document bass capability'))
+        return
     if model_id == 'hx-stomp':
         print(research_tools.git('commit', '-m', 'docs(line6): retain HX Stomp practical features in comparisons'))
         return

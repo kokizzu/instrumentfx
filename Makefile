@@ -453,3 +453,11 @@ consolidation-apply-hx-stomp:
 	python3 scripts/consolidation_tools.py apply hx-stomp
 consolidation-commit-hx-stomp:
 	python3 scripts/consolidation_tools.py commit hx-stomp
+
+.PHONY: consolidation-plan-tonex-one consolidation-apply-tonex-one consolidation-commit-tonex-one
+consolidation-plan-tonex-one:
+	python3 scripts/consolidation_tools.py plan tonex-one
+consolidation-apply-tonex-one:
+	python3 scripts/consolidation_tools.py apply tonex-one
+consolidation-commit-tonex-one:
+	python3 scripts/consolidation_tools.py commit tonex-one
