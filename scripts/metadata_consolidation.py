@@ -20,7 +20,7 @@ def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 
 def parse_source(path):
-    text = (ROOT/path).read_text()
+    text = research_tools.read_preserved_source(path)
     lines = text.splitlines()
     blocks, covered = [], set()
     i, context = 0, ''

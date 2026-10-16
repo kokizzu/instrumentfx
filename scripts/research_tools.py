@@ -18,6 +18,21 @@ def identity():
     assert remote in ('git@github.com:kokizzu/instrumentfx.git', 'https://github.com/kokizzu/instrumentfx.git'), remote
     assert git('branch', '--show-current').strip() == 'main'
 
+
+def read_preserved_source(path):
+    """Read pinned original evidence after a legacy page becomes a redirect."""
+    import hashlib
+    key = str(path)
+    state = json.loads((ROOT/'research-state.json').read_text())
+    entry = state.get('migration',{}).get('retired_sources',{}).get(key)
+    if entry is None:
+        return (ROOT/key).read_text()
+    assert key.startswith('effects/') and '..' not in Path(key).parts
+    assert re.fullmatch(r'[0-9a-f]{40}',entry['source_commit'])
+    original = git('show',entry['source_commit']+':'+key)
+    assert hashlib.sha256(original.encode()).hexdigest() == entry['source_sha256'], 'Pinned evidence hash mismatch: '+key
+    return original
+
 def verify():
     identity()
     state = json.loads((ROOT / 'research-state.json').read_text())

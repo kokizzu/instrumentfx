@@ -70,16 +70,13 @@ All model records separate knobs/footswitches/buttons,expression,used/new IDR,si
 
 The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
 
-**Organization migration is incomplete:** 135 detailed models are root-canonical; 0 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. No source file was deleted. Other legacy records remain until destination contents and incoming links are checked.
+**Organization migration is incomplete:** 135 detailed models are root-canonical; 0 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. Thirteen consolidated metadata pages now redirect to root documents while preserving historical heading anchors. Their full content remains in the root ledger and pinned Git history. Technical legacy pages and remaining navigation audits still await retirement; no source file was deleted.
 
 ## Scope and ownership
 
 For guitars,include **multi-effects processors only**. Effects-only processors can qualify without amp modeling or a built-in pedal. Multiple modes on a dedicated-purpose pedal do not automatically qualify. **Flamma FV01,BOSS SY-1,SY-200,AC-3,VO-1 and XS-100 remain excluded** from active counts and candidate tables. Genuine bass and vocal categories remain separate; guitar-thru or chord detection alone is not guitar multi-effects.
 
 Ever-owned coverage includes former/donated and hand-operated multi-effects. The preserved ownership overlay has21 identified entries,20 with technical profiles; the older BlackBox revision,exact Zoom vocal model/bundle and RH-4 ownership remain unresolved. AME-100 ownership does not establish AVE-100 ownership. The rejected MG-400 order and GP-50 backup plan are not confirmed purchases. Private receipt/order/payment information must not be published.
-
-
-
 
 The root [research ledger](research-state.json) also contains the structured ownership overlay,dated policy/history,marketplace discovery,coverage/checkpoints and legacy JSON templates/provenance under public_metadata:21 identified entries,20 root-profile links,explicit identity corrections,rejected-price hits and superseded queues. Historical states and duplicate snapshots do not add catalogue models or establish live stock.
 

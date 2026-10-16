@@ -1093,3 +1093,17 @@ metadata-verify:
 	python3 scripts/metadata_consolidation.py verify
 metadata-commit:
 	python3 scripts/metadata_consolidation.py commit
+
+.PHONY: metadata-retirement-plan metadata-retirement-apply metadata-retirement-verify metadata-retirement-commit metadata-retirement-rollback-plan metadata-retirement-rollback-apply
+metadata-retirement-plan:
+	python3 scripts/source_retirement.py plan
+metadata-retirement-apply:
+	python3 scripts/source_retirement.py apply
+metadata-retirement-verify:
+	python3 scripts/source_retirement.py verify
+metadata-retirement-commit:
+	python3 scripts/source_retirement.py commit
+metadata-retirement-rollback-plan:
+	python3 scripts/source_retirement.py rollback-plan
+metadata-retirement-rollback-apply:
+	python3 scripts/source_retirement.py rollback-apply
