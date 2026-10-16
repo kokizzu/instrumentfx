@@ -177,3 +177,7 @@ consolidation-commit-ve-8:
 .PHONY: consolidation-commit-ve-20
 consolidation-commit-ve-20:
 	python3 scripts/consolidation_tools.py commit ve-20
+
+.PHONY: consolidation-commit-gt-1000core
+consolidation-commit-gt-1000core:
+	python3 scripts/consolidation_tools.py commit gt-1000core

@@ -32,6 +32,7 @@ MODELS = {
     've-22': ('VE-22', 'effects/vocal.md'),
     've-8': ('VE-8', 'effects/vocal.md'),
     've-20': ('VE-20', 'effects/vocal.md'),
+    'gt-1000core': ('GT-1000CORE', 'effects/findings/2026-10-15-boss-gt1000core-display-idr.md'),
 }
 
 
@@ -77,11 +78,19 @@ def verify_preserved(state):
         text = (ROOT / entry['destination'].split('#')[0]).read_text()
         prefix = entry['marker']
         body = text.split('<!-- ' + prefix + ' source begins -->\n', 1)[1].split('<!-- ' + prefix + ' source ends -->', 1)[0]
+        for old, new in entry.get('link_normalizations', {}).items():
+            body = body.replace(new, old)
+        for path, expected in entry.get('supporting_source_hashes', {}).items():
+            assert digest((ROOT / path).read_text()) == expected, path
+        for paragraph in entry.get('retained_context', []):
+            assert paragraph in text, 'Lost historical context'
+        for url in entry.get('retained_source_urls', []):
+            assert url in text, 'Lost historical URL'
         for ref in entry['renamed_references']:
             body = body.replace('[' + prefix + '-' + ref + ']', '[' + ref + ']')
         body = re.sub(r'^### ', '## ', body, flags=re.M)
         assert body == source.split('\n', 1)[1], 'Lost original body: ' + entry['source']
-        model = entry['models'][0].removeprefix('Zoom ')
+        model = entry.get('model_name', entry['models'][0].removeprefix('Zoom '))
         section = text.split('\n## ' + model + '\n', 1)[1].split('\n## ', 1)[0]
         for fact in entry['retained_comparison_facts']:
             assert fact['value'] in section, 'Lost supporting evidence: ' + fact['field']
@@ -163,7 +172,7 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
-    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
+    print(research_tools.git('commit', '-m', 'docs(' + ('boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
 if __name__ == '__main__':
