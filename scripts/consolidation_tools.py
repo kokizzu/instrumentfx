@@ -1509,28 +1509,34 @@ def audit_legacy():
 
 def audit_compact(model):
     research_tools.identity()
-    assert model == 'GP-100', 'Additional models require explicit scope review'
+    assert model in ('GP-100', 'GP-150'), 'Additional models require explicit scope review'
     state = json.loads((ROOT/'research-state.json').read_text())
     source_path = 'effects/guitar-compact.md'
     source = (ROOT/source_path).read_text()
-    entry = next(e for e in state['consolidation_and_price_findings'] if e.get('model_name') == model and e.get('destination') == 'VALETON.md#gp-100')
+    entry = next(e for e in state['consolidation_and_price_findings'] if e.get('model_name') == model and e.get('destination') == 'VALETON.md#'+model.lower())
     expected = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
             label = re.sub(r'\[([^\]]+)\]\[[^\]]+\]', r'\1', row[0])
-            if label not in ('GP-100', 'Valeton GP-100'):
+            if label not in (model, 'Valeton '+model):
                 continue
             for header, value in zip(headers[1:], row[1:]):
                 value = value.replace('(findings/', '(effects/findings/')
                 expected.append(dict(field=header,value=value,source=source_path,context=context))
     retained = [f for f in entry['retained_comparison_facts'] if f['source'] == source_path]
     assert len(expected) == 23 and expected == retained, 'Shared model row completeness changed'
-    destination = (ROOT/'VALETON.md').read_text().split('\n## GP-100\n',1)[1].split('\n## ',1)[0]
+    destination = (ROOT/'VALETON.md').read_text().split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
     for fact in expected:
         assert fact['value'] in destination, 'Missing shared fact: '+fact['field']
-    context = next(p for p in source.split('\n\n') if p.startswith('**Availability warning:**'))
-    assert context in destination, 'Shared availability context missing'
-    print('PASS GP-100: all 23 fields across five model rows retained; shared availability conflict retained. Other models, shared prose and incoming-link retirement remain unaudited.')
+    if model == 'GP-100':
+        context = next(p for p in source.split('\n\n') if p.startswith('**Availability warning:**'))
+        assert context in destination, 'Shared availability context missing'
+    else:
+        for context in entry.get('retained_context', []):
+            assert context in source and context in destination, 'Shared context missing'
+        for url in ('https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png', 'effects/findings/2026-10-14-valeton-gp-150.md', 'https://shop.valeton.net/products/gp-150'):
+            assert ']('+url+')' in destination, 'Reference key missing: '+url
+    print('PASS '+model+': 23 fields across five model rows retained, with model-specific context/reference checks. Other models and incoming-link retirement remain unaudited.')
 
 if __name__ == '__main__':
     if len(sys.argv) == 3 and sys.argv[1] == 'audit-compact':

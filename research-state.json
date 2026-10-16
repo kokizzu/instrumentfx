@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-150 shared compact-source audit",
-    "task": "GP-100 exact 23 fields/five rows audited; missing shared availability paragraph restored and source retained. Next inspect GP-150 exact root section against complete guitar-compact source, all fields/shared context/reference URLs; preserve dated NAM distinctions. Commit each model before another. Remaining sources/incoming links, technical gaps and fresh Shopee discovery still required.",
+    "model": "Sonicake Matribox QME-50 shared compact-source audit",
+    "task": "GP-150 exact 23 fields/five rows and shared paragraphs verified; explicit historical source key added, later NAM A2 Lite evidence retained. Next read Matribox root/source and check exact shared rows, CN-price distinction, firmware workflow and references. Commit before another model. Other sources, incoming links, technical gaps and fresh Shopee discovery remain.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -14218,10 +14218,18 @@
           "model_rows": 5,
           "repair": "Added exact shared availability paragraph; previous row facts already retained.",
           "scope": "Model table fields and availability paragraph only; other shared context and reference resolution not globally certified."
+        },
+        {
+          "model": "Valeton GP-150",
+          "destination": "VALETON.md#gp-150",
+          "target": "make consolidation-audit-compact-gp150",
+          "retained_fields": 23,
+          "model_rows": 5,
+          "repair": "Explicit source key resolves historical controls/F150/P4 labels; exact shared context retained.",
+          "scope": "All model table fields plus existing retained shared paragraphs and explicit source-key links; no source retirement or fresh spec/stock verification."
         }
       ],
       "remaining_models": [
-        "GP-150",
         "Matribox QME-50",
         "GP-5",
         "GP-50",

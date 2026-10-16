@@ -723,3 +723,9 @@ consolidation-audit-compact-gp100:
 .PHONY: research-commit-compact-gp100-audit
 research-commit-compact-gp100-audit:
 	python3 scripts/research_tools.py commit-compact-gp100-audit
+
+.PHONY: consolidation-audit-compact-gp150 research-commit-compact-gp150-audit
+consolidation-audit-compact-gp150:
+	python3 scripts/consolidation_tools.py audit-compact GP-150
+research-commit-compact-gp150-audit:
+	python3 scripts/research_tools.py commit-compact-gp150-audit

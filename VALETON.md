@@ -301,6 +301,18 @@ Historical GP-150 source URLs: https://shop.valeton.net/products/gp-150, https:/
 
 Sources: [effects/findings/2026-10-14-valeton-gp-150.md](effects/findings/2026-10-14-valeton-gp-150.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
 
+### GP-150 shared-source reference key
+
+The complete compact source was audited on 2026-10-17. All five model rows retain 23 dated fields above. Historical shorthand in the supporting provenance resolves as follows; these are source identities, not new price or firmware observations.
+
+| Historical label | Exact source |
+|---|---|
+| `controls` | [Manufacturer GP-150/GP-180 comparison image](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
+| `F150` | [Original GP-150 finding](effects/findings/2026-10-14-valeton-gp-150.md) |
+| `P4` | [Official-shop historical USD169.99 source](https://shop.valeton.net/products/gp-150) |
+
+The original SnapTone conversion row remains historical evidence; the separately dated native NAM A2 Lite firmware qualification above is retained. Legacy source and incoming links remain available.
+
 ## GP-200
 
 Consolidated 2026-10-17. Historical observations below retain their 2026-10-14 date. GP-200X is retained as an anniversary variant of this existing model, not another active count. Technical verification remains partial.
