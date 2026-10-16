@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD HD500 primary follow-up",
-    "task": "HD500 firmware2.62/globalEQ/paidpack distinction andeditorbug documented. Remaining panel/socket,mass/display,power/IR/currentOS/qualifiedoffers unresolved. Continue fresh Shopee bass discovery before returning to low-yield HD500 gaps.",
-    "next_models": [],
-    "after_queue": "Continue fresh Shopee bass discovery; do not add HD500 again."
+    "model": "Valeton Dapper Bass VES-2",
+    "task": "Verify exact VES-2 manufacturer architecture/specifications and Shopee seller identities; keep MES-2 Mini separate. Offers saved in discovery_bass_dapper. Commit VES-2 before researching Mini.",
+    "next_models": [
+      "Valeton Dapper Bass Mini MES-2"
+    ],
+    "after_queue": "Continue fresh Shopee discovery;HD500 unresolved fields retained."
   },
   "new_findings": [
     {
@@ -21799,6 +21801,74 @@
         "https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280"
       ],
       "qualification": "Seven Stereo Music & Audio Store Bandung11900000 Habis indexed. Condition/region/bundle/voucher/final charges unverified; not live stock or used-price evidence."
+    },
+    {
+      "model": "Valeton Dapper Bass Mini MES-2",
+      "url": "https://shopee.co.id/Valeton-MES-2-Dapper-Bass-Mini-Effects-Strip-Original-i.1776275.25592617190",
+      "shop": "1776275",
+      "item": "25592617190",
+      "seller": "Salomo Musik",
+      "region": "Jakarta Utara",
+      "idr": 1879000,
+      "stock": "Habis",
+      "voucher": "Dengan Voucher;10%atRp10RB threshold;eligibility/cap unknown",
+      "cache": "last month;search only",
+      "checked_date": "2026-10-17",
+      "condition": "unknown",
+      "bundle_variant": "unknown;model identity needs manufacturer check",
+      "qualified_used_new": false,
+      "status": "Unrecorded candidate;manufacturer verification required before inventory admission"
+    },
+    {
+      "model": "Valeton Dapper Bass Mini MES-2",
+      "url": "https://shopee.co.id/Valeton-Dapper-Bass-Mini-MES-2-i.63444658.48058492824",
+      "shop": "63444658",
+      "item": "48058492824",
+      "seller": "Gearvolution",
+      "region": "Makassar",
+      "idr": 1880000,
+      "stock": "unknown",
+      "voucher": "unknown",
+      "cache": "2months;search only",
+      "checked_date": "2026-10-17",
+      "condition": "unknown",
+      "bundle_variant": "unknown;model identity needs manufacturer check",
+      "qualified_used_new": false,
+      "status": "Unrecorded candidate;manufacturer verification required before inventory admission"
+    },
+    {
+      "model": "Valeton Dapper Bass VES-2",
+      "url": "https://shopee.co.id/Dapper-Bass-Effect-Strip-VES2-Valeton-Original-i.1776275.23550783398",
+      "shop": "1776275",
+      "item": "23550783398",
+      "seller": "Salomo Musik",
+      "region": "Jakarta Utara",
+      "idr": 3239000,
+      "stock": "unknown",
+      "voucher": "unknown",
+      "cache": "2months;search only",
+      "checked_date": "2026-10-17",
+      "condition": "unknown",
+      "bundle_variant": "unknown;model identity needs manufacturer check",
+      "qualified_used_new": false,
+      "status": "Unrecorded candidate;manufacturer verification required before inventory admission"
+    },
+    {
+      "model": "Valeton Dapper Bass VES-2 identity pending",
+      "url": "https://shopee.co.id/Valeton-Dapper-Bass-Effect-Strip-i.16879370.284845770",
+      "shop": "16879370",
+      "item": "284845770",
+      "seller": "Seven Stereo Music & Audio Store",
+      "region": "Bandung",
+      "idr": 3240000,
+      "stock": "unknown;LayananTidakTersedia",
+      "voucher": "unknown",
+      "cache": "4months;search only",
+      "checked_date": "2026-10-17",
+      "condition": "unknown",
+      "bundle_variant": "unknown;model identity needs manufacturer check",
+      "qualified_used_new": false,
+      "status": "Unrecorded candidate;manufacturer verification required before inventory admission"
     }
   ],
   "inventory_by_brand": {
@@ -47685,5 +47755,92 @@
       "identity_limit": "SellerHD500title requires verificationasPODHD500,notHD500X"
     },
     "remaining": "VerifyexactHD500identity andofficialmanufacturer guitar/bass capabilities;do notinferbass fromsearchintent. Continuebassdiscovery independently."
+  },
+  "discovery_bass_dapper": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Zoom B2.1u",
+      "site:shopee.co.id Boss GT-6B",
+      "site:shopee.co.id Boss ME-50B",
+      "site:shopee.co.id Zoom B2X FOUR",
+      "site:shopee.co.id bass BP90",
+      "site:shopee.co.id bass BP200",
+      "site:shopee.co.id bass B1X",
+      "site:shopee.co.id Valeton Dapper Bass",
+      "site:shopee.co.id Sonicake Boom Ave",
+      "site:shopee.co.id Fly Rig Bass"
+    ],
+    "new_candidates": [
+      {
+        "model": "Valeton Dapper Bass Mini MES-2",
+        "url": "https://shopee.co.id/Valeton-MES-2-Dapper-Bass-Mini-Effects-Strip-Original-i.1776275.25592617190",
+        "shop": "1776275",
+        "item": "25592617190",
+        "seller": "Salomo Musik",
+        "region": "Jakarta Utara",
+        "idr": 1879000,
+        "stock": "Habis",
+        "voucher": "Dengan Voucher;10%atRp10RB threshold;eligibility/cap unknown",
+        "cache": "last month;search only",
+        "checked_date": "2026-10-17",
+        "condition": "unknown",
+        "bundle_variant": "unknown;model identity needs manufacturer check",
+        "qualified_used_new": false
+      },
+      {
+        "model": "Valeton Dapper Bass Mini MES-2",
+        "url": "https://shopee.co.id/Valeton-Dapper-Bass-Mini-MES-2-i.63444658.48058492824",
+        "shop": "63444658",
+        "item": "48058492824",
+        "seller": "Gearvolution",
+        "region": "Makassar",
+        "idr": 1880000,
+        "stock": "unknown",
+        "voucher": "unknown",
+        "cache": "2months;search only",
+        "checked_date": "2026-10-17",
+        "condition": "unknown",
+        "bundle_variant": "unknown;model identity needs manufacturer check",
+        "qualified_used_new": false
+      },
+      {
+        "model": "Valeton Dapper Bass VES-2",
+        "url": "https://shopee.co.id/Dapper-Bass-Effect-Strip-VES2-Valeton-Original-i.1776275.23550783398",
+        "shop": "1776275",
+        "item": "23550783398",
+        "seller": "Salomo Musik",
+        "region": "Jakarta Utara",
+        "idr": 3239000,
+        "stock": "unknown",
+        "voucher": "unknown",
+        "cache": "2months;search only",
+        "checked_date": "2026-10-17",
+        "condition": "unknown",
+        "bundle_variant": "unknown;model identity needs manufacturer check",
+        "qualified_used_new": false
+      },
+      {
+        "model": "Valeton Dapper Bass VES-2 identity pending",
+        "url": "https://shopee.co.id/Valeton-Dapper-Bass-Effect-Strip-i.16879370.284845770",
+        "shop": "16879370",
+        "item": "284845770",
+        "seller": "Seven Stereo Music & Audio Store",
+        "region": "Bandung",
+        "idr": 3240000,
+        "stock": "unknown;LayananTidakTersedia",
+        "voucher": "unknown",
+        "cache": "4months;search only",
+        "checked_date": "2026-10-17",
+        "condition": "unknown",
+        "bundle_variant": "unknown;model identity needs manufacturer check",
+        "qualified_used_new": false
+      }
+    ],
+    "limits": "No authoritative model eligibility/spec verification yet. No live checkout or stock verified. Condition/bundle/region/voucher final cost unresolved.",
+    "rejected_or_deferred": [
+      "LegacyZoomB2.1u/B1XNext only old mixed storefront snippets;reopened storefront no longer exposes these products;do not map Rp1699000 toB2.1u.",
+      "B1X FOUR already recorded. Cityland327043379/18057978298 direct cached Rp2095000–2599000 vssearch Rp2095000–2399000;2unmappedvariants;do not assign endpoints toB1/B1X.",
+      "No exact new leads surfaced forGT6B/ME50B/BP90/BP200/B2XFOUR/BoomAve/FlyRig inthispass;notabsenceproof."
+    ]
   }
 }
