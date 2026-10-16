@@ -184,3 +184,36 @@ Checked the English operating sections as web-rendered text: cabinet/drive depen
 Korg links the four-page AX5-Series EasyStart directly from AX5G support. Its first page separates AX5G and AX5B; shared procedures explicitly cover both. The Amp/Line section explicitly names AX5G only. Page3 carries a stray AX3-Series header; no AX5B-only synth/fretless details are borrowed. The guide corroborates58 total types but does not resolve the German57 figure, dimensions/mass conflict, power polarity/current or display specifications. The Original Value dot identifies a saved parameter match; it does not prove screen technology.
 
 [AX5-E]: https://cdn.korg.com/us/support/download/files/5802e92ca055dc3e0b4c1a9d389e642a.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX5_Series_EasyStart.pdf&response-content-type=application%2Fpdf%3B
+
+## AX10G
+
+Guitar multi-effects, distinct from AX10B/AX10A. Checked2026-10-17; partial. Bass/vocal suitability and ownership unverified. Korg lists discontinued/sold out.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal; full-forward switches assigned effect. Volume/wah/modulation/ambience assignments; wah requires PRE WAH. External support unverified. | [Manual pp7,12][AX10-M] |
+| K/F/B | **8 rotary /2 main footswitches /13 buttons**, text-derived: three selectors+five amp knobs; Up/Down; PRE,VALUE pair,two DEPTH pairs,TAP,FUNCTION,MASTER pair,WRITE,PEDAL FX. Toe additional; visual corroboration pending. | [Manual pp6–7,11][AX10-M] |
+| Display | Program/value display; diagonal,color,touch unverified. | [Manual p6][AX10-M] |
+| Dimensions / mass | **287W×182D×60H mm;1.1kg excluding batteries**. | [Manual p14][AX10-M] |
+| Processing / category choices | PRE3→AMP11→MOD11→AMBIENCE11; NR1 additionally. Cabinet follows amp except EQ. Independent simultaneous-total declaration unverified. | [Manual pp3,11,14][AX10-M] |
+| Factory / user memory | **80=40presets+40user**, factory user copies presets; explicit WRITE required. | [Manual pp5,12][AX10-M] |
+| Synth / acoustic | ACOUSTIC simulator; TALK is pick/pedal-controlled filtering, not established synth architecture. | [Manual p11][AX10-M] |
+| I/O | Mono¼input with L/H switch; stereo¼line/headphone output;AMP/LINE switch;DC9V. Documented inventory lists no USB/MIDI/external-control socket. | [Manual pp7–8,14][AX10-M] |
+| Power / battery / USB | 9V adapter optional;fourAA alkaline~18h. Mono input cable switches battery power;stereo will not. Polarity/current/USB power unverified. | [Manual pp7–8,14][AX10-M] |
+| IR / NAM / capture | User IR,native/converted NAM and capture import unverified;factory cabinet modeling proves none. | Unresolved |
+| Editor / software | Editor/platforms unverified;support page lists manuals. | [Support][AX10-P] |
+| Looper / drums / live | Bypass/tuner;looper,drums,scenes,trails unverified. | [Manual p9][AX10-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;title does not establish condition. | — |
+| New | Unknown;no qualified retail/new offer established. | — |
+| Conditional historical offer | **Rp900,000;Habis**, kokokhoirunnisak,Kab.Banyuwangi;shop78645256/item29167137994. Checked2026-10-17;two-month search cache,stale20–23August delivery. Direct item returned internal error. Condition,working state,revision,adapter/bundle,warranty and voucher eligibility unverified. Late-arrival compensation is not a discount;not current stock/completed sale. | [Exact Shopee item][AX10-O] |
+
+Web-rendered official manual only;no download,installation or physical inspection. Do not infer bass suitability solely from the modeled TWD410 amplifier's historical bass origin. Category counts are alternatives,not36 simultaneous effects. No AX10B/AX10A specifications transferred.
+
+[AX10-M]: https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf
+[AX10-P]: https://www.korg.com/us/support/download/product/1/23/
+[AX10-O]: https://shopee.co.id/efek-gitar-korg-ax10g-i.78645256.29167137994
