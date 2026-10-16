@@ -252,6 +252,7 @@ Guitar multi-effects;distinct fromAX1500G/AX100G. Checked2026-10-17;partial. Kor
 | Used | Unknown;title does not establish condition. | — |
 | New | Unknown;no qualified new offer established. | — |
 | Conditional historical offer | **Rp1,700,000;Habis**, UM Audio Official,Kab.Ponorogo;shop238779157/item13913725973. Checked2026-10-17;two-month rendered cache,stale3–6September delivery;shop onholiday. Condition,working state,revision,adapter/bundle,warranty,voucher unknown. Not currentstock/completedsale;late-arrival compensation notdiscount. | [Exact hardware][AX1000-O] |
+| Additional condition-unknown offer | **Rp2,000,000;Habis**,totok.zulianto,Kab.Tuban;shop57900729/item16038187135. Checked2026-10-17 through rendered page,crawled last month;stale29–30August delivery. Title says “motif decal”;Exact revision,working state,sale condition,adapter/bundle,warranty and voucher eligibility unverified. Late-arrival compensation up toRp10,000 is not a hardware-price discount. Separate cached ask,not current stock or completed sale. | [Exact seller item][AX1000-O2] |
 
 Manufacturer E1 manual used as web text;no files downloaded,software installed or physical inspection. Up-to-eight is an advertised maximum,not permission to combine every PEDAL choice with MODULATION/AMBIENCE. Category count excludes OFF,parameter settings andduplicated descriptions. NoAX1500G dimensions,power or features transferred;power polarity must remain unresolved rather than inferred from anotherKorg adapter.
 
@@ -268,3 +269,5 @@ Phrase Trainer supports100/75/50/25percent playback,or5percent increments from10
 **Noise-reduction source conflict:** printedp13gives NR rangeOFF–10,then says it is not possible to turn noise reduction off. Neither statement is silently discarded;NR-off behavior remains unverified. This does not change the documented56choice headline or grant an additional block.
 
 In Play mode,the current program footswitch held0.5s bypasses andheld1s mutes. Tuner438–445Hz resets440Hz onpower-up. These differ from some other Korg switch timings;no sibling procedure substituted.
+
+[AX1000-O2]: https://shopee.co.id/efek-gitar-tonework-korg-ax1000g-motif-decal-i.57900729.16038187135
