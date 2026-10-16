@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / AX1000G remaining fields",
-    "task": "AX1000G added,notAX1500G;56categorychoices andpedalexclusions saved. Continue freshexactShopee discovery orprimarygaps.",
+    "model": "Fresh discovery after AX1000G operation follow-up",
+    "task": "AX1000G controls13buttons andTrainerquality/erasure resolved;NR-OFFconflictretained. Continuefreshhardwarediscovery orotherprimarygaps;do notrepeat56categorycount.",
     "next_models": [],
-    "after_queue": "GFX8sensor/accessories and707II/708II/GFX3mixedoffer excludedfromexactprices."
+    "after_queue": "No downloads/dependencies;keepcategorysegregation andlegacyprovenance."
   },
   "new_findings": [
     {
@@ -40436,7 +40436,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / AX1000G remaining fields."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery after AX1000G operation follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48811,6 +48811,21 @@
       "loop_persistence": "Manualp37patchchangestopsrecord/playanderasesphrase;rhythmtempochangeduringloopplayalsoerases. MEMORYmodealonecontinues.",
       "power": "500mAadapterratingnotmeasureddraw",
       "remaining": "Readableprimarydiagram/physicalpaneltoresolveinternalportconflict;USB audio/currentdraw/importsandcurrentqualifiedoffers."
+    },
+    {
+      "model": "Korg AX1000G",
+      "checked_date": "2026-10-17",
+      "source": "https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf",
+      "controls": {
+        "rotary": 10,
+        "main_foot": 5,
+        "buttons": 13,
+        "method": "Text-derivedpp4–5;fiveblockbuttons+eightLCDcontrolbuttons,toeextra;visualpending"
+      },
+      "trainer": "SHT8s/LNG16smono,disablesMOD/PEDAL/AMB,mutesguitarrecord,erasesexit/power;pitchpreserving100–25percent5percentsteps.",
+      "conflict": "NRp13OFF–10rangevsnoteNRcannotturnoff;unresolved.",
+      "other": "Headphones mute main outputs p8. PedalVOLalwayson,onoffnotperpatch;Individualmodecannotbypass/mute;Playcurrentfootswitch0.5sbypass1smute.",
+      "remaining": "Display,powerpolarity/draw/options,imports/editor,currentqualifiedprices;NRoffconflict."
     }
   ],
   "discovery_cross_brand_bass": {

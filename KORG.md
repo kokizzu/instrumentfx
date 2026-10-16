@@ -232,18 +232,18 @@ Guitar multi-effects;distinct fromAX1500G/AX100G. Checked2026-10-17;partial. Kor
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in pedal with full-forward switch. PEDAL block11choices;modulation-type pedal effects disableMOD,delay/sample pedal effects disableAMBIENCE. External support unverified. | [Manual pp9,20–21][AX1000-M] |
-| K/F/B | **10 rotary /5 main footswitches**:five selectors+five value knobs;fourprogram+bank. Separate buttons count unverified;toe additional. | [Manual pp4–6][AX1000-M] |
+| Expression | Built-in pedal with full-forward switch. PEDAL block11choices;modulation-type pedal effects disableMOD,delay/sample pedal effects disableAMBIENCE. Volume pedal cannot be toggled off;pedal on/off state is not stored per program. External support unverified. | [Manual pp9,20–21][AX1000-M] |
+| K/F/B | **10 rotary /5 main footswitches /13 separate buttons**:five selectors+five value knobs;fourprogram+bank. Buttons:text-derived five block selectors,NR-PRGLEVEL,RENAME,EXIT,WRITE,twoCURSOR,twoMASTER/VALUE. Toe additional;visual corroboration pending. | [Manual pp4–6][AX1000-M] |
 | Display | BacklitLCD plus bank indicator;diagonal,color,touch unverified. | [Manual pp3,5][AX1000-M] |
 | Dimensions / mass | **420W×187.7D×65.4H mm;2.4kg**. | [Manual p15][AX1000-M] |
 | Processing / category choices | **56types;maximum8effects**,with pedal/block exclusions. Manual-derived five selector categories×11 choices(DRIVE-AMP,CABINET,MODULATION,PEDAL,AMBIENCE)=55;NR adds1. DRIVE includes3bandEQ;compositeeffects are not independent extra slots. | [Manual pp3,15–22][AX1000-M] |
 | Factory / user memory | **80=40preset+40user**,factory user copies presets. Presets read-only;WRITE twice with destination. Reload overwrites users/settings. | [Manual pp7,13–14][AX1000-M] |
 | Synth / acoustic | ACOUSTIC electric-to-acoustic simulator includes compressor. TALK vowel processing andRINGMOD do not establish synthesizer architecture. | [Manual pp16,20–21][AX1000-M] |
-| I/O | Mono¼guitar;stereo⅛AUX;L/mono+R¼outputs;stereo⅛headphones;DC9V. Rear inventory lists no USB/MIDI/external-control socket. | [Manual pp6,15][AX1000-M] |
+| I/O | Mono¼guitar;stereo⅛AUX;L/mono+R¼outputs;stereo⅛headphones;DC9V. Inserting headphones mutes main outputs. Rear inventory lists no USB/MIDI/external-control socket. | [Manual pp6,8,15][AX1000-M] |
 | Power / battery / USB | **DC9V**,included adapter;connection powers unit. Polarity,current,battery andUSB power unverified. | [Manual pp6,15][AX1000-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified;factory cabinet models do not establish imports. | Unresolved |
 | Editor / software | Editor/platform support unverified;onboard editing documented. | [Manual p12][AX1000-M] |
-| Looper / drums / live | Sample&Play**8s**;PhraseTrainer**up to16s**,slower playback without pitch change;metronome40–208BPM. Individual mode toggles blocks but prevents patch switching. Trainer disables metronome. Overdub,drumkit,scenes,trails unverified. | [Manual pp3,7,11,15][AX1000-M] |
+| Looper / drums / live | Sample&Play**8s**;PhraseTrainer**up to16s**,slower playback without pitch change;metronome40–208BPM. Individual mode toggles blocks but prevents patch switching and bypass/mute. Trainer:SHT8s high-quality/LNG16s extended,mono;disablesMOD/PEDAL/AMBIENCE,restores them onexit;guitar muted duringrecording. Exit/power-off erases phrase. Trainer disables metronome. Overdub,drumkit,scenes,trails unverified. | [Manual pp3,7,10–11,15][AX1000-M] |
 
 ### Separate IDR hardware offers
 
@@ -258,3 +258,13 @@ Manufacturer E1 manual used as web text;no files downloaded,software installed o
 [AX1000-M]: https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf
 [AX1000-P]: https://www.korg.com/us/support/download/product/1/19/
 [AX1000-O]: https://shopee.co.id/korg-ax1000g-i.238779157.13913725973
+
+### Operation and control follow-up
+
+Checked2026-10-17,manufacturerE1text only. The13button total excludes five main footswitches and the under-pedal switch;five block buttons plus eight LCD/control-panel buttons are enumerated in printedpp4–5. No visual or physical control inspection claimed.
+
+Phrase Trainer supports100/75/50/25percent playback,or5percent increments from100down to25,without changing pitch. Recording-mode changes require exit/reentry;one phrase can replace the old phrase,not an established overdub looper. Its8secondSHT and16secondLNG limits are separate from PEDALSample&Play8seconds. Printedp11 supplies erasure and recording restrictions.
+
+**Noise-reduction source conflict:** printedp13gives NR rangeOFF–10,then says it is not possible to turn noise reduction off. Neither statement is silently discarded;NR-off behavior remains unverified. This does not change the documented56choice headline or grant an additional block.
+
+In Play mode,the current program footswitch held0.5s bypasses andheld1s mutes. Tuner438–445Hz resets440Hz onpower-up. These differ from some other Korg switch timings;no sibling procedure substituted.

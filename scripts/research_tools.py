@@ -333,7 +333,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-ax1000g':
-            message = 'research(korg): add AX1000G with own manual and pedal exclusions'
+            message = 'research(korg): verify AX1000G controls trainer and NR conflict'
         if mode == 'commit-gfx5':
             message = 'research(zoom): enumerate GFX-5 controls and qualify bypass routing'
         if mode == 'commit-gfx3':
