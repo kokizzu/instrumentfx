@@ -44,3 +44,10 @@ research-commit-prime:
 .PHONY: research-verify-archive-provenance
 research-verify-archive-provenance:
 	python3 scripts/research_tools.py restore-archive-provenance
+
+.PHONY: research-source-ge300 research-commit-ge300
+research-source-ge300:
+	python3 scripts/research_tools.py source-ge300
+
+research-commit-ge300:
+	python3 scripts/research_tools.py commit-ge300

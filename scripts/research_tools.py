@@ -96,28 +96,31 @@ def main():
         gp200jr()
     elif mode == 'render-gp200jr':
         subprocess.run(['pdftoppm', '-f', '5', '-l', '6', '-scale-to', '1800', '-png', '/tmp/instrumentfx-sources/gp-200jr-v1.8.0.pdf', '/tmp/instrumentfx-sources/gp200jr-panel'], check=True)
-    elif mode=='source-prime':
+    elif mode in ('source-prime','source-ge300'):
         cache=Path('/tmp/instrumentfx-sources')
         cache.mkdir(exist_ok=True)
-        path=cache/'headrush-prime-v5.2.pdf'
-        url='https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf'
+        prime=mode=='source-prime'
+        path=cache/('headrush-prime-v5.2.pdf' if prime else 'mooer-ge300-original.pdf')
+        url='https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf' if prime else 'https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf'
         with urllib.request.urlopen(url,timeout=60) as response:
             data=response.read()
         assert data.startswith(b'%PDF')
         path.write_bytes(data)
         subprocess.run(['pdftotext','-layout',str(path),str(path.with_suffix('.txt'))],check=True)
-        subprocess.run(['pdftoppm','-f','6','-l','7','-scale-to','1600','-png',str(path),str(cache/'prime-panel')],check=True)
-        print('Saved and rendered primary Prime 5.2 manual: '+str(path))
-    elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons', 'commit-prime'):
+        subprocess.run(['pdftoppm','-f','6','-l','7','-scale-to','1600','-png',str(path),str(cache/('prime-panel' if prime else 'ge300-panel'))],check=True)
+        print('Saved and rendered original manufacturer manual: '+str(path))
+    elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons', 'commit-prime','commit-ge300'):
         verify()
         print(git('status', '--short', '--branch'))
         assert not git('diff', '--cached', '--name-only').strip(), 'Unrelated staged changes; inspect before committing'
         paths = ['Makefile', 'scripts/research_tools.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'MULTI-EFFECTS.md', 'README.md', 'research-state.json']
-        if mode in ('commit-comparisons','commit-prime'):
+        if mode in ('commit-comparisons','commit-prime','commit-ge300'):
             paths += ['ALL-VOCAL.md','scripts/comparison_views.py','AGENTS.md','SINGLE-GUITAR.md','SINGLE-BASS.md','SINGLE-VOCAL.md','effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md']
             subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
             if mode=='commit-prime':
                 paths.append('HEADRUSH.md')
+            elif mode=='commit-ge300':
+                paths.append('MOOER.md')
         else:
             paths.append('VALETON.md' if mode == 'commit-gp200jr' else 'LINE6.md')
         print(git('add', '--', *paths))
@@ -127,6 +130,8 @@ def main():
             subject='docs(comparisons): compare every recorded instrument model and separate specialist archives'
         elif mode=='commit-prime':
             subject='research(headrush): add Prime with native NAM limits and qualified used retail evidence'
+        elif mode=='commit-ge300':
+            subject='research(mooer): add GE300 with converted NAM and firmware-qualified IR capacity'
         print(git('commit', '-m', subject))
     else:
         raise SystemExit('Unknown operation')

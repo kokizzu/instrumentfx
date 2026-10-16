@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 122,
+  "active_model_count": 123,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 50,
+  "canonical_root_model_count": 51,
   "legacy_only_model_count": 72,
-  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only).",
+  "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,12 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER GE300",
-    "destination": "MOOER.md",
-    "task": "Research saved exact GE300 Shopee hardware lead and official GE300 documentation; do not substitute GE300 Lite; commit useful findings before fresh brand/series discovery.",
-    "listing_url": "https://shopee.co.id/-Ready-Stock-mooer-ge300-amp-modelling-synth-multy-efek-multy-effect-mooer-Original-ge-300-i.31173885.29362925028",
+    "model": "Fresh brand/series discovery",
+    "destination": null,
+    "task": "Saved model queue exhausted; fresh Shopee Indonesia discovery by brand/series, then exact-model official research and per-model commits.",
     "next_models": [],
-    "after_queue": "Search Shopee again by remaining brand/series. Exclude preset packs, cases, controllers, unselected accessory variations and already recorded models. Continue unresolved-field research and lossless root consolidation."
+    "after_queue": "Continue unresolved-field checks and lossless consolidation of72 legacy-only models."
   },
   "new_findings": [
     {
@@ -125,6 +124,20 @@
         "pixel/auxiliary display specs",
         "explicit operating battery/USB power",
         "qualified live used/new IDR"
+      ],
+      "commit": "677a4c1"
+    },
+    {
+      "model": "MOOER GE300",
+      "path": "MOOER.md#ge300",
+      "checked_date": "2026-10-16",
+      "status": "partial",
+      "unresolved": [
+        "current category totals",
+        "factory/user memory split",
+        "touch/pixels and battery/USB power",
+        "IR conversion rules and NAM limits",
+        "qualified used and live stock"
       ]
     }
   ],
@@ -281,7 +294,8 @@
       "GE150 Max",
       "GE150 Max Li",
       "GE1000 Li",
-      "GE250"
+      "GE250",
+      "GE300"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -374,7 +388,8 @@
       "GP-200JR"
     ],
     "MOOER.md": [
-      "GE250"
+      "GE250",
+      "GE300"
     ],
     "HOTONE.md": [
       "Ampero One MP-80"
@@ -439,7 +454,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 102,
+      "record_count": 103,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -469,10 +484,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Actual four-table comparisons:101 guitar,52 documented bass-capable,15 vocal; full brand consolidation remains incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons:103 guitar,53 documented bass-capable,16 vocal; full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "72 legacy-only models remain;50 are root-canonical after Prime. No whole-migration or exhaustive-market claim.",
+    "warning": "72 legacy-only models remain;51 root-canonical after GE300. Market coverage and migration incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -541,10 +556,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 122,
-    "canonical_root_models": 50,
+    "unique_brand_model_pairs": 123,
+    "canonical_root_models": 51,
     "legacy_only_models": 72,
-    "guitar_view_models": 102,
+    "guitar_view_models": 103,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
     "vocal_view_models": 16,
@@ -555,7 +570,11 @@
     "bass_shared_models": 42,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
-    "workflow_files": 0
+    "workflow_files": 0,
+    "last_checks": [
+      "make comparison-verify",
+      "make research-verify"
+    ]
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
   "response_handoff": "At the end of a research session provide the user a copyable agent continuation prompt with this exact cursor, no-workflow boundary, root-document layout, per-model immediate commits and unresolved consolidation. Never promise unattended background continuation.",
@@ -568,7 +587,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Research saved exact GE300 Shopee hardware lead and official GE300 documentation; do not substitute GE300 Lite; commit useful findings before fresh brand/series discovery."
+    "next": "Saved model queue exhausted; fresh Shopee Indonesia discovery by brand/series, then exact-model official research and per-model commits."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -629,6 +648,7 @@
       "MOOER::GE150 Max Li",
       "MOOER::GE1000 Li",
       "MOOER::GE250",
+      "MOOER::GE300",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -1385,6 +1405,13 @@
     },
     "MOOER::GE250": {
       "link": "MOOER.md#ge250",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::GE300": {
+      "link": "MOOER.md#ge300",
       "source_files": [
         "MOOER.md"
       ],

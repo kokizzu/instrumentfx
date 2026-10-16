@@ -66,7 +66,7 @@ def aliases(brand, model):
     return {norm(n) for n in names}
 
 def relink(value, source, refs):
-    value = re.sub(r'\[([^\]]+)\]\[([^\]]+)\]', lambda m: '['+m[1]+']('+refs.get(m[2].lower(), '#')+')', value)
+    value = re.sub(r'\[([^\]]+)\]\[([^\]]+)\]', lambda m: '['+m[1]+']('+refs[m[2].lower()]+')' if m[2].lower() in refs else m[0], value)
     def link(m):
         target = m[2]
         if '://' in target or target.startswith('mailto:'):
@@ -363,7 +363,7 @@ BASS_SHARED = {
 
 GROUPS = {
     'expression': r'expression|^external control',
-    'controls': r'k/f/b|knob|rotary|^controls|physical controls|expression.*controls',
+    'controls': r'k/f/b|knob|rotary|footswitch|buttons|^controls|physical controls|expression.*controls',
     'display': r'display|screen|diagonal|monochrome|touch',
     'body': r'dimension|width|w×|weight|body|size|mass|^physical$',
     'processing': r'processing|architecture|block|categor|choice|library|^modules|factory amps|efx|^effects',
