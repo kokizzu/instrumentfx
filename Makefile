@@ -1219,3 +1219,7 @@ research-commit-me20b:
 .PHONY: research-commit-gt10
 research-commit-gt10:
 	python3 scripts/research_tools.py commit-gt10
+
+.PHONY: research-commit-gt8
+research-commit-gt8:
+	python3 scripts/research_tools.py commit-gt8

@@ -1840,3 +1840,44 @@ Remaining: visual control corroboration, screen details, other category counts/r
 
 [G10-R]: https://manualzilla.com/doc/7429915/boss-gt-10-owner-s-manual
 [G10-A]: https://support.roland.com/hc/ja/articles/4404885542939
+
+## GT-8
+
+Guitar multi-effects; distinct from GT-6/GT-10. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in expression; external SUB EXP/SUB CTL1,2 socket. Toe behavior pending. | [Product][G8-P] |
+| K/F/B | Complete rotary/footswitch/button counts pending. | Unresolved |
+| Display | Backlit16-character×2-line LCD; two-character seven-segment LED. Diagonal/colour/touch unverified. | [Product][G8-P] |
+| Dimensions / mass | 515W×261D×75H mm;4.8kg. Large. | [Product][G8-P] |
+| Processing / categories | **13 simultaneous blocks**, freely ordered; **44 effect categories**, **46 COSM amps**, each with Solo variation. Detailed category totals/counting basis pending. | [Product][G8-P] |
+| Factory / user memory | **340 total:140 user+200 preset**. Initial user-bank fill/write restrictions pending. | [Product][G8-P] |
+| Synth / acoustic | Monophonic Wave Synth; acoustic processor and sitar. Electric-to-acoustic simulation details pending. | [Product][G8-P] |
+| I/O | INPUT;L/MONO/R OUTPUT;PHONES;SEND/RETURN;coaxial DIGITAL OUT;AMP CONTROL;SUB EXP/SUB CTL1,2;MIDI IN/OUT;AC-adapter input. **No USB in complete connector inventory.** | [Product][G8-P] |
+| Analog conversion | 24-bit+AF A/D;24-bit D/A;44.1kHz;≥100dB IHF-A dynamic range. | [Product][G8-P] |
+| Power / battery / USB | **14V AC,650mA; BRC-series adapter**. AC supply: DC centre polarity is inapplicable. Battery operation unverified; no USB connector. Do not substitute GT-10’s9V DC supply. | [Product][G8-P] |
+| IR / NAM / capture | Import capabilities unverified. Factory COSM does not establish loading. | Unresolved |
+| Editor / platforms | Official support lists custom patches; full editor/platform compatibility unverified. MIDI data transfer is distinct from USB audio. | [Product][G8-P] |
+| Routing / live | Dual amp channels layer/switch with picking dynamics or expression crossfade; independent external loop. Looper/drums/scenes/trails unverified. | [Product][G8-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; exact listing does not state condition. | — |
+| New | Unknown; exact listing does not state condition. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified sold-out Shopee hardware
+
+Checked2026-10-17: [BOSS GT-8 Pedal Multi Effect](https://shopee.co.id/BOSS-GT-8-Pedal-Multi-Effect-i.270699909.18550074460), **Toko Assobirin**,shop270699909/item18550074460,Kab.Pasuruan,**Rp2,800,000**, marked **Habis**. Exact page opened; cached delivery dates are not current stock proof. Condition, adapter/bundle, selected variant, working state, warranty, taxes/shipping and checkout total unverified. Rp10,000 late-arrival voucher is conditional compensation, not a hardware-price discount. Amount stays outside used/new comparison columns.
+
+Other mixed GT8/GT10 and accessory results do not establish this offer. GT-10B and Zoom B9.1ut searches produced no exact hardware evidence in this pass; absence is not a market-absence claim.
+
+[Official manual landing page](https://www.boss.info/global/support/by_product/gt-8/owners_manuals/66442cbd-dab7-4b67-8035-df6bd4db3d68/) opened; no file downloaded. Remaining: manual control inventory, expression/toe, category detail, memory behavior, sound/import distinctions and software/current condition-qualified offers.
+
+[G8-P]: https://www.boss.info/global/products/gt-8/
