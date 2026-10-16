@@ -351,7 +351,7 @@ def main():
         if mode == 'commit-stomplab2g':
             message = 'research(vox): verify StompLab 2G assignments memory and output modes'
         if mode == 'commit-stomplab1g':
-            message = 'research(vox): verify StompLab 1G memory output modes and auto-off'
+            message = 'research(vox): restore StompLab 1G output behavior and price qualifications in comparisons'
         if mode == 'commit-stomplab2b':
             message = 'research(vox): verify StompLab 2B shared processing and auto-off limits'
         if mode == 'commit-tonelab-se':

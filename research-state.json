@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "B2 FOUR comparison completeness / next discovery",
-    "task": "B2 FOUR routing and selection clarified; ensure IDB/LYN price observations project. No exact AX5B/AX3000B/BP90/BP355 offer found in this pass.",
+    "model": "Comparison cutoff audit",
+    "task": "StompLab1G fixed after B2FOUR. Review TC-Helicon PERFORM records next; distinguish omitted current facts from intentional historical duplicates and unresolved variant prices.",
     "next_models": [],
-    "after_queue": "Continue another brand/series exact hardware discovery or readable manual gaps."
+    "after_queue": "Resume primary-source verification and fresh exact hardware discovery."
   },
   "new_findings": [
     {
@@ -4092,6 +4092,13 @@
       "source": "https://zoomcorp.com/manuals/b2four-en/",
       "finding": "Master EQ/volume named OUTPUT and PHONES scope; persistent across patches. PRESELECT confirmation, default autosave and10h ECO saved. Moved comparison end marker after previously preserved IDB/LYN exact offers so bass price projection can include them losslessly.",
       "remaining": "Physical counts, display, categories, imports/current editor platforms and current stock/condition verification."
+    },
+    {
+      "model": "VOX StompLab 1G",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Lossless comparison-coverage correction: existing manufacturer-backed output targets, master reset, amp EQ dependency, bypass/mute, tuner reset and VALUE lock now project into the instrument table. Existing used-price seller/location/access/condition limits moved into the price row. Original full prose remains preserved.",
+      "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf"
     }
   ],
   "consolidation_and_price_findings": [
@@ -40058,7 +40065,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume B2 FOUR comparison completeness / next discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Comparison cutoff audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48128,6 +48135,21 @@
       "seller_storefront": "https://shopee.co.id/melodiamusik?entryPoint=ShopByPDP",
       "result": "Seller link from exact Fly Rig 5 v2 page resolved to Melodia storefront, but storefront access returned cache miss. Model/seller-specific RK5 searches returned no exact item. Existing generic Kamar Gear used RK5 remains unassigned to a revision.",
       "next": "Use a new exact-item or revision-visible source before assigning RK5 used/new prices."
+    },
+    {
+      "id": "comparison_cutoff_audit_20261017",
+      "checked_date": "2026-10-17",
+      "finding": "Brand sections may retain later technical/price evidence after explicit comparison end markers. Not every tail is a defect: many are intentionally pinned historical duplicates or unresolved multi-variant offers. Inspect individually; do not globally expand boundaries.",
+      "fixed": [
+        "Zoom B2 FOUR",
+        "VOX StompLab 1G"
+      ],
+      "next_review": [
+        "TC-Helicon PERFORM-V/VK/VG/VE",
+        "VOX StompLab2B/2G",
+        "Korg PANDORA stomp"
+      ],
+      "qualification": "Candidate list is a review queue, not proof that every listed tail belongs in active prices."
     }
   ],
   "discovery_cross_brand_bass": {

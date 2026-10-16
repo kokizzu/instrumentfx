@@ -180,19 +180,18 @@ Guitar multi-effects;distinct from2G,1B,2B. Checked2026-10-17;partial. Bass suit
 | Factory / user memory | **120=100 read-only00–99+20 writableU0–U9/u0–u9**. WRITE required;unsaved edits lost on program change/power-off. Initial user fill pending. | [Official product][SL1G-P];[Manual pp7,10][SL1G-M] |
 | Synth / acoustic | Pedal category lists Acoustic;dedicated simulation behavior pending. Synth unverified. | [Official product][SL1G-P] |
 | I/O | Complete rear inventory:mono INPUT,shared stereo OUTPUT/PHONES,DC9V andPOWER;no AUX,USB,MIDI,loop orEXP socket. | [German product][SL1G-D];[Manual p6][SL1G-M] |
+| Routing / output target | A1 UK-style mid-forward open combo; A2 clean US-style open combo; A3 closed 4×12 stack; Ln line, headphones, power-amp input or recorder. Output target persists; global master resets to **7.0 at power-on**. Lo/Hi controls belong to AMP/DR and stop with that block. | [Manual pp5,8–13][SL1G-M] |
 | Power / battery / USB | **9V DC,approximately200mA;4AA,7.5h alkaline**. Polarity andUSB power unverified. English AC-adapter wording describes supply,not proof of9VAC input. Regional included-battery wording differs. | [German product][SL1G-D];[English product][SL1G-P] |
 | IR / NAM / capture | User IR,native/converted NAM andcapture imports unverified. | Unresolved |
 | Editor / software | No USB/MIDI connector in manual inventory;USB audio unavailable through such a port. Editor/imports unverified. | [Manual pp4–6][SL1G-M] |
-| Looper / drums / live | Tuner A0–E6;reference438–445Hz. **Auto-off after1h without controls orinput audio**,default enabled;EDIT+UP at startup disables,EDIT+DOWN enables;setting persists,restart required after shutdown. Global output modes andbypass details below. Looper/drums/trails unverified. | [Official product][SL1G-P];[Manual pp7–11][SL1G-M] |
+| Looper / drums / live | Tuner A0–E6;reference438–445Hz. **Auto-off after1h without controls orinput audio**,default enabled;EDIT+UP at startup disables,EDIT+DOWN enables;setting persists,restart required after shutdown. Both footswitches bypass all effects including NR; hold about 1 s for mute. Either switch exits without changing program. Calibration resets to 440 Hz after power loss. Hold EDIT 2 s to lock VALUE controls in Program mode. Looper/drums/trails unverified. | [Official product][SL1G-P];[Manual pp7–11][SL1G-M] |
 
 ### Separate IDR hardware offers
 
 | Condition | Evidence | Source |
 |---|---|---|
-| Used | **Rp850,000**,SECOND-title hardware,Habis;historical cached ask,not working-condition/current-stock guarantee. Checked2026-10-17;qualifications below. | [gitar second item][SL1G-S] |
+| Used | **Rp850,000**,SECOND-title hardware,Habis;historical cached ask,not working-condition/current-stock guarantee. Checked 2026-10-17; seller gitar second, shop 61848168 / item 20091595478, Kab. Polewali Mandar. Two-month cache with stale August delivery. Variant, adapter/bundle, warranty, working state, shipping/tax and usable vouchers unknown; late-delivery compensation is not a discount. | [gitar second item][SL1G-S] |
 | New | Unknown;no qualified retail/new offer. | — |
-
-<!-- comparison evidence ends -->
 
 [gitar second item][SL1G-S],shop61848168/item20091595478,Kab.Polewali Mandar. Exact HTML opened,two-month cache;direct20–23Augdelivery versus indexed4–7Aug,both stale. Variant,bundle/adapter,warranty andworking state unknown. Rp10,000late-arrival compensation not discount;shipping/tax/checkout unknown. Not completed-sale evidence. Other condition-unverified exact1Gasks retained inledger;shop-only andmixed1G/2G offers excluded.
 
@@ -213,6 +212,8 @@ Output compensation:A1 UK-style mid-forward open combo,A2 clean US-style open co
 Both footswitches together bypass all effects including NR;holding about1s mutes. Tuner operates in either state;one switch exits without changing program. Tuner calibration resets to440Hz after power loss. EDIT held2s locks VALUE knobs in Program mode.
 
 Lo/Hi controls belong toAMP/DR andstop with that block. ACOUSTIC distortion troubleshooting recommends lower drive/guitar output;it does not establish extra simulation capabilities. Manual p13 confirms62Amp/Drive choices,consistent with44+18. [EFGSJ2 pp5,8–13][SL1G-M].
+
+<!-- comparison evidence ends -->
 
 ## StompLab 2G
 
