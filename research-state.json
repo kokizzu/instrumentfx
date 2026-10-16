@@ -7,8 +7,8 @@
   "active_model_count": 124,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 55,
-  "legacy_only_model_count": 69,
+  "canonical_root_model_count": 56,
+  "legacy_only_model_count": 68,
   "count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once. Current main dd8af6f adds FX150, Cerberus NME-3 and Sonic Wood QCE-50 (120 total,47 canonical); GP-200JR adds one (121 total,48 canonical,73 legacy-only). HX Effects consolidation adds no model; Prime and GE300 add two:123 active,51 canonical,72 legacy-only. Fresh exact Shopee GS1000 lead adds standard GS1000 only:124 active,52 canonical,72 legacy-only; Li not counted.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
@@ -28,11 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh brand/series discovery",
-    "destination": null,
-    "task": "Fresh Shopee brand/series discovery: resolve exact eligible GE200 Plus or GS1000 Li hardware offers, or remaining brands; do not add known models again. Then continue lossless consolidation.",
-    "next_models": [],
-    "after_queue": "Continue unresolved-field checks and lossless consolidation of 69 legacy-only models."
+    "model": "Zoom G2 FOUR",
+    "destination": "ZOOM.md",
+    "task": "Read complete G2 FOUR finding and all supporting comparisons; consolidate losslessly, check current official gaps if useful, regenerate and inspect comparisons, commit before G2X FOUR. Continue fresh Shopee discovery and all unresolved model work afterward.",
+    "next_models": [
+      "Zoom G2X FOUR"
+    ],
+    "after_queue": "Continue remaining 68 legacy-only records, unresolved technical/IDR fields, and fresh exact Shopee hardware discovery. GS1000 Li/GE200 Plus/GE300 Lite searches did not yet establish a new exact hardware offer."
   },
   "new_findings": [
     {
@@ -404,6 +406,93 @@
       "supporting_sources": [
         "effects/shopee-multifx.md"
       ],
+      "status": "Consolidated; technical verification remains partial",
+      "commit": "fe56747"
+    },
+    {
+      "models": [
+        "Zoom G1X FOUR"
+      ],
+      "destination": "ZOOM.md#g1x-four",
+      "source": "effects/findings/2026-10-14-zoom-g1x-four.md",
+      "checked_date": "2026-10-16",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "ZOOM-G1X-FOUR",
+      "source_sha256": "dc4270d06df365c7f44bdc96b251ad9e617f5cb99d78b1507438d42419a3b806",
+      "renamed_references": [
+        "P",
+        "M",
+        "E",
+        "D",
+        "I",
+        "S",
+        "S1"
+      ],
+      "retained_comparison_facts": [
+        {
+          "field": "External expression / toe",
+          "value": "No socket / toe ?",
+          "source": "effects/shopee-multifx.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "K/F/B",
+          "value": "4/2/11",
+          "source": "effects/shopee-multifx.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Dimensions; weight",
+          "value": "216×156×52; 610 g excl. batteries",
+          "source": "effects/shopee-multifx.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Size",
+          "value": "Medium",
+          "source": "effects/shopee-multifx.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Used IDR",
+          "value": "?",
+          "source": "effects/shopee-multifx.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Retail IDR observation",
+          "value": "Rp2.539.350, adapter bundle, storefront observation",
+          "source": "effects/shopee-multifx.md",
+          "context": "Built-in expression"
+        },
+        {
+          "field": "Simultaneous stages; categories / choices",
+          "value": "5 simultaneous, DSP-limited; includes pedal-controlled choices, not assumed identical to non-X",
+          "source": "effects/shopee-multifx.md",
+          "context": "3. Processing, presets and loading"
+        },
+        {
+          "field": "Preset storage",
+          "value": "50 editable; factory subset ?",
+          "source": "effects/shopee-multifx.md",
+          "context": "3. Processing, presets and loading"
+        },
+        {
+          "field": "Acoustic simulation / synth",
+          "value": "**Aco.Sim** / synth ?",
+          "source": "effects/shopee-multifx.md",
+          "context": "3. Processing, presets and loading"
+        },
+        {
+          "field": "IR / NAM",
+          "value": "User IR/NAM import not established",
+          "source": "effects/shopee-multifx.md",
+          "context": "3. Processing, presets and loading"
+        }
+      ],
+      "supporting_sources": [
+        "effects/shopee-multifx.md"
+      ],
       "status": "Consolidated; technical verification remains partial"
     }
   ],
@@ -656,7 +745,8 @@
       "G11",
       "B1Xon",
       "G6",
-      "G1 FOUR"
+      "G1 FOUR",
+      "G1X FOUR"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -741,7 +831,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:104 guitar,54 documented bass-capable,17 vocal; full brand consolidation incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "69 legacy-only models remain;55 root-canonical. Full migration and research incomplete.",
+    "warning": "68 legacy-only models remain;56 root-canonical. Full migration and research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -811,8 +901,8 @@
   ],
   "validation": {
     "unique_brand_model_pairs": 124,
-    "canonical_root_models": 55,
-    "legacy_only_models": 69,
+    "canonical_root_models": 56,
+    "legacy_only_models": 68,
     "guitar_view_models": 104,
     "bass_focused_models": 11,
     "vocal_only_models": 9,
@@ -828,8 +918,8 @@
     "last_checks": [
       "make comparison-verify",
       "make research-verify",
-      "Lossless G6/G1 FOUR body and source checks",
-      "Actual G1 FOUR cells:340g,50 editable,exact item3567135735; G1X offer excluded"
+      "make consolidation-verify",
+      "Actual G6/G1 FOUR/G1X FOUR cells: distinct masses, expression, exact offers, DSP limits and USB power distinctions"
     ]
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
@@ -843,7 +933,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Fresh Shopee brand/series discovery: resolve exact eligible GE200 Plus or GS1000 Li hardware offers, or remaining brands; do not add known models again. Then continue lossless consolidation."
+    "next": "Read complete G2 FOUR finding and all supporting comparisons; consolidate losslessly, check current official gaps if useful, regenerate and inspect comparisons, commit before G2X FOUR. Continue fresh Shopee discovery and all unresolved model work afterward."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -2088,10 +2178,9 @@
       ]
     },
     "Zoom::G1X FOUR": {
-      "link": "effects/findings/2026-10-14-zoom-g1x-four.md",
+      "link": "ZOOM.md#g1x-four",
       "source_files": [
-        "effects/findings/2026-10-14-zoom-g1x-four.md",
-        "effects/shopee-multifx.md"
+        "ZOOM.md"
       ],
       "finding_files": [
         "effects/findings/2026-10-14-zoom-g1x-four.md"

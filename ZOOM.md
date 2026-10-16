@@ -58,7 +58,7 @@ These are individual asking observations, not completed-sale statistics or an ac
 
 ## Existing ZOOM research — consolidation still pending
 
-The existing G1X FOUR,G2 FOUR,G2X FOUR,B1 FOUR,B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+The existing G2 FOUR,G2X FOUR,B1 FOUR,B1X FOUR,B2 FOUR,B6,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
 
 ## B1Xon
 
@@ -235,3 +235,60 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **IR / NAM** (3. Processing, presets and loading): Factory cabs; user IR/NAM import not established
 
 Sources: [effects/findings/2026-10-14-zoom-g1-four.md](effects/findings/2026-10-14-zoom-g1-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+
+## G1X FOUR
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- ZOOM-G1X-FOUR source begins -->
+
+Checked **2026-10-14**. **Partial new model**, separate from G1 FOUR. Primary evidence: [manufacturer page][ZOOM-G1X-FOUR-P], [quick-guide specifications][ZOOM-G1X-FOUR-M], [effect list][ZOOM-G1X-FOUR-E], [downloads][ZOOM-G1X-FOUR-D] and [official top photograph][ZOOM-G1X-FOUR-I].
+
+| Field | Established / unknown |
+|---|---|
+| Expression | **Built-in**; no external-expression jack; toe-switch details ? |
+| Controls | **4 rotary /2 footswitches /11 separate buttons**; two small arrows are not extra main footswitches |
+| Screen | **128×32 dot-matrix monochrome LCD**; diagonal and explicit touch specification ? |
+| Size / weight | **216×156×52 mm; 610 g excluding batteries**; medium; allow additional pedal travel |
+| Processing | **5 simultaneous**, DSP-limited; 70+ advertised family effects/amp models; pedal-specific options included; per-category installed counts ? |
+| Presets | **50 editable** total; factory-filled subset ? |
+| Acoustic / synth | **Aco.Sim** in official effect list; synth ? |
+| Ports | ¼-inch mono input; ⅛-inch aux; shared ¼-inch stereo line/headphone output; micro-USB |
+| Power | **4 AA**, **9 V/500 mA center-negative AD-16**, or **USB bus power** |
+| IR / NAM | User file import not established; factory cab algorithms are not a third-party IR loader |
+| Apps | **Guitar Lab Windows/macOS**; no verified mobile editor |
+| Extras | **30 s looper; 68 rhythms**; USB editor connection, not documented USB audio |
+
+### Shopee Indonesia
+
+**Rp2.539.350**, with adapter, in the [zoomsoundlab.id storefront][ZOOM-G1X-FOUR-S], linked to [item 5967038321][ZOOM-G1X-FOUR-S1]. Retail indexed/storefront ask; live stock, full condition and checkout price not confirmed. Explicit used quote **?**. Do not silently compare an adapter bundle with a bare unit or treat the account name as proof of authorized status.
+
+The manufacturer publishes library additions through April 2026; installed counts and firmware require separate verification. Do not add downloaded library choices to every unit's onboard total without checking.
+
+[ZOOM-G1X-FOUR-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/
+[ZOOM-G1X-FOUR-M]: https://zoomcorp.com/media/documents/E_G1FOUR_QuickGuide_0.pdf
+[ZOOM-G1X-FOUR-E]: https://zoomcorp.com/documents/44/E_G1FOUR_FX-list.pdf
+[ZOOM-G1X-FOUR-D]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/
+[ZOOM-G1X-FOUR-I]: https://zoomcorp.com/media/original_images/G1X-FOUR_top_vrQEE6Z.jpg.800x482_q70_crop_focal_area-1189%2C1320%2C1826%2C887_size_canvas.jpg
+[ZOOM-G1X-FOUR-S]: https://shopee.co.id/zoomsoundlab.id
+[ZOOM-G1X-FOUR-S1]: https://shopee.co.id/Zoom-G1X-Four-Guitar-Multi-Effects-Pedals-With-Adaptor-i.348182890.5967038321
+
+**Next:** display diagonal/touch documentation, exact per-category installed library and dependable secondhand offers.
+<!-- ZOOM-G1X-FOUR source ends -->
+
+### G1X FOUR — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **External expression / toe** (Built-in expression): No socket / toe ?
+- **K/F/B** (Built-in expression): 4/2/11
+- **Dimensions; weight** (Built-in expression): 216×156×52; 610 g excl. batteries
+- **Size** (Built-in expression): Medium
+- **Used IDR** (Built-in expression): ?
+- **Retail IDR observation** (Built-in expression): Rp2.539.350, adapter bundle, storefront observation
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 5 simultaneous, DSP-limited; includes pedal-controlled choices, not assumed identical to non-X
+- **Preset storage** (3. Processing, presets and loading): 50 editable; factory subset ?
+- **Acoustic simulation / synth** (3. Processing, presets and loading): **Aco.Sim** / synth ?
+- **IR / NAM** (3. Processing, presets and loading): User IR/NAM import not established
+
+Sources: [effects/findings/2026-10-14-zoom-g1x-four.md](effects/findings/2026-10-14-zoom-g1x-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
