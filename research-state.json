@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-8 primary follow-up",
-    "task": "GT-8 Hold delay,22/33 FX choice partition,synth/acoustic distinctions saved with manufacturer transcript identity. Next verify remaining category counts and MIDI/software restrictions; fresh Shopee discovery afterward. Do not infer GT-10-style phrase-loop duration or freely interchangeable FX slots. Commit before another model.",
+    "model": "Fresh Shopee discovery after GT-8 followups",
+    "task": "GT-8 category counts,shared custom definitions and MIDI backup distinctions saved. Resume fresh Shopee Indonesia discovery by brand/series for unrecorded eligible multi-effects. GT-8 visual controls,initial userfill,current editor/import details and qualified prices remain deferred. Do not treat every field complete; commit each model before next.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery remains necessary; no exhaustive coverage claim."
   },
@@ -2322,6 +2322,25 @@
           "imports/software",
           "visual panel",
           "condition-qualified offers"
+        ]
+      },
+      "category_midi_followup": {
+        "checked_date": "2026-10-17",
+        "source": "https://manualzilla.com/doc/7445272/roland-gt-8-owner-s-manual",
+        "pages": "29–34,63–66,80–83",
+        "resolved": [
+          "Drive30+3custom;delay12;chorus3;reverb7;comp2;wah6+3custom",
+          "Delay0–1800ms;dual0–900ms;initial transition and Hold/Modulate sharing restrictions",
+          "Shared custom definitions affect all referencing patches",
+          "SysEx System/Quick/userpatch/Temp distinctions and matching Device ID",
+          "External clock vs Internal tempo"
+        ],
+        "remaining": [
+          "visual panel",
+          "initial userfill",
+          "current editor/platform",
+          "imports",
+          "qualified offers"
         ]
       }
     }
@@ -38020,7 +38039,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-8 primary follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after GT-8 followups."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
