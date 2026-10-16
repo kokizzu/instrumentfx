@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Smart Box complete original-body audit",
-    "task": "Directory-wide scan exposed four active findings omitted from registered manifests; Matribox full original now preserved. Next read complete Smart Box finding/root and preserve/hash-check all original facts and URLs; then Pocket Master and electric CUBE BABY individually. Compact prose union has nine nonidentical paragraphs despite all URLs present; full shared/incoming-link audits, fresh Shopee discovery and technical gaps remain.",
+    "model": "Sonicake Pocket Master complete original-body audit",
+    "task": "Read and preserve complete original Pocket Master finding, then electric CUBE BABY separately. Smart Box original retained with reversible hash/body verification. Continue full shared-source prose/incoming audits, fresh Shopee discovery and technical gaps; do not retire legacy sources.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -10270,6 +10270,25 @@
       },
       "retained_comparison_facts": [],
       "scope": "Complete previously unregistered original retained with regional offer, source links and all qualification prose; earlier registered-pair count was not whole-directory certification."
+    },
+    {
+      "models": [
+        "Sonicake Smart Box QME-20"
+      ],
+      "model_name": "Smart Box QME-20",
+      "destination": "SONICAKE.md#smart-box-qme-20",
+      "source": "effects/findings/2026-10-14-sonicake-smart-box.md",
+      "checked_date": "2026-10-17",
+      "verification_kind": "complete-source-body-v1",
+      "marker": "SONICAKE-SMARTBOX",
+      "source_sha256": "bf557b22e535a35e3cb96030c869c0c0202ceec842e8778d3fa4a4cefecbe714",
+      "renamed_references": [],
+      "link_normalizations": {
+        "(../guitar-compact.md)": "(effects/guitar-compact.md)",
+        "(../RESUME.md)": "(effects/RESUME.md)"
+      },
+      "retained_comparison_facts": [],
+      "scope": "Complete previously unregistered original retained with manufacturer manual observation, mobile version and architecture limits, exact seller ask and condition/stock qualifications. No new technical or stock verification."
     }
   ],
   "discovery_leads": [
@@ -10841,10 +10860,10 @@
       "current_check": {
         "date": "2026-10-17",
         "target": "make consolidation-audit-findings",
-        "registered_pairs": 78,
-        "covered": 78,
+        "registered_pairs": 81,
+        "covered": 81,
         "missing": [],
-        "scope": "Registered finding/model pairs only; actual-directory audit found three more active findings pending registration/preservation and a separately verified excluded archive."
+        "scope": "Registered finding/model pairs only; the shared POD Go canonical section preserves both original variant sources, producing two cross-variant provenance pairs, not extra models or borrowed specifications. Two actual-directory active findings remain pending and excluded FV01 has separate verification."
       }
     },
     "legacy_source_inventory": {
@@ -14318,10 +14337,10 @@
       "date": "2026-10-17",
       "scope": "All 82 actual finding Markdown paths checked against source manifests; absence does not prove lost facts.",
       "repaired": [
-        "effects/findings/2026-10-14-sonicake-matribox.md"
+        "effects/findings/2026-10-14-sonicake-matribox.md",
+        "effects/findings/2026-10-14-sonicake-smart-box.md"
       ],
       "pending_active": [
-        "effects/findings/2026-10-14-sonicake-smart-box.md",
         "effects/findings/2026-10-14-sonicake-pocket-master.md",
         "effects/findings/2026-10-15-mvave-cube-baby.md"
       ],
@@ -14409,7 +14428,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B1Xon preservation-check reconciliation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Pocket Master complete original-body audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -15048,6 +15067,7 @@
         "LINE6.md"
       ],
       "finding_files": [
+        "effects/findings/2026-10-15-line6-pod-go-wireless.md",
         "effects/findings/2026-10-15-line6-pod-go.md"
       ]
     },
@@ -15057,7 +15077,8 @@
         "LINE6.md"
       ],
       "finding_files": [
-        "effects/findings/2026-10-15-line6-pod-go-wireless.md"
+        "effects/findings/2026-10-15-line6-pod-go-wireless.md",
+        "effects/findings/2026-10-15-line6-pod-go.md"
       ]
     },
     "Line 6::POD Express Guitar": {
@@ -15469,7 +15490,9 @@
       "source_files": [
         "SONICAKE.md"
       ],
-      "finding_files": []
+      "finding_files": [
+        "effects/findings/2026-10-14-sonicake-smart-box.md"
+      ]
     },
     "Sonicake::Pocket Master QME-10": {
       "link": "SONICAKE.md#pocket-master-qme-10",

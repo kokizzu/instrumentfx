@@ -114,6 +114,14 @@ def field_value(headers, row):
         value += ' — ' + headers[2] + ': ' + row[2]
     return value
 
+
+def manifest_findings(state, files, destination):
+    """Keep explicit full-body provenance when filename aliases omit a model code."""
+    return {entry['source'] for entry in state.get('consolidation_and_price_findings', [])
+            if entry.get('verification_kind') == 'complete-source-body-v1'
+            and entry.get('destination') == destination
+            and '/findings/' in entry.get('source', '') and entry['source'] in files}
+
 def make_plan():
     identity()
     files = {str(p.relative_to(ROOT)):p.read_text() for p in ROOT.rglob('*.md') if '.git' not in p.parts and 'history' not in p.name}
@@ -169,6 +177,7 @@ def make_plan():
             filename, heading, body = r['canonical']
             sources=[(filename,body)]
             r['link']=filename+'#'+slug(heading)
+            finding_for[key].update(manifest_findings(state, files, r['link']))
             # Canonical records supersede stale legacy summaries (e.g. POD Express dimensions).
             facts[key]=[]
         else:
@@ -536,6 +545,11 @@ def test_field_projection():
 
 
 def test_field_extraction():
+    fixture = {'consolidation_and_price_findings': [
+        {'verification_kind':'complete-source-body-v1', 'destination':'BRAND.md#model', 'source':'effects/findings/original.md'},
+        {'verification_kind':'complete-source-body-v1', 'destination':'BRAND.md#sibling', 'source':'effects/findings/sibling.md'},
+        {'verification_kind':'complete-source-body-v1', 'destination':'BRAND.md#model', 'source':'effects/findings/missing.md'}]}
+    assert manifest_findings(fixture, {'effects/findings/original.md':'', 'effects/findings/sibling.md':''}, 'BRAND.md#model') == {'effects/findings/original.md'}
     headers = ['Field', 'Finding', 'Evidence']
     row = ['Expression', 'External only', '[Manufacturer][manual]']
     value = field_value(headers, row)
