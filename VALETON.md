@@ -1,6 +1,6 @@
 # Valeton multi-effects
 
-Root-level brand records. New evidence checked **2026-10-15**. Existing GP-50 records remain in legacy files until their complete source-backed content is consolidated here; they are not counted again or deleted by this addition.
+Root-level brand records. Evidence retains model-specific dates below. All eight recorded Valeton models are consolidated below, with GP-200X retained as a GP-200 anniversary variant. Technical verification and market discovery remain incomplete; original sources are retained.
 
 ## GP-200LT
 
@@ -562,3 +562,98 @@ P2 separately listed USD102 B-stock; that is not used-price evidence. P5 contain
 Historical GP-5 source URLs: https://www.guitarcenter.com/Valeton/Multi-Effects-Pedals.gc, https://shop.valeton.net/products/gp-5
 
 Sources: [effects/findings/2026-10-14-valeton-gp-5.md](effects/findings/2026-10-14-valeton-gp-5.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+
+## GP-50
+
+Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- VALETON-GP-50 source begins -->
+
+Research date: **2026-10-14**. Existing model; inventory unchanged. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+
+### Technical findings
+
+The [manufacturer product page](https://www.valeton.net/product/gp-50/) specifies a **1.77-inch full-color screen**. The [manufacturer firmware-1.0.5 manual](https://res.valeton.net/Uploads/wp/download/1765332901545.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.0.5_251128.pdf), printed pp.7–8, identifies the LCD and establishes **4 rotary controls / 2 footswitches / 4 separate buttons**: PARA plus three quick controls, and SAVE, EXIT/BT, GLOBAL and DRUM. A push-encoder is not counted twice.
+
+**Touchscreen: unverified.** The manual's documented editing operation uses knobs/buttons; that is not turned into an unsupported explicit touch-hardware specification. Numeric pixel resolution is also unverified.
+
+The manual and product page explicitly support **USB-powered operation**, not merely USB charging. The previously documented 1450 mAh battery, DC/USB alternatives, separate headphone output and external expression support remain preserved in the main comparison.
+
+### Indonesian prices
+
+[Smosyu Music's GP-50 listing](https://smosyumusic.com/products/valeton-gp-50) identifies a new item at **Rp1.985.000**, with a **Sold out** purchase state.
+
+| Used IDR | New IDR | Qualification |
+|---|---|---|
+| **?** | **Rp1.985.000** | Sold-out Indonesian new listing; not an active purchasable offer. |
+
+No dependable local used quote was established. This is not a used-to-new market estimate or a completed-sale figure. Accessories, delivery and final tax treatment are not assumed. The earlier USD119.99 official-shop observation is retained only as foreign-price provenance.
+
+### Remaining work / next checkpoint
+
+Explicit touch specification, active used/new offers and all existing algorithm-count unknowns remain open. Next model: **Valeton GP-180**.
+<!-- VALETON-GP-50 source ends -->
+
+### GP-50 — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **Display** (1. Displays): LCD
+- **Diagonal, inches** (1. Displays): 1.77
+- **Monochrome / color** (1. Displays): Color
+- **Touchscreen** (1. Displays): ?
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer product page and firmware-1.0.5 manual](effects/findings/2026-10-14-valeton-gp-50.md)
+- **Built-in / external expression** (No built-in expression pedal): No / EXP/FS
+- **K/F/B** (No built-in expression pedal): **4/2/4** [F50]
+- **Width × depth × height, mm** (No built-in expression pedal): 122 × 82 × 54
+- **Weight** (No built-in expression pedal): 430 g
+- **Used IDR observation** (No built-in expression pedal): ?
+- **New / retail IDR observation** (No built-in expression pedal): **Rp1.985.000**, Smosyu; **sold out**, not active offer [F50]
+- **Simultaneous blocks / categories and choices** (3. Processing, memory, IR and NAM): 9 simultaneous; 100+ effects; category breakdown ?
+- **Presets and user storage** (3. Processing, memory, IR and NAM): 100 total / 55 factory-filled; 45 remaining slots
+- **Synth / acoustic functions** (3. Processing, memory, IR and NAM): Exact synth/acoustic choices ?
+- **Third-party IR** (3. Processing, memory, IR and NAM): 20 user slots
+- **NAM / captured models** (3. Processing, memory, IR and NAM): SnapTone converted NAM; 80 model slots / 50 supplied
+- **Audio / control connections** (4. Connections, power, apps and practical differences): ¼″ input; 2 × ¼″ outputs; 3.5 mm phones; EXP/FS; 3.5 mm TRS MIDI IN/THRU; USB-C
+- **Power and battery** (4. Connections, power, apps and practical differences): 1450 mAh rechargeable; DC 9 V centre-negative/500 mA or **USB operation at 5 V/1 A**; DC/USB charging
+- **Configuration software** (4. Connections, power, apps and practical differences): iOS/Android editing; Windows/macOS file/firmware management
+- **Other relevant features** (4. Connections, power, apps and practical differences): USB 2-in/2-out/reamp; looper; 100 rhythms; analog/digital bypass
+- **Original used quote** (Archived foreign-price provenance — not the comparison currency): Unverified
+- **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD119.99
+- **Original evidence** (Archived foreign-price provenance — not the comparison currency): [P7]
+
+### GP-50 comparison fields — dated evidence
+
+| Field | Dated evidence |
+|---|---|
+| Display | LCD |
+| Diagonal, inches | 1.77 |
+| Monochrome / color | Color |
+| Touchscreen | ? |
+| Evidence and remaining uncertainty | [Manufacturer product page and firmware-1.0.5 manual](effects/findings/2026-10-14-valeton-gp-50.md) |
+| Built-in / external expression | No / EXP/FS |
+| K/F/B | **4/2/4** [detail](VALETON.md#gp-50) |
+| Width × depth × height, mm | 122 × 82 × 54 |
+| Weight | 430 g |
+| Used IDR observation | ? |
+| New / retail IDR observation | **Rp1.985.000**, Smosyu; **sold out**, not active offer [detail](VALETON.md#gp-50) |
+| Simultaneous blocks / categories and choices | 9 simultaneous; 100+ effects; category breakdown ? |
+| Presets and user storage | 100 total / 55 factory-filled; 45 remaining slots |
+| Synth / acoustic functions | Exact synth/acoustic choices ? |
+| Third-party IR | 20 user slots |
+| NAM / captured models | **SnapTone converted NAM**,80 model slots/50 supplied. **NAM A2 conversion requires hardware firmware1.1.0+ and mobile app2.1.0+**, explicitly named for GP-50 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Native NAM, exact supported A2 architectures and simultaneous capture limits remain unverified. Preserve older firmware1.0.5 manual context separately. |
+| Audio / control connections | ¼″ input; 2 × ¼″ outputs; 3.5 mm phones; EXP/FS; 3.5 mm TRS MIDI IN/THRU; USB-C |
+| Power and battery | 1450 mAh rechargeable; DC 9 V centre-negative/500 mA or **USB operation at 5 V/1 A**; DC/USB charging |
+| Configuration software | iOS/Android editing; Windows/macOS file/firmware management |
+| Other relevant features | USB 2-in/2-out/reamp; looper; 100 rhythms; analog/digital bypass |
+| New / retail Shopee IDR observations | Checked2026-10-17: [HOLY MUSIC](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866), seller945642322/item55704518866,Kota Jakarta Utara: search **Rp2.245.000**, reopening **Rp2.255.000**; preserve snapshot discrepancy, no authenticated stock. [Diana Musik](https://shopee.co.id/Valeton-GP-50-GP50-Multi-Effects-Processor-i.495337904.56105944082), seller495337904/item56105944082,Kota Yogyakarta: **Rp2.255.000,Habis**, stale8September delivery. Exact hardware retail asks, not completed transactions. Condition, accessory bundle, warranty region, delivered charges and voucher eligibility unconfirmed. No qualified used IDR quote established. |
+
+Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
+
+**Availability warning:** the Nafiri GP-100/Pocket Master and Smosyu GP-5 extracted pages contain both a sold-out label and Add to cart. Those conflicting page elements are recorded as **unconfirmed**, not definite stock. The GP-100 used and GP-50 new listings have an explicit sold-out purchase state; these are historical listed amounts, not active offers or proven sale prices. A seller account name does not establish authorized-dealer status.
+
+These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected.
+
+Historical GP-50 source URLs: https://shop.valeton.net/products/gp-50, https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png
+
+Sources: [effects/findings/2026-10-14-valeton-gp-50.md](effects/findings/2026-10-14-valeton-gp-50.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
