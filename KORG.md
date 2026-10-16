@@ -139,3 +139,36 @@ Manual E2 viewed as browser text; controls not visually certified. No manual/sof
 [AX15-P]: https://www.korg.com/de/products/effects/ax1500g/
 [AX15-A]: https://www.korg.com/de/products/accessories/ka_189/
 [AX15-S]: https://shopee.co.id/Efek-Multi-Gitar-Listrik-Korg-Toneworks-AX1500G-Bekas-i.18190367.28842881961
+
+## AX5G
+
+Guitar multi-effects; distinct from AX3G, AX100G and AX5B. Checked 2026-10-17; partial. Discontinued in Korg regional catalogue. Bass/vocal classification unverified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in volume/wah/parameter pedal with toe switch; external expression unsupported by documented rear inventory. Quick Assign. | [Manual][AX5-M] pp5–6 |
+| K/F/B | **2 rotary / 2 main footswitches / 3 buttons**, plus toe: function selector, value; Program Up/Down; Write, Cancel, pedal setting. Text-derived inventory. | [Manual][AX5-M] pp5–6 |
+| Display | Program/value display; published diagonal, color and touch unverified. | [Manual][AX5-M] p5 |
+| Dimensions / mass | Manual: **249 W ×143 D ×44 H mm;650 g**. German specifications: **178×142×43 mm;340 g**. Unresolved source conflict; neither substituted silently. | [Manual][AX5-M] p13; [regional specifications][AX5-S] |
+| Processing / category choices | Up to **six effects including NR, plus volume pedal**. Manual **58** types versus German **57**. Listed categories: Pre 11 (10+pedal wah), Drive/Amp16, Cab10, Mod10, Delay5, Reverb5, NR1. Delay/reverb share an edit category. Exact routing limitations remain partial. | [Manual][AX5-M] pp5,13; [regional features][AX5-F] |
+| Factory / user memory | **80 total:40 user +40 presets**. User slots01–40;presets41–80. Factory reload overwrites user work. | [Manual][AX5-M] pp7,12–13 |
+| Synth / acoustic | AC SIM and DRONE are listed; DRONE provides a sitar-like drone. Dedicated synth architecture remains unverified. | [Regional features][AX5-F] |
+| I/O | **¼-inch mono input;¼-inch stereo TRS output shared with headphones;DC input**. Rear inventory lists no USB/MIDI or external-control socket; no USB audio established. | [Manual][AX5-M] pp6,13 |
+| Power / battery / USB | **9 V adapter optional;four alkaline AA,about8h**. Battery power follows input-cable insertion/removal. Polarity,current and USB-powered operation unverified. | [Manual][AX5-M] pp6–7,13 |
+| IR / NAM / capture | Factory cabinets do not prove user IR,native/converted NAM or capture import;unverified. | Unresolved |
+| Editor / software | Editor/platform support unverified. Onboard editing documented. | [Regional features][AX5-F] |
+| Looper / drums / live | Delay carries over only with matching type/time;reverb with matching type. Bypass/muted tuner. Looper,drums,scenes unverified. | [Manual][AX5-M] p5 |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | **Rp1,250,000;Habis**, Henry Music Gear,Surabaya;shop23465113/item27600312475. Title explicitly says secondhand. Month-old cache,checked2026-10-17. Working condition,revision,adapter/bundle,warranty and voucher unknown;not live stock or a completed sale. | [Exact item][AX5-O] |
+| New | Unknown;no qualified exact offer. | — |
+
+German regional specifications corroborate the 80-slot split,battery supply,tuner and converter rates,but their smaller body/mass disagree with the original AX5G manual. Regional 57 versus manual58 is retained;adding pedal wah may explain arithmetic but is not a verified revision history. Manufacturer effect-type list includes acoustic and drone processing;these do not establish bass suitability. No file downloaded or physical panel inspected.
+
+[AX5-M]: https://cdn.korg.com/us/support/download/files/fbe8655e2b64942cfb5073f5a39aa69f.pdf
+[AX5-S]: https://www.korg.com/de/products/effects/ax5g/page_2.php
+[AX5-F]: https://www.korg.com/de/products/effects/ax5g/page_1.php
+[AX5-O]: https://shopee.co.id/Korg-AX5G-Guitar-Multi-Effects-Processor-Secondhand-Sangat-Mulus-i.23465113.27600312475
