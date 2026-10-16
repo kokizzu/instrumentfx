@@ -313,7 +313,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP USB monitoring and output mode controls'
         if mode == 'commit-perform-ve':
-            message = 'research(tc-helicon): verify PERFORM-VE category choices and routing conflicts'
+            message = 'research(tc-helicon): restore PERFORM-VE routing conflicts and qualified offer coverage'
         if mode == 'commit-perform-vg':
             message = 'research(tc-helicon): restore PERFORM-VG styles remote rules and offer in comparisons'
         if mode == 'commit-perform-vk':

@@ -516,9 +516,10 @@ Mic-stand vocal multi-effects,distinct fromV/VK/VG. Checked2026-10-17;initial pa
 | Factory / user memory | **Three onboard presets**, saved by holding a number button for1s;persist after power-off. Initial factory fill unverified. | [Manual p23][PVE-R] |
 | Synth / acoustic | **Vocal virtual-analog vocoder andVS Synthesis sampled voices** documented;not evidence of instrument synth/acoustic simulation. | [Official manual p4][PVE-M] |
 | I/O | Documented: **XLR MIDAS mic input,+48V**,balanced stereo6.35mm outputs,stereo3.5mm AUX,headphone jack,PEDAL remote,miniUSB and5-pin MIDI input. MIDI output viaUSB. Electori specifies main **L/R impedance-balanced TRS**,headphones3.5mm stereo,AUXunbalanced. Complete panel inventory pending. | [Manual pp5,7,24][PVE-R];[Electori][PVE-J] |
+| Routing / AUX and RoomSense | Rev.1.2 p24 both denies AUX chord detection and describes AUX key/scale guidance: unresolved conflict. Hold Headphone while inserting AUX to exclude it from mains; replug or power resets. Headphones retain AUX. RoomSense needs headphones and no external mic, and mutes mains. This does not establish guitar processing. | [Manual pp24–25][PVE-R] |
 | Power / battery / USB | QSG specifies **12V / >1A supply**. Electori regional specification: **12V DC,center-negative,1A,included adapter**;manufacturer corroboration pending. Preserve **1A versus QSG >1A** difference. Measured draw,battery andUSB power unverified. Supply requirement is not measured consumption. | [Official QSG pp10–11][PVE-Q];[Electori][PVE-J] |
 | IR / NAM / capture | UserIR,native/converted NAM andamp capture imports unverified. Vocal sample recording is a separate function. | Unresolved |
-| Editor / software | VoiceSupport2 firmware utility. Windows update instructions requireUSB driver;Mac says driver unnecessary for update. QSG separately requiresdriver for computer audio/MIDI;platform/revision scope unresolved. **USB audio:5 host-to-unit/6 unit-to-host channels**. Input1/2 backing,3dryvoice,4sample,5silent NaturalPlay guide;output1/2processed stereo,3dryvoice,4sample,5/6AUX. USB backing reaches analog outputs but not USB capture. WhenUSB3 stops,SET restores mic. iOS/Android app backs up/restores presets;onlyiOS handles samples. Current availability/full editor unverified. ControlKnob lead/MIDI mix isglobal andresets atpoweroff. | [Manual p4][PVE-M];[QSG pp10–11][PVE-Q];[Manual pp22–24][PVE-R] |
+| Editor / software | VoiceSupport2 firmware utility. Windows update instructions requireUSB driver;Mac says driver unnecessary for update. QSG separately requiresdriver for computer audio/MIDI;platform/revision scope unresolved. **USB audio:5 host-to-unit/6 unit-to-host channels**. Input1/2 backing,3dryvoice,4sample,5silent NaturalPlay guide;output1/2processed stereo,3dryvoice,4sample,5/6AUX. USB backing reaches analog outputs but not USB capture. Manual USB-output wording mentions Keyboard despite no established keyboard-audio input; retain this source ambiguity. WhenUSB3 stops,SET restores mic. iOS/Android app backs up/restores presets;onlyiOS handles samples. Current availability/full editor unverified. ControlKnob lead/MIDI mix isglobal andresets atpoweroff. | [Manual p4][PVE-M];[QSG pp10–11][PVE-Q];[Manual pp22–24][PVE-R] |
 | Looper / drums / live | **Two looper tracks:drum pattern+audio**,audio length can multiply drum pattern. Kick/snare/hi-hat build beats;audio overdub supported. Drum quantize uses16th notes;fourkick/foursnare choices,linkedhi-hat. Derivedtempo80–160BPM;newtaptempo requireserasure. SET+component erases thatpart. p20 describes externalMIDIclock;appendixp27 saysMIDI Tempo,notMIDIClock:unresolved conflict. Duration/storage/scenes pending. Vocal sample islost atpoweroff. Headphone level cannotbe adjusted until loop iserased. Flange affects loop audio/drums;sidechain pump affects audio but not drums;LPF/HPF affects both. Other transducer styles exclude drums. | [QSG][PVE-Q];[Manual pp19–24,27][PVE-R] |
 
 ### Routing qualifications
@@ -532,11 +533,9 @@ Rev.1.2 p24 contradicts itself: AUX chord detection is first denied, then AUX is
 | Used | Unknown;offer condition unconfirmed. | — |
 | New | Unknown;offer condition unconfirmed. | — |
 
-<!-- comparison evidence ends -->
-
 ### Condition-unverified exact hardware
 
-[limitless__store item](https://shopee.co.id/TC-Helicon-Perform-VE-Garansi-Resmi-Original-i.95687096.3406909366),shop95687096/item3406909366,Kota Jakarta Pusat:Rp3,900,000,Habis. Checked2026-10-17,two-month index;direct cache miss. Relative Besok delivery andseller activity do not establish currentstock. Condition,variant,bundle/adapter,warranty terms andworking state unknown;Garansi Resmi Original title does not prove newcondition. Rp20,000late-arrival compensation notdiscount;shipping/tax/checkout unknown. Notqualified used/new price.
+limitless__store: [exact item](https://shopee.co.id/TC-Helicon-Perform-VE-Garansi-Resmi-Original-i.95687096.3406909366),shop95687096/item3406909366,Kota Jakarta Pusat:Rp3,900,000,Habis. Checked2026-10-17,two-month index;direct cache miss. Relative Besok delivery andseller activity do not establish currentstock. Condition,variant,bundle/adapter,warranty terms andworking state unknown;Garansi Resmi Original title does not prove newcondition. Rp20,000late-arrival compensation notdiscount;shipping/tax/checkout unknown. Notqualified used/new price.
 
 Official indexed manual p4 andQSG pp10–11 used;both directPDFs502. Full Compass manufacturer-authored copy identifies PERFORM-VE,Rev.1.2,©2017;title andp4 introduction match officialindexedmanual. OfficialPDF revision remainsunverified. USBoutput wording mentions Keyboard despite no establishedkeyboard-audio input;retain thissource limitation. No sibling technical claims ormanufacturer mirrorFAQ used. No software,dependencies orfiles downloaded.
 
@@ -546,3 +545,5 @@ Official indexed manual p4 andQSG pp10–11 used;both directPDFs502. Full Compas
 [PVE-R]: https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf
 
 [PVE-J]: https://www.electori.co.jp/tc-helicon/vocal/perform_ve.php
+
+<!-- comparison evidence ends -->
