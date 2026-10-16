@@ -770,14 +770,14 @@ Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Ex
 | K/F/B | Separate control counts pending pilotguide. | Unresolved |
 | Display | Diagonal,color,touch/technology unverified. | Unresolved |
 | Dimensions / mass | FAQ: **21.50W×10.29D×2.91H inches**;masspending. Large footprint. | [OfficialFAQ][HD5-F] |
-| Processing / category choices | Pre/Post andparallelA/B paths withmixer;exactblock/categorycounts pending. Do nottransferHD500X DSPcapacity. | [Guide1•1][HD5-M] |
+| Processing / category choices | **Eight FX blocks**,any one caninstead hosthardwareFXloop. **Up to two amp blocks** whenplaced inparallelA/B;singleamp canusePre/Post/A. Mixer fixedafterA/B. DSPlimits constraincombinations;categorycounts pending. Do nottransferHD500X DSPcapacity. | [Guide3•1–4,3•14][HD5-M] |
 | Factory / user memory | **8 setlists×64=512 presetlocations**. Initialfactoryfill pending. | [Guide4•1][HD5-M] |
 | Synth / acoustic | Exactmodelalgorithms pending. | Unresolved |
 | I/O | Rear diagram includesguitar,mic,AUX,CD/MP3,phones,balanced/unbalanced outputs,FXloop,PEDAL2,MIDI,S/PDIFout,USB,Variax,L6LINK,DC. Complete sockettypes/counts pending. | [Guide1•4][HD5-M] |
 | Power / battery / USB | FAQ **DC-3g9V DC3A,2.5mm,center-negative**;guide rearlabel2.5Aminimum. Supplyrating≠measureddraw. Battery/USBpower unknown. | [FAQ][HD5-F];[Guide1•4][HD5-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,captureimports unverified. | Unresolved |
-| Editor / software | **POD HD500 Edit Windows/Mac editor/librarian**;USB audio driver chapter. Audiochannels/currentOS pending. | [Guide1•5,9•1][HD5-M] |
-| Looper / drums / live | Dedicatedlooper chapter;duration/storage/drums/scenes/trails pending. | [Guide8•1][HD5-M] |
+| Editor / software | **POD HD500 Edit Windows/Mac editor/librarian**;USB audio driver chapter. Driver routesprocessedrecordsend tocomputer andmixeslocalmonitor withcomputerplayback atanalogouts. **USB audio muted whenL6LINK connectsDT25/DT50**. Guide recommendsdirectUSB2,not hub. Audiochannels/currentOS pending. | [Guide1•5,9•1–2][HD5-M] |
+| Looper / drums / live | **Mono24s normal/48s half-speed**,overdub,undo,reverse. Switchingrecordedspeed changespitch byoctave andplaybackspeed by2×. Storage,drums,scenes/trails pending. | [Guide8•1,8•6][HD5-M] |
 
 ### Separate IDR hardware offers
 

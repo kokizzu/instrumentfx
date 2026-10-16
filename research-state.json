@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD500 primary follow-up",
-    "task": "InitialoriginalHD500 profile savedfromv2.10RevAguide;exactShopeeunitidentityunconfirmed. Nextpilotguidecontrols/IO,FXblockcounts,synth/USB/looplimits. Commitbeforeanothermodel.",
+    "task": "HD500 8FX/2amp architecture,24/48smono looper andL6LINKUSBmute saved. Nextpilotguidecontrols/fullIO,exactcategories/synth andUSBchannels. Bassclassification/priceidentity remainunverified.",
     "next_models": [],
     "after_queue": "ContinuebassShopeediscovery;HD500basscapability notyetclassified."
   },
@@ -3420,7 +3420,12 @@
         "IRNAMcapture",
         "USBchannels",
         "Qualifiedprices"
-      ]
+      ],
+      "processing_usb_loop_followup": {
+        "revision": "Officialv2.10RevA",
+        "verified": "8FXincludingoptionalFXloop;2parallelamps;DSPconstraints;mono24/48sloop;USBrecordmonitorrouting;DTL6LINKmutesUSB",
+        "remaining": "Controlcounts/fullsockettypes,categorychoices,synth,USBchannels,currentOS,prices"
+      }
     }
   ],
   "consolidation_and_price_findings": [
