@@ -88,6 +88,8 @@ Full findingreferencesretainallmanufacturer,manual,importerandsellerlinks.Nogues
 
 Sources: [Original finding](effects/findings/2026-10-15-audota-ame-100.md), [Complete supporting comparison](effects/audota.md). Neither legacy source nor incoming link was removed.
 
+<!-- comparison evidence begins -->
+
 ### Current AME-100 comparison fields
 
 | Field | Evidence and limitations |
@@ -109,6 +111,8 @@ Sources: [Original finding](effects/findings/2026-10-15-audota-ame-100.md), [Com
 | Recording / practice | USB/OTG recording; exact channels, sample rates and driver requirements unverified. **20s looper,40 drum rhythms+10 metronomes**, tuner435–445Hz, BLE foot control and dynamic effect-chain editing [P] |
 | Used IDR | **?**, no condition-verified current Indonesian used quote obtained |
 | New IDR / Shopee | **?**, targeted searches did not establish an exact AME-100 Indonesian item. AME-200/Pro,ACE-100 and AVE-100 results are different models and are not substituted. Ownership inclusion does not require current Shopee stock |
+
+<!-- comparison evidence ends -->
 
 ### Current source access and remaining limits
 
