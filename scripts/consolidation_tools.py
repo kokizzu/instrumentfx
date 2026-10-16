@@ -1650,7 +1650,56 @@ def audit_floorboard_union():
     verify_preserved(state)
     print('PASS floorboard union: '+str(len(paragraphs))+' prose/source groups, '+str(len(urls))+' external URLs, three model manifests / 42 fields. Incoming links remain; no source retirement.')
 
+
+def audit_compact_links():
+    """Inventory explicit Markdown links and literal references before source retirement."""
+    import urllib.parse
+    research_tools.identity()
+    source_key = 'effects/guitar-compact.md'
+    source = (ROOT/source_key).read_text()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    assert digest(source) == state['migration']['shared_compact_audit']['source_sha256']
+    paths = sorted(ROOT.glob('*.md')) + sorted((ROOT/'effects').rglob('*.md'))
+    incoming, outgoing, mentions = [], [], []
+    for path in paths:
+        text = path.read_text()
+        key = str(path.relative_to(ROOT))
+        definitions = {m[1].lower(): m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', text, re.M)}
+        links = [(m.start(), m[1], 'inline') for m in re.finditer(r'\]\(([^\s)]+)\)', text)]
+        links += [(m.start(), definitions[m[2].lower()], 'reference') for m in re.finditer(r'\[([^\]]+)\]\[([^\]]+)\]', text) if m[2].lower() in definitions]
+        links += [(m.start(), m[2], 'definition') for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', text, re.M)]
+        for offset, raw, kind in links:
+            parsed = urllib.parse.urlsplit(raw)
+            if parsed.scheme or parsed.netloc:
+                continue
+            target = path.parent.joinpath(urllib.parse.unquote(parsed.path)).resolve() if parsed.path else path
+            try:
+                resolved = str(target.relative_to(ROOT))
+            except ValueError:
+                continue
+            entry = dict(source=key, line=text.count('\n', 0, offset)+1, link=raw, kind=kind, target=resolved, fragment=urllib.parse.unquote(parsed.fragment), exists=target.is_file())
+            if resolved == source_key:
+                incoming.append(entry)
+            if key == source_key:
+                outgoing.append(entry)
+        for number, line in enumerate(text.splitlines(), 1):
+            if 'guitar-compact.md' in line:
+                mentions.append(dict(source=key, line=number))
+    # JSON references are recorded separately: provenance is not an incoming navigation link.
+    json_mentions = []
+    for path in sorted(ROOT.glob('*.json')) + sorted((ROOT/'effects').rglob('*.json')):
+        for number, line in enumerate(path.read_text().splitlines(), 1):
+            if 'guitar-compact.md' in line:
+                json_mentions.append(dict(source=str(path.relative_to(ROOT)), line=number))
+    headings = [dict(line=i, heading=line.lstrip('#').strip()) for i,line in enumerate(source.splitlines(),1) if re.match(r'^#{1,6} ',line)]
+    report = dict(source=source_key, source_sha256=digest(source), incoming=incoming, outgoing=outgoing, markdown_literal_mentions=mentions, json_literal_mentions=json_mentions, headings=headings, missing_outgoing=[e for e in outgoing if not e['exists']], incoming_fragments=sorted({e['fragment'] for e in incoming if e['fragment']}), retirement_authorized=False, limitations=['Lexical explicit inline/reference/definition links; definition and use are separate occurrences.', 'Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.', 'No link rewrite, anchor mapping, source deletion or external availability verification.'])
+    Path('/tmp/instrumentfx-compact-links.json').write_text(json.dumps(report,indent=2)+'\n')
+    print(json.dumps(dict(source=source_key,incoming=len(incoming),outgoing=len(outgoing),missing_outgoing=report['missing_outgoing'],incoming_fragments=report['incoming_fragments'],markdown_mentions=len(mentions),json_mentions=len(json_mentions),headings=len(headings)),indent=2))
+
 if __name__ == '__main__':
+    if sys.argv[1:] == ['audit-compact-links']:
+        audit_compact_links()
+        raise SystemExit(0)
     if sys.argv[1:] == ['audit-floorboard-union']:
         audit_floorboard_union()
         raise SystemExit(0)

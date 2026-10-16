@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom A1 FOUR remaining manual verification",
-    "task": "A1 FOUR shared-list synth algorithms,naming discrepancy and additional-effect qualifications saved. Remaining exact A1-only category/factory/download counts,hardware controls/ports,copy overwrite,USB supply/audio,looper persistence/import workflows and current used/new offers. Then fresh Shopee discovery and legacy shared-source/incoming audits;commit each useful model update before another model.",
+    "model": "Compact legacy navigation and source consolidation",
+    "task": "Explicit compact link inventory saved;33current incoming links,no fragments,25resolving local outbound references. Review mapping to root model/category destinations and preserve historical provenance before any retirement;other shared sources and fresh Shopee discovery remain. A1 FOUR unresolved technical gaps preserved in its record.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -15032,7 +15032,7 @@
       "remaining_models": [],
       "source_retired": false,
       "complete": false,
-      "remaining_work": "Prose, external URLs and eight model-row subsets now verified across root destinations. 22 incoming Markdown file-link occurrences remain. Reference-key/anchor equivalence and safe redirects or link updates must be resolved before source retirement; other shared sources remain unaudited.",
+      "remaining_work": "Current explicit-link audit supersedes stale22occurrence snapshot:33incoming links,nonewithfragments;25outgoinglocal referencesallresolve. effects/MIGRATION.md also names source asliteral table text;JSONprovenance references remain. Reference-key/anchor equivalence,HTML/code/shortcut/external references and navigation redirects still require handling before retirement. Source retained;other shared sources remain unaudited.",
       "union_scan": {
         "date": "2026-10-17",
         "exact_prose_paragraphs": 18,
@@ -15156,6 +15156,368 @@
         ],
         "retirement_authorized": false,
         "limitation": "Lexical Markdown file links only; reference definitions, HTML/code links and all anchors require independent handling before retirement."
+      },
+      "explicit_link_audit": {
+        "date": "2026-10-17",
+        "target": "make consolidation-audit-compact-links",
+        "source_sha256": "066aa2f1eb14102ef621d1e1ee952bbb76fd0a6b85edab736353bce9f04cdddc",
+        "incoming_occurrences": 33,
+        "incoming": [
+          {
+            "source": "SONICAKE.md",
+            "line": 76,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "SONICAKE.md",
+            "line": 163,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "SONICAKE.md",
+            "line": 250,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 110,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 200,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 214,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 302,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 388,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 475,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 495,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 594,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 614,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "VALETON.md",
+            "line": 701,
+            "link": "effects/guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/COVERAGE.history-2026-10-14.md",
+            "line": 11,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.history-2026-10-14.md",
+            "line": 20,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.history-2026-10-14.md",
+            "line": 38,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.md",
+            "line": 14,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/OWNERSHIP.md",
+            "line": 32,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/README.md",
+            "line": 20,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/advanced-modelers.md",
+            "line": 3,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/bass.md",
+            "line": 74,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-14-sonicake-matribox.md",
+            "line": 3,
+            "link": "../guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+            "line": 3,
+            "link": "../guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-14-sonicake-smart-box.md",
+            "line": 3,
+            "link": "../guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-100.md",
+            "line": 3,
+            "link": "../guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-150.md",
+            "line": 3,
+            "link": "../guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-180.md",
+            "line": 3,
+            "link": "../guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-5.md",
+            "line": 3,
+            "link": "../guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/findings/2026-10-14-valeton-gp-50.md",
+            "line": 3,
+            "link": "../guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-boss.history-2026-10-14.md",
+            "line": 3,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-boss.md",
+            "line": 3,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/guitar-floorboards.md",
+            "line": 3,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          },
+          {
+            "source": "effects/shopee-indonesia.history-2026-10-14.md",
+            "line": 80,
+            "link": "guitar-compact.md",
+            "kind": "inline",
+            "target": "effects/guitar-compact.md",
+            "fragment": "",
+            "exists": true
+          }
+        ],
+        "outgoing_occurrences": 25,
+        "missing_outgoing": [],
+        "incoming_fragments": [],
+        "headings": [
+          {
+            "line": 1,
+            "heading": "Compact guitar / multi-instrument processors"
+          },
+          {
+            "line": 11,
+            "heading": "1. Displays"
+          },
+          {
+            "line": 26,
+            "heading": "2. Hardware, expression and IDR prices"
+          },
+          {
+            "line": 30,
+            "heading": "Built-in expression pedal"
+          },
+          {
+            "line": 38,
+            "heading": "No built-in expression pedal"
+          },
+          {
+            "line": 54,
+            "heading": "3. Processing, memory, IR and NAM"
+          },
+          {
+            "line": 69,
+            "heading": "4. Connections, power, apps and practical differences"
+          },
+          {
+            "line": 84,
+            "heading": "Firmware-sensitive notes"
+          },
+          {
+            "line": 92,
+            "heading": "Sources and per-model findings"
+          },
+          {
+            "line": 120,
+            "heading": "Archived foreign-price provenance — not the comparison currency"
+          }
+        ],
+        "unmatched_markdown_literal_mentions": [
+          {
+            "source": "effects/MIGRATION.md",
+            "line": 21
+          }
+        ],
+        "limitations": [
+          "Lexical explicit inline/reference/definition links; definition and use are separate occurrences.",
+          "Shortcut links, HTML, code and external bookmarks are not exhaustively parsed; literal mention locations retained for review.",
+          "No link rewrite, anchor mapping, source deletion or external availability verification."
+        ],
+        "retirement_authorized": false
       }
     },
     "unregistered_finding_audit": {

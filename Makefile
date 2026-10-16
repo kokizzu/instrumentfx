@@ -805,3 +805,7 @@ research-commit-b3n:
 .PHONY: research-commit-a1four
 research-commit-a1four:
 	python3 scripts/research_tools.py commit-a1four
+
+.PHONY: consolidation-audit-compact-links
+consolidation-audit-compact-links:
+	python3 scripts/consolidation_tools.py audit-compact-links

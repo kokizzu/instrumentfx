@@ -140,6 +140,7 @@ def main():
         if mode == 'commit-compact-union':
             paths += ['MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact-union'], check=True)
+            subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact-links'], check=True)
         if mode == 'commit-legacy-audit':
             paths += ['scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-legacy'], check=True)
@@ -244,7 +245,7 @@ def main():
         if mode == 'commit-floorboard-union':
             message = 'audit: verify floorboard source union and preserve historical source context'
         if mode == 'commit-compact-union':
-            message = 'audit: preserve compact comparison prose and verify root source union'
+            message = 'audit: inventory compact source navigation and incoming references'
         if mode == 'commit-legacy-audit':
             message = 'audit: inventory legacy source hashes and incoming Markdown references'
         if mode == 'commit-compact-gp100-audit':
