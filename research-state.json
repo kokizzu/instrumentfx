@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee Indonesia discovery",
-    "task": "StompLab2B shared AMP/DRIVE,qualified61count,expression behavior and autooff saved. Fresh exact bass/vocal hardware searches next;preserve remaining acoustic/display/import/editor/polarity/offer gaps and commit each model before another.",
+    "model": "TC-Helicon PERFORM-V primary verification",
+    "task": "Exact PERFORM-V hardware item158235298/9761707378 opened:Rp3950000 Habis,condition unknown. Verify primary manufacturer product/manual eligibility and model-specific controls,processing,memory,I/O,power/software before adding active profile;keep VK/VG separate. Commit model before researching another.",
     "next_models": [],
-    "after_queue": "No exhaustive market coverage claim."
+    "after_queue": "Fresh Shopee discovery remains necessary."
   },
   "new_findings": [
     {
@@ -46492,6 +46492,71 @@
       "site:shopee.co.id TC Helicon VoiceLive Touch"
     ],
     "rejected": "B2.1u mixed-model shop only;switch accessories;no exact new vocal item established",
+    "coverage_complete": false
+  },
+  "discovery_perform_v": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Vocalist Digitech",
+      "site:shopee.co.id VoiceLive Touch",
+      "site:shopee.co.id Stomplab1B",
+      "site:shopee.co.id Zoom B9.1ut",
+      "site:shopee.co.id BP200 efek",
+      "site:shopee.co.id Zoom B1X Next",
+      "site:shopee.co.id Zoom708 bass",
+      "site:shopee.co.id TC Helicon Perform"
+    ],
+    "selected": {
+      "model": "TC-Helicon PERFORM-V",
+      "url": "https://shopee.co.id/TC-HELICON-PERFORM-V-Vocal-Processor-i.158235298.9761707378",
+      "seller": "NEO MUSIC",
+      "shop": "158235298",
+      "item": "9761707378",
+      "location": "Kota Sukabumi",
+      "idr": 3950000,
+      "stock": "Habis",
+      "condition_bundle_variant_warranty": "unverified",
+      "access": "exact HTML opened;last-month cache;relative Besok delivery not current confirmation",
+      "voucher": "Rp10000 late-arrival compensation,not hardware discount",
+      "qualified_price": false
+    },
+    "additional_same_model": [
+      {
+        "url": "https://shopee.co.id/TC-HELICON-PERFORM-V-Vocal-Effect-Processor-Efek-Vokal-i.71552895.19385656144",
+        "seller": "GH MUSIC STORE",
+        "idr": 4426500,
+        "stock": "Habis indexed",
+        "access": "two-month index;direct inaccessible",
+        "condition": "unknown"
+      },
+      {
+        "url": "https://shopee.co.id/Vocal-Processor-TC-Helicon-PERFORM-V-i.510844912.22023714237",
+        "seller": "DealerJaya Musik dan Elektrik",
+        "idr": 3500000,
+        "stock": "Habis indexed",
+        "access": "two-month index;2–4Aug delivery stale",
+        "condition": "unknown"
+      }
+    ],
+    "distinct_future_leads": [
+      {
+        "model": "PERFORM-VK",
+        "url": "https://shopee.co.id/Vocal-Processor-TC-Helicon-PERFORM-VK-i.510844912.23823711241",
+        "qualification": "index only;not yet technically verified"
+      },
+      {
+        "model": "PERFORM-VG",
+        "url": "https://shopee.co.id/Vocal-Processor-TC-Helicon-PERFORM-VG-i.510844912.23623712017",
+        "qualification": "index only;do not infer guitar multi-effects classification before primary evidence"
+      }
+    ],
+    "rejected": [
+      "Vocalist/BP200 adapter item16626959/4486100964 is accessory",
+      "B1XNext/B2.1u/708 mixed-model HopeMusic shop prices unresolved",
+      "Generic irrelevant shopping pages and previously recorded VoiceLive3Extreme",
+      "No exact StompLab1B/B9.1ut/VoiceLiveTouch resolved;not proof of absence"
+    ],
+    "added_active_models": 0,
     "coverage_complete": false
   }
 }
