@@ -269,3 +269,11 @@ consolidation-apply-ampero-mp300:
 	python3 scripts/consolidation_tools.py apply ampero-mp300
 consolidation-commit-ampero-mp300:
 	python3 scripts/consolidation_tools.py commit ampero-mp300
+
+.PHONY: consolidation-plan-ge100-original consolidation-apply-ge100-original consolidation-commit-ge100-original
+consolidation-plan-ge100-original:
+	python3 scripts/consolidation_tools.py plan ge100-original
+consolidation-apply-ge100-original:
+	python3 scripts/consolidation_tools.py apply ge100-original
+consolidation-commit-ge100-original:
+	python3 scripts/consolidation_tools.py commit ge100-original

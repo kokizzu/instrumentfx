@@ -1,6 +1,6 @@
 # MOOER multi-effects
 
-Root-level canonical brand records. New evidence checked **2026-10-15**. The fifteen previously researched GE models remain in their legacy source files until their full evidence has been consolidated here. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
+Root-level canonical brand records. New evidence checked **2026-10-15**. Fourteen previously researched GE models still require complete consolidation; GE100 original is consolidated below. They are not new models and are not deleted by this addition. Unknown is `?`, not No.
 
 ## GE250
 
@@ -237,3 +237,73 @@ Selected condition, variant, bundle, warranty, voucher, shipping and seller auth
 - [Current exact-model software/firmware][GS-F] and[regional Chinese notes][GS-C]:native A2 Lite versus converted A1, current desktop requirements, dated changes.
 
 Remaining:current complete category inventory and drum count; factory-filled memory subset; pixel resolution; external toe function; USB power; IR source conversion/concurrency; NAM architecture/concurrency/fidelity; full mobile editor scope; qualified used/retail stock. This model is partial, not fully verified.
+
+## GE100 original
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- MOOER-GE100-ORIGINAL source begins -->
+
+Checked **2026-10-14**. **Partial new model**, not GE100 Pro/Pro Li. [Official product page][MOOER-GE100-ORIGINAL-P], [manufacturer-authored manual][MOOER-GE100-ORIGINAL-M], and the [official dimensions image][MOOER-GE100-ORIGINAL-I] establish the technical baseline. Manual printed pp.9–10 and 21–25 were visually inspected.
+
+| Field | Established / unknown |
+|---|---|
+| Expression | Built-in; no external expression connector in the complete panel inventory; toe-switch details ? |
+| Controls | **2 rotary /2 footswitches /6 buttons**; push-encoder counted once |
+| Display | Graphical LCD; **diagonal, monochrome/color and explicit touch specification ?**. Black-and-white manual artwork alone does not prove monochrome hardware |
+| Dimensions / weight | **230×140×60 mm; 730 g excluding batteries**; medium |
+| Processing | **8 fixed-order simultaneous modules, 66 types**; see count reconciliation below |
+| Presets | **80 factory +80 user** |
+| Acoustic / synth | **2 acoustic simulators**, Acoustic A/B, within DS; synth ? |
+| Ports | ¼-inch mono input; one ¼-inch stereo output/shared headphones; ⅛-inch aux; DC; **no USB** in panel inventory |
+| Power | **9 V center-negative, 300 mA adapter**, or **4 AA**; no USB powering |
+| IR / NAM | No digital file-import connection/loader established; no user-IR or NAM capability documented |
+| Apps | No computer/mobile editor connection documented |
+| Extras | **180 s looper; 40 drum rhythms +10 metronome patterns**; chord/scale dictionary |
+
+### Category choices
+
+| FX | DS | AMP | NS | EQ | MOD | DLY | REV |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 10 | 23 | 7 | 1 | 1 three-band EQ | 11 | 6 | 7 |
+
+The eight counts sum to **66**. The three EQ frequency bands are parameters of one EQ, not three independent algorithms. DS includes two acoustic simulators; the manufacturer's “23 drive sounds” wording is broader than literal distortion-only effects. Manual baseline, not a claim of an independently tested sound library.
+
+### Shopee Indonesia
+
+**Rp1.399.000** retail indexed ask, [calimanz listing][MOOER-GE100-ORIGINAL-S1]; stock/condition details unconfirmed. Separate **Rp995.000 sold-out** retail ask, [MICKEY MOUSE SHOP][MOOER-GE100-ORIGINAL-S2]. These are not an active used-to-new range. An [explicit 2ND/TERJUAL listing][MOOER-GE100-ORIGINAL-S3] was found, but no supported amount was retrieved; **used IDR remains ?**. Delivery, accessories and authenticity are not independently verified.
+
+[MOOER-GE100-ORIGINAL-P]: https://www.mooeraudio.com/product/GE100-168.html
+[MOOER-GE100-ORIGINAL-M]: https://d1aeri3ty3izns.cloudfront.net/media/34/342336/download_342336.pdf
+[MOOER-GE100-ORIGINAL-I]: https://omo-oss-image.thefastimg.com/portal-saas/new2022113010221252588/cms/image/46073859-6c79-415e-8ad7-83bab4104939.png
+[MOOER-GE100-ORIGINAL-S1]: https://shopee.co.id/MOOER-GE100-Guitar-Pedal-Multi-effects-Processor-with-Loop-Recording-i.33671970.9916453442
+[MOOER-GE100-ORIGINAL-S2]: https://shopee.co.id/Efek-Gitar-Multi-MOOER-GE100-Guitar-Multi-Effects-Pedal-i.19700013.20775795456
+[MOOER-GE100-ORIGINAL-S3]: https://shopee.co.id/MOOER-GE100-GUITAR-MULTI-EFFECT-PROCESSOR-%282ND%29-i.82606334.52805359510
+
+**Next:** primary display specifications and reliable live used/new prices. Do not import newer GE100 Pro-family screen, software or capture features into this original model.
+<!-- MOOER-GE100-ORIGINAL source ends -->
+
+### GE100 original — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **External expression / toe** (Built-in expression): No socket / toe ?
+- **K/F/B** (Built-in expression): 2/2/6
+- **Dimensions; weight** (Built-in expression): 230×140×60; 730 g excl. batteries
+- **Size** (Built-in expression): Medium
+- **Used IDR** (Built-in expression): ?
+- **Retail IDR observation** (Built-in expression): Rp1.399.000; separate Rp995.000 **sold-out** ask
+- **Display type** (2. Displays): Graphical LCD
+- **Diagonal** (2. Displays): ?
+- **Monochrome / color** (2. Displays): ?; monochrome manual artwork is insufficient
+- **Touch** (2. Displays): ?
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 8 fixed-order; **66 = FX10 +DS23 +AMP7 +NS1 +EQ1 +MOD11 +DLY6 +REV7**
+- **Preset storage** (3. Processing, presets and loading): 80 factory +80 user
+- **Acoustic simulation / synth** (3. Processing, presets and loading): **2 acoustic simulators in DS** / synth ?
+- **IR / NAM** (3. Processing, presets and loading): No digital import connection/loader documented
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch mono input; one ¼-inch stereo output/shared phones; ⅛-inch aux; **no USB** in complete panel inventory
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative/300mA adapter or4AA**; no USB
+- **Configuration apps** (5. Power, software and practice/live features): No editor connection documented
+- **Other documented functions** (5. Power, software and practice/live features): 180 s looper;40 rhythms+10 metronomes; chord/scale dictionary
+
+Sources: [effects/findings/2026-10-14-mooer-ge100.md](effects/findings/2026-10-14-mooer-ge100.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
