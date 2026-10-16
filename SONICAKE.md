@@ -29,6 +29,40 @@ At the original check, [manufacturer product/software](https://www.sonicake.com/
 
 Sources: [official color/control photograph](https://www.sonicake.com/cdn/shop/products/QME-50.jpg?v=1678434988&width=1096); [firmware1.1.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433). Previous p.3 visual inspection confirms controls; photograph confirms color,not diagonal/touch. The global downloads do not resolve the region of a specific listing. Remaining: primary diagonal/touch,complete power/USB details,category inventory,algorithm functions and exact local offers.
 
+### Matribox shared comparison provenance
+
+Complete compact source read on 2026-10-17. The following exact model fields retain the 2026-10-14 snapshot; they do not refresh stock, prove native NAM or resolve regional firmware compatibility.
+
+- **Display** (1. Displays): Graphical display; technology ?
+- **Diagonal, inches** (1. Displays): ?
+- **Monochrome / color** (1. Displays): Color
+- **Touchscreen** (1. Displays): ?
+- **Evidence and remaining uncertainty** (1. Displays): [Official photograph and control manual; size not measured from photo](effects/findings/2026-10-14-sonicake-matribox.md)
+- **Built-in / external expression** (Built-in expression pedal): Yes / ?
+- **K/F/B** (Built-in expression pedal): 5/2/4 [manual]
+- **Width × depth × height, mm** (Built-in expression pedal): 200 × 137.5 × 53.6
+- **Weight** (Built-in expression pedal): 732 g
+- **Used IDR observation** (Built-in expression pedal): ?
+- **New / retail IDR observation** (Built-in expression pedal): **? for English/global unit**; separate CN-language offer below [FM]
+- **Simultaneous blocks / categories and choices** (3. Processing, memory, IR and NAM): 9 movable blocks; 130+ models; 40 amps, 38 factory cabs, 50+ other effects
+- **Presets and user storage** (3. Processing, memory, IR and NAM): 99 P + 99 U = 198
+- **Synth / acoustic functions** (3. Processing, memory, IR and NAM): Category-specific synth/acoustic choices ?
+- **Third-party IR** (3. Processing, memory, IR and NAM): 15 user slots
+- **NAM / captured models** (3. Processing, memory, IR and NAM): **NAM A2 workflow** advertised by current official software/download section; see firmware note
+- **Audio / control connections** (4. Connections, power, apps and practical differences): ¼″ input; L/R ¼″ outputs; 3.5 mm aux; 3.5 mm headphones; USB
+- **Power and battery** (4. Connections, power, apps and practical differences): DC 9 V; exact required current ?; USB power not established
+- **Configuration software** (4. Connections, power, apps and practical differences): Windows/macOS editor
+- **Other relevant features** (4. Connections, power, apps and practical differences): USB audio; 90 s looper; 100 rhythms; current NAM update sequence and regional firmware matter
+- **Original used quote** (Archived foreign-price provenance — not the comparison currency): Unverified
+- **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD129.99
+- **Original evidence** (Archived foreign-price provenance — not the comparison currency): [Official product page][matribox]
+
+**Regional-price warning:** a Jakmall/LOBAJET Matribox listing was indexed at **Rp2.095.650**, explicitly for the **Chinese/CN-language version**, with a preorder workflow and seller warning that its language cannot be changed. It is not mixed into an English/global price range or treated as proof that global firmware is compatible with that particular unit. See [the exact offer and evidence](effects/findings/2026-10-14-sonicake-matribox.md).
+
+Sonicake's checked Matribox download section lists firmware **1.1.0** and desktop software **1.1.1** with NAM A2 support; its instructions require the older software for the firmware-update step. Pocket Master's page lists firmware **1.3.3**, Manager **1.5.2**, and SONICLINK **1.7.2**. Smart Box also lists iOS/Android SONICLINK **1.7.2**. Follow the matching manufacturer instructions. These are documented workflows, not compatibility tests of every NAM architecture or regional unit.
+
+Historical source key: `FM` means the [original Matribox finding](effects/findings/2026-10-14-sonicake-matribox.md); `manual` means the [firmware 1.1.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433); `matribox` means the [official model page](https://www.sonicake.com/products/matribox). Original files and incoming links remain available.
+
 ## Smart Box QME-20
 
 **Existing review2026-10-14.**

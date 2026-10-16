@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Matribox QME-50 shared compact-source audit",
-    "task": "GP-150 exact 23 fields/five rows and shared paragraphs verified; explicit historical source key added, later NAM A2 Lite evidence retained. Next read Matribox root/source and check exact shared rows, CN-price distinction, firmware workflow and references. Commit before another model. Other sources, incoming links, technical gaps and fresh Shopee discovery remain.",
+    "model": "Valeton GP-5 shared compact-source audit",
+    "task": "Matribox shared 23 fields/five rows and exact CN-price/firmware paragraphs retained; verify current comparison projection before broader work. Next audit GP-5 shared compact rows/context/reference sources, commit before another model. Remaining shared/incoming-link audits, technical gaps and fresh Shopee discovery required.",
     "next_models": [],
     "after_queue": "Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted."
   },
@@ -14227,10 +14227,18 @@
           "model_rows": 5,
           "repair": "Explicit source key resolves historical controls/F150/P4 labels; exact shared context retained.",
           "scope": "All model table fields plus existing retained shared paragraphs and explicit source-key links; no source retirement or fresh spec/stock verification."
+        },
+        {
+          "model": "Sonicake Matribox QME-50",
+          "destination": "SONICAKE.md#matribox-qme-50",
+          "target": "make consolidation-audit-compact-matribox",
+          "retained_fields": 23,
+          "model_rows": 5,
+          "repair": "Exact legacy field values and regional-price/firmware paragraphs retained, with historical reference key.",
+          "scope": "Shared row/context preservation only; no fresh stock, architecture or firmware compatibility claim."
         }
       ],
       "remaining_models": [
-        "Matribox QME-50",
         "GP-5",
         "GP-50",
         "GP-180",

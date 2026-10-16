@@ -1507,7 +1507,28 @@ def audit_legacy():
         print(e['path']+' | tables='+str(e['table_count'])+' | source-manifests='+str(len(e['manifest_scopes']))+' | incoming='+str(len(e['incoming'])))
 
 
+
+def audit_compact_matribox():
+    research_tools.identity()
+    source = (ROOT/'effects/guitar-compact.md').read_text()
+    destination = (ROOT/'SONICAKE.md').read_text().split('\n## Matribox QME-50\n',1)[1].split('\n## ',1)[0]
+    facts = []
+    for headers, rows, context in comparison_views.tables(source):
+        for row in rows:
+            label = re.sub(r'\[([^\]]+)\]\[[^\]]+\]', r'\1', row[0])
+            if label in ('Matribox', 'Matribox QME-50', 'Sonicake Matribox, QME-50'):
+                facts += [(h,v.replace('(findings/', '(effects/findings/')) for h,v in zip(headers[1:],row[1:])]
+    assert len(facts) == 23, 'Matribox shared-field count changed'
+    for field, value in facts:
+        assert value in destination, 'Missing Matribox shared field: '+field
+    for prefix in ('**Regional-price warning:**', "Sonicake's checked Matribox"):
+        paragraph = next(p for p in source.split('\n\n') if p.startswith(prefix))
+        assert paragraph.replace('(findings/', '(effects/findings/') in destination, 'Missing shared context: '+prefix
+    print('PASS Matribox: 23 fields/five rows plus exact regional-price and firmware context retained. No source retirement or new firmware/stock verification.')
+
 def audit_compact(model):
+    if model == 'Matribox':
+        return audit_compact_matribox()
     research_tools.identity()
     assert model in ('GP-100', 'GP-150'), 'Additional models require explicit scope review'
     state = json.loads((ROOT/'research-state.json').read_text())
