@@ -1684,3 +1684,45 @@ Remaining:external expression,full ports,powerpolarity/USB,screen details,simult
 [ME25-EN]: https://media.sweetwater.com/store/media/me-25_om.pdf
 
 English manual provenance: manufacturer-authored ME-25 Owner’s Manual, ©2010 BOSS, 14 pages, hosted by Sweetwater. Model, section order and core specifications match the official product/manual evidence; revision imprint was not exposed, so no firmware-specific claim is made.
+
+## ME-50
+
+Effects-only guitar multi-effects, distinct from ME-50B. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in volume/expression pedal; six effect assignments. Strong forward press toggles pedal mode. External expression unverified; FOOT SW is documented for switches. | [Product][M50-P]; [Manual p19][M50-M] |
+| K/F/B | Three main footswitches; complete rotary/button counts pending. Pedal-mode switch additional. | [Product][M50-P]; [Manual p19][M50-M] |
+| Display | One-character seven-segment LED, not a menu LCD. Diagonal/colour/touch unverified. | [Specifications][M50-P] |
+| Dimensions / mass | Manual:384W×225D×78H mm; maximum height102mm;3.15kg including batteries. Global page rounds mass3.2kg and lists102mm. Japan page lists78mm/3.15kg; height difference explained by manual, mass precision retained. | [Manual p28][M50-M]; [Global][M50-P]; [Japan][M50-J] |
+| Processing / categories | Tone Modify, compressor, OD/DS, modulation, delay, reverb, noise suppression and pedal effects. Explicit simultaneous ceiling/routing pending. OD/DS22 types; reverb4. Other category subtotals pending. | [Product][M50-P]; [Manual pp11,18][M50-M] |
+| Factory / user memory | 30 user patches, ten banks×three. Marketing calls30 preset patches; initial-fill/reset interpretation pending, not60 total. | [Product][M50-P] |
+| Synth / acoustic | Square synth-style distortion; Tone Modify ACOUSTIC converts electric tone toward acoustic; HOLLOW adds body resonance. Not a capture/import claim. | [Product][M50-P]; [Manual p9][M50-M] |
+| I/O | INPUT, L/MONO and R guitar-amp outputs, stereo-mini AUX, PHONES/LINE OUT, DC. Manual additionally documents FOOT SW, omitted in product jack summary. Complete connector subtype inventory pending. | [Product][M50-P]; [Manual pp9–10,22][M50-M] |
+| External control | FS-5U: Tone Modify on/off in Manual mode; bank-up in Memory mode. PCS-31 splits two switches for Tone Modify/compressor or bank up/down. | [Manual pp9–10,22][M50-M] |
+| Analog conversion | 24-bit+AF A/D,24-bit D/A,44.1kHz. | [Specifications][M50-P] |
+| Power / battery / USB | 9V DC,120mA; six R6/LR6 AA or optional PSA adapter. Approx3.5h carbon/12h alkaline. Polarity and USB operation unverified. | [Specifications][M50-P] |
+| IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. COSM is not import evidence. | Unresolved |
+| Editor / platforms | Full editor, drivers/updater and mobile support unestablished. No software downloaded. | Unresolved |
+| Looper / drums / live | HOLD delay records/overdubs up to2s; stopping erases content. Tuner and Manual/Memory modes documented. Drums/scenes/trails pending. | [Manual pp17,20,24][M50-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no condition-verified exact ask. | — |
+| New | Unknown; no condition-verified exact ask. | — |
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified Shopee observation
+
+Checked2026-10-17: [Boss ME50 Guitar Multiple Effects,shop185899831/item46762119595](https://shopee.co.id/Boss-ME50-Guitar-Multiple-Effects-i.185899831.46762119595), **Rp1,425,000**, Kab.Sleman in [search-page index](https://shopee.co.id/search?category=11043572&keyword=gitar+boss&subcategory=11043648). [GeandPedalStore shop index](https://shopee.co.id/geandpedalstore) corroborates title/amount and describes a secondhand-oriented store; this does not establish this item's condition. Earlier search snippet says Produk Baru, later body omits condition; unresolved. Linked display_model_id396051267102 selection unverified; parameterized click cache miss and clean exact URL inaccessible. Stock, working state, bundle/adapter, warranty, voucher/shipping/tax and delivered total unknown. Preserve as hardware lead, not qualified used/new price.
+
+Remaining: full controls, simultaneous ceiling/category counts, routing, factory fill, connector details/polarity, imports/software and qualified offers. Manufacturer manual©2002 identity checked in browser; no files/dependencies downloaded.
+
+[M50-P]: https://www.boss.info/global/products/me-50/specifications/
+[M50-J]: https://www.boss.info/jp/products/me-50/
+[M50-M]: https://static.roland.com/assets/media/pdf/ME-50_OM.pdf
