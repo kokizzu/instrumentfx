@@ -223,6 +223,8 @@ def plan_hx_stomp():
     section += '\nOriginal source URLs: '+', '.join(urls)+'\n\nThe P1 **USD555** observation was checked2026-10-14 at an international store, excluding destination tax/shipping; no IDR conversion or present stock claim is made. [Complete legacy source](effects/advanced-modelers.md) remains available; no source or incoming link was deleted.\n\n### HX Stomp comparison fields\n\n| Field | Dated evidence / qualification |\n|---|---|\n'
     for fact in facts:
         field, value = fact['field'], fact['value']
+        if field == 'Other important differences':
+            field = 'Other relevant features'
         if field == 'K/F/B':
             value = '**6/3/4**: upper/lower/volume plus three parameter rotaries; three capacitive footswitches; HOME/VIEW,ACTION and two PAGE buttons. Encoder presses counted once; power toggle separate. [HS-P](https://line6.com/hx-stomp/).'
         elif field == 'New USD observation':
@@ -488,6 +490,9 @@ def commit(model_id):
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
+    if model_id == 'hx-stomp':
+        print(research_tools.git('commit', '-m', 'docs(line6): retain HX Stomp practical features in comparisons'))
+        return
     print(research_tools.git('commit', '-m', 'docs(' + ('valeton' if model_id in ('gp-5', 'gp-50', 'gp-100', 'gp-150', 'gp-180', 'gp-200') else 'mooer' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'line6' if model_id in ('hx-stomp','hx-stomp-xl') else 'boss' if model_id in ('gt-1b', 'gx-1b', 'me-90b', 've-1', 've-2', 've-500', 've-22', 've-8', 've-20', 'gt-1000core', 'gx-10', 'gt-1', 'gx-1', 'me-90', 'gx-100', 'gt-1000', 'gm-800') else 'zoom') + '): consolidate complete ' + MODELS[model_id][0] + ' evidence'))
 
 
