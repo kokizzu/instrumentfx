@@ -393,7 +393,7 @@ def main():
         if mode == 'commit-b21u':
             message = 'research(zoom): reconcile B2.1u module choices and acoustic amp distinction'
         if mode == 'commit-katana-go':
-            message = 'research(boss): qualify GT-1 editor requirements and version fixes'
+            message = 'research(boss): verify GT-1 macOS support and firmware history'
         if mode == 'commit-microplus':
             message = 'research(fender): qualify original Micro firmware and updater platforms'
         if mode == 'commit-mg20':

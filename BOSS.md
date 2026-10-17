@@ -867,8 +867,8 @@ Checked **2026-10-16**. [Manufacturer page](https://www.boss.info/global/product
 | IR / NAM / capture | No third-party IR loader, native NAM, converted NAM or proprietary capture import established. Factory speaker simulations are distinct from user IR import. |
 | Audio / control I/O | Mono quarter-inch input; stereo quarter-inch outputs;3.5 mm stereo AUX and PHONES; shared TRS CTL/EXP;USB-B;DC. No loop or physical MIDI connector listed. [GT1-P] |
 | Power / battery / USB power | Four alkaline AA or separately sold PSA adapter; **200 mA draw**, about **7 h** alkaline runtime. DC voltage/polarity and USB-powered operation remain unverified. [GT1-P] |
-| Editor / USB / platforms | Tone Studio Windows/macOS; dedicated USB driver required for computer audio. USB diagram sends effected audio to computer and mixes computer return after the chain. Direct monitor resets ON at power-up. USB reamp is not established by that diagram. **macOS Tone Studio1.0.2 (March2018)** requires the matching USB driver. Its fixes cover incorrect parameter transfers, ASSIGN TARGET MIN/MAX input/display and unavailable delay parameters shown editable. Version1.0.1 added Sierra10.12 support; current OS compatibility is delegated to BOSS’s compatibility matrix and remains unverified here. Driver listings for newer macOS/Windows do not independently prove editor compatibility. Mobile editor, channels and bit depth unresolved. [GT1-M], [GT1-G], [GT1-EDITOR] |
-| Looper / routing / live use | **32 s mono**, overdub; recordings lost when looper or power is switched off. Looper overrides stored CTL1 assignments. Effect order editable; detailed routing, drums/scenes unestablished. [GT1-M], [GT1-G] |
+| Editor / USB / platforms | Tone Studio Windows/macOS; dedicated USB driver required for computer audio. USB diagram sends effected audio to computer and mixes computer return after the chain. Direct monitor resets ON at power-up. USB reamp is not established by that diagram. **macOS Tone Studio1.0.2 (March2018)** requires the matching USB driver. Its fixes cover incorrect parameter transfers, ASSIGN TARGET MIN/MAX input/display and unavailable delay parameters shown editable. Version1.0.1 added Sierra10.12 support; BOSS’s matrix updated2026-09-16 lists GT-1 **Hardware & Driver and Exclusive Application: Yes(Download) for macOS15 Sequoia and26 Tahoe; Under Testing for27 Golden Gate**, checked2026-10-17. Driver listings for newer macOS/Windows do not independently prove editor compatibility. Mobile editor, channels and bit depth unresolved. [GT1-M], [GT1-G], [GT1-EDITOR], [GT1-MAC] |
+| Looper / routing / live use | **32 s mono**, overdub; recordings lost when looper or power is switched off. Looper overrides stored CTL1 assignments. Effect order editable; detailed routing, drums/scenes unestablished. **System1.09 (Dec2021) changes version management only, with specifications unchanged. 1.08 fixes tuner pedal combinations, held-pedal FX TYPE list behavior and Tone Studio CLEAR for CTL/ASSIGN. 1.07 fixes delayed pitch-shifted sound after patch changes.** Installed version unknown. [GT1-M], [GT1-G], [GT1-FW] |
 
 ### GT-1 — separate IDR evidence
 
@@ -890,6 +890,11 @@ Exact Shopee hardware bodies reopened2026-10-16; cached relative delivery is not
 [GT1-EDITOR]: https://www.boss.info/global/support/by_product/gt-1/updates_drivers/185be7ef-2c94-4825-bc25-3c3b71c6291d/
 
 GT-1 editor source checked2026-10-17: macOS package instructions and version history only; no installer downloaded or run. The product page lists system1.09, but its detailed update page timed out, so no firmware changes or installed-version claim are adopted.
+
+[GT1-MAC]: https://www.boss.info/global/support/support_news/25090811m1/
+[GT1-FW]: https://www.boss.info/nl/support/by_product/gt-1/updates_drivers/076a30a8-a319-4891-94e4-ef0bb08451e5/
+
+Firmware follow-up2026-10-17: global detail repeatedly timed out; manufacturer Dutch page’s English history supplies the evidence above. Its final instruction still says verify1.07 despite1.09 heading/archive: retained as a documentation inconsistency, not a firmware downgrade instruction. No update performed or downloaded. Current macOS matrix supersedes the earlier unresolved compatibility status for its explicitly listed versions only.
 
 ## GX-1
 

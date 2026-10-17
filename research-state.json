@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "BOSS GT-1",
-    "task": "Editor1.0.2 requirements/fixes saved. Next inspect current macOS compatibility matrix linked by editor page, or own system1.09 notes after transient timeout; separate driver/editor/firmware.",
+    "task": "Current macOS matrix and own1.09 history added. Next resolve effect-category counts from exact parameter guide or power/USB documentation; preserve firmware page version-check typo and remaining gaps.",
     "next_models": [],
-    "after_queue": "274partialmodels;continue full field and market verification;no downloads/workflows/push."
+    "after_queue": "274partialmodels;no downloads/workflows/push;technical/market verification and legacy retirement incomplete."
   },
   "new_findings": [
     {
@@ -56617,5 +56617,12 @@
     "source": "https://www.boss.info/global/support/by_product/gt-1/updates_drivers/185be7ef-2c94-4825-bc25-3c3b71c6291d/",
     "facts": "MacToneStudio1.0.2 March2018 requiresdriver; fixesparametertransfer,AssignMinMax,unavailableDelayparameters;1.0.1 addedSierra10.12.",
     "limits": "CurrentOSmatrixnotread;drivercompatibilitynoteditorproof. System1.09page timedout;no firmwarecontentadopted. No downloads."
+  },
+  "gt1_firmware_mac_followup_20261017": {
+    "mac_source": "https://www.boss.info/global/support/support_news/25090811m1/",
+    "mac": "Updated2026-09-16:GT1 hardwaredriver andexclusiveapp YesDownload mac15/26;UnderTesting27.",
+    "firmware_source": "https://www.boss.info/nl/support/by_product/gt-1/updates_drivers/076a30a8-a319-4891-94e4-ef0bb08451e5/",
+    "firmware": "1.09Dec2021 managementonly;1.08Mar2018 tunercombos/heldpedalFXlist/CTLandAssignClear fixes;1.07Jun2017 pitchpatchlatencyfix.",
+    "conflict": "Finalverify1.07 wording conflicts1.09heading/archive; no update/download/installedproof."
   }
 }
