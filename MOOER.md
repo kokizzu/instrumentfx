@@ -1497,12 +1497,12 @@ Checked 2026-10-17; partial. Guitar multi-effects;ownership,bass/vocal suitabili
 | Preset memory | **5 recallable presets store module on/off only;effect parameters cannot be saved**. Factory-filled subset unresolved. [Manual operation][BT-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
 | I/O | Quarter-inch input,2quarter-inch outputs,serial SEND/RETURN,3.5mm speaker-simulated direct/headphone output with independent level,DC. Balancing unresolved. [Product][BT-P]; [Manual][BT-M] |
-| I/O / PHONES conflict | Connection prose says mono/stereo **¼-inch** PHONES cable;manual specifications and own product say **⅛-inch stereo**. Preserve discrepancy;physical corroboration pending. Own manual supports simultaneous cab-simulated and main outputs,with separate direct level. [Manual connections/specifications][BT-M]; [Product][BT-P] |
+| I/O / PHONES conflict | Connection prose says mono/stereo **¼-inch** PHONES cable;manual specifications and own product say **⅛-inch stereo**. Preserve discrepancy;physical corroboration pending. English introduction supports simultaneous cab-simulated and main outputs with separate direct level; Chinese connection text conflicts, as detailed below. [Manual connections/specifications][BT-M]; [Product][BT-P] |
 | Power / battery / USB | **9VDC1A supply**,negative-inside wording;actual draw,barrel size,battery/USB operation unresolved. [Product][BT-P] |
 | Dimensions / mass | **370D×96W×51Hmm;1.23kg**,as officially labelled. Axis inconsistency not silently normalized;size bin unresolved. [Product][BT-P] |
 | IR / NAM / capture | Own Chinese product describes IR-based headphone cabinet simulation;user IR/native/converted NAM/capture import unverified. [Chinese product][BT-CN] |
 | Editor / platforms | Editor/updater OS and USB/audio unverified. A direct output for computer connection does not establish USB interface. |
-| Manual language conflicts | CN describes TWEAK as mid-frequency gain; EN describes bass response. CN connection text says PHONES mutes SPEAKER OUT, whereas EN introduction explicitly permits simultaneous direct/main outputs. Actual behavior and revision equivalence remain unresolved. [Manufacturer manual EN/CN][BT-M] |
+| I/O / manual language conflicts | CN describes TWEAK as mid-frequency gain; EN describes bass response. CN connection text says PHONES mutes SPEAKER OUT, whereas EN introduction explicitly permits simultaneous direct/main outputs. Actual behavior and revision equivalence remain unresolved. [Manufacturer manual EN/CN][BT-M] |
 | Live / loop and reset | CN: switches 4+5 toggle the buffered FX LOOP; hold 4+5 during power-on to restore factory settings. [Manual CN][BT-M] |
 | Controls / MOD subdivision | CN lists whole, half, quarter, eighth, triplet, sixteenth and X/random: seven rotary-selector patterns. [Manual CN][BT-M] |
 | Controls / EQ frequencies | CN specifies 100/250/630Hz, 1.4/4kHz plus LEVEL. [Manual CN][BT-M] |

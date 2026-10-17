@@ -55524,5 +55524,25 @@
     "saved": "CN loop toggle/reset, EQ frequencies, seven subdivision patterns; EN/CN TWEAK, tuner exit and headphone/main-output conflicts preserved.",
     "limits": "Manufacturer authored transcription; original official revision and physical behavior unverified; no downloads or visual inspection.",
     "remaining": "COMP/FX-loop preset recall, full controls, output behavior, official revision, power actual draw/barrel/battery/USB, import/editor platforms and qualified current prices."
+  },
+  "discovery_post_blacktruck_20261017": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Mooer Red Truck",
+      "site:shopee.co.id Zoom GFX-8",
+      "site:shopee.co.id Korg AX10B",
+      "site:shopee.co.id Digitech RP350",
+      "site:shopee.co.id Boss ME-6B",
+      "site:shopee.co.id Zoom B9.1ut"
+    ],
+    "result": "No qualified exact processor offer surfaced in this limited indexed pass. GFX-8 sensor module and power adapters, plus RP350/RP355/RP300 PSU are accessories, excluded from processor availability/price evidence.",
+    "rejected_urls": [
+      "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+      "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+      "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463",
+      "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654"
+    ],
+    "limits": "Indexed search only, not exhaustive absence or live-stock proof; no files downloaded.",
+    "next": "Continue fresh series discovery beyond these limited queries; retain unresolved Black Truck fields."
   }
 }
