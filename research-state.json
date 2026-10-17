@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP500",
-    "task": "RP500 own manual expression/LFO/EXPUPDAT and calibration follow-up saved. Next inspect RP500 looper addendum for control restrictions and persistence, preserving documented timing conflict. Commit useful findings before moving models.",
+    "task": "RP500 looper addendum 18-0754-A fully read; exit clears loop, latched overdub and navigation restrictions saved. Next inspect RP90 current record and own manufacturer documentation for unresolved practical controls/software/power evidence. Commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56099,6 +56099,14 @@
       "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
       "finding": "Own manual pp26–27: two assignable LFOs, pedal/wah endpoints, global EXPUPDAT default and calibration versus reset behavior.",
       "remaining": "Display diagonal/color/touch, actual firmware inventory, current software compatibility, power draw and qualified new offer remain unresolved. Looper activation timing conflict retained."
+    },
+    {
+      "model": "DigiTech RP500",
+      "date": "2026-10-18",
+      "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP500_Looper_Addendum_original.pdf",
+      "revision": "18-0754-A; printed March 2010",
+      "finding": "Full four-page addendum read: Down toggles overdub, Up stops, Down resumes; stopped Up 2s clears; Up 4s exits and clears. Up/Down navigation unavailable while looper active. Original activation 2s versus 3s discrepancy retained.",
+      "remaining": "Power-cycle retention not established; firmware availability/install state, screen details, power draw and current OS support unresolved."
     }
   ],
   "discovery_cross_brand_bass": {

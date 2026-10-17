@@ -194,6 +194,12 @@ Guitar multi-effects, distinct from RP255/RP360XP/RP1000. Manufacturer lists pas
 | Expression / calibration and reset | Holding BYPASS about five seconds enters calibration without erasing user presets. Footswitch 5 confirms endpoints and exits; V-Switch threshold range is 0–199. Factory reset erases user data and then calibrates. No device action was performed. | [Manual p27][RP5-M] |
 
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Looper / overdub and navigation | Down toggles overdub on/off; holding it is not required. Up stops; Down resumes. Active looper disables Up/Down bank selection in Preset mode and preset selection in Pedalboard mode; switches 1–5 remain usable as described by the addendum. | [Addendum pp1–2][RP5-L] |
+| Looper / clearing and retention | Stop, then hold Up two seconds to clear. Hold Up four seconds to exit; **exiting clears the loop**. Power-cycle retention is not established. Quiet-start arms then records on playing; on-the-fly records on Down while playing. | [Addendum pp1–2][RP5-L] |
+
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence | Source |
