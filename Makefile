@@ -1731,3 +1731,7 @@ research-commit-vlt2:
 .PHONY: research-commit-fx600
 research-commit-fx600:
 	python3 scripts/research_tools.py commit-fx600
+
+.PHONY: research-commit-gorigb
+research-commit-gorigb:
+	python3 scripts/research_tools.py commit-gorigb
