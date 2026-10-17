@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "VL3X monophonicguitarOctaver versuspolyvocalSynth qualified;TouchWah dynamiccontrol recorded. Next powercurrent/polarity,currentfirmware/categorychoices andfreshShopeediscovery.",
+    "task": "VL3X USBMIDI receive source nowexplicit;filter polarity andDAWtiming qualification saved. Continue power/currentfirmware/categorycounts orfreshbrandseriesdiscovery.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60921,5 +60921,18 @@
       "AcousticguitarµModexamplesnotelectrictoacousticsimulator"
     ],
     "remaining": "Guitarsynth/acousticsimulation,currentfirmware/power/categorycounts unresolved"
+  },
+  "vl3x_usb_midi_20261017": {
+    "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+    "revision": "2015-10-20 firmware2.1.00build346",
+    "pages": "87,164–165",
+    "findings": [
+      "USBorDINMIDIINreceiveselection",
+      "Separateinput/outputchannels",
+      "MIDITempoexternalclock",
+      "Filters suppressselectedmessages",
+      "USB-audio/MIDI timing may need DAW MIDIoffset"
+    ],
+    "limits": "No DINUSBmerge/router,USBhostcontroller support ornumericlatency inferred"
   }
 }

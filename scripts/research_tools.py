@@ -405,7 +405,7 @@ def main():
         if mode == 'commit-hxe-price':
             message = 'research(line6): separate HX Effects preset and Favorites capacities'
         if mode == 'commit-criticalmass':
-            message = 'research(tchelicon): distinguish VoiceLive 3 Extreme guitar pitch and vocal synth'
+            message = 'research(tchelicon): verify VoiceLive 3 Extreme USB MIDI reception'
         if mode == 'commit-b21u':
             message = 'research(zoom): verify B2.1u output control and practice limits'
         if mode == 'commit-katana-go':
