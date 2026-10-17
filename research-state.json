@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Head MK2",
-    "task": "Verify Head MK2 current display/button census andlooper mode/controller operation;power source conflict, Browse/factory total,NAM/synth andqualified Indonesian offers remain open. Then resume fresh Shopee discovery andlegacy consolidation.",
+    "task": "Head MK2 looper location andcontroller evidence saved. Check current display/button census andqualified exact Shopee offer;remaining Browse/factory,NAM/synth,power conflict andcurrent mode durations stay open. Resume fresh Shopee discovery after this pass.",
     "next_models": [],
     "after_queue": "Continue unfinished model verification,fresh Shopee discovery and lossless legacy consolidation. No downloads,workflows or push."
   },
@@ -63754,6 +63754,17 @@
       "MonitorStereo couples MONITOR andDIRECT outputs andmonitor controls.",
       "RETURN andALTERNATIVE IN share stereo-return/aux roles;RETURN XLR no phantom,MAIN XLR48Vprotected with avoidance guidance.",
       "Internal IEC100–240VAC in manual versus current Head90–275VAC specification;conflict preserved pending current label/manual."
+    ]
+  },
+  "technical_followups_head_looper_20261017": {
+    "model": "Kemper PROFILER Head MK2",
+    "source": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+    "revision": "Manual13.0 May2025 pp350–356",
+    "findings": [
+      "MK2up to120sec explicitly requires Input location.",
+      "Input dry preeffects follows laterRig changes;Output processedstereo postREV requires Master… source.",
+      "Unlimited overdubs,no persistent loop storage;Remote functions andexternal record/stop assignments documented.",
+      "Generic60/30sec speed examples retained as revision-qualified;not generalized to all MK2 modes."
     ]
   }
 }
