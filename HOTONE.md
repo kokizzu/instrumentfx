@@ -315,6 +315,19 @@ Checked2026-10-17. [Original manufacturer release notes][MP350-F13],Ampero II se
 
 The [model-specific support index](https://www.hotone.com/support/1?pid=102&tid=1) lists English manual/effect-list revisions through1.4.0;listing alone does not verify their contents. Older [Japanese effect-list URL](https://allaccess.co.jp/hotone/ampero2/doc/Ampero2_EFF_list_JP.pdf) redirects to distributor homepage;do not treat it as an accessed PDF.
 
+### MP-350 — acoustic algorithms,firmware1.1.0
+
+Checked2026-10-17. [Mirrored original Japanese effect list][MP350-E11],**For Firmware V1.1.0-JP**,90PDFpages;original indexed distributor title identifies Ampero II,not Stage/Stomp. Original distributor URL now redirects;the mirror’s PDF itself was read as web text,no download. Revision is older than the listed1.4.0 library.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Synth / acoustic | **AC Sim explicitly converts electric-guitar tone toward acoustic**,four modes Standard,Jumbo,Enhanced,Piezo;Body/Top/Volume controls,mono I/O. **Acoustic Refiner** instead refines plugged-in acoustic/piezo tone with Shape. Dedicated synthesizer capability remains unverified;failed English keyword search is not absence proof. |
+| Categories / Acoustic IR | **10 named mono models**:Dreadnought1/2,Orchestral,Jumbo,Hum Bird,Auditorium,Classical,Mandolin,Fretless Bass,Double Bass. These are stock models,not10 additional user slots or simultaneous blocks. |
+
+Printed p4=PDFpage6;printed pp59–60=PDFpages61–62. This supersedes historical untranscribed acoustic-simulator wording for1.1.0 only;current complete category totals and1.4.0 retention/changes remain unverified.
+
+[MP350-E11]: https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

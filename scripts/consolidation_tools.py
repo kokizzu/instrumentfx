@@ -1408,7 +1408,7 @@ def commit(model_id):
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
     if model_id == 'ampero-mp350':
-        print(research_tools.git('commit', '-m', 'research(hotone): document MP-350 firmware-specific effects and control changes'))
+        print(research_tools.git('commit', '-m', 'research(hotone): verify MP-350 acoustic algorithms with revision-qualified list'))
         return
     if model_id == 'gr-55':
         print(research_tools.git('commit', '-m', 'research(roland): consolidate GR-55 with firmware and used-bundle evidence'))

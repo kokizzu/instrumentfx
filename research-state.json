@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350 effect-list follow-up",
-    "task": "Saved exact1.3.0 effectdelta andexpression/tuner changes. Next access exact1.4.0 effectlist from manufacturer index;do not substitute Stage/Stomp orclaim complete current category totals.",
+    "task": "Original1.1.0JP mirror resolves AC Sim,Acoustic Refiner and10stock acousticIR models. Next obtain exact1.4.0 list andcategory totals,orresumeShopee discovery without silently applying older list as current.",
     "next_models": [],
-    "after_queue": "284partial models;no downloads/workflows/push."
+    "after_queue": "284partialmodels;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57389,5 +57389,19 @@
     "next": "Retrieve/read exact manufacturer effect list1.4.0; index labels not contents",
     "failed_source": "https://allaccess.co.jp/hotone/ampero2/doc/Ampero2_EFF_list_JP.pdf redirects homepage",
     "downloads": false
+  },
+  "mp350_acoustic11_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "original": "https://allaccess.co.jp/hotone/ampero2/doc/Ampero2_EFF_list_JP.pdf",
+    "identity": "90-page manufacturer Japanese effect list ForFirmwareV1.1.0JP; indexedoriginaltitle identifies AmperoII",
+    "pages": "Printed4,59–60;PDFindexes5,60–61",
+    "resolved": "ACSim electric-guitar acoustic simulation,four modes;AcousticRefiner separate;tenstockAcousticIR models",
+    "not_claimed": [
+      "Complete current library",
+      "1.4.0 list contents",
+      "Dedicated synthesis",
+      "Visual panel inspection"
+    ],
+    "downloaded": false
   }
 }
