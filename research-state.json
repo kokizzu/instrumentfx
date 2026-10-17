@@ -28,11 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP70",
-    "task": "RP70 individual amp/drive list and EQ/gate conflicts saved. Next software/import/power/display qualifications; then queued M100. Do not silently resolve source contradictions.",
-    "next_models": [
-      "TC Electronic M100"
-    ],
+    "model": "TC Electronic M100",
+    "task": "Verify M100 official product/manual and instrument suitability using saved exact Imagination Music Store item. Historical Rp1950000 preorder ask; condition unverified. RP70 deferred gaps saved in rp70_support_checkpoint_20261017.",
+    "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
   "new_findings": [
@@ -41333,7 +41331,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP70."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -54608,5 +54606,19 @@
     "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf",
     "pages": "23–25",
     "evidence": "Individual12amp/6distortion choices and assigned cabinets, EQ±12dB/3dB steps. Mid boost b-code typo and AutoSwell higher-faster versus S1-fastest/S9-slowest contradiction retained."
+  },
+  "rp70_support_checkpoint_20261017": {
+    "manual": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf",
+    "software": "https://digitech.com/software-downloads/",
+    "evidence": "No RP70 entry in current directory; no inference from sibling X-Edit. Full rear panel lacks USB/MIDI. No physical power switch; adapter startup.",
+    "remaining": [
+      "Historical editor and OS support",
+      "IR/NAM/import/capture",
+      "Battery operation and actual current draw",
+      "Display diagonal/color/touch and visual panel corroboration",
+      "Toe behavior",
+      "Qualified new offer and current used stock",
+      "Preserved power/count/gate source conflicts"
+    ]
   }
 }

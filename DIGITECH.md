@@ -428,9 +428,11 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | I/O | Unbalanced quarter-inch guitar input and L/Mono/R outputs; eighth-inch stereo headphones; Control In; power input. Headphones become mono with only L/Mono connected. | [Manual pp10–11,35–36][RP70-M] |
 | Power / battery / USB | Manual: PS200R **9 V DC/300 mA**, PS0913DC **9 V DC/1300 mA** supply ratings, regional variants. Actual draw/battery/USB unresolved. | [Manual p36][RP70-M] |
 | Power / source conflict | FAQ RP70/PS200R row instead states **9.6 V DC/300 mA, center-negative**, barrel 9.5 mm long/5.5 mm outer/2.1 mm pin, 120 V Type A variant. Preserve voltage conflict and regional limit. | [FAQ][RP70-F] |
+| Power / operation | No physical power switch: connect/disconnect the adapter to power on/off. Manual startup procedure uses the included adapter; battery support and actual current draw remain unverified. | [Manual pp13,16][RP70-M] |
+| I/O / digital connection limit | Complete rear-panel connector inventory has no USB or MIDI socket. No USB power/audio/MIDI path established; this does not independently settle every historical software/import question. | [Manual pp10–11][RP70-M] |
 | Dimensions / mass | **6.5 L × 5 W × 2 H inches; 0.86 lb unit weight**. | [Manual p35][RP70-M] |
 | IR / NAM / capture | Import/capture support unresolved. | Unresolved |
-| Editor / platforms | Editor and OS support unresolved. | Unresolved |
+| Editor / platforms | Current official software directory has **no RP70 entry**; X-Edit entries for other RP models do not establish RP70 support. Directory warns past-product software is not guaranteed on current macOS/Windows. Historical editor support remains unverified. | [Software directory][RP70-S] |
 | Live / practice | **40 drum patterns**, global settings; tuner and bypass. Looper/scenes unresolved. | [Manual pp2,34–35][RP70-M] |
 
 ### Separate IDR hardware offers
@@ -448,3 +450,5 @@ Working state, authenticity, bundle, adapter, warranty, shipping/tax and voucher
 [RP70-D]: https://digitech.com/product-manuals/
 [RP70-F]: https://digitech.com/faqs/
 [RP70-O]: https://shopee.co.id/Efek-Gitar-Digitech-RP70-SECOND-i.473560916.28475084274
+
+[RP70-S]: https://digitech.com/software-downloads/
