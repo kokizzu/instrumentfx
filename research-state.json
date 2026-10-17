@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "FX150b",
-    "task": "FX150b manual mirror recovered: verify panel, processing/category choices and editor compatibility next; preserve capacity/dimensions/current-scope qualifications.",
+    "task": "FX150b controls/memory/USB text audit saved. Next verify category choices, IR conversion and exact editor compatibility; do not repeat failed screenshots unchanged.",
     "next_models": [],
     "after_queue": "331 active;resume Shopee discovery after useful FX150b followup. Technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66076,6 +66076,22 @@
       "Capacity printed mA",
       "Editor compatibility and library audit",
       "Qualified prices"
+    ]
+  },
+  "fx150b_controls_20261018": {
+    "source": "https://device.report/m/1896b86fc51a16a65e0160b61d615dde8b75c7b24e033e4924cf9267052e52f3.pdf",
+    "basis": "Shared original-manual text; FX150b explicitly named battery version",
+    "recovered": [
+      "2 rotaries,3 footswitches,0 separate top-panel buttons text-derived",
+      "Internal pressure activation and external EXP2",
+      "60x3=180 writable presets",
+      "24-bit44.1kHz USB audio; Windows ASIO/Mac driver distinction"
+    ],
+    "limits": [
+      "Screenshots pages6/8 cache miss; no visual audit",
+      "Factory-filled memory unknown",
+      "XLR prose versus port-list discrepancy",
+      "USB power and channel census unknown"
     ]
   }
 }

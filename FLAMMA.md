@@ -662,3 +662,17 @@ Followup2026-10-18 supersedes the earlier unknowns above. Manufacturer-hosted [o
 | Power / battery indicators | Below20% red flashing;below5% alert/fast flashing andrisk of unsaved changes. Empty battery powers off automatically. Charge fully every6months during long storage. |
 
 Remaining:panel census,processing/category audit,exact editor compatibility,loading distinctions andqualified prices. Earlier access failure is historical;mirror recovery does not establish manufacturer-host availability orvisual verification.
+
+### FX150b — shared-manual controls, memory and USB
+
+Checked2026-10-18 against the [manufacturer-authored shared manual mirror](https://device.report/m/1896b86fc51a16a65e0160b61d615dde8b75c7b24e033e4924cf9267052e52f3.pdf),printed pp3–6,15,32–35,43–44. FX150b is explicitly identified there as the integrated-battery version;these are shared operating instructions. Screenshot retrieval of PDF pages6/8 failed;no visual audit claimed. Earlier unresolved fields are qualified by these findings.
+
+| Field | Evidence / limitation |
+|---|---|
+| Expression / toe | Internal treadle plus external EXP2(TRS);internal pressure activation documented. MIN/MAX/PRESS calibration;single/multiple parameter assignments. External toe-switch hardware support unverified. |
+| Knobs / footswitches / buttons | Text-derived **2 rotary(MASTER,pressable VALUE),3 footswitches(A/B/C),0 separate top-panel buttons**;power switch andtreadle pressure activation additional. Touchscreen controls andencoder push are not extra standalone buttons. Visual confirmation pending. |
+| Factory / user / total memory | **60 banks×3=180 writable patches**;not180 user plus another180 factory. Factory-filled subset unknown. |
+| Editor / USB audio | Shared manual:24-bit44.1kHz USB audio,Windows ASIO driver,Mac no driver required;dry/effect choices perleft/right output. This does not establish USB power,reamping,channel census orminimum OS/editor versions. |
+| I/O / wording conflict | MASTER/global prose mentionsXLR outputs,absent from documented interface/specification port lists. XLR hardware remains unverified;no added ports inferred. |
+
+Processing/category census,editor version compatibility,IR conversion details andcondition-qualified pricing remain pending. No files orsoftware downloaded.
