@@ -335,7 +335,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-ax3g':
-            message = 'research(korg): add AX3G with exact sold-out offer and count conflict'
+            message = 'research(korg): reconcile AX3G algorithms and distinguish drone from synth'
         if mode == 'commit-ax1000g':
             message = 'research(korg): preserve second AX1000G sold-out offer separately'
         if mode == 'commit-ve20-followup':

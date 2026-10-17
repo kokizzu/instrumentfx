@@ -281,15 +281,15 @@ Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Owne
 | Expression | External EXP-2/XVP-10; volume/wah. Built-in/toe unverified. | [Manual specifications][AX3G-M];[EasyStart p1][AX3G-E] |
 | K/F/B | **2 rotary /2 footswitches /2 buttons**, text-derived: Function,Value;program up/down;Write,Cancel. | [EasyStart pp2–3][AX3G-E] |
 | Display | Program/value display; diagonal,technology,color,touch unverified. | [EasyStart p2][AX3G-E] |
-| Processing / category choices | **6 simultaneous**: PRE,drive/amp,cab,MOD,shared delay/reverb,NR. Manual:PRE10,drive/amp16,cab10,MOD10,delay5,reverb5,NR1=57 choices. German specifications instead list PEDAL11; unresolved discrepancy. | [EasyStart p1][AX3G-E];[Manual p11][AX3G-M];[German specifications][AX3G-P] |
+| Processing / category choices | **6 simultaneous**: PRE,drive/amp,cab,MOD,shared delay/reverb,NR. Manual:PRE10,drive/amp16,cab10,MOD10,delay5,reverb5,NR1=57 choices. Parameter guide independently enumerates PRE F0–F9:compressor,pickup,acoustic simulator,wah,auto wah,vibe/phase,chorus/flanger,octave,ring modulation,drone. Drive/amp splits8drive+8amp;cab C0–C9,MOD F0–F9,delay/reverb F0–F9. German specifications instead list PEDAL11; retained conflicting claim,not an extra verified algorithm. Internal modes are not additional top-level choices. | [EasyStart p1][AX3G-E];[Manual p11][AX3G-M];[German specifications][AX3G-P];[Parameter guide pp2–10][AX3G-F] |
 | Factory / user memory | **80=40user+40preset**. Presets editable but not overwritable; Write stores in user area. Reset loads factory sounds into user area,erasing custom sounds. | [EasyStart pp2–3][AX3G-E] |
-| Synth / acoustic | PRE acoustic simulator includes four body models; dedicated synth pending. | [Parameter guide p2][AX3G-F] |
+| Synth / acoustic | Acoustic simulator has four body modes. Drone models sitar sympathetic strings;ring modulation uses an oscillator,octave is single-note only. No dedicated SYNTH entry in the enumerated guide; these effects do not establish a tracking synthesizer. | [Parameter guide pp2–4][AX3G-F] |
 | Dimensions / mass | **178W×142D×43H mm;340g**; battery inclusion unspecified in cited specification. | [Manual p11][AX3G-M] |
 | I/O | Mono input,stereo output;¼-inch audio sockets per German specs. Output also supports headphones. External-expression socket,DC. Other ports unverified. | [Specifications][AX3G-P];[Manual p11][AX3G-M];[EasyStart pp1–2][AX3G-E] |
 | Power / battery / USB | **9VDC** optional adapter or four alkaline AA,approximately8h. Current,polarity,USB power unverified. | [Manual p11][AX3G-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
 | Editor / software | Editor,driver,updater platforms unverified. | Unresolved |
-| Looper / drums / live | Bypass with both footswitches; hold about1s for mute/tuner. Either exits without patch change. Delay/reverb carryover requires same settings. Amp/Line P5 applies to amp models,not drive models. Looper,drums,scenes unverified. | [Manual p9][AX3G-M];[EasyStart pp1–3][AX3G-E] |
+| Looper / drums / live | Bypass with both footswitches; hold about1s for mute/tuner. Either exits without patch change. Delay/reverb carryover requires same settings. Amp/Line P5 applies to amp models,not drive models. Wah/auto-wah/vibe-phase can precede or follow amp processing. Drive/amp selection chooses an associated cabinet. Looper,drums,scenes unverified. | [Manual p9][AX3G-M];[EasyStart pp1–3][AX3G-E];[Parameter guide pp2–6][AX3G-F] |
 
 ### Separate IDR hardware offers
 
@@ -305,6 +305,6 @@ Mixed jonimusic item22551702/3568008855 lists AX100G/AX1500G/AX3000G/AX3G atRp89
 
 [AX3G-M]: https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf
 [AX3G-E]: https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf
-[AX3G-F]: https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf
+[AX3G-F]: https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%3DAX3GFXParamGuideE1.pdf&response-content-type=application%2Fpdf%3B
 [AX3G-P]: https://www.korg.com/de/products/effects/ax3g/page_2.php
 [AX3G-O]: https://shopee.co.id/efek-pedal-gitar-elektrik-KORG-AX3g-made-in-japan-distorsi-delay-reverb-i.33360096.3679424724

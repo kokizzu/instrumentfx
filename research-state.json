@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "AX3G follow-up or fresh discovery",
-    "task": "AX3G added194threcord; resolve manufacturer PRE/PEDAL count conflict with parameter guide, then continue Shopee discovery. Never borrow AX3B specs.",
+    "model": "Fresh Shopee discovery after AX3G",
+    "task": "AX3G parameter guide corroborates57choices incl PRE10; GermanPEDAL11 retained source conflict. Resume unrecorded guitar/bass/vocal discovery; avoid repeated solved AX3G count research.",
     "next_models": [],
-    "after_queue": "No downloads/workflows;commit each model before next."
+    "after_queue": "No downloads/workflows;commit model before next."
   },
   "new_findings": [
     {
@@ -40503,7 +40503,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume AX3G follow-up or fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery after AX3G."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49017,6 +49017,13 @@
       "source": "https://static.roland.com/assets/media/pdf/ME-20_OM.pdf",
       "finding": "pp14–26 tuner audibility/reference retention,auto routing,delay step sizes,MOD names,EZEDIT recipes,Manual startup/Memory bank confirmation and edit restrictions; p37 conversion and electrical IO.",
       "remaining": "Button total not recoverable from text; screenshot returned no image. Simultaneous ceiling,polarity,display details,imports/editor and qualified market evidence unresolved."
+    },
+    {
+      "model": "Korg AX3G",
+      "checked_date": "2026-10-17",
+      "source": "https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%3DAX3GFXParamGuideE1.pdf&response-content-type=application%2Fpdf%3B",
+      "finding": "11page parameter guide accessed without downloading;PRE F0–F9 confirms10 rather than GermanPEDAL11. 8drive+8amp;10cab10MOD10delay/rev. Drone/ring/octave distinguished from dedicated synth;prepost restrictions saved.",
+      "remaining": "German claim preserved as conflict; no further count search needed without new revision evidence. Builtin/toe,screen,powercurrent/polarity,imports/editor,qualifiedprices/stock remain. Next fresh Shopee discovery."
     }
   ],
   "discovery_cross_brand_bass": {
