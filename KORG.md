@@ -404,6 +404,16 @@ Checked2026-10-17;partial. Guitar scope; bass/vocal suitability and ownership un
 | New | No model-specific qualified amount. | — |
 | Unresolved multi-model listing | jonimusic,shop22551702/item3568008855,KotaTangerangSelatan;AX100G/AX1500G/AX3000G/AX3G. ListingrangeRp899.900–Rp2.299.900 **is not an AX100G price**;variantmappingunavailable. Directbrowsertextchecked2026-10-17,crawled2monthsago,**Habis**. | [Shopee listing][AX100-O] |
 
+### AX100G — acoustic compressor and pedal-count wording
+
+Checked2026-10-18 against [own manual p12][AX100-M] and [German manufacturer product page](https://www.korg.com/de/products/effects/ax100g/). No downloads or hardware test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Acoustic / integrated compressor | ACOUSTIC transforms electric-guitar tone and **includes a compressor with sensitivity controlled byGAIN**. Manual recommends theneckpickup foramorerealisticresult. GAIN therefore doesnotmean distortiongain forthistype. Built-incompression isnot anadditional independentlyplaceableeffect orproprietarycapture. |
+| Processing / Drive parameter units | DRIVEtypescombinecompression/drive/amp processing withthree-bandEQ. GAIN,TREBLE,MIDDLE,BASS,LEVEL have **0–10.0 displayranges**; donot inferdB or gainratios. Theacoustictype’sGAINexceptionabove remains. |
+| Expression / manufacturer wording qualification | Germanproductpage describes **23 pedal-controlledparameters**,while originalmanual enumerates23PEDALeffecttypes. Preserve wordingdifference; neitherclaimmeans23concurrenttargets orindependentpedals. Existingexplicit algorithmexclusions stillapply. |
+
 <!-- comparison evidence ends -->
 
 Condition,workingstate,bundle,adapter,authenticity,warranty,shipping,tax,vouchereligibility andlivestock unverified. Rp10000late-arrivalcompensationisnotdiscount. Official68pageEFGJmanualreadasbrowsertext;no filesystemdownloadorvisualinspectionclaimed.

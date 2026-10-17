@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "V-AMP3 control layers andMIDI OUT/THRU role saved; X V-AMP remainsindex-onlylead. Continue exact discovery andprimaryverification.",
+    "task": "AX100G acoustic compressor,Driveparameterunits andpedalcount wording saved. Continue exactmissingmodel discovery andremainingtechnicalverification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69625,5 +69625,18 @@
       "source": "https://shopee.co.id/search?keyword=%2CLX1",
       "qualification": "Noexactitem;notregistered"
     }
+  },
+  "technical_followup_ax100g_acoustic_20261018": {
+    "date": "2026-10-18",
+    "sources": [
+      "https://www.korg.com/de/products/effects/ax100g/",
+      "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf"
+    ],
+    "findings": [
+      "AcousticGAINcontrolscompressorsensitivity",
+      "Drive0–10rangesnotdB",
+      "Product23parametersvsmanual23PEDALtypeswording"
+    ],
+    "discovery": "AX1G/AX2G/AX300G exactShopeesearchesunresolved"
   }
 }

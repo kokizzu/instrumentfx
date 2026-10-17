@@ -1879,3 +1879,7 @@ research-commit-me30:
 .PHONY: research-commit-vamp3
 research-commit-vamp3:
 	python3 scripts/research_tools.py commit-vamp3
+
+.PHONY: research-commit-ax100g
+research-commit-ax100g:
+	python3 scripts/research_tools.py commit-ax100g
