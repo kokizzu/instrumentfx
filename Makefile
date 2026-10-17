@@ -1387,3 +1387,7 @@ research-commit-gfx4:
 .PHONY: research-commit-ve20-followup
 research-commit-ve20-followup:
 	python3 scripts/research_tools.py commit-ve20-followup
+
+.PHONY: research-commit-rp250
+research-commit-rp250:
+	python3 scripts/research_tools.py commit-rp250

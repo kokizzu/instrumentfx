@@ -159,3 +159,37 @@ Late-arrival compensation is not an immediate discount. No documents,software,fi
 [RP90-P]: https://digitech.com/product-manuals/
 [RP90-O1]: https://shopee.co.id/Efek-Gitar-Digitech-RP90-i.77743122.47652738573
 [RP90-O2]: https://shopee.co.id/efek-gitar-digitech-RP90-minus-i.729907257.51202235862
+
+## RP250
+
+Guitar multi-effects;distinct fromRP255/RP150. Checked2026-10-17;partial. Bass/vocal suitability andownership unresolved.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal andtoe V-Switch,adjustable sensitivity. External support unknown. | [Manual pp39,41][RP250-M] |
+| K/F/B | Four rotary,two main footswitches;separate button count pending. Toe additional. | [Manual pp2,6–9][RP250-M] |
+| Display | Preset/name/parameter display andLED matrix;technology,diagonal,color,touch unverified. | [Manual p9][RP250-M] |
+| Dimensions / mass | 8.25L×9.375W×2.125Hin;3.3lb. | [Manual p42][RP250-M] |
+| Processing / category choices | **11 simultaneous**. Pickup,wah,compression,distortion,amp/cab,EQ,gate,Chorus/FX,delay,reverb;category subtotals pending. | [Manual pp19–36,42][RP250-M] |
+| Factory / user memory | **120=60user+60factory**,user locations initially duplicate factory. | [Manual p5][RP250-M] |
+| Synth / acoustic | Dreadnaught acoustic simulator. Dedicated synthesis unverified. | [Manual pp23–24][RP250-M] |
+| I/O | ¼TSguitar,L/R¼outputs,⅛stereoAUX,⅛stereophones,USB-B,power,Amp/Mixer switch. Headphones mono whenonlyL output connected;stereo withneither/both. | [Manual pp10–11,42–43][RP250-M] |
+| Power / battery / USB | PS0913B **9VAC1.3A** adapterrating,2.5mmpin;DCpolarity inapplicable. Measured draw,battery andUSBpower unknown. | [Manufacturer FAQ][RP250-F] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified. | Unresolved |
+| Editor / software | X-Edit editor/librarian;historical requirements WindowsXP SP2/.NET2,Mac10.4+. USB2FullSpeed,2in/2out44.1kHz16/24-bit;driver/currentOS/MIDI compatibility unresolved. | [Manual pp4,11,43][RP250-M] |
+| Looper / drums / live | 60drum patterns;analog bypass. Looper,scenes,trails unverified. | [Manual pp2,42][RP250-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used / title second | **Rp925,000;Habis**,Adi Victoria,Kab.Kudus;shop161000047/item56101815937. Checked2026-10-17;renderedmonth-old cache,stale31August–3September delivery;search index threemonthsold. Working state,revision,adapter/bundle,warranty andvoucher unknown. Not currentstock/completed sale;late-arrivalRp10,000 compensation notdiscount. | [Exact hardware][RP250-O] |
+| New | Unknown;no qualified new ask. | — |
+
+HopeMusic RP250 listing shop703817770/item23582306111 showsRp600,000–2,400,000 andthreeunmappedvariations,Habis;excluded fromprice bounds. Seller flute/violin claims do not establish guitar/bass/vocal category membership beyond manufacturer guitar architecture. [Mixed offer](https://shopee.co.id/Efek-Digitech-RP250-Bisa-Untuk-Gitar-Suling-Biola-i.703817770.23582306111).
+
+Ownmanual18-0432V-B,2006declaration,accessed throughofficialmanualindex;directoriginaldomain failed butindexedCDN readable. No downloads/dependencies/physicalinspection. NoRP255 looper orpower borrowed.
+
+[RP250-M]: https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP250_-Manual18-0432V-B_original.pdf
+[RP250-F]: https://digitech.com/faqs/
+[RP250-O]: https://shopee.co.id/efek-gitar-digitech-rp250-second-i.161000047.56101815937
