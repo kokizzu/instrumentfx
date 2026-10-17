@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-100",
-    "task": "Saved GP100 firmware1.8 English manual PRE14/NR2/EQ3 and confirmed AC Sim separate from acoustic amps. Next complete DST/AMP/CAB/MOD/DLY/RVB census in same exact manual before attempting total reconciliation; current/native NAM status remains separately qualified. Official v1.7/v2.0 linked files inaccessible; avoid repeated blind requests. No downloads; commit before next model.",
+    "task": "Saved firmware-1.8 PRE14/NR2/EQ3/MOD12/DELAY11/REVERB9. Next enumerate DST, AMP and CAB in the same English manual before reconciling total; preserve advertised-count and revision conflicts. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56782,6 +56782,12 @@
       "finding": "Manufacturer-authored Thomann English manual explicitly firmware1.8;PRE14,NR2,EQ3 enumerated. AC Sim confirms separate electric-to-acoustic effect, four modes; CABD/OM/Jumbo/GA separately qualified. Other category census and current installed library remain unresolved.",
       "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf",
       "access_note": "Official v1.7 EN landing redirects to CN-named file inaccessible to reader; v2.0 EN landing exists but linked content inaccessible. Do not infer contents or revision from landing metadata."
+    },
+    {
+      "model": "Valeton GP-100",
+      "checked_date": "2026-10-18",
+      "finding": "Firmware-1.8 manual category census: MOD 12, DELAY 11, REVERB 9; names preserved. Trail controls do not establish patch spillover.",
+      "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf"
     }
   ],
   "discovery_cross_brand_bass": {

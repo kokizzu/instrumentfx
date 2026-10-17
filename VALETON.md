@@ -222,6 +222,17 @@ Checked 2026-10-18. Manufacturer-authored English manual cover explicitly says *
 | Category choices / EQ | **Three, p33:** Guitar EQ1; Guitar EQ2; V-EQ. Global EQ is separate, not a fourth patch-EQ choice. [Original manual copy](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
 | Synth / acoustic correction | **AC Sim is explicitly an acoustic-guitar simulator**, with STD/Jumbo/ENH/Piezo modes, separate from acoustic amp models. Step Filter creates synth-like sounds; this alone does not establish a dedicated synthesizer. CAB separately lists D/OM/Jumbo/GA acoustic simulations (p33), not four extra amps. Earlier acoustic-simulator unknown is superseded for firmware1.8. [Original manual copy](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
 
+### GP-100 — modulation and ambience census, firmware 1.8
+
+Checked 2026-10-18 in the same manufacturer-authored manual. Counts follow category headings despite interleaved text extraction. They do not establish the current firmware library.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / MOD | **12, printed pp34–35:** A-Chorus; G-Chorus; B-Chorus; Detune; Flanger; Vibrato; Phaser; Vibe; Opto Trem; Sine Trem; Triangle Trem; Bias Trem. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Category choices / DELAY | **11, printed pp35–37:** Sweet; P-Echo; M-Echo; T-Echo; 999 Echo; Rev Echo; Slapbk; Vin-Rack; Swp Echo; Ping Pong; M-Echo2. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Category choices / REVERB | **9, printed pp37–38:** Room; Hall; Church; Plate; Spring; N-Star; Deep Sea; Mod Verb; Clear Sky. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Delay / reverb trails | These entries expose Trail on/off. This does not prove spillover across preset changes. Delay time is listed as 20–4000 ms. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+
 ## GP-150
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
