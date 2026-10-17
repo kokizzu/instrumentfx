@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon Play Acoustic",
-    "task": "Play Acoustic dated2014-07-16HardTune7/BodyRez8choices andglobalguitar/noHITscope saved. Next current firmware change notes orfreshShopeediscovery; do not confuse2014manualwithcurrenthardwarestate.",
+    "task": "Play Acoustic 2014manual loop/preset and Switch3 controls saved. Manufacturer firmware video gjBCbDvJnhM inaccessible; secondary reports remain unverified leads. Next fresh Shopee discovery or other remaining primary-source gaps; avoid cycling on inaccessible pages.",
     "next_models": [],
     "after_queue": "Continue full research and legacy consolidation; no workflows/downloads/push."
   },
@@ -58673,6 +58673,21 @@
     "bodyrez_scope": "5numbered+Custom+Flat+JustComp;selectorchoicesnotcaptures",
     "guitar": "Globalsettings;OnOffnoguitarHIT;Advancedrequiredforsomepages",
     "limits": "Currentfirmwarebehaviornotestablished;nofullPDFinspection",
+    "downloads": false
+  },
+  "play_acoustic_loop_controls_20261017": {
+    "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_P0DEF_PLAY_ACOUSTIC_M.pdf",
+    "identity": "2014-07-16 indexedp15",
+    "facts": [
+      "Playback continues outside Loop mode for vocal preset selection and subsequent overdub",
+      "DOWN hold undo/redo;another overdub after undo invalidates redo",
+      "Switch3 dedicated loop control changes main UP/DOWN combination to key/scale"
+    ],
+    "firmware_leads": {
+      "article": "https://audiopronews.com/processors/tc-helicon-new-firmware-updates/",
+      "manufacturer_video": "https://www.youtube.com/watch?v=gjBCbDvJnhM",
+      "access": "Manufacturer video inaccessible;manufacturer product502/generic shell. Secondary update reports not adopted as verified technical facts."
+    },
     "downloads": false
   }
 }

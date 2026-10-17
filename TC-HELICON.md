@@ -243,6 +243,15 @@ Inspected original reference is firmware1.0/2014-05-09; later firmware behavior 
 | Processing / BodyRez choices | **Eight selector entries**: five numbered BodyRez styles plus Custom, Flat and Just Comp. This includes neutral/custom options; it is not eight independent capture models or simultaneous blocks. Amount below10 restricts adjustable EQ/compression/ambience ranges in Advanced mode. |
 | Memory / guitar control | This revision keeps guitar settings **global across vocal preset changes**. Guitar effect control offers **On/Off without guitar HIT**. Some edit pages require Advanced BodyRez editing. Later firmware storage and control behavior remain unresolved. |
 
+### Play Acoustic — documented looping controls, 2026-10-17
+
+[Official English manual, 2014-07-16, indexed p15](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_P0DEF_PLAY_ACOUSTIC_M.pdf); revision-scoped behavior, not proof of current firmware.
+
+| Field | Verified operation / limitation |
+|---|---|
+| Looper / preset changes | A loop can continue playing after leaving Loop mode, allowing selection of another vocal sound before returning to overdub. Hold DOWN to undo the last overdub; repeat to redo. Recording another overdub after undo removes that redo opportunity. This is not evidence of saved multi-loop storage. |
+| Controls / Switch-3 loop mode | Connecting Switch-3 gives direct loop control, including dedicated undo; the main UP/DOWN combination changes to key/scale selection. Do not describe the external control and built-in combination as retaining identical default functions. |
+
 <!-- comparison evidence ends -->
 
 ### Current source access and firmware lead
@@ -253,7 +262,7 @@ The [exact NEO MUSIC Shopee listing](https://shopee.co.id/TC-HELICON-PLAY-ACOUST
 
 Complete original source body,URLs,firmware1.0 category/reverb-duplicate qualification, global guitar-setting limitation and undo-dependent15/30-second loop limits remain preserved. Those original observations do not establish current firmware behavior. BodyRez continues to mean acoustic-pickup EQ/compression/ambience, not user IR or synthesis. Distinct guitar reverb/modulation processing and vocal effects support membership in both guitar and vocal comparisons; the two rows do not add another unique model.
 
-No files/dependencies downloaded or new PDF visual inspection performed. Remaining: accessible current official firmware/change notes, later manual comparison, preset/guitar-setting behavior, looper duration, factory/user split, screen diagonal/color/touch, USB channels/rates/drivers, power polarity/battery/bus operation, present VoiceSupport compatibility and qualified current local offers.
+No files/dependencies downloaded or new PDF visual inspection performed. Remaining: accessible current official firmware/change notes, later manual comparison, preset/guitar-setting behavior, looper duration, factory/user split, screen diagonal/color/touch, current USB/driver compatibility (dated formats now recovered above), power polarity/battery/bus operation, present VoiceSupport compatibility and qualified current local offers.
 
 ## VoiceLive 3 Extreme
 

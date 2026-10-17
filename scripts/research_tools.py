@@ -423,7 +423,7 @@ def main():
         if mode == 'commit-x3live':
             message = 'research(line6): qualify X3 Live Silicon support and updater restrictions'
         if mode == 'commit-harmony-singer2':
-            message = 'research(tc-helicon): verify Play Acoustic selector counts and guitar control limits'
+            message = 'research(tc-helicon): verify Play Acoustic loop and Switch-3 control behavior'
         if mode == 'commit-duplicator':
             message = 'research(tc-helicon): add Duplicator with model-specific bypass and source conflicts'
         if mode == 'commit-mic-mechanic2':
