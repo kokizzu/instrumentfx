@@ -6,7 +6,7 @@
 
 ## Arena2000
 
-Eligible guitar multi-effects with built-in expression. Not a dedicated single-effect pedal. Partial technical record; consolidation does not make remaining unknowns verified.
+Eligible guitar/shared-bass multi-effects with built-in expression. Not a dedicated single-effect pedal. Partial technical record; consolidation does not make remaining unknowns verified.
 
 <!-- comparison evidence begins -->
 ### Hardware and display
@@ -26,6 +26,7 @@ The official front graphic's One Foot Switch slogan is not the switch count: har
 
 | Required field | Evidence / unresolved qualification |
 |---|---|
+| Bass capability | Own2022 manual explicitly identifies INPUT for guitar/bass. Bass-specific library and low-end performance remain unverified. [Manual p4][AR22] |
 | Architecture | Ten labelled modules: **COMP,FXA,DRIVE,AMP,CAB,EQ,NG,FXB,DELAY,REVERB**. Manufacturer confirms reorderable blocks; exact maximum concurrent/DSP constraint unverified pending readable full manual. |
 | Library | Advertised **278 total**, alongside **100 effects,80 amps,50 cabinets**. Subcounts do not sum to278. No missing category or definitive total is invented; individual effect-category breakdown remains pending. |
 | Presets | **150 locations =50 banks×3**. Factory-filled split, dedicated user storage and overwrite rules unverified. |
