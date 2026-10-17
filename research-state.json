@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Remaining vocal manufacturer verification",
-    "task": "CanonicalPlayalreadyresolvesAsiaProSoundduplicate. Continue exactVoiceLivePlaycurrentprimaryspecifications orfreshqualifyingbass/vocalShopeeleads;GTXmanufactureridentifiedbutunpriced/notactive.",
+    "task": "VoiceLivePlay2018QSGpowerandfootswitchfacts saved;remainingprimaryhardwarefields open. Continue freshbass/vocal hardwarediscovery ormodel-specificcurrentmanualverification;do notresumecanonicalduplicatePlayoffer.",
     "next_models": [],
     "after_queue": "306partialmodels;fullmanufacturer/priceverificationandlosslessmigration remainincomplete. Nodownloads,workflows orpush."
   },
@@ -41730,7 +41730,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal discovery after V6 bundle audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Remaining vocal manufacturer verification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -64052,5 +64052,16 @@
       }
     ],
     "limits": "Do notborrowGTXprocessingintobluePlay;donotassignAsiaProSoundasktoGTX."
+  },
+  "technical_followups_play_qsg2018_20261017": {
+    "model": "TC-Helicon VoiceLive Play",
+    "source": "https://manuals.plus/m/6bf0eaab8f1b210b9baa99519c4d8ce56768e39521f0f0c4cfddc31e6a6af0fb.pdf",
+    "identity": "P0DEH EnglishQSGRev6 2018-11-28,2pages,MusicTribe2018copyright;originalPDFread,notgeneratedFAQ.",
+    "findings": [
+      "12V/>400mAlabel versusolder400mApanel;notmeasured draw.",
+      "UP+DOWNhold1sLoop;record/play/overdubtap,holdundo;middle stopclear;Exitpresetbrowsewhileloop.",
+      "UP+HIT1staptempo,HITtap,UP/DOWNBPMtrim;SetKeysettingrepurposesUP/DOWNhold."
+    ],
+    "remaining": "Currentfirmware/looperlimit,dimensions/mass,storagecounts,display,powerpolarity/phantom/USBformat andqualifiedprices."
   }
 }
