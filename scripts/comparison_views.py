@@ -66,7 +66,8 @@ def aliases(brand, model):
     return {norm(n) for n in names}
 
 def relink(value, source, refs):
-    value = re.sub(r'\[([^\]]+)\]\[([^\]]+)\]', lambda m: '['+m[1]+']('+refs[m[2].lower()]+')' if m[2].lower() in refs else m[0], value)
+    value = re.sub(r'(?<!!)[\[]([^\]]+)\]\[([^\]]*)\]', lambda m: '['+m[1]+']('+refs[(m[2] or m[1]).lower()]+')' if (m[2] or m[1]).lower() in refs else m[0], value)
+    value = re.sub(r'(?<!!)(?<!\\)\[([^\[\]]+)\](?![\[(])', lambda m: '['+m[1]+']('+refs[m[1].lower()]+')' if m[1].lower() in refs else m[0], value)
     def link(m):
         target = m[2]
         if '://' in target or target.startswith('mailto:'):
@@ -647,6 +648,11 @@ def test_field_extraction():
     assert value == 'External only — Evidence: [Manufacturer][manual]'
     linked = relink(value, 'HEADRUSH.md', {'manual': 'https://example.com/original-manual.pdf'})
     assert '[Manufacturer](https://example.com/original-manual.pdf)' in linked
+    refs = {'ad8-m': 'https://example.com/ad8.pdf'}
+    assert relink('Evidence [AD8-M].', 'BOSS.md', refs) == 'Evidence [AD8-M](https://example.com/ad8.pdf).'
+    assert relink('[Manual][]', 'BOSS.md', {'manual': 'https://example.com/manual.pdf'}) == '[Manual](https://example.com/manual.pdf)'
+    assert relink('[unknown] and [inline](https://example.com/page)', 'BOSS.md', refs) == '[unknown] and [inline](https://example.com/page)'
+    assert relink('![AD8-M](photo.png)', 'BOSS.md', refs) == '![AD8-M](photo.png)'
     assert field_value(['Field', 'Finding'], row[:2]) == 'External only'
     assert field_value(headers, row[:2]+['']) == 'External only'
     print('PASS: separate source-column evidence survives extraction and reference resolution; two-column values stay unchanged.')

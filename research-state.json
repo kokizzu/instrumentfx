@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS AD-8",
-    "task": "AD-8 six fixed body/microphone pairs saved; new170mA2008catalogue vs120mAmanual/later conflict retained. Next fresh Shopee discovery or remaining source-backed fields; do not repeat oversized catalogue open. Legacy migration and record verification remain incomplete.",
+    "task": "Comparison shortcut/collapsed source-link preservation fixed with regression coverage. Resume fresh Shopee discovery and unresolved model fields; AD-8 regional dimension/impedance/draw conflicts remain. No oversized PDF repeat.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery and remaining verification; no workflows/push."
   },
@@ -58642,5 +58642,11 @@
     "catalogue2014": "https://static.roland.com/assets/media/pdf/boss_catalog_2014.pdf",
     "access": "2008fullreader11639449byteslimit;ownindexedtextonly",
     "downloads": false
+  },
+  "comparison_shortcut_links_20261017": {
+    "problem": "Defined Markdown shortcut and collapsed references were not expanded before comparison rendering; source citations lost clickable destinations.",
+    "fix": "Resolve known shortcut/collapsed IDs using the source file reference map; retain unknown labels and existing inline/image links.",
+    "validation": "Existing extraction target: reproduced failing shortcut test before resolver fix; passing afterwards. Reviewed previews retain row membership across guitar/bass/vocal.",
+    "scope": "Source-link preservation only; no specification or model-membership changes."
   }
 }
