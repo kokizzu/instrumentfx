@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)
 
-**Six active profiles:** FV03 vocal processor added2026-10-17; FB200 bass processor added2026-10-17; FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
+**Seven active profiles:** FV04 vocal processor added2026-10-17; FV03 vocal processor added2026-10-17; FB200 bass processor added2026-10-17; FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
 
 The [official multi-effects collection](https://www.flamma.shop/collections/multi-effects), [manufacturer catalogue](https://flammainnovation.com/shop.html?ancestors=0%2C1256) and [manual/software index](https://www.flamma.shop/pages/manual) establish additional families for research. They do not prove Indonesian stock or complete specification verification. Unknown is `?`, not No; K/F/B counts rotary controls, main footswitches and separate buttons, excluding encoder presses/toe/power switches counted separately.
 
@@ -387,3 +387,49 @@ Remaining: actual unit revision/power label,current requirement,barrel/phantom d
 [FV3-O]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV03_Manual_EN_V01_2021.06.18_A.pdf?v=1671179013
 [FV3-I]: https://www.flamma.shop/pages/manual
 [FV3-S]: https://www.flamma.shop/products/flamma-fv03
+
+## FV04 Harmony
+
+Checked **2026-10-17**; partial. Vocal harmony plus reverb,not guitar multi-effects merely because it has guitar reverb. Vocal-only membership; FV01 remains excluded.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No built-in pedal or EXP socket in manual inventory; toe not documented. [V01][FV4-M], pp03–04 |
+| Rotary / footswitches / buttons | **4 / 1 / 1**: Mode,Key,Level,Gain; footswitch; Sharp button. Line In,48V,Lift toggles separate. Derived text inventory; image confirmation pending. [Manufacturer manual mirror][FV4-R], pp03–04 |
+| Display | Status LEDs in inventory; screen specifications not applicable to LEDs. [Manual mirror][FV4-R] |
+| Dimensions / weight | **86.6×125×60 mm;0.371 kg**; axes/accessory inclusion unspecified. [Manual mirror][FV4-R], p09 |
+| Simultaneous processing / choices | Harmony+reverb together. **12 root notes,major/minor scales,11 harmony modes**,separate vocal/guitar reverb levels and3 vocal tone profiles. Reverb algorithm choice count unverified; no FV02/03 three-reverb assumption. [Product][FV4-P]; [Manual mirror][FV4-R], pp05–08 |
+| Harmony control / limitations | Manual Key and Sharp selection; double Sharp selects minor. Do not infer automatic guitar-chord tracking. Paired harmony intervals documented,not11 simultaneous voices. [Manual mirror][FV4-R], pp05–06 |
+| Factory / user / total presets | Stored-memory capacity unverified;11 harmony modes are not11 user presets. |
+| Synth / acoustic simulation | Each unverified; pitch harmony does not establish either. |
+| IR / NAM / capture | User IR,native NAM,converted NAM and proprietary capture loading each unverified. |
+| Audio / control I/O | Mono quarter-inch guitar in/out (1 MΩ/100 Ω);balanced XLR mic in/out (2.14 kΩ/300 Ω);DC. Line mode uses mic socket. No USB,MIDI,EXP,aux,phones or loop in inventory. [Manual mirror][FV4-R], pp04,07,09 |
+| Phantom power | Optional48V switch/support documented; power direction and connection behavior unresolved. Do not assume pedal phantom-powered or confirmed mic supply solely from wording. [Product][FV4-P]; [V01][FV4-M] |
+| Power / battery / USB | **9 V DC,center negative**. V01 encoded text indicates500mA supply/draw; V02-labelled mirror indicates1.5A; older12-page manufacturer manual copy says minimum150mA supply yet500mA draw. Preserve revision/conflict; not measured consumption. Actual unit label,barrel,battery and USB operation unverified. [V01][FV4-M], pp01,08; [V02 mirror][FV4-N]; [Older copy][FV4-R], pp01,09 |
+| Editor / platforms / drivers | No editor established; desktop/mobile editing,audio interface and firmware route unverified. No USB connector documented. |
+| Live / routing features | Tap enables harmony+reverb; next tap toggles harmony; double tap bypasses. Hold accesses hidden guitar-reverb/tone controls. Separate or mixed outputs selected at power-on. Looper,drums,scenes and spillover unverified. [V01][FV4-M], pp06–07 |
+| Used IDR | **?** No explicitly condition-qualified used offer established. |
+| New IDR | **?** Exact retail-style asks below lack explicit new-condition evidence. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee hardware evidence
+
+Checked **2026-10-17**. [GH MUSIC STORE,71552895/16911185364](https://shopee.co.id/FLAMMA-FV04-HARMONY-VOCAL-PEDAL-WITH-REVERB-EFFECTS-i.71552895.16911185364),Kota Tangerang Selatan: **Rp1,864,000,Habis**; earlier three-month index,reopened two-week cache. [AFY AUDIO JAKARTA,1377710940/40350494437](https://shopee.co.id/efek-HARMONY-FLAMMA-FV04-masih-full-original-dan-berfungsi-dengan-baik-i.1377710940.40350494437),Kota Jakarta Barat: **Rp1,100,000,Habis**,one-month cache. AFY title claims original/working,but does not explicitly label sale condition; do not manufacture a used-price range. Delivery banners do not override Habis.
+
+Sale/working condition,selected variation,actual adapter/bundle,warranty,shipping/tax,voucher and final total unverified. Historical asks,not completed sales; late compensation not deducted. Foreign USD ask not converted. Other discovery snippets remain leads rather than a verified price range.
+
+### Document identity and remaining work
+
+Manufacturer shop index links **V01 2021-08-25**,11 pages,with shifted-character text extraction. Manufacturer download index names **V02 2024-01-08**; its12-page mirror retains Flamma branding/model/control sequence but extraction is similarly encoded. Separate older12-page manufacturer-authored PDF copy has readable controls/instructions/specifications; revision not established. These are different source versions,not proof of a changed physical unit. Mirror-generated summaries are not substituted for the original document; visual/power-label confirmation remains open.
+
+Remaining: actual unit revision/current/polarity label and phantom direction,visual control/port confirmation,memory/editor/loading,synth/acoustic/reverb-choice/live unknowns and qualified prices. No files,dependencies,software or firmware downloaded/executed. Ownership unknown.
+
+[FV4-P]: https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer
+[FV4-M]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV04_Manual_EN_V01_2021.08.25.pdf?v=1671179027
+[FV4-R]: https://device.report/m/1af19f560d9c4c45de465fccbed8c8cf7c25a055e7157b9075bbc29c06828ffe_optim.pdf
+[FV4-N]: https://device.report/m/1e636db1db6036e8e200c49e037612416b48dca55693d31e2970ac40d2731c67
+[FV4-I]: https://www.flamma.shop/pages/manual
+[FV4-D]: https://flammainnovation.com/download.html

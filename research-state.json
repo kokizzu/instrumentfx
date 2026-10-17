@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 225,
+  "active_model_count": 226,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 225,
+  "canonical_root_model_count": 226,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "225 unique active/root-canonical models; zero legacy-only. FV03 adds vocal-only membership based on concurrent character/reverb. Six specialist archives excluded.",
+  "count_reconciliation": "226 unique active/root-canonical models; zero legacy-only. FV04 adds vocal-only harmony/reverb membership; guitar reverb does not imply guitar multi-effects. Six archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Flamma FV04 Harmony",
-    "task": "FV03 recorded separately. Use discovery_flamma_20261017 exact GH MUSIC16911185364 and AFY40350494437 offers; verify own architecture/control/power/phantom revisions and condition before comparison inclusion.",
+    "model": "Bass/vocal Shopee discovery",
+    "task": "FV04 recorded separately; saved Flamma queue exhausted. Seek exact FV05/FG200/FX11 bass or other new eligible hardware leads,then own manufacturer verification. Do not count unverified variants or FV01.",
     "next_models": [],
-    "after_queue": "Resume exact bass/vocal discovery and unresolved verification; no downloads/workflows."
+    "after_queue": "Continue technical gaps and lossless legacy migration; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4856,6 +4856,17 @@
       ],
       "finding": "Own V01/V03 concurrent voice/reverb architecture;4rotary1foot1button text inventory. 500mA/1.5A source discrepancy,phantom direction and unsupported delay wording preserved. Exact ask condition unknown.",
       "remaining": "Unit revision/power label,phantom direction,control image,memory/editor/loading and qualified prices."
+    },
+    {
+      "model": "Flamma FV04 Harmony",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.flamma.shop/pages/manual",
+        "https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer"
+      ],
+      "finding": "Own harmony/reverb architecture;manual key/scale selection. Source-version current discrepancies preserved; exact GH/AFY sold-out asks not condition-qualified.",
+      "remaining": "Actual unit/power/phantom direction and visual checks,memories/software/loading/live and qualified prices."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23500,7 +23511,8 @@
       "FX150",
       "FV02 Doubling",
       "FB200",
-      "FV03 Character"
+      "FV03 Character",
+      "FV04 Harmony"
     ],
     "HeadRush": [
       "Core",
@@ -23863,7 +23875,8 @@
       "FX150",
       "FV02 Doubling",
       "FB200",
-      "FV03 Character"
+      "FV03 Character",
+      "FV04 Harmony"
     ],
     "NUX.md": [
       "MG-101",
@@ -24023,8 +24036,8 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 33,
-      "vocal_only_count": 19,
+      "record_count": 34,
+      "vocal_only_count": 20,
       "combined_instrument_count": 14,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
@@ -40914,13 +40927,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 225,
-    "canonical_root_models": 225,
+    "unique_brand_model_pairs": 226,
+    "canonical_root_models": 226,
     "legacy_only_models": 0,
     "guitar_view_models": 184,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 33,
+    "vocal_view_models": 34,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -40957,7 +40970,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Flamma FV04 Harmony."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41251,6 +41264,7 @@
       "Fender::Tone Master Pro",
       "Flamma::FV02 Doubling",
       "Flamma::FV03 Character",
+      "Flamma::FV04 Harmony",
       "HeadRush::Core",
       "HeadRush::Prime",
       "HeadRush::VX5",
@@ -41684,6 +41698,13 @@
     },
     "Flamma::FV03 Character": {
       "link": "FLAMMA.md#fv03-character",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": []
+    },
+    "Flamma::FV04 Harmony": {
+      "link": "FLAMMA.md#fv04-harmony",
       "source_files": [
         "FLAMMA.md"
       ],
@@ -50141,6 +50162,10 @@
     {
       "model": "Flamma FV03 Character",
       "task": "Reconcile V01 500mA versus V03 1.5A,phantom direction and undocumented delay claim; panel image,memory/software/loading/live unknowns and qualified asks."
+    },
+    {
+      "model": "Flamma FV04 Harmony",
+      "task": "Resolve500mA/1.5A and older150mA minimum wording,unit revision/phantom direction; visual controls,memories/editor/loading/live and condition-qualified offers."
     }
   ],
   "discovery_cross_brand_bass": {
