@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Prime S1",
-    "task": "Verify original S1 manual, controls/memory and exact NAM A2 loading restrictions. Initial model and firmware-qualified bass membership saved.",
+    "task": "Prime S1 manual text audit saved;next investigate NAM A2 format/conversion restrictions andcurrent model-library/memory counts. No visual audit ornew firmware completeness claimed.",
     "next_models": [],
     "after_queue": "333 active,38brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66252,6 +66252,28 @@
       "126versus128 advertised",
       "Launchguitaronly versuslaterbassfirmware",
       "CachedJanpackages versusdirectSep2026index"
+    ]
+  },
+  "prime_s1_manual_20261018": {
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P_S1_BK_Manual_EN.pdf",
+    "identity": "Manufacturer-authored 15page/12printed S1 owner manual;revision/date unprinted;full text inspected",
+    "recovered": [
+      "Text-derived1rotary4FS0buttons pluspower",
+      "DimensionsD240W70.2H31.9mm",
+      "Two mono main output sockets form stereo pair",
+      "Looper sync restrictions",
+      "USB mixer levels"
+    ],
+    "conflicts": [
+      "LCDmanual versusLEDproduct",
+      "126manual versus128featurelist"
+    ],
+    "gaps": [
+      "Visualaudit",
+      "Totalmemories",
+      "CurrentNAM A2 loading restrictions",
+      "Originalhostrevision",
+      "Qualifiedprices"
     ]
   }
 }

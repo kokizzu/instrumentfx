@@ -1725,3 +1725,20 @@ English page lists S1_Manual_EN.pdf;original manual/panel,complete library,memor
 [S1-EN]: https://www.mooeraudio.com/products/201.html
 [S1-CN]: https://cn.mooeraudio.com/product/72.html
 [S1-FW]: https://cn.mooeraudio.com/Downloads_xq/1.html
+
+### Prime S1 — original-manual controls and recording
+
+Checked2026-10-18: [manufacturer-authored owner's manual mirror](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P_S1_BK_Manual_EN.pdf),15PDFpages/12printed,exact S1 layout andinstructions. Revision/date not printed in retrieved text;not assumed identical to current S1_Manual_EN.pdf. Full text read;no visual inspection ordownloads. This older126-effect manual does not certifySeptember2026 NAM features.
+
+| Field | Manual finding / qualification |
+|---|---|
+| Knobs / footswitches / buttons | Text-derived **1 MASTER rotary,4 A/B/C/D footswitches,0 separate buttons**;power switch additional. Visual confirmation pending. |
+| Expression / toe | No treadle/EXP socket in complete layout inventory;external expression/toe support still unverified. |
+| Display / conflict | Preset-selection prose calls screen **LCD**,versus product **LED digital display**. Retain technology conflict;diagonal,color,touch unknown. |
+| Dimensions / weight | Explicit **D240×W70.2×H31.9mm,350g**;resolves axes only,not mass basis. |
+| I/O / output clarification | Layout has **two main L/R outputs**;specification calls6.35mm jack mono. Stereo pair,not proof each socket isTRS stereo/balanced. |
+| Factory / user memory | Four patches perselected bank viaA–D;total bank count andfactory/user split remain unknown.128 advertised effects is not patch-memory capacity. |
+| Looper / synchronization | SyncON gives4-beat count-in andlinked drum/looper start/stop;tempo/groove cannot change during recording. Drums may mute butnotstop. SyncOFF recording triggers oninput. |
+| Editor / USB recording | App MIXER adjustsOTG recording,playback andinstrument levels. Monitor viaOUTPUT/phones;USB-C→A cable recommended. Channel count,format anddryreamping unverified. |
+
+Remaining:original-host revision,visual panel,full effect/memory census,NAM A2 restrictions andqualified prices. Product126/128 andLCD/LED conflicts remain open.
