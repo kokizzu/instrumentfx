@@ -249,6 +249,16 @@ Checked 2026-10-18 against the [original manufacturer manual](https://media.rock
 
 Fresh Shopee GS1000-Li searches established no exact Li hardware offer. The existing Nafiri standard item96878449/25445636952 and unresolved list-page amounts repeated; no new model or current-stock claim. The [manufacturer shared product page](https://www.mooeraudio.com/products/219.html) confirms Li exists, but product existence alone is not exact Shopee availability.
 
+### GS1000 — dated firmware and Cloud changes
+
+Checked 2026-10-18 against [global release notes](https://www.mooeraudio.com/Downloads_xq/7.html) and [Chinese release notes](https://cn.mooeraudio.com/Downloads_xq/5.html). Listed releases are not proof of an offered unit’s installed version; nothing downloaded.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Editor / Cloud NAM handling | Chinese **Cloud1.6.1,2026-07-28** adds NAM-A2 file handling for GS1000/GE1000. This does not establish full mobile parameter editing or expand hardware native support beyond A2 Lite. Cloud1.7.0’s stem pan/transpose/speed features are app functions, not new pedal effect blocks. |
+| Processing / v1.2.5 fixes | **2026-04-23** notes fix low-B tuner recognition, Poly Shift transition noise/pedal stepping, and a 3 Band Compressor threshold fault causing freezes, missing output or sustained noise. Notes also correct Group Mode pedal changes affecting scene values. Not an independent stability test. |
+| I/O / versioned fixes | **v1.2.3** fixes brief dropout during preset changes with Bluetooth/USB playback; **v1.2.7** fixes balanced-output issues without specifying their electrical cause. Neither proves arbitrary gapless switching or resolves the regional output wording conflict. |
+
 ## GE100 original
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

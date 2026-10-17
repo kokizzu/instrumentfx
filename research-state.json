@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GS1000",
-    "task": "Selective reset and one-F4 ceiling saved. GS1000Li exists but no exact Shopee offer established; keep separate and uncounted. Next remaining primary spec gaps or fresh brand/series discovery; do not repeat standard Nafiri item or unresolved list prices.",
+    "task": "GS1000 dated firmware/Cloud fixes saved; native A2 Lite unchanged. Next primary IR source-format/concurrency, current library/drum/factory-memory gaps or fresh Shopee brand discovery. No packages downloaded; offered-unit firmware unverified.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57794,6 +57794,15 @@
         "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf",
         "https://www.mooeraudio.com/products/219.html",
         "https://shopee.co.id/Mooer-GS1000-Intelligent-Amp-Profiling-Processor-Multi-Effects-Pedal-i.96878449.25445636952"
+      ]
+    },
+    {
+      "model": "MOOER GS1000",
+      "checked_date": "2026-10-18",
+      "finding": "Saved Cloud1.6.1 A2 handling distinct from full mobile editing, v1.2.5 tuner/PolyShift/compressor/scene fixes and revision-qualified playback/output fixes.",
+      "sources": [
+        "https://www.mooeraudio.com/Downloads_xq/7.html",
+        "https://cn.mooeraudio.com/Downloads_xq/5.html"
       ]
     }
   ],
