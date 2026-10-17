@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-001",
-    "task": "GT001recordreadability improved;delay10namesvs11encoded stillopen afteralternateofficialPDFsame limit. Next indexedcontroltext ordriverchannelproof;freshdiscovery available.",
+    "task": "GT001driverWin10/11 restrictions andeditorSierra2017 scope saved separately. Next controls/currentmacOSmatrix orfreshdiscovery;USBexactchannels unresolved withoutdownload.",
     "next_models": [],
     "after_queue": "FreshShopeediscoveryandremainingverification;no workflows/push."
   },
@@ -58505,6 +58505,14 @@
   "gt001_readability_20261017": {
     "scope": "GT001only prose spacing andunit formatting;sourceURLs/technicalfacts retained",
     "delay_followup": "cdnGT001_PG.pdf same11386475readerlimit;indexedDUALS/modulatequeries didnotresolve10namesvs11encoded;notabsenceproof",
+    "downloads": false
+  },
+  "gt001_software_20261017": {
+    "driver": "https://www.boss.info/global/support/by_product/gt-001/updates_drivers/a40d8180-eba6-4620-9fba-ca0f2c0ba19b/",
+    "driver_scope": "1.1.1May2023Windows10/11;Win10 32bit1.1.0;noARM/VM/WindowsMac/Mobile",
+    "editor": "https://www.boss.info/global/support/by_product/gt-001/updates_drivers/6e99475e-5fea-43a5-8722-f535b836950a/",
+    "editor_scope": "1.1.3Mar2017Sierra10.12;newerOSmatrixpending;driverneeded",
+    "channels": "Publicpage noexactdirectionalcounts;packaged/postinstallreadme notdownloaded",
     "downloads": false
   }
 }

@@ -2605,6 +2605,16 @@ Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; p
 | Processing / nested compressor | P19/23 enumerate **eight Advanced Comp subtypes** inside FX1/FX2; not eight extra processing slots or evidence that main COMP has eight types. |
 | Looper / I/O exclusions | Shared document explicitly marks phrase-loop, send/return and amp-control entries **GT-100 only**. Those controls do not establish corresponding GT-001 capabilities. |
 
+### GT-001 — editor and driver support boundaries, 2026-10-17
+
+| Field | Verified support / limitation |
+|---|---|
+| USB / Windows driver | [GT-001 driver 1.1.1](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/a40d8180-eba6-4620-9fba-ca0f2c0ba19b/),May2023, supports Windows10/11;Windows10 32-bit driver remains1.1.0. ARM PCs,virtual Windows,Windows on Mac andWindows10Mobile are excluded. This is driver support,not a full-editor compatibility assertion. |
+| Editor / macOS | [TONE STUDIO1.1.3 model-specific page](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/6e99475e-5fea-43a5-8722-f535b836950a/) identifies March2017 Sierra10.12 support andrequires the appropriate USB driver. It directs newer compatibility checks to a separate matrix;do not treat Sierra support as proof for current macOS. |
+| Editor / data and connection | Charge-only USB cables cannot carry editor data. The page documents librarian batch patch operations andA/B preamp copying;these manage patches,not audio/IR/NAM imports. |
+
+The driver page refers detailed configuration to packaged/post-install readmes. They were not downloaded or installed;exact directional channel count remains open.
+
 <!-- comparison evidence ends -->
 
 [GT001-P]: https://www.boss.info/global/products/gt-001/
