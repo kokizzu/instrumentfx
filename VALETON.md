@@ -502,6 +502,15 @@ Checked2026-10-18. Anniversary variant remains part oftheexisting GP-200 record,
 
 These are separate cached askingobservations,not a used/newrange,currentcheckout orcompleted sales. ExistingGalleryMusic amountconflict andearlierMalang/Palembang offers remainunchanged. No sellercontact,software,manual ordependency downloads.
 
+### GP-200 — additional seller-labelled used offer
+
+Checked2026-10-18.
+
+| Field | Exact hardware offer / qualification |
+|---|---|
+| IDR / used standard GP-200, sold out | **Rp4.500.000**, [Kamar Gear,shop1421445165/item40565871286](https://shopee.co.id/Valeton-GP-200-Digital-Multieffect-Gitar-Bass-Bekas-Normal-i.1421445165.40565871286),Kota Jambi. Title says **Bekas Normal**; working condition is seller-labelled,not independently tested. Direct indexed body, two-month crawl, explicitly **Habis** with stale19–22August arrival text. Standard GP-200 title,not X/R/JR/LT. No completed sale or live-stock claim. Bundle,adapter,authenticity,warranty,shipping/tax and checkout total unknown. Rp10,000 late-arrival compensation is not deducted from the asking price. |
+
+
 ## GP-180
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility, published power requirements and qualified Shopee snapshots were additionally checked2026-10-17; checkout stock and complete firmware contents remain unverified. Historical next-model notes are provenance; use research-state.json for current work.

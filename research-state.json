@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fender Mustang Micro Plus",
-    "task": "Micro Plus filing manual USB revision conflict and qualified headphone ratings saved. Targeted manufacturer searches did not establish USB channels/rates. Resume fresh Shopee brand/series discovery;do not loop identical USB searches. Capacity,screen diagonal and expression remain unresolved.",
+    "model": "Valeton GP-200",
+    "task": "Additional exact Kamar Gear used ask saved. Resume fresh Shopee discovery in unrecorded bass/vocal series;avoid repeating saved searches without a new lead.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -45467,7 +45467,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fender Mustang Micro Plus."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-200."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58054,6 +58054,12 @@
       "checked": "2026-10-18",
       "finding": "Filing manual is visibly unfinished in text;source-only USB conflicts with later bidirectional documentation. Qualified input/headphone electrical ratings saved in canonical record.",
       "source": "https://fccid.io/XQW-MUMPPR6171/User-Manual/User-manual-7049868.pdf"
+    },
+    {
+      "model": "Valeton GP-200",
+      "checked": "2026-10-18",
+      "finding": "Additional seller-labelled used standard-model ask retained:Kamar Gear1421445165/40565871286,Rp4500000,Habis,two-month cache,Jambi;not live stock or tested condition.",
+      "source": "https://shopee.co.id/Valeton-GP-200-Digital-Multieffect-Gitar-Bass-Bekas-Normal-i.1421445165.40565871286"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -72443,5 +72449,19 @@
       "site:shopee.co.id Korg AX3000B"
     ],
     "result": "Exact GP50 followup; B8 search hits are wireless systems, not added as multi-effects. No exact B2X/AX3000B hit in returned search; not proof of absence."
+  },
+  "discovery_shopee_20261018_post_microplus": {
+    "queries": [
+      "Zoom B9.1ut",
+      "DigiTech BP355",
+      "Boss VF-1",
+      "VoiceLive Rack",
+      "GT-1000 bekas",
+      "GP-200 bekas",
+      "ME-50B",
+      "Vocalist Live efek"
+    ],
+    "scope": "site:shopee.co.id",
+    "result": "No qualified new-model lead;additional exact GP-200 used offer saved. Aircraft VF-1 results,Panasonic pumps,badminton GP200 items and known Vocalist power adapter rejected. Search absence does not establish hardware unavailability."
   }
 }

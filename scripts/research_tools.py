@@ -852,7 +852,7 @@ def main():
         print(git('diff', '--cached', '--stat'))
         if mode == 'commit-hx-effects':
             subprocess.run([sys.executable,str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
-        subject = 'research(valeton): clarify GP-200 controls and tuner output modes' if mode == 'commit-gp200jr' else 'research(line6): verify HX Effects3.80 acoustic simulation and looper limits'
+        subject = 'research(valeton): retain additional GP-200 used hardware ask' if mode == 'commit-gp200jr' else 'research(line6): verify HX Effects3.80 acoustic simulation and looper limits'
         if mode=='commit-comparisons':
             subject='research: retain Trace Acoustic Transit A pending hardware lead'
         elif mode=='commit-prime':
