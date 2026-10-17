@@ -312,3 +312,32 @@ Original [manufacturer guide](https://digitech.com/wp-content/uploads/2022/09/GN
 | Looper / live restrictions |CD quality44.1kHz;Normal doubles andEconomy quadruples available track time. Quality cannot change after recording unless alltracks/song are deleted. CARD>>PC must prepare modified card recordings before external-reader access;outputs mute andcontrols disable during preparation. File identifiers require SONG01–99 folders andTRAK01–08 WAV prefixes;only first6characters distinguish identity. UNDO track deletion is permanent |
 
 These resolve initial recording-storage unknowns;they do not verify current card availability or a universal loop duration.
+
+## GNX4
+
+Guitar/bass multi-effects workstation, distinct from GNX3/GNX3000. Checked 2026-10-17; partial. Mic recording does not establish vocal live multi-effects membership.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Built-in pedal controls up to three parameter assignments with individual ranges; toe-pressure V-switch changes assignment to wah. External expression unverified; GNXFC controller connection is not an analog EXP input. [G4-M p.45] |
+| Knobs / footswitches / buttons | Separate complete counts unverified; do not borrow GNX3 panel counts. |
+| Display | Published diagonal, technology, color and touchscreen specifications unverified. |
+| Dimensions / mass | Product labels **21.5 in length ×9 in width ×3.25 in height;10 lb** (approximately 546×229×83 mm;4.54 kg). Preserve published axis labels; large footprint. [G4-P] |
+| Processing / category choices | GeNetX amp blending; three AudioDNA processors plus dedicated recording/playback/drum DSP. DSP count is not simultaneous effect-block count; maximum blocks and complete category subtotals unverified. [G4-P] |
+| Factory / user memory | **80 factory +80 user**, with **80 additional card presets** using optional CompactFlash:160 internal,240 with card. User factory-fill mapping unverified. [G4-P] |
+| Synth / acoustic | Dedicated synth and acoustic-simulation algorithms unresolved; MIDI drum synthesis does not establish guitar synth processing. |
+| IR / NAM / capture | Cabinet IR import, native/converted NAM and proprietary user-capture import unverified. GeNetX amp blending is not proof of a user capture facility. |
+| I/O | Own manual connection example identifies guitar/instrument input, mic input with level control, stereo line inputs, headphones, L/R XLR outputs, MIDI IN and OUT/THRU, USB and GNXFC footswitch connection; CompactFlash storage. Complete rear-panel inventory and every connector size still require verification. [G4-M p.19] |
+| Power / battery / USB | Product consumption **21 W**. **Official conflict:** FAQ GNX4/PSS3 says9 V AC,2.1 A,2.5 mm pin and120 V AC mains variant; power-supply list PSS3 says9 V DC,1.3 A,2.1 mm center-negative,120–240 V AC mains. Do not resolve by sibling inference. Battery/USB operating power and measured draw unverified. [G4-P;G4-F;G4-S] |
+| Editor / software | Official downloads list **X-Edit2.4.1 Windows** for GNX4; current OS support unverified. Historical bundled Mac recording software is not evidence of a Mac editor. USB audio/MIDI documented; exact channel counts/drivers require own software guide. [G4-P;G4-E;G4-M p.19] |
+| Looper / drums / live | Eight-track recorder, MP3 playback and MIDI drums documented; recorder is not automatically a quantified overdub looper. Loop duration, card restrictions, scenes, trails and routing limits unresolved. [G4-P] |
+
+### GNX4 — separate IDR evidence
+
+| Price class | Amount | Offer / limits |
+|---|---:|---|
+| Condition-unverified sold-out ask | Rp1.950.000 | [GIDEON MUSIC,726736590/26658711582](https://shopee.co.id/Efek-Digitech-GNX4-Original-USA-i.726736590.26658711582),Kota Medan. Direct indexed page checked2026-10-17,last-week crawl,**Habis**,stale8–11October delivery. Earlier two-month index had20–23August delivery. Used/new,bundle,adapter,variant,warranty and authenticity unknown. Late-delivery Rp10.000 compensation is not an immediate discount; not live stock/completed sale. |
+| Verified used | ? | Condition not established. |
+| Verified new | ? | Seller title Original USA does not establish new condition or origin. |
+
+Sources: [G4-P: own product/specifications](https://digitech.com/dp/gnx4/); [G4-M: original manufacturer manual](https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf),indexed model-specific pp.19,45; full13.9 MB PDF exceeds web-reader limit. [G4-E: official software list](https://digitech.com/software-downloads/); [G4-F: official FAQ](https://digitech.com/faqs/); [G4-S: official power-supply list](https://digitech.com/support/powersupplylist/). No dependencies,documents,software or firmware downloaded to filesystem. No successful new visual panel inspection claimed.

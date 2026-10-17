@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 239,
+  "active_model_count": 240,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 239,
+  "canonical_root_model_count": 240,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "239 unique active/root-canonical models;zero legacy-only;31brands. CriticalMass vocal-only;unknownqualifiedIDR,ownmanual power conflict retained. Six excluded archives.",
+  "count_reconciliation": "240 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. GNX4 guitar/bass inclusion from own manual;partial specifications and sold-out condition-unverified ask.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "Exact sold-out Shopee offer and primary product/manual/power-conflict checkpoint saved in gnx4_discovery_checkpoint_20261017. Research own manual indexed sections; then add root DIGITECH record, views and ledger, commit before next model. No downloads or sibling inference.",
+    "task": "GNX4 partial root record added; follow up own manual indexed panel/specs/effect tables for counts,display,complete I/O,category totals and routing. Keep power conflict and price-condition gaps explicit.",
     "next_models": [],
     "after_queue": "Other candidates/field gaps; no workflows/push."
   },
@@ -5018,6 +5018,17 @@
       ],
       "finding": "Group/reverb/AdaptiveTone vocal processor;own2017manual phantom/MicControl,power conflict. No exact qualified Shopee price.",
       "remaining": "Style counts,power/pitch/memory/display/software andoffers"
+    },
+    {
+      "model": "DigiTech GNX4",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://digitech.com/dp/gnx4/",
+        "https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf"
+      ],
+      "finding": "Own guitar/bass manual evidence,three-parameter pedal,V-switch,80+80+80 memory,power conflict and exact sold-out IDR ask.",
+      "remaining": "Panel counts,display,complete category/IO/routing inventory,software and power conflict."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23867,7 +23878,8 @@
       "RP250",
       "RP1000",
       "RP155",
-      "GNX3"
+      "GNX3",
+      "GNX4"
     ],
     "Korg": [
       "PANDORA stomp",
@@ -24170,7 +24182,8 @@
       "RP250",
       "RP1000",
       "RP155",
-      "GNX3"
+      "GNX3",
+      "GNX4"
     ],
     "KORG.md": [
       "PANDORA stomp",
@@ -24213,14 +24226,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 194,
+      "record_count": 195,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 95,
+      "record_count": 96,
       "bass_focused_record_count": 23,
-      "shared_bass_capable_count": 72,
+      "shared_bass_capable_count": 73,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41176,18 +41189,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 239,
-    "canonical_root_models": 239,
+    "unique_brand_model_pairs": 240,
+    "canonical_root_models": 240,
     "legacy_only_models": 0,
-    "guitar_view_models": 194,
+    "guitar_view_models": 195,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 43,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 95,
-    "bass_shared_models": 72,
+    "bass_view_models": 96,
+    "bass_shared_models": 73,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41239,7 +41252,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Legacy consolidation audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech GNX4."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41414,6 +41427,7 @@
       "DigiTech::RP1000",
       "DigiTech::RP155",
       "DigiTech::GNX3",
+      "DigiTech::GNX4",
       "Korg::PANDORA stomp",
       "Korg::AX3000G",
       "Korg::AX1500G",
@@ -41528,6 +41542,7 @@
       "Zoom::708II",
       "Zoom::B2.1u",
       "DigiTech::GNX3",
+      "DigiTech::GNX4",
       "Korg::PANDORA stomp",
       "VOX::StompLab 2B",
       "Behringer::Bass V-AMP",
@@ -41584,6 +41599,7 @@
   "comparison_bass_basis": {
     "Yamaha::SPX990": "Own Yamaha operation manual preset applications explicitly include Bass, Guitar and Vocal, printed pp12–13; suitable line-level preamp/mixer routing. [Manual](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf).",
     "Behringer::FX2000": "Manufacturer explicitly lists bass,guitar andvocals;use suitable line-level amp/mixer routing. [Product](https://www.behringer.com/en/products/0828-AAG).",
+    "DigiTech::GNX4": "Own manual p19 explicitly connects guitar or bass and documents amp modeling for both. https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf",
     "DigiTech::GNX3": "Manufacturer explicitly documents bass amp modeling for recording rhythm tracks. [GNX3 product](https://digitech.com/dp/gnx3/).",
     "Line 6::POD HD400": "Own HD300/400 Advanced Guide RevA for Flash2.0 lists Flip Top bass amp and115 Flip Top bass cab,pp5•9–11. [Official guide](https://line6.com/data/6/0a06434df9be5005ac8bcc52f/application/pdf/POD%20HD300%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf).",
     "Line 6::POD XT Live": "Conditional: manufacturer Bass Expansion listing explicitly includes PODxt Live and adds28 bass amps/22 cabinets. Optional authorization required; seller license and current activation unverified. [Manufacturer listing](https://shop-us.line6.com/standard-model-packs/bass-expansion-pack/).",
@@ -43320,6 +43336,13 @@
     },
     "DigiTech::GNX3": {
       "link": "DIGITECH.md#gnx3",
+      "source_files": [
+        "DIGITECH.md"
+      ],
+      "finding_files": []
+    },
+    "DigiTech::GNX4": {
+      "link": "DIGITECH.md#gnx4",
       "source_files": [
         "DIGITECH.md"
       ],
@@ -53112,7 +53135,7 @@
   },
   "gnx4_discovery_checkpoint_20261017": {
     "model": "DigiTech GNX4",
-    "inventory_status": "Not in current root DIGITECH headings; candidate not yet added to active counts.",
+    "inventory_status": "Added partial active root record DIGITECH.md#gnx4;guitar/bass;no vocal inference.",
     "checked": "2026-10-17",
     "offer": {
       "url": "https://shopee.co.id/Efek-Digitech-GNX4-Original-USA-i.726736590.26658711582",

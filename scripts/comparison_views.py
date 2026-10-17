@@ -391,6 +391,7 @@ VOCAL_SHARED = ['Zoom::RFX-1100','Yamaha::SPX990','Yamaha::SPX900','Alesis::MIDI
 BASS_SHARED = {
     'Yamaha::SPX990':'Own Yamaha operation manual preset applications explicitly include Bass, Guitar and Vocal, printed pp12–13; suitable line-level preamp/mixer routing. [Manual](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf).',
     'Behringer::FX2000':'Manufacturer explicitly lists bass,guitar andvocals;use suitable line-level amp/mixer routing. [Product](https://www.behringer.com/en/products/0828-AAG).',
+    'DigiTech::GNX4':'Own manual p19 explicitly connects guitar or bass and documents amp modeling for both. https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf',
     'DigiTech::GNX3':'Manufacturer explicitly documents bass amp modeling for recording rhythm tracks. [GNX3 product](https://digitech.com/dp/gnx3/).',
     "Line 6::POD HD400":"Own HD300/400 Advanced Guide RevA for Flash2.0 lists Flip Top bass amp and115 Flip Top bass cab,pp5•9–11. [Official guide](https://line6.com/data/6/0a06434df9be5005ac8bcc52f/application/pdf/POD%20HD300%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf).",
     'Line 6::POD XT Live':'Conditional: manufacturer Bass Expansion listing explicitly includes PODxt Live and adds28 bass amps/22 cabinets. Optional authorization required; seller license and current activation unverified. [Manufacturer listing](https://shop-us.line6.com/standard-model-packs/bass-expansion-pack/).',
