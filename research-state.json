@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery and unresolved technical fields",
-    "task": "Full preservation recheck completed:99 technical sources/13metadata/3JSON plus specialist archive.117 compatibility paths retained. Resume fresh exact Shopee hardware discovery or unresolved model specifications; do not repeat audit without changed preservation evidence.",
-    "next_models": [],
-    "after_queue": "337 partial unique models; research and compatibility-path migration remain incomplete. No downloads/workflows/push."
+    "model": "Trace Acoustic Transit A — pending exact Shopee offer",
+    "task": "New manufacturer-confirmed acoustic multi-effects lead saved, but Shopee category Rp5.226m has no item/seller and disappears on reopen. Resolve exact offer before active admission; no current price/stock claim. Palmer MK2 exact listing is sold out and multi-effects eligibility unresolved.",
+    "next_models": [
+      "Trace Acoustic Transit A exact hardware offer"
+    ],
+    "after_queue": "337 active partial models unchanged;117 compatibility paths retained. Continue other brand/series discovery if lead remains unresolved; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24169,6 +24171,36 @@
         "BOSS SE-70"
       ],
       "finding": "Shopee searches established no new exact hardware listing; Vocalist hit was already-known power supply16626959/4486100964, other hits were unrelated. No absence conclusion."
+    },
+    {
+      "model": "Trace Elliot / Trace Acoustic Transit A",
+      "checked_date": "2026-10-18",
+      "status": "Pending exact Shopee item and seller; not admitted to active inventory",
+      "shopee_index": "https://shopee.co.id/list/Transit",
+      "indexed_idr": 5226000,
+      "market_evidence": "Three-month cached category text names Transit A Acoustic Preamp Pedal [terbaik]; reopened category omits the model. No seller/item ID recovered. Amount is an unresolved lead, not accepted used/new price or stock.",
+      "seller": null,
+      "item_id": null,
+      "condition": "Unknown",
+      "stock": "Unknown",
+      "region": "Unknown",
+      "bundle_variant_warranty_voucher": "Unknown",
+      "manufacturer_manual": "https://www.traceelliot.com/resources/te-transit-a-om.pdf",
+      "eligibility": "Own10-page acoustic-instrument manual documents compression,EQ,boost,chorus,delay,reverb;guitar multi-effects eligibility supported. Do not classify as bass from the current homepage link typo.",
+      "primary_fields": {
+        "dimensions_mass": "312W×114D×58.4H mm;1.18kg",
+        "controls": "Text-derived11rotary/5footswitch/3buttons;ground-lift additional;visual corroboration outstanding",
+        "power": "9VDC center-negative;current draw/battery/USB unresolved",
+        "delay": "Maximum1second;tap tempo",
+        "expression_memory_loading_editor": "Not yet established"
+      },
+      "next": "Recover exact Shopee hardware item/seller or another qualified offer; then create root TRACE-ELLIOT.md profile with full field gaps and all guitar comparison rows. Preserve category-index omission and no stock claim."
+    },
+    {
+      "checked_date": "2026-10-18",
+      "model": "Palmer Pocket Amp MK2",
+      "source": "https://shopee.co.id/Palmer-Pocket-Amp-MK2-Portable-Guitar-Pre-Amp-i.397175630.21042864947",
+      "finding": "Exact SMOSYU item397175630/21042864947 shows Habis/Rp1.560.000 in four-month cache. Multi-effects eligibility not established; do not add a preamp merely from its name. Separate bass model not inferred."
     }
   ],
   "inventory_by_brand": {
