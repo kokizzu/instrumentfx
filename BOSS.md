@@ -2993,6 +2993,13 @@ Checked2026-10-18; documentation inspected only, no software downloaded or execu
 
 [MS3-C]: https://www.boss.info/global/support/support_news/25090811m1/
 
+### Nested choices audited from the original guide
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / nested choices | Guide pp8–10: WAH **6**, BASS WAH **6**, OD/DS **21**, BASS OD/DS **6** selectable types. Guide pp16–17: PHASER **4** (4/8/12-stage,BiPhase), PAN **2** (Auto,Manual). These are nested choices within the31 FX or12 MOD top-level selections, not extra simultaneous blocks. Their sum alone does not explain the advertised112. [MS3-G] |
+| Processing / EQ conflict | Guide p6 describes GRAPHIC EQ as seven bands, while its p10 parameter table lists **10 frequencies,31Hz–16kHz**. Preserve this internal source conflict; do not silently replace either statement or count frequency bands as effect types. [MS3-G] |
+
 [MS3-P]: https://www.boss.info/global/products/ms-3/
 [MS3-M]: https://static.roland.com/assets/media/pdf/MS-3_eng02_W.pdf
 [MS3-G]: https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS MS-3",
-    "task": "Continue MS-3 nested subtype reconciliation against112 and supply voltage/polarity; dated exact Mac editor and driver chart now saved.",
+    "task": "Finish MS-3 count accounting including subdelay and other type selectors; preserve seven-versus-ten EQ conflict. Verify supply voltage/polarity.",
     "next_models": [],
     "after_queue": "327 active; technical, market, ownership and legacy migration incomplete. No downloads/workflows/push."
   },
@@ -65868,5 +65868,16 @@
       "macOS27": "Under Testing"
     },
     "qualification": "Dated manufacturer chart; no local runtime or CPU-specific verification."
+  },
+  "ms3_nested_choices_20261018": {
+    "source": "https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf",
+    "wah": 6,
+    "bass_wah": 6,
+    "od_ds": 21,
+    "bass_od_ds": 6,
+    "phaser": 4,
+    "pan": 2,
+    "conflict": "Graphic EQ description seven bands versus ten listed frequency parameters.",
+    "remaining": "Full112 accounting unresolved; supply voltage/polarity unverified."
   }
 }
