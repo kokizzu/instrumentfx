@@ -765,7 +765,11 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | K/F/B | Three footswitches; SELECT plus four parameter knobs documented. AUX prose mentions master Level, so full rotary total unresolved; separate buttons pending. Toe/power additional. [Manual controls][MFX10-T] |
 | Display | **160×128 TFT LCD plus two-digit seven-segment LED**; diagonal/color/touch unverified. [Specifications p27][MFX10-T] |
 | Processing / conflict | Introduction: **54 models, nine simultaneous**; specification p27: **55 types, maximum eight simultaneous modules**. Preserve both; do not silently choose a ceiling or current firmware total. [Introduction][MFX10-I]; [Specifications][MFX10-T] |
-| Categories | Introduction lists **19 amp/pedal models,12 cabinets**. Category counts beyond these unresolved. [Introduction][MFX10-I] |
+| Categories | Introduction lists **19 amp/pedal models,12 cabinets**. Additional category choices documented below; full EFX inventory still pending. [Introduction][MFX10-I] |
+| Categories / cabinet count | EQ/CAB prose lists **11 cabinet models plus NO CAB**, explaining12 selector entries rather than12 modeled cabinets. EQ follows AMP versus DS selection: passive amp curves or active parametric DS curves. [Manual p21][MFX10-T] |
+| Categories / modulation | **10 described choices:** chorus,stereo chorus,flanger,vibrato,stereo tremolo,rotary,Vibropan,Univ,pitch shift,pedal pitch shift. Pitch range **±12 semitones**; FAST/NORMAL/SLOW trades response against modulation artifacts. [Manual pp22–24][MFX10-T] |
+| Categories / delay and reverb | Analog and tape delays each **40–2000ms** or tempo sync; hall,room,plate reverb. Reverb predelay **0–140ms**; decay0–99 is not a seconds specification. [Manual pp25–26][MFX10-T] |
+| Expression / source conflict | Pedal-pitch prose names an **external expression pedal**, but connector section describes EXT.PEDAL for bank selection. Compatibility/wiring unresolved; do not silently assert external EXP support or absence. [Manual pp5,24][MFX10-T] |
 | Preset memory | **36 factory+36 user=72**. Advertised144 with A/B represents channel switching, not proof of144 independent memory locations. [Specifications][MFX10-T] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unresolved. |
 | I/O | Instrument input, Left/Mono and Right outputs,3.5mm headphones,AUX,EXT.PEDAL,DC,power switch. Other connector sizes/balancing unresolved. [Connections][MFX10-T] |

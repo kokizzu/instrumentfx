@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MFX-10",
-    "task": "MFX-10 root record added with original manual internal54/55,9/8,48kHz/44.1kHz conflicts. Next own category descriptions and control ambiguity; preserve gaps before PG2. Commit before another model.",
+    "task": "MFX-10 cabinet/modulation/delay/reverb choices saved; new external-expression prose/connector conflict retained. Next EFX module choices and control inventory, then explicit deferral before PG2 exact-item research.",
     "next_models": [
       "NUX PG-2 exact Shopee item resolution and eligibility"
     ],
@@ -55197,5 +55197,13 @@
       "Qualified current condition-specific IDR hardware",
       "Bass/vocal suitability"
     ]
+  },
+  "mfx10_categories_checkpoint_20261017": {
+    "source": "https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual",
+    "pages": "21–26",
+    "saved": "Eleven cabinet models+NoCab;10MOD choices;two described delays40–2000ms;three reverbs and0–140mspredelay.",
+    "conflict": "PEDALPSHFT prose says externalexpression but connectorsection EXTpedalbankselection. Hardwarecompatibility/wiring unresolved.",
+    "qualification": "Manufacturer-authored transcription only; current official V1 visual/revision gap retained. No EFXtotal or final55type reconciliation inferred.",
+    "remaining": "Full EFXinventory,controltotals,ownsoftware,currentcondition-specificprices,IR/NAM,synth/acoustic,bass/vocal;prior54/55and9/8conflictsretained."
   }
 }
