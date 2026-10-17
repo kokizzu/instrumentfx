@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-300 original",
-    "task": "Continue exact original MG-300 V4 effect/preset documentation or qualified Shopee offers; Version1.0 structural diagram and looper/rhythm behavior saved. Do not use unofficial expanded user guide as manufacturer evidence.",
+    "task": "Verify selected contents of original-MG300 lead18731802/26530644044 only with stronger evidence;otherwise continue V4 manufacturer count/memory gaps or fresh bass/vocal discovery. Do not assign MKII or preset-pack prices to original.",
     "next_models": [],
     "after_queue": "Bass/vocal discovery and migration audit remain incomplete. No downloads/workflows/push."
   },
@@ -52054,6 +52054,13 @@
       "identity": "Reproduced manufacturer Version1.0 ©2020;outer©2019. Official PDF image-only/no viewable screenshot;byte equivalence unverified.",
       "finding": "Eight labelled chain units,6bandEQ,gate parameters,loop gestures,56drums+7metronome distinction and save-before-preset-change saved.",
       "remaining": "Current V4 category totals/concurrency,user/factory capacity,toe/power/display/current offers remain unresolved."
+    },
+    {
+      "model": "NUX MG-300 original",
+      "checked_date": "2026-10-17",
+      "source": "https://shopee.co.id/NUX-MG300-ORIGINAL-Efx-Multi-MG-300-MG-300-Like-New-i.18731802.26530644044",
+      "finding": "Rp1690000 exact lead saved with explicit unresolved hardware/accessory contents;not qualified used/new evidence.",
+      "remaining": "Selected contents,regional revision,condition,stock;V4 count/memory andother technical gaps."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -64250,5 +64257,18 @@
       "qualification": "Scope judgment from current evidence,not a claim that supporting functions are absent. Reopen if exact firmware documentation establishes eligible architecture or owner changes scope.",
       "counts": "Not an active model and not an additional historical excluded archival record;307active/6archival counts unchanged."
     }
+  },
+  "discovery_mg300_original_20261017": {
+    "queries": [
+      "site:shopee.co.id \"NUX MG300\" \"bekas\"",
+      "site:shopee.co.id \"NUX MG-300\" -\"MKII\" -\"MK2\" -tas -adaptor -preset"
+    ],
+    "rejected_or_deferred": [
+      "MKII18622131/41630242050 Rp2600000Habis is distinct hardware;not original price.",
+      "Preset-only91752937/27490871039,74746359/40711428425,28713236/27607439627 excluded.",
+      "Search-onlySragen asks1400780/1508963 lack exact item link;not qualified offers.",
+      "Mixed original/MKII1396881276/28516669660 requires selected variation."
+    ],
+    "saved": "18731802/26530644044 unresolved contents lead inNUX.md"
   }
 }
