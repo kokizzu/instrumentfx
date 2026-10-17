@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G1X FOUR",
-    "task": "G1 FOUR nine non-PEDAL published categories enumerated. Next verify G1X FOUR pedal-specific category and model-dependent TheVibe availability in shared sheet; preserve factory-fill conflicts and installed-library uncertainty. Commit each model before changing models; then resume Shopee brand/series discovery.",
+    "model": "Shopee Indonesia brand/series discovery",
+    "task": "G1X FOUR pedal section saved:17 effects plus Output VP; model-icon availability restrictions and installed-library counts unresolved. Resume Shopee Indonesia discovery by brand/series for eligible unrecorded multifx, starting Zoom G2Nu/G2.1Nu and GFX-8 leads; require exact hardware offer and own official evidence before adding. Do not reuse accessory or unresolved variant prices.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45035,7 +45035,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G1X FOUR."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee Indonesia brand/series discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55843,6 +55843,19 @@
         }
       },
       "qualification": "Completes nine non-PEDAL categories of this edition, not installed effects. TheVibe is unstarred but separately described as additionally available via Guitar Lab. Later library additions remain unverified."
+    },
+    {
+      "model": "Zoom G1X FOUR",
+      "checked_date": "2026-10-18",
+      "source": "https://zoomcorp.com/documents/44/E_G1FOUR_FX-list.pdf",
+      "pedal_entries": {
+        "effects": 17,
+        "unstarred": 6,
+        "starred": 11,
+        "separate_output_vp": 1,
+        "total_printed": 18
+      },
+      "qualification": "Not installed-unit or simultaneous-block count. Output VP retains output volume across patch changes; DSP cost not verified. Model icons omitted by text extraction; web screenshot retrieval failed; availability restrictions unresolved."
     }
   ],
   "discovery_cross_brand_bass": {

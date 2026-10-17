@@ -470,6 +470,16 @@ Checked 2026-10-18; own-model primary list and web-rendered seller text only. No
 | Expression / model-specific factory patches | Own patch28 uses BlackWah with MS1959; patch46 uses PDL Vibe with MS1959. These document pedal-oriented factory choices, not a complete installed algorithm census or proof of toe-switch behavior. G1 FOUR has different entries at these positions; no sibling library substituted. | [Own list pp1–2](https://zoomcorp.com/documents/49/E_G1X-FOUR_Patchlist.pdf) |
 | IDR Seller-labeled used; sold out | **Rp1,250,000–Rp1,300,000**, SadewaMusikAudio, Kab. Bantul; shop171167271/item28579343250. Title explicitly bekas/preloved; direct two-month cache says **Habis**. Variations Lengkap/No Box are exposed, but price-to-bundle mapping is unresolved. Do not assign either endpoint to a particular bundle. Working state, revision, adapter, warranty and checkout total unknown; stale15–16August delivery and late compensation do not establish stock or discount. Seller’s IR wording does not prove user-IR import. | [Exact hardware](https://shopee.co.id/ZOOM-G1X-FOUR-G1XFOUR-MULTIEFEK-PEDAL-DIGITAL-IR-EFEK-GITAR-EFX-G1-X-bekas-preloved-2nd-second-seken-i.171167271.28579343250) |
 
+### G1X FOUR published pedal category
+
+Checked 2026-10-18 against the shared ©2019 effect sheet; published choices are not an installed-unit census.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / Pedal choices | **17 pedal-effect entries: 6 unstarred + 11 starred**, plus a separate **Output VP** listing. Unstarred effects: PDL Vol, BlackWah, PDL Pitch, PDL Vibe, PDL Delay, PDL Rev. Starred additions: ChromeWah, WAH100, PDL MnPit, PDL Drive, PDL PHSR, OSC Echo, VoiceWah, PDL Roto, P-BitCRSH, PDL FLNGR, PDL Reso. Counting all printed PEDAL entries gives18; this does not mean18 simultaneous blocks. | [Effect sheet pp22–24][ZOOM-G1X-FOUR-E] |
+| Expression / Output VP distinction | Output VP controls output level and retains that volume across patch changes. Keep this separate from the PDL Vol effect and from patch-memory capacity; the listing alone does not establish its DSP-slot cost. | [Effect sheet p24][ZOOM-G1X-FOUR-E] |
+| Processing / Availability limits | Stars denote Guitar Lab additions. The text extraction omits the model graphic in the pedal-only availability footnote and in TheVibe’s additional-availability note. Screenshot retrieval failed; the exact icon-specific restriction remains unverified here. Own G1X FOUR patch list independently names PDL Vibe; no non-X pedal support or identical factory library is inferred. | [Effect sheet pp15,22][ZOOM-G1X-FOUR-E]; [own patch list](https://zoomcorp.com/documents/49/E_G1X-FOUR_Patchlist.pdf) |
+
 ## G2 FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
