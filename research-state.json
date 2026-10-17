@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS KATANA:GO",
-    "task": "USB loopback/levels,StageFeel USB exclusion and EV1WL EXP-switch/coexistence saved. Next verify delay/reverb/PEDAL FX choices,bass COMP/DRIVE and FS1WL assignments;retain full ceiling/revision/price gaps.",
+    "task": "Guitar DELAY/DELAY2 eight choices,REVERB five and PEDAL FX three(top-level) saved. Next audit bass COMP/DRIVE/delay/reverb/PEDAL FX and FS1WL controls;full ceiling/revision/price gaps remain.",
     "next_models": [
       "Fender Mustang Micro original"
     ],
@@ -56100,5 +56100,15 @@
     "expression": "EV-1-WL EXP SW supports pedalFX/volume bypass or volume/pedalFX switching;not an onboard toe-switch claim.",
     "coexistence": "ToneStudio and EV1WL Editor not simultaneous;ToneStudio connection repeated on restart.",
     "remaining": "Delay/reverb/PEDAL FX choices,bassCOMP/DRIVE,FS1WL assignments,full simultaneous ceiling,physical revisions and prices"
+  },
+  "katana_go_delay_reverb_pedal_checkpoint_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf",
+    "pages": "50–55,59–61",
+    "guitar_delay_choices": 8,
+    "guitar_reverb_choices": 5,
+    "guitar_pedal_fx_choices": 3,
+    "pedal_wah_subtypes": 6,
+    "qualification": "Alternative selections,not simultaneous counts;no bass-mode borrowing.",
+    "remaining": "Bass COMP/DRIVE/delay/reverb/PEDAL FX;FS1WL controls;full simultaneous ceiling;revision and price gaps"
   }
 }
