@@ -52088,5 +52088,32 @@
       "access": "Three-month search/one-month reopened cache;variation identity unresolved."
     },
     "negative": "FV05/FX11 exact hardware item not resolved in limited filtered query;no absence claim."
+  },
+  "b1x_four_followup_20261017": {
+    "manual": "https://zoomcorp.com/documents/129/E_B1FOUR.pdf",
+    "resolved": [
+      "pedal switch for PEDAL category",
+      "USB external mobile battery operation",
+      "AUX bypasses effects"
+    ],
+    "offers": [
+      {
+        "seller_id": "785734870",
+        "item_id": "19956508058",
+        "idr": 2700000,
+        "condition": "unknown",
+        "region": "Jakarta Pusat",
+        "access": "indexed last week; direct failed"
+      },
+      {
+        "seller_id": "155091739",
+        "item_id": "4368810350",
+        "idr": 2679000,
+        "condition": "unknown",
+        "region": "Jakarta Utara",
+        "access": "two-week-old indexed text reopened; stale October5 arrival; AD16E bundle unverified"
+      }
+    ],
+    "verification": "partial"
   }
 }

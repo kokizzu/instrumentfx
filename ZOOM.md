@@ -675,9 +675,9 @@ The original comparison explicitly gives this model the same ports and three pow
 
 | Field | Expanded evidence / unknown |
 |---|---|
-| Built-in expression / toe |Built-in pedal; no external-expression socket listed. Toe-switch implementation remains unverified |
+| Built-in expression / toe |Built-in pedal; no external-expression socket listed. Dedicated pedal switch turns PEDAL-category effects on/off (manual p.8; rechecked 2026-10-17) |
 | Audio / control ports |6.35mm mono instrument input;3.5mm stereo AUX;one shared6.35mm TRS stereo line/headphones output;micro-USB;DC input. No mic/phantom,MIDI DIN orFX loop listed |
-| Power supply |4AA or9V500mA center-negative AD-16 adapter orUSB bus power;portable rechargeable pack not established |
+| Power supply |4AA or9V500mA center-negative AD-16 adapter orUSB bus power;USB mobile battery operation explicitly supported (manual p.8); no internal rechargeable pack established |
 | USB / editor |Guitar Lab Windows/macOS;USB editing,not USB audio in legacy family comparison. Full mobile editor unverified |
 | Display |Exact diagonal,pixels,color mode andtouch unknown;G1X FOUR specifications not substituted |
 | Preset memory |50 editable total;factory-filled subset unknown,not50factory+50user |
@@ -691,6 +691,17 @@ The original comparison explicitly gives this model the same ports and three pow
 | Condition-verified used IDR |**?** |Not established;no assumed used discount |
 
 Other search pages show adapter-bundle amounts but no resolved exact item in this pass;those do not establish additional accepted asks or a market range. The older $105 observation remains historical USD evidence. [Complete original bass comparison](effects/bass.md) is retained unchanged; all incoming links remain valid. No new manual image inspection or installed firmware check is claimed.
+
+### B1X FOUR — model-specific follow-up, 2026-10-17
+
+Original [Zoom manual](https://zoomcorp.com/documents/129/E_B1FOUR.pdf), pp.8 and53, confirms the pedal switch for PEDAL-category effects. AUX audio bypasses effects. USB supports an external mobile battery; this does not imply an internal rechargeable pack.
+
+| Price class | Amount | Exact offer and limitations |
+|---|---:|---|
+| Condition-unverified hardware ask |Rp2.700.000 |[cveri accessories,785734870/19956508058](https://shopee.co.id/Zoom-B1X-Four-Bass-Multi-Effect-with-Expression-Pedal-Original-Multi-Efek-Bass-i.785734870.19956508058); Jakarta Pusat; indexed last week; direct reopening failed. Bundle,condition,voucher and stock unverified |
+| Condition-unverified hardware ask |Rp2.679.000 |[New.meteor,155091739/4368810350](https://shopee.co.id/Zoom-B1X-FOUR-AD16E-Bass-Multi-effects-Processor-Multi-Effect-ZOOM-B1X-FOUR-i.155091739.4368810350); Jakarta Utara; indexed/reopened two-week-old text still says arrival October5. AD16E appears in title; package contents,condition,voucher and stock unverified. Seller name does not establish new condition |
+
+These add exact offer provenance, not qualified used/new ranges. Earlier October16 evidence remains historical. No files downloaded.
 
 ## B2 FOUR
 

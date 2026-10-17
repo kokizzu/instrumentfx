@@ -1547,3 +1547,7 @@ research-commit-fx50:
 .PHONY: research-commit-r16
 research-commit-r16:
 	python3 scripts/research_tools.py commit-r16
+
+.PHONY: research-commit-b1xfour-followup
+research-commit-b1xfour-followup:
+	python3 scripts/research_tools.py commit-b1xfour-followup
