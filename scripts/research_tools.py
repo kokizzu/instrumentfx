@@ -508,6 +508,8 @@ def main():
             message = 'research(boss): qualify VE20 pitch modes and indexed offer context'
         if mode == 'commit-g71ut':
             message = 'research(zoom): reconcile G7.1ut category inventory to 92 effects'
+        if mode == 'commit-field-projection':
+            message = 'fix(comparisons): retain USB field variants in instrument tables'
         if mode == 'commit-gfx4':
             message = 'research(zoom): document GFX-4 hold delay and conditional continuation'
         if mode == 'commit-gfx5':

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "VE-1 correction-speed, Enhance choices and explicit memory save documented. Move to other unresolved models/discovery; USB format/power remains unresolved without new evidence.",
+    "task": "Fixed omitted USB-label evidence in 19 comparison rows. Continue missing-model discovery and unresolved technical verification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69683,5 +69683,17 @@
     "url": "https://shopee.co.id/list/Efek/Zoom",
     "status": "Unresolved exact listing; no accepted model price",
     "result": "Grid title persists without seller/item link; targeted searches expose adapters, connectors or other marketplaces. No hardware purchase or download."
+  },
+  "comparison_usb_projection_20261018": {
+    "status": "fixed",
+    "regression": "USB / mode selection did not match the previous enumerated label regex.",
+    "change": "All explicitly USB or USB / labels project to the editor/recording column; qualified source text is retained unchanged.",
+    "affected_rows": {
+      "guitar": 9,
+      "bass": 8,
+      "vocal": 2
+    },
+    "validation": "Focused field test failed before fix and passed after; comparison plan reviewed.",
+    "remaining": "Underlying unknown technical fields and broader research are incomplete."
   }
 }

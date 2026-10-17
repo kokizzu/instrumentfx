@@ -566,7 +566,7 @@ GROUPS = {
     'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary|conversion',
     'io': r'^instrument / input requirements$|^midi / backup$|^analog|^conversion.*analog|^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
     'power': r'power|battery|^dc|^supply$',
-    'editor': r'^usb / (?:monitoring(?: and cable)?|windows driver|macos driver|midi)$|app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital|^audio interface$',
+    'editor': r'^usb(?: /|$)|app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital|^audio interface$',
     'live': r'^save / tuner / gate$|^tuner / bypass$|automation|live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
 }
 
@@ -704,7 +704,7 @@ def test_field_projection():
         'io': ['Instrument / input requirements', 'MIDI / backup', 'Audio/control', 'Audio input', 'Audio inputs', 'Audio output', 'Audio outputs', 'Level conflict', 'Built-in instrument wireless', 'Analog levels / conversion', 'Conversion / analog levels'],
         'sound': ['Vocal', 'Instrument/function', 'Bass capability', 'Bass capability / license condition', 'Bass / instrument scope', 'Bass / vocal scope', 'Instrument scope'],
         'processing': ['Delay / source wording', 'Delay / time limits', 'Model-total disagreement', 'Firmware-qualified model changes', 'Historical count conflict', 'Delay claim conflict'],
-        'editor': ['Audio interface', 'USB / monitoring', 'USB / Windows driver', 'USB / macOS driver', 'USB / monitoring and cable', 'USB / MIDI'],
+        'editor': ['Audio interface', 'USB / monitoring', 'USB / Windows driver', 'USB / macOS driver', 'USB / monitoring and cable', 'USB / MIDI', 'USB / mode selection', 'USB / conversion', 'USB / reprocessing'],
         'power': ['Supply'],
         'display': ['Evidence and remaining uncertainty'],
         'live': ['Backing-track automation', 'Save / tuner / gate', 'Tuner / bypass'],
