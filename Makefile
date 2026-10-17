@@ -1439,3 +1439,7 @@ research-commit-pocketgt:
 .PHONY: research-commit-gigboard
 research-commit-gigboard:
 	python3 scripts/research_tools.py commit-gigboard
+
+.PHONY: research-commit-pedalboard
+research-commit-pedalboard:
+	python3 scripts/research_tools.py commit-pedalboard
