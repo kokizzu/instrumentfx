@@ -2373,7 +2373,7 @@ Checked2026-10-17; partial. [Official English manual][R1K-M],16pages,RFX-1000-50
 | Expression | No integrated treadle;FS01 bypass input. Continuous EXP/toe unknown. |
 | Controls | **6 rotaries /0 integrated footswitches /0 separate buttons**, text-derived;BANK selector and power separate. Visual verification pending. |
 | Display | Level/power LEDs; published screen diagonal/color/touch unestablished. |
-| Processing / choices | **33 effects across3 banks×11**,including combinations. Vocoder can combine distortion+chorus. Complete bank enumeration/max concurrency pending. |
+| Processing / choices | **33 effect selections,3 banks×11**,one selection active. EFFECTS has7 single+4 dual combinations;vocoder adds distortion+chorus in some variations. Not33 simultaneous blocks;global maximum concurrency unverified. |
 | Presets | **363 selector combinations=33×11variations**,not363 editable memories. User-memory support unestablished. |
 | Synth / acoustic | Vocoder uses external synthesizer at INPUT L,voice control via MIC IN;not proof of internal synthesizer. Acoustic conversion unknown. |
 | Dimensions / weight | **482W×44H×115Dmm;1.5kg**. |
@@ -2396,3 +2396,17 @@ Manual pp2–4,15. Text-only review;no download or visual claim.
 
 [R1K-M]: https://zoomcorp.com/media/documents/E_RFX1000.pdf
 [R1K-O]: https://shopee.co.id/EFEK-ZOOM-RFX-1000-i.309797382.53959627621
+
+### RFX-1000 — banks and combination limits
+
+Checked2026-10-17 against [own manual][R1K-M],pp7–15.
+
+| Bank | Eleven selections |
+|---|---|
+| Reverb | Hall;Room;Plate;Vocal;Ambience;Dimension;Percussion;Ensemble;Power;Gate;Reverse |
+| Effects | Comp Lim;Delay;Pitch;Chorus;Flanger;Phaser;TRM-PAN;DLY+REV;CHO+REV;DLY/REV;FLG/REV |
+| Mix&SFX | Power Mix;Wide Mix;Boost Mix;Vocal Mix;Mic Simulator;Cabinet Sim;Rotary;Ring Mod;Resonance;Lo-Fi EFX;Vocoder |
+
+“+” means serial;“/” places first effect left,reverb right. Delay alone≤1486ms;both delay/reverb combinations≤743ms,fixed feedback. CHO+REV fixes rate;FLG/REV fixes depth.
+
+Reverb selections1–9 offer11 character choices;Gate/Reverse instead adjust threshold/sensitivity. Preserve advertised363 selector combinations without treating everyposition as an independent named patch. Mix&SFX generally recommends fully wet output. Cabinet Sim models combo/stack tone;user IR import remains unverified.

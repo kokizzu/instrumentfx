@@ -401,7 +401,7 @@ def main():
         if mode == 'commit-m100':
             message = 'research(tc-electronic): enumerate M-One XL choices and preserve MIDI conflict'
         if mode == 'commit-rfx1100':
-            message = 'research(zoom): add RFX-1000 with AC supply and selector-memory distinction'
+            message = 'research(zoom): enumerate RFX-1000 banks and qualify combined delay limits'
         if mode == 'commit-spx990':
             message = 'research(yamaha): qualify REV500 topologies editing and MIDI map limits'
         if mode == 'commit-spx900':

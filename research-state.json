@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-1000",
-    "task": "Initial own-manual record added. Next enumerate exact banks and combination limits; preserve selector combinations versus editable memory and AC power.",
+    "task": "Named banks,serial/split-channel combinations,delay and selector qualifications saved. Next resume Shopee exact hardware discovery;do not duplicate RFX-1000 or treat363 as editable memories.",
     "next_models": [],
     "after_queue": "284partial records;no downloads/workflows/push."
   },
@@ -57222,6 +57222,25 @@
       "Visual controls",
       "Editor OS",
       "Condition-qualified IDR"
+    ]
+  },
+  "rfx1000_banks_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX1000.pdf",
+    "pages": "7–15",
+    "scope": "33 named selections in three banks; EFFECTS seven singles/four duals; no aggregate concurrency claim",
+    "limits": [
+      "Standalone delay1486ms;combined743ms",
+      "Plus serial;slash separate L/R",
+      "Combined delay fixed feedback",
+      "CHO+REV fixed rate;FLG/REV fixed depth",
+      "Reverb first9 have11character settings;Gate/Reverse use threshold/sensitivity"
+    ],
+    "remaining": [
+      "Global maximum simultaneous functions",
+      "User-memory support",
+      "Editor OS",
+      "Visual controls",
+      "Condition-qualified prices"
     ]
   }
 }
