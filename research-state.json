@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Continue fresh Shopee brand/series discovery or ME-90B exact wireless-guide/USB-format verification. Windows driver restrictions and firmware history saved; reject Sweetwater-linked ME-90 sibling guide. Avoid repeated unchanged landing pages.",
+    "task": "Continue fresh Shopee brand/series discovery, or ME-90B original parameter-guide/category/IR verification. Published controls and analog electrical levels saved; generic MOD TYPE entry still needs visual corroboration. Avoid repeated inaccessible wireless landing pages.",
     "next_models": [],
     "after_queue": "322 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -65545,5 +65545,22 @@
     "findings": "Driver1.0.0 Win10/11 restrictions saved. FW1.04 May2025 CTLLED fix and1.03 Apr2024 BLEND fix saved.",
     "rejected_sibling_guide": "Sweetwater EV-1-WL link resolves to EV-1-WL_ConnectionGuide_ME-90_eng_01_W.pdf, ©2023 explicitly ME-90. Do not transfer >=1.03 threshold or pairing workflow to ME-90B.",
     "remaining": "Exact ME-90B wireless guide, USB channel count/bitdepth, macOS/editor compatibility remain unresolved; no downloads or installations."
+  },
+  "me90b_controls_electrical_followup_20261018": {
+    "checked_date": "2026-10-18",
+    "source": "https://www.boss.info/global/products/me-90b/specifications/",
+    "findings": "Text inventory totals30/8/4+toe; generic TYPE in MOD retained pending visual count. Analog input/output levels, impedances and minimum loads saved. 48kHz24bitAD32bitDA32bitfloat explicitly not USB format.",
+    "rotary_groups": {
+      "preamp": 6,
+      "mod": 5,
+      "blend": 1,
+      "comp": 4,
+      "filter": 4,
+      "drive": 4,
+      "delay_reverb": 4,
+      "output": 1,
+      "pedal_fx": 1
+    },
+    "remaining": "Visual panel recount, USB format/channels, exact wireless guide, IR constraints, categories, electrical supply gaps and qualified offers remain unresolved."
   }
 }

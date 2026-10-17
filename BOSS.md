@@ -182,6 +182,14 @@ Original source URLs: [source](https://www.boss.info/global/products/me-90b/spec
 
 **Rejected sibling guide:** the EV-1-WL link in the [Sweetwater ME-90B quickstart](https://www.sweetwater.com/sweetcare/articles/boss-me-90b-bass-multi-effects-pedal-quickstart-guide/) resolves to [EV-1-WL Connection Guide for ME-90](https://static.roland.com/assets/media/pdf/EV-1-WL_ConnectionGuide_ME-90_eng_01_W.pdf), ©2023, cover explicitly ME-90. Its ME-90 firmware≥1.03 threshold and pairing workflow do not verify ME-90B requirements. The exact ME-90B guide remains unresolved.
 
+### ME-90B — published controls and analog levels, 2026-10-18
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| K/F/B | **30 / 8 / 4 + toe**, derived from the manufacturer’s text inventory: preamp6, MOD5, blend1, COMP4, FILTER4, DRIVE4, DLY/REV4, output1, PEDAL FX1 =30 rotaries. MOD includes both “MOD TYPE” and a generic “TYPE” entry; retain this published enumeration pending visual recount. Buttons: EXIT/WRITE/CTL/EDIT. Eight main switches exclude toe, GND LIFT, AMP/LINE and POWER. | [BOSS specifications][ME90B-S] |
+| Analog / electrical levels | INPUT/RETURN: −10dBu nominal, +7dBu maximum, 1MΩ. Main outputs, phones, SEND and balanced XLR: −10dBu nominal. Output impedance: main/SEND1kΩ, phones44Ω, XLR600Ω; recommended loads respectively ≥10kΩ, ≥44Ω, ≥600Ω. These are analog levels, not USB resolution or headphone power. | [BOSS specifications][ME90B-S] |
+| Conversion / processing | 48kHz; 24-bit A/D with AF method, 32-bit D/A, 32-bit floating-point processing. This does not establish USB bit depth. | [BOSS specifications][ME90B-S] |
+
 [ME90B-S]: https://www.boss.info/global/products/me-90b/specifications/
 [ME90B-M]: https://static.roland.com/assets/media/pdf/ME-90B_Reference_eng01_W.pdf
 [ME90B-P]: https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf
