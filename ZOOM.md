@@ -2491,6 +2491,14 @@ Checked **2026-10-17**, partial. Separate guitar model from GFX-707 and bass708I
 | Memory / SmartMedia groups | **Up to five patch groups and 60 samples per card**, manual p28. ALSAVE stores the entire USER group; external card storage does not increase the 120 onboard patch slots. [Own manual][707-M] |
 | Looper / sampler persistence and routing | **pp14–15:** GT records the effected guitar signal; AUX bypasses effects. Card samples save automatically. A–B loop points reset when changing sample number or toggling sampler mode. **Sampler and rhythm cannot operate together**; MOD/REV are disabled during sampling. No larger-card recording duration inferred. [Own manual][707-M] |
 | Looper / sampler playback modes | **p14:** normal; half speed/half pitch; half speed/original pitch; quarter speed/quarter pitch; quarter speed/original pitch. These are sample playback modes, not five additional effect algorithms. [Own manual][707-M] |
+
+### 707II — expression assignment and calibration
+
+| Field | Manufacturer manual evidence / qualification |
+|---|---|
+| Expression / per-patch range | **pp23–25:** PDLMIN and PDLMAX each span **0–10**, stored per patch; MIN greater than MAX reverses the sweep. Assigning WAH or PITCH temporarily replaces the current MODULATION type with P-WAH or P-PIT. Storing an assigned effect records its module as ON. [Own manual][707-M] |
+| Expression / toe-switch exception | Toe press toggles the assigned effect or sampler. **VOL assignment has no toe-switch action**; physical toe-switch presence does not imply volume bypass. [Own manual pp24–25][707-M] |
+| Expression / calibration | **p25:** power up holding PEDAL; at MIN, raise pedal and press STORE/EXECUTE; at MAX, press fully down, release foot, then press STORE/EXECUTE. That position determines the on/off threshold; a higher position allows lighter switching. ERROR requires repeating from MIN. Hardware operation was not performed. [Own manual][707-M] |
 <!-- comparison evidence ends -->
 
 ### 707II — provenance and remaining work

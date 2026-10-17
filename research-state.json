@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom 707II",
-    "task": "Saved SmartMedia group count and sampler persistence/routing/playback restrictions from own manual. Next fill factory-user memory initialization or substantial other catalogue specification gaps, or pursue fresh exact Shopee hardware leads. Recent RP100/GFX8/ME6B/GNX2/AX3A/DGStomp searches produced accessories or existing models, not new qualified hardware. No downloads; commit before next model.",
+    "task": "707II sampler/card and pedal range/calibration/threshold facts saved. Factory USER fill-count still unverified; 60+60 storage is documented. Next pursue substantial unresolved fields in another recorded model or fresh exact Shopee discovery; avoid repeating completed 505 or 707II operational checks. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56732,6 +56732,12 @@
       "model": "Zoom 707II",
       "checked_date": "2026-10-18",
       "finding": "Own manual pp14–15 and28 establishes five card patch groups/60samples, automatic card sample saving, GT effected versus AUX bypass recording, A–B points reset with sample selection or sampler toggle, sampler/rhythm exclusion and five speed/pitch playback modes. No extrapolated larger-card capacity or onboard-slot expansion.",
+      "source": "https://zoomcorp.com/media/documents/E_707II.pdf"
+    },
+    {
+      "model": "Zoom 707II",
+      "checked_date": "2026-10-18",
+      "finding": "Manufacturer manual pp23–25: PDLMIN/MAX 0–10 per patch, reversible range; WAH/PITCH replace MOD type temporarily; assigned module saved ON. Toe inactive under VOL. Calibration sets switching threshold and ERROR retries from MIN. Factory user-bank fill count remains unverified.",
       "source": "https://zoomcorp.com/media/documents/E_707II.pdf"
     }
   ],
