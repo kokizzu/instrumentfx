@@ -1441,7 +1441,7 @@ Historical indexed asks checked2026-10-17,not livecheckout. Conditions,stock,bun
 
 ## Floor POD Plus
 
-Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass/vocal suitability andownership unverified.
+Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass direct-box use documented below;live-vocal suitability andownership unverified.
 
 | Field | Evidence / gaps |
 |---|---|
@@ -1492,3 +1492,14 @@ Checked2026-10-17.
 | Power / adapter | [Own-model FAQ][FPP-F] requires PX-2. [Line6's PX-2 specification in its JM4 FAQ](https://kb.line6.com/jm4-faq) identifies that named adapter as **9VAC,2000mA,2.5mm diameter**. This establishes compatible supply identity/rating,not FloorPODPlus measured current draw or any JM4 battery/connector/function claim. DC centre polarity does not describe an AC output. Regional mains rating and FloorPODPlus battery support remain unverified. |
 | Editor / software identity | [Official editor guide](https://line6.com/customtone/help/editors.html) assigns separate Vyzex versions to PocketPOD andFloorPODPlus. Its Windows/Mac Java instructions concern Line6Edit,not Vyzex;do not transfer those requirements. Exact Vyzex OS/version compatibility remains unverified;community reports are not manufacturer support guarantees. |
 | Documentation | [Own English Pilot's Guide](https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf) located/read as36-page official PDF;available for subsequent cross-checks. SpanishRevB remains the explicitly identified source for earlier facts. |
+
+### Floor POD Plus — English amp inventory and bass scope
+
+Checked2026-10-17 against [English40-00-0116RevB,©2009](https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf),section2•11 andappendix.
+
+| Field | Verified evidence / limits |
+|---|---|
+| Processing / amp32 | Line6 Clean,Twang,Crunch,Crunch#2,Drive,Blues,Insane,Layer;SmallTweed/SmallTweed#2;TweedBlues,Boutique#3;BlackPanel/BlackPanel#2;ModernClassA,BritClassA#3;BritClassA/BritClassA#2;BritBlues,CaliforniaCrunch#1;BritClassic,CaliforniaCrunch#2;BritHiGain,Boutique#1;TreadPlate/TreadPlate#2;ModernHiGain/ModernHiGain#2;FuzzBox,Boutique#2;TubePreamp,JazzClean. Thirty-two named selections,not32 simultaneous amps. |
+| Bass / instrument scope | TubePreamp explicitly recommended as bass direct box. Manual also describes processing synth-bass and recorded vocal tracks;that does not establish a live mic input,phantom supply,harmony,or vocal-specialist equivalence. Included in shared bass comparison on explicit bass guidance. |
+| Expression / routing | Appendix assigns volume-pedal Pre/Post position by amp model;not established as a freely relocatable block. |
+| Dimensions / power gaps | No dimensions found in English text search;size/mass andactual draw remain unknown. Manual's100–120V or230V47–63Hz refers to regional adapter mains input,not pedal input or universal100–240V compatibility. |

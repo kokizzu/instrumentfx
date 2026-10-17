@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line6 Floor POD Plus",
-    "task": "FloorPODPlusnamedPX2=9VAC2A supply chain and editoridentity saved;Englishownmanual located. Next cross-check Englishmanual forpower/dimensions and32amp/16cabinventory;VyzexOSremainsunverified. Do not borrowJM4unitfeatures.",
+    "task": "FloorPODPlusEnglish32ampinventory and explicitbassdirectbox saved;nowsharedbassmember. Next enumerate15physicalcabmodels+NoCab and seekdimensions/editorOS viaownproductarchives;unknownifunpublished. Do not re-addmodel.",
     "next_models": [],
     "after_queue": "289partialmodels;no downloads/workflows/push."
   },
@@ -24380,9 +24380,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 111,
+      "record_count": 112,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 83,
+      "shared_bass_capable_count": 84,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41357,8 +41357,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 111,
-    "bass_shared_models": 83,
+    "bass_view_models": 112,
+    "bass_shared_models": 84,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41706,6 +41706,7 @@
       "Line 6::POD XT Live",
       "Line 6::POD HD400",
       "Line 6::POD HD300",
+      "Line 6::Floor POD Plus",
       "MOOER::GE1000",
       "MOOER::GE1000 Li",
       "MOOER::GE250",
@@ -41827,6 +41828,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Line 6::Floor POD Plus": "Own EnglishRevB section2•11 explicitly recommends TubePreamp as direct box for bass;not inferred from Bassman ancestry. [Manual](https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf)",
     "Behringer::V-AMP 3": "Manufacturer manual p8 documents two bass-preset banks, with recording-oriented qualification;not bass-specialist equivalence. [Source](https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf)",
     "Line 6::POD HD300": "Own HD300/HD400 Flash2.0+ Advanced Guide includes Flip Top bass amp and115FlipTop bass cab;installed firmware must be checked.",
     "Fender::Mustang Micro": "Own PR5833 manual Studio Preamp explicitly ideal for bass/acoustic instruments;not inferred from plug compatibility.",
@@ -58019,6 +58021,15 @@
       "Actualdraw/batteries",
       "Simultaneouscount"
     ],
+    "downloads": false
+  },
+  "floorpodplus_english_bass_20261017": {
+    "source": "https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf",
+    "identity": "40-00-0116RevB2009,section2•11+appendix",
+    "bass": "Explicitdirectboxrecommendation",
+    "vocal": "Recordedtrackprocessing notlivemiccapability",
+    "amp_named_choices": 32,
+    "dimensions": "NoDimensionsmatch;unknown",
     "downloads": false
   }
 }
