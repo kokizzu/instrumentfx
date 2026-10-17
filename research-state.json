@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox QME-50",
-    "task": "Categorycounts/acoustic/filter/polyphonic/bassalgorithms saved. Continue remaining source reconciliation andfreshShopee discovery;avoid repeatingemptybassqueriesascoverage.",
+    "task": "Original Matribox AMP/CAB inventory reconciled;continue fresh Shopee discovery and unresolved technical fields using primary sources. Preserve acoustic simulations versus speaker cabinets;no exhaustive coverage claim.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60693,7 +60693,12 @@
       "eq": 2,
       "mod": 10,
       "dly": 11,
-      "rvb": 8
+      "rvb": 8,
+      "amp": 40,
+      "cab_entries": 38,
+      "speaker_cabinets": 34,
+      "cab_acoustic_simulations": 4,
+      "named_factory_alternatives": 136
     },
     "method": "FX14firstpage+11driveentries;DLY8firstlist+3continued;RVB3+5continued;choicesnotconcurrencyoruniquetotal",
     "findings": [
@@ -60701,7 +60706,8 @@
       "4stepFiltersynthlike,notdedicatedoscillator",
       "PolyphonicOctaverDualMelodyPitch;fivebassamps/preampsnamed"
     ],
-    "remaining": "Fullamp/cab/headlinereconciliation,screen/externalexpression,NAMarchitecturelimits,batteryUSBpower,currentOS/qualifiedconditions."
+    "remaining": "Screen/externalexpression,NAMarchitecturelimits,batteryUSBpower,currentOS/qualifiedconditions;independent firmware behavior untested.",
+    "reconciliation": "AMP printed18–19:22+18;CAB printed21–22:22+16,including D/OM/Jumbo/GA acoustic simulations. Sum136 counts sharedFX list once,excludes imports/bypass/parameter modes;not distinct DSP algorithm count."
   },
   "discovery_bass_frontier_20261017_sonicake_zoom_boss": {
     "queries": [
