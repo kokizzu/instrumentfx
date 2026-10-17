@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Hotone Ampero Mini MP-50",
-    "task": "Mini external expression4parameters+volume, alternative EXP/FS modes and3CTRL functions saved from own V1.2 manual. Legacy bass discovery found no new qualifying offers;RP350 adapter rejected. Next broaden Shopee brand/series discovery;Mini complete categorycounts/USBplayback/formats/currentOS remain.",
+    "model": "MOOER Black Truck",
+    "task": "Same Melodia BlackTruck item now newer indexed Rp3948675 vs retained oldersearch Rp3716400;condition/checkoutstock remain unknown. Commit before nextmodel. Next broaden Shopee discovery other vocal/bass/guitarseries;Mini categorycounts/USB formats/currentOS also remain.",
     "next_models": [],
     "after_queue": "Continue research and legacy consolidation; no workflows/downloads/push."
   },
@@ -41416,7 +41416,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero Mini MP-50."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Black Truck."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58901,5 +58901,39 @@
       "reason": "Adapteronly;Rp170000notprocessorprice"
     },
     "next": "Otherbrand/seriesShopeediscovery;do not promote accessoryhits"
+  },
+  "black_truck_price_20261017_followup": {
+    "url": "https://shopee.co.id/Mooer-Black-Truck-6-in-1-Compressor-Overdrive-Distortion-EQ-Modulation-Delay-Reverb-Guitar-Multi-Effect-Pedal-i.30194339.44224053987",
+    "shop": "30194339",
+    "item": "44224053987",
+    "seller": "Melodia Musik Roland Store JKT",
+    "region": "KotaJakartaSelatan",
+    "newer_item_page": {
+      "idr": 3948675,
+      "crossed_idr": 4890000,
+      "discount_label": "19%",
+      "crawl": "lastweek"
+    },
+    "older_search": {
+      "idr": 3716400,
+      "crossed_idr": 4890000,
+      "discount_label": "24%",
+      "crawl": "3months"
+    },
+    "condition": "unverified",
+    "checkout_stock": "unverified",
+    "variant_bundle": "unverified",
+    "not_price_range": true,
+    "downloads": false
+  },
+  "discovery_mooer_20261017_late": {
+    "queries": [
+      "site:shopee.co.id GE300 Lite",
+      "site:shopee.co.id Ampero Pulze",
+      "site:shopee.co.id Black Truck Mooer",
+      "site:shopee.co.id RP355 efek -adaptor -adapter"
+    ],
+    "result": "No neweligiblemodeloffer;existing BlackTruck exactitem recovered with changed indexed ask;RP355 adapter excluded",
+    "next": "Broaden discovery to other vocal/bass/guitar series;no marketabsenceclaim"
   }
 }

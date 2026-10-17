@@ -1516,6 +1516,7 @@ Used/new condition-confirmed offers not established. Checked2026-10-17:indexed h
 | Condition | Evidence | Source |
 |---|---|---|
 | Unverified | **Rp3.716.400**,crossedRp4.890.000,Melodia Musik Roland Store JKT,shop30194339/item44224053987,Kota Jakarta Selatan;three-month crawl,24%label. | [Item][BT-O1] |
+| Unverified; newer indexed item-page observation | **Rp3.948.675**, crossed Rp4.890.000,19% label; same Melodia shop30194339/item44224053987,Kota Jakarta Selatan. Opened2026-10-17;reader reports last-week crawl,while search result retains older Rp3.716.400. No condition,selected variant,bundle or checkout stock confirmed; delivery text and late-delivery voucher are conditional claims,not extra discounts to subtract. | [Same item][BT-O1] |
 | Unverified | **Rp3.850.000**,V Musik Central,shop29988284/item28824194734,Kota Depok;two-month crawl. | [Item][BT-O2] |
 | Unverified | **Rp3.850.000**,Vin's Music Store,shop31173885/item27123480418,Kota Depok;four-month crawl,Jun4arrivaltext. | [Item][BT-O3] |
 
