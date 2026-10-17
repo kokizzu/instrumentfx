@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Hotone Ampero II MP-350 manual follow-up",
-    "task": "V1.0.2 manual resolves text-derived2/4/1 controls,strongtoe toggle andoneEXP/CTRL;source1/2 typo retained. Next check current algorithm/effect list orresumeShopee discovery;do not recopy Stage/Stomp.",
+    "model": "Hotone Ampero II MP-350 effect-list follow-up",
+    "task": "Saved exact1.3.0 effectdelta andexpression/tuner changes. Next access exact1.4.0 effectlist from manufacturer index;do not substitute Stage/Stomp orclaim complete current category totals.",
     "next_models": [],
-    "after_queue": "284partialmodels;no downloads/workflows/push."
+    "after_queue": "284partial models;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41400,7 +41400,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350 manual follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350 effect-list follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57378,5 +57378,16 @@
       "Visual control corroboration",
       "Physical toe-switch mechanism"
     ]
+  },
+  "mp350_firmware13_20261017": {
+    "source": "https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
+    "scope": "Only Ampero II MP350 firmware1.3.0 andshared desktopsoftware1.4.0 sections",
+    "date_literal": "6/1/2026",
+    "named_delta": 12,
+    "complete_inventory": false,
+    "support_index": "https://www.hotone.com/support/1?pid=102&tid=1",
+    "next": "Retrieve/read exact manufacturer effect list1.4.0; index labels not contents",
+    "failed_source": "https://allaccess.co.jp/hotone/ampero2/doc/Ampero2_EFF_list_JP.pdf redirects homepage",
+    "downloads": false
   }
 }

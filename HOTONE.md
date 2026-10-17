@@ -299,6 +299,22 @@ Checked2026-10-17. [Manufacturer-authored manual via HTML mirror](https://manual
 
 These current manual qualifications supersede the historical unresolved control/toe/overwrite descriptions without removing their source observations. Complete current algorithms andlater firmware changes still need verification.
 
+### MP-350 — firmware-qualified effect additions
+
+Checked2026-10-17. [Original manufacturer release notes][MP350-F13],Ampero II section,**firmware1.3.0**,date printed **6/1/2026**;date ordering not normalized. Stage1.6.4/Stomp2.4.0 have separate sections and are not substituted.
+
+| Field | Verified additions / qualification |
+|---|---|
+| Categories / firmware1.3.0 additions | **12 named additions**,derived: DYN2 Smooth Gate,Limiter; FREQ3 Bass Line(polyphonic octaver),Pitch Shift HQ(polyphonic),Vocal Harmony(auto pitch correction/shift); PRE AMP4 AC Mix CH1,CH2,AC MG,PZ; DRV1 Bass Grinder HQ; MOD1 Feedback; RVB1 Velvet Verb HQ. This delta is not acomplete category inventory or simultaneous-block count. |
+| Synth / acoustic qualification | AC additions are acoustic preamps,not electric-to-acoustic conversion proof. Bass Line is an octaver;Vocal Harmony does not establish synthesis. |
+| Expression / firmware1.3.0 | Adds auto-off for expression-controlled modules when pedal stops moving. Exact thresholds/timing unverified. |
+| Live / firmware1.3.0 | Adds stomp-mode tuner/looper switch assignments,high-precision tuner,and tuner activation when VOL reaches0. Latency optimization is unquantified,not measured zero latency. |
+| Editor / revision pairing | Notes require desktop software1.4.0 for firmware1.3.0;software1.4.0 adds full-device backup. Later firmware1.4.0/software1.5.1 pairing remains separately documented above. No update performed. |
+
+[MP350-F13]: https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81
+
+The [model-specific support index](https://www.hotone.com/support/1?pid=102&tid=1) lists English manual/effect-list revisions through1.4.0;listing alone does not verify their contents. Older [Japanese effect-list URL](https://allaccess.co.jp/hotone/ampero2/doc/Ampero2_EFF_list_JP.pdf) redirects to distributor homepage;do not treat it as an accessed PDF.
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
