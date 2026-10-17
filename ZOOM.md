@@ -2855,3 +2855,15 @@ Earlier per-bank type gap is resolved. Exact unit firmware,universal concurrency
 | IR / cabinet character wording correction | [p22][R2200-M]: Cabinet Simulator positions1–6 arecombo,7–11stack;higher settings strengthen cabinet coloration. Earlier “enhancement” shorthand means this cabinet-intensity change,not the separate Mic Simulator enhancement parameter. |
 
 No controller,editor or hardware was operated. Currentdraw,display,universal concurrency,user imports/full editor and qualified current offers remain unresolved.
+
+### RFX-2200 — analog input and output requirements, 2026-10-17
+
+[Own manual p25][R2200-M]; microphone connection instructions p2. Text-derived specifications, not measured performance.
+
+| Field | Verified specification / qualification |
+|---|---|
+| I/O / line inputs | Two mono quarter-inch inputs; **10kΩ mono /20kΩ stereo** input impedance; reference level **−10 to+4dBm**. These are line inputs, not a verified high-impedance direct passive-guitar input. |
+| I/O / microphone input | Front XLR/phone combo: **4.5kΩ balanced, pin2 hot;50kΩ unbalanced;−56dBm reference**. Manual describes microphones around600Ω; that source-impedance recommendation is distinct from the input impedances. Phone plugs support balanced or unbalanced operation. |
+| I/O / analog outputs | Two mono quarter-inch outputs, **500Ω output impedance**, reference **−10 to+4dBm**. This does not establish balanced outputs or headphone-drive suitability. |
+
+The manufacturer defines its dBm notation using0dBm=0.775Vrms; retain that convention rather than silently relabel these figures. Line-level sources belong on rear inputs; front MIC IN sensitivity is optimized for microphones. Phantom-power availability remains unverified.

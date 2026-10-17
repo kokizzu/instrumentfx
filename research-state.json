@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2200",
-    "task": "RFX-2200 MIDI CC targets andconverter44.1kHz20bit/64xAD128xDA verified;cabinetintensity wording clarified. Next fresh Shopee discovery othermodels,not repeatRFXinventory. Display/draw/universalconcurrency/imports/fulleditor/digitalwordformat/currentoffers remain;no downloads.",
+    "task": "RFX-2200 analog line/mic/output impedance and level requirements saved. Next fresh Shopee discovery other models or resolve other model technical gaps; do not repeat RFX bank/control inventories. No downloads/workflows/push.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery andlegacy consolidation;no workflows/downloads/push."
   },
@@ -51446,6 +51446,14 @@
       "source": "https://shopee.co.id/LINE-6-HELIX-HX-EFFECTS-i.250276993.5129480739",
       "finding": "Exact seller250276993/item5129480739 Soundstationstore,KotaTangerangSelatan,Rp7900000 indexedfourmonths,Habis/LayananTidakTersedia. Directcachemiss. Conditionunverified;used/new remainunknown.",
       "remaining": "Qualifiedcondition/liveoffers,firmwarecounts,display/power gaps"
+    },
+    {
+      "model": "Zoom RFX-2200",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_RFX2200.pdf",
+      "pages": "2,25",
+      "finding": "Line10kΩmono/20kΩstereo;mic4.5kbalanced50kunbalanced−56dBm;outputs500Ω;line/output−10to+4dBm with own0dBm=0.775Vrms convention. Mic600Ωsource recommendation is not input impedance.",
+      "remaining": "Display,currentdraw,universalconcurrency,imports/editor,qualifiedcondition/liveoffers"
     }
   ],
   "discovery_cross_brand_bass": {
