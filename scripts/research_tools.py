@@ -557,7 +557,7 @@ def main():
         if mode == 'commit-pandora':
             message = 'research(korg): include qualified PANDORA stomp historical offer in comparisons'
         if mode == 'commit-vl3x':
-            message = 'research(tc-helicon): verify VL3X loop slots saving and guitar output routing'
+            message = 'research(tc-helicon): preserve exact VL3X indexed asking price'
         if mode == 'commit-b3':
             message = 'research(zoom): distinguish B3 rhythm entries and automatic patch saving'
         if mode == 'commit-g3':

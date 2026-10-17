@@ -271,6 +271,7 @@ Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17
 |---|---|---|
 | Used | Unknown;no verified used-condition offer. | — |
 | New | Unknown;condition not established for exact lead. | — |
+| Condition-unverified indexed ask | **Rp13.897.790**,NEO MUSIC,Kota Sukabumi;shop158235298/item27355892310. Checked2026-10-17,direct indexed body,one-month crawl;stale13–14September delivery. Condition,stock,variant,bundle,warranty,authenticity,shipping/tax/vouchers and final total unknown. Rp10.000 late compensation is not a discount;not checkout or completed sale. | [Exact item](https://shopee.co.id/TC-HELICON-Voicelive-3-Extreme-Vocal-and-Guitar-Effects-Performance-Floor-Pedal-i.158235298.27355892310) |
 
 <!-- comparison evidence ends -->
 

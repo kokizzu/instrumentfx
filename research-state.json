@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B2 FOUR price follow-up",
-    "task": "Freshdiscovery found exact IDB MUSIK PLUS B2FOUR+AD16E offer4495000;check existing canonical price evidence,merge only useful new provenance before nextmodel. See discovery_line6_digitech_bass_vocal_20261017;no newmodelcount.",
-    "next_models": [
-      "TC-Helicon VoiceLive 3 Extreme offer reconciliation"
-    ],
-    "after_queue": "Broaden uncoveredseries;273partialrecords;no downloads/workflows/push."
+    "model": "Fresh discovery",
+    "task": "B2FOURduplicateoffer reconciled;VL3XmissingNEOMUSIC historicalask added andcommitted. Next broaden eligible uncovered brands/series onShopee;273recordsretaintechnical/pricegaps.",
+    "next_models": [],
+    "after_queue": "No downloads/workflows/push;commit each useful model before next."
   },
   "new_findings": [
     {
@@ -41371,7 +41369,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Discovery / HD300 deferred gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56447,5 +56445,19 @@
     ],
     "limits": "Limited indexed discovery;no currentcheckout,condition/stock/variant/voucher/shipping/tax/warranty confirmation. Empty newmodel result not marketabsence. No files downloaded.",
     "next": "Use exact existing-model offers to improve canonical price provenance where new,then broaden uncovered brands/series."
+  },
+  "offer_reconciliation_20261017_b2_vl3x": {
+    "b2four": "IDB MUSIK PLUS24004987590 already preserved;currentdirectcachemiss,no duplicate canonical row.",
+    "vl3x": {
+      "item": "27355892310",
+      "shop": "158235298",
+      "idr": 13897790,
+      "seller": "NEO MUSIC",
+      "region": "Kota Sukabumi",
+      "access": "directindexedbodyone-monthcrawl",
+      "delivery": "stale13–14September",
+      "qualification": "Conditionstockvariantbundlewarrantyauthenticitytaxshippingvoucherunknown;latecompensationnotdiscount",
+      "action": "Addedmissingcanonicalcomparisonoffer,notnewmodel"
+    }
   }
 }
