@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS AD-10",
-    "task": "Officialeng04_W manual nowread;output/input2bypass,memorypickup,USBdirectout andEXPtargets saved. Next resolve exactrotary/buttoncount andpower fromownpanel/adapterdocumentation;named3footswitchesconfirmed. Preservefactoryfilled/display/importgaps.",
+    "task": "AD10 textderived14/3/19 andmodel-specificPSA100compatible9V saved;polarity/USBpowerremainunknown. Next enumerate namedalgorithmchoices andlooperpersistence/stoprestrictions fromeng04_W;thenShopeediscovery. No furtherimageattemptunlessnewcapability.",
     "next_models": [],
     "after_queue": "287partialmodels;no downloads/workflows/push."
   },
@@ -57682,15 +57682,15 @@
       "16879370/4702307945 9350000 conditionunknown1monthdirectcache"
     ],
     "remaining": [
-      "Separate controls",
       "Simultaneous processing/routing",
-      "Voltage/polarity/USBpower",
       "Builtin/toe",
       "Factoryfilledmemory",
       "Display details",
       "Full editor",
       "User loading",
-      "Conditionqualifiedstock"
+      "Conditionqualifiedstock",
+      "Control visual corroboration",
+      "Polarity/USB power"
     ],
     "downloads": false
   },
@@ -57707,6 +57707,21 @@
       "Factory-filledcount",
       "USBpower"
     ],
+    "downloads": false
+  },
+  "ad10_controls_supply_20261017": {
+    "manual": "https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf",
+    "control_count": {
+      "rotary": 14,
+      "footswitch": 3,
+      "named_buttons": 19
+    },
+    "count_basis": "Text-derived namedcontrols including2rearINPUTSENS;noimageaudit;powerseparate",
+    "compatibility": "https://www.boss.info/jp/support/by_product/ad-10/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/",
+    "adapter": "https://www.boss.info/jp/products/psa-100/",
+    "supply": "9VDC500mAmax compatibleadapter vs300mAdevice draw",
+    "regional_limit": "Not everyincludedadapteridentity",
+    "remaining": "polarity,USBpower,visualcorroboration",
     "downloads": false
   }
 }

@@ -2406,14 +2406,14 @@ Acoustic-electric guitar multi-effects/preamp, checked2026-10-17; partial. [Manu
 | Field | Verified evidence / gaps |
 |---|---|
 | Expression | External EV-30,FV-500H/L,EV-5 supported through shared EXP/CTL1,2; alternatively two footswitches. Built-in/toe unverified. |
-| Controls | Separate rotary/footswitch/button counts pending manual/panel audit. |
+| Controls | **14 rotary /3 footswitches /19 named buttons**, text-derived inventory below;power separate. Visual corroboration pending. |
 | Display | **2-digit7-segment LED**;diagonal/color/touch unverified. |
 | Processing / choices | Resonance3,compressor2,chorus3,delay3,reverb3;four-bandEQ,lowcut,boost,feedback reduction+two notches. Aggregate simultaneous count unestablished. |
 | Factory / user memory | **10 stored setups**,plusManual mode;factory-filled count unknown. |
 | Synth / acoustic | Acoustic Resonance restores pickup/body response;electric-to-acoustic conversion and synth unestablished. |
 | Dimensions / mass | **217W×161D×65Hmm;1.3kg including batteries**. |
 | I/O | Two quarter-inch guitar inputs,send/return,stereoXLRouts,quarter-inchL/phones+R/mono,TRSEXP/CTL,USB-B,DC. |
-| Power / batteries | **300mA draw;6AA alkaline,about6h**;included adapter. Voltage/polarity/USB-power pending. |
+| Power / batteries | **300mA draw;6AA alkaline,about6h**;included adapter. **9VDC** confirmed through model-specific PSA-100 compatibility below;polarity/USB-power unresolved. |
 | IR / NAM / captures | User loading unestablished. |
 | Editor / platforms | USB audio drivers listed forWindows10/11 andmacOS14+;full editor unverified. |
 | Looper / drums / routing | **80s looper;2-in/2-out USB audio**. Outputs selectable with/without effects or separated input channels. Drums/scenes unknown. |
@@ -2448,4 +2448,16 @@ Checked2026-10-17 against [official English manual][AD10-PDF], file eng04_W,14pa
 | Expression / live | External EXP targets output,ambience,orloop level. Three named footswitches: BOOST,DELAY,TUNER&MUTE;exact rotary/button inventory still pending. |
 
 [AD10-PDF]: https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf
+
+### AD-10 — controls and supply identity
+
+Checked2026-10-17; [eng04_W manual][AD10-PDF] pp2,4–8,10–12. Counts are derived from named controls, not a visual panel inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| K/F/B | **14/3/19**. Rotary: BASS,MID,TREBLE,PRESENCE,EQ LEVEL,OUTPUT LEVEL,REDUCTION,ACOUSTIC RESONANCE,COMP,delay TIME/E.LEVEL,ambience E.LEVEL,plus two rear INPUT SENS. Foot: BOOST,DELAY,TUNER&MUTE. Buttons: SELECT,BOOST,FX LOOP,LOW CUT,FREQ,EQ ON/OFF,NOTCH1/2,four TYPE buttons,CHORUS,AMBIENCE OUT,MENU,EXIT,MEMORY,and two arrows. Rear power separate;no extra buttons counted for long-press functions. |
+| Power / adapter | The [AD-10-specific Japanese support notice][AD10-PSA-N] names PSA-100. Its [own specification][AD10-PSA] lists **9VDC,500mA maximum output** and100–240VAC50–60Hz input. AD-10 draw remains300mA. This establishes compatible supply voltage/capacity,not the identity or mains rating of every regional included adapter. Polarity remains unverified in read text. |
+
+[AD10-PSA-N]: https://www.boss.info/jp/support/by_product/ad-10/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/
+[AD10-PSA]: https://www.boss.info/jp/products/psa-100/
 
