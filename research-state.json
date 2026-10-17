@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom V6 microphone-bundle lead",
-    "task": "Verify manufacturer V6 versusV6-SP revision/bundle relationship;open exact185899831/52504595267 hardwareoffer andexistingV6-SPcanonicalrecord beforemerging priceevidence oraddingvariant.",
-    "next_models": [
-      "Zoom V6 / V6-SP variant audit"
-    ],
-    "after_queue": "Continue bass/vocal discovery,manufacturerverification andlosslesslegacy consolidation.306active records remainpartial;no downloads/workflows/push."
+    "model": "Bass/vocal discovery after V6 bundle audit",
+    "task": "Continue eligiblebass/vocalexacthardware discovery against306-modelinventory. V6bundle staysdeferred;canonicalV6-SPalreadycontainsIxusoffer. No duplicateactiveV6 addition.",
+    "next_models": [],
+    "after_queue": "Manufacturerfieldgaps andlosslesslegacyconsolidation remainincomplete;nodownloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41732,7 +41730,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Neural DSP Quad Cortex."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal discovery after V6 bundle audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -63978,7 +63976,8 @@
       "seller": "GeandPedalStore",
       "region": "Kab.Sleman",
       "idr": 3850000,
-      "access": "Two-month-old indexed body,Habis. Title explicitlyincludesmicrophone;actualbundle/condition/stock/revision unverified. Notyet associated withV6-SP andnotnewactive model."
+      "access": "Two-month-old indexed body,Habis. Title explicitlyincludesmicrophone;actualbundle/condition/stock/revision unverified. Notyet associated withV6-SP andnotnewactive model.",
+      "direct_recheck": "2026-10-17 directbody nowlast-weekcrawl,Habis,Rp3,850,000,Oct9–10delivery stale;GeandPedalStoreKabSleman. Actualmicidentity/condition/processorrevision unproved."
     },
     "exact_sp_followup": {
       "model": "Zoom V6-SP",
@@ -63987,7 +63986,8 @@
       "seller": "Ixus Pro",
       "region": "KotaJakartaPusat",
       "idr": 5301000,
-      "access": "Two-month index,Habis,displayedvoucher Rp5k onRp2.5m minimum;notdeducted orcurrent eligibility proof. Condition,bundle,warranty/stock unknown."
+      "access": "Two-month index,Habis,displayedvoucher Rp5k onRp2.5m minimum;notdeducted orcurrent eligibility proof. Condition,bundle,warranty/stock unknown.",
+      "duplicate_audit": "Already preserved inZOOM.md canonicalV6-SP price table despite absence ofitemID inearlierledger;do notduplicate."
     },
     "other_variant": {
       "model": "Zoom V6",
@@ -64000,5 +64000,15 @@
     "bass_result": "OnlyalreadyrecordedB2FOURexactoffers;800959591/24004987590alreadyinledger. NoqualifiedBP200/AX3000B/AX5Bnewlead.",
     "other_exclusions": "QuadCortexminiresultcoveronly;ordinarywireless/adaptersunrelated. No market-exhaustion claim.",
     "manufacturer_attempt": "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v6/ inaccessible throughwebtool;do notinferdiscontinued/no capability."
+  },
+  "technical_followups_v6_guide_20261017": {
+    "source": "https://zoomcorp.com/documents/79/E_V6_QuickGuide.pdf",
+    "identity": "ZoomV6QuickGuide copyright2019,16pages;sharedV6manual applicability documented byV6-SPsupport.",
+    "findings": [
+      "XLRoutput linelevel,requireslineinput.",
+      "ECOdefaultON10houridleautomaticoff,disableoption.",
+      "SGV6requiresphantom,currentSPpackage optionalmicrophone."
+    ],
+    "variant_decision": "Do notaddV6+microphoneasdistinctactiveprocessorwithoutrevisionproof;bundleaskdeferred."
   }
 }

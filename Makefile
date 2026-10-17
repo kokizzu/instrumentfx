@@ -1655,3 +1655,7 @@ research-commit-player:
 .PHONY: research-commit-quad
 research-commit-quad:
 	python3 scripts/research_tools.py commit-quad
+
+.PHONY: research-commit-v6-live
+research-commit-v6-live:
+	python3 scripts/research_tools.py commit-v6-live

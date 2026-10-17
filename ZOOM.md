@@ -1156,6 +1156,7 @@ Support directly links the shared V6 manual below as its V6-SP Operation Manual;
 | Display | Two-digit seven-segment LED;diagonal/color/touch unspecified. [V6SP-M] |
 | USB audio / power | 2-in/2-out USB2.0 Full Speed,44.1kHz,16/24/32-bit. AD-16:9V500mA center-negative;4AA,about3.5h alkaline;USB supply supported,low bus power may need adapter. [V6SP-M] |
 | Looper / routing | Up to210s,overdub undo/redo;VOICE→FORMANT→HARMONY→EFFECT plus COMP/ENHANCE;categories offer alternative algorithms,not12+5+10 simultaneous blocks. [V6SP-M] |
+| Live / output and idle power | Shared manufacturer V6 Quick Guide ©2019,pp3–4: **XLR OUTPUT is line level**,connect toline input;**ECO defaults ON andpowers off after10hours withoutuse**,can be disabled. SGV-6 requires phantom power. Current SPpage identifies SGV-6 asoptional;guide connection examples donot prove seller bundle contents. Checked2026-10-17 [V6SP-Q]. |
 | Editor / driver / updater | Support lists V6 firmware1.20 Windows/Mac and Windows10/11 64-bit ASIO. Full editor not established;driver/updater is not editor evidence. [V6SP-S] |
 | IR / NAM / capture / synth | IR,native NAM,converted NAM and proprietary capture unestablished;vocal synthesis/character algorithms do not establish guitar amp/acoustic modeling. |
 
@@ -1176,6 +1177,8 @@ Checked2026-10-16. Exact retail-style hardware offers,not condition-verified use
 | Retail-style / Imagination Music Store,Jakarta Pusat | Rp5.090.000,Habis in index and reopened body. Index store-on-holiday/3Jun delivery;reopen relative tomorrow delivery and active seller. Availability unconfirmed;bundle unknown. | [19576516 /21795232461](https://shopee.co.id/Zoom-V6-SP-Vocal-Effects-Processor-Pedal-i.19576516.21795232461) |
 
 Unresolved:screen diagonal/color/touch;separate toe-switch proof;full editor/import capabilities;used-price/condition;current seller stock/bundles;exact ever-owned Zoom vocal identity. No source file deleted.
+
+[V6SP-Q]: https://zoomcorp.com/documents/79/E_V6_QuickGuide.pdf
 
 ## G3Xn
 
