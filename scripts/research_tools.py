@@ -412,7 +412,7 @@ def main():
         if mode == 'commit-rp500':
             message = 'research(digitech): verify RP500 looper clearing and navigation restrictions'
         if mode == 'commit-g21u':
-            message = 'research(zoom): qualify G2.1u USB monitoring and global switch functions'
+            message = 'research(zoom): qualify G21u converters analog ratings and pedal curves'
         if mode == 'commit-r16':
             message = 'research(joyo): add R-16 vocal processor with source conflicts and qualified offers'
         if mode == 'commit-fx50':
