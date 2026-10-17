@@ -62200,5 +62200,43 @@
     ],
     "limits": "Olderrevision;1.3delta notcurrenttotal; GatedBoostnotadditionalindependentgate",
     "next": "FREQ/WAH/EQ and remainingcategoryinventories; currentrevision reconciliation; fresh discovery"
+  },
+  "mp350_wah_eq_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed12–14,61–63",
+    "wah": [
+      "Clay Wah",
+      "Voxy Wah",
+      "Voxy Wah+",
+      "Color Wah",
+      "Funky Wah",
+      "Magic Wah",
+      "Soul Press",
+      "Bass Press",
+      "Cry Wah",
+      "Cry Wah+",
+      "Petrus Wah",
+      "Sandman Wah",
+      "Chili Wah"
+    ],
+    "eq": [
+      "Guitar EQ 1",
+      "Guitar EQ 2",
+      "Bass EQ 1",
+      "Bass EQ 2",
+      "V-EQ",
+      "Graphic 7",
+      "Graphic 7B",
+      "Para EQ 1",
+      "Para EQ 2",
+      "Graphic EQ"
+    ],
+    "counts": {
+      "wah": 13,
+      "eq": 10
+    },
+    "conflict": "Graphic7Bband5printed800kHz;notcorrectedto800Hz",
+    "limits": "Olderrevisionnotcurrenttotal; range/modeoptionsnotadditionalalgorithms",
+    "next": "FREQ and remainingcategoryinventories; latestrevision reconciliation; fresh discovery"
   }
 }

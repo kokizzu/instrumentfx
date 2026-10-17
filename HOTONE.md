@@ -486,6 +486,17 @@ Checked2026-10-17 against the identified manufacturer effect list, printed pp1�
 The separately documented firmware1.3.0 SmoothGate/Limiter additions remain a delta; this older census does not prove a complete current DYN total or installed used-unit content.
 
 
+### MP-350 — WAH and EQ, firmware1.1.0-JP
+
+Checked2026-10-17, original effect list printed pp12–14,61–63.
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / WAH | **13 mono-I/O choices**: Clay Wah, Voxy Wah, Voxy Wah+, Color Wah, Funky Wah, Magic Wah, Soul Press, Bass Press, Cry Wah, Cry Wah+, Petrus Wah, Sandman Wah, Chili Wah. AssignPosition to enabled expression control. ChiliWah has guitar/bass modes; CryWah+ has six ranges and internalboost, not six additional algorithms. [Original list](https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf) |
+| Category choices / EQ | **10 choices**: Guitar EQ 1, Guitar EQ 2, Bass EQ 1, Bass EQ 2, V-EQ, Graphic 7, Graphic 7B, Para EQ 1, Para EQ 2, Graphic EQ. Firstfive are5-band stereo; Graphic7/7B are7-band mono±15dB; ParaEQ1 is4-band plus shelves, ParaEQ2 is5-band; GraphicEQ is10-band stereo±12dB. Separate fromGlobalEQ. [Original list](https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf) |
+| EQ / source conflict | Graphic7B band5 prints **800kHz**, inconsistent with its audio-EQ context; retain as unresolved source wording, not a verified800Hz correction. Revision census does not establish current firmware totals. [Original list](https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf) |
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
