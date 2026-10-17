@@ -684,6 +684,16 @@ These are separate asking observations,not a used-to-new range. Selected conditi
 
 Both direct pages remain JavaScript-limited. Relative tomorrow delivery does not prove current stock;new/used condition,working state,selected variation,adapter/bundle,warranty,applied voucher,shipping/tax unverified. Late-delivery compensation is not a purchase discount. These separate cached asks do not replace earlier offers or establish a market range.
 
+### B1 FOUR — named synth and effects-list scope
+
+Checked2026-10-17 against [official effects list](https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf),17pages,©2019,Z2I-3610-01,pp13–16.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / acoustic | **StdSyn**:four sound variations;**SynTlk**:four vowel variations(IA,UE,UA,OA);**Z-Syn**:SAW/SQR waveform options. These are three named synth algorithms,not ten independently selectable blocks. Defret produces fretless character,not acoustic-guitar simulation. |
+| Processing / SFX | Seven listed SFX:Bomber,LoopRoll,StdSyn,SynTlk,Z-Syn,Defret,PH+Dist. LoopRoll is sample/hold with10–3000ms time setting,distinct from the dedicated30s looper. Six delay choices:Delay,AnalogDly,TapeEcho,ReverseDL,ModDelay,DualDLY. Six reverbs:Air,Room,Hall,HD Hall,Spring,Plate. |
+| Processing / library scope | Shared B1/B1X document includes a restricted PEDAL section;do not assign those entries to pedal-lessB1 FOUR. Guitar Lab additions are marked separately;2019 list does not certify installed inventory or include every later downloadable release. Other category subtotals remain pending. |
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.

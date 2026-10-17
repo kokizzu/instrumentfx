@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1 FOUR",
-    "task": "Two additional condition-unverified offers saved. Next inspect official B1FOUR effect list to reconcile categories and name bass synth algorithms, preserving family-vs-installed firmware qualifications. Then fresh Shopee discovery.",
+    "task": "B1 FOUR synth/SFX7/delay6/reverb6 saved from2019 Z2I361001. Next enumerate dynamics/filter/drive/amp/cab/mod category counts from same list;keepPEDALrestricted and downloadablevsinstalled distinct.",
     "next_models": [],
     "after_queue": "288partial models;no downloads/workflows/push."
   },
@@ -57890,6 +57890,22 @@
     "qualification": "Condition/liveStock/variant/bundle/adapter/warranty/voucher/shippingtax unknown;relative tomorrow notstockproof",
     "excluded": "GFX8adapter732732692/16073983907 Rp150000",
     "new_model_established": false,
+    "downloads": false
+  },
+  "b1four_synth_library_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf",
+    "identity": "2019 Z2I-3610-01,17pages pp13–16",
+    "synth": [
+      "StdSyn4variations",
+      "SynTlk4vowels",
+      "Z-SynSAW/SQR"
+    ],
+    "counts": {
+      "sfx": 7,
+      "delay": 6,
+      "reverb": 6
+    },
+    "qualification": "Shareddocument includesrestrictedPEDALsection andmarkedGuitarLabadditions;notinstalledinventory",
     "downloads": false
   }
 }
