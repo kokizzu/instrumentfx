@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-5",
-    "task": "VE5 historical indexed phones-20dBu/33ohm candidate conflict saved versus currentTBD/66ohm; fullcatalog blocked bywebsize,not downloaded,not resolved. Next inspect own manual effect subtype details or fresh exact hardware offers; do not repeat fullcatalog fetch or infer hardware revision. Commit before next.",
+    "task": "VE5 named5PitchCorrect/6ToneSFX alternatives saved with ownmanualindexed source. Next verify remaining reverb names/harmony part limits from ownmanualp17 with targeted official text; no fulloversizedfetch or sibling borrowing. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56637,6 +56637,12 @@
         "https://static.roland.com/assets/media/pdf/boss_catalog_2014.pdf",
         "https://www.boss.info/global/products/ve-5/"
       ]
+    },
+    {
+      "model": "BOSS VE-5",
+      "checked_date": "2026-10-18",
+      "finding": "Indexed ownmanualp16 names5PitchCorrect:Soft Hard Electric1 Electric2 Robot;Electric2 stronger.6ToneSFX:Preamp Distortion Radio Strobe Chorus Flanger;conditionalcontrols retained. Alternatives not simultaneous engines;not sibling4type list.",
+      "source": "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf"
     }
   ],
   "discovery_cross_brand_bass": {
