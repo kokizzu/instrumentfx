@@ -204,10 +204,13 @@ Explicit touch capability, retailer condition/stock confirmation, dependable use
 | Expression / controls | No built-in expression; external expression not established. **1/0/2**,two palm buttons are not footswitches. |
 | Display / body | **1.77-inch color LCD**,explicit touch unverified. **103.5 W ×85 D ×28.5 H mm;194 g**,compact. |
 | Processing | **Nine modules,100+ choices,20 amps**. DRV/AMP/IR/EQ fixed;NR/FX1/FX2/DLY/RVB movable. Exact synth/acoustic choices ?. |
-| Presets / loading | **50 noneditable factory +50 editable user =100**;five user IR slots. NAM A2 workflow supported in Manager/SONICLINK;not proof of unrestricted native NAM. |
+| Presets / loading | **50 noneditable factory +50 editable user =100**;five user IR slots. Official Japan2026-08-18 notice identifies **converted NAM A2**,mobile app**1.7.2+** or desktop**1.5.2+**. Accepted architectures/size limits unverified. [Notice](https://www.hotone.jp/announcements/nama2allbrand). |
 | Ports | 6.35 mm input;**one6.35 mm TRS stereo output shared with headphones**;**two USB-C sockets**,one audio/data and one power/charging. No separate headphone socket implied. |
 | Power / software | Built-in1000mAh lithium battery,USB5V. Windows/macOS Manager and iOS/Android SONICLINK. |
 | Audio / practice | USB stereo audio;99 rhythms. Remaining looper/algorithm/preset-operation details require further verification. |
+| Bass capability | Own product explicitly lists **guitar/bass/acoustic amp types**;shared bass inclusion,not low-end performance certification. Exact bass model inventory remains unresolved. [Product,checked2026-10-17](https://www.sonicake.com/products/pocket-master) |
+| Conversion / USB recording / electrical I/O | Own specification:**24bit A/D/A,44.1kHz,103dB SNR**(weighting unstated);USB recording**44.1kHz16bit**,not24bit. Input¼TS1MΩ;shared stereo¼TRS output/phones100Ω,not a headphone-power rating. [Specification](https://www.sonicake.com/products/pocket-master) |
+| Software / current releases | Own page lists firmware**1.3.3**,Manager**1.5.2 Mac/Windows**,SONICLINK**1.8.2 iOS/Android**;historical1.7.2 and manual1.3.0 retained below. Current OS minimums and architecture acceptance remain unresolved. [Product](https://www.sonicake.com/products/pocket-master) |
 
 Retail **Rp1.025.000**, [Nafiri black QME-10BK](https://nafiriguitar.com/products/sonicake-pocket-master-qme-10bk-in-black),not the separateRp1.085.000 comparison price. Both Sold out and Add to cart appeared,so availability **unconfirmed**. Used **?**;old social/group asks not promoted to active offers. Variant,accessories,delivery and tax remain seller-dependent. Earlier **USD64.99** official quote retained without conversion.
 

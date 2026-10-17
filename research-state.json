@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Smart Box QME-20",
-    "task": "NAM A2 conversion and minimum mobile/desktop software versions now documented. Continue architecture limits/category counts/touch/qualifiedoffers or fresh Shopee discovery;preserve historical records.",
+    "model": "Sonicake Pocket Master QME-10",
+    "task": "Bass capability,convertedNAM,USBformat/electrical specs/currentversions saved. Continue unresolved algorithm/practice/OS/offers orfreshShopee discovery.",
     "next_models": [],
-    "after_queue": "Continue broader catalogue research;no downloads,workflows orpush."
+    "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -24497,9 +24497,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 119,
+      "record_count": 120,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 91,
+      "shared_bass_capable_count": 92,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41494,8 +41494,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 119,
-    "bass_shared_models": 91,
+    "bass_view_models": 120,
+    "bass_shared_models": 92,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Smart Box QME-20."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Pocket Master QME-10."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41873,6 +41873,7 @@
       "NUX::Mighty Plug MP-2",
       "Roland::GR-55",
       "Sonicake::Smart Box QME-20",
+      "Sonicake::Pocket Master QME-10",
       "Sonicake::Matribox II Pro QME-200",
       "Valeton::GP-100",
       "Valeton::GP-150",
@@ -41984,6 +41985,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Sonicake::Pocket Master QME-10": "Own Pocket Master product explicitly lists guitar/bass/acoustic amp types. Shared bass;exact bass inventory/performance unresolved. [Manufacturer](https://www.sonicake.com/products/pocket-master).",
     "Sonicake::Matribox II Pro QME-200": "Own firmware1.1.1 manual pp41,44 lists A BassVT/A BassFT bass amps and bass cabinets. Shared bass capability;not performance certification. [Official regional manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf).",
     "Sonicake::Smart Box QME-20": "Manufacturer Smart Box page explicitly describes presets optimized for guitar and bass. Shared bass capability; bass-specific algorithms and low-end performance remain unverified. [Manufacturer product](https://www.sonicake.com/products/smart-box).",
     "Donner::Arena2000": "Own2022 Arena2000 manual p4 explicitly identifies input for guitar/bass;not connector-only inference. Bass-specific models/low-end performance remain unverified. [Original manufacturer manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf).",
@@ -60477,5 +60479,19 @@
     ],
     "remaining": "Accepted architecture/size limits,conversion fidelity,current OS,category counts,touch and conditionqualifiedoffers.",
     "access": "Official regional HTML notice only;no model files/software downloaded or executed"
+  },
+  "pocketmaster_loading_electrical_bass_20261017": {
+    "sources": [
+      "https://www.sonicake.com/products/pocket-master",
+      "https://www.hotone.jp/announcements/nama2allbrand"
+    ],
+    "findings": [
+      "Explicitbassamptypes;sharedbassinclusion",
+      "A2conversionmobile1.7.2+/desktop1.5.2+",
+      "24ADDAvs16USB44.1k;103SNR;1Mohmin100ohmout",
+      "CurrentSONICLINK1.8.2vsdated1.7.2"
+    ],
+    "remaining": "Bassalgorithm inventory,acceptedNAMarchitectures,touch,looperdetails,currentOSandqualifiedoffers.",
+    "access": "HTMLonly;nopackagesdownloaded"
   }
 }
