@@ -28,11 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic PLETHORA X3",
-    "task": "X3 control/persistence exception saved. Next own firmware and looper timing qualifications; do not imply PLAY Hot Knob tweaks auto-save. Other saved gaps remain.",
-    "next_models": [
-      "TC Electronic PLETHORA X5"
-    ],
+    "model": "TC Electronic PLETHORA X5",
+    "task": "Verify X5 own official product/manual and firmware using saved exact Shopee offer. X3 MIDI findings committed; firmware/timing/display/import/software and offer gaps deferred explicitly.",
+    "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
   "new_findings": [
@@ -41341,7 +41339,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -54860,5 +54858,11 @@
     "pages": "18–19",
     "evidence": "EDIT auto-save versus PLAY HOT KNOB unsaved exception. EFFECT/TONEPRINT push encoder actions. Hold functions MASH/RAMP/TAP TEMPO. USB app/update and MIDI control scope.",
     "remaining": "Targeted firmware and looper searches did not establish timing/revision restrictions; other saved gaps retained."
+  },
+  "plethora_x3_midi_checkpoint_20261017": {
+    "source": "https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf",
+    "evidence": "Explicit X5/X3 table proves Global Expression, per-slot MASH/expression modifiers, Hot Knobs and looper record/play/clear/pause. Slots4/5 marked X5-only.",
+    "rejected_inference": "X5-only firmware1.2.18 note states40s stereo/80s mono, not adopted for X3.",
+    "access": "Direct X3 QSG browser open502; indexed text remains readable. X3 firmware/date and recording duration unresolved; no files downloaded."
   }
 }
