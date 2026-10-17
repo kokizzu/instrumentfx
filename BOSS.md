@@ -2983,7 +2983,7 @@ Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Ma
 | Synth / acoustic | BASS SYNTH processes bass input and requires single-note playing; chords unsupported (p.110). BASS SIM includes single-coil/humbucker-to-acoustic-bass tone conversions; this is bass simulation,not evidence of acoustic-guitar modeling (p.109). | [Manual text][G10B-T] |
 | I/O | Instrument input;L/R main andXLR sub outputs;stereo phones;send/return;amp-control;EXP2/CTL3,4;USB;coaxial digital out;MIDI in/out;DC. Connector sizes/USB type pending. | [Product][G10B-P] |
 | Output level routing | OUTPUT LEVEL controls main OUTPUT and PHONES; XLR SUB OUTPUT level is separate under SYSTEM (pp.22,70). | [Manual text][G10B-T] |
-| Power / battery / USB | **9V DC,800mA draw,PSB-1U supply**. Polarity,battery/bus operation unknown. | [Product][G10B-P] |
+| Power / battery / USB | **9V DC,800mA draw,PSB-1U supply**. Center-negative via named PSB-1U specifications below; battery/bus operation unknown. | [Product][G10B-P] |
 | IR / NAM / capture | User IR,native/converted NAM andcapture loading unverified. | Unresolved |
 | Editor / software | Windows/Mac **Librarian1.00** listed;driver entries separate. Full editor/current OS compatibility unverified. No software downloaded. | [Product][G10B-P] |
 | USB / conversion | Bidirectional audio; **Standard driver mode has no USB MIDI; Advanced requires special driver and enables USB MIDI,disabling DIN MIDI transfer while connected** (pp.94–95). Historical Standard OS: XP/Vista,Mac OS X10.4.3+;not current compatibility. Mode changes require restart. Channel/USB word length remain unknown; AD24bit+AF,DA24bit,44.1kHz are converter specifications. | [Product][G10B-P]; [manual text][G10B-T] |
@@ -3007,6 +3007,13 @@ Checked 2026-10-18 against the manufacturer-authored 2008 manual, revision G6027
 | Synth / bass-simulator choices | BASS SIM has seven types: passive→active, active→passive, single-coil→humbucker, humbucker→single-coil, solid→hollow, single-coil→acoustic bass and humbucker→acoustic bass. Body 0–100 applies to the hollow/acoustic conversions; lower values approach piezo-like tone. These are choices within one algorithm. | [Own manual p109][G10B-T] |
 | Synth / waveforms | BASS SYNTH offers Saw and Square waveforms, separate synth/direct levels and envelope-filter controls. Both waveforms belong to the same single-note algorithm; they do not establish two simultaneous synth engines. | [Own manual p110][G10B-T] |
 
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Power / approved supply polarity | Named PSB-1U is specified by Roland as **9V, center-negative/sleeve-positive, 2000mA capacity**. This establishes compatible polarity; GT-10B device draw remains800mA. Regional mains/plug label must be checked separately. | [Own product][G10B-P]; [Roland supply specifications][G10B-PS] |
+| I/O / connector sizes | INPUT, main OUTPUT, SEND/RETURN and AMP CONTROL are quarter-inch; PHONES stereo quarter-inch; EXP2/CTL3,4 quarter-inch TRS; SUB outputs XLR. USB connector type remains unresolved. | [Own product][G10B-P] |
+| I/O / electrical levels | Nominal INPUT/RETURN−10dBu; input impedances1MΩ/220kΩ. Main OUTPUT−10/+4dBu,2kΩ; SEND−10dBu,3kΩ; SUB output600Ω. Nominal levels do not establish maximum headroom. | [Own product][G10B-P] |
+
 <!-- comparison evidence ends -->
 
 GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.
@@ -3017,6 +3024,8 @@ GT10B Shopee searches surfaced adapter listings and foreign retailers rather tha
 Manual follow-up: manufacturer-authored 2008 GT-10B owner manual, G6027127R0, read as mirrored document text; generated introduction/FAQ excluded. Official CDN PDF exceeds web-reader size limit. No file downloaded.
 
 [G10B-T]: https://manualzz.com/doc/51314063/boss-audio-systems-music-pedal-gt-10b-owner-s-manual
+
+[G10B-PS]: https://support.roland.com/hc/en-us/articles/4410470586395-Powering-Multiple-Effects-Pedals
 
 ## MS-3
 
