@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP155",
-    "task": "RP155 category/loop audit saved with library-count contradictions. Continue market discovery; retain unresolved body measurements and ambiguous Shopee manual-title lead.",
-    "next_models": [],
-    "after_queue": "Continue missing bass/vocal discovery and legacy consolidation; do not treat unsuccessful searches as absence."
+    "model": "Korg AX30G",
+    "task": "Audit own manual from Korg AX30G support page. Exact Shopee item57900729/18875773031 is cached sold-out1350000, condition unverified. Add separate root record only after panel, pressure-pedal, effects and power evidence review.",
+    "next_models": [
+      "Korg AX30G"
+    ],
+    "after_queue": "Continue missing bass/vocal discovery and lossless legacy work; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -51092,5 +51094,44 @@
     "access": "Four-month shop cache; exact click cache miss",
     "qualification": "Manual title ambiguous; no qualified hardware price, condition or stock.",
     "other_queries": "StompLab1B,ME50B,GT10B,BP355 no exact new hardware. HopeMusic newer cache omits B2.1u mixed listing; old1699000 cannot be assigned."
+  },
+  "discovery_ax30g_20261017": {
+    "checked_date": "2026-10-17",
+    "status": "Missing from active inventory; own manual audit pending.",
+    "offer": {
+      "url": "https://shopee.co.id/efek-gitar-korg-ax30g-langka-i.57900729.18875773031",
+      "shop_id": "57900729",
+      "item_id": "18875773031",
+      "seller": "totok.zulianto",
+      "region": "Kabupaten Tuban",
+      "ask_idr": 1350000,
+      "stock": "Habis in two-month cache",
+      "condition": "Unverified; langka means rare, not new or used proof",
+      "access": "Search index two months old, delivery13–15August. Exact open failed.",
+      "qualifications": "Working condition, completeness, adapter, bundle, warranty and actual stock unknown. Late-delivery voucher10000 not deducted."
+    },
+    "primary_leads": [
+      {
+        "url": "https://www.korg.com/us/support/download/product/1/30/",
+        "finding": "Own AX30G manufacturer manual listing; upload date2015-06-01 is not production or manual revision."
+      },
+      {
+        "url": "https://cdn.korg.com/jp/support/download/files/c658a21b5ffe7a11df22cf848749fde7.pdf",
+        "finding": "Japanese manufacturer manual indexed:28effects,16user/50preset,chain blocks6×4=24combinations,LCD,pressurepedal. Full manual not opened or audited; do not assume conventional expression treadle."
+      }
+    ],
+    "searches_without_exact_missing_hardware": [
+      "Firehawk FX",
+      "Line6 M13",
+      "VoiceLive Touch",
+      "Play GTX",
+      "Zoom A2",
+      "AX3000B",
+      "GT6B",
+      "RP55",
+      "G9.2tt",
+      "RP80"
+    ],
+    "rejected": "M13/G9.2tt results were power supplies; GT3 results included hardcases, decals, LCDs and mixed GT100/GT3/GT5 price. Existing VAMP2 and VoiceLive3Extreme results not duplicated. Unsuccessful queries do not establish market absence."
   }
 }
