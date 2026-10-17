@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha SPX2000",
-    "task": "SPX2000 numbered PRESET/CLASSIC category accounting saved(97/25). Distinct algorithm count remains separate. Next verify specific USBMIDI driver release pages,then fresh Shopee discovery; bass unclassified.",
+    "model": "Shopee discovery",
+    "task": "SPX2000 useful driver findings saved. Search unrecorded eligible multi-effects by Yamaha/Alesis/Lexicon/Zoom brand-series; compare against245-model inventory before selecting. Preserve SPX2000 algorithm/bass/visual gaps and MX400 inaccessible tables for later.",
     "next_models": [],
-    "after_queue": "Search Shopee by brand/series for unrecorded eligible multi-effects. Keep MX400 library/bank follow-up pending; no downloads,workflows,push."
+    "after_queue": "Verify each exact Shopee hardware offer with own manufacturer sources,commit each useful model before next;no downloads,workflows,push."
   },
   "new_findings": [
     {
@@ -41309,7 +41309,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha SPX2000."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -53622,5 +53622,14 @@
     "classic_total": 25,
     "qualification": "Catalogue program grouping,not unique algorithm count or simultaneous blocks;composites occur outsideMultiple.",
     "driver_access": "Resources search indexed WindowsUSBMIDI3.1.5May22,2026,but opened page does not expose matching text;exact driver release verification pending."
+  },
+  "spx2000_driver_followup_20261017": {
+    "sources": [
+      "https://usa.yamaha.com/products/proaudio/processors/spx2000/downloads.html",
+      "https://usa.yamaha.com/support/updates/usb-midi-driver-win.html",
+      "https://usa.yamaha.com/support/updates/usb_midi_driver_for_mac.html"
+    ],
+    "finding": "WinUSBMIDI3.1.5Win10/11x64,Mac1.5.1macOS11–15/26nativeAppleSilicon;release-indexdatesMay22/Apr20,2026. EditorOSlist remainsseparate.",
+    "remaining": "Distinct algorithm count,full elemental simultaneous maximum,bass evidence,screen diagonal/touch and qualified current offers remain unknown."
   }
 }
