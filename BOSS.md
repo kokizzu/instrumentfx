@@ -2755,3 +2755,37 @@ Sources: regional manufacturer pages and own ©2003, 28-page owner manual throug
 [VE500-DM]: https://www.boss.info/global/support/by_product/ve-500/updates_drivers/61852180-129e-414b-9841-af2dc45aa7a8/
 [VE500-C]: https://www.boss.info/global/support/support_news/25090811m1/
 [VE500-F]: https://www.boss.info/us/support/by_product/ve-500/updates_drivers/9d6c0325-3ec4-438a-b4b0-13c5e0bd43ca/
+
+## SE-50
+
+Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. Manufacturer documents guitar effects and vocal-specific processing. Bass suitability,exact offered revision andownership unresolved.
+
+| Required field | Verified evidence / unresolved detail |
+|---|---|
+| Expression | Built-in/external/toe support unverified;do not borrow FC-50 controller capabilities. |
+| Knobs / footswitches / buttons | Separate rotary,foot andbutton counts unverified;no visual panel audit. |
+| Display | Diagonal,color,touch andcharacter count unverified from inspectable primary evidence. |
+| Processing / category choices | BOSS identifies **Vocal Multi**,combining limiter,enhancer,noise suppression,delay,chorus,reverb. This proves multi-stage eligibility;full algorithm inventory,maximum simultaneous count androuting limits unresolved. [Manufacturer history][SE50-H]. |
+| Factory / user / total memory | **100 writable locations1–100 +28 protected presets101–128 =128total**. Preset edits must be written to1–100. This is not128user memories. [Roland support][SE50-M]. |
+| Synth / acoustic | Exact synth/acoustic-simulation functions unverified. Pitch orvocoder claims from secondary summaries not promoted. |
+| I/O | Complete audio/control connector inventory,levels,headphones,phantom andUSB functions unresolved. Stereo inproductname does not prove everyalgorithm stereo. |
+| Power / battery / USB | Roland recommends **BRB-100/120/220/230/240**,withregional mains/plug compatibility. Exact outputvoltage/current,connector,operatingbattery andUSBpower remain unverified here. Do not substitutePSA based on BOSSbranding. [Power support][SE50-P]. |
+| Dimensions / weight | Unit axes,mass andrevision-dependent differences await readable originalspecifications. |
+| IR / NAM / captures | UserIR,nativeNAM,convertedNAM,proprietarycapture import eachunverified;notinferredfromMIDI. |
+| Editor / software | Full editor,platforms,driver/updater andMIDI implementation unresolved. |
+| Looper / drums / scenes | Capabilities,persistence,spillover andlive controls unverified. Patchmemory is notscenes. |
+| Used IDR | No condition-qualified used quote established. |
+| New IDR | No condition-qualified new quote established. |
+| Historical condition-unverified IDR | **Rp2.250.000**,kemzguitars,shop7769509/item48750366204,Kab.Bogor. [Exact hardware](https://shopee.co.id/Boss-PRO-SE-50-SE-50-SE50-Stereo-Effects-Processor-i.7769509.48750366204). Direct JS-limited two-month cache. Condition,workingstate,revision,stock,variant,bundle,adapter,warranty,voucher,shipping/tax/finaltotal unknown. Relative next-daydelivery notstock;lateRp10k compensation nothardwarediscount. |
+
+[SE50-H]: https://www.boss.info/id/promos/vocal/
+[SE50-M]: https://support.roland.com/hc/en-us/articles/201926699-SE-50-Patch-Memory-on-the-SE-50
+[SE50-P]: https://support.roland.com/hc/en-us/articles/201932819-SE-50-Recommended-Power-Supply
+
+### SE-50 source access and remaining verification
+
+[Official archive](https://www.boss.info/us/support/manual_archive/) links [144-page original manual](https://cdn.roland.com/assets/media/pdf/SE-50_OM.pdf),zero extractedlines. [ManualsLib copy](https://www.manualslib.com/manual/1014513/Boss-Se-50.html) exposescontents butselectedpages lackedoriginalbody. No fullmanual/visual verification claimed.
+
+[Service-note mirror](https://manuals.plus/m/3dfe51dc788d388d1e28dac376bee0bc1ee8e2ddd86fb97881d82f99713c9856) provides a rewritten conversion,not accepted as originaltranscription. Its [27-page PDF](https://manuals.plus/m/3dfe51dc788d388d1e28dac376bee0bc1ee8e2ddd86fb97881d82f99713c9856.pdf) yieldedzero text;screenshot returnednoinspectable image. Do notuseits missing-minus audiolevels orpanel summary. SE-50/SE-50A revision differences requireoriginalproof beforeassigning dimensions/mass.
+
+Roland memoryarticle updated2023-04-13;powerarticle2026-06-16. Sources checked2026-10-17 withoutdownloads ordeviceexecution. Remainingfields above requiremodel-specificprimaryevidence;the record is notfullyverified.

@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 313,
+  "active_model_count": 314,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 313,
+  "canonical_root_model_count": 314,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "313 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
+  "count_reconciliation": "314 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "BOSS SE-50",
-    "task": "Newexact Shopee leadandmanufacturer guitar/vocal eligibility saved. Nextobtainreadable144page manufacturer manual oridentifiedtranscription;buildseparatepartialprofileandcomparisons,commitbeforeanothermodel.",
+    "task": "Initialpartialprofile saved frommanufacturerhistoryandprimarymemory/powersupport. Resolve readableoriginalmanual,controls,ports,dimensions,power andalgorithms;do not trustrewrittenmirrorasoriginal.",
     "next_models": [],
-    "after_queue": "313activeunchanged;technical/market/ownership/migration incomplete;no downloads/workflows/push."
+    "after_queue": "314active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5314,6 +5314,13 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "Separate eligible guitar processor;NAM architecture/editor revision and memory/block conflicts retained."
+    },
+    {
+      "model": "BOSS SE-50",
+      "path": "BOSS.md#se-50",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Guitar/vocal multi-effects eligibility and100user28protectedmemory confirmed;exactShopeeask preserved;scannedmanualgaps explicit."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24016,7 +24023,8 @@
       "AD-10",
       "ME-5",
       "GT-001",
-      "AD-8"
+      "AD-8",
+      "SE-50"
     ],
     "CUVAVE": [
       "H8"
@@ -24603,7 +24611,8 @@
       "AD-10",
       "ME-5",
       "GT-001",
-      "AD-8"
+      "AD-8",
+      "SE-50"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -24738,7 +24747,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 261,
+      "record_count": 262,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24750,9 +24759,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 64,
+      "record_count": 65,
       "vocal_only_count": 24,
-      "combined_instrument_count": 40,
+      "combined_instrument_count": 41,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41763,13 +41772,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 313,
-    "canonical_root_models": 313,
+    "unique_brand_model_pairs": 314,
+    "canonical_root_models": 314,
     "legacy_only_models": 0,
-    "guitar_view_models": 261,
+    "guitar_view_models": 262,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
-    "vocal_view_models": 64,
+    "vocal_view_models": 65,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41826,7 +41835,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-1."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS SE-50."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41863,6 +41872,7 @@
       "BOSS::ME-5",
       "BOSS::GT-001",
       "BOSS::AD-8",
+      "BOSS::SE-50",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -42239,6 +42249,7 @@
       "BOSS::VE-20",
       "BOSS::VE-5",
       "BOSS::GT-001",
+      "BOSS::SE-50",
       "Fender::Tone Master Pro",
       "Flamma::FV02 Doubling",
       "Flamma::FV03 Character",
@@ -42742,6 +42753,13 @@
     },
     "BOSS::AD-8": {
       "link": "BOSS.md#ad-8",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::SE-50": {
+      "link": "BOSS.md#se-50",
       "source_files": [
         "BOSS.md"
       ],
@@ -64754,7 +64772,7 @@
   "discovery_se50_20261017": {
     "model": "BOSS SE-50",
     "checked_date": "2026-10-17",
-    "status": "New exact hardware lead;not yet active inventory/profile",
+    "status": "Recorded partial inBOSS.md#se-50;countedonce",
     "offer": {
       "url": "https://shopee.co.id/Boss-PRO-SE-50-SE-50-SE50-Stereo-Effects-Processor-i.7769509.48750366204",
       "seller": "kemzguitars",
