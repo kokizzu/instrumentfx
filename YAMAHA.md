@@ -140,6 +140,7 @@ Checked2026-10-17;partial. Own compressor description includes electric guitar a
 | Display | 16×2 character LCD;two-digit memory LED;stereo eight-segment level meters. Diagonal,color/touch unverified. | [Manual Add-31][S1-M] |
 | Processing / categories | 40 preset programs include reverbs,delay,modulation,dynamics,multi-effect and independent two-channel programs. 44.1kHz;each program has two-band parametric EQ/dynamic-filter parameters. Catalogue counts below; elemental simultaneous ceiling pending. | [Manual introduction][S1-M] |
 | Categories / program choices | Manual catalogue:5reverb,5early-reflection/gated,1delay,1echo,6modulation,1noise-gate,4pitch,3Freeze,2pan,1distortion,3multi-effect,5two-channel,2compressor/expander,1exciter=40programs. These are program choices,not40 simultaneous effects or40 freely assignable blocks. | [Manual contents,p6][S1-M] |
+| Processing / multi-effect combinations | Programs28–30 combine compressor,distortion,EQ/dynamic filter,reverb and chorus/symphonic/exciter according to the chosen program. Effects can be individually enabled;only enabled-effect parameters appear. These fixed combinations do not establish arbitrary slot assignment. Two-channel programs31–35 process L/R separately;output mode selects mixed stereo or independent mono×2. | [Manual pp25–27][S1-M] |
 | Preset memory | **40 preset+59 user=99**; initial user fill unverified. | [Manual introduction][S1-M] |
 | Synth / acoustic | Freeze sampling documented;dedicated synth/acoustic simulation unverified. | [Manual contents][S1-M] |
 | I/O | Stereo quarter-inch mono-phone inputs/outputs;MIDI IN,switchable THRU/OUT;digital I/O 8-pin pair;Trigger1/2,memory,bypass footswitch sockets;two expression sockets. Digital connectors use proprietary Yamaha format; FMC1 converter is documented for interfacing other formats. Cable/pinout details pending. | [Manual pp4–5,Add-31][S1-M] |
@@ -149,7 +150,7 @@ Checked2026-10-17;partial. Own compressor description includes electric guitar a
 | Dimensions / mass | **480W×45.2H×319D mm**;mass unverified. | [Manual Add-31][S1-M] |
 | IR / NAM / capture | User IR,native/converted NAM and capture support unverified. | Unresolved |
 | Editor / platforms | Current editor,drivers and computer OS support unverified;MIDI dumping does not establish editor support. | Unresolved |
-| Looper / drums / live | Freeze modes documented;performance-looper persistence,drums,scenes and spillover pending. | [Manual contents][S1-M] |
+| Looper / drums / live | Freeze1/2 sample up to5.8seconds;Stereo Freeze up to2.9seconds with independent L/R sampling. Freeze1 provides single playback with adjustable START/END. Freeze2 loops START→LOOP continuously while trigger remains on;LOOP FINE±200 refines the transition. Manual/automatic recording documented. Persistence,overdub,drums,scenes and patch spillover remain unverified. | [Manual pp21–23][S1-M] |
 
 ### Separate IDR hardware offers
 

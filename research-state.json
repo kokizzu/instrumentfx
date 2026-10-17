@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX1000",
-    "task": "SPX1000 fourdigitalroutingmodes,inputmodes and40programcategory accounting saved. Next own Freeze/multi-effect details,mass,userfill;visual/softwaregaps remain.",
+    "task": "SPX1000 Freeze5.8/2.9sec andfixedmulti/twochannelarchitecture saved. Next samplepersistence,mass,userinitialfill andremainingownmanualspecifications;visual/softwaregaps remain.",
     "next_models": [
       "Zoom RFX-2000 (resolve exact item first)"
     ],
@@ -53726,5 +53726,11 @@
     "total": 40,
     "finding": "Catalogue program counts separated from simultaneous slots;ANA/DIG/PRE/POSTinputoutputclockrules andindependentinputmodes saved.",
     "remaining": "Mass,initialuserfill,Freeze,specificmulti-effectsimultaneity,visualandsoftwaregaps."
+  },
+  "spx1000_freeze_multi_followup_20261017": {
+    "source": "https://usa.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf",
+    "pages": "21–27",
+    "finding": "Freeze1/2 5.8sec,stereo2.9sec;Freeze1singleplayback,Freeze2heldtriggerloop;fixedmultiFX28–30andindependenttwochannel31–35distinguished.",
+    "remaining": "Samplepersistence/overdub,mass,userinitialfill,fullroutingvisualandsoftwaregaps."
   }
 }
