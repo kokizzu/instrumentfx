@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh bass/vocal discovery",
-    "task": "Continue fresh bass/vocal discovery and unresolved manufacturer fields; Harmony Singer 2 PnA item12928778203 is now recorded. Do not repeat TANK-B offer additions.",
+    "model": "Harmony Singer 2 / bass-vocal discovery",
+    "task": "Resolve Harmony Singer 2 quick-start hardware applicability and remaining fields using exact manufacturer sources;otherwise continue fresh bass/vocal offers. PnA12928778203 and three TANK-B offers already saved.",
     "next_models": [],
     "after_queue": "Technical gaps and lossless migration audit remain incomplete. No downloads/workflows/push."
   },
@@ -41739,7 +41739,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass/vocal discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Harmony Singer 2 / bass-vocal discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52021,6 +52021,13 @@
       "source": "https://shopee.co.id/Effects-Vocal-TC-Helicon-Harmony-Singer2-i.160105847.12928778203",
       "finding": "Additional exact PnA Music Store ask Rp5600000,Kota Jakarta Timur,last-week crawl,JS-limited body;condition and stock unverified.",
       "remaining": "Manufacturer revision conflicts and all retained technical gaps;qualified new and live-stock evidence."
+    },
+    {
+      "model": "TC-Helicon Harmony Singer 2",
+      "checked_date": "2026-10-17",
+      "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf",
+      "finding": "2016 manufacturer manual pp3,5–6: Tone voicings,analog impedances/fullscale levels and Mic Control condenser restriction saved. No quick-start revision conflict resolved.",
+      "remaining": "Hardware applicability of newer guide,polarity/draw/runtime/USB,expression,display/memory/editor/imports,current qualified offers."
     }
   ],
   "discovery_cross_brand_bass": {
