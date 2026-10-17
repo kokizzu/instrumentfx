@@ -667,7 +667,7 @@ def main():
         if mode == 'commit-floorboard-matribox-ii-pro':
             message = 'research(sonicake): qualify Matribox II Pro firmware effects and Clone support'
         if mode == 'commit-floorboard-matribox-ii':
-            message = 'research(sonicake): verify Matribox II USB and looper routing limits'
+            message = 'research(sonicake): qualify Matribox II firmware effects and NAM storage'
         if mode == 'commit-floorboard-union':
             message = 'docs: restore original floorboard manual URL and diagnose shared-source gaps'
         if mode == 'commit-market2-union':

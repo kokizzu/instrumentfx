@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II QME-100",
-    "task": "Matribox II USBmode/editor limits,channelrouting andloopermodes saved. Continue display/control/algorithm/price gaps orfreshdiscovery;do not treat2in2outasdesktopeditor mode.",
+    "task": "Matribox II firmware/software additions and shared AMP/FX2 NAMslots saved. Continue architecture/slotcounts,display/control/qualifiedoffers orfreshdiscovery;preserve version distinctions.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60626,5 +60626,20 @@
     ],
     "remaining": "Display/buttons,algorithmbreakdown,architecturelimits,currentOS/power/qualifiedoffers;loopstoragepersistence.",
     "access": "BrowserPDFtextonly;directopenfailed but manufacturerproductlink resolved;nodownload"
+  },
+  "matribox_ii_release_notes_20261017": {
+    "sources": [
+      "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705",
+      "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Software_Release_Note.pdf?v=1780541676"
+    ],
+    "identity": "Ownproductlinked4pagefirmwareand2pagesoftwarenotes;matchedMatriboxII",
+    "findings": [
+      "Firmware1.3.0sixeffects;1.1.1fiveeffects andmonophonicharmony qualification",
+      "AMPandFX2shareNAMtoneslotsin1.3.0",
+      "Clone firmware1.2.1/editor1.2.0 both2025-04-17;GlobalTempo/Japanese/recalibration"
+    ],
+    "conflict": "ComboSpring called reverb but assignedDLY inrelease note;preservedwithoutcorrection",
+    "remaining": "Fullcategorytotals,NAMarchitecture/slotcounts,display/buttons,currentOS/batteryUSBpower/qualifiedoffers.",
+    "access": "BrowserPDFtextonly;nofirmware/softwaredownload"
   }
 }
