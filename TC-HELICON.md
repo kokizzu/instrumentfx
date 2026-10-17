@@ -845,6 +845,17 @@ Vocal-only multi-effects;checked 2026-10-17. Partial verification;unknown is not
 
 Remaining:exact selector/voice counts,power polarity/revision confirmation,pitch claim,screen/software/memory gaps andqualified hardware offers. Do not label the >300mA/670mA statements mutually contradictory without additional evidence. No sibling specifications substituted.
 
+
+### Critical Mass control combinations
+
+Checked 2026-10-18. The manufacturer-authored 2017 manual cover, model name and controls match this unit; only its mirrored PDF text was read. No file downloaded or physical unit tested.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Controls / Tone brightness | Hold the Tone button and press the footswitch to toggle Normal/Less Bright. The Tone button engages the adaptive EQ, compression, de-essing and gate combination; these brightness options do not establish independently editable effect blocks or writable patches. | [Own manual p3](https://www.handleiding.guide/pdf/817823) |
+| I/O / Mic Control setup | Hold the footswitch while powering up to toggle MP-75 Mic Control. Disable it with condenser microphones to avoid unwanted effect switching. The manual separately states that 24 V phantom is always active; disabling Mic Control is not documented as disabling phantom. | [Own manual p4](https://www.handleiding.guide/pdf/817823) |
+| Processing / group styles | Manufacturer product document says Melodic/Gang styles require no key or scale input. This describes group-vocal operation and does not independently verify automatic pitch correction, interval harmony, exact voice counts or selector-position allocation. | [Official product document, indexed p1](https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf) |
+
 ## VoiceLive Touch 2
 
 Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Reference manual v1.2 targets firmware1.0.02 build37; current firmware unverified. Official PDF endpoints returned502; mirrored manufacturer document bodies used,not generated summaries. Ownership unverified.

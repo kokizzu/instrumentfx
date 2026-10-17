@@ -417,7 +417,7 @@ def main():
         if mode == 'commit-hxe-price':
             message = 'research(line6): qualify HX Effects controller and stereo behavior'
         if mode == 'commit-criticalmass':
-            message = 'research(tchelicon): document VoiceLive 3 Extreme SysEx and global Tone limits'
+            message = 'research(tchelicon): clarify Critical Mass control combinations'
         if mode == 'commit-b21u':
             message = 'research(zoom): qualify B2.1u synth tracking and dry-path routing'
         if mode == 'commit-katana-go':
