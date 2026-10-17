@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Harmony Singer 2 / bass-vocal discovery",
-    "task": "Try manufacturer P0DDV English QSG only if access changes; indexed text already saved. Do not repeat failed Mediavalet/P0DDV fetches without a new path. Continue other exact manufacturer gaps and bass/vocal discovery.",
+    "model": "NUX MLD Bass Preamp + DI NBP-5 candidate",
+    "task": "Inspect seven-page official image-only manual from saved discovery source;resolve eligibility and product-page mic/reverb conflict. Exact GH Music offer saved. Do not increment counts until canonical model and comparison membership are established.",
     "next_models": [],
-    "after_queue": "Technical gaps and lossless migration audit remain incomplete. No downloads/workflows/push."
+    "after_queue": "Continue bass/vocal discovery,technical gaps and lossless migration audit. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -64188,5 +64188,28 @@
       "site:shopee.co.id \"TC\" \"Harmony Singer2\""
     ],
     "result": "New exact offer for existing Harmony Singer 2 recorded;other results adapter-only or nonqualifying. No market-absence inference."
+  },
+  "discovery_nux_mld_nbp5_20261017": {
+    "model": "NUX MLD Bass Preamp + DI NBP-5",
+    "checked_date": "2026-10-17",
+    "status": "Unrecorded candidate; eligibility/manual verification pending; not added to active counts.",
+    "offer": {
+      "url": "https://shopee.co.id/NUX-MLD-Bass-Preamp-DI-NBP5-Bass-Effect-Pedal-Efek-Bass-NBP-5-i.71552895.25810604490",
+      "seller": "GH MUSIC STORE",
+      "shop": "71552895",
+      "item": "25810604490",
+      "region": "Kota Tangerang Selatan",
+      "ask_idr": 2860000,
+      "access": "JS-limited direct body;two-month crawl",
+      "unknowns": "New/used condition,working state,revision,stock,variant,bundle,adapter,warranty,authenticity,shipping/tax/voucher/final total. Relative tomorrow delivery is not stock confirmation;late compensation is not discount."
+    },
+    "sources": {
+      "product": "https://nuxaudio.com/product/mldbasspreampdi/",
+      "manual": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/MelvinLeeDavisBassPreampDI_NBP5/NUX_NBP5_UserManual_English.pdf"
+    },
+    "manufacturer_evidence": "Product describes drive/blend,3-band EQ,noise reduction,IR loading,USB audio. V3 copy specifies3amp models,16IRslots(8factory/8user),48kHz24bit1024sample imports;support separately listsV4.0 firmware. Do not assume V3 library equalsV4.",
+    "source_conflicts": "Product paragraph claims dynamic mic input/reverb,while published port list names instrument input,thru/main,XLR DI,aux/phones,microUSB. Do not assign vocal capability from uncorroborated paragraph. 1024samples at48kHz versus printed20.33ms needs arithmetic/revision qualification.",
+    "manual_access": "Seven-page manufacturer PDF opens but text extraction returns zero lines. No filesystem download or visual inspection claimed.",
+    "next": "Inspect original manual pages using browser PDF screenshots;verify exact multi-effects eligibility,complete ports,controls,power/body,presets and revision scope before promoting candidate."
   }
 }
