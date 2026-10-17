@@ -155,14 +155,14 @@ Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitabil
 
 | Field | Evidence / remaining gaps |
 |---|---|
-| Processing / categories | Analog multi-effects designed by Third Man Hardware, manufactured by Donner: distortion, phaser and echo. Manual transcription describes distortion → phaser → echo. Exact concurrent ceiling and per-category alternatives remain unverified. |
-| Controls | Distortion has volume/gain/tone; echo has three knobs and explicitly no tap. Rev01 transcription enumerates **nine rotary controls and three module on/off footswitches**: distortion TONE/GAIN/VOL; phaser DEPTH/RATE/LEVEL; echo TIME/FEEDBACK/LEVEL. Separate button count unverified. |
+| Processing / categories | Analog multi-effects designed by Third Man Hardware, manufactured by Donner: distortion, phaser and echo. Third Man’s own launch confirms distortion → phaser → echo. Exact concurrent ceiling and per-category alternatives remain unverified. |
+| Controls | Distortion has volume/gain/tone; echo has three knobs and explicitly no tap. Own launch independently confirms all **nine rotary labels**; Rev01 transcription enumerates **three module on/off footswitches**: distortion TONE/GAIN/VOL; phaser DEPTH/RATE/LEVEL; echo TIME/FEEDBACK/LEVEL. Separate button count unverified. |
 | Expression | Built-in/external expression and toe switch unverified. |
 | Dimensions / weight | **355.5 g; 2.5 ×7.7 inches**, axes and height unspecified. Rev01 transcription gives **196 ×64 ×45 mm**, axes unspecified; consistent with rounded storefront footprint, now including a third dimension. Aluminum-alloy housing. |
 | Display | Presence, diagonal, color and touch unverified. |
 | Presets / synth / acoustic | Factory/user/total memory, synth and acoustic simulation unverified. |
-| I/O | Manufacturer storefront specifies ¼-inch audio. Rev01 transcription: **buffer bypass; input2.2 MΩ/output100 kΩ**. Full connector inventory remains pending original diagram inspection. |
-| Power | Own UK specification confirms **9 V DC**; Rev01 transcription specifies **center-negative,45 mA consumption**. Adapter inclusion, battery and USB operation unverified. |
+| I/O | Manufacturer storefront specifies ¼-inch audio. Own launch confirms **buffered bypass**. Rev01 transcription: **input2.2 MΩ/output100 kΩ**. Full connector inventory remains pending original diagram inspection. |
+| Power | Own UK specification confirms **9 V DC**; Rev01 transcription specifies **center-negative,45 mA consumption**. Third Man’s launch specifies an **included adapter**; exact Indonesian bundle, battery and USB operation remain unverified. |
 | IR / NAM / captures | IR loading, native/converted NAM and proprietary captures unverified. |
 | Software | Editors and supported platforms, drivers/updaters and USB audio unverified. |
 | Delay / looper / drums / scenes | Rev01 transcription: echo maximum **600 ms**. Looper, drums and scenes unverified. |
@@ -178,3 +178,7 @@ Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitabil
 ### Triple Threat — manual provenance and access limits
 
 [Manufacturer-linked original manual](https://cdn.shopify.com/s/files/1/0609/6260/3240/files/Donner_Triple_Threat___0_1.pdf?v=1757487687) is linked from the [own UK product](https://uk.donnermusic.com/products/donner-triple-threat-guitar-effect-pedal), but PDF retrieval failed. The [manufacturer manual transcription mirror](https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1) identifies **©2023 Donner LLC, Rev01,2023-09**, exact Triple Threat name and matching three modules/355.5g. Textual control/specification sections are used provisionally; original PDF bytes, diagrams and revision equivalence to the currently linked file were not inspected. Generated diagram descriptions, questions, reviews and unrelated manuals are not adopted. UK SKU EC6793 differs from EU EC7018; neither establishes a distinct hardware revision. No files downloaded.
+
+### Triple Threat — direct collaboration-source confirmation
+
+[Third Man Hardware launch,2024-01-25](https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat), checked2026-10-17: confirms signal order, nine knob labels, buffered bypass, yellow effect-on LEDs and9VDC adapter inclusion. **Standard black and limited yellow** are launch variants; no separate processing architecture is established. The Indonesian listing’s color, edition and adapter bundle remain unknown. No foreign launch price is converted into IDR. This strengthens the controls/routing/bypass evidence without resolving the manual-only polarity/current or connector inventory.
