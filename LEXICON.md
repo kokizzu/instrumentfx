@@ -149,7 +149,7 @@ Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX2
 | Expression | No builtin pedal;¼TRS momentary tap/bypass. MIDI-learn control;analogcontinuousEXP/toe unknown. |
 | Controls | Text-derived **7rotary/0integratedfoot/3buttons**:Input,Output,Mix,Adjust,EffectsLvl/Bal,Program,Variation;Tap,Bypass,Store. |
 | Display | StatusLEDs;screen diagonal/color/touch unknown. |
-| Processing / choices | Single/dual programs;dualparallel,cascade,monosplit,dualmono. Up to2independent effects;categorysubtotals unverified. |
+| Processing / choices | **112single variations+112dual+16SpecialFX=240presets**. Up to2independent effects;dualrouting fixedbyvariation,notfreeblockselection. See breakdown below. |
 | Presets | **240presets+16usermemories**;not256editablepatches. |
 | Synth / acoustic | Pitch/detune documented;synth/acousticconversion unknown. |
 | Dimensions / weight | **483W×45H×102D mm;0.959kg**,published19×1.75×4inches. |
@@ -157,7 +157,7 @@ Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX2
 | Power | **9VAC externaltransformer**;not9VDC. Currentrating,battery/USBpower unknown;DCpolarityN/A. |
 | Software | MIDIlearn/SysEx documented;official fulleditorOS,driver/updater unknown. |
 | IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
-| Looper / drums / live | Looper/drums/scenes unknown;tap/audio-inputtempo/MIDIclock,bypass/mute options. |
+| Looper / drums / live | Looper/drums/scenes unknown;tap/audio-inputtempo/MIDIclock,bypass/mute options. Delayintro5.7s conflicts withdetailedmono5.5s;stereo2.7s. |
 | Instrument scope | Direct guitar input500kΩ;vocal/spoken-voice processing documented. Bass unclassified;noXLR/phantom inferred. |
 
 ### MPX100 — separate IDR hardware offers
@@ -166,3 +166,17 @@ Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX2
 |---|---|---|
 | Used / new | Condition-qualified prices unknown | — |
 | Condition unverified / Imc Genteng Kali,Kota Surabaya | **Rp3.500.000**;index4months,checked2026-10-17;directopencachemiss. **LayananTidakTersedia** means deliveryunavailable,not confirmed soldout. Currentstock,variant,adapter/bundle,warranty,voucher,shipping/tax unknown. | [327115965/24443061649](https://shopee.co.id/orinal-LEXICON-MPX100-reverb-delay-nyesss-i.327115965.24443061649) |
+### MPX100 — bank and routing reconciliation
+
+Checked2026-10-17 against the [original manufacturer guide](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),pp7–8,30–33,45.
+
+| Preset group | Derived count |
+|---|---|
+| Single families | Plate/Gate,Hall/Chamber,Ambience/Room,Tremolo/Rotary,Chorus/Flange,Pitch/Detune:12×8=96;Delay/Echo16;total112 |
+| Dual banks | Flange/Pitch/Chorus withDelay;Delay/Reverb;Flange/Pitch/Chorus withReverb:7×16=112 |
+| Special FX | 16;not16additionalfreeblocks |
+| User | 16memories,initiallycopiedpresets;outside240factorytotal |
+
+Dualvariations1–6 arestereoparallel;7–10cascade;11–14monosplit withstereooutputs;15–16dualmono,oneeffectperoutput. In cascade,EffectsLvl/Bal changes firsteffect/dry feed intothesecond ratherthanmerely balancingparallelreturns.
+
+Introduction’s5.7seconddelay claim conflicts with detailedmono5.5seconds;stereo2.7seconds andsix-voicemultitap areseparate modes. Do not average orsilentlycorrect theclaims. No newfirmware revision inferred.

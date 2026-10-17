@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MPX100",
-    "task": "MPX100 added with original1998guide,9VACpower,headphonesrestriction andqualifiedindexedoffer. Next verifybank/variation breakdown anddualrouting limits;do notborrowMPX110/MXseries.",
+    "task": "MPX100 bankcounts/routing anddelay5.7vs5.5conflict saved. Next resume Shopee brand/series discovery;allmodelsremainpartial. Do notduplicateMPX100offer orborrowMPX110specs.",
     "next_models": [],
     "after_queue": "281partialmodels;all117legacy pathsaccountedfor;no downloads/workflows/push."
   },
@@ -57050,5 +57050,12 @@
     "seller": "ImcGentengKali",
     "access": "index4months;directcachemiss",
     "gaps": "Per-categorycounts,editorOS,screen,current/powersupplyrating,IRNAMcapture,synthacoustic,looperdrums/currentoffers"
+  },
+  "mpx100_bank_routing_20261017": {
+    "source": "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf",
+    "pages": "7–8,30–33,45",
+    "counts": "112single+112dual+16SpecialFX=240factory;16userseparate",
+    "routing": "Dual1–6parallel/7–10cascade/11–14monosplitstereoout/15–16dualmono;cascadebalancefeedqualified",
+    "conflict": "Intro5.7s vsdetailedmono5.5s;stereo2.7s;notreconciledorfirmwareinferred"
   }
 }
