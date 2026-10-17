@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "GT-3 p71 specifications saved. Next verify algorithm categories/simultaneous ceiling and built-in toe behavior; visual counts and other unknowns remain qualified.",
+    "task": "GT-3 Easy Edit restrictions saved;19-button total withdrawn pending physical control reconciliation. Next algorithm catalogue/simultaneous ceiling and panel sharing; do not treat function labels as distinct physical buttons.",
     "next_models": [
       "Zoom 606"
     ],
@@ -54332,5 +54332,11 @@
     "page": "71",
     "finding": "Memory, display, I/O, AC power/current, dimensions and mass saved;2/7/19 controls text-counted with visual pending.",
     "remaining": "Toe support, initial user bank, simultaneous ceiling/category choices, software/IR/NAM, battery/USB and condition-specific prices."
+  },
+  "gt3_easy_edit_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+    "page": "19",
+    "finding": "Onboard Easy Edit and Patch Data restrictions saved. Previous19-button total withdrawn: p71 lists19 functions but p19 names EZ Edit/Variation/Drive/Tone/Mod/Delay; physical sharing needs reconciliation.",
+    "remaining": "Exact total buttons, visual corroboration, toe behavior, simultaneous ceiling/categories and existing unknowns."
   }
 }

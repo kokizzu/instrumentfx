@@ -2247,9 +2247,10 @@ Checked 2026-10-17; partial. Guitar/acoustic-electric multi-effects; bass/vocal 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in expression and CTL; expression function selectable per patch. External shared SUB EXP/SUB CTL1,2 supports EV-5 or FV-300L + PCS-33; toe support pending. | [Manual p5][GT3-M] |
-| K/F/B | **2 rotary / 7 footswitches / 19 buttons**, text-derived: Value and rear Output Level; Number1–4, Bank Up/Down, CTL; 12 effect-select, Exit, Parameter L/R, Write, Manual, Utility, Tuner/Bypass. Power switch separate; visual corroboration pending. | [Manual p71][GT3-M] |
+| K/F/B | **2 rotary / 7 footswitches / button total unresolved**. Specifications enumerate 19 button functions, but the Easy Edit passage names further controls whose physical sharing needs reconciliation. Text-derived inventory: Value and rear Output Level; Number1–4, Bank Up/Down, CTL; 12 effect-select, Exit, Parameter L/R, Write, Manual, Utility, Tuner/Bypass. Power switch separate; visual corroboration pending. | [Manual p71][GT3-M] |
 | Display | **16-character × 2-line backlit LCD**; diagonal, color and touch pending. | [Manual p71][GT3-M] |
 | Processing / categories | Official product says **32 effects**, manual introduction **31**; conflict retained. Simultaneous ceiling pending. COSM preamp, **12 analog drive choices**, speaker/mic simulation. | [Product][GT3-P]; [Manual p5][GT3-M] |
+| Editor / onboard Easy Edit | Hardware editing offers Type and Variation plus four sound adjustments: Drive, Tone, Modulation and Delay. Patch Data preserves corresponding original settings; Variation cannot change when Type is Patch Data. Save with Write before relying on edits. This is onboard editing, not evidence of computer-editor support. | [Manual p19][GT3-M] |
 | Preset memory | **140 user + 200 preset = 340**; initial user contents pending. | [Manual p71][GT3-M] |
 | Synth / acoustic | Guitar synth and acoustic simulation documented; Auto Riff triggers riffs from a note. Acoustic-electric preamp and anti-feedback also documented. | [Manual p5][GT3-M]; [Product][GT3-P] |
 | I/O | Input, L/Mono and R outputs, stereo mini headphones, send/return, shared SUB EXP/SUB CTL1,2, MIDI In/Out; adapter input. | [Manual p71][GT3-M] |
