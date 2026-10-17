@@ -1039,6 +1039,17 @@ Technical layout/power/impedance/conversion/routing facts above: [manufacturer-a
 
 Offers checked2026-10-17. New/used condition,working state,revision,stock,variant,adapter/bundle,warranty,authenticity,voucher,shipping/tax/final total unknown;relative delivery text does not confirm stock. No discount arithmetic or completed-sale claim. No downloads/dependency installation.
 
+
+### Stageman Floor — additional exact offers, 2026-10-18
+
+| Price class / seller | Amount | Exact offer and access limits |
+|---|---:|---|
+| Condition unverified / indiealatmusik | **Rp2.731.000** | [150310054/9310028258](https://shopee.co.id/Nux-Stageman-Floor-Acoustic-Preamp-NAP-5-NAP5-NAP-5-i.150310054.9310028258), Kab. Bantul. Four-month search cache; **Layanan Tidak Tersedia**. Direct open cache miss; unavailable delivery is not a verified sold-out marker. |
+| Condition unverified / Dial Musik | **Rp2.710.000; Habis** | [338305078/11289947971](https://shopee.co.id/Nux-NAP5-Stageman-Floor-Acoustic-Preamp-DI-Efek-Gitar-Original-i.338305078.11289947971), Kota Palembang. Last-month search cache with stale1–4September delivery; direct open cache miss. |
+| Condition unverified / CH MUSIC | **Rp2.350.000** | [195817632/6878725537](https://shopee.co.id/Nux-nap5-nap-5-nap-5-Stageman-Floor-Efek-Gitar-Akustik-Preamp-DI-i.195817632.6878725537), Kota Jakarta Pusat. Search three months old; direct JavaScript-limited text two weeks old. Relative four-hour delivery is not current-stock proof. |
+
+All identify NAP-5 Stageman Floor hardware. New/used condition, working status, selected variant, adapter/bundle, warranty/import region, authenticity, shipping/tax and checkout total remain unknown. No Habis in the CH extract does not prove availability. Late-arrival compensation is not an immediate discount: CH search shows up toRp20.000, direct text up toRp10.000; retain the cache difference without subtraction. Historical asks, not a verified retail range or completed sales.
+
 ## Amp Academy Stomp
 
 Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previously inventoried. Guitar multi-effects eligibility follows independent effects architecture. Bass/vocal suitability and ownership unresolved.
