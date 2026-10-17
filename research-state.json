@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 291,
+  "active_model_count": 292,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 291,
+  "canonical_root_model_count": 292,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "291uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial. GT001ownproduct supports guitar/vocal;noinferredbass.",
+  "count_reconciliation": "292 unique active/root-canonical; 0 legacy-only; 32 brands; 6 excluded; all partial. AD-8 acoustic multi-effects guitar only; regional dimension/input-impedance conflicts retained.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX Cerberus NME-3",
-    "task": "V5 controller operating limits saved. Next fresh Shopee discovery in other brands/series; do not repeat accessory-only queries as coverage proof. Cerberus controls/dimensions/draw still need original readable manual.",
+    "model": "BOSS AD-8",
+    "task": "New acoustic multi-effects profile added with exact sold-out Shopee lead and regional conflicts. Next inspect own manual body/mic and memory/routing sections; commit each useful model before moving on.",
     "next_models": [],
-    "after_queue": "Continue discovery and unresolved model verification; legacy migration still incomplete; no workflows or pushes."
+    "after_queue": "Fresh Shopee discovery and remaining verification; no workflows/push."
   },
   "new_findings": [
     {
@@ -23712,7 +23712,8 @@
       "KATANA:GO",
       "AD-10",
       "ME-5",
-      "GT-001"
+      "GT-001",
+      "AD-8"
     ],
     "CUVAVE": [
       "H8"
@@ -24262,7 +24263,8 @@
       "KATANA:GO",
       "AD-10",
       "ME-5",
-      "GT-001"
+      "GT-001",
+      "AD-8"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -24379,7 +24381,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 241,
+      "record_count": 242,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41351,10 +41353,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 291,
-    "canonical_root_models": 291,
+    "unique_brand_model_pairs": 292,
+    "canonical_root_models": 292,
     "legacy_only_models": 0,
-    "guitar_view_models": 241,
+    "guitar_view_models": 242,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
     "vocal_view_models": 57,
@@ -41414,7 +41416,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Cerberus NME-3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS AD-8."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41450,6 +41452,7 @@
       "BOSS::AD-10",
       "BOSS::ME-5",
       "BOSS::GT-001",
+      "BOSS::AD-8",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -42250,6 +42253,13 @@
     },
     "BOSS::GT-001": {
       "link": "BOSS.md#gt-001",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::AD-8": {
+      "link": "BOSS.md#ad-8",
       "source_files": [
         "BOSS.md"
       ],
@@ -58580,5 +58590,36 @@
     ],
     "result": "No new exact hardware lead qualified. Accessories and unrelated results excluded; not proof of market absence. Cerberus 831454467/42606486723 reopened, same sold-out Rp1900000 cached ask already recorded; not new stock.",
     "manual_access": "Official Cerberus English PDF still inaccessible in web reader; no download; original product text read instead."
+  },
+  "ad8_primary_20261017": {
+    "canonical": "BOSS.md#ad-8",
+    "sources": [
+      "https://www.boss.info/se/products/ad-8/",
+      "https://www.boss.info/jp/products/ad-8/",
+      "https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf"
+    ],
+    "membership": "Guitar/acoustic: body modeling + EQ + reverb + feedback processing; no bass/vocal evidence adopted",
+    "offer": {
+      "url": "https://shopee.co.id/BOSS-AD-8-Acoustic-Guitar-Processor-i.276974853.9817836384",
+      "idr": 4850000,
+      "seller": "Kurnia Musik Jogja",
+      "region": "Kab. Sleman",
+      "stock": "Habis in cached body",
+      "condition": "unknown",
+      "access": "Search2month/direct1month;stale26August delivery;notlive"
+    },
+    "conflicts": [
+      "Manual250x180x60 vs Japan250x190x75mm",
+      "Manual4.7Mohm vs web20Mohm input"
+    ],
+    "remaining": [
+      "Body/mic identities",
+      "Concurrency/reverb taxonomy",
+      "Factory contents",
+      "Polarity",
+      "Display details",
+      "Qualified offers"
+    ],
+    "downloads": false
   }
 }
