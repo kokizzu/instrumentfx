@@ -2421,7 +2421,7 @@ Reverb selections1–9 offer11 character choices;Gate/Reverse instead adjust thr
 | Controls | **4 encoders**;main footswitch+Cross Key switches documented. Exact separate foot/button count unresolved;no visual audit. |
 | Display | **160×128 LCD**,category-colored backlight;diagonal/touch unknown. Backlight color is not full-color pixel proof. |
 | Processing / choices | **1 amp+1 studio ambience+1 other effect**,maximum3. Product lists **23 amps(16 modeled+7 originals),5 studio effects,12 other effects**;see the dated effect-list qualifications below. |
-| Presets | **80 user patch memories**;factory-filled subset unknown. |
+| Presets | **80 editable patch memories**; the version1.00 list documents50 presets (001–050), not an additional50-slot bank. Initial contents of51–80 remain unestablished. |
 | Synth / acoustic | Dedicated synth/acoustic conversion unknown. |
 | Dimensions / weight | **133D×79W×61Hmm;369g without batteries,416g with**. |
 | I/O | Quarter-inch mono L/R inputs;stereo L/MONO/phones output,mono R output;USB-C;DC. Shared phones socket,not separate headphone jack. |
@@ -2452,7 +2452,7 @@ Checked 2026-10-17 from the [effect list][M80-FX], ©2024 Z2I-5353-01, and [IR L
 | Field | Evidence / gaps |
 |---|---|
 | Processing / IR routing | One user IR **or** one studio ambience per patch; selecting the IR bypasses the amp cabinet. Thus the documented three-slot arrangement is amp + (ambience or IR) + other effect, not four independent slots. |
-| Category choices | TOOL: Noise Gate, ZOOM Noise Reduction, Stereo Guitar Graphic EQ (6-band), Stereo Guitar Graphic EQ7, Stereo Parametric EQ, Stereo Low EQ, Stereo High EQ, BPM. DELAY: Delay, Analog Delay, Tape Echo, Stereo Delay. These reconcile the twelve other entries; **BPM is tempo control, not another audio algorithm**. Amp-name enumeration remains pending. |
+| Category choices | TOOL: Noise Gate, ZOOM Noise Reduction, Stereo Guitar Graphic EQ (6-band), Stereo Guitar Graphic EQ7, Stereo Parametric EQ, Stereo Low EQ, Stereo High EQ, BPM. DELAY: Delay, Analog Delay, Tape Echo, Stereo Delay. These reconcile the twelve other entries; **BPM is tempo control, not another audio algorithm**. Amp and ambience names are enumerated below. |
 | Delay / live | Delay and Analog Delay reach4s; Tape Echo2s; Stereo Delay2s independently per side. All four have selectable tails; Analog Delay offers mono/ping-pong. |
 | IR loading / software | Windows/Mac loader adds, deletes and renames IRs. WAV44.1–192kHz accepted; bit depth, maximum length and stereo handling unestablished. App-side IR pool stores copies; dragging to hardware slots transfers them. Names allow20characters. Data-capable USB cable required. This is IR management, not evidence of a complete desktop patch editor. |
 | USB / firmware | [Version1.10 supplement][M80-110], ©2025 Z2I-5744-01: USB MODE selects MIDI+AUDIO or MIDI-only. Some USB-MIDI controllers/converters require the latter, which disables USB audio. The supplement describes this USB change; it does not establish introduction of IR loading in1.10. |
@@ -2460,3 +2460,17 @@ Checked 2026-10-17 from the [effect list][M80-FX], ©2024 Z2I-5353-01, and [IR L
 [M80-FX]: https://zoomcorp.com/media/documents/E_MS-80IRplus_FX-list.pdf
 [M80-IR]: https://zoomcorp.com/media/documents/E_IR_Loader_for_MS-80IRplus.pdf
 [M80-110]: https://zoomcorp.com/media/documents/E_MS-80IRplus_v1.10_Supplementary.pdf
+### MS-80IR+ — named library and editable presets
+
+Checked2026-10-17. [Effect list][M80-FX], ©2024 Z2I-5353-01, printed pp3–8; [patch list][M80-PL], Preset Ver.1.00, ©2024 Z2I-5351-01. This identifies those document revisions, not a guarantee that every later software library is identical.
+
+| Field | Evidence / gaps |
+|---|---|
+| Amp category choices | **16 modeled:** MS45os, MS1959, MS800, FD B-MAN, FD TWIN-R, FD DELUXE-R, FD MASTER, UK30A, BG MARK1, BG MARK3, RECTI DUAL, XTACY BLUE, HW100, ORG120, DZ DRIVE, MATCH30. **7 originals:** KRAMPUS, REDLOOM, VELVET, MUDDY, 7 HEAVEN, POLLEX, WHITE CANVAS. Spacing normalized for comparison; names identify choices, not simultaneously active amps. |
+| Studio category choices | **5:** Woody Studio, Urban Studio, Live Music Club, Concert Hall, Large Chapel. Select one; a user IR replaces this selection. |
+| Presets / factory versus user | The version1.00 patch list documents001–050. The [operation manual][M80-M] allows editing, copying, erasing and creating within80 total locations. Do not add50 factory presets to80 user memories. The initial state of51–80 remains unverified. REVERT PATCH can restore the immediately recalled state or factory state. |
+| Processing / tap tempo | Manual: the BPM module consumes a slot and cannot be added when all three are occupied. Tempo is also editable from MENU without adding BPM. Studio-category effects cannot be deleted; selecting/deleting the amp opens amp selection. These restrictions qualify the general reorder/add/delete descriptions. |
+| Preset saving | AUTO SAVE defaultsON; whenOFF, edits require explicitSAVE PATCH. NEW PATCH is unavailable until an empty location exists. Erasing clears contents rather than removing a memory location. |
+
+[M80-PL]: https://zoomcorp.com/media/documents/E_MS-80IRplus_Patchlist.pdf
+
