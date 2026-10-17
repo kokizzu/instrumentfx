@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-300 original",
-    "task": "Original MG-300 manufacturer memory/count search has not resolved capacity;avoid repeating identical searches. Continue fresh bass/vocal discovery or other models technical gaps;retain original output/calibration and regional qualifications.",
+    "model": "NUX MG-300 MKII",
+    "task": "Resolve factory/user preset capacity,power requirements and firmware-specific category counts using exact manual. US amp counts remain conflicting;36IR count is not amp count. UsedVannessa item41630242050 already saved,Habis.",
     "next_models": [],
     "after_queue": "Bass/vocal discovery and migration audit remain incomplete. No downloads/workflows/push."
   },
@@ -41739,7 +41739,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-300 original."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-300 MKII."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52068,6 +52068,17 @@
       "source": "https://manualzz.com/doc/64472440/nu-x-mg-300-guitar-multi-fx-pedal-instruction-manual",
       "finding": "Version1.0 five output modes and pedal switch-position calibration documented,without inferring physical output count or exact toe behavior.",
       "remaining": "Preset capacity search did not establish manufacturer proof;unofficial72preset user guide not adopted. V4 categories,display,current and qualified offers remain open."
+    },
+    {
+      "model": "NUX MG-300 MKII",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://nuxaudio.com/product/mg300mkii/",
+        "https://www.nux.us/products/mg-300-mkii",
+        "https://shopee.co.id/Jual-efek-gitar-NUX-MG300-MKII-bekas-like-new-i.18622131.41630242050"
+      ],
+      "finding": "Toe switch,color display claim,36factoryIR/24user,stereo60/mono120loop andscene modes saved;US amp-count conflict kept;exact used-title sold-outRp2600000 offer recorded.",
+      "remaining": "Preset capacity,firmware-specific categories,display diagonal/touch,power requirements andcurrent qualified new/live offers."
     }
   ],
   "discovery_cross_brand_bass": {

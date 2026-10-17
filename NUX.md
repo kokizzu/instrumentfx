@@ -154,6 +154,16 @@ Manufacturer manual identity checked in reproduced body:original MG-300,Version1
 | Prices | Used/new IDR ?. Foreign quote retained separately. |
 
 The manual predates GEN2 additions. The original review identified GEN2 firmware3.0.0;that date is not refreshed by this merge or a claim about any owner's installed unit.
+
+### MG-300 MKII — model-specific follow-up,2026-10-17
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / toe / display follow-up | [Global product](https://nuxaudio.com/product/mg300mkii/) explicitly documents physical toe switch and no pedal calibration requirement. [US product](https://www.nux.us/products/mg-300-mkii) describes full-color LCD;diagonal/touch remain unverified. Checked2026-10-17. |
+| IR / factory library clarification | Global page: **36factory IRs=25guitar+8bass+3acoustic;24user slots**,4mic models×3positions;perIR level/highcut/lowcut. These are IR choices,not factory preset counts oramp totals. [Global product](https://nuxaudio.com/product/mg300mkii/),checked2026-10-17. |
+| Looper / scenes | Global page: **60s stereo/120s mono**. Footswitch modes presetup/down,sceneup/down,or scenedown+presetup;Scene3 can be disabled forS1/S2 switching. Loop persistence/UNDO capacity unresolved. [Global product](https://nuxaudio.com/product/mg300mkii/),checked2026-10-17. |
+| Processing / amp count conflict | US page headline36amps but partitions28guitar+3acoustic+8bass=39;later25guitar+1acoustic+1bass=27. No reconciled current amp total inferred. Global36IR count is not resolution of this amp conflict. [US product](https://www.nux.us/products/mg-300-mkii),checked2026-10-17. |
+| Used IDR — seller claim,sold out | **Rp2.600.000**, [Vannessa souv,shop18622131/item41630242050](https://shopee.co.id/Jual-efek-gitar-NUX-MG300-MKII-bekas-like-new-i.18622131.41630242050),Kota Jakarta Utara. Checked2026-10-17,last-month crawl;JS-limited direct body **Habis**. Titlebekas/likenew is seller claim,not inspection. August31delivery stale. Workingstate,regional revision,installedfirmware,stock,bundle/adapter,warranty,authenticity,shipping/tax/voucher/finaltotal unknown. Notavailable stock/completedsale;not originalMG300price. |
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-300 MKII fields
