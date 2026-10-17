@@ -387,7 +387,7 @@ def main():
         if mode == 'commit-rfx1100':
             message = 'research(zoom): inventory RFX-1100 banks and qualify combined algorithms'
         if mode == 'commit-spx990':
-            message = 'research(yamaha): distinguish SPX2000 Classic Freeze variants and sample erasure'
+            message = 'research(yamaha): qualify SPX2000 editor compatibility and backlight conflict'
         if mode == 'commit-spx900':
             message = 'research(yamaha): add SPX900 with original manual and qualified line-level scope'
         if mode == 'commit-mx200':

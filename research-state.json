@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX2000",
-    "task": "SPX2000 CLASSIC Freeze variants and sample-erasure operations saved. Next full category/algorithm counts,editor/driver compatibility and displaybacklight discrepancy; bass still unclassified.",
+    "task": "SPX2000 editor platform/host requirements and five-versus-six backlight conflict saved. Next full category/algorithm counts and driver-specific versions; bass remains unclassified. Then fresh Shopee discovery.",
     "next_models": [],
     "after_queue": "Search Shopee by brand/series for unrecorded eligible multi-effects. Keep MX400 library/bank follow-up pending; no downloads,workflows,push."
   },
@@ -53582,5 +53582,14 @@
     "pages": "78–81",
     "finding": "FreezeAstart/end/inputtrigger differs from FreezeBpitch/basekey/heldpanelplayback. Fixed−14dBauto threshold and sample-erasure operations preserved.",
     "remaining": "Full category/algorithm counts,software compatibility and displaybacklight source discrepancy."
+  },
+  "spx2000_editor_display_followup_20261017": {
+    "sources": [
+      "https://usa.yamaha.com/support/updates/spx2000_edt_mac.html",
+      "https://jp.yamaha.com/support/updates/spx2000_edt_win_64.html",
+      "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf"
+    ],
+    "finding": "Mac2.3.1 standalone10.15/11–14IntelAppleSilicon needs USBMIDI driver;Win2.2.1supported64bit11/10/8.1/8/7/Vista needsStudioManagerV2Host+USBMIDI. JPWin direct failed,indexed text used. Manualfive selectable backlights versusJPspecsix retained.",
+    "remaining": "Full category/algorithm counts,driver-specific versions,bass applicability and qualified live-stock/condition evidence."
   }
 }
