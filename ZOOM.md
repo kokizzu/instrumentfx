@@ -2706,6 +2706,17 @@ Checked2026-10-17 against the [own operation manual][M80-M], Z2I-5301-02, sectio
 
 Panel count remains unresolved: the HTML panel SVG fetch failed and PDF screenshot calls supplied no inspectable image in this session. No visual audit is claimed; do not retry those paths without a new capability.
 
+### MS-80IR+ — electrical and battery specifications
+
+Checked 2026-10-17 against the own HTML manual, Z2I-5301-02. Published ratings, not independent measurements.
+
+| Field | Evidence / gaps |
+|---|---|
+| I/O / electrical ratings | L/R inputs: **−20 dBu rated, 470 kΩ**. Outputs: **+7.2 dBu maximum into ≥10 kΩ**; shared headphone output **20+20 mW into 32 Ω**. Input S/N 122 dB; residual output noise −100 dBu. [Specifications][M80-M] |
+| Conversion / processing | AD/DA **24-bit, 128× oversampling**; internal processing **32-bit**, sample rate 44.1 kHz. Neither the internal-processing label nor the separate USB 32-bit format explicitly establishes floating point. [Specifications][M80-M] |
+| Battery / operating limits | Two AA: NiMH **1900 mAh about 4 h mono / 3.5 h stereo**; lithium **7.5 h / 6.5 h**. Estimates depend on use; not additive to alkaline figures. Set battery type for accurate charge indication. NORMAL backlight can extend runtime. Battery operation requires a cable in L/MONO input. [Battery settings, troubleshooting and specifications][M80-M] |
+| Power / ECO | ECO MODE optionally shuts down after **10 hours unused**; OFF disables it. This is an inactivity threshold, not battery runtime. Default state unverified. [ECO MODE][M80-M] |
+
 ## G1Xnext
 
 G1XN / G1XNext; guitar multi-effects, checked2026-10-17; partial. Not G1Xon or G1X FOUR. The [official manual][G1XN-O] indexes the next-family cover and G1N/G1XN body. Direct PDF reading exceeded the tool limit. [Manufacturer manual text on Manualzz][G1XN-M] has matching contents, G1XN-specific panels and footer **G1N/G1XN-5000-1**; publication date unestablished. Generated overview claims of100effects/68presets are disregarded.

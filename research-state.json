@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer Bass V-AMP",
-    "task": "S2 drylabel/modeling qualification andcabinet/Live routing saved. Continue newShopee bass/vocal series searches andremaining technicalfields.",
+    "model": "Zoom MS-80IR Plus",
+    "task": "Electrical and battery specifications saved. Continue fresh Shopee discovery and unresolved primary fields; do not infer bass suitability from generic processor identity.",
     "next_models": [],
-    "after_queue": "314 active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
+    "after_queue": "314 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41878,7 +41878,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer Bass V-AMP."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom MS-80IR Plus."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52377,6 +52377,13 @@
       "source": "https://www.behringer.com/en/products/0709-AAC",
       "finding": "S2 drylabel explicitlyqualified asamp/cab modeled withoutpostFX;S1extraLiveEQ exclusion,automaticcab selection/override andL1/L2/L3 intendedconnections saved.",
       "remaining": "S3manual/product omission retained;connector/weight conflicts,powerunit ratings,editor,simultaneousceiling andqualifiedoffers unresolved."
+    },
+    {
+      "model": "Zoom MS-80IR Plus",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/manuals/ms-80irplus-en/",
+      "finding": "Added electrical/headphone ratings, converter/processing distinctions, NiMH/lithium mono/stereo estimates and ECO/input-cable battery behavior.",
+      "remaining": "Exact controls, display diagonal/touch, IR format limits, MIDI mapping, current qualified offers; bass suitability remains unclassified."
     }
   ],
   "discovery_cross_brand_bass": {
