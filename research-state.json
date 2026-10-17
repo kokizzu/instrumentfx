@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G5 original",
-    "task": "G5 regular125 plus20Z-Pedal entries explains145manual total; Custom mapping included, not145unique algorithms. Commit before next model. Next full regular category census can distinguish22amp types from cabinet parameters and reconcile product123effects+22 wording; controls/current software/prices also incomplete.",
+    "task": "G5 total arithmetic reconciled as103regular non-amp +20Z +22amp =145; edition identity and full functional subtotals remain unresolved. Commit before next model. New readable manufacturer reproduction is Manualzz with9622lines; avoid repeated inaccessible ManualsLib46/48/49. Next inspect own power/control or substantial gap in another model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56992,6 +56992,14 @@
         "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=59",
         "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=60",
         "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=61"
+      ]
+    },
+    {
+      "model": "Zoom G5 original",
+      "checked_date": "2026-10-18",
+      "finding": "Second manufacturer-manual reproduction matches G5 architecture,297patches and existing numbered list; confirms043–064amps.125regular−22amps=103nonamp; +20Z=123; +22amps=145 provides consistent product-count explanation, not firmware equivalence or distinct algorithm count.",
+      "sources": [
+        "https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual"
       ]
     }
   ],
