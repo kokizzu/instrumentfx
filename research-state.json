@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox QME-50",
-    "task": "Original Matribox AMP/CAB inventory reconciled;continue fresh Shopee discovery and unresolved technical fields using primary sources. Preserve acoustic simulations versus speaker cabinets;no exhaustive coverage claim.",
+    "task": "Original Matribox manual live operation and dedicated external-socket inventory recorded. Next prioritize fresh Shopee brand/series discovery;remaining screen/NAMarchitecture/power/OS/condition gaps stay open.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60716,5 +60716,19 @@
       "site:shopee.co.id \"Boss\" \"GT-10B\" efek"
     ],
     "result": "OnlygenericGT10searchpage/accessories returned;noqualifiednewhardwarelead;notabsenceproof."
+  },
+  "matribox_original_live_operation_20261017": {
+    "source": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433",
+    "revision": "Firmware1.1.0",
+    "pages": "printed4–12",
+    "findings": [
+      "Complete rear inventory contains no dedicated EXP/FS socket;other external methods not established",
+      "Preset/Stomp modes and per-module footswitch assignment",
+      "Preset BPM40–250 and forced FX1/FX2/DLY/MOD sync",
+      "Expression target/range/volume position/calibration",
+      "Tuner435–445Hz withMute/Bypass/Thru;Thru effects retained",
+      "PARA selects preset inlooper"
+    ],
+    "limits": "Text-only review;missing footswitch icons not assigned;no device test."
   }
 }
