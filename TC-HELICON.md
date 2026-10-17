@@ -120,6 +120,17 @@ Original manualv1.0 technical context remains explicit; current firmware is not 
 | Power / regional specification and qualification | Same regional page specifies **12V DC, center-negative, ≥400mA supply; consumption<14W**. Supply capacity is not measured draw. Retain older12V400mA panel marking and2018QSG **>400mA** distinction; regional≥ wording does not resolve that boundary. Battery/USB-powered operation remains unverified. [Regional specification](https://www.electori.co.jp/tc-helicon/vocal/voicelive_play.php). |
 | Phantom / regional specification | Electori specifies **+48V, switchable in Setup**; maximum phantom current remains unknown. Regional evidence supplements earlier condenser-mode documentation; manufacturer technical-page corroboration remains pending. [Regional specification](https://www.electori.co.jp/tc-helicon/vocal/voicelive_play.php). |
 
+
+### VoiceLive Play — recovered v2.1 page text,2026-10-18
+
+| Field | Evidence / limits |
+|---|---|
+| Processing / harmony scales | Exact original v2.1 [p25](https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=25) now readable: manually selected key exposes **six scale settings,Major1/2/3 andMinor1/2/3**. These are scale variants, not additional harmony voices or28-style replacements. This independently corroborates the earlier v2.0 scale observation. |
+| Processing / transducer revision | Original v2.1 [p28](https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=28) now readable: **eight styles—Megaphone,Radio,On the Phone,Overdrive,Buzz Cut,Stack,Tweed,Combo**. Drive applies distortion;Gain controls overall transducer level. FX routing text remains partial and first routing option is absent from extract;retain the separately labelled v2.0 routing evidence. |
+| Processing / delay access | Original v2.1 [p22](https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=22) now readable but partial: numbered filter entries3–13 are present;Tempo explanatory text is absent. This does not certify a complete delay-parameter audit. |
+
+Only original document body used;no generated mirror FAQs, file downloads, visual page audit or installed-firmware verification. Earlier page-access failures remain historical, superseded only for these newly retrieved text portions.
+
 <!-- comparison evidence ends -->
 
 ### Current access and unresolved fields

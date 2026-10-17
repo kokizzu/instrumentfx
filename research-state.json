@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "Continue fresh brand/series searches after saving three additional exact B1 FOUR offers; do not repeat unchanged bass searches as new evidence.",
+    "model": "VoiceLive Play",
+    "task": "Continue exact-model current firmware/USB/power verification or fresh Shopee discovery. Recoveredv2.1pp22/25/28 saved; do not repeat old access failures as current.",
     "next_models": [],
     "after_queue": "329active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -42025,7 +42025,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VoiceLive Play."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -65972,5 +65972,16 @@
     ],
     "qualification": "Direct cached exact hardware; condition/stock/variant/bundle unverified; no new/used range.",
     "discovery": "GT6B/B9.1ut/AX3000B/AX3B searches did not yield exact new-model hardware leads."
+  },
+  "voicelive_play_recovered_v21_20261018": {
+    "pages": [
+      22,
+      25,
+      28
+    ],
+    "source": "https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html",
+    "revision": "v2.1 original manual",
+    "new_evidence": "Six manual scales,eight named transducer styles independently corroborated forv2.1.",
+    "remaining": "Partial routing/tempo extraction, no installedfirmware audit; other technical/market/ownership gaps remain."
   }
 }
