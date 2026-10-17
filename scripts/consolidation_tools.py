@@ -1228,6 +1228,9 @@ def plan(model_id):
     if model_id == 'ampero-mp100':
         zoom = zoom.replace('Four other already-researched Hotone models', 'Three other already-researched Hotone models')
         zoom = zoom.replace('Already-researched Ampero MP-100,Ampero II Stomp', 'Already-researched Ampero II Stomp')
+    if model_id == 've-500':
+        print(research_tools.git('commit', '-m', 'research(boss): resolve VE500 polarity through specified PSA supply'))
+        return
     if model_id == 'ampero-mp350':
         zoom = zoom.replace('Three other already-researched Hotone models', 'Two other already-researched Hotone models')
         zoom = zoom.replace('Ampero II Stomp MP-300,Ampero II MP-350 and Ampero II Stage MP-380 remain', 'Ampero II Stomp MP-300 and Ampero II Stage MP-380 remain')
