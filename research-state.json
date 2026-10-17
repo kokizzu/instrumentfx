@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G3Xn",
-    "task": "G3Xn electrical ratings and three qualified sold-out Shopee observations saved. Next exact controls/completeIOrouting,screenphysicalspecs,power/importlimitations orfreshbrandseriesdiscovery; installedcategory census unresolved.",
+    "task": "G3Xn calibration/tension and preselect/save workflow saved. Continue fresh Shopee brand/series discovery; remaining G3Xn exact controls,installed category census,IOrouting,screenphysicalspecs,power/import andautosave gaps remain explicit.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61154,5 +61154,19 @@
     ],
     "limits": "Notlivestock/range;condition,bundle,warranty,shippingtaxcheckoutunverified;latecompensationnotdiscount",
     "rejected": "HopeMusic703817770/11099808237 mixedG3G3XG3Xn range notexactvariant"
+  },
+  "g3xn_pedal_preselect_20261017": {
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf",
+      "https://zoomcorp.com/media/documents/S_G3n_G3Xn.pdf"
+    ],
+    "access": "Indexed original manufacturer text,Englishp19/p43,Spanishp24",
+    "findings": [
+      "G3Xn poweronMENU min/maxENTER calibration",
+      "Sidehex tensionclockwise tighter;excesslooseningreleasewarning",
+      "PRESELECTbankchangewaitsfootswitchconfirmation",
+      "MENU SAVE destinationYES"
+    ],
+    "limits": "No autosave/discard,gaplessswitching,loop-preservationorphysicalpanelcountinferred"
   }
 }
