@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "SPX2000 useful driver findings saved. Search unrecorded eligible multi-effects by Yamaha/Alesis/Lexicon/Zoom brand-series; compare against245-model inventory before selecting. Preserve SPX2000 algorithm/bass/visual gaps and MX400 inaccessible tables for later.",
-    "next_models": [],
-    "after_queue": "Verify each exact Shopee hardware offer with own manufacturer sources,commit each useful model before next;no downloads,workflows,push."
+    "model": "Yamaha SPX1000",
+    "task": "Verify saved exactGMSBandungShopee hardwareaskRp4400000 with own Yamaha manual/product evidence before adding. Do not borrow SPX900/990/2000 specifications. Condition/stock unknown.",
+    "next_models": [
+      "Zoom RFX-2000 (resolve exact item first)"
+    ],
+    "after_queue": "Continue fresh Shopee discovery,keeping software/accessories excluded. Preserve SPX2000 andMX400technicalgaps. Commit each usefulmodel before next;no downloads,workflows,push."
   },
   "new_findings": [
     {
@@ -53631,5 +53633,52 @@
     ],
     "finding": "WinUSBMIDI3.1.5Win10/11x64,Mac1.5.1macOS11–15/26nativeAppleSilicon;release-indexdatesMay22/Apr20,2026. EditorOSlist remainsseparate.",
     "remaining": "Distinct algorithm count,full elemental simultaneous maximum,bass evidence,screen diagonal/touch and qualified current offers remain unknown."
+  },
+  "discovery_racks_20261017": {
+    "queries": [
+      "site.shopee.co.id Yamaha SPX1000",
+      "site.shopee.co.id Alesis Quadraverb",
+      "site.shopee.co.id Lexicon MPX",
+      "site.shopee.co.id Zoom RFX-2000",
+      "site.shopee.co.id Alesis Midiverb 3"
+    ],
+    "exact_hardware_leads": [
+      {
+        "model": "Yamaha SPX1000",
+        "url": "https://shopee.co.id/Yamaha-SPX1000-i.137354453.25909747809",
+        "seller": "GMS Bandung",
+        "shop_id": "137354453",
+        "item_id": "25909747809",
+        "idr": 4400000,
+        "region": "Kota Bandung",
+        "evidence": "Direct browser text available,last-month indexed body,checked2026-10-17;cachedAug20delivery.",
+        "condition": "Unknown",
+        "stock": "Unknown",
+        "qualifications": "Bundle,working state,voltage,authenticity,warranty,shipping/tax and voucher unverified;Rp10000latearrival compensation is not purchase discount.",
+        "status": "Not in245-model inventory;own manufacturer eligibility/specification verification pending"
+      }
+    ],
+    "incomplete_leads": [
+      {
+        "model": "Zoom RFX-2000",
+        "url": "https://shopee.co.id/chorinorino",
+        "seller": "AR Audio Shop",
+        "idr": 3250000,
+        "evidence": "Shop recommendation only,three-month index;exact item unresolved,shop used-audio description does not prove item condition.",
+        "manufacturer_manual_lead": "https://zoomcorp.com/media/documents/E_RFX2000.pdf"
+      }
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Lexicon-MPX-Native-Reverb-1-VST-Plugin-set-the-standard-for-studio-reverb-for-over-40-years-for-windows-i.686623972.21901302380",
+        "reason": "Softwareplugin,notmultieffectshardware;Rp36192noteligiblehardwareprice"
+      }
+    ],
+    "no_exact_lead_this_pass": [
+      "Alesis QuadraVerb",
+      "Alesis MIDIverb III",
+      "Lexicon MPX hardware"
+    ],
+    "coverage": "Limited discovery pass,not proof of absence or exhaustive coverage;no sources downloaded."
   }
 }
