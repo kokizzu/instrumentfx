@@ -1483,3 +1483,7 @@ research-commit-rp155:
 .PHONY: research-commit-ax30g
 research-commit-ax30g:
 	python3 scripts/research_tools.py commit-ax30g
+
+.PHONY: research-commit-707ii
+research-commit-707ii:
+	python3 scripts/research_tools.py commit-707ii

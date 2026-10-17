@@ -1959,3 +1959,41 @@ Ownmanual accessed aswebtext;no downloads/software/physicalinspection. Englishpo
 [G71-J]: https://zoomcorp.com/media/documents/J_G71ut_0.pdf
 
 Category count checked2026-10-17 against printedpp55–66. WAH11 includesAutoWah,A-Resonance,Booster,Tremolo,Phaser,RingModulate,SlowAttack,PedalVox,PedalCry,P-Resonance,Octave. MOD20 includesChorus,ST-Chorus,Ensemble,Flanger,PitchShift,PedalPitch,Vibe,Step,Delay,TapeEcho,DynamicDelay,DynamicFlang,MonoPitch,HPS,PdlMonoPitch,Cry,ReverseDelay,BendChorus,CombFilter,Air. REVERB11 includes sixreverbs,earlyreflections,multitap,pan-delay,pingpong-delay,autopan. Repeated effect names in differentmodules count as modulechoices;tableexamples onp54 are not extra entries.
+
+## 707II
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**, partial. Separate guitar model from GFX-707 and bass708II. Manufacturer’s own Operation Manual, selected sections inspected; complete algorithm audit pending.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | **Built-in pedal with push-down effect switch**. External expression **?**. [Manual][707-M] |
+| Knobs / footswitches / buttons | **5 / 2 / 15**: DRIVE, three parameter knobs, rear OUTPUT; two footswitches;15 labelled front keys. Power and toe switch additional. [Manual][707-M] |
+| Display | **Six-position alphanumeric LED plus two-position seven-segment LED**. Diagonal/color/touch **?**. [Manual][707-M] |
+| Dimensions / weight | **249 W ×195 D ×57 H mm; 860g without batteries**. [Manual][707-M] |
+| Blocks / category choices | **Six modules +amp simulator +ZNR**; **74 types**, including33drive choices. Category subtotals **?**. [Manual][707-M] |
+| Memory | **60 user +60 preset =120 patches**. Card storage additional; factory-filled user subset **?**. [Manual][707-M] |
+| Synth / acoustic | Dedicated synthesis/acoustic algorithms **?**. |
+| IR / NAM / captures | User IR, native NAM, converted NAM and proprietary captures **?**. |
+| I/O | Quarter-inch mono guitar, stereo mini AUX, combined quarter-inch stereo line/phones, SmartMedia slot, DC input. [Manual][707-M] USB/MIDI/audio interface **?**. |
+| Power / battery / USB | **9V DC center-negative300mA AD-0006**, or **four AA alkaline**, approximately11hours; cannot recharge. Barrel size, measured draw and USB power **?**. [Manual][707-M] |
+| Editing / platforms | Onboard editing documented. Computer/mobile editor, drivers/updaters **?**. [Manual][707-M] |
+| Practical features | Sampler **6seconds internal**, longer card sampling; **MOD/REV disabled while sampling**. **60 rhythm patterns**, tuner, hold delay. Full looper, scenes, spillover **?**. [Manual][707-M] |
+
+### 707II — IDR asking observations
+
+| Condition / ask | Exact hardware evidence and qualifications |
+|---|---|
+| **Used Rp500,000** | [joyokusumowijoyo, item27879131/28968736038][707-O], Kabupaten Majalengka. Title explicitly bekas/second/normal; working condition is seller wording, not inspection. **Habis**, cached last month, delivery26–27August. Exact page retrieved. Bundle, adapter, SmartMedia, warranty and present stock **?**. Late-delivery voucher up to Rp10,000 not deducted. |
+| New IDR | **?**; no qualified new offer established. |
+<!-- comparison evidence ends -->
+
+### 707II — provenance and remaining work
+
+[Manufacturer product page][707-P] explicitly identifies discontinued707II. [Own English manual][707-M],40pages: controls pp.4–5; memory/pedal pp.8–9; specification p.39. No revision date established from inspected sections. Source counts distinguish stored algorithms from concurrent modules and sample memory from patch memory. Fifteen front keys count MODULE and TYPE arrow pairs separately; rear power toggle and pedal push-down switch are additional. Full per-module choices, synth/acoustic functions, sampler/card limits, hold-delay behavior and current software evidence remain incomplete. No bass/vocal membership inferred. No dependencies, software or manual files downloaded locally.
+
+Earlier mixed HopeMusic707ii/708ii/GFX-3 shop ask is not assigned to this exact model. The reused Zoom707II URL previously indexed as POD HD500X remains rejected as identity-ambiguous; it is not a second corroborating707II offer.
+
+[707-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/707ii/
+[707-M]: https://zoomcorp.com/media/documents/E_707II.pdf
+[707-O]: https://shopee.co.id/efek-digital-gitar-elektrik-zoom-707-ii-bekas-second-normal-i.27879131.28968736038
