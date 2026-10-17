@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS AD-10",
-    "task": "Initial287threcord fromownproduct andexactShopeeoffers. Next readownEnglishmanual via originalPDF/identifiedmirror;verifycontrols,power,routing andmemory. Do not borrowAD2/AD8. Commit before nextmodel.",
+    "task": "Officialeng04_W manual nowread;output/input2bypass,memorypickup,USBdirectout andEXPtargets saved. Next resolve exactrotary/buttoncount andpower fromownpanel/adapterdocumentation;named3footswitchesconfirmed. Preservefactoryfilled/display/importgaps.",
     "next_models": [],
     "after_queue": "287partialmodels;no downloads/workflows/push."
   },
@@ -57691,6 +57691,21 @@
       "Full editor",
       "User loading",
       "Conditionqualifiedstock"
+    ],
+    "downloads": false
+  },
+  "ad10_manual_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf",
+    "identity": "eng04_W;14pages;©2017Roland",
+    "pages": "2–3,5,9–13",
+    "routing": "IndependentXLR/LINE MIX,PREPOST,CH;input2FXbypassretainslooper+ambience",
+    "memory": "10editable;startupconfigurable;per-effectmanual/memory",
+    "usb": "DirectoutputoffsupportsDAWreturn;dedicateddriver;notfull editorproof",
+    "remaining": [
+      "Voltage/polarity",
+      "Exactrotary/buttoninventory",
+      "Factory-filledcount",
+      "USBpower"
     ],
     "downloads": false
   }

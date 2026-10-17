@@ -2427,10 +2427,25 @@ Acoustic-electric guitar multi-effects/preamp, checked2026-10-17; partial. [Manu
 | Condition unverified / Meisa Musik, Kota Bekasi | **Rp6,520,000**;shop16447862/item25177217216. Four-month search cache;direct reader failed2026-10-17. | [Shopee][AD10-S1] |
 | Condition unverified / Seven Stereo Music & Audio Store, Kota Bandung | **Rp9,350,000**;shop16879370/item4702307945. Direct reader returned one-month cache2026-10-17 with stale23August delivery. | [Shopee][AD10-S2] |
 
-Neither ask proves live stock or condition. Working state,selectedvariation,bundle,adapter,warranty,appliedvoucher,shipping/tax unknown. Late-arrival compensation is not a discount. No downloads or visual inspection. [Official manual index][AD10-M] reached;PDF target not exposed in reader,so exact controls,routing restrictions,power andinitial memory remain pending.
+Neither ask proves live stock or condition. Working state,selectedvariation,bundle,adapter,warranty,appliedvoucher,shipping/tax unknown. Late-arrival compensation is not a discount. No downloads or visual inspection. The initial [manual index][AD10-M] did not expose the PDF target; the subsequent direct official PDF reading is documented below.
 
 [AD10-P]: https://www.boss.info/global/products/ad-10/
 [AD10-M]: https://www.boss.info/global/support/by_product/ad-10/owners_manuals/b6d45d4e-a7c4-4699-878b-9ef26113dbb9/
 [AD10-S1]: https://shopee.co.id/Boss-AD10-AD-10-Acoustic-Preamp-i.16447862.25177217216
 [AD10-S2]: https://shopee.co.id/BOSS-AD10-AD-10-AD-10-ACOUSTIC-GUITAR-PROCESSOR-i.16879370.4702307945
+
+### AD-10 — manual routing and memory qualifications
+
+Checked2026-10-17 against [official English manual][AD10-PDF], file eng04_W,14pages, ©2017 Roland; printed pp2–3,5,9–13.
+
+| Field | Verified behavior / gaps |
+|---|---|
+| I/O / output routing | XLR andLINE independently select MIX,PRE/POST,orCH. MIX includes USB playback; PRE/POST sends pre-effectsL/processedR; CH sends input2L/input1R. Ambience can feed both output groups,either,or neither. |
+| Processing / input2 bypass | Input2 FX BYPASS retains **looper and ambience**. Mono send/return;direct mixing selectable when RETURN is connected. Not a fully dry bypass. |
+| Factory / user memory | Ten editable effect/setup memories. Startup defaultsManual,configurable toMemory orMemoryStomp. Per-effect memory/manual selection allows some controls to remain at knob positions across recalls. Factory-filled count unknown. |
+| Preset controls / saving | HoldEXIT+MEMORY,confirmMEMORY,choose destination,confirmagain. Recalled knobs use pickup behavior: value changes only after crossing the stored position. |
+| USB audio / monitoring | USB direct-outOFF sends unit sound only tocomputer;host-processed return can feed outputs. ON restores local output. Dedicated driver required;not evidence of a full editor orUSB power. |
+| Expression / live | External EXP targets output,ambience,orloop level. Three named footswitches: BOOST,DELAY,TUNER&MUTE;exact rotary/button inventory still pending. |
+
+[AD10-PDF]: https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf
 
