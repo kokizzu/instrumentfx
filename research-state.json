@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "AMP/PRE AMP inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery",
+    "task": "AMP/PRE AMP Clean/Drive/Hi Gain inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62689,5 +62689,42 @@
     ],
     "limits": "Later Feedback delta separate; no current installed total or simultaneous guarantee",
     "next": "AMP/PRE AMP inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery"
+  },
+  "mp350_bass_power_pre_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed37–38,54–55",
+    "bass_amp": [
+      "Ampage Classic",
+      "Ampage Flip",
+      "Voxy Bass",
+      "Tang Bass",
+      "Messe Bass 400"
+    ],
+    "bass_preamp": [
+      "Ampage Classic",
+      "Ampage Flip",
+      "Alchemy Pre",
+      "Voxy Bass",
+      "Tang Bass",
+      "Messe Bass 400"
+    ],
+    "power_amp": {
+      "count": 1,
+      "tube_modes": [
+        "6L6",
+        "EL34",
+        "EL84",
+        "6V6",
+        "KT66",
+        "KT88",
+        "6550"
+      ]
+    },
+    "acoustic_preamp": [
+      "Acoustic Pre"
+    ],
+    "conflict": "TangBass PREheading versus TangR100 prose with AD200B basis; no extra entry",
+    "limits": "All mono; subsection census not complete current AMP/PREtotal; tube modes not algorithm count or hardware tubes",
+    "next": "AMP/PRE AMP Clean/Drive/Hi Gain inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery"
   }
 }

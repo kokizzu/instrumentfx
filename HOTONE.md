@@ -610,6 +610,20 @@ Checked 2026-10-17, original list printed pp64–73. [Source][MP350-E11].
 The separately recorded firmware1.3.0 Feedback addition remains a delta; current complete MOD count and retention are unverified.
 
 
+### MP-350 — bass, power and acoustic amp subsections, firmware 1.1.0-JP
+
+Checked 2026-10-17, original list printed pp37–38,54–55. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / bass AMP and PRE AMP | **AMP Bass5**: Ampage Classic, Ampage Flip, Voxy Bass, Tang Bass, Messe Bass 400. **PRE AMP Bass6**: Ampage Classic, Ampage Flip, Alchemy Pre, Voxy Bass, Tang Bass, Messe Bass 400. All mono I/O. Alchemy Pre explicitly suits guitar too; it is not an additional full AMP entry in this subsection. |
+| Category choices / Power Amp | **One mono algorithm**, with seven Tube Type settings: 6L6, EL34, EL84, 6V6, KT66, KT88, 6550. Depth, Presence, Sag, B+ Response, Negative FB and Output are parameters. Tube choices are not seven additional algorithm entries or physical output tubes. |
+| Synth / acoustic preamp distinction | **Acoustic Pre** is one mono PRE AMP model based on AER Colourizer 2; acoustic tone refinement, not established electric-to-acoustic conversion. Tone Mix0 bypasses tone controls; EQ Gain50 is neutral; Enhancer minimum disables enhancement. |
+| Processing / source naming conflict | PRE AMP Tang Bass description instead says **Tang R100**, while identifying Orange AD200B. Retain heading and conflicting prose; do not count a second model. These subsection counts are not complete AMP/PRE AMP totals. |
+
+Later AC Mix/AC MG/PZ additions remain separately firmware-qualified. Clean, Drive and Hi Gain inventories still need transcription.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
