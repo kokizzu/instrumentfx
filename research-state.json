@@ -29,11 +29,11 @@
   },
   "cursor": {
     "model": "BOSS KATANA:GO",
-    "task": "KATANA:GO StageFeel/tuner/systemhistory saved. Next derive full category choices and chain limits from own parameter/ToneStudio guides;retain physicalrevision and price gaps.",
+    "task": "Guitar BOOSTER 23 alternatives and parameter ranges saved. Next audit MOD/FX and remaining category totals plus Tone Studio chain limits;retain revision and price gaps.",
     "next_models": [
       "Fender Mustang Micro original"
     ],
-    "after_queue": "Freshdiscovery;retain270recordgaps;nodownloads/workflows/push."
+    "after_queue": "Fresh discovery;retain 271 record gaps;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -56018,5 +56018,12 @@
     ],
     "saved": "4StageFeelmodes/tuneroperation/referencepitch;1.04appearancecompatibility,1.02resetprocedure/boot/batterybughistory.",
     "remaining": "Fullcategorychoices/chainceiling,wirelessassignments/USBchannels/import/editorOS,batterycapacity/sellergeneration/currentconditionprices."
+  },
+  "katana_go_booster_checkpoint_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf",
+    "pages": "7–10",
+    "guitar_booster_choices": 23,
+    "qualification": "Alternative selections;not simultaneous effects. No downloads or execution.",
+    "remaining": "MOD/FX and other categories, full chain limits, physical revisions and qualified condition-specific prices"
   }
 }
