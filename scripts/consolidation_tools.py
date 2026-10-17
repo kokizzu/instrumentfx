@@ -2058,7 +2058,7 @@ def commit_preservation_repairs():
     comparison_views.verify_views()
     research_tools.git('add','--',*sorted(changed))
     print(research_tools.git('diff','--cached','--stat'))
-    print(research_tools.git('commit','-m','audit: report whole-body preservation coverage explicitly'))
+    print(research_tools.git('commit','-m','audit: record shared-row preservation and link coverage'))
 
 if __name__ == '__main__':
     if sys.argv[1:] == ['commit-preservation-repairs']:

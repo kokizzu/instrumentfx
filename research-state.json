@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Preservation audit",
-    "task": "Inspect remaining shared-source union/link audit coverage and source-retirement criteria; continue technical model gaps and fresh eligible Shopee discovery.",
+    "task": "Inspect source-retirement and redirect verification coverage against all remaining legacy paths; continue fresh eligible Shopee discovery and per-model technical gaps.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -63014,5 +63014,52 @@
     "scope": "Registered complete-source-body-v1 entries: pinned source hashes and normalized entire bodies between destination markers; compact reference check only guitar-compact prose matches in MULTI-EFFECTS.",
     "limits": "Does not audit all shared-row unions, every legacy file, external availability, current technical accuracy, or establish full migration completion. Other ledger entries require their own verification kind, not presumed failures.",
     "next": "Inspect remaining shared-source union/link audit coverage and source-retirement criteria; continue technical model gaps and fresh eligible Shopee discovery."
+  },
+  "shared_row_preservation_audit_20261017": {
+    "checked": "2026-10-17",
+    "base_commit": "b272546",
+    "model_row_entries": 91,
+    "registered_fields": 1413,
+    "source_count": 14,
+    "union_targets": [
+      "make consolidation-audit-floorboard-union",
+      "make consolidation-audit-nux-union",
+      "make consolidation-audit-bass-union",
+      "make consolidation-audit-vocal-union",
+      "make consolidation-audit-advanced-union",
+      "make consolidation-audit-cube-union",
+      "make consolidation-audit-owned-union",
+      "make consolidation-audit-market1-union",
+      "make consolidation-audit-market2-union",
+      "make consolidation-audit-market3-union",
+      "make consolidation-audit-market4-union",
+      "make consolidation-audit-market5-union",
+      "make consolidation-audit-market6-union",
+      "make consolidation-audit-market7-union"
+    ],
+    "link_targets": [
+      "make consolidation-audit-nux-links",
+      "make consolidation-audit-bass-links",
+      "make consolidation-audit-vocal-links",
+      "make consolidation-audit-advanced-links",
+      "make consolidation-audit-cube-links",
+      "make consolidation-audit-owned-links",
+      "make consolidation-audit-market1-links",
+      "make consolidation-audit-market2-links",
+      "make consolidation-audit-market3-links",
+      "make consolidation-audit-market4-links",
+      "make consolidation-audit-market5-links",
+      "make consolidation-audit-market6-links",
+      "make consolidation-audit-market7-links"
+    ],
+    "result": "All targets passed; no missing registered model fields, shared prose groups or external URLs. Link audits reported no missing outgoing links.",
+    "scope": "Pinned historical shared sources and registered retained facts, plus shared prose/source URLs across root destination unions. Floorboard union includes source URLs and three model manifests; no dedicated floorboard link target was run.",
+    "aggregate_entry": {
+      "destination": "HEADRUSH.md",
+      "commit": "b30cec0c6a31cb1dd638fa10d250489c7186d458",
+      "interpretation": "First ledger entry is an earlier Core/Flex consolidation summary, not an additional model-row or whole-body preservation manifest. Later per-model manifests cover their respective source rows/bodies."
+    },
+    "limits": "Union presence does not prove optimal model ownership of every shared paragraph, current technical correctness, exhaustive legacy coverage or deletion readiness. Incoming compatibility links remain; no source retired.",
+    "next": "Inspect source-retirement and redirect verification coverage against all remaining legacy paths; continue fresh eligible Shopee discovery and per-model technical gaps."
   }
 }
