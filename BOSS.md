@@ -198,6 +198,14 @@ Original source URLs: [source](https://www.boss.info/global/products/me-90b/spec
 | IR loading / conversion | IR Loader converts selected IR data before loading USER1–3. This is **speaker-IR conversion**, not NAM conversion or capture support. The inspected guide does not publish accepted file formats, sample rates, bit depths or sample/time limits; those remain unknown. | [Tone Studio guide][ME90B-B] p12 |
 | Memory / computer library | A liveset holds at most36 memories; Tone Studio holds up to50 livesets, with further sets exported to computer files. Liveset file extension **.tsl**. Export to the unit does not restore memories beyond36. These computer-library limits do not expand the pedal’s36user+36preset onboard memories. | [Tone Studio guide][ME90B-B] pp6–8 |
 
+### ME-90B — parameter-guide category audit, 2026-10-18
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Category choices | COMP/FX1:11 numbered choices +2 replacements. FILTER/FX2:11+5. DRIVE/SYNTH:11+4. DLY/REV:11+6, including PHRASE LOOP among the11. PREAMP/EQ:11+7, with EQ among the11. Replacements occupy the last numbered position and are selected per memory through Tone Studio; they are not extra simultaneous blocks. | [Parameter guide][ME90B-P] pp2,4,7,9,12 |
+| MOD / pedal choices | MOD:6 selector groups, containing13 subtype choices before7 replacement alternatives; slicer’s20 patterns are not20 independent algorithms. PEDAL FX:11 positions, including control targets for other sections; BLEND is a separate direct-mix function. These counting conventions do not reconcile the advertised61/93 totals into a unique algorithm census. | [Parameter guide][ME90B-P] pp13–17 |
+| Synth / acoustic distinction | **AC BASS** explicitly simulates acoustic bass, separately from the ACOUSTIC preamp. SYNTH SAW/SQUARE require single-note playing with other strings muted. Three optional GTR preamp types are documented; instrument-view eligibility needs a separate review. | [Parameter guide][ME90B-P] pp2,7,12 |
+
 [ME90B-S]: https://www.boss.info/global/products/me-90b/specifications/
 [ME90B-M]: https://static.roland.com/assets/media/pdf/ME-90B_Reference_eng01_W.pdf
 [ME90B-P]: https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Continue fresh Shopee brand/series discovery or ME-90B parameter-guide category inventory. Original PC guide editor>=1.03 and liveset/IR conversion limits saved; accepted IR file constraints remain unknown. Do not confuse editor threshold with wireless guide.",
+    "task": "Review ME-90B guitar comparison eligibility: own parameter guide p12 explicitly lists GTR CRUNCH/HI GAIN/MODDED optional preamps alongside independent multi-effects. Category/subtype counts and AC BASS simulation saved; no61/93 unique-total reconciliation. Then resume fresh Shopee discovery.",
     "next_models": [],
     "after_queue": "322 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -65569,5 +65569,47 @@
     "revision": "©2024 Roland revision01,14pages",
     "findings": "Editor requires ME-90B>=1.03, not wireless requirement. IR conversion before USER1–3 load, no format/rate/depth/length published in inspected guide. Computer liveset max36,50livesets,tsl files; onboard72 unchanged.",
     "remaining": "IR file constraints, exact wireless guide, USB channels/bitdepth, category inventory, current OS/editor matrix, supply details, qualified offers."
+  },
+  "me90b_category_audit_20261018": {
+    "checked_date": "2026-10-18",
+    "source": "https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf",
+    "revision": "©2024 Roland01,19pages",
+    "counts": {
+      "COMP_FX1": {
+        "numbered": 11,
+        "replacements": 2
+      },
+      "FILTER_FX2": {
+        "numbered": 11,
+        "replacements": 5
+      },
+      "DRIVE_SYNTH": {
+        "numbered": 11,
+        "replacements": 4
+      },
+      "DLY_REV": {
+        "numbered": 11,
+        "replacements": 6,
+        "includes_looper": true
+      },
+      "PREAMP_EQ": {
+        "numbered": 11,
+        "replacements": 7,
+        "includes_EQ": true
+      },
+      "MOD": {
+        "groups": 6,
+        "subtypes": 13,
+        "replacements": 7,
+        "slicer_patterns_not_algorithms": 20
+      },
+      "PEDAL_FX": {
+        "positions": 11,
+        "includes_control_targets": true
+      }
+    },
+    "qualification": "Per-memory last-position replacements, not simultaneous extra blocks; no unique61/93 reconciliation claimed.",
+    "sound": "AC BASS explicitly instrument simulation distinct from ACOUSTICpreamp. Saw/Square single-note. Optional GTRpreamp types justify next instrument-view eligibility review.",
+    "remaining": "Uniquealgorithm census, guitar membership review, visualcontrols, IRconstraints, USBformats, wirelessguide, supplydetails andqualifiedoffers."
   }
 }
