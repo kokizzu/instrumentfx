@@ -381,6 +381,16 @@ Checked2026-10-16;cached exact hardware asks,not current checkout/stock or condi
 
 Remaining:variation voice ceiling;panel/display proof;USB power/channels/rates/driverOS;DC polarity;imports;used-condition price,current seller stock and bundle verification. No legacy source deleted.
 
+### VE-2 — current driver support
+
+Checked 2026-10-18. Support pages were read only; no driver downloaded or installed.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Editor / Windows driver | **1.0.1 for Windows11 and Windows10 64-bit**; Windows10 32-bit remains1.0.0. December2021 update added Windows11 support. ARM PCs, virtual Windows, Windows on Mac and Windows10 Mobile are explicitly unsupported. BOSS describes automatic online driver delivery, with manual installation as fallback. These are driver claims, not a parameter editor. | [Official Windows driver page](https://www.boss.info/global/support/by_product/ve-2/updates_drivers/a1020981-bb6e-4e63-b1b3-663cdc29b62d/) |
+| Editor / macOS driver | Official listing names **1.0.5 for Sonoma14.x and later**, directing users to the current compatibility table for exact support. The US regional page opened; global detail returned cache miss. No unrestricted future-OS or CPU compatibility inferred from the title. | [Official regional driver page](https://www.boss.info/us/support/by_product/ve-2/updates_drivers/b86ca8dd-e332-4a86-a590-32c810adfd3c/) |
+| Editor / macOS compatibility status | Table updated2026-09-16: VE-2 Hardware & Driver is **Yes(Download) for macOS15/26; Under Testing for27**. Exclusive Application is a dash for all three, not evidence of an editor. BOSS defines Download as requiring dedicated software; this is published compatibility, not a local hardware test. | [Official compatibility table](https://www.boss.info/global/support/support_news/25090811m1/) |
+
 ## VE-500
 
 Vocal multi-effects with guitar/MIDI-guided harmony and vocoder. Consolidated/researched2026-10-16;partial verification.
