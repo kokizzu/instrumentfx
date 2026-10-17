@@ -2104,3 +2104,40 @@ Next: visual control corroboration, simultaneous-capacity accounting, complete c
 [M50B-E]: https://support.roland.com/hc/ja/articles/4404893596059
 [M50B-TE]: https://support.roland.com/hc/en-us/articles/201952659-ME-50B-Using-the-Tuner
 [M50B-TJ]: https://support.roland.com/hc/ja/articles/4404885589147
+
+## GT-5
+
+Checked2026-10-17;partial. Guitar multi-effects; bass/vocal suitability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in expression;two EXP/CTL sockets for external pedals. Toe switch unverified. | [Product][GT5-P];[Polish manual pp7–8,58][GT5-M] |
+| K/F/B | Separate rotary,footswitch and button counts pending panel corroboration. | Unresolved |
+| Display | Backlit16×2 LCD;diagonal,color/touch unverified. | [Polish manual p58][GT5-M] |
+| Processing / categories | Up to13 simultaneous effects;programmable order;28effects total. Per-category choices and shared restrictions pending. COSM amp/speaker/mic modeling. | [Product][GT5-P] |
+| Preset memory | 150presets+100user patches=250locations;initial user contents unverified. | [Product][GT5-P] |
+| Synth / acoustic | Monophonic HRM synth-like processing and acoustic-guitar simulation documented;not evidence of polyphonic synthesis. | [Product][GT5-P] |
+| I/O | Guitar input;L/MONO+R outputs;stereo mini-jack headphones;send/return;EXP/CTL1+2;MIDI IN/OUT. Connector dimensions beyond stated headphone format pending English-manual cross-check. | [Polish manual p58][GT5-M] |
+| Power / battery / USB | Regional117/230/240VAC,14W;not established universal voltage. DC polarity inapplicable to listed AC supply. Memory backup battery is not operating battery power. USB operation unverified. | [Polish manual pp4,58][GT5-M] |
+| Dimensions / mass | 520×221×113.5mm;4.7kg. Axis labels pending English cross-check. | [Polish manual p58][GT5-M] |
+| IR / NAM / capture | IR import,native/converted NAM and proprietary capture loading unverified. | Unresolved |
+| Editor / platforms | Official editor and current OS compatibility unverified;MIDI support alone does not establish an editor. | Unresolved |
+| Looper / drums / live | Sound-on-sound recording,auto fade,tuner and Quick Settings documented. Recording duration,drums,scenes and spillover unresolved. | [Product][GT5-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unverified. | — |
+| New | Unverified. | — |
+| Condition-unverified historical ask | **Rp1.700.000**,Deri_endrianto05,shop205502204/item41251758346,Kab.Pangandaran. Indexed3monthsago,marked **Habis**;checked2026-10-17. Direct open failed Cache miss;Jul7–9 delivery is historical. | [Exact Shopee hardware][GT5-O] |
+
+<!-- comparison evidence ends -->
+
+Working state,authenticity,bundle,mains variant,warranty,shipping,tax and voucher eligibility unverified. Late-arrival Rp10000 voucher is compensation,not a hardware discount. Polish translation is hosted by Roland and identifies the official distributor;English source and any translation conflicts still need checking. No visual inspection or filesystem download claimed.
+
+[GT5-P]: https://www.boss.info/fr-ca/products/gt-5/
+[GT5-M]: https://www.roland.com/RolandComSite/media/pl/media/pdf/GT-5.pdf
+[GT5-O]: https://shopee.co.id/EFEK-GUITAR-boss-GT-5-i.205502204.41251758346
