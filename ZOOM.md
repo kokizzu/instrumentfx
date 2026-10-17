@@ -747,6 +747,16 @@ Checked2026-10-17 via [own support index](https://zoomcorp.com/en/us/multi-effec
 | IDR / additional exact hardware offer | **Rp2,899,999**, [cveri accessories,shop785734870/item12597113040](https://shopee.co.id/Zoom-B1-Four-Bass-Multi-Efek-Processor-Pedal-Original-Multi-Efek-Bass-i.785734870.12597113040),KotaJakartaPusat. Direct web-reader text:crawled3weeksago;initial search reported2months,access ages differ. Condition,new/used,working state,selected variation,adapter/bundle,warranty,shipping/tax andcheckout stock unknown. NoHabis inextract is not live-stock confirmation. Relative tomorrow delivery stale;late-arrival compensation up toRp10,000 is not purchase discount. Exact B1 FOUR,not B1X FOUR;separate observation,not a retail range. |
 
 
+### B1 FOUR — additional exact hardware asks,2026-10-18
+
+| Price class / seller | Amount | Exact item / access qualifications |
+|---|---:|---|
+| Condition-unverified / jayapratamamusic | **Rp2,100,000** | [969726322/20395707192](https://shopee.co.id/Zoom-B1-Four-Bass-Multi-Effect-Processor-Original-Efek-Gitar-i.969726322.20395707192),Jakarta Pusat. Search cache3months;direct reader5months. Relative tomorrow delivery,not stock confirmation. |
+| Condition-unverified / TOKOAUDIOPRO.COM | **Rp2,900,000** | [253483262/9646431759](https://shopee.co.id/Efek-Gitar-Bass-Zoom-B1-FOUR-Bass-Multi-effects-Processor-i.253483262.9646431759),Jakarta Pusat. Search/direct2month cache;relative tomorrow10:00 cutoff does not certify current delivery. |
+| Condition-unverified / rahmattofa | **Rp2,351,000** | [915179248/20696277281](https://shopee.co.id/PROMO-ZOOM-B1-FOUR-BASS-MULTI-EFFECTS-PEDAL-ORIGINAL-i.915179248.20696277281),Kab.Purworejo. Search/direct2month cache;22–23August delivery stale. |
+
+All three are distinct exact B1 FOUR listings, not B1X FOUR. Direct pages remain JavaScript-limited; condition,working state,selected variation,adapter/bundle,warranty,shipping/tax andcheckout stock unverified. No explicit Habis in these extracts proves nothing about live availability. Late-arrival compensation up toRp10,000 is not a purchase discount. These asks do not establish a condition-verified new or used range.
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.

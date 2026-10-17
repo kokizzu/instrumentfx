@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Shopee discovery",
-    "task": "Continue other brand/series searches. Hope Music Nu lead remains unresolved; do not repeat unchanged routes or promote G1Xon variant price.",
+    "task": "Continue fresh brand/series searches after saving three additional exact B1 FOUR offers; do not repeat unchanged bass searches as new evidence.",
     "next_models": [],
-    "after_queue": "329active; technical,market,ownership,migration incomplete. No downloads/workflows/push."
+    "after_queue": "329active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -65958,5 +65958,19 @@
     "display_model_id": "232660906118",
     "access": "Exact selected URL cache miss; clean exact URL inaccessible.",
     "qualification": "Same existing offer; unresolved variations, condition and bundle; not promoted to qualified price."
+  },
+  "b1four_additional_offers_20261018": {
+    "items": [
+      "969726322/20395707192",
+      "253483262/9646431759",
+      "915179248/20696277281"
+    ],
+    "asks_idr": [
+      2100000,
+      2900000,
+      2351000
+    ],
+    "qualification": "Direct cached exact hardware; condition/stock/variant/bundle unverified; no new/used range.",
+    "discovery": "GT6B/B9.1ut/AX3000B/AX3B searches did not yield exact new-model hardware leads."
   }
 }
