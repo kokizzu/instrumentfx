@@ -1582,6 +1582,22 @@ Checked 2026-10-18 against the manufacturer-hosted English Effect Types and Para
 | Category choices / cabinet models | **Seven named entries, p10:** SVT8x10, FD-B4x12, SMR4x10TW, AG4x10TW, TE4x10, AC1x18, MkB2x8TW. Fixed modeled cabinets are not evidence of user IR import or NAM/capture loading. [Own effect sheet](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf) |
 | Looper / effect tails distinction | **pp14–15:** listed Delay, AnalogDly, TapeEcho, ReverseDL, Hold DLY and six reverbs have Tail ON/OFF. ON preserves the effect sound after that effect is switched off; **patch-change spillover remains unverified**. Delay/AnalogDly reach4000ms, TapeEcho/ReverseDL2000ms; these are delay lengths, not looper capacities. [Own effect sheet](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf) |
 
+### B3n — complete named effect-sheet census
+
+Checked 2026-10-18; [manufacturer sheet](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf), revision **Z2I-2890-02**, copyright2017, pp3–16. Counts include documented additions; installed contents and base/addition split remain unverified.
+
+| Field | Document entries |
+|---|---|
+| Category choices / Dynamics | **9**: SlowATTCK; ZNR; OptComp; BlackOpt; LMT-76; 160 Comp; DualComp; MB Comp; DYN Comp. |
+| Category choices / Filter | **12**: SeqFLTR; EG FLTR; Exciter; BassA-Wah; Z Tron; A-Filter; Bass Cry; BassGEQ; St Ba GEQ; BassPEQ; Splitter; Low EQ. |
+| Category choices / Drive | **18**: EP Stomp; RC Boost; NYC Muff; TS+Boost; Bass DRV; D.I Plus; Dark Pre; Bass BB; DI-5; Bass Pre; Bass OD; BassTsDRV; Dark OD; BlueB BOD; VooDoo-B; BaFzSmile; BassMetal; BassOctFZ. |
+| Category choices / Modulation | **14**: Tremolo; Phaser; TheVibe; PitchSHFT; HPS; Kick FLNG; SuperCho; CoronaTri; BassStCho; BaVinFLNG; Ba Octave; Ba Detune; BaMnPitch; BassPhase. |
+| Category choices / SFX | **6**: Bomber; StdSyn; SynTlk; Z-Syn; Defret; PH+Dist. |
+| Category choices / Delay | **5**: Delay; AnalogDly; TapeEcho; ReverseDL; Hold DLY. |
+| Category choices / Reverb | **6**: Air; Room; Hall; HD Hall; Spring; Plate. |
+| Category choices / Pedal | **5**: PDL Vol; BassWah; PDL Reso; BaPDLPit; BaPDLMnP. |
+| Processing / document count reconciliation | **89 named entries**: dynamics9+filter12+drive18+amp7+cabinet7+modulation14+SFX6+delay5+reverb6+pedal5. The seven non-amp/cab/pedal categories sum70. Retain product67-stomp/5-amp/5-cab and manual80 figures separately; different source scopes are not an installed-library census. Looper/rhythm utilities are outside this sheet count. |
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.

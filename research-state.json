@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B3n",
-    "task": "Saved original effect-sheet seven-amp/seven-cabinet census and effect-bypass Tail behavior. Next complete remaining effect-sheet category census and distinguish additions from product67/manual80 scopes; no installed-library claim. Physical panel/headphone conflict remains unresolved. Commit each model before next; no downloads.",
+    "task": "B3n complete named effect-sheet census saved: 89 entries in Z2I-2890-02, with product67/manual80 scopes retained. Next verify base/addition distinction from exact firmware history or fill physical panel/headphone layout with readable manufacturer imagery; if inaccessible move to another substantial model gap or fresh Shopee discovery. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56744,6 +56744,12 @@
       "model": "Zoom B3n",
       "checked_date": "2026-10-18",
       "finding": "Manufacturer E_B3n_FX-list_3 pp8–10 contains seven amp and seven cabinet entries, versus product five/five summary. Preserve revision/scope difference and do not infer installation. pp14–15 effect Tail enables effect-bypass decay; patch-change spillover remains unknown. Delay lengths separately qualified.",
+      "source": "https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf"
+    },
+    {
+      "model": "Zoom B3n",
+      "checked_date": "2026-10-18",
+      "finding": "Full manufacturer effect-sheet revision Z2I-2890-02 named census: dynamics9/filter12/drive18/amp7/cab7/modulation14/SFX6/delay5/reverb6/pedal5 =89. Preserve product67 and manual80 scopes; includes documented additions, not installed verification. Lists retained in root brand record.",
       "source": "https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf"
     }
   ],
