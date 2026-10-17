@@ -284,6 +284,17 @@ The brochure reverb table ends at8 and combines Medium/Large Room inone entry; t
 
 The brochure corroborates a separate bundled UCA222 interface andpreamp bypass. Historical inclusion does not verify the Indonesian seller’sbundle. No adapter output ratings resolved.
 
+### V-AMP 3 — control layers and MIDI port role
+
+Checked2026-10-18 against indexed manufacturer manualp5, [same exact V-AMP 3 PDF](https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf). DirectPDF access failed; indexedoriginaltext used,no download.
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / Volume versus Master | VOLUME adjusts thecurrentpreset level; **MASTER controls overallPHONES andLINE OUT**. Thetwo controls differinscope; no separateXLRorUSBoutput inferred. |
+| Controls / secondary functions and LED resolution | HoldTAP whileturningTREBLE toadjustPresence,orAMPS toselectmodels17–32. SevenknobLEDrings eachuse nineLEDs withsingle/adjacentpairs toshow **17 positions**; thisdisplayresolution isnot17 algorithms or physicalrotaries. ExistingEFFECTS/EFFECTSSELECT labellingconflict remains. |
+| I/O / MIDI OUT role | InEDIT→MIDI, TAPchangesMIDIOUT toMIDITHRU. This isaselectableportfunction,not evidenceof asecondphysicaloutput or USBMIDI. Exactmessageforwarding/filteringbehavior remainsunverified. |
+
+
 ## FX600
 
 Digital Stereo Multi-FX pedal; distinct from FX2000. Checked2026-10-18;partial. Manufacturer identifies six different effect families,one selected at a time;no minimum simultaneous-count requirement for multi-effects inclusion. Bass/vocal suitability andownership unverified.

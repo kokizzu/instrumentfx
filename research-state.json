@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "ME-30 compressor,TremoloArm andamp-simulator qualifications saved. Continue missing-model exactShopee discovery andtechnicalverification.",
+    "task": "V-AMP3 control layers andMIDI OUT/THRU role saved; X V-AMP remainsindex-onlylead. Continue exact discovery andprimaryverification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69606,5 +69606,24 @@
       "AmpSimulatorusage;ringmodoscillatornotpitchsynthproof"
     ],
     "discovery": "ME6/ME-6/ME-10exactShopeesearchesunresolved"
+  },
+  "technical_followup_vamp3_controls_20261018": {
+    "date": "2026-10-18",
+    "source": "https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf",
+    "page": 5,
+    "access": "Directfailed;indexedmanufacturertext",
+    "findings": [
+      "PresetVolumevsMasterPHONES/LINE",
+      "TAPsecondaryPresence/amp17–32",
+      "SevenLEDrings17displaypositions",
+      "MIDIOUTselectableTHRU"
+    ],
+    "lead": {
+      "model": "X V-AMP LX1-X",
+      "idr": 1505000,
+      "location": "Kab.Jombang",
+      "source": "https://shopee.co.id/search?keyword=%2CLX1",
+      "qualification": "Noexactitem;notregistered"
+    }
   }
 }

@@ -1875,3 +1875,7 @@ research-commit-rp70:
 .PHONY: research-commit-me30
 research-commit-me30:
 	python3 scripts/research_tools.py commit-me30
+
+.PHONY: research-commit-vamp3
+research-commit-vamp3:
+	python3 scripts/research_tools.py commit-vamp3
