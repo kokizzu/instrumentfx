@@ -2613,3 +2613,14 @@ Checked2026-10-17 against [707-5000][GFX707-M],pp12–14,17–20.
 | Processing / categories | MOD20:chorus,vintage chorus,flanger,phase,tremolo,auto pan,auto wah,pedal wah,step,pitch,pedal pitch,ring modulator,slow attack,filter,delay,echo,time trip,tremolo+chorus,ring+vibrato,vibe. REV:Hall,Room,Ping-Pong Delay,Delay+Hall,Delay+Room,andJAM. EQ has two editing pages,not two alternative algorithms. TOTAL/PEDAL are settings,not additional audio-effect modules. |
 | Looper / sampler | Sampler shares guitar/AUX input;BP records without effects,EF with available effects. Pedal controls recording level;half-speed playback preserves pitch. Sampler excludes rhythm/JamPlay and disablesMOD/REV;leaving sampler erases its recording. JamPlay is a REV choice,not an extra independent block. |
 | Preset / live | DirectLoadOFF browses silently until both footswitches confirm;setting saves automatically. BankHold confines footswitch browsing to current bank,but resets at power-cycle. Rhythm settings also reset;EasyEdit unavailable during rhythm playback. |
+
+### GFX-707 — drive names and manual discrepancy
+
+Checked2026-10-17 against [English707-5000][GFX707-M] pp8,17 and [official Japanese manual][GFX707-J] p17 (24pages). Text evidence only.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / COMP•DIST16 | In type order: ACOSIM,CMP FS,CMP SL,CMP+CR,CMP+OD,CMP+DS,CMP+FZ,OD1,OD2,DIST1,DIST2,FUZZ,WILDFZ,LEAD,METAL,PWRDRV. TYPE10 is DIST1 in Japanese;English extracted text duplicates DIST2 at10/11. Preserve this source discrepancy;do not merge the two numbered choices. |
+| Processing / amp simulator | Four families:COMBO,BRIGHT,STACK,FL STK;each offers A/b,with stronger cabinet character atb. OFF is bypass. Published48 total counts four amp families,not eightA/b configurations;not evidence of eight independent amp models. |
+
+[GFX707-J]: https://zoomcorp.com/media/documents/J_GFX707.pdf

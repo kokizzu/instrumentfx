@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom GFX-707",
-    "task": "GFX-707 category counts and sampler constraints saved;COMP-DIST16 named choices still need complete inventory and manual TYPE10 duplicate DIST2 label check. Then fresh Shopee discovery.",
+    "task": "GFX-707 full category names and English/Japanese TYPE10 discrepancy saved. Next fresh Shopee discovery by brand/series;do not re-add GFX-707/707II or treat cached stock as live.",
     "next_models": [],
     "after_queue": "288partial models;no downloads/workflows/push."
   },
@@ -57820,8 +57820,7 @@
       "Editor/imports",
       "Current condition-qualified hardware stock",
       "Measured current draw",
-      "Synth",
-      "Complete COMP-DIST16 names and TYPE10 duplicate DIST2 label"
+      "Synth"
     ],
     "downloads": false
   },
@@ -57836,6 +57835,32 @@
     },
     "reconciliation": "16+20+6+1=43 derived;plus4amp andZNR=48;EQpages not algorithms;TOTAL/PEDAL settings",
     "sampler": "BP/EF;sharedinput;pedalrecordlevel;half-speedpitchpreserving;excludesrhythm/JAM;MODREVoff;exitclears",
+    "downloads": false
+  },
+  "gfx707_drive_labels_20261017": {
+    "english": "https://zoomcorp.com/media/documents/E_GFX707.pdf",
+    "japanese": "https://zoomcorp.com/media/documents/J_GFX707.pdf",
+    "pages": "English8,17;Japanese17",
+    "choices": [
+      "ACOSIM",
+      "CMP FS",
+      "CMP SL",
+      "CMP+CR",
+      "CMP+OD",
+      "CMP+DS",
+      "CMP+FZ",
+      "OD1",
+      "OD2",
+      "DIST1",
+      "DIST2",
+      "FUZZ",
+      "WILDFZ",
+      "LEAD",
+      "METAL",
+      "PWRDRV"
+    ],
+    "discrepancy": "English extracted TYPE10 and11 both DIST2;Japanese10DIST1/11DIST2;no visualinspectionclaim",
+    "amp": "COMBO/BRIGHT/STACK/FL STK eachA/b;published48 counts4families",
     "downloads": false
   }
 }
