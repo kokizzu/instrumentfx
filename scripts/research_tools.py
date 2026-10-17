@@ -339,7 +339,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-bass-vamp':
-            message = 'research(behringer): add desktop Bass V-AMP with variant and source qualifications'
+            message = 'research(behringer): clarify desktop routing and MIDI sampler requirements'
         if mode == 'commit-amplifi-fx100':
             message = 'research(line6): verify FX100 synth wah and music routing details'
         if mode == 'commit-hd500x':
