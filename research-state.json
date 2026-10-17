@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G2Nu / G2.1Nu discovery",
-    "task": "Read exact manufacturer manual lead saved in discovery_frontier_rejections_20261017, then seek qualified exact Shopee hardware. Do not treat adapter/search cards as hardware offers. Triple Threat original-PDF/connector verification remains open.",
+    "task": "G2Nu/G2.1Nu indexed manufacturer specs and software links saved in zoom_g2nu_primary_discovery_20261017. Next inspect own modeling PDF and exact Shopee seller inventory; add models only with explicit qualification. Full manual exceeds webtool limit; do not retry unchanged or download.",
     "next_models": [],
     "after_queue": "274 partial models; continue fresh brand/series discovery and unresolved field verification; no downloads/workflows/push."
   },
@@ -56560,5 +56560,22 @@
     "next": "Avoid repeating identical narrow queries. Inspect exact manufacturer G2Nu/G21Nu manual lead for model identity and seek named Indonesian seller inventories; keep prices unassigned without exact hardware item.",
     "manufacturer_lead": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf",
     "technical_status": "Manual not read in this pass; no specifications adopted; no model/count changes."
+  },
+  "zoom_g2nu_primary_discovery_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+    "access": "Indexed manufacturer specifications page50 retrieved in search; full15,625,786-bytePDF exceeds webtool limit. Alternate Jhj6AQw URL same limit; no files downloaded.",
+    "shared": "83 effect types; maximum8 simultaneous modules;100 user+100 preset patches;96kHz internal sampling;LCD;mono phone input1Mohm;stereo phone output line/headphones;FP02/FS01 control input;DC9V center-negative AD16 rated500mA(adapterrating,notdraw);4AA alkaline6.5h backlightLOW;USBbuspower.",
+    "model_specific": {
+      "G2Nu": "160W166D64H mm;800g withoutbatteries",
+      "G2.1Nu": "260W169D67H mm;1300g withoutbatteries"
+    },
+    "software_source": "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g2nu/g2nu-support/",
+    "software": "Own G2Nu support index links Edit&Share Windows5.3.2/Mac4 and firmware1.10 Win/Mac. CurrentOS compatibility not established; no packages downloaded.",
+    "modeling_source": "https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf",
+    "modeling": "Indexed own modeling description explicitly lists Aco.Sim; full document not yet inspected.",
+    "market": "Exact Shopee searches excluding adapters/kabel returned no qualified hardware; not evidence of absence. Existing mixed Hope shop cards remain unallocated.",
+    "remaining": "Exact Shopee item; complete readable manual, controls/expression, per-category counts, USB audio/editorOS/screen details, rhythmslooper, captures/IR. Do not borrow G2.1u specs.",
+    "counted": false
   }
 }
