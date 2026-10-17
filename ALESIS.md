@@ -95,7 +95,7 @@ Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [M
 | Power | **9VAC,15VA externaltransformer**;not9VDC. DCpolarityN/A;current,battery/USBpower unknown. |
 | Software | MIDI SysEx/programmapping/parametercontrol;full editorOS/driver/updater unknown. |
 | IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
-| Looper / drums / live | Looper/drums/scenes unknown. Delay490ms orreverbpredelay100ms,configuration-dependent. |
+| Looper / drums / live | Looper/drums/scenes unknown. **Delay≤100ms inconfigurations1–13;≤490ms in14–15,which omit reverb**. Only1/7/13 provide reverbpredelay. |
 | Instrument scope | Highimpedance instrument/lineinput;manualguitarchorus andmicrophone paths. Mixerrecommendedforquietmicoperation;mono usesRIGHTinput/output. Bassunclassified. |
 
 ### MIDIverb III — separate IDR offers
@@ -104,3 +104,16 @@ Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [M
 |---|---|---|
 | Working used / new | Unknown | — |
 | Condition-risk unit / syaifuddin_syaifullah,Kab.Ponorogo | **Rp650.000**,title **gambling tanpa PSU**;noPSUexplicit,workingconditionunverified. Openedtextcrawl1week,index2months;shoponholiday. Stock,variant,warranty,voucher,shipping/taxunknown. Not anormalworkingusedprice. | [77454658/23942927595](https://shopee.co.id/efek-vocal-alesis-midiverb-III-ex-studio-recording-i.77454658.23942927595) |
+### MIDIverb III — configuration limits and count basis
+
+Checked2026-10-17 against the [manufacturer Reference Manual mirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),PDFpp38–40,62;printedpp34–36,58. The contents page has older page references;cite actual PDF/printed page pair rather than assuming aconsistent offset.
+
+| Configuration group | Practical restriction |
+|---|---|
+| 1–13 | Delay ceiling100ms;reverb available. Only1,7,13 use delay asreverbpredelay. |
+| 14–15 | Delay ceiling490ms;**no reverb**. |
+| 1–6 versus7–12 | Same paired routing layouts;firstgroup adds chorus directly tooutput,secondgroup sends chorus intoeffects only. |
+
+Chorus reaches output in1–6,13,14;it isoneffects only in7–12,15. These are15routing choices,not15simultaneous effects.
+
+Controls3/0/16 derive fromINPUT/MIX/OUTPUT rotaries;VALUEup/down,PROGRAM,STORE,EDIT,BYPASS andten numberedfunctionbuttons. No diagram visual audit. MIDI modulation offers8controller sources×6destinations,plusOff;this iscontrol routing,not48audioalgorithms.

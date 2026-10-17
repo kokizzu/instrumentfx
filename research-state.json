@@ -28,11 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Alesis MIDIverb III",
-    "task": "MIDIverbIII added from exactmanufacturer-authoredmirror;9VAC supply andconditionriskoffer preserved. Next verify15configuration architecture/controlcount andsource pagination inconsistencies;commitbeforeMPX100.",
-    "next_models": [
-      "Lexicon MPX100"
-    ],
+    "model": "Lexicon MPX100",
+    "task": "MIDIverbIII configuration delay/reverb restrictions andcontrol count basis saved. Next verify originalLexiconMPX100 manual for exactsavedShopeeoffer;notMPX110/MX200;preserve deliveryunavailable vsstockunknown.",
+    "next_models": [],
     "after_queue": "280partialmodels;all117legacy pathsaccountedfor;no downloads/workflows/push."
   },
   "new_findings": [
@@ -41394,7 +41392,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Alesis MIDIverb III."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MPX100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57021,5 +57019,13 @@
     "qualification": "Rp650000 gamblingtanpaPSU;workingunverified;shoponholiday;notnormalusedprice;directtextcrawl1week",
     "power": "9VAC15VAexternal;notDC",
     "gaps": "DisplayLEDvsLCDconflict,fullsource revision,currentconditionoffers,IRNAMcapture/editor/synth/acoustic/looperdrums"
+  },
+  "midiverb3_configurations_20261017": {
+    "source": "https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf",
+    "pages": "PDF38–40/62;printed34–36/58;contentsreferences differ",
+    "limits": "1–13delay100ms;14–15delay490msnoreverb;1/7/13reverbpredelay",
+    "chorus": "Output1–6/13/14;effects-only7–12/15;paired1–6vs7–12layouts",
+    "controls": "3rotary/0foot/16buttons textderived;10function+Value2+ProgramStoreEditBypass4;novisualaudit",
+    "modulation": "8MIDIcontrollersx6targets+Off;notaudioalgorithmcount"
   }
 }
