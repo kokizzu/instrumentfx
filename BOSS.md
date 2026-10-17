@@ -2303,10 +2303,10 @@ Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Curre
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | Optional EV-1-WL wireless expression and FS-1-WL switching;volume/wah assignments. Built-in/toe/wired support unverified. [Product][KTGO-P] |
-| K/F/B | Mastervolume1;6namedbuttons(A/B/C,Bluetooth,StageFeel,multifunction);powerswitch separate. Physical footswitch inventory pending. [Product][KTGO-P] |
+| Expression | Optional EV-1-WL wireless expression and FS-1-WL switching;volume/wah assignments. No built-in expression pedal or direct wired EXP connector in the complete published control/connector inventory;external EXP-switch details below. [Product][KTGO-P] |
+| K/F/B | Mastervolume1;6namedbuttons(A/B/C,Bluetooth,StageFeel,multifunction);powerswitch separate. 0 onboard footswitches in the published control inventory. [Product][KTGO-P] |
 | Display | GraphicOLED128×32dots;diagonal/color/touch unresolved. [Product][KTGO-P] |
-| Processing / categories | Guitar10amps/>60effects;bass3amps(Vintage/Modern/Flat)/>60effects. Simultaneous blocks/category totals unresolved. [Product][KTGO-P] |
+| Processing / categories | Guitar10amps/>60effects;bass3amps(Vintage/Modern/Flat)/>60effects. Verified per-category choices are listed below;full simultaneous ceiling remains unresolved. [Product][KTGO-P] |
 | Processing / MOD-FX qualification | Guide permits the same effect in MOD and FX. This establishes independent selections,not a complete simultaneous block ceiling. Guitar AMP has5types×variation on/off=10characters;cab resonance Vintage/Modern/Deep is not userIR import. [Parameter guide][KTGO-G] |
 | Processing / guitar BOOSTER choices | **23 selections**,counted from the own guide pp7–9: Clean Boost,Treble Boost,Mid Boost,Crunch OD,Blues Drive,Overdrive,Natural OD,Warm OD,Turbo OD,T-Scream,Distortion,Fat DS,DST+,Guv DS,RAT,Metal Zone,Metal DS,60s Fuzz,Muff Fuzz,Oct Fuzz,HM-2,Metal Core,Centa OD. These are alternatives within BOOSTER,not23 simultaneous blocks. [Parameter guide][KTGO-G] |
 | Processing / BOOSTER parameters | Drive0–120;Tone/Bottom−50…+50;effect level,direct mix and solo level0–100;solo switch off/on. Bottom adjusts low-frequency content;this guitar-mode control does not establish bass suitability on its own. [Parameter guide][KTGO-G] |
@@ -2314,7 +2314,7 @@ Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Curre
 | Processing / bass MOD-FX choices | **23 alternatives per slot**,counted pp74–76: Chorus, Flanger, Phaser, Uni-V, Tremolo, Vibrato, Rotary, Ring Mod, Slow Gear, Slicer, T.Wah, Auto Wah, Graphic EQ, Parametric EQ, Bass Synth, Octave, Heavy Octave, Pitch Shifter, Harmonist, Humanizer, Enhancer, Bass Simulator, Defretter. Bass has its own list;guitar algorithms are not silently borrowed. [Parameter guide][KTGO-G] |
 | Routing / editor and global EQ | Tone Studio EDITOR changes effect placement/order. Global EQ sits last in the instrument effect chain;it does not affect Bluetooth or USB audio signals. This is not a complete simultaneous-block limit or USB channel map. [Tone Studio guide][KTGO-BTS] |
 | Processing / guitar DELAY-DELAY2 | **8 alternatives** in the shared DELAY/DELAY2 section pp50–53: Digital,Pan,Stereo,Analog,Tape Echo,Reverse,Modulate,SDE-3000. Delay time1–2000ms;feedback0–100;effect level0–120;direct mix0–100. PAN has relative right-channel tap time0–100%;SDE-3000 has modulation/filter switches,8/17kHz range and normal/inverse delay/feedback phase. This does not establish the whole-unit simultaneous ceiling. [Parameter guide][KTGO-G] |
-| Processing / guitar REVERB | **5 alternatives**,pp54–55: Plate,Room,Hall,Spring,Modulate. Reverb time0.1–10s,pre-delay0–500ms,density0–10,effect/direct levels0–100;Spring color0–100. Bass category counts require separate verification. [Parameter guide][KTGO-G] |
+| Processing / guitar REVERB | **5 alternatives**,pp54–55: Plate,Room,Hall,Spring,Modulate. Reverb time0.1–10s,pre-delay0–500ms,density0–10,effect/direct levels0–100;Spring color0–100. Separately verified bass category counts are listed below. [Parameter guide][KTGO-G] |
 | Expression / guitar PEDAL FX algorithms | **3 top-level choices**,pp59–61: Pedal Wah,Wah95E,Pedal Bend. Pedal Wah has6subtypes(Cry,VO,Fat,Light,7String,Reso);not6additional simultaneous blocks. Position INPUT or POST AMP. Pedal Bend pitch−24…+24;chords unsupported. Expression comes through EV-1-WL or an expression pedal connected to FS-1-WL;not a direct KATANA:GO wired socket claim. [Parameter guide][KTGO-G] |
 | Processing / bass COMP choices | Own bass-mode section pp68–70 selects COMP or LIMITER mode. **7 compressor types**: BOSS Comp,Hi-Band,Light,D-Comp,Orange,Fat,Mild. **3 limiter types**: BOSS Limiter,Rack160D,VTG Rack U. These are alternatives within the COMP section,not10 simultaneous blocks. Compressor sustain/attack/level0–100,tone−50…+50;limiter threshold/attack/release/level0–100,ratio1:1…∞:1. [Parameter guide][KTGO-G] |
 | Processing / bass DRIVE choices | **13 alternatives**,pp71–73: Blues OD,Natural,Guv DS,Metal Zone,Muff Fuzz,Booster,Bass OD,Bass DS,Bass MT,Bass Fuzz,HiBand Drv,Bass Drv,Bass DI. HiBand Drv distorts high frequencies while retaining the undistorted low range. Drive0–120,tone/bottom−50…+50,effect level/direct mix0–100. These bass choices are verified separately from guitar BOOSTER. [Parameter guide][KTGO-G] |
@@ -2326,6 +2326,7 @@ Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Curre
 | Preset memory | 30factory-filleduser memories per mode;60across guitar+bass,not60available within one mode. [Product][KTGO-P] |
 | Synth / acoustic | Guitar mode includes2acoustic-electric amp characters;Own parameter guide confirms **AC.GUITAR SIM**,guitar **WAVE SYNTH** and **BASS SYNTH**. Bass synth is single-note:mute other strings and articulate attacks;chords unsupported. AC.PROCESSOR for acoustic pickups is distinct. [Parameter guide][KTGO-G] [Product][KTGO-P] |
 | I/O | ¼inch inputplug,stereominiPHONES,USB-Caudio/power;BluetoothA2DPaudio/GATTMIDI. USBchannel/routing counts unresolved. [Product][KTGO-P] |
+| I/O / electrical and conversion specifications | 48kHz sample rate;32-bit AD with AF method and32-bit DA. Input nominal−10dBu/1MΩ;PHONES30mW+30mW,4.7Ω output impedance,recommended load≥16Ω. Converter resolution does not establish USB stream bit depth/channel count. [Product][KTGO-P] |
 | Power / battery / USB | Li-ion or USB;500mA draw. Charge5V≥500mA,~3h;~5hrun,varies byuse. Capacity unverified. [Product][KTGO-P] |
 | Dimensions / mass | 45W×125D×29Hmm;65g,current product specification;earlier physical revision unverified. [Product][KTGO-P] |
 | IR / NAM / capture | KatanaToneSetting import documented;notuserIR/NAM/capture proof. [Product][KTGO-P] |
@@ -2355,7 +2356,7 @@ Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Curre
 
 Historical indexed asks,notlivecheckout. Condition/stock/variant/bundle/authenticity/warranty/shipping/tax/vouchers unresolved;no qualifiedused/newallocation. Fourvariationrange is not a singlehardwareprice.
 
-Own HTML-manual support landing returned license/checkbox text without readable manual link;notread. No downloads or visual inspection. Product sources establish eligibility;effectchain/revision-specificmanual details remain open.
+Initial access history: the support landing returned license/checkbox text without a readable manual link. Direct official HTML,parameter and Tone Studio guide text was subsequently read,as cited below. No files downloaded or images visually inspected. Full simultaneous ceiling and exact seller hardware revision remain open.
 
 [KTGO-P]: https://www.boss.info/global/products/katana-go/
 [KTGO-M]: https://www.boss.info/global/support/by_product/katana-go/owners_manuals/7c8bd4a2-6b4e-495b-ab4d-bc827ed365c4/

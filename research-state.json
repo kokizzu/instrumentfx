@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS KATANA:GO",
-    "task": "Bass delay8/reverb5/PEDAL FX2 and FS1WL assignments/coexistence saved. Next inspect exact-model signal-chain evidence and remaining hardware/revision gaps;then Fender Mustang Micro original. Preserve unresolved prices and import support.",
+    "model": "Fender Mustang Micro original",
+    "task": "KATANA:GO partial record audited:electrical specs and physical control/EXP inventory saved;stale category/manual-access statements corrected. Next research Fender Mustang Micro original from saved Shopee leads;retain KATANA ceiling/revision/price/import gaps for follow-up.",
     "next_models": [
       "Fender Mustang Micro original"
     ],
@@ -41367,7 +41367,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS KATANA:GO."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fender Mustang Micro original."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56130,5 +56130,11 @@
     "tone_studio_source": "https://static.roland.com/assets/media/pdf/KATANA_GO_BTS_eng01_W.pdf",
     "wireless_pages": "69,73–74",
     "remaining": "Full simultaneous ceiling;complete physical inventory/revision dimensions;qualified prices;IR/NAM/editor gaps"
+  },
+  "katana_go_record_audit_20261017": {
+    "source": "https://www.boss.info/global/products/katana-go/",
+    "added": "Electrical/converter specifications;complete published control/connector inventory supports no onboard pedal/footswitch/direct EXP socket.",
+    "corrected": "Stale unresolved category and manual-access statements reconciled with subsequently saved evidence.",
+    "remaining": "Full simultaneous ceiling,physical earlier revision,qualified used/new prices,IR/NAM import and desktop editor support"
   }
 }
