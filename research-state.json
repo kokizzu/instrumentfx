@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS AD-10",
-    "task": "AD-10 named choices and looper stop/clear/order verified from eng04_W; power-off phrase retention remains unknown. Next fresh Shopee discovery by brand/series for unrecorded multi-effects; no image retry without new capability.",
+    "model": "Zoom GFX-707 original",
+    "task": "Read own E_GFX707.pdf and manufacturer product; verify original vs707II; extract all required fields and saved exact Shopee offer before adding canonical record/count. Lead saved, not yet active model.",
     "next_models": [],
-    "after_queue": "287partialmodels;no downloads/workflows/push."
+    "after_queue": "Continue fresh Shopee discovery;287 active partial models; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57761,6 +57761,43 @@
       "Phrase export",
       "Aggregate simultaneous block count"
     ],
+    "downloads": false
+  },
+  "discovery_gfx707_20261017": {
+    "queries": [
+      "BOSS AD8",
+      "Zoom A2.1u",
+      "DigiTech RP300",
+      "AX1500B",
+      "BOSS ME-10",
+      "Zoom A3",
+      "DigiTech RP300A",
+      "Digitech RP second",
+      "Zoom GFX efek",
+      "Korg AX bass"
+    ],
+    "new_lead": {
+      "model": "Zoom GFX-707 original",
+      "canonical_check": "ZOOM.md contains707II but no original GFX-707 heading; item absent from ledger",
+      "url": "https://shopee.co.id/Efek-Zoom-gfx-707-made-in-japan-i.48116980.15446202329",
+      "seller": "Barang_Second_Berkualitas",
+      "region": "Kab. Kuningan",
+      "idr": 750000,
+      "condition": "Unverified; seller name alone does not establish condition",
+      "stock": "Habis in two-month search cache",
+      "direct_access": "Cache miss2026-10-17",
+      "qualifications": "No live stock, working state, bundle, adapter, voucher, shipping/tax, or selected variant established",
+      "manufacturer_support": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-707-support/gfx-707-support/",
+      "manual": "https://zoomcorp.com/media/documents/E_GFX707.pdf",
+      "manual_status": "Located; full specification extraction pending"
+    },
+    "other_hits": [
+      "RP70 473560916/28475084274 second750000 three-month cache preorder3days staleJuly delivery; check existing record before adding offer",
+      "RP250161000047/56101815937 second925000 Habis three-month cache; check existing record",
+      "GFX-5 240675127/41070755630 conditionunknown1200000Habis three-month cache; check existing record"
+    ],
+    "excluded": "GFX8 adapter732732692/20031217262; mixed Hope Music variations not allocated to individual models",
+    "coverage": "No-hit searches do not establish market absence",
     "downloads": false
   }
 }
