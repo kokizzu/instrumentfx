@@ -79,7 +79,7 @@ Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownersh
 | Display | OLED; diagonal, resolution, monochrome/color and touchscreen unverified. [Top][H90-T] |
 | Processing / choices | Current product headline **74=52 H9-derived+22 newer algorithms**; **Manual1.12.5 reconciles74 effects**, excluding Mute/Thru utilities; release1.12.5 introduces the four granular algorithms. Installed firmware unknown. [Guide][H90-G],[Release][H90-F] **Two algorithms per Program**, series/parallel, with spillover. Two mono inserts or one stereo insert; Dual mode can process two stereo instruments. [P][H90-P] |
 | Factory / user memory | **Up to99 Programs per List**; editable User Lists and read-only Factory Lists, first User List factory-populated. Total list count, total capacity and exact factory fill unresolved. A Preset is one algorithm’s settings; a Program contains two. Only User Lists can be the active Playlist; Factory Lists remain searchable. Library Use Count tracks reuse across lists, so list memberships are not automatically distinct stored sounds. [Global][H90-B],[Library][H90-U] [Terminology][H90-M] |
-| Synth / acoustic | Product lists PolySynth and polyphonic pitch SIFT; detailed synth restrictions and acoustic simulation unverified. [P][H90-P] |
+| Synth / acoustic | **PolySynth:** SIFT polyphonic guitar-to-synth, up to3 synth voices; Playstyle trades pure mono tone against polyphonic tracking. **HotSawz:**6 saw oscillators follow mono pitch tracking. **Synthonizer:**additive A/subtractive B voices with reverb. Acoustic simulation and Synthonizer input/tempo restrictions unverified. [Synth manual1.12.5][H90-Y] [P][H90-P] |
 | Dimensions / mass | Product: **170W×136D×68Hmm;0.84kg**, also6.5W×5.25D×2.5Hin. Manual1.11.4: **179W×136D×65Hmm;1.36kg**, also1.85lb. Retain conflicting metric axes/mass and inch/metric mismatch; do not silently convert or choose. [P][H90-P],[Specs][H90-S] |
 | Audio / control ports | Four¼TS inputs/four¼TS outputs, each instrument/line configurable; two¼TRS EXP/CTL, MIDI DIN IN/OUT-THRU, USB-C, DC. USB for control/update/MIDI; audio streaming unverified. No headphone socket in complete inventory. [Rear][H90-R] |
 | Power / battery / USB | Included **12V1A center-positive,5.5/2.5mm** supply. Manual power table lists **12V600mA or9V800mA** operating requirements, distinct from included adapter rating. Measured draw, battery and USB bus power unverified. [Rear][H90-R],[Specs][H90-S] |
@@ -154,3 +154,11 @@ The [H90 FAQ](https://www.eventideaudio.com/faqs/?product=H90) rendered only its
 
 [H90-C]: https://www.eventideaudio.com/software/eventide-control/
 [H90-CM]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/h90-control/index.html
+
+### H90 — synth architecture and playing restrictions
+
+Checked2026-10-17 against [own1.12.5 Synth chapter][H90-Y]. Three synth algorithms are alternatives within the documented two-algorithm Program architecture. PolySynth’s three synth voices are not three independent effect blocks or proof of a three-note input-polyphony ceiling. Its per-voice waveforms are saw, square, triangle, narrow pulse and wide pulse; a mapped pitch-wheel parameter spans±1200cents.
+
+HotSawz has mono tracking despite six oscillators. Synthonizer combines additive/subtractive synthesis and reverb; the H90 chapter does not repeat H9’s input1-only/no-tempo limitations, so those restrictions remain unverified for H90. No guitar was connected, and no audio, software or firmware was downloaded or executed. Exact installed firmware remains unknown.
+
+[H90-Y]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/synth.html
