@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-200",
-    "task": "GP200 firmware1.8.0 manual identity,colorLCD,IRwording,SnapToneAMP/DST andexternalcontrolmodes saved. Next exactcontrols,categorycensus/synthacoustic andglobalEQDSP/routing limits orfreshShopeediscovery.",
+    "task": "GP200 GlobalEQ DSP warning,USB exclusion,reset scopes and4CM routing saved. Next exactcontrols/toe,categorycensus/synthacoustic,IR/NAMlimits orfreshShopeediscovery.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61223,5 +61223,18 @@
       "EXP2/single/dualfootswitchmodesp16;EXP1LineExpoLogp15"
     ],
     "limits": "Nodownload,novisualcount;touch,IRconversionlimits,NAMnative/concurrencyunverified"
+  },
+  "gp200_global_routing_20261017": {
+    "source": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "revision": "GP200 firmware1.8.0 manual",
+    "pages": "18–24",
+    "findings": [
+      "GlobalEQlowhighcut4PEQ20Hz20kQ0.1to10gain±20",
+      "GlobalEQnotUSB;resourceoverloadwarning",
+      "Globalonly/factory01A25D/allresetdistinct;languagesurvives",
+      "XLR/TScarrysamesignal;4CMSeriesAMP/CABoffexample",
+      "AutoCABMatchfollowsAMP"
+    ],
+    "limits": "NotnumericDSP/independentparallelchainproof;factorywriteprotectionunresolved"
   }
 }
