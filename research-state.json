@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Bass/vocal discovery and technical follow-ups",
-    "task": "FG200 model-count firmware qualification now projected and regression-tested. FX50 original PDF remains inaccessible via web reader; retain qualified transcription fields. Next different exact bass/vocal leads or existing primary specification gaps.",
+    "task": "B3 frequency-response discrepancy now projected with analog I/O,driver OS list rechecked. FV03 panel still not visually verified:PDF screenshot/image readers failed and in-app browser unavailable. Do not promote text-derived counts to visual verification. Continue primary gaps or different exact bass/vocal leads.",
     "next_models": [],
     "after_queue": "Continue technical verification and migration; no downloads/workflows."
   },
@@ -4889,6 +4889,16 @@
       ],
       "finding": "Primary product establishes portable multifx5modules15types16+16memories. Detailed manufacturer-manual transcription qualified pending original PDF;exact2variationRp609760 ask unresolved.",
       "remaining": "Original PDF/visual,selected seller variation,processing/display/power/editor/loading/live gaps and qualified offers."
+    },
+    {
+      "model": "Zoom B3",
+      "checked_date": "2026-10-17",
+      "status": "partial_followup",
+      "sources": [
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/"
+      ],
+      "finding": "Rechecked separate editor/updater/driver listings; ASIO2.0.1 explicitly lists Windows7/8/8.1/10,not current OS support. Relabelled existing frequency-response source discrepancy so it reaches I/O comparison.",
+      "remaining": "Control image,category subtotals,power draw,current OS and other saved gaps."
     }
   ],
   "consolidation_and_price_findings": [
