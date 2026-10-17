@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-200",
-    "task": "GP200 explicitACSim andpitchtrackingdistinctions plusWAH6entryinventorysaved. Next remainingcategorycensus/dedicatedsynth,exactcontrols orfreshShopeediscovery;unknownsremainexplicit.",
+    "task": "GP200 WAH6,NR4,EQ6,RVB12,VOL1 manualcategorychoices saved withnames andduplicatequalification. Next AMP/CAB/PRE/DST/MOD/DLYcensus orfreshShopeediscovery; exactpanelcountsremainopen.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61258,5 +61258,41 @@
       "WAH6V/C/P/S/BWahHammy;HammyalsoPREnotuniquetotaladdition"
     ],
     "limits": "Notwholeinstalledlibrarycensus/currentfirmwaretestortrackingmeasurement"
+  },
+  "gp200_category_counts_20261017": {
+    "source": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "revision": "Firmware1.8.0manualpp52–56,67–69",
+    "NR": [
+      "Gate1",
+      "Gate2",
+      "Gate3",
+      "AutoSwell"
+    ],
+    "EQ": [
+      "GuitarEQ1",
+      "GuitarEQ2",
+      "BassEQ1",
+      "BassEQ2",
+      "MessEQ",
+      "HyperEQ"
+    ],
+    "RVB": [
+      "Room",
+      "Hall",
+      "Church",
+      "Plate",
+      "Spring",
+      "TubeSpring",
+      "AmpSpring",
+      "Studio",
+      "N-Star",
+      "Deepsea",
+      "SweetSpace",
+      "Shimmer"
+    ],
+    "VOL": [
+      "Volume"
+    ],
+    "limits": "Categoryentriesnotuniquealgorithmgrandtotal;AutoSwellalsoPRE;Trailonbypassnotpresetchangeproof;AMP/CAB/PRE/DST/MOD/DLYcensusremain"
   }
 }
