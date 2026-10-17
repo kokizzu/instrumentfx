@@ -337,6 +337,15 @@ Checked 2026-10-18, original reference manual revision01, printed pp2, 6–7, 16
 | Routing / manual foot control | The manual-mode BLEND pedal can instead toggle SEND/RETURN using system option **r1**; default **r0** toggles BLEND. | [ME90B-M] p16 |
 | Expression / reset exception | Factory reset excludes expression-pedal calibration while restoring user memories and other settings. | [ME90B-M] p17 |
 
+### ME-90B — desktop application version and platform scope
+
+Checked 2026-10-18; support-page text only, no installers downloaded.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Editor / offered version and fixes | **Tone Studio 1.1.0 (May 2025)** is separately offered for Windows and macOS. It adds direct BOSS Tone Exchange access and fixes incorrect CTL pedal LED behavior after patch changes or editor operations, plus unspecified minor bugs. Application version is distinct from firmware1.04 and driver1.0.0. | [Windows application](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/b1ff01fe-bea1-4ff9-a196-66effdc0e99b/); [macOS application](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/006d1733-6ad8-4133-8d18-f1c9905fdae3/) |
+| Editor / prerequisites and OS scope | Both editions require **ME-90B firmware≥1.03** and the appropriate USB driver before use. Windows application explicitly lists **Windows10/11**. Mac application delegates OS versions to the Exclusive Application compatibility table and excludes Mac computers running Windows. Tone Exchange requires internet. No local installation or compatibility test was performed. | [Windows application](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/b1ff01fe-bea1-4ff9-a196-66effdc0e99b/); [macOS application](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/006d1733-6ad8-4133-8d18-f1c9905fdae3/) |
+
 
 ## VE-1
 
