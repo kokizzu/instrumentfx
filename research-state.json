@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee Indonesia brand/series discovery",
-    "task": "G1X FOUR pedal section saved:17 effects plus Output VP; model-icon availability restrictions and installed-library counts unresolved. Resume Shopee Indonesia discovery by brand/series for eligible unrecorded multifx, starting Zoom G2Nu/G2.1Nu and GFX-8 leads; require exact hardware offer and own official evidence before adding. Do not reuse accessory or unresolved variant prices.",
+    "task": "Legacy Zoom G2Nu/G2.1Nu/GFX8/A2.1u/B9.1ut/G9.2tt queries saved as unresolved or accessory-only. RP50/AX1G/StompLab1B queries returned none; not absence evidence. Next search unrecorded bass/vocal multifx series across DigiTech BP, Korg AX bass and TC-Helicon VoiceLive; require exact hardware listing and model-specific official evidence. Existing 334 models must not be duplicated.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69893,5 +69893,45 @@
       }
     ],
     "remaining": "Condition-specific asks, checkout stock, actual bundle/warranty and technical gaps remain unresolved."
+  },
+  "discovery_legacy_multifx_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Zoom G2Nu\"",
+      "site:shopee.co.id \"G2.1Nu\"",
+      "site:shopee.co.id \"GFX-8\" Zoom",
+      "site:shopee.co.id \"Efek Zoom G2.1Nu Zoom G2.1u\"",
+      "site:shopee.co.id \"Zoom\" \"G2Nu\" -adaptor -kabel -tas",
+      "site:shopee.co.id \"Zoom\" \"GFX8\" -adaptor -sensor -kabel",
+      "site:shopee.co.id \"Zoom\" \"A2.1u\" -adaptor -kabel -tas",
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\" -adaptor -kabel",
+      "site:shopee.co.id \"Zoom\" \"G9.2tt\" -adaptor -kabel -potensio -lcd",
+      "site:shopee.co.id \"Digitech\" \"RP50\"",
+      "site:shopee.co.id \"Korg\" \"AX1G\"",
+      "site:shopee.co.id \"Vox\" \"StompLab 1B\""
+    ],
+    "mixed_hardware_lead": {
+      "url": "https://shopee.co.id/hopemusik",
+      "title": "Efek Zoom G2.1Nu Zoom G2.1u B2.1u Bass",
+      "displayed_idr": 1699000,
+      "cache": "Search cache four months; direct rendered shop cache last month",
+      "qualification": "Mixed-model card without resolved exact item or model-to-price allocation. No G2.1Nu price, condition, stock or bundle accepted."
+    },
+    "rejected_accessories": [
+      {
+        "url": "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+        "reason": "Replacement sensor, not processor"
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+        "reason": "Power adapter, not processor"
+      },
+      {
+        "url": "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463",
+        "reason": "Power adapter, not processor"
+      }
+    ],
+    "result": "No new qualified exact hardware offer from this search pass. RP50/AX1G/StompLab1B batch returned no results. This does not establish market absence. No model added or price allocated.",
+    "next": "Move discovery to additional brands/series; retain these unresolved leads rather than repeat identical queries."
   }
 }
