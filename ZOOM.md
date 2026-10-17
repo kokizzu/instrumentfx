@@ -675,6 +675,15 @@ These are separate asking observations,not a used-to-new range. Selected conditi
 |---|---:|---|
 | Condition-unverified sold-out adapter bundle |Rp1.810.400 |[GALERI MUSIK SIMFONI_PIM,1030145984/55012807049](https://shopee.co.id/ZOOM-B1-FOUR-Bass-Multi-Effect-Pedals-with-Adaptor-Zoom-AD-16E-i.1030145984.55012807049); Jakarta Selatan; last-month indexed text reopened; **Habis**. Title includes AD-16E; condition,warranty,voucher and actual package unverified. Relative tomorrow delivery does not override sold-out status |
 
+### B1 FOUR — additional exact offers,2026-10-17
+
+| Price class | Amount | Exact offer / access limits |
+|---|---:|---|
+| Condition unverified / CH MUSIC | **Rp2,900,000** | [shop195817632/item8629074736](https://shopee.co.id/Zoom-B1-FOUR-Bass-Multi-Effects-Pedal-Processor-Original-i.195817632.8629074736);JakartaPusat. Two-day search index;direct reader returned two-week cache. |
+| Condition unverified / Eleven Music | **Rp2,900,000** | [shop12356205/item6376589714](https://shopee.co.id/Zoom-B1-FOUR-Bass-Multi-Effects-Pedal-Processor-Original-i.12356205.6376589714);JakartaPusat. Five-day search index;direct reader returned last-month cache. |
+
+Both direct pages remain JavaScript-limited. Relative tomorrow delivery does not prove current stock;new/used condition,working state,selected variation,adapter/bundle,warranty,applied voucher,shipping/tax unverified. Late-delivery compensation is not a purchase discount. These separate cached asks do not replace earlier offers or establish a market range.
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.
