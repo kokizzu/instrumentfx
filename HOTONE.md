@@ -649,6 +649,19 @@ Checked 2026-10-17, original list printed pp27–36. [Source][MP350-E11].
 This completes the older AMP name census; PRE AMP transcription and later-firmware reconciliation remain open.
 
 
+### MP-350 — PRE AMP Clean inventory, firmware 1.1.0-JP
+
+Checked 2026-10-17 directly against PRE AMP pages, printed pp38–44. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / PRE AMP Clean | **38 mono-I/O entries**: Tweed Chap; Tweed Lux; Tweed Prince; Baseman Norm; Black Twin; Black Deluxe; Black Deluxe+; Black Prince; Black Super; Black Vibra; Brown King Clean; Brown Vibra; Brown Concert; Brown Super; Silver Twin; Silver Master; Superb Dual Clean; Voxy 15 TB; Voxy 30HW Norm; Hiway 103 Norm; Watchman; Jazz Clean; Emperor Clean; Match 30 Clean; Tang A30 Clean; Superstar Clean; Glacian Clean; Dr. 38 Clean; Dr. 66; Pendragon Clean; Pendragon Clean+; Press Wrecker; Pool Wrecker; Hot Kitty Clean; Soloist 100 Clean; Soloist 100 Clean HQ; Dumbell ODS 1; Petrus Clean HQ. Independently transcribed from PRE AMP, despite matching AMP names. |
+| Processing / PRE AMP controls | Soloist 100 Clean HQ lists Bright and Preamp Tube; Petrus Clean HQ lists Preamp Tube. Their PRE AMP parameter tables do not list AMP's Power Tube control. Do not transfer full-amp parameters merely because names match. |
+| Processing / Petrus source conflict | PRE AMP **Petrus Clean HQ** prose instead identifies **JP-2C CH2 and crunch**. AMP Clean HQ identifies CH1. Preserve inconsistent description; no correction to CH1 or extra Crunch entry inferred from it. |
+
+This is only the older Clean subsection, not the complete PRE AMP or current-firmware census. Drive and Hi Gain remain open.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
