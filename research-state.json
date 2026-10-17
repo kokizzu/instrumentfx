@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-30",
-    "task": "ME-30 Hall/Room reverb and unitlessTIME range saved. Next own manual controlcounts and delay/modulation details;targeted searches did not resolve timing. Do not infer sibling specifications.",
+    "task": "ME-30 fivefootswitchesverified;remainingrotary/button/toe,delay/modulation,simultaneousceiling,polarityandothergapsdeferred. Continue fresh Shopee discovery for eligible unrecorded hardware.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. GT-5 and RFX-2000 technical gaps remain deferred. No downloads,workflows or push."
   },
@@ -53974,5 +53974,12 @@
     "finding": "Hall/Room alternatives;TIME1–100 is unitless display range,not seconds;EFFECTLEVEL0–100.",
     "search_limit": "Targeted delay/modulation searches returned unrelated Roland products and factory table only;no sibling specifications adopted.",
     "remaining": "Controlcounts,delay/modulation timing and variants,simultaneous ceiling,polarity,visual/expression details andother gaps."
+  },
+  "me30_panel_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf",
+    "section": "Panel Descriptions",
+    "finding": "ThreeNUMBER plusBANKDown/BANKUp=5footswitches;rotary/button totals andtoe switch still unknown.",
+    "access": "Manufacturer-indexed panel description,not direct visual inspection. Delay/modulation searches still returned sibling results,which were not adopted.",
+    "remaining": "Rotary/button counts,toe/external expression,delay/modulation details,simultaneous ceiling,polarity,display and software/IR/NAM gaps deferred."
   }
 }

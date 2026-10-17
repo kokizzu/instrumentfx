@@ -2161,7 +2161,7 @@ Checked2026-10-17;partial. Own manual identifies guitar multi-effects. Bass/voca
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in pedal functions:volume,wah,tremolo arm,ring modulator. Toe/external expression unresolved. | [Manual p33][ME30-M] |
-| K/F/B | Separate rotary/footswitch/button counts pending panel verification. | Unresolved |
+| K/F/B | Rotary:? / **5 footswitches** /buttons:?. NUMBER1–3 plusBANKDown/BANKUp;expression pedal separate. Button/rotary totals andtoe switch requirefurtherpanelverification. Text-indexeddiagramdescription,notvisualinspection. | [Manual,Panel Descriptions][ME30-M] |
 | Display | One-character7-segment LED plus luminous custom LCD;diagonal,color/touch unverified. | [Manual p33][ME30-M] |
 | Processing / categories | Compressor,OD/DS,EQ/Phaser,Noise Suppressor,Delay,Chorus/Flanger/Pitch Shifter/Tremolo,Reverb,amp simulator. Slash groups are alternatives;simultaneous ceiling and detailed choices pending. | [Manual p33][ME30-M] |
 | Preset memory | **30user+30preset=60patches**,plusManual settings. All30user locations initially duplicate the30presets;60locations do not mean60distinct factory sounds. | [Manual pp30,33][ME30-M] |
