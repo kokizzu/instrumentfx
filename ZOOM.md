@@ -213,6 +213,17 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 
 [Original shared comparison](MULTI-EFFECTS.md)<!-- historical-link:zoom-005 -->,retained pending complete navigation/provenance audits.
 
+
+### B1Xon — verified library and pedal behavior
+
+Checked 2026-10-18 against the explicitly shared [100-effect list, ©2014 Z2I-2129-01](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf), pp2–25, and [B1on/B1Xon manual](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf), pp26–27.
+
+| Field | Model-specific evidence / qualification |
+|---|---|
+| Processing / complete category census | **21 dynamics/filter +14 overdrive/distortion +12 amp +32 modulation/SFX +21 delay/reverb +5 PEDAL =105 entries**. The 25 asterisk-marked Ver1.2 additions reconcile the older **80** with **105**; installed firmware remains unverified. Cabinet selections are amp parameters, not extra slots. |
+| Expression / five pedal algorithms | **PedalVx, PedalWah, PDL Reso, BaPDLPit, BaPDLMnP**. BaPDLMnP explicitly requires single-note playing. Pitch Color variations are parameter mappings, not extra algorithms. |
+| Expression / assignment and switching | **AUTO ASSIGN can control multiple PEDAL effects together**. NO ASSIGN disables control; INPUT VOL controls input; OUTPUT VOL excludes rhythm/looper volume. The pedal switch toggles assigned effects, but **that on/off state is not saved**. This resolves the earlier toe-switch unknown. |
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

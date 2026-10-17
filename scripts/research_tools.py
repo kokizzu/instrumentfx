@@ -851,7 +851,7 @@ def main():
         elif mode=='commit-gs1000':
             subject='research(mooer): add GS1000 across guitar bass and live mic comparisons'
         elif mode=='commit-b1xon':
-            subject='docs(zoom): consolidate complete B1Xon owner-history record'
+            subject='research(zoom): reconcile B1Xon library and multiple pedal assignment'
         if mode=='commit-helix-lt':
             subject='research(line6): add Helix LT with dated specifications and qualified hardware offer'
         if mode=='commit-gt100':
