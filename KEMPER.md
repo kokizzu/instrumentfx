@@ -154,13 +154,13 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee
 | Dimensions / weight | **378W×173D×217H mm;6.50kg**, manufacturer PowerHead specification;not Head's5.32kg [kh-s]. |
 | Simultaneous blocks / category choices | Four flexible pre+four flexible stereo post; six fixed pre+two fixed stereo post,around AMP/CAB. Category census and total-count definitions unresolved [kh-p]. |
 | Preset / factory / user memory | Manual13.0 p.419: **125 Performances ×5 slots =625 Rigs**,stored independently of Browse pool. Browse capacity,combined total andfactory occupancy unresolved. [kh-m] |
-| Synth / acoustic | Dedicated algorithms unresolved;acoustic PROFILEs alone do not establish a simulator. |
-| IR / NAM / captures | Proprietary amp PROFILING creation documented [kh-p]. Manual13.0 p.96: **desktop Rig Manager≥3 converts imported cabinet IRs to cabinet presets**. Software accepts arbitrary source sample rate/length;not unlimited native onboard length.18 Celestion-derived factory presets documented since OS5.5. Native/converted NAM and current capture-version restrictions unresolved. [kh-m] |
+| Synth / acoustic | **Dedicated electric-to-acoustic simulator**, Manual13.0 pp.234–235;prefer post-stack X with Amplifier/Cabinet disabled. Controls Pickup,Body,Bronze,Sparkle. Not intended for acoustic/piezo instruments;distinct from acoustic PROFILEs. Synth algorithms unresolved. [kh-m] |
+| IR / NAM / captures | Proprietary amp PROFILING creation documented [kh-p]. Manual13.0 p.96: **desktop Rig Manager≥3 converts imported cabinet IRs to cabinet presets**. Software accepts arbitrary source sample rate/length;not unlimited native onboard length.18 Celestion-derived factory presets documented since OS5.5. Current manufacturer FAQ confirms **MK2 creates and plays PROFILE2.0 in high resolution**;MK1 only plays standard resolution with OS14. Native/converted NAM and seller installedOS unresolved. [kh-f] [kh-m] |
 | Audio I/O | Front¼-inchTS1Mohm;balanced alternative TRS825kohm;balanced XLR/¼-inch return825kohm. Main stereo balancedXLR/unbalancedTS;monitor anddirect/send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz,master/slave [kh-s]. Exact stereo-monitor routing and phantom details require matching manual. |
 | Audio I/O — speaker output | **600W at8ohm /300W at16ohm**, built-in power amp [kh-s];[kh-p]. Manufacturer Main Manual13.0, Rev.May2025, pp.114–116 permits **passive4/8/16ohm loads**, with4ohm output limited to600W and brief protection muting at that limit. **No loads below4ohm;no grounded active devices/power soaks at SPEAKER OUT**. No cabinet connection is required for operation. Power stage follows MONITOR OUT settings;not a stereo-power-output claim. Connector detail/current hardware-label confirmation remains open. [kh-m] |
 | Control / USB | USB-A/B,USB MIDI;DIN in/out/thru;RJ45;two pedal sockets. **4in/4out USB audio**,44.1kHz [kh-s];[kh-p]. |
 | Power / battery / USB operation | **100–125 or190–245V AC,max10A,50–60Hz**, PowerHead/PowerRack rating;not unpowered Rack's mains specification [kh-s]. Region/selection behavior,actual consumption,battery/USB operation unresolved. DC polarity not applicable to mains. |
-| Editor platforms / drivers | Windows/macOS Rig Manager viaUSB; iOS/Android/FireOS via external WiFi router. Driver/OS minima andmobile parity unverified [kh-p]. |
+| Editor platforms / drivers | Windows/macOS Rig Manager viaUSB; iOS/Android/FireOS via external WiFi router [kh-p]. **OS14.2.2** official2026-09-22 announcement requires desktop≥4.3.13,iOS≥1.9.25,Android/Fire OS≥1.9.42. Rig Manager4 host minimum Windows10 version1703/macOS10.14;separate Windows ARM64 installer. Firmware-specific requirements,not installedOS proof. Driver requirements/mobile parity unresolved. [kh-r] |
 | Practical features | Morphing,Performance switching,instrument/line external loop and Kone modes documented [kh-p]. Looper/control requirements,drums and gapless qualifications unresolved. |
 | Bass capability | Exact PowerHead MK2 page explicitly identifies electric guitar and bass [kh-p];not a complete bass algorithm or low-end performance audit. |
 | Practical features — power stage controls | Manual13.0 pp.114–116: output-section Power Amp switch; **Power Amp Boost up to12dB**;Power Amp Volume mirrors Monitor Volume. Wattmeter estimates speaker heating and is calibrated to4ohm: halve displayed watts for8ohm,quarter for16ohm. Adequate ventilation required;thermal protection can mute output. Revision-qualified manufacturer guidance,not measured performance. [kh-m] |
@@ -173,6 +173,8 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
+[kh-f]: https://www.kemper-amps.com/faqs
+[kh-r]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/
 [kh-m]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
 [kh-p]: https://www.kemper-amps.com/store/en/profiler-powerhead-b.html
 [kh-s]: https://www.kemper-amps.com/profiler/technical-specifications

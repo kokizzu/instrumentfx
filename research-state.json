@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER PowerHead MK2",
-    "task": "PowerHead acoustic/synth,currentcapture/software,panel/display andqualifiedoffers;then nextvariant.",
+    "task": "Check PowerHead additional exact hardware offer and panel/display evidence;thenPowerRack while retaining open gaps.",
     "next_models": [
       "Kemper PROFILER PowerRack MK2 lead",
       "Kemper PROFILER Head MK2 lead"
@@ -63633,5 +63633,15 @@
     "finding": "PowerHead-specific rotary distinction,independentPerformance memory andIRconversion saved.",
     "limits": "Revision-qualified,not hardwaretest;remainingfields staypartial.",
     "next": "PowerHead acoustic/synth,currentcapture/software,panel/display andqualifiedoffers;then nextvariant."
+  },
+  "powerhead_acoustic_capture_software_20261017": {
+    "sources": [
+      "https://www.kemper-amps.com/faqs",
+      "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/",
+      "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf"
+    ],
+    "finding": "Acoustic simulation,explicitMK2capture support andfirmware-qualified editor minima saved.",
+    "remaining": "Controls/display,Browse/factorymemory,categorycensus,NAM,synth,looper,mainsregion andqualifiedoffers.",
+    "next": "Check PowerHead additional exact hardware offer and panel/display evidence;thenPowerRack while retaining open gaps."
   }
 }
