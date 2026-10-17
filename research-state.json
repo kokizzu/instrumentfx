@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G3X original",
-    "task": "G3X analog electrical and converter ratings saved. Commit before next model. Fresh GFX8/RP2000/ME-X/AX300B/NovaSystem/RP150/G2Nu/ME6B searches produced no qualified new model; G3X category asks lack exact item evidence. Next inspect G3X manual category census or pursue different unrecorded hardware series.",
+    "task": "G3X memory saving/reset and global output/display settings saved; commit before next model. Next read numbered effect list pp40–57 to reconcile functional categories, avoiding duplicate explanatory example091 onp40; or resume new Shopee series. No downloads or workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56944,6 +56944,14 @@
       "model": "Zoom G3X original",
       "checked_date": "2026-10-18",
       "finding": "Own manufacturer-linked shared manual p59 supplies analog input/output/headphone/XLR ratings and24bit converter/32bit processing specification, distinct from16bit USB. Separate ACTIVE impedance unspecified.",
+      "sources": [
+        "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf"
+      ]
+    },
+    {
+      "model": "Zoom G3X original",
+      "checked_date": "2026-10-18",
+      "finding": "Verified AUTO SAVE/manual StoreSwap distinction, update preservation versus factory reset, output destinations, patch/global levels, backlight and battery-indication settings. Factory fill split and exact category census remain unresolved.",
       "sources": [
         "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf"
       ]

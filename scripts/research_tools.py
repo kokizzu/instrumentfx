@@ -544,7 +544,7 @@ def main():
         if mode == 'commit-ax10g':
             message = 'research(korg): qualify AX10B Japanese adapter and NR evidence'
         if mode == 'commit-g3x':
-            message = 'research(zoom): qualify G3X analog and converter ratings'
+            message = 'research(zoom): document G3X saving reset and output settings'
         if mode == 'commit-g5':
             message = 'research(zoom): qualify G5 controls looper and tube-booster restrictions'
         if mode == 'commit-ms50gplus':
