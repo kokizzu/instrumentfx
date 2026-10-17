@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom MS-60B Plus",
-    "task": "MS60B+ MIDI chart/revision and0–100 versus100-slot conflict saved. Next resume Shopee brand/series discovery for eligible unrecorded bass/vocal hardware; no downloads. Preserve MS60B+ unknown slot map, display diagonal, USB audio/imports and routing diagram details. Commit each model before next.",
+    "model": "Shopee bass/vocal discovery",
+    "task": "Eight-query BP80/BP355/Vocalist Live3/Boss VF1/Zoom B9 pass found no qualified unrecorded hardware. Next resolve Hope Music mixed G1x Next/B1x Next store lead to exact item and selected B1Xnext variant; do not assign mixed Rp999k floor. No downloads/workflows/push.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -70730,5 +70730,30 @@
       }
     ],
     "limits": "No qualified indexed result is not proof of market absence or stock status. No filesystem downloads."
+  },
+  "discovery_bass_vocal_vf1_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Zoom\" \"B2.1u\" efek bass",
+      "site:shopee.co.id \"Digitech\" \"BP80\"",
+      "site:shopee.co.id \"Vocalist\" \"Live 3\"",
+      "site:shopee.co.id \"Boss\" \"VF-1\"",
+      "site:shopee.co.id \"Boss VF1\" efek",
+      "site:shopee.co.id \"Vocalist Live\" -\"Adaptor\" -\"software\"",
+      "site:shopee.co.id \"Zoom B9\" -\"Adaptor\"",
+      "site:shopee.co.id \"BP355\" -\"Adaptor\""
+    ],
+    "result": "No qualified unrecorded hardware offer. VF-1 results are unrelated F-14 model aircraft/patches. B9 results are cameras/microphones. Adapter remains excluded even when returned by negative-term search. No result does not establish market absence.",
+    "observations": [
+      {
+        "url": "https://shopee.co.id/hopemusik",
+        "finding": "Four-month store cache lists mixed G2.1Nu/G2.1u/B2.1u title Rp1,699,000, plus mixed G1x Next/B1x Next Rp999,000. These are store-level mixed-variation leads, not exact selected-model item evidence; no price assigned and no model added."
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+        "finding": "Previously excluded Rp175,000 independenceshop power adapter resurfaced; not Vocalist Live3 or BP200 hardware."
+      }
+    ],
+    "next": "Try exact Hope Music mixed G1x Next/B1x Next item discovery; require selected B1Xnext variant and manufacturer identity before adding. Do not treat cached mixed-price floor as model price."
   }
 }
