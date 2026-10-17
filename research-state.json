@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MLD Bass Preamp + DI NBP-5 candidate",
-    "task": "Inspect seven-page official image-only manual from saved discovery source;resolve eligibility and product-page mic/reverb conflict. Exact GH Music offer saved. Do not increment counts until canonical model and comparison membership are established.",
+    "task": "Resolve multi-effects inclusion boundary for preamp+drive+gate+IR using complete sources; ifeligible create full rootNUX record and bass membership before incrementing count. Preserve V3/V4 and converter-bitdepth conflicts;do not borrow mic/reverb claim.",
     "next_models": [],
     "after_queue": "Continue bass/vocal discovery,technical gaps and lossless migration audit. No downloads/workflows/push."
   },
@@ -64210,6 +64210,16 @@
     "manufacturer_evidence": "Product describes drive/blend,3-band EQ,noise reduction,IR loading,USB audio. V3 copy specifies3amp models,16IRslots(8factory/8user),48kHz24bit1024sample imports;support separately listsV4.0 firmware. Do not assume V3 library equalsV4.",
     "source_conflicts": "Product paragraph claims dynamic mic input/reverb,while published port list names instrument input,thru/main,XLR DI,aux/phones,microUSB. Do not assign vocal capability from uncorroborated paragraph. 1024samples at48kHz versus printed20.33ms needs arithmetic/revision qualification.",
     "manual_access": "Seven-page manufacturer PDF opens but text extraction returns zero lines. No filesystem download or visual inspection claimed.",
-    "next": "Inspect original manual pages using browser PDF screenshots;verify exact multi-effects eligibility,complete ports,controls,power/body,presets and revision scope before promoting candidate."
+    "next": "Resolve multi-effects inclusion boundary for preamp+drive+gate+IR using complete sources; ifeligible create full rootNUX record and bass membership before incrementing count. Preserve V3/V4 and converter-bitdepth conflicts;do not borrow mic/reverb claim.",
+    "manual_followup": {
+      "source": "https://manuals.plus/nux/nbp-5-melvin-lee-davis-bass-preamp-di-manual",
+      "identity": "Reproduced NUX NBP-5 manufacturer manual,Copyright2019 Cherub;exact model and company identified. Read reproduced manual body;generated FAQs and comments excluded. Byte equivalence with image-only official PDF unverified.",
+      "controls": "Seven named rotary controls:Volume,Blend,Drive,Bass,Middle,Freq,Treble;two footswitches preamp/drive;DI/OUT IR toggles plus PRE/POST andground lift. Button count requires visual inventory.",
+      "gate": "HoldDrive1.5s enters gate control;Blend=Decay,Drive=Threshold;Threshold0disables;holdagain exits.",
+      "power_body": "9V DC negative tip;draw<150mA;optionalACD006A;105L115W58H mm,460g;axes retained as printed.",
+      "routing": "Quarter-inch instrument in,thru/mainout;XLRDIout;3.5mmaux/phones;microBUSB;DC. PRE bypasses preamp toDI,POST includespreamp/drive;DIIR can apply inboth. Thru has no cabIR. No mic input in reproduced complete list;globalpage mic/reverb paragraph remains unsupported.",
+      "access": "Official PDF screenshots returned no viewable image;no visual inspection claimed. device.report manual403. NUXUSA support independently lists model-specific manuals,V4 firmware,editor2.1.12.16Win/mac and separate ASIO packages.",
+      "support": "https://www.nux.us/blogs/support/mld-bass-preamp-plus-di-support-hub"
+    }
   }
 }
