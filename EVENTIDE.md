@@ -10,9 +10,9 @@ Checked 2026-10-17; partial. Max is distinct from Standard/Core; ownership unver
 | Expression | No built-in pedal. External EXP controls multiple parameters;5–25kΩ linear pot, auto-calibration. EXP alternatively supports 3 momentary switches;toe-switch support unknown. Manual calls EXP stereo, product table says mono: retain connector conflict. [M pp25–26][H9-M] |
 | Knobs / footswitches / buttons | **1 rotary/2 footswitches/5 buttons**:encoder;left/right;HOTKNOB,X,Y,Z,PRESETS. Encoder press counted once; derived from text, not visual inspection. [M pp7–9][H9-M] |
 | Display | Six-character display plus LightRing;diagonal,color/touch unverified. [M p18][H9-M] |
-| Processing / choices | **52 algorithms**,from TimeFactor, ModFactor, PitchFactor, Space and H9-specific families. Exact per-family counts pending. **One preset operates both channels; two presets cannot run simultaneously**. Fixed combined algorithms are not free block chains. [P][H9-P],[M p10][H9-M] |
+| Processing / choices | **52 algorithms**,from TimeFactor, ModFactor, PitchFactor, Space and H9-specific families. Guide contents reconcile **Space 12 + PitchFactor 10 + TimeFactor 10 + ModFactor 10 + H9-specific 10 =52** [G pp1–2][H9-G]. **One preset operates both channels; two presets cannot run simultaneously**. Fixed combined algorithms are not free block chains. [P][H9-P],[M p10][H9-M] |
 | Factory / user memory | **99 onboard slots, 99 factory presets, editable/saveable**;not 99 factory + 99 extra user. App offers 500+ presets, not additional onboard slots. [P][H9-P],[M pp7,18][H9-M] |
-| Synth / acoustic | Synth/acoustic-simulation inventory pending the algorithm guide; a harmony name alone does not establish a specific architecture. |
+| Synth / acoustic | **HotSawz:** 6 saw oscillators follow a mono pitch tracker, low-pass filter. **Synthonizer:** additive voice A/subtractive voice B; input 1 only, input 2 disabled, no tempo mode. Acoustic simulation remains unverified. [G pp31,75][H9-G] |
 | Dimensions / mass | Product labels **133H×118W×50Dmm;0.7kg**. Axis labels are unusual for a floor pedal; retained without normalization. [P][H9-P] |
 | Audio / control I/O | Two ¼-inch mono inputs, two ¼-inch mono outputs,EXP,mini USB 2.0, MIDI IN and OUT/THRU 5-pin DIN,DC. **600kΩ input, 470Ω output, load ≥10kΩ**. No headphone connector in the published list. USB audio unverified;USB MIDI documented. [P][H9-P] |
 | Power / battery / USB | **9V DC 500mA, center-positive, 5.5/2.5mm**,supply included; published power specification, not measured current. Battery/USB operation unverified. [P][H9-P] |
@@ -44,3 +44,19 @@ The linked V12 algorithm guide redirects to an inaccessible PDF. Search results 
 
 [H9-D]: https://www.eventideaudio.com/downloads/?product=H9
 [H9-L]: https://cdn.eventideaudio.com/uploads/2021/09/Looper.pdf
+
+### H9 Max — algorithm family reconciliation
+
+Checked 2026-10-17 against the manufacturer-authored guide body on [Scribd][H9-G]. The upload title reports V12; the body identifies H9, its six-character display and H9 Control. Its contents end with TriceraChorus, matching Eventide’s V12 release note. An embedded revision stamp was not independently located; no complete parameter-by-parameter audit or visual inspection claimed. Generated page title and summaries are not evidence.
+
+| Field | Documented algorithms |
+|---|---|
+| Processing / Space 12 | Hall, Room, Plate, Spring, DualVerb, Reverse Reverb, ModEchoVerb, BlackHole, MangledVerb, TremoloVerb, DynaVerb, Shimmer |
+| Processing / PitchFactor 10 | Diatonic, Quadravox, HarModulator, MicroPitch, H910/H949, PitchFlex, Octaver, Crystals, HarPeggiator, Synthonizer |
+| Processing / TimeFactor 10 | Digital Delay, Vintage Delay, Tape Echo, Mod Delay, Ducked Delay, Band Delay, Filter Pong Delay, MultiTap, Reverse, Looper |
+| Processing / ModFactor 10 | Chorus, Phaser, Q-Wah, Flanger, ModFilter, Rotary, TremoloPan, Vibrato, Undulator, RingMod |
+| Processing / H9-specific 10 | UltraTap, Resonator, EQ Compressor, CrushStation, SpaceTime, Sculpt, PitchFuzz, HotSawz, Harmadillo, TriceraChorus |
+
+These are lineage groups, not five simultaneous blocks. Earlier full-guide access gap is narrowed by this readable original-body copy; the official PDF remains inaccessible. Actual installed algorithms/firmware are unverified. The older guide found at [Zikinf](https://www.zikinf.com/manuels/eventide-h9-algorithm-guide-en-46958.pdf) says over40 and no Looper; retain that as older documentation, superseded here by the 52-entry contents and official H9 looper supplement. No file downloaded.
+
+[H9-G]: https://www.scribd.com/document/754982282/Eventide-H9-Multi-FX-Algorithm-Guide-v12
