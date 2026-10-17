@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Prime P2",
-    "task": "Prime P2 initial record saved; resolve simultaneous ceiling, IR/NAM limits, screen color and condition-qualified Shopee asks, then continue fresh brand/series discovery. Commit each useful model update before researching another.",
+    "task": "Prime P2 regional followup saved. Continue fresh eligible bass/vocal Shopee discovery by brand/series; return to P2 technical gaps when stronger sources appear. Commit each model before next.",
     "next_models": [],
     "after_queue": "Continue bass/vocal discovery and migration audit. No downloads/workflows/push."
   },
@@ -64372,5 +64372,17 @@
     "rejected": "19700013/28803822643 isGWF4controller accessoryRp825000Habis,notPrimeP1/P2hardware.",
     "next": "Resolve current simultaneous processing, IR/NAM limits, screen color and condition-qualified Shopee offers; preserve original/manual-versus-current firmware distinctions.",
     "verified_followup": "Original manual V01.2023.09.21 p30 establishes microphone-only compressor/EQ/reverb; official 2024-05-16 and 2024-08-27 notes establish bass algorithms, superseding initial uncertainty. All three memberships justified. Manual p49 says80-second despite p40 eight minutes and product80-minute aggregate; charging/runtime prose conflicts retained."
+  },
+  "prime_p2_regional_followup_20261017": {
+    "model": "MOOER Prime P2",
+    "source": "https://cn.mooeraudio.com/product/65.html",
+    "finding": "Dynamic loading/module reuse explicit, no numerical simultaneous ceiling. Launch134=52+25+57. Prose distinguishes10 freely loadable from80 preset-cached sample data; do not infer80 additional IR slots. Chinese specification5h runtime/3hcharge conflicts global5h/2.5h.",
+    "rejected_mirror": {
+      "url": "https://muzcentre.ru/download/pdf/Mooer%20P2%20Black.pdf",
+      "metadata": "V02.2023.10.08,62pages",
+      "limitation": "Text extraction character mapping unreadable; no revised technical claims accepted, no visual verification."
+    },
+    "market_search": "Targeted Shopee bekas/price queries reproduced existing19700013/25882729171 only; other-marketplace prices not substituted for Shopee. No new condition-qualified ask.",
+    "remaining": "Numerical processing ceiling, current IR/NAM limits, screen color and condition-qualified asks; proceed fresh eligible bass/vocal Shopee discovery rather than repeatedly cycling same inaccessible offer."
   }
 }
