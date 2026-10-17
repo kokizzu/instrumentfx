@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 303,
+  "active_model_count": 304,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 303,
+  "canonical_root_model_count": 304,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "303 unique active/root-canonical;0legacy-only;35brands;6excluded;allpartial.",
+  "count_reconciliation": "304 unique active/root-canonical;0legacy-only;35brands;6excluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Kemper PROFILER PowerRack MK2 lead",
-    "task": "Verify exact PowerRackMK2 manufacturer identity andpowered-rackspecifications;do not copy Headmass/panel.",
+    "model": "Kemper PROFILER PowerRack MK2",
+    "task": "Verify explicitPowerRack manual load/routing/control/memory andcapture/software;keep Headprose conflict;commit before nextvariant.",
     "next_models": [
       "Kemper PROFILER Head MK2 lead"
     ],
@@ -5246,6 +5246,13 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "Exact powered identity,load-qualified output,mains rating andcached37.2moffer;unknowns explicit."
+    },
+    {
+      "model": "Kemper PROFILER PowerRack MK2",
+      "path": "KEMPER.md#profiler-powerrack-mk2",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "ExactSKU,powered-rackspecs,37.2mcachedoffer andHead-proseconflict preserved."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24270,7 +24277,8 @@
       "PROFILER Player",
       "PROFILER Stage MK2",
       "PROFILER Rack MK2",
-      "PROFILER PowerHead MK2"
+      "PROFILER PowerHead MK2",
+      "PROFILER PowerRack MK2"
     ]
   },
   "root_brand_content": {
@@ -24645,19 +24653,20 @@
       "PROFILER Player",
       "PROFILER Stage MK2",
       "PROFILER Rack MK2",
-      "PROFILER PowerHead MK2"
+      "PROFILER PowerHead MK2",
+      "PROFILER PowerRack MK2"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 252,
+      "record_count": 253,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 128,
+      "record_count": 129,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 100,
+      "shared_bass_capable_count": 101,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41642,18 +41651,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 303,
-    "canonical_root_models": 303,
+    "unique_brand_model_pairs": 304,
+    "canonical_root_models": 304,
     "legacy_only_models": 0,
-    "guitar_view_models": 252,
+    "guitar_view_models": 253,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
     "vocal_view_models": 61,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 128,
-    "bass_shared_models": 100,
+    "bass_view_models": 129,
+    "bass_shared_models": 101,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41705,7 +41714,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Kemper PROFILER PowerRack MK2 lead."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Kemper PROFILER PowerRack MK2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41960,7 +41969,8 @@
       "Kemper::PROFILER Player",
       "Kemper::PROFILER Stage MK2",
       "Kemper::PROFILER Rack MK2",
-      "Kemper::PROFILER PowerHead MK2"
+      "Kemper::PROFILER PowerHead MK2",
+      "Kemper::PROFILER PowerRack MK2"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -42090,7 +42100,8 @@
       "Kemper::PROFILER Player",
       "Kemper::PROFILER Stage MK2",
       "Kemper::PROFILER Rack MK2",
-      "Kemper::PROFILER PowerHead MK2"
+      "Kemper::PROFILER PowerHead MK2",
+      "Kemper::PROFILER PowerRack MK2"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -42157,6 +42168,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Kemper::PROFILER PowerRack MK2": "Exact PowerRack MK2 manufacturer page explicitly identifies electric guitar and bass. [Manufacturer](https://www.kemper-amps.com/store/en_ca/profiler-powerrack-b.html).",
     "Kemper::PROFILER PowerHead MK2": "Exact manufacturer PowerHead MK2 page explicitly identifies electric guitar and bass. [Manufacturer](https://www.kemper-amps.com/store/en/profiler-powerhead-b.html).",
     "Kemper::PROFILER Rack MK2": "Exact manufacturer Rack MK2 page explicitly identifies electric guitar and bass. [Manufacturer](https://www.kemper-amps.com/store/uk/profiler-rack-b.html).",
     "Kemper::PROFILER Stage MK2": "Manufacturer Stage guide p.7 explicitly supports bass; current MK2 store identifies complete Stage processing architecture. [Guide](https://www.kemper-amps.com/download/static/263/Profiler%20Stage%20Quick%20Start%202021.pdf). Exact bass library/low-end performance not certified.",
@@ -44539,6 +44551,13 @@
     },
     "Kemper::PROFILER PowerHead MK2": {
       "link": "KEMPER.md#profiler-powerhead-mk2",
+      "source_files": [
+        "KEMPER.md"
+      ],
+      "finding_files": []
+    },
+    "Kemper::PROFILER PowerRack MK2": {
+      "link": "KEMPER.md#profiler-powerrack-mk2",
       "source_files": [
         "KEMPER.md"
       ],

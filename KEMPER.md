@@ -181,3 +181,38 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee
 [kh-s]: https://www.kemper-amps.com/profiler/technical-specifications
 
 Current manufacturer shared specification explicitly names PowerHead;revision-sensitive panel and electrical behavior still need the exact manual. Foreign stock/price not Indonesian availability or converted IDR evidence. No downloads.
+
+## PROFILER PowerRack MK2
+
+Partial record checked **2026-10-17**. Manufacturer SKU19300000 and exact Shopee Power Rack MK2 title. Distinct from Rack,PowerHead and bundled controllers. Product prose calls it a “Head device”;explicit PowerRack dimensions below take precedence for form factor,without silently deleting that source inconsistency.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | Two TRS pedal/switch sockets,10–100kohm [kp-s]. Built-in/toe details unverified;generic four-pedal marketing is not four onboard sockets. |
+| Knobs / footswitches / buttons | ?/?/?;PowerRack MK2 census pending,not PowerHead totals. |
+| Display | Diagonal,color/monochrome,touch unverified. |
+| Dimensions / weight | **483W×220D×139H mm;6.18kg;3U**, explicit PowerRack specifications [kp-s]. |
+| Simultaneous blocks / category choices | Four flexible pre+four flexible stereo post;6fixed pre+2fixed stereo post,around AMP/CAB. Fixed/flexible distinctions retained;complete category counts unresolved [kp-p]. |
+| Preset / factory / user memory | Browse/Performance/user/factory capacities unverified for this record. |
+| Synth / acoustic | Dedicated algorithms unresolved;acoustic PROFILEs alone do not prove a simulator. |
+| IR / NAM / captures | Proprietary amp PROFILING creation documented [kp-p]. IR formats,native/converted NAM and capture-version restrictions unresolved. |
+| Audio I/O | Front¼-inchTS1Mohm;balanced alternativeTRS825kohm;balancedXLR/¼-inch return825kohm. Stereo main balancedXLR/unbalancedTS;monitor/direct-send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz master/slave [kp-s]. Optional stereo-monitor routing requires manual qualification. |
+| Audio I/O — powered output | **600W at8ohm /300W at16ohm**, built-in speaker power amp [kp-s]. Connector,load/grounding/no-load restrictions and mono/stereo qualification need matching manual. |
+| Control / USB | USB-A/B,USB MIDI,DIN in/out/thru,RJ45,two pedal sockets. **4in/4out USB audio**,44.1kHz [kp-s];[kp-p]. |
+| Power / battery / USB operation | **100–125 or190–245V AC,max10A,50–60Hz**, powered-model rating [kp-s]. Mains-region/selection behavior,actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. |
+| Editor platforms / drivers | Rig Manager Windows/macOS viaUSB; iOS/Android/FireOS through external WiFi router [kp-p]. Current OS/driver minima and mobile parity unresolved. |
+| Practical features | Morphing,Performance switching,instrument/line FX loop,Kone modes documented [kp-p]. Looper,drums and exact gapless/control limits unresolved. |
+| Bass capability | Exact PowerRack MK2 manufacturer page explicitly identifies electric guitar and bass [kp-p];not complete bass algorithm/performance certification. |
+
+### PowerRack MK2 — separate IDR asking-price evidence
+
+| Condition / access | Amount | Exact offer / qualifications |
+|---|---:|---|
+| Condition-unverified cached ask | **Rp37.200.000** | [Seller253483262/item5945173489](https://shopee.co.id/Kemper-Profiler-Power-Rack-Mk2-600-watt-Rackmount-Profiling-Amp-Head-Gitar-i.253483262.5945173489),exact Power Rack MK2 hardware title,Jakarta Pusat in [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). September2026 cache checked2026-10-17;direct click cache-missed;display_model_id50511361171. Seller name,new/used,stock,variation,bundle,voucher,warranty,authenticity,installedOS and mains-region variant unresolved. Cached ask,not live checkout/completed sale. |
+| Verified new IDR | ? | Not established. |
+| Verified used IDR | ? | Not established. |
+
+[kp-p]: https://www.kemper-amps.com/store/en_ca/profiler-powerrack-b.html
+[kp-s]: https://www.kemper-amps.com/profiler/technical-specifications
+
+Manufacturer foreign stock does not verify Indonesian stock. No exchange-rate conversion,downloads or visual inspection claimed. All technical/market gaps remain explicit.
