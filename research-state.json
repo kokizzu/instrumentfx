@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 708II",
-    "task": "708II type-count and hold/card audit saved. Continue exact Shopee discovery; synth parameter/persistence/software and price gaps remain explicit.",
-    "next_models": [],
-    "after_queue": "Continue missing bass/vocal discovery and legacy consolidation; no downloads/workflows."
+    "model": "TC-Helicon Mic Mechanic 2",
+    "task": "Exact Shopee leads saved in discovery_vocal_compact_20261017. Verify own manufacturer documents and eligibility; add full partial record with unknowns, rebuild views, and commit before Duplicator.",
+    "next_models": [
+      "TC-Helicon Duplicator"
+    ],
+    "after_queue": "Continue missing bass/vocal discovery and remaining model fields. No downloads or workflows."
   },
   "new_findings": [
     {
@@ -51259,5 +51261,91 @@
       ],
       "result": "No exact missing single-model bass/vocal hardware price established. Vocal300/Vocalist returned175000poweradapters; rejected. No absence or exhaustive coverage claim."
     }
+  },
+  "discovery_vocal_compact_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Boss GT-6B efek",
+      "site:shopee.co.id Vocal 300 Digitech",
+      "site:shopee.co.id Zoom B9.1ut",
+      "site:shopee.co.id ME50B efek",
+      "site:shopee.co.id BP90 efek",
+      "site:shopee.co.id Stomplab 1B",
+      "site:shopee.co.id VoiceLive 2 efek",
+      "site:shopee.co.id Mic Mechanic 2",
+      "site:shopee.co.id Duplicator TC vocal"
+    ],
+    "bass_result": "No new exact bass hardware established in this pass. BP90 diode components and Vocal 300 adapters rejected. Search failure is not evidence of market absence.",
+    "offers": [
+      {
+        "model": "TC-Helicon Mic Mechanic 2",
+        "url": "https://shopee.co.id/VOCAL-EFFECT-TC-HELICON-(MIC-MECHANIC-2)-i.462045001.25352600524",
+        "seller": "EARWAXED",
+        "region": "Kota Bandung",
+        "ask_idr": 2100000,
+        "stock_observation": "Habis",
+        "access": "Exact page reopened; last-week cache with stale October 7–9 delivery.",
+        "condition": "Unknown",
+        "qualification": "Not a current available offer or qualified used/new price."
+      },
+      {
+        "model": "TC-Helicon Mic Mechanic 2",
+        "url": "https://shopee.co.id/tc-helicon-mic-mechanic-2-vocal-effect-i.32027047.29205970297",
+        "seller": "marliqueblues",
+        "region": "Kota Pekalongan",
+        "ask_idr": 2000000,
+        "stock_observation": "Habis in last-week index",
+        "access": "Direct retrieval cache miss; index October 6 delivery stale.",
+        "condition": "Unknown"
+      },
+      {
+        "model": "TC-Helicon Mic Mechanic 2",
+        "url": "https://shopee.co.id/TC-Helicon-Mic-Mechanic-2-Vocal-Effects-Pedal-Efek-Vokal-Zeal-Musik-Jogja-i.26220305.52363985288",
+        "seller": "Zeal Musik",
+        "region": "Kabupaten Sleman",
+        "ask_idr": 2710000,
+        "access": "Exact JS-limited page reopened; last-month cache, August 26 delivery stale.",
+        "condition": "Unknown",
+        "stock_observation": "Unverified"
+      },
+      {
+        "model": "TC-Helicon Mic Mechanic 2",
+        "url": "https://shopee.co.id/TC-HELICON-MIC-MECHANIC-2-Vocal-Effects-Stompbox-Original-i.158235298.11311313367",
+        "seller": "NEO MUSIC",
+        "region": "Kota Sukabumi",
+        "ask_idr": 2700000,
+        "access": "Exact JS-limited page reopened; last-month cache, September 4 delivery stale. Earlier search cache showed 2670000; retain discrepancy, not a price trend.",
+        "condition": "Unknown",
+        "stock_observation": "Unverified"
+      },
+      {
+        "model": "TC-Helicon Duplicator",
+        "url": "https://shopee.co.id/TC-HELICON-DUPLICATOR-Vocal-Effects-Doubling-Reverb-Pitch-Correction-i.158235298.4494020701",
+        "seller": "NEO MUSIC",
+        "region": "Kota Sukabumi",
+        "ask_idr": 2678000,
+        "access": "Exact JS-limited page reopened; last-month cache, September 4 delivery stale.",
+        "condition": "Unknown",
+        "stock_observation": "Unverified"
+      },
+      {
+        "model": "TC-Helicon Duplicator",
+        "url": "https://shopee.co.id/TC-HELICON-DUPLICATOR-Vocal-Effects-Doubling-Reverb-Pitch-Correction-i.103535156.29504097967",
+        "seller": "BEHRINGER Semarang",
+        "region": "Kota Semarang",
+        "ask_idr": 2600000,
+        "access": "Exact JS-limited page reopened; last-month cache, September 7 delivery stale.",
+        "condition": "Unknown",
+        "stock_observation": "Unverified"
+      }
+    ],
+    "common_qualification": "Exact model titles establish hardware leads, not manufacturer specifications or seller authenticity. Sale condition, selected variant, adapter/battery bundle, warranty, shipping/tax, current stock and final total remain unverified. Late-delivery Rp10000 voucher is compensation, not an item discount. No qualified used/new ranges; no downloads.",
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Adaptor-untuk-TC-Helicon-Mic-Mechanic-2-Power-Supply-i.16626959.29936055286",
+        "reason": "Rp175000 power supply, not processor hardware."
+      }
+    ],
+    "next": "Verify Mic Mechanic 2 from its own manufacturer documentation, including independent effect functions, then commit its record before researching Duplicator."
   }
 }
