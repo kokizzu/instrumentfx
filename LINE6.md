@@ -1268,7 +1268,7 @@ Checked **2026-10-17**; partial. Manufacturer styles the name PODxt Live. Guitar
 | Built-in / external / toe expression | Integrated wah/volume/tweak pedal and toe switch; external EX-1 Pedal2 for volume/tweak. [Manual v3][XTL-M], pp2•3,2•9,4•9 |
 | Rotary / footswitches / buttons | **9 / 11 / 7** from text inventory:8 top rotaries plus rear Output Level; Bank2,A–D4,Amp/Stomp/Mod/Delay4,Tap1; Save/Edit/System3 and4 soft buttons. Power,pad,amp/line toggles and toe switch additional. Image corroboration pending. [Manual v3][XTL-M], chapter2 |
 | Display | Backlit LCD plus bank/channel display; diagonal,color mode,touch and resolution unverified. [Product][XTL-P]; [Manual v3][XTL-M], p2•4 |
-| Dimensions / weight | **? / ?** Model-specific primary verification pending; X3 Live and gigbag dimensions not substituted. |
+| Dimensions / weight | **? / ?** Manufacturer dimensions page offers downloadable spreadsheets rather than inline unit values; files not downloaded under the task constraint. X3 Live and gigbag dimensions not substituted. [Dimensions index][XTL-D] |
 | Simultaneous processing / routing | Named processing includes amp/cab,comp,gate,EQ,stomp,mod,delay,reverb,wah,volume; category names are not freely allocatable slots. Maximum simultaneous audio effects remains unverified; no X3 dual-tone claim. [Manual v3][XTL-M], chapters4–6 |
 | Categories / choices | Product advertises **42 amps,24 cabinets,4 microphones,95 effects**. Optional licenses and installed firmware change available choices; complete category reconciliation remains open. [Product][XTL-P]. FX Junkie is included in the Live model set according to manufacturer FAQ. [Model Pack FAQ][XTL-FX] |
 | Bass capability / license condition | **Optional Bass Expansion:28 bass amps,22 bass cabinets**; manufacturer shop cache explicitly lists PODxt Live as compatible. License and models installed in a seller unit unverified. Reopened shop redirects to homepage, so current sale/activation availability unverified; historical USD software ask is not hardware IDR evidence. [Expansion listing][XTL-B]; [Pack guide][XTL-BM], chapter5 |
@@ -1277,7 +1277,7 @@ Checked **2026-10-17**; partial. Manufacturer styles the name PODxt Live. Guitar
 | IR / NAM / capture | Factory cab/mic modeling documented; user IR,native NAM,converted NAM and proprietary capture loading each unverified. |
 | Audio / control I/O | Quarter-inch mono instrument input and unbalanced L/Mono,R outputs; phones; auxiliary input; Variax digital; MIDI In/Out; USB; Pedal2; power input. Aux signal excluded from USB recording. Aux/phones exact connector sizes and USB rates/channel count remain unverified. [Manual v3][XTL-M], pp2•1–3 |
 | Power / battery / USB | **Included PX-2** specified by own manual; manufacturer separately identifies named PX-2 as AC supply. Exact voltage/current,barrel,measured draw,battery/USB operation unverified in this pass. DC polarity not assigned to an AC supply. [Manual v3][XTL-M], p2•1; [PX-2 identity][XTL-PWR] |
-| Editor / platforms / drivers | Product documents historical **Line6 Edit on Mac/PC** and GuitarPort. Later **GearBox** is the XT hardware editor; Monkey handles firmware/bundle utilities. POD Farm plug-in is not standalone XT editing. Current OS/mobile support and audio drivers unverified. [Product][XTL-P]; [GearBox][XTL-G]; [POD Farm][XTL-F] |
+| Editor / platforms / drivers | Product documents historical **Line6 Edit on Mac/PC** and GuitarPort. Later **GearBox** is the XT hardware editor; Monkey handles firmware/bundle utilities. POD Farm plug-in is not standalone XT editing. Manufacturer lists **POD XT audio drivers,editors,updaters,Control Panel and License Manager as not receiving Apple Silicon support**. Monkey is discontinued for newer OS releases,including Windows11,Catalina and Monterey; manufacturer says firmware installation requires an older supported OS. This does not establish failure on every Intel Mac or prove a working license-activation route. Other current OS/mobile support remains unverified. [Silicon notice][XTL-S]; [Monkey notice][XTL-MON] [Product][XTL-P]; [GearBox][XTL-G]; [POD Farm][XTL-F] |
 | Live / practical features | Tap/tuner,Manual Mode,amp/line destinations; headphone insertion overrides destination with Studio mode. Looper,drums,scenes,persistence and spillover unverified. [RevB][XTL-OLD], pp1•1,2•2–3. Manufacturer FAQ acknowledges obsolete output-mode terminology in manual. [FAQ][XTL-Q] |
 | Used IDR | **?** Saved sold-out hardware ask lacks sale-condition evidence. |
 | New IDR | **?** No condition-verified new hardware offer established. |
@@ -1309,6 +1309,10 @@ Remaining: power label/dimensions/weight,control image,precise simultaneous effe
 [XTL-PWR]: https://kb.line6.com/line-6-four-button-stompbox-pedal-faqs
 [XTL-G]: https://kb.line6.com/getting-started-with-gearbox-amp-effect-modeling-software
 [XTL-F]: https://kb.line6.com/pod-farm-1-faq
+
+[XTL-S]: https://kb.line6.com/macos-11-big-sur-silicon-m1-chip-compatibility
+[XTL-MON]: https://kb.line6.com/line-6-monkey-discontinued
+[XTL-D]: https://kb.line6.com/line-6-product-weights-and-dimensions
 
 ## POD HD400
 

@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal Shopee discovery",
-    "task": "HD400 recorded separately with own Flash2.0 bass capability. Saved Line6 legacy queue exhausted. Resume new exact bass/vocal hardware discovery; avoid repeated accessory and unresolved mixed-shop hits.",
+    "model": "Line 6 POD X3 Live software follow-up",
+    "task": "XT Live Silicon/Monkey notices now saved. Next review X3 Live own existing editor row against manufacturer POD X3 Silicon exclusion and Monkey discontinuation; commit it separately. Then resume different exact bass/vocal discovery.",
     "next_models": [],
-    "after_queue": "Resolve technical gaps and continue lossless legacy consolidation; no downloads/workflows."
+    "after_queue": "Continue unresolved technical verification and lossless migration; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4800,6 +4800,18 @@
       ],
       "finding": "Own HD300/400 Flash2.0 guide explicitly supports Flip Top bass. Revision-qualified category counts, stereo loop,24s mono looper,USB/L6 LINK restriction; handbook12/9/6 controls. Cached sold-out ask not condition-qualified.",
       "remaining": "Power/body/display/control image; simultaneous maximum,firmware reconciliation,current software,IR/NAM/capture and qualified prices."
+    },
+    {
+      "model": "Line 6 POD XT Live",
+      "checked_date": "2026-10-17",
+      "status": "partial_followup",
+      "sources": [
+        "https://kb.line6.com/macos-11-big-sur-silicon-m1-chip-compatibility",
+        "https://kb.line6.com/line-6-monkey-discontinued",
+        "https://kb.line6.com/line-6-product-weights-and-dimensions"
+      ],
+      "finding": "Manufacturer explicitly excludes POD XT tools from future Apple Silicon support. Monkey discontinued on newer OS; firmware requires older supported OS. Dimensions index supplies spreadsheets only; no download performed.",
+      "remaining": "Current supported Windows/Intel Mac configurations,activation availability,body/power/display and other saved technical gaps."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40895,7 +40907,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD X3 Live software follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -51761,5 +51773,20 @@
     ],
     "qualification": "Historical asks only; no new qualified used/new range or technical claims. Working condition,selected variation,actual bundle,warranty,stock,shipping/tax,voucher/final total unverified; late compensation not deducted.",
     "next": "Try new exact bass/vocal leads by model/series; keep pending offers separate until brand record update."
+  },
+  "discovery_bass_vocal_20261017_xtfollowup": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id bass BP90",
+      "site:shopee.co.id bass GT-6B",
+      "site:shopee.co.id Vocal VE-500 bekas",
+      "site:shopee.co.id Vocal VT-4",
+      "site:shopee.co.id Line6 M13",
+      "site:shopee.co.id Zoom B9.1ut",
+      "site:shopee.co.id ME50B",
+      "site:shopee.co.id VOICELIVE TOUCH"
+    ],
+    "result": "No exact new eligible hardware item resolved. M13 hit216990724/6861766207 is Rp144200 replacement supply,not processor; other M13 hits adapters. VoiceLive3Extreme broad-search snippets are already recorded model,not Touch evidence. Limited search failure is not proof of absence.",
+    "next": "Resume different bass/vocal leads and technical followups; do not repeat unchanged adapter results."
   }
 }

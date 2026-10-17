@@ -343,7 +343,7 @@ def main():
         if mode == 'commit-hd400':
             message = 'research(line6): add POD HD400 with revision-qualified bass and USB restrictions'
         if mode == 'commit-xtlive':
-            message = 'research(line6): add POD XT Live with conditional bass licensing and memory conflicts'
+            message = 'research(line6): qualify XT Live Silicon support and discontinued updater'
         if mode == 'commit-x3live':
             message = 'research(line6): add shared POD X3 Live with model-specific controls and routing'
         if mode == 'commit-harmony-singer2':
