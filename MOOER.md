@@ -1502,6 +1502,11 @@ Checked 2026-10-17; partial. Guitar multi-effects;ownership,bass/vocal suitabili
 | Dimensions / mass | **370D×96W×51Hmm;1.23kg**,as officially labelled. Axis inconsistency not silently normalized;size bin unresolved. [Product][BT-P] |
 | IR / NAM / capture | Own Chinese product describes IR-based headphone cabinet simulation;user IR/native/converted NAM/capture import unverified. [Chinese product][BT-CN] |
 | Editor / platforms | Editor/updater OS and USB/audio unverified. A direct output for computer connection does not establish USB interface. |
+| Manual language conflicts | CN describes TWEAK as mid-frequency gain; EN describes bass response. CN connection text says PHONES mutes SPEAKER OUT, whereas EN introduction explicitly permits simultaneous direct/main outputs. Actual behavior and revision equivalence remain unresolved. [Manufacturer manual EN/CN][BT-M] |
+| Live / loop and reset | CN: switches 4+5 toggle the buffered FX LOOP; hold 4+5 during power-on to restore factory settings. [Manual CN][BT-M] |
+| Controls / MOD subdivision | CN lists whole, half, quarter, eighth, triplet, sixteenth and X/random: seven rotary-selector patterns. [Manual CN][BT-M] |
+| Controls / EQ frequencies | CN specifies 100/250/630Hz, 1.4/4kHz plus LEVEL. [Manual CN][BT-M] |
+| Live / tuner qualification | EN specifies TAP to exit; CN also describes any footswitch exit. Neither section explicitly settles COMP/FX-loop preset recall scope. [Manual EN/CN][BT-M] |
 | Live / routing | Serial loop between EQ and MOD;four-cable setup supported. EQ positions before/after HI-GAIN. Tap controls delay,MOD,or both. Looper/drums/scenes unverified. [Manual][BT-M] |
 
 ### Separate IDR hardware offers

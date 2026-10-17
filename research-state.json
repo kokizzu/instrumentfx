@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Black Truck",
-    "task": "Black Truck controls/SPACE/tap mappings and PHONES connector conflict saved. Next reconcile preset COMP/FX-loop scope and full control totals from own documentation;preserve English/Chinese differences before deferral.",
+    "task": "Black Truck EN/CN differences saved; preset COMP/loop recall and output behavior remain unresolved. Defer these gaps pending stronger own-model evidence; next fresh Shopee discovery by brand/series without duplicating 264 records.",
     "next_models": [],
     "after_queue": "Preserve prior gaps and migration limits;no downloads/workflows/push."
   },
@@ -55518,5 +55518,11 @@
     "saved": "COMPtoggle/5frequency+levelsliders,SPACEfivecontrols,taptargetswitchcombinationsandmutedtuner.",
     "conflict": "PHONESconnectionprosequarterinchversusmanualspec/producteighthinch;physicalunverified.",
     "remaining": "Fullrotary/buttoninventory;presetCOMP/FXloopstaterecallscope;officialmanualrevision;powerdrawbarrelbatteryUSB;IRimport/editorOS;pricescondition;dimensionaxes."
+  },
+  "blacktruck_language_checkpoint_20261017": {
+    "source": "https://manualzz.com/doc/68316423/mooer-black-truck-combined-pedals-owner-s-manual",
+    "saved": "CN loop toggle/reset, EQ frequencies, seven subdivision patterns; EN/CN TWEAK, tuner exit and headphone/main-output conflicts preserved.",
+    "limits": "Manufacturer authored transcription; original official revision and physical behavior unverified; no downloads or visual inspection.",
+    "remaining": "COMP/FX-loop preset recall, full controls, output behavior, official revision, power actual draw/barrel/battery/USB, import/editor platforms and qualified current prices."
   }
 }
