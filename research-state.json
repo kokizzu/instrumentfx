@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery",
-    "task": "GT-1 owner-manual battery fallback and backup scope saved. Resume fresh exact Shopee hardware discovery by brand/series; GT-1 power voltage/polarity,USB-power,108 counting convention remain open. Do not repeat unchanged queries.",
+    "model": "MOOER Red Truck",
+    "task": "Exact Indonesian Melodia hardware lead found with conflicting cached asks; inspect primary_lead in discovery_redtruck_b91ut_20261017, add canonical record with explicit gaps and pricechannel qualifiers, commit before nextmodel. RedTrucknotcounted yet.",
     "next_models": [],
-    "after_queue": "274partialmodels;fulltechnical/marketverification andlegacyretirementincomplete;no downloads/workflows/push."
+    "after_queue": "274partialmodels;no downloads/workflows/push;ZoomB9.1utforeignoffersnotIDR;continue fullscope."
   },
   "new_findings": [
     {
@@ -56662,5 +56662,29 @@
     "pages": "2,8",
     "facts": "Manufacturer recommends installedbatteries forcontinuityifadapterdisconnects;BatteryLowwarning. Dedicatedsoftware backsuppatchesandsystemsettings;patchnaming/reordering;USB2.0cable.",
     "limits": "Noexplicitbuspowerstatementfound;voltagepolarityremainunknown;nodownloads/devicechanges."
+  },
+  "discovery_redtruck_b91ut_20261017": {
+    "checked": "2026-10-17",
+    "red_truck": {
+      "unrecorded": true,
+      "indonesian_offer": "https://www.melodiamusik.com/product/mooer-red-truck/",
+      "seller": "Melodia Musik",
+      "search_observation": "Rp3689000 vs4340000;2weekcrawl;Jakarta/Bali/BSD tersedia,Yogyakarta/Surabaya notavailable.",
+      "opened_observation": "Rp3472000 vs4340000;10monthcrawl;Tersedia;warehousecodesselector,SKU Red-Truck.",
+      "limits": "Conflicting cache versions,notcurrentrange;condition,bundle,warranty,shippingtax,checkoutstock andwarehouseallocation unverified. NotShopee;noqualifiedShopeeIDitemfound.",
+      "primary_lead": "https://mooer.jp/products/redrtuck",
+      "next": "Inspect own exactmodel manufacturerpage/manual and createcanonicalrecord withretailerchannel/distinctcachequalifications ifeligibilityconfirmed;do notborrowBlackTruck."
+    },
+    "b91ut": {
+      "unrecorded": true,
+      "foreign_offers": [
+        "https://shopee.com.my/Zoom-Guitar-Tube-USB-Multi-Effects-B9.1ut-i.1002993593.24783455425",
+        "https://shopee.tw/免運『ZOOM』旗艦機貝斯綜合效果器-B9.1UT-新品公司貨-現貨供應🌹🌹-i.13258656.4142014300"
+      ],
+      "limits": "ForeignregionoffersnotIDRorIndonesianstock;noFXspecsborrowed.",
+      "primary_lead": "https://zoomcorp.coreclients.net/media/documents/E_B91ut.pdf"
+    },
+    "ax3000b": "NoqualifiedexactIndonesianhardwareinlimitedsearch;notabsence.",
+    "rejected": "BroadZoomB9searchyieldedcameras/MIXIOwirelessmicrophones;notZoomB9processor."
   }
 }
