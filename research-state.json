@@ -24934,10 +24934,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 276 guitar, 141 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 279 guitar, 141 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "329 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "332 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41745,8 +41745,8 @@
     },
     "navigation_audit": {
       "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
-      "markdown_files": 160,
-      "local_link_occurrences": 3392,
+      "markdown_files": 161,
+      "local_link_occurrences": 3410,
       "legacy_files": 117,
       "registered_redirects": 116,
       "separately_verified_archival_redirect": [
