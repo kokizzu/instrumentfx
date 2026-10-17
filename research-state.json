@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX3",
-    "task": "GNX3 mic recording and Talker output routing saved without inferring live vocal category. Next inspect own guide Re-Amp and recorder output configuration for remaining restrictions. Commit each model before next.",
+    "task": "GNX3 Re-Amp stop reset and analog/digital output separation saved. Next inspect GNX4 current record and own manual for unresolved controls/recording/routing evidence. Commit model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56158,6 +56158,13 @@
       "source": "https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf",
       "finding": "Own guide pp6,22,39: headphone stereo/Direct restriction, five Talker types output quarter-inch only, mic recorder dry/reverb/mod modes and separate guitar/mic tracks.",
       "remaining": "Live vocal membership remains unverified; phantom, full category inventory, display, power-source conflict and qualified offers unresolved."
+    },
+    {
+      "model": "DigiTech GNX3",
+      "date": "2026-10-18",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf",
+      "finding": "Own guide pp40,65,70: REAMP1–8 track through preset; STOP resets recording input to guitar after reamp recording; analog separation and recorder muting; independent digital routing.",
+      "remaining": "Power conflict, full category/control census, display specifications, current software support and qualified prices remain unresolved."
     }
   ],
   "discovery_cross_brand_bass": {

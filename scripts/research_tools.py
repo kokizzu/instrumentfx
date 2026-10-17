@@ -437,7 +437,7 @@ def main():
         if mode == 'commit-mx200':
             message = 'research(lexicon): reconcile MPX100 banks and preserve delay conflict'
         if mode == 'commit-gnx3':
-            message = 'research(digitech): qualify GNX3 mic recording and Talker routing'
+            message = 'research(digitech): document GNX3 reamp reset and recorder output separation'
         if mode == 'commit-b1four-followup':
             message = 'research(zoom): preserve separate B1 FOUR cveri cached hardware ask'
         if mode == 'commit-b1xfour-followup':

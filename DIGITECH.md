@@ -425,6 +425,12 @@ Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 and
 | Audio output / headphones | Manual requires stereo headphones and Direct Target System Setup; a mono plug may damage the output driver. [G-M p.6] |
 
 
+| Field | Evidence / qualification |
+|---|---|
+| Recording / reamp | REAMP 1–8 reprocesses the selected recorder track through the current preset. STOP resets recording input to GUITAR after reamp recording. [G-M p.40] |
+| Audio output / recorder separation | Analog G>L R>R sends guitar left and recorder right. MONO GTR/STEREO GTR mute recorder playback at analog outputs. Analog and S/PDIF routing are independently configurable. [G-M pp.65,70] |
+
+
 ### GNX3 — separate IDR evidence
 
 | Price class | Amount | Offer and qualification |
