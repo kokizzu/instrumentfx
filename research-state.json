@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee Indonesia discovery",
-    "task": "ME-8 useful manual findings committed. Delay/panel evidence deferred after empty PDF body and unusable screenshots. Search new exact hardware by brand/series; do not repeat failed ME-8 queries or adopt siblings.",
+    "task": "Fresh discovery saved unresolved Zoom606/607 and BOSS GT3 leads with accessory exclusions. Next resolve exact item from source links or search new bass/vocal/other-brand series; no active model added from category-only lead.",
     "next_models": [],
     "after_queue": "Preserve ME-8, RP200, AX100G, ME-30, GT-5 and RFX-2000 deferred gaps. No downloads, workflows or push."
   },
@@ -54242,5 +54242,47 @@
     ],
     "result": "Delay values and panel counts remain unverified. No visual inspection claimed; no file download attempted.",
     "next": "Defer these fields until a readable manufacturer-authored copy or usable browser rendering is available; continue exact hardware discovery."
+  },
+  "discovery_legacy_processors_20261017": {
+    "checked_date": "2026-10-17",
+    "searched": [
+      "DigiTech RP80",
+      "DigiTech RP55",
+      "Zoom606/607",
+      "Korg AX1G",
+      "BOSS GT3"
+    ],
+    "leads": [
+      {
+        "models": [
+          "Zoom606",
+          "Zoom607"
+        ],
+        "source": "https://shopee.co.id/search?keyword=zoom+guitar+effect",
+        "indexed_title": "Efek Gitar Zoom 606 & 607 Made Japan dan China",
+        "listing_ask_idr": 1099000,
+        "region": "Bandung",
+        "limit": "Search index crawled last month; exact item unresolved, model-to-price mapping unknown. No per-model price assigned."
+      },
+      {
+        "model": "BOSS GT3",
+        "source": "https://shopee.co.id/search?category=11043572&keyword=efek+gitar+boss&page=2&subcategory=11043648",
+        "listing_ask_idr": 1900000,
+        "region": "Singkawang",
+        "limit": "Search index crawled last month; exact item, seller and condition unresolved."
+      }
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/stiker-boss-gt3-gt6-gt8-gt10-i.57900729.6952746941",
+        "reason": "Decal, not processor"
+      },
+      {
+        "url": "https://shopee.co.id/lcd-boss-gt3-gt6-gt8-original-i.57900729.16195441074",
+        "reason": "Replacement LCD, not processor"
+      }
+    ],
+    "access": "Current Hope Music storefront browser text does not expose its older indexed GT100/GT3/GT5 listing link. Do not reconstruct item URL.",
+    "result": "No new exact hardware item resolved; leads remain pending. Limited search is not market-absence evidence."
   }
 }
