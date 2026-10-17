@@ -579,7 +579,7 @@ def main():
         if mode == 'commit-b2-followup':
             message = 'research(zoom): document B2 FOUR USB routing and loop timing'
         if mode == 'commit-ax3000g':
-            message = 'research(korg): verify AX100G live routing and regional adapters'
+            message = 'research(korg): preserve qualified AX3000G second-title historical offer'
         if mode == 'commit-pandora':
             message = 'research(korg): include qualified PANDORA stomp historical offer in comparisons'
         if mode == 'commit-vl3x':

@@ -86,6 +86,7 @@ Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass s
 | Condition | IDR evidence / qualifications | Source |
 |---|---|---|
 | Used | **Rp2,200,000**, explicitly BEKAS; **Habis**. guitardistro, Kota Bandung; shop212343682/item20691675327. Checked2026-10-17, JS-limited body with two-week cached crawl. Working condition, adapter/bundle, warranty, shipping/tax/voucher and delivered total unverified. Stale29Sep delivery is not stock proof;10k late-delivery compensation is not a discount. | [Exact item](https://shopee.co.id/EFFECT-KORG-AX3000G-BEKAS-i.212343682.20691675327) |
+| Used-title historical ask; sold out | **Rp1.500.000**, title explicitly SECOND; **Habis**. Alif_music_store,Kab.Gresik;shop132269522/item28705630633. Checked2026-10-17,direct JS-limited cached body,last-month crawl;search snapshot five months old. Stale30Aug–1Sep delivery;no live availability orcompleted sale. Page taxonomy incorrectly shows food/noodles;hardware identity rests on title,not category. Working state,authenticity,adapter/bundle,selected variant,warranty,shipping/tax/voucher anddelivered total unknown. Up-toRp10.000 late-arrival compensation isnot price discount. | [Exact item](https://shopee.co.id/KORG-AX-3000-G-TONEWORKS-SECOND-i.132269522.28705630633) |
 | New | Unknown; no qualified retail/new offer established. | — |
 
 <!-- comparison evidence ends -->
