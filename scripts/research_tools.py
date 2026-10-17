@@ -335,7 +335,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-gt6':
-            message = 'research(boss): add GT-6 with exact used offer and original manual evidence'
+            message = 'research(boss): qualify GT-6 synth routing display and mass'
         if mode == 'commit-hxone':
             message = 'research(line6): verify HX One dimensions and qualify regional specifications'
         if mode == 'commit-pocketpod':

@@ -28,11 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-6 manual follow-up",
-    "task": "Verify chain ceiling/category counts,connector sizes and synth restrictions in ownmanual;then RP1000 exactsoldout lead. Commit eachmodel before next.",
-    "next_models": [
-      "DigiTech RP1000"
-    ],
+    "model": "DigiTech RP1000",
+    "task": "Start exact Shopee150310054/3200318448 soldout lead;verify officialmanual before addition. GT6 new manual fields committed;do not repeat.",
+    "next_models": [],
     "after_queue": "FreshShopee discovery;no downloads/workflows."
   },
   "new_findings": [
@@ -40573,7 +40571,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-6 manual follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP1000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49263,6 +49261,14 @@
       },
       "finding": "Category sum104 includes OutputVolumePedal control;DI models separate. Monophonic/chord pitch distinction retained. No downloads.",
       "remaining": "Physical switch corroboration,screen diagonal/color/touch,imports,current library additions and condition-verified prices."
+    },
+    {
+      "model": "BOSS GT-6",
+      "checked_date": "2026-10-17",
+      "source": "https://static.roland.com/assets/media/pdf/GT-6_OM.pdf",
+      "pages": "21,24,26,28–29,38,43–44,60,79",
+      "finding": "Mass4.7kg excludesadapter;16x2backlitLCD+2char7segmentLED;sixspeakerselectors(5explicit+Original),2delaymodes1800ms,5reverbs;single-noteSynth/Harmonist;externalreplacesODDS;editablechain.",
+      "remaining": "Explicit maximum simultaneous ceiling,connector sizes,userfactoryfill,screen diagonal/color/touch,imports/editor,loopdrums andqualifiedliveoffers."
     }
   ],
   "discovery_cross_brand_bass": {

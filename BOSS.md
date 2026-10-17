@@ -1940,16 +1940,16 @@ Discontinued guitar multi-effects;not GT-6B. Checked2026-10-17;partial. Ownershi
 |---|---|---|
 | Expression | Built-in assignable pedal with toe switch;external EV-5/FV-300L or two switches via shared SUB EXP/CTL1,2 jack. | [Manual pp7,11–13][GT6-M] |
 | K/F/B | **17 rotary /7 main footswitches /23 buttons**,text-derived:15 dedicated frontknobs+PATCH/VALUE+rearOUTPUT;BANK2+NUMBER4+CTL;12effectbuttons+2PARAMETER+9utilitybuttons. Toe/power separate. | [Manual pp8–11][GT6-M] |
-| Display | LCD plus bank display;diagonal,color,touch unverified. | [Manual pp8,61][GT6-M] |
-| Processing / category choices | Product:30amp,15OD/DS,5wah models;manual37effects headline. FX1 lists9 alternatives,FX2 lists16;not simultaneous counts. Exact maximum chain/cab/delay/reverb subtotals pending. | [Product][GT6-P];[Manual pp7,32–45][GT6-M] |
+| Display | **16characters×2lines backlit LCD+2character7segmentLED**;diagonal,color,touch unverified. | [Manual pp8,61,79][GT6-M] |
+| Processing / category choices | Product:30amp,15OD/DS,5wah models;manual37effects headline. FX1 lists9 alternatives,FX2 lists16;not simultaneous counts. Speakerselector6settings:5explicitcabs+amp-linkedOriginal;not6independentIRs. Delay2modes(Single/Tap),0–1800ms;reverb5types. Exactsimultaneousceiling pending. | [Product][GT6-P];[Manual pp7,24,26,28–29,32–45][GT6-M] |
 | Factory / user memory | **340=140user+200preset**;preset edits save to user. User factory-fill not checked. | [Product][GT6-P];[Manual p15][GT6-M] |
-| Synth / acoustic | GuitarSynth,AcousticGuitarSimulator;tracking restrictions pending. | [Manual pp33,43][GT6-M] |
-| Dimensions / mass | **515W×261D×75H mm;4.7kg**;mass inclusion unstated. | [Product][GT6-P] |
+| Synth / acoustic | GuitarSynth,AcousticGuitarSimulator. Synth/Harmonist require single-note playing;mute previous string before nextattack. SynthSquare/Saw use pitch-detected oscillators;Brass/Bow process input. | [Manual pp33,38,43–44][GT6-M] |
+| Dimensions / mass | **515W×261D×75H mm;4.7kg**;**excludingACadapter**. | [Product][GT6-P];[Manual p79][GT6-M] |
 | I/O | Input,Lmono/R outputs,phones,send,return,coaxialS/PDIF,SUBEXP/CTL1,2,MIDIIN/OUT,ACadapter. Connector sizes pending. USB absent from complete listed ports. | [Product][GT6-P] |
 | Power / battery / USB | **14VAC,BRCseries;800mA draw**. DC center-polarity not applicable to specifiedAC. Battery-powered operation unverified;manual memory-backup battery is not operating power. | [Product][GT6-P];[Manual p4][GT6-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture loading unverified;COSM customization not capture import. | Unresolved |
 | Editor / software | Current official editor/platforms unverified;MIDI bulk backup documented. | [Manual pp67–68][GT6-M] |
-| Looper / drums / live | Manual stomp control,tuner;patch changes cut delay/reverb tails. Looper,drums,scenes unverified. | [Manual pp15,56–59][GT6-M] |
+| Looper / drums / live | Manual stomp control,tuner;patch changes cut delay/reverb tails. External loop replacesOD/DS,not additional independent driveblock;chainorder editable. Looper,drums,scenes unverified. | [Manual pp15,21,56–60][GT6-M] |
 
 ### Separate IDR hardware offers
 
