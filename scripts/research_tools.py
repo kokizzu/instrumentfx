@@ -427,7 +427,7 @@ def main():
         if mode == 'commit-gnx3':
             message = 'research(digitech): document GNX4 channel EQ and cabinet tuning ranges'
         if mode == 'commit-b1four-followup':
-            message = 'research(zoom): preserve exact sold-out B2 FOUR adapter-bundle ask'
+            message = 'research(zoom): preserve qualified B1 FOUR Palembang offer'
         if mode == 'commit-b1xfour-followup':
             message = 'research(zoom): resolve B1X FOUR display memory and looper qualifications'
         if mode == 'commit-readme-counts':

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX StompLab 2B",
-    "task": "StompLab2B MOD/DLY/RVB choices andfeedbackvariant distinction saved;actualdelaytimeunits unverified. NextfreshShopeediscovery orremainingmodelprimarygaps.",
+    "model": "Zoom B1 FOUR",
+    "task": "Palembang exactoffer savedwithunknowncondition/stock;keepvoucherbundle separate. Continuefreshdiscoveryandremainingprimaryfields;originalB1notB1FOUR.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab 2B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B1 FOUR."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60998,5 +60998,26 @@
       "GlobalAPLnMaster0to10"
     ],
     "remaining": "Actualdelaytimeunits,polarity,acousticspecifics,displayandqualifiedoffers"
+  },
+  "b1four_palembang_offer_20261017": {
+    "url": "https://shopee.co.id/Zoom-B1-Four-Bass-Multi-Effect-Processor-Original-Efek-Gitar-i.548551522.25542280677",
+    "seller": "sunnymusicpalembang",
+    "shop": "548551522",
+    "item": "25542280677",
+    "idr": 1990000,
+    "region": "KotaPalembang",
+    "access": "Directmontholdcrawl",
+    "condition": "unknown",
+    "stock": "unconfirmed",
+    "limits": "StaleAug21–22delivery;workingstatus,bundle,adapter,warranty,shipping/taxunknown;noHabisnotstockproof;latecompensationnotdiscount"
+  },
+  "discovery_bass_originals_20261017": {
+    "queries": [
+      "site:shopee.co.id Zoom B1 efek bass",
+      "site:shopee.co.id Zoom 506",
+      "site:shopee.co.id Korg AX3B",
+      "site:shopee.co.id Boss ME-8B"
+    ],
+    "result": "ExistingB1FOURhardware;nooriginalB1/506/AX3B/ME8Bqualifiedlead;irrelevantmatchesexcluded;notabsenceproof"
   }
 }
