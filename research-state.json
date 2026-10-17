@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP155",
-    "task": "First-pass RP155 record added. Complete category/loop/routing audit and confirm Shopee hardware versus manual identity; body dimensions remain unknown because source measurements are shipping.",
+    "task": "RP155 category/loop audit saved with library-count contradictions. Continue market discovery; retain unresolved body measurements and ambiguous Shopee manual-title lead.",
     "next_models": [],
     "after_queue": "Continue missing bass/vocal discovery and legacy consolidation; do not treat unsuccessful searches as absence."
   },
@@ -49765,6 +49765,15 @@
       "sources": [
         "https://cdn.mediavalet.com/aunsw/musictribe/qpnCBAUO90iaytgcpSr3Ng/BO7R0l3qqE6jsWGytbBfrQ/Original/8849825169438.pdf"
       ]
+    },
+    {
+      "model": "DigiTech RP155",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf"
+      ],
+      "finding": "Counted named model tables; amp20electric+1acoustic+Direct conflicts23marketing; distortion10table vs4sentence. ChorusFX17detailed shared one slot; generic SynthTalk/YaYa not in detailed list. Whammy preamp placement; looper Down-held overdub/Up preset navigation.",
+      "remaining": "83total reconciliation,synth wording conflict,actualbody size,poweroff loop retention,qualified hardware offer."
     }
   ],
   "discovery_cross_brand_bass": {
