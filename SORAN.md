@@ -61,7 +61,7 @@ Desktop guitar/bass multi-effects;checked2026-10-18,partial. Own manufacturer ma
 | Expression / toe | External¼in TRS EXP/CTRL:10–100kohm pedals;manual maps volume ordual switch ring=down,tip=up. No built-in pedal documented;toe unverified. [TS-P],[TS-M] |
 | K/F/B | Text-derived2rotary(Master,Edit),0onboard footswitches documented,2separate Left/Right buttons;encoder press countedonce,power separate. No panel-image corroboration. [TS-M] |
 | Display | 2-inch color TFT;touch unverified. [TS-P] |
-| Processing / choices | Advertised125effects/up to10modules:8tone modules pluslooper/drums. Exact per-category enumeration pending;empty import slots must not become factory algorithms. 30factoryamps/cabs plus10user slots each. [TS-P],[TS-M] |
+| Processing / choices | Advertised125effects/up to10modules:8tone modules pluslooper/drums. Per-category audit below separates factory choices from empty import slots. 30factoryamps/cabs plus10user slots each. [TS-P],[TS-M] |
 | Factory / user memory | 99editable locations;manual describes99factory presets,product01–80guitar/81–99bass. Not198locations. [TS-P],[TS-M] |
 | Synth / acoustic | Specific synth/acoustic simulation unverified. |
 | Dimensions / mass | 109L×84W×32H mm;250g. [TS-P] |
@@ -81,10 +81,23 @@ Desktop guitar/bass multi-effects;checked2026-10-18,partial. Own manufacturer ma
 | New | Unknown;condition notexplicit. | — |
 | Condition unverified;stock unconfirmed | **Rp830,000**,CH MUSIC,Jakarta Pusat,shop195817632/item9344664445. Directreaderlastweekcache,checked2026-10-18. Relative HariIni delivery notstock proof. Bundle/variant/warranty/voucher/shipping/tax unknown;Rp10,000 latecompensation notdiscount. | [ExactShopee][TS-S] |
 
-Original manual is manufacturer-hosted,matching Tiny Stomp cover/control names;internal filename JME-03A. No explicit revision date independently established;do not equate URLdate withfirmware. AugustA2notice andMayV1.1.1notes are separate dated evidence. Product counts40amps/40cabs include10importslots each;complete category audit still required. All earlier Go Rig B gaps remain.
+Original manual is manufacturer-hosted,matching Tiny Stomp cover/control names;internal filename JME-03A. No explicit revision date independently established;do not equate URLdate withfirmware. AugustA2notice andMayV1.1.1notes are separate dated evidence. Product counts40amps/40cabs include10importslots each;category audit below retains the distinction from the advertised total. All earlier Go Rig B gaps remain.
 
 [TS-P]: https://soranaudio.com/products/34.html
 [TS-M]: https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf
 [TS-A2]: https://www.soranaudio.com/article/162.html
 [TS-FW]: https://soranaudio.com/article/127.html
 [TS-S]: https://shopee.co.id/SORAN-Tiny-Stomp-Multi-Effect-Processor-with-Dual-Mode-Electric-Guitar-and-Bass-i.195817632.9344664445
+
+### Tiny Stomp — category-count audit
+
+Checked2026-10-18 against original manual [effect list][TS-M],printedpp21–26;PDF text inspection,not visual inspection orinstalled-firmware test.
+
+| Field | Count / qualification |
+|---|---|
+| Processing / factory choices | Gate1;OD/FX16;AMP30;CAB30;EQ2;MOD13;DEL7;REV6. **105 factory tone choices**,derived bysumming numbered entries. AMP/CAB each25guitar+5bass. |
+| Processing / advertised total | Ten additionalNAM slots plus tenIR slots yield **125 selectable positions** from105factorychoices+20imports. This arithmetic reconciles theadvertised125;it is not an explicit manufacturer definition of the headline or125factoryalgorithms. |
+| Category choices / types | EQ6-band/10-band. MOD includes12modulation choices plusHarmony. DEL:Analog,Digital,Mod,Tape,Reverse,Pan,Physical. REV:Room,Hall,Plate,Spring,Shimmer,Damp. |
+| Simultaneous processing | Eight tone modules pluslooper/drum make advertised10modules;105/125 arechoices/positions,not simultaneousblocks. Repeated-category instances andDSP-dependent restrictions remainunverified. |
+
+The cited appendix is dated only byits source context;laterfirmware/library changes require separate evidence. Empty slots are notfactory sounds. NAMconversion architecture/size limits,qualifiedused/newprices andscreen touch remainunresolved.

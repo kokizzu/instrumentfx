@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Soran Tiny Stomp",
-    "task": "Initial useful record saved;next category-choice enumeration andNAMconversion architecture limits;then research Dual Stomp separately. RetainGoRigBmanualgaps.",
-    "next_models": [
-      "Soran Dual Stomp"
-    ],
-    "after_queue": "319active;alltechnical/market/ownership/migration work remains incomplete."
+    "model": "Soran Dual Stomp",
+    "task": "Research own originalmanual/product and exactHOLYMUSIC945642322/51608612661;do notmergeLite. TinyStomp categoryaudit saved;NAMarchitecture/price gaps andGoRigBmanual remain.",
+    "next_models": [],
+    "after_queue": "319active;continueShopeediscoveryandtechnical/ownership/migration work;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41982,7 +41980,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Soran Tiny Stomp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Soran Dual Stomp."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -65344,5 +65342,27 @@
       "https://device.report/manual/20620131"
     ],
     "remaining": "Original controls/expression/USB/routing/memory;do not turn mirror summary claims into verified facts"
+  },
+  "soran_tinystomp_category_audit_20261018": {
+    "source": "https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf",
+    "pages": "printed21–26",
+    "method": "Numbered original effect-table text;not image orinstalledlibrary audit",
+    "factory_counts": {
+      "GATE": 1,
+      "OD_FX": 16,
+      "AMP": 30,
+      "CAB": 30,
+      "EQ": 2,
+      "MOD": 13,
+      "DEL": 7,
+      "REV": 6
+    },
+    "factory_sum": 105,
+    "import_slots": {
+      "NAM": 10,
+      "IR": 10
+    },
+    "position_sum": 125,
+    "qualification": "Derived arithmetic reconciles headline,not explicit manufacturer definition;slots notfactoryalgorithms;10simultaneous includesloop/drum;no sibling borrowing"
   }
 }
