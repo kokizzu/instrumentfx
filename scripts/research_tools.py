@@ -365,7 +365,7 @@ def main():
         if mode == 'commit-fv02':
             message = 'research(flamma): add FV02 vocal processor with power revision conflicts'
         if mode == 'commit-fx2000':
-            message = 'research(behringer): preserve FX2000 manufacturer dimension and mass conflict'
+            message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-mx200':
             message = 'research(lexicon): add MX200 with mixer-path scope and power revision conflict'
         if mode == 'commit-gnx3':

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Bass/vocal Shopee discovery",
-    "task": "FX2000 andMX200 saved aspartial routed rack processors. Resume fresh exact brand/series leads;avoid dedicated single-purpose pedals andaccessories. Continue their unresolved technical fields later.",
+    "task": "FX2000 numbered controls/ports resolved from indexed original pp6–7;do not repeat asunknown. Resume fresh bass/vocal exact hardware discovery;MX200/FX2000 remainpartial withrevision/software/offer gaps.",
     "next_models": [],
     "after_queue": "Continue research andlegacy migration;no downloads/workflows."
   },
@@ -50395,6 +50395,14 @@
       ],
       "finding": "Dimensions/mass conflict preserved:fullmanual p25 W482.6 D204.4 H44mm net2kg;QSG p28 W483 D217 H44.5mm net1.9kg. Revision/case reason unresolved.",
       "remaining": "Inspect actual revision labels/panel;do not average dimensions or substitute shipping mass."
+    },
+    {
+      "model": "Behringer FX2000",
+      "checked_date": "2026-10-17",
+      "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf",
+      "pages": "6–7",
+      "finding": "Numbered11–16 establishes6separate buttons;MIX push separate. Rear inventory establishes2in/2out channels offered on8analog sockets,3MIDI DIN andIEC;noUSB/headphone/phantom/EXP socket ininventory.",
+      "remaining": "Visual/revision confirmation,display diagonal,qualified offers andsoftware specifics"
     }
   ],
   "discovery_cross_brand_bass": {

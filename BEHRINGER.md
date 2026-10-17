@@ -133,13 +133,13 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 |---|---|
 | Instrument scope |Guitar,bass,vocal andkeyboard documented [FX-P];amp/mixer send-return levels must be set appropriately [FX-Q] |
 | Expression |Built-in pedal/toe absent from rack control description;external expression mapping unverified |
-| Knobs / footswitches / buttons |**6rotary derived**:4EDIT,MIX/BYPASS,JOG.0built-in footswitches. Complete separate button count pending panel verification;MIX push is not an extra rotary. Power switch separate [FX-M p.16] |
+| Knobs / footswitches / buttons |**6rotary derived**:4EDIT,MIX/BYPASS,JOG.0built-in footswitches. **6separate front buttons**:PRESET,EFFECT,EDIT,STORE,COMPARE,SETUP,numbered11–16 inoriginal manual. MIX push additional,not separate button;power andrear operating-level switches separate. Text-derived inventory;no visual panel check [FX-M pp.6–7,16] |
 | Display |4-digit14-segment alphanumeric LED display;diagonal,color andtouch specifications unverified [FX-Q p.28] |
 | Processing / categories |71algorithms,including combination algorithms;not71simultaneous effects. Own guide enumerates12reverbs+3delays+15modulation+8dynamics+6psychoacoustic+4filter/EQ+7distortion/amp+5special+11combination=71choices [FX-Q p.26]. Dual-engine combinations61–71 support serial1,serial2 orparallel;not a freely assembled chain of71blocks [FX-M pp.12,17] |
 | Preset memory |100internal+100user=200;quick-guide factory chart fills both banks. Writable user locations;fixed-bank editing/persistence details pending [FX-Q] |
 | Synth / acoustic |Vocoder,Resonator andRingModulator documented;not proof of a general instrument synth or dedicated acoustic simulator. RSM acoustic-environment modeling is not acoustic-guitar simulation [FX-P] |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured capture import unverified |
-| Audio / control ports |Balanced6.35mm TRS andXLR inputs/outputs;MIDI IN,OUT,THRU;IEC mains. Exact channel/socket inventory pending. Direct mic/phantom,headphone,USB andexternal EXP unverified [FX-Q] |
+| Audio / control ports |2audio inputs and2outputs,each offered asbalanced6.35mm TRS andXLR sockets (8analog sockets,total2in/2out channels);3MIDI DIN:IN,OUT,THRU;IEC mains. Numbered rear inventory19–24 contains no USB,headphone,phantom orEXP socket;XLR does not establish mic preamp [FX-M p.7] |
 | Analog levels / conversion |80kohm balanced input,80ohm balanced output;selectable−10dBV/+4dBu nominal. Maximum+1dBV/+15dBu respectively forboth input/output.24bit SigmaDelta,64/128× oversampling,**46.875kHz** sampling [FX-Q p.28] |
 | Power / battery / USB |IEC mains;regional120V60Hz,230V50Hz,100V50/60Hz,and120/230V50/60Hz export versions.15W maximum;not universally autoranging. Battery/USB operation unverified;DC polarity not applicable to listed mains connection [FX-Q] |
 | Dimensions / weight |**Source conflict:** QSG W483×D217×H44.5mm,netapprox1.9kg,shipping3.2kg [FX-Q p.28];fullmanual W482.6×D204.4×H44mm,netapprox2kg,shipping3kg [FX-M p.25]. Both approximate manufacturer specifications;revision/case difference unresolved. Shipping mass is not unit mass |
@@ -161,4 +161,4 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 - [FX-Q: manufacturer multilingual quick-start guide](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/QSG_BE_0828-AAG_FX2000_WW.pdf),17PDF pages;control/connection text,preset chart andspecifications inspected. No new visual verification claimed.
 - [FX-M: Full manufacturer manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf),direct opening failed;subsequent manufacturer-indexed text successfully inspected2026-10-17,pp.12,16–17,25 forcombination architecture,sampler,preset activation,routing andconflicting dimensions/mass. Full PDF body/visual panel remains uninspected.
 
-No files downloaded. Remaining:fullmanual,complete controls/display diagonal,complete ports,software/routing andqualified offers.
+No files downloaded. Remaining:fullmanual visual/revision check,display diagonal,software/routing andqualified offers.
