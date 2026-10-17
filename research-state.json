@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh discovery",
-    "task": "B2FOURduplicateoffer reconciled;VL3XmissingNEOMUSIC historicalask added andcommitted. Next broaden eligible uncovered brands/series onShopee;273recordsretaintechnical/pricegaps.",
+    "task": "DapperAcousticMini missingTriolic historicalask saved;existing SCI/melodiasby/Dooit offersdeduplicated. Continue uncovered series discovery;273records remainpartial.",
     "next_models": [],
     "after_queue": "No downloads/workflows/push;commit each useful model before next."
   },
@@ -56459,5 +56459,29 @@
       "qualification": "Conditionstockvariantbundlewarrantyauthenticitytaxshippingvoucherunknown;latecompensationnotdiscount",
       "action": "Addedmissingcanonicalcomparisonoffer,notnewmodel"
     }
+  },
+  "discovery_acoustic_price_followup_20261017": {
+    "queries": [
+      "ShopeeIDZoomG9.2tt",
+      "ShopeeIDBossME6",
+      "ShopeeIDDigitechRP80",
+      "ShopeeIDMooerRedTruck",
+      "ShopeeIDZoomG2Nu",
+      "ShopeeIDValetonDapperAcoustic"
+    ],
+    "new_model_qualified": false,
+    "saved_offer": {
+      "model": "Valeton Dapper Acoustic Mini",
+      "shop": "81323820",
+      "item": "44157978669",
+      "seller": "Triolic Shop",
+      "region": "Kota Semarang",
+      "idr": 1143000,
+      "crawl": "five months",
+      "stock": "Shop on holiday;unit availability unverified",
+      "condition": "unverified",
+      "source": "https://shopee.co.id/Valeton-Dapper-Acoustic-Mini-i.81323820.44157978669"
+    },
+    "limits": "Indexed historical ask;notconditionverifiedused/new range. Existing SCI/melodiasby/Dooit offers preserved withoutduplicate. No files downloaded."
   }
 }

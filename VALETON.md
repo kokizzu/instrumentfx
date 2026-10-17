@@ -865,6 +865,7 @@ Distinct acoustic-guitar multi-effects strip, separate from full-size Dapper Aco
 |---|---|---|
 | Used | Unknown; no qualified used offer. | — |
 | New | Unknown; seller condition/availability unconfirmed. | — |
+| Condition-unverified historical ask | **Rp1.143.000**,Triolic Shop,Kota Semarang;shop81323820/item44157978669. Checked2026-10-17,five-month index;shop marked on holiday. Stock,condition,revision,adapter/bundle,warranty,shipping/tax/vouchers and final total unknown;not checkout/completed sale. | [Exact item](https://shopee.co.id/Valeton-Dapper-Acoustic-Mini-i.81323820.44157978669) |
 
 ### Qualified seller observation
 
