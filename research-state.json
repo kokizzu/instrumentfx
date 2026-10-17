@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "V3 effect-specific adjustment mapping,selected-effect bypass,Enhance andreset scope saved. Vocal discovery yielded no newexactmodel. Next pursue differentmissingseries orlegacyretirement;technical/market/ownership/migration remain incomplete.",
+    "model": "Legacy navigation retirement",
+    "task": "Full current navigation/pinned-source audit passed162MD3426links334models. Exact406root-to-legacy callers saved in migration.navigation_audit. Next inspect MULTI-EFFECTS138,BOSS43,MOOER41 callers;distinguish historical provenance fromactive navigation before replacement/removal. No legacy paths deleted;research gaps remain.",
     "next_models": [],
-    "after_queue": "334 active,39brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
+    "after_queue": "334 active,39brands;117legacycompatibilitypaths remain. Continue technical,market,ownership andmigration work. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24942,10 +24942,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 279 guitar, 141 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 280 guitar, 143 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "332 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "334 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41753,8 +41753,8 @@
     },
     "navigation_audit": {
       "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
-      "markdown_files": 161,
-      "local_link_occurrences": 3410,
+      "markdown_files": 162,
+      "local_link_occurrences": 3426,
       "legacy_files": 117,
       "registered_redirects": 116,
       "separately_verified_archival_redirect": [
@@ -41763,6 +41763,3395 @@
       "unclassified_legacy_files": [],
       "errors": [],
       "root_to_legacy_links": 406,
+      "root_to_legacy_by_source": {
+        "ALL-BASS.md": 3,
+        "ALL-GUITAR.md": 5,
+        "AUDOTA.md": 14,
+        "BOIN-AUDIO.md": 4,
+        "BOSS.md": 43,
+        "CUVAVE.md": 3,
+        "DONNER.md": 1,
+        "FLAMMA.md": 2,
+        "HEADRUSH.md": 1,
+        "HOTONE.md": 13,
+        "IK-MULTIMEDIA.md": 2,
+        "JOYO.md": 10,
+        "LINE6.md": 8,
+        "M-VAVE.md": 20,
+        "MOOER.md": 41,
+        "MULTI-EFFECTS.md": 138,
+        "NEURAL-DSP.md": 1,
+        "NUX.md": 4,
+        "ROLAND.md": 3,
+        "SCORPION.md": 4,
+        "SINGLE-GUITAR.md": 1,
+        "SINGLE-VOCAL.md": 1,
+        "SONICAKE.md": 13,
+        "TC-HELICON.md": 8,
+        "VALETON.md": 35,
+        "VING.md": 3,
+        "ZOOM.md": 25
+      },
+      "root_to_legacy_by_target": {
+        "effects/COVERAGE.md": 3,
+        "effects/METHODOLOGY.md": 8,
+        "effects/OWNERSHIP.md": 6,
+        "effects/README.md": 21,
+        "effects/RESUME.md": 27,
+        "effects/SCOPE.md": 13,
+        "effects/advanced-modelers.md": 4,
+        "effects/audota.md": 5,
+        "effects/bass.md": 9,
+        "effects/cube-baby.md": 3,
+        "effects/findings/2026-10-14-boin-audio-bg300.md": 2,
+        "effects/findings/2026-10-14-donner-arena2000.md": 2,
+        "effects/findings/2026-10-14-flamma-fv01.md": 2,
+        "effects/findings/2026-10-14-flamma-fx100.md": 1,
+        "effects/findings/2026-10-14-flamma-fx200.md": 1,
+        "effects/findings/2026-10-14-headrush-core.md": 3,
+        "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md": 2,
+        "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md": 2,
+        "effects/findings/2026-10-14-hotone-ampero-mini.md": 2,
+        "effects/findings/2026-10-14-hotone-ampero-mp100.md": 2,
+        "effects/findings/2026-10-14-joyo-gembox-ii.md": 1,
+        "effects/findings/2026-10-14-joyo-gembox-iii.md": 1,
+        "effects/findings/2026-10-14-line6-hx-stomp-xl.md": 2,
+        "effects/findings/2026-10-14-mooer-ge100-pro-li.md": 2,
+        "effects/findings/2026-10-14-mooer-ge100-pro.md": 2,
+        "effects/findings/2026-10-14-mooer-ge100.md": 2,
+        "effects/findings/2026-10-14-mooer-ge1000.md": 2,
+        "effects/findings/2026-10-14-mooer-ge150-pro-li.md": 2,
+        "effects/findings/2026-10-14-mooer-ge150-pro.md": 2,
+        "effects/findings/2026-10-14-mooer-ge150.md": 2,
+        "effects/findings/2026-10-14-mooer-ge200-pro-li.md": 2,
+        "effects/findings/2026-10-14-mooer-ge200-pro.md": 2,
+        "effects/findings/2026-10-14-mooer-ge200.md": 2,
+        "effects/findings/2026-10-14-mvave-ann-blackbox.md": 1,
+        "effects/findings/2026-10-14-mvave-mk-20.md": 1,
+        "effects/findings/2026-10-14-mvave-mk-300.md": 1,
+        "effects/findings/2026-10-14-mvave-tank-b.md": 1,
+        "effects/findings/2026-10-14-mvave-tank-g.md": 1,
+        "effects/findings/2026-10-14-mvave-tank-mini.md": 1,
+        "effects/findings/2026-10-14-mvave-tank-pro.md": 1,
+        "effects/findings/2026-10-14-nux-mg-100.md": 2,
+        "effects/findings/2026-10-14-nux-mg-200.md": 2,
+        "effects/findings/2026-10-14-roland-gr-55.md": 2,
+        "effects/findings/2026-10-14-scorpion-kmf-10.md": 2,
+        "effects/findings/2026-10-14-sonicake-matribox.md": 3,
+        "effects/findings/2026-10-14-sonicake-pocket-master.md": 3,
+        "effects/findings/2026-10-14-sonicake-smart-box.md": 3,
+        "effects/findings/2026-10-14-tchelicon-play-acoustic.md": 2,
+        "effects/findings/2026-10-14-tchelicon-voicelive-play.md": 2,
+        "effects/findings/2026-10-14-valeton-gp-100.md": 5,
+        "effects/findings/2026-10-14-valeton-gp-150.md": 6,
+        "effects/findings/2026-10-14-valeton-gp-180.md": 6,
+        "effects/findings/2026-10-14-valeton-gp-5.md": 5,
+        "effects/findings/2026-10-14-valeton-gp-50.md": 6,
+        "effects/findings/2026-10-14-zoom-b1xon.md": 2,
+        "effects/findings/2026-10-14-zoom-g1-four.md": 2,
+        "effects/findings/2026-10-14-zoom-g1x-four.md": 2,
+        "effects/findings/2026-10-14-zoom-g2-four.md": 2,
+        "effects/findings/2026-10-14-zoom-g2x-four.md": 2,
+        "effects/findings/2026-10-15-audota-ace-100.md": 1,
+        "effects/findings/2026-10-15-audota-ame-100.md": 1,
+        "effects/findings/2026-10-15-audota-ame-200-pro.md": 1,
+        "effects/findings/2026-10-15-audota-ame-200.md": 1,
+        "effects/findings/2026-10-15-audota-ave-100.md": 1,
+        "effects/findings/2026-10-15-boss-gt1-display-idr.md": 1,
+        "effects/findings/2026-10-15-boss-gt1000-display-idr.md": 1,
+        "effects/findings/2026-10-15-boss-gt1000core-display-idr.md": 1,
+        "effects/findings/2026-10-15-boss-gx1-display-idr.md": 1,
+        "effects/findings/2026-10-15-boss-gx10-display-idr.md": 1,
+        "effects/findings/2026-10-15-boss-gx100-display-idr.md": 1,
+        "effects/findings/2026-10-15-boss-me90-display-idr.md": 1,
+        "effects/findings/2026-10-15-cuvave-h8.md": 2,
+        "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md": 2,
+        "effects/findings/2026-10-15-joyo-gembox-original.md": 1,
+        "effects/findings/2026-10-15-line6-pod-express-bass.md": 1,
+        "effects/findings/2026-10-15-line6-pod-express-guitar.md": 1,
+        "effects/findings/2026-10-15-line6-pod-go-wireless.md": 1,
+        "effects/findings/2026-10-15-line6-pod-go.md": 2,
+        "effects/findings/2026-10-15-mooer-ge1000-li.md": 2,
+        "effects/findings/2026-10-15-mooer-ge150-max-li.md": 2,
+        "effects/findings/2026-10-15-mooer-ge150-max.md": 2,
+        "effects/findings/2026-10-15-mooer-ge150-plus-li.md": 2,
+        "effects/findings/2026-10-15-mooer-ge150-plus.md": 2,
+        "effects/findings/2026-10-15-mvave-cube-baby-ac.md": 1,
+        "effects/findings/2026-10-15-mvave-cube-baby-bass.md": 1,
+        "effects/findings/2026-10-15-mvave-cube-baby.md": 1,
+        "effects/findings/2026-10-15-mvave-mini-x.md": 1,
+        "effects/findings/2026-10-15-mvave-pocket-amp.md": 1,
+        "effects/findings/2026-10-15-nux-trident.md": 1,
+        "effects/findings/2026-10-15-ving-fb100.md": 2,
+        "effects/findings/2026-10-15-zoom-g11.md": 1,
+        "effects/findings/2026-10-15-zoom-g6.md": 2,
+        "effects/guitar-boss.history-2026-10-14.md": 9,
+        "effects/guitar-boss.md": 16,
+        "effects/guitar-compact.md": 17,
+        "effects/guitar-floorboards.md": 6,
+        "effects/owned-multifx.md": 10,
+        "effects/research-state.json": 1,
+        "effects/shopee-indonesia.md": 15,
+        "effects/shopee-multifx-2.md": 9,
+        "effects/shopee-multifx-3.md": 4,
+        "effects/shopee-multifx-4.md": 8,
+        "effects/shopee-multifx-5.md": 8,
+        "effects/shopee-multifx-6.md": 10,
+        "effects/shopee-multifx-7.md": 8,
+        "effects/shopee-multifx.md": 22,
+        "effects/specialist.md": 3,
+        "effects/vocal.md": 9
+      },
+      "root_to_legacy_occurrences": [
+        {
+          "source": "ALL-BASS.md",
+          "line": 101,
+          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
+        },
+        {
+          "source": "ALL-BASS.md",
+          "line": 102,
+          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
+        },
+        {
+          "source": "ALL-BASS.md",
+          "line": 103,
+          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
+        },
+        {
+          "source": "ALL-GUITAR.md",
+          "line": 172,
+          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
+        },
+        {
+          "source": "ALL-GUITAR.md",
+          "line": 173,
+          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
+        },
+        {
+          "source": "ALL-GUITAR.md",
+          "line": 174,
+          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
+        },
+        {
+          "source": "ALL-GUITAR.md",
+          "line": 175,
+          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
+        },
+        {
+          "source": "ALL-GUITAR.md",
+          "line": 176,
+          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 9,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 9,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 9,
+          "target": "effects/OWNERSHIP.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/OWNERSHIP.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 9,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 105,
+          "target": "effects/findings/2026-10-15-audota-ame-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-audota-ame-100.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 105,
+          "target": "effects/audota.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/audota.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 210,
+          "target": "effects/findings/2026-10-15-audota-ame-200.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-audota-ame-200.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 210,
+          "target": "effects/audota.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/audota.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 316,
+          "target": "effects/findings/2026-10-15-audota-ame-200-pro.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-audota-ame-200-pro.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 316,
+          "target": "effects/audota.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/audota.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 427,
+          "target": "effects/findings/2026-10-15-audota-ace-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-audota-ace-100.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 427,
+          "target": "effects/audota.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/audota.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 535,
+          "target": "effects/findings/2026-10-15-audota-ave-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-audota-ave-100.md"
+        },
+        {
+          "source": "AUDOTA.md",
+          "line": 535,
+          "target": "effects/audota.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/audota.md"
+        },
+        {
+          "source": "BOIN-AUDIO.md",
+          "line": 9,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "BOIN-AUDIO.md",
+          "line": 9,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "BOIN-AUDIO.md",
+          "line": 90,
+          "target": "effects/findings/2026-10-14-boin-audio-bg300.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-boin-audio-bg300.md"
+        },
+        {
+          "source": "BOIN-AUDIO.md",
+          "line": 90,
+          "target": "effects/shopee-multifx-2.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-2.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 31,
+          "target": "effects/bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/bass.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 91,
+          "target": "effects/bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/bass.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 154,
+          "target": "effects/bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/bass.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 258,
+          "target": "effects/vocal.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/vocal.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 332,
+          "target": "effects/vocal.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/vocal.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 389,
+          "target": "effects/vocal.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/vocal.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 451,
+          "target": "effects/vocal.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/vocal.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 539,
+          "target": "effects/vocal.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/vocal.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 594,
+          "target": "effects/vocal.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/vocal.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 635,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 721,
+          "target": "effects/findings/2026-10-15-boss-gt1000core-display-idr.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-boss-gt1000core-display-idr.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 721,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 721,
+          "target": "effects/guitar-boss.history-2026-10-14.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.history-2026-10-14.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 738,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 819,
+          "target": "effects/findings/2026-10-15-boss-gx10-display-idr.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-boss-gx10-display-idr.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 819,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 819,
+          "target": "effects/guitar-boss.history-2026-10-14.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.history-2026-10-14.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 871,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 951,
+          "target": "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-boss-gt1-display-idr.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 951,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 951,
+          "target": "effects/guitar-boss.history-2026-10-14.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.history-2026-10-14.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1018,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1103,
+          "target": "effects/findings/2026-10-15-boss-gx1-display-idr.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-boss-gx1-display-idr.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1103,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1103,
+          "target": "effects/guitar-boss.history-2026-10-14.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.history-2026-10-14.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1153,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1236,
+          "target": "effects/findings/2026-10-15-boss-me90-display-idr.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-boss-me90-display-idr.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1236,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1236,
+          "target": "effects/guitar-boss.history-2026-10-14.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.history-2026-10-14.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1282,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1365,
+          "target": "effects/findings/2026-10-15-boss-gx100-display-idr.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-boss-gx100-display-idr.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1365,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1365,
+          "target": "effects/guitar-boss.history-2026-10-14.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.history-2026-10-14.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1415,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1498,
+          "target": "effects/findings/2026-10-15-boss-gt1000-display-idr.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-boss-gt1000-display-idr.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1498,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1498,
+          "target": "effects/guitar-boss.history-2026-10-14.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.history-2026-10-14.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1571,
+          "target": "effects/specialist.md",
+          "fragment": "eligible-record-boss-gm-800",
+          "kind": "inline",
+          "raw": "effects/specialist.md#eligible-record-boss-gm-800"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1617,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1617,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1617,
+          "target": "effects/METHODOLOGY.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/METHODOLOGY.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1617,
+          "target": "effects/guitar-floorboards.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-floorboards.md"
+        },
+        {
+          "source": "BOSS.md",
+          "line": 1617,
+          "target": "effects/vocal.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/vocal.md"
+        },
+        {
+          "source": "CUVAVE.md",
+          "line": 71,
+          "target": "effects/findings/2026-10-15-cuvave-h8.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-cuvave-h8.md"
+        },
+        {
+          "source": "CUVAVE.md",
+          "line": 71,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "CUVAVE.md",
+          "line": 115,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "DONNER.md",
+          "line": 148,
+          "target": "effects/shopee-multifx-3.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-3.md"
+        },
+        {
+          "source": "FLAMMA.md",
+          "line": 106,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "FLAMMA.md",
+          "line": 205,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "HEADRUSH.md",
+          "line": 249,
+          "target": "effects/shopee-multifx-3.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-3.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 157,
+          "target": "effects/findings/2026-10-14-hotone-ampero-mini.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-hotone-ampero-mini.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 157,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 208,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 208,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 275,
+          "target": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-hotone-ampero-mp100.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 275,
+          "target": "effects/shopee-multifx-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-5.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 291,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 357,
+          "target": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 357,
+          "target": "effects/shopee-multifx-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-5.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 766,
+          "target": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 766,
+          "target": "effects/shopee-multifx-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-5.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 847,
+          "target": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md"
+        },
+        {
+          "source": "HOTONE.md",
+          "line": 847,
+          "target": "effects/shopee-multifx-7.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-7.md"
+        },
+        {
+          "source": "IK-MULTIMEDIA.md",
+          "line": 39,
+          "target": "effects/advanced-modelers.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/advanced-modelers.md"
+        },
+        {
+          "source": "IK-MULTIMEDIA.md",
+          "line": 111,
+          "target": "effects/advanced-modelers.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/advanced-modelers.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 52,
+          "target": "effects/OWNERSHIP.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/OWNERSHIP.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 110,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 153,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 153,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 153,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 207,
+          "target": "effects/shopee-multifx-2.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-2.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 250,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 250,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 250,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "JOYO.md",
+          "line": 306,
+          "target": "effects/shopee-multifx-2.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-2.md"
+        },
+        {
+          "source": "LINE6.md",
+          "line": 204,
+          "target": "effects/findings/2026-10-15-line6-pod-go.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-line6-pod-go.md"
+        },
+        {
+          "source": "LINE6.md",
+          "line": 258,
+          "target": "effects/shopee-multifx-7.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-7.md"
+        },
+        {
+          "source": "LINE6.md",
+          "line": 279,
+          "target": "effects/shopee-multifx-7.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-7.md"
+        },
+        {
+          "source": "LINE6.md",
+          "line": 395,
+          "target": "effects/shopee-multifx-7.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-7.md"
+        },
+        {
+          "source": "LINE6.md",
+          "line": 502,
+          "target": "effects/shopee-multifx-7.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-7.md"
+        },
+        {
+          "source": "LINE6.md",
+          "line": 718,
+          "target": "effects/findings/2026-10-14-line6-hx-stomp-xl.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-line6-hx-stomp-xl.md"
+        },
+        {
+          "source": "LINE6.md",
+          "line": 718,
+          "target": "effects/shopee-multifx-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-5.md"
+        },
+        {
+          "source": "LINE6.md",
+          "line": 754,
+          "target": "effects/advanced-modelers.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/advanced-modelers.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 41,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 41,
+          "target": "effects/METHODOLOGY.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/METHODOLOGY.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 100,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 191,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 271,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 355,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 437,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 473,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 473,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 473,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 555,
+          "target": "effects/shopee-multifx-2.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-2.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 589,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 589,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 589,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 649,
+          "target": "effects/shopee-multifx-2.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-2.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 738,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 830,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 917,
+          "target": "effects/cube-baby.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/cube-baby.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 1007,
+          "target": "effects/cube-baby.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/cube-baby.md"
+        },
+        {
+          "source": "M-VAVE.md",
+          "line": 1138,
+          "target": "effects/cube-baby.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/cube-baby.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 309,
+          "target": "effects/findings/2026-10-14-mooer-ge100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge100.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 309,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 374,
+          "target": "effects/findings/2026-10-14-mooer-ge150.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge150.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 374,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 443,
+          "target": "effects/findings/2026-10-14-mooer-ge200.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge200.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 443,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 518,
+          "target": "effects/findings/2026-10-14-mooer-ge150-pro-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge150-pro-li.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 518,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 601,
+          "target": "effects/findings/2026-10-14-mooer-ge100-pro.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge100-pro.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 601,
+          "target": "effects/shopee-multifx-4.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-4.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 609,
+          "target": "effects/shopee-multifx-4.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-4.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 692,
+          "target": "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge100-pro-li.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 692,
+          "target": "effects/shopee-multifx-4.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-4.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 700,
+          "target": "effects/shopee-multifx-4.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-4.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 780,
+          "target": "effects/findings/2026-10-14-mooer-ge200-pro.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge200-pro.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 780,
+          "target": "effects/shopee-multifx-4.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-4.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 788,
+          "target": "effects/shopee-multifx-4.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-4.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 868,
+          "target": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge200-pro-li.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 868,
+          "target": "effects/shopee-multifx-4.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-4.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 876,
+          "target": "effects/shopee-multifx-4.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-4.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 951,
+          "target": "effects/findings/2026-10-14-mooer-ge150-pro.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge150-pro.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 951,
+          "target": "effects/shopee-multifx-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-5.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 961,
+          "target": "effects/shopee-multifx-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-5.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1037,
+          "target": "effects/findings/2026-10-15-mooer-ge150-plus.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge150-plus.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1037,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1050,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1113,
+          "target": "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge150-plus-li.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1113,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1122,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1183,
+          "target": "effects/findings/2026-10-15-mooer-ge150-max.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge150-max.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1183,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1195,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1268,
+          "target": "effects/findings/2026-10-15-mooer-ge150-max-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge150-max-li.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1268,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1277,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1359,
+          "target": "effects/findings/2026-10-14-mooer-ge1000.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge1000.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1359,
+          "target": "effects/shopee-multifx-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-5.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1368,
+          "target": "effects/shopee-multifx-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-5.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1433,
+          "target": "effects/findings/2026-10-15-mooer-ge1000-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge1000-li.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1433,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MOOER.md",
+          "line": 1442,
+          "target": "effects/shopee-multifx-6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-6.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 73,
+          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 75,
+          "target": "effects/findings/2026-10-14-sonicake-smart-box.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-sonicake-smart-box.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 76,
+          "target": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-sonicake-pocket-master.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 80,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 80,
+          "target": "effects/research-state.json",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/research-state.json"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 92,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 92,
+          "target": "effects/COVERAGE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/COVERAGE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 99,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 99,
+          "target": "effects/guitar-floorboards.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-floorboards.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 99,
+          "target": "effects/METHODOLOGY.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/METHODOLOGY.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 114,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 114,
+          "target": "effects/METHODOLOGY.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/METHODOLOGY.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 114,
+          "target": "effects/guitar-floorboards.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-floorboards.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 114,
+          "target": "effects/specialist.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/specialist.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 125,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 125,
+          "target": "effects/guitar-boss.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 131,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 131,
+          "target": "effects/METHODOLOGY.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/METHODOLOGY.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 131,
+          "target": "effects/specialist.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/specialist.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 142,
+          "target": "effects/COVERAGE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/COVERAGE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 148,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 148,
+          "target": "effects/METHODOLOGY.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/METHODOLOGY.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 148,
+          "target": "effects/guitar-floorboards.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-floorboards.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 148,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 159,
+          "target": "effects/COVERAGE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/COVERAGE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 165,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 165,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 165,
+          "target": "effects/bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/bass.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 165,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 165,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 169,
+          "target": "effects/guitar-boss.history-2026-10-14.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.history-2026-10-14.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 185,
+          "target": "effects/guitar-boss.history-2026-10-14.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-boss.history-2026-10-14.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 193,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 193,
+          "target": "effects/guitar-floorboards.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-floorboards.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 193,
+          "target": "effects/bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/bass.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 193,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 205,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 205,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 205,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 221,
+          "target": "effects/findings/2026-10-15-mvave-cube-baby.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mvave-cube-baby.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 221,
+          "target": "effects/findings/2026-10-15-mvave-cube-baby-ac.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mvave-cube-baby-ac.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 221,
+          "target": "effects/findings/2026-10-15-mvave-cube-baby-bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mvave-cube-baby-bass.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 227,
+          "target": "effects/OWNERSHIP.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/OWNERSHIP.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 227,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 227,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 227,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 233,
+          "target": "effects/findings/2026-10-14-roland-gr-55.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-roland-gr-55.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 233,
+          "target": "effects/findings/2026-10-14-zoom-b1xon.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-b1xon.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 233,
+          "target": "effects/findings/2026-10-15-joyo-gembox-original.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-joyo-gembox-original.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 233,
+          "target": "effects/findings/2026-10-15-mvave-mini-x.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mvave-mini-x.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 233,
+          "target": "effects/findings/2026-10-15-mvave-pocket-amp.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mvave-pocket-amp.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 233,
+          "target": "effects/findings/2026-10-15-cuvave-h8.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-cuvave-h8.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 233,
+          "target": "effects/findings/2026-10-15-ving-fb100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-ving-fb100.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 239,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 239,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 239,
+          "target": "effects/METHODOLOGY.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/METHODOLOGY.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 239,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 263,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 263,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-mvave-tank-g.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mvave-tank-g.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-mvave-tank-b.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mvave-tank-b.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-mvave-tank-mini.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mvave-tank-mini.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-mvave-mk-20.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mvave-mk-20.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-mvave-mk-300.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mvave-mk-300.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-hotone-ampero-mini.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-hotone-ampero-mini.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-mooer-ge100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge100.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-mooer-ge150.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge150.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-mooer-ge150-pro-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge150-pro-li.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-mooer-ge200.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge200.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-zoom-g1-four.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-g1-four.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-zoom-g1x-four.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-g1x-four.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-zoom-g2-four.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-g2-four.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-zoom-g2x-four.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-g2x-four.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-flamma-fx100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-flamma-fx100.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 265,
+          "target": "effects/findings/2026-10-14-flamma-fx200.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-flamma-fx200.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 271,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 271,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 271,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 271,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 271,
+          "target": "effects/METHODOLOGY.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/METHODOLOGY.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 277,
+          "target": "effects/findings/2026-10-14-mvave-tank-pro.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mvave-tank-pro.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 277,
+          "target": "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mvave-ann-blackbox.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 277,
+          "target": "effects/findings/2026-10-14-boin-audio-bg300.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-boin-audio-bg300.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 277,
+          "target": "effects/findings/2026-10-14-scorpion-kmf-10.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-scorpion-kmf-10.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 277,
+          "target": "effects/findings/2026-10-14-joyo-gembox-ii.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-joyo-gembox-ii.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 277,
+          "target": "effects/findings/2026-10-14-joyo-gembox-iii.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-joyo-gembox-iii.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 277,
+          "target": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-tchelicon-voicelive-play.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 277,
+          "target": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-tchelicon-play-acoustic.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 283,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 283,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 283,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 283,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 283,
+          "target": "effects/shopee-multifx-2.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-2.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 283,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 285,
+          "target": "effects/findings/2026-10-14-flamma-fv01.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-flamma-fv01.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 295,
+          "target": "effects/findings/2026-10-14-headrush-core.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-headrush-core.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 295,
+          "target": "effects/findings/2026-10-14-donner-arena2000.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-donner-arena2000.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 295,
+          "target": "effects/findings/2026-10-14-nux-mg-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-nux-mg-100.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 295,
+          "target": "effects/findings/2026-10-14-nux-mg-200.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-nux-mg-200.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 299,
+          "target": "effects/findings/2026-10-14-headrush-core.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-headrush-core.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 307,
+          "target": "effects/findings/2026-10-14-flamma-fv01.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-flamma-fv01.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 307,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 309,
+          "target": "effects/findings/2026-10-14-headrush-core.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-headrush-core.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 309,
+          "target": "effects/findings/2026-10-14-donner-arena2000.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-donner-arena2000.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 309,
+          "target": "effects/findings/2026-10-14-nux-mg-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-nux-mg-100.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 309,
+          "target": "effects/findings/2026-10-14-nux-mg-200.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-nux-mg-200.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 315,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 315,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 315,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 315,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 331,
+          "target": "effects/OWNERSHIP.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/OWNERSHIP.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 333,
+          "target": "effects/findings/2026-10-14-mooer-ge100-pro.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge100-pro.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 333,
+          "target": "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge100-pro-li.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 333,
+          "target": "effects/findings/2026-10-14-mooer-ge200-pro.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge200-pro.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 333,
+          "target": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge200-pro-li.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 353,
+          "target": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-hotone-ampero-mp100.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 353,
+          "target": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 353,
+          "target": "effects/findings/2026-10-14-mooer-ge1000.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge1000.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 353,
+          "target": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 353,
+          "target": "effects/findings/2026-10-14-line6-hx-stomp-xl.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-line6-hx-stomp-xl.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 353,
+          "target": "effects/findings/2026-10-14-mooer-ge150-pro.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-mooer-ge150-pro.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 359,
+          "target": "effects/README.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/README.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 359,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 359,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 359,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 373,
+          "target": "effects/findings/2026-10-15-mooer-ge150-plus.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge150-plus.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 373,
+          "target": "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge150-plus-li.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 373,
+          "target": "effects/findings/2026-10-15-mooer-ge150-max.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge150-max.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 373,
+          "target": "effects/findings/2026-10-15-mooer-ge150-max-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge150-max-li.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 373,
+          "target": "effects/findings/2026-10-15-mooer-ge1000-li.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-mooer-ge1000-li.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 401,
+          "target": "effects/findings/2026-10-15-nux-trident.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-nux-trident.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 401,
+          "target": "effects/findings/2026-10-15-zoom-g6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-zoom-g6.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 401,
+          "target": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 401,
+          "target": "effects/findings/2026-10-15-line6-pod-go.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-line6-pod-go.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 401,
+          "target": "effects/findings/2026-10-15-zoom-g11.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-zoom-g11.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 401,
+          "target": "effects/findings/2026-10-15-line6-pod-go-wireless.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-line6-pod-go-wireless.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 401,
+          "target": "effects/findings/2026-10-15-line6-pod-express-guitar.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-line6-pod-express-guitar.md"
+        },
+        {
+          "source": "MULTI-EFFECTS.md",
+          "line": 401,
+          "target": "effects/findings/2026-10-15-line6-pod-express-bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-line6-pod-express-bass.md"
+        },
+        {
+          "source": "NEURAL-DSP.md",
+          "line": 35,
+          "target": "effects/advanced-modelers.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/advanced-modelers.md"
+        },
+        {
+          "source": "NUX.md",
+          "line": 448,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "NUX.md",
+          "line": 501,
+          "target": "effects/shopee-multifx-3.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-3.md"
+        },
+        {
+          "source": "NUX.md",
+          "line": 593,
+          "target": "effects/shopee-multifx-3.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-3.md"
+        },
+        {
+          "source": "NUX.md",
+          "line": 697,
+          "target": "effects/shopee-multifx-7.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-7.md"
+        },
+        {
+          "source": "ROLAND.md",
+          "line": 9,
+          "target": "effects/OWNERSHIP.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/OWNERSHIP.md"
+        },
+        {
+          "source": "ROLAND.md",
+          "line": 91,
+          "target": "effects/findings/2026-10-14-roland-gr-55.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-roland-gr-55.md"
+        },
+        {
+          "source": "ROLAND.md",
+          "line": 91,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "SCORPION.md",
+          "line": 9,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "SCORPION.md",
+          "line": 9,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "SCORPION.md",
+          "line": 90,
+          "target": "effects/findings/2026-10-14-scorpion-kmf-10.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-scorpion-kmf-10.md"
+        },
+        {
+          "source": "SCORPION.md",
+          "line": 90,
+          "target": "effects/shopee-multifx-2.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-2.md"
+        },
+        {
+          "source": "SINGLE-GUITAR.md",
+          "line": 9,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "SINGLE-VOCAL.md",
+          "line": 9,
+          "target": "effects/SCOPE.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/SCOPE.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 58,
+          "target": "effects/findings/2026-10-14-sonicake-matribox.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-sonicake-matribox.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 78,
+          "target": "effects/findings/2026-10-14-sonicake-matribox.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-sonicake-matribox.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 82,
+          "target": "effects/findings/2026-10-14-sonicake-matribox.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-sonicake-matribox.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 92,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 92,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 155,
+          "target": "effects/findings/2026-10-14-sonicake-smart-box.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-sonicake-smart-box.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 179,
+          "target": "effects/findings/2026-10-14-sonicake-smart-box.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-sonicake-smart-box.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 187,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 187,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 258,
+          "target": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-sonicake-pocket-master.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 284,
+          "target": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-sonicake-pocket-master.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 292,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "SONICAKE.md",
+          "line": 292,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "TC-HELICON.md",
+          "line": 9,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "TC-HELICON.md",
+          "line": 9,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "TC-HELICON.md",
+          "line": 82,
+          "target": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-tchelicon-voicelive-play.md"
+        },
+        {
+          "source": "TC-HELICON.md",
+          "line": 82,
+          "target": "effects/shopee-multifx-2.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-2.md"
+        },
+        {
+          "source": "TC-HELICON.md",
+          "line": 180,
+          "target": "effects/shopee-indonesia.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-indonesia.md"
+        },
+        {
+          "source": "TC-HELICON.md",
+          "line": 180,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "TC-HELICON.md",
+          "line": 251,
+          "target": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-tchelicon-play-acoustic.md"
+        },
+        {
+          "source": "TC-HELICON.md",
+          "line": 251,
+          "target": "effects/shopee-multifx-2.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-2.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 110,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 110,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 145,
+          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 173,
+          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 200,
+          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 200,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 214,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 214,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 247,
+          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 275,
+          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 302,
+          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 302,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 311,
+          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 346,
+          "target": "effects/guitar-floorboards.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-floorboards.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 438,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 438,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 471,
+          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 499,
+          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 525,
+          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 525,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 534,
+          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 545,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 545,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 584,
+          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 612,
+          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 644,
+          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 644,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 652,
+          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 664,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 664,
+          "target": "effects/RESUME.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/RESUME.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 697,
+          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 725,
+          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 751,
+          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 751,
+          "target": "effects/guitar-compact.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/guitar-compact.md"
+        },
+        {
+          "source": "VALETON.md",
+          "line": 758,
+          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
+        },
+        {
+          "source": "VING.md",
+          "line": 79,
+          "target": "effects/findings/2026-10-15-ving-fb100.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-ving-fb100.md"
+        },
+        {
+          "source": "VING.md",
+          "line": 79,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "VING.md",
+          "line": 123,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 141,
+          "target": "effects/shopee-multifx-7.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-7.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 153,
+          "target": "effects/OWNERSHIP.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/OWNERSHIP.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 195,
+          "target": "effects/findings/2026-10-14-zoom-b1xon.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-b1xon.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 195,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 214,
+          "target": "effects/owned-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/owned-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 284,
+          "target": "effects/findings/2026-10-15-zoom-g6.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-15-zoom-g6.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 284,
+          "target": "effects/shopee-multifx-7.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx-7.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 340,
+          "target": "effects/findings/2026-10-14-zoom-g1-four.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-g1-four.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 340,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 351,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 408,
+          "target": "effects/findings/2026-10-14-zoom-g1x-four.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-g1x-four.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 408,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 420,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 475,
+          "target": "effects/findings/2026-10-14-zoom-g2-four.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-g2-four.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 475,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 500,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 570,
+          "target": "effects/findings/2026-10-14-zoom-g2x-four.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/findings/2026-10-14-zoom-g2x-four.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 570,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 592,
+          "target": "effects/shopee-multifx.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/shopee-multifx.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 640,
+          "target": "effects/bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/bass.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 813,
+          "target": "effects/bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/bass.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 903,
+          "target": "effects/bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/bass.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 1057,
+          "target": "effects/bass.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/bass.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 1117,
+          "target": "effects/vocal.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/vocal.md"
+        },
+        {
+          "source": "ZOOM.md",
+          "line": 1221,
+          "target": "effects/vocal.md",
+          "fragment": "",
+          "kind": "inline",
+          "raw": "effects/vocal.md"
+        }
+      ],
       "checked_date": "2026-10-18",
       "status": "passed",
       "remaining": "Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications."
@@ -41984,7 +45373,7 @@
     "canonical_root_models": 334,
     "legacy_only_models": 0,
     "guitar_view_models": 280,
-    "bass_focused_models": 29,
+    "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
     "excluded_overlap": 0,

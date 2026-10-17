@@ -31,8 +31,15 @@ def audit():
             errors.append(dict(source=path,error='redirect hash drift'))
         research.read_preserved_source(path)
     report=dict(scope='Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.',markdown_files=len(paths),local_link_occurrences=len(links),legacy_files=len(legacy),registered_redirects=len(records),separately_verified_archival_redirect=[special],unclassified_legacy_files=unclassified,errors=errors,root_to_legacy_links=sum(l['source'].find('/')<0 and l['target'].startswith('effects/') for l in links))
+    # Keep an exact remaining-link census so retirement is based on callers, not model counts.
+    from collections import Counter
+    boundary = [link for link in links if '/' not in link['source'] and link['target'].startswith('effects/')]
+    report['root_to_legacy_by_source'] = dict(sorted(Counter(link['source'] for link in boundary).items()))
+    report['root_to_legacy_by_target'] = dict(sorted(Counter(link['target'] for link in boundary).items()))
+    report['root_to_legacy_occurrences'] = boundary
+    assert sum(report['root_to_legacy_by_source'].values()) == report['root_to_legacy_links']
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps(report,ensure_ascii=False,indent=2))
+    print(json.dumps({key:value for key,value in report.items() if key != 'root_to_legacy_occurrences'},ensure_ascii=False,indent=2))
     assert not errors and not unclassified,'Navigation or redirect coverage incomplete'
     research.verify()
     return report
