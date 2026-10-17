@@ -1523,6 +1523,17 @@ Used/new condition-confirmed offers not established. Checked2026-10-17:indexed h
 | Unverified | **Rp3.850.000**,V Musik Central,shop29988284/item28824194734,Kota Depok;two-month crawl. | [Item][BT-O2] |
 | Unverified | **Rp3.850.000**,Vin's Music Store,shop31173885/item27123480418,Kota Depok;four-month crawl,Jun4arrivaltext. | [Item][BT-O3] |
 
+
+### Black Truck — manufacturer digital specification, 2026-10-18
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / published digital format | [MOOER Chinese product](https://cn.mooeraudio.com/product/11.html) specifies **44.1kHz sampling and24-bit precision**. It does not separately name ADC,DAC orinternal accumulator resolution. Analog COMP/OD/HI-GAIN/EQ remain distinct from digital MOD/SPACE;this is not a USB-audio specification. |
+| Live / tuner specification | Same primary page advertises **±0.1cent tuner sensitivity**. Preserve as manufacturer specification,not measured accuracy under every condition. |
+| Power / adapter qualification | Chinese specification says **9V DC adapter≥1000mA**;English page says9V1A. These are supply ratings,not measured current consumption. Existing polarity wording,barrel-size andbattery/USB gaps remain. |
+
+Text inspection only. The newly retrieved page does not resolve retained EN/CN PHONES routing orsize conflicts. No downloads orinstallations.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle/adapter/case inclusion,working state,authenticity,warranty,shipping/tax,voucher and current stock unresolved. No used/new status inferred from Mall badges or seller activity.

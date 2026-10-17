@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery",
-    "task": "PockRock manufacturer page recovered; category choices and dimension/module conflicts saved. Resume Shopee brand/series discovery; original V01 file identity and panel remain gaps.",
+    "task": "Recover exact CP-48/C300 Shopee IDs and official Caline sources before registration;unresolved indexed asks saved. Black Truck digital specification committed separately.",
     "next_models": [],
     "after_queue": "332 active,38brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66172,5 +66172,37 @@
       "Runtime",
       "Qualified prices"
     ]
+  },
+  "black_truck_digital_20261018": {
+    "source": "https://cn.mooeraudio.com/product/11.html",
+    "facts": [
+      "44.1kHz/24-bit published digital specification;stage not separately identified",
+      "Tuner sensitivity advertised±0.1cent",
+      "Adapter≥1000mA not measured draw"
+    ]
+  },
+  "discovery_caline_20261018": {
+    "status": "unresolved exact Indonesian items;not active inventory",
+    "leads": [
+      {
+        "model": "CP-48 Honey Comb",
+        "index": "https://shopee.co.id/list/Toko%20Alat%20Musik/Bandung",
+        "indexed_ask": "Rp1,489,000",
+        "limit": "Reopened index no longer exposes model;no exact seller/item;not accepted price"
+      },
+      {
+        "model": "C300",
+        "index": "https://shopee.co.id/search?keyword=loop+pedal",
+        "indexed_ask": "Rp2,249,000",
+        "limit": "Exact seller/item unresolved;not accepted price"
+      }
+    ],
+    "negative_searches": [
+      "StompLab1B",
+      "KorgAX3B/AX5B",
+      "DigiTechBP90/RP150",
+      "ZoomG2.1DM"
+    ],
+    "qualification": "No exact hit is not proof of absence;B2FOUR/BlackTruck offers already recorded,not re-added"
   }
 }

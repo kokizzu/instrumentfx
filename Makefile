@@ -1799,3 +1799,7 @@ research-commit-fx150b:
 .PHONY: research-commit-pockrock
 research-commit-pockrock:
 	python3 scripts/research_tools.py commit-pockrock
+
+.PHONY: research-commit-blacktruck
+research-commit-blacktruck:
+	python3 scripts/research_tools.py commit-blacktruck
