@@ -624,6 +624,18 @@ Checked 2026-10-17, original list printed pp37–38,54–55. [Source][MP350-E11]
 Later AC Mix/AC MG/PZ additions remain separately firmware-qualified. Clean, Drive and Hi Gain inventories still need transcription.
 
 
+### MP-350 — AMP Clean inventory, firmware 1.1.0-JP
+
+Checked 2026-10-17, original list printed pp21–27. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / AMP Clean | **38 mono-I/O entries**: Tweed Chap; Tweed Lux; Tweed Prince; Baseman Norm; Black Twin; Black Deluxe; Black Deluxe+; Black Prince; Black Super; Black Vibra; Brown King Clean; Brown Vibra; Brown Concert; Brown Super; Silver Twin; Silver Master; Superb Dual Clean; Voxy 15 TB; Voxy 30HW Norm; Hiway 103 Norm; Watchman; Jazz Clean; Emperor Clean; Match 30 Clean; Tang A30 Clean; Superstar Clean; Glacian Clean; Dr. 38 Clean; Dr. 66; Pendragon Clean; Pendragon Clean+; Press Wrecker; Pool Wrecker; Hot Kitty Clean; Soloist 100 Clean; Soloist 100 Clean HQ; Dumbell ODS 1; Petrus Clean HQ. |
+| Processing / Clean qualification | Clean is the document's subsection, not a promise of distortion-free operation at every gain setting. Pendragon Clean/Clean+ are separately listed bright-off/on versions. Soloist 100 Clean/Clean HQ are separate models; HQ adds Bright and preamp/power-tube selections. Petrus Clean HQ also exposes both tube selections. These parameters do not add independent algorithms or hardware tubes. |
+
+These 38 entries exclude the separately documented Bass and Power Amp subsections. Drive, Hi Gain and the PRE AMP equivalents remain untranscribed; no complete current AMP total is inferred.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
