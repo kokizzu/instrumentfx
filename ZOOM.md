@@ -1139,6 +1139,14 @@ Checked2026-10-17 against the manufacturer’s [September2023 compatibility shee
 | Editor / macOS compatibility | Zoom’s January23,2026 status marks **B2 FOUR supported on macOS Tahoe26 for both Apple Silicon and Intel**. This model-level OS status does not establish a desktop patch editor, every DAW version or a new driver requirement. | [Zoom status](https://zoomcorp.com/ja/jp/news/macos_tahoe/) |
 | Software / tested DAWs | July2025 matrix marks B2 FOUR compatible with CubasePro14/LogicPro11/GarageBand10.4 on Sequoia15, and CubasePro13/LogicPro10.8/GarageBand10.4 on Sonoma14. iOS18 tests Cubasis3.7/GarageBand2.3; iOS17 tests Cubasis3.6/GarageBand2.3. These are dated tested combinations, not universal compatibility. They do not override the separate Android Cubasis restriction. | [Zoom DAW matrix](https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf) |
 
+
+### B2 FOUR — pedal-category and practice limits
+
+| Field | Verified restriction / qualification |
+|---|---|
+| Expression / pedal category ceiling | **Only one effect per patch can come from the pedal category.** FP02M controls the parameter marked with the pedal icon for that effect. Previewing a selection in the Library auditions that effect alone; it is not proof of the completed chain’s sound. [Own operation manual, Setting pedal effects](https://zoomcorp.com/manuals/b2four-en/). |
+| Looper / rhythm timing | Rhythm tempo **40–250**, shared with other effects and the looper; precount selectable and rhythm volume0–100. Rhythm continues when returning to MEMORY, but stops on patch change or Library entry. [Own rhythm instructions](https://zoomcorp.com/manuals/b2four-en/). |
+| Live / tuner limits | Reference A **430–450Hz**. BASS tuning supports lowB–E–A–D–G–highC for five/six-string basses. Flat offsets1–3 semitones are available in BASS mode, not CHROMATIC. These settings are not a measured detection-accuracy specification. [Own tuner instructions](https://zoomcorp.com/manuals/b2four-en/). |
 <!-- comparison evidence ends -->
 
 ## B6

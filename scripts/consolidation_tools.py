@@ -1417,6 +1417,9 @@ def commit(model_id):
     if model_id == 'b6':
         print(research_tools.git('commit', '-m', 'research(zoom): qualify B6 loop allocation electrical limits and indexed ask'))
         return
+    if model_id == 'b2-four':
+        print(research_tools.git('commit', '-m', 'research(zoom): qualify B2 FOUR pedal rhythm and tuner limits'))
+        return
     if model_id == 've-500':
         print(research_tools.git('commit', '-m', 'research(boss): distinguish VE500 processing ratings from USB format'))
         return
