@@ -366,6 +366,8 @@ Legacy source: [guitar-floorboards](effects/guitar-floorboards.md). No source fi
 | Expression | Built-in optical expression; external TRS EXP/FS socket. Toe-switch behavior remains unverified. [GP200-P](https://en.valeton.net/product/gp-200/) |
 | Display | Published 4.3-inch 480×272 TFT LCD; color/touch not independently established in this pass. No diagonal estimated from a photograph. [GP200-P](https://en.valeton.net/product/gp-200/) |
 | New / retail IDR — GP-200X anniversary variant only | **Rp6.486.800 with voucher**, Gallery Music Bekasi, seller760002726/item48805823582, Kota Bekasi; indexed reopen checked2026-10-17. Search snapshot instead showed **Rp6.620.000 with voucher** for this same item. Both are conditional cached observations, not a verified standard GP-200 price or live stock. Condition, bundle, warranty region, shipping/tax and checkout voucher eligibility unconfirmed. [GP200-S](https://shopee.co.id/Valeton-GP-200X-Multi-Effects-Processor-GP200X-GP-200-X-GP-200X-GP200-X-i.760002726.48805823582) |
+| Retail IDR / GP-200X additional sold-out offer | **Rp6.660.000,Habis**, [SEVEN STEREO Malang,shop1408254222/item26368495719](https://shopee.co.id/Valeton-GP200X-GP-200X-GP200-X-Multi-Effect-FX-Processor-Limited-Edition-Efek-Digital-Gitar-Guitar-Bass-Elektrik-i.1408254222.26368495719),KotaMalang; title explicitly GP-200X limited edition. Checked2026-10-17: search says2daycrawl,direct cached text sayslastmonth withstaleSep7–9delivery. Not a standardGP-200 quote,new/used condition proof orcurrentstock. Actualcondition,adapter/giftbundle,warrantyregion/import,shipping/tax andcheckouttotal unknown; Rp10k late-delivery compensation notdeducted. |
+
 
 ### GP-200X anniversary variant and offer limitations
 
