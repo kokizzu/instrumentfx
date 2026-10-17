@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "Restored MIDI/control/USB/audio evidence in 56 comparison rows. Continue remaining label audit, missing-model discovery and technical verification.",
+    "task": "Finished current unmatched technical-label audit; restored 40 comparison rows. Remaining unmatched labels are provenance/documentation. Resume missing-model discovery and unresolved source verification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69721,5 +69721,57 @@
       "Manual / revision conflicts"
     ],
     "scope": "Projection repair only; no new technical claims or model membership changes."
+  },
+  "comparison_remaining_labels_20261018": {
+    "status": "current unmatched technical labels repaired",
+    "affected_rows": {
+      "ALL-GUITAR.md": 20,
+      "ALL-BASS.md": 14,
+      "ALL-VOCAL.md": 6
+    },
+    "covered": [
+      "Delay behavior/voice controls",
+      "Pitch tracking and bass-drive qualifications",
+      "Tuner/bypass variants",
+      "Factory reset scope",
+      "Cabinet names and parameter limits",
+      "EQ/amp source conflicts",
+      "Manual power-revision conflict",
+      "Vocal/bass scope",
+      "LEVEL source conflict"
+    ],
+    "remaining_unmatched": [
+      {
+        "label": "Documentation",
+        "models": [
+          "Line 6::Floor POD Plus"
+        ],
+        "disposition": "Documentation/manufacturer provenance retained in full canonical records; not projected as a technical capability."
+      },
+      {
+        "label": "Manufacturer verification limits",
+        "models": [
+          "M-VAVE::MINI-X"
+        ],
+        "disposition": "Documentation/manufacturer provenance retained in full canonical records; not projected as a technical capability."
+      },
+      {
+        "label": "Manufacturer identity",
+        "models": [
+          "VING::Flybro FB-100"
+        ],
+        "disposition": "Documentation/manufacturer provenance retained in full canonical records; not projected as a technical capability."
+      },
+      {
+        "label": "Manufacturer identity / revision",
+        "models": [
+          "Fractal Audio::FM3 MKII Turbo",
+          "Fractal Audio::FM9 MKII Turbo"
+        ],
+        "disposition": "Documentation/manufacturer provenance retained in full canonical records; not projected as a technical capability."
+      }
+    ],
+    "validation": "Focused field regression failed before fix and passed after; reviewed comparison plan has unchanged row counts and additive evidence.",
+    "limitation": "Classification audit of current extracted labels, not proof that all technical facts are verified or every source paragraph was extracted."
   }
 }

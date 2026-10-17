@@ -557,17 +557,17 @@ BASS_SHARED = {
 
 GROUPS = {
     'expression': r'expression|\bEXP\b|^external control|^control / FS01 assignments$',
-    'controls': r'k/f/b|knob|rotary|footswitch|buttons|^controls|physical controls|expression.*controls',
+    'controls': r'^level / source conflict$|k/f/b|knob|rotary|footswitch|buttons|^controls|physical controls|expression.*controls',
     'display': r'display|screen|diagonal|monochrome|touch|^evidence and remaining uncertainty$',
     'body': r'dimension|width|w×|weight|body|size|mass|^physical$',
-    'processing': r'^delay / (?:source wording|time limits)$|^historical count conflict$|^delay claim conflict$|^firmware-qualified model|processing|simultaneous|architecture|model-total disagreement|block|categor|choice|library|^modules|factory amps|efx|^effects',
-    'memory': r'memory|preset|storage',
-    'sound': r'^bass capability|^(?:bass / (?:instrument|vocal)|instrument) scope$|synth|acoustic|harmony|special sound|^sound|^vocal$|^instrument/function$',
+    'processing': r'^delay /|^(?:eq|amp|cab|cabinet) /|^delay / (?:source wording|time limits)$|^historical count conflict$|^delay claim conflict$|^firmware-qualified model|processing|simultaneous|architecture|model-total disagreement|block|categor|choice|library|^modules|factory amps|efx|^effects',
+    'memory': r'^factory /.*reset|memory|preset|storage',
+    'sound': r'^pitch /|^bass drive /|^vocal / bass scope$|^bass capability|^(?:bass / (?:instrument|vocal)|instrument) scope$|synth|acoustic|harmony|special sound|^sound|^vocal$|^instrument/function$',
     'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary|conversion',
     'io': r'^midi\b|^control / usb$|^audio(?: /| levels| noise)|^instrument / input requirements$|^midi / backup$|^analog|^conversion.*analog|^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
-    'power': r'power|battery|^dc|^supply$',
+    'power': r'^manual / revision conflicts$|power|battery|^dc|^supply$',
     'editor': r'^usb\b|app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital|^audio interface$',
-    'live': r'^save / tuner / gate$|^tuner / bypass$|automation|live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
+    'live': r'\btuner\b|^save / tuner / gate$|^tuner / bypass$|automation|live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
 }
 
 def clean(value):
@@ -709,6 +709,12 @@ def test_field_projection():
         'display': ['Evidence and remaining uncertainty'],
         'live': ['Backing-track automation', 'Save / tuner / gate', 'Tuner / bypass'],
     }
+    cases['processing'] += ['Delay / voice adjustment', 'Delay / reverb limits', 'Delay / DynaDelay behavior', 'EQ / source conflict', 'CAB / guitar names', 'Cabinet / parameter limits', 'AMP / source conflict']
+    cases['sound'] += ['Pitch / tracking distinctions', 'Bass drive / source qualifications', 'Vocal / bass scope']
+    cases['live'] += ['Tuner', 'Tuner / reference and output modes', 'Bypass / tuner', 'Tuner / calibration']
+    cases['memory'] = ['Factory / reset scope', 'Factory / user settings reset']
+    cases['power'] += ['Manual / revision conflicts']
+    cases['controls'] = ['LEVEL / source conflict']
     for group, labels in cases.items():
         for label in labels:
             record = {'facts': [{'field': label, 'value': 'Retained qualified evidence', 'context': ''}]}
