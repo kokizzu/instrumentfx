@@ -166,7 +166,7 @@ Checked **2026-10-14**. **Partial record** for Play Acoustic, with separate acou
 | Other ports | **¼″ TRS Switch-3;USB Mini-B as shown in rear diagram;12V inlet**. Specification table calls it USB-B generically. No MIDI DIN/TRS or FX-loop sockets in complete panel |
 | Power / USB / battery | **12V DC400mA specified supply**. Polarity, battery operation and USB-powered operation **not established**. USB audio/data is not power evidence |
 | Apps | **VoiceSupport Windows/macOS**, preset librarian and firmware updater; full parameter editor and Android/iOS/Linux editing **not established**. Current OS-version compatibility and download availability need checking |
-| USB audio | Recording/playback and DAW vocal processing documented; earlier exact channel counts/rates unresolved; the later indexed revision is specified below. The ADC/DAC24-bit specification is not automatically a USB stream specification |
+| USB audio | Recording/playback and DAW vocal processing documented; exact channel counts/rates **?**. The ADC/DAC24-bit specification is not automatically a USB stream specification |
 | Looper | v1.0 manual: **15s with undo /30s without**, selectable guitar/vocal/AUX sources. **Current firmware duration unverified** |
 | Other features | RoomSense microphones, vocal HIT/TALK, guitar tuner/boost, separate headphone/monitor mix and optional Switch-3 direct looping |
 

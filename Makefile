@@ -1631,3 +1631,15 @@ research-commit-1201:
 .PHONY: research-commit-h9max
 research-commit-h9max:
 	python3 scripts/research_tools.py commit-h9max
+
+.PHONY: consolidation-audit-body-differences
+consolidation-audit-body-differences:
+	python3 scripts/consolidation_tools.py audit-body-differences
+
+.PHONY: consolidation-compact-reference-plan
+consolidation-compact-reference-plan:
+	python3 scripts/consolidation_tools.py compact-reference-plan
+
+.PHONY: consolidation-commit-preservation-repairs
+consolidation-commit-preservation-repairs:
+	python3 scripts/consolidation_tools.py commit-preservation-repairs

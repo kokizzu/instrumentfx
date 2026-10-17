@@ -70,10 +70,10 @@ Connector counts refer to physical sockets. A single TRS stereo output is not tw
 Technical model links lead to manufacturers. The eight findings notes contain the new display/manual and exact Indonesian-price links, observation qualifications and outstanding fields. **Price/display review date: 2026-10-14**. Earlier technical claims retain their original snapshot context; this is not a blanket re-verification of all fields.
 
 - GP-150/180 physical controls: [manufacturer comparison image](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png). GP-180 button count includes six quick-access and ten module buttons.
-- GP-50 original control photo: [manufacturer image](https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png); completed button count now uses its manual in [F50].
+- GP-50 original control photo: [manufacturer image](https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png); completed button count now uses its manual in [F50](effects/findings/2026-10-14-valeton-gp-50.md).
 - Matribox controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/products/QME-50.jpg?v=1678434988&width=1096); [official manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433).
-- Smart Box original control photo: [manufacturer image](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1440); display size from its manual in [FSB].
-- Pocket Master original controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440); display/USB roles from its manual in [FPM].
+- Smart Box original control photo: [manufacturer image](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1440); display size from its manual in [FSB](effects/findings/2026-10-14-sonicake-smart-box.md).
+- Pocket Master original controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440); display/USB roles from its manual in [FPM](effects/findings/2026-10-14-sonicake-pocket-master.md).
 
 Historical URL correction, 2026-10-17: the paragraph above restores the exact pinned source URLs. Later transcription variants were [Matribox manual](https://cdn.shopify.com/s/files/1/0100/1980/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) and [Pocket Master image](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365198&width=1440); these altered URLs are retained as unverified provenance, not replacements for the source evidence. No new visual inspection or download is claimed.
 

@@ -24522,10 +24522,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 227 guitar, 111 documented bass-capable, 50 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 246 guitar, 116 documented bass-capable, 61 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "277 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "297 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41333,8 +41333,8 @@
     },
     "navigation_audit": {
       "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
-      "markdown_files": 155,
-      "local_link_occurrences": 2945,
+      "markdown_files": 156,
+      "local_link_occurrences": 3108,
       "legacy_files": 117,
       "registered_redirects": 116,
       "separately_verified_archival_redirect": [
@@ -41342,7 +41342,7 @@
       ],
       "unclassified_legacy_files": [],
       "errors": [],
-      "root_to_legacy_links": 403,
+      "root_to_legacy_links": 406,
       "checked_date": "2026-10-17",
       "status": "passed",
       "remaining": "Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications."
@@ -41409,13 +41409,33 @@
       }
     },
     "preservation_recheck_20261017": {
-      "at_catalogue_count": 277,
+      "at_catalogue_count": 297,
       "target": "make technical-retirement-verify",
       "status": "passed",
       "technical_sources": 99,
       "registered_technical_redirects": 99,
-      "incoming_occurrences": 304,
-      "scope": "Registered complete source bodies/model fields/shared prose/reference URLs/original headings/root destinations retained. Not full technical or stock verification."
+      "incoming_occurrences": 307,
+      "scope": "All registered complete source bodies/model fields/shared prose/reference URLs/original headings/root destinations retained. Not full technical or stock verification.",
+      "repairs_this_recheck": [
+        {
+          "destination": "TC-HELICON.md#play-acoustic",
+          "repair": "Restored pinned historical USB row exactly; newer USB stream findings retained separately."
+        },
+        {
+          "destination": "MULTI-EFFECTS.md",
+          "repair": "Expanded F50, FSB and FPM shorthand references to pinned source destinations; all prose and external URLs retained."
+        }
+      ],
+      "archive_body_check": {
+        "target": "make consolidation-audit-body-differences",
+        "mismatches": 0
+      },
+      "navigation": {
+        "target": "make navigation-save",
+        "markdown_files": 156,
+        "local_link_occurrences": 3108,
+        "errors": 0
+      }
     }
   },
   "deferred_work": {
@@ -41469,7 +41489,7 @@
     "legacy_only_models": 0,
     "guitar_view_models": 246,
     "bass_focused_models": 28,
-    "vocal_only_models": 22,
+    "vocal_only_models": 23,
     "vocal_view_models": 61,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",

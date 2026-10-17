@@ -1996,7 +1996,76 @@ def audit_shared_variant_union(verify=True, kind='cube'):
         assert {e['model_name'] for e in manifests} == set(aliases)
         verify_preserved(state)
 
+
+def audit_body_differences():
+    """Preview normalized pinned bodies against every retained whole-body archive."""
+    import difflib
+    research_tools.identity()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    differences = []
+    for entry in state.get('consolidation_and_price_findings', []):
+        if entry.get('verification_kind') != 'complete-source-body-v1':
+            continue
+        source = research_tools.read_preserved_source(entry['source'])
+        assert digest(source) == entry['source_sha256']
+        if entry.get('source_section'):
+            fragment = source.split('\n## '+entry['source_section']+'\n',1)[1].split('\n## ',1)[0]
+            source = '# '+entry['model_name']+'\n'+fragment
+        expected = source.split('\n',1)[1]
+        expected = re.sub(r'^## ', '### ', expected, flags=re.M)
+        for ref in entry['renamed_references']:
+            expected = expected.replace('['+ref+']','['+entry['marker']+'-'+ref+']')
+        for old,new in entry.get('link_normalizations',{}).items():
+            expected = expected.replace(old,new)
+        path = entry['destination'].split('#')[0]
+        text = (ROOT/path).read_text()
+        actual = text.split('<!-- '+entry['marker']+' source begins -->\n',1)[1].split('<!-- '+entry['marker']+' source ends -->',1)[0]
+        if actual != expected:
+            differences.append(dict(source=entry['source'],destination=path,marker=entry['marker'],before_sha256=digest(actual),expected_body=expected))
+            print(''.join(difflib.unified_diff(expected.splitlines(True),actual.splitlines(True),fromfile=entry['source'],tofile=path)))
+    Path('/tmp/instrumentfx-preserved-body-differences.json').write_text(json.dumps(differences,indent=2)+'\n')
+    print(f'{len(differences)} mismatched whole-body archives; preview saved under /tmp')
+
+
+def compact_reference_plan():
+    research_tools.identity()
+    source = research_tools.read_preserved_source('effects/guitar-compact.md')
+    refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
+    text = (ROOT/'MULTI-EFFECTS.md').read_text()
+    changes = []
+    for paragraph in re.split(r'\n\s*\n', source):
+        if not paragraph.strip() or re.match(r'^[#|\[]', paragraph.strip()):
+            continue
+        normalized = comparison_views.relink(paragraph, 'effects/guitar-compact.md', refs)
+        if normalized != paragraph and paragraph in text:
+            changes.append({'before':paragraph,'after':normalized})
+    payload = {'path':'MULTI-EFFECTS.md','sha256':digest(text),'changes':changes}
+    Path('/tmp/instrumentfx-compact-reference-plan.json').write_text(json.dumps(payload,indent=2)+'\n')
+    print(json.dumps(payload,indent=2))
+
+
+def commit_preservation_repairs():
+    research_tools.identity()
+    assert not research_tools.git('diff','--cached','--name-only').strip(), 'Existing staged changes'
+    changed = set(research_tools.git('diff','--name-only').splitlines()) | set(research_tools.git('ls-files','--others','--exclude-standard').splitlines())
+    allowed = {'Makefile','scripts/consolidation_tools.py','TC-HELICON.md','MULTI-EFFECTS.md','README.md','research-state.json'}
+    assert changed and changed <= allowed, changed - allowed
+    research_tools.verify()
+    comparison_views.verify_views()
+    research_tools.git('add','--',*sorted(changed))
+    print(research_tools.git('diff','--cached','--stat'))
+    print(research_tools.git('commit','-m','docs: restore pinned archive wording and compact source links'))
+
 if __name__ == '__main__':
+    if sys.argv[1:] == ['commit-preservation-repairs']:
+        commit_preservation_repairs()
+        raise SystemExit(0)
+    if sys.argv[1:] == ['compact-reference-plan']:
+        compact_reference_plan()
+        raise SystemExit(0)
+    if sys.argv[1:] == ['audit-body-differences']:
+        audit_body_differences()
+        raise SystemExit(0)
     if sys.argv[1:] in (['plan-market7-union'], ['audit-market7-union']):
         audit_shared_variant_union(sys.argv[1] == 'audit-market7-union', 'market7')
         raise SystemExit(0)
