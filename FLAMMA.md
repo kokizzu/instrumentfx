@@ -582,3 +582,16 @@ Original manufacturer manual V01,filename2023-12-08;27PDFpages. Text inspection 
 Same [search index](https://shopee.co.id/search?keyword=fx20) shows a BMJ-titledFX20 atRp1,330,000,JakartaPusat;exact item unresolved,excluded from model pricing. Unrelated bicycle saddles/phone cases are not hardware leads.
 
 [F20-M]: https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1/M00/00/0C/wKgA0GW6-W6AGJnOABszsyLEHfo390.pdf
+
+### FX20 — own-store corroboration
+
+Checked2026-10-18 against [Flamma's exact FX20 product page](https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control).
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / published totals | Store separates **52 amp models and24 effects**;24 agrees with14 modulation+5 delay+5 reverb. These are library choices,not76 simultaneous processing blocks. |
+| Editor / app workflow | Store explicitly supports real-time editing and cloud upload/share/download through FLAMMA mobile app. App **tuner435–445Hz** documented;not an onboard screen or independently verified accuracy. Exact OS versions,desktop editing andwireless-control protocol remain unverified. |
+| Power / conflicting instructions | Own store says **entirely battery-powered with USB charging**,up to4h. This corroborates the manual's battery/charging specification but does not formally retract its precautions9V500mA statement. Noexternal DC jack or9VUSB charging inferred;conflict remains open. |
+| I/O / Bluetooth qualification | Product table says **Bluetooth audio playback**,but later prose calls it audio output while describing phone playback into FX20. Retain wording conflict;no Bluetooth-headphone transmission support established. |
+
+The page's CapturePro X200 camera/lens/Wi-Fi FAQs are unrelated template content and excluded from FX20 evidence. No app,driver,firmware or file downloaded or executed.

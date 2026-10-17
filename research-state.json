@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Flamma FX20",
-    "task": "Verify own product/app documentation and resolve power conflict; retain inaccessible exact offer and unresolved BMJ lower ask.",
+    "task": "Verify FX20 exact app OS,controls,memory andsimultaneous architecture; store corroboration and contaminated FAQ exclusion saved. Power conflict remains.",
     "next_models": [],
     "after_queue": "330active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66012,5 +66012,12 @@
     "conflict": "Precautions9V500mA versus USBcharging5V1A specification.",
     "status": "partial",
     "remaining": "Full panel controls,memory total,appplatforms,simultaneousceiling,imports and marketverification."
+  },
+  "fx20_store_followup_20261018": {
+    "source": "https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control",
+    "facts": "52amps24effects;mobileediting/cloud;app tuner435–445Hz;entirelybatteryUSBcharging.",
+    "conflicts": "Manual9V500mA precautions unresolved;store Bluetoothoutput prose conflicts with playback table.",
+    "excluded": "Unrelated CaptureProX200 cameraFAQ template",
+    "remaining": "Exact appOS,controls,memory,simultaneousceiling,imports andqualifiedoffers."
   }
 }
