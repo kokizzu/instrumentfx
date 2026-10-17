@@ -69,16 +69,18 @@ Checked2026-10-17;partial. Guitar multifx;firmware-qualified bass support below.
 |---|---|
 | Expression | Built-in/external/toe support unverified. [Product][MMP-P] |
 | K/F/B | 1master rotary;8buttons:Preset±,EQ±,Modify±,Tap/Tuner,Save;footswitch count and power-switch arrangement pending manual. [Product][MMP-P] |
-| Display | OLED;published diagonal,color/touch unresolved. [Product][MMP-P] |
-| Processing / categories | Launch25amps/25effects;firmware1.1.11adds10bassamps. Simultaneous chain and per-category choices unresolved;25effects is not25simultaneous. [Product][MMP-P] |
+| Display | OLED;manual describes white text on black,10s display timeout. Diagonal/touch unresolved. [Manual][MMP-M] [Product][MMP-P] |
+| Processing / categories | Launch25amps/25effects;firmware1.1.11adds10bassamps. Launch manual: **one amp +four movable effects blocks**;25effect choices across stompbox11,modulation6,delay4,reverb4. [Manual][MMP-M] [Product][MMP-P] |
 | Preset memory | 100editable slots;launch70factory presets. Updated bass-factory allocation unresolved. [Product][MMP-P] |
-| Synth / acoustic | Dedicated synth/acoustic simulation unverified. [Product][MMP-P] |
+| Synth / acoustic | Launch amp list includes **ACOUSTIC SIM**;dedicated synth unverified. [Manual][MMP-M] [Product][MMP-P] |
 | I/O | Built-in¼inch input plug;⅛inch stereoheadphone;USB-Cbidirectional recording/update/charging;Bluetooth5.1. [Product][MMP-P] |
-| Power / battery / USB | Rechargeable Li-ion,claimed>4h;600mAmax consumption. Chargingvoltage/batterycapacity/USBoperation unresolved. [Product][MMP-P] |
+| Power / battery / USB | Rechargeable Li-ion,claimed>4h;600mAmax consumption. Manual specifies4h highvolume/up to6h lowvolume and600mAmax **USB current**;charging works with power on/off. Chargingvoltage/capacity unresolved. [Manual][MMP-M] [Product][MMP-P] |
 | Dimensions / mass | 80H×38.1W×30.7Dmm;54g,product labels retained. [Product][MMP-P] |
 | IR / NAM / capture | UserIR/nativeNAM/convertedNAM/proprietarycapture imports unverified. [Product][MMP-P] |
 | Editor / platforms | Fender Tone iOS/Android Bluetooth editor. Windows/macOS Device Manager updater and ASIO audio driver are separate. MinimumOS unresolved. [Product][MMP-P] |
 | Bass capability / firmware | **1.1.11(2026-01-14)** adds Super Bassman,Rumblev3 2x10,Rumblev2 1x15,BassmanTV,Showman2x15,Rockin’Peg,'66FlipTop,Redhead,KGB-800,Monster. Installed firmware must be checked;initial1.0.29 dated2024-09-05. [Release notes][MMP-F] |
+| Live / reset revision conflict | Launch manual:Tap+Save reset restores1–70,preserves71–100. Current bass-update instructions warn all presets reset. Preserve revision-specific difference;no reset performed. [Manual][MMP-M];[Current instructions][MMP-F] |
+| Controls / manual behavior | On-device saving stores MODIFY/tapBPM edits;other parameters/name/location use Tone app. MODIFY assigns one MOD/delay/reverb parameter per preset;EQ selects9global profiles. Three-position power/Bluetooth slider is separate from8buttons. [Manual][MMP-M] |
 | Live / firmware limitations | 1.1.11 adds9dBinputpad and input-mute-disable for some highimpedance/piezo pickups. Known issue:bassamp cloud presets not visible. Adding bass factory presets resets all presets;backup required. No update/reset performed. Looper/drums/scenes unverified. [Release notes][MMP-F] |
 
 ### Separate IDR hardware offers
@@ -96,3 +98,7 @@ Official English candidate and indexed Spanish manual rejected as document/pdf;n
 [MMP-P]: https://intl.fender.com/products/mustang-micro-plus
 [MMP-F]: https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions
 [MMP-O]: https://shopee.co.id/Fender-Mustang-Micro-Plus-Guitar-Combo-Amplifier-Headphone-Guitar-Amp-i.16879370.26916147755
+
+[MMP-M]: https://www.manualslib.com/guide/3660615/fender-mustang-micro-plus-manual.html
+
+Manufacturer manual transcription identifies PR6171/exact Micro Plus,matching launch25/25,70+30 memories,controls and54g specs. It predates1.1.11bass additions;current official PDF equivalence unverified. No generated FAQ or visual inference used;official PDF access limits above retained.

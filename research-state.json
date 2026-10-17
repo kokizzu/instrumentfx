@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fender Mustang Micro Plus",
-    "task": "Micro Plus partial record added from own product/release notes;next resolve own manual chain/control/power details;DapperAmpMini remains queued.",
+    "task": "Micro Plus manual processing/power/save/reset qualifications saved;next retain named effect choices and recording/tuner restrictions before deferring gaps and proceeding Dapper Amp Mini.",
     "next_models": [
       "Valeton Dapper Amp Mini"
     ],
@@ -55870,5 +55870,11 @@
     },
     "remaining": "Manualaccess,simultaneouschain/categorychoices,control/power/displaydetails,updatedfactoryallocation,IR/import/editorOSandconditionqualifiedoffers.",
     "added": true
+  },
+  "microplus_manual_checkpoint_20261017": {
+    "source": "https://www.manualslib.com/guide/3660615/fender-mustang-micro-plus-manual.html",
+    "identity": "Exact PR6171manufacturer manual text;launch25/25and70+30matchesproduct,prebassupdate;officialcurrentPDFrevisionunverified.",
+    "saved": "1amp+4moveableeffects;11/6/4/4categories;whiteonblack10stimeout;runtime4hhigh6hlow;600mAUSB;onoffswitchcharging;ACOUSTICSIM;onsavescope;resetrevisionconflict.",
+    "remaining": "Fullnamedmodels/cabinetpairs,USBchannels/tunerbehavior,expression/footswitchinventory,powerinputcapacity,IRimports/minimumOS/currentprices."
   }
 }

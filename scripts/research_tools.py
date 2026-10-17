@@ -391,7 +391,7 @@ def main():
         if mode == 'commit-b21u':
             message = 'research(zoom): reconcile B2.1u module choices and acoustic amp distinction'
         if mode == 'commit-microplus':
-            message = 'research(fender): add Micro Plus with firmware-qualified bass support'
+            message = 'research(fender): qualify Micro Plus blocks power and reset revisions'
         if mode == 'commit-mg20':
             message = 'research(nux): retain MP-2 effect choices and audio driver qualifications'
         if mode == 'commit-m100':
