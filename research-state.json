@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-5",
-    "task": "GT-5 drive/preamp/reverb/chorus/tremolo choices and memory groups saved. Next verify wah/feedbacker/compressor choices and English corroboration;initial user contents and remaining technical gaps unresolved.",
+    "task": "GT-5 wah/dynamics choices saved;initial user contents,English category corroboration,speaker choices,visual/toe/editor/IR/NAM and power-off recording retention remain deferred. Continue fresh Shopee Indonesia discovery for eligible unrecorded hardware.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee Indonesia discovery;no downloads,workflows or push. RFX-2000 technical gaps remain deferred."
   },
@@ -53908,5 +53908,11 @@
     "pages": "10–11,32–33,44–45",
     "finding": "OD/DS11fixed+2custom;PREAMP13fixed+2custom;five reverbs;chorus and tremolo/pan mode choices;user/preset group structure;patch change or delay off stops sound-on-sound playback.",
     "remaining": "Initial user patch contents still unverified;English category corroboration,wah/other choices,visual/toe/editor/IR/NAM and power-off recording retention remain."
+  },
+  "gt5_wah_dynamics_checkpoint_20261017": {
+    "source": "https://www.roland.com/RolandComSite/media/pl/media/pdf/GT-5.pdf",
+    "pages": "29–32",
+    "finding": "Shared feedbacker/slow gear,compressor/limiter,pedal/auto wah choices;LPF/BPF and envelope direction;automatic EXP assignment not toe-switch evidence.",
+    "remaining": "Initial user contents,English category corroboration,speaker choices,visual/toe/editor/IR/NAM and power-off recording retention. These remain deferred rather than false No claims."
   }
 }
