@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line6 Floor POD Plus",
-    "task": "FloorPODPlus15cab+NoCab andoutputtuning saved. Dimensions/mass/VyzexOSremainunknown;avoidrepeatblindsearch. Next freshShopee discovery for eligibleunrecorded models bybrand/series,or exactconditionqualified FloorPODPlusoffer.",
+    "model": "Discovery / BOSS ME-5 lead unresolved",
+    "task": "ME5 card indexed5months Rp2mSurabaya butcategoryreopenlostcard,noexactitem. Next search seller/item identity via alternate ME-5 spellings and broaden bass/vocal leads;do not promote card toqualifiedoffer oraddmodelcount. PandoraStompofferalreadyrecorded.",
     "next_models": [],
-    "after_queue": "289partialmodels;no downloads/workflows/push."
+    "after_queue": "289partialactive models;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -58042,6 +58042,35 @@
     },
     "output_modes": "CaCbpowerampclosed/open;CcCdfrontclosed/open qualification: Cc=open(default),Cd=closed",
     "remaining": "Dimensions/mass/VyzexOS notestablished bytargetedprimarysearch",
+    "downloads": false
+  },
+  "discovery_me5_unresolved_20261017": {
+    "queries": [
+      "Boss ME5 efek",
+      "Korg PX4",
+      "Digitech RP2000",
+      "Line6 JM4",
+      "BOSS ME5 ME5 japan rareitem",
+      "Korg Pandora",
+      "POD Express Black",
+      "Mooer GE300Lite",
+      "Zoom G2nu",
+      "Boss ME6B"
+    ],
+    "unverified_card": {
+      "model": "BOSS ME-5",
+      "title": "BOSS ME5 ME 5 japan rare item efek gitar multi Effect",
+      "idr_card_only": 2000000,
+      "region": "Surabaya",
+      "index_age": "5months",
+      "url": "https://shopee.co.id/search?category=11043572&keyword=efek+gitar+boss&page=4&subcategory=11043648",
+      "reopen": "lastmonthcategorybodydifferentproducts;noME5match",
+      "qualification": "No exactitem/seller/condition/stock/variant;notanallocatedoffer"
+    },
+    "duplicate": "PandoraStomp80791628/24396793131alreadyinKORGandledger;Rp1200000three-monthcache;directinaccessible",
+    "no_exact_new_model": true,
+    "excluded": "G2nuadapterhits/accessories;ordinarysingleeffects;categorypricesnotexactoffers",
+    "coverage": "No-hit queries do not prove marketabsence",
     "downloads": false
   }
 }
