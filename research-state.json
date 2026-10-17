@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX2000",
-    "task": "SPX2000 panel counts and221-location memory accounting verified;USER starts empty,Classic25 supported by numbered manual list despite datasheet27. Next algorithm/category counts,Freeze/live limits,editor/driver details and displaybacklight discrepancy; bass remains unclassified.",
+    "task": "SPX2000 PRESET Freeze limits and algorithm-internal simultaneous examples saved. Next CLASSIC Freeze A/B,category counts,editor/driver compatibility and displaybacklight discrepancy; bass still unclassified.",
     "next_models": [],
     "after_queue": "Search Shopee by brand/series for unrecorded eligible multi-effects. Keep MX400 library/bank follow-up pending; no downloads,workflows,push."
   },
@@ -53570,5 +53570,11 @@
     "pages": "7–12,26",
     "finding": "2 rotary,0 built footswitches,18 separate buttons text-derived;97Preset25Classic99User=221,122factory effects,User initially empty. Datasheet27Classic retained as conflicting. USB editor/MIDI distinct from documented analog/AES audio.",
     "remaining": "Algorithm/category counts,visual corroboration,Freeze and live limits,current editor/driver compatibility,displaybacklight conflict and qualified condition/stock."
+  },
+  "spx2000_freeze_followup_20261017": {
+    "source": "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf",
+    "pages": "77–84",
+    "finding": "PRESET Freeze sample-rate-dependent2.9705/2.7292sec,mono-in/stereo-out,loop/reverse/pitch/trigger controls and destructive record-ready/poweroff rules. MultiFilter3simultaneous and multiband dynamics internal combinations distinguished from assignable slots.",
+    "remaining": "CLASSIC Freeze A/B details,full category counts,current editor/driver support and displaybacklight discrepancy."
   }
 }
