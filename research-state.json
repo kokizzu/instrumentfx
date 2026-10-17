@@ -28,10 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX ToneLab EX",
-    "task": "ToneLabEX ownpage reconciled44+NR1 andspeakerpower;72vs82mm height conflict retained. Setupguide not found andgenericdriver notes unallocated. Next resume Shopee brand/series hardware discovery;powerpolarity/currentOS/editor remainunknown.",
-    "next_models": [],
-    "after_queue": "278partialmodels;continue fullfieldverification andShopeediscovery;all117legacy paths accounted for,butcompatibilitypathsremain.No downloads/workflows/push."
+    "model": "TC Electronic M350",
+    "task": "New exact Shopee hardware leads saved in discovery_rack_frontier_20261017,notcounted. First locate/read exact originalEnglishmanual orqualifiedmanufacturer-authoredmirror;ownindexedcutsheet available butdirect502. Qualify PCdada preorderask;Puddingstoree2variantpriceunallocated. Thenadd canonicalrecord+views onlyafter ownspecidentity verification.",
+    "next_models": [
+      "Alesis MIDIverb III",
+      "Lexicon MPX100"
+    ],
+    "after_queue": "278partialmodels;commit each model before next;all117legacy pathsaccountedfor;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -56913,5 +56916,64 @@
     "counts": "44effects+NR1=manual45includingNR;TotalEQseparateLINEonly;0.6Wmatches0.3Wx2",
     "software": "GenericVOX2chaudiodriver2.0.0notesnotexactmodelapplicability;no interfacebitdepth/channelclaim adopted",
     "access": "Original setupguide searches no result;ProductDownloads link extracts homepage;no download"
+  },
+  "discovery_rack_frontier_20261017": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id TC Electronic M350",
+      "site:shopee.co.id TC Electronic M300",
+      "site:shopee.co.id Alesis Midiverb 3",
+      "site:shopee.co.id Lexicon MPX100"
+    ],
+    "counted": false,
+    "leads": [
+      {
+        "model": "TC Electronic M350",
+        "url": "https://shopee.co.id/%E2%9C%85-NEW-TC-electronic-M350-vocal-reverb-effect-dual-engine-digital-effect-processor-professional-stage-performance-effect-karaoke-i.1003923494.15899349001",
+        "seller": "PCdada",
+        "region": "Kota Jakarta Barat",
+        "idr": 6682240,
+        "condition": "Title NEW;not independently verified",
+        "stock": "Indexed Pre-Order15days;notlive",
+        "access": "2monthindex;directopenfailed",
+        "qualification": "Augustdeliveryestimate stale;bundle/warranty/variant/voucher/shipping/tax unknown",
+        "primary": "https://service-tcgroup.tcelectronic.com/media/M350_Cutsheet_web.pdf",
+        "source_access": "Indexedmanufacturer cutsheet:15reverbs+15effects,dualinput/serial,MIDIandAU/VSTeditor;directPDF502. Exact originalEnglishmanual not yet located;guessedM350_US_2.pdf inaccessible andnotverifiedexists."
+      },
+      {
+        "model": "TC Electronic M350",
+        "url": "https://shopee.co.id/NEW-TC-Electronic-M350-Vocal-Reverb-Effect-Dualengine-gital-Effect-Processor-Professional-Stage-Performance-Effect-Karaoke-i.1696675139.43128792310",
+        "seller": "Puddingstoree",
+        "region": "Kota Jakarta Barat",
+        "idr": 8870555,
+        "stock": "IndexedPreOrder30days",
+        "condition": "TitleNEW;unverified",
+        "qualification": "2variations;price unallocated,not a model-specific comparisonask untilselectedhardwarevariantresolved;index2months"
+      },
+      {
+        "model": "Alesis MIDIverb III",
+        "url": "https://shopee.co.id/efek-vocal-alesis-midiverb-III-ex-studio-recording-i.77454658.23942927595",
+        "seller": "syaifuddin_syaifullah",
+        "region": "Kab.Ponorogo",
+        "idr": 650000,
+        "condition": "Title gambling tanpaPSU;workingconditionunverified",
+        "stock": "Shoponholiday;notstockproof",
+        "access": "index2months",
+        "qualification": "NoPSUexplicit;do nottreatasnormalworkingusedprice;variant/warranty/voucher/shippingtaxunknown"
+      },
+      {
+        "model": "Lexicon MPX100",
+        "url": "https://shopee.co.id/orinal-LEXICON-MPX100-reverb-delay-nyesss-i.327115965.24443061649",
+        "seller": "Imc Genteng Kali",
+        "region": "Kota Surabaya",
+        "idr": 3500000,
+        "condition": "unknown",
+        "stock": "LayananTidakTersedia",
+        "access": "index4months",
+        "qualification": "Unavailable delivery notsameassoldout;adapter/bundle/warranty/variant/voucher/shippingtaxunknown"
+      }
+    ],
+    "rejected_frontier": "RP300/RP355adapter855783279/22273291654 nothardware;G2.1DM/ME6/AX3000B noqualifiedhardware hitinlimitedqueries;notabsenceproof",
+    "other_existing": "MIDIverb4 newoffers surfaced;not duplicatedpendingexactIDcomparison."
   }
 }
