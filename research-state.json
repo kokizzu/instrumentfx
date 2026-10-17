@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "Two additional GP-200X variant offers saved withcached-access/sold-out qualifications;manufacturer140amp headlineversusamps/cabs scope conflict preserved. Continue missingbrand/series discovery andofficialspecificationgaps;do notcountX/R asnewmodels.",
+    "task": "GP-200 FAQ hardware conflicts flagged; USB host requirement, Undo/Redo buffer limits and AUX level control saved. Resume missing-model Shopee discovery and remaining technical gaps.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69440,5 +69440,20 @@
     ],
     "manufacturer": "https://www.valeton.net/product/gp-200x/",
     "count_conflict": "headline140+amps versusfeature140+amps/cabs;do notreplace versioned71AMP census"
+  },
+  "technical_followup_gp200_faq_20261018": {
+    "date": "2026-10-18",
+    "source": "https://www.valeton.net/gp-200-faq/",
+    "hardware_conflicts": [
+      "FAQ four switches vs product/manual eight",
+      "FAQ two EXP/FS sockets vs manual one",
+      "FAQ 3.5mm MIDI vs product/manual DIN"
+    ],
+    "qualified_findings": [
+      "USB peripheral requires host",
+      "Undo/Redo Pre90s Post45s and buffer merge restriction",
+      "AUX has no device volume adjustment"
+    ],
+    "verification": "Manufacturer text only; no downloads or hardware test"
   }
 }

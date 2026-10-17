@@ -404,6 +404,17 @@ Legacy source: [guitar-floorboards](ALL-GUITAR.md)<!-- historical-link:valeton-0
 | Controls / named controls and extra switches | Firmware1.8.0 manual pp3–4 explicitly identifiesPARA(push-enter),MASTER,BACK,GLOBAL,DRUM,SAVE,AMPknobs,modulebuttons,quick-accessknobs andeightfootswitches. Rear **GND/LIFT andPOWER areadditional switches**,notfront-panelbuttons. GND/LIFT affectsbothXLRgrounds(upLift,downGND). Exacttotalrotaries/separatebuttonsremainunverifiedwithoutreadablepanelinspection; **25combinedcontrols mustnotbesplitbyguessing**. [Original manufacturer manual copy](https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3),checked2026-10-17. |
 | Tuner / reference and output modes | Manual p6: holdTAP enterstuner; referenceA **432–447Hz,default440Hz**. Thru retainsnormalprocessing; Bypassprovidesdryinput; Mutesilencesoutput. OtherfootswitchesorBACKexittuner. Thesearetuneroutputmodes,notproof ofanalogtruebypass. [Original manual copy](https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3) |
 
+### GP-200 — FAQ conflicts and operating restrictions
+
+Checked 2026-10-18 against the [manufacturer FAQ](https://www.valeton.net/gp-200-faq/), [product specifications](https://www.valeton.net/product/gp-200/) and firmware1.8.0 manual above.
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / FAQ hardware conflict | FAQ describes four footswitches, two EXP/FS sockets and3.5mm TRS MIDI. Product/manual instead document **eight footswitches, one shared EXP/FS socket and5-pin DIN MIDI**. Preserve the discrepancy; FAQ claims do not establish extra ports or change verified hardware counts. |
+| USB / host requirement | FAQ identifies GP-200 as a **USB peripheral**, requiring a host such as computer/tablet/phone; direct USB connection to another peripheral MIDI controller does not work. This does not exclude control through a suitable host. USB bus-powered operation remains unverified. |
+| Looper / Undo-Redo memory | FAQ specifies **90s Pre /45s Post with Undo/Redo**, using a buffer that halves storage. It says Undo/Redo becomes unavailable when buffer recording reaches the existing-track length and merges. These qualify the180s headline, not additional independent loop tracks; behavior not hardware-tested. |
+| I/O / AUX level | FAQ says **AUX input has no on-device volume adjustment**; adjust the source. This is separate from AUX-to-USB routing. Hardware errors elsewhere in this FAQ remain flagged above. |
+
 ### GP-200X anniversary variant and offer limitations
 
 [Valeton's own GP-200X page](https://www.valeton.net/product/gp-200x/) explicitly states shared features/functions with GP-200. It documents navy/red finishing, anniversary firmware, **28 artist presets from12 artists** and a gift box with pick and copper/leather pick-holder keychain. GP-200/GP-200R can receive the firmware and artist presets too. Do not add28 to the256-location capacity or assume seller bundles contain every advertised gift. The variant has its own physical finish and packaging; its offers must remain labelled GP-200X.
