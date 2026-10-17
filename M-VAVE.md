@@ -1010,24 +1010,31 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 
 <!-- comparison evidence begins -->
 
-**Existing review2026-10-15. Provisional manual-transcription profile**,not a completed original-PDF visual check. Manufacturer independently confirms model and desktop app support;this evidentiary distinction must survive consolidation.
+**Original review2026-10-15;PDF-text recheck2026-10-18.** The26-page Bass English/Chinese manual is now readable;matched title,controls andchain. No visual panel audit;unresolved fields remain partial. Historical transcription/access limitations are retained below.
 
 | Field | Indexed original-manual profile / limitation |
 |---|---|
 | Expression / controls / display | No built-in/EXP enumerated;**10/3/0**,power separate;no screen,LEDstates/tuner,touchNo. |
 | Processing / choices | **Sixfixedstages boost→EQ→COMP→MOD→SPACE→IR**. Boost1,3bandEQ1,COMP1,MOD2chorus/phaser,SPACE2**delay OR reverb**,IR8. NoelectricampselectororACanti-feedbackcopied. |
-| Presets | **Three editable total**; factory overwrite specifics require original-manual confirmation. |
+| Presets | **Three editable,factory-filled locations**,user edits overwrite these;not3+3. OriginalPDF Englishp7/Chinesep1 confirms. |
 | Synth / acoustic | Neither documented in listed stages; provisional transcription evidence, not an exhaustive revision check. |
-| Body / power | **161×57×17.5mm;260g**,compact,revision/protrusionpending. **780mAh/3.7V,USB5V**,2Aexample,6hplay/2hcharge rated;usewhilechargingnotindependentlyconfirmed. |
+| Body / power | **161×57×17.5mm;260g**,compact,revision/protrusionpending. **780mAh/3.7V,USB5V**,2Aexample,6hplay/2hcharge rated;ChinesePDFp1 explicitly supports charging whileoperating;2A is adapterexample,not currentdraw. |
 | Ports | Mono 6.35 mm TS input/output, separate phones/mobile-record sockets, USB; small-jack and USB subtypes unverified. |
 | IR / NAM / captures | Eight replaceable IR slots; format/sample limits unverified. No verified native NAM, converted NAM or capture-import workflow; a separate manufacturer converter does not establish Bass compatibility. |
 | Software / audio / practice | Official **CubeSuiteWindows/macOS**namesBass;indexedmanualpresetedit/IRimport. OfficialmobilelistdoesnotnameBass,soIOS/Androideditnotestablished. 24/48processing,USBrecord/play,channels?,tuner,Bluetoothbacking;looper/drumsunverified. |
+
+### Original PDF text recheck,2026-10-18
+
+| Field | Model-specific confirmation / limits |
+|---|---|
+| Processing / USB / IR manual | [Original Bass PDF](https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b.pdf),Englishpp2,4–5,9–12;Chinesepp1,4–5:USB charging/computer soundcard/preset editor/IR import;SPACE selects delay ORreverb. Physical IR selector1=off,2–9=eightIRs;software storage1–8. Import overwrites priorIR. IR factory reset andthree-preset reset separate. Published48kHz/24bit is general specification,not provenUSBtransferformat;IRlength/format/channel limits unknown. |
+
 
 ### Manufacturer recheck,2026-10-18
 
 | Field | Primary-source confirmation / remaining limits |
 |---|---|
-| IR / USB / software manufacturer recheck | [Own product](https://www.m-vave.com/product?id=cube-baby-bass) search-index body explicitly confirms **8 custom bass cabinet IR slots**,USB audio,phone-recording jack andPreset/Live/Edit modes. Directopen returned30-line shell,so this is indexed manufacturer evidence,not original-manual inspection. IR sample/length/bit limits,USB channel/word/sample format andsimultaneous delay/reverb remain unverified. [Downloads](https://www.m-vave.com/download) directly names CubeBabyBass inUSB-connected CubeSuite Windows/Mac list;mobile CubeSuite list omitsBass. No app installed;mobile editing/NAM not established. |
+| IR / USB / software manufacturer recheck | [Own product](https://www.m-vave.com/product?id=cube-baby-bass) search-index body explicitly confirms **8 custom bass cabinet IR slots**,USB audio,phone-recording jack andPreset/Live/Edit modes. Directopen returned30-line shell,so this is indexed manufacturer evidence,not original-manual inspection. IR sample/length/bit limits,USB channel/word/sample format remain unverified;delay/reverb exclusivity subsequently confirmed fromPDF. [Downloads](https://www.m-vave.com/download) directly names CubeBabyBass inUSB-connected CubeSuite Windows/Mac list;mobile CubeSuite list omitsBass. No app installed;mobile editing/NAM not established. |
 
 
 Earlier **Rp560.000** indexed at [NADA236930016/43228668633](https://shopee.co.id/M-Vave-Cube-Baby-Bass-Effects-i.236930016.43228668633) and [Apregio3012339/40070995457](https://shopee.co.id/M-Vave-MVAVE-Cuvave-Cube-Baby-Bass-Cubebaby-BASS-elektrik-multi-efek-strip-original-i.3012339.40070995457). Laterdirectandexactsearchesfailedtoreproduce;historicalreviewevidence,notfreshliveoffers. Olddeliverydates/condition/bundle/region/stock/authenticity/deliveryunverified. Used **?**;electricBekasprice cannotbeappliedtoBass.
