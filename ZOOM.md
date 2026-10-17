@@ -1920,7 +1920,7 @@ Guitar multi-effects;distinct fromG9.2tt/G5. Checked2026-10-17;partial. Disconti
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in pedal with full-down module switch;FP01/FP02 external pedal independently controls volume andcan sendMIDI. | [Manual pp30–33][G71-M] |
-| K/F/B | Seven main footswitches:fourpatch,twoBANK,FUNCTION. Rotary/button totals pending;toe additional. | [Manual pp6–7][G71-M] |
+| K/F/B | **15 rotary /7 main footswitches /button count pending**. Text-derived:TYPE1,preamp7(AMP TYPE,GAIN,LEVEL,BASS,MIDDLE,TREBLE,PRESENCE),parameter4,TUBE/BOOST2,rearLEVEL1. Foot:fourpatch,twoBANK,FUNCTION. Toe/rear toggles separate;visual corroboration pending. | [Manual pp6–7][G71-M] |
 | Display | 16-character,two-line backlitLCD plus2-digit7-segmentLED. Diagonal,color,touch unverified. | [Japanese manual p69][G71-J] |
 | Dimensions / mass | 460W×235D×81Hmm;4kg. | [Manual p69][G71-M] |
 | Processing / category choices | **92effects,max9 includingZNR**. PREAMP35distortion+1acoustic;other categorysubtotals pending. Two live/recording algorithms pertype depend onCABINET;not72 independent simultaneous preamps. | [Manual pp4,58–60][G71-M] |
@@ -1932,7 +1932,7 @@ Guitar multi-effects;distinct fromG9.2tt/G5. Checked2026-10-17;partial. Disconti
 | IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified. | Unresolved |
 | Editor / software | Editor/librarian WindowsXP,Mac10.2–10.8;ASIO drivers separate,Vista/7/8 andXP versions. CurrentOS compatibility unverified. | [Official support][G71-S] |
 | USB audio / MIDI | USB16-bit stereo record/play,32/44.1/48kHz;USB audio-only,MIDI usesdedicatedIN/OUT. Internal96kHz24-bit processing is separate. | [Manual pp4,48–49,69][G71-M] |
-| Looper / drums / live | Functionswitch preampA/B,tap,hold-delay control;12AX7 Energizer. Looperduration,drums,scenes,trails unverified. | [Manual p4][G71-M] |
+| Looper / drums / live | Functionswitch preampA/B,tap,hold-delay control;12AX7 Energizer. Energizer active inallmodes,notpatch-stored. HoldDelay requiresactiveDELAY,sustains currentdelay sound;releasinghold letsit decay. DelayMute mutesDELAYinput. These functions do not establish overdublooper. Function assignments requireSTORE;patchchange discardsunsaved assignment. Looperduration,drums,scenes,trails unverified. | [Manual pp16–17,34–35][G71-M] |
 
 ### Separate IDR hardware offers
 
