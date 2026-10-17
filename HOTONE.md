@@ -584,6 +584,19 @@ Checked 2026-10-17, original list printed pp83–87. [Source][MP350-E11].
 Firmware 1.3.0's separately documented Velvet Verb HQ addition remains a delta. This older census does not certify a complete current RVB total or installed used-unit library.
 
 
+### MP-350 — DLY inventory, firmware 1.1.0-JP
+
+Checked 2026-10-17, original list printed pp73–83. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / mono DLY | **10 mono-I/O entries**: Analog Delay M; BBD Delay M; Digital Delay M; Digital Delay HQ; Tape Delay M; Sweetie; Recaller; Ekopress 80; Ekopress 900; Ekopress 999. |
+| Category choices / stereo DLY | **22 stereo-I/O entries**: Analog Delay S; BBD Delay S; Digital Delay S; Tape Delay S; Dual Delay; Ping-Pong; Sweep Delay; Tremolo Delay; Lo-Fi Delay; Ring Delay; Reverse Delay; Vintage Rack; Ambience 1; Ambience 2; Infidelay 1; Infidelay 2; 2290 Mod; 2290 Ducker; Multitap Echo; Glitch Delay; Icy Delay; Bloodless Delay. **32 DLY entries total** in this revision; not simultaneous capacity or a verified current library total. |
+| Processing / delay routing | Dual Delay has separate L/R times and cross-feedback. Infidelay 1/2 each contain four internal lines; these are not four independent module slots. 2290 Ducker reduces repeats while input is strong. Trail controls effect-bypass tails, not proven preset-change spillover. Digital Delay HQ remains labelled mono despite its left-channel Time wording; no stereo upgrade inferred. |
+
+Later firmware reconciliation remains open. No numeric delay-time maximum was established from these entries.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

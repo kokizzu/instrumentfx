@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "AMP/PRE AMP/MOD/DLY inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery",
+    "task": "AMP/PRE AMP/MOD inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62559,5 +62559,58 @@
     ],
     "limits": "Later VelvetVerbHQ delta separate; no current installed total or simultaneous capacity inferred",
     "next": "AMP/PRE AMP/MOD/DLY inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery"
+  },
+  "mp350_dly_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed73–83",
+    "mono": [
+      "Analog Delay M",
+      "BBD Delay M",
+      "Digital Delay M",
+      "Digital Delay HQ",
+      "Tape Delay M",
+      "Sweetie",
+      "Recaller",
+      "Ekopress 80",
+      "Ekopress 900",
+      "Ekopress 999"
+    ],
+    "stereo": [
+      "Analog Delay S",
+      "BBD Delay S",
+      "Digital Delay S",
+      "Tape Delay S",
+      "Dual Delay",
+      "Ping-Pong",
+      "Sweep Delay",
+      "Tremolo Delay",
+      "Lo-Fi Delay",
+      "Ring Delay",
+      "Reverse Delay",
+      "Vintage Rack",
+      "Ambience 1",
+      "Ambience 2",
+      "Infidelay 1",
+      "Infidelay 2",
+      "2290 Mod",
+      "2290 Ducker",
+      "Multitap Echo",
+      "Glitch Delay",
+      "Icy Delay",
+      "Bloodless Delay"
+    ],
+    "counts": {
+      "mono": 10,
+      "stereo": 22,
+      "total": 32
+    },
+    "findings": [
+      "DualDelay separateLRtimes and crossfeedback",
+      "Infidelay1/2 four internal lines not slots",
+      "2290Ducker reduces repeats during strong input",
+      "Trail refers bypass not presetspillover"
+    ],
+    "qualification": "DigitalDelayHQ monoIO label versus left-channel Time wording retained; currentlibrary/maxdelaytime unresolved",
+    "next": "AMP/PRE AMP/MOD inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery"
   }
 }
