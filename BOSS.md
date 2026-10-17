@@ -2615,6 +2615,13 @@ Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; p
 
 The driver page refers detailed configuration to packaged/post-install readmes. They were not downloaded or installed;exact directional channel count remains open.
 
+### GT-001 — current macOS matrix, 2026-10-17
+
+| Field | Manufacturer status / scope |
+|---|---|
+| Editor / current macOS | [BOSS compatibility matrix](https://www.boss.info/global/support/support_news/25090811m1/),updated **2026-09-16**,marks GT-001’s Exclusive Application **Yes (Download)** for **macOS15 Sequoia and26 Tahoe**;**macOS27 Golden Gate is Under Testing**. This supersedes the earlier unresolved newer-OS status,not the retained2017 release history. |
+| USB / macOS driver | The separate Hardware & Driver row has the same15/26 Yes (Download),27 Under Testing statuses. Dedicated software is required;these are not class-compliant/no-driver claims. Compatibility does not establish exact USB channel counts or future OS support. |
+
 <!-- comparison evidence ends -->
 
 [GT001-P]: https://www.boss.info/global/products/gt-001/
