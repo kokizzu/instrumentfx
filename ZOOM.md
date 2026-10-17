@@ -2069,3 +2069,39 @@ Remaining: qualified single-model offer/variant mapping, full category counts an
 [708-M]: https://zoomcorp.com/media/documents/E_708II.pdf
 [708-P]: https://zoomcorp.com/en/gb/multi-effects/bass-effects/708ii/708ii-support/
 [708-O]: https://shopee.co.id/Efek-Zoom-707ii-Zoom-708ii-Zoom-GFX-3-Langka-i.703817770.23503462640
+
+## RFX-1100
+
+Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
+
+| Field | Evidence / qualification |
+|---|---|
+| Instrument scope | Guitar requires preamp/effect before line input; vocal uses dynamic-microphone input. Bass suitability unclassified [R11-M pp.2–4] |
+| Expression | No built-in pedal/toe; external expression unverified. Optional FS01 bypass footswitch [R11-M p.2] |
+| Knobs / footswitches / buttons | 7 rotary controls/selectors derived: Input, Output, Mix, Adjust, Character, Bank, Effect Type;0 footswitches; button count unverified, mic and power switches separate [R11-M pp.2–3] |
+| Display | LED level/status indicators; screen diagonal/color/touch unverified |
+| Processing / categories | 33 selectable effects:11 each in REVERB/EFFECTS/MIX&SFX banks. Serial delay+reverb/chorus+reverb and parallel delay/reverb/flanger/reverb documented. Vocoder variants include distortion+chorus; exact overall maximum unverified [R11-M pp.1,13,15] |
+| Preset memory | 33 effect selections are not established as writable patch memories; user/factory-filled/total stored-patch counts unverified |
+| Synth / acoustic | Vocoder processes external carrier; dedicated synth/acoustic simulator unverified |
+| IR / NAM / captures | IR import, native/converted NAM and measured capture support unverified |
+| Audio / control ports | Combo XLR/phone mic input;2 mono-phone line inputs and2 outputs; FS01 bypass; mains power. Other digital/headphone/phantom facilities unverified [R11-M pp.2–3,15] |
+| Analog levels / conversion | Line reference −10 to+4 dBm; high-impedance guitar needs preamplification [R11-M pp.3,15] |
+| Power / battery / USB | Regional100–120 V or220–240 V50/60 Hz per rear label;DC polarity inapplicable to mains. Consumption,operating battery andUSB power unverified [R11-M p.16] |
+| Dimensions / weight | W482 × D115 × H44 mm;1.8 kg [R11-M p.15] |
+| Editor / software | Editor platforms,drivers/updaters andUSB audio unverified |
+| Looper / drums / live | Mixer send/return uses fully wet output;looper,drums,scenes andspillover unverified [R11-M p.5] |
+
+### RFX-1100 — separate IDR evidence
+
+| Price class | Amount | Offer and limits |
+|---|---:|---|
+| Condition-unverified indexed ask | Rp1.240.000 | [AGUNG MAKMUR ELEKTRONIK,seller280277542/item3778778559](https://shopee.co.id/Efek-Vokal-ZOOM-RFX-1100-DIGITAL-i.280277542.3778778559);Kota Jakarta Barat;exact item reopened2026-10-17,last-week indexed body. Condition,stock,bundle,warranty andpurchase voucher unknown;late-delivery compensation is not an item discount |
+| Verified used IDR | ? | Not established |
+| Verified new IDR | ? | Not established |
+
+### RFX-1100 — sources and remaining verification
+
+- [R11-M: official Zoom operation manual,E_RFX1100,16 pages](https://zoomcorp.com/media/documents/E_RFX1100.pdf),text inspected through web tool;no filesystem download.
+- [Official RFX-1100 support](https://zoomcorp.com/en/gb/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/).
+
+Remaining: complete variation/category inventory,simultaneous maximum,memory behavior,display/control confirmation,power draw,software andqualified offers. No sibling specifications substituted.

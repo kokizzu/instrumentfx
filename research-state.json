@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 236,
+  "active_model_count": 237,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 236,
+  "canonical_root_model_count": 237,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "236 unique active/root-canonical models; zero legacy-only; 31 brands. SPX990 has own manual guitar/bass/vocal applications; SPX900 bass remains unclassified. Six excluded archives.",
+  "count_reconciliation": "237 unique active/root-canonical models;zero legacy-only;31 brands. RFX-1100 documented guitar/vocal multi-effects; bass unclassified. Six excluded archives.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Zoom RFX-1100",
-    "task": "Verify original Zoom product/manual architecture and guitar/bass/vocal routing. Exact item280277542/3778778559 Rp1.240.000 reopened; condition/stock unknown. Add eligible model only with own evidence and commit before next.",
+    "task": "Read remaining own manual for variation/category totals,memory behavior,controls andpower/USB inventory. Then continue unresolved bass/vocal discovery; do not add RFX1100 again.",
     "next_models": [],
-    "after_queue": "Resolve Critical Mass exact item/eligibility, legacy bass mixed variants, technical gaps and migration; no downloads/workflows."
+    "after_queue": "Critical Mass exact item andlegacy bass variant qualification; technical gaps andmigration; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4987,6 +4987,16 @@
       ],
       "finding": "Own manual pre/main/post architecture, guitar/bass/vocal applications; memory introduction/body conflict retained.",
       "remaining": "Routing maximum, factory mapping, display/software, qualified offers"
+    },
+    {
+      "model": "Zoom RFX-1100",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_RFX1100.pdf"
+      ],
+      "finding": "Own manual33 effect selections,combined algorithms,guitar preamp anddynamic mic routing. Exact condition-unverified Shopee ask retained.",
+      "remaining": "Variation inventory,memory/max/display/power/software andqualified offers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23823,7 +23833,8 @@
       "GFX-4",
       "G7.1ut",
       "707II",
-      "708II"
+      "708II",
+      "RFX-1100"
     ],
     "DigiTech": [
       "RP360XP",
@@ -23995,7 +24006,8 @@
       "GFX-4",
       "G7.1ut",
       "707II",
-      "708II"
+      "708II",
+      "RFX-1100"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -24176,7 +24188,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 193,
+      "record_count": 194,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24188,9 +24200,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 41,
+      "record_count": 42,
       "vocal_only_count": 21,
-      "combined_instrument_count": 20,
+      "combined_instrument_count": 21,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41079,13 +41091,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 236,
-    "canonical_root_models": 236,
+    "unique_brand_model_pairs": 237,
+    "canonical_root_models": 237,
     "legacy_only_models": 0,
-    "guitar_view_models": 193,
+    "guitar_view_models": 194,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 41,
+    "vocal_view_models": 42,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41142,7 +41154,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass/vocal Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom RFX-1100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41308,6 +41320,7 @@
       "Zoom::GFX-4",
       "Zoom::G7.1ut",
       "Zoom::707II",
+      "Zoom::RFX-1100",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -41472,6 +41485,7 @@
       "TC-Helicon::Harmony Singer 2",
       "Zoom::V6-SP",
       "Zoom::V3",
+      "Zoom::RFX-1100",
       "Behringer::FX2000",
       "Lexicon::MX200",
       "Alesis::MicroVerb 4",
@@ -43142,6 +43156,13 @@
     },
     "Zoom::708II": {
       "link": "ZOOM.md#708ii",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::RFX-1100": {
+      "link": "ZOOM.md#rfx-1100",
       "source_files": [
         "ZOOM.md"
       ],

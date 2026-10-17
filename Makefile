@@ -1583,3 +1583,7 @@ research-commit-spx900:
 .PHONY: research-commit-spx990
 research-commit-spx990:
 	python3 scripts/research_tools.py commit-spx990
+
+.PHONY: research-commit-rfx1100
+research-commit-rfx1100:
+	python3 scripts/research_tools.py commit-rfx1100
