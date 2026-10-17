@@ -52,14 +52,14 @@ Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discont
 | Display |Custom LCD;diagonal,color/touch unresolved [MD-M p.67] |
 | Processing / categories |32configurations,up to3simultaneous effects. Four families:Single,Double,DualMono,MultiChain. To choose a configuration,copy anexisting preset using it;factory096–127covers all32. Not an arbitrary block chain;category subtotals pending [MD-P,MD-M pp.27,39] |
 | Preset memory |128factoryROM+128userRAM=256;manual explicitly leaves17user locations111–127blank,so111user locations initially filled (128−17,derived). Protected factory andwritable user locations remain separate [MD-M pp.39,68] |
-| Synth / acoustic |Pitch±1octave;dedicated synth/acoustic simulator unverified [MD-P] |
+| Synth / acoustic |Pitch±1octave. Manual recommendsAmbience forsolid-body guitar hollow-body coloration;this isreverb,notverified dedicated acoustic simulator. Dedicated synth unresolved [MD-P,MD-M p.30] |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured captures unverified |
 | Audio / control ports |2TS inputs,2TS outputs;MIDI IN,OUT/THRU;momentary footswitch;9VAC power. No USB,mic/phantom,headphone orFXloop socket inrear inventory [MD-M pp.67–68] |
 | Power / battery / USB |9VAC external supply;manual names120VAC mains forsupplied version. Current,other regions,battery/USB operation unresolved;DC polarity inapplicable toAC output [MD-M p.49] |
 | Dimensions / weight |Unverified;MicroVerb4 data notsubstituted |
 | Analog conversion |18bitADC/DAC,24bitinternal accumulator,48kHz [MD-P,MD-M pp.67–68] |
 | Editor / software |MIDI realtime control,2simultaneous controls;SysEx storage. Full editor/platforms unverified [MD-P] |
-| Looper / drums / live |AutoLevel input sensing;compare/bypass. Mixer aux:100%wet orDryDefeat. Advance footswitch wraps127→00. Looper,drums,scenes,spillover unresolved [MD-P,MD-M pp.20,49] |
+| Looper / drums / live |AutoLevel input sensing;compare/bypass. Mixer aux:100%wet orDryDefeat. Advance footswitch wraps127→00. DualMono Cascade disablesRight input;Left output=stage1,Right output=stage1→2. Double configurations sum bothstereo effect outputs;MultiChain haslighter processing thanSingle equivalents. Looper,drums,scenes,spillover unresolved [MD-M pp.28–29] [MD-P,MD-M pp.20,49] |
 | Delay claim conflict |Product maximum1300ms versusmanual memory1299ms;different precision/wording retained [MD-P,MD-M p.68] |
 
 ### MIDIverb 4 — separate IDR evidence
