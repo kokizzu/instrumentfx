@@ -610,7 +610,7 @@ def main():
         if mode == 'commit-vl3x':
             message = 'research(tc-helicon): preserve VL3X exact offer and conflicting cache prices'
         if mode == 'commit-b3':
-            message = 'research(zoom): reconcile B3 numbered library and cabinet census'
+            message = 'research(zoom): distinguish B3 synth harmony and fretless simulation'
         if mode == 'commit-g3':
             message = 'research(zoom): document G3 battery settings eco behavior and tuner modes'
         if mode == 'commit-me20':
