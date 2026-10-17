@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX1000",
-    "task": "SPX1000 panelcounts and Yamaha-format digital/analog-trigger distinction saved. Next digitalrouting,categories,mass,userfill andFreeze;visual corroboration pending.",
+    "task": "SPX1000 fourdigitalroutingmodes,inputmodes and40programcategory accounting saved. Next own Freeze/multi-effect details,mass,userfill;visual/softwaregaps remain.",
     "next_models": [
       "Zoom RFX-2000 (resolve exact item first)"
     ],
@@ -53703,5 +53703,28 @@
     "pages": "3–5",
     "finding": "2rotary0foot15buttons text-derived;Yamaha-formatdigitalnotAES/SPDIFbyconnectorinference;Trigger2audioMIC/LINEdistinctfromTrigger1footswitch/maininputs.",
     "remaining": "Digitalrouting/pinout,categorycounts,mass,initialuserfill,Freeze andvisual/softwaregaps."
+  },
+  "spx1000_routing_categories_followup_20261017": {
+    "source": "https://usa.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf",
+    "pages": "contents,6–7",
+    "category_counts": [
+      5,
+      5,
+      1,
+      1,
+      6,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3,
+      5,
+      2,
+      1
+    ],
+    "total": 40,
+    "finding": "Catalogue program counts separated from simultaneous slots;ANA/DIG/PRE/POSTinputoutputclockrules andindependentinputmodes saved.",
+    "remaining": "Mass,initialuserfill,Freeze,specificmulti-effectsimultaneity,visualandsoftwaregaps."
   }
 }
