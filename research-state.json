@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Review ME-90B guitar comparison eligibility: own parameter guide p12 explicitly lists GTR CRUNCH/HI GAIN/MODDED optional preamps alongside independent multi-effects. Category/subtype counts and AC BASS simulation saved; no61/93 unique-total reconciliation. Then resume fresh Shopee discovery.",
+    "task": "ME-90B shared guitar/bass membership now established from own Parameter Guidep12; continue fresh Shopee brand/series discovery. Retain unresolved technical/market/ownership/migration work and all prior source qualifications.",
     "next_models": [],
     "after_queue": "322 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -24876,14 +24876,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 268,
+      "record_count": 269,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
       "record_count": 140,
-      "bass_focused_record_count": 30,
-      "shared_bass_capable_count": 110,
+      "bass_focused_record_count": 29,
+      "shared_bass_capable_count": 111,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41947,7 +41947,7 @@
     "unique_brand_model_pairs": 322,
     "canonical_root_models": 322,
     "legacy_only_models": 0,
-    "guitar_view_models": 268,
+    "guitar_view_models": 269,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -41955,7 +41955,7 @@
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
     "bass_view_models": 140,
-    "bass_shared_models": 110,
+    "bass_shared_models": 111,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -42023,6 +42023,7 @@
       "BOSS::ME-90",
       "BOSS::GX-100",
       "BOSS::GT-1000",
+      "BOSS::ME-90B",
       "BOSS::VE-8",
       "BOSS::GM-800",
       "BOSS::GT-100",
@@ -42492,6 +42493,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "BOSS::ME-90B": "Bass-oriented processor with documented guitar processing: own Parameter Guide p12 lists GTR CRUNCH, GTR HI GAIN and GTR MODDED as Tone Studio-selectable PREAMP/EQ replacements. Independent multi-effects retained; guitar/bass capability does not imply identical voicing. [Guide](https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf).",
     "Soran::Dual Stomp Lite": "Own exact product supports guitar/bass;25guitar+5bass amps/cabs. [Product](https://soranaudio.com/products/27.html).",
     "Soran::Dual Stomp": "Own exact product explicitlysupports guitar/bass and25guitar+5bass amps/cabs;internalLitewordingconflict retained. [Product](https://soranaudio.com/products/28.html).",
     "Soran::Tiny Stomp": "Own manufacturer product andmanual explicitly support guitar/bass;25guitar/5bass amps andmatching cabinets. [Product](https://soranaudio.com/products/34.html).",
@@ -65611,5 +65613,11 @@
     "qualification": "Per-memory last-position replacements, not simultaneous extra blocks; no unique61/93 reconciliation claimed.",
     "sound": "AC BASS explicitly instrument simulation distinct from ACOUSTICpreamp. Saw/Square single-note. Optional GTRpreamp types justify next instrument-view eligibility review.",
     "remaining": "Uniquealgorithm census, guitar membership review, visualcontrols, IRconstraints, USBformats, wirelessguide, supplydetails andqualifiedoffers."
+  },
+  "me90b_instrument_membership_20261018": {
+    "source": "https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf",
+    "page": 12,
+    "decision": "Shared guitar/bass multi-effects; explicit guitar preamps selectable in own independent architecture. Remove from bass-focused-only selection and add to shared basis. Same single active model.",
+    "qualification": "Tone Studio-selectable position11 replacements; bass-oriented voicing retained. No guarantee every bass effect equally suits guitar."
   }
 }

@@ -206,6 +206,12 @@ Original source URLs: [source](https://www.boss.info/global/products/me-90b/spec
 | MOD / pedal choices | MOD:6 selector groups, containing13 subtype choices before7 replacement alternatives; slicer’s20 patterns are not20 independent algorithms. PEDAL FX:11 positions, including control targets for other sections; BLEND is a separate direct-mix function. These counting conventions do not reconcile the advertised61/93 totals into a unique algorithm census. | [Parameter guide][ME90B-P] pp13–17 |
 | Synth / acoustic distinction | **AC BASS** explicitly simulates acoustic bass, separately from the ACOUSTIC preamp. SYNTH SAW/SQUARE require single-note playing with other strings muted. Three optional GTR preamp types are documented; instrument-view eligibility needs a separate review. | [Parameter guide][ME90B-P] pp2,7,12 |
 
+### ME-90B — guitar/bass comparison membership, 2026-10-18
+
+| Field | Classification / evidence |
+|---|---|
+| Instrument scope | Included in **both guitar and bass multi-effects comparisons**. The model’s own [Parameter Guide][ME90B-P] p12 explicitly documents **GTR CRUNCH, GTR HI GAIN and GTR MODDED**, selected through Tone Studio as replacements for PREAMP/EQ position11. This is documented guitar processing within an independent multi-effects architecture. The product remains bass-oriented; guitar inclusion does not certify every bass effect’s voicing for guitar. No second catalogue record is created. |
+
 [ME90B-S]: https://www.boss.info/global/products/me-90b/specifications/
 [ME90B-M]: https://static.roland.com/assets/media/pdf/ME-90B_Reference_eng01_W.pdf
 [ME90B-P]: https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf
