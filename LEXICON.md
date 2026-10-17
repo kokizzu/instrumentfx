@@ -42,7 +42,7 @@ No files downloaded. Remaining:accessible fullmanual,control inventory,display,b
 
 ## MX300
 
-Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-17; partial. Suitable line-level routing required; XLR sockets do not establish a microphone preamp or phantom power. Bass suitability and ownership unestablished. Distinct from MX200 and MX400.
+Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-17; partial. Suitable line-level routing required; XLR sockets do not establish a microphone preamp or phantom power. Bass-track processing is documented in its own manual; ownership unestablished. Distinct from MX200 and MX400.
 
 <!-- comparison evidence begins -->
 
@@ -52,7 +52,7 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 | K/F/B | **6 / 0 / 6**, text-derived: Input,Page/Select,A/B/C,Program/Load; Exit,Tempo,Effect Bypass,Store,System,Program Bypass. Two encoder pushes and power switch additional. Visual corroboration pending. | [Manual E pp4–5,14][M300-E] |
 | Display | Main LCD plus separate program-number display and status LEDs. Supersedes LED-only summary; diagonal,color/touch unverified. | [Manual E pp4–5][M300-E] |
 | Dimensions / mass | **483W×44H×185D mm including knobs;162mm depth without knobs;2.6kg**. 1U rack footprint. | [Manual p50][M300-M] |
-| Processing / categories | Product advertises 16 reverbs,7 delays,dbx compression/de-essing and modulation effects. Full per-category/total enumeration pending. | [Product][M300-P] |
+| Processing / categories | Product advertises 16 reverbs and 7 delays across the catalogue. Routing 1–4 MIDI map enumerates **32 named choices:16 reverbs+6 delays+8 modulation/pitch+2 dynamics**. Routing 5 map additionally names 2-Tap Delay and groups several families; do not infer identical per-route libraries or a complete route 5 selector count. | [Product][M300-P]; [Manual E pp23,45–47][M300-E] |
 | Routing / simultaneous effects | Routes 1–4 provide two effects: Dual Mono,Cascade,Parallel/Dual Stereo,Mono Split. Route 5 uses all DSP for one higher-complexity stereo effect. Do not treat five routes as five simultaneous engines. | [Manual p16][M300-M] |
 | Factory / user memory | **99 factory+99 user=198 locations**; initial user-bank fill unverified. Computer library is separate from onboard capacity. | [Manufacturer cut sheet][M300-S]; [Manual E p34][M300-E] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
@@ -65,6 +65,10 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 | External control | LEX-DFS two-button TRS switch supported. Ring/tip functions select program up/down, program/individual-effect bypass or tap for effect 1, effect 2, both. | [Manual E pp6,33][M300-E] |
 | USB / plug-in audio connection | USB controls editor/plugin. Audio requires external interface sends/returns via S/PDIF or analog; one plugin instance per physical unit. Occupied Control MIDI port can prevent connection. | [Manual E pp41–43][M300-E] |
 | Input routing / limits | Inserting quarter-inch input disables corresponding XLR input. S/PDIF source must supply 44.1/48kHz master clock;96kHz unsupported. | [Manual E pp6–7][M300-E] |
+| Bass capability | Own compressor description explicitly includes bass tracks. Suitable mixer/preamp or recorded line-level path required; not evidence of direct passive-bass input. Supersedes earlier unclassified bass scope. | [Manual E p25][M300-E] |
+| Dynamics / routing limits | Compressor and de-esser do not pass dry audio; both take mono input in Dual Stereo configurations. | [Manual E p25][M300-E] |
+| Delay / practical limits | Studio/modulated delay maximum 2.5s stereo; mono/tape/pong 5s mono; reverse 2.5s mono. Repeat Hold loops existing repeats without accepting new delay input; not a full phrase-looper claim. | [Manual E pp22–23][M300-E] |
+| Reverb / live limits | Changing reverb Size temporarily mutes audio. This is a parameter-change limit, not a verified patch-change spillover result. | [Manual E p21][M300-E] |
 
 ### Separate IDR hardware offers
 
@@ -77,7 +81,7 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 
 The used listing is a cached asking price, not a completed sale or current-stock certification. “Ori” and working-condition wording are seller claims. Actual voltage revision, adapter/mains cable,bundle,warranty,shipping/tax,variant and checkout availability remain unknown. Rp10,000 late-arrival compensation is not a purchase discount. No foreign price conversion.
 
-Initial product/manual C direct opens returned403; those indexed sources remain preserved. HARMAN-hosted manual filename 18-0473V-E is now readable as browser text; selected sections inspected, not full visual coverage. No files/software/dependencies downloaded. Remaining: visual control corroboration,display details,full choice enumeration,user-bank initial fill and unresolved facilities.
+Initial product/manual C direct opens returned403; those indexed sources remain preserved. HARMAN-hosted manual filename 18-0473V-E is now readable as browser text; selected sections inspected, not full visual coverage. No files/software/dependencies downloaded. Remaining: visual control corroboration,display details,complete route 5 selector enumeration,user-bank initial fill and unresolved facilities.
 
 [M300-P]: https://lexiconpro.com/en-US/products/mx300/description
 [M300-M]: https://lexiconpro.com/en-US/product_documents/mx300_manual_18-0473v-cpdf

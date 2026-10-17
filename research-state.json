@@ -9,7 +9,7 @@
   "excluded_model_count": 6,
   "canonical_root_model_count": 243,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "243 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. MX300 added as guitar/vocal line-level rack processor; bass suitability unclassified. All records remain partial.",
+  "count_reconciliation": "243 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. MX300 now guitar/bass/vocal from own documented guitar-loop,voice and bass-track applications;all remain partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX300",
-    "task": "MX300 controls,198-slot memory,LCD,external switches and plugin audio path saved from accessible HARMAN manual E. Next verify full per-routing category choices and count discrepancies; retain manual C versus E/provenance qualifications. Then MX400/SPX2000 saved leads.",
+    "task": "MX300 per-routing map count,bass-track application and delay/reverb operating limits saved. Enhanced-stereo selector total remains unresolved; proceed to saved MX400 exact sold-out hardware lead and own primary documentation before SPX2000.",
     "next_models": [
       "Lexicon MX400",
       "Yamaha SPX2000"
@@ -24274,9 +24274,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 98,
+      "record_count": 99,
       "bass_focused_record_count": 25,
-      "shared_bass_capable_count": 73,
+      "shared_bass_capable_count": 74,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41242,8 +41242,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 98,
-    "bass_shared_models": 73,
+    "bass_view_models": 99,
+    "bass_shared_models": 74,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41594,6 +41594,7 @@
       "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
       "Behringer::FX2000",
+      "Lexicon::MX300",
       "Yamaha::SPX990"
     ],
     "ALL-VOCAL.md": [
@@ -41645,6 +41646,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Lexicon::MX300": "Own manufacturer manual E p25 explicitly lists bass-track compression; use suitable line-level preamp/mixer or recorded-track routing. https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
     "Yamaha::SPX990": "Own Yamaha operation manual preset applications explicitly include Bass, Guitar and Vocal, printed pp12–13; suitable line-level preamp/mixer routing. [Manual](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf).",
     "Behringer::FX2000": "Manufacturer explicitly lists bass,guitar andvocals;use suitable line-level amp/mixer routing. [Product](https://www.behringer.com/en/products/0828-AAG).",
     "DigiTech::GNX4": "Own manual p19 explicitly connects guitar or bass and documents amp modeling for both. https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf",
@@ -53477,5 +53479,11 @@
     ],
     "finding": "Manufacturer-hosted E manual accessible;6 rotary,0footswitch,6separate buttons plus2encoder pushes;text-derived;LCD confirmed;99factory+99user;IN/THRU versus IN/OUT conflict;two-button controls and separate analog/SPDIF plugin audio.",
     "remaining": "Visual counts,screen details,full categories,user-bank fill,current software support and price stock/revision."
+  },
+  "mx300_category_followup_20261017": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
+    "pages": "21–25,45–47",
+    "finding": "Routing1–4 map has32 named entries(16reverb,6delay,8modulation/pitch,2dynamics);routing5 additionally lists2Tap and grouped families,not a proved full selector total. Own bass-track compressor application qualifies shared bass membership with line-level routing. Delay capacity,RepeatHold and Size-change mute preserved.",
+    "remaining": "Complete enhanced-stereo selector census,physical visual corroboration,display,user-bank fill,current software/stock and unresolved facilities."
   }
 }
