@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX Amp Academy Stomp",
-    "task": "Regional contradictions saved;do not repeatedly infer capacities from conflicting pages. Continue fresh Shopee discovery;MG-30 MKII needs exact offer and separate profile. Commit per model.",
+    "model": "NUX MG-30",
+    "task": "128 factory-filled editable preset locations verified from manufacturer;regional algorithm differences retained. Continue fresh eligible bass/vocal Shopee discovery;MG-30 MKII remains unrecorded without exact offer.",
     "next_models": [],
     "after_queue": "Technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -41826,7 +41826,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Amp Academy Stomp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-30."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -64718,5 +64718,12 @@
     "tuner": "Chinese430–450Hz range versus English440Hz quick-tip",
     "remaining": "Physicalmemoryallocation,IRimportformat/currentcapacity,blockceiling,currentmanual,qualifiedprices",
     "category_followup": "V2.0.5 MOD13 names plusMonoOctave/NUShim retained in brand comparison"
+  },
+  "mg30_memory_regional_20261017": {
+    "source": "https://cn.nuxaudio.com/product/mg30/",
+    "checked_date": "2026-10-17",
+    "memory": "32banks128factory-createdpresets;all128locationseditable/modifiable/savable. Not256slots.",
+    "conflicts": "Chinese30amps25guitar2acoustic3bass vsEnglish35(28/2/5);Chinese7delaysomitsPhi. CurrentGEN2fullinventoryunresolved.",
+    "discovery": "MG30MKII/MG-30MKII/MG30MK2Shopee queries returnedMG300MKII andoriginalMG30;noqualifiedexactMKIIoffer. Do notinfermarketabsence orborrowprices."
   }
 }
