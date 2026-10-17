@@ -102,3 +102,37 @@ EarlierSevenStereoseller16879370/item22081209737Rp29.960.000onlysaysStage;retain
 [ks-q]: https://www.kemper-amps.com/download/static/263/Profiler%20Stage%20Quick%20Start%202021.pdf
 
 Officialspecifications/currentMK2storechecked2026-10-17. Stage2021guidep.7availableasindexedmanufacturertext;fullPDFopenfailed. No new visualinspectionclaimed. FAQcurrentfeaturesdonotproveinstalledOS. Addendum identity checked against manufacturer title, copyright, May2025 revision and explicit Stage MK2 coverage; mirrored document body used, not generated description. German Main Manual13.0 mirror identity verified from manufacturer title, copyright, May2025 revision and explicit MK2 sections; printed page numbers used. Remaining: complete panel/display, current main manual/category accounting, Browse/factory memory, IR/NAM, synth, other looper/power-operation limits and qualified current offer. No files/dependencies/software/firmware downloaded. OnepartialMK2record;nooriginalStageduplicate.
+
+## PROFILER Rack MK2
+
+Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee MK2 title. Distinct from PowerRack, original Rack and Remote bundles.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | Two onboard TRS expression/switch inputs,10–100kohm [kr-s]. Built-in/toe implementation not independently checked. Product page also mentions four pedals without topology; do not count four onboard sockets [kr-p]. |
+| Knobs / footswitches / buttons | ?/?/?; exact Rack MK2 panel inventory pending. Remote controls excluded. |
+| Display | Diagonal, color/monochrome and touch unverified. |
+| Dimensions / weight | **483W×220D×139H mm;5.00kg;3U**, manufacturer Rack specification. PowerRack's6.18kg is separate [kr-s]. |
+| Simultaneous blocks / category choices | **4 flexible pre+4 flexible stereo post**, plus6 fixed pre and2 fixed stereo post, around AMP/CAB. Fixed and flexible counts are different scopes; full category census unresolved [kr-p]. |
+| Preset / factory / user memory | Exact capacities and factory occupancy not established for this record; no Player memory transfer. |
+| Synth / acoustic | Algorithms not independently verified for this record; acoustic PROFILEs do not establish an acoustic simulator. |
+| IR / NAM / captures | Proprietary amp PROFILING creation documented [kr-p]. IR formats, native/converted NAM and exact capture-version restrictions unresolved. |
+| Audio I/O | Front¼-inchTS input1Mohm;balanced¼-inchTRS alternative input825kohm;balanced XLR/¼-inch return825kohm. Main stereo balancedXLR/unbalancedTS;monitor anddirect/send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz,master/slave [kr-s]. Stereo monitor uses routing configuration,not proof of two dedicated monitor sockets [kr-p]. |
+| Control / USB | USB-A/B,USB MIDI;DIN MIDI in/out/thru;RJ45. **4in/4out USB audio**,44.1kHz. Two onboard pedal sockets; Remote's additional sockets are separate hardware [kr-s];[kr-p]. |
+| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head/Rack rating, distinct from powered variants [kr-s]. Actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. |
+| Editor platforms / drivers | Rig Manager Windows/macOS viaUSB; iOS/Android/FireOS through an **external WiFi router** [kr-p]. Current minima,drivers and mobile parity unresolved. |
+| Practical features | Morphing,Performance switching and instrument/line external loop documented [kr-p]. Looper duration/control requirements,drums and exact gapless constraints unresolved. |
+| Bass capability | Exact Rack MK2 page explicitly identifies electric guitar and bass [kr-p]. Shared bass capability,not a complete bass-algorithm/performance certification. |
+
+### Rack MK2 — separate IDR asking-price evidence
+
+| Condition / access | Amount | Exact offer / qualifications |
+|---|---:|---|
+| Condition-unverified cached search ask | **Rp28.900.000** | [Seller253483262/item9807793662](https://shopee.co.id/Kemper-Profiler-Rack-MK2-Rackmount-Profiling-Amp-Head-i.253483262.9807793662), exact Rack MK2 hardware title, Jakarta Pusat, [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). Search cache labeled September2026; checked2026-10-17. Item click cache-missed; indexed display_model_id80578354848. Variation,bundle,seller name,new/used,stock,voucher,warranty,authenticity and installedOS unresolved. Not live checkout or completed sale. |
+| Verified new IDR | ? | Not established. |
+| Verified used IDR | ? | Not established. |
+
+[kr-p]: https://www.kemper-amps.com/store/uk/profiler-rack-b.html
+[kr-s]: https://www.kemper-amps.com/profiler/technical-specifications
+
+Manufacturer UK availability is not Indonesian stock evidence. No currency conversion or files downloaded. Current shared specifications explicitly distinguish MK2 USB channels; remaining revision-sensitive physical and software details need the matching manual.
