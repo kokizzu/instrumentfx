@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS MS-3",
-    "task": "Finish MS-3 count accounting including subdelay and other type selectors; preserve seven-versus-ten EQ conflict. Verify supply voltage/polarity.",
+    "task": "MS-3 effect total arithmetically reconciled, explicitly inferred. Next verify supply voltage/polarity and memory factory/user structure; broader discovery and migration remain.",
     "next_models": [],
     "after_queue": "327 active; technical, market, ownership and legacy migration incomplete. No downloads/workflows/push."
   },
@@ -65879,5 +65879,13 @@
     "pan": 2,
     "conflict": "Graphic EQ description seven bands versus ten listed frequency parameters.",
     "remaining": "Full112 accounting unresolved; supply voltage/polarity unverified."
+  },
+  "ms3_total_reconciliation_20261018": {
+    "kind": "arithmetic inference, not manufacturer-explicit formula",
+    "fx_formula": "31-7+8+3+6+6+21+6+2=76",
+    "mod_formula": "12-2+4+2=16",
+    "total_formula": "76+16+11+8+1=112",
+    "excluded": "Duplicate block instances, chorus output modes, continuous parameters.",
+    "remaining": "Supply voltage/polarity and other verification gaps."
   }
 }

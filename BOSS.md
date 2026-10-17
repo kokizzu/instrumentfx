@@ -3000,6 +3000,13 @@ Checked2026-10-18; documentation inspected only, no software downloaded or execu
 | Processing / nested choices | Guide pp8–10: WAH **6**, BASS WAH **6**, OD/DS **21**, BASS OD/DS **6** selectable types. Guide pp16–17: PHASER **4** (4/8/12-stage,BiPhase), PAN **2** (Auto,Manual). These are nested choices within the31 FX or12 MOD top-level selections, not extra simultaneous blocks. Their sum alone does not explain the advertised112. [MS3-G] |
 | Processing / EQ conflict | Guide p6 describes GRAPHIC EQ as seven bands, while its p10 parameter table lists **10 frequencies,31Hz–16kHz**. Preserve this internal source conflict; do not silently replace either statement or count frequency bands as effect types. [MS3-G] |
 
+### Effect-total arithmetic reconciliation
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / count accounting | Guide p14 SUB DELAY has **2 types,Mono/Pan**,1–1000ms; p15 Chorus has **3 output modes**, retained separately from effect-type counting. [MS3-G] |
+| Processing / derived total | **Arithmetic inference**, not an explicit manufacturer counting formula: FX31 top-level choices, replacing7 grouped selectors by8 compressor+3 limiter+6 wah+6 bass wah+21 OD/DS+6 bass OD/DS+2 subdelay choices, gives **76**. MOD12, replacing Phaser/Pan by4/2, gives **16**. **76+16+11 DLY+8 REV+1 NS=112**. Shared FX1/FX2 and MOD1/MOD2 libraries are counted once; no duplicate count for block instances. Output modes and continuous parameters excluded. This matches the advertised total under that convention; it does not establish112 simultaneous effects or independent algorithms. [MS3-G], [MS3-P] |
+
 [MS3-P]: https://www.boss.info/global/products/ms-3/
 [MS3-M]: https://static.roland.com/assets/media/pdf/MS-3_eng02_W.pdf
 [MS3-G]: https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf
