@@ -238,6 +238,17 @@ Selected condition, variant, bundle, warranty, voucher, shipping and seller auth
 
 Remaining:current complete category inventory and drum count; factory-filled memory subset; pixel resolution; external toe function; USB power; IR source conversion/concurrency; NAM architecture/concurrency/fidelity; full mobile editor scope; qualified used/retail stock. This model is partial, not fully verified.
 
+### GS1000 — reset scope and wireless-controller limit
+
+Checked 2026-10-18 against the [original manufacturer manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf), printed pp59,68; shared manual explicitly distinguishes standard/Li elsewhere. No reset, pairing or installation performed.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Memory / selective factory reset | Separate selections restore **Presets**, **Global Settings**, **MNRS/IRS**, or **Looper audio**. Preset reset deletes created/imported sounds; sample reset deletes imported MNRS, GIR and IR data; loop reset deletes recordings. Global reset includes MIDI mappings, USB audio settings and trails. This is not a single settings-only operation. |
+| I/O / wireless footswitch ceiling | **Only one F4 wireless footswitch can connect at a time.** Pairing is required initially or after factory reset; previously paired devices reconnect automatically when powered and in range. This limit does not establish the Bluetooth-audio connection ceiling. |
+
+Fresh Shopee GS1000-Li searches established no exact Li hardware offer. The existing Nafiri standard item96878449/25445636952 and unresolved list-page amounts repeated; no new model or current-stock claim. The [manufacturer shared product page](https://www.mooeraudio.com/products/219.html) confirms Li exists, but product existence alone is not exact Shopee availability.
+
 ## GE100 original
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Rushead Max RH-100",
-    "task": "RH100 original V02 copy confirms combined ambience; electrical/dimension OCR remains garbled, generated mirror panel text excluded. Next independent Shopee brand/series discovery or readable primary records for remaining models; no repeated identical unreadable PDF retries.",
+    "model": "MOOER GS1000",
+    "task": "Selective reset and one-F4 ceiling saved. GS1000Li exists but no exact Shopee offer established; keep separate and uncounted. Next remaining primary spec gaps or fresh brand/series discovery; do not repeat standard Nafiri item or unresolved list prices.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45323,7 +45323,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Rushead Max RH-100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GS1000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57784,6 +57784,16 @@
       "sources": [
         "https://www.scribd.com/document/702238767/RH-100-Rushead-Max-Manual-en-V02-211025",
         "https://manuals.plus/m/185037a00bd2a4db6dc63b0316b7e896d001043744755b36254364e31de13747"
+      ]
+    },
+    {
+      "model": "MOOER GS1000",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual selective reset separates presets/global/sampleIR/loop data; one connected F4 limit and reset re-pair requirement saved. Fresh GS1000Li Shopee queries found no exact Li offer; standard Nafiri and list amounts duplicates, no variant addition.",
+      "sources": [
+        "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf",
+        "https://www.mooeraudio.com/products/219.html",
+        "https://shopee.co.id/Mooer-GS1000-Intelligent-Amp-Profiling-Processor-Multi-Effects-Pedal-i.96878449.25445636952"
       ]
     }
   ],
