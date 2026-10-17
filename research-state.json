@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Red Truck",
-    "task": "Red Truck manual text confirms bypass-onlypresets,6footswitches,CABSIM¼inch androuting;next verify fullrotary/selectors fromoriginalpanel or manual,resolve loopwording and seek exactShopee offer.",
+    "task": "Red Truck text-derived rotary/foot/toggle counts saved. Next seek exactShopeeID hardware and primary diagram if available; do not repeat inaccessible manual URLs unchanged. Keep dimensionaxes/loopwording and other unknowns.",
     "next_models": [],
     "after_queue": "275partialmodels;no downloads/workflows/push;technical/marketverification andlegacyretirement incomplete."
   },
@@ -56702,5 +56702,14 @@
     "identity": "12-page exactRedTruck owner manual,MOOERAUDIOpublisher,specsmatch;revision/dateunprinted;year0notdate.",
     "facts": "6footswitches;5presets storebypassstatesonly,notparameters;TAP+1modeswitch;CABSIM¼inchmono/stereocable;Lmono/LRstereo;DC9V1A;buffersendreturnbetweenDistMod.",
     "limits": "TranscriptionnotoriginalPDFvisual;rotary/selectorcountsandloopparallelwordingremainopen;no downloads."
+  },
+  "red_truck_controls_followup_20261017": {
+    "sources": [
+      "https://mooer.jp/products/redrtuck",
+      "https://manualsnet.com/mooer/red-truck"
+    ],
+    "derived": "23parameterknobs+2rotaryrhythmselectors=25rotary;6foot;4toggles;separatepushbuttonsunknown.",
+    "breakdown": "Boost3 Drive3 Dist5 Mod3+1 Delay3+1 Reverb6",
+    "limits": "Text-derivednotvisual;officialJPmanualfetchfailed;V01filenamenotmatchingrevisionproof;loop/dimensionaxesstillopen."
   }
 }
