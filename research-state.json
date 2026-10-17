@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 234,
+  "active_model_count": 235,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 234,
+  "canonical_root_model_count": 235,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "234 unique active/root-canonical models;zero legacy-only;30brands. MIDIverb4 separate fromMicroVerb4;guitar/vocal membership. Six excluded archives.",
+  "count_reconciliation": "235 unique active/root-canonical models; zero legacy-only; 31 brands. SPX900 added for documented guitar/vocal line-level processing; bass unclassified. Six excluded archives.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha SPX900",
-    "task": "Use located Yamaha-authored 79-page manual mirror recorded in spx900_primary_verification_20261017. Verify full panel/ports, p23–26 routing, Add-38/39 specifications and instrument scope; add SPX900 record before SPX990. Preserve exact used offer/access limits.",
-    "next_models": [
-      "Yamaha SPX990"
-    ],
-    "after_queue": "Continue bass/vocal discovery,technicalgaps andmigration;no downloads/workflows."
+    "model": "Yamaha SPX990",
+    "task": "Verify own original Yamaha manual and exact saved Shopee used offer before adding; never borrow SPX900 specifications.",
+    "next_models": [],
+    "after_queue": "Continue bass/vocal discovery, technical gaps and lossless migration; no downloads or workflows."
   },
   "new_findings": [
     {
@@ -4968,6 +4966,17 @@
       ],
       "finding": "32algorithms3simultaneous;1/0/10controls;128+128memory;18bitconversion24bitinternal;offer variants unresolved.",
       "remaining": "Body/current,category counts,display/software/qualified offers"
+    },
+    {
+      "model": "Yamaha SPX900",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://thehistoryofrecording.com/Manuals/Yamaha/Yamaha_spx900.pdf",
+        "https://manualzz.com/doc/1969278/yamaha-spx900-digital-multi-effects-processor-user-manual"
+      ],
+      "finding": "Original manual supports distinct multi-effect programs, external controllers and mains specifications; archive transcription conflicts retained.",
+      "remaining": "Routing diagrams, category totals, factory fill, connector/impedance conflicts, software/display and qualified offers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23849,6 +23858,9 @@
     "Alesis": [
       "MicroVerb 4",
       "MIDIverb 4"
+    ],
+    "Yamaha": [
+      "SPX900"
     ]
   },
   "root_brand_content": {
@@ -24145,11 +24157,14 @@
     "ALESIS.md": [
       "MicroVerb 4",
       "MIDIverb 4"
+    ],
+    "YAMAHA.md": [
+      "SPX900"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 191,
+      "record_count": 192,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24161,9 +24176,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 39,
+      "record_count": 40,
       "vocal_only_count": 21,
-      "combined_instrument_count": 18,
+      "combined_instrument_count": 19,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41052,13 +41067,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 234,
-    "canonical_root_models": 234,
+    "unique_brand_model_pairs": 235,
+    "canonical_root_models": 235,
     "legacy_only_models": 0,
-    "guitar_view_models": 191,
+    "guitar_view_models": 192,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 39,
+    "vocal_view_models": 40,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41115,7 +41130,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha SPX990."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41309,7 +41324,8 @@
       "Behringer::FX2000",
       "Lexicon::MX200",
       "Alesis::MicroVerb 4",
-      "Alesis::MIDIverb 4"
+      "Alesis::MIDIverb 4",
+      "Yamaha::SPX900"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41445,7 +41461,8 @@
       "Behringer::FX2000",
       "Lexicon::MX200",
       "Alesis::MicroVerb 4",
-      "Alesis::MIDIverb 4"
+      "Alesis::MIDIverb 4",
+      "Yamaha::SPX900"
     ]
   },
   "comparison_bass_basis": {
@@ -43321,6 +43338,13 @@
       "link": "ALESIS.md#midiverb-4",
       "source_files": [
         "ALESIS.md"
+      ],
+      "finding_files": []
+    },
+    "Yamaha::SPX900": {
+      "link": "YAMAHA.md#spx900",
+      "source_files": [
+        "YAMAHA.md"
       ],
       "finding_files": []
     }

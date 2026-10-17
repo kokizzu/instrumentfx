@@ -1575,3 +1575,7 @@ research-commit-microverb4:
 .PHONY: research-commit-midiverb4
 research-commit-midiverb4:
 	python3 scripts/research_tools.py commit-midiverb4
+
+.PHONY: research-commit-spx900
+research-commit-spx900:
+	python3 scripts/research_tools.py commit-spx900
