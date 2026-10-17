@@ -61742,5 +61742,24 @@
     "result": "No qualified new exact hardware offer from this query set. VF-1 aircraft items, stationery and GT6 watches unrelated. Mixed Cube Baby electric/bass/acoustic titles do not identify a new revision or exact purchasable variation.",
     "limits": "Indexed evidence only; not exhaustive discovery, model absence or live stock proof. Rejected accessory prices must not enter processor comparisons.",
     "next": "Broaden to other manufacturer series and targeted alternate spellings; do not repeat this unchanged query batch. GP-200 panel counts remain unresolved."
+  },
+  "g3n_dsp_20261017": {
+    "source": "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
+    "revision": "2020 copyright; explicitly names G3n",
+    "capacity": 100,
+    "example": {
+      "UKA30": 37,
+      "UK2x12": 9,
+      "ParticleR": 38,
+      "DelayICE": 26,
+      "total": 110
+    },
+    "practice_costs": {
+      "mono_looper": 7,
+      "stereo_looper": 10,
+      "rhythm": 8
+    },
+    "limits": "Notlaterlibrary/usedunitinstalledfirmwareproof; seven slots separatefromDSPbudget",
+    "next": "G3n looper retention/saving and control inventory; fresh discovery frontier remains open"
   }
 }
