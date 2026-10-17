@@ -340,13 +340,15 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | Field | Preserved finding / uncertainty |
 |---|---|
 | Expression / controls | Built-in plus external EXP/FS;**?/6/?**,toe/rear switches separate. |
-| Body / display | Primary dimensions,mass and size class unverified. Diagonal/color/touch evidence still needs a model-specific pass;long seller titles are not a substitute. |
+| Body / display | Manufacturer explicitly specifies **color touchscreen**;published diagonal,resolution,dimensions,mass and size class remain unverified. Seller-title4.3-inch claim is not promoted to a primary specification. [Product,checked2026-10-17](https://www.sonicake.com/products/matribox-ii-pro) |
 | Processing / memory | Exact simultaneous ceiling ?;**63 amps,61 cabinets,93+ pedal effects**;repeat effects of the same type supported. **240 locations,120 factory-filled**. |
 | Sound / loading | Pitch/Whammy-style use documented;exact synth/acoustic algorithms ?. **20 user IRs**,NAM A2 workflow advertised;unrestricted native loading not established. |
 | Ports | Two balanced XLR outs,FX loop,phones,AUX,external EXP/FS and USB documented. Complete connector inventory ?. **Feature list says MIDI I/O;official FAQ says MIDI output unsupported**. Preserve contradiction,not an assumed transmitter. |
 | Power / apps | DC9V,current/polarity ?;battery/USB bus power ?. Windows/macOS full editor;USB audio Windows/macOS/iOS/Android does not establish mobile editing. |
 | Practice / routing | **90-second looper,100 rhythms;single linear chain,no scenes**;**Matribox II presets incompatible**. |
 | Firmware / IDR | Original download listed firmware1.2.2,NAM software1.3.1;matching update sequence matters. Used/new qualified IDR ?. Old official-store **USD299.99** remains dated foreign provenance. |
+| Software / update sequence | Manufacturer requires **initial desktop software1.0.0 for the firmware update**,then latest editor1.3.1 for ordinary use;current listed firmware1.2.2. Recalibrate the built-in expression pedal after updating. Windows11 driver notice links a separate support procedure;not a general OS certification. [Manufacturer instructions](https://www.sonicake.com/products/matribox-ii-pro) |
+| IDR sold-out offer,2026-10-17 | **Rp4.750.000**,Faja Musik,Kota Jakarta Selatan,shop1441485672/item41903111124;exact QME-200 hardware title,**Habis**. Direct page retrieved,reader crawl yesterday;condition unconfirmed,not assigned used/new. Bundle,variant selection,warranty,tax/shipping and checkout unverified;late-delivery voucher is not a price reduction or stock proof. [Exact Shopee listing](https://shopee.co.id/Efek-Gitar-SONICAKE-Matribox-II-Pro-Matribox-2-pro-%28QME-200%29-Multi-Effects-Guitar-Pedal-with-Expression-i.1441485672.41903111124) |
 
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 

@@ -665,7 +665,7 @@ def main():
         if mode == 'commit-finding-audit':
             message = 'audit: reconcile B1Xon and verify registered finding-body coverage'
         if mode == 'commit-floorboard-matribox-ii-pro':
-            message = 'audit(sonicake): preserve Matribox II Pro rows and MIDI contradiction'
+            message = 'research(sonicake): verify Matribox II Pro touch display and IDR offer'
         if mode == 'commit-floorboard-matribox-ii':
             message = 'audit(sonicake): preserve exact Matribox II floorboard rows and context'
         if mode == 'commit-floorboard-union':

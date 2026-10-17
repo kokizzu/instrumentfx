@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Smart Box QME-20",
-    "task": "Smart Box firmware1.0.1 manual routing/controller/power/practice details saved;continue algorithm inventory/NAM limits, current firmware qualification and offers orfreshdiscovery.",
+    "model": "Sonicake Matribox II Pro QME-200",
+    "task": "Color touch/update sequence and exact sold-out IDR offer saved. Continue readable official manual/specifications for body/controls/bass evidence;do not infer diagonal from seller title.",
     "next_models": [],
-    "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
+    "after_queue": "Continue fresh Shopee brand/series discovery and unresolved technical verification;no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Smart Box QME-20."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox II Pro QME-200."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60400,5 +60400,18 @@
     ],
     "access": "Browser text only,no local download or execution",
     "remaining": "Current firmware changes,full algorithm subcounts,NAM architectures,touch,current OS and qualified offers."
+  },
+  "matribox_ii_pro_display_offer_20261017": {
+    "sources": [
+      "https://www.sonicake.com/products/matribox-ii-pro",
+      "https://shopee.co.id/Efek-Gitar-SONICAKE-Matribox-II-Pro-Matribox-2-pro-%28QME-200%29-Multi-Effects-Guitar-Pedal-with-Expression-i.1441485672.41903111124"
+    ],
+    "findings": [
+      "Color touchscreen explicitly primary;diagonal unverified",
+      "Update with initial editor1.0.0 then1.3.1;recalibrate expression",
+      "Faja1441485672/41903111124 Rp4750000 Habis;condition unknown"
+    ],
+    "manual_access": "Current manufacturer firmware1.2.2 PDF38.6MB exceeds reader limit;no download or technical claims inferred.",
+    "remaining": "Dimensions,mass,diagonal,controls,bass-specific evidence,full connector/power/algorithm inventory,NAM limits and qualified used/new offers."
   }
 }
