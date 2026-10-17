@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "VoiceLive Touch 2 controls text-enumerated K1/B23,9Favorites and4Harmony voices saved. Next loop duration/persistence,DC/display,styles,USB formats/current software;do not infer from generated summaries.",
+    "task": "VoiceLive Touch 2 loop source/feedback,Clock limits,4loopFX andclick routing saved. Next style totals andUSB formats;loopduration/storage,DC/display stillunknown aftersearch. Broader discovery remains open.",
     "next_models": [],
     "after_queue": "316active;remaining technical/market/ownership/migration gaps;no downloads/workflows/push."
   },

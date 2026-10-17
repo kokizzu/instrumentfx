@@ -838,6 +838,8 @@ Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Refe
 | IR / NAM / capture | User IR,native/converted NAM andcapture support unverified. | Unresolved |
 | Editor / software | VoiceSupport Windows/Mac OS X documented for updates anddrag/drop preset management; full editor/current OS support unresolved. USB audio formats/drivers remain separate unknowns. | [Quick Guide][VLT2-Q] |
 | Looper / drums / scenes | Six loop layers share first-loop length; unlimited overdubs. Undo only last operation (overdub,Clear,2x); Reverse/Mixdown cannot be undone. Disabling Undo doubles available recording time. 2x consumes memory for other layers andbecomes unavailable after recording another slot. Metronome quantizes recording/play andsupports auto re-sync. Duration/persistence/drums remain unverified;Hit is alternate preset variation,not inferred scene count (reference pp.36,41–45). | [Quick Guide][VLT2-Q]; [Reference][VLT2-R] |
+| Looper routing / MIDI | Loop input choices: Lead+Guitar (default,excludes Aux),Guitar,Lead orAux. MIDI Clock via USB/DIN;syncs beats,not bars;MTC unsupported. Queued Mode waits for loop point when entering/exiting overdub. Feedback defaults98%;below100% gradually reduces retained audio during successive overdubs (reference pp.48,64–66). | [Reference][VLT2-R] |
+| Loop FX / metronome | Four loop-playback choices: Filter,Slow Speed,Squeeze Select,Squeeze Auto;one selected effect modifies all playing layers. Shots with transport running continues on release;stopped transport plays only while held. Metronome routes to all outputs orphones only;Sine,Kick Drum,HiHat are click sounds,not evidence of a rhythm-pattern library (reference pp.49–50,66). | [Reference][VLT2-R] |
 
 ### Separate IDR hardware evidence
 
