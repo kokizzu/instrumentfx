@@ -62027,5 +62027,23 @@
     ],
     "next": "Physical controls; current library additions and fresh Shopee discovery",
     "limits": "Manufacturerindexedtextnotbenchmeasurement; unsignedEINnotcorrected"
+  },
+  "g3n_later_library_20261017": {
+    "sources": [
+      "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/",
+      "https://zoomcorp.com/en/us/news/zoomclassics/",
+      "https://zoomcorp.com/en/guitarlab-news/dynadelay/"
+    ],
+    "additions": {
+      "OverDrive": "2025-12",
+      "BitCrush": "2026-02",
+      "DynaDelay": "2026-04"
+    },
+    "findings": [
+      "G3nexplicitcompatibility;GuitarLabWinMac",
+      "DynaDelayduck/gateinputintensity"
+    ],
+    "limits": "Notinstalledlibrary/newgrandtotal/patchspilloverproof",
+    "next": "Physical controls and updated exact-model condition-specific Shopee evidence; broader discovery remains"
   }
 }
