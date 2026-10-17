@@ -2116,9 +2116,9 @@ Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2
 | Expression | Built-in assignable pedal with full-down module toggle; external FP01/FP02 is volume-only and shares CONTROL IN with FS01 [B21-M pp.18–21] |
 | Knobs / footswitches / buttons | 4 rotary controls: selector+3parameters;2 main footswitches;6 buttons: Store,Bank±,Tap,Pedal Assign,Rhythm;power separate [B21-M pp.6–7] |
 | Display | Two-digit seven-segment LED plus parameter/pedal LEDs;diagonal,color specification unverified;touch unverified [B21-M p.35] |
-| Processing / categories | 47 choices;up to9 simultaneous including ZNR. Per-category counts pending [B21-M pp.4,35] |
+| Processing / categories | 47 choices; up to 9 simultaneous including ZNR. Derived module counts: COMP/LIMIT 2; WAH/EFX 8; DRIVE/SYNTH 16 (13 amp/drive + 3 synth); ZNR/MIX 1; LO EQ 2; HI EQ 2; MOD/SFX 10; DELAY 3; REVERB 3. Sum = 47; control settings, bypass and cabinet parameter values are not extra algorithms [B21-M pp.25–34] |
 | Preset memory | 40 ROM + 40 writable = 80; all40 user slots A0–d9 initially duplicate preset00–39. All Initialize overwrites user edits [B21-M pp.4–5,24] |
-| Synth / acoustic | Synth/fretless bass documented;dedicated acoustic simulator unverified [B21-M p.4] |
+| Synth / acoustic | Three synth types: Standard Synth, Synth Talk, Mono Synth; Defret is in WAH/EFX. ACOUSTIC models the ACOUSTIC360 bass amp; it is not evidence of acoustic-guitar simulation. Dedicated acoustic simulator unverified [B21-M pp.28–30] |
 | IR / NAM / captures | User IR,native/converted NAM andmeasured capture support unverified |
 | Audio / control ports | Mono input;stereo output/headphones;balanced XLR pre/post DI with ground lift;CONTROL IN;USB;DC IN [B21-M pp.6–7,35] |
 | Analog levels / conversion | Input1Mohm/−20dBm;96kHz24bit conversion,32bit internal. USB separately16bit stereo32/44.1/48kHz [B21-M p.35] |
@@ -2140,4 +2140,4 @@ Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2
 - [B21-M: official own-model operation manual,E_B21u,41PDF pages including computer appendix](https://zoomcorp.com/media/documents/E_B21u.pdf). Web text only;no files downloaded.
 - [B21-S: manufacturer model support and driver listing](https://zoomcorp.com/en/us/multi-effects/bass-effects/b21u/b21u-support/).
 
-Remaining: per-category choice counts,additional USB/control restrictions,display gaps andqualified exact offers. Factory user fill and power-switch/USB selection are resolved. Driver listing is not editor evidence.
+Remaining: additional USB/control restrictions,display gaps andqualified exact offers. All nine module choice counts now reconcile to47. Factory user fill and power-switch/USB selection are resolved. Driver listing is not editor evidence.
