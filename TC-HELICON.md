@@ -713,6 +713,15 @@ Official indexed manual p4 andQSG pp10–11 used;both directPDFs502. Full Compas
 
 [PVE-J]: https://www.electori.co.jp/tc-helicon/vocal/perform_ve.php
 
+
+### PERFORM-VE — synthesis and sample limits
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Synth / vocoder voice allocation | Dual-oscillator vocoder supports eight MIDI synth voices plus a ninth lead synth voice tracking vocal pitch. With SAMPLE enabled, the sample modulates up to eight synth voices and the live lead passes to other effects. These are voice counts, not blocks. | [Rev.1.2 p10][PVE-R] |
+| Processing / Morph control ranges | Panel Morph Shift: **±12 semitones**; MIDI CC expands this to **±36**. Green Morph Mode selects polyphony/release; red selects monophony/portamento. Audible release needs continued vocal or sample input. | [Rev.1.2 p11][PVE-R] |
+| Memory / sample playback | Re-trigger starts at each new note; Legato synchronizes new voices to existing playback; looped modes repeat while notes remain held. PLAY auditions the original recording. The sample remains until replaced or power-off. This differs from persistent effect presets. | [Rev.1.2 p22][PVE-R] |
+| External control / manual mapping qualification | PEDAL explicitly supports Switch-3/6. Page24 lists preset1–3 defaults, then Harmony/Reverb/Echo for switches4–6. Those names do not match the six named VE effect sections; preserve this mapping uncertainty rather than infer additional blocks. | [Rev.1.2 pp5,24][PVE-R] |
 <!-- comparison evidence ends -->
 
 ## Mic Mechanic 2

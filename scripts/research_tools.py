@@ -398,7 +398,7 @@ def main():
         if mode == 'commit-rp360xp':
             message = 'research(digitech): document RP360XP tap access and V-Switch calibration'
         if mode == 'commit-perform-ve':
-            message = 'research(tc-helicon): restore PERFORM-VE routing conflicts and qualified offer coverage'
+            message = 'research(tc-helicon): qualify PERFORM-VE synthesis ranges and sample behavior'
         if mode == 'commit-perform-vg':
             message = 'research(tc-helicon): qualify PERFORM-VG gain controls and conflicting cached asks'
         if mode == 'commit-perform-vk':

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon PERFORM-VG",
-    "task": "Gain nudge, filter reset, Talk/reset controls and contradictory NEO cached asks saved. Next fresh brand/series Shopee discovery and primary gap work. VG dimensions, power draw/polarity, software/interface claims, preset count remain unresolved.",
+    "model": "TC-Helicon PERFORM-VE",
+    "task": "Vocoder voice allocation, Morph ranges and sample playback saved; remote default-label uncertainty preserved. Next fresh Shopee discovery and primary gap work. VE power/current, full controls, loop duration/storage, AUX and MIDIclock conflicts remain unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-VG."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-VE."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57425,6 +57425,14 @@
       "sources": [
         "https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd",
         "https://shopee.co.id/TC-Helicon-PERFORM-VG-Vocal-and-Acoustic-Guitar-Processor-Effect-i.158235298.9196009067"
+      ]
+    },
+    {
+      "model": "TC-Helicon PERFORM-VE",
+      "checked_date": "2026-10-18",
+      "finding": "Rev1.2manufacturer manual confirms dualoscillator8MIDI+lead synth voice allocation versus sample modulator, panelMorphShift±12/MIDICC±36, polyrelease vsmonoportamento, re-trigger/legato/loop playback. ExplicitSwitch3/6 but Harmony/Reverb/Echo defaults inconsistent with namedVEsections retainedasuncertain. Fresh Shopee repeats existing limitless3.9mHabis, no newhardwareoffer.",
+      "sources": [
+        "https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf"
       ]
     }
   ],
