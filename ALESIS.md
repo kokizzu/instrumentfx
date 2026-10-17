@@ -77,3 +77,30 @@ Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discont
 - [MD-M: original69-page reference manual](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf),text inspected;no new visual inspection claimed.
 
 No files downloaded. Remaining:category subtotals,body/mass,powercurrent,display details,firmware/software/routing restrictions andqualified offers.
+
+## MIDIverb III
+
+Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No builtin pedal;momentary bypass socket. MIDI controller modulation;continuous analogEXP/toe unknown. |
+| Controls | Text-derived **3rotary/0integratedfoot/16buttons**;INPUT,MIX,OUTPUT. Power separate. |
+| Display | Threecharacters;LED/7segment descriptions conflict withspecification’sLCD wording. Diagonal/color/touch unknown. |
+| Processing / choices | Up to **4simultaneous:delay,reverb,chorus,EQ;15configurations**. Reverb20;chorus/flange24;EQ31+Off. |
+| Presets | **100fixedfactory+100user=200**;userinitiallyduplicatesfactory. |
+| Synth / acoustic | Synth/acousticconversion unknown;MIDIcontrol notsynthesisproof. |
+| Dimensions / weight | **19W×1.75H×7D inches;4.5lb**. |
+| I/O | ¼L/Rinput/output,bypass;DIN MIDIin/out-thru;4pinpower. NoUSB/XLR/headphoneslisted. |
+| Power | **9VAC,15VA externaltransformer**;not9VDC. DCpolarityN/A;current,battery/USBpower unknown. |
+| Software | MIDI SysEx/programmapping/parametercontrol;full editorOS/driver/updater unknown. |
+| IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
+| Looper / drums / live | Looper/drums/scenes unknown. Delay490ms orreverbpredelay100ms,configuration-dependent. |
+| Instrument scope | Highimpedance instrument/lineinput;manualguitarchorus andmicrophone paths. Mixerrecommendedforquietmicoperation;mono usesRIGHTinput/output. Bassunclassified. |
+
+### MIDIverb III — separate IDR offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Working used / new | Unknown | — |
+| Condition-risk unit / syaifuddin_syaifullah,Kab.Ponorogo | **Rp650.000**,title **gambling tanpa PSU**;noPSUexplicit,workingconditionunverified. Openedtextcrawl1week,index2months;shoponholiday. Stock,variant,warranty,voucher,shipping/taxunknown. Not anormalworkingusedprice. | [77454658/23942927595](https://shopee.co.id/efek-vocal-alesis-midiverb-III-ex-studio-recording-i.77454658.23942927595) |

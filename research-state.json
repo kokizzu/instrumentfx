@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 279,
+  "active_model_count": 280,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 279,
+  "canonical_root_model_count": 280,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "279uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.M350guitar/vocalwithpreampqualification.",
+  "count_reconciliation": "280uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.MIDIverbIIIguitar/vocal,conditionriskoffer.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,11 +29,11 @@
   },
   "cursor": {
     "model": "Alesis MIDIverb III",
-    "task": "M350 namedenginechoices andmomentarypedal saved;physicalbuttons/editorOS/displayandothergapsremain. Next research exact AlesisMIDIverbIII manufacturer manual andsavednoPSUgambling offer;do notborrowMIDIverb4specs orclassifyasnormalworkingusedprice.",
+    "task": "MIDIverbIII added from exactmanufacturer-authoredmirror;9VAC supply andconditionriskoffer preserved. Next verify15configuration architecture/controlcount andsource pagination inconsistencies;commitbeforeMPX100.",
     "next_models": [
       "Lexicon MPX100"
     ],
-    "after_queue": "279partialmodels;commit eachmodelbefore next;all117legacy pathsaccountedfor;no downloads/workflows/push."
+    "after_queue": "280partialmodels;all117legacy pathsaccountedfor;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23995,7 +23995,8 @@
     ],
     "Alesis": [
       "MicroVerb 4",
-      "MIDIverb 4"
+      "MIDIverb 4",
+      "MIDIverb III"
     ],
     "Yamaha": [
       "SPX900",
@@ -24340,7 +24341,8 @@
     ],
     "ALESIS.md": [
       "MicroVerb 4",
-      "MIDIverb 4"
+      "MIDIverb 4",
+      "MIDIverb III"
     ],
     "YAMAHA.md": [
       "SPX900",
@@ -24357,7 +24359,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 229,
+      "record_count": 230,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24369,9 +24371,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 51,
+      "record_count": 52,
       "vocal_only_count": 22,
-      "combined_instrument_count": 29,
+      "combined_instrument_count": 30,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41329,13 +41331,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 279,
-    "canonical_root_models": 279,
+    "unique_brand_model_pairs": 280,
+    "canonical_root_models": 280,
     "legacy_only_models": 0,
-    "guitar_view_models": 229,
+    "guitar_view_models": 230,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 51,
+    "vocal_view_models": 52,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41617,6 +41619,7 @@
       "Lexicon::MX400",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
+      "Alesis::MIDIverb III",
       "Yamaha::SPX900",
       "Yamaha::SPX990",
       "Yamaha::SPX2000",
@@ -41785,6 +41788,7 @@
       "Lexicon::MX400",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
+      "Alesis::MIDIverb III",
       "Yamaha::SPX900",
       "Yamaha::SPX990",
       "Yamaha::SPX2000",
@@ -43935,6 +43939,13 @@
     },
     "Alesis::MIDIverb 4": {
       "link": "ALESIS.md#midiverb-4",
+      "source_files": [
+        "ALESIS.md"
+      ],
+      "finding_files": []
+    },
+    "Alesis::MIDIverb III": {
+      "link": "ALESIS.md#midiverb-iii",
       "source_files": [
         "ALESIS.md"
       ],
@@ -57001,5 +57012,14 @@
     "choices": "15each engine+Off;fullnamesinTC-ELECTRONIC.md;HallAcousticnotacsim,Drumreverbnotpatterns",
     "digital": "44.1analogmode;44.1/48lockedinput",
     "controls": "BYPASSknobwordingunresolved;noimageinspection"
+  },
+  "midiverb3_primary_20261017": {
+    "source": "https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf",
+    "identity": "63page AlesisMidiVerb3ReferenceManual;mirror originalmanuscript;date/revisionunknown;officialoldURLinaccessible",
+    "scope": "Highimpedanceinstruments/mics;p28guitarillustration;p17micmixingrecommendation",
+    "offer": "https://shopee.co.id/efek-vocal-alesis-midiverb-III-ex-studio-recording-i.77454658.23942927595",
+    "qualification": "Rp650000 gamblingtanpaPSU;workingunverified;shoponholiday;notnormalusedprice;directtextcrawl1week",
+    "power": "9VAC15VAexternal;notDC",
+    "gaps": "DisplayLEDvsLCDconflict,fullsource revision,currentconditionoffers,IRNAMcapture/editor/synth/acoustic/looperdrums"
   }
 }
