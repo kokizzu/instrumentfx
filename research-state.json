@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX PG-2",
-    "task": "Resolve exact Shopee item for category-only Rp590000 Kab.Sidoarjo lead in discovery_mfx10_20261017; verify own-model multi-effects eligibility/manual before adding. MFX-10 gaps explicitly deferred in mfx10_efx_checkpoint_20261017.",
+    "task": "PG-2 own manual URL and guitar multi-effects architecture saved in pg2_primary_discovery_20261017. Exact Shopee Rp590000 seller/item unresolved; retain category-only price unassigned. Next original-manual specifications/IO/power/memory, no downloads.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery continues; preserve prior gaps and migration limits. No downloads/workflows/push."
   },
@@ -55220,5 +55220,29 @@
       "Currentcondition-specificprices"
     ],
     "status": "Useful partial technical pass saved; unresolved gaps deferred, not fullyverified."
+  },
+  "pg2_primary_discovery_20261017": {
+    "checked": "2026-10-17",
+    "product": "https://nuxaudio.com/product/pg2/",
+    "official_manual": "https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf",
+    "access": "Own product link36 opens one-page PDF; no extracted text. No visual inspection or filesystem download.",
+    "manufacturer_transcription": "https://manuals.plus/nux/pg-2-portable-guitar-efx-manual",
+    "identity": "Exact PG-2 Portable Guitar EFX owner manual, NUX TSAC introduction; current official V1 revision equivalence remains unverified.",
+    "eligibility": "Original manual body separately describes amp simulator, modulation and ambience sections; supports guitar multi-effects scope, not dedicated single-function pedal.",
+    "facts": {
+      "amp": "Clean/Blues/Rock",
+      "modulation": "Chorus/Flanger/Tremolo",
+      "ambience": "Delay/Room/Spring selections",
+      "controls": "Four knobs with ALT level/3bandEQ secondary functions; slide selectors separate. Fullbuttoninventorypending."
+    },
+    "price": "Category-only Rp590000 Kab.Sidoarjo remains unassigned; exact seller/item not resolved by targeted indexed searches. Not current stock or verified used/new offer.",
+    "searches": [
+      "site:shopee.co.id exact effects-title PG-2",
+      "site:shopee.co.id NUX PG2",
+      "PG-2 590 exact-title search",
+      "PG-2 exact item i. search"
+    ],
+    "limits": "Search failures do not prove no listing. Do not infer bass from forum bass-amp use or generic sibling. Generated sixmodulation wording excluded; original describes three.",
+    "next": "Read manufacturer-authored manual transcription for specs/power/IO/memory; keep category price unassigned until exact seller/item. Add qualified record only with explicit source/revision limits."
   }
 }
