@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 232,
+  "active_model_count": 233,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 232,
+  "canonical_root_model_count": 233,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "232 unique active/root-canonical models;zero legacy-only;29brands. FX2000 adds documented guitar/bass/vocal routed use. Six specialist archives excluded.",
+  "count_reconciliation": "233 unique active/root-canonical records;zero legacy-only;30brands. MicroVerb4 adds documented guitar/vocal;notMIDIverb4. Six archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Alesis MicroVerb 4",
-    "task": "Use discovery_microverb4_20261017. Inspect original manual andcomplete source-qualified record before active addition;preserve18bitmanufacturer vs24bitseller discrepancy andunverified unit authenticity. Do not confuse MIDIverb4. Commit before researching next model.",
+    "model": "Bass/vocal Shopee discovery",
+    "task": "MicroVerb4 recorded;do notaddagain orconfuseMIDIverb4. Search fresh exactbrand/series;continue remaining technical/revision/offer gaps later.",
     "next_models": [],
-    "after_queue": "Resume bass/vocal discovery,technical gaps andmigration;no downloads/workflows."
+    "after_queue": "Continue migration/research;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4944,6 +4944,17 @@
       ],
       "finding": "71algorithms including combinations;200preset locations;regional mains;explicit routed guitar/bass/vocal use.",
       "remaining": "Fullmanual,controls,simultaneous/category counts,display/ports/software,qualified offers"
+    },
+    {
+      "model": "Alesis MicroVerb 4",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.alesis.com/products/view/microverb4.html",
+        "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf"
+      ],
+      "finding": "3simultaneous;6/0/2controls;100+100memory;18bitconversion vs24bitaccumulator;delay conflict retained.",
+      "remaining": "Body/power/display/category/software/qualified offers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23821,6 +23832,9 @@
     ],
     "Lexicon": [
       "MX200"
+    ],
+    "Alesis": [
+      "MicroVerb 4"
     ]
   },
   "root_brand_content": {
@@ -24113,11 +24127,14 @@
     ],
     "LEXICON.md": [
       "MX200"
+    ],
+    "ALESIS.md": [
+      "MicroVerb 4"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 189,
+      "record_count": 190,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24129,9 +24146,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 37,
+      "record_count": 38,
       "vocal_only_count": 21,
-      "combined_instrument_count": 16,
+      "combined_instrument_count": 17,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41020,13 +41037,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 232,
-    "canonical_root_models": 232,
+    "unique_brand_model_pairs": 233,
+    "canonical_root_models": 233,
     "legacy_only_models": 0,
-    "guitar_view_models": 189,
+    "guitar_view_models": 190,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 37,
+    "vocal_view_models": 38,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41275,7 +41292,8 @@
       "Behringer::Bass V-AMP PRO",
       "Behringer::V-AMP 2",
       "Behringer::FX2000",
-      "Lexicon::MX200"
+      "Lexicon::MX200",
+      "Alesis::MicroVerb 4"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41409,7 +41427,8 @@
       "Zoom::V6-SP",
       "Zoom::V3",
       "Behringer::FX2000",
-      "Lexicon::MX200"
+      "Lexicon::MX200",
+      "Alesis::MicroVerb 4"
     ]
   },
   "comparison_bass_basis": {
@@ -43271,6 +43290,13 @@
       "link": "LEXICON.md#mx200",
       "source_files": [
         "LEXICON.md"
+      ],
+      "finding_files": []
+    },
+    "Alesis::MicroVerb 4": {
+      "link": "ALESIS.md#microverb-4",
+      "source_files": [
+        "ALESIS.md"
       ],
       "finding_files": []
     }

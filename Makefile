@@ -1567,3 +1567,7 @@ research-commit-mx200:
 .PHONY: research-commit-fx2000
 research-commit-fx2000:
 	python3 scripts/research_tools.py commit-fx2000
+
+.PHONY: research-commit-microverb4
+research-commit-microverb4:
+	python3 scripts/research_tools.py commit-microverb4
