@@ -924,6 +924,17 @@ Own RevC Pilot(8PDFpages),v2.0 Advanced guide RevA and model-specific FAQ used;n
 
 [M9-P]: https://kb.line6.com/line-6-four-button-stompbox-pedal-faqs
 
+### M9 — knob response, scene access and DryThru
+
+Checked2026-10-18 against [v2.0 Advanced Guide §§2•4,3•2,4•2][M9-A]. Revision-qualified documentation,not installed-firmware or hardware testing.
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / Relative versus Absolute | Relative mode changes aparameter smoothly fromitscurrentvalue when aphysicalknob turns. Absolute mode jumps totheknobposition. This isnot documented value-pickup requiring theknob tocatch astoredposition; do not conflate thebehaviors. |
+| Memory / Latch scene tradeoff | Latch Scene mode keepssixscenes onefootswitch away,butindividualFX cannot bedirectlyedited/bypassed there; pressing thecurrentScene switch bypassesthescene. Momentary exitsSceneSelect afterselection andrestores individualFX access. These are navigationmodes,not additional scene memory or snapshots. |
+| Processing / DryThru delay variants | TapeEcho,TubeEcho,SweepEcho andEchoPlatter haveDryThru versions removing modeled dry-path coloration atMix0%. Original versions retainthatcoloration. DryThru ismodelbehavior,not proof ofanalog-dry routing,relaybypass ormorethanthree simultaneousFX. |
+
+
 ## Pocket POD
 
 Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;partial. Ownership,vocal suitability unknown. Bass use documented for Tube Preamp.
