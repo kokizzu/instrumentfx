@@ -516,7 +516,7 @@ def main():
         if mode == 'commit-ax1000g':
             message = 'research(korg): preserve second AX1000G sold-out offer separately'
         if mode == 'commit-ve20-followup':
-            message = 'research(boss): qualify VE20 pitch modes and indexed offer context'
+            message = 'research(boss): resolve VE20 polarity and preserve current conflict'
         if mode == 'commit-g71ut':
             message = 'research(zoom): reconcile G7.1ut category inventory to 92 effects'
         if mode == 'commit-field-projection':
