@@ -2296,3 +2296,40 @@ Seller, stock, authenticity/origin, working state, bundle, adapter, warranty, sh
 [Z607-M]: https://zoomcorp.com/media/documents/E_607.pdf
 [Z607-S]: https://zoomcorp.com/en/us/multi-effects/bass-effects/607/607-support/
 [Z607-O]: https://shopee.co.id/Efek-Gitar-Zoom-606-607-Made-Japan-dan-China-i.703817770.20045443371
+
+## B1X original
+
+Checked 2026-10-17; partial. Bass-focused processor; ownership and guitar/vocal suitability unverified. Original B1X,not B1Xon or FOUR; seller “Next” alias unresolved.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in treadle;full-down press toggles assigned module. **No CONTROL IN**: external FP01/FP02/FS01 support is B1-only. [Manual pp5,26][B1XO-M] |
+| K/F/B | **2 rotary/2 footswitches/4 buttons**,text inventory: Module,VALUE;two patch switches;RHYTHM,STORE,BANK UP/TAP,PEDAL ASSIGN. Toe action additional;visual corroboration pending. [Manual pp4–5][B1XO-M] |
+| Display | Two-digit seven-segment LED;diagonal/color/touch unverified. [Manual p27][B1XO-M] |
+| Processing / categories | **46 types;8 serial modules usable together**. One type per module;category counts pending. [Manual pp18,27][B1XO-M] |
+| Preset memory | **40 user+40 read-only factory=80**;user area initially duplicates factory patches. [Manual pp3,25][B1XO-M] |
+| Synth / acoustic | **MONO SYN** is monophonic,single-note bass synthesis. Acoustic conversion unverified;ACOUSTIC amp name alone proves none. [Manual p20][B1XO-M] |
+| I/O | Mono quarter-inch bass input,stereo quarter-inch combined line/headphone output,DC. No CONTROL IN on B1X. [Manual pp4–5,27][B1XO-M] |
+| Power / battery / USB | **9VDC300mA center-negative AD-0006 supply**,or4AA alkaline,approx12h;nonrecharging. Actual draw,barrel size/USB operation unverified. [Manual pp2,27][B1XO-M] |
+| Dimensions / mass | **234W×155D×52Hmm;600g without batteries**. Own B1X row,not narrower B1. [Manual p27][B1XO-M] |
+| IR / NAM / capture | User IR,native/converted NAM and proprietary capture unverified. |
+| Editor / platforms | Editor/updater OS and USB/audio unverified;no absence inferred. |
+| Live / practice | **40 rhythm patterns**;REVERB/DELAY unavailable during rhythm playback. Looper/scenes unverified. [Manual pp25,27][B1XO-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence |
+|---|---|
+| Used | No exact condition-confirmed offer established. |
+| New | No exact condition-confirmed offer established. |
+
+<!-- comparison evidence ends -->
+
+Hope Music's mixed G1x Next/B1x Next seller-page ask stays unassigned in the ledger: exact item,variant mapping and alias identity unresolved. No current stock,condition,bundle,adapter inclusion,authenticity,warranty,shipping/tax or voucher claims.
+
+[Official discontinued B1X page][B1XO-P] links the original combined B1/B1X manual. Only shared or explicitly B1X facts used. Printed page numbers above;browser PDF16pages. No filesystem download or visual inspection claimed.
+
+[B1XO-P]: https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal
+[B1XO-M]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf
