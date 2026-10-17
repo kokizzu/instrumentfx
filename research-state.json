@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive Play",
-    "task": "Japanese v1.8 preset-list snapshot andregional specs saved withclear source qualifications. Continue primarymanufacturer corroboration andShopee discovery.",
+    "model": "Line 6 Floor POD Plus",
+    "task": "Vyzex2.01 historical requirements andbank/preset transfer limits saved. Continue newShopee discovery andprimary-source technical gaps.",
     "next_models": [],
     "after_queue": "314 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -41878,7 +41878,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Play."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 Floor POD Plus."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52423,6 +52423,14 @@
       "identity": "Japanese v1.8 original manual title/controls/list; regional model page reached via www host after earlier mail-host failures. Manufacturer endpoint remains unavailable.",
       "finding": "Historical preset list1–235 including blank; regional dimensions/mass,power polarity andphantom voltage explicitly separated frommanufacturer corroboration.",
       "remaining": "Current memory capacity,USBformats,phantom current,screen diagonal/touch,battery/buspower,currentsoftware/firmware andqualifiedoffers remain."
+    },
+    {
+      "model": "Line 6 Floor POD Plus",
+      "checked_date": "2026-10-17",
+      "source": "https://www.scribd.com/document/227781305/Vyzex-Floor-POD-Plus-Pilot-s-Guide-pdf",
+      "identity": "Original Vyzex model-specific Pilot Guide2.01;20pages. Editor assignment corroborated officialLine6 guide;no package downloaded.",
+      "finding": "Historical OS/CPU/display requirements, Direct/Virtual bank-write distinction andL6T/SQS file compatibility saved.",
+      "remaining": "Current OS/package compatibility,dimensions/mass,actualdraw,battery,display,simultaneouscount andqualifiedprice remain."
     }
   ],
   "discovery_cross_brand_bass": {

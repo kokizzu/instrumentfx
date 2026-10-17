@@ -1715,3 +1715,7 @@ research-commit-ms80ir:
 .PHONY: research-commit-spx2000
 research-commit-spx2000:
 	python3 scripts/research_tools.py commit-spx2000
+
+.PHONY: research-commit-floorpodplus
+research-commit-floorpodplus:
+	python3 scripts/research_tools.py commit-floorpodplus

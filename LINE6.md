@@ -1530,3 +1530,13 @@ Checked2026-10-17;[EnglishRevB](https://line6.com/data/l/0a060072caf749905177981
 | I/O / output tuning | InAmp output mode,C-a/C-b target poweramp+closed/open cabinet;C-c/C-d target combo/head front+open/closed cabinet. C-c default. HoldSave at startup,choosewithBank±,Save. These are output compensation modes,not four additional cabinet models. |
 
 Targeted manufacturer/editor-vendor searches did not establish dimensions,mass,or current Vyzex OS compatibility;these remain unknown. Search absence is not proof those specifications were never published.
+
+### Floor POD Plus — Vyzex 2.01 historical editor requirements
+
+Checked2026-10-17: original model-specific Pilot’s Guide **version2.01**,20pages, reproduced onScribd;identity matches the editor assigned by [Line6’s editor guide](https://line6.com/customtone/help/editors.html),MIDI connections and124-channel hardware. Only original document body used;generated description incorrectly calls the unit an audio interface and is excluded. Exact package equivalence/current support not established.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / historical platforms | Guidep1 lists **WindowsXP/Vista**,P4-equivalent,32-bit color,1024×800 minimum;Windows2000 adaptation explicitly unsupported. Mac **OSX10.4/10.5**,PowerPCG4/G5 orIntel,1024×800. These are historical requirements,not certification for currentWindows/macOS. [Vyzex2.01 guide](https://www.scribd.com/document/227781305/Vyzex-Floor-POD-Plus-Pilot-s-Guide-pdf) |
+| Editor / bank-write behavior | Direct mode propagates bank reordering andstored edits tohardware. Virtual mode auditions viaedit buffer;STORE/STOREIN update onlysoftware bank until explicit synchronization. SaveSet creates anSQS backup. BothMIDI directions needed;audio still requires analogoutputs/headphones. [Guide pp1–12](https://www.scribd.com/document/227781305/Vyzex-Floor-POD-Plus-Pilot-s-Guide-pdf) |
+| Preset / compatible files | Guidep14 accepts FloorPODPlus,PocketPOD andPOD2.0 **L6T** files;otherL6T variants incompatible. Cross-model imports may sound different. SQS stores complete sets;L6T isindividual preset data,not IR/NAM/capture loading. [Guide p14](https://www.scribd.com/document/227781305/Vyzex-Floor-POD-Plus-Pilot-s-Guide-pdf) |
