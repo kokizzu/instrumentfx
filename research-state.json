@@ -28,9 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 707II",
-    "task": "707II category count and acoustic/sampler/hold-delay audit saved; remaining synth/software/card/persistence fields explicit. Continue exact missing bass/vocal discovery.",
-    "next_models": [],
+    "model": "Zoom 708II",
+    "task": "Read own E_708II.pdf; audit bass-specific pickup/drive/synth chain and controls independently of707II. Exact mixed Shopee703817770/23503462640 has3variants;1399000 unassignable. Add root/view only after primary audit.",
+    "next_models": [
+      "Zoom 708II"
+    ],
     "after_queue": "Continue missing bass/vocal discovery and legacy consolidation; no downloads/workflows."
   },
   "new_findings": [
@@ -51201,5 +51203,34 @@
     "stock": "Habis",
     "access": "Exactpage retrieved,cachelastmonthAug26–27delivery",
     "other": "AX100G mixed22551702/3568008855 Rp899900–2299900 unresolvedfourvariants; AX300G no exacthardware;606/607 mixed1099000notassigned."
+  },
+  "discovery_708ii_20261017": {
+    "checked_date": "2026-10-17",
+    "status": "708II bass model missing from active inventory; own primary specification audit next.",
+    "url": "https://shopee.co.id/Efek-Zoom-707ii-Zoom-708ii-Zoom-GFX-3-Langka-i.703817770.23503462640",
+    "shop_id": "703817770",
+    "item_id": "23503462640",
+    "seller": "Hope Music",
+    "region": "Kota Bandung",
+    "unassigned_ask_idr": 1399000,
+    "former_displayed_idr": 1599000,
+    "variants": "Three variations: title707ii/708ii/GFX-3; individual price mapping unresolved.",
+    "access": "Search cache three months old; service unavailable. Exact open cache miss.",
+    "qualification": "Do not assign amount to708II or call new/used. Bundle,warranty,physical condition,stock,voucher unknown. Exact item is an identity lead only.",
+    "primary_support": "https://zoomcorp.com/en/gb/multi-effects/bass-effects/708ii/708ii-support/",
+    "primary_manual": "https://zoomcorp.com/media/documents/E_708II.pdf",
+    "manual_status": "Manufacturer search index identifies708II BASS Operation Manual and distinct pickupselector/drive/effectsections; full text not inspected yet.",
+    "other_queries": {
+      "queries": [
+        "708II",
+        "Zoom506",
+        "VoiceLive2",
+        "Vocal300",
+        "708 II bass",
+        "BP90",
+        "Vocalist Live"
+      ],
+      "result": "No exact missing single-model bass/vocal hardware price established. Vocal300/Vocalist returned175000poweradapters; rejected. No absence or exhaustive coverage claim."
+    }
   }
 }
