@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-001",
-    "task": "Initial ownproduct guitar/vocalprofile saved;next recover ownowner/manualtext controls,power,routing/categorycounts. ParameterPDFreaderlimit;no downloads. 291partialmodels.",
+    "task": "GT001guitar/MICmutualexclusion,metronome/tuner saved fromofficialindex. Next controls,powerPSA-specificchain,exactUSBchannels orcategoryinventory;PDFreaderlimits remain,notdownloads.",
     "next_models": [],
     "after_queue": "FreshShopeediscoveryandremainingverification;no workflows/push."
   },
@@ -58435,5 +58435,14 @@
       "Qualifiedoffers"
     ],
     "manual_access": "GT001_r_e01W.pdf11386475bytesreaderlimit;notdownloaded"
+  },
+  "gt001_routing_practice_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf",
+    "identity": "2014 printed33/39 indexedoriginaltext",
+    "routing": "EitherGUITARorMIC;notboth simultaneously;micLevel/phantom changes mayinterrupt",
+    "metronome": "40–250BPM;meters/level;OUTPUT/PHONES;changesMasterBPM",
+    "tuner": "435–445Hz;MUTE/BYPASS/THRU",
+    "limits": "Looper/drumpatternsunverified;dualchainsnotdualinput;noanalogbypassinference",
+    "downloads": false
   }
 }

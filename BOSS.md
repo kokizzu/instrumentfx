@@ -2557,7 +2557,7 @@ Desktop guitar/vocal processor;distinct fromGT-1/GT-100. Checked2026-10-17;parti
 | Power / batteries | Adapter orUSBbus;240mAdraw. Voltage,polarity,batteries unresolved. |
 | Editor / USB | BOSS TONE STUDIO Mac/Windows;USBaudio/MIDI,reamping. Exactdirectionalchannels pending. |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture unverified. |
-| Looper / drums / live | Unverified;vocal/acousticmicpatches supported. Concurrentguitar+mic routing unverified. |
+| Looper / drums / live | Unverified;vocal/acousticmicpatches supported. Guitar and mic inputs are mutually exclusive; details below. |
 
 ### GT-001 — separate IDR offers
 
@@ -2566,6 +2566,16 @@ Desktop guitar/vocal processor;distinct fromGT-1/GT-100. Checked2026-10-17;parti
 | Used | Unknown | Conditionunverified. |
 | New | Unknown | Conditionunverified. |
 | Condition-unverified shop-card ask | Rp5,075,200 | [Toko Standard Music](https://shopee.co.id/tokosm38),[shop214621914/item18937945565](https://shopee.co.id/Effect-Guitar-BOSS-GT-001-COSM-i.214621914.18937945565). Searchfour-month/directshopthree-monthcache;itemclickcachemiss. Tanjungpinangshopdescription,notitem-confirmed. Condition,stock,variant,bundle,adapter,warranty,voucher,shipping/taxunknown. Historicalask,notliveoffer/completedsale. |
+
+### GT-001 — input selection and practice functions,2026-10-17
+
+[Official parameter guide](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf),2014,printedpp33/39:targeted search-index text recovered despite full-reader size limit. No visual inspection claimed.
+
+| Field | Verified behavior / limit |
+|---|---|
+| I/O / input routing | INPUT SELECT chooses **GUITAR or MIC; both cannot operate simultaneously**. Each selected input passes through the effects. Dual effect chains do not establish independent simultaneous guitar/vocal processing. Adjusting MIC LEVEL or PHANTOM can interrupt sound. |
+| Looper / drums / practice | **Metronome40–250BPM**,selectable meters andlevel;output through OUTPUT/PHONES. Its tempo changes MASTER BPM. This is a metronome,not evidence of a drum-pattern library. Looper remains unverified. |
+| Tuner / live | Reference435–445Hz;MUTE silences output,BYPASS removes effects,THRU retains the current effect sound while tuning. These mode names do not establish analog true-bypass circuitry. |
 
 <!-- comparison evidence ends -->
 
