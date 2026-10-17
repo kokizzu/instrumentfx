@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-5",
-    "task": "Electrical ratings,Bluetooth/FS modes and two qualified exact offers saved. Next currentfirmware/NAMA2architecture prerequisites,IRlength,screen diagonal/controlcounts andusedprice; do not treat old firmware landing aslatest.",
+    "task": "GP5firmware1.0.3manual controls,DCconnector andMIDI table saved; regional/globaldesktopeditingdescriptionconflict retained. Next ownmanual processing/synth/acoustic category audit, currentNAM-A2prerequisites andIRlimits; no siblingcounts.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57644,6 +57644,16 @@
         "https://www.valeton.net/product/gp-5/",
         "https://shopee.co.id/Valeton-GP-5-Multi-Efek-AMP-and-IR-Loader-Mini-Pedal-Efek-Digital-Mini-Valeton-GP5-i.338305078.29088301413",
         "https://shopee.co.id/Valeton-GP-5-Multi-Effect-Processor-i.1275754364.57400332425"
+      ]
+    },
+    {
+      "model": "Valeton GP-5",
+      "checked_date": "2026-10-18",
+      "finding": "Regionalmanufacturer manual firmware1.0.3 resolves2rotary1FS0separatebuttons,5.5x2.1DCconnector,TSmonooutput andCC48–58/69 mappings. RegionalSuite1.0.9editorparameterclaim differsglobalfilemanagementdescription; preserved,noinstallation. IRlimits remainunknown; FAQ inaccessible.",
+      "sources": [
+        "https://www.hotone.jp/manuals/valeton/GP-5.pdf",
+        "https://www.hotone.jp/brands/valeton/products/gp-5",
+        "https://www.valeton.net/product/gp-5/"
       ]
     }
   ],

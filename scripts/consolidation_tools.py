@@ -1421,7 +1421,7 @@ def commit(model_id):
         print(research_tools.git('commit', '-m', 'research(zoom): qualify B2 FOUR pedal rhythm and tuner limits'))
         return
     if model_id == 'gp-5':
-        print(research_tools.git('commit', '-m', 'research(valeton): qualify GP5 electrical ratings and exact offers'))
+        print(research_tools.git('commit', '-m', 'research(valeton): resolve GP5 controls and revision qualified MIDI'))
         return
     if model_id == 've-22':
         print(research_tools.git('commit', '-m', 'research(boss): qualify VE22 electrical levels and panel controls'))

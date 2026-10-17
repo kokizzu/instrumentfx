@@ -740,6 +740,18 @@ Checked 2026-10-18 against the exact-model product page and Shopee hardware list
 | IDR / Dial Musik exact offer | Palembang, seller/item **338305078/29088301413**: older two-month index **Rp1.553.300**, crossedRp1.585.000,2%off; directly reopened last-week body instead **Rp1.585.000**, stale11–13October delivery. No Habis shown in retrieved body; stock,condition,adapter bundle,warranty region and checkout unverified. These are separate snapshots, not a current range. | [Exact hardware](https://shopee.co.id/Valeton-GP-5-Multi-Efek-AMP-and-IR-Loader-Mini-Pedal-Efek-Digital-Mini-Valeton-GP5-i.338305078.29088301413) |
 | IDR / BMD Guitar Shop exact offer | Kab.Sleman,seller/item **1275754364/57400332425**: **Rp1.534.500**,last-week direct cache. Older index says shop on holiday; direct snapshot shows seller last active15days earlier and relative tomorrow delivery. Current shop availability,condition,adapter bundle,warranty and checkout remain unverified. Late-delivery compensation excluded from discounts for both offers. | [Exact hardware](https://shopee.co.id/Valeton-GP-5-Multi-Effect-Processor-i.1275754364.57400332425) |
 
+### GP-5 — firmware1.0.3 manual controls and MIDI
+
+Checked 2026-10-18. Manufacturer-authored Japanese manual hosted by regional distributor HOTONE JAPAN; cover explicitly scopes it to **firmware1.0.3**. This is not proof of an offered unit's firmware or current installed features.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Physical controls / K/F/B | **2 / 1 / 0**, derived from complete numbered panel descriptions: VOL rotary, push/enter PARA rotary, one footswitch; no separate buttons listed. Encoder press is not another separate button. PARA long-press toggles Bluetooth; footswitch long-press enters tuner. | [Own manual p6](https://www.hotone.jp/manuals/valeton/GP-5.pdf) |
+| Power / DC connector | **5.5×2.1mm,9VDC center negative,≥100mA supply**. Manual also explicitly allows a USB power adapter or mobile battery; no internal rechargeable battery is established. | [Own manual pp6–7](https://www.hotone.jp/manuals/valeton/GP-5.pdf) |
+| I/O / mono connection | Shared output is unbalanced stereo TRS/headphones; manual specifies a **standard TS cable** when feeding a mono amp or effect. | [Own manual p6](https://www.hotone.jp/manuals/valeton/GP-5.pdf) |
+| I/O / MIDI table scope | Firmware1.0.3 table assigns **CC48–57** to NR/PRE/DST/N→S/AMP/CAB/EQ/MOD/DLY/RVB on/off:0–63off,64–127on. **CC58** similarly toggles tuner;CC69 isCTL. A MIDI table does not make the USB port a host or establish every Bluetooth controller workflow. | [Own manual p39](https://www.hotone.jp/manuals/valeton/GP-5.pdf) |
+| Editor / regional description conflict | Regional page lists **Valeton Suite1.0.9 for Mac/Windows** as editor/librarian with parameter editing,file management and updates; global GP-5 page describes desktop file management/firmware updates. Preserve both scopes; full desktop-edit behavior was not tested. Regional firmware1.0.6/mobile1.0.4 listing is not proof of the latest release or NAM-A2 prerequisites. | [Regional software section](https://www.hotone.jp/brands/valeton/products/gp-5); [Global product](https://www.valeton.net/product/gp-5/) |
+
 
 ## GP-50
 
