@@ -3087,3 +3087,13 @@ Checked 2026-10-18 using original owner/parameter-guide text only; no files down
 | Synth / Sound Hold limitation | Sound Hold sustains a captured note while another melody is played; simultaneous multiple-note input is unsupported. Assign F1:SOL/TRG or F2:SOL/TRG to a controller. This is not evidence of phrase-loop recording, overdubbing or a synth engine. | [Parameter guide p6][MS3-G] |
 | Controls / tuner outputs | Tuner reference 435–445 Hz. MUTE silences output; BYPASS disables effects; THRU retains the current effect sound while tuning. These are different output modes. | [Parameter guide p43][MS3-G] |
 | Controls / lock and page buttons | Hold ON/OFF at least two seconds in the play screen to lock buttons and knobs; repeat to unlock. EDIT and ENTER double as page buttons, so page labels do not add two physical buttons to the existing five-button inventory. Hold MEMORY/MANUAL at least two seconds to enter MUTE & TUNER. | [Owner manual p5][MS3-M] |
+
+
+### MS-3 corroborated MIDI setups and Tempo Hold
+
+Checked 2026-10-18; documentation only, without installing the editor or testing a device.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / MIDI setup count corroboration | **Four documented PATCH MIDI setups (1–4)**: Roland support updated 2024-12-18 uses that exact selection range; the original Japanese editor guide p5 says CTL OUT & MIDI SEND transmits the messages configured in PATCH MIDI 1–4. This corroborates the parameter-guide heading. Its conflicting 1–8 sentence remains preserved above, rather than establishing eight setups. Physical/firmware inspection was not performed. | [Roland support](https://support.roland.com/hc/en-us/articles/360004192252-MS-3-MEMORY-MANUAL-MODE-CURRENT-NUMBER-MIDI); [Japanese editor guide p5](https://static.roland.com/assets/media/pdf/MS-3_Editor_Librarian_jpn02_W.pdf) |
+| Controls / Tempo Hold | Set BPM preference to PATCH and TEMPO HOLD ON in the **destination patch**, then Write. The arriving patch retains the previous live BPM. Returning to a patch with Tempo Hold OFF restores that patch’s saved BPM; the guide illustrates 120→130→120. This is tempo persistence, not audio-tail continuation. | [Original application guide p14](https://static.roland.com/assets/media/pdf/MS-3_Application_Guide_eng01_W.pdf) |
