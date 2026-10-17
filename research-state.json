@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-50",
-    "task": "GP50 own firmware1.0.5 census complete112; acoustic simulator verified separately from preamps. Remaining IR format/length, touch and used IDR unknown. Next fresh Shopee discovery by bass/vocal brand and series; do not infer absence from empty search.",
+    "model": "Zoom B2 FOUR",
+    "task": "DSP overflow and reset behavior saved. Fresh bass/vocal discovery found no new exact eligible hardware; do not repeat recorded B2FOUR/VoiceLive offer IDs. Next try additional brand/series searches and remaining primary technical fields.",
     "next_models": [],
-    "after_queue": "335 partial unique records;117 legacy compatibility paths retained. No downloads/workflows/push."
+    "after_queue": "335 partial unique records;117 legacy compatibility files remain. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-50."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2 FOUR."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57709,6 +57709,14 @@
       "finding": "Own firmware1.0.5 table census112 algorithms; PRE AC Sim and CAB AC establish acoustic simulation beyond preamps. Dizz VH regional description apparent copy error retained.",
       "sources": [
         "https://www.hotone.jp/manuals/valeton/GP-50.pdf"
+      ]
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual explicitly bypasses affected effect on PROCESS OVERFLOW; ALL INIT overwrites patches/settings; firmware/preset/BOOT versions separate.",
+      "sources": [
+        "https://zoomcorp.com/manuals/b2four-en/"
       ]
     }
   ],
@@ -71778,62 +71786,28 @@
     "next": "Move discovery to additional brands/series; retain these unresolved leads rather than repeat identical queries."
   },
   "discovery_bass_vocal_frontier_20261018": {
-    "checked_date": "2026-10-18",
-    "no_qualified_leads": [
-      "DigiTech BP90",
-      "DigiTech BP80",
-      "Korg AX5B",
-      "Korg AX3B",
-      "TC-Helicon VoiceLive Rack",
-      "Sonicake Boom Ave"
+    "queries": [
+      "site:shopee.co.id Zoom B9.1ut",
+      "site:shopee.co.id Korg AX5B",
+      "site:shopee.co.id VoiceLive 2 efek",
+      "site:shopee.co.id vocal VX400",
+      "site:shopee.co.id bass BP90",
+      "site:shopee.co.id VoiceLive Play GTX",
+      "site:shopee.co.id DigiTech BP efek bass"
     ],
-    "qualification": "Targeted Shopee queries yielded no qualified exact listing, not evidence of market absence. Existing B2 FOUR LYN offer already recorded; not added again.",
-    "pending_model": {
-      "brand": "Wisdom",
-      "model": "DFX2000",
-      "counted": false,
-      "offers": [
-        {
-          "url": "https://shopee.co.id/wisdom-dfx2000-digital-efek-vokal-wisdom-dfx-2000-i.836629702.21981226594",
-          "seller": "Central Elek",
-          "region": "Kota Jakarta Pusat",
-          "indexed_idr": 1025000,
-          "cache": "two-month search; direct page labelled last month",
-          "condition": "unknown",
-          "stock": "unconfirmed"
-        },
-        {
-          "url": "https://shopee.co.id/Wisdom-DFX-2000-Digital-Effect-Original-Pre-Effector-Efek-Vocal-DFX2000-i.785734870.21781240138",
-          "seller": "cveri accessories",
-          "region": "Kota Jakarta Pusat",
-          "indexed_idr": 1050000,
-          "cache": "two months",
-          "condition": "unknown",
-          "stock": "unconfirmed"
-        }
-      ],
-      "identity_risk": "Search returned Phonic DFX2000 manuals, not authenticated Wisdom documentation. Same model string does not establish identical hardware, algorithms, memory or power. Do not import Phonic specifications.",
-      "nonmatching_primary_source": "https://www.phonic.com/index.php/download-center/category/32-2020-06-16-19-31-58?download=1770%3Ajp&start=30",
-      "next": "Find authoritative Wisdom manufacturer/distributor identity and own DFX2000 manual or panel documentation; verify multifx eligibility before active inventory addition. Bundle, warranty, condition and checkout prices remain unverified.",
-      "identity_followup": {
-        "checked_date": "2026-10-18",
-        "primary_identity_source": "https://www.wipo.int/amc/en/domains/search/text.jsp?case=D2022-0711",
-        "finding": "WIPO decision dated 2022-05-18 identifies wisdom-proaudio.com as the disputed domain and PT Wisdom Indonesia Sejahtera among respondents. It states the respondent was not an authorized Wisdom Audio Corp dealer/distributor and orders transfer of the domain. Historical domain association does not authenticate current domain ownership or DFX2000 manufacturer.",
-        "scope_limit": "The decision does not mention DFX2000 or establish its manufacturer, technical design, authenticity or equivalence to Phonic. Do not attribute this seller-listed unit to US Wisdom Audio Corp.",
-        "domain_access": "HTTPS www, HTTPS bare and HTTP www attempts returned tool internal errors; no site content verified or files downloaded.",
-        "secondary_leads": [
-          {
-            "url": "https://www.semuabis.com/pt-wisdom-indonesia-021-64701944",
-            "qualification": "Business directory names wisdom-proaudio.com; historical lead only, not manufacturer authentication."
-          },
-          {
-            "url": "https://www.scribd.com/document/686623561/PL-SEP-23-A-1",
-            "qualification": "Unverified uploader September2023 Wisdom catalogue includes DFX2000. Authorship not authenticated; not adopted as primary technical evidence."
-          }
-        ],
-        "next": "Retain pending until own manual or authenticated distributor/manufacturer product documentation is found. Continue independent research elsewhere rather than repeatedly querying unavailable domain."
+    "result": "No new exact eligible hardware established. Existing VoiceLive Play/Extreme and B2FOUR offers duplicate saved IDs. VX400-related result was adapter only. Negative search does not prove market absence.",
+    "rechecks": [
+      {
+        "model": "Zoom B2 FOUR",
+        "seller_item": "1203229574/42758785757",
+        "observation": "Same Rp4545000 JS-limited body, six-day crawl; no stock/condition confirmation."
+      },
+      {
+        "model": "Zoom B2 FOUR",
+        "seller_item": "800959591/24004987590",
+        "observation": "Same Rp4495000 index; direct Cache miss."
       }
-    }
+    ]
   },
   "discovery_line6_desktop_20261018": {
     "queries": [

@@ -1147,6 +1147,15 @@ Checked2026-10-17 against the manufacturer’s [September2023 compatibility shee
 | Expression / pedal category ceiling | **Only one effect per patch can come from the pedal category.** FP02M controls the parameter marked with the pedal icon for that effect. Previewing a selection in the Library auditions that effect alone; it is not proof of the completed chain’s sound. [Own operation manual, Setting pedal effects](https://zoomcorp.com/manuals/b2four-en/). |
 | Looper / rhythm timing | Rhythm tempo **40–250**, shared with other effects and the looper; precount selectable and rhythm volume0–100. Rhythm continues when returning to MEMORY, but stops on patch change or Library entry. [Own rhythm instructions](https://zoomcorp.com/manuals/b2four-en/). |
 | Live / tuner limits | Reference A **430–450Hz**. BASS tuning supports lowB–E–A–D–G–highC for five/six-string basses. Flat offsets1–3 semitones are available in BASS mode, not CHROMATIC. These settings are not a measured detection-accuracy specification. [Own tuner instructions](https://zoomcorp.com/manuals/b2four-en/). |
+
+### B2 FOUR — overload and initialization behavior
+
+Checked 2026-10-18 against the [manufacturer operation manual](https://zoomcorp.com/manuals/b2four-en/), Z2I-4836-01.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Processing / DSP overflow behavior | When processing demand exceeds capacity, **PROCESS OVERFLOW** appears and the affected effect is bypassed. Five available positions therefore do not guarantee that every five-effect combination runs. |
+| Memory / factory initialization | **ALL INIT overwrites all settings, including patch memories, with factory defaults.** This is not a settings-only reset. VERSION displays firmware, preset and BOOT versions separately; a preset version must not be reported as installed firmware. No reset or update was performed. |
 <!-- comparison evidence ends -->
 
 ## B6
