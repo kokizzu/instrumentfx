@@ -284,7 +284,11 @@ Checked 2026-10-17. Partial guitar multi-effects record; distinct from LE/ST/SE.
 | Power | **12V DC,700mA consumption**;polarity symbol unread. Battery/USBpower unknown. |
 | USB / software | USB audio and **Windows/Mac librarian** documented;dated support limits below. Windows audio requiresASIOdriver. USB playback bypasses effects. Full editor/currentOS compatibility unknown;driver≠editor. |
 | IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
+| Preset / save scope | Unsaved edits disappear on program change/power-off. WRITE overwrites user banks01–25;factory banks26–50 are read-only. StompBox on/off edits survive return toProgramSelect but require WRITE before changing programs/poweringoff. RearLEVEL,SPEAKERLEVEL,TotalEqualizer andAMP/LINE settings are not saved perprogram or shown byOriginalValue indication. |
+| Live / equalizer and noise reduction | TotalEQ works only inLINE:High/Low boost andTrim each−10…+10 (manual gives values withoutdB units). LowerTrim if boost clips. NR is perprogram;minimum disables,and excessive settings can truncate notes. |
 | Looper / drums / live | Looper/drums/scenes unknown;Program Select/Stomp Box modes,tuner,QuickAssign. |
+
+Save/EQ findings: [own E1 manual](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf),printed11,13–15,checked2026-10-17 as browser text.
 
 ### ToneLab EX — separate IDR hardware offers
 

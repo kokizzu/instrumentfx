@@ -553,7 +553,7 @@ def main():
         if mode == 'commit-tonelab-st':
             message = 'research(vox): include qualified ToneLab ST historical offer in comparison'
         if mode == 'commit-tonelab-le':
-            message = 'research(vox): qualify ToneLab LE Hold Delay and editor MIDI requirements'
+            message = 'research(vox): clarify ToneLab EX save scope and total equalizer'
         if mode == 'commit-ax1500g':
             message = 'research(korg): preserve separate AX1500G condition-unverified offers'
         if mode == 'commit-rp255':

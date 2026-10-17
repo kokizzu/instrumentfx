@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 HX One",
-    "task": "Own impedance values/setting scopes,bypass and preset queue saved. Continue discovery or remaining model gaps;cached offer leads in discovery_rp500_tonelabex_gt5_20261017.",
+    "model": "VOX ToneLab EX",
+    "task": "Own save scope/TotalEQ/NR saved;offer directretrieval remains cachemiss. Continue missing hardware discovery or unresolved fields.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX One."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab EX."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60190,5 +60190,17 @@
       }
     ],
     "qualification": "Searchcacheonly;stale delivery dates;not verified stock/condition/bundle/variant/warranty/voucher/shipping or completed sales. Check existing model records before price update."
+  },
+  "tonelabex_save_eq_20261017": {
+    "source": "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf",
+    "identity": "Own E1manual44PDFpages;printed11,13–15 browser text",
+    "findings": [
+      "100userslotsbanks01–25;factory26–50readonly;overwriteandunsavededitloss",
+      "StompBoxeditsneedWRITE",
+      "TotalEQ/rearLEVEL/SPEAKERLEVEL/AMPLINE notperprogram",
+      "TotalEQlineonly±10unlabeledunits;NRperprogram"
+    ],
+    "offer_recheck": "4466947/42755664991 directretrievalcachemiss;existingcachedask unchanged,conditionunverified",
+    "remaining": "Heightconflict,display,powerpolarity,exactUSBformat/currentOS,imports,qualifiedoffers."
   }
 }
