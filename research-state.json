@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP70",
-    "task": "Own manual converter/electrical/drums/reset/tuner details saved; continue fresh Shopee discovery or unresolved model specifications. RP70 category/gate conflicts, power/battery/display/imports/new-price gaps remain.",
+    "model": "DigiTech RP360XP",
+    "task": "LFO range/waveforms,phrase-sampler position,headphone and volume-tail routing saved. Continue fresh Shopee discovery or full category inventory/remaining model specifications;do not infer preset spillover from volume routing.",
     "next_models": [],
-    "after_queue": "Continue full research/discovery; no downloads, workflows or push."
+    "after_queue": "Continue full research/discovery;no downloads,workflows or push."
   },
   "new_findings": [
     {
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP70."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP360XP."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59694,5 +59694,38 @@
       "site:shopee.co.id \"Zoom\" \"GFX 8\" efek"
     ],
     "result": "RP55/RP80 no usable result;GFX8 returned only previously recorded adapters/sensor. No absence or full-unit price claim."
+  },
+  "rp360xp_lfo_sampler_20261017": {
+    "sources": [
+      "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+      "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf"
+    ],
+    "identity": "Existing manufacturer-authored shared RP360/RP360XP manual identity retained; mirror cover/declaration identify both. Final mirror revision still unexposed; no generated FAQs used.",
+    "pages": "Mirror printed6,36,51,84;official indexed106.",
+    "findings": [
+      "LFO0.05–10Hz;triangle,sine,square;assignable parameter/min/max saved to user preset.",
+      "Sound Check before effects,Looper after;system selection.",
+      "Main output socket describedTRS while specs say unbalanced;no balanced inference.",
+      "Headphones optimized<=60ohm;phones-only fullrange mode.",
+      "Volume placement before time-effects preserves decay when attenuating dry feed;not bypass/preset spillover evidence."
+    ],
+    "remaining": [
+      "Full algorithm category inventory/count conflict",
+      "Dedicated synth",
+      "CONTROL IN exact format",
+      "Battery/USB bus power",
+      "Imports/USB MIDI/channel routing",
+      "Looper persistence/undo and preset bypass spillover",
+      "Qualified used/new offers"
+    ],
+    "method": "Browser text only;no downloads, image inspection, software/hardware operation."
+  },
+  "discovery_bp355_bp80_bfx_20261017": {
+    "queries": [
+      "site:shopee.co.id \"DigiTech\" \"BP355\"",
+      "site:shopee.co.id \"DigiTech\" \"BP80\"",
+      "site:shopee.co.id \"Zoom\" \"BFX\" efek"
+    ],
+    "result": "No search results;not evidence of market absence."
   }
 }
