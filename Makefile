@@ -1923,3 +1923,7 @@ research-commit-cerberus:
 .PHONY: research-commit-mx400
 research-commit-mx400:
 	python3 scripts/research_tools.py commit-mx400
+
+.PHONY: research-commit-ame100
+research-commit-ame100:
+	python3 scripts/research_tools.py commit-ame100

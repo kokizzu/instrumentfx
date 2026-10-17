@@ -128,6 +128,19 @@ Sources: [Original finding](AUDOTA.md#ame-100)<!-- historical-link:audota-005 --
 | Used IDR | **?**, no condition-verified current Indonesian used quote obtained |
 | New IDR / Shopee | **?**, targeted searches did not establish an exact AME-100 Indonesian item. AME-200/Pro,ACE-100 and AVE-100 results are different models and are not substituted. Ownership inclusion does not require current Shopee stock |
 
+
+### AME-100 — current importer corroboration
+
+Checked2026-10-18 against the [official importer’s exact Jade Green product page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-100-intelligent-multi-effects-jade-green).
+
+| Field | Current importer evidence / limit |
+|---|---|
+| Memory / later capacity corroboration | Page explicitly lists **200 onboard locations**,corroborating the September announcement. Historical manufacturer80-location wording remains version-qualified;minimum expansion firmware andfactory/user fill remain unresolved. Finish is not a new model. |
+| NAM / A1 alongside later A2 update | Page explicitly documents **third-party NAM-A1 import through PC host software**. The separate September1.2.3 release adds A2 conversion/import andfixes A1 import. Neither wording establishes unrestricted native NAM execution or every architecture. |
+| Looper / overdubs | Importer specifies20s andunlimited overdub recording. This describes layering,not unlimited duration;undo,retention andtiming behavior remain unverified. |
+
+Linked English manual filename identifiesV02_26-04,andupdate instructions are labelledJune2026;both PDFs failed retrieval with/without query strings. Their contents/revision applicability were not inspected. No software or files downloaded.
+
 <!-- comparison evidence ends -->
 
 ### Current source access and remaining limits
