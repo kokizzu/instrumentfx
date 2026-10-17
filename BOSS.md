@@ -2261,7 +2261,7 @@ Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-
 | Factory / user memory | 24 writable slots, eight banks×three, all factory-filled per patch/settings tables. Reset restores these 24 and tuner pitch; no additional ROM bank established. | [Manual pp21,28,31–33][M50B-M] |
 | Synth / acoustic | Four bass synth choices; single-note restriction. HOLLOW adds acoustic-electric bass body resonance, explicitly documented on p11. This supersedes the earlier unverified acoustic-body entry; not evidence of guitar acoustic simulation or user IR. | [Product][M50B-P]; [Manual pp11–12][M50B-M] |
 | I/O | INPUT; L/MONO,R outputs; stereo-mini AUX; PHONES; FOOT SW (COMP ON/OFF,TEMPO); adapter jack. Remaining connector sizes and electrical routing pending. | [Product][M50B-P] |
-| Power / battery / USB | 9V DC,140mA; six AA or optional PSA adapter. Manual estimates 12h alkaline/3.5h carbon. Polarity and USB operation unverified. | [Product][M50B-P]; [Manual p30][M50B-M] |
+| Power / battery / USB | 9V DC,140mA; six AA or optional PSA adapter. Manual estimates 12h alkaline/3.5h carbon. **Center-negative**, established through the explicitly compatible PSA supply documentation below; USB operation unverified. | [Product][M50B-P]; [Manual p30][M50B-M] |
 | IR / NAM / capture | User IR, native NAM, converted NAM and capture imports unverified. | Unresolved |
 | Editor / platforms | Full patch editor, driver/updater and mobile support unestablished. No software downloaded. | Unresolved |
 | Looper / drums / live | HOLD DLY 2.8s with layering; recording erased by stop, type change or power-off. Kick Drum has six tones; automatic beat interval 240–2000ms. Kick/loop quantization documented. Scenes and patch-change spillover pending; effect-bypass delay tails qualified below. | [Manual pp14,16–19][M50B-M] |
@@ -2273,7 +2273,7 @@ Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-
 | Patch operation | Manual starts at power-up. Memory pedals select patches rather than toggle effects; Patch Edit enables effect toggling. Knobs use value pickup; unsaved edits are lost. | [Manual pp21–24][M50B-M] |
 | AUX / tuner | AUX volume is source-controlled. Tuner 435–445Hz; exit Tuner before power-off to save pitch. Bypass retains pedal-volume control. | [Manual pp25,27][M50B-M] |
 | Expression calibration | Heel/toe calibration; toe-switch force 1–9, lower is lighter. | [Manual p28][M50B-M] |
-| Power / adapter compatibility | Roland’s 2025-01-14 article explicitly permits PSA 200mA or 500mA versions for the ME-50B’s 9V DC/140mA draw. Adapter capacity differs from device consumption; polarity remains unresolved in inspected text. | [Roland power support][M50B-PS] |
+| Power / adapter compatibility | Roland’s 2025-01-14 article explicitly permits PSA 200mA or 500mA versions for the ME-50B’s 9V DC/140mA draw. Adapter capacity differs from device consumption; PSA-S polarity corroboration below resolves the earlier polarity gap. | [Roland power support][M50B-PS] |
 | External control / cable | Two FS-5Us require a stereo send/return insert cable, per Roland’s 2025-10-08 ME-50/ME-50B article. This establishes switching cabling, not external expression support. | [Roland cable support][M50B-C] |
 | Expression volume limits | Volume-pedal minimum/maximum levels cannot be configured. Roland suggests a louder stored patch for solo boosts. | [Japanese manufacturer FAQ][M50B-E] |
 | Tuner / live source conflict | English support says Tuner automatically mutes; manual p25 and Japanese FAQ describe audible dry bypass with pedal-volume muting. Preserve the contradiction; no tested resolution. Japanese FAQ also qualifies a WAH-mode exception. | [English tuner support][M50B-TE]; [Japanese tuner FAQ][M50B-TJ]; [Manual p25][M50B-M] |
@@ -2296,11 +2296,16 @@ Checked2026-10-18 against [original manual pp12–13,18–19][M50B-M]. Text insp
 | Expression / six effect choices | **WAH,RESONANCE,+1 OCTAVE,−1 OCTAVE,SOUND HOLD,KICK DRUM**, alternatives tovolume mode. ±octave andSoundHold require single notes. RESONANCE cancombine withSAW LEAD/SQUARE; onepedaleffect isnot sixsimultaneousblocks. |
 | Looper / Sound Hold distinction | SoundHold sustains aplayednote andpedalposition adjustsitslevel; raisingthetoe farenough cancelsit. It is distinctfrom2.8s HOLD DLY recording/layering,not anadditional general-purpose looper. |
 
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Power / polarity evidence | Roland explicitly approves PSA 200/500mA adapters for ME-50B; its PSA-S specifications state **regulated 9V DC, center-negative, 500mA capacity**. Therefore center-negative compatibility is supported by the named approved supply, rather than sibling-model inference. Device draw remains140mA. PSA-S page lists100–240V50/60Hz input and warns regional versions/plugs differ; verify actual adapter label. | [ME-50B compatibility][M50B-PS]; [PSA-S specifications][M50B-PSAS] |
+
 <!-- comparison evidence ends -->
 
 Searches for ME-50B, ME50B and ME 50B on 2026-10-17 did not resolve exact Shopee Indonesia hardware. Foreign accessory matches do not establish a hardware price or Indonesian stock. Seller/item, condition, variant, region, bundle, warranty, voucher and current availability remain unknown. This is a search limitation, not proof of market absence.
 
-Next: visual control corroboration, simultaneous-capacity accounting, complete connector sizes, power polarity and exact IDR offers. Original ©2003 manual read through browser text; no files downloaded to the workspace.
+Next: visual control corroboration, simultaneous-capacity accounting, complete connector sizes and exact IDR offers. Original ©2003 manual read through browser text; no files downloaded to the workspace.
 
 [M50B-P]: https://www.boss.info/us/products/me-50b/
 [M50B-M]: https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf
@@ -2310,6 +2315,8 @@ Next: visual control corroboration, simultaneous-capacity accounting, complete c
 [M50B-E]: https://support.roland.com/hc/ja/articles/4404893596059
 [M50B-TE]: https://support.roland.com/hc/en-us/articles/201952659-ME-50B-Using-the-Tuner
 [M50B-TJ]: https://support.roland.com/hc/ja/articles/4404885589147
+
+[M50B-PSAS]: https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications
 
 ## GT-5
 
