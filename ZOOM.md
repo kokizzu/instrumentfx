@@ -2265,7 +2265,12 @@ Checked 2026-10-17; partial. Officially bass-focused; seller’s guitar title do
 | K/F/B | **2 rotary / 2 footswitches / 6 buttons**: Play/Edit, Drive; patch pair; Store, Pedal Assign, Value±, Gain±. Pedal switch separate; visual corroboration pending. | [Manual pp6–7][Z607-M] |
 | Display | Two-digit seven-segment LED; diagonal/color/touch unresolved. | [Manual p38][Z607-M] |
 | Processing / categories | **35 effects, nine simultaneous effects, eight simultaneous modules**; detailed category catalogue pending. | [Manual p38][Z607-M] |
-| Preset memory | **42 rewritable patches**, seven banks of six. Factory-fill details pending. | [Manual p38][Z607-M] |
+| Categories / dynamics and wah | Compressor or Limiter; Fat Wah or Resonant Wah. Off is additional. | [Manual pp26–27][Z607-M] |
+| Categories / drive | **11 alternatives**: TE Clean, FDR Drive, AC Drive, Bandpass Enhancer, Hipass Enhancer, Clean, Rich, Slap, Edge, Distortion, Fuzz. Gain 1–30. AC Drive is not acoustic simulation. | [Manual pp28–29][Z607-M] |
+| Categories / EQ and amp | Four-band EQ: **50 patterns** plus Contour. Box, Combo or Stack bass amp simulation, each with/without ZNR; ZNR alone also available. | [Manual pp29–30][Z607-M] |
+| Categories / MOD-PITCH | **13 alternatives**: Chorus1/2, Flanger, Phaser, Step, Cry1/2, Defret, Bass Synth, Octaver, Octaver→Chorus, Pitch Shift, Pedal Pitch. Pitch Shift has nine patterns. | [Manual pp31–35][Z607-M] |
+| Categories / delay-reverb | Delay, Echo, Hall or Room; Delay/Echo **10–370 ms**, 10 ms steps, stereo ping-pong. Reverb time 1–10 is not a seconds specification. | [Manual pp36–37][Z607-M] |
+| Preset memory | **42 rewritable, factory-filled patches**, seven banks of six. Individual factory recall or full initialization; no separate additional preset bank. | [Manual pp22,38][Z607-M] |
 | Synth / acoustic | Bass Synth with nine character/blend patterns, best for single notes. Acoustic simulation unresolved; an ACOUSTIC patch name alone is insufficient. | [Manual pp32–33,patch list][Z607-M] |
 | I/O | Mono bass input; combined stereo line/headphone output; DC input. | [Manual pp6–7,38][Z607-M] |
 | Power / battery / USB | **9 V DC, center-negative, 300 mA adapter specification**; actual draw unresolved. Four AA; approximately 24 hours alkaline/7 manganese. USB absent from connector inventory. | [Manual pp6–7,38][Z607-M] |

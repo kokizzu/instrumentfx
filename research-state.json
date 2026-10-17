@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom 607",
-    "task": "607 added as bass-focused. Next own-manual category catalogue, factory memory, pedal switching and support qualifications; mixed price unassigned.",
+    "task": "607 categories and factory-filled memory saved. Next pedal switching/calibration and support/import qualifications, then fresh Shopee discovery. Preserve unresolved field and mixed-price limits.",
     "next_models": [],
     "after_queue": "Zoom606/607 exact mixed-model item shop703817770/item20045443371 saved; no model-specific price. Preserve all deferred model gaps. No downloads, workflows or push."
   },
@@ -54479,5 +54479,11 @@
       "price_limit": "No 606/607 variant mapping; Rp1099000 is listing-level only, not an assigned model price."
     },
     "dimension_qualification": "Own manual p38 labels 233 W ×159 D; 606 uses different axes. Preserve without silent correction."
+  },
+  "zoom607_categories_checkpoint_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_607.pdf",
+    "pages": "22,26–37",
+    "evidence": "11 DRIVE and 13 MOD/PITCH alternatives, dynamics/wah, EQ/amp/ZNR choices, delay limits and 42 factory-filled rewritable patches. AC Drive is overdrive, not acoustic conversion.",
+    "remaining": "Pedal switching, support/import/display and exact offers remain partial."
   }
 }
