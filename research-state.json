@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Cerberus NME-3",
-    "task": "Cerberus MIDI numbering and two qualified exact Shopee offers saved. Complete K/F/B, original dimensions/current draw, factory-filled subset and IR slot count remain open. Continue fresh Shopee discovery or primary gaps; do not retry identical failed manual links without changed evidence.",
+    "task": "Cerberus original size/mass, writable memory layout and published draw now corroborated. Next inspect original manual for complete K/F/B or software guide for IR slots; current V5 factory content remains unknown. Continue Shopee discovery when saved queue empty; no downloads.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57852,6 +57852,15 @@
         "https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_MIDI_Preset_No.pdf",
         "https://shopee.co.id/Multi-Efek-Gitar-Nux-Cerberus-Integrated-Effect-Controller-Original-i.1776275.5254357620",
         "https://shopee.co.id/NUX-Cerberus-NME3-Guitar-Effect-Pedal-Efek-Gitar-NME-3-i.226739380.24362112535"
+      ]
+    },
+    {
+      "model": "NUX Cerberus NME-3",
+      "checked": "2026-10-18",
+      "finding": "Original 2017 manufacturer manual on distributor mirror resolves provisional size/mass and original 16-filled/112-empty writable layout; current V5 factory subset unknown. NUX USA corroborates 275mA draw separately from 500mA supply.",
+      "sources": [
+        "https://www.frenexport.it/files/content/eng-cerberus-manual-20180118105738.pdf",
+        "https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need"
       ]
     }
   ],

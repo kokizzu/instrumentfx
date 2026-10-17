@@ -745,6 +745,16 @@ Checked 2026-10-18. The [manufacturer MIDI appendix](https://nux.cherubtechnolog
 
 For both added offers, condition, exact bundle/accessories, warranty and checkout stock remain unverified; neither is accepted as a condition-verified used or new price. The standalone English manual landing returned 404; the Japanese manual link returned cache miss. No manual file, software or firmware downloaded, and provisional dimensions/current draw remain provisional.
 
+### Cerberus — original manual specifications resolved
+
+Checked 2026-10-18: [original English manual, distributor-hosted](https://www.frenexport.it/files/content/eng-cerberus-manual-20180118105738.pdf), 11 PDF spreads, manufacturer copyright 2017, printed pp15,19–21. Original document text was read; no visual panel-count confirmation claimed. This supersedes the earlier transcription-only status for the following fields.
+
+| Field | Source-qualified specification |
+|---|---|
+| Dimensions / weight | **320×110×65 mm; 1,260 g** in the original specification appendix. Earlier 100 mm retailer depth remains a source conflict; no measured-unit claim. |
+| Memory / original factory layout | **16 named presets, 01A–04D; 112 empty positions, 05A–32D**. All **128 positions are writable**, so this is not separate protected factory memory plus 128 user slots. Current V5 factory content remains unverified. |
+| Power / published draw | **275 mA**, independently corroborated by [NUX USA power guidance](https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need), updated 2026-09-27, which distinguishes draw from the **9 V / 500 mA ACD-006A adapter**. Battery and USB operation remain unresolved. |
+
 ## Foreign-price provenance and consolidation limits
 
 The original six-model review recorded **2026-10-14 foreign new asks**:MG-101USD129([NUXUSA](https://www.nux.us/products/mg-101));MG-300MKIIUSD169([NUXUSA](https://www.nux.us/products/mg-300-mkii));MG-400USD229([NUXUSA](https://www.nux.us/products/mg-400)) andUSD172([Thomann](https://www.thomannmusic.com/nux_mg_400.htm));MG-30USD329([NUXUSA NAM page](https://www.nux.us/pages/nam-a2-native));MG-50LiUSD549([NUXUSA](https://www.nux.us/products/mg-50li)). OriginalMG-300hadnone. These remain historicalforeignprovenance,**not IDR values or Indonesian delivered prices**. No FXrate/useddiscountassumed. Existing Indonesian Shopee leads for those six remain in the root inventory/legacy discovery evidence pending exact integration;unknowncells do not mean unavailable.
