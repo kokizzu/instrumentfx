@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Harmony Singer 2 / bass-vocal discovery",
-    "task": "Resolve Harmony Singer 2 quick-start hardware applicability and remaining fields using exact manufacturer sources;otherwise continue fresh bass/vocal offers. PnA12928778203 and three TANK-B offers already saved.",
+    "task": "Try manufacturer P0DDV English QSG only if access changes; indexed text already saved. Do not repeat failed Mediavalet/P0DDV fetches without a new path. Continue other exact manufacturer gaps and bass/vocal discovery.",
     "next_models": [],
     "after_queue": "Technical gaps and lossless migration audit remain incomplete. No downloads/workflows/push."
   },
@@ -52028,6 +52028,14 @@
       "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf",
       "finding": "2016 manufacturer manual pp3,5–6: Tone voicings,analog impedances/fullscale levels and Mic Control condenser restriction saved. No quick-start revision conflict resolved.",
       "remaining": "Hardware applicability of newer guide,polarity/draw/runtime/USB,expression,display/memory/editor/imports,current qualified offers."
+    },
+    {
+      "model": "TC-Helicon Harmony Singer 2",
+      "checked_date": "2026-10-17",
+      "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0DDV/HARMONY%20SINGER%202_QSG_EN.pdf",
+      "access": "Manufacturer-hosted search-index text;direct open502. Full PDF not inspected.",
+      "finding": "Primary indexed text corroborates ground lift,hold bypass,9V >300mA optionalPowerPlug9,fourAA. Not verified revision equivalence or firmware applicability.",
+      "remaining": "Full original PDF/panel and exact revision applicability;other unresolved fields retained."
     }
   ],
   "discovery_cross_brand_bass": {

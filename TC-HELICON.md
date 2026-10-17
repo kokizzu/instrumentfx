@@ -720,7 +720,7 @@ Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Gu
 | Required field | Finding / qualification |
 |---|---|
 | Built-in / external / toe expression | Integrated treadle absent from documented controls; external expression and toe-switch support unverified. |
-| Rotary / footswitches / buttons | **3 / 1 / 1**: Harmony, Level, Reverb; footswitch; Tone. Rear power switch additional. Older-manual text inventory; current visual corroboration unavailable. The v5.0 quick start additionally names a ground-lift button; exact current button count/revision remains unresolved. [Manual][HS2-M], p3; [v5.0 guide body][HS2-Q5] |
+| Rotary / footswitches / buttons | **3 / 1 / 1**: Harmony, Level, Reverb; footswitch; Tone. Rear power switch additional. Older-manual text inventory; current visual corroboration unavailable. The v5.0 quick start additionally names a ground-lift button,independently corroborated by indexed manufacturer English QSG P0DDV; exact current button count/revision remains unresolved. [Manual][HS2-M], p3; [v5.0 guide body][HS2-Q5] |
 | Display | Battery/effect LEDs; screen, diagonal, color-display specification and touch unverified. [Manual][HS2-M], p3 |
 | Dimensions / weight | **140 × 90 × 60 mm; 420 g**. Printed axes and battery inclusion unspecified; W×D×H mapping unverified. [Manual][HS2-M], p6 |
 | Simultaneous processing / categories | Harmony, reverb, adaptive Tone coexist; freely assignable DSP-slot maximum unverified. Eight harmony settings: +3rd; +5th; +3rd/+5th; −4th; −6th; −4th/−6th; +5th/−6th; +3rd/−4th. Three reverbs, Room/Hall endpoints. [Manual][HS2-M], pp3,5 |
@@ -748,6 +748,10 @@ Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Gu
 - [NEO MUSIC, shop158235298/item2951493236](https://shopee.co.id/TC-HELICON-HARMONY-SINGER-2-Vocal-Effects-Stompbox-with-Guitar-Control-i.158235298.2951493236): **Rp3,100,000**, Kota Sukabumi. Exact JS-limited body reopened, three-month cache, stale June26 delivery; earlier search had June19. Sale condition and current stock unknown.
 
 Selected variant, adapter/battery bundle, warranty validity, shipping/tax, current stock and final total remain unknown for every offer. Rp10,000 late-delivery compensation is not subtracted. Historical asks are not completed sales or a live market range. Store identity does not verify item authenticity or manufacturer authorization.
+
+### Manufacturer-indexed English quick-start corroboration,2026-10-17
+
+The [MusicTribe-hosted English quick-start](https://mediadl.musictribe.com/media/PLM/data/docs/P0DDV/HARMONY%20SINGER%202_QSG_EN.pdf),path P0DDV,was available as indexed manufacturer text;direct opening returned502. Index publication metadata is not a verified document revision date. It names Harmony Singer2,ground lift,guitar input/thru,three rotary controls,Tone,footswitch,micro-USB update port andpower switch. It independently corroborates ground-lift andhold-to-bypass wording previously available through the reproduced v5.0 guide. It specifies9V/>300mA supply,optional PowerPlug9 andfourAA. No malformed Key Selector/pitch-correction text appeared in the indexed passage;this does not prove absence from every revision. FullPDF/panel inspection,revision equivalence andolder momentary-mode applicability remain unresolved.
 
 ### Document identity and remaining work
 

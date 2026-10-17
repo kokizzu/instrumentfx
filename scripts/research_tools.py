@@ -449,7 +449,7 @@ def main():
         if mode == 'commit-x3live':
             message = 'research(line6): qualify X3 Live Silicon support and updater restrictions'
         if mode == 'commit-harmony-singer2':
-            message = 'research(tc-helicon): document Harmony Singer 2 analog levels and Tone settings'
+            message = 'research(tc-helicon): corroborate Harmony Singer 2 guide from manufacturer index'
         if mode == 'commit-duplicator':
             message = 'research(tc-helicon): add Duplicator with model-specific bypass and source conflicts'
         if mode == 'commit-mic-mechanic2':
