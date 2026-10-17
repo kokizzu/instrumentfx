@@ -62045,5 +62045,24 @@
     ],
     "limits": "Notinstalledlibrary/newgrandtotal/patchspilloverproof",
     "next": "Physical controls and updated exact-model condition-specific Shopee evidence; broader discovery remains"
+  },
+  "g3n_offer_reset_20261017": {
+    "offer": {
+      "url": "https://shopee.co.id/efek-gitar-zoom-g3n.-mulus-fullset-like-new-no-minus-garansi.normal-dan-presisi-i.1202626732.49050618880",
+      "shop": "1202626732",
+      "item": "49050618880",
+      "idr": 2100000,
+      "condition": "seller title like new",
+      "region": "Kab.Mojokerto",
+      "access": "2monthsearchcache;directcachemiss",
+      "stock": "unknown",
+      "limits": "Displayname,bundle,warranty,shippingtaxvoucherscheckoutunknown;notverifiedneworworkingcondition"
+    },
+    "reset": {
+      "source": "https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf",
+      "page": 46,
+      "scope": "Allsettingsincludingpatches; notselectiverestore"
+    },
+    "next": "Physical controls; qualify current condition-specific offers; broader discovery"
   }
 }
