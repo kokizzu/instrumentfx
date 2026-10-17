@@ -77,6 +77,14 @@ These are individual asking observations,not a current market range or completed
 | IR / original slot numbering | The appendix labels CAB/IR70 but separately lists **user IR71–80**, so that heading is not the total storage count including those ten user positions. Empty user slots mute output. All CAB/IR selections share mic-position/type parameters; mic simulation can be disabled. Preserve this V1.1 numbering separately from the later documented slot expansion. |
 
 
+### Ampero One — converted NAM A2 support, 2026-10-17
+
+| Field | Verified support / boundary |
+|---|---|
+| IR / NAM / conversion | [Hotone Japan’s compatibility notice, dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), explicitly lists **Ampero One: NAM A2 through conversion**, requiring **PC software1.6.0 or later**. This resolves the earlier conversion uncertainty left by the March Sound Clone notes. It does not establish native NAM execution, unrestricted NAM architectures or compatibility with every NAM file. The notice labels Ampero II models separately as native A2 Lite; do not transfer that status to MP-80. |
+| Editor / version scope | The March firmware3.1/Editor1.5.0 pairing above is retained as release history. The August notice requires newer PC software for A2 conversion and generally recommends current compatible firmware/software; it does not specify a new MP-80 firmware minimum or present Windows/macOS version matrix. Sound Clone’s landing page returned no readable text, so conversion steps and format limits remain unverified. No software, model files or firmware downloaded or run. |
+
+
 ## Hotone consolidation scope
 
 The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.

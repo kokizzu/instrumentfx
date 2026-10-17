@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero One MP-80",
-    "task": "Ampero One V1.1AMP65subtotal14/22/22/5/2 and60speaker+10acousticbody+10userIRdistinctions saved. Next currentfirmwarecounts or qualified offers/freshdiscovery; do not flatten factorybody/userIR into60cabheadline. GR33exactitem unresolved.",
+    "task": "Ampero One convertedNAM A2 verified via Aug18HotoneJapan notice, PCsoftware>=1.6.0;notnative. Commit saved. Next check other Ampero-family records against same model-specific notice one model at a time; do not borrow nativeIIcapabilities.",
     "next_models": [],
     "after_queue": "Continue unresolved research and legacy consolidation; no workflows/downloads/push."
   },
@@ -58771,6 +58771,17 @@
     "factory_cabinets": 60,
     "factory_acoustic_bodies": 10,
     "user_ir": "V1.1slots71–80;empty mutes;CABIR70heading nottotalwithuserpositions",
+    "downloads": false
+  },
+  "ampero_one_nama2_20261017": {
+    "source": "https://www.hotone.jp/announcements/nama2allbrand",
+    "published": "2026-08-18",
+    "checked": "2026-10-17",
+    "model": "Ampero One MP-80",
+    "support": "NAM A2 conversion",
+    "pc_software_min": "1.6.0",
+    "native": "Not established; conversion distinct from II-series nativeA2Lite",
+    "limits": "ExactMP80firmwareminimum/conversionprocedure/supportedarchitecturelimits/currentOSmatrix unverified;March3.1/1.5historyretained",
     "downloads": false
   }
 }

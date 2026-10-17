@@ -335,7 +335,7 @@ def main():
         print(git('diff', '--cached', '--stat'))
         message = 'fix(comparisons): preserve separate technical source columns' if mode == 'commit-field-extraction' else 'fix(comparisons): route analog conversion and automation to useful columns'
         if mode == 'commit-ampero-one':
-            message = 'research(hotone): distinguish Ampero One amp cabinet and acoustic libraries'
+            message = 'research(hotone): verify Ampero One converted NAM A2 support'
         if mode == 'commit-nux-mg50li-audit':
             message = 'audit(nux): preserve MG-50Li shared fields and conflicting source counts'
         if mode == 'commit-nux-mg30-audit':
