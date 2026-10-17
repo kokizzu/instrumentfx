@@ -326,6 +326,13 @@ Discontinued guitar multi-effects/switching system;notRP500. Checked2026-10-17;p
 | Editor / software | **X-Edit2.7.0Windows/2.7.1MacOSXIntel** listed;currentOScompatibility unknown. USBaudio2in/2out;recordingtap followsXLRoutputaudio. USBrecordlevel/mix settingsglobal,autosaved. Editor distinctfrombundledCubaseLE4. | [Product][RP1K-P];[Manual pp35–36][RP1K-M] |
 | Looper / drums / live | 20smono,FS3Xremote;Pedalboardmode assigns switches6–10. AmpLoopreplacesinternalamp/cab;StompLooppre/postamp per preset. Bypass leavesexternalloopsactive. Preset/effectchanges workduringrecord/playback/overdub. Stop retainsloop;holdclear erases. FS3X makeslooperalwaysenabled andrestoresbankUpDown tobankselection. Quietstartsound-triggered vsimmediaterecord. Drums/scenes unknown. | [Manual pp1,6–9,33–35][RP1K-M];[Product][RP1K-P] |
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Live / footswitch parameter assignments | Switches 6–10 can link parameters with separate off/on values; assignments save per preset. These are parameter controls, not five additional effect instances. | [Manual p31][RP1K-M] |
+| Expression / LFO and preset changes | Two assignable LFOs offer minimum/maximum, rate and triangle/sine/square waveforms. Global EXPUPDAT defaults off: preset changes update pedal position only for Volume Pre/Post; enabling it updates any linked parameter. | [Manual pp31–32][RP1K-M] |
+| Audio output / headphones | XLR outputs always apply speaker compensation. Rear-panel text specifies headphones optimized for 60Ω, while specifications give 50Ω minimum. Preserve both contexts; neither establishes the headphone connector size. | [Manual pp7,50][RP1K-M] |
+
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence / qualification | Source |

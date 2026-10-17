@@ -489,7 +489,7 @@ def main():
         if mode == 'commit-ve5':
             message = 'research(boss): separate VE-5 red hardware ask from unresolved variants'
         if mode == 'commit-rp1000':
-            message = 'research(digitech): enumerate RP1000 amp cabinet and shared FX choices'
+            message = 'research(digitech): document RP1000 parameter controls and headphone guidance'
         if mode == 'commit-gt6':
             message = 'research(boss): preserve separate GT5 cached hardware offer'
         if mode == 'commit-hxone':

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP250",
-    "task": "RP250 named Chorus/FX census saved with both manual conflicts retained. Next inspect RP1000 existing evidence and own manual for unresolved expression/live routing, software and power details. Commit each model before next.",
+    "model": "DigiTech RP1000",
+    "task": "RP1000 footswitch parameter assignments, LFO/EXPUPDAT and headphone impedance contexts saved. Next inspect same manual for precise amp/stomp loop bypass and routing restrictions not yet captured. Commit model before moving on.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45035,7 +45035,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP250."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP1000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56130,6 +56130,13 @@
       "source": "https://www.digitech.com/wp-content/uploads/2022/09/RP250_-Manual18-0432V-B_original.pdf",
       "finding": "Own manual pp27–34 enumerates 19 individually named Chorus/FX choices: 3 chorus, 2 flange, 1 phaser and 13 others. Two-phaser prose and overview-only SynthTalk remain conflicting; firmware inventory unknown.",
       "remaining": "Actual firmware inventory and Phaser/SynthTalk discrepancy require stronger evidence; no inferred extra algorithm."
+    },
+    {
+      "model": "DigiTech RP1000",
+      "date": "2026-10-18",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf",
+      "finding": "Manual pp31–32: switches 6–10 parameter off/on values saved per preset, two LFOs, global EXPUPDAT default. Rear text 60-ohm headphone optimization versus 50-ohm minimum appendix retained; XLR speaker compensation always active.",
+      "remaining": "Headphone connector, display details, device draw, AC/DC revision matching, imports and current OS support unresolved."
     }
   ],
   "discovery_cross_brand_bass": {
