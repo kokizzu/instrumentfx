@@ -673,7 +673,7 @@ def main():
         if mode == 'commit-bass-union':
             message = 'audit(bass): preserve shared source context and verify root content union'
         if mode == 'commit-nux-union':
-            message = 'audit(nux): verify shared source union and inventory incoming navigation'
+            message = 'docs(nux): restore exact MG-101 source image timestamps'
         if mode == 'commit-compact-union':
             message = 'docs: restore exact compact-source URLs and diagnose floorboard preservation'
         if mode == 'commit-legacy-audit':
