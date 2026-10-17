@@ -73,3 +73,43 @@ Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 - [Official manual index](https://usa.yamaha.com/support/manuals/index.html?l=en&p=189) lists the5.7 MB image manual. No claim that a sibling manual proves this model’s fields.
 
 Remaining: full routing diagrams and elemental simultaneous maximum, factory mapping conflict, direct expression support, screen/software gaps and qualified live/new offers. The memory chapter confirms capacity but does not resolve the exact initial contents of all 100 user slots.
+
+## SPX2000
+
+Checked 2026-10-17; partial. Guitar amp/distortion and vocal effects documented in own manual; use suitable line-level preamp/mixer routing. Bass applicability remains unclassified. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal/toe; front footswitch jack supports tempo control. Continuous external expression support unverified. | [Features][S2-F] |
+| K/F/B | Separate rotary,footswitch and button counts pending own-panel inventory; do not borrow SPX990 counts. | Unresolved |
+| Display | 16-character×2-line LCD with six-color backlight and L/R 12-segment LED meters. Backlight color does not establish a color graphical screen. Diagonal/touch unverified. | [Japanese specifications][S2-J] |
+| Dimensions / mass | **480W×45H×372.5D mm;4kg;1U**. | [Specifications][S2-S] |
+| Processing / categories | 32-bit DSP; 17 REV-X presets within 97 PRESET programs, covering Hall,Room,Plate. Other programs include delay,pitch,modulation,dynamics and composites. Preset totals are not simultaneous blocks; full algorithm/category counts pending. | [Features][S2-F] |
+| Factory / user memory | PRESET97,USER99; CLASSIC25 on product page/Japanese specs but27 on data sheet. Nominal total221 versus223 conflict remains; initial USER fill unverified from primary manual. | [Features][S2-F];[Japanese specs][S2-J];[Data sheet][S2-D] |
+| Synth / acoustic | Guitar amp simulation/distortion documented; dedicated synth/acoustic simulation unverified. | [Manual pp86–87][S2-M] |
+| I/O | Stereo XLR/TRS analog inputs/outputs with +4/−10dBu switches; AES/EBU stereo XLR I/O; BNC word-clock input; MIDI IN,OUT/THRU;USB TO HOST;front footswitch. Complete connector switching and USB-audio distinctions pending. | [Features][S2-F] |
+| Power / battery / USB | **25W**; region-specific AC100V,120V or220–240V,50/60Hz. Not universal input; actual offered unit voltage unverified. Mains DC polarity inapplicable; battery/USB operation unverified. | [Specifications][S2-S] |
+| IR / NAM / capture | User IR,native/converted NAM and capture support unverified. | Unresolved |
+| Editor / platforms | SPX2000 Editor for Mac OSX/Windows; current OS,bitness,driver requirements and USB audio remain unverified. No software downloaded. | [Features][S2-F] |
+| Looper / drums / live | Freeze,scene,looper,drum and spillover details pending manual review; front footswitch tempo support established. | [Features][S2-F];[Manual][S2-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; title does not establish used condition. | — |
+| New | Unknown; title does not establish new condition. | — |
+| Condition-unverified indexed ask | **Rp6.400.000**,elkusla_shop,shop118221978/item24481606543,Kab.Kediri. Three-month indexed body checked2026-10-17; direct open failed. Stock unverified. | [Exact Shopee item][S2-O] |
+
+<!-- comparison evidence ends -->
+
+Seller “ORI JAPAN” does not verify authenticity,manufacture origin or voltage revision. Condition,working state,stock,bundle,mains cable,warranty,shipping/tax and voucher eligibility remain unknown. Cached ask is neither live stock nor completed sale. Official manual108pages accessible as browser text; detailed panel/program review remains.
+
+[S2-F]: https://usa.yamaha.com/products/proaudio/processors/spx2000/features.html
+[S2-J]: https://jp.yamaha.com/products/proaudio/processors/spx2000/specs.html
+[S2-S]: https://europe.yamaha.com/en/business/audio/products/processors/spx2000/specs.html
+[S2-D]: https://usa.yamaha.com/files/download/other_assets/3/322303/SPX2000_datasheet.pdf
+[S2-M]: https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf
+[S2-O]: https://shopee.co.id/efek-yamaha-SPX2000-ORI-JAPAN-i.118221978.24481606543

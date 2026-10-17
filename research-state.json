@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 244,
+  "active_model_count": 245,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 244,
+  "canonical_root_model_count": 245,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "244 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. MX400 guitar/bass/vocal line-level scope from own manual;all models remain partial.",
+  "count_reconciliation": "245 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. SPX2000 guitar/vocal line-level scope from own manual;bass unclassified;all models remain partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX2000",
-    "task": "Research saved exact Shopee lead and own Yamaha product/manual before adding. MX400 unresolved per-mode tables/bank totals deferred after screenshot access failure; preserve unknowns.",
+    "task": "SPX2000 initial record saved; verify manual panel controls,CLASSIC bank list/user initial fill,algorithm counts and USB/MIDI/editor distinctions. Bass remains unclassified. Do not duplicate this model.",
     "next_models": [],
     "after_queue": "Search Shopee by brand/series for unrecorded eligible multi-effects. Keep MX400 library/bank follow-up pending; no downloads,workflows,push."
   },
@@ -23968,7 +23968,8 @@
     ],
     "Yamaha": [
       "SPX900",
-      "SPX990"
+      "SPX990",
+      "SPX2000"
     ]
   },
   "root_brand_content": {
@@ -24276,12 +24277,13 @@
     ],
     "YAMAHA.md": [
       "SPX900",
-      "SPX990"
+      "SPX990",
+      "SPX2000"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 197,
+      "record_count": 198,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24293,9 +24295,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 46,
+      "record_count": 47,
       "vocal_only_count": 22,
-      "combined_instrument_count": 24,
+      "combined_instrument_count": 25,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41244,13 +41246,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 244,
-    "canonical_root_models": 244,
+    "unique_brand_model_pairs": 245,
+    "canonical_root_models": 245,
     "legacy_only_models": 0,
-    "guitar_view_models": 197,
+    "guitar_view_models": 198,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
-    "vocal_view_models": 46,
+    "vocal_view_models": 47,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41507,7 +41509,8 @@
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Yamaha::SPX900",
-      "Yamaha::SPX990"
+      "Yamaha::SPX990",
+      "Yamaha::SPX2000"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41657,7 +41660,8 @@
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Yamaha::SPX900",
-      "Yamaha::SPX990"
+      "Yamaha::SPX990",
+      "Yamaha::SPX2000"
     ]
   },
   "comparison_bass_basis": {
@@ -43605,6 +43609,13 @@
     },
     "Yamaha::SPX990": {
       "link": "YAMAHA.md#spx990",
+      "source_files": [
+        "YAMAHA.md"
+      ],
+      "finding_files": []
+    },
+    "Yamaha::SPX2000": {
+      "link": "YAMAHA.md#spx2000",
       "source_files": [
         "YAMAHA.md"
       ],
@@ -53541,5 +53552,17 @@
     "attempt": "Browser screenshots PDF pages54 and58 failed: screenshot not enabled/content type unresolved. No download workaround used.",
     "remaining": "Per-mode selector tables and Stereo/Surround banks unreadable in browser text; whole-device memory total unverified.",
     "additional_verified": "Manual p53 input/output impedance,nominal/max levels,24bit conversion and3.7ms48kHz processing delay saved."
+  },
+  "spx2000_discovery_20261017": {
+    "offer": "https://shopee.co.id/efek-yamaha-SPX2000-ORI-JAPAN-i.118221978.24481606543",
+    "idr": 6400000,
+    "seller": "elkusla_shop",
+    "condition": "Unverified",
+    "stock": "Unverified;three-month index,direct access failed",
+    "manual": "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf",
+    "conflicts": [
+      "Classic25 product/JP specs versus27 datasheet",
+      "JP display six backlight colors;manual detailed inventory pending"
+    ]
   }
 }
