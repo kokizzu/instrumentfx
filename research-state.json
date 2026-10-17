@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MX400",
-    "task": "MX400 Surround Hall DSP exclusivity and bypass/tempo behavior saved. Next inspect per-mode effect selector tables and Stereo/Surround bank lists; text extraction omits those tables,so totals remain unresolved. Then saved SPX2000 lead.",
-    "next_models": [
-      "Yamaha SPX2000"
-    ],
-    "after_queue": "Saved exact SPX2000 lead in discovery_mx300_20261017. Commit useful model findings before next. No downloads,workflows,push."
+    "model": "Yamaha SPX2000",
+    "task": "Research saved exact Shopee lead and own Yamaha product/manual before adding. MX400 unresolved per-mode tables/bank totals deferred after screenshot access failure; preserve unknowns.",
+    "next_models": [],
+    "after_queue": "Search Shopee by brand/series for unrecorded eligible multi-effects. Keep MX400 library/bank follow-up pending; no downloads,workflows,push."
   },
   "new_findings": [
     {
@@ -41309,7 +41307,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX400."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha SPX2000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -53537,5 +53535,11 @@
     "pages": "17–20",
     "finding": "Surround Hall consumes all DSP; front/rear wet/dry behavior separated. Effect/program bypass scope and four global bypass behaviors documented; tempo save requirement retained.",
     "remaining": "Library selector counts by mode,whole-device bank totals and initial user fill remain unproven. PDF text exposes only Dual Stereo program list; Stereo/Surround list pages are not text-extracted."
+  },
+  "mx400_table_access_20261017": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
+    "attempt": "Browser screenshots PDF pages54 and58 failed: screenshot not enabled/content type unresolved. No download workaround used.",
+    "remaining": "Per-mode selector tables and Stereo/Surround banks unreadable in browser text; whole-device memory total unverified.",
+    "additional_verified": "Manual p53 input/output impedance,nominal/max levels,24bit conversion and3.7ms48kHz processing delay saved."
   }
 }
