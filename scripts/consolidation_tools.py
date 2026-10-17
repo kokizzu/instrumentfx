@@ -2003,9 +2003,13 @@ def audit_body_differences():
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
     differences = []
+    audited = 0
+    skipped = 0
     for entry in state.get('consolidation_and_price_findings', []):
         if entry.get('verification_kind') != 'complete-source-body-v1':
+            skipped += 1
             continue
+        audited += 1
         source = research_tools.read_preserved_source(entry['source'])
         assert digest(source) == entry['source_sha256']
         if entry.get('source_section'):
@@ -2024,7 +2028,7 @@ def audit_body_differences():
             differences.append(dict(source=entry['source'],destination=path,marker=entry['marker'],before_sha256=digest(actual),expected_body=expected))
             print(''.join(difflib.unified_diff(expected.splitlines(True),actual.splitlines(True),fromfile=entry['source'],tofile=path)))
     Path('/tmp/instrumentfx-preserved-body-differences.json').write_text(json.dumps(differences,indent=2)+'\n')
-    print(f'{len(differences)} mismatched whole-body archives; preview saved under /tmp')
+    print(f'{len(differences)} mismatched whole-body archives across {audited} registered complete-source bodies; {skipped} other ledger entries outside this audit; preview saved under /tmp')
 
 
 def compact_reference_plan():
@@ -2054,7 +2058,7 @@ def commit_preservation_repairs():
     comparison_views.verify_views()
     research_tools.git('add','--',*sorted(changed))
     print(research_tools.git('diff','--cached','--stat'))
-    print(research_tools.git('commit','-m','docs: restore pinned archive wording and compact source links'))
+    print(research_tools.git('commit','-m','audit: report whole-body preservation coverage explicitly'))
 
 if __name__ == '__main__':
     if sys.argv[1:] == ['commit-preservation-repairs']:

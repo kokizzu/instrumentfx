@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Discovery frontier",
-    "task": "Search other eligible guitar/bass/vocal manufacturer series and inspect exact hardware listings; continue remaining model gaps and legacy-preservation audits.",
+    "model": "Preservation audit",
+    "task": "Inspect remaining shared-source union/link audit coverage and source-retirement criteria; continue technical model gaps and fresh eligible Shopee discovery.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -63000,5 +63000,19 @@
     },
     "limits": "Search-index scope only. Empty results do not establish model absence, eligibility, live availability or market exhaustion. No accessory/search-page price promoted.",
     "next": "Search other eligible guitar/bass/vocal manufacturer series and inspect exact hardware listings; continue remaining model gaps and legacy-preservation audits."
+  },
+  "preservation_coverage_audit_20261017": {
+    "checked": "2026-10-17",
+    "targets": [
+      "make consolidation-audit-body-differences",
+      "make consolidation-compact-reference-plan"
+    ],
+    "complete_source_bodies": 82,
+    "other_ledger_entries_outside_body_audit": 92,
+    "body_mismatches": 0,
+    "compact_reference_changes": 0,
+    "scope": "Registered complete-source-body-v1 entries: pinned source hashes and normalized entire bodies between destination markers; compact reference check only guitar-compact prose matches in MULTI-EFFECTS.",
+    "limits": "Does not audit all shared-row unions, every legacy file, external availability, current technical accuracy, or establish full migration completion. Other ledger entries require their own verification kind, not presumed failures.",
+    "next": "Inspect remaining shared-source union/link audit coverage and source-retirement criteria; continue technical model gaps and fresh eligible Shopee discovery."
   }
 }
