@@ -375,7 +375,7 @@ def main():
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-rfx1100':
-            message = 'research(zoom): distinguish RFX-1100 preset combinations and wet bypass behavior'
+            message = 'research(zoom): inventory RFX-1100 banks and qualify combined algorithms'
         if mode == 'commit-spx990':
             message = 'research(yamaha): resolve SPX990 category totals and Freeze overdubbing limits'
         if mode == 'commit-spx900':

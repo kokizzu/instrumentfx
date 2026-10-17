@@ -2080,9 +2080,9 @@ Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 | Expression | No built-in pedal/toe; external expression unverified. Optional FS01 bypass footswitch [R11-M p.2] |
 | Knobs / footswitches / buttons | 7 rotary controls/selectors derived: Input, Output, Mix, Adjust, Character, Bank, Effect Type;0 footswitches; button count unverified, mic and power switches separate [R11-M pp.2–3] |
 | Display | LED level/status indicators; screen diagonal/color/touch unverified |
-| Processing / categories | 33 selectable effects:11 each in REVERB/EFFECTS/MIX&SFX banks. Serial delay+reverb/chorus+reverb and parallel delay/reverb/flanger/reverb documented. Vocoder variants include distortion+chorus; exact overall maximum unverified [R11-M pp.1,13,15] |
+| Processing / categories | 33 selections in three banks of11. REVERB: Hall, Room, Plate, Vocal, Ambience, Dimension, Percussion, Ensemble, Power, Gate, Reverse. EFFECTS: CompLim, Delay, Pitch, Chorus, Flanger, Phaser, TRM-PAN, DLY+REV, CHO+REV, DLY/REV, FLG/REV. MIX&SFX: Power/Wide/Boost/Vocal Mix, Mic Simulator, Cabinet Sim, Rotary, Ring Mod, Resonance, Lo-Fi EFX, Vocoder. EFFECTS has7 single and4 dual algorithms; “+” serial, “/” parallel. Vocoder can combine distortion+chorus, so two is not a universal maximum [R11-M pp.8–15] |
 | Preset memory | Manufacturer specifies 363 preset programs (11 effects × 3 banks × 11 variations). These are effect/variation combinations, not 363 writable patches. User storage and factory-filled user-memory count remain unverified [R11-M p.15] |
-| Synth / acoustic | Vocoder processes external carrier; dedicated synth/acoustic simulator unverified |
+| Synth / acoustic | Vocoder processes external carrier; Cabinet Sim colors electric guitar as combo/stack, not a documented acoustic simulator or user IR loader. Dedicated synth/acoustic simulator unverified [R11-M pp.14–15] |
 | IR / NAM / captures | IR import, native/converted NAM and measured capture support unverified |
 | Audio / control ports | Combo XLR/phone mic input;2 mono-phone line inputs and2 outputs; FS01 bypass; mains power. Other digital/headphone/phantom facilities unverified [R11-M pp.2–3,15] |
 | Analog levels / conversion | Line reference −10 to +4 dBm; 44.1 kHz,18-bit A/D with64× oversampling and18-bit D/A with8× oversampling. High-impedance guitar needs preamplification [R11-M pp.3,15] |
@@ -2104,4 +2104,4 @@ Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 - [R11-M: official Zoom operation manual,E_RFX1100,16 pages](https://zoomcorp.com/media/documents/E_RFX1100.pdf),text inspected through web tool;no filesystem download.
 - [Official RFX-1100 support](https://zoomcorp.com/en/gb/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/).
 
-Remaining: complete variation/category inventory,simultaneous maximum,user-memory behavior,display/control confirmation,power draw,software andqualified offers. Manufacturer’s363 preset-program figure is now separated from writable memory. No sibling specifications substituted.
+Remaining: complete per-variation parameters,simultaneous maximum,user-memory behavior,display/control confirmation,power draw,software andqualified offers. Category inventory is saved. Screenshot retrieval failed; no visual panel verification claimed. Manufacturer’s363 preset-program figure is now separated from writable memory. No sibling specifications substituted.
