@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 M9",
-    "task": "M5 MIDI ranges and tempo/expression/gate limits saved; unresolved dimensions/power/display retained. Next review M9 existing record and own official MIDI/routing documentation, prioritizing unfilled technical fields; do not transfer M5 behavior. Commit each model before next.",
+    "task": "M9 lifecycle, stereo-routing definitions and Monkey support limits saved. Next inspect own Advanced Guide Appendix A for exact MIDI controls/looper ranges and expression assignment restrictions; per-effect routing DOC not downloaded. Keep mono28/56 versus FAQ30/60 looper conflict unresolved.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -55948,6 +55948,20 @@
         ]
       },
       "live": "Tempo30–240BPM global/per preset;0.1BPM fine edit. Tempo-enabled parameters follow MIDI clock and cannot be adjusted by expression. Setup gate has no footswitch control. Assignment reset distinct from factory reset."
+    },
+    {
+      "model": "Line 6 M9",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://kb.line6.com/m9-m13-line-end-of-life",
+        "https://kb.line6.com/stereo-mono-fx-routing-table",
+        "https://kb.line6.com/line-6-monkey-discontinued"
+      ],
+      "findings": [
+        "Manufacture ended2021-12-01; retailer inventory may remain; authorized-new purchase warranty qualification retained.",
+        "Four routing definitions distinguish dry-path separation from effect placement. Per-model DOC table not downloaded; model-specific classification unresolved.",
+        "Monkey newer-OS development discontinued; no M9 Central migration inferred."
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

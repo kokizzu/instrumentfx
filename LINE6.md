@@ -963,6 +963,16 @@ Checked2026-10-18 against [v2.0 Advanced Guide §§2•4,3•2,4•2][M9-A]. Rev
 | Processing / DryThru delay variants | TapeEcho,TubeEcho,SweepEcho andEchoPlatter haveDryThru versions removing modeled dry-path coloration atMix0%. Original versions retainthatcoloration. DryThru ismodelbehavior,not proof ofanalog-dry routing,relaybypass ormorethanthree simultaneousFX. |
 
 
+### M9 lifecycle and stereo-routing qualifications
+
+Checked 2026-10-18 against manufacturer support articles.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Firmware / lifecycle | Line6 states M9/M13 manufacture ended **2021-12-01**, while retailers may retain inventory. Discontinued manufacture does not establish absence of new old stock or used offers. The notice retains warranty eligibility for units bought new from an authorized retailer with receipt, subject to its linked warranty terms; no particular Shopee seller’s authorization or warranty is established. | [Official lifecycle notice](https://kb.line6.com/m9-m13-line-end-of-life) |
+| I/O / stereo-routing distinctions | Official M-Series article distinguishes true stereo, summed mono, stereo dry-through with mono effect, and stereo dry-through with stereo effect. A mono effect can be centered while the dry channels stay separate; that differs from summing the entire input. Per-model classifications reside in a DOC attachment that was not downloaded, so individual effect routing is not assigned here. Preserve the existing mono-collapse limitation without treating all centered effects as mono-throughout. | [Official routing definitions](https://kb.line6.com/stereo-mono-fx-routing-table) |
+| Editor / current updater support | Historical Monkey update instructions do not establish modern-OS support. The manufacturer’s discontinuation notice says Monkey is no longer developed for Windows11, Catalina or Monterey and directs firmware installation to an older supported OS. No M9 migration to Central or modern patch editor is established here. | [Official Monkey notice](https://kb.line6.com/line-6-monkey-discontinued) |
+
 ## Pocket POD
 
 Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;partial. Ownership,vocal suitability unknown. Bass use documented for Tube Preamp.
