@@ -372,6 +372,8 @@ Checked2026-10-17;partial. Guitar scope; bass/vocal suitability and ownership un
 | IR / NAM / capture | IR import,native/converted NAM andproprietarycapture pending. | Unresolved |
 | Editor / platforms | Officialeditor/currentOS support pending. | Unresolved |
 | Live / Effect Select | DOWN switchesDriveA/B;UP togglesMOD/AMB. Thismodecannotchangeprograms orenterbypass/mute. Pedal-effecton/offisnotstoredperprogram;VOLUMEcannotbeswitchedoff. | [Manual p7][AX100-M] |
+| Looper / Sample and Play | SAMPLE1/SAMPLE2/LOOP1/LOOP2 use3s high-quality or6s extended recording. Audio is erased byeffect-type/program change,PhraseTraineruse orpoweroff. SAMPLE1/2cannotstoprecordingearly;SAMPLE2addsreverseplayback. LOOP1pedalcontrolsplaybackvolume/restart;LOOP2controlslooplength. Overdubnotestablished. | [Manual p15][AX100-M] |
+| Categories / ambience and cabinets | AMB7choices:Delay,Room1,Room2,Garage1,Garage2,Hall,Arena. Delay10ms–2s withtap;not7simultaneousambiences. CABI6:1×8,1×10,1×12,2×12,4×10,4×12. CabinetmodelsdonotestablishuserIRimport. | [Manual pp15–16][AX100-M] |
 | Looper / drums / live | PhraseTrainer8s slowdownwithoutpitchchange;Sample&Play6s pedalplayback;50rhythmpatterns+metronome,tapdelay,tuner. Detailedrestrictions pending. | [Manual p3][AX100-M] |
 
 ### Separate IDR hardware offers
