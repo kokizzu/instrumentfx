@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD300",
-    "task": "HD300 FX1(37)/FX2(18) inventories and Flash2.0+ FlipTop bass basis saved;next verify FX3/reverb/wah,amp/cab inventory and physical/control/power specifications.",
+    "task": "HD300 FX3 eighteen/wah six choices saved;advanced8reverb vs RevC9conflict preserved. Next amp/cab inventory and physical/control/power specifications;retain firmware/price gaps.",
     "next_models": [],
     "after_queue": "Fresh discovery;273records partial;legacyZoomleadsunqualified;no downloads/workflows/push."
   },
@@ -56343,5 +56343,19 @@
     },
     "qualification": "HD400-only stars excluded;2.0addsVintagePre/HardGate. FlipTop bass amp/cab establishes firmware-qualified sharedbassmembership.",
     "remaining": "FX3/reverb/wah,ampcabinventories,physical/control/power/pricegaps"
+  },
+  "hd300_time_wah_checkpoint_20261017": {
+    "source": "https://l6c-acdn.line6.net/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf",
+    "pages": "6-14…6-18",
+    "fx3": {
+      "delay": 10,
+      "tape": 4,
+      "sweep": 4,
+      "total": 18
+    },
+    "reverb": 8,
+    "wah": 6,
+    "conflict": "RevC handbook9reverbs vs Flash2.0+advanced8HD300-specific;DuckingHD400-only. Retainunresolved.",
+    "remaining": "Amp/cab inventory,controlcounts,power/size,qualifiedprices"
   }
 }
