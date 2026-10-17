@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP1000",
-    "task": "Commit calibration and port-specific electrical limits. Next fresh exact Shopee model discovery; avoid repeating resolved RP1000 loops/census/electrical facts. Remaining power variant polarity and modern software support unverified.",
+    "model": "VOX ToneLab LE",
+    "task": "Calibration, six chain orders and Ln2 EQ restrictions saved. Next fresh Shopee discovery by brand/series, then resolve a model-specific technical gap; avoid repeating these findings. LE display technology, power draw, software platforms and mass revision conflict remain unresolved.",
     "next_models": [],
-    "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
+    "after_queue": "335 active partial records; 117 compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP1000."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab LE."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57355,6 +57355,14 @@
       "finding": "Own manual resolves active-preset5s calibration, switch5 endpoint/exit,0–199 Vswitch preserving user data;24bit44.1conversion, distinct guitar/stomp/amp return impedances, input+8dBu, main+8/XLR+14 and loop-send limits. Internal15Vrails not supply. Indie4mHabis ask already recorded, directcachemiss persists.",
       "sources": [
         "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf"
+      ]
+    },
+    {
+      "model": "VOX ToneLab LE",
+      "checked_date": "2026-10-18",
+      "finding": "Own English E1 manual: hand-operated forward-first GLOBAL calibration, six per-program serial MD/DL/RV orders, and Ln2 EQ requiring active amp model. AX3000G calibration must not be copied. Existing Second offer unchanged; no new stock evidence.",
+      "sources": [
+        "https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf"
       ]
     }
   ],

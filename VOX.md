@@ -41,6 +41,14 @@ Guitar multi-effects; distinct from original ToneLab, SE, ST and EX. Checked2026
 | Expression / EXP INIT | Global, automatically saved: OFF applies current pedal position immediately on program change; ON initializes the assigned parameter to its saved value. VOLUME, D/INPUT and R/INPUT always follow current position regardless. Per-program target/endpoints still require storing. | [English pp47–48][TLLE-E] |
 | Expression / editing versus performance | Ordinary pedal targets edit the parameter value that will be written. OFF, VOLUME, M/PITCH, D/INPUT and R/INPUT do not edit stored parameters. Changing target initializes its MIN/MAX range. | [English pp47–48][TLLE-E] |
 | Live / tap-factor limits | MOD TAP/DLY TAP support twelve factors:1/6,1/4,1/3,1/2,2/3,3/4,1,4/3,3/2,2,3,4. Maximum tap interval10s; this is not a maximum delay-time specification. Changing CONTROL assignment resets FACTOR to1; it has no effect for other targets. | [English p49][TLLE-E] |
+
+### ToneLab LE — calibration and routing limits
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / calibration | Use a hand. Power on holding EXP-CTL-CHAIN + ▲: EXP MAX. Move pedal forward, release hand, press GLOBAL: EXP MIN. Move pedal back, release hand, press GLOBAL: COMPLETE, then normal operation. EXIT/TUNE cancels; ERROR returns to EXP MAX to repeat. This is not the AX3000G sequence; toe-switch threshold adjustment remains unverified. | [English p50][TLLE-E] |
+| Processing / chain order | Six serial orders, saved per program: MD-DL-RV, MD-RV-DL, DL-MD-RV, DL-RV-MD, RV-MD-DL, RV-DL-MD. MD=modulation, DL=delay, RV=reverb. This does not establish arbitrary block placement or parallel routing. | [English p25][TLLE-E] |
+| I/O / Ln2 EQ limits | Three-band output EQ requires Ln2 and an enabled amp model; unavailable with AP1/AP2/AP3/Ln1 or amp modeling off. Controls are input TRIM, LO GAIN, MID FREQ, MID GAIN and HI GAIN. | [English pp25–26][TLLE-E] |
 <!-- comparison evidence ends -->
 
 Primary Japanese J2 manual is manufacturer-hosted. English manufacturer-authored E1 mirror identifies ©2006 VOX AMPLIFICATION LTD, ToneLab LE and MIDI chart2006-04-20; category/memory/dimensions/ports match J2, but weight differs. English pagination differs from Japanese. No full-file hash or visual control certification. Both PDFs viewed as browser text; no software/manual/dependency saved or installed.
