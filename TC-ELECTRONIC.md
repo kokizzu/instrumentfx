@@ -140,3 +140,33 @@ Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers
 [PX5-F]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf
 
 [PX5-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
+
+## M350
+
+Checked2026-10-17. Partial dual-engine rack multi-effects. [Manufacturer English manual](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),34pages,Rev1.1/SW1.00,productE60505812;webtext only,no download/visualaudit.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No builtin pedal;¼pedal socket. ContinuousEXP/toe support unknown. |
+| Controls | **10rotaries**,derived text;integratedfoot0;separatebuttons count unresolved becauseBYPASS described asknob. |
+| Display | Two seven-segmentdigits+LEDs;diagonal/color/touch unknown. |
+| Processing / choices | **2engines:15delay/effects choices+15reverbs**,eachplusOff. Serial ordualinput/commonoutput;analog-only parallel option. |
+| Presets | **99user memories;256factory selector combinations**,not256storedpatches. Advertised355 does notmean355editablememories. |
+| Synth / acoustic | Dedicated synth/acousticconversion unknown. |
+| Dimensions / weight | **483×44×105.6mm;1.5kg**;published19×1.75×4.2inch order. |
+| I/O | Balanced¼L/Rinputs/outputs;RCA S/PDIFin/out;DIN MIDIin/out;¼pedal;ACmains. Headphones/XLR/USB notlisted. |
+| Power | **100–240VAC50–60Hz auto;less than15W**. Internal supply;DCpolarityN/A. Battery/USBpower unknown. |
+| Software | Manufacturer cutsheet advertises **AU/VST editor**;exactOS/currentcompatibility unverified. MIDI control/bulkdump documented;notUSB audio. |
+| IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
+| Looper / drums / live | Looper/drums/scenes unknown;tap/MIDIclock. Bypass mutes indualinput,passes signal inserial. |
+| Instrument scope | Guitar setup requirespreamp;vocal+guitar dualinput example. Bass capability unclassified. |
+
+[Cutsheet](https://service-tcgroup.tcelectronic.com/media/M350_Cutsheet_web.pdf) indexed manufacturer text only;direct502. Editor/355marketing distinguished frommanual memory behavior.
+
+### M350 — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used | Unknown | — |
+| TitleNEW,condition unverified / PCdada,Kota Jakarta Barat | **Rp6.682.240;indexed PreOrder15days**,index2months,checked2026-10-17;directopenfailed. Currentstock,selectedvariation,bundle,warranty,voucher,shipping/tax unknown;Augustdelivery stale. | [1003923494/15899349001](https://shopee.co.id/%E2%9C%85-NEW-TC-electronic-M350-vocal-reverb-effect-dual-engine-digital-effect-processor-professional-stage-performance-effect-karaoke-i.1003923494.15899349001) |
+| Unallocatedvariation / Puddingstoree,Kota Jakarta Barat | **Rp8.870.555;2variations;PreOrder30days**,index2months. Selectedhardwarevariant andcondition unverified;not aqualifiedmodelprice orliveprice range. | [1696675139/43128792310](https://shopee.co.id/NEW-TC-Electronic-M350-Vocal-Reverb-Effect-Dualengine-gital-Effect-Processor-Professional-Stage-Performance-Effect-Karaoke-i.1696675139.43128792310) |

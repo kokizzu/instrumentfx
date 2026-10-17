@@ -399,7 +399,7 @@ def main():
         if mode == 'commit-mg20':
             message = 'research(nux): retain MP-2 effect choices and audio driver qualifications'
         if mode == 'commit-m100':
-            message = 'research(tc-electronic): qualify X5 historical editor platforms'
+            message = 'research(tc-electronic): add M350 and distinguish selector combinations from memory'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): preserve dated G2 FOUR condition and voucher observations'
         if mode == 'commit-spx990':

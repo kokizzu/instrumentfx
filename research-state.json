@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 278,
+  "active_model_count": 279,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 278,
+  "canonical_root_model_count": 279,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "278uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.ToneLabEXguitaronly.",
+  "count_reconciliation": "279uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.M350guitar/vocalwithpreampqualification.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic M350",
-    "task": "New exact Shopee hardware leads saved in discovery_rack_frontier_20261017,notcounted. First locate/read exact originalEnglishmanual orqualifiedmanufacturer-authoredmirror;ownindexedcutsheet available butdirect502. Qualify PCdada preorderask;Puddingstoree2variantpriceunallocated. Thenadd canonicalrecord+views onlyafter ownspecidentity verification.",
+    "task": "M350 added with exact manual andqualifiedpreorderasks. Next verify control count/pedalcontrol andcomplete algorithm inventory;preserve256selectorcombination vs99storeduser distinction. Commit before AlesisMIDIverbIII/MPX100 research.",
     "next_models": [
       "Alesis MIDIverb III",
       "Lexicon MPX100"
@@ -24007,7 +24007,8 @@
     "TC Electronic": [
       "M100",
       "PLETHORA X3",
-      "PLETHORA X5"
+      "PLETHORA X5",
+      "M350"
     ]
   },
   "root_brand_content": {
@@ -24351,12 +24352,13 @@
     "TC-ELECTRONIC.md": [
       "M100",
       "PLETHORA X3",
-      "PLETHORA X5"
+      "PLETHORA X5",
+      "M350"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 228,
+      "record_count": 229,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24368,9 +24370,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 50,
+      "record_count": 51,
       "vocal_only_count": 22,
-      "combined_instrument_count": 28,
+      "combined_instrument_count": 29,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41328,13 +41330,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 278,
-    "canonical_root_models": 278,
+    "unique_brand_model_pairs": 279,
+    "canonical_root_models": 279,
     "legacy_only_models": 0,
-    "guitar_view_models": 228,
+    "guitar_view_models": 229,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 50,
+    "vocal_view_models": 51,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41391,7 +41393,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab EX."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M350."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41622,7 +41624,8 @@
       "Yamaha::SPX1000",
       "TC Electronic::M100",
       "TC Electronic::PLETHORA X3",
-      "TC Electronic::PLETHORA X5"
+      "TC Electronic::PLETHORA X5",
+      "TC Electronic::M350"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41787,7 +41790,8 @@
       "Yamaha::SPX990",
       "Yamaha::SPX2000",
       "Yamaha::SPX1000",
-      "TC Electronic::M100"
+      "TC Electronic::M100",
+      "TC Electronic::M350"
     ]
   },
   "comparison_bass_basis": {
@@ -43981,6 +43985,13 @@
     },
     "TC Electronic::PLETHORA X5": {
       "link": "TC-ELECTRONIC.md#plethora-x5",
+      "source_files": [
+        "TC-ELECTRONIC.md"
+      ],
+      "finding_files": []
+    },
+    "TC Electronic::M350": {
+      "link": "TC-ELECTRONIC.md#m350",
       "source_files": [
         "TC-ELECTRONIC.md"
       ],
@@ -56975,5 +56986,13 @@
     ],
     "rejected_frontier": "RP300/RP355adapter855783279/22273291654 nothardware;G2.1DM/ME6/AX3000B noqualifiedhardware hitinlimitedqueries;notabsenceproof",
     "other_existing": "MIDIverb4 newoffers surfaced;not duplicatedpendingexactIDcomparison."
+  },
+  "m350_primary_20261017": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf",
+    "identity": "34pages EnglishRev1.1SW1.00 prodE60505812",
+    "memory": "256selectorcombinationsincludingOff,notstoredfactorypatches;99user;cutsheet355marketingqualified",
+    "scope": "Ownmanualp13guitarpreamp setup;p23guitar/vocaldualinput;notbassproof",
+    "gaps": "Controlsbuttons,BYPASSknobwording,EXP,editorOS/display/IRNAMcapture/looperdrums/currentconditionoffers",
+    "offer_ledger": "discovery_rack_frontier_20261017"
   }
 }
