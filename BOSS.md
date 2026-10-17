@@ -2659,7 +2659,7 @@ Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppressio
 | Dimensions / mass | **250 W × 180 D × 60 H mm; 1.9 kg including batteries**, manual pp25–26. [AD8-M] **Conflict:** Japan lists **250 × 190 × 75 mm**, same mass. [AD8-J] Large under either published width; reason for regional difference unestablished. |
 | I/O | Quarter-inch INPUT; quarter-inch stereo TRS PHONES; quarter-inch electric-guitar-amp output; unbalanced quarter-inch A/mono and B; balanced XLR A/B; PSA DC input. XLRs are outputs, not microphone inputs. [AD8-S] |
 | I/O / impedance conflict | Manual p25 gives **4.7 MΩ input**, regional web specification **20 MΩ**. Preserve both; no revision explanation verified. [AD8-M], [AD8-S] |
-| Power / batteries / USB | **9 V DC, 120 mA; six AA or PSA adapter**. Manual rates carbon batteries about **9 h**, alkaline **23 h**, conditions dependent. Polarity unresolved. No USB connector in the complete port list; USB-powered operation not supported by that inventory. [AD8-M], [AD8-S] |
+| Power / batteries / USB | **9 V DC, 120 mA in manual/current regional pages; six AA or PSA adapter**. Historical170 mA conflict documented below. Manual rates carbon batteries about **9 h**, alkaline **23 h**, conditions dependent. Polarity unresolved. No USB connector in the complete port list; USB-powered operation not supported by that inventory. [AD8-M], [AD8-S] |
 | Editor / USB | No full editor platform established; no USB or MIDI connector listed. [AD8-S] |
 | IR / NAM / capture | User IR, native/converted NAM and proprietary capture loading unverified; COSM body models do not establish user imports. |
 | Looper / drums / live | Tuner with mute, reference **438–445 Hz**, accuracy ±3 cents; balanced stereo DI with ground lift. Looper/drums unverified. [AD8-S] |
@@ -2682,6 +2682,13 @@ Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppressio
 | Looper / routing / startup | Power-up selects Manual with effects on. Mono output sends identical A/B signals. The output-level knob affects processed sound only; bypass/mute uses its fixed output state. The chosen bypass/mute behavior survives power-off. |
 | Live / anti-feedback | One feedback point is detected; attenuation also covers its octave above. Press both memory pedals to detect, hold both for at least two seconds to exit. Settings can be written with a memory, but are not saved in Manual mode. Anti-feedback starts off after power-up. |
 
+### AD-8 — body pairs and historical specification conflict, 2026-10-17
+
+| Field | Verified evidence / qualification |
+|---|---|
+| Processing / acoustic model pairs | [Own manual, printed p10][AD8-M]: **1 D-28/U87; 2 000-28/U67; 3 J-45/U67; 4 B-25/U87; 5 D-40/C12; 6 Jose Ramirez/C12**. Guitar makers respectively Martin, Martin, Gibson, Gibson, Guild and Jose Ramirez; microphones Neumann for 1–4, AKG for 5–6. These are six fixed modeled combinations, not six guitars times three independently selectable microphones, physical mic inputs or user captures. |
+| Power / historical draw conflict | [Manufacturer 2008 catalogue, indexed AD-8 specifications](https://static.roland.com/assets/media/pdf/boss_catalog_2008.pdf) lists **170 mA at 9 V maximum**, alongside20 MΩ input and250 ×180 ×60 mm. This conflicts with the own manual’s **120 mA**, also corroborated by [2012 catalogue](https://cdn.roland.com/assets/media/pdf/boss_catalog_2012.pdf) and [2014 catalogue](https://static.roland.com/assets/media/pdf/boss_catalog_2014.pdf). No documented revision or correction reconciles the figures. Do not treat170 mA as an adapter rating. Full2008 PDF exceeded reader size limit; evidence is its indexed model-specific text, not visual inspection. |
+
 <!-- comparison evidence ends -->
 
 [AD8-S]: https://www.boss.info/se/products/ad-8/
@@ -2689,4 +2696,4 @@ Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppressio
 [AD8-M]: https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf
 [AD8-O]: https://shopee.co.id/BOSS-AD-8-Acoustic-Guitar-Processor-i.276974853.9817836384
 
-Sources: regional manufacturer pages and own ©2003, 28-page owner manual through web text reader. No file downloaded or device/software run. Global/US product fetches failed; regional evidence remains explicitly identified. Remaining: body/microphone enumeration, explicit concurrency ceiling, polarity, display details, current qualified offers and resolution of dimensions/input-impedance conflicts.
+Sources: regional manufacturer pages and own ©2003, 28-page owner manual through web text reader. No file downloaded or device/software run. Global/US product fetches failed; regional evidence remains explicitly identified. Remaining: explicit concurrency ceiling, polarity, display details, current qualified offers and resolution of dimensions/input-impedance/current-draw conflicts.

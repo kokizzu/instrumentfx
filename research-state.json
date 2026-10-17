@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS AD-8",
-    "task": "AD-8 manual reverb choices, factory memory and startup/feedback limits saved. Next body/microphone pair enumeration and remaining official evidence; preserve regional dimensions/input-impedance conflicts.",
+    "task": "AD-8 six fixed body/microphone pairs saved; new170mA2008catalogue vs120mAmanual/later conflict retained. Next fresh Shopee discovery or remaining source-backed fields; do not repeat oversized catalogue open. Legacy migration and record verification remain incomplete.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery and remaining verification; no workflows/push."
   },
@@ -58630,6 +58630,17 @@
     "startup": "Manual/effectsON/anti-feedbackOFF",
     "feedback": "One point and octave attenuation;write to memory;not retained in Manual",
     "routing": "Mono A/B same;output knob processed sound only;stored bypass/mute behavior",
+    "downloads": false
+  },
+  "ad8_pairs_draw_20261017": {
+    "manual": "https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf",
+    "identity": "2003 printedp10",
+    "pairs": "6fixedguitar/microphonecombinations;not18independentcombinations",
+    "catalogue2008": "https://static.roland.com/assets/media/pdf/boss_catalog_2008.pdf",
+    "draw_conflict": "2008indexedAD8table170mA9Vmax vs manual/currentweb/latercatalogues120mA;notreconciled",
+    "catalogue2012": "https://cdn.roland.com/assets/media/pdf/boss_catalog_2012.pdf",
+    "catalogue2014": "https://static.roland.com/assets/media/pdf/boss_catalog_2014.pdf",
+    "access": "2008fullreader11639449byteslimit;ownindexedtextonly",
     "downloads": false
   }
 }
