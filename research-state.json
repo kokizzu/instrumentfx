@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer Bass V-AMP PRO",
-    "task": "PRO factory/user memory reconciled from explicitly shared manual chapter4. Continue fresh Shopee discovery and unresolved model-specific electrical/control/editor fields;retain revision conflicts.",
+    "task": "PRO effect-table discrepancy,prewah exclusions,acoustic simulation andpostFX crossover preserved. Continue unresolved I/O/control/editor and fresh discovery;do not imply full verification.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60763,5 +60763,23 @@
     "memory": "125 factory-programmed editable locations;not125+125",
     "behavior": "2second destination save;unsaved edits lost on change;single factory recall must be saved;full restore overwrites user sounds;SysEx backup referenced;last preset restored at startup",
     "limits": "No device test,not a current firmware audit"
+  },
+  "bass_vamp_pro_effects_20261017": {
+    "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf",
+    "revision": "v1.2 December2005 RevC",
+    "pages": "printed12–15",
+    "scope": "Explicit shared BASSVAMP/PRO chapters5–6",
+    "post_choices": 15,
+    "advertised_groups": 16,
+    "conflict": "Missing sixteenth unresolved;not assumed bypass",
+    "pre_choices": [
+      "MIDIWah",
+      "P-Funkn",
+      "AutoWah"
+    ],
+    "exclusion": "MIDIWah excludes other prewahs",
+    "acoustic": "PIEZOSIM explicitly gives electric guitar acoustic character;MICSIM distinct from pickup EQ",
+    "routing": "18dB/oct Butterworth postFX crossover;displayHz/10,dashoff",
+    "limits": "No device test or revised simultaneous ceiling"
   }
 }

@@ -82,9 +82,9 @@ Checked **2026-10-17**. Separate rack model; selected manufacturer manual sectio
 | Display | **2-digit 7-segment LED**, digital-format/sample-rate indicators; diagonal **?**. Touch/color specification **?**. [Manual][BV-M], [Specifications][BP-S] |
 | Dimensions / weight | **482.6 W ×135 D ×89 H mm**. Older v1.2 manual **approximately2.6kg**; Spanish manufacturer manual **approximately2.76kg**. Revision conflict retained. [Manual][BV-M], [Specifications][BP-S] |
 | Simultaneous blocks | Five preset ingredients: amp,cab,pre-effect,post-effect/combination,compressor. Denoiser independent. Exact algorithm ceiling **?**. [Manual][BV-M] |
-| Categories / choices | **32 amps** (16bass/8guitar/4keyboard/4acoustic), **23 cabs,16 effect groups,4 drive choices**; group count is not simultaneous count. [Manual][BV-M] |
+| Categories / choices | **32 amps** (16bass/8guitar/4keyboard/4acoustic), **23 cabs,16 advertised effect groups versus15 named post-effect table entries,4 drive choices**;unresolved group-count mismatch,not simultaneous count. [Manual][BV-M] |
 | Factory / user memory | **125 factory-programmed,rewritable locations,25×5**;factory originals can be recalled into the same locations,not an additional125-slot user bank. [Manual][BV-M] |
-| Synth / acoustic simulation | Three-voice synth,9variants; MIDI synth. Acoustic amp/voicing not independent electric-to-acoustic proof. [Manual][BV-M] |
+| Synth / acoustic simulation | Three-voice synth,9variants; MIDI synth. Manual p12 explicitly describes **PIEZO SIM giving electric guitars an acoustic character**;MIC SIM models a miked steel-string guitar,whileMAGNETIC EQ/PIEZO EQ correct pickup voicing. These are distinct from the synth. [Manual][BV-M] |
 | IR / NAM / capture | User IR,native NAM,converted NAM,capture **?**; factory digital/analog cab simulation alone does not establish import |
 | Audio/control I/O | Quarter-inch TS instrument;pre-DSP send/return;stereo post-DSP sends/returns;L/R TS analog outs;balanced XLR DI with ground lift;quarter-inch TRS phones;RCA and XLR digital outs;BNC wordclock;5-pin MIDI in/out-thru;IEC mains. [Specifications][BP-S] |
 | Power / battery / USB | **15W,IEC**. Regional mains120V60Hz,230V50Hz,100V50–60Hz,220V50Hz;general export120/230V50–60Hz. Not automatic universal-voltage proof. DC polarity N/A; draw in amps,battery/USB power **?**. [Specifications][BP-S] |
@@ -104,6 +104,14 @@ Checked **2026-10-17**. Separate rack model; selected manufacturer manual sectio
 | Field | Verified behavior / qualification |
 |---|---|
 | Memory / save and recovery | Shared manufacturer manual explicitly names **both BASS V-AMP and BASS V-AMP PRO** in chapter4,printed pp9–10. Hold a destination preset key about2seconds to save,overwriting that location;unsaved edits disappear on preset change. Single-location factory recovery recalls its original sound,which must then be saved. Full factory restoration overwrites user presets;MIDI SysEx backup is referenced in8.4.1. Last-used preset returns at power-up. This documents common model scope,not an inference from desktop-only instructions. [Manual v1.2,December2005][BV-M] |
+
+
+### Bass V-AMP PRO — effect choices and limits
+
+| Field | Verified inventory / qualification |
+|---|---|
+| Processing / category choices | Shared manual chapter6,printed pp13–15,table6.1 lists **15 post-effect selections**:VCF+Flanger,Delay+Chorus,StereoDelay,Delay/Loop,Reverb,Ambience,VoiceBox,Ultrabass,RotaryCab,Phaser,Flanger,Chorus,StereoChorus,Synth,MIDISynth. Text advertises16groups;the missing entry is unresolved,not assumed bypass. Table6.2 separately lists **MIDIWah,P-Funk’n,AutoWah**;MIDIWah excludes the other two. Compressor/denoiser can operate independently. [Manual][BV-M] |
+| Routing / post-effect crossover | Manual p14 specifies **18dB/octave Butterworth crossover**:frequencies below its threshold can bypass post-effects;display value isHz divided by10(8means80Hz),dash disables crossover. This is documented routing,not a measured low-end-quality claim. [Manual][BV-M] |
 
 <!-- comparison evidence ends -->
 
