@@ -2156,6 +2156,16 @@ Manufacturer PDF includes paired printed pages and appended USB/DAW guides; USB 
 
 Checked2026-10-17 against [original manual pp10–13,24][ZG21-M]. Factory duplication is documented,not inferred from equal bank sizes. Reset behavior describes destructive restoration only;no device/reset was operated. Tuner reference435–445Hz resets to440Hz after power cycling;it is not a retained patch setting. These are G2.1u facts,not G2.1Nu specifications.
 
+### G2.1u — USB monitoring and external-switch qualifications
+
+Checked2026-10-18 against the [original manual pp22–23][ZG21-M]; no software or document downloaded. PDF screenshot failed,so visual control corroboration remains pending.
+
+| Field | Finding / qualification |
+|---|---|
+| USB / manual rate qualification | Printedp23 lists **16-bit at32/44.1/48kHz**, adding32kHz to the earlier44.1/48 summary. This is the manual’s operating specification,not a test of every host/driver combination; internal96kHz processing remains separate. Legacy WindowsXP/macOS10.2+ compatibility is not current-OS certification. |
+| USB / monitoring and power selection | Processed guitar remains directly atOUTPUT,mixed withDAW playback. Manual instructs disablingDAW input echo to avoid doubled/flanger-like monitoring. **POWER OFF selectsUSB power; ON selectsbattery/adapter**. USB power is not battery charging. |
+| Footswitch / global assignment | ExternalFS01 selects **bypass/mute,tap tempo,bank up,rhythm start/stop,delay hold or delay-input mute**; selectedfunction applies acrosspatches. Delayhold requires a supportingtype and repeats thecurrentdelay until asecondpress cancels hold; this doesnot establish a general recordinglooper. ExternalFP01/FP02 volume-versus-parameter wording conflict remains above. |
+
 ## GFX-3
 
 Guitar multi-effects;distinct from GFX-5/G3. Checked2026-10-17;partial. Manufacturer discontinued. Bass/vocal suitability and ownership unverified.
