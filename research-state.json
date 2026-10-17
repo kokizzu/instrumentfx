@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Player",
-    "task": "Resolve remaining Player category/revision conflicts and internal IR formats,then fresh eligible Shopee discovery. IR import acceptance and Rig migration now saved.",
+    "task": "Fresh eligible Shopee discovery by manufacturer/series;Player output controls now saved. Retain unresolved category/firmware and image-only XLR pinout gaps.",
     "next_models": [],
     "after_queue": "Continue remaining model gaps;no downloads,workflows orpush."
   },
@@ -63296,5 +63296,13 @@
     "pages": "167–174",
     "finding": "Any sample rate/length accepted at desktop conversion stage;18preinstalledCelestionIRcab presets;LevelI unavailable effects empty except Natural→EasyReverb;III excludesloops.",
     "limits": "Import acceptance does not establish unlimited internal IR length,format support or extra memory. No files imported or downloaded."
+  },
+  "player_output_142_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English",
+    "revision": "July2026 OS14.2",
+    "pages": "23,67–74",
+    "finding": "Global main stereo mode,12dBpad,EQ/headphone/DIexceptions,allanalogcuts,masterlinks,constantlatency,phantomprotection distinguished.",
+    "remaining": "Custom stereo-XLR wiring is image-only and not inspected;no pinout inferred."
   }
 }
