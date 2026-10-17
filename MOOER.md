@@ -1508,6 +1508,8 @@ Checked 2026-10-17; partial. Guitar multi-effects;ownership,bass/vocal suitabili
 | Controls / EQ frequencies | CN specifies 100/250/630Hz, 1.4/4kHz plus LEVEL. [Manual CN][BT-M] |
 | Live / tuner qualification | EN specifies TAP to exit; CN also describes any footswitch exit. Neither section explicitly settles COMP/FX-loop preset recall scope. [Manual EN/CN][BT-M] |
 | Live / routing | Serial loop between EQ and MOD;four-cable setup supported. EQ positions before/after HI-GAIN. Tap controls delay,MOD,or both. Looper/drums/scenes unverified. [Manual][BT-M] |
+| Controls / rotary inventory, 2026-10-17 | **20 rotary controls**, counted from manufacturer manual text: COMP3 + OD3 + HI-GAIN4 + MOD4 (including rhythm selector) + SPACE5 + PHONES level1. **6 footswitches**, **6 EQ sliders**, **6 toggle selectors** (COMP,GATE,MID,PRE/POST,MOD type,SPACE type). Separate push-button total remains unverified. Resolves earlier rotary-total gap; not a new visual count. [Manual effect modules/connections][BT-M] |
+| I/O / impedances, 2026-10-17 | Manufacturer manual technical parameters: **input2 MΩ**, **main output100 Ω**, **headphones50 Ω**. SEND/RETURN impedances remain unknown. These ratings do not establish balanced outputs or settle the retained PHONES-size/language conflict. [Manual technical parameters][BT-M] |
 
 ### Separate IDR hardware offers
 

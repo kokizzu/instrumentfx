@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Black Truck",
-    "task": "Same Melodia BlackTruck item now newer indexed Rp3948675 vs retained oldersearch Rp3716400;condition/checkoutstock remain unknown. Commit before nextmodel. Next broaden Shopee discovery other vocal/bass/guitarseries;Mini categorycounts/USB formats/currentOS also remain.",
+    "task": "BlackTruck20rotaries derived from originalmanual inventory,6foot/6slider/6toggle andportimpedances saved;buttons unverified. Next fresh Shopee discovery and exact-model verification. BlackTruck expression/currentdraw/display/languageconflicts remain;Mini categorycounts/USBformats/currentOS remain.",
     "next_models": [],
     "after_queue": "Continue research and legacy consolidation; no workflows/downloads/push."
   },
@@ -58935,5 +58935,37 @@
     ],
     "result": "No neweligiblemodeloffer;existing BlackTruck exactitem recovered with changed indexed ask;RP355 adapter excluded",
     "next": "Broaden discovery to other vocal/bass/guitar series;no marketabsenceclaim"
+  },
+  "black_truck_controls_impedance_20261017": {
+    "source": "https://manualzz.com/doc/68316423/mooer-black-truck-combined-pedals-owner-s-manual",
+    "identity": "Manufactureroriginal EN/CN BlackTruck manual;revisionunmarked",
+    "rotary": 20,
+    "rotary_breakdown": {
+      "comp": 3,
+      "od": 3,
+      "higain": 4,
+      "mod_including_rhythm": 4,
+      "space": 5,
+      "phones": 1
+    },
+    "footswitch": 6,
+    "eq_sliders": 6,
+    "toggles": 6,
+    "push_buttons": "unverified",
+    "impedance_ohms": {
+      "input": 2000000,
+      "output": 100,
+      "phones": 50
+    },
+    "visual_inspection": false,
+    "remaining": [
+      "Buttons",
+      "Expression",
+      "Currentdraw",
+      "Displaydiagonal/color/touch",
+      "Languageconflicts",
+      "Conditionandcheckoutstock"
+    ],
+    "downloads": false
   }
 }

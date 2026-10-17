@@ -349,7 +349,7 @@ def main():
         if mode == 'commit-nux-mg101-audit':
             message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-pe100':
-            message = 'research(mooer): preserve Black Truck changed indexed hardware ask'
+            message = 'research(mooer): count Black Truck rotary controls and verify impedances'
         if mode == 'commit-ms60b':
             message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-rp360xp':
