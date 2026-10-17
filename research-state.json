@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-500",
-    "task": "VE5009VDC center-negative resolved via own PSA requirement and official adapter spec. Next inspect own owner manual USB/battery power and USB audio statements; preserve driver/editor distinctions and no phantom inference. No downloads. Commit before next.",
+    "task": "VE500 USB audio confirmed and oldunknown superseded;loopback/MIX/PRE FX/direct-monitor reset saved. Next verify own USB audio channel/format from official driver documentation available as web text; no downloads. If unavailable preserve gap and continue another eligible model. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56564,6 +56564,15 @@
       "sources": [
         "https://www.boss.info/global/products/ve-500/specifications/",
         "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications"
+      ]
+    },
+    {
+      "model": "BOSS VE-500",
+      "checked_date": "2026-10-18",
+      "finding": "USB audio positively confirmed own owner manual p3 and Parameter Guide p30. IN/OUT0–200,LOOP BACK disables ROUTING;MIX versusPRE FX;DIRECT MON unsaved resetsON. Earlier audio-unknown observations superseded. Channel/format,bus power,battery unknown. DC insertion/removal switches power.",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/VE-500_eng04_W.pdf",
+        "https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf"
       ]
     }
   ],
