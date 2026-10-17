@@ -583,7 +583,7 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | No built-in pedal in full panel inventory; Control In accepts passive expression/volume controller, **250 kΩ or greater**. Toe support unresolved. | [Manual pp6–11,35][RP70-M] |
-| K/F/B | **0 rotary / 2 footswitches / 10 buttons**, including rear Amp/Mixer: four library/level, Edit±, Value±, Drums, Store. Visual corroboration pending. | [Manual pp6–11][RP70-M] |
+| K/F/B | **0 rotary / 2 footswitches / 11 buttons total**: ten front (four library/level, Edit pair, Value pair, Drums, Store) plus rear Amp/Mixer. Corrects the earlier total of ten, which omitted the rear button from its arithmetic. Text-derived; visual corroboration pending. | [Manual pp6–11][RP70-M] |
 | Display | Numeric display and effect-matrix LEDs; diagonal/color/touch unresolved. | [Manual p9][RP70-M] |
 | Processing / categories | **Nine simultaneous effects**; full category catalogue pending. | [Manual p35][RP70-M] |
 | Categories / pickup-wah and dynamics | Two pickup conversions; Cry Baby, Clyde McCoy or Full Range wah. Compressor 1–20; ratio infinity:1. | [Manual pp21–22][RP70-M] |
