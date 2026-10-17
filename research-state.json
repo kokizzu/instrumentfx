@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Tech 21 Bass Fly Rig v2",
-    "task": "Verify own-manual full signal routing, effect combinations, controls and practical restrictions. Exact Shopee IDR offer unresolved. Keep v1 separate and do not reuse guitar Fly Rig specifications.",
+    "task": "Bass Fly Rig v2 channel/EQ/mix qualifications saved. Continue precise primary diagram/control verification if accessible, otherwise resume other-brand Shopee hardware discovery. Avoid repeating narrow headphone/preset searches that returned no model-specific resolution.",
     "next_models": [],
     "after_queue": "Commit useful findings before next model; continue hardware discovery. No downloads, workflows or push."
   },
@@ -53410,5 +53410,14 @@
       "shopee.co.id bass flyrig"
     ],
     "result": "No exact Indonesian hardware offer resolved; not evidence of market absence. NUX NBP-5 search hits not promoted solely from preamp/DI naming; eligibility unresolved."
+  },
+  "bass_fly_rig_v2_followup_20261017": {
+    "sources": [
+      "https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf",
+      "https://www.tech21nyc.com/wp-content/uploads/2021/05/BassFlyRig_v2_OM.pdf"
+    ],
+    "identity": "Both manufacturer-hosted texts identify Bass Fly Rig v2, ©2021; no filesystem download or binary identity claim.",
+    "finding": "Character switch mapping,asymmetric mid cut/boost frequencies,inactive lit channel controls,dry/wet blend and independent speaker simulation verified from manual.",
+    "remaining": "Full physical census and precise diagram order still partial; no v1 headphone claim or secondary review controls promoted."
   }
 }

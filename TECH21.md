@@ -63,6 +63,10 @@ Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and gui
 | Editor / platforms | Patch editor, drivers/updaters and mobile support unverified. No software downloaded. | Unresolved |
 | Looper / drums / live | Hold CHORUS/TUNER for muted tuning. Looper, drum machine, scenes and spillover unverified. | [Product][BFR2-P] |
 | Routing / practical limits | Buffered bypass. Chorus control also warns of clipping; gated fuzz cuts off abruptly below threshold. Exact full routing and resource restrictions remain partial. | [Manual pp2,7][BFR2-M] |
+| Category choices / channel behavior | Character IN selects Bass Driver DI voicing; OUT selects VT Bass DI. With SansAmp bypassed, selected Drive/Level knobs stay lit but are inactive. Bite adds presence. Two physical channel pairs do not establish programmable patches. | [Manual pp3–4][BFR2-M] |
+| Category / EQ | Active post-EQ: low ±12dB at 80Hz; mid cuts 12dB at 1kHz but boosts 12dB at 2kHz; high ±12dB at 3.3kHz. Noon is flat; mid cut/boost frequencies differ. | [Manual p4][BFR2-M] |
+| Effects / mix controls | Octave and fuzz combine or work separately; MIX spans dry-only through 50/50 to wet-only. Q minimum makes RANGE a high-cut tone control. Chorus knob changes amount/depth without a separate speed control. | [Manual pp5–6][BFR2-M] |
+| Routing / speaker simulation | Cabinet simulation works independently of SansAmp. External effect loop is after SansAmp; manufacturer documents four-cable use. Precise full diagram order remains pending. Do not infer arbitrary block reordering. | [Manual pp4,6][BFR2-M] |
 
 ### Separate IDR hardware offers
 
@@ -75,7 +79,7 @@ Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and gui
 
 Shopee searches for “Bass Fly Rig” and “bass flyrig” on 2026-10-17 did not resolve an exact Indonesian hardware seller/item. This is not proof of market absence. Seller/item, condition, stock, region, revision, bundle, adapter, warranty and voucher remain unverified. No foreign currency conversion or sibling-model offer substituted.
 
-Next: physical control census, full routing, preset-storage/import/editor scope, headphone/battery/USB facilities and exact IDR offers. Original manufacturer ©2021 v2 manual read as web text; no files downloaded. PDF screenshot retrieval did not provide usable visual corroboration.
+Next: physical control census, precise full signal order, preset-storage/import/editor scope, headphone/battery/USB facilities and exact IDR offers. Original manufacturer ©2021 v2 manual read as web text; no files downloaded. PDF screenshot retrieval did not provide usable visual corroboration.
 
 [BFR2-P]: https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/
 [BFR2-M]: https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf
