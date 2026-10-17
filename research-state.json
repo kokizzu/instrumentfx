@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper Acoustic Mini",
-    "task": "Commit explicit module order and separate Surabaya indexed ask. Next fresh discovery of a different guitar multi-effects brand/series; inspect existing full profiles before adding offers. Keep exact code and display/control gaps unresolved.",
+    "model": "Korg AX3000G",
+    "task": "Commit exact calibration sequence and two distinct qualified asks. Next primary review of remaining AX3000G electrical/routing restrictions or fresh guitar-series discovery; no repeated seller/census facts.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Acoustic Mini."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3000G."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57294,6 +57294,16 @@
       "sources": [
         "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf",
         "https://shopee.co.id/efek-pedal-gitar-akustik-valeton-dapper-acoustic-mini-strip-effect-i.1544987741.25346956323"
+      ]
+    },
+    {
+      "model": "Korg AX3000G",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual p44 resolves hand calibration EXP/CTL+up, literal EXP MAX backward/WRITE then EXP MIN forward/WRITE sequence, cancel/retry. Added distinct BILLY323538241/43013568151 Rp2.2m and VeGitarian6880038/3740596745 Rp1.75m Habis, retaining search/direct cache differences and condition/bundle gaps.",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf",
+        "https://shopee.co.id/Efek-Gitar-Korg-Toneworks-AX3000G-i.323538241.43013568151",
+        "https://shopee.co.id/efek-gitar-digital-korg-ax3000g-mulus-normal-adaptor-original-i.6880038.3740596745"
       ]
     }
   ],

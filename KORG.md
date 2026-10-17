@@ -98,6 +98,21 @@ Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass s
 | Used-title historical ask; sold out | **Rp1.500.000**, title explicitly SECOND; **Habis**. Alif_music_store,Kab.Gresik;shop132269522/item28705630633. Checked2026-10-17,direct JS-limited cached body,last-month crawl;search snapshot five months old. Stale30Aug–1Sep delivery;no live availability orcompleted sale. Page taxonomy incorrectly shows food/noodles;hardware identity rests on title,not category. Working state,authenticity,adapter/bundle,selected variant,warranty,shipping/tax/voucher anddelivered total unknown. Up-toRp10.000 late-arrival compensation isnot price discount. | [Exact item](https://shopee.co.id/KORG-AX-3000-G-TONEWORKS-SECOND-i.132269522.28705630633) |
 | New | Unknown; no qualified retail/new offer established. | — |
 
+### AX3000G — pedal calibration and additional hardware asks
+
+Checked 2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / calibration | [Own manual p44][AX-M] requires operating the pedal **by hand**. Power on holding **EXP/CTL + ▲**: display **EXP MAX**. Slowly move pedal back, release it, press WRITE: **EXP MIN**. Slowly move forward, release, press WRITE: COMPLETE. EXIT cancels; ERROR returns to EXP MAX for retry from the backward step. Display labels/order are retained exactly; this does not document toe-switch threshold adjustment. |
+
+| Condition / seller | Amount | Exact offer / access limits |
+|---|---:|---|
+| Condition unverified / BILLY MUSIK | **Rp2.200.000** | [323538241/43013568151](https://shopee.co.id/Efek-Gitar-Korg-Toneworks-AX3000G-i.323538241.43013568151), Kota Jakarta Timur. Two-month search versus last-month direct JavaScript-limited cache; relative tomorrow delivery. No Habis in extract is not stock proof. |
+| Condition unverified / VeGitarian Music | **Rp1.750.000; Habis** | [6880038/3740596745](https://shopee.co.id/efek-gitar-digital-korg-ax3000g-mulus-normal-adaptor-original-i.6880038.3740596745), Kab. Merangin. Three-month search cache, stale13July delivery; direct cache miss. Title claims clean/normal/original adapter; not an independently verified condition or package. |
+
+Both are exact AX3000G hardware asks. New/used status, working state, selected variation, adapter contents, warranty/import region, authenticity, shipping/tax and checkout total remain unverified. BILLY’s up-toRp10.000 late-arrival compensation is not a price discount. Historical asks, not current available ranges or completed sales.
+
 <!-- comparison evidence ends -->
 
 Other observations checked2026-10-17: [Hope Music, Kota Bandung,703817770/21944834396](https://shopee.co.id/Efek-Gitar-Korg-AX3000G-i.703817770.21944834396) displays Rp2,200,000 with voucher and three unresolved variations; advertised150k voucher threshold1m, eligibility/base price/variant/condition/stock/bundle unknown. Excluded from used/new exact-price projection. [studio_musik_gema, Kab. Blitar,102019323/25663831731](https://shopee.co.id/efek-gitar-second-korg-ax3000g-ax1500g-pod-floor-plus.-bonus-tas-effect-guitar-ax-3000g-1500g-3000-1500-bekas-normal-bukan-zoom-nux-mg-valeton-line-6-moer-i.102019323.25663831731) is sold out, four variations across multiple models, Rp2m–2.5m with bag claim; exact AX3000G selection unresolved, not a qualified model price.
