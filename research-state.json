@@ -28,9 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha SPX2000",
-    "task": "Clock sources/fallback andlogical MIDI-port/backup routing saved. Continue fresh Shopee series discovery andremaining primary-source gaps.",
-    "next_models": [],
+    "model": "TC-Helicon VoiceLive 3 Extreme",
+    "task": "Daily Music Store historical ask saved. Next inspect new VoiceLive Play exact lead shop9963816/item13036380896, then continue Shopee discovery and primary-source gaps.",
+    "next_models": [
+      "TC-Helicon VoiceLive Play exact Shopee lead 9963816/13036380896"
+    ],
     "after_queue": "314 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
@@ -41878,7 +41880,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha SPX2000."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive 3 Extreme."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52398,6 +52400,13 @@
       "source": "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf",
       "finding": "Clock sources/fallback and separate GENERAL/EDITOR logical MIDI-port assignments saved;qualified THRU andbulk backup scope.",
       "remaining": "Distinct algorithm/universal simultaneous totals,display diagonal/touch,USB audio/import/battery evidence andqualifiedoffers."
+    },
+    {
+      "model": "TC-Helicon VoiceLive 3 Extreme",
+      "checked_date": "2026-10-17",
+      "source": "https://shopee.co.id/TC-Helicon-VoiceLive-3-Extreme-Complete-Vocal-Effects-Processor-i.271847827.7963301750",
+      "finding": "Additional exact Extreme hardware ask Rp11823000, Daily Music Store Jakarta Timur, Habis in last-month cached body; retained outside qualified new/used amounts.",
+      "remaining": "Condition, stock, bundle, warranty, authenticity and delivered total unverified; technical gaps retained."
     }
   ],
   "discovery_cross_brand_bass": {
