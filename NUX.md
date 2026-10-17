@@ -917,6 +917,8 @@ Checked2026-10-17;partial. Own product explicitly supports guitar/bass;separate 
 | K/F/B | Separate rotary/footswitch/button counts unresolved. [Product][MP2-P] |
 | Display | Diagonal,color/touch unverified. [Product][MP2-P] |
 | Processing / categories | V2 page:13amps;14 Pre-EFX;6MOD;4delay;4reverb,plus gate. Simultaneous blocks/order unresolved. [Product][MP2-P] |
+| Processing / V2 named choices | Pre-EFX14:Touch Wah,U-Vibe,Tremolo,PH100,ST Singer,T Screamer,Katana,3Band EQ,Muff Fuzz,Crunch Box,Red Dirt,Morning Drive,Dist One,Rose Comp. MOD6:PH100,CE-1,ST Chorus,SCF,U-Vibe,Tremolo. DELAY4:Analog,Digital,Mod Delay,Ping Pong. REVERB4:Room,Hall,Plate,Spring. Categories overlap;these are selectable algorithms,not simultaneous block counts. [Product V2][MP2-P] |
+| Editor / USB audio qualification | Product recording prose claims driver-free Windows10/macOS and ASIO for Windows8.1-or-earlier. Support separately lists Win7 ASIO3.29.0 and Win10+5.30.0;listed drivers do not prove mandatory installation or minimum editor OS. Audio compatibility across exact versions remains untested. [Product recording/support][MP2-P] |
 | Preset memory | V2:7 presets,QR sharing;factory/user split unresolved. [Product][MP2-P] |
 | Synth / acoustic | Electric-to-acoustic IR simulation documented;dedicated synth unverified. [Product][MP2-P] |
 | I/O | Micro-B USB audio;headphone monitoring mixes guitar/computer playback. Full connector inventory/sizes unresolved. [Product][MP2-P] |

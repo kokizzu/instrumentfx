@@ -28,13 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX Mighty Plug MP-2",
-    "task": "MP-2 regional battery/current/dimensions saved with runtime conflict. Next preserve named V2 category choices and audio-driver distinctions,then defer remaining panel-only gaps and proceed queued Mustang Micro Plus.",
+    "model": "Fender Mustang Micro Plus",
+    "task": "MP-2 categories/driver qualifications saved;remaining gaps deferred. Verify queued exact Shopee Micro Plus offer against own manufacturer manual,then add root Fender record and guitar comparison;commit before Dapper Amp Mini.",
     "next_models": [
-      "Fender Mustang Micro Plus",
       "Valeton Dapper Amp Mini"
     ],
-    "after_queue": "Continue discovery;retain267-record gaps;no downloads/workflows/push."
+    "after_queue": "Fresh Shopee discovery;preserve268record gaps;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41362,7 +41361,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Mighty Plug MP-2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fender Mustang Micro Plus."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55817,5 +55816,11 @@
     "saved": "Exact MP-2 power/battery,dimensions/mass;3h regional vs4h manufacturer runtime;11includingmetronome vs10+metronome retained.",
     "qualification": "Regional distributor page;current official manual revision equivalence unverified.1pagePDFno text. Converted mirror panel/reset summary not adopted.",
     "remaining": "Panel/expression/display/fullIO,charginginput/playwhilecharging,memorysplit/simultaneous/order,IRimport/desktopeditor and qualified current conditions."
+  },
+  "mp2_categories_checkpoint_20261017": {
+    "source": "https://nuxaudio.com/product/mightyplug/",
+    "saved": "Named14Pre-EFX/6MOD/4delay/4reverb;driver-free recording prose kept separate from listed ASIO versions and editor OS.",
+    "deferred": "All remaining MP-2 control/expression/display,IO/charging,memory/simultaneous/import/desktopeditor and condition-specific offer gaps remain explicit.",
+    "next": "Proceed Mustang Micro Plus own-manual verification;never copy standard Mustang Micro specifications."
   }
 }
