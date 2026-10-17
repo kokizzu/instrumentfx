@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon Critical Mass discovery",
-    "task": "Resolve exact Shopee item for saved Critical Mass shop/search snippets, then verify own manufacturer multi-effect eligibility. Do not accept search-grid/shop prices as qualified exact asks. RFX1100 saved aspartial;retain remaining fields.",
+    "model": "Legacy bass hardware discovery",
+    "task": "Search exact Zoom B2.1u/B1Xnext/B9.1ut or BOSS ME50B hardware leads; reject mixed-variant minimums and adapters. CriticalMass manufacturer eligibility checkpoint saved but exact item unresolved; do not repeat identical shop/search retries without new route.",
     "next_models": [],
-    "after_queue": "Legacy bass variants,remainingtechnicalgaps andmigration;no downloads/workflows."
+    "after_queue": "CriticalMass fullmanual/exactitem,technicalgaps andmigration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -52822,5 +52822,16 @@
       }
     ],
     "rejected": "DigiTech Vocalist/BP200 power supply is accessory; Bass Squeeze compressor and Bass Driver dedicated pedals excluded; B1XFOUR/VoiceLivePlay/VL3Extreme already recorded. Search-page reopening returned unrelated products, so do not treat indexed search grid as exact offer verification."
+  },
+  "critical_mass_primary_checkpoint_20261017": {
+    "checked_date": "2026-10-17",
+    "qsg": "https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/CRITICAL%20MASS_QSG_EN.pdf",
+    "product_document": "https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf",
+    "identity": "Both exact manufacturer documents identify CRITICAL MASS/P0CGT; no sibling inference.",
+    "indexed_qsg": "Group-vocal Style/Mix, reverb and Adaptive Tone EQ/compression/de-essing/gate. Footswitch single press bypasses group;hold bypasses group and reverb. MicroUSB documented for firmware updates only.9V/>300mA adapter(not included),or4AA.",
+    "qualification": "Indexed product-document prose also claims automatic pitch correction; QSG control inventory alone does not establish it. Preserve pending fullmanual verification;do not turn omission intoNo. Suitable vocal multi-effect architecture,not guitar/bass eligibility.",
+    "access": "Direct PDF opens both502;indexed text only. WIYUNG shop retry failed;searches still yield only shop/search snippets,not exact Critical Mass item. No download.",
+    "market": "Saved Rp3.695.000 shop snippet andRp2.280.935 search-grid amount remain unqualified;no exact seller/item,condition/stock/bundle/voucher confirmation. No inventory addition yet.",
+    "next": "Resolve exact item or explicitly leave market gap when creating source-backed model;read fullmanufacturer manual andspecifications before treating firstpass asverified."
   }
 }
