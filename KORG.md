@@ -568,3 +568,11 @@ Official [Easy Start entry](https://www.korg.com/us/support/download/manual/1/22
 | Expression / assignment operation | Samep12:OCTAVE pedal assignment requires OCTAVE selectedasPRE FX;changingPREtoother type reassignspedal toVOLUME. VOLUME alwayson;minimumlevel configurable viaFUNCTION+AMBIENCE DEPTH. Physicalposition continuescontrolling sound andcannotbe stored. OriginalValueLED indicates equality withsavedparameter,not automatic knobpickup (p7). |
 | Tuner / specification | Samep14 explicitly publishes27.5–1318.5Hz(A0–E6)detectionrange,438–445Hz reference. This is range,not measuredaccuracy;sample/conversionformat stillunknown. |
 
+
+### AX10B — calibration and editing limits
+
+| Field | Manufacturer manual finding |
+|---|---|
+| Expression / calibration | Use a hand. Power on holding FUNCTION + PEDAL FX. Move fully back, release hand, press PEDAL FX; move fully forward, release hand, press PEDAL FX. MASTER/CANCEL aborts. Failure returns to the pre-calibration display; repeated failure requires service. Volume assignment with minimum0 helps check the returned endpoint. Extracted display glyphs are absent; no glyph or switching-pressure adjustment inferred. [Own manual p13](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+| Processing / shared amp control | MID FC/GAIN adjusts mid peak frequency for EQ through JAZZ; it adjusts gain for STUDIO through UKMAJOR. These are alternative functions of one knob. [Own manual p11](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+| Processing / editing conflict | Dedicated MODULATION instructions specify FUNCTION + DEPTH for SPEED; overview p10 instead says delay/reverb time for modulation. Preserve that wording conflict. AMBIENCE time uses two TAP presses. HALL/PLATE/SPRING reverb time is twice the tap interval. [Own manual pp10–12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |

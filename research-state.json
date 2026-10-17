@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX ToneLab SE",
-    "task": "Channel hold, effects mode, key lock, six chain orders and tap limits saved. Next fresh brand/series Shopee discovery and technical gap resolution. SE visual controls/display technology, present editor support and detailed processing ceiling remain unresolved.",
+    "model": "Korg AX10B",
+    "task": "Calibration and model-dependent amp control saved; modulation edit conflict preserved. Next fresh Shopee brand/series discovery plus a model-specific gap. AX10B current draw, socket polarity visual, converter format, exact display glyphs remain unknown.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab SE."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX10B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57380,6 +57380,14 @@
       "finding": "Own J1 manual resolves CH HOLD recall default OFF, effects-mode switch allocation and inactive bank-up, insert-disconnected input behavior, transient key lock, six serial chain orders and tap factor limits. Fresh Shopee search repeats BANKO sold-out ask; adapter/potentiometer/decal hits excluded.",
       "sources": [
         "https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf"
+      ]
+    },
+    {
+      "model": "Korg AX10B",
+      "checked_date": "2026-10-18",
+      "finding": "Own EFG1 confirms hand back-first PEDAL FX calibration, MASTER/CANCEL and missing glyph limits; model-dependent MID FC versus GAIN, and conflicting overview modulation edit wording versus dedicated SPEED section; HALL/PLATE/SPRING time twice tap. Fresh exact Shopee search returned no results, not proof of market absence.",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf"
       ]
     }
   ],
