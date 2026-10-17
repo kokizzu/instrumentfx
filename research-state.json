@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "HeadRush VX5",
-    "task": "Modeladded;verifyown1.3.1 notes andsource-dependentharmonycounts;do not addagain.",
+    "model": "Shopee discovery",
+    "task": "VX5 ownmanual/updatePDFaudit saved;do not repeat. Broaden bass/vocal andguitarseries discovery with exacthardwareoffers;check205inventory before addition.",
     "next_models": [],
-    "after_queue": "ContinueShopee bass/vocaldiscovery andlegacyconsolidation. No downloads/workflows."
+    "after_queue": "Legacyconsolidation incomplete;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -40655,7 +40655,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HeadRush VX5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49494,6 +49494,15 @@
       "checked_date": "2026-10-17",
       "finding": "Own2.1.2manual confirms50layers20min;FAQ100 retainedconflict. PREPOST/rigswitch/saveimport documented,tailsFXloopUSB restrictions;DAWReampmutehardwareout;2.3feedback and2.5dualscenes qualified.",
       "remaining": "Installedcategorycounts,unsavedlooppersistence,userstorage,currentOS,powerdraw andqualifiedoffers."
+    },
+    {
+      "model": "HeadRush VX5",
+      "checked_date": "2026-10-17",
+      "finding": "Harmony7instrument/11fixedchoices;12keys10scales5ranges. UpdatePDFconfirm1.2.2butaddscompvs support1.3.1 conflict. PostFXUSBrecord/playbackpostmix;PCbankCC32,CC16ABCC17Talk;retention5s/powerbutton.",
+      "sources": [
+        "https://cdn.inmusicbrands.com/HeadRush/vx5/VX5-Day1Firmware_v3.pdf"
+      ],
+      "remaining": "Firmwarelabelreconciliation,currentOSeditor,hardwareconflicts,qualifiedoffers."
     }
   ],
   "discovery_cross_brand_bass": {

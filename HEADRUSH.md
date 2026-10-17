@@ -441,12 +441,12 @@ Checked **2026-10-17**. Vocal multi-effects: independently switchable AutoTune,h
 | Display | **1.8-inch/45.7mm full-color LCD**;touch **?** [Manual,p.22][VX-M] |
 | Dimensions / weight | Manual **167 W×152 D×71 H mm;1.1kg**. Product instead **6.3 D×5.6 W×1.9 H inches;2.6lb**. Unresolved hardware/revision/measurement difference;mass basis unstated. [Manual,p.22][VX-M], [Product][VX-P] |
 | Simultaneous blocks / routing | Fixed FX order **compressor→Flavor→chorus→reverb→delay**, alongside AutoTune/harmony. Not freely movable blocks. Product says arbitrary sequencing,conflicting with FAQ's explicit fixed order. [FAQ][VX-Q], [Product][VX-P] |
-| Category choices | Manual1.3: **4 compressor,7 Flavor,5 chorus,5 reverb,7 delay** choices;delay1–4000ms. Harmony source:instrument orselectedkey;range choices source-dependent. **Compressor requires firmware≥1.3.1**,not launch firmware. [Manual,pp.14–16][VX-M], [Compressor support][VX-C] |
+| Category choices | Manual1.3: **4 compressor,7 Flavor,5 chorus,5 reverb,7 delay** choices;delay1–4000ms. Harmony: **7 instrument-following range choices**,or **11 fixed interval/combination choices** with Source Off;these are choices,not11 simultaneous voices. Key menu has12 pitchclasses,10 scales,5 vocalranges. Support says **compressor requires firmware≥1.3.1**;linked update PDF saysconfirm1.2.2 butalso describes compressor addition:version conflict retained. [Manual,pp.14–16][VX-M], [Compressor support][VX-C] |
 | Factory / user memory | **250 total**,99 factory-filled and151 blank;editable saves overwrite selectedslots. Last selectedpreset retained afterpowercycle. [Product][VX-P], [FAQ][VX-Q], [Manual,pp.6,12][VX-M] |
 | Synth / acoustic simulation | Vocal pitchcorrection,harmony andvoice coloration;independent synth/acoustic simulator **?**. Guitar input is unprocessedthru,not modeledguitarFX. [FAQ][VX-Q] |
 | Audio/control I/O | XLR mic,+48V;XLR main,groundlift;¼″guitar in/thru;phones;USB-B;DC. Rear/manual text specifies3.5mm phones,appendix says¼″;product agrees3.5mm. Guitar rear text saysTS,technical table permitsTRS/TS. No DIN MIDI/FXloop listed. [Manual,pp.9–10,21–22][VX-M], [Product][VX-P] |
 | Power / battery / USB | **9V DC,1A,center-negative,2.1mm barrel** adapter rating;actualdraw,battery andUSB-powered operation **?** [Manual,p.22][VX-M] |
-| Editor / USB audio | Stereo24bit48kHz USB audio;FAQ namescomputer,iPhone,iPad/tablet. Browser viaUSB is documented for **firmware updates**,not full editor;manual namesWindows11/macOS13–15. Windows networkingdriver distinct fromaudiodriver. Full editor/Linux/Android support **?** [FAQ][VX-Q], [Manual,pp.10,17][VX-M], [Compressor support][VX-C] |
+| Editor / USB audio | Stereo24bit48kHz USB audio;computer receives post-micFX stereo;computer playback mixes into mainout afterprocessing. UpdatePDF callsWindows11/macOS audio class-compliant;Windows10 networkingdriver concerns updater,not audio. FAQ namescomputer,iPhone,iPad/tablet. [Update PDF,p.2][VX-U] Browser viaUSB is documented for **firmware updates**,not full editor;manual namesWindows11/macOS13–15. Windows networkingdriver distinct fromaudiodriver. Full editor/Linux/Android support **?** [FAQ][VX-Q], [Manual,pp.10,17][VX-M], [Compressor support][VX-C] |
 | Looper / scenes / practical limits | A/B switches individualeffects withinpreset;Talk bypasses vocalFX. Harmony followskey/scale orinstrumentchords. Looper,drums,scenes anduninterruptedpresetswitching **?** [FAQ][VX-Q] |
 | IR / NAM / captures | No documentedloader in checkeduserguide;IR,nativeNAM,convertedNAM,proprietarycaptures **?**. Prime/Core features not assigned. [Manual][VX-M] |
 
@@ -462,7 +462,7 @@ Checked **2026-10-17**. Vocal multi-effects: independently switchable AutoTune,h
 
 ### VX5 provenance and remaining work
 
-OwnUserGuide1.3 read viawebtext;no localdownload. Productstill links1.2.2 updater whilebanner/supportdocument1.3.1;compressor availability remainsfirmwarequalified. Conflictingdimensions,mass,connector sizes andchain-order language retained. Next:own1.3.1 release notes,source-dependentharmony counts,exactsimultaneouslimit,currentofficialeditor/OS support andcondition-qualifiedoffers. Do not reclassify asguitar justbecauseGuitarThru exists.
+OwnUserGuide1.3 read viawebtext;no localdownload. Productstill links1.2.2 updater whilebanner/supportdocument1.3.1;compressor availability remainsfirmwarequalified. Conflictingdimensions,mass,connector sizes andchain-order language retained. Next:reconcile updatePDFversion labeling against1.3.1 support,exactsimultaneouslimit,currentofficialeditor/OS support andcondition-qualifiedoffers. Do not reclassify asguitar justbecauseGuitarThru exists.
 
 [VX-P]: https://www.headrushfx.com/products/vx5-autotune/index.html
 [VX-Q]: https://support.headrushfx.com/en/support/solutions/articles/69000870979-headrush-autotune-vx5-frequently-asked-questions
@@ -470,3 +470,11 @@ OwnUserGuide1.3 read viawebtext;no localdownload. Productstill links1.2.2 update
 [VX-C]: https://support.headrushfx.com/en/support/solutions/articles/69000880616-vx5-the-compressor-is-missing-from-the-fx-menu
 [VX-O1]: https://shopee.co.id/Headrush-VX5-Vocal-Effects-Pedal-with-Antares-AutoTune-i.16879370.40920257841
 [VX-O2]: https://shopee.co.id/HEADRUSH-VX5-VX-5-Vocal-Processing-Pedal-with-AutoTune-by-ANTARES-i.1030145984.43570585814
+
+### VX5 update-document audit — 2026-10-17
+
+The linkedthree-page updateinstructions say to confirm **1.2.2** onboot (p.1),yet p.3 adds compressor and simultaneousFX. Manufacturer support separately dates compressor to **1.3.1**. The PDF also uses an unrelatedinternalmodelcode for compressor;do not treat thatcode as a VX5variant. Its contents supportserialmultiFX,but do notresolvewhich firmwareintroducedeachfeature. [Update PDF][VX-U], [Compressor support][VX-C]
+
+Preset retention is saved afterfive seconds orpower-button shutdown. MIDI isreceived onallchannels:CC32 selects128/122-preset banks,ProgramChange selectswithinbank;CC16 controlsA/B,CC17 Talk. Neither thismapping norbrowserupdater proves a full editor. [Update PDF,p.2][VX-U], [Manual,p.18][VX-M]
+
+[VX-U]: https://cdn.inmusicbrands.com/HeadRush/vx5/VX5-Day1Firmware_v3.pdf

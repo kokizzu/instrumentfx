@@ -337,7 +337,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-vx5':
-            message = 'research(headrush): add VX5 vocal processor with firmware-qualified compressor'
+            message = 'research(headrush): qualify VX5 harmony choices and conflicting firmware notes'
         if mode == 'commit-pedalboard':
             message = 'research(headrush): verify Pedalboard looper revisions and routing restrictions'
         if mode == 'commit-gigboard':
