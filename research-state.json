@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fender Mustang Micro",
-    "task": "Original Micro firmware/update OS and version-dependent USB/EQ behavior saved. Memory/editor/import gaps remain unknown after own-support search. Next fresh Shopee Indonesia discovery by brand/series;keep all272 records partial.",
+    "model": "Discovery: legacy Zoom and other uncovered series",
+    "task": "Fresh indexed Shopee pass saved in discovery_legacy_zoom_frontier_20261017. Resolve exact G1XNext/B1XNext/G2.1Nu items or broaden series;shop-card mixed prices are unallocated and newer store omits them. No new model counted.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery;all272 records partial;no downloads/workflows/push."
+    "after_queue": "Continue manufacturer verification on exact qualified leads;272records partial;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -56211,5 +56211,59 @@
       "1.0.54": "2021-05-27 USB recording level independent of master;EQ no longer affects Bluetooth;tonal/level fixes"
     },
     "qualification": "No files downloaded or firmware installed. Updater support not editor/audio OS proof. Own support search did not establish original Micro Tone compatibility,memory slots or imports;remain unknown."
+  },
+  "discovery_legacy_zoom_frontier_20261017": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site.shopee.co.id Zoom GFX-8",
+      "site.shopee.co.id Digitech RP150",
+      "site.shopee.co.id Hotone Ravo",
+      "site.shopee.co.id Zoom G1X Next",
+      "site.shopee.co.id Zoom G2.1Nu",
+      "site.shopee.co.id Digitech RP350",
+      "site.shopee.co.id BOSS ME-6"
+    ],
+    "unrecorded_leads": [
+      {
+        "models": [
+          "Zoom G1X Next",
+          "Zoom B1X Next"
+        ],
+        "source": "https://shopee.co.id/hopemusik",
+        "indexed": "four months",
+        "ask_idr": 999000,
+        "qualification": "Mixed model shop-card only;no exactitem/variationallocation. Direct opened newer store snapshot omits listing. Not qualifiedhardwareoffer."
+      },
+      {
+        "models": [
+          "Zoom G2.1Nu"
+        ],
+        "source": "https://shopee.co.id/hopemusik",
+        "indexed": "four months",
+        "ask_idr": 1699000,
+        "qualification": "Mixed G2.1Nu/G2.1u/B2.1u shop-card;priceunallocated. Newer directstore snapshot omits listing. G2.1u/B2.1u alreadyrecorded;do not duplicate.",
+        "manufacturer_manual": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf"
+      }
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+        "reason": "Adapter,not GFX8processor"
+      },
+      {
+        "url": "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+        "reason": "Sensorpart,not processor"
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+        "reason": "Power supply,not RP350hardware"
+      },
+      {
+        "url": "https://shopee.co.th/เอฟเฟคกีต้าร์มือสอง-Hotone-Ravo-MP-10-%28Multi-effects-processor-USB-audio-interface%29-i.16136292.4917677127",
+        "reason": "Thailandmarket,not IDR/ShopeeIndonesia"
+      }
+    ],
+    "limits": "Limited indexed search;no exact new Indonesianhardwareitem qualified. Not evidence of market absence. No files downloaded.",
+    "next": "Search exact G1XNext/B1XNext/G2.1Nu item paths or other eligible series;do not promote shop-card asks to model prices."
   }
 }
