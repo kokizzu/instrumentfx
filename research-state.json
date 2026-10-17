@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX400",
-    "task": "MX400 USB/plugin audio path and external switch assignments saved. Next verify per-mode category libraries and whole-device memory totals; then saved SPX2000 lead.",
+    "task": "MX400 Surround Hall DSP exclusivity and bypass/tempo behavior saved. Next inspect per-mode effect selector tables and Stereo/Surround bank lists; text extraction omits those tables,so totals remain unresolved. Then saved SPX2000 lead.",
     "next_models": [
       "Yamaha SPX2000"
     ],
@@ -53531,5 +53531,11 @@
     "pages": "34,42–44",
     "finding": "16 switch assignments per TRS contact; USB control distinct from external analog/SPDIF audio; VST Windows/AU Mac and one plugin window per unit, MIDI port contention retained.",
     "remaining": "Per-mode category libraries,total onboard memory accounting,initial user fill,visual corroboration,current OS/bitness and unresolved facilities."
+  },
+  "mx400_surround_live_followup_20261017": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
+    "pages": "17–20",
+    "finding": "Surround Hall consumes all DSP; front/rear wet/dry behavior separated. Effect/program bypass scope and four global bypass behaviors documented; tempo save requirement retained.",
+    "remaining": "Library selector counts by mode,whole-device bank totals and initial user fill remain unproven. PDF text exposes only Dual Stereo program list; Stereo/Surround list pages are not text-extracted."
   }
 }
