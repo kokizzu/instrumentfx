@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 Helix Floor",
-    "task": "Newmodeladded;own3.80manualtooLarge. Retrieveindexedprimarymanualsections forpower,looplimits,categories;do notborrowLT oraddduplicate.",
-    "next_models": [
-      "Line 6 Helix Stadium XL Floor"
-    ],
-    "after_queue": "No downloads/workflows;continuelegacyconsolidation anddiscovery."
+    "model": "Line 6 Helix Stadium XL Floor",
+    "task": "OriginalFloor added andlooper primaryaudit saved;do not repeat. Verify exactShopee440477624/53707848703 andownStadiumXL documentation;do notborroworiginalFloor specifications.",
+    "next_models": [],
+    "after_queue": "No downloads/workflows;legacyconsolidation anddiscovery incomplete."
   },
   "new_findings": [
     {
@@ -40671,7 +40669,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 Helix Floor."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 Helix Stadium XL Floor."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49530,6 +49528,12 @@
         "https://cdn.inmusicbrands.com/HeadRush/vx5/VX5-Day1Firmware_v3.pdf"
       ],
       "remaining": "Firmwarelabelreconciliation,currentOSeditor,hardwareconflicts,qualifiedoffers."
+    },
+    {
+      "model": "Line 6 Helix Floor",
+      "checked_date": "2026-10-17",
+      "finding": "Original Floor indexed manual plus manufacturer KB: one looper;60mono30stereo full speed,120/60 half;Shuffle nohalf;matchingmodel/path/type constraints. Improved newrecord readability withoutdroppingprovenance.",
+      "remaining": "Fullmanual tooLarge;power,categorycounts,storage,currentOS andqualifiedoffers."
     }
   ],
   "discovery_cross_brand_bass": {

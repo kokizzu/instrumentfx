@@ -990,41 +990,41 @@ Yamaha Singapore table lists268effectmodels without firmware date,distinct from 
 ## Helix Floor
 
 <!-- comparison evidence begins -->
-Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack andStadium. Guitar,bass andlive microphone processing explicitly documented. Platinum is the same hardware with a differentfinish permanufacturer timeline;count once.
+Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium. Guitar, bass and live microphone processing explicitly documented. Platinum is the same hardware with a different finish per manufacturer timeline;count once.
 
 | Required field | Finding |
 |---|---|
-| Built-in / external / toe expression | Built-in pedal,toe togglesEXP1/2;two externalEXP2/3 inputs. CV/expression output andamp-switch output separate. [Cheat sheet][HF-S], [Floor product][HF-P] |
-| Knobs / footswitches / buttons | **10 rotaries includingrotaryjoystick /12 footswitches /8 separate frontbuttons**:Preset,Volume,Phones,6parameterknobs,joystick;Save,Menu,Home,Amp,Bypass,Action,2Pagebuttons. Pushencoders counted once;toe,rearpower/groundlift additional. Text-derived;product's thirteen-footstrip wording conflicts with FS1–12 cheat sheet. [Cheat sheet][HF-S], [Floor product][HF-P] |
-| Display | **6.2-inch,800×480 color LCD**;touchscreen **?**. Capacitivefootcontrols do not prove screentouch. Separate scribblestrips;exactcount/diagonal pendinggivenproductwordingconflict. [Comparison KB][HF-K], [Floor product][HF-P] |
-| Dimensions / weight | KB **22.05 W×11.85 D×3.58 H inches;14.7lb**;oldermanufacturerFAQ **22.05×11.85×3.6 inches;14.6lb**. Preserve rounding/massdifference;basisunspecified. [Comparison KB][HF-K], [FAQ][HF-Q] |
-| Simultaneous blocks | Indexedmanufacturerchart **up to32,DSP-permitting**;fourstereopaths. Fouramp/IRconcurrencyclaims are DSP-qualified,not universalmaximumheavychains. [Chart][HF-C], [FAQ][HF-Q], [Floor product][HF-P] |
-| Category choices | Indexedchart96amps/268effects,firmwarebasisunstated;olderKB62amps/37cabs/16mics/104FX ishistorical. Current3.80category-by-category audit **?**. Do not presentoldertotals asinstalledcurrentlibrary. [Chart][HF-C], [Comparison KB][HF-K] |
-| Factory / user presets | **1,024 locations** (8×32×4);factory-filledsubset **?**;up to8snapshots per preset. Snapshots are variations,not additionalpreset slots. [Chart][HF-C], [Floor product][HF-P] |
-| Synth / acoustic simulation | OwncheatsheetdocumentsPitch/Synthcategory;exactsynthesis/acousticsimulator algorithms andrestrictions **?**,not borrowedfromLT. [Cheat sheet][HF-S] |
-| IR / NAM / capture | UserIRs supported;oldermanufacturerFAQ **128 slots,1024/2048points,up to4simultaneous DSP-permitting**. NativeNAM,convertedNAM,proprietarycaptureloading **?**;StadiumProxy notinferred. [FAQ][HF-Q] |
-| Audio/control I/O | Guitar/activeinstrumentAUX;XLRmicwith48V;4send/returnpairs;stereoXLR and¼″TSmains;stereophones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DINMIDIin/out-thru;RCA S/PDIFin/out;AES/EBU/L6LINKout;USB;groundedAC. Exactremainingjacktypes/USBconnector pendingmanual. [Cheat sheet][HF-S], [Floor product][HF-P] |
-| Power / battery / USB | GroundedACin confirmed;voltage/frequency/current **?**. DCpolarityN/A. Battery/USB-poweredoperation **?**;USBinterface doesnotprovebuspower. [Cheat sheet][HF-S] |
-| Editor / USB audio | **HX Edit** editor distinctfromHelixNativeplugin/updater;Mac/Windows documented,exactcurrentOSversions **?**. **8-in/8-out,24bit/up to96kHz**,DI/reamp/MIDI;iPadwithcameraadapter. [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
-| Looper / snapshots / routing | Looperblockplacedonanypath/output;duration,retention anddrums **?**. 8snapshots;truepresetspilloverusesonly2paths percurrentproduct. Micprocessing supports vocalmembership,notproof ofintelligentvocalharmony. [FAQ][HF-Q], [Floor product][HF-P] |
+| Built-in / external / toe expression | Built-in pedal; toe toggles EXP1/2;two external EXP2/3 inputs. CV/expression output and amp-switch output separate. [Cheat sheet][HF-S], [Floor product][HF-P] |
+| Knobs / footswitches / buttons | **10 rotaries including rotary joystick /12 footswitches /8 separate front buttons**:Preset,Volume,Phones,6parameter knobs,joystick;Save,Menu,Home,Amp,Bypass,Action,2Page buttons. Push encoders counted once; toe, rear power/ground lift additional. Text-derived; product’s thirteen-strip wording conflicts with FS1–12 cheat sheet. [Cheat sheet][HF-S], [Floor product][HF-P] |
+| Display | **6.2-inch,800×480 color LCD**;touchscreen **?**. Capacitive foot controls do not prove screen touch. Separate scribble strips;exact count/diagonal pending given the product wording conflict. [Comparison KB][HF-K], [Floor product][HF-P] |
+| Dimensions / weight | KB **22.05 W×11.85 D×3.58 H inches;14.7lb**;older manufacturer FAQ **22.05×11.85×3.6 inches;14.6lb**. Preserve rounding/mass difference; basis unspecified. [Comparison KB][HF-K], [FAQ][HF-Q] |
+| Simultaneous blocks | Indexed manufacturer chart **up to32,DSP-permitting**;four stereo paths. Four-amp/IR concurrency claims are DSP-qualified; heavy chains may reach the limit earlier. [Chart][HF-C], [FAQ][HF-Q], [Floor product][HF-P] |
+| Category choices | Indexed chart 96amps/268effects,firmware basis unstated; older KB 62amps/37cabs/16mics/104FX is historical. Current 3.80 category-by-category audit **?**. Do not presentolder totals as the current installed library. [Chart][HF-C], [Comparison KB][HF-K] |
+| Factory / user presets | **1,024 locations** (8×32×4);factory-filled subset **?**;up to 8 snapshots per preset. Snapshots are variations,not additional preset slots. [Chart][HF-C], [Floor product][HF-P] |
+| Synth / acoustic simulation | Own cheat sheet documents the Pitch/Synth category;exact synthesis/acoustic simulator algorithms and restrictions **?**,not borrowed from LT. [Cheat sheet][HF-S] |
+| IR / NAM / capture | User IRs supported;older manufacturer FAQ **128 slots, 1024/2048 points, up to 4 simultaneous DSP-permitting**. Native NAM, converted NAM, proprietary capture loading **?**;Stadium Proxy not inferred. [FAQ][HF-Q] |
+| Audio/control I/O | Guitar/active-instrument AUX;XLR mic with 48 V;4 send/return pairs;stereo XLR and¼″TS mains;stereo phones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DIN MIDI in/out-thru;RCA S/PDIF in/out;AES/EBU/L6 LINK out;USB;groundedAC. Exact remaining jack types/USB connector pending manual. [Cheat sheet][HF-S], [Floor product][HF-P] |
+| Power / battery / USB | Grounded AC in confirmed;voltage/frequency/current **?**. DC polarity N/A. Battery/USB-powered operation **?**;USB interface does not prove bus power. [Cheat sheet][HF-S] |
+| Editor / USB audio | **HX Edit** editor distinct from Helix Native plugin/updater;Mac/Windows documented; exact current OS versions **?**. **8-in/8-out,24-bit/up to 96 kHz**,DI/reamp/MIDI;iPad with camera adapter. [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
+| Looper / snapshots / routing | One looper per preset. Manufacturer KB gives **60 s mono/30 s stereo at full speed**, doubled at half speed. Across presets, KB requires matching mono/stereo type, path and footswitch assignment; indexed Floor manual additionally specifies matching 6 Switch/1 Switch/Shuffle model. Shuffle has no half-speed extension. Retention and drums **?**. [Looper KB][HF-L], [Indexed Floor manual][HF-M0] 8snapshots;true preset spillover uses only 2 paths per current product. Mic processing supports vocal membership; intelligent vocal harmony is unverified. [FAQ][HF-Q], [Floor product][HF-P] |
 
 ### Helix Floor — separate IDR offers
 
 | Class | Amount | Exact offer and qualifications |
 |---|---:|---|
-| Indexed hardware ask;conditionunverified | **Rp30.609.000** | [W Musik Official Shop,shop37016589/item24212177775][HF-O1],JakartaUtara;retrieved2026-10-17,cachelastmonth. Earlier4monthindex **Rp28.999.000**,June3delivery,retainedasolderobservation. Condition,variant,bundle,warranty,checkoutstock **?**;mallbadge notconditionproof. Late-deliveryvoucher notdeducted. |
-| Historical hardware ask;conditionunverified;**soldout** | **Rp19.850.000** | [SMOSYU MUSIC,shop397175630/item27006529188][HF-O2],Bekasi;retrieved2026-10-17,cachelastmonth,**Habis**. Condition/accessories/warrantyunknown;notverifiedusedprice. |
+| Indexed hardware ask;condition unverified | **Rp30.609.000** | [W Musik Official Shop,shop37016589/item24212177775][HF-O1],JakartaUtara;retrieved 2026-10-17,cache last month. Earlier 4-month index **Rp28.999.000**,June 3 delivery, retained as an older observation. Condition,variant,bundle,warranty, checkout stock **?**;mall badge does not establish condition. Late-delivery voucher not deducted. |
+| Historical hardware ask;condition unverified;**sold out** | **Rp19.850.000** | [SMOSYU MUSIC,shop397175630/item27006529188][HF-O2],Bekasi;retrieved 2026-10-17,cache last month,**Habis**. Condition/accessories/warrantyunknown;not a verified used price. |
 | Verified used offer | **?** | Not established |
-| Verified new offer | **?** | Saleconditionnotverified |
+| Verified new offer | **?** | Sale condition not verified |
 <!-- comparison evidence ends -->
 
 ### Helix Floor provenance and gaps
 
-Own3.80manualURLreturned **contenttoo large,14,601,036bytes**;manualwasnotread ordownloaded. AccessibleoriginalRevAcheatsheet,Floorproduct,manufacturerKB andolderFAQprovidepartial evidence. IndexedcomparisonPDFcontains96/268/32claims;directPDFfailed,soindexedtable evidenceisexplicit. Current3.80firmwareindex identifiesNovember19,2024;thisdoesnotdateallwebpagefigures. NoLTspecification fillsmissingFloorfields.
+Own 3.80 manual URL returned **content too large,14,601,036bytes**;manual was not read or downloaded. Accessible original Rev A cheat sheet, Floor product page, manufacturer KB and older FAQ provide partial evidence. Indexed comparison PDF contains 96/268/32 claims; direct PDF failed, so indexed table evidence is explicit. Current 3.80 firmware index identifies November 19, 2024; this does not date all webpage figures. No LT specification fills missing Floor fields.
 
-Manufacturer [timeline][HF-T] explicitlysaysPlatinum isidenticalexceptfinish. Its separatecached **Rp25.000.000** sold-out [MR.GUITAR INDONESIA,shop605621869/item47400474099][HF-O3],Depok,2monthindexwithAugust12delivery,isvariantprovenance,notanothermodel orauthenticatednewprice. Fullcondition,bundle,warrantyremainunknown.
+Manufacturer [timeline][HF-T] explicitly says Platinum is identical except finish. Its separate cached **Rp25.000.000** sold-out [MR.GUITAR INDONESIA,shop605621869/item47400474099][HF-O3],Depok,2-month index with August 12 delivery, is variant provenance, not another model or an authenticated new price. Full condition, bundle and warranty remain unknown.
 
-Next:readaccessibleownmanualtext,verifycompletepower/ports,looplimits,factoryfilledmemory,firmware3.80categorychoices andcurrenteditorOSsupport. Preserveeveryhistoricalprice andvariantdistinction.
+Next:read accessible own manual text, verify complete power/ports, loop limits, factory-filled memory, firmware 3.80 category choices and current editor OS support. Preserve every historical price and variant distinction.
 
 [HF-P]: https://line6.com/helix/helix-guitar-processor.html
 [HF-S]: https://line6.com/data/6/0a0643391bb055fca90096a38/application/pdf/Helix%20Cheat%20Sheet%20-%20English%20(%20Rev%20A%20).pdf
@@ -1037,3 +1037,10 @@ Next:readaccessibleownmanualtext,verifycompletepower/ports,looplimits,factoryfil
 [HF-O1]: https://shopee.co.id/Yamaha-LINE-6-HELIX-Floor-Yamaha-LINE-6-HELIX-LINE-6-HELIX-Floor-i.37016589.24212177775
 [HF-O2]: https://shopee.co.id/Line-6-Helix-Floor-i.397175630.27006529188
 [HF-O3]: https://shopee.co.id/Line-6-Helix-Floor-Platinum-Limitide-Edition-Helix-Effect-Guitar-Bass-i.605621869.47400474099
+
+### Helix Floor looper audit — 2026-10-17
+
+The original Floor manual at a separate 3.0-named URL was also too large for direct reading (14,238,658 bytes). Search-indexed manufacturer text establishes three looper models and matching-model restrictions; its filename says 3.0 while the indexed title says Rev F, so revision identity remains qualified. This is not a full manual review. The accessible manufacturer KB supplies loop times and older cross-preset conditions. Neither source establishes saved audio export or power-cycle retention.
+
+[HF-L]: https://kb.line6.com/the-helix-looper
+[HF-M0]: https://line6.com/data/6/0a00050b287e6643b71cda93a/application/pdf/Helix%203.0%20Owner%27s%20Manual%20-%20English%20.pdf

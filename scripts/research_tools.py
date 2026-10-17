@@ -337,7 +337,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-helixfloor':
-            message = 'research(line6): add original Helix Floor and preserve qualified offer revisions'
+            message = 'research(line6): verify Helix Floor loop limits and improve record readability'
         if mode == 'commit-vx5':
             message = 'research(headrush): qualify VX5 harmony choices and conflicting firmware notes'
         if mode == 'commit-pedalboard':
