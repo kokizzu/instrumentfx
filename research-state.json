@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper VES-1",
-    "task": "Dapper VES-1 partial record added;next inspect readable own-manual text for controls,loop position/cab routing and delay behavior; preserve unknowns and exact Habis offer.",
+    "model": "Valeton Dapper MDR",
+    "task": "VES-1 manual/control gaps deferred after alternate official PDF and failed mirror access. Next read complete MDR own manual,verify exact offer and add distinct guitar multifx record with category counts/controls/routing;commit before next model.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery;preserve prior technical/price gaps;no downloads/workflows/push."
+    "after_queue": "Fresh Shopee brand/series discovery;retain all prior gaps;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -55662,5 +55662,32 @@
     "manual": "https://www.valeton.net/download/172/dapperdiscontinued/18458/dapper_manual_en_v01_160111-2.pdf",
     "manual_access": "2-pagePDF,no extracted text;no download/visual verification.",
     "remaining": "Control counts/expression/display,completeIO/routing,simultaneous architecture/memory,delay minimum,barrel/battery/USB,IR/editor,condition-specific prices and bass/vocal suitability."
+  },
+  "dapper_ves1_access_checkpoint_20261017": {
+    "official_landing": "https://www.valeton.net/wpfd_file/dapper_manual_en_v01_160111/",
+    "alternate_pdf": "https://www.valeton.net/download/285/dapper/18041/dapper_manual_en_v01_160111.pdf",
+    "result": "Official landing links same named V01_160111 manual,544KB. Alternate PDF also2pages,no extracted text. Mirror54395012 indexed but truncated URL failed cache;bare document path inaccessible. No readable panel inspected;controls/routing not resolved.",
+    "deferred": "Retain all VES-1 gaps;do not adopt Mini/Bass/Reverb claims from unrelated or generated pages."
+  },
+  "discovery_dapper_mdr_20261017": {
+    "model": "Valeton Dapper MDR",
+    "unrecorded": true,
+    "checked": "2026-10-17",
+    "product": "https://www.valeton.net/product/dapper-mdrdiscontinued/",
+    "manual": "https://www.valeton.net/download/122/dapper/18034/dapper-mdr_manual_en_v01_181108.pdf",
+    "offer": {
+      "url": "https://shopee.co.id/Valeton-Dapper-MDR-Effects-Strip-Guitar-Effect-i.141177049.2861386191",
+      "seller": "TokoGitarBagusTangerang",
+      "shop": "141177049",
+      "item": "2861386191",
+      "region": "Kota Tangerang",
+      "idr": 1800000,
+      "stock_label": "Habis",
+      "crawl": "two weeks",
+      "condition": "unverified"
+    },
+    "eligibility": "Own product identifies independent modulation,delay,reverb sections;effects-only multifx qualifies. Dedicated Dapper Looper Mini does not qualify merely through loop memories.",
+    "primary_lead": "Official indexed own manual lists9modulations,3delays,3reverbs,25–2000ms delay,150mA9Vcenter-negative,197×65×42mm417g;verify full source before canonical addition. Product delay prose duplicates reverb description,so preserve own-page copy issue.",
+    "limits": "Historical indexed ask,notlivecheckout;condition,variant,bundle,authenticity,warranty,shipping/tax/vouchers unverified. No download."
   }
 }
