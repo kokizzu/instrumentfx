@@ -162,3 +162,32 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 - [FX-M: Full manufacturer manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf),direct opening failed;subsequent manufacturer-indexed text successfully inspected2026-10-17,pp.12,16–17,25 forcombination architecture,sampler,preset activation,routing andconflicting dimensions/mass. Full PDF body/visual panel remains uninspected.
 
 No files downloaded. Remaining:fullmanual visual/revision check,display diagonal,software/routing andqualified offers.
+
+## V-AMP 3
+
+Checked2026-10-17. Partial guitar/bass multi-effects record,distinct from V-AMP2. [Manufacturer manual](https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf),18pages,©2013;web text only,no download orvisual diagram audit.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No integrated pedal;MIDI wah/volume control. External analog EXP/toe unknown. |
+| Controls | Derived **11 rotary /0 integrated footswitches /9 buttons**:10top+sideAUX;A–E,BankUp/Down,TAP,TUNER. |
+| Display | Two-digit seven-segmentLED;diagonal/color/touch unknown. |
+| Processing / choices | **32amps,15cabinets,9reverbs**. Five preset ingredients:amp,cab,preFX,postFX,reverb;not five arbitrary effects. Categorysubtotals unknown. |
+| Presets | **125 editable presets,25×5**;not125factory+125user. |
+| Synth / acoustic | Acoustic/bass preset banks documented;dedicated synthesis/acoustic conversion unknown. |
+| Dimensions / weight | **79H×267W×180D mm;0.8kg**. |
+| I/O | ¼instrument,AUX,stereophones;L/Rline;DIN MIDI IN/OUT-THRU;¼TRSfootswitch;AC IN. Specification calls line outputs “TS,balanced”;panel text accepts balanced/unbalanced cables. Preserve inconsistency. |
+| Power | External supply;**13W**. Adapter output voltage/current/connector,polarity,battery unknown. Regional mains ratings are not processor input ratings. |
+| USB / software | USB audio uses separate **UCA222**;not onboard USB. UCA PC/Mac support is not aV-AMP editor. Full editorOS unknown. |
+| IR / NAM / capture | Native/convertedNAM,userIR,capture import unknown. |
+| Looper / drums / routing | Looper/drums/scenes unknown. Five output configurations;headphones forceS1. |
+
+### V-AMP 3 — separate IDR offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used | Unknown | — |
+| New | Verified new-condition price unknown | — |
+| Condition unverified / melodiasby,Kota Surabaya | **Rp2.046.000**. Opened body crawl1month;index2months. Current stock,variant,bundle/UCA222/footswitch/adapter,warranty,voucher,shipping/tax unknown. Stale September delivery window andlate-arrival voucher do not prove stock orhardware discount. | [158144224/26680659166](https://shopee.co.id/Behringer-V-Amp-3-Guitar-Multi-Effect-Processor-i.158144224.26680659166) |
+
+Own product-information PDF8849735680030 failed web access;no facts adopted. Remaining work includes firmware/library-specific effect counts,power ratings,display specifications andcondition-qualified offers.

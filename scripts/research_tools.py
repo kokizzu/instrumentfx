@@ -437,7 +437,7 @@ def main():
         if mode == 'commit-rp155':
             message = 'research(digitech): qualify RP70 power digital ports and software support'
         if mode == 'commit-vamp2':
-            message = 'research(behringer): correct V-AMP 2 dry routing and count effect selections'
+            message = 'research(behringer): add V-AMP 3 and distinguish separate USB interface'
         if mode == 'commit-bass-vamp-pro':
             message = 'research(behringer): add separate Bass V-AMP PRO and preserve specification conflicts'
         if mode == 'commit-bass-vamp':

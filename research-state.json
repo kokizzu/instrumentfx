@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 276,
+  "active_model_count": 277,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 276,
+  "canonical_root_model_count": 277,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "276uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.AX10BbassfocusedwithIDRunknown.",
+  "count_reconciliation": "277uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.V-AMP3guitar/bass;USBthroughseparateUCA222.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B1on",
-    "task": "B1on save/update/tuner details and logical panel-key inventory saved;physical counts remain unresolved without inspectable diagram. Next resume Shopee brand/series discovery for eligible unrecorded models;do not repeat failed image retrieval or duplicate recorded B1on offers.",
+    "model": "Behringer V-AMP 3",
+    "task": "V-AMP3 added with exact Shopee offer and primary manual;next verify effect-selector categories and power source without borrowing V-AMP2;preserve TSbalanced contradiction and separate UCA222 USB.",
     "next_models": [],
-    "after_queue": "Continue Shopee brand/series discovery;276partialmodels;fullscopeincomplete."
+    "after_queue": "277partialrecords;continue fullfieldresearch andlosslesslegacyconsolidation;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23982,7 +23982,8 @@
       "Bass V-AMP",
       "Bass V-AMP PRO",
       "V-AMP 2",
-      "FX2000"
+      "FX2000",
+      "V-AMP 3"
     ],
     "Lexicon": [
       "MX200",
@@ -24324,7 +24325,8 @@
       "Bass V-AMP",
       "Bass V-AMP PRO",
       "V-AMP 2",
-      "FX2000"
+      "FX2000",
+      "V-AMP 3"
     ],
     "LEXICON.md": [
       "MX200",
@@ -24349,14 +24351,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 226,
+      "record_count": 227,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 110,
+      "record_count": 111,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 82,
+      "shared_bass_capable_count": 83,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41312,18 +41314,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 276,
-    "canonical_root_models": 276,
+    "unique_brand_model_pairs": 277,
+    "canonical_root_models": 277,
     "legacy_only_models": 0,
-    "guitar_view_models": 226,
+    "guitar_view_models": 227,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 110,
-    "bass_shared_models": 82,
+    "bass_view_models": 111,
+    "bass_shared_models": 83,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41375,7 +41377,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B1on."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer V-AMP 3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41593,6 +41595,7 @@
       "Behringer::Bass V-AMP PRO",
       "Behringer::V-AMP 2",
       "Behringer::FX2000",
+      "Behringer::V-AMP 3",
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
@@ -41713,6 +41716,7 @@
       "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
       "Behringer::FX2000",
+      "Behringer::V-AMP 3",
       "Lexicon::MX300",
       "Lexicon::MX400",
       "Yamaha::SPX990",
@@ -41772,6 +41776,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Behringer::V-AMP 3": "Manufacturer manual p8 documents two bass-preset banks, with recording-oriented qualification;not bass-specialist equivalence. [Source](https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf)",
     "Line 6::POD HD300": "Own HD300/HD400 Flash2.0+ Advanced Guide includes Flip Top bass amp and115FlipTop bass cab;installed firmware must be checked.",
     "Fender::Mustang Micro": "Own PR5833 manual Studio Preamp explicitly ideal for bass/acoustic instruments;not inferred from plug compatibility.",
     "BOSS::KATANA:GO": "Own product explicitly provides bass mode3amps and30memories. https://www.boss.info/global/products/katana-go/",
@@ -43863,6 +43868,13 @@
     },
     "Behringer::FX2000": {
       "link": "BEHRINGER.md#fx2000",
+      "source_files": [
+        "BEHRINGER.md"
+      ],
+      "finding_files": []
+    },
+    "Behringer::V-AMP 3": {
+      "link": "BEHRINGER.md#v-amp-3",
       "source_files": [
         "BEHRINGER.md"
       ],
@@ -56801,5 +56813,17 @@
     "memory": "Auto Save defaults ON;OFF prompts save/discard;unsaved patch cannot swap;firmware retains patches while All INITIALIZE restores defaults",
     "tuner": "435–445Hz;chromatic/bass including5/6strings;flat1–3semitones onlybass",
     "format_fix": "Removed blank line splitting second IDR row from table."
+  },
+  "vamp3_primary_20261017": {
+    "manual": "https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf",
+    "identity": "18pages ©2013 manufacturer PDF;webtext only",
+    "offer": "https://shopee.co.id/Behringer-V-Amp-3-Guitar-Multi-Effect-Processor-i.158144224.26680659166",
+    "condition": "unknown",
+    "stock": "unverified",
+    "idr": 2046000,
+    "region": "Kota Surabaya",
+    "seller": "melodiasby",
+    "scope": "Bass preset banks19–20 documented p8;guitar primary identity;notvocal",
+    "gaps": "Adapter output/current/polarity,battery,editor,display andeffect subtotals;line TSbalanced contradiction preserved;noUSBcapabilitytransferfromUCA222."
   }
 }
