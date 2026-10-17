@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Play",
-    "task": "Official indexed VLP output-page controls saved;QSGv3.0 lead direct500,do not treat cover as specifications. Next find accessible exact manufacturer QSG/manual for dimensions,power,USBformat,memory orcontinue freshdiscovery.",
+    "task": "VLP QSGv2.0 original mirror verified:RoomSenseUSB/AUX restriction andloop preset navigation saved. Next source dimensions/power/USBformat/memory/currentfirmware orfresh discovery;do not confuse QSGv2 withv3orfirmware.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60838,5 +60838,18 @@
     "qsg": "https://cdn.mediavalet.com/aunsw/musictribe/W9ccfEW-20-n0BDdZcE_Lg/wSOkJP1Tvk2N2sMYiJVtAA/Original/QSG_TH_0726-AAZ_VOICELIVE%20PLAY_WW.pdf",
     "qsg_access": "Indexed cover saysv3.0;direct500;specs not verified",
     "remaining": "Dimensions/mass,phantom,powerpolarity,USBformat,memory/currentfirmware unresolved;retailer specs not adopted"
+  },
+  "voicelive_play_qsg2_20261017": {
+    "source": "https://device.report/m/3eac430476bbc7b9686f8d7dd83a5ba7917f012ff68a0b1882b7fe6248b03598.pdf",
+    "identity": "Original manufacturer14PDFpages,coverV2.0,matchingVoiceLivePlay model,MusicTribe copyright2023;notV3.0QSG",
+    "pages": "printed15 original manufacturer FAQ,notgeneratedmirrorFAQ",
+    "findings": [
+      "AmbientRoomSense headphones+USB",
+      "VocalRoomSense replacesXLR input,headphones+USB only",
+      "AUXconnection disablesRoomSense",
+      "Preset selection whileloopplays/records",
+      "UpDown trimtaptempo BPM"
+    ],
+    "limits": "Textonly,no visualinspection/device test;dimensions/USBformat/currentfirmware unresolved"
   }
 }
