@@ -54,6 +54,15 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Processing / latency | [Manufacturer manual v1.2,December2005,p18][BV-M] specifies approximately **5ms LineIn→LineOut**,31.250kHz internal sample rate and24-bit converters. This is the published path value,not a new measurement or USB-audio specification. |
 | MIDI / backup | Section8.4.1,p16 supports whole-memory dumps to a MIDI sequencer and a selected-preset transfer through a temporary buffer. Receiving a full dump with MIDI editing enabled overwrites all presets;save a received single preset to retain it. OUT transmits preset/parameter changes;THRU forwards incoming data without originating its own. Application names andsupported editor OS remain unverified. |
 
+
+### Bass V-AMP — crossover and tuner qualifications,2026-10-17
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Processing / two different crossovers | Drive **SPLIT** operates before distortion,**41–600Hz**,and lets high frequencies bypass distortion. Post-amp **X-OVER** is an **18dB/octave Butterworth** crossover after amp/cabinet processing;it instead keeps frequencies below cutoff unaffected bypost-effects. Display8 means80Hz;dash disables crossover andprocesses fullrange. EFFECTS adjusts low/high-pass balance. These are distinct functions,not interchangeable bass-preservation claims. [Manual pp13–14][BV-M] |
+| Tuner / calibration | DefaultA440Hz;adjustable **±15Hz in1Hz steps**. Tuner Edit isentered withbotharrows;TUNER exits andautomatically saves reference changes. Derivedrange425–455Hz agreeswithMIDI center-frequency values25–55;not a measured tuner accuracy specification. [Manual p15;MIDI chartp19][BV-M] |
+| MIDI / timing limits | Chartp19 marks **SystemCommon andSystemRealTime neither sent norreceived**;noMIDI-clock sync inferred from MIDI connector orsampler control. Program changes0–124 address sounds;received127 toggles tuner. [Manual p19][BV-M] |
+
 <!-- comparison evidence ends -->
 
 ### Provenance and remaining checks

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-22",
-    "task": "Driver platforms/exclusions andbacking-output routing saved. Continue fresh Shopee bass/vocal discovery andremaining primaryspecifications.",
+    "model": "Behringer Bass V-AMP",
+    "task": "Crossover distinctions,tuner calibration andMIDI timing limits saved. Continue freshbass/vocal Shopee series discovery andremaining primaryspecifications.",
     "next_models": [],
     "after_queue": "314 active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -41878,7 +41878,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-22."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer Bass V-AMP."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52362,6 +52362,14 @@
       ],
       "finding": "Driver1.0.0 Win10/11 exclusions andindexedmacOS15/26support,27testing saved;AUX/USBbacking FX/DRY left-only routing clarified.",
       "remaining": "USBchannelcounts/bitdepth,full editor,power/buspower/display andqualifiedprices unresolved."
+    },
+    {
+      "model": "Behringer Bass V-AMP",
+      "checked_date": "2026-10-17",
+      "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf",
+      "identity": "Manufacturer-authored v1.2 December2005 RevC sharedmanual;desktop applicability checked.",
+      "finding": "Separated driveSPLIT41–600Hz high-frequency bypass frompostFX18dB/octave crossover low-frequency preservation;added tuner±15Hz savedreference andMIDI system realtime/common unsupportedchart.",
+      "remaining": "Powerunit-side ratings,connector/weight conflicts,simultaneousceiling,editor andqualifiedoffers remain."
     }
   ],
   "discovery_cross_brand_bass": {
