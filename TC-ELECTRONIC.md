@@ -88,3 +88,42 @@ Checked2026-10-17; historical indexed asks, not current stock/checkout. Conditio
 [PX3-O2]: https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X3-TonePrint-i.306155985.23943061836
 
 [PX3-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
+
+## PLETHORA X5
+
+Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal suitability unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in treadle; **five MASH pressure switches**, each maps up to three parameters. External TRS EXP input; toe behavior unresolved. | [Product][PX5-P]; [QSG pp14–15][PX5-M] |
+| K/F/B | **Five effect/parameter rotaries plus PLAY/EDIT selector; five footswitches; button count unresolved**. EFFECT/TONEPRINT push encoders and three parameter knobs. Guide calls PLAY/EDIT a knob; rotary-versus-toggle classification needs corroboration. BOARD selector separate. | [QSG pp14–15][PX5-M] |
+| Display | LCD displays show slot effects or editing information; diagonal/color/touch unresolved. | [QSG pp14–15][PX5-M] |
+| Processing / categories | **Up to five TonePrint pedals per Board**, freely ordered. Compression, modulation, pitch, gate, reverb/delay documented; complete firmware-qualified catalogue pending. | [Product][PX5-P] |
+| Preset memory | **127 custom Boards;75 TonePrint slots per pedal**. Factory-filled subset unresolved; Board count is not simultaneous block count. | [Product][PX5-P] |
+| Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
+| I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; USB for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
+| Power / battery / USB | **9V DC,>600mA included supply**,5.5/2.1mm centre-negative. Actual draw,battery/USB operation unresolved. | [QSG controls/specifications][PX5-M] |
+| Dimensions / mass | Guide prints **298.5×116×53mm under H×W×D**,1.4kg. Axis-label inconsistency preserved; no silent normalization or size-bin assignment. | [QSG specifications][PX5-M] |
+| IR / NAM / capture | **Nine global proprietary cabinet simulations**, including bass use. User IR/native or converted NAM/capture support unresolved. | [Product][PX5-P] |
+| Editor / platforms | TonePrint app via Bluetooth/USB; exact desktop/mobile OS and version requirements pending. | [Product][PX5-P]; [QSG pp14–15][PX5-M] |
+| Live / looper | RAM looper: **40s stereo/80s mono**, up to five instances per Board. Multiple instances do not imply five times shared memory capacity. Drums/scenes unresolved. | [Product][PX5-P] |
+| Live / routing | Insert allows external drive or four-cable setup; Quick Swap reorders effects. | [Product][PX5-P] |
+| Bass capability | Own product explicitly offers bass-oriented cabinet simulation; shared bass inclusion does not certify every effect equally on bass. | [Product][PX5-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No qualified offer. | — |
+| New | No condition-confirmed offer. | — |
+| Unverified condition | **Rp9.105.200**,NEO MUSIC,shop158235298/item27271818642,Kota Sukabumi. Checked2026-10-17; three-month indexed crawl,July2 delivery text. Historical ask, not current stock/checkout. | [Item][PX5-O] |
+
+<!-- comparison evidence ends -->
+
+Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
+
+[PX5-P]: https://www.tcelectronic.com/en/products/0709-AIK
+[PX5-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf
+[PX5-O]: https://shopee.co.id/TC-Electronic-PLETHORA-X5-TonePrint-Pedal-Board-Loaded-with-Favorite-FX-and-5-MASH-Footswitches-i.158235298.27271818642

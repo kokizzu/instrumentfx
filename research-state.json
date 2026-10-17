@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 258,
+  "active_model_count": 259,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 258,
+  "canonical_root_model_count": 259,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "258 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. PLETHORA X3 guitar; bass/vocal unclassified; all partial.",
+  "count_reconciliation": "259 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. PLETHORA X5 guitar/bass shared; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic PLETHORA X5",
-    "task": "X5 own product and QSG facts saved, including explicit bass-cab use and40s stereo/80s mono looper. Next add root X5 record plus guitar/bass rows; preserve dimension label inconsistency and unresolved controls/firmware fields.",
+    "task": "X5 added to guitar/bass with own-model evidence. Next own firmware catalogue and controls/dimension qualifications; all prior gaps remain.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
@@ -23984,7 +23984,8 @@
     ],
     "TC Electronic": [
       "M100",
-      "PLETHORA X3"
+      "PLETHORA X3",
+      "PLETHORA X5"
     ]
   },
   "root_brand_content": {
@@ -24308,19 +24309,20 @@
     ],
     "TC-ELECTRONIC.md": [
       "M100",
-      "PLETHORA X3"
+      "PLETHORA X3",
+      "PLETHORA X5"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 210,
+      "record_count": 211,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 101,
+      "record_count": 102,
       "bass_focused_record_count": 26,
-      "shared_bass_capable_count": 75,
+      "shared_bass_capable_count": 76,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41276,18 +41278,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 258,
-    "canonical_root_models": 258,
+    "unique_brand_model_pairs": 259,
+    "canonical_root_models": 259,
     "legacy_only_models": 0,
-    "guitar_view_models": 210,
+    "guitar_view_models": 211,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 101,
-    "bass_shared_models": 75,
+    "bass_view_models": 102,
+    "bass_shared_models": 76,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41552,7 +41554,8 @@
       "Yamaha::SPX2000",
       "Yamaha::SPX1000",
       "TC Electronic::M100",
-      "TC Electronic::PLETHORA X3"
+      "TC Electronic::PLETHORA X3",
+      "TC Electronic::PLETHORA X5"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41655,7 +41658,8 @@
       "Behringer::FX2000",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "Yamaha::SPX990"
+      "Yamaha::SPX990",
+      "TC Electronic::PLETHORA X5"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -41711,6 +41715,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "TC Electronic::PLETHORA X5": "Own official product explicitly documents bass-oriented global cabinet simulation. https://www.tcelectronic.com/en/products/0709-AIK",
     "Lexicon::MX400": "Own combined MX400/MX400XL manual p25 explicitly lists bass-track compression; appropriate line-level preamp/mixer or recorded-track routing required. https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
     "Lexicon::MX300": "Own manufacturer manual E p25 explicitly lists bass-track compression; use suitable line-level preamp/mixer or recorded-track routing. https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
     "Yamaha::SPX990": "Own Yamaha operation manual preset applications explicitly include Bass, Guitar and Vocal, printed pp12–13; suitable line-level preamp/mixer routing. [Manual](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf).",
@@ -43753,6 +43758,13 @@
     },
     "TC Electronic::PLETHORA X3": {
       "link": "TC-ELECTRONIC.md#plethora-x3",
+      "source_files": [
+        "TC-ELECTRONIC.md"
+      ],
+      "finding_files": []
+    },
+    "TC Electronic::PLETHORA X5": {
+      "link": "TC-ELECTRONIC.md#plethora-x5",
       "source_files": [
         "TC-ELECTRONIC.md"
       ],
@@ -54895,5 +54907,47 @@
       "access": "Exact item search text, three-month crawl, July2 arrival. Historical ask, not live stock."
     },
     "next": "Add root X5 record and guitar/bass shared membership using explicit product bass-cab wording. Preserve dimension axis conflict, controls uncertainty and firmware qualification. Commit before another model."
+  },
+  "plethora_x5_primary_checkpoint_20261017": {
+    "product": "https://www.tcelectronic.com/en/products/0709-AIK",
+    "manual": "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf",
+    "checked_date": "2026-10-17",
+    "product_facts": {
+      "processing": "Up to5TonePrint pedals per board, flexible order;127customboards;75TonePrintslots per pedal.",
+      "expression": "5MASHswitches each can control up to3parameters; externalEXP socket documented.",
+      "looper": "Product explicitly40seconds stereo/80mono,RAMbased;up to5looperinstances per board.",
+      "routing": "Insertloop supports own drive pedals and4cablemethod;9globalproprietarycab simulations, bass use explicitly mentioned.",
+      "scope": "Guitar and bass supported by own product wording; no vocal proof."
+    },
+    "manual_facts": {
+      "pages": "14–15",
+      "controls": "Effect/TonePrint pushencoders,3parameterknobs,Play/Edit knob,Board switch,5footswitches; rotary selector versus switch count needs reconciliation.",
+      "connections": "StereoTSinputs/outputs,TSsendreturn,TRSEXP,DCinput,USBcomputerTonePrint/update,MIDIIN/THRU.",
+      "power": "9VDC >600mA included supply; polarity separately indexed centre-negative5.5/2.1mm.",
+      "dimensions": "Specification labels H×W×D but prints298.5×116×53mm;preserve axis inconsistency before normalizing.1.4kg."
+    },
+    "offer": {
+      "model": "TC Electronic PLETHORA X5",
+      "url": "https://shopee.co.id/TC-Electronic-PLETHORA-X5-TonePrint-Pedal-Board-Loaded-with-Favorite-FX-and-5-MASH-Footswitches-i.158235298.27271818642",
+      "shop_id": "158235298",
+      "item_id": "27271818642",
+      "seller": "NEO MUSIC",
+      "region": "Kota Sukabumi",
+      "asking_idr": 9105200,
+      "condition": "Unverified",
+      "access": "Exact item search text, three-month crawl, July2 arrival. Historical ask, not live stock."
+    },
+    "next": "Add root X5 record and guitar/bass shared membership using explicit product bass-cab wording. Preserve dimension axis conflict, controls uncertainty and firmware qualification. Commit before another model.",
+    "added": true,
+    "remaining": [
+      "Firmware-qualified catalogue",
+      "Physical control count",
+      "Dimension axis corroboration",
+      "Display details/visual check",
+      "IR/NAM/capture",
+      "Editor OS",
+      "Actual draw/battery/USB",
+      "Condition-specific prices"
+    ]
   }
 }
