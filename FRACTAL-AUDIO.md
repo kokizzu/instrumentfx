@@ -42,3 +42,44 @@ The Rp11.999 Pianeta preset and acrylic covers are not processor prices. Origina
 - [Current product](https://www.fractalaudio.com/fm3/), [downloads](https://www.fractalaudio.com/fm3-downloads/), and [editor](https://www.fractalaudio.com/fm3-edit/) checked2026-10-17. Firmware packages and software were not downloaded or executed.
 
 Remaining:per-category algorithms and concurrency, factory occupancy, display diagonal/touch, expression/toe details, synth/acoustic engines, IR format limits,NAM/capture status, looper/drums and current-condition Indonesian offers. This adds one partial model,not a verified-complete record.
+
+## FM9 MKII Turbo
+
+Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Manufacturer identity / revision | Four DSP cores;**10+% extra processing over original**,larger switch displays with nearly double viewing area. [Product][f9-p]. |
+| Built-in / external / toe expression | No built-in treadle;**three external pedal/switch sockets**. Toe configuration unresolved. [Product][f9-p];[Store][f9-s]. |
+| Knobs / footswitches / buttons | Current:**nine footswitches**. Historical manual:**9/9/12**,six push-knobs counted once;power/ground lifts separate. Current MKII rotary/button totals need corroboration. [Product][f9-p];[Manual][f9-m] p.128. |
+| Display | Color main display,nine enlarged mini displays. Historical main800×480;published diagonal/touch unverified. [Store][f9-s];[Manual][f9-m] p.128. |
+| Dimensions / weight | Historical original/Turbo manual:**513W×237D×89H mm;5.44kg**,large. Exact MKII body/mass corroboration unresolved;do not borrow FM3 figures. [Manual][f9-m] p.128. |
+| Simultaneous blocks / category choices | Two amp blocks,four channels each;**325+ amp choices**,57+drive,50+reverb current product headlines. CPU-dependent concurrency,complete category census unresolved.2022manual instead59+drive/60+reverb;retain revision/source conflict.14×6grid is not84 guaranteed effects. [Product][f9-p];[Manual][f9-m] p.2. |
+| Preset / factory / user memory | **512 presets,8 scenes,four channels in most blocks**. Historical manual permits overwriting every location;factory-filled subset unknown. [Store][f9-s];[Manual][f9-m] p.39. |
+| IR / NAM / captures | **2200+factory cabs,1024user IRs**,UltraRes/DynaCab.2022manual lists WAV/IR/SYX import and16scratchpads;current format/length limits unresolved. Native NAM,converted NAM,user amp capture import unverified. [Store][f9-s];[Manual][f9-m] p.2. |
+| Synth / acoustic | Synth algorithms explicitly named;acoustic/piezo routing documented historically. Dedicated acoustic-simulation algorithm inventory unresolved;body IR enhancement differs. [Product][f9-p];[Manual][f9-m] p.38. |
+| I/O | Instrument¼-inch input;two balanced stereo¼-inch input pairs;three stereo outputs:Out1 XLR+Humbuster¼-inch,Out2 XLR,Out3 Humbuster¼-inch;phones;three pedal jacks;FASLINKII;S/PDIFin/out48kHz. Manual addsUSB-B,MIDIDINin/out-thru,mains. Humbuster is not ordinary balanced output. [Product][f9-p];[Manual][f9-m] pp.21–22,128. |
+| USB functions | **8×8audio plusUSB MIDI**,record/play/reamp;distinct from FM3 proprietaryCOMM-only MIDI limitation. USB audio does not prove USB power. [Product][f9-p];[Store][f9-s]. |
+| Power / battery / USB operation | Historical manual:**90–264VAC,47–63Hz,<40W**;CR2032backs memory,not operating battery. Current MKII consumption confirmation unresolved. DCpolarity/current not applicable to mains inlet;USB/battery operation unverified. [Manual][f9-m] p.128. |
+| Editor platforms / drivers | **FM9-Edit Mac/Windows**,full editor/librarian. Current1.03.22,2026-08-25;macOS10.13+Intel/M1,Windows10+64bit;Windows7unsupported. Mobile/Linux editor unresolved. [Editor][f9-e]. |
+| Firmware / software revision | Downloads list**12.0,2026-07-07**,original/Turbo compatible;requires latest editor. WindowsUSBdriver6.16,2026-06-10,Windows10+x86/x64/ARM;older7/8need5.12. Factory presets9.02,2025-06-04,target9.x+. USBfirmware1.04separate hardware-revision update. Installed firmware unknown;manual remains3.x. [Downloads][f9-d]. |
+| Practical features | Current product lists**two-minute looper**,eight tap/hold switch layouts,up to twoFC6/FC12controllers;store claims gapless switching,minimum firmware unresolved. Mono/stereo/speed looper duration qualifications anddrums remain unverified. [Product][f9-p];[Store][f9-s]. |
+| Bass capability | Exact MKII Turbo store explicitly supports guitar/bass;shared bass,not inferred from amp controls. [Store][f9-s]. |
+
+### FM9 MKII Turbo — separate IDR asking-price evidence
+
+| Condition / access | Amount | Exact hardware offer / qualifications |
+|---|---:|---|
+| Condition-unverified indexed retail ask | **Rp44.395.000** | [Hurtrock Music Store Bandung,seller11170212/item25331147281](https://shopee.co.id/Fractal-FM9-MKII-Turbo-Amp-Modeler-Multi-FX-i.11170212.25331147281). KotaBandung;two-week search index exactMKII Turbo title;direct reader JavaScript shell. Checked2026-10-17;current stock,new/used,variant,bundle,warranty,voucher,authenticity andinstalled firmware unverified. Late-delivery compensation not an applied discount. |
+| Verified new IDR | ? | Retail identity does not establish new condition. |
+| Verified used IDR | ? | No qualified offer. |
+
+Rp36m seller1354606623/item43322190869 titlesFM9MKI and has inconsistent oldFM3 URL slug;not a Turbo offer. Preset packs and accessories excluded.
+
+[f9-p]: https://www.fractalaudio.com/fm9/
+[f9-s]: https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit
+[f9-m]: https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf
+[f9-d]: https://www.fractalaudio.com/fm9-downloads/
+[f9-e]: https://www.fractalaudio.com/fm9-edit/
+
+Official sources read2026-10-17;manual2022-08,firmware3.x,original/Turbo cover. No file/software/firmware downloads or hardware operations. Remaining:MKIIphysical corroboration,category/concurrency census,display,IRlimits,NAM/captures,looper qualifications,drums,power-operation andqualified condition/stock evidence. One new partial record,not full verification.
