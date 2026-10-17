@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Donner discovery leads",
-    "task": "Arena2000missingNEOMUSICsoldout3150000offer saved. Next search exact ShopeeIDAlphaCruncher/TripleThreat hardware;manufacturer eligibility leads already inDONNER.md. Do not count without model research.",
+    "model": "Donner Triple Threat",
+    "task": "Exact Shopee voucher offer and own manufacturer module/weight/partialdimensions evidence saved in discovery_donner_triple_threat_20261017. Next add canonical model and guitar view with explicit gaps;not counted yet.",
     "next_models": [],
-    "after_queue": "273partialrecords;no downloads/workflows/push."
+    "after_queue": "273partialrecords;no downloads/workflows/push;continue broader discovery."
   },
   "new_findings": [
     {
@@ -56495,5 +56495,31 @@
     "stock": "Habis",
     "condition": "unverified",
     "saved": "Missing exact historical offer added;not qualified new/used range or stock."
+  },
+  "discovery_donner_triple_threat_20261017": {
+    "checked": "2026-10-17",
+    "model": "Donner Triple Threat",
+    "unrecorded": true,
+    "offer": {
+      "url": "https://shopee.co.id/Donner-Triple-Threat-3-in-1-Pedal-Multi-Efek-Gitar-i.1087619206.42664073336",
+      "seller": "Donner Official Store",
+      "shop": "1087619206",
+      "item": "42664073336",
+      "region": "Kota Jakarta Barat",
+      "idr": 1502414,
+      "price_basis": "Dengan Voucher;spendRp1.5million/1%discount;eligibility/finaltotalunverified",
+      "crawl": "one week",
+      "stock": "unverified",
+      "condition": "unverified",
+      "limits": "Relativetodaydeliverynotstockproof;latecompensationnotdiscount. Authenticity/warranty/bundle/shipping/tax/variantunknown."
+    },
+    "manufacturer": {
+      "url": "https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal",
+      "eligibility": "DesignedThirdManHardware/manufacturedDonner;separateDistortion/Phaser/Echomodules;notonesinglefunctioneffect.",
+      "facts": "Distortionvolume/gain/tone;Echothreeknobs,explicitlynotap. Aluminumhousing;355.5g;2.5inch×7.7inch,axes/heightnotgiven. SKU EC7018regionalstoreSKU,notuniversalhardwaremodelcode.",
+      "limits": "Power/controltotal/ports/expression/memory/display/editor/IR/NAM/looper/basssupportunverified. Reviewsnotadopted,includingcontaminatingAlphaBassreview."
+    },
+    "alpha_cruncher_search": "No exactqualifiedShopeeIDitem returned in limitedquery;notmarketabsence.",
+    "next": "Create TripleThreat canonical DONNER record and guitarcomparisonfromown-model facts,retainallrequiredunknowns andvoucherqualification;commitbeforenextmodel."
   }
 }
