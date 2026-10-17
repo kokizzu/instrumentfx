@@ -28,10 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee model discovery",
-    "task": "FX100 synth/wah/routing follow-up saved. Resume missing bass/vocal or legacy multi-effects discovery; consult inventory and existing rejected accessory leads before searching. Leave source gaps explicit.",
-    "next_models": [],
-    "after_queue": "Market discovery and lossless legacy consolidation incomplete; no downloads/workflows."
+    "model": "Behringer Bass V-AMP",
+    "task": "Research own manufacturer manual/product using saved exact sold-out Shopee lead. Add distinct desktop bass processor only after primary identity/specification check; then commit before Bass V-AMP PRO. No borrowed rack power/IO.",
+    "next_models": [
+      "Behringer Bass V-AMP PRO",
+      "Behringer V-AMP 2 (exact item unresolved)"
+    ],
+    "after_queue": "Resume missing bass/vocal/legacy guitar discovery and lossless consolidation; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -50851,6 +50854,70 @@
       "BOSS GT-10B returned accessories/search page",
       "DigiTech BP355 no exact hardware result",
       "Line6 M13 no exact hardware result in this pass"
+    ]
+  },
+  "discovery_behringer_bass_20261017": {
+    "checked_date": "2026-10-17",
+    "inventory_check": "Behringer absent from active inventory; Bass V-AMP and rack Bass V-AMP PRO must remain distinct candidates.",
+    "leads": [
+      {
+        "model": "Behringer Bass V-AMP",
+        "url": "https://shopee.co.id/behringer-bass-v-amp-multieffect-i.61848168.3979207338",
+        "idr": 1000000,
+        "seller": "gitar second",
+        "region": "Kabupaten Polewali Mandar",
+        "stock": "Habis",
+        "condition": "Not explicit in title; seller name is not condition proof",
+        "access": "Search cache3months,delivery21–25July; exact open cache miss",
+        "qualifications": "Hardware lead only; completeness,working condition,bundle,adapter,warranty unknown. Late delivery voucher10000 not deducted."
+      },
+      {
+        "model": "Behringer Bass V-AMP PRO",
+        "url": "https://shopee.co.id/behringer-bass-v-amp-pro-%28-Second-%29-i.53553463.28809251521",
+        "idr": 500000,
+        "seller": "cahyoadi56",
+        "region": "Kota Probolinggo",
+        "stock": "Habis",
+        "condition": "Title explicitly Second; working condition and completeness unknown",
+        "access": "Search cache2months,delivery12–14August; exact open cache miss",
+        "qualifications": "Not a working-unit valuation; inspect primary docs and listing text for faults if recoverable. Warranty,bundle unknown;voucher10000 not deducted."
+      },
+      {
+        "model": "Behringer V-AMP 2",
+        "url": "https://shopee.co.id/totok.zulianto",
+        "idr": 1600000,
+        "access": "Shop index2months, no exactitem yet",
+        "qualifications": "Guitar processor candidate; shop amount not qualified exact hardware offer."
+      }
+    ],
+    "unresolved": [
+      {
+        "url": "https://shopee.co.id/search?keyword=stomp+box",
+        "observation": "Bass V-Amp Ultimate Tone Toolbox3970000 KabJombang in5month search; no item/seller identity,not qualified price."
+      },
+      {
+        "url": "https://shopee.co.id/hopemusik",
+        "observation": "GT100/GT3/GT5 mixed2398000, G2.1Nu/G2.1u/B2.1u mixed1699000 remain variant-unresolved; do not assign to new models."
+      }
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/stiker-boss-gt3-gt6-gt8-gt10-i.57900729.6952746941",
+        "reason": "230000 decal only"
+      },
+      {
+        "url": "https://shopee.co.id/lcd-boss-gt3-gt6-gt8-original-i.57900729.16195441074",
+        "reason": "525000 replacementLCD only"
+      },
+      {
+        "reason": "Firehawk query returned flightcases and unrelated Mechanicore model kits; none is processor hardware."
+      }
+    ],
+    "searches_without_missing_exact_models": [
+      "DigiTech BP/bass returned unrelated charger results",
+      "Zoom B9.1ut no exact hardware",
+      "VoiceLive Touch/PlayGTX/VoiceLive2 no exact missing-model hardware",
+      "OriginalZoomB2 query returned already-recorded B2FOUR"
     ]
   }
 }
