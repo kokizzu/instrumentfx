@@ -1867,3 +1867,7 @@ research-commit-g2four-market:
 .PHONY: research-commit-ad10
 research-commit-ad10:
 	python3 scripts/research_tools.py commit-ad10
+
+.PHONY: research-commit-rp70
+research-commit-rp70:
+	python3 scripts/research_tools.py commit-rp70

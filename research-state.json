@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "AD-10 feedback, independentinputEQ/phase andfixedoutputlevels saved. Continue missing-model Shopee discovery andremainingtechnicalverification.",
+    "task": "RP70 shared pickup/wah selector, output-mode behavior andsave restrictions saved. Continue missing-model discovery andremainingtechnicalverification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69584,5 +69584,16 @@
       "AutoOff10hoursdisableable"
     ],
     "discovery": "A2.1u/ZoomAC3/BossAD5searchesdidnotresolveexacthardwareoffers;accessoriesexcluded"
+  },
+  "technical_followup_rp70_selector_20261018": {
+    "date": "2026-10-18",
+    "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf",
+    "pages": "10–11,17–21",
+    "findings": [
+      "Pickup/wahsharedselector",
+      "AmpMixerpositionsandheadphonestereoconditions",
+      "User1–50saveandunsavededitloss"
+    ],
+    "discovery": "RP50/RP55/RP70search surfacedonlyexistingRP70SECONDoffer;not exhaustive"
   }
 }

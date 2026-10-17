@@ -483,6 +483,16 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Used | **Rp750.000**, seller-labelled SECOND, Mash_Aken, shop473560916/item28475084274, Kab. Ciamis. Checked 2026-10-17; indexed crawl three months old, three-day preorder with July7–10 estimate. Historical ask, not current stock/checkout. | [Item][RP70-O] |
 | New | No qualified offer established. | — |
 
+### RP70 — shared selector and output operation
+
+Checked2026-10-18 against [own manual pp10–11,17–21][RP70-M]. Text only; no hardware test or downloads.
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / pickup-wah shared choice | Pickup/Wah selector offersOff,two pickup conversions oroneofthree wahs. **Pickup conversion andwah are alternatives inthissection**,not independentlystackable choices. Parameter/gainsteps do not increase itsalgorithmcount. |
+| I/O / Amp-Mixer and headphone stereo | Rearbutton **in=Mixer**,out=Amp; Mixer optimizes formixer/recorder/headphones. Headphones arestereo withneither orboth mainoutputs connected,butmono withonlyL/Mono connected. Right-only headphonebehavior isnot specifiedinthisinstruction. |
+| Memory / save destination and edit loss | STORE selectsoneof **50 writableuserslots1–50** withfootswitches; secondSTORE commits. Presetchange orpowerdisconnection discardsunsavededits. Tone/EffectsLibrary selections areeditingstartingpoints,not additionalpresetbanks or simultaneousFXslots. |
+
 <!-- comparison evidence ends -->
 
 Working state, authenticity, bundle, adapter, warranty, shipping/tax and voucher eligibility unresolved. No download or visual inspection claimed. Manual reached through [official directory][RP70-D], own-model declaration identifies RP70.
