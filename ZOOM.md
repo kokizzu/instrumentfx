@@ -2469,7 +2469,7 @@ Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufa
 | Display | BacklitLCD plus2-digit7-segmentLED. Diagonal,color,touch unknown. | [Manual p29][GFX4-M] |
 | Dimensions / mass | 397W×183D×60Hmm;1.4kg. | [Manual p29][GFX4-M] |
 | Processing / category choices | Up to8;44programs=42effects+ZNR+amp simulator. COMP/OD/ENV5,DRIVE13,EQ1,MOD13,DELAY/REVERB10=42. PEDAL has two settings pages,explicitly not an effect. Amp3/cab4 alternatives excludeOFF. | [Manual pp4,7,21,23,29][GFX4-M] |
-| Factory / user memory | 120=60user+60read-onlypreset;Store/Swap. Edits lost on patch change unless stored. Preset edits default to matching user destination;SWAP unavailable from preset. Factory-filled user count unresolved. | [Manual pp3–4,12–13][GFX4-M] |
+| Factory / user memory | 120=60user+60read-onlypreset;Store/Swap. Edits lost on patch change unless stored. Preset edits default to matching user destination;SWAP unavailable from preset. All60 user slots initially duplicate presets (p30). | [Manual pp3–4,12–13,30][GFX4-M] |
 | Synth / acoustic | ACOSIM converts electric toward acoustic character;RINGMD is not established synthesis. | [Manual pp21–22][GFX4-M] |
 | I/O | Mono¼input,mono¼output,stereo¼line/phones,ACadapter;ACTIVE/NORMAL switch. USB/MIDI/external-control sockets absent from listed rear inventory. | [Manual pp5,29][GFX4-M] |
 | Power / battery / USB | **12V AC500mA**,suppliedAD-0008;not9VDC. DCpolarity inapplicable. Measured draw,battery andUSBpower unverified. | [Manual p29][GFX4-M] |
@@ -2502,6 +2502,15 @@ Checked 2026-10-18 against official manual text; no downloads or physical test. 
 | Looper / hold delay | PP-DLY or ECHO with FB/HLD=Hd or HS supports phrase capture in manual mode. Hold footswitch3 to record; releasing it or reaching the selected delay time starts repeat playback. Press again to stop. Delay range reaches 2 seconds; overdubbing is not established here. | [Own manual p27][GFX4-M] |
 | Looper / seamless restrictions | Delay continuation requires both patches to have REV/DLY ON, PP-DLY or ECHO, and delay time at most 1 second. With both FB/HLD settings HS, a held phrase can continue after returning to program mode and changing patch. Bypass forces it to end. This is conditional continuation, not unrestricted spillover. | [Own manual p27][GFX4-M] |
 | Expression / wah and pitch shortcut | The shortcut selects and enables PDLWAH or PDLPIT in MODULATION and changes EP-MOD from off to UP. It replaces the MOD type rather than adding a separate block. For these two effects, Hi behaves as UP and Lo as dn. | [Own manual pp20,26][GFX4-M] |
+
+### Converter, input and factory-state follow-up
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / converters | **40 kHz** sampling; **20-bit A/D at 64×**, **20-bit D/A at 128× oversampling**. | [Manual p29][GFX4-M] |
+| I/O / electrical ratings | Input nominal **−10 dBm**; NORMAL **510 kΩ**, ACTIVE **20 kΩ**. Mono output nominal **−10 dBm**; manual calls ≥10 kΩ “output impedance,” an unresolved wording ambiguity. Combined stereo line/phones maximum **+4 dBm** into ≥10 kΩ; headphone mW unspecified. Reference: 0 dBm = 0.775 Vrms. | [Manual p29][GFX4-M] |
+| Factory / reset | All Initialize restores every setting and overwrites user patches. Power on holding STORE; confirm with STORE, or cancel with MANUAL/CANCEL. These are documented instructions, not operations performed. | [Manual p28][GFX4-M] |
+| Expression / calibration | Power on holding PEDAL; at MIN, raise pedal and press STORE. At MAX, fully depress, release foot to allow slight return, then STORE. | [Manual p28][GFX4-M] |
 
 ## G7.1ut
 
