@@ -801,3 +801,42 @@ Variant,bundle,adapter inclusion,authenticity,working state,warranty,shipping/ta
 [MFX10-T]: https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual
 [MFX10-I]: https://www.manualslib.com/manual/4260392/Nux-Mfx-10.html
 [MFX10-O]: https://shopee.co.id/Efek-Gitar-Pedal-Nux-MFX-10-Digital-Multi-Effect-Processor-Harga-Terjangkau-i.306541454.9002629284
+
+## PG-2
+
+Checked 2026-10-17; partial. Portable guitar multi-effects; ownership,bass/vocal suitability unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe expression not established; handheld format alone is not proof of absence. |
+| K/F/B | **Four rotary controls** with ALT pre-level/three-band EQ functions; footswitch and separate button totals pending corroboration. Slide selectors are separate. [Manual][PG2-T] |
+| Display | Backlit LCD;diagonal,color/touch unverified. [Manual][PG2-T] |
+| Processing / categories | Three amp choices Clean/Blues/Rock;three modulation Chorus/Flanger/Tremolo;ambience selects Delay/Room/Spring. Independent sections and combined factory settings establish multifx;maximum simultaneous blocks unverified. Noise gate documented. [Manual][PG2-T] |
+| Preset memory | **9 factory+9 user=18**. Initial user contents unresolved. [Manual][PG2-T] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
+| I/O | Guitar input,AUX IN,headphones,output,DC. Complete connector sizes/balancing pending. [Manual][PG2-T] |
+| Power / battery / USB | **Two AA/LR6 or9VDC≥200mA supply**;ACD-008A optional. Approx8h alkaline specification versus overview more-than8h. Polarity/barrel,actual draw and USB operation unresolved. [Manual][PG2-T] |
+| Dimensions / mass | **114L×82W×36Dmm;140g**. Original labels retained;no silent height-axis conversion. [Manual][PG2-T] |
+| IR / NAM / capture | User IR,native/converted NAM and proprietary capture unverified. |
+| Editor / platforms | Editor/updater platforms and USB/audio unverified. |
+| Live / practice | Tuner,metronome,AUX practice. Preset mode permits only MASTER adjustment. Factory restore erases user saves. Looper/drums beyond metronome unverified. [Manual][PG2-T] |
+| Delay / source wording | Overview says **more than800ms**;do not normalize this into an800ms maximum. [Manual][PG2-T] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence |
+|---|---|
+| Used | No exact condition-confirmed hardware offer established. |
+| New | No exact condition-confirmed hardware offer established. |
+
+<!-- comparison evidence ends -->
+
+Category-only Shopee lead remains unassigned in research-state.json: exact seller/item unresolved. Stock,condition,variant,bundle,adapter inclusion,working state,authenticity,warranty,shipping/tax and vouchers unknown. No inferred used/new prices.
+
+Own [NUX legacy page][PG2-P] links [English V1 PDF][PG2-M],one page with no browser text. Evidence above is exact PG-2 manufacturer-authored manual transcription with Cherub copyright2013 and NUX identity. Current official V1 revision equivalence and visual corroboration remain unverified. No generated FAQ/diagram descriptions used;no filesystem downloads or software execution.
+
+[PG2-P]: https://nuxaudio.com/product/pg2/
+[PG2-M]: https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf
+[PG2-T]: https://manuals.plus/nux/pg-2-portable-guitar-efx-manual

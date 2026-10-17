@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 261,
+  "active_model_count": 262,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 261,
+  "canonical_root_model_count": 262,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "261 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. MFX-10 guitar classification; bass/vocal unclassified; all partial.",
+  "count_reconciliation": "262 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. PG-2 guitar multifx; bass/vocal unclassified; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX PG-2",
-    "task": "PG-2 own manual URL and guitar multi-effects architecture saved in pg2_primary_discovery_20261017. Exact Shopee Rp590000 seller/item unresolved; retain category-only price unassigned. Next original-manual specifications/IO/power/memory, no downloads.",
+    "task": "PG-2 root guitar record added without unqualified category price. Next full control and connector inventory, or explicit defer if original visuals unavailable; preserve source wording and all prior gaps.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery continues; preserve prior gaps and migration limits. No downloads/workflows/push."
   },
@@ -23829,7 +23829,8 @@
       "TRIDENT NME-5",
       "Cerberus NME-3",
       "MG-20",
-      "MFX-10"
+      "MFX-10",
+      "PG-2"
     ],
     "Roland": [
       "GR-55"
@@ -24150,7 +24151,8 @@
       "TRIDENT NME-5",
       "Cerberus NME-3",
       "MG-20",
-      "MFX-10"
+      "MFX-10",
+      "PG-2"
     ],
     "SONICAKE.md": [
       "Matribox QME-50",
@@ -24319,7 +24321,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 213,
+      "record_count": 214,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41282,10 +41284,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 261,
-    "canonical_root_models": 261,
+    "unique_brand_model_pairs": 262,
+    "canonical_root_models": 262,
     "legacy_only_models": 0,
-    "guitar_view_models": 213,
+    "guitar_view_models": 214,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41463,6 +41465,7 @@
       "NUX::Cerberus NME-3",
       "NUX::MG-20",
       "NUX::MFX-10",
+      "NUX::PG-2",
       "Roland::GR-55",
       "Scorpion::KMF-10",
       "Sonicake::Matribox QME-50",
@@ -42863,6 +42866,13 @@
     },
     "NUX::MFX-10": {
       "link": "NUX.md#mfx-10",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::PG-2": {
+      "link": "NUX.md#pg-2",
       "source_files": [
         "NUX.md"
       ],
@@ -55244,5 +55254,20 @@
     ],
     "limits": "Search failures do not prove no listing. Do not infer bass from forum bass-amp use or generic sibling. Generated sixmodulation wording excluded; original describes three.",
     "next": "Read manufacturer-authored manual transcription for specs/power/IO/memory; keep category price unassigned until exact seller/item. Add qualified record only with explicit source/revision limits."
+  },
+  "pg2_primary_checkpoint_20261017": {
+    "source": "https://manuals.plus/nux/pg-2-portable-guitar-efx-manual",
+    "identity": "ExactPG2Cherubcopyright2013;manufacturerbodyonly;officialV1visual/revisionequivalenceunverified.",
+    "added": true,
+    "limits": "Category-only price remains unassigned;noexact seller/item. Power200mA supplyrequirementnotactualdraw;polaritysymbolunviewed. 114L82W36Dmmoriginalaxes retained. Morethan800msnot800maximum.",
+    "remaining": [
+      "Fullcontrols/connectorinventory",
+      "OriginalPDFvisualrevisioncorroboration",
+      "Expression",
+      "PolaritybarrelactualdrawUSB",
+      "EditorOSIRNAMcapture",
+      "Bassvocalproof",
+      "Exactcondition-specificprice"
+    ]
   }
 }
