@@ -349,7 +349,7 @@ def main():
         if mode == 'commit-perform-ve':
             message = 'research(tc-helicon): restore PERFORM-VE routing conflicts and qualified offer coverage'
         if mode == 'commit-perform-vg':
-            message = 'research(tc-helicon): restore PERFORM-VG styles remote rules and offer in comparisons'
+            message = 'research(tc-helicon): add qualified PERFORM-VG preorder observation'
         if mode == 'commit-perform-vk':
             message = 'research(tc-helicon): restore PERFORM-VK harmony routing and offer comparison coverage'
         if mode == 'commit-perform-v':

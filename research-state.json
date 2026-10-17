@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh Shopee Indonesia discovery",
-    "task": "Original B1X useful pass committed;remaining gaps in b1x_support_checkpoint_20261017. Search new exact hardware leads;prioritize bass/vocal where possible. Do not borrow FOUR/GuitarLab compatibility or assign mixed Next price.",
+    "task": "PERFORM-VG new exact preorder observation committed;all model gaps remain. Continue brand/series discovery beyond limited post-B1X queries;do not mistake accessory or existing-model result for new inventory.",
     "next_models": [],
     "after_queue": "Preserve all model gaps and migration limits;no downloads/workflows/push."
   },
@@ -55374,5 +55374,31 @@
       "Exactcondition-specificShopeepriceandNextaliasidentity",
       "Otherrequiredunknownsremain"
     ]
+  },
+  "perform_vg_offer_followup_20261017": {
+    "url": "https://shopee.co.id/TC-Helicon-PERFORM-VG-Mic-Stand-Mount-Vocal-and-acoustic-guitar-effects-processor-for-studio-quality-i.1637889504.41079043503",
+    "seller": "TokoTarik227",
+    "shop": "1637889504",
+    "item": "41079043503",
+    "region": "Kota Jakarta Barat",
+    "idr": 12695000,
+    "condition": "unverified",
+    "stock": "30-day preorder in last-week indexed crawl",
+    "arrival": "18–21Nov",
+    "checked": "2026-10-17",
+    "limits": "No currentstock/checkout,conditionconfirmednew,bundle,variant,authenticity,warrantyorvoucherproof. KeepolderDealerJayasoldoutaskseparate."
+  },
+  "discovery_post_b1x_20261017": {
+    "queries": [
+      "ZoomB1original",
+      "DigiTechRP150",
+      "KorgAX10G",
+      "TCPerformVG",
+      "DigiTechRP50",
+      "ZoomGFX1",
+      "KorgAX1G",
+      "BOSSME6"
+    ],
+    "result": "No qualified new-model exact hardware lead. New PERFORMVG exactpreorderoffer added to existing record;existingB1FOURoffers and adapters notnewmodels. Limitedsearchnotmarketabsence."
   }
 }

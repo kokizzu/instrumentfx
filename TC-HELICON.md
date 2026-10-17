@@ -455,6 +455,7 @@ Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026
 |---|---|---|
 | Used | Unknown;condition unconfirmed. | — |
 | New | Unknown;condition unconfirmed. | — |
+| Condition unverified / preorder | **Rp12.695.000**,TokoTarik227,shop1637889504/item41079043503,Kota Jakarta Barat. Checked2026-10-17;last-week indexed crawl. Listing states **30-day preorder**,estimated18–21Nov. Historical indexed ask;not ready stock,live checkout or condition-confirmed new. Variant,bundle/adapter,authenticity,warranty,working state,shipping/tax and voucher unverified. | [Exact item][PVG-O-PRE] |
 
 ### Condition-unverified exact hardware
 
@@ -499,6 +500,8 @@ Mic Control requires +48V. Hold48V with guitar Chorus to disable,with guitar Rev
 USB audio and preset-bank claims found in retailer/mirror summaries remain unverified by manufacturer technical documentation. Service front-test and mainboard-schematic leads were identified but direct access failed;no circuitry-derived claims or device tests were made. The original gaps remain open rather than being converted to No.
 
 <!-- comparison evidence ends -->
+
+[PVG-O-PRE]: https://shopee.co.id/TC-Helicon-PERFORM-VG-Mic-Stand-Mount-Vocal-and-acoustic-guitar-effects-processor-for-studio-quality-i.1637889504.41079043503
 
 ## PERFORM-VE
 
