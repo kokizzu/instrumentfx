@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP1000 remaining category inventory",
-    "task": "Count ownmanual amp/cab and remainingChorusFX submodels;delay7prosevs10table alreadyrecorded. Do not repeatlooper audit. Commit before nextmodel.",
+    "model": "Fresh Shopee discovery",
+    "task": "RP1000 manualcategoryandloopaudits saved;do not repeat withoutnewrevision. Search exactmissingbass/vocal/guitarhardware leads;verifyofficialsources andcommitmodel before next.",
     "next_models": [],
-    "after_queue": "FreshShopee discovery;no downloads/workflows."
+    "after_queue": "No downloads/workflows;unknownnotNo."
   },
   "new_findings": [
     {
@@ -40585,7 +40585,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP1000 remaining category inventory."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49309,6 +49309,33 @@
       },
       "finding": "Delay7vs10explicitconflict;loop survivespreset/effectchanges;stopretains;FS3Xrestoresbankselection;USBtapXLRaudio/globalautosavedmix.",
       "remaining": "Amp/cab/otherChorusFXcounts;screen details;imports/currentOS;qualifiedprices/stock;DCpolarity/draw/USBpower."
+    },
+    {
+      "model": "DigiTech RP1000",
+      "checked_date": "2026-10-17",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf",
+      "document": "18-0597V-D pp20–29",
+      "category_counts": {
+        "amp_modeled": 32,
+        "amp_digitech": 20,
+        "acoustic": 2,
+        "amp_processing_total": 54,
+        "amp_direct_additional": 1,
+        "cab_processing": 26,
+        "cab_direct_additional": 1,
+        "shared_fx": {
+          "chorus": 7,
+          "flanger": 6,
+          "phaser": 4,
+          "vibrato_rotary_vibropan_univibe": 4,
+          "tremolo_panner": 5,
+          "envelope_special": 7,
+          "pitch_octave": 5,
+          "total": 38
+        }
+      },
+      "finding": "Ownmanual independent count;sharedFX oneinstance not38simultaneous;prepostdoesnotdouble. SynthTalkdynamics-triggeredvoice notproofpitchoscillator.",
+      "remaining": "Display diagonal/color/touch,USBconnector/phones,DCpolarity/draw/batteryUSBpower,imports/currentOS,qualifiedcondition/liveoffers."
     }
   ],
   "discovery_cross_brand_bass": {

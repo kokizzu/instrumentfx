@@ -335,7 +335,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-rp1000':
-            message = 'research(digitech): audit RP1000 delay counts and live loop behavior'
+            message = 'research(digitech): enumerate RP1000 amp cabinet and shared FX choices'
         if mode == 'commit-gt6':
             message = 'research(boss): qualify GT-6 synth routing display and mass'
         if mode == 'commit-hxone':
