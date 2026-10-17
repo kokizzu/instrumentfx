@@ -293,7 +293,7 @@ Digital Stereo Multi-FX pedal; distinct from FX2000. Checked2026-10-18;partial. 
 | Expression | No built-in expression pedal orexternal EXP connector documented;toe implementation not applicable to expression. | [Product][FX6-P]; [manual index][FX6-M] |
 | K/F/B | Text-derived **4 rotary** (FX,LEVEL,PAR1,PAR2),**1 bypass footswitch**;separate buttons not documented. No image audit. | [Product][FX6-P] |
 | Display | ON/BATT indicator;no screen documented. Published diagonal/color/touch not established. | [Product][FX6-P] |
-| Processing / choices | **One of6 effects**:Flanger,Chorus,Phaser,Delay,Tremolo,Pitch Shifter. Two adjustable parameters plusmix. **24bit/40kHz** product specification;notUSB audio. Exact delay/pitch ranges pending. | [Product][FX6-P] |
+| Processing / choices | **One of6 effects**:Flanger,Chorus,Phaser,Delay,Tremolo,Pitch Shifter. Two adjustable parameters plusmix. **24bit/40kHz** product specification;notUSB audio. Numeric delay/pitch ranges remain unpublished in the checked V3.0 English pages. | [Product][FX6-P] |
 | Factory / user memory | Stored presets/user memory not established;selector chooses effect,not proof of six memories. | Unresolved |
 | Synth / acoustic | Pitch Shifter documented;dedicated synthesis/acoustic simulation unverified. | [Product][FX6-P] |
 | Dimensions / mass | Approx70W×123D×54H mm;0.33kg. | [Manual indexed specifications][FX6-M] |
@@ -311,10 +311,18 @@ Digital Stereo Multi-FX pedal; distinct from FX2000. Checked2026-10-18;partial. 
 | New | Unknown;no explicit newcondition confirmed inacceptedextract. | — |
 | Condition unverified;Habis | **Rp500,000**,RED HOUSE GUITAR,KabTemanggung;shop43081403/item25707884878. Directreaderlastweekcache;initialsearchlastmonth. Checked2026-10-18;stale7Octdelivery. Bundle/variant/warranty/workingstate andcheckout unavailable. Late-arrival compensation up toRp10,000 notdiscount;shipping/tax unknown. Sold-out ask,notcurrentstock/completedsale. | [ExactShopee][FX6-S] |
 
-Manual evidence is manufacturer-hosted indexed original text,©2018;directPDFreturned502. NewerV3.0 multilingual manual located butunreadable;no silent revisionmerge orvisualaudit. Unknown fields remain;no files downloaded.
+Initial evidence used manufacturer-hosted indexed text,©2018;directPDFreturned502. Follow-up2026-10-18 read a manufacturer-authored **V3.0,©2024** manual copy hosted by Adorama: matching FX600 cover, numbered controls and Music Tribe attribution. Official newer endpoint remains inaccessible;no byte-identity or image audit claimed. English printed pp12–13 and specifications p43 were read as PDF text;no files saved locally.
+
+| Field | V3.0 follow-up / qualification | Evidence |
+|---|---|---|
+| Processing / parameter assignments | Chorus,Flanger,Phaser:PAR1 speed,PAR2 depth. Delay:time/feedback. Tremolo:speed/**LFO shape**,not depth. Pitch Shifter:detune/semitone interval. Numeric ranges absent from these pages. | [Original manual copy][FX6-V3],p12 |
+| LEVEL / source conflict | Manual calls LEVEL output level;product describes effect/original mix. Preserve both descriptions;gain law and dry/wet behavior not independently tested. | [V3][FX6-V3],p12;[product][FX6-P] |
+| Bypass / memory | Footswitch enables/disables effect;ON/BATT also indicates battery status. English operating pages document no preset-save workflow. This does not prove zero memory;true/buffered bypass and trails remain unverified. | [V3][FX6-V3],pp12–13 |
 
 [FX6-P]: https://www.behringer.com/en/products/0709-ADL
 [FX6-M]: https://mediadl.musictribe.com/media/sys_master/h27/he8/8849455579166.pdf
 [FX6-S]: https://shopee.co.id/Behringer-FX600-Digital-Multifx-i.43081403.25707884878
 
 Newer manual endpoint: https://mediadl.musictribe.com/media/PLM/data/docs/P0596/M_BE_0709-ADL_FX600_WW.pdf .
+
+[FX6-V3]: https://www.adorama.com/col/productManuals/BEFX600.pdf

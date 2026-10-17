@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer FX600",
-    "task": "PartialFX600saved;next readableownmanual/revision,delaypitchranges,memory/bypass details,qualified used/newoffers. No bassclassificationwithoutown evidence. Retain allprior modeltechnical gaps.",
+    "task": "FX600 V3.0 original manual copy read;next numeric ranges/bypass evidence and condition-qualified used/new Shopee offers; retain all prior model gaps.",
     "next_models": [],
     "after_queue": "317active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -65156,5 +65156,20 @@
     "accepted_item": "43081403/25707884878",
     "rejected_price": "880854240/47300816627 Rp99with2variants/97%title;notqualifiedusedprice",
     "other_offers": "MB663000Habis,NEO827502,AM895000,DealerJaya710000,King920000 remainunreviewed;do notmergeintorange"
+  },
+  "fx600_manual_followup_20261018": {
+    "source": "https://www.adorama.com/col/productManuals/BEFX600.pdf",
+    "identity": "Manufacturer-authored FX600 V3.0 ©2024; matching model/control text/Music Tribe attribution; retailer-hosted copy, official endpoint still inaccessible; no byte identity claimed",
+    "read": "PDF text cover, English printed pp12–13, specifications p43; no image audit or local download",
+    "findings": [
+      "PAR1/PAR2 assignments saved; tremolo shape distinct from depth",
+      "LEVEL output-level manual wording retained against product mix wording",
+      "No numeric ranges or preset-save workflow established; no unsupported negative capabilities"
+    ],
+    "remaining": [
+      "numeric delay/pitch ranges",
+      "bypass circuit and trails",
+      "condition-qualified used/new hardware offers"
+    ]
   }
 }
