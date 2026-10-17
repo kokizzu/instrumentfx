@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom MS-80IR Plus",
-    "task": "Initial guitar multi-effects record added. Next read1.10supplement andexacteffectlist;distinguish amp/studio/effect limits andIRLoader fromfullpatcheditor.",
+    "task": "IR/USB supplement saved. Next enumerate23amp names and5studio ambiences from own2024effectlist; then factory-filled memories and control counts. Firmware1.10 changesUSBmode, not establishedIRintroduction.",
     "next_models": [],
     "after_queue": "285partialmodels;no downloads/workflows/push."
   },
@@ -57431,14 +57431,30 @@
     "eligibility": "Oneamp+onestudioambience+oneothereffect,threeprocessing slots",
     "offer": "https://shopee.co.id/ZOOM-MS-80IR-MultiStomp-Amp-Cabinet-Modeller-Pedals-i.1030145984.26826283496",
     "remaining": [
-      "Firmware1.10 IRsupplement",
       "Named category inventory",
       "Separate switch/button counts",
       "Factoryfilledmemory",
-      "IRformats",
       "Display diagonal/touch",
-      "Condition-qualified offers"
+      "Condition-qualified offers",
+      "IR bit depth/length/stereo handling"
     ],
+    "downloads": false
+  },
+  "ms80ir_ir_usb_20261017": {
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_MS-80IRplus_FX-list.pdf",
+      "https://zoomcorp.com/media/documents/E_IR_Loader_for_MS-80IRplus.pdf",
+      "https://zoomcorp.com/media/documents/E_MS-80IRplus_v1.10_Supplementary.pdf"
+    ],
+    "identities": [
+      "2024 Z2I-5353-01",
+      "1.02 2024 Z2I-5502-01",
+      "1.10 2025 Z2I-5744-01"
+    ],
+    "ir_slot": "IR replaces ambience, bypasses amp cabinet",
+    "usb": "1.10 MIDI-only alternative disables audio",
+    "formats": "WAV 44.1–192kHz; depth,length,stereo unknown",
+    "other_entries": "8 tool including BPM control +4 delay; not12audioalgorithms",
     "downloads": false
   }
 }

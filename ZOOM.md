@@ -2420,13 +2420,13 @@ Reverb selections1–9 offer11 character choices;Gate/Reverse instead adjust thr
 | Expression | No integrated treadle;external EXP/toe unestablished. |
 | Controls | **4 encoders**;main footswitch+Cross Key switches documented. Exact separate foot/button count unresolved;no visual audit. |
 | Display | **160×128 LCD**,category-colored backlight;diagonal/touch unknown. Backlight color is not full-color pixel proof. |
-| Processing / choices | **1 amp+1 studio ambience+1 other effect**,maximum3. Product lists **23 amps(16 modeled+7 originals),5 studio effects,12 other effects**;firmware-matched enumeration pending. |
+| Processing / choices | **1 amp+1 studio ambience+1 other effect**,maximum3. Product lists **23 amps(16 modeled+7 originals),5 studio effects,12 other effects**;see the dated effect-list qualifications below. |
 | Presets | **80 user patch memories**;factory-filled subset unknown. |
 | Synth / acoustic | Dedicated synth/acoustic conversion unknown. |
 | Dimensions / weight | **133D×79W×61Hmm;369g without batteries,416g with**. |
 | I/O | Quarter-inch mono L/R inputs;stereo L/MONO/phones output,mono R output;USB-C;DC. Shared phones socket,not separate headphone jack. |
 | Power | **9VDC500mA AD-16,centre-negative;2AA;USB bus power supported**. Actual draw unknown. Alkaline estimate3.5h mono/3h stereo,not guaranteed. |
-| IR / NAM / captures | Product advertises **80 user IRs**;Multi-Layer IR uses3 recorded levels. NAM/capture unestablished;IR-loader firmware/format details pending. |
+| IR / NAM / captures | Product advertises **80 user IRs**;Multi-Layer IR uses3 recorded levels. NAM/capture unestablished; WAV format and slot restrictions below. |
 | Editor / platforms | Handy Guitar Lab **iOS/iPadOS**;[support index][M80-S] lists separate IR Loader **Windows10/11,macOS13–26**,not proof of full desktop patch editing. |
 | USB / MIDI | **2-in/2-out,44.1kHz/32bit** interface;USB MIDI patch changes. Not inferred from connector alone. |
 | Looper / drums / routing | Looper/drums/scenes unknown. Output Splitter sends with/withoutIR signals separately. |
@@ -2445,4 +2445,18 @@ Reverb selections1–9 offer11 character choices;Gate/Reverse instead adjust thr
 [M80-S]: https://zoomcorp.com/en/ca/multi-effects/multistomp-pedals/ms-80ir/ms-80ir-plus_support/
 [M80-O]: https://shopee.co.id/ZOOM-MS-80IR-MultiStomp-Amp-Cabinet-Modeller-Pedals-i.1030145984.26826283496
 
-No downloads orvisual inspection. Firmware1.10 supplement listed butnot yet read;do not assume initialmanual covers allIR-loading changes.
+### MS-80IR+ — IR slots and USB revision
+
+Checked 2026-10-17 from the [effect list][M80-FX], ©2024 Z2I-5353-01, and [IR Loader manual][M80-IR], version1.02, ©2024 Z2I-5502-01. No downloads or visual inspection.
+
+| Field | Evidence / gaps |
+|---|---|
+| Processing / IR routing | One user IR **or** one studio ambience per patch; selecting the IR bypasses the amp cabinet. Thus the documented three-slot arrangement is amp + (ambience or IR) + other effect, not four independent slots. |
+| Category choices | TOOL: Noise Gate, ZOOM Noise Reduction, Stereo Guitar Graphic EQ (6-band), Stereo Guitar Graphic EQ7, Stereo Parametric EQ, Stereo Low EQ, Stereo High EQ, BPM. DELAY: Delay, Analog Delay, Tape Echo, Stereo Delay. These reconcile the twelve other entries; **BPM is tempo control, not another audio algorithm**. Amp-name enumeration remains pending. |
+| Delay / live | Delay and Analog Delay reach4s; Tape Echo2s; Stereo Delay2s independently per side. All four have selectable tails; Analog Delay offers mono/ping-pong. |
+| IR loading / software | Windows/Mac loader adds, deletes and renames IRs. WAV44.1–192kHz accepted; bit depth, maximum length and stereo handling unestablished. App-side IR pool stores copies; dragging to hardware slots transfers them. Names allow20characters. Data-capable USB cable required. This is IR management, not evidence of a complete desktop patch editor. |
+| USB / firmware | [Version1.10 supplement][M80-110], ©2025 Z2I-5744-01: USB MODE selects MIDI+AUDIO or MIDI-only. Some USB-MIDI controllers/converters require the latter, which disables USB audio. The supplement describes this USB change; it does not establish introduction of IR loading in1.10. |
+
+[M80-FX]: https://zoomcorp.com/media/documents/E_MS-80IRplus_FX-list.pdf
+[M80-IR]: https://zoomcorp.com/media/documents/E_IR_Loader_for_MS-80IRplus.pdf
+[M80-110]: https://zoomcorp.com/media/documents/E_MS-80IRplus_v1.10_Supplementary.pdf

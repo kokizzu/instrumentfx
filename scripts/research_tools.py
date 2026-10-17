@@ -497,7 +497,7 @@ def main():
         if mode == 'commit-g5':
             message = 'research(zoom): qualify G5 controls looper and tube-booster restrictions'
         if mode == 'commit-ms50gplus':
-            message = 'research(zoom): add MS-80IR Plus with processing and software distinctions'
+            message = 'research(zoom): clarify MS-80IR Plus IR slot and USB mode restrictions'
         if mode == 'commit-505ii':
             message = 'research(zoom): enumerate 505II category modes without inflating algorithm totals'
         if mode == 'commit-ving-coverage':
