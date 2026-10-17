@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 274,
+  "active_model_count": 275,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 274,
+  "canonical_root_model_count": 275,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "274 unique active/root-canonical models; 0 legacy-only; 32 brands; 6 excluded; all partial. Triple Threat guitar-only pending bass/vocal evidence.",
+  "count_reconciliation": "275uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.RedTruckguitaronly;Indonesianretailerpricecacheconflictretained.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "MOOER Red Truck",
-    "task": "Exact Indonesian Melodia hardware lead found with conflicting cached asks; inspect primary_lead in discovery_redtruck_b91ut_20261017, add canonical record with explicit gaps and pricechannel qualifiers, commit before nextmodel. RedTrucknotcounted yet.",
+    "task": "Initialcanonicalrecord added with own pages and qualified Indonesian retailer evidence. Next inspect exactmanual/controlpanel toresolve expression,controls,ports,presetparameterstorage anddimensionaxes;commitbeforeothermodel.",
     "next_models": [],
-    "after_queue": "274partialmodels;no downloads/workflows/push;ZoomB9.1utforeignoffersnotIDR;continue fullscope."
+    "after_queue": "275partialmodels;no downloads/workflows/push;technical/marketverification andlegacyretirement incomplete."
   },
   "new_findings": [
     {
@@ -23804,7 +23804,8 @@
       "GE300",
       "GS1000",
       "PE100",
-      "Black Truck"
+      "Black Truck",
+      "Red Truck"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -24058,7 +24059,8 @@
       "GE1000",
       "GE1000 Li",
       "PE100",
-      "Black Truck"
+      "Black Truck",
+      "Red Truck"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -24345,7 +24347,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 225,
+      "record_count": 226,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41308,10 +41310,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 274,
-    "canonical_root_models": 274,
+    "unique_brand_model_pairs": 275,
+    "canonical_root_models": 275,
     "legacy_only_models": 0,
-    "guitar_view_models": 225,
+    "guitar_view_models": 226,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41371,7 +41373,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Red Truck."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41472,6 +41474,7 @@
       "MOOER::GS1000",
       "MOOER::PE100",
       "MOOER::Black Truck",
+      "MOOER::Red Truck",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -42751,6 +42754,13 @@
     },
     "MOOER::Black Truck": {
       "link": "MOOER.md#black-truck",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::Red Truck": {
+      "link": "MOOER.md#red-truck",
       "source_files": [
         "MOOER.md"
       ],
@@ -56666,7 +56676,7 @@
   "discovery_redtruck_b91ut_20261017": {
     "checked": "2026-10-17",
     "red_truck": {
-      "unrecorded": true,
+      "unrecorded": false,
       "indonesian_offer": "https://www.melodiamusik.com/product/mooer-red-truck/",
       "seller": "Melodia Musik",
       "search_observation": "Rp3689000 vs4340000;2weekcrawl;Jakarta/Bali/BSD tersedia,Yogyakarta/Surabaya notavailable.",
