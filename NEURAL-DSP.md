@@ -80,8 +80,9 @@ Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Corte
 | Display | **7-inch multitouch** [qc-m];published color specification not yet checked. |
 | Dimensions / weight | **290×195×69 mm;1.95kg**,manufacturer dimensions;axis labels not explicit in retrieved prose [qc-p]. |
 | Simultaneous blocks / category choices | Manufacturer demonstrates four amp models plus stereo reverbs andother effects;not a universal maximum. Headline90+amps,100+effects,1000+IRs;exact category census unresolved [qc-p]. Manual4.1.1: **4rows×8slots=32 grid slots**,subject to CPU availability;not32arbitrary simultaneous algorithms. Bypassing blocks does not reduce CPU;GlobalEQ/InputGate automatically disable when resources exceeded. Maximum2side-chain devices per row pair [qc-m]. |
+| Processing / inspected category choices | Official current device-list named rows: **Pitch10,Modulation23,Morph6,Filter4,EQ6,IRLoader8,Wah7,Looper1,Synth1,Utility12**. Counts include separately named mono/stereo/Lite/side-chain variants;not simultaneous limits orunique underlying algorithms. Other category/capture totals still unaudited. Separate Plugin devices table explicitly requires corresponding licences;not included in these standard counts. Current list includes4.1.0 additions;not seller firmware proof [qc-d]. |
 | Preset / factory / user memory | Manual4.1.1: **256 full presets per setlist**;Factory/MyPresets setlists cannot be deleted. Setlist maximum,combined capacity andfactory occupancy unresolved. SceneA–H recall anddesktop shortcuts1–8 document **eight Scene selections** [qc-m]. Separate libraries: **2048 user captures alongside factory captures,and2048IRs**,each up to30folders/four nesting levels;folder links do not duplicate storage. Compatible virtual devices,GlobalEQ andI/O settings each support **32 user parameter presets**,not32full signal chains [qc-m]. |
-| Synth / acoustic | Manual4.1.1 explicitly includes **SYNTH waveform-generation devices**. Exact synth choices andelectric-to-acoustic simulation unresolved [qc-m]. |
+| Synth / acoustic | Manual4.1.1 explicitly includes **SYNTH waveform-generation devices**. [qc-m]. Official device list has **one standard Synth entry:Mono Synth**,free enhanced Overlord-derived engine,addedCorOS3.3.0. Separate Pitch category includes Subharmonic Synth;category placement is retained. Electric-to-acoustic simulation unresolved [qc-d]. |
 | Audio I/O | Two TS/TRS/XLR combo inputs with mic preamps/phantom;dual FX loops;two balancedTRS andtwo balancedXLR outs;headphones;capture out. [qc-p]. Manual4.1.1:returns2×¼-inchTRS,1Mohm;sends2×¼-inchTRS ground-cancelling,560ohm,+9.5dBu;phones¼-inchTRS,300mW(load unspecified). InputXLR9.4kohm/TS10kohm–10Mohm,+60dBmaxgain. MainXLR560ohm,+9.5dBu. **Connector discrepancy:** headingTRS OUT3/4 butconnector printsTS-F;balanced+15.5/unbalanced+9.5dBu,560ohm. Retained,not silently corrected. Capture-out format unresolved [qc-m]. |
 | Control / USB | MIDI in,out/thru;dualEXP;USB audio/MIDI/updates. [qc-p]. Manual4.1.1 confirms **8in/8out USB audio**;**USB Audio Class2.0,fixed48kHz**;MIDI5-pinDINin/out. USB power andcomplete socket census unresolved [qc-m]. |
 | Power / battery / USB operation | **12V DC,≥3A,centre-negative**,supplied adapter;not measured consumption. Battery/USB operation andbarrel dimensions unresolved [qc-m]. |
@@ -99,6 +100,7 @@ Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Corte
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
+[qc-d]: https://neuraldsp.com/device-list
 [qc-p]: https://neuraldsp.com/quad-cortex
 [qc-m]: https://neuraldsp.com/manual/quad-cortex
 

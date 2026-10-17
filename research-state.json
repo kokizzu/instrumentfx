@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Neural DSP Quad Cortex",
-    "task": "Quad Cortex LooperXcontrols/routing/quantize saved;numeric duration/persistence still unknown. Check officialdevice list forcategory counts anddisplay/captureout specification;then freshbass/vocal Shopee discovery. Existingmemory/power/offer gaps remain explicit.",
+    "task": "Continue Quad Cortex officialdevice-list counts foramps/cabs/drives/delay/reverb/compressor andcaptures;inspected standardcategory counts saved. Display/captureconnector,looperduration/persistence,memory totals andqualifiedoffers remain open.",
     "next_models": [],
     "after_queue": "Fresh bass/vocal discovery andlossless legacy consolidation remain incomplete. No downloads,workflows orpush."
   },
@@ -63879,5 +63879,25 @@
       "Quantize/externalclock;clockdisablesthreshold;preroll1/2/4bars;fixedlength1–32bars."
     ],
     "unresolved": "Numericsecondsmaximum,export/poweroff persistence andcurrent crosspresetconditions notestablished. Search1.3.0communitycopy mentionscrosspresetrequirement butnotaccepted ascurrentmanufacturerproof."
+  },
+  "technical_followups_quad_device_categories_20261017": {
+    "model": "Neural DSP Quad Cortex",
+    "source": "https://neuraldsp.com/device-list",
+    "checked_date": "2026-10-17",
+    "method": "Count named standard-category rows;mono/stereo/Lite/sidechainvariants separate;exclude separate licence-required PluginDevices table.",
+    "counts": {
+      "Pitch": 10,
+      "Modulation": 23,
+      "Morph": 6,
+      "Filter": 4,
+      "EQ": 6,
+      "IRLoader": 8,
+      "Wah": 7,
+      "Looper": 1,
+      "Synth": 1,
+      "Utility": 12
+    },
+    "synth": "MonoSynth standard added3.3.0;PitchSubharmonicSynth distinct category.",
+    "remaining": "Guitar/bass amps,cabs,drives,delay,reverb,compressor,captures andlicencedplugin totals unaudited;no grandtotal inferred."
   }
 }
