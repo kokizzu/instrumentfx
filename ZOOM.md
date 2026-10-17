@@ -1009,7 +1009,7 @@ Checked2026-10-17 against the manufacturer’s [September2023 compatibility shee
 
 | Field | Verified scope / qualification | Evidence |
 |---|---|---|
-| USB / macOS compatibility | Zoom’s January23,2026 status marks **B2 FOUR supported on macOS Tahoe26 for both Apple Silicon and Intel**. This model-level OS status does not establish a desktop patch editor, every DAW version or a new driver requirement. | [Zoom status](https://zoomcorp.com/ja/jp/news/macos_tahoe/) |
+| Editor / macOS compatibility | Zoom’s January23,2026 status marks **B2 FOUR supported on macOS Tahoe26 for both Apple Silicon and Intel**. This model-level OS status does not establish a desktop patch editor, every DAW version or a new driver requirement. | [Zoom status](https://zoomcorp.com/ja/jp/news/macos_tahoe/) |
 | Software / tested DAWs | July2025 matrix marks B2 FOUR compatible with CubasePro14/LogicPro11/GarageBand10.4 on Sequoia15, and CubasePro13/LogicPro10.8/GarageBand10.4 on Sonoma14. iOS18 tests Cubasis3.7/GarageBand2.3; iOS17 tests Cubasis3.6/GarageBand2.3. These are dated tested combinations, not universal compatibility. They do not override the separate Android Cubasis restriction. | [Zoom DAW matrix](https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf) |
 
 <!-- comparison evidence ends -->
