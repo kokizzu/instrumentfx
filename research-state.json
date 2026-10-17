@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 707II",
-    "task": "707II sampler/card and pedal range/calibration/threshold facts saved. Factory USER fill-count still unverified; 60+60 storage is documented. Next pursue substantial unresolved fields in another recorded model or fresh exact Shopee discovery; avoid repeating completed 505 or 707II operational checks. No downloads; commit before next model.",
+    "model": "Zoom B3n",
+    "task": "Saved original effect-sheet seven-amp/seven-cabinet census and effect-bypass Tail behavior. Next complete remaining effect-sheet category census and distinguish additions from product67/manual80 scopes; no installed-library claim. Physical panel/headphone conflict remains unresolved. Commit each model before next; no downloads.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45303,7 +45303,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 707II."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B3n."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56739,6 +56739,12 @@
       "checked_date": "2026-10-18",
       "finding": "Manufacturer manual pp23–25: PDLMIN/MAX 0–10 per patch, reversible range; WAH/PITCH replace MOD type temporarily; assigned module saved ON. Toe inactive under VOL. Calibration sets switching threshold and ERROR retries from MIN. Factory user-bank fill count remains unverified.",
       "source": "https://zoomcorp.com/media/documents/E_707II.pdf"
+    },
+    {
+      "model": "Zoom B3n",
+      "checked_date": "2026-10-18",
+      "finding": "Manufacturer E_B3n_FX-list_3 pp8–10 contains seven amp and seven cabinet entries, versus product five/five summary. Preserve revision/scope difference and do not infer installation. pp14–15 effect Tail enables effect-bypass decay; patch-change spillover remains unknown. Delay lengths separately qualified.",
+      "source": "https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf"
     }
   ],
   "discovery_cross_brand_bass": {

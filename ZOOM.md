@@ -1572,6 +1572,16 @@ Checked 2026-10-18 using web text; no files downloaded or hardware tested.
 | IDR Condition unknown; sold out | **Rp1,800,000; Habis**, No Dent, Kota Tangerang Selatan; shop84057464/item22439853153. Direct text retrieved from a two-month cache; search reported four months. Same-day delivery banner is not live-stock proof. Used/new condition, revision, working state, adapter, bundle, warranty and checkout unknown. Late-delivery voucher is not a product discount. | [Exact hardware](https://shopee.co.id/Zoom-B3n-Bass-Effect-Pedal-i.84057464.22439853153) |
 | IDR Condition and stock unknown | **Rp3,775,000**, yuniramadanmall, Kota Jakarta Pusat; shop188782010/item9119534224. Direct text is four weeks old with stale 21–24 September delivery; search cache was two months old. No Habis marker exposed, but stock and checkout remain unverified. Condition, revision, adapter, bundle and warranty unknown; late-delivery voucher excluded. | [Exact hardware](https://shopee.co.id/Zoom-B3N-Multi-Effect-Processor-Efek-Bass-i.188782010.9119534224) |
 
+### B3n — effect-sheet amp/cabinet census and tails
+
+Checked 2026-10-18 against the manufacturer-hosted English Effect Types and Parameters sheet, copyright 2017, filename E_B3n_FX-list_3.pdf. This is a document inventory, not proof of installed firmware/library contents.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / amp models | **Seven named entries, pp8–9:** AMPG SVT, BMAN100, SMR400, AG 750, TE400SMX, AC 370, Mini MkB. Retain product-page five-amp summary as a different source scope; do not silently declare seven installed or infer a firmware transition date. [Own effect sheet](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf) |
+| Category choices / cabinet models | **Seven named entries, p10:** SVT8x10, FD-B4x12, SMR4x10TW, AG4x10TW, TE4x10, AC1x18, MkB2x8TW. Fixed modeled cabinets are not evidence of user IR import or NAM/capture loading. [Own effect sheet](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf) |
+| Looper / effect tails distinction | **pp14–15:** listed Delay, AnalogDly, TapeEcho, ReverseDL, Hold DLY and six reverbs have Tail ON/OFF. ON preserves the effect sound after that effect is switched off; **patch-change spillover remains unverified**. Delay/AnalogDly reach4000ms, TapeEcho/ReverseDL2000ms; these are delay lengths, not looper capacities. [Own effect sheet](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf) |
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
