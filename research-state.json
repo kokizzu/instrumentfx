@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-200",
-    "task": "GP200 WAH6,NR4,EQ6,RVB12,VOL1 manualcategorychoices saved withnames andduplicatequalification. Next AMP/CAB/PRE/DST/MOD/DLYcensus orfreshShopeediscovery; exactpanelcountsremainopen.",
+    "task": "GP200 MOD27 namedentryinventorysaved; WA H6/NR4/EQ6/RVB12/VOL1 retained. Next AMP/CAB/PRE/DST/DLYcensus orfreshShopeediscovery; exactpanelcountsremainopen.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61294,5 +61294,46 @@
       "Volume"
     ],
     "limits": "Categoryentriesnotuniquealgorithmgrandtotal;AutoSwellalsoPRE;Trailonbypassnotpresetchangeproof;AMP/CAB/PRE/DST/MOD/DLYcensusremain"
+  },
+  "gp200_mod_inventory_20261017": {
+    "source": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "revision": "Firmware1.8.0manualpp57–61",
+    "count": 27,
+    "names": [
+      "A-Chorus",
+      "G-Chorus",
+      "C-Chorus",
+      "B-Chorus",
+      "M-Chorus",
+      "Jet",
+      "B-Jet",
+      "N-Jet",
+      "Trem Jet",
+      "V-Roto",
+      "G-Roto",
+      "Vibrato",
+      "Vibrato T",
+      "O-Phase",
+      "G-Phase",
+      "S-Phase",
+      "Pan Phase",
+      "M-Vibe",
+      "Vibe",
+      "O-Trem",
+      "Sine Trem",
+      "Bias Trem",
+      "Detune",
+      "Bit Smash",
+      "Auto Swell",
+      "Hold",
+      "Freeze"
+    ],
+    "findings": [
+      "TremJetcombinedoneentry",
+      "Detune±50cents",
+      "HoldpreactivationfragmentvsFreezeactivationmoment",
+      "AutoSwellHoldFreezecrosscategoryduplicates"
+    ],
+    "limits": "Notuniquegrandtotalorusedunitinstalledfirmware"
   }
 }
