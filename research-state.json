@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-8",
-    "task": "ME-8 p13 control targets and CTL/EXP restrictions saved. Next p14 remaining Arm/Trip/Vibrato/Silent actions or exact delay passage; panel counts remain unverified.",
+    "task": "ME-8 p14 control actions saved. Next own-manual delay passage and exact panel counts; remaining software/display/market fields unresolved.",
     "next_models": [],
     "after_queue": "Continue brand/series Shopee discovery. Preserve RP200, AX100G, ME-30, GT-5 and RFX-2000 deferred gaps. No downloads, workflows or push."
   },
@@ -54219,5 +54219,11 @@
     "page": "13",
     "finding": "CTL-only Slow Attack, EXP-only Foot Volume, feedback single-note/press-release behavior, intelligent ring restriction and assignable control target list saved.",
     "remaining": "Remaining control target actions, exact delay passage, panel counts and existing software/display/market gaps."
+  },
+  "me8_control_actions_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+    "page": "14",
+    "finding": "Remaining Arm/Trip ranges, Vibrato action, Silent tail removal and CTL-only Tempo/Remote restrictions saved.",
+    "remaining": "Exact delay passage, panel counts and existing software/display/market gaps."
   }
 }
