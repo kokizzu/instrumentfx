@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER PowerHead MK2",
-    "task": "PowerHead controls/display,memory,IR/NAM,capture/software,qualifiedoffers;commit before PowerRack.",
+    "task": "PowerHead acoustic/synth,currentcapture/software,panel/display andqualifiedoffers;then nextvariant.",
     "next_models": [
       "Kemper PROFILER PowerRack MK2 lead",
       "Kemper PROFILER Head MK2 lead"
@@ -63626,5 +63626,12 @@
     "finding": "Passive-load/no-load/grounding/protection andwattmeter/boost qualifications saved.",
     "limits": "No device measurements;exactMK2label/connector/currentrevision still needed.",
     "next": "PowerHead controls/display,memory,IR/NAM,capture/software,qualifiedoffers;commit before PowerRack."
+  },
+  "powerhead_controls_memory_ir_20261017": {
+    "source": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+    "pages": "Printed28–41,96,419",
+    "finding": "PowerHead-specific rotary distinction,independentPerformance memory andIRconversion saved.",
+    "limits": "Revision-qualified,not hardwaretest;remainingfields staypartial.",
+    "next": "PowerHead acoustic/synth,currentcapture/software,panel/display andqualifiedoffers;then nextvariant."
   }
 }

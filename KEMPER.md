@@ -149,13 +149,13 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee
 | Required field | Evidence / qualification |
 |---|---|
 | Built-in / external / toe expression | Two onboard TRS pedal/switch sockets,10–100kohm [kh-s]. Built-in/toe details unverified;generic four-pedal product wording does not establish four onboard sockets [kh-p]. |
-| Knobs / footswitches / buttons | ?/?/?; exact PowerHead MK2 physical census pending. Remote controls excluded. |
+| Knobs / footswitches / buttons | **16 adjustable rotary / ? footswitches / ? buttons**, derived from Manual13.0 pp.28–41: Noise Gate1+directFX6+Master1+Type/Browse2+soft4+Gain1+Rig Volume1. Power/mode selector separate. Manual explicitly gives PowerHead six direct-effect knobs versus Rack four. Remaining physical census/current MK2 panel confirmation pending;Remote excluded. [kh-m] |
 | Display | Diagonal,color/monochrome and touch unresolved. |
 | Dimensions / weight | **378W×173D×217H mm;6.50kg**, manufacturer PowerHead specification;not Head's5.32kg [kh-s]. |
 | Simultaneous blocks / category choices | Four flexible pre+four flexible stereo post; six fixed pre+two fixed stereo post,around AMP/CAB. Category census and total-count definitions unresolved [kh-p]. |
-| Preset / factory / user memory | Exact Browse/Performance/factory/user capacities not independently checked for this record. |
+| Preset / factory / user memory | Manual13.0 p.419: **125 Performances ×5 slots =625 Rigs**,stored independently of Browse pool. Browse capacity,combined total andfactory occupancy unresolved. [kh-m] |
 | Synth / acoustic | Dedicated algorithms unresolved;acoustic PROFILEs alone do not establish a simulator. |
-| IR / NAM / captures | Proprietary amp PROFILING creation documented [kh-p]. IR formats,native/converted NAM and current capture-version restrictions unresolved. |
+| IR / NAM / captures | Proprietary amp PROFILING creation documented [kh-p]. Manual13.0 p.96: **desktop Rig Manager≥3 converts imported cabinet IRs to cabinet presets**. Software accepts arbitrary source sample rate/length;not unlimited native onboard length.18 Celestion-derived factory presets documented since OS5.5. Native/converted NAM and current capture-version restrictions unresolved. [kh-m] |
 | Audio I/O | Front¼-inchTS1Mohm;balanced alternative TRS825kohm;balanced XLR/¼-inch return825kohm. Main stereo balancedXLR/unbalancedTS;monitor anddirect/send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz,master/slave [kh-s]. Exact stereo-monitor routing and phantom details require matching manual. |
 | Audio I/O — speaker output | **600W at8ohm /300W at16ohm**, built-in power amp [kh-s];[kh-p]. Manufacturer Main Manual13.0, Rev.May2025, pp.114–116 permits **passive4/8/16ohm loads**, with4ohm output limited to600W and brief protection muting at that limit. **No loads below4ohm;no grounded active devices/power soaks at SPEAKER OUT**. No cabinet connection is required for operation. Power stage follows MONITOR OUT settings;not a stereo-power-output claim. Connector detail/current hardware-label confirmation remains open. [kh-m] |
 | Control / USB | USB-A/B,USB MIDI;DIN in/out/thru;RJ45;two pedal sockets. **4in/4out USB audio**,44.1kHz [kh-s];[kh-p]. |
