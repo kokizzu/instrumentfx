@@ -526,7 +526,7 @@ def main():
         if mode == 'commit-ax1000g':
             message = 'research(korg): qualify AX1000G trainer controls and calibration'
         if mode == 'commit-ve20-followup':
-            message = 'research(boss): preserve exact VE20 sold-out hardware ask'
+            message = 'research(boss): qualify VE20 phantom limit and Borneo sold-out ask'
         if mode == 'commit-g71ut':
             message = 'research(zoom): qualify G71ut memory pedal targets and converters'
         if mode == 'commit-field-projection':

@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive Play",
-    "task": "Commit separate Wiras musik historical sold-out ask. Next inspect full BOSS VE-20 record against fresh exact seller leads (guitardistro212343682/23225176714, Dial338305078/18993563259, Borneo684472204/23055109101, Seven16879370/651376850); do not duplicate existing evidence.",
-    "next_models": [
-      "BOSS VE-20"
-    ],
-    "after_queue": "335 active partial models; 117 compatibility files remain. No downloads/workflows/push."
+    "model": "BOSS VE-20",
+    "task": "Commit phantom supply limit and separate Borneo historical ask. Then fresh Shopee discovery of eligible bass/vocal model series; inspect full existing records before adding facts or offers.",
+    "next_models": [],
+    "after_queue": "335 active records retain gaps; 117 legacy compatibility files remain. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45321,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Play."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-20."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57233,6 +57231,15 @@
       "finding": "Added distinct Wiras musik shop399870342/item11275905550 Rp6.1m Habis hardware ask, direct two-month cache versus three-month search age. No new/used condition or live stock established. Fresh B9.1ut/BP/Vocalist searches yielded no exact accepted hardware; adaptor excluded.",
       "sources": [
         "https://shopee.co.id/Tc-Helicon-Voicelive-Play-i.399870342.11275905550"
+      ]
+    },
+    {
+      "model": "BOSS VE-20",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual p16 resolves phantom supply 48V DC/10mA maximum, separate from unresolved 180/190mA unit-current conflict; records LowCut and contrast without invented ranges. Added distinct Borneo684472204/23055109101 Rp4.355m Habis three-month cached offer. Other queued seller leads already recorded.",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/VE-20_OM.pdf",
+        "https://shopee.co.id/BOSS-VE-20-VE-20-VE20-Original-Efek-Vokal-Stompbox-i.684472204.23055109101"
       ]
     }
   ],

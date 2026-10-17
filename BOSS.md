@@ -700,6 +700,14 @@ Checked2026-10-18. Earlier observations remain dated above.
 | IDR / existing item additional indexed context | **Rp4,200,000,Habis**; [Dial Musik,shop338305078/item18993563259](https://shopee.co.id/Boss-VE-20-Vocal-Processor-Efek-Vokal-Original-Boss-VE20-i.338305078.18993563259),KotaPalembang. One-month indexedbody nowexposesseller/location andstale14–16Septemberdelivery; directreopen stillcachemiss. This supplements thesameexistingoffer,not asecondquote. Used/newcondition,bundle/adapter,warranty,shipping/tax andcheckoutunknown; lateRp10,000compensationnotdeducted. |
 
 
+
+### VE-20 — phantom limit and Borneo historical offer, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / phantom supply and input filtering | [Own manual p16][VE20-M] specifies **48 V DC, 10 mA maximum phantom power**. This is the microphone supply limit, not unit current draw; it does not resolve the retained 180/190 mA conflict. System LowCut can be switched on/off; cutoff frequency is not stated in the inspected parameter text. Display contrast is adjustable, without a numeric range established here. |
+| IDR / separate sold-out hardware offer | **Rp4.355.000; Habis**, [BORNEO BROTHER AUDIO, shop684472204/item23055109101](https://shopee.co.id/BOSS-VE-20-VE-20-VE20-Original-Efek-Vokal-Stompbox-i.684472204.23055109101), Kota Jakarta Barat. Direct JavaScript-limited reader and search show a three-month cache. Exact VE-20 title; condition/new versus used, working status, selected variant, adapter/bundle, warranty/import region, authenticity and shipping/tax unverified. Two-hour delivery banner does not override sold-out status. Late-arrival compensation up to Rp20.000 is not a price discount. Historical ask, not a completed sale or current available price. |
+
 ## GT-1000CORE
 
 Consolidated 2026-10-16;technical dates below retained. Partial verification;historical next-model notes are provenance,not the current queue. No legacy source deleted.
