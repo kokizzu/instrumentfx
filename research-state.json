@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-30",
-    "task": "128 factory-filled editable preset locations verified from manufacturer;regional algorithm differences retained. Continue fresh eligible bass/vocal Shopee discovery;MG-30 MKII remains unrecorded without exact offer.",
+    "model": "Korg AX10B",
+    "task": "Battery switching,stereo-output wiring and bypass verified. Continue fresh Shopee eligible bass/vocal discovery and unresolved fields;do not recycle unreadEasyStart as evidence.",
     "next_models": [],
     "after_queue": "Technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -41826,7 +41826,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-30."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX10B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -64725,5 +64725,13 @@
     "memory": "32banks128factory-createdpresets;all128locationseditable/modifiable/savable. Not256slots.",
     "conflicts": "Chinese30amps25guitar2acoustic3bass vsEnglish35(28/2/5);Chinese7delaysomitsPhi. CurrentGEN2fullinventoryunresolved.",
     "discovery": "MG30MKII/MG-30MKII/MG30MK2Shopee queries returnedMG300MKII andoriginalMG30;noqualifiedexactMKIIoffer. Do notinfermarketabsence orborrowprices."
+  },
+  "ax10b_power_output_followup_20261017": {
+    "source": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf",
+    "pages": "7–9",
+    "checked_date": "2026-10-17",
+    "findings": "Batteryturnonrequiresmonoinput;stereoplugdoesnotpower. StereoTRSoutputmonocableleftonly,notsum. Tapbothfeetbypass;hold1smute;eitherexits.",
+    "easy_start": "Official2038entryCDN6d29b2b401333c3fa4b58f256d3b30e4.pdf inaccessible;notread",
+    "discovery": "BP90/AX10B/HarmonyG/VocalistLiveShopeequeriesproducednoqualifiednewhardware;DigiTech16626959/4486100964adapterexcluded.Notmarketabsenceproof."
   }
 }

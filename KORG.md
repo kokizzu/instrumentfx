@@ -457,4 +457,14 @@ Korg’s [current specification text for the KA181 accessory](https://www.korg.c
 
 Japanese p48 explicitly instructs FUNCTION+VOLUME(NR), corroborating the English footnote and front-panel inventory; the conflicting English TAP+EFF.DEPTH wording remains preserved above.
 
+### AX10B — power switching, stereo wiring and bypass
+
+| Field | Verified operational detail |
+|---|---|
+| Power / input wiring | On batteries, a **mono input plug powers the unit; a stereo input plug does not**. Removing the input cable switches battery operation off. DC adapter connection powers it automatically. [Own manual,pp7–8](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),checked2026-10-17. |
+| Output / routing | Shared output is stereoTRS;mono cable carries **left channel only**,not a documented summed output. Stereo-to-dual-mono cable feeds two amps/mixer channels. Manual recommendsLINE for amps with extended-high-frequency tweeters. [Own manual,p8](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+| Bypass / tuner | TapUP+DOWN together for dry bypass;holdabout1s thenrelease for mute/silent tuning. Eitherfoot exits. This operational bypass description does not establish relay/true-bypass circuitry. [Own manual,p9](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+
+Official [Easy Start entry](https://www.korg.com/us/support/download/manual/1/22/2038/) links AX10_Series_EasyStart.pdf;exact CDN URL returnedcachemiss andquerylessURL inaccessible. No newfacts assigned from unreadguide.
+
 [AX100-S]: https://www.korg.com/de/products/effects/ax100g/page_2.php
