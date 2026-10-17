@@ -85,3 +85,42 @@ The 2005 MIDI appendix marks velocity,aftertouch andpitch-bend reception N; Span
 [BP-S]: https://mediadl.musictribe.com/media/sys_master/h9c/h88/8850172641310.pdf
 [BP-E]: https://www.behringer.com/en/products/0709-AAD
 [BP-O]: https://shopee.co.id/behringer-bass-v-amp-pro-%28-Second-%29-i.53553463.28809251521
+
+## V-AMP 2
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**, partial. Guitar desktop multi-effects; distinct from original V-AMP, V-AMP 3 and Bass V-AMP models.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | No integrated pedal in the manual inventory. MIDI wah control; external toe behavior **?**. [Product][V2-P] |
+| Knobs / footswitches / buttons | **11 / 0 / 9**: ten top rotary controls plus side AUX LEVEL; A–E, TAP, TUNER, two bank buttons. External FS112V is separate. [Manual][V2-M] |
+| Display | Two-digit numeric LED; diagonal, color specification and touch **?**. [Manual][V2-M] |
+| Dimensions / weight | **236 W ×180 D ×63 H mm; approximately 1.2 kg**. [Manual][V2-M] |
+| Blocks / category choices | **32 amps, 15 cabinets, 16 effect selections**; clean/blues/metal/rock amp groups. These are choices, not simultaneous block counts. [Product][V2-P] Manual describes five preset ingredients, fixed effect combinations and independent **nine-type reverb**; freely assignable DSP-slot ceiling **?**. [Manual][V2-M] |
+| Memory | **125 rewritable presets, 25×5**; factory subset **?**. [Product][V2-P] |
+| Synth / acoustic | Dedicated synthesis and acoustic-simulation algorithms **?**; cabinet models do not prove either. |
+| IR / NAM / captures | User IR, native NAM, converted NAM and proprietary capture import **?**. |
+| I/O | Quarter-inch guitar, stereo AUX, L/R balanced line outputs, stereo phones, FS112V socket; DIN MIDI IN and OUT/THRU; AC IN. [Manual][V2-M] USB/audio-interface capability **?**. |
+| Power / battery / USB | **13 W**, external supply. Unit-side voltage, current, connector pinout, polarity, battery and USB power **?**. [Manual][V2-M] Manufacturer warns replacement supplies are country-specific. [Product][V2-P] |
+| Editing / platforms | Manufacturer names historical third-party **iVAMP and V-amplio Pro for Mac OS X**; current compatibility **?**. MIDI parameter/preset transfer documented; MIDI THRU suppresses the unit’s own outgoing messages. Driver/updater/USB-audio support **?**. [Product][V2-P] |
+| Practical features | Tuner, noise gate, tap tempo; five configurations **S1/S2/L1/L2/L3**. S2 splits effect-free/effected outputs; L2 omits cabinets; L3 splits stage-amp/mixer feeds. Headphones select S1. [Product][V2-P] Preamp bypass supports effects-only use. Looper, drums, scenes and spillover **?**. [Manual][V2-M] |
+
+### V-AMP 2 — IDR observations
+
+**New IDR: ?**. Neither cached ask certifies live stock, working condition or checkout availability.
+
+| Condition / ask | Exact hardware evidence and limitations |
+|---|---|
+| **Used-title ask Rp1,200,000** | [Item 61848168/7587372301][V2-O2], title explicitly Second. Recovered from gitar second shop recommendation; seller ownership of the recommendation remains unconfirmed. Search crawl last month versus opened shop crawl five months. Both show the ask and one sold indicator, which is not a verified transaction price. Exact item open failed. Region, working condition, adapter, bag, footswitch, warranty and stock **?**; display_model_id 29387076168 remains unresolved. |
+| **Condition unknown Rp1,100,000** | [sitiadiran, item 59084647/2820560961][V2-O1], Kabupaten Jember. Indexed last week, delivery 8–11 October; exact open failed. Bundle, warranty, condition and stock **?**. Late-delivery voucher up to Rp10,000 not deducted. |
+
+Sources checked 2026-10-17. Manufacturer manual text inspected in the web viewer; no local manual, software, firmware or dependency downloads. Complete manual audit remains unfinished. Vocal-track preamp use in the manual does not establish an independently documented live microphone path; bass membership remains unverified.
+<!-- comparison evidence ends -->
+
+[V2-P]: https://www.behringer.com/en/products/0709-AAD
+[V2-M]: https://cdn.mediavalet.com/aunsw/musictribe/qpnCBAUO90iaytgcpSr3Ng/BO7R0l3qqE6jsWGytbBfrQ/Original/8849825169438.pdf
+[V2-O1]: https://shopee.co.id/Behringer-V-amp-2-i.59084647.2820560961
+[V2-O2]: https://shopee.co.id/Efek-Gitar-Electric-Behringer-VAmp2-original-Second-Effect-Guitar-Vamp-2-V-AMP2-V-AMP-2-i.61848168.7587372301
+
+Manual identity: manufacturer English **v1.2, September 2002**, Rev C filename, 26 PDF pages. Relevant sections: controls pp.7–10; preset architecture p.13; effects pp.18–20; specifications p.25. A separate shared V-AMPIRE/V-AMP PRO/V-AMP 2 Rev B manual at https://images.thomann.de/pics/atg/atgdata/document/manual/164913_manual_eng.pdf was retrieved but has badly corrupted text; its sibling columns were not used to fill this record. Spanish v1.2 direct retrieval returned 502. Remaining: full routing/effect inventory, power label, contemporary software availability, factory-memory partition and qualified offers.

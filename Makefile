@@ -1471,3 +1471,7 @@ research-commit-bass-vamp:
 .PHONY: research-commit-bass-vamp-pro
 research-commit-bass-vamp-pro:
 	python3 scripts/research_tools.py commit-bass-vamp-pro
+
+.PHONY: research-commit-vamp2
+research-commit-vamp2:
+	python3 scripts/research_tools.py commit-vamp2
