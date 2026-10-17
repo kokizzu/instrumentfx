@@ -546,7 +546,7 @@ def main():
         if mode == 'commit-g3x':
             message = 'research(zoom): reconcile G3X numbered effect and cabinet census'
         if mode == 'commit-g5':
-            message = 'research(zoom): qualify G5 controls looper and tube-booster restrictions'
+            message = 'research(zoom): qualify original G5 analog and converter ratings'
         if mode == 'commit-ms50gplus':
             message = 'research(zoom): reconcile B1X FOUR library categories and amp cabinet choices'
         if mode == 'commit-505ii':
