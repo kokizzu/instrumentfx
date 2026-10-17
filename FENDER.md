@@ -92,6 +92,16 @@ Checked2026-10-17;partial. Guitar multifx;firmware-qualified bass support below.
 |---|---|---|
 | Unverified | **Rp2.635.000**,Seven Stereo Music & Audio Store,shop16879370/item26916147755,Kota Bandung;three-month indexed crawl. Checked2026-10-17;historical ask,not live stock/checkout. | [Item][MMP-O] |
 
+
+### Mustang Micro Plus — bass update date and reset distinction
+
+Checked 2026-10-18 against [Fender’s 2026 announcement](https://www.fender.com/newsroom/270267-eight-decades-in-fender-unveils-2026-product-line-as-landmark-anniversary-year-begins/) and [model-specific update instructions](https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions).
+
+| Field | Manufacturer qualification |
+|---|---|
+| Processing / bass release-date conflict | The announcement says **available March2026**, while support lists **1.1.11 dated January14,2026**. Both describe ten bass models. Retain the discrepancy; neither proves the firmware installed on a seller’s unit. |
+| Memory / bass factory-preset procedure | Support lists **adding bass factory presets separately from the firmware update** and warns that the preset procedure resets **all presets**. Do not claim that installing firmware alone necessarily performs that reset. The existing launch-manual1–70 versus current all-presets conflict remains revision-qualified. |
+
 <!-- comparison evidence ends -->
 
 No condition-confirmed used/new allocation. Variant,bundle,workingcondition,authenticity,warranty,shipping/tax/vouchers unresolved.

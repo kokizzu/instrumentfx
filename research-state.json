@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Trace Acoustic Transit A — pending exact Shopee offer",
-    "task": "New manufacturer-confirmed acoustic multi-effects lead saved, but Shopee category Rp5.226m has no item/seller and disappears on reopen. Resolve exact offer before active admission; no current price/stock claim. Palmer MK2 exact listing is sold out and multi-effects eligibility unresolved.",
-    "next_models": [
-      "Trace Acoustic Transit A exact hardware offer"
-    ],
-    "after_queue": "337 active partial models unchanged;117 compatibility paths retained. Continue other brand/series discovery if lead remains unresolved; no downloads/workflows/push."
+    "model": "Fender Mustang Micro Plus",
+    "task": "Saved bass-update source-date conflict and separate preset-reset procedure. TransitA exact Shopee seller/item still unresolved;keep pending. Next other eligible discovery or remaining model-specific USB/editor/screen fields.",
+    "next_models": [],
+    "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24201,6 +24199,16 @@
       "model": "Palmer Pocket Amp MK2",
       "source": "https://shopee.co.id/Palmer-Pocket-Amp-MK2-Portable-Guitar-Pre-Amp-i.397175630.21042864947",
       "finding": "Exact SMOSYU item397175630/21042864947 shows Habis/Rp1.560.000 in four-month cache. Multi-effects eligibility not established; do not add a preamp merely from its name. Separate bass model not inferred."
+    },
+    {
+      "checked": "2026-10-18",
+      "models": [
+        "Trace Acoustic Transit A",
+        "Zoom AC-3",
+        "Tech21 Acoustic Fly Rig",
+        "TC Electronic G-Natural"
+      ],
+      "finding": "TransitA searches repeated category-only unresolved lead; other exact Shopee searches empty. Trace storefront hit was GP7 amplification, not TransitA. No new active admission or absence conclusion."
     }
   ],
   "inventory_by_brand": {
@@ -45450,7 +45458,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX400."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fender Mustang Micro Plus."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58001,6 +58009,15 @@
       "checked": "2026-10-18",
       "finding": "Clarified analog-input-only dry S/PDIF output, bypass tail modes, and program versus whole-state archive formats/reset scope from own manual.",
       "source": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf"
+    },
+    {
+      "model": "Fender Mustang Micro Plus",
+      "checked": "2026-10-18",
+      "finding": "Preserved manufacturer March2026 announcement versus January14 firmware1.1.11 date; distinguished separate bass factory-preset reset from firmware installation.",
+      "sources": [
+        "https://www.fender.com/newsroom/270267-eight-decades-in-fender-unveils-2026-product-line-as-landmark-anniversary-year-begins/",
+        "https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

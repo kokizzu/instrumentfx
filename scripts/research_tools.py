@@ -453,7 +453,7 @@ def main():
         if mode == 'commit-katana-go':
             message = 'research(boss): verify GT-1 battery fallback and backup scope'
         if mode == 'commit-microplus':
-            message = 'research(fender): qualify original Micro firmware and updater platforms'
+            message = 'research(fender): retain Micro Plus bass release date and reset distinctions'
         if mode == 'commit-mg20':
             message = 'research(nux): clarify Cerberus V5 footswitch and expression assignments'
         if mode == 'commit-m100':
