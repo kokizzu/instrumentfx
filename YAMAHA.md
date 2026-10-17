@@ -186,6 +186,17 @@ Checked2026-10-17;partial. Own compressor description includes electric guitar a
 | New | Unknown;no qualified new condition. | — |
 | Condition-unverified indexed ask | **Rp4.400.000**,GMS Bandung,shop137354453/item25909747809,KotaBandung. Last-month indexed body,direct text available2026-10-17;cachedAug20delivery is not current stock. | [Exact Shopee item][S1-O] |
 
+
+### SPX1000 — expression recall and EQ modes
+
+Checked2026-10-18 against [Yamaha Japan’s original79-page manual](https://jp.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf). US-host direct access now403;earlier access history remains above.
+
+| Field | Exact-model operating limits |
+|---|---|
+| Expression / recalled range | Printed pp10–11:two controllers can target different parameters;assignments/ranges require STORE in41–99. **The stored parameter value must lie within the assigned min/max range**,otherwise the controller may not respond after recall. This is not proof of toe-switch support. |
+| Processing / EQ versus dynamic filter | Pp12–13 offer **OFF,EQ orD.FLT** as alternatives,not simultaneous extra blocks. EQ has two peak/shelf bands,low32Hz–2.2kHz,high500Hz–16kHz,±15dB,Q0.1–5 inpeak mode. Two-channel programs31–35 provide independent L/R EQ parameters. |
+| Processing / dynamic-filter choices | D.FLT offers four responses:low-pass,high-pass,band-pass,parametric EQ. Sweep follows LFO orinput level;LFO0.1–10Hz,center32Hz–16kHz,depth0–8octaves. These modulation controls do not establish a dedicated sound-generating synth. |
+
 <!-- comparison evidence ends -->
 
 Working condition,stock,voltage variant,authenticity,bundle,mains cable,warranty,shipping/tax and voucher eligibility remain unknown. Rp10000late-arrival compensation is not purchase discount. Own official79-page manual accessible through US host;data/UKhost access403. Browser text only,no visual panel claim or filesystem download.
