@@ -2022,13 +2022,20 @@ Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Owne
 | Power / auto off | AutoOff defaultsOn:shutdown after10hours withoutplaying/operation;can disable inSETUP. SETUP,MIC,CTL PEDAL andPHRASE LOOP settings are global andsurvive sound changes. | [Indexed originalmanual p15][VE5-PDF] |
 | I/O / mic fallback | Internal mic is used when noexternalmic isconnected. For mixer line input,manual specifies aY-adaptor fromstereo PHONES/LINE OUT;XLRoutput level above ismic-level. This does not establish independent stereo effect processing. | [Indexed originalmanual quickguide][VE5-PDF] |
 
+### VE-5 — power and reset qualifications,2026-10-17
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Power / adapter compatibility | [VE-5 support article](https://support.roland.com/hc/en-us/articles/201970209-VE-5-Which-AC-adaptor-is-compatible),updated2026-07-02,indexedtext checked2026-10-17: **190mA draw;PSA200mA or500mA compatible**;regional mains/plug mustmatch. Adapter capacity is not device draw. Directarticle cachemiss;polarity remains unverified. | [PSA model differences](https://support.roland.com/hc/en-us/articles/4404894109595-BOSS-PSA-adaptor-Specification-Differences-by-Model) |
+| Memory / reset scopes | FACTORY RESET allowsALL,SOUND(all sounds),orSYSTEM(SETUP,MIC,CTL PEDAL,PHRASE LOOP). Userinformation is lost withinreset scope;no reset was performed. | [Model-specific manufacturer support](https://support.roland.com/hc/en-us/articles/201962539-VE-5-How-do-I-restore-the-factory-settings-Factory-Reset),updated2026-07-02,indexedtext checked2026-10-17 |
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence / qualification | Source |
 |---|---|---|
 | Used | Unknown;no condition-verified used offer. | — |
 | New | Unknown;no condition-verified new offer. | — |
-| Condition-unverified cached ask | **Rp4,620,000**;BandungMusicGallery,KotaBandung,shop394955725/item3990824666. Checked2026-10-17,lastmonthindex;directretrievalfailed. Twoadvertisedvariants notidentified. Condition,live stock,color/variant,adapter/bundle,warranty,shipping/tax/voucherunknown. Relativetomorrowdelivery notstockproof;10klatecompensation notdiscount. | [Exactitem][VE5-O] |
+| Condition-unverified cached ask | **Rp4,620,000**;BandungMusicGallery,KotaBandung,shop394955725/item3990824666. Checked2026-10-17,lastmonthindex;directretrievalfailed;repeat2026-10-17stillinaccessible. Twoadvertisedvariants notidentified. Condition,live stock,color/variant,adapter/bundle,warranty,shipping/tax/voucherunknown. Relativetomorrowdelivery notstockproof;10klatecompensation notdiscount. | [Exactitem][VE5-O] |
 
 ### Source-access provenance
 

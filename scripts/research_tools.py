@@ -485,7 +485,7 @@ def main():
         if mode == 'commit-pocketgt':
             message = 'research(boss): audit Pocket GT memory categories and explicit bass presets'
         if mode == 'commit-ve5':
-            message = 'research(boss): document VE-5 analog output levels and auto off'
+            message = 'research(boss): distinguish VE-5 current draw adapter capacity and reset scopes'
         if mode == 'commit-rp1000':
             message = 'research(digitech): enumerate RP1000 amp cabinet and shared FX choices'
         if mode == 'commit-gt6':

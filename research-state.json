@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-5",
-    "task": "Resolve exact power polarity andremaining model-specific fields ornew qualifiedShopeeoffers;analog levels,AutoOff,mic fallback already saved. Do not borrowVE20/VE500specifications.",
+    "model": "Fresh bass/vocal discovery",
+    "task": "VE-5 current adapter/reset evidence saved;polarity andothergaps remain open. Exactitem3990824666 repeatedly inaccessible;resume other eligible bass/vocal discovery or model-specific technical gaps.",
     "next_models": [],
-    "after_queue": "Continue bass/vocal discovery andmigration audit. No downloads/workflows/push."
+    "after_queue": "Fullmarketcoverage andmigrationaudit remainincomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41739,7 +41739,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass/vocal discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52106,6 +52106,17 @@
       ],
       "finding": "Exact analog nominal levels/impedances,PHONES nominalTBD,default10hourAutoOff,mic fallback andlineY-adapter guidance saved. Officialmanualindexedtext,notnewvisualinspection.",
       "remaining": "Powerpolarity,display,synth/import/editor evidence,currentqualifiedoffers;otherretainedgaps."
+    },
+    {
+      "model": "BOSS VE-5",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://support.roland.com/hc/en-us/articles/201970209-VE-5-Which-AC-adaptor-is-compatible",
+        "https://support.roland.com/hc/en-us/articles/201962539-VE-5-How-do-I-restore-the-factory-settings-Factory-Reset"
+      ],
+      "access": "Manufacturer search-index text;directadapterarticle cachemiss. ExactShopee3990824666 remains inaccessible.",
+      "finding": "190mAdraw vsPSA200/500mAcapacity;regional compatibility;ALL/SOUND/SYSTEM reset scopes saved.",
+      "remaining": "Polarity remainsunknown;do not keepretryingidenticalfailed offer."
     }
   ],
   "discovery_cross_brand_bass": {
