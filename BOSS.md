@@ -60,6 +60,17 @@ Checked2026-10-16. Retail-style exact hardware pages indexed;condition,bundle,st
 
 Remaining gaps:full per-category counts/simultaneous ceiling;current OS editor/driver support;screen diagonal/color/touch;power voltage/polarity/USB operation;import capabilities;verified used/new condition,current stock and bundle evidence.
 
+### GT-1B — firmware and software qualifications
+
+Checked 2026-10-18; documentation read only, no software downloaded or device updated.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / firmware fixes | **1.02 (July2017)** improves BASS SYNTH/RING MOD pitch detection. **1.03 (March2018)** fixes paired-pedal actions on the tuner screen, held-pedal FX-list disappearance and Tone Studio CLEAR failing to clear CTL/ASSIGN. **1.04 (December2021)** changes management version only; specifications unaffected. Page heading/archive say1.04 but final version-check instruction says1.02: retain the discrepancy. Installed device version is unknown. | [Official system history](https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/9f9466c0-c8e7-44e8-bde8-407c795841ff/) |
+| Editor / application prerequisites | Tone Studio **1.0.0**, separately listed for Windows and macOS/OSX. Both require the GT-1B USB driver; Windows page explicitly requires Adobe AIR and online installation. Mac requires1024×768 or higher; Tone Central needs internet. These requirements do not imply class-compliant audio or mobile editing. | [Windows editor](https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/4fb51c6b-f4a1-443e-8e25-59170e00d934/); [Mac editor](https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/26986844-91f5-42e7-8f95-ad076bc39efe/) |
+| Editor / Windows driver restrictions | Driver **1.0.2**, May2023 Windows11 support; page also supports Windows10. Windows10 Mobile, ARM PCs, virtual Windows and Windows on Mac are explicitly excluded. Driver version and editor version are separate. | [Official driver](https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/57c47d17-307b-4045-8302-b4d16daaa50c/) |
+| Editor / macOS support status | Compatibility table updated2026-09-16 marks both GT-1B Hardware & Driver and Exclusive Application **Yes(Download) on macOS15/26; Under Testing on27**. This is dated manufacturer compatibility, not local verification or unrestricted future support. | [Official compatibility table](https://www.boss.info/global/support/support_news/25090811m1/) |
+
 ## GX-1B
 
 Bass multi-effects with built-in expression/toe switch. Consolidated/researched2026-10-16;partial verification. No GX-1 guitar-model specs substituted.
