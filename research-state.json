@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2000",
-    "task": "RFX2000EXTRAMultiEFXthree-modulecapacity,RE-MIX8andEXTRAdescriptions saved. Next remainingbanklists andEXTRAindexmapping;adaptercurrent/visual/currentOSremainunverified.",
+    "task": "RFX2000DELAY8/EFFECTS8namedlibrary andrhythmic/panningtiming saved. Next REVERB/MIXDOWNlists andEXTRAindexmapping;adaptercurrent/visual/currentOSgaps remain.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. No downloads,workflows,push;commit each usefulmodel before next."
   },
@@ -53803,5 +53803,11 @@
     "pages": "20,22–23",
     "finding": "EXTRAMultiEFX3simultaneousmoduleschorusORflanger+delay+reverb,11connectionsunmapped;RE-MIX8names;EXTRA8descriptions. Globalmaxnotclaimed.",
     "remaining": "REVERB/DELAY/EFFECTS/MIXDOWNfullnamedlists,EXTRAindexmapping,adaptercurrent,visual/currentOS."
+  },
+  "rfx2000_delay_effects_library_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+    "pages": "16–18",
+    "finding": "DELAY8/EFFECTS8namedchoices,chorus3voices/channel,41–250BPM11notes,pandelay990ms and743mscombinedlimits.",
+    "remaining": "REVERB/MIXDOWNlists,EXTRAindexmapping,adaptercurrent,visual/currentOS."
   }
 }
