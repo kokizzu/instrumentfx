@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP500",
-    "task": "Three additional exact historical offers and editing-library counts saved. Commit before next model. All new asks condition-unverified; current availability unproved. Remaining expression external, display, imports, software support and trails gaps persist; continue fresh discovery and exact documentation without downloads/workflows.",
+    "model": "DigiTech RP200",
+    "task": "Dynamics settings, Auto Swell timing and coupled modulation controls saved. Commit before next model. Existing guide back-cover discrepancy retained; no new qualified price. Display, external/toe expression, imports and software gaps persist; continue fresh discovery and exact primary documentation; no downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP500."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP200."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57092,6 +57092,14 @@
         "https://shopee.co.id/Digitech-Rp500-non-HC-i.58780289.19748438675",
         "https://shopee.co.id/FX-Digital-Digitech-Rp500-i.257384425.27556067083",
         "https://shopee.co.id/Efek-Gitar-Digitech-Rp500-i.194831039.5554328608"
+      ]
+    },
+    {
+      "model": "DigiTech RP200",
+      "checked_date": "2026-10-18",
+      "finding": "Clarified compressor response settings versus algorithms, Auto Swell200ms–2s and coupled modulation rate/depth controls. RP200/RP300/RP12/RP6 Shopee discovery found only existing RP200 historical offer; no new qualified unit.",
+      "sources": [
+        "https://media.zzounds.com/media/RP200Manual-d239d252d141496e53cadcc26b39fcb2.pdf"
       ]
     }
   ],

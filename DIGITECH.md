@@ -584,6 +584,14 @@ Checked2026-10-18 against [original manual pp6,9–14,27][RP200-M]. Existing bac
 | I/O / stereo connection | Single quarter-inch TRS output needs a stereo Y cable for two amps/mixer channels; mono uses a mono instrument cable. Mixer channels pan left/right and cabinet emulator is enabled for that setup. | [Manufacturer guide pp6–7, mirrored][RP200-MM] |
 | Analog conversion | **24-bit Delta Sigma A/D/A**. This does not establish a USB audio interface or sampling rate. | [Manufacturer guide p31, mirrored][RP200-MM] |
 
+
+### RP200 — dynamics and coupled controls
+
+| Field | Manufacturer guide evidence / qualification |
+|---|---|
+| Processing / compressor settings | Fast/Medium/Slow select compressor response time, not three separately named compressor algorithms. Compression Amount1–20 adjusts ratio/sustain together; output Gain0–6. OFF is additional. [Guide pp16–17, mirrored][RP200-MM] |
+| Processing / gate timing | Auto Swell has nine fade settings spanning **200 ms–2 s**. Gate threshold1–40 controls opening sensitivity. The timing range does not establish a looper or delay. [Guide pp18–19, mirrored][RP200-MM] |
+| Processing / modulation control limits | Chorus, flanger and phaser each use one Amount1–99 control for both rate and depth; those parameters are not independently exposed here. Tremolo, panner and vibrato instead use Amount for rate and Level for depth. Rotary Level controls wet mix. [Guide pp20–22, mirrored][RP200-MM] |
 <!-- comparison evidence ends -->
 
 Working state, bundle, adapter inclusion, authenticity, warranty, shipping, tax and voucher eligibility unverified. Condition cannot be inferred from price.
