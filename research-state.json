@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B1X original",
-    "task": "Original B1X category choices/timing and pedal restrictions saved. Next current official support/software evidence or explicit defer, then fresh discovery; seller Next alias and mixed price remain unresolved.",
+    "model": "Fresh Shopee Indonesia discovery",
+    "task": "Original B1X useful pass committed;remaining gaps in b1x_support_checkpoint_20261017. Search new exact hardware leads;prioritize bass/vocal where possible. Do not borrow FOUR/GuitarLab compatibility or assign mixed Next price.",
     "next_models": [],
-    "after_queue": "Continue bass/vocal/guitar discovery; preserve all prior gaps and migration limits. No downloads/workflows/push."
+    "after_queue": "Preserve all model gaps and migration limits;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41349,7 +41349,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B1X original."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55360,5 +55360,19 @@
     },
     "limits": "One choice per respective module;5secondMODdelayversus3secondREVERBdelay;assignmentonlypedalsymboltypes,bypassvolume.",
     "remaining": "Ownsoftware-supportevidence,visualcorroboration,actualdrawbarrelsize,IRNAM/editor,genuinecondition-specificShopeepriceandNextalias;allotherpriorgapsretained."
+  },
+  "b1x_support_checkpoint_20261017": {
+    "checked": "2026-10-17",
+    "product": "https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal",
+    "applications": "https://zoomcorp.com/en/jp/support/applications/",
+    "observation": "Ownoldproductlistsmanuals;currentapplicationsdirectoryFOURGuitarLabnotoriginalB1Xproof. GuessedcurrentB1Xsupportpathfailed;notusedasnegativecapabilityproof.",
+    "saved": "Preselecttwo-switchcommitandpowercyclereset;unsavededitloss,factoryreadonly,A0storedefault.",
+    "deferred": [
+      "EditorOSfirmware/IRNAMcapture",
+      "Visualcontrol/displaycorroboration",
+      "Actualdrawbarrelsize",
+      "Exactcondition-specificShopeepriceandNextaliasidentity",
+      "Otherrequiredunknownsremain"
+    ]
   }
 }

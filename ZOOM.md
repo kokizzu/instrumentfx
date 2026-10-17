@@ -2319,7 +2319,9 @@ Checked 2026-10-17; partial. Bass-focused processor; ownership and guitar/vocal 
 | Power / battery / USB | **9VDC300mA center-negative AD-0006 supply**,or4AA alkaline,approx12h;nonrecharging. Actual draw,barrel size/USB operation unverified. [Manual pp2,27][B1XO-M] |
 | Dimensions / mass | **234W×155D×52Hmm;600g without batteries**. Own B1X row,not narrower B1. [Manual p27][B1XO-M] |
 | IR / NAM / capture | User IR,native/converted NAM and proprietary capture unverified. |
-| Editor / platforms | Editor/updater OS and USB/audio unverified;no absence inferred. |
+| Editor / platforms | Retrieved discontinued B1X page lists manuals;current applications directory lists Guitar Lab for FOUR,not proof of original B1X compatibility. Own editor/updater OS remains unverified. No USB appears in the complete manual connector inventory;do not infer USB/audio support from sibling products. [Own product][B1XO-P]; [Applications][B1XO-A]; [Manual pp4–5][B1XO-M] |
+| Live / patch preselect | Optional preselect chooses the next patch without changing sound;press both main switches to commit selection. Power cycle restores immediate switching. This is patch recall,not scene architecture. [Manual p16][B1XO-M] |
+| Preset / unsaved edits | Changing patches discards unsaved edits. Factory locations are read-only;STORE from a factory patch defaults to user A0. [Manual pp13–15][B1XO-M] |
 | Live / practice | **40 rhythm patterns**;REVERB/DELAY unavailable during rhythm playback. Looper/scenes unverified. [Manual pp25,27][B1XO-M] |
 
 ### Separate IDR hardware offers
@@ -2337,3 +2339,5 @@ Hope Music's mixed G1x Next/B1x Next seller-page ask stays unassigned in the led
 
 [B1XO-P]: https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal
 [B1XO-M]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf
+
+[B1XO-A]: https://zoomcorp.com/en/jp/support/applications/
