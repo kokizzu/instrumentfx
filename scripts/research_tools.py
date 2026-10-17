@@ -584,7 +584,7 @@ def main():
         if mode == 'commit-stomplab2b':
             message = 'research(vox): preserve StompLab 2B sold-out variant and voucher ambiguity'
         if mode == 'commit-tonelab-se':
-            message = 'research(vox): preserve ToneLab EX height conflict and reconcile effect totals'
+            message = 'research(vox): qualify ToneLab EX expression persistence and ranges'
         if mode == 'commit-tonelab-st':
             message = 'research(vox): include qualified ToneLab ST historical offer in comparison'
         if mode == 'commit-tonelab-le':

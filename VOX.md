@@ -332,3 +332,11 @@ Checked 2026-10-17 against the [own VOX product page](https://voxamps.com/produc
 The page lists **394W×238D×72H mm**, while E1 p39 lists **394W×238D×82H mm**. Both give3kg. Preserve the10mm height disagreement;no measured unit orrevision explanation established. Its **44 effect types plus1 noise reduction** reconcile with E1’s45includingNR;TotalEqualizer is listed separately andavailable only inLINE mode. Its0.6W speaker figure agrees arithmetically with the manual’sapprox0.3W×2,not anadditional output.
 
 The page exposes generic VOX2ch Windows audio-driver2.0.0 notes,including2in/2out,44.1kHz,24-bit device audio and32-bit application transport. Without anexplicit exact-model driver applicability statement,these are not promoted to verified ToneLabEX interface specifications ornew librarian compatibility. Product Downloads currently resolves to the homepage in the web link extraction;no setup guide orsoftware fetched.
+
+### ToneLab EX — expression save and range limits
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / position recall | Pedal position is normally saved as the assigned parameter value. Exceptions: volume, delay/reverb input levels, PITCH pitch, FILTRON cutoff and TALK MOD vowel. These exceptions do not establish how every target initializes after recall. [Own manual p31](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) |
+| Expression / range and reassignment | Assignment and endpoint ranges save per program. Delay/reverb input-level endpoints are automatic and cannot be edited. Changing effect normally clears assignment; gain assignment survives changing amp/stand-alone type. EXPRESSION+EXIT/TUNE clears assignment manually. [Own manual pp32–33](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) |
+| Expression / sensitivity calibration | Power on holding EXPRESSION+WRITE. Using a foot, advance to establish switching pressure, slowly return, release foot, then gently advance and release. WRITE confirms; EXIT/TUNE cancels. This documents calibration, not a hardware operation performed. [Own manual p34](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) |

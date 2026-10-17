@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX3G",
-    "task": "Converters and pitch/composite modulation/delay-reverb inventory saved; commit before next model. Current hardware prices, power polarity/current, screen details, imports/editor and full owner manual access remain unresolved. Continue exact primary documentation and fresh series discovery; no downloads/workflows.",
+    "model": "VOX ToneLab EX",
+    "task": "Expression save exceptions/range/reset/calibration saved. Commit via existing ToneLab SE helper (VOX scope) before next model. Height conflict, power polarity, USB format, current software and live prices remain unresolved. Continue primary evidence and fresh discovery; no downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab EX."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57134,6 +57134,14 @@
       "sources": [
         "https://www.korg.com/de/products/effects/ax3g/page_2.php",
         "https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%3DAX3GFXParamGuideE1.pdf&response-content-type=application%2Fpdf%3B"
+      ]
+    },
+    {
+      "model": "VOX ToneLab EX",
+      "checked_date": "2026-10-18",
+      "finding": "Added expression position save exceptions, range/reassignment restrictions and foot calibration from E1 pp31–34. Fresh Zoom9002/Magicstomp/ENO EX/NUX Nova discovery yielded unrelated/index-only results; exact ToneLabEX search reconfirmed existing lead and casing accessory, no new qualified price.",
+      "sources": [
+        "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf"
       ]
     }
   ],
