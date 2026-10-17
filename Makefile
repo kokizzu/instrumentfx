@@ -1619,3 +1619,7 @@ research-commit-katana-go:
 .PHONY: research-commit-ampero-one
 research-commit-ampero-one:
 	python3 scripts/research_tools.py commit-ampero-one
+
+.PHONY: research-commit-vt4
+research-commit-vt4:
+	python3 scripts/research_tools.py commit-vt4

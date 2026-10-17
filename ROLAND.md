@@ -130,3 +130,40 @@ Checked **2026-10-17**: [Roland US GR-55 page](https://www.roland.com/us/product
 [HUTAURUK MUSIC secondhand GK3 bundle](https://shopee.co.id/ROLAND-GR-55-DENGAN-PICK-UP-GK3-SECOND-ORIGINAL-i.190993829.22101819979) indexed at7.500.000 with old21July delivery; exact condition/stock/accessories remain unverified. Separate [Koko DC Musik Shop listing](https://shopee.co.id/efek-gitar-synthesizer-boss-roland-gr-55-black-hitam-gk3-keyboard-i.4074307.24802346959),shop4074307/item24802346959,Kab.Malang, **Rp7.250.000,Habis**,stale30June–2July delivery. Its title does not establish detailed condition or GK3/cable bundle contents; not classified as verified new or used. Neither is a confirmed transaction or current market range. Regional warranty,shipping/tax and voucher eligibility unknown; late-delivery compensation is not a discount.
 
 Global product URL timed out; US primary page provided the corroboration. No original control/signal-flow manual was newly inspected or firmware/software downloaded. Complete original sources and corrections remain above. Open fields: visually checked K/F/B/toe,explicit display diagonal/color/touch, acoustic modeling names,routing concurrency,PSU polarity/battery/bus power,looper duration,USB channels/bit depth,current librarian scope/OS support and condition-qualified new/current used availability.
+
+## VT-4
+
+Checked2026-10-17; partial new vocal multi-effects record. Ownership unverified. [Roland product/specifications][VT4-P] explicitly describes combined vocal processing; not merely a dedicated vocoder. Guitar/bass membership unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified; MIDI keyboard control is not expression-pedal proof. |
+| K/F/B | Rotary/footswitch/button totals pending own-manual inventory; sliders counted separately. |
+| Display | Screen presence,type,diagonal,color/touch unverified; no photo estimate. |
+| Processing / categories | Combined effects documented; numerical simultaneous ceiling unknown. ROBOT,MEGAPHONE,VOCODER,HARMONY,REVERB each have4 published variations; pitch/formant/Auto-Pitch controls also documented. These categories/choices are not a block count. [Product][VT4-P] |
+| Preset memory | **8 scenes**; factory-filled/user allocation unresolved. [Product][VT4-P] |
+| Synth / acoustic | Vocal vocoding/harmony yes; guitar acoustic simulation and independent synth-source architecture unverified. |
+| I/O | Rear balanced XLR/TRS combo mic,+48V phantom10mA max; front stereo-mini mic with plug-in power; stereo-mini phones; quarter-inch L/MONO,R/BYPASS outputs; USB-B; MIDI IN. [Specs][VT4-P] |
+| Power / battery / USB | **USB bus power or4AA alkaline/Ni-MH;500mA draw**. External DC voltage/polarity not applicable to an unlisted barrel input. [Specs][VT4-P] |
+| Battery duration | Alkaline approx6h phantom-off/4h on;Ni-MH7h off/5.5h on. Broad introductory five-hour claim is less specific; runtime varies. [Specs][VT4-P] |
+| Dimensions / mass | **174W×133D×58Hmm;554g including batteries**. [Specs][VT4-P] |
+| USB audio / MIDI | Audio/MIDI;PC interface24bit. AD/DA lists44.1/48/96/192kHz;USB stream channel/rate matrix remains unverified. [Specs][VT4-P] |
+| Editor / platforms | Product lists Windows10/11 and macOS drivers;drivers/updater are not a verified editor. Full editor platforms/current OS matrix unknown. |
+| IR / NAM / capture | User IR,native NAM,converted NAM and proprietary capture loading unverified. |
+| Live / extras | MIDI keyboard controls pitch/harmony/vocoder;not required for standalone voice effects. Looper,drums and scene-transition restrictions unverified. [Product][VT4-P] |
+
+### Separate IDR hardware observations
+
+| Condition / availability | IDR evidence | Source |
+|---|---|---|
+| Condition unverified; **Habis** | **Rp6.440.000**,Roland Official Shop,shop385085845/item26407462614,Kota Tangerang Selatan;last-month indexed page says **Dengan Voucher**,with anomalous spend/99% text. Eligibility/base price unresolved;not an unconditional new-price quote. | [Item][VT4-O1] |
+| Condition unverified; checkout stock unknown | **Rp7.196.000**,VITA_LIS,shop1527910455/item42457599076,Kota Yogyakarta;opened last-month crawl retains14–17September delivery,while older search had19–21July. | [Item][VT4-O2] |
+
+No confirmed used/new split. Bundle,battery/accessory inclusion,warranty region,authenticity,shipping/tax and voucher eligibility unresolved. Cached asks are neither live-stock confirmation nor completed sales;not a market range.
+
+Official manual and block-diagram links resolve to license/download landing pages;no acceptance/download performed. No manual specifications or visual census inferred from those pages. Original-manual control/routing verification remains next.
+
+[VT4-P]: https://www.roland.com/global/products/vt-4/
+[VT4-M]: https://www.roland.com/global/support/by_product/vt-4/owners_manuals/6e169479-30a6-409c-8c61-7d46e579b817/
+[VT4-O1]: https://shopee.co.id/Roland-VT-4-Voice-Transformer-Vocoder-Audio-Mixer-i.385085845.26407462614
+[VT4-O2]: https://shopee.co.id/VITA_-Roland-VT-4-Voice-Transformer-Vocoder-Audio-Mixer-i.1527910455.42457599076

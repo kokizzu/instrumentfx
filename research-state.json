@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 292,
+  "active_model_count": 293,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 292,
+  "canonical_root_model_count": 293,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "292 unique active/root-canonical; 0 legacy-only; 32 brands; 6 excluded; all partial. AD-8 acoustic multi-effects guitar only; regional dimension/input-impedance conflicts retained.",
+  "count_reconciliation": "293 unique active/root-canonical;0 legacy-only;32 brands;6 excluded;all partial. VT-4 vocal-only multi-effects added with exact qualified Shopee asks.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Black Truck",
-    "task": "BlackTruck20rotaries derived from originalmanual inventory,6foot/6slider/6toggle andportimpedances saved;buttons unverified. Next fresh Shopee discovery and exact-model verification. BlackTruck expression/currentdraw/display/languageconflicts remain;Mini categorycounts/USBformats/currentOS remain.",
+    "model": "Roland VT-4",
+    "task": "New vocal-only VT-4 profile from own product and2exactShopeeitems. Next own originalmanual controls/routing/USBstreams;do not download. Condition/currentstock,expression,display,imports/editor remain.",
     "next_models": [],
-    "after_queue": "Continue research and legacy consolidation; no workflows/downloads/push."
+    "after_queue": "Continue Shopee discovery and legacy consolidation;no workflows/downloads/push."
   },
   "new_findings": [
     {
@@ -5076,6 +5076,19 @@
       ],
       "finding": "Exact condition-unverified sold-out Rp3700000 ask;TRS model identity,controls,LCD,separate memory banks,voltage variants and own guitar/vocal/bass scope.",
       "remaining": "Full configurations/algorithm and memory accounting,visual controls,current software/stock and unresolved facilities."
+    },
+    {
+      "model": "Roland VT-4",
+      "path": "ROLAND.md#vt-4",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.roland.com/global/products/vt-4/",
+        "https://shopee.co.id/Roland-VT-4-Voice-Transformer-Vocoder-Audio-Mixer-i.385085845.26407462614",
+        "https://shopee.co.id/VITA_-Roland-VT-4-Voice-Transformer-Vocoder-Audio-Mixer-i.1527910455.42457599076"
+      ],
+      "finding": "Vocal multi-effects with8scenes,battery/USBpower,phantom,USBaudio/MIDI;exact soldoutconditional6.44m andconditionunknown7.196m asks.",
+      "remaining": "Originalmanualcontrols/routing,screen,fullmemoryallocation,expression,imports/editor,USBstreams,qualifiedcondition/stock."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23847,7 +23860,8 @@
       "Mighty Plug MP-2"
     ],
     "Roland": [
-      "GR-55"
+      "GR-55",
+      "VT-4"
     ],
     "Scorpion": [
       "KMF-10"
@@ -24306,7 +24320,8 @@
       "Flybro FB-100"
     ],
     "ROLAND.md": [
-      "GR-55"
+      "GR-55",
+      "VT-4"
     ],
     "DIGITECH.md": [
       "RP360XP",
@@ -24393,8 +24408,8 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 57,
-      "vocal_only_count": 22,
+      "record_count": 58,
+      "vocal_only_count": 23,
       "combined_instrument_count": 35,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
@@ -41353,13 +41368,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 292,
-    "canonical_root_models": 292,
+    "unique_brand_model_pairs": 293,
+    "canonical_root_models": 293,
     "legacy_only_models": 0,
     "guitar_view_models": 242,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 57,
+    "vocal_view_models": 58,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41416,7 +41431,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Black Truck."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Roland VT-4."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41803,6 +41818,7 @@
       "Line 6::POD HD500X",
       "Line 6::POD X3 Live",
       "MOOER::GS1000",
+      "Roland::VT-4",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::Play Acoustic",
       "TC-Helicon::VoiceLive 3 Extreme",
@@ -43108,6 +43124,13 @@
       "finding_files": [
         "effects/findings/2026-10-14-roland-gr-55.md"
       ]
+    },
+    "Roland::VT-4": {
+      "link": "ROLAND.md#vt-4",
+      "source_files": [
+        "ROLAND.md"
+      ],
+      "finding_files": []
     },
     "Scorpion::KMF-10": {
       "link": "SCORPION.md#kmf-10",
