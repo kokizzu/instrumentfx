@@ -1391,3 +1391,13 @@ Checked 2026-10-18; partial. Bass multi-effects in a plug-in headphone-amp form,
 | IDR / hardware retail ask | **Rp786.000**, Kurnia Musik Semarang, shop32743136/item25340849312, Kota Semarang. Direct last-month cached body, stale26August delivery. Condition/new-versus-used, stock, selected bundle, warranty region, tax/shipping and checkout unverified. Late-arrival compensation is not a discount. [Exact RH101](https://shopee.co.id/Valeton-RH-101-Headphone-Amplifier-Rushead-Max-Bass-RH101-i.32743136.25340849312). |
 
 Technical sources: [manufacturer](https://www.valeton.net/product/rushead-max-bass/); [regional SKU identity RH-101](https://www.hotone.jp/brands/valeton/products/rushead-max-bass). Manufacturer-linked [English V02 manual](https://www.valeton.net/download/217/rushead-max-bass/19015/rh-101rushead-max-bass_manual_en_v02_211025-2.pdf) opened as two pages without extracted text; screenshot tool returned no usable image. No manual content or visual panel audit claimed, no files downloaded.
+
+### RH-101 — manual reproduction and extraction qualifications
+
+Checked 2026-10-18. [English manual-body reproduction](https://manuals.plus/valeton/rushead-max-bass-headphone-base-amplifier-manual.pdf), pp1–3, matches the manufacturer’s two-page V02 source title, module names, dimensions and weight; the mirror reformats it into four pages. [Auvix-hosted Russian translation](https://www.auvix.ru/upload/iblock/494/oa0n03d6l7706te6xe3qg1ecdqzxsied.pdf) retains RH-101 V02 filename metadata and matching specifications. These supplement the unreadable manufacturer PDF; no generated FAQs or new image inspection used.
+
+| Field | Finding / qualification |
+|---|---|
+| Physical controls / rotary functions | **LEVEL, TONE, GAIN, MOD, AMBIENT** control output, brightness, gain and the two effect amounts. Three TYPE toggles select AMP/MOD/AMBIENT modes; separate button/footswitch totals remain unverified. |
+| Processing / ambience choices | **ECHO / REVERB / ECHOVERB**; ECHOVERB combines echo and reverb. MOD’s FLOW/TREM/DEEP correspond to chorus/tremolo/flanger. These are modes, not extra independent slots. |
+| Power / electrical extraction caveat | Russian table labels **5V lithium battery**, instrument input **1MΩ**, AUX **10kΩ**, phones **10Ω**. English extraction renders ambiguous SV/!MO/100. Values remain translation-qualified pending original visual corroboration; battery-table wording does not establish charging current, battery capacity or operation while charging. |

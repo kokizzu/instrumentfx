@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton Rushead Max Bass RH-101",
-    "task": "New bass model saved from exact hardware and manufacturer modular effects evidence. Next obtain readable own V02 manual to resolve ports, K/F/B, power and memory; do not substitute RH4 or guitar Rushead Max. Ownership not established.",
+    "task": "RH101 manual reproduction resolves knobs/modes and ECHOVERB; translated electrical table remains qualified due English extraction ambiguity. Ports/counts/memory/power details unresolved. Continue exact Shopee discovery or manufacturer-readable sources; do not repeatedly retry unreadable PDF.",
     "next_models": [],
     "after_queue": "336 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57737,6 +57737,15 @@
         "https://www.valeton.net/product/rushead-max-bass/",
         "https://www.hotone.jp/brands/valeton/products/rushead-max-bass",
         "https://shopee.co.id/Valeton-RH-101-Headphone-Amplifier-Rushead-Max-Bass-RH101-i.32743136.25340849312"
+      ]
+    },
+    {
+      "model": "Valeton Rushead Max Bass RH-101",
+      "checked_date": "2026-10-18",
+      "finding": "Matched English original-body reproduction and Russian translation resolve named knobs, three type toggles and ECHOVERB; electrical extraction ambiguity preserved, no visual corroboration.",
+      "sources": [
+        "https://manuals.plus/valeton/rushead-max-bass-headphone-base-amplifier-manual.pdf",
+        "https://www.auvix.ru/upload/iblock/494/oa0n03d6l7706te6xe3qg1ecdqzxsied.pdf"
       ]
     }
   ],
