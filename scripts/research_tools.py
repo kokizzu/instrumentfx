@@ -479,7 +479,7 @@ def main():
         if mode == 'commit-rp1000':
             message = 'research(digitech): enumerate RP1000 amp cabinet and shared FX choices'
         if mode == 'commit-gt6':
-            message = 'fix(comparisons): preserve shortcut and collapsed source links'
+            message = 'research(boss): preserve separate GT5 cached hardware offer'
         if mode == 'commit-hxone':
             message = 'research(line6): clarify HX One impedance bypass and preset queue'
         if mode == 'commit-pocketpod':

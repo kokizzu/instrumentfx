@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX ToneLab EX",
-    "task": "Own save scope/TotalEQ/NR saved;offer directretrieval remains cachemiss. Continue missing hardware discovery or unresolved fields.",
+    "model": "BOSS GT-5",
+    "task": "Second exact cachedoffer saved separately withunknowncondition/stock. Continue owntechnicalgaps orotherqualifiedhardwareleads.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab EX."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60202,5 +60202,18 @@
     ],
     "offer_recheck": "4466947/42755664991 directretrievalcachemiss;existingcachedask unchanged,conditionunverified",
     "remaining": "Heightconflict,display,powerpolarity,exactUSBformat/currentOS,imports,qualifiedoffers."
+  },
+  "gt5_second_offer_20261017": {
+    "url": "https://shopee.co.id/Efek-Boss-Gt-5-Made-in-japan-i.1011773481.41108297408",
+    "shop": "1011773481",
+    "item": "41108297408",
+    "seller": "Andika Gitar Store",
+    "region": "Kab.Tegal",
+    "idr": 2600000,
+    "condition": "unverified",
+    "stock": "unverified",
+    "access": "Searchcache2months;directopenCachemiss;itemIDspecificsearchreturnednoresults",
+    "qualification": "Separate from205502204/41251758346soldout1.7m;do not create used/new range or certify origin fromtitle",
+    "manual_access": "English80pagePDFreturnedzeroextractedlines;no new technical claims or visual audit from attempted screenshot."
   }
 }
