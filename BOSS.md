@@ -304,6 +304,18 @@ Checked2026-10-16. Exact hardware pages;cached asks are not live checkout/stock 
 
 Remaining:visual controls/display verification,USB power/DC polarity,USB channel/rate/bit-depth,current software compatibility,import capabilities,condition-verified used price,current seller stock/bundles.
 
+
+### VE-1 output, backup power and additional offer
+
+Checked 2026-10-18 using own Spanish manual text and indexed exact hardware listing; no downloads, installation or device test.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / output signal | XLR OUT and PHONES/LINE OUT carry the same audio signal. Their nominal levels and impedances remain different as listed above; this does not establish independent dry/effected outputs. | [Own manual, rear-panel descriptions][VE1-M] |
+| Power / battery backup | Manual recommends leaving batteries installed during adapter operation so playing can continue if the adapter disconnects. For battery-only use, disconnect the adapter. Supported rechargeable chemistry is NiMH; this does not establish charging inside the VE-1. | [Own manual, battery notes][VE1-M] |
+| I/O / USB mode selection | Hold MEMORY during power-up to select the USB connection mode using MEMORY; finish with the pedal. NORMAL is factory default; LOOP BACK, INPUT and DIRECT MONITOR OFF have separate indicator patterns. Routing modes do not establish USB bus power, sample rate or channel count. | [Own manual, settings table][VE1-M] |
+| IDR Condition and stock unknown | **Rp3,200,000**, TOKOAUDIOPRO.COM, Kota Jakarta Pusat; shop253483262/item28420455671. Month-old indexed page, direct reopen internal error; same-day delivery banner is not stock proof. Adapter, bundle, warranty, working state and checkout total unknown. Late-delivery compensation excluded. Seller’s Harmonist/Guitar Pedal wording does not establish intelligent harmony or guitar processing. | [Exact indexed hardware](https://shopee.co.id/BOSS-VE-1-Vocal-Echo-Harmonist-Effects-Processor-Stompbox-Guitar-Pedal-Boss-VE1-i.253483262.28420455671) |
+
 ## VE-2
 
 Vocal multi-effects;guitar chord detection does not establish guitar multi-effects. Consolidated/researched2026-10-16;partial verification.
