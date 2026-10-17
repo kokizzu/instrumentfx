@@ -1467,3 +1467,7 @@ research-commit-amplifi-fx100:
 .PHONY: research-commit-bass-vamp
 research-commit-bass-vamp:
 	python3 scripts/research_tools.py commit-bass-vamp
+
+.PHONY: research-commit-bass-vamp-pro
+research-commit-bass-vamp-pro:
+	python3 scripts/research_tools.py commit-bass-vamp-pro

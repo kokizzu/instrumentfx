@@ -12,7 +12,7 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Built-in / external / toe expression | No integrated pedal listed; MIDI expression/wah via FCB1010-type controller. Toe function depends on controller, **?**. [Product][BV-P] |
 | Knobs / footswitches / buttons | Inventory: **10 top rotaries + side AUX Level / 0 integrated footswitches / 9 buttons** (A–E, Tuner, Tap, bank arrows). FS112V external two-switch control for presets/tuner. [Manual][BV-M] |
 | Display | **2-digit 7-segment LED**; diagonal **?**. Touch/color specification **?** [Manual][BV-M] |
-| Dimensions / weight | **236 W × 180 D × 63 H mm; approximately 1.2 kg**. [Manual][BV-M] |
+| Dimensions / weight | **236 W × 180 D × 63 H mm; approximately 1.2 kg** in 2005 manual; manufacturer Spanish manual instead **approximately 2 kg**, same dimensions. Weight conflict retained. [Manual][BV-M], [Spanish manual][BV-S] |
 | Simultaneous blocks | Selectable effect/combinations; independent compressor/denoiser and extra MIDI wah. Manual describes five preset ingredients: amp, cab, pre-effect, post-effect/combination and compressor. Exact algorithm ceiling **?**; **16 effect groups** is not 16 simultaneous. [Manual][BV-M] |
 | Categories / choices | **32 amps, 23 cabinets, 16 stereo effect choices**. Product calls amp groups Clean/Acoustic/Guitar; manual divides 32 as 16 bass + 8 guitar + 4 keyboard + 4 acoustic and documents 4 drive models. Taxonomies retained. [Product][BV-P], [Manual][BV-M] |
 | Factory / user memory | **125 editable/storable presets, 25 × 5**; factory/user partition not established. [Manual][BV-M] |
@@ -43,3 +43,45 @@ The Music Tribe English manual URL returned 502; another returned 404. The Thoma
 ### Desktop routing and control qualifications
 
 The manual’s five preset ingredients describe saved processing stages, not five freely assignable effect slots. MIDI wah cannot operate alongside Auto Wah or P-Funk’n. Post-effect crossover can leave low frequencies unaffected; input sensitivity adjustment in Configuration applies to every preset. Same-channel output-to-AUX connections can feed back. The last preset is recalled at startup; unsaved edits are lost when selecting another preset. MIDI controllers55–60 provide record,play,stop,speed,reverse and play-once sampler controls. [Manual][BV-M]
+
+[BV-S]: https://mediadl.musictribe.com/media/sys_master/h9c/h88/8850172641310.pdf
+
+## Bass V-AMP PRO
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**. Separate rack model; selected manufacturer manual sections, including its PRO-only columns. Partial verification.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | No integrated pedal; MIDI controller expression/wah. Toe behavior **?**, controller-dependent. [Manual][BV-M] |
+| Knobs / footswitches / buttons | **10 rotaries /0 integrated footswitches /10 front buttons**: shared nine A–E/Tuner/Tap/arrows plus LINE IN; power and rear ground-lift switches additional. [Manual][BV-M] |
+| Display | **2-digit 7-segment LED**, digital-format/sample-rate indicators; diagonal **?**. Touch/color specification **?**. [Manual][BV-M], [Specifications][BP-S] |
+| Dimensions / weight | **482.6 W ×135 D ×89 H mm**. Older v1.2 manual **approximately2.6kg**; Spanish manufacturer manual **approximately2.76kg**. Revision conflict retained. [Manual][BV-M], [Specifications][BP-S] |
+| Simultaneous blocks | Five preset ingredients: amp,cab,pre-effect,post-effect/combination,compressor. Denoiser independent. Exact algorithm ceiling **?**. [Manual][BV-M] |
+| Categories / choices | **32 amps** (16bass/8guitar/4keyboard/4acoustic), **23 cabs,16 effect groups,4 drive choices**; group count is not simultaneous count. [Manual][BV-M] |
+| Factory / user memory | **125 rewritable presets,25×5**; factory/user partition **?**. [Manual][BV-M] |
+| Synth / acoustic simulation | Three-voice synth,9variants; MIDI synth. Acoustic amp/voicing not independent electric-to-acoustic proof. [Manual][BV-M] |
+| IR / NAM / capture | User IR,native NAM,converted NAM,capture **?**; factory digital/analog cab simulation alone does not establish import |
+| Audio/control I/O | Quarter-inch TS instrument;pre-DSP send/return;stereo post-DSP sends/returns;L/R TS analog outs;balanced XLR DI with ground lift;quarter-inch TRS phones;RCA and XLR digital outs;BNC wordclock;5-pin MIDI in/out-thru;IEC mains. [Specifications][BP-S] |
+| Power / battery / USB | **15W,IEC**. Regional mains120V60Hz,230V50Hz,100V50–60Hz,220V50Hz;general export120/230V50–60Hz. Not automatic universal-voltage proof. DC polarity N/A; draw in amps,battery/USB power **?**. [Specifications][BP-S] |
+| Digital / USB audio | **24-bit conversion,31.250kHz internal DSP**;digital outputs44.1/48/96kHz internal clock or32–96kHz external wordclock via conversion. USB audio **?**,no USB listed. [Specifications][BP-S] |
+| Editor platforms | Manufacturer lists third-party **iVAMP,Mac OS X** for Bass V-AMP PRO; present availability/current OS support **?**. MIDI/SysEx distinct from USB audio. [Software mention][BP-E] |
+| Looper / routing / live features | **15.36s sampler requires MIDI**;without MIDI1023ms delay. Six modes;S3processedleft/directright. LINE IN selects pre-DSP return for reamping. Headphones selectS1/cab automatically,configurable afterward. Drums/loop retention **?**. [Manual][BV-M] |
+
+### Bass V-AMP PRO — separate IDR evidence
+
+| Class | Amount | Exact hardware offer and qualifications |
+|---|---:|---|
+| Sold-out used-title indexed ask | **Rp500.000** | [cahyoadi56,53553463/28809251521][BP-O],Probolinggo. Title explicitly Second;**Habis**,search cache2months,delivery12–14August,checked2026-10-17. Exact page open failed cache miss. Working condition,faults,completeness,bundle and warranty **?**; not a working-unit valuation. Voucher not deducted. |
+| Verified new offer | **?** | Not established |
+<!-- comparison evidence ends -->
+
+### PRO provenance and practical qualifications
+
+The Thomann manufacturer manual identifies version1.2/December2005 (Rev C filename). Manufacturer-hosted Spanish manual has English specification tables and a different mass; revision/date not established. Newer quick-start search evidence also lists2.76kg but direct retrieval returned502. No whole-manual or visual hardware inspection claimed. Do not import desktop AUX or external adapter details. Wordclock connector is described as lacking an internal75Ω terminating resistor. Pre-DSP send provides a dry recording feed; LINE IN chooses return processing. POST DSP send matches digital output signal; analog outputs follow it when returns are unused. [Manual][BV-M]
+
+The 2005 MIDI appendix marks velocity,aftertouch andpitch-bend reception N; Spanish appendix marks Y. Keep this documentation conflict; installed synth MIDI behavior untested. Remaining: source revision reconciliation,full algorithm/controller audit,physical button inventory confirmation,current editor support and qualified hardware offers. [Manual][BV-M], [Specifications][BP-S]
+
+[BP-S]: https://mediadl.musictribe.com/media/sys_master/h9c/h88/8850172641310.pdf
+[BP-E]: https://www.behringer.com/en/products/0709-AAD
+[BP-O]: https://shopee.co.id/behringer-bass-v-amp-pro-%28-Second-%29-i.53553463.28809251521
