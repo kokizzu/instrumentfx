@@ -1179,6 +1179,18 @@ No Malaysian RM listings or noisy accessory/search-page prices used as IDR hardw
 | Software / tested DAWs | July2025 matrix marks V3 compatible with CubasePro14,LogicPro11,GarageBand10.4 on Sequoia15; CubasePro13,LogicPro10.8,GarageBand10.4 on Sonoma14. iOS18: Cubasis3.7/GarageBand2.3; iOS17: Cubasis3.6/GarageBand2.3. These are dated audio-application tests, not an editor/updater matrix or universal OS certification. Windows columns remain untranscribed because their extracted header alignment is ambiguous. | [Zoom DAW matrix](https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf) |
 
 
+### V3 — effect parameter and bypass scope
+
+Checked2026-10-18 against [official manual pp.10–14][V3-M],Z2I-3982-02;web text only,no files downloaded.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Processing / per-effect adjustment | EFFECT ADJUST changes:Harmony original/harmony balance;TalkBox correction;Vocoder correction/octave;PitchCorrectKey andChromatic correction;Octave original/effect balance;Unison andChorus mix;Whistle drymix/octave;Distortion amount;Telephone frequencyband;BeatBox boost;Deep/Child/FormantCharacter voicecharacter;Robot pitch. FormantCharacter restores originalvoice atknobcenter. These are parameter functions,not selectable algorithm counts. |
+| Expression / selected-effect bypass | FP02M duplicates EFFECT ADJUST;FS01 switches **selected effect** off. This doesnot establish all-chain bypass,mute,delay/reverb disable orpatch browsing. EFFECT OFF targets the selectedeffect;delay/reverb have separate knobs,fullyleft off. |
+| Processing / Enhance | ENHANCE both emphasizes highfrequencies forclarity andsuppresses sibilance. COMP reduces above-threshold levelvariation;fullyleft disables it. No independently editable de-esser threshold isestablished. |
+| Factory / user settings reset | Factory initialization overwrites **allsettings**,thenrestarts. This isnot evidence ofnamed patch-bank capacity. Procedure buttonicons aremissing fromweb text;no shortcut inferred orreset performed. |
+
+
 ## V6-SP
 
 Vocal multi-effects with built-in formant pedal. Consolidated/researched2026-10-16; partial verification. Earlier V6 microphone bundle is not the current SP package.

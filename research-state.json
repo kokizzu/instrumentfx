@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery",
-    "task": "MFX10 user-save,drumfill/loopclear,tapaverage andreset scope saved fromoriginal manual. Continue missingbrand/series Shopee discovery;do not repeataccessoryhits orcount RK5indexwithout exact identity.",
+    "task": "V3 effect-specific adjustment mapping,selected-effect bypass,Enhance andreset scope saved. Vocal discovery yielded no newexactmodel. Next pursue differentmissingseries orlegacyretirement;technical/market/ownership/migration remain incomplete.",
     "next_models": [],
     "after_queue": "334 active,39brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66408,5 +66408,23 @@
     ],
     "result": "No new exact identifiable hardware item established;adapter/sensor results rejected. RK5v2 indexRp5284750 JakartaSelatan lacks exactselleritem;MFX10exactofferalreadyrecorded.",
     "next": "Search different missing compact/vocal series;no marketabsenceclaim"
+  },
+  "v3_parameters_20261018": {
+    "source": "https://zoomcorp.com/documents/1332/E_V3_2.pdf",
+    "scope": "pp10–14 text;effect-specific controls,selectedeffect off versusfullchain,Enhance andreset",
+    "status": "partial;no downloads"
+  },
+  "discovery_vocal_20261018": {
+    "queries": [
+      "TC HeliconVoiceLive2",
+      "VoiceToneCreate",
+      "VoiceLiveTouch",
+      "DigiTechVocalistLive",
+      "MooerMVP",
+      "BossVE500used",
+      "ZoomV3"
+    ],
+    "result": "No newexactmissingmodel;V3selleritemsalreadyrecorded;DigiTechadapterexcluded. Noabsenceproof.",
+    "next": "Resume brand/series discovery orlossless legacy retirement;avoidunchanged V3offers"
   }
 }
