@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fender Mustang Micro",
-    "task": "Original Micro exact12amp/12effect-combination lists and Modify parameters saved. Next verify memory/editor/import limits via own support;then fresh Shopee discovery. Retain11/12count and HarmonicRoom/Hall conflicts.",
+    "task": "Original Micro firmware/update OS and version-dependent USB/EQ behavior saved. Memory/editor/import gaps remain unknown after own-support search. Next fresh Shopee Indonesia discovery by brand/series;keep all272 records partial.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery;all272 records partial;no downloads/workflows/push."
   },
@@ -56199,5 +56199,17 @@
     "effect_combinations": 12,
     "qualification": "Selectable combinations;no inferred free block routing. Product11effectspec and HarmonicRoom/Hall table conflict remain.",
     "remaining": "Memory retention/user slots,editor/import/IR/NAM support,current qualified prices"
+  },
+  "mustang_micro_original_firmware_checkpoint_20261017": {
+    "source": "https://support.fender.com/hc/en-us/articles/46634356505755-How-do-I-update-the-Firmware-on-the-Mustang-Micro",
+    "updater_os": [
+      "Windows10+",
+      "macOS10.14+"
+    ],
+    "release_notes": {
+      "1.0.64": "2022-03-10 Bluetooth reliability",
+      "1.0.54": "2021-05-27 USB recording level independent of master;EQ no longer affects Bluetooth;tonal/level fixes"
+    },
+    "qualification": "No files downloaded or firmware installed. Updater support not editor/audio OS proof. Own support search did not establish original Micro Tone compatibility,memory slots or imports;remain unknown."
   }
 }

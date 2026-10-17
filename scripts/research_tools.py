@@ -395,7 +395,7 @@ def main():
         if mode == 'commit-katana-go':
             message = 'research(boss): reconcile KATANA GO inventory and electrical evidence'
         if mode == 'commit-microplus':
-            message = 'research(fender): enumerate original Micro amp and effect selections'
+            message = 'research(fender): qualify original Micro firmware and updater platforms'
         if mode == 'commit-mg20':
             message = 'research(nux): retain MP-2 effect choices and audio driver qualifications'
         if mode == 'commit-m100':

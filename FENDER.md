@@ -135,6 +135,8 @@ Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Mi
 | Dimensions / mass | 38.1W×80H×28.7Dmm,plug stored;51g. [Manual][MM-M] |
 | IR / NAM / capture | Import/capture support unverified. |
 | Editor / platforms | Mac/PC updater documented;not desktop/mobile tone-editor proof. Driver requirements separately qualified above. [Manual][MM-M] |
+| Editor / updater minimum OS | Original Micro Updater requires **Windows10+ or macOS10.14+**. These are updater requirements,not Tone-editor compatibility or USB audio minimums. [Official firmware support][MM-F] |
+| I/O / firmware-dependent behavior | **1.0.54 May27,2021** disconnects USB recording level from master volume and prevents tone control affecting Bluetooth audio. Also adjusts Spring/Hall/2290 effects,BB-15/FBE-100 and65Deluxe+Greenbox level. **1.0.64 March10,2022** improves Bluetooth reliability. Installed version unverified;no update performed. [Official firmware support][MM-F] |
 | Live / controls | 5EQ settings;Modify5levels+bypass;15min inactivity sleep,anybutton wakes. Looper/drums/scenes unverified. [Manual][MM-M] |
 | Processing / manual conflict | Harmonic Tremolo paired with Large Room in effect table,Large Hall in Modify table;preserve both. [Manual][MM-M] |
 
@@ -153,3 +155,5 @@ Historical indexed asks checked2026-10-17,not checkout or current stock. Conditi
 [MM-P]: https://intl.fender.com/products/mustang-micro
 [MM-O1]: https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Black-Original-i.1776275.24838368984
 [MM-O2]: https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Amplug-i.191485301.26444289932
+
+[MM-F]: https://support.fender.com/hc/en-us/articles/46634356505755-How-do-I-update-the-Firmware-on-the-Mustang-Micro
