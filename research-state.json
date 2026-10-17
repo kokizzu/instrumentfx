@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Legacy bass hardware discovery",
-    "task": "Search exact Zoom B2.1u/B1Xnext/B9.1ut or BOSS ME50B hardware leads; reject mixed-variant minimums and adapters. CriticalMass manufacturer eligibility checkpoint saved but exact item unresolved; do not repeat identical shop/search retries without new route.",
+    "model": "Zoom B2.1u",
+    "task": "Read own E_B21u manual panel,specifications,USB/pedal chapters andeffect categories;add bass-only record with unknown qualified IDR andretained mixed-price lead. Commitbeforeanother model. No dependencies/software downloads.",
     "next_models": [],
-    "after_queue": "CriticalMass fullmanual/exactitem,technicalgaps andmigration;no downloads/workflows."
+    "after_queue": "CriticalMass ownmanual/exactoffer,legacybass,technicalgaps andmigration;no workflows."
   },
   "new_findings": [
     {
@@ -52833,5 +52833,17 @@
     "access": "Direct PDF opens both502;indexed text only. WIYUNG shop retry failed;searches still yield only shop/search snippets,not exact Critical Mass item. No download.",
     "market": "Saved Rp3.695.000 shop snippet andRp2.280.935 search-grid amount remain unqualified;no exact seller/item,condition/stock/bundle/voucher confirmation. No inventory addition yet.",
     "next": "Resolve exact item or explicitly leave market gap when creating source-backed model;read fullmanufacturer manual andspecifications before treating firstpass asverified."
+  },
+  "b21u_primary_checkpoint_20261017": {
+    "checked_date": "2026-10-17",
+    "manual": "https://zoomcorp.com/media/documents/E_B21u.pdf",
+    "support": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b21u/b21u-support/",
+    "product": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b21u/",
+    "identity": "Own B2.1u manufacturer manual,41PDF pages; not B2 orB2FOUR.",
+    "verified": "Printed p4:47effects,up to9includingZNR;40ROM+40user80patches;synth/fretless bass effects;balancedXLR pre/post directout withgroundlift.96k24bit conversion32bitinternal.4AAalkaline~6h. Printedp2:9VDC300mAcenternegativeAD0006. ExternalFP01/FP02 expression orFS01 sharesCONTROLIN.",
+    "software": "Support lists GSeries ASIO2.0.0.9 WindowsXP32bit,Vista/7/8 32/64bit. Driver is not an editor;currentOSsupport unverified. No software downloaded.",
+    "market": "Queries B2.1/B2-1u,ME50B,B9.1ut/B9,B1Xnext didnotproduce a newly qualified exact bass item. Existing HopeMusic mixed G2.1Nu/G2.1u/B2.1u snippetRp1.699.000 remains unassigned to anyvariant;shop reopening previously lacked item. This is not evidence of model absence.",
+    "next": "Create source-backed bass record with price unknown/market gap explicit after inspecting own panel,specs,USB,pedal toe,category counts. Do not let lack of qualified ask prevent recording eligible documented hardware indefinitely.",
+    "status": "primary eligibility verified;record pending detailed ownmodel inspection;no inventory addition"
   }
 }
