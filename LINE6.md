@@ -860,3 +860,40 @@ RevB Handbook accessed as webPDF text,10pages; citations use PDF page numbers. F
 [M5-O]: https://shopee.co.id/Stombox-Modeller-Pedal-Line-6-M5-i.306155985.6072223176
 
 [M5-F]: https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5
+
+## M9
+
+Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Two external EX-1/passive10kΩ linear mono¼-inch inputs. Built-in/toe switch unverified. FX assignments per scene;looper assignment global. | [Pilot PDF p4][M9-M];[Advanced §§2•2–3][M9-A] |
+| K/F/B | **6 rotary /7 main footswitches /separate buttons unresolved**;model+5parameter knobs,6A/B memories+Tap,text-derived. Encoder push additional. | [Advanced §1•1][M9-A];[Pilot PDF pp4–5][M9-M] |
+| Display | Category-colored LCD;diagonal,touch unknown. | [Pilot PDF pp4–5][M9-M] |
+| Processing / category choices | **3 simultaneous FX**,one of A/B per FXunit;additional setup gate. Firmware2.01 FAQ:109=30DIST/comp/EQ/volume+22mod+26filter/pitch+19delay+12reverb. | [Pilot PDF pp4,8][M9-M];[FAQ][M9-Q] |
+| Factory / user memory | **24 scenes=4folders×6** with2.01;each stores6FX memories,3active. Factory examples;manual/autosave available. Not24user+24preset. | [FAQ][M9-Q];[Pilot PDF pp5–7][M9-M] |
+| Synth / acoustic | Shared guide explicitly covers M9:Octisynth,Synth-O-Matic,AttackSynth,SynthString,Growler;BassOctaver expressly suitable for bass. Acoustic simulator unverified. | [FXParameters §§3•6,4•8–10][M9-F] |
+| Dimensions / mass | FAQ:**10.5L×7W×3H inches;2.3lb**. Axes/weight retained exactly as manufacturer claim;physical corroboration pending. | [FAQ][M9-Q] |
+| I/O | Unbalanced instrument-level¼-inch mono L/R input/output pairs,2¼-inchEXP,MIDI IN/OUT,power. SysEx scenes;other ports unverified. | [FAQ][M9-Q];[Pilot PDF p4][M9-M] |
+| Power / battery / USB | FAQ specifies **PX-2 only,9V2000mA,2.5mm,center-positive wording;no batteries**. FAQ omits AC/DC type;do not interpret polarity wording as proof of DC compatibility. Actual draw/USB operation unknown. | [FAQ][M9-Q] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
+| Editor / software | Line6Monkey updater;MIDI scene backup/restore. Editor/platform/current compatibility unknown. | [Pilot PDF p8][M9-M] |
+| Looper / drums / live | **Mono28s/56s halfspeed** perPilot vs **30s/60s** FAQ:unresolved conflict. Overdub,undo/redo,reverse. PRE/POST selectable;Pilot explanatory paragraph contradicts its before/after label,so effect-on-loop behavior needs Advanced audit. Stereo collapses at mono effect. Chain1→2→3 orreverse;DSP bypass trails. Tuner bypasses FX+loop,selectablemute. Drums unknown. | [Pilot PDF pp6–8][M9-M];[FAQ][M9-Q] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;no qualified exact-item observation. | — |
+| New | Unknown;no qualified exact-item observation. | — |
+| Unqualified shop-index lead | **Rp3,388,000**,Namin Music;3month searchcache checked2026-10-17. Index label ProdukBaru does not confirm actual sale condition. Exact item/shopIDs,region,stock,revision,bundle/adapter,warranty,voucher,shipping/tax unknown;directshopopen failed. Not an exact hardware offer or current retail range. | [Shop index][M9-O] |
+
+### Source-access provenance
+
+Own RevC Pilot(8PDFpages),v2.0 Advanced guide RevA and model-specific FAQ used;no M5 power/memory borrowed. Guide citations use printed chapter notation except Pilot PDF positions. No downloads. Forum power anecdotes were encountered but not adopted as specifications.
+
+[M9-M]: https://line6.com/data/6/0a06434d12161507f39faccc35/application/pdf/M9%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20C%20%29.pdf
+[M9-A]: https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf
+[M9-Q]: https://kb.line6.com/m9-stompbox-modeler-faq
+[M9-F]: https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5
+[M9-O]: https://shopee.co.id/namin_music
