@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Donner Arena2000",
-    "task": "Arena2000 headphone load and primary-document access limits saved. Stop retrying oversized regional PDFs or empty Amazon text without a new access route. Resume Shopee Indonesia brand/series discovery for eligible unrecorded multi-effects, checking current inventory. Arena2000 category census and preset overwrite rules remain unresolved. No downloads; commit each model before next.",
+    "model": "Donner ALPHA FX — identity pending",
+    "task": "Saved SAP AUDIO storefront ALPHA FX550000 lead. Recover exact Shopee hardware item or panel identity before assigning Alpha Cruncher EC962 specs or admitting any model. Direct storefront cache miss and exact-title searches only return storefront; do not blindly repeat. If unresolved, continue different-brand/series Shopee discovery. No downloads; commit each model before next.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -24106,6 +24106,22 @@
         "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/S_505.pdf"
       ],
       "initial_primary_findings": "Original English 505 manual cover identifies 24 effects, up to nine simultaneous, 24 user-programmable patches, optional FP01 expression/FS01 bank switching, 9V centre-negative 300mA adapter and one 6LR61 alkaline battery. Spanish S_505 also identifies 505 but says four AA cells and FP01/FP02; preserve language/revision conflict rather than choose or borrow 505II specifications."
+    },
+    {
+      "model": "Donner ALPHA FX — exact identity pending",
+      "checked_date": "2026-10-18",
+      "storefront": "https://shopee.co.id/sap_audio",
+      "seller": "SAP AUDIO",
+      "indexed_idr": 550000,
+      "access": "Two-month indexed storefront; direct reopen cache miss; exact item/shop ID not recovered",
+      "condition": "Unknown",
+      "stock": "Unknown",
+      "region": "Unknown",
+      "bundle_variant": "Unknown",
+      "qualification": "Do not assign Alpha Cruncher EC962 or another Alpha variant from generic ALPHA FX title. No qualified used/new or live price established. No inventory admission.",
+      "manufacturer_candidate": "https://us.donnermusic.com/products/donner-alpha-cruncher-guitar-effect-pedal",
+      "manufacturer_identity": "Alpha Cruncher EC962 independently documented as distortion/chorus/delay chain; not a match to seller item without identity evidence",
+      "status": "Deferred identity; exact hardware link or panel identity required"
     }
   ],
   "inventory_by_brand": {
@@ -71165,5 +71181,18 @@
       "Donner Arena"
     ],
     "outcome": "No qualified unrecorded hardware admitted. Accessories and unrelated results rejected; 606/607 and MG100/Arena2000 already recorded. Exact Arena2000 price snapshot conflict retained in root record. No result is not proof of absence."
+  },
+  "discovery_search_pass_20261018_donner_alpha": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "Shopee Digitech Element effects",
+      "Shopee Korg Pandora PX4",
+      "Shopee Donner Alpha",
+      "Shopee Alpha Cruncher",
+      "Shopee Digitech Element XP",
+      "Shopee Donner Pocket",
+      "Shopee Donner APL"
+    ],
+    "result": "Only new unqualified ALPHA FX storefront lead; Pandora Stomp already active. No exact unrecorded hardware admitted. No result is not proof of market absence."
   }
 }
