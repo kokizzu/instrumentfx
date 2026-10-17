@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "Pocket POD delay-combination,tuner persistence andusersave behavior saved. Continue missing-model exactShopee discovery andtechnicalverification.",
+    "task": "PERFORM-VK MIDI split/transposition andRPN0 qualifications saved. Continue missing-model exactShopee discovery andtechnicalverification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69652,5 +69652,16 @@
       "ReadonlysoundeditdefaultUser01A;124writableslots"
     ],
     "discovery": "POD2.0/PandoraPX4searchesunresolved;PocketPODexactofferunchanged"
+  },
+  "technical_followup_performvk_split_20261018": {
+    "date": "2026-10-18",
+    "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEE/PERFORM-VK_M_EN.pdf",
+    "page": 14,
+    "findings": [
+      "Notes/NaturalPlay splitfiltersincomingguidance",
+      "Adjacentsemitonenotransposesplit;chartambiguityretained",
+      "RPN0PitchBendSensitivity"
+    ],
+    "discovery": "HarmonyG/VoiceToneCreateunresolved;existingPerformVKofferamountsunchanged"
   }
 }

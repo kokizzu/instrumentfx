@@ -383,7 +383,7 @@ def main():
         if mode == 'commit-perform-vg':
             message = 'research(tc-helicon): add qualified PERFORM-VG preorder observation'
         if mode == 'commit-perform-vk':
-            message = 'research(tc-helicon): restore PERFORM-VK harmony routing and offer comparison coverage'
+            message = 'research(tc-helicon): qualify Perform VK keyboard split and transpose scope'
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): restore PERFORM-V conflicts remote rules and offer in comparisons'
         if mode == 'commit-dapper-indie':

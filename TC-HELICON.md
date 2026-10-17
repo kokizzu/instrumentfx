@@ -517,6 +517,15 @@ HIT toggles imported layers;both states are editable. Auto-gain nudge reduces ga
 
 [PVK-S]: https://service-tcgroup.tcelectronic.com/files/Tech_Service/Perform_VK/Gadwall_Test_Modes_Config.pdf
 
+### PERFORM-VK — keyboard split and transpose limits
+
+Checked2026-10-18 against indexed [own manufacturer manual p14][PVK-O]. No software/manual downloads or device operations.
+
+| Field | Evidence / qualification |
+|---|---|
+| Harmony / MIDI keyboard split | Notes andNaturalPlay modes canaccept harmony-guidance notes **above orbelow asetsplitpoint**; notesoutside theselectedrange arerejected. HoldingSET withsplitnote then asecondnote setsdirection/transposition. This filtersincomingMIDIguidance,not keyboardaudio or asecondvocalprocessingchain. |
+| I/O / MIDI split transposition qualifications | Asecondnote **onesemitoneabove/below** selects above/below splitwithnotransposition. Manualalso givesC4→C2 above-split andC4→C6 below-split examples. Extractedchart hasambiguousX5/X6 entries; fullmapping andrange remainunverified. **RPN0 controlsPitchBendSensitivity**; not anadditionalharmonyvoice or proof ofMIDIClock support. Existingtempo/clock wording remainsabove. |
+
 <!-- comparison evidence ends -->
 
 ## PERFORM-VG
