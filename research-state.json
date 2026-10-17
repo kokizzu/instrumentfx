@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1 FOUR",
-    "task": "B1FOUR AUTO SAVE/Preselect/BankHold/sharedtempo andupdate/reset retention savedwithboundedsection. ContinuefreshShopeediscovery andremainingprimarygaps.",
+    "task": "B1FOUR tunerandrhythm/looper limits saved. NextfreshShopee brandseriesdiscovery orremaining manufacturer display/library/currentoffers;exactmodelboundariesrequired.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61034,5 +61034,18 @@
       "FWupdatepreservespatches;factoryresetoverwrites"
     ],
     "limits": "Missingbuttoniconsnotassigned;nogapless/spilloverclaim"
+  },
+  "b1four_tuner_rhythm_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_B1FOUR.pdf",
+    "revision": "Z2I-3612-01",
+    "pages": "41–48",
+    "findings": [
+      "BYPASS/MUTE435445",
+      "BasslowBhighC,flat1to3semitonesnotchromatic",
+      "Rhythmacross3modesandwithlooper",
+      "Optionalprecount",
+      "Loop1to64quarter notesconstrained1.5to30seconds;recordtimechangeerases"
+    ],
+    "remaining": "Tuner/rhythmconcurrency,accuracy andotherunknownsnotinferred"
   }
 }

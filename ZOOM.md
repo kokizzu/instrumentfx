@@ -732,6 +732,14 @@ Checked2026-10-17 via [own support index](https://zoomcorp.com/en/us/multi-effec
 | Live / preselection and tempo | PRESELECT holds currenttone whilechoosing destination,then confirmschange;BANK HOLD wraps withinbank(pp31–34). Shared mastertempo**40–250BPM** applies toeffects,rhythm andlooper(p27). Preselection does not certify gapless switching orspillover. [Official operationmanual](https://zoomcorp.com/media/documents/E_B1FOUR.pdf),checked2026-10-17. |
 
 
+### B1 FOUR — tuner and rhythm practice limits
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Tuner / practice | Ownmanual pp41–42:**BYPASS orMUTE**,reference**435–445Hz**. CHROMATIC shows nearestnote;BASS mode includes lowB throughhighC. Flat tuning1–3semitones applies inBASS mode,notCHROMATIC. Detectionaccuracy andtuner/rhythm concurrency unverified. |
+| Looper / rhythm operation | Rhythm continues acrossMEMORY/STOMP/EDIT andcan runwithlooper(pp43–45);optionalprecount beforelooprecording. Loop length manualor1–64quarter notes,automatically constrained to**1.5–30seconds**;changing recordtime deletesloop(p48). This qualifies the30secondheadline,not additionalloopstorage. [Official manual](https://zoomcorp.com/media/documents/E_B1FOUR.pdf),checked2026-10-17. |
+
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.
