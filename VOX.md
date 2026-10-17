@@ -156,6 +156,7 @@ Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;
 | Used | Unknown;condition unconfirmed. | — |
 | New | Unknown;condition unconfirmed. | — |
 | Conditional historical observation | **Rp1,520,000**, Seven Stereo Music & Audio Store, Kota Bandung, shop16879370/item1349945522; checked2026-10-17, opened two-week cache. Earlier two-month index marked Habis; current stock, condition, variant, adapter/bundle, warranty and working state unverified. Stale August delivery and late-arrival compensation do not establish stock or discount; shipping/tax/checkout unknown. Not a verified new or used price. | [Exact item][SL2B-S] |
+| New-title indexed ask;Habis | **Rp950.000**, [spot_reuseshop.id,shop258736226/item10788059230](https://shopee.co.id/BASS-EFFECT-VOX-STOMPLAB-2B-NEW%21%21%21-i.258736226.10788059230),KotaJakartaSelatan. Rechecked2026-10-17;2monthsearchcache,directCachemiss. Title saysNEW;condition not independently confirmed. **Habis**;working status,adapter/bundle,warranty,variant,shipping/tax andcheckout unknown. Late-delivery compensation not deducted;not an available new-price range orcompleted sale. Earlier observation below retained. | Exact indexed hardware title;no fresh stock certification. |
 
 <!-- comparison evidence ends -->
 
