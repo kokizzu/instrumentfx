@@ -61898,5 +61898,45 @@
     ],
     "limits": "Categoryincludesboosters/acoustic; combineddriveboostoneentry; notinstalledlibraryproof",
     "next": "MOD/SFX/DLY/RVB/PEDAL inventories; physical controls; fresh Shopee discovery"
+  },
+  "g3n_mod_sfx_20261017": {
+    "source": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+    "revision": "2017 pp15–18",
+    "modulation": [
+      "Tremolo",
+      "Chorus",
+      "StereoCho",
+      "Phaser",
+      "VinFLNGR",
+      "TheVibe",
+      "Vibrato",
+      "Octave",
+      "RingMod",
+      "Detune",
+      "PitchSHFT",
+      "MonoPitch",
+      "HPS",
+      "Kick FLNG",
+      "Slicer",
+      "CloneCho",
+      "SuperCho",
+      "StonePha",
+      "CoronaTri",
+      "BendCho",
+      "AnalogCho",
+      "WarpPhase"
+    ],
+    "sfx": [
+      "Bomber",
+      "AutoPan",
+      "LoopRoll"
+    ],
+    "findings": [
+      "22MOD3SFX",
+      "MonoPitchsingle-note;PitchSHFTpolyphonyunknown",
+      "LoopRoll10–4000msdistinctfromlooper"
+    ],
+    "limits": "Notcurrentinstalledtotal; internalmodesnotadditionalentries",
+    "next": "DLY/RVB/PEDAL inventories and physical controls; fresh Shopee discovery"
   }
 }
