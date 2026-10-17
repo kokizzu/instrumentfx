@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX400",
-    "task": "MX400 mode capacity,independent A/B loading and S/PDIF A-only clock saved. Next verify own-model USB/plugin audio,external switches and per-mode category libraries;whole-device memory totals remain unresolved. Then saved SPX2000 lead.",
+    "task": "MX400 USB/plugin audio path and external switch assignments saved. Next verify per-mode category libraries and whole-device memory totals; then saved SPX2000 lead.",
     "next_models": [
       "Yamaha SPX2000"
     ],
@@ -53525,5 +53525,11 @@
     "pages": "8–17",
     "finding": "DualStereo independently loads two programs/twoeffects each;route5reduces each program to one expanded effect;Stereo disables pairB;Surround rear wet rule and digital A-only clock dependency preserved.",
     "remaining": "Full per-configuration library and onboard bank totals,user initial fill,USB/plugin audio,external switches,visual verification and unresolved facilities."
+  },
+  "mx400_usb_control_followup_20261017": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
+    "pages": "34,42–44",
+    "finding": "16 switch assignments per TRS contact; USB control distinct from external analog/SPDIF audio; VST Windows/AU Mac and one plugin window per unit, MIDI port contention retained.",
+    "remaining": "Per-mode category libraries,total onboard memory accounting,initial user fill,visual corroboration,current OS/bitness and unresolved facilities."
   }
 }

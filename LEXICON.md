@@ -98,7 +98,7 @@ TRS-connector MX400 rack multi-effects; MX400XL is a distinct connector variant.
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | No built-in pedal/toe; external expression unverified. LEX-DFS two-button TRS footswitch supported; functions pending. | [Manual pp4–6][M400-M] |
+| Expression | No built-in pedal/toe; external expression unverified. LEX-DFS two-button TRS footswitch supported; assignments below. | [Manual pp4–6][M400-M] |
 | K/F/B | **7 / 0 / 6**, text-derived: Input A/B,Page/Select,Edit A/B/C,Program/Load; Exit,Tempo,Effect Bypass,Store,System,Program Bypass. Encoder pushes/power additional; visual corroboration pending. | [Manual pp4–5][M400-M] |
 | Display | Main LCD, six status LEDs and separate program-number display. Published diagonal,color/touch unverified. | [Manual pp4–5][M400-M] |
 | Dimensions / mass | **483W×44H×185D mm including knobs;162mm depth excluding knobs;2.6kg**. 1U rack. | [MX400 specifications p53][M400-S] |
@@ -109,11 +109,13 @@ TRS-connector MX400 rack multi-effects; MX400XL is a distinct connector variant.
 | I/O / MIDI conflict | Rear-panel section names IN/THRU; specification table says IN/OUT. Conflict retained; independently generated MIDI OUT unverified. | [Manual p6][M400-M]; [Specifications][M400-S] |
 | Power / battery / USB | **18W**; separate 100–120VAC or 220–240VAC versions, not universal input. Rear label determines unit version. DC polarity inapplicable to mains. Battery/USB operation unverified. | [MX400 specifications p53][M400-S] |
 | IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
-| Editor / platforms | MX Edit Mac2.2.0/Windows2.3.1; NetUpdater1.0 separate,2016 listings. VST/AU hardware-plugin integration. Current OS support,bitness and USB audio distinction require own-model verification. No software downloaded. | [Product/software][M400-P] |
+| Editor / platforms | MX Edit Mac2.2.0/Windows2.3.1; NetUpdater1.0 separate,2016 listings. VST/AU hardware-plugin integration. Documented external audio routing below; current OS support and bitness remain unverified. No software downloaded. | [Product/software][M400-P] |
 | Bass capability | Own compressor description explicitly includes bass tracks. Use preamp/mixer or recorded line-level signals. | [Manual p25][M400-M] |
 | Looper / drums / live | Looper,drums,scenes,spillover and live parameter restrictions pending. | Unresolved |
 | Routing / capacity limits | Five stereo routes: Dual Mono,Cascade,Parallel,Mono Split,Stereo. Route 5 removes one effect per program and, in Dual Stereo, enables the expanded library. Surround has two routes; stereo-input surround rear outputs stay 100% wet. Seven routing options are not seven simultaneous effects. | [Manual pp15–17][M400-M] |
 | I/O / digital clock | Digital outputs mirror analog pairs. Input pair A/B independently selects analog or digital, not both mixed. External sync is accepted only at S/PDIF A; even B-only digital audio needs clock at A. Both digital sources must share clock;44.1/48kHz only. | [Manual pp8–11][M400-M] |
+| External control | TRS LEX-DFS switches each select 16 global assignments: overall/individual effect bypass (5), overall/individual tempo (5), program up/down overall or A/B (6). Knob A assigns Ring; B assigns Tip. This establishes switching, not expression input. | [Manual p34][M400-M] |
+| USB / plug-in audio | USB controls the hardware; audio uses separate S/PDIF or analog send/return through an external interface (minimum two inputs/four outputs including monitoring). VST Windows/AU Mac; one plug-in window per physical unit. Occupied MIDI ports can block access. | [Manual pp42–44][M400-M] |
 | Preset operation | Dual Stereo program focus follows highlighted effect:1/2 selects A,3/4 selects B. A/B programs load independently. Whole-device bank totals and initial user fill remain unresolved. | [Manual pp8,12][M400-M] |
 
 ### Separate IDR hardware offers
