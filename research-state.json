@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MLD Bass Preamp + DI NBP-5 candidate",
-    "task": "Resolve multi-effects inclusion boundary for preamp+drive+gate+IR using complete sources; ifeligible create full rootNUX record and bass membership before incrementing count. Preserve V3/V4 and converter-bitdepth conflicts;do not borrow mic/reverb claim.",
+    "model": "Fresh bass/vocal discovery",
+    "task": "Search eligible unrecorded bass/vocal multi-effects by brand/series. NBP-5 screened as dedicated bass preamp/DI;do not promote from gate/IR or repeated MIC marketing text alone. All exact saved offers remain deduplicated.",
     "next_models": [],
-    "after_queue": "Continue bass/vocal discovery,technical gaps and lossless migration audit. No downloads/workflows/push."
+    "after_queue": "Technical coverage and lossless migration audit remain incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -64192,7 +64192,7 @@
   "discovery_nux_mld_nbp5_20261017": {
     "model": "NUX MLD Bass Preamp + DI NBP-5",
     "checked_date": "2026-10-17",
-    "status": "Unrecorded candidate; eligibility/manual verification pending; not added to active counts.",
+    "status": "Screened dedicated bass preamp/DI candidate; not promoted to active multi-effects catalogue.",
     "offer": {
       "url": "https://shopee.co.id/NUX-MLD-Bass-Preamp-DI-NBP5-Bass-Effect-Pedal-Efek-Bass-NBP-5-i.71552895.25810604490",
       "seller": "GH MUSIC STORE",
@@ -64208,9 +64208,9 @@
       "manual": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/MelvinLeeDavisBassPreampDI_NBP5/NUX_NBP5_UserManual_English.pdf"
     },
     "manufacturer_evidence": "Product describes drive/blend,3-band EQ,noise reduction,IR loading,USB audio. V3 copy specifies3amp models,16IRslots(8factory/8user),48kHz24bit1024sample imports;support separately listsV4.0 firmware. Do not assume V3 library equalsV4.",
-    "source_conflicts": "Product paragraph claims dynamic mic input/reverb,while published port list names instrument input,thru/main,XLR DI,aux/phones,microUSB. Do not assign vocal capability from uncorroborated paragraph. 1024samples at48kHz versus printed20.33ms needs arithmetic/revision qualification.",
+    "source_conflicts": "Product paragraph claims dynamic mic input/reverb,while published port list names instrument input,thru/main,XLR DI,aux/phones,microUSB. Do not assign vocal capability from uncorroborated paragraph. 1024samples at48kHz versus printed20.33ms needs arithmetic/revision qualification. Same unsupported MIC/reverb paragraph also appears on global MG-300 page; repeated marketing text is not independent corroboration.",
     "manual_access": "Seven-page manufacturer PDF opens but text extraction returns zero lines. No filesystem download or visual inspection claimed.",
-    "next": "Resolve multi-effects inclusion boundary for preamp+drive+gate+IR using complete sources; ifeligible create full rootNUX record and bass membership before incrementing count. Preserve V3/V4 and converter-bitdepth conflicts;do not borrow mic/reverb claim.",
+    "next": "Do not repeatedly requeue this preamp as a new multi-effects model. Preserve offer/manual evidence;resume fresh eligible bass/vocal discovery.",
     "manual_followup": {
       "source": "https://manuals.plus/nux/nbp-5-melvin-lee-davis-bass-preamp-di-manual",
       "identity": "Reproduced NUX NBP-5 manufacturer manual,Copyright2019 Cherub;exact model and company identified. Read reproduced manual body;generated FAQs and comments excluded. Byte equivalence with image-only official PDF unverified.",
@@ -64220,6 +64220,17 @@
       "routing": "Quarter-inch instrument in,thru/mainout;XLRDIout;3.5mmaux/phones;microBUSB;DC. PRE bypasses preamp toDI,POST includespreamp/drive;DIIR can apply inboth. Thru has no cabIR. No mic input in reproduced complete list;globalpage mic/reverb paragraph remains unsupported.",
       "access": "Official PDF screenshots returned no viewable image;no visual inspection claimed. device.report manual403. NUXUSA support independently lists model-specific manuals,V4 firmware,editor2.1.12.16Win/mac and separate ASIO packages.",
       "support": "https://www.nux.us/blogs/support/mld-bass-preamp-plus-di-support-hub"
+    },
+    "scope_decision": {
+      "date": "2026-10-17",
+      "basis": "NUXUSA labels model Bass Preamp & DI Pedal. Checked manufacturer/manual functions center on preamp EQ,drive,gate andcabinet IR; no broader independent effect library established. Supporting gate/IR,USB audio and software practice tools alone do not establish project multi-effects eligibility.",
+      "sources": [
+        "https://www.nux.us/blogs/support/mld-bass-preamp-plus-di-support-hub",
+        "https://www.nux.us/products/mld-bass-preamp-di",
+        "https://nuxaudio.com/product/mldbasspreampdi/"
+      ],
+      "qualification": "Scope judgment from current evidence,not a claim that supporting functions are absent. Reopen if exact firmware documentation establishes eligible architecture or owner changes scope.",
+      "counts": "Not an active model and not an additional historical excluded archival record;307active/6archival counts unchanged."
     }
   }
 }
