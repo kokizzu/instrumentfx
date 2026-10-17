@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "GNX4 indexed own manual p99 USB mix and pair-level coupling saved, including lower-gain conflict. Next refresh exact Shopee leads for unrecorded bass/vocal models, then model-specific manufacturer verification. Avoid accessories and single-function units; commit model before next.",
+    "task": "Bass/vocal frontier refresh saved with BP200 accessory exclusion, no qualifying new model. Next inspect existing legacy retirement scripts and preservation audits to identify a safe substantive consolidation step; do not delete compatibility files before reviewing exact plan and incoming links.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -70352,5 +70352,30 @@
     ],
     "limits": "No qualified indexed hardware result is not proof of absence or unavailable stock. Shop pages and AX1500 routers are not exact eligible hardware offers. No files or dependencies downloaded.",
     "next": "Avoid repeating these exact queries without new leads; continue technical gaps in existing RP500 manufacturer record."
+  },
+  "discovery_bass_vocal_frontier_20261018_refresh2": {
+    "checked": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"BP355\"",
+      "site:shopee.co.id \"Digitech\" \"BP200\"",
+      "site:shopee.co.id \"Boss\" \"SX-700\"",
+      "site:shopee.co.id \"TC Helicon\" \"VoiceWorks\"",
+      "site:shopee.co.id \"Bass\" \"BP80\"",
+      "site:shopee.co.id \"Vocalist\" \"Live Pro\"",
+      "site:shopee.co.id \"Voiceworks Plus\"",
+      "site:shopee.co.id \"Zoom\" \"BFX-708\""
+    ],
+    "qualified_new_models": [],
+    "excluded": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+        "reason": "Power adapter, not processor hardware.",
+        "indexed_ask_idr": 175000,
+        "seller": "independenceshop",
+        "region": "Kota Jakarta Barat",
+        "crawl": "two months old"
+      }
+    ],
+    "limits": "No qualified indexed result is not proof of market absence or stock status. No filesystem downloads."
   }
 }
