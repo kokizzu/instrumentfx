@@ -1577,3 +1577,35 @@ Checked2026-10-17: [Japanese brand control inventory](https://mooer.jp/products/
 ### Red Truck — readable original manufacturer PDF on mirror
 
 [Manufacturer manual PDF,part620010668](https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf),12pages,checked2026-10-17 through web text. Exact product,company imprint andpartnumber verified;printed publication/revision date absent. Unlike the other mirror’s9V1A wording,this copy gives9V±10% and≥300mA on pp2/10/11. Do not flatten these versions into one timeless specification. Current own global product’s≥1A supply recommendation takes precedence for present supply guidance. PDF text also corroborates bypass-onlypresets,connectionlabels andsixfootswitches. No visual diagram inspection or local file download claimed.
+
+## Prime P2
+
+Checked 2026-10-17; partial. Guitar multi-effects with documented bass updates and a processed headset-microphone path. Original manufacturer manual V01.2023.09.21 is hosted by RockBoard; newer firmware changes supersede historical counts and gestures where specified.
+
+| Field | Finding |
+|---|---|
+| Expression | No built-in treadle, toe switch or EXP socket in the manual layout. MIDI expression assignment remains unverified. |
+| Knobs / footswitches / buttons | 0 rotary; 0 built-in footswitches; 1 power/lock button plus recessed forced-off reset. Optional F4 is separate. [Manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf). |
+| Display | Touchscreen: 1.3-inch marketing versus 1.28-inch specification; hardware color/monochrome not established. [Product](https://www.mooeraudio.com/products/200.html). |
+| Simultaneous blocks | Ceiling unknown; nine historical category types are not a concurrency claim. Reorderable chain. |
+| Category choices | V01: OD19, Amp52, Cab25, Dyna4, Filter3, Mod14, Delay9, Reverb6, EQ2. [Manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf). |
+| Memory | 80 factory-filled editable slots, 20×4; save before switching. No separate factory bank established. |
+| Synth / acoustic | Dedicated synth architecture unverified. Guitar Sim added in 2025; exact acoustic algorithms unresolved. |
+| IR / captures | Original 10 GNR and 10 GIR slots; third-party IR loading; MNRS proprietary files distinct from NAM. IR limits and onboard capture unverified. [Product](https://www.mooeraudio.com/products/200.html). |
+| NAM | 2026-09-22 P2 firmware2.5.0 says NAM A2 loading; Android4.0.0 says A2 Lite/mobile import. Architecture wording differs; unrestricted NAM, A1 conversion and capacity unverified. [Releases](https://www.mooeraudio.com/Downloads_xq/2.html). |
+| Ports | 6.35mm TS input2MΩ; TRS output100Ω; 3.5mm headset/headphones32Ω; 3.5mm MIDI; USB-C charging/audio/OTG. Stereo output needs TRS-to-two-TS breakout. MIDI wiring and USB channel/rate/driver details unverified. [Product](https://www.mooeraudio.com/products/200.html). |
+| Vocal path / routing | Headset mic has compressor/EQ/reverb, separate from instrument. Mixer handles vocal/Bluetooth/USB/instrument; USB fader controls outgoing OTG. Global cab bypass/EQ. [Manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf). XLR, phantom and harmony are not established. |
+| Dimensions / weight | 120L×64W×21H mm;152g. [Product](https://www.mooeraudio.com/products/200.html). |
+| Power | USB5V/2A charging requirement, not measured operating draw;3000mAh. Product lab figures5h runtime/2.5h charging; manual prose6h/3h conflicts with its5h/2.5h specifications. Operation while charging documented. Barrel polarity inapplicable to listed USB power; negotiated USB behavior unverified. |
+| Wireless / software | Bluetooth5 audio/app;2.4GHz F-series control. Prime iOS/Android editor; Studio management for backups/updates/IR, with Win/Mac packages. Drivers/updaters are not additional editor platforms. [Product](https://www.mooeraudio.com/products/200.html), [releases](https://www.mooeraudio.com/Downloads_xq/2.html). |
+| Looper / drums | Product:10×8min=80min storage;56 grooves+4 metronomes. Manual p49 says80-second, conflicting with p40 and product. Signal-triggered recording, overdub, saved songs, synchronized count-in; factory reset deletes loops. F4 pairs singly and works without app afterward. [Product](https://www.mooeraudio.com/products/200.html), [manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf). |
+| Firmware qualifications | 2024-05-16 Studio1.6.8 adds10 bass amps/10 bass cabs,10 OD and30 CT cabs; tuner430–445Hz initially435Hz after updating: set440Hz or reset after backup. 2024-08-27 adds further bass content. 2025-09-18 Studio2.3.8 notes Guitar Sim, Preamp/Entire Amp split, Drive MNRS, loop import/export and Studio WAV. 2025-01-05 revises UI/lock/tap/wireless logic. 2026 Android4 adds stem separation. Editor and device versions differ. [Releases](https://www.mooeraudio.com/Downloads_xq/2.html). |
+| Scenes / remaining gaps | Scenes, spillover, maximum simultaneous blocks, current complete algorithm counts, IR specification, MIDI expression, screen color and qualified new/used asks remain unresolved. |
+
+| Condition / IDR evidence | Seller / item / qualifications |
+|---|---|
+| New | No condition-qualified hardware ask verified. |
+| Used | No condition-qualified hardware ask verified. |
+| Condition unresolved: Rp2,625,470 | [MICKEY MOUSE SHOP,19700013/25882729171](https://shopee.co.id/Efek-Gitar-MOOER-Prime-P2-Intelligent-Smart-Multi-Effects-Processors-1.3-Inch-Touchscreen-Pedal-Guitar-Elektrik-Akustik-Bass-Bluetooth-Android-IOS-Distortion-Overdrive-Looper-Cabinet-Simulator-Metronome-Drum-Machine-IR-Loader-i.19700013.25882729171); observed2026-10-17, JS-limited cached page; Toko Sedang Libur. Search cache Jakarta Pusat versus newer page Jakarta Utara; stale delivery dates. Working condition, stock, selected variant, F4/charger bundle, warranty, voucher, shipping/tax and final total unresolved. Not live-stock confirmation. |
+
+The Rp825,000 F4 accessory item19700013/28803822643 is excluded from P2 hardware pricing. No software, firmware, dependencies or manual files were downloaded for this pass.

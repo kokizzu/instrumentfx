@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 307,
+  "active_model_count": 308,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 307,
+  "canonical_root_model_count": 308,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "307 unique active/root-canonical;0legacy-only;35brands;6excluded;allpartial.",
+  "count_reconciliation": "308 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "MOOER Prime P2",
-    "task": "Read exactPrimeP2manufacturer manual andfullrelease notes;create rootMOOERsection,allrequiredfields,ledgerinventory andaffectedcomparisonmembership;commit before nextmodel. Preserveprice/region/revisionconflicts.",
+    "task": "Prime P2 initial record saved; resolve simultaneous ceiling, IR/NAM limits, screen color and condition-qualified Shopee asks, then continue fresh brand/series discovery. Commit each useful model update before researching another.",
     "next_models": [],
-    "after_queue": "Continuebass/vocaldiscovery,technicalgaps andmigrationaudit. Nodownloads/workflows/push."
+    "after_queue": "Continue bass/vocal discovery and migration audit. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5272,6 +5272,13 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "OriginalG1manual firstpass and700k cached G1titlelead;revision/condition unresolved."
+    },
+    {
+      "model": "MOOER Prime P2",
+      "path": "MOOER.md#prime-p2",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Added exact P2 record; documented bass firmware and headset microphone compressor/EQ/reverb justify all three views; qualified NAM and source conflicts retained."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24071,7 +24078,8 @@
       "GS1000",
       "PE100",
       "Black Truck",
-      "Red Truck"
+      "Red Truck",
+      "Prime P2"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -24359,7 +24367,8 @@
       "GE1000 Li",
       "PE100",
       "Black Truck",
-      "Red Truck"
+      "Red Truck",
+      "Prime P2"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -24684,21 +24693,21 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 256,
+      "record_count": 257,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 132,
+      "record_count": 133,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 104,
+      "shared_bass_capable_count": 105,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 61,
+      "record_count": 62,
       "vocal_only_count": 23,
-      "combined_instrument_count": 38,
+      "combined_instrument_count": 39,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41676,18 +41685,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 307,
-    "canonical_root_models": 307,
+    "unique_brand_model_pairs": 308,
+    "canonical_root_models": 308,
     "legacy_only_models": 0,
-    "guitar_view_models": 256,
+    "guitar_view_models": 257,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
-    "vocal_view_models": 61,
+    "vocal_view_models": 62,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 132,
-    "bass_shared_models": 104,
+    "bass_view_models": 133,
+    "bass_shared_models": 105,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41739,7 +41748,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass/vocal discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Prime P2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41846,6 +41855,7 @@
       "MOOER::PE100",
       "MOOER::Black Truck",
       "MOOER::Red Truck",
+      "MOOER::Prime P2",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -42059,6 +42069,7 @@
       "MOOER::GE1000 Li",
       "MOOER::GE250",
       "MOOER::GS1000",
+      "MOOER::Prime P2",
       "M-VAVE::TANK-B",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -42159,6 +42170,7 @@
       "Line 6::POD HD500X",
       "Line 6::POD X3 Live",
       "MOOER::GS1000",
+      "MOOER::Prime P2",
       "Roland::VT-4",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::Play Acoustic",
@@ -42199,6 +42211,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "MOOER::Prime P2": "Exact P2 release notes add bass amp/cabinet models in Studio1.6.8 and1.6.9. [Manufacturer](https://www.mooeraudio.com/Downloads_xq/2.html).",
     "NUX::MG-300 MKII": "Exact model global page documents eight bass cabinet IRs; amp-count conflict retained. [Manufacturer](https://nuxaudio.com/product/mg300mkii/).",
     "Neural DSP::Quad Cortex": "Exact manufacturer product page explicitly identifies guitar and bass algorithms. [Manufacturer](https://neuraldsp.com/quad-cortex).",
     "Kemper::PROFILER Head MK2": "Exact Head MK2 manufacturer page explicitly identifies electric guitar and bass. [Manufacturer](https://www.kemper-amps.com/store/en/profiler-head-b.html).",
@@ -43248,6 +43261,13 @@
     },
     "MOOER::Red Truck": {
       "link": "MOOER.md#red-truck",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::Prime P2": {
+      "link": "MOOER.md#prime-p2",
       "source_files": [
         "MOOER.md"
       ],
@@ -64330,7 +64350,7 @@
   "discovery_mooer_prime_p2_20261017": {
     "model": "MOOER Prime P2",
     "checked_date": "2026-10-17",
-    "status": "Unrecorded eligible multi-effects hardware lead;canonical record pending;counts not incremented.",
+    "status": "Recorded partial in MOOER.md#prime-p2; counted once; all three instrument views.",
     "offer": {
       "url": "https://shopee.co.id/Efek-Gitar-MOOER-Prime-P2-Intelligent-Smart-Multi-Effects-Processors-1.3-Inch-Touchscreen-Pedal-Guitar-Elektrik-Akustik-Bass-Bluetooth-Android-IOS-Distortion-Overdrive-Looper-Cabinet-Simulator-Metronome-Drum-Machine-IR-Loader-i.19700013.25882729171",
       "shop": "19700013",
@@ -64344,11 +64364,13 @@
     },
     "sources": {
       "product": "https://www.mooeraudio.com/products/200.html",
-      "releases": "https://www.mooeraudio.com/Downloads_xq/2.html"
+      "releases": "https://www.mooeraudio.com/Downloads_xq/2.html",
+      "manual": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf"
     },
     "initial_evidence": "Manufacturer confirmsmulti-effects:52amps,25cabs,57effects,80presets/20banks;10GNR/10GIR;1.3inchmarketing vs1.28inchspec touchscreen;120L64W21H mm,152g;USB5V2A charging,3000mAh,lab5h/2.5hcharge;TRRSphones,microphone support does not establish vocalFX. Bass needs exactmanual confirmation.",
     "revision_evidence": "September22,2026 officialPrimeAndroid4.0.0 notes add NAM A2Lite/mobileimport forP2/M2 alongsideP2firmware2.5.0 heading. Must inspect requirements before claimingnativeformat support;GNR/GIR distinct.",
     "rejected": "19700013/28803822643 isGWF4controller accessoryRp825000Habis,notPrimeP1/P2hardware.",
-    "next": "Read exactPrimeP2manufacturer manual andfullrelease notes;create rootMOOERsection,allrequiredfields,ledgerinventory andaffectedcomparisonmembership;commit before nextmodel. Preserveprice/region/revisionconflicts."
+    "next": "Resolve current simultaneous processing, IR/NAM limits, screen color and condition-qualified Shopee offers; preserve original/manual-versus-current firmware distinctions.",
+    "verified_followup": "Original manual V01.2023.09.21 p30 establishes microphone-only compressor/EQ/reverb; official 2024-05-16 and 2024-08-27 notes establish bass algorithms, superseding initial uncertainty. All three memberships justified. Manual p49 says80-second despite p40 eight minutes and product80-minute aggregate; charging/runtime prose conflicts retained."
   }
 }

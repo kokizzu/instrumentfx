@@ -1667,3 +1667,7 @@ research-commit-play-qsg:
 .PHONY: research-commit-g1-original
 research-commit-g1-original:
 	python3 scripts/research_tools.py commit-g1-original
+
+.PHONY: research-commit-prime-p2
+research-commit-prime-p2:
+	python3 scripts/research_tools.py commit-prime-p2
