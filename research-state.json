@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX10B discovery",
-    "task": "Exactown40pagePDFreadable at ax10b_primary_manual_20261017.source. Next inspect Englishpp6–14 and seekexactIndonesianhardware;savebassmodelwithrequiredgaps ifqualified. Do not borrowAX10GorAX10A.",
+    "task": "AX10B dimensions/mass/battery/IO andNRmanualconflict saved. Next inspect remainingEnglishpp7–12,especially rearinventory/ambience andseeklocalhardware. Noactivecountchange untilcanonicalrecordintegration;do notinventpolarityfrommissingPDFsymbol.",
     "next_models": [],
     "after_queue": "275partialmodels;no downloads/workflows/push;fullresearch incomplete."
   },
@@ -56739,6 +56739,13 @@
     "source": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf",
     "identity": "ExactAX10B OwnerManual EFG1;40pagetrilingual;Englishpp3–14;ownKorgsupportlink;bareURLreadablewherequeryURLfailed.",
     "facts": "Bassmodelingprocessor;PreFX3,Amp11,Mod11,Ambience11;40factory+40user,userinitiallyduplicatesfactory. Builtinexpressioncontrolsvolume/octave/speed/delay/filter/pitch/Talk. FourAAalkalineorseparateDC9Vadapter;inputinsertionpowersbatteryoperation. Outputsharedheadphones;AmpLineswitch;InputL/Hswitch.",
-    "limits": "NoqualifiedIndonesianhardwareyet;notcounted. Fullpanelcontrolcounts,powerdrawpolarity,size,algorithms,externalEXP,USB/software andotherrequiredfields pendingremainingEnglishmanualpages. Nofilesdownloaded/noimagesinspected."
+    "limits": "NoqualifiedIndonesianhardwareyet;notcounted. Fullpanelcontrolcounts,powerdrawpolarity,size,algorithms,externalEXP,USB/software andotherrequiredfields pendingremainingEnglishmanualpages. Nofilesdownloaded/noimagesinspected.",
+    "followup": {
+      "checked": "2026-10-17",
+      "pages": "English6–7,10–11,13–14 excerpts;notcompleteEnglishsection",
+      "facts": "287W182D60H mm;1.1kgwithoutbatteries;4AAalkalineabout18h;DC9Vadapterseparate;mono¼bassinput,stereo¼line/headphonesoutput;40presetread-only+40overwriteableuser. EXPforwardactivatespedaleffect,volumealwayson. Tuner438–445Hzunsavedresets440.",
+      "conflict": "p11NRparenthetical saysholdTAPandturnEFF.DEPTH,butfootnote3andfrontinventorysayFUNCTION+VOLUME/NR. Preservemanualinternalconflict;do notexecute.",
+      "limits": "Polaritysymbolnotextracted;currentdraw/concurrentceilingunknown;controls/remainingEnglishpagesnotfullyaudited;noUSB/editorassumptions. Notcounted/localofferunqualified."
+    }
   }
 }
