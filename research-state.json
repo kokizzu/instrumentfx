@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Eight-query BP80/BP355/Vocalist Live3/Boss VF1/Zoom B9 pass found no qualified unrecorded hardware. Next resolve Hope Music mixed G1x Next/B1x Next store lead to exact item and selected B1Xnext variant; do not assign mixed Rp999k floor. No downloads/workflows/push.",
+    "task": "B1Xnext mixed Hope Music lead parked: seven exact/identity searches found no item URL, selected variant or manufacturer confirmation of distinct model; no price/model added. Next inspect existing Zoom B1X original own manual for unresolved control/power/category fields, or continue fresh bass/vocal series discovery. No downloads/workflows/push.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -70755,5 +70755,23 @@
       }
     ],
     "next": "Try exact Hope Music mixed G1x Next/B1x Next item discovery; require selected B1Xnext variant and manufacturer identity before adding. Do not treat cached mixed-price floor as model price."
+  },
+  "discovery_b1xnext_identity_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Efek Zoom G1x Next Dan Zoom B1x Next\"",
+      "site:shopee.co.id \"B1Xnext\" zoom",
+      "site:shopee.co.id \"B1x Next\" \"Hope\"",
+      "site:zoomcorp.com \"B1Xnext\"",
+      "Zoom \"B1Xnext\" official",
+      "Zoom \"B1X NEXT\" manual",
+      "site:shopee.co.id \"B1X\" \"Next\" \"i.\""
+    ],
+    "sources": [
+      "https://shopee.co.id/hopemusik",
+      "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf"
+    ],
+    "result": "Exact searches returned the mixed store title only; no exact item URL or selected B1Xnext variant. Direct store text was cached last month, search snippet four months. Manufacturer search returned original B1/B1X documentation, not confirmation of B1Xnext as a distinct model. Do not relabel original B1X, invent a model, or assign Rp999,000 mixed listing floor. Identity remains unresolved; absence from search is not proof of nonexistence.",
+    "next": "Park this unresolved seller label. Resume unrecorded bass/vocal series discovery, or resolve existing B1X original control/power/category gaps from its own manufacturer manual."
   }
 }
