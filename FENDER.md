@@ -102,6 +102,17 @@ Checked 2026-10-18 against [Fender’s 2026 announcement](https://www.fender.com
 | Processing / bass release-date conflict | The announcement says **available March2026**, while support lists **1.1.11 dated January14,2026**. Both describe ten bass models. Retain the discrepancy; neither proves the firmware installed on a seller’s unit. |
 | Memory / bass factory-preset procedure | Support lists **adding bass factory presets separately from the firmware update** and warns that the preset procedure resets **all presets**. Do not claim that installing firmware alone necessarily performs that reset. The existing launch-manual1–70 versus current all-presets conflict remains revision-qualified. |
 
+
+### Mustang Micro Plus — mobile editor requirements and bass-cloud fix
+
+Checked 2026-10-18 against Fender Digital’s [Apple App Store listing](https://apps.apple.com/us/app/fender-tone/id1174113426) and Fender’s [Google Play listing](https://play.google.com/store/apps/details?hl=en&id=com.fender.tone). No app installed.
+
+| Field | Current developer-published scope |
+|---|---|
+| Editor / iOS minimum | Fender Tone **5.1.3** lists **iOS15+ / iPadOS15+**, explicitly supporting Micro Plus editing and cloud presets. These mobile requirements do not apply to Device Manager or the ASIO driver. |
+| Editor / bass versions | Apple history lists **5.1.0** adding Micro Plus bass models, preset-list reordering and global input-pad control. **5.1.1, shown January26**, fixes missing bass-amp presets in the cloud browser. Retain the firmware-note known issue as dated history; the app developer records a later fix, not an independently tested universal resolution. |
+| Editor / Android boundary | Google Play names Micro Plus, full wireless editing and cloud functions; its **5.1.3** listing is updated **June12,2026**. Minimum Android OS was not exposed in the inspected page. Do not transfer Apple’s minimum or specific historical fix timing to Android. |
+
 <!-- comparison evidence ends -->
 
 No condition-confirmed used/new allocation. Variant,bundle,workingcondition,authenticity,warranty,shipping/tax/vouchers unresolved.

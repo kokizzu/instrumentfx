@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fender Mustang Micro Plus",
-    "task": "Saved bass-update source-date conflict and separate preset-reset procedure. TransitA exact Shopee seller/item still unresolved;keep pending. Next other eligible discovery or remaining model-specific USB/editor/screen fields.",
+    "task": "Micro Plus mobile editor iOS15+/iPadOS15+ and versioned bass-cloud fix saved;Android editor confirmed but minimumOS unverified. USB channel/rate/dry routing,display diagonal/touch,expression and qualified used/new offers remain open. Resume fresh discovery or these primary gaps.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -58017,6 +58017,15 @@
       "sources": [
         "https://www.fender.com/newsroom/270267-eight-decades-in-fender-unveils-2026-product-line-as-landmark-anniversary-year-begins/",
         "https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions"
+      ]
+    },
+    {
+      "model": "Fender Mustang Micro Plus",
+      "checked": "2026-10-18",
+      "finding": "Developer iOS listing establishes15+ minimum and versioned bass/cloud fix;Android exact editor support independently confirmed,minimumOS unexposed. Firmware issue retained as historical.",
+      "sources": [
+        "https://apps.apple.com/us/app/fender-tone/id1174113426",
+        "https://play.google.com/store/apps/details?hl=en&id=com.fender.tone"
       ]
     }
   ],
