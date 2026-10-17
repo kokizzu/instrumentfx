@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "HX One category inventory or fresh discovery",
-    "task": "Operating/bypass/tuner/softwareaccess qualifications saved. Next enumerate own3.83modeltables or find manufacturer dimensions;remaining power/audio unknown. Avoid repeatedly opening login-only librarianlinks.",
+    "model": "Fresh discovery or remaining HX One physical/software fields",
+    "task": "HXOne3.83tableaudit saved:276listedfamilies/278withlooperM/Svariants. Do not repeat categorycount audit. Seek officialdimensions/mass/USBpoweraudio orfreshShopee bass/vocal/guitar discovery.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery;no downloads/workflows;commit permodel."
+    "after_queue": "No downloads/workflows;commit eachmodel before next."
   },
   "new_findings": [
     {
@@ -40557,7 +40557,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HX One category inventory or fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery or remaining HX One physical/software fields."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49155,6 +49155,57 @@
       ],
       "finding": "RevF Insert requiresDSPbypass;mono/stereoLegacy distinctions,tuner425–455audio options,3sstatepersist/3.81bypassrecall saved. Historical3.70/3.71knownissues not assertedcurrent. Librarian12407/12408 redirectlogin;no currentOS conclusion.",
       "remaining": "Categorytotals,dimensions/mass,screen diagonal/color/touch,USBpower/audio,imports/currentsoftware/qualifiedstock. Next countmanual3.83tables orfreshdiscovery;do not repeatknown loginlinks."
+    },
+    {
+      "model": "Line 6 HX One",
+      "checked_date": "2026-10-17",
+      "source": "https://line6.com/data/6/0a0004220039697155cf001b7/application/pdf/HX%20One%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "firmware": "3.83",
+      "category_table_counts": {
+        "distortion": {
+          "hx": 44,
+          "legacy": 17,
+          "total": 61
+        },
+        "dynamics_table": {
+          "hx_dynamics": 12,
+          "legacy": 7,
+          "volume_pan_utilities": 5,
+          "total": 24
+        },
+        "eq": 8,
+        "modulation": {
+          "hx": 30,
+          "legacy": 26,
+          "total": 56
+        },
+        "delay": {
+          "hx": 28,
+          "legacy": 17,
+          "total": 45
+        },
+        "reverb": {
+          "hx": 13,
+          "legacy": 12,
+          "total": 25
+        },
+        "pitch_synth": {
+          "hx": 12,
+          "legacy": 17,
+          "total": 29
+        },
+        "wah_filter": {
+          "hx": 15,
+          "legacy": 11,
+          "total": 26
+        },
+        "looper_families": 2,
+        "looper_mono_stereo_entries": 4,
+        "total_with_looper_families": 276,
+        "total_with_looper_variants": 278
+      },
+      "finding": "Manualpp13–19 independently enumerated;no doublecountmono/stereo ordinaryeffects,5volume utilities stayDynamics-table group,separateinputgate excluded. Presetformat incompatibility/synthgenerator restrictions saved.",
+      "remaining": "Dimensions/mass,screen diagonal/color/touch,USBpower/audio,imports/editorcurrentOS/prices. Categoryaudit completeforcited3.83tables;onlyrevisitwithnewrevision."
     }
   ],
   "discovery_cross_brand_bass": {
