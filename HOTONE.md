@@ -497,6 +497,18 @@ Checked2026-10-17, original effect list printed pp12–14,61–63.
 | EQ / source conflict | Graphic7B band5 prints **800kHz**, inconsistent with its audio-EQ context; retain as unresolved source wording, not a verified800Hz correction. Revision census does not establish current firmware totals. [Original list](https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf) |
 
 
+### MP-350 — FREQ filter subsections, firmware1.1.0-JP
+
+Checked2026-10-17, original effect list printed pp4–8.
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / FREQ filters | **Filter11**: Low Pass, Band Pass, High Pass, Notch, Peak, Low Shelf, High Shelf, Tilt EQ, Moo VCF LP, Moo VCF BP, Moo VCF HP. **EnvelopeFilter4**: Toucher G, Toucher B, Moo VCF Env, Envelope. **AutoFilter7**: Crier G, Crier B, LFO Filter, Vocal Filter, Path Filter 4, Path Filter 8, Pattern Filter. These22 entries are FREQ subsections, not22 independent module types or the complete FREQ census. [Original list](https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf) |
+| Synth / filter distinction | MooVCF models process incoming audio; synth-like filter descriptions do not establish oscillators or pitch-tracking synthesis. PathFilter4/8 provide4/8 sequence steps; PatternFilter offers8 patterns. LFOFilter is stereo I/O; VocalFilter is monoL-in/stereo-out, not a microphone-vocoder claim. Envelope is labelledmono despite aSpread parameter; retain that routing qualification. [Original list](https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf) |
+
+Acoustic Refiner/ACSim are separately recorded. Pitch, Special and Vocal subsections still need their own complete census; later firmware additions must remain separate.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
