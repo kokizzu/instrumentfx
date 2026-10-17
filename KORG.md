@@ -299,6 +299,8 @@ Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Owne
 | New | Unknown; no condition-verified offer. | — |
 | Condition-unverified cached offer | **Rp750,000,Habis**;maju jaya gallery,Kab.Malang;shop33360096/item3679424724. Checked2026-10-17. Direct URL yielded cached text marked last month,stale16–18Sep delivery;search cache3months showed20–22July. Sale condition,working state,bundle,adapter,warranty,variant andshipping/tax unverified. Seller title says made in Japan;not independently established. Late-arrivalRp10,000 compensation is not purchase discount. | [Exact item][AX3G-O] |
 
+### Source-access provenance and rejected variant evidence
+
 Mixed jonimusic item22551702/3568008855 lists AX100G/AX1500G/AX3000G/AX3G atRp899,900–2,299,900; no variant mapping,excluded from exact AX3G price evidence. Owner manual full web open exceeded tool size limit; indexed official excerpts used. EasyStart read as web PDF text. No downloads.
 
 [AX3G-M]: https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf
