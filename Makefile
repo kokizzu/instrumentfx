@@ -1595,3 +1595,7 @@ research-commit-b21u:
 .PHONY: research-commit-criticalmass
 research-commit-criticalmass:
 	python3 scripts/research_tools.py commit-criticalmass
+
+.PHONY: research-commit-hxe-price
+research-commit-hxe-price:
+	python3 scripts/research_tools.py commit-hxe-price

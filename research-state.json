@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Line 6 HX Effects",
-    "task": "Read own existing record andseek exact Shopee hardware asks;used/newIDRcurrentlyunknown. Retain condition,stock,region,bundle,voucher andaccesslimits;do notaddduplicate. Save useful model findings before next.",
+    "task": "Resolve own supply voltage/polarity orfirmware category counts from official docs next;exacthistoricalShopeeasknowrecorded,notused/newclassification. Do not repeat marketnegativeclaim.",
     "next_models": [],
-    "after_queue": "Remaining primaryspec/market gaps andmigration;no downloads/workflows."
+    "after_queue": "Other field gaps andmigration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -41179,7 +41179,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Coverage audit."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Effects."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -50652,6 +50652,13 @@
       "pages": "3,5",
       "finding": "Manual saysfourstyles withunison/doubledoctaves;family allocation/selector total notinferred. Corrected power wording:670mAsatisfies>300mA;differentspecificity doesnotprovecontradiction.",
       "remaining": "Panelstyleallocation,polarity/revision,pitchclaim,software/memory/offers"
+    },
+    {
+      "model": "Line 6 HX Effects",
+      "checked_date": "2026-10-17",
+      "source": "https://shopee.co.id/LINE-6-HELIX-HX-EFFECTS-i.250276993.5129480739",
+      "finding": "Exact seller250276993/item5129480739 Soundstationstore,KotaTangerangSelatan,Rp7900000 indexedfourmonths,Habis/LayananTidakTersedia. Directcachemiss. Conditionunverified;used/new remainunknown.",
+      "remaining": "Qualifiedcondition/liveoffers,firmwarecounts,display/power gaps"
     }
   ],
   "discovery_cross_brand_bass": {

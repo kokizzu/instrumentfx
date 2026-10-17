@@ -523,7 +523,14 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 
 ### HX Effects — IDR and source provenance
 
-**Used IDR: ?; new IDR: ?**. Exact Shopee Indonesia hardware searches on2026-10-16 and2026-10-17 did not establish an Indonesian item with a qualified ask. Later searches returned foreign-region offers,which are not IDR evidence. Do not invent stock, region, bundle, seller, voucher or a converted USD price. The legacy record likewise had no used/new price; the FAQ's **$599.99 US MAP** is launch-price provenance, not a current Indonesian offer.
+Earlier2026-10-16/17 searches did not establish an exact Indonesian ask; that search limitation is superseded by the exact indexed item below. Foreign-region offers remain excluded from IDR evidence. The FAQ's **$599.99 US MAP** remains launch-price provenance, not a current Indonesian offer.
+
+| Price class | Amount | Offer and limits |
+|---|---:|---|
+| Condition-unverified sold-out indexed ask | Rp7.900.000 | [Soundstationstore,seller250276993/item5129480739](https://shopee.co.id/LINE-6-HELIX-HX-EFFECTS-i.250276993.5129480739);Kota Tangerang Selatan. Checked2026-10-17;four-month indexed body says **Habis** and **Layanan Tidak Tersedia**. Exact direct open failed cache access. Used/new condition,bundle,variant,voucher,warranty andauthenticity unverified. Historical ask,not current stock or completed sale |
+| Verified used IDR | ? | Not established;do not infer used from sold-out status |
+| Verified new IDR | ? | Not established;store identity does not establish new condition |
+
 
 - [HXE-P: official HX Effects page and complete numbered front/rear controls](https://line6.com/hx-effects/).
 - [HXE-F: official HX Effects FAQ](https://kb.line6.com/hx-effects-faq), retaining its launch-era library/software/price limits. It explicitly identifies guitar **and bass** use.
