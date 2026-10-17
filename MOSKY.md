@@ -33,3 +33,35 @@ Effects-only multi-effects strip. Checked 2026-10-18; partial. Ownership unverif
 Unresolved variation: jonimusic seller22551702/item22939289919 shows Rp599,900–849,900,Habis,two variations in a five-month index. No price is assigned to SOL918 without variant identification. [Item](https://shopee.co.id/Efek-Gitar-Multi-Strip-Mosky-SOL918-Delay-Reverb-Distortion-Overdrive-Loop-Insert-i.22551702.22939289919).
 
 [SOL-P]: https://www.moskyaudio.com/product/products-1-98.html
+
+## RD5
+
+Effects-only guitar multi-effects; checked 2026-10-18, partial. Ownership unverified. Bass/vocal suitability requires exact-model primary evidence.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / toe | Built-in, external and toe support unverified. |
+| Knobs / footswitches / buttons | Separate counts unverified; no image inspection claimed. |
+| Display | Presence, diagonal, color and touch unverified. |
+| Dimensions / mass | Manufacturer: **L230×W65×H36 mm;490 g**, mass basis unstated. [RD-P] |
+| Processing / category choices | Five named functions: reverb, delay, boost, overdrive, buffer. This establishes several effect families, not five freely assignable DSP blocks. Simultaneous ceiling, category algorithms and signal order unverified. [RD-P] |
+| Factory / user / total memory | Unverified; no preset bank inferred. |
+| Synth / acoustic | Unverified. |
+| Audio / control I/O | Complete connector inventory, formats, levels, stereo, headphones and loop unverified. |
+| Power / battery / USB | **9 V DC, negative tip**, regulated supply recommended. Current, plug dimensions, battery and USB operation unverified. [RD-P] |
+| IR / NAM / captures | User IR, native NAM, converted NAM and proprietary capture support unverified. |
+| Editor / software | Editor platforms, drivers, updaters and audio/MIDI support unverified. |
+| Looper / drums / routing | Phrase looper, drums, bypass, trails and routing unverified. |
+
+### Separate IDR hardware offers
+
+| Condition / seller | Asking evidence and limitations | Exact item |
+|---|---|---|
+| Used | Unknown; no condition-verified used offer. | — |
+| New | Unknown; no condition-verified new offer. | — |
+| Condition-unverified / GhiNAda Music | **Rp895,000**, Kab. Bandung; four-week search cache checked2026-10-18. Direct reopen cache miss. Relative tomorrow delivery is not stock confirmation; late Rp10,000 compensation is not a discount. Variant, bundle, adapter, warranty and checkout total unknown. | [362117058/41978009512](https://shopee.co.id/MOSKY-RD5-5-IN-1-Multi-Efek-Reverb-Delay-Booster-Overdrive-Buffer-i.362117058.41978009512) |
+| Condition-unverified / MICKEY MOUSE SHOP | **Rp654,050**, Jakarta Pusat; three-month search cache, shop on holiday, stale2–5Aug delivery. Checked2026-10-18; live stock, variant, bundle and delivered total unknown. Late compensation is not a purchase discount. | [19700013/23910563916](https://shopee.co.id/Efek-Gitar-Mosky-Rd5-Multi-Effects-Pedal-5-In-1-Reverb-Delay-Overdrive-Booster-Buffer-i.19700013.23910563916) |
+
+A five-month [shop index](https://shopee.co.id/smile.pedal87) names RD5 at Rp430,000 without an exact item ID; excluded from qualified model prices.
+
+[RD-P]: https://www.moskyaudio.com/product/product-98-893.html

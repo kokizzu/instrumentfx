@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 325,
+  "active_model_count": 326,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 325,
+  "canonical_root_model_count": 326,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "325 unique active/root-canonical;0legacy-only;37brands;6excluded;allpartial.",
+  "count_reconciliation": "326 unique active/root-canonical models; 0 legacy-only; 37 brands; six excluded; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee bass/vocal discovery",
-    "task": "Resume fresh Shopee discovery. ME20B original calibration range conflict saved; exact used lead remains inaccessible and excluded from prices. Retain TC1 PDFsize limit and broader verification gaps.",
+    "model": "BOSS MS-3",
+    "task": "Verify exact Shopee MS-3 hardware offers and primary internal multi-effects architecture before adding; not controller-only.",
     "next_models": [],
-    "after_queue": "325active;technical/market/ownership/migration incomplete. No downloads/workflows/push."
+    "after_queue": "326 active; technical, market, ownership and lossless migration work remains. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24480,7 +24480,8 @@
       "Go Rig II"
     ],
     "Mosky": [
-      "SOL918"
+      "SOL918",
+      "RD5"
     ]
   },
   "root_brand_content": {
@@ -24881,12 +24882,13 @@
       "Go Rig II"
     ],
     "MOSKY.md": [
-      "SOL918"
+      "SOL918",
+      "RD5"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 272,
+      "record_count": 273,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41954,10 +41956,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 325,
-    "canonical_root_models": 325,
+    "unique_brand_model_pairs": 326,
+    "canonical_root_models": 326,
     "legacy_only_models": 0,
-    "guitar_view_models": 272,
+    "guitar_view_models": 273,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -42017,7 +42019,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee bass/vocal discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS MS-3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42292,7 +42294,8 @@
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig II",
-      "Mosky::SOL918"
+      "Mosky::SOL918",
+      "Mosky::RD5"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -45053,6 +45056,13 @@
     },
     "Mosky::SOL918": {
       "link": "MOSKY.md#sol918",
+      "source_files": [
+        "MOSKY.md"
+      ],
+      "finding_files": []
+    },
+    "Mosky::RD5": {
+      "link": "MOSKY.md#rd5",
       "source_files": [
         "MOSKY.md"
       ],
@@ -65763,5 +65773,15 @@
     "pages": "14–15,30",
     "findings": "Own calibration heel/toewrite procedure;display1–5 vssetting1–9 conflict retained,default5lowerlessforce. Tuner1+2entry/exit,EDITEXITalternativeexit,lowBhighCnotes.",
     "market": "RepeatedusedleadRp2300000Bogor alreadyrecorded;exact156694846/43102092694inaccessibleagain,noqualifiedprice."
+  },
+  "rd5_primary_20261018": {
+    "primary": "https://www.moskyaudio.com/product/product-98-893.html",
+    "status": "partial",
+    "offers": [
+      "362117058/41978009512",
+      "19700013/23910563916"
+    ],
+    "access": "Search-indexed asks; direct first offer cache miss; no condition or live stock verification.",
+    "remaining": "Original manual/panel audit, controls, ports, memory, current, software and other unknown fields."
   }
 }

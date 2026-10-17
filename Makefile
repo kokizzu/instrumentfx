@@ -1771,3 +1771,7 @@ research-commit-tc2:
 .PHONY: research-commit-v3compat
 research-commit-v3compat:
 	python3 scripts/research_tools.py commit-v3compat
+
+.PHONY: research-commit-rd5
+research-commit-rd5:
+	python3 scripts/research_tools.py commit-rd5
