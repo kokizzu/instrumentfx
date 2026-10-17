@@ -1424,7 +1424,7 @@ def commit(model_id):
         print(research_tools.git('commit', '-m', 'research(valeton): include GP5 bass capability and corroborate A2 conversion'))
         return
     if model_id == 'gp-50':
-        print(research_tools.git('commit', '-m', 'research(valeton): include GP50 bass capability and dated controller limits'))
+        print(research_tools.git('commit', '-m', 'research(valeton): resolve GP50 loop drum and routing limits'))
         return
     if model_id == 've-22':
         print(research_tools.git('commit', '-m', 'research(boss): qualify VE22 electrical levels and panel controls'))

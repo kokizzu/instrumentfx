@@ -901,6 +901,18 @@ Checked 2026-10-18.
 | I/O / controller firmware qualification | Regional tutorial dated **2026-06-17**, scoped to **GP-50 firmware1.0.5, Pocket Control1.0.8, SonicLink1.6.9**, documents USB with the controller acting as host, or TRS MIDI. It says ordinary Bluetooth MIDI controllers are unsupported in that revision. GP-5 P9 uses different SysEx and can freeze GP-50; tutorial advises against using it and gives SAVE+GLOBAL+EXIT/BT long-hold for forced restart. Planned support is not a current limitation claim. | [Regional tutorial](https://www.hotone.jp/blog/1151) |
 | IDR / Red Musik Bali exact offer | Seller/item **198150809/54604918835**, Kota Denpasar: **Rp2.255.000, Habis** on direct reopen of last-month cached page. Search omitted Habis. Historical hardware retail ask; condition, accessory bundle, regional warranty, delivered cost and checkout stock unverified. Late-delivery compensation is not a purchase voucher. No qualified used quote. | [Exact hardware listing](https://shopee.co.id/Valeton-GP-50-Efek-Gitar-Compact-Multi-Effects-GP50-GP-50-i.198150809.54604918835) |
 
+### GP-50 — firmware 1.0.5 looper, drums and routing limits
+
+Checked 2026-10-18 against the [own regional manual](https://www.hotone.jp/manuals/valeton/GP-50.pdf), explicitly firmware1.0.5. Later firmware behavior remains separately unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Looper / duration and placement | **20 seconds maximum**; **Pre records dry mono, Post records processed stereo**. Exiting the looper screen retains its state, but recordings are not saved to system storage. B stops; holding B clears all overdubs. Printed p13. |
+| Processing / onboard drums | **10 onboard metronome patterns**; additional patterns require the app and Bluetooth. Earlier100-rhythm wording must not imply100 independent onboard patterns. Printed p12. |
+| Processing / SnapTone and routing | Enabling **N→S disables AMP and CAB**. Reorderable: NR/PRE/MOD/DLY/RVB; fixed: DST/N→S/AMP/CAB/EQ. Printed pp15–16. |
+| Physical controls / grouped switching | Up to **3 modules per footswitch, 6 total**; each module belongs to only one switch. Printed p15. |
+| Power / connector and shutdown | **5.5×2.1mm DC connector**; SAVE+GLOBAL toggles battery power. Forced shutdown requires SAVE+EXIT+GLOBAL for≥2seconds and may lose data. Printed pp8,56. |
+
 ## Dapper Bass VES-2
 
 Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.

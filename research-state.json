@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-50",
-    "task": "Own regional manual bass inclusion, dated MIDI tutorial and Red Musik Bali offer saved. Next audit GP50 own manual revision/category census and looper/power limits; continue fresh Shopee discovery after model commit. Do not borrow GP5 counts.",
+    "task": "GP50 firmware1.0.5 looper/drums/routing/power limits saved. Next own-manual category census and remaining IR format/length limits; then fresh Shopee discovery. Do not borrow GP5 counts or equate app rhythms with onboard patterns.",
     "next_models": [],
     "after_queue": "335 partial unique records;117 legacy compatibility paths retained. No downloads/workflows/push."
   },
@@ -57693,6 +57693,14 @@
         "https://www.hotone.jp/manuals/valeton/GP-50.pdf",
         "https://www.hotone.jp/blog/1151",
         "https://shopee.co.id/Valeton-GP-50-Efek-Gitar-Compact-Multi-Effects-GP50-GP-50-i.198150809.54604918835"
+      ]
+    },
+    {
+      "model": "Valeton GP-50",
+      "checked_date": "2026-10-18",
+      "finding": "Own firmware1.0.5 manual resolves loop20s Pre-mono/Post-stereo, nonsaved recording, onboard10 metronome patterns versus app extras, SnapTone disables AMP/CAB, fixed/reorderable groups and three modules per switch.",
+      "sources": [
+        "https://www.hotone.jp/manuals/valeton/GP-50.pdf"
       ]
     }
   ],
