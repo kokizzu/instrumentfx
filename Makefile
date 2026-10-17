@@ -1755,3 +1755,7 @@ research-commit-gorig2:
 .PHONY: research-commit-me90b-control
 research-commit-me90b-control:
 	python3 scripts/research_tools.py commit-me90b-control
+
+.PHONY: research-commit-sol918
+research-commit-sol918:
+	python3 scripts/research_tools.py commit-sol918

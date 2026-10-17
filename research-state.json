@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 322,
+  "active_model_count": 323,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 322,
+  "canonical_root_model_count": 323,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "322 unique active/root-canonical;0legacy-only;36brands;6excluded;allpartial.",
+  "count_reconciliation": "323 unique active/root-canonical;0 legacy-only;37 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,13 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Mosky SOL918",
-    "task": "Create exact SOL918 root record from saved primary product and Shopee leads in discovery_mosky_joyo_20261018. Advertised5includesFXloop;do notclaim5internalDSPblocks orsellerderivedbasssupport. Commit useful model before next.",
+    "model": "JOYO Tone Chain TC-1",
+    "task": "SOL918 initial root record saved with exact offers, manufacturer size/power and explicit gaps. Next verify TC-1 exact hardware and primary manufacturer evidence; commit before TC-2.",
     "next_models": [
-      "JOYO Tone Chain TC-1",
       "JOYO Tone Chain TC-2"
     ],
-    "after_queue": "ResumefreshShopeebass/vocaldiscovery;322activebeforequeuedadditions. Technical/market/ownership/migrationincomplete. No downloads/workflows/push."
+    "after_queue": "Resume fresh Shopee discovery;technical/market/ownership/migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24479,6 +24478,9 @@
       "Dual Stomp",
       "Dual Stomp Lite",
       "Go Rig II"
+    ],
+    "Mosky": [
+      "SOL918"
     ]
   },
   "root_brand_content": {
@@ -24875,11 +24877,14 @@
       "Dual Stomp",
       "Dual Stomp Lite",
       "Go Rig II"
+    ],
+    "MOSKY.md": [
+      "SOL918"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 269,
+      "record_count": 270,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41947,10 +41952,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 322,
-    "canonical_root_models": 322,
+    "unique_brand_model_pairs": 323,
+    "canonical_root_models": 323,
     "legacy_only_models": 0,
-    "guitar_view_models": 269,
+    "guitar_view_models": 270,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -42010,7 +42015,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee bass/vocal discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume JOYO Tone Chain TC-1."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42282,7 +42287,8 @@
       "Soran::Tiny Stomp",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
-      "Soran::Go Rig II"
+      "Soran::Go Rig II",
+      "Mosky::SOL918"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -45024,6 +45030,13 @@
       "link": "SORAN.md#go-rig-ii",
       "source_files": [
         "SORAN.md"
+      ],
+      "finding_files": []
+    },
+    "Mosky::SOL918": {
+      "link": "MOSKY.md#sol918",
+      "source_files": [
+        "MOSKY.md"
       ],
       "finding_files": []
     }
@@ -65672,5 +65685,13 @@
       }
     ],
     "caline": "C300 search lead already exists; no duplicate active record or qualified price added."
+  },
+  "sol918_primary_20261018": {
+    "source": "https://www.moskyaudio.com/product/products-1-98.html",
+    "checked_date": "2026-10-18",
+    "status": "Initial partial active guitar record; bass/vocal unclassified",
+    "qualification": "Five advertised functions include FXloop;notfiveverifiedinternalDSPblocks.",
+    "market_access": "Adventure exact direct cachedRp729000 agrees with indexedprice,relative delivery differs;conditionstockunknown. Grand57 indexedRp955000Habis,conditionunknown.",
+    "remaining": "Controls/expression/display, simultaneous/routing, category subtypes, fullI/O, memories, imports, software, current/batteryUSB andqualifiedprices."
   }
 }
