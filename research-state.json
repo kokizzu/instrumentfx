@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2000",
-    "task": "RFX2000REVERB/MIXDOWNnamedlists saved;88reverbbankcombinationsvsintro121retained. Next correctanyEXTRAMic/Cabwording,verifyEXTRAindexmapping andadaptercurrent;visual/currentOSgaps remain.",
+    "task": "RFX2000EXTRAE1/E2indicesverifiedfrommanufacturerindexedmanual;Mic/CabMIXDOWNwordingalreadycorrected. Next E3–E8targetedindex andMIDIpracticaldetails;adaptercurrent/currentOS/visualremainunverified.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. No downloads,workflows,push;commit each usefulmodel before next."
   },
@@ -53815,5 +53815,11 @@
     "pages": "1,14–15,21–22",
     "finding": "REVERB8×11=88bankcombinationsversusintro121unresolved;MIXDOWN8includingMic/CabSimulatornumber7/8notEXTRA. EXTRAindexmappingunresolved.",
     "remaining": "EXTRA8indexmapping,adaptercurrent,visual/currentOS;do not claimfullverification."
+  },
+  "rfx2000_extra_index_followup_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+    "pages": "22",
+    "finding": "TargetedmanufacturersearchtextresolvesE1graphic31+overall3EQ,E2parametric5EQ;−10to0inputattenuation±12overallEQ. PriorMic/CabMIXDOWNwordingverifiedcorrectedin71d0f48.",
+    "remaining": "E3–E8indicesandconnectiondiagrams,adaptercurrent/currentOS/visualgaps. Thirdpartysourcesclaim500mAbutnotadoptedasmanufacturerverifiedcurrentdraw."
   }
 }
