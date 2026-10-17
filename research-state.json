@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B3",
-    "task": "Published loopformat,patchchangeclaim andnoise specifications saved. Next fresh brand/series discovery and primary gaps; B3 controls,screen,imports/currentOS and qualifiedusedoffer remain unresolved. No originalB1/B2/506hardware established by latest queries.",
+    "model": "Zoom B3n",
+    "task": "Eco/startup, editor clipboard scope and additional sold-out exact offer saved. Next fresh discovery and primary gaps; B3n physical headphone conflict,full controls,USB audio/bus/battery,screen and currentqualifiedoffers remain unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B3n."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57614,6 +57614,16 @@
       "sources": [
         "https://www.zoom.co.jp/node/47",
         "https://zoomcorp.com/media/documents/E_B3.pdf"
+      ]
+    },
+    {
+      "model": "Zoom B3n",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual eco10hours/no-use and mode startup recall; own product GuitarLab3clipboard4customFX+CPUdisplay desktoponly; added Wirasmusik399870342/15220042244 cached3.155mHabis conditionunknown.",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_B3n.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/",
+        "https://shopee.co.id/Zoom-B3N-i.399870342.15220042244"
       ]
     }
   ],

@@ -1685,6 +1685,16 @@ Checked 2026-10-18, English manufacturer manual **Z2I-2783-01, printed p47**. Th
 | Analog conversion / audio processing | **44.1kHz;24-bit AD/DA with128× oversampling;32-bit signal processing**. Frequency response20Hz–20kHz,+1/−3dB into10kΩ. Converter specifications do not establish USB audio. [Own manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
 | Audio I/O / input levels | Instrument INPUT: **−20dBu nominal,470kΩ**. Stereo-mini AUX: **−10dBu nominal,10kΩ**. Nominal ratings are not maximum unclipped input levels. [Own manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
 | Audio I/O / output ratings and conflict | R mono-phone output and specification-labelled L/MONO/PHONES line output: **+5dBm maximum into≥10kΩ**. Headphone rating **15+15mW into32Ω**. This table’s combined-socket wording still conflicts with the separately labelled PHONES rear panel/product description; ratings alone do not resolve physical layout. Manufacturer defines0dBm=0.775Vrms; original notation retained. [Own manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+### B3n — startup, editor clipboard and additional offer
+
+Checked 2026-10-18; own manual/product text and exact Shopee body. No software, firmware or files downloaded.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Power / eco and startup mode | With eco ON, the B3n automatically turns off after **10 hours without use**. Startup recalls the mode active when POWER was last switched off. These are B3n-specific behaviors; do not substitute original B3's 25-minute standby. | [Own manual p6](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Editor / clipboard scope | B3n product documentation describes Guitar Lab3's clipboard retaining **up to four effects with custom parameters**, for copying into other patches, plus CPU-usage display while editing. This is desktop-editor functionality, not four additional onboard slots or memories. The page describes version3 features; current offered version7.3 remains separately documented above. | [Own product page](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/) |
+| IDR / additional condition-unverified ask | **Rp3.155.000, Habis**, Wiras musik, Kab. Badung; seller/item **399870342/15220042244**. Direct text retrieved from a month-old cache; stale28–29August delivery. Exact B3N title, but used/new condition, working state, installed library, adapter/bundle, warranty region and checkout unknown. Late-delivery Rp10.000 compensation is not a product discount. | [Exact hardware listing](https://shopee.co.id/Zoom-B3N-i.399870342.15220042244) |
+
 
 ## A1 FOUR
 
