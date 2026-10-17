@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS AD-8",
-    "task": "Comparison shortcut/collapsed source-link preservation fixed with regression coverage. Resume fresh Shopee discovery and unresolved model fields; AD-8 regional dimension/impedance/draw conflicts remain. No oversized PDF repeat.",
+    "model": "TC-Helicon Play Acoustic",
+    "task": "Official indexed2014-07-16USBformats resolved; separate DealerJaya Rp5060000cachedoffer retained. Next recover later-manual HardTune choices/guitar memory behavior via own indexed text or fresh Shopee discovery. Do not claim currentfirmware/OSsupport.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery and remaining verification; no workflows/push."
+    "after_queue": "Continue full research and legacy consolidation; no workflows/downloads/push."
   },
   "new_findings": [
     {
@@ -41416,7 +41416,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS AD-8."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Play Acoustic."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58648,5 +58648,20 @@
     "fix": "Resolve known shortcut/collapsed IDs using the source file reference map; retain unknown labels and existing inline/image links.",
     "validation": "Existing extraction target: reproduced failing shortcut test before resolver fix; passing afterwards. Reviewed previews retain row membership across guitar/bass/vocal.",
     "scope": "Source-link preservation only; no specification or model-membership changes."
+  },
+  "play_acoustic_usb_offer_20261017": {
+    "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_P0DEF_PLAY_ACOUSTIC_M.pdf",
+    "identity": "2014-07-16 printedp11 indexed original;notfullPDFinspection",
+    "usb": "Stereo2in2out16bit44.1/48kHz;computerreturnexcludedfromrecordingoutput",
+    "offer": {
+      "url": "https://shopee.co.id/Efek-Effect-TC-Helicon-PLAY-ACOUSTIC-Vocal-Guitar-i.510844912.23723714918",
+      "idr": 5060000,
+      "seller": "DealerJaya Musik dan Elektrik",
+      "region": "Kota Malang",
+      "condition": "unknown",
+      "access": "Search2month/direct3month;stale9–11July;cachedholiday/activityconflict",
+      "stock": "unverified"
+    },
+    "downloads": false
   }
 }

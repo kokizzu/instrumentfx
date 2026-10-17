@@ -145,7 +145,7 @@ Checked **2026-10-14**. **Partial record** for Play Acoustic, with separate acou
 | Other ports | **¼″ TRS Switch-3;USB Mini-B as shown in rear diagram;12V inlet**. Specification table calls it USB-B generically. No MIDI DIN/TRS or FX-loop sockets in complete panel |
 | Power / USB / battery | **12V DC400mA specified supply**. Polarity, battery operation and USB-powered operation **not established**. USB audio/data is not power evidence |
 | Apps | **VoiceSupport Windows/macOS**, preset librarian and firmware updater; full parameter editor and Android/iOS/Linux editing **not established**. Current OS-version compatibility and download availability need checking |
-| USB audio | Recording/playback and DAW vocal processing documented; exact channel counts/rates **?**. The ADC/DAC24-bit specification is not automatically a USB stream specification |
+| USB audio | Recording/playback and DAW vocal processing documented; earlier exact channel counts/rates unresolved; the later indexed revision is specified below. The ADC/DAC24-bit specification is not automatically a USB stream specification |
 | Looper | v1.0 manual: **15s with undo /30s without**, selectable guitar/vocal/AUX sources. **Current firmware duration unverified** |
 | Other features | RoomSense microphones, vocal HIT/TALK, guitar tuner/boost, separate headphone/monitor mix and optional Switch-3 direct looping |
 
@@ -220,11 +220,18 @@ Inspected original reference is firmware1.0/2014-05-09; later firmware behavior 
 | Other ports | **¼″ TRS Switch-3;USB Mini-B as shown in rear diagram;12V inlet**. Specification table calls it USB-B generically. No MIDI DIN/TRS or FX-loop sockets in complete panel |
 | Power / USB / battery | **12V DC400mA specified supply**. Polarity, battery operation and USB-powered operation **not established**. USB audio/data is not power evidence |
 | Apps | **VoiceSupport Windows/macOS**, preset librarian and firmware updater; full parameter editor and Android/iOS/Linux editing **not established**. Current OS-version compatibility and download availability need checking |
-| USB audio | Recording/playback and DAW vocal processing documented; exact channel counts/rates **?**. The ADC/DAC24-bit specification is not automatically a USB stream specification |
+| USB audio | Recording/playback and DAW vocal processing documented; earlier channel counts/rates were unresolved; the indexed 2014-07-16 specification below now supplies them. The ADC/DAC24-bit specification is not automatically a USB stream specification |
 | Looper | v1.0 manual: **15s with undo /30s without**, selectable guitar/vocal/AUX sources. **Current firmware duration unverified** |
 | Other relevant features | RoomSense microphones, vocal HIT/TALK, guitar tuner/boost, separate headphone/monitor mix and optional Switch-3 direct looping |
 | Used IDR | ? — no condition-qualified local used offer established. |
 | New / retail IDR | **Rp5.100.000**, [NEO MUSIC exact Play Acoustic hardware](https://shopee.co.id/TC-HELICON-PLAY-ACOUSTIC-3-Button-Vocal-and-Acoustic-Guitar-Effects-i.158235298.11220047810),shop158235298/item11220047810,Kota Sukabumi, indexed reopening checked2026-10-17. Exact condition grade, accessory bundle, warranty region, delivered charges, voucher eligibility and checkout stock unverified. Historical retail ask, not completed sale or guaranteed availability; relative delivery and late-delivery compensation are not a purchase discount or stock proof. |
+
+### Play Acoustic — indexed USB specification and separate offer, 2026-10-17
+
+| Field | Evidence / qualification |
+|---|---|
+| USB audio / formats | [Official English reference manual, 2014-07-16, printed p11](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_P0DEF_PLAY_ACOUSTIC_M.pdf), recovered model-specific indexed text: **stereo input and output (2 in / 2 out), 16-bit, 44.1 or 48 kHz**. Computer playback is excluded from the USB output, allowing backing playback while recording vocals/guitar. This resolves the earlier unspecified formats for that manual revision; ADC/DAC bit depth remains distinct. Full PDF inspection, installed firmware and present OS/driver compatibility are not established by this excerpt. |
+| IDR Condition-unverified separate cached ask | **Rp5,060,000**; [DealerJaya Musik dan Elektrik, shop510844912/item23723714918](https://shopee.co.id/Efek-Effect-TC-Helicon-PLAY-ACOUSTIC-Vocal-Guitar-i.510844912.23723714918), Kota Malang. Search two-month cache/direct three-month cache; direct body shows stale9–11July delivery. Search marks shop on holiday; direct cache instead shows recent activity. Different cached states, neither proves live availability. Used/new condition, bundle, accessories, warranty, selected variant, purchase voucher, shipping/tax and checkout stock unverified. Keep separate from NEO MUSIC’s Rp5,100,000 observation; not a current price range or completed sale. |
 
 <!-- comparison evidence ends -->
 
