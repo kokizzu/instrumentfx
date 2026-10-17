@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G1 FOUR",
-    "task": "Continue shared effect-sheet category census at DRIVE pp6–8, then AMP,CABINET,MODULATION,DELAY,REVERB. Dynamics10/Filter13/SFX4 saved with starred-addition scope; exclude PEDAL for non-X.",
+    "task": "Continue G1 FOUR shared effect-sheet census at CABINET pp12–15, then MODULATION, DELAY and REVERB. Saved Dynamics10, Filter13, SFX4, Drive22, Amp16 with starred-addition scope; exclude PEDAL for non-X. Technical followups is an array: append entries rather than named properties.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -55776,6 +55776,45 @@
       "identity": "Manufacturer September2023 Android test sheet, Z2I-4885-02;one page, original text inspected.",
       "finding": "Cubasis3 Android exclusion andOPPO per-connection OTG/10minute idle behavior saved;generic Android support qualified.",
       "remaining": "Exact USB sample rate remains unresolved;test matrix is not universal/currentOS orAndroid editor certification."
+    },
+    {
+      "model": "Zoom G1 FOUR",
+      "checked_date": "2026-10-18",
+      "source": "https://zoomcorp.com/documents/44/E_G1FOUR_FX-list.pdf",
+      "scope": "Published shared library, including starred Guitar Lab additions; not installed-unit count; PEDAL excluded.",
+      "categories": {
+        "dynamics": {
+          "total": 10,
+          "unstarred": 6,
+          "starred": 4
+        },
+        "filter": {
+          "total": 13,
+          "unstarred": 5,
+          "starred": 8
+        },
+        "sfx": {
+          "total": 4,
+          "unstarred": 2,
+          "starred": 2
+        },
+        "drive": {
+          "total": 22,
+          "unstarred": 15,
+          "starred": 7
+        },
+        "amp": {
+          "total": 16,
+          "unstarred": 13,
+          "starred": 3
+        }
+      },
+      "remaining": [
+        "CABINET",
+        "MODULATION",
+        "DELAY",
+        "REVERB"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
