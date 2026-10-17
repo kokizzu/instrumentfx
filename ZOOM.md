@@ -499,6 +499,17 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 
 [Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
 
+### G2 FOUR — additional dated IDR observations
+
+Checked2026-10-17 through indexed exact-item text only;not live checkout or stock verification. Keep these separate from the2026-10-14 voucher/storefront observations above.
+
+| Condition | IDR / seller / item | Qualification |
+|---|---|---|
+| Seller-labelled New | **Rp3.232.000**,Jagoan Electronic,shop645393778/item23659051585,Kota Jakarta Utara [exact item](https://shopee.co.id/Zoom-G2-Four-Multi-Effects-Processor-Guitar-Electric-New-i.645393778.23659051585) | Title explicitly says New;two-month indexed crawl. Actual condition,stock,variant,bundle/adapter,authenticity,warranty,shipping/tax and voucher unverified. |
+| Condition unverified / voucher | **Rp3.490.848 with voucher**,Zoom Official Shop,shop348182890/item14998144599,Kota Jakarta Barat [same exact item][ZOOM-G2-FOUR-S] | Last-month crawl labels amount “Dengan Voucher” and1% off afterRp1.5million spend. Preserve olderRp3.410.599 voucher andRp3.490.848 storefront observations with their dates;do not infer fixed voucher eligibility or current checkout amount. AdapterAD-16E stated in title,not independently inspected. |
+
+Used condition-confirmed quote remains unknown. These asks do not establish a market range or completed sales.
+
 ## G2X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

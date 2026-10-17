@@ -393,7 +393,7 @@ def main():
         if mode == 'commit-m100':
             message = 'research(tc-electronic): qualify X5 historical editor platforms'
         if mode == 'commit-rfx1100':
-            message = 'research(zoom): qualify original B1X software and patch recall'
+            message = 'research(zoom): preserve dated G2 FOUR condition and voucher observations'
         if mode == 'commit-spx990':
             message = 'research(yamaha): document SPX1000 user reflections MIDI maps and recall limits'
         if mode == 'commit-spx900':

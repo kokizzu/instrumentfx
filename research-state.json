@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh Shopee Indonesia discovery",
-    "task": "PERFORM-VG new exact preorder observation committed;all model gaps remain. Continue brand/series discovery beyond limited post-B1X queries;do not mistake accessory or existing-model result for new inventory.",
+    "task": "G2 FOUR dated seller-labelledNew and voucher reobservation committed. Continue exact hardware discovery beyond post-PERFORMVG query set;all technical/market gaps retained.",
     "next_models": [],
     "after_queue": "Preserve all model gaps and migration limits;no downloads/workflows/push."
   },
@@ -55400,5 +55400,38 @@
       "BOSSME6"
     ],
     "result": "No qualified new-model exact hardware lead. New PERFORMVG exactpreorderoffer added to existing record;existingB1FOURoffers and adapters notnewmodels. Limitedsearchnotmarketabsence."
+  },
+  "g2four_price_followup_20261017": {
+    "checked": "2026-10-17",
+    "new_offer": {
+      "url": "https://shopee.co.id/Zoom-G2-Four-Multi-Effects-Processor-Guitar-Electric-New-i.645393778.23659051585",
+      "seller": "Jagoan Electronic",
+      "shop": "645393778",
+      "item": "23659051585",
+      "region": "Kota Jakarta Utara",
+      "idr": 3232000,
+      "condition": "New in seller title;actualconditionunverified",
+      "crawl": "two months"
+    },
+    "voucher_reobservation": {
+      "url": "https://shopee.co.id/Zoom-G2-Four-Multi-Effects-Processor-With-Adaptor-AD-16E-i.348182890.14998144599",
+      "idr": 3490848,
+      "context": "DenganVoucher,1%after1.5million;lastmonthcrawl",
+      "preserve": "Earlier20261014Rp3410599voucher/Rp3490848storefrontnotdeleted"
+    },
+    "limits": "Allindexednotcheckout;noverifiedstock,authenticity,variant,bundle,warrantydeliveredcostorvouchereligibility."
+  },
+  "discovery_post_performvg_20261017": {
+    "queries": [
+      "ZoomG2original",
+      "BOSSME6B",
+      "KorgAX3B",
+      "DigiTechRP300A",
+      "NUXPA2",
+      "ZoomG1u",
+      "DigiTechRP2000",
+      "BOSSME33"
+    ],
+    "result": "Noqualifiednewmodelexacthardware;G2Fournewcondition-labelledofferandvoucherfollowupaddedtoexistingmodel. Accessoriesexcluded;limitedsearchnotabsence."
   }
 }
