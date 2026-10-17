@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD300",
-    "task": "HD300 amp table30 vs summary16 and cabinet17 vs summary16 conflicts saved;8mics per cab family. Next physical/control/power evidence and exact baseamp/cab names;retain all unresolved prices/specs.",
+    "task": "HD30012rotary/6foot/2separatebuttons plus Navdisc/encoderpush/toe saved;all baseamp/cab names retained. Next seek manufacturer physical/power specifications and firmware history;retain reverb/amp/cab source conflicts and historical price limits.",
     "next_models": [],
     "after_queue": "Fresh discovery;273records partial;legacyZoomleadsunqualified;no downloads/workflows/push."
   },
@@ -56370,5 +56370,12 @@
     "bass_mics": 8,
     "qualification": "Counts from tables preserve stale summary conflicts;not simultaneous capacity. Limited primary physical/power search did not establish unit dimensions;retailerpackaging/mixedHD300products notadopted.",
     "remaining": "Completeknob/foot/buttoncounts,power/size,exactbaseamp/cabnames,qualifiedprices"
+  },
+  "hd300_controls_names_checkpoint_20261017": {
+    "handbook": "https://line6.com/data/6/0a060b316ac34f05937e126fa/application/pdf/POD%20HD300%20Quick%20Start%20Guide%20-%20English%20%28%20Rev%20C%20%29.pdf",
+    "count_basis": "Named handbook controls;12rotary includingrearMaster,6foot,2separatebuttons;Navdisc/encoderpush/toeseparate.",
+    "base_amp_names": 16,
+    "cab_names": 17,
+    "qualification": "Preserved model-specific inventory;power/size remain unresolved,not estimated from siblings/packaging."
   }
 }
