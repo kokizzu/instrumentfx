@@ -937,3 +937,39 @@ ReferenceRevA2007 andPilotRevB2022 accessed aswebPDFtext. OldReference says USBc
 [PP-O]: https://shopee.co.id/ALAT-MUSIK-Line-6-Pocket-POD-i.78230612.2863842140
 
 [PP-R]: https://line6.com/pocket-pod/?locale=en_US
+
+## HX One
+
+Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX Stomp. One selected model,not a multi-block chain. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | External TS expression,TRS dualswitch,or expression+switch;no built-in pedal established. Toe switch unverified. | [Product][HX1-P] |
+| K/F/B | **4 rotary /2 main footswitches /3 buttons**;Effect+3parameter,On+TapFlux,HomeSave+2Page,text-derived;rotary pushes additional. | [Product controls][HX1-P] |
+| Display | **128×32pixel OLED**;diagonal,color,touch unknown. | [FAQ][HX1-Q] |
+| Processing / category choices | **1selectedeffect+inputgate**. Product250+;launchFAQ260+ tiedto3.60/anticipated3.70. RevF manual explicitly3.83;exactcategory totals pending,not silently equated acrossrevisions. Flux ramps parameter states,not an extra simultaneousmodel. | [FAQ][HX1-Q];[Manual pp1,13–20][HX1-M] |
+| Factory / user memory | **128factory-filled writable presets**,not128+128;user modeldefaults separate. | [FAQ][HX1-Q];[Manual p11][HX1-M] |
+| Synth / acoustic | AcousticSim explicitly listed;pitch/synth models present,individual inventory pending. | [Manual pp14,18][HX1-M] |
+| Dimensions / mass | Unknown;not estimated from photos. | Unresolved |
+| I/O | Unbalanced¼-inchTS L/R inputs/outputs,EXP/FS3/4,DC,USB-C,MIDIIN+OUT/THRU. Instrument/line settings. Insert mode repurposes rightI/O as mono send/return,sacrificing stereo;position per preset. USBMIDI;USBaudio unverified. | [Manual pp6–8][HX1-M];[Product][HX1-P] |
+| Power / battery / USB | **9VDC center-negative2.1mm,500mA included adapter**;FAQ drawjustunder400mA,distinct fromsupplyrating. Battery/USBpower unverified. | [Product][HX1-P];[FAQ][HX1-Q] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified;effectsmodeling not capture import. | Unresolved |
+| Editor / software | HXOneLibrarian macOS/Windows forpresets/backups;Line6Central updater separate. **Not HXEdit compatible**. ExactcurrentOS/editorparameters pending. | [Manual p4][HX1-M];[FAQ][HX1-Q] |
+| Looper / drums / live | Simple/Shuffling mono60s/stereo30s;Simple halfspeed viaMIDI doublesrecordtime. Insert forcesmono. Presetchange stops/discardsloop;poweroff discards. True/DSPbypass,adjustableinputimpedance,Flux andtuner. Drums unknown. | [Manual p19][HX1-M];[Product][HX1-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;no condition-verified offer. | — |
+| New | Unknown;no condition-verified offer. | — |
+| Condition-unverified cached offer | **Rp5,099,000** directURLcached3weeks,23–24Sepdelivery;older2monthsearchcache **Rp5,040,000**,6–8Augdelivery. SameSevenStereoMusic&AudioStore,KotaBandung;shop16879370/item26668651924. Checked2026-10-17. Neither provescurrentstock;noHabislabel is not availability. Salecondition,workingstate,firmware,adapter/bundle,warranty,variant,shipping/tax unknown. LatearrivalRp10,000 compensation not discount. | [Exact item][HX1-O] |
+
+### Source-access provenance
+
+OwnRevF manual2025 forfirmware3.83,manufacturer product andlaunchFAQ readaswebtext. FAQlaunch wording retainsoldercounts/features;do not use it to deny latermanual additions. No downloads,firmware installs orphysical inspection.
+
+[HX1-P]: https://line6.com/hx-one/
+[HX1-Q]: https://kb.line6.com/hx-one-faq
+[HX1-M]: https://line6.com/data/6/0a0004220039697155cf001b7/application/pdf/HX%20One%20Owner%27s%20Manual%20-%20English%20.pdf
+[HX1-O]: https://shopee.co.id/Line-6-HX-One-Guitar-Multi-effects-Floor-Processor-i.16879370.26668651924

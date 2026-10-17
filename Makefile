@@ -1415,3 +1415,7 @@ research-commit-m9:
 .PHONY: research-commit-pocketpod
 research-commit-pocketpod:
 	python3 scripts/research_tools.py commit-pocketpod
+
+.PHONY: research-commit-hxone
+research-commit-hxone:
+	python3 scripts/research_tools.py commit-hxone
