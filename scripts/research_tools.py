@@ -419,7 +419,7 @@ def main():
         if mode == 'commit-criticalmass':
             message = 'research(tchelicon): document VoiceLive 3 Extreme SysEx and global Tone limits'
         if mode == 'commit-b21u':
-            message = 'research(zoom): verify B2.1u output control and practice limits'
+            message = 'research(zoom): qualify B2.1u synth tracking and dry-path routing'
         if mode == 'commit-katana-go':
             message = 'research(boss): verify GT-1 battery fallback and backup scope'
         if mode == 'commit-microplus':

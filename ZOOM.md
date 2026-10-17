@@ -2461,6 +2461,16 @@ Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2
 
 Remaining: display gaps,USB MIDI/reamping/editor/currentOS support,imports,looper persistence/spillover and qualified exact offers. All nine module choice counts now reconcile to47. Factory user fill and power-switch/USB selection are resolved. Driver listing is not editor evidence.
 
+### B2.1u — synth tracking and dry-path routing
+
+Checked2026-10-18 against [original manual pp25,29–30][B21-M]. Manufacturer text only; no hardware test or downloads.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / tracking and variations | **MONO SYN is explicitly monophonic pitch tracking**. Its15 variations group five each of sawtooth,square andPWM; these are parameters within one of the three synth types,not15 additional algorithms. STDSYN hasfour variations andtrigger sensitivity; SYNTLK hasfour vowel pairs anddecay. Polyphonic capability of these lattertwo is unestablished. |
+| Routing / synth dry-path exception | With STDSYN,SYNTLK orMONO SYN selected, **COMP/LIMIT andWAH/EFX inbefore-DRIVE position affect only theoriginal path,not thesynth sound**. ZNR/MIX controls original-versus-drive/synth balance andpost-module level. Do not describe allnine modules as processing every synth path identically. |
+| Expression / blend and ZNR bypass | Built-in pedal’sDRIVE MIX assignment controlsZNR/MIX blend; it hasno effect whenDRIVE/SYNTH isoff. **ZNR/MIX cannot be disabled withthefootswitch**; noise reduction alone isdisabled bysettingZNR toOFF. This doesnot remove theblend/levelstage or establish asecondexternalpedalsocket. |
+
 ## RFX-2000
 
 Checked2026-10-17;partial. Own manual guitar setup and dynamic-microphone vocal path establish guitar/vocal scope. Bass applicability unclassified;ownership unestablished.
