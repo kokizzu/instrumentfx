@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "GT-3 five reverb choices and timing saved. Next preamp/delay/chorus catalogue and global ceiling; buttons/toe remain unresolved.",
+    "task": "GT-3 dedicated chorus saved with filter-description conflict. Next preamp/delay catalogue and global ceiling; physical buttons/toe remain unresolved.",
     "next_models": [
       "Zoom 606"
     ],
@@ -54368,5 +54368,11 @@
     "page": "56",
     "finding": "Five reverb types with explicit seconds/ms timing and filters saved.",
     "remaining": "Preamp/delay/chorus catalogue, global ceiling, physical buttons/toe and other unknowns."
+  },
+  "gt3_chorus_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+    "page": "55",
+    "finding": "Dedicated mono/stereo chorus, predelay/BPM/doubling and contradictory filter explanation preserved.",
+    "remaining": "Preamp/delay catalogue, global ceiling, physical buttons/toe and other unknowns."
   }
 }
