@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery",
-    "task": "Line6 desktop/Firehawk searches saved without new active model. X3 Live explicit Preowned Rp2.35m Habis offer added; no desktop price transfer. Next discover unrecorded manufacturer series (DigiTech RP350/RP355, Korg AX300G/AX1000B or Vox StompLab1B) with exact hardware identity; retain all unresolved leads and do not duplicate334 existing models.",
+    "model": "DigiTech RP360XP",
+    "task": "Current manufacturer supply table connector dimensions saved,1.3A adapter rating distinguished from300mA unit requirement. Next verify own manual CONTROL IN connector and USB audio channel routing; retain unknown MIDI/import/display fields. Unrecorded RP350/355 and Korg bass searches produced no qualified hardware; do not repeat identical queries.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45035,7 +45035,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP360XP."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55998,6 +55998,12 @@
         "cache": "last month",
         "qualification": "Historical asking price; working state, revision, adapter/bundle, warranty and checkout total unknown."
       }
+    },
+    {
+      "model": "DigiTech RP360XP",
+      "checked_date": "2026-10-18",
+      "source": "https://digitech.com/faqs/",
+      "finding": "Named PS0913DC9VDC1.3A center-negative; barrel9.5mm length5.5mm OD2.1mm pin. Supply rating separate from manual300mA2.7W unit requirement; actual bundle/regional label unverified."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -70136,5 +70142,18 @@
     ],
     "result": "No qualified new exact-model offer. Firehawk cases rejected; desktop searches mostly returned existing Live models or unrelated products. Hope Music HD101 Bean Normal card remains unresolved model/item; Rp1.999m not assigned to desktop POD HD. Exact preowned X3 Live offer separately saved.",
     "unresolved_url": "https://shopee.co.id/hopemusik"
+  },
+  "discovery_digitech_korg_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"RP350\"",
+      "site:shopee.co.id \"Digitech\" \"RP355\"",
+      "site:shopee.co.id \"Korg\" \"AX300G\"",
+      "site:shopee.co.id \"Korg\" \"AX1000B\"",
+      "site:shopee.co.id \"Digitech\" \"RP300\"",
+      "site:shopee.co.id \"Digitech\" \"RP100\"",
+      "site:shopee.co.id \"Vox\" \"StompLab\" \"1B\"",
+      "site:shopee.co.id \"Korg\" \"AX300B\""
+    ],
+    "result": "No qualified new model offer. RP350/RP355/RP300 result855783279/22273291654 is adapter only; Rp170000 not hardware price. Other results empty/unrelated; no market-absence inference."
   }
 }

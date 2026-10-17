@@ -60,6 +60,14 @@ Remaining:display,installed-firmware confirmation,synth architecture/polyphony,C
 
 [RPXP-MZ]: https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual
 
+### RP360XP named supply and connector qualification
+
+Checked 2026-10-18 against the current manufacturer FAQ.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Power / supply rating versus unit requirement | DigiTech maps **RP360XP to PS0913DC:9VDC,1.3A,center-negative**, with **9.5mm barrel length,5.5mm outer diameter,2.1mm pin**. Table lists120–240V mains and interchangeable plug. The1.3A figure is the named adapter’s output rating; retain the manual’s **300mA/2.7W unit requirement**, not a new1.3A consumption claim. Check the actual regional adapter label; this table does not establish which adapter accompanies a particular used offer. | [Official supply table](https://digitech.com/faqs/) |
+
 ## RP255
 
 Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
