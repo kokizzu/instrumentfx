@@ -882,6 +882,15 @@ RevB Handbook accessed as webPDF text,10pages; citations use PDF page numbers. F
 
 [M5-F]: https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5
 
+### M5 backup correction and updater connection
+
+Checked 2026-10-18 against Line 6’s model-specific knowledge base. No software installed or device operated.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Memory / backup correction | Line 6 explicitly corrects the Pilot Guide’s SysEx dump step. Choose DUMP ALL for all24 presets or DUMP PRE for the current preset; with the computer recording SysEx, hold ON/OFF and press MODEL SELECT, then repeat to confirm. TAP cancels. Receiving a transmitted backup immediately loads M5 memory; no additional protected library is implied. Article title uses “Scene,” but this does not establish M9-style multi-effect scenes. | [Official M5 correction](https://kb.line6.com/m5-scene-backup-and-loading) |
+| Editor / updater connection | Official procedure requires **Line 6 Monkey1.35 or later**, an external USB-to-MIDI interface and two MIDI connections: M5 OUT to interface IN and interface OUT to M5 IN. USB belongs to the external interface in this procedure; it does not establish M5 USB audio, USB power or a patch editor. Current OS compatibility and actual update operation remain unverified. | [Official M5 updater instructions](https://kb.line6.com/m5-firmware-update-instructions) |
+
 ## M9
 
 Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
