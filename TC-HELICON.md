@@ -211,8 +211,8 @@ Inspected original reference is firmware1.0/2014-05-09; later firmware behavior 
 | Dimensions / weight | **200×156×45 mm W×D×H;950 g**. Medium; depth exceeds140mm compact limit |
 | Display | **One backlit graphical LCD**. Size, explicit monochrome/color hardware specification, resolution and touchscreen **?**. Blue backlight/button LEDs alone do not establish color-display capability |
 | Processing architecture | **7 vocal FX blocks plus adaptive Tone**, with a separate guitar chain containing reverb, modulation, BodyRez/EQ/compression/ambience and anti-feedback. These are dedicated stages, not a count of freely assignable slots |
-| Vocal choices, manual version | Harmony **28**, double **10**, delay **18** plus13 filter styles, reverb **28 advertised**, µMod **24**, transducer **8**; HardTune count not transcribed. The reverb list repeats Warehouse, so28 is retained as the manual's claim, not28 independently verified unique algorithms |
-| Guitar choices, manual version | Reverb **36**, µMod **6**; compressor/BodyRez style counts **?**. Phase, low-cut and adjustable notch filter support feedback control |
+| Vocal choices, manual version | Harmony **28**, double **10**, delay **18** plus13 filter styles, reverb **28 advertised**, µMod **24**, transducer **8**; HardTune’s later dated seven-style list is below. The reverb list repeats Warehouse, so28 is retained as the manual's claim, not28 independently verified unique algorithms |
+| Guitar choices, manual version | Reverb **36**, µMod **6**; separate compressor-style count unverified; eight BodyRez selector entries documented below. Phase, low-cut and adjustable notch filter support feedback control |
 | Presets | Vocal preset editing/renaming/storage documented; **current factory count, total memory and user split unverified**. v1.0 manual says guitar settings are global, not stored per vocal preset. **Do not assume that limitation remains in later firmware** |
 | Synth / acoustic and harmony functions | Harmony key detection prioritizes guitar, then AUX and RoomSense; up to2 harmony voices. **BodyRez processes an acoustic pickup using EQ, compression and ambience**, not proof of a user-IR loader or electric-to-acoustic simulator. Dedicated synth **?** |
 | IR / NAM / captures | **Third-party IR, NAM and capture loading not established**. Preset downloads and BodyRez are not equivalent to model/IR import |
@@ -232,6 +232,16 @@ Inspected original reference is firmware1.0/2014-05-09; later firmware behavior 
 |---|---|
 | USB audio / formats | [Official English reference manual, 2014-07-16, printed p11](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_P0DEF_PLAY_ACOUSTIC_M.pdf), recovered model-specific indexed text: **stereo input and output (2 in / 2 out), 16-bit, 44.1 or 48 kHz**. Computer playback is excluded from the USB output, allowing backing playback while recording vocals/guitar. This resolves the earlier unspecified formats for that manual revision; ADC/DAC bit depth remains distinct. Full PDF inspection, installed firmware and present OS/driver compatibility are not established by this excerpt. |
 | IDR Condition-unverified separate cached ask | **Rp5,060,000**; [DealerJaya Musik dan Elektrik, shop510844912/item23723714918](https://shopee.co.id/Efek-Effect-TC-Helicon-PLAY-ACOUSTIC-Vocal-Guitar-i.510844912.23723714918), Kota Malang. Search two-month cache/direct three-month cache; direct body shows stale9–11July delivery. Search marks shop on holiday; direct cache instead shows recent activity. Different cached states, neither proves live availability. Used/new condition, bundle, accessories, warranty, selected variant, purchase voucher, shipping/tax and checkout stock unverified. Keep separate from NEO MUSIC’s Rp5,100,000 observation; not a current price range or completed sale. |
+
+### Play Acoustic — dated selector and guitar-control evidence, 2026-10-17
+
+[Official English reference manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEF/M_TH_P0DEF_PLAY_ACOUSTIC_M.pdf), dated2014-07-16, indexed original pp45,50,53. Excerpts only; no full-file inspection or current-firmware claim.
+
+| Field | Verified choices / revision boundary |
+|---|---|
+| Processing / HardTune | **Seven styles**: Pop, Country Gliss, Robot, Correct Natural, Correct Chromatic, Drone, Gender Bender. Chromatic correction is not scale-based; vocal shift reaches **±36 semitones**. Alternatives within one block, not seven simultaneous processors. |
+| Processing / BodyRez choices | **Eight selector entries**: five numbered BodyRez styles plus Custom, Flat and Just Comp. This includes neutral/custom options; it is not eight independent capture models or simultaneous blocks. Amount below10 restricts adjustable EQ/compression/ambience ranges in Advanced mode. |
+| Memory / guitar control | This revision keeps guitar settings **global across vocal preset changes**. Guitar effect control offers **On/Off without guitar HIT**. Some edit pages require Advanced BodyRez editing. Later firmware storage and control behavior remain unresolved. |
 
 <!-- comparison evidence ends -->
 
