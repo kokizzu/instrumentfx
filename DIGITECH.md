@@ -251,6 +251,7 @@ Guitar multi-effects;distinct fromRP80/RP55/BP90. Checked2026-10-17;partial. Bas
 | New | Unknown;no qualified retail/new offer. | — |
 | Conditional historical offer | **Rp998,000;Habis**, rizki_stratoman,Surabaya;shop77743122/item47652738573. Checked2026-10-17;month-old rendered cache,stale2–4September delivery;search preview was two months old with July delivery. Condition,working state,revision,adapter/bundle,warranty,voucher unknown. Not live stock/completed sale. | [Exact hardware][RP90-O1] |
 | Faulty historical offer | **Rp400,000;Habis**, title says **minus**;fault unspecified. hubby shop,Bekasi;shop729907257/item51202235862. Three-month rendered cache,stale6–9July delivery. Search preview omitted sold-out status;rendered page confirmsHabis. Bundle,repairability,warranty unknown. Excluded from working used/new ranges. | [Faulty exact hardware][RP90-O2] |
+| Additional condition-unverified historical offer | **Rp800,000; Habis**, Susan_Bryan, Kota Jakarta Utara; shop69518756/item25184148740. Checked2026-10-18;five-month search cache, direct retrieval failed. Condition, working state, revision, bundle/adapter, warranty, current stock and voucher unknown. Not assigned used/new. | [Indexed exact hardware][RP90-O3] |
 
 Late-arrival compensation is not an immediate discount. No documents,software,firmware or dependencies downloaded;no physical inspection. Manufacturer's manual index links the CDN manual below;body identifiesRP90,2011declaration and2007copyright. Amp-section prose mentionsDirect but selector listing does not enumerate it separately;retain unresolved rather than invent an extra entry. ChorusFX table has15 named choices despite prose12. Display and power-supply polarity symbols were not visually decoded;polarity comes from manufacturer FAQ.
 
@@ -261,6 +262,17 @@ Late-arrival compensation is not an immediate discount. No documents,software,fi
 [RP90-O2]: https://shopee.co.id/efek-gitar-digitech-RP90-minus-i.729907257.51202235862
 
 [RP90-MM]: https://www.zikinf.com/manuels/digitech-rp90-manuel-utilisateur-en-30526.pdf
+
+### RP90 — named modulation inventory and gate conflict
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / Chorus-FX inventory | Table lists **15** choices: CE-2 Chorus, Dual Chorus, Flanger, Phaser, Tremolo, Panner, Vibrato, Rotary Speaker, YaYa, AutoYa, Step Filter, Envelope Filter, Detune, Pitch Shift, Whammy. Each has nine settings; OFF is excluded. The introductory “twelve” remains contradictory; settings are not135 distinct algorithms. | [Manufacturer manual p26, mirrored][RP90-MM] |
+| Processing / gate source conflict | Auto Swell prose says higher settings make attack faster; the table says S1 fastest and S9 slowest. Retain both descriptions; actual direction is unverified. Silencer g1–g9 separately increases threshold. | [Manufacturer manual p25, mirrored][RP90-MM] |
+
+Additional historical offer checked2026-10-18: **Rp800,000; Habis**, Susan_Bryan, Kota Jakarta Utara, shop69518756/item25184148740. Five-month search cache; direct retrieval failed. Exact RP90 title, but condition, working state, revision, stock, adapter/bundle, warranty and voucher unresolved. Not assigned to used/new or current availability. [Indexed hardware][RP90-O3].
+
+[RP90-O3]: https://shopee.co.id/DIGITECH-Efek-gitar-elektrik-type-RP90-i.69518756.25184148740
 
 ## RP250
 

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 708II",
-    "task": "Own converter/analog and synth/fretless details saved. Commit before next model. Qualified hardware prices, sample/card persistence, expression detail, imports, software and screen specifications remain. Continue primary documentation and fresh Shopee series discovery; do not copy sibling specs; no downloads/workflows.",
+    "model": "DigiTech RP90",
+    "task": "Named Chorus/FX and gate contradiction plus additional qualified-as-historical offer saved. Commit before next model. Current used/new prices, screen details, imports, software, expression toe support remain unresolved; do not silently resolve manual contradictions. Continue fresh series discovery and exact-model evidence; no downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 708II."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP90."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57072,6 +57072,15 @@
       "finding": "Added own-manual 500k bass input and 8x D/A oversampling, converter/sampler distinction, synth parameter variants and explicit single-note DEFRET restriction. 708/BP80/AX1B/ME6B Shopee queries returned no indexed result, not evidence of absence.",
       "sources": [
         "https://zoomcorp.com/media/documents/E_708II.pdf"
+      ]
+    },
+    {
+      "model": "DigiTech RP90",
+      "checked_date": "2026-10-18",
+      "finding": "Enumerated 15 Chorus/FX choices versus prose12, preserved Auto Swell attack direction conflict; added Rp800000 sold-out condition-unverified historical item69518756/25184148740. RP150/RP350/BP50 Shopee searches yielded no new qualified hardware.",
+      "sources": [
+        "https://www.zikinf.com/manuels/digitech-rp90-manuel-utilisateur-en-30526.pdf",
+        "https://shopee.co.id/DIGITECH-Efek-gitar-elektrik-type-RP90-i.69518756.25184148740"
       ]
     }
   ],
