@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP70",
-    "task": "RP70 category and expression findings saved. Next individual amp/drive choices, EQ/gate conflict and software/import/power qualifications, then M100.",
+    "task": "RP70 individual amp/drive list and EQ/gate conflicts saved. Next software/import/power/display qualifications; then queued M100. Do not silently resolve source contradictions.",
     "next_models": [
       "TC Electronic M100"
     ],
@@ -54603,5 +54603,10 @@
     "revision": "18-0491V-D",
     "evidence": "Own manual categories and per-preset external expression. Chorus/FX intro12 versus15 selector types conflict retained. Whammy pre-amp routing; delay10ms–5s; three reverbs.",
     "remaining": "Full individual amp-drive list, EQ/gate qualifications, software/import/power/display gaps retained."
+  },
+  "rp70_amp_eq_checkpoint_20261017": {
+    "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf",
+    "pages": "23–25",
+    "evidence": "Individual12amp/6distortion choices and assigned cabinets, EQ±12dB/3dB steps. Mid boost b-code typo and AutoSwell higher-faster versus S1-fastest/S9-slowest contradiction retained."
   }
 }
