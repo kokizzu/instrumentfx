@@ -134,12 +134,13 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 | Instrument scope |Guitar,bass,vocal andkeyboard documented [FX-P];amp/mixer send-return levels must be set appropriately [FX-Q] |
 | Expression |Built-in pedal/toe absent from rack control description;external expression mapping unverified |
 | Knobs / footswitches / buttons |EDIT controls andJOG wheel documented;complete rotary/button count pending fullpanel inventory.0built-in footswitches;power switch separate [FX-Q] |
-| Display |Numeric preset display;published diagonal,color/touch technology unverified |
-| Processing / categories |71algorithms,including combination algorithms;not71simultaneous effects. Exact maximum andper-category totals unresolved. Includes reverb/delay,modulation,dynamics,psychoacoustics,filter/EQ,distortion/amp andspecial effects [FX-P] |
+| Display |4-digit14-segment alphanumeric LED display;diagonal,color andtouch specifications unverified [FX-Q p.28] |
+| Processing / categories |71algorithms,including combination algorithms;not71simultaneous effects. Own guide enumerates12reverbs+3delays+15modulation+8dynamics+6psychoacoustic+4filter/EQ+7distortion/amp+5special+11combination=71choices [FX-Q p.26]. Maximum simultaneous architecture still unresolved [FX-P] |
 | Preset memory |100internal+100user=200;quick-guide factory chart fills both banks. Writable user locations;fixed-bank editing/persistence details pending [FX-Q] |
 | Synth / acoustic |Vocoder,Resonator andRingModulator documented;not proof of a general instrument synth or dedicated acoustic simulator. RSM acoustic-environment modeling is not acoustic-guitar simulation [FX-P] |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured capture import unverified |
 | Audio / control ports |Balanced6.35mm TRS andXLR inputs/outputs;MIDI IN,OUT,THRU;IEC mains. Exact channel/socket inventory pending. Direct mic/phantom,headphone,USB andexternal EXP unverified [FX-Q] |
+| Analog levels / conversion |80kohm balanced input,80ohm balanced output;selectable−10dBV/+4dBu nominal. Maximum+1dBV/+15dBu respectively forboth input/output.24bit SigmaDelta,64/128× oversampling,**46.875kHz** sampling [FX-Q p.28] |
 | Power / battery / USB |IEC mains;regional120V60Hz,230V50Hz,100V50/60Hz,and120/230V50/60Hz export versions.15W maximum;not universally autoranging. Battery/USB operation unverified;DC polarity not applicable to listed mains connection [FX-Q] |
 | Dimensions / weight |W483×D217×H44.5mm;netapprox1.9kg;shipping3.2kg is not unit mass [FX-Q] |
 | Editor / software |MIDI SysEx backup documented;full editor andplatforms unresolved. No USB editor/audio inferred [FX-P] |
@@ -160,4 +161,4 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 - [FX-Q: manufacturer multilingual quick-start guide](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/QSG_BE_0828-AAG_FX2000_WW.pdf),17PDF pages;control/connection text,preset chart andspecifications inspected. No new visual verification claimed.
 - [Full manufacturer manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf),identified but opening failed;not inspected successfully.
 
-No files downloaded. Remaining:fullmanual,controls/display,complete ports,simultaneous architecture/category totals,software/routing andqualified offers.
+No files downloaded. Remaining:fullmanual,complete controls/display diagonal,complete ports,simultaneous architecture,software/routing andqualified offers.
