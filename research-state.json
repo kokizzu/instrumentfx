@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic PLETHORA X5",
-    "task": "X5 historical firmware1.3.11 and bypass-tail behavior saved. Next current firmware/library and hardware control/dimension corroboration; no latest-version claim.",
+    "task": "X5 text control inventory reconciled via specification selector classification; latency/Bluetooth saved. Dimension axis and current firmware remain unresolved. Next MIDI/full library and remaining software qualifications, then discovery.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
@@ -54957,5 +54957,11 @@
     "evidence": "Historical app4.5.5+,intermediate1.1.55for1.0.101units,USBmass-storage.bin transport;buffered bypass feedback cap change from1.3.6 to1.3.11.",
     "access": "Direct browser PDF inaccessible; indexed official text readable; no download/update.",
     "remaining": "Latest firmware/library history, controls/dimensions and other saved gaps unresolved."
+  },
+  "plethora_x5_controls_checkpoint_20261017": {
+    "manual": "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf",
+    "pages": "14–15,32–33",
+    "evidence": "Specifications classify Play/Edit and Boards as selector switches; text-derived5rotary5foot0separatebuttons with visual pending. Latency0.8–2.4ms,Bluetooth4.2LE. Dimension label inconsistency persists in Japanese guide too, not corrected by repetition.",
+    "search_limits": "No newer own-model firmware resolved by1.4/1.5 targeted official searches; no latest firmware claim."
   }
 }

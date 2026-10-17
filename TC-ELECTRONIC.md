@@ -98,12 +98,14 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | No built-in treadle; **five MASH pressure switches**, each maps up to three parameters. External TRS EXP input; toe behavior unresolved. | [Product][PX5-P]; [QSG pp14–15][PX5-M] |
-| K/F/B | **Five effect/parameter rotaries plus PLAY/EDIT selector; five footswitches; button count unresolved**. EFFECT/TONEPRINT push encoders and three parameter knobs. Guide calls PLAY/EDIT a knob; rotary-versus-toggle classification needs corroboration. BOARD selector separate. | [QSG pp14–15][PX5-M] |
+| K/F/B | **5 rotary / 5 footswitches / 0 separate buttons in the textual control inventory**. EFFECT/TONEPRINT push encoders and three parameter knobs. Specifications explicitly classify PLAY/EDIT and BOARD as selector switches, despite the controls prose calling PLAY/EDIT a knob. Encoder presses counted once; visual corroboration pending. | [QSG pp14–15,33][PX5-M] |
 | Display | LCD displays show slot effects or editing information; diagonal/color/touch unresolved. | [QSG pp14–15][PX5-M] |
 | Processing / categories | **Up to five TonePrint pedals per Board**, freely ordered. Compression, modulation, pitch, gate, reverb/delay documented; complete firmware-qualified catalogue pending. | [Product][PX5-P] |
 | Editor / historical firmware requirements | **Firmware1.3.11,2022-03-03** recommends TonePrint app **4.5.5+** for full new-effect benefit. Units on1.0.101 require intermediate1.1.55 before1.2.18 or later. This is historical compatibility evidence, not a latest-firmware claim. | [Official release notes][PX5-F] |
 | Processing / firmware bypass change | Firmware1.3.6 limited FlashbackII/AlterEgo feedback to80% when bypassed in buffered mode. **1.3.11 respects higher feedback**, permitting self-oscillating bypass trails. Modulation/low-end and vibrato-subtype fixes also documented. | [Official release notes][PX5-F] |
 | Editor / firmware transport | Guide describes USB mass-storage transfer of a .bin file followed by power-cycle installation. This proves update transport, not USB audio or bus power. No update or download performed. | [Official release notes][PX5-F] |
+| Processing / latency | Published **0.8–2.4 ms** latency range; do not infer one fixed value for every Board. | [QSG p33][PX5-M] |
+| Editor / Bluetooth specification | **Bluetooth4.2 Low Energy**, up to10m in open space; structures affect range. Pair through global Bluetooth settings and TonePrint app. This establishes app connectivity, not Bluetooth audio streaming. | [QSG pp32–33][PX5-M] |
 | Preset memory | **127 custom Boards;75 TonePrint slots per pedal**. Factory-filled subset unresolved; Board count is not simultaneous block count. | [Product][PX5-P] |
 | Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
 | I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; USB for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
