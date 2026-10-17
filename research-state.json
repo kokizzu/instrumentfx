@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-20",
-    "task": "MG-20 added with manufacturer-authored mirrored manual qualifications. Next verify category choice table and full control inventory against readable original documentation; preserve official PDF visual/revision gap.",
+    "task": "MG-20 category choices, expression assignments and global output-mode distinction saved. Next full control inventory/own firmware-software support; defer gaps explicitly if original documentation remains unreadable, then fresh Shopee discovery.",
     "next_models": [],
     "after_queue": "Resume fresh Shopee discovery after useful MG-20 updates; all deferred model gaps retained. No downloads/workflows/push."
   },
@@ -55059,5 +55059,23 @@
     "limit": "Own PDF seven pages, no text or viewable screenshots. Manufacturer-authored mirrored body identifies exact MG-20, copyright2014 Cherub; current V1 revision equivalence unverified. No generated FAQ used.",
     "added": true,
     "next": "Verify category choices, complete controls, original PDF revision/visuals, software platform and power limits. Bass not inferred from seller."
+  },
+  "mg20_categories_checkpoint_20261017": {
+    "source": "https://manuals.plus/nux/mg-20-guitar-modeling-processor-manual",
+    "identity": "Manufacturer-authored body copyright2014 Cherub, exact MG-20; generated FAQ not used. Same historical source limitations as primary checkpoint.",
+    "counts": {
+      "gate": 1,
+      "compressor": 1,
+      "efx": 8,
+      "preamps": 16,
+      "cabinets": 13,
+      "microphones": 4,
+      "eq": 2,
+      "modulation": 10,
+      "delay": 6,
+      "reverb": 3
+    },
+    "qualification": "Counted transcription table entries; cabinet/mic preamp parameters do not establish separate simultaneous blocks. Original PDF/current revision corroboration still pending.",
+    "remaining": "Full physical control counts, current/polarity, firmware/editor platforms, connector sizes/balancing, current qualified used/new prices; bass/vocal unclassified."
   }
 }

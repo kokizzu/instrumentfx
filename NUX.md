@@ -705,19 +705,24 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | Built-in EXP/VOL with force-at-toe switching; adjustable threshold. EXT.PEDAL accepts WTB-004 for bank switching, not established as external expression. [Manual transcription][MG20-T] |
-| K/F/B | Three footswitches: two PRESET plus CTRL; rotary/button totals pending visual corroboration. Toe and power switches separate. [MG20-T] |
-| Display | **2.4-inch color TFT LCD**; touchscreen unverified. [MG20-T] |
-| Processing / categories | **Nine effect-module controls**, over60 models; independent toggling and combined chain documented. Do not equate model count with simultaneous blocks. Category counts pending. [MG20-T] |
-| Preset memory | **36 factory +36 user =72** locations; initial user contents unresolved. [MG20-T] |
+| Expression | Built-in EXP/VOL with force-at-toe switching; adjustable threshold. EXT.PEDAL accepts WTB-004 for bank switching, not established as external expression. [Manual transcription][Manual transcription][MG20-T] |
+| K/F/B | Three footswitches: two PRESET plus CTRL; rotary/button totals pending visual corroboration. Toe and power switches separate. [Manual transcription][MG20-T] |
+| Display | **2.4-inch color TFT LCD**; touchscreen unverified. [Manual transcription][MG20-T] |
+| Processing / categories | **Nine effect-module controls**, over60 models; independent toggling and combined chain documented. Do not equate model count with simultaneous blocks. Category choices transcribed below; original PDF revision/visual gap remains. [Manual transcription][MG20-T] |
+| Categories / counted choices | Mirrored manufacturer table lists **1 gate,1 compressor,8 EFX,16 preamps,13 cabinets,4 microphones,2 EQs,10 modulation,6 delay,3 reverb** choices. Cabinet/mic selections are preamp parameters, not proof of separate simultaneous blocks. Counts are transcription-derived, not a current firmware catalogue. [Effects list][MG20-T2] |
+| Categories / modulation | Chorus, stereo chorus, flanger, vintage phaser, U-Vibe, tremolo, rotary speaker, vibrato, harmonist, detune. [Effects list][MG20-T2] |
+| Categories / delay and reverb | Analog, digital, modulated, tape echo, reverse, pan delay; room, hall, plate reverb. Numerical delay limits unverified. [Effects list][MG20-T2] |
+| Expression / assignment | Standard wah, adjustable-Q wah, Whammy, or EFX drive/amp gain/MOD rate/delay time control. CTRL and EXP function/on-off status save per preset. [Manual control section][MG20-T2] |
+| Live / output modes | Stack/Combo guitar-input or power-amp modes; Mixer Out enables speaker simulation. Output mode is global, not saved per preset. [Manual output section][MG20-T2] |
+| Preset memory | **36 factory +36 user =72** locations; initial user contents unresolved. [Manual transcription][MG20-T] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
-| I/O | Guitar input, stereo L/Mono and R outputs, AUX, headphones, EXT.PEDAL, SD card, USB update, DC. Connector sizes/balancing pending. [MG20-T] |
-| Power / battery / USB | **9V DC**; supplied or ACD-008 adapter. Current/polarity/battery/USB operation unverified; OCR500mA marking not yet corroborated. [MG20-T] |
-| Dimensions / mass | **330L×210W×83Hmm;3.15kg**. Axis labels retained. [MG20-T] |
+| I/O | Guitar input, stereo L/Mono and R outputs, AUX, headphones, EXT.PEDAL, SD card, USB update, DC. Connector sizes/balancing pending. [Manual transcription][MG20-T] |
+| Power / battery / USB | **9V DC**; supplied or ACD-008 adapter. Current/polarity/battery/USB operation unverified; OCR500mA marking not yet corroborated. [Manual transcription][MG20-T] |
+| Dimensions / mass | **330L×210W×83Hmm;3.15kg**. Axis labels retained. [Manual transcription][MG20-T] |
 | IR / NAM / capture | User IR, native/converted NAM and proprietary capture support unverified. |
-| Editor / platforms | USB system updating documented; editor platforms, USB audio and bus power unverified. [MG20-T] |
-| Live / practice | **60-second looper;81 rhythm patterns**. Drum part cannot enter looper. SD playback supports MP3 and most WAV/WMA; tempo changes preserve key. [MG20-T] |
-| Live / routing | MOD can precede EFX or follow EQ; pre-EFX position disables stereo. Position stored per preset. [MG20-T] |
+| Editor / platforms | USB system updating documented; editor platforms, USB audio and bus power unverified. [Manual transcription][MG20-T] |
+| Live / practice | **60-second looper;81 rhythm patterns**. Drum part cannot enter looper. SD playback supports MP3 and most WAV/WMA; tempo changes preserve key. [Manual transcription][MG20-T] |
+| Live / routing | MOD can precede EFX or follow EQ; pre-EFX position disables stereo. Position stored per preset. [Manual transcription][MG20-T] |
 
 ### Separate IDR hardware offers
 
@@ -743,3 +748,5 @@ Own [NUX legacy product page][MG20-P] links the [English V1 PDF][MG20-M]. Browse
 [MG20-O2]: https://shopee.co.id/NUX-MG-20-Modeling-Guitar-Bass-Processor-Multi-Effect-Gitar-i.349012190.15997732084
 [MG20-O3]: https://shopee.co.id/Promo-Nux-Mg-20-Mg20-Mg-20-Guitar-Modeling-Processor-Effect-Guitar-Digital-i.318196983.20795236543
 [MG20-O4]: https://shopee.co.id/Nux-MG-20-Guitar-Modeling-Processor-i.178818236.7950066014
+
+[MG20-T2]: https://manuals.plus/nux/mg-20-guitar-modeling-processor-manual
