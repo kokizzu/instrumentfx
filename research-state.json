@@ -62166,5 +62166,39 @@
     ],
     "limits": "No18Vdrawderived;published18Vsupplynotindividualsellerbundleproof;noactualmeasurement",
     "next": "Current firmware algorithm lists and remaining physical I/O conflicts; fresh discovery"
+  },
+  "mp350_dyn_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed1–4",
+    "compressors": [
+      "Comprosso",
+      "Comparoma 4",
+      "Blue Sustainer",
+      "Squeezer"
+    ],
+    "boost_subsection": [
+      "Affinity Boost",
+      "Beefy Boost",
+      "Pristine Boost",
+      "Forest Boost",
+      "Treble Ranger",
+      "Gated Boost",
+      "Micro Boost",
+      "Creamy",
+      "FET Boost",
+      "Enhancer"
+    ],
+    "gates": [
+      "AI Gate",
+      "Fast Gate",
+      "Custom Gate"
+    ],
+    "count": 17,
+    "findings": [
+      "AlllistedmonoIO",
+      "GatekeyInput/Return/PrevFX/USB3–8;wrongkeymaymute"
+    ],
+    "limits": "Olderrevision;1.3delta notcurrenttotal; GatedBoostnotadditionalindependentgate",
+    "next": "FREQ/WAH/EQ and remainingcategoryinventories; currentrevision reconciliation; fresh discovery"
   }
 }

@@ -474,6 +474,18 @@ Checked2026-10-17.
 Earlier1.2A shorthand is the product-page value, not a reconciliation of both documents. Battery and USB bus-power operation remain unverified.
 
 
+### MP-350 — DYN category, firmware1.1.0-JP
+
+Checked2026-10-17 against the identified manufacturer effect list, printed pp1–4 (PDFpages3–6). This is an older revision, not the current1.4.0 inventory.
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / DYN | **17 mono-I/O entries**: compressors4—Comprosso, Comparoma 4, Blue Sustainer, Squeezer; Boost subsection10—Affinity Boost, Beefy Boost, Pristine Boost, Forest Boost, Treble Ranger, Gated Boost, Micro Boost, Creamy, FET Boost, Enhancer; noise gates3—AI Gate, Fast Gate, Custom Gate. Subsection membership does not make every Boost entry a transparent booster. [Original effect list](https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf) |
+| Gate / side-chain routing | Gate key sources includeInputL/R,FXReturnL/R,previous effect andUSBOut3–8. Wrong key selection can mute the signal; reamping must match its USB source. FastGate has two response modes, not two additional gate entries. GatedBoost includes an internal gate; do not add another independent gate slot. [Original effect list](https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf) |
+
+The separately documented firmware1.3.0 SmoothGate/Limiter additions remain a delta; this older census does not prove a complete current DYN total or installed used-unit content.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
