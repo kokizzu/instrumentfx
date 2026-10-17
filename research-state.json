@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 235,
+  "active_model_count": 236,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 235,
+  "canonical_root_model_count": 236,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "235 unique active/root-canonical models; zero legacy-only; 31 brands. SPX900 added for documented guitar/vocal line-level processing; bass unclassified. Six excluded archives.",
+  "count_reconciliation": "236 unique active/root-canonical models; zero legacy-only; 31 brands. SPX990 has own manual guitar/bass/vocal applications; SPX900 bass remains unclassified. Six excluded archives.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Yamaha SPX990",
-    "task": "Verify own original Yamaha manual and exact saved Shopee used offer before adding; never borrow SPX900 specifications.",
+    "task": "Resolve own manual routing maximum and factory mapping conflict; verify expression details and category counts before fresh bass/vocal Shopee discovery.",
     "next_models": [],
-    "after_queue": "Continue bass/vocal discovery, technical gaps and lossless migration; no downloads or workflows."
+    "after_queue": "Continue technical gaps and lossless migration; no downloads or workflows."
   },
   "new_findings": [
     {
@@ -4977,6 +4977,16 @@
       ],
       "finding": "Original manual supports distinct multi-effect programs, external controllers and mains specifications; archive transcription conflicts retained.",
       "remaining": "Routing diagrams, category totals, factory fill, connector/impedance conflicts, software/display and qualified offers"
+    },
+    {
+      "model": "Yamaha SPX990",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf"
+      ],
+      "finding": "Own manual pre/main/post architecture, guitar/bass/vocal applications; memory introduction/body conflict retained.",
+      "remaining": "Routing maximum, factory mapping, display/software, qualified offers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23860,7 +23870,8 @@
       "MIDIverb 4"
     ],
     "Yamaha": [
-      "SPX900"
+      "SPX900",
+      "SPX990"
     ]
   },
   "root_brand_content": {
@@ -24159,26 +24170,27 @@
       "MIDIverb 4"
     ],
     "YAMAHA.md": [
-      "SPX900"
+      "SPX900",
+      "SPX990"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 192,
+      "record_count": 193,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 93,
+      "record_count": 94,
       "bass_focused_record_count": 22,
-      "shared_bass_capable_count": 71,
+      "shared_bass_capable_count": 72,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 40,
+      "record_count": 41,
       "vocal_only_count": 21,
-      "combined_instrument_count": 19,
+      "combined_instrument_count": 20,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41067,18 +41079,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 235,
-    "canonical_root_models": 235,
+    "unique_brand_model_pairs": 236,
+    "canonical_root_models": 236,
     "legacy_only_models": 0,
-    "guitar_view_models": 192,
+    "guitar_view_models": 193,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 40,
+    "vocal_view_models": 41,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 93,
-    "bass_shared_models": 71,
+    "bass_view_models": 94,
+    "bass_shared_models": 72,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41325,7 +41337,8 @@
       "Lexicon::MX200",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
-      "Yamaha::SPX900"
+      "Yamaha::SPX900",
+      "Yamaha::SPX990"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41420,7 +41433,8 @@
       "VOX::StompLab 2B",
       "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
-      "Behringer::FX2000"
+      "Behringer::FX2000",
+      "Yamaha::SPX990"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -41462,10 +41476,12 @@
       "Lexicon::MX200",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
-      "Yamaha::SPX900"
+      "Yamaha::SPX900",
+      "Yamaha::SPX990"
     ]
   },
   "comparison_bass_basis": {
+    "Yamaha::SPX990": "Own Yamaha operation manual preset applications explicitly include Bass, Guitar and Vocal, printed pp12–13; suitable line-level preamp/mixer routing. [Manual](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf).",
     "Behringer::FX2000": "Manufacturer explicitly lists bass,guitar andvocals;use suitable line-level amp/mixer routing. [Product](https://www.behringer.com/en/products/0828-AAG).",
     "DigiTech::GNX3": "Manufacturer explicitly documents bass amp modeling for recording rhythm tracks. [GNX3 product](https://digitech.com/dp/gnx3/).",
     "Line 6::POD HD400": "Own HD300/400 Advanced Guide RevA for Flash2.0 lists Flip Top bass amp and115 Flip Top bass cab,pp5•9–11. [Official guide](https://line6.com/data/6/0a06434df9be5005ac8bcc52f/application/pdf/POD%20HD300%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf).",
@@ -43343,6 +43359,13 @@
     },
     "Yamaha::SPX900": {
       "link": "YAMAHA.md#spx900",
+      "source_files": [
+        "YAMAHA.md"
+      ],
+      "finding_files": []
+    },
+    "Yamaha::SPX990": {
+      "link": "YAMAHA.md#spx990",
       "source_files": [
         "YAMAHA.md"
       ],

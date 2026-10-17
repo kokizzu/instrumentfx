@@ -37,3 +37,39 @@ Rack multi-effects; checked 2026-10-17. Guitar/vocal processing requires suitabl
 - [Official Yamaha manual index](https://jp.yamaha.com/products/contents/proaudio/downloads/manuals/index.html?c=proaudio&k=spx900&l=ja) lists the image manual; current redirect did not expose its asset link. US index returned 403.
 
 Remaining: full routing diagrams, category totals, factory fill, impedance conflict, exact digital/remote connector identity, display/software gaps, bass applicability and qualified new/live-stock offers. No filesystem downloads.
+
+## SPX990
+
+Checked 2026-10-17. Partial original-manual verification; unknown is not No.
+
+| Field | Evidence / qualification |
+|---|---|
+| Instrument scope | Guitar, bass and vocal applications explicitly listed; suitable line-level preamp/mixer routing required [S99-M pp.12–13] |
+| Expression | No built-in pedal/toe; external continuous expression unverified |
+| Knobs / footswitches / buttons | 3 rotary controls: concentric L/R input plus Data Entry; 0 built-in footswitches; 12 buttons: six function, two page, Memory/Store/Edit/Bypass; power separate [S99-M pp.4,Add-1] |
+| Display | 24×2 character LCD plus LED indicators; diagonal/color/touch unverified [S99-M Add-1] |
+| Processing / categories | Pre/main/post architecture: 4/36/3 choices respectively; choices are not simultaneous-block count. Exact maximum and routing diagrams require further review [S99-M p.6] |
+| Preset memory | 80 ROM + 100 user = 180 internal; optional 100-location MCD32/MCD64 card gives 280. Introduction instead says 80 RAM; conflict retained. User memory described as factory populated, exact mapping unresolved [S99-M pp.1,7] |
+| Synth / acoustic | Intelligent pitch and Freeze sampling documented; dedicated synth/acoustic simulator unverified |
+| IR / NAM / captures | IR import, native/converted NAM and measured capture support unverified |
+| Audio / control ports | Stereo inputs/outputs each provide XLR and TRS; MIDI IN and switchable OUT/THRU; trigger and bypass-or-memory footswitch sockets; memory-card slot [S99-M Add-1] |
+| Analog levels / conversion | Switchable −20/+4 dBm line levels; 20-bit A/D/D/A, 44.1 kHz [S99-M Add-1] |
+| Power / battery / USB | US/Canada120 V60 Hz; UK240 V50 Hz; general230 V50 Hz;25 W. DC polarity not applicable to listed mains versions. Operating battery/USB power unverified [S99-M Add-1] |
+| Dimensions / weight | W480 × H46 × D324.4 mm including attachments;4.6 kg [S99-M Add-1] |
+| Editor / software | Editor platforms, USB audio and current computer compatibility unverified |
+| Looper / drums / live | Freeze sampling is not proof of an overdub performance looper. Drums/scenes/spillover unverified |
+
+### SPX990 — separate IDR evidence
+
+| Price class | Amount | Offer and limits |
+|---|---:|---|
+| Seller-described used indexed ask | Rp6.850.000 | [elkusla_shop, seller118221978/item25861267106](https://shopee.co.id/efek-vokal-YAMAHA-SPX990-ORI-JAPAN-SECOND-NORMAL-i.118221978.25861267106), Kab.Kediri; seller title “SECOND NORMAL” and “ORI JAPAN” are unverified condition/origin claims. Four-month indexed evidence; Layanan Tidak Tersedia; direct retry2026-10-17 failed cache access. Stock, bundle, voucher and warranty unknown; no checkout confirmation |
+| Verified new IDR | ? | Not established |
+
+### SPX990 — sources and remaining verification
+
+- [S99-M: Yamaha-authored operation manual,76-page mirror](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf). Cover/introduction identify SPX990; text inspected through web tool, no filesystem download.
+- [Official Yamaha Spanish manual](https://jp.yamaha.com/files/download/other_assets/5/317185/SPX990S.pdf), indexed; direct access returned403.
+- [Official manual index](https://usa.yamaha.com/support/manuals/index.html?l=en&p=189) lists the5.7 MB image manual. No claim that a sibling manual proves this model’s fields.
+
+Remaining: full routing diagrams and simultaneous maximum, per-category subtotals, factory mapping conflict, expression/control details, screen/software gaps and qualified live/new offers.
