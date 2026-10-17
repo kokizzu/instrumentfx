@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "GT-3 fourteen preamps and exact control/global-output exceptions saved. Next delay catalogue and global ceiling; buttons/toe remain unresolved.",
+    "task": "GT-3 explicit programmable effect order saved. Next delay catalogue and numerical ceiling via own manual; physical buttons/toe and other gaps remain unresolved.",
     "next_models": [
       "Zoom 606"
     ],
@@ -54379,6 +54379,12 @@
     "source": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
     "page": "44",
     "finding": "Fourteen preamp alternatives and speaker/flat-amp global-mode restrictions;Match/Voxy tone exceptions saved.",
+    "remaining": "Delay catalogue, global ceiling, physical buttons/toe and other unknowns."
+  },
+  "gt3_chain_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+    "section": "2: Setting the effect unit connection order",
+    "finding": "Explicit freely programmable order, NS/FV insertion controls and Write requirement saved; no duplication or global ceiling inferred.",
     "remaining": "Delay catalogue, global ceiling, physical buttons/toe and other unknowns."
   }
 }
