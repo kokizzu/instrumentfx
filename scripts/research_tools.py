@@ -393,7 +393,7 @@ def main():
         if mode == 'commit-b21u':
             message = 'research(zoom): reconcile B2.1u module choices and acoustic amp distinction'
         if mode == 'commit-katana-go':
-            message = 'research(boss): distinguish GT-1 nested types from processing blocks'
+            message = 'research(boss): verify GT-1 battery fallback and backup scope'
         if mode == 'commit-microplus':
             message = 'research(fender): qualify original Micro firmware and updater platforms'
         if mode == 'commit-mg20':
