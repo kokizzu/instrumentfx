@@ -651,7 +651,7 @@ def main():
         if mode == 'commit-market7-union':
             message = 'audit: preserve complete seventh Shopee expansion shared comparison and qualifications'
         if mode == 'commit-market1-union':
-            message = 'audit: preserve complete first Shopee shared comparison and historical qualifications'
+            message = 'docs: restore FX200 historical count conflict and verify source preservation'
         if mode == 'commit-owned-union':
             message = 'docs: restore B1Xon historical commit provenance in owned summary'
         if mode == 'commit-cube-union':

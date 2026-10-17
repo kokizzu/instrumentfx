@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Legacy consolidation audit",
-    "task": "Repair market1 source prose group using /tmp/instrumentfx-market1-union-plan.json; owned union now passes. Continue full technical-retirement-verify through remaining market sources; do not weaken preservation checks.",
+    "model": "Shopee discovery and remaining model fields",
+    "task": "All known preservation failures repaired; full technical-retirement-verify passes99sources/304incoming links. Resume exact Shopee Indonesia brand/series discovery for eligible unrecorded hardware, compare239 active inventory before adding; commit each model before next. Keep unresolved fields and compatibility redirects explicit.",
     "next_models": [],
-    "after_queue": "Other field gaps and exact Shopee discovery; no downloads/workflows."
+    "after_queue": "Remaining model specifications/qualified used-new prices; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41076,13 +41076,7 @@
       "finding": "Broader technical retirement verifier found original Factory / user memory value missing after current-evidence replacement.",
       "repair": "Restored exact historical value with explicit superseding quick-guide correction; no newer memory evidence removed.",
       "scope": "All complete-model-rows manifests scanned; only this missing fact found. Full verifiers rerun separately.",
-      "remaining_failure": {
-        "target": "make technical-retirement-verify",
-        "audit": "market1 shared union",
-        "missing_groups": 1,
-        "model_fields": 288,
-        "model_count": 16
-      },
+      "remaining_failure": null,
       "compact_repair": {
         "status": "Original paragraph URLs restored; altered forms retained as unverified transcription provenance.",
         "changes": [
@@ -41112,6 +41106,27 @@
         "transcription_error": "8b6664672c3f0756f754d1b1e10216421e3ca19f",
         "repair": "B1Xon historical commit identifier restored in shared summary; ZOOM.md already retained correct identifier. No ownership evidence changed.",
         "verification": "Full technical-retirement-verify: owned union seven models/99fields/nine prose groups, no missing fields/groups/references/URLs. Next failure market1 one prose group."
+      },
+      "market1_repair": {
+        "source": "effects/shopee-multifx.md",
+        "original": "FX200 numbered effects sum161 vs advertised160",
+        "transcription_error": "sum163 vs advertised163",
+        "repair": "Original conflict restored; no new firmware total inferred."
+      },
+      "full_verification": {
+        "target": "make technical-retirement-verify",
+        "status": "passed",
+        "technical_sources": 99,
+        "retired_to_compatibility_redirects": 99,
+        "incoming_link_occurrences": 304,
+        "scope": "Complete registered source bodies/model fields/shared prose/reference URLs/original headings/root destinations; does not certify all technical specs or current market offers."
+      },
+      "navigation_verification": {
+        "target": "make navigation-audit",
+        "status": "passed",
+        "local_link_occurrences": 2683,
+        "legacy_paths": 117,
+        "errors": 0
       }
     }
   },

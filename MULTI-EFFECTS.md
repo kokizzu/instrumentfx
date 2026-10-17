@@ -258,7 +258,7 @@ Paired mono outputs are not one stereo TRS socket. A phones socket and a phone-r
 
 Manufacturer battery runtimes are not independent measurements. Where only charging is established, USB standalone operating power remains unknown. Adapter requirements are not necessarily actual device consumption.
 
-**MK-20:** specification table mentions external EXP, but rear panel and connector descriptions omit it. Preserve the conflict rather than invent a jack. **FX200:** numbered effects sum163 vs advertised163; dimension labels conflict with normal horizontal orientation. **GE150 family:** original, Pro and Li power/loading features are not interchangeable. **Prices:** MK-300, FX100 and Zoom G2-family snippets/body/vouchers differ; model findings preserve every accepted context.
+**MK-20:** specification table mentions external EXP, but rear panel and connector descriptions omit it. Preserve the conflict rather than invent a jack. **FX200:** numbered effects sum161 vs advertised160; dimension labels conflict with normal horizontal orientation. **GE150 family:** original, Pro and Li power/loading features are not interchangeable. **Prices:** MK-300, FX100 and Zoom G2-family snippets/body/vouchers differ; model findings preserve every accepted context.
 
 The next Shopee-first targets are **TANK-PRO, ANN Blackbox, Boin Audio BG300, Scorpion KMF-10, JOYO GemBox variants**, newer MOOER/Hotone/Zoom, and vocal-capable TC-Helicon/HeadRush/Flamma. They remain discoveries, not completed technical records, until researched. The old BOSS display/IDR task is deferred, not discarded. See [the evidence queue](effects/shopee-indonesia.md) and [checkpoint](effects/RESUME.md).
 
