@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II QME-100",
-    "task": "Shared bass,color,convertedNAM andtoe/assignment details saved. Continue model-specific display/control/algorithms/price gaps orfreshdiscovery;no Pro spec borrowing.",
+    "task": "Matribox II USBmode/editor limits,channelrouting andloopermodes saved. Continue display/control/algorithm/price gaps orfreshdiscovery;do not treat2in2outasdesktopeditor mode.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60614,5 +60614,17 @@
     ],
     "remaining": "Screen diagonal/touch/resolution,buttons,algorithmcensus,NAMarchitectures,currentOS/batteryUSBpower/qualifiedoffers.",
     "access": "HTMLandown48pagefirmware1.3.0PDFtextonly;nodownloadorimageinspection"
+  },
+  "matribox_ii_usb_looper_20261017": {
+    "source": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623",
+    "identity": "Own48pagefirmware1.3.0manual printed8,11–13",
+    "findings": [
+      "6in4outMIDI vs2in2outnoMIDI/noeditor",
+      "Reamp3–4loopback5–6;LRDryWet/AUXcapture",
+      "Pre90monoPost45stereo;undo/redo,DrumSync/AutoRec",
+      "SeparateFXloopnodes/globalNoCAB/inputimpedances"
+    ],
+    "remaining": "Display/buttons,algorithmbreakdown,architecturelimits,currentOS/power/qualifiedoffers;loopstoragepersistence.",
+    "access": "BrowserPDFtextonly;directopenfailed but manufacturerproductlink resolved;nodownload"
   }
 }
