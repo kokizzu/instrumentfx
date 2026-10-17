@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-10B",
-    "task": "GT10B polarity and analog connector/electrical evidence saved. Next inspect current official GT10B driver support pages for explicitly supported OS and limitations; no downloads or license acceptance. Commit model before next.",
+    "task": "GT10B official driver OS scopes saved separately from librarian/editor. Next refresh Shopee eligible bass/vocal leads, prioritizing exact hardware listings rather than adapters; then manufacturer verification. Commit model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56462,6 +56462,16 @@
       ],
       "finding": "Official own product confirms analog connector sizes and nominal levels/impedances. Named PSB1U supply specs resolve center-negative polarity;2A capacity distinguished from800mA draw.",
       "remaining": "USB type, current OS, full simultaneous capacity, screen diagonal/color/touch, imports and qualified exact offers unresolved."
+    },
+    {
+      "model": "BOSS GT-10B",
+      "date": "2026-10-18",
+      "sources": [
+        "https://www.boss.info/us/support/by_product/gt-10b/updates_drivers/5796b60f-bda3-4cd9-bd71-641cfc7bd2e5/",
+        "https://www.boss.info/us/support/by_product/gt-10b/updates_drivers/dae86063-6907-407f-b0a7-b36da4a72d74/"
+      ],
+      "finding": "Official driver scopes:1.0.0 Windows10 32/64bit excluding Mobile/VM/Windows-on-Mac;1.0.3 macOS10.13/10.14. Driver availability and instructions not proof of current OS/editor compatibility.",
+      "remaining": "Windows11/new macOS/AppleSilicon and actual current automatic driver delivery unverified; no files downloaded."
     }
   ],
   "discovery_cross_brand_bass": {

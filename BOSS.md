@@ -3014,6 +3014,12 @@ Checked 2026-10-18 against the manufacturer-authored 2008 manual, revision G6027
 | I/O / connector sizes | INPUT, main OUTPUT, SEND/RETURN and AMP CONTROL are quarter-inch; PHONES stereo quarter-inch; EXP2/CTL3,4 quarter-inch TRS; SUB outputs XLR. USB connector type remains unresolved. | [Own product][G10B-P] |
 | I/O / electrical levels | Nominal INPUT/RETURN−10dBu; input impedances1MΩ/220kΩ. Main OUTPUT−10/+4dBu,2kΩ; SEND−10dBu,3kΩ; SUB output600Ω. Nominal levels do not establish maximum headroom. | [Own product][G10B-P] |
 
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Editor / Windows driver scope | **Driver1.0.0: Windows10 32/64-bit**, excluding Mobile. Page describes automatic internet driver delivery on connection; current delivery was not tested. Virtual Windows and Windows on Mac are unsupported. USB3 requires USB2 compatibility; try USB2 if malfunctioning. This driver page does not establish full-editor or Windows11 support. | [Official Windows driver page][G10B-W10] |
+| Editor / macOS driver scope | **Driver1.0.3: macOS10.13/10.14** on Mac with onboard USB. Existing10.13 installation can be used on10.14; installer may still display10.13 wording. This does not establish newer macOS/Apple Silicon compatibility or librarian/editor support. No package downloaded or installed. | [Official Mac driver page][G10B-MAC] |
+
 <!-- comparison evidence ends -->
 
 GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.
@@ -3026,6 +3032,9 @@ Manual follow-up: manufacturer-authored 2008 GT-10B owner manual, G6027127R0, re
 [G10B-T]: https://manualzz.com/doc/51314063/boss-audio-systems-music-pedal-gt-10b-owner-s-manual
 
 [G10B-PS]: https://support.roland.com/hc/en-us/articles/4410470586395-Powering-Multiple-Effects-Pedals
+
+[G10B-W10]: https://www.boss.info/us/support/by_product/gt-10b/updates_drivers/5796b60f-bda3-4cd9-bd71-641cfc7bd2e5/
+[G10B-MAC]: https://www.boss.info/us/support/by_product/gt-10b/updates_drivers/dae86063-6907-407f-b0a7-b36da4a72d74/
 
 ## MS-3
 
