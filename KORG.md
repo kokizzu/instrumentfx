@@ -316,18 +316,18 @@ Checked **2026-10-17**, partial. Guitar multi-effects, distinct from AX300G/AX30
 
 | Required field | Finding |
 |---|---|
-| Built-in / external / toe expression | **Pressure-sensitive pedal**, not a conventional treadle; **two external sockets**, Parameter and Volume, for EXP-2/XVP-10. Toe switch **?**. [Manual][AX30-M] |
+| Built-in / external / toe expression | **Pressure-sensitive pedal**, not a conventional treadle; **two external sockets**, Parameter and Volume, for EXP-2/XVP-10. Toe switch **?**. Pressure assignment must target an enabled effect; changing chains/variations/IPE can cancel it. Tap-tempo/hold assignments have no MIN/MAX range. [Manual][AX30-M] |
 | Knobs / footswitches / buttons | **3 / 5 / 10**, plus pressure control: Input Level, Output Level, dial; Bank and Programs1–4; Edit, Parameter, Compare, four IPE, Pressure, NR, Level. [Manual][AX30-M] |
 | Display | Backlit **16×2-character LCD**, bank/note seven-segment LED, tuner indicators. Diagonal/color/touch **?**. [Manual][AX30-M] |
 | Dimensions / weight | **410 W ×160 D ×43 H mm; 1.3 kg**. [Manual][AX30-M] |
 | Blocks / category choices | **Six simultaneous effects plus separate NR**; **28 types including NR**. Two blocks, up to three effects each; **6×4=24 chain combinations**. Groups: block1 six types; block2 amp/exciter2, Mod1 six, Mod2 eight, ambience5. [Manual][AX30-M] |
-| Memory | **16 user +50 preset =66**; initial user filling **?**. [Manual][AX30-M] |
-| Synth / acoustic | “A.Sim” means **amp simulator**, not acoustic simulator. Dedicated acoustic simulation/synth **?**. [Manual][AX30-M] |
+| Memory | **16 user +50 preset =66**; **all16 user locations have named factory examples** in the program list; current contents depend on edits. [Manual][AX30-M] |
+| Synth / acoustic | “A.Sim” means **amp simulator**, not acoustic simulator. Hyper Resonator explicitly produces guitar-synth-type sounds; Random Step Filter can act as a random oscillator. Dedicated acoustic simulation **?**. [Manual][AX30-M] |
 | IR / NAM / captures | User IR, native NAM, converted NAM and proprietary captures **?**. |
 | I/O | Guitar; stereo mini Mix input; L/Mono,R line outputs; stereo mini phones; Parameter/Volume pedal inputs; DC9V. [Manual][AX30-M] USB/audio/MIDI interfaces **?**. |
 | Power / battery / USB | **9 V DC; 3 W**. Current, polarity, barrel dimensions, battery/USB power **?**. [Manual][AX30-M] |
 | Editing / platforms | Hardware editing documented. Computer/mobile editor, drivers and updaters **?**. [Manual][AX30-M] |
-| Practical features | Chromatic tuner, bypass, individual effect switching, pressure-controlled hold/tap delay. Full looper, drums, scenes, spillover **?**. [Manual][AX30-M] |
+| Practical features | Chromatic tuner, bypass, individual effect switching, **Hold Delay10–1000ms**; press/release toggles hold, next press resumes ordinary delay. Tap delay maximum1000ms. **A full phrase looper remains unverified**. Stereo/cross delay5–500ms per side; reverb Room/Hall/Plate. Drums, scenes, spillover **?**. [Manual][AX30-M] |
 
 ### AX30G — qualified IDR observations
 
@@ -342,7 +342,7 @@ Checked **2026-10-17**, partial. Guitar multi-effects, distinct from AX300G/AX30
 
 [Korg’s own support listing][AX30-P] links the English scan below; **2015-06-01 is the upload date**, not an established hardware or manual revision. Both English and Japanese PDFs report36pages but returned no readable body text; screenshots failed. No successful visual inspection or local file download is claimed.
 
-The [manufacturer-authored mirrored manual][AX30-M] identifies AX30G, uses the same title and36-page structure, and supplies the original panel, chain and specifications sections. Extracted body text was used, excluding the site’s generated assistant/FAQ material. Original page numbers differ from PDF position. Optical-character errors remain possible; full original-scan verification is outstanding. Do not substitute AX300G/AX3000G facts. The category subtotals sum to27 chainable types; NR is the28th, not another freely assignable chain slot. Detailed algorithms, routing restrictions, pressure assignments, supply label and editor availability still require follow-up. Bass/vocal membership unverified.
+The [manufacturer-authored mirrored manual][AX30-M] identifies AX30G, uses the same title and36-page structure, and supplies the original panel, chain and specifications sections. Extracted body text was used, excluding the site’s generated assistant/FAQ material. Original page numbers differ from PDF position. Optical-character errors remain possible; full original-scan verification is outstanding. Do not substitute AX300G/AX3000G facts. The category subtotals sum to27 chainable types; NR is the28th, not another freely assignable chain slot. Follow-up2026-10-17 (manual pp.10,20,25–30): pressure assignments, delay limits, synth-style functions and factory-filled user table checked. Hold Delay is documented as a short held delay; no overdub/save/phrase-loop capability is inferred. Amp simulator has6L6/EL84/SS types; distortion1 hasfour variants and distortion2 three. Supply label, original-scan verification, precise stereo routing and editor availability remain unresolved. Bass/vocal membership unverified.
 
 [AX30-P]: https://www.korg.com/us/support/download/product/1/30/
 [AX30-E]: https://cdn.korg.com/us/support/download/files/640eb23eb43169d3cd8bc94f12a95552.pdf

@@ -339,7 +339,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-ax30g':
-            message = 'research(korg): add AX30G with pressure control and source access limits'
+            message = 'research(korg): qualify AX30G pressure assignments hold delay and synth functions'
         if mode == 'commit-rp155':
             message = 'docs(digitech): repair RP155 manual links with page qualifiers outside references'
         if mode == 'commit-vamp2':

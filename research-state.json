@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX30G",
-    "task": "First-pass root AX30G record saved. Audit pressure assignments and effect/routing restrictions; original scans unreadable so text-mirror facts retain verification limits.",
+    "task": "AX30G follow-up saved: hold-delay vs looper, pressure restrictions, synth-style functions and user factory examples. Continue exact Shopee discovery; retain source and power-label gaps.",
     "next_models": [],
     "after_queue": "Continue missing bass/vocal discovery and lossless legacy consolidation; no downloads/workflows."
   },
@@ -49795,6 +49795,15 @@
       ],
       "finding": "Counted named model tables; amp20electric+1acoustic+Direct conflicts23marketing; distortion10table vs4sentence. ChorusFX17detailed shared one slot; generic SynthTalk/YaYa not in detailed list. Whammy preamp placement; looper Down-held overdub/Up preset navigation.",
       "remaining": "83total reconciliation,synth wording conflict,actualbody size,poweroff loop retention,qualified hardware offer."
+    },
+    {
+      "model": "Korg AX30G",
+      "checked_date": "2026-10-17",
+      "finding": "Pressure target must be enabled; chain/variation/IPE changes cancel assignments; tap/hold lack minmax. HoldDelay10–1000ms toggle,not verifiedphrase looper. HyperResonator synthtype/randomoscillator; user16factoryexamples; amp3drive4+3subtypes.",
+      "remaining": "Originalscan,powerlabel,precisestereorouting,currenteditor,qualifiedstock.",
+      "sources": [
+        "https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
