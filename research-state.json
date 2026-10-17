@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom RFX-1000",
-    "task": "Named banks,serial/split-channel combinations,delay and selector qualifications saved. Next resume Shopee exact hardware discovery;do not duplicate RFX-1000 or treat363 as editable memories.",
+    "model": "Valeton GP-200R variant reconciliation",
+    "task": "Manufacturer explicitly equates GP-200R features/functions with GP-200. Reconcile new exact Rp6240000 offers into existing GP-200 record without incrementing unique inventory; then check saved MP-350 offer.",
     "next_models": [],
-    "after_queue": "284partial records;no downloads/workflows/push."
+    "after_queue": "284partial models; discovery limited,not exhaustive. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57242,5 +57242,81 @@
       "Visual controls",
       "Condition-qualified prices"
     ]
+  },
+  "discovery_post_rfx1000_20261017": {
+    "checked": "2026-10-17",
+    "qualified_new_model_count": 0,
+    "limited_queries": [
+      "Zoom G9.2tt",
+      "Korg AX3000B",
+      "BOSS VF-1",
+      "DigiTech RP300",
+      "Zoom G2.1nu",
+      "Zoom404",
+      "BOSS SE-70",
+      "Korg AX1G",
+      "Zoom G1X Next/B1X Next",
+      "BOSS GT-10B",
+      "Zoom B2 original",
+      "Zoom GFX-8",
+      "Zoom504II",
+      "Zoom A2.1u",
+      "Korg AX3B",
+      "DigiTech BP90",
+      "MOOER GE300 Lite",
+      "Valeton GP-200R",
+      "Hotone MP-350"
+    ],
+    "qualification": "Limited indexed Shopee searches; no-hit is not absence proof. B2 FOUR offers already canonical, no duplication.",
+    "rejected_accessories": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+        "reason": "Adapter,not GFX8 hardware"
+      },
+      {
+        "url": "https://shopee.co.id/ScreenGuard-Valeton-GP-200R-Pelindung-protektor-Valeton-GP-200-R-i.954050921.26960873237",
+        "reason": "Screen protector,not processor"
+      }
+    ],
+    "unallocated_storecards": {
+      "url": "https://shopee.co.id/hopemusik",
+      "title": "G2.1Nu/G2.1u/B2.1u;G1X Next/B1X Next",
+      "qualification": "Store cards with mixed models, no exact selected item/variation; do not assign Rp1699000 orRp999000 to a model"
+    },
+    "variant_lead": {
+      "label": "Valeton GP-200R",
+      "manufacturer": "https://www.valeton.net/product/gp-200-r/",
+      "identity": "Manufacturer explicitly says GP-200/GP-200R features/functions identical; treat as variant candidate under existing GP-200,not new unique model pending final reconciliation",
+      "offers": [
+        {
+          "url": "https://shopee.co.id/Valeton-GP200-R-GP-200R-GP200R-Multi-Effect-Processor-i.15931156.29263494949",
+          "idr": 6240000,
+          "seller": "Primanada",
+          "region": "Kota Jakarta Utara",
+          "access": "Direct cached text,last-month crawl",
+          "stock": "Habis",
+          "condition": "Unknown"
+        },
+        {
+          "url": "https://shopee.co.id/Valeton-GP-200R-Red-Multi-Effects-Processor-i.19576516.18348592313",
+          "idr": 6240000,
+          "seller": "Imagination Music Store",
+          "region": "Kota Jakarta Pusat",
+          "access": "Indexed2months;notdirectopened",
+          "condition": "Unknown",
+          "stock": "Unknown"
+        }
+      ],
+      "limits": "Selected bundle,working state,warranty,voucher,shipping/tax and current stock unverified; relative delivery not stock proof"
+    },
+    "existing_model_offer": {
+      "model": "Hotone Ampero II MP-350",
+      "url": "https://shopee.co.id/Hotone-Ampero-II-MP-350-MP350-Multi-Effects-Guitar-Pedal-%28English-and-International-Version%29-i.703046367.26841016023",
+      "idr": 11900000,
+      "seller": "Asia Pro Sound",
+      "region": "Kota Bekasi",
+      "access": "Indexed2months;notdirectopened",
+      "qualification": "English/international version seller claim; condition,stock,bundle,warranty,voucher,shipping/tax unknown; reconcile existing record before adding"
+    }
   }
 }
