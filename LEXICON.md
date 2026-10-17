@@ -89,3 +89,45 @@ Initial product/manual C direct opens returned403; those indexed sources remain 
 
 [M300-E]: https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf
 [M300-S]: https://lexiconpro.com/en-US/product_documents/mx300_datasheetpdf
+
+## MX400
+
+TRS-connector MX400 rack multi-effects; MX400XL is a distinct connector variant. Checked 2026-10-17; partial. Guitar/vocal mixer paths and bass-track compression documented in own manual. Use suitable line-level routing; not a direct mic/Hi-Z preamp claim. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal/toe; external expression unverified. LEX-DFS two-button TRS footswitch supported; functions pending. | [Manual pp4–6][M400-M] |
+| K/F/B | **7 / 0 / 6**, text-derived: Input A/B,Page/Select,Edit A/B/C,Program/Load; Exit,Tempo,Effect Bypass,Store,System,Program Bypass. Encoder pushes/power additional; visual corroboration pending. | [Manual pp4–5][M400-M] |
+| Display | Main LCD, six status LEDs and separate program-number display. Published diagonal,color/touch unverified. | [Manual pp4–5][M400-M] |
+| Dimensions / mass | **483W×44H×185D mm including knobs;162mm depth excluding knobs;2.6kg**. 1U rack. | [MX400 specifications p53][M400-S] |
+| Processing / categories | Four processors advertised; Surround,Stereo,Dual Stereo configurations. Per-configuration capacity and complete category/selector counts pending; no MX300 totals borrowed. | [Manual introduction,p8][M400-M] |
+| Factory / user memory | 99 factory+99 user programs stated; each configuration has its own program banks. Do not treat 198 as verified whole-device total. Initial user-bank fill and bank accounting pending. | [Manual pp3,8][M400-M] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
+| I/O | **Four quarter-inch TRS line inputs and four matching outputs**, balanced/unbalanced; dual RCA S/PDIF I/O;USB;two MIDI DIN;TRS footswitch;mains. XLR analog I/O belongs to MX400XL, not this record. Digital24-bit44.1/48kHz. | [MX400 specifications p53][M400-S] |
+| I/O / MIDI conflict | Rear-panel section names IN/THRU; specification table says IN/OUT. Conflict retained; independently generated MIDI OUT unverified. | [Manual p6][M400-M]; [Specifications][M400-S] |
+| Power / battery / USB | **18W**; separate 100–120VAC or 220–240VAC versions, not universal input. Rear label determines unit version. DC polarity inapplicable to mains. Battery/USB operation unverified. | [MX400 specifications p53][M400-S] |
+| IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
+| Editor / platforms | MX Edit Mac2.2.0/Windows2.3.1; NetUpdater1.0 separate,2016 listings. VST/AU hardware-plugin integration. Current OS support,bitness and USB audio distinction require own-model verification. No software downloaded. | [Product/software][M400-P] |
+| Bass capability | Own compressor description explicitly includes bass tracks. Use preamp/mixer or recorded line-level signals. | [Manual p25][M400-M] |
+| Looper / drums / live | Looper,drums,scenes,spillover and live parameter restrictions pending. | Unresolved |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no qualified used-condition evidence. | — |
+| New | Unknown; no qualified new-condition evidence. | — |
+| Condition-unverified sold-out ask | **Rp3.700.000;Habis**. Abadi Audio dan Komputer,shop355992277/item29037104080,KotaSurakarta(Solo). Five-month indexed body checked2026-10-17; direct open cache miss. | [Exact Shopee item][M400-O] |
+
+<!-- comparison evidence ends -->
+
+Cached hardware asking price, not live stock or completed sale. Seller “Original/Ori” wording does not verify authenticity or revision. Used/new condition,actual MX400 versus XL/voltage variant,bundle,mains cable,warranty,shipping/tax,voucher eligibility and working state remain unverified. Relative “tomorrow” delivery does not override explicit Habis. Late-arrival compensation up to Rp10,000 is not a purchase discount.
+
+Manufacturer-hosted 18-0446V-F combined MX400/MX400XL manual read as browser text; MX400-specific TRS specification retained. Separate older specification page includes an XL digital-XLR entry; do not infer that facility for MX400. Full visual coverage not claimed. No files/dependencies/software downloaded.
+
+[M400-M]: https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf
+[M400-S]: https://lexiconpro.com/en/product_documents/mx400_manualpdf
+[M400-P]: https://lexiconpro.com/en-US/products/mx400/downloads_and_docs
+[M400-O]: https://shopee.co.id/Lexicon-MX400-Original-Dual-Stereo-Vocal-FX-i.355992277.29037104080

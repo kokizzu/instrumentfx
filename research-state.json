@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 243,
+  "active_model_count": 244,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 243,
+  "canonical_root_model_count": 244,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "243 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. MX300 now guitar/bass/vocal from own documented guitar-loop,voice and bass-track applications;all remain partial.",
+  "count_reconciliation": "244 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. MX400 guitar/bass/vocal line-level scope from own manual;all models remain partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,13 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MX300",
-    "task": "MX300 per-routing map count,bass-track application and delay/reverb operating limits saved. Enhanced-stereo selector total remains unresolved; proceed to saved MX400 exact sold-out hardware lead and own primary documentation before SPX2000.",
+    "model": "Lexicon MX400",
+    "task": "Verify own-manual configurations,per-mode engine/choice counts and memory-bank accounting;control pushes,USB/audio,external switches and live limits pending. Preserve MX400/XL connector differences.",
     "next_models": [
-      "Lexicon MX400",
       "Yamaha SPX2000"
     ],
-    "after_queue": "Exact candidate links retained in discovery_mx300_20261017. No downloads,workflows,push;commit each model before next."
+    "after_queue": "Saved exact SPX2000 lead in discovery_mx300_20261017. Commit useful model findings before next. No downloads,workflows,push."
   },
   "new_findings": [
     {
@@ -5066,6 +5065,19 @@
       ],
       "finding": "Exact seller-described used Rp4100000 cached ask,own guitar-loop and voice scope,two-effect versus enhanced single-effect routing,mains versions,I/O,body and legacy editor platforms.",
       "remaining": "Controls,display,memory,full category enumeration,current software/stock and unresolved facilities."
+    },
+    {
+      "model": "Lexicon MX400",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
+        "https://lexiconpro.com/en/product_documents/mx400_manualpdf",
+        "https://lexiconpro.com/en-US/products/mx400/downloads_and_docs",
+        "https://shopee.co.id/Lexicon-MX400-Original-Dual-Stereo-Vocal-FX-i.355992277.29037104080"
+      ],
+      "finding": "Exact condition-unverified sold-out Rp3700000 ask;TRS model identity,controls,LCD,separate memory banks,voltage variants and own guitar/vocal/bass scope.",
+      "remaining": "Full configurations/algorithm and memory accounting,visual controls,current software/stock and unresolved facilities."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23949,7 +23961,8 @@
     ],
     "Lexicon": [
       "MX200",
-      "MX300"
+      "MX300",
+      "MX400"
     ],
     "Alesis": [
       "MicroVerb 4",
@@ -24256,7 +24269,8 @@
     ],
     "LEXICON.md": [
       "MX200",
-      "MX300"
+      "MX300",
+      "MX400"
     ],
     "ALESIS.md": [
       "MicroVerb 4",
@@ -24269,21 +24283,21 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 196,
+      "record_count": 197,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 99,
+      "record_count": 100,
       "bass_focused_record_count": 25,
-      "shared_bass_capable_count": 74,
+      "shared_bass_capable_count": 75,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 45,
+      "record_count": 46,
       "vocal_only_count": 22,
-      "combined_instrument_count": 23,
+      "combined_instrument_count": 24,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41232,18 +41246,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 243,
-    "canonical_root_models": 243,
+    "unique_brand_model_pairs": 244,
+    "canonical_root_models": 244,
     "legacy_only_models": 0,
-    "guitar_view_models": 196,
+    "guitar_view_models": 197,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
-    "vocal_view_models": 45,
+    "vocal_view_models": 46,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 99,
-    "bass_shared_models": 74,
+    "bass_view_models": 100,
+    "bass_shared_models": 75,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41295,7 +41309,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX300."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX400."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41491,6 +41505,7 @@
       "Behringer::FX2000",
       "Lexicon::MX200",
       "Lexicon::MX300",
+      "Lexicon::MX400",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Yamaha::SPX900",
@@ -41595,6 +41610,7 @@
       "Behringer::Bass V-AMP PRO",
       "Behringer::FX2000",
       "Lexicon::MX300",
+      "Lexicon::MX400",
       "Yamaha::SPX990"
     ],
     "ALL-VOCAL.md": [
@@ -41639,6 +41655,7 @@
       "Behringer::FX2000",
       "Lexicon::MX200",
       "Lexicon::MX300",
+      "Lexicon::MX400",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Yamaha::SPX900",
@@ -41646,6 +41663,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Lexicon::MX400": "Own combined MX400/MX400XL manual p25 explicitly lists bass-track compression; appropriate line-level preamp/mixer or recorded-track routing required. https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
     "Lexicon::MX300": "Own manufacturer manual E p25 explicitly lists bass-track compression; use suitable line-level preamp/mixer or recorded-track routing. https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
     "Yamaha::SPX990": "Own Yamaha operation manual preset applications explicitly include Bass, Guitar and Vocal, printed pp12–13; suitable line-level preamp/mixer routing. [Manual](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf).",
     "Behringer::FX2000": "Manufacturer explicitly lists bass,guitar andvocals;use suitable line-level amp/mixer routing. [Product](https://www.behringer.com/en/products/0828-AAG).",
@@ -43554,6 +43572,13 @@
     },
     "Lexicon::MX300": {
       "link": "LEXICON.md#mx300",
+      "source_files": [
+        "LEXICON.md"
+      ],
+      "finding_files": []
+    },
+    "Lexicon::MX400": {
+      "link": "LEXICON.md#mx400",
       "source_files": [
         "LEXICON.md"
       ],
@@ -53485,5 +53510,14 @@
     "pages": "21–25,45–47",
     "finding": "Routing1–4 map has32 named entries(16reverb,6delay,8modulation/pitch,2dynamics);routing5 additionally lists2Tap and grouped families,not a proved full selector total. Own bass-track compressor application qualifies shared bass membership with line-level routing. Delay capacity,RepeatHold and Size-change mute preserved.",
     "remaining": "Complete enhanced-stereo selector census,physical visual corroboration,display,user-bank fill,current software/stock and unresolved facilities."
+  },
+  "mx400_discovery_20261017": {
+    "seller": "Abadi Audio dan Komputer",
+    "shop_id": "355992277",
+    "item_id": "29037104080",
+    "idr": 3700000,
+    "stock": "Habis in five-month index;direct cache miss",
+    "condition": "Unverified",
+    "variant": "TitleMX400;physical TRS/XL and mains voltage unverified"
   }
 }
