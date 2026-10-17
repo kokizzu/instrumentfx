@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G5 original",
-    "task": "G5 total arithmetic reconciled as103regular non-amp +20Z +22amp =145; edition identity and full functional subtotals remain unresolved. Commit before next model. New readable manufacturer reproduction is Manualzz with9622lines; avoid repeated inaccessible ManualsLib46/48/49. Next inspect own power/control or substantial gap in another model.",
+    "task": "G5 eco10h, torque adjustments and DSPall-effects bypass documented. Commit before next model. Avoid copying G3/G3X25min standby or isolated-overflow behavior. Remaining button census/calibration gestures need visual primary evidence; battery/USBpower, full category counts, current OS and prices incomplete. Next new Shopee series or another substantial primary gap.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56998,6 +56998,14 @@
       "model": "Zoom G5 original",
       "checked_date": "2026-10-18",
       "finding": "Second manufacturer-manual reproduction matches G5 architecture,297patches and existing numbered list; confirms043–064amps.125regular−22amps=103nonamp; +20Z=123; +22amps=145 provides consistent product-count explanation, not firmware equivalence or distinct algorithm count.",
+      "sources": [
+        "https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual"
+      ]
+    },
+    {
+      "model": "Zoom G5 original",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual p7 eco10h versusON, pp38–39 independent vertical/horizontal torque5mm screws, p10 DSPFULL bypassesall effects and disabled allocation retained. Missing calibration graphics prevent exact gesture verification. Battery/USBpower remain unknown.",
       "sources": [
         "https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual"
       ]
