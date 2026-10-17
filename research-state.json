@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "VL3X USBMIDI receive source nowexplicit;filter polarity andDAWtiming qualification saved. Continue power/currentfirmware/categorycounts orfreshbrandseriesdiscovery.",
+    "task": "VL3X VoiceSupportSysExID0 prerequisite andglobalTone memorylimits saved. Next freshShopee discovery andunresolvedpower/currentfirmware/categorycounts;do not mistake MIDItranspose foraudio.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60934,5 +60934,18 @@
       "USB-audio/MIDI timing may need DAW MIDIoffset"
     ],
     "limits": "No DINUSBmerge/router,USBhostcontroller support ornumericlatency inferred"
+  },
+  "vl3x_sysex_tone_20261017": {
+    "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+    "revision": "2015-10-20 firmware2.1.00build346",
+    "pages": "165–172",
+    "findings": [
+      "VoiceSupportrequiresSysExID0",
+      "MIDItranspose±4octavesnearestusablefallback",
+      "SplitC-1toG9abovebelow",
+      "VocalTonecompressionEQgateDeessglobalnotpreset",
+      "ManualEQ±12dB"
+    ],
+    "limits": "Notguitaraudiotranspose;notcurrentOScompatibilitytest"
   }
 }
