@@ -87,6 +87,8 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg101/) · [Source 2](htt
 | Firmware / editor / drivers | Checked2026-10-17:[global product](https://nuxaudio.com/product/mg300/) lists original MG-300 EN **4.02.23**,QuickTone **2.4.12.27** Windows/macOS;ASIO3.29.0 Win7/5.30.0 Win10+. Global firmware explicitly excludes domestic hardware. Installed version,minimum editor OS and regional identification remain unresolved. |
 | Expression assignments | Product documents WAH filter;EFX drive gain orPitchBender pitch;AMP level;MOD/DLY/RVB mix,plusvolume. This does not resolve toe-switch behavior. [Global product](https://nuxaudio.com/product/mg300/),checked2026-10-17. |
 | I/O / source conflict | Global MLD Bass Amp paragraph claims MIC input/reverb,also repeated onNBP-5 page. It conflicts with the retained original manual port inventory;do not infer mic input orvocal membership. V4 bass cab names TRC410,DB810,SV810 are separately documented. [Product](https://nuxaudio.com/product/mg300/),checked2026-10-17. |
+| Processing / original manual structure | Version1.0 diagram labels **8units:CMP,EFX,AMP,EQ,NG,MOD,DLY,RVB**;AMP groups amp/cab/microphone choices. This is a diagram count,not a reconciled V4 simultaneous-algorithm ceiling. EQ is one6-band processor (100,200,400,800,1600,3200Hz);NG has threshold/decay. [Reproduced manufacturer manual](https://manualzz.com/doc/64472440/nu-x-mg-300-guitar-multi-fx-pedal-instruction-manual),pp8–11,checked2026-10-17. |
+| Looper / rhythms / saving | Version1.0:tap record/play/overdub;hold1s removes latest overdub;doubletap stops;hold1s while stopped clears. Drums40–240BPM;separate drum/loop levels. Manual lists56beats plus7metronome sounds. Save edits before changing preset;capacity/factory split unresolved. [Reproduced manual](https://manualzz.com/doc/64472440/nu-x-mg-300-guitar-multi-fx-pedal-instruction-manual),pp6,13–14. |
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source original MG-300 fields
@@ -128,6 +130,8 @@ The category numbers describe the cited list, not guaranteed totals after every 
 The global download pages explicitly distinguish domestic/Mandarin versus global/English hardware firmware. Use the correct regional firmware, back up presets and install the matching editor. At checking, MG-300 MKII GEN2 was 3.0.0, MG-400 GEN2 3.0.3, MG-30 GEN2 1.0.5, and MG-50Li English firmware 1.1.1. This is a dated documentation snapshot, not an update instruction for an unidentified unit.
 
 Original-model sources: [Source 1](https://nuxaudio.com/product/mg300/) · [Source 2](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300/NUX_MG300_UserManual_English.pdf)
+
+Manufacturer manual identity checked in reproduced body:original MG-300,Version1.0,©2020 Cherub (outer back matter©2019). Official PDF opens withzero extracted lines;no successful current image inspection or byte-equivalence claim. Mirror summaries/AI answers and unofficial expanded user guides were not used.
 
 ## MG-300 MKII
 
