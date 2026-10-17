@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 HX Effects",
-    "task": "HX Effects IR conflict remains explicitly qualified after 3.50 release-note check; Dual IR introduction corrected to3.50. Next inspect manufacturer power compatibility chart or editor model-limit table without downloads; then resume legacy consolidation.",
+    "model": "Legacy consolidation audit",
+    "task": "Inspect migration ledger and remaining compatibility sources, select a fully merged legacy source, read complete source/destination and audit incoming links before any retirement. HX Effects unresolved power/display/IR details remain saved; avoid repeating exhausted source checks.",
     "next_models": [],
-    "after_queue": "Other field gaps andmigration;no downloads/workflows."
+    "after_queue": "Other field gaps and exact Shopee discovery; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -41179,7 +41179,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Effects."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Legacy consolidation audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -53043,5 +53043,11 @@
     "checked": "2026-10-17",
     "confirmed": "HX Effects explicitly included: Dual IR introduced 3.50, two 1024-point IRs per block; per-parameter Snapshot Control disabling with physical/MIDI assignments.",
     "unresolved": "Release notes do not settle 3.80 manual per-path versus per-preset IR totals. Do not infer factory cab engine for HX Effects; IRs-only qualification explicit."
+  },
+  "hx_effects_editor_limits_checkpoint_20261017": {
+    "source": "https://line6.com/data/6/0a00050b25c26643a8409a0e2/application/pdf/HX%20Edit%20Pilots%20Guide%203.70%20-%20English%20.pdf",
+    "revision": "3.70 Rev X p5 indexed table",
+    "confirmed": "One setlist, 128 presets, four presets per bank; separate 128-entry IR and Favorites libraries.",
+    "limits": "Merged feature cells have incompatible amp/cab and 6 Switch Looper wording; not sufficient to resolve HX Effects IR per-preset/per-path conflict. Full 3.50 open too large; no download."
   }
 }
