@@ -1607,3 +1607,7 @@ research-commit-m100:
 .PHONY: research-commit-mg20
 research-commit-mg20:
 	python3 scripts/research_tools.py commit-mg20
+
+.PHONY: research-commit-microplus
+research-commit-microplus:
+	python3 scripts/research_tools.py commit-microplus

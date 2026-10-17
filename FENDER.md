@@ -58,3 +58,41 @@ Neither a seller name nor cached delivery text authenticates a shop, confirms ac
 Supplementary original **Fender Owner's Manual firmware1.1.100**, not the host site's generated FAQ: [M3 controls,printedp.3](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=5); [M4 rear panel,printedp.4](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=6); [M8 memory,printedp.8](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=10); [M11 block types](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=13); [M12 loop/IR operation](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=14); [M35 USB](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=37); [MS original specifications](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=45).
 
 [G] [Original Fender model guide1.2.55 text](https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26), Acoustasonic description. Firmware updates above supersede old feature omissions. Official linked PDFs and mirror PDF downloads failed to open; original manufacturer text was read via HTML, **not a successful PDF visual inspection**. Remaining gaps include current category inventory/block ceiling,IR capacities/formats,auxiliary display specifications and condition-verified used pricing.
+
+## Mustang Micro Plus
+
+Checked2026-10-17;partial. Guitar multifx;firmware-qualified bass support below. Ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. [Product][MMP-P] |
+| K/F/B | 1master rotary;8buttons:Preset±,EQ±,Modify±,Tap/Tuner,Save;footswitch count and power-switch arrangement pending manual. [Product][MMP-P] |
+| Display | OLED;published diagonal,color/touch unresolved. [Product][MMP-P] |
+| Processing / categories | Launch25amps/25effects;firmware1.1.11adds10bassamps. Simultaneous chain and per-category choices unresolved;25effects is not25simultaneous. [Product][MMP-P] |
+| Preset memory | 100editable slots;launch70factory presets. Updated bass-factory allocation unresolved. [Product][MMP-P] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. [Product][MMP-P] |
+| I/O | Built-in¼inch input plug;⅛inch stereoheadphone;USB-Cbidirectional recording/update/charging;Bluetooth5.1. [Product][MMP-P] |
+| Power / battery / USB | Rechargeable Li-ion,claimed>4h;600mAmax consumption. Chargingvoltage/batterycapacity/USBoperation unresolved. [Product][MMP-P] |
+| Dimensions / mass | 80H×38.1W×30.7Dmm;54g,product labels retained. [Product][MMP-P] |
+| IR / NAM / capture | UserIR/nativeNAM/convertedNAM/proprietarycapture imports unverified. [Product][MMP-P] |
+| Editor / platforms | Fender Tone iOS/Android Bluetooth editor. Windows/macOS Device Manager updater and ASIO audio driver are separate. MinimumOS unresolved. [Product][MMP-P] |
+| Bass capability / firmware | **1.1.11(2026-01-14)** adds Super Bassman,Rumblev3 2x10,Rumblev2 1x15,BassmanTV,Showman2x15,Rockin’Peg,'66FlipTop,Redhead,KGB-800,Monster. Installed firmware must be checked;initial1.0.29 dated2024-09-05. [Release notes][MMP-F] |
+| Live / firmware limitations | 1.1.11 adds9dBinputpad and input-mute-disable for some highimpedance/piezo pickups. Known issue:bassamp cloud presets not visible. Adding bass factory presets resets all presets;backup required. No update/reset performed. Looper/drums/scenes unverified. [Release notes][MMP-F] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp2.635.000**,Seven Stereo Music & Audio Store,shop16879370/item26916147755,Kota Bandung;three-month indexed crawl. Checked2026-10-17;historical ask,not live stock/checkout. | [Item][MMP-O] |
+
+<!-- comparison evidence ends -->
+
+No condition-confirmed used/new allocation. Variant,bundle,workingcondition,authenticity,warranty,shipping/tax/vouchers unresolved.
+
+Official English candidate and indexed Spanish manual rejected as document/pdf;not read. Product and release notes used;no filesystemdownload or visualinspection. Do not borrow standard Mustang Micro specifications.
+
+[MMP-P]: https://intl.fender.com/products/mustang-micro-plus
+[MMP-F]: https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions
+[MMP-O]: https://shopee.co.id/Fender-Mustang-Micro-Plus-Guitar-Combo-Amplifier-Headphone-Guitar-Amp-i.16879370.26916147755
