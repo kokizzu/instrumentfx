@@ -2478,9 +2478,9 @@ Guitar multiple effects,1988–1992;checked2026-10-17;partial. [Own Roland speci
 | Field | Verified evidence / gaps |
 |---|---|
 | Expression | External **EV-5** listed;built-in/toe unverified. |
-| Controls | Listed switches:fourParameter,twoValue,ModeSelector,Write;fourNumberpedals+Bank. **5foot/8named nonfoot controls**;ModeSelector mechanism androtary count need manual/panel audit. |
+| Controls | Listed switches:fourParameter,twoValue,ModeSelector,Write;fourNumberpedals+Bank. **0rotary/5foot/8buttons**,text-derived:manual identifiesModeSelectorButton andparameter/value editing instead ofknobs. Power separate;visualcorroboration pending. |
 | Display | Group,Bank/Value display+effect/parameter/mode/number indicators;diagonal,color,touch unknown. |
-| Processing / choices | Compressor;Overdrive/Distortion;EQ;Chorus/Flanger;DigitalReverb/Delay;noise suppressor andsend/return. Category choices/simultaneous maximum pending. Delay **1–500ms**. |
+| Processing / choices | Compressor;Overdrive/Distortion;EQ;Chorus/Flanger;DigitalReverb/Delay;noise suppressor andsend/return. **Five units simultaneously**;three drive modes,five chorus/flanger alternatives,and five reverbs or Delay in the shared final block. Individual drive labels pending. Delay **1–500ms** in specifications;manual lower-limit conflict below. |
 | Factory / user memory | **64 factory-filled,editable patches**;same locations,not64+64;official indexed p5 corroboration below. |
 | Synth / acoustic | Unverified. |
 | Dimensions / mass | **350W×212D×66Hmm including rubber feet;3kg**. |
@@ -2526,3 +2526,14 @@ Checked2026-10-17 against targeted indexed passages of [official original manual
 | Processing / chorus-flanger | Five alternatives in one block:mode1 chorus;modes2–5 flanger. Higher flanger-mode numbers move processing toward higher frequency bands. Not five simultaneous modulation blocks. |
 
 The same manual's indexed outline describes five effect units and their stored on/off states;an explicit maximum simultaneous statement still needs corroboration. Overdrive-mode details remain pending;ME-6B search results are not ME-5 evidence.
+
+### ME-5 — simultaneous units and MIDI memory addressing
+
+Checked2026-10-17 against indexed original [official manual][ME5-M]:“Operation/ModeSelection”,“PatchEditing”,and“MIDI Implementation Version1.00”. Search excerpts only;no visualinspection.
+
+| Field | Verified behavior / limits |
+|---|---|
+| Processing / simultaneous | **All five units can be on together**:Compressor,Overdrive/Distortion,EQ,Chorus/Flanger,Reverb/Delay. Shared alternatives remain shared;noise suppression/external loop are additional functions. Manual cautions high-gain combinations may generate noise/oscillation. |
+| Processing / drive | MIDI parameter table defines **three modes,1–3**,encoded0–2. Individual mode descriptions remain unverified;do not substitute ME-6B labels. |
+| Controls / mechanism | ModeSelect is a push button cyclingPlay→Edit→MIDI;Manual entered separately. PatchEditing describes display/parameter/value editing instead of physical parameter knobs. Supports text-derived0rotary/5foot/8buttons inventory;power separate. |
+| MIDI / memory | Transmit programs1–64;receive1–128,with65–128 mapped back to1–64. Transmit/receive channel cannot differ. SysEx bulk all/current andparameter communication documented;these are preset/parameter data,not evidence of audio/IR/NAM import. |

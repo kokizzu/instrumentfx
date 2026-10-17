@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-5",
-    "task": "ME5officialindexedp5/33 confirms64factoryfilledrewritable4x4x4 andchorus1/flanger4. Next targetofficialindexedODmode/simultaneous/controlmechanisms;do notborrowME6B. BroadenShopeediscovery after usefulmodelcommit.",
+    "task": "ME5five simultaneous units,3drivemodes,0/5/8textcontrols andMIDI64memoryalias saved. Next freshShopeediscovery bass/vocal orresolveME5drive descriptions viaofficialindex;power/display/visualgaps remain.",
     "next_models": [],
     "after_queue": "290partialmodels;no downloads/workflows/push."
   },
@@ -58146,6 +58146,20 @@
     "memory": "64factoryprogrammedrewritable4x4x4;unsavedlostpoweroff/modechange",
     "modulation": "1chorus+4flangermodes,oneblock",
     "remaining": "ODmodes/simultaneousmaximum/controlmechanisms",
+    "downloads": false
+  },
+  "me5_simultaneous_midi_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-5_OM.pdf",
+    "sections": [
+      "OperationModeSelection",
+      "PatchEditing",
+      "MIDIImplementation1.00"
+    ],
+    "simultaneous_units": 5,
+    "drive_modes": 3,
+    "controls_textderived": "0rotary5foot8buttons powerseparate",
+    "midi": "Receive65–128maps1–64;tx1–64;samechannel;SysExall/current/parameters",
+    "remaining": "Drivemode descriptions/visualcontrols/mains",
     "downloads": false
   }
 }
