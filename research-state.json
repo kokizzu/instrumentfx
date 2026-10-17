@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 505 original",
-    "task": "Original 505 Japanese and Spanish replacement/specification sections checked. Battery and converter conflicts remain explicit; Japanese dimensions and battery-excluded mass now qualified. Do not repeat these manual checks without new revision evidence. Next seek exact used/new original 505 offers or fresh eligible Shopee brand/series leads; commit each model before next. No downloads.",
+    "model": "Zoom 505II",
+    "task": "Saved explicit seller-described used 505II Rp1500000 ask, Ryanmusik19 item44225561402; original 505 used/new still unverified. Fresh AX10A/A2.1u and 3030/AX1000B/RP150/ME-X searches yielded no qualified new exact hardware leads; accessory hits excluded. Next broaden Shopee discovery to other legacy series or fill substantial primary-source catalogue gaps; do not repeat original 505 manual reconciliation. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45303,7 +45303,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 505 original."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 505II."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56721,6 +56721,12 @@
         "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/S_505.pdf",
         "https://zoomcorp.com/media/documents/J_505_0.pdf"
       ]
+    },
+    {
+      "model": "Zoom 505II",
+      "checked_date": "2026-10-18",
+      "finding": "Exact Ryanmusik19 shop17614128/item44225561402 title explicitly says BEKAS ANAK BAND, Rp1500000. Seller-described used ask, not working-condition or live-stock proof. One-month direct cache versus four-month search index; stale September16–19 delivery. Original 505 searches did not establish condition-qualified offers; do not transfer this sibling price.",
+      "source": "https://shopee.co.id/EFEK-GITAR-ZOOM-505-II-JAPAN-%28BEKAS-ANAK-BAND%29-i.17614128.44225561402"
     }
   ],
   "discovery_cross_brand_bass": {

@@ -550,7 +550,7 @@ def main():
         if mode == 'commit-ms50gplus':
             message = 'research(zoom): reconcile B1X FOUR library categories and amp cabinet choices'
         if mode == 'commit-505ii':
-            message = 'research(zoom): enumerate 505II category modes without inflating algorithm totals'
+            message = 'research(zoom): preserve explicit used 505II hardware asking price'
         if mode == 'commit-ving-coverage':
             message = 'research(ving): preserve seller and app identity qualifications in comparison rows'
         if mode == 'commit-ax5g':
