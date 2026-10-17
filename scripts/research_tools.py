@@ -499,7 +499,7 @@ def main():
         if mode == 'commit-m9':
             message = 'research(line6): qualify M9 knob scene and DryThru behavior'
         if mode == 'commit-m5':
-            message = 'research(line6): preserve M5 backup correction and external MIDI updater limits'
+            message = 'research(line6): qualify M5 updater with Monkey discontinuation notice'
         if mode == 'commit-ax3g':
             message = 'research(korg): reconcile AX3G algorithms and distinguish drone from synth'
         if mode == 'commit-ax1000g':

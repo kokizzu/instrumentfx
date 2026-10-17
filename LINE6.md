@@ -891,6 +891,15 @@ Checked 2026-10-18 against Line 6’s model-specific knowledge base. No software
 | Memory / backup correction | Line 6 explicitly corrects the Pilot Guide’s SysEx dump step. Choose DUMP ALL for all24 presets or DUMP PRE for the current preset; with the computer recording SysEx, hold ON/OFF and press MODEL SELECT, then repeat to confirm. TAP cancels. Receiving a transmitted backup immediately loads M5 memory; no additional protected library is implied. Article title uses “Scene,” but this does not establish M9-style multi-effect scenes. | [Official M5 correction](https://kb.line6.com/m5-scene-backup-and-loading) |
 | Editor / updater connection | Official procedure requires **Line 6 Monkey1.35 or later**, an external USB-to-MIDI interface and two MIDI connections: M5 OUT to interface IN and interface OUT to M5 IN. USB belongs to the external interface in this procedure; it does not establish M5 USB audio, USB power or a patch editor. Current OS compatibility and actual update operation remain unverified. | [Official M5 updater instructions](https://kb.line6.com/m5-firmware-update-instructions) |
 
+### M5 current software-support qualification
+
+Checked 2026-10-18. The older updater procedure above remains historical documentation, not a current-OS support guarantee.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Editor / Monkey support limits | Yamaha Guitar Group states that **Line 6 Monkey is no longer developed for newer OS releases**, explicitly naming Windows11, macOS Catalina and Monterey. Its notice directs firmware installations to an older supported OS; it does not establish M5 support in Line 6 Central or a modern patch editor. Preserve this qualification alongside the older Monkey1.35+ procedure. SysEx backup is separately documented and is not proof of current Monkey compatibility. | [Official discontinuation notice](https://kb.line6.com/line-6-monkey-discontinued) |
+| Dimensions / source access | Official dimensions page exposes2010 XLS and2017 XLSX attachments, with no M5 dimensions in rendered page text. Files were not downloaded; dimensions and mass remain unknown here. Do not substitute Mission expression-pedal measurements or another Line6 model. | [Official dimensions index](https://kb.line6.com/line-6-product-weights-and-dimensions) |
+
 ## M9
 
 Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
