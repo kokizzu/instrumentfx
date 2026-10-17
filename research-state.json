@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Matribox II QME-100",
-    "task": "Matribox II regionalelectrical/USB specs and balanced-output source conflict saved. Continue unresolveddisplay/control/algorithm/architecture evidence orfreshdiscovery;do not silentlyresolveTRSbalance.",
+    "model": "Sonicake Matribox QME-50",
+    "task": "Categorycounts/acoustic/filter/polyphonic/bassalgorithms saved. Continue remaining source reconciliation andfreshShopee discovery;avoid repeatingemptybassqueriesascoverage.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox II QME-100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox QME-50."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60683,5 +60683,32 @@
     "conflict": "Regional mainTRS unbalanced versus Englishmanual balancedTRS/unbalancedTS;preserved withouttestingclaim",
     "remaining": "Displaydiagonal/touch/resolution,buttoncount,acceptedNAMarchitectures/categorycensus,currentOS,batteryUSBpower and qualifiedconditionoffers.",
     "access": "RegionalHTMLandEnglishPDFtextonly;noimages/softwaredownload"
+  },
+  "matribox_original_algorithm_inventory_20261017": {
+    "source": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433",
+    "identity": "Own31page firmware1.1.0manual named-entrytables",
+    "counts": {
+      "fx1_fx2_shared": 25,
+      "nr": 2,
+      "eq": 2,
+      "mod": 10,
+      "dly": 11,
+      "rvb": 8
+    },
+    "method": "FX14firstpage+11driveentries;DLY8firstlist+3continued;RVB3+5continued;choicesnotconcurrencyoruniquetotal",
+    "findings": [
+      "ACSimfourmodes,electrictoacoustic",
+      "4stepFiltersynthlike,notdedicatedoscillator",
+      "PolyphonicOctaverDualMelodyPitch;fivebassamps/preampsnamed"
+    ],
+    "remaining": "Fullamp/cab/headlinereconciliation,screen/externalexpression,NAMarchitecturelimits,batteryUSBpower,currentOS/qualifiedconditions."
+  },
+  "discovery_bass_frontier_20261017_sonicake_zoom_boss": {
+    "queries": [
+      "site:shopee.co.id \"Sonicake\" \"Boom Avenue\"",
+      "site:shopee.co.id \"Zoom\" \"B2.1NU\"",
+      "site:shopee.co.id \"Boss\" \"GT-10B\" efek"
+    ],
+    "result": "OnlygenericGT10searchpage/accessories returned;noqualifiednewhardwarelead;notabsenceproof."
   }
 }
