@@ -360,8 +360,8 @@ Checked2026-10-17;partial. Guitar scope; bass/vocal suitability and ownership un
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in pedal controls23pedal-effect types;toe/external support pending. | [Manual p3][AX100-M] |
-| K/F/B | Separate rotary/footswitch/button counts pending. | Unresolved |
+| Expression | Built-in pedal controls23pedal-effect types;firm toe press switchesPedal effect on/off. External support pending. | [Manual p3][AX100-M] |
+| K/F/B | **7rotary /2footswitches /12buttons**,text-derived:TYPE,VALUE1–5,rearMASTER;DOWN/UP;8selectbuttons,PROG/FXSELECT,WRITE,EXIT,TAP. Rearinput-level switch separate;visual corroboration pending. | [Manual p4][AX100-M] |
 | Display | Backlit LCD;diagonal,color/touch pending. | [Manual p3][AX100-M] |
 | Processing / categories | **63types;up to7simultaneous effects**,plusrhythm. Per-category choices pending. | [Manual pp3,12][AX100-M] |
 | Preset memory | **40preset+40user=80programs**;factoryusercontentsduplicatepresets. | [Manual pp3,5][AX100-M] |
@@ -371,6 +371,7 @@ Checked2026-10-17;partial. Guitar scope; bass/vocal suitability and ownership un
 | Dimensions / mass | **329.6W×181.5D×57.5H mm;1.05kg excludingbatteries**. | [Manual p12][AX100-M] |
 | IR / NAM / capture | IR import,native/converted NAM andproprietarycapture pending. | Unresolved |
 | Editor / platforms | Officialeditor/currentOS support pending. | Unresolved |
+| Live / Effect Select | DOWN switchesDriveA/B;UP togglesMOD/AMB. Thismodecannotchangeprograms orenterbypass/mute. Pedal-effecton/offisnotstoredperprogram;VOLUMEcannotbeswitchedoff. | [Manual p7][AX100-M] |
 | Looper / drums / live | PhraseTrainer8s slowdownwithoutpitchchange;Sample&Play6s pedalplayback;50rhythmpatterns+metronome,tapdelay,tuner. Detailedrestrictions pending. | [Manual p3][AX100-M] |
 
 ### Separate IDR hardware offers

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX100G",
-    "task": "AX100G initial own-manual record added withmodel-specific price unresolved. Next panelcounts,categorychoices andPhraseTrainer/SamplePlay restrictions;neveradoptAX1000Gsiblingdata.",
+    "task": "AX100G panel counts,toe activation andEffectSelect restrictionssaved. Next verifyPhraseTrainer/SamplePlay recording restrictions andcategorychoices;visual/power/price/softwaregaps remain.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery;ME-30,GT-5,RFX-2000 gaps remain deferred. No downloads,workflows or push."
   },
@@ -54045,5 +54045,11 @@
     "support": "https://www.korg.com/us/support/download/manual/1/20/1574/",
     "manual": "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B",
     "remaining": "Variant-specific price,controls,toe/externalEXP,categorychoices,power current/polarity,display/editor/IR/NAM andpractice restrictions."
+  },
+  "ax100g_panel_checkpoint_20261017": {
+    "source": "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B",
+    "pages": "4,7",
+    "finding": "7rotary/2foot/12buttons textcount;toe activation;Effect Select limits and pedal-state persistence saved.",
+    "remaining": "Visual corroboration,category choices,recording restrictions,current/polarity,model-specific price andsoftware/IR/NAM."
   }
 }
