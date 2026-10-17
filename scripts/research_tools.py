@@ -367,7 +367,7 @@ def main():
         if mode == 'commit-fv02':
             message = 'research(flamma): add FV02 vocal processor with power revision conflicts'
         if mode == 'commit-microverb4':
-            message = 'research(alesis): resolve MicroVerb 4 factory fill and dual-send routing'
+            message = 'research(alesis): document MicroVerb 4 tap control and display terminology conflict'
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-mx200':

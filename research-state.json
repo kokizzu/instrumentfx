@@ -50439,6 +50439,14 @@
       ],
       "finding": "All100user locations charted;mono normalization,DualSend90–99/190–199,100%wet aux andunsaved power-off loss recorded. No explicit bass reference inmanual text;membership remains unclassified.",
       "remaining": "Body/power current,display,category totals,qualified offers"
+    },
+    {
+      "model": "Alesis MicroVerb 4",
+      "checked_date": "2026-10-17",
+      "source": "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf",
+      "pages": "21–22,26–28,42",
+      "finding": "Footswitch power-on connection,program-specific ring control,audio tap−6dB requirement andLezlie ramp documented. LED specification versusLCD prose terminology conflict preserved.",
+      "remaining": "Display physical verification,body/current,category totals,qualified offers"
     }
   ],
   "discovery_cross_brand_bass": {

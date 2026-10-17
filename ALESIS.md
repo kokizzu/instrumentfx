@@ -9,9 +9,9 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope |Guitar direct orvia mixer;vocal program examples documented. No direct mic preamp inferred [MV-M,MV-C] |
-| Expression |No built-in pedal/toe;external EXP unverified. Momentary TRS footswitch:tip bypass,ring control;normally-open/closed accepted [MV-M p.34] |
+| Expression |No built-in pedal/toe;external EXP unverified. Momentary TRS footswitch:tip bypass,ring control;normally-open/closed accepted. Connect before power-on. Ring controls Lezlie speed orDelay tap;other programs ignore it [MV-M pp.21–22,34] |
 | Knobs / footswitches / buttons |**6rotary/0foot/2buttons**:INPUT,MIX,OUTPUT,VALUE,EDIT A/B;STORE,BANK/MIDI. Text-derived,not new visual inspection [MV-M p.42] |
-| Display |LED program display;diagonal,color/touch unresolved [MV-M p.42] |
+| Display |Specifications/control inventory sayLED display;effects prose pp.26,28 calls itLCD. Conflicting terminology retained;diagonal,color/touch unresolved [MV-M pp.26,28,42] |
 | Processing / categories |Up to3simultaneous effects;fixed configurations,not arbitrary free routing. Reverb,chorus/flange,delay,pitch,rotary andmultieffects;exact category choice counts unresolved [MV-P] |
 | Preset memory |100factoryROM+100userRAM=200;original chart lists all100–199user locations prefilled. They remain writable,not100additional protected presets [MV-P,MV-M,MV-C] |
 | Synth / acoustic |Pitch±1octave;dedicated synth/acoustic simulator unverified [MV-P]. Acoustic-guitar program voicing is not an acoustic simulator |
@@ -21,7 +21,7 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 | Dimensions / weight |Exact body dimensions andmass unverified;MIDIverb4 specifications not substituted |
 | Editor / software |MIDI realtime control andSysEx user-bank dumps;full editor/platforms unverified. Product lists2simultaneous MIDI controls [MV-P,MV-M] |
 | Analog conversion |18bitADC/DAC versus24bit internal accumulator;these are different specifications [MV-P,MV-M pp.42–43] |
-| Looper / drums / live |Delay conflict:product maximum1300ms versusmanual delaymemory1270ms. Dual-send andmultichain configurations documented. MonoLeft input feeds both paths unlessRight isconnected. DualSend90–99/190–199 supports separate mixer sends;aux-return use requires100%wet MIX. Saved presets survive;unsaved edits are lost atpower-off [MV-M pp.14–17,32]. Looper,drums,scenes andspillover unresolved [MV-P,MV-M p.43] |
+| Looper / drums / live |Delay conflict:product maximum1300ms versusmanual delaymemory1270ms. Dual-send andmultichain configurations documented. MonoLeft input feeds both paths unlessRight isconnected. DualSend90–99/190–199 supports separate mixer sends;aux-return use requires100%wet MIX. Saved presets survive;unsaved edits are lost atpower-off [MV-M pp.14–17,32]. Audio tap requires holdingControl footswitch andplaying impulses at least−6dB onmeter;highernotes trackbetter. Foot tap setsquarter-note delay;Lezlie speed ramps [MV-M pp.22,27–28]. Looper,drums,scenes andspillover unresolved [MV-P,MV-M p.43] |
 
 ### MicroVerb 4 — separate IDR evidence
 
