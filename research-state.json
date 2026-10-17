@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer Bass V-AMP",
-    "task": "Crossover distinctions,tuner calibration andMIDI timing limits saved. Continue freshbass/vocal Shopee series discovery andremaining primaryspecifications.",
+    "task": "S2 drylabel/modeling qualification andcabinet/Live routing saved. Continue newShopee bass/vocal series searches andremaining technicalfields.",
     "next_models": [],
     "after_queue": "314 active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -52370,6 +52370,13 @@
       "identity": "Manufacturer-authored v1.2 December2005 RevC sharedmanual;desktop applicability checked.",
       "finding": "Separated driveSPLIT41–600Hz high-frequency bypass frompostFX18dB/octave crossover low-frequency preservation;added tuner±15Hz savedreference andMIDI system realtime/common unsupportedchart.",
       "remaining": "Powerunit-side ratings,connector/weight conflicts,simultaneousceiling,editor andqualifiedoffers remain."
+    },
+    {
+      "model": "Behringer Bass V-AMP",
+      "checked_date": "2026-10-17",
+      "source": "https://www.behringer.com/en/products/0709-AAC",
+      "finding": "S2 drylabel explicitlyqualified asamp/cab modeled withoutpostFX;S1extraLiveEQ exclusion,automaticcab selection/override andL1/L2/L3 intendedconnections saved.",
+      "remaining": "S3manual/product omission retained;connector/weight conflicts,powerunit ratings,editor,simultaneousceiling andqualifiedoffers unresolved."
     }
   ],
   "discovery_cross_brand_bass": {

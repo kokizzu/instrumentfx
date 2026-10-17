@@ -467,7 +467,7 @@ def main():
         if mode == 'commit-bass-vamp-pro':
             message = 'research(behringer): document Bass V-AMP PRO MIDI backup and control limits'
         if mode == 'commit-bass-vamp':
-            message = 'research(behringer): distinguish Bass V-AMP crossovers and tuner MIDI limits'
+            message = 'research(behringer): clarify Bass V-AMP dry routing and cabinet selection'
         if mode == 'commit-amplifi-fx100':
             message = 'research(line6): verify FX100 synth wah and music routing details'
         if mode == 'commit-hd500x':

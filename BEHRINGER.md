@@ -63,6 +63,15 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Tuner / calibration | DefaultA440Hz;adjustable **±15Hz in1Hz steps**. Tuner Edit isentered withbotharrows;TUNER exits andautomatically saves reference changes. Derivedrange425–455Hz agreeswithMIDI center-frequency values25–55;not a measured tuner accuracy specification. [Manual p15;MIDI chartp19][BV-M] |
 | MIDI / timing limits | Chartp19 marks **SystemCommon andSystemRealTime neither sent norreceived**;noMIDI-clock sync inferred from MIDI connector orsampler control. Program changes0–124 address sounds;received127 toggles tuner. [Manual p19][BV-M] |
 
+
+### Bass V-AMP — manufacturer routing clarification,2026-10-17
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Routing / S2 dry-label qualification | Manufacturer product page describes S2 left asdry **but retains amp andspeaker simulation**;right adds effects. This is not anunprocessed instrument DI for later amp replacement. S1 isstereo withamp,cabinet andeffects butwithout theadditional three-band LiveEQ;headphone connection selectsS1. [Current product page][BV-P] |
+| Processing / cabinet andpresence control | Selecting anamp automatically selects acabinet;Edit>Cabinets andbank arrows canoverride that choice. HoldingTap repurposesTreble asPresence. This documents factory-model selection,not importedIR/capture support. [Current product page][BV-P] |
+| Routing / Live-mode use | L1 appliesamp,cabinet,effects andadditional three-bandEQ fordirect mixer use. L2 isdescribed forFXreturns oftwo amps,letting theirphysical speakers providecabinet coloration. L3 splitsleft tostageampFXreturn/right tomixer. Manufacturer’s five-mode prose doesnot supersede the2005manual’s six-mode table(S3 included). [Current product page][BV-P] |
+
 <!-- comparison evidence ends -->
 
 ### Provenance and remaining checks
