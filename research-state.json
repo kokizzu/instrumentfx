@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom MS-60B Plus",
-    "task": "MS60B+ firmware1.20 history and preset-list1.00 distinction saved. Next inspect own HTML manual R OUT POSITION choices and per-preset interactions; preserve100 editable versus85 published presets and unresolved086–100 reset map. No downloads. Commit model before next.",
+    "task": "MS60B+ R tap/tempo/master persistence saved; exact image-only tap boundaries/stereo behavior unresolved. Next inspect own MIDI implementation chart and USB receive-channel settings, preserving firmware1.20 CHOCOLATE PLUS qualification. No downloads. Commit before next model.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56507,6 +56507,15 @@
       "sources": [
         "https://zoomcorp.com/documents/3206/MS-60Bplus_VersionHistory_120_en.pdf",
         "https://zoomcorp.com/media/documents/E_MS-60Bplus_Patchlist.pdf"
+      ]
+    },
+    {
+      "model": "Zoom MS-60B Plus",
+      "checked_date": "2026-10-18",
+      "finding": "Own HTML manual confirms patch-specific R OUT POSITION, non-end tap indicator, patch tempo40–250 BPM shared by synchronized effects, MENU BPM numerical setting and master volume retained across patch changes. Exact R tap boundary options/stereo behavior remain unknown: diagrams not represented in accessible text; SVG web fetch unsupported. No files downloaded.",
+      "sources": [
+        "https://zoomcorp.com/manuals/ms-60bplus-en/",
+        "https://zoomcorp.com/media/documents/E_MS-60Bplus.pdf"
       ]
     }
   ],

@@ -1796,6 +1796,11 @@ Manufacturer model **MS-60B+**,catalogued with the word Plus to distinguish it f
 | Presets / published revision | Patch list **Preset Ver. 1.00**, ©2024 **Z2I-5241-01**, starts at001 CLEAR DRIVER PREAMP and ends at085 Hound Dog (1956). Its cover specifies bass-amplifier use as the intended tonal setup. This does not establish direct-PA optimization or the contents of086–100 after firmware updates/reset. | [Own patch list, cover and pp22–24](https://zoomcorp.com/media/documents/E_MS-60Bplus_Patchlist.pdf) |
 | Editor / firmware history | **1.00: May2024 production release; 1.10: May2024 fix for occasional patch-switch freezes; 1.20: January2025 fix for inability to control from M-VAVE CHOCOLATE PLUS.** This history lists no effect-library additions; that is not proof of installed inventory, universal MIDI-controller compatibility or a desktop patch editor. | [Own system software history1.20](https://zoomcorp.com/documents/3206/MS-60Bplus_VersionHistory_120_en.pdf) |
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Routing / R output tap | **R OUT POSITION is stored separately for each patch.** The manual allows a position other than the chain end and shows a tap indicator when such a position is selected. This is a selectable R-channel output point, not evidence of a second independently editable parallel effect chain. Exact selectable boundaries and interaction with stereo effects remain unverified because the selection diagrams are image-only in the accessible text. | [Own manual, changing the R signal output position](https://zoomcorp.com/manuals/ms-60bplus-en/); [PDF pp34–35](https://zoomcorp.com/media/documents/E_MS-60Bplus.pdf) |
+| Live / tempo and master level | **40–250 BPM per patch**, shared by its tempo-synchronized effects. MENU → BPM permits numerical tempo adjustment; the optional BPM module supplies footswitch tap tempo and occupies one of the six effect slots. Master volume persists across patch changes, unlike the patch-specific tempo and R tap. | [Own manual, tempo and signal flow sections](https://zoomcorp.com/manuals/ms-60bplus-en/) |
+
 
 ### Separate IDR hardware offers
 
@@ -1816,7 +1821,7 @@ Additional exact hardware leads checked **2026-10-18**. Both remain outside veri
 
 ### Remaining checks
 
-Verify current category subtotals,installed library/firmware,85preset slot map,displaydiagonal/touch/color-depth wording,external expression,USB electrical/audio/fullMIDI details,userIR/NAM/capture imports,acoustic simulation,performance looper/drums/scenes,currentcondition-qualifiedused/new offers andexact R-output tap interactions. KeeporiginalMS-60B andotherPlus units separate.
+Verify current category subtotals,installed library/firmware,85preset slot map,displaydiagonal/touch/color-depth wording,external expression,USB electrical/audio/fullMIDI details,userIR/NAM/capture imports,acoustic simulation,performance looper/drums/scenes,currentcondition-qualifiedused/new offers and unresolved R-output tap boundaries/stereo interactions. KeeporiginalMS-60B andotherPlus units separate.
 
 ## B1on
 
