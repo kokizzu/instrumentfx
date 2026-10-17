@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery",
-    "task": "DapperAcousticMini missingTriolic historicalask saved;existing SCI/melodiasby/Dooit offersdeduplicated. Continue uncovered series discovery;273records remainpartial.",
+    "model": "Donner discovery leads",
+    "task": "Arena2000missingNEOMUSICsoldout3150000offer saved. Next search exact ShopeeIDAlphaCruncher/TripleThreat hardware;manufacturer eligibility leads already inDONNER.md. Do not count without model research.",
     "next_models": [],
-    "after_queue": "No downloads/workflows/push;commit each useful model before next."
+    "after_queue": "273partialrecords;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41369,7 +41369,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Donner discovery leads."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56483,5 +56483,17 @@
       "source": "https://shopee.co.id/Valeton-Dapper-Acoustic-Mini-i.81323820.44157978669"
     },
     "limits": "Indexed historical ask;notconditionverifiedused/new range. Existing SCI/melodiasby/Dooit offers preserved withoutduplicate. No files downloaded."
+  },
+  "arena2000_offer_followup_20261017": {
+    "source": "https://shopee.co.id/Donner-Arena-2000-Multi-Effect-Pedal-i.158235298.51703812304",
+    "seller": "NEO MUSIC",
+    "shop": "158235298",
+    "item": "51703812304",
+    "region": "Kota Sukabumi",
+    "idr": 3150000,
+    "crawl": "one week",
+    "stock": "Habis",
+    "condition": "unverified",
+    "saved": "Missing exact historical offer added;not qualified new/used range or stock."
   }
 }

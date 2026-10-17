@@ -50,6 +50,12 @@ Preserved original sources: [global product](https://www.donnermusic.com/product
 
 The [official EC1790_update.pdf](https://cdn.shopify.com/s/files/1/1384/9629/files/EC1790_update.pdf) exceeded retrieval limits and was not read in the original pass; no fresh successful PDF inspection is claimed here. Original manufacturer gallery images were inspected for controls and connectors, not measured for dimensions. Customer Q&A and unrelated product-template claims are not technical evidence. Remaining: full algorithms,concurrent ceiling,preset split,touch/button classification,polarity,USB details,current used/new evidence and iOS verification.
 
+### Additional exact IDR offer — checked2026-10-17
+
+| Condition | Evidence / qualification | Source |
+|---|---|---|
+| Condition-unverified sold-out historical ask | **Rp3.150.000**,NEO MUSIC,Kota Sukabumi;shop158235298/item51703812304. One-week indexed crawl,explicit **Habis**;stale4–5October delivery. Used/new condition,variant,bundle,warranty,authenticity,shipping/tax/voucher and final total unknown. Late compensation is not a discount;not available stock or completed sale. | [Exact hardware item](https://shopee.co.id/Donner-Arena-2000-Multi-Effect-Pedal-i.158235298.51703812304) |
+
 <!-- comparison evidence ends -->
 
 ### Arena2000 — complete dated original finding
