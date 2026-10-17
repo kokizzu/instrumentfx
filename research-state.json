@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Donner Arena2000",
-    "task": "Arena2000 original manual operating limits saved. Next seek manufacturer Arena2000 effect-list/category document or preset save/overwrite documentation; the 19-page2022 manual has no complete category census. Preserve total278/subcount conflict and body mass conflict. If inaccessible, resume Shopee discovery for unrecorded models. No downloads; commit before next model.",
+    "task": "Arena2000 headphone load and primary-document access limits saved. Stop retrying oversized regional PDFs or empty Amazon text without a new access route. Resume Shopee Indonesia brand/series discovery for eligible unrecorded multi-effects, checking current inventory. Arena2000 category census and preset overwrite rules remain unresolved. No downloads; commit each model before next.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56812,6 +56812,27 @@
       "checked_date": "2026-10-18",
       "finding": "Original2022 manual: per-preset tone/CTRL/EXP storage; external pedal calibration and adjustable EXP1 toe force; post-effects loop with preset switching; drum40–240BPM independent of preset;44.1k24bit and analog electrical ratings. Factory/user split and overwrite protection unresolved.",
       "source": "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf"
+    },
+    {
+      "model": "Donner Arena2000",
+      "checked_date": "2026-10-18",
+      "finding": "Manufacturer regional description recommends32–64ohm headphones, distinct from10ohm output impedance. Category census and overwrite behavior unresolved.",
+      "source": "https://mx.donnermusic.com/products/donner-arena-2000-multi-effect-guitar-pedal-amp-modeling-multiple-effects-processor",
+      "access_limits": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/1384/9629/files/AREAN2000____EC1790.pdf?v=1666339375",
+          "result": "Reader rejects12387815bytes; no contents read"
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0560/4851/7213/files/ARENA2000__20230315_compressed.pdf?v=1710470694",
+          "result": "Reader rejects13254331bytes; no contents read"
+        },
+        {
+          "url": "https://m.media-amazon.com/images/I/A1xuDM4AgfL.pdf",
+          "result": "14pages zero text lines; screenshot wrapper emitted no image; no visual inspection achieved"
+        }
+      ],
+      "rejected_evidence": "Scribd third-party model translations lack verified manufacturer provenance; do not use as category census. Regional Q&A describes an unrelated mixer and is not model technical evidence."
     }
   ],
   "discovery_cross_brand_bass": {

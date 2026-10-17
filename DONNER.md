@@ -87,6 +87,15 @@ Checked 2026-10-18 against the previously identified manufacturer-authored 2022 
 | Expression / calibration | External EXP requires calibration. Toe-switch force is adjustable during EXP1 calibration; overly light force can trigger switching at maximum travel. External expression or dual bank switch uses TRS; connect cable to pedal before the unit when changing pedal type. Avoid multiple states controlling the same parameter (p11). [Manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) |
 | Looper / drums | Loop records after effects; footswitch C can exit while retaining loop operation and preset switching. Drums span **40–240 BPM**, independently of preset BPM; this does not prove loop synchronization (p12). [Manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) |
 | I/O / electrical ratings | **44.1 kHz, 24-bit AD/DA**. Input **1.85 V / 470 kΩ**; AUX **2.3 V / 10 kΩ**. Unbalanced output **2.6 V / 100 Ω**; balanced **2.4 V / 200 Ω**; phones **1.2 V / 10 Ω**. Voltage convention unspecified (p15). [Manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) |
+
+### Arena2000 — headphone load and documentation limits
+
+Checked 2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / headphone load | Manufacturer regional product description recommends **32–64 Ω headphones**, noting reduced volume with higher impedance. This is recommended load, distinct from the manual’s **10 Ω output impedance**; it does not establish headphone power or a supported maximum impedance. [Donner Mexico product description](https://mx.donnermusic.com/products/donner-arena-2000-multi-effect-guitar-pedal-amp-modeling-multiple-effects-processor) |
+| Effects / evidence limits | No verified manufacturer category census obtained. Regional manual links identify an EC1790 PDF and a 20230315 compressed PDF, but both exceed reader limits. An Amazon-hosted 20221121-named Arena2000 manual has 14 pages but no readable text through this reader. No contents, firmware equivalence or overwrite behavior inferred from filenames. [Regional manual links](https://mx.donnermusic.com/products/donner-arena-2000-multi-effect-guitar-pedal-amp-modeling-multiple-effects-processor) |
 <!-- comparison evidence ends -->
 
 ### Arena2000 — complete dated original finding
