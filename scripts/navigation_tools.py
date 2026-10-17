@@ -38,10 +38,17 @@ def audit():
     report['root_to_legacy_by_target'] = dict(sorted(Counter(link['target'] for link in boundary).items()))
     report['root_to_legacy_occurrences'] = boundary
     assert sum(report['root_to_legacy_by_source'].values()) == report['root_to_legacy_links']
+    legacy_links = [link for link in links if link['target'] in set(legacy)]
+    callers = {path: [link for link in legacy_links if link['target'] == path] for path in legacy}
+    report['legacy_incoming_by_target'] = {path: len(items) for path, items in callers.items()}
+    report['legacy_incoming_occurrences'] = legacy_links
+    report['legacy_without_local_incoming'] = [path for path, items in callers.items() if not items]
+    report['legacy_retention_basis'] = 'Old-anchor compatibility required by AGENTS.md; zero local incoming links does not prove no external callers.'
+    assert sum(report['legacy_incoming_by_target'].values()) == len(legacy_links)
     if state['migration'].get('root_navigation_canonical'):
         assert report['root_to_legacy_links'] == 0, 'Root navigation regressed to legacy compatibility paths'
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps({key:value for key,value in report.items() if key != 'root_to_legacy_occurrences'},ensure_ascii=False,indent=2))
+    print(json.dumps({key:value for key,value in report.items() if key not in ('root_to_legacy_occurrences', 'legacy_incoming_occurrences', 'legacy_incoming_by_target', 'legacy_without_local_incoming')},ensure_ascii=False,indent=2))
     assert not errors and not unclassified,'Navigation or redirect coverage incomplete'
     research.verify()
     return report
@@ -93,7 +100,7 @@ def commit():
     assert changed<=allowed,changed-allowed
     research.git('add','--',*sorted(changed))
     print(research.git('diff','--cached','--stat'))
-    print(research.git('commit','-m','docs: finish canonical root navigation while preserving legacy provenance'))
+    print(research.git('commit','-m','docs: audit remaining legacy compatibility callers'))
 
 if __name__=='__main__':
     {'audit':audit,'save':save,'commit':commit}[sys.argv[1] if len(sys.argv)>1 else 'audit']()
