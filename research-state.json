@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1 FOUR",
-    "task": "B1 FOUR2019 published category inventory93nonPEDAL (includesGuitarLabadditions) saved. Next verify firmware2.0 supplement and distinction between installable library and onboard capacity;then fresh Shopee discovery.",
+    "task": "B1 FOUR firmware2.0/DSP overflow/AUX/editorOS saved;installed algorithm storage capacity remains unknown. Next fresh Shopee discovery by other brand/series;no repeated cached B1offers needed.",
     "next_models": [],
     "after_queue": "288partial models;no downloads/workflows/push."
   },
@@ -57924,6 +57924,15 @@
     },
     "total_non_pedal": 93,
     "qualification": "Includes marked GuitarLab additions;not factory installed total;later downloads outside scope",
+    "downloads": false
+  },
+  "b1four_v2_dsp_20261017": {
+    "support": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/",
+    "supplement": "https://zoomcorp.com/media/documents/E_G1FOUR_v2_supplement_0.pdf",
+    "identity": "OwnB1supportlinksG1namedfile;2019 Z2I383101",
+    "manual": "https://zoomcorp.com/media/documents/E_B1FOUR.pdf",
+    "facts": "V2prepostloop/rhythmvalues;DSPoverflow bypasses;AUXdirect;GuitarLab7.3 Win8.1/10/11 Mac10.13–26",
+    "remaining": "Total installed algorithm storage capacity unknown",
     "downloads": false
   }
 }

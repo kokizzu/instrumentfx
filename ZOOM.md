@@ -706,6 +706,17 @@ Checked2026-10-17 against [effects list Z2I-3610-01](https://zoomcorp.com/media/
 
 This resolves the earlier category-count gap for this published list;installed firmware/library contents and newer additions remain separately unverified.
 
+### B1 FOUR — firmware2.0 and DSP restrictions
+
+Checked2026-10-17 via [own support index](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/),which links the [V2 supplement](https://zoomcorp.com/media/documents/E_G1FOUR_v2_supplement_0.pdf) despite its G1FOUR filename. One-page ©2019 Z2I-3831-01;this is explicit B1 support linkage,not inferred sibling compatibility.
+
+| Field | Evidence / qualification |
+|---|---|
+| Firmware / looper | V2.0 adds pre/post-effects looper placement and permits rhythm-setting values to be checked while rhythm plays. Changing recording time,loop position,or tempo erases the loop. Earlier pre/post observation is now firmware-qualified. |
+| Processing / capacity | [Own operation manual](https://zoomcorp.com/media/documents/E_B1FOUR.pdf),p20:five effects subject to DSP capacity;PROCESS OVERFLOW bypasses effects until the chain is changed. Five slots does not guarantee every combination. Total simultaneously installed algorithm-storage capacity remains unverified;93 published entries is not a capacity claim. |
+| I/O / routing | Same manual pp8,10: AUX bypasses internal effects and goes directly to OUTPUT. |
+| Editor / platforms | Support lists GuitarLab7.3 Windows8.1/10/11 andmacOS10.13–26;manual pp2,8 supports adding effects and editing/backing up patches. Firmware2.00 listed separately;no software downloaded or unit updated. |
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.
