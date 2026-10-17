@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 312,
+  "active_model_count": 313,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 312,
+  "canonical_root_model_count": 313,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "312 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
+  "count_reconciliation": "313 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Amp Academy Stomp",
-    "task": "Research exact discovered hardware and manufacturer manual;check eligibility and inventory before adding. MG-30 display/scenes/GEN2 follow-up saved. Commit each model before another.",
+    "task": "Initial model profile saved;resolve full current manual,concurrency,memory/IR conflicts andqualified prices. Then continue fresh Shopee discovery;MG-30 MKII distinct candidate needs exact hardware offer.",
     "next_models": [],
     "after_queue": "Technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -5307,6 +5307,13 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "VocalEQcompressiongate/reverb plus70min11slotrecording;guitarreverbonlyexcludedguitarmembership;exactcategory-linkedShopeeaskcachedconditionunknown."
+    },
+    {
+      "model": "NUX Amp Academy Stomp",
+      "path": "NUX.md#amp-academy-stomp",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Separate eligible guitar processor;NAM architecture/editor revision and memory/block conflicts retained."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24146,7 +24153,8 @@
       "PG-2",
       "Mighty Plug Pro MP-3",
       "Mighty Plug MP-2",
-      "Stageman Floor NAP-5"
+      "Stageman Floor NAP-5",
+      "Amp Academy Stomp"
     ],
     "Roland": [
       "GR-55",
@@ -24529,7 +24537,8 @@
       "PG-2",
       "Mighty Plug Pro MP-3",
       "Mighty Plug MP-2",
-      "Stageman Floor NAP-5"
+      "Stageman Floor NAP-5",
+      "Amp Academy Stomp"
     ],
     "SONICAKE.md": [
       "Matribox QME-50",
@@ -24729,7 +24738,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 260,
+      "record_count": 261,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41754,10 +41763,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 312,
-    "canonical_root_models": 312,
+    "unique_brand_model_pairs": 313,
+    "canonical_root_models": 313,
     "legacy_only_models": 0,
-    "guitar_view_models": 260,
+    "guitar_view_models": 261,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
     "vocal_view_models": 64,
@@ -41955,6 +41964,7 @@
       "NUX::Mighty Plug Pro MP-3",
       "NUX::Mighty Plug MP-2",
       "NUX::Stageman Floor NAP-5",
+      "NUX::Amp Academy Stomp",
       "Roland::GR-55",
       "Scorpion::KMF-10",
       "Sonicake::Matribox QME-50",
@@ -43607,6 +43617,13 @@
     },
     "NUX::Stageman Floor NAP-5": {
       "link": "NUX.md#stageman-floor-nap-5",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::Amp Academy Stomp": {
+      "link": "NUX.md#amp-academy-stomp",
       "source_files": [
         "NUX.md"
       ],
@@ -64680,7 +64697,7 @@
   },
   "discovery_amp_academy_stomp_20261017": {
     "model": "NUX Amp Academy Stomp",
-    "status": "Exact hardware lead;not yet inventoried or fully profiled",
+    "status": "Recorded partial in NUX.md#amp-academy-stomp;counted once",
     "source": "https://nuxaudio.com/product/ampacademystomp/",
     "offer": "https://shopee.co.id/Nux-Amp-Academy-Stomp-Preamp-Power-Amp-Combination-Original-Efek-Gitar-Nux-NMA-3AAP-i.969726322.40655969226",
     "seller": "jayapratamamusic",

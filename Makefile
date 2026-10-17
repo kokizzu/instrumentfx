@@ -1691,3 +1691,7 @@ research-commit-fv05:
 .PHONY: research-commit-b2-conversion
 research-commit-b2-conversion:
 	python3 scripts/research_tools.py commit-b2-conversion
+
+.PHONY: research-commit-aas
+research-commit-aas:
+	python3 scripts/research_tools.py commit-aas

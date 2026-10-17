@@ -1025,3 +1025,35 @@ Technical layout/power/impedance/conversion/routing facts above: [manufacturer-a
 | Condition unresolved:Rp2,185,500 | [jayapratamamusic969726322/23086324001](https://shopee.co.id/Nux-NAP5-Stageman-Floor-Acoustic-Preamp-DI-Pedal-Original-NAP-5-i.969726322.23086324001),Jakarta Pusat;four-month search cache,stale June18 delivery;direct cache miss. |
 
 Offers checked2026-10-17. New/used condition,working state,revision,stock,variant,adapter/bundle,warranty,authenticity,voucher,shipping/tax/final total unknown;relative delivery text does not confirm stock. No discount arithmetic or completed-sale claim. No downloads/dependency installation.
+
+## Amp Academy Stomp
+
+Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previously inventoried. Guitar multi-effects eligibility follows independent effects architecture. Bass/vocal suitability and ownership unresolved.
+
+| Field | Finding |
+|---|---|
+| Expression | No built-in treadle;external EXP/CTRL or NMP-2 Lite. External toe behavior unknown. [Manual][AAS-M] |
+| Knobs / footswitches / buttons | **8/3/4**,text-derived:HOME,EDIT,1–4,INPUT TRIM,OUTPUT LEVEL;three feet;four navigation/recall keys. Encoder pushes counted once;visual confirmation pending. [Manual][AAS-M] |
+| Display | **2.86-inch color LCD,960×376**;touch unverified. [Product][AAS-P] |
+| Blocks / choices | Older9:NG,CMP,EFX,AMP,EQ,S/R,IR,DLY,RVB. V2.0.5 adds MOD with13choices;current simultaneous ceiling/full category totals unresolved. [Product][AAS-P] |
+| Factory / user memory | Manual prose27slots×3scenes versus spec27factory/27user;do not infer54independent slots. [Manual][AAS-M] |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified;octave/harmony do not establish a synth engine. |
+| Dimensions / mass |183L×130W×65.3H mm;0.9kg. [Manual][AAS-M] |
+| Power |9Vnegative-center,2.1mm,500mAadapter;draw<500mA. Battery/USB power unknown. [Manual][AAS-M] |
+| I/O | Instrument input,send/return,two balancedTRS outputs,AUX,phones,separate3.5mm MIDI in/out,EXP/CTRL,USB-C,DC. MIDI tip5/ring4/sleeve2. Input/return1MΩ,send1kΩ,AUX10kΩ,outputs100Ω,phones10Ω. Aux/phones socket diameters unresolved. [Manual][AAS-M] |
+| IR / NAM / capture | Dual1024sample IR;60factory/40user stated versus60L/Rslots prose. V2.0.5:30NAMslots,A2-Lite native/A1converted;DeepImage proprietary. Importformats/onboardcapture/concurrency unresolved. [Product][AAS-P] |
+| Editor / audio | V2.0.5 requires NUX Audio1.1.7.1 Win/mac;replacesMonarch. Older1.3.0 pairsMonarch1.0.3.1. USB24bit48kHz audio/MIDI;NBT-1 mobile control. [Product][AAS-P] |
+| Looper / routing |30sstereo,PRE/POST,normal/auto recording;serial/parallel delay/reverb andserial/branch insert. Drums/persistence unknown. [Product][AAS-P] |
+| Used / new IDR | No condition-qualified used/new quote. |
+| Historical condition-unverified IDR |**Rp3.400.000**,jayapratamamusic,JakartaPusat,shop969726322/item40655969226. [Exact hardware](https://shopee.co.id/Nux-Amp-Academy-Stomp-Preamp-Power-Amp-Combination-Original-Efek-Gitar-Nux-NMA-3AAP-i.969726322.40655969226). Direct JS-limited last-month cache;condition,workingstate,stock,variant,bundle,adapter,warranty,voucher,shipping/tax/finaltotal unknown. Relative4hdelivery notstock;lateRp10k compensation notdiscount. |
+
+[AAS-P]: https://nuxaudio.com/product/ampacademystomp/
+[AAS-M]: https://manuals.plus/nux/nma-3aap-amp-academy-stomp-manual
+
+### Amp Academy Stomp source identity and remaining checks
+
+[AAS-M][AAS-M] reproduces manufacturer quick-start text,modelNMA-3AAP,©2025Cherub;complete reproduced body read,not generated ASIN instructions. [Official V5 English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_V5_English.pdf) sevenpages yieldedonlyfour textlines;no fullPDF/visual/byte-equivalence claim. [Second PDF mirror](https://device.report/m/eea6ed33ae037f5481e806115770dd25284a5b49c72c4373a3ef6884967b1d70_optim.pdf) likewise.
+
+[NUX USA product](https://www.nux.us/es/products/amp-academy-stomp) independently identifies27modeledamps,three earlierDeepImages,and bundleNMP-2Lite,NBT-1,adapter,cables. These regional manufacturer bundles do not certify Shopee contents. Globalpage support dates2.0.5/Audio1.1.7.1 to2026-09-14;oldMonarch/mobile copy remains elsewhere on samepage. No installation/update performed.
+
+Remaining:current fullmanual,all algorithm counts,actual block concurrency,memory conflict,IRformat/capacity reconciliation,screen touch,control visual confirmation,power operation,qualified new/used prices andstock. Unknown is not No.
