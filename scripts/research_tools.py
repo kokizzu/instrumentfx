@@ -387,7 +387,7 @@ def main():
         if mode == 'commit-b21u':
             message = 'research(zoom): reconcile B2.1u module choices and acoustic amp distinction'
         if mode == 'commit-m100':
-            message = 'research(tc-electronic): document M100 parameters and MIDI firmware transport'
+            message = 'research(tc-electronic): add PLETHORA X3 with qualified hardware offers'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): clarify 607 pedal switching and software evidence'
         if mode == 'commit-spx990':

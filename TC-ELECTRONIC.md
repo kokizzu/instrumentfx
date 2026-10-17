@@ -42,3 +42,42 @@ Working state, authenticity, hardware revision, bundle, adapter, warranty, shipp
 [M100-P]: https://www.tcelectronic.com/en/products/0828-AAH
 [M100-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf
 [M100-O]: https://shopee.co.id/TC-Electronic-M100-Stereo-Multi-Effects-Processor-i.19576516.6955147985
+
+## PLETHORA X3
+
+Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in treadle; **three pressure-sensitive MASH footswitches** provide assignable expression. External EXP socket absent from complete specification connector list; toe separate unresolved. | [Product][PX3-P]; [QSG p23][PX3-M] |
+| K/F/B | **5 rotary / 3 footswitches / button count unresolved**: Effect, TonePrint, three assignable parameters; three MASH. Play/Edit and Boards selector switches separate. Encoder presses require physical-count reconciliation; visual check pending. | [Product][PX3-P]; [QSG p23][PX3-M] |
+| Display | Multiple LCD readouts referenced; diagonal/color/touch unresolved. | [QSG p22][PX3-M] |
+| Processing / categories | **Three effect slots**, flexible order; numerical DSP restrictions pending. Current product lists Phaser, Vibe, Looper, Reverb, Delay, Octaver, Pitch Shifter, Chorus, Compressor, Doubler, Flanger, Tremolo, Harmony, Gate, Vibrato, Vintage Echo. Firmware-qualified library history pending. | [Product][PX3-P] |
+| Preset memory | **Up to127 boards;75 TonePrint slots per effect**; separate from three simultaneous slots. Settings auto-save; factory-filled subset unresolved. | [Product][PX3-P] |
+| Synth / acoustic | Dedicated synth/acoustic conversion unresolved; octave/pitch/harmony do not establish these. | Unresolved |
+| I/O | Two unbalanced quarter-inch TS inputs (**1MΩ**), two unbalanced TS outputs; MIDI In/Thru five-pin DIN; Mini-B USB; DC input. USB audio/power unverified. | [QSG p23][PX3-M] |
+| Power / battery / USB | **9V DC center-negative**,5.5/2.1mm; guide specifies **>600mA included supply**. Actual draw/battery/USB power unresolved. | [QSG p23][PX3-M] |
+| Dimensions / mass | **56.02H ×176.53W ×116.75D mm;0.775kg**. | [QSG p23][PX3-M] |
+| IR / NAM / capture | End-of-chain cabinet simulation documented; user IR, native/converted NAM and capture loading unresolved. | [Product][PX3-P] |
+| Editor / platforms | TonePrint mobile app **4.2+**, Apple/Google app stores, Bluetooth pairing; only one USB/Bluetooth device connection at once. Editor supports customization, exact desktop OS compatibility pending. Bluetooth4.2LE; audio streaming not established. | [Product][PX3-P]; [QSG pp22–23][PX3-M] |
+| Live / routing | Tape Deck Looper, UniTune tuner, Quick Swap order changes, selectable left/right signal direction, cab sim and MASH mappings. Loop duration/drums/scenes pending. | [Product][PX3-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No condition-confirmed offer. | — |
+| New | No condition-confirmed offer. | — |
+| Unverified condition | **Rp6.180.000**, NEO MUSIC, shop158235298/item28021818540,Kota Sukabumi; three-month crawl, July2 arrival text. | [Item1][PX3-O1] |
+| Unverified condition | **Rp7.508.100**, Gelora Musik Serpong,shop306155985/item23943061836,Kab.Tangerang; five-month crawl, delivery unavailable. | [Item2][PX3-O2] |
+
+<!-- comparison evidence ends -->
+
+Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.
+
+[PX3-P]: https://www.tcelectronic.com/en/products/0709-AIS
+[PX3-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0EB4/PLETHORA-X3_QSG_EN.pdf
+[PX3-O1]: https://shopee.co.id/TC-Electronic-PLETHORA-X3-TonePrint-Pedalboard-with-up-to-127-Boards-3-Pedal-Slots-i.158235298.28021818540
+[PX3-O2]: https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X3-TonePrint-i.306155985.23943061836

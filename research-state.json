@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 257,
+  "active_model_count": 258,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 257,
+  "canonical_root_model_count": 258,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "257 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. M100 guitar/vocal mixer-path; bass unclassified;all partial.",
+  "count_reconciliation": "258 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. PLETHORA X3 guitar; bass/vocal unclassified; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic PLETHORA X3",
-    "task": "Verify own official product/manual/firmware and add eligible record using saved exact Shopee offers. Commit before X5. M100 deferred revision/input conflicts saved.",
+    "task": "PLETHORA X3 added with official product/QSG fundamentals. Next own firmware/controls/looper qualifications; commit before X5.",
     "next_models": [
       "TC Electronic PLETHORA X5"
     ],
@@ -23985,7 +23985,8 @@
       "SPX1000"
     ],
     "TC Electronic": [
-      "M100"
+      "M100",
+      "PLETHORA X3"
     ]
   },
   "root_brand_content": {
@@ -24308,12 +24309,13 @@
       "SPX1000"
     ],
     "TC-ELECTRONIC.md": [
-      "M100"
+      "M100",
+      "PLETHORA X3"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 209,
+      "record_count": 210,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41276,10 +41278,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 257,
-    "canonical_root_models": 257,
+    "unique_brand_model_pairs": 258,
+    "canonical_root_models": 258,
     "legacy_only_models": 0,
-    "guitar_view_models": 209,
+    "guitar_view_models": 210,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41339,7 +41341,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41551,7 +41553,8 @@
       "Yamaha::SPX990",
       "Yamaha::SPX2000",
       "Yamaha::SPX1000",
-      "TC Electronic::M100"
+      "TC Electronic::M100",
+      "TC Electronic::PLETHORA X3"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -43745,6 +43748,13 @@
     },
     "TC Electronic::M100": {
       "link": "TC-ELECTRONIC.md#m100",
+      "source_files": [
+        "TC-ELECTRONIC.md"
+      ],
+      "finding_files": []
+    },
+    "TC Electronic::PLETHORA X3": {
+      "link": "TC-ELECTRONIC.md#plethora-x3",
       "source_files": [
         "TC-ELECTRONIC.md"
       ],
@@ -54830,5 +54840,19 @@
       }
     ],
     "limits": "Titles are not specification proof. Condition, selected variant, bundle, adapter, working state, authenticity, warranty, shipping/tax and vouchers unresolved. Delay compensation is not discount. Excluded accessory and specialist category results not promoted."
+  },
+  "plethora_x3_primary_checkpoint_20261017": {
+    "product": "https://www.tcelectronic.com/en/products/0709-AIS",
+    "manual": "https://mediadl.musictribe.com/media/PLM/data/docs/P0EB4/PLETHORA-X3_QSG_EN.pdf",
+    "evidence": "Own product and guide pp22–23; three slots versus127boards/75TonePrints;MASH, connectivity,power,dimensions and app pairing.",
+    "remaining": [
+      "Firmware history/library restrictions",
+      "Physical button/encoder count",
+      "Looper duration",
+      "IR/NAM/import",
+      "Desktop OS",
+      "Display/visual checks",
+      "Exact condition-specific offers"
+    ]
   }
 }
