@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP200",
-    "task": "RP200 effect catalogues saved. Next investigate official software/power evidence or resolve BOSS ME-8 exact Shopee item. Keep RP200 visual and condition-specific price gaps explicit.",
+    "task": "RP200 support references saved; remaining fields explicit. Resume BOSS ME-8 exact Shopee item discovery, then own-model manual if resolved.",
     "next_models": [],
     "after_queue": "Resolve BOSS ME-8 exact Shopee item if possible, then continue brand/series discovery. AX100G, ME-30, GT-5 and RFX-2000 retain deferred gaps. No downloads, workflows or push."
   },
@@ -54136,5 +54136,11 @@
     "pages": "23–26",
     "finding": "Pitch shift interval, eight wet-only and seven dry-added Whammy alternatives, ten named reverbs and ten SynthTalk voices saved.",
     "remaining": "Visual/display corroboration, official editor/IR/NAM, actual current/battery/USB evidence and condition-specific price."
+  },
+  "rp200_support_checkpoint_20261017": {
+    "faq": "https://digitech.com/faqs/",
+    "software": "https://digitech.com/software-downloads/",
+    "finding": "Own-model AC adapter connector dimensions and regional 120V supply preserved. No RP200 software directory entry; no universal negative editor claim. General discontinued-software OS limitation saved.",
+    "remaining": "Actual current, battery/USB operation, visual/display, IR/NAM and condition-specific prices."
   }
 }

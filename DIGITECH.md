@@ -375,9 +375,10 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Synth / acoustic | SynthTalk and acoustic-guitar simulation documented; acoustic is one of the 12 amp/guitar alternatives. | [Manual p31][RP200-M] |
 | I/O | ¼-inch TS input; ¼-inch stereo TRS output; ⅛-inch stereo AUX and headphones; power input. | [Manual pp5,31][RP200-M] |
 | Power / battery / USB | **9 V AC, 1.3 A PS0913B supply; 6.8 W consumption**. Supply rating is not unit current draw. Battery/USB operation unverified. | [Manual p31][RP200-M] |
+| Power / connector and regional supply | Official RP200 compatibility row specifies a **9.5 mm-long, 5.5 mm outer, 2.5 mm pin barrel connector**, PS0913B **9 V AC / 1.3 A** output and a **120 V AC Type A** adapter input. That regional supply is not evidence of universal mains input. AC output has no fixed DC center polarity; actual unit draw remains unverified. | [DigiTech FAQ compatibility table][RP200-F] |
 | Dimensions / mass | **8.5 L × 10 W × 2.25 H inches; 3 lb**. | [Manual p31][RP200-M] |
 | IR / NAM / capture | Import, native/converted NAM and proprietary captures unverified. | Unresolved |
-| Editor / platforms | Editor and current OS support unverified. | Unresolved |
+| Editor / platforms | No RP200 entry found in the official software directory checked 2026-10-17; this does not prove an editor never existed. Current OS support unverified. DigiTech warns discontinued software is unsupported on newer operating systems. | [Software directory][RP200-S]; [FAQ][RP200-F] |
 | Live / practice | **30 drum patterns**; tuner and bypass via paired footswitches. Looper/scenes unverified. | [Manual pp3,31][RP200-M] |
 
 ### Separate IDR hardware offers
@@ -397,3 +398,6 @@ Source identity caveat: official DigiTech directory links this 40-page PDF as RP
 [RP200-M]: https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP200_UsersGuide.pdf
 [RP200-O]: https://shopee.co.id/EFEK-GITAR-DIGITECH-RP200-i.118784596.11727599440
 [RP200-D]: https://digitech.com/product-manuals/
+
+[RP200-F]: https://digitech.com/faqs/
+[RP200-S]: https://digitech.com/software-downloads/
