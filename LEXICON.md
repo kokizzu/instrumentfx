@@ -154,6 +154,17 @@ Checked 2026-10-18 against the [18-0446V-F manufacturer manual, printed pp19–2
 
 The derived **34 descriptions include configuration-dependent effects**. They do not establish all choices being available in every slot/routing. Program-bank accounting remains unresolved; do not turn this census into a preset count.
 
+
+### MX400 — dry recording and backup boundaries
+
+Checked 2026-10-18 against the [manufacturer manual, printed pp32,34,40–41](https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf). These qualifications refine the earlier abbreviated routing/bypass descriptions.
+
+| Field | Verified behavior / boundary |
+|---|---|
+| I/O / dry digital recording exception | Digital Out A/B can send **dry audio from analog inputs** while analog outputs remain processed. This setting **does not bypass incoming S/PDIF audio**. Thus digital outputs need not always mirror the processed analog outputs. |
+| Live / bypass tails | **Input Dry** retains dry signal and lets reverb/delay tails finish; **Input Mute** suppresses dry signal but also lets tails finish. These are bypass behaviors, not preset-change spillover. |
+| Editor / backup and file distinction | Backup includes presets **and global settings**; Restore replaces hardware data. Individual programs use **.mx400dsp / .mx400stp / .mx400srp** for Dual Stereo/Stereo/Surround. Archive extensions are **.m2a on Windows / .syx on Mac** in this manual, not proof of current application compatibility. Factory Restore erases user settings/programs. |
+
 <!-- comparison evidence ends -->
 
 Cached hardware asking price, not live stock or completed sale. Seller “Original/Ori” wording does not verify authenticity or revision. Used/new condition,actual MX400 versus XL/voltage variant,bundle,mains cable,warranty,shipping/tax,voucher eligibility and working state remain unverified. Relative “tomorrow” delivery does not override explicit Habis. Late-arrival compensation up to Rp10,000 is not a purchase discount.

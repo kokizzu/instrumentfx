@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX400",
-    "task": "MX400 manual effect-description census saved;34 descriptions are configuration-dependent, not simultaneous slots. Reverb Size mutes temporarily. Bank accounting, standalone editor bitness/current OS and visual control corroboration remain open. Next fresh Shopee discovery or other incomplete primary fields.",
+    "task": "MX400 dry digital-output exception, bypass tails and backup/archive/reset scope saved. Bank totals/current OS/visual controls remain open. Fresh Shopee frontier searches found no qualifying new hardware. Continue alternate brand/series discovery or unresolved primary fields; no downloads.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -24157,6 +24157,18 @@
         "Korg AX3000B"
       ],
       "finding": "Shopee searches established no new exact hardware offers. BP200 result16626959/4486100964 was a power supply; other queries empty. B2FOUR/VE500/MX400 results repeat recorded hardware; no absence conclusion."
+    },
+    {
+      "checked": "2026-10-18",
+      "models": [
+        "Zoom B1Xnext",
+        "Korg AX1B",
+        "DigiTech Vocalist Live",
+        "Electro-Harmonix Voice Box",
+        "TC-Helicon VoiceTone Create",
+        "BOSS SE-70"
+      ],
+      "finding": "Shopee searches established no new exact hardware listing; Vocalist hit was already-known power supply16626959/4486100964, other hits were unrelated. No absence conclusion."
     }
   ],
   "inventory_by_brand": {
@@ -57902,6 +57914,12 @@
       "model": "Lexicon MX400",
       "checked": "2026-10-18",
       "finding": "Derived34 named manual descriptions:17reverb/7delay/2dynamics/8modulation, not per-slot availability or simultaneous ceiling. Reverb Size adjustment temporarily mutes; bank accounting unresolved.",
+      "source": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf"
+    },
+    {
+      "model": "Lexicon MX400",
+      "checked": "2026-10-18",
+      "finding": "Clarified analog-input-only dry S/PDIF output, bypass tail modes, and program versus whole-state archive formats/reset scope from own manual.",
       "source": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf"
     }
   ],
