@@ -62015,5 +62015,17 @@
     "derived_sum": 148,
     "limits": "Documentcategorycensusexcludeslooper/rhythm; notunique/current/factorypreloadproof",
     "next": "Physical controls and electrical specifications; fresh Shopee discovery; remaining model verification gaps persist"
+  },
+  "g3n_electrical_20261017": {
+    "source": "https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf",
+    "page": 51,
+    "findings": [
+      "44.1k24bitADDA128x32bitDSP",
+      "INPUT−20dBu470kAUX−10dBu10k",
+      "Line+5dBm10kminimum;phones15+15mW32ohm",
+      "Residual−100dBu;EIN119dBuunsignedconflict"
+    ],
+    "next": "Physical controls; current library additions and fresh Shopee discovery",
+    "limits": "Manufacturerindexedtextnotbenchmeasurement; unsignedEINnotcorrected"
   }
 }
