@@ -38,6 +38,14 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Memory / save | Hold the destination preset button about2seconds to overwrite it;bank selection allows saving elsewhere. Selecting another preset discards unsaved edits. |
 | Memory / restoration | Holding both arrows until Pr recalls the location’s original sound;save it to retain the restoration. D+E during startup,then both arrows after CL,restores all factory sounds and overwrites user saves. Manual points to MIDI SysEx backup in8.4.1;this does not establish an editor application. |
 
+### Bass V-AMP — effect inventory and count discrepancy,2026-10-17
+
+| Field | Verified inventory / limit |
+|---|---|
+| Processing / post-effect choices | [Manufacturer manual v1.2,December2005,table6.1,p14][BV-M] enumerates **15**:VCF+Flanger,Delay+Chorus,StereoDelay,Delay/Loop,Reverb,Ambience,VoiceBox,Ultrabass,RotaryCab,Phaser,Flanger,Chorus,StereoChorus,Synth,MIDISynth. The text advertises16groups;the missing sixteenth remains unresolved. Do not silently reconcile it with bypass or a pre-effect. |
+| Processing / pre-effects | Table6.2,p13 lists MIDIWah,P-Funk’n,AutoWah. MIDIWah excludes the other two;these choices are separate from the post-effect table. Compressor anddenoiser operate independently of the multi-effects section. Exact aggregate ceiling remains unverified. |
+| Synth / MIDI distinction | P15 distinguishes instrument-driven three-voice Synth,nine variants,from MIDISynth for external note control. MIDISynth has its own MIDI-accessible reverb;not proof of freely assignable extra reverb on every patch. |
+
 <!-- comparison evidence ends -->
 
 ### Provenance and remaining checks

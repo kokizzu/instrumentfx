@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer Bass V-AMP",
-    "task": "Factory/editable memory and restoration clarified. Next resolve own-model power or enumerate effect groups from manufacturer manual;fresh bass/vocal discovery remains open.",
+    "task": "Bass V-AMP15post-effect entries vs16headline conflict saved;3pre-effects and synth distinction recorded. Next own-model power evidence or fresh bass/vocal discovery;do not force count reconciliation.",
     "next_models": [],
     "after_queue": "290partialmodels;no downloads/workflows/push."
   },
@@ -58214,6 +58214,35 @@
       "Display details",
       "Qualified live used/new offers"
     ],
+    "downloads": false
+  },
+  "bass_vamp_effect_inventory_20261017": {
+    "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf",
+    "identity": "v1.2 December2005 pp13–15 tables6.1/6.2",
+    "post_effects": [
+      "VCF+Flanger",
+      "Delay+Chorus",
+      "StereoDelay",
+      "Delay/Loop",
+      "Reverb",
+      "Ambience",
+      "VoiceBox",
+      "Ultrabass",
+      "RotaryCab",
+      "Phaser",
+      "Flanger",
+      "Chorus",
+      "StereoChorus",
+      "Synth",
+      "MIDISynth"
+    ],
+    "count_conflict": "15tableentries vs16advertisedgroups;unresolved,not forcibly bypass/pre-effect",
+    "pre_effects": [
+      "MIDIWah",
+      "P-Funk’n",
+      "AutoWah"
+    ],
+    "synth": "Instrument3voice9variants distinct MIDI-note synth;MIDI synth reverb not global extra slot",
     "downloads": false
   }
 }
