@@ -1539,12 +1539,12 @@ Checked **2026-10-17**. Partial guitar multi-effects record, distinct from Black
 | Field | Evidence / remaining limits |
 |---|---|
 | Processing / choices | Six sections: analog Boost/Overdrive/Distortion, digital Modulation/Delay/Reverb. Exact concurrent ceiling unverified. Japanese page: Mod4 (Tremolo/Phaser/Chorus/Flanger),Delay3 (Digital/Echo/Analog). Reverb alternatives unverified. |
-| Presets | Japanese page describes **five module-on/off combinations**; not proof of saved knob values. Factory/user split and other memory unknown. |
+| Presets | Japanese page describes **five module-on/off combinations**; Manual p4 explicitly says **effect parameters cannot be stored; only module on/off states**. Factory/user split and other memory unknown. |
 | Expression | Built-in/external/toe support unverified. |
-| Controls | Full rotary/footswitch/button/selector counts pending manual/panel verification. |
+| Controls | Manual p3 lists **six footswitches: TAP plus1–5**. Complete rotary/button/selector counts remain pending panel verification. |
 | Display | Tuner documented; display diagonal,color,touch unverified. |
 | Dimensions / weight | **370(D) ×96(W) ×51(H) mm;1200g**, exactly as both pages label axes. Do not silently transpose into presumed physical width; axis interpretation remains open. |
-| I/O | ¼-inch input2MΩ;two¼-inch outputs100Ω;effects loop;dedicated speaker-simulated direct output for mixer/headphones. Full connector types/inventory unknown. Global page calls loop parallel;Japanese page locates it between Dist/Mod. Detailed topology unresolved. |
+| I/O | ¼-inch input2MΩ;two¼-inch outputs100Ω;effects loop;dedicated speaker-simulated direct output for mixer/headphones. Manual p10: **CAB SIM OUT accepts mono/stereo¼-inch cable**;main L-only mono,L/R stereo;DC9V1A input. FX loop send/return documented;other connector claims remain unverified. Global page calls loop parallel;Japanese page locates it between Dist/Mod. Detailed topology unresolved. |
 | Power | Global: **9VDC center-negative,adapter≥1A recommended**. Japanese page: **300mA consumption,no batteries**. Adapter capacity is not device draw; preserve distinct source statements. USB-powered operation unknown. |
 | Synth / acoustic | Specific synthesis/acoustic-simulation algorithms unverified. |
 | IR / NAM / captures | UserIR,native/convertedNAM,proprietarycapture import unverified;fixed speaker simulation is separate. |
@@ -1560,3 +1560,9 @@ Sources: [manufacturer global Red Truck](https://www.mooeraudio.com/product/Red-
 | New/used unverified;Indonesian retailer,notShopee | Melodia Musik,SKU Red-Truck: search cache **Rp3.689.000** (two-week crawl),opened body **Rp3.472.000** (ten-month crawl),both versusRp4.340.000. Conflicting snapshots,not a current price range. Both say Tersedia;search shows Jakarta/Bali/BSD available,Yogyakarta/Surabaya unavailable,while opened body uses warehouse codes. Checkoutstock,condition,edition,bundle,warranty,shipping,tax,voucher andwarehouse allocation unverified. | [Exact retailer hardware](https://www.melodiamusik.com/product/mooer-red-truck/) |
 
 Separate confirmed new/used ShopeeID offers remain unknown; foreign listings are not converted to IDR.
+
+### Red Truck — manufacturer manual text on mirror
+
+[12-page owner manual transcription](https://manualsnet.com/mooer/red-truck), checked2026-10-17: exact Red Truck title,MOOER AUDIO CO.,LTD publisher,p11 specifications matching own product page. No revision/date printed in retrieved text; metadata year0 is not a publication year. Only document text used,not generated FAQs or visual interpretation. Original PDF bytes not inspected.
+
+Manual pp3–4: LIVE/PRESET modes toggle with TAP+footswitch1;five stored bypass combinations recall with1–5. On p7 the loop is buffered between DIST/MOD,with SEND described as Dist output and RETURN as Mod input. Global parallel-loop wording remains unresolved rather than silently replaced. No files downloaded.
