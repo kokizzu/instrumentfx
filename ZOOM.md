@@ -1608,6 +1608,16 @@ Checked 2026-10-18 against the manufacturer’s B3n-specific history, **Z2I-3324
 | Apps / firmware bug fixes | **v2.20: May2019** fixes intermittent Guitar Lab EDITOR-view unavailability and USB connections becoming disabled after some time. This does not establish USB audio, universal OS support or current operational reliability. [Exact-model history](https://zoomcorp.com/documents/3428/B3n_System_Firmware_Version_History_ver220_en.pdf) |
 | Firmware / publication-date distinction | Manufacturer news page displays **January1,2020** for its v2.0 announcement; version-history document instead dates the release **April2018**. Retain both publication/release contexts; do not replace the explicit history date with the web-page date. [Manufacturer news](https://zoomcorp.com/en/us/news/firmware-update-v20-zoom-b3n-g3n-and-g3xn/) |
 
+### B3n — revision-qualified electrical specifications
+
+Checked 2026-10-18, English manufacturer manual **Z2I-2783-01, printed p47**. These are published specifications, not measured results. Physical controls and headphone-layout conflict remain unresolved; no readable panel image was inspected.
+
+| Field | Specification / qualification |
+|---|---|
+| Analog conversion / audio processing | **44.1kHz;24-bit AD/DA with128× oversampling;32-bit signal processing**. Frequency response20Hz–20kHz,+1/−3dB into10kΩ. Converter specifications do not establish USB audio. [Own manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Audio I/O / input levels | Instrument INPUT: **−20dBu nominal,470kΩ**. Stereo-mini AUX: **−10dBu nominal,10kΩ**. Nominal ratings are not maximum unclipped input levels. [Own manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Audio I/O / output ratings and conflict | R mono-phone output and specification-labelled L/MONO/PHONES line output: **+5dBm maximum into≥10kΩ**. Headphone rating **15+15mW into32Ω**. This table’s combined-socket wording still conflicts with the separately labelled PHONES rear panel/product description; ratings alone do not resolve physical layout. Manufacturer defines0dBm=0.775Vrms; original notation retained. [Own manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.

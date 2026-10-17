@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B3n",
-    "task": "B3n exact firmware history saved, including OutputVP and v2.20 fixes with release/publication dates distinguished. Base/addition numerical mapping remains unverified. Next use readable manufacturer panel evidence for controls/headphone conflict or move to another substantial recorded-model gap/fresh Shopee lead; do not repeat census/history checks. No downloads; commit before next model.",
+    "task": "B3n electrical/converter ratings saved with headphone wording conflict retained. Visual path unavailable (no browser surfaces; no readable image), so do not repeat failed panel check without new source. Next pursue another recorded-model substantial gap or fresh exact Shopee discovery. B3n physical F/B totals,base/addition mapping,USB audio and modern condition/stock remain partial. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56760,6 +56760,12 @@
         "https://zoomcorp.com/documents/3428/B3n_System_Firmware_Version_History_ver220_en.pdf",
         "https://zoomcorp.com/en/us/news/firmware-update-v20-zoom-b3n-g3n-and-g3xn/"
       ]
+    },
+    {
+      "model": "Zoom B3n",
+      "checked_date": "2026-10-18",
+      "finding": "Manual Z2I-2783-01 p47:44.1kHz,24-bit128xAD/DA,32-bit processing;input−20dBu470kohm,aux−10dBu10kohm;outputs+5dBm≥10kohm,phones15+15mW32ohm. Combined socket spec remains in conflict with panel/product wording. CUA inventory had no browser and image search no usable result; no visual verification claimed.",
+      "source": "https://zoomcorp.com/media/documents/E_B3n.pdf"
     }
   ],
   "discovery_cross_brand_bass": {
