@@ -1409,7 +1409,7 @@ def commit(model_id):
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
     if model_id == 've-500':
-        print(research_tools.git('commit', '-m', 'research(boss): verify VE500 Windows application support separately'))
+        print(research_tools.git('commit', '-m', 'research(boss): qualify VE500 MIDI visibility reset and detection routing'))
         return
     if model_id == 'ampero-mp350':
         print(research_tools.git('commit', '-m', 'research(hotone): qualify MP-350 scene bypass and DSP routing limits'))

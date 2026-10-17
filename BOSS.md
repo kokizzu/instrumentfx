@@ -463,6 +463,16 @@ Checked 2026-10-18.
 |---|---|
 | Editor / Windows11 application support | [BOSS Windows matrix, updated2026-10-01](https://www.boss.info/global/support/support_news/25090811win1/) lists VE-500 **Hardware & Driver** and **Exclusive Application** separately as **Yes(Download)** for Windows11 and Windows10. This resolves the earlier editor-Windows11 gap using application-specific evidence, not the driver listing alone. Matrix legend excludes ARM PCs, virtual Windows and Windows running on Mac. Windows10 Yes entries carry an end-of-support caveat: operation is not guaranteed regardless of table status. Published compatibility is not a local operational test or certification of every Windows11 update. Earlier editor1.00 requirements remain as dated provenance. |
 
+### VE-500 — MIDI visibility, reset scope and guitar detection
+
+Checked 2026-10-18 in Roland’s own support articles.
+
+| Field | Evidence / qualification |
+|---|---|
+| MIDI / harmony menu visibility | **M>VOICE**, HRM1–3 page5, appears only when a MIDI device is connected through the **5-pin MIDI IN** connector. Missing page5 is therefore not proof that the parameter is absent. This specific condition does not establish equivalent USB-only visibility. [Roland article, updated2026-05-04](https://support.roland.com/hc/en-us/articles/360016423292-VE-500-MIDI-to-Voice-Parameters-Not-Visible-in-HRM-Effect) |
+| Presets / selective reset | Factory Reset FROM/TO can select **SYSTEM or U01–U99**. SYSTEM-only or a selected user-patch range can be reset; affected settings are lost. This is not evidence of additional memories or a stored-loop backup. [Roland article, updated2026-07-02](https://support.roland.com/hc/en-us/articles/360015997611-VE-500-How-do-I-restore-the-factory-settings-Factory-Reset) |
+| Routing / chord detection | Roland recommends guitar → VE-500 INST, then unprocessed THRU → external guitar processor. Sending an already effected guitar into VE-500 is discouraged because dry guitar gives better chord recognition. This does not add guitar processing to the vocal unit. [Roland connection guidance](https://support.roland.com/hc/en-us/articles/17572594030619-How-to-connect-a-BOSS-GT-001-to-a-VE-500-or-VE-8) |
+
 ## VE-22
 
 Vocal multi-effects;consolidated/researched2026-10-16;partial verification.

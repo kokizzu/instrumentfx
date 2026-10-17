@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-500",
-    "task": "Saved current Windows11 application support separately from driver evidence. Next verify VE500 USB audio channel count/format from exact driver/manual source, or resume Shopee discovery; repeated Artech/princemusic offers unchanged. No downloads; commit each model before next.",
+    "task": "Saved VE500 DIN-MIDI-dependent M>VOICE visibility, selective reset and dry chord-detection routing. USB channelcount/format stillunknown; avoid third-party speculative2x2/24bit44.1k claims. Next use exact driver documentation if accessible or move to differentmodel primarygap/Shopee discovery. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56896,6 +56896,16 @@
       "checked_date": "2026-10-18",
       "finding": "Current BOSS Windows matrix separately confirms VE500 exclusive application and hardware/driver YesDownload forWin11/10. Resolves editorWin11 evidence gap;ARM/virtual/Windows-on-Mac exclusions andWin10end-support caveat retained.",
       "source": "https://www.boss.info/global/support/support_news/25090811win1/"
+    },
+    {
+      "model": "BOSS VE-500",
+      "checked_date": "2026-10-18",
+      "finding": "Primary support confirms M>VOICE HRMpage5 visibility depends on5pinMIDIIN, selective SYSTEM/U01–U99reset, and dryguitarINST→THRU routing recommendation. USBformat/channel search unresolved; third-party24bit44.1k2x2claims not accepted.",
+      "sources": [
+        "https://support.roland.com/hc/en-us/articles/360016423292-VE-500-MIDI-to-Voice-Parameters-Not-Visible-in-HRM-Effect",
+        "https://support.roland.com/hc/en-us/articles/360015997611-VE-500-How-do-I-restore-the-factory-settings-Factory-Reset",
+        "https://support.roland.com/hc/en-us/articles/17572594030619-How-to-connect-a-BOSS-GT-001-to-a-VE-500-or-VE-8"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
