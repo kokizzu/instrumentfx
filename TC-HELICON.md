@@ -547,3 +547,54 @@ Official indexed manual p4 andQSG pp10–11 used;both directPDFs502. Full Compas
 [PVE-J]: https://www.electori.co.jp/tc-helicon/vocal/perform_ve.php
 
 <!-- comparison evidence ends -->
+
+## Mic Mechanic 2
+
+Checked **2026-10-17**; partial. Vocal multi-effects with independent echo, reverb and correction controls; included in ALL-VOCAL only. This is the second-generation unit, not the original Mic Mechanic. No guitar or bass capability is inferred from seller category labels.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No integrated treadle in the documented control layout; external continuous expression and toe-switch support unverified. Mic Control is a microphone switch, not expression. |
+| Rotary / footswitches / buttons | **3 / 1 / 1** from the numbered control inventory: Echo, Reverb, Correction; bypass footswitch; Tone button. Rear power switch additional. Text-based inventory, not a successful current image inspection. [Controls][MM2-C] |
+| Display | Battery and effect/tempo LEDs documented; graphical screen, diagonal, color-display mode and touch unverified. [Controls][MM2-C] |
+| Dimensions / weight | **140 × 90 × 60 mm; 420 g**. Printed dimension order has no axis labels; W×D×H mapping and battery inclusion unverified. [Specifications][MM2-S] |
+| Simultaneous processing / categories | Independent echo, reverb and pitch correction plus Tone; not a freely assignable DSP-block count. Three echo choices: Tape, Digital, Slap. Three reverb spaces; endpoints Room/Hall. Tone has Normal/Less Bright settings. [Controls][MM2-C] |
+| Factory / user / total presets | Numerical factory-filled, editable-user and total patch memories unverified; knob styles are not counted as stored patches. |
+| Synth / acoustic simulation | Dedicated synthesis and acoustic-instrument simulation unverified. Pitch correction alone establishes neither. |
+| IR / NAM / capture | User IR loading, native NAM, converted NAM and proprietary capture support each unverified. |
+| Audio / control I/O | Balanced XLR microphone input and XLR output; micro-USB and 9 V power input. Headphone, instrument, MIDI and USB-audio operation unverified. [Older manual][MM2-O], pp3–4 |
+| Power / battery / USB | Four AA batteries documented. **9 V / >300 mA, 2.7 W** in multilingual v1.0 specifications, versus **9 V / 670 mA, 6 W** in the older six-page manual. These are conflicting published ratings, not measured draw. DC polarity, barrel dimensions, runtime and USB power/charging unverified. [Specifications][MM2-S]; [older manual][MM2-O], p5 |
+| Editor / updater platforms | Micro-USB/VoiceSupport 2 firmware updating documented. Full preset editor, current Windows/macOS compatibility, mobile editor and audio drivers unverified; updater support does not establish editing or audio-interface support. [Controls][MM2-C] |
+| Live functions / routing | Footswitch bypass leaves Tone active. Hold roughly two seconds to enter/exit tap mode; no automatic timeout. Tone plus Correction adjusts echo feedback. Automatic mic gain; MP-75 Mic Control, disabled for condenser mics. Looper, drums, scenes, persistence and spillover unverified. [Operation][MM2-A] |
+| Phantom / bypass conflicts | Manual says **always-on 24 V** phantom; current manufacturer product page says **48 V**, true bypass and hold-to-bank. Manual instead documents tap mode and retained Tone when bypassed. Hardware revision or correction explaining these differences unverified. [Operation][MM2-A]; [Product][MM2-P] |
+| Used IDR | **?** No sale condition verified; sold-out asks below are not classified as used. |
+| New IDR | **?** Exact hardware asks exist, but retail-looking seller identity does not establish item condition. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee hardware observations
+
+Checked **2026-10-17**. Amounts are historical asking observations, not transactions or verified used/new ranges:
+
+- [EARWAXED, shop462045001/item25352600524](https://shopee.co.id/VOCAL-EFFECT-TC-HELICON-(MIC-MECHANIC-2)-i.462045001.25352600524), Kota Bandung: **Rp2,100,000, Habis**. Exact page reopened; last-week cache with stale October7–9 delivery.
+- [marliqueblues, shop32027047/item29205970297](https://shopee.co.id/tc-helicon-mic-mechanic-2-vocal-effect-i.32027047.29205970297), Kota Pekalongan: **Rp2,000,000, Habis** in last-week index; direct retrieval failed. October6 delivery stale.
+- [Zeal Musik, shop26220305/item52363985288](https://shopee.co.id/TC-Helicon-Mic-Mechanic-2-Vocal-Effects-Pedal-Efek-Vokal-Zeal-Musik-Jogja-i.26220305.52363985288), Kabupaten Sleman: **Rp2,710,000**. Exact page reopened, JS-limited and last-month cache; August26 delivery stale.
+- [NEO MUSIC, shop158235298/item11311313367](https://shopee.co.id/TC-HELICON-MIC-MECHANIC-2-Vocal-Effects-Stompbox-Original-i.158235298.11311313367), Kota Sukabumi: reopened **Rp2,700,000** versus earlier two-month search cache **Rp2,670,000**; retain both observations without inferring a price trend. September4 delivery stale.
+
+Sale condition, working condition, selected variation, adapter/battery bundle, warranty, shipping/tax, current stock and final total remain unverified. Rp10,000 late-delivery compensation is not deducted. The separately indexed Rp175,000 adapter is rejected as processor-price evidence. Full provenance and Duplicator leads are in research-state.json.
+
+### Document identity and unresolved evidence
+
+Current [manufacturer product page][MM2-P] establishes the exact model. Its identified [manufacturer-hosted multilingual manual][MM2-H] failed retrieval. Manufacturer-authored multilingual **v1.0**, English pp14–16, was read through ManualsLib; only the reproduced manual body was used, not generated FAQs. An older English six-page manual, ©2016 and title metadata 2016-11-21 Rev.1, was read on two mirrors. The mirrors differ even in power-bundle wording (optional/supplied); no firmware or hardware revision is assigned to resolve that difference. Web PDF screenshots did not yield an inspectable image; no visual panel verification claimed. No file, application, dependency or firmware downloaded.
+
+Remaining: phantom/bypass/power revision conflicts; dimension axes; polarity/current draw/barrel; runtime/USB power; editor platform support; preset memory and persistence; display; IR/NAM/capture; qualified sale condition and live stock.
+
+[MM2-P]: https://www.tchelicon.com/en/products/0726-aae
+[MM2-C]: https://www.manualslib.com/manual/2557029/Tc-Helicon-Mic-Mechanic-2.html?page=14
+[MM2-A]: https://www.manualslib.com/manual/2557029/Tc-Helicon-Mic-Mechanic-2.html?page=15
+[MM2-S]: https://www.manualslib.com/manual/2557029/Tc-Helicon-Mic-Mechanic-2.html?page=16
+[MM2-H]: https://cdn.mediavalet.com/aunsw/musictribe/Ezul2jVHX06ru8x0ML0LLQ/yTCfboad_kixcdoVVARxGw/Original/M_TH_P0DDW_MIC-MECHANIC-2.pdf
+[MM2-O]: https://www.zikinf.com/manuels/tc-helicon-mic-mechanic-2-manuel-utilisateur-en-74710.pdf
+[MM2-O2]: https://images.equipboard.com/uploads/item/manual/59423/tc-helicon-mic-mechanic-2-manual.pdf
