@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP360XP",
-    "task": "LFO range/waveforms,phrase-sampler position,headphone and volume-tail routing saved. Continue fresh Shopee discovery or full category inventory/remaining model specifications;do not infer preset spillover from volume routing.",
+    "task": "RP360XP compressor3/delay9/drive-fuzz23/EQ1 inventories saved from own shared manual. Continue remaining category counts,overall85-stomp/amp-cab conflicts and per-model gaps,plus fresh Shopee discovery. Do not claim full verification.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows or push."
   },
@@ -59727,5 +59727,28 @@
       "site:shopee.co.id \"Zoom\" \"BFX\" efek"
     ],
     "result": "No search results;not evidence of market absence."
+  },
+  "rp360xp_category_inventory_20261017": {
+    "source": "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+    "identity": "Manufacturer-authored shared RP360/RP360XP cover/declaration confirmed previously;final revision unexposed;not mirror FAQs.",
+    "counts": {
+      "compressor": 3,
+      "delay": 9,
+      "drive_distortion_fuzz": 23,
+      "eq_configuration": 1
+    },
+    "pages": "Printed67–83;complete compressor/delay/distortion sections through next heading.",
+    "method": "Named-entry count;not simultaneous blocks;no reconciliation with85 stomp total yet.",
+    "limits": [
+      "DM24–310ms",
+      "Echo Flex110–870ms",
+      "EQ low60–500Hz/mid300Hz–4kHz/high2–8kHz,each+-12dB and3bandwidth choices"
+    ],
+    "remaining": [
+      "Complete amps/cabs/modulation/gate/reverb/wah inventory",
+      "Overall count conflicts",
+      "Other saved RP360XP hardware/software/price gaps"
+    ],
+    "no_downloads_or_operation": true
   }
 }
