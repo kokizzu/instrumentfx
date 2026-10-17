@@ -28,10 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh bass/vocal discovery — new search frontier",
-    "task": "Search exact hardware for Zoom 506II, BOSS ME-8B/ME-6B and Zoom 9000B, plus resolve Critical Mass exact item. Prior BP200/607/AX1B/506/AX3000B/BP80/BP50 and old vocal searches are recorded in discovery_bass_vocal_frontier_20261017; avoid repeating unchanged hits. Additional sold-out DOReMi B2 FOUR ask is saved there, not a new model or qualified new price.",
-    "next_models": [],
-    "after_queue": "Use own manufacturer sources for each established model; commit before next model. Preserve unresolved technical fields. No downloads/workflows."
+    "model": "Line 6 POD X3 Live",
+    "task": "Exact GIDEON MUSIC item726736590/25319569969 saved in discovery_line6_legacy_live_20261017; condition unknown and indexed sold out. Verify own manufacturer manual and eligible instrument paths, add partial root record and views, commit before next model.",
+    "next_models": [
+      "Line 6 POD XT Live",
+      "Line 6 POD HD400"
+    ],
+    "after_queue": "Resume bass/vocal discovery and unresolved field audits without repeating unchanged failed queries. No downloads/workflows."
   },
   "new_findings": [
     {
@@ -51552,5 +51555,83 @@
       "TC-Helicon Critical Mass exact item link"
     ],
     "not_done": "Do not repeat identical unsuccessful queries as new evidence without a new source. Manufacturer specifications, exact offers and full market coverage remain incomplete."
+  },
+  "discovery_line6_legacy_live_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Zoom 506II",
+      "site:shopee.co.id ME-8B",
+      "site:shopee.co.id ME6B",
+      "site:shopee.co.id Zoom 9000B",
+      "site:shopee.co.id Line 6 X3 Live",
+      "site:shopee.co.id Line6 XT Live",
+      "site:shopee.co.id Critical Mass Helicon -site:shopee.co.id/search -site:shopee.co.id/5h6fvtwung"
+    ],
+    "bass_vocal_result": "No exact new bass item or resolved Critical Mass item from these queries. JOYO JMT9000B tuner/metronome is not Zoom 9000B. Limited search failure is not proof of absence. Expanded to missing Line 6 hardware rather than repeating prior unchanged accessory hits.",
+    "offers": [
+      {
+        "model": "Line 6 POD X3 Live",
+        "url": "https://shopee.co.id/Efek-Gitar-Line-6-POD-X3-Live-i.726736590.25319569969",
+        "seller": "GIDEON MUSIC",
+        "region": "Kota Medan",
+        "ask_idr": 1850000,
+        "stock": "Habis in three-month index",
+        "condition": "Unknown",
+        "access": "Exact title indexed; direct retrieval cache miss; July10–13 delivery stale."
+      },
+      {
+        "model": "Line 6 POD XT Live",
+        "url": "https://shopee.co.id/line6-Pod-Xt-live-pod-xt-not-x3-i.58780289.21810633258",
+        "seller": "Ayx Music",
+        "region": "Kabupaten Lamongan",
+        "ask_idr": 2500000,
+        "stock": "Habis in three-month index",
+        "condition": "Unknown",
+        "access": "Exact XT Live title expressly says not X3; direct retrieval cache miss; July19–21 delivery stale."
+      },
+      {
+        "model": "Line 6 POD HD400",
+        "url": "https://shopee.co.id/LINE-6-POD-HD-400-EFEK-DIGITAL-HD400-EFX-MULTIEFEK-KOLEGA-XT-X3-LIVE-HD500-300-HD300-i.171167271.21985664004",
+        "seller": "SadewaMusikAudio",
+        "region": "Kabupaten Bantul",
+        "ask_idr": 2200000,
+        "stock": "Habis in two-week index",
+        "condition": "Unknown",
+        "access": "HD400 is named hardware; XT/X3/HD500/HD300 are related-model keywords, not variants or corroborating offers. Direct retrieval cache miss; October2–3 delivery stale."
+      }
+    ],
+    "unresolved_offers": [
+      {
+        "model": "Line 6 POD XT Live candidate",
+        "url": "https://shopee.co.id/efek-gitar-zoom-g3x-i.471357075.27181191759",
+        "seller": "5mejd8ftqa",
+        "region": "Kota Cimahi",
+        "ask_idr": 1900000,
+        "access": "Last-month index title XT Live conflicts with Zoom G3X URL slug; preorder four days, September9–12 delivery. Direct retrieval failed; do not assign until actual item identity confirmed."
+      },
+      {
+        "model": "Line 6 POD X3 Live candidate",
+        "url": "https://shopee.co.id/kevinakasa",
+        "seller": "Blitza Music",
+        "ask_idr": 2000000,
+        "access": "Two-month shop recommendation only; exact item and ownership of recommendation unresolved."
+      }
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/gigbag-efek-line-6-pod-x3-live-55-x-25-x-10-cm-i.106998910.19357329414",
+        "reason": "Rp270000 gigbag; dimensions describe case, not processor."
+      },
+      {
+        "url": "https://shopee.co.id/adaptor-efek-gitar-LINE6-POD-XT-LIVE-i.36256159.5415528286",
+        "reason": "Rp250000 adapter, not processor; do not infer unit power rating from seller title."
+      },
+      {
+        "url": "https://shopee.co.id/Potensio-Line6-P-O-D-XT-Live-bagian-Drive-Bass-MId-Treble-Precense-chan-vol-i.38361451.18072358244",
+        "reason": "Rp35000 potentiometer part, not processor."
+      }
+    ],
+    "qualification": "All are asks, not completed sales. No qualified used/new condition established; current stock, working condition, actual bundle/adapter, selected variation, warranty, shipping/tax and final total unknown. Late compensation Rp10000 not deducted. No new model counted before own manufacturer verification.",
+    "next": "POD X3 Live first; commit model before XT Live, then HD400. Verify own ports/control count, dual-tone processing, memory, expression, editors/power/display; no sibling specifications."
   }
 }
