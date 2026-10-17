@@ -70,7 +70,16 @@ Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass s
 | Used | Unknown; exact item does not establish condition. | — |
 | New | Unknown; exact item does not establish condition. | — |
 | Conditional historical observation | **Rp1,200,000**, herykurniawanipunk, Kab. Lombok Barat, shop94150896/item21882548072. Checked2026-10-17; last-week cache, exact HTML opened, stale9–11Oct delivery. Condition, stock, variant, adapter/bundle, warranty and working state unverified; shipping/tax/checkout total unknown. Late-arrival compensation is not discount. Not a confirmed new/used range or current-stock check. | [Exact ST item][TLST-S] |
+| Additional condition-unverified historical observation | **Rp960,000; Habis**, BANKO MUSIC STORE, Kab. Bandung; shop1452686572/item29530564104. Checked2026-10-18;five-month search cache, direct open failed. Relative “Besok” delivery is stale cache text. Condition, working state, revision, adapter/bundle, warranty, voucher and present stock unknown; not assigned used/new. | [Indexed exact ST item][TLST-S2] |
 
+
+### ToneLab ST — pedal recall and panel lock
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / position persistence | Saving normally stores the current pedal position as the assigned parameter value. Exceptions: volume, delay/reverb input levels, pitch-shifter PITCH and FILTRON cutoff. Assignment/endpoints save per program; amp GAIN assignment survives changing amp model. | [Manual pp24–26][TLST-M] |
+| Live / key lock and bank navigation | Hold EXIT/TUNE about2s to lock top-panel switches/selectors/knobs; repeat to unlock. Holding UP or DOWN while pressing EXIT/TUNE moves the program number by10. | [Manual p5][TLST-M] |
+| Memory / save exclusions | Rear LEVEL and AMP/LINE are not program-stored or covered by Original Value indication. Unsaved edits disappear on program change/power-off; WRITE targets users0–49. | [Manual pp11–12][TLST-M] |
 <!-- comparison evidence ends -->
 
 ### Condition-unverified Shopee hardware
@@ -80,6 +89,11 @@ Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass s
 [TLST-M]: https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf
 [TLST-P]: https://voxamps.com/en-gb/product/tonelab-st/
 [TLST-S]: https://shopee.co.id/vox-tonelab-st-i.94150896.21882548072
+
+Additional unresolved identity lead checked2026-10-18: Ayx Music, Kab. Lamongan, shop58780289/item17149906599, **Rp1,750,000; Habis**, two-month search cache. Title says ST, but URL says EX; direct open failed. Do not assign to either exact model without corroboration. Condition, working state, bundle/adapter, warranty, voucher and present stock unknown. [Conflicting-title/URL lead][TLST-S3].
+
+[TLST-S2]: https://shopee.co.id/VOX-ToneLab-ST-Digital-multi-efek-gitar-Original-i.1452686572.29530564104
+[TLST-S3]: https://shopee.co.id/efek-vox-tonelab-EX-masi-bgus-i.58780289.17149906599
 
 ## ToneLab SE
 

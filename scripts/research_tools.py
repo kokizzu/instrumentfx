@@ -586,7 +586,7 @@ def main():
         if mode == 'commit-tonelab-se':
             message = 'research(vox): qualify ToneLab EX expression persistence and ranges'
         if mode == 'commit-tonelab-st':
-            message = 'research(vox): include qualified ToneLab ST historical offer in comparison'
+            message = 'research(vox): qualify ToneLab ST pedal recall and historical offer'
         if mode == 'commit-tonelab-le':
             message = 'research(vox): clarify ToneLab EX save scope and total equalizer'
         if mode == 'commit-ax1500g':
