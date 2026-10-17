@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic PLETHORA X5",
-    "task": "PLETHORA X5 newer1.5.6 sustained-sample and switching limits,app4.6.18 requirement,1.4.3 TempoSync/restore-point scope saved. Continue full own-model catalogue or other specs/freshShopee discovery;do not assume newest firmware or seller unit version.",
+    "model": "TC Electronic PLETHORA X3",
+    "task": "Own16effects+explicit1.5.6sustainer yield17knownchoices;TapTunerutilityseparate.1.4.3/1.5.6applicablelimits saved. Continue freshShopeediscovery ormodelgaps;X3bass/display/controls/looper/power/software/offerverification incomplete.",
     "next_models": [],
-    "after_queue": "Continue full research/discovery;no downloads,workflows or push."
+    "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59930,5 +59930,43 @@
       "CurrentOS",
       "Qualifiednewusedoffers"
     ]
+  },
+  "px3_newer_firmware_20261017": {
+    "sources": [
+      "https://www.tcelectronic.com/en/products/0709-AIS",
+      "https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf",
+      "https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7"
+    ],
+    "identity": "OwnX3 product lists16effect families;release1.4.3/1.5.6 explicitlyPX3/PX5. Originalconversion corroborates primary1.5.6 indexedtext;no generatedFAQs or olderPX5-onlyfeatures assumed.",
+    "known_choices": {
+      "modulation": 6,
+      "pitch_octave_harmony": 3,
+      "delay": 2,
+      "reverb": 1,
+      "compression": 1,
+      "doubler": 1,
+      "gate": 1,
+      "looper": 1,
+      "sustain_added_156": 1,
+      "effects_union": 17,
+      "tap_tuner_utility_separate": true
+    },
+    "findings": [
+      "InfiniteSampleSustainer1.5.6 lacksstandalone reverb/KillDry.",
+      "TonePrint4.6.18+updatedcontent forInfiniteediting;old4.2 baseline insufficient.",
+      "Momentary/momentaryMASH1.5.6.",
+      "1.4.3TempoSync/MIDIclock/TapTuner andMIDIexpressionwithoutEXP.",
+      "Restorepoints overwriteusercontent and firmware."
+    ],
+    "remaining": [
+      "Complete newestlibrary/installedfirmware",
+      "Physicalbutton reconciliation",
+      "Display",
+      "Looper duration/undo/persistence",
+      "Bass suitability",
+      "Power/currentOS/imports/USB",
+      "Exact used/newoffers"
+    ],
+    "method": "Browsermanufacturertext andoriginalreleaseconversion;no downloads oroperation."
   }
 }

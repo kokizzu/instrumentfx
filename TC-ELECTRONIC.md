@@ -54,7 +54,13 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Expression | No built-in treadle; **three pressure-sensitive MASH footswitches** provide assignable expression. External EXP socket absent from complete specification connector list; toe separate unresolved. | [Product][PX3-P]; [QSG p23][PX3-M] |
 | K/F/B | **5 rotary / 3 footswitches / button count unresolved**: Effect, TonePrint, three assignable parameters; three MASH. Play/Edit and Boards selector switches separate. Encoder presses require physical-count reconciliation; visual check pending. | [Product][PX3-P]; [QSG p23][PX3-M] |
 | Display | Multiple LCD readouts referenced; diagonal/color/touch unresolved. | [QSG p22][PX3-M] |
-| Processing / categories | **Three effect slots**, flexible order; numerical DSP restrictions pending. Current product lists Phaser, Vibe, Looper, Reverb, Delay, Octaver, Pitch Shifter, Chorus, Compressor, Doubler, Flanger, Tremolo, Harmony, Gate, Vibrato, Vintage Echo. Firmware-qualified library history pending. | [Product][PX3-P] |
+| Processing / categories | **Three effect slots**, flexible order; numerical DSP restrictions pending. Current product lists Phaser, Vibe, Looper, Reverb, Delay, Octaver, Pitch Shifter, Chorus, Compressor, Doubler, Flanger, Tremolo, Harmony, Gate, Vibrato, Vintage Echo. Later own-applicable additions and count basis below;complete latest library unverified. | [Product][PX3-P] |
+| Categories / documented choice counts | Product lists **16**:modulation6,pitch/octave/harmony3,delay2,and reverb/compression/doubler/gate/looper1 each. **1.5.6 adds Infinite Sample Sustainer**,giving17 known effects;Tap/Tuner utility separate. Derived union,not a certified complete newest library. | [Own product][PX3-P];[Shared release notes][PX3-F156] |
+| Categories / Infinite restriction | Firmware**1.5.6,2025-03-23** sustainer holds notes/chords but omits standalone Infinite’s reverb and Kill Dry;reverb needs another slot. Sample sustain does not establish an oscillator synth. | [Shared release notes][PX3-F156] |
+| Editor / newer effect requirement | Infinite editing needs **TonePrint4.6.18 and refreshed content**. Earlier4.2+ guide requirement is not enough for this later effect. Installed versions/currentOS support unverified. | [Shared release notes][PX3-F156] |
+| Live / newer footswitch modes | **1.5.6 adds momentary and momentary+MASH**;effect engages while held. Second-foot-function None renamed Latching. | [Shared release notes][PX3-F156] |
+| Live / tempo synchronization | **1.4.3,2023-10-19** adds per-slot global Tempo Sync,MIDI clock,and Tap/Tuner utility. MIDI expression explicitly works without an analog EXP socket. | [Original release-history conversion][PX3-FM] |
+| Memory / restore points | **1.4.3** supports restore-point create/apply/export/import;apply/import replaces user TonePrints,Boards/settings **and firmware version**. Import also replaces local restore point. Not an IR loader. | [Original release-history conversion][PX3-FM] |
 | Live / saving exception | EDIT-mode parameter changes auto-save. **PLAY-mode HOT KNOB tweaks do not auto-save** and serve live adjustment only. This qualifies the product’s broad auto-save statement. HOT KNOBZ are assigned in Board settings. | [QSG pp18–19][PX3-M] |
 | Controls / push encoders | EFFECT and TONEPRINT both have documented press actions; TonePrint hold opens UniTune, press again or any footswitch exits. These presses belong to the rotary encoders, not extra separate buttons. PLAY/EDIT and BOARD remain selector switches. | [QSG pp18–19][PX3-M] |
 | Live / secondary footswitch functions | PLAY-mode hold can invoke **MASH, RAMP or TAP TEMPO**, configured per Board. MIDI In/Thru can remotely control switches, Board changes and effect parameters. USB Mini-B connects TonePrint App on computer/mobile and performs firmware updates; this is not USB audio/power proof. | [QSG pp18–19][PX3-M] |
@@ -88,6 +94,11 @@ Checked2026-10-17; historical indexed asks, not current stock/checkout. Conditio
 [PX3-O2]: https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X3-TonePrint-i.306155985.23943061836
 
 [PX3-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
+
+Newer firmware evidence checked2026-10-17. Shared manufacturer notes explicitly mark1.4.3 and1.5.6 forPX5/PX3;older PX5-only entries were not assigned toX3. Original conversion matches manufacturer-hosted indexed1.5.6 text;no generatedFAQ used. No software/firmware was downloaded or installed.
+
+[PX3-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
+[PX3-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7
 
 ## PLETHORA X5
 
