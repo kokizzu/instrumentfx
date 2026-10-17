@@ -145,6 +145,13 @@ Only original document body used;no generated mirror FAQs, file downloads, visua
 
 Earlier12V power and regionaldimensions/phantom observations remain qualified above; no new hardware test or file download.
 
+### VoiceLive Play — Wiras musik historical ask, 2026-10-18
+
+| Field | Qualified observation |
+|---|---|
+| IDR / separate sold-out hardware offer | **Rp6.100.000; Habis**, [Wiras musik, shop399870342/item11275905550](https://shopee.co.id/Tc-Helicon-Voicelive-Play-i.399870342.11275905550), Kab. Badung. Direct JavaScript-limited reader returned a two-month cache; search reported three months. Title identifies VoiceLive Play, not GTX or Play Acoustic; no image inspection claimed. Condition/new versus used, working status, selected variation, adapter/bundle, warranty/import region, authenticity and shipping/tax remain unverified. Relative tomorrow delivery does not override sold-out status. Late-arrival compensation up to Rp10.000 is not a purchase discount. Historical ask only, not a completed sale or available retail range. |
+
+
 <!-- comparison evidence ends -->
 
 ### Current access and unresolved fields
