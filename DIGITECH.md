@@ -193,3 +193,39 @@ Ownmanual18-0432V-B,2006declaration,accessed throughofficialmanualindex;director
 [RP250-M]: https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP250_-Manual18-0432V-B_original.pdf
 [RP250-F]: https://digitech.com/faqs/
 [RP250-O]: https://shopee.co.id/efek-gitar-digitech-rp250-second-i.161000047.56101815937
+
+## RP1000
+
+Discontinued guitar multi-effects/switching system;notRP500. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in assignable pedal+toeV-switch. FS3Xsocket is loopercontrol,not established externalexpression. | [Manual pp6–7][RP1K-M] |
+| K/F/B | **6rotary/14mainfootswitches/7buttons**:10numbered+Bank2+Tap+StompLoop;Edit2+AmpLoop+Looper+3system. Toe/rearpower and3reartoggles additional. Text-derived. | [Manual pp4–7][RP1K-M] |
+| Display | 8characteralphanumeric+2characternumeric;diagonal/color/touch unverified. | [Manual p4][RP1K-M] |
+| Processing / category choices | **10simultaneous**;160+stompboxes/effects/amps/cabs headline,not160simultaneous. Chorus/FXshares one selection;categorysubtotals pending. | [Product][RP1K-P];[Manual p22][RP1K-M] |
+| Factory / user memory | **200=100factory+100writableuser**,userinitiallyduplicatesfactory. | [Manual p3][RP1K-M] |
+| Synth / acoustic | Dreadnaught/Jumboacousticsimulations;SynthTalk present,tracking/oscillator distinction pending. | [Manual pp20,26,48][RP1K-M] |
+| Dimensions / mass | **19.5inL×10.75inW×3.75inH;11.5lb** manual;productlabels19.5inDepth instead ofLength. Axes retained,not silentlyswapped;mass inclusion unstated. | [Manual p50][RP1K-M];[Product][RP1K-P] |
+| I/O | ¼input,ampSendReturn,stompSendReturn,L/Rlineoutputs;XLRL/R;phones;¼TRSFS3X;USB,power. Phones/USBphysicaltype pending. NoMIDIlisted. | [Manual p7][RP1K-M] |
+| Power / battery / USB | **Two models:9VAC1.3A PS0913B or9VDC1.3A PS0913DC**;matchrearpanel. DCpolarity/draw/battery/USBpower unverified. FAQlistsACvariant;notproofallunitsAC. Product120VAC60Hz isregionalmains claim,notpedalinput. | [Manual p50][RP1K-M];[FAQ][RP1K-Q];[Product][RP1K-P] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture loading unverified. | Unresolved |
+| Editor / software | **X-Edit2.7.0Windows/2.7.1MacOSXIntel** listed;currentOScompatibility unknown. USBaudio2in/2out;editor distinctfrombundledCubaseLE4. | [Product][RP1K-P] |
+| Looper / drums / live | 20smono,FS3Xremote;Pedalboardmode assigns switches6–10. AmpLoopreplacesinternalamp/cab;StompLooppre/postamp per preset. Bypass leavesexternalloopsactive. Drums/scenes unknown. | [Manual pp1,6–9][RP1K-M];[Product][RP1K-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence / qualification | Source |
+|---|---|---|
+| Used | Unknown;no condition-verified used offer. | — |
+| New | Unknown;no condition-verified new offer. | — |
+| Condition-unverified historical ask | **Rp4,000,000,Habis(soldout)**;indiealatmusik,KabBantul,shop150310054/item3200318448. Saved2026-10-17 discovery from4monthindex;directretrievalnowfailed. Stocknotavailableinindexedbody;condition,revision,AC/DCvariant,adapter/bundle,warranty,shipping/tax/voucherunknown. Notliveofferorcompleted sale. | [Exactitem][RP1K-O] |
+
+### Source-access provenance
+
+Manual18-0597V-D,56PDFpages;printedpage=PDFindex−3 afterfrontmatter. Manufacturerwebtextonly;no downloads/installations. Preservepowerrevisionanddimensionaxisdistinctions.
+
+[RP1K-P]: https://digitech.com/dp/rp1000/
+[RP1K-M]: https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf
+[RP1K-Q]: https://digitech.com/faqs/
+[RP1K-O]: https://shopee.co.id/Efek-Gitar-Digitech-RP1000-i.150310054.3200318448

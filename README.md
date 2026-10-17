@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**199 active model records · 27 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**200 active model records · 27 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -8,10 +8,10 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 | View | Contents |
 |---|---|
-| **[ALL-GUITAR.md](ALL-GUITAR.md)** |167 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |168 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
 | **[ALL-BASS.md](ALL-BASS.md)** |77 documented bass-capable models: 20 bass-focused plus 57 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |22 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 199 detailed models are root-canonical |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 200 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -25,7 +25,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [TECH21.md](TECH21.md) |Fly Rig 5 v2 |
 | [VOX.md](VOX.md) |ToneLab LE,ToneLab ST,ToneLab SE,StompLab 2B,StompLab 1G,StompLab 2G |
 | [KORG.md](KORG.md) |PANDORA stomp,AX3000G,AX1500G,AX5G,AX10G,AX1000G,AX3G |
-| [DIGITECH.md](DIGITECH.md) |RP360XP,RP255,RP500,RP90,RP250 |
+| [DIGITECH.md](DIGITECH.md) |RP360XP,RP255,RP500,RP90,RP250,RP1000 |
 | [BOSS.md](BOSS.md) |GT-1B,GX-1B,ME-90B,VE-1,VE-2,VE-500,VE-22,VE-8,VE-20,GT-1000CORE,GX-10,GT-1,GX-1,ME-90,GX-100,GT-1000,GM-800,GT-100,ME-80,ME-70,ME-25,ME-50,ME-20B,GT-10,GT-8,ME-20,GT-6 |
 | [HEADRUSH.md](HEADRUSH.md) |MX5,Core,Flex Prime,Prime |
 | [FENDER.md](FENDER.md) |Tone Master Pro |

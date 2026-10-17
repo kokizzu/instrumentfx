@@ -1423,3 +1423,7 @@ research-commit-hxone:
 .PHONY: research-commit-gt6
 research-commit-gt6:
 	python3 scripts/research_tools.py commit-gt6
+
+.PHONY: research-commit-rp1000
+research-commit-rp1000:
+	python3 scripts/research_tools.py commit-rp1000
