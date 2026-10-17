@@ -2451,6 +2451,13 @@ Printedpp4–5 name all21buttons;the nine rotary total includes the rear LEVEL c
 | Processing / ARRM source conflict | Page21 diagrams eight waveforms, but page34 lists R-WAVE 1–9. No ninth waveform is identified; actual selectable count remains unresolved. R-SYNC lists eighth, quarter, half and dotted-half notes plus one–four measures. Both explanatory tables use 0.5 for eighth notes, whereas the page34 range heading says 0–3. Preserve that discrepancy. | [Manual pp21–22,34][GFX5-M] |
 | Expression / pedal ranges | UP spans minimum→maximum; dn reverses it. Hi spans the stored patch value→maximum; Lo spans minimum→stored patch value. For ARRM+PEDAL these ranges govern modulation amplitude. | [Manual p22][GFX5-M] |
 
+### Converter and electrical ratings
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / converters and sampler | Internal sampling is **31.25 kHz**; A/D is **20-bit, 64× oversampling**, D/A **20-bit, 8× oversampling**. The separate sampler records/plays **16-bit linear** audio; this is not the converter resolution or a USB format. | [Manual p35][GFX5-M] |
+| I/O / electrical ratings | Guitar and AUX rated inputs are both **−20 dBm**, with respective impedances **470 kΩ / 20 kΩ**. Line maximum is **+3 dBm into ≥10 kΩ**. Headphones are rated **50 mW into 32 Ω**; the manual does not identify that figure as per-channel. Its stated reference is 0 dBm = 0.775 Vrms. | [Manual p35][GFX5-M] |
+
 ## GFX-4
 
 Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufacturer confirms discontinued. Bass/vocal applicability and ownership unresolved.

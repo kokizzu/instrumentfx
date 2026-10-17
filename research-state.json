@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom GFX-3",
-    "task": "GFX3 exact calibration/globalEnergizer and DRIVE20versus22 wording conflict saved. Commit before next model. Full50type and7/8module reconciliation unproved; do not force arithmetic by countingglobalcontrols. Next different model primary gaps or fresh Shopee discovery; no downloads/workflows.",
+    "model": "Zoom GFX-5",
+    "task": "Converter and electrical ratings saved from original manual p35. Commit before next model. Remaining gaps include external expression, editor platforms, screen diagonal/color/touch, import capabilities and qualified current used/new prices. Continue fresh Shopee discovery and unresolved primary documentation; no downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom GFX-3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom GFX-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57032,6 +57032,14 @@
       "finding": "Added exact pedal calibration and global Energizer/master/patch ranges. DRIVE intro20includingacoustic conflicts with22named variants; earlier20distortion+2 describes tables only.50types and7/8modules remain unresolved; no forced arithmetic.",
       "sources": [
         "https://zoomcorp.com/media/documents/E_GFX3.pdf"
+      ]
+    },
+    {
+      "model": "Zoom GFX-5",
+      "checked_date": "2026-10-18",
+      "finding": "Added original manual p35 converter sampling/resolution, distinct 16-bit sampler, rated guitar/AUX levels, line load and headphone rating without inferring per-channel output.",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_GFX5.pdf"
       ]
     }
   ],

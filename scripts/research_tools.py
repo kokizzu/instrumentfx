@@ -534,7 +534,7 @@ def main():
         if mode == 'commit-gfx4':
             message = 'research(zoom): document GFX-4 hold delay and conditional continuation'
         if mode == 'commit-gfx5':
-            message = 'research(zoom): qualify GFX-5 expression routing and ARRM conflicts'
+            message = 'research(zoom): qualify GFX5 converters sampler and analog ratings'
         if mode == 'commit-gfx3':
             message = 'research(zoom): qualify GFX3 drive count calibration and Energizer'
         if mode == 'commit-rp250':
