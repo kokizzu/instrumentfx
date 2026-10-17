@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh bass/vocal discovery",
-    "task": "VE-5 current adapter/reset evidence saved;polarity andothergaps remain open. Exactitem3990824666 repeatedly inaccessible;resume other eligible bass/vocal discovery or model-specific technical gaps.",
+    "model": "MOOER Prime P2",
+    "task": "Read exactPrimeP2manufacturer manual andfullrelease notes;create rootMOOERsection,allrequiredfields,ledgerinventory andaffectedcomparisonmembership;commit before nextmodel. Preserveprice/region/revisionconflicts.",
     "next_models": [],
-    "after_queue": "Fullmarketcoverage andmigrationaudit remainincomplete. No downloads/workflows/push."
+    "after_queue": "Continuebass/vocaldiscovery,technicalgaps andmigrationaudit. Nodownloads/workflows/push."
   },
   "new_findings": [
     {
@@ -64326,5 +64326,29 @@
       "Mixed original/MKII1396881276/28516669660 requires selected variation."
     ],
     "saved": "18731802/26530644044 unresolved contents lead inNUX.md"
+  },
+  "discovery_mooer_prime_p2_20261017": {
+    "model": "MOOER Prime P2",
+    "checked_date": "2026-10-17",
+    "status": "Unrecorded eligible multi-effects hardware lead;canonical record pending;counts not incremented.",
+    "offer": {
+      "url": "https://shopee.co.id/Efek-Gitar-MOOER-Prime-P2-Intelligent-Smart-Multi-Effects-Processors-1.3-Inch-Touchscreen-Pedal-Guitar-Elektrik-Akustik-Bass-Bluetooth-Android-IOS-Distortion-Overdrive-Looper-Cabinet-Simulator-Metronome-Drum-Machine-IR-Loader-i.19700013.25882729171",
+      "shop": "19700013",
+      "item": "25882729171",
+      "seller": "MICKEY MOUSE SHOP",
+      "ask_idr": 2625470,
+      "status": "Toko Sedang Libur",
+      "region_conflict": "Search cacheJakartaPusat;opened newer cacheJakartaUtara",
+      "access": "JS-limited directbody,last-monthcrawl vssearchthree-month;deliveryAug27–30 vsAug3–6stale.",
+      "unknowns": "Condition,new/used,workingstate,stock,selectedvariant,bundle/Fseriescontroller,charger,warranty,authenticity,voucher/shipping/tax/finaltotal. Latecompensation notdiscount."
+    },
+    "sources": {
+      "product": "https://www.mooeraudio.com/products/200.html",
+      "releases": "https://www.mooeraudio.com/Downloads_xq/2.html"
+    },
+    "initial_evidence": "Manufacturer confirmsmulti-effects:52amps,25cabs,57effects,80presets/20banks;10GNR/10GIR;1.3inchmarketing vs1.28inchspec touchscreen;120L64W21H mm,152g;USB5V2A charging,3000mAh,lab5h/2.5hcharge;TRRSphones,microphone support does not establish vocalFX. Bass needs exactmanual confirmation.",
+    "revision_evidence": "September22,2026 officialPrimeAndroid4.0.0 notes add NAM A2Lite/mobileimport forP2/M2 alongsideP2firmware2.5.0 heading. Must inspect requirements before claimingnativeformat support;GNR/GIR distinct.",
+    "rejected": "19700013/28803822643 isGWF4controller accessoryRp825000Habis,notPrimeP1/P2hardware.",
+    "next": "Read exactPrimeP2manufacturer manual andfullrelease notes;create rootMOOERsection,allrequiredfields,ledgerinventory andaffectedcomparisonmembership;commit before nextmodel. Preserveprice/region/revisionconflicts."
   }
 }
