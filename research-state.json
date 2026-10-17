@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Anagram",
-    "task": "Anagram Axioma nine-page manual audited as text;tracking floor,templates,arpeggiator andGuitar Essentials edition boundary saved. Resume exact Shopee discovery;edition not registered without qualified hardware identity. Anagram file compatibility,area semantics,licenses andpanel remain partial.",
+    "model": "Shopee discovery",
+    "task": "RK5 exact used family offer saved withv1/v2/v3 identity andpower distinctions;revision unresolved,notcounted. Next search other missing brands/series;return RK5 onlywhen readable panel orrevision-explicit offer available.",
     "next_models": [],
     "after_queue": "334 active,39brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -42043,7 +42043,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Anagram."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -66375,5 +66375,16 @@
     "edition": "12amps3pedals,limitedblackedition withcase;not ordinary offer entitlement",
     "marketplace": "empty webtext;commercial license details unresolved",
     "status": "partial"
+  },
+  "discovery_rk5_20261018": {
+    "status": "revision unresolved;not active",
+    "offer": "https://shopee.co.id/Tech-21-Sansamp-RK5-Richie-Kotzen-Signature-Fly-Rig-Fullset-Pedal-Efek-Gitar-2nd-i.1421445165.41329827063",
+    "idr": 2856000,
+    "condition": "title2nd",
+    "seller": "Kamar Gear,Kota Jambi",
+    "access": "two-month cached direct body;main imagecachemiss",
+    "revision": "2nd isused,notv2;v1 12V,v2 9V,v3loop/prepost/phantom distinct",
+    "source_record": "TECH21.md#rk5--revision-unresolved-hardware-lead",
+    "next": "obtain readable sellerpanel/rearlabel orrevision-explicit offer;do notregister guessedvariant"
   }
 }

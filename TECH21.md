@@ -83,3 +83,17 @@ Next: physical control census, precise full signal order, preset-storage/import/
 
 [BFR2-P]: https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/
 [BFR2-M]: https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf
+
+## RK5 — revision-unresolved hardware lead
+
+**Discovery evidence only; not an active model row orcount.** Checked2026-10-18.
+
+[Exact Shopee hardware offer](https://shopee.co.id/Tech-21-Sansamp-RK5-Richie-Kotzen-Signature-Fly-Rig-Fullset-Pedal-Efek-Gitar-2nd-i.1421445165.41329827063): **Rp2,856,000**,Kamar Gear,Kota Jambi,shop1421445165/item41329827063. Title explicitly **2nd** andFullset;used ask,not proof ofv2. Two-month cached direct page stillhasstale19–22August arrival. Actual working condition,revision,stock,fullset contents,adapter,repairs,warranty,shipping andvoucher unknown. Rp10,000 late-arrival compensation isnot itemdiscount. Seller main-image fetch failedcache access;no visual identification claimed.
+
+Revision checks against exact primary records:
+
+- [Original RK5 archive](https://www.tech21nyc.com/archive/rk5-v1/): **11.5L×2.5W×1.25H inches,18.6oz**,included **12VDC150mA center-negative** supply. SansAmp,reverb withinSansAmp,OMGdrive,boost andtapdelay. Do not substitute later power ratings.
+- [RK5v2 original manual,©2018,Rev8.19](https://www.tech21nyc.com/wp-content/uploads/2019/08/RK5_v2_OM.pdf): **9VDC center-negative**,DC9 supply≥200mA;device approximately150mA maximum. Adds independentreverb,rotaryspeaker,compression,fuzz,tuner,headphone capability andXLR. Adapter rating anddevice consumption are distinct. Relevant identity/power pages read asweb text,not fullpanel audit.
+- [Current RK5v3 product](https://www.tech21nyc.com/products/flyrig/rk5v3/): adds **pre/postboost,effectloop andpreconfigured phantompower forRK KillerWail**. This doesnot identify theShopee unit orauthorize assigning v3features toolderRK5.
+
+Keep offer family-qualified until a legible sellerpanel/rearlabel orrevision-explicit offer establishes exacthardware. Searches forShopee RK5v2,RK5 12V andAcousticFlyRig returned noadditional exact result;not proof ofabsence. No downloads orseller contact.
