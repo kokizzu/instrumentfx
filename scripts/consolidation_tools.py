@@ -1,3 +1,4 @@
+from canonical_links import preservation_text
 """Reviewable, lossless model consolidation; keeps legacy sources and their links."""
 import hashlib
 import json
@@ -1461,7 +1462,7 @@ def commit(model_id):
 
 def audit_findings():
     research_tools.identity()
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     verify_preserved(state)
     manifests = [e for e in state.get('consolidation_and_price_findings', []) if e.get('verification_kind') == 'complete-source-body-v1']
     pairs = []
@@ -1483,7 +1484,7 @@ def audit_findings():
 
 def audit_legacy():
     research_tools.identity()
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     files = sorted((ROOT/'effects').rglob('*.md'))
     all_md = sorted(ROOT.glob('*.md')) + files
     texts = {str(p.relative_to(ROOT)): p.read_text() for p in all_md}
@@ -1523,7 +1524,7 @@ def audit_legacy():
 def audit_compact_matribox():
     research_tools.identity()
     source = research_tools.read_preserved_source('effects/guitar-compact.md')
-    destination = (ROOT/'SONICAKE.md').read_text().split('\n## Matribox QME-50\n',1)[1].split('\n## ',1)[0]
+    destination = preservation_text('SONICAKE.md').split('\n## Matribox QME-50\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
@@ -1542,7 +1543,7 @@ def audit_compact_matribox():
 def audit_compact_smartbox():
     research_tools.identity()
     source = research_tools.read_preserved_source('effects/guitar-compact.md')
-    destination = (ROOT/'SONICAKE.md').read_text().split('\n## Smart Box QME-20\n',1)[1].split('\n## ',1)[0]
+    destination = preservation_text('SONICAKE.md').split('\n## Smart Box QME-20\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
@@ -1561,7 +1562,7 @@ def audit_compact_smartbox():
 def audit_compact_pocketmaster():
     research_tools.identity()
     source = research_tools.read_preserved_source('effects/guitar-compact.md')
-    destination = (ROOT/'SONICAKE.md').read_text().split('\n## Pocket Master QME-10\n',1)[1].split('\n## ',1)[0]
+    destination = preservation_text('SONICAKE.md').split('\n## Pocket Master QME-10\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
@@ -1586,7 +1587,7 @@ def audit_compact(model):
         return audit_compact_matribox()
     research_tools.identity()
     assert model in ('GP-100', 'GP-150', 'GP-5', 'GP-50', 'GP-180'), 'Additional models require explicit scope review'
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     source_path = 'effects/guitar-compact.md'
     source = research_tools.read_preserved_source(source_path)
     entry = next(e for e in state['consolidation_and_price_findings'] if e.get('model_name') == model and e.get('destination') == 'VALETON.md#'+model.lower())
@@ -1601,7 +1602,7 @@ def audit_compact(model):
                 expected.append(dict(field=header,value=value,source=source_path,context=context))
     retained = [f for f in entry['retained_comparison_facts'] if f['source'] == source_path]
     assert len(expected) == 23 and expected == retained, 'Shared model row completeness changed'
-    destination = (ROOT/'VALETON.md').read_text().split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
+    destination = preservation_text('VALETON.md').split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
     for fact in expected:
         assert fact['value'] in destination, 'Missing shared fact: '+fact['field']
     if model == 'GP-100':
@@ -1622,13 +1623,13 @@ def audit_compact(model):
 
 def audit_compact_union():
     research_tools.identity()
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     source = research_tools.read_preserved_source('effects/guitar-compact.md')
     entry = state['migration']['shared_compact_audit']['prose_union']
     assert digest(source) == entry['source_sha256'], 'Compact source changed'
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
     paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|\[]', p.strip())]
-    union = '\n'.join((ROOT/p).read_text() for p in entry['destinations'])
+    union = '\n'.join(preservation_text(p) for p in entry['destinations'])
     missing = [p for p in paragraphs if comparison_views.relink(p, 'effects/guitar-compact.md', refs) not in union]
     assert not missing, 'Compact prose missing: '+str(missing)
     urls = set(re.findall(r'https?://[^\s)]+', source))
@@ -1640,14 +1641,14 @@ def audit_compact_union():
 
 def audit_floorboard_union():
     research_tools.identity()
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     entry = state['migration']['shared_floorboard_audit']
     path = entry['source']
     source = research_tools.read_preserved_source(path)
     assert digest(source) == entry['source_sha256'], 'Floorboard source changed'
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
     paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|\[]', p.strip())]
-    union = '\n'.join((ROOT/p).read_text() for p in ('VALETON.md','SONICAKE.md','MULTI-EFFECTS.md'))
+    union = '\n'.join(preservation_text(p) for p in ('VALETON.md','SONICAKE.md','MULTI-EFFECTS.md'))
     missing = [comparison_views.relink(p,path,refs) for p in paragraphs if comparison_views.relink(p,path,refs) not in union]
     assert not missing, 'Floorboard prose missing: '+str(missing)
     urls = set(re.findall(r'https?://[^\s)]+', source))
@@ -1687,7 +1688,7 @@ def audit_compact_links(kind='compact'):
     if kind == 'boss-history':
         source_key = 'effects/guitar-boss.history-2026-10-14.md'
     source = research_tools.read_preserved_source(source_key)
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     assert digest(source) == state['migration']['shared_'+kind.replace('-', '_')+'_audit']['source_sha256']
     paths = sorted(ROOT.glob('*.md')) + sorted((ROOT/'effects').rglob('*.md'))
     incoming, outgoing, mentions = [], [], []
@@ -1767,7 +1768,7 @@ def plan_nux_shared(model='MG-101'):
 def audit_nux_union(verify=True, kind='nux'):
     assert kind in ('nux','bass','vocal','advanced')
     research_tools.identity()
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     entry = state['migration']['shared_'+kind+'_audit']
     path = entry['source']
     source = research_tools.read_preserved_source(path)
@@ -1778,7 +1779,7 @@ def audit_nux_union(verify=True, kind='nux'):
     destinations = ('ZOOM.md','BOSS.md','MULTI-EFFECTS.md') if kind in ('bass','vocal') else ('NUX.md','MULTI-EFFECTS.md')
     if kind == 'advanced':
         destinations = ('LINE6.md','NEURAL-DSP.md','IK-MULTIMEDIA.md','HEADRUSH.md','MULTI-EFFECTS.md')
-    union = '\n'.join((ROOT/p).read_text() for p in destinations)
+    union = '\n'.join(preservation_text(p) for p in destinations)
     missing = [p for p in normalized if p not in union]
     urls = sorted(set(re.findall(r'https?://[^\s)]+',source)))
     manifests = [e for e in state['consolidation_and_price_findings'] if e.get('source') == path and e.get('verification_kind') == 'complete-model-rows-v1']
@@ -1834,9 +1835,9 @@ def audit_boss_shared(verify=True, history=False):
     research_tools.identity()
     path = 'effects/guitar-boss.history-2026-10-14.md' if history else 'effects/guitar-boss.md'
     source = research_tools.read_preserved_source(path)
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     assert digest(source) == state['migration'][state_key]['source_sha256']
-    destination = (ROOT/'BOSS.md').read_text()
+    destination = preservation_text('BOSS.md')
     models = ('GT-1000CORE','GX-10','GT-1','GX-1','ME-90','GX-100','GT-1000')
     records = []
     for model in models:
@@ -1851,7 +1852,7 @@ def audit_boss_shared(verify=True, history=False):
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)',source,re.M)}
     groups = [p for p in re.split(r'\n\s*\n',source) if p.strip() and not re.match(r'^[#|]',p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
     normalized = [comparison_views.relink(p,path,refs) for p in groups]
-    union = destination+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
+    union = destination+'\n'+preservation_text('MULTI-EFFECTS.md')
     missing = [p for p in normalized if p not in union]
     urls = sorted(set(re.findall(r'https?://[^\s)]+',source)))
     report = dict(source=path,source_sha256=digest(source),records=records,model_fields=field_count*7,paragraph_groups=len(groups),normalized_missing_groups=missing,external_urls=urls,missing_external_urls=[u for u in urls if u not in union],retirement_authorized=False)
@@ -1859,7 +1860,7 @@ def audit_boss_shared(verify=True, history=False):
     if verify:
         assert not any(r['missing_fields'] for r in records), 'Missing BOSS fields'
         assert not missing and not report['missing_external_urls'], 'Missing BOSS context/URLs'
-        verify_preserved(json.loads((ROOT/'research-state.json').read_text()))
+        verify_preserved(json.loads(preservation_text('research-state.json')))
     print(json.dumps(dict(models=len(records),fields=field_count*7,missing_model_fields=sum(len(r['missing_fields']) for r in records),paragraph_groups=len(groups),missing_groups=len(missing),external_urls=len(urls),missing_urls=report['missing_external_urls']),indent=2))
 
 
@@ -1867,12 +1868,12 @@ def audit_boss_shared(verify=True, history=False):
 def audit_audota_union(verify=True):
     """Check all shared rows, appendix cells, prose and reference targets."""
     research_tools.identity()
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     path = 'effects/audota.md'
     source = research_tools.read_preserved_source(path)
     assert digest(source) == state['migration']['shared_audota_audit']['source_sha256']
-    destination = (ROOT/'AUDOTA.md').read_text()
-    union = destination+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
+    destination = preservation_text('AUDOTA.md')
+    union = destination+'\n'+preservation_text('MULTI-EFFECTS.md')
     aliases = {'AME-100':{'ame100'},'AME-200':{'ame200'},'AME-200 Pro':{'ame200pro','pro'},'ACE-100':{'ace100'},'AVE-100':{'ave100'}}
     records = {model:[] for model in aliases}
     appendix = []
@@ -1921,7 +1922,7 @@ def audit_audota_union(verify=True):
 def audit_shared_variant_union(verify=True, kind='cube'):
     assert kind in ('cube','owned','market1','market2','market3','market4','market5','market6','market7')
     research_tools.identity()
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     path = {'cube':'effects/cube-baby.md','owned':'effects/owned-multifx.md','market1':'effects/shopee-multifx.md','market2':'effects/shopee-multifx-2.md','market3':'effects/shopee-multifx-3.md','market4':'effects/shopee-multifx-4.md','market5':'effects/shopee-multifx-5.md','market6':'effects/shopee-multifx-6.md','market7':'effects/shopee-multifx-7.md'}[kind]
     source = research_tools.read_preserved_source(path)
     assert digest(source) == state['migration']['shared_'+kind+'_audit']['source_sha256']
@@ -1951,8 +1952,8 @@ def audit_shared_variant_union(verify=True, kind='cube'):
     if kind == 'market7':
         aliases = {"TRIDENT NME-5":{"nuxtridentnme5","trident"},"G6":{"zoomg6","g6"},"G11":{"zoomg11","g11"},"Ampero II Stomp MP-300":{"amperoiistompmp300","mp300","amperoiistomp"},"POD Go":{"podgostandard","podgo","podgowireless","podgovariants"},"POD Go Wireless":{"podgowireless","podgovariants"},"POD Express Guitar":{"podexpressguitar","expressguitar","podexpressguitarbass","expressvariants"},"POD Express Bass":{"podexpressbass","expressbass","podexpressguitarbass","expressvariants"}}
         files = {"TRIDENT NME-5":"NUX.md","G6":"ZOOM.md","G11":"ZOOM.md","Ampero II Stomp MP-300":"HOTONE.md","POD Go":"LINE6.md","POD Go Wireless":"LINE6.md","POD Express Guitar":"LINE6.md","POD Express Bass":"LINE6.md"}
-    destinations = {name:(ROOT/name).read_text() for name in set(files.values())}
-    union = '\n'.join(destinations.values())+'\n'+(ROOT/'MULTI-EFFECTS.md').read_text()
+    destinations = {name:preservation_text(name) for name in set(files.values())}
+    union = '\n'.join(destinations.values())+'\n'+preservation_text('MULTI-EFFECTS.md')
     records = {model:[] for model in aliases}
     shared_tables = []
     for headers,rows,context in comparison_views.tables(source):
@@ -2001,7 +2002,7 @@ def audit_body_differences():
     """Preview normalized pinned bodies against every retained whole-body archive."""
     import difflib
     research_tools.identity()
-    state = json.loads((ROOT/'research-state.json').read_text())
+    state = json.loads(preservation_text('research-state.json'))
     differences = []
     audited = 0
     skipped = 0
@@ -2022,7 +2023,7 @@ def audit_body_differences():
         for old,new in entry.get('link_normalizations',{}).items():
             expected = expected.replace(old,new)
         path = entry['destination'].split('#')[0]
-        text = (ROOT/path).read_text()
+        text = preservation_text(path)
         actual = text.split('<!-- '+entry['marker']+' source begins -->\n',1)[1].split('<!-- '+entry['marker']+' source ends -->',1)[0]
         if actual != expected:
             differences.append(dict(source=entry['source'],destination=path,marker=entry['marker'],before_sha256=digest(actual),expected_body=expected))

@@ -1815,3 +1815,15 @@ research-commit-anagram:
 .PHONY: research-commit-mfx10
 research-commit-mfx10:
 	python3 scripts/research_tools.py commit-mfx10
+
+.PHONY: canonical-links-plan canonical-links-apply canonical-links-verify
+canonical-links-plan:
+	python3 scripts/canonical_links.py plan
+canonical-links-apply:
+	python3 scripts/canonical_links.py apply
+canonical-links-verify:
+	python3 scripts/canonical_links.py verify
+
+.PHONY: canonical-links-test
+canonical-links-test:
+	python3 scripts/canonical_links.py test
