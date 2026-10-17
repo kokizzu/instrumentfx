@@ -52,7 +52,7 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | No built-in treadle; **three pressure-sensitive MASH footswitches** provide assignable expression. External EXP socket absent from complete specification connector list; toe separate unresolved. | [Product][PX3-P]; [QSG p23][PX3-M] |
-| K/F/B | **5 rotary / 3 footswitches / button count unresolved**: Effect, TonePrint, three assignable parameters; three MASH. Play/Edit and Boards selector switches separate. Encoder presses require physical-count reconciliation; visual check pending. | [Product][PX3-P]; [QSG p23][PX3-M] |
+| K/F/B | **5 rotary /3 footswitches /0 separate buttons** from complete textual control inventory:Effect,TonePrint,three parameter knobs;three MASH. Play/Edit and Board selector switches separate;push encoders counted once. Earlier button uncertainty resolved by inventory,not visual inspection. | [QSG controls/specifications][PX3-M];[original V0.0 copy pp18–19,63][PX3-QM] |
 | Display | Multiple LCD readouts referenced; diagonal/color/touch unresolved. | [QSG p22][PX3-M] |
 | Processing / categories | **Three effect slots**, flexible order; numerical DSP restrictions pending. Current product lists Phaser, Vibe, Looper, Reverb, Delay, Octaver, Pitch Shifter, Chorus, Compressor, Doubler, Flanger, Tremolo, Harmony, Gate, Vibrato, Vintage Echo. Later own-applicable additions and count basis below;complete latest library unverified. | [Product][PX3-P] |
 | Categories / documented choice counts | Product lists **16**:modulation6,pitch/octave/harmony3,delay2,and reverb/compression/doubler/gate/looper1 each. **1.5.6 adds Infinite Sample Sustainer**,giving17 known effects;Tap/Tuner utility separate. Derived union,not a certified complete newest library. | [Own product][PX3-P];[Shared release notes][PX3-F156] |
@@ -66,6 +66,8 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Live / secondary footswitch functions | PLAY-mode hold can invoke **MASH, RAMP or TAP TEMPO**, configured per Board. MIDI In/Thru can remotely control switches, Board changes and effect parameters. USB Mini-B connects TonePrint App on computer/mobile and performs firmware updates; this is not USB audio/power proof. | [QSG pp18–19][PX3-M] |
 | Expression / MIDI control | Shared official X5/X3 table maps **CC100 Global Expression**, CC107–109 Hot Knobs; slots1–3 MASH on CC70/75/80 and expression modifiers CC71/76/81. MIDI expression is distinct from a dedicated analog EXP socket or toe switch. | [Official MIDI CC table][PX3-C] |
 | Live / MIDI looper | CC110 Record,111 Play,112 Clear,113 Pause; values0–24 target slot1,25–50 slot2,51–76 slot3. Table marks slots4–5 **X5-only**. CC92 tap,93 tuner,94/95 Board down/up. This proves X3 looper command support, not recording duration. | [Official MIDI CC table][PX3-C] |
+| Processing / published latency | **0.8–2.4ms** in own-model specification table. Not a fixed value for every Board,measured result or Board-change/loading time. | [QSG p23][PX3-M];[original copy p63][PX3-QM] |
+| Editor / Bluetooth operating limits | **4.2 Low Energy,2.402–2.48GHz,40 RF channels,8dBm**;range≤10m measured in open space,obstacles reduce it. RF channels are not audio channels;audio streaming remains unverified. | [Original QSG copy p63][PX3-QM] |
 | Preset memory | **Up to127 boards;75 TonePrint slots per effect**; separate from three simultaneous slots. EDIT settings auto-save; PLAY HOT KNOB tweaks do not. Factory-filled subset unresolved. | [Product][PX3-P] |
 | Synth / acoustic | Dedicated synth/acoustic conversion unresolved; octave/pitch/harmony do not establish these. | Unresolved |
 | I/O | Two unbalanced quarter-inch TS inputs (**1MΩ**), two unbalanced TS outputs; MIDI In/Thru five-pin DIN; Mini-B USB; DC input. USB audio/power unverified. | [QSG p23][PX3-M] |
@@ -99,6 +101,10 @@ Newer firmware evidence checked2026-10-17. Shared manufacturer notes explicitly 
 
 [PX3-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
 [PX3-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7
+
+Control-count recheck2026-10-17 uses the complete13-callout own-model text and specifications. Manufacturer endpoint returned502;readable manufacturer-authored35-page multilingual copy identifies PLETHORA X3,V0.0,©2022 andmatches indexed officialcontrols/specifications. Its printedp63 corresponds to official English-onlyp23;pagination differs. Screens/photos were not inspected.
+
+[PX3-QM]: https://www.adorama.com/col/productManuals/TC79AIS861.pdf
 
 ## PLETHORA X5
 

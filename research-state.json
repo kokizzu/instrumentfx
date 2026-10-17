@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic PLETHORA X3",
-    "task": "Own16effects+explicit1.5.6sustainer yield17knownchoices;TapTunerutilityseparate.1.4.3/1.5.6applicablelimits saved. Continue freshShopeediscovery ormodelgaps;X3bass/display/controls/looper/power/software/offerverification incomplete.",
+    "task": "X3 controlcount5/3/0 textuallyreconciled,ownlatency0.8–2.4ms andBluetoothRF/range saved. Continue freshShopee discovery orothermodelgaps;display/power/USB/currentOS/imports/looper/bass/offer gaps remain.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -59968,5 +59968,34 @@
       "Exact used/newoffers"
     ],
     "method": "Browsermanufacturertext andoriginalreleaseconversion;no downloads oroperation."
+  },
+  "px3_controls_latency_20261017": {
+    "sources": [
+      "https://mediadl.musictribe.com/media/PLM/data/docs/P0EB4/PLETHORA-X3_QSG_EN.pdf",
+      "https://www.adorama.com/col/productManuals/TC79AIS861.pdf"
+    ],
+    "identity": "Readable original manufacturer QSG multilingual35pages,V0.0,©2022,ownPLETHORAX3cover;13controlcallouts andspecs match indexedofficialEnglishQSG. Originalmultilingualprintedpp18–19/63 vs Englishpp18–19/23. No generated summary used.",
+    "resolved": {
+      "rotary": 5,
+      "footswitch": 3,
+      "separate_buttons": 0,
+      "selector_switches_separate": [
+        "Play/Edit",
+        "Board"
+      ],
+      "basis": "Complete textinventory;encoderpushcountedonce;visualcorroborationnotperformed."
+    },
+    "latency": "Published0.8–2.4ms;not fixedBoardlatency,measurement orBoardloadtime.",
+    "bluetooth": "4.2LE,2.402–2.48GHz,40RFchannels,8dBm,upto10mopenspace;notaudiochannellist/streamingproof.",
+    "remaining": [
+      "Publisheddisplaydiagonal/color/touch",
+      "Actualdraw/battery/USBbuspower",
+      "USB audio",
+      "CurrentOS/imports",
+      "Looper duration/undo/persistence",
+      "Basssuitability",
+      "Qualifiedoffers"
+    ],
+    "method": "Officialindexedtext andoriginalmirrorPDFtext;directmanufacturer502;no downloads,imageinspection oroperation."
   }
 }
