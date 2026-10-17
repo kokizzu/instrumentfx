@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 319,
+  "active_model_count": 320,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 319,
+  "canonical_root_model_count": 320,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "319 unique active/root-canonical;0 legacy-only;36 brands;6 excluded;all partial.",
+  "count_reconciliation": "320 unique active/root-canonical;0 legacy-only;36 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Soran Dual Stomp",
-    "task": "Research own originalmanual/product and exactHOLYMUSIC945642322/51608612661;do notmergeLite. TinyStomp categoryaudit saved;NAMarchitecture/price gaps andGoRigBmanual remain.",
+    "task": "Initial record saved;next readableoriginalmanual forcounts/control/expressiontoe/calibration/power/routing;keep125/126and10/11conflicts. Then discover exactDualStompLite offer separately.",
     "next_models": [],
-    "after_queue": "319active;continueShopeediscoveryandtechnical/ownership/migration work;no downloads/workflows/push."
+    "after_queue": "320active;allprior technical/market/ownership/migration gapsremain;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5356,6 +5356,13 @@
       "status": "partial",
       "checked_date": "2026-10-18",
       "evidence": "Own original manual andproduct;convertedNAM A2 August2026notice;USB stopscharging;exactShopee195817632/9344664445 Rp830000 conditionstockunknown"
+    },
+    {
+      "model": "Soran Dual Stomp",
+      "destination": "SORAN.md#dual-stomp",
+      "status": "partial",
+      "checked_date": "2026-10-18",
+      "evidence": "Ownproduct11vs10modules126vs125 retained;ownmanual403;explicitsharedA2conversionnotice;exactHOLYMUSIC945642322/51608612661 Rp1400000Habis conditionunknown"
     }
   ],
   "consolidation_and_price_findings": [
@@ -24451,7 +24458,8 @@
     ],
     "Soran": [
       "Go Rig B",
-      "Tiny Stomp"
+      "Tiny Stomp",
+      "Dual Stomp"
     ]
   },
   "root_brand_content": {
@@ -24844,19 +24852,20 @@
     ],
     "SORAN.md": [
       "Go Rig B",
-      "Tiny Stomp"
+      "Tiny Stomp",
+      "Dual Stomp"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 265,
+      "record_count": 266,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 138,
+      "record_count": 139,
       "bass_focused_record_count": 30,
-      "shared_bass_capable_count": 108,
+      "shared_bass_capable_count": 109,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -24882,7 +24891,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:262 guitar,136 documented bass-capable,65 vocal;technical andmarket verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "319 root-canonical models;0 legacy-only. Compatibility files remain;specification andmarket research incomplete.",
+    "warning": "320 root-canonical models;0legacy-only;compatibility files remain;technical/market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41917,18 +41926,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 319,
-    "canonical_root_models": 319,
+    "unique_brand_model_pairs": 320,
+    "canonical_root_models": 320,
     "legacy_only_models": 0,
-    "guitar_view_models": 265,
+    "guitar_view_models": 266,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 138,
-    "bass_shared_models": 108,
+    "bass_view_models": 139,
+    "bass_shared_models": 109,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -42248,7 +42257,8 @@
       "Kemper::PROFILER PowerHead MK2",
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Head MK2",
-      "Soran::Tiny Stomp"
+      "Soran::Tiny Stomp",
+      "Soran::Dual Stomp"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -42388,7 +42398,8 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Head MK2",
       "Soran::Go Rig B",
-      "Soran::Tiny Stomp"
+      "Soran::Tiny Stomp",
+      "Soran::Dual Stomp"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -42460,6 +42471,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Soran::Dual Stomp": "Own exact product explicitlysupports guitar/bass and25guitar+5bass amps/cabs;internalLitewordingconflict retained. [Product](https://soranaudio.com/products/28.html).",
     "Soran::Tiny Stomp": "Own manufacturer product andmanual explicitly support guitar/bass;25guitar/5bass amps andmatching cabinets. [Product](https://soranaudio.com/products/34.html).",
     "MOOER::Prime M2": "Own manufacturer manual tone library explicitly selects guitar or bass and lists bass preamps/cabinets. [Manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf).",
     "MOOER::Prime M1": "Exact manufacturer identifies guitar and bass;20 versus21 bass model conflict retained. [Product](https://www.mooeraudio.com/products/211.html).",
@@ -44962,6 +44974,13 @@
     },
     "Soran::Tiny Stomp": {
       "link": "SORAN.md#tiny-stomp",
+      "source_files": [
+        "SORAN.md"
+      ],
+      "finding_files": []
+    },
+    "Soran::Dual Stomp": {
+      "link": "SORAN.md#dual-stomp",
       "source_files": [
         "SORAN.md"
       ],
@@ -61992,6 +62011,10 @@
     {
       "token": "9344664445",
       "model": "Soran::Tiny Stomp"
+    },
+    {
+      "token": "51608612661",
+      "model": "Soran::Dual Stomp"
     }
   ],
   "g3xn_dsp_acoustic_20261017": {

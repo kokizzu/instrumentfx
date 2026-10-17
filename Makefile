@@ -1739,3 +1739,7 @@ research-commit-gorigb:
 .PHONY: research-commit-tinystomp
 research-commit-tinystomp:
 	python3 scripts/research_tools.py commit-tinystomp
+
+.PHONY: research-commit-dualstomp
+research-commit-dualstomp:
+	python3 scripts/research_tools.py commit-dualstomp

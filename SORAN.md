@@ -101,3 +101,41 @@ Checked2026-10-18 against original manual [effect list][TS-M],printedpp21–26;P
 | Simultaneous processing | Eight tone modules pluslooper/drum make advertised10modules;105/125 arechoices/positions,not simultaneousblocks. Repeated-category instances andDSP-dependent restrictions remainunverified. |
 
 The cited appendix is dated only byits source context;laterfirmware/library changes require separate evidence. Empty slots are notfactory sounds. NAMconversion architecture/size limits,qualifiedused/newprices andscreen touch remainunresolved.
+
+## Dual Stomp
+
+Guitar/bass multi-effects;checked2026-10-18,partial. Distinct fromLite;ownership unknown. Own product page contains internal conflicts below;unreadmanual doesnot verify controls.
+
+| Field | Finding / qualification |
+|---|---|
+| Instrument scope | Guitar/bass;25guitar+5bass amps/cabs. [DS-P] |
+| Expression / toe | Built-inWAH/VOL pedal;externalEXP andtoe-switch mechanism unverified. [DS-P] |
+| K/F/B | Rotary,footswitch andseparate-button counts unverified;no panel audit. |
+| Display | 2-inchcolorTFT;touch unverified. [DS-P] |
+| Processing / choices | Advertised11simultaneous modules versus specification10;126total versus descriptive125. ListedWAH/VOL,GATE,OD/FX,AMP,CAB,EQ,MOD,DEL,REV,LOOP,DRUM. Category counts pendingownmanual. [DS-P] |
+| Factory / user memory | 99userlocations,01–80guitar/81–99bass;factory-fill relationship unverified. [DS-P] |
+| Synth / acoustic | Specific synth/acoustic simulation unverified. |
+| Dimensions / mass | 205L×120W×58H mm;595g. [DS-P] |
+| I/O | Mono¼TSinput;two¼unbalancedTRS-labelledmonooutputs;⅛stereophones;⅛TRRSAUXin/out;USB-C. TRSlabel doesnotprove balancedoutputs. Completeinventory pendingmanual. [DS-P] |
+| Power / battery / USB | 2000mAh3.7V,up to6h;USB-C5Vcharging. Draw,USB-onlyoperation,chargewhileplaying/polarity unverified;do notinheritTiny’s behavior. [DS-P] |
+| IR / NAM / captures | TenuserIRslots,WAV48kHz24bit512samples;tenNFILEslots. Aug25 2026notice explicitlynamesDualStomp:StompManager1.0.2.1Mac/Windows convertsA2automatically,no firmwareupdate required. NativeNAM/onboardcapture andarchitecture limits unverified. [DS-P],[TS-A2] |
+| Editor / software | Ownsupport listsStompManagerWindows1.0.2.2,Mac1.0.2.1,Android1.0.1.0,iOS;DFUWindows/Mac separate. ExactcurrentOS support unverified;no installation. [DS-D] |
+| USB audio / drivers | 2-in/2-out48kHz24bit. SharedV1.1.1notes explicitlyincludeDual:WindowsASIO6.14.0;MacCoreAudio;controller requiresUSBhost. [DS-P],[TS-FW] |
+| Looper / drums / live | 40sstereoloop,AutoRec,LoopSync,100patterns. Routing,persistence/scenes unverified. [DS-P] |
+| Firmware / backup | V1.1.1May27 2026 retains presets buterases importedNAM/IR;factoryreset deletesuserdata. No update performed. [TS-FW] |
+
+### Dual Stomp — separate IDR hardware evidence
+
+| Condition | Amount / qualifications | Source |
+|---|---|---|
+| Used | Unknown;no qualifiedusedoffer. | — |
+| New | Unknown;newarrivaltitle doesnotestablish condition. | — |
+| Condition unverified;Habis | **Rp1,400,000**,HOLY MUSIC,Jakarta Utara,shop945642322/item51608612661. Directlast-monthcachedbody checked2026-10-18. Bundle/variant/warranty/voucher/shipping/taxunknown. RelativeHariIni delivery doesnotoverrideHabis;Rp10,000latecompensation notdiscount. Historicalask,notliveavailable/completedsale. | [ExactShopee][DS-S] |
+
+OfficialV1.0.0manual link403;manufacturer-domain alternatenotaccessible. Product’sDSMparagraph saysLite despiteDualheading;thatparagraphisnotusedtoverifyDualhardware. No siblingcontrol/chargebehavior borrowed. No filesdownloaded orimagesinspected. Resolve originalmanual,categorycounts,pedalcalibration/toe,ports andpowerlimits next.
+
+[DS-P]: https://soranaudio.com/products/28.html
+[DS-D]: https://www.soranaudio.com/Download.html
+[DS-S]: https://shopee.co.id/SORAN-Dual-Stomp-Multi-Effect-Electric-Guitar-and-Bass-Processor-new-arrival-holy-music-nam-ir-i.945642322.51608612661
+
+Unreadofficialmanual: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17751001238004746.pdf .
