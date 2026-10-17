@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 229,
+  "active_model_count": 230,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 229,
+  "canonical_root_model_count": 230,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "229 unique active/root-canonical models; zero legacy-only. JOYO R-16 adds vocal-only membership;instrument reverb does not establish guitar/bass multifx. Six archives excluded.",
+  "count_reconciliation": "230 unique active/root-canonical records;zero legacy-only;GNX3 adds guitar and documented bass membership. Six specialist archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech GNX3",
-    "task": "Verify original GNX3 manufacturer manual, architecture and exact variant; seller275193084/item28410925465 linked from reopened seller page asks Rp3.100.000, item reopening failed. Preserve NOS title discrepancy; do not infer condition/stock. Then add source-qualified record and views if eligible.",
+    "model": "Bass/vocal Shopee discovery",
+    "task": "GNX3 recorded;finish its technical gaps later. Search fresh brand/series exact bass/vocal hardware;prior negative queries are not absence evidence.",
     "next_models": [],
-    "after_queue": "Resume fresh bass/vocal discovery and technical gaps; no downloads/workflows."
+    "after_queue": "Continue technical gaps and legacy migration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4910,6 +4910,17 @@
       ],
       "finding": "Own independent harmony/reverb,up to2 harmony voices and48V mic supply. UK interval/impedance conflicts retained;exact cached offers condition-unqualified. Manual body unreadable.",
       "remaining": "Manual/panel,ports/power,display/memory/software/loading/live and qualified offers."
+    },
+    {
+      "model": "DigiTech GNX3",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://digitech.com/dp/gnx3/",
+        "https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf"
+      ],
+      "finding": "Original multi-effects/bass architecture;65factory+65user;power conflict retained;exact seller lead condition unresolved.",
+      "remaining": "Controls/categories,power conflict,screen,recording,loading,qualified offers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23755,7 +23766,8 @@
       "RP90",
       "RP250",
       "RP1000",
-      "RP155"
+      "RP155",
+      "GNX3"
     ],
     "Korg": [
       "PANDORA stomp",
@@ -24042,7 +24054,8 @@
       "RP90",
       "RP250",
       "RP1000",
-      "RP155"
+      "RP155",
+      "GNX3"
     ],
     "KORG.md": [
       "PANDORA stomp",
@@ -24073,14 +24086,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 186,
+      "record_count": 187,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 91,
+      "record_count": 92,
       "bass_focused_record_count": 22,
-      "shared_bass_capable_count": 69,
+      "shared_bass_capable_count": 70,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -40976,18 +40989,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 229,
-    "canonical_root_models": 229,
+    "unique_brand_model_pairs": 230,
+    "canonical_root_models": 230,
     "legacy_only_models": 0,
-    "guitar_view_models": 186,
+    "guitar_view_models": 187,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
     "vocal_view_models": 35,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 91,
-    "bass_shared_models": 69,
+    "bass_view_models": 92,
+    "bass_shared_models": 70,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41212,6 +41225,7 @@
       "DigiTech::RP250",
       "DigiTech::RP1000",
       "DigiTech::RP155",
+      "DigiTech::GNX3",
       "Korg::PANDORA stomp",
       "Korg::AX3000G",
       "Korg::AX1500G",
@@ -41318,6 +41332,7 @@
       "Zoom::B1on",
       "Zoom::B3",
       "Zoom::708II",
+      "DigiTech::GNX3",
       "Korg::PANDORA stomp",
       "VOX::StompLab 2B",
       "Behringer::Bass V-AMP",
@@ -41362,6 +41377,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "DigiTech::GNX3": "Manufacturer explicitly documents bass amp modeling for recording rhythm tracks. [GNX3 product](https://digitech.com/dp/gnx3/).",
     "Line 6::POD HD400": "Own HD300/400 Advanced Guide RevA for Flash2.0 lists Flip Top bass amp and115 Flip Top bass cab,pp5•9–11. [Official guide](https://line6.com/data/6/0a06434df9be5005ac8bcc52f/application/pdf/POD%20HD300%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf).",
     "Line 6::POD XT Live": "Conditional: manufacturer Bass Expansion listing explicitly includes PODxt Live and adds28 bass amps/22 cabinets. Optional authorization required; seller license and current activation unverified. [Manufacturer listing](https://shop-us.line6.com/standard-model-packs/bass-expansion-pack/).",
     "Line 6::POD X3 Live": "Own Live product documentation explicitly lists bass amp/cab models and instrument input. [Product](https://line6.com/legacy/podx3live?locale=en_US).",
@@ -43069,6 +43085,13 @@
     },
     "DigiTech::RP155": {
       "link": "DIGITECH.md#rp155",
+      "source_files": [
+        "DIGITECH.md"
+      ],
+      "finding_files": []
+    },
+    "DigiTech::GNX3": {
+      "link": "DIGITECH.md#gnx3",
       "source_files": [
         "DIGITECH.md"
       ],

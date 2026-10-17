@@ -265,3 +265,40 @@ Follow-up 2026-10-17: category counts above are derived from the named model tab
 [R155-M]: https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf
 [R155-S]: https://digitech.com/support/powersupplylist/
 [R155-O]: https://shopee.co.id/Digitech-RP155-manual-i.743972454.16385212667
+
+## GNX3
+
+Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 andGNX4. Checked2026-10-17; partial. Manufacturer past-product status is not retailer stock.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression |Built-in;toe pressure selects wah versus assigned parameters. External EXP unverified [G-M p.5] |
+| Knobs / footswitches / buttons |Five parameter knobs plus data wheel and rear mic/output levels:8 derived rotary controls;7 main footswitches;complete button count unresolved [G-M pp.3–6] |
+| Display |Green alphanumeric plus red numeric display;diagonal,touch and exact technology unverified [G-M pp.9–10] |
+| Processing / categories |Multi-effects and amp/cab modeling;3 Audio DNA processors. DSP count is not simultaneous effect count. Maximum blocks and category subtotals unresolved [G-P] |
+| Memory |65 fixed factory+65 writable user=130 total;user bank initially duplicates factory [G-M p.9] |
+| Synth / acoustic |SynthTalk documented;acoustic simulation unresolved [G-M p.27] |
+| Bass capability |Manufacturer explicitly describes recording bass tracks using its bass amp modeler [G-P] |
+| I/O |TS instrument input,L/R outputs;XLR mic input/output;3.5mm stereo CD input;6.35mm stereo headphones;RCA S/PDIF out;MIDI IN/OUT-THRU;SmartMedia;FS300 socket;power. Phantom,FX loop unverified;USB absent from listed ports [G-M pp.6–7,75] |
+| Power / battery / USB |PSS3;18.5W consumption. Original guide lists regional mains adapters;device-side voltage/current conflicts unresolved. Battery/USB operation unverified [G-P,G-M p.75,G-S] |
+| Dimensions / weight |20.75×9×3 inches,8.9lb;approximately527×229×76mm,4.04kg;manufacturer length/width axes retained [G-P] |
+| IR / NAM / captures |CIT cabinet modeling and HyperModels are not proof of user IR,NAM or measured capture import;all three unverified |
+| Editor |GenEdit1.61A Windows listed. Manufacturer warns older software may not run on current systems;Mac/Linux/mobile unresolved [G-E] |
+| Looper / drums / recording |8-track recorder,drum machine,SmartMedia expansion [G-P]. Recording quality/storage/loop limits remain to verify |
+
+### GNX3 — separate IDR evidence
+
+| Price class | Amount | Offer and qualification |
+|---|---:|---|
+| Condition-unverified indexed hardware ask |Rp3.100.000 |[seller275193084/item28410925465](https://shopee.co.id/Efek-Gitar-Digitech-GNX-3-USA-bk-Boss-GT-6-8-10-Mooer-Nux-Line-6-POD-Valeton-GP-200-i.275193084.28410925465),linked from [renggaandromedha](https://shopee.co.id/renggaandromedha). Seller page last-month indexed/reopened;exact item failed. Seller page title says New Old Stock Original;item title differs. Region,condition,stock,bundle,voucher andwarranty unverified |
+| Verified used IDR |? |Not established |
+| Verified new IDR |? |Not established;NOS claim not independently verified |
+
+### GNX3 — sources and unresolved conflict
+
+- [G-P: original manufacturer product](https://digitech.com/dp/gnx3/).
+- [G-M: original84-page user guide](https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf),text inspected;no new visual panel verification claimed.
+- [G-E: manufacturer software index](https://digitech.com/software-downloads/).
+- [G-S: manufacturer supply list](https://digitech.com/support/powersupplylist/):PSS3 section currently says9VDC1.3A,2.1mm center-negative anduniversal mains. [Manufacturer FAQ](https://digitech.com/faqs/) search text instead associates PSS3 with9VAC2.1A,2.5mm forGNX3000;this sibling association does not establish GNX3 ratings. Original GNX3 guide names regional PSS3 supplies and18.5W. Conflict unresolved;do not select a replacement from this record.
+
+No files downloaded. Remaining:full category/control inventory,firmware,power conflict,recording restrictions,screen diagonal/technology,loading formats andqualified used/new offers. Vocal recording input alone is not a verified live vocal-multifx classification.
