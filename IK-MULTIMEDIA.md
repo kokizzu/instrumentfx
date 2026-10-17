@@ -36,7 +36,7 @@ USB audio input/output counts use the manufacturer's interface convention. A cap
 
 Retained model-source URLs: https://ikmultimedia.com/products/tonexone, https://www.ikmultimedia.com/products/tonexone/, https://ikmultimedia.com/cdn/shop/files/TONEX_ONE_MG_3569_r2.jpg?v=1783342577&width=1100
 
-[Complete original comparison](effects/advanced-modelers.md) remains available. No legacy source or incoming link was removed.
+[Complete original comparison](MULTI-EFFECTS.md)<!-- historical-link:ik-multimedia-001 --> remains available. No legacy source or incoming link was removed.
 
 ### Source identity and dates
 
@@ -108,7 +108,7 @@ USB audio input/output counts use the manufacturer's interface convention. A cap
 
 Retained model-source URLs: https://ikmultimedia.com/products/tonexpedal, https://www.ikmultimedia.com/products/tonexpedal/, https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal---Studio-57101.jpg?v=1783348434&width=1100, https://www.thomannmusic.com/zoom_b6.htm
 
-[Complete original comparison](effects/advanced-modelers.md) is retained; no source or incoming link was removed. The USD429.99 official tax-excluded and USD299 international-seller observations retain their2026-10-14 context; no conversion or current delivered-price claim is made.
+[Complete original comparison](MULTI-EFFECTS.md)<!-- historical-link:ik-multimedia-002 --> is retained; no source or incoming link was removed. The USD429.99 official tax-excluded and USD299 international-seller observations retain their2026-10-14 context; no conversion or current delivered-price claim is made.
 
 ### Source identity and limits
 

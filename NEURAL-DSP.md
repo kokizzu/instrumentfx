@@ -32,7 +32,7 @@ USB audio input/output counts use the manufacturer's interface convention. A cap
 
 Retained original source URLs: https://neuraldsp.com/manual/nano-cortex, https://neuraldsp.com/nano-cortex
 
-The [complete original comparison](effects/advanced-modelers.md) remains available; no source or incoming link removed.
+The [complete original comparison](MULTI-EFFECTS.md)<!-- historical-link:neural-dsp-001 --> remains available; no source or incoming link removed.
 
 ### Current comparison fields
 

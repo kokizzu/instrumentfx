@@ -76,7 +76,7 @@ These five former missing profiles now have technical findings, but their explic
 - **Used IDR** (Separate IDR evidence): ?
 - **Retail/historical observation — not a live price range** (Separate IDR evidence): **Rp1.450.000 cached ask**;separateRp1.565.000 sold-out body conflicts withRp1.885.000 search snippet
 
-Original individual finding commit: 7962a72f6ecc5864e54fd2437cad25ed93507a5b. Sources: [Original finding](effects/findings/2026-10-15-ving-fb100.md), [Complete supporting comparison](effects/owned-multifx.md). No legacy source or incoming link removed.
+Original individual finding commit: 7962a72f6ecc5864e54fd2437cad25ed93507a5b. Sources: [Original finding](VING.md#flybro-fb-100)<!-- historical-link:ving-001 -->, [Complete supporting comparison](MULTI-EFFECTS.md)<!-- historical-link:ving-002 -->. No legacy source or incoming link removed.
 
 <!-- comparison evidence begins -->
 
@@ -120,4 +120,4 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 
 - **Original findings commit** (Saved individual commits): `7962a72f6ecc5864e54fd2437cad25ed93507a5b`
 
-[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared comparison](MULTI-EFFECTS.md)<!-- historical-link:ving-003 -->,retained pending complete navigation/provenance audits.

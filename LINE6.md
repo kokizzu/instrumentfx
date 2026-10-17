@@ -201,7 +201,7 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects, **large**, built-in expressi
 | Dimensions / weight | Official Japan specification **88 H ×230 W ×359 D mm; 2.5 kg Wireless**, versus2.35 kg standard. Published horizontal labels retained; envelope is large either way. Transmitter/bundle inclusion in the weight is not explicitly resolved [J] |
 | Screen | **4.3-inch color LCD**; explicit touch-panel specification unverified. Adds RF quality and transmitter-charge indicators, not another display [P,W] |
 | Blocks | **10 semifixed blocks**: amp/preamp, cab/IR, EQ, wah, volume, FX loop, plus **four selectable effects**, DSP-limited. Input/output utilities are separate; serial internal path, not two parallel chains [M] |
-| Library/category choices | Shared current POD Go model library: drive55, dynamics18, EQ8, modulation55, reverb23, pitch/synth24, filter15, wah11, volume/pan4. Delay table has41 named entries plus one blank row; amp/cab current subtotals remain unresolved. Full source/count qualifications in [standard record](effects/findings/2026-10-15-line6-pod-go.md) and official list [L] |
+| Library/category choices | Shared current POD Go model library: drive55, dynamics18, EQ8, modulation55, reverb23, pitch/synth24, filter15, wah11, volume/pan4. Delay table has41 named entries plus one blank row; amp/cab current subtotals remain unresolved. Full source/count qualifications in [standard record](LINE6.md#pod-go-and-pod-go-wireless)<!-- historical-link:line6-001 --> and official list [L] |
 | Presets | **256 overwriteable locations**, Factory128 + User128 labels; **four snapshots per preset**. Both setlists can be overwritten. Current factory-filled subset is not extra memory [M] |
 | Synth / acoustic | **Yes / yes**: named synth algorithms and Acoustic Sim. Acoustic Sim uses an optional EQ effect slot, not the fixed Preset EQ slot [M,L] |
 | IR | **128 imported IR library locations**, 1024-point processing, WAV via POD Go Edit. Cabinet and IR share one processing block; full input-conversion limits remain unverified [P,Y] |
@@ -255,7 +255,7 @@ Historical2026-10-15 source wording for this exact variant. Shared rows apply on
 - **Used evidence** (Separate IDR evidence): **Rp5.000.000,SECOND/BEKAS,SOLD OUT**
 - **Retail evidence / qualification** (Separate IDR evidence): **Rp7.704.000**,Nuansa Musik,indexed olderAug–Sep delivery text
 
-[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:line6-002 -->,retained pending complete navigation/provenance audits.
 
 ### Preserved seventh Shopee expansion: POD Go Wireless
 
@@ -276,7 +276,7 @@ Historical2026-10-15 source wording for this exact variant. Shared rows apply on
 - **Retail evidence / qualification** (Separate IDR evidence): **Rp11.130.500**,melodiasby,reopened withJune–July dates;included transmitter not checkout-verified
 - **Commit** (Individual findings commits): `ac3be6737643e81a13b5d1c3d1f6d18e8e104426`
 
-[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:line6-003 -->,retained pending complete navigation/provenance audits.
 
 ## POD Express Guitar
 
@@ -392,7 +392,7 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Retail evidence / qualification** (Separate IDR evidence): **Rp3.030.000**,Seven Stereo,**service unavailable**
 - **Commit** (Individual findings commits): `e8db0979b6ad77793934c92aabf119e54054a33c`
 
-[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:line6-004 -->,retained pending complete navigation/provenance audits.
 
 ## POD Express Bass
 
@@ -499,7 +499,7 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Retail evidence / qualification** (Separate IDR evidence): **Rp3.099.000**,Seven Stereo,August cache;separateRp3.200.000sold-out ask
 - **Commit** (Individual findings commits): `233e29942df322892b9a841f75a54ed7e760479e`
 
-[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:line6-005 -->,retained pending complete navigation/provenance audits.
 
 ## HX Effects
 
@@ -715,7 +715,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Retail observation** (IDR observations and original commits): Rp14.900.000, cached indexed ask; not active-stock proof
 - **Original model commit** (IDR observations and original commits): `b4ba5b5559dcdd33b196153d4557408d71cbb89f`
 
-Sources: [effects/findings/2026-10-14-line6-hx-stomp-xl.md](effects/findings/2026-10-14-line6-hx-stomp-xl.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-line6-hx-stomp-xl.md](LINE6.md#hx-stomp-xl)<!-- historical-link:line6-006 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:line6-007 -->. No legacy file was deleted.
 
 ## HX Stomp
 
@@ -751,7 +751,7 @@ USB audio input/output counts use the manufacturer's interface convention. A cap
 
 Original source URLs: https://line6.com/hx-stomp/, https://kb.line6.com/hx-stomp-faq, https://line6.com/support/page/kb/effects-controllers/helix/helix-30-release-notes-r934/, https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set, https://www.thomannmusic.com/zoom_b6.htm
 
-The P1 **USD555** observation was checked2026-10-14 at an international store, excluding destination tax/shipping; no IDR conversion or present stock claim is made. [Complete legacy source](effects/advanced-modelers.md) remains available; no source or incoming link was deleted.
+The P1 **USD555** observation was checked2026-10-14 at an international store, excluding destination tax/shipping; no IDR conversion or present stock claim is made. [Complete legacy source](MULTI-EFFECTS.md)<!-- historical-link:line6-008 --> remains available; no source or incoming link was deleted.
 
 ### HX Stomp comparison fields
 

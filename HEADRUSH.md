@@ -246,7 +246,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Additional features** (5. Connections, power, software and live use): Scenes, trails, drums; looper **50 layers, 5 min/layer, 20 min total**
 - **Individually saved findings commit** (6. Evidence gaps and immediate commits): `369f2c15423a1c83340a5c39cdd16c01dfe27d82`
 
-[Original shared source](effects/shopee-multifx-3.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:headrush-001 -->,retained pending complete navigation/provenance audits.
 
 ## Flex Prime
 

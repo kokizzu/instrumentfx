@@ -1841,3 +1841,9 @@ canonical-links-plan-zoom:
 	python3 scripts/canonical_links.py plan-zoom
 canonical-links-plan-mvave:
 	python3 scripts/canonical_links.py plan-mvave
+
+.PHONY: canonical-links-plan-remaining canonical-links-apply-remaining
+canonical-links-plan-remaining:
+	python3 scripts/canonical_links.py plan-remaining
+canonical-links-apply-remaining:
+	python3 scripts/canonical_links.py apply-remaining

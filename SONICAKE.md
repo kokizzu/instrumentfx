@@ -55,7 +55,7 @@ Complete compact source read on 2026-10-17. The following exact model fields ret
 - **Diagonal, inches** (1. Displays): ?
 - **Monochrome / color** (1. Displays): Color
 - **Touchscreen** (1. Displays): ?
-- **Evidence and remaining uncertainty** (1. Displays): [Official photograph and control manual; size not measured from photo](effects/findings/2026-10-14-sonicake-matribox.md)
+- **Evidence and remaining uncertainty** (1. Displays): [Official photograph and control manual; size not measured from photo](SONICAKE.md#matribox-qme-50)<!-- historical-link:sonicake-001 -->
 - **Built-in / external expression** (Built-in expression pedal): Yes / ?
 - **K/F/B** (Built-in expression pedal): 5/2/4 [manual]
 - **Width × depth × height, mm** (Built-in expression pedal): 200 × 137.5 × 53.6
@@ -75,11 +75,11 @@ Complete compact source read on 2026-10-17. The following exact model fields ret
 - **Original new quote** (Archived foreign-price provenance — not the comparison currency): USD129.99
 - **Original evidence** (Archived foreign-price provenance — not the comparison currency): [Official product page][matribox]
 
-**Regional-price warning:** a Jakmall/LOBAJET Matribox listing was indexed at **Rp2.095.650**, explicitly for the **Chinese/CN-language version**, with a preorder workflow and seller warning that its language cannot be changed. It is not mixed into an English/global price range or treated as proof that global firmware is compatible with that particular unit. See [the exact offer and evidence](effects/findings/2026-10-14-sonicake-matribox.md).
+**Regional-price warning:** a Jakmall/LOBAJET Matribox listing was indexed at **Rp2.095.650**, explicitly for the **Chinese/CN-language version**, with a preorder workflow and seller warning that its language cannot be changed. It is not mixed into an English/global price range or treated as proof that global firmware is compatible with that particular unit. See [the exact offer and evidence](SONICAKE.md#matribox-qme-50)<!-- historical-link:sonicake-002 -->.
 
 Sonicake's checked Matribox download section lists firmware **1.1.0** and desktop software **1.1.1** with NAM A2 support; its instructions require the older software for the firmware-update step. Pocket Master's page lists firmware **1.3.3**, Manager **1.5.2**, and SONICLINK **1.7.2**. Smart Box also lists iOS/Android SONICLINK **1.7.2**. Follow the matching manufacturer instructions. These are documented workflows, not compatibility tests of every NAM architecture or regional unit.
 
-Historical source key: `FM` means the [original Matribox finding](effects/findings/2026-10-14-sonicake-matribox.md); `manual` means the [firmware 1.1.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433); `matribox` means the [official model page](https://www.sonicake.com/products/matribox). Original files and incoming links remain available.
+Historical source key: `FM` means the [original Matribox finding](SONICAKE.md#matribox-qme-50)<!-- historical-link:sonicake-003 -->; `manual` means the [firmware 1.1.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433); `matribox` means the [official model page](https://www.sonicake.com/products/matribox). Original files and incoming links remain available.
 
 <!-- comparison evidence ends -->
 
@@ -89,7 +89,7 @@ Complete original 2026-10-14 finding below. This preservation check does not ren
 
 <!-- SONICAKE-MATRIBOX source begins -->
 
-Research date: **2026-10-14**. Existing model, not a new inventory entry. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+Research date: **2026-10-14**. Existing model, not a new inventory entry. [Comparison](ALL-GUITAR.md)<!-- historical-link:sonicake-004 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:sonicake-005 -->. Status: **partial**.
 
 ### Display and controls
 
@@ -152,7 +152,7 @@ Complete compact-source audit checked on 2026-10-17. Exact model fields below pr
 - **Diagonal, inches** (1. Displays): 1.77
 - **Monochrome / color** (1. Displays): Color
 - **Touchscreen** (1. Displays): ?
-- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer multilingual manual, English printed p.5](effects/findings/2026-10-14-sonicake-smart-box.md)
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer multilingual manual, English printed p.5](SONICAKE.md#smart-box-qme-20)<!-- historical-link:sonicake-006 -->
 - **Built-in / external expression** (No built-in expression pedal): No / EXP/FS
 - **K/F/B** (No built-in expression pedal): 1/2/13 [manual]; rear power separate
 - **Width × depth × height, mm** (No built-in expression pedal): 135 × 114 × 51
@@ -176,7 +176,7 @@ Sonicake's checked Matribox download section lists firmware **1.1.0** and deskto
 
 These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected.
 
-Historical source key: `FSB` means the [original Smart Box finding](effects/findings/2026-10-14-sonicake-smart-box.md); `manual` means the [manufacturer multilingual manual](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf); `smartbox` means the [official model page](https://www.sonicake.com/products/smart-box). The shared firmware paragraph discusses distinct devices and is not permission to transfer their firmware or architecture limits.
+Historical source key: `FSB` means the [original Smart Box finding](SONICAKE.md#smart-box-qme-20)<!-- historical-link:sonicake-007 -->; `manual` means the [manufacturer multilingual manual](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf); `smartbox` means the [official model page](https://www.sonicake.com/products/smart-box). The shared firmware paragraph discusses distinct devices and is not permission to transfer their firmware or architecture limits.
 
 <!-- comparison evidence ends -->
 
@@ -184,7 +184,7 @@ Historical source key: `FSB` means the [original Smart Box finding](effects/find
 
 <!-- SONICAKE-SMARTBOX source begins -->
 
-Research date: **2026-10-14**. Existing model; no new inventory entry. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+Research date: **2026-10-14**. Existing model; no new inventory entry. [Comparison](ALL-GUITAR.md)<!-- historical-link:sonicake-008 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:sonicake-009 -->. Status: **partial**.
 
 ### Primary technical evidence
 
@@ -255,7 +255,7 @@ Complete compact-source audit checked on 2026-10-17. These exact fields retain t
 - **Diagonal, inches** (1. Displays): 1.77
 - **Monochrome / color** (1. Displays): Color
 - **Touchscreen** (1. Displays): ?
-- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer firmware-1.3.0 manual, English printed p.5](effects/findings/2026-10-14-sonicake-pocket-master.md)
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer firmware-1.3.0 manual, English printed p.5](SONICAKE.md#pocket-master-qme-10)<!-- historical-link:sonicake-010 -->
 - **Built-in / external expression** (No built-in expression pedal): No / not established
 - **K/F/B** (No built-in expression pedal): 1/0 conventional/2 palm buttons
 - **Width × depth × height, mm** (No built-in expression pedal): 103.5 × 85 × 28.5
@@ -281,7 +281,7 @@ Sonicake's checked Matribox download section lists firmware **1.1.0** and deskto
 
 These earlier observations were recorded on **2026-10-14** before the IDR revision. They are not converted, not local delivered prices, and have not all been rechecked during this display/IDR pass. A new comparison value is not inferred from them. No exchange rate has been selected.
 
-Historical source key: `FPM` means the [original Pocket Master finding](effects/findings/2026-10-14-sonicake-pocket-master.md); `pocket` means the [official model page](https://www.sonicake.com/products/pocket-master). The [firmware 1.3.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312) remains distinct from the later software/download versions. No firmware test or refreshed stock claim is made.
+Historical source key: `FPM` means the [original Pocket Master finding](SONICAKE.md#pocket-master-qme-10)<!-- historical-link:sonicake-011 -->; `pocket` means the [official model page](https://www.sonicake.com/products/pocket-master). The [firmware 1.3.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312) remains distinct from the later software/download versions. No firmware test or refreshed stock claim is made.
 
 <!-- comparison evidence ends -->
 
@@ -289,7 +289,7 @@ Historical source key: `FPM` means the [original Pocket Master finding](effects/
 
 <!-- SONICAKE-POCKETMASTER source begins -->
 
-Research date: **2026-10-14**. Existing model; inventory unchanged. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+Research date: **2026-10-14**. Existing model; inventory unchanged. [Comparison](ALL-GUITAR.md)<!-- historical-link:sonicake-012 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:sonicake-013 -->. Status: **partial**.
 
 ### Primary technical evidence
 

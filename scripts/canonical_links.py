@@ -4,11 +4,14 @@ from pathlib import Path
 sys.dont_write_bytecode=True
 ROOT=Path(__file__).resolve().parents[1]
 PLAN=Path('/tmp/instrumentfx-canonical-links-plan.json')
+BATCH_PLAN=Path('/tmp/instrumentfx-canonical-links-remaining.json')
+REMAINING={"AUDOTA.md":14,"BOIN-AUDIO.md":4,"CUVAVE.md":3,"DONNER.md":1,"FLAMMA.md":2,"HEADRUSH.md":1,"HOTONE.md":13,"IK-MULTIMEDIA.md":2,"JOYO.md":10,"LINE6.md":8,"NEURAL-DSP.md":1,"NUX.md":4,"ROLAND.md":3,"SCORPION.md":4,"SINGLE-GUITAR.md":1,"SINGLE-VOCAL.md":1,"SONICAKE.md":13,"TC-HELICON.md":8,"VING.md":3}
+EXPECTED={'MULTI-EFFECTS.md':138,'BOSS.md':43,'MOOER.md':41,'VALETON.md':35,'ZOOM.md':25,'M-VAVE.md':20,**REMAINING}
 def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 def preservation_text(path):
     text=(ROOT/path).read_text()
-    if path not in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md'):
+    if '<!-- historical-link:' not in text:
         return text
     entry=json.loads((ROOT/'research-state.json').read_text()).get('migration',{}).get('canonical_links',{}).get(path)
     if not entry:
@@ -28,9 +31,9 @@ def plan(path='MULTI-EFFECTS.md'):
     research.identity()
     assert not research.git('diff','--cached','--name-only').strip(), 'Existing staged changes'
     changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
-    assert changed <= {'Makefile','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/navigation_tools.py','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md','research-state.json'}, changed
+    assert changed <= {'Makefile','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/navigation_tools.py','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md','research-state.json','scripts/research_tools.py'} | set(REMAINING), changed
     state=json.loads((ROOT/'research-state.json').read_text())
-    assert path in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md')
+    assert path in EXPECTED
     assert path not in state['migration'].get('canonical_links',{}), 'Already migrated'
     original=(ROOT/path).read_text()
     changes=[]
@@ -57,7 +60,7 @@ def plan(path='MULTI-EFFECTS.md'):
         changes.append(dict(id=ident,before=match[0],after=after,original_target=raw,destination=dest))
         return after
     updated=re.sub(r'\]\(([^\s)]+)\)',rewrite,original)
-    assert len(changes)=={'MULTI-EFFECTS.md':138,'BOSS.md':43,'MOOER.md':41,'VALETON.md':35,'ZOOM.md':25,'M-VAVE.md':20}[path], len(changes)
+    assert len(changes)==EXPECTED[path], len(changes)
     restored=updated
     for change in changes:
         assert restored.count(change['after'])==1
@@ -73,7 +76,7 @@ def apply():
     research.identity()
     plan=json.loads(PLAN.read_text())
     path=plan['path']
-    assert path in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md')
+    assert path in EXPECTED
     assert digest((ROOT/path).read_text())==plan['input_sha256'], 'Category changed since preview'
     assert digest((ROOT/'research-state.json').read_text())==plan['ledger_sha256'], 'Ledger changed since preview'
     state=json.loads((ROOT/'research-state.json').read_text())
@@ -114,5 +117,46 @@ def test():
             raise AssertionError('Corrupt historical provenance accepted')
     print('PASS: shared destinations restore distinct sources;missing,duplicated andaltered provenance rejected')
 
+
+def plan_remaining():
+    import contextlib, io
+    plans=[]
+    for path in REMAINING:
+        with contextlib.redirect_stdout(io.StringIO()):
+            plan(path)
+        plans.append(json.loads(PLAN.read_text()))
+    assert sum(len(p['changes']) for p in plans)==96
+    assert len({p['ledger_sha256'] for p in plans})==1
+    BATCH_PLAN.write_text(json.dumps(dict(plans=plans),indent=2)+'\n')
+    print(json.dumps(dict(plan=str(BATCH_PLAN),changes={p['path']:[dict(old=c['original_target'],new=c['destination']) for c in p['changes']] for p in plans}),indent=2))
+
+def apply_remaining():
+    import research_tools as research
+    import source_retirement as shared
+    research.identity()
+    payload=json.loads(BATCH_PLAN.read_text())
+    plans=payload['plans']
+    assert [p['path'] for p in plans]==list(REMAINING)
+    state_text=(ROOT/'research-state.json').read_text()
+    state=json.loads(state_text)
+    for p in plans:
+        assert len(p['changes'])==REMAINING[p['path']]
+        assert digest((ROOT/p['path']).read_text()) in (p['input_sha256'],digest(p['output'])), 'Changed reviewed source'
+    initial=plans[0]['ledger_sha256']
+    entries={p['path']:dict(changes=p['changes'],original_sha256=p['input_sha256'],checked_date='2026-10-18',invariant='Reverse marked links to recover exact pre-edit text',rollback='Replace exact after tokens with before;remove only this entry') for p in plans}
+    if digest(state_text)!=initial:
+        assert all(state['migration'].get('canonical_links',{}).get(path)==entry for path,entry in entries.items()), 'Ledger changed since preview'
+    state['migration'].setdefault('canonical_links',{}).update(entries)
+    checkpoint=Path('/tmp/instrumentfx-canonical-links-checkpoint.json')
+    progress=dict(plan_sha256=digest(BATCH_PLAN.read_text()),paths={p['path']:'pending' for p in plans})
+    checkpoint.write_text(json.dumps(progress,indent=2)+'\n')
+    shared.atomic_write(ROOT/'research-state.json',json.dumps(state,ensure_ascii=False,indent=2)+'\n')
+    for p in plans:
+        shared.atomic_write(ROOT/p['path'],p['output'])
+        assert digest(preservation_text(p['path']))==p['input_sha256'], p['path']
+        progress['paths'][p['path']]='verified exact inverse'
+        checkpoint.write_text(json.dumps(progress,indent=2)+'\n')
+    print('PASS: 96 reviewed links applied across19 files;every exact inverse verified')
+
 if __name__=='__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'test':test,'plan-boss':lambda:plan('BOSS.md'),'plan-mooer':lambda:plan('MOOER.md'),'plan-valeton':lambda:plan('VALETON.md'),'plan-zoom':lambda:plan('ZOOM.md'),'plan-mvave':lambda:plan('M-VAVE.md')}[sys.argv[1]]()
+    {'plan':plan,'apply':apply,'verify':verify,'test':test,'plan-boss':lambda:plan('BOSS.md'),'plan-mooer':lambda:plan('MOOER.md'),'plan-valeton':lambda:plan('VALETON.md'),'plan-zoom':lambda:plan('ZOOM.md'),'plan-mvave':lambda:plan('M-VAVE.md'),'plan-remaining':plan_remaining,'apply-remaining':apply_remaining}[sys.argv[1]]()

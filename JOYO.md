@@ -49,7 +49,7 @@ The complete original finding below retains all earlier facts,source/access qual
 
 <!-- JOYO-GEMBOX-ORIGINAL source begins -->
 
-**Checked 2026-10-15. Eligible guitar multi-effects; partial technical record.** This is the original GEM BOX, not II, III or K8. Already identified in [ever-owned history](effects/OWNERSHIP.md); that existing private-evidence conclusion is not a new purchase verification. No private receipt or order data is published.
+**Checked 2026-10-15. Eligible guitar multi-effects; partial technical record.** This is the original GEM BOX, not II, III or K8. Already identified in [ever-owned history](README.md#scope-and-ownership)<!-- historical-link:joyo-001 -->; that existing private-evidence conclusion is not a new purchase verification. No private receipt or order data is published.
 
 ### Manufacturer identification resolved
 
@@ -107,7 +107,7 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 - **Retail/historical observation — not a live price range** (Separate IDR evidence): **Rp1.650.000 Blibli**,seller page3stock;exact Shopee lead failed to reopen
 - **Original findings commit** (Saved individual commits): `0ba80d30357d6727efa954bfa700555279cf7787`
 
-[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared comparison](MULTI-EFFECTS.md)<!-- historical-link:joyo-002 -->,retained pending complete navigation/provenance audits.
 
 ## GEM BOX II
 
@@ -150,7 +150,7 @@ The entire original finding is retained below with only reversible heading-depth
 
 <!-- JOYO-GEMBOX-II source begins -->
 
-[Home](effects/README.md) · [Marketplace](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+[Home](README.md)<!-- historical-link:joyo-003 --> · [Marketplace](research-state.json)<!-- historical-link:joyo-004 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:joyo-005 -->
 
 Checked **2026-10-14**, partial record. Original GEM BOX, GEM BOX II, III and K8 are separate products; no firmware or connector capability is transferred between them.
 
@@ -204,7 +204,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Apps** (4. Power, apps, I/O and stage use): No documented digital editor interface
 - **Key I/O and performance details** (4. Power, apps, I/O and stage use): ¼″ in/sharedstereoout-phones,AUX,DC;**180s looper,40drums+10metronomes**
 
-[Original shared source](effects/shopee-multifx-2.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:joyo-006 -->,retained pending complete navigation/provenance audits.
 
 ## GEM BOX III
 
@@ -247,7 +247,7 @@ The entire2026-10-14 original follows with all earlier unknowns,inspection limit
 
 <!-- JOYO-GEMBOX-III source begins -->
 
-[Home](effects/README.md) · [Marketplace](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+[Home](README.md)<!-- historical-link:joyo-007 --> · [Marketplace](research-state.json)<!-- historical-link:joyo-008 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:joyo-009 -->
 
 Checked **2026-10-14**. Partial record for **GEM BOX III**, not III LE, II or K8. Sources: current JOYO product page, original JOYO version1.0.0 manual and official Windows/Mac downloads. Firmware differences remain explicit.
 
@@ -303,7 +303,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Apps** (4. Power, apps, I/O and stage use): JOYO STUDIO Windows/macOS;current OS compatibility ?
 - **Key I/O and performance details** (4. Power, apps, I/O and stage use): ¼″ in;2¼″+2XLR out;3.5mm aux/phones;EXP2;USB-B;**52s looper,40drums+10metronomes**
 
-[Original shared source](effects/shopee-multifx-2.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:joyo-010 -->,retained pending complete navigation/provenance audits.
 
 ## GEM BOX K8 — confirmed model, technical research pending
 

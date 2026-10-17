@@ -68,7 +68,7 @@ These five former missing profiles now have technical findings, but their explic
 - **Used IDR** (Separate IDR evidence): ?
 - **Retail/historical observation — not a live price range** (Separate IDR evidence): **Rp295.000 sold out**;separateRp411.485 shop holiday;older delivery dates
 
-Original individual finding commit: 8c0bb751797bb3dfeca61849245a79393c032b63. Sources: [Original finding](effects/findings/2026-10-15-cuvave-h8.md), [Complete supporting comparison](effects/owned-multifx.md). No source or incoming link removed.
+Original individual finding commit: 8c0bb751797bb3dfeca61849245a79393c032b63. Sources: [Original finding](CUVAVE.md#h8)<!-- historical-link:cuvave-001 -->, [Complete supporting comparison](MULTI-EFFECTS.md)<!-- historical-link:cuvave-002 -->. No source or incoming link removed.
 
 <!-- comparison evidence begins -->
 
@@ -112,4 +112,4 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 
 - **Original findings commit** (Saved individual commits): `8c0bb751797bb3dfeca61849245a79393c032b63`
 
-[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared comparison](MULTI-EFFECTS.md)<!-- historical-link:cuvave-003 -->,retained pending complete navigation/provenance audits.

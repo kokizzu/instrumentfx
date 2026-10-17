@@ -154,7 +154,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Configuration apps** (5. Power, software and practice/live features): Windows/macOS editor
 - **Other documented functions** (5. Power, software and practice/live features): USB audio;100 s mono/50 s stereo looper;100 rhythms
 
-Sources: [effects/findings/2026-10-14-hotone-ampero-mini.md](effects/findings/2026-10-14-hotone-ampero-mini.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-hotone-ampero-mini.md](HOTONE.md#ampero-mini-mp-50)<!-- historical-link:hotone-001 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:hotone-002 -->. No legacy file was deleted.
 
 ### Ampero Mini — Sound Clone and converted NAM A2, 2026-10-17
 
@@ -205,7 +205,7 @@ Consolidated 2026-10-16. The complete original observation below retains its tec
 
 <!-- HOTONE-AMPERO-MP100 source begins -->
 
-Checked 2026-10-14. **Partial record; large footprint; built-in expression.** Exact original MP-100, not Ampero One, Mini or Ampero II. Useful findings are committed before starting the next model. [Scope](effects/SCOPE.md) · [Resume](effects/RESUME.md).
+Checked 2026-10-14. **Partial record; large footprint; built-in expression.** Exact original MP-100, not Ampero One, Mini or Ampero II. Useful findings are committed before starting the next model. [Scope](README.md#scope-and-ownership)<!-- historical-link:hotone-003 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:hotone-004 -->.
 
 ### Hardware and processing
 
@@ -272,7 +272,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Retail observation** (IDR observations and original commits): Rp7.535.000, listing retrieved; detailed condition/stock unconfirmed
 - **Original model commit** (IDR observations and original commits): `95075d2b802d2c8ef5374426fd8f3d66ad218451`
 
-Sources: [effects/findings/2026-10-14-hotone-ampero-mp100.md](effects/findings/2026-10-14-hotone-ampero-mp100.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-hotone-ampero-mp100.md](HOTONE.md#ampero-mp-100)<!-- historical-link:hotone-005 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:hotone-006 -->. No legacy file was deleted.
 
 ### Ampero MP-100 — converted NAM A2 compatibility, 2026-10-17
 
@@ -288,7 +288,7 @@ Consolidated 2026-10-16. The complete original observation below retains its tec
 
 <!-- HOTONE-AMPERO-MP350 source begins -->
 
-Checked 2026-10-14. **Guitar/bass/vocal multi-effects; large; built-in expression.** Not Ampero II Stomp or Stage. [Scope](effects/SCOPE.md). Partial: source conflicts, unpublished details and inaccessible manuals remain identified.
+Checked 2026-10-14. **Guitar/bass/vocal multi-effects; large; built-in expression.** Not Ampero II Stomp or Stage. [Scope](README.md#scope-and-ownership)<!-- historical-link:hotone-007 -->. Partial: source conflicts, unpublished details and inaccessible manuals remain identified.
 
 ### Core comparison
 
@@ -354,7 +354,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Retail observation** (IDR observations and original commits): Rp11.900.000, indexed; direct reopening failed
 - **Original model commit** (IDR observations and original commits): `4bcf30a87ee202f6e387d8680188a6f12944f047`
 
-Sources: [effects/findings/2026-10-14-hotone-ampero-ii-mp350.md](effects/findings/2026-10-14-hotone-ampero-ii-mp350.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-hotone-ampero-ii-mp350.md](HOTONE.md#ampero-ii-mp-350)<!-- historical-link:hotone-008 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:hotone-009 -->. No legacy file was deleted.
 
 ### MP-350 — exact-offer access update
 
@@ -763,7 +763,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Retail observation** (IDR observations and original commits): Rp13.685.000, indexed; direct reopening failed
 - **Original model commit** (IDR observations and original commits): `fe82a572c99c65f074b2ee5d13e870c7004b51a3`
 
-Sources: [effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md](effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md](HOTONE.md#ampero-ii-stage-mp-380)<!-- historical-link:hotone-010 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:hotone-011 -->. No legacy file was deleted.
 
 ## Ampero II Stomp MP-300
 
@@ -844,4 +844,4 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Retail evidence / qualification** (Separate IDR evidence): **Rp9.090.000**,Seven Stereo,indexed August cache;reopenedJS shell
 - **Commit** (Individual findings commits): `117a5aaa2e58a39fb9e2160ed68f09e9f8f617ea`
 
-Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md), [effects/shopee-multifx-7.md](effects/shopee-multifx-7.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](HOTONE.md#ampero-ii-stomp-mp-300)<!-- historical-link:hotone-012 -->, [effects/shopee-multifx-7.md](research-state.json)<!-- historical-link:hotone-013 -->. No legacy file was deleted.

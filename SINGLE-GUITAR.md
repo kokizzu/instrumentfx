@@ -6,7 +6,7 @@ Dedicated synthesis, acoustic simulation, vocoding and pitch pedals are kept her
 
 ## Excluded archive — not part of the multi-effects comparison
 
-The five records below preserve previously collected evidence only. **Do not restore them to active candidate tables or counts on resume.** Multiple modes, presets or related sounds do not automatically turn a dedicated-purpose pedal into a general guitar multi-effects processor. See [SCOPE.md](effects/SCOPE.md).
+The five records below preserve previously collected evidence only. **Do not restore them to active candidate tables or counts on resume.** Multiple modes, presets or related sounds do not automatically turn a dedicated-purpose pedal into a general guitar multi-effects processor. See [SCOPE.md](README.md#scope-and-ownership)<!-- historical-link:single-guitar-001 -->.
 
 K/F/B means independently adjustable rotary controls / main footswitches / separate buttons. Concentric controls are explicit; toe and power/mode switches are additional. The following **USD** amounts are historical foreign-price provenance from the earlier broad-scope research, not active IDR comparison prices. No dependable used-price observation was established.
 

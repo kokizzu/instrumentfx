@@ -18,6 +18,8 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 Instrument views overlap; a shared processor counts once. View counts are not added to obtain the catalogue total.
 
+Root navigation links directly to canonical root documents. Historical link spellings remain recoverable through mappings in `research-state.json`; legacy compatibility files preserve old anchors and pinned-source provenance. Their continued presence means the overall migration remains incomplete.
+
 ## Root brand documents
 
 | Brand file | Currently consolidated models |

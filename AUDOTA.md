@@ -6,7 +6,7 @@ All five recorded Audota models are consolidated below: AME-100, standard AME-20
 
 Preserved from the2026-10-15 shared Audota comparison. Historical navigation and scope statements below are source provenance;current totals and cursor remain in research-state.json. Technical findings are partial.
 
-[All comparisons](effects/README.md) · [Scope](effects/SCOPE.md) · [Owner history](effects/OWNERSHIP.md) · [Resume](effects/RESUME.md)
+[All comparisons](README.md)<!-- historical-link:audota-001 --> · [Scope](README.md#scope-and-ownership)<!-- historical-link:audota-002 --> · [Owner history](README.md#scope-and-ownership)<!-- historical-link:audota-003 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:audota-004 -->
 
 Each model links to its full finding,primary manual,firmware notes,price sources and unresolved details. This is not proof of complete market coverage or full verification of every field.
 
@@ -102,7 +102,7 @@ Full findingreferencesretainallmanufacturer,manual,importerandsellerlinks.Nogues
 - **Retail evidence / limitation** (Separate IDR evidence): ?;noexactIndonesianitemfound;ownedinclusionindependentofstock
 - **Individual findings commit** (Separate IDR evidence): `dc7059aeb7670c09dfc35d33594cf967c29a0d44`
 
-Sources: [Original finding](effects/findings/2026-10-15-audota-ame-100.md), [Complete supporting comparison](effects/audota.md). Neither legacy source nor incoming link was removed.
+Sources: [Original finding](AUDOTA.md#ame-100)<!-- historical-link:audota-005 -->, [Complete supporting comparison](AUDOTA.md)<!-- historical-link:audota-006 -->. Neither legacy source nor incoming link was removed.
 
 <!-- comparison evidence begins -->
 
@@ -207,7 +207,7 @@ Full findingreferencesretainallmanufacturer,manual,importerandsellerlinks.Nogues
 - **Retail evidence / limitation** (Separate IDR evidence): **Rp1.750.000**,Jojomusicstore,cachedJulylisting;directreopenfailed
 - **Individual findings commit** (Separate IDR evidence): `f65d7d16d639c8898b7b57a936041305bdbdfec6`
 
-Sources: [Original finding](effects/findings/2026-10-15-audota-ame-200.md), [Complete supporting comparison](effects/audota.md). No original source or incoming link removed.
+Sources: [Original finding](AUDOTA.md#ame-200)<!-- historical-link:audota-007 -->, [Complete supporting comparison](AUDOTA.md)<!-- historical-link:audota-008 -->. No original source or incoming link removed.
 
 <!-- comparison evidence begins -->
 
@@ -313,7 +313,7 @@ Each model's original manual appendix was checked. This calculation includesamps
 - **Retail evidence / limitation** (Separate IDR evidence): **Rp2.350.000**,Hurtrockindexed;separateJunecachequotequalified
 - **Individual findings commit** (Separate IDR evidence): `993fe0b5b7d77512ce31278115647cbdff959e3d`
 
-Sources: [Original finding](effects/findings/2026-10-15-audota-ame-200-pro.md), [Complete supporting comparison](effects/audota.md). No legacy source or incoming link removed.
+Sources: [Original finding](AUDOTA.md#ame-200-pro)<!-- historical-link:audota-009 -->, [Complete supporting comparison](AUDOTA.md)<!-- historical-link:audota-010 -->. No legacy source or incoming link removed.
 
 <!-- comparison evidence begins -->
 
@@ -424,7 +424,7 @@ Full findingreferencesretainallmanufacturer,manual,importerandsellerlinks.Nogues
 - **Retail evidence / limitation** (Separate IDR evidence): **Rp1.100.000**,Apregioindexed;storefront-onlyloweramountnotverifieditem
 - **Individual findings commit** (Separate IDR evidence): `c88b1aa3a0e2caf73f6e7a871b3ced5340068703`
 
-Sources: [Original finding](effects/findings/2026-10-15-audota-ace-100.md), [Complete supporting comparison](effects/audota.md). No legacy source or incoming link removed.
+Sources: [Original finding](AUDOTA.md#ace-100)<!-- historical-link:audota-011 -->, [Complete supporting comparison](AUDOTA.md)<!-- historical-link:audota-012 -->. No legacy source or incoming link removed.
 
 <!-- comparison evidence begins -->
 
@@ -532,7 +532,7 @@ The original AVE manual's rearconnection andmic/FXknob pages successfully render
 - **IR/NAM / apps** (Vocal model: AVE-100): Noloadingworkflowestablished;**Win/Macfirmwareupdaters**,notverifiedfull editor.Audotaguitarappnotautomaticallycompatible
 - **Practice/recording** (Vocal model: AVE-100): **65slooper perofficialimporter**,unlimitedoverdubs,notretained;OTGphoneaudio/video;latched/momentarypads;KeyLearnfromAUX/mic;vocaleraseaffectsbackingquality
 
-Sources: [Original finding](effects/findings/2026-10-15-audota-ave-100.md), [Complete supporting comparison](effects/audota.md). No source file or incoming link removed.
+Sources: [Original finding](AUDOTA.md#ave-100)<!-- historical-link:audota-013 -->, [Complete supporting comparison](AUDOTA.md)<!-- historical-link:audota-014 -->. No source file or incoming link removed.
 
 <!-- comparison evidence begins -->
 

@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Legacy navigation retirement",
-    "task": "VALETON35,ZOOM25,M-VAVE20 links nowrootcanonical;8 generatedcomparisonlinks updated withno factchanges.96root-to-legacy linksremain. Next auditAUDOTA14,HOTONE13,SONICAKE13,JOYO10 thenremainingbrands/specialistarchives;extend exactprovenance readers where needed.117compatibilityfilesremain;research incomplete.",
+    "model": "Shopee discovery and remaining verification",
+    "task": "Allroot-to-legacy navigation removed through recoverable linkmappings;0rootlegacy links,117compatibilityfilesremain,sooverallmigration incomplete. Resume Shopee hardware discovery andofficial requiredfield verification;keepoldanchors/pinned originals protected whenassessing remainingcompatibilityfiles.",
     "next_models": [],
-    "after_queue": "334active39brands;technical,market,ownership andmigration incomplete. No downloads/workflows/push."
+    "after_queue": "334active39brands;allmodels partial. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41762,839 +41762,13 @@
       ],
       "unclassified_legacy_files": [],
       "errors": [],
-      "root_to_legacy_links": 96,
-      "root_to_legacy_by_source": {
-        "AUDOTA.md": 14,
-        "BOIN-AUDIO.md": 4,
-        "CUVAVE.md": 3,
-        "DONNER.md": 1,
-        "FLAMMA.md": 2,
-        "HEADRUSH.md": 1,
-        "HOTONE.md": 13,
-        "IK-MULTIMEDIA.md": 2,
-        "JOYO.md": 10,
-        "LINE6.md": 8,
-        "NEURAL-DSP.md": 1,
-        "NUX.md": 4,
-        "ROLAND.md": 3,
-        "SCORPION.md": 4,
-        "SINGLE-GUITAR.md": 1,
-        "SINGLE-VOCAL.md": 1,
-        "SONICAKE.md": 13,
-        "TC-HELICON.md": 8,
-        "VING.md": 3
-      },
-      "root_to_legacy_by_target": {
-        "effects/OWNERSHIP.md": 3,
-        "effects/README.md": 3,
-        "effects/RESUME.md": 11,
-        "effects/SCOPE.md": 5,
-        "effects/advanced-modelers.md": 4,
-        "effects/audota.md": 5,
-        "effects/findings/2026-10-14-boin-audio-bg300.md": 1,
-        "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md": 1,
-        "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md": 1,
-        "effects/findings/2026-10-14-hotone-ampero-mini.md": 1,
-        "effects/findings/2026-10-14-hotone-ampero-mp100.md": 1,
-        "effects/findings/2026-10-14-line6-hx-stomp-xl.md": 1,
-        "effects/findings/2026-10-14-roland-gr-55.md": 1,
-        "effects/findings/2026-10-14-scorpion-kmf-10.md": 1,
-        "effects/findings/2026-10-14-sonicake-matribox.md": 3,
-        "effects/findings/2026-10-14-sonicake-pocket-master.md": 2,
-        "effects/findings/2026-10-14-sonicake-smart-box.md": 2,
-        "effects/findings/2026-10-14-tchelicon-play-acoustic.md": 1,
-        "effects/findings/2026-10-14-tchelicon-voicelive-play.md": 1,
-        "effects/findings/2026-10-15-audota-ace-100.md": 1,
-        "effects/findings/2026-10-15-audota-ame-100.md": 1,
-        "effects/findings/2026-10-15-audota-ame-200-pro.md": 1,
-        "effects/findings/2026-10-15-audota-ame-200.md": 1,
-        "effects/findings/2026-10-15-audota-ave-100.md": 1,
-        "effects/findings/2026-10-15-cuvave-h8.md": 1,
-        "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md": 1,
-        "effects/findings/2026-10-15-line6-pod-go.md": 1,
-        "effects/findings/2026-10-15-ving-fb100.md": 1,
-        "effects/guitar-compact.md": 3,
-        "effects/owned-multifx.md": 6,
-        "effects/shopee-indonesia.md": 7,
-        "effects/shopee-multifx-2.md": 6,
-        "effects/shopee-multifx-3.md": 4,
-        "effects/shopee-multifx-5.md": 4,
-        "effects/shopee-multifx-7.md": 6,
-        "effects/shopee-multifx.md": 3
-      },
-      "root_to_legacy_occurrences": [
-        {
-          "source": "AUDOTA.md",
-          "line": 9,
-          "target": "effects/README.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/README.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 9,
-          "target": "effects/SCOPE.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/SCOPE.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 9,
-          "target": "effects/OWNERSHIP.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/OWNERSHIP.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 9,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 105,
-          "target": "effects/findings/2026-10-15-audota-ame-100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-audota-ame-100.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 105,
-          "target": "effects/audota.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/audota.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 210,
-          "target": "effects/findings/2026-10-15-audota-ame-200.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-audota-ame-200.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 210,
-          "target": "effects/audota.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/audota.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 316,
-          "target": "effects/findings/2026-10-15-audota-ame-200-pro.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-audota-ame-200-pro.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 316,
-          "target": "effects/audota.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/audota.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 427,
-          "target": "effects/findings/2026-10-15-audota-ace-100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-audota-ace-100.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 427,
-          "target": "effects/audota.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/audota.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 535,
-          "target": "effects/findings/2026-10-15-audota-ave-100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-audota-ave-100.md"
-        },
-        {
-          "source": "AUDOTA.md",
-          "line": 535,
-          "target": "effects/audota.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/audota.md"
-        },
-        {
-          "source": "BOIN-AUDIO.md",
-          "line": 9,
-          "target": "effects/shopee-indonesia.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-indonesia.md"
-        },
-        {
-          "source": "BOIN-AUDIO.md",
-          "line": 9,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "BOIN-AUDIO.md",
-          "line": 90,
-          "target": "effects/findings/2026-10-14-boin-audio-bg300.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-boin-audio-bg300.md"
-        },
-        {
-          "source": "BOIN-AUDIO.md",
-          "line": 90,
-          "target": "effects/shopee-multifx-2.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-2.md"
-        },
-        {
-          "source": "CUVAVE.md",
-          "line": 71,
-          "target": "effects/findings/2026-10-15-cuvave-h8.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-cuvave-h8.md"
-        },
-        {
-          "source": "CUVAVE.md",
-          "line": 71,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "CUVAVE.md",
-          "line": 115,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "DONNER.md",
-          "line": 148,
-          "target": "effects/shopee-multifx-3.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-3.md"
-        },
-        {
-          "source": "FLAMMA.md",
-          "line": 106,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "FLAMMA.md",
-          "line": 205,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "HEADRUSH.md",
-          "line": 249,
-          "target": "effects/shopee-multifx-3.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-3.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 157,
-          "target": "effects/findings/2026-10-14-hotone-ampero-mini.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-hotone-ampero-mini.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 157,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 208,
-          "target": "effects/SCOPE.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/SCOPE.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 208,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 275,
-          "target": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-hotone-ampero-mp100.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 275,
-          "target": "effects/shopee-multifx-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-5.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 291,
-          "target": "effects/SCOPE.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/SCOPE.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 357,
-          "target": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 357,
-          "target": "effects/shopee-multifx-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-5.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 766,
-          "target": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 766,
-          "target": "effects/shopee-multifx-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-5.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 847,
-          "target": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md"
-        },
-        {
-          "source": "HOTONE.md",
-          "line": 847,
-          "target": "effects/shopee-multifx-7.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-7.md"
-        },
-        {
-          "source": "IK-MULTIMEDIA.md",
-          "line": 39,
-          "target": "effects/advanced-modelers.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/advanced-modelers.md"
-        },
-        {
-          "source": "IK-MULTIMEDIA.md",
-          "line": 111,
-          "target": "effects/advanced-modelers.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/advanced-modelers.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 52,
-          "target": "effects/OWNERSHIP.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/OWNERSHIP.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 110,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 153,
-          "target": "effects/README.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/README.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 153,
-          "target": "effects/shopee-indonesia.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-indonesia.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 153,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 207,
-          "target": "effects/shopee-multifx-2.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-2.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 250,
-          "target": "effects/README.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/README.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 250,
-          "target": "effects/shopee-indonesia.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-indonesia.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 250,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "JOYO.md",
-          "line": 306,
-          "target": "effects/shopee-multifx-2.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-2.md"
-        },
-        {
-          "source": "LINE6.md",
-          "line": 204,
-          "target": "effects/findings/2026-10-15-line6-pod-go.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-line6-pod-go.md"
-        },
-        {
-          "source": "LINE6.md",
-          "line": 258,
-          "target": "effects/shopee-multifx-7.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-7.md"
-        },
-        {
-          "source": "LINE6.md",
-          "line": 279,
-          "target": "effects/shopee-multifx-7.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-7.md"
-        },
-        {
-          "source": "LINE6.md",
-          "line": 395,
-          "target": "effects/shopee-multifx-7.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-7.md"
-        },
-        {
-          "source": "LINE6.md",
-          "line": 502,
-          "target": "effects/shopee-multifx-7.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-7.md"
-        },
-        {
-          "source": "LINE6.md",
-          "line": 718,
-          "target": "effects/findings/2026-10-14-line6-hx-stomp-xl.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-line6-hx-stomp-xl.md"
-        },
-        {
-          "source": "LINE6.md",
-          "line": 718,
-          "target": "effects/shopee-multifx-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-5.md"
-        },
-        {
-          "source": "LINE6.md",
-          "line": 754,
-          "target": "effects/advanced-modelers.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/advanced-modelers.md"
-        },
-        {
-          "source": "NEURAL-DSP.md",
-          "line": 35,
-          "target": "effects/advanced-modelers.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/advanced-modelers.md"
-        },
-        {
-          "source": "NUX.md",
-          "line": 448,
-          "target": "effects/shopee-indonesia.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-indonesia.md"
-        },
-        {
-          "source": "NUX.md",
-          "line": 501,
-          "target": "effects/shopee-multifx-3.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-3.md"
-        },
-        {
-          "source": "NUX.md",
-          "line": 593,
-          "target": "effects/shopee-multifx-3.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-3.md"
-        },
-        {
-          "source": "NUX.md",
-          "line": 697,
-          "target": "effects/shopee-multifx-7.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-7.md"
-        },
-        {
-          "source": "ROLAND.md",
-          "line": 9,
-          "target": "effects/OWNERSHIP.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/OWNERSHIP.md"
-        },
-        {
-          "source": "ROLAND.md",
-          "line": 91,
-          "target": "effects/findings/2026-10-14-roland-gr-55.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-roland-gr-55.md"
-        },
-        {
-          "source": "ROLAND.md",
-          "line": 91,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "SCORPION.md",
-          "line": 9,
-          "target": "effects/shopee-indonesia.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-indonesia.md"
-        },
-        {
-          "source": "SCORPION.md",
-          "line": 9,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "SCORPION.md",
-          "line": 90,
-          "target": "effects/findings/2026-10-14-scorpion-kmf-10.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-scorpion-kmf-10.md"
-        },
-        {
-          "source": "SCORPION.md",
-          "line": 90,
-          "target": "effects/shopee-multifx-2.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-2.md"
-        },
-        {
-          "source": "SINGLE-GUITAR.md",
-          "line": 9,
-          "target": "effects/SCOPE.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/SCOPE.md"
-        },
-        {
-          "source": "SINGLE-VOCAL.md",
-          "line": 9,
-          "target": "effects/SCOPE.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/SCOPE.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 58,
-          "target": "effects/findings/2026-10-14-sonicake-matribox.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-sonicake-matribox.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 78,
-          "target": "effects/findings/2026-10-14-sonicake-matribox.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-sonicake-matribox.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 82,
-          "target": "effects/findings/2026-10-14-sonicake-matribox.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-sonicake-matribox.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 92,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 92,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 155,
-          "target": "effects/findings/2026-10-14-sonicake-smart-box.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-sonicake-smart-box.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 179,
-          "target": "effects/findings/2026-10-14-sonicake-smart-box.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-sonicake-smart-box.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 187,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 187,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 258,
-          "target": "effects/findings/2026-10-14-sonicake-pocket-master.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-sonicake-pocket-master.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 284,
-          "target": "effects/findings/2026-10-14-sonicake-pocket-master.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-sonicake-pocket-master.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 292,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "SONICAKE.md",
-          "line": 292,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "TC-HELICON.md",
-          "line": 9,
-          "target": "effects/shopee-indonesia.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-indonesia.md"
-        },
-        {
-          "source": "TC-HELICON.md",
-          "line": 9,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "TC-HELICON.md",
-          "line": 82,
-          "target": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-tchelicon-voicelive-play.md"
-        },
-        {
-          "source": "TC-HELICON.md",
-          "line": 82,
-          "target": "effects/shopee-multifx-2.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-2.md"
-        },
-        {
-          "source": "TC-HELICON.md",
-          "line": 180,
-          "target": "effects/shopee-indonesia.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-indonesia.md"
-        },
-        {
-          "source": "TC-HELICON.md",
-          "line": 180,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "TC-HELICON.md",
-          "line": 251,
-          "target": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-tchelicon-play-acoustic.md"
-        },
-        {
-          "source": "TC-HELICON.md",
-          "line": 251,
-          "target": "effects/shopee-multifx-2.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-2.md"
-        },
-        {
-          "source": "VING.md",
-          "line": 79,
-          "target": "effects/findings/2026-10-15-ving-fb100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-ving-fb100.md"
-        },
-        {
-          "source": "VING.md",
-          "line": 79,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "VING.md",
-          "line": 123,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        }
-      ],
+      "root_to_legacy_links": 0,
+      "root_to_legacy_by_source": {},
+      "root_to_legacy_by_target": {},
+      "root_to_legacy_occurrences": [],
       "checked_date": "2026-10-18",
       "status": "passed",
-      "remaining": "Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications."
+      "remaining": "Root navigation no longer depends onlegacy paths;117compatibilityfiles remain. External availability,fullspecifications,market andownership completeness not certified."
     },
     "content_consolidation_status": "All117 legacy Markdown/JSON paths accounted for;root content and pinned-original checks pass;compatibility redirects remain.",
     "preservation_repair_20261017": {
@@ -44924,8 +44098,833 @@
         "checked_date": "2026-10-18",
         "invariant": "Reverse only these marked links to recover exact pre-edit category text;all other content unchanged",
         "rollback": "Replace each exact after token with before;remove only this canonical_links entry"
+      },
+      "AUDOTA.md": {
+        "changes": [
+          {
+            "id": "audota-001",
+            "before": "](effects/README.md)",
+            "after": "](README.md)<!-- historical-link:audota-001 -->",
+            "original_target": "effects/README.md",
+            "destination": "README.md"
+          },
+          {
+            "id": "audota-002",
+            "before": "](effects/SCOPE.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:audota-002 -->",
+            "original_target": "effects/SCOPE.md",
+            "destination": "README.md#scope-and-ownership"
+          },
+          {
+            "id": "audota-003",
+            "before": "](effects/OWNERSHIP.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:audota-003 -->",
+            "original_target": "effects/OWNERSHIP.md",
+            "destination": "README.md#scope-and-ownership"
+          },
+          {
+            "id": "audota-004",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:audota-004 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "audota-005",
+            "before": "](effects/findings/2026-10-15-audota-ame-100.md)",
+            "after": "](AUDOTA.md#ame-100)<!-- historical-link:audota-005 -->",
+            "original_target": "effects/findings/2026-10-15-audota-ame-100.md",
+            "destination": "AUDOTA.md#ame-100"
+          },
+          {
+            "id": "audota-006",
+            "before": "](effects/audota.md)",
+            "after": "](AUDOTA.md)<!-- historical-link:audota-006 -->",
+            "original_target": "effects/audota.md",
+            "destination": "AUDOTA.md"
+          },
+          {
+            "id": "audota-007",
+            "before": "](effects/findings/2026-10-15-audota-ame-200.md)",
+            "after": "](AUDOTA.md#ame-200)<!-- historical-link:audota-007 -->",
+            "original_target": "effects/findings/2026-10-15-audota-ame-200.md",
+            "destination": "AUDOTA.md#ame-200"
+          },
+          {
+            "id": "audota-008",
+            "before": "](effects/audota.md)",
+            "after": "](AUDOTA.md)<!-- historical-link:audota-008 -->",
+            "original_target": "effects/audota.md",
+            "destination": "AUDOTA.md"
+          },
+          {
+            "id": "audota-009",
+            "before": "](effects/findings/2026-10-15-audota-ame-200-pro.md)",
+            "after": "](AUDOTA.md#ame-200-pro)<!-- historical-link:audota-009 -->",
+            "original_target": "effects/findings/2026-10-15-audota-ame-200-pro.md",
+            "destination": "AUDOTA.md#ame-200-pro"
+          },
+          {
+            "id": "audota-010",
+            "before": "](effects/audota.md)",
+            "after": "](AUDOTA.md)<!-- historical-link:audota-010 -->",
+            "original_target": "effects/audota.md",
+            "destination": "AUDOTA.md"
+          },
+          {
+            "id": "audota-011",
+            "before": "](effects/findings/2026-10-15-audota-ace-100.md)",
+            "after": "](AUDOTA.md#ace-100)<!-- historical-link:audota-011 -->",
+            "original_target": "effects/findings/2026-10-15-audota-ace-100.md",
+            "destination": "AUDOTA.md#ace-100"
+          },
+          {
+            "id": "audota-012",
+            "before": "](effects/audota.md)",
+            "after": "](AUDOTA.md)<!-- historical-link:audota-012 -->",
+            "original_target": "effects/audota.md",
+            "destination": "AUDOTA.md"
+          },
+          {
+            "id": "audota-013",
+            "before": "](effects/findings/2026-10-15-audota-ave-100.md)",
+            "after": "](AUDOTA.md#ave-100)<!-- historical-link:audota-013 -->",
+            "original_target": "effects/findings/2026-10-15-audota-ave-100.md",
+            "destination": "AUDOTA.md#ave-100"
+          },
+          {
+            "id": "audota-014",
+            "before": "](effects/audota.md)",
+            "after": "](AUDOTA.md)<!-- historical-link:audota-014 -->",
+            "original_target": "effects/audota.md",
+            "destination": "AUDOTA.md"
+          }
+        ],
+        "original_sha256": "04b3077b0bd6ff016adfa1d002b30777d9ab1dc7587212b0c82463e7868a77d5",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "BOIN-AUDIO.md": {
+        "changes": [
+          {
+            "id": "boin-audio-001",
+            "before": "](effects/shopee-indonesia.md)",
+            "after": "](research-state.json)<!-- historical-link:boin-audio-001 -->",
+            "original_target": "effects/shopee-indonesia.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "boin-audio-002",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:boin-audio-002 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "boin-audio-003",
+            "before": "](effects/findings/2026-10-14-boin-audio-bg300.md)",
+            "after": "](BOIN-AUDIO.md#bg300)<!-- historical-link:boin-audio-003 -->",
+            "original_target": "effects/findings/2026-10-14-boin-audio-bg300.md",
+            "destination": "BOIN-AUDIO.md#bg300"
+          },
+          {
+            "id": "boin-audio-004",
+            "before": "](effects/shopee-multifx-2.md)",
+            "after": "](research-state.json)<!-- historical-link:boin-audio-004 -->",
+            "original_target": "effects/shopee-multifx-2.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "2d107906959138fa9174d15763fc8c22d52f36cd327dac768898e039b4e5e3eb",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "CUVAVE.md": {
+        "changes": [
+          {
+            "id": "cuvave-001",
+            "before": "](effects/findings/2026-10-15-cuvave-h8.md)",
+            "after": "](CUVAVE.md#h8)<!-- historical-link:cuvave-001 -->",
+            "original_target": "effects/findings/2026-10-15-cuvave-h8.md",
+            "destination": "CUVAVE.md#h8"
+          },
+          {
+            "id": "cuvave-002",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:cuvave-002 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "cuvave-003",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:cuvave-003 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          }
+        ],
+        "original_sha256": "d0a6b2106815fb6af0d98775eee5030771516a6453a5e9700cd2963a0f35826a",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "DONNER.md": {
+        "changes": [
+          {
+            "id": "donner-001",
+            "before": "](effects/shopee-multifx-3.md)",
+            "after": "](research-state.json)<!-- historical-link:donner-001 -->",
+            "original_target": "effects/shopee-multifx-3.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "f490fbffed493aacd5e32eae81afdc0997e7b2253e21c8f470f3cefd9d126df9",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "FLAMMA.md": {
+        "changes": [
+          {
+            "id": "flamma-001",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:flamma-001 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "flamma-002",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:flamma-002 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "6c69c5ab6123b6808635af85253d97b46fb89185c60f45c2931d15ac7f9a79ab",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "HEADRUSH.md": {
+        "changes": [
+          {
+            "id": "headrush-001",
+            "before": "](effects/shopee-multifx-3.md)",
+            "after": "](research-state.json)<!-- historical-link:headrush-001 -->",
+            "original_target": "effects/shopee-multifx-3.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "cf53ad28e5d8c9db9c4c1f85ac69a3c79e0e3986fe9547f8f8f501e6f561fc95",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "HOTONE.md": {
+        "changes": [
+          {
+            "id": "hotone-001",
+            "before": "](effects/findings/2026-10-14-hotone-ampero-mini.md)",
+            "after": "](HOTONE.md#ampero-mini-mp-50)<!-- historical-link:hotone-001 -->",
+            "original_target": "effects/findings/2026-10-14-hotone-ampero-mini.md",
+            "destination": "HOTONE.md#ampero-mini-mp-50"
+          },
+          {
+            "id": "hotone-002",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:hotone-002 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "hotone-003",
+            "before": "](effects/SCOPE.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:hotone-003 -->",
+            "original_target": "effects/SCOPE.md",
+            "destination": "README.md#scope-and-ownership"
+          },
+          {
+            "id": "hotone-004",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:hotone-004 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "hotone-005",
+            "before": "](effects/findings/2026-10-14-hotone-ampero-mp100.md)",
+            "after": "](HOTONE.md#ampero-mp-100)<!-- historical-link:hotone-005 -->",
+            "original_target": "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+            "destination": "HOTONE.md#ampero-mp-100"
+          },
+          {
+            "id": "hotone-006",
+            "before": "](effects/shopee-multifx-5.md)",
+            "after": "](research-state.json)<!-- historical-link:hotone-006 -->",
+            "original_target": "effects/shopee-multifx-5.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "hotone-007",
+            "before": "](effects/SCOPE.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:hotone-007 -->",
+            "original_target": "effects/SCOPE.md",
+            "destination": "README.md#scope-and-ownership"
+          },
+          {
+            "id": "hotone-008",
+            "before": "](effects/findings/2026-10-14-hotone-ampero-ii-mp350.md)",
+            "after": "](HOTONE.md#ampero-ii-mp-350)<!-- historical-link:hotone-008 -->",
+            "original_target": "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md",
+            "destination": "HOTONE.md#ampero-ii-mp-350"
+          },
+          {
+            "id": "hotone-009",
+            "before": "](effects/shopee-multifx-5.md)",
+            "after": "](research-state.json)<!-- historical-link:hotone-009 -->",
+            "original_target": "effects/shopee-multifx-5.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "hotone-010",
+            "before": "](effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md)",
+            "after": "](HOTONE.md#ampero-ii-stage-mp-380)<!-- historical-link:hotone-010 -->",
+            "original_target": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
+            "destination": "HOTONE.md#ampero-ii-stage-mp-380"
+          },
+          {
+            "id": "hotone-011",
+            "before": "](effects/shopee-multifx-5.md)",
+            "after": "](research-state.json)<!-- historical-link:hotone-011 -->",
+            "original_target": "effects/shopee-multifx-5.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "hotone-012",
+            "before": "](effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md)",
+            "after": "](HOTONE.md#ampero-ii-stomp-mp-300)<!-- historical-link:hotone-012 -->",
+            "original_target": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+            "destination": "HOTONE.md#ampero-ii-stomp-mp-300"
+          },
+          {
+            "id": "hotone-013",
+            "before": "](effects/shopee-multifx-7.md)",
+            "after": "](research-state.json)<!-- historical-link:hotone-013 -->",
+            "original_target": "effects/shopee-multifx-7.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "30de87634ef0e0e5bf86f8fe9fb39036f38b8963944f8b3c9b294b0ccec45c0e",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "IK-MULTIMEDIA.md": {
+        "changes": [
+          {
+            "id": "ik-multimedia-001",
+            "before": "](effects/advanced-modelers.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:ik-multimedia-001 -->",
+            "original_target": "effects/advanced-modelers.md",
+            "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "ik-multimedia-002",
+            "before": "](effects/advanced-modelers.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:ik-multimedia-002 -->",
+            "original_target": "effects/advanced-modelers.md",
+            "destination": "MULTI-EFFECTS.md"
+          }
+        ],
+        "original_sha256": "e705468aa1a3137eba4b818d6699e66b23951783a2f958ced93f910388b547fe",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "JOYO.md": {
+        "changes": [
+          {
+            "id": "joyo-001",
+            "before": "](effects/OWNERSHIP.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:joyo-001 -->",
+            "original_target": "effects/OWNERSHIP.md",
+            "destination": "README.md#scope-and-ownership"
+          },
+          {
+            "id": "joyo-002",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:joyo-002 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "joyo-003",
+            "before": "](effects/README.md)",
+            "after": "](README.md)<!-- historical-link:joyo-003 -->",
+            "original_target": "effects/README.md",
+            "destination": "README.md"
+          },
+          {
+            "id": "joyo-004",
+            "before": "](effects/shopee-indonesia.md)",
+            "after": "](research-state.json)<!-- historical-link:joyo-004 -->",
+            "original_target": "effects/shopee-indonesia.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "joyo-005",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:joyo-005 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "joyo-006",
+            "before": "](effects/shopee-multifx-2.md)",
+            "after": "](research-state.json)<!-- historical-link:joyo-006 -->",
+            "original_target": "effects/shopee-multifx-2.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "joyo-007",
+            "before": "](effects/README.md)",
+            "after": "](README.md)<!-- historical-link:joyo-007 -->",
+            "original_target": "effects/README.md",
+            "destination": "README.md"
+          },
+          {
+            "id": "joyo-008",
+            "before": "](effects/shopee-indonesia.md)",
+            "after": "](research-state.json)<!-- historical-link:joyo-008 -->",
+            "original_target": "effects/shopee-indonesia.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "joyo-009",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:joyo-009 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "joyo-010",
+            "before": "](effects/shopee-multifx-2.md)",
+            "after": "](research-state.json)<!-- historical-link:joyo-010 -->",
+            "original_target": "effects/shopee-multifx-2.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "f9d6defec1590f92e758109bf152b2d1575ea776e2b283c6043ed875958f93f5",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "LINE6.md": {
+        "changes": [
+          {
+            "id": "line6-001",
+            "before": "](effects/findings/2026-10-15-line6-pod-go.md)",
+            "after": "](LINE6.md#pod-go-and-pod-go-wireless)<!-- historical-link:line6-001 -->",
+            "original_target": "effects/findings/2026-10-15-line6-pod-go.md",
+            "destination": "LINE6.md#pod-go-and-pod-go-wireless"
+          },
+          {
+            "id": "line6-002",
+            "before": "](effects/shopee-multifx-7.md)",
+            "after": "](research-state.json)<!-- historical-link:line6-002 -->",
+            "original_target": "effects/shopee-multifx-7.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "line6-003",
+            "before": "](effects/shopee-multifx-7.md)",
+            "after": "](research-state.json)<!-- historical-link:line6-003 -->",
+            "original_target": "effects/shopee-multifx-7.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "line6-004",
+            "before": "](effects/shopee-multifx-7.md)",
+            "after": "](research-state.json)<!-- historical-link:line6-004 -->",
+            "original_target": "effects/shopee-multifx-7.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "line6-005",
+            "before": "](effects/shopee-multifx-7.md)",
+            "after": "](research-state.json)<!-- historical-link:line6-005 -->",
+            "original_target": "effects/shopee-multifx-7.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "line6-006",
+            "before": "](effects/findings/2026-10-14-line6-hx-stomp-xl.md)",
+            "after": "](LINE6.md#hx-stomp-xl)<!-- historical-link:line6-006 -->",
+            "original_target": "effects/findings/2026-10-14-line6-hx-stomp-xl.md",
+            "destination": "LINE6.md#hx-stomp-xl"
+          },
+          {
+            "id": "line6-007",
+            "before": "](effects/shopee-multifx-5.md)",
+            "after": "](research-state.json)<!-- historical-link:line6-007 -->",
+            "original_target": "effects/shopee-multifx-5.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "line6-008",
+            "before": "](effects/advanced-modelers.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:line6-008 -->",
+            "original_target": "effects/advanced-modelers.md",
+            "destination": "MULTI-EFFECTS.md"
+          }
+        ],
+        "original_sha256": "c6536e303d861d61fb0241d871bb7e2569d131458d9dc6ead2bda0299aae27f1",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "NEURAL-DSP.md": {
+        "changes": [
+          {
+            "id": "neural-dsp-001",
+            "before": "](effects/advanced-modelers.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:neural-dsp-001 -->",
+            "original_target": "effects/advanced-modelers.md",
+            "destination": "MULTI-EFFECTS.md"
+          }
+        ],
+        "original_sha256": "8d660a505e352f4a904fdc8cd38e01645a93264012b5a6632e61f86e9dceb178",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "NUX.md": {
+        "changes": [
+          {
+            "id": "nux-001",
+            "before": "](effects/shopee-indonesia.md)",
+            "after": "](research-state.json)<!-- historical-link:nux-001 -->",
+            "original_target": "effects/shopee-indonesia.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "nux-002",
+            "before": "](effects/shopee-multifx-3.md)",
+            "after": "](research-state.json)<!-- historical-link:nux-002 -->",
+            "original_target": "effects/shopee-multifx-3.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "nux-003",
+            "before": "](effects/shopee-multifx-3.md)",
+            "after": "](research-state.json)<!-- historical-link:nux-003 -->",
+            "original_target": "effects/shopee-multifx-3.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "nux-004",
+            "before": "](effects/shopee-multifx-7.md)",
+            "after": "](research-state.json)<!-- historical-link:nux-004 -->",
+            "original_target": "effects/shopee-multifx-7.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "2bacc2b616a485b4549afde7126994023b3d5a5f88f40767125f7353a30058ca",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "ROLAND.md": {
+        "changes": [
+          {
+            "id": "roland-001",
+            "before": "](effects/OWNERSHIP.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:roland-001 -->",
+            "original_target": "effects/OWNERSHIP.md",
+            "destination": "README.md#scope-and-ownership"
+          },
+          {
+            "id": "roland-002",
+            "before": "](effects/findings/2026-10-14-roland-gr-55.md)",
+            "after": "](ROLAND.md#gr-55)<!-- historical-link:roland-002 -->",
+            "original_target": "effects/findings/2026-10-14-roland-gr-55.md",
+            "destination": "ROLAND.md#gr-55"
+          },
+          {
+            "id": "roland-003",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:roland-003 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          }
+        ],
+        "original_sha256": "b5a24bd23772335944fe827273004d516fe6b84fab29cd411a6795eff65b7306",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "SCORPION.md": {
+        "changes": [
+          {
+            "id": "scorpion-001",
+            "before": "](effects/shopee-indonesia.md)",
+            "after": "](research-state.json)<!-- historical-link:scorpion-001 -->",
+            "original_target": "effects/shopee-indonesia.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "scorpion-002",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:scorpion-002 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "scorpion-003",
+            "before": "](effects/findings/2026-10-14-scorpion-kmf-10.md)",
+            "after": "](SCORPION.md#kmf-10)<!-- historical-link:scorpion-003 -->",
+            "original_target": "effects/findings/2026-10-14-scorpion-kmf-10.md",
+            "destination": "SCORPION.md#kmf-10"
+          },
+          {
+            "id": "scorpion-004",
+            "before": "](effects/shopee-multifx-2.md)",
+            "after": "](research-state.json)<!-- historical-link:scorpion-004 -->",
+            "original_target": "effects/shopee-multifx-2.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "6e8ae6c4fde531f2fe9586518fb5142059493f68ef8bc8cea8b767ace34fa5c1",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "SINGLE-GUITAR.md": {
+        "changes": [
+          {
+            "id": "single-guitar-001",
+            "before": "](effects/SCOPE.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:single-guitar-001 -->",
+            "original_target": "effects/SCOPE.md",
+            "destination": "README.md#scope-and-ownership"
+          }
+        ],
+        "original_sha256": "9696618afbaa172a65d8ed309fcf1b5e3c0f7fd968c408117e8b4878ef3b8be1",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "SINGLE-VOCAL.md": {
+        "changes": [
+          {
+            "id": "single-vocal-001",
+            "before": "](effects/SCOPE.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:single-vocal-001 -->",
+            "original_target": "effects/SCOPE.md",
+            "destination": "README.md#scope-and-ownership"
+          }
+        ],
+        "original_sha256": "bc25603a6e143cc4e34f9d5e41419e69b4e7fbb192c769c8bbfc018bed5371fd",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "SONICAKE.md": {
+        "changes": [
+          {
+            "id": "sonicake-001",
+            "before": "](effects/findings/2026-10-14-sonicake-matribox.md)",
+            "after": "](SONICAKE.md#matribox-qme-50)<!-- historical-link:sonicake-001 -->",
+            "original_target": "effects/findings/2026-10-14-sonicake-matribox.md",
+            "destination": "SONICAKE.md#matribox-qme-50"
+          },
+          {
+            "id": "sonicake-002",
+            "before": "](effects/findings/2026-10-14-sonicake-matribox.md)",
+            "after": "](SONICAKE.md#matribox-qme-50)<!-- historical-link:sonicake-002 -->",
+            "original_target": "effects/findings/2026-10-14-sonicake-matribox.md",
+            "destination": "SONICAKE.md#matribox-qme-50"
+          },
+          {
+            "id": "sonicake-003",
+            "before": "](effects/findings/2026-10-14-sonicake-matribox.md)",
+            "after": "](SONICAKE.md#matribox-qme-50)<!-- historical-link:sonicake-003 -->",
+            "original_target": "effects/findings/2026-10-14-sonicake-matribox.md",
+            "destination": "SONICAKE.md#matribox-qme-50"
+          },
+          {
+            "id": "sonicake-004",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:sonicake-004 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "sonicake-005",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:sonicake-005 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "sonicake-006",
+            "before": "](effects/findings/2026-10-14-sonicake-smart-box.md)",
+            "after": "](SONICAKE.md#smart-box-qme-20)<!-- historical-link:sonicake-006 -->",
+            "original_target": "effects/findings/2026-10-14-sonicake-smart-box.md",
+            "destination": "SONICAKE.md#smart-box-qme-20"
+          },
+          {
+            "id": "sonicake-007",
+            "before": "](effects/findings/2026-10-14-sonicake-smart-box.md)",
+            "after": "](SONICAKE.md#smart-box-qme-20)<!-- historical-link:sonicake-007 -->",
+            "original_target": "effects/findings/2026-10-14-sonicake-smart-box.md",
+            "destination": "SONICAKE.md#smart-box-qme-20"
+          },
+          {
+            "id": "sonicake-008",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:sonicake-008 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "sonicake-009",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:sonicake-009 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "sonicake-010",
+            "before": "](effects/findings/2026-10-14-sonicake-pocket-master.md)",
+            "after": "](SONICAKE.md#pocket-master-qme-10)<!-- historical-link:sonicake-010 -->",
+            "original_target": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+            "destination": "SONICAKE.md#pocket-master-qme-10"
+          },
+          {
+            "id": "sonicake-011",
+            "before": "](effects/findings/2026-10-14-sonicake-pocket-master.md)",
+            "after": "](SONICAKE.md#pocket-master-qme-10)<!-- historical-link:sonicake-011 -->",
+            "original_target": "effects/findings/2026-10-14-sonicake-pocket-master.md",
+            "destination": "SONICAKE.md#pocket-master-qme-10"
+          },
+          {
+            "id": "sonicake-012",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:sonicake-012 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "sonicake-013",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:sonicake-013 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          }
+        ],
+        "original_sha256": "b6291b987f2f1fa632b9d0d8ec3d49613500cde23c502d150c8e0b91609edc12",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "TC-HELICON.md": {
+        "changes": [
+          {
+            "id": "tc-helicon-001",
+            "before": "](effects/shopee-indonesia.md)",
+            "after": "](research-state.json)<!-- historical-link:tc-helicon-001 -->",
+            "original_target": "effects/shopee-indonesia.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "tc-helicon-002",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:tc-helicon-002 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "tc-helicon-003",
+            "before": "](effects/findings/2026-10-14-tchelicon-voicelive-play.md)",
+            "after": "](TC-HELICON.md#voicelive-play)<!-- historical-link:tc-helicon-003 -->",
+            "original_target": "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+            "destination": "TC-HELICON.md#voicelive-play"
+          },
+          {
+            "id": "tc-helicon-004",
+            "before": "](effects/shopee-multifx-2.md)",
+            "after": "](research-state.json)<!-- historical-link:tc-helicon-004 -->",
+            "original_target": "effects/shopee-multifx-2.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "tc-helicon-005",
+            "before": "](effects/shopee-indonesia.md)",
+            "after": "](research-state.json)<!-- historical-link:tc-helicon-005 -->",
+            "original_target": "effects/shopee-indonesia.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "tc-helicon-006",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:tc-helicon-006 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "tc-helicon-007",
+            "before": "](effects/findings/2026-10-14-tchelicon-play-acoustic.md)",
+            "after": "](TC-HELICON.md#play-acoustic)<!-- historical-link:tc-helicon-007 -->",
+            "original_target": "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+            "destination": "TC-HELICON.md#play-acoustic"
+          },
+          {
+            "id": "tc-helicon-008",
+            "before": "](effects/shopee-multifx-2.md)",
+            "after": "](research-state.json)<!-- historical-link:tc-helicon-008 -->",
+            "original_target": "effects/shopee-multifx-2.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "17a57fe6b4c9492dc08a15bb69a7612e06e1be3338053f066cd9628980420bc7",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
+      },
+      "VING.md": {
+        "changes": [
+          {
+            "id": "ving-001",
+            "before": "](effects/findings/2026-10-15-ving-fb100.md)",
+            "after": "](VING.md#flybro-fb-100)<!-- historical-link:ving-001 -->",
+            "original_target": "effects/findings/2026-10-15-ving-fb100.md",
+            "destination": "VING.md#flybro-fb-100"
+          },
+          {
+            "id": "ving-002",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:ving-002 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "ving-003",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:ving-003 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          }
+        ],
+        "original_sha256": "bbc09af1472063011470dc87ccc77ba87f7062ede870b239f8ae57c5a8e68ef8",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse marked links to recover exact pre-edit text",
+        "rollback": "Replace exact after tokens with before;remove only this entry"
       }
-    }
+    },
+    "root_navigation_canonical": true
   },
   "deferred_work": {
     "original_display_idr_pages_remaining": [

@@ -145,7 +145,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Additional features** (5. Connections, power, software and live use): **60 s** looper with speed/reverse; **40 rhythms**; sync/spillover ?
 - **Individually saved findings commit** (6. Evidence gaps and immediate commits): `cb764856d3a611936d99b6ca402dc96a88118928`
 
-[Original shared source](effects/shopee-multifx-3.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:donner-001 -->,retained pending complete navigation/provenance audits.
 
 ## Additional manufacturer-confirmed multi-effects — research leads
 

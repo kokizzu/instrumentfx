@@ -6,7 +6,7 @@ Blue VoiceLive Play vocal processor, not GTX or Play Acoustic. Consolidated **20
 
 <!-- SCORPION-VoiceLive Play source begins -->
 
-[Home](README.md) · [Marketplace](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+[Home](README.md) · [Marketplace](research-state.json)<!-- historical-link:tc-helicon-001 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:tc-helicon-002 -->
 
 Checked **2026-10-14**. **Partial record**, blue VoiceLive Play vocal processor, **not VoiceLive Play GTX or Play Acoustic**. Technical details below identify the original v1.0 manual where later firmware may differ. A seller's Guitar Effects title does not turn this into a guitar amp modeler.
 
@@ -79,7 +79,7 @@ The individual notes retain **TANK-PRO weight**, **BG300 manual/revision/display
 - **Apps** (4. Power, apps, I/O and stage use): VoiceSupport Windows/macOS **librarian/updater**,not confirmed full editor
 - **Key I/O and performance details** (4. Power, apps, I/O and stage use): XLR mic/stereoXLR out,aux/phones,Switch-3,USB Mini-B;**v1.0 looper15s undo/30s without**,current firmware pending
 
-Sources: [Original finding](effects/findings/2026-10-14-tchelicon-voicelive-play.md), [Complete supporting comparison](effects/shopee-multifx-2.md). No source or incoming link removed.
+Sources: [Original finding](TC-HELICON.md#voicelive-play)<!-- historical-link:tc-helicon-003 -->, [Complete supporting comparison](research-state.json)<!-- historical-link:tc-helicon-004 -->. No source or incoming link removed.
 
 <!-- comparison evidence begins -->
 
@@ -177,7 +177,7 @@ Separate acoustic-guitar and vocal processor, not VoiceLive Play, Play Electric 
 
 <!-- TCHELICON-PLAY-ACOUSTIC source begins -->
 
-[Home](README.md) · [Marketplace](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+[Home](README.md) · [Marketplace](research-state.json)<!-- historical-link:tc-helicon-005 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:tc-helicon-006 -->
 
 Checked **2026-10-14**. **Partial record** for Play Acoustic, with separate acoustic-guitar and vocal processing. Do not substitute VoiceLive Play, Play Electric or Play GTX. The manufacturer reference manual inspected here is **firmware1.0 /2014-05-09**; later firmware capabilities remain to be reconciled.
 
@@ -248,7 +248,7 @@ The individual notes retain **TANK-PRO weight**, **BG300 manual/revision/display
 - **Apps** (4. Power, apps, I/O and stage use): VoiceSupport Windows/macOS **librarian/updater**
 - **Key I/O and performance details** (4. Power, apps, I/O and stage use): **48V XLR mic+¼″ guitar**;2XLR out,aux/phones,Switch-3,USB Mini-B;BodyRez/anti-feedback;**v1.0 looper15/30s**,current firmware pending
 
-Sources: [Original finding](effects/findings/2026-10-14-tchelicon-play-acoustic.md), [Complete supporting comparison](effects/shopee-multifx-2.md). No legacy source or incoming link removed.
+Sources: [Original finding](TC-HELICON.md#play-acoustic)<!-- historical-link:tc-helicon-007 -->, [Complete supporting comparison](research-state.json)<!-- historical-link:tc-helicon-008 -->. No legacy source or incoming link removed.
 
 <!-- comparison evidence begins -->
 

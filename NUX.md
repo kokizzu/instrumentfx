@@ -445,7 +445,7 @@ Checked **2026-10-14**. **Partial record** for original MG-100, not MG-101 or MG
 
 ### Price and availability
 
-The saved Shopee discovery is [shop49070533/item1303695159][NUX-MG100-listing], previously recorded **Rp1.462.000, sold out** in [the repository index](effects/shopee-indonesia.md). Both full-title and product-ID URLs failed to reopen in this pass. The amount is **historical repository evidence, not freshly verified price or stock**. Current retail IDR **?**; used IDR **?**. Missing retrieval does not prove Indonesian unavailability.
+The saved Shopee discovery is [shop49070533/item1303695159][NUX-MG100-listing], previously recorded **Rp1.462.000, sold out** in [the repository index](research-state.json)<!-- historical-link:nux-001 -->. Both full-title and product-ID URLs failed to reopen in this pass. The amount is **historical repository evidence, not freshly verified price or stock**. Current retail IDR **?**; used IDR **?**. Missing retrieval does not prove Indonesian unavailability.
 
 ### Comparison
 
@@ -498,7 +498,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Additional features** (5. Connections, power, software and live use): **40 s** looper, drum sync, **56 rhythms**; headphones require documented MIXER mode
 - **Individually saved findings commit** (6. Evidence gaps and immediate commits): `2ec1fb7bba723fb8f2e8a465a093f3768beb8875`
 
-[Original shared source](effects/shopee-multifx-3.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:nux-002 -->,retained pending complete navigation/provenance audits.
 
 ## MG-200
 
@@ -590,7 +590,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Additional features** (5. Connections, power, software and live use): **70 s** looper, **81 rhythms**; drums cannot be recorded into internal loop; assignable CTRL1
 - **Individually saved findings commit** (6. Evidence gaps and immediate commits): `e9c94ec08360999bac77fb79761b88a6ede45785`
 
-[Original shared source](effects/shopee-multifx-3.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:nux-003 -->,retained pending complete navigation/provenance audits.
 
 ## TRIDENT NME-5
 
@@ -694,7 +694,7 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Retail evidence / qualification** (Separate IDR evidence): **Rp5.880.000**,RedMusikBali,indexed with older July delivery text
 - **Commit** (Individual findings commits): `b25492b2764cb263d797fc166346e2ca2ae9216a`
 
-[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:nux-004 -->,retained pending complete navigation/provenance audits.
 
 ## Cerberus NME-3
 

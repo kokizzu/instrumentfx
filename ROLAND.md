@@ -6,7 +6,7 @@ Guitar/bass synthesis and multi-effects with13-pin divided-pickup/GK system, not
 
 <!-- ROLAND-GR-55 source begins -->
 
-Checked **2026-10-14**. **Partial technical record**. Ownership is established by the owner's prior GR-55/GK-3/13-pin use statements; see [ownership history](effects/OWNERSHIP.md). This is **Roland GR-55**, not GM-800, GR-20 or a BOSS-branded processor. Public technical sources are separate from private ownership evidence.
+Checked **2026-10-14**. **Partial technical record**. Ownership is established by the owner's prior GR-55/GK-3/13-pin use statements; see [ownership history](README.md#scope-and-ownership)<!-- historical-link:roland-001 -->. This is **Roland GR-55**, not GM-800, GR-20 or a BOSS-branded processor. Public technical sources are separate from private ownership evidence.
 
 ### Required comparison fields
 
@@ -88,7 +88,7 @@ These five former missing profiles now have technical findings, but their explic
 - **Used IDR** (Separate IDR evidence): ?
 - **Retail/historical observation — not a live price range** (Separate IDR evidence): ?
 
-Original finding commit: 2b637fb61c243776b1a0a9d192ce17848295eeac; correction: da9ff9bb01b8be8109f5b588c656de3daaf41c9c. Sources: [Original finding](effects/findings/2026-10-14-roland-gr-55.md), [Complete supporting comparison](effects/owned-multifx.md). No original file or incoming link removed.
+Original finding commit: 2b637fb61c243776b1a0a9d192ce17848295eeac; correction: da9ff9bb01b8be8109f5b588c656de3daaf41c9c. Sources: [Original finding](ROLAND.md#gr-55)<!-- historical-link:roland-002 -->, [Complete supporting comparison](MULTI-EFFECTS.md)<!-- historical-link:roland-003 -->. No original file or incoming link removed.
 
 <!-- comparison evidence begins -->
 

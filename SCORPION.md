@@ -6,7 +6,7 @@ Consolidated **2026-10-17**. Complete original brand-based record and supporting
 
 <!-- SCORPION-KMF-10 source begins -->
 
-[Home](README.md) · [Marketplace](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+[Home](README.md) · [Marketplace](research-state.json)<!-- historical-link:scorpion-001 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:scorpion-002 -->
 
 Checked **2026-10-14**. **Partial record**, based on the brand's own specifications and photographs. No specifications are borrowed from a similar-looking OEM processor. Next: **JOYO GemBox family**.
 
@@ -87,7 +87,7 @@ The individual notes retain **TANK-PRO weight**, **BG300 manual/revision/display
 - **Apps** (4. Power, apps, I/O and stage use): Editor and USB functions ?
 - **Key I/O and performance details** (4. Power, apps, I/O and stage use): AUX,¼″ in,shared¼″ out/phones,USB-C;**25s looper,6genres/40+styles**
 
-Sources: [Original finding](effects/findings/2026-10-14-scorpion-kmf-10.md), [Complete supporting comparison](effects/shopee-multifx-2.md). No legacy source or incoming link removed.
+Sources: [Original finding](SCORPION.md#kmf-10)<!-- historical-link:scorpion-003 -->, [Complete supporting comparison](research-state.json)<!-- historical-link:scorpion-004 -->. No legacy source or incoming link removed.
 
 <!-- comparison evidence begins -->
 

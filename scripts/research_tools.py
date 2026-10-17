@@ -55,10 +55,10 @@ def verify():
     if state.get('separate_specialist_archives'):
         original=git('show','9c8d296:effects/specialist.md')
         marker='## Excluded archive — not part of the multi-effects comparison'
-        preserved=(ROOT/'SINGLE-GUITAR.md').read_text().split(marker,1)[1].replace('[SCOPE.md](effects/SCOPE.md)','[SCOPE.md](SCOPE.md)')
+        preserved=preservation_text('SINGLE-GUITAR.md').split(marker,1)[1].replace('[SCOPE.md](effects/SCOPE.md)','[SCOPE.md](SCOPE.md)')
         assert original.split(marker,1)[1]==preserved,'Guitar archive lost original material'
         original_fv=git('show','9c8d296:effects/findings/2026-10-14-flamma-fv01.md')
-        body=(ROOT/'SINGLE-VOCAL.md').read_text().split('## Flamma FV01 Corrector\n',1)[1]
+        body=preservation_text('SINGLE-VOCAL.md').split('## Flamma FV01 Corrector\n',1)[1]
         assert body.replace('(effects/SCOPE.md)','(../SCOPE.md)').replace('\n### ','\n## ')==original_fv.split('\n',1)[1],'FV01 archive lost original material'
     errors = []
     for path in ROOT.glob('*.md'):

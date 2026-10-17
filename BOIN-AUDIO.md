@@ -6,7 +6,7 @@ Consolidated **2026-10-17**. **Revision not established:** the linked firmware1.
 
 <!-- AUDOTA-BG300 source begins -->
 
-[Home](README.md) · [Marketplace](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+[Home](README.md) · [Marketplace](research-state.json)<!-- historical-link:boin-audio-001 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:boin-audio-002 -->
 
 Checked **2026-10-14**. **Partial; revision confirmation required.** The BG300 retailer links an original firmware-1.1.0 manual whose cover says Dual-FS Multi-Effects-P. Its specifications disagree with that retailer's description. The table below records the **linked manual's profile**, not a claim that every BG300-labelled unit has this exact hardware. Manufacturer Boin Audio confirms the BG200/300/400 family [M1]. Do not substitute BOSS Audio automotive products or a similar OEM enclosure.
 
@@ -87,7 +87,7 @@ The individual notes retain **TANK-PRO weight**, **BG300 manual/revision/display
 - **Apps** (4. Power, apps, I/O and stage use): Windows/macOS/Android/iOS documented; current app identity/versions ?
 - **Key I/O and performance details** (4. Power, apps, I/O and stage use): ¼″ in/stereo out,phones-panel versus final-table inconsistency,USB-C;**2×2 USB44.1k/16-bit**;drums,tuner
 
-Sources: [Original finding](effects/findings/2026-10-14-boin-audio-bg300.md), [Complete supporting comparison](effects/shopee-multifx-2.md). No source or incoming link removed.
+Sources: [Original finding](BOIN-AUDIO.md#bg300)<!-- historical-link:boin-audio-003 -->, [Complete supporting comparison](research-state.json)<!-- historical-link:boin-audio-004 -->. No source or incoming link removed.
 
 <!-- comparison evidence begins -->
 

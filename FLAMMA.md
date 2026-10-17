@@ -103,7 +103,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Power / batteries** (5. Power, software and practice/live features): **9V center-negative/300mA**; battery/USB power ?
 - **Other documented functions** (5. Power, software and practice/live features): 80 s looper;40 rhythms+10 metronomes; separate OTG recording connection
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:flamma-001 -->,retained pending complete navigation/provenance audits.
 
 ## FX200
 
@@ -202,7 +202,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Power / batteries** (5. Power, software and practice/live features): **9V center-negative,≥1A adapter**; battery/USB power ?
 - **Other documented functions** (5. Power, software and practice/live features): USB audio;52 s stereo pre/post looper;80 drum variations+10 metronomes; spillover
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:flamma-002 -->,retained pending complete navigation/provenance audits.
 
 ## FX150
 

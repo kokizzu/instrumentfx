@@ -38,6 +38,8 @@ def audit():
     report['root_to_legacy_by_target'] = dict(sorted(Counter(link['target'] for link in boundary).items()))
     report['root_to_legacy_occurrences'] = boundary
     assert sum(report['root_to_legacy_by_source'].values()) == report['root_to_legacy_links']
+    if state['migration'].get('root_navigation_canonical'):
+        assert report['root_to_legacy_links'] == 0, 'Root navigation regressed to legacy compatibility paths'
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({key:value for key,value in report.items() if key != 'root_to_legacy_occurrences'},ensure_ascii=False,indent=2))
     assert not errors and not unclassified,'Navigation or redirect coverage incomplete'
@@ -86,10 +88,12 @@ def commit():
     assert not research.git('diff','--cached','--name-only').strip(),'Existing staged changes'
     changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
     allowed={'scripts/navigation_tools.py','scripts/source_retirement.py','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/technical_retirement.py','scripts/research_tools.py','MULTI-EFFECTS.md','BOSS.md','MOOER.md','VALETON.md','M-VAVE.md','README.md','research-state.json','Makefile','ZOOM.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md'}
+    from canonical_links import REMAINING
+    allowed.update(REMAINING)
     assert changed<=allowed,changed-allowed
     research.git('add','--',*sorted(changed))
     print(research.git('diff','--cached','--stat'))
-    print(research.git('commit','-m','docs: migrate Valeton Zoom and M-VAVE navigation without evidence loss'))
+    print(research.git('commit','-m','docs: finish canonical root navigation while preserving legacy provenance'))
 
 if __name__=='__main__':
     {'audit':audit,'save':save,'commit':commit}[sys.argv[1] if len(sys.argv)>1 else 'audit']()

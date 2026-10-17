@@ -6,7 +6,7 @@ This archive is separate from the active multi-effects comparisons. FV01 is reta
 
 ## Flamma FV01 Corrector
 
-**EXCLUDED FROM THE MULTI-EFFECTS COMPARISON.** The user explicitly corrected this classification on **2026-10-14**. FV01 must not appear in active multi-effects candidate tables or totals. Its guitar-reverb side path does not make it a guitar multi-effects processor. See [SCOPE.md](effects/SCOPE.md).
+**EXCLUDED FROM THE MULTI-EFFECTS COMPARISON.** The user explicitly corrected this classification on **2026-10-14**. FV01 must not appear in active multi-effects candidate tables or totals. Its guitar-reverb side path does not make it a guitar multi-effects processor. See [SCOPE.md](README.md#scope-and-ownership)<!-- historical-link:single-vocal-001 -->.
 
 The following is **archived partial research**, originally checked **2026-10-14**, preserved to avoid losing source evidence. Its former classification as a vocal multi-effect is superseded by the project-scope decision above. No further FV01 research is in the active queue. Retention of this document is not an inclusion or recommendation.
 
