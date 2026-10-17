@@ -2487,3 +2487,40 @@ Checked2026-10-17 against the [own operation manual][M80-M], Z2I-5301-02, sectio
 
 Panel count remains unresolved: the HTML panel SVG fetch failed and PDF screenshot calls supplied no inspectable image in this session. No visual audit is claimed; do not retry those paths without a new capability.
 
+## G1Xnext
+
+G1XN / G1XNext; guitar multi-effects, checked2026-10-17; partial. Not G1Xon or G1X FOUR. The [official manual][G1XN-O] indexes the next-family cover and G1N/G1XN body. Direct PDF reading exceeded the tool limit. [Manufacturer manual text on Manualzz][G1XN-M] has matching contents, G1XN-specific panels and footer **G1N/G1XN-5000-1**; publication date unestablished. Generated overview claims of100effects/68presets are disregarded.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | Built-in; full-down press toggles assigned module. External control socket belongs to G1N only. |
+| K/F/B | **2/2/4**, text-derived: selector,VALUE;two footswitches;RHYTHM,STORE,BANK UP/TAP,PEDAL ASSIGN. Toe additional; visual audit pending. |
+| Display | **2-digit7-segment LED**;diagonal/color/touch unverified. |
+| Processing / choices | **54 types;8 simultaneous modules**. COMP/EFX,DRIVE,EQ,ZNR/AMP,MODULATION,DELAY,REVERB;ZNR andAMP are separate in signal diagram. Category enumeration pending. |
+| Factory / user memory | **40 read-only+40 user=80**;initial user contents unverified. |
+| Synth / acoustic | Unverified. |
+| Dimensions / weight | **155D×234W×52Hmm;600g without batteries**. |
+| I/O | Mono quarter-inch input;stereo quarter-inch combined line/phones output;DC. No USB/MIDI/loop in panel inventory. |
+| Power | **9VDC300mA centre-negative AD-0006;4AA alkaline**,about12h;adapter rating,actual draw unknown. No USB power. |
+| IR / NAM / captures | User loading unestablished. |
+| Editor / platforms | Full editor/platform support unestablished. |
+| Looper / drums / live | **40 rhythm patterns**;reverb unavailable during rhythm playback. Looper/scenes unverified. |
+| Instrument scope | Guitar; bass/vocal capability and ownership unestablished. |
+
+Technical evidence: original manual pp3,6–7,12,20,27 as reproduced in [G1XN-M]. No downloads or visual inspection.
+
+### G1Xnext — separate IDR hardware offers
+
+| Condition / seller | Amount and limitations | Exact item |
+|---|---|---|
+| Used / bcmusikmedan,KotaMedan | **Rp1,050,000,Habis**;title explicitlySecond. shop138807197/item29829717508. Direct reader returned five-month cache on2026-10-17. | [Shopee][G1XN-S1] |
+| New | Unknown | — |
+| Condition unverified / PedalMonk,KotaSurakarta(Solo) | **Rp650,000,Habis**;shop808382190/item25408459659. Direct reader two-week cache2026-10-17;search was one-month. | [Shopee][G1XN-S2] |
+
+Both are dated sold-out asks, not live stock or completed sales. Working state,selectedvariant,bundle,adapter,warranty,appliedvoucher,shipping/tax unknown. Cached3Oct arrival and late-arrival compensation do not establish current availability or discounts.
+
+[G1XN-O]: https://zoomcorp.com/media/documents/E_G1N_G1XN.pdf
+[G1XN-M]: https://manualzz.com/doc/o/1sbh9f/zoom-g1n-operation-manual-controls-and-functions---connections--g1xn-
+[G1XN-S1]: https://shopee.co.id/Efek-Gitar-Zoom-G1XNext-Original-Second-i.138807197.29829717508
+[G1XN-S2]: https://shopee.co.id/Zoom-G1XNext-i.808382190.25408459659
+
