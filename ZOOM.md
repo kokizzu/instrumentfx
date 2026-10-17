@@ -2816,3 +2816,14 @@ No confirmed used/new split. Functionality,regional mains version,cord/bundle,au
 [R2200-P]: https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2200
 [R2200-M]: https://zoomcorp.com/media/documents/E_RFX2200.pdf
 [R2200-O]: https://shopee.co.id/effect-vokal-efx-ZOOM-RFX-2200-i.702867530.25565866901
+
+### RFX-2200 — memory, banks and bypass limits, 2026-10-17
+
+| Field | Own-manual finding / distinction |
+|---|---|
+| Preset / factory and writable memory | [pp6,13,25][R2200-M]: **100 slots numbered01–99,00**,with restorable factory defaults;overwritten user edits occupy those same slots. **Not100 factory plus100 extra user slots**. Individual patches,all patches and MIDI learn table have distinct reset selections. |
+| Processing / bank choices | [pp7,25][R2200-M]: **6 banks×8 types×11 variations=528 preset combinations**;banks REVERB,DELAY,EFFECTS,SFX,RE-MIX,MIXDOWN. This is not528 stored patches or48 simultaneous effects. Full per-bank type enumeration remains pending. |
+| Processing / combined topology | [p17][R2200-M]: EFFECTS combinations marked **+ use serial pairs; / use parallel left/right pairs**. This verifies fixed two-effect combinations,not arbitrary user block chains or a universal processor ceiling. |
+| Live / bypass distinction | [p6][R2200-M]: effect-dependent **WET MUTE** removes wet audio while dry level still follows MIX;fully wet may therefore become silent. **DRY THRU** passes dry independently of MIX. Do not assume every bypass yields the same level. |
+
+Earlier factory-fill gap is resolved for the manual’s shared100-slot layout;actual seller-unit contents remain unknown. No reset or device operation performed.

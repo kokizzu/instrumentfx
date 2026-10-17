@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2200",
-    "task": "Separate RFX-2200 profile added fromownmanual andexact1.5mHabisoffer. Next ownmanual factorypatchlist/category/routing audit; regionalmains/cardinality/USB-headphone gaps retained. Basssupport unresolved;no siblingborrow/downloads.",
+    "task": "RFX-2200 shared100factory-default/writable slots,528type-variationcombinations,sixbanknames,plusserial/slashparallel EFFECTSpairs andbypass WetMute/DryThru verified. Next full per-banktypeinventory orfreshShopeediscovery. Universalceiling/display/MIDIexpression/draw/imports/editor/conditionremain;no downloads.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery andlegacy consolidation;no workflows/downloads/push."
   },
@@ -59206,6 +59206,35 @@
       "Display",
       "Userstorage/imports/editor",
       "Conditionqualifiedoffers"
+    ],
+    "downloads": false
+  },
+  "rfx2200_memory_routing_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2200.pdf",
+    "slots": 100,
+    "factory_defaults": "Restorablefor01–99,00;sameslotsasuseredits",
+    "not_total200": true,
+    "preset_combinations": 528,
+    "banks": [
+      "REVERB",
+      "DELAY",
+      "EFFECTS",
+      "SFX",
+      "RE-MIX",
+      "MIXDOWN"
+    ],
+    "types_per_bank": 8,
+    "variations": 11,
+    "topology": "EFFECTSplusserial/slashparallelL-R",
+    "bypass": "WetMute drylevelfollowsMIX;DryThru independentofMIX",
+    "remaining": [
+      "Fullperbanktypes",
+      "Universalceiling",
+      "Display",
+      "MIDIexpression",
+      "Draw",
+      "Imports/editor",
+      "Qualifiedcondition/stock"
     ],
     "downloads": false
   }

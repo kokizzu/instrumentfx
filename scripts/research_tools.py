@@ -353,7 +353,7 @@ def main():
         if mode == 'commit-nux-mg101-audit':
             message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-1201':
-            message = 'research(zoom): add separate RFX-2200 with mains and digital routing limits'
+            message = 'research(zoom): distinguish RFX-2200 shared memory banks and bypass modes'
         if mode == 'commit-vt4':
             message = 'research(roland): verify VT-4 output balance and USB processing constraints'
         if mode == 'commit-pe100':
