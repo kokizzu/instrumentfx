@@ -351,3 +351,39 @@ The [manufacturer-authored mirrored manual][AX30-M] identifies AX30G, uses the s
 [AX30-O]: https://shopee.co.id/efek-gitar-korg-ax30g-langka-i.57900729.18875773031
 
 Original scans retained as links: [English][AX30-E], [Japanese][AX30-J].
+
+## AX100G
+
+Checked2026-10-17;partial. Guitar scope; bass/vocal suitability and ownership unestablished. Distinct fromAX1000G.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal controls23pedal-effect types;toe/external support pending. | [Manual p3][AX100-M] |
+| K/F/B | Separate rotary/footswitch/button counts pending. | Unresolved |
+| Display | Backlit LCD;diagonal,color/touch pending. | [Manual p3][AX100-M] |
+| Processing / categories | **63types;up to7simultaneous effects**,plusrhythm. Per-category choices pending. | [Manual pp3,12][AX100-M] |
+| Preset memory | **40preset+40user=80programs**;factoryusercontentsduplicatepresets. | [Manual pp3,5][AX100-M] |
+| Synth / acoustic | Acoustic Guitar simulation documented;dedicatedsynth pending. | [Manual p12][AX100-M] |
+| I/O | Mono guitarinput,stereominiAUX,sharedstereophone line/headphoneoutput. Otherconnections pending. | [Manual p12][AX100-M] |
+| Power / battery / USB | **9VDC adapter or4AA alkaline;estimated12h**. Current,polarity,USBoperation pending. | [Manual p12][AX100-M] |
+| Dimensions / mass | **329.6W×181.5D×57.5H mm;1.05kg excludingbatteries**. | [Manual p12][AX100-M] |
+| IR / NAM / capture | IR import,native/converted NAM andproprietarycapture pending. | Unresolved |
+| Editor / platforms | Officialeditor/currentOS support pending. | Unresolved |
+| Looper / drums / live | PhraseTrainer8s slowdownwithoutpitchchange;Sample&Play6s pedalplayback;50rhythmpatterns+metronome,tapdelay,tuner. Detailedrestrictions pending. | [Manual p3][AX100-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No model-specific qualified amount. | — |
+| New | No model-specific qualified amount. | — |
+| Unresolved multi-model listing | jonimusic,shop22551702/item3568008855,KotaTangerangSelatan;AX100G/AX1500G/AX3000G/AX3G. ListingrangeRp899.900–Rp2.299.900 **is not an AX100G price**;variantmappingunavailable. Directbrowsertextchecked2026-10-17,crawled2monthsago,**Habis**. | [Shopee listing][AX100-O] |
+
+<!-- comparison evidence ends -->
+
+Condition,workingstate,bundle,adapter,authenticity,warranty,shipping,tax,vouchereligibility andlivestock unverified. Rp10000late-arrivalcompensationisnotdiscount. Official68pageEFGJmanualreadasbrowsertext;no filesystemdownloadorvisualinspectionclaimed.
+
+[AX100-M]: https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B
+[AX100-O]: https://shopee.co.id/Efek-Gitar-Korg-AX100G-AX1500G-AX3000G-AX3G-i.22551702.3568008855

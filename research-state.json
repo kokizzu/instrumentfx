@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 249,
+  "active_model_count": 250,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 249,
+  "canonical_root_model_count": 250,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "249 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. ME-30 guitar scope; bass/vocal unclassified;all partial.",
+  "count_reconciliation": "250 unique active/root-canonical models;0legacy-only;31brands;6excluded archives. AX100Gguitar,bass/vocalunclassified;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX100G",
-    "task": "New four-model Shopee lead saved,soldout;price mapping unresolved. Seek variant-resolved hardware offer and verify own Korg manual before root model addition. Never infer AX100G from AX1000G or range endpoints.",
+    "task": "AX100G initial own-manual record added withmodel-specific price unresolved. Next panelcounts,categorychoices andPhraseTrainer/SamplePlay restrictions;neveradoptAX1000Gsiblingdata.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery;ME-30,GT-5,RFX-2000 gaps remain deferred. No downloads,workflows or push."
   },
@@ -23940,7 +23940,8 @@
       "AX10G",
       "AX1000G",
       "AX3G",
-      "AX30G"
+      "AX30G",
+      "AX100G"
     ],
     "VOX": [
       "ToneLab LE",
@@ -24253,7 +24254,8 @@
       "AX10G",
       "AX1000G",
       "AX3G",
-      "AX30G"
+      "AX30G",
+      "AX100G"
     ],
     "VOX.md": [
       "ToneLab LE",
@@ -24291,7 +24293,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 202,
+      "record_count": 203,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41254,10 +41256,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 249,
-    "canonical_root_models": 249,
+    "unique_brand_model_pairs": 250,
+    "canonical_root_models": 250,
     "legacy_only_models": 0,
-    "guitar_view_models": 202,
+    "guitar_view_models": 203,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 49,
@@ -41317,7 +41319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-30."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX100G."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41504,6 +41506,7 @@
       "Korg::AX1000G",
       "Korg::AX3G",
       "Korg::AX30G",
+      "Korg::AX100G",
       "VOX::ToneLab LE",
       "VOX::ToneLab ST",
       "VOX::ToneLab SE",
@@ -43511,6 +43514,13 @@
     },
     "Korg::AX30G": {
       "link": "KORG.md#ax30g",
+      "source_files": [
+        "KORG.md"
+      ],
+      "finding_files": []
+    },
+    "Korg::AX100G": {
+      "link": "KORG.md#ax100g",
       "source_files": [
         "KORG.md"
       ],
@@ -54030,5 +54040,10 @@
         }
       ]
     }
+  },
+  "ax100g_primary_checkpoint_20261017": {
+    "support": "https://www.korg.com/us/support/download/manual/1/20/1574/",
+    "manual": "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B",
+    "remaining": "Variant-specific price,controls,toe/externalEXP,categorychoices,power current/polarity,display/editor/IR/NAM andpractice restrictions."
   }
 }
