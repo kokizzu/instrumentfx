@@ -224,6 +224,18 @@ Checked 2026-10-18 against the explicitly shared [100-effect list, ©2014 Z2I-21
 | Expression / five pedal algorithms | **PedalVx, PedalWah, PDL Reso, BaPDLPit, BaPDLMnP**. BaPDLMnP explicitly requires single-note playing. Pitch Color variations are parameter mappings, not extra algorithms. |
 | Expression / assignment and switching | **AUTO ASSIGN can control multiple PEDAL effects together**. NO ASSIGN disables control; INPUT VOL controls input; OUTPUT VOL excludes rhythm/looper volume. The pedal switch toggles assigned effects, but **that on/off state is not saved**. This resolves the earlier toe-switch unknown. |
 
+
+### B1Xon — synth choices and save/loop limits
+
+Checked 2026-10-18 against the explicitly shared [effects list pp17–18](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf) and [operation manual pp10–11,15,18–19,24–25,29](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf).
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / named algorithms and tracking | **Ba Synth, StdSyn, SynTlk, V−Syn, 4VoiceSyn, Z-Syn**; additionally **Z-Organ** and **Defret**. Ba Synth and 4VoiceSyn explicitly use single-note playing. StdSyn offers four variations; SynTlk four vowel pairs; Z-Syn saw/square waves. Variations are not separate algorithms; other algorithms’ polyphony and acoustic-guitar simulation remain unverified. |
+| Memory / automatic saving and updates | **AUTO SAVE defaults ON**, retaining parameter edits as made. OFF prompts save/discard when changing patches; unsaved patches cannot be swapped. Firmware updating preserves saved patches, while All INITIALIZE resets defaults. Factory-filled count remains unverified. |
+| Looper / time and clearing | Manual or **1–64 quarter notes within 30 seconds**; oversize settings adjust automatically. **Changing recording time or tempo erases the loop**. Tempo **40–250 BPM** is shared with effects/rhythms. HOME remains accessible during recording/playback. Undo and power-off persistence remain unverified. |
+| Processing / DSP ceiling | **PROCESSING LIMIT bypasses an effect** when a five-effect combination exceeds capacity. Five slots do not guarantee every combination. |
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

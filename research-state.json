@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Zoom B1Xon",
-    "task": "Commit full category census and multi-PEDAL assignment/toe behavior. Next resolve named synth algorithms and practical loop/memory restrictions from own shared documentation; exact used Shopee search has only unresolved category-page lead, not accepted item.",
+    "task": "Commit named synth and save/loop/DSP limits. Next fresh Shopee discovery by different brand/series; preserve unresolved B1Xon controls/display/current offers and do not repeat resolved category/synth checks.",
     "next_models": [],
-    "after_queue": "335 active records partial; 117 legacy compatibility files remain. No downloads/workflows/push."
+    "after_queue": "335 active models remain partial; 117 legacy compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57263,6 +57263,15 @@
       "model": "Zoom B1Xon",
       "checked_date": "2026-10-18",
       "finding": "Shared manufacturer list enumerates21/14/12/32/21 plus5PEDAL=105;25Ver1.2 additions reconcile80original. Shared own manual pp26–27 explicitly permits multi-PEDAL AUTO ASSIGN, distinguishes input/output volume and excludes loop/rhythm from output-volume target;toe toggles unsaved. No installed firmware or condition-qualified offer verified.",
+      "sources": [
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf",
+        "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf"
+      ]
+    },
+    {
+      "model": "Zoom B1Xon",
+      "checked_date": "2026-10-18",
+      "finding": "Shared original effects list resolves six named synth algorithms plus organ/defret, with explicit single-note Ba Synth/4VoiceSyn. Manual resolves default auto-save, unsaved-swap restriction, update versus initialize, destructive loop time/tempo changes, shared40–250BPM and DSP overflow bypass. All earlier ownership/source facts preserved.",
       "sources": [
         "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf",
         "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf"
