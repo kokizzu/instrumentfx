@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX900",
-    "task": "Verify original Yamaha manual,eligible simultaneousarchitecture andinstrument/mic routing. Exact1186125751/26618311686 Rp2.950.000 sellersecondnormal,linked fromshopbutitemfailed;preserveaccesslimits. Commit ownrecord beforeSPX990.",
+    "task": "Use located Yamaha-authored 79-page manual mirror recorded in spx900_primary_verification_20261017. Verify full panel/ports, p23–26 routing, Add-38/39 specifications and instrument scope; add SPX900 record before SPX990. Preserve exact used offer/access limits.",
     "next_models": [
       "Yamaha SPX990"
     ],
@@ -52663,5 +52663,16 @@
     ],
     "qualification": "Seller usedcondition explicit,operatingstate/origin notindependentlyverified. Do not mergeSPX900/SPX990 oraccept shopcarousel identity asitem ownership.",
     "status": "queued;noinventory additions beforeprimaryverification"
+  },
+  "spx900_primary_verification_20261017": {
+    "checked_date": "2026-10-17",
+    "official_index": "https://jp.yamaha.com/products/contents/proaudio/downloads/manuals/index.html?c=proaudio&k=spx900&l=ja",
+    "official_access": "Indexed 11.5 MB owner manual; Japanese route redirects to dynamic resources without document link; US index returned 403.",
+    "manufacturer_manual_mirror": "https://thehistoryofrecording.com/Manuals/Yamaha/Yamaha_spx900.pdf",
+    "identity": "79-page Yamaha Authorized Product Manual; introduction explicitly identifies SPX900. Read in web tool only; no filesystem download.",
+    "verified": "Introduction: 50 factory programs, 49 user locations, switchable -20/+4 dBm line levels. Printed p23: multi-effect programs 38–47 combine compressor, distortion, EQ/dynamic filter, reverb and chorus/exciter; both compressor and distortion exist in every multi-effect program. Printed pp4/8: two front EXT CTRL/FOOT VOL sockets accept FC7 parameter controllers.",
+    "archive_mirror": "https://manualzz.com/doc/1969278/yamaha-spx900-digital-multi-effects-processor-user-manual",
+    "archive_qualification": "Document body is a four-page Yamaha product-archive print dated 30/07/2009, not the owner manual despite page title. Ignore generated introduction/FAQ. Body claims up to five simultaneous effects. Its input impedance transcription says 50 ohms and dimensions label D/H is inconsistent with inch values; do not propagate without manual verification.",
+    "remaining": "Read full controls/connections, p23–26 routing and Add-38/39 specifications. Check digital/remote ports omitted from archive, exact button count, factory fill, category totals, guitar/vocal scope and bass evidence. Then create model record and comparison rows; do not advance to SPX990 before model commit."
   }
 }
