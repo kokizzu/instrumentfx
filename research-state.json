@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "GT-3 twelve MOD alternatives and subchoices saved. Next SFX/preamp/ambience catalogue and global ceiling; retain synth mode restrictions and unknown buttons/toe.",
+    "task": "GT-3 SFX catalogue and anti-feedback search restrictions saved. Next preamp/ambience categories and global ceiling; physical buttons/toe unresolved.",
     "next_models": [
       "Zoom 606"
     ],
@@ -54356,5 +54356,11 @@
     "page": "46",
     "finding": "Twelve MOD alternatives and selected per-algorithm choices/restrictions saved; riff phrase memory distinguished from patches.",
     "remaining": "SFX/preamp/ambience catalogue, complete synth restrictions, global ceiling, buttons/toe and existing unknowns."
+  },
+  "gt3_sfx_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+    "page": "39",
+    "finding": "Six SFX selector alternatives, stereo pan condition, feedback single-note requirement and anti-feedback search interruption/persistence restrictions saved.",
+    "remaining": "Preamp/ambience catalogue, global ceiling, physical buttons/toe and other unknowns."
   }
 }
