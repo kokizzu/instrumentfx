@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-10B",
-    "task": "GT10B official driver OS scopes saved separately from librarian/editor. Next refresh Shopee eligible bass/vocal leads, prioritizing exact hardware listings rather than adapters; then manufacturer verification. Commit model before next.",
+    "model": "Zoom MS-60B Plus",
+    "task": "Two additional exact MS60B+ indexed asks saved with direct-access failures and condition unknown. Frontier BFX/BNX3/VocalistLive5/VoiceLiveRack searches found no qualifying new model. Next audit MS60B+ current category subtotals from own effect list; commit model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45275,7 +45275,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-10B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom MS-60B Plus."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56472,6 +56472,12 @@
       ],
       "finding": "Official driver scopes:1.0.0 Windows10 32/64bit excluding Mobile/VM/Windows-on-Mac;1.0.3 macOS10.13/10.14. Driver availability and instructions not proof of current OS/editor compatibility.",
       "remaining": "Windows11/new macOS/AppleSilicon and actual current automatic driver delivery unverified; no files downloaded."
+    },
+    {
+      "model": "Zoom MS-60B Plus",
+      "date": "2026-10-18",
+      "finding": "Two exact plus-hardware indexed asks retained condition-unverified: Kurnia32743136/3909601604 Rp2645000 and IDB800959591/41259472038 Rp2669000. Four-month caches; direct JS shell/cache miss.",
+      "remaining": "No verified new/used condition or current stock. Existing technical gaps retained."
     }
   ],
   "discovery_cross_brand_bass": {

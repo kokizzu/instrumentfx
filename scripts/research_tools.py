@@ -605,7 +605,7 @@ def main():
         if mode == 'commit-b1on':
             message = 'research(zoom): verify original B1X electrical and rhythm specifications'
         if mode == 'commit-ms60bplus':
-            message = 'research(zoom): add bass-focused MS-60B Plus with own routing and qualified offer'
+            message = 'research(zoom): preserve two MS60B Plus indexed hardware asks'
         if mode == 'commit-ms70cdrplus':
             message = 'research(zoom): add MS-70CDR Plus with own bass presets MIDI and qualified offer'
         if mode == 'commit-ms70cdr':

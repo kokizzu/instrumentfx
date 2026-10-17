@@ -1798,6 +1798,14 @@ Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?**
 | Used | Unknown;no condition-verified Indonesian used offer established. | — |
 | Condition unverified / sarana musik,Kota Jakarta Barat | **Rp2.527.000**,exactplus hardware title. Search index4months old showed26May delivery;reopened2month snapshot showsrelative same-day deadline. Neither establishes current stock. Condition,adapter/bundle,selected variation,warranty region,shipping,tax,voucher eligibility anddelivered total unverified. Late-delivery10k compensation is not a hardware discount. | [64556181/28979622963](https://shopee.co.id/Zoom-MS-60B-MultiStomp-Guitar-Multi-Effects-Pedal-Zoom-MS-60B-Zoom-MS-60B-Plus-Original-i.64556181.28979622963) |
 
+Additional exact hardware leads checked **2026-10-18**. Both remain outside verified used/new ranges.
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Condition unverified / Kurnia Musik Semarang, Kota Semarang | **Rp2,645,000**, title explicitly MS-60B+. Four-month search cache with26May delivery; direct URL now returns JavaScript-only shell (six-day crawl), so price/stock not reconfirmed. Condition, variant, working state, adapter/bundle, warranty and checkout total unknown. Late-arrival voucher is not immediate discount. | [32743136/3909601604](https://shopee.co.id/Zoom-MS-60B-MS-60-B-MS-60B-MS60B-Efek-Bass-i.32743136.3909601604) |
+| Condition unverified / IDB MUSIK PLUS, Kota Jakarta Utara | **Rp2,669,000**, title explicitly MS60B+. Four-month search cache with25May delivery; direct URL cache-missed. Condition, variant, working state, adapter/bundle, warranty, shipping/tax/voucher and stock unknown. Not live-stock evidence or a completed sale. | [800959591/41259472038](https://shopee.co.id/Efek-Bass-Zoom-MS60B-MS-60B-Multi-Stomp-Bass-Pedal-Original-i.800959591.41259472038) |
+
+
 ### Remaining checks
 
 Verify current category subtotals,installed library/firmware,85preset slot map,displaydiagonal/touch/color-depth wording,external expression,USB electrical/audio/fullMIDI details,userIR/NAM/capture imports,acoustic simulation,performance looper/drums/scenes,currentcondition-qualifiedused/new offers andexact R-output tap interactions. KeeporiginalMS-60B andotherPlus units separate.
