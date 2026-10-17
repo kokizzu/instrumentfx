@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom RFX-2200",
-    "task": "RFX-2200 analog line/mic/output impedance and level requirements saved. Next fresh Shopee discovery other models or resolve other model technical gaps; do not repeat RFX bank/control inventories. No downloads/workflows/push.",
+    "model": "Line 6 HX Effects",
+    "task": "ExactDC3G adapteridentity crosscheck saved;newShopee discovery accessories rejected andmixedG2.1Nu lead retained. Next resolve exact G2.1Nu item/variant or other saved modeltechnicalgaps;do not repeat RFX inventories.",
     "next_models": [],
-    "after_queue": "Continue Shopee discovery andlegacy consolidation;no workflows/downloads/push."
+    "after_queue": "Continue Shopee discovery andlegacyconsolidation;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41474,7 +41474,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom RFX-2200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Effects."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -51454,6 +51454,17 @@
       "pages": "2,25",
       "finding": "Line10kΩmono/20kΩstereo;mic4.5kbalanced50kunbalanced−56dBm;outputs500Ω;line/output−10to+4dBm with own0dBm=0.775Vrms convention. Mic600Ωsource recommendation is not input impedance.",
       "remaining": "Display,currentdraw,universalconcurrency,imports/editor,qualifiedcondition/liveoffers"
+    },
+    {
+      "model": "Line 6 HX Effects",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://kb.line6.com/hx-effects-faq",
+        "https://kb.line6.com/pod-hd500x-hd500-pod-hd-pod-hd-pro-faq",
+        "https://line6.com/hx-guitar-processor/accessories/"
+      ],
+      "finding": "Exact DC-3G identity cross-check: own HX Effects FAQ names supply and2Aminimum/2.5mm;official POD FAQ specifies named DC3g9VDC3Acenternegative. Adapter rating is not actual draw;DC1g500mAHXOne listing is different.",
+      "remaining": "Actual unit/adapter label,draw,battery/USBpower,display,newerfirmware,qualifiedstock"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -59359,5 +59370,38 @@
       "Qualifiedcurrentoffers"
     ],
     "downloads": false
+  },
+  "discovery_zoom_legacy_followup_20261017": {
+    "queries": [
+      "site:shopee.co.id Zoom GFX8/GFX-8",
+      "site:shopee.co.id Zoom G9.2tt",
+      "site:shopee.co.id Zoom G2.1Nu/G2Nu",
+      "site:shopee.co.id Digitech RP80",
+      "site:shopee.co.id Korg AX300B"
+    ],
+    "rejected_accessories": [
+      {
+        "url": "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+        "reason": "Sensor module,not fullprocessor"
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-efek-gitar-ZOOM-GFX8-Power-Effect-Guitar-Zoom-i.732732692.16073983907",
+        "reason": "Adapter,notprocessor"
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+        "reason": "Adapter,notprocessor"
+      }
+    ],
+    "unresolved": [
+      {
+        "url": "https://shopee.co.id/hopemusik",
+        "title": "Efek Zoom G2.1Nu Zoom G2.1u B2.1u Bass",
+        "indexed_amount_idr": 1699000,
+        "crawl_age": "4months",
+        "reason": "Shop-level mixed-model listing;exactitem/variantprice/condition/stock unresolved. Do not assign amount to G2.1Nu."
+      }
+    ],
+    "result": "No qualifying new exacthardwareoffer established;not evidenceofmarketabsence."
   }
 }
