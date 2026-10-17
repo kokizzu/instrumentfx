@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "RP200 tuner unmute, AUX routing, save/power andrhythm restrictions saved. Continue missing-model exact Shopee discovery andprimary verification.",
+    "task": "ME-50B synth waveforms, pedal alternatives andSoundHold distinction saved. Continue exact Shopee discovery andprimary technical gaps;no newmodels counted.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69503,5 +69503,16 @@
       "RhythmcannotstartinStore/Bypass"
     ],
     "discovery": "RP80/RP350/RP2000 searchfoundonlyRP350adapter855783279/22273291654; excluded"
+  },
+  "technical_followup_me50b_synth_20261018": {
+    "date": "2026-10-18",
+    "source": "https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf",
+    "pages": "12–13,18–19",
+    "findings": [
+      "Four single-note synth choices:three saw-wave,one square",
+      "Synth control functions differ fromdrive dryblend",
+      "Six alternative expression effects; SoundHold distinctfromHOLD DLY"
+    ],
+    "discovery": "GT6B/GT-6B/ME8B/ME50B searchesdidnotresolveexactShopeeoffer;notmarketabsenceproof"
   }
 }

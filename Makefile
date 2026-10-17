@@ -1855,3 +1855,7 @@ research-commit-gp200x:
 .PHONY: research-commit-rp200
 research-commit-rp200:
 	python3 scripts/research_tools.py commit-rp200
+
+.PHONY: research-commit-me50b
+research-commit-me50b:
+	python3 scripts/research_tools.py commit-me50b

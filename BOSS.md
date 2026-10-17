@@ -2247,6 +2247,16 @@ Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-
 | Used | Unknown; no exact Shopee Indonesia seller/item offer resolved. | — |
 | New | Unknown; no exact qualified retail offer resolved. | — |
 
+### ME-50B — synth and expression choices
+
+Checked2026-10-18 against [original manual pp12–13,18–19][M50B-M]. Text inspection; no software/manual downloads or new visual control-count verification.
+
+| Field | Finding / qualification |
+|---|---|
+| Synth / waveform and controls | **SAW LEAD,MILD FILTER,DEEP FILTER use saw-wave synth sounds; SQUARE uses square-wave**. Allfour require single-note playing. DRIVE/SENS controls filtering; TONE/CUTOFF controls cutoff; D.LEVEL/RESONANCE controls resonance insynthmode,not dryblend. Do not transfer thedrive-mode direct-level meaning to synthmode. |
+| Expression / six effect choices | **WAH,RESONANCE,+1 OCTAVE,−1 OCTAVE,SOUND HOLD,KICK DRUM**, alternatives tovolume mode. ±octave andSoundHold require single notes. RESONANCE cancombine withSAW LEAD/SQUARE; onepedaleffect isnot sixsimultaneousblocks. |
+| Looper / Sound Hold distinction | SoundHold sustains aplayednote andpedalposition adjustsitslevel; raisingthetoe farenough cancelsit. It is distinctfrom2.8s HOLD DLY recording/layering,not anadditional general-purpose looper. |
+
 <!-- comparison evidence ends -->
 
 Searches for ME-50B, ME50B and ME 50B on 2026-10-17 did not resolve exact Shopee Indonesia hardware. Foreign accessory matches do not establish a hardware price or Indonesian stock. Seller/item, condition, variant, region, bundle, warranty, voucher and current availability remain unknown. This is a search limitation, not proof of market absence.
