@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP90",
-    "task": "RP90 K/F/B now explicit11-button total, preserving10-front subtotal. Next refresh manufacturer sources for eligible bass models with incomplete control/display details; start BOSS ME20B current record. Commit model before next.",
+    "model": "BOSS ME-20B",
+    "task": "ME20B named selector alternatives and battery indication saved. Next inspect BOSS ME50B current record/manual for unresolved power/display/control or routing evidence; commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45275,7 +45275,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP90."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-20B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56435,6 +56435,13 @@
       "source": "https://www.zikinf.com/manuels/digitech-rp90-manuel-utilisateur-en-30526.pdf",
       "finding": "Normalized K/F/B to total11 buttons, retaining ten-front plus rear Amp/Mixer breakdown; prior front subtotal was correct but not comparable as headline total.",
       "remaining": "Visual control corroboration and other model gaps remain unresolved."
+    },
+    {
+      "model": "BOSS ME-20B",
+      "date": "2026-10-18",
+      "source": "https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf",
+      "finding": "Own manual p35 names all18 selector alternatives across5SFX/6COMPDRIVE/7DELAYMOD; delay time ranges not separate proven algorithms. Low-battery bt and included test-battery qualification p11.",
+      "remaining": "Maximum simultaneous chain, visual controls, display diagonal/color/touch, polarity and qualified exact offers remain unresolved."
     }
   ],
   "discovery_cross_brand_bass": {

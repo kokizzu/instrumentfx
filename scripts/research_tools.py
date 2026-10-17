@@ -579,7 +579,7 @@ def main():
         if mode == 'commit-gt10':
             message = 'research(boss): qualify GT-10 preamp enumeration and drive count discrepancy'
         if mode == 'commit-me20b':
-            message = 'research(boss): verify ME20B electrical levels and patch master'
+            message = 'research(boss): enumerate ME20B named effect selectors'
         if mode == 'commit-me50':
             message = 'research(boss): verify ME-50 named controls and toe-switch calibration'
         if mode == 'commit-b2-followup':
