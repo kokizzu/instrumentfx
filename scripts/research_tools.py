@@ -665,7 +665,7 @@ def main():
         if mode == 'commit-cubebabyelectric-preservation':
             message = 'audit(mvave): preserve electric CUBE BABY original and check actual finding coverage'
         if mode == 'commit-cubebabybass-preservation':
-            message = 'research(mvave): verify original CUBE BABY BASS manual power memory and IR semantics'
+            message = 'research(mvave): document CUBE BABY BASS save volume and editor behavior'
         if mode == 'commit-mg100-preservation':
             message = 'research(nux): preserve MG-100 source and retain official reverb conflict'
         if mode == 'commit-mg200-preservation':

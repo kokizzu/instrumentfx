@@ -1030,6 +1030,14 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 | Processing / USB / IR manual | [Original Bass PDF](https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b.pdf),Englishpp2,4–5,9–12;Chinesepp1,4–5:USB charging/computer soundcard/preset editor/IR import;SPACE selects delay ORreverb. Physical IR selector1=off,2–9=eightIRs;software storage1–8. Import overwrites priorIR. IR factory reset andthree-preset reset separate. Published48kHz/24bit is general specification,not provenUSBtransferformat;IRlength/format/channel limits unknown. |
 
 
+### LIVE / EDIT / PRESET manual behavior,2026-10-18
+
+| Field | Original manual behavior / qualification |
+|---|---|
+| Live / save operation | [BassPDF](https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b.pdf),Englishpp6–9:power-on PRESET;B+C togglesLIVE,A+B togglesEDIT. PRESET knobs do notedit tone;VOLUME sets finaloutput. LIVE finaloutput defaults80%;EDIT retains previous output. FlashingEDITknob means storedvalue differs fromphysicalposition;turning it replacesvalue. HoldA/B/C saves tocorrespondingpreset;examplehold2s. ReturningtoPRESET changesVOLUME fromchainlevel tofinaloutput;manual advises restoring itspriorposition. A=IR,B=MOD+SPACE,C=COMP+EQ grouped switching inLIVE/EDIT. |
+| Editor / parameter scale | SamePDFpp9–11:SPACE0–13reverb,14–17off,18–30delay;MOD0–6chorus,7–8off,9–14phaser. These are parameter ranges,not algorithmcounts. Computer/device selecting samepreset allows realtimeaudition;Save stores it. IR mic-distance simulation100% is silent permanual. |
+
+
 ### Manufacturer recheck,2026-10-18
 
 | Field | Primary-source confirmation / remaining limits |
