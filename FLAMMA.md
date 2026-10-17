@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)
 
-**Five active profiles:** FB200 bass processor added2026-10-17; FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
+**Six active profiles:** FV03 vocal processor added2026-10-17; FB200 bass processor added2026-10-17; FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
 
 The [official multi-effects collection](https://www.flamma.shop/collections/multi-effects), [manufacturer catalogue](https://flammainnovation.com/shop.html?ancestors=0%2C1256) and [manual/software index](https://www.flamma.shop/pages/manual) establish additional families for research. They do not prove Indonesian stock or complete specification verification. Unknown is `?`, not No; K/F/B counts rotary controls, main footswitches and separate buttons, excluding encoder presses/toe/power switches counted separately.
 
@@ -344,3 +344,46 @@ Remaining: verify footswitch/panel discrepancy,complete simultaneous processing/
 [FB2-M]: https://www.flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf
 [FB2-P]: https://www.flamma.shop/en-au/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal
 [FB2-I]: https://www.flamma.shop/pages/manual
+
+## FV03 Character
+
+Checked **2026-10-17**; partial. Vocal character processing plus reverb and tone. Own manual explicitly enables voice/reverb together: vocal-only multi-effects membership. Guitar reverb is a supporting path; no guitar/bass multi-effects membership established. FV01 remains excluded.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No built-in pedal or EXP socket in manual inventory; toe not documented. [V03][FV3-M], pp03–04 |
+| Rotary / footswitches / buttons | **4 / 1 / 1**: Reverb,Mode,Mix,Gain; footswitch; Tone button. Line In,48V,Lift switches separate. Text inventory,not visual verification. [V03][FV3-M], pp03–04 |
+| Display | Status LEDs in panel inventory; screen specifications not applicable to LEDs. [V03][FV3-M], pp03–04 |
+| Dimensions / weight | **86.6×125×60 mm;0.371 kg**; axes/accessory inclusion unspecified. [Product][FV3-P] |
+| Simultaneous processing / categories | Voice alteration plus reverb together; fixed functions,not freely assignable blocks. **6 character effects** (Male,Female,Baby,Robot1–3), **3 reverbs** (Room,Hall,Plate), **3 tone profiles** (Normal,Warm,Bright). [Product][FV3-P]; [V03][FV3-M], pp05,07 |
+| Delay claim conflict | Manual feature lists mention delay; controls/effect tables document reverb and character,not a delay algorithm. **Delay remains unverified.** [V01][FV3-O], pp02–07; [V03][FV3-M], pp02–07 |
+| Factory / user / total presets | Stored-preset capacity unverified; six effect positions are not six user memories. |
+| Synth / acoustic simulation | Each unverified; Robot modes do not establish an independent synth engine. |
+| IR / NAM / capture | User IR,native NAM,converted NAM and proprietary capture loading individually unverified. |
+| Audio / control I/O | Quarter-inch mono guitar in/out (1 MΩ/100 Ω); balanced XLR mic in/out (2.14 kΩ/300 Ω); DC. Line input mode uses mic socket. No USB,MIDI,EXP,aux,phones or loop connector in complete inventory. [Product][FV3-P]; [V01][FV3-O], pp03–04,06 |
+| Phantom power | 48V switch documented. Product and both manuals say optionally phantom-powered; actual power direction/connection behavior unresolved. Do not convert wording into confirmed microphone-supply capability. [Product][FV3-P]; [V01][FV3-O], pp02–04; [V03][FV3-M], pp02–04 |
+| Power / battery / USB | **9 V DC,center negative**. **V01:500mA; V03:1.5A**, including respective panel/supply and Current Draw text; product still says500mA supply. Unit/revision reconciliation required; no measured-consumption claim. Barrel,battery and USB operation unverified. [V01][FV3-O], pp01,03–04,08; [V03][FV3-M], pp01,03–04,08; [Product][FV3-P] |
+| Editor / platforms / drivers | No FV03 editor established; desktop/mobile editor,audio interface and firmware route unverified. No USB connector documented. |
+| Live / routing features | Tap enables voice+reverb; next tap removes voice; double tap bypasses. Hold edits guitar reverb. Mixed or separate outputs; power-on footswitch hold changes output mode. Looper,drums,scenes and spillover unverified. [V01][FV3-O], pp05–06 |
+| Used IDR | **?** No condition-qualified used offer established. |
+| New IDR | **?** Exact retail-style ask below does not establish new condition. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee hardware evidence
+
+Checked **2026-10-17**: [NEO MUSIC,shop158235298/item13182459384](https://shopee.co.id/Flamma-FV03-Character-Vocal-Effects-Pedal-i.158235298.13182459384), Kota Sukabumi, **Rp1,816,920**. Earlier two-month search cache had August11 delivery; reopened two-week cache has October3,also stale. No Habis marker is not stock confirmation. Sale/working condition,selected variation,actual adapter/bundle,warranty,shipping/tax,voucher and final total unknown. Late Rp10,000 compensation not deducted. Ask,not completed sale or qualified used/new range. Foreign USD price not converted.
+
+### Source revisions and remaining work
+
+Manufacturer shop index links filename **V01 2021-06-18**,whose PDF metadata title references V01 2020-11-12; manufacturer product links **V03 2024-01-08**. Both11 PDF pages,readable text inspected for panel/instructions/specifications. No complete revision or visual audit claimed. Own sources establish concurrent voice/reverb; no FV02 sibling specifications used. Power discrepancy and phantom wording remain explicit,not silently resolved. Product emphasizes reverb,while both manual feature lists mention undocumented delay.
+
+Remaining: actual unit revision/power label,current requirement,barrel/phantom direction,control image,memory/editor/loading,synth/acoustic/delay/live unknowns and condition-qualified prices. Ownership unknown. No files,dependencies,software or firmware downloaded/executed.
+
+[FV3-P]: https://flammainnovation.com/single.html?id=60
+[FV3-M]: https://flammainnovation.com/file/pdf?fileName=FV03_Manual_EN_V03_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj8KAXiq5AAckMBBCgMY607.pdf
+[FV3-O]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV03_Manual_EN_V01_2021.06.18_A.pdf?v=1671179013
+[FV3-I]: https://www.flamma.shop/pages/manual
+[FV3-S]: https://www.flamma.shop/products/flamma-fv03

@@ -1527,3 +1527,7 @@ research-commit-fv02:
 .PHONY: research-commit-fb200
 research-commit-fb200:
 	python3 scripts/research_tools.py commit-fb200
+
+.PHONY: research-commit-fv03
+research-commit-fv03:
+	python3 scripts/research_tools.py commit-fv03
