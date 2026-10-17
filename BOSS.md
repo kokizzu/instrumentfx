@@ -82,6 +82,16 @@ Checked 2026-10-18 against model-specific specifications and manufacturer suppor
 | I/O / input headroom | INPUT: nominal **−10 dBu**, maximum **+7 dBu**, **1 MΩ**. AUX IN: nominal **−20 dBu**, maximum **0 dBu**, **27 kΩ**. | [GT1B-S] |
 | I/O / output loading | Main outputs and PHONES: nominal **−10 dBu**. Main output impedance **1 kΩ**, recommended load **≥10 kΩ**; PHONES impedance **44 Ω**, recommended load **≥44 Ω**. Impedance is not headphone output wattage. | [GT1B-S] |
 
+### GT-1B — category inventory qualifications
+
+Checked 2026-10-18 against the original parameter guide, printed pages 8 and 12–16.
+
+| Field | Finding | Evidence |
+|---|---|---|
+| Processing / category choices | Counted from the type tables: **15 OD/DS**, **13 preamps**, **7 DELAY**, **8 REVERB-block choices** (including DELAY), and **7 PEDAL FX** (six wah types plus pedal bend). These are alternatives within blocks, not simultaneous-effect counts. The complete simultaneous ceiling remains unresolved. | [GT1B-P] |
+| Synth / acoustic-bass distinction | BASS SIM has **7 transformations**, including single-coil/humbucker to acoustic bass. AC BASS is also a preamp choice. This documents acoustic-bass functions; it does not establish acoustic-guitar simulation. | [GT1B-P] |
+| Processing / speaker and stereo restrictions | Bass speaker selector: **ORIGIN plus five cabinet choices**, with OFF separate. Guitar selector: **ORIGIN plus seven cabinet choices**, with OFF separate. Speaker simulation requires OUTPUT SELECT=LINE/PHONE. A mono effect or COSM amp after stereo delay cancels its stereo effect. | [GT1B-P] |
+
 
 ## GX-1B
 

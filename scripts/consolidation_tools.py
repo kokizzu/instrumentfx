@@ -1421,7 +1421,7 @@ def commit(model_id):
         print(research_tools.git('commit', '-m', 'research(zoom): qualify B2 FOUR pedal rhythm and tuner limits'))
         return
     if model_id == 'gt-1b':
-        print(research_tools.git('commit', '-m', 'research(boss): qualify GT1B approved supply and analog limits'))
+        print(research_tools.git('commit', '-m', 'research(boss): count GT1B categories and qualify acoustic bass routing'))
         return
     if model_id == 've-500':
         print(research_tools.git('commit', '-m', 'research(boss): distinguish VE500 processing ratings from USB format'))

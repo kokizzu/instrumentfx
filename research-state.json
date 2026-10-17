@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-1B",
-    "task": "Approved supply voltage/polarity and analog electrical ratings saved. Next fresh Shopee brand/series discovery and primary gap work; GT-1B full category/block ceiling, USB power, screen properties and qualified used pricing remain unresolved.",
+    "task": "GT-1B category alternatives, acoustic-bass simulation and cabinet/stereo restrictions saved. Next fresh Shopee discovery; unresolved GT-1B simultaneous ceiling, USB power, screen details and condition-verified used pricing.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57489,6 +57489,14 @@
         "https://support.roland.com/hc/en-us/articles/115005753443-GT-1B-Recommended-Power-Supply",
         "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications",
         "https://www.boss.info/global/products/gt-1b/specifications/"
+      ]
+    },
+    {
+      "model": "BOSS GT-1B",
+      "checked_date": "2026-10-18",
+      "finding": "Counted own manual type tables: 15 OD/DS,13 preamp,7 delay,8 reverb-block choices,7 pedal FX; seven bass simulator transformations include acoustic bass. Saved cabinet selector counts and LINE/PHONE/stereo routing restrictions. Whole-chain simultaneous ceiling remains unresolved.",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/GT-1B_parameter_eng02_W.pdf"
       ]
     }
   ],
