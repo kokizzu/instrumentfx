@@ -191,3 +191,13 @@ Official manual and block-diagram links resolve to license/download landing page
 | Processing / utility effects | [p7][VT4-OM] documents **four selectable strengths/settings each** for gate,low-cut and enhancer,using scene buttons. These support functions do not establish three additional freely assignable blocks. |
 
 No hardware setting was changed. USB stream rates,full routing concurrency,display,expression and import/editor support remain unresolved.
+
+### VT-4 — firmware and driver qualifications, 2026-10-17
+
+| Field | Verified revision/platform scope |
+|---|---|
+| Processing / firmware requirements | [System release history](https://www.roland.com/global/support/by_product/vt-4/updates_drivers/0d77b4ed-4e35-48d2-a18f-6c9bcbe57a69/): **1.02 (November2018)** adds constant pitch/formant conversion,robot-off-on-note-interruption and mute settings. This qualifies the preceding manual behavior;installed firmware is unknown. **1.03 (November2021)** fixes certain REVERB types failing to follow tempo from MIDI IN realtime messages. Updating requires USB power;ordinary battery operation does not imply battery-powered updates. |
+| Editor / Windows driver distinction | [Windows driver requirements](https://www.roland.com/global/support/by_product/vt-4/updates_drivers/7d049cea-58be-4dcc-acf1-cef06e3c1fe6/): **1.0.1 for Windows11/10 64-bit;1.0.0 for Windows10 32-bit**. Windows ARM,virtual Windows,Windows on Mac and Windows10 Mobile are explicitly unsupported. Automatic driver retrieval is described;no installation performed. These are driver limits,not editor support. |
+| Editor / dated macOS driver matrix | [Roland matrix,updated2026-09-16](https://www.roland.com/global/support/support_news/25090811m1/):VT-4 Hardware & Driver **Yes(Download) on macOS15 Sequoia and26 Tahoe;Under Testing on27 Golden Gate**. Dedicated driver required;the Exclusive Application row is a dash,not evidence for a full editor. No blanket future-version guarantee. |
+
+USB stream-rate support was not recovered from the checked driver landing pages. No firmware,driver or archive was downloaded;no device was updated.

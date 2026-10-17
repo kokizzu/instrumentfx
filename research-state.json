@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Roland VT-4",
-    "task": "VT-4 MIDI4-noteharmony/KEY-AUTOPITCH override,±1octave,single-vocalist,bypass/mute andutility4settings saved. Next fresh Shopee discovery other exact vocal/bass/guitar hardware or VT-4 driver documentation for USBstreamrates;no downloads. Fullconcurrency/display/expression/imports/editor/currentoffers remain.",
+    "task": "VT-4 FW1.02minimum for mute/robot-hold/constantconversion,1.03reverbtempo fix anddatedWindows/macOSdriverlimits saved. USBstreamrates remain unverified;do not download archives. Next fresh Shopee discovery other vocal/bass/guitarseries orprimary VT-4 sample-rate FAQ;fullconcurrency/display/expression/imports/editor/qualifiedoffers remain.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery and legacy consolidation;no workflows/downloads/push."
   },
@@ -59052,6 +59052,34 @@
       "Imports/editor",
       "Condition/currentstock"
     ],
+    "downloads": false
+  },
+  "vt4_firmware_driver_20261017": {
+    "firmware_source": "https://www.roland.com/global/support/by_product/vt-4/updates_drivers/0d77b4ed-4e35-48d2-a18f-6c9bcbe57a69/",
+    "minimum_for_mute_robot_hold_constant_conversion": "1.02 Nov2018",
+    "tempo_reverb_fix": "1.03 Nov2021",
+    "update_power": "USBrequired;notbattery",
+    "windows_source": "https://www.roland.com/global/support/by_product/vt-4/updates_drivers/7d049cea-58be-4dcc-acf1-cef06e3c1fe6/",
+    "windows": {
+      "win11": "1.0.1",
+      "win10_64": "1.0.1",
+      "win10_32": "1.0.0",
+      "unsupported": [
+        "ARM",
+        "VM",
+        "WindowsonMac",
+        "Win10Mobile"
+      ]
+    },
+    "mac_source": "https://www.roland.com/global/support/support_news/25090811m1/",
+    "mac_matrix_date": "2026-09-16",
+    "mac_status": {
+      "15Sequoia": "YesDownload",
+      "26Tahoe": "YesDownload",
+      "27GoldenGate": "UnderTesting"
+    },
+    "editor": "Notestablished",
+    "usb_streamrates": "unresolved",
     "downloads": false
   }
 }
