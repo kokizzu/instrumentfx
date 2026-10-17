@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Hotone Ampero II MP-350",
-    "task": "Fresh Shopee brand/series discovery; reconcile accessible later firmware without repeating unavailable dynamic links; broader catalogue verification and preservation audits",
+    "model": "Discovery frontier",
+    "task": "Search other eligible guitar/bass/vocal manufacturer series and inspect exact hardware listings; continue remaining model gaps and legacy-preservation audits.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62974,5 +62974,31 @@
     ],
     "resolution": "MP350module/control applicability corroborated; exact serialThru instruction unresolved; prior Stage-copy wording retained",
     "next": "Fresh Shopee brand/series discovery; reconcile accessible later firmware without repeating unavailable dynamic links; broader catalogue verification and preservation audits"
+  },
+  "discovery_frontier_20261017_rp12_rp21_ax2": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"RP21\"",
+      "site:shopee.co.id \"Digitech\" \"RP12\"",
+      "site:shopee.co.id \"Korg\" \"AX2G\"",
+      "site:shopee.co.id \"Zoom\" \"GFX-2\"",
+      "site:shopee.co.id \"DigiTech\" \"RP-12\"",
+      "site:shopee.co.id \"DigiTech\" \"RP-21D\"",
+      "site:shopee.co.id \"Korg\" \"AX2\" efek",
+      "site:shopee.co.id \"Korg\" \"AX2G\" efek gitar"
+    ],
+    "result": "Both four-query batches returned empty search results; no exact hardware offer qualified, no model or price added.",
+    "rechecks": {
+      "queries": [
+        "site:shopee.co.id \"Zoom\" \"GFX-1\"",
+        "site:shopee.co.id \"Digitech\" \"BP80\"",
+        "site:shopee.co.id \"Rocktron\" \"Utopia\"",
+        "site:shopee.co.id \"Korg\" \"AX1B\""
+      ],
+      "result": "Earlier frontier themes; not counted as new searches. Only ZoomG3X search page with accessory and existing-model results, no qualified new hardware.",
+      "source": "https://shopee.co.id/search?keyword=zoom+g3x"
+    },
+    "limits": "Search-index scope only. Empty results do not establish model absence, eligibility, live availability or market exhaustion. No accessory/search-page price promoted.",
+    "next": "Search other eligible guitar/bass/vocal manufacturer series and inspect exact hardware listings; continue remaining model gaps and legacy-preservation audits."
   }
 }
