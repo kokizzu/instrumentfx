@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-5",
-    "task": "GP5firmware1.0.3manual controls,DCconnector andMIDI table saved; regional/globaldesktopeditingdescriptionconflict retained. Next ownmanual processing/synth/acoustic category audit, currentNAM-A2prerequisites andIRlimits; no siblingcounts.",
+    "task": "Continue GP-5 own-manual NR/PRE/DST/AMP census and reconcile 100+ total; inspect current NAM-A2 prerequisites and IR format limits. CAB/EQ/MOD/DLY/RVB counts and acoustic preamp distinction saved. Do not borrow siblings.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57654,6 +57654,14 @@
         "https://www.hotone.jp/manuals/valeton/GP-5.pdf",
         "https://www.hotone.jp/brands/valeton/products/gp-5",
         "https://www.valeton.net/product/gp-5/"
+      ]
+    },
+    {
+      "model": "Valeton GP-5",
+      "checked_date": "2026-10-18",
+      "finding": "Firmware 1.0.3 manual category audit saved: CAB20 factory plus20user IR, EQ5 MOD11 DLY10 RVB10. AC Pre1/2 are acoustic preamps, not established body simulators. Bypass Trail not preset spillover. AMP census and total reconciliation remain open.",
+      "sources": [
+        "https://www.hotone.jp/manuals/valeton/GP-5.pdf"
       ]
     }
   ],

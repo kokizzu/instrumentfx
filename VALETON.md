@@ -753,6 +753,16 @@ Checked 2026-10-18. Manufacturer-authored Japanese manual hosted by regional dis
 | Editor / regional description conflict | Regional page lists **Valeton Suite1.0.9 for Mac/Windows** as editor/librarian with parameter editing,file management and updates; global GP-5 page describes desktop file management/firmware updates. Preserve both scopes; full desktop-edit behavior was not tested. Regional firmware1.0.6/mobile1.0.4 listing is not proof of the latest release or NAM-A2 prerequisites. | [Regional software section](https://www.hotone.jp/brands/valeton/products/gp-5); [Global product](https://www.valeton.net/product/gp-5/) |
 
 
+### GP-5 — firmware 1.0.3 category audit
+
+Checked 2026-10-18 against the [manufacturer-authored regional manual](https://www.hotone.jp/manuals/valeton/GP-5.pdf), pp28–35. Counts below enumerate table entries, not simultaneous blocks or proof of current firmware contents.
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / category choices | **CAB: 20 factory cabinets plus 20 user IR slots; EQ: 5; MOD: 11; DLY: 10; RVB: 10.** Cabinet entries comprise ten small, eight large and two bass cabinets. EQ comprises Guitar EQ 1/2, Bass EQ 1/2 and Mess EQ. The AMP census and reconciliation with the advertised 100+ total remain open. |
+| Processing / acoustic and synthesis distinction | **AC Pre1 and AC Pre2** are acoustic preamps based on AER Colourizer 2, with different EQ frequency ranges; they do not establish electric-to-acoustic body simulation. The reviewed modulation/delay/reverb tables do not establish a dedicated synth engine. Complete synth/acoustic coverage remains under audit. |
+| Processing / delay and reverb trails | DLY and RVB entries expose **Trail** for tails when the effect is bypassed. This does not establish tails across preset changes. |
+
 ## GP-50
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
