@@ -1859,3 +1859,7 @@ research-commit-rp200:
 .PHONY: research-commit-me50b
 research-commit-me50b:
 	python3 scripts/research_tools.py commit-me50b
+
+.PHONY: research-commit-g2four-market
+research-commit-g2four-market:
+	python3 scripts/research_tools.py commit-g2four-market

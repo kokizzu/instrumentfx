@@ -510,6 +510,17 @@ Checked2026-10-17 through indexed exact-item text only;not live checkout or stoc
 
 Used condition-confirmed quote remains unknown. These asks do not establish a market range or completed sales.
 
+### G2 FOUR — additional exact offers and voucher disagreement
+
+Checked2026-10-18; cached asks,not live checkout or condition-verified new/used prices.
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / additional adapter-bundle ask | **Rp3,080,000**, [sarana musik,shop64556181/item17799362874](https://shopee.co.id/Efek-Gitar-Zoom-G2-Four-Multi-Effect-Processor-Zoom-G2-Four-with-Adaptor-Original-i.64556181.17799362874),KotaJakartaBarat. Two-week searchbody andfive-day directcache agreeonamount. Title sayswithoriginaladapter; actualbundle/condition,warranty,variant,shipping/tax andcheckoutunverified. Relative tomorrowdelivery andnoHabis marker do notconfirmstock. |
+| IDR / existing official-shop voucher disagreement | [Zoom Official Shop,348182890/14998144599][ZOOM-G2-FOUR-S]: **Rp3,370,474 withvoucher** inthree-week directcache versus **Rp3,490,848 withvoucher** inlast-month searchbody. Bothshow1%promotion afterRp1.5millionspend; donot deductitagain or inferapricehistorytrend. Preserve olderRp3,410,599/Rp3,490,848 observationswiththeirdates. AD-16E intitle; exactcondition,eligibility,stock,warranty anddeliveredtotalunknown. |
+
+Rp10,000late-delivery compensation isnot anupfrontdiscount. No sellercontact ordownloads. G1next/B1next discovery didnotresolveanexacthardwareoffer; currentG2 FOUR isnot originalG2.
+
 ## G2X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
