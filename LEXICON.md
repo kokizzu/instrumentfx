@@ -139,3 +139,30 @@ Manufacturer-hosted 18-0446V-F combined MX400/MX400XL manual read as browser tex
 [M400-S]: https://lexiconpro.com/en/product_documents/mx400_manualpdf
 [M400-P]: https://lexiconpro.com/en-US/products/mx400/downloads_and_docs
 [M400-O]: https://shopee.co.id/Lexicon-MX400-Original-Dual-Stereo-Vocal-FX-i.355992277.29037104080
+
+## MPX100
+
+Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX200. [Manufacturer User Guide onmirror](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),55pages,©1998,part070-11935. Official product/manual pages403;webtext only,no download/visualaudit.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No builtin pedal;¼TRS momentary tap/bypass. MIDI-learn control;analogcontinuousEXP/toe unknown. |
+| Controls | Text-derived **7rotary/0integratedfoot/3buttons**:Input,Output,Mix,Adjust,EffectsLvl/Bal,Program,Variation;Tap,Bypass,Store. |
+| Display | StatusLEDs;screen diagonal/color/touch unknown. |
+| Processing / choices | Single/dual programs;dualparallel,cascade,monosplit,dualmono. Up to2independent effects;categorysubtotals unverified. |
+| Presets | **240presets+16usermemories**;not256editablepatches. |
+| Synth / acoustic | Pitch/detune documented;synth/acousticconversion unknown. |
+| Dimensions / weight | **483W×45H×102D mm;0.959kg**,published19×1.75×4inches. |
+| I/O | Unbalanced¼L/Rinput/output;RCA S/PDIFoutputonly;DIN MIDIin/out-thru;¼TRSfootswitch;power. Rightinput/output formono;leftonlystereophones atmodestvolume whenrightempty. |
+| Power | **9VAC externaltransformer**;not9VDC. Currentrating,battery/USBpower unknown;DCpolarityN/A. |
+| Software | MIDIlearn/SysEx documented;official fulleditorOS,driver/updater unknown. |
+| IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
+| Looper / drums / live | Looper/drums/scenes unknown;tap/audio-inputtempo/MIDIclock,bypass/mute options. |
+| Instrument scope | Direct guitar input500kΩ;vocal/spoken-voice processing documented. Bass unclassified;noXLR/phantom inferred. |
+
+### MPX100 — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used / new | Condition-qualified prices unknown | — |
+| Condition unverified / Imc Genteng Kali,Kota Surabaya | **Rp3.500.000**;index4months,checked2026-10-17;directopencachemiss. **LayananTidakTersedia** means deliveryunavailable,not confirmed soldout. Currentstock,variant,adapter/bundle,warranty,voucher,shipping/tax unknown. | [327115965/24443061649](https://shopee.co.id/orinal-LEXICON-MPX100-reverb-delay-nyesss-i.327115965.24443061649) |

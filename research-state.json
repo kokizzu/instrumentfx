@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 280,
+  "active_model_count": 281,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 280,
+  "canonical_root_model_count": 281,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "280uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.MIDIverbIIIguitar/vocal,conditionriskoffer.",
+  "count_reconciliation": "281uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.MPX100guitar/vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Lexicon MPX100",
-    "task": "MIDIverbIII configuration delay/reverb restrictions andcontrol count basis saved. Next verify originalLexiconMPX100 manual for exactsavedShopeeoffer;notMPX110/MX200;preserve deliveryunavailable vsstockunknown.",
+    "task": "MPX100 added with original1998guide,9VACpower,headphonesrestriction andqualifiedindexedoffer. Next verifybank/variation breakdown anddualrouting limits;do notborrowMPX110/MXseries.",
     "next_models": [],
-    "after_queue": "280partialmodels;all117legacy pathsaccountedfor;no downloads/workflows/push."
+    "after_queue": "281partialmodels;all117legacy pathsaccountedfor;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23989,7 +23989,8 @@
     "Lexicon": [
       "MX200",
       "MX300",
-      "MX400"
+      "MX400",
+      "MPX100"
     ],
     "Alesis": [
       "MicroVerb 4",
@@ -24335,7 +24336,8 @@
     "LEXICON.md": [
       "MX200",
       "MX300",
-      "MX400"
+      "MX400",
+      "MPX100"
     ],
     "ALESIS.md": [
       "MicroVerb 4",
@@ -24357,7 +24359,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 230,
+      "record_count": 231,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24369,9 +24371,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 52,
+      "record_count": 53,
       "vocal_only_count": 22,
-      "combined_instrument_count": 30,
+      "combined_instrument_count": 31,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41329,13 +41331,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 280,
-    "canonical_root_models": 280,
+    "unique_brand_model_pairs": 281,
+    "canonical_root_models": 281,
     "legacy_only_models": 0,
-    "guitar_view_models": 230,
+    "guitar_view_models": 231,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 52,
+    "vocal_view_models": 53,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41615,6 +41617,7 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
+      "Lexicon::MPX100",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Alesis::MIDIverb III",
@@ -41784,6 +41787,7 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
+      "Lexicon::MPX100",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Alesis::MIDIverb III",
@@ -43923,6 +43927,13 @@
     },
     "Lexicon::MX400": {
       "link": "LEXICON.md#mx400",
+      "source_files": [
+        "LEXICON.md"
+      ],
+      "finding_files": []
+    },
+    "Lexicon::MPX100": {
+      "link": "LEXICON.md#mpx100",
       "source_files": [
         "LEXICON.md"
       ],
@@ -57027,5 +57038,17 @@
     "chorus": "Output1–6/13/14;effects-only7–12/15;paired1–6vs7–12layouts",
     "controls": "3rotary/0foot/16buttons textderived;10function+Value2+ProgramStoreEditBypass4;novisualaudit",
     "modulation": "8MIDIcontrollersx6targets+Off;notaudioalgorithmcount"
+  },
+  "mpx100_primary_20261017": {
+    "source": "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf",
+    "identity": "55pages ©1998Lexicon part070-11935;manufacturer-authoredmirror;officialproduct/manual403",
+    "offer": "https://shopee.co.id/orinal-LEXICON-MPX100-reverb-delay-nyesss-i.327115965.24443061649",
+    "condition": "unknown",
+    "stock": "unknown;deliveryunavailable",
+    "idr": 3500000,
+    "region": "KotaSurabaya",
+    "seller": "ImcGentengKali",
+    "access": "index4months;directcachemiss",
+    "gaps": "Per-categorycounts,editorOS,screen,current/powersupplyrating,IRNAMcapture,synthacoustic,looperdrums/currentoffers"
   }
 }
