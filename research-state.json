@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 Helix Stadium XL Floor",
-    "task": "Own dimensions and Proxy limits saved. Continue primary category inventory, IR capacity, power label and snapshots/routing; then resume exact Shopee discovery of missing models.",
+    "task": "IR storage and snapshots saved. Next inspect official https://line6.com/helix-stadium-models/ category inventory; power label and remaining routing limits unknown. Then resume exact Shopee discovery.",
     "next_models": [],
     "after_queue": "Market coverage and legacy consolidation remain incomplete; no downloads or workflows."
   },
@@ -49569,6 +49569,16 @@
         "https://manuals.line6.com/en/helix-stadium/live/clones"
       ],
       "remaining": "Power label, current category inventory, IR capacity, snapshots/routing, DSP ceilings and condition-qualified offers."
+    },
+    {
+      "model": "Line 6 Helix Stadium XL Floor",
+      "checked_date": "2026-10-17",
+      "finding": "Cab chapter: 2048 WAV IRs, internally 2048-sample/48kHz/32-bit float mono; dual Cab/IR block stereo behavior. Eight snapshots, conditional IR-file recall, bypass/model restrictions and trails documented.",
+      "sources": [
+        "https://manuals.line6.com/en/helix-stadium/live/cab-blocks",
+        "https://manuals.line6.com/en/helix-stadium/live/snapshots"
+      ],
+      "remaining": "Power label, category choices, routing and DSP ceilings, qualified offers."
     }
   ],
   "discovery_cross_brand_bass": {

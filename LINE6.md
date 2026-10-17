@@ -1059,12 +1059,12 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Simultaneous blocks | Manual describes **46 processing positions in Super Serial template**; exact DSP/model limits remain separate. Do not assume46 heavy amps. Agoura amp models and HX-compatible effects; complete category counts **?** [Presets][SX-M], [Blocks][SX-B] |
 | Factory / user memory | **512 initially empty user locations**, separate protected factory folder; factory-filled count/combined total **?**. Up to122 setlists with1–128 aliases each;aliases do not add independent preset storage. [Presets][SX-M] |
 | Synth / acoustic simulation | Pitch/Synth category documented; exact synth and acoustic-simulation algorithms/limits **?** [Blocks][SX-B] |
-| IR / NAM / capture | Cab IR import documented. **Proxy** amp, amp+cab, preamp and distortion clones, introduced in firmware 1.3. Library **2,048 clones**; up to **4 per preset, 2 per main path**, subject to DSP. All clone blocks are mono and sum preceding stereo. Creation requires Internet access and a signed-in Line 6 account; native/converted NAM **?**. [Clones][SX-C], [Presets][SX-M] |
+| IR / NAM / capture | **2,048 user IRs**, WAV import; processed as 2,048-sample, 48 kHz, 32-bit float mono. Each Cab block holds one or two cabs/IRs; one sums input to mono, two preserve stereo input/output. [Cab IRs][SX-I]. **Proxy** amp, amp+cab, preamp and distortion clones, introduced in firmware 1.3. Library **2,048 clones**; up to **4 per preset, 2 per main path**, subject to DSP. All clone blocks are mono and sum preceding stereo. Creation requires Internet access and a signed-in Line 6 account; native/converted NAM **?**. [Clones][SX-C], [Presets][SX-M] |
 | Audio/control I/O | Two instrument inputs;XLR mic,+48V;4¼″ send/return loops;stereoXLR and¼″ mains;stereo phones;two sharedCONTROL jacks;DIN MIDI in/out-thru;RCA S/PDIF in/out;Nexus expansion;microSD;USB-A Ethernet adapter option;USB-C audio/editor;grounded IEC. Exact remaining connector wiring/sizes **?**. Sends impedance-balanced,returns unbalanced. [Rear panel][SX-R] |
 | Power / battery / USB | Internal supply,grounded IEC;voltage/frequency/draw **?**,DC barrel polarity N/A. Battery/USB-powered operation **?** [Rear panel][SX-R], [Product][SX-P] |
 | Editor platforms | **Helix Stadium application1.4**,macOS14+ orWindows11 64-bit;Wi-Fi/USB editing. Requires devicefirmware≥1.1;Showcase requires≥1.2 app/firmware. Drivers/updaters andStadiumNativeplugin are separate. Linux/mobile full editor **?**. Support tips still say USB editing is unavailable; the version 1.4 application manual explicitly supports it. [Application][SX-A], [Support tips][SX-K] |
 | USB audio | **8-in/8-out,24-bit**. WindowsASIO supports44.1/48/88/96kHz (manual writes88,not88.2);macOS driverless native48kHz. Apple/Android class-compliant audio doesnot establish mobileeditor support. USB-C only;DI/reamp andMIDI. [USB audio][SX-U] |
-| Looper / routing / live features | One Deluxe,1Switch orShuffle per preset. Deluxe/1Switch **120s mono/60s stereo fullspeed**,double at halfspeed;Shuffle60/30s,no halfspeed. Acrosspresets requires same model,mono/stereo andpath. Audio cleared atpoweroff. Showcase automation/playback distinct from drum machine;drums **?** [Loopers][SX-L] |
+| Looper / routing / live features | One Deluxe,1Switch orShuffle per preset. Deluxe/1Switch **120s mono/60s stereo fullspeed**,double at halfspeed;Shuffle60/30s,no halfspeed. Acrosspresets requires same model,mono/stereo andpath. Audio cleared atpoweroff. **8 snapshots per preset** recall bypass (except Looper), assigned parameters, commands and optional tempo, without rearranging blocks or replacing amp/effect models. Showcase automation/playback distinct from drum machine; drums **?**. [Snapshots][SX-S], [Loopers][SX-L] |
 | Storage / practical restrictions | Rear manual says microSD soldseparately andrequired forShowcase/backups;QuickStart says cardpre-inserted andproduct says32GBremovable. Retain bundle/document conflict;actualIndonesianoffer inclusion **?**. [Rear panel][SX-R], [Quick Start][SX-Q], [Product][SX-P] |
 
 ### Stadium XL — separate IDR evidence
@@ -1078,7 +1078,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 
 ### Stadium XL provenance and next checks
 
-Online manual landing identifies **Rev E,v1.4.0**,while navigation retains earlierrevision labels. These are dated documentation observations,not proof that listedhardware runs1.4. Only citedsections were read;no whole-manual review claimed. No downloads orsoftware execution. Remaining: power label, current category counts, IR capacity, snapshots/routing, DSP limits and condition-qualified offers. OriginalFloor andStadiumFloor values do not fill XL gaps.
+Online manual landing identifies **Rev E,v1.4.0**,while navigation retains earlierrevision labels. These are dated documentation observations,not proof that listedhardware runs1.4. Only citedsections were read;no whole-manual review claimed. No downloads orsoftware execution. Remaining: power label, current category counts, further routing restrictions, DSP limits and condition-qualified offers. OriginalFloor andStadiumFloor values do not fill XL gaps.
 
 [SX-P]: https://line6.com/helix-stadium/?locale=en_UK
 [SX-T]: https://manuals.line6.com/en/helix-stadium/live/top-panel-and-footswitches
@@ -1100,3 +1100,12 @@ The support tips page says empty user presets do not send automatic MIDI program
 
 [SX-K]: https://kb.line6.com/helix-stadium-tips-and-tricks
 [SX-C]: https://manuals.line6.com/en/helix-stadium/live/clones
+
+### Cab IR and snapshot restrictions
+
+IR file selection can be stored per snapshot when the Cab IR browser’s Snapshot Control option is enabled (off by default). This does not establish snapshot replacement of amp/effect models. Deleting an IR used by a preset leaves its tab UNRESOLVED. Large IR imports can lengthen the next startup while indexing. Older pre-3.50 Helix/HX Hybrid Cabs are converted on import and can sound different. [Cab IRs][SX-I]
+
+Snapshot edits are retained during snapshot changes by default; enabling Discard Edits restores saved values instead. Save before changing snapshots to retain such edits. Delay, reverb and FX-loop Trails must be enabled for the documented snapshot spillover. Snapshot bypass changes can alter how a shared stomp assignment toggles multiple blocks. [Snapshots][SX-S]
+
+[SX-I]: https://manuals.line6.com/en/helix-stadium/live/cab-blocks
+[SX-S]: https://manuals.line6.com/en/helix-stadium/live/snapshots
