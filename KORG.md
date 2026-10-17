@@ -113,6 +113,17 @@ Checked 2026-10-18.
 
 Both are exact AX3000G hardware asks. New/used status, working state, selected variation, adapter contents, warranty/import region, authenticity, shipping/tax and checkout total remain unverified. BILLY’s up-toRp10.000 late-arrival compensation is not a price discount. Historical asks, not current available ranges or completed sales.
 
+### AX3000G — output compensation and pedal recall
+
+Checked 2026-10-18 against [own manual pp6,9,12–13,27–28][AX-M].
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / digital output level | GLOBAL **DOUT LVL** separately adjusts optical S/PDIF level: **−12, −6, 0, +6, +12 dB**. Rear LEVEL controls analog outputs/headphones; do not treat it as the documented digital-level control. |
+| Routing / destination compensation | **AP1/AP2/AP3** compensate amp-model output for different guitar amplifiers; **Ln** is specified for recording, S/PDIF or a power-amp input. The eight drive models are unaffected; compensation also does not apply with Drive/Amp off. This is not evidence of a physical output-level switch. |
+| Expression / program-change behavior | Actual pedal position applies immediately for **VOLUME, DELAY INPUT, REVERB INPUT**, or the same target as the previous program. Otherwise the saved program value applies until the pedal moves. |
+| Routing / selected pre-effect order | VOX WAH, AUTO WAH and U-VIBE/PHASE expose **PRE/POST** placement relative to Drive/Amp. This is a specific placement option, not unrestricted chain reordering. |
+
 <!-- comparison evidence ends -->
 
 Other observations checked2026-10-17: [Hope Music, Kota Bandung,703817770/21944834396](https://shopee.co.id/Efek-Gitar-Korg-AX3000G-i.703817770.21944834396) displays Rp2,200,000 with voucher and three unresolved variations; advertised150k voucher threshold1m, eligibility/base price/variant/condition/stock/bundle unknown. Excluded from used/new exact-price projection. [studio_musik_gema, Kab. Blitar,102019323/25663831731](https://shopee.co.id/efek-gitar-second-korg-ax3000g-ax1500g-pod-floor-plus.-bonus-tas-effect-guitar-ax-3000g-1500g-3000-1500-bekas-normal-bukan-zoom-nux-mg-valeton-line-6-moer-i.102019323.25663831731) is sold out, four variations across multiple models, Rp2m–2.5m with bag claim; exact AX3000G selection unresolved, not a qualified model price.

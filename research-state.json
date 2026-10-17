@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Korg AX3000G",
-    "task": "Commit exact calibration sequence and two distinct qualified asks. Next primary review of remaining AX3000G electrical/routing restrictions or fresh guitar-series discovery; no repeated seller/census facts.",
+    "task": "Commit output compensation, digital level, pedal recall and selected PRE/POST routing. Next fresh Shopee discovery of a different guitar multi-effects series; AX3000G current/polarity remain open, do not repeat resolved routing.",
     "next_models": [],
-    "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
+    "after_queue": "335 active records partial;117 legacy compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57304,6 +57304,14 @@
         "https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf",
         "https://shopee.co.id/Efek-Gitar-Korg-Toneworks-AX3000G-i.323538241.43013568151",
         "https://shopee.co.id/efek-gitar-digital-korg-ax3000g-mulus-normal-adaptor-original-i.6880038.3740596745"
+      ]
+    },
+    {
+      "model": "Korg AX3000G",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual resolves optical DOUT LVL five steps, amp-destination compensation scope excluding drive/off, target-dependent pedal recall and selected pre-effect PRE/POST placement. Current/polarity still unverified; no unrestricted reorder or output hardware switch inferred.",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf"
       ]
     }
   ],

@@ -604,7 +604,7 @@ def main():
         if mode == 'commit-b2-followup':
             message = 'research(zoom): qualify B2 FOUR dated macOS and DAW compatibility'
         if mode == 'commit-ax3000g':
-            message = 'research(korg): qualify AX3000G calibration and separate hardware asks'
+            message = 'research(korg): qualify AX3000G output compensation and pedal recall'
         if mode == 'commit-pandora':
             message = 'research(korg): qualify Pandora stomp oscillator and filter controls'
         if mode == 'commit-vl3x':
