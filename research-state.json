@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP200",
-    "task": "RP200 support references saved; remaining fields explicit. Resume BOSS ME-8 exact Shopee item discovery, then own-model manual if resolved.",
+    "model": "BOSS ME-8",
+    "task": "Exact Shopee item resolved from HUTAURUK storefront: shop190993829/item17255720607, historical Rp2500000 SECOND ask; direct item cache miss. Next verify own BOSS/Roland manual before adding active model.",
     "next_models": [],
-    "after_queue": "Resolve BOSS ME-8 exact Shopee item if possible, then continue brand/series discovery. AX100G, ME-30, GT-5 and RFX-2000 retain deferred gaps. No downloads, workflows or push."
+    "after_queue": "Continue brand/series Shopee discovery. Preserve RP200, AX100G, ME-30, GT-5 and RFX-2000 deferred gaps. No downloads, workflows or push."
   },
   "new_findings": [
     {
@@ -54142,5 +54142,35 @@
     "software": "https://digitech.com/software-downloads/",
     "finding": "Own-model AC adapter connector dimensions and regional 120V supply preserved. No RP200 software directory entry; no universal negative editor claim. General discontinued-software OS limitation saved.",
     "remaining": "Actual current, battery/USB operation, visual/display, IR/NAM and condition-specific prices."
+  },
+  "discovery_me8_20261017": {
+    "model": "BOSS ME-8",
+    "checked_date": "2026-10-17",
+    "url": "https://shopee.co.id/BOSS-ME-8-SECOND-ORIGINAL-BAGUS-NO-MINUS-i.190993829.17255720607",
+    "shop_id": "190993829",
+    "item_id": "17255720607",
+    "seller": "HUTAURUK MUSIC",
+    "storefront": "https://shopee.co.id/charlijulian777",
+    "asking_idr": 2500000,
+    "condition": "Seller title explicitly SECOND; good/original/no-minus are unverified seller claims.",
+    "region": "Bekasi in indexed search category; direct item confirmation unavailable.",
+    "access": "Exact item URL resolved from storefront product hyperlink. Both parameterized and clean direct item attempts returned cache miss. Storefront text crawled two months ago; search snippet three months ago.",
+    "stock": "Unverified; storefront listing does not establish live stock.",
+    "qualifications": "Adapter, bundle, working state, authenticity, warranty, shipping, tax and voucher eligibility unresolved.",
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+        "reason": "RP300 power adapter accessory, not processor hardware."
+      }
+    ],
+    "search_pass": {
+      "models": [
+        "BOSS ME-8",
+        "DigiTech RP300",
+        "Zoom GFX-1",
+        "Korg AX300G"
+      ],
+      "limits": "ME-8 exact item link resolved. No additional exact processor resolved in limited search; not market absence."
+    }
   }
 }
