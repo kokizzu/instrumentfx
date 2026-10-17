@@ -1435,3 +1435,14 @@ Checked 2026-10-18; partial. Guitar multi-effects headphone amplifier, distinct 
 | IDR / conditional exact hardware ask | **Rp785.000, Dengan Voucher**; Salomo Musik, shop1776275/item26704878084, Kota Jakarta Utara. Direct two-week cached body says spendRp10.000/10% discount; cap, eligibility and whether displayed amount includes it unverified, so no second subtraction. Condition/new-versus-used, live stock, selected bundle, warranty region, shipping/tax and checkout unknown. Relative four-hour delivery is not stock proof; late compensation is not a discount. [Exact RH100](https://shopee.co.id/Valeton-RH-100-Rushead-Max-Pocket-Guitar-Headphone-Amp-Original-i.1776275.26704878084). |
 
 Technical sources: [English manufacturer](https://www.valeton.net/product/rushead-max/); [Chinese manufacturer](https://zh.valeton.net/product/rushead-max/). Linked [RH-100 V02 English manual](https://www.valeton.net/download/112/rm/16860/rh-100rushead-max_manual_en_v02_211025.pdf) identifies the exact model but yields no text; no manual-content or image inspection claimed. No files downloaded.
+
+### RH-100 — V02 manual copy and combined ambience
+
+Checked 2026-10-18. [Two-page V02 manual copy](https://www.scribd.com/document/702238767/RH-100-Rushead-Max-Manual-en-V02-211025) matches RH-100/Rushead Max guitar identity, manufacturer V02 filename, three module groups and68g value. Only original document-body text was used; uploader metadata and suggested content are not evidence.
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / combined ambience | Original AMBIENT instructions describe **delay, reverb, and combined delay+reverb**. The combination is one selected ambience mode; it does not establish another independent slot. MOD amount and AMBIENT amount are separately controlled. |
+| Power / unresolved table extraction | Original-copy text garbles AUX resistance, phones resistance and dimensions. Do not certify those numbers from OCR or silently adopt a mirror’s cleaned conversion. Manufacturer English/Chinese dimension-label conflict remains unresolved. USB charging does not establish USB audio, MIDI or operation while charging. |
+
+A [second mirror](https://manuals.plus/m/185037a00bd2a4db6dc63b0316b7e896d001043744755b36254364e31de13747) links an original two-page483.86KB PDF matching the official file-size listing, but its PDF yields no extracted text. Its generated diagram-description section is not used as a panel audit. Distributor Music Alliance exact product endpoint returned403. No file download or image inspection performed.

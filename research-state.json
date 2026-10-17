@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton Rushead Max RH-100",
-    "task": "New guitar model saved with exact voucher offer, own manufacturer3/3/3module choices and dimension/runtime conflicts. Next readable exact RH100 manual for controls/ports/power/memory; do not substitute RH101 or old Rushead. Continue other discovery if primary inaccessible.",
+    "task": "RH100 original V02 copy confirms combined ambience; electrical/dimension OCR remains garbled, generated mirror panel text excluded. Next independent Shopee brand/series discovery or readable primary records for remaining models; no repeated identical unreadable PDF retries.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57775,6 +57775,15 @@
         "https://www.valeton.net/product/rushead-max/",
         "https://zh.valeton.net/product/rushead-max/",
         "https://shopee.co.id/Valeton-RH-100-Rushead-Max-Pocket-Guitar-Headphone-Amp-Original-i.1776275.26704878084"
+      ]
+    },
+    {
+      "model": "Valeton Rushead Max RH-100",
+      "checked_date": "2026-10-18",
+      "finding": "Exact V02 original manual copy confirms combined delay+reverb ambience and separate amount controls; garbled electrical/dimension OCR not adopted. Mirror-generated panel description excluded.",
+      "sources": [
+        "https://www.scribd.com/document/702238767/RH-100-Rushead-Max-Manual-en-V02-211025",
+        "https://manuals.plus/m/185037a00bd2a4db6dc63b0316b7e896d001043744755b36254364e31de13747"
       ]
     }
   ],
