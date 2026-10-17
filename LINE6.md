@@ -874,11 +874,11 @@ Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026
 | Factory / user memory | **24 scenes=4folders×6** with2.01;each stores6FX memories,3active. Factory examples;manual/autosave available. Not24user+24preset. | [FAQ][M9-Q];[Pilot PDF pp5–7][M9-M] |
 | Synth / acoustic | Shared guide explicitly covers M9:Octisynth,Synth-O-Matic,AttackSynth,SynthString,Growler;BassOctaver expressly suitable for bass. Acoustic simulator unverified. | [FXParameters §§3•6,4•8–10][M9-F] |
 | Dimensions / mass | FAQ:**10.5L×7W×3H inches;2.3lb**. Axes/weight retained exactly as manufacturer claim;physical corroboration pending. | [FAQ][M9-Q] |
-| I/O | Unbalanced instrument-level¼-inch mono L/R input/output pairs,2¼-inchEXP,MIDI IN/OUT,power. SysEx scenes;other ports unverified. | [FAQ][M9-Q];[Pilot PDF p4][M9-M] |
-| Power / battery / USB | FAQ specifies **PX-2 only,9V2000mA,2.5mm,center-positive wording;no batteries**. FAQ omits AC/DC type;do not interpret polarity wording as proof of DC compatibility. Actual draw/USB operation unknown. | [FAQ][M9-Q] |
+| I/O | Unbalanced instrument-level¼-inch mono L/R input/output pairs,2¼-inchEXP,MIDI IN/OUT,power. SysEx scenes;MIDI PC0–23 selects scenes,CCs toggle loaded A/B effects;individual model selection/assignment via MIDI not implemented. Looper levels are expression-only,not MIDI CC. Other ports unverified. | [FAQ][M9-Q];[Pilot PDF p4][M9-M];[Advanced §§A•1–4][M9-A] |
+| Power / battery / USB | FAQ specifies **PX-2 only,9V2000mA,2.5mm,center-positive wording;no batteries**. M9 FAQ omits AC/DC type,but Line6 identifies the same named PX-2 as an AC supply: **9VAC2000mA supply specification** supported by combining named-adapter sources. DC polarity is inapplicable to AC;FAQ center-positive wording retained as conflict,not DC compatibility. Actual draw/USB operation unknown. | [FAQ][M9-Q];[Line6 PX-2 identification][M9-P] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
 | Editor / software | Line6Monkey updater;MIDI scene backup/restore. Editor/platform/current compatibility unknown. | [Pilot PDF p8][M9-M] |
-| Looper / drums / live | **Mono28s/56s halfspeed** perPilot vs **30s/60s** FAQ:unresolved conflict. Overdub,undo/redo,reverse. PRE/POST selectable;Pilot explanatory paragraph contradicts its before/after label,so effect-on-loop behavior needs Advanced audit. Stereo collapses at mono effect. Chain1→2→3 orreverse;DSP bypass trails. Tuner bypasses FX+loop,selectablemute. Drums unknown. | [Pilot PDF pp6–8][M9-M];[FAQ][M9-Q] |
+| Looper / drums / live | **Mono28s/56s halfspeed** perPilot andAdvanced§5•1 vs **30s/60s** FAQ:unresolved conflict. Overdub,undo/redo,reverse. Loops cannot be archived;only current session retained. MIDI looper control leaves sixFX switches available. PRE/POST selectable;Pilot before/after label conflicts with its playback-effect explanation,andAdvanced§5•3 repeats PRE=noFX/POST=FX wording. Hardware behavior unresolved;do not silently reverse labels. Stereo collapses at mono effect. Chain1→2→3 orreverse;DSP bypass trails. Tuner bypasses FX+loop,selectablemute. Drums unknown. | [Pilot PDF pp6–8][M9-M];[Advanced §§5•1–3,A•1–4][M9-A];[FAQ][M9-Q] |
 
 ### Separate IDR hardware offers
 
@@ -897,3 +897,5 @@ Own RevC Pilot(8PDFpages),v2.0 Advanced guide RevA and model-specific FAQ used;n
 [M9-Q]: https://kb.line6.com/m9-stompbox-modeler-faq
 [M9-F]: https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5
 [M9-O]: https://shopee.co.id/namin_music
+
+[M9-P]: https://kb.line6.com/line-6-four-button-stompbox-pedal-faqs

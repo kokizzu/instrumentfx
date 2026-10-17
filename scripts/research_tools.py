@@ -335,7 +335,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-m9':
-            message = 'research(line6): add M9 with manual and FAQ conflicts preserved'
+            message = 'research(line6): corroborate M9 AC supply and qualify looper MIDI limits'
         if mode == 'commit-m5':
             message = 'research(line6): enumerate M5 models and document bass suitability'
         if mode == 'commit-ax3g':

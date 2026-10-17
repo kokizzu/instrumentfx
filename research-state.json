@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 M9 follow-up",
-    "task": "M9 added196threcord. Resolve own Advanced guide PRE/POST loop behavior and official PX2 AC/DC source;exactNaminMusic hardwareitem stillmissing. Commit findings before nextmodel.",
+    "model": "Fresh discovery or M9 exact Shopee item",
+    "task": "M9 Advanced MIDI/loop restrictions and namedPX2 AC corroboration saved. PREPOST source contradiction remains documented;seek new evidence rather than repeat same manuals. Continue unrecorded guitar/bass/vocal hardware discovery.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery;no downloads/workflows."
+    "after_queue": "No downloads/workflows;commit each model before next."
   },
   "new_findings": [
     {
@@ -40529,7 +40529,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 M9 follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery or M9 exact Shopee item."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49077,6 +49077,16 @@
       "source": "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5",
       "finding": "2011model-specific sharedguide enumerated19delay22mod30DIST26filter12rev=109. BassOctaver expresslygreatforbass enables sharedbass inclusion;LCD,synth/vowel architecture clarified. FourFXUnits text is sibling-oriented,not transferred to M5.",
       "remaining": "Dims/mass,powerpolarity/draw,screen diagonal/touch,import/editor/currentplatforms,qualifiedprice/stock;no repeatcategoryaudit withoutrevisionevidence."
+    },
+    {
+      "model": "Line 6 M9",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+        "https://kb.line6.com/line-6-four-button-stompbox-pedal-faqs"
+      ],
+      "finding": "Advanced5•1–3 corroborates28/56mono,nonarchivableloop,currentScene retained;MIDIloadedFXvsmodelselectionlimits and EXP-onlylooplevels. NamedPX2 identifiedasAC inLine6FAQ,combined withM9named9V2Arequirement;centerpositiveFAQconflictretained. PREPOST contradiction repeated inAdvanced,notresolved.",
+      "remaining": "No repeatmanualaudit ofPREPOST withoutnewsource/hardware. ExactM9item,weightcorroboration,screen,editor/imports,currentstock remain. Legacy migration/field gaps stillopen."
     }
   ],
   "discovery_cross_brand_bass": {
