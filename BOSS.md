@@ -1973,10 +1973,10 @@ Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Owne
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in/externalcontinuous/toeexpression unverified;CTL1,2 supportsoptionalFS-5U/FS-6/FS-7 switches. | [Product][VE5-P] |
-| K/F/B | Separate rotary/footswitch/buttoncounts pendingmanual/panelverification. | Unresolved |
+| K/F/B | **2rotary/0built-infootswitches/10buttons**,text-derived:SOUND+sideVOLUME;MENU,2cursor,EXIT,LOOP,3FAVORITE,EFFECT,HARMONY. POWERbutton additional. | [Officialmanual p9][VE5-PDF];[Originalmanual pp9,13 mirrored][VE5-COPY] |
 | Display | **16characters×2lines backlitLCD**;diagonal,color,touch unknown. | [Product][VE5-P] |
-| Processing / category choices | Sixcategories:Dynamics,PitchCorrect,Tone/SFX,Double/Harmony,Delay,Reverb. Simultaneousceiling/subtotals pending. | [Product][VE5-P] |
-| Factory / user memory | **50sounds total**;factoryfilled/userpartition pending. | [Product][VE5-P] |
+| Processing / category choices | Sixcategories:Dynamics,PitchCorrect,Tone/SFX,Double/Harmony,Delay,Reverb. Independentlyswitchableeffectcategories;exactmaximum notexplicitlycertified. PitchCorrect5types,Tone/SFX6types,reverb5types;delay1–4000ms. HarmonybuttonCUSTOM togglesmultiplechosencategories. | [Product][VE5-P];[Officialmanual pp16–17][VE5-PDF] |
+| Factory / user memory | **50soundlocations;01–30factory-filled**. ThreeFAVORITEA–Crecallassignments,not3additionalpatches. | [Product][VE5-P];[Originalmanual p13 mirrored][VE5-COPY] |
 | Synth / acoustic | Pitchcorrection,harmony,Distortion/Radio/Strobe;instrumentsynth/acousticsimulation unverified. | [Product][VE5-P] |
 | Dimensions / mass | **178W×108D×55H mm;460g includingbatteries**. Withmicstandholder+batteries:**178×159×55mm;700g**. | [Product][VE5-P] |
 | I/O | BalancedXLR/¼TRSmicinput,48Vphantom10mAmax;stereo3.5mmAUX;XLROUT;stereo3.5mmPHONES/LINE;¼TRSCTL1,2;9VDC. Internalmic. USB/MIDIabsentfromlistedports. | [Product][VE5-P] |
@@ -2000,3 +2000,10 @@ Officialproductreadaswebtext;manualsupport entry foundbutlicensepageexposesnodir
 [VE5-P]: https://www.boss.info/global/products/ve-5/
 [VE5-O]: https://shopee.co.id/Boss-VE-5-Vocal-Effect-Processor-VE5-VE-5-Efek-Vokal-i.394955725.3990824666
 [VE5-M]: https://www.boss.info/global/support/by_product/ve-5/owners_manuals/75037e37-9ce8-4785-916e-baf064be0270/
+
+### Original-manual access qualification
+
+OfficialVE-5_OM.pdf returnedsize-limit12638205bytes;indexedmanufacturertext pp9,16–17read. Supplementedmemory/FAVORITEdetails frommanufacturer-authored2012VE-5manual pp9,13 reproducedatScribd;identitymatchedVE-5title,controls,30/50memory and2012BOSScopyright. No relianceonmirror-generatedFAQ. No downloads orvisualpanelinspection.
+
+[VE5-PDF]: https://static.roland.com/assets/media/pdf/VE-5_OM.pdf
+[VE5-COPY]: https://www.scribd.com/document/467271239/VE-5-OM

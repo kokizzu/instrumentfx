@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-5 manual follow-up",
-    "task": "Find originalEnglishmanual toverifycontrols,memorypartition,simultaneouschain andlooplimitations;officialsupportlicensepage noPDFinwebtext. Manufacturer-authoredmirrorallowedafteridentitycheck. Commit before nextmodel.",
+    "model": "BOSS VE-5 loop and routing limits",
+    "task": "Use indexedofficialVE-5_OM.pdf pp8/15 tocheckPerform/Checkrouting,loopretention/soundchanges andexternalCTL. Controls/memory/categoryaudit saved;do not repeat.",
     "next_models": [],
     "after_queue": "FreshShopee discovery;no downloads/workflows."
   },
@@ -40598,7 +40598,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-5 manual follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-5 loop and routing limits."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49357,6 +49357,17 @@
       },
       "finding": "Ownmanual independent count;sharedFX oneinstance not38simultaneous;prepostdoesnotdouble. SynthTalkdynamics-triggeredvoice notproofpitchoscillator.",
       "remaining": "Display diagonal/color/touch,USBconnector/phones,DCpolarity/draw/batteryUSBpower,imports/currentOS,qualifiedcondition/liveoffers."
+    },
+    {
+      "model": "BOSS VE-5",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf",
+        "https://www.scribd.com/document/467271239/VE-5-OM"
+      ],
+      "access": "OfficialPDFsize-limit12638205bytes;indexedofficialpp9,16–17;manufacturer-authored2012mirrorpp9,13 memorydetail;notAIgeneratedFAQs.",
+      "finding": "2rotary0foot10buttons+power,textderived;50sounds30factoryfilled;3favoritesassignmentsnotextra. Pitch5ToneSFX6Reverb5,delay1–4000ms;CUSTOMmultipletoggle.",
+      "remaining": "Explicitsimultaneousceiling,looprouting/retention,polarity,screen diagonal/color/touch,imports/editor,conditionvariant/stock."
     }
   ],
   "discovery_cross_brand_bass": {
