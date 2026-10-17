@@ -22,7 +22,6 @@ K/F/B means rotary controls / main footswitches / separate buttons; encoder pres
 | I/O | 6.35 mm input;two6.35 mm L/R outputs;3.5 mm AUX and dedicated headphones;USB. Exact USB subtype and complete electrical details remain to reconcile with matching manual. |
 | Power | **DC9V center-negative,500mA**,manual pp1,29;requirement,not measured draw. Battery/USB-powered operation not established. |
 | Apps / practice | Windows/macOS editor;USB audio;90-second looper;100 rhythms. Current NAM update order and regional firmware matter. |
-
 | Bass capability | Own product explicitly supports guitar/bass/acoustic processing;shared bass inclusion,not performance certification. [Product,checked2026-10-17](https://www.sonicake.com/products/matribox) |
 | USB / electrical I/O | Manual p29:**USB2.0Type-C,44.1kHz16/24bit recording**;24bitA/D/A,110dB SNR(weighting unspecified). Input¼TS1MΩ;AUX⅛TRS10kΩ;L/R¼TS unbalanced1kΩ;phones⅛TRS47Ω. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) |
 | Looper / routing | Manual pp9–10:**Pre90s mono dry;Post45s stereo effected**. USBrecordDry/Wet perL/R;record−20…+20dB,monitor−20…+6dB;globalNoCAB independently bypasses cabinet peroutputside. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) |

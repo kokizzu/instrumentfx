@@ -715,7 +715,7 @@ def main():
         if mode == 'commit-compact-gp150-audit':
             message = 'audit(valeton): verify GP-150 shared rows and resolve provenance labels'
         if mode == 'commit-compact-matribox-audit':
-            message = 'research(sonicake): verify original Matribox bass and routing capabilities'
+            message = 'fix(sonicake): project Matribox manual routing rows into comparisons'
         if mode == 'commit-compact-gp5-audit':
             message = 'audit(valeton): verify GP-5 shared source and resolve historical references'
         if mode == 'commit-compact-gp50-audit':
