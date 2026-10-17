@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh bass/vocal Shopee discovery",
-    "task": "Search exact hardware leads by brand/series beyond current236 records. Check inventory to avoid duplicates; verify each eligible model from own primary documentation and commit before next. Retain SPX990 unresolved fields.",
+    "model": "Zoom RFX-1100",
+    "task": "Verify original Zoom product/manual architecture and guitar/bass/vocal routing. Exact item280277542/3778778559 Rp1.240.000 reopened; condition/stock unknown. Add eligible model only with own evidence and commit before next.",
     "next_models": [],
-    "after_queue": "Continue technical gaps and lossless migration; no downloads/workflows."
+    "after_queue": "Resolve Critical Mass exact item/eligibility, legacy bass mixed variants, technical gaps and migration; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -52737,5 +52737,53 @@
     "archive_mirror": "https://manualzz.com/doc/1969278/yamaha-spx900-digital-multi-effects-processor-user-manual",
     "archive_qualification": "Document body is a four-page Yamaha product-archive print dated 30/07/2009, not the owner manual despite page title. Ignore generated introduction/FAQ. Body claims up to five simultaneous effects. Its input impedance transcription says 50 ohms and dimensions label D/H is inconsistent with inch values; do not propagate without manual verification.",
     "remaining": "Read full controls/connections, p23–26 routing and Add-38/39 specifications. Check digital/remote ports omitted from archive, exact button count, factory fill, category totals, guitar/vocal scope and bass evidence. Then create model record and comparison rows; do not advance to SPX990 before model commit."
+  },
+  "discovery_bass_vocal_post_spx_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "Zoom B2.1u",
+      "Boss ME-50B",
+      "TC Helicon VoiceLive 2",
+      "DigiTech Vocalist",
+      "TC Helicon Critical Mass",
+      "DigiTech BP200",
+      "Zoom B9.1ut",
+      "Zoom B1X legacy",
+      "DigiTech Vocal300",
+      "Zoom RFX-1100"
+    ],
+    "scope": "Limited indexed Shopee Indonesia discovery, not exhaustive or evidence of absence. Current inventory deduplicated.",
+    "exact_leads": [
+      {
+        "model": "Zoom RFX-1100",
+        "url": "https://shopee.co.id/Efek-Vokal-ZOOM-RFX-1100-DIGITAL-i.280277542.3778778559",
+        "seller": "AGUNG MAKMUR ELEKTRONIK",
+        "seller_id": "280277542",
+        "item_id": "3778778559",
+        "idr": 1240000,
+        "region": "Kota Jakarta Barat",
+        "condition": "unknown",
+        "stock": "unknown; checkout not verified",
+        "bundle": "unknown",
+        "voucher": "No purchase discount verified; delayed-delivery compensation is not item discount",
+        "access": "Exact item reopened; last-week indexed body, no specification/condition description exposed",
+        "status": "Await own manufacturer architecture and instrument-scope verification before inventory addition"
+      }
+    ],
+    "unresolved_leads": [
+      {
+        "model": "TC-Helicon Critical Mass",
+        "url": "https://shopee.co.id/5h6fvtwung",
+        "idr": 3695000,
+        "access": "Five-month indexed shop snippet says Produk Baru; direct shop cache miss; exact seller/item unresolved. Not accepted as qualified model price."
+      },
+      {
+        "model": "Zoom B2.1u",
+        "url": "https://shopee.co.id/hopemusik",
+        "idr": 1699000,
+        "access": "Four-month indexed mixed G2.1Nu/G2.1u/B2.1u listing; current reopened shop no longer exposes it. No individual variant price assigned."
+      }
+    ],
+    "rejected": "DigiTech Vocalist/BP200 power supply is accessory; Bass Squeeze compressor and Bass Driver dedicated pedals excluded; B1XFOUR/VoiceLivePlay/VL3Extreme already recorded. Search-page reopening returned unrelated products, so do not treat indexed search grid as exact offer verification."
   }
 }
