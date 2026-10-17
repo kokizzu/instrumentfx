@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "AX100G acoustic compressor,Driveparameterunits andpedalcount wording saved. Continue exactmissingmodel discovery andremainingtechnicalverification.",
+    "task": "Pocket POD delay-combination,tuner persistence andusersave behavior saved. Continue missing-model exactShopee discovery andtechnicalverification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69638,5 +69638,19 @@
       "Product23parametersvsmanual23PEDALtypeswording"
     ],
     "discovery": "AX1G/AX2G/AX300G exactShopeesearchesunresolved"
+  },
+  "technical_followup_pocketpod_live_20261018": {
+    "date": "2026-10-18",
+    "source": "https://line6.com/data/l/0a06007212036468013d917d3a/application/pdf/Pocket_POD_Reference_Manual.pdf",
+    "sections": [
+      "1•2",
+      "2•2–3"
+    ],
+    "findings": [
+      "DelayknobloadscomboexceptRotary",
+      "Tunersettingssaved",
+      "ReadonlysoundeditdefaultUser01A;124writableslots"
+    ],
+    "discovery": "POD2.0/PandoraPX4searchesunresolved;PocketPODexactofferunchanged"
   }
 }

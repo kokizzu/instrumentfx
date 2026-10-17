@@ -973,6 +973,17 @@ ReferenceRevA2007 andPilotRevB2022 accessed aswebPDFtext. OldReference says USBc
 
 [PP-R]: https://line6.com/pocket-pod/?locale=en_US
 
+### Pocket POD — effect switching, tuner and user saves
+
+Checked2026-10-18 against [ReferenceRevA §§1•2,2•2–3][PP-M]. Text inspection; no downloads or hardware operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / Delay control is not anextra slot | TurningDelay during anon-delayselection automaticallyloadsthecorresponding delay-combination andsetsdelaymix. **Rotary ignoresDelay**. Do not representthis asindependentdelay available withanymodel; documentedfixedcombinations remainabove. |
+| Live / tuner retained settings | Tunerreference436–445Hz,pass-throughvolume andtunersensitivity are **automaticallysaved fornexttunerentry**. ChanVolcanmutetuning;Driveadjuststunersensitivity separatelyfromtheeffectnoisegate. Thesecontrols do notchangephysicalknobcounts. |
+| Memory / save destination | Editing Band/Style read-onlysounds defaultsSAVE to **User01A**; useredits default totheirownlocation. Only124userlocations arewritable. TAPor5sinactivity cancelssave. Factoryreset restoresall124userpresets; not anadditionalROMbank. |
+
+
 ## HX One
 
 Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX Stomp. One selected model,not a multi-block chain. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
