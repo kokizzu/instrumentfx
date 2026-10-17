@@ -705,6 +705,19 @@ Checked2026-10-16;cached exact hardware pages,not live checkout/stock. Condition
 | Unresolved indexed variations / Artech item | Indexed Rp8.070.000–8.860.000;direct reopen cache miss. Seller ID31171541 matches previously observed Artech Music,Bekasi,but current page identity/bundle/variant/stock not verified. Neither endpoint accepted as unit-price bound. | [31171541 /29802327202](https://shopee.co.id/Boss-VE-22-VE22-VE-22-Vocal-Effect-Performer-Efek-Vocal-i.31171541.29802327202) |
 
 Remaining:simultaneous ceiling/advertised39-type reconciliation,screen diagonal/touch,USB channels/bitdepth/full editor,USB power/DC voltage/polarity,imports,usedcondition/current stock/variation bundles. No source deleted.
+### VE-22 — USB playback, stereo loop and additional offers
+
+Checked 2026-10-18; model-specific BOSS support articles updated2026-06-19 and indexed exact Shopee hardware pages.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / USB effect-input mapping | Dedicated driver and **VENDOR** mode required. BOSS directs Windows playback to **INPUT - VE-22**; a multichannel DAW uses **INPUT + INPUT or outputs3/4**. Mac DAW playback likewise uses outputs3/4 to apply VE-22 effects. This verifies the effect-input pair, not the complete recording-channel count or bit depth. | [Official playback-through-effects instructions](https://support.roland.com/hc/en-us/articles/22254720221723-VE-22-How-do-I-apply-effects-to-the-sound-played-back-on-my-computer) |
+| Looper / channel format | BOSS's own comparison explicitly identifies **37 seconds stereo** for VE-22. This supplements the earlier duration-only record; it does not establish phrase-file storage. | [Official model comparison](https://support.roland.com/hc/en-us/articles/22153475336731-VE-22-VE-20-What-are-the-differences-between-the-VE-22-and-VE-20) |
+| I/O / instrument-input limitation | INPUT is designed for a microphone. An instrument can feed AUX through suitable line-level equipment, but **AUX receives no VE-22 effects**. AUX presence does not qualify this as guitar multi-effects. | [Official instrument-input answer](https://support.roland.com/hc/en-us/articles/22184017569563-VE-22-Can-I-connect-an-instrument-such-as-a-guitar-or-keyboard-to-apply-effects) |
+| Power / phantom supply capacity | Official article recommends **PSA-S500mA** for phantom-powered operation; draw is260mA phantom-on versus180mA off. Adapter capacity is distinct from draw; use the regional version. | [Official recommended supply](https://support.roland.com/hc/en-us/articles/33212978614427-VE-22-Recommended-Power-Supply) |
+| IDR / additional indexed offer | **melodiasby**, Surabaya, seller/item **158144224/24742305856**: **Rp7.327.000**, index crawled four months earlier; direct reopen cache miss. No condition, stock, delivery, voucher, adapter bundle or warranty-region evidence established. | [Exact hardware offer](https://shopee.co.id/Boss-VE-22-Vocal-Effects-Performer-i.158144224.24742305856) |
+| IDR / additional indexed offer | **TOKOAUDIOPRO.COM**, Jakarta Pusat, seller/item **253483262/21380408530**: **Rp7.800.000**, month-old index; direct reopen cache miss. Same-day-before10:00 delivery banner is not stock proof. Condition, adapter bundle and warranty region unknown; late-delivery Rp10.000 compensation excluded from price discounts. | [Exact hardware offer](https://shopee.co.id/Boss-VE-22-Vocal-Effect-Processor-Performer-Pedal-Boss-VE22-Vokal-Efek-i.253483262.21380408530) |
+
 
 ## VE-8
 

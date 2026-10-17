@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-1",
-    "task": "No factory reset and dated macOS driver-only status saved; computer-return volume adjusted on host. Next broader discovery/other model gaps; VE1 USB numerical format/power, socket polarity, screen/control verification and qualified used offer remain unresolved.",
+    "model": "BOSS VE-22",
+    "task": "USB effect-input outputs3/4, stereo loop, AUX limitation and two indexed offers saved. Next fresh discovery and primary gaps; complete USBformat, power polarity/bus operation, 39type reconciliation and condition-verified used price remain unknown.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-1."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-22."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57583,6 +57583,19 @@
         "https://support.roland.com/hc/en-us/articles/4404885766683-VE-1-Can-the-VE-1-Be-Reset-to-Factory-Settings",
         "https://www.boss.info/global/support/support_news/25090811m1/",
         "https://support.roland.com/hc/ja/articles/4404884877083"
+      ]
+    },
+    {
+      "model": "BOSS VE-22",
+      "checked_date": "2026-10-18",
+      "finding": "Own KB identifies VENDOR effect input outputs3/4,37sSTEREOloop,AUXnoeffects and PSA-S500mAphantomcapacity. Added indexed melodiasby7.327m/TOKOAUDIOPRO7.8m exactoffers; bothdirectcachemiss,conditionstockunknown.",
+      "sources": [
+        "https://support.roland.com/hc/en-us/articles/22254720221723-VE-22-How-do-I-apply-effects-to-the-sound-played-back-on-my-computer",
+        "https://support.roland.com/hc/en-us/articles/22153475336731-VE-22-VE-20-What-are-the-differences-between-the-VE-22-and-VE-20",
+        "https://support.roland.com/hc/en-us/articles/22184017569563-VE-22-Can-I-connect-an-instrument-such-as-a-guitar-or-keyboard-to-apply-effects",
+        "https://support.roland.com/hc/en-us/articles/33212978614427-VE-22-Recommended-Power-Supply",
+        "https://shopee.co.id/Boss-VE-22-Vocal-Effects-Performer-i.158144224.24742305856",
+        "https://shopee.co.id/Boss-VE-22-Vocal-Effect-Processor-Performer-Pedal-Boss-VE22-Vokal-Efek-i.253483262.21380408530"
       ]
     }
   ],
