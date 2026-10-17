@@ -339,7 +339,7 @@ def main():
         assert changed <= set(paths), changed - set(paths)
         git('add', '--', *paths)
         print(git('diff', '--cached', '--stat'))
-        message = 'fix(comparisons): preserve separate technical source columns' if mode == 'commit-field-extraction' else 'fix(comparisons): route analog conversion and automation to useful columns'
+        message = 'fix(comparisons): preserve separate technical source columns' if mode == 'commit-field-extraction' else 'fix(comparisons): retain USB control and live operation evidence'
         if mode == 'commit-ampero-one':
             message = 'research(hotone): verify Mini external expression and CTRL limits'
         if mode == 'commit-nux-mg50li-audit':

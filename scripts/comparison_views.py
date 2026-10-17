@@ -481,18 +481,18 @@ BASS_SHARED = {
 }
 
 GROUPS = {
-    'expression': r'expression|\bEXP\b|^external control',
+    'expression': r'expression|\bEXP\b|^external control|^control / FS01 assignments$',
     'controls': r'k/f/b|knob|rotary|footswitch|buttons|^controls|physical controls|expression.*controls',
     'display': r'display|screen|diagonal|monochrome|touch|^evidence and remaining uncertainty$',
     'body': r'dimension|width|w×|weight|body|size|mass|^physical$',
-    'processing': r'^historical count conflict$|^delay claim conflict$|^firmware-qualified model|processing|simultaneous|architecture|model-total disagreement|block|categor|choice|library|^modules|factory amps|efx|^effects',
+    'processing': r'^delay / (?:source wording|time limits)$|^historical count conflict$|^delay claim conflict$|^firmware-qualified model|processing|simultaneous|architecture|model-total disagreement|block|categor|choice|library|^modules|factory amps|efx|^effects',
     'memory': r'memory|preset|storage',
     'sound': r'^bass capability|^(?:bass / (?:instrument|vocal)|instrument) scope$|synth|acoustic|harmony|special sound|^sound|^vocal$|^instrument/function$',
     'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary|conversion',
-    'io': r'^analog|^conversion.*analog|^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
+    'io': r'^instrument / input requirements$|^midi / backup$|^analog|^conversion.*analog|^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
     'power': r'power|battery|^dc|^supply$',
-    'editor': r'app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital|^audio interface$',
-    'live': r'automation|live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
+    'editor': r'^usb / (?:monitoring(?: and cable)?|windows driver|macos driver|midi)$|app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital|^audio interface$',
+    'live': r'^save / tuner / gate$|^tuner / bypass$|automation|live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
 }
 
 def clean(value):
@@ -620,14 +620,14 @@ def test_field_projection():
     positive = {'facts':[{'field':'Used IDR','value':'Rp3.000.000 seller-labelled used; stock unconfirmed','context':''}]}
     assert 'Rp3.000.000' in price_cells(positive)[0]
     cases = {
-        'expression': ['Built-in / external EXP'],
-        'io': ['Audio/control', 'Audio input', 'Audio inputs', 'Audio output', 'Audio outputs', 'Level conflict', 'Built-in instrument wireless', 'Analog levels / conversion', 'Conversion / analog levels'],
+        'expression': ['Built-in / external EXP', 'Control / FS01 assignments'],
+        'io': ['Instrument / input requirements', 'MIDI / backup', 'Audio/control', 'Audio input', 'Audio inputs', 'Audio output', 'Audio outputs', 'Level conflict', 'Built-in instrument wireless', 'Analog levels / conversion', 'Conversion / analog levels'],
         'sound': ['Vocal', 'Instrument/function', 'Bass capability', 'Bass capability / license condition', 'Bass / instrument scope', 'Bass / vocal scope', 'Instrument scope'],
-        'processing': ['Model-total disagreement', 'Firmware-qualified model changes', 'Historical count conflict', 'Delay claim conflict'],
-        'editor': ['Audio interface'],
+        'processing': ['Delay / source wording', 'Delay / time limits', 'Model-total disagreement', 'Firmware-qualified model changes', 'Historical count conflict', 'Delay claim conflict'],
+        'editor': ['Audio interface', 'USB / monitoring', 'USB / Windows driver', 'USB / macOS driver', 'USB / monitoring and cable', 'USB / MIDI'],
         'power': ['Supply'],
         'display': ['Evidence and remaining uncertainty'],
-        'live': ['Backing-track automation'],
+        'live': ['Backing-track automation', 'Save / tuner / gate', 'Tuner / bypass'],
     }
     for group, labels in cases.items():
         for label in labels:

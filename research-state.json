@@ -60063,5 +60063,25 @@
       "site:shopee.co.id \"Digitech\" \"BP355\""
     ],
     "result": "Search returned no results;not evidence of market absence."
+  },
+  "comparison_omitted_fields_20261017": {
+    "status": "corrected",
+    "scope": "12 saved technical rows across9models;metadata-only identity/documentation rows remain in canonical records",
+    "labels": [
+      "USB / monitoring",
+      "USB / Windows driver",
+      "USB / macOS driver",
+      "Save / tuner / gate",
+      "Delay / source wording",
+      "Control / FS01 assignments",
+      "USB / monitoring and cable",
+      "Delay / time limits",
+      "USB / MIDI",
+      "Tuner / bypass",
+      "Instrument / input requirements",
+      "MIDI / backup"
+    ],
+    "validation": "Focused projection regression failed before fix;passes after;planned output contains each label in every eligible instrument view;membership unchanged",
+    "research_claim": "No new manufacturer or market verification;existing evidence carried into comparisons"
   }
 }
