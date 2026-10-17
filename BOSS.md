@@ -409,7 +409,7 @@ Original sources: [source](https://www.boss.info/global/products/ve-22/specifica
 |---|---|
 | Physical controls / expression | Six knobs:PHONES/LINE,MEMORY,HARMONY,EFFECT,ECHO,MIC SENS;three footswitches;MENU/EXIT two buttons. Push-knob functions not extra separate buttons. External TRS EXP or two switches;no builtin expression/toe pedal. [VE22-S] |
 | Display / body |320×240 graphic color LCD;diagonal/touch unspecified.218×143×64mm,910g including batteries. [VE22-S] |
-| Processing / memory / looper |39 effect types;50preset+99user=149 memories;37s phrase loop. Categories are choices,not39 simultaneous blocks;full distribution/maximum remains unverified. [VE22-S] |
+| Processing / memory / looper |39 effect types;50preset+99user=149 memories;37s phrase loop. Categories are choices,not39 simultaneous blocks;section counts verified below,advertised-total reconciliation/maximum remains unverified. [VE22-S] |
 | Ports / power | XLR mic48V10mAmax;two XLR outs;mini phones/line andAUX;TRS CTL/EXP;USB-C;DC.260mA phantom-on/180mA off;four alkalineAA about6h/9h respectively;PSA-S optional.USB bus power andDC voltage/polarity unverified. [VE22-S] |
 | USB modes / routing | VENDOR for Windows/macOS requires VE-22 driver;GENERIC for iOS uses standard functionality with limits. Lightning needs camera adapter. MIX IN enters final chain stage;loopback sends computer input back to host. DRY OUT and computer-to-effects INPUT controls are VENDOR-only;do not assume these in GENERIC. [VE22-M] |
 | Control / live | ASSIGN can operate up to8parameters from one controller,stored per memory after WRITE. This is not an8-effect block count. [VE22-M] Exact MONO/STEREO/FX-DRY mapping verified below;FX/DRY left includes dry sound. |
@@ -423,6 +423,19 @@ Original sources: [source](https://www.boss.info/global/products/ve-22/specifica
 | I/O / output modes | **MONO** sums internal stereo to both XLR outputs;**STEREO** preserves L/R;**FX/DRY** sends mono dry+effect mix to L and bypass to R. The left side is not isolated wet-only audio. OUTPUT settings apply globally and save automatically. | [Reference p21][VE22-M] |
 | Looper / recording and control | Recorded phrases **cannot be saved** in device memory. PERFORM records harmony/effect/echo;CHECK records before those processors for sound adjustment. Built-in loop control requires Memory mode;Manual mode needs external switches assigned LOOP/LOOP CTL. Double-tap within one second stops;hold clears. | [Reference pp22–23][VE22-M] |
 | Expression / memory behavior | **EXP HOLD** globally retains the previous memory’s pedal value when enabled;automatically saved. Unlike that system setting,edited sound parameters require MEMORY WRITE before memory change or power-off. | [Reference pp8,21][VE22-M] |
+
+
+### VE-22 — parameter-guide category counts,2026-10-17
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / category choices | Counted from type tables:**10 Harmony**,**14 Effect**,**9 Echo** alternatives. Harmony includes doubling,tripling,interval combinations andManual;Effect includes three distortion/modulation combinations;Echo includes four delay/reverb combinations. These are section choices,not simultaneous blocks. Advertised39-type reconciliation andmaximum remain unresolved. | [Official parameter guide][VE22-PG] pp3,7,13 |
+| Pitch / harmony limits | Manual harmony exposes two voices,each with11 interval choices spanning octave-down throughunison tooctave-up. Pitchcorrection offersfive modes:smooth,fast,stepped,fixed-note robot anduncorrected shifting;shift range−12…+12. Selecting pitch correction consumes the Effect section ratherthan proving a separate extra block. | [Parameter guide][VE22-PG] pp6–7 |
+| Delay / reverb limits | Effect-section shortdelay**1–100ms**;Echo delay**1–2000ms** withmono/stereo-pan choices;reverb**0.1–10s**,pre-delay**0–500ms**. Slicer has20patterns. These parameter ranges arenot memory orblock counts. | [Parameter guide][VE22-PG] pp8,12–14 |
+
+[VE22-PG]: https://static.roland.com/assets/media/pdf/VE-22_parameter_eng01_W.pdf
+
+Source identity:officialmanufacturer PDF,Parameter Guide ©2024 Roland revision01,15pages;model-specific support entry confirms title. Browser text inspected;no local download,installation ordevice execution.
 
 [VE22-S]: https://www.boss.info/global/products/ve-22/specifications/
 [VE22-M]: https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf
@@ -438,7 +451,7 @@ Checked2026-10-16;cached exact hardware pages,not live checkout/stock. Condition
 | Unresolved retail variations / Bandung Music Gallery,Bandung | Rp8.070.000–8.860.000,two variations;26–28Aug cached delivery. Variation labels/bundle not exposed;neither endpoint accepted as standalone unit price. | [394955725 /24381975794](https://shopee.co.id/Boss-VE-22-Vocal-Effect-Performer-VE22-VE-22-Efek-Vokal-i.394955725.24381975794) |
 | Unresolved indexed variations / Artech item | Indexed Rp8.070.000–8.860.000;direct reopen cache miss. Seller ID31171541 matches previously observed Artech Music,Bekasi,but current page identity/bundle/variant/stock not verified. Neither endpoint accepted as unit-price bound. | [31171541 /29802327202](https://shopee.co.id/Boss-VE-22-VE22-VE-22-Vocal-Effect-Performer-Efek-Vocal-i.31171541.29802327202) |
 
-Remaining:simultaneous/category totals,screen diagonal/touch,USB channels/bitdepth/OS/editor,USB power/DC voltage/polarity,imports,usedcondition/current stock/variation bundles. No source deleted.
+Remaining:simultaneous ceiling/advertised39-type reconciliation,screen diagonal/touch,USB channels/bitdepth/OS/editor,USB power/DC voltage/polarity,imports,usedcondition/current stock/variation bundles. No source deleted.
 
 ## VE-8
 
