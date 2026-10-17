@@ -111,3 +111,42 @@ Manufacturer manual transcription identifies PR6171/exact Micro Plus,matching la
 [MMP-L8]: https://www.manualslib.com/manual/3639033/Fender-Mustang-Micro-Plus.html?page=8
 
 Original11-page PR6171 owner-manual pages corroborate the mirrored guide's effect list and operating text;published page numbers are one below website page numbers. No panel image viewed. Updated bass additions remain separately sourced to2026release notes.
+
+## Mustang Micro
+
+Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Micro Plus.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | No onboard pedal or EXP socket in complete manual inventory;external MIDI/toe support unverified. [Manual][MM-M] |
+| K/F/B | 1 volume wheel/0 footswitches/8 buttons(AMP,EQ,EFFECTS,MODIFY±);separate power/Bluetooth slider. [Manual][MM-M] |
+| Display | Colored indicator LEDs;no screen in manual inventory. Diagonal/touch not applicable. [Manual][MM-M] |
+| Processing / choices | 12 amps;12 effect/combinations per manual and product features,versus **11 effect models** in product specifications. Conflict unresolved. Selected amp plus selected combination;full block ceiling unverified. [Manual][MM-M] [Product][MM-P] |
+| Preset memory | User/factory/total memory count unverified;12 selectable amps are not12 user presets. |
+| Synth / acoustic / bass | Studio Preamp explicitly suited to bass/acoustic instruments. Acoustic simulator and synth unverified. [Manual][MM-M] |
+| I/O | Rotating¼inch input;⅛inch stereo phones;USB-C charging/recording/update;Bluetooth5.0 A2DP1.3.1. [Manual][MM-M] |
+| I/O / USB restrictions | USB source-only;no computer return monitoring. Apple computer needs no external driver. Product documents simultaneous instrument/Bluetooth recording. [Manual][MM-M] [Product][MM-P] |
+| Power / battery / USB | Li-ion;USB current600mAmax;4h high/6h low volume. Charge with power on/off. Voltage/capacity/charge time unverified;600mA is not capacity. [Manual][MM-M] |
+| Dimensions / mass | 38.1W×80H×28.7Dmm,plug stored;51g. [Manual][MM-M] |
+| IR / NAM / capture | Import/capture support unverified. |
+| Editor / platforms | Mac/PC updater documented;not desktop/mobile tone-editor proof. Driver requirements separately qualified above. [Manual][MM-M] |
+| Live / controls | 5EQ settings;Modify5levels+bypass;15min inactivity sleep,anybutton wakes. Looper/drums/scenes unverified. [Manual][MM-M] |
+| Processing / manual conflict | Harmonic Tremolo paired with Large Room in effect table,Large Hall in Modify table;preserve both. [Manual][MM-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp2.474.000**;Salomo Musik,shop1776275/item24838368984,Kota Jakarta Utara;three months indexed crawl. | [Item][MM-O1] |
+| Unverified | **Rp1.374.975**;indie_musicstore,shop191485301/item26444289932,Kota Depok;three months indexed crawl. | [Item][MM-O2] |
+
+<!-- comparison evidence ends -->
+
+Historical indexed asks checked2026-10-17,not checkout or current stock. Condition,variant,bundle,warranty,authenticity,shipping,tax,vouchers unresolved;no qualified used/new allocation. No files downloaded or images visually inspected. Exact algorithm lists and memory/software/import gaps remain.
+
+[MM-M]: https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf
+[MM-P]: https://intl.fender.com/products/mustang-micro
+[MM-O1]: https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Black-Original-i.1776275.24838368984
+[MM-O2]: https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Amplug-i.191485301.26444289932
