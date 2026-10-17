@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom GFX-707",
-    "task": "Initial own-manual record saved. Next enumerate category choices/reconcile43effects and verify sampler input/routing constraints from E_GFX707.pdf. Then fresh Shopee discovery.",
+    "task": "GFX-707 category counts and sampler constraints saved;COMP-DIST16 named choices still need complete inventory and manual TYPE10 duplicate DIST2 label check. Then fresh Shopee discovery.",
     "next_models": [],
     "after_queue": "288partial models;no downloads/workflows/push."
   },
@@ -57815,14 +57815,27 @@
     "identity": "707-5000,24pages",
     "canonical": "ZOOM.md#gfx-707",
     "remaining": [
-      "Per-category choices/reconcile43effects",
       "Visual control audit",
       "Display diagonal/color/touch",
       "Editor/imports",
       "Current condition-qualified hardware stock",
       "Measured current draw",
-      "Synth"
+      "Synth",
+      "Complete COMP-DIST16 names and TYPE10 duplicate DIST2 label"
     ],
+    "downloads": false
+  },
+  "gfx707_categories_sampler_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_GFX707.pdf",
+    "identity": "707-5000 pp12–14,17–20",
+    "counts": {
+      "comp_dist": 16,
+      "mod": 20,
+      "rev_including_jam": 6,
+      "eq": 1
+    },
+    "reconciliation": "16+20+6+1=43 derived;plus4amp andZNR=48;EQpages not algorithms;TOTAL/PEDAL settings",
+    "sampler": "BP/EF;sharedinput;pedalrecordlevel;half-speedpitchpreserving;excludesrhythm/JAM;MODREVoff;exitclears",
     "downloads": false
   }
 }

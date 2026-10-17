@@ -2581,7 +2581,7 @@ Original guitar multi-effects,not707II;checked2026-10-17;partial. [Official manu
 | Expression | Built-in with push-down switch;external unsupported by published port inventory. |
 | Controls | Text-derived **5 rotary/2 foot/8 buttons**: OUTPUT,AMP SIM,PARM1–3;two footswitches;STORE,EDIT,RHYTHM,SAMPLER,two MODULE,two TYPE. Power/toe separate;visual verification pending. |
 | Display | Six-character alphanumeric LED plus2-digit7-segment LED;diagonal/color/touch unknown. |
-| Processing / choices | **48=43effects+4amp-simulator settings+ZNR**;four simultaneous modules plusamp/ZNR. Per-category reconciliation pending. |
+| Processing / choices | **48=43effects+4amp-simulator settings+ZNR**;four simultaneous modules plusamp/ZNR. Category inventory:COMP•DIST16,MOD20,REV5 conventional choices plusJAM,EQ1;16+20+6+1=43 (derived reconciliation). |
 | Factory / user memory | **30read-only+30editable=60** immediately available;user originals factory-restorable. |
 | Synth / acoustic | ACOSIM electric→acoustic; synth unknown. |
 | Dimensions / mass | **235W×189D×54Hmm;740g without batteries**. |
@@ -2603,3 +2603,13 @@ Seller name alone does not establish condition. Live stock,working state,variant
 
 [GFX707-M]: https://zoomcorp.com/media/documents/E_GFX707.pdf
 [GFX707-S]: https://shopee.co.id/Efek-Zoom-gfx-707-made-in-japan-i.48116980.15446202329
+
+### GFX-707 — category and sampler restrictions
+
+Checked2026-10-17 against [707-5000][GFX707-M],pp12–14,17–20.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Processing / categories | MOD20:chorus,vintage chorus,flanger,phase,tremolo,auto pan,auto wah,pedal wah,step,pitch,pedal pitch,ring modulator,slow attack,filter,delay,echo,time trip,tremolo+chorus,ring+vibrato,vibe. REV:Hall,Room,Ping-Pong Delay,Delay+Hall,Delay+Room,andJAM. EQ has two editing pages,not two alternative algorithms. TOTAL/PEDAL are settings,not additional audio-effect modules. |
+| Looper / sampler | Sampler shares guitar/AUX input;BP records without effects,EF with available effects. Pedal controls recording level;half-speed playback preserves pitch. Sampler excludes rhythm/JamPlay and disablesMOD/REV;leaving sampler erases its recording. JamPlay is a REV choice,not an extra independent block. |
+| Preset / live | DirectLoadOFF browses silently until both footswitches confirm;setting saves automatically. BankHold confines footswitch browsing to current bank,but resets at power-cycle. Rhythm settings also reset;EasyEdit unavailable during rhythm playback. |
