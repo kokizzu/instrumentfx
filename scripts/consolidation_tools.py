@@ -1790,7 +1790,7 @@ def audit_nux_union(verify=True, kind='nux'):
     report = dict(source=path,source_sha256=digest(source),destinations=list(destinations),paragraph_groups=len(paragraphs),normalized_missing_groups=missing,external_urls=urls,missing_external_urls=[u for u in urls if u not in union],model_manifests=len(manifests),model_fields=fields,retirement_authorized=False)
     Path('/tmp/instrumentfx-'+kind+'-union-plan.json').write_text(json.dumps(report,indent=2)+'\n')
     if verify:
-        assert not missing, 'Shared prose/source groups missing'
+        assert not missing, 'Shared prose/source groups missing ('+kind+'): '+str(missing)
         assert not report['missing_external_urls'], 'Shared URL missing'
         verify_preserved(state)
     print(json.dumps({k:v for k,v in report.items() if k not in ('external_urls','normalized_missing_groups')},indent=2))

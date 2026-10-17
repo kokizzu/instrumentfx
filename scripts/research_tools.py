@@ -637,7 +637,7 @@ def main():
         if mode == 'commit-floorboard-matribox-ii':
             message = 'audit(sonicake): preserve exact Matribox II floorboard rows and context'
         if mode == 'commit-floorboard-union':
-            message = 'audit: verify floorboard source union and preserve historical source context'
+            message = 'docs: restore original floorboard manual URL and diagnose shared-source gaps'
         if mode == 'commit-market2-union':
             message = 'audit: preserve complete second Shopee expansion shared comparison and qualifications'
         if mode == 'commit-market3-union':

@@ -84,8 +84,10 @@ Other compact processors, including HX Stomp, GT-1000CORE, Ampero Mini and compa
 
 The following source grouping and navigation retain the 2026-10-14 floorboard snapshot. The current root brand and ALL-* records remain authoritative; these historical links do not claim migration is complete.
 
-- [Matribox II official manual, firmware 1.3.0](https://cdn.shopify.com/s/files/1/0100/1980/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623), panel diagrams and printed p.45 specifications, visually checked. A pair of balanced mono TRS outputs is not a single stereo TRS headphone socket.
+- [Matribox II official manual, firmware 1.3.0](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623), panel diagrams and printed p.45 specifications, visually checked. A pair of balanced mono TRS outputs is not a single stereo TRS headphone socket.
 - GP-200's published 25 combined controls are retained as a combined claim until separate rotary/button counts are verified; no arbitrary split has been invented.
+
+Historical URL correction, 2026-10-17: the Matribox II manual URL above matches the pinned floorboard source. The later [altered Shopify path](https://cdn.shopify.com/s/files/1/0100/1980/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623) remains unverified transcription provenance. The original visual-inspection claim is historical; no new image inspection or file download occurred during this correction.
 
 For all researched processors organised by size and expression, start at the [comparison home](effects/README.md). Unresearched families and unresolved fields are recorded in [coverage](effects/COVERAGE.md).
 

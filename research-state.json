@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Legacy consolidation audit",
-    "task": "Repair floorboard prose preservation failure next: run make technical-retirement-verify for exact missing paragraphs; compare pinned original effects/guitar-floorboards.md with recorded destinations. Compact union URLs restored and all18 groups/22 URLs/eight model-row audits pass. Do not claim whole migration complete.",
+    "task": "Repair NUX source-list group mismatch: inspect /tmp/instrumentfx-nux-union-plan.json normalized_missing_groups versus NUX.md/MULTI-EFFECTS.md. Compact/floorboard unions now pass; full technical-retirement-verify still fails at NUX. Preserve original URLs and later variants explicitly; do not weaken verifier.",
     "next_models": [],
     "after_queue": "Other field gaps and exact Shopee discovery; no downloads/workflows."
   },
@@ -41078,8 +41078,8 @@
       "scope": "All complete-model-rows manifests scanned; only this missing fact found. Full verifiers rerun separately.",
       "remaining_failure": {
         "target": "make technical-retirement-verify",
-        "audit": "audit_floorboard_union",
-        "status": "Compact union repaired and passes; broader target now reaches floorboard prose failure. Exact missing paragraphs now included by diagnostic."
+        "audit": "audit_nux_union(nux)",
+        "status": "Original NUX manufacturer manual/control-image source-list group not exactly preserved; exact missing text available in /tmp/instrumentfx-nux-union-plan.json and assertion output."
       },
       "compact_repair": {
         "status": "Original paragraph URLs restored; altered forms retained as unverified transcription provenance.",
@@ -41093,6 +41093,12 @@
             "altered": "https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365198&width=1440"
           }
         ]
+      },
+      "floorboard_repair": {
+        "original": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623",
+        "altered": "https://cdn.shopify.com/s/files/1/0100/1980/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623",
+        "status": "Pinned original URL restored, altered URL retained as unverified transcription provenance; original inspection date scope unchanged.",
+        "verification": "make technical-retirement-verify: floorboard union passes six prose groups, four external URLs, three model manifests/42 fields; broader target reaches NUX source-list mismatch."
       }
     }
   },
