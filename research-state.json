@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh Shopee discovery",
-    "task": "M9 expression endpoints, model defaults/Mix and effect copy saved. Remaining M9 display/current/USB and looper conflicts retained. Next fresh Shopee discovery by manufacturer series: Line6 Firehawk FX/POD X3 bean/POD HD bean, verify exact hardware and own official documentation before adding. Do not duplicate existing POD X3 Live, XT Live, HD500/500X/400/300 or Pocket POD.",
+    "task": "Line6 desktop/Firehawk searches saved without new active model. X3 Live explicit Preowned Rp2.35m Habis offer added; no desktop price transfer. Next discover unrecorded manufacturer series (DigiTech RP350/RP355, Korg AX300G/AX1000B or Vox StompLab1B) with exact hardware identity; retain all unresolved leads and do not duplicate334 existing models.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -55984,6 +55984,20 @@
         "Effect copy retains edits but does not increase3 simultaneous effects."
       ],
       "remaining": "Display diagonal/touch, actual current draw and USB capability remain unverified; looper source conflicts retained."
+    },
+    {
+      "model": "Line 6 POD X3 Live",
+      "checked_date": "2026-10-18",
+      "offer": {
+        "url": "https://shopee.co.id/Guitar-Efeck-Line6-POD-X3-Live-Preowned--i.141177049.7234568891",
+        "seller": "TokoGitarBagusTangerang",
+        "region": "Kota Tangerang",
+        "idr": 2350000,
+        "condition": "seller-labelled Preowned",
+        "stock": "Habis",
+        "cache": "last month",
+        "qualification": "Historical asking price; working state, revision, adapter/bundle, warranty and checkout total unknown."
+      }
     }
   ],
   "discovery_cross_brand_bass": {
@@ -70108,5 +70122,19 @@
         "next": "Retain pending until own manual or authenticated distributor/manufacturer product documentation is found. Continue independent research elsewhere rather than repeatedly querying unavailable domain."
       }
     }
+  },
+  "discovery_line6_desktop_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Line 6\" \"Firehawk\" -adaptor -tas -kabel",
+      "site:shopee.co.id \"POD X3\" -Live -adaptor -tas",
+      "site:shopee.co.id \"POD HD\" \"bean\"",
+      "site:shopee.co.id \"Firehawk FX\" efek",
+      "site:shopee.co.id \"POD\" \"Bean\" -tas -adaptor",
+      "site:shopee.co.id \"POD X3\" desktop -live",
+      "site:shopee.co.id \"Line6\" \"Firehawk\"",
+      "site:shopee.co.id \"Line 6 HD 101\""
+    ],
+    "result": "No qualified new exact-model offer. Firehawk cases rejected; desktop searches mostly returned existing Live models or unrelated products. Hope Music HD101 Bean Normal card remains unresolved model/item; Rp1.999m not assigned to desktop POD HD. Exact preowned X3 Live offer separately saved.",
+    "unresolved_url": "https://shopee.co.id/hopemusik"
   }
 }

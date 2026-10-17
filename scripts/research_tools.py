@@ -449,7 +449,7 @@ def main():
         if mode == 'commit-xtlive':
             message = 'research(line6): qualify XT Live Silicon support and discontinued updater'
         if mode == 'commit-x3live':
-            message = 'research(line6): qualify X3 Live Silicon support and updater restrictions'
+            message = 'research(line6): preserve X3 Live explicit preowned sold-out hardware offer'
         if mode == 'commit-harmony-singer2':
             message = 'research(tc-helicon): corroborate Harmony Singer 2 guide from manufacturer index'
         if mode == 'commit-duplicator':

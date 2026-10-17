@@ -1338,6 +1338,15 @@ Checked **2026-10-17**; partial. Floor processor, distinct from desktop X3, rack
 | Used IDR | **?** Exact sold-out ask below lacks sale-condition evidence. |
 | New IDR | **?** No exact condition-verified new offer established. |
 
+
+### POD X3 Live additional seller-labelled used offer
+
+Checked 2026-10-18; seller evidence, not a completed sale.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| IDR Used / sold-out cached ask | **Rp2,350,000**, TokoGitarBagusTangerang, Kota Tangerang; shop141177049/item7234568891. Exact title explicitly says **Preowned**; direct and search pages labelled last-month cache both show **Habis**. Working condition, revision, adapter/bundle, warranty and checkout total remain unknown. Delivery badges and late-arrival compensation do not establish availability or a discount. This is POD X3 Live, not desktop POD X3. | [Exact hardware](https://shopee.co.id/Guitar-Efeck-Line6-POD-X3-Live-Preowned--i.141177049.7234568891) |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee evidence
