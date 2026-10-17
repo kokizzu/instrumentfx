@@ -350,8 +350,9 @@ def verify_views():
 # enclosure, a BASS tone knob, a capture microphone, or an output connector.
 BASS_FOCUSED = ['Valeton::Dapper Bass Mini MES-2','Valeton::Dapper Bass VES-2','VOX::StompLab 2B','BOSS::ME-20B','BOSS::GT-1B','BOSS::GX-1B','BOSS::ME-90B','M-VAVE::TANK-B','M-VAVE::CUBE BABY BASS','Line 6::POD Express Bass','Zoom::B1 FOUR','Zoom::B1X FOUR','Zoom::B2 FOUR','Zoom::B6','Zoom::B1Xon','Zoom::B3n','Zoom::MS-60B','Zoom::MS-60B Plus','Zoom::B1on','Zoom::B3']
 VOCAL_ONLY = ['HeadRush::VX5','BOSS::VE-5','TC-Helicon::PERFORM-VE','TC-Helicon::PERFORM-VK','TC-Helicon::PERFORM-V','Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
-VOCAL_SHARED = ['Line 6::Helix Floor','TC-Helicon::PERFORM-VG','TC-Helicon::VoiceLive 3 Extreme','BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
+VOCAL_SHARED = ['Line 6::Helix Stadium XL Floor','Line 6::Helix Floor','TC-Helicon::PERFORM-VG','TC-Helicon::VoiceLive 3 Extreme','BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
 BASS_SHARED = {
+    'Line 6::Helix Stadium XL Floor':'Own Stadium rear manual explicitly supports bass amplifiers in4/7cable setups;USB chapter explicitly identifies bass DI input processing.',
     'Line 6::Helix Floor':'Own Floor product AUX input explicitly accepts active bass;own Cheat Sheet says guitar or bass instrument input.',
     'HeadRush::Pedalboard':'Own official Pedalboard product explicitly models Ampeg B15/SVT bass amps and Darkglass bass preamp; not inferred from a BASS EQ knob or sibling.',
     'HeadRush::Gigboard':'Own official Gigboard product explicitly identifies instrument input for guitars and basses; not inferred from other boards.',
