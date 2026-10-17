@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 256,
+  "active_model_count": 257,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 256,
+  "canonical_root_model_count": 257,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "256 unique active/root-canonical models; 0 legacy-only; 31 brands; 6 excluded archives. RP70 guitar; bass/vocal unclassified; all partial.",
+  "count_reconciliation": "257 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. M100 guitar/vocal mixer-path; bass unclassified;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic M100",
-    "task": "M100 official product and QSG identify16programs including combined effects, guitar/vocal applications. Next controls/specifications via indexed official QSG, then add root brand record and guitar/vocal comparisons. Direct PDF inaccessible; use saved primary discovery. Price condition unverified.",
+    "task": "M100 added guitar/vocal with own-guide controls/specs; next MIDI revision/input balance corroboration and parameter details. All unresolved fields retained.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
@@ -23981,6 +23981,9 @@
       "SPX990",
       "SPX2000",
       "SPX1000"
+    ],
+    "TC Electronic": [
+      "M100"
     ]
   },
   "root_brand_content": {
@@ -24301,11 +24304,14 @@
       "SPX990",
       "SPX2000",
       "SPX1000"
+    ],
+    "TC-ELECTRONIC.md": [
+      "M100"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 208,
+      "record_count": 209,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24317,9 +24323,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 49,
+      "record_count": 50,
       "vocal_only_count": 22,
-      "combined_instrument_count": 27,
+      "combined_instrument_count": 28,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41268,13 +41274,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 256,
-    "canonical_root_models": 256,
+    "unique_brand_model_pairs": 257,
+    "canonical_root_models": 257,
     "legacy_only_models": 0,
-    "guitar_view_models": 208,
+    "guitar_view_models": 209,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
-    "vocal_view_models": 49,
+    "vocal_view_models": 50,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41542,7 +41548,8 @@
       "Yamaha::SPX900",
       "Yamaha::SPX990",
       "Yamaha::SPX2000",
-      "Yamaha::SPX1000"
+      "Yamaha::SPX1000",
+      "TC Electronic::M100"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41696,7 +41703,8 @@
       "Yamaha::SPX900",
       "Yamaha::SPX990",
       "Yamaha::SPX2000",
-      "Yamaha::SPX1000"
+      "Yamaha::SPX1000",
+      "TC Electronic::M100"
     ]
   },
   "comparison_bass_basis": {
@@ -43730,6 +43738,13 @@
       "link": "YAMAHA.md#spx1000",
       "source_files": [
         "YAMAHA.md"
+      ],
+      "finding_files": []
+    },
+    "TC Electronic::M100": {
+      "link": "TC-ELECTRONIC.md#m100",
+      "source_files": [
+        "TC-ELECTRONIC.md"
       ],
       "finding_files": []
     }
@@ -54679,5 +54694,73 @@
       ]
     },
     "next": "Read indexed own QSG controls/specifications; create TC-ELECTRONIC.md, register new brand/model, add guitar+vocal shared membership with line/mixer-path qualification. Do not infer direct mic preamp/phantom or bass use."
+  },
+  "m100_primary_checkpoint_20261017": {
+    "product": "https://www.tcelectronic.com/en/products/0828-AAH",
+    "manual": "https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf",
+    "checked_date": "2026-10-17",
+    "identity": "Official stereo multi-effects;16selector programs including combined effects. Own QSG pp36–37 explicitly documents guitar/vocal applications. Bass-specific intended path not established.",
+    "product_facts": [
+      "16single or combined programs, not16simultaneous blocks",
+      "Balanced/unbalanced quarter-inch input connections; impedance-balanced quarter-inch TRS outputs",
+      "Input/Mix/Output/Parameter controls plus FX selector and Tap/Select; exact physical inventory pending",
+      "Footswitch socket for effect on/off, footswitch not included; not expression proof",
+      "24-bit AD/DA"
+    ],
+    "manual_facts": {
+      "pages": "36–37",
+      "programs": [
+        "Cathedral",
+        "Concert",
+        "Club",
+        "Chamber",
+        "Gold Plate",
+        "Gated Reverb",
+        "Reverse Reverb",
+        "Ambience",
+        "Delay",
+        "Chorus",
+        "Flanger",
+        "Phaser",
+        "Rotary",
+        "Pitch Shift",
+        "Delay+Reverb",
+        "Chorus+Reverb"
+      ],
+      "applications": "Delay+Concert combination documented for guitars/keyboards/vocals; Chorus+Club for guitars/electric pianos. Pitch shift detuning for guitar/vocals. No amp modeling requirement."
+    },
+    "access": "Direct official PDF browser open inaccessible; indexed own-manual text readable. No screenshot or filesystem download.",
+    "offer": {
+      "model": "TC Electronic M100",
+      "url": "https://shopee.co.id/TC-Electronic-M100-Stereo-Multi-Effects-Processor-i.19576516.6955147985",
+      "seller": "Imagination Music Store",
+      "shop_id": "19576516",
+      "item_id": "6955147985",
+      "condition": "Unverified",
+      "asking_idr": 1950000,
+      "region": "Kota Jakarta Pusat",
+      "crawl": "Last month",
+      "access": "Browser search returned exact item page text; preorder15days with September16 estimate. Historical cached ask, not current checkout/stock.",
+      "unresolved": [
+        "Condition",
+        "Working state",
+        "Authenticity",
+        "Bundle",
+        "Adapter",
+        "Warranty",
+        "Shipping/tax",
+        "Voucher eligibility"
+      ]
+    },
+    "next": "Read indexed own QSG controls/specifications; create TC-ELECTRONIC.md, register new brand/model, add guitar+vocal shared membership with line/mixer-path qualification. Do not infer direct mic preamp/phantom or bass use.",
+    "added": true,
+    "unresolved": [
+      "Input balance discrepancy",
+      "MIDI DIN hardware revision applicability",
+      "Editor/OS/import support",
+      "Polarity/actual draw/battery/USB",
+      "Display and visual corroboration",
+      "Condition-specific offers"
+    ]
   }
 }

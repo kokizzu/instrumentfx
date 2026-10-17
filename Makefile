@@ -1599,3 +1599,7 @@ research-commit-criticalmass:
 .PHONY: research-commit-hxe-price
 research-commit-hxe-price:
 	python3 scripts/research_tools.py commit-hxe-price
+
+.PHONY: research-commit-m100
+research-commit-m100:
+	python3 scripts/research_tools.py commit-m100
