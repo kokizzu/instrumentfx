@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX1000",
-    "task": "SPX1000 added246th;verify full panelcounts,mass,category/simultaneity,digitalI/Oprotocol,userfill andFreeze details using ownmanual. Do not duplicate model;commit before next.",
+    "task": "SPX1000 panelcounts and Yamaha-format digital/analog-trigger distinction saved. Next digitalrouting,categories,mass,userfill andFreeze;visual corroboration pending.",
     "next_models": [
       "Zoom RFX-2000 (resolve exact item first)"
     ],
@@ -53697,5 +53697,11 @@
     "pages": "introduction,2–5,10–11,29,Add-31",
     "finding": "Official79page ownmanual accessible,40preset59user,dualFC7control,guitar/vocalcompressorapplications,regional22Wmains anddimensions.",
     "remaining": "Panelcounts,mass,completecategories/simultaneity,digitalprotocol,initialuserfill,Freeze andsoftware/visualgaps."
+  },
+  "spx1000_panel_io_followup_20261017": {
+    "source": "https://usa.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf",
+    "pages": "3–5",
+    "finding": "2rotary0foot15buttons text-derived;Yamaha-formatdigitalnotAES/SPDIFbyconnectorinference;Trigger2audioMIC/LINEdistinctfromTrigger1footswitch/maininputs.",
+    "remaining": "Digitalrouting/pinout,categorycounts,mass,initialuserfill,Freeze andvisual/softwaregaps."
   }
 }
