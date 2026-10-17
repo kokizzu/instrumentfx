@@ -316,6 +316,16 @@ Checked 2026-10-18 using own Spanish manual text and indexed exact hardware list
 | I/O / USB mode selection | Hold MEMORY during power-up to select the USB connection mode using MEMORY; finish with the pedal. NORMAL is factory default; LOOP BACK, INPUT and DIRECT MONITOR OFF have separate indicator patterns. Routing modes do not establish USB bus power, sample rate or channel count. | [Own manual, settings table][VE1-M] |
 | IDR Condition and stock unknown | **Rp3,200,000**, TOKOAUDIOPRO.COM, Kota Jakarta Pusat; shop253483262/item28420455671. Month-old indexed page, direct reopen internal error; same-day delivery banner is not stock proof. Adapter, bundle, warranty, working state and checkout total unknown. Late-delivery compensation excluded. Seller’s Harmonist/Guitar Pedal wording does not establish intelligent harmony or guitar processing. | [Exact indexed hardware](https://shopee.co.id/BOSS-VE-1-Vocal-Echo-Harmonist-Effects-Processor-Stompbox-Guitar-Pedal-Boss-VE1-i.253483262.28420455671) |
 
+
+### VE-1 correction, Enhance and memory-write details
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / correction and Enhance | In normal operation, turning CORRECT clockwise increases **correction speed**; the fully clockwise setting produces a mechanical voice. The manual’s external-switch table separately calls its target correction amount; retain both descriptions rather than asserting a calibrated wet/dry control. Enhance has OFF, LIGHT (green) and BRIGHT (red), two active alternatives within one stage. | [Own Spanish manual, panel descriptions][VE1-M] |
+| Memory / explicit save | Hold MEMORY to enter saving, press it to choose the destination A/B/C, then hold MEMORY again to commit. Blinking after editing an existing memory indicates changed settings that need saving; selecting a memory is not itself a save. Normal/manual remains separate from the three stored memories. | [Own Spanish manual, MEMORY section][VE1-M] |
+
+Checked 2026-10-18. Searches for model-specific USB sample-rate, channel and powering documentation did not establish those fields. The manual directs detailed USB questions to the driver archive’s Readme.htm; no archive was downloaded or installed, and no numerical format or bus-power claim is added.
+
 ## VE-2
 
 Vocal multi-effects;guitar chord detection does not establish guitar multi-effects. Consolidated/researched2026-10-16;partial verification.
