@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Head MK2",
-    "task": "Verify Head MK2 physical controls,current manual,memory,IR/capture/software requirements and exact offer condition; first pass remains partial.",
+    "task": "Verify Head MK2 manual-qualified controls,memory,acoustic simulator,IR limits and looper operation;current FAQ and OS14.2.2 software requirements saved. Exact Indonesian condition/stock remains unknown.",
     "next_models": [],
     "after_queue": "Continue unfinished model verification,fresh Shopee discovery and lossless legacy consolidation. No downloads,workflows or push."
   },
@@ -63719,5 +63719,20 @@
       "Rear ALTERNATIVE INPUT selection is global and requires front jack unplugged; simultaneous front/rear guitar input unavailable; DI Analog requires front input."
     ],
     "remaining": "Current MK2 physical control/display evidence, factory/Browse memory, category census, NAM/synth/looper details, consumption/battery/USB operation and verified condition-specific Indonesian offers remain open."
+  },
+  "technical_followups_head_mk2_faq_20261017": {
+    "model": "Kemper PROFILER Head MK2",
+    "checked_date": "2026-10-17",
+    "sources": [
+      "https://www.kemper-amps.com/faqs",
+      "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/"
+    ],
+    "findings": [
+      "PROFILE2.0 high-resolution creation/playback;desktop IR-to-cabinet conversion.",
+      "Two onboard plus four Remote sockets;momentary normally-open switches.",
+      "Automatic mains adaptation;rear guitar input global and front-jack exclusion;DI Analog front-only;one mono-send mono/stereo-return FX loop.",
+      "MK2 looper up to120sec;OS14.2.2 exact desktop/mobile minima."
+    ],
+    "remaining": "Physical control/display census,manual-qualified memory/acoustic/IR limits,looper mode/control details,consumption and verified used/new offers."
   }
 }

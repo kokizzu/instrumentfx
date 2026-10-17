@@ -228,19 +228,19 @@ Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, dist
 
 | Required field | Evidence / qualification |
 |---|---|
-| Built-in / external / toe expression | Two onboard TRS pedal/switch sockets,10–100 kohm [kh-s]. Built-in/toe behavior unverified. Marketing mentions four expression pedals but does not establish four onboard sockets [kh-p]. |
+| Built-in / external / toe expression | Two onboard TRS pedal/switch sockets,10–100 kohm [kh-s]. Remote provides **four additional sockets**;switches must be momentary,normally open [kh-f]. Built-in/toe behavior unverified. Four-pedal marketing is not four onboard sockets [kh-p]. |
 | Knobs / footswitches / buttons | Separate rotary,footswitch and button census unresolved. |
 | Display | Published diagonal,color/monochrome and touch unresolved. |
 | Dimensions / weight | **378W×173D×217H mm;5.32 kg**, explicit Head specifications,not PowerHead mass [kh-s]. |
 | Simultaneous blocks / category choices | **4 flexible pre +4 flexible stereo post**, plus **6 fixed pre +2 fixed stereo post**, around AMP/CAB. Complete category census unresolved [kh-p]. |
 | Preset / factory / user memory | Browse,Performance,factory occupancy and combined total unresolved in this first pass. |
 | Synth / acoustic | Dedicated synth/acoustic algorithms unresolved;amp profiling alone does not establish either. |
-| IR / NAM / captures | Proprietary amp PROFILE creation documented;IR conversion,native/converted NAM and current capture-resolution requirements unresolved [kh-p]. |
-| Audio I/O | Front¼-inch TS;balanced alternative TRS;balanced XLR/¼-inch return. Stereo main XLR balanced/TS unbalanced;monitor and direct/send TS;¼-inch stereo phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz master/slave [kh-s]. Input selection and stereo-monitor restrictions need qualification. No powered SPEAKER OUTPUT in Head specification;that output is explicitly PowerHead/PowerRack only. |
+| IR / NAM / captures | Proprietary amp PROFILE creation documented [kh-p]. Current FAQ: **MK2 creates/plays PROFILE2.0 at high resolution**;MK1 playback is standard resolution with OS14. Desktop Rig Manager **converts imported IRs into cabinet presets**;native onboard IR limits and native/converted NAM unresolved [kh-f]. |
+| Audio I/O | Front¼-inch TS;balanced alternative TRS;balanced XLR/¼-inch return. Stereo main XLR balanced/TS unbalanced;monitor and direct/send TS;¼-inch stereo phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz master/slave [kh-s]. Rear guitar input selection is global and requires front INPUT unplugged;DI Analog requires front input. One FX loop:mono send,mono/stereo return [kh-f]. Stereo-monitor routing still needs qualification. No powered SPEAKER OUTPUT in Head specification;that output is explicitly PowerHead/PowerRack only. |
 | Control / USB | USB-A/B,USB MIDI,DIN in/out/thru,RJ45,two pedal sockets;**4in/4out USB audio at44.1kHz** for MK2 [kh-s] [kh-p]. |
-| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head rating [kh-s]. Actual consumption,automatic selection,battery/USB operation unresolved;DC polarity not applicable to mains. |
-| Editor platforms / drivers | Rig Manager Windows/macOS over USB;mobile iOS/Android/FireOS over external WiFi router. Minimum versions,drivers and mobile parity unresolved [kh-p]. |
-| Practical features | Morphing,Performance switching,instrument/line external FX loop,Kone output modes documented. Looper,drums and exact switching limits unresolved [kh-p]. |
+| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head rating [kh-s]. FAQ confirms automatic mains adaptation [kh-f]. Actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. |
+| Editor platforms / drivers | Rig Manager Windows/macOS over USB;mobile iOS/Android/FireOS over external WiFi router. [kh-p]. **OS14.2.2**,official2026-09-22: Rig Manager≥4.3.13 Windows/macOS,≥1.9.25 iOS,≥1.9.42 Android/FireOS. Rig Manager4 requires Windows10 version1703/macOS10.14;separate Windows ARM64 installer. These are firmware-specific requirements,not seller installedOS proof;drivers and mobile parity unresolved [kh-r]. |
+| Practical features | Morphing,Performance switching,instrument/line external FX loop,Kone output modes documented. [kh-p]. Current FAQ gives MK2 looper **up to120 seconds**;mode/controller requirements,drums and exact switching limits unresolved [kh-f]. |
 | Bass capability | Exact MK2 manufacturer page explicitly identifies guitar and bass;not equal-performance certification [kh-p]. |
 
 ### Head MK2 — separate IDR asking-price evidence
@@ -251,6 +251,8 @@ Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, dist
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
+[kh-f]: https://www.kemper-amps.com/faqs
+[kh-r]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/
 [kh-p]: https://www.kemper-amps.com/store/en/profiler-head-b.html
 [kh-s]: https://www.kemper-amps.com/profiler/technical-specifications
 
