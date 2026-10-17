@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Hotone Ampero MP-100",
-    "task": "OriginalAmpero convertedNAM A2 verified withPCsoftware>=1.6.0. Next AmperoMini MP50sameexplicitnotice; commit eachmodel before next. Remainingfirmwareinventory/qualifiedoffers/legacywork unresolved.",
-    "next_models": [
-      "Hotone Ampero Mini MP-50"
-    ],
-    "after_queue": "Continue full research and discovery; no workflows/downloads/push."
+    "model": "Hotone Ampero Mini MP-50",
+    "task": "OriginalAmpero andMini convertedNAM A2 updates committed separately; Mini2.2clone10stored/1active andmodeladditions saved. Next currentMini controls/IRcapacity orfreshShopeediscovery; avoid readding existingmodelprofiles.",
+    "next_models": [],
+    "after_queue": "Continue research and legacy consolidation; no workflows/downloads/push."
   },
   "new_findings": [
     {
@@ -41418,7 +41416,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero MP-100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero Mini MP-50."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58793,6 +58791,24 @@
     "support": "ConvertedNAM A2",
     "pc_software_min": "1.6.0",
     "limits": "Notnative/unrestricted;no separateMP100firmwareminimum/currentOSmatrix;older5.2/1.5historyretained",
+    "downloads": false
+  },
+  "ampero_mini_nama2_20261017": {
+    "source": "https://www.hotone.jp/announcements/nama2allbrand",
+    "published": "2026-08-18",
+    "model": "Ampero Mini MP-50",
+    "support": "ConvertedNAM A2",
+    "pc_software_min": "1.6.0",
+    "clone_source": "https://www.hotone.jp/announcements/ampero-sound-clone-release",
+    "clone_firmware": "2.2March9,2026",
+    "clone_slots": 10,
+    "concurrent_clones": 1,
+    "clone_modules": [
+      "FX1",
+      "FX2",
+      "AMP"
+    ],
+    "limits": "SeparateIR/proprietaryclone/conversion;notnative or onboardcaptureproof;currentcompleteinventory/OSmatrix unknown",
     "downloads": false
   }
 }

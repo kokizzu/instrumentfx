@@ -156,6 +156,15 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-hotone-ampero-mini.md](effects/findings/2026-10-14-hotone-ampero-mini.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
 
+### Ampero Mini — Sound Clone and converted NAM A2, 2026-10-17
+
+| Field | Verified support / revision limit |
+|---|---|
+| IR / proprietary clones | [Hotone Japan’s2026-03-09 Mini2.2 release notes](https://www.hotone.jp/announcements/ampero-sound-clone-release) add **ten imported Sound Clone files, one active at a time**, available in FX1/FX2/AMP. These are separate from user IR storage and do not establish onboard capture creation. Editor1.5.0’s release list explicitly includes Mini2.2. |
+| IR / NAM / conversion | [2026-08-18 model-specific notice](https://www.hotone.jp/announcements/nama2allbrand) establishes **Ampero Mini NAM A2 conversion with PC software1.6.0+**. This supersedes the earlier unresolved NAM field, not the retained historical observation. Native NAM and unrestricted architecture compatibility remain unverified. |
+| Processing / Mini2.2 additions | Mini’s own notes add **Precise Attack** in FX1/FX2 and **Match30 Clean** in AMP. Do not infer a new unique library total from the older199-effect headline plus these changes. Installed firmware and current complete category inventory remain unknown; no downloads or execution performed. |
+
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
