@@ -536,7 +536,7 @@ def main():
         if mode == 'commit-gfx5':
             message = 'research(zoom): qualify GFX-5 expression routing and ARRM conflicts'
         if mode == 'commit-gfx3':
-            message = 'research(zoom): qualify GFX-3 pedal tuner and mixed-variant offer'
+            message = 'research(zoom): qualify GFX3 converters and printed EQ discrepancy'
         if mode == 'commit-rp250':
             message = 'research(digitech): enumerate RP250 named Chorus FX choices'
         if mode == 'commit-rp90':

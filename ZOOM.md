@@ -2366,6 +2366,8 @@ Guitar multi-effects;distinct from GFX-5/G3. Checked2026-10-17;partial. Manufact
 | Factory / user memory | **120=60user+60preset**,ready-to-use;20banks×3 eachgroup. Presets read-only;STORE edits into user area. | [Manual pp3,12–14,23][GFX3-M] |
 | Synth / acoustic | ACFAT/ACBRI acoustic simulations. SFX uses random/envelope processing;dedicated synthesizer architecture unverified. | [Manual pp19–20][GFX3-M] |
 | I/O | Mono¼guitar input470kΩ;stereo¼line/headphone output;DC. Documented rear has no USB/MIDI/external-control jack. | [Manual pp4,24][GFX3-M] |
+| I/O / conversion and analog ratings | Sampling **31.25 kHz**; A/D **20-bit, 64× oversampling**; D/A **20-bit, 8× oversampling**. Rated mono input −20 dBm, 470 kΩ. Shared stereo line/headphone output maximum **+3 dBm into ≥10 kΩ**; headphone mW/load rating unspecified. Do not substitute GFX-5/G3 converter or output ratings. | [Manual p24][GFX3-M]; checked2026-10-18 |
+| EQ / printed frequency qualification | Four bands, each ±12: BASS125 Hz, TREBLE3.125 kHz, PRESENCE8 kHz; the same manual also prints **MIDDLE8 kHz**. Preserve that apparent duplication as a source issue; actual MIDDLE center frequency remains unresolved. | [Manual p19][GFX3-M]; checked2026-10-18 |
 | Power / battery / USB | **9VDC center-negative,AD0006 300mA supply**,not draw. FourAA alkaline~11h;no recharging. USB power unverified. | [Manual pp2,24][GFX3-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified;factory cabinets do not establish imports. | Unresolved |
 | Editor / software | Editor/platform support unverified;support lists manual. | [Support][GFX3-S] |
