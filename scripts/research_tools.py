@@ -391,7 +391,7 @@ def main():
         if mode == 'commit-dapper-dark-mini':
             message = 'research(valeton): add separate Dark Mini with indexed-manual qualifications'
         if mode == 'commit-rp500':
-            message = 'research(digitech): verify RP500 electrical and USB specifications'
+            message = 'research(digitech): document RP500 expression updates and assignable LFOs'
         if mode == 'commit-g21u':
             message = 'research(zoom): qualify G2.1u USB monitoring and global switch functions'
         if mode == 'commit-r16':

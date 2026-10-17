@@ -187,6 +187,13 @@ Guitar multi-effects, distinct from RP255/RP360XP/RP1000. Manufacturer lists pas
 | Editor / software | X-Edit2.7.0 Windows/2.7.1 IntelMac listed. USB audio **2to/2from computer**,USB1.1 FullSpeed viaTypeB. Current OS compatibility unverified. | [Product][RP5-P] |
 | Looper / drums / live | **20s looper**,overdubs;can change presets/effects while looping. Looper reassigns UP/DOWN,restricting bank/preset navigation. Quiet-start/on-the-fly modes documented; firmware/install state of seller unit unknown. Drums,scenes,trails unverified. | [Looper addendum][RP5-L] |
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / assignments and LFOs | Pedal assignment and heel/toe limits save per preset; wah has separate limits. Two assignable LFOs automate expression-eligible parameters, with individual rate and triangle/sine/square waveform choices. | [Manual p26][RP5-M] |
+| Expression / preset changes | Global EXPUPDAT defaults off: pedal position updates on preset change only for Volume Pre/Post assignments. Enabled, it updates position for any linked parameter. No per-preset save is required for this global setting. | [Manual p27][RP5-M] |
+| Expression / calibration and reset | Holding BYPASS about five seconds enters calibration without erasing user presets. Footswitch 5 confirms endpoints and exits; V-Switch threshold range is 0–199. Factory reset erases user data and then calibrates. No device action was performed. | [Manual p27][RP5-M] |
+
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence | Source |
