@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Discovery / HD300 deferred gaps",
-    "task": "HD300 official dual-tone/preset incompatibility verified via migrated KB. Physical/power/currentfirmware gaps deferred explicitly. Next fresh Shopee discovery for eligible uncovered models;retain273partialrecords and legacyZoomleads.",
-    "next_models": [],
-    "after_queue": "No downloads/workflows/push;commit each useful model before next."
+    "model": "Zoom B2 FOUR price follow-up",
+    "task": "Freshdiscovery found exact IDB MUSIK PLUS B2FOUR+AD16E offer4495000;check existing canonical price evidence,merge only useful new provenance before nextmodel. See discovery_line6_digitech_bass_vocal_20261017;no newmodelcount.",
+    "next_models": [
+      "TC-Helicon VoiceLive 3 Extreme offer reconciliation"
+    ],
+    "after_queue": "Broaden uncoveredseries;273partialrecords;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -56393,5 +56395,57 @@
     "saved": "HD300notdual-tone;Dualoutputsplitdistinct. XT/X3 andHD500/500XtonesnotcompatiblewithHD300.",
     "access": "Newkb.line6.compagesread;oldercommunityKBpathsreturnedcachemisspreviously.",
     "remaining": "Power/physicalspecs,currentdriver/firmware,currentqualifiedprices,IR/NAMcapture"
+  },
+  "discovery_line6_digitech_bass_vocal_20261017": {
+    "checked": "2026-10-17",
+    "queries": [
+      "Floor POD Plus/Floorpod ShopeeID",
+      "Line6M13 ShopeeID",
+      "DigitechRP355/RP55 ShopeeID",
+      "TC-HeliconVoiceLive2/Vocal300 ShopeeID",
+      "ZoomB2bass ShopeeID"
+    ],
+    "unrecorded_qualified_models": [],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+        "reason": "Adapter only"
+      },
+      {
+        "url": "https://shopee.co.id/replacement-power-supply-9V-2000mA-Line-6-Adaptor-Penganti-Line6-POD-9VAC-M13-Pedal-AC-9-V-9-Vac-2A-i.216990724.6861766207",
+        "reason": "Power supply only;not M13hardware"
+      }
+    ],
+    "existing_model_offer_followups": [
+      {
+        "model": "Zoom B2 FOUR",
+        "url": "https://shopee.co.id/Multi-Efek-Bass-Zoom-B2-FOUR-Adaptor-Zoom-AD-16E-Original-i.800959591.24004987590",
+        "seller": "IDB MUSIK PLUS",
+        "shop": "800959591",
+        "item": "24004987590",
+        "region": "Kota Jakarta Utara",
+        "idr": 4495000,
+        "bundle": "Seller title includes AD-16E",
+        "crawl": "three weeks",
+        "condition": "unverified",
+        "stock": "unverified",
+        "next": "Compare existing B2FOUR canonical offers before adding;not a newmodel"
+      },
+      {
+        "model": "TC-Helicon VoiceLive 3 Extreme",
+        "url": "https://shopee.co.id/TC-HELICON-Voicelive-3-Extreme-Vocal-and-Guitar-Effects-Performance-Floor-Pedal-i.158235298.27355892310",
+        "seller": "NEO MUSIC",
+        "shop": "158235298",
+        "item": "27355892310",
+        "region": "Kota Sukabumi",
+        "idr": 13897790,
+        "crawl": "two months",
+        "condition": "unverified",
+        "stock": "unverified",
+        "next": "Check saved VL3X record for existing offer/date before merging"
+      }
+    ],
+    "limits": "Limited indexed discovery;no currentcheckout,condition/stock/variant/voucher/shipping/tax/warranty confirmation. Empty newmodel result not marketabsence. No files downloaded.",
+    "next": "Use exact existing-model offers to improve canonical price provenance where new,then broaden uncovered brands/series."
   }
 }
