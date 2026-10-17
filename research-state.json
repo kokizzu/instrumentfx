@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B3n",
-    "task": "B3n dated macOS15 Intel/Silicon and Windows11 compatibility saved; firmware preserves patches. Panel screenshot unavailable; do not retry identical failing screenshot or claim visual resolution. Next other primary gaps/fresh discovery; headphone conflict,fullcontrols,USBaudio/power andqualifiedoffers remain.",
+    "model": "Valeton GP-5",
+    "task": "Electrical ratings,Bluetooth/FS modes and two qualified exact offers saved. Next currentfirmware/NAMA2architecture prerequisites,IRlength,screen diagonal/controlcounts andusedprice; do not treat old firmware landing aslatest.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B3n."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57634,6 +57634,16 @@
         "https://zoomcorp.com/en/jp/news/macos_sequoia/",
         "https://zoomcorp.com/en/jp/news/Windows11/",
         "https://zoomcorp.com/media/documents/E_B3n.pdf"
+      ]
+    },
+    {
+      "model": "Valeton GP-5",
+      "checked_date": "2026-10-18",
+      "finding": "Currentproduct24ADDA44.1k100dBSNR1Minput100ΩoutputBT5BLE/audio4FSmodessaved;consumption labels distinguishedFAQminimumsupplies. Dial338305078/29088301413index1.5533m vsdirect1.585m; BMD1275754364/57400332425direct1.5345mshopstatusuncertain. Firmware1.0.6landing notlatestproof; noarchivesdownloaded.",
+      "sources": [
+        "https://www.valeton.net/product/gp-5/",
+        "https://shopee.co.id/Valeton-GP-5-Multi-Efek-AMP-and-IR-Loader-Mini-Pedal-Efek-Digital-Mini-Valeton-GP5-i.338305078.29088301413",
+        "https://shopee.co.id/Valeton-GP-5-Multi-Effect-Processor-i.1275754364.57400332425"
       ]
     }
   ],

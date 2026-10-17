@@ -727,6 +727,19 @@ The unchanged complete compact comparison was rechecked on 2026-10-17. Its 23 GP
 | `P6` | [Official-shop historical new quote](https://shop.valeton.net/products/gp-5) |
 
 The July 2025 FAQ and 2026-10-14 shared rows remain dated evidence; the later app 2.1.0+ A2 conversion qualification and 2026-10-17 Shopee observations remain separate. No source retired or stock refreshed by this audit.
+### GP-5 — electrical ratings, operating modes and offer recheck
+
+Checked 2026-10-18 against the exact-model product page and Shopee hardware listings. No downloads or installations.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / conversion | Manufacturer specifies **24-bit A/D/A,44.1 kHz,SNR100dB**. These conversion ratings do not establish USB stream bit depth. | [Official product](https://www.valeton.net/product/gp-5/) |
+| I/O / impedance and wireless | TS instrument input **1 MΩ**; unbalanced stereo TRS/headphone-compatible output **100 Ω**. **Bluetooth5.0 dual-mode BLE/audio**; product explicitly supports recording Bluetooth playback via USB audio. This does not establish wireless multichannel recording. | [Official product](https://www.valeton.net/product/gp-5/) |
+| Physical controls / switch modes | One LED-ring footswitch supports **Patch,Songlist,Stomp CTL,Tuner/Bypass** modes. Exact complete rotary/button counts remain unresolved; modes are alternatives, not additional physical switches. | [Official product](https://www.valeton.net/product/gp-5/) |
+| Power / current convention | Current product page labels **100mA at9VDC and190mA atUSB5V as consumption**; the older FAQ describes minimum supply requirements. Preserve those source contexts rather than treating adapter capacity and draw as interchangeable. | [Official product](https://www.valeton.net/product/gp-5/); [July2025FAQ](https://res.valeton.net/Uploads/wp/2025/07/VALETON-GP-5-QA.pdf) |
+| IDR / Dial Musik exact offer | Palembang, seller/item **338305078/29088301413**: older two-month index **Rp1.553.300**, crossedRp1.585.000,2%off; directly reopened last-week body instead **Rp1.585.000**, stale11–13October delivery. No Habis shown in retrieved body; stock,condition,adapter bundle,warranty region and checkout unverified. These are separate snapshots, not a current range. | [Exact hardware](https://shopee.co.id/Valeton-GP-5-Multi-Efek-AMP-and-IR-Loader-Mini-Pedal-Efek-Digital-Mini-Valeton-GP5-i.338305078.29088301413) |
+| IDR / BMD Guitar Shop exact offer | Kab.Sleman,seller/item **1275754364/57400332425**: **Rp1.534.500**,last-week direct cache. Older index says shop on holiday; direct snapshot shows seller last active15days earlier and relative tomorrow delivery. Current shop availability,condition,adapter bundle,warranty and checkout remain unverified. Late-delivery compensation excluded from discounts for both offers. | [Exact hardware](https://shopee.co.id/Valeton-GP-5-Multi-Effect-Processor-i.1275754364.57400332425) |
+
 
 ## GP-50
 
