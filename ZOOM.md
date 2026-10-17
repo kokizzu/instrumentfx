@@ -2497,7 +2497,7 @@ G1XN / G1XNext; guitar multi-effects, checked2026-10-17; partial. Not G1Xon or G
 | K/F/B | **2/2/4**, text-derived: selector,VALUE;two footswitches;RHYTHM,STORE,BANK UP/TAP,PEDAL ASSIGN. Toe additional; visual audit pending. |
 | Display | **2-digit7-segment LED**;diagonal/color/touch unverified. |
 | Processing / choices | **54 types;8 simultaneous modules**. COMP/EFX,DRIVE,EQ,ZNR/AMP,MODULATION,DELAY,REVERB;ZNR andAMP are separate in signal diagram. The category inventory below reconciles54. |
-| Factory / user memory | **40 read-only+40 user=80**;initial user contents unverified. |
+| Factory / user memory | **40 read-only+40 user=80**;user-bank factory originals are restorable. Exact initial names and duplication against presets unverified. |
 | Synth / acoustic | **ACO.SIM converts electric-guitar tone to acoustic-like sound**; synth engine unverified. |
 | Dimensions / weight | **155D×234W×52Hmm;600g without batteries**. |
 | I/O | Mono quarter-inch input;stereo quarter-inch combined line/phones output;DC. No USB/MIDI/loop in panel inventory. |
@@ -2537,4 +2537,16 @@ Checked2026-10-17 against original manual pp3,21–27, footerG1N/G1XN-5000-1, re
 | Category choices — DELAY and REVERB | **Delay4:** Delay,Tape Echo,Analog Delay,Ping Pong. **Reverb5:** Hall,Room,Spring,Arena,Tiled Room. |
 | Processing / count reconciliation | **9+21+1+4+10+4+5=54** listed choices. They are not54 concurrent effects or21 amp models. |
 | Delay / live | MODULATION Delay reaches2s; dedicated DELAY reaches5s. Selecting ACO.SIM makes GAIN adjust acoustic TOP instead of distortion gain. |
+
+### G1Xnext — saving and live recall
+
+Checked2026-10-17 against [original manual text][G1XN-M], pp9–10,15–18, G1N/G1XN-5000-1.
+
+| Field | Evidence / gaps |
+|---|---|
+| Factory / user memory | All Initialize restores original user-patch contents, overwriting saved edits. This establishes factory originals, but not their exact names or equality to read-only presets. |
+| Preset saving | Edits are lost when another patch is recalled unless stored. STORE selects a destination; a second STORE commits. Only user banksA–d accept writes; starting from preset banks0–3 defaults the destination toA0. Turning VALUE cancels before confirmation. |
+| Presets / live recall | Preselect is enabled at startup with the up footswitch held. Browsing leaves current sound active; pressing both footswitches confirms recall. Power cycling restores ordinary selection. This does not prove gapless switching or snapshots. |
+| Tuner / bypass | In play/rhythm modes, both switches briefly activate bypass; holding reaches mute. Unavailable in edit mode. Uneven switch timing can momentarily recall an adjacent patch. |
+| Power / retained settings | Master level resets to80 and tuner reference to440Hz on restart; patch storage does not imply persistence of these global settings. |
 
