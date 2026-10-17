@@ -18,7 +18,7 @@ Bass multi-effects platform; checked2026-10-18,partial. Ownership unverified. Gu
 | Power / USB / battery |Product **9–12V center-negative≥1.7A**,9V adapter included;manual rear layout **9V2A**. Preserve rating/scope difference. USB-C PD **≥18W**;battery operation unverified. | [Product][ANA-P];[manual][ANA-M] |
 | IR / NAM / captures |User cabinetIR,NAM,AIDA-X viaSuite desktop assets. NeuralAmp,NeuralPedal,NeuralLoader separate model-loading blocks. Exact native/converted architecture,size/format limits andinstance ceilings pending version-specific audit. | [Manual][ANA-M] |
 | Synth / acoustic |KosmOS1.18 adds **Axioma monophonic synth**;license/bundle eligibility unverified. Acoustic simulation unverified. | [Product changelog][ANA-P] |
-| Editor / USB |Darkglass Suite forupdates/library/assets;platform/minimumOS unknown. ManualUSB AudioClass2,48kHzfixed,**3in/9out** asprinted;host/device channel direction mapping pending. USBMIDI. Bluetooth role/version pending. | [Product][ANA-P];[manual][ANA-M] |
+| Editor / USB |Darkglass Suite forupdates/library/assets;platform/minimumOS previously unknown; see versioned Suite findings below. ManualUSB AudioClass2,48kHzfixed,**3in/9out** asprinted;host/device channel direction mapping pending. USBMIDI. Bluetooth role/version pending. | [Product][ANA-P];[manual][ANA-M] |
 | Looper / routing / live |Looper,tuner,parallel split/merge andscenes documented;recording duration,drums,trails restrictions unverified. | [Product][ANA-P];[manual][ANA-M] |
 
 ### Source versions and limits
@@ -51,3 +51,16 @@ Checked2026-10-18: [official online manual/block list](https://www.darkglass.com
 | Factory / user memory limits |1.18 changelog's126 user areas isnot yetreconciled with1.17's126preset capacity. Do not multiply them toinvent15,876presets. |
 
 Full named block list remains linked rather than treated as guaranteed free factory content. Further work:memory areas,NAM architecture/limits,Suite platforms,plugin licensing,full manual/panel andqualified offers.
+
+### Anagram — Suite compatibility and firmware limits
+
+Checked 2026-10-18 against the [official Suite page](https://www.darkglass.com/products/darkglass-suite); no installers or firmware downloaded. Earlier versioned evidence above remains historical.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / desktop platforms | Suite **6.11.1** explicitly supports Anagram **1.18.0**. Windows heading says **Windows 10 & 11 (24H2 or later)**; the scope of that parenthesis is ambiguous. macOS **11 Big Sur+**, universal x64/arm64. Legacy Suite **1.3.6** lists other devices only, not Anagram. |
+| Editor / mobile and driver separation | Suite mobile lists **iOS 15.6+ / Android 11+**, but product-dependent features mean Anagram mobile editing/asset parity remains unverified. Separate Windows USB audio driver **5.72.0**; driver availability is not editor compatibility. |
+| NAM / firmware-dependent concurrency | KosmOS **1.18.1** removes the three-neural-loader-block limit and adds Blend/EQ Position to Tone3000 NAM loader. Removal does not imply unlimited DSP or settle native-versus-converted model architecture. |
+| Factory / user memory area conflict | Suite changelog for **1.18.0 says up to127 user areas**; exact product page above says126. Preserve the unresolved conflict, not an assumed factory-area offset. Total preset capacity remains unverified. |
+
+Next: version-specific NAM architecture/file constraints, licensing, full preset-area semantics, hardware panel and qualified used/new offers.
