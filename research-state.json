@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery after ME-20",
-    "task": "ME-20added193rdmodel,notME20B;Rp900000indexedcondition/variantunknown. Continueownmanualcontrols/pedal/memorygaps orfreshdiscovery.",
+    "model": "Fresh discovery after ME-20 manual follow-up",
+    "task": "ME-20 toe/factoryfill/batterymass/maxheight/power routing resolved; buttons and remaining fields open. Search Shopee by brand/series for unrecorded eligible units; do not re-add193 recorded models.",
     "next_models": [],
-    "after_queue": "No downloads/workflows;commitbefore nextmodel."
+    "after_queue": "Official sources; no downloads/workflows; commit each model before next."
   },
   "new_findings": [
     {
@@ -40489,7 +40489,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery after ME-20."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery after ME-20 manual follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48981,6 +48981,13 @@
       "source": "https://zoomcorp.com/media/documents/E_G71ut.pdf",
       "finding": "Manualcategoryinventory3+11+3+36+1+1+20+6+11=92 across9modules. ControlTOTAL/NAME/ARRM/PDLexcluded. PRE/POSTpreamp position sharedA/B;POSTafterDELAYmono vsPREstereoafterMOD.",
       "remaining": "Buttons/visualcontrols,translationconflicts,imports/currentsoftware/prices;categoryinventoryresolvedforcitedmanual,no repeatcount."
+    },
+    {
+      "model": "BOSS ME-20",
+      "checked_date": "2026-10-17",
+      "source": "https://static.roland.com/assets/media/pdf/ME-20_OM.pdf",
+      "finding": "pp9,30 toe wah/volume and firmness1–9; p37 maximumheight74mm and massincludesbatteries; pp29,31–33 factory-filled30user/reset scope; p10 inputpower,AUXdry/headphonescompensation.",
+      "remaining": "Button count,simultaneousceiling,polarity,screen details,imports/editor,condition-qualified prices and stock remain unresolved."
     }
   ],
   "discovery_cross_brand_bass": {

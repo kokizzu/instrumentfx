@@ -423,7 +423,7 @@ def main():
         if mode == 'commit-g3':
             message = 'research(zoom): document G3 battery settings eco behavior and tuner modes'
         if mode == 'commit-me20':
-            message = 'research(boss): add ME-20 separately from bass sibling'
+            message = 'research(boss): resolve ME-20 toe control factory fill and battery mass'
         if mode == 'commit-me25':
             message = 'research(boss): qualify ME-25 library software and converter specifications'
         if mode == 'commit-me70':
