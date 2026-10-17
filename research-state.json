@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line6 Floor POD Plus",
-    "task": "Initial SpanishRevB record saved;next verify124editable/factorymemory and named16FX plus6delay/2reverb restrictions;thenpower/dimensions/editorOS. Mixedprice remainsunallocated.",
+    "task": "FloorPODPlus124editable/factorysame slots andFX16/delay6/reverbautoassignment saved. Next verify powerPX2electricalratings,dimensions/mass,editorOS;enumerate32amp/16cabselections ifuseful. Aggregate simultaneous count stillunverified.",
     "next_models": [],
     "after_queue": "289partialmodels;no downloads/workflows/push."
   },
@@ -57985,7 +57985,6 @@
     "identity": "Spanish40-00-0116RevB ©2009 36pages",
     "faq": "https://kb.line6.com/floor-pod-floor-pod-plus-faq",
     "remaining": [
-      "Memory editable total",
       "NamedFX16/amp/cab lists",
       "Simultaneous blocks",
       "Power electrical ratings",
@@ -57996,6 +57995,16 @@
       "Exact allocated price",
       "Looper/drums/imports"
     ],
+    "downloads": false
+  },
+  "floorpodplus_memory_fx_20261017": {
+    "source": "https://line6.com/data/6/0a060b316ac34f0593b6b6f51/application/pdf/Floor%20POD%20Plus%20user%20manual%20-%20Spanish%20%28%20Rev%20B%20%29.pdf",
+    "sections": "3•1–3•6,4•1–4•3",
+    "memory": "124factoryfillededitable same locations;customdefaultsnotextraslots",
+    "fx_count": 16,
+    "delay_count": 6,
+    "reverb": "Spring/Room autoassignedbyamp",
+    "comp": "5activeratios+off",
     "downloads": false
   }
 }

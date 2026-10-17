@@ -1449,7 +1449,7 @@ Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-0
 | Controls | Text-derived **14rotary/7foot/2separatebuttons**;AMP encoder push additional,rearAmp/Direct separate. Rotary:AMP,Effects,Delay-select,Drive,Bass,Mid,Treble,ChannelVolume,Compressor,Gate,EffectTweak,Delay-level,Reverb,OutputLevel. Foot:Bank±,A–D,Tap;buttonsSave/Manual. Visual verification pending. |
 | Display | Channel/note display;diagonal,color,touch unverified. |
 | Processing / choices | **32amps;16cab selections includingNoCab;16FX;6delays;2reverbs**. Compressor,gate,wah;aggregate simultaneous count pending. |
-| Factory / user memory | **124preprogrammed channels,31×4**;saving supported;editable-total reconciliation pending. |
+| Factory / user memory | **124 factory-filled,editable channels,31×4**;same locations,not124+124. |
 | Synth / acoustic | Unverified;A.I.R. speaker/mic/room simulation is not acoustic-guitar conversion. |
 | Dimensions / mass | Unverified. |
 | I/O | Guitarinput,AUX,L/Mono+Routs,quarter-inchphones,MIDIIn/Out,power;connector sizes otherwise pending. NoUSB listed. |
@@ -1471,3 +1471,14 @@ Not an exact FloorPODPlus ask. Seller normal/bonus-bag claims unverified;selecte
 [FPP-M]: https://line6.com/data/6/0a060b316ac34f0593b6b6f51/application/pdf/Floor%20POD%20Plus%20user%20manual%20-%20Spanish%20%28%20Rev%20B%20%29.pdf
 [FPP-F]: https://kb.line6.com/floor-pod-floor-pod-plus-faq
 [FPP-S]: https://shopee.co.id/efek-gitar-second-korg-ax3000g-ax1500g-pod-floor-plus.-bonus-tas-effect-guitar-ax-3000g-1500g-3000-1500-bekas-normal-bukan-zoom-nux-mg-valeton-line-6-moer-i.102019323.25663831731
+
+### Floor POD Plus — memory and effect restrictions
+
+Checked2026-10-17;[SpanishRevB][FPP-M],sections3•1–3•6,4•1–4•3.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Processing / FX16 | Tremolo,Chorus1/2,Flange1/2,Rotary,Phaser,U-Vibe,Obi-Wah,Tron-Up,OctaveFuzz,SubOctave,CometTrails,RingModulator,OttoPhase,Swell. These are alternatives in one FX selection,not16 simultaneous blocks. |
+| Processing / delay-reverb | Delay choices:Tape,Multi-Tap,Digital,Reverse,SweepEcho,Analog. Reverb is Spring orRoom,automatically assigned by amp model;not established as freely selectable independently. Compressor offers five active ratios(1.4:1,2:1,3:1,6:1,infinity:1),plusoff. |
+| Factory / user memory | All124 channels editable;Save,choosebank1–31/channelA–D,confirm. Turning a knob or waiting5s cancels saving. Custom default settings for currentamp/FX/delay can also be saved;these do not add channel slots. |
+| Preset / live | HoldSave2s entersCompare;indicators compare knob position with stored value. Manual mode uses physical knob positions;exiting recalls the last channel. |
