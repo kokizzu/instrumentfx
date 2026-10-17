@@ -636,6 +636,19 @@ Checked 2026-10-17, original list printed pp21–27. [Source][MP350-E11].
 These 38 entries exclude the separately documented Bass and Power Amp subsections. Drive, Hi Gain and the PRE AMP equivalents remain untranscribed; no complete current AMP total is inferred.
 
 
+### MP-350 — remaining AMP census, firmware 1.1.0-JP
+
+Checked 2026-10-17, original list printed pp27–36. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / AMP Drive | **30 mono entries**: Baseman Bright; Brown King Drive; Voxy 30HW TB; Superb Dual Drive; Marshell Blues; Marshell 45; Marshell 45+; Marshell 45 Jump; Marshell 50; Marshell 50+; Marshell 50 Jump; Marshell SLP; Marshell SLP+; Marshell SLP Jump; Marshell 800; Pendragon Drive; Messe IIC+; Glacian Drive; Tang A30 Drive; Fryman B; Boger XT Blue V; Boger XT Blue M; Soloist 100 Crunch; Soloist 100 Crunch HQ; Emperor Drive; Dr. 38 Drive; Superstar Drive; Hot Kitty Drive; Dumbell ODS 2; Petrus Crunch HQ. |
+| Category choices / AMP Hi Gain | **19 mono entries**: Marshell 900; Tang R100; Messe IV Lead; Soloist 100 Lead; Soloist 100 Lead HQ; Eddie 51; Fryman HB; Engle Saga 1; Engle Saga 2; Powerengle Lead; Dizzle VH B; Dizzle VH S; Rector Dual V; Rector Dual M; Dizzle VH+ B; Dizzle VH+ S; Boger XT Red V; Boger XT Red M; Petrus Lead HQ. |
+| Processing / AMP revision census | **93 entries derived: Clean38 + Drive30 + HiGain19 + Bass5 + PowerAmp1**. Channel, Jump, HQ and panel variants are separately listed entries; internal tone/tube settings are not. Not simultaneous capacity or a verified current installed-library total. PRE AMP remains separate. |
+
+This completes the older AMP name census; PRE AMP transcription and later-firmware reconciliation remain open.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
