@@ -2363,3 +2363,36 @@ Hope Music's mixed G1x Next/B1x Next seller-page ask stays unassigned in the led
 [B1XO-M]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf
 
 [B1XO-A]: https://zoomcorp.com/en/jp/support/applications/
+
+## RFX-1000
+
+Checked2026-10-17; partial. [Official English manual][R1K-M],16pages,RFX-1000-5000;date/revision unverified.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No integrated treadle;FS01 bypass input. Continuous EXP/toe unknown. |
+| Controls | **6 rotaries /0 integrated footswitches /0 separate buttons**, text-derived;BANK selector and power separate. Visual verification pending. |
+| Display | Level/power LEDs; published screen diagonal/color/touch unestablished. |
+| Processing / choices | **33 effects across3 banks×11**,including combinations. Vocoder can combine distortion+chorus. Complete bank enumeration/max concurrency pending. |
+| Presets | **363 selector combinations=33×11variations**,not363 editable memories. User-memory support unestablished. |
+| Synth / acoustic | Vocoder uses external synthesizer at INPUT L,voice control via MIC IN;not proof of internal synthesizer. Acoustic conversion unknown. |
+| Dimensions / weight | **482W×44H×115Dmm;1.5kg**. |
+| I/O | Mono quarter-inch L/MONO,R inputs;L/R outputs;front dynamic-mic input;BYPASS;power. USB/MIDI/headphones/phantom unestablished. |
+| Power | **12V AC AD-0008**;not12V DC. DC polarity N/A;current/battery/USB operation unknown. |
+| Editor / platforms | Editor,driver/updater and supported OS unknown. |
+| IR / NAM / captures | User IR,native/converted NAM,captures unknown. |
+| Looper / drums / live | Looper/drums/scenes unknown. |
+| Instrument scope | Guitar requires preamp/effect first;dynamic microphone supported. Guitar/vocal shared inclusion; bass unclassified. |
+
+Manual pp2–4,15. Text-only review;no download or visual claim.
+
+### RFX-1000 — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used | Unknown | — |
+| New | Unknown | — |
+| Unverified / BERKAH ELECTRONIC & AUDIO,Kab.Purworejo | **Rp898.500,Habis**,shop309797382/item53959627621. Checked2026-10-17;last-month cached page,not live stock. Condition,working state,adapter,bundle,variant,warranty,voucher,shipping/tax unknown;Septemberarrival stale. | [Shopee][R1K-O] |
+
+[R1K-M]: https://zoomcorp.com/media/documents/E_RFX1000.pdf
+[R1K-O]: https://shopee.co.id/EFEK-ZOOM-RFX-1000-i.309797382.53959627621

@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 283,
+  "active_model_count": 284,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 283,
+  "canonical_root_model_count": 284,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "283 unique active/root-canonical;0 legacy-only;32 brands;6 excluded;all partial. REV500 guitar/vocal; bass unclassified.",
+  "count_reconciliation": "284 unique active/root-canonical;0 legacy-only;32 brands;6 excluded;all partial. RFX-1000 guitar/vocal; bass unclassified.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha REV500",
-    "task": "Ten topologies, STORE type constraint, MIDI map capacity and predelay limits saved. Next resume Shopee brand/series discovery; do not duplicate REV500 or treat map entries as memory count.",
+    "model": "Zoom RFX-1000",
+    "task": "Initial own-manual record added. Next enumerate exact banks and combination limits; preserve selector combinations versus editable memory and AC power.",
     "next_models": [],
-    "after_queue": "283 partial models; no downloads/workflows/push."
+    "after_queue": "284partial records;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23939,7 +23939,8 @@
       "RFX-2000",
       "606",
       "607",
-      "B1X original"
+      "B1X original",
+      "RFX-1000"
     ],
     "DigiTech": [
       "RP360XP",
@@ -24147,7 +24148,8 @@
       "RFX-2000",
       "606",
       "607",
-      "B1X original"
+      "B1X original",
+      "RFX-1000"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -24363,7 +24365,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 233,
+      "record_count": 234,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24375,9 +24377,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 55,
+      "record_count": 56,
       "vocal_only_count": 22,
-      "combined_instrument_count": 33,
+      "combined_instrument_count": 34,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41335,13 +41337,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 283,
-    "canonical_root_models": 283,
+    "unique_brand_model_pairs": 284,
+    "canonical_root_models": 284,
     "legacy_only_models": 0,
-    "guitar_view_models": 233,
+    "guitar_view_models": 234,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 55,
+    "vocal_view_models": 56,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41398,7 +41400,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha REV500."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom RFX-1000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41586,6 +41588,7 @@
       "Zoom::RFX-1100",
       "Zoom::RFX-2000",
       "Zoom::606",
+      "Zoom::RFX-1000",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -41788,6 +41791,7 @@
       "Zoom::V3",
       "Zoom::RFX-1100",
       "Zoom::RFX-2000",
+      "Zoom::RFX-1000",
       "DigiTech::GNX4",
       "Behringer::FX2000",
       "Lexicon::MX200",
@@ -43669,6 +43673,13 @@
     },
     "Zoom::B1X original": {
       "link": "ZOOM.md#b1x-original",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::RFX-1000": {
+      "link": "ZOOM.md#rfx-1000",
       "source_files": [
         "ZOOM.md"
       ],
@@ -57186,6 +57197,31 @@
       "Display diagonal/color/touch",
       "Visual control verification",
       "Condition-qualified IDR offers"
+    ]
+  },
+  "rfx1000_primary_20261017": {
+    "manual": "https://zoomcorp.com/media/documents/E_RFX1000.pdf",
+    "identity": "16-page English RFX-1000-5000; revision/date unresolved",
+    "power": "12V AC AD-0008; do not adopt seller DC adapter claims",
+    "offer": "https://shopee.co.id/EFEK-ZOOM-RFX-1000-i.309797382.53959627621",
+    "other_leads": [
+      {
+        "url": "https://shopee.co.id/EFFECT-VOCAL-ZOOM-RFX1000-RFX-1000-ZOOM-EFEK-VOCAL-i.4896483.1811483791",
+        "idr": 1200000,
+        "seller": "electronic88",
+        "region": "Kota Jakarta Barat",
+        "access": "Index3months;notdirectopened",
+        "condition": "Unknown",
+        "stock": "Unknown"
+      }
+    ],
+    "rejected": "32606467/15042623401,855783279/22145061209,14849321/29904844912,36256159/18465496815 are adapter-only offers,not hardware",
+    "remaining": [
+      "Complete bank/effect choices and concurrency",
+      "User-memory behavior",
+      "Visual controls",
+      "Editor OS",
+      "Condition-qualified IDR"
     ]
   }
 }
