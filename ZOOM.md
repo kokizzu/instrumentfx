@@ -1950,6 +1950,17 @@ Checked 2026-10-18; original manufacturer documents read as browser text, withou
 | Synth / additional single-note algorithm | [100-effect list p17](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf) also names **4VoiceSyn**, marked as a **Ver1.2 addition** by the list legend. It adds synth harmony to **single notes**, with nine Mode choices and two Scale variations. These are parameters within one algorithm, not 18 additional effects or polyphonic tracking proof. |
 | Looper / delay tail distinction | Same effects list p19: Delay reaches **4000 ms**; TapeEcho **2000 ms**. Tail ON preserves decay when the individual effect is disabled; it does not establish tails across patch changes or loop persistence. |
 
+
+### B1on — complete published category census
+
+Checked 2026-10-18 against [manufacturer 100-effect list, ©2014, Z2I-2129-01](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf), pp2–25. Counts enumerate named entries, not parameter variations.
+
+| Field | Published inventory / qualification |
+|---|---|
+| Processing / categories | **Dynamics/filter 21; overdrive/distortion 14; amp simulator 12; modulation/SFX 32; delay/reverb 21: total 100 non-PEDAL entries.** Five simultaneous slots remain a separate DSP-limited ceiling. |
+| Processing / revision accounting | The legend marks **Ver1.2 additions** with an asterisk: category subtotals **4/3/0/11/7 = 25 additions**. Removing these yields **17/11/12/21/14 = 75**, reconciling the original manual’s 75 with this 100-entry library. This is document accounting, not an installed-firmware audit or a claim that firmware1.30 introduced the additions. |
+| Processing / cabinet and pedal scope | Appendix lists **12 cabinet parameter choices plus OFF** within amp models; these do not add standalone algorithms. The separate **five PEDAL entries** belong to B1Xon and are excluded from B1on’s 100. |
+
 ## G3
 
 Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability unclassified. Later shared-manual evidence below is not proof of the offered unit’s installed firmware.

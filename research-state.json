@@ -29,9 +29,11 @@
   },
   "cursor": {
     "model": "Zoom B1on",
-    "task": "Commit converter, additional single-note synth and delay-tail evidence. Next enumerate full non-PEDAL B1on 100-effect list by category, retaining Ver1.2 additions and checking 75/100 revision context; do not apply B1Xon pedal entries.",
-    "next_models": [],
-    "after_queue": "335 active models partial; 117 legacy compatibility files remain. No downloads/workflows/push."
+    "task": "Commit complete category census and 75+25 revision reconciliation. Next read full B1Xon record, verify its category accounting against explicitly shared list before updating; no sibling control/power assumptions.",
+    "next_models": [
+      "Zoom B1Xon"
+    ],
+    "after_queue": "335 partial active models; 117 legacy compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57248,6 +57250,14 @@
       "finding": "Own manual resolves 44.1kHz 24bit 128x AD/DA, float/fixed32 processing, AUX levels and explicit firmware-update USB listing. Own 100-effect list adds missing 4VoiceSyn single-note algorithm with Ver1.2 marker and qualifies delay limits/effect-off tails. Fresh exact offers already recorded; no duplicated prices.",
       "sources": [
         "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf",
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf"
+      ]
+    },
+    {
+      "model": "Zoom B1on",
+      "checked_date": "2026-10-18",
+      "finding": "Enumerated all five nonpedal categories in original 100-effect list:21/14/12/32/21=100. Ver1.2 marked additions4/3/0/11/7=25; unmarked17/11/12/21/14=75 reconciles original manual. Excluded five B1Xon PEDAL entries;12 cabinet parameter choices plus off not independent slots. Installed firmware remains unknown.",
+      "sources": [
         "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf"
       ]
     }
