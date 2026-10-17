@@ -311,6 +311,13 @@ Digital Stereo Multi-FX pedal; distinct from FX2000. Checked2026-10-18;partial. 
 | New | Unknown;no explicit newcondition confirmed inacceptedextract. | — |
 | Condition unverified;Habis | **Rp500,000**,RED HOUSE GUITAR,KabTemanggung;shop43081403/item25707884878. Directreaderlastweekcache;initialsearchlastmonth. Checked2026-10-18;stale7Octdelivery. Bundle/variant/warranty/workingstate andcheckout unavailable. Late-arrival compensation up toRp10,000 notdiscount;shipping/tax unknown. Sold-out ask,notcurrentstock/completedsale. | [ExactShopee][FX6-S] |
 
+| Condition | Amount / qualifications | Source |
+|---|---|---|
+| Condition unverified;indexed Habis | **Rp663,000**,MB Sounds,Jakarta Barat;shop274951125/item41610292794. Checked2026-10-18;four-month search cache,direct reader cache miss. Layanan Tidak Tersedia. Condition,bundle,variant,warranty and checkout unverified;not a new/used price or live stock. | [Exact item][FX6-MB] |
+| Condition unverified;stock unconfirmed | **Rp710,000**,DealerJaya Musik dan Elektrik,Malang;shop510844912/item22825169715. Checked2026-10-18;four-month indexed text,direct cache miss. No condition or stock confirmation;bundle,variant,voucher,shipping/tax unknown. | [Exact item][FX6-DJ] |
+
+The PG BETTA MUSIK listing (Subang,shop880854240/item47300816627) has a97%-condition title but **Rp99,two unresolved variants and Habis** in a two-month index. Direct cache miss2026-10-18. Do not treat this as a qualified used-hardware ask or infer a replacement price: [exact rejected listing][FX6-PG].
+
 Initial evidence used manufacturer-hosted indexed text,©2018;directPDFreturned502. Follow-up2026-10-18 read a manufacturer-authored **V3.0,©2024** manual copy hosted by Adorama: matching FX600 cover, numbered controls and Music Tribe attribution. Official newer endpoint remains inaccessible;no byte-identity or image audit claimed. English printed pp12–13 and specifications p43 were read as PDF text;no files saved locally.
 
 | Field | V3.0 follow-up / qualification | Evidence |
@@ -326,3 +333,7 @@ Initial evidence used manufacturer-hosted indexed text,©2018;directPDFreturned5
 Newer manual endpoint: https://mediadl.musictribe.com/media/PLM/data/docs/P0596/M_BE_0709-ADL_FX600_WW.pdf .
 
 [FX6-V3]: https://www.adorama.com/col/productManuals/BEFX600.pdf
+
+[FX6-MB]: https://shopee.co.id/Behringer-FX600-FX-600-FX-600-Digital-Multi-FX-Pedal-ORIGINAL-i.274951125.41610292794
+[FX6-DJ]: https://shopee.co.id/Efek-Effect-Pedal-Behringer-FX-600-FX600-i.510844912.22825169715
+[FX6-PG]: https://shopee.co.id/PEDAL-EFEK-GITAR-MODULATION-BEHRINGER-FX600-DIGITAL-MULTI-FX-97-SUPER-MULUS-Efek-Gitar-Stompbox-Efek-Gitar-Analog-Efek-Gitar-Modulasi-i.880854240.47300816627

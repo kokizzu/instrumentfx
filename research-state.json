@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer FX600",
-    "task": "FX600 V3.0 original manual copy read;next numeric ranges/bypass evidence and condition-qualified used/new Shopee offers; retain all prior model gaps.",
+    "task": "FX600 useful manual/market findings saved; defer numeric ranges/bypass/condition-qualified offers pending new evidence. Next fresh Shopee discovery by bass/vocal brand-series, deduplicate inventory before additions.",
     "next_models": [],
     "after_queue": "317active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -61932,6 +61932,18 @@
     {
       "token": "25707884878",
       "model": "Behringer::FX600"
+    },
+    {
+      "token": "41610292794",
+      "model": "Behringer::FX600"
+    },
+    {
+      "token": "22825169715",
+      "model": "Behringer::FX600"
+    },
+    {
+      "token": "47300816627",
+      "model": "Behringer::FX600"
     }
   ],
   "g3xn_dsp_acoustic_20261017": {
@@ -65171,5 +65183,18 @@
       "bypass circuit and trails",
       "condition-qualified used/new hardware offers"
     ]
+  },
+  "fx600_market_followup_20261018": {
+    "queries": [
+      "site:shopee.co.id FX600 bekas",
+      "site:shopee.co.id FX600 baru",
+      "site:shopee.co.id Behringer FX600 -msi -search"
+    ],
+    "saved": [
+      "274951125/41610292794 Rp663000 Habis indexed four months direct cache miss",
+      "510844912/22825169715 Rp710000 condition/stock unknown indexed four months direct cache miss"
+    ],
+    "rejected": "880854240/47300816627 title97%,Rp99,two unresolved variants,Habis; not qualified used price",
+    "result": "No condition-qualified used/new hardware offer established. Preserve earlier offers; do not combine cached asks into market range."
   }
 }
