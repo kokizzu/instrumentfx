@@ -235,6 +235,15 @@ USB/control details checked in manufacturer-authored Spanish manual;English supp
 | External control assignments | Seven alternatives:echo level,delay level,delay feedback,tap tempo,correction amount,double,memory increment. TIP defaultsDOUBLE;RING defaultsMEMORY INC. For level/feedback/correction targets,holdassigned switch andturncorresponding knob tosetalternate value. These are switching functions,not continuous EXP support. [Own manual][VE1-M]. |
 | Delay / voice adjustment | HoldDOUBLE≥2s entersdelay/genderediting:LEVEL=delayvolume,TONE=feedback,TYPE=delaytime;DOUBLEtaps tempo,CORRECT=gender. HoldDOUBLE≥2s exits. [Own manual][VE1-M]. |
 
+### VE-1 — driver compatibility and analog levels,2026-10-17
+
+| Required field | Verified detail / limits |
+|---|---|
+| Editor / driver compatibility | [Model-specific Windows driver page](https://www.boss.info/global/support/by_product/ve-1/updates_drivers/f0916a79-a954-421a-b7f8-1c7ac87fe31a/):Windows11 andWindows10 64bit use1.0.2;Windows10 32bit remains1.0.1. **ARM PCs,virtual Windows,Windows onMac andWindows10Mobile not supported**. Windows may automatically fetch the driver;this does not establish class-compliant operation or a full editor. December2021 update history;page read2026-10-17. Nothing installed orconnected. |
+| I/O / analog audio levels | [Manufacturer specifications](https://www.boss.info/global/products/ve-1/downloads/):MIC nominal−40dBu atcenterMicSens,4kΩ;XLR OUT−40dBu,600Ω;PHONES/LINE−20dBu,33Ω. XLRoutput ismic-level by nominal specification;do not substitutephones/line level. USBchannels,rate,bitdepth andbus power remain unresolved. |
+
+Exact macOS1.0.5 support-link reopen returnedcachemiss;the product index stilllists Sonoma14.x-or-later. This is an access limit,not evidence that support was withdrawn or that every newer machine iscompatible.
+
 ### VE-1 — separate IDR asking-price evidence
 
 Checked2026-10-16. Exact hardware pages;cached asks are not live checkout/stock proof. Shipping,tax,warranty region and adapter bundle unconfirmed. Store name does not authenticate affiliation.

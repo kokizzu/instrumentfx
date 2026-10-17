@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-1",
-    "task": "Corrected ME-80 provenance contamination andverifiedmodel-specific live controls. Continue eligible Shopee discovery andunresolved USB/power fields;commitpermodel.",
+    "task": "Driver architecture restrictions andanalog levels verified. USBformat/buspower remain unknown;continue fresh Shopee series discovery andother technical gaps ratherthan repeatedlyreopeningdriverarchives.",
     "next_models": [],
     "after_queue": "Technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -64740,5 +64740,15 @@
     "correction": "Removed unrelated Polish ME-80 manual sentence from VE-1 provenance;no ME-80 fact establishes VE-1 behavior.",
     "findings": "Mainfoot switches echo/pitch,notEnhance;7externalassignmentswithTIPdouble/RINGmemorydefault;holdDOUBLEdelay/genderediting;holdpedalmemorycycle.",
     "discovery": "AX3000B/B9/VoiceToneCreate/B1next searches noqualifiednewhardware;notmarketabsence."
+  },
+  "ve1_driver_audio_followup_20261017": {
+    "checked_date": "2026-10-17",
+    "driver_source": "https://www.boss.info/global/support/by_product/ve-1/updates_drivers/f0916a79-a954-421a-b7f8-1c7ac87fe31a/",
+    "windows": "11/10x64driver1.0.2;10x86driver1.0.1;ARM/virtual/WindowsOnMac/Mobileunsupported",
+    "audio_source": "https://www.boss.info/global/products/ve-1/downloads/",
+    "analog": "MIC-40dBu4kohm;XLR-40dBu600ohm;phonesline-20dBu33ohm",
+    "mac_access": "Exact1.0.5pagecachemiss;indexSonoma14xlater notwithdrawalproof",
+    "remaining": "USBchannels/rate/depth,buspower,polarity,exactcurrentmaccompatibility,qualifiedprices",
+    "discovery": "BP355Shopeequerynoqualifiedhardware;notabsenceproof"
   }
 }
