@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Prime M1",
-    "task": "Resolve full effects/category list, current firmware and control limits using exact manufacturer documentation; commit before next model. Then continue fresh Shopee bass/vocal discovery.",
+    "task": "M1 IR capacity and USB-A-to-C-only instruction saved. Continue exact-model full effects-list search only with stronger primary sources; otherwise fresh Shopee bass/vocal discovery. Commit per model.",
     "next_models": [],
     "after_queue": "Technical gaps,ownership identity gaps and migration audit remain;no downloads/workflows/push."
   },
@@ -64423,5 +64423,11 @@
     },
     "rejected": "DM Plus Studio shop-only1699000ProdukBaru lacks exact item; unrelated camera/accessory search results rejected.",
     "remaining": "Exact full effects list and simultaneous blocks;factory/user split;screen diagonal/color/touch;expression;IR slots;native/converted NAM status;qualified new/used offers."
+  },
+  "prime_m1_ir_capacity_20261017": {
+    "source": "https://cn.mooeraudio.com/product/84.html",
+    "checked_date": "2026-10-17",
+    "finding": "Exact manufacturer M1 prose distinguishes10 freely loadable third-party IR cabinets and40 third-party IR cached positions. Specification explicitly limits charging to USB-A-to-C; do not infer C-to-C support. Original unresolved slot-count field superseded, firmware/cache behavior remains open.",
+    "remaining": "Per-category effects list,simultaneous ceiling,current firmware effects/cache behavior,screen details,expression,factory/user split,qualified asks."
   }
 }

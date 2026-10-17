@@ -1625,16 +1625,16 @@ Checked2026-10-17; partial. Shared guitar/bass multi-effects, distinct from P1/P
 | Category choices | Product lists149 total, including amp/cab/drive/modulation/delay/reverb/EQ/user positions. Per-category counts unresolved. Product prose20 bass models versus feature list21; manual128 guitar+21 bass=149 supports latter, conflict retained. |
 | Presets / memory | Manual40 slots(10×4); factory-filled/user split unverified. Product10-bank wording does not imply149 presets. |
 | Synth / acoustic | Dedicated synthesis and acoustic simulation unverified. |
-| IR | WAV,44.1kHz,24bit,512 points; manual also says full sampling-rate files supported without explaining conversion. Slot count unresolved. |
+| IR | WAV,44.1kHz,24bit,512 points; manual also says full sampling-rate files supported without explaining conversion. [Chinese manufacturer](https://cn.mooeraudio.com/product/84.html), checked2026-10-17:10 freely loadable third-party IRs plus40 cached positions. Cache positions are distinct from the freely loadable pool; not50 independently editable slots. Current firmware behavior still needs confirmation. |
 | NAM / proprietary captures | [Prime release notes](https://www.mooeraudio.com/Downloads_xq/2.html):2026-01-13/30 adds M1 MNRS sampling/MOOER AI V2 and GNR import; Studio1.1.2 notes device firmware1.1.0. Native/converted NAM unverified: September NAM A2 notes name P2/M2, not M1. |
 | I/O | 6.35mm TS input2MΩ,TRS stereo output100Ω,3.5mm TRS phones32Ω,USB-C charging/OTG; stereo breakout requiresTRS→2TS. USB channel/rate/driver details unresolved. |
 | Vocal | Microphone effects/routing not established; not assigned vocal membership. |
 | Dimensions / weight | 120D×70.2W×31.9H mm;190g. Manual p13. |
-| Power | USB5V/2A requirement;USB-A→C charging;2000mAh. Listed5h runtime/2.5h charge. Operating draw and charging-playback behavior unresolved; barrel polarity inapplicable to listed USB connection. |
+| Power | USB5V/2A requirement;USB-A→C charging;2000mAh. [Chinese specification](https://cn.mooeraudio.com/product/84.html) explicitly says charging only supports USB-A-to-C; USB-C-to-C charging is not supported by this published instruction. Listed5h runtime/2.5h charge. Operating draw and charging-playback behavior unresolved; barrel polarity inapplicable to listed USB connection. |
 | Editor / wireless | Prime mobile editing/cloud; iOS/Android stores in manual. Bluetooth5 audio playback. [Release page](https://www.mooeraudio.com/Downloads_xq/2.html) lists M1 Studio Win/Mac management/update packages; APK Android/HarmonyOS, iOS App Store. September2026 Android4 adds M1 stem separation. Studio package2.0.0 is not independently verified device firmware2.0.0. |
 | Looper / drums | 80s looper,overdub,pause/delete,signal auto-record;40 grooves+10 metronomes. Drum synchronization available. [Product](https://www.mooeraudio.com/products/211.html). |
 | Controls / routing | Master excludes OTG volume; app USB mixer controls recording. A+B300ms enters looper;A record/play/dub,B pause/hold-delete. Power short=tuner,long1s=on/off. Reset hole restarts,not documented factory erase. Manual pp7–11. |
-| Scenes / remaining gaps | Scenes/spillover, current full effects list/concurrency, factory split, IR capacity, expression, screen details and condition-qualified asks remain open. |
+| Scenes / remaining gaps | Scenes/spillover, current full effects list/concurrency, factory split, current IR cache behavior, expression, screen details and condition-qualified asks remain open. |
 
 | Condition / IDR evidence | Seller / item / qualifications |
 |---|---|
