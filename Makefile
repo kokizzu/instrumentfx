@@ -1455,3 +1455,7 @@ research-commit-helixfloor:
 .PHONY: research-commit-stadiumxl
 research-commit-stadiumxl:
 	python3 scripts/research_tools.py commit-stadiumxl
+
+.PHONY: research-commit-hd500x
+research-commit-hd500x:
+	python3 scripts/research_tools.py commit-hd500x

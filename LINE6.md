@@ -1117,3 +1117,46 @@ The official current list includes models introduced through version 1.4. Counts
 [SX-ML]: https://line6.com/helix-stadium-models/
 
 The amp table contains 143 rows before removing the identical Cali 2C+ entry. Channel/input options within a row are not expanded; Brit SL100 groups several years. This counting method preserves generation distinctions rather than claiming 142 unique names. [Model list][SX-ML]
+
+## POD HD500X
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**; distinct from original HD500. Selected sections of own Advanced Guide Rev A (firmware 1.01+) and Pilot’s Guide Rev C; partial verification.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | Built-in EXP1/2 with toe switch; one external Pedal 2 permits simultaneous EXP1/2. [Pilot][H5X-P] |
+| Knobs / footswitches / buttons | **12 front rotaries / 12 footswitches / 8 front button directions**: Presets, four multifunction, Drive, four tone, Volume, Master; FS1–8, Bank up/down, Tap, Looper; Save, View, Move, Enter, four navigation directions. Encoder press counted once; toe, rear Mic Level rotary and slide switches additional. [Pilot][H5X-P] |
+| Display | LCD; published diagonal, color and touch specification **?** [Pilot][H5X-P] |
+| Dimensions / weight | **?** — old manufacturer dimensions URL redirects; sibling dimensions not substituted |
+| Simultaneous blocks | **8 FX slots + up to 2 amps**, subject to dynamic DSP; FX Loop consumes an FX slot. Pre/post and parallel A/B routing. [Advanced][H5X-A] |
+| Categories / choices | Family FAQ lists dynamics8, distortion15, modulation22, filter17, pitch3, EQ5, delay19, reverb12, wah8, Volume/Pan; firmware2.62 lists22 full guitar amps +22 preamps. Family/firmware wording retained; installed HD500X inventory and later packs require reconciliation. [FAQ][H5X-F] |
+| Factory / user memory | **512 writable locations**, 8 setlists ×64; factory-filled count **?**. [Advanced][H5X-A], [Pilot][H5X-P] |
+| Synth / acoustic simulation | Synth O Matic, Attack Synth and Synth String documented; acoustic simulation **?**. Bass Flip Top amp/cab explicitly recommended. [Advanced][H5X-A] |
+| IR / NAM / capture | Native NAM, converted NAM, user IR import and capture **?**; factory cab modeling does not prove import |
+| Audio/control I/O | Guitar and mono AUX; CD/MP3; Mic with rear level; stereo quarter-inch unbalanced and XLR balanced outs; phones; stereo TRS send and L/R returns; Pedal2; Variax guitar/bass interface; S/PDIF out; MIDI in/out-thru; USB; L6 LINK. Remaining connector sizes and phantom **?**. [Pilot][H5X-P] |
+| Power / battery / USB | Rear drawing **9V DC, 2.5A minimum**; actual draw, polarity/barrel, battery and USB-powered operation **?**. [Advanced][H5X-A] |
+| Editor platforms | **POD HD500X Edit**, Mac/Windows USB editor/librarian; current OS versions **?**. USB driver and Monkey updater separate. [Advanced][H5X-A] |
+| USB audio | Processed stereo record send, playback/monitor mix,24-bit; native48kHz with44.1/88.2/96 conversion. **USB audio muted during DT25/DT50 L6 LINK connection**. [Advanced][H5X-A] |
+| Looper / routing / live features | Mono **24s full /48s half speed**, PRE/POST, overdub/undo/reverse. Trails do not spill across presets. Mic-source Vintage Pre documented; harmony features not inferred. Drums and loop retention **?**. [Advanced][H5X-A], [Pilot][H5X-P] |
+
+### HD500X — separate IDR evidence
+
+| Class | Amount | Exact hardware offer and qualifications |
+|---|---:|---|
+| Used-title hardware ask | **Rp6.200.000** | [alvienz37,56303985/2253537586][H5X-O1],Cilegon; title explicitly second. Opened2026-10-17,cache last month,delivery8–11September versus initial3month search4–6July. Physical condition,completeness,warranty and live stock **?**; voucher not deducted. |
+| Sold-out hardware ask; sale condition unverified | **Rp4.100.000** | [Aliska_Musik,267406637/21071872133][H5X-O2],Jakarta Pusat; **Habis**,cache last month,delivery26August; bundle/warranty **?**. Not live stock. |
+| Sold-out hardware ask; sale condition unverified | **Rp4.250.000** | [Ayx Music,58780289/18911697683][H5X-O3],Lamongan; **Habis**,search cache3months. Title mulus +HC suggests cosmetic condition/hardcase,not verified inclusion or sale condition. |
+| Verified new offer | **?** | Not established |
+<!-- comparison evidence ends -->
+
+### HD500X provenance and next checks
+
+No full-manual or installed-firmware audit claimed. FAQ power, dimensions and phantom statements explicitly name older HD500/Bean; they do not fill X gaps. A reused Shopee URL naming Zoom707II now indexes HD500X and failed exact opening; excluded from prices. Mixed HD300/400/500/500X listing and case-only listing likewise excluded; exact URLs and observations retained in research-state.json. No downloads or software execution. Remaining: physical/power details, firmware-specific category totals, current editor OS, IR/NAM/capture evidence, display, loop persistence and offers.
+
+[H5X-A]: https://l6c-acdn2.line6.net/data/6/0a06434c6fb051e03e8ab63dc/application/pdf/POD%20HD500X%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf
+[H5X-P]: https://line6.com/data/6/0a06434cb30151dddd9ae9314/application/pdf/POD%20HD500X%20Quick%20Start%20Guide%20-%20English%20%28%20Rev%20C%20%29.pdf
+[H5X-F]: https://kb.line6.com/pod-hd500x-hd500-pod-hd-pod-hd-pro-faq
+[H5X-O1]: https://shopee.co.id/effect-gitar-LINE-6-POD-HD500X-second-i.56303985.2253537586
+[H5X-O2]: https://shopee.co.id/Line-6-pod-hd500x-i.267406637.21071872133
+[H5X-O3]: https://shopee.co.id/pod-Hd500X-mulus-HC-line6-pod-hd-i.58780289.18911697683

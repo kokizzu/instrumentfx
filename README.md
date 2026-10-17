@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**207 active model records · 27 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**208 active model records · 27 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -8,10 +8,10 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 | View | Contents |
 |---|---|
-| **[ALL-GUITAR.md](ALL-GUITAR.md)** |173 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
-| **[ALL-BASS.md](ALL-BASS.md)** |82 documented bass-capable models: 20 bass-focused plus 62 shared processors, with full comparison tables and explicit capability evidence |
-| **[ALL-VOCAL.md](ALL-VOCAL.md)** |26 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 207 detailed models are root-canonical |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |174 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
+| **[ALL-BASS.md](ALL-BASS.md)** |83 documented bass-capable models: 20 bass-focused plus 63 shared processors, with full comparison tables and explicit capability evidence |
+| **[ALL-VOCAL.md](ALL-VOCAL.md)** |27 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 208 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -32,7 +32,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [VALETON.md](VALETON.md) |GP-200LT,GP-200JR,GP-100,GP-150,GP-200 (GP-200X variant),GP-180,GP-5,GP-50,Dapper Bass VES-2,Dapper Bass Mini MES-2,Dapper Mini MES-1,Dapper Acoustic Mini,Dapper Dark VES-3,Dapper Dark Mini,Dapper Indie |
 | [MOOER.md](MOOER.md) |GE250,GE300,GS1000,GE100 original,GE150 original,GE200 original,GE150 Pro Li,GE100 Pro,GE100 Pro Li,GE200 Pro,GE200 Pro Li,GE150 Pro,GE150 Plus,GE150 Plus Li,GE150 Max,GE150 Max Li,GE1000,GE1000 Li,PE100 |
 | [HOTONE.md](HOTONE.md) |Ampero One MP-80,Ampero Mini MP-50,Ampero MP-100,Ampero II MP-350,Ampero II Stage MP-380,Ampero II Stomp MP-300 |
-| [LINE6.md](LINE6.md) |POD Go,POD Go Wireless,POD Express Guitar,POD Express Bass,HX Effects,Helix LT,HX Stomp XL,HX Stomp,POD HD500,M5,M9,Pocket POD,HX One,Helix Floor,Helix Stadium XL Floor |
+| [LINE6.md](LINE6.md) |POD Go,POD Go Wireless,POD Express Guitar,POD Express Bass,HX Effects,Helix LT,HX Stomp XL,HX Stomp,POD HD500,M5,M9,Pocket POD,HX One,Helix Floor,Helix Stadium XL Floor,POD HD500X |
 | [ZOOM.md](ZOOM.md) |G11,B1Xon,G6,G1 FOUR,G1X FOUR,G2 FOUR,G2X FOUR,B1 FOUR,B1X FOUR,B2 FOUR,B6,V3,V6-SP,G3Xn,G5n,G3n,B3n,A1 FOUR,MS-60B,A1X FOUR,MS-50G,MS-70CDR,MS-70CDR Plus,MS-60B Plus,B1on,G3,B3,G1Xon,G1on,505II,MS-50G Plus,G5,G3X,G2.1u,GFX-3,GFX-5,GFX-4,G7.1ut |
 | [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |TONEX ONE,TONEX Pedal |
 | [NEURAL-DSP.md](NEURAL-DSP.md) |Nano Cortex |
