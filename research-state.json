@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Remaining vocal manufacturer verification",
-    "task": "VoiceLivePlay2018QSGpowerandfootswitchfacts saved;remainingprimaryhardwarefields open. Continue freshbass/vocal hardwarediscovery ormodel-specificcurrentmanualverification;do notresumecanonicalduplicatePlayoffer.",
-    "next_models": [],
-    "after_queue": "306partialmodels;fullmanufacturer/priceverificationandlosslessmigration remainincomplete. Nodownloads,workflows orpush."
+    "model": "Zoom G1 original lead",
+    "task": "Verify exactG1manufactureridentity andmanual/specification fields;review119462220/41708851420cachedoffer. Confirmoriginalversusnext/FOUR/on beforeadding;commitusefulmodelrecord beforeanothermodel.",
+    "next_models": [
+      "Zoom G1 original"
+    ],
+    "after_queue": "Bass/vocaldiscovery,manufacturerfieldverification andlosslesslegacyconsolidation remainincomplete.306activepartial;nodownloads/workflows/push."
   },
   "new_findings": [
     {
@@ -64063,5 +64065,22 @@
       "UP+HIT1staptempo,HITtap,UP/DOWNBPMtrim;SetKeysettingrepurposesUP/DOWNhold."
     ],
     "remaining": "Currentfirmware/looperlimit,dimensions/mass,storagecounts,display,powerpolarity/phantom/USBformat andqualifiedprices."
+  },
+  "discovery_zoom_g1_original_20261017": {
+    "checked_date": "2026-10-17",
+    "search": "https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&subcategory=11043648",
+    "access": "September2026searchcache;exactclickcachemiss.",
+    "lead": {
+      "model": "Zoom G1;originalrevisionneedsverification",
+      "url": "https://shopee.co.id/efek-gitar-zoom-G1-i.119462220.41708851420",
+      "item": "119462220/41708851420",
+      "idr": 700000,
+      "location": "Kab.Cirebon",
+      "display_model_id": "305743578489",
+      "limits": "Sellername,revision,condition,new/used,workingstate,stock,bundle,adapter,variation,warranty/voucher/deliveredtotal unresolved. Cachedasknotcheckout/completedsale."
+    },
+    "inventory_check": "G1absent306-modelinventory;G1FOUR,G1on,G1Xnextareseparateexistingmodels. Do notmergeautomatically.",
+    "bass_search": "Zoom506,ME8B,B1bekas,AX1BqueriesreturnedexistingB1Xon/B3 andunrelatedresults;noqualifiednewbassmodel.",
+    "excluded": "MixedG2.N1U/Rolandamp andall-typevariationoffers unassigned;controllers/adapters/singlefunctionexcluded."
   }
 }
