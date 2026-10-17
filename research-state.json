@@ -61676,5 +61676,16 @@
     ],
     "limits": "ManualinstructionsnotruntimeOSverification",
     "next": "Resolve MIDI clock/external-control restrictions and exact physical counts; continue fresh discovery"
+  },
+  "gp200_midi_clock_20261017": {
+    "source": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "revision": "Firmware1.8.0 pp17–18",
+    "findings": [
+      "DIN/USB/Mixed input and separate channels",
+      "Externalclock disablesinternalclock/TapTempo",
+      "Mixedlastsourcewins;clockoutdefaultoff;DINOnly/USBOnlysuppressclockout"
+    ],
+    "conflict": "Clockout negate all input signals ambiguous; notaudio-mute/MIDIthru claim",
+    "next": "External MIDI control mode; physical control counts; fresh Shopee discovery"
   }
 }
