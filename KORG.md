@@ -397,3 +397,35 @@ Condition,workingstate,bundle,adapter,authenticity,warranty,shipping,tax,voucher
 [AX100-O]: https://shopee.co.id/Efek-Gitar-Korg-AX100G-AX1500G-AX3000G-AX3G-i.22551702.3568008855
 
 [AX100-A]: https://www.korg.com/jp/support/adapter/
+
+## AX10B
+
+Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX10A. No qualified Indonesian offer established.
+
+| Field | Evidence / remaining gaps |
+|---|---|
+| Processing / choices | PRE3,AMP11,MOD11,AMBIENCE11,NR1;not a simultaneous-count claim. Exact concurrent ceiling unknown. |
+| Presets | **40 read-only factory+40 overwriteable user**;user initially duplicates factory. |
+| Expression | Built-in pedal;fully forward toggles effect;volume always active. No external EXP socket in complete rear inventory. Mechanical toe-switch implementation unknown. |
+| Controls | Complete separate rotary/foot/button counts pending final count audit. |
+| Display | Program/parameter display;diagonal,color,touch unverified. |
+| Dimensions / weight | **287W×182D×60H mm;1.1kg without batteries**. |
+| Power | FourAAalkaline,about18h;separateDC9Vadapter. Polarity symbol not extracted;draw andUSB power unknown. |
+| I/O | Mono¼bassinput;shared stereo¼line/headphonesoutput;DC9V. Rear InputL/H andAmp/Line switches. No USB/MIDI/FX-loop sockets in complete rear inventory. |
+| Synth / acoustic | Talk/filter/pitch effects documented;general synth/acoustic-simulation capability unverified. |
+| IR / NAM / captures | UserIR,native/convertedNAM,capture import unverified. |
+| Software | Full-editor platforms,driver/updater support unverified;no USB interface established. |
+| Looper / drums / live | Looper/drums/scenes unverified. Tuner calibration438–445Hz resets440;pedal position cannot be stored. |
+
+[Exact manufacturer manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),EFG1,40-page trilingual,Englishpp3–14;own [Korg support](https://www.korg.com/us/support/download/product/1/22/) identifies AX10B. Support upload date2015-06-01 is not a proven device release date. Text read through web;no local download or diagram visual inspection.
+
+Manualp11 NR instruction conflicts internally: parenthetical TAP+EFF.DEPTH versus footnote FUNCTION+VOLUME/NR. Preserve both;not silently corrected.
+
+### AX10B — separate IDR evidence
+
+| Condition/channel | Evidence |
+|---|---|
+| Used IDR | Unknown;no exact qualified Indonesian hardware offer found in limited search. |
+| New IDR | Unknown;seller/item,stock,region,edition,bundle,warranty,voucher,shipping/tax unverified. Korg’s discontinued/sold-out support label does not prove absence of used or old stock. |
+
+Foreign RP50 offers and Indonesian adapter listings do not establish AX10B prices.

@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 275,
+  "active_model_count": 276,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 275,
+  "canonical_root_model_count": 276,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "275uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.RedTruckguitaronly;Indonesianretailerpricecacheconflictretained.",
+  "count_reconciliation": "276uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.AX10BbassfocusedwithIDRunknown.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX10B discovery",
-    "task": "AX10B dimensions/mass/battery/IO andNRmanualconflict saved. Next inspect remainingEnglishpp7–12,especially rearinventory/ambience andseeklocalhardware. Noactivecountchange untilcanonicalrecordintegration;do notinventpolarityfrommissingPDFsymbol.",
+    "model": "Korg AX10B",
+    "task": "Canonicalbassrecord added from exactmanual;IDRunknown. Next verify controlcounts,remainingalgorithmlists andpowerpolarity from primarysource;seekexactIndonesianhardware;keepNRconflict.",
     "next_models": [],
-    "after_queue": "275partialmodels;no downloads/workflows/push;fullresearch incomplete."
+    "after_queue": "276partialmodels;no downloads/workflows/push;fullscopeincomplete."
   },
   "new_findings": [
     {
@@ -23963,7 +23963,8 @@
       "AX1000G",
       "AX3G",
       "AX30G",
-      "AX100G"
+      "AX100G",
+      "AX10B"
     ],
     "VOX": [
       "ToneLab LE",
@@ -24304,7 +24305,8 @@
       "AX1000G",
       "AX3G",
       "AX30G",
-      "AX100G"
+      "AX100G",
+      "AX10B"
     ],
     "VOX.md": [
       "ToneLab LE",
@@ -24352,8 +24354,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 109,
-      "bass_focused_record_count": 27,
+      "record_count": 110,
+      "bass_focused_record_count": 28,
       "shared_bass_capable_count": 82,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -41310,8 +41312,8 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 275,
-    "canonical_root_models": 275,
+    "unique_brand_model_pairs": 276,
+    "canonical_root_models": 276,
     "legacy_only_models": 0,
     "guitar_view_models": 226,
     "bass_focused_models": 23,
@@ -41320,7 +41322,7 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 109,
+    "bass_view_models": 110,
     "bass_shared_models": 82,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -41373,7 +41375,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Red Truck."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX10B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41705,6 +41707,7 @@
       "DigiTech::GNX3",
       "DigiTech::GNX4",
       "Korg::PANDORA stomp",
+      "Korg::AX10B",
       "VOX::StompLab 2B",
       "Tech 21::Bass Fly Rig v2",
       "Behringer::Bass V-AMP",
@@ -43769,6 +43772,13 @@
     },
     "Korg::AX100G": {
       "link": "KORG.md#ax100g",
+      "source_files": [
+        "KORG.md"
+      ],
+      "finding_files": []
+    },
+    "Korg::AX10B": {
+      "link": "KORG.md#ax10b",
       "source_files": [
         "KORG.md"
       ],
@@ -56746,6 +56756,7 @@
       "facts": "287W182D60H mm;1.1kgwithoutbatteries;4AAalkalineabout18h;DC9Vadapterseparate;mono¼bassinput,stereo¼line/headphonesoutput;40presetread-only+40overwriteableuser. EXPforwardactivatespedaleffect,volumealwayson. Tuner438–445Hzunsavedresets440.",
       "conflict": "p11NRparenthetical saysholdTAPandturnEFF.DEPTH,butfootnote3andfrontinventorysayFUNCTION+VOLUME/NR. Preservemanualinternalconflict;do notexecute.",
       "limits": "Polaritysymbolnotextracted;currentdraw/concurrentceilingunknown;controls/remainingEnglishpagesnotfullyaudited;noUSB/editorassumptions. Notcounted/localofferunqualified."
-    }
+    },
+    "counted": true
   }
 }
