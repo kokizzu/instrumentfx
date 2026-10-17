@@ -103,16 +103,16 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
-    elif mode in ('commit-fm3','commit-player'):
+    elif mode in ('commit-fm3','commit-player','commit-quad'):
         verify()
         subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
         assert not git('diff','--cached','--name-only').strip(), 'Existing staged changes'
-        paths=[('KEMPER.md' if mode == 'commit-player' else 'FRACTAL-AUDIO.md'),'README.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','scripts/comparison_views.py','scripts/research_tools.py','Makefile']
+        paths=[('NEURAL-DSP.md' if mode == 'commit-quad' else 'KEMPER.md' if mode == 'commit-player' else 'FRACTAL-AUDIO.md'),'README.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','scripts/comparison_views.py','scripts/research_tools.py','Makefile']
         changed=set(git('diff','--name-only').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
         assert changed <= set(paths), changed-set(paths)
         git('add','--',*sorted(changed))
         print(git('diff','--cached','--stat'))
-        print(git('commit','-m','research(kemper): preserve second exact Head MK2 asking price' if mode == 'commit-player' else 'research(fractal): add FM9 MKII Turbo and preserve revision limits'))
+        print(git('commit','-m','research(neural): add Quad Cortex with source-qualified hardware offers' if mode == 'commit-quad' else 'research(kemper): preserve second exact Head MK2 asking price' if mode == 'commit-player' else 'research(fractal): add FM9 MKII Turbo and preserve revision limits'))
     elif mode == 'commit-discovery':
         verify()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'

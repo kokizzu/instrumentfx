@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 305,
+  "active_model_count": 306,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 305,
+  "canonical_root_model_count": 306,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "305 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
+  "count_reconciliation": "306 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Neural DSP Quad Cortex lead",
-    "task": "Open exact Quad Cortex Shopee offers andverify manufacturer identity/full first-pass fields before active addition;do not merge Nano Cortex orinfernew/used condition.",
-    "next_models": [
-      "Neural DSP Quad Cortex"
-    ],
-    "after_queue": "Continue fresh bass/vocal discovery,unfinished manufacturer fields andlossless legacy consolidation. All305 active records partial;no downloads,workflows orpush."
+    "model": "Neural DSP Quad Cortex",
+    "task": "Continue current4.1.1manual:exact preset/factory/scene memory,grid/DSP ceiling,I/O/electrical specifications,IR limits,looper andeditor OS requirements;verify offers without inferring condition.",
+    "next_models": [],
+    "after_queue": "Fresh bass/vocal discovery andlossless legacy consolidation remain incomplete. No downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -5260,6 +5258,13 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "Exact SKU15300000,Head-specific 5.32kg and unpowered specifications;cached 28.9m offer with direct-access failure preserved."
+    },
+    {
+      "model": "Neural DSP Quad Cortex",
+      "path": "NEURAL-DSP.md#quad-cortex",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Exact fullmodel,manufacturer processing/display/power/control facts andtwo condition-unverified Indonesian offers;4.1.0product versus4.1.1manual preserved."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24076,7 +24081,8 @@
       "CUBE BABY BASS"
     ],
     "Neural DSP": [
-      "Nano Cortex"
+      "Nano Cortex",
+      "Quad Cortex"
     ],
     "NUX": [
       "MG-101",
@@ -24541,7 +24547,8 @@
       "TONEX Pedal"
     ],
     "NEURAL-DSP.md": [
-      "Nano Cortex"
+      "Nano Cortex",
+      "Quad Cortex"
     ],
     "AUDOTA.md": [
       "AME-100",
@@ -24668,14 +24675,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 254,
+      "record_count": 255,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 130,
+      "record_count": 131,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 102,
+      "shared_bass_capable_count": 103,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41660,18 +41667,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 305,
-    "canonical_root_models": 305,
+    "unique_brand_model_pairs": 306,
+    "canonical_root_models": 306,
     "legacy_only_models": 0,
-    "guitar_view_models": 254,
+    "guitar_view_models": 255,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
     "vocal_view_models": 61,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 130,
-    "bass_shared_models": 102,
+    "bass_view_models": 131,
+    "bass_shared_models": 103,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41723,7 +41730,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery after Kemper MK2 pass."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Neural DSP Quad Cortex."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41841,6 +41848,7 @@
       "M-VAVE::CUBE BABY electric",
       "M-VAVE::CUBE BABY AC",
       "Neural DSP::Nano Cortex",
+      "Neural DSP::Quad Cortex",
       "NUX::MG-101",
       "NUX::MG-300 original",
       "NUX::MG-300 MKII",
@@ -42050,6 +42058,7 @@
       "M-VAVE::Pocket Amp",
       "M-VAVE::CUBE BABY BASS",
       "Neural DSP::Nano Cortex",
+      "Neural DSP::Quad Cortex",
       "NUX::MG-300 original",
       "NUX::MG-400",
       "NUX::MG-30",
@@ -42179,6 +42188,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Neural DSP::Quad Cortex": "Exact manufacturer product page explicitly identifies guitar and bass algorithms. [Manufacturer](https://neuraldsp.com/quad-cortex).",
     "Kemper::PROFILER Head MK2": "Exact Head MK2 manufacturer page explicitly identifies electric guitar and bass. [Manufacturer](https://www.kemper-amps.com/store/en/profiler-head-b.html).",
     "Kemper::PROFILER PowerRack MK2": "Exact PowerRack MK2 manufacturer page explicitly identifies electric guitar and bass. [Manufacturer](https://www.kemper-amps.com/store/en_ca/profiler-powerrack-b.html).",
     "Kemper::PROFILER PowerHead MK2": "Exact manufacturer PowerHead MK2 page explicitly identifies electric guitar and bass. [Manufacturer](https://www.kemper-amps.com/store/en/profiler-powerhead-b.html).",
@@ -43341,6 +43351,13 @@
     },
     "Neural DSP::Nano Cortex": {
       "link": "NEURAL-DSP.md#nano-cortex",
+      "source_files": [
+        "NEURAL-DSP.md"
+      ],
+      "finding_files": []
+    },
+    "Neural DSP::Quad Cortex": {
+      "link": "NEURAL-DSP.md#quad-cortex",
       "source_files": [
         "NEURAL-DSP.md"
       ],

@@ -68,3 +68,38 @@ The [complete original comparison](effects/advanced-modelers.md) remains availab
 ### Remaining verification
 
 External toe-switch behavior, precise live-vocal/capture-mic limitations, internal battery, published graphical-screen attributes, native/converted NAM, synth/acoustic algorithms and looper/drum/scene support remain open. Source absence is not proof of absence. Price condition, regional warranty, accessories, discounts and current availability require direct seller/checkout confirmation. All model records remain partial.
+
+## Quad Cortex
+
+Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | **Two external expression inputs**;built-in/toe behavior unverified [qc-p]. |
+| Knobs / footswitches / buttons | **12 rotary /11 footswitches /1 power button**,derived:11 combined stomp/rotary actuators plusMaster Volume;A–H,BankUp, BankDown,Tempo. Power separate from footswitches;encoder presses counted once [qc-p] [qc-m]. |
+| Display | **7-inch multitouch** [qc-m];published color specification not yet checked. |
+| Dimensions / weight | **290×195×69 mm;1.95kg**,manufacturer dimensions;axis labels not explicit in retrieved prose [qc-p]. |
+| Simultaneous blocks / category choices | Manufacturer demonstrates four amp models plus stereo reverbs andother effects;not a universal maximum. Headline90+amps,100+effects,1000+IRs;exact category census andgrid/DSP limits unresolved [qc-p]. |
+| Preset / factory / user memory | Full preset capacity,factory occupancy andscene count unresolved. Device-preset libraries must not be confused with full Rigs. |
+| Synth / acoustic | Dedicated synth andelectric-to-acoustic simulation unresolved. |
+| Audio I/O | Two TS/TRS/XLR combo inputs with mic preamps/phantom;dual FX loops;two balancedTRS andtwo balancedXLR outs;headphones;capture out. Exact loop/phone/capture connector formats andelectrical limits unresolved [qc-p]. |
+| Control / USB | MIDI in,out/thru;dualEXP;USB audio/MIDI/updates. Channel counts,USB power andcomplete socket census unresolved [qc-p]. |
+| Power / battery / USB operation | **12V DC,≥3A,centre-negative**,supplied adapter;not measured consumption. Battery/USB operation andbarrel dimensions unresolved [qc-m]. |
+| IR / NAM / captures | Proprietary Neural Capture:V1 runs offline ondevice;V2 uses Cortex Cloud processing. User IR transfer via cloud documented;native/converted NAM andIR length/rate limits unresolved [qc-p]. |
+| Editor platforms / drivers | Cortex Control desktop editor documented;Cortex Mobile iOS/Android cloud discovery distinct from fulldevice editor. Desktop OS minima/drivers unresolved [qc-p]. |
+| Practical features | Preset,Scene,Stomp,Hybrid modes andmetronome documented;looper duration,drums andswitching tails unresolved [qc-m]. |
+| Bass capability | Manufacturer explicitly identifies guitar andbass algorithms;not equal low-end performance certification [qc-p]. |
+
+### Quad Cortex — separate IDR hardware offers
+
+| Condition / access | Amount | Exact evidence / qualifications |
+|---|---:|---|
+| Condition-unverified indexed ask | **Rp38.500.000** | [Gelora Musik Serpong,seller306155985/item42028931563](https://shopee.co.id/Digital-Effects-Modeler-Gitar-Neural-DSP-Quad-Cortex-Quad-Core-i.306155985.42028931563),Kab.Tangerang. Direct indexed body checked2026-10-17,month-oldcrawl;August26–28delivery stale. Condition,stock,variation,bundle,adapter,warranty,authenticity,installedOS,shipping/tax/voucher/final total unknown. Rp10k late compensation notdiscount. Not live checkout orsale. |
+| Condition unknown;Habis | **Rp30.899.999** historical clean-URL snapshot;**Rp30.999.999** later tracking-URL snapshot | [HAWILA MUSIK INDONESIA,seller130137603/item5704605568](https://shopee.co.id/Neural-DSP-Quad-Cortex-Quad-Core-Guitar-Digital-Effects-Modeler-Original-i.130137603.5704605568),KotaSurabaya. Search evidence checked2026-10-17:two-month versusone-monthcrawl,July23–25 versusSeptember9–11delivery,bothHabis. Snapshot difference does not prove current price movement. New/used,working state,bundle,variation,warranty andcheckout availability unresolved;no completed-sale claim. |
+| Verified new IDR | ? | Not established. |
+| Verified used IDR | ? | Not established. |
+
+[qc-p]: https://neuraldsp.com/quad-cortex
+[qc-m]: https://neuraldsp.com/manual/quad-cortex
+
+No download orvisual inspection claimed;current web documentation does not prove seller firmware orlive stock.
