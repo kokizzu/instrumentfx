@@ -2164,7 +2164,8 @@ Checked2026-10-17;partial. Own manual identifies guitar multi-effects. Bass/voca
 | K/F/B | Separate rotary/footswitch/button counts pending panel verification. | Unresolved |
 | Display | One-character7-segment LED plus luminous custom LCD;diagonal,color/touch unverified. | [Manual p33][ME30-M] |
 | Processing / categories | Compressor,OD/DS,EQ/Phaser,Noise Suppressor,Delay,Chorus/Flanger/Pitch Shifter/Tremolo,Reverb,amp simulator. Slash groups are alternatives;simultaneous ceiling and detailed choices pending. | [Manual p33][ME30-M] |
-| Preset memory | **30user+30preset=60patches**,plusManual settings. Initial user contents unresolved. | [Manual p33][ME30-M] |
+| Preset memory | **30user+30preset=60patches**,plusManual settings. All30user locations initially duplicate the30presets;60locations do not mean60distinct factory sounds. | [Manual pp30,33][ME30-M] |
+| Categories / EQ-PH | EQ/PH selects **equalizer OR phaser**,not both. EQ hasindependentbass/middle/treble andoutputlevel adjustments(−14to+14displayvalues);do notinferdBunitsfromunlabelledvalues. Phaser controlsrate,depth,resonance(0–100). These are parameters,not extra effect slots. | [Manual p10][ME30-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. Ring modulation alone does not establish either. | Unresolved |
 | I/O | INPUT,L/MONO+R OUTPUT,AUX IN andheadphones(bothstereomini),adapterjack. Remaining physical jack dimensions pending. | [Manual p33][ME30-M] |
 | Power / battery / USB | **9VDC,170mA**,PSA-series adapter or6AA. Estimatedcarbon3h/alkaline8h varieswithuse. Polarity/USB operation unverified. | [Manual p33][ME30-M] |

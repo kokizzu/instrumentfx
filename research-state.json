@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-30",
-    "task": "ME-30 initial own-manual record added. Next verify controls,simultaneous processing,category choices,factory user fill and polarity from targeted official manual text;allgaps explicit.",
+    "task": "ME-30 initial30user duplicate30preset contents and exclusiveEQ/phaser verified. Next controlcounts,othercategorychoices and practicefunctions;simultaneous ceiling and polarity remain unverified.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. GT-5 and RFX-2000 technical gaps remain deferred. No downloads,workflows or push."
   },
@@ -53955,5 +53955,11 @@
     "manual": "https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf",
     "method": "Official42pagePDF browseropenzeroextractedlines;targetedindexedtextspecp33andManualmodesection.",
     "remaining": "Controlcounts,toe/externalEXP,simultaneousceiling,detailedcategorychoices,factoryuserfill,polarity,IR/NAM/editor,displaydetails,practicefeatures."
+  },
+  "me30_memory_eq_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf",
+    "pages": "10,30",
+    "finding": "User memory initially duplicates presets;EQ/phaser exclusive selection and EQ/phaser parameter ranges saved.",
+    "remaining": "No own-manual simultaneous ceiling or polarity evidence resolved in targeted search. Controls,toe/externalEXP,other category choices and practice features remain."
   }
 }
