@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 HX Effects",
-    "task": "Resolve HX Effects own supply voltage/polarity or firmware category counts. I/O electrical classification corrected from official KB; do not repeat previous TS output claim. Exact sold-out ask remains condition-unverified.",
+    "task": "Finish HX Effects 3.80 per-category named-model counts; reconcile internal IR per-preset/per-path conflict with model-specific release notes. Own supply voltage/polarity unresolved; no community/sibling inference.",
     "next_models": [],
     "after_queue": "Other field gaps andmigration;no downloads/workflows."
   },
@@ -52982,5 +52982,16 @@
     "checked": "2026-10-17",
     "correction": "Main outputs and sends are impedance-balanced TRS, tip driven only; supersedes unbalanced TS classification. Main inputs 1 MΩ TS; returns 1 MΩ instrument / 10 kΩ line.",
     "power_status": "Voltage/polarity remain unresolved from primary text; no sibling or community-user values promoted."
+  },
+  "hx_effects_380_checkpoint_20261017": {
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 Rev D",
+    "category_counts": {
+      "wah": 11,
+      "volume_pan": 5,
+      "basis": "Named table rows; mono/stereo not counted twice; remaining categories pending"
+    },
+    "ir_conflict": "pp25–26: one 2048 Single/two 1024 Singles or one Dual per preset; p39: two 2048 Singles/four 1024 Singles/two Duals across paths. Preserve contradiction; no confirmed larger hardware limit.",
+    "power": "Official store unavailable; community user statements not promoted to primary supply evidence."
   }
 }
