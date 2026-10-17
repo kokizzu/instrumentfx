@@ -2842,8 +2842,9 @@ Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Ma
 | Display | **132×64 backlit graphic LCD;3-character seven-segment LED**. Diagonal/color/touch unknown. | [Product][G10B-P] |
 | Dimensions / mass | **542W×272D×77H mm;4.9kg**;pedal-up height104mm. | [Product][G10B-P] |
 | Processing / routing | Parallel bass-effect paths blend or switch by pedal/dynamics. COSM amps,compression,EQ,drive. Simultaneous ceiling/category totals unresolved. | [Product][G10B-P] |
+| FX-1 / FX-2 choices | **29 choices per slot**,same effect allowed in both (p.105): Touch Wah,Auto Wah,Sub Wah,Sub Comp,Sub Limiter,Graphic EQ,Para EQ,Enhancer,Tone Modify,Bass Sim,Slow Gear,Defretter,Bass Synth,Octave,Pitch Shifter,Harmonist,Sound Hold,Phaser,Flanger,Tremolo,Rotary,Uni-V,Pan,Slicer,Vibrato,Ring Mod,Humanizer,2x2 Chorus,Sub Delay. Choice count is not simultaneous block count. | [Manual text][G10B-T] |
 | Factory / user memory | **200 preset+200 user=400**;initial user fill unknown. | [Product][G10B-P] |
-| Synth / acoustic | BASS SYNTH processes bass input and requires single-note playing; chords unsupported (p.110). Acoustic simulation remains unverified. | [Manual text][G10B-T] |
+| Synth / acoustic | BASS SYNTH processes bass input and requires single-note playing; chords unsupported (p.110). BASS SIM includes single-coil/humbucker-to-acoustic-bass tone conversions; this is bass simulation,not evidence of acoustic-guitar modeling (p.109). | [Manual text][G10B-T] |
 | I/O | Instrument input;L/R main andXLR sub outputs;stereo phones;send/return;amp-control;EXP2/CTL3,4;USB;coaxial digital out;MIDI in/out;DC. Connector sizes/USB type pending. | [Product][G10B-P] |
 | Output level routing | OUTPUT LEVEL controls main OUTPUT and PHONES; XLR SUB OUTPUT level is separate under SYSTEM (pp.22,70). | [Manual text][G10B-T] |
 | Power / battery / USB | **9V DC,800mA draw,PSB-1U supply**. Polarity,battery/bus operation unknown. | [Product][G10B-P] |
