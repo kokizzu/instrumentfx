@@ -189,7 +189,7 @@ Partial record checked **2026-10-17**. Manufacturer SKU19300000 and exact Shopee
 | Required field | Evidence / qualification |
 |---|---|
 | Built-in / external / toe expression | Two TRS pedal/switch sockets,10–100kohm [kp-s]. Built-in/toe details unverified;generic four-pedal marketing is not four onboard sockets. |
-| Knobs / footswitches / buttons | ?/?/?;PowerRack MK2 census pending,not PowerHead totals. |
+| Knobs / footswitches / buttons | **14 adjustable rotary / ? footswitches / ? buttons**, derived Manual13.0 pp.28–41: Noise Gate1+directFX4+Master1+Type/Browse2+soft4+Gain1+Rig Volume1;power/mode selector separate. Manual explicitly gives PowerRack four direct-effect knobs versus PowerHead six. Current MK2 panel/button census unresolved. [kp-m] |
 | Display | Diagonal,color/monochrome,touch unverified. |
 | Dimensions / weight | **483W×220D×139H mm;6.18kg;3U**, explicit PowerRack specifications [kp-s]. |
 | Simultaneous blocks / category choices | Four flexible pre+four flexible stereo post;6fixed pre+2fixed stereo post,around AMP/CAB. Fixed/flexible distinctions retained;complete category counts unresolved [kp-p]. |
@@ -197,12 +197,13 @@ Partial record checked **2026-10-17**. Manufacturer SKU19300000 and exact Shopee
 | Synth / acoustic | Dedicated algorithms unresolved;acoustic PROFILEs alone do not prove a simulator. |
 | IR / NAM / captures | Proprietary amp PROFILING creation documented [kp-p]. IR formats,native/converted NAM and capture-version restrictions unresolved. |
 | Audio I/O | Front¼-inchTS1Mohm;balanced alternativeTRS825kohm;balancedXLR/¼-inch return825kohm. Stereo main balancedXLR/unbalancedTS;monitor/direct-send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz master/slave [kp-s]. Optional stereo-monitor routing requires manual qualification. |
-| Audio I/O — powered output | **600W at8ohm /300W at16ohm**, built-in speaker power amp [kp-s]. Connector,load/grounding/no-load restrictions and mono/stereo qualification need matching manual. |
+| Audio I/O — powered output | **600W at8ohm /300W at16ohm**, built-in speaker power amp [kp-s]. Manual13.0 pp.114–116 allows passive4/8/16ohm loads;4ohm limited600W with brief protection muting at the limit. No loads below4ohm or grounded active devices/power soaks at SPEAKER OUT. Operation without cabinet allowed. Power stage follows MONITOR OUT. Connector/current-label and mono/stereo corroboration remain open. [kp-m] |
 | Control / USB | USB-A/B,USB MIDI,DIN in/out/thru,RJ45,two pedal sockets. **4in/4out USB audio**,44.1kHz [kp-s];[kp-p]. |
 | Power / battery / USB operation | **100–125 or190–245V AC,max10A,50–60Hz**, powered-model rating [kp-s]. Mains-region/selection behavior,actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. |
 | Editor platforms / drivers | Rig Manager Windows/macOS viaUSB; iOS/Android/FireOS through external WiFi router [kp-p]. Current OS/driver minima and mobile parity unresolved. |
 | Practical features | Morphing,Performance switching,instrument/line FX loop,Kone modes documented [kp-p]. Looper,drums and exact gapless/control limits unresolved. |
 | Bass capability | Exact PowerRack MK2 manufacturer page explicitly identifies electric guitar and bass [kp-p];not complete bass algorithm/performance certification. |
+| Practical features — powered routing | Manual13.0 pp.112–116: Monitor Stereo pairs DIRECT OUT with MONITOR OUT;not two dedicated monitor sockets. Power Amp switch;Boost up to12dB;Volume follows Monitor. Wattmeter calibrated4ohm: halve watts for8ohm,quarter for16ohm. Ventilation needed;thermal protection can mute. Revision-qualified guidance,not measured performance. [kp-m] |
 
 ### PowerRack MK2 — separate IDR asking-price evidence
 
@@ -212,6 +213,7 @@ Partial record checked **2026-10-17**. Manufacturer SKU19300000 and exact Shopee
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
+[kp-m]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
 [kp-p]: https://www.kemper-amps.com/store/en_ca/profiler-powerrack-b.html
 [kp-s]: https://www.kemper-amps.com/profiler/technical-specifications
 
