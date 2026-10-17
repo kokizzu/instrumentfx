@@ -1519,3 +1519,7 @@ research-commit-hd400:
 .PHONY: research-commit-readme-counts
 research-commit-readme-counts:
 	python3 scripts/research_tools.py commit-readme-counts
+
+.PHONY: research-commit-fv02
+research-commit-fv02:
+	python3 scripts/research_tools.py commit-fv02

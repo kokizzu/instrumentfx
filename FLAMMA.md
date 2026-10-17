@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)
 
-**Three active profiles:** existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
+**Four active profiles:** FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
 
 The [official multi-effects collection](https://www.flamma.shop/collections/multi-effects), [manufacturer catalogue](https://flammainnovation.com/shop.html?ancestors=0%2C1256) and [manual/software index](https://www.flamma.shop/pages/manual) establish additional families for research. They do not prove Indonesian stock or complete specification verification. Unknown is `?`, not No; K/F/B counts rotary controls, main footswitches and separate buttons, excluding encoder presses/toe/power switches counted separately.
 
@@ -253,3 +253,52 @@ The official [multi-effects collection](https://www.flamma.shop/collections/mult
 ## Consolidation provenance
 
 Existing FX100 blob `0a366c17163ad26d646d48bc4a2b174c55a4e802` and FX200 blob `bb326bf057dcb3d0da29d3bd9c70e4579ba784a0` supplied all preserved model fields,source URLs,prices and qualifications above. Stale next-batch instructions are replaced by root research-state.json,not treated as technical facts. FX150 is one new model;the two consolidations add none. Shared legacy comparison links still require retirement validation;old sources were not deleted by this commit.
+
+## FV02 Doubling
+
+Checked **2026-10-17**; partial. Vocal chorus/doubling plus independently controlled reverb and tone processing. Included in vocal comparison only; guitar reverb is a supporting path, not guitar multi-effects. FV01 exclusion remains unchanged.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No pedal or expression connector in complete manual inventory; toe control not documented. [Manual V01][FV2-M], pp03–04 |
+| Rotary / footswitches / buttons | **4 / 1 / 1**: Reverb,Mode,Level,Gain; one footswitch; Tone button. Line In,48V,Lift toggles separate. Derived from numbered inventory; visual verification pending. [Manual V01][FV2-M], pp03–04 |
+| Display | Status LEDs only in panel inventory; screen diagonal/color/touch not applicable to LEDs. [Manual V01][FV2-M], pp03–04 |
+| Dimensions / weight | **86.6×125×60 mm;0.371 kg**. Axes/accessory inclusion unspecified. [Product][FV2-P] |
+| Simultaneous processing / categories | Vocal chorus plus reverb concurrently; **5 chorus,3 reverb,3 tone settings**. Fixed functions,not8 simultaneous freely allocated blocks. [Manual V01][FV2-M], pp05–07; [Product][FV2-P] |
+| Factory / user / total presets | No stored-preset capacity established; five chorus positions are not five user memories. |
+| Synth / acoustic simulation | Each unverified; octave chorus is not proof of a synth engine. |
+| IR / NAM / capture | User IR,native NAM,converted NAM and proprietary capture loading each unverified. |
+| Audio / control I/O | Quarter-inch mono guitar in/out (1 MΩ/100 Ω); balanced XLR mic in/out (2.14 kΩ/300 Ω); DC input. Line mode uses mic socket. No USB,MIDI,EXP,aux or phones connector in manual inventory. [Product][FV2-P]; [Manual V01][FV2-M], pp03–04,06 |
+| Phantom power / routing | 48V switch documented. **Direction conflict:** older manual/store say pedal can be phantom-powered; newer product/manual say supports phantom power. Do not equate these with confirmed input powering or microphone supply behavior. Mixed or separate guitar/mic outputs. [V01][FV2-M]; [V02][FV2-N]; [Store][FV2-S]; [Product][FV2-P] |
+| Power / battery / USB | **9 V DC,center negative** in V01. V01 says500 mA draw; product says9V500mA supply. V02 encoded extraction appears to say **1.5 A** in precautions,panel and draw. Revision/unit label reconciliation pending; not measured consumption. Barrel,battery and USB operation unverified. [V01][FV2-M], pp01,08; [V02][FV2-N], pp01,03,08; [Product][FV2-P] |
+| Editor / platforms / drivers | No FV02 editor established; desktop/mobile editing,audio interface and firmware route unverified. No USB port in documented inventory. |
+| Live / practical features | Tap enables chorus+reverb; next tap removes chorus; double tap bypasses. Hold accesses guitar reverb. Output-mode change requires power-on footswitch hold. Looper,drums,scenes,spillover unverified. [V01][FV2-M], pp05–06 |
+| Used IDR | **?** No sale-condition-qualified used offer established. |
+| New IDR | **?** Exact retail-style asks below do not establish new condition or current stock. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee asking-price evidence
+
+Checked **2026-10-17**; historical indexed asks,not completed sales. Sale/working condition,selected variation,adapter/bundle,warranty,current stock,shipping/tax,voucher and final total unknown for all. No Habis marker is not stock confirmation; late-delivery compensation not deducted.
+
+| Seller / item | IDR ask | Access / region |
+|---|---:|---|
+| [GH MUSIC STORE,71552895/12155811550](https://shopee.co.id/FLAMMA-FV02-DOUBLING-VOCAL-PROCESSOR-PEDAL-WITH-REVERB-CHORUS-EFFECTS-i.71552895.12155811550) | Rp2,016,000 | Kota Tangerang Selatan; one-month search/reopened cache; four-hour delivery banner does not certify stock |
+| [Suryaputra Musik,270383239/24800552043](https://shopee.co.id/Flamma-FV02-Doubling-i.270383239.24800552043) | Rp2,520,000 | Kota Semarang; one-month search cache; August26 delivery stale |
+| [RedMusikBali,581205434/21393335921](https://shopee.co.id/Flamma-FV02-Doubling-Vocal-Effects-Pedal-FV-02-FV-02-i.581205434.21393335921) | Rp2,520,000 | Kota Denpasar; one-month search cache; August26 delivery stale |
+| [NEO MUSIC,158235298/16026017347](https://shopee.co.id/Flamma-FV02-Doubling-Vocal-Effects-Pedal-i.158235298.16026017347) | Rp1,816,920 | Kota Sukabumi; three-month search cache; July14 delivery stale |
+
+### Revision identity and gaps
+
+Manufacturer shop manual index links **V01 2021-06-18**,11 PDF pages,readable text. Manufacturer product links **V02 2024-01-08**,12 pages,whose extracted text has shifted character encoding. Power1.5A appears in that extraction but screenshots failed; visual confirmation remains required. Preserve500mA/1.5A and phantom-direction conflicts rather than silently reconciling them. Store URL contains fv03 but page title/content identify FV02; not evidence for FV03 hardware. Foreign USD store ask not converted to IDR.
+
+Selected manual text inspected; no visual-panel or complete revision audit claimed. No software,dependencies,firmware or files downloaded/executed. Remaining: actual revision/power label and phantom direction,control image,memories/editor/IR/NAM/capture,synth/acoustic/live unknowns and condition-qualified prices. Ownership unknown.
+
+[FV2-P]: https://www.flammainnovation.com/single.html?id=59
+[FV2-M]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV02_Manual_EN_V01_2021.06.18_A.pdf?v=1671178993
+[FV2-N]: https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf
+[FV2-S]: https://www.flamma.shop/products/flamma-fv03-doubling-vocal-effects-pedal
+[FV2-I]: https://www.flamma.shop/pages/manual

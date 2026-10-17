@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 222,
+  "active_model_count": 223,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 222,
+  "canonical_root_model_count": 223,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "222 unique active/root-canonical models; zero legacy-only. POD HD400 adds guitar and bass membership on own Flash2.0 Flip Top evidence; no vocal membership. Six specialist archives excluded.",
+  "count_reconciliation": "223 unique active/root-canonical models; zero legacy-only. FV02 adds vocal-only membership based on simultaneous chorus/reverb; guitar supporting reverb does not add guitar membership. Six archives remain excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Bass/vocal Shopee discovery",
-    "task": "X3 Live and XT Live software limitations now recorded separately. Search different bass/vocal series for exact eligible hardware items; avoid saved negative-query adapter/mixed-shop hits. If unresolved, close primary-document gaps in existing records.",
+    "task": "FV02 recorded and committed before next model. Next discover exact Flamma FB200/FV03/FV04/FV05 hardware leads, then own manufacturer verification. Do not infer guitar membership from supporting reverb or repeat FV01 exclusion.",
     "next_models": [],
-    "after_queue": "Continue unresolved technical verification and lossless migration; no downloads/workflows."
+    "after_queue": "Continue other bass/vocal discovery and unresolved technical/migration work; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4823,6 +4823,17 @@
       ],
       "finding": "POD X3 family tools explicitly excluded from future Apple Silicon support; Monkey discontinued for newer operating systems and firmware route requires older supported OS. Historical GearBox editor evidence preserved.",
       "remaining": "Exact supported Windows/Intel Mac versions, activation route, USB rates/returns and remaining model-specific technical/price gaps."
+    },
+    {
+      "model": "Flamma FV02 Doubling",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.flammainnovation.com/single.html?id=59",
+        "https://www.flamma.shop/pages/manual"
+      ],
+      "finding": "Own vocal chorus/reverb architecture;4 rotaries/1foot/1button text inventory. V01/V02 power and phantom wording conflicts preserved; four exact asks condition-unqualified.",
+      "remaining": "Power/phantom revision and visual verification; memories/editor/loading/live unknowns; qualified used/new offers."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23464,7 +23475,8 @@
     "Flamma": [
       "FX100",
       "FX200",
-      "FX150"
+      "FX150",
+      "FV02 Doubling"
     ],
     "HeadRush": [
       "Core",
@@ -23824,7 +23836,8 @@
     "FLAMMA.md": [
       "FX100",
       "FX200",
-      "FX150"
+      "FX150",
+      "FV02 Doubling"
     ],
     "NUX.md": [
       "MG-101",
@@ -23984,8 +23997,8 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 31,
-      "vocal_only_count": 17,
+      "record_count": 32,
+      "vocal_only_count": 18,
       "combined_instrument_count": 14,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
@@ -40875,13 +40888,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 222,
-    "canonical_root_models": 222,
+    "unique_brand_model_pairs": 223,
+    "canonical_root_models": 223,
     "legacy_only_models": 0,
     "guitar_view_models": 184,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 31,
+    "vocal_view_models": 32,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41209,6 +41222,7 @@
       "BOSS::VE-20",
       "BOSS::VE-5",
       "Fender::Tone Master Pro",
+      "Flamma::FV02 Doubling",
       "HeadRush::Core",
       "HeadRush::Prime",
       "HeadRush::VX5",
@@ -41621,6 +41635,13 @@
     },
     "Flamma::FX150": {
       "link": "FLAMMA.md#fx150",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": []
+    },
+    "Flamma::FV02 Doubling": {
+      "link": "FLAMMA.md#fv02-doubling",
       "source_files": [
         "FLAMMA.md"
       ],
@@ -50066,6 +50087,10 @@
     {
       "model": "Line 6 POD HD400",
       "task": "Verify body/polarity/barrel/draw,control image/display,simultaneous maximum and firmware counts,current software/USB/MIDI,IR/NAM/capture and condition-qualified offers."
+    },
+    {
+      "model": "Flamma FV02 Doubling",
+      "task": "Visually reconcile V01 500mA versus encoded V02 1.5A and phantom direction; exact power unit label,control image,memory/software/loading/live unknowns and qualified prices."
     }
   ],
   "discovery_cross_brand_bass": {
