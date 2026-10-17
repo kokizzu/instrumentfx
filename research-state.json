@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Head MK2",
-    "task": "Verify Head MK2 current control/display census,looper operation,stereo-monitor routing and power/manual conflicts;Browse/factory total,NAM/synth and qualified Indonesian offers remain open.",
+    "task": "Verify Head MK2 current display/button census andlooper mode/controller operation;power source conflict, Browse/factory total,NAM/synth andqualified Indonesian offers remain open. Then resume fresh Shopee discovery andlegacy consolidation.",
     "next_models": [],
     "after_queue": "Continue unfinished model verification,fresh Shopee discovery and lossless legacy consolidation. No downloads,workflows or push."
   },
@@ -63744,6 +63744,16 @@
       "125×5=625PerformanceRigs separate from Browse;standardCK0-based default slots and some examples,exact factory count unknown.",
       "Electric-to-acoustic simulator with four controls and post-stack/AMP-CAB-off guidance;not acoustic/piezo enhancement.",
       "RigManager≥3IR conversion with arbitrary source rate/length;18Celestion cabinet presets sinceOS5.5;native limits unproved."
+    ]
+  },
+  "technical_followups_head_routing_power_20261017": {
+    "model": "Kemper PROFILER Head MK2",
+    "source": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+    "revision": "Manual13.0,May2025",
+    "findings": [
+      "MonitorStereo couples MONITOR andDIRECT outputs andmonitor controls.",
+      "RETURN andALTERNATIVE IN share stereo-return/aux roles;RETURN XLR no phantom,MAIN XLR48Vprotected with avoidance guidance.",
+      "Internal IEC100–240VAC in manual versus current Head90–275VAC specification;conflict preserved pending current label/manual."
     ]
   }
 }
