@@ -590,6 +590,18 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Other documented functions** (5. Power, software and practice/live features): 80 s mono looper;68 rhythms; USB2-in/2-out,44.1kHz/32-bit; desktop driver ≠ editor
 
 [Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+### G2X FOUR — additional exact hardware asks
+
+Checked 2026-10-17. These observations supplement the retained historical offers above; none establishes live checkout stock or verified new/used condition.
+
+| Condition / seller | IDR observation and access limits | Exact item |
+|---|---|---|
+| Condition unverified / Serenata Galeri Musik, Kota Jakarta Selatan | **Rp3,400,000** in the direct reader's five-day cache; older one-month search result **Rp3,254,000**. shop1524946106/item41750833237. Title says AD-16E adapter bundle; exact delivered contents unconfirmed. Preserve both observations, not a single current price. | [Shopee](https://shopee.co.id/Zoom-G2X-Four-Guitar-Multi-Effect-Processor-W-Adaptor-AD-16E-Zoom-Effect-i.1524946106.41750833237) |
+| Condition unverified / GeandPedalStore, Kab. Sleman | **Rp2,950,000, Habis**; shop185899831/item26893919148. Three-week search cache; direct reader failed. Sold-out asking evidence only. | [Shopee](https://shopee.co.id/Zoom-G2X-Four-Multi-Effects-Processor-i.185899831.26893919148) |
+| Condition unverified / Musicmen Store, Kab. Bantul | **Rp2,350,000, Habis**; shop272358508/item26435990639. One-month search cache; direct reader failed. Sold-out asking evidence only. | [Shopee](https://shopee.co.id/Efek-Zoom-G2X-Four-Mulit-Effects-With-Expressio-n-Pedal-i.272358508.26435990639) |
+
+Working state, selected variation, warranty, bundle/adapter contents, applied vouchers, shipping and taxes remain unverified. Relative delivery estimates and late-arrival compensation are not stock confirmation or applied discounts. The lower sold-out asks do not establish used condition.
+
 
 ## B1 FOUR
 
