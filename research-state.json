@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Legacy consolidation audit",
-    "task": "Repair failing audit_compact_union in make technical-retirement-verify: inspect pinned original effects/guitar-compact.md paragraph of five control photo/manual bullets versus VALETON.md, SONICAKE.md and MULTI-EFFECTS.md, preserve missing source text/links with model context; rerun full technical-retirement-verify before claiming consolidation. B1 FOUR original memory value repaired in b9a97ef.",
+    "task": "Repair floorboard prose preservation failure next: run make technical-retirement-verify for exact missing paragraphs; compare pinned original effects/guitar-floorboards.md with recorded destinations. Compact union URLs restored and all18 groups/22 URLs/eight model-row audits pass. Do not claim whole migration complete.",
     "next_models": [],
     "after_queue": "Other field gaps and exact Shopee discovery; no downloads/workflows."
   },
@@ -41078,10 +41078,21 @@
       "scope": "All complete-model-rows manifests scanned; only this missing fact found. Full verifiers rerun separately.",
       "remaining_failure": {
         "target": "make technical-retirement-verify",
-        "audit": "audit_compact_union",
-        "source": "effects/guitar-compact.md",
-        "missing": "Paragraph containing GP-150/180 controls, GP-50 original photo, Matribox controls/manual, Smart Box photo and Pocket Master photo/manual references.",
-        "status": "Unresolved; navigation-save checks a narrower specialist/body subset and is not proof of this union gate."
+        "audit": "audit_floorboard_union",
+        "status": "Compact union repaired and passes; broader target now reaches floorboard prose failure. Exact missing paragraphs now included by diagnostic."
+      },
+      "compact_repair": {
+        "status": "Original paragraph URLs restored; altered forms retained as unverified transcription provenance.",
+        "changes": [
+          {
+            "original": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433",
+            "altered": "https://cdn.shopify.com/s/files/1/0100/1980/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433"
+          },
+          {
+            "original": "https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440",
+            "altered": "https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365198&width=1440"
+          }
+        ]
       }
     }
   },

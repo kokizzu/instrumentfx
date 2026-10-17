@@ -675,7 +675,7 @@ def main():
         if mode == 'commit-nux-union':
             message = 'audit(nux): verify shared source union and inventory incoming navigation'
         if mode == 'commit-compact-union':
-            message = 'audit: inventory compact source navigation and incoming references'
+            message = 'docs: restore exact compact-source URLs and diagnose floorboard preservation'
         if mode == 'commit-legacy-audit':
             message = 'audit: inventory legacy source hashes and incoming Markdown references'
         if mode == 'commit-compact-gp100-audit':

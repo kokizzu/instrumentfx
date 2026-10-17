@@ -1645,7 +1645,8 @@ def audit_floorboard_union():
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
     paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|\[]', p.strip())]
     union = '\n'.join((ROOT/p).read_text() for p in ('VALETON.md','SONICAKE.md','MULTI-EFFECTS.md'))
-    assert all(comparison_views.relink(p,path,refs) in union for p in paragraphs), 'Floorboard prose missing'
+    missing = [comparison_views.relink(p,path,refs) for p in paragraphs if comparison_views.relink(p,path,refs) not in union]
+    assert not missing, 'Floorboard prose missing: '+str(missing)
     urls = set(re.findall(r'https?://[^\s)]+', source))
     assert all(url in union for url in urls), 'Floorboard external URL missing'
     manifests = [e for e in state['consolidation_and_price_findings'] if e.get('source') == path and e.get('verification_kind') == 'complete-model-rows-v1']
