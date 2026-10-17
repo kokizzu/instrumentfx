@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh bass/vocal discovery",
-    "task": "Continue fresh bass/vocal Shopee discovery; TANK-B offers41204594360,26382487518,15649372409 are recorded and must not be added again. Resolve exact original/V2 identity only with direct evidence.",
+    "task": "Continue fresh bass/vocal discovery and unresolved manufacturer fields; Harmony Singer 2 PnA item12928778203 is now recorded. Do not repeat TANK-B offer additions.",
     "next_models": [],
     "after_queue": "Technical gaps and lossless migration audit remain incomplete. No downloads/workflows/push."
   },
@@ -52014,6 +52014,13 @@
         "130137603/15649372409"
       ],
       "remaining": "Original/V2 identity,condition,live stock and other technical gaps retained."
+    },
+    {
+      "model": "TC-Helicon Harmony Singer 2",
+      "checked_date": "2026-10-17",
+      "source": "https://shopee.co.id/Effects-Vocal-TC-Helicon-Harmony-Singer2-i.160105847.12928778203",
+      "finding": "Additional exact PnA Music Store ask Rp5600000,Kota Jakarta Timur,last-week crawl,JS-limited body;condition and stock unverified.",
+      "remaining": "Manufacturer revision conflicts and all retained technical gaps;qualified new and live-stock evidence."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -64157,5 +64164,14 @@
       "crawl": "six days",
       "qualification": "JS-limited;condition and stock unknown;relative delivery not stock proof."
     }
+  },
+  "discovery_vocal_frontier_20261017_latest": {
+    "queries": [
+      "site:shopee.co.id \"VoiceLive\" \"Rack\"",
+      "site:shopee.co.id \"Vocal\" \"300\" \"Digitech\"",
+      "site:shopee.co.id \"VoiceTone\" \"Create XT\"",
+      "site:shopee.co.id \"TC\" \"Harmony Singer2\""
+    ],
+    "result": "New exact offer for existing Harmony Singer 2 recorded;other results adapter-only or nonqualifying. No market-absence inference."
   }
 }
