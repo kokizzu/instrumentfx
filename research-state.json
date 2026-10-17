@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX StompLab 2B",
-    "task": "Preserved950kNEW-titleHabisoffer nowshowninALLBASS;directCachemissretained. Continue StompLab2B ACOUSTICalgorithm/polarity verification orfreshdiscovery;do notinferused/newfromprice.",
+    "task": "StompLab2B volumeentry confirms61countbasis;converter/tunerranges andACcontrols/overloadlimit saved. Acousticmodeldescription/polarity unresolved;continuefreshdiscovery.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60971,5 +60971,18 @@
       "site:shopee.co.id AX10 efek"
     ],
     "result": "ExistingStompLab2Boffer;1Gstorefrontnotexactitem;replacementfootswitch/gamepads/routersrejected;noqualifiednewmodel,nocoverageclaim"
+  },
+  "stomplab2b_manual_specs_20261017": {
+    "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf",
+    "identity": "OwnStompLabIIB multilingualmanual",
+    "pages": "15,78",
+    "findings": [
+      "VolumePedal1explicitinspecs,listedcategories61includingvolume",
+      "24bitADDA,samplerateunknown",
+      "TunerA0E6reference438445",
+      "ACOUSTICTone0to10pedalassignable",
+      "ACoverloadwithhighoutput/excessgain"
+    ],
+    "remaining": "Acousticmodeldescription,polarity,samplerate/display/software/currentqualifiedoffers"
   }
 }

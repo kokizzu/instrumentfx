@@ -547,7 +547,7 @@ def main():
         if mode == 'commit-stomplab1g':
             message = 'research(vox): restore StompLab 1G output behavior and price qualifications in comparisons'
         if mode == 'commit-stomplab2b':
-            message = 'research(vox): expose qualified StompLab 2B archived offer in comparison'
+            message = 'research(vox): verify StompLab 2B tuner and effect count basis'
         if mode == 'commit-tonelab-se':
             message = 'research(vox): preserve ToneLab EX height conflict and reconcile effect totals'
         if mode == 'commit-tonelab-st':

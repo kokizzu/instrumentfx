@@ -138,7 +138,7 @@ Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;
 | Display | Program/value display;diagonal,color,touch unverified. | [Manual p4][SL2B-M] |
 | Dimensions / mass | **207×125×64mm WDH;780g**. | [Product][SL2B-P] |
 | Processing / category choices | **61 variations;up to8 simultaneous including NR**. Pedal9;Amp10/Drive8;cabinet12;modulation9;delay8;reverb3;NR1. AMP/DRIVE is one shared category. Qualified total below. | [Manual p3][SL2B-M]; [Product][SL2B-P] |
-| Category choices / total reconciliation | Listed choices sum60:9+10+8+12+9+8+3+1. Adding the separate volume-pedal function yields61; analyst reconciliation,not manufacturer-confirmed counting method. Seven editable categories plus volume explain up to8;amp and drive are alternatives. | [Manual pp9–10,78–79][SL2B-M] |
+| Category choices / total reconciliation | Listed choices sum60:9+10+8+12+9+8+3+1. Manual p15 explicitly lists **Volume Pedal:1** alongside those categories;the published entries therefore sum61 including volume. This counts category alternatives,not61independent algorithms. Seven editable categories plus volume explain up to8;amp and drive are alternatives. | [Manual pp9–10,78–79][SL2B-M] |
 | Routing / expression behavior | Volume uses current pedal position on program change;other targets wait until pedal movement. WAH selection automatically assigns expression. Bypass includes NR;holding both switches1s mutes;exiting does not change program. | [Manual pp8–10][SL2B-M] |
 | Power / auto-off | Factory-enabled auto-off after1h without controls or audio input. Setting survives power-off;EDIT+UP at power-on disables it. Restart requires power-on. | [Manual p7][SL2B-M] |
 | Factory / user memory | **120:100 read-only presets00–99+20 writable U0–U9/u0–u9**. Initial user fill unverified. | [Manual pp3,7][SL2B-M] |
@@ -148,6 +148,8 @@ Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;
 | IR / NAM / capture | User IR,native/converted NAM,captures unverified. | Unresolved |
 | Editor / software | Editor/platforms unverified. | Unresolved |
 | Looper / drums / live | Tuner in bypass/mute;looper,drums,scenes,trails unverified. | [Manual p3][SL2B-M] |
+| Conversion / tuner specifications | Ownmanual p15:**24bit A/D andD/A**;sample rate unverified. Tuner detects**A0–E6**,reference**438–445Hz**. These are published ranges,not accuracy measurements. | [Manual][SL2B-M] p15 |
+| Acoustic / parameter and overload limits | Appendix p78 lists **ACOUSTIC(AC),TONE0–10**,pedal-assignable;no secondparameter. Manual p15 warns high-output humbuckers or excessiveAMP/DRgain may cause high-frequency distortion withAC;lower instrument level/gain. This confirms a named effect andcontrols,not a full description of its acoustic-body model or a dedicated synthesizer. | [Manual][SL2B-M] pp15,78 |
 
 ### Separate IDR hardware offers
 
