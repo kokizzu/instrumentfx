@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 298,
+  "active_model_count": 299,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 298,
+  "canonical_root_model_count": 299,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "298 unique active/root-canonical;0legacy-only;34brands;6excluded;allpartial.",
+  "count_reconciliation": "299 unique active/root-canonical;0legacy-only;35brands;6excluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Player",
-    "task": "Research exact Player from official documentation; distinguish paid levels and capabilities; retain qualified SevenStereo ask. FM3 Turbo partial record saved; do not duplicate.",
+    "task": "Inspect current14.2 manufacturer manual to resolve revision/Fixed FX counts and PROFILE2.0 setup; otherwise fresh eligible Shopee discovery. Preserve Level and power conflicts.",
     "next_models": [],
-    "after_queue": "Fresh eligible Shopee discovery and remaining technical gaps; no downloads,workflows orpush."
+    "after_queue": "Continue remaining model gaps;no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -5190,6 +5190,22 @@
         "IR formats/NAM",
         "Looper/drums",
         "Qualified new/used offers"
+      ]
+    },
+    {
+      "model": "Kemper PROFILER Player",
+      "path": "KEMPER.md#profiler-player",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "One hardware model with LevelI/II/III distinction;4/4/8flexible modules,50/50/625Rigs;currentMorphing/Profile2.0 changes retained;exact13.134mconditionunknowncachedask.",
+      "remaining": [
+        "Current manual/revision transitions",
+        "Category census",
+        "Display",
+        "IR/NAM",
+        "Looper",
+        "Power operation",
+        "Condition/stock"
       ]
     }
   ],
@@ -23790,7 +23806,7 @@
     {
       "model": "Kemper PROFILER Player",
       "checked_date": "2026-10-17",
-      "status": "queued exact hardware; not active inventory yet",
+      "status": "partial root record saved; do not duplicate",
       "url": "https://shopee.co.id/KEMPER-PROFILER-Player-Guitar-Amp-Pedal-i.16879370.24561694371",
       "indexed_idr": 13134000,
       "seller": "Seven Stereo Music & Audio Store",
@@ -24163,6 +24179,9 @@
     ],
     "Fractal Audio": [
       "FM3 MKII Turbo"
+    ],
+    "Kemper": [
+      "PROFILER Player"
     ]
   },
   "root_brand_content": {
@@ -24531,18 +24550,21 @@
     ],
     "FRACTAL-AUDIO.md": [
       "FM3 MKII Turbo"
+    ],
+    "KEMPER.md": [
+      "PROFILER Player"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 247,
+      "record_count": 248,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 123,
+      "record_count": 124,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 95,
+      "shared_bass_capable_count": 96,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41527,18 +41549,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 298,
-    "canonical_root_models": 298,
+    "unique_brand_model_pairs": 299,
+    "canonical_root_models": 299,
     "legacy_only_models": 0,
-    "guitar_view_models": 247,
+    "guitar_view_models": 248,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
     "vocal_view_models": 61,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 123,
-    "bass_shared_models": 95,
+    "bass_view_models": 124,
+    "bass_shared_models": 96,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41840,7 +41862,8 @@
       "TC Electronic::M-One XL",
       "Eventide::H9 Max",
       "Eventide::H90",
-      "Fractal Audio::FM3 MKII Turbo"
+      "Fractal Audio::FM3 MKII Turbo",
+      "Kemper::PROFILER Player"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41965,7 +41988,8 @@
       "TC Electronic::PLETHORA X5",
       "Eventide::H9 Max",
       "Eventide::H90",
-      "Fractal Audio::FM3 MKII Turbo"
+      "Fractal Audio::FM3 MKII Turbo",
+      "Kemper::PROFILER Player"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -42032,6 +42056,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Kemper::PROFILER Player": "Official Player bundle explicitly describes bass use and bass PROFILE/DI routing. [Manufacturer](https://www.kemper-amps.com/store/au/profiler-player-power-bundle.html).",
     "Fractal Audio::FM3 MKII Turbo": "Manufacturer explicitly identifies guitar and bass processing. [Product](https://www.fractalaudio.com/fm3/).",
     "Sonicake::Matribox II QME-100": "Own Matribox II product explicitly lists guitar/bass/acoustic effects. Shared bass,not inferred from Pro or an EQ control. [Manufacturer](https://www.sonicake.com/products/matribox-ii).",
     "Sonicake::Matribox QME-50": "Own original Matribox product explicitly supports guitar/bass/acoustic processing. Shared bass,not low-end performance certification. [Manufacturer](https://www.sonicake.com/products/matribox).",
@@ -44376,6 +44401,13 @@
       "link": "FRACTAL-AUDIO.md#fm3-mkii-turbo",
       "source_files": [
         "FRACTAL-AUDIO.md"
+      ],
+      "finding_files": []
+    },
+    "Kemper::PROFILER Player": {
+      "link": "KEMPER.md#profiler-player",
+      "source_files": [
+        "KEMPER.md"
       ],
       "finding_files": []
     }

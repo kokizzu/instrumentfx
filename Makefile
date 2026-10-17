@@ -1647,3 +1647,7 @@ consolidation-commit-preservation-repairs:
 .PHONY: research-commit-fm3
 research-commit-fm3:
 	python3 scripts/research_tools.py commit-fm3
+
+.PHONY: research-commit-player
+research-commit-player:
+	python3 scripts/research_tools.py commit-player
