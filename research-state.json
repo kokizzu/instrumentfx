@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GS1000",
-    "task": "GS1000 loop sync/exit and reamp input persistence saved. Loop file format/current drum count/factory memory subset and IR conversion/concurrency remain open. Next fresh Shopee discovery or other incomplete primary fields; preserve Li distinction and no downloads.",
+    "task": "GS1000 electrical limits saved after loop/reamp follow-up. Current drum count, factory-filled memory subset, loop file format and IR conversion/concurrency remain open. Fresh Shopee B9.1ut/AX5B/BP90 search returned no results; continue discovery or incomplete primary fields without downloads.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -24122,6 +24122,20 @@
       "manufacturer_candidate": "https://us.donnermusic.com/products/donner-alpha-cruncher-guitar-effect-pedal",
       "manufacturer_identity": "Alpha Cruncher EC962 independently documented as distortion/chorus/delay chain; not a match to seller item without identity evidence",
       "status": "Deferred identity; exact hardware link or panel identity required"
+    },
+    {
+      "checked": "2026-10-18",
+      "models": [
+        "Zoom B9.1ut",
+        "Korg AX5B",
+        "DigiTech BP90"
+      ],
+      "queries": [
+        "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
+        "site:shopee.co.id \"Korg\" \"AX5B\"",
+        "site:shopee.co.id \"Digitech\" \"BP90\""
+      ],
+      "finding": "No search results returned in this pass; no exact hardware offer established and no absence or market-coverage conclusion."
     }
   ],
   "inventory_by_brand": {
@@ -57812,6 +57826,12 @@
       "sources": [
         "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf"
       ]
+    },
+    {
+      "model": "MOOER GS1000",
+      "checked": "2026-10-18",
+      "finding": "Added manufacturer input/output impedance and maximum-level specifications, retaining quarter-inch-only microphone maximum, output-impedance versus load distinction, and ADC/DAC ratings separately from USB rates.",
+      "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf"
     }
   ],
   "discovery_cross_brand_bass": {

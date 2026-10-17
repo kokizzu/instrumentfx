@@ -271,6 +271,16 @@ Checked 2026-10-18 against the [original manufacturer manual](https://media.rock
 
 Loop import/export is documented elsewhere, but no supported loop-audio format was established in these inspected instructions. The existing IR WAV format must not be reused as a looper-file specification.
 
+### GS1000 — electrical interface limits
+
+Checked 2026-10-18 against the [original manufacturer manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf), printed pp76–77. Manufacturer ratings, not independent measurements.
+
+| Field | Published specification / qualification |
+|---|---|
+| I/O / input electrical limits | Guitar and RETURN: **1 MΩ, maximum +10 dBu**. Microphone combo: **2.4 kΩ**; its **+10 dBu** maximum is explicitly qualified for the **quarter-inch input**, not established for XLR. |
+| I/O / output electrical limits | Main outputs: **600 Ω, maximum +16 dBu**. SEND: **510 Ω, maximum +12 dBu**. PHONES: **6 Ω, maximum +16 dBu**. Output impedance is not a recommended headphone-load rating. |
+| I/O / converter ratings | ADC: **24-bit/44.1 kHz**, dynamic range **114 dB**. DAC: dynamic range **115 dB**, signal-to-noise **115 dB**. Both list **20 Hz–20 kHz, +0/−1 dB** response. The manual does not state the measurement weighting here; USB rates remain separate. |
+
 ## GE100 original
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
