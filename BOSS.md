@@ -2537,3 +2537,38 @@ Checked2026-10-17 against indexed original [official manual][ME5-M]:“Operation
 | Processing / drive | MIDI parameter table defines **three modes,1–3**,encoded0–2. Individual mode descriptions remain unverified;do not substitute ME-6B labels. |
 | Controls / mechanism | ModeSelect is a push button cyclingPlay→Edit→MIDI;Manual entered separately. PatchEditing describes display/parameter/value editing instead of physical parameter knobs. Supports text-derived0rotary/5foot/8buttons inventory;power separate. |
 | MIDI / memory | Transmit programs1–64;receive1–128,with65–128 mapped back to1–64. Transmit/receive channel cannot differ. SysEx bulk all/current andparameter communication documented;these are preset/parameter data,not evidence of audio/IR/NAM import. |
+
+## GT-001
+
+Desktop guitar/vocal processor;distinct fromGT-1/GT-100. Checked2026-10-17;partial. [BOSS product/specifications][GT001-P].
+
+<!-- comparison evidence begins -->
+
+| Field | Verified / unresolved |
+|---|---|
+| Expression | External expression oruptotwofootswitches;built-in/toe unverified. |
+| Controls | Knob/footswitch/button counts unverified. |
+| Display | Backlit132×32LCD;diagonal,color,touch unknown. |
+| Processing / choices | Dualamps,series/parallel chains;COMP,PREAMP,OD/DS,EQ,FX1/2,DELAY,CHORUS,REVERB,PEDALFX,NS1/2,ACCELFX. Aggregate ceiling/categorycounts pending. |
+| Factory / user memory | 200preset+200user;initialusercontents unknown. |
+| Synth / acoustic | WAVESYNTH,AC.GUITARSIM,AC.PROCESSOR listed;monophonic guitar-to-MIDI usesnormalpickup. |
+| Dimensions / mass | 211W×135D×58Hmm;500g. |
+| I/O | Quarter-inch guitar,Lmono/Routputs,TRSCTL/EXP;balancedXLRmic,+48V10mAmax;stereominiAUX/phones;USB-B;DCin. |
+| Power / batteries | Adapter orUSBbus;240mAdraw. Voltage,polarity,batteries unresolved. |
+| Editor / USB | BOSS TONE STUDIO Mac/Windows;USBaudio/MIDI,reamping. Exactdirectionalchannels pending. |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture unverified. |
+| Looper / drums / live | Unverified;vocal/acousticmicpatches supported. Concurrentguitar+mic routing unverified. |
+
+### GT-001 — separate IDR offers
+
+| Price class | Amount | Evidence / limits |
+|---|---:|---|
+| Used | Unknown | Conditionunverified. |
+| New | Unknown | Conditionunverified. |
+| Condition-unverified shop-card ask | Rp5,075,200 | [Toko Standard Music](https://shopee.co.id/tokosm38),[shop214621914/item18937945565](https://shopee.co.id/Effect-Guitar-BOSS-GT-001-COSM-i.214621914.18937945565). Searchfour-month/directshopthree-monthcache;itemclickcachemiss. Tanjungpinangshopdescription,notitem-confirmed. Condition,stock,variant,bundle,adapter,warranty,voucher,shipping/taxunknown. Historicalask,notliveoffer/completedsale. |
+
+<!-- comparison evidence ends -->
+
+[GT001-P]: https://www.boss.info/global/products/gt-001/
+
+The [2014 parameter guide](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf) exceeded reader limit(11,386,475bytes);notdownloaded orvisuallyinspected. Search-generated cover description called desktop favoritebuttons footswitches;notaccepted ascontrol evidence. Ownmanual needed;no siblingborrowing.

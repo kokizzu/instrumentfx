@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 290,
+  "active_model_count": 291,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 290,
+  "canonical_root_model_count": 291,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "290uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial. ME5officialspec guitaronly;noinferredbass/vocal.",
+  "count_reconciliation": "291uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial. GT001ownproduct supports guitar/vocal;noinferredbass.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,11 +29,9 @@
   },
   "cursor": {
     "model": "BOSS GT-001",
-    "task": "New exact Shopee lead214621914/18937945565 fromTokoStandardMusic cardRp5075200 saved;directitemcachemiss. Next ownmanufacturer specification/manual research before active addition;condition/liveStockunknown.",
-    "next_models": [
-      "BOSS GT-001"
-    ],
-    "after_queue": "290partialmodels;no downloads/workflows/push."
+    "task": "Initial ownproduct guitar/vocalprofile saved;next recover ownowner/manualtext controls,power,routing/categorycounts. ParameterPDFreaderlimit;no downloads. 291partialmodels.",
+    "next_models": [],
+    "after_queue": "FreshShopeediscoveryandremainingverification;no workflows/push."
   },
   "new_findings": [
     {
@@ -23713,7 +23711,8 @@
       "GT-3",
       "KATANA:GO",
       "AD-10",
-      "ME-5"
+      "ME-5",
+      "GT-001"
     ],
     "CUVAVE": [
       "H8"
@@ -24262,7 +24261,8 @@
       "GT-3",
       "KATANA:GO",
       "AD-10",
-      "ME-5"
+      "ME-5",
+      "GT-001"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -24379,7 +24379,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 240,
+      "record_count": 241,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24391,9 +24391,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 56,
+      "record_count": 57,
       "vocal_only_count": 22,
-      "combined_instrument_count": 34,
+      "combined_instrument_count": 35,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41351,13 +41351,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 290,
-    "canonical_root_models": 290,
+    "unique_brand_model_pairs": 291,
+    "canonical_root_models": 291,
     "legacy_only_models": 0,
-    "guitar_view_models": 240,
+    "guitar_view_models": 241,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 56,
+    "vocal_view_models": 57,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41414,7 +41414,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B1X FOUR."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-001."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41449,6 +41449,7 @@
       "BOSS::KATANA:GO",
       "BOSS::AD-10",
       "BOSS::ME-5",
+      "BOSS::GT-001",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -41782,6 +41783,7 @@
       "BOSS::VE-8",
       "BOSS::VE-20",
       "BOSS::VE-5",
+      "BOSS::GT-001",
       "Fender::Tone Master Pro",
       "Flamma::FV02 Doubling",
       "Flamma::FV03 Character",
@@ -42241,6 +42243,13 @@
     },
     "BOSS::ME-5": {
       "link": "BOSS.md#me-5",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::GT-001": {
+      "link": "BOSS.md#gt-001",
       "source_files": [
         "BOSS.md"
       ],
@@ -58406,5 +58415,25 @@
     ],
     "qualification": "No-hit does not establish marketabsence;storebrandnamesnot manufacturer authentication",
     "next": "Read official GT-001 product/manual/specifications;keep desktop distinct from GT-1/GT-100;verify mic/guitar routing before membership;do not inferbass."
+  },
+  "gt001_primary_20261017": {
+    "source": "https://www.boss.info/global/products/gt-001/",
+    "canonical": "BOSS.md#gt-001",
+    "scope": [
+      "guitar",
+      "vocal"
+    ],
+    "membership": "Ownproduct explicitlymicvocal/acousticpatches,phantom;notmereconnector inference",
+    "remaining": [
+      "Controls",
+      "Categorycounts/simultaneousceiling",
+      "Mic/guitar routing",
+      "Voltage/polarity",
+      "Displaydetails",
+      "Imports",
+      "ExactUSBchannels",
+      "Qualifiedoffers"
+    ],
+    "manual_access": "GT001_r_e01W.pdf11386475bytesreaderlimit;notdownloaded"
   }
 }
