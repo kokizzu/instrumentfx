@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Stage MK2",
-    "task": "Seek current main manual for Stage MK2 panel/display, memory and counting definitions.",
+    "task": "Inspect Stage controls printed48–63 and expression164–175; then seek current OS14 manual and Browse capacity.",
     "next_models": [],
     "after_queue": "Remaintechnical/marketgaps;no downloads,workflows orpush."
   },
@@ -63442,5 +63442,12 @@
     "finding": "Fixed/flexible architecture and qualified looper limit added to canonical record.",
     "limits": "Store18effects vs addendum20serialblocks remains unreconciled;no current memory/panel proof.",
     "next": "Seek current main manual for Stage MK2 panel/display, memory and counting definitions."
+  },
+  "stage_mk2_main13_german_20261017": {
+    "source": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+    "identity": "Manufacturer Das Große Handbuch13.0,May2025,copyright/title andexplicitMK2sections;438PDFpages;readwebtextonly.",
+    "pages": "Printed234–235,419",
+    "finding": "Performance memory and dedicated Acoustic Simulator added with scope qualifications.",
+    "next": "Inspect Stage controls printed48–63 and expression164–175; then seek current OS14 manual and Browse capacity."
   }
 }
