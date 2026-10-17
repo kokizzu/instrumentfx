@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "VL3X analog electrical levels/impedances/converter figures saved distinctfrom16bitUSB. Next fullcontrolinventory,powercurrent/polarity,currentfirmware/categorychoices andfreshdiscovery;retain manualsrevision.",
+    "task": "VL3X HITDynamic/Snapshot saving andGlobalEffects dependencies recorded. Next fullcontrols/power/currentfirmware/categorychoices orfreshdiscovery;unknowntrails/gapless not convertedtoNo.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60880,5 +60880,20 @@
     "findings": "Input impedances/0dBFS levels;voice/guitar output impedance/levels;phones50ohm+14dBu;24bitconverter specifications distinct16bit48kUSB",
     "qualification": "Guitarthru270/540ohmBal/Unbal retainedsourceorder;notreversed;no measurement",
     "remaining": "Powercurrent/polarity,fullcontrolinventory,currentfirmware andalgorithmchoices unresolved"
+  },
+  "vl3x_hit_global_20261017": {
+    "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+    "revision": "2015-10-20 firmware2.1.00build346",
+    "pages": "60–69",
+    "findings": [
+      "ALLHITbothlayers",
+      "DynamicmanualstateversusSnapshotsavedstate",
+      "SaveHITonandoffseparatelyinSnapshot",
+      "OffOnHITOnHITOffcontrols",
+      "Unsavededitslostonpresetchange",
+      "1BPMtrimGlobalTempo",
+      "GlobalEffectsourcepresetdefault491dependencies"
+    ],
+    "limits": "No gapless/spillover certification;notadditionalfreelyassignablescenes;nodevicetest"
   }
 }
