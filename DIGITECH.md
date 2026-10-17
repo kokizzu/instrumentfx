@@ -284,7 +284,7 @@ Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 and
 | Dimensions / weight |20.75×9×3 inches,8.9lb;approximately527×229×76mm,4.04kg;manufacturer length/width axes retained [G-P] |
 | IR / NAM / captures |CIT cabinet modeling and HyperModels are not proof of user IR,NAM or measured capture import;all three unverified |
 | Editor |GenEdit1.61A Windows listed. Manufacturer warns older software may not run on current systems;Mac/Linux/mobile unresolved [G-E] |
-| Looper / drums / recording |8-track recorder anddrum machine [G-P]. Internal16MB:3/6/12 **total track-minutes** inCD/Normal/Economy. SmartMedia16–128MB;128MB provides24/48/96 track-minutes respectively,not per-track durations. Maximum99 songs/card,8tracks/song. Recorder also provides JamMan looping inRecorder mode;exact layered-loop restrictions pending [G-M pp.44–48,57] |
+| Looper / drums / live |8-track recorder anddrum machine [G-P]. Internal16MB:3/6/12 **total track-minutes** inCD/Normal/Economy. SmartMedia16–128MB;128MB provides24/48/96 track-minutes respectively,not per-track durations. Maximum99 songs/card,8tracks/song. JamMan requires an empty song andRecorder mode. PLAY ends first pass andarms track2;RECORD instead retains track1 for additive overdubs untilPLAY. Quantize corrects loops to nearest eighth note,not songs. Optional FS300 controls Stop/Undo,Record,Play while main switches retain preset/effect operation [G-M pp.44–48,57–58] |
 
 ### GNX3 — separate IDR evidence
 
@@ -301,14 +301,14 @@ Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 and
 - [G-E: manufacturer software index](https://digitech.com/software-downloads/).
 - [G-S: manufacturer supply list](https://digitech.com/support/powersupplylist/):PSS3 section currently says9VDC1.3A,2.1mm center-negative anduniversal mains. [G-F: Manufacturer FAQ](https://digitech.com/faqs/) exact GNX3 row, inspected2026-10-17, lists PSS3 with9VAC2.1A,2.5mm pin and120VAC TypeA mains. Earlier sibling-only qualification is superseded:the FAQ directly names GNX3. Original GNX3 guide names regional PSS3 supplies and18.5W. Conflict unresolved;do not select a replacement from this record.
 
-No files downloaded. Remaining:full category/control inventory,firmware,power conflict,recording restrictions,screen diagonal/technology,loading formats andqualified used/new offers. Vocal recording input alone is not a verified live vocal-multifx classification.
+No files downloaded. Remaining:full category/control inventory,firmware,power conflict,remaining recording/routing restrictions,screen diagonal/technology,loading formats andqualified used/new offers. Vocal recording input alone is not a verified live vocal-multifx classification.
 
-### GNX3 — recording restrictions checked 2026-10-17
+### GNX3 — source qualifications checked 2026-10-17
 
 Original [manufacturer guide](https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf),printed pp.44–49,57;web text inspected without downloading files.
 
 | Field | Evidence / qualification |
 |---|---|
-| Recording / live restrictions |CD quality44.1kHz;Normal doubles andEconomy quadruples available track time. Quality cannot change after recording unless alltracks/song are deleted. CARD>>PC must prepare modified card recordings before external-reader access;outputs mute andcontrols disable during preparation. File identifiers require SONG01–99 folders andTRAK01–08 WAV prefixes;only first6characters distinguish identity. UNDO track deletion is permanent |
+| Looper / live restrictions |CD quality44.1kHz;Normal doubles andEconomy quadruples available track time. Quality cannot change after recording unless alltracks/song are deleted. CARD>>PC must prepare modified card recordings before external-reader access;outputs mute andcontrols disable during preparation. File identifiers require SONG01–99 folders andTRAK01–08 WAV prefixes;only first6characters distinguish identity. UNDO track deletion is permanent |
 
 These resolve initial recording-storage unknowns;they do not verify current card availability or a universal loop duration.

@@ -50309,6 +50309,14 @@
       "pages": "44–49,57",
       "finding": "Track-minute budgets,16–128MB cards,99songs/8tracks,quality lock,CARD>>PC preparation,file identity and permanent track undo deletion recorded.",
       "remaining": "Exact loop layering/routing,full controls/categories,power conflict,display andqualified offers"
+    },
+    {
+      "model": "DigiTech GNX3",
+      "checked_date": "2026-10-17",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf",
+      "pages": "57–58",
+      "finding": "Empty-song requirement,PLAY versusRECORD first-pass behavior,eighth-note loop-only quantize andFS300 separation recorded. Field labels keep looper evidence in live rather than editor column.",
+      "remaining": "Full controls/categories,power conflict,display andqualified offers"
     }
   ],
   "discovery_cross_brand_bass": {
