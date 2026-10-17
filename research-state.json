@@ -61761,5 +61761,19 @@
     },
     "limits": "Notlaterlibrary/usedunitinstalledfirmwareproof; seven slots separatefromDSPbudget",
     "next": "G3n looper retention/saving and control inventory; fresh discovery frontier remains open"
+  },
+  "g3n_autosave_20261017": {
+    "sources": [
+      "https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf",
+      "https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf"
+    ],
+    "pages": "25–26",
+    "findings": [
+      "AUTO SAVE ON/OFF; OFFpatchswitchpromptYESsaveNOdiscard",
+      "eco optional10hourinactivityshutdown"
+    ],
+    "access": "Manufacturer indexed text; fullPDFtooLarge,no download",
+    "limits": "Defaultautosavestate,powerlossrecoveryandlooperretentionunresolved",
+    "next": "Seek exact manual looper retention and panel controls; continue fresh Shopee discovery"
   }
 }
