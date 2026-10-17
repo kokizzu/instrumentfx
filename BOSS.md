@@ -867,7 +867,7 @@ Checked **2026-10-16**. [Manufacturer page](https://www.boss.info/global/product
 | IR / NAM / capture | No third-party IR loader, native NAM, converted NAM or proprietary capture import established. Factory speaker simulations are distinct from user IR import. |
 | Audio / control I/O | Mono quarter-inch input; stereo quarter-inch outputs;3.5 mm stereo AUX and PHONES; shared TRS CTL/EXP;USB-B;DC. No loop or physical MIDI connector listed. [GT1-P] |
 | Power / battery / USB power | Four alkaline AA or separately sold PSA adapter; **200 mA draw**, about **7 h** alkaline runtime. DC voltage/polarity and USB-powered operation remain unverified. [GT1-P] |
-| Editor / USB / platforms | Tone Studio Windows/macOS; dedicated USB driver required for computer audio. USB diagram sends effected audio to computer and mixes computer return after the chain. Direct monitor resets ON at power-up. USB reamp is not established by that diagram. Mobile editor, channels and bit depth unresolved. [GT1-M], [GT1-G] |
+| Editor / USB / platforms | Tone Studio Windows/macOS; dedicated USB driver required for computer audio. USB diagram sends effected audio to computer and mixes computer return after the chain. Direct monitor resets ON at power-up. USB reamp is not established by that diagram. **macOS Tone Studio1.0.2 (March2018)** requires the matching USB driver. Its fixes cover incorrect parameter transfers, ASSIGN TARGET MIN/MAX input/display and unavailable delay parameters shown editable. Version1.0.1 added Sierra10.12 support; current OS compatibility is delegated to BOSS’s compatibility matrix and remains unverified here. Driver listings for newer macOS/Windows do not independently prove editor compatibility. Mobile editor, channels and bit depth unresolved. [GT1-M], [GT1-G], [GT1-EDITOR] |
 | Looper / routing / live use | **32 s mono**, overdub; recordings lost when looper or power is switched off. Looper overrides stored CTL1 assignments. Effect order editable; detailed routing, drums/scenes unestablished. [GT1-M], [GT1-G] |
 
 ### GT-1 — separate IDR evidence
@@ -886,6 +886,10 @@ Exact Shopee hardware bodies reopened2026-10-16; cached relative delivery is not
 [GT1-P]: https://www.boss.info/global/products/gt-1/
 [GT1-M]: https://static.roland.com/assets/media/pdf/GT-1_eng03_W.pdf
 [GT1-G]: https://static.roland.com/assets/media/pdf/GT-1_parameter_eng02_W.pdf
+
+[GT1-EDITOR]: https://www.boss.info/global/support/by_product/gt-1/updates_drivers/185be7ef-2c94-4825-bc25-3c3b71c6291d/
+
+GT-1 editor source checked2026-10-17: macOS package instructions and version history only; no installer downloaded or run. The product page lists system1.09, but its detailed update page timed out, so no firmware changes or installed-version claim are adopted.
 
 ## GX-1
 

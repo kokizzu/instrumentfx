@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Recorded-model verification",
-    "task": "HX Effects current power FAQ and chart URL saved; no verified voltage/polarity. Next inspect a different recorded model unresolved fields; avoid repeating unchanged HXEffects offer/power searches.",
+    "model": "BOSS GT-1",
+    "task": "Editor1.0.2 requirements/fixes saved. Next inspect current macOS compatibility matrix linked by editor page, or own system1.09 notes after transient timeout; separate driver/editor/firmware.",
     "next_models": [],
-    "after_queue": "274partialmodels;no downloads/workflows/push;full technical/market verification and migration remain incomplete."
+    "after_queue": "274partialmodels;continue full field and market verification;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41371,7 +41371,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Recorded-model verification."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-1."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56612,5 +56612,10 @@
     "chart": "https://kb.line6.com/__attachments/a_00482743a7f2b1a83c21f1a12155066e2347021b3560036770ebe09f0c49981e/1591335463_2024PowerSupplyCompatibilityChartv3.thumb.png.png?cb=98ecdca531ceaf62a4678a70655f8d66",
     "limits": "Image ref returned without actual image inspection; no chartcell/voltage/polarity adopted. Community sibling supplyclaims rejected.",
     "market": "Same shop250276993/item5129480739 soldout7900000alreadyrecorded; no duplicateoffer."
+  },
+  "gt1_editor_followup_20261017": {
+    "source": "https://www.boss.info/global/support/by_product/gt-1/updates_drivers/185be7ef-2c94-4825-bc25-3c3b71c6291d/",
+    "facts": "MacToneStudio1.0.2 March2018 requiresdriver; fixesparametertransfer,AssignMinMax,unavailableDelayparameters;1.0.1 addedSierra10.12.",
+    "limits": "CurrentOSmatrixnotread;drivercompatibilitynoteditorproof. System1.09page timedout;no firmwarecontentadopted. No downloads."
   }
 }
