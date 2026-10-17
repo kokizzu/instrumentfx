@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "FX150b",
-    "task": "Verify exact-variant original manual and controls/electrical specifications; own-store and exact Shopee lead recorded.",
+    "task": "FX150b manual mirror recovered: verify panel, processing/category choices and editor compatibility next; preserve capacity/dimensions/current-scope qualifications.",
     "next_models": [],
     "after_queue": "331 active;resume Shopee discovery after useful FX150b followup. Technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66060,5 +66060,22 @@
       "Condition-qualified used/new offers"
     ],
     "distinction": "Battery-equipped FX150b not standard FX150; shared-page specifications explicitly qualified"
+  },
+  "fx150b_manual_20261018": {
+    "source": "https://device.report/m/1896b86fc51a16a65e0160b61d615dde8b75c7b24e033e4924cf9267052e52f3.pdf",
+    "identity": "76-page manufacturer-authored original; explicit FX150b battery chapter and specs; title June26 vs filename June21 retained",
+    "recovered": [
+      "9V3A center-negative",
+      "1500g explicit FX150b mass",
+      "2.5h charging",
+      "battery alerts and storage"
+    ],
+    "gaps": [
+      "Visual panel census",
+      "Shared dimensions conflict",
+      "Capacity printed mA",
+      "Editor compatibility and library audit",
+      "Qualified prices"
+    ]
   }
 }

@@ -629,12 +629,12 @@ Battery-equipped guitar multi-effects;separate from the standard FX150. Checked2
 | Expression / toe | External EXP2 documented on shared page;built-in/toe details require exact-variant verification. |
 | Knobs / footswitches / buttons | Shared page:3 footswitches;rotary/button census unverified. |
 | Display | Shared page:5-inch color LCD touchscreen. |
-| Dimensions / weight | Exact FX150b measurements/mass unverified;standard FX150 values not assigned here. |
+| Dimensions / weight | Initial check:exact FX150b measurements/mass were unverified;see recovered manual qualification below. |
 | Processing / category choices | Shared page advertises160 effects,10 modules,58 preamps,30 cabinets;per-category census andsimultaneous DSP limit unresolved. |
 | Factory / user / total memory | Shared page:180 editable slots;factory-filled subset unknown. |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. |
 | I/O | Shared page namesAUX,EXP2,send/return,stereo output,phones,USB-C;exact-variant full port/level audit pending. |
-| Power / battery / USB | FX150b explicitly Nebula Green,built-in replaceable lithium battery;up to5.5h,five-bar indicator. Capacity written **3000mA**,not silently corrected to mAh. Voltage,current,polarity,charging time andUSB operation unverified. |
+| Power / battery / USB | FX150b explicitly Nebula Green,built-in replaceable lithium battery;up to5.5h,five-bar indicator. Capacity written **3000mA**,not silently corrected to mAh. Initial check left voltage,current,polarity andcharging time unknown;manual recovery below supplies them. USB operation remains unverified. |
 | IR / NAM / captures | Shared page:50 userIR slots,1024 points,WAV44.1kHz;native versus converted loading details,NAM andcaptures unverified. |
 | Editor / software | Shared page names computer editor;exact FX150b version/platform compatibility unverified. |
 | Looper / drums / routing | Shared page:52-second looper,80 rhythms,10 metronome variations,reorderable chain,globalEQ,delay/reverb spillover. |
@@ -650,3 +650,15 @@ Source:[manufacturer shared FX150/FX150b page](https://www.flamma.shop/products/
 | Condition-unverified indexed exact hardware | **Rp5,469,348**,Soundstationstore,Tangerang Selatan,shop250276993/item15599337026. Checked2026-10-18,last-week index;direct page fetch failed. Condition,stock,selected variant,battery/adapter bundle,warranty,shipping/tax andcheckout total unknown. Late-delivery compensation up toRp10,000 is not a purchase discount. | [Exact Shopee item](https://shopee.co.id/FLAMMA-FX150B-Guitar-Multi-Effects-Multi-Efek-Gitar-i.250276993.15599337026) |
 
 Not a completed sale orlive-stock certification. No downloads,installations orcode execution. Remaining:exact variant manual/panel verification,all unresolved fields andcondition-qualified pricing.
+
+### FX150b — original-manual recovery
+
+Followup2026-10-18 supersedes the earlier unknowns above. Manufacturer-hosted [original endpoint](https://flammainnovation.com/file/pdf?fileName=FX150_Manual_EN_V01_2023.06.21.pdf&url=group1%2FM00%2F00%2F08%2FwKgA0GSaSJiAMn4VAGArhRJTpAw069.pdf) timed out. [Readable manufacturer-authored mirror](https://device.report/m/1896b86fc51a16a65e0160b61d615dde8b75c7b24e033e4924cf9267052e52f3.pdf):76 pages,manufacturer imprint,matching catalogue andexplicit FX150b chapter pp48–54/specifications p71. Document title2023.06.26 differs from filename2023.06.21;no revision equivalence beyond inspected content claimed. Text inspection only.
+
+| Field | Newly recovered manual evidence |
+|---|---|
+| Power / battery / charging | Explicit **FX150b:9V DC3A,center-negative**,versus standard FX1501A. Generic precautions p1 say at least1A;retain scope discrepancy,not a substitute FX150b rating. **About2.5h charging,5.5h runtime**;capacity still printed **3000mA**. Charge through original supply/DC power port;USB charging/bus operation unverified. |
+| Dimensions / weight | Shared dimensions **150×273×56mm**,axes unlabeled;explicit **FX150b1500g**,mass basis unstated. Shared store dimensions155×287×84mm differ;do not infer packaging orassign standard1345g mass. |
+| Power / battery indicators | Below20% red flashing;below5% alert/fast flashing andrisk of unsaved changes. Empty battery powers off automatically. Charge fully every6months during long storage. |
+
+Remaining:panel census,processing/category audit,exact editor compatibility,loading distinctions andqualified prices. Earlier access failure is historical;mirror recovery does not establish manufacturer-host availability orvisual verification.
