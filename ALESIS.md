@@ -50,8 +50,8 @@ Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discont
 | Expression |No built-in pedal/toe;external EXP unverified. Momentary footswitch accepts normally-open/closed;assignable bypass/advance/control [MD-M pp.34,49,68] |
 | Knobs / footswitches / buttons |**1/0/10**:VALUE;PROG,EDIT/PAGE,UTIL,STORE,INPUT,OUTPUT,A/NAME,B/ESC,C/left,D/right. Power switch separate;text-derived [MD-M p.67] |
 | Display |Custom LCD;diagonal,color/touch unresolved [MD-M p.67] |
-| Processing / categories |32algorithms;up to3simultaneous effects;stereo,dual-mono andmultichain configurations. Category subtotals pending [MD-P] |
-| Preset memory |128factoryROM+128userRAM=256;factory-filled user subset unresolved [MD-P,MD-M p.68] |
+| Processing / categories |32configurations,up to3simultaneous effects. Four families:Single,Double,DualMono,MultiChain. To choose a configuration,copy anexisting preset using it;factory096–127covers all32. Not an arbitrary block chain;category subtotals pending [MD-P,MD-M pp.27,39] |
+| Preset memory |128factoryROM+128userRAM=256;manual explicitly leaves17user locations111–127blank,so111user locations initially filled (128−17,derived). Protected factory andwritable user locations remain separate [MD-M pp.39,68] |
 | Synth / acoustic |Pitch±1octave;dedicated synth/acoustic simulator unverified [MD-P] |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured captures unverified |
 | Audio / control ports |2TS inputs,2TS outputs;MIDI IN,OUT/THRU;momentary footswitch;9VAC power. No USB,mic/phantom,headphone orFXloop socket inrear inventory [MD-M pp.67–68] |

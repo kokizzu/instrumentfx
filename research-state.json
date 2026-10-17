@@ -50469,6 +50469,14 @@
       "pages": "21–22,26–28,42",
       "finding": "Footswitch power-on connection,program-specific ring control,audio tap−6dB requirement andLezlie ramp documented. LED specification versusLCD prose terminology conflict preserved.",
       "remaining": "Display physical verification,body/current,category totals,qualified offers"
+    },
+    {
+      "model": "Alesis MIDIverb 4",
+      "checked_date": "2026-10-17",
+      "source": "https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf",
+      "pages": "27,39",
+      "finding": "32configurations groupedSingle/Double/DualMono/MultiChain;copyexisting configuration preset. User111–127blank:17empty,111initiallyfilled derived;128user totalunchanged.",
+      "remaining": "Fullcategory totals,body/current/display/software,qualified offers"
     }
   ],
   "discovery_cross_brand_bass": {

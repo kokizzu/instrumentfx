@@ -367,7 +367,7 @@ def main():
         if mode == 'commit-fv02':
             message = 'research(flamma): add FV02 vocal processor with power revision conflicts'
         if mode == 'commit-midiverb4':
-            message = 'research(alesis): add MIDIverb 4 with own architecture and qualified variants'
+            message = 'research(alesis): resolve MIDIverb 4 factory fill and configuration selection'
         if mode == 'commit-microverb4':
             message = 'research(alesis): document MicroVerb 4 tap control and display terminology conflict'
         if mode == 'commit-fx2000':
