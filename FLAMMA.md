@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)
 
-**Four active profiles:** FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
+**Five active profiles:** FB200 bass processor added2026-10-17; FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
 
 The [official multi-effects collection](https://www.flamma.shop/collections/multi-effects), [manufacturer catalogue](https://flammainnovation.com/shop.html?ancestors=0%2C1256) and [manual/software index](https://www.flamma.shop/pages/manual) establish additional families for research. They do not prove Indonesian stock or complete specification verification. Unknown is `?`, not No; K/F/B counts rotary controls, main footswitches and separate buttons, excluding encoder presses/toe/power switches counted separately.
 
@@ -302,3 +302,45 @@ Selected manual text inspected; no visual-panel or complete revision audit claim
 [FV2-N]: https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf
 [FV2-S]: https://www.flamma.shop/products/flamma-fv03-doubling-vocal-effects-pedal
 [FV2-I]: https://www.flamma.shop/pages/manual
+
+## FB200
+
+Checked **2026-10-17**; partial. Bass-focused combined multi-effects; distinct from FG200. No positive guitar/vocal classification established.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No built-in pedal or EXP socket in complete manual inventory; toe unverified. [Manual][FB2-M], pp05–07 |
+| Rotary / footswitches / buttons | **16 / 4 / 0** from product/panel inventory; power slider separate. Image verification pending. [Product][FB2-P]; [Manual][FB2-M] |
+| Display | Three-character numeric display; diagonal,color and touch unverified. Ambient RGB strip is not a color screen. [Product][FB2-P] |
+| Dimensions / weight | **311×67.5×49.7 mm;578 g**; axes/accessory inclusion unspecified. [Manual][FB2-M], p22 |
+| Simultaneous processing / routing | Named fixed modules:Gate,Comp,Amp,Cab,Mod,Reverb,Master. Maximum simultaneous processing/routing flexibility unverified. [Manual][FB2-M], pp10–11 |
+| Categories / choices | **10 amps,10 cabinets,1 compressor,12 modulation,5 reverb**,plus gate. Product's20 AMP/CAB combines10+10,not20 each. Its19 effects reconcile arithmetically as gate1+comp1+mod12+reverb5; arithmetic is not DSP capacity. [Manual][FB2-M], pp18–21; [Product][FB2-P] |
+| Factory / user / total presets | **40 writable slots**; factory-filled subset unverified,not40 factory plus40 user. [Product][FB2-P] |
+| Synth / acoustic simulation | Dedicated synth/acoustic simulator each unverified; ring modulation/filter do not establish either. |
+| IR / NAM / capture | **9 third-party IR slots**; WAV,44.1kHz,24-bit,512 samples; guide allows other input sample rates. Native NAM,converted NAM and proprietary capture loading individually unverified. [Manual][FB2-M], p22; [Product][FB2-P] |
+| Audio / control I/O | Mono6.35mm input/output;3.5mm stereo phones;USB-C charging/OTG;Bluetooth5.0 playback. No mic,aux,EXP,MIDI DIN or loop ports in panel inventory. [Manual][FB2-M], pp06–07,22 |
+| Power / battery / USB | **2000mAh lithium**,up to6h,about2.5h charge. **5V/2A charging,USB-A-to-C only**. Current draw and simultaneous charging/play unverified; barrel polarity inapplicable to documented USB supply. [Product][FB2-P]; [Manual][FB2-M], p22 |
+| Editor / platforms / drivers | FLAMMA mobile app edits tones,cloud,drums/settings. Desktop IR management/updater **v1.0.1 Mac/Windows** listed separately; full desktop editing and exact OS versions unverified. Mobile iOS/Android versions unresolved. [Manual][FB2-M], p17; [Software index][FB2-I] |
+| USB audio / recording | OTG recording supported; sample rate,bit depth,channels,desktop drivers and dry routing unverified. IR format does not establish USB audio format. [Product][FB2-P] |
+| Looper / live features | Live/Preset modes;40 drum patterns,tuner,Bluetooth playback. Looper,scenes,spillover unverified. [Product][FB2-P] |
+| Footswitch assignment conflict | Module text assigns C to both Amp/Cab and Mod; operation page also mistakenly names FG200. Exact live mapping needs panel verification; sibling behavior not substituted. [Manual][FB2-M], pp10–13 |
+| Used IDR | **?** No condition-qualified used offer established. |
+| New IDR | **?** Exact ask below does not establish new condition. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee hardware evidence
+
+Checked **2026-10-17**: [NEO MUSIC,shop158235298/item49952333845](https://shopee.co.id/FLAMMA-FB200-Intelligent-Combined-Bass-Effects-Pedal-i.158235298.49952333845), Kota Sukabumi: **Rp1,427,580**. Three-month indexed/reopened cache. Exact FB200 title; no Habis marker is not stock confirmation. Tomorrow delivery banner is not evidence of current availability. Sale/working condition,selected variation,bundle/charger,warranty,shipping/tax,voucher and final total unverified. Late compensation not deducted; no foreign-price conversion or completed-sale claim.
+
+### Primary-document identity and gaps
+
+Own **FB200 V01,2025-05-22**,25 PDF pages; selected text sections inspected. No panel image or complete firmware audit claimed. Manufacturer product states16 dials,4 footswitches,40 memories,19 effects,20 combined AMP/CAB models,9 IR slots and battery/runtime; manual separates amp/cab tables. Mobile editor and desktop IR/updater roles remain distinct. Published charging constraint is retained without asserting all USB-C-to-C behavior was tested. Ownership unknown.
+
+Remaining: verify footswitch/panel discrepancy,complete simultaneous processing/order,display,exact mobile/desktop OS support,USB formats/drivers,charge/play operation,measured draw,synth/acoustic/NAM/capture/live unknowns and qualified prices. No files,dependencies,firmware or software downloaded/executed.
+
+[FB2-M]: https://www.flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf
+[FB2-P]: https://www.flamma.shop/en-au/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal
+[FB2-I]: https://www.flamma.shop/pages/manual

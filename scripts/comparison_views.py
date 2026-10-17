@@ -378,7 +378,7 @@ def verify_views():
 
 # Instrument membership is explicit and reviewable. It is not inferred from a shared
 # enclosure, a BASS tone knob, a capture microphone, or an output connector.
-BASS_FOCUSED = ['Zoom::708II','Valeton::Dapper Bass Mini MES-2','Valeton::Dapper Bass VES-2','VOX::StompLab 2B','BOSS::ME-20B','BOSS::GT-1B','BOSS::GX-1B','BOSS::ME-90B','M-VAVE::TANK-B','M-VAVE::CUBE BABY BASS','Line 6::POD Express Bass','Zoom::B1 FOUR','Zoom::B1X FOUR','Zoom::B2 FOUR','Zoom::B6','Zoom::B1Xon','Zoom::B3n','Zoom::MS-60B','Zoom::MS-60B Plus','Zoom::B1on','Zoom::B3']
+BASS_FOCUSED = ['Flamma::FB200','Zoom::708II','Valeton::Dapper Bass Mini MES-2','Valeton::Dapper Bass VES-2','VOX::StompLab 2B','BOSS::ME-20B','BOSS::GT-1B','BOSS::GX-1B','BOSS::ME-90B','M-VAVE::TANK-B','M-VAVE::CUBE BABY BASS','Line 6::POD Express Bass','Zoom::B1 FOUR','Zoom::B1X FOUR','Zoom::B2 FOUR','Zoom::B6','Zoom::B1Xon','Zoom::B3n','Zoom::MS-60B','Zoom::MS-60B Plus','Zoom::B1on','Zoom::B3']
 VOCAL_ONLY = ['Flamma::FV02 Doubling','TC-Helicon::Harmony Singer 2','TC-Helicon::Duplicator','TC-Helicon::Mic Mechanic 2','HeadRush::VX5','BOSS::VE-5','TC-Helicon::PERFORM-VE','TC-Helicon::PERFORM-VK','TC-Helicon::PERFORM-V','Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
 VOCAL_SHARED = ['Line 6::POD X3 Live','Line 6::POD HD500X','Line 6::Helix Stadium XL Floor','Line 6::Helix Floor','TC-Helicon::PERFORM-VG','TC-Helicon::VoiceLive 3 Extreme','BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
 BASS_SHARED = {

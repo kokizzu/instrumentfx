@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 223,
+  "active_model_count": 224,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 223,
+  "canonical_root_model_count": 224,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "223 unique active/root-canonical models; zero legacy-only. FV02 adds vocal-only membership based on simultaneous chorus/reverb; guitar supporting reverb does not add guitar membership. Six archives remain excluded.",
+  "count_reconciliation": "224 unique active/root-canonical models; zero legacy-only. FB200 adds bass-focused membership only; no FG200 sibling inference. Six specialist archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal Shopee discovery",
-    "task": "FV02 recorded and committed before next model. Next discover exact Flamma FB200/FV03/FV04/FV05 hardware leads, then own manufacturer verification. Do not infer guitar membership from supporting reverb or repeat FV01 exclusion.",
-    "next_models": [],
-    "after_queue": "Continue other bass/vocal discovery and unresolved technical/migration work; no downloads/workflows."
+    "model": "Flamma FV03 Character",
+    "task": "Use exact NEO MUSIC item158235298/13182459384 from discovery_flamma_20261017. Verify own architecture/scope,manual revisions,controls,power/phantom conflicts before inclusion; commit before FV04.",
+    "next_models": [
+      "Flamma FV04 Harmony"
+    ],
+    "after_queue": "Resume exact bass/vocal discovery and unresolved verification; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4834,6 +4836,17 @@
       ],
       "finding": "Own vocal chorus/reverb architecture;4 rotaries/1foot/1button text inventory. V01/V02 power and phantom wording conflicts preserved; four exact asks condition-unqualified.",
       "remaining": "Power/phantom revision and visual verification; memories/editor/loading/live unknowns; qualified used/new offers."
+    },
+    {
+      "model": "Flamma FB200",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf",
+        "https://www.flamma.shop/pages/manual"
+      ],
+      "finding": "Bass-only record;10amps10cabs,9IRslots,40presets;USB-A-to-C charging constraint and manual mapping/copy errors preserved. Exact Rp1427580 ask condition unknown.",
+      "remaining": "Simultaneous/order,panel mapping/display,software platforms,USB formats,charge/play/draw,loading/live unknowns and qualified offers."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23476,7 +23489,8 @@
       "FX100",
       "FX200",
       "FX150",
-      "FV02 Doubling"
+      "FV02 Doubling",
+      "FB200"
     ],
     "HeadRush": [
       "Core",
@@ -23837,7 +23851,8 @@
       "FX100",
       "FX200",
       "FX150",
-      "FV02 Doubling"
+      "FV02 Doubling",
+      "FB200"
     ],
     "NUX.md": [
       "MG-101",
@@ -23990,8 +24005,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 90,
-      "bass_focused_record_count": 21,
+      "record_count": 91,
+      "bass_focused_record_count": 22,
       "shared_bass_capable_count": 69,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -40888,8 +40903,8 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 223,
-    "canonical_root_models": 223,
+    "unique_brand_model_pairs": 224,
+    "canonical_root_models": 224,
     "legacy_only_models": 0,
     "guitar_view_models": 184,
     "bass_focused_models": 21,
@@ -40898,7 +40913,7 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 90,
+    "bass_view_models": 91,
     "bass_shared_models": 69,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -40931,7 +40946,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Flamma FV03 Character."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41134,6 +41149,7 @@
       "BOSS::ME-20B",
       "BOSS::Pocket GT",
       "Fender::Tone Master Pro",
+      "Flamma::FB200",
       "HeadRush::Core",
       "HeadRush::Flex Prime",
       "HeadRush::MX5",
@@ -41642,6 +41658,13 @@
     },
     "Flamma::FV02 Doubling": {
       "link": "FLAMMA.md#fv02-doubling",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": []
+    },
+    "Flamma::FB200": {
+      "link": "FLAMMA.md#fb200",
       "source_files": [
         "FLAMMA.md"
       ],
@@ -50091,6 +50114,10 @@
     {
       "model": "Flamma FV02 Doubling",
       "task": "Visually reconcile V01 500mA versus encoded V02 1.5A and phantom direction; exact power unit label,control image,memory/software/loading/live unknowns and qualified prices."
+    },
+    {
+      "model": "Flamma FB200",
+      "task": "Reconcile C assigned to Amp/Cab and Mod and FG200 wording; panel controls,simultaneous/order,display,OS/USB details,charge/play and loading/live unknowns."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -51824,5 +51851,52 @@
     ],
     "result": "No exact new eligible hardware item resolved. M13 hit216990724/6861766207 is Rp144200 replacement supply,not processor; other M13 hits adapters. VoiceLive3Extreme broad-search snippets are already recorded model,not Touch evidence. Limited search failure is not proof of absence.",
     "next": "Resume different bass/vocal leads and technical followups; do not repeat unchanged adapter results."
+  },
+  "discovery_flamma_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Flamma FB200",
+      "site:shopee.co.id Flamma FV03",
+      "site:shopee.co.id Flamma FV04",
+      "site:shopee.co.id Flamma FV05"
+    ],
+    "offers": [
+      {
+        "model": "Flamma FB200",
+        "url": "https://shopee.co.id/FLAMMA-FB200-Intelligent-Combined-Bass-Effects-Pedal-i.158235298.49952333845",
+        "seller": "NEO MUSIC",
+        "region": "Kota Sukabumi",
+        "ask_idr": 1427580,
+        "access": "Three-month search/reopened cache; no Habis marker is not stock confirmation."
+      },
+      {
+        "model": "Flamma FV03",
+        "url": "https://shopee.co.id/Flamma-FV03-Character-Vocal-Effects-Pedal-i.158235298.13182459384",
+        "seller": "NEO MUSIC",
+        "region": "Kota Sukabumi",
+        "ask_idr": 1816920,
+        "access": "Two-month search cache; August11 delivery stale."
+      },
+      {
+        "model": "Flamma FV04",
+        "url": "https://shopee.co.id/FLAMMA-FV04-HARMONY-VOCAL-PEDAL-WITH-REVERB-EFFECTS-i.71552895.16911185364",
+        "seller": "GH MUSIC STORE",
+        "region": "Kota Tangerang Selatan",
+        "ask_idr": 1864000,
+        "stock": "Habis",
+        "access": "Three-month search cache."
+      },
+      {
+        "model": "Flamma FV04",
+        "url": "https://shopee.co.id/efek-HARMONY-FLAMMA-FV04-masih-full-original-dan-berfungsi-dengan-baik-i.1377710940.40350494437",
+        "seller": "AFY AUDIO JAKARTA",
+        "region": "Kota Jakarta Barat",
+        "ask_idr": 1100000,
+        "stock": "Habis",
+        "access": "One-month search cache; title claims original/working,not explicit sale condition."
+      }
+    ],
+    "qualification": "All sale conditions unverified; no stock/final-total guarantee. FV05 exact item not resolved by limited query. FV03/FV04 not active before own technical verification.",
+    "next": "FV03 first,commit before FV04; expand other exact FV04 offers after own technical evidence."
   }
 }
