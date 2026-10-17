@@ -636,6 +636,20 @@ Checked2026-10-16;cached exact hardware pages,not condition/live-stock/checkout 
 
 Remaining:rotary/button totals,screen diagonal/color/touch,full processing ceilings,USB power/DCvoltage/polarity,editor/driverOS/channels/rates,imports,usedcondition/currentstock/bundles. No legacy source deleted.
 
+### VE-8 — CHORUS concurrency and effect settings
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / guitar section concurrency | **Up to three CHORUS-section effects simultaneously**, selecting one from each group. Eight choices: Chorus, Tremolo, Phaser, Delay, Mod Delay, Octave, Slow Gear, Ring Mod. This corrects any reading of the earlier “alternatives” wording as strictly one-at-a-time. Extracted group diagram does not reliably preserve group boundaries; exact grouping remains unverified. | [Manual pp8–9][VE8-M] |
+| Processing / delay and octave settings | Delay/Mod Delay time **10–990ms**; tap PHASE at least twice or use external switch assignment14. Quarter or dotted-eighth notes selectable; BPM is not displayed. Octave choices: one octave down, one up, or one up plus detune. | [Manual p9][VE8-M] |
+| Processing / reverb and pitch correction | Guitar and vocal reverb choices: **Ambience, Room, Hall1, Hall2**. Vocal correction: Off, Soft, Hard. Guitar tuner reference435–445Hz, default440; holding CHORUS2s mutes guitar and enters tuner. | [Manual pp8,10][VE8-M] |
+
+### Additional condition-unverified IDR offer
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unknown | **Rp6,640,000**, LYN AUDIO, Kota Jakarta Barat; shop1203229574/item28960136338. Checked2026-10-18; exact HTML, month-old cache. No explicit Habis label; current stock unverified. “Original Garansi1Tahun” is a title claim, not authenticated warranty coverage. Condition, working state, revision, variant and adapter/bundle unknown. Same-day delivery text is stale; Rp10,000 late compensation is not discount. Shipping/tax/checkout unknown. | [Exact item](https://shopee.co.id/BOSS-VE8-ORIGINAL-GARANSI-1-TAHUN-EFEK-ACOUSTIC-SINGER-VE-8-i.1203229574.28960136338) |
+
 ## VE-20
 
 Vocal multi-effects;manufacturer page marks discontinued. Consolidated/researched2026-10-16;partial verification.

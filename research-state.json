@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-2",
-    "task": "Current driver versions and platform limits saved. Next fresh hardware discovery and primary technical gaps; avoid repeating driver support. VE2 USB channel/rate/bitdepth/power, physical display/control corroboration, polarity and variation voice ceiling remain unresolved.",
+    "model": "BOSS VE-8",
+    "task": "CHORUS up3 concurrency, delay/octave/reverb/correction and LYN cached ask saved. Next fresh Shopee discovery and primary gap work. VE8 exact concurrent groups, total controls, USB format/power, DC voltage/polarity remain unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-8."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57443,6 +57443,15 @@
         "https://www.boss.info/global/support/by_product/ve-2/updates_drivers/a1020981-bb6e-4e63-b1b3-663cdc29b62d/",
         "https://www.boss.info/us/support/by_product/ve-2/updates_drivers/b86ca8dd-e332-4a86-a590-32c810adfd3c/",
         "https://www.boss.info/global/support/support_news/25090811m1/"
+      ]
+    },
+    {
+      "model": "BOSS VE-8",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual resolvesCHORUSsectionup3simultaneousonepergroup;eightchoicecensus,exactgroupboundariesnotpreservedintext. Delay10–990msquarter/dottedeighth,tapnoBPM,Octave3voicesettings,reverb4names,correctionOffSoftHard,tuner435–445. LYN1203229574/28960136338Rp6.64mexactmonthcachecondition/stockunknown,10klatecompensation.",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/VE-8_e02_W.pdf",
+        "https://shopee.co.id/BOSS-VE8-ORIGINAL-GARANSI-1-TAHUN-EFEK-ACOUSTIC-SINGER-VE-8-i.1203229574.28960136338"
       ]
     }
   ],
