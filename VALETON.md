@@ -1412,3 +1412,26 @@ Checked 2026-10-18 against the [Chinese manufacturer product page](https://zh.va
 | Physical controls / effect switching | Chinese feature text says the five knobs adjust sound or **switch effects on/off**; this is a rotary-control operation, not evidence of additional buttons or footswitches. Which knob positions perform switching remains unverified. |
 
 The Chinese page says up to five hours; retain the English over-five-hours prose conflict. Its specification section is empty. Linked [CN V01 manual](https://zh.valeton.net/download/207/rushead-max-bass/17884/rushead-max-bass_manual_cn_v01_200602.pdf) timed out both directly and through the page link. The [official German V02 landing](https://www.valeton.net/wpfd_file/rh-101rushead-max-bass_manual_de_v02_211025/) points to an endpoint returning “Download url is not correct”; no manual content obtained. Do not repeatedly retry those endpoints or infer missing ports/power specifications.
+
+## Rushead Max RH-100
+
+Checked 2026-10-18; partial. Guitar multi-effects headphone amplifier, distinct from bass RH-101 and older Rushead variants. Ownership unconfirmed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. |
+| Physical controls / K/F/B | **5 rotary controls**; button/footswitch totals unverified. Chinese manufacturer says knobs adjust sound or switch effects. |
+| Display | Diagonal, color/monochrome and touchscreen unverified. |
+| Processing / modules and choices | **AMP3: clean/overdrive/distortion; MOD3: chorus/tremolo/flanger; AMBIENT3 delay/reverb choices**, per Chinese manufacturer. Three modules establish multiple effect families; exact simultaneous ceiling and ambience combination behavior unverified. |
+| Memory | Factory/user/preset storage unverified. |
+| Synth / acoustic | Neither synthesis nor acoustic simulation established. |
+| Dimensions / weight | English page: **100W×88.5D×31.5H mm;68g**. Chinese:100length×88.5width×31.5height; retain axis-label conflict, do not substitute RH-101 dimensions. |
+| I/O | AUX and headphone-amp operation documented; complete connector/control-port inventory unverified. |
+| Power | Rechargeable lithium battery, USB charging. English prose says **over five hours**, bullet and Chinese page **up to five hours**. Voltage/current, capacity, charge time, polarity and operation during charging unverified. |
+| IR / NAM / capture | User IR, native/converted NAM and capture loading unverified. |
+| Editor / USB | Editors/drivers, USB audio/MIDI/bus operation unverified; charging proves none of these. |
+| Other features | Looper, drums, scenes and programmable routing unverified. |
+| Used IDR | No condition-qualified used quote established. |
+| IDR / conditional exact hardware ask | **Rp785.000, Dengan Voucher**; Salomo Musik, shop1776275/item26704878084, Kota Jakarta Utara. Direct two-week cached body says spendRp10.000/10% discount; cap, eligibility and whether displayed amount includes it unverified, so no second subtraction. Condition/new-versus-used, live stock, selected bundle, warranty region, shipping/tax and checkout unknown. Relative four-hour delivery is not stock proof; late compensation is not a discount. [Exact RH100](https://shopee.co.id/Valeton-RH-100-Rushead-Max-Pocket-Guitar-Headphone-Amp-Original-i.1776275.26704878084). |
+
+Technical sources: [English manufacturer](https://www.valeton.net/product/rushead-max/); [Chinese manufacturer](https://zh.valeton.net/product/rushead-max/). Linked [RH-100 V02 English manual](https://www.valeton.net/download/112/rm/16860/rh-100rushead-max_manual_en_v02_211025.pdf) identifies the exact model but yields no text; no manual-content or image inspection claimed. No files downloaded.

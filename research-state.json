@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 336,
+  "active_model_count": 337,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 336,
+  "canonical_root_model_count": 337,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "336 unique active/root-canonical; 0 legacy-only; 39 brands; six excluded; all partial.",
+  "count_reconciliation": "337 unique active/root-canonical; 0 legacy-only; 39 brands; six excluded; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Rushead Max Bass RH-101",
-    "task": "RH101 Chinese primary corroboration saved; CN manual timed out, DE linked endpoint invalid. Preserve unresolved electrical/ports/counts/memory without repeated identical retries. Next fresh Shopee discovery for other eligible bass/vocal models; existing RH101 exact offers and sources retained.",
+    "model": "Valeton Rushead Max RH-100",
+    "task": "New guitar model saved with exact voucher offer, own manufacturer3/3/3module choices and dimension/runtime conflicts. Next readable exact RH100 manual for controls/ports/power/memory; do not substitute RH101 or old Rushead. Continue other discovery if primary inaccessible.",
     "next_models": [],
-    "after_queue": "336 partial unique records;117 compatibility files retained. No downloads/workflows/push."
+    "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24372,7 +24372,8 @@
       "Dapper VES-1",
       "Dapper MDR",
       "Dapper Amp Mini",
-      "Rushead Max Bass RH-101"
+      "Rushead Max Bass RH-101",
+      "Rushead Max RH-100"
     ],
     "VING": [
       "Flybro FB-100"
@@ -24574,7 +24575,8 @@
       "Dapper VES-1",
       "Dapper MDR",
       "Dapper Amp Mini",
-      "Rushead Max Bass RH-101"
+      "Rushead Max Bass RH-101",
+      "Rushead Max RH-100"
     ],
     "MOOER.md": [
       "GE250",
@@ -24958,7 +24960,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 281,
+      "record_count": 282,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -45258,10 +45260,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 336,
-    "canonical_root_models": 336,
+    "unique_brand_model_pairs": 337,
+    "canonical_root_models": 337,
     "legacy_only_models": 0,
-    "guitar_view_models": 281,
+    "guitar_view_models": 282,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -45321,7 +45323,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Rushead Max Bass RH-101."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Rushead Max RH-100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45498,6 +45500,7 @@
       "Valeton::Dapper VES-1",
       "Valeton::Dapper MDR",
       "Valeton::Dapper Amp Mini",
+      "Valeton::Rushead Max RH-100",
       "VING::Flybro FB-100",
       "Zoom::G1 FOUR",
       "Zoom::G1X FOUR",
@@ -47534,6 +47537,13 @@
     },
     "Valeton::Rushead Max Bass RH-101": {
       "link": "VALETON.md#rushead-max-bass-rh-101",
+      "source_files": [
+        "VALETON.md"
+      ],
+      "finding_files": []
+    },
+    "Valeton::Rushead Max RH-100": {
+      "link": "VALETON.md#rushead-max-rh-100",
       "source_files": [
         "VALETON.md"
       ],
@@ -57755,6 +57765,16 @@
       "sources": [
         "https://zh.valeton.net/product/rushead-max-bass/",
         "https://www.valeton.net/wpfd_file/rh-101rushead-max-bass_manual_de_v02_211025/"
+      ]
+    },
+    {
+      "model": "Valeton Rushead Max RH-100",
+      "checked_date": "2026-10-18",
+      "finding": "New guitar multi-effects model from exact Shopee1776275/26704878084Rp785000conditional voucher and own EN/CN modules. Axis/runtime conflicts retained; manual no extracted text. Not RH101 or ownership proof.",
+      "sources": [
+        "https://www.valeton.net/product/rushead-max/",
+        "https://zh.valeton.net/product/rushead-max/",
+        "https://shopee.co.id/Valeton-RH-100-Rushead-Max-Pocket-Guitar-Headphone-Amp-Original-i.1776275.26704878084"
       ]
     }
   ],

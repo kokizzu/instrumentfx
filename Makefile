@@ -1911,3 +1911,7 @@ research-ledger-history:
 .PHONY: research-commit-rh101
 research-commit-rh101:
 	python3 scripts/research_tools.py commit-rh101
+
+.PHONY: research-commit-rh100
+research-commit-rh100:
+	python3 scripts/research_tools.py commit-rh100
