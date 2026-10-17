@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VoiceLive Play / GTX ambiguous hardware lead",
-    "task": "Check703046367/26030546305 identity againstmanufacturerPlay/GTX controls/ports;canonicalPlayalreadyexists,GTX notactive. Seek exactrevisionproof beforeaddingorassigningprice.",
+    "model": "Remaining vocal manufacturer verification",
+    "task": "CanonicalPlayalreadyresolvesAsiaProSoundduplicate. Continue exactVoiceLivePlaycurrentprimaryspecifications orfreshqualifyingbass/vocalShopeeleads;GTXmanufactureridentifiedbutunpriced/notactive.",
     "next_models": [],
-    "after_queue": "Bass/vocal discovery,manufacturerfieldverification andlegacyconsolidation remainincomplete.306activepartial;no downloads/workflows/push."
+    "after_queue": "306partialmodels;fullmanufacturer/priceverificationandlosslessmigration remainincomplete. Nodownloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -64028,13 +64028,29 @@
       "seller": "Asia Pro Sound",
       "region": "KotaBekasi",
       "idr": 5280000,
-      "access": "Directbody3-daycrawl,Habis;relativetomorrowdelivery notlivestock. ExacttitleVoiceLivePlayGuitarEffects doesnotestablishGTX orPlayAcoustic. Condition,revision,bundle,variation,adapter,warranty/voucher unknown;lateRp10kcompensation notdiscount."
+      "access": "Directbody3-daycrawl,Habis;relativetomorrowdelivery notlivestock. ExacttitleVoiceLivePlayGuitarEffects doesnotestablishGTX orPlayAcoustic. Condition,revision,bundle,variation,adapter,warranty/voucher unknown;lateRp10kcompensation notdiscount.",
+      "canonical_reconciliation": "FullTC-HELICON.mdread2026-10-17 finds exact703046367/26030546305 alreadycanonicalblueVoiceLivePlay,Rp5,280,000Habis. PriorGTXambiguity inledger redundant;defer toexistingcanonicalidentity,notnewGTXoffer. No newvisualinspection."
     },
     "duplicate_b3": {
       "item": "1220839369/41075001096",
       "status": "Alreadyfullyidentified indeferredcanonicalZOOM.mdB3text;shopusedRp1,999,999 and4sold;reclickeditemcachemiss. Do notaddnewlead orprojectasverifiedused."
     },
     "other_results": "BasssearchesreturnedexistingStompLab2B,B2FOUR,B3n/B1;singleeffectVoiceTonepedals,adapters,unrelatedcomputerresults excluded. Noqualifiednewbassmodel andnoexhaustiveclaim.",
-    "next": "ResolveambiguousVoiceLivePlayGuitarEffectsagainstmanufacturerPlay/GTX distinctions;do notinferguitarprocessingfromsellerkeywords."
+    "next": "Do notresume duplicatePlayofferidentityaudit;continue unresolvedmanufacturerfields orfresh exacthardwarediscovery."
+  },
+  "manufacturer_gtx_identity_lead_20261017": {
+    "model": "TC-Helicon VoiceLive Play GTX",
+    "status": "Manufactureridentified,notactive;noexactGTXShopeeofferverified.",
+    "sources": [
+      {
+        "url": "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEG/VOICELIVE%203%20EXTREME_M_EN.pdf",
+        "evidence": "ManufacturerVL3Xreference2015-10-20p16 indexedtext explicitlysaysPlayGTXaddedguitarAmp/DistortionandDelaytoearlierChorus/Reverb/EQ/Compression. Historicalidentityevidence,notfullGTXspecification."
+      },
+      {
+        "url": "https://mediadl.musictribe.com/download/software/tchelicon/vlplaygtx_man_jpn.pdf",
+        "evidence": "IndexedmanufacturerGTXJapanesemanualv1.9 exposesGlobalGuitarFX/GuitarGate;directPDF502. Indexonly,nofullmanualclaim."
+      }
+    ],
+    "limits": "Do notborrowGTXprocessingintobluePlay;donotassignAsiaProSoundasktoGTX."
   }
 }
