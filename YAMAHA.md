@@ -83,13 +83,14 @@ Checked 2026-10-17; partial. Guitar amp/distortion and vocal effects documented 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | No built-in pedal/toe; front footswitch jack supports tempo control. Continuous external expression support unverified. | [Features][S2-F] |
-| K/F/B | Separate rotary,footswitch and button counts pending own-panel inventory; do not borrow SPX990 counts. | Unresolved |
+| K/F/B | **2 rotary /0 footswitches /18 buttons**: concentric input L/R; Input Mode,Meter,Bank,Store,two effect arrows,Recall,Undo,Back,two value arrows,Next,Compare,Parameter,Fine Param,Utility,Bypass,Tap. Power and rear level switches additional; text-derived,visual corroboration pending. | [Manual pp7–9][S2-M] |
 | Display | 16-character×2-line LCD with six-color backlight and L/R 12-segment LED meters. Backlight color does not establish a color graphical screen. Diagonal/touch unverified. | [Japanese specifications][S2-J] |
 | Dimensions / mass | **480W×45H×372.5D mm;4kg;1U**. | [Specifications][S2-S] |
 | Processing / categories | 32-bit DSP; 17 REV-X presets within 97 PRESET programs, covering Hall,Room,Plate. Other programs include delay,pitch,modulation,dynamics and composites. Preset totals are not simultaneous blocks; full algorithm/category counts pending. | [Features][S2-F] |
-| Factory / user memory | PRESET97,USER99; CLASSIC25 on product page/Japanese specs but27 on data sheet. Nominal total221 versus223 conflict remains; initial USER fill unverified from primary manual. | [Features][S2-F];[Japanese specs][S2-J];[Data sheet][S2-D] |
+| Factory / user memory | **97 PRESET+25 CLASSIC read-only+99 USER=221 locations;122 factory effects,USER initially empty.** Manual bank chapter and numbered CLASSIC1–25 list support25. Data-sheet27 is a retained source conflict, not the adopted capacity. | [Manual pp12,26][S2-M];[Data-sheet conflict][S2-D] |
 | Synth / acoustic | Guitar amp simulation/distortion documented; dedicated synth/acoustic simulation unverified. | [Manual pp86–87][S2-M] |
 | I/O | Stereo XLR/TRS analog inputs/outputs with +4/−10dBu switches; AES/EBU stereo XLR I/O; BNC word-clock input; MIDI IN,OUT/THRU;USB TO HOST;front footswitch. Complete connector switching and USB-audio distinctions pending. | [Features][S2-F] |
+| I/O / USB control | USB TO HOST carries editor/MIDI remote control; audio connections documented separately as analog or AES/EBU. USB-audio streaming is not established. MIDI OUT/THRU switches between bulk-data output and unchanged IN retransmission. Word-clock BNC is75Ω terminated,one-to-one. | [Manual pp9–10][S2-M] |
 | Power / battery / USB | **25W**; region-specific AC100V,120V or220–240V,50/60Hz. Not universal input; actual offered unit voltage unverified. Mains DC polarity inapplicable; battery/USB operation unverified. | [Specifications][S2-S] |
 | IR / NAM / capture | User IR,native/converted NAM and capture support unverified. | Unresolved |
 | Editor / platforms | SPX2000 Editor for Mac OSX/Windows; current OS,bitness,driver requirements and USB audio remain unverified. No software downloaded. | [Features][S2-F] |
