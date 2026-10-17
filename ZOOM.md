@@ -986,6 +986,17 @@ Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; exi
 | Audio conversion / processing | [Manufacturer specifications](https://zoomcorp.com/manuals/b2four-en/),©2023 Z2I-4836-01: ADC and DAC each24-bit/128×oversampling;internal processing32-bit. USB audio listed32-bit2-in/2-out,not explicitly32-bit float. No sample rate stated in inspected specification. Word length does not establish unclippable analog inputs. |
 | Audio noise specifications | InputS/N124dB;residual noiseL/R−96.0dBu,XLR−100.0dBu,phones−96.0dBu. These are separate published measures,not interchangeable with conversion resolution. Same manual source;conditions beyond stated table remain unspecified. |
 
+
+### B2 FOUR — Android compatibility limits
+
+Checked2026-10-17 against the manufacturer’s [September2023 compatibility sheet](https://zoomcorp.com/media/documents/B2FOUR_Android_Devices_EN.pdf),©2023 Z2I-4885-02. This is a dated device/app test matrix, not support for every Android device orcurrent OS.
+
+| Field | Verified restriction / qualification |
+|---|---|
+| USB / Android app restriction | **Cubasis3 for Android is explicitly unsupported because it works only at48kHz.** This rules out a blanket Android-DAW compatibility claim. It does not independently establish the B2 FOUR’s exact operating sample rate. |
+| USB / OPPO connection | Enable **Settings → System settings (Additional settings) → OTG connection** for each connection. The sheet says OTG disconnects automatically after **10minutes without transmission**. This is phone-side connection behavior, not the pedal’s ten-hour ECO shutdown. |
+| Software / scope of Android tests | Matrix covers named devices andOS versions with BandLab/FLStudio columns;results vary. Manufacturer explicitly disclaims a guarantee of issue-free operation. USB audio compatibility does not establish an Android patch editor;the iOS/iPadOS editor remains separate. |
+
 <!-- comparison evidence ends -->
 
 ## B6
