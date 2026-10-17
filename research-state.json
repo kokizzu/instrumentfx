@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero One MP-80",
-    "task": "V1.1sharedFX71subtotalreconciled9/18/22/22;AMP65vsproduct64conflictretained. Next ownmanualcabinet/ampcategoryscope orfreshdiscovery; currentfirmwareinventorystillunverified. GR33exactofferremainsleadonly.",
+    "task": "Ampero One V1.1AMP65subtotal14/22/22/5/2 and60speaker+10acousticbody+10userIRdistinctions saved. Next currentfirmwarecounts or qualified offers/freshdiscovery; do not flatten factorybody/userIR into60cabheadline. GR33exactitem unresolved.",
     "next_models": [],
     "after_queue": "Continue unresolved research and legacy consolidation; no workflows/downloads/push."
   },
@@ -58754,6 +58754,23 @@
     },
     "shared_total": 71,
     "amp_conflict": "ManualAMP65 vs product64;notreconciled;notcurrentfirmware3.1count",
+    "downloads": false
+  },
+  "ampero_one_amp_cab_20261017": {
+    "source": "https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual",
+    "identity": "Manufacturer original V1.1 manual transcription pp28–36",
+    "amp_categories": {
+      "clean": 14,
+      "drive": 22,
+      "high_gain": 22,
+      "bass": 5,
+      "acoustic": 2
+    },
+    "amp_sum": 65,
+    "scope": "Manual subtotal reconciles; product64conflict remains;notfirmware3.1count",
+    "factory_cabinets": 60,
+    "factory_acoustic_bodies": 10,
+    "user_ir": "V1.1slots71–80;empty mutes;CABIR70heading nottotalwithuserpositions",
     "downloads": false
   }
 }

@@ -66,6 +66,17 @@ These are individual asking observations,not a current market range or completed
 | Processing / AMP count conflict | The same appendix labels **AMP65**, versus the product page’s **64 amps** retained above. Revision/counting basis remains unresolved; do not silently replace one with the other or certify either as firmware3.1’s installed library. AMP Drive22 is distinct from the separate pedal-drive category’s22. |
 
 
+### Ampero One — amp and cabinet categories, 2026-10-17
+
+[Own V1.1 manual transcription](https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual), printed pp28–36. Counts apply to this document, not a verified current firmware image.
+
+| Field | Verified breakdown / qualification |
+|---|---|
+| Processing / amp categories | **14 clean +22 drive +22 high-gain +5 bass +2 acoustic preamps =65 AMP choices**. Acoustic preamps process acoustic inputs; they are distinct from the AC Sim effect. This reconciles the manual’s internal subtotal, while its conflict with product64 remains unresolved. |
+| Processing / factory cabinet categories | Separate appendix headings give **60 factory speaker cabinets +10 factory acoustic-body entries**. The latter include guitar, mandolin and acoustic-bass bodies; they are not ten additional electric-speaker cabinets or user capture slots. |
+| IR / original slot numbering | The appendix labels CAB/IR70 but separately lists **user IR71–80**, so that heading is not the total storage count including those ten user positions. Empty user slots mute output. All CAB/IR selections share mic-position/type parameters; mic simulation can be disabled. Preserve this V1.1 numbering separately from the later documented slot expansion. |
+
+
 ## Hotone consolidation scope
 
 The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.
