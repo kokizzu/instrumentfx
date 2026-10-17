@@ -387,7 +387,7 @@ def main():
         if mode == 'commit-b21u':
             message = 'research(zoom): reconcile B2.1u module choices and acoustic amp distinction'
         if mode == 'commit-m100':
-            message = 'research(tc-electronic): reconcile X5 controls and connectivity specifications'
+            message = 'research(tc-electronic): document X5 MIDI and versioned bypass modes'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): clarify 607 pedal switching and software evidence'
         if mode == 'commit-spx990':

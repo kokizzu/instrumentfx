@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic PLETHORA X5",
-    "task": "X5 text control inventory reconciled via specification selector classification; latency/Bluetooth saved. Dimension axis and current firmware remain unresolved. Next MIDI/full library and remaining software qualifications, then discovery.",
+    "task": "X5 MIDI and historical1.3.6 library/bypass additions saved. Next own software platform and current catalogue evidence or explicit deferral before fresh discovery.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
@@ -54963,5 +54963,11 @@
     "pages": "14–15,32–33",
     "evidence": "Specifications classify Play/Edit and Boards as selector switches; text-derived5rotary5foot0separatebuttons with visual pending. Latency0.8–2.4ms,Bluetooth4.2LE. Dimension label inconsistency persists in Japanese guide too, not corrected by repetition.",
     "search_limits": "No newer own-model firmware resolved by1.4/1.5 targeted official searches; no latest firmware claim."
+  },
+  "plethora_x5_midi_checkpoint_20261017": {
+    "source": "https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf",
+    "firmware_source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf",
+    "evidence": "Five-slot MASH/expression and looper MIDI mapping. Historical1.3.6AlterEgo,chain display,response improvements and Buffered/NoTrails; distinguished from1.3.11feedback behavior.",
+    "remaining": "Complete current library/latest firmware, editorOS,display/dimension and all prior unknowns remain."
   }
 }

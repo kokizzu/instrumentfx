@@ -106,6 +106,10 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 | Editor / firmware transport | Guide describes USB mass-storage transfer of a .bin file followed by power-cycle installation. This proves update transport, not USB audio or bus power. No update or download performed. | [Official release notes][PX5-F] |
 | Processing / latency | Published **0.8–2.4 ms** latency range; do not infer one fixed value for every Board. | [QSG p33][PX5-M] |
 | Editor / Bluetooth specification | **Bluetooth4.2 Low Energy**, up to10m in open space; structures affect range. Pair through global Bluetooth settings and TonePrint app. This establishes app connectivity, not Bluetooth audio streaming. | [QSG pp32–33][PX5-M] |
+| Categories / historical firmware additions | **1.3.6,2022-01-13** adds Alter Ego Vintage Echo. Also documents reversed chain-order display, improved external EXP/MIDI response and faster Board changes. These are dated changes, not a complete current library. | [Official release notes][PX5-F] |
+| Live / buffered no-trails | Firmware1.3.6 adds **Buffered / No Trails**, retaining buffering while cutting delay/reverb tails when disengaged. Distinguish it from buffered trailing behavior and the later1.3.11 feedback change. | [Official release notes][PX5-F] |
+| Expression / MIDI mapping | **CC100 Global Expression** maps0–125 to0–100%; Hot Knobs CC107–109. MASH for slots1–5:CC70/75/80/85/90; expression modifiers CC71/76/81/86/91. Physical EXP and MIDI expression are separate control paths. | [Official X5/X3 MIDI table][PX5-C] |
+| Live / MIDI looper mapping | CC110 Record,111 Play,112 Clear,113 Pause. Values0–24/25–50/51–76/77–102/103–127 target slots1–5 respectively. Slots4–5 explicitly X5-only. CC92 tap,93 tuner,94/95 Board down/up. | [Official X5/X3 MIDI table][PX5-C] |
 | Preset memory | **127 custom Boards;75 TonePrint slots per pedal**. Factory-filled subset unresolved; Board count is not simultaneous block count. | [Product][PX5-P] |
 | Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
 | I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; USB for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
@@ -134,3 +138,5 @@ Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers
 [PX5-O]: https://shopee.co.id/TC-Electronic-PLETHORA-X5-TonePrint-Pedal-Board-Loaded-with-Favorite-FX-and-5-MASH-Footswitches-i.158235298.27271818642
 
 [PX5-F]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf
+
+[PX5-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
