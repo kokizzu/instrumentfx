@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-5",
-    "task": "VE5 named5PitchCorrect/6ToneSFX alternatives saved with ownmanualindexed source. Next verify remaining reverb names/harmony part limits from ownmanualp17 with targeted official text; no fulloversizedfetch or sibling borrowing. Commit before next.",
+    "task": "VE5 reverb names,oneaddedharmony-part evidence and adapter hot-swap interruption saved from identity-matched2012manufacturer manual copy. Next read full DOUBLE/HARMONY table p17 for interval limits and actual control options; no sibling inference. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56643,6 +56643,12 @@
       "checked_date": "2026-10-18",
       "finding": "Indexed ownmanualp16 names5PitchCorrect:Soft Hard Electric1 Electric2 Robot;Electric2 stronger.6ToneSFX:Preamp Distortion Radio Strobe Chorus Flanger;conditionalcontrols retained. Alternatives not simultaneous engines;not sibling4type list.",
       "source": "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf"
+    },
+    {
+      "model": "BOSS VE-5",
+      "checked_date": "2026-10-18",
+      "finding": "2012manufacturer manual copy verified identity/copyright/own controls:5reverbnames Ambience Room Hall1 Hall2 Plate;one added harmony part describedp6;adapter/mains connection change whileON turnsunitOFF evenwithbatteriesp3. Uninterruptedhot-swap not supported by documentation. Exactintervalmenu pending.",
+      "source": "https://www.scribd.com/document/467271239/VE-5-OM"
     }
   ],
   "discovery_cross_brand_bass": {
