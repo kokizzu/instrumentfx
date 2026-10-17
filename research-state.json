@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Roland VT-4",
-    "task": "VT-4 FW1.02minimum for mute/robot-hold/constantconversion,1.03reverbtempo fix anddatedWindows/macOSdriverlimits saved. USBstreamrates remain unverified;do not download archives. Next fresh Shopee discovery other vocal/bass/guitarseries orprimary VT-4 sample-rate FAQ;fullconcurrency/display/expression/imports/editor/qualifiedoffers remain.",
+    "task": "VT-4 FAQs verifyunbalancedmainouts,miclevellimits,processedUSBloopback withmicinclusion,andexternalcarrierrequirements. USBstreamrates unresolved;checkedFAQs donotprove. Next fresh Shopee discovery other vocal/bass/guitarseries;no more identical rate searches. Fullconcurrency/display/expression/imports/editor/qualifiedoffers remain.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery and legacy consolidation;no workflows/downloads/push."
   },
@@ -59080,6 +59080,31 @@
     },
     "editor": "Notestablished",
     "usb_streamrates": "unresolved",
+    "downloads": false
+  },
+  "vt4_io_faq_20261017": {
+    "sources": {
+      "out": "https://support.roland.com/hc/en-us/articles/30276328576027-VT-4-Are-the-LINE-OUT-Jacks-Balanced-or-Unbalanced",
+      "mic": "https://support.roland.com/hc/en-us/articles/360062335471-VT-4-Is-it-possible-to-input-audio-other-than-a-microphone-into-the-MIC-IN-jack",
+      "loop": "https://support.roland.com/hc/en-us/articles/4404526556315-VT-4-Can-I-apply-effects-to-loopback-audio-on-VT-4",
+      "carrier": "https://support.roland.com/hc/en-us/articles/360061935632-VT-4-Even-when-the-VOCODER-button-is-pressed-vocoder-voice-is-not-produced-Why"
+    },
+    "main_outputs": "Unbalanced L/MONO andR/BYPASS",
+    "mic_input_dbU": [
+      -40,
+      -12
+    ],
+    "other_sources": "Maydistort/suboptimaleffects;notguitar/basscertification",
+    "loopback": "PlaybackTO_MIC_IN3/4;recordMIX1/2;physicalmicalsoincluded",
+    "externalcarrier": "USBcarrierplusmicrequiredwhenenabled",
+    "remaining": [
+      "USBstreamrates",
+      "Fullconcurrency",
+      "Display",
+      "Expression",
+      "Imports/editor",
+      "Qualifiedcondition/stock"
+    ],
     "downloads": false
   }
 }

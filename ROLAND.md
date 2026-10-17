@@ -201,3 +201,14 @@ No hardware setting was changed. USB stream rates,full routing concurrency,displ
 | Editor / dated macOS driver matrix | [Roland matrix,updated2026-09-16](https://www.roland.com/global/support/support_news/25090811m1/):VT-4 Hardware & Driver **Yes(Download) on macOS15 Sequoia and26 Tahoe;Under Testing on27 Golden Gate**. Dedicated driver required;the Exclusive Application row is a dash,not evidence for a full editor. No blanket future-version guarantee. |
 
 USB stream-rate support was not recovered from the checked driver landing pages. No firmware,driver or archive was downloaded;no device was updated.
+
+### VT-4 — output balance and USB processing constraints, 2026-10-17
+
+| Field | Manufacturer FAQ finding / limitation |
+|---|---|
+| I/O / main output balance | [Roland FAQ,2024-10-23](https://support.roland.com/hc/en-us/articles/30276328576027-VT-4-Are-the-LINE-OUT-Jacks-Balanced-or-Unbalanced) explicitly identifies **both L/MONO and R/BYPASS as unbalanced**. This resolves the main-output balance gap;rear balanced microphone input remains a separate connection. |
+| I/O / input level and suitability | [Roland FAQ,2024-03-01](https://support.roland.com/hc/en-us/articles/360062335471-VT-4-Is-it-possible-to-input-audio-other-than-a-microphone-into-the-MIC-IN-jack): MIC IN is designed for microphones,**−40 to−12dBu**. Other sources may distort or produce suboptimal effects;connector compatibility does not establish guitar/bass multi-effects suitability. |
+| USB audio / loopback processing | [Roland FAQ,2024-03-01](https://support.roland.com/hc/en-us/articles/4404526556315-VT-4-Can-I-apply-effects-to-loopback-audio-on-VT-4): send playback to **TO MIC IN(3–4)** and record **MIX(1–2)** for processed loopback. The physical microphone is also included;disconnect it or minimize MIC SENS for loopback-only recording. This is a routing option,not an onboard phrase looper. |
+| Synth / external vocoder carrier | [Roland FAQ,2024-03-01](https://support.roland.com/hc/en-us/articles/360061935632-VT-4-Even-when-the-VOCODER-button-is-pressed-vocoder-voice-is-not-produced-Why): with External carrier enabled,the vocoder needs USB synth carrier audio plus the microphone voice. VOCODER alone may otherwise produce no sound;character still depends on selected vocoder type. |
+
+USB stream-rate support remains unresolved after the checked primary FAQs;no inferred conversion-rate equivalence. No files or software downloaded.

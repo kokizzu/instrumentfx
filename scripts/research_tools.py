@@ -351,7 +351,7 @@ def main():
         if mode == 'commit-nux-mg101-audit':
             message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-vt4':
-            message = 'research(roland): qualify VT-4 firmware features and driver compatibility'
+            message = 'research(roland): verify VT-4 output balance and USB processing constraints'
         if mode == 'commit-pe100':
             message = 'research(mooer): count Black Truck rotary controls and verify impedances'
         if mode == 'commit-ms60b':
