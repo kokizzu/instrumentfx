@@ -28,9 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX ToneLab SE",
-    "task": "Existing BANKO offer revalidated, not new. SE converters and dual-pedal initialization/assignment/calibration saved; commit before next model. Full simultaneous accounting, modern editor compatibility, display and market/ownership gaps persist; resume fresh Shopee discovery or different primary gaps; no downloads/workflows.",
-    "next_models": [],
+    "model": "Valeton Dapper Bass VES-2",
+    "task": "Three historical full-size asks saved with cache-status conflicts; commit before next model. Full-size expression/control/display/memory/import/software and current-price gaps remain. Next read existing Dapper Bass Mini MES-2 record before using newly surfaced offers; no sibling specs, downloads or workflows.",
+    "next_models": [
+      "Valeton Dapper Bass Mini MES-2"
+    ],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
@@ -45319,7 +45321,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab SE."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Bass VES-2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57170,6 +57172,17 @@
       "sources": [
         "https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf",
         "https://shopee.co.id/Multi-FX-VOX-Tonelab-SE-Twin-Pedal-Multi-Effect-i.1452686572.41751511183"
+      ]
+    },
+    {
+      "model": "Valeton Dapper Bass VES-2",
+      "checked_date": "2026-10-18",
+      "finding": "Added three exact full-size historical Rp3240000 offers: theomusic7964982/262097867 (older Habis versus newer no label), Jojomusic382833846/22120857441 no sold-out label, RedMusik198150809/22152766694 Habis. No condition-specific or live-stock claim; reviewed own manufacturer product to distinguish full-size and Mini.",
+      "sources": [
+        "https://www.valeton.net/product/dapper-bass/",
+        "https://shopee.co.id/Valeton-DAPPER-BASS-Bass-Effect-Strip-i.7964982.262097867",
+        "https://shopee.co.id/Valeton-Dapper-Bass-Effect-Strip-i.382833846.22120857441",
+        "https://shopee.co.id/Effect-Valeton-Dapper-Bass-Effect-Strip-VES-2-VES-2-i.198150809.22152766694"
       ]
     }
   ],

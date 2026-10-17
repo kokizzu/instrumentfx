@@ -570,7 +570,7 @@ def main():
         if mode == 'commit-dapper-bass-mini':
             message = 'research(valeton): corroborate MES-2 manual and clarify comparison record'
         if mode == 'commit-dapper-bass':
-            message = 'research(valeton): verify Dapper Bass controls and routing qualifications'
+            message = 'research(valeton): add Dapper Bass historical offers with stock limits'
         if mode == 'commit-hd500':
             message = 'research(line6): qualify HD500 global EQ and firmware editor fixes'
         if mode == 'commit-g1on':

@@ -860,6 +860,9 @@ Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. M
 |---|---|---|
 | Used | Unknown;noqualifiedcondition-specificoffer. | — |
 | New | Unknown;condition/bundle/stock unresolved. | — |
+| Condition-unverified historical offer | **Rp3,240,000**, theomusic_jkt, Kota Jakarta Timur;shop7964982/item262097867. Checked2026-10-18;two-week rendered cache, stale4–7October delivery. Older two-month search cache showed Habis/shop holiday; newer rendering omits those labels. Neither establishes present stock. Condition, working state, revision, adapter/bundle, warranty and voucher unknown. | [Exact full-size item][DB-O2] |
+| Condition-unverified historical offer | **Rp3,240,000**, Jojomusicstore, Kota Surabaya;shop382833846/item22120857441. Checked2026-10-18;three-week rendered cache, stale24–25September delivery. No Habis label visible; live stock unverified. Condition, working state, revision, adapter/bundle, warranty and voucher unknown. | [Exact full-size item][DB-O3] |
+| Condition-unverified historical offer | **Rp3,240,000; Habis**, Red Musik Bali, Kota Denpasar;shop198150809/item22152766694. Checked2026-10-18;last-week rendered cache, stale7October delivery; older search cache four months old. Condition, working state, revision, adapter/bundle, warranty and voucher unknown. | [Exact VES-2 item][DB-O4] |
 
 ### Seller and manual qualifications
 
@@ -876,6 +879,12 @@ Manufacturer-authoredtwo-pageOwner’sManual mirroredatManualMachine/ManualsLib 
 
 [DB-MM]: https://manualmachine.com/valeton/dapperbass/2574560-user-manual/
 [DB-ML]: https://www.manualslib.com/manual/1403706/Valeton-Dapper-Bass.html?page=2
+
+All three additional offers are historical asking observations, not completed sales or verified used/new stock. Late-arrival Rp10,000 compensation is not deducted. Exact titles identify full-size Dapper Bass, separately from MES-2 Mini; seller VES-2 wording remains distinct from manufacturer code verification.
+
+[DB-O2]: https://shopee.co.id/Valeton-DAPPER-BASS-Bass-Effect-Strip-i.7964982.262097867
+[DB-O3]: https://shopee.co.id/Valeton-Dapper-Bass-Effect-Strip-i.382833846.22120857441
+[DB-O4]: https://shopee.co.id/Effect-Valeton-Dapper-Bass-Effect-Strip-VES-2-VES-2-i.198150809.22152766694
 
 ## Dapper Bass Mini MES-2
 
