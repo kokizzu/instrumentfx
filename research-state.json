@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 HX Effects",
-    "task": "HX Effects 3.80 category inventory now counted. Seek model-specific official clarification of contradictory IR limits, supply voltage/polarity and display details; then resume other field gaps and legacy consolidation.",
+    "task": "HX Effects IR conflict remains explicitly qualified after 3.50 release-note check; Dual IR introduction corrected to3.50. Next inspect manufacturer power compatibility chart or editor model-limit table without downloads; then resume legacy consolidation.",
     "next_models": [],
     "after_queue": "Other field gaps andmigration;no downloads/workflows."
   },
@@ -53037,5 +53037,11 @@
     },
     "ir_conflict": "pp25–26: one 2048 Single/two 1024 Singles or one Dual per preset; p39: two 2048 Singles/four 1024 Singles/two Duals across paths. Preserve contradiction; no confirmed larger hardware limit.",
     "power": "Official store unavailable; community user statements not promoted to primary supply evidence."
+  },
+  "hx_effects_350_release_checkpoint_20261017": {
+    "source": "https://kb.line6.com/helix-3-50-release-notes",
+    "checked": "2026-10-17",
+    "confirmed": "HX Effects explicitly included: Dual IR introduced 3.50, two 1024-point IRs per block; per-parameter Snapshot Control disabling with physical/MIDI assignments.",
+    "unresolved": "Release notes do not settle 3.80 manual per-path versus per-preset IR totals. Do not infer factory cab engine for HX Effects; IRs-only qualification explicit."
   }
 }
