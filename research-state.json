@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-5",
-    "task": "Officialspecpartialrecord saved;66pageofficialmanual scannedzeroextractedlines. Next seekidentityverifiedoriginaltextmirror forcategory/memory/control details;ignoregeneratedFAQs. No repeat unavailable imagepath withoutnewcapability.",
+    "task": "ME5officialindexedPDFp36 recovered6reverb/delayalternatives and0.1vs1ms conflict. Next use targetedofficialPDFsearch to recovermemory/editablefactory andOD/choruschoices;directreaderzero lines,ManualsLibnavonly. No visualclaim.",
     "next_models": [],
     "after_queue": "290partialmodels;no downloads/workflows/push."
   },
@@ -58120,6 +58120,21 @@
       "Editor/imports",
       "Conditionqualifiedoffers"
     ],
+    "downloads": false
+  },
+  "me5_indexed_manual_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-5_OM.pdf",
+    "access": "Targetedsearch originalprintedp36;directreaderzero lines",
+    "modes": [
+      "Room",
+      "Hall1",
+      "Hall2",
+      "Plate",
+      "Gated",
+      "Delay"
+    ],
+    "delay_conflict": "Spec1–500ms vsindexedpanel0.1–500ms",
+    "rejected": "ManualsLib3/6navigationonly17inaccessible;noFAQevidence",
     "downloads": false
   }
 }

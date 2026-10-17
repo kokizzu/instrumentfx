@@ -2487,7 +2487,7 @@ Guitar multiple effects,1988–1992;checked2026-10-17;partial. [Own Roland speci
 | I/O | Input,Amono/Boutputs,TunerOut,headphones,send/return,ExpressionIn,Manual,GroupShift,MIDIIn/Out. Connector sizes pending. USB unlisted. |
 | Power / batteries | **12W consumption**;regional mains voltage,battery support unresolved. DCpolarity/USBpower not established. |
 | IR / NAM / captures | User loading unverified. |
-| Editor / platforms | Unverified;MIDI presence alone proves no editor. |
+| Editor / platforms | Unverified;MIDI presence alone does not establish an editor. |
 | Looper / drums / live | Unverified;FS-5U/DP-2 optional footswitches listed. |
 
 ### ME-5 — separate IDR offers
@@ -2505,3 +2505,13 @@ Seller normal/original/MadeinJapan claims unverified;liveStock,workingstate,vari
 [ME5-P]: https://support.roland.com/hc/en-us/articles/201924659-ME-5-Technical-Specifications
 [ME5-M]: https://cdn.roland.com/assets/media/pdf/ME-5_OM.pdf
 [ME5-S]: https://shopee.co.id/efek-legend-digital-pertama-1988-dari-merk-BOSS-tipe-boss-ME-5-normal-original-Made-in-japan-i.296332282.19845196980
+
+### ME-5 — official indexed manual recovery
+
+Checked2026-10-17. Direct [official PDF][ME5-M] still haszero extracted lines,but targeted search returned its own original section “Function of each parameter”,printed p36. Evidence below comes from that indexed passage,not ManualsLib generated FAQs or a visual inspection. ManualsLib pages3/6 returned navigation only;page17 inaccessible.
+
+| Field | Evidence / unresolved conflict |
+|---|---|
+| Processing / reverb-delay | One shared final block chooses **Room,Hall1,Hall2,Plate,Gated,orDelay**. Five reverb modes plusone delay alternative,not simultaneous reverb+delay. |
+| Processing / delay-time conflict | Roland specification says **1–500ms**;official indexed p36 panel text instead shows **0.1–500ms**. Preserve lower-limit conflict pending corroboration;maximum500ms consistent. |
+| I/O / routing | Indexed chain:Compressor→Overdrive/Distortion→EQ→Chorus/Flanger→send/return+noise-suppression/expression area→Reverb/Delay→Master. Expression located before final ambience block;precise assignment behavior remains pending readable text. |
