@@ -1016,7 +1016,7 @@ Technical layout/power/impedance/conversion/routing facts above: [manufacturer-a
 | Condition / IDR evidence | Seller / item / qualifications |
 |---|---|
 | New | No condition-qualified hardware quote verified. |
-| Used | No condition-qualified hardware quote verified. |
+| Used — indexed seller ask | **Rp1,595,000**, [ROCKPIZZ MUSIC440477624/45610012890](https://shopee.co.id/NUX-STAGEMAN-FLOOR-NAP-5-USED-NUX-STAGEMAN-FLOOR-NAP-5-USED-i.440477624.45610012890),Denpasar; title explicitly USED. Checked2026-10-17, [shop result](https://shopee.co.id/search?keyword=nux&shop=440477624) last-month body versus two-month search cache. Exact item link obtained from shop result; direct retrieval cache miss. Used is a seller title claim; working condition,stock,revision,selected variant,adapter/bundle,warranty,voucher,shipping/tax/final total unknown. Not a completed sale or live-stock confirmation. |
 | Condition unresolved:Rp2,350,000 | [Eleven Music12356205/9243654404](https://shopee.co.id/NUX-NAP5-NAP-5-Stageman-Floor-Verdugo-Series-Stompboxes-Efek-Gitar-i.12356205.9243654404),Jakarta Pusat;three-month search cache;direct opening failed UnexpectedStatusCode. |
 | Condition unresolved:Rp2,185,500 | [jayapratamamusic969726322/23086324001](https://shopee.co.id/Nux-NAP5-Stageman-Floor-Acoustic-Preamp-DI-Pedal-Original-NAP-5-i.969726322.23086324001),Jakarta Pusat;four-month search cache,stale June18 delivery;direct cache miss. |
 

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Stageman Floor NAP-5",
-    "task": "Verify current original panel/manual and remaining fields;commit before next model. Continue fresh Shopee bass/vocal discovery rather than duplicating saved HarmonySinger2offers.",
+    "task": "Stageman used exact-item ask saved;power/manual gaps remain. Continue fresh Shopee bass/vocal leads,without borrowing Stageman amp specifications;commit per model.",
     "next_models": [],
     "after_queue": "Technical/market/ownership gaps and migration compatibility remain. No downloads/workflows/push."
   },
@@ -64556,5 +64556,20 @@
     "condition_stock_bundle_voucher": "unknown",
     "scope": "Independentchorus/reverb/freeze/acousticpreampqualifiesguitar;notinferredfromEQ;no bass/vocal assignment",
     "remaining": "Fullcurrentmanualvisualconfirmation,patchmemory,expression,batteryUSBpower,editorplatforms,qualifiedcondition/stock."
+  },
+  "stageman_used_offer_20261017": {
+    "model": "NUX Stageman Floor NAP-5",
+    "seller": "ROCKPIZZ MUSIC",
+    "shop": "440477624",
+    "item": "45610012890",
+    "url": "https://shopee.co.id/NUX-STAGEMAN-FLOOR-NAP-5-USED-NUX-STAGEMAN-FLOOR-NAP-5-USED-i.440477624.45610012890",
+    "index": "https://shopee.co.id/search?keyword=nux&shop=440477624",
+    "ask_idr": 1595000,
+    "condition": "USED title only;working condition unknown",
+    "region": "Denpasar",
+    "checked_date": "2026-10-17",
+    "access": "Shop-resultlast-monthbodyandtwo-monthsearch;exactlinkclickedreturnedcachemiss",
+    "unknown": "stock,revision,variant,adapter,bundle,warranty,voucher,shipping/tax/finaltotal",
+    "rejected_spec_borrowing": "SA100 andAC80Stagemanamplifierbatteryspecifications not NAP5evidence;officialJapanesePDF failed;no new battery claim."
   }
 }
