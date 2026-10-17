@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP500",
-    "task": "Own analog/USB specifications and regional adapter mains saved;continue hardware discovery and unresolved model fields.",
+    "model": "TC Helicon Critical Mass",
+    "task": "Electrical impedances/response andAutoGain/indicator behavior saved;continue hardware discovery and remainingmodelgaps.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP500."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Helicon Critical Mass."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60226,5 +60226,45 @@
       "RegionalPS0913Bmainsvariantsnotpedalinput"
     ],
     "remaining": "Screen,currentsoftware,batteryUSBpower,imports,qualifiednewoffer,physicalcorroboration."
+  },
+  "criticalmass_electrical_autogain_20261017": {
+    "source": "https://www.handleiding.guide/pdf/817823",
+    "identity": "Manufacturer2017manualsixpages,coverCriticalMass;originalbodypp3–5browsertext",
+    "findings": [
+      "Published3k4/1k7input200/100outputnotationpreserved;pin2hot",
+      "20Hz20kresponse+0−0.3dB;AweightedSNR>114",
+      "AutoGainautomatic;LEDstatesnotruntime;reverbtypeamountandbypassscope"
+    ],
+    "remaining": "Selectorfamilycounts,polarity,runtime,memory,software,currentoffers,pitchclaim."
+  },
+  "discovery_vocal_performv_criticalmass_ve5_20261017": {
+    "queries": [
+      "site:shopee.co.id \"TC Helicon\" \"Perform V\"",
+      "site:shopee.co.id \"TC Helicon\" \"Critical Mass\"",
+      "site:shopee.co.id \"Boss\" \"VE-5\" vocal"
+    ],
+    "result": "Returned alreadyrecordedPerformVhardwareandadapters;no qualifiednew CriticalMass/VE5lead;notabsenceproof.",
+    "leads": [
+      {
+        "model": "Perform V",
+        "shop": "32743136",
+        "item": "24781414967",
+        "seller": "Kurnia Musik Semarang",
+        "idr": 3950000,
+        "condition": "unknown",
+        "access": "montholdsearchcache"
+      },
+      {
+        "model": "Perform V",
+        "shop": "250276993",
+        "item": "44861719917",
+        "seller": "Soundstationstore",
+        "idr": 4252050,
+        "status": "Habis",
+        "condition": "unknown",
+        "access": "montholdsearchcache"
+      }
+    ],
+    "qualification": "Followup only,notverifiedcurrentstock/neworused/bundle/variant/voucher/warranty/shipping."
   }
 }

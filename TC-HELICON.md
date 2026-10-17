@@ -762,6 +762,8 @@ Vocal-only multi-effects;checked 2026-10-17. Partial verification;unknown is not
 | IR / NAM / captures | IR import,native/converted NAM andmeasured capture support unverified |
 | Audio / control ports | XLR mic input;XLR impedance-balanced output;microUSB;9V power. Always-active24V phantom;MP75 Mic Control,disabled for condenser use [CM-M pp.3–5] |
 | Analog levels / conversion | Input clip−1dBu;output full-scale+7.5dBu. Conversion resolution/rate unverified [CM-M p.5] |
+| I/O / impedance and response | Manual input impedance **3k4/1k7Ω**;output **200/100Ω**,pin2hot. Slash notation retained without assigning differential/per-leg meaning. Input-to-output response+0/−0.3dB,20Hz–20kHz;A-weightedSNR>114dB. [CM-M p.5] |
+| Live / gain and indicators | AutoGain sets microphone gain automatically;not a user-adjusted preamp gain range. BatteryLED green/full,yellow/partial,red/replace;no hours estimate established. Reverb knob sets both type and amount;fullycounterclockwise disablesreverb. Long footswitch bypass explicitly covers group+reverb;Tone bypass behavior not established. [CM-M pp.3–4] |
 | Power / battery / USB | QSG:9V/>300mA;2017 manual:9V/670mA,6W. These differ in specificity, not necessarily compatibility:670mA satisfies >300mA, while the QSG alone does not establish an exact adequate rating.4AA supported. Polarity,battery runtime andUSB operating power unverified [CM-Q,CM-M] |
 | Dimensions / weight | 140×90×60mm;420g;manual axis order unspecified [CM-M p.5] |
 | Editor / software | VoiceSupport firmware updating via microUSB;editor platforms andUSB audio unverified [CM-M p.3] |
