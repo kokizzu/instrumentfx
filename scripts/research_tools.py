@@ -481,7 +481,7 @@ def main():
         if mode == 'commit-gt6':
             message = 'fix(comparisons): preserve shortcut and collapsed source links'
         if mode == 'commit-hxone':
-            message = 'research(line6): verify HX One dimensions and qualify regional specifications'
+            message = 'research(line6): clarify HX One impedance bypass and preset queue'
         if mode == 'commit-pocketpod':
             message = 'research(line6): reconcile Pocket POD effect choices and USB limits'
         if mode == 'commit-m9':

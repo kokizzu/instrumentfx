@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX100G",
-    "task": "Own rhythm/tuner/routing/power behavior and regional adapter names saved;continue fresh discovery or unresolved fields.",
+    "model": "Line 6 HX One",
+    "task": "Own impedance values/setting scopes,bypass and preset queue saved. Continue discovery or remaining model gaps;cached offer leads in discovery_rp500_tonelabex_gt5_20261017.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX100G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX One."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60140,5 +60140,55 @@
       "site:shopee.co.id \"Korg\" \"AX100G\""
     ],
     "result": "Existing AX100G mixedmodel22551702/3568008855 remains unqualified for model-specific amount;GFX8 results sensor38361451/8214243069 andadapter732732692/20031217262 notprocessors;no new active record."
+  },
+  "hxone_impedance_queue_20261017": {
+    "source": "https://line6.com/data/6/0a0004220039697155cf001b7/application/pdf/HX%20One%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "identity": "Own RevF firmware3.83,33PDFpages,browsertext",
+    "sections": "Printed27–28",
+    "findings": [
+      "InputZAuto+8fixedchoicesperpresetbothinputs",
+      "Globallevels/configvsperpresetinsertposition",
+      "True/DSPbypass distinctionnotpresetchangespillover",
+      "LoadqueuespresetuntilPresetModeexit"
+    ],
+    "remaining": "Exactdisplaydiagonal/currentOS/imports/USBpoweraudio/qualifiedusednewoffers."
+  },
+  "discovery_rp500_tonelabex_gt5_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"RP500\" efek",
+      "site:shopee.co.id \"Vox\" \"ToneLab EX\"",
+      "site:shopee.co.id \"Boss\" \"GT-5\""
+    ],
+    "result": "Alreadyrecordedmodels;no new inventory. Additional cachedconditionunverified leads retained for followup.",
+    "leads": [
+      {
+        "model": "RP500",
+        "shop": "194831039",
+        "item": "5554328608",
+        "idr": 2750000,
+        "status": "Habis",
+        "seller": "SAEF GDI",
+        "region": "Kab.Jepara"
+      },
+      {
+        "model": "ToneLab EX",
+        "shop": "4466947",
+        "item": "42755664991",
+        "idr": 1700000,
+        "seller": "bejita",
+        "region": "Kab.TulangBawangBarat",
+        "condition": "unknown"
+      },
+      {
+        "model": "GT-5",
+        "shop": "1011773481",
+        "item": "41108297408",
+        "idr": 2600000,
+        "seller": "Andika Gitar Store",
+        "region": "Kab.Tegal",
+        "condition": "unknown"
+      }
+    ],
+    "qualification": "Searchcacheonly;stale delivery dates;not verified stock/condition/bundle/variant/warranty/voucher/shipping or completed sales. Check existing model records before price update."
   }
 }
