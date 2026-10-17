@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G3Xn",
-    "task": "G3Xn100pointDSP/AcoSim verified fromownsupportlinks. Next effectslistcategorycensus,looperlimits orfreshdiscovery;fullmanualTooLarge,no downloads.",
+    "task": "G3Xn pitch/delayranges andTailversusspillover distinction saved. Next categorycensus/fullcontrols/looperlimits orfreshdiscovery;source-specificrevisions retained.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61077,5 +61077,19 @@
       "site:shopee.co.id Korg AX300G"
     ],
     "result": "Adapters/mixedexistingZoomseries;noqualifiednewmodel. ExistingG3Xnlike-newofferalreadyrecorded."
+  },
+  "g3xn_pitch_delay_20261017": {
+    "source": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+    "revision": "2017",
+    "pages": "16,18–19",
+    "findings": [
+      "MonoPitchsingle-note;PitchSHFTpolyphonyunverified",
+      "Shift−12to12or24;fine±25cents",
+      "HPSkeyscale;Octave1/2below",
+      "DelayAnalog4000msReverse2000ms",
+      "Tailafterbypassnotpresetchangeproof",
+      "LoopRollsampleholdseparatefromlooper"
+    ],
+    "limits": "Installedlibrary,currentfirmware/wholecategorycountnotcertified"
   }
 }
