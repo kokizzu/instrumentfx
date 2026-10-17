@@ -172,7 +172,7 @@ Checked2026-10-17. Partial guitar/bass multi-effects record,distinct from V-AMP2
 | Expression | No integrated pedal;MIDI wah/volume control. External analog EXP/toe unknown. |
 | Controls | Derived **11 rotary /0 integrated footswitches /9 buttons**:10top+sideAUX;A–E,BankUp/Down,TAP,TUNER. |
 | Display | Two-digit seven-segmentLED;diagonal/color/touch unknown. |
-| Processing / choices | **32amps,15cabinets,9reverbs**. Five preset ingredients:amp,cab,preFX,postFX,reverb;not five arbitrary effects. Categorysubtotals unknown. |
+| Processing / choices | **32amps,15cabinets,9reverbs**. Five preset ingredients:amp,cab,preFX,postFX,reverb;not five arbitrary effects. **16 effect-selector positions**, including fixed combinations; independent reverb. See exact inventory below. |
 | Presets | **125 editable presets,25×5**;not125factory+125user. |
 | Synth / acoustic | Acoustic/bass preset banks documented;dedicated synthesis/acoustic conversion unknown. |
 | Dimensions / weight | **79H×267W×180D mm;0.8kg**. |
@@ -191,3 +191,20 @@ Checked2026-10-17. Partial guitar/bass multi-effects record,distinct from V-AMP2
 | Condition unverified / melodiasby,Kota Surabaya | **Rp2.046.000**. Opened body crawl1month;index2months. Current stock,variant,bundle/UCA222/footswitch/adapter,warranty,voucher,shipping/tax unknown. Stale September delivery window andlate-arrival voucher do not prove stock orhardware discount. | [158144224/26680659166](https://shopee.co.id/Behringer-V-Amp-3-Guitar-Multi-Effect-Processor-i.158144224.26680659166) |
 
 Own product-information PDF8849735680030 failed web access;no facts adopted. Remaining work includes firmware/library-specific effect counts,power ratings,display specifications andcondition-qualified offers.
+### V-AMP 3 — effect-selector inventory and control conflict
+
+Checked 2026-10-17 against the [manufacturer manual](https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf), pp4–5,12–13.
+
+| Selector grouping | Positions |
+|---|---|
+| Delay | Echo, Delay, Ping Pong |
+| Modulation + delay | Phaser/Delay; Flanger/Delay 1 and 2; Chorus/Delay 1 and 2 |
+| Other combinations | Chorus/Compressor |
+| Dynamics/filter | Compressor, Auto Wah |
+| Modulation | Phaser, Chorus, Flanger, Tremolo, Rotary |
+
+These **16 positions** are choices, not 16 simultaneous blocks. MIDI-controlled wah is additional. Reverb has **9 choices**: Tiny/Small/Medium/Large/Ultra Room, Small/Medium Spring, Short/Long Ambience. Cabinet bypass is additional to15 cabinet models; amp selection loads a matched cabinet that can be changed.
+
+The numbered control descriptions swap EFFECTS and EFFECTS SELECT roles compared with Basic Operation. Retain this labeling contradiction; it does not change the rotary count. Effect-table MIDI values also differ between some standalone/combined modulation entries; do not silently normalize them into one algorithm identity.
+
+Adapter output ratings remain unverified after manufacturer-domain searches; no sibling-model power specification adopted.

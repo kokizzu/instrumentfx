@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer V-AMP 3",
-    "task": "V-AMP3 added with exact Shopee offer and primary manual;next verify effect-selector categories and power source without borrowing V-AMP2;preserve TSbalanced contradiction and separate UCA222 USB.",
+    "task": "V-AMP3 effect-selector16 and independent reverb9 saved with labeling/MIDI inconsistencies. Next check original product brochure revision for dimensions/IO conflicts, or qualify additional exact Shopee hardware leads;do not repeat failed power queries or borrow V-AMP2 ratings.",
     "next_models": [],
     "after_queue": "277partialrecords;continue fullfieldresearch andlosslesslegacyconsolidation;no downloads/workflows/push."
   },
@@ -56825,5 +56825,20 @@
     "seller": "melodiasby",
     "scope": "Bass preset banks19–20 documented p8;guitar primary identity;notvocal",
     "gaps": "Adapter output/current/polarity,battery,editor,display andeffect subtotals;line TSbalanced contradiction preserved;noUSBcapabilitytransferfromUCA222."
+  },
+  "vamp3_effect_inventory_20261017": {
+    "source": "https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf",
+    "pages": "4–5,12–13",
+    "selector_count": 16,
+    "groups": {
+      "delay": 3,
+      "mod_delay": 5,
+      "chorus_comp": 1,
+      "dynamics_filter": 2,
+      "modulation": 5
+    },
+    "reverb": 9,
+    "qualifications": "Positions not arbitrary simultaneous blocks;MIDIwahadditional;EFFECTS/EFFECTSSELECT descriptions swapped vsBasicOperation;standalone/combination modulation MIDIvalues differ.",
+    "power_search": "Manufacturer-domain PSU8/PSU/9V queries no useful result;output/current/polarity remainunknown;no absenceclaim."
   }
 }
