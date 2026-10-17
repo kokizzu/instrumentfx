@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX10B",
-    "task": "AX10B Japanese EFGJ1 adapter identity and NR corroboration saved. Next seek qualified Indonesian AX10B hardware offer; current draw, socket symbol and connector dimensions remain unknown. If no lead, resume Shopee discovery by brand/series without inferring market absence.",
+    "model": "Zoom B1on",
+    "task": "Verify fresh exact Shopee SSMusikSBY item46355631/12733829361: indexed B1on title Rp625000 Habis, but legacy URL slug says Lexus keyboard amplifier; preserve mismatch and unknown condition. Primanada item already recorded, do not duplicate.",
     "next_models": [],
-    "after_queue": "276partialmodels;no downloads/workflows/push;fullscopeincomplete."
+    "after_queue": "Continue Shopee brand/series discovery;276partialmodels;fullscopeincomplete."
   },
   "new_findings": [
     {
@@ -56770,5 +56770,16 @@
     "adapter_source": "https://www.korg.com/jp/products/tuners/pbxsbass/specifications.php",
     "qualification": "KA181 accessory is 9V center-negative; AX10B socket symbol not read. Do not transfer tuner 40mA to AX10B. Draw/connector dimensions remain unknown.",
     "nr": "Japanese p48 FUNCTION+VOLUME(NR) corroborates English footnote; English conflicting parenthetical preserved."
+  },
+  "ax10b_market_recheck_20261017": {
+    "queries": [
+      "Korg AX10B Indonesia jual",
+      "AX10B site:shopee.co.id",
+      "AX10B Rp bass"
+    ],
+    "result": "No qualified exact Indonesian hardware offer surfaced; foreign offers and adapters rejected, not proof of market absence.",
+    "easy_start_wrapper": "https://www.korg.com/us/support/download/manual/1/22/2038/",
+    "easy_start_pdf": "https://cdn.korg.com/us/support/download/files/6d29b2b401333c3fa4b58f256d3b30e4.pdf",
+    "access": "Wrapper identifies AX10B Easy Start Guide; query and bare PDF inaccessible. Filename AX10_Series_EasyStart.pdf suggests shared guide; no content adopted."
   }
 }
