@@ -339,7 +339,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-rp155':
-            message = 'research(digitech): audit RP155 model counts conflicts and looper restrictions'
+            message = 'docs(digitech): repair RP155 manual links with page qualifiers outside references'
         if mode == 'commit-vamp2':
             message = 'research(behringer): correct V-AMP 2 dry routing and count effect selections'
         if mode == 'commit-bass-vamp-pro':
