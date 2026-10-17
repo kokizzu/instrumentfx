@@ -61775,5 +61775,18 @@
     "access": "Manufacturer indexed text; fullPDFtooLarge,no download",
     "limits": "Defaultautosavestate,powerlossrecoveryandlooperretentionunresolved",
     "next": "Seek exact manual looper retention and panel controls; continue fresh Shopee discovery"
+  },
+  "g3n_loop_retention_20261017": {
+    "sources": [
+      "https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf",
+      "https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf"
+    ],
+    "findings": [
+      "Memorymodepreservesloop;patchchangeerases",
+      "Rhythmtempochangeerases;precountandquantization",
+      "1.10looper/rhythmfix;2.00OutputVP;2.20editor/USBfix"
+    ],
+    "limits": "Manufacturerindexedtext;notinstalledfirmwareverification",
+    "next": "G3n physical control inventory and category choices; fresh discovery"
   }
 }
