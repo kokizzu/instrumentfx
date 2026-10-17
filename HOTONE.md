@@ -560,6 +560,18 @@ Checked2026-10-17, original list printed pp55–61. [Source][MP350-E11]. Letter 
 Exact expanded cabinet names are retained in the root ledger. Acoustic IR names were recorded earlier; complete Celestion-name transcription remains open.
 
 
+### MP-350 — complete stock IR inventory, firmware 1.1.0-JP
+
+Checked 2026-10-17, original list printed pp60–61. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / Celestion IR | **20 mono entries**: Blue 1x12 Close; Blue 1x12 Open; G12H-C 1x12 Close; G12H-C 1x12 Open; Blue 2x12 Close; Blue 2x12 Open; G12H-A 2x12 Close; G12H-A 2x12 Open; G12H-C 2x12 Close; G12H-C 2x12 Open; G12M-C 2x12 Close; G12M-C 2x12 Open; Green 2x12; V30 2x12; G12-65 4x12; G12H-A 4x12; G12H-C 4x12; G12M-C 4x12; Green 4x12; V30 4x12. Close/Open identify separate cabinet-back variants, not microphone-distance positions. |
+| IR / stock versus user memory | Together with the ten acoustic IRs already named above, this revision lists **30 stock IR models plus 50 user locations**. User locations are not another 50 supplied stock sounds. IR models remain separate from the 68 CAB models and proprietary Tone Catch/Sound Clone captures; these counts do not establish simultaneous capacity or current installed contents. |
+
+This completes the older stock IR name transcription requested above. Later firmware retention and complete AMP, PRE AMP, MOD, DLY and RVB inventories remain open.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

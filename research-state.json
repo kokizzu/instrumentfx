@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "Transcribe20CelestionIR names; AMP/PRE AMP/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh discovery",
+    "task": "AMP/PRE AMP/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62500,5 +62500,37 @@
     },
     "limits": "All CAB mono; mic modes not additional cabinets; slots not stock algorithms or concurrency; current retention unverified",
     "next": "Transcribe20CelestionIR names; AMP/PRE AMP/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh discovery"
+  },
+  "mp350_celestion_ir_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed60–61",
+    "names": [
+      "Blue 1x12 Close",
+      "Blue 1x12 Open",
+      "G12H-C 1x12 Close",
+      "G12H-C 1x12 Open",
+      "Blue 2x12 Close",
+      "Blue 2x12 Open",
+      "G12H-A 2x12 Close",
+      "G12H-A 2x12 Open",
+      "G12H-C 2x12 Close",
+      "G12H-C 2x12 Open",
+      "G12M-C 2x12 Close",
+      "G12M-C 2x12 Open",
+      "Green 2x12",
+      "V30 2x12",
+      "G12-65 4x12",
+      "G12H-A 4x12",
+      "G12H-C 4x12",
+      "G12M-C 4x12",
+      "Green 4x12",
+      "V30 4x12"
+    ],
+    "celestion_count": 20,
+    "acoustic_count": 10,
+    "derived_stock_ir_count": 30,
+    "user_locations": 50,
+    "limits": "Mono IRs; Close/Open refer cabinet-back construction; separate from CAB and proprietary captures; not simultaneous/current-installed totals",
+    "next": "AMP/PRE AMP/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery"
   }
 }
