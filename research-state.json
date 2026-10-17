@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "VX5 ownmanual/updatePDFaudit saved;do not repeat. Broaden bass/vocal andguitarseries discovery with exacthardwareoffers;check205inventory before addition.",
-    "next_models": [],
-    "after_queue": "Legacyconsolidation incomplete;no downloads/workflows."
+    "model": "Line 6 Helix Floor",
+    "task": "VerifyexactShopee37016589/24212177775 and397175630/27006529188,thenownmanufacturer/manual. Not yet inventory;do not borrowLTspecs. SaveeachmodelbeforeStadiumXL.",
+    "next_models": [
+      "Line 6 Helix Stadium XL Floor"
+    ],
+    "after_queue": "Bassdiscoveryqueries savedwithrejectedaccessories/mixedvariants;broadenremainingseries thenlegacyconsolidation. No downloads/workflows."
   },
   "new_findings": [
     {
@@ -50558,5 +50560,77 @@
       }
     ],
     "rejected_searches": "GT10B/B2.1u initialexactqueries returned accessories oralreadyrecordedB2FOUR. VoiceLiveTouch query noexactnewlead."
+  },
+  "discovery_helix_floor_20261017": {
+    "checked_date": "2026-10-17",
+    "status": "Discovery only;not added to active inventory;manufacturer research pending",
+    "queries": [
+      "StompLab1B",
+      "originalB1X",
+      "GT6B",
+      "B2.1u",
+      "M13",
+      "B9",
+      "ME50B",
+      "HelixFloor"
+    ],
+    "rejected_or_deferred": [
+      {
+        "model": "B2.1u",
+        "url": "https://shopee.co.id/hopemusik",
+        "reason": "Shop body mixedG2.1Nu/G2.1u/B2.1u;1699000not assignableto exactvariant;finditem first."
+      },
+      {
+        "model": "B1XNext",
+        "url": "https://shopee.co.id/hopemusik",
+        "reason": "MixedG1xNext/B1xNext999000shopbody;exactitem/variant unresolved."
+      },
+      {
+        "model": "M13",
+        "url": "https://shopee.co.id/replacement-power-supply-9V-2000mA-Line-6-Adaptor-Penganti-Line6-POD-9VAC-M13-Pedal-AC-9-V-9-Vac-2A-i.216990724.6861766207",
+        "reason": "144200replacementpoweradapter,notprocessor."
+      },
+      {
+        "model": "StompLab1G",
+        "url": "https://shopee.co.id/chainoftones",
+        "reason": "Alreadyrecordedguitar1G;genericbasssellerwording not primarybasscapability."
+      }
+    ],
+    "offers": [
+      {
+        "model": "Helix Floor",
+        "url": "https://shopee.co.id/Yamaha-LINE-6-HELIX-Floor-Yamaha-LINE-6-HELIX-LINE-6-HELIX-Floor-i.37016589.24212177775",
+        "price_idr": 28999000,
+        "seller": "W Musik Official Shop",
+        "region": "JakartaUtara",
+        "qualification": "4monthindex;June3delivery;conditionvariantbundlewarrantystockunknown;directnotchecked."
+      },
+      {
+        "model": "Helix Floor",
+        "url": "https://shopee.co.id/Line-6-Helix-Floor-i.397175630.27006529188",
+        "price_idr": 19850000,
+        "seller": "SMOSYU MUSIC",
+        "region": "Bekasi",
+        "stock": "Habis",
+        "qualification": "Lastmonthindex;conditionunknown;notliveavailability/usedprice;directnotchecked."
+      },
+      {
+        "model": "Helix Floor Platinum",
+        "url": "https://shopee.co.id/Line-6-Helix-Floor-Platinum-Limitide-Edition-Helix-Effect-Guitar-Bass-i.605621869.47400474099",
+        "price_idr": 25000000,
+        "seller": "MR.GUITAR INDONESIA",
+        "region": "Depok",
+        "stock": "Habis",
+        "qualification": "2monthindex;August12delivery;finish/variant distinctionpending;do notcountasnewhardwarewithoutprimaryevidence."
+      },
+      {
+        "model": "Helix Stadium XL Floor",
+        "url": "https://shopee.co.id/LINE-6-HELIX-STADIUM-XL-FLOOR-LINE-6-HELIX-STADIUM-XL-FLOOR-i.440477624.53707848703",
+        "price_idr": 41220000,
+        "seller": "ROCKPIZZ MUSIC",
+        "region": "Denpasar",
+        "qualification": "3monthindex;July6delivery;conditionstockbundlevariantunknown;distinctfromoriginalFloorandLT;directnotchecked."
+      }
+    ]
   }
 }
