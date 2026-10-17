@@ -2984,6 +2984,15 @@ Checked2026-10-18; documentation inspected only, no software downloaded or execu
 [MS3-A]: https://www.boss.info/global/support/by_product/ms-3/updates_drivers/353f2058-1c07-4fb2-912d-1ec0a46d5516/
 [MS3-F]: https://www.boss.info/global/support/by_product/ms-3/updates_drivers/1e7da100-b8d6-40dd-8656-c1ee5d716abf/
 
+### Dated macOS compatibility follow-up
+
+| Field | Finding / qualification |
+|---|---|
+| Editor / macOS compatibility | BOSS chart, updated **2026-09-16**, checked2026-10-18: exact **MS-3 Exclusive Application** row marks **macOS26 Tahoe and15 Sequoia Yes(Download)**; chart's **macOS27 Golden Gate** column remains **Under Testing**. These are manufacturer-published dated statuses, not locally tested operation or inferred future support. [MS3-C] |
+| USB / macOS driver | Same chart separately gives **MS-3 Hardware & Driver** the same26/15 supported-download and27 testing statuses. Driver status does not establish USB audio, bus powering, editor architecture or every CPU variant. The chart's inspected row has no CPU-specific qualification. [MS3-C] |
+
+[MS3-C]: https://www.boss.info/global/support/support_news/25090811m1/
+
 [MS3-P]: https://www.boss.info/global/products/ms-3/
 [MS3-M]: https://static.roland.com/assets/media/pdf/MS-3_eng02_W.pdf
 [MS3-G]: https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf

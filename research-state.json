@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS MS-3",
-    "task": "Continue MS-3 nested subtype reconciliation against112, supply voltage/polarity and exact Mac compatibility chart; editor and firmware qualifications saved.",
+    "task": "Continue MS-3 nested subtype reconciliation against112 and supply voltage/polarity; dated exact Mac editor and driver chart now saved.",
     "next_models": [],
     "after_queue": "327 active; technical, market, ownership and legacy migration incomplete. No downloads/workflows/push."
   },
@@ -65853,5 +65853,20 @@
       "https://www.boss.info/global/support/by_product/ms-3/updates_drivers/353f2058-1c07-4fb2-912d-1ec0a46d5516/",
       "https://www.boss.info/global/support/by_product/ms-3/updates_drivers/1e7da100-b8d6-40dd-8656-c1ee5d716abf/"
     ]
+  },
+  "ms3_mac_chart_20261018": {
+    "source": "https://www.boss.info/global/support/support_news/25090811m1/",
+    "published_update": "2026-09-16",
+    "exclusive_application": {
+      "macOS26": "Yes(Download)",
+      "macOS15": "Yes(Download)",
+      "macOS27": "Under Testing"
+    },
+    "hardware_driver": {
+      "macOS26": "Yes(Download)",
+      "macOS15": "Yes(Download)",
+      "macOS27": "Under Testing"
+    },
+    "qualification": "Dated manufacturer chart; no local runtime or CPU-specific verification."
   }
 }
