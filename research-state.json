@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS MS-3",
-    "task": "Continue MS-3 nested subtype reconciliation against112 and supply/software verification; category/routing follow-up saved.",
+    "task": "Continue MS-3 nested subtype reconciliation against112, supply voltage/polarity and exact Mac compatibility chart; editor and firmware qualifications saved.",
     "next_models": [],
     "after_queue": "327 active; technical, market, ownership and legacy migration incomplete. No downloads/workflows/push."
   },
@@ -65842,6 +65842,16 @@
       "WARP",
       "FEEDBACKER",
       "SUB DELAY"
+    ]
+  },
+  "ms3_software_followup_20261018": {
+    "windows": "Editor1.0.3 Windows7/8.1/10/11, driver and Adobe AIR required.",
+    "mac": "Editor1.0.3 firmware>=1.07, matching driver; exact OS chart pending.",
+    "firmware": "1.21 June2025 MIDI CC fix;1.20 November2024 Auto Off20min versus10h.",
+    "sources": [
+      "https://www.boss.info/global/support/by_product/ms-3/updates_drivers/3f8b71ac-b4e9-4c15-a45d-e3dab2c8aa73/",
+      "https://www.boss.info/global/support/by_product/ms-3/updates_drivers/353f2058-1c07-4fb2-912d-1ec0a46d5516/",
+      "https://www.boss.info/global/support/by_product/ms-3/updates_drivers/1e7da100-b8d6-40dd-8656-c1ee5d716abf/"
     ]
   }
 }

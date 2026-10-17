@@ -2969,6 +2969,21 @@ Effects-only guitar/bass multi-effects with loop switching, checked2026-10-18; p
 | Processing / reverb choices | Guide pp23–24: **8**: Ambience,Room,Hall1,Hall2,Plate,Spring,Modulate,Delay. [MS3-G] |
 | Routing / limitations | Guide p4: L1–3 cannot move; FX1/FX2/MOD1/MOD2/DLY/REV/NS/FV can move around them. MST/PATCH LVL/OUTPUT/CTL cannot move. Mono processing or a loop after stereo processing loses that stereo effect. [MS3-G] |
 
+### Editor and firmware qualifications
+
+Checked2026-10-18; documentation inspected only, no software downloaded or executed.
+
+| Field | Finding / qualification |
+|---|---|
+| Editor / Windows | Editor/Librarian **1.0.3**, March2019: published OS list **Windows7/8.1/10/11**, Core2Duo+,1GB RAM,1024×768+. Requires product driver and Adobe AIR; page pairs editor with MS-3 firmware1.07. This is published compatibility, not a local runtime test. [MS3-W] |
+| Editor / macOS | Editor/Librarian **1.0.3** requires MS-3 **1.07 or later**, matching USB driver and data-capable USB cable. Exact supported macOS versions are delegated to BOSS's separate compatibility chart and remain pending; Macs running Windows unsupported. [MS3-A] |
+| Firmware / software | Listed system program **1.21,June2025**, paired with editor1.0.3; fixes incorrect transmitted MIDI CC values. Version1.08 fixed external EXP values at startup;1.04 corrected B.HARMONIST pitch for open low B0. No update performed. [MS3-F] |
+| Routing / Auto Off | Firmware **1.20,November2024** changed Auto Off from **10 hours to20 minutes**; retain revision distinction when consulting the2017 manual. Version1.10 was management-only with no specification change. [MS3-F] |
+
+[MS3-W]: https://www.boss.info/global/support/by_product/ms-3/updates_drivers/3f8b71ac-b4e9-4c15-a45d-e3dab2c8aa73/
+[MS3-A]: https://www.boss.info/global/support/by_product/ms-3/updates_drivers/353f2058-1c07-4fb2-912d-1ec0a46d5516/
+[MS3-F]: https://www.boss.info/global/support/by_product/ms-3/updates_drivers/1e7da100-b8d6-40dd-8656-c1ee5d716abf/
+
 [MS3-P]: https://www.boss.info/global/products/ms-3/
 [MS3-M]: https://static.roland.com/assets/media/pdf/MS-3_eng02_W.pdf
 [MS3-G]: https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf
