@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer Bass V-AMP",
-    "task": "Bass V-AMP latency and SysEx backup verified;unit-side power stillunresolved. Next fresh bass/vocal exact-hardware discovery;avoid repeating existing Bass V-AMP/B2 FOUR offers.",
+    "model": "Zoom V3",
+    "task": "16voice-effect names and additional PCdada offer saved. Next resolve V3 body dimensions/power/current from own spec source,or fresh bass/vocal discovery. Do notduplicate LangitLofi alreadyinZOOM.md.",
     "next_models": [],
     "after_queue": "290partialmodels;no downloads/workflows/push."
   },
@@ -41412,7 +41412,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer Bass V-AMP."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom V3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58252,6 +58252,40 @@
     "conversion": "24bit,31.250kHzinternal",
     "backup": "Full-memorydump to sequencer;receive overwritespresets. Singlepresettemporarybuffer requires save. OUT vs THRU distinct.",
     "power_search": "Manufacturer indexed manuals still list regional mains/external supply;unit-side voltage/current/pinout unestablished;no sibling substitution",
+    "downloads": false
+  },
+  "v3_choices_offer_20261017": {
+    "source": "https://zoomcorp.com/documents/1332/E_V3_2.pdf",
+    "identity": "2021 Z2I-3982-02 pp10–12",
+    "effects": [
+      "Harmony",
+      "TalkBox",
+      "Vocoder",
+      "PitchCorrectKey",
+      "Octave",
+      "Unison",
+      "Whistle",
+      "PitchCorrectChromatic",
+      "Distortion",
+      "Telephone",
+      "BeatBox",
+      "Chorus",
+      "Deep",
+      "Robot",
+      "Child",
+      "FormantCharacter"
+    ],
+    "offer": {
+      "url": "https://shopee.co.id/%E2%9C%85-ZOOM-V3-Multi-Effects-Vocal-Processor-USB-2.0-audio-interface-reverb-effect-For-Karaoke-Streaming-Recording-Collaborating-Online-i.1003923494.23777502918",
+      "seller": "PCdada",
+      "region": "KotaJakartaBarat",
+      "idr": 8236631,
+      "access": "5month index;directcachemiss",
+      "condition": "unknown",
+      "stock": "unverified",
+      "bundle": "unknown"
+    },
+    "discovery": "VoiceLiveTouch/VocalistLive/VE200 searches no newexact model;VocalistLive result16626959/4486100964adapter excluded. V3LangitLofi alreadyrootrecorded even ifledger searchmisses.",
     "downloads": false
   }
 }

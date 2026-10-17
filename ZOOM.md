@@ -1033,6 +1033,20 @@ Checked2026-10-16 using exact hardware pages; cached bodies differ from search s
 
 No Malaysian RM listings or noisy accessory/search-page prices used as IDR hardware evidence. Exact owned Zoom vocal model/bundle remains unresolved; this profile does not establish ownership.
 
+### V3 — complete voice-effect choices,2026-10-17
+
+| Field | Verified choices / qualification |
+|---|---|
+| Processing / voice effects | [2021 original manual,Z2I-3982-02,pp10–11][V3-M] lists **16** alternatives:Harmony,TalkBox,Vocoder,PitchCorrectKey,Octave,Unison,Whistle,PitchCorrectChromatic,Distortion,Telephone,BeatBox,Chorus,Deep,Robot,Child,FormantCharacter. These are selected alternatives alongside delay/reverb,not16simultaneous blocks. |
+| Harmony / pitch behavior | P12:Higher andHigh follow diatonic fifth/third-type intervals;Low/Lower descend correspondingly;Fixed holds the selected key note. Each harmony has high/medium/low/off levels;at mosttwo active. Chromatic correction follows semitones without needing a song key;key-based correction follows the selected key. |
+
+### V3 — additional exact IDR offer,2026-10-17
+
+| Price class | Amount | Offer / limits |
+|---|---:|---|
+| Condition-unverified indexed ask | Rp8,236,631 | [PCdada,shop1003923494/item23777502918](https://shopee.co.id/%E2%9C%85-ZOOM-V3-Multi-Effects-Vocal-Processor-USB-2.0-audio-interface-reverb-effect-For-Karaoke-Streaming-Recording-Collaborating-Online-i.1003923494.23777502918),KotaJakartaBarat. Five-month search cache;direct retrieval cache miss. Used/new condition,live stock,selected variant,bundle,adapter,warranty,voucher,shipping/tax anddelivered total unknown. Not a condition-qualified new/used price orcompleted sale. |
+
+
 ## V6-SP
 
 Vocal multi-effects with built-in formant pedal. Consolidated/researched2026-10-16; partial verification. Earlier V6 microphone bundle is not the current SP package.
