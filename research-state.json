@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1on",
-    "task": "Second B1on sold-out ask saved with title/URL mismatch and unknown condition. Next verify B1on physical control counts from exact manufacturer manual or resume Shopee brand/series discovery; no duplicate Primanada/SSMusikSBY offers.",
+    "task": "B1on save/update/tuner details and logical panel-key inventory saved;physical counts remain unresolved without inspectable diagram. Next resume Shopee brand/series discovery for eligible unrecorded models;do not repeat failed image retrieval or duplicate recorded B1on offers.",
     "next_models": [],
     "after_queue": "Continue Shopee brand/series discovery;276partialmodels;fullscopeincomplete."
   },
@@ -56793,5 +56793,13 @@
     "condition": "unknown",
     "access": "Opened body crawl4weeks;searchindex3months;both title Zoom B1on but URLslug Lexus keyboardamp. Photos notinspected.",
     "qualifications": "Variation/bundle/adapter/warranty/voucher/shipping/tax unknown;not usedprice orcurrentstock;stale September delivery not guarantee."
+  },
+  "b1on_manual_operation_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf",
+    "pages": "4,11,18–21,29",
+    "controls": "8 named panel key functions;not verified separate physical buttons;no inspectable screenshot image",
+    "memory": "Auto Save defaults ON;OFF prompts save/discard;unsaved patch cannot swap;firmware retains patches while All INITIALIZE restores defaults",
+    "tuner": "435–445Hz;chromatic/bass including5/6strings;flat1–3semitones onlybass",
+    "format_fix": "Removed blank line splitting second IDR row from table."
   }
 }
