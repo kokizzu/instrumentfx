@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Black Truck",
-    "task": "Root guitar record added;next detailed controls/SPACE and complete connections from own-model manual. Preserve on/off-only preset limit and axis-label inconsistency. Commit before next model.",
+    "task": "Black Truck controls/SPACE/tap mappings and PHONES connector conflict saved. Next reconcile preset COMP/FX-loop scope and full control totals from own documentation;preserve English/Chinese differences before deferral.",
     "next_models": [],
     "after_queue": "Preserve prior gaps and migration limits;no downloads/workflows/push."
   },
@@ -55512,5 +55512,11 @@
       "Currentcondition-specificprices",
       "Bassvocal"
     ]
+  },
+  "blacktruck_controls_checkpoint_20261017": {
+    "source": "https://manualzz.com/doc/68316423/mooer-black-truck-combined-pedals-owner-s-manual",
+    "saved": "COMPtoggle/5frequency+levelsliders,SPACEfivecontrols,taptargetswitchcombinationsandmutedtuner.",
+    "conflict": "PHONESconnectionprosequarterinchversusmanualspec/producteighthinch;physicalunverified.",
+    "remaining": "Fullrotary/buttoninventory;presetCOMP/FXloopstaterecallscope;officialmanualrevision;powerdrawbarrelbatteryUSB;IRimport/editorOS;pricescondition;dimensionaxes."
   }
 }

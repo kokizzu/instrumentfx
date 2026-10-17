@@ -1491,9 +1491,13 @@ Checked 2026-10-17; partial. Guitar multi-effects;ownership,bass/vocal suitabili
 | K/F/B | **6 footswitches**:TAP plus1–5;rotary/button totals pending. EQ sliders and selectors counted separately. [Manual layout][BT-M] |
 | Display | Mode/tuner display;published diagonal,color/touch unverified. [Manual layout][BT-M] |
 | Processing / categories | **6 sections**:COMP,OD,HI-GAIN,EQ,MOD,SPACE. Analog dynamics/drive/EQ plus digital MOD/SPACE. MOD selects tremolo/phaser/flanger. SPACE selects delay,reverb,or both. Full simultaneous accounting pending. [Manual][BT-M] |
+| Controls / compressor and EQ | COMP has its own on/off toggle;VOL/EQ/COMP controls. Graphic EQ has **5 frequency sliders plus level**,±18dB;PRE/POST changes placement relative to HI-GAIN. These sliders/toggles are not extra rotary knobs or footswitches. [Manual effect modules][BT-M] |
+| Controls / SPACE | MIX/DECAY adjust reverb;LEVEL/FEEDBACK/TIME adjust delay. DLY/REV/DLY+REV selector;numeric time/decay limits unverified. [Manual effect modules][BT-M] |
+| Live / tap targets | Switches1+2 select delay-only tap/red;2+3 MOD-only/blue;3+4 both/purple,the default. TAP held enters muted tuner;one TAP exits. These are control combinations,not extra effect blocks. [Manual Tap Tempo][BT-M] |
 | Preset memory | **5 recallable presets store module on/off only;effect parameters cannot be saved**. Factory-filled subset unresolved. [Manual operation][BT-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
 | I/O | Quarter-inch input,2quarter-inch outputs,serial SEND/RETURN,3.5mm speaker-simulated direct/headphone output with independent level,DC. Balancing unresolved. [Product][BT-P]; [Manual][BT-M] |
+| I/O / PHONES conflict | Connection prose says mono/stereo **¼-inch** PHONES cable;manual specifications and own product say **⅛-inch stereo**. Preserve discrepancy;physical corroboration pending. Own manual supports simultaneous cab-simulated and main outputs,with separate direct level. [Manual connections/specifications][BT-M]; [Product][BT-P] |
 | Power / battery / USB | **9VDC1A supply**,negative-inside wording;actual draw,barrel size,battery/USB operation unresolved. [Product][BT-P] |
 | Dimensions / mass | **370D×96W×51Hmm;1.23kg**,as officially labelled. Axis inconsistency not silently normalized;size bin unresolved. [Product][BT-P] |
 | IR / NAM / capture | Own Chinese product describes IR-based headphone cabinet simulation;user IR/native/converted NAM/capture import unverified. [Chinese product][BT-CN] |
