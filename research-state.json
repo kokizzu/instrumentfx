@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Color touch/update sequence and exact sold-out IDR offer saved. Continue readable official manual/specifications for body/controls/bass evidence;do not infer diagonal from seller title.",
+    "task": "Matribox II Pro regional body/concurrency/electrical specs and converted NAM A2 saved. Continue controls/screen/bass evidence and MIDI contradiction,or fresh discovery;do not repeat resolved fields.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee brand/series discovery and unresolved technical verification;no downloads,workflows orpush."
   },
@@ -60413,5 +60413,19 @@
     ],
     "manual_access": "Current manufacturer firmware1.2.2 PDF38.6MB exceeds reader limit;no download or technical claims inferred.",
     "remaining": "Dimensions,mass,diagonal,controls,bass-specific evidence,full connector/power/algorithm inventory,NAM limits and qualified used/new offers."
+  },
+  "matribox_ii_pro_regional_specs_20261017": {
+    "sources": [
+      "https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro",
+      "https://www.hotone.jp/announcements/nama2allbrand"
+    ],
+    "findings": [
+      "373W198.5D72Hmm2.5kg;12simultaneous modules",
+      "24ADDA44.1k110dBdynamicrange;electrical impedances and connector notation retained",
+      "DC9V1000mA requirement;polarity unresolved",
+      "NAM A2 conversion via editor1.3.1+ per2026-08-18 regional notice"
+    ],
+    "conflicts": "Regional MIDI IN/OUT/THRU vs global FAQ no MIDI out;unbalanced quarterinch TRS notation retained without correction.",
+    "remaining": "Screen diagonal/resolution,rotary/button/toe inventory,polarity,batteryUSBpower,bass evidence,NAM accepted architectures and category subcounts."
   }
 }
