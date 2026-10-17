@@ -1390,6 +1390,10 @@ Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only fea
 | Synth / acoustic | Dedicated synth/acoustic simulation and documented bass suitability unverified. |
 | I/O | GuitarIn,CD/MP3,¼inch unbalanced outs,XLR balanced outs,phones,L6LINK,USB,power. Remaining socket sizes/channel details pending. [Manual][HD300-M] |
 | I/O / routing | Studio cab/mic simulation;Live guitar-amp use;Dual left direct/right studio-simulated. XLR groundlift;unbalanced AMP/LINE switch. L6LINK carries audio/control. [Manual][HD300-M] |
+| I/O / advanced USB restrictions | Flash2.0+ shared guide applies to HD300 unless explicitly excepted. **24-bit;native48kHz**,converted44.1/88.2/96kHz. Stereo1–2 MainOut recording send is processed;computer playback mixes with direct monitoring to analog outputs. **All USB audio mutes while L6LINK is active**. Dry USB recording not established. [Advanced guide][HD300-A] |
+| Editor / historical audio driver | Line6 USB driver required by reviewed2012guide;MacCoreAudio,WindowsASIO/DirectSound. Driver5.7.0 drops MacOSX10.4;earlier5.1.2 supported it. Historical compatibility is not currentOS support. Editor/updater remain separate from driver. [Advanced guide][HD300-A] |
+| Looper / hold-Tap distinction | 24s **mono** looper. In Looper mode holdTap clears audio and stops playback/recording;it does not open tuner. Switch to Preset/PedalOnOff first for holdTap tuner. [Advanced guide][HD300-A] |
+| I/O / model distinction | External FX loop is explicitly **HD400 only** in shared guide;do not assign one to HD300. [Advanced guide][HD300-A] |
 | Power / battery / USB | Supplied Line6 power supply;unplug turns off. Voltage/current/polarity/battery/USBpower unverified. [Manual][HD300-M] |
 | Dimensions / mass | Unverified. |
 | IR / NAM / capture | Import/capture support unverified. |
@@ -1410,3 +1414,5 @@ Historical indexed asks checked2026-10-17,not livecheckout. Conditions,stock,bun
 [HD300-M]: https://line6.com/data/6/0a060b316ac34f05937e126fa/application/pdf/POD%20HD300%20Quick%20Start%20Guide%20-%20English%20%28%20Rev%20C%20%29.pdf
 [HD300-O1]: https://shopee.co.id/Line6-POD-HD300-Digital-Multy-Effect-Guitar-i.504301607.29822606720
 [HD300-O2]: https://shopee.co.id/Efek-Gitar-Line6-POD-HD300-HD400-HD500-HD500X-i.703817770.24703618953
+
+[HD300-A]: https://l6c-acdn.line6.net/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf

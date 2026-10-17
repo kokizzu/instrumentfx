@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD300",
-    "task": "Own RevC canonical record saved;next verify advanced-guide HD300-specific controls/IO/power/size and exact categories;retain bass support and firmware distinctions,unqualified historical prices.",
+    "task": "Advanced Flash2.0+ HD300 USB restrictions,historicaldrivers,mono looper and HD400-only FXloop distinction saved. Next exact HD300 algorithm inventories and physical/control specifications;retain unknown bassproof and prices.",
     "next_models": [],
     "after_queue": "Fresh discovery;273records partial;legacyZoomleadsunqualified;no downloads/workflows/push."
   },
@@ -56316,5 +56316,12 @@
     "revision": "RevC",
     "scope": "9pagesbrowsertextread;corecontrols/memory/routing/software/looper. No download.",
     "remaining": "Full control counts,physical/electricalspecs,algorithms,firmwarerestrictions,bassproof,qualifiedprices"
+  },
+  "hd300_advanced_checkpoint_20261017": {
+    "source": "https://l6c-acdn.line6.net/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf",
+    "identity": "Own shared HD300/HD400 guide2012 Flash2.0+,bothunlessnoted;not HD400-only borrowing",
+    "reviewed": "scope,p1-1;USB8-1…8-7;Looper7-1…7-2;FXloopHD400-only",
+    "saved": "24bit48knative/rateconversion,processedstereosend,USBmutedL6Link,historicaldriverlimits,monolooperholdTapclear",
+    "remaining": "Controlcounts,power/size,exactalgorithms,firmwarebassproof,qualifiedprices"
   }
 }
