@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 294,
+  "active_model_count": 295,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 294,
+  "canonical_root_model_count": 295,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "294 unique active/root-canonical;0 legacy-only;32 brands;6 excluded;all partial. Zoom1201 added as shared guitar/bass/vocal processor with required preamplification.",
+  "count_reconciliation": "295 unique active/root-canonical;0legacy-only;32brands;6excluded;allpartial. RFX-2200 separate guitar/vocal rack processor;regional mains andupstreamguitareffect qualified; bassunresolved.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom1201",
-    "task": "1201 all33selector types bybank,11variations each,3parallel slashpairs,stereokaraoke and44.1kHz18bit conversion saved. Next fresh Shopee discovery other exactmodels;do not repeat1201 bank extraction. Pluspairtopology/parameterranges/polarity/display/userstorage/imports/editor/conditionqualifiedoffers remain.",
+    "model": "Zoom RFX-2200",
+    "task": "Separate RFX-2200 profile added fromownmanual andexact1.5mHabisoffer. Next ownmanual factorypatchlist/category/routing audit; regionalmains/cardinality/USB-headphone gaps retained. Basssupport unresolved;no siblingborrow/downloads.",
     "next_models": [],
-    "after_queue": "Continue research and legacy consolidation;no workflows/downloads/push."
+    "after_queue": "Continue Shopee discovery andlegacy consolidation;no workflows/downloads/push."
   },
   "new_findings": [
     {
@@ -5107,6 +5107,26 @@
         "Writablememory",
         "Imports/editor",
         "Conditionandstock"
+      ]
+    },
+    {
+      "model": "Zoom RFX-2200",
+      "path": "ZOOM.md#rfx-2200",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_RFX2200.pdf",
+        "https://shopee.co.id/effect-vokal-efx-ZOOM-RFX-2200-i.702867530.25565866901"
+      ],
+      "finding": "48types,100writablepatches,8/0/10textcontrols,mic/line/S-PDIF/MIDI,mainsregions;exact1.5mHabisconditionunknownoffer.",
+      "remaining": [
+        "Fullcategory/routing",
+        "Factoryfill",
+        "Display",
+        "MIDIexpression",
+        "Currentdraw",
+        "Imports/editor",
+        "Condition/stock"
       ]
     }
   ],
@@ -23982,7 +24002,8 @@
       "MS-80IR Plus",
       "G1Xnext",
       "GFX-707",
-      "1201"
+      "1201",
+      "RFX-2200"
     ],
     "DigiTech": [
       "RP360XP",
@@ -24196,7 +24217,8 @@
       "MS-80IR Plus",
       "G1Xnext",
       "GFX-707",
-      "1201"
+      "1201",
+      "RFX-2200"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -24417,7 +24439,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 243,
+      "record_count": 244,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24429,9 +24451,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 59,
+      "record_count": 60,
       "vocal_only_count": 23,
-      "combined_instrument_count": 36,
+      "combined_instrument_count": 37,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41389,13 +41411,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 294,
-    "canonical_root_models": 294,
+    "unique_brand_model_pairs": 295,
+    "canonical_root_models": 295,
     "legacy_only_models": 0,
-    "guitar_view_models": 243,
+    "guitar_view_models": 244,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 59,
+    "vocal_view_models": 60,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41452,7 +41474,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom1201."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom RFX-2200."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41650,6 +41672,7 @@
       "Zoom::G1Xnext",
       "Zoom::GFX-707",
       "Zoom::1201",
+      "Zoom::RFX-2200",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -41859,6 +41882,7 @@
       "Zoom::RFX-2000",
       "Zoom::RFX-1000",
       "Zoom::1201",
+      "Zoom::RFX-2200",
       "DigiTech::GNX4",
       "Behringer::FX2000",
       "Lexicon::MX200",
@@ -43820,6 +43844,13 @@
     },
     "Zoom::1201": {
       "link": "ZOOM.md#1201",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::RFX-2200": {
+      "link": "ZOOM.md#rfx-2200",
       "source_files": [
         "ZOOM.md"
       ],

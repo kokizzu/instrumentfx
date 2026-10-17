@@ -2781,3 +2781,38 @@ No confirmed used/new split. Working state,adapter/bundle,authenticity,warranty,
 | Controls / parameter scope | ADJUST controls reverb time inA and one effect-dependent parameter inB/C. The documented363 patterns are selection combinations,not363 freely editable user memories. Exact parameter ranges/user-save support remain unresolved. |
 
 Earlier per-family inventory gap is resolved at the33selector-type level. Polarity,display,user-storage/import/editor scope and condition-qualified availability remain open.
+
+## RFX-2200
+
+Checked2026-10-17;partial. Separate discontinued rack multi-effects,notRFX-2000. [Manufacturer][R2200-P]. Ownership unverified;guitar/vocal classification from ownmanual,not marketplace title. Bass suitability unresolved.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | No built-in pedal;FS01 bypass supported. Dedicated EXP absent from connector inventory;MIDI expression mapping/toe unverified. |
+| K/F/B | **8 rotary /0 onboard footswitches /10 buttons** derived from numbered manual inventory;**2 switches** MIC ON/OFF,POWER separately. Includes EFFECT TYPE selector and4EDIT knobs. [pp2–3][R2200-M] |
+| Display | Patch/parameter display;diagonal,color/touch unverified. |
+| Processing / categories | **48 types=6banks×8**;reverb121settings. Full per-category inventory and simultaneous ceiling pending;fixed multi-effect combinations are documented. [p1][R2200-M] |
+| Preset memory | **100 writable patches**;factory-fill allocation pending. MIDI patch switching/parameter control/data backup documented. [p1][R2200-M] |
+| Synth / acoustic | Vocoder uses microphone as envelope/control source. Independent synth/acoustic simulation unverified. [p2][R2200-M] |
+| I/O | Front XLR/phone combo mic;2mono phone line inputs;2mono phone outputs;optical/coaxial S/PDIF;FS01;MIDI IN/OUT/THRU;power cord. Headphone/USB absent from listed inventory. [pp2–3,25][R2200-M] |
+| I/O / input boundary | Guitar connection uses upstream guitar effect;rear inputs expect line level. Front mic normally mixes with rear input. Phantom unverified. [pp2–4][R2200-M] |
+| Digital output | Optical/coaxial can run together;analog OUTPUT control does not change digital output. [p3][R2200-M] |
+| Dimensions / mass | **482W×115D×44Hmm;2.0kg**. [p25][R2200-M] |
+| Power / battery / USB | Regional **100–120VAC or220–240VAC,50/60Hz**,check rear label. Draw,battery operation unverified;DC polarity not applicable to documented mains input. [p27][R2200-M] |
+| IR / NAM / capture | User IR,native/converted NAM,proprietary capture loading unverified. |
+| Editor / platforms | MIDI data backup is not verified full-editor support. Editor/driver/updater OS unverified. |
+| Live / extras | Tap tempo;COMPARE for edited/original sound. Looper,drums,trails and scene facilities unverified. |
+
+Original English manual identity/numbered controls were read as browser text;not a visual census. Detailed algorithm/routing and factory patch-list audit remain;no sibling specifications borrowed.
+
+### Separate IDR hardware evidence
+
+| Condition / availability | IDR ask and limitations | Source |
+|---|---|---|
+| Condition unverified;**Habis** | **Rp1.500.000**;Bima Musik Wonosobo Store,shop702867530/item25565866901,Kab.Wonosobo. Search last-month crawl retains31August delivery;opened last-week crawl retains7October. Both dates stale at2026-10-17. | [Exact item][R2200-O] |
+
+No confirmed used/new split. Functionality,regional mains version,cord/bundle,authenticity,warranty,shipping/tax,voucher and checkout stock unresolved. Late-delivery compensation is not a hardware discount. Cached sold-out ask is not a completed sale.
+
+[R2200-P]: https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2200
+[R2200-M]: https://zoomcorp.com/media/documents/E_RFX2200.pdf
+[R2200-O]: https://shopee.co.id/effect-vokal-efx-ZOOM-RFX-2200-i.702867530.25565866901
