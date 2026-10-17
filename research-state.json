@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 M9",
-    "task": "M9 lifecycle, stereo-routing definitions and Monkey support limits saved. Next inspect own Advanced Guide Appendix A for exact MIDI controls/looper ranges and expression assignment restrictions; per-effect routing DOC not downloaded. Keep mono28/56 versus FAQ30/60 looper conflict unresolved.",
+    "task": "Exact MIDI ranges and SysEx persistence saved. Next verify expression parameter endpoints and per-unit versus per-scene assignments in own Advanced Guide3•3; assess remaining display and power unknowns without sibling transfer. Keep existing looper conflicts. Then resume unrecorded Shopee series discovery.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -55962,6 +55962,17 @@
         "Four routing definitions distinguish dry-path separation from effect placement. Per-model DOC table not downloaded; model-specific classification unresolved.",
         "Monkey newer-OS development discontinued; no M9 Central migration inferred."
       ]
+    },
+    {
+      "model": "Line 6 M9",
+      "checked_date": "2026-10-18",
+      "source": "https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+      "findings": [
+        "Exact FX/looper/expression MIDI addressing saved in LINE6.md.",
+        "Single scene restore persistence depends on AutoSave/ManualSave; folder/all dumps persist automatically.",
+        "Current scene reselection does not reload stored state."
+      ],
+      "remaining": "Looper duration28/56 vs FAQ30/60 and PRE/POST wording conflicts retained; no device testing."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -497,7 +497,7 @@ def main():
         if mode == 'commit-pocketpod':
             message = 'research(line6): qualify Pocket POD combo tuner and save behavior'
         if mode == 'commit-m9':
-            message = 'research(line6): qualify M9 lifecycle stereo routing and updater support'
+            message = 'research(line6): document M9 MIDI controls and SysEx persistence rules'
         if mode == 'commit-m5':
             message = 'research(line6): document M5 MIDI ranges and tempo expression limits'
         if mode == 'commit-ax3g':

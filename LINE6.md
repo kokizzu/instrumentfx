@@ -973,6 +973,16 @@ Checked 2026-10-18 against manufacturer support articles.
 | I/O / stereo-routing distinctions | Official M-Series article distinguishes true stereo, summed mono, stereo dry-through with mono effect, and stereo dry-through with stereo effect. A mono effect can be centered while the dry channels stay separate; that differs from summing the entire input. Per-model classifications reside in a DOC attachment that was not downloaded, so individual effect routing is not assigned here. Preserve the existing mono-collapse limitation without treating all centered effects as mono-throughout. | [Official routing definitions](https://kb.line6.com/stereo-mono-fx-routing-table) |
 | Editor / current updater support | Historical Monkey update instructions do not establish modern-OS support. The manufacturer’s discontinuation notice says Monkey is no longer developed for Windows11, Catalina or Monterey and directs firmware installation to an older supported OS. No M9 migration to Central or modern patch editor is established here. | [Official Monkey notice](https://kb.line6.com/line-6-monkey-discontinued) |
 
+### M9 MIDI ranges and restore persistence
+
+Checked 2026-10-18 against the v2.0 Advanced Guide; no device operation.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| MIDI / effect and scene addressing | FX1A/1B/2A/2B/3A/3B use **CC11/12/14/15/17/18**:0–63 bypass,64–127 on. Expression1/2 useCC1/2,0–127. PC0–23 addresses four folders in six-scene groups; each group orders1A,1B,2A,2B,3A,3B. | [Advanced §§A•1–2][M9-A] |
+| MIDI / looper controls | **CC50:**0–63 overdub,64–127 record. **CC28:**0–63 stop,64–127 play. CC36 half-speed toggle;85 reverse toggle;82 undo/redo;80 play-once. **CC84:**0–63 PRE,64–127 POST; existing routing-wording conflict remains unresolved. **CC86:**0–63 exit looper control,64–127 enter. Looper levels remain expression-only, not MIDI CC. | [Advanced §§5•1,A•1,A•4][M9-A] |
+| Memory / SysEx restore persistence | Single-scene restore saves automatically in AutoSave; ManualSave requires an explicit scene save after receiving. Folder/all-scene restores automatically persist; guide recommends ManualSave for those transfers. Re-selecting the current scene does not reload its stored state. These are documented persistence rules, not a tested backup guarantee. | [Advanced §§B•1–2][M9-A] |
+
 ## Pocket POD
 
 Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;partial. Ownership,vocal suitability unknown. Bass use documented for Tube Preamp.
