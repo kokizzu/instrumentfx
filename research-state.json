@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 300,
+  "active_model_count": 301,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 300,
+  "canonical_root_model_count": 301,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "300 unique active/root-canonical;0legacy-only;35brands;6excluded;allpartial.",
+  "count_reconciliation": "301 unique active/root-canonical;0legacy-only;35brands;6excluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Kemper PROFILER Stage",
-    "task": "Research Stage exact hardware from official documentation;resolveMK1/MK2sellerrevision if possible,keep unknown whereunproven. FM9MKIlead deferred without active count until Standard/Turboidentity established.",
+    "model": "Kemper PROFILER Stage MK2",
+    "task": "Resolve exactStageMK2panel/display,memoryandcategoryarchitecturefromofficialmanual;genericStageofferrevisionunknownretainedseparately. Freshdiscoveryafterfindingscommitted.",
     "next_models": [],
-    "after_queue": "Fresh eligible discovery andremaining technical gaps;no downloads,workflows orpush."
+    "after_queue": "Remaintechnical/marketgaps;no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -5223,6 +5223,13 @@
         "Power",
         "Condition/stock"
       ]
+    },
+    {
+      "model": "Kemper PROFILER Stage MK2",
+      "path": "KEMPER.md#profiler-stage-mk2",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "ExactMK2searchlinkeditem32m;generic29.96mStageofferrevisionunknownnotmerged. CurrentMK2store/specs;unknownpanel,memory,categoryfieldsretained."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23864,7 +23871,15 @@
       "seller": "Seven Stereo Music & Audio Store",
       "qualification": "Direct reader exact Stage title/ask;KotaBandung;stale7–9October delivery. MK1/MK2 revision not stated;new/used,stock,bundle,firmware,warranty unverified. Do not borrow Player orMK2 specs.",
       "checked_date": "2026-10-17",
-      "status": "queued exact hardware;not active inventory yet"
+      "status": "deferred MK1/MK2unknown;not assigned toMK2record"
+    },
+    {
+      "model": "Kemper PROFILER Stage MK2",
+      "url": "https://shopee.co.id/Kemper-Profiler-Stage-MK-2-Stereo-Guitar-Bass-Amp-Profiler-Workstation-i.253483262.6145175240",
+      "indexed_idr": 32000000,
+      "checked_date": "2026-10-17",
+      "status": "partial root record",
+      "qualification": "Searchexacttitle;itemcachemiss;selecteddisplaymodel30511615878variationnotverified;JakartaPusat."
     }
   ],
   "inventory_by_brand": {
@@ -24236,7 +24251,8 @@
       "FM9 MKII Turbo"
     ],
     "Kemper": [
-      "PROFILER Player"
+      "PROFILER Player",
+      "PROFILER Stage MK2"
     ]
   },
   "root_brand_content": {
@@ -24608,19 +24624,20 @@
       "FM9 MKII Turbo"
     ],
     "KEMPER.md": [
-      "PROFILER Player"
+      "PROFILER Player",
+      "PROFILER Stage MK2"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 249,
+      "record_count": 250,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 125,
+      "record_count": 126,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 97,
+      "shared_bass_capable_count": 98,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41605,18 +41622,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 300,
-    "canonical_root_models": 300,
+    "unique_brand_model_pairs": 301,
+    "canonical_root_models": 301,
     "legacy_only_models": 0,
-    "guitar_view_models": 249,
+    "guitar_view_models": 250,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
     "vocal_view_models": 61,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 125,
-    "bass_shared_models": 97,
+    "bass_view_models": 126,
+    "bass_shared_models": 98,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41668,7 +41685,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fractal FM9 MKI."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Kemper PROFILER Stage MK2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41920,7 +41937,8 @@
       "Eventide::H90",
       "Fractal Audio::FM3 MKII Turbo",
       "Fractal Audio::FM9 MKII Turbo",
-      "Kemper::PROFILER Player"
+      "Kemper::PROFILER Player",
+      "Kemper::PROFILER Stage MK2"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -42047,7 +42065,8 @@
       "Eventide::H90",
       "Fractal Audio::FM3 MKII Turbo",
       "Fractal Audio::FM9 MKII Turbo",
-      "Kemper::PROFILER Player"
+      "Kemper::PROFILER Player",
+      "Kemper::PROFILER Stage MK2"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -42114,6 +42133,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Kemper::PROFILER Stage MK2": "Manufacturer Stage guide p.7 explicitly supports bass; current MK2 store identifies complete Stage processing architecture. [Guide](https://www.kemper-amps.com/download/static/263/Profiler%20Stage%20Quick%20Start%202021.pdf). Exact bass library/low-end performance not certified.",
     "Fractal Audio::FM9 MKII Turbo": "Exact MKII Turbo manufacturer store explicitly supports guitar and bass. [Manufacturer](https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit).",
     "Kemper::PROFILER Player": "Official Player bundle explicitly describes bass use and bass PROFILE/DI routing. [Manufacturer](https://www.kemper-amps.com/store/au/profiler-player-power-bundle.html).",
     "Fractal Audio::FM3 MKII Turbo": "Manufacturer explicitly identifies guitar and bass processing. [Product](https://www.fractalaudio.com/fm3/).",
@@ -44472,6 +44492,13 @@
     },
     "Kemper::PROFILER Player": {
       "link": "KEMPER.md#profiler-player",
+      "source_files": [
+        "KEMPER.md"
+      ],
+      "finding_files": []
+    },
+    "Kemper::PROFILER Stage MK2": {
+      "link": "KEMPER.md#profiler-stage-mk2",
       "source_files": [
         "KEMPER.md"
       ],

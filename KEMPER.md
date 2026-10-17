@@ -57,3 +57,41 @@ Remaining:exact feature transition dates,complete category census and remaining1
 [kp-m142]: https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English
 
 14.2 source is a manufacturer-authored manuscript reproduced on Scribd,not its AI description:Player/OS14.2 title,July2026 copyright/revision,numbered control sequence and core ports match the earlier Player manual and official specifications. The original manufacturer download page remained inaccessible as a regional shell on the previous pass. Only manuscript text was used;no files downloaded and no screenshot inspection claimed. This supplements the older manual without erasing it.
+
+## PROFILER Stage MK2
+
+Partial record checked **2026-10-17**. Exact MK2 search-item identity;generic Stage offer not assigned MK2 capabilities. Stage is an independent processor,not the Remote controller. Original Stage remains a separate unresolved lead.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | No built-in treadle;**four TRS pedal/switch sockets**,10–100kohm. External toe configuration unresolved. [Specs][ks-s];[MK2store][ks-p]. |
+| Knobs / footswitches / buttons | **?/?/?**;complete numbered panel inventory not successfully inspected. Tuner,Looper,Tap controls documented;do not substitute Remote orPlayer counts. [MK2store][ks-p]. |
+| Display | Diagonal,color/monochrome,touch unresolved. No photographic estimate. |
+| Dimensions / weight | **470W×260D×85H mm;4.1kgMK2**,large. Official page separately gives4.6kgoriginalStage;not a seller-weight measurement. [Specs][ks-s]. |
+| Simultaneous blocks / category choices | Current MK2store headline:**up to18 simultaneous effects**. Complete taxonomy andfixed-versus-flexible accounting unresolved;not18freely assignable slots. Per-category count unverified;Player4/4/8entitlements not transferred. [MK2store][ks-p]. |
+| Preset / factory / user memory | Factory pool described only as hundreds of ampPROFILEs. Exact browser/performance/user capacities andfactory occupancy unresolved;Player625figure not transferred. [MK2store][ks-p]. |
+| Synth / acoustic | Individual synth/acoustic simulation algorithms unresolved;loading acousticPROFILEs is distinct. No absence inferred. |
+| IR / NAM / captures | **Proprietary ampPROFILING creation** documented. Current FAQ distinguishesMK2 high-resolutionPROFILE2.0 creation/playback fromMK1standard-resolutionplayback. NativeNAM,convertedNAM andexactStageIRformat/limits requireverification. [MK2store][ks-p];[FAQ][ks-f]. |
+| Audio I/O | ¼-inchTSinstrumentin1Mohm;four balancedTRSreturns100kohm;stereo mainXLRbalanced+¼-inchTSunbalanced;stereo¼-inchTSmonitor;two¼-inchTSsends;3.5mmTRSphones32–600ohm. Outputs+4dBu. S/PDIFRCAin/out24bit44.1/48/88.2/96kHz,master/slave. [Specs][ks-s]. |
+| Control / USB | USB-A/B,USBMIDI,DINMIDIin/out;WiFi2.4GHzWPA2. **Eight USBaudio channels**44.1kHz;FAQclarifies4in/4out. NoUSBpowerinference. [Specs][ks-s];[FAQ][ks-f]. |
+| Power / battery / USB operation | **100–230VAC,max0.5A,50–60Hz**. DCpolaritynotapplicabletomains;actualconsumption,USB/batteryoperationunresolved. No speakerpowerampincluded. [Specs][ks-s];[MK2store][ks-p]. |
+| Editor platforms / drivers | RigManager desktopWindows/macOSUSB;mobileiOS/Android/FireOSWiFieditors. ExactcurrentOSminima,driversandmobilefeatureparityunresolved. [FAQ][ks-f];[MK2store][ks-p]. |
+| Practical features | Morphing,PerformanceMode,Looper,Tap/Tuner;**twoindependentFXloopswithstereoreturns**,instrument/lineintegration. Looper duration/mono-stereo qualifications,drumsandgaplessconstraintsunresolved. [MK2store][ks-p]. |
+| Bass capability | Manufacturer'sStageQuickStartp.7explicitlysupportsbass;currentMK2storeidentifiescompleteStagePROFILERarchitecture. Sharedbass,notfullbassalgorithmcensusorlow-endperformancecertification. [Stageguide][ks-q];[MK2store][ks-p]. |
+
+### Stage MK2 — separate IDR asking-price evidence
+
+| Condition / access | Amount | Exact offer / qualifications |
+|---|---:|---|
+| Condition-unverified indexed ask | **Rp32.000.000** | [Seller253483262/item6145175240](https://shopee.co.id/Kemper-Profiler-Stage-MK-2-Stereo-Guitar-Bass-Amp-Profiler-Workstation-i.253483262.6145175240). ExactMK2hardwaretitle linked by [Shopeesearch](https://shopee.co.id/search?keyword=kemper+profiler),JakartaPusat. Checked2026-10-17;itemclickfailedcacheaccess. Searchlink selecteddisplay_model_id30511615878;variation/bundle resolution unverified. Stock,new/used,sellername,warranty,authenticity,voucherandinstalledOSunknown. Cachedsearchprice,notlivecheckoutorcompletedtrade. |
+| Verified new IDR | ? | Not established. |
+| Verified used IDR | ? | Not established. |
+
+EarlierSevenStereoseller16879370/item22081209737Rp29.960.000onlysaysStage;retainedinledgerwithMK1/MK2unknown,notusedasMK2lowerbound. Remotecontrollers,protectorsandPROFILEpacksarenothardwareoffersforthismodel.
+
+[ks-s]: https://www.kemper-amps.com/profiler/technical-specifications
+[ks-p]: https://www.kemper-amps.com/store/us/profiler-stage-b.html
+[ks-f]: https://load2.kemper-amps.com/faqs
+[ks-q]: https://www.kemper-amps.com/download/static/263/Profiler%20Stage%20Quick%20Start%202021.pdf
+
+Officialspecifications/currentMK2storechecked2026-10-17. Stage2021guidep.7availableasindexedmanufacturertext;fullPDFopenfailed. No new visualinspectionclaimed. FAQcurrentfeaturesdonotproveinstalledOS. Remaining:completepanel/display,fullmanual/category/concurrency,memory,IR/NAM,synth/acoustic,looper/power-operationandqualifiedcurrentoffer. No files/dependencies/software/firmware downloaded. OnepartialMK2record;nooriginalStageduplicate.

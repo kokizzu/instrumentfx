@@ -112,7 +112,7 @@ def main():
         assert changed <= set(paths), changed-set(paths)
         git('add','--',*sorted(changed))
         print(git('diff','--cached','--stat'))
-        print(git('commit','-m','research(kemper): qualify Player output routing and controls' if mode == 'commit-player' else 'research(fractal): add FM9 MKII Turbo and preserve revision limits'))
+        print(git('commit','-m','research(kemper): add Stage MK2 with exact offer and revision limits' if mode == 'commit-player' else 'research(fractal): add FM9 MKII Turbo and preserve revision limits'))
     elif mode == 'commit-discovery':
         verify()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
