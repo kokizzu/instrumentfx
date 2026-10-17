@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-200",
-    "task": "GP200 MOD27 namedentryinventorysaved; WA H6/NR4/EQ6/RVB12/VOL1 retained. Next AMP/CAB/PRE/DST/DLYcensus orfreshShopeediscovery; exactpanelcountsremainopen.",
+    "task": "GP200 delaytitles/behavior saved withDualEcho duplicate andextractedrowalignmentconflict; DLYtotalnotcertified. Next AMP/CAB/PRE/DSTcensus orfreshShopeediscovery; originalpanel/tablevisualverification remainsopen.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61335,5 +61335,41 @@
       "AutoSwellHoldFreezecrosscategoryduplicates"
     ],
     "limits": "Notuniquegrandtotalorusedunitinstalledfirmware"
+  },
+  "gp200_delay_conflict_20261017": {
+    "source": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "revision": "Firmware1.8.0manualpp61–66",
+    "readable_distinct_titles": [
+      "BBD Delay S",
+      "Digital Delay S",
+      "Tape Delay S",
+      "Ambience 1",
+      "Ambience 2",
+      "Pure",
+      "Analog",
+      "Tape",
+      "Ping Pong",
+      "Slapback",
+      "Sweep Echo",
+      "Ring Echo",
+      "Tube",
+      "M-Echo",
+      "Sweet Echo",
+      "999 Echo",
+      "Vintage Rack",
+      "Lofi Echo",
+      "Rev Echo",
+      "Dual Echo",
+      "Ice Delay",
+      "Broken Delay"
+    ],
+    "conflict": "DualEcho repeatedp65/66 withdifferentdescriptions;earliertitle/descriptionmisalignment;22namesnotverifiedalgorithmcount",
+    "findings": [
+      "StereoS TimeRpercentageSpread",
+      "IceDelaypitchshiftedslices",
+      "BrokenDelayLatchCut0disableglitch",
+      "Trailbypassnotpresetchangeproof"
+    ],
+    "limits": "Numericmaximaandoriginalrowalignmentunverified"
   }
 }
