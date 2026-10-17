@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER PowerRack MK2",
-    "task": "CurrentPowerRack capture/software,expression/mono,qualifiedoffers andremainingphysicalcensus;thenHeadMK2.",
+    "task": "Check PowerRack exactoffer/directaccess andphysicalevidence;thenHeadMK2 withopen gaps preserved.",
     "next_models": [
       "Kemper PROFILER Head MK2 lead"
     ],
@@ -63683,5 +63683,14 @@
     "pages": "Printed96,234–235,419",
     "finding": "IndependentPerformance capacity,IRconversion anddedicatedacoustic simulator saved withrevision/input-purpose limits.",
     "next": "CurrentPowerRack capture/software,expression/mono,qualifiedoffers andremainingphysicalcensus;thenHeadMK2."
+  },
+  "powerrack_current_features_20261017": {
+    "sources": [
+      "https://www.kemper-amps.com/faqs",
+      "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/"
+    ],
+    "finding": "ExplicitPowerRack pedal/Remote topology andmono output;MK2capture andfirmware-qualified editorminima saved.",
+    "remaining": "Fullpanel/display,Browse/factorymemory,categorycensus,NAM,synth,looper,mainsregion,condition-qualifiedoffers.",
+    "next": "Check PowerRack exactoffer/directaccess andphysicalevidence;thenHeadMK2 withopen gaps preserved."
   }
 }
