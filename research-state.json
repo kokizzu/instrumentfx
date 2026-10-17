@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Neural DSP Quad Cortex",
-    "task": "Quad Cortex hardware/editor evidence saved withTRS/TS discrepancy. Continue IR import/native limits,looper operation/duration,scenes anddisplay color;captureout connector andfactory/total memory still open.",
+    "task": "Quad Cortex IR truncation,user-vs-factory capture capacity,eight scene selections andtoe-switch behavior saved. Continue looper duration/persistence,display/captureconnector andcurrent algorithm details;qualifiednew/used offers remain unavailable.",
     "next_models": [],
     "after_queue": "Fresh bass/vocal discovery andlossless legacy consolidation remain incomplete. No downloads,workflows orpush."
   },
@@ -63856,5 +63856,17 @@
       "CortexControl macOS13+orWindows10+,8GBRAM,100MB,CPU minima andWindowsASIO prerequisite;requiresconnectedhardware."
     ],
     "remaining": "Capture-out connector,displaycolor,IR limits,looper duration,total/factory/scene memory,algorithm counts andcondition-qualified offers."
+  },
+  "technical_followups_quad_ir_expression_20261017": {
+    "model": "Neural DSP Quad Cortex",
+    "source": "https://neuraldsp.com/manual/quad-cortex",
+    "revision": "4.1.1",
+    "findings": [
+      "Cloud compatibleWAVIR uploads resized1024samples~21ms regardlesssource length;CortexControlWAVdragdrop. Rate/bitdepthlimits unknown.",
+      "Capture2048 isuser capacity alongsidefactory,notproven combinedtotal;IR2048.",
+      "SceneA–H anddesktop1–8 shortcuts evidenceeight selections.",
+      "ExpressionTRSsweep,dualTRStoe;latching supported,momentaryrequiresLatchEmulation;calibrationglobal;assignedvaluesexcludedScene data."
+    ],
+    "remaining": "Looper duration/persistence,displaycolor,captureconnector,NAM,exactalgorithm/factory/total counts andqualifiedoffers."
   }
 }
