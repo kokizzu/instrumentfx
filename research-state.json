@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "DRV/AMP/PRE AMP/CAB/IR/MOD/DLY/RVB inventories; corroborate utility copy wording; latest-revision reconciliation and fresh discovery",
+    "task": "AMP/PRE AMP/CAB/IR/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh discovery",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62340,5 +62340,64 @@
     "capture": "ToneCatch1–10 mono locations, not factory-algorithm census; later firmware1.2 expands30",
     "later_source": "https://www.hotone.jp/brands/hotone/products/ampero-ii",
     "next": "DRV/AMP/PRE AMP/CAB/IR/MOD/DLY/RVB inventories; corroborate utility copy wording; latest-revision reconciliation and fresh discovery"
+  },
+  "mp350_drv_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed14–20",
+    "overdrive": [
+      "Green Drive",
+      "Green 9",
+      "Yellow Drive",
+      "Swarm Drive",
+      "Super Drive",
+      "Screamood",
+      "Dr. Blues",
+      "Force Drive",
+      "Tube Clipper",
+      "Blues Butter",
+      "Grand Driver",
+      "Zen Garden",
+      "Direct Touch",
+      "Faun Drive",
+      "Amore Eterno",
+      "Precise Attack",
+      "Magic T",
+      "Prince of Drive",
+      "Noble Drive"
+    ],
+    "fuzz": [
+      "Big Pie",
+      "Face Fuzz",
+      "Bend Fuzz",
+      "Face Fuzz Ge"
+    ],
+    "distortion": [
+      "Plustortion",
+      "Smooth Dist",
+      "Black Tail",
+      "Governor",
+      "Shredder",
+      "Crunchist",
+      "Metaland",
+      "Rebel",
+      "Pleximaker",
+      "Panama Lead",
+      "Fryman Dist"
+    ],
+    "bass": [
+      "Solid Steel",
+      "Bass OD",
+      "Behemoth M",
+      "Basshammer"
+    ],
+    "counts": [
+      19,
+      4,
+      11,
+      4
+    ],
+    "derived_total": 38,
+    "limits": "All monoIO; internal modes not algorithms; BassGrinderHQ later delta not complete current census",
+    "next": "AMP/PRE AMP/CAB/IR/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh discovery"
   }
 }

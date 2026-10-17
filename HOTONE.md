@@ -535,6 +535,18 @@ Checked2026-10-17, original1.1.0-JP list printed pp87–88. [Original list][MP35
 The Stage wording qualifies the utility descriptions; it does not establish that every algorithm in the identified list belongs exclusively to Stage. Current complete libraries remain unverified.
 
 
+### MP-350 — DRV inventory, firmware1.1.0-JP
+
+Checked2026-10-17, original list printed pp14–20. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / DRV | **38 mono-I/O entries**: Overdrive19—Green Drive, Green 9, Yellow Drive, Swarm Drive, Super Drive, Screamood, Dr. Blues, Force Drive, Tube Clipper, Blues Butter, Grand Driver, Zen Garden, Direct Touch, Faun Drive, Amore Eterno, Precise Attack, Magic T, Prince of Drive, Noble Drive; Fuzz4—Big Pie, Face Fuzz, Bend Fuzz, Face Fuzz Ge; Distortion11—Plustortion, Smooth Dist, Black Tail, Governor, Shredder, Crunchist, Metaland, Rebel, Pleximaker, Panama Lead, Fryman Dist; Bass4—Solid Steel, Bass OD, Behemoth M, Basshammer. |
+| Processing / drive modes | PreciseAttack includes a gate and6 attack modes; MagicT has3 clipping modes; SolidSteel has3 voicings andBlend. These are internal parameters,not additional algorithms orindependent gate blocks. Dr.Blues explicitly supports bass despite its Overdrive placement. |
+
+This older census is not a current installed-library total. Firmware1.3.0 BassGrinderHQ remains a separately documented addition; no complete current DRV count inferred.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
