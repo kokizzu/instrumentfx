@@ -438,7 +438,7 @@ def main():
         if mode == 'commit-criticalmass':
             message = 'research(tchelicon): clarify Critical Mass control combinations'
         if mode == 'commit-b21u':
-            message = 'research(zoom): qualify B2.1u exact ASIO packages and OS boundaries'
+            message = 'research(zoom): resolve B2.1u converter oversampling and response'
         if mode == 'commit-katana-go':
             message = 'research(boss): verify GT-1 battery fallback and backup scope'
         if mode == 'commit-microplus':
