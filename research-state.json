@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "VoiceLive Touch 2 partial profile added;next original manual loop limits,complete controls,DC rating/display,style counts,USB formats andcurrent software support. Not fully verified.",
+    "task": "VoiceLive Touch 2 six-layer/Undo/2x restrictions andUSB input/phantom modes saved. Next loop duration/persistence,control count,DC/display,styles andUSB formats;keep all prior gaps.",
     "next_models": [],
     "after_queue": "316active;remaining technical/market/ownership/migration gaps;no downloads/workflows/push."
   },
