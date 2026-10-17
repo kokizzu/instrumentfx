@@ -2540,73 +2540,73 @@ Checked2026-10-17 against indexed original [official manual][ME5-M]:“Operation
 
 ## GT-001
 
-Desktop guitar/vocal processor;distinct fromGT-1/GT-100. Checked2026-10-17;partial. [BOSS product/specifications][GT001-P].
+Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; partial. [BOSS product/specifications][GT001-P].
 
 <!-- comparison evidence begins -->
 
 | Field | Verified / unresolved |
 |---|---|
-| Expression | External expression oruptotwofootswitches;built-in/toe unverified. |
+| Expression | External expression or up to two footswitches; built-in/toe unverified. |
 | Controls | Knob/footswitch/button counts unverified. |
-| Display | Backlit132×32LCD;diagonal,color,touch unknown. |
-| Processing / choices | Dualamps,series/parallel chains;COMP,PREAMP,OD/DS,EQ,FX1/2,DELAY,CHORUS,REVERB,PEDALFX,NS1/2,ACCELFX. Aggregate ceiling/categorycounts pending. |
-| Factory / user memory | 200preset+200user;initialusercontents unknown. |
-| Synth / acoustic | WAVESYNTH,AC.GUITARSIM,AC.PROCESSOR listed;monophonic guitar-to-MIDI usesnormalpickup. |
-| Dimensions / mass | 211W×135D×58Hmm;500g. |
-| I/O | Quarter-inch guitar,Lmono/Routputs,TRSCTL/EXP;balancedXLRmic,+48V10mAmax;stereominiAUX/phones;USB-B;DCin. |
-| Power / batteries | Adapter orUSBbus;240mAdraw. 9VDC PSA-100 supply verified below;polarity,batteries unresolved. |
-| Editor / USB | BOSS TONE STUDIO Mac/Windows;USBaudio/MIDI,reamping. Exactdirectionalchannels pending. |
-| IR / NAM / capture | UserIR,native/convertedNAM,capture unverified. |
-| Looper / drums / live | Unverified;vocal/acousticmicpatches supported. Guitar and mic inputs are mutually exclusive; details below. |
+| Display | Backlit 132 × 32 LCD; diagonal, color, touch unknown. |
+| Processing / choices | Dual amps, series/parallel chains; COMP, PREAMP, OD/DS, EQ, FX1/2, DELAY, CHORUS, REVERB, PEDALFX, NS1/2, ACCELFX. Aggregate ceiling/category counts pending. |
+| Factory / user memory | 200 preset + 200 user; initial user contents unknown. |
+| Synth / acoustic | WAVE SYNTH, AC. GUITAR SIM, AC. PROCESSOR listed; monophonic guitar-to-MIDI uses a normal pickup. |
+| Dimensions / mass | 211 W × 135 D × 58 H mm; 500 g. |
+| I/O | Quarter-inch guitar, L/mono and R outputs, TRS CTL/EXP; balanced XLR mic, +48 V, 10 mA maximum; stereo mini AUX/phones; USB-B; DC in. |
+| Power / batteries | Adapter or USB bus power; 240 mA draw. 9 V DC PSA-100 supply verified below; polarity, batteries unresolved. |
+| Editor / USB | BOSS TONE STUDIO Mac/Windows; USB audio/MIDI, reamping. Exact directional channels pending. |
+| IR / NAM / capture | User IR, native/converted NAM, capture unverified. |
+| Looper / drums / live | Unverified; vocal/acoustic mic patches supported. Guitar and mic inputs are mutually exclusive; details below. |
 
 ### GT-001 — separate IDR offers
 
 | Price class | Amount | Evidence / limits |
-|---|---:|---|
-| Used | Unknown | Conditionunverified. |
-| New | Unknown | Conditionunverified. |
-| Condition-unverified shop-card ask | Rp5,075,200 | [Toko Standard Music](https://shopee.co.id/tokosm38),[shop214621914/item18937945565](https://shopee.co.id/Effect-Guitar-BOSS-GT-001-COSM-i.214621914.18937945565). Searchfour-month/directshopthree-monthcache;itemclickcachemiss. Tanjungpinangshopdescription,notitem-confirmed. Condition,stock,variant,bundle,adapter,warranty,voucher,shipping/taxunknown. Historicalask,notliveoffer/completedsale. |
+|---|---: |---|
+| Used | Unknown | Condition unverified. |
+| New | Unknown | Condition unverified. |
+| Condition-unverified shop-card ask | Rp5,075,200 | [Toko Standard Music](https://shopee.co.id/tokosm38), [shop 214621914 / item 18937945565](https://shopee.co.id/Effect-Guitar-BOSS-GT-001-COSM-i.214621914.18937945565). Four-month search cache / three-month direct shop cache; item click returned a cache miss. Tanjungpinang shop description, not item-confirmed. Condition, stock, variant, bundle, adapter, warranty, voucher, shipping/tax unknown. Historical ask, not a live offer or completed sale. |
 
-### GT-001 — input selection and practice functions,2026-10-17
+### GT-001 — input selection and practice functions, 2026-10-17
 
-[Official parameter guide](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf),2014,printedpp33/39:targeted search-index text recovered despite full-reader size limit. No visual inspection claimed.
+[Official parameter guide](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf), 2014, printed pp. 33/39: targeted search-index text recovered despite full-reader size limit. No visual inspection claimed.
 
 | Field | Verified behavior / limit |
 |---|---|
 | I/O / input routing | INPUT SELECT chooses **GUITAR or MIC; both cannot operate simultaneously**. Each selected input passes through the effects. Dual effect chains do not establish independent simultaneous guitar/vocal processing. Adjusting MIC LEVEL or PHANTOM can interrupt sound. |
-| Looper / drums / practice | **Metronome40–250BPM**,selectable meters andlevel;output through OUTPUT/PHONES. Its tempo changes MASTER BPM. This is a metronome,not evidence of a drum-pattern library. Looper remains unverified. |
-| Tuner / live | Reference435–445Hz;MUTE silences output,BYPASS removes effects,THRU retains the current effect sound while tuning. These mode names do not establish analog true-bypass circuitry. |
+| Looper / drums / practice | **Metronome 40–250 BPM**, selectable meters and level; output through OUTPUT/PHONES. Its tempo changes MASTER BPM. This is a metronome, not evidence of a drum-pattern library. Looper remains unverified. |
+| Tuner / live | Reference 435–445 Hz; MUTE silences output, BYPASS removes effects, THRU retains the current effect sound while tuning. These mode names do not establish analog true-bypass circuitry. |
 
-### GT-001 — USB paths and specified supply,2026-10-17
+### GT-001 — USB paths and specified supply, 2026-10-17
 
 | Field | Verified behavior / limit |
 |---|---|
-| USB audio / routing | [Official parameter guide,p34](https://cdn.roland.com/assets/media/pdf/GT-001_r_e01W.pdf),indexed original text:PRIMARY sends effects;its computer return mixes at the final stage. SECONDARY sends dry input;its return enters the effect-chain beginning for reamping. Both outputs are available together. Exact directional channel count remains unverified. |
-| USB / monitoring | PRIMARY LOOP BACK sends computer playback back with processed sound. DIRECT MONITOR resets ON at startup andcannot be saved. Loopback is an audio-routing function,not a phrase looper. |
-| Power / adapter identity | [GT-001-specific BOSS support notice](https://www.boss.info/jp/support/by_product/gt-001/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/) specifies **PSA-100**. Its [current manufacturer specification](https://www.boss.info/jp/products/psa-100/) gives **9VDC,500mAmaximum output**,100–240VAC50–60Hz input. Adapter capacity differs from GT-001’s240mAdraw. Polarity remains unverified;do not assume an old adapter shares the current mains range. |
+| USB audio / routing | [Official parameter guide, p. 34](https://cdn.roland.com/assets/media/pdf/GT-001_r_e01W.pdf), indexed original text: PRIMARY sends effects; its computer return mixes at the final stage. SECONDARY sends dry input; its return enters the effect-chain beginning for reamping. Both outputs are available together. Exact directional channel count remains unverified. |
+| USB / monitoring | PRIMARY LOOP BACK sends computer playback back with processed sound. DIRECT MONITOR resets ON at startup and cannot be saved. Loopback is an audio-routing function, not a phrase looper. |
+| Power / adapter identity | [GT-001-specific BOSS support notice](https://www.boss.info/jp/support/by_product/gt-001/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/) specifies **PSA-100**. Its [current manufacturer specification](https://www.boss.info/jp/products/psa-100/) gives **9 V DC, 500 mA maximum output**, 100–240 V AC, 50–60 Hz input. Adapter capacity differs from GT-001’s 240 mA draw. Polarity remains unverified; do not assume an old adapter shares the current mains range. |
 
-### GT-001 — own-product category counts,2026-10-17
+### GT-001 — own-product category counts, 2026-10-17
 
 | Field | Verified count / restriction |
 |---|---|
-| Processing / preamp and drive | Counting the [model-specific published lists][GT001-P] gives **28 PREAMP choices** and **23 OD/DS choices**,including each list’s Custom entry. These are alternatives,not28simultaneous amps or23drive blocks. |
-| Processing / FX1-FX2 choices | **35 distinct top-level choices across both slots**;Overtone andTeraEcho are FX2-only,so **FX1has33 / FX2has35**. This is a union count,not35choices in each slot or35simultaneous effects. Nested choices within algorithms remain uncounted. |
-| Processing / nested drive restriction | A-DIST is available in the mainOD/DS block andthe SubOD/DS algorithm ofFX2;do not assign it toFX1’s SubOD/DS. Aggregate simultaneous ceiling andremaining category counts still unverified. |
+| Processing / preamp and drive | Counting the [model-specific published lists][GT001-P] gives **28 PREAMP choices** and **23 OD/DS choices**, including each list’s Custom entry. These are alternatives, not 28 simultaneous amps or 23 drive blocks. |
+| Processing / FX1-FX2 choices | **35 distinct top-level choices across both slots**; Overtone and Tera Echo are FX2-only, so **FX1 has 33 / FX2 has 35**. This is a union count, not 35 choices in each slot or 35 simultaneous effects. Nested choices within algorithms remain uncounted. |
+| Processing / nested drive restriction | A-DIST is available in the main OD/DS block and the Sub OD/DS algorithm of FX2; do not assign it to FX1’s Sub OD/DS. Aggregate simultaneous ceiling and remaining category counts still unverified. |
 
-### GT-001 — MIDI-document category evidence,2026-10-17
+### GT-001 — MIDI-document category evidence, 2026-10-17
 
-[Official MIDI implementation](https://static.roland.com/assets/media/pdf/GT-100_GT-001_MIDI_Imple_e01_W.pdf),April30,2014:cover explicitly identifies GT-001v1.00 andGT-100v2.00. Shared entries apply only where model exclusions do not intervene. Text inspection,no execution/download.
+[Official MIDI implementation](https://static.roland.com/assets/media/pdf/GT-100_GT-001_MIDI_Imple_e01_W.pdf), April 30, 2014: cover explicitly identifies GT-001 v1.00 and GT-100 v2.00. Shared entries apply only where model exclusions do not intervene. Text inspection, no execution/download.
 
 | Field | Verified count / limitation |
 |---|---|
-| Processing / reverb | P27 enumerates **seven**:Ambience,Room,Hall1,Hall2,Plate,Spring,Modurate(source spelling). Time0.1–10s;pre-delay0–500ms. Choices,not seven blocks. |
-| Processing / chorus | P27 gives **three modes**:Mono,Stereo1,Stereo2;not three independent chorus slots. |
-| Processing / delay conflict | P27 names **ten delay types**,but encodes TYPE as00–0A(11values);the eleventh is unnamed. Preserve discrepancy. Main time1–2000ms;dual sections1–1000ms;SubDelay separately1–1000ms. |
-| Processing / nested compressor | P19/23 enumerate **eight AdvancedComp subtypes** inside FX1/FX2;not eight extra processing slots or evidence that mainCOMP has eight types. |
-| Looper / I/O exclusions | Shared document explicitly marks phrase-loop,send/return andamp-control entries **GT-100 only**. Those controls do not establish corresponding GT-001 capabilities. |
+| Processing / reverb | P27 enumerates **seven**: Ambience, Room, Hall1, Hall2, Plate, Spring, Modurate (source spelling). Time 0.1–10 s; pre-delay 0–500 ms. Choices, not seven blocks. |
+| Processing / chorus | P27 gives **three modes**: Mono, Stereo1, Stereo2; not three independent chorus slots. |
+| Processing / delay conflict | P27 names **ten delay types**, but encodes TYPE as 00–0A (11 values); the eleventh is unnamed. Preserve discrepancy. Main time 1–2000 ms; dual sections 1–1000 ms; Sub Delay separately 1–1000 ms. |
+| Processing / nested compressor | P19/23 enumerate **eight Advanced Comp subtypes** inside FX1/FX2; not eight extra processing slots or evidence that main COMP has eight types. |
+| Looper / I/O exclusions | Shared document explicitly marks phrase-loop, send/return and amp-control entries **GT-100 only**. Those controls do not establish corresponding GT-001 capabilities. |
 
 <!-- comparison evidence ends -->
 
 [GT001-P]: https://www.boss.info/global/products/gt-001/
 
-The [2014 parameter guide](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf) exceeded reader limit(11,386,475bytes);notdownloaded orvisuallyinspected. Search-generated cover description called desktop favoritebuttons footswitches;notaccepted ascontrol evidence. Ownmanual needed;no siblingborrowing.
+The [2014 parameter guide](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf) exceeded reader limit (11,386,475 bytes); not downloaded or visually inspected. Search-generated cover description called desktop favorite buttons footswitches; not accepted as control evidence. Own manual needed; no sibling borrowing.
