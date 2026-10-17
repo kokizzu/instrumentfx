@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B3 original",
-    "task": "Input/DI switches and DAW monitoring qualification saved. Next inspect own manual effect list pp33–49 for exact numbered census; do not inherit G3 firmware or B3n specifications. Physical counts and separate ACTIVE impedance remain unverified. Commit before researching another model.",
+    "task": "B3 numbered functional census reconciled to111 and cabinet selectors distinguished from extra effects. Next resolve B3 own synth/fretless distinctions (manual pp44–45) or switch to a fresh Shopee brand/series discovery pass after committing. Physical controls, USB subtype, measured draw and qualified current offers remain unknown.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56920,6 +56920,14 @@
       "model": "Zoom B3 original",
       "checked_date": "2026-10-18",
       "finding": "Documented ACTIVE/PASSIVE application and XLR ground/pre-post switch positions from own manual. DAW monitoring requires balance100 to avoid mixed direct/computer returns and flanger-like sound. Separate ACTIVE impedance remains unknown.",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_B3.pdf"
+      ]
+    },
+    {
+      "model": "Zoom B3 original",
+      "checked_date": "2026-10-18",
+      "finding": "Read numbered manual entries001–111 and cabinet Table1. Functional group counts8+14+15+12+24+7+1+12+8+5+5=111; 12 amps and99 non-amp effects. Group labels are catalogue classification, not asserted official categories. Twelve named cabinets plus ORGN are amp parameters and not12 additional numbered effects.",
       "sources": [
         "https://zoomcorp.com/media/documents/E_B3.pdf"
       ]
