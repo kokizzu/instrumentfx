@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 320,
+  "active_model_count": 321,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 320,
+  "canonical_root_model_count": 321,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "320 unique active/root-canonical;0 legacy-only;36 brands;6 excluded;all partial.",
+  "count_reconciliation": "321 unique active/root-canonical;0 legacy-only;36brands;6excluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Soran Dual Stomp Lite",
-    "task": "Discover exact Shopee hardware item, then own product/manual;not yet active. DualStomp manual/control/toe gaps deferred until new source;electrical limits saved.",
+    "task": "Initialpartialrecordsaved;next ownoriginalmanual/control/expression/categoryaudit andqualifiedused/newoffers. Do not repeat known403 routes withoutnewsource. Then freshShopee bass/vocal discovery.",
     "next_models": [],
-    "after_queue": "320active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
+    "after_queue": "321active;allprior technical/market/ownership/migration gapsremain;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5363,6 +5363,13 @@
       "status": "partial",
       "checked_date": "2026-10-18",
       "evidence": "Ownproduct11vs10modules126vs125 retained;ownmanual403;explicitsharedA2conversionnotice;exactHOLYMUSIC945642322/51608612661 Rp1400000Habis conditionunknown"
+    },
+    {
+      "model": "Soran Dual Stomp Lite",
+      "destination": "SORAN.md#dual-stomp-lite",
+      "status": "partial",
+      "checked_date": "2026-10-18",
+      "evidence": "Ownproduct10modules;explicitsharedA2conversion;ownmanual403;exactcveri785734870/19560049251 Rp1100000Habis,indexonly directtimeout"
     }
   ],
   "consolidation_and_price_findings": [
@@ -24459,7 +24466,8 @@
     "Soran": [
       "Go Rig B",
       "Tiny Stomp",
-      "Dual Stomp"
+      "Dual Stomp",
+      "Dual Stomp Lite"
     ]
   },
   "root_brand_content": {
@@ -24853,19 +24861,20 @@
     "SORAN.md": [
       "Go Rig B",
       "Tiny Stomp",
-      "Dual Stomp"
+      "Dual Stomp",
+      "Dual Stomp Lite"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 266,
+      "record_count": 267,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 139,
+      "record_count": 140,
       "bass_focused_record_count": 30,
-      "shared_bass_capable_count": 109,
+      "shared_bass_capable_count": 110,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -24891,7 +24900,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:262 guitar,136 documented bass-capable,65 vocal;technical andmarket verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "320 root-canonical models;0legacy-only;compatibility files remain;technical/market research incomplete.",
+    "warning": "321rootcanonical;0legacy-only;compatibility pathsremain;technical/market researchincomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41926,18 +41935,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 320,
-    "canonical_root_models": 320,
+    "unique_brand_model_pairs": 321,
+    "canonical_root_models": 321,
     "legacy_only_models": 0,
-    "guitar_view_models": 266,
+    "guitar_view_models": 267,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 139,
-    "bass_shared_models": 109,
+    "bass_view_models": 140,
+    "bass_shared_models": 110,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -42258,7 +42267,8 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Head MK2",
       "Soran::Tiny Stomp",
-      "Soran::Dual Stomp"
+      "Soran::Dual Stomp",
+      "Soran::Dual Stomp Lite"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -42399,7 +42409,8 @@
       "Kemper::PROFILER Head MK2",
       "Soran::Go Rig B",
       "Soran::Tiny Stomp",
-      "Soran::Dual Stomp"
+      "Soran::Dual Stomp",
+      "Soran::Dual Stomp Lite"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -42471,6 +42482,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Soran::Dual Stomp Lite": "Own exact product supports guitar/bass;25guitar+5bass amps/cabs. [Product](https://soranaudio.com/products/27.html).",
     "Soran::Dual Stomp": "Own exact product explicitlysupports guitar/bass and25guitar+5bass amps/cabs;internalLitewordingconflict retained. [Product](https://soranaudio.com/products/28.html).",
     "Soran::Tiny Stomp": "Own manufacturer product andmanual explicitly support guitar/bass;25guitar/5bass amps andmatching cabinets. [Product](https://soranaudio.com/products/34.html).",
     "MOOER::Prime M2": "Own manufacturer manual tone library explicitly selects guitar or bass and lists bass preamps/cabinets. [Manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf).",
@@ -44981,6 +44993,13 @@
     },
     "Soran::Dual Stomp": {
       "link": "SORAN.md#dual-stomp",
+      "source_files": [
+        "SORAN.md"
+      ],
+      "finding_files": []
+    },
+    "Soran::Dual Stomp Lite": {
+      "link": "SORAN.md#dual-stomp-lite",
       "source_files": [
         "SORAN.md"
       ],
@@ -62015,6 +62034,10 @@
     {
       "token": "51608612661",
       "model": "Soran::Dual Stomp"
+    },
+    {
+      "token": "19560049251",
+      "model": "Soran::Dual Stomp Lite"
     }
   ],
   "g3xn_dsp_acoustic_20261017": {
@@ -65406,5 +65429,16 @@
       "https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17750997333403394.pdf"
     ],
     "remaining": "No original manual read;toe/control/category/powerbehavior unknown. Seek new source ratherthan repeat same routes."
+  },
+  "soran_lite_discovery_20261018": {
+    "query": "site:shopee.co.id Soran Dual Stomp Lite -search",
+    "accepted": "785734870/19560049251 Rp1100000Habis,fourdayindex,directtimeout",
+    "rejected": "12356205/13073834841 threevariantsRp880000–1090000 notallocated",
+    "other_unreviewed": [
+      "16879370/54561597137 Rp1050000Habis",
+      "253483262/23506294895 Rp1500000Habis",
+      "945642322/53058616895 Rp1030000Habis"
+    ],
+    "manual": "https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17751002191595081.pdf403"
   }
 }

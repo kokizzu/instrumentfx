@@ -153,3 +153,40 @@ Checked 2026-10-18 against the exact [manufacturer product table][DS-P]. These s
 Access audit: English support PDF returned 403; its manufacturer-domain alternate failed. Chinese V1.0.0 PDF also failed. Thomann’s indexed page advertised a manual, but the readable French page did not expose its link. Generated summaries and retailer metadata were not used to fill toe, control or power gaps. No downloads or installation.
 
 Rejected generated summary: https://manuals.plus/asin/B0GKFM2RCY . Unread Chinese original: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17750997333403394.pdf .
+
+## Dual Stomp Lite
+
+Guitar/bass multi-effects, checked 2026-10-18; partial. Separate hardware from Dual Stomp and Tiny Stomp; ownership unknown.
+
+| Field | Finding / qualification |
+|---|---|
+| Instrument scope | Guitar/bass; 25 guitar + 5 bass amps and cabinets. [DSL-P] |
+| Expression / toe | Built-in/external expression and toe behavior unverified; no sibling inference. |
+| K/F/B | Separate counts unverified; manufacturer calls it Dual Footswitch, but complete control enumeration pending manual. [DSL-P] |
+| Display | 2-inch color TFT; touch unverified. [DSL-P] |
+| Processing / choices | Advertised 125 effects; ten simultaneous modules: GATE, OD/FX, AMP, CAB, EQ, MOD, DEL, REV, LOOP, DRUM. Own category enumeration pending; do not transfer Tiny’s count audit. [DSL-P] |
+| Factory / user memory | 99 user locations; 01–80 guitar, 81–99 bass. Factory/user relationship needs manual verification. [DSL-P] |
+| Synth / acoustic | Specific synthesis/acoustic simulation unverified. |
+| Dimensions / mass | 135L×116W×48H mm; 378 g. [DSL-P] |
+| I/O | Mono¼TS input; two¼unbalanced TRS-labelled mono outputs;⅛stereo phones;⅛TRRS AUX in/out;USB-C. TRS label does not establish balanced outputs. [DSL-P] |
+| Power / battery / USB | 2000mAh3.7V; up to6h;USB-C5V charging. Draw,USB-only operation,charge-while-audio andbarrelpolarity unverified. [DSL-P] |
+| IR / NAM / captures | Ten WAV IR slots:48kHz24bit512samples;tenNFILE slots. Aug25 2026manufacturer notice explicitly names Lite for automatic A2 conversion via StompManager1.0.2.1Mac/Windows,withoutfirmware update. Nativeexecution,architecture/size limits andonboard capture unverified. [DSL-P],[TS-A2] |
+| Editor / software | Own page lists StompManager Windows1.0.2.2,Mac1.0.2.1,Android1.0.1.0,iOS. SeparateDFU updater;currentOS minimums unverified. No installation. [DSL-P] |
+| USB audio / drivers | 2-in/2-out48kHz24bit. SharedV1.1.1notes explicitlyincludeLite:WindowsASIO6.14.0,MacCoreAudio;MIDIcontroller needsUSBhost. [DSL-P],[TS-FW] |
+| Looper / drums / live | 40sstereolooper,AutoRec,LoopSync;100patterns. Persistence,routing/scenes unverified. [DSL-P] |
+| Firmware / backup | V1.1.1 retains presets buterases importedNAM/IR;factoryreset deletesuserdata. No update performed. [TS-FW] |
+
+### Dual Stomp Lite — separate IDR hardware evidence
+
+| Condition | Amount / qualifications | Source |
+|---|---|---|
+| Used | Unknown;no qualifiedusedoffer. | — |
+| New | Unknown;condition notexplicit. | — |
+| Condition unverified;Habis | **Rp1,100,000**,cveri accessories,Jakarta Pusat,shop785734870/item19560049251. Checked2026-10-18;four-day index,directreader timeout. Bundle/variant/warranty/voucher/shipping/tax unknown. Relative4h delivery notstock proof;Rp10,000latecompensation notdiscount. Cachedsoldoutask,not completed sale. | [ExactShopee][DSL-S] |
+
+Mixed Tiny/Dual/Lite listing12356205/13073834841 displaysRp880,000–1,090,000 across three variants;not accepted as a Lite-specific price. Official V1.0.0 manual returned403;not read. No files downloaded orimages inspected. Resolve ownmanual/expression/controls/categorychoices before fullverification.
+
+[DSL-P]: https://soranaudio.com/products/27.html
+[DSL-S]: https://shopee.co.id/Soran-Audio-Dual-Stomp-Lite-Amp-Modeling-Multi-effects-Processor-Dual-Stomp-Lite-Efek-Gitar-i.785734870.19560049251
+
+Unread official manual: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17751002191595081.pdf . Rejected mixed listing: https://shopee.co.id/Soran-Modeling-Multi-effects-Processor-Pedal-Amp-Efek-Gitar-Original-TINY-STOMP-DUAL-STOMP-DUAL-STOMP-LITE-i.12356205.13073834841 .

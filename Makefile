@@ -1743,3 +1743,7 @@ research-commit-tinystomp:
 .PHONY: research-commit-dualstomp
 research-commit-dualstomp:
 	python3 scripts/research_tools.py commit-dualstomp
+
+.PHONY: research-commit-dualstomplite
+research-commit-dualstomplite:
+	python3 scripts/research_tools.py commit-dualstomplite
