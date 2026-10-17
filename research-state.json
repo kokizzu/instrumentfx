@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "GNX4 nine rotary/seven footswitch counts,user factory-fill and split routing verified from matching manufacturer manual mirror. Next numbered recorder panel for full button count,display and effect tables; no sibling inference.",
+    "task": "GNX4 recorder22buttons and main-control11buttons verified; total pending actual Effect/Amp selector counts (four amp edit rows do not prove four buttons). Next verify matrix selectors,display and category tables; CF recording requirement now explicit.",
     "next_models": [],
     "after_queue": "Other candidates/field gaps; no workflows/push."
   },
@@ -53185,5 +53185,15 @@
     "memory": "All80 user locations initially duplicate factory presets.",
     "routing": "Six output modes;Split1 guitar to quarter-inch/other sources XLR,Split2 guitar alsoXLR.",
     "remaining": "Recorder buttons,display specs,category counts,power contradiction."
+  },
+  "gnx4_recorder_panel_checkpoint_20261017": {
+    "source": "https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf",
+    "pages": "68–69",
+    "recorder_buttons": 22,
+    "basis": "6transport+8tracks+7 named functions+SHIFT;secondary labels not extra physical controls.",
+    "main_control_buttons": 11,
+    "total_buttons": "Unresolved matrix-selector inventory;do not infer four buttons from four edit rows.",
+    "storage": "No onboard recording memory;CompactFlash required. USB CF STORAGE file transfer shares bandwidth;manual advises against simultaneous computer audio recording.",
+    "display": "Separate recorder Song/Time readouts;technology/diagonal/color/touch unresolved."
   }
 }
