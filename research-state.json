@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Yamaha REV500",
-    "task": "Initial root record added. Next qualify exact topology counts, program-edit restrictions and MIDI control; preserve region-specific mains and backup-battery distinction.",
+    "task": "Ten topologies, STORE type constraint, MIDI map capacity and predelay limits saved. Next resume Shopee brand/series discovery; do not duplicate REV500 or treat map entries as memory count.",
     "next_models": [],
-    "after_queue": "283 partial records; resume Shopee discovery after model commit. No downloads/workflows/push."
+    "after_queue": "283 partial models; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57168,5 +57168,24 @@
       "IR/NAM/capture"
     ],
     "downloads": false
+  },
+  "rev500_topologies_20261017": {
+    "source": "https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf",
+    "printed_pages": "8–17",
+    "topology_count": 10,
+    "count_basis": "One reverb-only + parallel chorus + seven serial reverb combinations + echo/reverb; derived, not simultaneous blocks",
+    "preserved_limits": [
+      "Store destination cannot change program type",
+      "128 MIDI map entries versus200 stored programs",
+      "Predelay200ms except echo299.9ms",
+      "Parallel chorus bypasses common HPF/LPF",
+      "MIDI OUT echo only channel messages"
+    ],
+    "remaining": [
+      "Current editor OS",
+      "Display diagonal/color/touch",
+      "Visual control verification",
+      "Condition-qualified IDR offers"
+    ]
   }
 }

@@ -180,8 +180,8 @@ Checked2026-10-17; partial. [Official English operation manual][R5-M],28PDFpages
 | Expression | No integrated treadle; FC5 footswitch controls mute/program advance. Continuous EXP/toe unknown. |
 | Controls | Text-derived **5 rotary /0 integrated footswitches /8 buttons**, excluding power and rear level selectors. Visual audit pending. |
 | Display | LCD+LEDs; diagonal/color/touch unknown. |
-| Processing / choices | Reverb alone or combined: parallel chorus; serial gate,resonator,dynamic filter,chorus,flanger,symphonic,tremolo; echo/reverb. Fixed program architectures, not freely ordered blocks. |
-| Presets | **100 factory+100 user=200**; Hall/Room/Plate/Special,25 each per area. |
+| Processing / choices | **10 documented effect topologies**, derived: reverb alone; parallel chorus; seven serial reverb→gate/resonator/dynamic-filter/chorus/flanger/symphonic/tremolo; echo→reverb. Combined modes process two effect functions; not ten simultaneous blocks. Echo uses predelay feedback. Fixed program architectures, not freely ordered blocks. |
+| Presets | **100 factory+100 user=200**; Hall/Room/Plate/Special,25 each per area. STORE changes destination number but cannot change program type; unsaved edits disappear on recall/power-off. |
 | Synth / acoustic | Dedicated synthesis/acoustic conversion unknown. |
 | Dimensions / weight | **480W×45H×227.9Dmm;3.5kg**. |
 | I/O | L/R XLR and quarter-inch audio input/output; quarter-inch FOOT SW; MIDI in/out. +4/−10dB rear selectors. USB/headphones/phantom unestablished. |
@@ -203,3 +203,9 @@ Manual printed pp1–2,4–7,10–15,19–20; text-only review,no download. Comb
 
 [R5-M]: https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf
 [R5-O]: https://shopee.co.id/Yamaha-Rev500-i.137354453.22070535666
+
+### REV500 — editing and routing limits
+
+Checked2026-10-17 against [official manual][R5-M],printed pp8–17. Predelay0–200ms,or299.9ms in echo/reverb;reverb time0.3–99s. Parallel chorus bypasses common HPF/LPF; those filters affect the reverb path.
+
+MIDI CC12–16 controls predelay,reverb time,high-frequency ratio,early-reflection level,effect level. A128-entry MIDI map addresses200 stored programs;128 is not memory capacity. Pedal program advance follows this map and wraps at aselected1–128 limit. MIDI OUT echoes channel messages only when enabled. Editor compatibility remains unverified.
