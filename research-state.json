@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 289,
+  "active_model_count": 290,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 289,
+  "canonical_root_model_count": 290,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "289uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial. FloorPODPlus distinct fromoriginal;guitaronly.",
+  "count_reconciliation": "290uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial. ME5officialspec guitaronly;noinferredbass/vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "BOSS ME-5",
-    "task": "Exact ME5offer296332282/19845196980=Rp1.3mHabis direct3weekcache saved;conditionunknown. Next findownlegacyRoland/BOSSmanual (usequotedME-5) oridentityverifiedoriginalmirror,extractallrequiredfields beforeaddingrecord/count. Do notborrowME50/CE5/ES5.",
+    "task": "Officialspecpartialrecord saved;66pageofficialmanual scannedzeroextractedlines. Next seekidentityverifiedoriginaltextmirror forcategory/memory/control details;ignoregeneratedFAQs. No repeat unavailable imagepath withoutnewcapability.",
     "next_models": [],
-    "after_queue": "289partialactive;ME5leadnotyetadded;no downloads/workflows/push."
+    "after_queue": "290partialmodels;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23710,7 +23710,8 @@
       "ME-8",
       "GT-3",
       "KATANA:GO",
-      "AD-10"
+      "AD-10",
+      "ME-5"
     ],
     "CUVAVE": [
       "H8"
@@ -24258,7 +24259,8 @@
       "ME-8",
       "GT-3",
       "KATANA:GO",
-      "AD-10"
+      "AD-10",
+      "ME-5"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -24375,7 +24377,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 239,
+      "record_count": 240,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41347,10 +41349,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 289,
-    "canonical_root_models": 289,
+    "unique_brand_model_pairs": 290,
+    "canonical_root_models": 290,
     "legacy_only_models": 0,
-    "guitar_view_models": 239,
+    "guitar_view_models": 240,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
     "vocal_view_models": 56,
@@ -41410,7 +41412,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line6 Floor POD Plus."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41444,6 +41446,7 @@
       "BOSS::GT-3",
       "BOSS::KATANA:GO",
       "BOSS::AD-10",
+      "BOSS::ME-5",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -42229,6 +42232,13 @@
     },
     "BOSS::AD-10": {
       "link": "BOSS.md#ad-10",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::ME-5": {
+      "link": "BOSS.md#me-5",
       "source_files": [
         "BOSS.md"
       ],
@@ -58093,6 +58103,23 @@
       "VocalVX400"
     ],
     "other_results": "VX400adapteronly;noexactnewbass/vocalmodelestablished",
+    "downloads": false
+  },
+  "me5_primary_20261017": {
+    "canonical": "BOSS.md#me-5",
+    "spec": "https://support.roland.com/hc/en-us/articles/201924659-ME-5-Technical-Specifications",
+    "manual": "https://cdn.roland.com/assets/media/pdf/ME-5_OM.pdf",
+    "manual_access": "66pageszeroextractedlines;notvisuallyinspected",
+    "remaining": [
+      "Readableoriginalmanual",
+      "Controlsmechanisms/rotarycount",
+      "Factory/userpartition",
+      "Categorychoices/simultaneouscount",
+      "Mainsvoltage",
+      "Display",
+      "Editor/imports",
+      "Conditionqualifiedoffers"
+    ],
     "downloads": false
   }
 }

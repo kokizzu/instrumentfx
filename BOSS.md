@@ -2470,3 +2470,38 @@ Checked2026-10-17 against [eng04_W][AD10-PDF],printed pp7,9–10.
 |---|---|
 | Processing / choices | Named choices above exclude bypass. Ambience selects reverberation length,not documented room/hall algorithms. Category counts do not establish a total simultaneous-block limit. |
 | Looper / controls | DELAY+TUNER&MUTE enters loop operation;TUNER&MUTE records,plays,and overdubs. Stop requires two presses;clear requires holding LOOP at least2s while stopped. Sequence defaults record→play→overdub;record→overdub→play is selectable. Playback level50 is unity. Power-off phrase retention,undo/redo,and phrase export remain unverified. |
+
+## ME-5
+
+Guitar multiple effects,1988–1992;checked2026-10-17;partial. [Own Roland specifications][ME5-P],updated2024-06-26. Bass/vocal capability andownership unverified.
+
+| Field | Verified evidence / gaps |
+|---|---|
+| Expression | External **EV-5** listed;built-in/toe unverified. |
+| Controls | Listed switches:fourParameter,twoValue,ModeSelector,Write;fourNumberpedals+Bank. **5foot/8named nonfoot controls**;ModeSelector mechanism androtary count need manual/panel audit. |
+| Display | Group,Bank/Value display+effect/parameter/mode/number indicators;diagonal,color,touch unknown. |
+| Processing / choices | Compressor;Overdrive/Distortion;EQ;Chorus/Flanger;DigitalReverb/Delay;noise suppressor andsend/return. Category choices/simultaneous maximum pending. Delay **1–500ms**. |
+| Factory / user memory | **64patch capacity**;factory-filled/editable partition unknown. |
+| Synth / acoustic | Unverified. |
+| Dimensions / mass | **350W×212D×66Hmm including rubber feet;3kg**. |
+| I/O | Input,Amono/Boutputs,TunerOut,headphones,send/return,ExpressionIn,Manual,GroupShift,MIDIIn/Out. Connector sizes pending. USB unlisted. |
+| Power / batteries | **12W consumption**;regional mains voltage,battery support unresolved. DCpolarity/USBpower not established. |
+| IR / NAM / captures | User loading unverified. |
+| Editor / platforms | Unverified;MIDI presence alone proves no editor. |
+| Looper / drums / live | Unverified;FS-5U/DP-2 optional footswitches listed. |
+
+### ME-5 — separate IDR offers
+
+| Condition | Amount / qualifications | Offer |
+|---|---|---|
+| Used | Unknown | — |
+| New | Unknown | — |
+| Condition unverified / atikah141084,KotaBandung | **Rp1,300,000;Habis**;shop296332282/item19845196980;last-month search index,direct three-week cache2026-10-17. | [Shopee][ME5-S] |
+
+Seller normal/original/MadeinJapan claims unverified;liveStock,workingstate,variant,bundle,warranty,voucher,shipping/tax unknown. Stale27–30August delivery. Earlier Rp2mSurabaya category card is a separate unresolved lead,not this item.
+
+[Official owner manual][ME5-M] resolves to66-page scanned PDF withzero extracted lines;no visualinspection/download claimed. Its presence does not verify unread parameters.
+
+[ME5-P]: https://support.roland.com/hc/en-us/articles/201924659-ME-5-Technical-Specifications
+[ME5-M]: https://cdn.roland.com/assets/media/pdf/ME-5_OM.pdf
+[ME5-S]: https://shopee.co.id/efek-legend-digital-pertama-1988-dari-merk-BOSS-tipe-boss-ME-5-normal-original-Made-in-japan-i.296332282.19845196980
