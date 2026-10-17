@@ -1591,3 +1591,7 @@ research-commit-rfx1100:
 .PHONY: research-commit-b21u
 research-commit-b21u:
 	python3 scripts/research_tools.py commit-b21u
+
+.PHONY: research-commit-criticalmass
+research-commit-criticalmass:
+	python3 scripts/research_tools.py commit-criticalmass

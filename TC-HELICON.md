@@ -694,3 +694,40 @@ Remaining: manufacturer original and hardware applicability of quick-start revis
 
 [HS2-Q5]: https://device.report/manuals/harmony-singer-2-quick-start-guide
 [HS2-Q5INDEX]: https://www.manualslib.com/manual/3373982/Tc-Helicon-Harmony-Singer-2.html
+
+## Critical Mass
+
+Vocal-only multi-effects;checked 2026-10-17. Partial verification;unknown is not No.
+
+| Field | Evidence / qualification |
+|---|---|
+| Instrument scope | Microphone vocal processing;guitar/bass eligibility unverified |
+| Expression | No built-in pedal/toe;external expression unverified |
+| Knobs / footswitches / buttons | 3 rotary:Style,Mix,Reverb;1 footswitch;1 Tone button;power switch separate [CM-M p.3] |
+| Display | Battery/status LEDs;screen diagonal/color/touch unverified |
+| Processing / categories | Group vocals,3 reverbs andAdaptive Tone EQ/compression/de-essing/gate. Style has Melodic/Gang families;exact style subtotal requires panel verification. Maximum independently assignable blocks unverified [CM-Q,CM-M] |
+| Preset memory | Stored factory/user/total memory counts unverified;styles are not established as writable patches |
+| Synth / acoustic / pitch | Product document claims automatic pitch correction;own manual inspected does not confirm its operation. Dedicated synth/acoustic simulator unverified [CM-P,CM-M] |
+| IR / NAM / captures | IR import,native/converted NAM andmeasured capture support unverified |
+| Audio / control ports | XLR mic input;XLR impedance-balanced output;microUSB;9V power. Always-active24V phantom;MP75 Mic Control,disabled for condenser use [CM-M pp.3–5] |
+| Analog levels / conversion | Input clip−1dBu;output full-scale+7.5dBu. Conversion resolution/rate unverified [CM-M p.5] |
+| Power / battery / USB | QSG9V/>300mA;2017manual9V/670mA,6W.4AA supported. Polarity,battery runtime andUSB operation power unverified;do not select adapter from incomplete record [CM-Q,CM-M] |
+| Dimensions / weight | 140×90×60mm;420g;manual axis order unspecified [CM-M p.5] |
+| Editor / software | VoiceSupport firmware updating via microUSB;editor platforms andUSB audio unverified [CM-M p.3] |
+| Looper / drums / live | Tap bypasses group;hold bypasses group+reverb. Tone Normal/Less Bright selectable. Looper/drums/scenes/spillover unverified [CM-M p.3] |
+
+### Critical Mass — separate IDR evidence
+
+| Price class | Amount | Offer and limits |
+|---|---:|---|
+| Verified used IDR | ? | Exact qualified item not established |
+| Verified new IDR | ? | Exact qualified item not established |
+| Unqualified shop/search leads | Not assigned | [WIYUNG shop](https://shopee.co.id/5h6fvtwung):five-month indexed Rp3.695.000 “Produk Baru”;direct retrieval failed. [Search grid](https://shopee.co.id/search?keyword=harga+tc+helicon):Rp2.280.935,Sukabumi;reopening returned unrelated products. Checked2026-10-17. Exact seller/item,variant,condition,stock,bundle,voucher andwarranty unverified;neither accepted as model price |
+
+### Critical Mass — sources and remaining verification
+
+- [CM-Q: official quick-start](https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/CRITICAL%20MASS_QSG_EN.pdf),indexed text;direct502.
+- [CM-P: official P0CGT product document](https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf),indexed text;direct502. Pitch claim retained as unconfirmed operational evidence.
+- [CM-M: manufacturer-authored2017 user manual,6-page mirror](https://www.handleiding.guide/pdf/817823),cover/model/control text matched;web text inspected. No generated mirror FAQ used;no filesystem download.
+
+Remaining:exact style/voice counts,power/polarity conflict,pitch claim,screen/software/memory gaps andqualified hardware offers. No sibling specifications substituted.

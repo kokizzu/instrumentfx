@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 238,
+  "active_model_count": 239,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 238,
+  "canonical_root_model_count": 239,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "238 unique active/root-canonical models;zero legacy-only;31brands. B2.1u added bass-only;no mixed-market minimum assigned. Six excluded archives.",
+  "count_reconciliation": "239 unique active/root-canonical models;zero legacy-only;31brands. CriticalMass vocal-only;unknownqualifiedIDR,ownmanual power conflict retained. Six excluded archives.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "TC-Helicon Critical Mass",
-    "task": "Use saved manufacturer QSG/product document to create vocal-only partial record with qualified IDR unknown if exact Shopee item remains unavailable. Resolve product-document pitch-correction claim against own fullmanual;neverborrow sibling specs. Commitbefore nextmodel.",
+    "task": "Verify own manual panel style/voice counts andpower revision/polarity;preserve9V>300mAQSG vs670mA6Wmanual andunconfirmedpitchclaim. Alreadyadded vocal-only,do notduplicate.",
     "next_models": [],
-    "after_queue": "Legacybass discovery,technical gaps andmigration;no downloads/workflows."
+    "after_queue": "Broader technical gaps,legacybass andmigration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -5007,6 +5007,17 @@
       ],
       "finding": "Bass-only9simultaneous47choices,40+40memory,internaltoe/externalvolume,USBaudio/rhythm restrictions.",
       "remaining": "Category/userfill/USB details,display andexactoffers"
+    },
+    {
+      "model": "TC-Helicon Critical Mass",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.handleiding.guide/pdf/817823",
+        "https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/CRITICAL%20MASS_QSG_EN.pdf"
+      ],
+      "finding": "Group/reverb/AdaptiveTone vocal processor;own2017manual phantom/MicControl,power conflict. No exact qualified Shopee price.",
+      "remaining": "Style counts,power/pitch/memory/display/software andoffers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23781,7 +23792,8 @@
       "PERFORM-VE",
       "Mic Mechanic 2",
       "Duplicator",
-      "Harmony Singer 2"
+      "Harmony Singer 2",
+      "Critical Mass"
     ],
     "Valeton": [
       "GP-100",
@@ -24138,7 +24150,8 @@
       "PERFORM-VE",
       "Mic Mechanic 2",
       "Duplicator",
-      "Harmony Singer 2"
+      "Harmony Singer 2",
+      "Critical Mass"
     ],
     "CUVAVE.md": [
       "H8"
@@ -24212,8 +24225,8 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 42,
-      "vocal_only_count": 21,
+      "record_count": 43,
+      "vocal_only_count": 22,
       "combined_instrument_count": 21,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
@@ -41103,13 +41116,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 238,
-    "canonical_root_models": 238,
+    "unique_brand_model_pairs": 239,
+    "canonical_root_models": 239,
     "legacy_only_models": 0,
     "guitar_view_models": 194,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 42,
+    "vocal_view_models": 43,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41496,6 +41509,7 @@
       "TC-Helicon::Mic Mechanic 2",
       "TC-Helicon::Duplicator",
       "TC-Helicon::Harmony Singer 2",
+      "TC-Helicon::Critical Mass",
       "Zoom::V6-SP",
       "Zoom::V3",
       "Zoom::RFX-1100",
@@ -42751,6 +42765,13 @@
     },
     "TC-Helicon::Harmony Singer 2": {
       "link": "TC-HELICON.md#harmony-singer-2",
+      "source_files": [
+        "TC-HELICON.md"
+      ],
+      "finding_files": []
+    },
+    "TC-Helicon::Critical Mass": {
+      "link": "TC-HELICON.md#critical-mass",
       "source_files": [
         "TC-HELICON.md"
       ],
