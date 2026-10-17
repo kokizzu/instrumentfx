@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-100",
-    "task": "GP-100 firmware-1.8 category census saved with 153 menu choices versus overview150 and product140+ conflict. Next verify remaining GP-100 expression assignments, USB routing and Global EQ restrictions from printed pp8–13, then return to Shopee brand/series discovery. Current/native NAM and screen diagonal remain unknown. No downloads; commit before next model.",
+    "task": "GP-100 firmware-1.8 category census and control/USB/Global EQ restrictions saved. Resume Shopee Indonesia brand/series discovery for eligible unrecorded models; inspect existing inventory before adding. GP-100 current firmware/native NAM, display diagonal and qualified live stock remain unresolved. No downloads; commit useful model evidence before researching another.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56793,6 +56793,12 @@
       "model": "Valeton GP-100",
       "checked_date": "2026-10-18",
       "finding": "Completed firmware-1.8 category census: DST17 AMP45 CAB40; nine-category sum153 versus overview150. Boost listed in PRE and DST. CAB includes bass cabinets and acoustic body simulations. Do not infer unique algorithms or current installed contents.",
+      "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf"
+    },
+    {
+      "model": "Valeton GP-100",
+      "checked_date": "2026-10-18",
+      "finding": "Firmware-1.8 manual confirms three reversible expression targets, off-state PRE/POST volume, 1–3 modules per stomp switch, independent L/R No CAB and USB Dry/Effect routing, and Global EQ USB exclusion/DSP overload restriction.",
       "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf"
     }
   ],

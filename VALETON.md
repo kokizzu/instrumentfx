@@ -244,6 +244,17 @@ Checked 2026-10-18 against the same firmware-1.8 manual.
 | Category choices / CAB | **40 factory choices**, printed pp31–33: page subtotals **11 + 19 + 10**. Includes four bass cabinets and four acoustic-body simulations; these are not forty conventional guitar cabinets. User IR slots are separate. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
 | Effects total / source conflict | Nine category counts sum to **153**: 14 + 17 + 45 + 2 + 40 + 3 + 12 + 11 + 9. The overview says **150**; Boost appears in both PRE and DST. This is a menu-choice census, not proof of 153 unique algorithms or current firmware contents. Preserve the separate 140+ product claim. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
 
+### GP-100 — control and recording restrictions, firmware 1.8
+
+Checked 2026-10-18 in the manufacturer-authored firmware-1.8 manual; revision scope applies.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression assignments / volume | Up to **three parameter targets**; each MIN/MAX spans 0–100 and can be reversed. When expression is off, the pedal controls volume: PRE before input level, or POST before master volume. Toe pressure activates expression. Printed pp6,10–12. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Footswitch / routing | STOMP assigns **1–3 module switches per footswitch**. Global No CAB independently bypasses cabinet processing on left/right outputs without rewriting saved presets. Input trim −20 to +20 dB. Printed pp8–10. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| USB audio routing | Left and right recording sources independently select Dry or Effect. Record level −20 to +20 dB; monitor −20 to +6 dB. Printed p12. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| EQ / Global EQ DSP restriction | Four parametric bands plus low/high cuts; **does not affect USB audio output**. Resource-heavy patches can overload when Global EQ is applied. Printed pp13–14. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+
 ## GP-150
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
