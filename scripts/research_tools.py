@@ -377,7 +377,7 @@ def main():
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-criticalmass':
-            message = 'research(tchelicon): add Critical Mass with own manual and unresolved power claims'
+            message = 'research(tchelicon): qualify Critical Mass style wording and power specificity'
         if mode == 'commit-b21u':
             message = 'research(zoom): reconcile B2.1u module choices and acoustic amp distinction'
         if mode == 'commit-rfx1100':

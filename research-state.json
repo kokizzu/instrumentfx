@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon Critical Mass",
-    "task": "Verify own manual panel style/voice counts andpower revision/polarity;preserve9V>300mAQSG vs670mA6Wmanual andunconfirmedpitchclaim. Alreadyadded vocal-only,do notduplicate.",
+    "model": "Coverage audit",
+    "task": "Audit required-field gaps and legacy migration next; inspect current ledger rather than repeating alreadyresolved B2.1u/RFX/SPX details. CriticalMass remainspartial withspecific power statements,notprovenincompatibility;qualifiedIDRunknown.",
     "next_models": [],
-    "after_queue": "Broader technical gaps,legacybass andmigration;no downloads/workflows."
+    "after_queue": "Fresh hardware discovery asneeded;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -41179,7 +41179,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Critical Mass."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Coverage audit."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -50644,6 +50644,14 @@
       "pages": "25–34",
       "finding": "Module counts2+8+16+1+2+2+10+3+3=47;drive16=13amp/drive3synth. ACOUSTIC isAcoustic360bassamp,notacsim;Defret distinct.",
       "remaining": "Qualifiedoffers,display/currentsoftware andadditionalrestrictions"
+    },
+    {
+      "model": "TC-Helicon Critical Mass",
+      "checked_date": "2026-10-17",
+      "source": "https://www.handleiding.guide/pdf/817823",
+      "pages": "3,5",
+      "finding": "Manual saysfourstyles withunison/doubledoctaves;family allocation/selector total notinferred. Corrected power wording:670mAsatisfies>300mA;differentspecificity doesnotprovecontradiction.",
+      "remaining": "Panelstyleallocation,polarity/revision,pitchclaim,software/memory/offers"
     }
   ],
   "discovery_cross_brand_bass": {

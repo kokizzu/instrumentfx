@@ -705,13 +705,13 @@ Vocal-only multi-effects;checked 2026-10-17. Partial verification;unknown is not
 | Expression | No built-in pedal/toe;external expression unverified |
 | Knobs / footswitches / buttons | 3 rotary:Style,Mix,Reverb;1 footswitch;1 Tone button;power switch separate [CM-M p.3] |
 | Display | Battery/status LEDs;screen diagonal/color/touch unverified |
-| Processing / categories | Group vocals,3 reverbs andAdaptive Tone EQ/compression/de-essing/gate. Style has Melodic/Gang families;exact style subtotal requires panel verification. Maximum independently assignable blocks unverified [CM-Q,CM-M] |
+| Processing / categories | Group vocals,3 reverbs andAdaptive Tone EQ/compression/de-essing/gate. Style has Melodic/Gang families; manual says four styles using unison/doubled octave voices. Total selector positions and allocation between families require panel verification. Maximum independently assignable blocks unverified [CM-Q,CM-M] |
 | Preset memory | Stored factory/user/total memory counts unverified;styles are not established as writable patches |
 | Synth / acoustic / pitch | Product document claims automatic pitch correction;own manual inspected does not confirm its operation. Dedicated synth/acoustic simulator unverified [CM-P,CM-M] |
 | IR / NAM / captures | IR import,native/converted NAM andmeasured capture support unverified |
 | Audio / control ports | XLR mic input;XLR impedance-balanced output;microUSB;9V power. Always-active24V phantom;MP75 Mic Control,disabled for condenser use [CM-M pp.3–5] |
 | Analog levels / conversion | Input clip−1dBu;output full-scale+7.5dBu. Conversion resolution/rate unverified [CM-M p.5] |
-| Power / battery / USB | QSG9V/>300mA;2017manual9V/670mA,6W.4AA supported. Polarity,battery runtime andUSB operation power unverified;do not select adapter from incomplete record [CM-Q,CM-M] |
+| Power / battery / USB | QSG:9V/>300mA;2017 manual:9V/670mA,6W. These differ in specificity, not necessarily compatibility:670mA satisfies >300mA, while the QSG alone does not establish an exact adequate rating.4AA supported. Polarity,battery runtime andUSB operating power unverified [CM-Q,CM-M] |
 | Dimensions / weight | 140×90×60mm;420g;manual axis order unspecified [CM-M p.5] |
 | Editor / software | VoiceSupport firmware updating via microUSB;editor platforms andUSB audio unverified [CM-M p.3] |
 | Looper / drums / live | Tap bypasses group;hold bypasses group+reverb. Tone Normal/Less Bright selectable. Looper/drums/scenes/spillover unverified [CM-M p.3] |
@@ -730,4 +730,4 @@ Vocal-only multi-effects;checked 2026-10-17. Partial verification;unknown is not
 - [CM-P: official P0CGT product document](https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf),indexed text;direct502. Pitch claim retained as unconfirmed operational evidence.
 - [CM-M: manufacturer-authored2017 user manual,6-page mirror](https://www.handleiding.guide/pdf/817823),cover/model/control text matched;web text inspected. No generated mirror FAQ used;no filesystem download.
 
-Remaining:exact style/voice counts,power/polarity conflict,pitch claim,screen/software/memory gaps andqualified hardware offers. No sibling specifications substituted.
+Remaining:exact selector/voice counts,power polarity/revision confirmation,pitch claim,screen/software/memory gaps andqualified hardware offers. Do not label the >300mA/670mA statements mutually contradictory without additional evidence. No sibling specifications substituted.
