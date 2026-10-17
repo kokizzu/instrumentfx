@@ -165,6 +165,15 @@ Sources: [effects/findings/2026-10-14-hotone-ampero-mini.md](effects/findings/20
 | Processing / Mini2.2 additions | Mini’s own notes add **Precise Attack** in FX1/FX2 and **Match30 Clean** in AMP. Do not infer a new unique library total from the older199-effect headline plus these changes. Installed firmware and current complete category inventory remain unknown; no downloads or execution performed. |
 
 
+### Ampero Mini — controls and analog routing, 2026-10-17
+
+| Field | Verified finding / limitation |
+|---|---|
+| Controls / complete inventory | [Manufacturer-authored V1.0 manual, indexed numbered panel p2](https://manualzz.com/doc/html/80504220/hotone-ampero-mini-user-manual): **1 rotary /2 footswitches /0 separate buttons**. The rear volume knob controls all output connections; connecting the adapter powers the unit. This resolves the earlier unknown rotary total. Text-derived inventory; no new visual inspection. Onscreen plus/minus controls are not physical buttons. |
+| I/O / output wiring and levels | [Hotone’s own Mini page](https://www.hotone.com/products/multi-effects/Ampero%20Mini) specifies **unbalanced stereo TRS**, with **tip=L, ring=R** and a Y cable for separate channels. Do not treat it as one balanced mono output. Impedances: instrument4.7 MΩ, AUX10 kΩ, main output1 kΩ, headphones22 Ω. |
+| I/O / AUX and USB boundaries | The same product page says AUX bypasses internal effects and USB audio. Windows recording requires the driver; macOS is described as plug-and-play, with no current OS-version guarantee. USB Audio2.0 is a protocol specification, not proof of channel count or bus power. Exact USB stream channels/formats and user IR capacity remain unresolved. |
+
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

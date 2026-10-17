@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero Mini MP-50",
-    "task": "OriginalAmpero andMini convertedNAM A2 updates committed separately; Mini2.2clone10stored/1active andmodeladditions saved. Next currentMini controls/IRcapacity orfreshShopeediscovery; avoid readding existingmodelprofiles.",
+    "task": "Mini1/2/0controls andunbalancedstereoTRSwiring verified;AUX/USBboundaries saved. IRcapacity/streamformats/currentinventory remain. Next ownmanual IRslots orfreshShopeediscovery;no siblingborrowing/oversizedPDFrepeat.",
     "next_models": [],
     "after_queue": "Continue research and legacy consolidation; no workflows/downloads/push."
   },
@@ -58809,6 +58809,26 @@
       "AMP"
     ],
     "limits": "SeparateIR/proprietaryclone/conversion;notnative or onboardcaptureproof;currentcompleteinventory/OSmatrix unknown",
+    "downloads": false
+  },
+  "ampero_mini_controls_io_20261017": {
+    "manual": "https://manualzz.com/doc/html/80504220/hotone-ampero-mini-user-manual",
+    "manual_scope": "ManufacturerV1.0panelp2indexedoriginal",
+    "controls": {
+      "rotary": 1,
+      "footswitch": 2,
+      "buttons": 0
+    },
+    "product": "https://www.hotone.com/products/multi-effects/Ampero%20Mini",
+    "output": "UnbalancedstereoTRS tipL/ringR;notbalancedmono",
+    "impedance": "4.7Minput/10kAux/1kOut/22ohmphones",
+    "aux": "Bypasses effects/USBaudio",
+    "remaining": [
+      "UserIRcapacity",
+      "ExactUSBstreamchannels/formats",
+      "CurrentOSmatrix",
+      "Currentcompletealgorithmcounts"
+    ],
     "downloads": false
   }
 }
