@@ -206,6 +206,15 @@ Korg links the four-page AX5-Series EasyStart directly from AX5G support. Its fi
 
 [AX5-E]: https://cdn.korg.com/us/support/download/files/5802e92ca055dc3e0b4c1a9d389e642a.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX5_Series_EasyStart.pdf&response-content-type=application%2Fpdf%3B
 
+### AX5G — converters and pedal assignment limits
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / converters | **24-bit A/D and D/A, 31.25 kHz**. Confirmed by original manual and regional specifications; no USB audio or oversampling factor inferred. | [Manual p13][AX5-M]; [Specifications][AX5-S] |
+| Expression / Quick Assign | Only parameters signaled by a blinking program-switch LED accept pedal assignment; hold pedal-setting about one second. Heel/toe endpoint values are editable. Changing the controlled effect category resets its target to the designated default parameter. | [Manual pp9–10][AX5-M] |
+| Expression / automatic effect state | FX PARAM automatically enables its effect. Returning to VOLUME without moving the pedal or editing restores that effect to off; after movement/editing it stays on. Changing PRE away from WAH switches a WAH assignment to VOLUME. | [Manual p10][AX5-M] |
+| Expression / sensitivity calibration | Power on holding pedal-setting+WRITE. Return pedal toward yourself, then advance to the desired switching point using a **foot**. Remove foot, let pedal return slightly, then WRITE; CANCEL aborts. Manual explicitly prefers foot over hand; no hardware action performed. | [Manual pp11–12][AX5-M] |
+
 ## AX10G
 
 Guitar multi-effects, distinct from AX10B/AX10A. Checked2026-10-17; partial. Bass/vocal suitability and ownership unverified. Korg lists discontinued/sold out.

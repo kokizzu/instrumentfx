@@ -554,7 +554,7 @@ def main():
         if mode == 'commit-ving-coverage':
             message = 'research(ving): preserve seller and app identity qualifications in comparison rows'
         if mode == 'commit-ax5g':
-            message = 'research(korg): clarify AX5G six-effect accounting and amp-only output targets'
+            message = 'research(korg): qualify AX5G converters and pedal assignment limits'
         if mode == 'commit-rockstage':
             message = 'research(sonicake): qualify RockStage regional corroboration and manual limits'
         if mode == 'commit-blackhammer':

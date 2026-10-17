@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX1000G",
-    "task": "Trainer transport/editing limits and calibration saved. Commit before next model. Power polarity/current, display dimensions/color/touch, imports, editor and current price gaps remain; next primary gaps or new series discovery, no downloads/workflows.",
+    "model": "Korg AX5G",
+    "task": "Converter and expression assignment/calibration limits saved. Commit before next model. Body/count source conflicts, power polarity/current, display/import/editor and fresh qualified-price gaps persist; do not infer diagram order from text extraction. Continue primary evidence and series discovery; no downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX1000G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX5G."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57116,6 +57116,15 @@
       "finding": "Added trainer reverse/double-speed/Hold navigation, editing and incompatible-block restrictions, exact pedal calibration. AX1000G/AX100B/AX30B/AX300B Shopee queries yielded existing offers/accessories only, no new qualified hardware.",
       "sources": [
         "https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf"
+      ]
+    },
+    {
+      "model": "Korg AX5G",
+      "checked_date": "2026-10-18",
+      "finding": "Added24bit/31.25kHz converters, Quick Assign eligibility/default target reset, automatic effect state and foot-based pedal calibration. AX5G/AX3B/AX2000G/AX300G Shopee discovery returned existing AX5G and accessory/mixed-model evidence only.",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/fbe8655e2b64942cfb5073f5a39aa69f.pdf?response-content-disposition=inline%3Bfilename%3DAX5G_OM_EFG2.pdf&response-content-type=application%2Fpdf%3B",
+        "https://www.korg.com/de/products/effects/ax5g/page_2.php"
       ]
     }
   ],
