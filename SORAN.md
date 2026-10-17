@@ -190,3 +190,19 @@ Mixed Tiny/Dual/Lite listing12356205/13073834841 displaysRp880,000–1,090,000 a
 [DSL-S]: https://shopee.co.id/Soran-Audio-Dual-Stomp-Lite-Amp-Modeling-Multi-effects-Processor-Dual-Stomp-Lite-Efek-Gitar-i.785734870.19560049251
 
 Unread official manual: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17751002191595081.pdf . Rejected mixed listing: https://shopee.co.id/Soran-Modeling-Multi-effects-Processor-Pedal-Amp-Efek-Gitar-Original-TINY-STOMP-DUAL-STOMP-DUAL-STOMP-LITE-i.12356205.13073834841 .
+
+### Dual Stomp Lite — electrical limits and manual identity lead
+
+Checked 2026-10-18 against the exact [manufacturer product table][DSL-P].
+
+| Field | Published limit / qualification |
+|---|---|
+| Audio levels / ports | Input: 470 kΩ, maximum 2 V RMS. Main outputs: published 10 kΩ, maximum 2 V RMS. Phones: 10 Ω, maximum 2 V RMS. TRRS AUX: 47 kΩ input, maximum 1.5 V RMS input/output. These are Lite’s own values; the main output impedance is retained as published. |
+| Audio conversion / processing | ADC and DAC each 48 kHz/24-bit, 95 dB dynamic range and 20 Hz–20 kHz response; separate S/N specification 100 dB. Measurement conditions are not stated. These figures do not establish clipping immunity or operating current. |
+
+A new [12-page PDF lead][DSL-Q] exposes cover text **AE-100M Amp Modeler / Effect Processor, JME-02** and compliance text. The filename identifies a V2Q document. Its mirror HTML calls the product Dual Stomp Lite, but the PDF’s operating pages are not extractable and web screenshot calls returned no visible images. Therefore control counts, expression support, charging behavior and identity/revision equivalence remain unverified. The cover/model code is a lead, not proof that all summarized operating instructions match the current Lite. No additional active model was created for AE-100M.
+
+The [mirror transcription][DSL-QH] is retained for locating a readable original; its control enumeration is not promoted to verified evidence. No PDF was saved locally, and no app or firmware installed.
+
+[DSL-Q]: https://device.report/m/3a927c202f4a099de41749af0c98d7c544b926bdf6a02678d84be32686b95e00.pdf
+[DSL-QH]: https://device.report/manual/19170657

@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Soran Dual Stomp Lite",
-    "task": "Initialpartialrecordsaved;next ownoriginalmanual/control/expression/categoryaudit andqualifiedused/newoffers. Do not repeat known403 routes withoutnewsource. Then freshShopee bass/vocal discovery.",
+    "model": "Shopee bass/vocal discovery",
+    "task": "Fresh brand/series discovery afterSoran records. RetainGoRigB/Dual/Lite originalmanual/control gaps;LiteAE100M/JME02PDFcoverlead saved butoperatingpagesunreadable. Do not retry unchanged failedroutes.",
     "next_models": [],
-    "after_queue": "321active;allprior technical/market/ownership/migration gapsremain;no downloads/workflows/push."
+    "after_queue": "321active;alltechnical/market/ownership/migration work remains incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41998,7 +41998,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Soran Dual Stomp Lite."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee bass/vocal discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -65440,5 +65440,31 @@
       "945642322/53058616895 Rp1030000Habis"
     ],
     "manual": "https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17751002191595081.pdf403"
+  },
+  "soran_lite_manual_followup_20261018": {
+    "status": "Own electrical limits saved;PDFlead identified butoperatingpagesunreadable",
+    "source": "https://soranaudio.com/products/27.html",
+    "electrical": {
+      "input_impedance_ohm": 470000,
+      "input_max_vrms": 2,
+      "main_impedance_ohm_published": 10000,
+      "main_max_vrms": 2,
+      "phones_impedance_ohm": 10,
+      "phones_max_vrms": 2,
+      "aux_input_impedance_ohm": 47000,
+      "aux_max_vrms": 1.5,
+      "ad_da": "48kHz24bit95dB",
+      "snr_db": 100
+    },
+    "manual_lead": {
+      "url": "https://device.report/m/3a927c202f4a099de41749af0c98d7c544b926bdf6a02678d84be32686b95e00.pdf",
+      "cover": "AE-100M Amp Modeler / Effect Processor,JME-02",
+      "filename": "JME-02说明书V2Q.cdr",
+      "pages": 12,
+      "read": "Cover/compliance text only;no usable operatingtext orvisible screenshot",
+      "qualification": "Model/revision equivalence tocurrentLite not established;no specborrowing/no newAE100Mrecord",
+      "transcription": "https://device.report/manual/19170657"
+    },
+    "remaining": "Controls/expression/routing/charging/categorycounts need readableoriginal;do not certify mirrorHTML"
   }
 }
