@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Eventide H90",
-    "task": "H90three synth architectures verified fromown1.12.5;PolySynthvoicecount notnotepolyphonyceiling,HotSawzmono,SynthonizerH9restrictionsnotborrowed. Next freshShopeediscovery orothermodeltechnicalgaps;H90USB/display/memory/imports/massconflictsremain.",
+    "task": "H90 performance mappings verified: three mutually exclusive HotSwitches, two assignment pages, aux/MIDI trigger rules and independent tap behavior. Continue fresh Shopee discovery or unresolved per-model technical fields. USB/display/memory/imports/mass conflicts remain.",
     "next_models": [],
     "after_queue": "Continue fullresearch/discovery/consolidation;no downloads/workflows/push."
   },
@@ -59618,5 +59618,53 @@
       "checked_date": "2026-10-17",
       "result": "Exacttitle andmodel searches again returned HopeMusic mixed shopcard,not exactitem/selectedvariant;no G2.1Nu priceallocation oractiveaddition."
     }
+  },
+  "h90_performance_20261017": {
+    "sources": [
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/edit-modes/parameters.html",
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/play-modes/perform.html"
+    ],
+    "findings": [
+      "Three mutually exclusive HotSwitch parameter snapshots, not extra algorithms or memory slots.",
+      "Two assignment pages across three physical footswitches.",
+      "HotKnob P/A/B macros and reversible expression mapping.",
+      "Aux normally-open momentary or MIDI CC press>=64/release<=63 required for complete trigger behavior.",
+      "Preset tap independent when unsynced; sync switches to Program BPM."
+    ],
+    "remaining": [
+      "Drums",
+      "USB audio/bus power",
+      "Published display specifications",
+      "Total storage and factory fill",
+      "Import support",
+      "Dimension/mass conflict"
+    ],
+    "verification": "Manufacturer HTML text only; no downloads, operation or visual inspection."
+  },
+  "discovery_after_preservation_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Rocktron\" \"Utopia G100\"",
+      "site:shopee.co.id \"Zoom\" \"GFX-8\"",
+      "site:shopee.co.id \"DigiTech\" \"RP350\" efek"
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+        "reason": "Replacement sensor, not full processor."
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+        "reason": "Power adapter, not processor."
+      },
+      {
+        "url": "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463",
+        "reason": "Power adapter, not processor."
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+        "reason": "Power adapter, not processor."
+      }
+    ],
+    "result": "No usable full-unit offer from these queries; not market-absence proof."
   }
 }

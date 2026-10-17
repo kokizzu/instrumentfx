@@ -86,7 +86,7 @@ Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownersh
 | Processing / conversion and latency | **48kHz;24-bit AD/DA;32-bit float DSP**. Manual:parallel3.8ms/series4.5ms;each insert adds3.8ms plus configured compensation. Not USB audio format evidence. [Specs][H90-S] |
 | IR / NAM / capture import | Unverified; preset/list import is not proof of IR or amp capture. |
 | Editor / platforms | Current **Eventide Control Mac/PC/iPad**, Bluetooth/USB-C; older manual calls it H90 Control. Desktop **Eventide Control2.2.0 requires H90 firmware1.9.4+**; **Current Eventide Control requirements:Windows10+ Intel,macOS10.14+ Intel/Apple Silicon,iPadOS15+**;Bluetooth explicitly Mac/iPad. Older H90 Control manual1.12.5 lists macOS10.13+,Windows10+,iPadOS15+;retain application distinction. iPad app version pending. [Current app][H90-C],[Older app manual][H90-CM]. [Downloads][H90-D] [P][H90-P],[Rear][H90-R] |
-| Looper / drums / live | Tuner and **0–30s configurable spillover** documented. DSP bypass allows tails; relay does not and is unavailable on Dual Path2(I/O3–4). AB Only bypasses A/B while leaving inserts active. [Global1.12.5][H90-B]; **Looper stereo:60s full-quality headline; speed table2x60s/1x120s/½x240s/¼x480s**, slower recording trades fidelity for length. Undo/redo, reverse, MIDI clock, one-button control; Punch/Repl-Punch unavailable in one-button mode. Max length only changes while empty. Drums/scenes and detailed HotSwitch behavior pending. [Looper1.12.5][H90-L] [P][H90-P] |
+| Looper / drums / live | Tuner and **0–30s configurable spillover** documented. DSP bypass allows tails; relay does not and is unavailable on Dual Path2(I/O3–4). AB Only bypasses A/B while leaving inserts active. [Global1.12.5][H90-B]; **Looper stereo:60s full-quality headline; speed table2x60s/1x120s/½x240s/¼x480s**, slower recording trades fidelity for length. Undo/redo, reverse, MIDI clock, one-button control; Punch/Repl-Punch unavailable in one-button mode. Max length only changes while empty. **Three HotSwitch parameter snapshots, one active at a time**; Perform mode supplies two assignment pages for the three physical footswitches. Drums unverified. [Parameters1.12.5][H90-PA],[Perform1.12.5][H90-PF] [Looper1.12.5][H90-L] [P][H90-P] |
 
 ### H90 — separate IDR hardware evidence
 
@@ -162,3 +162,14 @@ Checked2026-10-17 against [own1.12.5 Synth chapter][H90-Y]. Three synth algorith
 HotSawz has mono tracking despite six oscillators. Synthonizer combines additive/subtractive synthesis and reverb; the H90 chapter does not repeat H9’s input1-only/no-tempo limitations, so those restrictions remain unverified for H90. No guitar was connected, and no audio, software or firmware was downloaded or executed. Exact installed firmware remains unknown.
 
 [H90-Y]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/synth.html
+
+### H90 — performance mappings
+
+Checked2026-10-17 in the own1.12.5 manual. HotSwitches store alternate parameter settings inside a Program; they do not add algorithms, physical switches or Program-memory slots. HotKnob P/A/B macros can control multiple parameters, including via expression mappings with reversible heel/toe ranges. [Parameters][H90-PA]
+
+External aux or MIDI CC mappings remain usable in Select mode. Full latching/momentary/trigger behavior requires normally-open momentary switches, or MIDI CC values≥64 on press and≤63 on release. With Tempo Sync off, A/B taps can independently set algorithm times/rates; enabling sync makes that tap control the Program BPM. [Perform][H90-PF]
+
+No hardware or app operation, downloads or image inspection. Installed firmware remains unknown.
+
+[H90-PA]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/edit-modes/parameters.html
+[H90-PF]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/play-modes/perform.html
