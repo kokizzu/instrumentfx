@@ -102,7 +102,7 @@ TRS-connector MX400 rack multi-effects; MX400XL is a distinct connector variant.
 | K/F/B | **7 / 0 / 6**, text-derived: Input A/B,Page/Select,Edit A/B/C,Program/Load; Exit,Tempo,Effect Bypass,Store,System,Program Bypass. Encoder pushes/power additional; visual corroboration pending. | [Manual pp4–5][M400-M] |
 | Display | Main LCD, six status LEDs and separate program-number display. Published diagonal,color/touch unverified. | [Manual pp4–5][M400-M] |
 | Dimensions / mass | **483W×44H×185D mm including knobs;162mm depth excluding knobs;2.6kg**. 1U rack. | [MX400 specifications p53][M400-S] |
-| Processing / categories | Four processors advertised; Surround,Stereo,Dual Stereo configurations. Per-configuration capacity and complete category/selector counts pending; no MX300 totals borrowed. | [Manual introduction,p8][M400-M] |
+| Processing / categories | Four processors; Dual Stereo runs independent programs A/B, each with two effects (1/2 and 3/4). Stereo configuration uses only pair A; pair B disabled. Complete category/selector counts pending. | [Manual introduction,p8][M400-M] |
 | Factory / user memory | 99 factory+99 user programs stated; each configuration has its own program banks. Do not treat 198 as verified whole-device total. Initial user-bank fill and bank accounting pending. | [Manual pp3,8][M400-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
 | I/O | **Four quarter-inch TRS line inputs and four matching outputs**, balanced/unbalanced; dual RCA S/PDIF I/O;USB;two MIDI DIN;TRS footswitch;mains. XLR analog I/O belongs to MX400XL, not this record. Digital24-bit44.1/48kHz. | [MX400 specifications p53][M400-S] |
@@ -112,6 +112,9 @@ TRS-connector MX400 rack multi-effects; MX400XL is a distinct connector variant.
 | Editor / platforms | MX Edit Mac2.2.0/Windows2.3.1; NetUpdater1.0 separate,2016 listings. VST/AU hardware-plugin integration. Current OS support,bitness and USB audio distinction require own-model verification. No software downloaded. | [Product/software][M400-P] |
 | Bass capability | Own compressor description explicitly includes bass tracks. Use preamp/mixer or recorded line-level signals. | [Manual p25][M400-M] |
 | Looper / drums / live | Looper,drums,scenes,spillover and live parameter restrictions pending. | Unresolved |
+| Routing / capacity limits | Five stereo routes: Dual Mono,Cascade,Parallel,Mono Split,Stereo. Route 5 removes one effect per program and, in Dual Stereo, enables the expanded library. Surround has two routes; stereo-input surround rear outputs stay 100% wet. Seven routing options are not seven simultaneous effects. | [Manual pp15–17][M400-M] |
+| I/O / digital clock | Digital outputs mirror analog pairs. Input pair A/B independently selects analog or digital, not both mixed. External sync is accepted only at S/PDIF A; even B-only digital audio needs clock at A. Both digital sources must share clock;44.1/48kHz only. | [Manual pp8–11][M400-M] |
+| Preset operation | Dual Stereo program focus follows highlighted effect:1/2 selects A,3/4 selects B. A/B programs load independently. Whole-device bank totals and initial user fill remain unresolved. | [Manual pp8,12][M400-M] |
 
 ### Separate IDR hardware offers
 

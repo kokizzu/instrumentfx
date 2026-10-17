@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX400",
-    "task": "Verify own-manual configurations,per-mode engine/choice counts and memory-bank accounting;control pushes,USB/audio,external switches and live limits pending. Preserve MX400/XL connector differences.",
+    "task": "MX400 mode capacity,independent A/B loading and S/PDIF A-only clock saved. Next verify own-model USB/plugin audio,external switches and per-mode category libraries;whole-device memory totals remain unresolved. Then saved SPX2000 lead.",
     "next_models": [
       "Yamaha SPX2000"
     ],
@@ -53519,5 +53519,11 @@
     "stock": "Habis in five-month index;direct cache miss",
     "condition": "Unverified",
     "variant": "TitleMX400;physical TRS/XL and mains voltage unverified"
+  },
+  "mx400_configuration_followup_20261017": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
+    "pages": "8–17",
+    "finding": "DualStereo independently loads two programs/twoeffects each;route5reduces each program to one expanded effect;Stereo disables pairB;Surround rear wet rule and digital A-only clock dependency preserved.",
+    "remaining": "Full per-configuration library and onboard bank totals,user initial fill,USB/plugin audio,external switches,visual verification and unresolved facilities."
   }
 }
