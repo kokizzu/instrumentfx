@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "GT-3 dedicated chorus saved with filter-description conflict. Next preamp/delay catalogue and global ceiling; physical buttons/toe remain unresolved.",
+    "task": "GT-3 fourteen preamps and exact control/global-output exceptions saved. Next delay catalogue and global ceiling; buttons/toe remain unresolved.",
     "next_models": [
       "Zoom 606"
     ],
@@ -54374,5 +54374,11 @@
     "page": "55",
     "finding": "Dedicated mono/stereo chorus, predelay/BPM/doubling and contradictory filter explanation preserved.",
     "remaining": "Preamp/delay catalogue, global ceiling, physical buttons/toe and other unknowns."
+  },
+  "gt3_preamp_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+    "page": "44",
+    "finding": "Fourteen preamp alternatives and speaker/flat-amp global-mode restrictions;Match/Voxy tone exceptions saved.",
+    "remaining": "Delay catalogue, global ceiling, physical buttons/toe and other unknowns."
   }
 }
