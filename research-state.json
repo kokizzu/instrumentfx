@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Smart Box QME-20",
-    "task": "Smart Box shared-bass inclusion saved from explicit manufacturer preset claim. Continue unresolved NAM restrictions/category counts/currentOS/qualifiedoffers, then fresh brand/series discovery; do not add duplicate model.",
+    "task": "Smart Box Windows11 dedicated support procedure recorded alongside conflicting older product FAQ. Continue NAM restrictions/category counts/currentOS/qualifiedoffers or fresh discovery; no package downloads.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -60371,5 +60371,22 @@
     "classification": "Shared bass; same existing active model, not an additional unique record",
     "access": "Manufacturer HTML only; no downloads",
     "remaining": "Bass-specific algorithms/performance, NAM restrictions, category counts, touch, OS requirements and condition-qualified offers remain unresolved."
+  },
+  "smartbox_windows11_support_20261017": {
+    "sources": [
+      "https://www.sonicake.com/pages/smart-box-software-firmware-download-qme-20",
+      "https://www.sonicake.com/pages/stuck-updating-support"
+    ],
+    "findings": [
+      "Exact-model notice extends issue scope to NAM/IR imports and editing",
+      "Dedicated guide provides manual USB Audio Device driver selection after ASIO installation, followed by editor reconnect/firmware update"
+    ],
+    "conflict": "Earlier product FAQ says avoid reconnect until fix; retain both manufacturer pages without asserting chronology or universal resolution.",
+    "access": "HTML text only; no driver, firmware, software, image or guide download; no local execution",
+    "remaining": "Affected builds, independently tested outcome, firmware-only resolution and OS certification unspecified"
+  },
+  "discovery_sonicake_pro_20261017": {
+    "query": "site:shopee.co.id \"Sonicake\" \"Matribox II Pro\"",
+    "result": "Already recorded model; cached Habis offers1441485672/41903111124 Rp4750000 and19700013/28130671930 Rp4350000; not new inventory or current stock; follow up only."
   }
 }
