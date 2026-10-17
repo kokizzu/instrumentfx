@@ -816,7 +816,7 @@ def main():
         print(git('status','--short'))
         print(git('add','--',*paths))
         print(git('diff','--cached','--stat'))
-        print(git('commit','-m','research(valeton): preserve indexed GP100 second hardware asking price' if mode == 'commit-gp100-nam' else 'research(valeton): qualify GP-150 native NAM A2 Lite by firmware'))
+        print(git('commit','-m','research(valeton): verify GP100 PRE gate EQ and acoustic simulator choices' if mode == 'commit-gp100-nam' else 'research(valeton): qualify GP-150 native NAM A2 Lite by firmware'))
     elif mode in ('commit-gp200jr', 'commit-hx-effects', 'commit-comparisons', 'commit-prime','commit-ge300','commit-gs1000','commit-b1xon','commit-helix-lt','commit-gt100'):
         verify()
         print(git('status', '--short', '--branch'))

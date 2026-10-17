@@ -211,6 +211,17 @@ The complete compact comparison was re-read on 2026-10-17. Its original 2026-10-
 |---|---|
 | Used IDR / indexed seller description | **Rp2.200.000**, title **efek Valeton GP-100 second**, Kab. Pangandaran; shop266296121/item49001468024. Seller account name unverified. [Exact item](https://shopee.co.id/efek-Valeton-GP-100-second-i.266296121.49001468024) was exposed by the [Shopee search page](https://shopee.co.id/search?keyword=zoom+g3x), one-month crawl, checked2026-10-18. “Second” establishes seller-described used condition, not tested function. Direct selected-variation URL returned cache miss; stripped URL inaccessible and exact-ID search empty. Selected variant, working condition, adapter/bundle, warranty, stock, voucher, shipping/tax and delivered total unknown. Search destination was generic/recommendation-heavy; exact title and item identity retained without claiming current availability. Not a completed sale or verified market range. |
 
+### GP-100 — firmware-1.8 effect-list evidence
+
+Checked 2026-10-18. Manufacturer-authored English manual cover explicitly says **For Firmware V1.8**; hosted by Thomann. Its nine-module GP-100 panel, controls and pre/post looper match the retained German-edition record. These counts describe this revision, not installed/current firmware.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / PRE | **14 named choices, pp19–20:** COMP; COMP4; Boost; AC Sim; T-WAH; A-WAH; V-Wah; C-Wah; OCTA; Pitch; P-Bend; Saturate; Step Filter; Ring Mod. Parameter modes are not extra algorithms. [Original manual copy](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Category choices / noise reduction | **Two, p31:** Gate1 and Gate2. [Original manual copy](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Category choices / EQ | **Three, p33:** Guitar EQ1; Guitar EQ2; V-EQ. Global EQ is separate, not a fourth patch-EQ choice. [Original manual copy](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Synth / acoustic correction | **AC Sim is explicitly an acoustic-guitar simulator**, with STD/Jumbo/ENH/Piezo modes, separate from acoustic amp models. Step Filter creates synth-like sounds; this alone does not establish a dedicated synthesizer. CAB separately lists D/OM/Jumbo/GA acoustic simulations (p33), not four extra amps. Earlier acoustic-simulator unknown is superseded for firmware1.8. [Original manual copy](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+
 ## GP-150
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
