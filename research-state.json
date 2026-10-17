@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1X original",
-    "task": "Own calibration, master/tuner reset and bypass/mute timing saved. Next reconcile46 named types with category/module totals including EQ/ZNR/AMP; preserve seller Next identity uncertainty. No downloads. Commit before next model.",
+    "task": "Original B1X46-type selector reconciliation saved, including EQ and combined ZNR/AMP restrictions. Next inspect eligible existing Zoom B2.1u for remaining category/control/power gaps using own manual; read current record first. No downloads. Commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56531,6 +56531,12 @@
       "model": "Zoom B1X original",
       "checked_date": "2026-10-18",
       "finding": "Own manual calibration dn:raise/STORE then UP:fully press/release/STORE, Er repeat from raise. Master0–98/1.0 resets80; tuner435–445Hz resets440 at power-on. Bypass short dual press, mute >=1s; unavailable edit.",
+      "source": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf"
+    },
+    {
+      "model": "Zoom B1X original",
+      "checked_date": "2026-10-18",
+      "finding": "46 selector choices reconciled:2+9+14+1EQ+2ZNR/AMP+11+7. EQ70/450/3000Hz bands are parameters. ZNR-only versus AMP&ZNR are two combined-selector modes, not freely routable independent blocks.",
       "source": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf"
     }
   ],

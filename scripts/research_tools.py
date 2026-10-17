@@ -123,7 +123,7 @@ def main():
         assert changed <= set(paths), changed - set(paths)
         git('add', '--', *paths)
         print(git('diff', '--cached', '--stat'))
-        print(git('commit', '-m', 'research(zoom): verify original B1X calibration and power-on defaults'))
+        print(git('commit', '-m', 'research(zoom): reconcile original B1X effect selector census'))
     elif mode == 'commit-discovery':
         verify()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
