@@ -96,3 +96,32 @@ Effects-only guitar multi-effects strip, checked2026-10-18; partial. Ownership u
 A five-day [search index](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+metal&page=0&subcategory=11043648) repeatsRp633,450 with Jakarta Utara; region differs from exact cached item. This is not another condition-verified offer or live stock confirmation.
 
 [RC-P]: https://www.moskyaudio.com/product/product-3-17.html
+
+## DC5
+
+Effects-only guitar multi-effects strip, checked2026-10-18; partial. Ownership unverified. Bass/vocal suitability lacks exact primary confirmation.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / toe | Built-in, external and toe support unverified. |
+| Knobs / footswitches / buttons | Separate counts unverified; no visual inspection claimed. |
+| Display | Presence, diagonal, color and touch unverified. |
+| Dimensions / mass | Manufacturer **L230×W65×H36mm;490g**, mass inclusion basis unstated. [DC-P] |
+| Processing / category choices | Own page says **5 Effects in1** and lists **delay,chorus,distortion,overdrive,bufferbooster**. Seller title instead says6-in-1 and separates booster/buffer; do not turn that wording into six independent blocks. Several effect families establish eligibility; simultaneous ceiling, independent switching, algorithms and order unverified. [DC-P] |
+| Factory / user / total memory | Unverified. |
+| Synth / acoustic | Unverified. |
+| Audio / control I/O | Connector inventory, levels, formats, stereo, headphones and loop unverified. |
+| Power / battery / USB | **9VDC,negative tip**, regulated supply recommended. Current, plug dimensions, battery and USB powering unverified. [DC-P] |
+| IR / NAM / captures | User IR,native NAM,converted NAM and proprietary captures unverified. |
+| Editor / software | Editor platforms, drivers/updaters and USB audio/MIDI unverified. |
+| Looper / drums / routing | Phrase looper, drums, bypass,trails and routing unverified. |
+
+### Separate IDR hardware offers
+
+| Condition / seller | Asking evidence / limitations | Exact item |
+|---|---|---|
+| Used | Unknown; no condition-verified used ask. | — |
+| New | Unknown; no condition-verified new ask. | — |
+| Condition-unverified / MICKEY MOUSE SHOP | **Rp555,000,Habis**, Jakarta Utara. Two-month search cache checked2026-10-18; stale19–20Aug delivery. Direct three-week cached reopen shows title/images only, no price or stock; it does not revalidate the older ask. Variant,bundle/adapter,warranty,condition and checkout costs unknown. LateRp10,000 compensation is not a purchase discount. | [19700013/22210566396](https://shopee.co.id/Efek-Gitar-Mosky-DC5-Multi-Effects-Pedal-6-In-1-Delay-Chorus-Distortion-Overdrive-Booster-Buffer-i.19700013.22210566396) |
+
+[DC-P]: https://www.moskyaudio.com/product/product-25-548.html
