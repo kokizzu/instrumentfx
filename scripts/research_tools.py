@@ -615,7 +615,7 @@ def main():
         if mode == 'commit-g11-preservation':
             message = 'fix(zoom): preserve complete G11 original evidence and count qualifications'
         if mode == 'commit-arena-preservation':
-            message = 'research(donner): verify Arena2000 iPhone editor availability'
+            message = 'research(donner): verify Arena2000 manual routing and preserve body conflict'
         if mode == 'commit-fx100-preservation':
             message = 'research(flamma): retain FX100 original and qualify mass and USB evidence'
         if mode == 'commit-fx200-preservation':

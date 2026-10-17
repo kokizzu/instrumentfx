@@ -13,11 +13,11 @@ Eligible guitar multi-effects with built-in expression. Not a dedicated single-e
 
 | Required field | Evidence / unresolved qualification |
 |---|---|
-| Expression | **Built-in EXP1; external EXP2**, rear socket also labelled FS4/5. Toe-switch implementation unverified. |
+| Expression | **Built-in EXP1; external EXP2**, rear socket also labelled FS4/5. 2022 manual confirms firm toe press switches two assignable states;see qualification below. |
 | Controls | **Nine rotary controls and three footswitches**, from the complete official panel: two output-level knobs, five parameter knobs, headphone knob and navigation encoder. **22 labelled touch/control regions**: ten module selectors, eight utility labels and four navigation icons. Mechanical versus capacitive button classification unresolved; encoder press not double-counted. |
 | Screen | **3.5-inch color TFT**. Explicit touchscreen specification unverified; touch-mode wording describes a control panel and is not sufficient proof of a touchscreen. |
 | Dimensions — new primary evidence | Donner's [English model specification](https://www.donnermusic.com/en-US/products/arena2000) publishes **11.8 ×5.9 ×1.97 inches** and **4.41 lb**. Converted from those rounded source values: approximately **299.7 ×149.9 ×50.0 mm;2.00 kg**. Source does not label the axes. The rounded width is near the300 mm medium/large boundary; do not treat it as a millimetre-perfect fit specification. Not compact under either horizontal orientation. Pedal travel and plugs additional. |
-| Power | Official model specification: **9 V DC,500 mA current draw**; rear panel also says9V500mA. Polarity remains unverified. Prior manufacturer retail page explicitly says no battery compartment. USB-powered operation not established. |
+| Power | Official model specification: **9 V DC,500 mA current draw**; rear panel also says9V500mA. 2022 manual specifies negative tip;see revision-qualified row below. Prior manufacturer retail page explicitly says no battery compartment. USB-powered operation not established. |
 | Audio/control ports | 6.35 mm guitar input; two6.35 mm unbalanced outputs; two balanced XLR outputs with ground lift;3.5 mm phones and AUX; EXP2/FS4/5; DIN MIDI IN; USB-C;DC and power switch. No mic input or FX loop on the previously inspected complete rear panel. |
 
 The official front graphic's One Foot Switch slogan is not the switch count: hardware has three. Ten module labels are not ten additional rotary controls. New dimensional evidence resolves the previous total absence of a primary size/mass specification, but does not resolve exact axis naming or rounded-boundary fit.
@@ -34,8 +34,13 @@ The official front graphic's One Foot Switch slogan is not the switch count: har
 | NAM / captures | No verified native/converted NAM or proprietary capture workflow. Do not infer these from cabinet IR support. |
 | Configuration | **Windows/macOS editor** linked by manufacturer German page; **Android editing** established by DONNER LLC app listing, which showed a July2026 update in original review. Bluetooth mobile editing advertised; **iPhone iOS13+ editing verified2026-10-17**,see row below;Linux support unverified. |
 | Configuration / iPhone editor | [Arena2000,Donner LLC,AppStoreID1611298022](https://apps.apple.com/id/app/arena-2000/id1611298022):manages/edits sound library and parameters;**iOS13+**,iPhone/iPodtouch listed. Version1.0.2,2024-07-31;US storefront matches. NativeiPad/Mac layout,OTG audio andUSBpower are not established by editor listing. Indonesian preview is oldcache;current US preview corroborates sameversion/requirements. No app installed. |
+| Expression / manual qualification | EXP1 firm toe press switches two assignments;Off need not mean disabled. EXP2 has one state,no On/Off. Volume assignment is after effects,before output knobs. [Original2022 manual pp10–11][AR22] |
+| Display / touch controls | Manual:320×480 TFT;CTRL+OUTPUT locks panel touch buttons. This does not establish touchscreen operation. [2022 manual pp4,13][AR22] |
+| Power / body source conflict | 2022 manual:**9V negative tip,500mA;292.5×147.2×50.9mm,1.32kg**,axes unspecified. Different from current rounded product dimensions/2.00kg;revision/measurement basis unresolved. [2022 manual p15][AR22] |
+| Live / CAB and trails | SeparateCAB assignment perXLR/quarter-inch output;different assignments forceCAB last. GlobalFXTrail controls delay/reverb tails on preset change. [2022 manual pp13–14][AR22] |
+| Recording / manual routing | USB device“GA2000 Audio”;left/right record signals individuallyDry/Effect,record/play levels adjustable. Exact totalchannels/format remain unresolved. [2022 manual p14][AR22] |
 | Recording | USB dry and processed recording together; OTG mobile recording. Exact USB channel count unverified. |
-| Practice | **60-second looper**,reverse/double/half-speed; **40 drum patterns**. Drum synchronization and preset spillover not established. |
+| Practice | **60-second looper**,reverse/double/half-speed; **40 drum patterns**. Drum synchronization remains unresolved;2022 manual documents selectable delay/reverb preset trails below. |
 
 ### Arena2000 — IDR observations
 
@@ -57,6 +62,10 @@ The [official EC1790_update.pdf](https://cdn.shopify.com/s/files/1/1384/9629/fil
 |---|---|---|
 | Condition-unverified sold-out historical ask | **Rp3.150.000**,NEO MUSIC,Kota Sukabumi;shop158235298/item51703812304. One-week indexed crawl,explicit **Habis**;stale4–5October delivery. Used/new condition,variant,bundle,warranty,authenticity,shipping/tax/voucher and final total unknown. Late compensation is not a discount;not available stock or completed sale. | [Exact hardware item](https://shopee.co.id/Donner-Arena-2000-Multi-Effect-Pedal-i.158235298.51703812304) |
 
+
+[AR22]: https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf
+
+Original-manual identity:19PDFpages,DonnerArena2000 cover,©2022 DonnerTechnology;80amp/50cab/50userIR/278 headline andpanel matchmanufacturer evidence. Revision equivalence to unreadEC1790_update.pdf is unproven. OnlyoriginalPDFtext used;no generatedFAQ orrewritten guide. Historicalarchive remains unchanged.
 <!-- comparison evidence ends -->
 
 ### Arena2000 — complete dated original finding
