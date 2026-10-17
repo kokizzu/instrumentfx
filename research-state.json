@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer V-AMP 3",
-    "task": "V-AMP3 preliminary brochure conflicts saved: dimensions/axes,TRSvsTS,reverb8vs9,pounds conversion. Next prioritize unresolved qualified Shopee leads or legacy consolidation;do not silently resolve preliminary specs ortransferUCA222capabilities.",
+    "model": "Shopee brand/series discovery",
+    "task": "All117legacy paths already registered redirects/pointers,not unmerged sources. Full99technicalsource preservation and2945local-link audit pass at277models. Resume exact hardware discovery;prioritize original POD/Floor POD/GT10B/RPseries leads,qualify variants before adding;do not repeat retired-source mutations.",
     "next_models": [],
-    "after_queue": "277partialrecords;continue fullfieldresearch andlosslesslegacyconsolidation;no downloads/workflows/push."
+    "after_queue": "277partialmodels;227guitar/111bass/50vocal. Compatibility paths remain;fieldverification/marketcoverage incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24381,10 +24381,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 194 guitar, 95 documented bass-capable, 43 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 227 guitar, 111 documented bass-capable, 50 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "239 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "277 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41192,8 +41192,8 @@
     },
     "navigation_audit": {
       "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
-      "markdown_files": 154,
-      "local_link_occurrences": 2683,
+      "markdown_files": 155,
+      "local_link_occurrences": 2945,
       "legacy_files": 117,
       "registered_redirects": 116,
       "separately_verified_archival_redirect": [
@@ -41266,6 +41266,15 @@
         "legacy_paths": 117,
         "errors": 0
       }
+    },
+    "preservation_recheck_20261017": {
+      "at_catalogue_count": 277,
+      "target": "make technical-retirement-verify",
+      "status": "passed",
+      "technical_sources": 99,
+      "registered_technical_redirects": 99,
+      "incoming_occurrences": 304,
+      "scope": "Registered complete source bodies/model fields/shared prose/reference URLs/original headings/root destinations retained. Not full technical or stock verification."
     }
   },
   "deferred_work": {
@@ -41318,7 +41327,7 @@
     "canonical_root_models": 277,
     "legacy_only_models": 0,
     "guitar_view_models": 227,
-    "bass_focused_models": 23,
+    "bass_focused_models": 28,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
     "excluded_overlap": 0,
