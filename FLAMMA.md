@@ -606,3 +606,16 @@ Checked2026-10-18;FX20's own manual/store establishes FLAMMA app use. Store list
 | Editor / Android | **FLAMMA,Flamma Innovation**,package **com.mooer.flamma_e100_client**;developer description covers effect editing,parameters andcloud. Retrieved page does not establish minimum Android version or every FX20 handset combination. User reviews are not primary compatibility specifications. [Google Play](https://play.google.com/store/apps/details?hl=en&id=com.mooer.flamma_e100_client). |
 
 Unrelated same-name school-communication,food-ordering andcurrency apps were excluded. Store availability does not establish USB recording compatibility,desktop editing,driver support orwireless audio transmission. No app downloaded orrun.
+
+### FX20 — original layout and list qualifications
+
+Checked2026-10-18:the [manufacturer store manual index](https://www.flamma.shop/pages/manual) links an [alternate original FX20 V01 PDF](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX20_Manual_EN_V01_2023.12.08.pdf?v=1710160252),same filename,date and27-page structure. Text retrieved;layout screenshots failed on both original hosts. No visual count or new revision claimed.
+
+| Field | Original-manual finding / unresolved issue |
+|---|---|
+| Knobs / footswitches / buttons | Layout pp4–7 labels volume knob,power/Bluetooth switch,drum,speed,groove,+/− andpreset controls. Text alone does not conclusively separate all indicators from physical buttons;full K/F/B remains pending. |
+| Processing / modulation-list conflict | Printed pp21–22 list14 numbered MOD positions,but **TREMOLO appears atpositions5 and7 with the same description**. Preserve14 published entries;do not assert14 unique algorithms or invent the missing alternative. |
+| Processing / delay wording | Printed p23 lists5 delay positions;first name **DIGHITAL** has a **digital reverb** description despite DELAY heading. Preserve typo/mismatch rather than relabeling it as a verified reverb block. |
+| Factory / user memory limits | Printed p8 establishesA/B/C/D within the selected bank;features mention individual saving. Neither inspected statement gives bank count,full writable capacity orfactory/user split.52amp models isnot proof of52preset memories. |
+
+Alternate PDF still includes9V500mA precautions alongside5V1A charging;its availability does not resolve the power conflict orsimultaneous processing ceiling.

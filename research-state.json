@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Flamma FX20",
-    "task": "Continue FX20 controls,preset capacity andsimultaneous architecture verification. Appidentity/iOS15 minimum saved;Androidminimum andpowerconflict remain.",
+    "model": "Shopee discovery",
+    "task": "Resume fresh Shopee series discovery; FX20 alternate original list and conflicts saved. Do not repeat failed screenshots unchanged; controls/memory still pending.",
     "next_models": [],
     "after_queue": "330active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -42027,7 +42027,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Flamma FX20."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -66027,5 +66027,16 @@
     "android": "https://play.google.com/store/apps/details?hl=en&id=com.mooer.flamma_e100_client",
     "android_min": "unverified",
     "qualification": "App identity/minimumOS only;FX20 app use established by ownstore/manual;no runtime testing."
+  },
+  "fx20_manual_list_audit_20261018": {
+    "alternate": "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX20_Manual_EN_V01_2023.12.08.pdf?v=1710160252",
+    "identity": "V01 date2023-12-08 27pages,manufacturer-indexlinked",
+    "image_access": "Bothhosts screenshotcachemiss;no visualaudit",
+    "conflicts": [
+      "MODpositions5/7bothTREMOLO",
+      "DELAYfirstDIGHITALdescriptiondigitalreverb",
+      "9V500mAprecautionsvs5V1Acharging"
+    ],
+    "remaining": "Physicalcontrols,bankcount,totalpresets,simultaneousceiling,Androidminimum andmarketverification."
   }
 }
