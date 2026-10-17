@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 282,
+  "active_model_count": 283,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 282,
+  "canonical_root_model_count": 283,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "282 unique active/root-canonical;0 legacy-only;32 brands;6 excluded;all partial. M-One XL guitar/vocal; bass unclassified.",
+  "count_reconciliation": "283 unique active/root-canonical;0 legacy-only;32 brands;6 excluded;all partial. REV500 guitar/vocal; bass unclassified.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic M-One XL",
-    "task": "Named choices, historical editor evidence and MIDI conflict saved. Next resume exact Shopee discovery; do not duplicate XL or silently resolve CC32/CC0.",
+    "model": "Yamaha REV500",
+    "task": "Initial root record added. Next qualify exact topology counts, program-edit restrictions and MIDI control; preserve region-specific mains and backup-battery distinction.",
     "next_models": [],
-    "after_queue": "REV500 lead awaits qualification;282 records partial. No downloads/workflows/push."
+    "after_queue": "283 partial records; resume Shopee discovery after model commit. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24001,7 +24001,8 @@
       "SPX900",
       "SPX990",
       "SPX2000",
-      "SPX1000"
+      "SPX1000",
+      "REV500"
     ],
     "TC Electronic": [
       "M100",
@@ -24349,7 +24350,8 @@
       "SPX900",
       "SPX990",
       "SPX2000",
-      "SPX1000"
+      "SPX1000",
+      "REV500"
     ],
     "TC-ELECTRONIC.md": [
       "M100",
@@ -24361,7 +24363,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 232,
+      "record_count": 233,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24373,9 +24375,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 54,
+      "record_count": 55,
       "vocal_only_count": 22,
-      "combined_instrument_count": 32,
+      "combined_instrument_count": 33,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41333,13 +41335,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 282,
-    "canonical_root_models": 282,
+    "unique_brand_model_pairs": 283,
+    "canonical_root_models": 283,
     "legacy_only_models": 0,
-    "guitar_view_models": 232,
+    "guitar_view_models": 233,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 54,
+    "vocal_view_models": 55,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41396,7 +41398,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M-One XL."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha REV500."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41627,6 +41629,7 @@
       "Yamaha::SPX990",
       "Yamaha::SPX2000",
       "Yamaha::SPX1000",
+      "Yamaha::REV500",
       "TC Electronic::M100",
       "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
@@ -41798,6 +41801,7 @@
       "Yamaha::SPX990",
       "Yamaha::SPX2000",
       "Yamaha::SPX1000",
+      "Yamaha::REV500",
       "TC Electronic::M100",
       "TC Electronic::M350",
       "TC Electronic::M-One XL"
@@ -43987,6 +43991,13 @@
     },
     "Yamaha::SPX1000": {
       "link": "YAMAHA.md#spx1000",
+      "source_files": [
+        "YAMAHA.md"
+      ],
+      "finding_files": []
+    },
+    "Yamaha::REV500": {
+      "link": "YAMAHA.md#rev500",
       "source_files": [
         "YAMAHA.md"
       ],
@@ -57136,5 +57147,26 @@
     "editor_source": "https://service-tcgroup.tcelectronic.com/media/Rev_Comparison_02b%281%29.pdf",
     "editor_access": "Indexed manufacturer source, direct inaccessible; historical summer2003 reference",
     "conflict": "Bank-select prose CC32 versus map CC0; untested"
+  },
+  "rev500_primary_20261017": {
+    "manual": "https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf",
+    "identity": "28-page original English manual plus MIDI additions; revision/date unresolved",
+    "eligibility": "Editable parallel chorus/reverb and serial modulation/reverb combinations; fixed architectures, not freely ordered blocks",
+    "offer": "https://shopee.co.id/Yamaha-Rev500-i.137354453.22070535666",
+    "unqualified_used_lead": {
+      "url": "https://shopee.co.id/yamaha-rev500-bekas-ori-i.1186125751.25142439814",
+      "access": "Direct failed; indexed exact title bekas ori; Rp3200000 only store-card evidence at https://shopee.co.id/orderku0ta; not adopted as qualified item ask",
+      "seller": "arifsilprut",
+      "stock": "Unknown"
+    },
+    "remaining": [
+      "Exact algorithm topology counts and constraints",
+      "Control visual confirmation",
+      "Condition-qualified prices and voltage variant",
+      "Editor OS",
+      "Published display diagonal/color/touch",
+      "IR/NAM/capture"
+    ],
+    "downloads": false
   }
 }

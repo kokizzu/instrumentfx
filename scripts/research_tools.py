@@ -403,7 +403,7 @@ def main():
         if mode == 'commit-rfx1100':
             message = 'research(zoom): preserve dated G2 FOUR condition and voucher observations'
         if mode == 'commit-spx990':
-            message = 'research(yamaha): document SPX1000 user reflections MIDI maps and recall limits'
+            message = 'research(yamaha): add REV500 with combined effects and regional power limits'
         if mode == 'commit-spx900':
             message = 'research(yamaha): add SPX900 with original manual and qualified line-level scope'
         if mode == 'commit-mx200':

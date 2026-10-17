@@ -170,3 +170,36 @@ Working condition,stock,voltage variant,authenticity,bundle,mains cable,warranty
 
 [S1-M]: https://usa.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf
 [S1-O]: https://shopee.co.id/Yamaha-SPX1000-i.137354453.25909747809
+
+## REV500
+
+Checked2026-10-17; partial. [Official English operation manual][R5-M],28PDFpages including MIDI additions; revision/date unverified.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No integrated treadle; FC5 footswitch controls mute/program advance. Continuous EXP/toe unknown. |
+| Controls | Text-derived **5 rotary /0 integrated footswitches /8 buttons**, excluding power and rear level selectors. Visual audit pending. |
+| Display | LCD+LEDs; diagonal/color/touch unknown. |
+| Processing / choices | Reverb alone or combined: parallel chorus; serial gate,resonator,dynamic filter,chorus,flanger,symphonic,tremolo; echo/reverb. Fixed program architectures, not freely ordered blocks. |
+| Presets | **100 factory+100 user=200**; Hall/Room/Plate/Special,25 each per area. |
+| Synth / acoustic | Dedicated synthesis/acoustic conversion unknown. |
+| Dimensions / weight | **480W×45H×227.9Dmm;3.5kg**. |
+| I/O | L/R XLR and quarter-inch audio input/output; quarter-inch FOOT SW; MIDI in/out. +4/−10dB rear selectors. USB/headphones/phantom unestablished. |
+| Power | **120VAC60Hz USA/Canada;230VAC50Hz General;15W**. Not universal voltage; seller variant unresolved. DC polarity N/A. Lithium battery backs memory, not operating power. Current/USB/battery operation unknown. |
+| Editor / platforms | MIDI CC/SysEx/bulk dump documented; editor OS unknown. |
+| IR / NAM / captures | User IR,native/converted NAM,capture support unknown. |
+| Looper / drums / live | Snare/rim audition,once/repeat,not verified rhythm accompaniment. Looper/scenes unknown. |
+| Instrument scope | Manufacturer guitar/vocal examples support shared inclusion; line-level setup,not direct passive-guitar or microphone preamp proof. Bass unclassified. |
+
+Manual printed pp1–2,4–7,10–15,19–20; text-only review,no download. Combined processing with separately editable modulation supports multi-effects inclusion despite the Digital Reverberator label.
+
+### REV500 — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used | Unknown;no qualified condition-confirmed ask. | — |
+| New | Unknown | — |
+| Condition unknown / GMS Bandung,Kota Bandung | **Rp3.050.000,Habis**,shop137354453/item22070535666. Checked2026-10-17;last-month cached text,not live stock. Variant,working state,bundle,warranty,voucher,shipping/tax unknown;August20arrival stale. Late-arrival compensation is not an upfront discount. | [Shopee][R5-O] |
+
+[R5-M]: https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf
+[R5-O]: https://shopee.co.id/Yamaha-Rev500-i.137354453.22070535666
