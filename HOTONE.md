@@ -441,6 +441,17 @@ Checked2026-10-17 against the manufacturer manuscript, **V1.0.2**, printed pp23�
 These older-manual qualifications supplement the historical unresolved memory split; they do not certify current firmware or actual used-unit contents.
 
 
+### MP-350 — USB routes and MIDI-clock limits
+
+Checked2026-10-17, original **V1.0.2** manual pp63–68,72–73.
+
+| Field | Revision-qualified finding |
+|---|---|
+| USB / recording sources | Inputs1/2 receive chainA(afterA6)+AUX;3/4 receive activechainB(afterB6), irrespective of its output node. **Series chains make1/2 and3/4 identical**. Inputs5/6 directly receiveFXReturn;7/8 receive dryL/R, regardless ofpatch. USBOnly hardware-output source avoids doubling direct and delayed DAW monitoring. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual) |
+| USB / reamp and platforms | Example sends dryDAWtrack viaUSBOut3/4 intochainA, records processedUSBInput1, withDAWmonitoringoff. Windows sample-rate setup usesHotoneGenericUSBASIO; Mac usesAudioMIDISetup. These are manual instructions, not tested currentOS compatibility. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual) |
+| MIDI / clock restrictions | MIDI input selectsDINOnly/USBOnly/Mixed(default); separateDIN/USB channels1–16/Omni(default). **DINOnly/USBOnly clock disablesTapTempo andclockoutput**. Clockoutputs defaultoff; enablingclockout ignores externalclockinput. Do not equate this with muting audio or disabling allMIDI input. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual) |
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

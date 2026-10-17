@@ -62131,5 +62131,16 @@
     ],
     "limits": "Olderrevisionnotcurrentfirmware/usedunitcontentsproof",
     "next": "MP350 USB routing and MIDI restrictions; further model gaps and fresh discovery"
+  },
+  "mp350_usb_midi_20261017": {
+    "source": "https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual",
+    "revision": "V1.0.2 pp63–68,72–73",
+    "findings": [
+      "USB1/2A+AUX3/4B;seriesduplicates;5/6Return7/8dry",
+      "USBOnlyavoidsdirect/DAWdoubling;reampOut3/4toInput1",
+      "DINUSBclockdisablesTapTempo/output;clockoutignoresexternalclock"
+    ],
+    "limits": "NotcurrentOS/runtimetest;notMIDIaudio-muteclaim",
+    "next": "GlobalEQ/headroom and expression assignment restrictions; completecurrentalgorithms; other model gaps and discovery"
   }
 }
