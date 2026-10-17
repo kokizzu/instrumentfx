@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Shopee discovery",
-    "task": "Resolve Hope Music mixed Zoom G2.1Nu/G2.1u/B2.1u lead to exact item/variant, or continue other series. Do not use adapter offers as hardware evidence.",
+    "task": "Continue other brand/series searches. Hope Music Nu lead remains unresolved; do not repeat unchanged routes or promote G1Xon variant price.",
     "next_models": [],
-    "after_queue": "329active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
+    "after_queue": "329active; technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -65946,6 +65946,17 @@
     ],
     "lead": "https://shopee.co.id/hopemusik",
     "finding": "Four-month shop index mixes G2.1Nu/G2.1u/B2.1u atRp1699000; no exact item or resolved variant. G2Nu results were adapters. No qualified hardware price or new active model created.",
-    "remaining": "Resolve exact G2.1Nu/G2Nu item or continue other brand/series searches; no exhaustive-coverage claim."
+    "remaining": "Resolve exact G2.1Nu/G2Nu item or continue other brand/series searches; no exhaustive-coverage claim.",
+    "followup": "Direct HopeMusic shop last-month body no longer exposes mixed G2.1Nu lead; exact Nu offer remains unresolved. G1Xon same exact item follow-up committed separately."
+  },
+  "g1xon_offer_followup_20261018": {
+    "shop": "https://shopee.co.id/hopemusik",
+    "item": "703817770/23482842628",
+    "indexed_ask_idr": 1399000,
+    "cache": "last-month direct shop body",
+    "title": "G1xon Fullset Dus Multifungsi",
+    "display_model_id": "232660906118",
+    "access": "Exact selected URL cache miss; clean exact URL inaccessible.",
+    "qualification": "Same existing offer; unresolved variations, condition and bundle; not promoted to qualified price."
   }
 }

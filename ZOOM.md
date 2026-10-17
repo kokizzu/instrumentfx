@@ -1888,6 +1888,12 @@ Official2014 list Z2I-2059-01 names five pedal algorithms:PedalVx,PedalCry,WAH10
 [G1XO-M2]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1on_G1Xon_2.pdf
 [G1XO-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1xon/g1xon-support/
 
+### Later exact-item index observation
+
+Checked2026-10-18: directly opened [Hope Music shop](https://shopee.co.id/hopemusik), last-month cache, links the **same item703817770/23482842628**, now titled **G1xon Fullset Dus Multifungsi**, at **Rp1,399,000**, crossed13% display. This is another dated cached observation, not a new seller/offer or a resolved price range. Earlier Rp1,299,000 and Rp1,499,000–1,648,000 observations remain above.
+
+The linked URL adds display_model_id232660906118; the page with that selection returned cache miss, and the clean URL was inaccessible. Neither establishes which variation was selected. Title wording does not verify box/accessories, working condition, stock or warranty. Keep this outside qualified used/new amounts until variant and condition are established. [Exact item](https://shopee.co.id/Efek-Gitar-Zoom-G1xon-Fullset-Dus-Multifungsi-i.703817770.23482842628).
+
 ## G1on
 
 Guitar multi-effects, distinct from G1Xon and G1 FOUR. Checked 2026-10-17; partial. Ownership and bass suitability unestablished.
