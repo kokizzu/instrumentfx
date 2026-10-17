@@ -911,6 +911,10 @@ A compact bass multi-effects strip, separate from the full-size VES-2. Checked 2
 |---|---|---|
 | Used | Unknown; no qualified used offer. | — |
 | New | Unknown; condition and live availability unconfirmed. | — |
+| Existing condition-unverified observation | **Rp1,879,000; Habis**, Salomo Musik, Kota Jakarta Utara;shop1776275/item25592617190. Checked2026-10-17;month-old search cache, voucher display10% with Rp10RB threshold; cap/eligibility unknown. Condition, working state, revision, adapter/bundle, warranty and current stock unknown. Promoted from the existing source paragraph, not a new offer. | [Indexed MES-2][DBM-O1] |
+| Existing condition-unverified observation | **Rp1,880,000**, Gearvolution, Kota Makassar;shop63444658/item48058492824. Two-month search cache; direct retrieval still failed2026-10-18. Condition, working state, revision, adapter/bundle, warranty, voucher and current stock unknown. Existing offer, not newly counted. | [Indexed MES-2][DBM-O2] |
+| Additional condition-unverified observation | **Rp1,870,000**, Dave Komputer, Kota Jakarta Utara;shop2655003/item47155735690. Checked2026-10-18;last-month rendered cache, no Habis label. Four-month search cache displayed **Rp1,865,000** with15%/Rp50RB voucher wording; newer body shows80%/Rp10RB. Do not calculate a final price: cap, eligibility, reference price and variant unresolved. Relative Hari Ini delivery is stale. Condition, working state, revision, adapter/bundle, warranty and live stock unknown. | [Exact Mini item][DBM-O3] |
+| Additional condition-unverified observation | **Rp1,880,000; Habis**, SCI Music Center, Kota Tangerang Selatan;shop304940515/item26880273250. Checked2026-10-18;four-month search cache, stale9June delivery;direct open failed. Condition, working state, revision, adapter/bundle, warranty, voucher and current stock unknown. | [Indexed Mini item][DBM-O4] |
 
 ### Qualified seller observations
 
@@ -926,6 +930,13 @@ PDF screenshots and the official product image were unavailable through the web 
 [DBM-C]: https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf
 [DBM-P]: https://www.valeton.net/product/dapper-bass-mini/
 [DBM-S]: https://shop.valeton.net/products/dapper-bass-mini
+
+Price-table follow-up2026-10-18 preserves two existing observations and adds two separate sellers; none establishes current new/used stock or a completed sale. Late-arrival compensation is not a hardware discount. Rechecked MES-2 V01_231219 manual still states120mA/446g; the existing product/shop conflicts remain unresolved.
+
+[DBM-O1]: https://shopee.co.id/Valeton-MES-2-Dapper-Bass-Mini-Effects-Strip-Original-i.1776275.25592617190
+[DBM-O2]: https://shopee.co.id/Valeton-Dapper-Bass-Mini-MES-2-i.63444658.48058492824
+[DBM-O3]: https://shopee.co.id/Valeton-Dapper-Bass-Mini-Effect-Strip-i.2655003.47155735690
+[DBM-O4]: https://shopee.co.id/Valeton-Dapper-Bass-Mini-Efek-Bass-Mini-i.304940515.26880273250
 
 ## Dapper Mini MES-1
 

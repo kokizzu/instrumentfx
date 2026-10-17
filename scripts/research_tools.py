@@ -568,7 +568,7 @@ def main():
         if mode == 'commit-dapper-mini':
             message = 'research(valeton): retain Amp Mini parameter and amp model evidence'
         if mode == 'commit-dapper-bass-mini':
-            message = 'research(valeton): corroborate MES-2 manual and clarify comparison record'
+            message = 'research(valeton): preserve Dapper Bass Mini price and voucher evidence'
         if mode == 'commit-dapper-bass':
             message = 'research(valeton): add Dapper Bass historical offers with stock limits'
         if mode == 'commit-hd500':
