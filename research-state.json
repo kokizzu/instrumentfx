@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery",
-    "task": "Resume fresh Shopee brand/series discovery after DC5. Do not infer BE5 eligibility or availability from manufacturer navigation alone.",
+    "task": "Resolve Hope Music mixed Zoom G2.1Nu/G2.1u/B2.1u lead to exact item/variant, or continue other series. Do not use adapter offers as hardware evidence.",
     "next_models": [],
     "after_queue": "329active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -24924,10 +24924,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 272 guitar, 140 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 276 guitar, 141 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "325 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "329 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41736,7 +41736,7 @@
     "navigation_audit": {
       "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
       "markdown_files": 160,
-      "local_link_occurrences": 3368,
+      "local_link_occurrences": 3392,
       "legacy_files": 117,
       "registered_redirects": 116,
       "separately_verified_archival_redirect": [
@@ -65936,5 +65936,16 @@
     "conflict": "Own five-in-one bufferbooster grouping versus seller six-in-one wording.",
     "access": "Older indexed Rp555000 sold-out; direct newer cached body title only, no price/stock.",
     "remaining": "Manual/panel controls, ports, current,memory,software and market verification."
+  },
+  "discovery_zoom_nu_20261018": {
+    "queries": [
+      "site:shopee.co.id Zoom G2Nu",
+      "site:shopee.co.id Zoom G2.1Nu",
+      "site:shopee.co.id Mosky BE5",
+      "site:shopee.co.id Korg AX300B"
+    ],
+    "lead": "https://shopee.co.id/hopemusik",
+    "finding": "Four-month shop index mixes G2.1Nu/G2.1u/B2.1u atRp1699000; no exact item or resolved variant. G2Nu results were adapters. No qualified hardware price or new active model created.",
+    "remaining": "Resolve exact G2.1Nu/G2Nu item or continue other brand/series searches; no exhaustive-coverage claim."
   }
 }
