@@ -1965,3 +1965,38 @@ Official2001manual84pages readaswebtext;printedpage=PDFindex+1. No downloads/ins
 [GT6-P]: https://www.boss.info/global/products/gt-6/
 [GT6-M]: https://static.roland.com/assets/media/pdf/GT-6_OM.pdf
 [GT6-O]: https://shopee.co.id/EFEK-GITAR-BOSS-GT6-BEKAS-i.75325664.2875627315
+
+## VE-5
+
+Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Ownershipunknown. Noestablished independentguitar/bass processing.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/externalcontinuous/toeexpression unverified;CTL1,2 supportsoptionalFS-5U/FS-6/FS-7 switches. | [Product][VE5-P] |
+| K/F/B | Separate rotary/footswitch/buttoncounts pendingmanual/panelverification. | Unresolved |
+| Display | **16characters×2lines backlitLCD**;diagonal,color,touch unknown. | [Product][VE5-P] |
+| Processing / category choices | Sixcategories:Dynamics,PitchCorrect,Tone/SFX,Double/Harmony,Delay,Reverb. Simultaneousceiling/subtotals pending. | [Product][VE5-P] |
+| Factory / user memory | **50sounds total**;factoryfilled/userpartition pending. | [Product][VE5-P] |
+| Synth / acoustic | Pitchcorrection,harmony,Distortion/Radio/Strobe;instrumentsynth/acousticsimulation unverified. | [Product][VE5-P] |
+| Dimensions / mass | **178W×108D×55H mm;460g includingbatteries**. Withmicstandholder+batteries:**178×159×55mm;700g**. | [Product][VE5-P] |
+| I/O | BalancedXLR/¼TRSmicinput,48Vphantom10mAmax;stereo3.5mmAUX;XLROUT;stereo3.5mmPHONES/LINE;¼TRSCTL1,2;9VDC. Internalmic. USB/MIDIabsentfromlistedports. | [Product][VE5-P] |
+| Power / battery / USB | **9VDC190mA(max),optionalPSA;4AAalkaline/NiMH**. Runtimealkaline13h/6h,NiMH20h/9h(phantomoff/on),conditional. Polarity/USBpower unverified. | [Product][VE5-P] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
+| Editor / software | Officialeditor/platformsupport unverified. | Unresolved |
+| Looper / drums / live | **38smono phrase loop**,FavoriteSoundrecall,micstandmount. Loopretention/routing,drums/scenes pending. | [Product][VE5-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence / qualification | Source |
+|---|---|---|
+| Used | Unknown;no condition-verified used offer. | — |
+| New | Unknown;no condition-verified new offer. | — |
+| Condition-unverified cached ask | **Rp4,620,000**;BandungMusicGallery,KotaBandung,shop394955725/item3990824666. Checked2026-10-17,lastmonthindex;directretrievalfailed. Twoadvertisedvariants notidentified. Condition,live stock,color/variant,adapter/bundle,warranty,shipping/tax/voucherunknown. Relativetomorrowdelivery notstockproof;10klatecompensation notdiscount. | [Exactitem][VE5-O] |
+
+### Source-access provenance
+
+Officialproductreadaswebtext;manualsupport entry foundbutlicensepageexposesnodirectPDFinwebtext. No downloads,acceptance,installation orphotocountclaim. Do notborrowVE20/VE500specs.
+
+[VE5-P]: https://www.boss.info/global/products/ve-5/
+[VE5-O]: https://shopee.co.id/Boss-VE-5-Vocal-Effect-Processor-VE5-VE-5-Efek-Vokal-i.394955725.3990824666
+[VE5-M]: https://www.boss.info/global/support/by_product/ve-5/owners_manuals/75037e37-9ce8-4785-916e-baf064be0270/

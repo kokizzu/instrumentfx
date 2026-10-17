@@ -1427,3 +1427,7 @@ research-commit-gt6:
 .PHONY: research-commit-rp1000
 research-commit-rp1000:
 	python3 scripts/research_tools.py commit-rp1000
+
+.PHONY: research-commit-ve5
+research-commit-ve5:
+	python3 scripts/research_tools.py commit-ve5
