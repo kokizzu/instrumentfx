@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Matribox QME-50",
-    "task": "Original Matribox manual live operation and dedicated external-socket inventory recorded. Next prioritize fresh Shopee brand/series discovery;remaining screen/NAMarchitecture/power/OS/condition gaps stay open.",
+    "model": "Behringer Bass V-AMP",
+    "task": "Additional exact melodiasby Shopee offer saved with condition/stock unknown. Continue fresh brand/series discovery and unresolved manufacturer fields;do not duplicate existing BassVAMP/PRO.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox QME-50."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer Bass V-AMP."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60730,5 +60730,29 @@
       "PARA selects preset inlooper"
     ],
     "limits": "Text-only review;missing footswitch icons not assigned;no device test."
+  },
+  "bass_vamp_additional_offer_20261017": {
+    "url": "https://shopee.co.id/Behringer-V-Amp-Bass-Effect-Amp-Modelling-i.158144224.26580662622",
+    "seller": "melodiasby",
+    "shop": "158144224",
+    "item": "26580662622",
+    "idr": 1925000,
+    "region": "KotaSurabaya",
+    "access": "Direct extracted page2weekcrawl versus3monthsearchcache",
+    "condition": "unverified",
+    "stock": "unconfirmed;absence of Habis not proof",
+    "limits": "Working status,adapter/footswitch/bag,bundle,warranty,shipping,tax and checkout unresolved;cachedOctober4–5deliverynotcurrent;voucher compensationnotdeducted"
+  },
+  "discovery_bass_legacy_frontier_20261017_extra": {
+    "queries": [
+      "site:shopee.co.id Zoom B2.1NU efek",
+      "site:shopee.co.id Boss ME-6B",
+      "site:shopee.co.id Zoom BFX-708",
+      "site:shopee.co.id BFX Zoom",
+      "site:shopee.co.id G2Nu",
+      "site:shopee.co.id ME-6 efek",
+      "site:shopee.co.id Bass V-Amp"
+    ],
+    "result": "No qualified new model found;irrelevant ME6 earphones rejected. Existing BassVAMP/PRO offers rediscovered;additional desktop offer recorded. Not absence/exhaustive coverage proof."
   }
 }

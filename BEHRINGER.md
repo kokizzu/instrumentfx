@@ -28,6 +28,7 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Class | Amount | Exact hardware offer and qualifications |
 |---|---:|---|
 | Sold-out indexed hardware ask; sale condition unverified | **Rp1.000.000** | [gitar second,61848168/3979207338][BV-O],Kabupaten Polewali Mandar. Checked 2026-10-17 ; search cache 3 months, delivery 21–25 July, **Habis**. Exact open failed cache miss. Seller name is not condition proof; working condition, adapter, footswitch, bag, bundle, warranty **?**. Late delivery voucher not deducted. |
+| Condition unverified;stock unconfirmed | **Rp1.925.000** | [melodiasby,shop158144224/item26580662622](https://shopee.co.id/Behringer-V-Amp-Bass-Effect-Amp-Modelling-i.158144224.26580662622),KotaSurabaya. Checked2026-10-17,direct page retrieval with2weekcrawl;search cache3months. No Habis label in retrieved text does not prove stock. Condition,working status,adapter/footswitch/bag,bundle,warranty,shipping/tax and checkout availability unverified. Late-delivery compensation voucher not deducted;delivery4–5October is cached,not a current promise. |
 | Verified used offer | **?** | Sale condition unverified |
 | Verified new offer | **?** | Sale condition unverified |
 ### Bass V-AMP — memory and restoration,2026-10-17
