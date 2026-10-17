@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 237,
+  "active_model_count": 238,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 237,
+  "canonical_root_model_count": 238,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "237 unique active/root-canonical models;zero legacy-only;31 brands. RFX-1100 documented guitar/vocal multi-effects; bass unclassified. Six excluded archives.",
+  "count_reconciliation": "238 unique active/root-canonical models;zero legacy-only;31brands. B2.1u added bass-only;no mixed-market minimum assigned. Six excluded archives.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Zoom B2.1u",
-    "task": "Read own E_B21u manual panel,specifications,USB/pedal chapters andeffect categories;add bass-only record with unknown qualified IDR andretained mixed-price lead. Commitbeforeanother model. No dependencies/software downloads.",
+    "task": "Verify per-category choice counts,factory user fill andUSB audio restrictions from own manual;alreadyadded,do not duplicate. MixedShopprice remainsunassigned.",
     "next_models": [],
-    "after_queue": "CriticalMass ownmanual/exactoffer,legacybass,technicalgaps andmigration;no workflows."
+    "after_queue": "CriticalMass fullmanual/market gap,legacybass,technicalgaps andmigration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4997,6 +4997,16 @@
       ],
       "finding": "Own manual33 effect selections,combined algorithms,guitar preamp anddynamic mic routing. Exact condition-unverified Shopee ask retained.",
       "remaining": "Variation inventory,memory/max/display/power/software andqualified offers"
+    },
+    {
+      "model": "Zoom B2.1u",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_B21u.pdf"
+      ],
+      "finding": "Bass-only9simultaneous47choices,40+40memory,internaltoe/externalvolume,USBaudio/rhythm restrictions.",
+      "remaining": "Category/userfill/USB details,display andexactoffers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23834,7 +23844,8 @@
       "G7.1ut",
       "707II",
       "708II",
-      "RFX-1100"
+      "RFX-1100",
+      "B2.1u"
     ],
     "DigiTech": [
       "RP360XP",
@@ -24007,7 +24018,8 @@
       "G7.1ut",
       "707II",
       "708II",
-      "RFX-1100"
+      "RFX-1100",
+      "B2.1u"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -24193,8 +24205,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 94,
-      "bass_focused_record_count": 22,
+      "record_count": 95,
+      "bass_focused_record_count": 23,
       "shared_bass_capable_count": 72,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -41091,8 +41103,8 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 237,
-    "canonical_root_models": 237,
+    "unique_brand_model_pairs": 238,
+    "canonical_root_models": 238,
     "legacy_only_models": 0,
     "guitar_view_models": 194,
     "bass_focused_models": 21,
@@ -41101,7 +41113,7 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 94,
+    "bass_view_models": 95,
     "bass_shared_models": 72,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -41154,7 +41166,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Critical Mass discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2.1u."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41441,6 +41453,7 @@
       "Zoom::B1on",
       "Zoom::B3",
       "Zoom::708II",
+      "Zoom::B2.1u",
       "DigiTech::GNX3",
       "Korg::PANDORA stomp",
       "VOX::StompLab 2B",
@@ -43163,6 +43176,13 @@
     },
     "Zoom::RFX-1100": {
       "link": "ZOOM.md#rfx-1100",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::B2.1u": {
+      "link": "ZOOM.md#b21u",
       "source_files": [
         "ZOOM.md"
       ],

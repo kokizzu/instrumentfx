@@ -1587,3 +1587,7 @@ research-commit-spx990:
 .PHONY: research-commit-rfx1100
 research-commit-rfx1100:
 	python3 scripts/research_tools.py commit-rfx1100
+
+.PHONY: research-commit-b21u
+research-commit-b21u:
+	python3 scripts/research_tools.py commit-b21u

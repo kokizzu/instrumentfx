@@ -2105,3 +2105,39 @@ Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 - [Official RFX-1100 support](https://zoomcorp.com/en/gb/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/).
 
 Remaining: complete per-variation parameters,simultaneous maximum,user-memory behavior,display/control confirmation,power draw,software andqualified offers. Category inventory is saved. Screenshot retrieval failed; no visual panel verification claimed. Manufacturer’s363 preset-program figure is now separated from writable memory. No sibling specifications substituted.
+
+## B2.1u
+
+Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2 FOUR or B2.
+
+| Field | Evidence / qualification |
+|---|---|
+| Instrument scope | Dedicated bass processor [B21-M p.4] |
+| Expression | Built-in assignable pedal with full-down module toggle; external FP01/FP02 is volume-only and shares CONTROL IN with FS01 [B21-M pp.18–21] |
+| Knobs / footswitches / buttons | 4 rotary controls: selector+3parameters;2 main footswitches;6 buttons: Store,Bank±,Tap,Pedal Assign,Rhythm;power separate [B21-M pp.6–7] |
+| Display | Two-digit seven-segment LED plus parameter/pedal LEDs;diagonal,color specification unverified;touch unverified [B21-M p.35] |
+| Processing / categories | 47 choices;up to9 simultaneous including ZNR. Per-category counts pending [B21-M pp.4,35] |
+| Preset memory | 40 ROM+40 writable=80;factory-filled user subset pending [B21-M pp.4–5] |
+| Synth / acoustic | Synth/fretless bass documented;dedicated acoustic simulator unverified [B21-M p.4] |
+| IR / NAM / captures | User IR,native/converted NAM andmeasured capture support unverified |
+| Audio / control ports | Mono input;stereo output/headphones;balanced XLR pre/post DI with ground lift;CONTROL IN;USB;DC IN [B21-M pp.6–7,35] |
+| Analog levels / conversion | Input1Mohm/−20dBm;96kHz24bit conversion,32bit internal. USB separately16bit stereo32/44.1/48kHz [B21-M p.35] |
+| Power / battery / USB | 9VDC300mA center-negative AD0006;4AA alkaline~6h;USB bus operation documented with low-power caveat. Actual draw unverified [B21-M pp.2,35,USB appendix] |
+| Dimensions / weight | W255×D165×H79mm;1.2kg without batteries [B21-M p.35] |
+| Editor / software | USB audio;G-Series ASIO driver separately lists XP32,Vista/7/8 32/64. Editor/currentOS support unverified [B21-S] |
+| Looper / drums / live | Rhythm disables reverb;delay hold differs from a verified overdub looper. Looper/scenes/spillover unverified [B21-M p.35] |
+
+### B2.1u — separate IDR evidence
+
+| Price class | Amount | Offer and limits |
+|---|---:|---|
+| Verified used IDR | ? | No exact qualified item established |
+| Verified new IDR | ? | No exact qualified item established |
+| Rejected mixed-model minimum | Not assigned | [Hope Music shop](https://shopee.co.id/hopemusik) indexed title mixes G2.1Nu/G2.1u/B2.1u atRp1.699.000. Four-month snippet;reopened shop no longer exposes exact item. Seller/item,selected variant,condition,stock,region,bundle,voucher unknown. Never treat minimum asB2.1u price |
+
+### B2.1u — primary sources and remaining verification
+
+- [B21-M: official own-model operation manual,E_B21u,41PDF pages including computer appendix](https://zoomcorp.com/media/documents/E_B21u.pdf). Web text only;no files downloaded.
+- [B21-S: manufacturer model support and driver listing](https://zoomcorp.com/en/us/multi-effects/bass-effects/b21u/b21u-support/).
+
+Remaining: category counts,factory user fill,USB/control restrictions,display gaps andqualified exact offers. Driver listing is not editor evidence.
