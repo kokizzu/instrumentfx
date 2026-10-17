@@ -220,6 +220,17 @@ Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;
 | New-title indexed ask;Habis | **Rp950.000**, [spot_reuseshop.id,shop258736226/item10788059230](https://shopee.co.id/BASS-EFFECT-VOX-STOMPLAB-2B-NEW%21%21%21-i.258736226.10788059230),KotaJakartaSelatan. Rechecked2026-10-17;2monthsearchcache,directCachemiss. Title saysNEW;condition not independently confirmed. **Habis**;working status,adapter/bundle,warranty,variant,shipping/tax andcheckout unknown. Late-delivery compensation not deducted;not an available new-price range orcompleted sale. Earlier observation below retained. | Exact indexed hardware title;no fresh stock certification. |
 | Unallocated variant/voucher display;Habis | **Rp1,367,000** displayed withvoucher;Salomo Musik,KotaJakartaUtara,shop1776275/item4688514198. Checked2026-10-18,directreader2weekcache;earliersearch2months. Options SL2B and+Adaptor visible;selected option andprice allocation unresolved. Not accepted as bare-unit oradapter-bundle price,new/used price,oravailable stock. Voucher text spendRp10RB/discount10% retained without recalculation;eligibility/cap/checkout unknown. Working state,warranty,shipping/tax unknown;relative delivery andlatecompensation up toRp10,000 do notoverrideHabis orreduce price. | [Exact listing](https://shopee.co.id/Vox-SL2B-Multi-Effects-Bass-Pedal-Multi-Efek-Bass-Pedal-Vox-Stomplab-2B-SL2B-Original-i.1776275.4688514198) |
 
+
+### StompLab 2B — saved settings and pedal limits
+
+Checked2026-10-18 against the [exact IIB manufacturer manual][SL2B-M]. Printed page numbers retained;no hardware operation performed.
+
+| Field | Manual qualification |
+|---|---|
+| Expression / range persistence | Pp10–11 permit separate heel/toe parameter endpoints. Unsaved ranges revert on program change or power-off. Saving after pedal movement stores its current parameter value,except volume,delay/reverb input levels and pitch-shift pitch;the manual labels the delay exception **PDL**,while its following instruction says **DLY**. Preserve that label discrepancy. |
+| Memory / global persistence | P12: output-device **AP/Ln selection persists** across power-off; **master volume resets to7.0**. Unsaved program edits are lost on program change/power-off. P14 factory reload erases stored user-created programs;this is not an additional writable bank. |
+| Live / tuner reference reset | P9: reference adjustment **438–445Hz** returns to **440Hz after power-off**. This differs from the persistent output-device selection. |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware
