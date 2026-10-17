@@ -3138,3 +3138,14 @@ Partial,checked2026-10-17. Manufacturer G1/G1X manual,not G1next/G1on/FOUR. Sell
 [G1O-M]: https://zoomcorp.com/media/documents/E_G1_G1X.pdf
 
 Manualidentity/copyright andG1-specific entries checked;textonly,no downloads orvisualinspection claimed.
+
+
+### Original G1 pre-select, rhythm and tuner limits
+
+Checked 2026-10-18 using the original G1/G1X manual; only G1-applicable behavior recorded. No files downloaded or hardware tested.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Controls / pre-select | Hold the up footswitch during power-up to enable pre-select. Browsing patches then leaves the current sound active; press both footswitches to confirm the flashing selection. Restart restores normal immediate switching. G1 can also browse banks with FS01 before confirmation. | [Own manual p16][G1O-M] |
+| Looper / rhythm restrictions | Rhythm mode prevents patch changes and master-level adjustment. In play mode rhythm can run, but pattern, rhythm volume and tempo cannot be adjusted there. Rhythm tempo spans 40–250 bpm; volume 0–30. Rhythm can continue in bypass/mute; reverb remains unavailable while it plays. These rhythm functions do not establish a phrase looper. | [Own manual pp10–11][G1O-M] |
+| Tuner / reference reset | Adjustable A reference 435–445 Hz; power-cycling resets it to 440 Hz. Tuning requires bypass or mute. | [Own manual pp8–9][G1O-M] |
