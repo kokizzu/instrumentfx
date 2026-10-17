@@ -1908,15 +1908,15 @@ Guitar multi-effects; distinct from ME-20B and ME-25. Checked 2026-10-17; partia
 | Expression | Built-in expression pedal; external FOOT SW supports FS-5U/FS-6 switches, not established external expression. Firm toe pressure toggles wah; with wah off it controls volume. Toe-switch firmness adjustable 1–9 (factory5). | [Manual pp9–10,27–28,30][ME20-M] |
 | K/F/B | **5 rotary /3 main footswitches /buttons unresolved**. | [Manufacturer][ME20-P] |
 | Display | Two-character, seven-segment LED; diagonal/color/touch unknown. | [Specifications][ME20-P] |
-| Dimensions / mass | **294W×179D×54H mm**, maximum height74mm; **1.6kg including batteries**. | [Specifications][ME20-P] |
-| Processing / category choices | OD/DS6 (five drives plus compressor), MOD5, DELAY3 selections (two delay ranges plus reverb); EQ,WAH,noise suppressor andfoot volume. Delay/reverb share selection; ranges are not independent algorithms. Explicit simultaneous ceiling unverified. | [Manual pp16–21,33][ME20-M] |
+| Dimensions / mass | **294W×179D×54H mm**, maximum height74mm; **1.6kg including batteries**. | [Specifications][ME20-P];[Manual p37][ME20-M] |
+| Processing / category choices | OD/DS6 (five drives plus compressor), MOD5 (chorus,phaser,flanger,tremolo,rotary), DELAY3 selections (two delay ranges plus reverb); EQ,WAH,noise suppressor andfoot volume. Delay/reverb share selection; ranges are not independent algorithms. Routing is selected automatically from effect settings. Delay ranges:0–99ms in1ms steps;100–700ms in10ms steps. EZ EDIT sound recipes are parameter combinations,not additional algorithms. Explicit simultaneous ceiling unverified. | [Manual pp16–22,33][ME20-M] |
 | Factory / user memory | **30 factory-filled user locations**,10banks×3; not30user plus30read-only. WRITE required. Factory reset restores user sounds,tuner reference pitch and knob response. | [Manufacturer][ME20-P];[Manual pp26,29,31–33][ME20-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified; guitar multi-effects architecture established. | Unresolved |
-| I/O | ¼input,Lmono/R¼outputs,stereo⅛AUX,stereo¼phones,¼TRS FOOT SW,DC. No USB/MIDI listed. AUX bypasses effects,level controlled at source. PHONES connection adds amp-like tonal compensation. | [Specifications][ME20-P];[Manual p10][ME20-M] |
+| I/O | ¼input,Lmono/R¼outputs,stereo⅛AUX,stereo¼phones,¼TRS FOOT SW,DC. 24-bit AD/DA,44.1kHz;input1MΩ/AUX22kΩ,nominal−10/−18dBu respectively;output2kΩ,nominal−10dBu. No USB/MIDI listed. AUX bypasses effects,level controlled at source. PHONES connection adds amp-like tonal compensation. | [Specifications][ME20-P];[Manual pp10,37][ME20-M] |
 | Power / battery / USB | **9VDC,90mA**; six AA or optional PSA. Alkaline13h/carbon3.5h conditional. INPUT plug insertion powers on; removal powers off. Polarity andUSB power unverified. | [Specifications][ME20-P];[Manual p10][ME20-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified;no digital import path established. | Unresolved |
 | Editor / software | Editor/platform support unverified. | Unresolved |
-| Looper / drums / live | OD/DS Solo boost;manual/memory modes. External switches:Solo+bypass/tuner inmanual,bank up/down inmemory. Looper,drums,scenes,trails unverified. | [Manufacturer][ME20-P];[Manual pp27–28][ME20-M] |
+| Looper / drums / live | OD/DS Solo boost;manual/memory modes. External switches:Solo+bypass/tuner inmanual,bank up/down inmemory. Power-up starts Manual; first Memory entry recalls1-1. Pedals2+3 toggle modes; Memory effect switching requires Patch Edit. Bank selection waits for numbered-pedal confirmation; unsaved patch edits are lost on patch change. Pedals1+2 enter bypass/tuner,not automatic mute:expression controls volume. Reference435–445Hz is saved automatically,factory440Hz. Looper,drums,scenes,trails unverified. | [Manufacturer][ME20-P];[Manual pp14–15,23–28][ME20-M] |
 
 ### Separate IDR hardware offers
 

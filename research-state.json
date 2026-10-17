@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh discovery after ME-20 manual follow-up",
-    "task": "ME-20 toe/factoryfill/batterymass/maxheight/power routing resolved; buttons and remaining fields open. Search Shopee by brand/series for unrecorded eligible units; do not re-add193 recorded models.",
+    "task": "ME-20 manual follow-up saved; next prioritize fresh Shopee discovery for unrecorded eligible processors; no repeat of resolved manual fields.",
     "next_models": [],
     "after_queue": "Official sources; no downloads/workflows; commit each model before next."
   },
@@ -48988,6 +48988,13 @@
       "source": "https://static.roland.com/assets/media/pdf/ME-20_OM.pdf",
       "finding": "pp9,30 toe wah/volume and firmness1–9; p37 maximumheight74mm and massincludesbatteries; pp29,31–33 factory-filled30user/reset scope; p10 inputpower,AUXdry/headphonescompensation.",
       "remaining": "Button count,simultaneousceiling,polarity,screen details,imports/editor,condition-qualified prices and stock remain unresolved."
+    },
+    {
+      "model": "BOSS ME-20",
+      "checked_date": "2026-10-17",
+      "source": "https://static.roland.com/assets/media/pdf/ME-20_OM.pdf",
+      "finding": "pp14–26 tuner audibility/reference retention,auto routing,delay step sizes,MOD names,EZEDIT recipes,Manual startup/Memory bank confirmation and edit restrictions; p37 conversion and electrical IO.",
+      "remaining": "Button total not recoverable from text; screenshot returned no image. Simultaneous ceiling,polarity,display details,imports/editor and qualified market evidence unresolved."
     }
   ],
   "discovery_cross_brand_bass": {
