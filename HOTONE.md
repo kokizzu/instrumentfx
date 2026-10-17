@@ -462,6 +462,18 @@ Checked2026-10-17, original **V1.0.2** manual pp54–56,73–74.
 | Expression / assignment invalidation | Up tofour targets, each withMIN/MAX andLine/Exp/Log curve; **MIN can exceedMAX** for reversed sweep. Moving/deleting a target module or replacing its effect resets its expression target toNone. Quick-access assignments also reset toNone when their target module changes. Recheck assignments after chain edits; no arbitrary persistence claim. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual) |
 
 
+### MP-350 — electrical specifications and power conflict
+
+Checked2026-10-17.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / impedance | Original V1.0.2 manual p88 and current manufacturer page agree: instrumentE.GT1MΩ,A.GT4.7MΩ,LINE10kΩ; XLR5kΩ; FXReturn100kΩ; AUX10kΩ. Unbalanced/balanced/FXSend outputs1kΩ; phones47Ω. These are impedance values, not maximum input/output levels. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual); [manufacturer](https://www.hotone.com/products/multi-effects/Ampero%20II) |
+| Power / conflicting maximum current | **V1.0.2 manual p88 says1.4A maximum at9V; current product page says1.2A maximum at9V**. Both specify9–18VDC,center-negative. Preserve conflict; no silently chosen draw or18V current derived. Current page says18V supply included; this does not verify a seller bundle. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual); [manufacturer](https://www.hotone.com/products/multi-effects/Ampero%20II) |
+
+Earlier1.2A shorthand is the product-page value, not a reconciliation of both documents. Battery and USB bus-power operation remain unverified.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

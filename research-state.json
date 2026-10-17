@@ -62153,5 +62153,18 @@
     ],
     "limits": "Notcurrentfirmware/runtimetest; numericDSPbudgetunresolved",
     "next": "Current firmware library and physical I/O conflicts; other model gaps and fresh discovery"
+  },
+  "mp350_electrical_conflict_20261017": {
+    "sources": [
+      "https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual",
+      "https://www.hotone.com/products/multi-effects/Ampero%20II"
+    ],
+    "findings": [
+      "Instrument1M/4.7M/10k;XLR5kReturn100kAUX10k",
+      "MainSend1kphones47ohm",
+      "9Vmaxcurrentmanual1.4Aversusproduct1.2Aconflict"
+    ],
+    "limits": "No18Vdrawderived;published18Vsupplynotindividualsellerbundleproof;noactualmeasurement",
+    "next": "Current firmware algorithm lists and remaining physical I/O conflicts; fresh discovery"
   }
 }
