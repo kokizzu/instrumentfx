@@ -2827,3 +2827,20 @@ No confirmed used/new split. Functionality,regional mains version,cord/bundle,au
 | Live / bypass distinction | [p6][R2200-M]: effect-dependent **WET MUTE** removes wet audio while dry level still follows MIX;fully wet may therefore become silent. **DRY THRU** passes dry independently of MIX. Do not assume every bypass yields the same level. |
 
 Earlier factory-fill gap is resolved for the manual’s shared100-slot layout;actual seller-unit contents remain unknown. No reset or device operation performed.
+
+### RFX-2200 — complete bank-type inventory, 2026-10-17
+
+[Own English manual pp14–22][R2200-M]. Each bank below contains **8 types**,48 total;these remain selectable algorithms,not48 simultaneous blocks.
+
+| Field | Eight documented types |
+|---|---|
+| Processing / REVERB | Hall; Room; Plate; Vocal; Ambience; Percussion; Ensemble; Power |
+| Processing / DELAY | Stereo Delay; Mono Delay; Pan Delay; Rhythm; Chorus+Delay; Delay+Flanger; Delay+Reverb; Delay/Reverb |
+| Processing / EFFECTS | Pitch; Chorus; Flanger; Phaser; Tremolo-Pan; Chorus+Reverb; Flanger+Reverb; Flanger/Reverb |
+| Processing / SFX | Vocoder; Ring-Mod; Time Trip; Pitch-Delay; Rotary; Dimension; Gate Reverb; Reverse Reverb |
+| Processing / RE-MIX | Lo-Fi; Isolator; Comb; Step Cry; Resonance; LPF; BPF; HPF |
+| Processing / MIXDOWN | Final; Power Boost; Wide; Boost EQ; Vocal Presence; Compressor/Limiter; Mic Simulator; Cabinet Simulator |
+| Processing / reverb count reconciliation | Derived **(8 REVERB +3 SFX reverb types)×11characters=121**,matching the introductory headline. SFX types are Dimension,Gate Reverb,Reverse Reverb;do not infer121 types within the eight-entry REVERB bank. |
+| IR / cabinet simulation distinction | Cabinet Simulator offers6combo/5stack characters with enhancement;this establishes fixed speaker simulation,not user IR import or amp capture. |
+
+Earlier per-bank type gap is resolved. Exact unit firmware,universal concurrency,display,currentdraw,MIDI expression and software/import support remain partial. No downloads or hardware operation.
