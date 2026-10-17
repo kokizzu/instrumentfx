@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic PLETHORA X5",
-    "task": "Verify X5 own official product/manual and firmware using saved exact Shopee offer. X3 MIDI findings committed; firmware/timing/display/import/software and offer gaps deferred explicitly.",
+    "task": "X5 own product and QSG facts saved, including explicit bass-cab use and40s stereo/80s mono looper. Next add root X5 record plus guitar/bass rows; preserve dimension label inconsistency and unresolved controls/firmware fields.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
@@ -54864,5 +54864,36 @@
     "evidence": "Explicit X5/X3 table proves Global Expression, per-slot MASH/expression modifiers, Hot Knobs and looper record/play/clear/pause. Slots4/5 marked X5-only.",
     "rejected_inference": "X5-only firmware1.2.18 note states40s stereo/80s mono, not adopted for X3.",
     "access": "Direct X3 QSG browser open502; indexed text remains readable. X3 firmware/date and recording duration unresolved; no files downloaded."
+  },
+  "plethora_x5_primary_discovery_20261017": {
+    "product": "https://www.tcelectronic.com/en/products/0709-AIK",
+    "manual": "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf",
+    "checked_date": "2026-10-17",
+    "product_facts": {
+      "processing": "Up to5TonePrint pedals per board, flexible order;127customboards;75TonePrintslots per pedal.",
+      "expression": "5MASHswitches each can control up to3parameters; externalEXP socket documented.",
+      "looper": "Product explicitly40seconds stereo/80mono,RAMbased;up to5looperinstances per board.",
+      "routing": "Insertloop supports own drive pedals and4cablemethod;9globalproprietarycab simulations, bass use explicitly mentioned.",
+      "scope": "Guitar and bass supported by own product wording; no vocal proof."
+    },
+    "manual_facts": {
+      "pages": "14–15",
+      "controls": "Effect/TonePrint pushencoders,3parameterknobs,Play/Edit knob,Board switch,5footswitches; rotary selector versus switch count needs reconciliation.",
+      "connections": "StereoTSinputs/outputs,TSsendreturn,TRSEXP,DCinput,USBcomputerTonePrint/update,MIDIIN/THRU.",
+      "power": "9VDC >600mA included supply; polarity separately indexed centre-negative5.5/2.1mm.",
+      "dimensions": "Specification labels H×W×D but prints298.5×116×53mm;preserve axis inconsistency before normalizing.1.4kg."
+    },
+    "offer": {
+      "model": "TC Electronic PLETHORA X5",
+      "url": "https://shopee.co.id/TC-Electronic-PLETHORA-X5-TonePrint-Pedal-Board-Loaded-with-Favorite-FX-and-5-MASH-Footswitches-i.158235298.27271818642",
+      "shop_id": "158235298",
+      "item_id": "27271818642",
+      "seller": "NEO MUSIC",
+      "region": "Kota Sukabumi",
+      "asking_idr": 9105200,
+      "condition": "Unverified",
+      "access": "Exact item search text, three-month crawl, July2 arrival. Historical ask, not live stock."
+    },
+    "next": "Add root X5 record and guitar/bass shared membership using explicit product bass-cab wording. Preserve dimension axis conflict, controls uncertainty and firmware qualification. Commit before another model."
   }
 }
