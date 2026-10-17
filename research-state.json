@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-200",
-    "task": "GP200 AMP71builtins+5SnapTonepositions saved withnames/Foxy15TBconflict;categoryinventories largelylisted butDLYtextduplicate unresolved. Next originalpanel/tableverification,currentfirmware reconciliation orfreshShopeediscovery; cataloguegapsremain.",
+    "task": "StandardGP200 three seller-labelledusedoffers saved,separatefromX/Rvariants. ContinuefreshShopeediscovery ororiginalpanel/tableverification; DLYconflict,currentfirmware/OS/power/importgapsremain.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61629,5 +61629,41 @@
     "selectable_position_basis": 76,
     "conflict": "Foxy15TBnamebutAC100bassampprose;identityunresolved",
     "limits": "141AMP+CABcategoryentriesnotuniquegrandtotal/simultaneousorinstalledfirmwareproof"
+  },
+  "gp200_used_offers_20261017": {
+    "offers": [
+      {
+        "shop": "82604554",
+        "item": "25576913343",
+        "seller": "nomadfears",
+        "region": "KotaBandung",
+        "idr": 4300000,
+        "condition": "titleSECOND",
+        "stock": "Habis",
+        "access": "DirectmonthcacheAug27–29versus2monthsearchJuly22–25"
+      },
+      {
+        "shop": "414662483",
+        "item": "42259496486",
+        "seller": "TOBAKAS ASYEFI",
+        "region": "JakartaTimur",
+        "idr": 4500000,
+        "condition": "titleSecondlikenew",
+        "stock": "Habis",
+        "access": "Direct2weekcacheversus2monthsearch"
+      },
+      {
+        "shop": "341114794",
+        "item": "24105596559",
+        "seller": "abengstudioproject",
+        "region": "Kab.Bogor",
+        "idr": 4650000,
+        "condition": "titlebekas",
+        "stock": "unknown",
+        "access": "2monthindex,directJSshell"
+      }
+    ],
+    "scope": "StandardGP200notX/R/JR/LT",
+    "limits": "Sellerconditionnotindependenttest;workingbundleadapterwarrantyshippingtaxcheckoutunknown;notliverange/completedsale;latecompensationnotdiscount"
   }
 }
