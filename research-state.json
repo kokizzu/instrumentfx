@@ -28,10 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer FX600",
-    "task": "FX600 useful manual/market findings saved; defer numeric ranges/bypass/condition-qualified offers pending new evidence. Next fresh Shopee discovery by bass/vocal brand-series, deduplicate inventory before additions.",
-    "next_models": [],
-    "after_queue": "317active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
+    "model": "Soran Go Rig B",
+    "task": "Read own official product and V1.0.0 manual text; verify all required fields and exact HOLY MUSIC offer945642322/56262097023; create root SORAN.md only after evidence and add explicit commit target. Do not borrow Tiny/Dual architecture.",
+    "next_models": [
+      "Soran Tiny Stomp",
+      "Soran Dual Stomp"
+    ],
+    "after_queue": "Continue Shopee bass/vocal discovery;317 active before Soran promotion;all prior technical/market/ownership/migration gaps remain."
   },
   "new_findings": [
     {
@@ -65196,5 +65199,77 @@
     ],
     "rejected": "880854240/47300816627 title97%,Rp99,two unresolved variants,Habis; not qualified used price",
     "result": "No condition-qualified used/new hardware offer established. Preserve earlier offers; do not combine cached asks into market range."
+  },
+  "discovery_soran_20261018": {
+    "checked": "2026-10-18",
+    "status": "Exact hardware discovery only; not promoted to active counts before model-specific research",
+    "queries": [
+      "site:shopee.co.id bass BP200",
+      "site:shopee.co.id VoiceLive Touch",
+      "site:shopee.co.id bass 506 Zoom",
+      "site:shopee.co.id TC Helicon VoiceTone",
+      "site:shopee.co.id bass Soran"
+    ],
+    "deduplication": "Soran absent from inventory_by_brand; B2 FOUR Imagination item22861014005 already saved, reopened Habis/Rp4184000 not a new model",
+    "leads": [
+      {
+        "model": "Soran Go Rig B",
+        "url": "https://shopee.co.id/SORAN-GO-RIG-B-Portable-Bass-Multi-Effects-Stompbox-Pedal-%E2%80%93-Original-i.945642322.56262097023",
+        "seller": "HOLY MUSIC",
+        "region": "Jakarta Utara",
+        "ask_idr": 1130000,
+        "access": "Direct reader indexed body, last-month crawl",
+        "condition": "Unknown",
+        "stock": "Unconfirmed; relative five-hour delivery not proof",
+        "qualifications": "Bundle/variant/warranty/shipping/tax/voucher unknown;10k late compensation not discount; no completed-sale claim"
+      },
+      {
+        "model": "Soran Tiny Stomp",
+        "url": "https://shopee.co.id/SORAN-Tiny-Stomp-Multi-Effect-Processor-with-Dual-Mode-Electric-Guitar-and-Bass-i.195817632.9344664445",
+        "seller": "CH MUSIC",
+        "region": "Jakarta Pusat",
+        "ask_idr": 830000,
+        "access": "Last-month index",
+        "condition": "Unknown",
+        "stock": "Unconfirmed"
+      },
+      {
+        "model": "Soran Dual Stomp",
+        "url": "https://shopee.co.id/SORAN-Dual-Stomp-Multi-Effect-Electric-Guitar-and-Bass-Processor-new-arrival-holy-music-nam-ir-i.945642322.51608612661",
+        "seller": "HOLY MUSIC",
+        "region": "Jakarta Utara",
+        "ask_idr": 1400000,
+        "access": "Last-month index",
+        "condition": "Unknown",
+        "stock": "Habis",
+        "qualifications": "Seller NAM/IR title is not authoritative technical evidence; do not merge Lite variant"
+      }
+    ],
+    "primary_leads": [
+      {
+        "url": "https://www.soranaudio.com/",
+        "basis": "Manufacturer names Go Rig B Electric Bass Multi-effects Stompbox"
+      },
+      {
+        "url": "https://www.soranaudio.com/Download.html",
+        "basis": "Lists Go Rig B V1.0.0 manual; not downloaded"
+      },
+      {
+        "url": "https://soranaudio.com/products/34.html",
+        "basis": "Own Tiny Stomp product; future model-specific research"
+      },
+      {
+        "url": "https://soranaudio.com/products/28.html",
+        "basis": "Own Dual Stomp product; preserve page internal Lite naming discrepancy when researched"
+      },
+      {
+        "url": "https://soranaudio.com/article/127.html",
+        "basis": "May27 2026 V1.1.1 firmware notes for Dual Stomp/Lite/Tiny; not evidence for Go Rig B"
+      }
+    ],
+    "not_promoted": [
+      "VoiceTone H1/E1/C1/X1 exact offers found; dedicated-purpose eligibility must be checked, not automatically active",
+      "No BP200 or original506 hardware result accepted from unrelated search noise"
+    ]
   }
 }
