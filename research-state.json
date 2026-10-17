@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 323,
+  "active_model_count": 324,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 323,
+  "canonical_root_model_count": 324,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "323 unique active/root-canonical;0 legacy-only;37 brands;6 excluded;all partial.",
+  "count_reconciliation": "324 unique active/root-canonical;0 legacy-only;37brands;6excluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,11 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "JOYO Tone Chain TC-1",
-    "task": "SOL918 initial root record saved with exact offers, manufacturer size/power and explicit gaps. Next verify TC-1 exact hardware and primary manufacturer evidence; commit before TC-2.",
-    "next_models": [
-      "JOYO Tone Chain TC-2"
-    ],
+    "model": "JOYO Tone Chain TC-2",
+    "task": "TC-1 committed as distinct partial guitar model;verify TC-2 own product and exact Shopee offer without borrowing TC-1 controls/weight.",
+    "next_models": [],
     "after_queue": "Resume fresh Shopee discovery;technical/market/ownership/migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
@@ -24187,7 +24185,8 @@
       "GEM BOX original",
       "GEM BOX II",
       "GEM BOX III",
-      "R-16 Vocal Lab"
+      "R-16 Vocal Lab",
+      "Tone Chain TC-1"
     ],
     "Line 6": [
       "HX Stomp",
@@ -24635,7 +24634,8 @@
       "GEM BOX original",
       "GEM BOX II",
       "GEM BOX III",
-      "R-16 Vocal Lab"
+      "R-16 Vocal Lab",
+      "Tone Chain TC-1"
     ],
     "DONNER.md": [
       "Arena2000",
@@ -24884,7 +24884,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 270,
+      "record_count": 271,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41952,10 +41952,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 323,
-    "canonical_root_models": 323,
+    "unique_brand_model_pairs": 324,
+    "canonical_root_models": 324,
     "legacy_only_models": 0,
-    "guitar_view_models": 270,
+    "guitar_view_models": 271,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -42015,7 +42015,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume JOYO Tone Chain TC-1."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume JOYO Tone Chain TC-2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42082,6 +42082,7 @@
       "JOYO::GEM BOX original",
       "JOYO::GEM BOX II",
       "JOYO::GEM BOX III",
+      "JOYO::Tone Chain TC-1",
       "Line 6::HX Stomp",
       "Line 6::HX Effects",
       "Line 6::HX Stomp XL",
@@ -43236,6 +43237,13 @@
     },
     "JOYO::R-16 Vocal Lab": {
       "link": "JOYO.md#r-16-vocal-lab",
+      "source_files": [
+        "JOYO.md"
+      ],
+      "finding_files": []
+    },
+    "JOYO::Tone Chain TC-1": {
+      "link": "JOYO.md#tone-chain-tc-1",
       "source_files": [
         "JOYO.md"
       ],
@@ -65693,5 +65701,13 @@
     "qualification": "Five advertised functions include FXloop;notfiveverifiedinternalDSPblocks.",
     "market_access": "Adventure exact direct cachedRp729000 agrees with indexedprice,relative delivery differs;conditionstockunknown. Grand57 indexedRp955000Habis,conditionunknown.",
     "remaining": "Controls/expression/display, simultaneous/routing, category subtypes, fullI/O, memories, imports, software, current/batteryUSB andqualifiedprices."
+  },
+  "tc1_primary_20261018": {
+    "checked_date": "2026-10-18",
+    "source": "https://www.joyoaudio.com/product/192.html?productCateId=20",
+    "offer": "https://shopee.co.id/Joyo-Tone-Chain-TC-1-Pedal-Multi-Efek-Gitar-Tonechain-TC1-Original-i.77738264.20474867657",
+    "status": "Initial partial guitar record;9namedrotaries4FSplusHiLo;fullcensuspending",
+    "price": "Rp2064000 voucherlabel,spend150kdiscount1k;no doublesubtraction,conditionstockunknown",
+    "remaining": "Originalmanual,fullcontrols/expression/display/ports,memories,processingceiling/subtypes,imports/software,batteryUSB andqualifiedprices."
   }
 }

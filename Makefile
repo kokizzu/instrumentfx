@@ -1759,3 +1759,7 @@ research-commit-me90b-control:
 .PHONY: research-commit-sol918
 research-commit-sol918:
 	python3 scripts/research_tools.py commit-sol918
+
+.PHONY: research-commit-tc1
+research-commit-tc1:
+	python3 scripts/research_tools.py commit-tc1
