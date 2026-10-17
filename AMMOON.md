@@ -37,3 +37,16 @@ No live-stock or completed-sale claim. No downloads or installations. Remaining:
 
 [PR-M1]: https://www.manualslib.com/manual/2585157/Ammoon-Pockrock.html
 [PR-M2]: https://www.manualslib.com/manual/2585157/Ammoon-Pockrock.html?page=2
+
+### PockRock — recovered manufacturer product page
+
+Checked 2026-10-18: [Ammoon exact Dark Grey/US product](https://www.ammoon.com/p-i2717dgy-us.html), recovered through [RockBoard's product link](https://www.rockboard.de/en/pedalPedia/Ammoon/PockRock-Portable-Guitar-Multi-Effects/68974443/). Support/home failures do not mean every manufacturer URL is inaccessible. RockBoard's link labelled Manual resolves to this product page, not a PDF; its zero measurements and analog label were not adopted.
+
+| Field | Primary evidence / qualification |
+|---|---|
+| Processing / category choices | Manufacturer advertises **5 modules,15 types**:6 drives(Clean,Overdrive,Distortion,Crunch,Fuzz,Metal),4 MOD(Chorus,Flanger,Phaser,Tremolo),4 DLY/REV(Delay,Echo,Room,Hall),plus drum rhythm. Fifteen includes drum rhythm,not15 guitar algorithms. Five-module wording lists DRIVE,MOD,DLY/REV,DRUM;does not prove separate simultaneous delay/reverb. Manual's8-module statement remains a conflict. |
+| Dimensions / weight | Manufacturer **13×8.5×3cm,130g**,axes not labelled;manual **W128.5×D84×H45mm,160g**. Preserve discrepancy;no measured correction orrevision mapping. Manufacturer separately labels package13.5×10.5×8.5cm,270g,so do not silently reinterpret item values as packaging. |
+| Power / bundle | Dark Grey/US page includes9V adapter andexcludes2AAA,guitar,cables. This does not certify the Shopee bundle ornew condition. |
+| Editor / manual identity | Manufacturer names **I2717PockRock_Manual_EN_V01.pdf** under manuals. Retrieved page exposes no usable linked PDF;mirror revision equivalence unverified. No editor/driver support inferred from generic heading. |
+
+Earlier exclusion of generated summaries remains valid, but matching dimensions/module claims now also have primary-page provenance and are retained as conflicts. Screen size,visual control count,runtime,simultaneous routing andcondition-qualified prices remain unresolved. No downloads or installations.

@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "PockRock",
-    "task": "Verify original manual/panel and effect choices;exact Shopee ask and partial root record saved. Then resume Shopee series discovery.",
+    "model": "Shopee discovery",
+    "task": "PockRock manufacturer page recovered; category choices and dimension/module conflicts saved. Resume Shopee brand/series discovery; original V01 file identity and panel remain gaps.",
     "next_models": [],
-    "after_queue": "332 active,38 brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
+    "after_queue": "332 active,38brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -42035,7 +42035,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume PockRock."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -66153,6 +66153,24 @@
       "RP350/RP355 adapter is accessory",
       "FF20 dedicated looper/drum not active guitar multi-effects",
       "FX11/Tone Go searches no exact hardware hit; not absence proof"
+    ]
+  },
+  "pockrock_primary_20261018": {
+    "source": "https://www.ammoon.com/p-i2717dgy-us.html",
+    "discovery": "RockBoard English exact model link; Manual label points to product page",
+    "new_evidence": [
+      "6 drive+4MOD+4DLYREV+drum=15 advertised types",
+      "5modules product versus8manual",
+      "130g product versus160gmanual",
+      "Product item dimensions versusmanual discrepancy",
+      "I2717PockRock_Manual_EN_V01.pdf named,not readable link"
+    ],
+    "gaps": [
+      "Simultaneous routing",
+      "Revision equivalence",
+      "Visual controls",
+      "Runtime",
+      "Qualified prices"
     ]
   }
 }
