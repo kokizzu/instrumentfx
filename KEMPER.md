@@ -80,6 +80,7 @@ Partial record checked **2026-10-17**. Exact MK2 search-item identity;generic St
 | Bass capability | Manufacturer'sStageQuickStartp.7explicitlysupportsbass;currentMK2storeidentifiescompleteStagePROFILERarchitecture. Sharedbass,notfullbassalgorithmcensusorlow-endperformancecertification. [Stageguide][ks-q];[MK2store][ks-p]. |
 | Historical Stage workflow / revision limit | Manufacturer Quick Start **Rev. April 2019**, pp.15–17: Morphing moves multiple continuous parameters between Base and Morph endpoints; save the Rig to retain edits. Pedal Links are global, with controller-level feedback; listed MIDI controllers are Morph CC11, Wah CC1, Volume CC7, Pitch CC4. LOCK can retain a module across Rig changes; holding LOCK shows locked modules. This predates MK2: preserved as Stage workflow provenance, not current MK2 panel/count or firmware confirmation. The current MK2 store independently confirms Morphing, but exact current assignments still need its manual. [2019 guide](https://cdn.korn.eu/documents/product/268937_i.pdf). |
 | Practical features — OS14.2.1 revision | Official2026-08-10 release adds compressor sidechain for non-Player models; stereo parameters for Vintage/Hyper/Air Chorus and Micro Pitch; fixes Fixed Noise Gate placement before Parallel Path. Stage MK2 gains **experimental MIDI2.0 UDP** support. Version-specific features; not proof of installed firmware or universal network-MIDI compatibility. [Release][ks-r1421]. |
+| Practical features — OS14.2.2 revision | Official **2026-09-22** release fixes S/PDIF Output Volume influencing the Noise Gate2:1 effect and improves interaction with Rig Manager4.3.13. Required editors: **desktop≥4.3.13, iOS≥1.9.25, Android/Fire OS≥1.9.42**. Rig Manager4 host minimum remains Windows10 version1703/macOS10.14, with separate Windows ARM64 installer. These supersede the OS14.2.1 editor minima only when using OS14.2.2; installed seller firmware unknown. [Release][ks-r1422]. |
 
 ### Stage MK2 — separate IDR asking-price evidence
 
@@ -91,6 +92,7 @@ Partial record checked **2026-10-17**. Exact MK2 search-item identity;generic St
 
 EarlierSevenStereoseller16879370/item22081209737Rp29.960.000onlysaysStage;retainedinledgerwithMK1/MK2unknown,notusedasMK2lowerbound. Remotecontrollers,protectorsandPROFILEpacksarenothardwareoffersforthismodel.
 
+[ks-r1422]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/?postID=724318
 [ks-r1421]: https://forum.kemper-amps.com/forum/thread/68235-os-14-2-1-release/?postID=722785
 [ks-m13]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
 [ks-a]: https://www.scribd.com/document/890503834/Kemper-Profiler-Addendum-13-0

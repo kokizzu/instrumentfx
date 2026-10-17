@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Stage MK2",
-    "task": "Read official14.2.2 release details;seek currentMainManual/Browse/display evidence;resume exactShopee discovery.",
+    "task": "Seek current main manual, Browse capacity and display; resume exact Shopee discovery if remaining sources inaccessible.",
     "next_models": [],
     "after_queue": "Remaintechnical/marketgaps;no downloads,workflows orpush."
   },
@@ -63472,5 +63472,11 @@
     "finding": "Editor/host minima and revision-specific processing/MIDI changes saved.",
     "limits": "Not installed-OS proof;newer14.2.2 release visible in official forum navigation but its detailed post not inspected.",
     "next": "Read official14.2.2 release details;seek currentMainManual/Browse/display evidence;resume exactShopee discovery."
+  },
+  "stage_mk2_os1422_20261017": {
+    "source": "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/?postID=724318",
+    "identity": "Manufacturer administrator official post2026-09-22,directbodyinspected.",
+    "finding": "Version-qualified editor minima and S/PDIF/gate fix saved;older requirements retained.",
+    "next": "Seek current main manual, Browse capacity and display; resume exact Shopee discovery if remaining sources inaccessible."
   }
 }
