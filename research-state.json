@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal Shopee discovery",
-    "task": "B1 FOUR and B1X FOUR display/memory/power follow-ups saved. Resume fresh exact bass/vocal hardware discovery; do not repeat these resolved gaps. Boom Ave/BEM Box prior queries yielded no exact hardware, not proof of absence.",
+    "model": "DigiTech GNX3",
+    "task": "Verify original GNX3 manufacturer manual, architecture and exact variant; seller275193084/item28410925465 linked from reopened seller page asks Rp3.100.000, item reopening failed. Preserve NOS title discrepancy; do not infer condition/stock. Then add source-qualified record and views if eligible.",
     "next_models": [],
-    "after_queue": "Continue technical gaps and migration; no downloads/workflows."
+    "after_queue": "Resume fresh bass/vocal discovery and technical gaps; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -52149,5 +52149,36 @@
       "access": "last-month indexed text reopened"
     },
     "verification": "partial"
+  },
+  "discovery_bass_vocal_gnx_20261017": {
+    "queries": [
+      "site:shopee.co.id bass BP355",
+      "site:shopee.co.id bass BEM",
+      "site:shopee.co.id Boom Ave",
+      "site:shopee.co.id Vocalist Live 2 -adaptor -adapter",
+      "site:shopee.co.id Mooer BEM Box",
+      "site:shopee.co.id Sonicake Boom",
+      "site:shopee.co.id Digitech GNX",
+      "site:shopee.co.id Boss GT-10B"
+    ],
+    "result": "No new exact bass/vocal processor established in these limited searches; unrelated percussion, bass guitars and adapters rejected. Not evidence of market absence.",
+    "lead": {
+      "brand": "DigiTech",
+      "model": "GNX3",
+      "seller": "renggaandromedha",
+      "seller_id": "275193084",
+      "item_id": "28410925465",
+      "model_id": "215382973593",
+      "url": "https://shopee.co.id/Efek-Gitar-Digitech-GNX-3-USA-bk-Boss-GT-6-8-10-Mooer-Nux-Line-6-POD-Valeton-GP-200-i.275193084.28410925465",
+      "seller_url": "https://shopee.co.id/renggaandromedha",
+      "idr": 3100000,
+      "condition": "Seller page title says New Old Stock Original; item link uses different keyword-heavy title. Condition not independently verified.",
+      "access": "Seller page indexed last month and reopened; exact item link failed cache miss.",
+      "stock": "unknown",
+      "region": "unknown",
+      "bundle": "unknown",
+      "voucher": "unknown",
+      "status": "queued; not counted active until manufacturer verification"
+    }
   }
 }
