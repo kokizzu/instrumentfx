@@ -15,7 +15,7 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Dimensions / weight | **236 W × 180 D × 63 H mm; approximately 1.2 kg** in 2005 manual; manufacturer Spanish manual instead **approximately 2 kg**, same dimensions. Weight conflict retained. [Manual][BV-M], [Spanish manual][BV-S] |
 | Simultaneous blocks | Selectable effect/combinations; independent compressor/denoiser and extra MIDI wah. Manual describes five preset ingredients: amp, cab, pre-effect, post-effect/combination and compressor. Exact algorithm ceiling **?**; **16 effect groups** is not 16 simultaneous. [Manual][BV-M] |
 | Categories / choices | **32 amps, 23 cabinets, 16 stereo effect choices**. Product calls amp groups Clean/Acoustic/Guitar; manual divides 32 as 16 bass + 8 guitar + 4 keyboard + 4 acoustic and documents 4 drive models. Taxonomies retained. [Product][BV-P], [Manual][BV-M] |
-| Factory / user memory | **125 editable/storable presets, 25 × 5**; factory/user partition not established. [Manual][BV-M] |
+| Factory / user memory | **125 factory-programmed, editable/storable locations, 25 × 5**; factory originals restorable to the same locations, not a separate additional user bank. [Manual][BV-M] |
 | Synth / acoustic simulation | Three-voice synth with 9 variants; MIDI synth separate. ULTRABASS adds lower octave. Acoustic voicing includes piezo/magnetic processing; electric-to-acoustic simulation **?**. [Manual][BV-M], [Product][BV-P] |
 | IR / NAM / capture | User IR import, native NAM, converted NAM, capture **?**; factory cabinet simulations alone do not establish import |
 | Audio/control I/O | Quarter-inch instrument, AUX, L/R line, phones, footswitch; 5-pin MIDI in/out-thru; AC input. Body calls LINE OUT balanced, technical table TS/unbalanced; AUX described stereo but specification says balanced TRS. Preserve conflicts. PRO-only digital/XLR/insert ports not assigned here. [Manual][BV-M] |
@@ -30,6 +30,14 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Sold-out indexed hardware ask; sale condition unverified | **Rp1.000.000** | [gitar second,61848168/3979207338][BV-O],Kabupaten Polewali Mandar. Checked 2026-10-17 ; search cache 3 months, delivery 21–25 July, **Habis**. Exact open failed cache miss. Seller name is not condition proof; working condition, adapter, footswitch, bag, bundle, warranty **?**. Late delivery voucher not deducted. |
 | Verified used offer | **?** | Sale condition unverified |
 | Verified new offer | **?** | Sale condition unverified |
+### Bass V-AMP — memory and restoration,2026-10-17
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Factory / user memory | [Manufacturer manual v1.2,December2005,p10][BV-M] describes restoring the original factory preset for each location and restoring all factory presets. The125 editable locations therefore hold factory-programmed sounds;do not add a second125-slot user bank. |
+| Memory / save | Hold the destination preset button about2seconds to overwrite it;bank selection allows saving elsewhere. Selecting another preset discards unsaved edits. |
+| Memory / restoration | Holding both arrows until Pr recalls the location’s original sound;save it to retain the restoration. D+E during startup,then both arrows after CL,restores all factory sounds and overwrites user saves. Manual points to MIDI SysEx backup in8.4.1;this does not establish an editor application. |
+
 <!-- comparison evidence ends -->
 
 ### Provenance and remaining checks
