@@ -215,6 +215,18 @@ Explicit touch capability, retailer condition/stock confirmation, dependable use
 | Firmware / MIDI and sound additions | Own release note dates**1.3.3 to2025/5**:adds **BT MIDI andUSB MIDI control**,**AC G Guitar simulation inFX1**,and startup confirmation toggle. “Anti Touch Protection” is startup-confirmation wording,not touchscreen evidence. **1.2.2(2025/2)** added looperPre/Post;**1.1.0(2025/1)** introduced Clone NAM loading and bass algorithms. The note does not establish desktop tone editing or arbitrary native NAM acceptance. [Release note,checked2026-10-17](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178) |
 | Software / current releases | Own page lists firmware**1.3.3**,Manager**1.5.2 Mac/Windows**,SONICLINK**1.8.2 iOS/Android**;historical1.7.2 and manual1.3.0 retained below. Current OS minimums and architecture acceptance remain unresolved. [Product](https://www.sonicake.com/products/pocket-master) |
 
+### Pocket Master additional exact IDR offers
+
+Checked2026-10-17. Condition remains unconfirmed for all three;none establishes a used/new split,current checkout stock or completed sale. Earlier Nafiri and historical prices below remain separate.
+
+| Condition / offer | Amount IDR | Exact evidence and qualifications |
+|---|---:|---|
+| Condition unknown;stock unverified | **Rp1.164.000** | [sonicakeindonesia,shop1563832992/item40305498754](https://shopee.co.id/Sonicake-POCKET-MASTER-Portable-Compact-Multi-Effects-Pedal-Mini-i.1563832992.40305498754),KotaJakartaTimur;direct page retrieved,reader crawl4weeks;two variations,selection/bundle unverified. Seller name is not authorized-status proof. Delivery compensation voucher is not a discount or inventory evidence. |
+| Condition unknown;**Habis**,voucher-dependent | **Rp1.114.000 with voucher** | [HurtrockMusicStore,shop182719800/item57051646140](https://shopee.co.id/Sonicake-Pocket-Master-Multi-Effect-Processor-Efek-Gitar-dan-Bass-i.182719800.57051646140),KotaBandung;direct page retrieved,montholdcrawl,eight variations. Page saysRp500RB minimum/10%discount;search saysRp100RB. Eligibility/baseprice not established;do not reverse-calculate price or assume allvariants. |
+| Condition unknown;**Habis**,indexed only | **Rp800.000** | [SAKUMUSICSTORE,shop412378487/item53755426205](https://shopee.co.id/SONICAKE-POCKET-MASTER-i.412378487.53755426205),KotaJakartaTimur;3month searchcache,directCachemiss. Not certified used merely because lower-priced. |
+
+Bundle,warranty,region-specific shipping,tax and voucher eligibility remain seller/checkout dependent.
+
 Retail **Rp1.025.000**, [Nafiri black QME-10BK](https://nafiriguitar.com/products/sonicake-pocket-master-qme-10bk-in-black),not the separateRp1.085.000 comparison price. Both Sold out and Add to cart appeared,so availability **unconfirmed**. Used **?**;old social/group asks not promoted to active offers. Variant,accessories,delivery and tax remain seller-dependent. Earlier **USD64.99** official quote retained without conversion.
 
 Sources: [manufacturer product](https://www.sonicake.com/products/pocket-master); [multilingual firmware1.3.0 manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312),English p.5 previously inspected; [official photograph](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440). Product/download page at original check listed firmware1.3.3,Manager1.5.2,SONICLINK1.7.2,not identical revision to the cited manual. Do not silently assume unchanged firmware behavior. Screen diagonal was documented,not estimated from housing.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Pocket Master QME-10",
-    "task": "Pocket Master release1.3.3looper20s,MIDIcontrol and1.1.0bass/Clone additions saved. Continue currentsoftware/architecture/algorithm/price gaps orfreshShopee discovery;do not repeatresolvedduration.",
+    "task": "Pocket Master exact Shopee asks saved with stock/voucher/condition/access limits. Continue fresh brand/series discovery and unresolved technical fields;do not reinterpret lower ask as used.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60515,5 +60515,40 @@
     "qualification": "AntiTouchdoesnotmeantouchscreen;no desktopeditclaimorunrestrictednativeNAMinferred",
     "remaining": "Loopstoragepersistence,currentdesktopediting,generalalgorithmcounts,touch,architecturelimits/currentOS/qualifiedoffers.",
     "access": "BrowserreleasePDFtextonly;nosoftwareorfirmwaredownload"
+  },
+  "pocketmaster_shopee_offers_20261017": {
+    "query": "site:shopee.co.id \"SONICAKE\" \"POCKET MASTER\" \"Rp\"",
+    "offers": [
+      {
+        "shop": "1563832992",
+        "item": "40305498754",
+        "idr": 1164000,
+        "seller": "sonicakeindonesia",
+        "stock": "unverified",
+        "condition": "unknown",
+        "access": "Directread4weekcrawl"
+      },
+      {
+        "shop": "182719800",
+        "item": "57051646140",
+        "idr": 1114000,
+        "seller": "HurtrockMusicStore",
+        "stock": "Habis",
+        "condition": "unknown",
+        "voucher": "Required;directminimum500000vssearch100000,eligibilityunresolved",
+        "access": "Directreadmonthcrawl"
+      },
+      {
+        "shop": "412378487",
+        "item": "53755426205",
+        "idr": 800000,
+        "seller": "SAKUMUSICSTORE",
+        "stock": "Habis",
+        "condition": "unknown",
+        "access": "3monthsearchcache,directCachemiss"
+      }
+    ],
+    "qualification": "No used/new range orcurrentstockclaim;variant/bundle/shipping/tax/warrantyunverified;priorNafirievidencepreserved",
+    "other_query": "site:shopee.co.id \"Sonicake\" \"Twiggy\" returned no qualified hardwarelead;notabsenceproof."
   }
 }
