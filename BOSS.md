@@ -325,6 +325,18 @@ Checked 2026-10-18 against manufacturer support articles updated 2026-05-01 and 
 | Memory / cross-model compatibility | Patch data is **not compatible with other ME-series units**. Shared product-family naming does not establish patch interchange. | [Official patch compatibility](https://support.roland.com/hc/en-us/articles/24403944639643-ME-90B-Is-the-patch-data-compatible-between-ME-90B-and-other-ME-series) |
 | IDR / additional retail-style offer | Melodia Musik Roland Store JKT, Jakarta Selatan, seller/item **30194339/26223675342**: cached exact hardware body, crawled two months earlier, shows **Rp8.831.500**, crossed Rp10.390.000, 15% off. Relative same-day-before10:00 delivery; no Habis text in retrieved body, not live stock proof. Condition, adapter/BT-DUAL bundle, shipping/tax and warranty region unknown. Late-delivery Rp10.000 voucher is compensation, not another price reduction. | [Exact Shopee offer](https://shopee.co.id/Boss-ME-90B-Bass-Multi-effects-Pedal-i.30194339.26223675342) |
 
+### ME-90B — live memory and level behavior
+
+Checked 2026-10-18, original reference manual revision01, printed pp2, 6–7, 16–17.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / output-volume scope | OUTPUT LEVEL controls main OUTPUT and PHONES volume, **not balanced XLR volume**. This is separate from the AMP/LINE and OUTPUT SELECT restrictions. | [ME90B-M] p2 |
+| Memory / manual-mode transition | **N0** applies physical knob settings when entering manual mode; default **N1** retains memory-mode sound settings while allowing individual effects to be toggled. Manual settings are retained when returning to memory mode. | [ME90B-M] p6 |
+| Memory / save behavior | Memory write saves sound settings **except OUTPUT LEVEL**. Unsaved edits are lost on power-off or a different memory selection. Writing can start in manual or memory mode; completion enters memory mode. | [ME90B-M] p7 |
+| Routing / manual foot control | The manual-mode BLEND pedal can instead toggle SEND/RETURN using system option **r1**; default **r0** toggles BLEND. | [ME90B-M] p16 |
+| Expression / reset exception | Factory reset excludes expression-pedal calibration while restoring user memories and other settings. | [ME90B-M] p17 |
+
 
 ## VE-1
 

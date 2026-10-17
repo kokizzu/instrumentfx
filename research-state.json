@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-90B",
-    "task": "Power voltage, XLR scope, loop storage and patch compatibility saved; separate Melodia offer added. Next fresh brand/series discovery and other primary gaps; ME90B IR formats/length, USB resolution/power and condition-verified offers remain unresolved.",
+    "task": "ME90B live memory/output level scope and pedal loop toggle saved. Next fresh brand/series discovery and other primary gaps; IR format/length, USB resolution/power and qualified used pricing still unknown. Search broad Zoom B2 returned existing B2FOUR records, not original B2 hardware.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57556,6 +57556,14 @@
         "https://support.roland.com/hc/en-us/articles/24403936681499-ME-90B-Can-I-save-a-phrase-created-with-the-Phrase-Loop-function-in-the-unit",
         "https://support.roland.com/hc/en-us/articles/24403944639643-ME-90B-Is-the-patch-data-compatible-between-ME-90B-and-other-ME-series",
         "https://shopee.co.id/Boss-ME-90B-Bass-Multi-effects-Pedal-i.30194339.26223675342"
+      ]
+    },
+    {
+      "model": "BOSS ME-90B",
+      "checked_date": "2026-10-18",
+      "finding": "Own reference manual establishes output knob excludes XLR and memory storage; N0physical/N1retained manual transition, unsaved-edit loss, BLENDpedal r1loop toggle and calibration retained through factory reset.",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/ME-90B_Reference_eng01_W.pdf"
       ]
     }
   ],

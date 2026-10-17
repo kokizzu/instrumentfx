@@ -1421,7 +1421,7 @@ def commit(model_id):
         print(research_tools.git('commit', '-m', 'research(zoom): qualify B2 FOUR pedal rhythm and tuner limits'))
         return
     if model_id == 'me-90b':
-        print(research_tools.git('commit', '-m', 'research(boss): clarify ME90B power routing storage and qualified offer'))
+        print(research_tools.git('commit', '-m', 'research(boss): qualify ME90B live memory and output controls'))
         return
     if model_id == 'gx-1b':
         print(research_tools.git('commit', '-m', 'research(boss): qualify GX1B supply macOS support and cached offer'))
