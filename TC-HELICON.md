@@ -824,18 +824,19 @@ Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Refe
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | No built-in expression pedal documented; external expression/toe support unresolved. Switch-3 control input documented,not proof of continuous expression. | [Quick Guide][VLT2-Q] |
-| K/F/B | Input gain knob documented; complete rotary,touch-button/matrix and footswitch count pending own panel audit. Hand-operated unit; external Switch-3 optional. | [Quick Guide][VLT2-Q] |
+| K/F/B | Text enumeration: **1 rotary** input gain; **23 touch buttons** (Edit,Store,Home,Effects,Voices,Tap,Setup,Mix,Loop,Hit=10;Play/Record=2;Matrix=9;arrows=2); Slider FX bar separate. No onboard footswitch documented;optional external Switch-3. Based on Quick Guide pp.3–5,not image audit. | [Quick Guide][VLT2-Q] |
 | Display | Diagonal,color and touchscreen status unverified; touch controls do not prove screen touch. | Unresolved |
 | Dimensions / mass | Published230×100×180;axis labels/unit omitted in extracted metric parenthesis; alongside9×4×7in. Weight2.3kg. | [Quick Guide specifications][VLT2-Q] |
 | Processing / routing | Nine vocal blocks: Mod,Delay,Reverb,Harmony,Choir,Double,Transducer,Rhythm,Hardtune. Manual permits all Matrix effects active together. Per-category style totals pending. | [Reference][VLT2-R] |
+| Harmony voices / guidance | Up to4 Harmony voices. Musical reference can come from guitar chords,Aux music,MIDI keyboard chords orsong key. Harmony must be active;this is not four independent effect blocks (Quick Guide p.7). | [Quick Guide][VLT2-Q] |
 | Independent guitar processing | Reverb,modulation,compression and3-band semi-parametric EQ; global settings,not per vocal preset. Seven modulation styles; guitar Thru connection removes processed guitar from mix. This independent multi-effects path qualifies guitar membership; bass suitability unverified. | [Reference][VLT2-R]; [Quick Guide][VLT2-Q] |
-| Factory / user memory | 300 writable preset locations; factory-fill and separate-bank details unresolved. | [Reference][VLT2-R] |
+| Factory / user memory | 300 writable preset locations; **9 Favorite shortcuts** to assigned presets,not additional memories (Quick Guide p.6). Factory-fill and separate-bank details unresolved. | [Reference][VLT2-R]; [Quick Guide][VLT2-Q] |
 | Synth / acoustic | Vocal pitch/harmony processing documented; dedicated synth/acoustic-model algorithms unverified. Acoustic-guitar processing is not acoustic simulation. | [Reference][VLT2-R] |
 | I/O | XLR mic input andmono XLR out;1/4in TRS main outputs,1/4in guitar in/thru;1/8in stereo Aux/phones;USB-B audio/MIDI/control;5pin DIN MIDI in;1/4in TRS pedal input;power input. Phantom input modes detailed below;voltage/current pending. | [Quick Guide][VLT2-Q] |
 | USB input / phantom | INPUT=USB disables hardware mic/guitar inputs; USB left feeds vocal FX,right guitar path. Condenser,MP-75 andE835fx modes enable phantom; voltage/current unresolved. Setup changes auto-save globally (reference pp.54–55). | [Reference][VLT2-R] |
 | Power / battery / USB | External supply;100–240VAC50–60Hz is adapter mains input,not unit DC rating. Consumption<14W;USB does not power unit. DC voltage/polarity/current andbattery operation unverified. | [Quick Guide][VLT2-Q] |
 | IR / NAM / capture | User IR,native/converted NAM andcapture support unverified. | Unresolved |
-| Editor / software | VoiceSupport Windows/Mac OS X documented for updates; full editor/current OS support unresolved. USB audio formats/drivers remain separate unknowns. | [Quick Guide][VLT2-Q] |
+| Editor / software | VoiceSupport Windows/Mac OS X documented for updates anddrag/drop preset management; full editor/current OS support unresolved. USB audio formats/drivers remain separate unknowns. | [Quick Guide][VLT2-Q] |
 | Looper / drums / scenes | Six loop layers share first-loop length; unlimited overdubs. Undo only last operation (overdub,Clear,2x); Reverse/Mixdown cannot be undone. Disabling Undo doubles available recording time. 2x consumes memory for other layers andbecomes unavailable after recording another slot. Metronome quantizes recording/play andsupports auto re-sync. Duration/persistence/drums remain unverified;Hit is alternate preset variation,not inferred scene count (reference pp.36,41–45). | [Quick Guide][VLT2-Q]; [Reference][VLT2-R] |
 
 ### Separate IDR hardware evidence
