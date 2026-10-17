@@ -251,6 +251,14 @@ Korg links the four-page AX5-Series EasyStart directly from AX5G support. Its fi
 | Expression / automatic effect state | FX PARAM automatically enables its effect. Returning to VOLUME without moving the pedal or editing restores that effect to off; after movement/editing it stays on. Changing PRE away from WAH switches a WAH assignment to VOLUME. | [Manual p10][AX5-M] |
 | Expression / sensitivity calibration | Power on holding pedal-setting+WRITE. Return pedal toward yourself, then advance to the desired switching point using a **foot**. Remove foot, let pedal return slightly, then WRITE; CANCEL aborts. Manual explicitly prefers foot over hand; no hardware action performed. | [Manual pp11–12][AX5-M] |
 
+### AX5G — model split and operating levels
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / drive versus amp | The16 Drive/Amp choices are **d0–d7 drives and A0–A7 amps**, sharing one category. Selecting a new effect initializes its parameters to recommended values. An effect must be enabled before its subparameters can be edited. | [Manual pp8–9][AX5-M] |
+| Memory / program level and startup | Program level0.0–10, standard5.0; lower it if effects clip. This differs from master volume, controlled by the value knob in Program mode. Power-on enters Program mode regardless of selector position; arrow buttons step programs by10 there. | [Manual pp5–9][AX5-M] |
+| Memory / reload confirmation | Power on holding Program Up + Down + CANCEL; release when Reload appears. WRITE begins overwriting user work and cannot then be cancelled; CANCEL works before confirmation. Do not interrupt loading. Display glyph shapes remain unverified. | [Manual p12][AX5-M] |
+
 ## AX10G
 
 Guitar multi-effects, distinct from AX10B/AX10A. Checked2026-10-17; partial. Bass/vocal suitability and ownership unverified. Korg lists discontinued/sold out.
