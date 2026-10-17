@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP200",
-    "task": "RP200 expression and amp choices saved. Next enumerate reverb/pitch alternatives or investigate remaining official software/power evidence; retain visual and condition-specific price gaps.",
+    "task": "RP200 effect catalogues saved. Next investigate official software/power evidence or resolve BOSS ME-8 exact Shopee item. Keep RP200 visual and condition-specific price gaps explicit.",
     "next_models": [],
     "after_queue": "Resolve BOSS ME-8 exact Shopee item if possible, then continue brand/series discovery. AX100G, ME-30, GT-5 and RFX-2000 retain deferred gaps. No downloads, workflows or push."
   },
@@ -54130,5 +54130,11 @@
     "pages": "17–18,27–30",
     "finding": "Thirteen pedal targets; volume endpoint exception; effect enable prerequisites; pre-effects volume location; reset versus calibration erasure; twelve amp alternatives and EQ range saved.",
     "remaining": "Full reverb names, detailed pitch/Whammy alternatives, visual corroboration, editor/IR/NAM, battery/USB/current and condition-specific price evidence."
+  },
+  "rp200_pitch_reverb_checkpoint_20261017": {
+    "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP200_UsersGuide.pdf",
+    "pages": "23–26",
+    "finding": "Pitch shift interval, eight wet-only and seven dry-added Whammy alternatives, ten named reverbs and ten SynthTalk voices saved.",
+    "remaining": "Visual/display corroboration, official editor/IR/NAM, actual current/battery/USB evidence and condition-specific price."
   }
 }
