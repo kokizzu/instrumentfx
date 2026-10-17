@@ -333,6 +333,12 @@ Discontinued guitar multi-effects/switching system;notRP500. Checked2026-10-17;p
 | Audio output / headphones | XLR outputs always apply speaker compensation. Rear-panel text specifies headphones optimized for 60Ω, while specifications give 50Ω minimum. Preserve both contexts; neither establishes the headphone connector size. | [Manual pp7,50][RP1K-M] |
 
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Routing / external loops | Unconnected Amp/Stomp loops refuse activation (NO LOOP). Stomp PRE AMP follows distortion and precedes amp/Amp Loop send; POST AMP follows amp/Amp Loop return. Placement saves per preset. | [Manual pp8–9][RP1K-M] |
+| Routing / amp bypass distinction | Disabling Amp Loop restores internal amp/cab only when global Amp/Cabinet Bypass is off. Global bypass keeps internal amp/cab disabled across presets. Amp Loop switching can be assigned to switches 6–10 and saved per preset. | [Manual p8][RP1K-M] |
+
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence / qualification | Source |

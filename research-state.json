@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP1000",
-    "task": "RP1000 footswitch parameter assignments, LFO/EXPUPDAT and headphone impedance contexts saved. Next inspect same manual for precise amp/stomp loop bypass and routing restrictions not yet captured. Commit model before moving on.",
+    "task": "RP1000 exact loop boundaries and global-bypass override saved. Next inspect RP155 current evidence and its own manufacturer manual for unresolved practical controls, power and software. Commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56137,6 +56137,13 @@
       "source": "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf",
       "finding": "Manual pp31–32: switches 6–10 parameter off/on values saved per preset, two LFOs, global EXPUPDAT default. Rear text 60-ohm headphone optimization versus 50-ohm minimum appendix retained; XLR speaker compensation always active.",
       "remaining": "Headphone connector, display details, device draw, AC/DC revision matching, imports and current OS support unresolved."
+    },
+    {
+      "model": "DigiTech RP1000",
+      "date": "2026-10-18",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf",
+      "finding": "Own manual pp8–9: loops refuse enabling without connections, exact pre/post Stomp insertion boundaries, global Amp/Cabinet Bypass overrides restoration of internal models when Amp Loop disabled.",
+      "remaining": "Actual hardware revision, display, imports, power draw/current OS and condition-qualified offers remain unresolved."
     }
   ],
   "discovery_cross_brand_bass": {
