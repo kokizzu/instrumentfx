@@ -185,6 +185,17 @@ Checked 2026-10-18 against the separately listed Windows and Mac application pag
 | Editor / application identity and firmware | Desktop **BOSS TONE STUDIO for GX-1 1.0.0** explicitly supports GX-1B and requires **GX-1B firmware 1.03 or later**. The application name is shared; the separate GX-1 minimum is 1.02 and must not be substituted for the bass model. Both pages describe a USB data connection. | [Windows application](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/8beff124-53fa-4bae-b997-9032a9b31072/); [Mac application](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/20dd9dd9-85f2-42f4-9662-56874e660049/) |
 | Editor / platform and network scope | Mac application explicitly supports **Apple silicon and Intel processors**. Both application pages refer OS versions to the **Exclusive Application** compatibility table, separately from Hardware & Driver. Tone Exchange requires internet. These pages do not establish USB stream format or offline Tone Exchange access. | [Windows application](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/8beff124-53fa-4bae-b997-9032a9b31072/); [Mac application](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/20dd9dd9-85f2-42f4-9662-56874e660049/) |
 
+### GX-1B — USB driver modes and routing
+
+Checked 2026-10-18 against the model-specific parameter and reference manuals.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / USB driver modes | **VENDOR** is specified for Windows/macOS and requires the GX-1B driver. **GENERIC** uses standard iOS functionality, with some functions potentially limited versus VENDOR. This does not establish generic Windows/macOS support or unrestricted Android compatibility. | [USB parameters](https://static.roland.com/manuals/gx-1b_parameter/en-US/392593931399205515.html) |
+| I/O / dry and processed USB routing | EFX OUT LVL controls processed output; DRY OUT sends unprocessed bass. DRY TO EFX controls computer input to the effects, while MIX LEVEL places computer return at the final chain stage. Each has a 0–200% range. This documents dry recording/reprocessing routes; exact stream channels and bit depth remain unverified. | [USB parameters](https://static.roland.com/manuals/gx-1b_parameter/en-US/392593931399205515.html) |
+| I/O / monitoring and loopback | Direct monitor switches the unit sound to OUTPUT/PHONES and resets ON at startup; the setting cannot be saved. LOOPBACK sends computer audio mixed with processed bass back to the computer. | [USB parameters](https://static.roland.com/manuals/gx-1b_parameter/en-US/392593931399205515.html) |
+| Editor / backup scope | Reference manual explicitly includes backup and restoration of both memories and system settings, alongside memory naming, ordering and sharing. | [Computer connection](https://static.roland.com/manuals/gx-1b_reference/en-US/385298827387664523.html) |
+
 
 ## ME-90B
 

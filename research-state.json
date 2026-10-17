@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GX-1B",
-    "task": "GX1B desktop application identity, minimum firmware and processor support saved. Next USB channels/format, exact OS compatibility table, IR length and fresh qualified Shopee offers; Windows driver direct page still times out.",
+    "task": "GX1B USB modes, dry/reprocessing routing and monitor/loopback saved. Next exact USB channel/bitdepth evidence, OS compatibility, IR length and fresh qualified Shopee offers. Do not infer USB format from converter specs.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57524,6 +57524,15 @@
       "sources": [
         "https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/8beff124-53fa-4bae-b997-9032a9b31072/",
         "https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/20dd9dd9-85f2-42f4-9662-56874e660049/"
+      ]
+    },
+    {
+      "model": "BOSS GX-1B",
+      "checked_date": "2026-10-18",
+      "finding": "Own USB parameter guide establishes Windows/macOS VENDOR driver and iOS GENERIC limited mode; processed/dry outputs, dry return to effects, final-stage mix, monitor reset and loopback. Reference confirms memory+system backup. Channels/bitdepth still unknown.",
+      "sources": [
+        "https://static.roland.com/manuals/gx-1b_parameter/en-US/392593931399205515.html",
+        "https://static.roland.com/manuals/gx-1b_reference/en-US/385298827387664523.html"
       ]
     }
   ],
