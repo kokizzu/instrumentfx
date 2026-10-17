@@ -1742,3 +1742,17 @@ Checked2026-10-18: [manufacturer-authored owner's manual mirror](https://media.r
 | Editor / USB recording | App MIXER adjustsOTG recording,playback andinstrument levels. Monitor viaOUTPUT/phones;USB-C→A cable recommended. Channel count,format anddryreamping unverified. |
 
 Remaining:original-host revision,visual panel,full effect/memory census,NAM A2 restrictions andqualified prices. Product126/128 andLCD/LED conflicts remain open.
+
+### Prime S1 — Japan-site library and operating qualifications
+
+Checked2026-10-18 against [MOOER Japan/LEP's exact S1 tutorial](https://mooer.jp/pages/prime-s1),linked from the manufacturer's Japanese regional site. Tutorial has no visible publication date orfirmware baseline;do not promote its current-as-written counts to a completeSeptember2026 library audit.
+
+| Field | Regional primary evidence / qualification |
+|---|---|
+| Processing / category choices | Tutorial gives **52 amp choices and19 drive choices**. Other categories andsimultaneous ceiling unresolved;these choices do not establish52preset memories orresolve126/128 advertised totals. |
+| Power / charging operation | Explicitly usable **while charging**. Does not establish charging duration,USB audio format orbarrel operation. |
+| Editor / mobile setup | Prime app fromGooglePlay/AppleAppStore;select StompSeries→S1 andscan unit QR toconnect. Fine editing happens inapp;on-unit control is volume/footswitches. Minimum OS andcurrent iOS version unverified. |
+| Live / bank-direction conflict | Japan tutorial says **A+B bank up,C+D bank down**;English original manual p7 says **A+B down,C+D up**. Preserve reversed instructions;actual firmware behavior untested. Both useB+C fordrum/looper mode. |
+| Live / tuner exit | Japan tutorial:any footswitch exits tuner. English manual says hold any switch1s toenter butdoes not specify exit ininspected section. No conflicting entry behavior inferred. |
+
+NAM followup found explicit native/converted distinctions for other MOOER families,butnotS1. Do not transfer GE1000/GS1000 nativeA2Lite orGE300 conversion claims. The existing Chinese S1/M1 NAM A2 announcement remains qualified;its exact architecture,conversion andfile constraints are unresolved. No software,files orfirmware downloaded orrun.
