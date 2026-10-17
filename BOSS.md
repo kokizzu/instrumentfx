@@ -2266,6 +2266,16 @@ Own2020Englishmanualeng02readaswebtext(1PDFsheet);manufacturerproduct currentspe
 
 ParameterGuideRev02,©2020,19pages readaswebtext. Basspreset71–90evidence supportsALL-BASSmembership;notallguitaralgorithmscertified. Monoeffect/COSMampafterstereodelaycollapsesstereo;TeraEchoHOLDsavedOff. ToneStudioPCguideshowseditableFXchainincludingFX1,PDL,ODDS,AMP,NS,FV,FX2,DLY,REV,master;notanexplicitmanufacturermaximumcount. [Editor guide](https://static.roland.com/assets/media/pdf/Pocket-GT_BTS_PC_eng04_W.pdf). No downloads/installs.
 
+### Pocket GT — converter revisions and versioned control support
+
+Checked 2026-10-18.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / converter hardware revision | BOSS notice dated **2022-01-14** changes AD from **32-bit + AF method to 24-bit + AF method**, and DA from **32-bit to 24-bit**, for **serial A8M6412 onward**. This is a component revision; do not infer an individual seller unit’s converters without its serial. | [Manufacturer notice](https://www.boss.info/global/support/by_product/pocket-gt/support_documents/c9748952-fe5b-4429-985b-4465679ef9d3/) |
+| Expression / FS-1-WL requirements | **Firmware1.30 (November2022) + Tone Studio1.3.0 or later** supports FS-1-WL switches/CTL1–2 for patch/effect control and its connected expression pedal for Pedal Wah/Foot Volume. Firmware1.20 added EV-1-WL in October2021. Controller sockets are not sockets on Pocket GT itself. | [System history](https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/af1be664-80a3-453c-bbad-877c5b631882/) |
+| Editor / Windows release qualification | **Tone Studio1.3.4, February2026**, fixes Session-screen video-player configuration errors preventing YouTube use. Windows page requires the corresponding OS driver separately and notes microphone privacy access can affect connection on Windows11. Published fix, not an operational test or complete current OS matrix. | [Windows editor history](https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/ccd6d2fb-0c16-4272-8a41-30c8b829ab7b/) |
+
 ## ME-50B
 
 Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-10-17; partial. Ownership unestablished. Discontinued manufacturer status does not establish seller availability.

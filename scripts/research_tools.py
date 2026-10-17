@@ -506,7 +506,7 @@ def main():
         if mode == 'commit-gigboard':
             message = 'research(headrush): reconcile Gigboard firmware categories and factory rigs'
         if mode == 'commit-pocketgt':
-            message = 'research(boss): audit Pocket GT memory categories and explicit bass presets'
+            message = 'research(boss): qualify Pocket GT converter revision and wireless control'
         if mode == 'commit-ve5':
             message = 'research(boss): qualify VE5 harmony interval and control limits'
         if mode == 'commit-rp1000':

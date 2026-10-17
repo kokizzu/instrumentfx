@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Pocket Master QME-10",
-    "task": "PocketMaster manual/release-history mismatch now explicit: AMP20/DRV7 printed entries omit earlier bass additions, so no complete installed census claimed. Resume Shopee discovery in other brands/series or improve another existing model using primary sources. No downloads; commit each model before next.",
+    "model": "BOSS Pocket GT",
+    "task": "Saved converter serial revision and FS1WL firmware/editor minimums plusFeb2026 Windows editor fix. Next verify current Windows/macOS exclusive-app compatibility matrices separately from drivers; do not infer seller hardware revision. Discovery queries GE90/GP10/NovaSystem/VF1/RP100A/Zoom2020/RP55 yielded no qualified new processor;Pulze results were modeling amps, scope not admitted. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Pocket Master QME-10."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS Pocket GT."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56869,6 +56869,16 @@
       "sources": [
         "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178",
         "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual"
+      ]
+    },
+    {
+      "model": "BOSS Pocket GT",
+      "checked_date": "2026-10-18",
+      "finding": "Official2022 notice serialA8M6412 onward changes AD/DA32to24bit retaining AF onAD; firmware1.30+ToneStudio1.3+ required forFS1WL; Windows editor1.3.4Feb2026 fixes YouTubeSession error. Mac detail reader failed; OS matrix pending.",
+      "sources": [
+        "https://www.boss.info/global/support/by_product/pocket-gt/support_documents/c9748952-fe5b-4429-985b-4465679ef9d3/",
+        "https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/af1be664-80a3-453c-bbad-877c5b631882/",
+        "https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/ccd6d2fb-0c16-4272-8a41-30c8b829ab7b/"
       ]
     }
   ],
