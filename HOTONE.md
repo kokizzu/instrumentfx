@@ -429,6 +429,18 @@ Checked2026-10-17. Existing exact item, not another model or offer.
 | IDR / exact Seven Stereo retail ask | **Rp11.900.000**, [Seven Stereo Music & Audio Store, shop16879370/item48255478715](https://shopee.co.id/Hotone-MP-350-MP350-Ampero-II-Multieffects-Pedal-i.16879370.48255478715), Kota Bandung. Direct text is now readable, superseding only the historical failed-open access status. Direct crawl lastmonth with8–10September delivery, versus search2months/19–20August: both stale. Condition, working state, stock, bundle/adapter, warranty, shipping/tax and checkout total remain unverified. Late-arrival compensation is not an upfront discount. |
 
 
+### MP-350 — original-manual memory and looper limits
+
+Checked2026-10-17 against the manufacturer manuscript, **V1.0.2**, printed pp23–25,28; generated mirror content excluded.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Memory / default empty range | P28 identifies **A32-1 through A75-4 as empty by default**: derived44banks×4=176 empty locations within300, leaving124 other locations. This does not independently prove all124 are populated or describe later firmware. Unsaved edits are lost on patch change or poweroff. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual) |
+| Looper / routing and retention | Stereo60s in bothPre/Post; choose chainA/B. Exiting looper page preserves status. **SwitchingPre/Post while running stops and erases the loop**; switchingA/B stops recording and starts playback, retaining data. Post-mode patch changes do not change already-recorded phrases. Drum style/tempo orhalf-speed/reverse changes can break sync; half-speed/reverse affect all recorded phrases. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual) |
+
+These older-manual qualifications supplement the historical unresolved memory split; they do not certify current firmware or actual used-unit contents.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

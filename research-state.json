@@ -62119,5 +62119,17 @@
       "site:shopee.co.id \"Hotone\" \"Ampero II\""
     ],
     "next": "Continue other eligible series discovery; unresolved physical counts remain"
+  },
+  "mp350_memory_looper_20261017": {
+    "source": "https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual",
+    "revision": "V1.0.2 printed23–25,28",
+    "findings": [
+      "DefaultemptyA32-1throughA75-4=176of300;124othersnotcertifiedallfilled",
+      "Unsavedpatchchange/powerofflosesedits",
+      "PrePostchangeerases;A/Bchangeendsrecordstartsplayretainsdata",
+      "Postpatchchangeleavesrecordedphrasesunchanged;exitpagepreservesstatus"
+    ],
+    "limits": "Olderrevisionnotcurrentfirmware/usedunitcontentsproof",
+    "next": "MP350 USB routing and MIDI restrictions; further model gaps and fresh discovery"
   }
 }
