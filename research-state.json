@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper Amp Mini",
-    "task": "Dapper Amp Mini parameter mappings and amp names saved;exact table associations and prior gaps deferred. Next fresh Shopee brand/series discovery without duplicating270records.",
-    "next_models": [],
-    "after_queue": "Fresh Shopee discovery;retain270record gaps;no downloads/workflows/push."
+    "model": "BOSS KATANA:GO",
+    "task": "Exact GO2-labelled offers and own primary checkpoint saved;verify model generations/HTML manual then add guitar+bass record;commit before standardMustangMicro.",
+    "next_models": [
+      "Fender Mustang Micro original"
+    ],
+    "after_queue": "Freshdiscovery;retain270recordgaps;nodownloads/workflows/push."
   },
   "new_findings": [
     {
@@ -55903,5 +55905,81 @@
     "saved": "FX parameter mapping,amp controls/channelLEDs,nine named models without guessed row association,and model-dependent cabinet response.",
     "deferred": "Exactchannel/type tablepairs,fullphysicalcontrolcounts/expression,IOsizes/phonescabswitchbehavior,memorysimultaneous,powerbarrelbatteryUSB,IR/editor/qualifiedoffers remain unresolved.",
     "next": "Fresh Shopee brand/series discovery;do not repeat manual fetch without a new readable layout source."
+  },
+  "discovery_katana_go_20261017": {
+    "checked": "2026-10-17",
+    "model": "BOSS KATANA:GO",
+    "unrecorded": true,
+    "product": "https://www.boss.info/global/products/katana-go/",
+    "primary": "Own page:guitar10amps/>60effects;bass3amps/>60effects;30factory-filleduser memories per mode. OLED128×32. OptionalEV-1-WLwirelessEXP/FS-1-WLcontrol;ToneStudioiOSAndroid. USB-Caudio/power,quarterinchplug,stereominiPHONES. Liion/USB,500mA;5V≥500mAcharging,3hcharge/~5hrun.45W125D29Hmm65g. Mastervolume,6namedbuttons,powerswitch;physicalinventorypending. Current product same sounds/features as earlier model;do not conflate physical revisions.",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Boss-Katana-GO-2-Personal-Headphone-Guitar-Amplifier-with-BT-function-i.30194339.29436800341",
+        "seller": "Melodia Musik Roland Store JKT",
+        "shop": "30194339",
+        "item": "29436800341",
+        "region": "Kota Jakarta Selatan",
+        "idr": 2635000,
+        "crossed_idr": 3100000,
+        "crawl": "five months",
+        "condition": "unverified",
+        "revision": "sellerGO2label;exacthardwaregenerationpending"
+      },
+      {
+        "url": "https://shopee.co.id/boss-original-personal-headphone-Gitar-Amplifier-katana-go-2-for-guitar-dan-bass-i.31173885.21487560393",
+        "seller": "Vin’s Music Store",
+        "shop": "31173885",
+        "item": "21487560393",
+        "region": "Kota Depok",
+        "idr": 2635000,
+        "crawl": "three months",
+        "condition": "unverified",
+        "revision": "sellerGO2label"
+      },
+      {
+        "url": "https://shopee.co.id/BOSS-KATANA-GO-Personal-Headphone-Guitar-Amplifier-Portable-i.341882414.24872406480",
+        "seller": "Boss Official Shop",
+        "shop": "341882414",
+        "item": "24872406480",
+        "region": "Kota Tangerang Selatan",
+        "idr_range": [
+          2635000,
+          6370000
+        ],
+        "crawl": "five months",
+        "condition": "unverified",
+        "variation_count": 4,
+        "allocation": "unassigned;variation/bundleunresolved"
+      }
+    ],
+    "limits": "Indexedhistoricalasks,notlivecheckout;stockconditionvariantbundlewarrantyauthenticityshippingtaxvouchersunverified. Mixedvariation range not singleunit price.",
+    "queued": {
+      "model": "Fender Mustang Micro original",
+      "product": "https://intl.fender.com/products/mustang-micro",
+      "offers": [
+        {
+          "url": "https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Black-Original-i.1776275.24838368984",
+          "seller": "Salomo Musik",
+          "shop": "1776275",
+          "item": "24838368984",
+          "region": "Kota Jakarta Utara",
+          "idr": 2474000,
+          "crawl": "three months",
+          "condition": "unverified"
+        },
+        {
+          "url": "https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Amplug-i.191485301.26444289932",
+          "seller": "indie_musicstore",
+          "shop": "191485301",
+          "item": "26444289932",
+          "region": "Kota Depok",
+          "idr": 1374975,
+          "crawl": "three months",
+          "condition": "unverified"
+        }
+      ],
+      "status": "Own-modelverificationafterKATANAGOcommit;notMicroPlus"
+    },
+    "next": "Open own HTML manual link57;verify generation,controls,effectchain/categorychoices,routing/memory/import/editor/power before addition."
   }
 }
