@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B1X / seller B1x Next identity",
-    "task": "Inspect official discontinued B1X page and own English manual; clarify seller mixed G1xNext/B1xNext identity before distinct-model registration. Mixed Rp999000 remains unassigned; exactitem unresolved. New cveriB1XFourpricelead retained separately, no duplicate model.",
+    "model": "Zoom B1X original",
+    "task": "Official readable B1/B1X manual now saved in b1x_primary_checkpoint_20261017. Next full specification/effect counts and B1X pedal switching, then root bass record. Seller B1xNext alias and mixed Rp999000 price remain unassigned; no sibling borrowing.",
     "next_models": [],
     "after_queue": "Continue bass/vocal/guitar discovery; preserve all prior gaps and migration limits. No downloads/workflows/push."
   },
@@ -55316,5 +55316,24 @@
     },
     "rejected": "Vocal300/VocalistLive adapter is accessory. ExistingB1XFour/VoiceLivePlay/VoiceLive3Extreme notnewmodels. MixedZoomG2.1Nu/G2.1u/B2.1u price not allocated.",
     "limits": "Limitedsearchesnotmarketabsence. Sellerclaims/soldcountsnotmodelcapability,currentstockorconditionproof. No downloads."
+  },
+  "b1x_primary_checkpoint_20261017": {
+    "product": "https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal",
+    "manual": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf",
+    "checked": "2026-10-17",
+    "access": "Official product link83; browserreadable16PDFpages;printedpagesdistinguished. No filesystemdownload or visualinspection.",
+    "identity": "Original B1/B1X manual; B1XdistinctfromB1on/B1Xon/Four. SellerNextsuffixnotyetprovenasofficialrevision.",
+    "facts": {
+      "expression": "B1Xbuilt-inpedal/PEDALASSIGN;noCONTROLIN;externalFP01/FP02FS01cannotbeused. B1externalcapabilitiesnotborrowed.",
+      "architecture": "Eightserialmodules,allcanbeusedtogether;oneeffecttypepermodule.",
+      "memory": "80patches:40readwriteuser+40readonlypreset.",
+      "controls": "ModuleSelector+VALUErotaries,twofootswitches,RHYTHM/STORE/BANKUPTAP/PEDALASSIGNkeys;visualtotalpending.",
+      "power": "9VDC300mAcenternegativeAD0006supplyorfouralkalineAA;approx12h;nonrecharging. Actualdrawunverified.",
+      "dimensions": "B1X155D234W52Hmm600gwithoutbatteries;notB1155D136W52Hmm350g.",
+      "synth": "OwnDRIVEMONOSYNmonophonicbasssynth;single-note.",
+      "ports": "Bassinput,stereoOUTPUTPHONES,DC. ExternalCONTROLINB1only.",
+      "practical": "REVERBDELAYunavailablewhilerhythmpatternplays."
+    },
+    "next": "Inspect fullspec/page26pedalswitching/categorytable,thenaddoriginalB1Xbassrecordwithunassignedmixedsellerprice. Keep Next alias unresolved;do not register duplicatealias."
   }
 }
