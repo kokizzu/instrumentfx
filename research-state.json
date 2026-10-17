@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Black Truck",
-    "task": "Black Truck EN/CN differences saved; preset COMP/loop recall and output behavior remain unresolved. Defer these gaps pending stronger own-model evidence; next fresh Shopee discovery by brand/series without duplicating 264 records.",
-    "next_models": [],
-    "after_queue": "Preserve prior gaps and migration limits;no downloads/workflows/push."
+    "model": "NUX Mighty Plug Pro MP-3",
+    "task": "Exact unrecorded MP-3 hardware leads and own-product checkpoint saved. Verify own manual, add canonical record and guitar/bass views with retained page-copy conflicts and price qualifications, commit before Dapper VES-1.",
+    "next_models": [
+      "Valeton Dapper VES-1"
+    ],
+    "after_queue": "Continue fresh Shopee brand/series discovery; preserve prior gaps, no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -55544,5 +55546,73 @@
     ],
     "limits": "Indexed search only, not exhaustive absence or live-stock proof; no files downloaded.",
     "next": "Continue fresh series discovery beyond these limited queries; retain unresolved Black Truck fields."
+  },
+  "discovery_mightyplugpro_20261017": {
+    "checked": "2026-10-17",
+    "model": "NUX Mighty Plug Pro MP-3",
+    "unrecorded": true,
+    "product": "https://nuxaudio.com/product/mightyplugpro/",
+    "manual_landing": "https://nuxaudio.com/download/nux-mighty-plug-pro-user-manual-english/",
+    "primary_checkpoint": "Own page explicitly identifies guitar/bass use and nine freely ordered blocks: GATE/CMP/EFX/AMP/IR/EQ/MOD/DLY/RVB. Seven presets; 36 built-in IRs, 18 user slots, 512 samples; WAV conversion by editor. USB-C recording with Normal/Dry Out/Re-amp/Loopback. Mighty Editor Windows/macOS 2.4.7.5; Mighty Amp iOS/Android. Firmware listed 3.0.5; drivers distinct. 81L×41W×30Hmm,70g; 3.7V1450mAh battery, claimed5h; charging5VUSB-C; draw printed4V/260mA. TRRS microphone headset path is not yet vocal-multifx proof.",
+    "source_conflicts": "Several amp/IR/effects paragraphs erroneously name Mighty Space. Do not transfer their algorithm counts, acoustic claims or platform text without MP-3 manual corroboration. Product-specific feature/spec/support sections separately identify MP-3.",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/NUX-MP3-Mighty-Plug-Pro-Guitar-and-Bass-Amplug-Original-Nux-MP-3-i.785734870.18238835217",
+        "seller": "cveri accessories",
+        "shop": "785734870",
+        "item": "18238835217",
+        "region": "Kota Jakarta Pusat",
+        "idr": 1638000,
+        "crawl": "two weeks",
+        "condition": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/Nux-MP3-Mighty-Plug-Pro-Gitar-Bass-Amplug-Original-MP-3-i.969726322.25200895184",
+        "seller": "jayapratamamusic",
+        "shop": "969726322",
+        "item": "25200895184",
+        "region": "Kota Jakarta Pusat",
+        "idr": 1550000,
+        "crawl": "two weeks",
+        "condition": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/Nux-MP-3-Mighty-Plug-Pro-Guitar-and-Bass-Amplug-i.1011216793.26376266354",
+        "seller": "Mc Garage Store",
+        "shop": "1011216793",
+        "item": "26376266354",
+        "region": "Kota Tasikmalaya",
+        "idr": 1000000,
+        "crawl": "two days",
+        "stock_label": "Habis",
+        "condition": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/Nux-MP3-MP-3-Mighty-Plug-Pro-Headphone-Amp-for-Guitar-Bass-i.16879370.18538785877",
+        "seller": "Seven Stereo Music & Audio Store",
+        "shop": "16879370",
+        "item": "18538785877",
+        "region": "Kota Bandung",
+        "idr": 1799000,
+        "crawl": "two days",
+        "condition": "unverified"
+      }
+    ],
+    "price_limits": "Indexed historical asks, not live checkout. Condition, stock except cached Habis, variant/bundle, warranty/authenticity, shipping/tax and vouchers unverified. Older cveri variant URL indexed Rp1469400 three months ago is not same-date price proof.",
+    "next": "Open own MP-3 manual through browser, verify controls/expression/memory/power/IO/display/category choices and revisions; add root NUX record and guitar+bass membership, regenerate views, commit before next model.",
+    "other_lead": {
+      "model": "Valeton Dapper VES-1",
+      "url": "https://shopee.co.id/Valeton-Dapper-VES-1-Effect-Strip-Full-Set-i.821383657.23453728698",
+      "seller": "Tomzone Music",
+      "shop": "821383657",
+      "item": "23453728698",
+      "region": "Kota Depok",
+      "idr": 1425000,
+      "crawl": "last month",
+      "stock_label": "Habis",
+      "condition": "unverified",
+      "status": "defer own-model verification until MP-3 committed"
+    },
+    "rejected": "RP355 and G9.2tt limited searches surfaced PSU accessories; GT-6B/AX3000B no qualified processor offer in this pass. No absence claim."
   }
 }
