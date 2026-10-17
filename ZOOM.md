@@ -795,6 +795,15 @@ The [manufacturer quick guide Z2I-3577-02](https://zoomcorp.com/media/documents/
 
 Display resolution and factory-filled count above supersede their earlier unknowns. Screen diagonal,color,touch,category subtotals and qualified used/new offers remain unresolved.
 
+### B1X FOUR — pedal category choices,2026-10-17
+
+| Field | Verified choices / limits |
+|---|---|
+| Processing / pedal category | [Official B1 FOUR/B1X FOUR effect list](https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf),2019 Z2I-3610-01,pp15–16,lists **six pedal/control entries**:PDLVol,BassWah,PDLReso,BaPDLPit,BaPDLMnP,OutputVP. This is a published library inventory,not six additional simultaneous slots or proof of identical installed firmware contents. OutputVP is a control entry. |
+| Expression / pitch | BaPDLMnP explicitly requires single-note playing;BaPDLPit is separately listed without establishing blanket polyphony. Both offer nine Color control mappings. PDLVol has two curve choices;BassWah/PDLReso are distinct wah algorithms. |
+| Memory / live volume | OutputVP controls the product output level and retains it across patch changes. This does not establish retention after power-off or make it another editable patch memory. |
+
+
 ## B2 FOUR
 
 Bass multi-effects; external-only expression. Consolidated and expanded2026-10-16; partial. All15 model fields from the complete legacy bass comparison are preserved below with their original2026-10-14 dates and USD qualifications. New primary checks and IDR observations are separate.
