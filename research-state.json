@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Stage MK2",
-    "task": "Inspect Stage controls printed48–63 and expression164–175; then seek current OS14 manual and Browse capacity.",
+    "task": "Inspect expression section and preserve manual/specification mains-voltage conflict;seek currentOS14manual andBrowse capacity.",
     "next_models": [],
     "after_queue": "Remaintechnical/marketgaps;no downloads,workflows orpush."
   },
@@ -63449,5 +63449,11 @@
     "pages": "Printed234–235,419",
     "finding": "Performance memory and dedicated Acoustic Simulator added with scope qualifications.",
     "next": "Inspect Stage controls printed48–63 and expression164–175; then seek current OS14 manual and Browse capacity."
+  },
+  "stage_mk2_controls_20261017": {
+    "source": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+    "pages": "Printed48–63",
+    "method": "Stage-specific complete control-section text inventory;derived arithmetic in canonical row;power separate,encoder presses once;no new visual inspection.",
+    "next": "Inspect expression section and preserve manual/specification mains-voltage conflict;seek currentOS14manual andBrowse capacity."
   }
 }
