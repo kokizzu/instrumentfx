@@ -315,7 +315,7 @@ The original SnapTone conversion row remains historical evidence; the separately
 
 ## GP-200
 
-Consolidated 2026-10-17. Historical observations below retain their 2026-10-14 date. GP-200X is retained as an anniversary variant of this existing model, not another active count. Technical verification remains partial.
+Consolidated 2026-10-17. Historical observations below retain their 2026-10-14 date. GP-200X and GP-200R are retained as labelled variants of this existing model, not additional active counts. Technical verification remains partial.
 
 ### Complete legacy GP-200 evidence
 
@@ -374,6 +374,17 @@ Legacy source: [guitar-floorboards](effects/guitar-floorboards.md). No source fi
 A second [Sunny Music Palembang offer](https://shopee.co.id/Valeton-GP-200X-Multi-Effect-Processor-GP-200-X-GP-200X-i.548551522.27173361420), seller548551522/item27173361420, was indexed at **Rp6.350.000, Habis**, with stale9–12July delivery text. Direct reopening returned a cache miss. This is a historical sold-out anniversary-variant ask, not used-price evidence, a live-stock offer or a standard GP-200 quote. Checked2026-10-17; condition, bundle, warranty region and delivered charges remain unknown. No voucher arithmetic or currency conversion was applied.
 
 The Gallery item's search snapshot had stale4–5October delivery; reopening supplied a different conditional amount and relative delivery text. This disagreement is retained, not resolved by guessing a discount. Neither amount is checkout-confirmed. No dependable used IDR offer was established for GP-200 or its anniversary variant.
+
+### GP-200R variant and separate IDR offers
+
+Checked2026-10-17. [Valeton’s GP-200R page](https://www.valeton.net/product/gp-200-r/) explicitly states identical features/functions to GP-200. Retain the R/red seller label; this is not a new unique processor or a GP-200X anniversary bundle. Physical finish was not visually audited. No sibling JR/LT specifications imported.
+
+| Price class | Amount | Exact offer / qualifications |
+|---|---:|---|
+| GP-200R condition-unverified,sold-out ask | **Rp6.240.000** | [Primanada,shop15931156/item29263494949](https://shopee.co.id/Valeton-GP200-R-GP-200R-GP200R-Multi-Effect-Processor-i.15931156.29263494949),Kota Jakarta Utara. Direct cached text,last-month crawl,**Habis**. Four-hour delivery text does not override sold-out status. |
+| GP-200R red,condition-unverified ask | **Rp6.240.000** | [Imagination Music Store,shop19576516/item18348592313](https://shopee.co.id/Valeton-GP-200R-Red-Multi-Effects-Processor-i.19576516.18348592313),Kota Jakarta Pusat. Direct cached text,two-month crawl;current stock unknown. Relative tomorrow delivery is not checkout confirmation. |
+
+Both are variant-specific asking observations,not standard GP-200 quotes,new/used condition proof or completed sales. Selected variant,bundle,adapter,working condition,authenticity,warranty,shipping/tax and checkout voucher eligibility unknown. Rp10k/Rp20k late-delivery compensation is not an upfront discount. Existing GP-200X dates,amount conflicts and bundle limits remain above.
 
 ### Outstanding GP-200 checks
 

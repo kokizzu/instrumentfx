@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-200R variant reconciliation",
-    "task": "Manufacturer explicitly equates GP-200R features/functions with GP-200. Reconcile new exact Rp6240000 offers into existing GP-200 record without incrementing unique inventory; then check saved MP-350 offer.",
+    "model": "Hotone Ampero II MP-350 offer follow-up",
+    "task": "GP-200R offers reconciled in existing GP-200 profile without new count. Next inspect saved Asia Pro Sound item703046367/26841016023;deduplicate before canonical addition.",
     "next_models": [],
-    "after_queue": "284partial models; discovery limited,not exhaustive. No downloads/workflows/push."
+    "after_queue": "284partial models;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41400,7 +41400,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom RFX-1000."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350 offer follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57318,5 +57318,30 @@
       "access": "Indexed2months;notdirectopened",
       "qualification": "English/international version seller claim; condition,stock,bundle,warranty,voucher,shipping/tax unknown; reconcile existing record before adding"
     }
+  },
+  "gp200r_reconciliation_20261017": {
+    "canonical": "VALETON.md#gp-200",
+    "counted_separately": false,
+    "manufacturer": "https://www.valeton.net/product/gp-200-r/",
+    "basis": "Explicit identical features/functions; variant-specific labels and offers retained",
+    "offers": [
+      {
+        "shop": "15931156",
+        "item": "29263494949",
+        "idr": 6240000,
+        "stock": "Habis",
+        "condition": "Unknown",
+        "access": "Direct cached text,last-month crawl"
+      },
+      {
+        "shop": "19576516",
+        "item": "18348592313",
+        "idr": 6240000,
+        "stock": "Unknown",
+        "condition": "Unknown",
+        "access": "Direct cached text,two-month crawl"
+      }
+    ],
+    "inventory_unchanged": 284
   }
 }

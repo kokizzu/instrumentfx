@@ -790,7 +790,7 @@ def main():
         print(git('diff', '--cached', '--stat'))
         if mode == 'commit-hx-effects':
             subprocess.run([sys.executable,str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
-        subject = 'research(valeton): verify GP-200JR and reconcile newer catalogue checkpoints' if mode == 'commit-gp200jr' else 'research(line6): verify HX Effects3.80 acoustic simulation and looper limits'
+        subject = 'research(valeton): reconcile GP-200R variant offers without duplicate counting' if mode == 'commit-gp200jr' else 'research(line6): verify HX Effects3.80 acoustic simulation and looper limits'
         if mode=='commit-comparisons':
             subject='docs(comparisons): compare every recorded instrument model and separate specialist archives'
         elif mode=='commit-prime':
