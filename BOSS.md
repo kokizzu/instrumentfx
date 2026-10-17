@@ -2782,6 +2782,14 @@ Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. M
 [SE50-M]: https://support.roland.com/hc/en-us/articles/201926699-SE-50-Patch-Memory-on-the-SE-50
 [SE50-P]: https://support.roland.com/hc/en-us/articles/201932819-SE-50-Recommended-Power-Supply
 
+### SE-50 — catalog counts and MIDI data,2026-10-17
+
+| Required field | Verified evidence / limitation |
+|---|---|
+| Processing / category choices | [Roland catalog museum,NAM-1486,p11/PDFindex10](https://www.roland.com/jp/lp/catalog_museum/pdf/NAM-1486.pdf) identifies **19 effect types arranged into28 algorithms**. Multiple delay instances andguitar/keyboard multi chains described. These counts do notmean19or28simultaneous effects. Original PDF text is OCR-damaged;indexed fullalgorithm table is notaccepted as an exact transcription. Exact chain membership/concurrency remains unresolved. |
+| Software / MIDI backup | [SE-50 Bulk Loading support](https://support.roland.com/hc/en-us/articles/201964189-SE-50-Bulk-Loading-System-Exclusive-Data),updated2023-04-12,indexed text:patch andsystem data can be saved to MIDIsequencer asSysEx andrestored byBulkLoad. Article describes channel1 andUTILITY/PARAMETER navigation toWAITING,thenRECEIVING/IDLING. Direct reopen failed;index-only evidence. This is patch/system transfer,not proof ofIR/NAM import,afull editor orUSB. |
+| Memory / writing | [Roland writing article](https://support.roland.com/hc/en-us/articles/201938609-SE-50-Writing-a-Patch-into-Memory),updated2023-04-13,indexedtext:101–128arepermanentROM;writing1–100overwritesdestination. [Naming article](https://support.roland.com/hc/en-us/articles/201923379-SE-50-Naming-a-Patch),updated2025-12-19:custompatchnamesrequireWRITEtosave. No hardware changes performed. |
+
 ### SE-50 source access and remaining verification
 
 [Official archive](https://www.boss.info/us/support/manual_archive/) links [144-page original manual](https://cdn.roland.com/assets/media/pdf/SE-50_OM.pdf),zero extractedlines. [ManualsLib copy](https://www.manualslib.com/manual/1014513/Boss-Se-50.html) exposescontents butselectedpages lackedoriginalbody. No fullmanual/visual verification claimed.

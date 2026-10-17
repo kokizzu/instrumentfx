@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS SE-50",
-    "task": "Initialpartialprofile saved frommanufacturerhistoryandprimarymemory/powersupport. Resolve readableoriginalmanual,controls,ports,dimensions,power andalgorithms;do not trustrewrittenmirrorasoriginal.",
+    "task": "19effect/28algorithm counts andMIDIpatch/system backup verified withaccessqualifications. Remaining scannedmanual fields needreadableprimaryevidence;continue fresh Shopee discovery whenaccess stalls.",
     "next_models": [],
     "after_queue": "314active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -64790,5 +64790,14 @@
     "manual_provenance": "Linked byhttps://www.boss.info/us/support/manual_archive/;144pageszeroextractedlines;notread/visuallyverified,nofilesystemdownload",
     "next": "Find readable manufacturer-authored manual transcription;complete fields,categorymembership andnewprofile beforeaddingcount. DistinguishSE50A/SE70.",
     "other_searches": "SE70/VT12/Zoom506queries yieldedunrelatedresults;noqualifiednewhardware. Notmarketabsence."
+  },
+  "se50_catalog_midi_20261017": {
+    "checked_date": "2026-10-17",
+    "catalog": "https://www.roland.com/jp/lp/catalog_museum/pdf/NAM-1486.pdf",
+    "catalog_scope": "PDFindex10/p11readableheading19effects28algorithms;OCRdamagedtable,nofullalgorithmtranscriptionaccepted",
+    "backup": "https://support.roland.com/hc/en-us/articles/201964189-SE-50-Bulk-Loading-System-Exclusive-Data",
+    "backup_scope": "Indexedmanufacturerpatch/systemSysExbackuprestore,directreopenfailed;notIR/NAMorUSBproof",
+    "write": "https://support.roland.com/hc/en-us/articles/201938609-SE-50-Writing-a-Patch-into-Memory",
+    "remaining": "Exactalgorithmchains/concurrency,controls,screen,ports,power/weight,currentconditionprices"
   }
 }
