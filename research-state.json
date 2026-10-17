@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-5",
-    "task": "GP-5 category census and bass inclusion saved; converted NAM-A2 corroborated by Hotone App Store2.1.0. IR file format/length and exact GP5 firmware prerequisite remain unresolved after targeted official searches. Next fresh Shopee brand/series discovery; preserve display/touch and used-price unknowns.",
+    "model": "Valeton GP-50",
+    "task": "Own regional manual bass inclusion, dated MIDI tutorial and Red Musik Bali offer saved. Next audit GP50 own manual revision/category census and looper/power limits; continue fresh Shopee discovery after model commit. Do not borrow GP5 counts.",
     "next_models": [],
-    "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
+    "after_queue": "335 partial unique records;117 legacy compatibility paths retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24961,9 +24961,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 144,
+      "record_count": 145,
       "bass_focused_record_count": 30,
-      "shared_bass_capable_count": 114,
+      "shared_bass_capable_count": 115,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -45266,8 +45266,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 144,
-    "bass_shared_models": 114,
+    "bass_view_models": 145,
+    "bass_shared_models": 115,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-50."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45695,6 +45695,7 @@
       "Valeton::GP-100",
       "Valeton::GP-150",
       "Valeton::GP-5",
+      "Valeton::GP-50",
       "Valeton::GP-180",
       "Valeton::GP-200",
       "Valeton::GP-200LT",
@@ -45821,6 +45822,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Valeton::GP-50": "Own manual lists Classic Bass, Foxy Bass, Mess Bass and Bass OD with dry blend. [Manual](https://www.hotone.jp/manuals/valeton/GP-50.pdf).",
     "Valeton::GP-5": "Firmware1.0.3 includes three bass amps and Bass OD. [Own manual pp22–28](https://www.hotone.jp/manuals/valeton/GP-5.pdf).",
     "MOOER::Prime S1": "Exact S1 firmware1.3.4 adds bass amp/cabinet modules and bass presets; Studio1.6.9 notes2024-08-27. Launch guitar-only statement is historical. [Manufacturer](https://cn.mooeraudio.com/Downloads_xq/1.html).",
     "BOSS::MS-3": "Exact manufacturer explicitly documents guitar/bass effects and six simultaneous internal blocks. [Product](https://www.boss.info/global/products/ms-3/).",
@@ -57681,6 +57683,16 @@
       "sources": [
         "https://apps.apple.com/id/app/valeton-suite/id6739420888",
         "https://www.hotone.jp/announcements/nama2allbrand"
+      ]
+    },
+    {
+      "model": "Valeton GP-50",
+      "checked_date": "2026-10-18",
+      "finding": "Exact own manual establishes bass amps/drive, shared bass inclusion and acoustic preamp distinction; regional June2026 tutorial preserves firmware1.0.5 controller caveat and GP5 SysEx freeze risk. Red Musik Bali198150809/54604918835Rp2255000Habis direct cache.",
+      "sources": [
+        "https://www.hotone.jp/manuals/valeton/GP-50.pdf",
+        "https://www.hotone.jp/blog/1151",
+        "https://shopee.co.id/Valeton-GP-50-Efek-Gitar-Compact-Multi-Effects-GP50-GP-50-i.198150809.54604918835"
       ]
     }
   ],
@@ -72038,5 +72050,14 @@
       "site:shopee.co.id \"BP355\""
     ],
     "result": "No indexed search results; not proof of absence, no price or stock inferred."
+  },
+  "discovery_gp50_frontier_20261018": {
+    "queries": [
+      "site:shopee.co.id Zoom B2X efek",
+      "site:shopee.co.id Valeton GP-50",
+      "site:shopee.co.id NUX B-8",
+      "site:shopee.co.id Korg AX3000B"
+    ],
+    "result": "Exact GP50 followup; B8 search hits are wireless systems, not added as multi-effects. No exact B2X/AX3000B hit in returned search; not proof of absence."
   }
 }

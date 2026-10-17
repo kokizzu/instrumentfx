@@ -891,6 +891,16 @@ The unchanged complete compact source was rechecked on 2026-10-17. All 23 GP-50 
 Original firmware 1.0.5 evidence and later firmware 1.1.0+/app 2.1.0+ NAM A2 conversion requirements remain separately dated above. This audit does not refresh stock or certify native NAM.
 
 
+### GP-50 — bass capability, controller revision and exact offer
+
+Checked 2026-10-18.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / bass and acoustic capability | Own regional manual lists **Classic Bass, Foxy Bass and Mess Bass**, plus **Bass OD with wet/dry Blend**. These establish shared bass multi-effects membership. **AC Pre1/2** are acoustic preamps, not established electric-to-acoustic body simulators. Exact full category census remains open; no GP-5 counts substituted. | [Own manual printed pp35,41 / PDF pages38,44](https://www.hotone.jp/manuals/valeton/GP-50.pdf) |
+| I/O / controller firmware qualification | Regional tutorial dated **2026-06-17**, scoped to **GP-50 firmware1.0.5, Pocket Control1.0.8, SonicLink1.6.9**, documents USB with the controller acting as host, or TRS MIDI. It says ordinary Bluetooth MIDI controllers are unsupported in that revision. GP-5 P9 uses different SysEx and can freeze GP-50; tutorial advises against using it and gives SAVE+GLOBAL+EXIT/BT long-hold for forced restart. Planned support is not a current limitation claim. | [Regional tutorial](https://www.hotone.jp/blog/1151) |
+| IDR / Red Musik Bali exact offer | Seller/item **198150809/54604918835**, Kota Denpasar: **Rp2.255.000, Habis** on direct reopen of last-month cached page. Search omitted Habis. Historical hardware retail ask; condition, accessory bundle, regional warranty, delivered cost and checkout stock unverified. Late-delivery compensation is not a purchase voucher. No qualified used quote. | [Exact hardware listing](https://shopee.co.id/Valeton-GP-50-Efek-Gitar-Compact-Multi-Effects-GP50-GP-50-i.198150809.54604918835) |
+
 ## Dapper Bass VES-2
 
 Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.
