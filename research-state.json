@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX990",
-    "task": "Resolve own manual routing maximum and factory mapping conflict; verify expression details and category counts before fresh bass/vocal Shopee discovery.",
+    "task": "Verify main-effect category subtotals and Freeze limits from own SPX990 manual, then fresh Shopee bass/vocal discovery. Memory capacity resolved as100user in body; exact factory mapping and introduction80RAM conflict remain.",
     "next_models": [],
     "after_queue": "Continue technical gaps and lossless migration; no downloads or workflows."
   },
@@ -50534,6 +50534,14 @@
       "pages": "28–30",
       "finding": "DualMono Cascade right-input disabled,left stage1/right cascaded outputs;Double outputsummed;MultiChain resource distinction. Ambience hollowbody coloration qualified asreverb,notdedicated acoustic simulator.",
       "remaining": "Category totals,body/current/display/software,qualified offers"
+    },
+    {
+      "model": "Yamaha SPX990",
+      "checked_date": "2026-10-17",
+      "source": "https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf",
+      "pages": "19–23,56–57",
+      "finding": "Three sections distinguished from elemental effects; main algorithm inherited from recalled preset and not editable to another type; Dist pre-only composite. Two MIDI controller assignments and bypass-or-range footswitch documented.",
+      "remaining": "Elemental maximum/routing diagrams, main-category totals, user factory mapping, direct expression/display/software and offers"
     }
   ],
   "discovery_cross_brand_bass": {

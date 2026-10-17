@@ -45,10 +45,10 @@ Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope | Guitar, bass and vocal applications explicitly listed; suitable line-level preamp/mixer routing required [S99-M pp.12–13] |
-| Expression | No built-in pedal/toe; external continuous expression unverified |
+| Expression | No built-in pedal/toe; continuous parameter control via two MIDI controller assignments, with per-program parameter/range settings. Direct expression socket support unverified [S99-M pp.56–57] |
 | Knobs / footswitches / buttons | 3 rotary controls: concentric L/R input plus Data Entry; 0 built-in footswitches; 12 buttons: six function, two page, Memory/Store/Edit/Bypass; power separate [S99-M pp.4,Add-1] |
 | Display | 24×2 character LCD plus LED indicators; diagonal/color/touch unverified [S99-M Add-1] |
-| Processing / categories | Pre/main/post architecture: 4/36/3 choices respectively; choices are not simultaneous-block count. Exact maximum and routing diagrams require further review [S99-M p.6] |
+| Processing / categories | Three processing sections: pre/main/post, with 4/36/3 choices respectively. Pre/post offer P.EQ, Comp., HarmDr; Dist. is pre-only and itself combines compression, distortion and EQ. Main type cannot be replaced in Edit: start from a preset with the required main algorithm. Individual sections can be disabled. Section count is not a universal count of elemental effects [S99-M pp.6,20–23] |
 | Preset memory | 80 ROM + 100 user = 180 internal; optional 100-location MCD32/MCD64 card gives 280. Introduction instead says 80 RAM; conflict retained. User memory described as factory populated, exact mapping unresolved [S99-M pp.1,7] |
 | Synth / acoustic | Intelligent pitch and Freeze sampling documented; dedicated synth/acoustic simulator unverified |
 | IR / NAM / captures | IR import, native/converted NAM and measured capture support unverified |
@@ -57,7 +57,7 @@ Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 | Power / battery / USB | US/Canada120 V60 Hz; UK240 V50 Hz; general230 V50 Hz;25 W. DC polarity not applicable to listed mains versions. Operating battery/USB power unverified [S99-M Add-1] |
 | Dimensions / weight | W480 × H46 × D324.4 mm including attachments;4.6 kg [S99-M Add-1] |
 | Editor / software | Editor platforms, USB audio and current computer compatibility unverified |
-| Looper / drums / live | Freeze sampling is not proof of an overdub performance looper. Drums/scenes/spillover unverified |
+| Looper / drums / live | FC4/FC5 bypass-or-memory jack selects bypass or a defined preset-recall range; separate trigger jack. Freeze sampling is not proof of an overdub performance looper. Drums/scenes/spillover unverified [S99-M pp.5,19] |
 
 ### SPX990 — separate IDR evidence
 
@@ -72,4 +72,4 @@ Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 - [Official Yamaha Spanish manual](https://jp.yamaha.com/files/download/other_assets/5/317185/SPX990S.pdf), indexed; direct access returned403.
 - [Official manual index](https://usa.yamaha.com/support/manuals/index.html?l=en&p=189) lists the5.7 MB image manual. No claim that a sibling manual proves this model’s fields.
 
-Remaining: full routing diagrams and simultaneous maximum, per-category subtotals, factory mapping conflict, expression/control details, screen/software gaps and qualified live/new offers.
+Remaining: full routing diagrams and elemental simultaneous maximum, main-effect category subtotals, factory mapping conflict, direct expression support, screen/software gaps and qualified live/new offers. The memory chapter confirms capacity but does not resolve the exact initial contents of all 100 user slots.
