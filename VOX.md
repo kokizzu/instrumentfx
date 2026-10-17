@@ -242,6 +242,18 @@ Checked2026-10-18 against the [manufacturer appendix][SL2B-M],printed pp78–80.
 | Processing / DRIVE and EQ controls | The same shared AMP/DRIVE category has **four drive/distortion and four fuzz choices**. Clean choices use limiter sensitivity;overdriven/drive/fuzz choices use gain. Low/high/mid controls belong to AMP/DRIVE rather than independent EQ slots;clean choices include adjustable mid frequency. Exact frequency values are not published by the0–10 scale. |
 | Processing / PEDAL choices | P78 lists nine entries: compression,exciter,wah,envelope wah,octave,acoustic processing,vibe,tone andring modulation. Wah has two internal model settings;these do not add two more PEDAL entries. Ring modulation does not independently establish a dedicated bass-synth oscillator architecture. |
 
+
+### StompLab 2B — adapter polarity evidence chain
+
+Checked2026-10-18.
+
+| Field | Evidence / limit |
+|---|---|
+| Power / named adapter polarity | Exact IIB [Japanese manual p77][SL2B-M] names optional **KA181**. [Korg’s KA181 specification](https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php) explicitly calls that adapter **9V,center-negative**. Thus center-negative is supported through the named compatible adapter;this is an evidence-chain inference,not visual confirmation of the StompLab inlet marking. No tuner current draw or other tuner specification is transferred. Barrel dimensions remain unverified. |
+| Physical controls / value lock | Exact IIB manual p4:holding EDIT2s in Program Select locks VALUE1/2;repeat to unlock. Lock is unavailable in Edit mode. It does not lock CATEGORY or establish stored lock persistence. |
+
+Panel screenshots failed in the browser tool;no visual control-count,display-color ortouchscreen verification is claimed. Existing text-derived K/F/B remains qualified.
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware

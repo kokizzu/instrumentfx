@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX StompLab 2B",
-    "task": "StompLab 2B AMP/PEDAL choices and shared DRIVE/EQ controls saved. Remaining display/power/software fields require independent exact-model evidence;resume fresh Shopee discovery or another existing-record gap.",
+    "task": "StompLab 2B KA181 adapter polarity chain and value lock saved;visual panel failed. Next move to another existing-record gap or fresh Shopee discovery;do not repeat failed screenshot requests.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -58078,6 +58078,15 @@
       "checked": "2026-10-18",
       "finding": "Exact manufacturer appendix adds AMP/PEDAL choices and shared DRIVE/EQ control distinctions;see canonical record.",
       "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf"
+    },
+    {
+      "model": "VOX StompLab 2B",
+      "checked": "2026-10-18",
+      "finding": "KA181 named-adapter chain supports center-negative polarity as inference;direct inlet/barrel unverified. Value-lock control saved;PDF screenshots unavailable.",
+      "sources": [
+        "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf",
+        "https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
