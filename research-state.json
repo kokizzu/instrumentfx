@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "GNX4 pitch/Talker shared-slot restriction now verified; counts distinguished from Whammy/IPS parameters. Next actual matrix selector buttons/display; total simultaneous count,power conflict andcomplete USB channel/routing restrictions remain.",
+    "task": "GNX4 USB4computer/card2simultaneous recording andformats,mic routing andpitch-path qualification verified. Next matrix selector/display evidence andCF/card/looper limits; no repeated USBunknown claim for confirmed outgoing count.",
     "next_models": [],
     "after_queue": "Other candidates/field gaps; no workflows/push."
   },
@@ -53247,5 +53247,16 @@
       "ips_scales": 6,
       "basis": "Own manual pp36–37. Four pitch families plus five Talker voicings;one effect at once. Interval/scale/bend settings not extra algorithms."
     }
+  },
+  "gnx4_usb_checkpoint_20261017": {
+    "source": "https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf",
+    "pages": "64,66,117",
+    "usb_to_computer_tracks": 4,
+    "card_simultaneous_tracks": 2,
+    "usb_format": "16/24-bit44.1kHz",
+    "card_format": "16-bit44.1kHz",
+    "routing": "MicOff/Dry/RVB/FX;Off may still record via selected sources. Dry guitar supports later reamp.",
+    "pitch_qualification": "p34 prose broadly preampWhammy/IPS;detailedp66 diagramWhammy preamp/othernonTalkerpitch aftergate. Earlier blanket preamp claim corrected.",
+    "remaining": "USBreturn count/currentdrivers,buttons,display,power conflict."
   }
 }

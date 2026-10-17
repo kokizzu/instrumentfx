@@ -393,7 +393,7 @@ def main():
         if mode == 'commit-mx200':
             message = 'research(lexicon): add MX200 with mixer-path scope and power revision conflict'
         if mode == 'commit-gnx3':
-            message = 'research(digitech): qualify GNX4 shared pitch and Talker processing slot'
+            message = 'research(digitech): verify GNX4 USB recording formats and signal routing'
         if mode == 'commit-b1four-followup':
             message = 'research(zoom): resolve B1 FOUR display memory and looper restrictions'
         if mode == 'commit-b1xfour-followup':
