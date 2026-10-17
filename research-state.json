@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-1",
-    "task": "GT-1 FX1/FX2 23-choice enumeration and USB level/monitor rules added. Next enumerate OD/DS,PREAMP,DELAY,REVERB andpedal subtypes from exactparameter guide; distinguish nested choices and108headline.",
+    "task": "GT-1 major selector counts added. Next enumerate nested FX subtypes and reconcile108headline only if counting basis proven; unresolved power/USB/display and market fields remain.",
     "next_models": [],
     "after_queue": "274partialmodels;no downloads/workflows/push;technical/market verification and legacy retirement incomplete."
   },
@@ -56630,5 +56630,18 @@
     "pages": "6,25",
     "facts": "23 top-level FX1/FX2 types each; same type permitted in both. USB MIX/EFFECT OUT0–200%;directmonitorunsaved resetsON;OFFonlyUSBreturnwithoutcomputerthru.",
     "limits": "Nestedsubtypesnotcounted;108headline not reconciled;othercategories/concurrentceiling remainopen. No download."
+  },
+  "gt1_category_counts_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-1_parameter_eng02_W.pdf",
+    "pages": "11–15",
+    "counts": {
+      "od_ds": 22,
+      "preamp": 27,
+      "delay": 7,
+      "reverb_slot": 8,
+      "pedal_fx": 7
+    },
+    "limits": "ReverbslotincludesDelay;not8reverbs. Nested FXsubtypes and108headline unreconciled;notconcurrentcapacity.",
+    "practical": "PedalBendmonophonic±24semitones;mainDelay2000ms;SubDelay1000ms;reverbslotDelay650ms;followingmono/COSMcollapsesstereodelay."
   }
 }

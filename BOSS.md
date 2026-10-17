@@ -861,7 +861,7 @@ Checked **2026-10-16**. [Manufacturer page](https://www.boss.info/global/product
 | K/F/B | **3 /3 /12**; expression toe separate. Input insertion switches power on. [GT1-P], [GT1-M] |
 | Display | **132×32 backlit graphic LCD**; monochrome appearance from previously inspected official photograph. Published diagonal and explicit touch specification remain unverified. [GT1-P] |
 | Dimensions / weight / size | **305×152×56 mm**, maximum height74 mm; **1.3 kg including batteries**. Large under repository width filter. [GT1-P] |
-| Simultaneous processing / category choices | FX1,OD/DS,PREAMP,FX2,DELAY,REVERB plus pedal/utilities; **108 types**, not108 simultaneous blocks. FX1 and FX2 can select the same effect. Parameter guide p6 gives **23 top-level FX1/FX2 choices each**: Compressor,Limiter,T.Wah,GraphicEQ,ParaEQ,ToneModify,GuitarSim,Ac.GtrSim,SlowGear,Octave,PitchShifter,Harmonist,Overtone,Feedbacker,Ac.Processor,Phaser,Flanger,Tremolo,Rotary,Uni-V,Vibrato,Chorus,SubDelay. Nested subtypes are separate; other category counts and manufacturer-stated simultaneous ceiling remain unresolved. [GT1-P], [GT1-G] |
+| Simultaneous processing / category choices | FX1,OD/DS,PREAMP,FX2,DELAY,REVERB plus pedal/utilities; **108 types**, not108 simultaneous blocks. FX1 and FX2 can select the same effect. Parameter guide p6 gives **23 top-level FX1/FX2 choices each**: Compressor,Limiter,T.Wah,GraphicEQ,ParaEQ,ToneModify,GuitarSim,Ac.GtrSim,SlowGear,Octave,PitchShifter,Harmonist,Overtone,Feedbacker,Ac.Processor,Phaser,Flanger,Tremolo,Rotary,Uni-V,Vibrato,Chorus,SubDelay. **OD/DS22; PREAMP27; DELAY7; REVERB-slot8; PEDAL FX7**, counted from guide pp11–15. Nested FX subtypes and manufacturer-stated simultaneous ceiling remain unresolved; these counts do not reconcile the108 headline. [GT1-P], [GT1-G] |
 | Factory / user / total memory | **99 preset +99 user =198**. [GT1-P] |
 | Synth / acoustic | **AC.GUITAR SIMULATOR**, pickup/body GUITAR SIMULATOR and **AC.PROCESSOR** for electro-acoustic pickups. OVERTONE adds harmonics; this does not prove a general synth engine. [GT1-G] |
 | IR / NAM / capture | No third-party IR loader, native NAM, converted NAM or proprietary capture import established. Factory speaker simulations are distinct from user IR import. |
@@ -897,6 +897,10 @@ GT-1 editor source checked2026-10-17: macOS package instructions and version his
 Firmware follow-up2026-10-17: global detail repeatedly timed out; manufacturer Dutch page’s English history supplies the evidence above. Its final instruction still says verify1.07 despite1.09 heading/archive: retained as a documentation inconsistency, not a firmware downgrade instruction. No update performed or downloaded. Current macOS matrix supersedes the earlier unresolved compatibility status for its explicitly listed versions only.
 
 GT-1 parameter follow-up checked2026-10-17: own Parameter Guide/Sound List ©2016, p6 type enumeration and p25 USB settings. Counts describe selector choices, not a newly reconciled108-type total. The PDF was read through the web reader; no file downloaded or visual inspection claimed.
+
+### GT-1 — selector-count qualifications
+
+Checked2026-10-17 against [own parameter guide][GT1-G], pp11–15. Delay choices: Standard,Pan,Reverse,Analog,Tape,Modulate,TeraEcho. Reverb slot: Ambience,Room,Hall1,Hall2,Plate,Spring,Modulate,**Delay**. Pedal: CryWah,VoWah,FatWah,LightWah,7StrWah,ResoWah,PedalBend. PedalBend is single-note,±24semitones; chords unsupported. Main delay reaches2000ms,FX SubDelay1000ms,reverb-slot Delay650ms. A following mono effect/COSM amp collapses stereo delay. Counts represent alternatives, not extra concurrent blocks; nested compressor/limiter/etc. types still need separate accounting.
 
 ## GX-1
 
