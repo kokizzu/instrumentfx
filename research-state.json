@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Neural DSP Quad Cortex",
-    "task": "Continue Quad Cortex officialdevice-list counts foramps/cabs/drives/delay/reverb/compressor andcaptures;inspected standardcategory counts saved. Display/captureconnector,looperduration/persistence,memory totals andqualifiedoffers remain open.",
+    "task": "Quad Cortex standarddevice category rows counted;captures andlicencedplugin totals separate/unaudited. Check remainingdisplay/captureconnector andlooperduration evidence,then freshbass/vocal discovery;allmodel gaps preserved.",
     "next_models": [],
     "after_queue": "Fresh bass/vocal discovery andlossless legacy consolidation remain incomplete. No downloads,workflows orpush."
   },
@@ -63895,9 +63895,56 @@
       "Wah": 7,
       "Looper": 1,
       "Synth": 1,
-      "Utility": 12
+      "Utility": 12,
+      "GuitarAmps": 83,
+      "BassAmps": 13,
+      "GuitarCabinets": 62,
+      "BassCabinets": 8,
+      "GuitarOverdrive": 24,
+      "BassOverdrive": 5,
+      "Delay": 12,
+      "Reverb": 18,
+      "Compressor": 15
     },
     "synth": "MonoSynth standard added3.3.0;PitchSubharmonicSynth distinct category.",
-    "remaining": "Guitar/bass amps,cabs,drives,delay,reverb,compressor,captures andlicencedplugin totals unaudited;no grandtotal inferred."
+    "remaining": "Capture andlicencedplugin totals unaudited;no grandtotal orfactorypreset occupancy inferred.",
+    "row_ranges": {
+      "GuitarAmps": [
+        223,
+        305
+      ],
+      "BassAmps": [
+        309,
+        321
+      ],
+      "GuitarCabinets": [
+        325,
+        386
+      ],
+      "BassCabinets": [
+        390,
+        397
+      ],
+      "GuitarOverdrive": [
+        401,
+        424
+      ],
+      "BassOverdrive": [
+        429,
+        433
+      ],
+      "Delay": [
+        437,
+        448
+      ],
+      "Reverb": [
+        452,
+        469
+      ],
+      "Compressor": [
+        473,
+        487
+      ]
+    }
   }
 }
