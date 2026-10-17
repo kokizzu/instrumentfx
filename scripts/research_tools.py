@@ -339,7 +339,7 @@ def main():
         if mode == 'commit-ve20-followup':
             message = 'research(boss): verify VE-20 effect type counts and custom pedal groups'
         if mode == 'commit-g71ut':
-            message = 'research(zoom): enumerate G7.1ut rotary controls and qualify hold delay'
+            message = 'research(zoom): reconcile G7.1ut category inventory to 92 effects'
         if mode == 'commit-gfx4':
             message = 'research(zoom): verify GFX-4 rotary controls and explicit-save behavior'
         if mode == 'commit-gfx5':

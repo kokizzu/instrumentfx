@@ -1923,7 +1923,7 @@ Guitar multi-effects;distinct fromG9.2tt/G5. Checked2026-10-17;partial. Disconti
 | K/F/B | **15 rotary /7 main footswitches /button count pending**. Text-derived:TYPE1,preamp7(AMP TYPE,GAIN,LEVEL,BASS,MIDDLE,TREBLE,PRESENCE),parameter4,TUBE/BOOST2,rearLEVEL1. Foot:fourpatch,twoBANK,FUNCTION. Toe/rear toggles separate;visual corroboration pending. | [Manual pp6–7][G71-M] |
 | Display | 16-character,two-line backlitLCD plus2-digit7-segmentLED. Diagonal,color,touch unverified. | [Japanese manual p69][G71-J] |
 | Dimensions / mass | 460W×235D×81Hmm;4kg. | [Manual p69][G71-M] |
-| Processing / category choices | **92effects,max9 includingZNR**. PREAMP35distortion+1acoustic;other categorysubtotals pending. Two live/recording algorithms pertype depend onCABINET;not72 independent simultaneous preamps. | [Manual pp4,58–60][G71-M] |
+| Processing / category choices | **92effects,max9 includingZNR**. Table-derived COMP3,WAH/EFX1 11,ZNR3,PREAMP36(35distortion+1acoustic),EQ1,CABINET1,MOD/EFX2 20,DELAY6,REVERB11=92. TOTAL/NAME/ARRM/PDL are control settings,excluded. Cabinet mic/position andEQbands are parameters,not extra algorithms. Two live/recording algorithms pertype depend onCABINET;not72 independent simultaneous preamps. | [Manual pp4,55–67][G71-M] |
 | Factory / user memory | **160=80preset+80user**;readonlyA/b,editableU/u. Initial userfill unresolved. | [Manual pp4–5][G71-M] |
 | Synth / acoustic | Aco.Sim electric-to-acoustic. Dedicated synthesis unverified. | [Manual p59][G71-M] |
 | I/O | Mono¼guitar,stereo⅛AUX,Lmono/R¼outputs,¼stereophones,CONTROL IN,MIDI IN/OUT,USB,power. USB subtype pending. | [Manual pp6–8,69][G71-M] |
@@ -1932,7 +1932,7 @@ Guitar multi-effects;distinct fromG9.2tt/G5. Checked2026-10-17;partial. Disconti
 | IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified. | Unresolved |
 | Editor / software | Editor/librarian WindowsXP,Mac10.2–10.8;ASIO drivers separate,Vista/7/8 andXP versions. CurrentOS compatibility unverified. | [Official support][G71-S] |
 | USB audio / MIDI | USB16-bit stereo record/play,32/44.1/48kHz;USB audio-only,MIDI usesdedicatedIN/OUT. Internal96kHz24-bit processing is separate. | [Manual pp4,48–49,69][G71-M] |
-| Looper / drums / live | Functionswitch preampA/B,tap,hold-delay control;12AX7 Energizer. Energizer active inallmodes,notpatch-stored. HoldDelay requiresactiveDELAY,sustains currentdelay sound;releasinghold letsit decay. DelayMute mutesDELAYinput. These functions do not establish overdublooper. Function assignments requireSTORE;patchchange discardsunsaved assignment. Looperduration,drums,scenes,trails unverified. | [Manual pp16–17,34–35][G71-M] |
+| Looper / drums / live | Functionswitch preampA/B,tap,hold-delay control;12AX7 Energizer. Energizer active inallmodes,notpatch-stored. HoldDelay requiresactiveDELAY,sustains currentdelay sound;releasinghold letsit decay. DelayMute mutesDELAYinput. These functions do not establish overdublooper. Function assignments requireSTORE;patchchange discardsunsaved assignment. PreampChainPRE keeps signal afterMOD/EFX2 stereo;POST places preamp afterDELAY and processes thatstage mono. Chainposition shared byA/B,cannot differ perchannel. Looperduration,drums,scenes,trails unverified. | [Manual pp16–17,34–35,53][G71-M] |
 
 ### Separate IDR hardware offers
 
@@ -1950,3 +1950,5 @@ Ownmanual accessed aswebtext;no downloads/software/physicalinspection. Englishpo
 [G71-O]: https://shopee.co.id/Efek-Gitar-Zoom-G7.1ut-i.475318175.11623581747
 
 [G71-J]: https://zoomcorp.com/media/documents/J_G71ut_0.pdf
+
+Category count checked2026-10-17 against printedpp55–66. WAH11 includesAutoWah,A-Resonance,Booster,Tremolo,Phaser,RingModulate,SlowAttack,PedalVox,PedalCry,P-Resonance,Octave. MOD20 includesChorus,ST-Chorus,Ensemble,Flanger,PitchShift,PedalPitch,Vibe,Step,Delay,TapeEcho,DynamicDelay,DynamicFlang,MonoPitch,HPS,PdlMonoPitch,Cry,ReverseDelay,BendChorus,CombFilter,Air. REVERB11 includes sixreverbs,earlyreflections,multitap,pan-delay,pingpong-delay,autopan. Repeated effect names in differentmodules count as modulechoices;tableexamples onp54 are not extra entries.
