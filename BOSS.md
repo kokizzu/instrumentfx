@@ -2246,15 +2246,15 @@ Checked 2026-10-17; partial. Guitar/acoustic-electric multi-effects; bass/vocal 
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in expression and CTL; expression function selectable per patch. External/toe support pending. | [Manual p5][GT3-M] |
-| K/F/B | Separate rotary, footswitch and button counts pending. | Unresolved |
-| Display | Diagonal, type, color and touch pending. | Unresolved |
+| Expression | Built-in expression and CTL; expression function selectable per patch. External shared SUB EXP/SUB CTL1,2 supports EV-5 or FV-300L + PCS-33; toe support pending. | [Manual p5][GT3-M] |
+| K/F/B | **2 rotary / 7 footswitches / 19 buttons**, text-derived: Value and rear Output Level; Number1–4, Bank Up/Down, CTL; 12 effect-select, Exit, Parameter L/R, Write, Manual, Utility, Tuner/Bypass. Power switch separate; visual corroboration pending. | [Manual p71][GT3-M] |
+| Display | **16-character × 2-line backlit LCD**; diagonal, color and touch pending. | [Manual p71][GT3-M] |
 | Processing / categories | Official product says **32 effects**, manual introduction **31**; conflict retained. Simultaneous ceiling pending. COSM preamp, **12 analog drive choices**, speaker/mic simulation. | [Product][GT3-P]; [Manual p5][GT3-M] |
-| Preset memory | Factory/user/total and initial contents pending. | Unresolved |
+| Preset memory | **140 user + 200 preset = 340**; initial user contents pending. | [Manual p71][GT3-M] |
 | Synth / acoustic | Guitar synth and acoustic simulation documented; Auto Riff triggers riffs from a note. Acoustic-electric preamp and anti-feedback also documented. | [Manual p5][GT3-M]; [Product][GT3-P] |
-| I/O | Complete connector inventory pending. | Unresolved |
-| Power / battery / USB | Voltage, polarity, current, battery and USB operation pending. | Unresolved |
-| Dimensions / mass | Own-model dimensions and weight pending. | Unresolved |
+| I/O | Input, L/Mono and R outputs, stereo mini headphones, send/return, shared SUB EXP/SUB CTL1,2, MIDI In/Out; adapter input. | [Manual p71][GT3-M] |
+| Power / battery / USB | **14 V AC; 800 mA draw**, supplied BRC-120/230/240 adapter variants. AC has no fixed DC center polarity; battery/USB operation unverified. | [Manual p71][GT3-M] |
+| Dimensions / mass | **487 W × 222 D × 97 H mm; 4.0 kg**; adapter inclusion in mass not specified in this passage. | [Manual p71][GT3-M] |
 | IR / NAM / capture | Import, native/converted NAM and proprietary capture pending. | Unresolved |
 | Editor / platforms | Editor and current OS support pending. | Unresolved |
 | Live / practice | Virtual internal pedal controls parameter movement; tuner documented. Looper/drums/scenes and detailed routing pending. | [Manual p5][GT3-M] |

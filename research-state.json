@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "GT-3 primary record saved with31/32 conflict. Next own specifications table and control inventory before Zoom606; all unresolved fields remain explicit.",
+    "task": "GT-3 p71 specifications saved. Next verify algorithm categories/simultaneous ceiling and built-in toe behavior; visual counts and other unknowns remain qualified.",
     "next_models": [
       "Zoom 606"
     ],
@@ -54326,5 +54326,11 @@
     "product": "https://www.boss.info/us/products/gt-3/",
     "finding": "Own-model product/manual confirm eligibility and synthesis/acoustic features;31/32 effect conflict retained.",
     "remaining": "Own specifications table, controls, memory, complete I/O/power/dimensions, algorithm choices, display/software and condition-specific prices."
+  },
+  "gt3_specifications_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+    "page": "71",
+    "finding": "Memory, display, I/O, AC power/current, dimensions and mass saved;2/7/19 controls text-counted with visual pending.",
+    "remaining": "Toe support, initial user bank, simultaneous ceiling/category choices, software/IR/NAM, battery/USB and condition-specific prices."
   }
 }
