@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP255",
-    "task": "RP360XP tap/expression/calibration follow-up saved. Unresolved display/current OS/import/USB MIDI/Sound Check persistence retained. Next inspect RP255 current record and own manual for unresolved control/I/O/power and live features, then fresh Shopee leads as needed. Commit each model before next.",
+    "task": "RP255 expression calibration/reset and USB recording/tuner follow-ups committed. Next refresh Shopee brand/series discovery for eligible unrecorded hardware; preserve pending Wisdom identity limits. Commit each useful model before researching another.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56085,6 +56085,13 @@
       "source": "https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf",
       "finding": "Manual pp40–42: per-preset expression endpoints, V-Switch threshold 0–200, calibration preserves presets; factory reset erases them.",
       "remaining": "Display, visual control audit, actual firmware model inventory, current OS support, device draw, and condition-qualified offers remain unresolved."
+    },
+    {
+      "model": "DigiTech RP255",
+      "date": "2026-10-18",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf",
+      "finding": "USB recording mix/level use Pickup row knobs 2/3. Tuner mutes initially but expression controls volume; A440/Ab/G/Gb references.",
+      "remaining": "Dry DI/reamping, display details, firmware inventory, current software compatibility and qualified condition offers remain unresolved."
     }
   ],
   "discovery_cross_brand_bass": {

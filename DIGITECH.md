@@ -147,6 +147,9 @@ Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; part
 | Expression / calibration | Holding both footswitches about five seconds enters calibration without erasing user presets. Set toe-down/up endpoints; V-Switch threshold is 0–200, with right Up raising the threshold when too sensitive. Both switches exit. | [Manual p42][R255-M] |
 | Memory / reset | Factory reset erases user-programmed data and then enters expression calibration; separate calibration preserves presets. No reset or calibration was performed during this research. | [Manual pp41–42][R255-M] |
 
+| USB audio / recording controls | With USB connected and Pickup row selected, knobs 2/3 control direct/playback mix and USB record level respectively. X-Edit also provides a mix utility. Dry-DI/reamping support remains unverified. | [Manual p11][R255-M] |
+| Live / bypass and tuner | Both switches bypass; holding two seconds enters tuner. Either exits. Tuner initially mutes, but expression controls guitar volume. Reference defaults to A=440, with Ab/G/Gb alternatives. | [Manual pp2–3,7][R255-M] |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact Shopee hardware
