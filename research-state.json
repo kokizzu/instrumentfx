@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer V-AMP 2",
-    "task": "First-pass root record saved. Complete own manual effect/routing and supply audit before next discovery; do not borrow Bass models.",
+    "task": "V-AMP 2 routing/selection audit saved. Power label and present editor support remain unresolved; continue exact Shopee brand/series discovery without duplicating existing models.",
     "next_models": [],
     "after_queue": "Market coverage and legacy consolidation remain incomplete."
   },
@@ -49733,6 +49733,15 @@
       "remaining": "Powerpinout,connectorconflicts,editor,qualifiedoffers.",
       "sources": [
         "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf"
+      ]
+    },
+    {
+      "model": "Behringer V-AMP 2",
+      "checked_date": "2026-10-17",
+      "finding": "Corrected S2 dry output: compressor/auto-wah can remain. Table5.1 counted 3 delay-only,5 modulation-only,1 comp,1 auto-wah,6 combinations,not16 simultaneous FX. L3 monitoring EQ/cab split; headphone cabinet auto-selection; edit loss; historical V-AMP design PC editor. FS112V within-bank vs bank-switching text conflict retained.",
+      "remaining": "Power output/pinout/current; current editor support; complete factory memory and MIDI-only routing.",
+      "sources": [
+        "https://cdn.mediavalet.com/aunsw/musictribe/qpnCBAUO90iaytgcpSr3Ng/BO7R0l3qqE6jsWGytbBfrQ/Original/8849825169438.pdf"
       ]
     }
   ],

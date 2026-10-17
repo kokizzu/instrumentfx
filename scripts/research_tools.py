@@ -339,7 +339,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-vamp2':
-            message = 'research(behringer): add distinct V-AMP 2 with own manual and qualified offers'
+            message = 'research(behringer): correct V-AMP 2 dry routing and count effect selections'
         if mode == 'commit-bass-vamp-pro':
             message = 'research(behringer): add separate Bass V-AMP PRO and preserve specification conflicts'
         if mode == 'commit-bass-vamp':
