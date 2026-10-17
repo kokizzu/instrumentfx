@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [All vocal](ALL-VOCAL.md) · [Repository](README.md)
 
-This category view summarizes **14 selected model records from the 215 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. All recorded models have root brand profiles;technical verification andmarket discovery remain incomplete. Counts in different instrument views overlap and must not be added together.
+This category view summarizes **14 selected model records from the 216 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. All recorded models have root brand profiles;technical verification andmarket discovery remain incomplete. Counts in different instrument views overlap and must not be added together.
 
 Each model link opens the full evidence,firmware context,price qualifications and unknowns. These summaries do not replace those qualifications. A color screen does not prove touch; an expression socket is not an included pedal; a fixed category is not a freely assignable processing block.
 
@@ -43,7 +43,7 @@ All amounts are **IDR asking observations checked2026-10-15 unless the row expli
 | Tone Master Pro |? |Rp33.585.000 indexed retail asks |Older cached delivery information; stock,condition and bundle not verified |
 | GP-200LT |Rp3.000.000 seller-labelled used,Carousell,indexed |Rp4.635.000 indexed retail;Rp3.975.000 sold-out historical ask |Used condition is a seller claim; direct reopening failed; not an active range |
 | GE250 |? |Rp7.350.000 indexed retail;Rp4.995.000 sold-out/shop-holiday ask |Ready Stock title and old cached delivery dates do not establish current availability; checkout not verified |
-| Flex Prime |? |Rp10.215.000 andRp9.080.000 separate indexed retail asks |Rp9.605.000 sold-out offer remains separate; no authenticated price range |
+| Flex Prime |? |Rp10.216.000 andRp9.080.000 separate indexed retail asks |Rp9.605.000 sold-out offer remains separate; no authenticated price range |
 
 ## Reading footprint and scope
 
@@ -222,7 +222,7 @@ Preserved from the2026-10-14/15 seven-model comparison. Original commit referenc
 
 JOYO's original product identity is now established by its own Chinese/English product pages. The previously rejected MOOER-labelled manual was not used. B1Xon is not B1X FOUR or G1Xon; GR-55 is not GM-800.
 
-GR-55 initial `2b637fb61c243776b1a0a9d192ce17848295eeac`,correction `da9ff9bb01b8be8109f5b588c656de3daaf41c9c`;B1Xon `8b6664672c3f0756f754d1b1e10215421e3ca19f`.
+GR-55 initial `2b637fb61c243776b1a0a9d192ce17848295eeac`,correction `da9ff9bb01b8be8109f5b588c656de3daaf41c9c`;B1Xon `8b6664672c3f0756f754d1b1e10216421e3ca19f`.
 
 Shared finding references: [Original finding1](effects/findings/2026-10-14-roland-gr-55.md) · [Original finding2](effects/findings/2026-10-14-zoom-b1xon.md) · [Original finding3](effects/findings/2026-10-15-joyo-gembox-original.md) · [Original finding4](effects/findings/2026-10-15-mvave-mini-x.md) · [Original finding5](effects/findings/2026-10-15-mvave-pocket-amp.md) · [Original finding6](effects/findings/2026-10-15-cuvave-h8.md) · [Original finding7](effects/findings/2026-10-15-ving-fb100.md).
 

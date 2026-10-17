@@ -1997,3 +1997,37 @@ Earlier mixed HopeMusic707ii/708ii/GFX-3 shop ask is not assigned to this exact 
 [707-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/707ii/
 [707-M]: https://zoomcorp.com/media/documents/E_707II.pdf
 [707-O]: https://shopee.co.id/efek-digital-gitar-elektrik-zoom-707-ii-bekas-second-normal-i.27879131.28968736038
+
+## 708II
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**, partial. Bass-specific processor; separate from707II guitar and original708. Evidence from its own manufacturer Operation Manual.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | **Integrated expression with push-down module switch**. External expression **?**. [Manual][708-M] |
+| Knobs / footswitches / buttons | **5 / 2 / 15** from own panel: DRIVE, three parameter knobs, OUTPUT; two footswitches;15 front keys. Power/toe additional. [Manual][708-M] |
+| Display | **Six-position alphanumeric LED +two-position seven-segment LED**; diagonal/color/touch **?**. [Manual][708-M] |
+| Dimensions / weight | **249 W ×195 D ×57 H mm; 860g excluding batteries**. [Manual][708-M] |
+| Blocks / category choices | **Seven modules;69 effect types;33 drive/bass choices**. Pickup Selector→Drive→EQ→ZNR→Cabinet→Modulation→Delay/Reverb. Category subtotals **?**. **Bass Synth disables EQ/ZNR/Cabinet**. [Manual][708-M] |
+| Memory | **60 user +60 preset =120**; factory user-fill subset **?**. [Manual][708-M] |
+| Synth / acoustic | **Bass Synth yes**: V-SYN, STDSYN, SYNTLK. Dedicated acoustic simulation **?**. [Manual][708-M] |
+| IR / NAM / captures | User IR, native NAM, converted NAM and proprietary captures **?**. |
+| I/O | Quarter-inch mono bass; stereo mini AUX; combined quarter-inch stereo line/headphones; SmartMedia; DC input. [Manual][708-M] USB/MIDI/audio interface **?**. |
+| Power / battery / USB | **9V DC center-negative300mA AD-0006**, or **four AA alkaline**, approximately11hours. Barrel size, measured draw, USB power **?**. [Manual][708-M] |
+| Editing / platforms | Onboard editing. Computer/mobile editor, driver/updater **?**. [Manual][708-M] |
+| Practical features | **Six-second internal sampler**, **four minutes/60samples on16MB card**; sampler disables MOD/REV. **60 rhythms**, tuner; hold-delay detail, scenes, spillover **?**. [Manual][708-M] |
+| IDR qualified observations | **Used IDR: ?; new IDR: ?**. Three-model Shopee listing has no resolved708II variant price. |
+<!-- comparison evidence ends -->
+
+### 708II — sources and unresolved hardware pricing
+
+- [Own Zoom708II BASS manual][708-M],40pages, selected sections inspected: panel pp.4–5, pedal pp.8–9, routing p.18, synth/constraints pp.34–35, specifications p.39. Printed identifier **708II-5000-1**; revision date not established. No707II specifications copied. Fifteen front keys count arrow pairs separately; integrated pedal switch and rear power toggle are additional. Seven modules is the architectural count; algorithm restrictions reduce valid combinations. Complete per-category counts, synth variants, pickup settings, loop/card persistence and software evidence remain unfinished.
+- [Manufacturer bass support page][708-P] identifies708II and its own manual. Generic bundled-software navigation is not evidence of an editor.
+- [Shopee mixed-model item703817770/23503462640][708-O], Hope Music, KotaBandung: indexed three months old, title707ii/708ii/GFX-3, **three variations**, displayed **Rp1,399,000**, former displayRp1,599,000, service unavailable. Exact open cache miss. Neither amount maps to708II. Sale condition, bundle, adapter, warranty, current stock and voucher unknown. Retained as a hardware-identity lead only, not a new/used quote.
+
+Remaining: qualified single-model offer/variant mapping, full category counts and loop/card behavior, display specifications, barrel dimensions/current draw, explicit USB-power statement and current editor support. Bass-focused classification follows this manual’s explicit bass identity; guitar/vocal use unverified. No local downloads or dependencies installed.
+
+[708-M]: https://zoomcorp.com/media/documents/E_708II.pdf
+[708-P]: https://zoomcorp.com/en/gb/multi-effects/bass-effects/708ii/708ii-support/
+[708-O]: https://shopee.co.id/Efek-Zoom-707ii-Zoom-708ii-Zoom-GFX-3-Langka-i.703817770.23503462640
