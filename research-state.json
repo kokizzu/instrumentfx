@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B2.1u",
-    "task": "B2.1u control total4/2/8 and DI PRE/POST/ground details saved. Next inspect own support/current ASIO listing against original XP/Mac OS X USB audio claims; separate driver, editor and modern OS evidence. No downloads. Commit before next model.",
+    "task": "B2.1u exact ASIO package/OS boundaries saved; modernOS/editor unresolved. Next resume brand/series Shopee discovery for unrecorded bass/vocal hardware; do not repeat parked B1Xnext label or already rejected BP200 adapter. No downloads. Commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56550,6 +56550,12 @@
       "checked_date": "2026-10-18",
       "finding": "K/F/B normalized4/2/8: six top buttons plus rear PRE/POST and GROUND latching push switches; power/toe separate. Own DI section:POST engaged processed,PRE disengaged before FX; simultaneous amp monitoring does not change XLR via external amp settings;GROUND LIFT engaged uncouples XLR ground. Phantom tolerance unknown.",
       "source": "https://zoomcorp.com/media/documents/E_B21u.pdf"
+    },
+    {
+      "model": "Zoom B2.1u",
+      "checked_date": "2026-10-18",
+      "finding": "Own support lists three G Series ASIO filenames v2.0.0:XP32,Vista/7/8 32,Vista/7/8 64. No editor or modern OS compatibility established. Do not substitute G5n New G Series driver or sibling editor. No package downloaded.",
+      "source": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b21u/b21u-support/"
     }
   ],
   "discovery_cross_brand_bass": {
