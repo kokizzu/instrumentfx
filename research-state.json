@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fender Mustang Micro Plus",
-    "task": "Micro Plus exact third-party AIRSTEP MP foot-control option saved;expression remains unverified. FCC filing XQW-MUMPPR6171 original manual7049868 and SAR7054814 found as possible own-model power evidence;direct FCC.report7054814 returned403,do not infer consumer power from snippets. Next inspect original filing/manufacturer documentation or other discovery.",
+    "task": "Micro Plus original PR6171 filing power evidence saved with tested-sample limits. Next resolve USB recording channels/rates from manufacturer documentation, or resume fresh Shopee discovery. Capacity,screen diagonal and expression remain unresolved.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -58042,6 +58042,12 @@
       "checked": "2026-10-18",
       "finding": "XSONIC exact-model AIRSTEP MP wireless foot control and simultaneous Tone connection documented;expression not established,accessory excluded from active inventory,manualJS-only.",
       "source": "https://xsonicaudio.com/pages/airstepmp"
+    },
+    {
+      "model": "Fender Mustang Micro Plus",
+      "checked": "2026-10-18",
+      "finding": "Original PR6171 filing power evidence qualified by tested-sample scope;see canonical Power rows. Battery capacity and battery-removed audio operation unresolved.",
+      "source": "https://fccid.io/XQW-MUMPPR6171/RF-Exposure-Info/SAR-Test-Report-7054814.pdf"
     }
   ],
   "discovery_cross_brand_bass": {

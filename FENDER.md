@@ -125,6 +125,16 @@ Checked 2026-10-18 against the [controller manufacturer’s AIRSTEP MP page](htt
 
 XSONIC’s linked [manual page](https://help.xsonicaudio.com/user_manual/24) exposed only a JavaScript-required shell; firmware prerequisites and detailed assignments remain unverified. The accessory stays outside active multi-effects inventory.
 
+
+### Mustang Micro Plus — original filing power evidence
+
+Checked 2026-10-18 against the [original laboratory report](https://fccid.io/XQW-MUMPPR6171/RF-Exposure-Info/SAR-Test-Report-7054814.pdf), DDT-RE23090520-2E10 v1.1, issued January6,2024 for Fender MUSTANG MICRO PLUS, TYPE PR6171.
+
+| Field | Filing qualification |
+|---|---|
+| Power / tested sample | Printed p7 identifies **5V DC external power or a3.85V built-in lithium battery**; p9 also records3.85V test voltage. These are distinct external and battery voltages, not interchangeable ratings. The p4 declaration limits this report to the tested sample. |
+| Power / remaining limits | Battery capacity, replacement specifications, USB-PD negotiation and consumer audio operation with the battery removed remain unverified. The owner manual’s600mA maximum USB current remains separate. RF testing is not an audio bus-power test. |
+
 <!-- comparison evidence ends -->
 
 No condition-confirmed used/new allocation. Variant,bundle,workingcondition,authenticity,warranty,shipping/tax/vouchers unresolved.
