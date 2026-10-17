@@ -2733,3 +2733,37 @@ Checked2026-10-17 against [English707-5000][GFX707-M] pp8,17 and [official Japan
 | Processing / amp simulator | Four families:COMBO,BRIGHT,STACK,FL STK;each offers A/b,with stronger cabinet character atb. OFF is bypass. Published48 total counts four amp families,not eightA/b configurations;not evidence of eight independent amp models. |
 
 [GFX707-J]: https://zoomcorp.com/media/documents/J_GFX707.pdf
+
+## 1201
+
+Checked2026-10-17;partial. Zoom Studio1201 rack multi-effects,not1202/1204. [Manufacturer product][Z1201-P] identifies discontinued reverb/multi-effects. Ownership unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Instrument / input requirements | Guitar/bass require preamp or compact effect;microphone requires mic preamp/mixer. **Not direct instrument/mic-level equivalence**. [Own manual pp4–6][Z1201-M] |
+| Expression | No built-in pedal;dedicated EXP not in complete connector inventory. Optional **FS01 bypass** is switching,not expression. Toe/MIDI expression unverified. |
+| K/F/B | **6 rotary /0 onboard footswitches /0 separate buttons**,derived from numbered text inventory;**1 BANK switch**,LED separate. [pp3–4][Z1201-M] |
+| Display | Green/red/orange status LED documented;screen presence,diagonal,color/touch otherwise unverified. No image measurement. |
+| Processing / memory | **363 factory patterns=3banks×11types×11variations**. BankA reverb;B/C modulation/multi-effects. User-save memory unverified;selector positions are not writable patches. [Manual][Z1201-M] |
+| Processing / simultaneous effects | **Two parallel effects** on BankB slash-marked combinations;not33 simultaneous blocks. Other combinations and complete per-family inventory remain pending. [p6][Z1201-M] |
+| I/O | **2mono phone inputs,2mono phone outputs,FS01 EFFECT ON/OFF,DC**. Headphone/USB/MIDI absent from complete listed inventory. [pp4,7][Z1201-M] |
+| I/O / level | Input/output reference−10to+4dBm;input7.5kΩ mono/15kΩ stereo;output≤330Ω. Preserve manufacturer dBm notation. [p7][Z1201-M] |
+| Power / dimensions / mass | **9VDC300mA**,supplied adapter;**482W×115D×44Hmm;1.5kg**. Polarity,barrel,battery/USB operation unverified. [p7][Z1201-M] |
+| Synth / acoustic | Vocoder:voice envelope at R,instrument at L/MONO,with suitable preamps. Acoustic simulation/independent synth source unverified. [p6][Z1201-M] |
+| IR / NAM / capture | User IR,native/converted NAM,proprietary capture loading unverified. |
+| Editor / platforms | Editor,driver/updater and mobile platforms unverified;no sibling software borrowed. |
+| Live / other | FS01 bypass passes dry signal. Looper,drums,scenes and trails unverified. |
+
+Manual1201-5000 was read in full as browser text;no visual census or download. Numerical control count is derived from the described inventory,including rotary selectors.
+
+### Separate IDR hardware evidence
+
+| Condition / availability | IDR ask and qualifications | Source |
+|---|---|---|
+| Condition unverified;**Habis** | **Rp2.200.000**;A’M Audio,shop137791346/item25963128125,Kab.Demak. Five-day indexed crawl with16–17October delivery. Title saysJapan,notverified manufacture/condition/warranty. | [Exact item][Z1201-O] |
+
+No confirmed used/new split. Working state,adapter/bundle,authenticity,warranty,shipping/tax,voucher and current checkout stock unresolved. Sold-out cached ask is not a completed sale or live-stock quote.
+
+[Z1201-P]: https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-1201
+[Z1201-M]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_1201.pdf
+[Z1201-O]: https://shopee.co.id/efek-vocal-zoom-studio-1201-japan-i.137791346.25963128125

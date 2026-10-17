@@ -1623,3 +1623,7 @@ research-commit-ampero-one:
 .PHONY: research-commit-vt4
 research-commit-vt4:
 	python3 scripts/research_tools.py commit-vt4
+
+.PHONY: research-commit-1201
+research-commit-1201:
+	python3 scripts/research_tools.py commit-1201
