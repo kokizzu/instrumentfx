@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS Pocket GT",
-    "task": "Saved converter serial revision and FS1WL firmware/editor minimums plusFeb2026 Windows editor fix. Next verify current Windows/macOS exclusive-app compatibility matrices separately from drivers; do not infer seller hardware revision. Discovery queries GE90/GP10/NovaSystem/VF1/RP100A/Zoom2020/RP55 yielded no qualified new processor;Pulze results were modeling amps, scope not admitted. No downloads; commit before next model.",
+    "task": "PocketGT editor/driver platform matrices saved separately with exclusions and literal source-column qualification. Resume Shopee brand/series discovery or another model primary-source gap; no repeated PocketGT OS lookup needed absent changed evidence. No downloads; commit each model before next.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56879,6 +56879,16 @@
         "https://www.boss.info/global/support/by_product/pocket-gt/support_documents/c9748952-fe5b-4429-985b-4465679ef9d3/",
         "https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/af1be664-80a3-453c-bbad-877c5b631882/",
         "https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/ccd6d2fb-0c16-4272-8a41-30c8b829ab7b/"
+      ]
+    },
+    {
+      "model": "BOSS Pocket GT",
+      "checked_date": "2026-10-18",
+      "finding": "Separate exclusive-app and hardware/driver compatibility rows verified: Windows11/10YesDownload with ARM/virtual/MacWindows exclusions andWin10support caveat; macOS15/26YesDownload; literal27GoldenGatecolumnUnderTesting, not independentlyverifiedOSrelease. MacToneStudio1.3.4Feb2026sameYouTubefix andseparatedriver prerequisite.",
+      "sources": [
+        "https://www.boss.info/global/support/support_news/25090811win1/",
+        "https://www.boss.info/global/support/support_news/25090811m1/",
+        "https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/b6636992-05ce-466f-9bb8-32c323a10804/"
       ]
     }
   ],

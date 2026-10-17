@@ -2276,6 +2276,16 @@ Checked 2026-10-18.
 | Expression / FS-1-WL requirements | **Firmware1.30 (November2022) + Tone Studio1.3.0 or later** supports FS-1-WL switches/CTL1–2 for patch/effect control and its connected expression pedal for Pedal Wah/Foot Volume. Firmware1.20 added EV-1-WL in October2021. Controller sockets are not sockets on Pocket GT itself. | [System history](https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/af1be664-80a3-453c-bbad-877c5b631882/) |
 | Editor / Windows release qualification | **Tone Studio1.3.4, February2026**, fixes Session-screen video-player configuration errors preventing YouTube use. Windows page requires the corresponding OS driver separately and notes microphone privacy access can affect connection on Windows11. Published fix, not an operational test or complete current OS matrix. | [Windows editor history](https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/ccd6d2fb-0c16-4272-8a41-30c8b829ab7b/) |
 
+### Pocket GT — separate editor and driver compatibility evidence
+
+Checked 2026-10-18; published compatibility, not local testing.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Editor / Windows compatibility | BOSS matrix updated **2026-10-01** lists Pocket GT **Hardware & Driver** and **Exclusive Application** separately as Yes(Download) for Windows11 and Windows10. Its legend excludes ARM PCs, virtual Windows and Windows on Mac; Windows10 entries carry an end-of-support caveat, so do not promise current operation from their Yes labels. | [BOSS Windows matrix](https://www.boss.info/global/support/support_news/25090811win1/) |
+| Editor / macOS compatibility | Matrix separately lists hardware/driver and exclusive application as Yes(Download) for **macOS15 Sequoia and26 Tahoe**. A source column labelled **macOS27 Golden Gate** is Under Testing for both. This records the retrieved table wording, not independent OS-release verification or unconditional future support. | [BOSS macOS matrix](https://www.boss.info/global/support/support_news/25090811m1/) |
+| Editor / Mac release and prerequisites | Mac Tone Studio **1.3.4 (February2026)** documents the same YouTube Session fix as Windows. Corresponding OS driver is required separately; minimum resolution1280×768. No application installed. | [Mac editor page](https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/b6636992-05ce-466f-9bb8-32c323a10804/) |
+
 ## ME-50B
 
 Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-10-17; partial. Ownership unestablished. Discontinued manufacturer status does not establish seller availability.
