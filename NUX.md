@@ -696,3 +696,50 @@ Primary [official routing/rear image](https://nuxaudio.cherubtechnology.com/wp-c
 The original six-model review recorded **2026-10-14 foreign new asks**:MG-101USD129([NUXUSA](https://www.nux.us/products/mg-101));MG-300MKIIUSD169([NUXUSA](https://www.nux.us/products/mg-300-mkii));MG-400USD229([NUXUSA](https://www.nux.us/products/mg-400)) andUSD172([Thomann](https://www.thomannmusic.com/nux_mg_400.htm));MG-30USD329([NUXUSA NAM page](https://www.nux.us/pages/nam-a2-native));MG-50LiUSD549([NUXUSA](https://www.nux.us/products/mg-50li)). OriginalMG-300hadnone. These remain historicalforeignprovenance,**not IDR values or Indonesian delivered prices**. No FXrate/useddiscountassumed. Existing Indonesian Shopee leads for those six remain in the root inventory/legacy discovery evidence pending exact integration;unknowncells do not mean unavailable.
 
 Model-specific facts,sources,conflicts and inspection limits were merged from originalsix-model blob `01c12be78d929e4ced06d13bbf3a2d4fa59e7cc7`,MG100 `7de4fadea60da7b9bbcc572c84b4269c940a6030`,MG200 `9481b09aee71e80452b88e1632263b6bfe9ea3a7`,TRIDENT `074355dd0435de07ef029c0ae1ef154cf2ba23a5`. Cerberusaddsoneactiveprofile;theseconsolidationsaddnone. Sharedlegacycomparisons andincominglinks requireverificationbefore retirement. Unknownscreen/pricefields arestillpending,notdeclaredcompletedmerelybecause thisrootfileexists.
+
+## MG-20
+
+Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in EXP/VOL with force-at-toe switching; adjustable threshold. EXT.PEDAL accepts WTB-004 for bank switching, not established as external expression. [Manual transcription][MG20-T] |
+| K/F/B | Three footswitches: two PRESET plus CTRL; rotary/button totals pending visual corroboration. Toe and power switches separate. [MG20-T] |
+| Display | **2.4-inch color TFT LCD**; touchscreen unverified. [MG20-T] |
+| Processing / categories | **Nine effect-module controls**, over60 models; independent toggling and combined chain documented. Do not equate model count with simultaneous blocks. Category counts pending. [MG20-T] |
+| Preset memory | **36 factory +36 user =72** locations; initial user contents unresolved. [MG20-T] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
+| I/O | Guitar input, stereo L/Mono and R outputs, AUX, headphones, EXT.PEDAL, SD card, USB update, DC. Connector sizes/balancing pending. [MG20-T] |
+| Power / battery / USB | **9V DC**; supplied or ACD-008 adapter. Current/polarity/battery/USB operation unverified; OCR500mA marking not yet corroborated. [MG20-T] |
+| Dimensions / mass | **330L×210W×83Hmm;3.15kg**. Axis labels retained. [MG20-T] |
+| IR / NAM / capture | User IR, native/converted NAM and proprietary capture support unverified. |
+| Editor / platforms | USB system updating documented; editor platforms, USB audio and bus power unverified. [MG20-T] |
+| Live / practice | **60-second looper;81 rhythm patterns**. Drum part cannot enter looper. SD playback supports MP3 and most WAV/WMA; tempo changes preserve key. [MG20-T] |
+| Live / routing | MOD can precede EFX or follow EQ; pre-EFX position disables stereo. Position stored per preset. [MG20-T] |
+
+### Separate IDR hardware offers
+
+Used and new condition-confirmed offers: **not established**. These are historical indexed asks checked 2026-10-17, not live checkout or completed sales.
+
+| Condition | Amount / seller / item | Availability and limits |
+|---|---|---|
+| Unverified | **Rp2.950.000**, Bangkit Musik, shop38404754/item26224715388, Kab.Banyumas [item][MG20-O1] | Two-month item crawl with Aug3 arrival text; separate three-day category crawl repeats ask. Stock unverified. |
+| Unverified | **Rp1.800.000**, AXL STUDIO, shop349012190/item15997732084, Kab.Lamongan [item][MG20-O2] | **Habis**, two-month crawl; Aug7–9 arrival text. Seller title mentions bass; not capability proof. |
+| Unverified | **Rp4.395.000**, UniSeffia, shop318196983/item20795236543, Kota Jakarta Timur [item][MG20-O3] | Two-month crawl; Aug3–6 arrival text. Stock unverified. |
+| Unverified | **Rp2.816.940**, SR Music Square, shop178818236/item7950066014, Kota Bekasi [item][MG20-O4] | **Habis**, two-month crawl; Aug18 arrival text. |
+
+<!-- comparison evidence ends -->
+
+Variant, bundle, adapter inclusion, warranty, authenticity, working state, shipping/tax and vouchers unresolved. No condition inferred from seller activity or sold-out status.
+
+Own [NUX legacy product page][MG20-P] links the [English V1 PDF][MG20-M]. Browser reports seven pages but no text; screenshot calls yielded no viewable images. Technical evidence above is the manufacturer-authored MG-20 owner's-manual body transcribed on a mirror, identified by exact model, Cherub copyright2014 and NUX attribution. Mirror FAQ/generated summary excluded. Revision equivalence with current official V1 PDF remains unverified; original visual corroboration still required. No filesystem download or software execution.
+
+[MG20-P]: https://nuxaudio.com/product/mg20/
+[MG20-M]: https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf
+[MG20-T]: https://manualzz.com/doc/23849145/mg-20_manual_en
+[MG20-O1]: https://shopee.co.id/EFEK-GITAR-NUX-MG20-NUX-MG-20-MULTI-EFEK-EFECT-GUITAR-MODELING-PROCESSOR-i.38404754.26224715388
+[MG20-O2]: https://shopee.co.id/NUX-MG-20-Modeling-Guitar-Bass-Processor-Multi-Effect-Gitar-i.349012190.15997732084
+[MG20-O3]: https://shopee.co.id/Promo-Nux-Mg-20-Mg20-Mg-20-Guitar-Modeling-Processor-Effect-Guitar-Digital-i.318196983.20795236543
+[MG20-O4]: https://shopee.co.id/Nux-MG-20-Guitar-Modeling-Processor-i.178818236.7950066014

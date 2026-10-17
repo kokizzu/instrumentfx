@@ -1603,3 +1603,7 @@ research-commit-hxe-price:
 .PHONY: research-commit-m100
 research-commit-m100:
 	python3 scripts/research_tools.py commit-m100
+
+.PHONY: research-commit-mg20
+research-commit-mg20:
+	python3 scripts/research_tools.py commit-mg20

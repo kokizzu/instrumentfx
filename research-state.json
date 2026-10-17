@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 259,
+  "active_model_count": 260,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 259,
+  "canonical_root_model_count": 260,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "259 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. PLETHORA X5 guitar/bass shared; all partial.",
+  "count_reconciliation": "260 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. MG-20 guitar-only classification pending bass/vocal proof; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "NUX MG-20",
-    "task": "Inspect English manual linked from https://nuxaudio.com/product/mg20/ (link36) through browser text only; establish own-model architecture/fields before adding active record. Exact four Shopee offers in discovery_mg20_20261017; no confirmed used/new condition. Do not infer bass from seller title.",
+    "task": "MG-20 added with manufacturer-authored mirrored manual qualifications. Next verify category choice table and full control inventory against readable original documentation; preserve official PDF visual/revision gap.",
     "next_models": [],
-    "after_queue": "Resume fresh Shopee discovery; prior model gaps retained. No downloads/workflows/push."
+    "after_queue": "Resume fresh Shopee discovery after useful MG-20 updates; all deferred model gaps retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23827,7 +23827,8 @@
       "MG-100",
       "MG-200",
       "TRIDENT NME-5",
-      "Cerberus NME-3"
+      "Cerberus NME-3",
+      "MG-20"
     ],
     "Roland": [
       "GR-55"
@@ -24146,7 +24147,8 @@
       "MG-100",
       "MG-200",
       "TRIDENT NME-5",
-      "Cerberus NME-3"
+      "Cerberus NME-3",
+      "MG-20"
     ],
     "SONICAKE.md": [
       "Matribox QME-50",
@@ -24315,7 +24317,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 211,
+      "record_count": 212,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41278,10 +41280,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 259,
-    "canonical_root_models": 259,
+    "unique_brand_model_pairs": 260,
+    "canonical_root_models": 260,
     "legacy_only_models": 0,
-    "guitar_view_models": 211,
+    "guitar_view_models": 212,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41341,7 +41343,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-20."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41457,6 +41459,7 @@
       "NUX::MG-200",
       "NUX::TRIDENT NME-5",
       "NUX::Cerberus NME-3",
+      "NUX::MG-20",
       "Roland::GR-55",
       "Scorpion::KMF-10",
       "Sonicake::Matribox QME-50",
@@ -42843,6 +42846,13 @@
     },
     "NUX::Cerberus NME-3": {
       "link": "NUX.md#cerberus-nme-3",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::MG-20": {
+      "link": "NUX.md#mg-20",
       "source_files": [
         "NUX.md"
       ],
@@ -55041,5 +55051,13 @@
       "BOSS GT-10B"
     ],
     "absence_qualification": "Limited indexed searches only; no claim of market absence."
+  },
+  "mg20_primary_checkpoint_20261017": {
+    "product": "https://nuxaudio.com/product/mg20/",
+    "manual": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf",
+    "transcription": "https://manualzz.com/doc/23849145/mg-20_manual_en",
+    "limit": "Own PDF seven pages, no text or viewable screenshots. Manufacturer-authored mirrored body identifies exact MG-20, copyright2014 Cherub; current V1 revision equivalence unverified. No generated FAQ used.",
+    "added": true,
+    "next": "Verify category choices, complete controls, original PDF revision/visuals, software platform and power limits. Bass not inferred from seller."
   }
 }
