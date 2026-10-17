@@ -302,6 +302,15 @@ Checked 2026-10-18. Manufacturer manual cover identifies firmware 1.3.0; retriev
 | Category choices / drive and amp | **7 DRV**: Scream, Butter OD, JP Dist, Shark, Dark Mouse, Grey Fuzz, Red Fuzz. **20 AMP**: page subtotals 1 + 9 + 10 (pp15–17). Clone-file loading is separate. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
 | Category choices / IR and EQ | **15 factory IRs + 5 user slots** (pp17–18); **3 EQs**: GT EQ1, GT EQ2, Bass EQ. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
 | Category choices / delay and reverb | **9 DLY** and **10 RVB** (pp18–19). No definitive installed total inferred; later firmware additions and shared slot choices must not be silently combined with the advertised100+ headline. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
+
+### Pocket Master — manual census is incomplete against release history
+
+Checked 2026-10-18 by comparing both manufacturer documents.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category counts / manual versus firmware conflict | [Release history](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178) says **1.1.0 (2025/1)** added **A BassVT, Voks Bass** to AMP and **Bass Drive** to DRV. None appears in the [English effect list labelled firmware1.3.0, pp13–19](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual). The saved AMP20/DRV7 numbers count printed entries only and must not be treated as complete firmware1.3.0 library counts. Renaming, omission or other revision mismatch remains unresolved; do not add three to a supposedly verified installed total. |
+| Acoustic / later addition | Release **1.3.3 (2025/5)** explicitly adds **AC G Guitar simulation in FX1**. Keep separate from the manual’s AC Sim and its four modes; the note does not establish identical algorithms, parameters or FX2 availability. [Release history](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178) |
 <!-- comparison evidence ends -->
 
 ### Preserved original Pocket Master finding
