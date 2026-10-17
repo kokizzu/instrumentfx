@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery after AX3G",
-    "task": "AX3G parameter guide corroborates57choices incl PRE10; GermanPEDAL11 retained source conflict. Resume unrecorded guitar/bass/vocal discovery; avoid repeated solved AX3G count research.",
-    "next_models": [],
-    "after_queue": "No downloads/workflows;commit model before next."
+    "model": "Line 6 M5",
+    "task": "Exact hardware item306155985/6072223176 Rp2921000cachedconditionunknown. Start own official Pilot Handbook/specs; productURLredirects,resourcepage confirms multiplecategories. Resolve simultaneouslimit/scope and required fields before active-record addition,then commit before M9.",
+    "next_models": [
+      "Line 6 M9 exact item and own manual"
+    ],
+    "after_queue": "Fresh Shopee discovery;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -49925,5 +49927,62 @@
     },
     "next": "Seek a distinct exact G2Nu or G2.1Nu item; exclude adapter listings. Primary model architecture and revision verification required before catalogue addition.",
     "followup": "Narrow punctuation/spacing and accessory-exclusion queries still returned only the mixed Hope Music storefront or accessory results; no exact item/variant resolved."
+  },
+  "discovery_line6_mseries_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"Korg AX3B\"",
+      "site:shopee.co.id \"Zoom 506\" efek",
+      "site:shopee.co.id \"Vocalist Live\" digitech",
+      "site:shopee.co.id \"Korg AX3A\"",
+      "site:shopee.co.id \"Line 6 M9\"",
+      "site:shopee.co.id \"Line6 M13\"",
+      "site:shopee.co.id \"Line 6 M5\"",
+      "site:shopee.co.id \"Zoom 606\""
+    ],
+    "leads": [
+      {
+        "model": "Line 6 M5",
+        "url": "https://shopee.co.id/Stombox-Modeller-Pedal-Line-6-M5-i.306155985.6072223176",
+        "shop_id": "306155985",
+        "item_id": "6072223176",
+        "cached_ask_idr": 2921000,
+        "seller": "Gelora Musik Serpong",
+        "region": "Kab.Tangerang",
+        "access": "Direct web open and search yield2month cachedpage,15–16Augustdelivery.",
+        "condition": "Unverified",
+        "stock": "Unverified; no Habis label does not certify current stock.",
+        "bundle_warranty_variant": "Unverified",
+        "voucher": "Rp10000 late-arrival compensation,not item discount",
+        "official_resource": "https://origin2.line6.com/effects-pedals/resources/",
+        "official_finding": "Manufacturer M-Series resource describes100+ effects across distortion,chorus,reverb and others. Product path /effects-pedals/m5/ redirects to /pedals/; do not treat current HX specifications as M5.",
+        "next": "Retrieve model-specific Pilot Handbook and power/spec evidence through web text only. Determine one-effect-at-time limit and eligibility explicitly; multi-category choice differs from dedicated single-purpose pedal. No active record/count until saved."
+      },
+      {
+        "model": "Line 6 M9",
+        "url": "https://shopee.co.id/namin_music",
+        "cached_ask_idr": 3388000,
+        "seller": "Namin Music",
+        "access": "3month searchcache; directshopopen failed.",
+        "condition": "Index says ProdukBaru; actual unitcondition not established.",
+        "stock": "Unverified",
+        "next": "Exact hardware item URL unresolved; no qualified price. Find original M9 documentation separately from M5/M13."
+      }
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Launch-Asli-Midi-Controller-Plugin-Line-6-M5-i.195477295.23012711081",
+        "reason": "Ambiguous controller/plugin title;Rp1197000 not accepted as M5 hardware."
+      },
+      {
+        "url": "https://shopee.co.id/replacement-power-supply-9V-2000mA-Line-6-Adaptor-Penganti-Line6-POD-9VAC-M13-Pedal-AC-9-V-9-Vac-2A-i.216990724.6861766207",
+        "reason": "Power supply only;Rp144200 not M13 hardware."
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+        "reason": "Adapter only;Rp175000 not vocalist hardware."
+      }
+    ],
+    "other_results": "AX3B/AX3A no exact unit from this query batch;506querynoisy;606/607mixedshopindexRp1099000unmapped. Search failure is not absence or complete market coverage."
   }
 }
