@@ -509,7 +509,7 @@ def main():
         if mode == 'commit-g71ut':
             message = 'research(zoom): reconcile G7.1ut category inventory to 92 effects'
         if mode == 'commit-gfx4':
-            message = 'research(zoom): verify GFX-4 rotary controls and explicit-save behavior'
+            message = 'research(zoom): document GFX-4 hold delay and conditional continuation'
         if mode == 'commit-gfx5':
             message = 'research(zoom): qualify GFX-5 expression routing and ARRM conflicts'
         if mode == 'commit-gfx3':

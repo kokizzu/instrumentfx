@@ -2302,7 +2302,7 @@ Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufa
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andcapture imports unverified. | Unresolved |
 | Editing / routing | Manual mode toggles modules viafoot;disabled modules cannot change type/parameters. ZNR thresholdOFF–10;patchlevel1–50,40unity. | [Manual pp16–18][GFX4-M] |
 | Editor / software | Editor andplatform compatibility unverified. | Unresolved |
-| Looper / drums / routing | Monooutput relay bypass excludes pedal volume/master;stereooutput retains them. Monooutput carries leftchannel,not summed stereo. Program mode:current patch switch release=bypass,hold>1s=mute;manual mode usesBANK switch instead. Tuner435–445Hz resets440 on power-up. Looper,drums,scenes,trails unverified. | [Manual pp6,14–15][GFX4-M] |
+| Looper / drums / routing | Monooutput relay bypass excludes pedal volume/master;stereooutput retains them. Monooutput carries leftchannel,not summed stereo. Program mode:current patch switch release=bypass,hold>1s=mute;manual mode usesBANK switch instead. Tuner435–445Hz resets440 on power-up. Hold-delay and conditional continuation are documented below; drums/scenes and a general overdubbing looper remain unverified. | [Manual pp6,14–15,27][GFX4-M] |
 
 ### Separate IDR hardware offers
 
@@ -2317,6 +2317,17 @@ Manual accessed as web text only. No downloads or physical inspection. Category 
 [GFX4-M]: https://zoomcorp.com/media/documents/E_GFX4.pdf
 [GFX4-P]: https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-4/
 [GFX4-O]: https://shopee.co.id/hopemusik
+
+
+### GFX-4 hold delay and patch continuation
+
+Checked 2026-10-18 against official manual text; no downloads or physical test. This resolves the earlier hold-delay/continuation unknown, not a general overdubbing-looper claim.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Looper / hold delay | PP-DLY or ECHO with FB/HLD=Hd or HS supports phrase capture in manual mode. Hold footswitch3 to record; releasing it or reaching the selected delay time starts repeat playback. Press again to stop. Delay range reaches 2 seconds; overdubbing is not established here. | [Own manual p27][GFX4-M] |
+| Looper / seamless restrictions | Delay continuation requires both patches to have REV/DLY ON, PP-DLY or ECHO, and delay time at most 1 second. With both FB/HLD settings HS, a held phrase can continue after returning to program mode and changing patch. Bypass forces it to end. This is conditional continuation, not unrestricted spillover. | [Own manual p27][GFX4-M] |
+| Expression / wah and pitch shortcut | The shortcut selects and enables PDLWAH or PDLPIT in MODULATION and changes EP-MOD from off to UP. It replaces the MOD type rather than adding a separate block. For these two effects, Hi behaves as UP and Lo as dn. | [Own manual pp20,26][GFX4-M] |
 
 ## G7.1ut
 

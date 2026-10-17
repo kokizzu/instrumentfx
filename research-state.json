@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "GFX-3 pedal activation and tuner behavior saved; mixed-variant price rejected. Resolve exact GFX-8 index lead or continue missing-model discovery.",
+    "task": "GFX-4 hold delay and conditional patch continuation saved. GFX-8 exact Shopee lead remains unresolved; continue missing-model discovery and remaining technical verification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69678,5 +69678,10 @@
       "No additional simultaneousoscillators inferred"
     ],
     "discovery": "PX5D/PX4D/PANDORAmini exactShopee searchesunresolved"
+  },
+  "discovery_gfx8_resolution_20261018": {
+    "url": "https://shopee.co.id/list/Efek/Zoom",
+    "status": "Unresolved exact listing; no accepted model price",
+    "result": "Grid title persists without seller/item link; targeted searches expose adapters, connectors or other marketplaces. No hardware purchase or download."
   }
 }
