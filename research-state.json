@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-200 / GP-200X variant",
-    "task": "GP200X additional sold-out offer saved without duplicate model. Continue fresh Shopee brand/series discovery and resolve current technical gaps using exact manufacturer sources.",
+    "model": "Valeton GP-200",
+    "task": "Audio electrical/USBformat/editorplatform andexpressionassignment evidence saved. Next exactrotary/buttoninventory,toeoperation,currentcategorychoices/synthacoustic,IRNAMlimits orfreshShopee discovery.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-200 / GP-200X variant."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-200."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -61198,5 +61198,17 @@
     "condition": "unverified",
     "access": "Search2daycrawl versusdirectlastmonth,staleSeptember7–9delivery",
     "limits": "NotstandardGP200,newusedorlivestockproof;bundlewarrantyshippingtaxcheckoutunknown;latecompensationnotdiscount"
+  },
+  "gp200_audio_expression_20261017": {
+    "source": "https://www.valeton.net/product/gp-200/",
+    "findings": [
+      "24bitADDA44.1kHz110dBSNR",
+      "Input4.7MAcoustic1MElectric10kLine;Return100kAUX10k",
+      "TSXLRSend1k;phones22ohm",
+      "USB2C44.1k16/24bit6in4outloopbackreampAUXtoUSB",
+      "WinMaciOSAndroidaudio versusWinMaceditorWindowsASIO",
+      "Builtinopticalexpressionup3parameters"
+    ],
+    "limits": "OS/driverrevision,powernegatives,toe/externalconcurrency,outputlevels/categorycensusremainunknown"
   }
 }
