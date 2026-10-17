@@ -1775,3 +1775,7 @@ research-commit-v3compat:
 .PHONY: research-commit-rd5
 research-commit-rd5:
 	python3 scripts/research_tools.py commit-rd5
+
+.PHONY: research-commit-ms3
+research-commit-ms3:
+	python3 scripts/research_tools.py commit-ms3

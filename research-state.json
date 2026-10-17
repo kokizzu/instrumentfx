@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 326,
+  "active_model_count": 327,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 326,
+  "canonical_root_model_count": 327,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "326 unique active/root-canonical models; 0 legacy-only; 37 brands; six excluded; all partial.",
+  "count_reconciliation": "327 unique active/root-canonical models;0 legacy-only;37 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "BOSS MS-3",
-    "task": "Verify exact Shopee MS-3 hardware offers and primary internal multi-effects architecture before adding; not controller-only.",
+    "task": "Continue exact original Parameter Guide category census and supply/software verification before fresh Shopee discovery.",
     "next_models": [],
-    "after_queue": "326 active; technical, market, ownership and lossless migration work remains. No downloads/workflows/push."
+    "after_queue": "327 active; technical, market, ownership and legacy migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24134,7 +24134,8 @@
       "GT-001",
       "AD-8",
       "SE-50",
-      "GT-10B"
+      "GT-10B",
+      "MS-3"
     ],
     "CUVAVE": [
       "H8"
@@ -24740,7 +24741,8 @@
       "GT-001",
       "AD-8",
       "SE-50",
-      "GT-10B"
+      "GT-10B",
+      "MS-3"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -24888,14 +24890,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 273,
+      "record_count": 274,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 140,
+      "record_count": 141,
       "bass_focused_record_count": 29,
-      "shared_bass_capable_count": 111,
+      "shared_bass_capable_count": 112,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41956,18 +41958,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 326,
-    "canonical_root_models": 326,
+    "unique_brand_model_pairs": 327,
+    "canonical_root_models": 327,
     "legacy_only_models": 0,
-    "guitar_view_models": 273,
+    "guitar_view_models": 274,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 140,
-    "bass_shared_models": 111,
+    "bass_view_models": 141,
+    "bass_shared_models": 112,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -42058,6 +42060,7 @@
       "BOSS::GT-001",
       "BOSS::AD-8",
       "BOSS::SE-50",
+      "BOSS::MS-3",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -42313,6 +42316,7 @@
       "BOSS::ME-50B",
       "BOSS::KATANA:GO",
       "BOSS::GT-10B",
+      "BOSS::MS-3",
       "Donner::Arena2000",
       "Fender::Tone Master Pro",
       "Fender::Mustang Micro Plus",
@@ -42509,6 +42513,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "BOSS::MS-3": "Exact manufacturer explicitly documents guitar/bass effects and six simultaneous internal blocks. [Product](https://www.boss.info/global/products/ms-3/).",
     "BOSS::ME-90B": "Bass-oriented processor with documented guitar processing: own Parameter Guide p12 lists GTR CRUNCH, GTR HI GAIN and GTR MODDED as Tone Studio-selectable PREAMP/EQ replacements. Independent multi-effects retained; guitar/bass capability does not imply identical voicing. [Guide](https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf).",
     "Soran::Dual Stomp Lite": "Own exact product supports guitar/bass;25guitar+5bass amps/cabs. [Product](https://soranaudio.com/products/27.html).",
     "Soran::Dual Stomp": "Own exact product explicitlysupports guitar/bass and25guitar+5bass amps/cabs;internalLitewordingconflict retained. [Product](https://soranaudio.com/products/28.html).",
@@ -42972,6 +42977,13 @@
     },
     "BOSS::GT-10B": {
       "link": "BOSS.md#gt-10b",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::MS-3": {
+      "link": "BOSS.md#ms-3",
       "source_files": [
         "BOSS.md"
       ],
@@ -65783,5 +65795,12 @@
     ],
     "access": "Search-indexed asks; direct first offer cache miss; no condition or live stock verification.",
     "remaining": "Original manual/panel audit, controls, ports, memory, current, software and other unknown fields."
+  },
+  "ms3_primary_20261018": {
+    "primary": "https://www.boss.info/global/products/ms-3/",
+    "manual": "https://static.roland.com/assets/media/pdf/MS-3_eng02_W.pdf",
+    "parameter": "https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf",
+    "status": "partial",
+    "remaining": "Category census, factory/user split, supply voltage/polarity, display and software details; condition-verified market evidence."
   }
 }

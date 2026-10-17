@@ -2929,3 +2929,36 @@ GT10B Shopee searches surfaced adapter listings and foreign retailers rather tha
 Manual follow-up: manufacturer-authored 2008 GT-10B owner manual, G6027127R0, read as mirrored document text; generated introduction/FAQ excluded. Official CDN PDF exceeds web-reader size limit. No file downloaded.
 
 [G10B-T]: https://manualzz.com/doc/51314063/boss-audio-systems-music-pedal-gt-10b-owner-s-manual
+
+## MS-3
+
+Effects-only guitar/bass multi-effects with loop switching, checked2026-10-18; partial. Ownership unverified. [MS3-P]
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / toe | No built-in pedal; two TRS EXP/CTL inputs support external expression. Toe behavior unverified. [MS3-M] |
+| Knobs / footswitches / buttons | **3/5/5**: knobs1–3; number1–4 plus MEMORY/MANUAL switches; ON/OFF,MENU,EDIT,EXIT,ENTER buttons. POWER switch separate. [MS3-P] |
+| Display | Backlit132×32-dot graphic LCD; diagonal, color and touch unverified. [MS3-P] |
+| Dimensions / mass | **W275×D97×H68mm;1.1kg**, mass basis unstated. [MS3-P] |
+| Processing / category choices | **Six simultaneous internal effects**,112 types; FX1,FX2,MOD1,MOD2,DLY,REV; three external loops are additional hardware paths. Per-category choice census pending. [MS3-P] |
+| Factory / user / total memory | 200 patches; factory-filled/user split unverified. [MS3-P] |
+| Bass capability | Manufacturer explicitly supports guitar/bass effects. [MS3-P] |
+| Synth / acoustic | Acoustic-guitar simulator documented; synthesis not established. [MS3-G] |
+| Audio / control I/O | Quarter-inch input, three send/return pairs, L/MONO+R outputs; TRS CTL OUT and two EXP/CTL inputs; USB-B, MIDI OUT, DC IN. Headphone use unverified. [MS3-P] |
+| Power / battery / USB | Adapter;280mA. Voltage, polarity, battery and USB powering unverified. [MS3-P] |
+| IR / NAM / captures | Loading support unverified. |
+| Editor / software | Mac/Windows Editor/Librarian; exact OS versions pending. Drivers/updaters and USB audio remain separate unverified capabilities. [MS3-P] |
+| Looper / drums / routing | Tuner, noise suppressor, global EQ; stereo/selectable-mono outputs. Phrase looper/drums unverified; external loops do not establish recording. [MS3-P] |
+
+### Separate IDR hardware offers
+
+| Condition / seller | Asking evidence / limitations | Exact item |
+|---|---|---|
+| Used | Unknown; no condition-verified used ask. | — |
+| New | Unknown; no condition-verified new ask. | — |
+| Condition-unverified / ROCKPIZZ MUSIC | **Rp3,800,000**, Denpasar. Checked2026-10-18; direct JavaScript-limited cached body, crawled last week; stale8–11Oct delivery. Earlier index says tomorrow. Neither verifies live stock. Variant, bundle/adapter, warranty, condition and checkout total unknown. Late Rp10,000 compensation is not a price discount. | [440477624/26543266965](https://shopee.co.id/BOSS-MS-3-MULTI-EFFECT-i.440477624.26543266965) |
+| Condition-unverified / Serenata Galeri Musik | **Rp3,700,000**, Jakarta Selatan. Two-month search cache checked2026-10-18; relative same-day14:00 cutoff does not verify stock. Variant, bundle, adapter, warranty and final costs unknown; late compensation is not discount. | [1524946106/43604271127](https://shopee.co.id/Multi-Effect-Switcher-Boss-MS-3-Boss-MS-3-Multi-Effect-i.1524946106.43604271127) |
+
+[MS3-P]: https://www.boss.info/global/products/ms-3/
+[MS3-M]: https://static.roland.com/assets/media/pdf/MS-3_eng02_W.pdf
+[MS3-G]: https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf
