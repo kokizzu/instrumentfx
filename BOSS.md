@@ -2314,6 +2314,10 @@ Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Curre
 | Dimensions / mass | 45W×125D×29Hmm;65g,current product specification;earlier physical revision unverified. [Product][KTGO-P] |
 | IR / NAM / capture | KatanaToneSetting import documented;notuserIR/NAM/capture proof. [Product][KTGO-P] |
 | Editor / platforms | BOSSToneStudio iOS/Android;desktopeditor OS unverified. [Product][KTGO-P] |
+| Controls / multifunction | One press activates tuner;tilt+/− changes banks. A/B/C selects channels. Six named buttons remain separate from volume dial/powerswitch;no inferred extra buttons from directional actions. [Official panel manual][KTGO-H] |
+| Power / charging operation | Official manual explicitly permits use while recharging,with POWER on/off. Orange charging,green full;alternating green/orange error. Red battery indicator means shutdown within30min. [Official panel manual][KTGO-H] |
+| Editor / USB driver | Computer/iPad/iPhone audio uses standard OS USB driver;appropriate Type-Cadapter/cable required for iOS devices. This does not establish desktop editor support or channel count. [Official panel manual][KTGO-H] |
+| Display / screensaver | Screensaver activates after inactivity and cannot be disabled;control operation restores normal display. Timeout not specified in reviewed text. [Official panel manual][KTGO-H] |
 | Live / practice | StageFeel spatial audio;Session playback loops/timestamps trigger memories. Playback looping does not establish instrument looper. Drums/scenes unverified. [Product][KTGO-P] |
 
 ### Separate IDR hardware offers
@@ -2335,3 +2339,8 @@ Own HTML-manual support landing returned license/checkbox text without readable 
 [KTGO-O1]: https://shopee.co.id/Boss-Katana-GO-2-Personal-Headphone-Guitar-Amplifier-with-BT-function-i.30194339.29436800341
 [KTGO-O2]: https://shopee.co.id/boss-original-personal-headphone-Gitar-Amplifier-katana-go-2-for-guitar-dan-bass-i.31173885.21487560393
 [KTGO-O3]: https://shopee.co.id/BOSS-KATANA-GO-Personal-Headphone-Guitar-Amplifier-Portable-i.341882414.24872406480
+
+[KTGO-H]: https://static.roland.com/manuals/ktn-go2/en-US/6849025173159563.html
+[KTGO-R]: https://static.roland.com/manuals/ktn-go2/en-US/index_content.html
+
+Direct official2025HTMLmanual now read:manufacturer confirms two external designs by sale period,without functional/sound differences. This supports one shared functional record;exact seller hardware design remains unverified. Earlier license-only landing is retained as access history,not current manual unavailability. No files downloaded or images viewed.
