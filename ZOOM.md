@@ -371,6 +371,19 @@ Checked 2026-10-18 against own-model patch list and family quick guide; no files
 | I/O / headphone cabinet setup | Own patch list advises enabling the cabinet effect’s MIC parameter for headphone use. This is a cabinet-microphone simulation setting, not a physical microphone input or vocal-processing claim. | [Own patch list p1](https://zoomcorp.com/documents/48/E_G1-FOUR_Patchlist.pdf) |
 | Editor / listed platforms | Current support lists Guitar Lab7.3 for Windows8.1/10/11 and macOS10.13–26; separate G1 FOUR firmware2.00 Windows/Mac entries. Quick guide p2 explicitly permits patch management, editing and adding effects. Listings do not establish the installed library or local OS operation. | [Support](https://zoomcorp.com/en/ca/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/); [quick guide p2][ZOOM-G1-FOUR-M] |
 
+
+### G1 FOUR published-library category census — partial
+
+Checked 2026-10-18 against the shared ©2019 effect sheet. Stars identify Guitar Lab additions; counts include those entries and are **not an installed-unit census**. PEDAL entries are excluded from this non-X audit.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / Dynamics choices | **10 entries:6 unstarred+4 starred**. Comp,RackComp,SlowATTCK,ZNR,GrayComp,LMT-76; additions MuteSW,NoiseGate,OptComp,BlackOpt. Counted once each, not by parameters or available block instances. | [Effect sheet pp3–4][ZOOM-G1-FOUR-E] |
+| Processing / Filter choices | **13 entries:5 unstarred+8 starred**. Unstarred AutoWah,SeqFLTR,Gt GEQ7,ParaEQ,RndmFLTR. Additions Resonance,Cry,Gt GEQ,St Gt GEQ,LowPassFL,Exciter,Step,LFO FLTR. EQ frequency bands are parameters, not extra effect types. | [Effect sheet pp4–6][ZOOM-G1-FOUR-E] |
+| Processing / SFX choices | **4 entries:2 unstarred+2 starred**. Bomber,HotSpice; additions AutoPan,LoopRoll. LoopRoll samples/holds10–3000ms with footswitch latch/momentary options; it is distinct from the30-second phrase looper. HotSpice is sitar-tone simulation, not independent synth proof. | [Effect sheet p17][ZOOM-G1-FOUR-E] |
+
+Drive, amp, cabinet, modulation, delay and reverb counts still need complete enumeration. Later library additions and a particular unit’s installed effects remain separate verification tasks; no total is inferred from these three categories.
+
 ## G1X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
