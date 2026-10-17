@@ -1891,6 +1891,14 @@ Bass-focused multi-effects; not guitar ME-20. Checked2026-10-17; partial. Owners
 | Used | Unknown; no exact seller/item offer resolved. | — |
 | New | Unknown; no exact qualified retail offer. | — |
 
+
+### ME-20B — pedal calibration and live tuner, 2026-10-18
+
+| Field | Original-manual detail / qualification | Evidence |
+|---|---|---|
+| Expression / calibration | In Manual mode, hold EDIT/EXIT and press pedal3; calibrate heel then toe with WRITE. The manual says the display shows “1–5”, but the next step explicitly allows **1–9 sensitivity values**, with5 factory default and lower values needing less switch force. Preserve this internal range inconsistency; no physical calibration was performed. | [Original manual][M20B-M] p30 |
+| Tuner / bypass | Press number pedals1+2 together to enter; either that combination or EDIT/EXIT exits. The display covers lowB through highC string references as well as chromatic note names. This does not establish synthesis polyphony or added effect slots. | [Original manual][M20B-M] pp14–15 |
+
 <!-- comparison evidence ends -->
 
 ### Unresolved Shopee discovery lead

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Continue fresh Shopee brand/series discovery. V3 dated OS/DAW support saved, not editor support. Avoid TC1 oversized original manual route; seek readable exact original copy if revisiting.",
+    "task": "Resume fresh Shopee discovery. ME20B original calibration range conflict saved; exact used lead remains inaccessible and excluded from prices. Retain TC1 PDFsize limit and broader verification gaps.",
     "next_models": [],
     "after_queue": "325active;technical/market/ownership/migration incomplete. No downloads/workflows/push."
   },
@@ -65756,5 +65756,12 @@
     "findings": "ExactV3rows confirmTahoe26AppleSilicon/Intel anddatedMac/iOSDAWtests. Noeditorclaim. Windowsheaderalignmentambiguous:nottranscribed.",
     "discovery": "ZoomB2/BP200/VoiceLiveTouch/Calinequeriesaddedno newexactbass/vocalhardwarelead;notmarketexhaustion.",
     "remaining": "CurrentV3editorabsenceunproven;actualdraw,jackdiameter,imports,screen andqualifiedoffersretainexistinggaps."
+  },
+  "me20b_calibration_followup_20261018": {
+    "checked_date": "2026-10-18",
+    "source": "https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf",
+    "pages": "14–15,30",
+    "findings": "Own calibration heel/toewrite procedure;display1–5 vssetting1–9 conflict retained,default5lowerlessforce. Tuner1+2entry/exit,EDITEXITalternativeexit,lowBhighCnotes.",
+    "market": "RepeatedusedleadRp2300000Bogor alreadyrecorded;exact156694846/43102092694inaccessibleagain,noqualifiedprice."
   }
 }
