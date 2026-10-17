@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)
 
-**Arena2000 is an existing active model, now consolidated here.** Donner also explicitly identifies Alpha Cruncher and the Third Man Hardware collaboration Triple Threat as multi-effects; these are research leads below, not yet additional full records. Manufacturer-family check and dimensional correction: **2026-10-15**. Prior prices and other previously researched technical fields retain their **2026-10-14** observation date unless stated otherwise.
+**Arena2000 is an existing active model, now consolidated here.** Donner also explicitly identifies Alpha Cruncher and the Third Man Hardware collaboration Triple Threat as multi-effects; Alpha Cruncher remains a lead; Triple Threat now has a partial record below. Manufacturer-family check and dimensional correction: **2026-10-15**. Prior prices and other previously researched technical fields retain their **2026-10-14** observation date unless stated otherwise.
 
 ## Arena2000
 
@@ -141,10 +141,36 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 | Model | Why eligible to investigate | Primary evidence / what remains |
 |---|---|---|
 | **Alpha Cruncher** | Separate distortion,chorus and delay stages, not three modes of one effect | [Official Donner product](https://us.donnermusic.com/products/donner-alpha-cruncher-guitar-effect-pedal) describes a3-in-1 chain,9V center-negative and6.35 mm mono I/O. Exact Shopee hardware,complete controls/power/size and all required fields need a separate model pass. Its buffer-bypass/true-bypass wording conflicts internally and must not be silently resolved. |
-| **Triple Threat, Donner × Third Man Hardware** | Separate distortion,phaser and echo stages | [Manufacturer launch announcement,2024-01-25](https://www.donnermusic.com/ja-JP/articles/news_third-man-hardware-and-donner-release-the-triple-threat) and [official product](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal). Exact Indonesian offer and complete specifications pending. A collaboration name is not a new ownership claim. |
+| **Triple Threat, Donner × Third Man Hardware** | Separate distortion,phaser and echo stages | [Manufacturer launch announcement,2024-01-25](https://www.donnermusic.com/ja-JP/articles/news_third-man-hardware-and-donner-release-the-triple-threat) and [official product](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal). Initial exact Indonesian offer and partial specifications are now recorded in [Triple Threat](#triple-threat). A collaboration name is not a new ownership claim. |
 
-These leads are not counted as researched models yet. Ordinary amplifiers,controllers and dedicated one-purpose pedals remain outside the guitar multi-effects list. Arena2000 remains one model despite consolidation and the new dimensional finding.
+Alpha Cruncher is not counted yet; Triple Threat is counted once through its canonical section below. Ordinary amplifiers,controllers and dedicated one-purpose pedals remain outside the guitar multi-effects list. Arena2000 remains one model despite consolidation and the new dimensional finding.
 
 ## Consolidation provenance
 
 All model-specific information,price/source caveats and URLs from original Arena2000 finding blob `ea57fff856d151de82727575f7340d962496f0b3` are retained above, with the previously unknown dimensions/mass explicitly updated from a newly found primary source. Outdated next-batch instructions are superseded by root `research-state.json`. Shared legacy comparison links still require retirement validation; no old source was deleted or falsely described as fully migrated.
+
+## Triple Threat
+
+Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitability unverified. Collaboration branding does not establish ownership.
+
+| Field | Evidence / remaining gaps |
+|---|---|
+| Processing / categories | Analog multi-effects designed by Third Man Hardware, manufactured by Donner: distortion, phaser and echo. Concurrent ceiling, routing order and per-category alternatives unverified. |
+| Controls | Distortion has volume/gain/tone; echo has three knobs and explicitly no tap. Complete rotary, footswitch and button counts unverified. |
+| Expression | Built-in/external expression and toe switch unverified. |
+| Dimensions / weight | **355.5 g; 2.5 ×7.7 inches**, axes and height unspecified. No complete W×D×H or packaging interpretation established. Aluminum-alloy housing. |
+| Display | Presence, diagonal, color and touch unverified. |
+| Presets / synth / acoustic | Factory/user/total memory, synth and acoustic simulation unverified. |
+| I/O | Complete audio/control connectors and bypass implementation unverified. |
+| Power | Voltage, polarity, current draw, supplied adapter, battery and USB operation unverified. |
+| IR / NAM / captures | IR loading, native/converted NAM and proprietary captures unverified. |
+| Software | Editors and supported platforms, drivers/updaters and USB audio unverified. |
+| Looper / drums / scenes | All unverified. |
+
+[Own manufacturer product](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal), rechecked2026-10-17. EC7018 is the regional storefront SKU, not a verified universal hardware model code. Customer reviews, including unrelated Alpha-series reviews, are not evidence. No manual or images were downloaded or visually inspected in this pass.
+
+### Triple Threat — separate IDR evidence
+
+| Condition | Evidence / qualification | Source |
+|---|---|---|
+| New/used unverified | **Rp1.502.414 with voucher**, Donner Official Store, Kota Jakarta Barat; shop1087619206/item42664073336. Saved2026-10-17 one-week indexed crawl: spendRp1.5million/1%discount; eligibility and final total unknown. Reopen failed this pass. Stock, variant, bundle, warranty, authenticity, shipping and tax unverified. Relative delivery and late compensation do not prove stock or unconditional discount. Separate confirmed new and used asks remain unknown. | [Exact hardware listing](https://shopee.co.id/Donner-Triple-Threat-3-in-1-Pedal-Multi-Efek-Gitar-i.1087619206.42664073336) |
