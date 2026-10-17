@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-300 MKII",
-    "task": "Resolve factory/user preset capacity,power requirements and firmware-specific category counts using exact manual. US amp counts remain conflicting;36IR count is not amp count. UsedVannessa item41630242050 already saved,Habis.",
+    "task": "Continue MKII memory/power/category manufacturer gaps or fresh bass/vocal discovery. MKII now has documented bass membership;do not add unique model count. Retain conflicting amp totals and sold-out offer.",
     "next_models": [],
     "after_queue": "Bass/vocal discovery and migration audit remain incomplete. No downloads/workflows/push."
   },
@@ -24689,9 +24689,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 131,
+      "record_count": 132,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 103,
+      "shared_bass_capable_count": 104,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41686,8 +41686,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 131,
-    "bass_shared_models": 103,
+    "bass_view_models": 132,
+    "bass_shared_models": 104,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -42070,6 +42070,7 @@
       "Neural DSP::Nano Cortex",
       "Neural DSP::Quad Cortex",
       "NUX::MG-300 original",
+      "NUX::MG-300 MKII",
       "NUX::MG-400",
       "NUX::MG-30",
       "NUX::Mighty Plug Pro MP-3",
@@ -42198,6 +42199,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "NUX::MG-300 MKII": "Exact model global page documents eight bass cabinet IRs; amp-count conflict retained. [Manufacturer](https://nuxaudio.com/product/mg300mkii/).",
     "Neural DSP::Quad Cortex": "Exact manufacturer product page explicitly identifies guitar and bass algorithms. [Manufacturer](https://neuraldsp.com/quad-cortex).",
     "Kemper::PROFILER Head MK2": "Exact Head MK2 manufacturer page explicitly identifies electric guitar and bass. [Manufacturer](https://www.kemper-amps.com/store/en/profiler-head-b.html).",
     "Kemper::PROFILER PowerRack MK2": "Exact PowerRack MK2 manufacturer page explicitly identifies electric guitar and bass. [Manufacturer](https://www.kemper-amps.com/store/en_ca/profiler-powerrack-b.html).",
@@ -52079,6 +52081,13 @@
       ],
       "finding": "Toe switch,color display claim,36factoryIR/24user,stereo60/mono120loop andscene modes saved;US amp-count conflict kept;exact used-title sold-outRp2600000 offer recorded.",
       "remaining": "Preset capacity,firmware-specific categories,display diagonal/touch,power requirements andcurrent qualified new/live offers."
+    },
+    {
+      "model": "NUX MG-300 MKII",
+      "checked_date": "2026-10-17",
+      "source": "https://nuxaudio.com/product/mg300mkii/",
+      "finding": "Added missing shared-bass membership from eight bass cabinet IRs;recorded datedGEN2/editor versions and separateASIO support.",
+      "remaining": "Factory/user memory,power draw/polarity,firmware-specific category counts;official/mirror PDFs still image-only text extraction."
     }
   ],
   "discovery_cross_brand_bass": {
