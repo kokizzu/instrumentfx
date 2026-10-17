@@ -1711,3 +1711,7 @@ research-commit-ve22:
 .PHONY: research-commit-ms80ir
 research-commit-ms80ir:
 	python3 scripts/research_tools.py commit-ms80ir
+
+.PHONY: research-commit-spx2000
+research-commit-spx2000:
+	python3 scripts/research_tools.py commit-spx2000

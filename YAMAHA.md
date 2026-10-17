@@ -109,6 +109,17 @@ Checked 2026-10-17; partial. Guitar amp/distortion and vocal effects documented 
 | New | Unknown; title does not establish new condition. | — |
 | Condition-unverified indexed ask | **Rp6.400.000**,elkusla_shop,shop118221978/item24481606543,Kab.Kediri. Three-month indexed body checked2026-10-17; direct open failed. Stock unverified. | [Exact Shopee item][S2-O] |
 
+
+### SPX2000 — live recall and input-source qualifications
+
+Checked 2026-10-17 against the own manufacturer manual.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Live / bypass on recall | Recalling an effect **turns BYPASS off**. Bypass passes input without effect processing, but the manual does not establish relay/analog true bypass. Do not assume a muted or bypassed transition persists across recall. | [Manual pp8,12][S2-M] |
+| Live / shared tempo | TEMPO is **shared by all effects and is not stored/recalled**. On recall, saved delay/modulation-frequency values are retained despite a different current tempo; subsequent tempo edits recalculate them when synchronized. NOTE/TEMPO ranges are limited by effect delay/frequency limits, even with SYNC off. | [Manual p15][S2-M] |
+| I/O / analog input prerequisite | Analog XLR/TRS inputs require input source **ANALOG**. Input and output each have their own −10/+4 dBu switch for level matching. These are line-level routing choices, not evidence of a microphone preamp, phantom power or high-impedance guitar input. | [Manual p9][S2-M] |
+
 <!-- comparison evidence ends -->
 
 Seller “ORI JAPAN” does not verify authenticity,manufacture origin or voltage revision. Condition,working state,stock,bundle,mains cable,warranty,shipping/tax and voucher eligibility remain unknown. Cached ask is neither live stock nor completed sale. Official manual108pages accessible as browser text; detailed panel/program review remains.
