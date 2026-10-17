@@ -2224,6 +2224,17 @@ Module/type headline conflicts remain explicit. The 11 DRIVE selector positions 
 [GFX3-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-3/
 [GFX3-O]: https://shopee.co.id/Multi-FX-ZOOM-GFX-3-i.17427578.44205264506
 
+
+### GFX-3 pedal, tuner and offer qualifications
+
+Checked 2026-10-18 using official manual text and indexed Shopee pages. No files downloaded or hardware tested.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / inactive target | If the assigned effect module is off, pedal movement has no effect until full depression switches it on. The target is saved per patch. This does not add a separate effect block. | [Own manual p15][GFX3-M] |
+| Controls / tuner and bypass | Tap the current patch footswitch for bypass; hold longer than one second for mute. Bypass assigns the expression pedal to volume. Tuner reference is 435–445 Hz in 1 Hz steps and resets to 440 Hz at power-up. Changing bank/group temporarily disables tuning; returning restores it. | [Own manual p11][GFX3-M] |
+| IDR Rejected mixed-variant price | Hope Music, Kota Bandung, shop703817770/item23503462640: indexed Rp1,399,000 for a three-variation 707II/708II/GFX-3 listing, with shipping unavailable. Selected hardware variant and its price are unresolved, so this is not a GFX-3 price observation. Condition, stock, bundle and warranty unknown. | [Mixed listing](https://shopee.co.id/Efek-Zoom-707ii-Zoom-708ii-Zoom-GFX-3-Langka-i.703817770.23503462640) |
+
 ## GFX-5
 
 Guitar multi-effects;distinct from GFX-3/G5. Checked2026-10-17;partial. Zoom discontinued. Bass/vocal suitability and ownership unverified.
