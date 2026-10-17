@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Korg AX10B discovery",
-    "task": "Exactownsupportpage saved in discovery_ax10b_rp50_ax1g_20261017. Next inspect owner-manual route andseekqualifiedlocalhardware;quickstartPDFunavailable. AX10B/RP50/AX1Gnotcounted;foreign/accessoryoffersrejected.",
+    "task": "Exactown40pagePDFreadable at ax10b_primary_manual_20261017.source. Next inspect Englishpp6–14 and seekexactIndonesianhardware;savebassmodelwithrequiredgaps ifqualified. Do not borrowAX10GorAX10A.",
     "next_models": [],
-    "after_queue": "275partialmodels;no downloads/workflows/push;fullscope technical/marketverification remains."
+    "after_queue": "275partialmodels;no downloads/workflows/push;fullresearch incomplete."
   },
   "new_findings": [
     {
@@ -56733,5 +56733,12 @@
     "pdf_limits": "WebretrievalfailedbothlinkedqueryandbarePDF;no contentsread/nodownload. FilenameAX10Seriesmaycovermultiplemodels;mustseparateguitar/bassfacts.",
     "rp50_manual_lead": "https://c3.zzounds.com/media/RP50Manual-ed35a2ee34ceded85c8d523ffa7a1faf.pdf",
     "next": "UseexactAX10Bowner manual route or anotherrecordedmodelgap;avoidunchangedfailedquickstartfetches. No additions/prices."
+  },
+  "ax10b_primary_manual_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf",
+    "identity": "ExactAX10B OwnerManual EFG1;40pagetrilingual;Englishpp3–14;ownKorgsupportlink;bareURLreadablewherequeryURLfailed.",
+    "facts": "Bassmodelingprocessor;PreFX3,Amp11,Mod11,Ambience11;40factory+40user,userinitiallyduplicatesfactory. Builtinexpressioncontrolsvolume/octave/speed/delay/filter/pitch/Talk. FourAAalkalineorseparateDC9Vadapter;inputinsertionpowersbatteryoperation. Outputsharedheadphones;AmpLineswitch;InputL/Hswitch.",
+    "limits": "NoqualifiedIndonesianhardwareyet;notcounted. Fullpanelcontrolcounts,powerdrawpolarity,size,algorithms,externalEXP,USB/software andotherrequiredfields pendingremainingEnglishmanualpages. Nofilesdownloaded/noimagesinspected."
   }
 }
