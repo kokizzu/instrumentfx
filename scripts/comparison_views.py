@@ -284,6 +284,7 @@ def make_plan():
     archives=archive_outputs(files)
     payload['outputs'].update(archives)
     payload['outputs']['README.md'] = readme_counts(files['README.md'], state, payload['view_membership'])
+    payload['outputs']['MULTI-EFFECTS.md'] = category_counts(files['MULTI-EFFECTS.md'], state)
     PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
     print(f'Preview saved: {PLAN}; {len(serial)} records; missing evidence: {missing}')
     print('Per-model evidence fields:')
@@ -346,6 +347,15 @@ def apply_plan():
     print('Applied reviewed plan: '+', '.join(payload['outputs']))
 
 
+def category_counts(text, state):
+    """Refresh only the live category introduction; preserve historical source counts."""
+    prefix, separator, retained = text.partition('## Built-in expression')
+    assert separator, 'Category introduction boundary missing'
+    prefix, count = re.subn(r'(?<=selected model records from the )\d+(?= root-canonical profiles)', str(state['canonical_root_model_count']), prefix)
+    assert count == 1, 'Ambiguous category catalogue count'
+    return prefix + separator + retained
+
+
 def readme_counts(text, state, membership):
     """Project inventory counts into the existing navigation without changing evidence."""
     rows = {
@@ -383,6 +393,8 @@ def verify_views():
     identity()
     state=json.loads((ROOT/'research-state.json').read_text())
     assert set(state['comparison_model_sources'])=={b+'::'+m for b,ms in state['inventory_by_brand'].items() for m in ms}
+    category = (ROOT/'MULTI-EFFECTS.md').read_text()
+    assert category_counts(category, state) == category, 'Category catalogue count is stale'
     readme = (ROOT/'README.md').read_text()
     assert readme_counts(readme, state, state['comparison_membership']) == readme, 'README catalogue/view counts are stale'
     for filename,ids in state['comparison_membership'].items():
@@ -666,6 +678,11 @@ def test_comparison_selection():
     joyo_row = next(line for line in projected.splitlines() if line.startswith('| [JOYO.md]'))
     assert all(model in joyo_row for model in state['root_brand_content']['JOYO.md']), 'README brand navigation dropped a recorded model'
     assert readme_counts(projected, state, state['comparison_membership']) == projected
+    category_fixture = '14 selected model records from the 229 root-canonical profiles\n## Built-in expression\nHistorical 229 root-canonical profiles'
+    projected_category = category_counts(category_fixture, {'canonical_root_model_count': 317})
+    assert 'from the 317 root-canonical profiles' in projected_category
+    assert projected_category.endswith('Historical 229 root-canonical profiles')
+    assert category_counts(projected_category, {'canonical_root_model_count': 317}) == projected_category
     print('PASS: explicit comparison selection keeps current evidence, preserves legacy fallback and rejects malformed ranges.')
 
 
