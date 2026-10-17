@@ -2206,11 +2206,12 @@ Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinue
 | Dimensions / mass | 190 D ×470 W ×90 H mm;3.1kg. | [Indexed specifications][ZG5-M] |
 | Processing / category choices | Up to9: eight regular effects plus one Z-Pedal effect. Product advertises123 effects plus22 amp/cabinet models; manual specifications say125 types plus Z-Pedal effects. Reproduced manufacturer manual p63 instead states145 types, arithmetically matching123+22 but not proving identical revision/content. Revision/counting difference unresolved; category counts unknown. | [Product][ZG5-P]; [Indexed manual introduction/specifications][ZG5-M]; [Reproduced specifications][ZG5-R63] |
 | Factory / user memory | 297 patches,99banks×3; factory-filled/blank split unresolved. Auto-save switch added in firmware1.10. | [Indexed manual][ZG5-M]; [History][ZG5-H] |
-| Synth / acoustic | Dedicated synth and acoustic-simulation choices unverified. | Unresolved |
+| Synth / acoustic | Reproduced manual lists **042 Aco.Sim**, electric-guitar acoustic timbre with Top/Body controls; **089 MonoSynth**, single-note input-pitch synthesis with Sine/Tri/SawUp/SawDn waveforms; and **090 Z-Organ**, organ simulation. These verify distinct acoustic/synth functions, not polyphonic synthesis or external capture import. Numbering belongs to this reproduced edition; existing total-count conflict remains unresolved. | [Reproduced manufacturer manual p45][ZG5-R45], [p53][ZG5-R53]; checked2026-10-18 |
 | I/O | Mono input1MΩ with active/passive selection; two mono L/R outputs; stereo phones; balanced XLR with PRE/POST and ground lift; control input; USB audio. Full connector/control inventory pending. | [Indexed specifications][ZG5-M] |
 | I/O / electrical ratings | Reproduced manufacturer specifications: rated input −20 dBm, 1 MΩ; separate ACTIVE-mode impedance unspecified. L/R line maximum +5 dBm into ≥10 kΩ. Dedicated stereo phones: 20+20 mW into 32 Ω. XLR impedance 100 Ω hot/ground or cold/ground, 200 Ω hot/cold. A/D and D/A are 24-bit with 128× oversampling at 44.1 kHz; internal processing uses 32-bit floating and fixed point. Frequency response 20 Hz–20 kHz, +1/−3 dB at 10 kΩ. Converter resolution does not establish USB stream bit depth. | [Reproduced manufacturer manual p63][ZG5-R63]; checked2026-10-18 |
 | Power / battery / USB | AD-16:9VDC center-negative,500mA supply rating, not measured draw. Battery/USB bus-power operation unverified. | [Indexed specifications][ZG5-M] |
 | IR / NAM / capture | User IR, native/converted NAM and capture imports unverified; factory amp/cab modeling does not establish import support. | Unresolved |
+| USB audio / monitoring | **16-bit, 44.1 kHz**, explicitly in the reproduced audio-interface chapter; distinct from 24-bit A/D and D/A. Direct/DAW balance and recording level adjustable; set USB AUDIO MONITOR to 100 when monitoring through DAW software to avoid mixed/flanger-like output. Historical interface OS list: XP SP3 32-bit, Vista SP1 32/64-bit, Windows7 32/64-bit; Intel Mac OS X10.5/10.6/10.7. This is separate from Edit&Share compatibility and does not establish current OS support, channel count, USB MIDI or bus power. | [Reproduced manufacturer manual p35][ZG5-R35]; checked2026-10-18 |
 | Editor / software | Edit&Share editor/librarian: Windows XP/Vista/7/8/8.1/10; MacOSX10.9–10.12. Separate G-Series ASIO2.0.1 driver lists Windows7/8/8.1/10. Firmware1.20 Windows/Mac listed. Current OS compatibility unverified. | [Support][ZG5-S] |
 | Looper / drums / live | Rhythms, chromatic tuner and12AX7 tube booster. Looper up to60s with rhythm synchronization; **UNDO ON reduces maximum to30s**, with last-overdub undo/redo by holding the switch1s. STOP ends immediately; FINISH ends after the loop; FADE OUT fades, with another press stopping immediately. Tube booster offers0–16dB, may be silent~5s while warming, starts OFF and cannot amplify USB-recorded signals. Scenes/trails unresolved. | [Product][ZG5-P]; [Indexed manual pp32,34][ZG5-M]; [Reproduced manual p33][ZG5-R33] |
 
@@ -2236,6 +2237,10 @@ Manufacturer-authored mirror identity check: Zoom copyright, G5 operation-manual
 [ZG5-R4]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=4
 [ZG5-R33]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=33
 [ZG5-R63]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=63
+
+[ZG5-R45]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=45
+[ZG5-R53]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=53
+[ZG5-R35]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=35
 
 ## G3X
 

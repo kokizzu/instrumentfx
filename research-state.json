@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G5 original",
-    "task": "G5 analog/converter ratings saved from identity-checked manufacturer reproduction. Commit before next model. Exact synth/acoustic pages53/46 inaccessible directly; try links from accessible page52 rather than repeatedly reopening failed URLs. Original manual40.5MB exceeds web reader limit; no download permitted. Type-count conflict retained.",
+    "task": "G5 synth/acoustic and USB format verified from manufacturer manual reproduction via page links. Commit before next model. Next inspect G5 Z-Pedal-specific types versus regular numbered library to resolve125/145 counting conflict, or new Shopee series. Bus power, buttons, current OS and qualified used/new prices remain unknown; do not infer them from G3/G3X.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56970,6 +56970,16 @@
       "finding": "Manufacturer manual reproduction p63 supplies analog levels, headphones, XLR impedance, converter and internal processing ratings. Converter resolution does not prove USB audio format. Existing125-plus-Z versus145 type conflict retained; no unsupported power or synth claim.",
       "sources": [
         "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=63"
+      ]
+    },
+    {
+      "model": "Zoom G5 original",
+      "checked_date": "2026-10-18",
+      "finding": "Following existing page links retrieved original-manual reproduction pp45/53/35 despite direct failures. Aco.Sim042, MonoSynth089 single-note waveform synthesis and Z-Organ090 verified. USB16bit44.1k and DAW balance100 instruction verified separately from24bit converters; historical interface OS list distinguished from editor. Count conflict remains.",
+      "sources": [
+        "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=45",
+        "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=53",
+        "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=35"
       ]
     }
   ],
