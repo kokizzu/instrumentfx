@@ -1878,3 +1878,36 @@ Hold delay and sampler are distinct facilities,not a six-second overdub looper w
 ### Control-count follow-up
 
 Printedpp4–5 name all21buttons;the nine rotary total includes the rear LEVEL control. Neither LEDs nor footswitches are counted as buttons. Printedp9 explicitly calls the expression mechanism a push-down switch. Screenshot attempts returned no readable image;this remains a manual-text inventory,not a visual or physical panel inspection.
+
+## GFX-4
+
+Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufacturer confirms discontinued. Bass/vocal applicability and ownership unresolved.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in optical pedal;full-down assignable switch toggles modules or program/manual. External support unknown. | [Manual pp19–20,28][GFX4-M] |
+| K/F/B | Four main footswitches (three patch,one bank);knob/button totals unknown. Toe additional. | [Manual p5][GFX4-M] |
+| Display | BacklitLCD plus2-digit7-segmentLED. Diagonal,color,touch unknown. | [Manual p29][GFX4-M] |
+| Dimensions / mass | 397W×183D×60Hmm;1.4kg. | [Manual p29][GFX4-M] |
+| Processing / category choices | Up to8;44programs=42effects+ZNR+amp simulator. COMP/OD/ENV5,DRIVE13,EQ1,MOD13,DELAY/REVERB10=42. PEDAL has two settings pages,explicitly not an effect. Amp3/cab4 alternatives excludeOFF. | [Manual pp4,7,21,23,29][GFX4-M] |
+| Factory / user memory | 120=60user+60read-onlypreset;Store/Swap. Factory-filled user count unresolved. | [Manual pp3–4,12–13][GFX4-M] |
+| Synth / acoustic | ACOSIM converts electric toward acoustic character;RINGMD is not established synthesis. | [Manual pp21–22][GFX4-M] |
+| I/O | Mono¼input,mono¼output,stereo¼line/phones,ACadapter;ACTIVE/NORMAL switch. USB/MIDI/external-control sockets absent from listed rear inventory. | [Manual pp5,29][GFX4-M] |
+| Power / battery / USB | **12V AC500mA**,suppliedAD-0008;not9VDC. DCpolarity inapplicable. Measured draw,battery andUSBpower unverified. | [Manual p29][GFX4-M] |
+| IR / NAM / capture | UserIR,nativeNAM,convertedNAM andcapture imports unverified. | Unresolved |
+| Editor / software | Editor andplatform compatibility unverified. | Unresolved |
+| Looper / drums / routing | Monooutput relay bypass excludes pedal volume/master;stereooutput retains them. Monooutput carries leftchannel,not summed stereo. Looper,drums,scenes,trails unverified. | [Manual p6][GFX4-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;no qualified amount. | — |
+| New | Unknown;no qualified amount. | — |
+| Unresolved shop-index lead | Older four-month search index names “Efek Zoom GFX 4 Japan Rare Item” at **Rp2,499,000**,Hope Music. Exact item/shop IDs,condition,stock,region,variant,bundle,warranty,voucher anddelivered total unresolved. Direct shop body crawled last month no longer exposes this product link. Not a qualified hardware offer or current availability confirmation. Checked2026-10-17. | [Shop index][GFX4-O] |
+
+Manual accessed as web text only. No downloads or physical inspection. Category subtotals are table-derived;PEDAL settings are excluded from42effects. No specifications borrowed fromGFX-3/GFX-5. Exact Shopee item follow-up remains necessary.
+
+[GFX4-M]: https://zoomcorp.com/media/documents/E_GFX4.pdf
+[GFX4-P]: https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-4/
+[GFX4-O]: https://shopee.co.id/hopemusik
