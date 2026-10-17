@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom MS-60B Plus",
-    "task": "Two additional exact MS60B+ indexed asks saved with direct-access failures and condition unknown. Frontier BFX/BNX3/VocalistLive5/VoiceLiveRack searches found no qualifying new model. Next audit MS60B+ current category subtotals from own effect list; commit model before next.",
+    "task": "MS60B+ complete ©2024 Z2I-5216-01 category census saved:97=75+11preamp+11amp. Next inspect own current support/release notes for library changes versus this revision and85preset mapping; no downloads. Commit model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56478,6 +56478,27 @@
       "date": "2026-10-18",
       "finding": "Two exact plus-hardware indexed asks retained condition-unverified: Kurnia32743136/3909601604 Rp2645000 and IDB800959591/41259472038 Rp2669000. Four-month caches; direct JS shell/cache miss.",
       "remaining": "No verified new/used condition or current stock. Existing technical gaps retained."
+    },
+    {
+      "model": "Zoom MS-60B Plus",
+      "date": "2026-10-18",
+      "source": "https://zoomcorp.com/media/documents/E_MS-60Bplus_FX-list.pdf",
+      "revision": "©2024 Z2I-5216-01,24pages",
+      "category_counts": {
+        "dynamics": 10,
+        "filter": 14,
+        "drive": 13,
+        "preamp": 11,
+        "modulation": 11,
+        "pitch_shift": 6,
+        "synth": 3,
+        "delay": 7,
+        "reverb": 6,
+        "sfx": 5,
+        "bass_amp": 11
+      },
+      "finding": "97named descriptions=75 outside preamp/bassamp+11+11; LINE SELECTOR included in SFX. Full effect-list text read; no files downloaded.",
+      "remaining": "Installed/current library and app additions not established; category counts not simultaneous capacity."
     }
   ],
   "discovery_cross_brand_bass": {
