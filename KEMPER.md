@@ -119,10 +119,11 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee
 | IR / NAM / captures | Proprietary amp PROFILING creation documented [kr-p]. IR formats, native/converted NAM and exact capture-version restrictions unresolved. |
 | Audio I/O | Front¼-inchTS input1Mohm;balanced¼-inchTRS alternative input825kohm;balanced XLR/¼-inch return825kohm. Main stereo balancedXLR/unbalancedTS;monitor anddirect/send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz,master/slave [kr-s]. Stereo monitor uses routing configuration,not proof of two dedicated monitor sockets [kr-p]. |
 | Control / USB | USB-A/B,USB MIDI;DIN MIDI in/out/thru;RJ45. **4in/4out USB audio**,44.1kHz. Two onboard pedal sockets; Remote's additional sockets are separate hardware [kr-s];[kr-p]. |
-| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head/Rack rating, distinct from powered variants [kr-s]. Actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. |
+| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head/Rack rating, distinct from powered variants [kr-s]. Manual13.0, Rev.May2025, p.45 instead states **100–240V AC via internal IEC supply**; unresolved source conflict, not a revised rating inferred by us. Actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. [kr-m] |
 | Editor platforms / drivers | Rig Manager Windows/macOS viaUSB; iOS/Android/FireOS through an **external WiFi router** [kr-p]. Current minima,drivers and mobile parity unresolved. |
 | Practical features | Morphing,Performance switching and instrument/line external loop documented [kr-p]. Looper duration/control requirements,drums and exact gapless constraints unresolved. |
 | Bass capability | Exact Rack MK2 page explicitly identifies electric guitar and bass [kr-p]. Shared bass capability,not a complete bass-algorithm/performance certification. |
+| Audio routing / phantom / revision | Manufacturer Main Manual13.0, Rev.May2025, Rack sections pp.43–46: **Monitor Stereo pairs MONITOR OUT with DIRECT OUT**, sharing monitor controls. RETURN plus ALTERNATIVE INPUT form stereo loop returns or auxiliary playback inputs. RETURN XLR **does not supply phantom power**; main XLR outputs tolerate mixer48V, but the manual recommends avoiding it. USB-A is front-mounted on Rack; USB-B supports computer editing/audio/MIDI. Speaker output belongs only to powered variants. This is manual-revision evidence, not a fresh panel inspection. [kr-m] |
 
 ### Rack MK2 — separate IDR asking-price evidence
 
@@ -132,6 +133,7 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
+[kr-m]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
 [kr-p]: https://www.kemper-amps.com/store/uk/profiler-rack-b.html
 [kr-s]: https://www.kemper-amps.com/profiler/technical-specifications
 
