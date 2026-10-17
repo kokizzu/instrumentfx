@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MPX100",
-    "task": "MPX100 bankcounts/routing anddelay5.7vs5.5conflict saved. Next resume Shopee brand/series discovery;allmodelsremainpartial. Do notduplicateMPX100offer orborrowMPX110specs.",
+    "model": "TC Electronic M-One XL",
+    "task": "Exact cached Shopee hardware lead saved; read mirrored original manual with Standard/XL distinctions, then add qualified root record and affected views before researching next model.",
     "next_models": [],
-    "after_queue": "281partialmodels;all117legacy pathsaccountedfor;no downloads/workflows/push."
+    "after_queue": "281 partial active models unchanged. REV500 official manual located at https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf; combined-effects architecture requires qualification before inclusion. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57057,5 +57057,36 @@
     "counts": "112single+112dual+16SpecialFX=240factory;16userseparate",
     "routing": "Dual1–6parallel/7–10cascade/11–14monosplitstereoout/15–16dualmono;cascadebalancefeedqualified",
     "conflict": "Intro5.7s vsdetailedmono5.5s;stereo2.7s;notreconciledorfirmwareinferred"
+  },
+  "discovery_mone_xl_20261017": {
+    "checked": "2026-10-17",
+    "counted": false,
+    "model": "TC Electronic M-One XL",
+    "offer": {
+      "url": "https://shopee.co.id/Efek-TC-Electronic-M-One-XL-original-i.480855699.43364186361",
+      "seller": "d’Acoustic",
+      "region": "Kota Pekanbaru",
+      "idr": 2800000,
+      "access": "Direct web text opened; crawl two months old",
+      "stock": "Toko Sedang Libur; checkout availability unverified",
+      "condition": "Unknown; title original does not establish authenticity or condition",
+      "qualification": "August 21–24 delivery estimate stale. Variant, bundle, warranty, ordinary discount, shipping and tax unknown. Late-delivery compensation is not an upfront price voucher."
+    },
+    "primary_attempts": [
+      {
+        "url": "https://service-tcgroup.tcelectronic.com/media/M1XL_US_A5_rev4_2.pdf",
+        "access": "502"
+      },
+      {
+        "url": "http://cdn-downloads.tcelectronic.com/media/217036/tc_electronic_m-one_xl_manual_english.pdf",
+        "access": "Inaccessible via web tool"
+      }
+    ],
+    "original_manual_mirror": {
+      "url": "https://www.manualslib.com/manual/532626/Tc-Electronic-M-One.html",
+      "identity": "Cover names M•ONE & M•ONE XL, dual effects processors; contents identifies English Rev 4, SW V1.43 ST. Read complete revision page before assigning XL firmware.",
+      "qualification": "Manufacturer-authored manual summaries, not generated FAQs. Separate Standard/XL specifications; Small Room and Pingpong explicitly XL-only. Full exact-model fields remain pending."
+    },
+    "next": "Read original manual pages for XL revision, controls, routing, memory, I/O, power and software. Do not copy Standard specifications into XL."
   }
 }
