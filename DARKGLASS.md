@@ -79,3 +79,17 @@ Checked 2026-10-18. These are primary developer/manufacturer statements, not ins
 | Routing / global EQ bypass | PDF pp.80–85: Output blocks selectOut1/2 or3/4 andbypass GlobalEQ whenplaced earlier;multipleoutputs allowed. Split supports fullrange orcrossover low/high rows;Merge blend/level. Send/Return independentlymono/stereo;return/loopblend andpolarity available. |
 
 Remaining: precise file-size/rate/architecture compatibility matrix,1.18 area semantics,plugin licensing,visual hardware audit andcondition-qualified IDR asks.
+
+### Anagram — Axioma tracking and Guitar Essentials edition boundary
+
+Checked 2026-10-18; no plugin/manual files downloaded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / Axioma architecture and templates | [Official nine-page Axioma manual](https://cdn.shopify.com/s/files/1/0735/5065/9813/files/Axioma_Manual.pdf?v=1789980649),read as text: **monophonic**,12 templates,two oscillators plus octave-down sub,dry/synth blend. Saw/square/triangle waveforms,oscillator coarse/fine tuning;filter cutoff,resonance,envelope/decay andattack/release. Templates are plugin starting sounds,not12 additional hardware preset locations. |
+| Synth / Axioma tracking restrictions | Instrument modes:4-string bass,5-string bass,5/6-string,guitar,baritone/wide. **Does not track below open B of5-string bass**. Sensitivity controls detection,not output level. Manufacturer recommends first block andclean single-note playing;chords/double-stops are not tracked polyphonically. Guitar mode establishes this plugin’s intended input,not ordinary-offer entitlement toall Guitar Essentials content. |
+| Synth / Axioma arpeggiator | Root-triggered diatonic arpeggiation:16th-note steps,Free/key selection;Major,Minor,Maj7,Min7,Minor-Major7;Up,Down,Up-Down,Random;1–3octaves. Newnotes restart pattern. This is synth arpeggiation,not documented drum accompaniment. |
+| Processing / Guitar Essentials edition | [Official edition page](https://www.darkglass.com/en-int/pages/anagram-guitar-essentials) lists **12 amplifiers and3 drive pedals**,dedicated rendered interfaces;limited Sweetwater/Andertons edition,matte-black chassis/shiny-black knobs andleather case. This is a documented edition lead,not a newly counted Indonesian hardware model orproof the ordinary cached offer includes these plugins/case. |
+| Editor / licensing evidence gap | Official edition links [Anagram Marketplace](https://marketplace.anagram.shop/),but browser text response was empty. Edition page establishes bundled premium guitar content;ordinary-device purchase eligibility,price,activation,transfer andused-device license retention remain unverified. Open-source component notices are not marketplace entitlement evidence. |
+
+Next research: return toexact Shopee discovery,prioritizing an identifiable Guitar Essentials offer oranother eligible missing model. Retain unresolved file-format,area-capacity,license andpanel fields forAnagram rather than repeating unchanged searches.
