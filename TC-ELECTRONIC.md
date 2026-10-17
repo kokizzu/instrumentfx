@@ -147,7 +147,7 @@ Checked2026-10-17. Partial dual-engine rack multi-effects. [Manufacturer English
 
 | Field | Evidence / gaps |
 |---|---|
-| Expression | No builtin pedal;¼pedal socket. ContinuousEXP/toe support unknown. |
+| Expression | No builtin pedal;¼TRS socket takes **momentary bypass(tip)/tap(ring)** switches. ContinuousEXP/toe support unestablished. |
 | Controls | **10rotaries**,derived text;integratedfoot0;separatebuttons count unresolved becauseBYPASS described asknob. |
 | Display | Two seven-segmentdigits+LEDs;diagonal/color/touch unknown. |
 | Processing / choices | **2engines:15delay/effects choices+15reverbs**,eachplusOff. Serial ordualinput/commonoutput;analog-only parallel option. |
@@ -170,3 +170,17 @@ Checked2026-10-17. Partial dual-engine rack multi-effects. [Manufacturer English
 | Used | Unknown | — |
 | TitleNEW,condition unverified / PCdada,Kota Jakarta Barat | **Rp6.682.240;indexed PreOrder15days**,index2months,checked2026-10-17;directopenfailed. Currentstock,selectedvariation,bundle,warranty,voucher,shipping/tax unknown;Augustdelivery stale. | [1003923494/15899349001](https://shopee.co.id/%E2%9C%85-NEW-TC-electronic-M350-vocal-reverb-effect-dual-engine-digital-effect-processor-professional-stage-performance-effect-karaoke-i.1003923494.15899349001) |
 | Unallocatedvariation / Puddingstoree,Kota Jakarta Barat | **Rp8.870.555;2variations;PreOrder30days**,index2months. Selectedhardwarevariant andcondition unverified;not aqualifiedmodelprice orliveprice range. | [1696675139/43128792310](https://shopee.co.id/NEW-TC-Electronic-M350-Vocal-Reverb-Effect-Dualengine-gital-Effect-Processor-Professional-Stage-Performance-Effect-Karaoke-i.1696675139.43128792310) |
+### M350 — named engines and pedal control
+
+Checked 2026-10-17 against the [Rev1.1 manufacturer manual](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),pp5,8,18–20.
+
+| Engine | Fifteen choices, plus Off |
+|---|---|
+| Delay/effects | Comp;Hard Comp;De-Esser;Smooth Chorus;Lush Chorus;Instrument Flanger;Tremolo;Vintage Phaser;Smooth Phaser;Slapback Delay;PingPong Delay;Soft Delay;Triplets Delay;Studio Delay;Dynamic Delay |
+| Reverb | TC Classic Hall;Cathedral;Vocal Reverb;Live Vocal;Hall Acoustic;Drum Ambience;Drum Room;Ambience;Living Room;Nearfield;Damped Room;Silver Plate;Gold Plate;Spring Vintage;Live Stage |
+
+Hall Acoustic andDrum names describe reverb algorithms,not acoustic-guitar conversion oradrum-pattern generator. The effects selector chooses one delay/modulation/dynamics algorithm,not all simultaneously.
+
+The¼TRS pedal input uses momentary switches: **tip bypass,ring tap tempo**. This verifies footswitch control,not analog continuous-expression support. S/PDIF output runs44.1kHz onanaloginput,or follows avalid44.1/48kHz digitalinput.
+
+The overview’s “BYPASS knob” wording remains acontrol-count ambiguity;button count awaits qualified visual/original diagram evidence. No image was inspected orsoftware downloaded.

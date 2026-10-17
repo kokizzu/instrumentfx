@@ -28,13 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic M350",
-    "task": "M350 added with exact manual andqualifiedpreorderasks. Next verify control count/pedalcontrol andcomplete algorithm inventory;preserve256selectorcombination vs99storeduser distinction. Commit before AlesisMIDIverbIII/MPX100 research.",
+    "model": "Alesis MIDIverb III",
+    "task": "M350 namedenginechoices andmomentarypedal saved;physicalbuttons/editorOS/displayandothergapsremain. Next research exact AlesisMIDIverbIII manufacturer manual andsavednoPSUgambling offer;do notborrowMIDIverb4specs orclassifyasnormalworkingusedprice.",
     "next_models": [
-      "Alesis MIDIverb III",
       "Lexicon MPX100"
     ],
-    "after_queue": "278partialmodels;commit each model before next;all117legacy pathsaccountedfor;no downloads/workflows/push."
+    "after_queue": "279partialmodels;commit eachmodelbefore next;all117legacy pathsaccountedfor;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41393,7 +41392,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M350."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Alesis MIDIverb III."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56994,5 +56993,13 @@
     "scope": "Ownmanualp13guitarpreamp setup;p23guitar/vocaldualinput;notbassproof",
     "gaps": "Controlsbuttons,BYPASSknobwording,EXP,editorOS/display/IRNAMcapture/looperdrums/currentconditionoffers",
     "offer_ledger": "discovery_rack_frontier_20261017"
+  },
+  "m350_pedal_algorithms_20261017": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf",
+    "pages": "5,8,18–20",
+    "pedal": "QuarterTRS momentary:tipbypass/ringtap;notcontinuousEXPproof",
+    "choices": "15each engine+Off;fullnamesinTC-ELECTRONIC.md;HallAcousticnotacsim,Drumreverbnotpatterns",
+    "digital": "44.1analogmode;44.1/48lockedinput",
+    "controls": "BYPASSknobwordingunresolved;noimageinspection"
   }
 }
