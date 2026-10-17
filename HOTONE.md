@@ -662,6 +662,19 @@ Checked 2026-10-17 directly against PRE AMP pages, printed pp38–44. [Source][M
 This is only the older Clean subsection, not the complete PRE AMP or current-firmware census. Drive and Hi Gain remain open.
 
 
+### MP-350 — remaining PRE AMP census, firmware 1.1.0-JP
+
+Checked 2026-10-17 directly against PRE AMP, original printed pp45–53. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / PRE AMP Drive | **30 mono entries**: Baseman Bright; Brown King Drive; Voxy 30HW TB; Superb Dual Drive; Marshell Blues; Marshell 45; Marshell 45+; Marshell 45 Jump; Marshell 50; Marshell 50+; Marshell 50 Jump; Marshell SLP; Marshell SLP+; Marshell SLP Jump; Marshell 800; Pendragon Drive; Messe IIC+; Glacian Drive; Tang A30 Drive; Fryman B; Boger XT Blue V; Boger XT Blue M; Soloist 100 Crunch; Soloist 100 Crunch HQ; Emperor Drive; Dr. 38 Drive; Superstar Drive; Hot Kitty Drive; Dumbell ODS 2; Petrus Crunch HQ. |
+| Category choices / PRE AMP Hi Gain | **19 mono entries**: Marshell 900; Tang R100; Messe IV Lead; Soloist 100 Lead; Soloist 100 Lead HQ; Eddie 51; Fryman HB; Engle Saga 1; Engle Saga 2; Powerengle Lead; Dizzle VH B; Dizzle VH S; Rector Dual V; Rector Dual M; Dizzle VH+ B; Dizzle VH+ S; Boger XT Red V; Boger XT Red M; Petrus Lead HQ. |
+| Processing / PRE AMP revision census | **94 entries derived: Clean38 + Drive30 + HiGain19 + Bass6 + Acoustic1**. Separate from AMP93; matching names do not merge categories. Internal voicing/tube choices are parameters. Older document census, not simultaneous capacity or a verified current library total. |
+
+These names were checked in PRE AMP itself. The earlier Petrus Clean and Tang Bass prose conflicts remain unresolved; later firmware additions remain separate.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
