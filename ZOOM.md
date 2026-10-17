@@ -1161,6 +1161,14 @@ No Malaysian RM listings or noisy accessory/search-page prices used as IDR hardw
 | USB audio / formats | **2in/2out,USB2.0FullSpeed,44.1kHz,16/24/32-bit**. Charge-only cable suppliespower butother USBfunctions need datacable. |
 
 
+### V3 — dated operating-system and DAW support, 2026-10-18
+
+| Field | Verified compatibility / limits | Evidence |
+|---|---|---|
+| Editor / macOS compatibility | Zoom’s January23,2026 table marks **V3 supported on macOS Tahoe26 for Apple Silicon and Intel**. This is model-level OS compatibility; it does not establish a V3 patch editor or every application combination. | [Zoom status](https://zoomcorp.com/ja/jp/news/macos_tahoe/) |
+| Software / tested DAWs | July2025 matrix marks V3 compatible with CubasePro14,LogicPro11,GarageBand10.4 on Sequoia15; CubasePro13,LogicPro10.8,GarageBand10.4 on Sonoma14. iOS18: Cubasis3.7/GarageBand2.3; iOS17: Cubasis3.6/GarageBand2.3. These are dated audio-application tests, not an editor/updater matrix or universal OS certification. Windows columns remain untranscribed because their extracted header alignment is ambiguous. | [Zoom DAW matrix](https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf) |
+
+
 ## V6-SP
 
 Vocal multi-effects with built-in formant pedal. Consolidated/researched2026-10-16; partial verification. Earlier V6 microphone bundle is not the current SP package.

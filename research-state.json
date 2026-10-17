@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Resume fresh Shopee brand/series discovery. B2 FOUR dated Tahoe26 and Mac/iOS DAW compatibility saved; no editor/Android inference. TC1 exactmanualoversize route remains deferred.",
+    "task": "Continue fresh Shopee brand/series discovery. V3 dated OS/DAW support saved, not editor support. Avoid TC1 oversized original manual route; seek readable exact original copy if revisiting.",
     "next_models": [],
     "after_queue": "325active;technical/market/ownership/migration incomplete. No downloads/workflows/push."
   },
@@ -65746,5 +65746,15 @@
     "findings": "B2FOUR supportedTahoe26AppleSiliconandIntel,Jan23 2026status. DatedJuly2025Mac/iOSDAWcombinationssaved;noteditorclaimorAndroidCubasisoverride.",
     "market": "Freshsearches returnedalreadyrecordedB2FOURexactoffers;no duplicate ornewqualifiedprice.",
     "remaining": "USBsample rate,fullcurrentapp/driverrevisionmatrix,othertechnicalgaps andqualifiedoffers."
+  },
+  "v3_dated_compatibility_20261018": {
+    "checked_date": "2026-10-18",
+    "sources": [
+      "https://zoomcorp.com/ja/jp/news/macos_tahoe/",
+      "https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf"
+    ],
+    "findings": "ExactV3rows confirmTahoe26AppleSilicon/Intel anddatedMac/iOSDAWtests. Noeditorclaim. Windowsheaderalignmentambiguous:nottranscribed.",
+    "discovery": "ZoomB2/BP200/VoiceLiveTouch/Calinequeriesaddedno newexactbass/vocalhardwarelead;notmarketexhaustion.",
+    "remaining": "CurrentV3editorabsenceunproven;actualdraw,jackdiameter,imports,screen andqualifiedoffersretainexistinggaps."
   }
 }
