@@ -418,6 +418,13 @@ Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 and
 | Editor |GenEdit1.61A Windows listed. Manufacturer warns older software may not run on current systems;Mac/Linux/mobile unresolved [G-E] |
 | Looper / drums / live |8-track recorder anddrum machine [G-P]. Internal16MB:3/6/12 **total track-minutes** inCD/Normal/Economy. SmartMedia16–128MB;128MB provides24/48/96 track-minutes respectively,not per-track durations. Maximum99 songs/card,8tracks/song. JamMan requires an empty song andRecorder mode. PLAY ends first pass andarms track2;RECORD instead retains track1 for additive overdubs untilPLAY. Quantize corrects loops to nearest eighth note,not songs. Optional FS300 controls Stop/Undo,Record,Play while main switches retain preset/effect operation [G-M pp.44–48,57–58] |
 
+| Field | Evidence / qualification |
+|---|---|
+| Recording / microphone routing | G+MICDRY records guitar/mic together without mic processing; G+MICREV uses preset reverb; G+MICMOD uses Chorus/Mod, Delay and Reverb when enabled. G>1 M>2 records mono guitar and mic separately when both tracks are armed. Recording modes alone do not establish live vocal multi-effects membership. [G-M p.39] |
+| Routing / Talker output | Five Talker types require a mic and instrument; processed Talker reaches only quarter-inch L/R outputs. With Talker bypassed, XLR mic input passes unaffected to XLR mic output. Phantom support remains unresolved. [G-M p.22] |
+| Audio output / headphones | Manual requires stereo headphones and Direct Target System Setup; a mono plug may damage the output driver. [G-M p.6] |
+
+
 ### GNX3 — separate IDR evidence
 
 | Price class | Amount | Offer and qualification |
