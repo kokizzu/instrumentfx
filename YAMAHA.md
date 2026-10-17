@@ -197,6 +197,18 @@ Checked2026-10-18 against [Yamaha Japan’s original79-page manual](https://jp.y
 | Processing / EQ versus dynamic filter | Pp12–13 offer **OFF,EQ orD.FLT** as alternatives,not simultaneous extra blocks. EQ has two peak/shelf bands,low32Hz–2.2kHz,high500Hz–16kHz,±15dB,Q0.1–5 inpeak mode. Two-channel programs31–35 provide independent L/R EQ parameters. |
 | Processing / dynamic-filter choices | D.FLT offers four responses:low-pass,high-pass,band-pass,parametric EQ. Sweep follows LFO orinput level;LFO0.1–10Hz,center32Hz–16kHz,depth0–8octaves. These modulation controls do not establish a dedicated sound-generating synth. |
 
+
+### SPX1000 — Freeze playback distinctions
+
+Checked2026-10-18 against [original manufacturer manual pp22–23](https://jp.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf).
+
+| Field | Program-specific limit |
+|---|---|
+| Looper / sampled playback pitch | Freeze playback pitch spans **−24…+24semitones**,with **−100…+100cents** fine adjustment in1-cent steps. BASE KEY offersOFF orC1–C6;OFF disables MIDI pitch control. These are sample-playback controls,not proof of a synthesizer oscillator or polyphonic instrument tracking. |
+| Looper / trigger scope | Manual explicitly says **Freeze2 has only BASE KEY as an internal parameter**. Input/analog playback triggers and **3–30000ms trigger mask** in the following list must not be assigned universally toFreeze2. Stereo Freeze reduces pre-trigger/start/end ranges to2.9s;its pre-trigger delay is−2900…+1000ms. |
+
+Mass and power-off sample retention remain unresolved:the inspected text’s program/buffer battery-backup description does not explicitly identify Freeze audio. No sample persistence test,download or visual page inspection performed.
+
 <!-- comparison evidence ends -->
 
 Working condition,stock,voltage variant,authenticity,bundle,mains cable,warranty,shipping/tax and voucher eligibility remain unknown. Rp10000late-arrival compensation is not purchase discount. Own official79-page manual accessible through US host;data/UKhost access403. Browser text only,no visual panel claim or filesystem download.

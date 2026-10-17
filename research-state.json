@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX1000",
-    "task": "Japan-host manual accessible;expression recall and EQ/filter alternatives saved. US host403. Continue mass/display/sample-retention verification or fresh discovery;do not infer Freeze audio retention from program battery backup.",
+    "task": "SPX1000 Freeze pitch/trigger distinctions saved;mass and power-off audio retention remain unresolved after exact-manual text checks. Move to another model or fresh discovery instead of repeating same searches.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -58104,6 +58104,12 @@
       "model": "Yamaha SPX1000",
       "checked": "2026-10-18",
       "finding": "Exact manual clarifies expression recall range and alternative EQ/filter modes.",
+      "source": "https://jp.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf"
+    },
+    {
+      "model": "Yamaha SPX1000",
+      "checked": "2026-10-18",
+      "finding": "Freeze playback pitch and program-specific trigger limits saved;mass and sample retention remain unresolved.",
       "source": "https://jp.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf"
     }
   ],
