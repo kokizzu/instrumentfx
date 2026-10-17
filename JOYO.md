@@ -396,3 +396,34 @@ Guitar effects-only strip, distinct from TC-2. Checked2026-10-18; partial. Owner
 Manufacturer page lists TC-1 Manual.pdf,2019-11-26,without a retrievable PDF link in extracted text. Do not transfer TC-2 controls,weight or specifications.
 
 [TC1-P]: https://www.joyoaudio.com/product/192.html?productCateId=20
+
+## Tone Chain TC-2
+
+Guitar effects-only strip, distinct from TC-1. Checked2026-10-18; partial. Ownership and bass/vocal applicability unverified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / toe | Built-in, external and toe expression unverified. | Original manual/panel pending |
+| K/F/B | Twelve named rotaries: delay Mix/F.back/Time; DS High/Mid/Low/Gain/Freq/Level; OD Drive/Tone/Level. Four footswitches. Separate button/toggle census pending visual corroboration. | [JOYO TC-2][TC2-P] |
+| Display | LED tuner display; diagonal, color and touch unverified. | [JOYO][TC2-P] |
+| Dimensions / mass | 345×83×43mm, axes unlabeled;1043g, inclusion basis unstated. | [JOYO][TC2-P] |
+| Processing / choices | Overdrive, distortion and delay with separately switchable modules; cabinet simulation, tuner and external FX loop. Exact simultaneous ceiling, order and subtype counts unverified. | [JOYO][TC2-P] |
+| Factory / user memory | Preset, factory/user storage and save/recall unverified. | Unresolved |
+| Synth / acoustic | Synth engine and acoustic-instrument simulation unverified. Cab simulation does not establish either. | Unresolved |
+| Audio / control I/O | Mono6.35mm input; published stereo6.35mm output, stereo XLR DI and3.5mm AUX; FX loop. Exact connector counts and loop formats pending original manual. Input1MΩ,AUX47kΩ,L/Rout1kΩ,XLRout4.7kΩ. | [JOYO][TC2-P] |
+| Power / battery / USB | 9VDC center-negative, working current300mA. Plug size, battery and USB operation unverified. | [JOYO][TC2-P] |
+| IR / NAM / captures | Factory cab simulation documented; userIR,native/converted NAM and capture imports unverified. | [JOYO][TC2-P] |
+| Editor / software | Editor OS, drivers/updaters and USB audio/MIDI unverified. | Unresolved |
+| Looper / drums / live | Tap sets delay speed;hold for tuner. Phrase looper,drums,trails,bypass topology unverified; FX loop is not phrase-loop evidence. | [JOYO][TC2-P] |
+
+### Separate IDR hardware offers
+
+| Condition / seller | IDR evidence / qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no condition-verified used ask. | — |
+| New | Unknown;no condition-verified new ask. | — |
+| Condition-unverified / Praiseyah Shop | **Rp2,246,825**, Jakarta Utara. Checked2026-10-18;direct three-week cached body,JS-limited. “Dengan Voucher” and spendRp150k/discountRp1k displayed; whether shown amount already includes that voucher and eligibility unknown. Do not subtract again. Relative tomorrow-noon delivery is not stock confirmation. Variant,bundle/adapter,working state,warranty,shipping/tax andcheckout total unknown. Late-delivery10k compensation is separate. | [77738264 /22828563233](https://shopee.co.id/Joyo-Tone-Chain-TC-2-Pedal-Multi-Efek-Gitar-Tonechain-TC2-Delay-DS-OD-i.77738264.22828563233) |
+
+Manufacturer page lists TC-2 Manual.pdf,2019-11-26,without a retrievable PDF link in extracted text. Do not transfer TC-1 controls,weight or specifications.
+
+[TC2-P]: https://www.joyoaudio.com/product/193.html?productCateId=20

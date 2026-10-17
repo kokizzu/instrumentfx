@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 324,
+  "active_model_count": 325,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 324,
+  "canonical_root_model_count": 325,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "324 unique active/root-canonical;0 legacy-only;37brands;6excluded;allpartial.",
+  "count_reconciliation": "325 unique active/root-canonical;0legacy-only;37brands;6excluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "JOYO Tone Chain TC-2",
-    "task": "TC-1 committed as distinct partial guitar model;verify TC-2 own product and exact Shopee offer without borrowing TC-1 controls/weight.",
+    "model": "Shopee bass/vocal discovery",
+    "task": "TC-1 andTC-2 distinct initial records saved. Resume freshShopee brand/series discovery or originalToneChainmanual/panel verification;do notborrow controls/weight between models.",
     "next_models": [],
-    "after_queue": "Resume fresh Shopee discovery;technical/market/ownership/migration incomplete. No downloads/workflows/push."
+    "after_queue": "325active;technical/market/ownership/migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24186,7 +24186,8 @@
       "GEM BOX II",
       "GEM BOX III",
       "R-16 Vocal Lab",
-      "Tone Chain TC-1"
+      "Tone Chain TC-1",
+      "Tone Chain TC-2"
     ],
     "Line 6": [
       "HX Stomp",
@@ -24635,7 +24636,8 @@
       "GEM BOX II",
       "GEM BOX III",
       "R-16 Vocal Lab",
-      "Tone Chain TC-1"
+      "Tone Chain TC-1",
+      "Tone Chain TC-2"
     ],
     "DONNER.md": [
       "Arena2000",
@@ -24884,7 +24886,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 271,
+      "record_count": 272,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41952,10 +41954,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 324,
-    "canonical_root_models": 324,
+    "unique_brand_model_pairs": 325,
+    "canonical_root_models": 325,
     "legacy_only_models": 0,
-    "guitar_view_models": 271,
+    "guitar_view_models": 272,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -42015,7 +42017,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume JOYO Tone Chain TC-2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee bass/vocal discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42083,6 +42085,7 @@
       "JOYO::GEM BOX II",
       "JOYO::GEM BOX III",
       "JOYO::Tone Chain TC-1",
+      "JOYO::Tone Chain TC-2",
       "Line 6::HX Stomp",
       "Line 6::HX Effects",
       "Line 6::HX Stomp XL",
@@ -43244,6 +43247,13 @@
     },
     "JOYO::Tone Chain TC-1": {
       "link": "JOYO.md#tone-chain-tc-1",
+      "source_files": [
+        "JOYO.md"
+      ],
+      "finding_files": []
+    },
+    "JOYO::Tone Chain TC-2": {
+      "link": "JOYO.md#tone-chain-tc-2",
       "source_files": [
         "JOYO.md"
       ],
@@ -65709,5 +65719,13 @@
     "status": "Initial partial guitar record;9namedrotaries4FSplusHiLo;fullcensuspending",
     "price": "Rp2064000 voucherlabel,spend150kdiscount1k;no doublesubtraction,conditionstockunknown",
     "remaining": "Originalmanual,fullcontrols/expression/display/ports,memories,processingceiling/subtypes,imports/software,batteryUSB andqualifiedprices."
+  },
+  "tc2_primary_20261018": {
+    "checked_date": "2026-10-18",
+    "source": "https://www.joyoaudio.com/product/193.html?productCateId=20",
+    "offer": "https://shopee.co.id/Joyo-Tone-Chain-TC-2-Pedal-Multi-Efek-Gitar-Tonechain-TC2-Delay-DS-OD-i.77738264.22828563233",
+    "findings": "Own TC2 page confirms12namedrotaries/4FS,1043g,345x83x43mm,9Vcenternegative300mA,stereooutputsandDI,AUX,FXloop. NotborrowedTC1.",
+    "price": "Rp2246825 displayedwithvoucher,spend150kdiscount1k,eligibilityandpre-voucherpriceunknown;conditionstockunverified.",
+    "remaining": "Originalmanual,visualcontrols/expression/display,fullports,routing/simultaneous/categorylimits,memories,imports/software,batteryUSB,qualifiedprices."
   }
 }

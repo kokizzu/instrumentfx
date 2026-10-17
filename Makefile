@@ -1763,3 +1763,7 @@ research-commit-sol918:
 .PHONY: research-commit-tc1
 research-commit-tc1:
 	python3 scripts/research_tools.py commit-tc1
+
+.PHONY: research-commit-tc2
+research-commit-tc2:
+	python3 scripts/research_tools.py commit-tc2
