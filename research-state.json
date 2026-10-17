@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 295,
+  "active_model_count": 296,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 295,
+  "canonical_root_model_count": 296,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "295 unique active/root-canonical;0legacy-only;32brands;6excluded;allpartial. RFX-2200 separate guitar/vocal rack processor;regional mains andupstreamguitareffect qualified; bassunresolved.",
+  "count_reconciliation": "296 unique active/root-canonical;0legacy-only;33brands;6excluded;allpartial. EventideH9Max addedseparatelyfromStandard/Core;guitarverified,bass/vocalunclassified.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive Play",
-    "task": "VoiceLivePlayv2.1 accessibleFXpages20/21/23/27 checked;22/25/28 failed. Separatev2.0originalbody supplements routing/latency withrevisionlabel. Next othermodeltechnicalgaps orfreshShopee discovery;do not repeat these pages unchanged.",
+    "model": "Eventide H9 Max",
+    "task": "InitialH9Maxrecord#296saved;next originalalgorithmguideper-familycounts/combinedrouting,synth/looper,bassscope,andcurrentH9ControlOS. Standard/Core notactive,do notborrowH90specs.",
     "next_models": [],
-    "after_queue": "Continue fullresearch/legacyconsolidation;no downloads/workflows/push."
+    "after_queue": "ContinuefreshShopeediscovery/technicalverification/consolidation;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5126,6 +5126,28 @@
         "MIDIexpression",
         "Currentdraw",
         "Imports/editor",
+        "Condition/stock"
+      ]
+    },
+    {
+      "model": "Eventide H9 Max",
+      "path": "EVENTIDE.md#h9-max",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.eventideaudio.com/pedals/h9-max/",
+        "https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf",
+        "https://shopee.co.id/Eventide-H9-Max-Harmonizer-Multi-Effect-Pedal-i.30194339.18057992258"
+      ],
+      "finding": "Exact10.635mconditionunknownMelodiaoffer;52algorithms99sharedwritablefactoryslots,1/2/5controls,externalEXP,MIDI,centerpositive9V500mA;dimensionaxisandEXPconnectorconflictsretained.",
+      "remaining": [
+        "Per-familyalgorithms",
+        "Display",
+        "USBaudio/power/battery",
+        "Bass/vocalclassification",
+        "Imports",
+        "Looper/drums",
+        "CurrentOS",
         "Condition/stock"
       ]
     }
@@ -24074,6 +24096,9 @@
       "PLETHORA X5",
       "M350",
       "M-One XL"
+    ],
+    "Eventide": [
+      "H9 Max"
     ]
   },
   "root_brand_content": {
@@ -24435,11 +24460,14 @@
       "PLETHORA X5",
       "M350",
       "M-One XL"
+    ],
+    "EVENTIDE.md": [
+      "H9 Max"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 244,
+      "record_count": 245,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41411,10 +41439,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 295,
-    "canonical_root_models": 295,
+    "unique_brand_model_pairs": 296,
+    "canonical_root_models": 296,
     "legacy_only_models": 0,
-    "guitar_view_models": 244,
+    "guitar_view_models": 245,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
     "vocal_view_models": 60,
@@ -41474,7 +41502,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Play."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Eventide H9 Max."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41721,7 +41749,8 @@
       "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
       "TC Electronic::M350",
-      "TC Electronic::M-One XL"
+      "TC Electronic::M-One XL",
+      "Eventide::H9 Max"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -44217,6 +44246,13 @@
       "link": "TC-ELECTRONIC.md#m-one-xl",
       "source_files": [
         "TC-ELECTRONIC.md"
+      ],
+      "finding_files": []
+    },
+    "Eventide::H9 Max": {
+      "link": "EVENTIDE.md#h9-max",
+      "source_files": [
+        "EVENTIDE.md"
       ],
       "finding_files": []
     }

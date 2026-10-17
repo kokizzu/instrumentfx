@@ -1627,3 +1627,7 @@ research-commit-vt4:
 .PHONY: research-commit-1201
 research-commit-1201:
 	python3 scripts/research_tools.py commit-1201
+
+.PHONY: research-commit-h9max
+research-commit-h9max:
+	python3 scripts/research_tools.py commit-h9max
