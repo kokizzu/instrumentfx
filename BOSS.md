@@ -2838,7 +2838,7 @@ Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Ma
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in pedal; external EXP2/CTL3,4. Firm toe pressure toggles EXP PEDAL SW; sensitivity is calibratable (manual pp.19,81–82). | [Product][G10B-P]; [manual text][G10B-T] |
-| K/F/B | Six dedicated footswitches advertised; four parameter encoders mentioned. Complete rotary/button counts and switch classification pending; no visual audit. | [Product][G10B-P] |
+| K/F/B | Manual-derived front controls: **6 rotary** (OUTPUT LEVEL, P1–P4, dial); **8 footswitches** (4 number+2 BANK+2 CTL), toe switch additional; **24 buttons** (10 effects,4 cursor,OUTPUT SELECT,SYSTEM,CREATE,EDIT,SELECT,DISPLAY MODE,EXIT,CATEGORY/ENTER,TUNER/BYPASS,WRITE). Product advertises “six dedicated footswitches”; retain wording difference. Text enumeration pp.11–12,not visual audit; rear switches separate. | [Product][G10B-P]; [manual text][G10B-T] |
 | Display | **132×64 backlit graphic LCD;3-character seven-segment LED**. Diagonal/color/touch unknown. | [Product][G10B-P] |
 | Dimensions / mass | **542W×272D×77H mm;4.9kg**;pedal-up height104mm. | [Product][G10B-P] |
 | Processing / routing | Parallel bass-effect paths blend or switch by pedal/dynamics. COSM amps,compression,EQ,drive. Simultaneous ceiling/category totals unresolved. | [Product][G10B-P] |
@@ -2849,7 +2849,8 @@ Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Ma
 | Power / battery / USB | **9V DC,800mA draw,PSB-1U supply**. Polarity,battery/bus operation unknown. | [Product][G10B-P] |
 | IR / NAM / capture | User IR,native/converted NAM andcapture loading unverified. | Unresolved |
 | Editor / software | Windows/Mac **Librarian1.00** listed;driver entries separate. Full editor/current OS compatibility unverified. No software downloaded. | [Product][G10B-P] |
-| USB / conversion | USB audio/MIDI;channel/word-length limits pending. AD24bit+AF,DA24bit,44.1kHz. | [Product][G10B-P] |
+| USB / conversion | Bidirectional audio; **Standard driver mode has no USB MIDI; Advanced requires special driver and enables USB MIDI,disabling DIN MIDI transfer while connected** (pp.94–95). Historical Standard OS: XP/Vista,Mac OS X10.4.3+;not current compatibility. Mode changes require restart. Channel/USB word length remain unknown; AD24bit+AF,DA24bit,44.1kHz are converter specifications. | [Product][G10B-P]; [manual text][G10B-T] |
+| USB monitoring / reprocessing | Direct Monitor Off leaves only USB input audible at main/phones; resets On at power-up. Reprocess computer audio with INPUT SELECT=USB In,Direct Monitor On and software thru off (pp.97–99). | [Manual text][G10B-T] |
 | Looper / drums / scenes | Phrase loop before/after effects; up to38s mono or19s stereo with overdubbing (pp.60–61). Loops erased on Phrase Loop off or power off (p.59). Performance records post-effects; Patch Edit records pre-effects and processes playback. Clear Only immediately erases; Mute/Clear first mutes while playback continues internally,second press clears. CTL assignment can preserve BANK switching (pp.60–61). Drums/scenes pending. | [Product][G10B-P]; [manual text][G10B-T] |
 
 ### Separate IDR hardware evidence
