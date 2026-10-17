@@ -1719,3 +1719,7 @@ research-commit-spx2000:
 .PHONY: research-commit-floorpodplus
 research-commit-floorpodplus:
 	python3 scripts/research_tools.py commit-floorpodplus
+
+.PHONY: research-commit-gt10b
+research-commit-gt10b:
+	python3 scripts/research_tools.py commit-gt10b

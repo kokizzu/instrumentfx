@@ -2828,3 +2828,39 @@ Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. M
 [Service-note mirror](https://manuals.plus/m/3dfe51dc788d388d1e28dac376bee0bc1ee8e2ddd86fb97881d82f99713c9856) provides a rewritten conversion,not accepted as originaltranscription. Its [27-page PDF](https://manuals.plus/m/3dfe51dc788d388d1e28dac376bee0bc1ee8e2ddd86fb97881d82f99713c9856.pdf) yieldedzero text;screenshot returnednoinspectable image. Do notuseits missing-minus audiolevels orpanel summary. SE-50/SE-50A revision differences requireoriginalproof beforeassigning dimensions/mass.
 
 Roland memoryarticle updated2023-04-13;powerarticle2026-06-16. Sources checked2026-10-17 withoutdownloads ordeviceexecution. Remainingfields above requiremodel-specificprimaryevidence;the record is notfullyverified.
+
+## GT-10B
+
+Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Manufacturer-established model; exact Indonesian hardware offer and ownership remain unverified. Discontinued status does not establish market absence.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal; external EXP2/CTL3,4. Toe behavior unverified. | [Product][G10B-P] |
+| K/F/B | Six dedicated footswitches advertised; four parameter encoders mentioned. Complete rotary/button counts and switch classification pending; no visual audit. | [Product][G10B-P] |
+| Display | **132×64 backlit graphic LCD;3-character seven-segment LED**. Diagonal/color/touch unknown. | [Product][G10B-P] |
+| Dimensions / mass | **542W×272D×77H mm;4.9kg**;pedal-up height104mm. | [Product][G10B-P] |
+| Processing / routing | Parallel bass-effect paths blend or switch by pedal/dynamics. COSM amps,compression,EQ,drive. Simultaneous ceiling/category totals unresolved. | [Product][G10B-P] |
+| Factory / user memory | **200 preset+200 user=400**;initial user fill unknown. | [Product][G10B-P] |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified;not borrowed from GT-10. | Unresolved |
+| I/O | Instrument input;L/R main andXLR sub outputs;stereo phones;send/return;amp-control;EXP2/CTL3,4;USB;coaxial digital out;MIDI in/out;DC. Connector sizes/USB type pending. | [Product][G10B-P] |
+| Power / battery / USB | **9V DC,800mA draw,PSB-1U supply**. Polarity,battery/bus operation unknown. | [Product][G10B-P] |
+| IR / NAM / capture | User IR,native/converted NAM andcapture loading unverified. | Unresolved |
+| Editor / software | Windows/Mac **Librarian1.00** listed;driver entries separate. Full editor/current OS compatibility unverified. No software downloaded. | [Product][G10B-P] |
+| USB / conversion | USB audio/MIDI;channel/word-length limits pending. AD24bit+AF,DA24bit,44.1kHz. | [Product][G10B-P] |
+| Looper / drums / scenes | Phrase loop selectable before/after effects;duration,persistence,drums/scenes pending. | [Product][G10B-P] |
+
+### Separate IDR hardware evidence
+
+| Condition | Amount / qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no exact Shopee Indonesia hardware offer established. | — |
+| New | Unknown;no exact qualified retail hardware offer established. | — |
+
+<!-- comparison evidence ends -->
+
+GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.
+
+[G10B-P]: https://www.boss.info/global/products/gt-10b/
+[G10B-M]: https://www.boss.info/global/support/by_product/gt-10b/owners_manuals/1b0c0624-bf01-4547-9a55-641a90f35577/
