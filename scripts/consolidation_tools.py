@@ -1404,7 +1404,7 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['ROLAND.md', 'VING.md', 'CUVAVE.md', 'TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['scripts/ledger_history.py', 'ROLAND.md', 'VING.md', 'CUVAVE.md', 'TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
@@ -1418,7 +1418,7 @@ def commit(model_id):
         print(research_tools.git('commit', '-m', 'research(zoom): qualify B6 loop allocation electrical limits and indexed ask'))
         return
     if model_id == 'b2-four':
-        print(research_tools.git('commit', '-m', 'research(zoom): qualify B2 FOUR overload and factory reset behavior'))
+        print(research_tools.git('commit', '-m', 'research: preserve prior discovery evidence and add ledger history audit'))
         return
     if model_id == 'gp-5':
         print(research_tools.git('commit', '-m', 'research(valeton): include GP5 bass capability and corroborate A2 conversion'))

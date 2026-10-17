@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B2 FOUR",
-    "task": "DSP overflow and reset behavior saved. Fresh bass/vocal discovery found no new exact eligible hardware; do not repeat recorded B2FOUR/VoiceLive offer IDs. Next try additional brand/series searches and remaining primary technical fields.",
+    "task": "DSP overflow and reset behavior saved. Fresh bass/vocal discovery found no new exact eligible hardware; do not repeat recorded B2FOUR/VoiceLive offer IDs. Next try additional brand/series searches and remaining primary technical fields. Earlier Wisdom DFX2000 pending-identity evidence preserved under previous_observation; no active addition until authenticated own documentation.",
     "next_models": [],
     "after_queue": "335 partial unique records;117 legacy compatibility files remain. No downloads/workflows/push."
   },
@@ -71807,7 +71807,65 @@
         "seller_item": "800959591/24004987590",
         "observation": "Same Rp4495000 index; direct Cache miss."
       }
-    ]
+    ],
+    "previous_observation": {
+      "checked_date": "2026-10-18",
+      "no_qualified_leads": [
+        "DigiTech BP90",
+        "DigiTech BP80",
+        "Korg AX5B",
+        "Korg AX3B",
+        "TC-Helicon VoiceLive Rack",
+        "Sonicake Boom Ave"
+      ],
+      "qualification": "Targeted Shopee queries yielded no qualified exact listing, not evidence of market absence. Existing B2 FOUR LYN offer already recorded; not added again.",
+      "pending_model": {
+        "brand": "Wisdom",
+        "model": "DFX2000",
+        "counted": false,
+        "offers": [
+          {
+            "url": "https://shopee.co.id/wisdom-dfx2000-digital-efek-vokal-wisdom-dfx-2000-i.836629702.21981226594",
+            "seller": "Central Elek",
+            "region": "Kota Jakarta Pusat",
+            "indexed_idr": 1025000,
+            "cache": "two-month search; direct page labelled last month",
+            "condition": "unknown",
+            "stock": "unconfirmed"
+          },
+          {
+            "url": "https://shopee.co.id/Wisdom-DFX-2000-Digital-Effect-Original-Pre-Effector-Efek-Vocal-DFX2000-i.785734870.21781240138",
+            "seller": "cveri accessories",
+            "region": "Kota Jakarta Pusat",
+            "indexed_idr": 1050000,
+            "cache": "two months",
+            "condition": "unknown",
+            "stock": "unconfirmed"
+          }
+        ],
+        "identity_risk": "Search returned Phonic DFX2000 manuals, not authenticated Wisdom documentation. Same model string does not establish identical hardware, algorithms, memory or power. Do not import Phonic specifications.",
+        "nonmatching_primary_source": "https://www.phonic.com/index.php/download-center/category/32-2020-06-16-19-31-58?download=1770%3Ajp&start=30",
+        "next": "Find authoritative Wisdom manufacturer/distributor identity and own DFX2000 manual or panel documentation; verify multifx eligibility before active inventory addition. Bundle, warranty, condition and checkout prices remain unverified.",
+        "identity_followup": {
+          "checked_date": "2026-10-18",
+          "primary_identity_source": "https://www.wipo.int/amc/en/domains/search/text.jsp?case=D2022-0711",
+          "finding": "WIPO decision dated 2022-05-18 identifies wisdom-proaudio.com as the disputed domain and PT Wisdom Indonesia Sejahtera among respondents. It states the respondent was not an authorized Wisdom Audio Corp dealer/distributor and orders transfer of the domain. Historical domain association does not authenticate current domain ownership or DFX2000 manufacturer.",
+          "scope_limit": "The decision does not mention DFX2000 or establish its manufacturer, technical design, authenticity or equivalence to Phonic. Do not attribute this seller-listed unit to US Wisdom Audio Corp.",
+          "domain_access": "HTTPS www, HTTPS bare and HTTP www attempts returned tool internal errors; no site content verified or files downloaded.",
+          "secondary_leads": [
+            {
+              "url": "https://www.semuabis.com/pt-wisdom-indonesia-021-64701944",
+              "qualification": "Business directory names wisdom-proaudio.com; historical lead only, not manufacturer authentication."
+            },
+            {
+              "url": "https://www.scribd.com/document/686623561/PL-SEP-23-A-1",
+              "qualification": "Unverified uploader September2023 Wisdom catalogue includes DFX2000. Authorship not authenticated; not adopted as primary technical evidence."
+            }
+          ],
+          "next": "Retain pending until own manual or authenticated distributor/manufacturer product documentation is found. Continue independent research elsewhere rather than repeatedly querying unavailable domain."
+        }
+      }
+    }
   },
   "discovery_line6_desktop_20261018": {
     "queries": [

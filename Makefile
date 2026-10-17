@@ -1903,3 +1903,7 @@ research-commit-b1x-original:
 .PHONY: research-commit-505-original
 research-commit-505-original:
 	python3 scripts/research_tools.py commit-505-original
+
+.PHONY: research-ledger-history
+research-ledger-history:
+	python3 scripts/ledger_history.py
