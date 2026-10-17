@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 332,
+  "active_model_count": 333,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 332,
+  "canonical_root_model_count": 333,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "332 unique active/root-canonical;0legacy-only;38brands;sixexcluded;allpartial.",
+  "count_reconciliation": "333 unique active/root-canonical;0legacy-only;38brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "Resume fresh Shopee series discovery;Caline exact item and primary access remain unresolved,avoid repeating identical failures. FX150b current comparison consolidated losslessly.",
+    "model": "Prime S1",
+    "task": "Verify original S1 manual, controls/memory and exact NAM A2 loading restrictions. Initial model and firmware-qualified bass membership saved.",
     "next_models": [],
-    "after_queue": "332 active,38brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
+    "after_queue": "333 active,38brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24240,7 +24240,8 @@
       "Red Truck",
       "Prime P2",
       "Prime M1",
-      "Prime M2"
+      "Prime M2",
+      "Prime S1"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -24551,7 +24552,8 @@
       "Red Truck",
       "Prime P2",
       "Prime M1",
-      "Prime M2"
+      "Prime M2",
+      "Prime S1"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -24904,14 +24906,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 279,
+      "record_count": 280,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 141,
+      "record_count": 142,
       "bass_focused_record_count": 29,
-      "shared_bass_capable_count": 112,
+      "shared_bass_capable_count": 113,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41972,18 +41974,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 332,
-    "canonical_root_models": 332,
+    "unique_brand_model_pairs": 333,
+    "canonical_root_models": 333,
     "legacy_only_models": 0,
-    "guitar_view_models": 279,
+    "guitar_view_models": 280,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 141,
-    "bass_shared_models": 112,
+    "bass_view_models": 142,
+    "bass_shared_models": 113,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -42035,7 +42037,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Prime S1."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42152,6 +42154,7 @@
       "MOOER::Prime P2",
       "MOOER::Prime M1",
       "MOOER::Prime M2",
+      "MOOER::Prime S1",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -42383,6 +42386,7 @@
       "MOOER::Prime P2",
       "MOOER::Prime M1",
       "MOOER::Prime M2",
+      "MOOER::Prime S1",
       "M-VAVE::TANK-B",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -42532,6 +42536,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "MOOER::Prime S1": "Exact S1 firmware1.3.4 adds bass amp/cabinet modules and bass presets; Studio1.6.9 notes2024-08-27. Launch guitar-only statement is historical. [Manufacturer](https://cn.mooeraudio.com/Downloads_xq/1.html).",
     "BOSS::MS-3": "Exact manufacturer explicitly documents guitar/bass effects and six simultaneous internal blocks. [Product](https://www.boss.info/global/products/ms-3/).",
     "BOSS::ME-90B": "Bass-oriented processor with documented guitar processing: own Parameter Guide p12 lists GTR CRUNCH, GTR HI GAIN and GTR MODDED as Tone Studio-selectable PREAMP/EQ replacements. Independent multi-effects retained; guitar/bass capability does not imply identical voicing. [Guide](https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf).",
     "Soran::Dual Stomp Lite": "Own exact product supports guitar/bass;25guitar+5bass amps/cabs. [Product](https://soranaudio.com/products/27.html).",
@@ -43666,6 +43671,13 @@
     },
     "MOOER::Prime M2": {
       "link": "MOOER.md#prime-m2",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::Prime S1": {
+      "link": "MOOER.md#prime-s1",
       "source_files": [
         "MOOER.md"
       ],
@@ -66220,5 +66232,26 @@
     "prior_body_sha256": "922615cd128f3d22ac7daf2a81681d146d42d5357c4cdb6ef29bf69aea21e8e3",
     "scope": "FX150b only;technical completeness not certified",
     "retained_marker": "FX150b prior evidence"
+  },
+  "prime_s1_20261018": {
+    "status": "partial",
+    "primary": [
+      "https://www.mooeraudio.com/products/201.html",
+      "https://cn.mooeraudio.com/product/72.html",
+      "https://cn.mooeraudio.com/Downloads_xq/1.html"
+    ],
+    "bass_basis": "ExactS1 firmware1.3.4 addsbassamps/cabs;August27,2024notes",
+    "gaps": [
+      "Original manual andvisual panel",
+      "Category census andmemory",
+      "NAM A2 loading format/conversion",
+      "Editor minimum OS",
+      "Qualified prices"
+    ],
+    "conflicts": [
+      "126versus128 advertised",
+      "Launchguitaronly versuslaterbassfirmware",
+      "CachedJanpackages versusdirectSep2026index"
+    ]
   }
 }

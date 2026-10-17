@@ -1687,3 +1687,41 @@ Checked2026-10-17;partial. Guitar/bass processor with headset vocal effects. [Pr
 | Condition unresolved:Rp3,323,330 | [LOBAJET70636842/24246319419](https://shopee.co.id/MOOER-PRIME-M2-Multi-Effect-Guitar-Intelligent-Pedal-Effector-Efek-Gitar-Terbaru-dari-MOOER-i.70636842.24246319419),Jakarta Barat;checked2026-10-17,three-month cache. Habis;2 variations unresolved. Dengan Voucher,spendRp5,000/70% discount wording; cap/eligibility/application not verified. Late-delivery compensation is not hardware discount. Condition,working state,bundle,F4 inclusion,warranty,shipping/tax/final total unknown. JS-limited;not live stock or completed sale. |
 
 No downloads,dependencies or software execution used for this model.
+
+## Prime S1
+
+Portable guitar/bass multi-effects; checked2026-10-18, partial. Distinct from P1/P2/M1/M2. Ownership andvocal processing unverified. Bass membership requires the documented later firmware,not launch-page sibling inference.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / toe | Built-in/external/toe expression unverified. F4 wireless foot control is not proof of EXP input. | Unresolved |
+| Knobs / footswitches / buttons | Master dial and4 multifunction footswitches documented;complete rotary/button census pending visual/manual audit. | [English product][S1-EN] |
+| Display | LED digital display;diagonal,color/touch unverified. | [English product][S1-EN] |
+| Processing / category choices | English prose126 effects/tone presets versus feature list128;Chinese128. Preserve count discrepancy;not a patch-memory orsimultaneous-block count. Per-category census andDSP ceiling unknown. | [English][S1-EN];[Chinese][S1-CN] |
+| Factory / user / total memory | Separate factory-filled,user,total preset-memory counts unverified. | Unresolved |
+| Dimensions / weight |240×70.2×31.9mm,axes unlabeled;350g,mass basis unstated. | [Chinese product][S1-CN] |
+| I/O |6.35mm mono input2MΩ;6.35mm stereo outputs100Ω;3.5mm stereo phones32Ω;USB-C;Bluetooth5.0 stereo playback and2.4GHz wireless control. Complete connector/balancing audit pending. | [Chinese product][S1-CN] |
+| Power / battery / USB |2000mAh rechargeable lithium;up to4.5h;DC5V2A charging throughUSB-C. Mobile power-bank operation documented;charge duration andDC-barrel polarity unverified. | [Chinese product][S1-CN] |
+| IR / loading |Third-party IR through MOOER STUDIO:10 loading positions+40 cache positions,not50 simultaneous IRs. File format/length unverified. | [Chinese product][S1-CN] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified;later MNRS support is not proof of either. | Unresolved |
+| Editor / software | MOOER STUDIO MS_For_S1_V2.0.0 Windows/Mac listed2026-09-22;Prime Android4.0.0 also listed. Manufacturer directs Apple users toAppStore;minimum OS andiOS version unknown. | [Exact S1 release notes][S1-FW] |
+| Bass / firmware |Studio1.6.9 notes2024-08-27 explicitly name **S1 firmware1.3.4**,adding bass amp/cabinet modules andbass presets. App2.0.0 notes2024-12-29 also addS1 Bass. Launch Chinese guitar-only statement is historical. | [Manufacturer notes][S1-FW] |
+| NAM / proprietary capture |2026-09-21 S1/M1 Studio2.0.0 notes say **NAM A2 loading**;arbitrary native .nam versus conversion,model restrictions andmobileS1 import remain unverified. January2026 notes addMNRS andGNR import. Do not borrow P2/M2-only NAM-A2 lite claims. | [Manufacturer notes][S1-FW] |
+| Looper / drums / live |80s looper withoverdub/undo,40 drum grooves,10 metronomes,tuner,USB/OTG mobile recording. F4 can extend4 onboard switches to8;buffering/routing/recording formats unverified. | [English][S1-EN];[Chinese][S1-CN] |
+
+### Separate IDR hardware asks
+
+| Condition / access | Amount / qualification | Source |
+|---|---|---|
+| Used | Unknown;no condition-qualified ask. | — |
+| New | Unknown;no condition-qualified ask. | — |
+| Condition-unverified voucher ask |**Rp1,964,375**,LOBAJET,Jakarta Barat,shop70636842/item44112348973;four-month opened cache. Body saysDengan Voucher,BelanjaRp500RB/Diskon50%;eligibility andfinal total unknown,do not apply a further50% reduction. May29 search versusJun9 opened delivery text stale. Condition,stock,selected variant,bundle,warranty unknown. | [Exact item](https://shopee.co.id/MOOER-PRIME-S1-Multi-Effect-Guitar-Intelligent-Pedal-Effector-Efek-Gitar-Terbaru-dari-MOOER-i.70636842.44112348973) |
+| Condition-unverified indexed ask |**Rp1,700,000**,Biefa collection,Kab.Sukabumi,shop219366644/item51457976087;four-month index,direct cache miss. Condition,working state,stock,variant,bundle,warranty,voucher anddelivered total unknown;small seller inventory is not proof of used condition. | [Exact item](https://shopee.co.id/mooer-prime-s1-i.219366644.51457976087) |
+
+Checked2026-10-18. Not completed sales,current stock orqualified new/used range. Late-delivery compensation is not a purchase discount. No downloads,installations orfirmware execution.
+
+English page lists S1_Manual_EN.pdf;original manual/panel,complete library,memories,editor minimum OS,exact NAM format andfirmware-dependent features require further verification. The directly opened release index now listsSeptember2026 versions,where search cache retainedJanuary2026packages;newer direct text used without erasing historical release distinctions.
+
+[S1-EN]: https://www.mooeraudio.com/products/201.html
+[S1-CN]: https://cn.mooeraudio.com/product/72.html
+[S1-FW]: https://cn.mooeraudio.com/Downloads_xq/1.html

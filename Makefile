@@ -1803,3 +1803,7 @@ research-commit-pockrock:
 .PHONY: research-commit-blacktruck
 research-commit-blacktruck:
 	python3 scripts/research_tools.py commit-blacktruck
+
+.PHONY: research-commit-prime-s1
+research-commit-prime-s1:
+	python3 scripts/research_tools.py commit-prime-s1
