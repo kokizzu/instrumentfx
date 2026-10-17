@@ -1687,3 +1687,7 @@ research-commit-stageman:
 .PHONY: research-commit-fv05
 research-commit-fv05:
 	python3 scripts/research_tools.py commit-fv05
+
+.PHONY: research-commit-b2-conversion
+research-commit-b2-conversion:
+	python3 scripts/research_tools.py commit-b2-conversion

@@ -978,6 +978,14 @@ Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; exi
 | Looper / tempo | Manual length or1–64 quarter notes;excess lengths automatically limited. Changing recording length deletes audio. Tempo changes erase loops when length is beat-counted or rhythm is playing. Stop modes:instant,end-of-loop,fade-out. Rhythm playback quantizes the loop ending. |
 | Audio levels / ports | INPUT rated−20dBu;AUX−10dBu/10kohm;L/R maximum+11.4dBu into≥10kohm. XLR impedance100ohm perleg/200ohm differential;phones33+33mW into32ohm. |
 
+
+### B2 FOUR — conversion and USB word length,2026-10-17
+
+| Field | Verified distinction / qualification |
+|---|---|
+| Audio conversion / processing | [Manufacturer specifications](https://zoomcorp.com/manuals/b2four-en/),©2023 Z2I-4836-01: ADC and DAC each24-bit/128×oversampling;internal processing32-bit. USB audio listed32-bit2-in/2-out,not explicitly32-bit float. No sample rate stated in inspected specification. Word length does not establish unclippable analog inputs. |
+| Audio noise specifications | InputS/N124dB;residual noiseL/R−96.0dBu,XLR−100.0dBu,phones−96.0dBu. These are separate published measures,not interchangeable with conversion resolution. Same manual source;conditions beyond stated table remain unspecified. |
+
 <!-- comparison evidence ends -->
 
 ## B6
