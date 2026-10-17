@@ -1787,3 +1787,7 @@ research-commit-rc5:
 .PHONY: research-commit-dc5
 research-commit-dc5:
 	python3 scripts/research_tools.py commit-dc5
+
+.PHONY: research-commit-fx20
+research-commit-fx20:
+	python3 scripts/research_tools.py commit-fx20

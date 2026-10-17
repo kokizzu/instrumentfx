@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 329,
+  "active_model_count": 330,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 329,
+  "canonical_root_model_count": 330,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "329 unique active/root-canonical;0 legacy-only;37brands;six excluded;all partial.",
+  "count_reconciliation": "330 unique active/root-canonical;0legacy-only;37brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VoiceLive Play",
-    "task": "Continue VoiceLive Play current firmware/USB format or fresh Shopee discovery; regional analog levels saved, USB connector wording conflict retained.",
+    "model": "Flamma FX20",
+    "task": "Verify own product/app documentation and resolve power conflict; retain inaccessible exact offer and unresolved BMJ lower ask.",
     "next_models": [],
-    "after_queue": "329active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
+    "after_queue": "330active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24159,7 +24159,8 @@
       "FV04 Harmony",
       "FG200",
       "FX50",
-      "FV05 Recorder"
+      "FV05 Recorder",
+      "FX20"
     ],
     "HeadRush": [
       "Core",
@@ -24657,7 +24658,8 @@
       "FV04 Harmony",
       "FG200",
       "FX50",
-      "FV05 Recorder"
+      "FV05 Recorder",
+      "FX20"
     ],
     "NUX.md": [
       "MG-101",
@@ -24894,7 +24896,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 276,
+      "record_count": 277,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41962,10 +41964,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 329,
-    "canonical_root_models": 329,
+    "unique_brand_model_pairs": 330,
+    "canonical_root_models": 330,
     "legacy_only_models": 0,
-    "guitar_view_models": 276,
+    "guitar_view_models": 277,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -42025,7 +42027,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VoiceLive Play."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Flamma FX20."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42076,6 +42078,7 @@
       "Flamma::FX150",
       "Flamma::FG200",
       "Flamma::FX50",
+      "Flamma::FX20",
       "HeadRush::Core",
       "HeadRush::Flex Prime",
       "HeadRush::MX5",
@@ -43110,6 +43113,13 @@
     },
     "Flamma::FV05 Recorder": {
       "link": "FLAMMA.md#fv05-recorder",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": []
+    },
+    "Flamma::FX20": {
+      "link": "FLAMMA.md#fx20",
       "source_files": [
         "FLAMMA.md"
       ],
@@ -65995,5 +66005,12 @@
     "converters": "24bit128x;not USB format",
     "conflict": "Regional USB-B wording versus original rear-panel Mini-B record",
     "remaining": "USBchannels/rate/format,currentfirmware,display andmarket gaps."
+  },
+  "fx20_primary_20261018": {
+    "manual": "https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1/M00/00/0C/wKgA0GW6-W6AGJnOABszsyLEHfo390.pdf",
+    "exact_item": "1683602958/53803885927",
+    "conflict": "Precautions9V500mA versus USBcharging5V1A specification.",
+    "status": "partial",
+    "remaining": "Full panel controls,memory total,appplatforms,simultaneousceiling,imports and marketverification."
   }
 }

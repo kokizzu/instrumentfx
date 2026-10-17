@@ -549,3 +549,36 @@ Source for manual-specific fields: [original manufacturer V02_2024.01.08](https:
 | Condition unresolved:Rp6,790,000 |[Exact Shopee item1753862723/29944964032](https://shopee.co.id/FLAMMA-FV05-Recorder-Vocal-Guitar-Effects-Pedal-70-Minutes-Recording-Capacity-Noise-Gate-Reverb-i.1753862723.29944964032),link recovered from [Vocal Recorder category](https://shopee.co.id/list/Vocal/Recorder),checked2026-10-17,last-month body. Direct cache miss;seller name,region,condition,working state,stock,revision,variant,adapter/bundle,warranty,voucher,shipping/tax/final total unknown. Not live stock or completed sale. |
 
 A category search also showedRp4,502,768 for another FV05 title without an exact item link;not accepted as this item's price or a verified hardware offer. No downloads or dependency installation.
+
+## FX20
+
+Plug-in guitar headphone multi-effects,distinct fromFX10/FX11/FX50. Checked2026-10-18;partial;ownership unverified. Bass/vocal suitability unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / toe | Built-in,external,toe support unverified. |
+| Knobs / footswitches / buttons | Volume knob documented;separate full counts pending panel audit. [F20-M] |
+| Display | Presence,diagonal,color,touch unverified. |
+| Dimensions / mass | **W40×D82×H30mm;59g**;mass basis unstated. [F20-M] |
+| Processing / category choices | **52 amps,14 modulation,5 delays,5 reverbs**;simultaneous ceiling/routing unverified. [F20-M] |
+| Factory / user / total memory | A–D selections per current bank;total/factory/user split unverified. [F20-M] |
+| Synth / acoustic | Unverified. |
+| Audio / control I/O | **6.35mm instrument plug,3.5mm stereo output,USB-C charging/OTG audio;Bluetooth playback**. Other controls/formats unverified. [F20-M] |
+| Power / battery / USB | **720mAh,up to4h;5V1A charging,about2.5h**. Conflict:precautions p1 says9VDC500mA. Do not resolve by inference;polarity/external DC jack unverified. [F20-M] |
+| IR / NAM / captures | UserIR,native/convertedNAM,proprietary capture loading unverified. |
+| Editor / software | FLAMMA mobile app;exact OS versions/desktop editor unverified. Windows DAW note requires third-party ASIO and warns incompatibility;not full compatibility certification. USB sample format unverified. [F20-M] |
+| Looper / drums / routing | **40 grooves via app,14 selectable on unit;40–260BPM**. Looper unverified. Bluetooth source volume independent of guitar/drum knob. [F20-M] |
+
+Original manufacturer manual V01,filename2023-12-08;27PDFpages. Text inspection only;no downloads or visual panel inspection.
+
+### Separate IDR hardware evidence
+
+| Condition / access | Amount / qualification | Source |
+|---|---|---|
+| Used | Unknown;no condition-verified ask. | — |
+| New | Unknown;no condition-verified ask. | — |
+| Condition-unverified indexed exact item | **Rp3,026,800**,Jakarta Barat,two-month search index checked2026-10-18. Item1683602958/53803885927,display_model_id320369039312;direct selected URL cache miss. Seller name,condition,selected variant,bundle,warranty,stock andcheckout total unknown;not a qualified range. | [Exact item](https://shopee.co.id/FLAMMA-FX20-Guitar-Headphone-Amp-with-APP-40-Drum-Grooves-52-Amp-Modes-5-Delay-5-Reverb-Effects-14-Modulations-for-Practice-i.1683602958.53803885927) |
+
+Same [search index](https://shopee.co.id/search?keyword=fx20) shows a BMJ-titledFX20 atRp1,330,000,JakartaPusat;exact item unresolved,excluded from model pricing. Unrelated bicycle saddles/phone cases are not hardware leads.
+
+[F20-M]: https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1/M00/00/0C/wKgA0GW6-W6AGJnOABszsyLEHfo390.pdf
