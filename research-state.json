@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "VoiceLive Touch 2 mainmix USB andthree analog routing modes/Talk exceptions saved. Remaining formats,loopstorage/DC/display unknown;next fresh bass/vocal model discovery,retain these followups.",
-    "next_models": [],
-    "after_queue": "316active;remaining technical/market/ownership/migration gaps;no downloads/workflows/push."
+    "model": "VOX StompLab 2B",
+    "task": "Reopen newly surfaced exact SalomoMusik1776275/4688514198 hardware offer;resolve SL2B versus+Adaptor variation andvoucher before accepting price. B1FOUR cveri offer saved;do not duplicate. VoiceLiveTouch2/GT10B technical gaps retained.",
+    "next_models": [
+      "M-VAVE CUBE BABY BASS exactAPMusic474088972/42811752267"
+    ],
+    "after_queue": "316active;continue technical/market/ownership/migration;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24005,6 +24007,17 @@
         "https://mediadl.musictribe.com/download/software/tchelicon/vlt2_quick_start_en.pdf",
         "https://mediadl.musictribe.com/download/software/tchelicon/tc-helicon_voicelive_touch_2_reference_manual_en.pdf"
       ]
+    },
+    {
+      "model": "Zoom B1 FOUR",
+      "url": "https://shopee.co.id/Zoom-B1-Four-Bass-Multi-Efek-Processor-Pedal-Original-Multi-Efek-Bass-i.785734870.12597113040",
+      "seller": "cveri accessories",
+      "seller_id": "785734870",
+      "item_id": "12597113040",
+      "indexed_idr": 2899999,
+      "checked_date": "2026-10-18",
+      "qualification": "Condition/stock/variant/bundle unverified;direct3weekcache versus search2months;relative delivery notlive;latecompensation notdiscount.",
+      "status": "Added to existing model;noinventory increment"
     }
   ],
   "inventory_by_brand": {
@@ -41916,7 +41929,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Touch 2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab 2B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -61866,6 +61879,10 @@
       "token": "i.548551522.25542280677",
       "model": "Zoom::B1 FOUR",
       "basis": "ExactPalembangB1FOURhardwarelisting;regression299f269"
+    },
+    {
+      "token": "12597113040",
+      "model": "Zoom::B1 FOUR"
     }
   ],
   "g3xn_dsp_acoustic_20261017": {
@@ -65053,5 +65070,28 @@
       "site:shopee.co.id \"Harmony G\""
     ],
     "finding": "Initial exact queries empty; broader vocal query found unrecorded VoiceLive Touch 2 exact hardware. Zoom hits mostly existing models; do not add duplicates. Search incompleteness is not market absence."
+  },
+  "discovery_bass_vocal_20261018_followup": {
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"BP\"",
+      "site:shopee.co.id \"VoiceLive 2\"",
+      "site:shopee.co.id \"bass\" \"AX3B\"",
+      "site:shopee.co.id \"Zoom 506\"",
+      "site:shopee.co.id \"Korg\" \"AX5B\"",
+      "site:shopee.co.id \"Vocalist\" \"Live\"",
+      "site:shopee.co.id \"Mooer\" \"Vocal\"",
+      "site:shopee.co.id \"Valeton\" \"VLP\"",
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
+      "site:shopee.co.id \"MVP1\"",
+      "site:shopee.co.id \"Vocal X2\"",
+      "site:shopee.co.id \"GE300 Lite\"",
+      "site:shopee.co.id \"GT-6B\" bass effect",
+      "site:shopee.co.id \"multi efek bass\""
+    ],
+    "outcome": "No accepted new-model exact hardware;many accessories/unrelated results,existing TC offers deduplicated. Unsaved B1 FOUR cveri exact offer retained;CubeBabyBass andStompLab2B exact offers remain followup leads,not researched yet.",
+    "next_exact_urls": [
+      "https://shopee.co.id/Multi-Efek-Bass-Elektrik-M-Vave-Cube-Baby-Bass-Elektrik-Original-i.474088972.42811752267",
+      "https://shopee.co.id/Vox-SL2B-Multi-Effects-Bass-Pedal-Multi-Efek-Bass-Pedal-Vox-Stomplab-2B-SL2B-Original-i.1776275.4688514198"
+    ]
   }
 }

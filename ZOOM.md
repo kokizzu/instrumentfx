@@ -740,6 +740,13 @@ Checked2026-10-17 via [own support index](https://zoomcorp.com/en/us/multi-effec
 | Looper / rhythm operation | Rhythm continues acrossMEMORY/STOMP/EDIT andcan runwithlooper(pp43–45);optionalprecount beforelooprecording. Loop length manualor1–64quarter notes,automatically constrained to**1.5–30seconds**;changing recordtime deletesloop(p48). This qualifies the30secondheadline,not additionalloopstorage. [Official manual](https://zoomcorp.com/media/documents/E_B1FOUR.pdf),checked2026-10-17. |
 
 
+### B1 FOUR — cveri accessories offer,2026-10-18
+
+| Field | Qualified observation |
+|---|---|
+| IDR / additional exact hardware offer | **Rp2,899,999**, [cveri accessories,shop785734870/item12597113040](https://shopee.co.id/Zoom-B1-Four-Bass-Multi-Efek-Processor-Pedal-Original-Multi-Efek-Bass-i.785734870.12597113040),KotaJakartaPusat. Direct web-reader text:crawled3weeksago;initial search reported2months,access ages differ. Condition,new/used,working state,selected variation,adapter/bundle,warranty,shipping/tax andcheckout stock unknown. NoHabis inextract is not live-stock confirmation. Relative tomorrow delivery stale;late-arrival compensation up toRp10,000 is not purchase discount. Exact B1 FOUR,not B1X FOUR;separate observation,not a retail range. |
+
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.
