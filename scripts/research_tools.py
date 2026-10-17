@@ -478,7 +478,7 @@ def main():
         if mode == 'commit-mic-mechanic2':
             message = 'research(tc-helicon): add Mic Mechanic 2 and preserve phantom power conflicts'
         if mode == 'commit-708ii':
-            message = 'research(zoom): reconcile 708II category counts and qualify hold delay'
+            message = 'research(zoom): qualify 708II converters input and synth variants'
         if mode == 'commit-707ii':
             message = 'research(zoom): qualify 707II converters recall and patch preselect'
         if mode == 'commit-ax30g':

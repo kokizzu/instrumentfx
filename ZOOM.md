@@ -2644,15 +2644,24 @@ Checked **2026-10-17**, partial. Bass-specific processor; separate from707II gui
 | Editing / platforms | Onboard editing. Computer/mobile editor, driver/updater **?**. [Manual][708-M] |
 | Practical features | **Six-second internal sampler**, **four minutes/60samples on16MB card**; sampler disables MOD/REV. **60 rhythms**, tuner. Separate **two-second Hold Delay** supports normal/reverse/sound-on-sound loop playback. Manual-record wording conflicts: pp.21–22 say press-to-start/press-again-to-stop; p.38 also says while held. Persistent phrase-loop saving, scenes and spillover **?**. [Manual][708-M] |
 | IDR qualified observations | **Used IDR: ?; new IDR: ?**. Three-model Shopee listing has no resolved708II variant price. |
+
+### 708II — converters, input and synth details
+
+| Field | Own manufacturer manual evidence / qualification |
+|---|---|
+| Processing / converters and sampler | **31.25 kHz** sampling; **20-bit A/D at 64×**, **20-bit D/A at 8× oversampling**. Sampler records/plays **16-bit linear** audio. These are model-specific printed specifications, not physical measurements. [Manual p39][708-M] |
+| I/O / electrical ratings | Bass nominal **−20 dBm, 500 kΩ**; AUX **−20 dBm, 20 kΩ**. Combined stereo line/headphones maximum **+3 dBm into ≥10 kΩ**; headphone mW unspecified. Reference: 0 dBm = 0.775 Vrms. [Manual p39][708-M] |
+| Synth / variants | V-SYN: DECAY1–30, RESO0–10, BAL0–30, SENS1–16, TONE0–10, LEVEL1–8. STDSYN has four variations, SENS1–16, BAL0–30, high/low EQ±12 and LEVEL1–8. SYNTLK vowel choices are iA/UE/UA/oA, with DECAY1–30, BAL0–30, high/low EQ±12 and LEVEL1–8. These parameter choices do not add algorithms to69. [Manual pp34–35][708-M] |
+| Synth / fretless distinction | MOD type14 **DEFRET** simulates fretless bass and explicitly requires single notes; SENS1–16, ATTACK1–10, SINK1–10. This does not establish acoustic/upright simulation or polyphonic tracking. [Manual p37][708-M] |
 <!-- comparison evidence ends -->
 
 ### 708II — sources and unresolved hardware pricing
 
-- [Own Zoom708II BASS manual][708-M],40pages, selected sections inspected: panel pp.4–5, pedal pp.8–9, routing p.18, synth/constraints pp.34–35, specifications p.39. Printed identifier **708II-5000-1**; revision date not established. No707II specifications copied. Fifteen front keys count arrow pairs separately; integrated pedal switch and rear power toggle are additional. Seven modules is the architectural count; algorithm restrictions reduce valid combinations. Follow-up2026-10-17: category table counts reconcile69. Pickup Selector is input matching; Drive contains eleven groups with three voices each, not33 independent simultaneous effects. Hold Delay loop modes are distinct from sampler playback. Card operations overwrite destination patches; edited patches require internal saving before card export. Detailed synth parameter ranges, loop/sample persistence and current software remain incomplete.
+- [Own Zoom708II BASS manual][708-M],40pages, selected sections inspected: panel pp.4–5, pedal pp.8–9, routing p.18, synth/constraints pp.34–35, specifications p.39. Printed identifier **708II-5000-1**; revision date not established. No707II specifications copied. Fifteen front keys count arrow pairs separately; integrated pedal switch and rear power toggle are additional. Seven modules is the architectural count; algorithm restrictions reduce valid combinations. Follow-up2026-10-17: category table counts reconcile69. Pickup Selector is input matching; Drive contains eleven groups with three voices each, not33 independent simultaneous effects. Hold Delay loop modes are distinct from sampler playback. Card operations overwrite destination patches; edited patches require internal saving before card export. Synth parameter ranges were added in the follow-up below; loop/sample persistence and current software remain incomplete.
 - [Manufacturer bass support page][708-P] identifies708II and its own manual. Generic bundled-software navigation is not evidence of an editor.
 - [Shopee mixed-model item703817770/23503462640][708-O], Hope Music, KotaBandung: indexed three months old, title707ii/708ii/GFX-3, **three variations**, displayed **Rp1,399,000**, former displayRp1,599,000, service unavailable. Exact open cache miss. Neither amount maps to708II. Sale condition, bundle, adapter, warranty, current stock and voucher unknown. Retained as a hardware-identity lead only, not a new/used quote.
 
-Remaining: qualified single-model offer/variant mapping, full category counts and loop/card behavior, display specifications, barrel dimensions/current draw, explicit USB-power statement and current editor support. Bass-focused classification follows this manual’s explicit bass identity; guitar/vocal use unverified. No local downloads or dependencies installed.
+Remaining: qualified single-model offer/variant mapping, remaining loop/card behavior, display specifications, barrel dimensions/current draw, explicit USB-power statement and current editor support. Bass-focused classification follows this manual’s explicit bass identity; guitar/vocal use unverified. No local downloads or dependencies installed.
 
 [708-M]: https://zoomcorp.com/media/documents/E_708II.pdf
 [708-P]: https://zoomcorp.com/en/gb/multi-effects/bass-effects/708ii/708ii-support/
