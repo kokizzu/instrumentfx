@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-500",
-    "task": "VE500 USB audio confirmed and oldunknown superseded;loopback/MIX/PRE FX/direct-monitor reset saved. Next verify own USB audio channel/format from official driver documentation available as web text; no downloads. If unavailable preserve gap and continue another eligible model. Commit before next.",
+    "task": "VE500 bypass AD/DA, DRY ENHANCE and global OUTPUT mode saved. USB channel/format unavailable in accessible driver web text; preserve unknown without package download. Next inspect own Parameter Guide remaining Enhance/harmony/vocoder subtype choices to close category gaps. Commit before next model.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56573,6 +56573,16 @@
       "sources": [
         "https://static.roland.com/assets/media/pdf/VE-500_eng04_W.pdf",
         "https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf"
+      ]
+    },
+    {
+      "model": "BOSS VE-500",
+      "checked_date": "2026-10-18",
+      "finding": "Own Japanese FAQs updated2023-11-20: bypass undergoesAD/DA,DRY throughENHANCE;OUTPUT L/R mode not per-patch. Official Mac driver1.0.3 landing text does not establish USB channel count/format; Readme is inside prohibited download, not retrieved. Leave gap open.",
+      "sources": [
+        "https://support.roland.com/hc/ja/articles/4404893737627",
+        "https://support.roland.com/hc/ja/articles/4404893738011",
+        "https://www.boss.info/global/support/by_product/ve-500/updates_drivers/61852180-129e-414b-9841-af2dc45aa7a8/"
       ]
     }
   ],
