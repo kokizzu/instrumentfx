@@ -2081,15 +2081,15 @@ Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 | Knobs / footswitches / buttons | 7 rotary controls/selectors derived: Input, Output, Mix, Adjust, Character, Bank, Effect Type;0 footswitches; button count unverified, mic and power switches separate [R11-M pp.2–3] |
 | Display | LED level/status indicators; screen diagonal/color/touch unverified |
 | Processing / categories | 33 selectable effects:11 each in REVERB/EFFECTS/MIX&SFX banks. Serial delay+reverb/chorus+reverb and parallel delay/reverb/flanger/reverb documented. Vocoder variants include distortion+chorus; exact overall maximum unverified [R11-M pp.1,13,15] |
-| Preset memory | 33 effect selections are not established as writable patch memories; user/factory-filled/total stored-patch counts unverified |
+| Preset memory | Manufacturer specifies 363 preset programs (11 effects × 3 banks × 11 variations). These are effect/variation combinations, not 363 writable patches. User storage and factory-filled user-memory count remain unverified [R11-M p.15] |
 | Synth / acoustic | Vocoder processes external carrier; dedicated synth/acoustic simulator unverified |
 | IR / NAM / captures | IR import, native/converted NAM and measured capture support unverified |
 | Audio / control ports | Combo XLR/phone mic input;2 mono-phone line inputs and2 outputs; FS01 bypass; mains power. Other digital/headphone/phantom facilities unverified [R11-M pp.2–3,15] |
-| Analog levels / conversion | Line reference −10 to+4 dBm; high-impedance guitar needs preamplification [R11-M pp.3,15] |
+| Analog levels / conversion | Line reference −10 to +4 dBm; 44.1 kHz,18-bit A/D with64× oversampling and18-bit D/A with8× oversampling. High-impedance guitar needs preamplification [R11-M pp.3,15] |
 | Power / battery / USB | Regional100–120 V or220–240 V50/60 Hz per rear label;DC polarity inapplicable to mains. Consumption,operating battery andUSB power unverified [R11-M p.16] |
 | Dimensions / weight | W482 × D115 × H44 mm;1.8 kg [R11-M p.15] |
 | Editor / software | Editor platforms,drivers/updaters andUSB audio unverified |
-| Looper / drums / live | Mixer send/return uses fully wet output;looper,drums,scenes andspillover unverified [R11-M p.5] |
+| Looper / drums / live | Mixer send/return uses fully wet output. Bypassing with MIX fully wet yields silence; with dry signal mixed in, bypass retains that dry path. Slash-named EFFECTS algorithms process two independent parallel channels. Looper,drums,scenes andspillover unverified [R11-M pp.6–7,15] |
 
 ### RFX-1100 — separate IDR evidence
 
@@ -2104,4 +2104,4 @@ Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 - [R11-M: official Zoom operation manual,E_RFX1100,16 pages](https://zoomcorp.com/media/documents/E_RFX1100.pdf),text inspected through web tool;no filesystem download.
 - [Official RFX-1100 support](https://zoomcorp.com/en/gb/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/).
 
-Remaining: complete variation/category inventory,simultaneous maximum,memory behavior,display/control confirmation,power draw,software andqualified offers. No sibling specifications substituted.
+Remaining: complete variation/category inventory,simultaneous maximum,user-memory behavior,display/control confirmation,power draw,software andqualified offers. Manufacturer’s363 preset-program figure is now separated from writable memory. No sibling specifications substituted.

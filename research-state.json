@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-1100",
-    "task": "Read remaining own manual for variation/category totals,memory behavior,controls andpower/USB inventory. Then continue unresolved bass/vocal discovery; do not add RFX1100 again.",
+    "task": "Inspect RFX1100 full effect/variation inventory and control diagrams;363manufacturer program combinations already saved,not writable memories. Resolve gaps or record limits,then resume Critical Mass exact hardware lead andlegacy bass variants.",
     "next_models": [],
     "after_queue": "Critical Mass exact item andlegacy bass variant qualification; technical gaps andmigration; no downloads/workflows."
   },
@@ -50571,6 +50571,14 @@
       "pages": "24,49–51",
       "finding": "Derived main category counts sum36; Freeze supports manual/auto overdubbing,1.35s mono,loop/reverse,volatile across power/program recall.",
       "remaining": "Factory mapping,elemental maximum,screen/software/direct expression and offers"
+    },
+    {
+      "model": "Zoom RFX-1100",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_RFX1100.pdf",
+      "pages": "6–7,15",
+      "finding": "363preset programs means33effect selections×11variations;not363writable memories.44.1k18bit64xADC/8xDAC. Fullywet bypass mutes;slash algorithms independentparallel paths.",
+      "remaining": "Fullalgorithm/variationinventory,userstorage,simultaneousmaximum,display/power/software andoffers"
     }
   ],
   "discovery_cross_brand_bass": {
