@@ -61709,5 +61709,38 @@
     ],
     "limits": "Textdiagramdoesnotresolveexactrotary/modulebuttontotals;notanalogtruebypassproof",
     "next": "Seek readable manufacturer panel image; continue fresh Shopee brand/series discovery without repeating empty queries"
+  },
+  "discovery_frontier_20261017_additional_series": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"Zoom\" \"GFX-8\"",
+      "site:shopee.co.id \"Korg\" \"AX300G\"",
+      "site:shopee.co.id \"Boss\" \"VF-1\"",
+      "site:shopee.co.id \"Digitech\" \"RP2000\"",
+      "site:shopee.co.id \"Eno\" \"EX\" efek",
+      "site:shopee.co.id \"Aroma\" \"AG-03\"",
+      "site:shopee.co.id \"Cuvave\" \"GT-6\"",
+      "site:shopee.co.id \"Valeton\" \"GP-10\""
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+        "reason": "Replacement pedal sensor, not processor hardware",
+        "indexed_idr": 95000
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+        "reason": "Power adapter, not processor hardware",
+        "indexed_idr": 150000
+      },
+      {
+        "url": "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463",
+        "reason": "Power adapter with current variations, not processor hardware",
+        "indexed_idr": 199000
+      }
+    ],
+    "result": "No qualified new exact hardware offer from this query set. VF-1 aircraft items, stationery and GT6 watches unrelated. Mixed Cube Baby electric/bass/acoustic titles do not identify a new revision or exact purchasable variation.",
+    "limits": "Indexed evidence only; not exhaustive discovery, model absence or live stock proof. Rejected accessory prices must not enter processor comparisons.",
+    "next": "Broaden to other manufacturer series and targeted alternate spellings; do not repeat this unchanged query batch. GP-200 panel counts remain unresolved."
   }
 }
