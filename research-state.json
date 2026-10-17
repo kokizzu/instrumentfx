@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "GNX4 JamMan looping andTypeI/FAT16card32MB–2GB limits confirmed;track-minute table recorded. Next actual selectorbutton/display evidence andremaining USBreturn/simultaneous architecture. Preserve unresolved maximumsingleloopduration andpowerconflict.",
+    "task": "GNX4 confirmed EQ/cabinet tuning saved; repeated selector/display searches inconclusive. Preserve button/display/USBreturn/simultaneous-total/powerconflict unknowns. Next prioritize other recorded-model source gaps or exact Shopee discovery instead of repeating exhausted GNX4 searches.",
     "next_models": [],
     "after_queue": "Other candidates/field gaps; no workflows/push."
   },
@@ -53275,5 +53275,34 @@
     },
     "qualification": "Track-minutes not equivalent to loop-duration ceiling or full eight-track elapsed runtime.",
     "remaining": "Maximum singleloopduration,display,selectorbuttons,power conflict."
+  },
+  "gnx4_eq_checkpoint_20261017": {
+    "source": "https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf",
+    "page": 27,
+    "per_amp_channel": {
+      "bass_center_hz": [
+        50,
+        300
+      ],
+      "mid_center_hz": [
+        300,
+        5000
+      ],
+      "treble_center_hz": [
+        500,
+        8000
+      ],
+      "presence_shelf_hz": 7500,
+      "presence_db": [
+        -12,
+        12
+      ],
+      "cabinet_resonance_octaves": [
+        -1,
+        1
+      ]
+    },
+    "classification": "Per-channel parameters,not extra algorithm models or user IR import.",
+    "controls": "CHAN ONE EQ explicitly button p28;CHAN TWO EQ separately named in creation steps. Complete selector total not yet established."
   }
 }

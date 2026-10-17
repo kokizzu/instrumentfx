@@ -393,7 +393,7 @@ def main():
         if mode == 'commit-mx200':
             message = 'research(lexicon): add MX200 with mixer-path scope and power revision conflict'
         if mode == 'commit-gnx3':
-            message = 'research(digitech): verify GNX4 JamMan looping and CompactFlash limits'
+            message = 'research(digitech): document GNX4 channel EQ and cabinet tuning ranges'
         if mode == 'commit-b1four-followup':
             message = 'research(zoom): resolve B1 FOUR display memory and looper restrictions'
         if mode == 'commit-b1xfour-followup':
