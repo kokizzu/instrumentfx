@@ -28,10 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Kemper PROFILER Player",
-    "task": "Fresh eligible Shopee discovery by manufacturer/series;Player output controls now saved. Retain unresolved category/firmware and image-only XLR pinout gaps.",
-    "next_models": [],
-    "after_queue": "Continue remaining model gaps;no downloads,workflows orpush."
+    "model": "Fractal FM9 MKII Turbo",
+    "task": "Research exact Turbo manufacturer documentation and create root profile in FRACTAL-AUDIO.md;update inventory/comparisons and commit before next model. Keep FM9MKI identity conflict and Stage revision uncertainty explicit.",
+    "next_models": [
+      "Fractal FM9 MKI",
+      "Kemper PROFILER Stage"
+    ],
+    "after_queue": "Fresh eligible Shopee discovery and remaining technical gaps;no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -23811,6 +23814,33 @@
       "indexed_idr": 13134000,
       "seller": "Seven Stereo Music & Audio Store",
       "qualification": "KotaBandung; direct reader returns exact hardware title and ask but stale30August delivery. Condition,stock,paidLevelupgrades,bundle,warranty,voucher unknown. Official product page redirected to regional shell; primary manual research required."
+    },
+    {
+      "model": "Fractal FM9 MKII Turbo",
+      "url": "https://shopee.co.id/Fractal-FM9-MKII-Turbo-Amp-Modeler-Multi-FX-i.11170212.25331147281",
+      "indexed_idr": 44395000,
+      "seller": "Hurtrock Music Store Bandung",
+      "qualification": "Two-week index exact Turbo title;KotaBandung. Direct open JavaScript shell;no condition,stock,bundle,warranty or installed firmware confirmation.",
+      "checked_date": "2026-10-17",
+      "status": "queued exact hardware;not active inventory yet"
+    },
+    {
+      "model": "Fractal FM9 MKI",
+      "url": "https://shopee.co.id/Fractal-Audio-Systems-FM9-MKI-i.1354606623.43322190869",
+      "indexed_idr": 36000000,
+      "seller": "Bersih Jaya Cleaning",
+      "qualification": "Direct body title FM9MKI;KotaSurabaya;stale2–3October delivery. Same item also indexed under old FM3MKII URL slug. Hardware revision/condition/authenticity/current stock unresolved;do not assign Turbo specs.",
+      "checked_date": "2026-10-17",
+      "status": "queued exact hardware;not active inventory yet"
+    },
+    {
+      "model": "Kemper PROFILER Stage",
+      "url": "https://shopee.co.id/Kemper-Profiler-Stage-Guitar-Amp-Simulation-i.16879370.22081209737",
+      "indexed_idr": 29960000,
+      "seller": "Seven Stereo Music & Audio Store",
+      "qualification": "Direct reader exact Stage title/ask;KotaBandung;stale7–9October delivery. MK1/MK2 revision not stated;new/used,stock,bundle,firmware,warranty unverified. Do not borrow Player orMK2 specs.",
+      "checked_date": "2026-10-17",
+      "status": "queued exact hardware;not active inventory yet"
     }
   ],
   "inventory_by_brand": {
@@ -63304,5 +63334,23 @@
     "pages": "23,67–74",
     "finding": "Global main stereo mode,12dBpad,EQ/headphone/DIexceptions,allanalogcuts,masterlinks,constantlatency,phantomprotection distinguished.",
     "remaining": "Custom stereo-XLR wiring is image-only and not inspected;no pinout inferred."
+  },
+  "discovery_fractal_kemper_expansion_20261017": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"Fractal\" \"FM9\"",
+      "site:shopee.co.id \"Fractal\" \"VP4\"",
+      "site:shopee.co.id \"Kemper\" \"Stage\"",
+      "site:shopee.co.id \"Fractal\" \"AX8\""
+    ],
+    "result": "Three exact hardware leads saved;no active model or comparison price added. VP4 no qualifying hardware returned;AX8 only irrelevant search-page output.",
+    "rejected": "Preset packs and Stage protector are accessories/software;not processor prices.",
+    "identity_conflict": {
+      "item": "1354606623/43322190869",
+      "title": "Fractal Audio Systems FM9 MKI",
+      "alternate_slug": "Fractal-Audio-Systems-FM3-MKII-Turbo",
+      "decision": "Keep exact seller/item once as unresolved FM9MKI lead;do not infer FM3 or Turbo revision."
+    },
+    "limits": "Indexed/direct cached body does not prove live stock,condition,authenticity or revision. Search coverage not exhaustive."
   }
 }
