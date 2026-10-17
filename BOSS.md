@@ -2114,15 +2114,16 @@ Checked2026-10-17;partial. Guitar multi-effects; bass/vocal suitability and owne
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in expression;two EXP/CTL sockets for external pedals. Toe switch unverified. | [Product][GT5-P];[Polish manual pp7–8,58][GT5-M] |
-| K/F/B | Separate rotary,footswitch and button counts pending panel corroboration. | Unresolved |
+| K/F/B | **3 rotary /7 footswitches /24 buttons**: VALUE,OUTPUT,rear INPUT VOLUME;NUMBER1–5,BANK,CONTROL;16effect/select buttons,PARAMETER L/R,EXIT,WRITE,MANUAL,GROUP,UTILITY,TUNER/BYPASS. POWER switch separate. Text-derived;visual corroboration pending. | [English manual pp8,73][GT5-E] |
 | Display | Backlit16×2 LCD;diagonal,color/touch unverified. | [Polish manual p58][GT5-M] |
 | Processing / categories | Up to13 simultaneous effects;programmable order;28effects total. Per-category choices and shared restrictions pending. COSM amp/speaker/mic modeling. | [Product][GT5-P] |
 | Preset memory | 150presets+100user patches=250locations;initial user contents unverified. | [Product][GT5-P] |
 | Synth / acoustic | Monophonic HRM synth-like processing and acoustic-guitar simulation documented;not evidence of polyphonic synthesis. | [Product][GT5-P] |
-| I/O | Guitar input;L/MONO+R outputs;stereo mini-jack headphones;send/return;EXP/CTL1+2;MIDI IN/OUT. Connector dimensions beyond stated headphone format pending English-manual cross-check. | [Polish manual p58][GT5-M] |
+| I/O | Guitar input;L/MONO+R outputs;stereo mini-jack headphones;send/return;EXP/CTL1+2;MIDI IN/OUT. English specification confirms the mini-jack wording;other jack diameters still unverified. | [Polish manual p58][GT5-M] |
 | Power / battery / USB | Regional117/230/240VAC,14W;not established universal voltage. DC polarity inapplicable to listed AC supply. Memory backup battery is not operating battery power. USB operation unverified. | [Polish manual pp4,58][GT5-M] |
-| Dimensions / mass | 520×221×113.5mm;4.7kg. Axis labels pending English cross-check. | [Polish manual p58][GT5-M] |
+| Dimensions / mass | **520W×221D×113.5H mm;4.7kg**,confirmed by English specification. | [Polish manual p58][GT5-M];[English manual p73][GT5-E] |
 | IR / NAM / capture | IR import,native/converted NAM and proprietary capture loading unverified. | Unresolved |
+| Analog I/O / conversion | Input−10dBm/1MΩ,return−10dBm/100kΩ;output+4dBm,send−10dBm,both2kΩ. AD22-bit AF/128×,DA18-bit/16×,44.1kHz;these are converter specifications,not native USB audio. | [English manual p73][GT5-E] |
 | Editor / platforms | Official editor and current OS compatibility unverified;MIDI support alone does not establish an editor. | Unresolved |
 | Looper / drums / live | Sound-on-sound recording,auto fade,tuner and Quick Settings documented. Recording duration,drums,scenes and spillover unresolved. | [Product][GT5-P] |
 
@@ -2136,8 +2137,10 @@ Checked2026-10-17;partial. Guitar multi-effects; bass/vocal suitability and owne
 
 <!-- comparison evidence ends -->
 
-Working state,authenticity,bundle,mains variant,warranty,shipping,tax and voucher eligibility unverified. Late-arrival Rp10000 voucher is compensation,not a hardware discount. Polish translation is hosted by Roland and identifies the official distributor;English source and any translation conflicts still need checking. No visual inspection or filesystem download claimed.
+Working state,authenticity,bundle,mains variant,warranty,shipping,tax and voucher eligibility unverified. Late-arrival Rp10000 voucher is compensation,not a hardware discount. Polish translation is hosted by Roland and identifies the official distributor;English manual p73 agrees on display,ports,power,mass and dimensions;remaining translation details still need checking. No visual inspection or filesystem download claimed.
 
 [GT5-P]: https://www.boss.info/fr-ca/products/gt-5/
 [GT5-M]: https://www.roland.com/RolandComSite/media/pl/media/pdf/GT-5.pdf
 [GT5-O]: https://shopee.co.id/EFEK-GUITAR-boss-GT-5-i.205502204.41251758346
+
+[GT5-E]: https://cdn.roland.com/assets/media/pdf/GT-5_OM.pdf

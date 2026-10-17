@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-5",
-    "task": "GT-5 initial product/Polish-manual record saved. Next verify English manual/control counts and processing categories;keep translation/source conflicts and market limitations explicit.",
+    "task": "English manual panel/specification text verified:3rotary/7foot/24buttons. Next targeted English manual category and sound-on-sound research;visual/toe/editor/IR/NAM gaps remain.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee Indonesia discovery;no downloads,workflows or push. RFX-2000 technical gaps remain deferred."
   },
@@ -53881,5 +53881,12 @@
     "manual": "https://www.roland.com/RolandComSite/media/pl/media/pdf/GT-5.pdf",
     "manual_identity": "Roland-hosted Polish official-distributor translation;60pages. English manual support page accessible but PDF link not exposed in browser text.",
     "remaining": "English manual cross-check,control counts,toe switch,category choices,initial user contents,power variants,IR/NAM/editor and recording limits."
+  },
+  "gt5_english_panel_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-5_OM.pdf",
+    "pages": "8,73",
+    "access": "80-page official CDN PDF opens with zero normal text lines;targeted manufacturer search exposes panel and specification text. No visual inspection or filesystem download.",
+    "finding": "3rotary/7footswitches/24buttons;English spec confirms prior ports/display/power/mass and resolves W/D/H labels;analog levels/impedance/converters saved.",
+    "remaining": "Toe switch,per-category choices,initial user contents,sound-on-sound limits,editor and IR/NAM remain unresolved."
   }
 }
