@@ -2572,7 +2572,7 @@ Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2
 |---|---|
 | Instrument scope | Dedicated bass processor [B21-M p.4] |
 | Expression | Built-in assignable pedal with full-down module toggle; external FP01/FP02 is volume-only and shares CONTROL IN with FS01 [B21-M pp.18–21] |
-| Knobs / footswitches / buttons | 4 rotary controls: selector+3parameters;2 main footswitches;6 buttons: Store,Bank±,Tap,Pedal Assign,Rhythm;power separate [B21-M pp.6–7] |
+| Knobs / footswitches / buttons | **4 rotary /2 main footswitches /8 buttons total**: six top buttons (Store, Bank−, Bank+, Tap, Pedal Assign, Rhythm) plus two rear latching push switches (PRE/POST, GROUND). Power and toe action are separate. Earlier six-button count described only the top panel [B21-M pp.6–7] |
 | Display | Two-digit seven-segment LED plus parameter/pedal LEDs;diagonal,color specification unverified;touch unverified [B21-M p.35] |
 | Processing / categories | 47 choices; up to 9 simultaneous including ZNR. Derived module counts: COMP/LIMIT 2; WAH/EFX 8; DRIVE/SYNTH 16 (13 amp/drive + 3 synth); ZNR/MIX 1; LO EQ 2; HI EQ 2; MOD/SFX 10; DELAY 3; REVERB 3. Sum = 47; control settings, bypass and cabinet parameter values are not extra algorithms [B21-M pp.25–34] |
 | Preset memory | 40 ROM + 40 writable = 80; all40 user slots A0–d9 initially duplicate preset00–39. All Initialize overwrites user edits [B21-M pp.4–5,24] |
@@ -2581,6 +2581,7 @@ Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2
 | Audio / control ports | Mono input;stereo output/headphones;balanced XLR pre/post DI with ground lift;CONTROL IN;USB;DC IN [B21-M pp.6–7,35] |
 | Analog levels / conversion | Input1Mohm/−20dBm;96kHz24bit conversion,32bit internal. USB separately16bit stereo32/44.1/48kHz [B21-M p.35] |
 | Power / battery / USB | 9VDC300mA center-negative AD0006;4AA alkaline~6h;USB bus power with POWER OFF; POWER ON selects batteries/adapter even while USB connected. Low-power caveat retained. Actual draw unverified [B21-M pp.2,35,USB appendix] |
+| Routing / XLR DI and ground switches | **POST engaged** sends the processed signal to BALANCED OUT; **PRE disengaged** takes the signal before effects. OUTPUT/PHONES can simultaneously feed a bass amp for monitoring; that external amplifier’s settings do not change the XLR feed. **GROUND LIFT engaged** disconnects the XLR ground pin from the signal path; CONNECT disengaged reconnects it. This documents signal-ground control, not protective-earth switching or proof of phantom-power tolerance. [Own manual pp6,23–24](https://zoomcorp.com/media/documents/E_B21u.pdf) |
 | I/O / output limits | Stereo line/phones **+5dBm maximum into≥10kΩ;20+20mW into32Ω**. XLR **0dB gain;100Ω each HOT/COLD-to-ground,200Ω HOT–COLD**. Manual defines0dBm=0.775Vrms;notation retained. [B21-M pp.23–24,35] |
 | Control / FS01 assignments | Six global choices:bypass/mute,tap,bank-up,rhythm start/stop,delay hold,delay-input mute. Hold requires a compatible delay type;pressing FS01 again cancels hold and resumes normal decay. External expression remains volume-only. [B21-M pp.21–22,34] |
 | USB / monitoring and cable | DAW playback mixes with processed direct input at OUTPUT/PHONES. Manual warns USB-power cables>3m can trigger low-voltage indication. USB MIDI/reamping/editor support unresolved. [B21-M p.23] |
