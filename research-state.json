@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II QME-100",
-    "task": "Matribox II firmware/software additions and shared AMP/FX2 NAMslots saved. Continue architecture/slotcounts,display/control/qualifiedoffers orfreshdiscovery;preserve version distinctions.",
+    "task": "Matribox II exact sold-out Shopee asks saved with region/access/condition/bundle limits. Continue fresh brand/series discovery orunresolved display/control/algorithm/architecture fields.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60641,5 +60641,34 @@
     "conflict": "ComboSpring called reverb but assignedDLY inrelease note;preservedwithoutcorrection",
     "remaining": "Fullcategorytotals,NAMarchitecture/slotcounts,display/buttons,currentOS/batteryUSBpower/qualifiedoffers.",
     "access": "BrowserPDFtextonly;nofirmware/softwaredownload"
+  },
+  "matribox_ii_shopee_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Sonicake\" \"Matribox II\" \"QME-100\"",
+      "site:shopee.co.id \"Sonicake\" \"Matribox 2\" -Pro"
+    ],
+    "offers": [
+      {
+        "shop": "19700013",
+        "item": "23662747212",
+        "idr": 2995000,
+        "seller": "MICKEY MOUSE SHOP",
+        "stock": "Habis",
+        "condition": "unknown",
+        "access": "Directpage monthcrawl;Utara vsoldersearchPusat"
+      },
+      {
+        "shop": "34508293",
+        "item": "26519600396",
+        "idr": 2500000,
+        "seller": "Ricky100",
+        "stock": "Habis",
+        "condition": "unknown",
+        "access": "Monthsearchcache,directCachemiss",
+        "bundle": "Fullsettitleonly;contentsunverified"
+      }
+    ],
+    "excluded": "Pro41903111124andoriginal23073934646notthismodel;MissMarkett1709473448/42877986755voucherimportleadnotpromotedwithoutvariant/checkoutverification",
+    "qualification": "No used/newrange,currentstockorcompleted-saleclaim;regionalfirmware/condition/bundle/shipping/taxunverified."
   }
 }

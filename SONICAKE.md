@@ -337,6 +337,16 @@ Explicit touch support, active used-price evidence and remaining algorithm/prese
 | Firmware / NAM slot and update limits | **1.3.0 firmware/software** add NAM loading in**AMP sharing tone slots withFX2**,plus GlobalTempo overriding preset tempo andJapanese language. **Clone** first appears in firmware**1.2.1** andsoftware**1.2.0**,both2025-04-17;version numbers are distinct. Recalibrate built-in expression after firmware update. These additions do not prove arbitrary native NAM,unlimited captures or independent AMP/FX2 capture storage. [Firmware note](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705); [Software note](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Software_Release_Note.pdf?v=1780541676) |
 | IDR | Used/new current model-specific qualified quotes not established in the original technical page. Historical Shopee discoveries need separate recheck;do not relabel foreign price. |
 
+### Matribox II exact IDR offer evidence
+
+Checked2026-10-17. These are sold-out asks,not completed sales or a verified used/new range. Condition,language,firmware,checkout availability,warranty,taxes/shipping and contents remain unconfirmed.
+
+| Condition / offer | Amount IDR | Exact hardware evidence and limits |
+|---|---:|---|
+| Condition unknown;**Habis** | **Rp2.995.000** | [MICKEY MOUSE SHOP,shop19700013/item23662747212](https://shopee.co.id/Efek-Gitar-SONICAKE-Matribox-II-QME-100-Multi-Effects-Processor-Pedal-i.19700013.23662747212);explicit **Matribox II QME-100**,directpage montholdcrawl. DirectregionKotaJakartaUtara versus3monthsearchKotaJakartaPusat;retain discrepancy. Late-delivery compensation voucher is not price discount or stock proof. |
+| Condition unknown;**Habis**,indexed only | **Rp2.500.000** | [Ricky100,shop34508293/item26519600396](https://shopee.co.id/SONICAKE-MatriBox-II-Fullset-i.34508293.26519600396),KotaBengkulu;montholdsearchcache,directCachemiss. Exact title **Matribox II Fullset**;contents/condition not established by that word;not certified used. |
+
+
 Sources: [official model](https://www.sonicake.com/products/matribox-ii); [firmware1.3.0 original manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623). Original review visually checked panels and printed p.45 specifications;this consolidation is not a fresh image inspection. Earlier official-store **USD229.99** retained as2026-10-14 foreign provenance,excluding destination tax/shipping.
 
 <!-- comparison evidence ends -->
