@@ -607,7 +607,7 @@ def main():
         if mode == 'commit-g5n':
             message = 'research(zoom): establish G5n acoustic simulation and qualify synth-style presets'
         if mode == 'commit-g3xn':
-            message = 'research(zoom): add G3Xn with qualified used offers and revision limits'
+            message = 'research(zoom): verify G3Xn DSP budget and acoustic simulation'
         if mode == 'commit-pod-express-guitar-preservation':
             message = 'fix(line6): restore complete POD Express Guitar provenance and dimensions'
         if mode == 'commit-pod-express-bass-preservation':
