@@ -350,3 +350,42 @@ GNX4 reverb source: [G4-R44: manufacturer manual printed p.44 on Manualshelf](ht
 GNX4 delay source: [G4-R43: manufacturer manual printed p.43,indexed text on Manualshelf](https://www.manualshelf.com/manual/digitech/gnx4/user-guide-english/page-53.html),checked2026-10-17;direct page open cache-missed. Same model/chapter/parameter sequence as original manufacturer manual. Stompbox Zone low/high controls are marked X-Edit-only in original p.38;panel knob count does not describe all editable parameters.
 
 GNX4 modulation source: [G4-MOD39: manufacturer owner-manual text,printed p.39,ManualMachine](https://manualmachine.com/digitech/gnx4/1120255-user-manual/),indexed text checked2026-10-17; same GNX4 Matrix/parameter identity. Fifteen choices counted once:Chorus,Flanger,Phaser,Triggered Flanger,Triggered Phaser,Tremolo,Panner,Vibrato,Rotary,AutoYa,YaYa,SynthTalk,Envelope Filter,Detune,Pitch Shift. Only one at a time. Gate attack values are parameters,not extra gate types. No generated FAQ used.
+
+## RP200
+
+Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified. Distinct from RP200A.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in assignable pedal with stored minimum/maximum. Toe switching and external expression unverified. | [Manual pp27–28][RP200-M] |
+| K/F/B | **3 rotary / 2 footswitches / 3 buttons** (Select, Rhythm, Store), text-derived; visual check pending. | [Manual pp3–4][RP200-M] |
+| Display | Preset/parameter display; diagonal, color and touch unverified. | [Manual p4][RP200-M] |
+| Processing / categories | **Up to 12 simultaneous effects**; detailed category alternatives pending. | [Manual p31][RP200-M] |
+| Preset memory | **40 user + 40 factory = 80**; initial user bank duplicates factory sounds. | [Manual p9][RP200-M] |
+| Synth / acoustic | SynthTalk documented; acoustic simulation unverified. | [Manual p31][RP200-M] |
+| I/O | ¼-inch TS input; ¼-inch stereo TRS output; ⅛-inch stereo AUX and headphones; power input. | [Manual pp5,31][RP200-M] |
+| Power / battery / USB | **9 V AC, 1.3 A PS0913B supply; 6.8 W consumption**. Supply rating is not unit current draw. Battery/USB operation unverified. | [Manual p31][RP200-M] |
+| Dimensions / mass | **8.5 L × 10 W × 2.25 H inches; 3 lb**. | [Manual p31][RP200-M] |
+| IR / NAM / capture | Import, native/converted NAM and proprietary captures unverified. | Unresolved |
+| Editor / platforms | Editor and current OS support unverified. | Unresolved |
+| Live / practice | **30 drum patterns**; tuner and bypass via paired footswitches. Looper/scenes unverified. | [Manual pp3,31][RP200-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No qualified condition-specific amount. | — |
+| New | No qualified condition-specific amount. | — |
+| Unverified condition | **Rp500.000**; AULIA ZOKAM.SHOP, shop118784596/item11727599440, Kota Jakarta Barat. Browser text checked 2026-10-17, crawled five months ago, **Habis**, May11–14 delivery estimate. Historical ask, not live stock or completed sale. | [Shopee][RP200-O] |
+
+<!-- comparison evidence ends -->
+
+Working state, bundle, adapter inclusion, authenticity, warranty, shipping, tax and voucher eligibility unverified. Condition cannot be inferred from price.
+
+Source identity caveat: official DigiTech directory links this 40-page PDF as RP200; declaration and body identify RP200, but back cover says “RP100 Owners Manual 18-6372-A”. Preserve the apparent label discrepancy. Printed pages are PDF page indices minus five. No file download or visual inspection claimed.
+
+[RP200-M]: https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP200_UsersGuide.pdf
+[RP200-O]: https://shopee.co.id/EFEK-GITAR-DIGITECH-RP200-i.118784596.11727599440
+[RP200-D]: https://digitech.com/product-manuals/

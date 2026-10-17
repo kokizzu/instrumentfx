@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 250,
+  "active_model_count": 251,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 250,
+  "canonical_root_model_count": 251,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "250 unique active/root-canonical models;0legacy-only;31brands;6excluded archives. AX100Gguitar,bass/vocalunclassified;allpartial.",
+  "count_reconciliation": "251 unique active/root-canonical models; 0 legacy-only; 31 brands; 6 excluded archives. RP200 guitar; bass/vocal unclassified; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP200",
-    "task": "Verify exact RP200 manual via official DigiTech product-manual directory link 308; record hardware and qualified historical Rp500000 Shopee offer. Distinguish RP200 from RP200A and preserve unknown condition.",
+    "task": "RP200 primary record saved. Next verify category alternatives, routing and expression restrictions from own manual; retain unresolved fields and historical offer qualifications.",
     "next_models": [],
     "after_queue": "Resolve BOSS ME-8 exact Shopee item if possible, then continue brand/series discovery. AX100G, ME-30, GT-5 and RFX-2000 retain deferred gaps. No downloads, workflows or push."
   },
@@ -23930,7 +23930,8 @@
       "RP1000",
       "RP155",
       "GNX3",
-      "GNX4"
+      "GNX4",
+      "RP200"
     ],
     "Korg": [
       "PANDORA stomp",
@@ -24244,7 +24245,8 @@
       "RP1000",
       "RP155",
       "GNX3",
-      "GNX4"
+      "GNX4",
+      "RP200"
     ],
     "KORG.md": [
       "PANDORA stomp",
@@ -24293,7 +24295,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 203,
+      "record_count": 204,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41256,10 +41258,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 250,
-    "canonical_root_models": 250,
+    "unique_brand_model_pairs": 251,
+    "canonical_root_models": 251,
     "legacy_only_models": 0,
-    "guitar_view_models": 203,
+    "guitar_view_models": 204,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 49,
@@ -41319,7 +41321,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX100G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP200."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41498,6 +41500,7 @@
       "DigiTech::RP155",
       "DigiTech::GNX3",
       "DigiTech::GNX4",
+      "DigiTech::RP200",
       "Korg::PANDORA stomp",
       "Korg::AX3000G",
       "Korg::AX1500G",
@@ -43458,6 +43461,13 @@
     },
     "DigiTech::GNX4": {
       "link": "DIGITECH.md#gnx4",
+      "source_files": [
+        "DIGITECH.md"
+      ],
+      "finding_files": []
+    },
+    "DigiTech::RP200": {
+      "link": "DIGITECH.md#rp200",
       "source_files": [
         "DIGITECH.md"
       ],
@@ -54102,5 +54112,11 @@
       }
     ],
     "search_limits": "Limited AX10B/ME-8/RP200 search; absence of a resolved AX10B result is not evidence of market absence."
+  },
+  "rp200_primary_checkpoint_20261017": {
+    "manual": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP200_UsersGuide.pdf",
+    "directory": "https://digitech.com/product-manuals/",
+    "identity_caveat": "Official RP200 link, declaration/body RP200; back-cover RP100 label retained.",
+    "remaining": "Visual controls/display, detailed category choices, toe/external EXP, actual current, battery/USB, editor/IR/NAM, condition-specific prices."
   }
 }
