@@ -157,12 +157,13 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee
 | Synth / acoustic | Dedicated algorithms unresolved;acoustic PROFILEs alone do not establish a simulator. |
 | IR / NAM / captures | Proprietary amp PROFILING creation documented [kh-p]. IR formats,native/converted NAM and current capture-version restrictions unresolved. |
 | Audio I/O | Front¼-inchTS1Mohm;balanced alternative TRS825kohm;balanced XLR/¼-inch return825kohm. Main stereo balancedXLR/unbalancedTS;monitor anddirect/send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz,master/slave [kh-s]. Exact stereo-monitor routing and phantom details require matching manual. |
-| Audio I/O — speaker output | **600W at8ohm /300W at16ohm**, built-in power amp [kh-s];[kh-p]. Connector,minimum load and no-load/grounding restrictions need the exact powered-model manual;not a stereo-power-output claim. |
+| Audio I/O — speaker output | **600W at8ohm /300W at16ohm**, built-in power amp [kh-s];[kh-p]. Manufacturer Main Manual13.0, Rev.May2025, pp.114–116 permits **passive4/8/16ohm loads**, with4ohm output limited to600W and brief protection muting at that limit. **No loads below4ohm;no grounded active devices/power soaks at SPEAKER OUT**. No cabinet connection is required for operation. Power stage follows MONITOR OUT settings;not a stereo-power-output claim. Connector detail/current hardware-label confirmation remains open. [kh-m] |
 | Control / USB | USB-A/B,USB MIDI;DIN in/out/thru;RJ45;two pedal sockets. **4in/4out USB audio**,44.1kHz [kh-s];[kh-p]. |
 | Power / battery / USB operation | **100–125 or190–245V AC,max10A,50–60Hz**, PowerHead/PowerRack rating;not unpowered Rack's mains specification [kh-s]. Region/selection behavior,actual consumption,battery/USB operation unresolved. DC polarity not applicable to mains. |
 | Editor platforms / drivers | Windows/macOS Rig Manager viaUSB; iOS/Android/FireOS via external WiFi router. Driver/OS minima andmobile parity unverified [kh-p]. |
 | Practical features | Morphing,Performance switching,instrument/line external loop and Kone modes documented [kh-p]. Looper/control requirements,drums and gapless qualifications unresolved. |
 | Bass capability | Exact PowerHead MK2 page explicitly identifies electric guitar and bass [kh-p];not a complete bass algorithm or low-end performance audit. |
+| Practical features — power stage controls | Manual13.0 pp.114–116: output-section Power Amp switch; **Power Amp Boost up to12dB**;Power Amp Volume mirrors Monitor Volume. Wattmeter estimates speaker heating and is calibrated to4ohm: halve displayed watts for8ohm,quarter for16ohm. Adequate ventilation required;thermal protection can mute output. Revision-qualified manufacturer guidance,not measured performance. [kh-m] |
 
 ### PowerHead MK2 — separate IDR asking-price evidence
 
@@ -172,6 +173,7 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
+[kh-m]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
 [kh-p]: https://www.kemper-amps.com/store/en/profiler-powerhead-b.html
 [kh-s]: https://www.kemper-amps.com/profiler/technical-specifications
 

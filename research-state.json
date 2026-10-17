@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER PowerHead MK2",
-    "task": "Read powered-model manual for speaker/load/mains restrictions,then controls/display,memory andcapture/software gaps;commit before nextvariant.",
+    "task": "PowerHead controls/display,memory,IR/NAM,capture/software,qualifiedoffers;commit before PowerRack.",
     "next_models": [
       "Kemper PROFILER PowerRack MK2 lead",
       "Kemper PROFILER Head MK2 lead"
@@ -63618,5 +63618,13 @@
     "finding": "Second exact RackMK2 offer saved with cached-search/access/condition qualifications.",
     "remaining": "Rack still partial:panel/display,Browse/factorymemory,categorycensus,NAM,synth,looper,powerconflict andqualifiedliveoffers.",
     "next": "Proceed exact PowerHeadMK2 manufacturer verification;do not copy unpoweredRack electrical/mass fields."
+  },
+  "powerhead_load_manual13_20261017": {
+    "source": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+    "pages": "Printed114–116",
+    "scope": "Manufacturer May2025MainManual13.0 built-in power stage,explicitPowerHead/PowerRack context.",
+    "finding": "Passive-load/no-load/grounding/protection andwattmeter/boost qualifications saved.",
+    "limits": "No device measurements;exactMK2label/connector/currentrevision still needed.",
+    "next": "PowerHead controls/display,memory,IR/NAM,capture/software,qualifiedoffers;commit before PowerRack."
   }
 }
