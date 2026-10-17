@@ -286,6 +286,19 @@ Checked2026-10-17. The existing Asia Pro Sound item is now readable as a JavaScr
 
 The [manufacturer MP-350 page](https://www.hotone.com/products/multi-effects/Ampero%20II) still documents PC/Mac software separately from USB audio; seller English/international wording does not establish firmware-region interchangeability. Used IDR remains unverified.
 
+### MP-350 — original-manual control reconciliation
+
+Checked2026-10-17. [Manufacturer-authored manual via HTML mirror](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual),**firmware V1.0.2**,printed pp9–12,54–57,69–71. Identity checked against Ampero II naming,built-in pedal,four switches and DIN MIDI;this is not Stage/Stomp. Mirror-generated overview/FAQ excluded. Text-only inspection,no download or visual claim.
+
+| Field | Current evidence / qualification |
+|---|---|
+| Controls K/F/B | **2 /4 /1**,derived from panel inventory:VOLUME,MENU/VALUE,four programmable footswitches,screen-lock button. Encoder presses counted once;power and pedal toe separate. Supersedes historical ?/4/? above;visual corroboration pending. |
+| Expression | Built-in EXP1/2 functions toggle under strong toe pressure;external **one¼TRS EXP/CTRL** accepts EXP3 or single/dual momentary footswitch. Panel andglobal menu support one socket. One expression paragraph says EXP/CTRL1/2,inconsistent with those sections;retain source error andolder two-socket global-spec claim as provenance. |
+| Presets | **300 fully editable/savable patches=75×4** inV1.0.2. Factory-filled subset remains unverified;do not infer156user oranother sibling split. |
+| Expression / targets | Up to4 targets per pedal configuration;external EXP3 calibration does not require the builtin strong-toe step. Physical toe-switch mechanism remains unverified. |
+
+These current manual qualifications supersede the historical unresolved control/toe/overwrite descriptions without removing their source observations. Complete current algorithms andlater firmware changes still need verification.
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

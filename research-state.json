@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee series discovery after MP-350 follow-up",
-    "task": "Existing MP-350 Asia Pro Sound offer now direct-readable; historical failed access retained. Next search eligible exact hardware by brand/series,or resolve primary-source controls/EXP conflicts;do not duplicate this item.",
+    "model": "Hotone Ampero II MP-350 manual follow-up",
+    "task": "V1.0.2 manual resolves text-derived2/4/1 controls,strongtoe toggle andoneEXP/CTRL;source1/2 typo retained. Next check current algorithm/effect list orresumeShopee discovery;do not recopy Stage/Stomp.",
     "next_models": [],
-    "after_queue": "284partial models;no downloads/workflows/push."
+    "after_queue": "284partialmodels;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41400,7 +41400,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee series discovery after MP-350 follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350 manual follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57357,5 +57357,26 @@
     "variant": "Title English/international claim only",
     "action": "Updated access provenance for existing offer,not a new model or duplicate item",
     "manufacturer": "https://www.hotone.com/products/multi-effects/Ampero%20II"
+  },
+  "mp350_manual_controls_20261017": {
+    "source": "https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual",
+    "identity": "Manufacturer original manual firmwareV1.0.2;Ampero II four footswitches and built-in pedal,not Stage/Stomp;generated mirror overview excluded",
+    "pages": "9–12,54–57,69–71",
+    "controls": {
+      "rotaries": 2,
+      "footswitches": 4,
+      "buttons": 1,
+      "method": "Text panel inventory;encoder presses once,power/toe separate;not visually corroborated"
+    },
+    "expression": "Panel andglobal setup one¼TRS EXP/CTRL,EXP3orSingle/DualFS;builtinEXP1/2strongtoe toggle",
+    "conflict": "Oneexpression passage saysEXP/CTRL1/2;olderglobalspectwo-socket claim preserved",
+    "memory": "300 fully editable/savable,not factory-filled count",
+    "remaining": [
+      "Current algorithm totals",
+      "Factory-filled subset",
+      "Later firmware changes",
+      "Visual control corroboration",
+      "Physical toe-switch mechanism"
+    ]
   }
 }
