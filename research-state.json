@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Player",
-    "task": "Compare current14.2 effect list and release notes against table discrepancy;continue fresh discovery.",
+    "task": "Resolve remaining Player category/revision conflicts and internal IR formats,then fresh eligible Shopee discovery. IR import acceptance and Rig migration now saved.",
     "next_models": [],
     "after_queue": "Continue remaining model gaps;no downloads,workflows orpush."
   },
@@ -63288,5 +63288,13 @@
     "conflict": "Essential Chorus heading says5 but lists4 names;additions and essential sums do not reach91. No missing algorithms inferred.",
     "limits": "Published historical upgrade-table taxonomy,not installed firmware census;fixed processing excluded.",
     "next": "Compare current14.2 effect list and release notes against table discrepancy;continue fresh discovery."
+  },
+  "player_ir_compatibility_142_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English",
+    "revision": "July2026 OS14.2",
+    "pages": "167–174",
+    "finding": "Any sample rate/length accepted at desktop conversion stage;18preinstalledCelestionIRcab presets;LevelI unavailable effects empty except Natural→EasyReverb;III excludesloops.",
+    "limits": "Import acceptance does not establish unlimited internal IR length,format support or extra memory. No files imported or downloaded."
   }
 }
