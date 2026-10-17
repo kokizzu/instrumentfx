@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Player",
-    "task": "Inspect current14.2 manufacturer manual to resolve revision/Fixed FX counts and PROFILE2.0 setup; otherwise fresh eligible Shopee discovery. Preserve Level and power conflicts.",
+    "task": "Continue Player14.2 exact effect inventory,PROFILE2.0 cabling and revision transitions;fixed-effect topology now saved. Resume fresh eligible Shopee discovery after model findings commit.",
     "next_models": [],
     "after_queue": "Continue remaining model gaps;no downloads,workflows orpush."
   },
@@ -63230,5 +63230,13 @@
       "finding": "Official current page identifies MKII Turbo, July2023 revision, over10% extra DSP and larger footswitch displays versus original. Explicit guitar/bass multi-effects, 4x4 USB audio, two pedal/switch jacks, three footswitches, 1024 user IRs. Full manual/panel/specification verification next; original FM3 listing not merged."
     },
     "limits": "Indexed offers and cached direct body are not live stock, condition, authenticity, warranty or bundle certification."
+  },
+  "player_fixedfx_142_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English",
+    "revision": "OS14.2 RevJuly2026",
+    "pages": "38,148–150",
+    "finding": "4/4/8flexible modules versus16/16/20total serial blocks;seven additional fixed effects and existing Transpose/InputGate/Volume distinctions;mono-pre/stereo-post and Rig-change DLY/REV spillover.",
+    "limits": "Manufacturer manuscript on mirror,identity/revision checked;installed seller OS unknown;complete algorithms/transition dates remain unresolved."
   }
 }
