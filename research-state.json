@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fender Mustang Micro Plus",
-    "task": "MP-2 categories/driver qualifications saved;remaining gaps deferred. Verify queued exact Shopee Micro Plus offer against own manufacturer manual,then add root Fender record and guitar comparison;commit before Dapper Amp Mini.",
+    "task": "Micro Plus own product and1.1.11bass firmware evidence saved;read own manual before canonical addition. Include firmware-qualified bass support and preserve reset/cloud limits. Shopee offer historicalconditionunknown;do not duplicate standardMicro.",
     "next_models": [
       "Valeton Dapper Amp Mini"
     ],
@@ -55822,5 +55822,40 @@
     "saved": "Named14Pre-EFX/6MOD/4delay/4reverb;driver-free recording prose kept separate from listed ASIO versions and editor OS.",
     "deferred": "All remaining MP-2 control/expression/display,IO/charging,memory/simultaneous/import/desktopeditor and condition-specific offer gaps remain explicit.",
     "next": "Proceed Mustang Micro Plus own-manual verification;never copy standard Mustang Micro specifications."
+  },
+  "mustang_micro_plus_primary_checkpoint_20261017": {
+    "model": "Fender Mustang Micro Plus",
+    "unrecorded": true,
+    "product": "https://intl.fender.com/products/mustang-micro-plus",
+    "firmware": "https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions",
+    "product_facts": "25amps/25effects launch specification;100editable slots,70factory presets;OLED display;master volume and8buttons(Preset±,EQ±,Modify±,Tap/Tuner,Save). Quarterinchplug,eighthinchstereoheadphone,USB-Cbidirectionalrecording/update/charging;Bluetooth5.1;ToneiOSAndroid.>4hLiion;600mAmax;80H38.1W30.7Dmm54g. Diagonal/color/touch,powerinput/batterycapacity,expression/fullarchitecture remain unresolved.",
+    "revision": "2026-01-14 firmware1.1.11 adds10bassamps beyond launch25;do not silently leave25total or assume installed firmware. Initial1.0.29dated2024-09-05.",
+    "bass_models": [
+      "Super Bassman",
+      "Rumble v3 2x10",
+      "Rumble v2 1x15",
+      "Bassman TV",
+      "Showman 2x15",
+      "Rockin’ Peg",
+      "'66 Flip Top",
+      "Redhead",
+      "KGB-800",
+      "Monster"
+    ],
+    "firmware_limits": "1.1.11 adds9dBinputpad and input-mute-disable for some highimpedance/piezo instruments. Knownissue:bass-amp cloud presets not visible. Adding bass factory presets viaTap+Savepower-on resets all presets;backup first. No update/reset performed.",
+    "manual_candidate": "https://www.fmicassets.com/Damroot/Original/10062/OM_2311600000_Mustang-Micro-Plus_EN.pdf",
+    "manual_access": "InferredEnglishpath from official translated manual naming;browser rejected document/pdf content-type. Not read;no specs attributed to it. Productpage downloadlabels not clickable in extracted content.",
+    "offer": {
+      "model": "Fender Mustang Micro Plus",
+      "url": "https://shopee.co.id/Fender-Mustang-Micro-Plus-Guitar-Combo-Amplifier-Headphone-Guitar-Amp-i.16879370.26916147755",
+      "seller": "Seven Stereo Music & Audio Store",
+      "shop": "16879370",
+      "item": "26916147755",
+      "region": "Kota Bandung",
+      "idr": 2635000,
+      "crawl": "three months",
+      "condition": "unverified"
+    },
+    "remaining": "Read exact manual,verify controls and simultaneous effects/category choices,memoryrevision/power/IR/NAM/editorOS/display;add guitar and firmware-qualified bass membership. No model count increment yet."
   }
 }
