@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX1000",
-    "task": "SPX1000 Freeze5.8/2.9sec andfixedmulti/twochannelarchitecture saved. Next samplepersistence,mass,userinitialfill andremainingownmanualspecifications;visual/softwaregaps remain.",
+    "task": "SPX1000 repeatedoverdub,reverse/pretrigger andanalogconversion saved. Poweroffsampleretention,mass,userinitialfill andoutputimpedanceunit unresolved. Next targeted ownmodel evidence,then resolveRFX2000exactoffer.",
     "next_models": [
       "Zoom RFX-2000 (resolve exact item first)"
     ],
@@ -53732,5 +53732,11 @@
     "pages": "21–27",
     "finding": "Freeze1/2 5.8sec,stereo2.9sec;Freeze1singleplayback,Freeze2heldtriggerloop;fixedmultiFX28–30andindependenttwochannel31–35distinguished.",
     "remaining": "Samplepersistence/overdub,mass,userinitialfill,fullroutingvisualandsoftwaregaps."
+  },
+  "spx1000_overdub_spec_followup_20261017": {
+    "source": "https://usa.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf",
+    "pages": "21–23,Add-31",
+    "finding": "RepeatedOVERDUBdistinctfromdestructiveRECORD;reverse/pretrigger/MIDIpitchedplayback;16bit44.1kHzconversion and50k/25kinputimpedance. Output220unitnotlegible;massnotfoundintext.",
+    "remaining": "Poweroffsampleretention,userinitialfill,mass,outputimpedanceunit,visual/softwarefields;do notborrow siblings."
   }
 }

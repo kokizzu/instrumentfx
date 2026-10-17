@@ -150,7 +150,9 @@ Checked2026-10-17;partial. Own compressor description includes electric guitar a
 | Dimensions / mass | **480W×45.2H×319D mm**;mass unverified. | [Manual Add-31][S1-M] |
 | IR / NAM / capture | User IR,native/converted NAM and capture support unverified. | Unresolved |
 | Editor / platforms | Current editor,drivers and computer OS support unverified;MIDI dumping does not establish editor support. | Unresolved |
-| Looper / drums / live | Freeze1/2 sample up to5.8seconds;Stereo Freeze up to2.9seconds with independent L/R sampling. Freeze1 provides single playback with adjustable START/END. Freeze2 loops START→LOOP continuously while trigger remains on;LOOP FINE±200 refines the transition. Manual/automatic recording documented. Persistence,overdub,drums,scenes and patch spillover remain unverified. | [Manual pp21–23][S1-M] |
+| Looper / overdub and reverse | RECORD replaces existing Freeze audio; OVERDUB adds another recording over existing audio and can be repeated. Manual/automatic triggering supported. Trigger delay−5800 to+1000ms permits pre-trigger capture. END earlier than START plays backward; MIDI notes can trigger pitched sample playback. Program-memory backup does not establish sampled-audio retention. | [Manual pp21–23][S1-M] |
+| I/O / analog conversion | Unbalanced stereo analog I/O,+4/−20dBm selectable;16-bit A/D and D/A,44.1kHz except digital input. Published input impedance50kΩ stereo/25kΩ mono;output impedance text reads220 without legible unit,so unit unverified. | [Manual Add-31][S1-M] |
+| Looper / drums / live | Freeze1/2 sample up to5.8seconds;Stereo Freeze up to2.9seconds with independent L/R sampling. Freeze1 provides single playback with adjustable START/END. Freeze2 loops START→LOOP continuously while trigger remains on;LOOP FINE±200 refines the transition. Manual/automatic recording documented. Overdub/reverse details below;power-off sample persistence,drums,scenes and patch spillover remain unverified. | [Manual pp21–23][S1-M] |
 
 ### Separate IDR hardware offers
 
