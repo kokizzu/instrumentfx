@@ -690,4 +690,4 @@ These other guitar/acoustic records have **not been certified bass-capable or un
 
 ## Scope and provenance
 
-Instrument views overlap and must not be summed. All 311 active models count once in `research-state.json`; the six explicitly excluded archives never enter these tables. Former/donated eligible devices remain without private receipt/order/payment details. Root brand records take precedence where consolidated; legacy sources remain for full evidence until a checked lossless merge. No GitHub workflow is used.
+Instrument views overlap and must not be summed. All 312 active models count once in `research-state.json`; the six explicitly excluded archives never enter these tables. Former/donated eligible devices remain without private receipt/order/payment details. Root brand records take precedence where consolidated; legacy sources remain for full evidence until a checked lossless merge. No GitHub workflow is used.

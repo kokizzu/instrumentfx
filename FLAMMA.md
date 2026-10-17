@@ -517,3 +517,35 @@ Remaining: original PDF/revision and visual-panel verification,precise module/co
 [F50-O]: https://drive.google.com/file/d/1LI5yhmRi2RcL11uutGhTCeX7k6KgW6nh/view?usp=drive_link
 [F50-D]: https://flammainnovation.com/download.html
 [F50-E]: https://www.flammainnovation.com/single.html?id=147
+
+## FV05 Recorder
+
+Checked2026-10-17;partial. Vocal multi-effects/looper; guitar input supplies reverb only, so no guitar/bass multi-effects membership. Not the excluded FV01. [Product](https://flammainnovation.com/single.html?id=123).
+
+| Field | Finding |
+|---|---|
+| Expression | No treadle/toe/EXP in documented layout;external expression unverified. |
+| Knobs / footswitches / buttons |4 rotary(SONG,NG,PLAY LEVEL,GAIN);1 footswitch;1 TONE button;3 toggles(48V,LINE IN,LIFT/GND). |
+| Display | Status LEDs;screen/diagonal/color/touch specification unavailable. |
+| Simultaneous / category choices | Vocal EQ with compression,noise gate,reverb;3 EQ modes FLAT/WARM/BRIGHT. Individual effect controls;no freely assignable DSP ceiling established. |
+| Presets / memory |11 recording slots,not11 tone presets. Factory/user effect-memory counts unverified. |
+| Synth / acoustic | Guitar reverb does not establish acoustic simulation;dedicated synthesis/harmony/pitch correction unverified. |
+| IR / NAM / capture |User IR,native NAM,converted NAM,proprietary capture each unverified. |
+| I/O |6.35mm mono guitar in1MΩ/unbalanced out100Ω;XLR mic in2.14kΩ/balanced out300Ω. No headphones,MIDI,USB established. [Product](https://flammainnovation.com/single.html?id=123). |
+| Power |9V DC,center-negative;manual specifies1.5A draw and1.5A adapter. Phantom startup briefly increases current;original supply recommended. Battery/USB operation unverified. |
+| Dimensions / weight |Manual86.6D×125W×60H mm versus product86×125×60mm without axes. Weight unknown. |
+| Editor / drivers / USB | Editor platforms,audio drivers,updater,mobile software and USB audio unverified. |
+| Looper / recording |70min total/unlimited overdubs;slots1–8 five minutes,9–11 ten minutes. Recordings survive slot changes/power-off. Auto-record optional. Double-tap stop;hold1s stopped deletes slot;hold1s after dub undo/redo. |
+| Routing / phantom |Switchable48V;LINE IN uses XLR MIC socket,bypasses GAIN. Ground-lift for balanced output. |
+| Reverb controls / live use |Hold TONE for hidden mode;NG then controls vocal reverb,PLAY LEVEL guitar reverb. Main footswitch handles recording;effect-bypass behavior unresolved. |
+| Drums / scenes / gaps |Drums,scenes,spillover,conversion rate/bit depth,weight,expression,effect-memory and current-condition offers unresolved. |
+
+Source for manual-specific fields: [original manufacturer V02_2024.01.08](https://www.flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1/M00/00/0B/wKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf),14PDFpages/11printed,complete text read. TONE is called a knob in hidden-mode prose despite push-button layout;no extra rotary inferred. Manual lists supplied power adapter;product accessory list omits it,so seller bundle must be checked. No visual verification claimed.
+
+| Condition / IDR evidence | Seller / item / qualifications |
+|---|---|
+| New | No condition-qualified hardware quote verified. |
+| Used | No condition-qualified hardware quote verified. |
+| Condition unresolved:Rp6,790,000 |[Exact Shopee item1753862723/29944964032](https://shopee.co.id/FLAMMA-FV05-Recorder-Vocal-Guitar-Effects-Pedal-70-Minutes-Recording-Capacity-Noise-Gate-Reverb-i.1753862723.29944964032),link recovered from [Vocal Recorder category](https://shopee.co.id/list/Vocal/Recorder),checked2026-10-17,last-month body. Direct cache miss;seller name,region,condition,working state,stock,revision,variant,adapter/bundle,warranty,voucher,shipping/tax/final total unknown. Not live stock or completed sale. |
+
+A category search also showedRp4,502,768 for another FV05 title without an exact item link;not accepted as this item's price or a verified hardware offer. No downloads or dependency installation.
