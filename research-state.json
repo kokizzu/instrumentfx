@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Matribox II Pro regional body/concurrency/electrical specs and converted NAM A2 saved. Continue controls/screen/bass evidence and MIDI contradiction,or fresh discovery;do not repeat resolved fields.",
+    "task": "Matribox II Pro regional1.1.1 manual screen/control/toe/polarity evidence saved;5V/9V andTS/TRS contradictions retained. Continue bass-specific algorithms/MIDI/currentfirmware evidence orfreshdiscovery.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee brand/series discovery and unresolved technical verification;no downloads,workflows orpush."
   },
@@ -60427,5 +60427,21 @@
     ],
     "conflicts": "Regional MIDI IN/OUT/THRU vs global FAQ no MIDI out;unbalanced quarterinch TRS notation retained without correction.",
     "remaining": "Screen diagonal/resolution,rotary/button/toe inventory,polarity,batteryUSBpower,bass evidence,NAM accepted architectures and category subcounts."
+  },
+  "matribox_ii_pro_regional_manual_20261017": {
+    "source": "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+    "identity": "Official regional product manual link;66pages;coverfirmware1.1.1;body explicitly MatriboxIIPro and matching sixswitch layout",
+    "findings": [
+      "4.3inchcolor touch;5rotary6footswitch7frontbuttons from panellegend",
+      "Builtin toe EXP1A/B;two3.5TRSMIDI sockets",
+      "DC9V1000mAcenternegative paneltext"
+    ],
+    "conflicts": [
+      "OpeningcautionDC5Vvsown9Vjack/product",
+      "MainTSoutputmanualvsTRSregionalproduct",
+      "Firmware1.1.1manualnotcurrent1.2.2;MIDIoutputstillglobalFAQconflict"
+    ],
+    "access": "BrowserPDFtextonly;no download or image inspection",
+    "remaining": "Currentfirmware behavior,acceptedNAMarchitectures,fullalgorithmcounts,bassmodel evidence,MIDIoutput/type-A/B and qualifiedused/newoffers."
   }
 }
