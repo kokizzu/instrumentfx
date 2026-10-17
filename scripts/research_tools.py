@@ -377,7 +377,7 @@ def main():
         if mode == 'commit-ms60b':
             message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-rp360xp':
-            message = 'research(digitech): verify RP360XP Sound Check drums and auxiliary routing'
+            message = 'research(digitech): document RP360XP tap access and V-Switch calibration'
         if mode == 'commit-perform-ve':
             message = 'research(tc-helicon): restore PERFORM-VE routing conflicts and qualified offer coverage'
         if mode == 'commit-perform-vg':

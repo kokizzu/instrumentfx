@@ -95,6 +95,16 @@ Checked 2026-10-18 against the manufacturer-authored manual copy; prior record d
 | Drums / tempo and persistence | **60 drum/metronome patterns;40–240 BPM**. Pattern,tempo and level are global, not stored per preset. The existing requirement to clear recorded loops before using drums remains. | [Own manual copy pp30–31][RPXP-MM] |
 | I/O / auxiliary playback routing | AUX audio bypasses effects and reaches LEFT OUT,RIGHT OUT and HEADPHONE outputs. Playback-device volume and RP Master Level set the listening balance. This does not independently resolve whether AUX reaches USB recording. | [Own manual copy p32][RPXP-MM] |
 
+### RP360XP tap tempo and pedal calibration limits
+
+Checked 2026-10-18 against the manufacturer-authored manual copy; no calibration or reset performed.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Live / tap tempo access | Requires **Stomp Mode**, a delay in the loaded preset and that delay assigned to an onboard footswitch. Hold its switch about2seconds to enter tap mode, tap to set delay time, then hold about2seconds to exit. This is not a permanently dedicated tap switch. | [Manual copy p33][RPXP-MM] |
+| Expression / preset endpoints and V-Switch | Assignment and MIN(toe-up)/MAX(toe-down) values save per user preset. V-Switch toggles wah only when a wah resides in the chain; toe-down pressure alone does not establish arbitrary effect switching. Calibration adjusts V-Switch sensitivity:FS1 decreases,FS2 increases; toe-pressure test shows ON/OFF;FS3 finishes. BACK aborts calibration. | [Manual copy pp34–35,52][RPXP-MM] |
+| Memory / factory restore scope | Restore resets user presets and system settings and then prompts RP360XP pedal calibration. It is distinct from calibration alone; edited user sounds are lost. No reset was run during this documentation audit. | [Manual copy p53][RPXP-MM] |
+
 ## RP255
 
 Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
