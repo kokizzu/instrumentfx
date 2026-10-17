@@ -50376,6 +50376,15 @@
       "pages": "26,28",
       "finding": "71category subtotal reconciled;4digit14segmentLED;46.875kHz andanalog levels recorded.",
       "remaining": "Complete controls/ports,maximum simultaneous architecture,display diagonal andqualified offers"
+    },
+    {
+      "model": "Behringer FX2000",
+      "checked_date": "2026-10-17",
+      "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf",
+      "access": "indexed exact manufacturer text;direct open failed",
+      "pages": "12,16–17",
+      "finding": "Dual-engine combinations serial1/serial2/parallel;6rotary derived;preset loading1s withsuppression;EXTN100%wet vsINTN mix;SysEx audio inactive;sampler clears on effect change.",
+      "remaining": "Fullpanel buttons/ports,display diagonal,firmware/editor andqualified offers"
     }
   ],
   "discovery_cross_brand_bass": {

@@ -133,9 +133,9 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 |---|---|
 | Instrument scope |Guitar,bass,vocal andkeyboard documented [FX-P];amp/mixer send-return levels must be set appropriately [FX-Q] |
 | Expression |Built-in pedal/toe absent from rack control description;external expression mapping unverified |
-| Knobs / footswitches / buttons |EDIT controls andJOG wheel documented;complete rotary/button count pending fullpanel inventory.0built-in footswitches;power switch separate [FX-Q] |
+| Knobs / footswitches / buttons |**6rotary derived**:4EDIT,MIX/BYPASS,JOG.0built-in footswitches. Complete separate button count pending panel verification;MIX push is not an extra rotary. Power switch separate [FX-M p.16] |
 | Display |4-digit14-segment alphanumeric LED display;diagonal,color andtouch specifications unverified [FX-Q p.28] |
-| Processing / categories |71algorithms,including combination algorithms;not71simultaneous effects. Own guide enumerates12reverbs+3delays+15modulation+8dynamics+6psychoacoustic+4filter/EQ+7distortion/amp+5special+11combination=71choices [FX-Q p.26]. Maximum simultaneous architecture still unresolved [FX-P] |
+| Processing / categories |71algorithms,including combination algorithms;not71simultaneous effects. Own guide enumerates12reverbs+3delays+15modulation+8dynamics+6psychoacoustic+4filter/EQ+7distortion/amp+5special+11combination=71choices [FX-Q p.26]. Dual-engine combinations61–71 support serial1,serial2 orparallel;not a freely assembled chain of71blocks [FX-M pp.12,17] |
 | Preset memory |100internal+100user=200;quick-guide factory chart fills both banks. Writable user locations;fixed-bank editing/persistence details pending [FX-Q] |
 | Synth / acoustic |Vocoder,Resonator andRingModulator documented;not proof of a general instrument synth or dedicated acoustic simulator. RSM acoustic-environment modeling is not acoustic-guitar simulation [FX-P] |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured capture import unverified |
@@ -144,7 +144,7 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 | Power / battery / USB |IEC mains;regional120V60Hz,230V50Hz,100V50/60Hz,and120/230V50/60Hz export versions.15W maximum;not universally autoranging. Battery/USB operation unverified;DC polarity not applicable to listed mains connection [FX-Q] |
 | Dimensions / weight |W483×D217×H44.5mm;netapprox1.9kg;shipping3.2kg is not unit mass [FX-Q] |
 | Editor / software |MIDI SysEx backup documented;full editor andplatforms unresolved. No USB editor/audio inferred [FX-P] |
-| Looper / drums / live |Sampler up to5s;not a verified full looper. Combination algorithms include Chorus/Reverb,Pitch/Delay andothers. Drums,scenes,spillover androuting restrictions pending [FX-P] |
+| Looper / drums / live |Sampler up to5s;not a verified full looper. Combination algorithms include Chorus/Reverb,Pitch/Delay andothers. Sampler contents clear on effect change [FX-M p.12]. Preset loading takes about1s withbrief signal suppression;not seamless switching. EXTN mixer mode100%wet;INTN amp-loop mode uses MIX. SysEx transfer disables audio [FX-M pp.16–17]. Drums,scenes andspillover unverified [FX-P] |
 
 ### FX2000 — separate IDR evidence
 
@@ -159,6 +159,6 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 
 - [FX-P: exact manufacturer product](https://www.behringer.com/en/products/0828-AAG),indexed primary text.
 - [FX-Q: manufacturer multilingual quick-start guide](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/QSG_BE_0828-AAG_FX2000_WW.pdf),17PDF pages;control/connection text,preset chart andspecifications inspected. No new visual verification claimed.
-- [Full manufacturer manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf),identified but opening failed;not inspected successfully.
+- [FX-M: Full manufacturer manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf),direct opening failed;subsequent manufacturer-indexed text successfully inspected2026-10-17,pp.12,16–17 forcombination architecture,sampler,preset activation androuting. Full PDF body/visual panel remains uninspected.
 
-No files downloaded. Remaining:fullmanual,complete controls/display diagonal,complete ports,simultaneous architecture,software/routing andqualified offers.
+No files downloaded. Remaining:fullmanual,complete controls/display diagonal,complete ports,software/routing andqualified offers.
