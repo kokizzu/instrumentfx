@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero Mini MP-50",
-    "task": "Mini1/2/0controls andunbalancedstereoTRSwiring verified;AUX/USBboundaries saved. IRcapacity/streamformats/currentinventory remain. Next ownmanual IRslots orfreshShopeediscovery;no siblingborrowing/oversizedPDFrepeat.",
+    "task": "Mini documented ten user IR slots and V2.2 L/R dry/wet recording saved. Next fresh Shopee discovery or own-manual algorithm breakdown; USB playback/formats/currentOS remain. No sibling borrowing or oversized PDF repeat.",
     "next_models": [],
     "after_queue": "Continue research and legacy consolidation; no workflows/downloads/push."
   },
@@ -58826,6 +58826,21 @@
     "remaining": [
       "UserIRcapacity",
       "ExactUSBstreamchannels/formats",
+      "CurrentOSmatrix",
+      "Currentcompletealgorithmcounts"
+    ],
+    "downloads": false
+  },
+  "ampero_mini_ir_usb_20261017": {
+    "ir_source": "https://res.hotoneaudio.com/prod/support/MP-50%28Ampero%20Mini%29_Online%C2%A0Manual_EN_Firmware%20V1.1.1716885797823.pdf",
+    "ir_slots": 10,
+    "revision": "FilenameV1.1;indexedtitleV1.0;latercapacitynotestablished",
+    "usb_source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "usb_revision": "V2.2p20",
+    "recording": "L/R each Dry or Effect",
+    "remaining": [
+      "CompleteUSBchannelmatrix/playback",
+      "USBstreamformats",
       "CurrentOSmatrix",
       "Currentcompletealgorithmcounts"
     ],

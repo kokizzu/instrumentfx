@@ -174,6 +174,15 @@ Sources: [effects/findings/2026-10-14-hotone-ampero-mini.md](effects/findings/20
 | I/O / AUX and USB boundaries | The same product page says AUX bypasses internal effects and USB audio. Windows recording requires the driver; macOS is described as plug-and-play, with no current OS-version guarantee. USB Audio2.0 is a protocol specification, not proof of channel count or bus power. Exact USB stream channels/formats and user IR capacity remain unresolved. |
 
 
+### Ampero Mini — user IR storage and USB recording, 2026-10-17
+
+| Field | Verified finding / revision boundary |
+|---|---|
+| IR / user memory | [Hotone-hosted MP-50 manual, filename firmware V1.1](https://res.hotoneaudio.com/prod/support/MP-50%28Ampero%20Mini%29_Online%C2%A0Manual_EN_Firmware%20V1.1.1716885797823.pdf) lists **10 user IR slots (1–10)**; selecting an empty slot silences the output. This resolves the historical unknown for that documented revision, separately from ten Sound Clone files. The indexed document title retains V1.0; no later capacity increase is established. |
+| USB audio / recording routing | [Hotone-hosted Mini firmware V2.2 manual, USB Audio p20](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) gives independent **Dry or Effect choices for left and right recording channels**. Recording gain is −20 to +20 dB; monitor gain −20 to +6 dB, both default0 dB. This establishes the documented L/R recording path, not a complete USB channel matrix, playback count, bit depth or sample-rate list. |
+
+Manufacturer-authored indexed text was read without downloading files, installing software or operating hardware. Current complete algorithm inventory, USB stream formats/playback channels and OS compatibility remain unresolved.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
