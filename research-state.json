@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-8",
-    "task": "ME-8 p14 control actions saved. Next own-manual delay passage and exact panel counts; remaining software/display/market fields unresolved.",
+    "task": "ME-8 master/amp simulator/suppression details saved. Delay passage remains inaccessible through targeted search; try own manual p26 or other official hosting, then panel counts. Do not repeat sibling values.",
     "next_models": [],
     "after_queue": "Continue brand/series Shopee discovery. Preserve RP200, AX100G, ME-30, GT-5 and RFX-2000 deferred gaps. No downloads, workflows or push."
   },
@@ -54225,5 +54225,12 @@
     "page": "14",
     "finding": "Remaining Arm/Trip ranges, Vibrato action, Silent tail removal and CTL-only Tempo/Remote restrictions saved.",
     "remaining": "Exact delay passage, panel counts and existing software/display/market gaps."
+  },
+  "me8_master_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+    "page": "28",
+    "finding": "Two amp simulator choices, suppression threshold behavior, effects-off unity setting and separate CTL/EXP assignments saved.",
+    "search_limit": "Delay queries still returned unrelated/sibling manuals; no values adopted.",
+    "remaining": "Exact delay passage and panel counts, plus existing software/display/market gaps."
   }
 }
