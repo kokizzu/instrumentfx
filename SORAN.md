@@ -206,3 +206,37 @@ The [mirror transcription][DSL-QH] is retained for locating a readable original;
 
 [DSL-Q]: https://device.report/m/3a927c202f4a099de41749af0c98d7c544b926bdf6a02678d84be32686b95e00.pdf
 [DSL-QH]: https://device.report/manual/19170657
+
+## Go Rig II
+
+Effects-only guitar multi-effects, checked 2026-10-18; partial. MOD, DELAY and REVERB make this a multi-effects processor without requiring amp modeling. Bass/vocal suitability and ownership unverified. Distinct JCMS-G3B model; not Go Rig I or Go Rig B.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / toe | No expression pedal or EXP connector in indexed manual’s enumerated controls/ports. No toe implementation established. [GR2-M] |
+| K/F/B | Text-derived nine rotary controls and three main footswitches. Three type selectors, rear Tempo Sync and power switches separate; no separate buttons documented. No visual audit. [GR2-M] |
+| Display | Status LEDs documented; screen diagonal/color/touch unverified. [GR2-M] |
+| Processing / choices | Three independently switched sections: MOD Chorus/Flanger/Tremolo; DELAY Analog/Tape/Digital; REVERB Studio/Spring/Concert. Exact simultaneous ceiling beyond these sections unverified. Product mentions noise gate; indexed controls do not explain it. [GR2-P],[GR2-M] |
+| Factory / user memory | Preset storage/save behavior unverified; selectors are not proof of stored memories. |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified; complements external drive/amp pedals. [GR2-P] |
+| Dimensions / mass | English product:200L×86W×54H mm,535g; indexed manual same dimensions but538g. Chinese product:200×80×52mm,535g. Unresolved revision/localization differences. [GR2-P],[GR2-M],[GR2-CN] |
+| I/O | Mono¼TS input;¼TS outputs L/R;USB-C charging. Manual recommends L for mono,R to second amp for stereo. USB audio/MIDI not established. [GR2-P],[GR2-M] |
+| Power / battery / USB | 500mAh lithium;USB-C5V charging;85mA consumption. Over5h feature claim versus up-to5h overview. Charge-while-playing,USB-only operation/draw conditions unverified;no barrelpolarity established. [GR2-P] |
+| IR / NAM / captures | Loading, native/convertedNAM andcapture unverified;no sibling import support inferred. |
+| Editor / software | Editor/driver/updater/currentOS support unverified. USB connector alone establishes no software capability. |
+| Delay / live | Delay20–1000ms. HoldDelay/MOD1.5s for tap;exits after3s inactivity. TempoSync links MOD rate/Delaytime;off gives independent tempos. HoldReverb forFreeze,release exits. Looper/drums/scenes unverified. [GR2-M] |
+
+### Go Rig II — separate IDR hardware evidence
+
+| Condition | Amount / qualifications | Source |
+|---|---|---|
+| Used | Unknown;no qualifiedusedoffer. | — |
+| New | Unknown;condition notexplicit. | — |
+| Condition unverified;stock unconfirmed | **Rp1,040,000**,CH MUSIC,Jakarta Pusat,shop195817632/item25136364635. Checked2026-10-18;two-monthindex. Bundle/variant/warranty/voucher/shipping/tax unknown;relativetomorrowdelivery notstock proof;Rp10,000latecompensation notdiscount. No completed-sale claim. | [ExactShopee][GR2-S] |
+
+Original manufacturer-hosted manual’s indexed text identifies GO RIG II,matching controls andJCMS-G3B filename;directPDF access failed. Values above are indexed original-text evidence,not a complete PDF/image inspection. Another selleritem636865109/23590156075 has a staleBehringerEQ700 URLslug butGoRigII body:identity must be resolved beforeprice acceptance. No files downloaded orsoftware installed.
+
+[GR2-P]: https://www.soranaudio.com/products/31.html
+[GR2-M]: https://www.soranaudio.com/upload/files/article/20251124/17639478809117099.pdf
+[GR2-CN]: https://www.soranaudio.com/cn/products/14.html
+[GR2-S]: https://shopee.co.id/Soran-GO-RIG-II-Electric-Guitar-Multi-effects-Stompbox-Soran-JCMS-G3B-i.195817632.25136364635

@@ -1747,3 +1747,7 @@ research-commit-dualstomp:
 .PHONY: research-commit-dualstomplite
 research-commit-dualstomplite:
 	python3 scripts/research_tools.py commit-dualstomplite
+
+.PHONY: research-commit-gorig2
+research-commit-gorig2:
+	python3 scripts/research_tools.py commit-gorig2
