@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "GNX4 amp/cab andmodulation counts verified; dedicated acoustic simulation/SynthTalk confirmed. Next Whammy/IPS selectable types and full simultaneous architecture,actual matrix buttons/display; power-source conflict still unresolved.",
+    "task": "GNX4 pitch/Talker shared-slot restriction now verified; counts distinguished from Whammy/IPS parameters. Next actual matrix selector buttons/display; total simultaneous count,power conflict andcomplete USB channel/routing restrictions remain.",
     "next_models": [],
     "after_queue": "Other candidates/field gaps; no workflows/push."
   },
@@ -53231,6 +53231,21 @@
     "noise_gate": 2,
     "modulation_source": "https://manualmachine.com/digitech/gnx4/1120255-user-manual/",
     "modulation_limit": "One selected effect per Chorus/Mod slot;SynthTalk included.",
-    "amp_basis": "Own manual pp30–31;Direct bypass and U1–U9 excluded from factory counts;Warp blends two configured channels."
+    "amp_basis": "Own manual pp30–31;Direct bypass and U1–U9 excluded from factory counts;Warp blends two configured channels.",
+    "pitch_talker": {
+      "slot_count": 1,
+      "selector_choices": 9,
+      "families": [
+        "Whammy",
+        "IPS",
+        "Detune",
+        "Pitch Shift",
+        "Talker1–5"
+      ],
+      "whammy_parameter_settings": 16,
+      "ips_intervals": 14,
+      "ips_scales": 6,
+      "basis": "Own manual pp36–37. Four pitch families plus five Talker voicings;one effect at once. Interval/scale/bend settings not extra algorithms."
+    }
   }
 }
