@@ -2767,3 +2767,17 @@ No confirmed used/new split. Working state,adapter/bundle,authenticity,warranty,
 [Z1201-P]: https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-1201
 [Z1201-M]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_1201.pdf
 [Z1201-O]: https://shopee.co.id/efek-vocal-zoom-studio-1201-japan-i.137791346.25963128125
+
+### 1201 — bank inventory and processing distinctions, 2026-10-17
+
+[Original manual1201-5000,extracted panel legends and pp3–7][Z1201-M];text-derived,not a new image inspection.
+
+| Field | Verified bank choices / limitation |
+|---|---|
+| Processing / Bank A | **11 reverb types**:Hall,Room,Plate,Vocal,Ambience,Power,Gate,Reverse,Ensemble,Percussion,Dimension. Each has11character selections. |
+| Processing / Bank B | **11 settings**:3single effects (delay,chorus,flanger),3slash pairs (chorus/reverb,flanger/reverb,delay/reverb),5plus pairs (delay+flanger,chorus+delay,delay+reverb,chorus+reverb,flanger+reverb). Slash pairs support independent parallel operation;plus-sign topology is not established here. Each has11variations. |
+| Processing / Bank C | **11 types**:pitch,phaser,tremolo-pan,pitch-delay,auto-filter,ring modulation,lo-fi,vocal distortion,rotary,vocoder,karaoke;11variations each. Karaoke requires stereo input. |
+| Processing / digital format | **44.1kHz;18-bit AD/DA**. AD64× and DA8× oversampling are converter specifications,not extra effects or USB sample rates. |
+| Controls / parameter scope | ADJUST controls reverb time inA and one effect-dependent parameter inB/C. The documented363 patterns are selection combinations,not363 freely editable user memories. Exact parameter ranges/user-save support remain unresolved. |
+
+Earlier per-family inventory gap is resolved at the33selector-type level. Polarity,display,user-storage/import/editor scope and condition-qualified availability remain open.

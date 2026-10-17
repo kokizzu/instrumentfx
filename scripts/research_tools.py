@@ -353,7 +353,7 @@ def main():
         if mode == 'commit-nux-mg101-audit':
             message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-1201':
-            message = 'research(zoom): add Studio 1201 with preamp and parallel routing limits'
+            message = 'research(zoom): distinguish 1201 bank choices variations and converters'
         if mode == 'commit-vt4':
             message = 'research(roland): verify VT-4 output balance and USB processing constraints'
         if mode == 'commit-pe100':

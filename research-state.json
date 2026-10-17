@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom1201",
-    "task": "Added separate1201 withrequiredpreamps,363patterns,parallelpairs,controls andexact2.2mHabisoffer. Next ownmanual completebank/categoryinventory orfreshShopeediscovery;no siblingborrowing/downloads. Display/polarity/userstorage/imports/editor/currentcondition remain.",
+    "task": "1201 all33selector types bybank,11variations each,3parallel slashpairs,stereokaraoke and44.1kHz18bit conversion saved. Next fresh Shopee discovery other exactmodels;do not repeat1201 bank extraction. Pluspairtopology/parameterranges/polarity/display/userstorage/imports/editor/conditionqualifiedoffers remain.",
     "next_models": [],
     "after_queue": "Continue research and legacy consolidation;no workflows/downloads/push."
   },
@@ -59136,6 +59136,45 @@
       "Expression",
       "Imports/editor",
       "Qualifiedcondition/stock"
+    ],
+    "downloads": false
+  },
+  "zoom1201_banks_20261017": {
+    "source": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_1201.pdf",
+    "revision": "1201-5000",
+    "banks": {
+      "A": {
+        "types": 11,
+        "characters_per_type": 11
+      },
+      "B": {
+        "types": 11,
+        "single": 3,
+        "slash_parallel_pairs": 3,
+        "plus_pairs": 5,
+        "variations": 11
+      },
+      "C": {
+        "types": 11,
+        "variations": 11
+      }
+    },
+    "patterns": 363,
+    "usb_inference": false,
+    "conversion": {
+      "khz": 44.1,
+      "bits": 18,
+      "ad_oversampling": 64,
+      "da_oversampling": 8
+    },
+    "karaoke": "Stereo inputrequired",
+    "remaining": [
+      "Pluspairtopology",
+      "Exactparameterranges",
+      "Polarity",
+      "Display",
+      "Userstorage/imports/editor",
+      "Conditionqualifiedoffers"
     ],
     "downloads": false
   }
