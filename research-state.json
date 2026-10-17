@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-20",
-    "task": "VE20 exact Seven Stereo soldoutRp6.896m offer saved; used/new condition stillunknown. MMmusicstoreRp3.5m Normal100 andFelyRp6.87262m ProdukBaru are store-only leads withoutitemIDs;do not assign qualified range. Next resolve exact MMmusicstore item or choose another vocal model technical gap. No downloads. Commit before next.",
+    "model": "BOSS VE-5",
+    "task": "VE20 MMmusicstore/Fely exact-title and direct-store pass still lacks item URLs; parked without price qualification. Next read full VE5 record, then verify own manual power polarity and adapter/battery selection against explicit approved supply. No downloads. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -70889,5 +70889,18 @@
       "finding": "Direct web text crawled today retains Rp9,680,000 and same-day14:00 wording; already in canonical BOSS record. This is not new-model evidence, condition verification or current stock/checkout proof. No duplicate offer/model added."
     },
     "next": "Resolve existing VE500 DC polarity through its explicitly named PSA supply and manufacturer adapter specification; do not infer from sibling model."
+  },
+  "discovery_ve20_store_resolution_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "\"Boss VE-20 Normal 100%\" shopee.co.id i.",
+      "\"FELY_SUGESTI\" \"VE-20\" shopee i."
+    ],
+    "direct_pages": [
+      "https://shopee.co.id/mmmusicstore",
+      "https://shopee.co.id/fely_sugesti"
+    ],
+    "outcome": "Direct MMmusicstore page last-week cache and Fely page last-month cache expose store-level titles/prices but no exact selected item URL in retrieved text; exact-title searches still store-only. No qualified used/new range. Normal100 is a working-state seller claim, not used condition; ProdukBaru badge is not independently sufficient new-condition evidence. Park leads to avoid repeating the same unresolved search.",
+    "next": "Inspect existing BOSS VE-5 power polarity and adapter/battery supply selection from own manual; keep VE20 seller leads parked until exact-item evidence changes."
   }
 }
