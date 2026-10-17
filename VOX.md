@@ -274,11 +274,11 @@ Checked 2026-10-17. Partial guitar multi-effects record; distinct from LE/ST/SE.
 | Field | Evidence / gaps |
 |---|---|
 | Expression | Built-in;full-forward activation toggles assigned effect except volume. External EXP/toe mechanism unknown. |
-| Controls | Separate rotary/footswitch/button counts unverified;program1–4 andBankUp/Down pedals documented. |
+| Controls | **15 rotary /6 footswitches /12 panel buttons**, derived from numbered manual text. Rotary:13top+2rear;foot:program1–4+BankUp/Down. Pedal activation and2rear switches separate;not visually audited. |
 | Display | Bank/value display;diagonal,color,touch unknown. |
-| Processing / choices | **33amps,11cabinets;45effects:26pedal,11modulation,4delay,3reverb,1NR**. Up to9simultaneous includingNR/volume. Eleven stand-alone pedals **replace amp**,not ordinary single-function hardware. |
+| Processing / choices | **33amps,11cabinets;45effects:26pedal(11stand-alone+4Pedal1+11Pedal2),11modulation,4delay,3reverb,1NR**. Up to9simultaneous includingNR/volume. Eleven stand-alone pedals **replace amp**,not ordinary single-function hardware. |
 | Presets | **100factory+100editableuser=200**. |
-| Synth / acoustic | Dedicated synth/acoustic-conversion capabilities unknown. |
+| Synth / acoustic | **Pedal2 ACOUSTIC converts electric to acoustic-guitar timbre**;single-coil neck pickup recommended. TECHNO FUZZ combines distortion with synth-like sounds;not proof of a general synthesizer engine. |
 | Dimensions / weight | **394W×238D×82H mm;3kg**. |
 | I/O | Guitarinput,stereo miniAUX,shared stereo/monoOUTPUT/PHONES,USB-B,DC12V. Two1-inch speakers,approx0.3W×2;output plug mutes speakers. No externalEXP/MIDI-DIN/FXloop in rear inventory. |
 | Power | **12V DC,700mA consumption**;polarity symbol unread. Battery/USBpower unknown. |
@@ -295,3 +295,16 @@ Checked 2026-10-17. Partial guitar multi-effects record; distinct from LE/ST/SE.
 | Condition unverified / bejita,Kab.Tulang Bawang Barat | **Rp1.700.000**;index2months,checked2026-10-17;directopen failed. Stock,selectedvariant,adapter/bundle,warranty,voucher,shipping/tax unknown. August delivery estimate andlate-arrival voucher do not prove stock ordiscount. | [4466947/42755664991](https://shopee.co.id/Vox-Tonelab-Ex-i.4466947.42755664991) |
 
 Separate casing item80816302/22315555452,Rp250.000,is not processor-price evidence. Guitar scope verified;no bass/vocal membership inferred.
+### ToneLab EX — controls and pedal allocation
+
+Checked 2026-10-17 against the [E1 manufacturer manual](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf), pp2–8,22–24. Text-derived count, not a photographic audit:
+
+| Group | Controls counted |
+|---|---|
+| Rotary15 | Amp selector+GAIN/TREBLE/MIDDLE/BASS/REVERB/VOLUME(7);Pedal1(1);Pedal2 selector+EDIT(2);Mod selector+EDIT(2);Delay(1);rear OUTPUT LEVEL+SPEAKER LEVEL(2) |
+| Foot6 | BankUp/Down andProgram1–4 |
+| Buttons12 | AMPS,STAND ALONE,CABINET;Pedal1/Pedal2 on-off;Mod on-off/TAP;Delay on-off/TAP;EXIT/TUNE,WRITE,EXPRESSION |
+
+Rear power andAMP/LINE switches plus expression activation are additional. Pedal1 choices:COMP,VOX V847,TONE,ENERGIZER. Stand-alone11 andPedal2 eleven combine withPedal1 four toexplain the26pedal subtotal;stand-alone still excludes amp modeling.
+
+Acoustic simulation is explicitly electric-to-acoustic,not merely anacoustic amplifier preset. TECHNO FUZZ’s synth wording describes its timbre;broader synth architecture remains unverified.

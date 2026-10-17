@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX ToneLab EX",
-    "task": "ToneLabEX added from exact Shopee hardware lead and ownE1manual. Next verify complete physical controls andpedal-category breakdown;keep stand-alonepedal/amp exclusivity and700mAconsumption distinct fromsupplyrating.",
+    "task": "ToneLabEX controls15/6/12 and26pedal breakdown saved;electric-to-acoustic simulator verified. Next check exact librarian platform support andpowerpolarity from own sources;do nottransferToneLabST/SEsoftwareoradapterratings.",
     "next_models": [],
     "after_queue": "278partialmodels;continue fullfieldverification andShopeediscovery;all117legacy paths accounted for,butcompatibilitypathsremain.No downloads/workflows/push."
   },
@@ -56885,5 +56885,18 @@
   "discovery_pod_frontier_20261017": {
     "store": "https://shopee.co.id/hopemusik",
     "qualification": "Mixed X3Live/XTLive/FloorPODPlus/FloorPOD storecard Rp3199000 unallocated;HD101Bean title ambiguous;no exactitem captured;not priced orcounted asnewmodels."
+  },
+  "tonelab_ex_controls_20261017": {
+    "source": "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf",
+    "pages": "2–8,22–24",
+    "controls": {
+      "rotary": 15,
+      "footswitch": 6,
+      "buttons": 12
+    },
+    "count_basis": "13toprotary+2rear;6program/bankfoot;12panelbuttons;expressionactivation and2rearswitches separate;noimageaudit",
+    "pedal_choices": "11stand-alone+4Pedal1+11Pedal2=26",
+    "acoustic": "Pedal2ACOUSTIC explicitly electric-to-acoustic;singlecoilneckrecommended",
+    "synth": "TECHNOFUZZ synthtimbre documented;not generalengineproof"
   }
 }
