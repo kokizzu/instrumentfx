@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-5",
-    "task": "GT-5 ten shared MOD choices verified from Roland-hosted Polish manual. Next remaining category choices (OD/DS,preamp,wah/reverb),initial user-patch contents and English corroboration;all other unresolved fields remain explicit.",
+    "task": "GT-5 drive/preamp/reverb/chorus/tremolo choices and memory groups saved. Next verify wah/feedbacker/compressor choices and English corroboration;initial user contents and remaining technical gaps unresolved.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee Indonesia discovery;no downloads,workflows or push. RFX-2000 technical gaps remain deferred."
   },
@@ -53902,5 +53902,11 @@
     "finding": "Ten mutually selected MOD algorithms including acoustic simulator and guitar synth;400ms short delay and harmonist voice options saved.",
     "access": "Roland-hosted official-distributor Polish translation browser text;English targeted searches did not resolve corresponding MOD section in this pass.",
     "remaining": "English MOD corroboration,initial user patch contents,remaining category counts,visual/toe/editor/IR/NAM and recording retention."
+  },
+  "gt5_categories_checkpoint_20261017": {
+    "source": "https://www.roland.com/RolandComSite/media/pl/media/pdf/GT-5.pdf",
+    "pages": "10–11,32–33,44–45",
+    "finding": "OD/DS11fixed+2custom;PREAMP13fixed+2custom;five reverbs;chorus and tremolo/pan mode choices;user/preset group structure;patch change or delay off stops sound-on-sound playback.",
+    "remaining": "Initial user patch contents still unverified;English category corroboration,wah/other choices,visual/toe/editor/IR/NAM and power-off recording retention remain."
   }
 }
