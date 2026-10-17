@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon Play Acoustic",
-    "task": "Play Acoustic 2014manual loop/preset and Switch3 controls saved. Manufacturer firmware video gjBCbDvJnhM inaccessible; secondary reports remain unverified leads. Next fresh Shopee discovery or other remaining primary-source gaps; avoid cycling on inaccessible pages.",
+    "model": "Roland GR-33 discovery lead",
+    "task": "Categorycard Rp5650000KabMalang, exactseller/itemunresolved. OwnRolandpage documents40multiFX+chorus/reverb;read ownmanualrouting and recover exactitem beforeclassifying/adding. Keep292active models untilqualified.",
     "next_models": [],
-    "after_queue": "Continue full research and legacy consolidation; no workflows/downloads/push."
+    "after_queue": "Continue primary verification/fresh Shopee discovery and legacy consolidation; no workflows/downloads/push."
   },
   "new_findings": [
     {
@@ -58689,5 +58689,48 @@
       "access": "Manufacturer video inaccessible;manufacturer product502/generic shell. Secondary update reports not adopted as verified technical facts."
     },
     "downloads": false
+  },
+  "gr33_discovery_20261017": {
+    "model": "Roland GR-33",
+    "checked": "2026-10-17",
+    "status": "Discovery only; not active inventory or comparison membership",
+    "market": {
+      "source": "https://shopee.co.id/search?keyword=dunia+tanpa+suara+%28edisi+baru%29&page=3",
+      "alternate": "https://shopee.co.id/search?keyword=%2CgNX",
+      "title": "efek gitar roland GR 33 synthesizer string piano dll sound keyboard syns",
+      "idr": 5650000,
+      "region": "Kab. Malang on card",
+      "access": "Two-month category index; four-month alternate index; direct opens cache miss",
+      "seller": "unidentified",
+      "item": "unresolved",
+      "condition": "unknown",
+      "stock": "unverified",
+      "bundle": "unknown"
+    },
+    "primary": {
+      "source": "https://www.roland.com/global/products/gr-33/",
+      "facts": "Own product identifies40insertMultiFX plusdedicatedchorus/reverb,384tones,128preset+128userpatches,48voicepolyphony,builtinexpression;GKdividedpickuprequired. AC14V/BRCsupply,notDC;SMFupdaternotfulleditor.",
+      "qualification": "Syntharchitecture withmultiFX merits review;notyetclassifiedbyanalogsupport. Do not infer regular guitar-input effects, bass compatibility or independent algorithm capacity."
+    },
+    "next": "Recover exact hardware seller/item and read own manual routing/multiFX/control inventory before active addition; do not promote category ask to current offer.",
+    "downloads": false
+  },
+  "discovery_gr33_exclusions_20261017": {
+    "queries": [
+      "DigitechGNX2",
+      "ZoomG9.2tt",
+      "BOSSSE70",
+      "KorgAX1",
+      "BOSSGTPRO",
+      "YamahaDGStomp",
+      "RolandGR33"
+    ],
+    "exclusions": [
+      "GNX/G9poweradapters",
+      "GNX/GR33diecastvehicles",
+      "GTPROblankDVDs",
+      "ZoomGFX70748116980/15446202329alreadyrecorded"
+    ],
+    "qualification": "No new exact item qualified; not evidence of market absence."
   }
 }
