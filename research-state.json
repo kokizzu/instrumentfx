@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Pocket Master QME-10",
-    "task": "Saved official Windows11 update/import compatibility notice. Next inspect firmware1.3.0 manual complete category census or resume different-series Shopee discovery; do not duplicate existing PocketMaster offers or infer native NAM architecture. No downloads; commit before next model.",
+    "task": "PocketMaster firmware1.3.0 category census saved. Next compare release1.3.3 additions with manual list (BassDrive/bassamps/ACG may not appear in manual despite version labels), preserving conflict; do not assert installed100+ census. Then resume Shopee discovery. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56855,6 +56855,12 @@
       "checked_date": "2026-10-18",
       "finding": "Dedicated download page Windows11 stall notice and official USB MIDI driver-selection workaround explicitly include PocketMaster. Guidance not tested; no software installed. Generic effects editing wording does not establish desktopManager tone editing.",
       "source": "https://www.sonicake.com/pages/stuck-updating-support"
+    },
+    {
+      "model": "Sonicake Pocket Master QME-10",
+      "checked_date": "2026-10-18",
+      "finding": "Firmware1.3.0 manual census NR1/sharedFX18/DRV7/AMP20/factoryIR15+user5/EQ3/DLY9/RVB10. Later additions kept separate; no definitive installed total. Direct URL initially inaccessible; official download-page link succeeded.",
+      "source": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual"
     }
   ],
   "discovery_cross_brand_bass": {

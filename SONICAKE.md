@@ -291,6 +291,17 @@ Checked 2026-10-18.
 | Field | Evidence / qualification |
 |---|---|
 | Software / Windows 11 compatibility restriction | The [dedicated Pocket Master download page](https://www.sonicake.com/pages/pocket-master-software-firmware-download-qme-10) warns that some Windows 11 systems can stall during firmware updates, recovery and NAM/IR imports. The [manufacturer support guide](https://www.sonicake.com/pages/stuck-updating-support) attributes this to Windows updates affecting USB MIDI and explicitly includes Pocket Master. Its documented workaround uses a data cable, Sonicake ASIO installation, then manual selection of USB Audio Device in Device Manager before reconnecting and updating. This is published guidance, not a tested fix or proof that every Windows 11 build is affected. No driver, software or firmware downloaded or installed. The generic guide’s effects-editing wording does not supersede the Pocket Master Manager’s documented lack of tone editing. |
+
+### Pocket Master — firmware-1.3.0 category census
+
+Checked 2026-10-18. Manufacturer manual cover identifies firmware 1.3.0; retrieved through its official download-page link. Counts describe that list, not current installed firmware.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / NR and FX1–FX2 | **One Gate; 18 shared FX choices** (pp13–15): COMP1, COMP2, Touch Wah, Auto Wah, Boost, A-Chorus, B-Chorus, Flanger, Phaser, Vibe, Vibrato, Tremolo, Sine Trem, Bias Trem, Octave, Pitch, Detune, AC Sim. Shared list is not eighteen unique effects per slot added together. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
+| Category choices / drive and amp | **7 DRV**: Scream, Butter OD, JP Dist, Shark, Dark Mouse, Grey Fuzz, Red Fuzz. **20 AMP**: page subtotals 1 + 9 + 10 (pp15–17). Clone-file loading is separate. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
+| Category choices / IR and EQ | **15 factory IRs + 5 user slots** (pp17–18); **3 EQs**: GT EQ1, GT EQ2, Bass EQ. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
+| Category choices / delay and reverb | **9 DLY** and **10 RVB** (pp18–19). No definitive installed total inferred; later firmware additions and shared slot choices must not be silently combined with the advertised100+ headline. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
 <!-- comparison evidence ends -->
 
 ### Preserved original Pocket Master finding
