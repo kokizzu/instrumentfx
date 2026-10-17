@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Continue fresh Shopee brand/series discovery, or ME-90B original parameter-guide/category/IR verification. Published controls and analog electrical levels saved; generic MOD TYPE entry still needs visual corroboration. Avoid repeated inaccessible wireless landing pages.",
+    "task": "Continue fresh Shopee brand/series discovery or ME-90B parameter-guide category inventory. Original PC guide editor>=1.03 and liveset/IR conversion limits saved; accepted IR file constraints remain unknown. Do not confuse editor threshold with wireless guide.",
     "next_models": [],
     "after_queue": "322 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -65562,5 +65562,12 @@
       "pedal_fx": 1
     },
     "remaining": "Visual panel recount, USB format/channels, exact wireless guide, IR constraints, categories, electrical supply gaps and qualified offers remain unresolved."
+  },
+  "me90b_editor_ir_followup_20261018": {
+    "checked_date": "2026-10-18",
+    "source": "https://static.roland.com/assets/media/pdf/ME-90B_BTS_PC_eng01_W.pdf",
+    "revision": "©2024 Roland revision01,14pages",
+    "findings": "Editor requires ME-90B>=1.03, not wireless requirement. IR conversion before USER1–3 load, no format/rate/depth/length published in inspected guide. Computer liveset max36,50livesets,tsl files; onboard72 unchanged.",
+    "remaining": "IR file constraints, exact wireless guide, USB channels/bitdepth, category inventory, current OS/editor matrix, supply details, qualified offers."
   }
 }

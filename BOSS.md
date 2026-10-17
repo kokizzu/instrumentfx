@@ -190,6 +190,14 @@ Original source URLs: [source](https://www.boss.info/global/products/me-90b/spec
 | Analog / electrical levels | INPUT/RETURN: −10dBu nominal, +7dBu maximum, 1MΩ. Main outputs, phones, SEND and balanced XLR: −10dBu nominal. Output impedance: main/SEND1kΩ, phones44Ω, XLR600Ω; recommended loads respectively ≥10kΩ, ≥44Ω, ≥600Ω. These are analog levels, not USB resolution or headphone power. | [BOSS specifications][ME90B-S] |
 | Conversion / processing | 48kHz; 24-bit A/D with AF method, 32-bit D/A, 32-bit floating-point processing. This does not establish USB bit depth. | [BOSS specifications][ME90B-S] |
 
+### ME-90B — original Tone Studio guide limits, 2026-10-18
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Editor / firmware dependency | The ©2024 revision01 PC guide explicitly requires **ME-90B firmware≥1.03** for Tone Studio. This is a model-specific **editor** requirement, not the unresolved wireless-pedal firmware threshold. Offline liveset editing is documented, but saving edited memory results requires the unit connected. | [Tone Studio guide][ME90B-B] p1 |
+| IR loading / conversion | IR Loader converts selected IR data before loading USER1–3. This is **speaker-IR conversion**, not NAM conversion or capture support. The inspected guide does not publish accepted file formats, sample rates, bit depths or sample/time limits; those remain unknown. | [Tone Studio guide][ME90B-B] p12 |
+| Memory / computer library | A liveset holds at most36 memories; Tone Studio holds up to50 livesets, with further sets exported to computer files. Liveset file extension **.tsl**. Export to the unit does not restore memories beyond36. These computer-library limits do not expand the pedal’s36user+36preset onboard memories. | [Tone Studio guide][ME90B-B] pp6–8 |
+
 [ME90B-S]: https://www.boss.info/global/products/me-90b/specifications/
 [ME90B-M]: https://static.roland.com/assets/media/pdf/ME-90B_Reference_eng01_W.pdf
 [ME90B-P]: https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf
