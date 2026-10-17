@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS KATANA:GO",
-    "task": "Bass COMP seven compressor/three limiter choices and DRIVE13 alternatives saved. Next audit bass delay/reverb/PEDAL FX and FS1WL controls;full ceiling/revision/price gaps remain.",
+    "task": "Bass delay8/reverb5/PEDAL FX2 and FS1WL assignments/coexistence saved. Next inspect exact-model signal-chain evidence and remaining hardware/revision gaps;then Fender Mustang Micro original. Preserve unresolved prices and import support.",
     "next_models": [
       "Fender Mustang Micro original"
     ],
@@ -56119,5 +56119,16 @@
     "drive_types": 13,
     "qualification": "COMP selects compressor or limiter;alternative choices are not a simultaneous count.",
     "remaining": "Bass delay/reverb/PEDAL FX;FS1WL controls;full simultaneous ceiling;revision/price gaps"
+  },
+  "katana_go_bass_time_wireless_checkpoint_20261017": {
+    "parameter_source": "https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf",
+    "pages": "106–114",
+    "bass_delay_choices": 8,
+    "bass_reverb_choices": 5,
+    "bass_pedal_fx_choices": 2,
+    "bass_wah_subtypes": 6,
+    "tone_studio_source": "https://static.roland.com/assets/media/pdf/KATANA_GO_BTS_eng01_W.pdf",
+    "wireless_pages": "69,73–74",
+    "remaining": "Full simultaneous ceiling;complete physical inventory/revision dimensions;qualified prices;IR/NAM/editor gaps"
   }
 }
