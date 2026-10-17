@@ -397,6 +397,10 @@ Manufacturer page lists TC-1 Manual.pdf,2019-11-26,without a retrievable PDF lin
 
 [TC1-P]: https://www.joyoaudio.com/product/192.html?productCateId=20
 
+### TC-1 — original manual access, 2026-10-18
+
+[JOYO UK’s manual index](https://www.joyoaudio.co.uk/support/Other-JOYO-Manuals) links the exact [TC1.pdf](https://www.joyoaudio.co.uk/manuals/other/TC1.pdf). The web reader rejected the response as too large (11,918,355 bytes); **the manual’s contents were not inspected**. Its revision, panel/port inventory, expression support and routing remain unverified. No file was downloaded. The UK TC-1 product link also returned a cache miss. Search results for unrelated TC-1 timecode boxes and retailer USB/battery/bypass claims were not promoted to manufacturer evidence.
+
 ## Tone Chain TC-2
 
 Guitar effects-only strip, distinct from TC-1. Checked2026-10-18; partial. Ownership and bass/vocal applicability unverified.

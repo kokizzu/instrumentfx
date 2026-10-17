@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "TC-1 andTC-2 distinct initial records saved. Resume freshShopee brand/series discovery or originalToneChainmanual/panel verification;do notborrow controls/weight between models.",
+    "task": "Resume fresh Shopee discovery or locate readable original TC-1 manual copy. Exact JOYO UK TC1.pdf link is saved but web reader rejects11918355byte response; do not repeat unchanged route or promote retailer feature claims. All technical gaps remain explicit.",
     "next_models": [],
     "after_queue": "325active;technical/market/ownership/migration incomplete. No downloads/workflows/push."
   },
@@ -65727,5 +65727,14 @@
     "findings": "Own TC2 page confirms12namedrotaries/4FS,1043g,345x83x43mm,9Vcenternegative300mA,stereooutputsandDI,AUX,FXloop. NotborrowedTC1.",
     "price": "Rp2246825 displayedwithvoucher,spend150kdiscount1k,eligibilityandpre-voucherpriceunknown;conditionstockunverified.",
     "remaining": "Originalmanual,visualcontrols/expression/display,fullports,routing/simultaneous/categorylimits,memories,imports/software,batteryUSB,qualifiedprices."
+  },
+  "tc1_original_manual_access_20261018": {
+    "checked_date": "2026-10-18",
+    "index": "https://www.joyoaudio.co.uk/support/Other-JOYO-Manuals",
+    "exact_pdf": "https://www.joyoaudio.co.uk/manuals/other/TC1.pdf",
+    "access": "Web reader failed400 Contentlengthtoo large11918355bytes;noPDFcontentsinspectedandnofiledownloaded.",
+    "product_attempt": "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/Tonechain-TC-1 cachemiss",
+    "rejected": "UnrelatedTC1timecodeboxmanual;retailerUSB/battery/bypasstablesnotprimaryhardwareevidence.",
+    "next": "Find readable manufacturer-authored original copy with exact model/revision checks;avoidrepeatingunchangedoversizePDFroute."
   }
 }
