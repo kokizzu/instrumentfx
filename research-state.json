@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Hotone Ampero II MP-350 offer follow-up",
-    "task": "GP-200R offers reconciled in existing GP-200 profile without new count. Next inspect saved Asia Pro Sound item703046367/26841016023;deduplicate before canonical addition.",
+    "model": "Shopee series discovery after MP-350 follow-up",
+    "task": "Existing MP-350 Asia Pro Sound offer now direct-readable; historical failed access retained. Next search eligible exact hardware by brand/series,or resolve primary-source controls/EXP conflicts;do not duplicate this item.",
     "next_models": [],
     "after_queue": "284partial models;no downloads/workflows/push."
   },
@@ -41400,7 +41400,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350 offer follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee series discovery after MP-350 follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57343,5 +57343,19 @@
       }
     ],
     "inventory_unchanged": 284
+  },
+  "mp350_offer_reopen_20261017": {
+    "canonical": "HOTONE.md#ampero-ii-mp-350",
+    "shop": "703046367",
+    "item": "26841016023",
+    "idr": 11900000,
+    "seller": "Asia Pro Sound",
+    "region": "Kota Bekasi",
+    "access": "Direct JS-limited web text;today crawl;encoded URL redirects to literal-parentheses equivalent with same IDs",
+    "condition": "Unknown",
+    "stock": "Unverified;relativefour-hour ETA not proof",
+    "variant": "Title English/international claim only",
+    "action": "Updated access provenance for existing offer,not a new model or duplicate item",
+    "manufacturer": "https://www.hotone.com/products/multi-effects/Ampero%20II"
   }
 }

@@ -276,6 +276,16 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-hotone-ampero-ii-mp350.md](effects/findings/2026-10-14-hotone-ampero-ii-mp350.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
 
+### MP-350 — exact-offer access update
+
+Checked2026-10-17. The existing Asia Pro Sound item is now readable as a JavaScript-limited web text body; the historical failed-open observation above remains dated provenance. No additional model or duplicate offer is introduced.
+
+| Price class | Amount | Offer / limits |
+|---|---:|---|
+| Condition-unverified MP-350 retail ask | **Rp11.900.000** | [Asia Pro Sound,shop703046367/item26841016023](https://shopee.co.id/Hotone-Ampero-II-MP-350-MP350-Multi-Effects-Guitar-Pedal-%28English-and-International-Version%29-i.703046367.26841016023),Kota Bekasi. Direct text crawled today; title claims English/international version. Selected variant,condition,working state,bundle,adapter,warranty,authenticity,shipping/tax and voucher eligibility remain unknown. Four-hour arrival estimate and recent seller activity do not certify stock. Rp10k late-arrival compensation is not an upfront discount. |
+
+The [manufacturer MP-350 page](https://www.hotone.com/products/multi-effects/Ampero%20II) still documents PC/Mac software separately from USB audio; seller English/international wording does not establish firmware-region interchangeability. Used IDR remains unverified.
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
