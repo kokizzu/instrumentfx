@@ -417,7 +417,7 @@ def main():
         if mode == 'commit-readme-counts':
             message = 'fix(navigation): synchronize complete brand model lists from ledger'
         if mode == 'commit-hd400':
-            message = 'research(line6): add POD HD400 with revision-qualified bass and USB restrictions'
+            message = 'research(line6): add POD HD300 from its own handbook'
         if mode == 'commit-xtlive':
             message = 'research(line6): qualify XT Live Silicon support and discontinued updater'
         if mode == 'commit-x3live':

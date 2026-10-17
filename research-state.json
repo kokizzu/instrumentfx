@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 272,
+  "active_model_count": 273,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 272,
+  "canonical_root_model_count": 273,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "272 unique active/root-canonical;0 legacy-only;32brands;6excluded;allpartial.OriginalMustangMicroseparatefromPlus;sharedbassbasisownStudioPreampmanual.",
+  "count_reconciliation": "273 unique active/rootcanonical;0legacyonly;32brands;6excluded;allpartial.HD300guitareligible;basssuitabilitypendingownrevisionproof.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Line 6 POD HD300",
-    "task": "Exact sold-out Shopee HD300 item and separate unallocated four-model listing saved in discovery_hd300_20261017. Open own RevC manual and shared advanced guide with model-specific distinctions,then add/commit useful canonical record before next model.",
+    "task": "Own RevC canonical record saved;next verify advanced-guide HD300-specific controls/IO/power/size and exact categories;retain bass support and firmware distinctions,unqualified historical prices.",
     "next_models": [],
-    "after_queue": "Fresh discovery continues;272records partial;legacy Zoom leads remain unqualified;no downloads/workflows/push."
+    "after_queue": "Fresh discovery;273records partial;legacyZoomleadsunqualified;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23780,7 +23780,8 @@
       "AMPLIFi FX100",
       "POD X3 Live",
       "POD XT Live",
-      "POD HD400"
+      "POD HD400",
+      "POD HD300"
     ],
     "MOOER": [
       "GE100 original",
@@ -24086,7 +24087,8 @@
       "AMPLIFi FX100",
       "POD X3 Live",
       "POD XT Live",
-      "POD HD400"
+      "POD HD400",
+      "POD HD300"
     ],
     "ZOOM.md": [
       "G11",
@@ -24341,7 +24343,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 223,
+      "record_count": 224,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41304,10 +41306,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 272,
-    "canonical_root_models": 272,
+    "unique_brand_model_pairs": 273,
+    "canonical_root_models": 273,
     "legacy_only_models": 0,
-    "guitar_view_models": 223,
+    "guitar_view_models": 224,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41367,7 +41369,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fender Mustang Micro."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD HD300."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41446,6 +41448,7 @@
       "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
       "Line 6::POD HD400",
+      "Line 6::POD HD300",
       "MOOER::GE100 original",
       "MOOER::GE150 original",
       "MOOER::GE150 Pro Li",
@@ -42559,6 +42562,13 @@
     },
     "Line 6::POD HD400": {
       "link": "LINE6.md#pod-hd400",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": []
+    },
+    "Line 6::POD HD300": {
+      "link": "LINE6.md#pod-hd300",
       "source_files": [
         "LINE6.md"
       ],
@@ -56269,7 +56279,7 @@
   "discovery_hd300_20261017": {
     "checked": "2026-10-17",
     "model": "Line 6 POD HD300",
-    "unrecorded": true,
+    "unrecorded": false,
     "offers": [
       {
         "url": "https://shopee.co.id/Line6-POD-HD300-Digital-Multy-Effect-Guitar-i.504301607.29822606720",
@@ -56300,5 +56310,11 @@
     "primary_indexed_evidence": "Own HD300 Pilot Handbook RevC:FX1gain/various/pitch,FX2mod/filter/tremolo,FX3delay/tape/sweep,9reverbs;built-in expression wah/volume/FX1PitchGlide with toe mode switch;32banks×ABCD128presets. FXOnly globally disables ampmodels. Full manual audit pending.",
     "limits": "Historical indexed asks;not live checkout. No qualified used/new condition,variant/bundle/voucher/shipping/tax/warranty proof. HD400 keywordlisting excluded as HD300offer. No files downloaded.",
     "next": "Open complete own HD300 manual,verify per-model hardware/IO/power/memory/software/category evidence,then add canonical record and comparisons;do not borrow HD400-only features."
+  },
+  "hd300_primary_checkpoint_20261017": {
+    "source": "https://line6.com/data/6/0a060b316ac34f05937e126fa/application/pdf/POD%20HD300%20Quick%20Start%20Guide%20-%20English%20%28%20Rev%20C%20%29.pdf",
+    "revision": "RevC",
+    "scope": "9pagesbrowsertextread;corecontrols/memory/routing/software/looper. No download.",
+    "remaining": "Full control counts,physical/electricalspecs,algorithms,firmwarerestrictions,bassproof,qualifiedprices"
   }
 }

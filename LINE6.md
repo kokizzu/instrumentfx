@@ -1373,3 +1373,40 @@ Remaining: verify body/polarity/barrel/draw,control image,screen,maximum simulta
 [HD4-E]: https://l6c-acdn2.line6.net/data/6/0a06434dfd3f5005ada360213/application/pdf/POD%20HD400%20Edit%20Pilot%27s%20Guide%20%28%20Rev%20A%20%29.pdf
 [HD4-F]: https://kb.line6.com/pod-hd300-400-500-amp-model-and-fx-list
 [HD4-C]: https://kb.line6.com/macos-11-big-sur-silicon-m1-chip-compatibility
+
+## POD HD300
+
+Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only features not borrowed.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in wah/volume/FX1 Pitch Glide;toe switches modes. External EXP unverified. [Manual][HD300-M] |
+| K/F/B | Full rotary/foot/button count pending;rear Master separate from Channel Volume. [Manual][HD300-M] |
+| Display | Main LCD plus segmented bank/preset display;diagonal/color/touch unverified. [Manual][HD300-M] |
+| Processing / categories | FX1 gain/various/pitch;FX2 modulation/filter/tremolo;FX3 delay/tape/sweep;9reverbs. Exact algorithms/full ceiling pending. FXOnly globally disables amp modeling. [Manual][HD300-M] |
+| Preset memory | 32banks×ABCD=128locations,preloaded and overwritable. Rear Master unsaved. Additional factory library unverified. [Manual][HD300-M] |
+| Synth / acoustic | Dedicated synth/acoustic simulation and documented bass suitability unverified. |
+| I/O | GuitarIn,CD/MP3,¼inch unbalanced outs,XLR balanced outs,phones,L6LINK,USB,power. Remaining socket sizes/channel details pending. [Manual][HD300-M] |
+| I/O / routing | Studio cab/mic simulation;Live guitar-amp use;Dual left direct/right studio-simulated. XLR groundlift;unbalanced AMP/LINE switch. L6LINK carries audio/control. [Manual][HD300-M] |
+| Power / battery / USB | Supplied Line6 power supply;unplug turns off. Voltage/current/polarity/battery/USBpower unverified. [Manual][HD300-M] |
+| Dimensions / mass | Unverified. |
+| IR / NAM / capture | Import/capture support unverified. |
+| Editor / platforms | POD HD300 Edit Windows/Mac;presets/bundles. USB recording documented;audio driver/minimumOS pending. Monkey updater separate. [Manual][HD300-M] |
+| Looper / live | 24s;pre/post recording,overdub,playonce. Preset/Looper/PedalOnOff modes;holdTap tuner. Drums/scenes unverified. [Manual][HD300-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp1.500.000**,mendemkaset,shop504301607/item29822606720,Kab.Tulungagung;Habis,two months indexed crawl. | [Item][HD300-O1] |
+| Unverified mixed variations | **Rp3.699.000 unallocated**,Hope Music,shop703817770/item24703618953,Kota Bandung;4HD300/400/500/500X variations,four months indexed crawl. Not an HD300-specific price. | [Item][HD300-O2] |
+
+<!-- comparison evidence ends -->
+
+Historical indexed asks checked2026-10-17,not livecheckout. Conditions,stock,bundles,variants,warranty,authenticity,shipping,tax,vouchers unresolved. No qualified used/new allocation. No files downloaded or images visually inspected.
+
+[HD300-M]: https://line6.com/data/6/0a060b316ac34f05937e126fa/application/pdf/POD%20HD300%20Quick%20Start%20Guide%20-%20English%20%28%20Rev%20C%20%29.pdf
+[HD300-O1]: https://shopee.co.id/Line6-POD-HD300-Digital-Multy-Effect-Guitar-i.504301607.29822606720
+[HD300-O2]: https://shopee.co.id/Efek-Gitar-Line6-POD-HD300-HD400-HD500-HD500X-i.703817770.24703618953
