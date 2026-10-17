@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha SPX990",
-    "task": "Verify main-effect category subtotals and Freeze limits from own SPX990 manual, then fresh Shopee bass/vocal discovery. Memory capacity resolved as100user in body; exact factory mapping and introduction80RAM conflict remain.",
+    "model": "Fresh bass/vocal Shopee discovery",
+    "task": "Search exact hardware leads by brand/series beyond current236 records. Check inventory to avoid duplicates; verify each eligible model from own primary documentation and commit before next. Retain SPX990 unresolved fields.",
     "next_models": [],
-    "after_queue": "Continue technical gaps and lossless migration; no downloads or workflows."
+    "after_queue": "Continue technical gaps and lossless migration; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -41142,7 +41142,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha SPX990."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass/vocal Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -50542,6 +50542,14 @@
       "pages": "19–23,56–57",
       "finding": "Three sections distinguished from elemental effects; main algorithm inherited from recalled preset and not editable to another type; Dist pre-only composite. Two MIDI controller assignments and bypass-or-range footswitch documented.",
       "remaining": "Elemental maximum/routing diagrams, main-category totals, user factory mapping, direct expression/display/software and offers"
+    },
+    {
+      "model": "Yamaha SPX990",
+      "checked_date": "2026-10-17",
+      "source": "https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf",
+      "pages": "24,49–51",
+      "finding": "Derived main category counts sum36; Freeze supports manual/auto overdubbing,1.35s mono,loop/reverse,volatile across power/program recall.",
+      "remaining": "Factory mapping,elemental maximum,screen/software/direct expression and offers"
     }
   ],
   "discovery_cross_brand_bass": {
