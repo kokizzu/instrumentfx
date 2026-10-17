@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "B2.1u synth tracking, dry-path routing exception and ZNR/MIX pedal/bypass limits saved. Continue exact missing-model Shopee discovery and remaining primary-source verification.",
+    "task": "RP200 tuner unmute, AUX routing, save/power andrhythm restrictions saved. Continue missing-model exact Shopee discovery andprimary verification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69490,5 +69490,18 @@
       ],
       "result": "No exact qualifying hardware offers surfaced; not proof of market absence"
     }
+  },
+  "technical_followup_rp200_live_20261018": {
+    "date": "2026-10-18",
+    "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP200_UsersGuide.pdf",
+    "access": "Direct open failed; officialdirectory link308 successfully opened40pageoriginal",
+    "findings": [
+      "Tuner mute canbeoverriddenbyexpression",
+      "AUX routesleft/right/headphones;volumecontrolunverified",
+      "Editslostunlessstored;40userdestinations",
+      "No powerswitch",
+      "RhythmcannotstartinStore/Bypass"
+    ],
+    "discovery": "RP80/RP350/RP2000 searchfoundonlyRP350adapter855783279/22273291654; excluded"
   }
 }

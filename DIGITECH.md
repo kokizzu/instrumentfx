@@ -415,6 +415,18 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | New | No qualified condition-specific amount. | — |
 | Unverified condition | **Rp500.000**; AULIA ZOKAM.SHOP, shop118784596/item11727599440, Kota Jakarta Barat. Browser text checked 2026-10-17, crawled five months ago, **Habis**, May11–14 delivery estimate. Historical ask, not live stock or completed sale. | [Shopee][RP200-O] |
 
+### RP200 — live operation and save restrictions
+
+Checked2026-10-18 against [original manual pp6,9–14,27][RP200-M]. Existing back-cover identity discrepancy remains; no hardware test or downloads.
+
+| Field | Finding / qualification |
+|---|---|
+| Live / tuner mute exception | Tuner normally mutes output; **expression pedal can unmute it while tuning**. Reference options include440Hz anddropped A=Ab/G/Gb; these are displayed note-reference alternatives,not acontinuousHz range or a pitch-transposition effect. |
+| I/O / Jam-A-Long routing | StereoAUX source reaches left,right andheadphoneoutputs. This documents playback routing,not externalrecording,USB or an effects-return path. On-deviceAUXvolume control remains unverified. |
+| Memory / saving restrictions | Edits disappear onpresetchange orpoweroff unlessstored. Edits startfrom anexisting user/factorypreset,not anemptyone; save/copy destination isoneof40userslots. Factory41–80 remainread-only. Select abortsstore. |
+| Power / physical switching | Manual explicitly says **no power switch**; connection/disconnection ofthePS0913B supply powers theunit. This doesnot establishbattery orUSBoperation. |
+| Drums / activation restriction | Rhythm button starts/stopsdrumplayback **except inStore orBypassmode**; threerotaries thenadjustpattern,tempo andlevel. No tempo range inferred. |
+
 <!-- comparison evidence ends -->
 
 Working state, bundle, adapter inclusion, authenticity, warranty, shipping, tax and voucher eligibility unverified. Condition cannot be inferred from price.

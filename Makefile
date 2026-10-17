@@ -1851,3 +1851,7 @@ canonical-links-apply-remaining:
 .PHONY: research-commit-gp200x
 research-commit-gp200x:
 	python3 scripts/research_tools.py commit-gp200x
+
+.PHONY: research-commit-rp200
+research-commit-rp200:
+	python3 scripts/research_tools.py commit-rp200
