@@ -1447,3 +1447,7 @@ research-commit-pedalboard:
 .PHONY: research-commit-vx5
 research-commit-vx5:
 	python3 scripts/research_tools.py commit-vx5
+
+.PHONY: research-commit-helixfloor
+research-commit-helixfloor:
+	python3 scripts/research_tools.py commit-helixfloor

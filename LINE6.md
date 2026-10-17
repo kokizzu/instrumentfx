@@ -986,3 +986,54 @@ Yamaha Singapore table lists268effectmodels without firmware date,distinct from 
 
 [HX1-J]: https://www.yamaha.com/ja/news_release/2023/23102501/
 [HX1-SG]: https://shop.sg.yamaha.com/hx-one-set.html
+
+## Helix Floor
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack andStadium. Guitar,bass andlive microphone processing explicitly documented. Platinum is the same hardware with a differentfinish permanufacturer timeline;count once.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | Built-in pedal,toe togglesEXP1/2;two externalEXP2/3 inputs. CV/expression output andamp-switch output separate. [Cheat sheet][HF-S], [Floor product][HF-P] |
+| Knobs / footswitches / buttons | **10 rotaries includingrotaryjoystick /12 footswitches /8 separate frontbuttons**:Preset,Volume,Phones,6parameterknobs,joystick;Save,Menu,Home,Amp,Bypass,Action,2Pagebuttons. Pushencoders counted once;toe,rearpower/groundlift additional. Text-derived;product's thirteen-footstrip wording conflicts with FS1–12 cheat sheet. [Cheat sheet][HF-S], [Floor product][HF-P] |
+| Display | **6.2-inch,800×480 color LCD**;touchscreen **?**. Capacitivefootcontrols do not prove screentouch. Separate scribblestrips;exactcount/diagonal pendinggivenproductwordingconflict. [Comparison KB][HF-K], [Floor product][HF-P] |
+| Dimensions / weight | KB **22.05 W×11.85 D×3.58 H inches;14.7lb**;oldermanufacturerFAQ **22.05×11.85×3.6 inches;14.6lb**. Preserve rounding/massdifference;basisunspecified. [Comparison KB][HF-K], [FAQ][HF-Q] |
+| Simultaneous blocks | Indexedmanufacturerchart **up to32,DSP-permitting**;fourstereopaths. Fouramp/IRconcurrencyclaims are DSP-qualified,not universalmaximumheavychains. [Chart][HF-C], [FAQ][HF-Q], [Floor product][HF-P] |
+| Category choices | Indexedchart96amps/268effects,firmwarebasisunstated;olderKB62amps/37cabs/16mics/104FX ishistorical. Current3.80category-by-category audit **?**. Do not presentoldertotals asinstalledcurrentlibrary. [Chart][HF-C], [Comparison KB][HF-K] |
+| Factory / user presets | **1,024 locations** (8×32×4);factory-filledsubset **?**;up to8snapshots per preset. Snapshots are variations,not additionalpreset slots. [Chart][HF-C], [Floor product][HF-P] |
+| Synth / acoustic simulation | OwncheatsheetdocumentsPitch/Synthcategory;exactsynthesis/acousticsimulator algorithms andrestrictions **?**,not borrowedfromLT. [Cheat sheet][HF-S] |
+| IR / NAM / capture | UserIRs supported;oldermanufacturerFAQ **128 slots,1024/2048points,up to4simultaneous DSP-permitting**. NativeNAM,convertedNAM,proprietarycaptureloading **?**;StadiumProxy notinferred. [FAQ][HF-Q] |
+| Audio/control I/O | Guitar/activeinstrumentAUX;XLRmicwith48V;4send/returnpairs;stereoXLR and¼″TSmains;stereophones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DINMIDIin/out-thru;RCA S/PDIFin/out;AES/EBU/L6LINKout;USB;groundedAC. Exactremainingjacktypes/USBconnector pendingmanual. [Cheat sheet][HF-S], [Floor product][HF-P] |
+| Power / battery / USB | GroundedACin confirmed;voltage/frequency/current **?**. DCpolarityN/A. Battery/USB-poweredoperation **?**;USBinterface doesnotprovebuspower. [Cheat sheet][HF-S] |
+| Editor / USB audio | **HX Edit** editor distinctfromHelixNativeplugin/updater;Mac/Windows documented,exactcurrentOSversions **?**. **8-in/8-out,24bit/up to96kHz**,DI/reamp/MIDI;iPadwithcameraadapter. [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
+| Looper / snapshots / routing | Looperblockplacedonanypath/output;duration,retention anddrums **?**. 8snapshots;truepresetspilloverusesonly2paths percurrentproduct. Micprocessing supports vocalmembership,notproof ofintelligentvocalharmony. [FAQ][HF-Q], [Floor product][HF-P] |
+
+### Helix Floor — separate IDR offers
+
+| Class | Amount | Exact offer and qualifications |
+|---|---:|---|
+| Indexed hardware ask;conditionunverified | **Rp30.609.000** | [W Musik Official Shop,shop37016589/item24212177775][HF-O1],JakartaUtara;retrieved2026-10-17,cachelastmonth. Earlier4monthindex **Rp28.999.000**,June3delivery,retainedasolderobservation. Condition,variant,bundle,warranty,checkoutstock **?**;mallbadge notconditionproof. Late-deliveryvoucher notdeducted. |
+| Historical hardware ask;conditionunverified;**soldout** | **Rp19.850.000** | [SMOSYU MUSIC,shop397175630/item27006529188][HF-O2],Bekasi;retrieved2026-10-17,cachelastmonth,**Habis**. Condition/accessories/warrantyunknown;notverifiedusedprice. |
+| Verified used offer | **?** | Not established |
+| Verified new offer | **?** | Saleconditionnotverified |
+<!-- comparison evidence ends -->
+
+### Helix Floor provenance and gaps
+
+Own3.80manualURLreturned **contenttoo large,14,601,036bytes**;manualwasnotread ordownloaded. AccessibleoriginalRevAcheatsheet,Floorproduct,manufacturerKB andolderFAQprovidepartial evidence. IndexedcomparisonPDFcontains96/268/32claims;directPDFfailed,soindexedtable evidenceisexplicit. Current3.80firmwareindex identifiesNovember19,2024;thisdoesnotdateallwebpagefigures. NoLTspecification fillsmissingFloorfields.
+
+Manufacturer [timeline][HF-T] explicitlysaysPlatinum isidenticalexceptfinish. Its separatecached **Rp25.000.000** sold-out [MR.GUITAR INDONESIA,shop605621869/item47400474099][HF-O3],Depok,2monthindexwithAugust12delivery,isvariantprovenance,notanothermodel orauthenticatednewprice. Fullcondition,bundle,warrantyremainunknown.
+
+Next:readaccessibleownmanualtext,verifycompletepower/ports,looplimits,factoryfilledmemory,firmware3.80categorychoices andcurrenteditorOSsupport. Preserveeveryhistoricalprice andvariantdistinction.
+
+[HF-P]: https://line6.com/helix/helix-guitar-processor.html
+[HF-S]: https://line6.com/data/6/0a0643391bb055fca90096a38/application/pdf/Helix%20Cheat%20Sheet%20-%20English%20(%20Rev%20A%20).pdf
+[HF-K]: https://kb.line6.com/helix-lt-comparison
+[HF-Q]: https://line6.com/support/topic/14264-helix-faq/
+[HF-C]: https://line6.com/documents/processor_comparison_chart/Line_6_Processor_Comparison_Chart.pdf
+[HF-T]: https://line6.com/timeline/
+[HF-D]: https://line6.com/software/index.html?hardware=Helix&locale=en_US&name=Flash+Memory&os=All&submit_form=set
+[HF-M]: https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf
+[HF-O1]: https://shopee.co.id/Yamaha-LINE-6-HELIX-Floor-Yamaha-LINE-6-HELIX-LINE-6-HELIX-Floor-i.37016589.24212177775
+[HF-O2]: https://shopee.co.id/Line-6-Helix-Floor-i.397175630.27006529188
+[HF-O3]: https://shopee.co.id/Line-6-Helix-Floor-Platinum-Limitide-Edition-Helix-Effect-Guitar-Bass-i.605621869.47400474099
