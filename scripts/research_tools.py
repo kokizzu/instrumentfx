@@ -133,7 +133,7 @@ def main():
         assert changed <= set(paths), changed-set(paths)
         git('add','--',*sorted(changed))
         print(git('diff','--cached','--stat'))
-        print(git('commit','-m','research(zoom): add original 505 with qualified manual conflict and hardware offer'))
+        print(git('commit','-m','research(zoom): qualify original 505 battery converter and dimension conflicts'))
     elif mode == 'commit-discovery':
         verify()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'

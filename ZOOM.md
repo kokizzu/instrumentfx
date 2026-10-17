@@ -3272,3 +3272,15 @@ Partial record, checked 2026-10-18. Original 505 GUITAR; separate from 505II and
 [505S]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/S_505.pdf
 
 Manufacturer-hosted manual identity and text checked; no files downloaded, software installed or hardware operated. Resolve battery conflict and display, current draw, imports/software and qualified market gaps before calling this fully verified.
+
+### Original 505 — manufacturer manual differences
+
+Checked 2026-10-18; exact seller hardware revision remains unknown. Earlier literal English axis labels and battery evidence remain above.
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / manual conflict scope | Spanish **505-5005 section 14 replacement instructions and section 16 specifications** also require **four AA cells**; the discrepancy is not confined to its introduction. The Japanese **505-5010** replacement/specification sections instead specify **one 6LR61 alkaline, approximately four hours**, agreeing with English 505-5000. A hardware revision or documentation error is not independently established. [Spanish manual][505S] · [Japanese manual][505J] |
+| Dimensions / weight qualification | Japanese section 16 explicitly gives **147W×157D×48H mm; 480g excluding battery**. English/Spanish print the second axis as H and third as D; retain that source-label discrepancy rather than silently treating 157mm as enclosure height. [Japanese manual][505J] |
+| Analog conversion / manual conflict | Japanese section 16 lists **18-bit/128× AD, 16-bit linear DA, 31.25kHz**; Spanish section 16 instead lists **20-bit/64× AD and DA, 31.25kHz**. Neither selects the seller unit’s converters or establishes USB audio. [Japanese manual][505J] · [Spanish manual][505S] |
+
+[505J]: https://zoomcorp.com/media/documents/J_505_0.pdf

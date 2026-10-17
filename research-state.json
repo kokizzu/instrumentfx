@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom 505 original",
-    "task": "Original 505 partial canonical record added. Next reconcile Spanish S_505 opening battery statement against its specifications/replacement section and Japanese original manual; preserve 505/505II/505A separation. Then return to fresh Shopee discovery or unresolved catalogue fields. No downloads; commit before next model.",
+    "task": "Original 505 Japanese and Spanish replacement/specification sections checked. Battery and converter conflicts remain explicit; Japanese dimensions and battery-excluded mass now qualified. Do not repeat these manual checks without new revision evidence. Next seek exact used/new original 505 offers or fresh eligible Shopee brand/series leads; commit each model before next. No downloads.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56711,6 +56711,15 @@
       "sources": [
         "https://www.electori.co.jp/tc-helicon/",
         "https://www.electori.co.jp/tc-helicon/resources.php"
+      ]
+    },
+    {
+      "model": "Zoom 505 original",
+      "checked_date": "2026-10-18",
+      "finding": "Spanish 505-5005 repeats four-AA requirements in replacement and specification sections, with 20-bit/64x AD/DA. Japanese 505-5010 agrees with English one 6LR61/4h, 18-bit/128x AD and 16-bit DA; it explicitly labels 147W x157D x48H mm and 480g excluding battery. Retain documentation conflicts; seller hardware revision unresolved.",
+      "sources": [
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/S_505.pdf",
+        "https://zoomcorp.com/media/documents/J_505_0.pdf"
       ]
     }
   ],
