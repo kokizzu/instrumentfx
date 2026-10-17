@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Neural DSP Quad Cortex",
-    "task": "Quad Cortex captureV2 andpluginlicence requirements saved. Remainingdisplay/captureconnector/looperduration andfactorytotal gaps stay open;resume freshbass/vocal Shopee discovery and manufacturerverification withoutadding duplicates.",
-    "next_models": [],
-    "after_queue": "Fresh bass/vocal discovery andlossless legacy consolidation remain incomplete. No downloads,workflows orpush."
+    "model": "Zoom V6 microphone-bundle lead",
+    "task": "Verify manufacturer V6 versusV6-SP revision/bundle relationship;open exact185899831/52504595267 hardwareoffer andexistingV6-SPcanonicalrecord beforemerging priceevidence oraddingvariant.",
+    "next_models": [
+      "Zoom V6 / V6-SP variant audit"
+    ],
+    "after_queue": "Continue bass/vocal discovery,manufacturerverification andlosslesslegacy consolidation.306active records remainpartial;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -63957,5 +63959,46 @@
       "Paidplugin perpetuallicence linkedaccount;trialsexcluded;one-timeonline validation thenoffline;3QC+3mini peraccount,fourthQCblocks bypassed.",
       "Hardwareoffer doesnotprove transferablepluginlicence."
     ]
+  },
+  "discovery_zoom_vocal_variant_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id bass BP200",
+      "site:shopee.co.id Zoom B2 efek",
+      "site:shopee.co.id VoiceLive Touch",
+      "site:shopee.co.id Korg AX3000B",
+      "site:shopee.co.id bass AX5B",
+      "site:shopee.co.id vocal Zoom V6",
+      "site:shopee.co.id Quad Cortex mini"
+    ],
+    "lead": {
+      "model": "Zoom V6 + microphone;revision unresolved",
+      "url": "https://shopee.co.id/Zoom-V6-Vocal-Multi-Effects-Processor-Microphone-i.185899831.52504595267",
+      "item": "185899831/52504595267",
+      "seller": "GeandPedalStore",
+      "region": "Kab.Sleman",
+      "idr": 3850000,
+      "access": "Two-month-old indexed body,Habis. Title explicitlyincludesmicrophone;actualbundle/condition/stock/revision unverified. Notyet associated withV6-SP andnotnewactive model."
+    },
+    "exact_sp_followup": {
+      "model": "Zoom V6-SP",
+      "url": "https://shopee.co.id/Zoom-V6-SP-Vocal-Multi-Effects-Processor-i.8624665.53203230167",
+      "item": "8624665/53203230167",
+      "seller": "Ixus Pro",
+      "region": "KotaJakartaPusat",
+      "idr": 5301000,
+      "access": "Two-month index,Habis,displayedvoucher Rp5k onRp2.5m minimum;notdeducted orcurrent eligibility proof. Condition,bundle,warranty/stock unknown."
+    },
+    "other_variant": {
+      "model": "Zoom V6",
+      "url": "https://shopee.co.id/ZOOM-V6-Pedal-Efek-Vocal-Processor-Garansi-Resmi-Original-i.95687096.4731958351",
+      "seller": "limitless__store",
+      "region": "KotaJakartaPusat",
+      "idr": 5049000,
+      "access": "Three-month index,Habis;V6titlealone notSPproof."
+    },
+    "bass_result": "OnlyalreadyrecordedB2FOURexactoffers;800959591/24004987590alreadyinledger. NoqualifiedBP200/AX3000B/AX5Bnewlead.",
+    "other_exclusions": "QuadCortexminiresultcoveronly;ordinarywireless/adaptersunrelated. No market-exhaustion claim.",
+    "manufacturer_attempt": "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v6/ inaccessible throughwebtool;do notinferdiscontinued/no capability."
   }
 }
