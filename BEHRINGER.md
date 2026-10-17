@@ -113,6 +113,15 @@ Checked **2026-10-17**. Separate rack model; selected manufacturer manual sectio
 | Processing / category choices | Shared manual chapter6,printed pp13–15,table6.1 lists **15 post-effect selections**:VCF+Flanger,Delay+Chorus,StereoDelay,Delay/Loop,Reverb,Ambience,VoiceBox,Ultrabass,RotaryCab,Phaser,Flanger,Chorus,StereoChorus,Synth,MIDISynth. Text advertises16groups;the missing entry is unresolved,not assumed bypass. Table6.2 separately lists **MIDIWah,P-Funk’n,AutoWah**;MIDIWah excludes the other two. Compressor/denoiser can operate independently. [Manual][BV-M] |
 | Routing / post-effect crossover | Manual p14 specifies **18dB/octave Butterworth crossover**:frequencies below its threshold can bypass post-effects;display value isHz divided by10(8means80Hz),dash disables crossover. This is documented routing,not a measured low-end-quality claim. [Manual][BV-M] |
 
+
+### Bass V-AMP PRO — MIDI and backup limits
+
+| Field | Verified behavior / qualification |
+|---|---|
+| MIDI / backup operation | Manual p16,section8.4.1:**whole-memory SysEx reception overwrites all presets** when MIDI editing is enabled. A single transferred preset enters a temporary buffer and must be saved to retain it. OUT sends preset/parameter changes;THRU forwards incoming data without originating its own. MIDI backup is not proof of a supported current editor or USB audio. [Manual][BV-M] |
+| Live / MIDI control | Appendix p19 assigns **CC1 wah,CC7 volume;CC55–60 record/play/stop/speed/reverse/play-once**,the latter only withDelay/Loop selected. ProgramChange0–124 recalls125locations;127toggles tuner. **CC61 changes amp without changing cabinet**,unlikeCC19’s default-cabinet selection. No MIDI-clock synchronization established:implementation chart marks SystemRealTime receptionN. [Manual][BV-M] |
+| Tuner / live reference | Manual p15 starts at440Hz,adjusts in1Hz steps up/down by15Hz,andautomatically stores the reference. AppendixCC83range25–55 corroborates425–455Hz. This does not resolve pitch-bend/velocity conflicts with the other revision. [Manual][BV-M] |
+
 <!-- comparison evidence ends -->
 
 ### PRO provenance and practical qualifications

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer Bass V-AMP PRO",
-    "task": "PRO effect-table discrepancy,prewah exclusions,acoustic simulation andpostFX crossover preserved. Continue unresolved I/O/control/editor and fresh discovery;do not imply full verification.",
+    "task": "PRO MIDI backup overwrite/single-buffer behavior,conditional sampler controls,amp-without-cab selection andtuner reference saved. Next fresh Shopee brand/series discovery;remaining source-revision andI/O/editor fields unresolved.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60781,5 +60781,15 @@
     "acoustic": "PIEZOSIM explicitly gives electric guitar acoustic character;MICSIM distinct from pickup EQ",
     "routing": "18dB/oct Butterworth postFX crossover;displayHz/10,dashoff",
     "limits": "No device test or revised simultaneous ceiling"
+  },
+  "bass_vamp_pro_midi_20261017": {
+    "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf",
+    "revision": "v1.2 December2005 RevC",
+    "pages": "printed15–16,19",
+    "backup": "Full SysEx reception overwrites all presets;single preset temporary until saved",
+    "control": "CC1wah7volume;55–60sampler conditionalDelayLoop;61ampwithoutcab versus19defaultcab;PC0–124presets127tuner",
+    "clock": "SystemRealTime receiveN;no clock sync established",
+    "tuner": "440default,1Hz steps ±15,stored;CC83 25–55",
+    "limits": "Other MIDI revision conflicts retained;not device-tested"
   }
 }
