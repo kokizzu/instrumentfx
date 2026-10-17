@@ -361,7 +361,7 @@ def main():
         if mode == 'commit-nux-mg300mkii-audit':
             message = 'audit(nux): preserve MG-300 MKII shared fields and GEN2 qualifications'
         if mode == 'commit-nux-mg300-audit':
-            message = 'research(nux): qualify original MG-300 offer contents and variant limits'
+            message = 'research(nux): document original MG-300 output and calibration modes'
         if mode == 'commit-nux-mg101-audit':
             message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-h9max':

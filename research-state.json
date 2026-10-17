@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-300 original",
-    "task": "Verify selected contents of original-MG300 lead18731802/26530644044 only with stronger evidence;otherwise continue V4 manufacturer count/memory gaps or fresh bass/vocal discovery. Do not assign MKII or preset-pack prices to original.",
+    "task": "Original MG-300 manufacturer memory/count search has not resolved capacity;avoid repeating identical searches. Continue fresh bass/vocal discovery or other models technical gaps;retain original output/calibration and regional qualifications.",
     "next_models": [],
     "after_queue": "Bass/vocal discovery and migration audit remain incomplete. No downloads/workflows/push."
   },
@@ -52061,6 +52061,13 @@
       "source": "https://shopee.co.id/NUX-MG300-ORIGINAL-Efx-Multi-MG-300-MG-300-Like-New-i.18731802.26530644044",
       "finding": "Rp1690000 exact lead saved with explicit unresolved hardware/accessory contents;not qualified used/new evidence.",
       "remaining": "Selected contents,regional revision,condition,stock;V4 count/memory andother technical gaps."
+    },
+    {
+      "model": "NUX MG-300 original",
+      "checked_date": "2026-10-17",
+      "source": "https://manualzz.com/doc/64472440/nu-x-mg-300-guitar-multi-fx-pedal-instruction-manual",
+      "finding": "Version1.0 five output modes and pedal switch-position calibration documented,without inferring physical output count or exact toe behavior.",
+      "remaining": "Preset capacity search did not establish manufacturer proof;unofficial72preset user guide not adopted. V4 categories,display,current and qualified offers remain open."
     }
   ],
   "discovery_cross_brand_bass": {
