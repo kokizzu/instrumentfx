@@ -339,7 +339,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-708ii':
-            message = 'research(zoom): add bass-focused 708II with own synth restrictions'
+            message = 'research(zoom): reconcile 708II category counts and qualify hold delay'
         if mode == 'commit-707ii':
             message = 'research(zoom): reconcile 707II effect counts and separate sampler from hold delay'
         if mode == 'commit-ax30g':

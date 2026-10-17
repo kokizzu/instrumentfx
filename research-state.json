@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom 708II",
-    "task": "First-pass bass root record saved. Count own category table and audit synth/pickup restrictions, hold-delay and card persistence; no707II borrowing.",
+    "task": "708II type-count and hold/card audit saved. Continue exact Shopee discovery; synth parameter/persistence/software and price gaps remain explicit.",
     "next_models": [],
     "after_queue": "Continue missing bass/vocal discovery and legacy consolidation; no downloads/workflows."
   },
@@ -49853,6 +49853,15 @@
       ],
       "finding": "Tablecounts1+2+33+1+2+7+20+8=74;drive30distortion+3acoustic. HoldDelay2seconds normal/reverse/soundonsound separate sampler6sinternal/4min16MB60samples. Manualrecordpressvsheldconflict retained. SmartMedia3.3V16–128MB inunitformat,separatereader.",
       "remaining": "Synthengine,currenteditor,persistence,aggregatecardlimits and sourceconflicts."
+    },
+    {
+      "model": "Zoom 708II",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_708II.pdf"
+      ],
+      "finding": "Own tables1+33+1+2+4+20+8=69. PickupPS/AC inputmatching. Card5x60patches separateinternal120. HoldDelay2s normal/reverse/soundonsound,manualpressvsheldconflict. Factoryuserdefaultsrecallable.",
+      "remaining": "Synthparamranges,persistence,currentsoftware,qualifiedvariantprice."
     }
   ],
   "discovery_cross_brand_bass": {
