@@ -40991,6 +40991,18 @@
       "fix": "Project this specific model-qualification field into processing as well as practical-use context.",
       "status": "passed",
       "after": "Focused test passed; actual FG200 processing row retains original counts and v1.2.1/v1.2.5/v1.2.6 qualifications."
+    },
+    "scope_conflict_projection": {
+      "checked_date": "2026-10-17",
+      "before": "Focused regression fails on Bass capability; audit also found historical-count and delay-claim fields absent from every comparison column.",
+      "fix": "Explicit sound/scope projection for bass capability and instrument scope;processing projection for historical-count/delay-claim conflicts.",
+      "status": "passed",
+      "unmapped_retained_in_full_records": [
+        "M-VAVE MINI-X manufacturer verification limits",
+        "VING manufacturer identity",
+        "Zoom B3 generic Source conflict frequency-response discrepancy"
+      ],
+      "after": "Focused regression passed; reviewed actual XT Live optional-license,HD400 historical-count andFV03 delay-claim rows in affected instrument views."
     }
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
