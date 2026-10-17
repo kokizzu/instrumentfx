@@ -231,6 +231,17 @@ Checked2026-10-18 against the [exact IIB manufacturer manual][SL2B-M]. Printed p
 | Memory / global persistence | P12: output-device **AP/Ln selection persists** across power-off; **master volume resets to7.0**. Unsaved program edits are lost on program change/power-off. P14 factory reload erases stored user-created programs;this is not an additional writable bank. |
 | Live / tuner reference reset | P9: reference adjustment **438–445Hz** returns to **440Hz after power-off**. This differs from the persistent output-device selection. |
 
+
+### StompLab 2B — amplifier and drive category detail
+
+Checked2026-10-18 against the [manufacturer appendix][SL2B-M],printed pp78–80.
+
+| Field | Exact-model category evidence |
+|---|---|
+| Processing / AMP choices | P79 lists **seven clean models**: VALVE1,VALVE2,CLASSIC,SCOOPED,LA STUDIO,GOLD PANEL,JAZZ; **three overdriven amp models**: STUDIO,AC100,UK MAJOR. These account for ten amps;not ten simultaneous blocks. |
+| Processing / DRIVE and EQ controls | The same shared AMP/DRIVE category has **four drive/distortion and four fuzz choices**. Clean choices use limiter sensitivity;overdriven/drive/fuzz choices use gain. Low/high/mid controls belong to AMP/DRIVE rather than independent EQ slots;clean choices include adjustable mid frequency. Exact frequency values are not published by the0–10 scale. |
+| Processing / PEDAL choices | P78 lists nine entries: compression,exciter,wah,envelope wah,octave,acoustic processing,vibe,tone andring modulation. Wah has two internal model settings;these do not add two more PEDAL entries. Ring modulation does not independently establish a dedicated bass-synth oscillator architecture. |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware

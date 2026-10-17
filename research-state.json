@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX StompLab 2B",
-    "task": "Own manual saved pedal-range persistence,global master reset,tuner reset and delay-label conflict. Continue remaining power/display/software gaps or fresh exact Shopee discovery.",
+    "task": "StompLab 2B AMP/PEDAL choices and shared DRIVE/EQ controls saved. Remaining display/power/software fields require independent exact-model evidence;resume fresh Shopee discovery or another existing-record gap.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -58071,6 +58071,12 @@
       "model": "VOX StompLab 2B",
       "checked": "2026-10-18",
       "finding": "Own manual resolves pedal-range/global/tuner persistence;delay-label discrepancy retained.",
+      "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf"
+    },
+    {
+      "model": "VOX StompLab 2B",
+      "checked": "2026-10-18",
+      "finding": "Exact manufacturer appendix adds AMP/PEDAL choices and shared DRIVE/EQ control distinctions;see canonical record.",
       "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf"
     }
   ],
