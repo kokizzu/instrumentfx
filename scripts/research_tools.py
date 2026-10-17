@@ -339,7 +339,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-harmony-singer2':
-            message = 'docs(tc-helicon): expose Harmony Singer 2 correction caveat and exact price links'
+            message = 'research(tc-helicon): qualify Harmony Singer 2 quick-start revision differences'
         if mode == 'commit-duplicator':
             message = 'research(tc-helicon): add Duplicator with model-specific bypass and source conflicts'
         if mode == 'commit-mic-mechanic2':

@@ -653,7 +653,7 @@ Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Gu
 | Required field | Finding / qualification |
 |---|---|
 | Built-in / external / toe expression | Integrated treadle absent from documented controls; external expression and toe-switch support unverified. |
-| Rotary / footswitches / buttons | **3 / 1 / 1**: Harmony, Level, Reverb; footswitch; Tone. Rear power switch additional. Text inventory; current visual corroboration unavailable. [Manual][HS2-M], p3 |
+| Rotary / footswitches / buttons | **3 / 1 / 1**: Harmony, Level, Reverb; footswitch; Tone. Rear power switch additional. Older-manual text inventory; current visual corroboration unavailable. The v5.0 quick start additionally names a ground-lift button; exact current button count/revision remains unresolved. [Manual][HS2-M], p3; [v5.0 guide body][HS2-Q5] |
 | Display | Battery/effect LEDs; screen, diagonal, color-display specification and touch unverified. [Manual][HS2-M], p3 |
 | Dimensions / weight | **140 × 90 × 60 mm; 420 g**. Printed axes and battery inclusion unspecified; W×D×H mapping unverified. [Manual][HS2-M], p6 |
 | Simultaneous processing / categories | Harmony, reverb, adaptive Tone coexist; freely assignable DSP-slot maximum unverified. Eight harmony settings: +3rd; +5th; +3rd/+5th; −4th; −6th; −4th/−6th; +5th/−6th; +3rd/−4th. Three reverbs, Room/Hall endpoints. [Manual][HS2-M], pp3,5 |
@@ -661,10 +661,10 @@ Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Gu
 | Synth / acoustic simulation | Dedicated synthesis and acoustic simulation unverified. Harmony generation and acoustic-guitar chord sensing do not establish either. |
 | IR / NAM / capture | User IR, native NAM, converted NAM and proprietary capture each unverified. |
 | Audio / control I/O | XLR mic in/out; guitar input/through; micro-USB; power input. [Manual][HS2-M], pp3–5. Guitar socket size, headphone, MIDI and USB-audio operation unverified. |
-| Power / battery / USB | Manual: **9 V / 670 mA; 6 W; four AA**. Supply is marked supplied in specifications but not included in controls; bundle conflict retained. DC polarity, barrel, draw, runtime and USB power/charging unverified. [Manual][HS2-M], pp3,5–6 |
+| Power / battery / USB | Manual: **9 V / 670 mA; 6 W; four AA**. Supply is marked supplied in specifications but not included in controls; bundle conflict retained. The v5.0 quick start specifies **9 V / >300 mA**, optional PowerPlug 9. This minimum can be met by a 670 mA supply; it does not establish a different hardware current draw. DC polarity, barrel, draw, runtime and USB power/charging unverified. [Manual][HS2-M], pp3,5–6; [v5.0 guide][HS2-Q5] |
 | Editor / updater platforms | Micro-USB/VoiceSupport firmware updating documented. Full editor, current Windows/macOS support, mobile editor and audio drivers unverified. [Manual][HS2-M], p3 |
-| Live functions / routing | Harmony bypass retains reverb/Tone. Latching/momentary modes; auto gain; always-on **24 V** phantom; MP-75 Mic Control. Guitar effects before sensing can impair tracking. [Manual][HS2-M], pp3,5. Looper, drums, scenes, persistence and spillover unverified. |
-| Processing / pitch correction / source conflict | Current product page advertises pitch correction; older manual lists no dedicated correction control. A separately controllable lead-pitch-correction function and applicable firmware remain unverified. [Product][HS2-P]; [Manual][HS2-M] |
+| Live functions / routing | Harmony bypass retains reverb/Tone. Latching/momentary modes; auto gain; always-on **24 V** phantom; MP-75 Mic Control. Guitar effects before sensing can impair tracking. [Manual][HS2-M], pp3,5. The v5.0 guide also describes holding the footswitch to bypass harmony and reverb; applicability to the older momentary mode remains unresolved. Looper, drums, scenes, persistence and spillover unverified. [v5.0 guide][HS2-Q5] |
+| Processing / pitch correction / source conflict | Current product page advertises pitch correction; older manual lists no dedicated correction control. The v5.0 guide repeats malformed Key Selector/CH/pitch-correction wording immediately joined to the harmony description. This is a documented discrepancy, not independent proof of a selectable correction function. Applicable hardware/firmware remains unverified. [Product][HS2-P]; [Manual][HS2-M]; [v5.0 guide][HS2-Q5] |
 | Used IDR — historical asks, sold out | **Rp3,000,000**, [TOBAKAS ASYEFI](https://shopee.co.id/TC-HELICON-HARMONY-SINGER-2-(SECOND)-i.414662483.29216795790), Jakarta Timur, title SECOND, Habis; **Rp2,500,000**, [chorusbandid](https://shopee.co.id/TC-Helicon-Harmony-Singer-2-%28-Second-Mint-%29-i.955084573.54502259248), Kabupaten Temanggung, title Second Mint, indexed Habis. Checked 2026-10-17; last-month/two-month caches respectively, second direct retrieval failed. Seller condition claims, not inspection; bundle/current-stock limitations in full record. |
 | New IDR | **?** Retail-looking hardware asks below lack item-condition verification. |
 
@@ -683,9 +683,14 @@ Selected variant, adapter/battery bundle, warranty validity, shipping/tax, curre
 
 The complete manufacturer-authored eight-page English manual, ©2016, was read through Thomann's mirror; printed revision date unknown. The exact [manufacturer quick-start PDF][HS2-Q], indexed **v5.0**, failed retrieval; its version is not assigned as device firmware. Some separately indexed older quick-start copies contain malformed Key Selector/correction wording: do not silently merge those into a new hardware specification. Current manufacturer product copy claims pitch correction; resolving document/hardware/firmware differences remains required. PDF screenshot output was not inspectable, so no successful visual panel verification is claimed. No file, software, firmware or dependency downloaded to the filesystem.
 
-Remaining: current quick-start body and revision conflicts; power polarity/barrel/draw/runtime/USB; expression; dimension axes; display, patch memory, editor platforms, IR/NAM/capture; exact sale condition and current stock.
+Follow-up: a reproduced **v5.0** guide body was read on 2026-10-17, with exact model/version identity corroborated by the [ManualsLib entry][HS2-Q5INDEX]. Only reproduced manufacturer text was used; mirror-generated FAQs and the erroneous description of V5.0 as a device model are not evidence. The manufacturer-hosted PDF still failed retrieval; no byte-level equivalence or visual control verification is claimed. Ground-lift and key-selector wording remain unresolved rather than silently changing the older control count.
+
+Remaining: manufacturer original and hardware applicability of quick-start revision conflicts; power polarity/barrel/draw/runtime/USB; expression; dimension axes; display, patch memory, editor platforms, IR/NAM/capture; exact sale condition and current stock.
 
 [HS2-P]: https://www.tchelicon.com/en/products/0726-AAB
 [HS2-M]: https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf
 [HS2-Q]: https://cdn.mediavalet.com/aunsw/musictribe/f5IBU8MXd0mUrwtzYSq1Eg/ROc6EfIfMEOhKy7Xjt51gw/Original/QSG_TH_0726-AAB_HARMONY-SINGER-2_WW.pdf
 [HS2-OLDQ]: https://manuals.plus/m/3474e06beae5f6d33f49d098aa16a9cc527a00dfb29228f4988281447e87e514
+
+[HS2-Q5]: https://device.report/manuals/harmony-singer-2-quick-start-guide
+[HS2-Q5INDEX]: https://www.manualslib.com/manual/3373982/Tc-Helicon-Harmony-Singer-2.html

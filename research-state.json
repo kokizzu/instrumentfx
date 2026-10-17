@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh bass/vocal discovery",
-    "task": "Harmony Singer 2 added; eight harmony settings and used-title offers retained. Continue exact Shopee bass/vocal discovery, with own manufacturer verification; do not treat guitar-through as guitar multi-effects.",
+    "task": "Harmony Singer 2 QSG v5 body follow-up saved; hardware applicability remains unresolved. Continue fresh exact Shopee bass/vocal discovery, then manufacturer verification. Preserve additional ground-lift/correction/held-bypass conflicts.",
     "next_models": [],
     "after_queue": "Resolve technical fields and compatibility links; no downloads/workflows."
   },
@@ -49941,6 +49941,16 @@
     {
       "model": "TC-Helicon Harmony Singer 2",
       "task": "Retrieve manufacturer QSG v5 body; resolve pitch-correction/key-selector/bundle revisions. Verify polarity/barrel/draw/runtime/USB, axes, memory/display/editor and current offers."
+    },
+    {
+      "model": "TC-Helicon Harmony Singer 2",
+      "checked_date": "2026-10-17",
+      "finding": "Reproduced QSG v5.0 body read: >300 mA supply minimum, hold bypass harmony/reverb, additional ground-lift control and malformed key-selector/CH wording. >300 mA minimum is compatible with 670 mA supply capacity; not proof of changed draw.",
+      "sources": [
+        "https://device.report/manuals/harmony-singer-2-quick-start-guide",
+        "https://www.manualslib.com/manual/3373982/Tc-Helicon-Harmony-Singer-2.html"
+      ],
+      "remaining": "Manufacturer PDF retrieval still fails. Verify actual control layout/hardware revision, ground lift, correction and momentary/held bypass interaction; do not equate QSG version with firmware."
     }
   ],
   "discovery_cross_brand_bass": {
