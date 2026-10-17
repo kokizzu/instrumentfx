@@ -32,6 +32,15 @@ Guitar multi-effects; distinct from original ToneLab, SE, ST and EX. Checked2026
 | Used | **Rp2,260,000**, title explicitly Second. **Inside Studio Solo**,shop1887861133/item52514565252,Kab.Sukoharjo. Checked2026-10-17; exact HTML opened, three-week cache with26–27Sep delivery. Stock,working state,adapter/bundle,warranty and selected variant unverified. Model-selection URL parameter267809844474 retained; no variant options exposed. Late-arrival Rp10,000 compensation is not a discount; shipping/taxes/checkout unknown. Cached asking price only. | [Exact Shopee item][TLLE-S] |
 | New | Unknown; no qualified new hardware offer established. | — |
 
+
+### ToneLab LE — converters and expression initialization
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / converters | **24-bit A/D and D/A;44.1 kHz**. These internal specifications do not establish USB audio; the recorded ports have no USB. | [English p55][TLLE-E] |
+| Expression / EXP INIT | Global, automatically saved: OFF applies current pedal position immediately on program change; ON initializes the assigned parameter to its saved value. VOLUME, D/INPUT and R/INPUT always follow current position regardless. Per-program target/endpoints still require storing. | [English pp47–48][TLLE-E] |
+| Expression / editing versus performance | Ordinary pedal targets edit the parameter value that will be written. OFF, VOLUME, M/PITCH, D/INPUT and R/INPUT do not edit stored parameters. Changing target initializes its MIN/MAX range. | [English pp47–48][TLLE-E] |
+| Live / tap-factor limits | MOD TAP/DLY TAP support twelve factors:1/6,1/4,1/3,1/2,2/3,3/4,1,4/3,3/2,2,3,4. Maximum tap interval10s; this is not a maximum delay-time specification. Changing CONTROL assignment resets FACTOR to1; it has no effect for other targets. | [English p49][TLLE-E] |
 <!-- comparison evidence ends -->
 
 Primary Japanese J2 manual is manufacturer-hosted. English manufacturer-authored E1 mirror identifies ©2006 VOX AMPLIFICATION LTD, ToneLab LE and MIDI chart2006-04-20; category/memory/dimensions/ports match J2, but weight differs. English pagination differs from Japanese. No full-file hash or visual control certification. Both PDFs viewed as browser text; no software/manual/dependency saved or installed.
