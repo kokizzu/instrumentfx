@@ -50,3 +50,41 @@ Checked2026-10-18. Manufacturer English product table and [Chinese product table
 Original-manual access audit: official PDF403;manufacturer-domain alternate inaccessible;three Manuals+ original-PDF routes andtwo device.report optimized-PDF routes failed. Converted summaries disagree oromit details,so their control counts,USB format/OS andheadphone claims are not promoted. Future work should obtain readable original text rather than repeat these same failed routes. No files saved orsoftware installed.
 
 [CN]: https://www.soranaudio.com/cn/products/15.html
+
+## Tiny Stomp
+
+Desktop guitar/bass multi-effects;checked2026-10-18,partial. Own manufacturer manual read as PDF text;no image audit or downloads. Distinct from Dual Stomp/Lite.
+
+| Field | Finding / qualification |
+|---|---|
+| Instrument scope | Guitar andbass explicitly supported;25guitar/5bass amps andmatching cabinets. [TS-P] |
+| Expression / toe | External¼in TRS EXP/CTRL:10–100kohm pedals;manual maps volume ordual switch ring=down,tip=up. No built-in pedal documented;toe unverified. [TS-P],[TS-M] |
+| K/F/B | Text-derived2rotary(Master,Edit),0onboard footswitches documented,2separate Left/Right buttons;encoder press countedonce,power separate. No panel-image corroboration. [TS-M] |
+| Display | 2-inch color TFT;touch unverified. [TS-P] |
+| Processing / choices | Advertised125effects/up to10modules:8tone modules pluslooper/drums. Exact per-category enumeration pending;empty import slots must not become factory algorithms. 30factoryamps/cabs plus10user slots each. [TS-P],[TS-M] |
+| Factory / user memory | 99editable locations;manual describes99factory presets,product01–80guitar/81–99bass. Not198locations. [TS-P],[TS-M] |
+| Synth / acoustic | Specific synth/acoustic simulation unverified. |
+| Dimensions / mass | 109L×84W×32H mm;250g. [TS-P] |
+| I/O | Mono¼TS input;shared¼TRS stereo OUT/PHONES,TRS EXP/CTRL,USB-C. TS output cable givesleft only;TRS splitter suppliesL/R. [TS-P],[TS-M] |
+| Power / battery / USB | 1500mAh3.7V battery,up to4h;USB-C5V charging. Manual says USBaudio/OTG stops charging. Draw,USB-only operation andbarrelpolarity unverified. [TS-P],[TS-M] |
+| IR / NAM / captures | Ten WAV IR slots,48kHz24bit512samples. TenNFILEslots. **NAM A2 conversion**,notproven native execution:Aug25 2026notice says StompManager1.0.2.1Mac/Windows converts automatically,nofirmware update required. Architecture/size limits andonboard capture unverified. [TS-P],[TS-A2] |
+| Editor / software | StompManager:Windows10+64bit,macOS10.15.6+;mobileiOS11+/Android5+. Manual-era minimums,notcurrentOS certification. SeparateDFU updater. [TS-M] |
+| USB audio / drivers | 2-in/2-out48kHz24bit. V1.1.1notes:WindowsASIO6.14.0;MacCoreAudio. USB-MIDI pedal requires externalcontroller’s USBhost;wording USBHOST doesnot prove devicehost. [TS-P],[TS-FW] |
+| Looper / drums / routing | 40sstereolooper,AutoRec,Undo/Redo,LoopSync;100patterns. Eighttone modules movable. [TS-P],[TS-M] |
+| Firmware / backup | May27 2026V1.1.1 fixesTinyexternaldualfootswitch andHarmonyMajor/Minor. Update retainspresets buterases importedNAM/IR;factoryreset deletesuserdata. Backup first;no update performed. [TS-FW] |
+
+### Tiny Stomp — separate IDR hardware evidence
+
+| Condition | Amount / qualifications | Source |
+|---|---|---|
+| Used | Unknown;no qualifiedused offer. | — |
+| New | Unknown;condition notexplicit. | — |
+| Condition unverified;stock unconfirmed | **Rp830,000**,CH MUSIC,Jakarta Pusat,shop195817632/item9344664445. Directreaderlastweekcache,checked2026-10-18. Relative HariIni delivery notstock proof. Bundle/variant/warranty/voucher/shipping/tax unknown;Rp10,000 latecompensation notdiscount. | [ExactShopee][TS-S] |
+
+Original manual is manufacturer-hosted,matching Tiny Stomp cover/control names;internal filename JME-03A. No explicit revision date independently established;do not equate URLdate withfirmware. AugustA2notice andMayV1.1.1notes are separate dated evidence. Product counts40amps/40cabs include10importslots each;complete category audit still required. All earlier Go Rig B gaps remain.
+
+[TS-P]: https://soranaudio.com/products/34.html
+[TS-M]: https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf
+[TS-A2]: https://www.soranaudio.com/article/162.html
+[TS-FW]: https://soranaudio.com/article/127.html
+[TS-S]: https://shopee.co.id/SORAN-Tiny-Stomp-Multi-Effect-Processor-with-Dual-Mode-Electric-Guitar-and-Bass-i.195817632.9344664445

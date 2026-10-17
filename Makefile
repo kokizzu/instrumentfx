@@ -1735,3 +1735,7 @@ research-commit-fx600:
 .PHONY: research-commit-gorigb
 research-commit-gorigb:
 	python3 scripts/research_tools.py commit-gorigb
+
+.PHONY: research-commit-tinystomp
+research-commit-tinystomp:
+	python3 scripts/research_tools.py commit-tinystomp
