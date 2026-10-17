@@ -1883,3 +1883,7 @@ research-commit-vamp3:
 .PHONY: research-commit-ax100g
 research-commit-ax100g:
 	python3 scripts/research_tools.py commit-ax100g
+
+.PHONY: research-commit-g1four-market
+research-commit-g1four-market:
+	python3 scripts/research_tools.py commit-g1four-market

@@ -350,6 +350,16 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 
 [Original shared source](research-state.json)<!-- historical-link:zoom-010 -->,retained pending complete navigation/provenance audits.
 
+
+### G1 FOUR additional exact hardware offers
+
+Checked 2026-10-18. Hardware titles match non-X G1 FOUR; condition, revision, working state, warranty and checkout totals remain unverified. No files downloaded or purchase made.
+
+| Field | Asking evidence / qualification | Source |
+|---|---|---|
+| IDR Condition unknown / Alroy | **Rp2,500,000**, Kota Yogyakarta; shop38084183/item48151468685. Title includes AD-16E adapter; actual bundle contents uninspected. Three-week cached direct text has stale 28 September delivery. No Habis marker exposed, but stock/checkout unknown. Late-delivery compensation is not a product discount. | [Exact hardware](https://shopee.co.id/Efek-Gitar-Zoom-G1-Four-%28-Adaptor-Efek-Zoom-AD-16E-AD-16E-AD16E%29-i.38084183.48151468685) |
+| IDR Condition unknown / Golden Bless YouTube official | **Rp1,950,000**, Kota Jakarta Barat; shop801530928/item21185698903. Title includes adapter, model unconfirmed. Today’s direct cache shows active seller and four-hour delivery; earlier two-week search cache showed shop holiday and 16 October delivery. Preserve the access-time difference; neither establishes live stock or delivery. New/used, warranty and voucher eligibility unknown; late compensation excluded. | [Exact hardware](https://shopee.co.id/Zoom-G1-Four-Guitar-Multi-Effects-Pedals-With-Adaptor-i.801530928.21185698903) |
+
 ## G1X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

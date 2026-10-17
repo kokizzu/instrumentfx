@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "Original G1 pre-select, rhythm-mode restrictions and tuner reset saved. Continue exact missing-model discovery and remaining source verification.",
+    "task": "Two exact G1 FOUR adapter-bundle offers saved with cache/status distinctions. Continue missing-model discovery and technical verification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69785,5 +69785,33 @@
     ],
     "tests": "Mapped technical, provenance and price fixtures accepted; unclassified technical fixture rejected. All334 actual records pass generation.",
     "limitations": "Regex classification gate is not semantic fact verification, source-paragraph extraction completeness or proof of correct column placement for every possible label."
+  },
+  "discovery_g1four_exact_20261018": {
+    "checked_date": "2026-10-18",
+    "destination": "ZOOM.md#g1-four",
+    "status": "partial",
+    "offers": [
+      {
+        "shop": "38084183",
+        "item": "48151468685",
+        "seller": "Alroy",
+        "idr": 2500000,
+        "condition": "unknown",
+        "stock": "unverified",
+        "bundle": "AD-16E in title",
+        "access": "three-week direct cache; stale September delivery"
+      },
+      {
+        "shop": "801530928",
+        "item": "21185698903",
+        "seller": "Golden Bless YouTube official",
+        "idr": 1950000,
+        "condition": "unknown",
+        "stock": "unverified",
+        "bundle": "adapter in title; model unknown",
+        "access": "today direct active seller versus two-week indexed holiday state"
+      }
+    ],
+    "remaining": "Condition-specific asks, checkout stock, actual bundle/warranty and technical gaps remain unresolved."
   }
 }
