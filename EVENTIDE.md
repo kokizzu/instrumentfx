@@ -77,7 +77,7 @@ Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownersh
 | Expression | No built-in pedal; two TRS EXP/CTL inputs accept 10–25kΩ pedals, 0–5V CV on tip, or 1–3 normally-open momentary switches. Toe support unverified. [Rear][H90-R] |
 | Knobs / footswitches / buttons | **5 rotary /3 physical footswitches /7 buttons**, text-derived: Select, Perform, three Quick Knobs; Programs, Routing, Presets, Parameters, P/A/B. Push encoders counted once. Product’s six programmable footswitch functions are not six physical switches. [Top][H90-T] |
 | Display | OLED; diagonal, resolution, monochrome/color and touchscreen unverified. [Top][H90-T] |
-| Processing / choices | Current product headline **74=52 H9-derived+22 newer algorithms**; per-category inventory and minimum firmware pending. **Two algorithms per Program**, series/parallel, with spillover. Two mono inserts or one stereo insert; Dual mode can process two stereo instruments. [P][H90-P] |
+| Processing / choices | Current product headline **74=52 H9-derived+22 newer algorithms**; **Manual1.12.5 reconciles74 effects**, excluding Mute/Thru utilities; release1.12.5 introduces the four granular algorithms. Installed firmware unknown. [Guide][H90-G],[Release][H90-F] **Two algorithms per Program**, series/parallel, with spillover. Two mono inserts or one stereo insert; Dual mode can process two stereo instruments. [P][H90-P] |
 | Factory / user memory | **Up to99 Programs per List**; editable User Lists and read-only Factory Lists, first User List factory-populated. Total list count, total capacity and exact factory fill unresolved. A Preset is one algorithm’s settings; a Program contains two. [Terminology][H90-M] |
 | Synth / acoustic | Product lists PolySynth and polyphonic pitch SIFT; detailed synth restrictions and acoustic simulation unverified. [P][H90-P] |
 | Dimensions / mass | Product: **170W×136D×68Hmm;0.84kg**, also6.5W×5.25D×2.5Hin. Manual1.11.4: **179W×136D×65Hmm;1.36kg**, also1.85lb. Retain conflicting metric axes/mass and inch/metric mismatch; do not silently convert or choose. [P][H90-P],[Specs][H90-S] |
@@ -85,8 +85,8 @@ Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownersh
 | Power / battery / USB | Included **12V1A center-positive,5.5/2.5mm** supply. Manual power table lists **12V600mA or9V800mA** operating requirements, distinct from included adapter rating. Measured draw, battery and USB bus power unverified. [Rear][H90-R],[Specs][H90-S] |
 | Processing / conversion and latency | **48kHz;24-bit AD/DA;32-bit float DSP**. Manual:parallel3.8ms/series4.5ms;each insert adds3.8ms plus configured compensation. Not USB audio format evidence. [Specs][H90-S] |
 | IR / NAM / capture import | Unverified; preset/list import is not proof of IR or amp capture. |
-| Editor / platforms | Current **Eventide Control Mac/PC/iPad**, Bluetooth/USB-C; older manual calls it H90 Control. OS/version matrix pending. [P][H90-P],[Rear][H90-R] |
-| Looper / drums / live | Tuner and spillover documented; own looper limits, drums, scenes and detailed HotSwitch behavior pending. [P][H90-P] |
+| Editor / platforms | Current **Eventide Control Mac/PC/iPad**, Bluetooth/USB-C; older manual calls it H90 Control. Desktop **Eventide Control2.2.0 requires H90 firmware1.9.4+**; current OS matrix and iPad app version pending. [Downloads][H90-D] [P][H90-P],[Rear][H90-R] |
+| Looper / drums / live | Tuner and spillover documented; **Looper stereo:60s full-quality headline; speed table2x60s/1x120s/½x240s/¼x480s**, slower recording trades fidelity for length. Undo/redo, reverse, MIDI clock, one-button control; Punch/Repl-Punch unavailable in one-button mode. Max length only changes while empty. Drums/scenes and detailed HotSwitch behavior pending. [Looper1.12.5][H90-L] [P][H90-P] |
 
 ### H90 — separate IDR hardware evidence
 
@@ -104,3 +104,31 @@ No downloads or image inspection. Product checked now; manual sections explicitl
 [H90-S]: https://cdn.eventideaudio.com/manuals/h90/1.11.4/content/appendix/specifications.html
 [H90-M]: https://cdn.eventideaudio.com/manuals/h90/1.11.4/content/terminology.html
 [H90-O]: https://shopee.co.id/Eventide-H90-Harmonizer-Stompbox-Multi-Effects-Pedal-i.799119783.26020027851
+
+### H90 — firmware-qualified effect inventory
+
+Checked2026-10-17 against [manual1.12.5 index][H90-G]. Counts derived from its named entries; **12+5+1+4+13+4+1+16+1+14+3=74**, plus two utilities outside the effect total. Lineage differs from H9’s grouping.
+
+| Field | Choices |
+|---|---|
+| Processing / Delay12 | Band Delay, Bouquet Delay, Digital Delay, Ducked Delay, Filter Pong, Head Space, Mod Delay, MultiTap, Reverse, Tape Echo, UltraTap, Vintage Delay |
+| Processing / Distortion5 | Aggravate, CrushStation, PitchFuzz, Sculpt, WeedWacker |
+| Processing / EQ1 | EQ Compressor |
+| Processing / Granular4 | Cosmic Web, Glitch, GrainMod, Stutter |
+| Processing / Harmonizer13 | Crystals, Diatonic, H910 H949, HarModulator, HarPeggiator, MicroPitch, Octaver, PitchFlex, PolyFlex, Polyphony, Prism Shift, Quadravox, Resonator |
+| Processing / Harmonizer+4 | Quadravox+, VocalShift, VocalShiftMIDI, VocalTune |
+| Processing / Looper1 | Looper |
+| Processing / Modulation16 | Chorus, Even-Vibe, Flanger, Harmadillo, Instant Flanger, Instant Phaser, ModFilter, Phaser, Q-Wah, RingMod, Rotary, Sticky Tape, TremoloPan, Tricerachorus, Undulator, Vibrato |
+| Processing / Multi1 | SpaceTime |
+| Processing / Reverb14 | Blackhole, DualVerb, DynaVerb, Hall, MangledVerb, ModEchoVerb, Plate, Reverse Reverb, Room, SP2016 Reverb, Spring, Shimmer, TremoloVerb, Wormhole |
+| Processing / Synth3 | HotSawz, PolySynth, Synthonizer |
+| Processing / Utility2 | Mute, Thru; not added to74 |
+
+[Release1.12.5][H90-F] explicitly introduces four granular algorithms. This establishes their version requirement; it does not prove the seller unit has that update or that1.12.5 is the newest release. No software was installed.
+
+The [looper page][H90-L] retains its60s full-quality headline alongside the speed-dependent table. Do not infer120s at1x has the same fidelity as the headline. One-button control supports record/play/overdub, hold undo/redo and double-press stop; punch modes require dedicated transport controls. Stereo looper limits are not borrowed from H9 Max.
+
+[H90-G]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/index.html
+[H90-F]: https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/
+[H90-L]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/looper.html
+[H90-D]: https://www.eventideaudio.com/downloads/?product=H90

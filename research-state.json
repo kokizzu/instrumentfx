@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Eventide H90",
-    "task": "InitialH90#297 saved separately;next resolve firmware-qualified74algorithm inventory,totalList/usercapacity,looper,bassscope anddimensions/massconflicts. No H9Gen2borrowing.",
+    "task": "H90manual1.12.5 full74effectcategoryinventory plus2utilities andlooperlimits saved;desktopControl2.2.0minFW1.9.4 verified. Next totalList/usercapacity,bassSOURCEsetting,synthdetails anddimensions/massconflict. No downloads/workflows/push.",
     "next_models": [],
     "after_queue": "Continue fullresearch/discovery/consolidation;no downloads/workflows/push."
   },
@@ -51615,6 +51615,18 @@
       "pages": "5,27,43,47",
       "finding": "BASS/SYN.BASsourceoptimizespitch/filterranges:positivebassmembership. SixcharacteralphanumericLED;USBdisablesDINMIDIincludingthru. ManualDC2.5x5mmvsproduct5.5/2.5outerdiameterconflictretained.",
       "remaining": "Vocaleligibility,USBaudio/buspower,imports,displaydiagonal/color/touch,currentdraw/stock"
+    },
+    {
+      "model": "Eventide H90",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/index.html",
+        "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/looper.html",
+        "https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/",
+        "https://www.eventideaudio.com/downloads/?product=H90"
+      ],
+      "finding": "74effects11categories+2utilities;granular4introduced1.12.5. Stereolooper60sfullqualityheadline,speedtable60/120/240/480 at2x/1x/half/quarter retained,onebuttonpunchrestriction. EventideControl2.2.0desktoprequiresH90>=1.9.4.",
+      "remaining": "Totalmemory,bassclassification,synthdetails,dimensions/massconflict,currentOS/display/power/imports/currentoffers"
     }
   ],
   "discovery_cross_brand_bass": {
