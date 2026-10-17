@@ -372,7 +372,7 @@ Checked 2026-10-18 against own-model patch list and family quick guide; no files
 | Editor / listed platforms | Current support lists Guitar Lab7.3 for Windows8.1/10/11 and macOS10.13–26; separate G1 FOUR firmware2.00 Windows/Mac entries. Quick guide p2 explicitly permits patch management, editing and adding effects. Listings do not establish the installed library or local OS operation. | [Support](https://zoomcorp.com/en/ca/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/); [quick guide p2][ZOOM-G1-FOUR-M] |
 
 
-### G1 FOUR published-library category census — partial
+### G1 FOUR published-library category census
 
 Checked 2026-10-18 against the shared ©2019 effect sheet. Stars identify Guitar Lab additions; counts include those entries and are **not an installed-unit census**. PEDAL entries are excluded from this non-X audit.
 
@@ -383,8 +383,12 @@ Checked 2026-10-18 against the shared ©2019 effect sheet. Stars identify Guitar
 | Processing / SFX choices | **4 entries:2 unstarred+2 starred**. Bomber,HotSpice; additions AutoPan,LoopRoll. LoopRoll samples/holds10–3000ms with footswitch latch/momentary options; it is distinct from the30-second phrase looper. HotSpice is sitar-tone simulation, not independent synth proof. | [Effect sheet p17][ZOOM-G1-FOUR-E] |
 | Processing / Drive choices | **22 entries: 15 unstarred + 7 starred**. Unstarred: TS Drive, EP Stomp, RC Boost, GoldDrive, SweetDrv, DYN Drive, RedCrunch, Aco.Sim, NYC Muff, HG THRTTL, DIST 1, Squeak, DIST Plus, Zen O.DRV, VioletDST. Starred: MetalWRLD, TB MK1.5, OctFuzz, SpotBoost, BG GRID, UpOctBSTR, OutputBST. Aco.Sim is counted here in its published category. | [Effect sheet pp6–8][ZOOM-G1-FOUR-E] |
 | Processing / Amp choices | **16 entries: 13 unstarred + 3 starred**. Unstarred: MS 800, MS 1959, FD TWNR, FD B-MAN, FD DLXR, UK 30A, BG MK1, XtasyBlue, HW 100, Recti ORG, ORG120, DZ DRV, MATCH30. Starred: MS 45os, FD MASTER, BG MK3. Channels and voicing parameters are not additional algorithms. | [Effect sheet pp9–11][ZOOM-G1-FOUR-E] |
+| Processing / Cabinet choices | **16 entries: 13 unstarred + 3 starred**. Unstarred: MS4x12, MS4x12GB, FD2x12, FD-B4x10, FD-DX1x12, UK2x12, MK1 1x12, BGN4x12, HW4x12, RCT4x12, ORG4x12, DZ4x12F, MA2x12. Starred: MS4x12AL, FD MA2x12, MK3 1x12. | [Effect sheet pp12–14][ZOOM-G1-FOUR-E] |
+| Processing / Modulation choices | **22 entries: 11 unstarred + 11 starred**. Unstarred: Tremolo, StereoCho, Phaser, VinFLNGR, TheVibe, Vibrato, Octave, PitchSHFT, HPS, CloneCho, CoronaTri. Starred: Chorus, RingMod, Detune, MonoPitch, Slicer, SuperCho, StonePha, BendCho, AnalogCho, WarpPhase, Duo Phase. TheVibe separately carries additional-via-Guitar-Lab wording despite lacking a star; unstarred does not prove factory installation. | [Effect sheet pp14–17][ZOOM-G1-FOUR-E] |
+| Processing / Delay choices | **16 entries: 7 unstarred + 9 starred**. Unstarred: Delay, AnalogDly, TapeEcho, ReverseDL, ModDelay, P-P Delay, SoftEcho. Starred: FilterDly, Dual DLY, Pitch DLY, SlapBackD, A-Pan DLY, PhaseDly, TapeEcho3, ICE Delay, SlwAtkDly. | [Effect sheet pp18–20][ZOOM-G1-FOUR-E] |
+| Processing / Reverb choices | **11 entries: 6 unstarred + 5 starred**. Unstarred: Room, Hall, HD Hall, Spring, FD Spring, Plate. Starred: Air, EarlyRef, Church, Chamber, GateRev. | [Effect sheet pp20–21][ZOOM-G1-FOUR-E] |
 
-Cabinet, modulation, delay and reverb counts still need complete enumeration. Later library additions and a particular unit’s installed effects remain separate verification tasks; no whole-library total is inferred from these five categories.
+All nine non-PEDAL categories in this edition have now been enumerated. Later additions and a particular unit’s installed effects remain unverified; these are published-library counts, not simultaneous processing capacity.
 
 ## G1X FOUR
 
