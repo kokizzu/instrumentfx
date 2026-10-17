@@ -755,6 +755,17 @@ Checked 2026-10-18: [original English manual, distributor-hosted](https://www.fr
 | Memory / original factory layout | **16 named presets, 01A–04D; 112 empty positions, 05A–32D**. All **128 positions are writable**, so this is not separate protected factory memory plus 128 user slots. Current V5 factory content remains unverified. |
 | Power / published draw | **275 mA**, independently corroborated by [NUX USA power guidance](https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need), updated 2026-09-27, which distinguishes draw from the **9 V / 500 mA ACD-006A adapter**. Battery and USB operation remain unresolved. |
 
+### Cerberus — historical software-guide limits
+
+Checked 2026-10-18 using indexed text of the [manufacturer-authored firmware/software guide on a distributor mirror](https://www.grupogonher.mx/biblioteca/Marketing/BIBLIOTECA%20DE%20CONTENIDOS/NUX/PRODUCTOS/IANUXNME3/Descargables/Manuales%20%26%20Gu%C3%ADas/Manual-Cerberus%20Firmware%20Update%20and%20Software%20de%20NUX.pdf). Direct opening returned 404; indexed instructions remain readable. Historical interface, exact firmware revision unestablished; no software executed or file downloaded.
+
+| Field | Indexed original instructions / boundary |
+|---|---|
+| IR / import file format | Explicitly **WAVE (.wav), 44.1 kHz, 24-bit, 512 samples**. The guide describes choosing built-in or third-party files and renaming/deleting third-party entries. It does not establish conversion from other source formats. |
+| I/O / TAP MIDI reassignment | Enabling the first MIDI-CC trigger assignment in the software assigns TAP to MIDI triggering; **DELAY switch A then controls tap tempo**. This is reassignment, not another physical switch or proof of simultaneous TAP tempo and MIDI triggering on TAP. |
+
+Eight-IR claims found in retailer material were not promoted to a verified current capacity. Indexed image descriptions of an eight-name list do not establish replaceable user slots or current firmware limits; original software-screen inspection remains outstanding.
+
 ## Foreign-price provenance and consolidation limits
 
 The original six-model review recorded **2026-10-14 foreign new asks**:MG-101USD129([NUXUSA](https://www.nux.us/products/mg-101));MG-300MKIIUSD169([NUXUSA](https://www.nux.us/products/mg-300-mkii));MG-400USD229([NUXUSA](https://www.nux.us/products/mg-400)) andUSD172([Thomann](https://www.thomannmusic.com/nux_mg_400.htm));MG-30USD329([NUXUSA NAM page](https://www.nux.us/pages/nam-a2-native));MG-50LiUSD549([NUXUSA](https://www.nux.us/products/mg-50li)). OriginalMG-300hadnone. These remain historicalforeignprovenance,**not IDR values or Indonesian delivered prices**. No FXrate/useddiscountassumed. Existing Indonesian Shopee leads for those six remain in the root inventory/legacy discovery evidence pending exact integration;unknowncells do not mean unavailable.

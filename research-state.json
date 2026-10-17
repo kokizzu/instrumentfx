@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Cerberus NME-3",
-    "task": "Cerberus original size/mass, writable memory layout and published draw now corroborated. Next inspect original manual for complete K/F/B or software guide for IR slots; current V5 factory content remains unknown. Continue Shopee discovery when saved queue empty; no downloads.",
+    "task": "Cerberus historical WAV import and TAP MIDI reassignment saved with indexed-only access caveat. Current IR slot ceiling, controls count and V5 factory subset unresolved. Next fresh Shopee discovery or another incomplete primary record; avoid repeated failed URLs and unsupported retailer capacity claims.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57862,6 +57862,12 @@
         "https://www.frenexport.it/files/content/eng-cerberus-manual-20180118105738.pdf",
         "https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need"
       ]
+    },
+    {
+      "model": "NUX Cerberus NME-3",
+      "checked": "2026-10-18",
+      "finding": "Historical manufacturer software guide indexed text specifies WAV import and TAP MIDI-trigger reassignment to Delay A for tempo; direct PDF404. No source conversion or current eight-IR capacity inferred.",
+      "source": "https://www.grupogonher.mx/biblioteca/Marketing/BIBLIOTECA%20DE%20CONTENIDOS/NUX/PRODUCTOS/IANUXNME3/Descargables/Manuales%20%26%20Gu%C3%ADas/Manual-Cerberus%20Firmware%20Update%20and%20Software%20de%20NUX.pdf"
     }
   ],
   "discovery_cross_brand_bass": {
