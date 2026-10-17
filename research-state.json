@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Legacy navigation retirement",
-    "task": "BOSS43 andMOOER41 links nowrootcanonical;exactinverse recovers completeoriginal brandtext.184root-to-legacy linksremain. Next auditVALETON35,ZOOM25 andM-VAVE20 withsame provenance checks;generatedALLrows muststayconsistent.117compatibilityfilesremain;no fullcompletionclaim.",
+    "task": "VALETON35,ZOOM25,M-VAVE20 links nowrootcanonical;8 generatedcomparisonlinks updated withno factchanges.96root-to-legacy linksremain. Next auditAUDOTA14,HOTONE13,SONICAKE13,JOYO10 thenremainingbrands/specialistarchives;extend exactprovenance readers where needed.117compatibilityfilesremain;research incomplete.",
     "next_models": [],
     "after_queue": "334active39brands;technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -41762,10 +41762,8 @@
       ],
       "unclassified_legacy_files": [],
       "errors": [],
-      "root_to_legacy_links": 184,
+      "root_to_legacy_links": 96,
       "root_to_legacy_by_source": {
-        "ALL-BASS.md": 3,
-        "ALL-GUITAR.md": 5,
         "AUDOTA.md": 14,
         "BOIN-AUDIO.md": 4,
         "CUVAVE.md": 3,
@@ -41776,7 +41774,6 @@
         "IK-MULTIMEDIA.md": 2,
         "JOYO.md": 10,
         "LINE6.md": 8,
-        "M-VAVE.md": 20,
         "NEURAL-DSP.md": 1,
         "NUX.md": 4,
         "ROLAND.md": 3,
@@ -41785,20 +41782,15 @@
         "SINGLE-VOCAL.md": 1,
         "SONICAKE.md": 13,
         "TC-HELICON.md": 8,
-        "VALETON.md": 35,
-        "VING.md": 3,
-        "ZOOM.md": 25
+        "VING.md": 3
       },
       "root_to_legacy_by_target": {
-        "effects/METHODOLOGY.md": 1,
-        "effects/OWNERSHIP.md": 4,
-        "effects/README.md": 6,
-        "effects/RESUME.md": 18,
+        "effects/OWNERSHIP.md": 3,
+        "effects/README.md": 3,
+        "effects/RESUME.md": 11,
         "effects/SCOPE.md": 5,
         "effects/advanced-modelers.md": 4,
         "effects/audota.md": 5,
-        "effects/bass.md": 4,
-        "effects/cube-baby.md": 3,
         "effects/findings/2026-10-14-boin-audio-bg300.md": 1,
         "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md": 1,
         "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md": 1,
@@ -41812,16 +41804,6 @@
         "effects/findings/2026-10-14-sonicake-smart-box.md": 2,
         "effects/findings/2026-10-14-tchelicon-play-acoustic.md": 1,
         "effects/findings/2026-10-14-tchelicon-voicelive-play.md": 1,
-        "effects/findings/2026-10-14-valeton-gp-100.md": 5,
-        "effects/findings/2026-10-14-valeton-gp-150.md": 6,
-        "effects/findings/2026-10-14-valeton-gp-180.md": 6,
-        "effects/findings/2026-10-14-valeton-gp-5.md": 5,
-        "effects/findings/2026-10-14-valeton-gp-50.md": 5,
-        "effects/findings/2026-10-14-zoom-b1xon.md": 1,
-        "effects/findings/2026-10-14-zoom-g1-four.md": 1,
-        "effects/findings/2026-10-14-zoom-g1x-four.md": 1,
-        "effects/findings/2026-10-14-zoom-g2-four.md": 1,
-        "effects/findings/2026-10-14-zoom-g2x-four.md": 1,
         "effects/findings/2026-10-15-audota-ace-100.md": 1,
         "effects/findings/2026-10-15-audota-ame-100.md": 1,
         "effects/findings/2026-10-15-audota-ame-200-pro.md": 1,
@@ -41831,83 +41813,16 @@
         "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md": 1,
         "effects/findings/2026-10-15-line6-pod-go.md": 1,
         "effects/findings/2026-10-15-ving-fb100.md": 1,
-        "effects/findings/2026-10-15-zoom-g6.md": 1,
-        "effects/guitar-compact.md": 13,
-        "effects/guitar-floorboards.md": 1,
-        "effects/owned-multifx.md": 10,
-        "effects/shopee-indonesia.md": 9,
-        "effects/shopee-multifx-2.md": 8,
+        "effects/guitar-compact.md": 3,
+        "effects/owned-multifx.md": 6,
+        "effects/shopee-indonesia.md": 7,
+        "effects/shopee-multifx-2.md": 6,
         "effects/shopee-multifx-3.md": 4,
         "effects/shopee-multifx-5.md": 4,
-        "effects/shopee-multifx-7.md": 8,
-        "effects/shopee-multifx.md": 16,
-        "effects/vocal.md": 2
+        "effects/shopee-multifx-7.md": 6,
+        "effects/shopee-multifx.md": 3
       },
       "root_to_legacy_occurrences": [
-        {
-          "source": "ALL-BASS.md",
-          "line": 101,
-          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
-        },
-        {
-          "source": "ALL-BASS.md",
-          "line": 102,
-          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
-        },
-        {
-          "source": "ALL-BASS.md",
-          "line": 103,
-          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
-        },
-        {
-          "source": "ALL-GUITAR.md",
-          "line": 172,
-          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
-        },
-        {
-          "source": "ALL-GUITAR.md",
-          "line": 173,
-          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
-        },
-        {
-          "source": "ALL-GUITAR.md",
-          "line": 174,
-          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
-        },
-        {
-          "source": "ALL-GUITAR.md",
-          "line": 175,
-          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
-        },
-        {
-          "source": "ALL-GUITAR.md",
-          "line": 176,
-          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
-        },
         {
           "source": "AUDOTA.md",
           "line": 9,
@@ -42373,166 +42288,6 @@
           "raw": "effects/advanced-modelers.md"
         },
         {
-          "source": "M-VAVE.md",
-          "line": 41,
-          "target": "effects/README.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/README.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 41,
-          "target": "effects/METHODOLOGY.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/METHODOLOGY.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 100,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 191,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 271,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 355,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 437,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 473,
-          "target": "effects/README.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/README.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 473,
-          "target": "effects/shopee-indonesia.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-indonesia.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 473,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 555,
-          "target": "effects/shopee-multifx-2.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-2.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 589,
-          "target": "effects/README.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/README.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 589,
-          "target": "effects/shopee-indonesia.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-indonesia.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 589,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 649,
-          "target": "effects/shopee-multifx-2.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-2.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 738,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 830,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 917,
-          "target": "effects/cube-baby.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/cube-baby.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 1007,
-          "target": "effects/cube-baby.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/cube-baby.md"
-        },
-        {
-          "source": "M-VAVE.md",
-          "line": 1138,
-          "target": "effects/cube-baby.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/cube-baby.md"
-        },
-        {
           "source": "NEURAL-DSP.md",
           "line": 35,
           "target": "effects/advanced-modelers.md",
@@ -42813,286 +42568,6 @@
           "raw": "effects/shopee-multifx-2.md"
         },
         {
-          "source": "VALETON.md",
-          "line": 110,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 110,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 145,
-          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 173,
-          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 200,
-          "target": "effects/findings/2026-10-14-valeton-gp-100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-100.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 200,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 214,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 214,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 247,
-          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 275,
-          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 302,
-          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 302,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 311,
-          "target": "effects/findings/2026-10-14-valeton-gp-150.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-150.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 346,
-          "target": "effects/guitar-floorboards.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-floorboards.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 438,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 438,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 471,
-          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 499,
-          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 525,
-          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 525,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 534,
-          "target": "effects/findings/2026-10-14-valeton-gp-180.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-180.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 545,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 545,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 584,
-          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 612,
-          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 644,
-          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 644,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 652,
-          "target": "effects/findings/2026-10-14-valeton-gp-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-5.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 664,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 664,
-          "target": "effects/RESUME.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/RESUME.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 697,
-          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 725,
-          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 751,
-          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 751,
-          "target": "effects/guitar-compact.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-compact.md"
-        },
-        {
-          "source": "VALETON.md",
-          "line": 758,
-          "target": "effects/findings/2026-10-14-valeton-gp-50.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-valeton-gp-50.md"
-        },
-        {
           "source": "VING.md",
           "line": 79,
           "target": "effects/findings/2026-10-15-ving-fb100.md",
@@ -43115,206 +42590,6 @@
           "fragment": "",
           "kind": "inline",
           "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 141,
-          "target": "effects/shopee-multifx-7.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-7.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 153,
-          "target": "effects/OWNERSHIP.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/OWNERSHIP.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 195,
-          "target": "effects/findings/2026-10-14-zoom-b1xon.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-zoom-b1xon.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 195,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 214,
-          "target": "effects/owned-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/owned-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 284,
-          "target": "effects/findings/2026-10-15-zoom-g6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-zoom-g6.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 284,
-          "target": "effects/shopee-multifx-7.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-7.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 340,
-          "target": "effects/findings/2026-10-14-zoom-g1-four.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-zoom-g1-four.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 340,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 351,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 408,
-          "target": "effects/findings/2026-10-14-zoom-g1x-four.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-zoom-g1x-four.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 408,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 420,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 475,
-          "target": "effects/findings/2026-10-14-zoom-g2-four.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-zoom-g2-four.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 475,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 500,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 570,
-          "target": "effects/findings/2026-10-14-zoom-g2x-four.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-zoom-g2x-four.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 570,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 592,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 640,
-          "target": "effects/bass.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/bass.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 813,
-          "target": "effects/bass.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/bass.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 903,
-          "target": "effects/bass.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/bass.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 1057,
-          "target": "effects/bass.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/bass.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 1117,
-          "target": "effects/vocal.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/vocal.md"
-        },
-        {
-          "source": "ZOOM.md",
-          "line": 1221,
-          "target": "effects/vocal.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/vocal.md"
         }
       ],
       "checked_date": "2026-10-18",
@@ -45065,6 +44340,590 @@
         "checked_date": "2026-10-18",
         "invariant": "Reverse only these marked links to recover exact pre-edit category text;all other content unchanged",
         "rollback": "Replace each exact after token with before;remove only this canonical_links entry"
+      },
+      "VALETON.md": {
+        "changes": [
+          {
+            "id": "valeton-001",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-001 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-002",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:valeton-002 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "valeton-003",
+            "before": "](effects/findings/2026-10-14-valeton-gp-100.md)",
+            "after": "](VALETON.md#gp-100)<!-- historical-link:valeton-003 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-100.md",
+            "destination": "VALETON.md#gp-100"
+          },
+          {
+            "id": "valeton-004",
+            "before": "](effects/findings/2026-10-14-valeton-gp-100.md)",
+            "after": "](VALETON.md#gp-100)<!-- historical-link:valeton-004 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-100.md",
+            "destination": "VALETON.md#gp-100"
+          },
+          {
+            "id": "valeton-005",
+            "before": "](effects/findings/2026-10-14-valeton-gp-100.md)",
+            "after": "](VALETON.md#gp-100)<!-- historical-link:valeton-005 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-100.md",
+            "destination": "VALETON.md#gp-100"
+          },
+          {
+            "id": "valeton-006",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-006 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-007",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-007 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-008",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:valeton-008 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "valeton-009",
+            "before": "](effects/findings/2026-10-14-valeton-gp-150.md)",
+            "after": "](VALETON.md#gp-150)<!-- historical-link:valeton-009 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-150.md",
+            "destination": "VALETON.md#gp-150"
+          },
+          {
+            "id": "valeton-010",
+            "before": "](effects/findings/2026-10-14-valeton-gp-150.md)",
+            "after": "](VALETON.md#gp-150)<!-- historical-link:valeton-010 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-150.md",
+            "destination": "VALETON.md#gp-150"
+          },
+          {
+            "id": "valeton-011",
+            "before": "](effects/findings/2026-10-14-valeton-gp-150.md)",
+            "after": "](VALETON.md#gp-150)<!-- historical-link:valeton-011 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-150.md",
+            "destination": "VALETON.md#gp-150"
+          },
+          {
+            "id": "valeton-012",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-012 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-013",
+            "before": "](effects/findings/2026-10-14-valeton-gp-150.md)",
+            "after": "](VALETON.md#gp-150)<!-- historical-link:valeton-013 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-150.md",
+            "destination": "VALETON.md#gp-150"
+          },
+          {
+            "id": "valeton-014",
+            "before": "](effects/guitar-floorboards.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-014 -->",
+            "original_target": "effects/guitar-floorboards.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-015",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-015 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-016",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:valeton-016 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "valeton-017",
+            "before": "](effects/findings/2026-10-14-valeton-gp-180.md)",
+            "after": "](VALETON.md#gp-180)<!-- historical-link:valeton-017 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-180.md",
+            "destination": "VALETON.md#gp-180"
+          },
+          {
+            "id": "valeton-018",
+            "before": "](effects/findings/2026-10-14-valeton-gp-180.md)",
+            "after": "](VALETON.md#gp-180)<!-- historical-link:valeton-018 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-180.md",
+            "destination": "VALETON.md#gp-180"
+          },
+          {
+            "id": "valeton-019",
+            "before": "](effects/findings/2026-10-14-valeton-gp-180.md)",
+            "after": "](VALETON.md#gp-180)<!-- historical-link:valeton-019 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-180.md",
+            "destination": "VALETON.md#gp-180"
+          },
+          {
+            "id": "valeton-020",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-020 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-021",
+            "before": "](effects/findings/2026-10-14-valeton-gp-180.md)",
+            "after": "](VALETON.md#gp-180)<!-- historical-link:valeton-021 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-180.md",
+            "destination": "VALETON.md#gp-180"
+          },
+          {
+            "id": "valeton-022",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-022 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-023",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:valeton-023 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "valeton-024",
+            "before": "](effects/findings/2026-10-14-valeton-gp-5.md)",
+            "after": "](VALETON.md#gp-5)<!-- historical-link:valeton-024 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-5.md",
+            "destination": "VALETON.md#gp-5"
+          },
+          {
+            "id": "valeton-025",
+            "before": "](effects/findings/2026-10-14-valeton-gp-5.md)",
+            "after": "](VALETON.md#gp-5)<!-- historical-link:valeton-025 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-5.md",
+            "destination": "VALETON.md#gp-5"
+          },
+          {
+            "id": "valeton-026",
+            "before": "](effects/findings/2026-10-14-valeton-gp-5.md)",
+            "after": "](VALETON.md#gp-5)<!-- historical-link:valeton-026 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-5.md",
+            "destination": "VALETON.md#gp-5"
+          },
+          {
+            "id": "valeton-027",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-027 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-028",
+            "before": "](effects/findings/2026-10-14-valeton-gp-5.md)",
+            "after": "](VALETON.md#gp-5)<!-- historical-link:valeton-028 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-5.md",
+            "destination": "VALETON.md#gp-5"
+          },
+          {
+            "id": "valeton-029",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-029 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-030",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:valeton-030 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "valeton-031",
+            "before": "](effects/findings/2026-10-14-valeton-gp-50.md)",
+            "after": "](VALETON.md#gp-50)<!-- historical-link:valeton-031 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-50.md",
+            "destination": "VALETON.md#gp-50"
+          },
+          {
+            "id": "valeton-032",
+            "before": "](effects/findings/2026-10-14-valeton-gp-50.md)",
+            "after": "](VALETON.md#gp-50)<!-- historical-link:valeton-032 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-50.md",
+            "destination": "VALETON.md#gp-50"
+          },
+          {
+            "id": "valeton-033",
+            "before": "](effects/findings/2026-10-14-valeton-gp-50.md)",
+            "after": "](VALETON.md#gp-50)<!-- historical-link:valeton-033 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-50.md",
+            "destination": "VALETON.md#gp-50"
+          },
+          {
+            "id": "valeton-034",
+            "before": "](effects/guitar-compact.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:valeton-034 -->",
+            "original_target": "effects/guitar-compact.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "valeton-035",
+            "before": "](effects/findings/2026-10-14-valeton-gp-50.md)",
+            "after": "](VALETON.md#gp-50)<!-- historical-link:valeton-035 -->",
+            "original_target": "effects/findings/2026-10-14-valeton-gp-50.md",
+            "destination": "VALETON.md#gp-50"
+          }
+        ],
+        "original_sha256": "57ef597fcd1e5d2afdb1630543f8c7415ff846bfe2baeed1998b6b7276d5de28",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse only these marked links to recover exact pre-edit category text;all other content unchanged",
+        "rollback": "Replace each exact after token with before;remove only this canonical_links entry"
+      },
+      "ZOOM.md": {
+        "changes": [
+          {
+            "id": "zoom-001",
+            "before": "](effects/shopee-multifx-7.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-001 -->",
+            "original_target": "effects/shopee-multifx-7.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-002",
+            "before": "](effects/OWNERSHIP.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:zoom-002 -->",
+            "original_target": "effects/OWNERSHIP.md",
+            "destination": "README.md#scope-and-ownership"
+          },
+          {
+            "id": "zoom-003",
+            "before": "](effects/findings/2026-10-14-zoom-b1xon.md)",
+            "after": "](ZOOM.md#b1xon)<!-- historical-link:zoom-003 -->",
+            "original_target": "effects/findings/2026-10-14-zoom-b1xon.md",
+            "destination": "ZOOM.md#b1xon"
+          },
+          {
+            "id": "zoom-004",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:zoom-004 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "zoom-005",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:zoom-005 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "zoom-006",
+            "before": "](effects/findings/2026-10-15-zoom-g6.md)",
+            "after": "](ZOOM.md#g6)<!-- historical-link:zoom-006 -->",
+            "original_target": "effects/findings/2026-10-15-zoom-g6.md",
+            "destination": "ZOOM.md#g6"
+          },
+          {
+            "id": "zoom-007",
+            "before": "](effects/shopee-multifx-7.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-007 -->",
+            "original_target": "effects/shopee-multifx-7.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-008",
+            "before": "](effects/findings/2026-10-14-zoom-g1-four.md)",
+            "after": "](ZOOM.md#g1-four)<!-- historical-link:zoom-008 -->",
+            "original_target": "effects/findings/2026-10-14-zoom-g1-four.md",
+            "destination": "ZOOM.md#g1-four"
+          },
+          {
+            "id": "zoom-009",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-009 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-010",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-010 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-011",
+            "before": "](effects/findings/2026-10-14-zoom-g1x-four.md)",
+            "after": "](ZOOM.md#g1x-four)<!-- historical-link:zoom-011 -->",
+            "original_target": "effects/findings/2026-10-14-zoom-g1x-four.md",
+            "destination": "ZOOM.md#g1x-four"
+          },
+          {
+            "id": "zoom-012",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-012 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-013",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-013 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-014",
+            "before": "](effects/findings/2026-10-14-zoom-g2-four.md)",
+            "after": "](ZOOM.md#g2-four)<!-- historical-link:zoom-014 -->",
+            "original_target": "effects/findings/2026-10-14-zoom-g2-four.md",
+            "destination": "ZOOM.md#g2-four"
+          },
+          {
+            "id": "zoom-015",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-015 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-016",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-016 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-017",
+            "before": "](effects/findings/2026-10-14-zoom-g2x-four.md)",
+            "after": "](ZOOM.md#g2x-four)<!-- historical-link:zoom-017 -->",
+            "original_target": "effects/findings/2026-10-14-zoom-g2x-four.md",
+            "destination": "ZOOM.md#g2x-four"
+          },
+          {
+            "id": "zoom-018",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-018 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-019",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:zoom-019 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "zoom-020",
+            "before": "](effects/bass.md)",
+            "after": "](ALL-BASS.md)<!-- historical-link:zoom-020 -->",
+            "original_target": "effects/bass.md",
+            "destination": "ALL-BASS.md"
+          },
+          {
+            "id": "zoom-021",
+            "before": "](effects/bass.md)",
+            "after": "](ALL-BASS.md)<!-- historical-link:zoom-021 -->",
+            "original_target": "effects/bass.md",
+            "destination": "ALL-BASS.md"
+          },
+          {
+            "id": "zoom-022",
+            "before": "](effects/bass.md)",
+            "after": "](ALL-BASS.md)<!-- historical-link:zoom-022 -->",
+            "original_target": "effects/bass.md",
+            "destination": "ALL-BASS.md"
+          },
+          {
+            "id": "zoom-023",
+            "before": "](effects/bass.md)",
+            "after": "](ALL-BASS.md)<!-- historical-link:zoom-023 -->",
+            "original_target": "effects/bass.md",
+            "destination": "ALL-BASS.md"
+          },
+          {
+            "id": "zoom-024",
+            "before": "](effects/vocal.md)",
+            "after": "](ALL-VOCAL.md)<!-- historical-link:zoom-024 -->",
+            "original_target": "effects/vocal.md",
+            "destination": "ALL-VOCAL.md"
+          },
+          {
+            "id": "zoom-025",
+            "before": "](effects/vocal.md)",
+            "after": "](ALL-VOCAL.md)<!-- historical-link:zoom-025 -->",
+            "original_target": "effects/vocal.md",
+            "destination": "ALL-VOCAL.md"
+          }
+        ],
+        "original_sha256": "41a065c331eb6524efb6c86d0937d181a37af32d0c4531c4c872ece7e557bf8d",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse only these marked links to recover exact pre-edit category text;all other content unchanged",
+        "rollback": "Replace each exact after token with before;remove only this canonical_links entry"
+      },
+      "M-VAVE.md": {
+        "changes": [
+          {
+            "id": "m-vave-001",
+            "before": "](effects/README.md)",
+            "after": "](README.md)<!-- historical-link:m-vave-001 -->",
+            "original_target": "effects/README.md",
+            "destination": "README.md"
+          },
+          {
+            "id": "m-vave-002",
+            "before": "](effects/METHODOLOGY.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:m-vave-002 -->",
+            "original_target": "effects/METHODOLOGY.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "m-vave-003",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:m-vave-003 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "m-vave-004",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:m-vave-004 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "m-vave-005",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:m-vave-005 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "m-vave-006",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:m-vave-006 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "m-vave-007",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:m-vave-007 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "m-vave-008",
+            "before": "](effects/README.md)",
+            "after": "](README.md)<!-- historical-link:m-vave-008 -->",
+            "original_target": "effects/README.md",
+            "destination": "README.md"
+          },
+          {
+            "id": "m-vave-009",
+            "before": "](effects/shopee-indonesia.md)",
+            "after": "](research-state.json)<!-- historical-link:m-vave-009 -->",
+            "original_target": "effects/shopee-indonesia.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "m-vave-010",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:m-vave-010 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "m-vave-011",
+            "before": "](effects/shopee-multifx-2.md)",
+            "after": "](research-state.json)<!-- historical-link:m-vave-011 -->",
+            "original_target": "effects/shopee-multifx-2.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "m-vave-012",
+            "before": "](effects/README.md)",
+            "after": "](README.md)<!-- historical-link:m-vave-012 -->",
+            "original_target": "effects/README.md",
+            "destination": "README.md"
+          },
+          {
+            "id": "m-vave-013",
+            "before": "](effects/shopee-indonesia.md)",
+            "after": "](research-state.json)<!-- historical-link:m-vave-013 -->",
+            "original_target": "effects/shopee-indonesia.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "m-vave-014",
+            "before": "](effects/RESUME.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:m-vave-014 -->",
+            "original_target": "effects/RESUME.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "m-vave-015",
+            "before": "](effects/shopee-multifx-2.md)",
+            "after": "](research-state.json)<!-- historical-link:m-vave-015 -->",
+            "original_target": "effects/shopee-multifx-2.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "m-vave-016",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:m-vave-016 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "m-vave-017",
+            "before": "](effects/owned-multifx.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:m-vave-017 -->",
+            "original_target": "effects/owned-multifx.md",
+            "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "m-vave-018",
+            "before": "](effects/cube-baby.md)",
+            "after": "](M-VAVE.md)<!-- historical-link:m-vave-018 -->",
+            "original_target": "effects/cube-baby.md",
+            "destination": "M-VAVE.md"
+          },
+          {
+            "id": "m-vave-019",
+            "before": "](effects/cube-baby.md)",
+            "after": "](M-VAVE.md)<!-- historical-link:m-vave-019 -->",
+            "original_target": "effects/cube-baby.md",
+            "destination": "M-VAVE.md"
+          },
+          {
+            "id": "m-vave-020",
+            "before": "](effects/cube-baby.md)",
+            "after": "](M-VAVE.md)<!-- historical-link:m-vave-020 -->",
+            "original_target": "effects/cube-baby.md",
+            "destination": "M-VAVE.md"
+          }
+        ],
+        "original_sha256": "732add3071a41037aabb097c0ec458e38b5ca7585f7c19621b3c9c76f620777d",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse only these marked links to recover exact pre-edit category text;all other content unchanged",
+        "rollback": "Replace each exact after token with before;remove only this canonical_links entry"
       }
     }
   },
@@ -45177,7 +45036,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Legacy navigation retirement."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

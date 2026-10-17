@@ -8,7 +8,7 @@ def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 def preservation_text(path):
     text=(ROOT/path).read_text()
-    if path not in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md'):
+    if path not in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md'):
         return text
     entry=json.loads((ROOT/'research-state.json').read_text()).get('migration',{}).get('canonical_links',{}).get(path)
     if not entry:
@@ -28,9 +28,9 @@ def plan(path='MULTI-EFFECTS.md'):
     research.identity()
     assert not research.git('diff','--cached','--name-only').strip(), 'Existing staged changes'
     changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
-    assert changed <= {'Makefile','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/navigation_tools.py','BOSS.md','MOOER.md','research-state.json'}, changed
+    assert changed <= {'Makefile','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/navigation_tools.py','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md','research-state.json'}, changed
     state=json.loads((ROOT/'research-state.json').read_text())
-    assert path in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md')
+    assert path in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md')
     assert path not in state['migration'].get('canonical_links',{}), 'Already migrated'
     original=(ROOT/path).read_text()
     changes=[]
@@ -57,7 +57,7 @@ def plan(path='MULTI-EFFECTS.md'):
         changes.append(dict(id=ident,before=match[0],after=after,original_target=raw,destination=dest))
         return after
     updated=re.sub(r'\]\(([^\s)]+)\)',rewrite,original)
-    assert len(changes)=={'MULTI-EFFECTS.md':138,'BOSS.md':43,'MOOER.md':41}[path], len(changes)
+    assert len(changes)=={'MULTI-EFFECTS.md':138,'BOSS.md':43,'MOOER.md':41,'VALETON.md':35,'ZOOM.md':25,'M-VAVE.md':20}[path], len(changes)
     restored=updated
     for change in changes:
         assert restored.count(change['after'])==1
@@ -73,7 +73,7 @@ def apply():
     research.identity()
     plan=json.loads(PLAN.read_text())
     path=plan['path']
-    assert path in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md')
+    assert path in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md')
     assert digest((ROOT/path).read_text())==plan['input_sha256'], 'Category changed since preview'
     assert digest((ROOT/'research-state.json').read_text())==plan['ledger_sha256'], 'Ledger changed since preview'
     state=json.loads((ROOT/'research-state.json').read_text())
@@ -115,4 +115,4 @@ def test():
     print('PASS: shared destinations restore distinct sources;missing,duplicated andaltered provenance rejected')
 
 if __name__=='__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'test':test,'plan-boss':lambda:plan('BOSS.md'),'plan-mooer':lambda:plan('MOOER.md')}[sys.argv[1]]()
+    {'plan':plan,'apply':apply,'verify':verify,'test':test,'plan-boss':lambda:plan('BOSS.md'),'plan-mooer':lambda:plan('MOOER.md'),'plan-valeton':lambda:plan('VALETON.md'),'plan-zoom':lambda:plan('ZOOM.md'),'plan-mvave':lambda:plan('M-VAVE.md')}[sys.argv[1]]()

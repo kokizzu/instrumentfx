@@ -138,7 +138,7 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Retail evidence / qualification** (Separate IDR evidence): **Rp11.200.000**,TOKOAUDIOPRO,indexed;separateRp10.493.685May-cache offer not a current lower bound
 - **Commit** (Individual findings commits): `f5d2c130e152a49a6197f8ee4bfa4f8829d36eb6`
 
-[Original shared source](effects/shopee-multifx-7.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:zoom-001 -->,retained pending complete navigation/provenance audits.
 
 ## Existing ZOOM research — consolidation still pending
 
@@ -150,7 +150,7 @@ Consolidated 2026-10-16 from the complete original finding and checked against t
 
 <!-- B1Xon preserved source begins -->
 
-Checked **2026-10-14**. **Partial record** for **B1Xon**, the bass processor with expression pedal, not B1on, B1X FOUR or G1Xon. The owner explicitly listed this unit in July2026. See [ownership history](effects/OWNERSHIP.md).
+Checked **2026-10-14**. **Partial record** for **B1Xon**, the bass processor with expression pedal, not B1on, B1X FOUR or G1Xon. The owner explicitly listed this unit in July2026. See [ownership history](README.md#scope-and-ownership)<!-- historical-link:zoom-002 -->.
 
 ### Required comparison
 
@@ -192,7 +192,7 @@ The retained page links system version1.30 and a separate effects list. A retail
 Inspect the matching control/effect-list manual for control counts, screen mode, synth choices and effect subtotals; verify any third-party editor independently. Obtain condition-specific Indonesian used/new offers. The exact model remains in owner coverage even if no current Shopee item can be fetched. **Next owned-model addition: original JOYO GEM BOX.**
 <!-- B1Xon preserved source ends -->
 
-The owned-model summary adds no conflicting B1Xon specification or price. Source documents remain available at [original finding](effects/findings/2026-10-14-zoom-b1xon.md) and [owned-model comparison](effects/owned-multifx.md); existing incoming links remain valid. Current next work is in [research-state.json](research-state.json).
+The owned-model summary adds no conflicting B1Xon specification or price. Source documents remain available at [original finding](ZOOM.md#b1xon)<!-- historical-link:zoom-003 --> and [owned-model comparison](MULTI-EFFECTS.md)<!-- historical-link:zoom-004 -->; existing incoming links remain valid. Current next work is in [research-state.json](research-state.json).
 
 ### Preserved shared owned-model summary
 
@@ -211,7 +211,7 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 - **Configuration / digital functions** (Connections, power, apps and practice): Win/Mac updater;full editor/mobile/USB audio unverified
 - **Other features** (Connections, power, apps and practice): 30s/64-beat looper,68 rhythms,tuner,autosave
 
-[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared comparison](MULTI-EFFECTS.md)<!-- historical-link:zoom-005 -->,retained pending complete navigation/provenance audits.
 
 ## G6
 
@@ -281,7 +281,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Retail evidence / qualification** (Separate IDR evidence): **Rp6.319.000**,Destiny Sound,reopened with olderJune9 delivery text
 - **Commit** (Individual findings commits): `ece2b1e97bd5b0ffe5b5fa387ac4ab83784deb80`
 
-Sources: [effects/findings/2026-10-15-zoom-g6.md](effects/findings/2026-10-15-zoom-g6.md), [effects/shopee-multifx-7.md](effects/shopee-multifx-7.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-15-zoom-g6.md](ZOOM.md#g6)<!-- historical-link:zoom-006 -->, [effects/shopee-multifx-7.md](research-state.json)<!-- historical-link:zoom-007 -->. No legacy file was deleted.
 
 ## G1 FOUR
 
@@ -337,7 +337,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Acoustic simulation / synth** (3. Processing, presets and loading): **Aco.Sim** / synth ?
 - **IR / NAM** (3. Processing, presets and loading): Factory cabs; user IR/NAM import not established
 
-Sources: [effects/findings/2026-10-14-zoom-g1-four.md](effects/findings/2026-10-14-zoom-g1-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-zoom-g1-four.md](ZOOM.md#g1-four)<!-- historical-link:zoom-008 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:zoom-009 -->. No legacy file was deleted.
 
 ### Preserved first Shopee shared comparison
 
@@ -348,7 +348,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Power / batteries** (5. Power, software and practice/live features): **4AA,9V/500mA center-negative AD-16, orUSB bus**
 - **Other documented functions** (5. Power, software and practice/live features): 30 s looper;68 rhythms; USB editing, **not documented USB audio**
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:zoom-010 -->,retained pending complete navigation/provenance audits.
 
 ## G1X FOUR
 
@@ -405,7 +405,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Acoustic simulation / synth** (3. Processing, presets and loading): **Aco.Sim** / synth ?
 - **IR / NAM** (3. Processing, presets and loading): User IR/NAM import not established
 
-Sources: [effects/findings/2026-10-14-zoom-g1x-four.md](effects/findings/2026-10-14-zoom-g1x-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-zoom-g1x-four.md](ZOOM.md#g1x-four)<!-- historical-link:zoom-011 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:zoom-012 -->. No legacy file was deleted.
 
 ### Preserved first Shopee shared comparison
 
@@ -417,7 +417,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Power / batteries** (5. Power, software and practice/live features): **4AA,9V/500mA center-negative AD-16, orUSB bus**
 - **Other documented functions** (5. Power, software and practice/live features): 30 s looper;68 rhythms; USB editing, **not documented USB audio**
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:zoom-013 -->,retained pending complete navigation/provenance audits.
 
 ## G2 FOUR
 
@@ -472,7 +472,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **IR / NAM** (3. Processing, presets and loading): Factory Multi-Layer IR ≠ third-party import; NAM ?
 - **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch input; 2×¼-inch outputs; ⅛-inch aux/phones; external control; USB-C
 
-Sources: [effects/findings/2026-10-14-zoom-g2-four.md](effects/findings/2026-10-14-zoom-g2-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-zoom-g2-four.md](ZOOM.md#g2-four)<!-- historical-link:zoom-014 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:zoom-015 -->. No legacy file was deleted.
 
 ### G2 FOUR — current manual processing and live-use clarification
 
@@ -497,7 +497,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Configuration apps** (5. Power, software and practice/live features): Paid Handy Guitar Lab **iOS/iPadOS/Android**, wired USB
 - **Other documented functions** (5. Power, software and practice/live features): 80 s mono looper;68 rhythms; USB2-in/2-out,44.1kHz/32-bit; desktop driver ≠ editor
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:zoom-016 -->,retained pending complete navigation/provenance audits.
 
 ### G2 FOUR — additional dated IDR observations
 
@@ -567,7 +567,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **IR / NAM** (3. Processing, presets and loading): Same factory-IR distinction; NAM ?
 - **Physical ports, excluding DC input** (4. Audio/control connections): Same audio ports as G2, USB-C; **no external-expression jack**
 
-Sources: [effects/findings/2026-10-14-zoom-g2x-four.md](effects/findings/2026-10-14-zoom-g2x-four.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-zoom-g2x-four.md](ZOOM.md#g2x-four)<!-- historical-link:zoom-017 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:zoom-018 -->. No legacy file was deleted.
 
 ### G2X FOUR — current shared-manual limits
 
@@ -589,7 +589,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Configuration apps** (5. Power, software and practice/live features): Paid Handy Guitar Lab **iOS/iPadOS/Android**, wired USB
 - **Other documented functions** (5. Power, software and practice/live features): 80 s mono looper;68 rhythms; USB2-in/2-out,44.1kHz/32-bit; desktop driver ≠ editor
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:zoom-019 -->,retained pending complete navigation/provenance audits.
 ### G2X FOUR — additional exact hardware asks
 
 Checked 2026-10-17. These observations supplement the retained historical offers above; none establishes live checkout stock or verified new/used condition.
@@ -637,7 +637,7 @@ B1-family downloads now advertise additional BitCrush and DynaDelay releases in 
 
 [P1] [Thomann B6 cross-listed comparison](https://www.thomannmusic.com/zoom_b6.htm) and [B1 FOUR listing](https://www.thomannmusic.com/zoom_b1four_bass_multi_effect.htm): original $85 is a US-facing USD ask excluding destination tax/shipping, not IDR or a current sale.
 
-[Official B1/B1X family product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/). Source remains [effects/bass.md](effects/bass.md); old incoming links are unchanged.
+[Official B1/B1X family product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/). Source remains [effects/bass.md](ALL-BASS.md)<!-- historical-link:zoom-020 -->; old incoming links are unchanged.
 
 ### B1 FOUR — explicit remaining fields and current check
 
@@ -810,7 +810,7 @@ The original comparison explicitly gives this model the same ports and three pow
 | Retail indexed exact hardware ask |**Rp2.700.000** |[shop195817632/item9729029672](https://shopee.co.id/Zoom-B1X-FOUR-Multi-Effects-Processor-with-Expression-Pedal-Original-i.195817632.9729029672). Exact B1X FOUR title;direct reopening failed. Seller name,region,condition,adapter/bundle,warranty,voucher andlive stock unverified |
 | Condition-verified used IDR |**?** |Not established;no assumed used discount |
 
-Other search pages show adapter-bundle amounts but no resolved exact item in this pass;those do not establish additional accepted asks or a market range. The older $105 observation remains historical USD evidence. [Complete original bass comparison](effects/bass.md) is retained unchanged; all incoming links remain valid. No new manual image inspection or installed firmware check is claimed.
+Other search pages show adapter-bundle amounts but no resolved exact item in this pass;those do not establish additional accepted asks or a market range. The older $105 observation remains historical USD evidence. [Complete original bass comparison](ALL-BASS.md)<!-- historical-link:zoom-021 --> is retained unchanged; all incoming links remain valid. No new manual image inspection or installed firmware check is claimed.
 
 ### B1X FOUR — model-specific follow-up, 2026-10-17
 
@@ -900,7 +900,7 @@ Checked **2026-10-14**. Records are **partial**, not certifications that every f
 
 [P1] Historical $178 is a US-facing USD ask,not IDR: [Thomann cross-listed B6 comparison](https://www.thomannmusic.com/zoom_b6.htm),[exact B2 FOUR listing](https://www.thomannmusic.com/zoom_b2_four.htm). It excludes destination tax/shipping and is not a completed sale.
 
-Primary sources: [manufacturer product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/),[original HTML operation manual](https://zoomcorp.com/manuals/b2four-en/),[original control photograph](https://zoomcorp.com/media/original_images/Hero_1_0EAQFMB.png.768x0_q60_focal_area-825%2C633%2C1650%2C1267.png). Legacy source [effects/bass.md](effects/bass.md) remains unchanged and incoming links remain valid.
+Primary sources: [manufacturer product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/),[original HTML operation manual](https://zoomcorp.com/manuals/b2four-en/),[original control photograph](https://zoomcorp.com/media/original_images/Hero_1_0EAQFMB.png.768x0_q60_focal_area-825%2C633%2C1650%2C1267.png). Legacy source [effects/bass.md](ALL-BASS.md)<!-- historical-link:zoom-022 --> remains unchanged and incoming links remain valid.
 
 ### B2 FOUR — current manual and product clarification
 
@@ -1054,7 +1054,7 @@ Checked **2026-10-14**. Records are **partial**, not certifications that every f
 
 B1-family downloads now advertise additional BitCrush and DynaDelay releases in February and April 2026; these are downloadable library additions, not evidence that all installed units contain an identical count. On B6, the manual specifies **six** simultaneous effects; do not confuse the nine footswitches with nine processing slots.
 
-[P1] [Thomann B6 listing and cross-listed comparison](https://www.thomannmusic.com/zoom_b6.htm): historical $359 US-facing USD ask, excluding destination tax/shipping; not an IDR estimate or completed sale. Original [bass comparison](effects/bass.md) remains unchanged, preserving incoming links.
+[P1] [Thomann B6 listing and cross-listed comparison](https://www.thomannmusic.com/zoom_b6.htm): historical $359 US-facing USD ask, excluding destination tax/shipping; not an IDR estimate or completed sale. Original [bass comparison](ALL-BASS.md)<!-- historical-link:zoom-023 --> remains unchanged, preserving incoming links.
 
 Primary sources: [official B6 product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b6/),[manufacturer HTML operation manual](https://zoomcorp.com/manuals/b6-en/),[original official top image](https://zoomcorp.com/media/original_images/01_B6_top.jpg.800x482_q70_crop_size_canvas.jpg). The legacy photograph-based control count is retained, not presented as a new image inspection.
 
@@ -1114,7 +1114,7 @@ Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimen
 | Configuration apps versus USB functions | Full editor not established; Windows ASIO driver; USB **2-in/2-out**, Mac/iOS audio supported |
 | Looper / live considerations | Hand-operated; no built-in looper established; harmony key entered manually |
 
-Original V3 sources: [manufacturer source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/); [manufacturer source](https://zoomcorp.com/documents/1332/E_V3_2.pdf). Complete legacy comparison read; [original](effects/vocal.md) retained with incoming links.
+Original V3 sources: [manufacturer source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/); [manufacturer source](https://zoomcorp.com/documents/1332/E_V3_2.pdf). Complete legacy comparison read; [original](ALL-VOCAL.md)<!-- historical-link:zoom-024 --> retained with incoming links.
 
 ### V3 — current manufacturer checks
 
@@ -1218,7 +1218,7 @@ V6-SP does **not** include the SGV-6 microphone; its current product page lists 
 | Configuration apps versus USB functions | Full editor not established; Windows ASIO driver, Windows/macOS updater; USB **2-in/2-out**, Mac/iOS audio class support documented |
 | Looper / live considerations | **210 s** looper; stereo effects via phones, main XLR is mono; no guitar-chord input |
 
-Original sources: [source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/); [source](https://zoomcorp.com/media/documents/E_V6_2.pdf); [source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/v6-sp-support/); [source](https://www.zzounds.com/item--ZOMZV6SP). Legacy P4 is the zZounds USD369.99 ask checked2026-10-14; US-market,not a converted IDR price. Original V6 manual controls pp7–9,algorithms17–21,specs38. The original assertion that nine rotaries include the rear knob is corrected below. [Complete original](effects/vocal.md) remains unchanged; incoming links retained.
+Original sources: [source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/); [source](https://zoomcorp.com/media/documents/E_V6_2.pdf); [source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/v6-sp-support/); [source](https://www.zzounds.com/item--ZOMZV6SP). Legacy P4 is the zZounds USD369.99 ask checked2026-10-14; US-market,not a converted IDR price. Original V6 manual controls pp7–9,algorithms17–21,specs38. The original assertion that nine rotaries include the rear knob is corrected below. [Complete original](ALL-VOCAL.md)<!-- historical-link:zoom-025 --> remains unchanged; incoming links retained.
 
 ### V6-SP — manufacturer checks and corrections
 

@@ -1833,3 +1833,11 @@ canonical-links-plan-boss:
 	python3 scripts/canonical_links.py plan-boss
 canonical-links-plan-mooer:
 	python3 scripts/canonical_links.py plan-mooer
+
+.PHONY: canonical-links-plan-valeton canonical-links-plan-zoom canonical-links-plan-mvave
+canonical-links-plan-valeton:
+	python3 scripts/canonical_links.py plan-valeton
+canonical-links-plan-zoom:
+	python3 scripts/canonical_links.py plan-zoom
+canonical-links-plan-mvave:
+	python3 scripts/canonical_links.py plan-mvave

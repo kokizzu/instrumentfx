@@ -107,7 +107,7 @@ Consolidated 2026-10-17. The complete original observation below retains its tec
 
 <!-- VALETON-GP-100 source begins -->
 
-Research date: **2026-10-14**. Existing model, not an additional inventory entry. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status remains **partial**.
+Research date: **2026-10-14**. Existing model, not an additional inventory entry. [Comparison](ALL-GUITAR.md)<!-- historical-link:valeton-001 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:valeton-002 -->. Status remains **partial**.
 
 ### Technical findings
 
@@ -142,7 +142,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Diagonal, inches** (1. Displays): ?
 - **Monochrome / color** (1. Displays): Color
 - **Touchscreen** (1. Displays): ?
-- **Evidence and remaining uncertainty** (1. Displays): [Firmware-1.8 manual: color tuner/looper illustrations; no verified diagonal](effects/findings/2026-10-14-valeton-gp-100.md)
+- **Evidence and remaining uncertainty** (1. Displays): [Firmware-1.8 manual: color tuner/looper illustrations; no verified diagonal](VALETON.md#gp-100)<!-- historical-link:valeton-003 -->
 - **Built-in / external expression** (Built-in expression pedal): Yes / ?
 - **K/F/B** (Built-in expression pedal): **4/2/5** [F100]
 - **Width × depth × height, mm** (Built-in expression pedal): 198 × 134 × 28*
@@ -170,7 +170,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Diagonal, inches | ? |
 | Monochrome / color | Color |
 | Touchscreen | ? |
-| Evidence and remaining uncertainty | [Firmware-1.8 manual: color tuner/looper illustrations; no verified diagonal](effects/findings/2026-10-14-valeton-gp-100.md) |
+| Evidence and remaining uncertainty | [Firmware-1.8 manual: color tuner/looper illustrations; no verified diagonal](VALETON.md#gp-100)<!-- historical-link:valeton-004 --> |
 | Built-in / external expression | Yes / ? |
 | K/F/B | **4/2/5** [detail](VALETON.md#gp-100) |
 | Width × depth × height, mm | 198 × 134 × 28* |
@@ -197,7 +197,7 @@ P2 separately listed USD102 B-stock; that is not used-price evidence. P5 contain
 
 Historical GP-100 source URLs: https://www.guitarcenter.com/Valeton/Used-Valeton-GP-100-Effect-Processor-122531515.gc, https://www.thomannmusic.com/valeton_gp_100.htm, https://nafiriguitar.com/products/valeton-gp-100-multi-effects-processor
 
-Sources: [effects/findings/2026-10-14-valeton-gp-100.md](effects/findings/2026-10-14-valeton-gp-100.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-valeton-gp-100.md](VALETON.md#gp-100)<!-- historical-link:valeton-005 -->, [effects/guitar-compact.md](ALL-GUITAR.md)<!-- historical-link:valeton-006 -->. No legacy file was deleted.
 
 ### GP-100 shared-source audit
 
@@ -211,7 +211,7 @@ Consolidated 2026-10-17. The complete original observation below retains its tec
 
 <!-- VALETON-GP-150 source begins -->
 
-Research date: **2026-10-14**. Existing model; inventory count unchanged. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+Research date: **2026-10-14**. Existing model; inventory count unchanged. [Comparison](ALL-GUITAR.md)<!-- historical-link:valeton-007 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:valeton-008 -->. Status: **partial**.
 
 ### Display
 
@@ -244,7 +244,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Diagonal, inches** (1. Displays): 2.4
 - **Monochrome / color** (1. Displays): Color
 - **Touchscreen** (1. Displays): ?
-- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer specification; drag-and-drop wording is not touch proof](effects/findings/2026-10-14-valeton-gp-150.md)
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer specification; drag-and-drop wording is not touch proof](VALETON.md#gp-150)<!-- historical-link:valeton-009 -->
 - **Built-in / external expression** (Built-in expression pedal): Yes / EXP/FS
 - **K/F/B** (Built-in expression pedal): 5/2/6 [controls]
 - **Width × depth × height, mm** (Built-in expression pedal): 200 × 139 × 55
@@ -272,7 +272,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Diagonal, inches | 2.4 |
 | Monochrome / color | Color |
 | Touchscreen | ? |
-| Evidence and remaining uncertainty | [Manufacturer specification; drag-and-drop wording is not touch proof](effects/findings/2026-10-14-valeton-gp-150.md) |
+| Evidence and remaining uncertainty | [Manufacturer specification; drag-and-drop wording is not touch proof](VALETON.md#gp-150)<!-- historical-link:valeton-010 --> |
 | Built-in / external expression | Yes / EXP/FS |
 | K/F/B | 5/2/6 [controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
 | Width × depth × height, mm | 200 × 139 × 55 |
@@ -299,7 +299,7 @@ These earlier observations were recorded on **2026-10-14** before the IDR revisi
 
 Historical GP-150 source URLs: https://shop.valeton.net/products/gp-150, https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png
 
-Sources: [effects/findings/2026-10-14-valeton-gp-150.md](effects/findings/2026-10-14-valeton-gp-150.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-valeton-gp-150.md](VALETON.md#gp-150)<!-- historical-link:valeton-011 -->, [effects/guitar-compact.md](ALL-GUITAR.md)<!-- historical-link:valeton-012 -->. No legacy file was deleted.
 
 ### GP-150 shared-source reference key
 
@@ -308,7 +308,7 @@ The complete compact source was audited on 2026-10-17. All five model rows retai
 | Historical label | Exact source |
 |---|---|
 | `controls` | [Manufacturer GP-150/GP-180 comparison image](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
-| `F150` | [Original GP-150 finding](effects/findings/2026-10-14-valeton-gp-150.md) |
+| `F150` | [Original GP-150 finding](VALETON.md#gp-150)<!-- historical-link:valeton-013 --> |
 | `P4` | [Official-shop historical USD169.99 source](https://shop.valeton.net/products/gp-150) |
 
 The original SnapTone conversion row remains historical evidence; the separately dated native NAM A2 Lite firmware qualification above is retained. Legacy source and incoming links remain available.
@@ -343,7 +343,7 @@ New prices are individual official-store observations checked **2026-10-14**, no
 - **Other practical features** (Connections, power, applications and live use): USB 6-in/4-out; 180 s looper; 100 rhythms; switchable acoustic/electric/line input impedance
 
 Original primary source: https://www.valeton.net/product/gp-200/
-Legacy source: [guitar-floorboards](effects/guitar-floorboards.md). No source file or incoming link was removed.
+Legacy source: [guitar-floorboards](ALL-GUITAR.md)<!-- historical-link:valeton-014 -->. No source file or incoming link was removed.
 
 ### GP-200 comparison fields
 
@@ -435,7 +435,7 @@ Consolidated 2026-10-17. The complete original observation below retains its tec
 
 <!-- VALETON-GP-180 source begins -->
 
-Research date: **2026-10-14**. Existing model; inventory unchanged. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+Research date: **2026-10-14**. Existing model; inventory unchanged. [Comparison](ALL-GUITAR.md)<!-- historical-link:valeton-015 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:valeton-016 -->. Status: **partial**.
 
 ### Display and hardware evidence
 
@@ -468,7 +468,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Diagonal, inches** (1. Displays): 2.4
 - **Monochrome / color** (1. Displays): Color
 - **Touchscreen** (1. Displays): ?
-- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer product page and firmware-1.0.0 manual](effects/findings/2026-10-14-valeton-gp-180.md)
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer product page and firmware-1.0.0 manual](VALETON.md#gp-180)<!-- historical-link:valeton-017 -->
 - **Built-in / external expression** (No built-in expression pedal): No / 2 × EXP/FS, shared MIDI functions
 - **K/F/B** (No built-in expression pedal): 5/3/16 [controls]
 - **Width × depth × height, mm** (No built-in expression pedal): 181 × 139 × 52
@@ -496,7 +496,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Diagonal, inches | 2.4 |
 | Monochrome / color | Color |
 | Touchscreen | ? |
-| Evidence and remaining uncertainty | [Manufacturer product page and firmware-1.0.0 manual](effects/findings/2026-10-14-valeton-gp-180.md) |
+| Evidence and remaining uncertainty | [Manufacturer product page and firmware-1.0.0 manual](VALETON.md#gp-180)<!-- historical-link:valeton-018 --> |
 | Built-in / external expression | No / 2 × EXP/FS, shared MIDI functions |
 | K/F/B | 5/3/16 [controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
 | Width × depth × height, mm | 181 × 139 × 52 |
@@ -522,7 +522,7 @@ These earlier observations were recorded on **2026-10-14** before the IDR revisi
 
 Historical GP-180 source URLs: https://shop.valeton.net/products/gp-180, https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png
 
-Sources: [effects/findings/2026-10-14-valeton-gp-180.md](effects/findings/2026-10-14-valeton-gp-180.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-valeton-gp-180.md](VALETON.md#gp-180)<!-- historical-link:valeton-019 -->, [effects/guitar-compact.md](ALL-GUITAR.md)<!-- historical-link:valeton-020 -->. No legacy file was deleted.
 
 ### GP-180 shared-source reference key
 
@@ -531,7 +531,7 @@ The complete compact source, unchanged since the preceding audit, was checked on
 | Historical label | Exact source |
 |---|---|
 | `controls` | [Manufacturer GP-150/GP-180 comparison image](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
-| `F180` | [Original GP-180 finding](effects/findings/2026-10-14-valeton-gp-180.md) |
+| `F180` | [Original GP-180 finding](VALETON.md#gp-180)<!-- historical-link:valeton-021 --> |
 | `P8` | [Official-shop historical USD179.99 source](https://shop.valeton.net/products/gp-180) |
 
 The original SnapTone row remains separate from the later native NAM A2 Lite firmware qualification. The expanded DC/USB operation-versus-charging figures and two shared EXP/FS/MIDI connections above remain intact; this source audit does not retest them or refresh stock.
@@ -542,7 +542,7 @@ Consolidated 2026-10-17. The complete original observation below retains its tec
 
 <!-- VALETON-GP-5 source begins -->
 
-Research date: **2026-10-14**. Existing model; count unchanged. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+Research date: **2026-10-14**. Existing model; count unchanged. [Comparison](ALL-GUITAR.md)<!-- historical-link:valeton-022 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:valeton-023 -->. Status: **partial**.
 
 ### Technical evidence
 
@@ -581,7 +581,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Diagonal, inches** (1. Displays): ?
 - **Monochrome / color** (1. Displays): Color
 - **Touchscreen** (1. Displays): ?
-- **Evidence and remaining uncertainty** (1. Displays): [Official color claim; retailer 0.96-inch claim not primary-verified](effects/findings/2026-10-14-valeton-gp-5.md)
+- **Evidence and remaining uncertainty** (1. Displays): [Official color claim; retailer 0.96-inch claim not primary-verified](VALETON.md#gp-5)<!-- historical-link:valeton-024 -->
 - **Built-in / external expression** (No built-in expression pedal): No / not established
 - **K/F/B** (No built-in expression pedal): ?/1/?
 - **Width × depth × height, mm** (No built-in expression pedal): 93.5 × 42 × 52*
@@ -609,7 +609,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Diagonal, inches | ? |
 | Monochrome / color | Color |
 | Touchscreen | ? |
-| Evidence and remaining uncertainty | [Official color claim; retailer 0.96-inch claim not primary-verified](effects/findings/2026-10-14-valeton-gp-5.md) |
+| Evidence and remaining uncertainty | [Official color claim; retailer 0.96-inch claim not primary-verified](VALETON.md#gp-5)<!-- historical-link:valeton-025 --> |
 | Built-in / external expression | No / not established |
 | K/F/B | ?/1/? |
 | Width × depth × height, mm | 93.5 × 42 × 52* |
@@ -641,7 +641,7 @@ P2 separately listed USD102 B-stock; that is not used-price evidence. P5 contain
 
 Historical GP-5 source URLs: https://www.guitarcenter.com/Valeton/Multi-Effects-Pedals.gc, https://shop.valeton.net/products/gp-5
 
-Sources: [effects/findings/2026-10-14-valeton-gp-5.md](effects/findings/2026-10-14-valeton-gp-5.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-valeton-gp-5.md](VALETON.md#gp-5)<!-- historical-link:valeton-026 -->, [effects/guitar-compact.md](ALL-GUITAR.md)<!-- historical-link:valeton-027 -->. No legacy file was deleted.
 
 ### GP-5 shared-source reference key
 
@@ -649,7 +649,7 @@ The unchanged complete compact comparison was rechecked on 2026-10-17. Its 23 GP
 
 | Historical label | Exact source |
 |---|---|
-| `F5` | [Original GP-5 finding](effects/findings/2026-10-14-valeton-gp-5.md) |
+| `F5` | [Original GP-5 finding](VALETON.md#gp-5)<!-- historical-link:valeton-028 --> |
 | `P5` | [Guitar Center historical used observations](https://www.guitarcenter.com/Valeton/Multi-Effects-Pedals.gc) |
 | `P6` | [Official-shop historical new quote](https://shop.valeton.net/products/gp-5) |
 
@@ -661,7 +661,7 @@ Consolidated 2026-10-17. The complete original observation below retains its tec
 
 <!-- VALETON-GP-50 source begins -->
 
-Research date: **2026-10-14**. Existing model; inventory unchanged. [Comparison](effects/guitar-compact.md) · [Resume](effects/RESUME.md). Status: **partial**.
+Research date: **2026-10-14**. Existing model; inventory unchanged. [Comparison](ALL-GUITAR.md)<!-- historical-link:valeton-029 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:valeton-030 -->. Status: **partial**.
 
 ### Technical findings
 
@@ -694,7 +694,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Diagonal, inches** (1. Displays): 1.77
 - **Monochrome / color** (1. Displays): Color
 - **Touchscreen** (1. Displays): ?
-- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer product page and firmware-1.0.5 manual](effects/findings/2026-10-14-valeton-gp-50.md)
+- **Evidence and remaining uncertainty** (1. Displays): [Manufacturer product page and firmware-1.0.5 manual](VALETON.md#gp-50)<!-- historical-link:valeton-031 -->
 - **Built-in / external expression** (No built-in expression pedal): No / EXP/FS
 - **K/F/B** (No built-in expression pedal): **4/2/4** [F50]
 - **Width × depth × height, mm** (No built-in expression pedal): 122 × 82 × 54
@@ -722,7 +722,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Diagonal, inches | 1.77 |
 | Monochrome / color | Color |
 | Touchscreen | ? |
-| Evidence and remaining uncertainty | [Manufacturer product page and firmware-1.0.5 manual](effects/findings/2026-10-14-valeton-gp-50.md) |
+| Evidence and remaining uncertainty | [Manufacturer product page and firmware-1.0.5 manual](VALETON.md#gp-50)<!-- historical-link:valeton-032 --> |
 | Built-in / external expression | No / EXP/FS |
 | K/F/B | **4/2/4** [detail](VALETON.md#gp-50) |
 | Width × depth × height, mm | 122 × 82 × 54 |
@@ -748,14 +748,14 @@ These earlier observations were recorded on **2026-10-14** before the IDR revisi
 
 Historical GP-50 source URLs: https://shop.valeton.net/products/gp-50, https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png
 
-Sources: [effects/findings/2026-10-14-valeton-gp-50.md](effects/findings/2026-10-14-valeton-gp-50.md), [effects/guitar-compact.md](effects/guitar-compact.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-valeton-gp-50.md](VALETON.md#gp-50)<!-- historical-link:valeton-033 -->, [effects/guitar-compact.md](ALL-GUITAR.md)<!-- historical-link:valeton-034 -->. No legacy file was deleted.
 ### GP-50 shared-source reference key
 
 The unchanged complete compact source was rechecked on 2026-10-17. All 23 GP-50 fields across five rows remain preserved, including explicit USB operation versus charging and the sold-out price qualification. Historical reference labels resolve as follows:
 
 | Historical label | Exact source |
 |---|---|
-| `F50` | [Original GP-50 finding](effects/findings/2026-10-14-valeton-gp-50.md) |
+| `F50` | [Original GP-50 finding](VALETON.md#gp-50)<!-- historical-link:valeton-035 --> |
 | `P7` | [Official-shop historical USD119.99 source](https://shop.valeton.net/products/gp-50) |
 | Original control photo | [Manufacturer GP-50 image](https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png) |
 

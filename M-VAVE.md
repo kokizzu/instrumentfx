@@ -38,7 +38,7 @@ The2026-10-17 follow-up used manufacturerHTML andplain-text release notes only. 
 
 <!-- MVAVE-TANK-G source begins -->
 
-[Comparison home](effects/README.md) · [Methodology](effects/METHODOLOGY.md)
+[Comparison home](README.md)<!-- historical-link:m-vave-001 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:m-vave-002 -->
 
 Checked **2026-10-14**. **New model record; partial.** Original TANK-G, not TANK-PRO or an assumed interchangeable OEM version. Technical baseline is the manufacturer-authored multilingual manual mirrored on Amazon [M], English pp.1–8; panel/chain/specification diagrams were visually checked. Current firmware may add features.
 
@@ -97,7 +97,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Power / batteries** (5. Power, software and practice/live features): USB5V ≥300mA; draw200mA; 3000mAh/3.7V rechargeable
 - **Other documented functions** (5. Power, software and practice/live features): USB audio/OTG, Bluetooth backing, live/preset modes; looper not established in checked baseline
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:m-vave-003 -->,retained pending complete navigation/provenance audits.
 
 ## TANK-B
 
@@ -188,7 +188,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Power / batteries** (5. Power, software and practice/live features): USB5V ≥300mA; draw200mA; 3000mAh/3.7V rechargeable
 - **Other documented functions** (5. Power, software and practice/live features): USB audio/OTG, Bluetooth backing, live/preset modes; looper not established in checked baseline
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:m-vave-004 -->,retained pending complete navigation/provenance audits.
 
 ## TANK MINI
 
@@ -268,7 +268,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Power / batteries** (5. Power, software and practice/live features): USB5V ≥300mA; draw~250mA; 1500mAh/3.7V rechargeable
 - **Other documented functions** (5. Power, software and practice/live features): USB audio/OTG/loopback, Bluetooth; detailed edits require app
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:m-vave-005 -->,retained pending complete navigation/provenance audits.
 
 ## MK-20
 
@@ -352,7 +352,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Power / batteries** (5. Power, software and practice/live features): 3000mAh/3.7V rechargeable; USB5V/2A specified; draw300mA; charging vs independent USB operation ?
 - **Other documented functions** (5. Power, software and practice/live features): **20 s mono pre-effects looper**,128 rhythms, USB audio/MIDI/reamp
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:m-vave-006 -->,retained pending complete navigation/provenance audits.
 
 ## MK-300
 
@@ -434,7 +434,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Power / batteries** (5. Power, software and practice/live features): 5000mAh/3.7V rechargeable; USB5V/2A specified; draw350mA; USB-operation nuance ?
 - **Other documented functions** (5. Power, software and practice/live features): **150 s looper**,128 rhythms, USB audio/MIDI/reamp, Bluetooth
 
-[Original shared source](effects/shopee-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:m-vave-007 -->,retained pending complete navigation/provenance audits.
 
 ## TANK-PRO
 
@@ -470,7 +470,7 @@ The complete 2026-10-14 finding is retained below. Its AM4DATA workflow and unre
 
 <!-- MVAVE-TANKPRO source begins -->
 
-[Comparison home](effects/README.md) · [Marketplace index](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+[Comparison home](README.md)<!-- historical-link:m-vave-008 --> · [Marketplace index](research-state.json)<!-- historical-link:m-vave-009 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:m-vave-010 -->
 
 Checked **2026-10-14**. **Partial technical record**, not a live-stock or fully verified claim. This is TANK-PRO, not TANK-G, TANK-B, MK-300 or an assumed-equivalent rebadge. Next priority: **M-VAVE ANN Blackbox**. This note is saved immediately as one model's research, before starting the next model.
 
@@ -552,7 +552,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Apps** (4. Power, apps, I/O and stage use): M-EFCS Windows/macOS/iOS/Android
 - **Key I/O and performance details** (4. Power, apps, I/O and stage use): ¼″ in;stereo¼″+stereoXLR out;3.5mm phones;TRS EXP/MIDI-in;USB-C;**150.8s looper,100 rhythms**
 
-[Original shared source](effects/shopee-multifx-2.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:m-vave-011 -->,retained pending complete navigation/provenance audits.
 
 ## ANN Blackbox
 
@@ -586,7 +586,7 @@ Complete dated source below retains its original page-specific evidence, source-
 
 <!-- MVAVE-ANNBLACKBOX source begins -->
 
-[Home](effects/README.md) · [Marketplace](effects/shopee-indonesia.md) · [Resume](effects/RESUME.md)
+[Home](README.md)<!-- historical-link:m-vave-012 --> · [Marketplace](research-state.json)<!-- historical-link:m-vave-013 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:m-vave-014 -->
 
 Checked **2026-10-14**. **Partial record** for **ANNBLACK BOX**, not a blanket specification for every older product titled Blackbox. Next discovery checks: **Boin Audio BG300 and Scorpion KMF-10**, then JOYO GemBox variants. Findings are committed individually.
 
@@ -646,7 +646,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Power / battery / USB operation** (4. Power, apps, I/O and stage use): **2000mAh/3.7V;USB5V≥300mA**, battery or USB power explicitly documented
 - **Key I/O and performance details** (4. Power, apps, I/O and stage use): ¼″ mono in/out,separate3.5mm stereo phones,USB-C;44.1k/24-bit audio/loopback;looper/drums not established
 
-[Original shared source](effects/shopee-multifx-2.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:m-vave-015 -->,retained pending complete navigation/provenance audits.
 
 ## MINI-X
 
@@ -735,7 +735,7 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 - **Retail/historical observation — not a live price range** (Separate IDR evidence): **Rp296.999 Shopee,service unavailable**;separateRp450.000 indexed ask
 - **Original findings commit** (Saved individual commits): `b9525ee463e7efa8ed845bb9ad89b5e9ea5a46b6`
 
-[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared comparison](MULTI-EFFECTS.md)<!-- historical-link:m-vave-016 -->,retained pending complete navigation/provenance audits.
 
 ## Pocket Amp
 
@@ -827,7 +827,7 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 - **Retail/historical observation — not a live price range** (Separate IDR evidence): **Rp659.999 indexed**;separateRp795.000 indexed;other quoted listings sold out
 - **Original findings commit** (Saved individual commits): `792e274fbf27f07039c79b5ced4d6d2926f66dd6`
 
-[Original shared comparison](effects/owned-multifx.md),retained pending complete navigation/provenance audits.
+[Original shared comparison](MULTI-EFFECTS.md)<!-- historical-link:m-vave-017 -->,retained pending complete navigation/provenance audits.
 
 ## CUBE BABY electric
 
@@ -914,7 +914,7 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 - **Limitation** (Separate IDR evidence): Used is historical; retail checkout/condition unverified
 - **Commit** (Individual findings commits): `e4a41de58585514c0acb64e8262f269739593eab`
 
-[Complete shared source](effects/cube-baby.md) remains available pending navigation/provenance audits.
+[Complete shared source](M-VAVE.md)<!-- historical-link:m-vave-018 --> remains available pending navigation/provenance audits.
 
 ## CUBE BABY AC
 
@@ -1004,7 +1004,7 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 - **Limitation** (Separate IDR evidence): Separate marketplaces and dated asks, not a guaranteed active range; Rp435.000 sold-out retail kept historical
 - **Commit** (Individual findings commits): `c870347644ba9c7be313c9231fd75284e992375b`
 
-[Complete shared source](effects/cube-baby.md) remains available pending navigation/provenance audits.
+[Complete shared source](M-VAVE.md)<!-- historical-link:m-vave-019 --> remains available pending navigation/provenance audits.
 
 ## CUBE BABY BASS
 
@@ -1135,7 +1135,7 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 - **Limitation** (Separate IDR evidence): Later reopening/exact-item searches failed; not a freshly reproduced live offer
 - **Commit** (Individual findings commits): `7c62703c0fe5bd8584deab523840696c1ca0f8dd`
 
-[Complete shared source](effects/cube-baby.md) remains available pending navigation/provenance audits.
+[Complete shared source](M-VAVE.md)<!-- historical-link:m-vave-020 --> remains available pending navigation/provenance audits.
 
 ## Evidence and consolidation boundary
 
