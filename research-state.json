@@ -28,12 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer Bass V-AMP PRO",
-    "task": "PRO211 first pass saved. Review named processing/routing constraints if needed; then find exact V-AMP2 hardware item before adding own guitar record. Do not duplicate desktop/PRO.",
+    "model": "Behringer V-AMP 2",
+    "task": "Exact Shopee item recovered (59084647/2820560961; second-title linked 61848168/7587372301). Complete own manual audit and add root record, views and count in one scoped commit; do not confuse Bass V-AMP or PRO.",
     "next_models": [
-      "Behringer V-AMP 2 (exact item unresolved)"
+      "Behringer V-AMP 2"
     ],
-    "after_queue": "Market discovery and legacy consolidation incomplete; no downloads/workflows."
+    "after_queue": "Continue Shopee brand/series discovery and unresolved technical fields; migration and market coverage remain incomplete."
   },
   "new_findings": [
     {
@@ -50977,5 +50977,49 @@
       "VoiceLive Touch/PlayGTX/VoiceLive2 no exact missing-model hardware",
       "OriginalZoomB2 query returned already-recorded B2FOUR"
     ]
+  },
+  "discovery_vamp2_20261017": {
+    "checked_date": "2026-10-17",
+    "status": "Exact hardware item identities recovered; model remains outside active inventory until own specification audit.",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Behringer-V-amp-2-i.59084647.2820560961",
+        "shop_id": "59084647",
+        "item_id": "2820560961",
+        "seller": "sitiadiran",
+        "region": "Kabupaten Jember",
+        "idr": 1100000,
+        "condition": "Unverified",
+        "access": "Search index crawled last week, delivery 8–11 October; exact open cache miss.",
+        "qualifications": "Live stock, bundle, working condition, warranty and variant unknown. Late-delivery voucher up to Rp10000 not deducted."
+      },
+      {
+        "url": "https://shopee.co.id/Efek-Gitar-Electric-Behringer-VAmp2-original-Second-Effect-Guitar-Vamp-2-V-AMP2-V-AMP-2-i.61848168.7587372301",
+        "shop_id": "61848168",
+        "item_id": "7587372301",
+        "seller": "gitar second",
+        "idr": 1200000,
+        "condition": "Title explicitly Second; working condition and completeness unverified",
+        "access": "Shop index search says last month; opened shop cache says five months. Both show Rp1200000 and 1 terjual. Exact linked item cache miss.",
+        "qualifications": "Shop recommendation exposes exact item link, not a verified transaction or current stock. Recommendation placement does not independently prove seller ownership. Region, adapter, footswitch, bag, warranty and voucher unknown. Link includes display_model_id 29387076168; variant selection unresolved."
+      }
+    ],
+    "primary_sources": [
+      {
+        "url": "https://www.behringer.com/en/products/0709-AAD",
+        "access": "Manufacturer legacy page retrieved, crawled two days ago.",
+        "findings": "32 amps, 15 cabinet models, 16 effects; MIDI-controlled wah, rewritable 125 presets in 25 banks. Five S1/S2/L1/L2/L3 configurations. MIDI DIN IN and OUT/THRU; third-party historical Mac OS X editor links; country-specific replacement supplies. No sibling specifications assigned."
+      },
+      {
+        "url": "https://mediadl.musictribe.com/media/sys_master/h41/h70/8850121457694.pdf",
+        "access": "Spanish V-AMP2 manual v1.2 September2002 indexed text only; direct 502.",
+        "next": "Read complete own manual, particularly panel inventory, dimensions/mass, supply output and effect routing. Indexed preset passage is insufficient for full audit."
+      },
+      {
+        "url": "https://mediadl.musictribe.com/media/sys_master/hab/h9a/8849620566046.pdf",
+        "access": "German original v1.2 September2002 search lead, not fully inspected."
+      }
+    ],
+    "other_searches": "GT-6B and StompLab1B queries returned no exact new hardware in this batch; this is not evidence of market absence."
   }
 }
