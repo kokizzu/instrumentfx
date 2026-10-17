@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "VL3X namedpanelinventory establishes5/10/9;TalkTuner/layeroperation saved. Next powercurrent/polarity,currentfirmware/categorychoices orfreshdiscovery;no touchscreen inferred.",
+    "task": "VL3X monophonicguitarOctaver versuspolyvocalSynth qualified;TouchWah dynamiccontrol recorded. Next powercurrent/polarity,currentfirmware/categorychoices andfreshShopeediscovery.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60908,5 +60908,18 @@
     "basis": "fourMix+Control;GenreSetupStoreHomeVocalGuitarLooper+2arrows;encoderpushonce;capacitivebuttonsnotdisplaytouch",
     "live": "TalkTunermutesguitarbypassesvocalFX;presetsstillselectable;Layertapvocalguitarholdloop",
     "limits": "Textinventorynotnewvisualinspection;builtin/toeexpression andpower/currentrevision gapsremain"
+  },
+  "vl3x_guitar_pitch_20261017": {
+    "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+    "revision": "2015-10-20 firmware2.1.00build346",
+    "pages": "105,121–123",
+    "findings": [
+      "GuitarOctavermonophonic,singlenotes,ShiftMix",
+      "Basslinesimulationnotactualbassinputcertification",
+      "VocalSynthpolycarrierseparate",
+      "TouchWahdynamicwithoutpedal",
+      "AcousticguitarµModexamplesnotelectrictoacousticsimulator"
+    ],
+    "remaining": "Guitarsynth/acousticsimulation,currentfirmware/power/categorycounts unresolved"
   }
 }
