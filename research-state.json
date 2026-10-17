@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Rack MK2",
-    "task": "Complete Rack button/display census, current capture/software revisions,acoustic/synth andqualified offers; then next queued variant.",
+    "task": "Rack acoustic/synth,fullpanel/display,currentsoftware minima and qualifiedoffers;then nextqueuedvariant.",
     "next_models": [
       "Kemper PROFILER PowerHead MK2 lead",
       "Kemper PROFILER PowerRack MK2 lead",
@@ -63576,5 +63576,12 @@
     "finding": "Independent Performance memory and desktop IR-conversion workflow saved with scope limits.",
     "limits": "Browse/factory/current memory unresolved;software input acceptance is not onboardIR playback limit;NAM unknown.",
     "next": "Complete Rack button/display census, current capture/software revisions,acoustic/synth andqualified offers; then next queued variant."
+  },
+  "rack_current_faq_20261017": {
+    "source": "https://www.kemper-amps.com/faqs",
+    "checked": "2026-10-17",
+    "finding": "Explicit Rack/Remote pedal topology, MK2capture resolution and desktop/mobile role differences saved.",
+    "limits": "No installed firmware or full mobile parity proof. Direct OS14.2.2 announcement re-open returned cache error this pass;previous Stage release evidence preserved.",
+    "next": "Rack acoustic/synth,fullpanel/display,currentsoftware minima and qualifiedoffers;then nextqueuedvariant."
   }
 }
