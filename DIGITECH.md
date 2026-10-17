@@ -376,6 +376,12 @@ Checked **2026-10-17**, partial. Manufacturer-confirmed guitar multi-effects pro
 | Editing / platforms | **X-Edit 2.7.0 Windows; 2.7.1 Intel Mac OS X**, historical listings, current OS support **?**. **USB 2-in/2-out**; manufacturer mentions iPad audio, not an iPad editor. [Product][R155-P] **44.1 kHz, 16/24-bit**; USB1.1 Full Speed compatible with USB2.0. [Manual][R155-M] |
 | Practical features | **20-second looper, 60 drum patterns**, tuner, Lexicon reverbs. [Product][R155-P] **Drums unavailable during looping**. Headphones become mono when only L/Mono output is connected. [Manual][R155-M] Looper overdubs while Down is held; Up still changes presets (hold to scroll backward). **Whammy moves before amp modeling**. Scenes, power-off loop retention and spillover **?**. [Manual][R155-M] (pp.31,36–37) |
 | IDR qualified observations | **Used IDR: ?; new IDR: ?**. A shop-index lead has an ambiguous “manual” title; it is not a qualified processor price. See provenance. |
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| USB audio / recording controls | With USB connected and Pickup row selected, knobs 2 and 3 control direct/playback mix and USB recording level respectively. This does not establish dry DI or reamping. | [Manual p11][R155-M] |
+| Analog levels / electrical I/O | Guitar input 500kΩ; unbalanced outputs 500Ω per side, maximum +10dBu; stereo headphones 13.6mW/channel into 50Ω. Control In is specified as quarter-inch unbalanced; pedal resistance requirements remain unverified. | [Manual p39][R155-M] |
+
 <!-- comparison evidence ends -->
 
 ### RP155 — source qualifications and unresolved Shopee identity

@@ -463,7 +463,7 @@ def main():
         if mode == 'commit-ax30g':
             message = 'research(korg): complete AX100G pedal choices and adapter compatibility'
         if mode == 'commit-rp155':
-            message = 'research(digitech): qualify RP70 power digital ports and software support'
+            message = 'research(digitech): verify RP155 recording controls and electrical I O'
         if mode == 'commit-vamp2':
             message = 'research(behringer): preserve preliminary V-AMP 3 brochure conflicts'
         if mode == 'commit-bass-vamp-pro':

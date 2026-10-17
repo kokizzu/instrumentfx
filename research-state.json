@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP1000",
-    "task": "RP1000 exact loop boundaries and global-bypass override saved. Next inspect RP155 current evidence and its own manufacturer manual for unresolved practical controls, power and software. Commit each model before next.",
+    "model": "DigiTech RP155",
+    "task": "RP155 USB monitoring/record level and electrical I/O saved. Next inspect GNX3 current record and own manufacturer manual for unresolved practical recording/routing/power fields. Commit model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45035,7 +45035,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP1000."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP155."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56144,6 +56144,13 @@
       "source": "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf",
       "finding": "Own manual pp8–9: loops refuse enabling without connections, exact pre/post Stomp insertion boundaries, global Amp/Cabinet Bypass overrides restoration of internal models when Amp Loop disabled.",
       "remaining": "Actual hardware revision, display, imports, power draw/current OS and condition-qualified offers remain unresolved."
+    },
+    {
+      "model": "DigiTech RP155",
+      "date": "2026-10-18",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf",
+      "finding": "Own manual p11 USB Pickup row knobs 2/3 mix and record level; p39 input/output/headphone electrical specifications.",
+      "remaining": "Pedal resistance, body dimensions/mass, display, firmware census, current OS and condition-qualified hardware offer unresolved."
     }
   ],
   "discovery_cross_brand_bass": {
