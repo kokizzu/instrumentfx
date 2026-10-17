@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Player",
-    "task": "Continue Player14.2 exact effect inventory,PROFILE2.0 cabling and revision transitions;fixed-effect topology now saved. Resume fresh eligible Shopee discovery after model findings commit.",
+    "task": "Continue Player14.2 algorithm/category census and precise feature transition dates;PROFILE2.0 capture routing now saved. Fresh eligible Shopee discovery remains.",
     "next_models": [],
     "after_queue": "Continue remaining model gaps;no downloads,workflows orpush."
   },
@@ -63238,5 +63238,14 @@
     "pages": "38,148–150",
     "finding": "4/4/8flexible modules versus16/16/20total serial blocks;seven additional fixed effects and existing Transpose/InputGate/Volume distinctions;mono-pre/stereo-post and Rig-change DLY/REV spillover.",
     "limits": "Manufacturer manuscript on mirror,identity/revision checked;installed seller OS unknown;complete algorithms/transition dates remain unresolved."
+  },
+  "player_profiling_workflow_142_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English",
+    "revision": "July2026 OS14.2",
+    "pages": "189–190;contrast177",
+    "finding": "Desktop assisted creation uses right MonitorOut as send and TS instrumentIn as mic/DIreturn;no additional capture socket. Studio/Direct/Liquid supported;monitoring,recabling/save requirements recorded.",
+    "conflict": "Earlier Liquid chapter retains larger-model-only creation wording;explicit Player profiling chapter supersedes for this revision.",
+    "limits": "No capture performed;phantom power and live vocal processing not inferred."
   }
 }
