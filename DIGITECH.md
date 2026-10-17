@@ -552,6 +552,13 @@ Checked2026-10-18 against [original manual pp6,9–14,27][RP200-M]. Existing bac
 | Power / physical switching | Manual explicitly says **no power switch**; connection/disconnection ofthePS0913B supply powers theunit. This doesnot establishbattery orUSBoperation. |
 | Drums / activation restriction | Rhythm button starts/stopsdrumplayback **except inStore orBypassmode**; threerotaries thenadjustpattern,tempo andlevel. No tempo range inferred. |
 
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / calibration entry | Hold Up while reconnecting power until TOE DN; either switch confirms toe-down then toe-up. ERROR requires repeating endpoints. This is separate from the preset-erasing Select-at-power-up factory reset. No hardware action performed. | [Manufacturer guide p30, mirrored][RP200-MM] |
+| I/O / stereo connection | Single quarter-inch TRS output needs a stereo Y cable for two amps/mixer channels; mono uses a mono instrument cable. Mixer channels pan left/right and cabinet emulator is enabled for that setup. | [Manufacturer guide pp6–7, mirrored][RP200-MM] |
+| Analog conversion | **24-bit Delta Sigma A/D/A**. This does not establish a USB audio interface or sampling rate. | [Manufacturer guide p31, mirrored][RP200-MM] |
+
 <!-- comparison evidence ends -->
 
 Working state, bundle, adapter inclusion, authenticity, warranty, shipping, tax and voucher eligibility unverified. Condition cannot be inferred from price.
@@ -564,6 +571,8 @@ Source identity caveat: official DigiTech directory links this 40-page PDF as RP
 
 [RP200-F]: https://digitech.com/faqs/
 [RP200-S]: https://digitech.com/software-downloads/
+
+[RP200-MM]: https://media.zzounds.com/media/RP200Manual-d239d252d141496e53cadcc26b39fcb2.pdf
 
 ## RP70
 

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Legacy compatibility audit",
-    "task": "Legacy files are preserved anchor redirects under repository instructions; no deletion authorized by a zero-inbound count alone. New navigation audit records exact legacy callers and zero-local-incoming paths. Next inspect current report to verify each retained compatibility purpose, then continue unresolved model evidence.",
+    "model": "DigiTech RP200",
+    "task": "RP200 mirror matches source identity caveat; calibration entry, stereo Y connection and converters saved. Next inspect RP70 own record/manual for unresolved practical control and expression evidence. Commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45275,7 +45275,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech GNX4."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP200."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56413,6 +56413,14 @@
       "access": "Manufacturer PDF indexed page99 text; full PDF remains oversized, no local download.",
       "finding": "USB mix availability and pair-level coupling; -6dB lower-range prose versus -12 display example conflict preserved.",
       "remaining": "Current DAW/driver compatibility, actual gain lower bound, complete controls, power conflict and screen specifications unresolved."
+    },
+    {
+      "model": "DigiTech RP200",
+      "date": "2026-10-18",
+      "source": "https://media.zzounds.com/media/RP200Manual-d239d252d141496e53cadcc26b39fcb2.pdf",
+      "identity": "40-page manufacturer guide, RP200 declaration/body; footer RP100 Owners Manual 18-6372-A printed11/2000 matches existing discrepancy. Official CDN inaccessible today; mirror browser text only.",
+      "finding": "Up-held power reconnect calibration; stereo Y cable/mono output setup; 24-bit Delta Sigma conversion.",
+      "remaining": "Source back-cover mismatch, display details, current draw, external/toe expression and imports remain unverified."
     }
   ],
   "discovery_cross_brand_bass": {
