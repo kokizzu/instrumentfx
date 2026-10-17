@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)
 
-**Eight active profiles:** FG200 guitar processor added2026-10-17; FV04 vocal processor added2026-10-17; FV03 vocal processor added2026-10-17; FB200 bass processor added2026-10-17; FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
+**Nine active profiles:** FX50 portable processor added2026-10-17; FG200 guitar processor added2026-10-17; FV04 vocal processor added2026-10-17; FV03 vocal processor added2026-10-17; FB200 bass processor added2026-10-17; FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
 
 The [official multi-effects collection](https://www.flamma.shop/collections/multi-effects), [manufacturer catalogue](https://flammainnovation.com/shop.html?ancestors=0%2C1256) and [manual/software index](https://www.flamma.shop/pages/manual) establish additional families for research. They do not prove Indonesian stock or complete specification verification. Unknown is `?`, not No; K/F/B counts rotary controls, main footswitches and separate buttons, excluding encoder presses/toe/power switches counted separately.
 
@@ -475,3 +475,45 @@ Remaining: visual controls,simultaneous/order,firmware library reconciliation,fa
 [FG2-P]: https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes
 [FG2-I]: https://www.flamma.shop/pages/manual
 [FG2-D]: https://flammainnovation.com/download.html
+
+## FX50
+
+Checked **2026-10-17**; partial. Portable guitar multi-effects; no bass/vocal classification established. Floor switches and amp modeling are not inclusion requirements.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No pedal or EXP port in manual inventory; toe not documented. [Manual transcription][F50-M] |
+| Rotary / footswitches / buttons | **7 / 0 / 3** derived:Drum/Value,rotary Drive selector,Gain,Tone,Mod,Dly/Rev,Vol dial;Play/Stop,Patch,Store. Encoder push and Power/Cab toggles separate. Physical-panel verification pending. [Manual transcription][F50-M] |
+| Display | LED operation display;diagonal,color/touch/resolution unverified. [Manual transcription][F50-M] |
+| Dimensions / weight | **128 W×85 D×47 H mm;121 g** in manufacturer-manual transcription; accessory/battery inclusion unspecified. Primary PDF visual check pending. [Manual transcription][F50-M] |
+| Simultaneous processing / choices | Advertised **5 modules,15 effect types**; simultaneous maximum/chain mapping unverified. Documented choices:Drive6,Mod4,combined Delay/Reverb4,Cab1 =15 by arithmetic. Shared Dly/Rev selector does not establish independent delay and reverb. [Product][F50-P]; [Manual transcription][F50-M] |
+| Factory / user / total presets | **16 factory +16 user =32 locations**; user slots writable,factory slots protected. Factory-filled user subset unverified. [Product][F50-P]; [Manual transcription][F50-M] |
+| Synth / acoustic simulation | Each unverified; Clean drive position is not evidence of acoustic simulation. |
+| IR / NAM / capture | Cab simulator documented;user IR,native NAM,converted NAM and proprietary capture loading each unverified. |
+| Audio / control I/O | Mono quarter-inch guitar input/output;stereo3.5mm aux/phones;DC input. No USB,MIDI,EXP,mic or loop connector in complete manual inventory. [Product][F50-P]; [Manual transcription][F50-M] |
+| Power / battery / USB | **9 V DC,300mA supply,center negative**,or **2 AAA/LR03**. Draw,barrel,battery runtime and USB operation unverified. [Product][F50-P]; [Manual transcription][F50-M] |
+| Editor / platforms / drivers | Desktop/mobile editor,audio interface and update route unverified;no USB connector in documented inventory. |
+| Looper / live features | **40 drum rhythms,tuner**. Play mode follows controls;Patch mode ignores effect controls except power/volume,so real-time effect edits require leaving Patch mode. Looper,scenes,spillover unverified. [Product][F50-P]; [Manual transcription][F50-M] |
+| Used IDR | **?** No condition-qualified used offer established. |
+| New IDR | **?** Unresolved two-variation ask below not assigned to a specific new hardware bundle. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee candidate and variation limitation
+
+Checked **2026-10-17**: [NEO MUSIC,shop158235298/item52052193549](https://shopee.co.id/FLAMMA-FX50-Portable-Multi-Effects-Guitar-Pedal-i.158235298.52052193549),Kota Sukabumi: **Rp609,760**,two variations. Three-month search cache,reopened one-month cache. Exact FX50 title,but variation identities and per-variation hardware/bundle prices unresolved. No Habis marker does not confirm stock. Sale/working condition,selected color/variant,adapter/battery bundle,warranty,shipping/tax,voucher and final total unknown. Tomorrow delivery and late compensation do not establish availability or a discount. Not a completed sale or qualified used/new range. Manufacturer Green/Orange colors do not prove these seller variations are colors.
+
+### Document identity and source limitation
+
+Manufacturer product corroborates5 modules,15 types,16+16 memories,40 rhythms,aux/phones and9V/AAA operation. Its manual index links Google Drive **FX50 V01 filename2023-03-19**,which returns loading/sign-in text here. Manufacturer download index names **V01 2023-12-23**; product endpoint currently has empty fields. A manufacturer-authored manual transcription reproduces the19-page panel numbering,operation and specification sequence; its linked PDF retrieval failed. Those detailed fields are explicitly qualified as transcription evidence pending original PDF inspection. Generic ASIN-generated manuals with different body dimensions were not used.
+
+Remaining: original PDF/revision and visual-panel verification,precise module/concurrent routing,display,power/runtime,memories/editor/loading/live unknowns and selected seller-variation/condition-qualified prices. Ownership unknown. No files,dependencies,software or firmware downloaded/executed.
+
+[F50-P]: https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects
+[F50-M]: https://manuals.plus/m/73e3ec7d0ea3fef78ff36424166808448005effadf28230eea4ac09b131d7d22
+[F50-I]: https://www.flamma.shop/pages/manual
+[F50-O]: https://drive.google.com/file/d/1LI5yhmRi2RcL11uutGhTCeX7k6KgW6nh/view?usp=drive_link
+[F50-D]: https://flammainnovation.com/download.html
+[F50-E]: https://www.flammainnovation.com/single.html?id=147

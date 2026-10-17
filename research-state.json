@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 227,
+  "active_model_count": 228,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 227,
+  "canonical_root_model_count": 228,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "227 unique active/root-canonical models; zero legacy-only. FG200 adds guitar membership only; no FB200 sibling capability borrowing. Six specialist archives excluded.",
+  "count_reconciliation": "228 unique active/root-canonical models; zero legacy-only. FX50 adds guitar-only membership with explicit transcription/source gaps. Six specialist archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal Shopee discovery",
-    "task": "FG200 recorded separately. Resolve exact FV05/FX11 items or different bass/vocal series; saved broad FV05 list is not a qualified item. Then own primary verification,per-model commits.",
+    "model": "Bass/vocal discovery and technical follow-ups",
+    "task": "FX50 recorded with source/variation limits. Seek different exact bass/vocal leads;priorFV05/FX11 filtered queries unresolved. Prioritize original FX50 PDF and FG200 firmware projection gaps if discovery stays inconclusive.",
     "next_models": [],
-    "after_queue": "Continue technical gaps and migration; no downloads/workflows."
+    "after_queue": "Continue technical verification and migration; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4878,6 +4878,17 @@
       ],
       "finding": "Own original library versus firmware additions qualified;16rotary4foot text-derived;40slots9IRs,battery/USB-A-to-C charging constraint. Exact Asia Pro Sound ask sold out,condition unknown.",
       "remaining": "Simultaneous/order,firmware counts,factory fill,display/editor/USB/charge/play,loading/live and qualified offers."
+    },
+    {
+      "model": "Flamma FX50",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects",
+        "https://www.flamma.shop/pages/manual"
+      ],
+      "finding": "Primary product establishes portable multifx5modules15types16+16memories. Detailed manufacturer-manual transcription qualified pending original PDF;exact2variationRp609760 ask unresolved.",
+      "remaining": "Original PDF/visual,selected seller variation,processing/display/power/editor/loading/live gaps and qualified offers."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23524,7 +23535,8 @@
       "FB200",
       "FV03 Character",
       "FV04 Harmony",
-      "FG200"
+      "FG200",
+      "FX50"
     ],
     "HeadRush": [
       "Core",
@@ -23889,7 +23901,8 @@
       "FB200",
       "FV03 Character",
       "FV04 Harmony",
-      "FG200"
+      "FG200",
+      "FX50"
     ],
     "NUX.md": [
       "MG-101",
@@ -24037,7 +24050,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 185,
+      "record_count": 186,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -40940,10 +40953,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 227,
-    "canonical_root_models": 227,
+    "unique_brand_model_pairs": 228,
+    "canonical_root_models": 228,
     "legacy_only_models": 0,
-    "guitar_view_models": 185,
+    "guitar_view_models": 186,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
     "vocal_view_models": 34,
@@ -40983,7 +40996,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal discovery and technical follow-ups."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41018,6 +41031,7 @@
       "Flamma::FX200",
       "Flamma::FX150",
       "Flamma::FG200",
+      "Flamma::FX50",
       "HeadRush::Core",
       "HeadRush::Flex Prime",
       "HeadRush::MX5",
@@ -41726,6 +41740,13 @@
     },
     "Flamma::FG200": {
       "link": "FLAMMA.md#fg200",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": []
+    },
+    "Flamma::FX50": {
+      "link": "FLAMMA.md#fx50",
       "source_files": [
         "FLAMMA.md"
       ],
@@ -50191,6 +50212,10 @@
     {
       "model": "Flamma FG200",
       "task": "Reconcile original5 Boost with1.2.1+14 and1.2.5 Gate compressor/newer1.2.6; exact installed firmware,visual controls,OS/editor roles,USB and charge/play/loading/live gaps."
+    },
+    {
+      "model": "Flamma FX50",
+      "task": "Inspect original19-page manufacturer manual/revision without download;verify7rotary0foot3buttons and dimensions/power;resolve2Shopee variations and remaining technical fields."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -51990,5 +52015,23 @@
     },
     "unresolved": "FV05 broad list page showsRp4502768/Rp6790000 without exact item; not qualified offers. FX11 exact item not resolved. Limited query failure does not prove absence.",
     "next": "Resolve exact FV05/FX11 or other bass/vocal hardware; do not count list-page snippets."
+  },
+  "discovery_flamma_fx50_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id FV05 Flamma excluding list/search",
+      "site:shopee.co.id FX11 bass excluding list/search",
+      "site:shopee.co.id Flamma FX50"
+    ],
+    "offer": {
+      "url": "https://shopee.co.id/FLAMMA-FX50-Portable-Multi-Effects-Guitar-Pedal-i.158235298.52052193549",
+      "seller": "NEO MUSIC",
+      "region": "Kota Sukabumi",
+      "ask_idr": 609760,
+      "variations": 2,
+      "condition": "Unknown",
+      "access": "Three-month search/one-month reopened cache;variation identity unresolved."
+    },
+    "negative": "FV05/FX11 exact hardware item not resolved in limited filtered query;no absence claim."
   }
 }
