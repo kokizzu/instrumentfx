@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton Dapper Bass Mini MES-2",
-    "task": "Four qualified historical price observations now reach comparison, two old/two additional; voucher/cache conflicts retained. Commit before next model. Power/body conflicts, panel/processing/memory/import/software and live condition-specific price gaps remain; continue exact-model primary research and fresh Shopee discovery; no downloads/workflows.",
+    "task": "Duplicate seller paragraph consolidated into four exact historical price rows; preserve all qualifications. Commit cleanup before next model. Remaining technical/market gaps unchanged. Next fresh Shopee discovery and different model primary gaps; no downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57191,6 +57191,14 @@
         "https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf",
         "https://shopee.co.id/Valeton-Dapper-Bass-Mini-Effect-Strip-i.2655003.47155735690",
         "https://shopee.co.id/Valeton-Dapper-Bass-Mini-Efek-Bass-Mini-i.304940515.26880273250"
+      ]
+    },
+    {
+      "model": "Valeton Dapper Bass Mini MES-2",
+      "checked_date": "2026-10-18",
+      "finding": "Consolidated duplicate Salomo/Gearvolution prose into exact price rows after discovering exporter already extracted the old paragraph. Preserved seller IDs, historical dates/prices, access limits, regional warranty and voucher qualifications. Four distinct offers, no new market evidence.",
+      "sources": [
+        "VALETON.md#dapper-bass-mini-mes-2"
       ]
     }
   ],
