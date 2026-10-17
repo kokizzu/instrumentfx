@@ -430,10 +430,13 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Power / source conflict | FAQ RP70/PS200R row instead states **9.6 V DC/300 mA, center-negative**, barrel 9.5 mm long/5.5 mm outer/2.1 mm pin, 120 V Type A variant. Preserve voltage conflict and regional limit. | [FAQ][RP70-F] |
 | Power / operation | No physical power switch: connect/disconnect the adapter to power on/off. Manual startup procedure uses the included adapter; battery support and actual current draw remain unverified. | [Manual pp13,16][RP70-M] |
 | I/O / digital connection limit | Complete rear-panel connector inventory has no USB or MIDI socket. No USB power/audio/MIDI path established; this does not independently settle every historical software/import question. | [Manual pp10–11][RP70-M] |
+| Processing / conversion | **24-bit AD/DA;44.1kHz;AudioDNA2 DSP**. These are converter specifications, not USB streaming. | [Manual p35][RP70-M] |
+| I/O / electrical specifications | Guitar input **500kΩ**;L/R outputs **500Ω each,+7dBu maximum**. Stereo TRS headphones **17.4mW/channel into50Ω**;manual recommends headphones≤100Ω and Mixer mode. | [Manual pp11,35–36][RP70-M] |
+| Memory / reset and tuner | Reset erases all custom user presets. Tuner references **A440,A♭,G,G♭**;both footswitches held enter tuner, either exits. Tuner initially mutes;manual says expression restores volume. | [Manual pp2–3,34][RP70-M] |
 | Dimensions / mass | **6.5 L × 5 W × 2 H inches; 0.86 lb unit weight**. | [Manual p35][RP70-M] |
 | IR / NAM / capture | Import/capture support unresolved. | Unresolved |
 | Editor / platforms | Current official software directory has **no RP70 entry**; X-Edit entries for other RP models do not establish RP70 support. Directory warns past-product software is not guaranteed on current macOS/Windows. Historical editor support remains unverified. | [Software directory][RP70-S] |
-| Live / practice | **40 drum patterns**, global settings; tuner and bypass. Looper/scenes unresolved. | [Manual pp2,34–35][RP70-M] |
+| Live / practice | **40 drum patterns;40–240BPM**, tempo display1–99;level0–99. Global settings, not per-preset. Tuner and bypass;looper/scenes unresolved. | [Manual pp2,34–35][RP70-M] |
 
 ### Separate IDR hardware offers
 

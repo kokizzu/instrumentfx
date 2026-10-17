@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Eventide H90",
-    "task": "H90 performance mappings verified: three mutually exclusive HotSwitches, two assignment pages, aux/MIDI trigger rules and independent tap behavior. Continue fresh Shopee discovery or unresolved per-model technical fields. USB/display/memory/imports/mass conflicts remain.",
+    "model": "DigiTech RP70",
+    "task": "Own manual converter/electrical/drums/reset/tuner details saved; continue fresh Shopee discovery or unresolved model specifications. RP70 category/gate conflicts, power/battery/display/imports/new-price gaps remain.",
     "next_models": [],
-    "after_queue": "Continue fullresearch/discovery/consolidation;no downloads/workflows/push."
+    "after_queue": "Continue full research/discovery; no downloads, workflows or push."
   },
   "new_findings": [
     {
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Eventide H90."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP70."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59666,5 +59666,33 @@
       }
     ],
     "result": "No usable full-unit offer from these queries; not market-absence proof."
+  },
+  "rp70_electrical_practice_20261017": {
+    "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf",
+    "identity": "RP70 declaration and own-model text; linked official manual directory.",
+    "pages": "Printed pp2–3,11,34–36; PDF indices7–8,16,39–41.",
+    "findings": [
+      "24-bit ADDA at44.1kHz AudioDNA2; not USB format.",
+      "Input500kΩ; outputs500Ω each/max+7dBu; phones17.4mW/channel@50Ω, recommended<=100Ω.",
+      "40 drum patterns;tempo40–240BPM via1–99;level0–99;global not per-preset.",
+      "Factory reset erases custom user data.",
+      "Tuner A440/Ab/G/Gb, initially mute with expression volume restoration described."
+    ],
+    "remaining": [
+      "Battery/actual current",
+      "Display published specifications",
+      "Category count and gate direction conflicts",
+      "Full import/editor support and new IDR offers",
+      "Looper/scenes/synth"
+    ],
+    "method": "Manufacturer PDF text; no download, image inspection or operation."
+  },
+  "discovery_rp55_rp80_gfx8_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"RP80\"",
+      "site:shopee.co.id \"Digitech\" \"RP55\"",
+      "site:shopee.co.id \"Zoom\" \"GFX 8\" efek"
+    ],
+    "result": "RP55/RP80 no usable result;GFX8 returned only previously recorded adapters/sensor. No absence or full-unit price claim."
   }
 }
