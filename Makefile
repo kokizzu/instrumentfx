@@ -1847,3 +1847,7 @@ canonical-links-plan-remaining:
 	python3 scripts/canonical_links.py plan-remaining
 canonical-links-apply-remaining:
 	python3 scripts/canonical_links.py apply-remaining
+
+.PHONY: research-commit-gp200x
+research-commit-gp200x:
+	python3 scripts/research_tools.py commit-gp200x

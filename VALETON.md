@@ -429,6 +429,18 @@ Separate rotary/button counts; remaining current category choices and dedicated 
 
 Manual provenance for this update: [manufacturer listing](https://www.valeton.net/wpfd_file/gp-200_online-manual_en_firmware-v1-8-0-pdf/) names firmware1.8.0,3.84MB,updated2026-01-14; its direct PDF/CDN was inaccessible. The linked manufacturer-authored copy has matchingGP-200 identity,firmware1.8.0cover and3.84MB/80PDFpages; mirror wrapper dateOct21,2025 conflictswithmanufacturer listing andisnotadopted asrevisiondate. Extracted originalbodyonly;no generatedFAQ orvisualpanel-count claim,no localdownload.
 
+### GP-200X — additional exact IDR offers and source wording
+
+Checked2026-10-18. Anniversary variant remains part oftheexisting GP-200 record,not another unique model.
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / GP-200X condition-unverified indexed ask | **Rp6,660,000**, [Kurnia Musik Semarang,shop32743136/item25186461185](https://shopee.co.id/Valeton-GP200X-GP-200X-GP-200X-Multi-Effect-Processor-i.32743136.25186461185),Kota Semarang. Three-month searchbody;direct reopen cachemiss. Relative tomorrow delivery doesnot certify currentstock. Used/new condition,working state,selectedhardware,bundle/gifts,adapter,warranty,shipping/tax andvoucher eligibility unknown. |
+| IDR / GP-200X condition-unverified sold-out ask | **Rp6,660,000**, [Seven Stereo Music & Audio Store,shop16879370/item26212153893](https://shopee.co.id/Valeton-GP200X-GP-200X-Multi-Effect-Processor-Limited-Edition-GP200-X-i.16879370.26212153893),Kota Bandung. Three-month searchbody omittedsold-out marker;last-week directcachedbody explicitly **Habis**,stale7–8October arrival versussearch28–30June. Condition,bundle/gifts,adapter,warranty,shipping/tax andcheckout unknown. LatearrivalRp10,000 compensation notdeducted. |
+| Processing / GP-200X manufacturer wording conflict | [Exact manufacturer page](https://www.valeton.net/product/gp-200x/) headline says **over140 amps**,butfeaturebreakdown says **140+ guitar/bass/acoustic amps andcabinets** within240+effects. Preserve count-scope difference;donot replace theversioned71built-inAMP census with140ampmodels. Samepage explicitly statesGP-200/GP-200X features/functions shared;anniversaryfinish,presets andgifts remainvariant-specific. |
+
+These are separate cached askingobservations,not a used/newrange,currentcheckout orcompleted sales. ExistingGalleryMusic amountconflict andearlierMalang/Palembang offers remainunchanged. No sellercontact,software,manual ordependency downloads.
+
 ## GP-180
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility, published power requirements and qualified Shopee snapshots were additionally checked2026-10-17; checkout stock and complete firmware contents remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
