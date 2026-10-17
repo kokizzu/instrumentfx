@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery after Kemper MK2 pass",
-    "task": "Search fresh eligible bass/vocal and guitar multi-effects leads against current305-model inventory; preserve exact item identities before manufacturer verification. Head display/buttons,Browse/factory,NAM/synth,power conflict andfirmware-specific looper limits remain open.",
-    "next_models": [],
-    "after_queue": "Continue manufacturer verification andlossless legacy consolidation. All305 records partial;no downloads,workflows orpush."
+    "model": "Neural DSP Quad Cortex lead",
+    "task": "Open exact Quad Cortex Shopee offers andverify manufacturer identity/full first-pass fields before active addition;do not merge Nano Cortex orinfernew/used condition.",
+    "next_models": [
+      "Neural DSP Quad Cortex"
+    ],
+    "after_queue": "Continue fresh bass/vocal discovery,unfinished manufacturer fields andlossless legacy consolidation. All305 active records partial;no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -63781,5 +63783,37 @@
     "display_model_id": "401314457527",
     "access": "Direct click cache miss;condition,stock,seller name,variation,bundle,voucher,warranty andinstalledOS unknown.",
     "display_search": "Official-domain HeadMK2 LCD/touch search returned forum discussions and historical/Stage material;no exact manufacturer diagonal or touchscreen proof accepted."
+  },
+  "discovery_quad_cortex_20261017": {
+    "checked_date": "2026-10-17",
+    "inventory_check": "Quad Cortex absent from active305-model inventory;Nano Cortex remains distinct.",
+    "searches": [
+      "site:shopee.co.id \"Quad Cortex\" \"Rp\"",
+      "site:shopee.co.id \"VoiceLive Touch 2\""
+    ],
+    "leads": [
+      {
+        "model": "Neural DSP Quad Cortex",
+        "url": "https://shopee.co.id/Neural-DSP-Quad-Cortex-Quad-Core-Guitar-Digital-Effects-Modeler-Original-i.130137603.5704605568",
+        "item": "130137603/5704605568",
+        "seller": "HAWILA MUSIK INDONESIA",
+        "region": "Kota Surabaya",
+        "idr": 30899999,
+        "access": "Clean URL indexed two months ago,Habis,July23–25 delivery stale. Tracking URL index one month ago showsRp30,999,999 andSeptember9–11 delivery;preserve separate snapshots,not live price change proof.",
+        "other_snapshot_idr": 30999999
+      },
+      {
+        "model": "Neural DSP Quad Cortex",
+        "url": "https://shopee.co.id/Digital-Effects-Modeler-Gitar-Neural-DSP-Quad-Cortex-Quad-Core-i.306155985.42028931563",
+        "item": "306155985/42028931563",
+        "seller": "Gelora Musik Serpong",
+        "region": "Kab.Tangerang",
+        "idr": 38500000,
+        "access": "Month-old index,August26–28 delivery stale;stock unconfirmed."
+      }
+    ],
+    "shared_limits": "Condition,new/used,selected variation,bundle,adapter,warranty,authenticity,installed firmware,shipping/tax/voucher andfinal total unresolved. Rp10,000 late compensation notdiscount;no checkout/completed-sale proof.",
+    "excluded": "Quad Cortex power adapter,cover/protector,NanoPi development boards andTV processors excluded.",
+    "bass_vocal_pass": "BP1/B9.1ut/VT12 queries empty;direct B9.1ut,DigitechBP,TCvoicelive search URLs inaccessible. G9.2tt search yielded adapters only;VoiceLive2 query found existingPlay/VL3X records,not new model proof. No market-exhaustion claim."
   }
 }
