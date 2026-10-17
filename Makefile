@@ -1915,3 +1915,7 @@ research-commit-rh101:
 .PHONY: research-commit-rh100
 research-commit-rh100:
 	python3 scripts/research_tools.py commit-rh100
+
+.PHONY: research-commit-cerberus
+research-commit-cerberus:
+	python3 scripts/research_tools.py commit-cerberus

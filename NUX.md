@@ -733,6 +733,18 @@ Primary [official routing/rear image](https://nuxaudio.cherubtechnology.com/wp-c
 | Expression / external switches | The EXP socket alternatively accepts a single or dual footswitch for analog boost, tap, modulation or reverb. Modulation switching covers Tremolo, Phaser and U-vibe; do not extend it to the separate chorus section. External switch assignments require V5 software. Sharing this connection does not establish simultaneous expression-plus-switch support. |
 
 
+### Cerberus — MIDI numbering and additional exact offers
+
+Checked 2026-10-18. The [manufacturer MIDI appendix](https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_MIDI_Preset_No.pdf), linked from the [current product page](https://nuxaudio.com/product/cerberus/), establishes zero-based program numbers.
+
+| Field | Finding and qualification |
+|---|---|
+| I/O / MIDI preset numbering | **1A = PC0, 1B = PC1, 1C = PC2, 1D = PC3; 32D = PC127**. Controllers displaying programs 1–128 need the corresponding display offset. The extracted table labels PC43 as “1D” in the otherwise sequential 11A–11C group: apparent missing digit, retained as a source/extraction ambiguity without visual confirmation. This chart does not establish MIDI channel defaults or CC assignments. |
+| IDR conditional hardware ask | **Rp3.728.000**, [Salomo Musik, shop1776275/item5254357620](https://shopee.co.id/Multi-Efek-Gitar-Nux-Cerberus-Integrated-Effect-Controller-Original-i.1776275.5254357620), Jakarta Utara. Direct text labels the amount **Dengan Voucher**, spending Rp10,000 / 10% discount; cap and inclusion in displayed amount unresolved, so no further subtraction. Indexed delivery said 15 June; direct cached text says tomorrow. Neither certifies current stock/delivery. |
+| IDR shop-holiday hardware ask | **Rp3.900.000**, [MM Musicstore, shop226739380/item24362112535](https://shopee.co.id/NUX-Cerberus-NME3-Guitar-Effect-Pedal-Efek-Gitar-NME-3-i.226739380.24362112535), Tasikmalaya. Direct/cached text says **Toko Sedang Libur**, with 19 August delivery; not current fulfillment evidence. |
+
+For both added offers, condition, exact bundle/accessories, warranty and checkout stock remain unverified; neither is accepted as a condition-verified used or new price. The standalone English manual landing returned 404; the Japanese manual link returned cache miss. No manual file, software or firmware downloaded, and provisional dimensions/current draw remain provisional.
+
 ## Foreign-price provenance and consolidation limits
 
 The original six-model review recorded **2026-10-14 foreign new asks**:MG-101USD129([NUXUSA](https://www.nux.us/products/mg-101));MG-300MKIIUSD169([NUXUSA](https://www.nux.us/products/mg-300-mkii));MG-400USD229([NUXUSA](https://www.nux.us/products/mg-400)) andUSD172([Thomann](https://www.thomannmusic.com/nux_mg_400.htm));MG-30USD329([NUXUSA NAM page](https://www.nux.us/pages/nam-a2-native));MG-50LiUSD549([NUXUSA](https://www.nux.us/products/mg-50li)). OriginalMG-300hadnone. These remain historicalforeignprovenance,**not IDR values or Indonesian delivered prices**. No FXrate/useddiscountassumed. Existing Indonesian Shopee leads for those six remain in the root inventory/legacy discovery evidence pending exact integration;unknowncells do not mean unavailable.
