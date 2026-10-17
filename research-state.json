@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-500",
-    "task": "VE500 bypass AD/DA, DRY ENHANCE and global OUTPUT mode saved. USB channel/format unavailable in accessible driver web text; preserve unknown without package download. Next inspect own Parameter Guide remaining Enhance/harmony/vocoder subtype choices to close category gaps. Commit before next model.",
+    "task": "VE500 Enhance/PitchCorrect/harmony/vocoder subtype choices saved. Next review current remaining-field coverage across vocal models and select an unresolved concrete field with accessible own-model source; no repeat driver archive downloads or sibling assumptions. Commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56584,6 +56584,12 @@
         "https://support.roland.com/hc/ja/articles/4404893738011",
         "https://www.boss.info/global/support/by_product/ve-500/updates_drivers/61852180-129e-414b-9841-af2dc45aa7a8/"
       ]
+    },
+    {
+      "model": "BOSS VE-500",
+      "checked_date": "2026-10-18",
+      "finding": "Own Parameter Guide pp5–7:Enhance combined controls;4PitchCorrect types;3harmony parts,4user interval maps not extra voices,USR-INT disables MIDI/INST chord detection;3vocoder types,5sources,6source-dependent carrier options. Parameters not extra simultaneous engines.",
+      "source": "https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf"
     }
   ],
   "discovery_cross_brand_bass": {
