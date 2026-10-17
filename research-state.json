@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2000",
-    "task": "RFX2000SFX8choices,vocoderbands,FinalMasterarchitecture andEXTRAedit/recalllimits saved. Next remainingbanknamedlists andadaptercurrent;visual/currentOSgaps remain.",
+    "task": "RFX2000EXTRAMultiEFXthree-modulecapacity,RE-MIX8andEXTRAdescriptions saved. Next remainingbanklists andEXTRAindexmapping;adaptercurrent/visual/currentOSremainunverified.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. No downloads,workflows,push;commit each usefulmodel before next."
   },
@@ -53797,5 +53797,11 @@
     "pages": "18–19,21–22",
     "finding": "8SFXnames,vocoder18/10bands,ringmodshortdelay,pitchfeedback;FinalMaster4bandEQ3bandcomp;EXTRArecall/editlimits andmic/cabmodelnotIR/acsim.",
     "remaining": "Otherbankfullnamedlists,adaptercurrent,visual/currentsoftwarefields."
+  },
+  "rfx2000_extra_multi_followup_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+    "pages": "20,22–23",
+    "finding": "EXTRAMultiEFX3simultaneousmoduleschorusORflanger+delay+reverb,11connectionsunmapped;RE-MIX8names;EXTRA8descriptions. Globalmaxnotclaimed.",
+    "remaining": "REVERB/DELAY/EFFECTS/MIXDOWNfullnamedlists,EXTRAindexmapping,adaptercurrent,visual/currentOS."
   }
 }
