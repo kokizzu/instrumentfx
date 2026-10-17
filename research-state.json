@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD HD300",
-    "task": "HD300 Live/Dual routing,Pedal2absence,tunermute and tempo-storage distinctions saved. Manufacturer physical/power evidence remains unresolved;next follow own KB/firmware sources or fresh qualified discovery without repeating community claims as specifications.",
+    "model": "Discovery / HD300 deferred gaps",
+    "task": "HD300 official dual-tone/preset incompatibility verified via migrated KB. Physical/power/currentfirmware gaps deferred explicitly. Next fresh Shopee discovery for eligible uncovered models;retain273partialrecords and legacyZoomleads.",
     "next_models": [],
-    "after_queue": "Fresh discovery;273records partial;legacyZoomleadsunqualified;no downloads/workflows/push."
+    "after_queue": "No downloads/workflows/push;commit each useful model before next."
   },
   "new_findings": [
     {
@@ -41369,7 +41369,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD HD300."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Discovery / HD300 deferred gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56384,5 +56384,14 @@
     "corrections": "Live retains cab without mic;HD300Dualsplitsleft/rightbothconnectorfamilies;Pedal2HD400-only;tunermutes;systemtempo perpresetsyncenableglobal.",
     "search_limits": "Power search found community DC3g claims but no qualified manufacturer electricalspec adopted. OfficialKBlinkedarticlescachemiss;not treatedasread. Physical/powergapsremain.",
     "remaining": "Power/size/current/polarity,firmwarehistory,currentprices,IR/NAMsupport"
+  },
+  "hd300_compatibility_checkpoint_20261017": {
+    "sources": [
+      "https://kb.line6.com/do-all-pod-hd-modelers-sport-dual-tone-functionality",
+      "https://kb.line6.com/are-pod-hd-tones-compatible-with-older-pods"
+    ],
+    "saved": "HD300notdual-tone;Dualoutputsplitdistinct. XT/X3 andHD500/500XtonesnotcompatiblewithHD300.",
+    "access": "Newkb.line6.compagesread;oldercommunityKBpathsreturnedcachemisspreviously.",
+    "remaining": "Power/physicalspecs,currentdriver/firmware,currentqualifiedprices,IR/NAMcapture"
   }
 }

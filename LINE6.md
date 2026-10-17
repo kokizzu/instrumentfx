@@ -1401,6 +1401,8 @@ Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only fea
 | I/O / Live and Dual clarification | LIVE retains specially voiced Live cab processing without mic simulation. HD300 DUAL sends LIVE left and Studio mic/cab sound right on both balanced/unbalanced pairs;HD400 instead separates by connector family. Earlier “direct” wording must not imply raw bypass. [Advanced guide][HD300-A] |
 | Live / tuner and tempo | Tuner mutes output;any footswitch exits. System Tap Tempo is saved per preset,while FX2/FX3 TapCtl sync-enable remains global. These are separate settings. [Advanced guide][HD300-A] |
 | Expression / volume routing and noise tools | Volume may sit pre/post amp,with pedal assignments saved per preset. Gate menu provides Noise Gate and Noise Reduction,also saved per preset;not extra freely assignable FX1 selections. [Advanced guide][HD300-A] |
+| Processing / dual-tone limit | Official knowledge base restricts dual-tone configurations to HD500/500X,HD Desktop,HD Pro/ProX;HD300 lacks this capability. DUAL output mode on HD300 is a Live/Studio output split,not two independent amp tones. [Official dual-tone FAQ][HD300-D] |
+| Editor / preset incompatibility | Official FAQ states XT/X3 tones do not work with HD architecture. HD500/500X tones also do not translate to HD300/400 because routing differs. Model-specific editor/preset files must not be treated as universally interchangeable. IR/NAM/capture remains separately unverified. [Official tone FAQ][HD300-T] |
 | Preset memory | 32banks×ABCD=128locations,preloaded and overwritable. Rear Master unsaved. Additional factory library unverified. [Manual][HD300-M] |
 | Synth / acoustic | Synth and firmware-qualified bass evidence below;acoustic simulation unverified. |
 | I/O | GuitarIn,CD/MP3,¼inch unbalanced outs,XLR balanced outs,phones,L6LINK,USB,power. Remaining socket sizes/channel details pending. [Manual][HD300-M] |
@@ -1431,3 +1433,6 @@ Historical indexed asks checked2026-10-17,not livecheckout. Conditions,stock,bun
 [HD300-O2]: https://shopee.co.id/Efek-Gitar-Line6-POD-HD300-HD400-HD500-HD500X-i.703817770.24703618953
 
 [HD300-A]: https://l6c-acdn.line6.net/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf
+
+[HD300-D]: https://kb.line6.com/do-all-pod-hd-modelers-sport-dual-tone-functionality
+[HD300-T]: https://kb.line6.com/are-pod-hd-tones-compatible-with-older-pods
