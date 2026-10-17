@@ -3243,3 +3243,32 @@ Checked 2026-10-18 using the original G1/G1X manual; only G1-applicable behavior
 | Controls / pre-select | Hold the up footswitch during power-up to enable pre-select. Browsing patches then leaves the current sound active; press both footswitches to confirm the flashing selection. Restart restores normal immediate switching. G1 can also browse banks with FS01 before confirmation. | [Own manual p16][G1O-M] |
 | Looper / rhythm restrictions | Rhythm mode prevents patch changes and master-level adjustment. In play mode rhythm can run, but pattern, rhythm volume and tempo cannot be adjusted there. Rhythm tempo spans 40–250 bpm; volume 0–30. Rhythm can continue in bypass/mute; reverb remains unavailable while it plays. These rhythm functions do not establish a phrase looper. | [Own manual pp10–11][G1O-M] |
 | Tuner / reference reset | Adjustable A reference 435–445 Hz; power-cycling resets it to 440 Hz. Tuning requires bypass or mute. | [Own manual pp8–9][G1O-M] |
+
+## 505 original
+
+Partial record, checked 2026-10-18. Original 505 GUITAR; separate from 505II and 505A. Ownership and exact seller-unit revision unverified.
+
+| Field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | No built-in pedal; FP01 external wah/pitch/volume; FS01 bank switching [505E]. Toe support unverified. |
+| Knobs / footswitches / buttons | **0 / 2 / 4**: STORE, EDIT, VALUE± [505E]. |
+| Display | **Two-digit seven-segment LED** [505E]; diagonal, color and touch unverified. |
+| Dimensions / weight | **147W×157H×48D mm; 480g**, literal manual axes; battery inclusion unspecified [505E]. |
+| Processing / choices | **24 types; seven modules; up to nine simultaneous**. COMP4, DIST8, ZNR1, AMP1, EQ2, MOD5, DLY/REV3; COMP/MOD permit combinations [505E]. |
+| Memory | **24 factory-filled, editable slots; six banks×four**; not 24+24 [505E]. |
+| Synth / acoustic | Acoustic simulation; synth-like factory patches, not a separately established synth engine [505E]. |
+| Audio I/O | Mono guitar input; shared stereo line/headphones output; CONTROL IN; DC inlet [505E]. No USB in complete connector inventory. |
+| Power / battery | **9V DC, centre-negative, 300mA adapter rating**, not measured draw; **one 6LR61 alkaline≈4h**, no charging [505E]. |
+| Power / source conflict | Spanish original-505 manual **505-5005**, opening section, instead specifies **four AA cells**, approximately 6h manganese/22h alkaline, and FP01/FP02. English **505-5000** specifies one 6LR61 and FP01. Preserve the discrepancy; language/revision wording alone does not prove a distinct hardware version. [505S] |
+| Practical features | Tuner, bypass/mute, Bank Hold and Direct Load; master level resets after power-off [505E]. Looper, drums, scenes and trails unverified. |
+| IR / NAM / captures | User IR, native NAM, converted NAM and proprietary capture loading not established. |
+| Editor platforms / drivers | Editor, updater and driver support not established; no USB connector documented. |
+| Bass capability | Exact-model bass suitability unverified; not assigned to the bass comparison from guitar input or EQ alone. |
+| Used IDR | **?** — no condition-qualified used offer established. |
+| New IDR | **?** — no condition-qualified new offer established. |
+| IDR / condition-unverified offer | **Rp900.000**, Jacob music, Kota Jakarta Pusat; shop85880394/item41079088656. Exact title “EFFEK GUITAR ZOOM 505 JAPAN”; [Shopee item](https://shopee.co.id/EFFEK-GUITAR-ZOOM-505-JAPAN-i.85880394.41079088656), checked 2026-10-18 from a three-month search cache; direct opening failed. Working condition, new/used, stock, selected variant, accessories, authenticity, warranty, shipping/tax and total unverified. Relative delivery is stale; late-arrival compensation up to Rp10.000 is not a price discount. Not checkout or completed-sale evidence. |
+
+[505E]: https://zoomcorp.com/media/documents/E_505.pdf
+[505S]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/S_505.pdf
+
+Manufacturer-hosted manual identity and text checked; no files downloaded, software installed or hardware operated. Resolve battery conflict and display, current draw, imports/software and qualified market gaps before calling this fully verified.

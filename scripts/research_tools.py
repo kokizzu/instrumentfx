@@ -124,6 +124,16 @@ def main():
         git('add', '--', *paths)
         print(git('diff', '--cached', '--stat'))
         print(git('commit', '-m', 'research(zoom): reconcile original B1X effect selector census'))
+    elif mode == 'commit-505-original':
+        verify()
+        subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
+        assert not git('diff','--cached','--name-only').strip(), 'Existing staged changes'
+        paths=['ZOOM.md','README.md','MULTI-EFFECTS.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','scripts/research_tools.py','Makefile']
+        changed=set(git('diff','--name-only').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
+        assert changed <= set(paths), changed-set(paths)
+        git('add','--',*sorted(changed))
+        print(git('diff','--cached','--stat'))
+        print(git('commit','-m','research(zoom): add original 505 with qualified manual conflict and hardware offer'))
     elif mode == 'commit-discovery':
         verify()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
