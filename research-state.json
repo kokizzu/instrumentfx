@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-200",
-    "task": "StandardGP200 three seller-labelledusedoffers saved,separatefromX/Rvariants. ContinuefreshShopeediscovery ororiginalpanel/tableverification; DLYconflict,currentfirmware/OS/power/importgapsremain.",
+    "model": "Hotone Ampero II MP-350",
+    "task": "DRV/AMP/PRE AMP/CAB/IR/MOD/DLY/RVB/VOL and loop-category inventories; latest-revision reconciliation; fresh Shopee discovery",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -62277,5 +62277,53 @@
     ],
     "limits": "FREQsubsetnotcompletecategory; filtersnotsynthengineproof;Envelopelabelmono/Spreadqualification",
     "next": "FREQ Pitch/Special/Vocal census; remaining categories and latestrevision reconciliation; discovery"
+  },
+  "mp350_freq_remaining_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed8–12",
+    "pitch": [
+      "Analog Octa 1",
+      "Analog Octa 2",
+      "Digital Octa",
+      "Dual Pitch",
+      "Quad Pitch",
+      "Classic PS",
+      "Pitch Shift",
+      "Detune",
+      "Dual Detune",
+      "Quad Detune",
+      "80s Detune",
+      "String Shifter",
+      "Harmonizer 1",
+      "Harmonizer 2"
+    ],
+    "special": [
+      "12-Stringer",
+      "Bit Krusher",
+      "Ring Mod",
+      "Telephone Line",
+      "Satisfaction",
+      "Mic Lab"
+    ],
+    "vocal": [
+      "Pitch Correction",
+      "AT-Tune"
+    ],
+    "counts": {
+      "acoustic": 2,
+      "filter": 11,
+      "envelope": 4,
+      "auto": 7,
+      "pitch": 14,
+      "special": 6,
+      "vocal": 2
+    },
+    "derived_freq_total": 46,
+    "conflicts": [
+      "AnalogOcta1/2 prose one/two below versus Oct2 one above",
+      "Harmonizer monophonic versus maximum2notes; no chordtracking claim"
+    ],
+    "limits": "Older document census, not simultaneous/current/unique total; later additions separate",
+    "next": "DRV/AMP/PRE AMP/CAB/IR/MOD/DLY/RVB/VOL and loop-category inventories; latest-revision reconciliation; fresh Shopee discovery"
   }
 }

@@ -509,6 +509,19 @@ Checked2026-10-17, original effect list printed pp4–8.
 Acoustic Refiner/ACSim are separately recorded. Pitch, Special and Vocal subsections still need their own complete census; later firmware additions must remain separate.
 
 
+### MP-350 — remaining FREQ inventory, firmware1.1.0-JP
+
+Checked2026-10-17, original effect list printed pp8–12. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / FREQ pitch | **14**: Analog Octa1/2, Digital Octa, Dual Pitch, Quad Pitch, Classic PS, Pitch Shift, Detune, Dual Detune, Quad Detune, 80s Detune, String Shifter, Harmonizer1/2. DigitalOcta,Dual/QuadPitch,PitchShift,StringShifter explicitly polyphonic; AnalogOcta1/2 andClassicPS monophonic. Harmonizer wording is monophonic despite “maximum2notes”; chord tracking unproven. |
+| Category choices / FREQ Special and Vocal | **Special6**:12-Stringer,Bit Krusher,Ring Mod,Telephone Line,Satisfaction,Mic Lab. **Vocal2**:Pitch Correction,AT-Tune. 12-Stringer monoL→stereo; remainingSpecial andbothVocal mono. MicLab’s3 characters are modes. AT-Tune shifts±12semitones; KeyNone corrects nearestnote anddisablesScale. |
+| Processing / FREQ census and conflict | **46 entries derived**: Acoustic2+Filter11+Envelope4+Auto7+Pitch14+Special6+Vocal2. Not46 simultaneous blocks orcurrent unique total. AnalogOcta1/2 prose says one/two octavesbelow,whileOct2 says oneoctaveabove; unresolved. Later additions remain separate. |
+
+This completes the older FREQ subsection census begun above. Remaining category inventories and latest-revision reconciliation are still open.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
