@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic M100",
-    "task": "M100 added guitar/vocal with own-guide controls/specs; next MIDI revision/input balance corroboration and parameter details. All unresolved fields retained.",
+    "task": "M100 parameter controls and MIDI SysEx procedure saved. Next seek revision/input-balance corroboration or defer explicit gaps and continue fresh discovery; no repeated unsupported MIDI absence claims.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
@@ -54762,5 +54762,20 @@
       "Display and visual corroboration",
       "Condition-specific offers"
     ]
+  },
+  "m100_parameters_checkpoint_20261017": {
+    "manual": "https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf",
+    "pages": [
+      58,
+      69
+    ],
+    "evidence": "FX control table and dedicated MIDI IN SysEx .syx firmware procedure corroborate MIDI entry; MIDI-OX named only as transport example. No patch-editor/OS inference.",
+    "unresolved": [
+      "Earlier hardware revision applicability",
+      "Product balanced-input wording versus QSG unbalanced specification",
+      "Numerical timing limits",
+      "Other retained technical/offer gaps"
+    ],
+    "access": "Targeted official searches yielded current guide; no earlier official revision resolved. No download or update."
   }
 }
