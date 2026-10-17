@@ -1030,6 +1030,16 @@ Chinese product page confirms digital hall reverb,140mA,435g and197mm length×65
 
 All three direct item requests returned cache misses. Condition, working state, physical revision, adapter/bundle, warranty and voucher eligibility remain unverified. These are separate asking-price observations, not a confirmed new/used range or live-stock check. The melodiasby title includes MES-4; seller wording alone does not resolve the manufacturer-code gap. Historical shipping dates and late-delivery compensation do not establish current availability or an item discount.
 
+
+### Dapper Acoustic Mini — module order and Surabaya offer
+
+Checked 2026-10-18; web text only, no downloads or image inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| Routing / documented module order | [Original manual pp1–2][DA-M] explicitly labels its module descriptions **in order of signal flow**: TUNER, COMP, PREAMP, REVERB. This establishes the described order without a visual diagram audit; it does not establish arbitrary rearrangement, additional slots or an exact global simultaneous ceiling. |
+| IDR / separate condition-unverified indexed ask | **Rp2.592.000**, [dewantiuu, shop1544987741/item25346956323](https://shopee.co.id/efek-pedal-gitar-akustik-valeton-dapper-acoustic-mini-strip-effect-i.1544987741.25346956323), Kota Surabaya. Exact-title search returns a two-month cache and stale22–23August delivery; direct item returns cache miss. Condition/new versus used, working status, selected variation, adapter/bundle, warranty/import region, authenticity, shipping/tax and checkout stock unknown. Absence of Habis in the snippet does not prove availability. Late-arrival compensation up toRp10.000 is not a purchase discount. Historical ask, not completed-sale evidence or a verified retail range. |
+
 ## Dapper Dark VES-3
 
 Full-size guitar multi-effects strip, separate from Dark Mini. Manufacturer marks it **discontinued**. Checked 2026-10-17; partial. VES-3 is seller code pending manual corroboration.

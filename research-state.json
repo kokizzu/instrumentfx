@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX Stageman Floor NAP-5",
-    "task": "Commit three separate qualified cached hardware asks. Next read complete Valeton Dapper Acoustic Mini record before evaluating newly found Metz25192604/28456272834, SCI304940515/27202911146, Triolic81323820/44157978669, dewantiuu1544987741/25346956323, melodia158144224/24090371124; avoid duplicate prices.",
-    "next_models": [
-      "Valeton Dapper Acoustic Mini"
-    ],
-    "after_queue": "335 active records partial; 117 legacy compatibility files retained. No downloads/workflows/push."
+    "model": "Valeton Dapper Acoustic Mini",
+    "task": "Commit explicit module order and separate Surabaya indexed ask. Next fresh discovery of a different guitar multi-effects brand/series; inspect existing full profiles before adding offers. Keep exact code and display/control gaps unresolved.",
+    "next_models": [],
+    "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45321,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Stageman Floor NAP-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Acoustic Mini."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57287,6 +57285,15 @@
         "https://shopee.co.id/Nux-Stageman-Floor-Acoustic-Preamp-NAP-5-NAP5-NAP-5-i.150310054.9310028258",
         "https://shopee.co.id/Nux-NAP5-Stageman-Floor-Acoustic-Preamp-DI-Efek-Gitar-Original-i.338305078.11289947971",
         "https://shopee.co.id/Nux-nap5-nap-5-nap-5-Stageman-Floor-Efek-Gitar-Akustik-Preamp-DI-i.195817632.6878725537"
+      ]
+    },
+    {
+      "model": "Valeton Dapper Acoustic Mini",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual explicitly labels tuner/comp/preamp/reverb descriptions in signal-flow order; diagram/global simultaneous ceiling remain unverified. Added distinct dewantiuu1544987741/25346956323 Rp2.592m two-month cached ask, direct cache miss, staleAugust dates, unknown condition/stock. Four other queued seller leads already recorded.",
+      "sources": [
+        "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf",
+        "https://shopee.co.id/efek-pedal-gitar-akustik-valeton-dapper-acoustic-mini-strip-effect-i.1544987741.25346956323"
       ]
     }
   ],
