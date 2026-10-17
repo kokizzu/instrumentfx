@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Mighty Plug Pro MP-3",
-    "task": "MP-3 partial root record added from own product; verify image-based manual/panel and remaining technical fields before moving to Dapper VES-1.",
+    "task": "MP-3 2022 manual evidence saved with IR revision conflict; next resolve panel/control totals and category choices without downloading. Dapper VES-1 remains queued.",
     "next_models": [
       "Valeton Dapper VES-1"
     ],
@@ -55632,5 +55632,11 @@
     "added": true,
     "remaining": "Panel totals/expression/display, full IO, category choices/simultaneous limits, memory split, charging operation, editor minimum OS, synth/acoustic scope, firmware revisions, qualified condition/stock prices.",
     "manual_access": "11 pages image-based; no readable screenshots or text; no download."
+  },
+  "mp3_manual_checkpoint_20261017": {
+    "source": "https://manuals.plus/nux/mp-3-mighty-plug-pro-headphone-amplifier-manual",
+    "identity": "2022 Cherub manufacturer manual body,exact MP-3; generated Q&A excluded. Current official revision equivalence unresolved.",
+    "saved": "IR allocation conflict34+20vs36+18; charging/LEDs,power mute/reset,connectors,Bluetooth separate connections,drivers,acoustic IR scope.",
+    "remaining": "Control totals/expression/display, category choices/simultaneous limits, memory split, charging operation, minimum editor OS, firmware allocation mapping and condition-confirmed offers."
   }
 }

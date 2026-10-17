@@ -858,12 +858,18 @@ Checked 2026-10-17; partial. Guitar/bass processing explicitly documented; owner
 | Display | Preset color indicator; screen diagonal/touch unverified. [Product][MP3-P] |
 | Processing / categories | Nine freely ordered blocks: GATE/CMP/EFX/AMP/IR/EQ/MOD/DLY/RVB; category choices and simultaneous limits need manual corroboration. [Product][MP3-P] |
 | Preset memory | 7 presets; ACTIVE selects which cycle. Factory/user split unresolved. [Product][MP3-P] |
-| Synth / acoustic | Synth/acoustic simulation scope unverified; copied Mighty Space passages excluded. [Product][MP3-P] |
+| Synth / acoustic | Product-page Mighty Space copy excluded; exact MP-3 manual acoustic evidence qualified below. Dedicated synth unverified. [Product][MP3-P] |
 | I/O | Instrument plug, TRRS headset/microphone, USB-C recording; connector sizes/full inventory pending. Bluetooth playback; mic USB streaming does not establish vocal multi-effects. [Product][MP3-P] |
 | Power / battery / USB | 5V USB-C charging; 3.7V/1450mAh battery, claimed 5h. Draw printed 4V/260mA; charging current/play-while-charging unresolved. [Product][MP3-P] |
 | Dimensions / mass | 81L×41W×30Hmm;70g. [Product][MP3-P] |
 | IR / NAM / capture | 512-sample IR;36 built-in/18 user slots; editor converts WAV IRs. NAM/capture unverified. [Product][MP3-P] |
 | Editor / platforms | Mighty Editor 2.4.7.5 Windows/macOS; Mighty Amp iOS/Android. Firmware3.0.5 and ASIO drivers are separate. Minimum editor OS unresolved. [Product][MP3-P] |
+| IR / manual revision | Manufacturer-authored 2022 manual transcription: **34 built-in +20 user IR slots**, versus current product **36+18**; both total54. Revision/firmware mapping unresolved; do not merge allocations. WAV conversion specified as32-bit/48kHz. [Manual transcription][MP3-T] |
+| Controls / power and mute | Hold POWER/MUTE2s to power on; short press mutes headphones and flashes PRESET indicator. RESET hole reboots a frozen device; not documented as factory erase here. [Manual transcription][MP3-T] |
+| Power / charging details | Manual says approximately2.5h charging,5h operation; green charging LED,off when full,red flashing low battery. Play-while-charging remains unverified. [Manual transcription][MP3-T] |
+| I/O / manual details | 6.35mm instrument plug;3.5mm stereo/TRRS headphone socket;USB-C charge/editor/audio/update. Bluetooth audio and app MIDI connect separately. [Manual transcription][MP3-T] |
+| Editor / audio drivers | Manual specifies Windows ASIO driver versus macOS Core Audio without additional driver; this is audio-driver evidence,not minimum editor OS. [Manual transcription][MP3-T] |
+| Synth / acoustic manual | Exact MP-3 introduction explicitly describes acoustic amp modeling and acoustic IR simulation; dedicated synth remains unverified. [Manual transcription][MP3-T] |
 | Live / routing | USB Normal/Dry Out/Re-amp/Loopback; looper/drums/scenes unverified. [Product][MP3-P] |
 
 ### Separate IDR hardware offers
@@ -889,3 +895,7 @@ Official page contains Mighty Space copy in IR/effects prose; those passages do 
 [MP3-O2]: https://shopee.co.id/Nux-MP3-Mighty-Plug-Pro-Gitar-Bass-Amplug-Original-MP-3-i.969726322.25200895184
 [MP3-O3]: https://shopee.co.id/Nux-MP-3-Mighty-Plug-Pro-Guitar-and-Bass-Amplug-i.1011216793.26376266354
 [MP3-O4]: https://shopee.co.id/Nux-MP3-MP-3-Mighty-Plug-Pro-Headphone-Amp-for-Guitar-Bass-i.16879370.18538785877
+
+[MP3-T]: https://manuals.plus/nux/mp-3-mighty-plug-pro-headphone-amplifier-manual
+
+Mirror body identifies MP-3/MIGHTY PLUG PRO and ©2022 Cherub, matching product identity and nine-block architecture. Current official PDF revision equivalence unverified. Only manufacturer manual body used; generated questions/answers excluded. Retailer PDF titled MP-3 V4Q has20 pages without extracted text, versus11-page current official file; no visual equivalence claimed.
