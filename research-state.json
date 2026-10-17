@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-20",
-    "task": "VE20 polarity resolved via own optional PSA supply;180/190mA andlevel conflicts retained. Next inspect own current product specifications and original brochure for revision/source distinctions before attempting current/level reconciliation. No downloads. Commit before next.",
+    "task": "VE20 current webspec agrees Sep2009 brochure, but manual current/levels conflict remains documentation-only, not hardware revision proof. Next fresh Shopee exact used/new VE20 offers or another unresolved vocal model field; preserve conflict and no guessed draw. No downloads. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56598,6 +56598,16 @@
       "sources": [
         "https://static.roland.com/assets/media/pdf/VE-20_OM.pdf",
         "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications"
+      ]
+    },
+    {
+      "model": "BOSS VE-20",
+      "checked_date": "2026-10-18",
+      "finding": "Current webspec matches Sep2009 RAM-4499 brochure190mA/-40input/-40XLR/-25phones versus manual180/-20/-20/-4. Document conflict only; no verified hardware revision/serial split or phantom conditions. Shared impedances4k/600/66ohm retained.",
+      "sources": [
+        "https://www.boss.info/global/products/ve-20/specifications/",
+        "https://static.roland.com/assets/media/pdf/ve-20_brochure.pdf",
+        "https://static.roland.com/assets/media/pdf/VE-20_OM.pdf"
       ]
     }
   ],
