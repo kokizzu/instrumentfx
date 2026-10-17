@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 219,
+  "active_model_count": 220,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 219,
+  "canonical_root_model_count": 220,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "219 unique active models, all root-canonical; no legacy-only models. Instrument views overlap; six specialist archives excluded. Harmony Singer 2 adds one vocal-only model; guitar through is not guitar multi-effects.",
+  "count_reconciliation": "220 unique active/root-canonical models; zero legacy-only. POD X3 Live is one shared guitar/bass/vocal processor, not three models. Six specialist archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,13 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD X3 Live",
-    "task": "Exact GIDEON MUSIC item726736590/25319569969 saved in discovery_line6_legacy_live_20261017; condition unknown and indexed sold out. Verify own manufacturer manual and eligible instrument paths, add partial root record and views, commit before next model.",
+    "model": "Line 6 POD XT Live",
+    "task": "POD X3 Live saved separately. Verify own XT Live manufacturer documentation using exact Ayx Music item58780289/21810633258 from discovery_line6_legacy_live_20261017. Do not borrow X3 dual-tone, bass/vocal or I/O specs.",
     "next_models": [
-      "Line 6 POD XT Live",
       "Line 6 POD HD400"
     ],
-    "after_queue": "Resume bass/vocal discovery and unresolved field audits without repeating unchanged failed queries. No downloads/workflows."
+    "after_queue": "Resume exact bass/vocal discovery and unresolved model fields; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4768,6 +4767,18 @@
       ],
       "finding": "Vocal-only harmony/reverb/Tone; eight harmony settings; manual specifications retained, pitch-correction and bundle conflicts explicit. Two exact sold-out used-title asks; retail condition unknown.",
       "remaining": "Current QSG, revisions, power/USB, software/display/memory, qualified current prices."
+    },
+    {
+      "model": "Line 6 POD X3 Live",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://line6.com/legacy/podx3live?locale=en_US",
+        "https://line6.com/data/l/0a060072a53c4aae7fe287ecf/application/pdf/POD_X3_Advanced_Guide.pdf",
+        "https://kb.line6.com/pod-x3-series-models-list"
+      ],
+      "finding": "Live-specific controls and I/O, two Tone paths, bass/vocal membership; factory vs editable memory and category-count discrepancies explicit. Exact sold-out GIDEON MUSIC ask condition unknown.",
+      "remaining": "Power, control image, firmware/category totals, display/software/USB and qualified prices."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23454,7 +23465,8 @@
       "Helix Floor",
       "Helix Stadium XL Floor",
       "POD HD500X",
-      "AMPLIFi FX100"
+      "AMPLIFi FX100",
+      "POD X3 Live"
     ],
     "MOOER": [
       "GE100 original",
@@ -23708,7 +23720,8 @@
       "Helix Floor",
       "Helix Stadium XL Floor",
       "POD HD500X",
-      "AMPLIFi FX100"
+      "AMPLIFi FX100",
+      "POD X3 Live"
     ],
     "ZOOM.md": [
       "G11",
@@ -23911,21 +23924,21 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 181,
+      "record_count": 182,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 87,
+      "record_count": 88,
       "bass_focused_record_count": 21,
-      "shared_bass_capable_count": 66,
+      "shared_bass_capable_count": 67,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 30,
+      "record_count": 31,
       "vocal_only_count": 17,
-      "combined_instrument_count": 13,
+      "combined_instrument_count": 14,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -23941,10 +23954,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 181 guitar, 87 documented bass-capable, 30 vocal; technical and market verification incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 182 guitar,88 documented bass-capable,31 vocal; technical and market verification incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "219 root-canonical models;0 legacy-only. Compatibility files remain; technical and market research incomplete.",
+    "warning": "220 root-canonical models;0 legacy-only. Compatibility files remain; technical and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -40814,18 +40827,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 219,
-    "canonical_root_models": 219,
+    "unique_brand_model_pairs": 220,
+    "canonical_root_models": 220,
     "legacy_only_models": 0,
-    "guitar_view_models": 181,
+    "guitar_view_models": 182,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 30,
+    "vocal_view_models": 31,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 87,
-    "bass_shared_models": 66,
+    "bass_view_models": 88,
+    "bass_shared_models": 67,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -40849,7 +40862,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass/vocal discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD XT Live."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -40916,6 +40929,7 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::POD HD500X",
       "Line 6::AMPLIFi FX100",
+      "Line 6::POD X3 Live",
       "MOOER::GE100 original",
       "MOOER::GE150 original",
       "MOOER::GE150 Pro Li",
@@ -41078,6 +41092,7 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::POD HD500X",
       "Line 6::AMPLIFi FX100",
+      "Line 6::POD X3 Live",
       "MOOER::GE1000",
       "MOOER::GE1000 Li",
       "MOOER::GE250",
@@ -41142,6 +41157,7 @@
       "Line 6::Helix Floor",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::POD HD500X",
+      "Line 6::POD X3 Live",
       "MOOER::GS1000",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::Play Acoustic",
@@ -41158,6 +41174,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Line 6::POD X3 Live": "Own Live product documentation explicitly lists bass amp/cab models and instrument input. [Product](https://line6.com/legacy/podx3live?locale=en_US).",
     "Behringer::Bass V-AMP PRO": "Own manufacturer manual explicitly covers rack PRO for bass, acoustic/electric guitar and keyboards, with its own rack I/O columns. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf).",
     "Behringer::Bass V-AMP": "Manufacturer explicitly advertises desktop Bass V-AMP for bass, acoustic/electric guitar and keyboards; shared multi-instrument classification preserves its bass role. [Product](https://www.behringer.com/en/products/0709-AAC).",
     "Line 6::AMPLIFi FX100": "Manufacturer AMPLIFi/Firehawk model descriptions explicitly describe Tube Instrument Preamp as intended for piezo acoustic or bass. [Model descriptions](https://kb.line6.com/full-list-of-amplifi-firehawk-series-amps-effects-and-cabs).",
@@ -41817,6 +41834,13 @@
     },
     "Line 6::AMPLIFi FX100": {
       "link": "LINE6.md#amplifi-fx100",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": []
+    },
+    "Line 6::POD X3 Live": {
+      "link": "LINE6.md#pod-x3-live",
       "source_files": [
         "LINE6.md"
       ],
@@ -49954,6 +49978,10 @@
         "https://www.manualslib.com/manual/3373982/Tc-Helicon-Harmony-Singer-2.html"
       ],
       "remaining": "Manufacturer PDF retrieval still fails. Verify actual control layout/hardware revision, ground lift, correction and momentary/held bypass interaction; do not equate QSG version with firmware."
+    },
+    {
+      "model": "Line 6 POD X3 Live",
+      "task": "Verify PX-2 model power label without sibling substitution; count complete category/fixed blocks across firmware, image controls, memory fill, USB audio/editor platforms and live restrictions."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -1206,3 +1206,53 @@ The FX100-specific FAQ incorrectly describes a five-speaker design in a streamin
 [AF-O]: https://shopee.co.id/YAMAHA-LINE6-LINE-6-Ampli-Gitar-Amplifi-FX100-AmplifiFX100-i.18437660.186076637
 
 [AF-R]: https://kb.line6.com/amplifi-remote-advanced-routing-feature
+
+## POD X3 Live
+
+Checked **2026-10-17**; partial. Floor processor, distinct from desktop X3, rack X3 Pro and XT Live. Model-specific [product documentation][X3L-P] establishes guitar, bass and vocal modeling; all three instrument comparisons include this single canonical record.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | Integrated pedal with toe switch; Pedal 2 supports EX-1 expression, with volume/tweak assignments. [Manual][X3L-M], pp3•12,6•5–6 |
+| Rotary / footswitches / buttons | **14 / 12 / 8** from text inventory: 13 top rotaries plus mic trim; 12 floor switches; Home, Inputs, On/Off, Outputs and four navigation directions. Select encoder push, toe switch, power/ground/pad/level toggles additional. Visual corroboration pending. [Manual][X3L-M], pp3•8–15 |
+| Display | Backlit LCD documented; diagonal, color mode, resolution and touch unverified. [Product][X3L-P] |
+| Dimensions / weight | **21.5 in length × 10 in width/depth × 4.75 in height; 8.40 lb**. Preserve manufacturer axes; metric W×D×H and accessory inclusion unverified. [Specifications FAQ][X3L-S] |
+| Simultaneous processing | Two independent Tone paths. [Manual][X3L-M], p4•4. Manufacturer history advertises up to **2 amps / 18 effects**; this is not 98 simultaneous effects or proof of arbitrary block allocation. [History][X3L-H] |
+| Categories / model choices | Product: **78 guitar amps,24 guitar cabs,28 bass amps,22 bass cabs,6 vocal preamps,98 effects**, four microphone choices. [Product][X3L-P]. KB list: **8 wah,33 stomp,24 modulation,14 delay,14 reverb** entries; delay numbering repeats6. These subtotal93, so reconciliation with98 and firmware additions remains incomplete. No Amp/No Cabinet entries excluded from advertised amp/cab counts. [Model list][X3L-L] |
+| Factory / user / total presets | **128 writable User locations**; listed other folders total250, giving378 displayed locations by arithmetic. Manual says over350; factory-filled User count unverified. Each preset stores both Tones. [Manual][X3L-M], p4•7 |
+| Synth / acoustic simulation | Synth algorithms listed: Seismik Synth,Rez Synth,Synth Analog,FX,Harmony,Lead,String. Acoustic-named amp choices include Piezacoustic2/Variax Acoustic; dedicated acoustic-simulator behavior remains unverified. [Model list][X3L-L] |
+| IR / NAM / capture | Factory cabinet/mic modeling established; user IR import, native NAM, converted NAM and proprietary capture loading each unverified. |
+| Audio / control I/O | Quarter-inch guitar, auxiliary input, L/R Live outputs, stereo phones, mono send/stereo return, Pedal2; XLR mic/trim and L/R Direct outputs; eighth-inch stereo CD/MP3 input; Variax digital; MIDI In/Out-Thru; S/PDIF out; USB2. [Product][X3L-P]; [Manual][X3L-M], pp3•12–15. Live outputs unbalanced, Direct XLR balanced; do not borrow desktop balanced TRS outputs. |
+| Power / battery / USB | **PX-2 supplied adapter** named in Live section. [Manual][X3L-M], p3•15. Exact voltage/current, AC/DC, polarity/barrel, measured draw, battery and USB power operation unverified in this pass; no sibling or seller-adapter rating substituted. |
+| Editor / platforms / drivers | **GearBox** is the hardware editor; Monkey handles firmware/bundle utilities. POD Farm is a plug-in for X3, not its standalone hardware editor. Historical Windows/Mac GearBox documentation; current OS compatibility/mobile editor unverified. [GearBox FAQ][X3L-G]; [POD Farm FAQ][X3L-F]; [GearBox3.6 guide][X3L-GM] |
+| USB audio | Eight device-to-computer channels: stereo main, stereo Tone1,Tone2, two raw input sums. Windows ASIO/Mac Core Audio documented; return-channel count, current drivers and rates unverified. [Manual][X3L-M], pp8•2–3 |
+| Live / vocal functions | Tap/tuner; separate amp/direct routing. **No phantom power** per model-specific FAQ. [Applications][X3L-A]. Hardware looper, drums, scenes, persistence and spillover unverified; FX loop is not a phrase looper. |
+| Used IDR | **?** Exact sold-out ask below lacks sale-condition evidence. |
+| New IDR | **?** No exact condition-verified new offer established. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee evidence
+
+Checked **2026-10-17**: [GIDEON MUSIC, shop726736590/item25319569969](https://shopee.co.id/Efek-Gitar-Line-6-POD-X3-Live-i.726736590.25319569969), Kota Medan, **Rp1,850,000; indexed Habis**. Three-month cached exact title; July10–13 delivery stale; direct retrieval failed. Sale/working condition, selected variation, adapter/bundle, warranty, shipping/tax, current stock and final total unknown. Not a used/new market range or completed sale; late Rp10,000 compensation is not deducted.
+
+Blitza Music shop recommendation at Rp2,000,000 is unresolved as an exact item; Hope Music mixed X3 Live/XT Live/Floor POD ask is not assigned to X3 Live. Gigbag and potentiometer prices are rejected. Exact discovery provenance and subsequent XT Live/HD400 leads remain in research-state.json.
+
+### Document identity and remaining work
+
+Primary family Advanced Guide **Rev E,40-00-0120**,100 PDF pages; only Live-specific panels and expressly shared family functions used. Desktop/rack differences stay separate. Selected technical sections read, not a complete manual audit. Current product is discontinued. Category figures reflect the cited list/product, not verified installed firmware. Manufacturer v2.0 update notes identify additional effects; full version reconciliation remains open. No files, dependencies, firmware or editor downloaded or executed.
+
+Remaining: physical panel image count; exact power label; all category/fixed-block totals and firmware; factory-filled User memory; synth/acoustic details; IR/NAM/capture; current editor/driver platforms, USB rates/return channels; screen specification; looper/live restrictions and qualified prices.
+
+[X3L-P]: https://line6.com/legacy/podx3live?locale=en_US
+[X3L-M]: https://line6.com/data/l/0a060072a53c4aae7fe287ecf/application/pdf/POD_X3_Advanced_Guide.pdf
+[X3L-S]: https://kb.line6.com/pod-x3-series-specifications-and-general-faqs
+[X3L-L]: https://kb.line6.com/pod-x3-series-models-list
+[X3L-H]: https://origin2.line6.com/timeline/
+[X3L-A]: https://kb.line6.com/pod-x3-live-applications-f-a-q
+[X3L-G]: https://kb.line6.com/getting-started-with-gearbox-amp-effect-modeling-software
+[X3L-F]: https://kb.line6.com/pod-farm-1-faq
+[X3L-GM]: https://line6.com/data/6/0a060b316ac34f0593cdec813/application/pdf/GearBox%203.6%20User%20Manual%20-%20English%20%28%20Rev%20F%20%29.pdf
+[X3L-FW]: https://line6.com/support/page/kb/legacy-products/pod/pod-x3/pod-x3-product-family-firmware-version-20-update-instructions-and-general-information-r273/
