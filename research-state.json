@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "DRV/AMP/PRE AMP/CAB/IR/MOD/DLY/RVB/VOL and loop-category inventories; latest-revision reconciliation; fresh Shopee discovery",
+    "task": "DRV/AMP/PRE AMP/CAB/IR/MOD/DLY/RVB inventories; corroborate utility copy wording; latest-revision reconciliation and fresh discovery",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62325,5 +62325,20 @@
     ],
     "limits": "Older document census, not simultaneous/current/unique total; later additions separate",
     "next": "DRV/AMP/PRE AMP/CAB/IR/MOD/DLY/RVB/VOL and loop-category inventories; latest-revision reconciliation; fresh Shopee discovery"
+  },
+  "mp350_utilities_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed87–88",
+    "entries": [
+      "FX Loop Send",
+      "FX Loop Return",
+      "FX Loop",
+      "Volume"
+    ],
+    "routing": "Stereo labels; serial ThruLevelMute and Mix100",
+    "conflict": "Utility prose explicitly names Ampero II Stage inside identified Ampero II list; provisional MP350 applicability pending corroboration",
+    "capture": "ToneCatch1–10 mono locations, not factory-algorithm census; later firmware1.2 expands30",
+    "later_source": "https://www.hotone.jp/brands/hotone/products/ampero-ii",
+    "next": "DRV/AMP/PRE AMP/CAB/IR/MOD/DLY/RVB inventories; corroborate utility copy wording; latest-revision reconciliation and fresh discovery"
   }
 }

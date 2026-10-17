@@ -522,6 +522,19 @@ Checked2026-10-17, original effect list printed pp8–12. [Source][MP350-E11].
 This completes the older FREQ subsection census begun above. Remaining category inventories and latest-revision reconciliation are still open.
 
 
+### MP-350 — utility modules and capture revision limits
+
+Checked2026-10-17, original1.1.0-JP list printed pp87–88. [Original list][MP350-E11].
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Category choices / utilities | One named entry each: **FX Loop Send, FX Loop Return, FX Loop, Volume**; all labelled stereo. Separate modules do not establish multiple physical loops. Volume becomes a pedal control by assigning its parameter to enabled expression. |
+| I/O / serial-loop settings and source conflict | Send hasSendLevel/ThruLevel; serial use setsThruLevel toMute. Return andcombinedLoop haveReturnLevel/Mix; serial use setsMix100. **These descriptions explicitly say Ampero II Stage inside the Ampero II list**. Retain probable copied wording as unresolved; these settings remain provisional forMP-350 until model-specific corroboration. |
+| Captures / older list versus later firmware | Older list labels **Tone Catch1–10**,mono,loaded throughToneCatchManage,withGain/Volume/3-bandEQ. These are capture locations,not10 factory algorithms orproof of10 simultaneous captures. [Current Japanese product page](https://www.hotone.jp/brands/hotone/products/ampero-ii) says firmware1.2 expands storage to30; historical10 must not replace that later capacity. |
+
+The Stage wording qualifies the utility descriptions; it does not establish that every algorithm in the identified list belongs exclusively to Stage. Current complete libraries remain unverified.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
