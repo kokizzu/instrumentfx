@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic PLETHORA X5",
-    "task": "X5 added to guitar/bass with own-model evidence. Next own firmware catalogue and controls/dimension qualifications; all prior gaps remain.",
+    "task": "X5 historical firmware1.3.11 and bypass-tail behavior saved. Next current firmware/library and hardware control/dimension corroboration; no latest-version claim.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
@@ -54949,5 +54949,13 @@
       "Actual draw/battery/USB",
       "Condition-specific prices"
     ]
+  },
+  "plethora_x5_firmware_checkpoint_20261017": {
+    "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf",
+    "version": "1.3.11",
+    "date": "2022-03-03",
+    "evidence": "Historical app4.5.5+,intermediate1.1.55for1.0.101units,USBmass-storage.bin transport;buffered bypass feedback cap change from1.3.6 to1.3.11.",
+    "access": "Direct browser PDF inaccessible; indexed official text readable; no download/update.",
+    "remaining": "Latest firmware/library history, controls/dimensions and other saved gaps unresolved."
   }
 }

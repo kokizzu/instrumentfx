@@ -101,6 +101,9 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 | K/F/B | **Five effect/parameter rotaries plus PLAY/EDIT selector; five footswitches; button count unresolved**. EFFECT/TONEPRINT push encoders and three parameter knobs. Guide calls PLAY/EDIT a knob; rotary-versus-toggle classification needs corroboration. BOARD selector separate. | [QSG pp14–15][PX5-M] |
 | Display | LCD displays show slot effects or editing information; diagonal/color/touch unresolved. | [QSG pp14–15][PX5-M] |
 | Processing / categories | **Up to five TonePrint pedals per Board**, freely ordered. Compression, modulation, pitch, gate, reverb/delay documented; complete firmware-qualified catalogue pending. | [Product][PX5-P] |
+| Editor / historical firmware requirements | **Firmware1.3.11,2022-03-03** recommends TonePrint app **4.5.5+** for full new-effect benefit. Units on1.0.101 require intermediate1.1.55 before1.2.18 or later. This is historical compatibility evidence, not a latest-firmware claim. | [Official release notes][PX5-F] |
+| Processing / firmware bypass change | Firmware1.3.6 limited FlashbackII/AlterEgo feedback to80% when bypassed in buffered mode. **1.3.11 respects higher feedback**, permitting self-oscillating bypass trails. Modulation/low-end and vibrato-subtype fixes also documented. | [Official release notes][PX5-F] |
+| Editor / firmware transport | Guide describes USB mass-storage transfer of a .bin file followed by power-cycle installation. This proves update transport, not USB audio or bus power. No update or download performed. | [Official release notes][PX5-F] |
 | Preset memory | **127 custom Boards;75 TonePrint slots per pedal**. Factory-filled subset unresolved; Board count is not simultaneous block count. | [Product][PX5-P] |
 | Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
 | I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; USB for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
@@ -127,3 +130,5 @@ Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers
 [PX5-P]: https://www.tcelectronic.com/en/products/0709-AIK
 [PX5-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf
 [PX5-O]: https://shopee.co.id/TC-Electronic-PLETHORA-X5-TonePrint-Pedal-Board-Loaded-with-Favorite-FX-and-5-MASH-Footswitches-i.158235298.27271818642
+
+[PX5-F]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf
