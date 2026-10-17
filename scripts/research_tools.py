@@ -497,7 +497,7 @@ def main():
         if mode == 'commit-g5':
             message = 'research(zoom): qualify G5 controls looper and tube-booster restrictions'
         if mode == 'commit-ms50gplus':
-            message = 'research(zoom): enumerate B1X FOUR modulation synth and ambience choices'
+            message = 'research(zoom): reconcile B1X FOUR library categories and amp cabinet choices'
         if mode == 'commit-505ii':
             message = 'research(zoom): enumerate 505II category modes without inflating algorithm totals'
         if mode == 'commit-ving-coverage':

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1X FOUR",
-    "task": "B1XFOUR mod14/SFX7/delay6/reverb6 and3synth names saved fromownsharedlist. Next review earliercategories orfreshdiscovery;publishedlibrary notinstalledtotal.",
+    "task": "B1XFOUR cited2019library99entries reconciled(93nonpedal+6pedalcontrol),amp9/cab10names saved. Next freshShopee discovery by bass/vocal brands;installedtotals andothergapsremain.",
     "next_models": [],
     "after_queue": "290partialmodels;no downloads/workflows/push."
   },
@@ -58345,5 +58345,30 @@
     "scope": "Library includes GuitarLab additions,not factoryinstalledtotal;remainingdynamics/filter/drive/amp/cab counts pending ownreview",
     "limits": "BaMnPitchsingle-note;LoopRoll10–3000ms distinct30slooper;effectoffTail notpatchspillover",
     "downloads": false
+  },
+  "b1xfour_category_counts_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf",
+    "identity": "2019Z2I361001 pp3–16 explicitB1Xcoverage",
+    "counts": {
+      "dynamics": 10,
+      "filter": 13,
+      "drive": 18,
+      "amp": 9,
+      "cabinet": 10,
+      "modulation": 14,
+      "sfx": 7,
+      "delay": 6,
+      "reverb": 6,
+      "pedal_control": 6
+    },
+    "sum": 99,
+    "scope": "Publishedlibrary inclGuitarLabadditions andOutputVPcontrol;notinstalledtotal",
+    "remaining": [
+      "Current firmware/app inventory",
+      "Display diagonal/color/touch",
+      "Actual draw",
+      "Qualified used/new live offers",
+      "Acoustic simulation/imports"
+    ]
   }
 }

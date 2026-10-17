@@ -761,7 +761,7 @@ The original comparison explicitly gives this model the same ports and three pow
 | USB / editor |Guitar Lab Windows/macOS;USB editing,not USB audio in legacy family comparison. Full mobile editor unverified |
 | Display |128×32 dot-matrix LCD, explicitly covered by the B1/B1X FOUR quick guide p.11. Diagonal,color mode andtouch unverified; no G1X FOUR substitution |
 | Preset memory |50 editable total, all50 preloaded (quick guide pp.3,11); not50factory+50user |
-| Categories / synth / acoustic |Bass synth andpedal volume/wah/delay/pitch retained;complete current category counts andacoustic simulator unresolved;three synth algorithms verified below. Family over70 marketing includes amp/cab models;downloads are not every unit's installed count |
+| Categories / synth / acoustic |Bass synth andpedal volume/wah/delay/pitch retained;published category inventory verified below;current installed totals andacoustic simulator remain unresolved. Family over70 marketing includes amp/cab models;downloads are not every unit's installed count |
 
 ### B1X FOUR — separate IDR evidence checked2026-10-16
 
@@ -815,6 +815,17 @@ Display resolution and factory-filled count above supersede their earlier unknow
 | Synth / choices | **Three algorithms**:StdSyn has4sound variants;SynTlk has IA/UE/UA/OA vowels;Z-Syn has SAW/SQR waves. Internal variations do not add algorithms. |
 | Processing / delay | **6**:Delay,AnalogDly,TapeEcho,ReverseDL,ModDelay,DualDLY. |
 | Processing / reverb | **6**:Air,Room,Hall,HDHall,Spring,Plate. Their Tail setting preserves decay when the effect turns off;not proof of patch-change spillover. |
+
+
+### B1X FOUR — complete cited library counts,2026-10-17
+
+[Manufacturer list](https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf),2019 Z2I-3610-01,pp3–16,explicitly covers both B1 FOUR/B1X FOUR. Earlier unresolved category wording is superseded for this document’s inventory.
+
+| Field | Published inventory / limit |
+|---|---|
+| Processing / category counts | **99 entries**:Dynamics10,Filter13,Drive18,Amp9,Cabinet10,Modulation14,SFX7,Delay6,Reverb6,Pedal/control6. Derived93nonpedal+6pedal/control;includes marked GuitarLab additions andOutputVP control. Not99factory-installed effects or simultaneous blocks;current library revisions may differ. |
+| Processing / amp choices | **9**:AMPGSVT,BMAN100,SMR400,AG750,TE400SMX,AC370,MiniMkB,EBH360,FlipTop. |
+| Processing / cabinet choices | **10**:SVT8x10,SVT4x10TW,FD-B4x12,SMR4x10TW,AG4x10TW,TE4x10,AC1x18,MkB2x8TW,EB4x10TW,AM1x15. Factory cabinet/microphone mixing is not evidence of third-party IR loading. |
 
 
 ## B2 FOUR
