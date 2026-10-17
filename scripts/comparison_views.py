@@ -320,6 +320,14 @@ def archive_outputs(files):
     bass='# Single-purpose bass effects — separate archive\n\n[All bass multi-effects](ALL-BASS.md) · [Single guitar](SINGLE-GUITAR.md) · [Repository](README.md)\n\nDedicated pedals are not promoted to bass multi-effects merely because they have multiple sounds or memories. These are shared records, not new active catalogue entries. No new price or specification verification is claimed.\n\n| Dedicated model | Bass-related function | Complete preserved comparison |\n|---|---|---|\n| BOSS SY-1 | Standard-input guitar/bass synthesizer; one selected engine, 121 sounds | [Controls, memory, I/O, power, historical prices and sources](SINGLE-GUITAR.md#archived-hardware-and-expression) |\n| BOSS SY-200 | Standard-input guitar/bass synthesizer; one selected engine, 171 sounds and 128 memories | [Full archive](SINGLE-GUITAR.md#archived-processing-and-memory) |\n\nOther dedicated bass-effect records have not been researched here. Absence is not a negative capability claim or market-coverage claim.\n'
     return {'SINGLE-GUITAR.md':guitar,'SINGLE-VOCAL.md':vocal,'SINGLE-BASS.md':bass,path:specialist,fvpath:fvredirect}
 
+def migration_counts(state, membership):
+    """Derive live resume summaries without touching dated preservation evidence."""
+    return {
+        'root_category_and_instrument_views': f"Four-table comparisons: {len(membership['ALL-GUITAR.md'])} guitar, {len(membership['ALL-BASS.md'])} documented bass-capable, {len(membership['ALL-VOCAL.md'])} vocal; technical and market verification remain incomplete.",
+        'warning': f"{state['canonical_root_model_count']} root-canonical models;{state['legacy_only_model_count']} legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    }
+
+
 def apply_plan():
     identity()
     payload=json.loads(PLAN.read_text())
@@ -336,6 +344,7 @@ def apply_plan():
     state=json.loads((ROOT/'research-state.json').read_text())
     state['user_requested_comparison_rebuild']['status']='implemented_pending_validation'
     state['user_requested_comparison_rebuild']['next']='Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume '+state['cursor']['model']+'.'
+    state['migration'].update(migration_counts(state, payload['view_membership']))
     state['comparison_membership']=payload['view_membership']
     state['comparison_bass_basis']=payload['bass_membership_basis']
     state['comparison_model_sources']={k:{'link':r['link'],'source_files':r['sources'],'finding_files':r['findings']} for k,r in payload['records'].items()}
@@ -394,6 +403,8 @@ def verify_views():
     identity()
     state=json.loads((ROOT/'research-state.json').read_text())
     assert set(state['comparison_model_sources'])=={b+'::'+m for b,ms in state['inventory_by_brand'].items() for m in ms}
+    for field, expected in migration_counts(state, state['comparison_membership']).items():
+        assert state['migration'][field] == expected, 'Live migration count is stale: ' + field
     category = (ROOT/'MULTI-EFFECTS.md').read_text()
     assert category_counts(category, state) == category, 'Category catalogue count is stale'
     readme = (ROOT/'README.md').read_text()
@@ -697,6 +708,11 @@ def test_comparison_selection():
         else:
             raise AssertionError('Malformed comparison range accepted')
     state = json.loads((ROOT/'research-state.json').read_text())
+    membership = state['comparison_membership']
+    expected_summary = f"Four-table comparisons: {len(membership['ALL-GUITAR.md'])} guitar, {len(membership['ALL-BASS.md'])} documented bass-capable, {len(membership['ALL-VOCAL.md'])} vocal; technical and market verification remain incomplete."
+    assert state['migration']['root_category_and_instrument_views'] == expected_summary, 'Live migration summary has stale instrument counts'
+    expected_warning = f"{state['canonical_root_model_count']} root-canonical models;{state['legacy_only_model_count']} legacy-only. Legacy compatibility files remain;specification and market research incomplete."
+    assert state['migration']['warning'] == expected_warning, 'Live migration warning has stale inventory counts'
     readme = (ROOT/'README.md').read_text()
     stale = re.sub(r'(\| \[JOYO.md\]\(JOYO.md\) \|)[^\n]+', r'\g<1>GEM BOX original,II,III |', readme)
     projected = readme_counts(stale, state, state['comparison_membership'])

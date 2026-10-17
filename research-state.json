@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Cerberus NME-3",
-    "task": "Cerberus historical WAV import and TAP MIDI reassignment saved with indexed-only access caveat. Current IR slot ceiling, controls count and V5 factory subset unresolved. Next fresh Shopee discovery or another incomplete primary record; avoid repeated failed URLs and unsupported retailer capacity claims.",
+    "task": "Comparison generator now synchronizes live migration summaries with inventory/membership and verifies drift; historical values preserved in comparison_generation.migration_count_audit. Resume fresh Shopee discovery or incomplete model fields; Cerberus current IR ceiling/KFB/V5 factory subset still unresolved.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -25015,10 +25015,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 280 guitar, 143 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 282 guitar, 146 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "334 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "337 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -48543,6 +48543,16 @@
       "change": "Route analog/converter labels to I/O,exclude analog-only conversion fromIR/capture andincludeautomationinlive",
       "verification": "Focused failing regression beforefix;rebuild andfullcomparisonchecks required",
       "counts_unchanged": true
+    },
+    "migration_count_audit": {
+      "checked_date": "2026-10-18",
+      "problem": "Live migration summary and warning lagged current membership/inventory; comparison generation refreshed other count surfaces but omitted these two fields.",
+      "previous_live_values": {
+        "root_category_and_instrument_views": "Four-table comparisons: 280 guitar, 143 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+        "warning": "334 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete."
+      },
+      "fix": "Derive live summaries on comparison apply and reject drift in comparison verification. Dated source and migration evidence remains unchanged.",
+      "regression": "make comparison-test-selection failed on stale live counts before fix; run after reviewed regeneration."
     }
   },
   "discovery_search_pass": {
