@@ -123,6 +123,33 @@ def manifest_findings(state, files, destination):
             and entry.get('destination') == destination
             and '/findings/' in entry.get('source', '') and entry['source'] in files}
 
+
+def verify_evidence_owners(records, guards):
+    """Pin reviewed exact-item evidence to its model, including negative sibling checks."""
+    for guard in guards:
+        token, owner = guard['token'], guard['model']
+        actual = {key for key, record in records.items()
+                  if any(token in fact['value'] for fact in record['facts'])}
+        assert actual == {owner}, ('Evidence model mismatch', token, owner, sorted(actual))
+
+def test_evidence_owners():
+    guards = [{'token': 'seller/item123', 'model': 'Brand::Model'}]
+    valid = {'Brand::Model': {'facts': [{'value': 'seller/item123'}]},
+             'Brand::Sibling': {'facts': []}}
+    verify_evidence_owners(valid, guards)
+    for invalid in (
+        {'Brand::Model': {'facts': []}, 'Brand::Sibling': {'facts': [{'value': 'seller/item123'}]}},
+        {key: {'facts': [{'value': 'seller/item123'}]} for key in valid},
+        {key: {'facts': []} for key in valid},
+    ):
+        try:
+            verify_evidence_owners(invalid, guards)
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Wrong, duplicated or missing item ownership was accepted')
+    print('PASS: exact evidence ownership rejects sibling placement, duplication and omission.')
+
 def make_plan():
     identity()
     files = {str(p.relative_to(ROOT)):p.read_text() for p in ROOT.rglob('*.md') if '.git' not in p.parts and 'history' not in p.name}
@@ -250,6 +277,7 @@ def make_plan():
         r['sources']=sorted({f['source'] for f in facts[key]})
         r['findings']=sorted(finding_for[key])
     serial = {k:{a:b for a,b in r.items() if a not in ('canonical','aliases')} for k,r in records.items()}
+    verify_evidence_owners(serial, state.get('evidence_identity_guards', []))
     missing=[k for k,r in serial.items() if not r['facts'] or not r['link']]
     payload={'input_hashes':{p:hashlib.sha256(text.encode()).hexdigest() for p,text in files.items()},'ledger_hash':hashlib.sha256((ROOT/'research-state.json').read_bytes()).hexdigest(),'records':serial,'missing':missing}
     payload.update(render(serial,state))
@@ -362,6 +390,14 @@ def verify_views():
         text=(ROOT/filename).read_text()
         comparison_tables=[(h,r,c) for h,r,c in tables(text) if h[0]=='Model / complete evidence']
         assert len(comparison_tables)==4,(filename,len(comparison_tables))
+        rendered = {key: {'facts': []} for key in ids}
+        labels = {key.replace('::', ' '): key for key in ids}
+        for headers, rows, context in comparison_tables:
+            for row in rows:
+                label = re.match(r'\[([^\]]+)\]', row[0])[1]
+                if label in labels:
+                    rendered[labels[label]]['facts'].append({'value': ' '.join(row[1:])})
+        verify_evidence_owners(rendered, [g for g in state.get('evidence_identity_guards', []) if g['model'] in ids])
         expected=[k.replace('::',' ') for k in ids]
         for headers,rows,context in comparison_tables:
             actual=[re.match(r'\[([^\]]+)\]',r[0])[1] for r in rows]
@@ -647,6 +683,7 @@ def test_field_projection():
 
 
 def test_field_extraction():
+    test_evidence_owners()
     fixture = {'consolidation_and_price_findings': [
         {'verification_kind':'complete-source-body-v1', 'destination':'BRAND.md#model', 'source':'effects/findings/original.md'},
         {'verification_kind':'complete-source-body-v1', 'destination':'BRAND.md#sibling', 'source':'effects/findings/sibling.md'},
