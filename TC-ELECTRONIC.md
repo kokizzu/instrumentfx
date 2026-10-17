@@ -116,7 +116,7 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 | Power / battery / USB | **9V DC,>600mA included supply**,5.5/2.1mm centre-negative. Actual draw,battery/USB operation unresolved. | [QSG controls/specifications][PX5-M] |
 | Dimensions / mass | Guide prints **298.5×116×53mm under H×W×D**,1.4kg. Axis-label inconsistency preserved; no silent normalization or size-bin assignment. | [QSG specifications][PX5-M] |
 | IR / NAM / capture | **Nine global proprietary cabinet simulations**, including bass use. User IR/native or converted NAM/capture support unresolved. | [Product][PX5-P] |
-| Editor / platforms | TonePrint app via Bluetooth/USB; exact desktop/mobile OS and version requirements pending. | [Product][PX5-P]; [QSG pp14–15][PX5-M] |
+| Editor / platforms | Own X5 release notes, **1.1.55 dated 2020-11-09**, explicitly list TonePrint desktop editor for **Mac and PC**, and mobile app for **iOS and Android**. Historical platform evidence only: current supported OS versions, processor architecture and present app availability remain unverified. Bluetooth/USB app connectivity does not establish USB audio or power. | [Official release notes, version1.1.55 section][PX5-F]; [QSG pp14–15][PX5-M] |
 | Live / looper | RAM looper: **40s stereo/80s mono**, up to five instances per Board. Multiple instances do not imply five times shared memory capacity. Drums/scenes unresolved. | [Product][PX5-P] |
 | Live / routing | Insert allows external drive or four-cable setup; Quick Swap reorders effects. | [Product][PX5-P] |
 | Bass capability | Own product explicitly offers bass-oriented cabinet simulation; shared bass inclusion does not certify every effect equally on bass. | [Product][PX5-P] |

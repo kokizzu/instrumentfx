@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic PLETHORA X5",
-    "task": "X5 MIDI and historical1.3.6 library/bypass additions saved. Next own software platform and current catalogue evidence or explicit deferral before fresh discovery.",
+    "model": "Fresh Shopee Indonesia discovery",
+    "task": "X5 historical editor platforms saved; unresolved X5 gaps explicitly deferred in plethora_x5_software_checkpoint_20261017. Search brand/series for exact eligible hardware not already in inventory, then official own-model sources.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
@@ -41341,7 +41341,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -54969,5 +54969,11 @@
     "firmware_source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf",
     "evidence": "Five-slot MASH/expression and looper MIDI mapping. Historical1.3.6AlterEgo,chain display,response improvements and Buffered/NoTrails; distinguished from1.3.11feedback behavior.",
     "remaining": "Complete current library/latest firmware, editorOS,display/dimension and all prior unknowns remain."
+  },
+  "plethora_x5_software_checkpoint_20261017": {
+    "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf",
+    "checked": "2026-10-17",
+    "evidence": "Own-model historical version1.1.55 section dated2020-11-09 explicitly names Mac/PC desktop editor and iOS/Android mobile app.",
+    "qualification": "Indexed manufacturer PDF text; no filesystem download or software execution. Current OS versions/architectures, latest firmware/current full catalogue, display characteristics, dimensions axis conflict, actual current draw, user IR/NAM/capture and qualified used/new live prices remain deferred."
   }
 }
