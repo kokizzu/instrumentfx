@@ -414,8 +414,13 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | K/F/B | **0 rotary / 2 footswitches / 10 buttons**, including rear Amp/Mixer: four library/level, Edit±, Value±, Drums, Store. Visual corroboration pending. | [Manual pp6–11][RP70-M] |
 | Display | Numeric display and effect-matrix LEDs; diagonal/color/touch unresolved. | [Manual p9][RP70-M] |
 | Processing / categories | **Nine simultaneous effects**; full category catalogue pending. | [Manual p35][RP70-M] |
+| Categories / pickup-wah and dynamics | Two pickup conversions; Cry Baby, Clyde McCoy or Full Range wah. Compressor 1–20; ratio infinity:1. | [Manual pp21–22][RP70-M] |
+| Categories / amp-drive | **12 amp + 6 distortion models**, plus Acoustic simulator; Direct mentioned in overview. Most have nine gain settings; Acoustic/Direct one. Acoustic simulation confirmed, dedicated synth unresolved. | [Manual pp23–24][RP70-M] |
+| Categories / Chorus-FX count conflict | Introduction says **12**, selector table lists **15**: CE-2, Dual Chorus, Flanger, Phaser, Tremolo, Panner, Vibrato, Rotary, YaYa, AutoYa, Step Filter, Envelope Filter, Detune, Pitch Shift, Whammy. Alternatives share this section. | [Manual p26][RP70-M] |
+| Categories / delay-reverb | Analog, Digital, Pong or Tape delay: **10–990 ms in 10 ms steps; 1–5 s in 100 ms steps**. Reverb: Spring, Room, Hall. | [Manual pp29–31][RP70-M] |
+| Expression / assignment | Per-preset target and minimum/maximum, saved with Store. Targets include pre/post-delay volume, wah, amp gain, modulation parameters, YaYa/Whammy, delay level/feedback and reverb level. Whammy automatically routes before amp modeling. | [Manual pp29,32–33][RP70-M] |
 | Preset memory | **50 user + 50 factory = 100**; initial user bank duplicates factory sounds. | [Manual pp5,35][RP70-M] |
-| Synth / acoustic | Synth/acoustic capabilities pending; patch names alone insufficient. | Unresolved |
+| Synth / acoustic | Acoustic Guitar simulator explicitly documented; dedicated synth capability unresolved. | [Manual pp23–24][RP70-M] |
 | I/O | Unbalanced quarter-inch guitar input and L/Mono/R outputs; eighth-inch stereo headphones; Control In; power input. Headphones become mono with only L/Mono connected. | [Manual pp10–11,35–36][RP70-M] |
 | Power / battery / USB | Manual: PS200R **9 V DC/300 mA**, PS0913DC **9 V DC/1300 mA** supply ratings, regional variants. Actual draw/battery/USB unresolved. | [Manual p36][RP70-M] |
 | Power / source conflict | FAQ RP70/PS200R row instead states **9.6 V DC/300 mA, center-negative**, barrel 9.5 mm long/5.5 mm outer/2.1 mm pin, 120 V Type A variant. Preserve voltage conflict and regional limit. | [FAQ][RP70-F] |

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP70",
-    "task": "RP70 added with official manual fundamentals and power conflict. Next categories/expression/power/software qualifications; commit before next queued M100.",
+    "task": "RP70 category and expression findings saved. Next individual amp/drive choices, EQ/gate conflict and software/import/power qualifications, then M100.",
     "next_models": [
       "TC Electronic M100"
     ],
@@ -54597,5 +54597,11 @@
       "Display and visual corroboration",
       "New IDR offer"
     ]
+  },
+  "rp70_categories_checkpoint_20261017": {
+    "manual": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf",
+    "revision": "18-0491V-D",
+    "evidence": "Own manual categories and per-preset external expression. Chorus/FX intro12 versus15 selector types conflict retained. Whammy pre-amp routing; delay10ms–5s; three reverbs.",
+    "remaining": "Full individual amp-drive list, EQ/gate qualifications, software/import/power/display gaps retained."
   }
 }
