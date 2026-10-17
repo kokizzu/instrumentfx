@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS KATANA:GO",
-    "task": "KATANA:GO direct2025HTMLmanual confirms two external designs with same functions/sound;controls/power/USBdriver saved. Next inspect mode/memory/tuner and officialparameterguide chain/categories before deferring remaining gaps.",
+    "task": "KATANA:GO synth/acoustic functions and mode/bank behavior saved. Next audit effect categories/chain and tuner/StageFeel/firmware restrictions;do not claim118pageguidefullyread.",
     "next_models": [
       "Fender Mustang Micro original"
     ],
@@ -56004,5 +56004,10 @@
     "panel": "https://static.roland.com/manuals/ktn-go2/en-US/6849025173159563.html",
     "saved": "Own2025manualtwoexternaldesigns/functionalsoundequivalence;multifunctiondirectionalactions;playwhilecharging/LEDs;OSUSBdriver/screensaver.",
     "remaining": "Earlierphysicaldimensionsmass/sellerGO2design,chain/categorychoices,wirelessassignment/toe,USBchannels/IRimports/editorOS,batterycapacity/prices."
+  },
+  "katana_go_categories_checkpoint_20261017": {
+    "parameter_guide": "https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf",
+    "saved": "Own2024guideACGUITARSIM/WAVESYNTH/BASSSYNTHsingle-note restriction;MODandFXsameeffectallowed;10ampcharacters;own2025mode/bankoperation.",
+    "remaining": "Guide118pages notfullyaudited;fullcategorycounts/chainceiling,tuner/StageFeel/firmware,wirelessassignments,earlierphysicalspecs,selleridentity/import/USBchannels/prices."
   }
 }

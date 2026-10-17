@@ -2307,8 +2307,10 @@ Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Curre
 | K/F/B | Mastervolume1;6namedbuttons(A/B/C,Bluetooth,StageFeel,multifunction);powerswitch separate. Physical footswitch inventory pending. [Product][KTGO-P] |
 | Display | GraphicOLED128×32dots;diagonal/color/touch unresolved. [Product][KTGO-P] |
 | Processing / categories | Guitar10amps/>60effects;bass3amps(Vintage/Modern/Flat)/>60effects. Simultaneous blocks/category totals unresolved. [Product][KTGO-P] |
+| Processing / MOD-FX qualification | Guide permits the same effect in MOD and FX. This establishes independent selections,not a complete simultaneous block ceiling. Guitar AMP has5types×variation on/off=10characters;cab resonance Vintage/Modern/Deep is not userIR import. [Parameter guide][KTGO-G] |
+| Live / mode and bank operation | Bluetooth held during power-on opens mode selection;multifunction+/− selects guitar/bass,press confirms,then restart. Selected mode persists;factory default guitar. Each mode has10banks×A/B/C=30memories. [Mode manual][KTGO-MODE];[Memory manual][KTGO-MEM] |
 | Preset memory | 30factory-filleduser memories per mode;60across guitar+bass,not60available within one mode. [Product][KTGO-P] |
-| Synth / acoustic | Guitar mode includes2acoustic-electric amp characters;dedicated acoustic simulation/synth unverified. [Product][KTGO-P] |
+| Synth / acoustic | Guitar mode includes2acoustic-electric amp characters;Own parameter guide confirms **AC.GUITAR SIM**,guitar **WAVE SYNTH** and **BASS SYNTH**. Bass synth is single-note:mute other strings and articulate attacks;chords unsupported. AC.PROCESSOR for acoustic pickups is distinct. [Parameter guide][KTGO-G] [Product][KTGO-P] |
 | I/O | ¼inch inputplug,stereominiPHONES,USB-Caudio/power;BluetoothA2DPaudio/GATTMIDI. USBchannel/routing counts unresolved. [Product][KTGO-P] |
 | Power / battery / USB | Li-ion or USB;500mA draw. Charge5V≥500mA,~3h;~5hrun,varies byuse. Capacity unverified. [Product][KTGO-P] |
 | Dimensions / mass | 45W×125D×29Hmm;65g,current product specification;earlier physical revision unverified. [Product][KTGO-P] |
@@ -2344,3 +2346,7 @@ Own HTML-manual support landing returned license/checkbox text without readable 
 [KTGO-R]: https://static.roland.com/manuals/ktn-go2/en-US/index_content.html
 
 Direct official2025HTMLmanual now read:manufacturer confirms two external designs by sale period,without functional/sound differences. This supports one shared functional record;exact seller hardware design remains unverified. Earlier license-only landing is retained as access history,not current manual unavailability. No files downloaded or images viewed.
+
+[KTGO-G]: https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf
+[KTGO-MODE]: https://static.roland.com/manuals/ktn-go2/en-US/7277031573160331.html
+[KTGO-MEM]: https://static.roland.com/manuals/ktn-go2/en-US/7277338773161099.html
