@@ -61938,5 +61938,44 @@
     ],
     "limits": "Notcurrentinstalledtotal; internalmodesnotadditionalentries",
     "next": "DLY/RVB/PEDAL inventories and physical controls; fresh Shopee discovery"
+  },
+  "g3n_delay_reverb_20261017": {
+    "source": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+    "revision": "2017 pp18–23",
+    "delay": [
+      "Delay",
+      "AnalogDly",
+      "TapeEcho",
+      "ReverseDL",
+      "ModDelay",
+      "Hold DLY",
+      "P-P Delay",
+      "FilterDly",
+      "Dual DLY",
+      "Pitch DLY",
+      "SlapBackD",
+      "A-Pan DLY",
+      "PhaseDly",
+      "TapeEcho3",
+      "ICE Delay"
+    ],
+    "reverb": [
+      "Air",
+      "Room",
+      "Hall",
+      "HD Hall",
+      "Spring",
+      "FD Spring",
+      "Plate",
+      "EarlyRef",
+      "SpaceHole",
+      "Church",
+      "Ambience",
+      "ParticleR",
+      "Chamber",
+      "GateRev"
+    ],
+    "limits": "15delay14reverbchoicesnotconcurrentblocks; Tailnotpatchspillover; notcurrentinstalledlibrary",
+    "next": "PEDAL inventory; exact physical controls; fresh Shopee discovery"
   }
 }
