@@ -904,6 +904,13 @@ Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; exi
 | DI / I/O routing | DI MODEL affects **BALANCED OUTPUT, OUTPUT and PHONES**. Its name does not mean it is restricted to the XLR output. This differs from the master-EQ/volume scope explicitly naming OUTPUT/PHONES above. |
 | Bypass / live | **ALL BYPASS** bypasses the effects section and DI model. **EFX BYPASS** bypasses effects while retaining DI modeling. A press selects all bypass; holding selects effects bypass. Unlit means neither is bypassed. Bypass resets off at power-on. Analog/relay true-bypass circuitry is not established by these mode labels. |
 
+### B2 FOUR — synth choices clarified,2026-10-17
+
+| Field | Verified choice / qualification |
+|---|---|
+| Synth / algorithms | **Bass Synthesizer, Z-Synthesizer, Bass Talk Synthesizer** are the three entries in the [2023 effect list,p13](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),Z2I-4875-01. The retained legacy Standard Synth wording above is historical;these are the current cited names. |
+| Synth / variations | Bass Synthesizer has UP/DOWN filter movement;Z-Synthesizer has SAW/SQUARE waveforms;Bass Talk Synthesizer has IA/UE/UA/OA vowel pairs. These are internal parameters,not extra algorithms or simultaneous blocks. Synth-category polyphony is unverified;the separate polyphonic pitch shifter does not establish it. |
+
 <!-- comparison evidence ends -->
 
 ## B6
