@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G1 original",
-    "task": "Verify exact G1 seller revision/condition and remaining model-specific technical gaps; then resume fresh bass/vocal Shopee discovery. Category census, factory occupancy and external control saved.",
+    "model": "Fresh bass/vocal discovery",
+    "task": "Search Shopee Indonesia by bass/vocal brand and series for eligible unrecorded hardware; compare exact item IDs against brand records and ledger before adding. Original G1 remains partial; inaccessible seller offer is deferred.",
     "next_models": [],
-    "after_queue": "Bass/vocaldiscovery andlosslesslegacyconsolidation remainincomplete. Nodownloads/workflows/push."
+    "after_queue": "Technical gaps and lossless migration audit remain incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41739,7 +41739,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G1 original."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass/vocal discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -51985,6 +51985,17 @@
       "source": "https://zoomcorp.com/media/documents/E_G1_G1X.pdf",
       "finding": "Original manual pp16–25: category census, factory duplication and external-control restrictions saved in ZOOM.md.",
       "remaining": "Exact seller revision and condition;toe behavior,screen details,synth,IR/NAM/editor evidence,actual current draw,looper/scenes/trails remain unresolved."
+    },
+    {
+      "model": "Zoom G1 original",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_G1_G1X.pdf",
+      "finding": "Saved distinct modulation/dedicated delay limits and pitch/acoustic parameter restrictions.",
+      "offer_recheck": {
+        "url": "https://shopee.co.id/efek-gitar-zoom-G1-i.119462220.41708851420",
+        "result": "Direct URL inaccessible; exact item and seller/model searches yielded no results. No revision, condition or live-stock upgrade."
+      },
+      "remaining": "Seller revision/condition and unsupported fields remain unknown; do not repeatedly retry identical inaccessible offer."
     }
   ],
   "discovery_cross_brand_bass": {

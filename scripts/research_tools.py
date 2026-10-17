@@ -112,7 +112,7 @@ def main():
         assert changed <= set(paths), changed-set(paths)
         git('add','--',*sorted(changed))
         print(git('diff','--cached','--stat'))
-        print(git('commit','-m','research(zoom): document original G1 categories and control restrictions' if mode == 'commit-g1-original' else 'research(vocal): qualify VoiceLive Play power and footswitch gestures' if mode == 'commit-play-qsg' else 'research(zoom): qualify V6 output power and bundle evidence' if mode == 'commit-v6-live' else 'research(neural): qualify Quad Cortex capture and plugin prerequisites' if mode == 'commit-quad' else 'research(kemper): preserve second exact Head MK2 asking price' if mode == 'commit-player' else 'research(fractal): add FM9 MKII Turbo and preserve revision limits'))
+        print(git('commit','-m','research(zoom): qualify original G1 pitch and delay limits' if mode == 'commit-g1-original' else 'research(vocal): qualify VoiceLive Play power and footswitch gestures' if mode == 'commit-play-qsg' else 'research(zoom): qualify V6 output power and bundle evidence' if mode == 'commit-v6-live' else 'research(neural): qualify Quad Cortex capture and plugin prerequisites' if mode == 'commit-quad' else 'research(kemper): preserve second exact Head MK2 asking price' if mode == 'commit-player' else 'research(fractal): add FM9 MKII Turbo and preserve revision limits'))
     elif mode == 'commit-discovery':
         verify()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'

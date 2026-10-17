@@ -2950,20 +2950,20 @@ Partial,checked2026-10-17. Manufacturer G1/G1X manual,not G1next/G1on/FOUR. Sell
 | Dimensions / weight | **136W×155D×52H mm;350g without batteries** [G1O-M]. |
 | Simultaneous blocks / category choices | **54effects;up to8modules**,serial chain. Derived pp19–24:COMP/EFX9,DRIVE21 (20amp/drive+acoustic simulator),EQ1,ZNR/AMP4,MODULATION10,DELAY4,REVERB5=54. ZNR/AMP jointly selects two chain modules;four settings are not four simultaneous blocks [G1O-M]. |
 | Preset / factory / user memory | **40user+40read-only presets=80**,10patches×4banks each;user A0–d9 initially duplicate presets00–39. All Initialize overwrites user edits (p25) [G1O-M]. |
-| Synth / acoustic | Aco.Sim electric-to-acoustic effect documented;synth unresolved [G1O-M]. |
+| Synth / acoustic | Aco.Sim electric-to-acoustic effect documented;its GAIN control becomes TOP. Mono Pitch is single-note;HPS produces major-scale harmony from a selected key (pp20–22). Dedicated synth unresolved [G1O-M]. |
 | Audio I/O | Mono input470kohm;stereo sharedline/phones output,+3dBm into≥10kohm,20+20mW into32ohm;CONTROL IN,DC [G1O-M]. |
 | Control / USB | FS01:next bank inPlay,taptempo inRhythm,noaction inEdit. Connect beforepower-on. FP01/FP02 assignment stored perpatch;only pedal-marked effect parameters respond;alwaysvolume inbypass (pp16–17). USB absent fromcomplete connector inventory [G1O-M]. |
 | Power / battery / USB operation | **9V300mA centre-negative AD-0006;4AAalkaline≈12h**,nocharging. Actualdraw unresolved [G1O-M]. |
 | IR / NAM / captures | UserIR,native/convertedNAM,capture loading unestablished. |
 | Editor platforms / drivers | Editor/platform support unestablished. |
-| Practical features | **40rhythms**,including four metronome entries37–40 (p25);reverb unavailable duringrhythm playback. Tuner,bypass/mute. Looper/scenes/trails unresolved [G1O-M]. |
+| Practical features | **40rhythms**,including four metronome entries37–40 (p25);reverb unavailable duringrhythm playback. Tuner,bypass/mute. MODULATION delay reaches2000ms;dedicated DELAY reaches5000ms (p23),not a looper-duration claim. Looper/scenes/trails unresolved [G1O-M]. |
 | Bass capability | Exactbass support unresolved;notassignedbass fromguitarinput alone. |
 
 ### G1 original — separate IDR evidence
 
 | Condition / access | Amount | Exact offer / limits |
 |---|---:|---|
-| Condition/revision-unverified cached ask | **Rp700.000** | [Seller119462220/item41708851420](https://shopee.co.id/efek-gitar-zoom-G1-i.119462220.41708851420),Kab.Cirebon;September2026[searchcache](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&subcategory=11043648),checked2026-10-17. Exactclickcachemiss;display_model_id305743578489. Sellername,original/nextrevision,condition,new/used,workingstate,stock,variation,adapter/bundle,warranty,voucher/shipping/tax/finaltotal unknown. Notcheckout/completedsale. |
+| Condition/revision-unverified cached ask | **Rp700.000** | [Seller119462220/item41708851420](https://shopee.co.id/efek-gitar-zoom-G1-i.119462220.41708851420),Kab.Cirebon;September2026[searchcache](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&subcategory=11043648),checked2026-10-17. Exactclickcachemiss;display_model_id305743578489. Sellername,original/nextrevision,condition,new/used,workingstate,stock,variation,adapter/bundle,warranty,voucher/shipping/tax/finaltotal unknown. Notcheckout/completedsale. Rechecked2026-10-17:direct URL inaccessible;exact-item and seller/model searches returned no results. Revision/condition remain unverified. |
 | Verified new IDR | ? | Notestablished. |
 | Verified used IDR | ? | Notestablished. |
 
