@@ -2554,7 +2554,7 @@ Desktop guitar/vocal processor;distinct fromGT-1/GT-100. Checked2026-10-17;parti
 | Synth / acoustic | WAVESYNTH,AC.GUITARSIM,AC.PROCESSOR listed;monophonic guitar-to-MIDI usesnormalpickup. |
 | Dimensions / mass | 211W×135D×58Hmm;500g. |
 | I/O | Quarter-inch guitar,Lmono/Routputs,TRSCTL/EXP;balancedXLRmic,+48V10mAmax;stereominiAUX/phones;USB-B;DCin. |
-| Power / batteries | Adapter orUSBbus;240mAdraw. Voltage,polarity,batteries unresolved. |
+| Power / batteries | Adapter orUSBbus;240mAdraw. 9VDC PSA-100 supply verified below;polarity,batteries unresolved. |
 | Editor / USB | BOSS TONE STUDIO Mac/Windows;USBaudio/MIDI,reamping. Exactdirectionalchannels pending. |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture unverified. |
 | Looper / drums / live | Unverified;vocal/acousticmicpatches supported. Guitar and mic inputs are mutually exclusive; details below. |
@@ -2576,6 +2576,14 @@ Desktop guitar/vocal processor;distinct fromGT-1/GT-100. Checked2026-10-17;parti
 | I/O / input routing | INPUT SELECT chooses **GUITAR or MIC; both cannot operate simultaneously**. Each selected input passes through the effects. Dual effect chains do not establish independent simultaneous guitar/vocal processing. Adjusting MIC LEVEL or PHANTOM can interrupt sound. |
 | Looper / drums / practice | **Metronome40–250BPM**,selectable meters andlevel;output through OUTPUT/PHONES. Its tempo changes MASTER BPM. This is a metronome,not evidence of a drum-pattern library. Looper remains unverified. |
 | Tuner / live | Reference435–445Hz;MUTE silences output,BYPASS removes effects,THRU retains the current effect sound while tuning. These mode names do not establish analog true-bypass circuitry. |
+
+### GT-001 — USB paths and specified supply,2026-10-17
+
+| Field | Verified behavior / limit |
+|---|---|
+| USB audio / routing | [Official parameter guide,p34](https://cdn.roland.com/assets/media/pdf/GT-001_r_e01W.pdf),indexed original text:PRIMARY sends effects;its computer return mixes at the final stage. SECONDARY sends dry input;its return enters the effect-chain beginning for reamping. Both outputs are available together. Exact directional channel count remains unverified. |
+| USB / monitoring | PRIMARY LOOP BACK sends computer playback back with processed sound. DIRECT MONITOR resets ON at startup andcannot be saved. Loopback is an audio-routing function,not a phrase looper. |
+| Power / adapter identity | [GT-001-specific BOSS support notice](https://www.boss.info/jp/support/by_product/gt-001/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/) specifies **PSA-100**. Its [current manufacturer specification](https://www.boss.info/jp/products/psa-100/) gives **9VDC,500mAmaximum output**,100–240VAC50–60Hz input. Adapter capacity differs from GT-001’s240mAdraw. Polarity remains unverified;do not assume an old adapter shares the current mains range. |
 
 <!-- comparison evidence ends -->
 

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-001",
-    "task": "GT001guitar/MICmutualexclusion,metronome/tuner saved fromofficialindex. Next controls,powerPSA-specificchain,exactUSBchannels orcategoryinventory;PDFreaderlimits remain,notdownloads.",
+    "task": "GT001PRIMARY/SECONDARYrouting andPSA1009VDC500mAadapterchain saved. Next controls/categoryinventory ordriverchannelproof;polarity/display/importgapsremain.",
     "next_models": [],
     "after_queue": "FreshShopeediscoveryandremainingverification;no workflows/push."
   },
@@ -58443,6 +58443,17 @@
     "metronome": "40–250BPM;meters/level;OUTPUT/PHONES;changesMasterBPM",
     "tuner": "435–445Hz;MUTE/BYPASS/THRU",
     "limits": "Looper/drumpatternsunverified;dualchainsnotdualinput;noanalogbypassinference",
+    "downloads": false
+  },
+  "gt001_usb_supply_20261017": {
+    "usb_source": "https://cdn.roland.com/assets/media/pdf/GT-001_r_e01W.pdf",
+    "usb_identity": "2014p34indexedoriginal",
+    "usb": "PRIMARYwet/finalreturn SECONDARYdry/chaininputreturn;simultaneousoutputs;exactchannelsunknown",
+    "monitor": "Loopbackaudio notphrase;DirectMonitorstartupONunsaved",
+    "supply_notice": "https://www.boss.info/jp/support/by_product/gt-001/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/",
+    "supply_spec": "https://www.boss.info/jp/products/psa-100/",
+    "supply": "CurrentPSA1009VDC500mAmax100–240VAC50–60Hz;notGTdraw240mA;notoldadaptermainsclaim",
+    "polarity": "unverified",
     "downloads": false
   }
 }
