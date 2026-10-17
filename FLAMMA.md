@@ -595,3 +595,14 @@ Checked2026-10-18 against [Flamma's exact FX20 product page](https://www.flamma.
 | I/O / Bluetooth qualification | Product table says **Bluetooth audio playback**,but later prose calls it audio output while describing phone playback into FX20. Retain wording conflict;no Bluetooth-headphone transmission support established. |
 
 The page's CapturePro X200 camera/lens/Wi-Fi FAQs are unrelated template content and excluded from FX20 evidence. No app,driver,firmware or file downloaded or executed.
+
+### FX20 — mobile app identity and platform requirements
+
+Checked2026-10-18;FX20's own manual/store establishes FLAMMA app use. Store listings below establish app identity/platforms,not tested device/OS combinations.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / iOS | **Flamma Manager,id6448908020**,seller **Shenzhen Flamma Innovation Co.,Ltd.**;Apple US listing **iOS15.0+**,iPhone/iPod touch;version **1.6.6,Sep16** as displayed (year omitted in current-version line). Listing also gives visionOS1.0+,but this is not verified FX20 headset compatibility or macOS editor support. [Apple developer listing](https://apps.apple.com/us/app/flamma-manager/id6448908020). |
+| Editor / Android | **FLAMMA,Flamma Innovation**,package **com.mooer.flamma_e100_client**;developer description covers effect editing,parameters andcloud. Retrieved page does not establish minimum Android version or every FX20 handset combination. User reviews are not primary compatibility specifications. [Google Play](https://play.google.com/store/apps/details?hl=en&id=com.mooer.flamma_e100_client). |
+
+Unrelated same-name school-communication,food-ordering andcurrency apps were excluded. Store availability does not establish USB recording compatibility,desktop editing,driver support orwireless audio transmission. No app downloaded orrun.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Flamma FX20",
-    "task": "Verify FX20 exact app OS,controls,memory andsimultaneous architecture; store corroboration and contaminated FAQ exclusion saved. Power conflict remains.",
+    "task": "Continue FX20 controls,preset capacity andsimultaneous architecture verification. Appidentity/iOS15 minimum saved;Androidminimum andpowerconflict remain.",
     "next_models": [],
     "after_queue": "330active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66019,5 +66019,13 @@
     "conflicts": "Manual9V500mA precautions unresolved;store Bluetoothoutput prose conflicts with playback table.",
     "excluded": "Unrelated CaptureProX200 cameraFAQ template",
     "remaining": "Exact appOS,controls,memory,simultaneousceiling,imports andqualifiedoffers."
+  },
+  "fx20_app_identity_20261018": {
+    "apple": "https://apps.apple.com/us/app/flamma-manager/id6448908020",
+    "ios_min": "15.0",
+    "version_display": "1.6.6 Sep16,year omitted",
+    "android": "https://play.google.com/store/apps/details?hl=en&id=com.mooer.flamma_e100_client",
+    "android_min": "unverified",
+    "qualification": "App identity/minimumOS only;FX20 app use established by ownstore/manual;no runtime testing."
   }
 }
