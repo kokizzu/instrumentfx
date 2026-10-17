@@ -415,7 +415,7 @@ def main():
         if mode == 'commit-mg20':
             message = 'research(nux): clarify Cerberus V5 footswitch and expression assignments'
         if mode == 'commit-m100':
-            message = 'research(tc-electronic): enumerate M-One XL choices and preserve MIDI conflict'
+            message = 'research(tc-electronic): qualify Plethora X5 board navigation and firmware additions'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): enumerate RFX-1000 banks and qualify combined delay limits'
         if mode == 'commit-spx990':

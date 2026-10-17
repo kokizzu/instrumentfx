@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B2.1u",
-    "task": "Output/DI limits,global FS01 assignments,USBmix/cable warning,drum/tuner ranges and patch-gap qualification saved. Continue freshShopee discovery or other incomplete model specifications. B2.1u display/currentOS/import/USB/live/offer gaps remain.",
+    "model": "TC Electronic PLETHORA X5",
+    "task": "Own historical1.2.18 additions,Board-navigation/QuickSwap mutual exclusion,HotKnob scope and automaticsettingssave saved. Continue freshShopee discovery or per-model gaps;full ownX5 catalogue/display/power/imports/currentOS/offer verification incomplete.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows or push."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2.1u."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59871,5 +59871,40 @@
       "site:shopee.co.id \"Zoom\" \"B9.1ut\""
     ],
     "result": "No usable search results;not proof of market absence."
+  },
+  "px5_1218_controls_20261017": {
+    "sources": [
+      "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf",
+      "https://www.tcelectronic.com/en/products/0709-AIK"
+    ],
+    "method": "Official indexed release notes Version1.2.18 section and manufacturer product text. Direct notes inaccessible and QSG502 this turn;no downloads or retries of unchanged requests.",
+    "version": "1.2.18 dated2020-12-18;not latest or installed firmware certification.",
+    "findings": [
+      "Adds ViscousVibe,HelixPhaser,TapeDeckLooper.",
+      "ViscousVibe defaultRamp can switchtoMASH via Board secondFSfunction.",
+      "Global2switchBoardNavigation1+2Down/2+3Up must be disabled to useQuickSwap.",
+      "HotKnobs Board-level assignments;not extra effects.",
+      "Product automaticsettingssave doesnotprove persistent loopaudio/factoryBoardfill."
+    ],
+    "remaining": [
+      "Full own-model firmware-qualified effect catalogue",
+      "Factory fill",
+      "Published display specs",
+      "USBaudio/buspower/battery/actualdraw",
+      "Imports",
+      "CurrentOS/software support",
+      "Qualified used/new offers"
+    ]
+  },
+  "discovery_nova_gsystem_gs10_20261017": {
+    "queries": [
+      "site:shopee.co.id \"TC Electronic\" \"Nova System\"",
+      "site:shopee.co.id \"TC Electronic\" \"G System\"",
+      "site:shopee.co.id \"Boss\" \"GS-10\"",
+      "\"Nova System\" \"shopee.co.id\"",
+      "\"G-System\" \"shopee.co.id\"",
+      "\"Boss GS10\" \"shopee\""
+    ],
+    "result": "No usable exact Indonesian processor offer. Returned unrelated stationery/strings and Brazil listings rejected;not market-absence evidence."
   }
 }
