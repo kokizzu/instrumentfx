@@ -50429,6 +50429,16 @@
       "pages": "6–7",
       "finding": "Numbered11–16 establishes6separate buttons;MIX push separate. Rear inventory establishes2in/2out channels offered on8analog sockets,3MIDI DIN andIEC;noUSB/headphone/phantom/EXP socket ininventory.",
       "remaining": "Visual/revision confirmation,display diagonal,qualified offers andsoftware specifics"
+    },
+    {
+      "model": "Alesis MicroVerb 4",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://www.alesis.com/rscdn/981/documents/microverb4_programchart.pdf",
+        "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf"
+      ],
+      "finding": "All100user locations charted;mono normalization,DualSend90–99/190–199,100%wet aux andunsaved power-off loss recorded. No explicit bass reference inmanual text;membership remains unclassified.",
+      "remaining": "Body/power current,display,category totals,qualified offers"
     }
   ],
   "discovery_cross_brand_bass": {

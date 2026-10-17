@@ -13,7 +13,7 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 | Knobs / footswitches / buttons |**6rotary/0foot/2buttons**:INPUT,MIX,OUTPUT,VALUE,EDIT A/B;STORE,BANK/MIDI. Text-derived,not new visual inspection [MV-M p.42] |
 | Display |LED program display;diagonal,color/touch unresolved [MV-M p.42] |
 | Processing / categories |Up to3simultaneous effects;fixed configurations,not arbitrary free routing. Reverb,chorus/flange,delay,pitch,rotary andmultieffects;exact category choice counts unresolved [MV-P] |
-| Preset memory |100factoryROM+100userRAM=200;factory-filled user subset unresolved [MV-P,MV-M] |
+| Preset memory |100factoryROM+100userRAM=200;original chart lists all100–199user locations prefilled. They remain writable,not100additional protected presets [MV-P,MV-M,MV-C] |
 | Synth / acoustic |Pitch±1octave;dedicated synth/acoustic simulator unverified [MV-P]. Acoustic-guitar program voicing is not an acoustic simulator |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured capture import unverified |
 | Audio / control ports |2unbalanced6.35mm TS inputs,2TS outputs;MIDI IN,OUT/THRU;TRS footswitch;power. No USB,mic,phantom,headphone orFX-loop socket in rear inventory [MV-M pp.34–35,42] |
@@ -21,7 +21,7 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 | Dimensions / weight |Exact body dimensions andmass unverified;MIDIverb4 specifications not substituted |
 | Editor / software |MIDI realtime control andSysEx user-bank dumps;full editor/platforms unverified. Product lists2simultaneous MIDI controls [MV-P,MV-M] |
 | Analog conversion |18bitADC/DAC versus24bit internal accumulator;these are different specifications [MV-P,MV-M pp.42–43] |
-| Looper / drums / live |Delay conflict:product maximum1300ms versusmanual delaymemory1270ms. Dual-send andmultichain configurations documented. Looper,drums,scenes andspillover unresolved [MV-P,MV-M p.43] |
+| Looper / drums / live |Delay conflict:product maximum1300ms versusmanual delaymemory1270ms. Dual-send andmultichain configurations documented. MonoLeft input feeds both paths unlessRight isconnected. DualSend90–99/190–199 supports separate mixer sends;aux-return use requires100%wet MIX. Saved presets survive;unsaved edits are lost atpower-off [MV-M pp.14–17,32]. Looper,drums,scenes andspillover unresolved [MV-P,MV-M p.43] |
 
 ### MicroVerb 4 — separate IDR evidence
 
