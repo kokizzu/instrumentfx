@@ -24741,10 +24741,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 246 guitar, 116 documented bass-capable, 61 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 259 guitar, 135 documented bass-capable, 63 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "297 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "310 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41552,8 +41552,8 @@
     },
     "navigation_audit": {
       "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
-      "markdown_files": 156,
-      "local_link_occurrences": 3108,
+      "markdown_files": 158,
+      "local_link_occurrences": 3265,
       "legacy_files": 117,
       "registered_redirects": 116,
       "separately_verified_archival_redirect": [
@@ -41655,6 +41655,39 @@
         "local_link_occurrences": 3108,
         "errors": 0
       }
+    },
+    "preservation_recheck_at310_20261017": {
+      "at_catalogue_count": 310,
+      "status": "passed",
+      "body_audit": {
+        "target": "make consolidation-audit-body-differences",
+        "complete_source_bodies": 82,
+        "mismatches": 0,
+        "outside_body_audit": 92,
+        "qualification": "91 model-row manifests checked separately;one historical HEADRUSH entry not a complete-body manifest."
+      },
+      "row_audit": {
+        "target": "make consolidation-verify",
+        "status": "passed",
+        "scope": "All registered complete-model rows and complete-source bodies plus retained contexts/URLs;does not independently establish original research accuracy."
+      },
+      "technical_audit": {
+        "target": "make technical-retirement-verify",
+        "status": "passed",
+        "technical_sources": 99,
+        "retired": 99,
+        "incoming_link_occurrences": 307,
+        "scope": "Registered original model fields,shared prose,reference URLs,original headings and root destinations retained."
+      },
+      "navigation": {
+        "target": "make navigation-audit",
+        "markdown_files": 158,
+        "local_link_occurrences": 3265,
+        "legacy_paths": 117,
+        "root_to_legacy_links": 406,
+        "errors": 0
+      },
+      "remaining": "Compatibility redirects and historical links remain. External source availability,current model specifications,ownership identities and market coverage not certified."
     }
   },
   "deferred_work": {
