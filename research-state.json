@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Legacy navigation retirement",
-    "task": "MULTI-EFFECTS138 legacylinks nowcanonical root destinations;exactmarked inverse preserves allhistoricaltext.268root-to-legacy linksremain;next auditBOSS43 andMOOER41 using reusable marked-link migration,thenotherbrandreferences.117compatibilitypaths stillremain;do notclaim complete.",
+    "task": "BOSS43 andMOOER41 links nowrootcanonical;exactinverse recovers completeoriginal brandtext.184root-to-legacy linksremain. Next auditVALETON35,ZOOM25 andM-VAVE20 withsame provenance checks;generatedALLrows muststayconsistent.117compatibilityfilesremain;no fullcompletionclaim.",
     "next_models": [],
     "after_queue": "334active39brands;technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -41762,13 +41762,12 @@
       ],
       "unclassified_legacy_files": [],
       "errors": [],
-      "root_to_legacy_links": 268,
+      "root_to_legacy_links": 184,
       "root_to_legacy_by_source": {
         "ALL-BASS.md": 3,
         "ALL-GUITAR.md": 5,
         "AUDOTA.md": 14,
         "BOIN-AUDIO.md": 4,
-        "BOSS.md": 43,
         "CUVAVE.md": 3,
         "DONNER.md": 1,
         "FLAMMA.md": 2,
@@ -41778,7 +41777,6 @@
         "JOYO.md": 10,
         "LINE6.md": 8,
         "M-VAVE.md": 20,
-        "MOOER.md": 41,
         "NEURAL-DSP.md": 1,
         "NUX.md": 4,
         "ROLAND.md": 3,
@@ -41792,14 +41790,14 @@
         "ZOOM.md": 25
       },
       "root_to_legacy_by_target": {
-        "effects/METHODOLOGY.md": 2,
+        "effects/METHODOLOGY.md": 1,
         "effects/OWNERSHIP.md": 4,
-        "effects/README.md": 7,
+        "effects/README.md": 6,
         "effects/RESUME.md": 18,
-        "effects/SCOPE.md": 6,
+        "effects/SCOPE.md": 5,
         "effects/advanced-modelers.md": 4,
         "effects/audota.md": 5,
-        "effects/bass.md": 7,
+        "effects/bass.md": 4,
         "effects/cube-baby.md": 3,
         "effects/findings/2026-10-14-boin-audio-bg300.md": 1,
         "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md": 1,
@@ -41807,16 +41805,6 @@
         "effects/findings/2026-10-14-hotone-ampero-mini.md": 1,
         "effects/findings/2026-10-14-hotone-ampero-mp100.md": 1,
         "effects/findings/2026-10-14-line6-hx-stomp-xl.md": 1,
-        "effects/findings/2026-10-14-mooer-ge100-pro-li.md": 1,
-        "effects/findings/2026-10-14-mooer-ge100-pro.md": 1,
-        "effects/findings/2026-10-14-mooer-ge100.md": 1,
-        "effects/findings/2026-10-14-mooer-ge1000.md": 1,
-        "effects/findings/2026-10-14-mooer-ge150-pro-li.md": 1,
-        "effects/findings/2026-10-14-mooer-ge150-pro.md": 1,
-        "effects/findings/2026-10-14-mooer-ge150.md": 1,
-        "effects/findings/2026-10-14-mooer-ge200-pro-li.md": 1,
-        "effects/findings/2026-10-14-mooer-ge200-pro.md": 1,
-        "effects/findings/2026-10-14-mooer-ge200.md": 1,
         "effects/findings/2026-10-14-roland-gr-55.md": 1,
         "effects/findings/2026-10-14-scorpion-kmf-10.md": 1,
         "effects/findings/2026-10-14-sonicake-matribox.md": 3,
@@ -41839,38 +41827,21 @@
         "effects/findings/2026-10-15-audota-ame-200-pro.md": 1,
         "effects/findings/2026-10-15-audota-ame-200.md": 1,
         "effects/findings/2026-10-15-audota-ave-100.md": 1,
-        "effects/findings/2026-10-15-boss-gt1-display-idr.md": 1,
-        "effects/findings/2026-10-15-boss-gt1000-display-idr.md": 1,
-        "effects/findings/2026-10-15-boss-gt1000core-display-idr.md": 1,
-        "effects/findings/2026-10-15-boss-gx1-display-idr.md": 1,
-        "effects/findings/2026-10-15-boss-gx10-display-idr.md": 1,
-        "effects/findings/2026-10-15-boss-gx100-display-idr.md": 1,
-        "effects/findings/2026-10-15-boss-me90-display-idr.md": 1,
         "effects/findings/2026-10-15-cuvave-h8.md": 1,
         "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md": 1,
         "effects/findings/2026-10-15-line6-pod-go.md": 1,
-        "effects/findings/2026-10-15-mooer-ge1000-li.md": 1,
-        "effects/findings/2026-10-15-mooer-ge150-max-li.md": 1,
-        "effects/findings/2026-10-15-mooer-ge150-max.md": 1,
-        "effects/findings/2026-10-15-mooer-ge150-plus-li.md": 1,
-        "effects/findings/2026-10-15-mooer-ge150-plus.md": 1,
         "effects/findings/2026-10-15-ving-fb100.md": 1,
         "effects/findings/2026-10-15-zoom-g6.md": 1,
-        "effects/guitar-boss.history-2026-10-14.md": 7,
-        "effects/guitar-boss.md": 14,
         "effects/guitar-compact.md": 13,
-        "effects/guitar-floorboards.md": 2,
+        "effects/guitar-floorboards.md": 1,
         "effects/owned-multifx.md": 10,
         "effects/shopee-indonesia.md": 9,
         "effects/shopee-multifx-2.md": 8,
         "effects/shopee-multifx-3.md": 4,
-        "effects/shopee-multifx-4.md": 8,
-        "effects/shopee-multifx-5.md": 8,
-        "effects/shopee-multifx-6.md": 10,
+        "effects/shopee-multifx-5.md": 4,
         "effects/shopee-multifx-7.md": 8,
-        "effects/shopee-multifx.md": 20,
-        "effects/specialist.md": 1,
-        "effects/vocal.md": 9
+        "effects/shopee-multifx.md": 16,
+        "effects/vocal.md": 2
       },
       "root_to_legacy_occurrences": [
         {
@@ -42080,350 +42051,6 @@
           "fragment": "",
           "kind": "inline",
           "raw": "effects/shopee-multifx-2.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 31,
-          "target": "effects/bass.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/bass.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 91,
-          "target": "effects/bass.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/bass.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 154,
-          "target": "effects/bass.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/bass.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 258,
-          "target": "effects/vocal.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/vocal.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 332,
-          "target": "effects/vocal.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/vocal.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 389,
-          "target": "effects/vocal.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/vocal.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 451,
-          "target": "effects/vocal.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/vocal.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 539,
-          "target": "effects/vocal.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/vocal.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 594,
-          "target": "effects/vocal.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/vocal.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 635,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 721,
-          "target": "effects/findings/2026-10-15-boss-gt1000core-display-idr.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-boss-gt1000core-display-idr.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 721,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 721,
-          "target": "effects/guitar-boss.history-2026-10-14.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.history-2026-10-14.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 738,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 819,
-          "target": "effects/findings/2026-10-15-boss-gx10-display-idr.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-boss-gx10-display-idr.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 819,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 819,
-          "target": "effects/guitar-boss.history-2026-10-14.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.history-2026-10-14.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 871,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 951,
-          "target": "effects/findings/2026-10-15-boss-gt1-display-idr.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-boss-gt1-display-idr.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 951,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 951,
-          "target": "effects/guitar-boss.history-2026-10-14.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.history-2026-10-14.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1018,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1103,
-          "target": "effects/findings/2026-10-15-boss-gx1-display-idr.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-boss-gx1-display-idr.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1103,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1103,
-          "target": "effects/guitar-boss.history-2026-10-14.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.history-2026-10-14.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1153,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1236,
-          "target": "effects/findings/2026-10-15-boss-me90-display-idr.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-boss-me90-display-idr.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1236,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1236,
-          "target": "effects/guitar-boss.history-2026-10-14.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.history-2026-10-14.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1282,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1365,
-          "target": "effects/findings/2026-10-15-boss-gx100-display-idr.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-boss-gx100-display-idr.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1365,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1365,
-          "target": "effects/guitar-boss.history-2026-10-14.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.history-2026-10-14.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1415,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1498,
-          "target": "effects/findings/2026-10-15-boss-gt1000-display-idr.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-boss-gt1000-display-idr.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1498,
-          "target": "effects/guitar-boss.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1498,
-          "target": "effects/guitar-boss.history-2026-10-14.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-boss.history-2026-10-14.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1571,
-          "target": "effects/specialist.md",
-          "fragment": "eligible-record-boss-gm-800",
-          "kind": "inline",
-          "raw": "effects/specialist.md#eligible-record-boss-gm-800"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1617,
-          "target": "effects/README.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/README.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1617,
-          "target": "effects/SCOPE.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/SCOPE.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1617,
-          "target": "effects/METHODOLOGY.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/METHODOLOGY.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1617,
-          "target": "effects/guitar-floorboards.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/guitar-floorboards.md"
-        },
-        {
-          "source": "BOSS.md",
-          "line": 1617,
-          "target": "effects/vocal.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/vocal.md"
         },
         {
           "source": "CUVAVE.md",
@@ -42904,334 +42531,6 @@
           "fragment": "",
           "kind": "inline",
           "raw": "effects/cube-baby.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 309,
-          "target": "effects/findings/2026-10-14-mooer-ge100.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge100.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 309,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 374,
-          "target": "effects/findings/2026-10-14-mooer-ge150.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge150.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 374,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 443,
-          "target": "effects/findings/2026-10-14-mooer-ge200.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge200.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 443,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 518,
-          "target": "effects/findings/2026-10-14-mooer-ge150-pro-li.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge150-pro-li.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 518,
-          "target": "effects/shopee-multifx.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 601,
-          "target": "effects/findings/2026-10-14-mooer-ge100-pro.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge100-pro.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 601,
-          "target": "effects/shopee-multifx-4.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-4.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 609,
-          "target": "effects/shopee-multifx-4.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-4.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 692,
-          "target": "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge100-pro-li.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 692,
-          "target": "effects/shopee-multifx-4.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-4.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 700,
-          "target": "effects/shopee-multifx-4.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-4.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 780,
-          "target": "effects/findings/2026-10-14-mooer-ge200-pro.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge200-pro.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 780,
-          "target": "effects/shopee-multifx-4.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-4.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 788,
-          "target": "effects/shopee-multifx-4.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-4.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 868,
-          "target": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge200-pro-li.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 868,
-          "target": "effects/shopee-multifx-4.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-4.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 876,
-          "target": "effects/shopee-multifx-4.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-4.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 951,
-          "target": "effects/findings/2026-10-14-mooer-ge150-pro.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge150-pro.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 951,
-          "target": "effects/shopee-multifx-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-5.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 961,
-          "target": "effects/shopee-multifx-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-5.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1037,
-          "target": "effects/findings/2026-10-15-mooer-ge150-plus.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-mooer-ge150-plus.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1037,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1050,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1113,
-          "target": "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-mooer-ge150-plus-li.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1113,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1122,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1183,
-          "target": "effects/findings/2026-10-15-mooer-ge150-max.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-mooer-ge150-max.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1183,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1195,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1268,
-          "target": "effects/findings/2026-10-15-mooer-ge150-max-li.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-mooer-ge150-max-li.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1268,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1277,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1359,
-          "target": "effects/findings/2026-10-14-mooer-ge1000.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-14-mooer-ge1000.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1359,
-          "target": "effects/shopee-multifx-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-5.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1368,
-          "target": "effects/shopee-multifx-5.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-5.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1433,
-          "target": "effects/findings/2026-10-15-mooer-ge1000-li.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/findings/2026-10-15-mooer-ge1000-li.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1433,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
-        },
-        {
-          "source": "MOOER.md",
-          "line": 1442,
-          "target": "effects/shopee-multifx-6.md",
-          "fragment": "",
-          "kind": "inline",
-          "raw": "effects/shopee-multifx-6.md"
         },
         {
           "source": "NEURAL-DSP.md",
@@ -45159,6 +44458,610 @@
           }
         ],
         "original_sha256": "4c2563c9cb95dfe7ae72dc25ef18f83169a05deacf64c8a65868ab469db2a848",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse only these marked links to recover exact pre-edit category text;all other content unchanged",
+        "rollback": "Replace each exact after token with before;remove only this canonical_links entry"
+      },
+      "BOSS.md": {
+        "changes": [
+          {
+            "id": "boss-001",
+            "before": "](effects/bass.md)",
+            "after": "](ALL-BASS.md)<!-- historical-link:boss-001 -->",
+            "original_target": "effects/bass.md",
+            "destination": "ALL-BASS.md"
+          },
+          {
+            "id": "boss-002",
+            "before": "](effects/bass.md)",
+            "after": "](ALL-BASS.md)<!-- historical-link:boss-002 -->",
+            "original_target": "effects/bass.md",
+            "destination": "ALL-BASS.md"
+          },
+          {
+            "id": "boss-003",
+            "before": "](effects/bass.md)",
+            "after": "](ALL-BASS.md)<!-- historical-link:boss-003 -->",
+            "original_target": "effects/bass.md",
+            "destination": "ALL-BASS.md"
+          },
+          {
+            "id": "boss-004",
+            "before": "](effects/vocal.md)",
+            "after": "](ALL-VOCAL.md)<!-- historical-link:boss-004 -->",
+            "original_target": "effects/vocal.md",
+            "destination": "ALL-VOCAL.md"
+          },
+          {
+            "id": "boss-005",
+            "before": "](effects/vocal.md)",
+            "after": "](ALL-VOCAL.md)<!-- historical-link:boss-005 -->",
+            "original_target": "effects/vocal.md",
+            "destination": "ALL-VOCAL.md"
+          },
+          {
+            "id": "boss-006",
+            "before": "](effects/vocal.md)",
+            "after": "](ALL-VOCAL.md)<!-- historical-link:boss-006 -->",
+            "original_target": "effects/vocal.md",
+            "destination": "ALL-VOCAL.md"
+          },
+          {
+            "id": "boss-007",
+            "before": "](effects/vocal.md)",
+            "after": "](ALL-VOCAL.md)<!-- historical-link:boss-007 -->",
+            "original_target": "effects/vocal.md",
+            "destination": "ALL-VOCAL.md"
+          },
+          {
+            "id": "boss-008",
+            "before": "](effects/vocal.md)",
+            "after": "](ALL-VOCAL.md)<!-- historical-link:boss-008 -->",
+            "original_target": "effects/vocal.md",
+            "destination": "ALL-VOCAL.md"
+          },
+          {
+            "id": "boss-009",
+            "before": "](effects/vocal.md)",
+            "after": "](ALL-VOCAL.md)<!-- historical-link:boss-009 -->",
+            "original_target": "effects/vocal.md",
+            "destination": "ALL-VOCAL.md"
+          },
+          {
+            "id": "boss-010",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-010 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-011",
+            "before": "](effects/findings/2026-10-15-boss-gt1000core-display-idr.md)",
+            "after": "](BOSS.md#gt-1000core)<!-- historical-link:boss-011 -->",
+            "original_target": "effects/findings/2026-10-15-boss-gt1000core-display-idr.md",
+            "destination": "BOSS.md#gt-1000core"
+          },
+          {
+            "id": "boss-012",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-012 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-013",
+            "before": "](effects/guitar-boss.history-2026-10-14.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-013 -->",
+            "original_target": "effects/guitar-boss.history-2026-10-14.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-014",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-014 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-015",
+            "before": "](effects/findings/2026-10-15-boss-gx10-display-idr.md)",
+            "after": "](BOSS.md#gx-10)<!-- historical-link:boss-015 -->",
+            "original_target": "effects/findings/2026-10-15-boss-gx10-display-idr.md",
+            "destination": "BOSS.md#gx-10"
+          },
+          {
+            "id": "boss-016",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-016 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-017",
+            "before": "](effects/guitar-boss.history-2026-10-14.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-017 -->",
+            "original_target": "effects/guitar-boss.history-2026-10-14.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-018",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-018 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-019",
+            "before": "](effects/findings/2026-10-15-boss-gt1-display-idr.md)",
+            "after": "](BOSS.md#gt-1)<!-- historical-link:boss-019 -->",
+            "original_target": "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+            "destination": "BOSS.md#gt-1"
+          },
+          {
+            "id": "boss-020",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-020 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-021",
+            "before": "](effects/guitar-boss.history-2026-10-14.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-021 -->",
+            "original_target": "effects/guitar-boss.history-2026-10-14.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-022",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-022 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-023",
+            "before": "](effects/findings/2026-10-15-boss-gx1-display-idr.md)",
+            "after": "](BOSS.md#gx-1)<!-- historical-link:boss-023 -->",
+            "original_target": "effects/findings/2026-10-15-boss-gx1-display-idr.md",
+            "destination": "BOSS.md#gx-1"
+          },
+          {
+            "id": "boss-024",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-024 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-025",
+            "before": "](effects/guitar-boss.history-2026-10-14.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-025 -->",
+            "original_target": "effects/guitar-boss.history-2026-10-14.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-026",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-026 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-027",
+            "before": "](effects/findings/2026-10-15-boss-me90-display-idr.md)",
+            "after": "](BOSS.md#me-90)<!-- historical-link:boss-027 -->",
+            "original_target": "effects/findings/2026-10-15-boss-me90-display-idr.md",
+            "destination": "BOSS.md#me-90"
+          },
+          {
+            "id": "boss-028",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-028 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-029",
+            "before": "](effects/guitar-boss.history-2026-10-14.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-029 -->",
+            "original_target": "effects/guitar-boss.history-2026-10-14.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-030",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-030 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-031",
+            "before": "](effects/findings/2026-10-15-boss-gx100-display-idr.md)",
+            "after": "](BOSS.md#gx-100)<!-- historical-link:boss-031 -->",
+            "original_target": "effects/findings/2026-10-15-boss-gx100-display-idr.md",
+            "destination": "BOSS.md#gx-100"
+          },
+          {
+            "id": "boss-032",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-032 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-033",
+            "before": "](effects/guitar-boss.history-2026-10-14.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-033 -->",
+            "original_target": "effects/guitar-boss.history-2026-10-14.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-034",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-034 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-035",
+            "before": "](effects/findings/2026-10-15-boss-gt1000-display-idr.md)",
+            "after": "](BOSS.md#gt-1000)<!-- historical-link:boss-035 -->",
+            "original_target": "effects/findings/2026-10-15-boss-gt1000-display-idr.md",
+            "destination": "BOSS.md#gt-1000"
+          },
+          {
+            "id": "boss-036",
+            "before": "](effects/guitar-boss.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-036 -->",
+            "original_target": "effects/guitar-boss.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-037",
+            "before": "](effects/guitar-boss.history-2026-10-14.md)",
+            "after": "](BOSS.md)<!-- historical-link:boss-037 -->",
+            "original_target": "effects/guitar-boss.history-2026-10-14.md",
+            "destination": "BOSS.md"
+          },
+          {
+            "id": "boss-038",
+            "before": "](effects/specialist.md#eligible-record-boss-gm-800)",
+            "after": "](BOSS.md#gm-800)<!-- historical-link:boss-038 -->",
+            "original_target": "effects/specialist.md#eligible-record-boss-gm-800",
+            "destination": "BOSS.md#gm-800"
+          },
+          {
+            "id": "boss-039",
+            "before": "](effects/README.md)",
+            "after": "](README.md)<!-- historical-link:boss-039 -->",
+            "original_target": "effects/README.md",
+            "destination": "README.md"
+          },
+          {
+            "id": "boss-040",
+            "before": "](effects/SCOPE.md)",
+            "after": "](README.md#scope-and-ownership)<!-- historical-link:boss-040 -->",
+            "original_target": "effects/SCOPE.md",
+            "destination": "README.md#scope-and-ownership"
+          },
+          {
+            "id": "boss-041",
+            "before": "](effects/METHODOLOGY.md)",
+            "after": "](README.md#evidence-and-resuming)<!-- historical-link:boss-041 -->",
+            "original_target": "effects/METHODOLOGY.md",
+            "destination": "README.md#evidence-and-resuming"
+          },
+          {
+            "id": "boss-042",
+            "before": "](effects/guitar-floorboards.md)",
+            "after": "](ALL-GUITAR.md)<!-- historical-link:boss-042 -->",
+            "original_target": "effects/guitar-floorboards.md",
+            "destination": "ALL-GUITAR.md"
+          },
+          {
+            "id": "boss-043",
+            "before": "](effects/vocal.md)",
+            "after": "](ALL-VOCAL.md)<!-- historical-link:boss-043 -->",
+            "original_target": "effects/vocal.md",
+            "destination": "ALL-VOCAL.md"
+          }
+        ],
+        "original_sha256": "d3a44b42eaf55cc935fd200e7c11aeea29549b7cdcc692c942a7e1d07d207747",
+        "checked_date": "2026-10-18",
+        "invariant": "Reverse only these marked links to recover exact pre-edit category text;all other content unchanged",
+        "rollback": "Replace each exact after token with before;remove only this canonical_links entry"
+      },
+      "MOOER.md": {
+        "changes": [
+          {
+            "id": "mooer-001",
+            "before": "](effects/findings/2026-10-14-mooer-ge100.md)",
+            "after": "](MOOER.md#ge100-original)<!-- historical-link:mooer-001 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge100.md",
+            "destination": "MOOER.md#ge100-original"
+          },
+          {
+            "id": "mooer-002",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-002 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-003",
+            "before": "](effects/findings/2026-10-14-mooer-ge150.md)",
+            "after": "](MOOER.md#ge150-original)<!-- historical-link:mooer-003 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge150.md",
+            "destination": "MOOER.md#ge150-original"
+          },
+          {
+            "id": "mooer-004",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-004 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-005",
+            "before": "](effects/findings/2026-10-14-mooer-ge200.md)",
+            "after": "](MOOER.md#ge200-original)<!-- historical-link:mooer-005 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge200.md",
+            "destination": "MOOER.md#ge200-original"
+          },
+          {
+            "id": "mooer-006",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-006 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-007",
+            "before": "](effects/findings/2026-10-14-mooer-ge150-pro-li.md)",
+            "after": "](MOOER.md#ge150-pro-li)<!-- historical-link:mooer-007 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge150-pro-li.md",
+            "destination": "MOOER.md#ge150-pro-li"
+          },
+          {
+            "id": "mooer-008",
+            "before": "](effects/shopee-multifx.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-008 -->",
+            "original_target": "effects/shopee-multifx.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-009",
+            "before": "](effects/findings/2026-10-14-mooer-ge100-pro.md)",
+            "after": "](MOOER.md#ge100-pro)<!-- historical-link:mooer-009 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge100-pro.md",
+            "destination": "MOOER.md#ge100-pro"
+          },
+          {
+            "id": "mooer-010",
+            "before": "](effects/shopee-multifx-4.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-010 -->",
+            "original_target": "effects/shopee-multifx-4.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-011",
+            "before": "](effects/shopee-multifx-4.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-011 -->",
+            "original_target": "effects/shopee-multifx-4.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-012",
+            "before": "](effects/findings/2026-10-14-mooer-ge100-pro-li.md)",
+            "after": "](MOOER.md#ge100-pro-li)<!-- historical-link:mooer-012 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+            "destination": "MOOER.md#ge100-pro-li"
+          },
+          {
+            "id": "mooer-013",
+            "before": "](effects/shopee-multifx-4.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-013 -->",
+            "original_target": "effects/shopee-multifx-4.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-014",
+            "before": "](effects/shopee-multifx-4.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-014 -->",
+            "original_target": "effects/shopee-multifx-4.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-015",
+            "before": "](effects/findings/2026-10-14-mooer-ge200-pro.md)",
+            "after": "](MOOER.md#ge200-pro)<!-- historical-link:mooer-015 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge200-pro.md",
+            "destination": "MOOER.md#ge200-pro"
+          },
+          {
+            "id": "mooer-016",
+            "before": "](effects/shopee-multifx-4.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-016 -->",
+            "original_target": "effects/shopee-multifx-4.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-017",
+            "before": "](effects/shopee-multifx-4.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-017 -->",
+            "original_target": "effects/shopee-multifx-4.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-018",
+            "before": "](effects/findings/2026-10-14-mooer-ge200-pro-li.md)",
+            "after": "](MOOER.md#ge200-pro-li)<!-- historical-link:mooer-018 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+            "destination": "MOOER.md#ge200-pro-li"
+          },
+          {
+            "id": "mooer-019",
+            "before": "](effects/shopee-multifx-4.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-019 -->",
+            "original_target": "effects/shopee-multifx-4.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-020",
+            "before": "](effects/shopee-multifx-4.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-020 -->",
+            "original_target": "effects/shopee-multifx-4.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-021",
+            "before": "](effects/findings/2026-10-14-mooer-ge150-pro.md)",
+            "after": "](MOOER.md#ge150-pro)<!-- historical-link:mooer-021 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge150-pro.md",
+            "destination": "MOOER.md#ge150-pro"
+          },
+          {
+            "id": "mooer-022",
+            "before": "](effects/shopee-multifx-5.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-022 -->",
+            "original_target": "effects/shopee-multifx-5.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-023",
+            "before": "](effects/shopee-multifx-5.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-023 -->",
+            "original_target": "effects/shopee-multifx-5.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-024",
+            "before": "](effects/findings/2026-10-15-mooer-ge150-plus.md)",
+            "after": "](MOOER.md#ge150-plus)<!-- historical-link:mooer-024 -->",
+            "original_target": "effects/findings/2026-10-15-mooer-ge150-plus.md",
+            "destination": "MOOER.md#ge150-plus"
+          },
+          {
+            "id": "mooer-025",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-025 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-026",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-026 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-027",
+            "before": "](effects/findings/2026-10-15-mooer-ge150-plus-li.md)",
+            "after": "](MOOER.md#ge150-plus-li)<!-- historical-link:mooer-027 -->",
+            "original_target": "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
+            "destination": "MOOER.md#ge150-plus-li"
+          },
+          {
+            "id": "mooer-028",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-028 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-029",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-029 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-030",
+            "before": "](effects/findings/2026-10-15-mooer-ge150-max.md)",
+            "after": "](MOOER.md#ge150-max)<!-- historical-link:mooer-030 -->",
+            "original_target": "effects/findings/2026-10-15-mooer-ge150-max.md",
+            "destination": "MOOER.md#ge150-max"
+          },
+          {
+            "id": "mooer-031",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-031 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-032",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-032 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-033",
+            "before": "](effects/findings/2026-10-15-mooer-ge150-max-li.md)",
+            "after": "](MOOER.md#ge150-max-li)<!-- historical-link:mooer-033 -->",
+            "original_target": "effects/findings/2026-10-15-mooer-ge150-max-li.md",
+            "destination": "MOOER.md#ge150-max-li"
+          },
+          {
+            "id": "mooer-034",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-034 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-035",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-035 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-036",
+            "before": "](effects/findings/2026-10-14-mooer-ge1000.md)",
+            "after": "](MOOER.md#ge1000)<!-- historical-link:mooer-036 -->",
+            "original_target": "effects/findings/2026-10-14-mooer-ge1000.md",
+            "destination": "MOOER.md#ge1000"
+          },
+          {
+            "id": "mooer-037",
+            "before": "](effects/shopee-multifx-5.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-037 -->",
+            "original_target": "effects/shopee-multifx-5.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-038",
+            "before": "](effects/shopee-multifx-5.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-038 -->",
+            "original_target": "effects/shopee-multifx-5.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-039",
+            "before": "](effects/findings/2026-10-15-mooer-ge1000-li.md)",
+            "after": "](MOOER.md#ge1000-li)<!-- historical-link:mooer-039 -->",
+            "original_target": "effects/findings/2026-10-15-mooer-ge1000-li.md",
+            "destination": "MOOER.md#ge1000-li"
+          },
+          {
+            "id": "mooer-040",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-040 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          },
+          {
+            "id": "mooer-041",
+            "before": "](effects/shopee-multifx-6.md)",
+            "after": "](research-state.json)<!-- historical-link:mooer-041 -->",
+            "original_target": "effects/shopee-multifx-6.md",
+            "destination": "research-state.json"
+          }
+        ],
+        "original_sha256": "8077c55f3bdf1cc40e1f5ff2b8c67a8b6d49a18287b78b104392a46d7e966c29",
         "checked_date": "2026-10-18",
         "invariant": "Reverse only these marked links to recover exact pre-edit category text;all other content unchanged",
         "rollback": "Replace each exact after token with before;remove only this canonical_links entry"

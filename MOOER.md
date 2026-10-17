@@ -306,7 +306,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Configuration apps** (5. Power, software and practice/live features): No editor connection documented
 - **Other documented functions** (5. Power, software and practice/live features): 180 s looper;40 rhythms+10 metronomes; chord/scale dictionary
 
-Sources: [effects/findings/2026-10-14-mooer-ge100.md](effects/findings/2026-10-14-mooer-ge100.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge100.md](MOOER.md#ge100-original)<!-- historical-link:mooer-001 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:mooer-002 -->. No legacy file was deleted.
 
 ## GE150 original
 
@@ -371,7 +371,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Configuration apps** (5. Power, software and practice/live features): Windows/macOS editor; current OS compatibility ?
 - **Other documented functions** (5. Power, software and practice/live features): 80 s looper;40 rhythms+10 metronomes; mobile OTG recording
 
-Sources: [effects/findings/2026-10-14-mooer-ge150.md](effects/findings/2026-10-14-mooer-ge150.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge150.md](MOOER.md#ge150-original)<!-- historical-link:mooer-003 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:mooer-004 -->. No legacy file was deleted.
 
 ## GE200 original
 
@@ -440,7 +440,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Configuration apps** (5. Power, software and practice/live features): Windows/macOS editor; current OS compatibility ?
 - **Other documented functions** (5. Power, software and practice/live features): USB audio;52 s looper;40 rhythms+10 metronomes; Merge morphing
 
-Sources: [effects/findings/2026-10-14-mooer-ge200.md](effects/findings/2026-10-14-mooer-ge200.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge200.md](MOOER.md#ge200-original)<!-- historical-link:mooer-005 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:mooer-006 -->. No legacy file was deleted.
 
 ## GE150 Pro Li
 
@@ -515,7 +515,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Configuration apps** (5. Power, software and practice/live features): Current Windows10+/macOS10.13+ editor
 - **Other documented functions** (5. Power, software and practice/live features): 80 s stereo looper;40 rhythms+10 metronomes; conditional spillover/global EQ with firmware
 
-Sources: [effects/findings/2026-10-14-mooer-ge150-pro-li.md](effects/findings/2026-10-14-mooer-ge150-pro-li.md), [effects/shopee-multifx.md](effects/shopee-multifx.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge150-pro-li.md](MOOER.md#ge150-pro-li)<!-- historical-link:mooer-007 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:mooer-008 -->. No legacy file was deleted.
 
 ## GE100 Pro
 
@@ -598,7 +598,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Shopee retail/indexed evidence** (Separate IDR evidence): **Rp2.103.300**, LOBAJET; earlier snippet/voucher discrepancy unresolved. Separate **Rp5.729.000**,30-day preorder
 - **Separate local retailer / qualification** (Separate IDR evidence): GP Music **Rp1.750.000 sold out**. Do not combine conditional,preorder and historical amounts
 
-Sources: [effects/findings/2026-10-14-mooer-ge100-pro.md](effects/findings/2026-10-14-mooer-ge100-pro.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge100-pro.md](MOOER.md#ge100-pro)<!-- historical-link:mooer-009 -->, [effects/shopee-multifx-4.md](research-state.json)<!-- historical-link:mooer-010 -->. No legacy file was deleted.
 
 ### Preserved fourth Shopee expansion shared comparison
 
@@ -606,7 +606,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 - **Findings commit** (Immediate model commits): `e048a3c9f0e4b1ff77023757ee3730604487e4d6`
 
-[Original shared source](effects/shopee-multifx-4.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-011 -->,retained pending complete navigation/provenance audits.
 
 ## GE100 Pro Li
 
@@ -689,7 +689,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Shopee retail/indexed evidence** (Separate IDR evidence): **Rp2.923.526 WITH VOUCHER**, LOBAJET; separate **Rp1.734.000 SOLD OUT**,gpmusic.sby
 - **Separate local retailer / qualification** (Separate IDR evidence): Blibli LOBAJET **Rp3.499.000 explicitly Mandarin version**; not an English/global Shopee price
 
-Sources: [effects/findings/2026-10-14-mooer-ge100-pro-li.md](effects/findings/2026-10-14-mooer-ge100-pro-li.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge100-pro-li.md](MOOER.md#ge100-pro-li)<!-- historical-link:mooer-012 -->, [effects/shopee-multifx-4.md](research-state.json)<!-- historical-link:mooer-013 -->. No legacy file was deleted.
 
 ### Preserved fourth Shopee expansion shared comparison
 
@@ -697,7 +697,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 - **Findings commit** (Immediate model commits): `1a8da46cab3c6deb4c224e7a92664658491c827c`
 
-[Original shared source](effects/shopee-multifx-4.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-014 -->,retained pending complete navigation/provenance audits.
 
 ## GE200 Pro
 
@@ -777,7 +777,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Shopee retail/indexed evidence** (Separate IDR evidence): **? per variant**; earlier mixed Pro/Pro Li item cannot supply a model-specific range
 - **Separate local retailer / qualification** (Separate IDR evidence): GMI **Rp5.800.000**, indexed available; not Shopee checkout evidence
 
-Sources: [effects/findings/2026-10-14-mooer-ge200-pro.md](effects/findings/2026-10-14-mooer-ge200-pro.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge200-pro.md](MOOER.md#ge200-pro)<!-- historical-link:mooer-015 -->, [effects/shopee-multifx-4.md](research-state.json)<!-- historical-link:mooer-016 -->. No legacy file was deleted.
 
 ### Preserved fourth Shopee expansion shared comparison
 
@@ -785,7 +785,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 - **Findings commit** (Immediate model commits): `65454759f24b3aca8ce021a9a585b117483f90e7`
 
-[Original shared source](effects/shopee-multifx-4.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-017 -->,retained pending complete navigation/provenance audits.
 
 ## GE200 Pro Li
 
@@ -865,7 +865,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Shopee retail/indexed evidence** (Separate IDR evidence): **Rp6.896.000**, seller name Nafiri Music Store; indexed, direct reopen failed
 - **Separate local retailer / qualification** (Separate IDR evidence): Older GMI **Rp6.895.000** retained separately; current stock unverified
 
-Sources: [effects/findings/2026-10-14-mooer-ge200-pro-li.md](effects/findings/2026-10-14-mooer-ge200-pro-li.md), [effects/shopee-multifx-4.md](effects/shopee-multifx-4.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge200-pro-li.md](MOOER.md#ge200-pro-li)<!-- historical-link:mooer-018 -->, [effects/shopee-multifx-4.md](research-state.json)<!-- historical-link:mooer-019 -->. No legacy file was deleted.
 
 ### Preserved fourth Shopee expansion shared comparison
 
@@ -873,7 +873,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 - **Findings commit** (Immediate model commits): `25261922a20825215da55a8f5a7676f0e2e9d4d4`
 
-[Original shared source](effects/shopee-multifx-4.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-020 -->,retained pending complete navigation/provenance audits.
 
 ## GE150 Pro
 
@@ -948,7 +948,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Retail observation** (IDR observations and original commits): Rp2.750.000, **sold out**, historical ask only
 - **Original model commit** (IDR observations and original commits): `be016fb50f1df0642ef1c06890a19a3ba3574fb7`
 
-Sources: [effects/findings/2026-10-14-mooer-ge150-pro.md](effects/findings/2026-10-14-mooer-ge150-pro.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge150-pro.md](MOOER.md#ge150-pro)<!-- historical-link:mooer-021 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:mooer-022 -->. No legacy file was deleted.
 
 ### Preserved fifth Shopee expansion shared comparison
 
@@ -958,7 +958,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Published dimensions, mm; weight** (Hardware and displays): L310×W153×H55; 1.1 kg
 - **Main display** (Hardware and displays): 2.8-inch color LCD; explicit touch specification unverified
 
-[Original shared source](effects/shopee-multifx-5.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-023 -->,retained pending complete navigation/provenance audits.
 
 ## GE150 Plus
 
@@ -1034,7 +1034,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Model-specific retail evidence** (Separate IDR evidence): ?
 - **Unresolved marketplace evidence** (Separate IDR evidence): Saved mixed Plus/Plus Li preorder could not reopen; no per-variant price assigned
 
-Sources: [effects/findings/2026-10-15-mooer-ge150-plus.md](effects/findings/2026-10-15-mooer-ge150-plus.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-15-mooer-ge150-plus.md](MOOER.md#ge150-plus)<!-- historical-link:mooer-024 -->, [effects/shopee-multifx-6.md](research-state.json)<!-- historical-link:mooer-025 -->. No legacy file was deleted.
 
 ### Preserved sixth Shopee expansion shared comparison
 
@@ -1047,7 +1047,7 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Initial findings commit** (Individual commits): `4edfd824196dc1ba049de16a31db6eb720e638a1`
 - **Follow-up correction** (Individual commits): `de6c0daae4b79f22a3dea837ae9c24e9def11f81`,screen color
 
-[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-026 -->,retained pending complete navigation/provenance audits.
 
 ## GE150 Plus Li
 
@@ -1110,7 +1110,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Model-specific retail evidence** (Separate IDR evidence): ?
 - **Unresolved marketplace evidence** (Separate IDR evidence): Same mixed listing; no assumed lower-price variation
 
-Sources: [effects/findings/2026-10-15-mooer-ge150-plus-li.md](effects/findings/2026-10-15-mooer-ge150-plus-li.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-15-mooer-ge150-plus-li.md](MOOER.md#ge150-plus-li)<!-- historical-link:mooer-027 -->, [effects/shopee-multifx-6.md](research-state.json)<!-- historical-link:mooer-028 -->. No legacy file was deleted.
 
 ### Preserved sixth Shopee expansion shared comparison
 
@@ -1119,7 +1119,7 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Initial findings commit** (Individual commits): `a8bc38fa84b877defe8be8c5a252510d4bed2eb1`
 - **Follow-up correction** (Individual commits): `d33231eb018b7ba8277a794bc1f069c9128b0363`,screen color
 
-[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-029 -->,retained pending complete navigation/provenance audits.
 
 ## GE150 Max
 
@@ -1180,7 +1180,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Model-specific retail evidence** (Separate IDR evidence): ?
 - **Unresolved marketplace evidence** (Separate IDR evidence): Related **Rp3.499.000,15-day preorder** says Pro Max; exact variant/condition unresolved and older delivery text retained
 
-Sources: [effects/findings/2026-10-15-mooer-ge150-max.md](effects/findings/2026-10-15-mooer-ge150-max.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-15-mooer-ge150-max.md](MOOER.md#ge150-max)<!-- historical-link:mooer-030 -->, [effects/shopee-multifx-6.md](research-state.json)<!-- historical-link:mooer-031 -->. No legacy file was deleted.
 
 ### Preserved sixth Shopee expansion shared comparison
 
@@ -1192,7 +1192,7 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Initial findings commit** (Individual commits): `305fe3aa99fe2abc2fba91364040f019eeef74ed`
 - **Follow-up correction** (Individual commits): `90961e0a6c48c6ee95cc439c996a38559417d6d1`,shared-manual category/memory/port/dimension evidence
 
-[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-032 -->,retained pending complete navigation/provenance audits.
 
 ## GE150 Max Li
 
@@ -1265,7 +1265,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Model-specific retail evidence** (Separate IDR evidence): ?
 - **Unresolved marketplace evidence** (Separate IDR evidence): Collection-index-only **Rp3.500.000** without exact item ID; not promoted to a verified current offer
 
-Sources: [effects/findings/2026-10-15-mooer-ge150-max-li.md](effects/findings/2026-10-15-mooer-ge150-max-li.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-15-mooer-ge150-max-li.md](MOOER.md#ge150-max-li)<!-- historical-link:mooer-033 -->, [effects/shopee-multifx-6.md](research-state.json)<!-- historical-link:mooer-034 -->. No legacy file was deleted.
 
 ### Preserved sixth Shopee expansion shared comparison
 
@@ -1274,7 +1274,7 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Initial findings commit** (Individual commits): `4c517769bf6ebe3343491669c0b8dbfa2876639d`
 - **Follow-up correction** (Individual commits): All remaining source conflicts retained
 
-[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-035 -->,retained pending complete navigation/provenance audits.
 
 ## GE1000
 
@@ -1356,7 +1356,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Retail observation** (IDR observations and original commits): Rp7.520.000, indexed Shopee; separate retailer observation same amount
 - **Original model commit** (IDR observations and original commits): `671fc47896c8c6544598926e789ad4a0be19c1eb`
 
-Sources: [effects/findings/2026-10-14-mooer-ge1000.md](effects/findings/2026-10-14-mooer-ge1000.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-14-mooer-ge1000.md](MOOER.md#ge1000)<!-- historical-link:mooer-036 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:mooer-037 -->. No legacy file was deleted.
 
 ### Preserved fifth Shopee expansion shared comparison
 
@@ -1365,7 +1365,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Built-in / external expression** (Hardware and displays): Yes + toe / no dedicated EXP socket in checked inventory
 - **Published dimensions, mm; weight** (Hardware and displays): L337×W170×H57; 1.9 kg
 
-[Original shared source](effects/shopee-multifx-5.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-038 -->,retained pending complete navigation/provenance audits.
 
 ## GE1000 Li
 
@@ -1430,7 +1430,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Model-specific retail evidence** (Separate IDR evidence): **Rp8.544.000** Bandar Musik Jakarta;separate **Rp9.078.000** Melodia indexed retailer ask
 - **Unresolved marketplace evidence** (Separate IDR evidence): Exact Indonesian Shopee item not established in this pass; Thai results excluded. Nafiri same-price page has contradictory stock markers
 
-Sources: [effects/findings/2026-10-15-mooer-ge1000-li.md](effects/findings/2026-10-15-mooer-ge1000-li.md), [effects/shopee-multifx-6.md](effects/shopee-multifx-6.md). No legacy file was deleted.
+Sources: [effects/findings/2026-10-15-mooer-ge1000-li.md](MOOER.md#ge1000-li)<!-- historical-link:mooer-039 -->, [effects/shopee-multifx-6.md](research-state.json)<!-- historical-link:mooer-040 -->. No legacy file was deleted.
 
 ### Preserved sixth Shopee expansion shared comparison
 
@@ -1439,7 +1439,7 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Initial findings commit** (Individual commits): `3a4f00547cf493fc3f11936067e4e87990873547`
 - **Follow-up correction** (Individual commits): Weight and port-summary disagreements retained
 
-[Original shared source](effects/shopee-multifx-6.md),retained pending complete navigation/provenance audits.
+[Original shared source](research-state.json)<!-- historical-link:mooer-041 -->,retained pending complete navigation/provenance audits.
 
 ## PE100
 

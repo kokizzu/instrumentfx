@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import sys
 sys.dont_write_bytecode = True
+from canonical_links import preservation_text
 import research_tools as research
 import consolidation_tools as consolidation
 import comparison_views
@@ -288,7 +289,7 @@ def specialist_verify():
     original=research.read_preserved_source(SPECIALIST)
     record=state['migration'].get('retired_sources',{}).get(SPECIALIST)
     if record:
-        boss=(ROOT/'BOSS.md').read_text()
+        boss=preservation_text('BOSS.md')
         body=boss.split(SPECIALIST_MARKER+'\n',1)[1].split('<!-- specialist page context ends -->',1)[0]
         assert body==specialist_context(original)
         assert (ROOT/SPECIALIST).read_text()==specialist_stub(original,record['source_commit'])

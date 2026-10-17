@@ -28,7 +28,7 @@ Checked **2026-10-14**. Records are **partial**, not certifications that every f
 | Configuration apps | BOSS Tone Studio Windows/macOS |
 | Other important features | USB audio; 32 s looper |
 
-Original primary source: [BOSS specifications](https://www.boss.info/global/products/gt-1b/specifications/). [Complete original comparison](effects/bass.md) read and retained unchanged; no source deleted.
+Original primary source: [BOSS specifications](https://www.boss.info/global/products/gt-1b/specifications/). [Complete original comparison](ALL-BASS.md)<!-- historical-link:boss-001 --> read and retained unchanged; no source deleted.
 
 ### GT-1B — current manufacturer checks
 
@@ -88,7 +88,7 @@ Do not interpret the lower international new price versus a US used ask as an er
 | Configuration apps | BOSS Tone Studio Windows/macOS/iOS/Android; built-in Bluetooth |
 | Other important features | USB audio; 38 s mono/19 s stereo looper; wireless MIDI-control options |
 
-Original sources: [source](https://www.boss.info/global/products/gx-1b/specifications/); [source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc); [source](https://www.thomannmusic.com/zoom_b6.htm). P2 is GC multi-effects catalogue;P1 Thomann B6 cross-listed comparisons,US-facing USD,tax/shipping excluded. Historical USD229.99/225 observations are not converted IDR. [Complete original](effects/bass.md) retained unchanged;no source deleted.
+Original sources: [source](https://www.boss.info/global/products/gx-1b/specifications/); [source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc); [source](https://www.thomannmusic.com/zoom_b6.htm). P2 is GC multi-effects catalogue;P1 Thomann B6 cross-listed comparisons,US-facing USD,tax/shipping excluded. Historical USD229.99/225 observations are not converted IDR. [Complete original](ALL-BASS.md)<!-- historical-link:boss-002 --> retained unchanged;no source deleted.
 
 ### GX-1B — current manufacturer checks
 
@@ -151,7 +151,7 @@ Do not interpret the lower international new price versus a US used ask as an er
 | Configuration apps | Tone Studio Windows/macOS; iOS/Android with **optional BT-DUAL** |
 | Other important features | Dry-blend knob; manual stomp mode; 38 s mono looper; USB audio |
 
-Original source URLs: [source](https://www.boss.info/global/products/me-90b/specifications/); [source](https://static.roland.com/products/me-90b/image/me-90b_gal_top.jpg); [source](https://www.thomannmusic.com/zoom_b6.htm); [source](https://www.thomannmusic.com/boss_me_90b.htm); [source](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=13); [source](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=9); [source](https://www.guitarcenter.com/BOSS/Bass-Effects-Pedals.gc). P1:Thomann US-facing/tax-shipping excluded;P3:GC indexed used349.99 and399.99Excellent,unusual Fender path retained;P4:GC bass catalogue. Original photo checked against manufacturer control list. Historical USD asks remain separate from IDR;no conversion. [Complete original](effects/bass.md) retained unchanged.
+Original source URLs: [source](https://www.boss.info/global/products/me-90b/specifications/); [source](https://static.roland.com/products/me-90b/image/me-90b_gal_top.jpg); [source](https://www.thomannmusic.com/zoom_b6.htm); [source](https://www.thomannmusic.com/boss_me_90b.htm); [source](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=13); [source](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=9); [source](https://www.guitarcenter.com/BOSS/Bass-Effects-Pedals.gc). P1:Thomann US-facing/tax-shipping excluded;P3:GC indexed used349.99 and399.99Excellent,unusual Fender path retained;P4:GC bass catalogue. Original photo checked against manufacturer control list. Historical USD asks remain separate from IDR;no conversion. [Complete original](ALL-BASS.md)<!-- historical-link:boss-003 --> retained unchanged.
 
 ### ME-90B — current manufacturer checks
 
@@ -255,7 +255,7 @@ Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimen
 | Configuration apps versus USB functions | Full editor not established; Windows/macOS drivers and USB audio |
 | Looper / live considerations | No guitar input; three memories; small single-switch interface |
 
-Original sources: [source](https://www.boss.info/global/products/ve-1/specifications/); [source](https://static.roland.com/assets/images/products/main/ve-1_top_main.jpg); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series). P1:Sweetwater BOSS signal-processing listings,new USD240.99 checked2026-10-14;bundles/open-box excluded. Original rotary count includes rear MIC SENS. USD is not converted IDR. [Complete original](effects/vocal.md) retained unchanged;no source deleted.
+Original sources: [source](https://www.boss.info/global/products/ve-1/specifications/); [source](https://static.roland.com/assets/images/products/main/ve-1_top_main.jpg); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series). P1:Sweetwater BOSS signal-processing listings,new USD240.99 checked2026-10-14;bundles/open-box excluded. Original rotary count includes rear MIC SENS. USD is not converted IDR. [Complete original](ALL-VOCAL.md)<!-- historical-link:boss-004 --> retained unchanged;no source deleted.
 
 ### VE-1 — current manufacturer checks
 
@@ -329,7 +329,7 @@ Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimen
 | Configuration apps versus USB functions | Full editor not established; Windows/macOS drivers; USB audio/loopback |
 | Looper / live considerations | Guitar detection assists harmony without requiring a pre-programmed key |
 
-Original sources: [source](https://www.boss.info/global/products/ve-2/); [source](https://static.roland.com/assets/images/products/main/ve-2_top_main.jpg); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series). Original rotary count includes rear MIC SENS. P1:Sweetwater BOSS signal-processing listings,new USD229.98 checked2026-10-14,bundles/open-box excluded;not converted IDR. [Complete original](effects/vocal.md) read and retained unchanged.
+Original sources: [source](https://www.boss.info/global/products/ve-2/); [source](https://static.roland.com/assets/images/products/main/ve-2_top_main.jpg); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series). Original rotary count includes rear MIC SENS. P1:Sweetwater BOSS signal-processing listings,new USD229.98 checked2026-10-14,bundles/open-box excluded;not converted IDR. [Complete original](ALL-VOCAL.md)<!-- historical-link:boss-005 --> read and retained unchanged.
 
 ### VE-2 — current manufacturer checks
 
@@ -386,7 +386,7 @@ A guitar input used to detect chords does not automatically provide guitar effec
 | Configuration apps versus USB functions | **Windows/macOS full editor/librarian**; USB-MIDI; USB audio not established |
 | Looper / live considerations | Looper included, duration ?; **no headphone jack listed**; separate live/harmony routing |
 
-Original sources: [source](https://www.boss.info/global/products/ve-500/specifications/); [source](https://www.boss.info/global/products/ve-500/); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series); [source](https://www.sweetwater.com/store/detail/VE500--boss-ve-500-vocal-performer). P1:Sweetwater new USD527.99 checked2026-10-14,bundles/open-box excluded;not converted IDR. [Complete original](effects/vocal.md) retained unchanged.
+Original sources: [source](https://www.boss.info/global/products/ve-500/specifications/); [source](https://www.boss.info/global/products/ve-500/); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series); [source](https://www.sweetwater.com/store/detail/VE500--boss-ve-500-vocal-performer). P1:Sweetwater new USD527.99 checked2026-10-14,bundles/open-box excluded;not converted IDR. [Complete original](ALL-VOCAL.md)<!-- historical-link:boss-006 --> retained unchanged.
 
 ### VE-500 — manufacturer checks
 
@@ -448,7 +448,7 @@ Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimen
 | Configuration apps versus USB functions | USB audio for computer/mobile; full editor not established; drivers are not an editor |
 | Looper / live considerations | **37 s** looper; stereo, dual mono or wet/dry + dry output options |
 
-Original sources: [source](https://www.boss.info/global/products/ve-22/specifications/); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series); [source](https://www.sweetwater.com/store/detail/VE22--boss-ve-22-vocal-effects-and-looper-pedal); [source](https://www.guitarcenter.com/BOSS/Vocal-Processors.gc). P1:Sweetwater new USD399.99,bundles/open-box excluded;P2:GC used USD299.99 Great,not completed sale or guaranteed stock;both checked2026-10-14. No currency conversion. [Complete original](effects/vocal.md) retained unchanged.
+Original sources: [source](https://www.boss.info/global/products/ve-22/specifications/); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series); [source](https://www.sweetwater.com/store/detail/VE22--boss-ve-22-vocal-effects-and-looper-pedal); [source](https://www.guitarcenter.com/BOSS/Vocal-Processors.gc). P1:Sweetwater new USD399.99,bundles/open-box excluded;P2:GC used USD299.99 Great,not completed sale or guaranteed stock;both checked2026-10-14. No currency conversion. [Complete original](ALL-VOCAL.md)<!-- historical-link:boss-007 --> retained unchanged.
 
 ### VE-22 — current manufacturer checks
 
@@ -536,7 +536,7 @@ A guitar input used to detect chords does not automatically provide guitar effec
 | Configuration apps versus USB functions | USB audio; full editor not established |
 | Looper / live considerations | **80 s** looper with separate guitar/vocal control; notch/phase feedback tools |
 
-Original sources: [source](https://www.boss.info/global/products/ve-8/specifications/); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series). P1:Sweetwater new USD417.99,checked2026-10-14,bundles/open-box excluded;not converted IDR. [Complete original](effects/vocal.md) retained unchanged.
+Original sources: [source](https://www.boss.info/global/products/ve-8/specifications/); [source](https://www.sweetwater.com/c740--Boss--Signal_Processing_and_500_Series). P1:Sweetwater new USD417.99,checked2026-10-14,bundles/open-box excluded;not converted IDR. [Complete original](ALL-VOCAL.md)<!-- historical-link:boss-008 --> retained unchanged.
 
 ### VE-8 — current manufacturer checks
 
@@ -591,7 +591,7 @@ Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimen
 | Configuration apps versus USB functions | No computer editor/import connection listed |
 | Looper / live considerations | **38 s mono** looper; discontinued product; older software-free workflow |
 
-Original sources: [source](https://www.boss.info/global/products/ve-20/specifications/); [source](https://www.guitarcenter.com/BOSS/Vocal-Processors.gc). P2:GC used USD159.99–224.99,Good–Excellent,checked2026-10-14;not guaranteed stock/completed sales,not converted IDR. [Complete original](effects/vocal.md) retained unchanged.
+Original sources: [source](https://www.boss.info/global/products/ve-20/specifications/); [source](https://www.guitarcenter.com/BOSS/Vocal-Processors.gc). P2:GC used USD159.99–224.99,Good–Excellent,checked2026-10-14;not guaranteed stock/completed sales,not converted IDR. [Complete original](ALL-VOCAL.md)<!-- historical-link:boss-009 --> retained unchanged.
 
 ### VE-20 — manufacturer checks and conflicts
 
@@ -632,7 +632,7 @@ Consolidated 2026-10-16;technical dates below retained. Partial verification;his
 
 <!-- BOSS-GT-1000CORE source begins -->
 
-Checked **2026-10-15**. This updates an existing record in [BOSS comparison](effects/guitar-boss.md); it is **not a new model**. Earlier technical research remains dated2026-10-14 unless explicitly rechecked here.
+Checked **2026-10-15**. This updates an existing record in [BOSS comparison](BOSS.md)<!-- historical-link:boss-010 -->; it is **not a new model**. Earlier technical research remains dated2026-10-14 unless explicitly rechecked here.
 
 ### Display
 
@@ -718,7 +718,7 @@ U2: indexed USD414.99 and USD499.99 asks;availability unconfirmed;not IDR or com
 
 [Historical source](https://www.boss.info/global/products/gt-1000core/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/BOSS/Floor-Guitar-Effects.gc?Ntt=%E2%80%8B&page=12) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc?page=7)
 
-Sources retained unchanged: [follow-up](effects/findings/2026-10-15-boss-gt1000core-display-idr.md),[comparison](effects/guitar-boss.md),[original comparison](effects/guitar-boss.history-2026-10-14.md).
+Sources retained unchanged: [follow-up](BOSS.md#gt-1000core)<!-- historical-link:boss-011 -->,[comparison](BOSS.md)<!-- historical-link:boss-012 -->,[original comparison](BOSS.md)<!-- historical-link:boss-013 -->.
 
 ### GT-1000CORE — current check
 
@@ -735,7 +735,7 @@ Consolidated and refreshed2026-10-16;partial technical verification. Original da
 
 <!-- BOSS-GX-10 source begins -->
 
-Checked **2026-10-15**. Existing model in [BOSS comparison](effects/guitar-boss.md), not an additional catalogue entry.
+Checked **2026-10-15**. Existing model in [BOSS comparison](BOSS.md)<!-- historical-link:boss-014 -->, not an additional catalogue entry.
 
 ### Display and directly rechecked specifications
 
@@ -816,7 +816,7 @@ U3:GC used item122596708 USD324.99,item122413069 USD329.99,Great;N:GC newUSD439.
 
 [Historical source](https://www.boss.info/global/products/gx-10/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc?page=7) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122596708.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Used-BOSS-GX10-Effect-Processor-122413069.gc)
 
-Sources preserved unchanged:[follow-up](effects/findings/2026-10-15-boss-gx10-display-idr.md),[current comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+Sources preserved unchanged:[follow-up](BOSS.md#gx-10)<!-- historical-link:boss-015 -->,[current comparison](BOSS.md)<!-- historical-link:boss-016 -->,[historical comparison](BOSS.md)<!-- historical-link:boss-017 -->. No legacy source deleted.
 
 ### GX-10 — current comparison evidence
 
@@ -868,7 +868,7 @@ Consolidated and refreshed **2026-10-16**; partial technical verification. Origi
 
 <!-- BOSS-GT-1 source begins -->
 
-Checked **2026-10-15**. Existing [BOSS comparison](effects/guitar-boss.md) model; this finding adds no inventory count.
+Checked **2026-10-15**. Existing [BOSS comparison](BOSS.md)<!-- historical-link:boss-018 --> model; this finding adds no inventory count.
 
 ### Display
 
@@ -948,7 +948,7 @@ U1: Guitar Center used USD119.99, Good, checked2026-10-14. New unknown; old stoc
 
 [Historical source](https://www.boss.info/global/products/gt-1/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc)
 
-Original sources remain unchanged: [follow-up](effects/findings/2026-10-15-boss-gt1-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+Original sources remain unchanged: [follow-up](BOSS.md#gt-1)<!-- historical-link:boss-019 -->,[comparison](BOSS.md)<!-- historical-link:boss-020 -->,[historical comparison](BOSS.md)<!-- historical-link:boss-021 -->. No legacy source deleted.
 
 ### GT-1 — current comparison evidence
 
@@ -1015,7 +1015,7 @@ Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, n
 
 <!-- BOSS-GX-1 source begins -->
 
-Checked **2026-10-15**. Existing model in [BOSS comparison](effects/guitar-boss.md); not an additional catalogue entry and not GX-1B.
+Checked **2026-10-15**. Existing model in [BOSS comparison](BOSS.md)<!-- historical-link:boss-022 -->; not an additional catalogue entry and not GX-1B.
 
 ### Display and directly rechecked hardware
 
@@ -1100,7 +1100,7 @@ N: Guitar Center new USD229.99, checked2026-10-14; used USD unknown. Historical 
 
 [Historical source](https://www.boss.info/global/products/gx-1/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc)
 
-Sources retained unchanged: [follow-up](effects/findings/2026-10-15-boss-gx1-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+Sources retained unchanged: [follow-up](BOSS.md#gx-1)<!-- historical-link:boss-023 -->,[comparison](BOSS.md)<!-- historical-link:boss-024 -->,[historical comparison](BOSS.md)<!-- historical-link:boss-025 -->. No legacy source deleted.
 
 ### GX-1 — current comparison evidence
 
@@ -1150,7 +1150,7 @@ Consolidated and refreshed **2026-10-16**; partial verification. This is the gui
 
 <!-- BOSS-ME-90 source begins -->
 
-Checked **2026-10-15**. Updates an existing [BOSS comparison](effects/guitar-boss.md) record; not another model.
+Checked **2026-10-15**. Updates an existing [BOSS comparison](BOSS.md)<!-- historical-link:boss-026 --> record; not another model.
 
 ### Display and controls
 
@@ -1233,7 +1233,7 @@ U1/U4: Guitar Center used USD254.99–294.99, Good–Great; U4 indexedUSD254.99 
 
 [Historical source](https://www.boss.info/global/products/me-90/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/Boss/?page=60)
 
-Sources retained unchanged: [follow-up](effects/findings/2026-10-15-boss-me90-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+Sources retained unchanged: [follow-up](BOSS.md#me-90)<!-- historical-link:boss-027 -->,[comparison](BOSS.md)<!-- historical-link:boss-028 -->,[historical comparison](BOSS.md)<!-- historical-link:boss-029 -->. No legacy source deleted.
 
 ### ME-90 — current comparison evidence
 
@@ -1279,7 +1279,7 @@ Consolidated and refreshed **2026-10-16**; partial verification. Full original o
 
 <!-- BOSS-GX-100 source begins -->
 
-Checked **2026-10-15**. Existing [BOSS comparison](effects/guitar-boss.md) record, not another model.
+Checked **2026-10-15**. Existing [BOSS comparison](BOSS.md)<!-- historical-link:boss-030 --> record, not another model.
 
 ### Display and firmware-sensitive correction
 
@@ -1362,7 +1362,7 @@ U1: Guitar Center usedUSD559.99,Excellent; N:newUSD659.99,checked2026-10-14. Ask
 
 [Historical source](https://www.boss.info/global/products/gx-100/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc)
 
-Sources retained unchanged: [follow-up](effects/findings/2026-10-15-boss-gx100-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+Sources retained unchanged: [follow-up](BOSS.md#gx-100)<!-- historical-link:boss-031 -->,[comparison](BOSS.md)<!-- historical-link:boss-032 -->,[historical comparison](BOSS.md)<!-- historical-link:boss-033 -->. No legacy source deleted.
 
 ### GX-100 — current comparison evidence
 
@@ -1412,7 +1412,7 @@ Consolidated and refreshed **2026-10-16**; partial verification. Full-size GT-10
 
 <!-- BOSS-GT-1000 source begins -->
 
-Checked **2026-10-15**. Existing [BOSS comparison](effects/guitar-boss.md) model; separate from GT-1000CORE.
+Checked **2026-10-15**. Existing [BOSS comparison](BOSS.md)<!-- historical-link:boss-034 --> model; separate from GT-1000CORE.
 
 ### Display and scoped technical checks
 
@@ -1495,7 +1495,7 @@ U1: Guitar Center usedUSD379.99–699.99,assorted Good–Great; N:newUSD1,209.99
 
 [Historical source](https://www.boss.info/global/products/gt-1000/specifications/) · [Historical source](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc) · [Historical source](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc)
 
-Sources retained unchanged: [follow-up](effects/findings/2026-10-15-boss-gt1000-display-idr.md),[comparison](effects/guitar-boss.md),[historical comparison](effects/guitar-boss.history-2026-10-14.md). No legacy source deleted.
+Sources retained unchanged: [follow-up](BOSS.md#gt-1000)<!-- historical-link:boss-035 -->,[comparison](BOSS.md)<!-- historical-link:boss-036 -->,[historical comparison](BOSS.md)<!-- historical-link:boss-037 -->. No legacy source deleted.
 
 ### GT-1000 — current comparison evidence
 
@@ -1568,7 +1568,7 @@ Included as a multi-instrument synthesizer with multiple independent MFX stages,
 The Serial GK connection uses the manufacturer's **BGK cable** and an appropriate divided pickup/interface. Older 13-pin GK equipment requires the appropriate **GKC-AD** conversion; a standard guitar cable is not a substitute. MIDI keyboards/controllers can also drive the sound engine. Primary source: [BOSS GM-800](https://www.boss.info/global/products/gm-800/).
 <!-- BOSS-GM-800 source ends -->
 
-[Complete original source](effects/specialist.md#eligible-record-boss-gm-800) retained unchanged; no source deleted.
+[Complete original source](BOSS.md#gm-800)<!-- historical-link:boss-038 --> retained unchanged; no source deleted.
 
 ### GM-800 — current comparison evidence
 
@@ -1614,7 +1614,7 @@ Historical page context;original technical snapshot and excluded-scope wording r
 
 <!-- specialist page context begins -->
 
-[Home](effects/README.md) · [Scope](effects/SCOPE.md) · [Methodology](effects/METHODOLOGY.md) · [Multi-effects](effects/guitar-floorboards.md) · [Vocals](effects/vocal.md)
+[Home](README.md)<!-- historical-link:boss-039 --> · [Scope](README.md#scope-and-ownership)<!-- historical-link:boss-040 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:boss-041 --> · [Multi-effects](ALL-GUITAR.md)<!-- historical-link:boss-042 --> · [Vocals](ALL-VOCAL.md)<!-- historical-link:boss-043 -->
 
 **Scope corrected 2026-10-14: one eligible multi-instrument processor, five excluded archival pedal records.** Only the GM-800 section below remains part of the active comparison. SY-1, SY-200, AC-3, VO-1 and XS-100 are dedicated-purpose pedals retained as historical research, **not guitar multi-effects candidates and not part of active totals**. The user's guitar scope is multi-effects only.
 

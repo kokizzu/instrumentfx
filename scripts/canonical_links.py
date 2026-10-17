@@ -8,7 +8,7 @@ def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 def preservation_text(path):
     text=(ROOT/path).read_text()
-    if path != 'MULTI-EFFECTS.md':
+    if path not in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md'):
         return text
     entry=json.loads((ROOT/'research-state.json').read_text()).get('migration',{}).get('canonical_links',{}).get(path)
     if not entry:
@@ -22,15 +22,15 @@ def restore_text(text,entry):
         text=text.replace(change['after'],change['before'])
     return text
 
-def plan():
+def plan(path='MULTI-EFFECTS.md'):
     import research_tools as research
     import source_retirement as shared
     research.identity()
     assert not research.git('diff','--cached','--name-only').strip(), 'Existing staged changes'
     changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
-    assert changed <= {'Makefile','scripts/canonical_links.py'}, changed
+    assert changed <= {'Makefile','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/navigation_tools.py','BOSS.md','MOOER.md','research-state.json'}, changed
     state=json.loads((ROOT/'research-state.json').read_text())
-    path='MULTI-EFFECTS.md'
+    assert path in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md')
     assert path not in state['migration'].get('canonical_links',{}), 'Already migrated'
     original=(ROOT/path).read_text()
     changes=[]
@@ -48,14 +48,16 @@ def plan():
         if key.startswith('effects/shopee-multifx'):
             dest='research-state.json'
         dest=overrides.get(key,dest)
+        if raw == 'effects/specialist.md#eligible-record-boss-gm-800':
+            dest='BOSS.md#gm-800'
         assert not dest.startswith('effects/'), dest
         shared.validate_target(dest)
-        ident='multi-'+str(len(changes)+1).zfill(3)
+        ident=path.removesuffix('.md').lower()+'-'+str(len(changes)+1).zfill(3)
         after=']('+dest+')<!-- historical-link:'+ident+' -->'
         changes.append(dict(id=ident,before=match[0],after=after,original_target=raw,destination=dest))
         return after
     updated=re.sub(r'\]\(([^\s)]+)\)',rewrite,original)
-    assert len(changes)==138, len(changes)
+    assert len(changes)=={'MULTI-EFFECTS.md':138,'BOSS.md':43,'MOOER.md':41}[path], len(changes)
     restored=updated
     for change in changes:
         assert restored.count(change['after'])==1
@@ -71,7 +73,7 @@ def apply():
     research.identity()
     plan=json.loads(PLAN.read_text())
     path=plan['path']
-    assert path=='MULTI-EFFECTS.md'
+    assert path in ('MULTI-EFFECTS.md','BOSS.md','MOOER.md')
     assert digest((ROOT/path).read_text())==plan['input_sha256'], 'Category changed since preview'
     assert digest((ROOT/'research-state.json').read_text())==plan['ledger_sha256'], 'Ledger changed since preview'
     state=json.loads((ROOT/'research-state.json').read_text())
@@ -79,20 +81,22 @@ def apply():
     shared.atomic_write(ROOT/'research-state.json',json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     shared.atomic_write(ROOT/path,plan['output'])
     assert digest(preservation_text(path))==plan['input_sha256']
-    print('PASS: 138 reviewed destinations applied;exact inverse reproduces original category text')
+    print('PASS: '+str(len(plan['changes']))+' reviewed destinations applied;exact inverse reproduces original '+path)
 
 def verify():
     import source_retirement as shared
     import research_tools as research
     research.identity()
-    text=(ROOT/'MULTI-EFFECTS.md').read_text()
-    assert not [x for x in shared.local_links('MULTI-EFFECTS.md',text) if x['target'].startswith('effects/')]
-    restored=preservation_text('MULTI-EFFECTS.md')
     state=json.loads((ROOT/'research-state.json').read_text())
-    for c in state['migration']['canonical_links']['MULTI-EFFECTS.md']['changes']:
-        shared.validate_target(c['destination'])
-        assert c['before'] in restored
-    print('PASS: canonical category destinations exist;all historical link tokens recoverable')
+    for path,entry in state['migration']['canonical_links'].items():
+        text=(ROOT/path).read_text()
+        assert not [x for x in shared.local_links(path,text) if x['target'].startswith('effects/')], path
+        restored=preservation_text(path)
+        for c in entry['changes']:
+            shared.validate_target(c['destination'])
+            assert c['before'] in restored
+    print('PASS: all migrated canonical destinations exist;all historical tokens recoverable')
+
 
 
 def test():
@@ -111,4 +115,4 @@ def test():
     print('PASS: shared destinations restore distinct sources;missing,duplicated andaltered provenance rejected')
 
 if __name__=='__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'test':test}[sys.argv[1]]()
+    {'plan':plan,'apply':apply,'verify':verify,'test':test,'plan-boss':lambda:plan('BOSS.md'),'plan-mooer':lambda:plan('MOOER.md')}[sys.argv[1]]()

@@ -1,4 +1,3 @@
-from canonical_links import preservation_text
 """Reviewable, lossless model consolidation; keeps legacy sources and their links."""
 import hashlib
 import json
@@ -7,6 +6,7 @@ import re
 import sys
 
 sys.dont_write_bytecode = True
+from canonical_links import preservation_text
 import comparison_views
 import research_tools
 
@@ -106,7 +106,7 @@ def verify_preserved(state):
             source = research_tools.read_preserved_source(entry['source'])
             assert digest(source) == entry['source_sha256'], entry['source']
             model = entry.get('model_name', entry['models'][0].removeprefix('Zoom '))
-            text = (ROOT / entry['destination'].split('#')[0]).read_text()
+            text = preservation_text(entry['destination'].split('#')[0])
             section_model = entry.get('destination_section', model)
             section = text.split('\n## ' + section_model + '\n', 1)[1].split('\n## ', 1)[0]
             actual = []
@@ -133,7 +133,7 @@ def verify_preserved(state):
         if entry.get('source_section'):
             fragment = source.split('\n## ' + entry['source_section'] + '\n', 1)[1].split('\n## ', 1)[0]
             source = '# ' + entry['model_name'] + '\n' + fragment
-        text = (ROOT / entry['destination'].split('#')[0]).read_text()
+        text = preservation_text(entry['destination'].split('#')[0])
         prefix = entry['marker']
         body = text.split('<!-- ' + prefix + ' source begins -->\n', 1)[1].split('<!-- ' + prefix + ' source ends -->', 1)[0]
         for old, new in entry.get('link_normalizations', {}).items():

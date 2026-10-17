@@ -1827,3 +1827,9 @@ canonical-links-verify:
 .PHONY: canonical-links-test
 canonical-links-test:
 	python3 scripts/canonical_links.py test
+
+.PHONY: canonical-links-plan-boss canonical-links-plan-mooer
+canonical-links-plan-boss:
+	python3 scripts/canonical_links.py plan-boss
+canonical-links-plan-mooer:
+	python3 scripts/canonical_links.py plan-mooer
