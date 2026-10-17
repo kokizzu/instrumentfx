@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal Shopee discovery",
-    "task": "MicroVerb4 recorded;do notaddagain orconfuseMIDIverb4. Search fresh exactbrand/series;continue remaining technical/revision/offer gaps later.",
+    "model": "Alesis MIDIverb 4",
+    "task": "Verify original exact manufacturer manual/product;use discovery_midiverb4_20261017. Shopee20594987/16494282938 Rp5m conditionunknown. Preserve packaging-range discrepancy andunassigned used Midiverb generation. Do notcopyMicroVerb4 specs;commit before nextmodel.",
     "next_models": [],
-    "after_queue": "Continue migration/research;no downloads/workflows."
+    "after_queue": "Continue bass/vocal discovery andtechnical/migration gaps;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -52525,5 +52525,60 @@
     ],
     "common_limits": "No checkout/condition,bundle,warranty,voucher or authenticity verified. Malaysia/Taiwan/USA sellerlabels not assumed separate official variants. No files downloaded.",
     "status": "primary eligibility established;full canonical record pending manual/control/routing verification"
+  },
+  "discovery_midiverb4_20261017": {
+    "queries": [
+      "Bass Fly Rig",
+      "Tech21 bass",
+      "Zoom506 efek",
+      "Korg AX3000B",
+      "Alesis Midiverb",
+      "Zoom B2.1u -adapter -adaptor",
+      "Korg AX1B",
+      "Vocalist LivePro"
+    ],
+    "negative_scope": "Limited searches established no fresh exact bass hardware;unrelated Zoom results rejected,not market absence.",
+    "lead": {
+      "model": "Alesis MIDIverb 4",
+      "url": "https://shopee.co.id/Alesis-MidiVerb-4-i.20594987.16494282938",
+      "seller_id": "20594987",
+      "item_id": "16494282938",
+      "idr": 5000000,
+      "region": "Kab.Nganjuk",
+      "condition": "unknown",
+      "stock": "unknown",
+      "access": "last-month search,reopened three-week index;staleSep29–Oct2 arrival",
+      "bundle": "unknown",
+      "voucher": "unknown"
+    },
+    "unresolved_variation": {
+      "url": "https://shopee.co.id/Effect-Vocal-Alesis-Midiverb-4-Kualitas-Bagus-i.528535960.45601793929",
+      "seller": "electronik bersama",
+      "seller_id": "528535960",
+      "item_id": "45601793929",
+      "region": "Jakarta Barat",
+      "search_range": [
+        1170000,
+        1910000
+      ],
+      "reopened_range": [
+        1200000,
+        1300000
+      ],
+      "access": "two-month search,two-week reopened index",
+      "variations": [
+        "Tanpa",
+        "kemas",
+        "bubble / kardus",
+        "+2 unresolved"
+      ],
+      "qualification": "Do not accept minimum asbarehardware orused/new range;selected variant andpackage unknown."
+    },
+    "rejected_identity": {
+      "url": "https://shopee.co.id/alesis-midiverb-ori-taiwan-bekas-normal-ori-i.1186125751.27025664286",
+      "idr": 2600000,
+      "reason": "Title explicitlybekas butomitsgeneration;not mapped toMIDIverb4."
+    },
+    "status": "queued before manufacturer research;not active inventory"
   }
 }
