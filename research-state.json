@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh discovery after GFX-4",
-    "task": "GFX-4 added as190thmodel. Resolve exactHopeMusic GFX4 item;searchindex2499000notqualifiedprice. Otherwise freshShopee brand/seriesdiscovery andprimarygaps.",
+    "task": "GFX-4 control follow-up:10rotary text-derived;buttoncount stillpending. ExplicitSTORE,mode-specificbypass,tuner andNRsettings saved. Do not repeatfailedexactHopeMusic query withoutnewlead;continuefreshdiscovery orotherprimarygaps.",
     "next_models": [],
     "after_queue": "No downloads/dependencies/workflows;commit eachmodel before next."
   },
@@ -48861,6 +48861,13 @@
       "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
       "finding": "Printedpp12–15,19–21,30–31,50: edits auto-save; Store/Swap destination restriction; factory initialize erases custom settings while firmware update preserves patches; per-patch dry/effect blend; 41 rhythm entries include GUIDE and four metronomes,leaving36pattern entries; battery type/backlight/contrast controls clarified.",
       "remaining": "Controls and switch icons not visually resolved: PDF screenshot produced no readable image. No inference fromB3n. Power draw,imports,MIDI,current software,screen characteristics and exact offers remain unresolved."
+    },
+    {
+      "model": "Zoom GFX-4",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_GFX4.pdf",
+      "finding": "Printedpp5,11,17 establish3parameterknobs per3FXpanels plusmaster=10rotary;text-derived,visualpending. ExplicitSTORErequired;presettarget/SWAPrestrictions,bypass/mute mode-specificswitch,tunerreset,ZNRandpatchlevel documented.",
+      "remaining": "Physicalbutton total unresolved;TYPE DOWN/UP key directions not silently treated as separate physical controls. ExactHopeMusic selleritem searchstillfailed;noqualifiedprice. Continuefreshdiscovery/otherprimarygaps."
     }
   ],
   "discovery_cross_brand_bass": {

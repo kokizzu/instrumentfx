@@ -335,7 +335,7 @@ def main():
         if mode == 'commit-ax1000g':
             message = 'research(korg): preserve second AX1000G sold-out offer separately'
         if mode == 'commit-gfx4':
-            message = 'research(zoom): add GFX-4 with AC power and qualified shop lead'
+            message = 'research(zoom): verify GFX-4 rotary controls and explicit-save behavior'
         if mode == 'commit-gfx5':
             message = 'research(zoom): enumerate GFX-5 controls and qualify bypass routing'
         if mode == 'commit-gfx3':

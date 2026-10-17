@@ -1886,17 +1886,18 @@ Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufa
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in optical pedal;full-down assignable switch toggles modules or program/manual. External support unknown. | [Manual pp19–20,28][GFX4-M] |
-| K/F/B | Four main footswitches (three patch,one bank);knob/button totals unknown. Toe additional. | [Manual p5][GFX4-M] |
+| K/F/B | **10 rotary /4 main footswitches /button total unresolved**. Three parameter knobs per FXpanel×3 plus rear master;three patch+bank footswitches. Text-derived;visual corroboration pending. Toe and rear switches separate. | [Manual pp5,11,17][GFX4-M] |
 | Display | BacklitLCD plus2-digit7-segmentLED. Diagonal,color,touch unknown. | [Manual p29][GFX4-M] |
 | Dimensions / mass | 397W×183D×60Hmm;1.4kg. | [Manual p29][GFX4-M] |
 | Processing / category choices | Up to8;44programs=42effects+ZNR+amp simulator. COMP/OD/ENV5,DRIVE13,EQ1,MOD13,DELAY/REVERB10=42. PEDAL has two settings pages,explicitly not an effect. Amp3/cab4 alternatives excludeOFF. | [Manual pp4,7,21,23,29][GFX4-M] |
-| Factory / user memory | 120=60user+60read-onlypreset;Store/Swap. Factory-filled user count unresolved. | [Manual pp3–4,12–13][GFX4-M] |
+| Factory / user memory | 120=60user+60read-onlypreset;Store/Swap. Edits lost on patch change unless stored. Preset edits default to matching user destination;SWAP unavailable from preset. Factory-filled user count unresolved. | [Manual pp3–4,12–13][GFX4-M] |
 | Synth / acoustic | ACOSIM converts electric toward acoustic character;RINGMD is not established synthesis. | [Manual pp21–22][GFX4-M] |
 | I/O | Mono¼input,mono¼output,stereo¼line/phones,ACadapter;ACTIVE/NORMAL switch. USB/MIDI/external-control sockets absent from listed rear inventory. | [Manual pp5,29][GFX4-M] |
 | Power / battery / USB | **12V AC500mA**,suppliedAD-0008;not9VDC. DCpolarity inapplicable. Measured draw,battery andUSBpower unverified. | [Manual p29][GFX4-M] |
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andcapture imports unverified. | Unresolved |
+| Editing / routing | Manual mode toggles modules viafoot;disabled modules cannot change type/parameters. ZNR thresholdOFF–10;patchlevel1–50,40unity. | [Manual pp16–18][GFX4-M] |
 | Editor / software | Editor andplatform compatibility unverified. | Unresolved |
-| Looper / drums / routing | Monooutput relay bypass excludes pedal volume/master;stereooutput retains them. Monooutput carries leftchannel,not summed stereo. Looper,drums,scenes,trails unverified. | [Manual p6][GFX4-M] |
+| Looper / drums / routing | Monooutput relay bypass excludes pedal volume/master;stereooutput retains them. Monooutput carries leftchannel,not summed stereo. Program mode:current patch switch release=bypass,hold>1s=mute;manual mode usesBANK switch instead. Tuner435–445Hz resets440 on power-up. Looper,drums,scenes,trails unverified. | [Manual pp6,14–15][GFX4-M] |
 
 ### Separate IDR hardware offers
 
