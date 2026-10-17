@@ -752,3 +752,45 @@ Own [NUX legacy product page][MG20-P] links the [English V1 PDF][MG20-M]. Browse
 [MG20-O4]: https://shopee.co.id/Nux-MG-20-Guitar-Modeling-Processor-i.178818236.7950066014
 
 [MG20-T2]: https://manuals.plus/nux/mg-20-guitar-modeling-processor-manual
+
+## MFX-10
+
+Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in treadle with pressure-at-toe switch and sensitivity calibration. EXT.PEDAL selects banks; external expression unproven. [Manual controls][MFX10-T] |
+| K/F/B | Three footswitches; SELECT plus four parameter knobs documented. AUX prose mentions master Level, so full rotary total unresolved; separate buttons pending. Toe/power additional. [Manual controls][MFX10-T] |
+| Display | **160×128 TFT LCD plus two-digit seven-segment LED**; diagonal/color/touch unverified. [Specifications p27][MFX10-T] |
+| Processing / conflict | Introduction: **54 models, nine simultaneous**; specification p27: **55 types, maximum eight simultaneous modules**. Preserve both; do not silently choose a ceiling or current firmware total. [Introduction][MFX10-I]; [Specifications][MFX10-T] |
+| Categories | Introduction lists **19 amp/pedal models,12 cabinets**. Category counts beyond these unresolved. [Introduction][MFX10-I] |
+| Preset memory | **36 factory+36 user=72**. Advertised144 with A/B represents channel switching, not proof of144 independent memory locations. [Specifications][MFX10-T] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unresolved. |
+| I/O | Instrument input, Left/Mono and Right outputs,3.5mm headphones,AUX,EXT.PEDAL,DC,power switch. Other connector sizes/balancing unresolved. [Connections][MFX10-T] |
+| Power / battery / USB | **9V DC,500mA,pin-negative** listed as power requirement, not measured draw. Barrel size,battery/USB operation unresolved. [Specifications][MFX10-T] |
+| Dimensions / mass | **330L×202W×72Hmm;2.65kg**. Original axis labels preserved. [Specifications][MFX10-T] |
+| IR / NAM / capture | User IR,native/converted NAM and proprietary capture unverified. |
+| Editor / platforms | Full editor,firmware/updater OS,USB/audio support unverified; no absence inferred from incomplete support retrieval. |
+| Live / practice | **Up to20-second phrase looper**, PCM drums. PRESET-down+AMP A/B enters muted tuner; both PRESET switches bypass. [Introduction][MFX10-I]; [Operation][MFX10-T] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No condition-confirmed offer. | — |
+| New | No condition-confirmed offer. | — |
+| Unverified | **Rp2.250.000**, Hobi Musik Makassar X Serba Hobi,shop306541454/item9002629284,Kota Makassar. Checked2026-10-17: last-month indexed crawl,**Habis**,Aug26–29 delivery text. Historical ask, not live checkout/stock. | [Exact item][MFX10-O] |
+
+<!-- comparison evidence ends -->
+
+Variant,bundle,adapter inclusion,authenticity,working state,warranty,shipping/tax and vouchers unresolved. Category-only or mixed-model asks remain unassigned in the ledger.
+
+[Official product][MFX10-P] links the [English V1 manual][MFX10-M], rejected by browser size limit11478475 bytes. Manufacturer-authored mirrored body identified by exact MFX-10 and Cherub attribution; introduction copy carries copyright2010. Current official V1 revision equivalence unverified. No download or visual inspection. The original manual itself has54/55 and9/8 conflicts; do not attribute55 exclusively to the rejected generated ASIN guide. That generated guide's tuner shortcut and physical/current values remain unsupported and excluded. Intro48kHz versus specification44.1kHz also remains unresolved.
+
+[MFX10-P]: https://nuxaudio.com/product/mfx10/
+[MFX10-M]: https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf
+[MFX10-T]: https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual
+[MFX10-I]: https://www.manualslib.com/manual/4260392/Nux-Mfx-10.html
+[MFX10-O]: https://shopee.co.id/Efek-Gitar-Pedal-Nux-MFX-10-Digital-Multi-Effect-Processor-Harga-Terjangkau-i.306541454.9002629284

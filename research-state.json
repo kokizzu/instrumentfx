@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 260,
+  "active_model_count": 261,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 260,
+  "canonical_root_model_count": 261,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "260 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. MG-20 guitar-only classification pending bass/vocal proof; all partial.",
+  "count_reconciliation": "261 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded. MFX-10 guitar classification; bass/vocal unclassified; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MFX-10",
-    "task": "MFX-10 architecture and source-access/conflict evidence saved in mfx10_primary_checkpoint_20261017. Next original manual specification/category pages, then qualified root guitar record and comparison rows. Official PDF blocked by size; no downloads. Do not adopt generated ASIN guide or infer144independent memories.",
+    "task": "MFX-10 root record added with original manual internal54/55,9/8,48kHz/44.1kHz conflicts. Next own category descriptions and control ambiguity; preserve gaps before PG2. Commit before another model.",
     "next_models": [
       "NUX PG-2 exact Shopee item resolution and eligibility"
     ],
@@ -23830,7 +23830,8 @@
       "MG-200",
       "TRIDENT NME-5",
       "Cerberus NME-3",
-      "MG-20"
+      "MG-20",
+      "MFX-10"
     ],
     "Roland": [
       "GR-55"
@@ -24150,7 +24151,8 @@
       "MG-200",
       "TRIDENT NME-5",
       "Cerberus NME-3",
-      "MG-20"
+      "MG-20",
+      "MFX-10"
     ],
     "SONICAKE.md": [
       "Matribox QME-50",
@@ -24319,7 +24321,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 212,
+      "record_count": 213,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41282,10 +41284,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 260,
-    "canonical_root_models": 260,
+    "unique_brand_model_pairs": 261,
+    "canonical_root_models": 261,
     "legacy_only_models": 0,
-    "guitar_view_models": 212,
+    "guitar_view_models": 213,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41345,7 +41347,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MFX-10."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41462,6 +41464,7 @@
       "NUX::TRIDENT NME-5",
       "NUX::Cerberus NME-3",
       "NUX::MG-20",
+      "NUX::MFX-10",
       "Roland::GR-55",
       "Scorpion::KMF-10",
       "Sonicake::Matribox QME-50",
@@ -42855,6 +42858,13 @@
     },
     "NUX::MG-20": {
       "link": "NUX.md#mg-20",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::MFX-10": {
+      "link": "NUX.md#mfx-10",
       "source_files": [
         "NUX.md"
       ],
@@ -55166,5 +55176,26 @@
       "reason": "ASIN-generated guide lists55models and inconsistent tuner entry plus uncorroborated physical/power values. Do not use its spec table or instructions as original manufacturer evidence."
     },
     "next": "Read original specification/category pages, resolve masterLevel/control count and original revision gap. Add qualified guitar record with exact sold-out Shopee ask, commit before PG2 research."
+  },
+  "mfx10_specification_checkpoint_20261017": {
+    "source": "https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual",
+    "page": 27,
+    "added": true,
+    "conflicts": [
+      "Introduction54models/9simultaneous versus spec55types/8modules",
+      "Introduction48kHz versus spec44.1kHz"
+    ],
+    "power": "9VDC500mApinnegative power requirement, not measured draw",
+    "dimensions": "330L202W72Hmm2.65kg",
+    "correction": "55 is also in original specification, not exclusively generated guide. Prior rejection concerned generated guide as source, not proof55itselfwrong.",
+    "remaining": [
+      "Physical rotary/button totals including masterLevel ambiguity",
+      "Own V1 revision/visual corroboration",
+      "Category choices",
+      "Firmware/editorOS",
+      "IR/NAM/capture",
+      "Qualified current condition-specific IDR hardware",
+      "Bass/vocal suitability"
+    ]
   }
 }
