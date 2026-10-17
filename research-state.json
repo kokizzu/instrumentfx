@@ -28,10 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee bass/vocal discovery",
-    "task": "ME-90B shared guitar/bass membership now established from own Parameter Guidep12; continue fresh Shopee brand/series discovery. Retain unresolved technical/market/ownership/migration work and all prior source qualifications.",
-    "next_models": [],
-    "after_queue": "322 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
+    "model": "Mosky SOL918",
+    "task": "Create exact SOL918 root record from saved primary product and Shopee leads in discovery_mosky_joyo_20261018. Advertised5includesFXloop;do notclaim5internalDSPblocks orsellerderivedbasssupport. Commit useful model before next.",
+    "next_models": [
+      "JOYO Tone Chain TC-1",
+      "JOYO Tone Chain TC-2"
+    ],
+    "after_queue": "ResumefreshShopeebass/vocaldiscovery;322activebeforequeuedadditions. Technical/market/ownership/migrationincomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -65619,5 +65622,55 @@
     "page": 12,
     "decision": "Shared guitar/bass multi-effects; explicit guitar preamps selectable in own independent architecture. Remove from bass-focused-only selection and add to shared basis. Same single active model.",
     "qualification": "Tone Studio-selectable position11 replacements; bass-oriented voicing retained. No guarantee every bass effect equally suits guitar."
+  },
+  "discovery_mosky_joyo_20261018": {
+    "checked_date": "2026-10-18",
+    "status": "New exact discovery leads, not yet active records; catalogue stays322.",
+    "priority_model": {
+      "brand": "Mosky",
+      "model": "SOL918",
+      "manufacturer": "https://www.moskyaudio.com/product/products-1-98.html",
+      "primary_findings": "Manufacturer names reverb,delay,FXloop,overdrive,distortion;advertised5includesexternalFXloop,not5verifiedinternalDSPblocks.230L65W36Hmm490g,9VDCnegative tip,regulatedrecommended. No primary bass capability established.",
+      "offers": [
+        {
+          "url": "https://shopee.co.id/MOSKY-SOL918-Efek-Gitar-DISTORTION-OVERDRIVE-FX-LOOP-DELAY-REVERB-5-in-1-Multi-Effects-Pedal-Guitar-i.154467850.14751906909",
+          "seller": "ADVENTURE MUSIC JAKARTA",
+          "region": "Jakarta Selatan",
+          "idr": 729000,
+          "access": "Search-indexed last-month cache",
+          "condition": "Unknown",
+          "stock": "Unknown",
+          "variant_bundle": "Unknown",
+          "qualification": "Stale14Sepdelivery;late10kcompensationnotpurchasevoucher;shipping/tax/warranty/checkoutunknown."
+        },
+        {
+          "url": "https://shopee.co.id/Mosky-Sol918-Pedal-Efek-Gitar-Multi-Effect-Delay-FX-Loop-Overdrive-Distorsi-Sol-918-i.40587194.23419757514",
+          "seller": "grand57musicstore",
+          "region": "Surabaya",
+          "idr": 955000,
+          "access": "Search-indexed3monthcache",
+          "stock": "Habis",
+          "condition": "Unknown",
+          "qualification": "Stale12–14Juldelivery;notneworusedconditionverification."
+        }
+      ],
+      "rejected_unresolved": "jonimusic shop22551702/item22939289919 Rp599900–849900Habis,two unresolvedvariations;do notselectlowestask.",
+      "next": "Read primary product and any original controls/manual evidence, create root MOSKY.md, add explicit inventory/member/source/README and narrow Makefile/script commit path. Preserve all required unknown fields. No seller-derived hardware specifications."
+    },
+    "other_exact_leads": [
+      {
+        "brand": "JOYO",
+        "model": "Tone Chain TC-1",
+        "url": "https://shopee.co.id/Joyo-Tone-Chain-TC-1-Pedal-Multi-Efek-Gitar-Tonechain-TC1-Original-i.77738264.20474867657",
+        "access": "Searchindex3weekcache,titleonly;priceconditionstockunknown;primaryverificationpending"
+      },
+      {
+        "brand": "JOYO",
+        "model": "Tone Chain TC-2",
+        "url": "https://shopee.co.id/Joyo-Tone-Chain-TC-2-Pedal-Multi-Efek-Gitar-Tonechain-TC2-Delay-DS-OD-i.77738264.22828563233",
+        "access": "Searchindex5monthcache,titleonly;priceconditionstockunknown;primaryverificationpending"
+      }
+    ],
+    "caline": "C300 search lead already exists; no duplicate active record or qualified price added."
   }
 }
