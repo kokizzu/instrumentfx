@@ -2555,7 +2555,7 @@ Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; p
 | Dimensions / mass | 211 W × 135 D × 58 H mm; 500 g. |
 | I/O | Quarter-inch guitar, L/mono and R outputs, TRS CTL/EXP; balanced XLR mic, +48 V, 10 mA maximum; stereo mini AUX/phones; USB-B; DC in. |
 | Power / batteries | Adapter or USB bus power; 240 mA draw. 9 V DC PSA-100 supply verified below; polarity, batteries unresolved. |
-| Editor / USB | BOSS TONE STUDIO Mac/Windows; USB audio/MIDI, reamping. Exact directional channels pending. |
+| Editor / USB | BOSS TONE STUDIO Mac/Windows; USB audio/MIDI, reamping. Four recording channels verified below; exact playback count pending. |
 | IR / NAM / capture | User IR, native/converted NAM, capture unverified. |
 | Looper / drums / live | Unverified; vocal/acoustic mic patches supported. Guitar and mic inputs are mutually exclusive; details below. |
 
@@ -2581,7 +2581,7 @@ Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; p
 
 | Field | Verified behavior / limit |
 |---|---|
-| USB audio / routing | [Official parameter guide, p. 34](https://cdn.roland.com/assets/media/pdf/GT-001_r_e01W.pdf), indexed original text: PRIMARY sends effects; its computer return mixes at the final stage. SECONDARY sends dry input; its return enters the effect-chain beginning for reamping. Both outputs are available together. Exact directional channel count remains unverified. |
+| USB audio / routing | [Official parameter guide, p. 34](https://cdn.roland.com/assets/media/pdf/GT-001_r_e01W.pdf), indexed original text: PRIMARY sends effects; its computer return mixes at the final stage. SECONDARY sends dry input; its return enters the effect-chain beginning for reamping. Both outputs are available together. Four recording channels are corroborated below; exact playback count remains unverified. |
 | USB / monitoring | PRIMARY LOOP BACK sends computer playback back with processed sound. DIRECT MONITOR resets ON at startup and cannot be saved. Loopback is an audio-routing function, not a phrase looper. |
 | Power / adapter identity | [GT-001-specific BOSS support notice](https://www.boss.info/jp/support/by_product/gt-001/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/) specifies **PSA-100**. Its [current manufacturer specification](https://www.boss.info/jp/products/psa-100/) gives **9 V DC, 500 mA maximum output**, 100–240 V AC, 50–60 Hz input. Adapter capacity differs from GT-001’s 240 mA draw. Polarity remains unverified; do not assume an old adapter shares the current mains range. |
 
@@ -2621,6 +2621,13 @@ The driver page refers detailed configuration to packaged/post-install readmes. 
 |---|---|
 | Editor / current macOS | [BOSS compatibility matrix](https://www.boss.info/global/support/support_news/25090811m1/),updated **2026-09-16**,marks GT-001’s Exclusive Application **Yes (Download)** for **macOS15 Sequoia and26 Tahoe**;**macOS27 Golden Gate is Under Testing**. This supersedes the earlier unresolved newer-OS status,not the retained2017 release history. |
 | USB / macOS driver | The separate Hardware & Driver row has the same15/26 Yes (Download),27 Under Testing statuses. Dedicated software is required;these are not class-compliant/no-driver claims. Compatibility does not establish exact USB channel counts or future OS support. |
+
+### GT-001 — recording channels and selective reset, 2026-10-17
+
+| Field | Verified behavior / qualification |
+|---|---|
+| USB audio / recording count | [Original model brochure, p. 2](https://cdn.roland.com/assets/media/pdf/gt-001_brochure.pdf) explicitly describes **four recording channels, two dedicated to dry audio**. Together with the PRIMARY/SECONDARY routing evidence above, this resolves DAW capture capacity; it does not independently specify the number of playback channels or permit simultaneous guitar/mic input. |
+| Factory / memory reset | [Official owner’s manual, indexed p. 12](https://cdn.roland.com/assets/media/pdf/GT-001_OM.pdf) allows reset selection spanning system parameters, User Quick Settings and user patches U001–U200. WRITE prepares the reset and ENTER executes it; EXIT cancels beforehand. Selected saved settings are overwritten; back up needed data through the dedicated software. This does not prove every initial user slot contains a unique factory sound. |
 
 <!-- comparison evidence ends -->
 

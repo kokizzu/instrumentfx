@@ -463,7 +463,7 @@ def main():
         if mode == 'commit-rp1000':
             message = 'research(digitech): enumerate RP1000 amp cabinet and shared FX choices'
         if mode == 'commit-gt6':
-            message = 'research(boss): verify GT-001 current macOS editor and driver matrix'
+            message = 'research(boss): verify GT-001 recording channels and selective reset'
         if mode == 'commit-hxone':
             message = 'research(line6): verify HX One dimensions and qualify regional specifications'
         if mode == 'commit-pocketpod':
