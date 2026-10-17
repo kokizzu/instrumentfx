@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Discovery / BOSS ME-5 lead unresolved",
-    "task": "ME5 card indexed5months Rp2mSurabaya butcategoryreopenlostcard,noexactitem. Next search seller/item identity via alternate ME-5 spellings and broaden bass/vocal leads;do not promote card toqualifiedoffer oraddmodelcount. PandoraStompofferalreadyrecorded.",
+    "model": "BOSS ME-5",
+    "task": "Exact ME5offer296332282/19845196980=Rp1.3mHabis direct3weekcache saved;conditionunknown. Next findownlegacyRoland/BOSSmanual (usequotedME-5) oridentityverifiedoriginalmirror,extractallrequiredfields beforeaddingrecord/count. Do notborrowME50/CE5/ES5.",
     "next_models": [],
-    "after_queue": "289partialactive models;no downloads/workflows/push."
+    "after_queue": "289partialactive;ME5leadnotyetadded;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -58071,6 +58071,28 @@
     "no_exact_new_model": true,
     "excluded": "G2nuadapterhits/accessories;ordinarysingleeffects;categorypricesnotexactoffers",
     "coverage": "No-hit queries do not prove marketabsence",
+    "downloads": false
+  },
+  "me5_exact_lead_20261017": {
+    "model": "BOSS ME-5",
+    "url": "https://shopee.co.id/efek-legend-digital-pertama-1988-dari-merk-BOSS-tipe-boss-ME-5-normal-original-Made-in-japan-i.296332282.19845196980",
+    "seller": "atikah141084",
+    "region": "KotaBandung",
+    "idr": 1300000,
+    "condition": "Unverified;title normal/original/MadeinJapan are seller claims",
+    "stock": "Habis",
+    "search_cache": "lastmonth",
+    "direct_cache": "3weeks",
+    "stale_delivery": "27–30August",
+    "qualification": "Notlive stock;workingstate/authenticity/selectedvariant/bundle/adapter/warranty/voucher/shippingtaxunknown. Historical1988/firstdigitaltitle nottechnicalevidence",
+    "canonical_check": "NoME5headinginBOSS.md;itemnotpreviousledger",
+    "manual_search": "BroadsitequeriesreturnedME50/CE5/ES5;notME5evidence. Needexactlegacy Roland/BOSSmanual oridentityverifiedoriginalmirror.",
+    "other_queries": [
+      "RolandVT4",
+      "Zoom506bass",
+      "VocalVX400"
+    ],
+    "other_results": "VX400adapteronly;noexactnewbass/vocalmodelestablished",
     "downloads": false
   }
 }
