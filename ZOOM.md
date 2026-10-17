@@ -2219,6 +2219,11 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | K/F/B | **2 rotary / 2 footswitches / 6 buttons**: Play/Edit, Drive; patch pair; Store, Pedal Assign, Value±, Gain±. Toe separate. Text inventory; visual check pending. | [Manual pp6–7][Z606-M] |
 | Display | Two-digit seven-segment LED; diagonal/color/touch unspecified. | [Manual p38][Z606-M] |
 | Processing / categories | **35 effects; nine simultaneous effects, eight modules**. Serial modules include compression, wah, drive, EQ, ZNR, amp simulation, modulation/pitch and delay/reverb. Combined MOD types explain why effect count differs from modules. | [Manual pp3,24–25,38][Z606-M] |
+| Categories / dynamics and wah | Compressor or Limiter; Pedal Wah or Auto Wah. Off is additional. | [Manual pp26–27][Z606-M] |
+| Categories / drive | **11 alternatives**: FDR Clean, US Blues, MS Drive, BG Drive, PVY Drive, OD, Distortion, Lead, Fuzz, Metal 7th, Acoustic. Gain 1–30. | [Manual pp28–29][Z606-M] |
+| Categories / EQ and amp | Four-band EQ offers **50 patterns** plus Contour. Amp choices: Combo, Bright Combo, Stack, each available with ZNR; ZNR alone also available. | [Manual pp29–30][Z606-M] |
+| Categories / MOD-PITCH | **20 selector alternatives**, including combinations: Chorus; Flanger, Phaser, Doubling, Tremolo, Step, Ring Mod (each alone or →Chorus); Cry1, Cry2, Cry→Chorus; Slow Attack, Slow Attack→Pitch; Pitch Shift; Pedal Pitch. Pitch Shift has nine patterns. | [Manual pp31–36][Z606-M] |
+| Categories / delay-reverb | Delay, Echo, Hall or Room. Delay/Echo **10–370 ms**, 10 ms steps; stereo ping-pong. Reverb time 1–10 is a displayed range, not seconds. | [Manual pp36–37][Z606-M] |
 | Preset memory | **42 rewritable, factory-filled patches**, seven banks of six; no separate 42-preset bank. Individual recall or full initialization. | [Manual pp4,18–22,38][Z606-M] |
 | Synth / acoustic | Electric-to-acoustic simulation; synth-like patch examples, dedicated synth engine unresolved. | [Manual pp28–29,patch list][Z606-M] |
 | I/O | Mono guitar input; stereo combined line/headphone output; DC input. | [Manual pp6–7,38][Z606-M] |

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom 606",
-    "task": "606 added with official manual fundamentals. Next enumerate category choices and power/control qualifications, then independently verify the mixed-listing 607 identity.",
+    "task": "606 category catalogue saved. Next power/control qualifications and software/import support; then independently verify 607 identity. Mixed offer price remains unassigned.",
     "next_models": [
       "Zoom 607 identity verification"
     ],
@@ -54437,5 +54437,11 @@
       "Model-specific used/new offers",
       "Visual panel corroboration"
     ]
+  },
+  "zoom606_categories_checkpoint_20261017": {
+    "manual": "https://zoomcorp.com/media/documents/E_606.pdf",
+    "pages": "26–37",
+    "facts": "Dynamics/wah, 11 DRIVE alternatives, 50 EQ patterns, amp/ZNR options, 20 MOD/PITCH selector alternatives including combinations, four DLY/REV choices and 10–370 ms delay. Do not sum selector combinations into the published 35-effect count.",
+    "remaining": "Power/control qualifications and software/import/display/offer gaps retained."
   }
 }

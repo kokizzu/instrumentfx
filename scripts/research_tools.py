@@ -385,7 +385,7 @@ def main():
         if mode == 'commit-b21u':
             message = 'research(zoom): reconcile B2.1u module choices and acoustic amp distinction'
         if mode == 'commit-rfx1100':
-            message = 'research(zoom): add 606 with original manual and qualified mixed-model offer'
+            message = 'research(zoom): document 606 effect categories and delay limits'
         if mode == 'commit-spx990':
             message = 'research(yamaha): document SPX1000 user reflections MIDI maps and recall limits'
         if mode == 'commit-spx900':
