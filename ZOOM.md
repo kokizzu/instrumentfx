@@ -1695,6 +1695,16 @@ Checked 2026-10-18; own manual/product text and exact Shopee body. No software, 
 | Editor / clipboard scope | B3n product documentation describes Guitar Lab3's clipboard retaining **up to four effects with custom parameters**, for copying into other patches, plus CPU-usage display while editing. This is desktop-editor functionality, not four additional onboard slots or memories. The page describes version3 features; current offered version7.3 remains separately documented above. | [Own product page](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/) |
 | IDR / additional condition-unverified ask | **Rp3.155.000, Habis**, Wiras musik, Kab. Badung; seller/item **399870342/15220042244**. Direct text retrieved from a month-old cache; stale28–29August delivery. Exact B3N title, but used/new condition, working state, installed library, adapter/bundle, warranty region and checkout unknown. Late-delivery Rp10.000 compensation is not a product discount. | [Exact hardware listing](https://shopee.co.id/Zoom-B3N-i.399870342.15220042244) |
 
+### B3n — dated host-compatibility evidence
+
+Checked 2026-10-18. Compatibility tables establish manufacturer verification status, not a local device test or USB audio capability.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Editor / macOS host verification | Table published **2025-09-30**, status as ofSeptember2025: **B3n and Guitar Lab each Yes on macOS Sequoia15**, separately for **Apple silicon and Intel**. This is stronger model-specific evidence for15 than the installer OS-range label alone, and does not certify every later OS. | [Official macOS15 matrix](https://zoomcorp.com/en/jp/news/macos_sequoia/) |
+| Editor / Windows host verification | Table dated **2023-03-10** marks **B3n and Guitar Lab each Yes for Windows11**. It does not identify every later Windows feature release, architecture or USB function as tested. | [Official Windows11 matrix](https://zoomcorp.com/en/jp/news/Windows11/) |
+| Firmware / patch preservation | Original manual explicitly says a firmware-version update **does not erase saved patches**. No firmware was downloaded or installed, and this is not evidence that an offered unit already has version2.20. | [Own manual p45](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+
 
 ## A1 FOUR
 
