@@ -155,17 +155,17 @@ Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitabil
 
 | Field | Evidence / remaining gaps |
 |---|---|
-| Processing / categories | Analog multi-effects designed by Third Man Hardware, manufactured by Donner: distortion, phaser and echo. Concurrent ceiling, routing order and per-category alternatives unverified. |
-| Controls | Distortion has volume/gain/tone; echo has three knobs and explicitly no tap. Complete rotary, footswitch and button counts unverified. |
+| Processing / categories | Analog multi-effects designed by Third Man Hardware, manufactured by Donner: distortion, phaser and echo. Manual transcription describes distortion → phaser → echo. Exact concurrent ceiling and per-category alternatives remain unverified. |
+| Controls | Distortion has volume/gain/tone; echo has three knobs and explicitly no tap. Rev01 transcription enumerates **nine rotary controls and three module on/off footswitches**: distortion TONE/GAIN/VOL; phaser DEPTH/RATE/LEVEL; echo TIME/FEEDBACK/LEVEL. Separate button count unverified. |
 | Expression | Built-in/external expression and toe switch unverified. |
-| Dimensions / weight | **355.5 g; 2.5 ×7.7 inches**, axes and height unspecified. No complete W×D×H or packaging interpretation established. Aluminum-alloy housing. |
+| Dimensions / weight | **355.5 g; 2.5 ×7.7 inches**, axes and height unspecified. Rev01 transcription gives **196 ×64 ×45 mm**, axes unspecified; consistent with rounded storefront footprint, now including a third dimension. Aluminum-alloy housing. |
 | Display | Presence, diagonal, color and touch unverified. |
 | Presets / synth / acoustic | Factory/user/total memory, synth and acoustic simulation unverified. |
-| I/O | Complete audio/control connectors and bypass implementation unverified. |
-| Power | Voltage, polarity, current draw, supplied adapter, battery and USB operation unverified. |
+| I/O | Manufacturer storefront specifies ¼-inch audio. Rev01 transcription: **buffer bypass; input2.2 MΩ/output100 kΩ**. Full connector inventory remains pending original diagram inspection. |
+| Power | Own UK specification confirms **9 V DC**; Rev01 transcription specifies **center-negative,45 mA consumption**. Adapter inclusion, battery and USB operation unverified. |
 | IR / NAM / captures | IR loading, native/converted NAM and proprietary captures unverified. |
 | Software | Editors and supported platforms, drivers/updaters and USB audio unverified. |
-| Looper / drums / scenes | All unverified. |
+| Delay / looper / drums / scenes | Rev01 transcription: echo maximum **600 ms**. Looper, drums and scenes unverified. |
 
 [Own manufacturer product](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal), rechecked2026-10-17. EC7018 is the regional storefront SKU, not a verified universal hardware model code. Customer reviews, including unrelated Alpha-series reviews, are not evidence. No manual or images were downloaded or visually inspected in this pass.
 
@@ -174,3 +174,7 @@ Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitabil
 | Condition | Evidence / qualification | Source |
 |---|---|---|
 | New/used unverified | **Rp1.502.414 with voucher**, Donner Official Store, Kota Jakarta Barat; shop1087619206/item42664073336. Saved2026-10-17 one-week indexed crawl: spendRp1.5million/1%discount; eligibility and final total unknown. Reopen failed this pass. Stock, variant, bundle, warranty, authenticity, shipping and tax unverified. Relative delivery and late compensation do not prove stock or unconditional discount. Separate confirmed new and used asks remain unknown. | [Exact hardware listing](https://shopee.co.id/Donner-Triple-Threat-3-in-1-Pedal-Multi-Efek-Gitar-i.1087619206.42664073336) |
+
+### Triple Threat — manual provenance and access limits
+
+[Manufacturer-linked original manual](https://cdn.shopify.com/s/files/1/0609/6260/3240/files/Donner_Triple_Threat___0_1.pdf?v=1757487687) is linked from the [own UK product](https://uk.donnermusic.com/products/donner-triple-threat-guitar-effect-pedal), but PDF retrieval failed. The [manufacturer manual transcription mirror](https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1) identifies **©2023 Donner LLC, Rev01,2023-09**, exact Triple Threat name and matching three modules/355.5g. Textual control/specification sections are used provisionally; original PDF bytes, diagrams and revision equivalence to the currently linked file were not inspected. Generated diagram descriptions, questions, reviews and unrelated manuals are not adopted. UK SKU EC6793 differs from EU EC7018; neither establishes a distinct hardware revision. No files downloaded.

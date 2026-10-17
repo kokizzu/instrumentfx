@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Donner Triple Threat",
-    "task": "Canonical initial record added. Next resolve complete controls, I/O and electrical specifications from exact-model primary source; do not borrow Alpha series. Then continue Shopee discovery.",
+    "task": "Triple Threat provisional Rev01 transcription added. Next inspect original manual if accessible without download to confirm ports/revision; otherwise continue fresh Shopee brand discovery. Preserve remaining unknowns.",
     "next_models": [],
     "after_queue": "274 partial records; no downloads/workflows/push; broader market research and legacy retirement remain incomplete."
   },
@@ -56531,5 +56531,11 @@
     },
     "alpha_cruncher_search": "No exactqualifiedShopeeIDitem returned in limitedquery;notmarketabsence.",
     "next": "Canonical partial record added; resolve complete controls, ports and power from exact-model primary documentation."
+  },
+  "triple_threat_manual_followup_20261017": {
+    "source": "https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1",
+    "revision": "Donner LLC Rev01 2023-09, transcription; original PDF inaccessible",
+    "facts": "9 rotary/3 foot; buffer bypass; 9V DC center-negative45mA;196x64x45mm axes unspecified;600ms echo; input2.2Mohm/output100kohm",
+    "limits": "Textual sections only; no generated diagram interpretation; original PDF revision equivalence not verified; no downloads."
   }
 }
