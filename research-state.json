@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Legacy consolidation audit",
-    "task": "B1 FOUR historical memory wording restored after broader preservation failure. Run technical retirement and navigation save/commit; then use current audit evidence to assess remaining migration work without deleting compatibility redirects.",
+    "task": "Repair failing audit_compact_union in make technical-retirement-verify: inspect pinned original effects/guitar-compact.md paragraph of five control photo/manual bullets versus VALETON.md, SONICAKE.md and MULTI-EFFECTS.md, preserve missing source text/links with model context; rerun full technical-retirement-verify before claiming consolidation. B1 FOUR original memory value repaired in b9a97ef.",
     "next_models": [],
     "after_queue": "Other field gaps and exact Shopee discovery; no downloads/workflows."
   },
@@ -41075,7 +41075,14 @@
       "destination": "ZOOM.md#b1-four",
       "finding": "Broader technical retirement verifier found original Factory / user memory value missing after current-evidence replacement.",
       "repair": "Restored exact historical value with explicit superseding quick-guide correction; no newer memory evidence removed.",
-      "scope": "All complete-model-rows manifests scanned; only this missing fact found. Full verifiers rerun separately."
+      "scope": "All complete-model-rows manifests scanned; only this missing fact found. Full verifiers rerun separately.",
+      "remaining_failure": {
+        "target": "make technical-retirement-verify",
+        "audit": "audit_compact_union",
+        "source": "effects/guitar-compact.md",
+        "missing": "Paragraph containing GP-150/180 controls, GP-50 original photo, Matribox controls/manual, Smart Box photo and Pocket Master photo/manual references.",
+        "status": "Unresolved; navigation-save checks a narrower specialist/body subset and is not proof of this union gate."
+      }
     }
   },
   "deferred_work": {
