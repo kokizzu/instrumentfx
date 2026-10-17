@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer Bass V-AMP PRO",
-    "task": "PRO MIDI backup overwrite/single-buffer behavior,conditional sampler controls,amp-without-cab selection andtuner reference saved. Next fresh Shopee brand/series discovery;remaining source-revision andI/O/editor fields unresolved.",
+    "model": "TC-Helicon VoiceLive Play",
+    "task": "Additional exact DealerJaya andSoundstationstore offers saved separately with unknown condition andaccess/stock qualifications. Continue primary technical gaps andfresh brand/series discovery;do not duplicate existing VLP.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer Bass V-AMP PRO."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Play."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60791,5 +60791,39 @@
     "clock": "SystemRealTime receiveN;no clock sync established",
     "tuner": "440default,1Hz steps ±15,stored;CC83 25–55",
     "limits": "Other MIDI revision conflicts retained;not device-tested"
+  },
+  "voicelive_play_additional_offers_20261017": {
+    "offers": [
+      {
+        "shop": "510844912",
+        "item": "23223725399",
+        "seller": "DealerJaya Musik dan Elektrik",
+        "idr": 5600000,
+        "region": "KotaMalang",
+        "access": "Direct2monthcrawl",
+        "stock": "unconfirmed",
+        "condition": "unknown"
+      },
+      {
+        "shop": "250276993",
+        "item": "42770533453",
+        "seller": "Soundstationstore",
+        "idr": 4816000,
+        "region": "KotaTangerangSelatan",
+        "access": "2monthsearchcache,directCachemiss",
+        "stock": "Habis",
+        "condition": "unknown"
+      }
+    ],
+    "limits": "Not live available range;working/bundle/warranty/delivery/tax unknown;compensation voucher not deducted"
+  },
+  "discovery_bp_gt6b_vlp_20261017": {
+    "queries": [
+      "site:shopee.co.id Digitech BP200",
+      "site:shopee.co.id Digitech BP355",
+      "site:shopee.co.id Voicelive Play efek",
+      "site:shopee.co.id Boss GT-6B"
+    ],
+    "result": "ExistingVLP exactoffers;BP200adapter excluded;noqualifiednewmodel,nocoverageclaim"
   }
 }
