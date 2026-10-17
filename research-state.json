@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "FX150b",
-    "task": "FX150b controls/memory/USB text audit saved. Next verify category choices, IR conversion and exact editor compatibility; do not repeat failed screenshots unchanged.",
+    "model": "Shopee discovery",
+    "task": "FX150b category census, IR conversion qualifications and editor listings saved. Resume fresh Shopee brand/series search for missing eligible hardware; do not repeat failed panel screenshots unchanged.",
     "next_models": [],
-    "after_queue": "331 active;resume Shopee discovery after useful FX150b followup. Technical,market,ownership,migration incomplete. No downloads/workflows/push."
+    "after_queue": "331 active; technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -42029,7 +42029,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume FX150b."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -66092,6 +66092,34 @@
       "Factory-filled memory unknown",
       "XLR prose versus port-list discrepancy",
       "USB power and channel census unknown"
+    ]
+  },
+  "fx150b_library_20261018": {
+    "sources": [
+      "https://device.report/m/1896b86fc51a16a65e0160b61d615dde8b75c7b24e033e4924cf9267052e52f3.pdf",
+      "https://flammainnovation.com/download.html"
+    ],
+    "counts": {
+      "FX": 8,
+      "OVERDRIVE": 22,
+      "AMP": 58,
+      "CAB": 30,
+      "NR": 3,
+      "EQ": 4,
+      "MOD": 20,
+      "DELAY": 9,
+      "REVERB": 7
+    },
+    "enumerated": 161,
+    "advertised": 160,
+    "ir": "50 user slots31–80;1024-point24-bit44.1kHzWAV;editor sample-rate conversion;bit-depth prose ambiguous",
+    "editor": "Official indexed FX1501.1.1 Windows/Mac;FX150b-specific compatibility not certified",
+    "gaps": [
+      "DSP ceiling",
+      "Panel visual verification",
+      "Full electrical I/O",
+      "Firmware/editor compatibility",
+      "Condition-qualified prices"
     ]
   }
 }

@@ -676,3 +676,16 @@ Checked2026-10-18 against the [manufacturer-authored shared manual mirror](https
 | I/O / wording conflict | MASTER/global prose mentionsXLR outputs,absent from documented interface/specification port lists. XLR hardware remains unverified;no added ports inferred. |
 
 Processing/category census,editor version compatibility,IR conversion details andcondition-qualified pricing remain pending. No files orsoftware downloaded.
+
+### FX150b — effect census, IR format and editor listing
+
+Checked 2026-10-18. Shared [manufacturer-authored manual](https://device.report/m/1896b86fc51a16a65e0160b61d615dde8b75c7b24e033e4924cf9267052e52f3.pdf), printed pp56–70; FX150b is explicitly the integrated-battery version. These findings qualify earlier unknowns; text inspection only.
+
+| Field | Evidence / limitation |
+|---|---|
+| Processing / category choices | FX8, OVERDRIVE22, AMP58, CAB30, NR3, EQ4, MOD20, DELAY9, REVERB7: **161 enumerated entries**, versus **160 advertised**. Preserve discrepancy. These are library choices, not simultaneous blocks. Ten-module chain includes external FX LOOP; do not count it as another effect algorithm. Exact simultaneous DSP ceiling remains unverified. |
+| IR / native versus converted | Factory CAB1–30; **50 user slots31–80**. **WAV,24-bit,44.1kHz,1024 points**; manual says editor converts sample rate automatically and repeats that wording beside bit depth. Do not infer arbitrary native formats or guaranteed bit-depth conversion. Native/converted NAM and proprietary captures remain unverified. |
+| Synth / acoustic | Appendix does not identify a dedicated synth engine or acoustic-simulation entry; this is not a firmware-wide absence guarantee. |
+| Editor / listed packages | [Official download index](https://flammainnovation.com/download.html) lists **FX150 V1.1.1 Setup_win.exe** and **FX150 V1.1.1.Setup_mac.dmg**, plus older1.1.0 and Read Me. Direct page currently returns a sparse template; filenames recovered from indexed manufacturer text. No separate FX150b release matrix, minimum OS or mobile editor established. |
+
+No installers, manuals or other files downloaded. Remaining: panel visual confirmation, full electrical I/O census, source conflicts, exact firmware/editor compatibility and condition-qualified prices. Resume Shopee discovery after this useful followup; no claim that FX150b is fully verified.
