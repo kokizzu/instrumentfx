@@ -364,6 +364,15 @@ Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17
 | Condition unverified; sold-out cached ask | **Rp11.823.000**, Daily Music Store, Kota Jakarta Timur; shop271847827/item7963301750. Checked2026-10-17; direct JS-limited body, last-month crawl, **Habis**. Relative next-day delivery and seller activity are cached, not live availability. Condition, working state, selected variant, adapter/bundle, warranty/import region, authenticity, shipping/tax, voucher eligibility and delivered total unknown. Up-toRp10.000 late compensation is not a hardware discount; no checkout or completed-sale evidence. | [Exact item](https://shopee.co.id/TC-Helicon-VoiceLive-3-Extreme-Complete-Vocal-Effects-Processor-i.271847827.7963301750) |
 | Preserved condition-unverified offer | **Rp18.919.000**,Kisama Storee,KotaJakartaUtara;shop1518350861/item29085370240. Earlier2026-10-17 observation below:montholdindex/JS-limited body,stale13–16September delivery. Condition,stock,variation,bundle,warranty/importregion,shipping,tax/voucher anddelivered total unknown. Reprojected retained evidence,no new stock verification. | [Exact item](https://shopee.co.id/Tc-Helicon-Voicelive-3-Extreme-Guitar-And-Vocal-Effects-Processor-Pedal-Co-i.1518350861.29085370240) |
 
+
+### VoiceLive 3 Extreme additional exact hardware offer
+
+Checked 2026-10-18; seller evidence only.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| IDR Condition unknown / cache conflict | **GH MUSIC STORE**, Kota Tangerang Selatan; shop71552895/item28555914882. Six-day search cache shows **Rp16,400,000**; direct rendered page, labelled last-month cache, shows **Rp15,605,000**. Preserve both cache observations rather than selecting a current price. Exact title identifies VoiceLive 3 Extreme hardware, but condition, adapter/bundle, warranty, stock and checkout total remain unknown. No explicit sold-out marker in these views does not prove availability. Delivery badges and late-delivery compensation are not stock or purchase-price evidence. | [Exact hardware](https://shopee.co.id/TC-Helicon-VoiceLive-3-Extreme-Guitar-and-Vocal-Effects-Processor-Pedal-i.71552895.28555914882) |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware lead

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee Indonesia brand/series discovery",
-    "task": "Legacy Zoom G2Nu/G2.1Nu/GFX8/A2.1u/B9.1ut/G9.2tt queries saved as unresolved or accessory-only. RP50/AX1G/StompLab1B queries returned none; not absence evidence. Next search unrecorded bass/vocal multifx series across DigiTech BP, Korg AX bass and TC-Helicon VoiceLive; require exact hardware listing and model-specific official evidence. Existing 334 models must not be duplicated.",
+    "model": "Shopee Indonesia discovery / remaining technical gaps",
+    "task": "Bass/vocal DigiTech BP, Korg AX bass and VoiceLive2 search pass saved; no qualified new model. GH MUSIC STORE VL3X exact offer committed with Rp16.4m search versus Rp15.605m direct cache conflict. Next expand exact bass/vocal model searches (DigiTech BP90/BP80, Korg AX5B/AX3B, VoiceLive Rack) and verify eligible leads; avoid repeating identical queries.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45035,7 +45035,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee Indonesia brand/series discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee Indonesia discovery / remaining technical gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55856,6 +55856,22 @@
         "total_printed": 18
       },
       "qualification": "Not installed-unit or simultaneous-block count. Output VP retains output volume across patch changes; DSP cost not verified. Model icons omitted by text extraction; web screenshot retrieval failed; availability restrictions unresolved."
+    },
+    {
+      "model": "TC-Helicon VoiceLive 3 Extreme",
+      "checked_date": "2026-10-18",
+      "offer": {
+        "url": "https://shopee.co.id/TC-Helicon-VoiceLive-3-Extreme-Guitar-and-Vocal-Effects-Processor-Pedal-i.71552895.28555914882",
+        "seller": "GH MUSIC STORE",
+        "region": "Kota Tangerang Selatan",
+        "search_cache_idr": 16400000,
+        "search_cache_age": "6 days",
+        "direct_cache_idr": 15605000,
+        "direct_cache_age": "last month",
+        "condition": "unknown",
+        "stock": "unconfirmed",
+        "qualification": "Distinct cache observations, not live checkout prices; bundle, warranty and voucher eligibility unknown."
+      }
     }
   ],
   "discovery_cross_brand_bass": {
@@ -68459,26 +68475,15 @@
   },
   "discovery_bass_vocal_20261018_followup": {
     "queries": [
-      "site:shopee.co.id \"Digitech\" \"BP\"",
-      "site:shopee.co.id \"VoiceLive 2\"",
-      "site:shopee.co.id \"bass\" \"AX3B\"",
-      "site:shopee.co.id \"Zoom 506\"",
-      "site:shopee.co.id \"Korg\" \"AX5B\"",
-      "site:shopee.co.id \"Vocalist\" \"Live\"",
-      "site:shopee.co.id \"Mooer\" \"Vocal\"",
-      "site:shopee.co.id \"Valeton\" \"VLP\"",
-      "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
-      "site:shopee.co.id \"MVP1\"",
-      "site:shopee.co.id \"Vocal X2\"",
-      "site:shopee.co.id \"GE300 Lite\"",
-      "site:shopee.co.id \"GT-6B\" bass effect",
-      "site:shopee.co.id \"multi efek bass\""
+      "site:shopee.co.id Digitech \"BP\" bass efek",
+      "site:shopee.co.id Korg \"AX\" bass efek",
+      "site:shopee.co.id \"TC Helicon\" \"VoiceLive 2\"",
+      "site:shopee.co.id \"BP200\"",
+      "site:shopee.co.id \"AX3000B\"",
+      "site:shopee.co.id \"VoiceLive\" -\"Play\" -\"Extreme\" -\"Touch\"",
+      "site:shopee.co.id \"BP355\""
     ],
-    "outcome": "No accepted new-model exact hardware;many accessories/unrelated results,existing TC offers deduplicated. Unsaved B1 FOUR cveri exact offer retained;CubeBabyBass andStompLab2B exact offers remain followup leads,not researched yet.",
-    "next_exact_urls": [
-      "https://shopee.co.id/Multi-Efek-Bass-Elektrik-M-Vave-Cube-Baby-Bass-Elektrik-Original-i.474088972.42811752267",
-      "https://shopee.co.id/Vox-SL2B-Multi-Effects-Bass-Pedal-Multi-Efek-Bass-Pedal-Vox-Stomplab-2B-SL2B-Original-i.1776275.4688514198"
-    ]
+    "result": "No qualified new model listing. Broad BP/AX queries returned unrelated electronics, specialist booster or existing guitar models; targeted searches returned existing VoiceLive units. One previously unrecorded exact VL3X offer saved with conflicting cache prices. No absence inference."
   },
   "discovery_fx600_20261018": {
     "queries": [

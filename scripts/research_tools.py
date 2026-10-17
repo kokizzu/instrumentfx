@@ -587,7 +587,7 @@ def main():
         if mode == 'commit-pandora':
             message = 'research(korg): qualify Pandora stomp oscillator and filter controls'
         if mode == 'commit-vl3x':
-            message = 'research(tc-helicon): preserve additional VL3X sold-out hardware offer'
+            message = 'research(tc-helicon): preserve VL3X exact offer and conflicting cache prices'
         if mode == 'commit-b3':
             message = 'research(zoom): qualify B3 tuner bypass mute and eco standby'
         if mode == 'commit-g3':
