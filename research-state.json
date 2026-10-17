@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "RP70 shared pickup/wah selector, output-mode behavior andsave restrictions saved. Continue missing-model discovery andremainingtechnicalverification.",
+    "task": "ME-30 compressor,TremoloArm andamp-simulator qualifications saved. Continue missing-model exactShopee discovery andtechnicalverification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69595,5 +69595,16 @@
       "User1–50saveandunsavededitloss"
     ],
     "discovery": "RP50/RP55/RP70search surfacedonlyexistingRP70SECONDoffer;not exhaustive"
+  },
+  "technical_followup_me30_pitch_20261018": {
+    "date": "2026-10-18",
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf",
+    "access": "Targetedindexedoriginaltext;noPDFvisualaudit",
+    "findings": [
+      "Compressor3parameters0–100",
+      "FourTremoloArmoctaveup/downwet/drymodes",
+      "AmpSimulatorusage;ringmodoscillatornotpitchsynthproof"
+    ],
+    "discovery": "ME6/ME-6/ME-10exactShopeesearchesunresolved"
   }
 }

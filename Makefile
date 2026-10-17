@@ -1871,3 +1871,7 @@ research-commit-ad10:
 .PHONY: research-commit-rp70
 research-commit-rp70:
 	python3 scripts/research_tools.py commit-rp70
+
+.PHONY: research-commit-me30
+research-commit-me30:
+	python3 scripts/research_tools.py commit-me30

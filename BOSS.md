@@ -2363,6 +2363,16 @@ Checked2026-10-17;partial. Own manual identifies guitar multi-effects. Bass/voca
 | Used | **Rp600.000**,seller-title“second”,arsyila_hani,shop293948259/item21081428643,Kab.LampungTimur. **Habis**;historicalsold-outask,notlivestock. Directbrowsertextchecked2026-10-17,crawledlastmonth;Sep18–20deliveryhistorical. | [Exact Shopee item][ME30-O] |
 | New | Unverified. | — |
 
+### ME-30 — compressor and pedal-pitch choices
+
+Checked2026-10-18 against indexed [original manual,Effects Descriptions andp16][ME30-M]. No PDF visual inspection or downloads; unrelatedME-10 results excluded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category / compressor parameters | LEVEL,SUSTAIN,ATTACK each **0–100 displayvalues**. HigherSUSTAIN increases sustain; higherATTACK sharpens pickingattack. These areparameters withincompression,not101 algorithms or a documentedtime/dBconversion. |
+| Expression / Tremolo Arm modes | **ARM1 octave-down wet; ARM2 octave-up wet; ARM3 down plusdry; ARM4 up plusdry**. Heel-raised startswithdryinput; pedaltravel shifts pitch. Fourmodes sharethepedaleffect; polyphonictracking remainsunverified. Distinctfromvolume-tremolo. |
+| Processing / amp-simulator scope | Manualrecommends AmpSimulator forheadphones/directrecording andoffwhenfeedingaguitaramp. This doesnot establishmultipleampmodels,userIRimport,acousticconversion orcaptures. RingMod usesaninternaloscillator interactingwithinput; thatalone doesnot establish apitch-tracking synthengine. |
+
 <!-- comparison evidence ends -->
 
 Search cache showedAug28–31delivery. Workingcondition,bundle,adapter,authenticity,warranty,shipping,tax andvouchereligibility unverified. Rp10000late-arrivalvoucheriscompensation,notdiscount. Manufacturer PDF browser text opens withzeroextractedlines;targetedindexedmanualtext supplies evidence. No filesystemdownload orvisualinspection claimed.
