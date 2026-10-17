@@ -236,6 +236,13 @@ Guitar multi-effects;distinct fromRP80/RP55/BP90. Checked2026-10-17;partial. Bas
 | Editor / software | Editor/platforms unverified;onboard editing documented. | [Manual p17][RP90-M] |
 | Looper / drums / live | **40 drum patterns,40–240BPM**;settings global. Whammy moves beforeamp. Both footswitches:release=bypass (buttons disabled),hold2s=tuner;either exits. Tuner initially mutes,but rocking expression restores volume. References440Hz/Ab/G/Gb. Looper,scenes,trails unverified. | [Manual pp2–3,7,29,34][RP90-M] |
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / assignment limits | Pitch Shift and Detune assignments control shifted-signal **level**, not pitch interval; Delay offers level or feedback; Amp offers gain. Whammy and YaYa have dedicated pedal assignments. This does not establish toe-switch support. | [Manufacturer manual pp32–33, mirrored][RP90-MM] |
+| Expression / calibration controls | Hold both footswitches about five seconds for PC; confirm toe-down and heel-down with either switch. CS indicates success; Er repeats endpoint setup. Calibration preserves presets. The printed fifth step repeats entry wording after success; its purpose remains unclear. | [Manufacturer manual p35, mirrored][RP90-MM] |
+| Delay / time resolution | Four delay models each offer up to five seconds. Time is 10–990ms in 10ms steps, then 1–5s in 100ms steps; feedback/level variation presets are distinct from time. | [Manufacturer manual pp29–30, mirrored][RP90-MM] |
+
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence and limits | Source |
@@ -252,6 +259,8 @@ Late-arrival compensation is not an immediate discount. No documents,software,fi
 [RP90-P]: https://digitech.com/product-manuals/
 [RP90-O1]: https://shopee.co.id/Efek-Gitar-Digitech-RP90-i.77743122.47652738573
 [RP90-O2]: https://shopee.co.id/efek-gitar-digitech-RP90-minus-i.729907257.51202235862
+
+[RP90-MM]: https://www.zikinf.com/manuels/digitech-rp90-manuel-utilisateur-en-30526.pdf
 
 ## RP250
 
