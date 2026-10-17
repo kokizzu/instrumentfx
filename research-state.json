@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Wisdom DFX2000 pending identity verification",
-    "task": "Exact Shopee Wisdom DFX2000 leads saved in discovery_bass_vocal_frontier_20261018, not active inventory. Verify own manufacturer/distributor identity and documented multi-effects architecture; Phonic DFX2000 manual is a different brand and must not supply specs without equivalence evidence. If primary identity stays unresolved, retain pending and continue other brands. 334 active count unchanged.",
+    "model": "Remaining technical fields / new manufacturer-backed leads",
+    "task": "Wisdom DFX2000 remains pending; WIPO D2022-0711 establishes historical domain-brand distinction, not DFX2000 origin/specs. Do not attribute it to US Wisdom Audio or borrow Phonic manual. Resume manufacturer-backed technical gaps in existing models or new Shopee series; prioritize unresolved complete I/O, power and category counts, commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69976,7 +69976,25 @@
       ],
       "identity_risk": "Search returned Phonic DFX2000 manuals, not authenticated Wisdom documentation. Same model string does not establish identical hardware, algorithms, memory or power. Do not import Phonic specifications.",
       "nonmatching_primary_source": "https://www.phonic.com/index.php/download-center/category/32-2020-06-16-19-31-58?download=1770%3Ajp&start=30",
-      "next": "Find authoritative Wisdom manufacturer/distributor identity and own DFX2000 manual or panel documentation; verify multifx eligibility before active inventory addition. Bundle, warranty, condition and checkout prices remain unverified."
+      "next": "Find authoritative Wisdom manufacturer/distributor identity and own DFX2000 manual or panel documentation; verify multifx eligibility before active inventory addition. Bundle, warranty, condition and checkout prices remain unverified.",
+      "identity_followup": {
+        "checked_date": "2026-10-18",
+        "primary_identity_source": "https://www.wipo.int/amc/en/domains/search/text.jsp?case=D2022-0711",
+        "finding": "WIPO decision dated 2022-05-18 identifies wisdom-proaudio.com as the disputed domain and PT Wisdom Indonesia Sejahtera among respondents. It states the respondent was not an authorized Wisdom Audio Corp dealer/distributor and orders transfer of the domain. Historical domain association does not authenticate current domain ownership or DFX2000 manufacturer.",
+        "scope_limit": "The decision does not mention DFX2000 or establish its manufacturer, technical design, authenticity or equivalence to Phonic. Do not attribute this seller-listed unit to US Wisdom Audio Corp.",
+        "domain_access": "HTTPS www, HTTPS bare and HTTP www attempts returned tool internal errors; no site content verified or files downloaded.",
+        "secondary_leads": [
+          {
+            "url": "https://www.semuabis.com/pt-wisdom-indonesia-021-64701944",
+            "qualification": "Business directory names wisdom-proaudio.com; historical lead only, not manufacturer authentication."
+          },
+          {
+            "url": "https://www.scribd.com/document/686623561/PL-SEP-23-A-1",
+            "qualification": "Unverified uploader September2023 Wisdom catalogue includes DFX2000. Authorship not authenticated; not adopted as primary technical evidence."
+          }
+        ],
+        "next": "Retain pending until own manual or authenticated distributor/manufacturer product documentation is found. Continue independent research elsewhere rather than repeatedly querying unavailable domain."
+      }
     }
   }
 }
