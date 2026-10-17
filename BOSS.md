@@ -2399,3 +2399,38 @@ Direct official2025HTMLmanual now read:manufacturer confirms two external design
 [KTGO-F]: https://www.boss.info/us/support/by_product/katana-go/updates_drivers/12b0d6f6-b2c4-41d3-8f65-b1247ce1eb4b/
 
 [KTGO-BTS]: https://static.roland.com/assets/media/pdf/KATANA_GO_BTS_eng01_W.pdf
+## AD-10
+
+Acoustic-electric guitar multi-effects/preamp, checked2026-10-17; partial. [Manufacturer product/specifications][AD10-P] explicitly document multiple effect families; not the dedicated BOSS AC-3 acoustic simulator. Bass/vocal capability and ownership unestablished.
+
+| Field | Verified evidence / gaps |
+|---|---|
+| Expression | External EV-30,FV-500H/L,EV-5 supported through shared EXP/CTL1,2; alternatively two footswitches. Built-in/toe unverified. |
+| Controls | Separate rotary/footswitch/button counts pending manual/panel audit. |
+| Display | **2-digit7-segment LED**;diagonal/color/touch unverified. |
+| Processing / choices | Resonance3,compressor2,chorus3,delay3,reverb3;four-bandEQ,lowcut,boost,feedback reduction+two notches. Aggregate simultaneous count unestablished. |
+| Factory / user memory | **10 stored setups**,plusManual mode;factory-filled count unknown. |
+| Synth / acoustic | Acoustic Resonance restores pickup/body response;electric-to-acoustic conversion and synth unestablished. |
+| Dimensions / mass | **217W×161D×65Hmm;1.3kg including batteries**. |
+| I/O | Two quarter-inch guitar inputs,send/return,stereoXLRouts,quarter-inchL/phones+R/mono,TRSEXP/CTL,USB-B,DC. |
+| Power / batteries | **300mA draw;6AA alkaline,about6h**;included adapter. Voltage/polarity/USB-power pending. |
+| IR / NAM / captures | User loading unestablished. |
+| Editor / platforms | USB audio drivers listed forWindows10/11 andmacOS14+;full editor unverified. |
+| Looper / drums / routing | **80s looper;2-in/2-out USB audio**. Outputs selectable with/without effects or separated input channels. Drums/scenes unknown. |
+
+### AD-10 — separate IDR hardware offers
+
+| Condition / seller | Amount and access qualifications | Exact item |
+|---|---|---|
+| Used | Unknown | — |
+| New | Unknown | — |
+| Condition unverified / Meisa Musik, Kota Bekasi | **Rp6,520,000**;shop16447862/item25177217216. Four-month search cache;direct reader failed2026-10-17. | [Shopee][AD10-S1] |
+| Condition unverified / Seven Stereo Music & Audio Store, Kota Bandung | **Rp9,350,000**;shop16879370/item4702307945. Direct reader returned one-month cache2026-10-17 with stale23August delivery. | [Shopee][AD10-S2] |
+
+Neither ask proves live stock or condition. Working state,selectedvariation,bundle,adapter,warranty,appliedvoucher,shipping/tax unknown. Late-arrival compensation is not a discount. No downloads or visual inspection. [Official manual index][AD10-M] reached;PDF target not exposed in reader,so exact controls,routing restrictions,power andinitial memory remain pending.
+
+[AD10-P]: https://www.boss.info/global/products/ad-10/
+[AD10-M]: https://www.boss.info/global/support/by_product/ad-10/owners_manuals/b6d45d4e-a7c4-4699-878b-9ef26113dbb9/
+[AD10-S1]: https://shopee.co.id/Boss-AD10-AD-10-Acoustic-Preamp-i.16447862.25177217216
+[AD10-S2]: https://shopee.co.id/BOSS-AD10-AD-10-AD-10-ACOUSTIC-GUITAR-PROCESSOR-i.16879370.4702307945
+

@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 286,
+  "active_model_count": 287,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 286,
+  "canonical_root_model_count": 287,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "286 unique active/root-canonical;0legacy-only;32brands;6excluded;allpartial. G1Xnext guitaronly;no inferredbass/vocal.",
+  "count_reconciliation": "287 unique active/root-canonical;0legacy-only;32brands;6excluded;allpartial. AD10 acousticguitarmultifx;noinferredbass/vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "B2 FOUR DI/bypassscope saved afterbass/vocalsearch duplicatecheck. Continue exactShopee hardware discovery bybrand/series against286inventory; preserve allfieldgaps. Avoid repeating current nohit queries withoutnewleads.",
+    "model": "BOSS AD-10",
+    "task": "Initial287threcord fromownproduct andexactShopeeoffers. Next readownEnglishmanual via originalPDF/identifiedmirror;verifycontrols,power,routing andmemory. Do not borrowAD2/AD8. Commit before nextmodel.",
     "next_models": [],
-    "after_queue": "286partialmodels;no downloads/workflows/push."
+    "after_queue": "287partialmodels;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23709,7 +23709,8 @@
       "ME-30",
       "ME-8",
       "GT-3",
-      "KATANA:GO"
+      "KATANA:GO",
+      "AD-10"
     ],
     "CUVAVE": [
       "H8"
@@ -24252,7 +24253,8 @@
       "ME-30",
       "ME-8",
       "GT-3",
-      "KATANA:GO"
+      "KATANA:GO",
+      "AD-10"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -24369,7 +24371,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 236,
+      "record_count": 237,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41341,10 +41343,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 286,
-    "canonical_root_models": 286,
+    "unique_brand_model_pairs": 287,
+    "canonical_root_models": 287,
     "legacy_only_models": 0,
-    "guitar_view_models": 236,
+    "guitar_view_models": 237,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
     "vocal_view_models": 56,
@@ -41404,7 +41406,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS AD-10."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41437,6 +41439,7 @@
       "BOSS::ME-8",
       "BOSS::GT-3",
       "BOSS::KATANA:GO",
+      "BOSS::AD-10",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -42211,6 +42214,13 @@
     },
     "BOSS::KATANA:GO": {
       "link": "BOSS.md#katanago",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::AD-10": {
+      "link": "BOSS.md#ad-10",
       "source_files": [
         "BOSS.md"
       ],
@@ -57662,5 +57672,26 @@
     ],
     "reconciliation": "B2 FOUR exactoffers23161833031,22861014005,27233015578,42458813522,42758785757,24004987590alreadyrecorded;no newmodel. MP100 Black/Pink unresolvedvariation price1776275/18091161846 not assigned separately. VoiceLive3Extreme alreadycanonical.",
     "limit": "No newexacthardware established inqueries;notmarketabsence"
+  },
+  "ad10_primary_20261017": {
+    "product": "https://www.boss.info/global/products/ad-10/",
+    "manual_index": "https://www.boss.info/global/support/by_product/ad-10/owners_manuals/b6d45d4e-a7c4-4699-878b-9ef26113dbb9/",
+    "eligibility": "Independent chorus,delay,reverb,compression/EQ plusacousticpreamp",
+    "offers": [
+      "16447862/25177217216 6520000 conditionunknown4monthindex directfail",
+      "16879370/4702307945 9350000 conditionunknown1monthdirectcache"
+    ],
+    "remaining": [
+      "Separate controls",
+      "Simultaneous processing/routing",
+      "Voltage/polarity/USBpower",
+      "Builtin/toe",
+      "Factoryfilledmemory",
+      "Display details",
+      "Full editor",
+      "User loading",
+      "Conditionqualifiedstock"
+    ],
+    "downloads": false
   }
 }

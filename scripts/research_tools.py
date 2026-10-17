@@ -463,7 +463,7 @@ def main():
         if mode == 'commit-rp1000':
             message = 'research(digitech): enumerate RP1000 amp cabinet and shared FX choices'
         if mode == 'commit-gt6':
-            message = 'research(boss): verify GT-3 assignments and distinguish virtual pedal triggers'
+            message = 'research(boss): add AD-10 acoustic multi-effects with qualified exact offers'
         if mode == 'commit-hxone':
             message = 'research(line6): verify HX One dimensions and qualify regional specifications'
         if mode == 'commit-pocketpod':
