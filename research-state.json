@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS KATANA:GO",
-    "task": "KATANA:GO synth/acoustic functions and mode/bank behavior saved. Next audit effect categories/chain and tuner/StageFeel/firmware restrictions;do not claim118pageguidefullyread.",
+    "task": "KATANA:GO StageFeel/tuner/systemhistory saved. Next derive full category choices and chain limits from own parameter/ToneStudio guides;retain physicalrevision and price gaps.",
     "next_models": [
       "Fender Mustang Micro original"
     ],
@@ -56009,5 +56009,14 @@
     "parameter_guide": "https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf",
     "saved": "Own2024guideACGUITARSIM/WAVESYNTH/BASSSYNTHsingle-note restriction;MODandFXsameeffectallowed;10ampcharacters;own2025mode/bankoperation.",
     "remaining": "Guide118pages notfullyaudited;fullcategorycounts/chainceiling,tuner/StageFeel/firmware,wirelessassignments,earlierphysicalspecs,selleridentity/import/USBchannels/prices."
+  },
+  "katana_go_live_checkpoint_20261017": {
+    "sources": [
+      "https://static.roland.com/manuals/ktn-go2/en-US/7277607573161867.html",
+      "https://static.roland.com/manuals/ktn-go2/en-US/7277722773162635.html",
+      "https://www.boss.info/us/support/by_product/katana-go/updates_drivers/12b0d6f6-b2c4-41d3-8f65-b1247ce1eb4b/"
+    ],
+    "saved": "4StageFeelmodes/tuneroperation/referencepitch;1.04appearancecompatibility,1.02resetprocedure/boot/batterybughistory.",
+    "remaining": "Fullcategorychoices/chainceiling,wirelessassignments/USBchannels/import/editorOS,batterycapacity/sellergeneration/currentconditionprices."
   }
 }

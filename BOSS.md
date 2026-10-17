@@ -2320,6 +2320,9 @@ Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Curre
 | Power / charging operation | Official manual explicitly permits use while recharging,with POWER on/off. Orange charging,green full;alternating green/orange error. Red battery indicator means shutdown within30min. [Official panel manual][KTGO-H] |
 | Editor / USB driver | Computer/iPad/iPhone audio uses standard OS USB driver;appropriate Type-Cadapter/cable required for iOS devices. This does not establish desktop editor support or channel count. [Official panel manual][KTGO-H] |
 | Display / screensaver | Screensaver activates after inactivity and cannot be disabled;control operation restores normal display. Timeout not specified in reviewed text. [Official panel manual][KTGO-H] |
+| Live / Stage Feel modes | OFF;MODE1 instrument front/Bluetooth rear;MODE2 both rear;CUSTOM adjustable in app(default instrument left-rear/backing right-rear). Spatial settings are not additional amp/effect algorithms. [Official Stage Feel manual][KTGO-SF] |
+| Live / tuner | Multifunction press opens tuner;single-note pitch/name displayed. Press again or another button exits;reference pitch set in app. Mute behavior not established in this reviewed page. [Official tuner manual][KTGO-T] |
+| Live / system revisions | **1.04 February2025** supports units with different appearances. **1.02 May2024** changed factory-reset procedure and fixed boot/battery-display bugs. Use revision-specific reset guidance;no software downloaded or update performed. [Official update history][KTGO-F] |
 | Live / practice | StageFeel spatial audio;Session playback loops/timestamps trigger memories. Playback looping does not establish instrument looper. Drums/scenes unverified. [Product][KTGO-P] |
 
 ### Separate IDR hardware offers
@@ -2350,3 +2353,7 @@ Direct official2025HTMLmanual now read:manufacturer confirms two external design
 [KTGO-G]: https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf
 [KTGO-MODE]: https://static.roland.com/manuals/ktn-go2/en-US/7277031573160331.html
 [KTGO-MEM]: https://static.roland.com/manuals/ktn-go2/en-US/7277338773161099.html
+
+[KTGO-SF]: https://static.roland.com/manuals/ktn-go2/en-US/7277607573161867.html
+[KTGO-T]: https://static.roland.com/manuals/ktn-go2/en-US/7277722773162635.html
+[KTGO-F]: https://www.boss.info/us/support/by_product/katana-go/updates_drivers/12b0d6f6-b2c4-41d3-8f65-b1247ce1eb4b/
