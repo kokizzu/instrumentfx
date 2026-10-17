@@ -473,6 +473,16 @@ Checked 2026-10-18 in Roland’s own support articles.
 | Presets / selective reset | Factory Reset FROM/TO can select **SYSTEM or U01–U99**. SYSTEM-only or a selected user-patch range can be reset; affected settings are lost. This is not evidence of additional memories or a stored-loop backup. [Roland article, updated2026-07-02](https://support.roland.com/hc/en-us/articles/360015997611-VE-500-How-do-I-restore-the-factory-settings-Factory-Reset) |
 | Routing / chord detection | Roland recommends guitar → VE-500 INST, then unprocessed THRU → external guitar processor. Sending an already effected guitar into VE-500 is discouraged because dry guitar gives better chord recognition. This does not add guitar processing to the vocal unit. [Roland connection guidance](https://support.roland.com/hc/en-us/articles/17572594030619-How-to-connect-a-BOSS-GT-001-to-a-VE-500-or-VE-8) |
 
+### VE-500 — processing ratings are separate from USB format
+
+Checked 2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / converter and processing ratings | Own specification: **48 kHz sampling**, **32-bit AD + AF method**, **32-bit DA**, **32-bit floating-point processing**. These fields do not specify USB transfer bit depth or channel count. [Manufacturer specifications](https://www.boss.info/global/products/ve-500/specifications/) |
+| I/O / analog electrical ratings | MIC **−40 dBu adjustable,4 kΩ**; INST **−10 dBu,2 MΩ**; unbuffered THRU **−10 dBu**. XLR L/R selectable **−40/−10 dBu**, **600 Ω output impedance**. Output impedance is not recommended load. [Manufacturer specifications](https://www.boss.info/global/products/ve-500/specifications/) |
+| Software / automatic driver installation | Windows10/11 can automatically obtain the dedicated VE-500 driver from the Internet when connected. This does **not** mean class-compliant/no-driver operation. Public page points to archive/installed readmes for additional instructions but does not publish USB audio channel count or format; no archive downloaded. [Exact driver page](https://www.boss.info/global/support/by_product/ve-500/updates_drivers/8efe83ff-2db5-4335-9e8b-33ee8de756ae/) |
+
 ## VE-22
 
 Vocal multi-effects;consolidated/researched2026-10-16;partial verification.

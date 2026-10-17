@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-500",
-    "task": "Saved VE500 DIN-MIDI-dependent M>VOICE visibility, selective reset and dry chord-detection routing. USB channelcount/format stillunknown; avoid third-party speculative2x2/24bit44.1k claims. Next use exact driver documentation if accessible or move to differentmodel primarygap/Shopee discovery. No downloads; commit before next model.",
+    "task": "VE500 own48k/converter/electrical ratings and dedicated automatic-driver distinction saved. USBstreambitdepth/channelcount remainunknown; publicdriverpage lacks them andreadmesrequire prohibiteddownload. Move to othermodel primarygap orShopee discovery; no repeatedVE500format searches absentnewprimarysource. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56905,6 +56905,15 @@
         "https://support.roland.com/hc/en-us/articles/360016423292-VE-500-MIDI-to-Voice-Parameters-Not-Visible-in-HRM-Effect",
         "https://support.roland.com/hc/en-us/articles/360015997611-VE-500-How-do-I-restore-the-factory-settings-Factory-Reset",
         "https://support.roland.com/hc/en-us/articles/17572594030619-How-to-connect-a-BOSS-GT-001-to-a-VE-500-or-VE-8"
+      ]
+    },
+    {
+      "model": "BOSS VE-500",
+      "checked_date": "2026-10-18",
+      "finding": "Ownspec48k32bitADAF/DA32floatprocessing andanalog nominallevels/impedances saved, distinctfrom unresolvedUSBformat. Windowsautomaticdownloadis dedicateddriver,notclasscompliance. PublicdriverpagehasnoUSBchannel/format;readmesnotdownloaded.",
+      "sources": [
+        "https://www.boss.info/global/products/ve-500/specifications/",
+        "https://www.boss.info/global/support/by_product/ve-500/updates_drivers/8efe83ff-2db5-4335-9e8b-33ee8de756ae/"
       ]
     }
   ],
