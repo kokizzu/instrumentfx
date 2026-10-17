@@ -184,3 +184,36 @@ Hall Acoustic andDrum names describe reverb algorithms,not acoustic-guitar conve
 The¼TRS pedal input uses momentary switches: **tip bypass,ring tap tempo**. This verifies footswitch control,not analog continuous-expression support. S/PDIF output runs44.1kHz onanaloginput,or follows avalid44.1/48kHz digitalinput.
 
 The overview’s “BYPASS knob” wording remains acontrol-count ambiguity;button count awaits qualified visual/original diagram evidence. No image was inspected orsoftware downloaded.
+
+## M-One XL
+
+Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No integrated treadle. Quarter-inch pedal input: momentary bypass1/2/both or tap; continuous EXP/toe unknown. |
+| Controls | Text-derived **4 rotaries / 0 integrated footswitches / 14 buttons**, excluding power: three level/mix/balance knobs plus CONTROL wheel; visual verification pending. |
+| Display | **23-character/280-icon STN LCD**; diagonal/color/touch unknown. |
+| Processing / choices | **Two engines**; reverb, delay, modulation, pitch, EQ/dynamics. Full category enumeration pending. Small Room/PingPong explicitly XL-only. |
+| Presets | **200 factory +100 user =300 locations**; factory edits save into user bank. |
+| Synth / acoustic | Dedicated synthesis/acoustic conversion unknown. |
+| Dimensions / weight | **483×44×195mm;1.85kg**. Published19×1.75×8.2inch conflicts with metric depth; preserve both, do not normalize. |
+| I/O | Balanced XLR L/R inputs/outputs; RCA S/PDIF in/out; DIN MIDI in/out/thru; quarter-inch pedal; mains. Headphones/USB unestablished. |
+| Power | **100–240VAC,50–60Hz auto; <15W**. DC polarity N/A; operating current/battery/USB power unverified. |
+| Editor / platforms | MIDI control/SysEx documented; editor and supported OS unknown. |
+| IR / NAM / captures | User IR, native/converted NAM and captures unknown. |
+| Looper / drums / routing | Six routings: dual send/return,parallel,parallel/serial,serial,stereo-linked,dual mono. Looper/drums/scenes unknown. |
+| Instrument scope | Guitar-track and lead-vocal examples support guitar/vocal inclusion; bass remains unclassified. XLR does not establish mic preamp/phantom. |
+
+### M-One XL — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used | Unknown | — |
+| New | Unknown | — |
+| Unverified / d'Acoustic,Kota Pekanbaru | **Rp2.800.000**, shop480855699/item43364186361; checked2026-10-17, two-month cached page. Shop on holiday; current stock unverified. Title original is not authenticity proof. Variant,bundle,warranty,voucher,shipping/tax unknown; August delivery stale. | [Shopee][M1XL-O] |
+
+[M1XL-M]: https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf
+[M1XL-O]: https://shopee.co.id/Efek-TC-Electronic-M-One-XL-original-i.480855699.43364186361
+
+Manual printed pp6–8,12–17,40 support controls, routing, memory and XL specifications. Guitar/vocal examples pp13–14; no direct passive-instrument suitability inferred.

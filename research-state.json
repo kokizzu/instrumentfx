@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 281,
+  "active_model_count": 282,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 281,
+  "canonical_root_model_count": 282,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "281uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.MPX100guitar/vocal.",
+  "count_reconciliation": "282 unique active/root-canonical;0 legacy-only;32 brands;6 excluded;all partial. M-One XL guitar/vocal; bass unclassified.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "TC Electronic M-One XL",
-    "task": "Exact cached Shopee hardware lead saved; read mirrored original manual with Standard/XL distinctions, then add qualified root record and affected views before researching next model.",
+    "task": "Root record added; next enumerate exact XL algorithms and qualify software. Keep Standard/XL firmware and XLR/jack distinctions. Preserve depth conflict.",
     "next_models": [],
-    "after_queue": "281 partial active models unchanged. REV500 official manual located at https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf; combined-effects architecture requires qualification before inclusion. No downloads/workflows/push."
+    "after_queue": "Resume Shopee discovery; REV500 lead awaits full qualification. All282 records partial; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24007,7 +24007,8 @@
       "M100",
       "PLETHORA X3",
       "PLETHORA X5",
-      "M350"
+      "M350",
+      "M-One XL"
     ]
   },
   "root_brand_content": {
@@ -24354,12 +24355,13 @@
       "M100",
       "PLETHORA X3",
       "PLETHORA X5",
-      "M350"
+      "M350",
+      "M-One XL"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 231,
+      "record_count": 232,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24371,9 +24373,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 53,
+      "record_count": 54,
       "vocal_only_count": 22,
-      "combined_instrument_count": 31,
+      "combined_instrument_count": 32,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41331,13 +41333,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 281,
-    "canonical_root_models": 281,
+    "unique_brand_model_pairs": 282,
+    "canonical_root_models": 282,
     "legacy_only_models": 0,
-    "guitar_view_models": 231,
+    "guitar_view_models": 232,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 53,
+    "vocal_view_models": 54,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41394,7 +41396,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MPX100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M-One XL."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41628,7 +41630,8 @@
       "TC Electronic::M100",
       "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
-      "TC Electronic::M350"
+      "TC Electronic::M350",
+      "TC Electronic::M-One XL"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41796,7 +41799,8 @@
       "Yamaha::SPX2000",
       "Yamaha::SPX1000",
       "TC Electronic::M100",
-      "TC Electronic::M350"
+      "TC Electronic::M350",
+      "TC Electronic::M-One XL"
     ]
   },
   "comparison_bass_basis": {
@@ -44011,6 +44015,13 @@
     },
     "TC Electronic::M350": {
       "link": "TC-ELECTRONIC.md#m350",
+      "source_files": [
+        "TC-ELECTRONIC.md"
+      ],
+      "finding_files": []
+    },
+    "TC Electronic::M-One XL": {
+      "link": "TC-ELECTRONIC.md#m-one-xl",
       "source_files": [
         "TC-ELECTRONIC.md"
       ],
@@ -57088,5 +57099,23 @@
       "qualification": "Manufacturer-authored manual summaries, not generated FAQs. Separate Standard/XL specifications; Small Room and Pingpong explicitly XL-only. Full exact-model fields remain pending."
     },
     "next": "Read original manual pages for XL revision, controls, routing, memory, I/O, power and software. Do not copy Standard specifications into XL."
+  },
+  "mone_xl_primary_20261017": {
+    "url": "https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf",
+    "identity": "46-page manufacturer English Rev4 E60500152; SW2.07 XL /1.43 Standard; mirror watermarks",
+    "official": "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf",
+    "official_access": "Indexed original; direct inaccessible",
+    "gaps": [
+      "Complete algorithms",
+      "visual controls",
+      "display diagonal/color/touch",
+      "editor OS",
+      "IR/NAM/captures",
+      "condition-qualified prices"
+    ],
+    "conflicts": [
+      "8.2inch depth versus195mm; retain both"
+    ],
+    "downloaded": false
   }
 }
