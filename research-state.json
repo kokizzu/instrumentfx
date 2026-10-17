@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon PERFORM-VK",
-    "task": "MIDI channel selection, VK-specific remote defaults/exclusions and qualified limitless ask saved. Next fresh Shopee model discovery and primary technical gap work. VK body/mass, control inventory, power polarity/draw and manual conflicts remain unresolved.",
+    "model": "TC-Helicon PERFORM-VG",
+    "task": "Gain nudge, filter reset, Talk/reset controls and contradictory NEO cached asks saved. Next fresh brand/series Shopee discovery and primary gap work. VG dimensions, power draw/polarity, software/interface claims, preset count remain unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-VK."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-VG."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57416,6 +57416,15 @@
       "sources": [
         "https://www.manualslib.com/guide/3106539/tc-helicon-perform-vk-ultimate-mic-stand-mount-vocal-processor-manual.html",
         "https://shopee.co.id/TC-Helicon-Perform-VK-Garansi-Original-i.95687096.4506813865"
+      ]
+    },
+    {
+      "model": "TC-Helicon PERFORM-VG",
+      "checked_date": "2026-10-18",
+      "finding": "Own Rev1.0 manufacturer manual mirror confirms manual-gain nudge disable/re-enable, mic feedback filter reset distinct from guitar phase,2sMIXTalk/tuner guitar-detection requirement and VocalEcho+Harmony reset. NEO158235298/9196009067direct6dayRp3.85mnoHabis vs5monthsearchRp4.326mHabis retained as cache conflict, not restock. Official QSG unavailable this pass.",
+      "sources": [
+        "https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd",
+        "https://shopee.co.id/TC-Helicon-PERFORM-VG-Vocal-and-Acoustic-Guitar-Processor-Effect-i.158235298.9196009067"
       ]
     }
   ],

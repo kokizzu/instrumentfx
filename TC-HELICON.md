@@ -649,6 +649,20 @@ Mic Control requires +48V. Hold48V with guitar Chorus to disable,with guitar Rev
 
 USB audio and preset-bank claims found in retailer/mirror summaries remain unverified by manufacturer technical documentation. Service front-test and mainboard-schematic leads were identified but direct access failed;no circuitry-derived claims or device tests were made. The original gaps remain open rather than being converted to No.
 
+
+### PERFORM-VG — gain and feedback controls
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / gain nudge | After automatic gain setup, turning the control knob manually adjusts gain. The control times out and saves the selected level. Manual adjustment disables nudge, which otherwise reduces gain after repeated overloads; pressing SET re-enables it. Persistence across power cycles is not established here. | [Rev1.0 p4][PVG-M] |
+| Processing / feedback filter reset | Toggle Anti-Feedback off/on to reset its filters. Filtering applies to the microphone; holding Anti-Feedback and turning the knob instead selects normal/inverted guitar phase, shown green/red. This is distinct from mic filtering. | [Rev1.0 p11][PVG-M] |
+| Live / Talk and reset operation | Hold MIX2s for Talk/Tuner; tuner and guitar-level control require a connected guitar. Factory reset uses Vocal Echo + Harmony held at power-on. This reset procedure is not the volatile startup knob reassignment. Documentation only; no device operated. | [Rev1.0 pp12,14][PVG-M] |
+
+### Additional NEO MUSIC price observations
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unknown / conflicting cached observations | NEO MUSIC, Kota Sukabumi; shop158235298/item9196009067. Checked2026-10-18: exact HTML has **Rp3,850,000**, six-day cache, no explicit Habis label; same search result has **Rp4,326,000; Habis**, five-month cache and11May delivery. Preserve both, not a confirmed price reduction or restock. Condition, revision, selected variation, working state, adapter/bundle and warranty unknown. Besok delivery is stale; Rp10,000 late compensation is not discount. Shipping/tax/checkout and current stock unverified. | [Exact item](https://shopee.co.id/TC-Helicon-PERFORM-VG-Vocal-and-Acoustic-Guitar-Processor-Effect-i.158235298.9196009067) |
 <!-- comparison evidence ends -->
 
 [PVG-O-PRE]: https://shopee.co.id/TC-Helicon-PERFORM-VG-Mic-Stand-Mount-Vocal-and-acoustic-guitar-effects-processor-for-studio-quality-i.1637889504.41079043503

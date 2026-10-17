@@ -400,7 +400,7 @@ def main():
         if mode == 'commit-perform-ve':
             message = 'research(tc-helicon): restore PERFORM-VE routing conflicts and qualified offer coverage'
         if mode == 'commit-perform-vg':
-            message = 'research(tc-helicon): add qualified PERFORM-VG preorder observation'
+            message = 'research(tc-helicon): qualify PERFORM-VG gain controls and conflicting cached asks'
         if mode == 'commit-perform-vk':
             message = 'research(tc-helicon): qualify Perform VK remote defaults and sold-out ask'
         if mode == 'commit-perform-v':
