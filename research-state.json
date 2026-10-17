@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B2.1u",
-    "task": "B2.1u exact ASIO package/OS boundaries saved; modernOS/editor unresolved. Next resume brand/series Shopee discovery for unrecorded bass/vocal hardware; do not repeat parked B1Xnext label or already rejected BP200 adapter. No downloads. Commit each model before next.",
+    "model": "BOSS VE-500",
+    "task": "Eight-query vocal/bass discovery found no unrecorded qualified hardware; existing Artech VE500 ask retained sameRp9.68m, no duplicate. Next verify VE500 explicit approved PSA supply and official adapter polarity, then update own record and comparisons. No downloads. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -70803,5 +70803,28 @@
     ],
     "result": "Exact searches returned the mixed store title only; no exact item URL or selected B1Xnext variant. Direct store text was cached last month, search snippet four months. Manufacturer search returned original B1/B1X documentation, not confirmation of B1Xnext as a distinct model. Do not relabel original B1X, invent a model, or assign Rp999,000 mixed listing floor. Identity remains unresolved; absence from search is not proof of nonexistence.",
     "next": "Park this unresolved seller label. Resume unrecorded bass/vocal series discovery, or resolve existing B1X original control/power/category gaps from its own manufacturer manual."
+  },
+  "discovery_vocal_gtx_bp90_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Voicelive Play GTX\"",
+      "site:shopee.co.id \"VoiceLive 2\" TC",
+      "site:shopee.co.id \"Vocal Performer\" \"VE\"",
+      "site:shopee.co.id \"BP90\" Digitech",
+      "site:shopee.co.id \"Zoom\" \"B1u\"",
+      "site:shopee.co.id \"Zoom\" \"BFX\" efek",
+      "site:shopee.co.id \"TC Helicon\" \"Harmony G\"",
+      "site:shopee.co.id \"Vocalist\" digitech effect"
+    ],
+    "result": "No qualified unrecorded model found. Broader Vocal Performer search returned already recorded VE500/VE22/VE5/VE20. Generic Vocalist search returned microphones, stands, software, subwoofers and previously rejected adapter; none promoted.",
+    "rechecked_existing": {
+      "model": "BOSS VE-500",
+      "item": "31171541/12352931227",
+      "url": "https://shopee.co.id/Boss-VE-500-Vocal-Performer-VE500-Effect-vocal-Efek-Vokal-i.31171541.12352931227",
+      "seller": "Artech Music, Kota Bekasi",
+      "indexed_ask_idr": 9680000,
+      "finding": "Direct web text crawled today retains Rp9,680,000 and same-day14:00 wording; already in canonical BOSS record. This is not new-model evidence, condition verification or current stock/checkout proof. No duplicate offer/model added."
+    },
+    "next": "Resolve existing VE500 DC polarity through its explicitly named PSA supply and manufacturer adapter specification; do not infer from sibling model."
   }
 }
