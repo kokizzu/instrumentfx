@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "ImaginationHabis/preorderoffer saved;existingKisamaoffer reprojected intoactive prices. Continue manufacturer control/power/algorithm gaps andfreshdiscovery;keepstandardVL3 separate.",
+    "task": "VL3X analog electrical levels/impedances/converter figures saved distinctfrom16bitUSB. Next fullcontrolinventory,powercurrent/polarity,currentfirmware/categorychoices andfreshdiscovery;retain manualsrevision.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60872,5 +60872,13 @@
       "site:shopee.co.id Play Electric Helicon"
     ],
     "result": "OnlyexistingVLP/VL3X hardware andadapter;noqualifiednewmodel,nocoverageclaim"
+  },
+  "vl3x_electrical_20261017": {
+    "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+    "revision": "2015-10-20 firmware2.1.00build346",
+    "pages": "196–198",
+    "findings": "Input impedances/0dBFS levels;voice/guitar output impedance/levels;phones50ohm+14dBu;24bitconverter specifications distinct16bit48kUSB",
+    "qualification": "Guitarthru270/540ohmBal/Unbal retainedsourceorder;notreversed;no measurement",
+    "remaining": "Powercurrent/polarity,fullcontrolinventory,currentfirmware andalgorithmchoices unresolved"
   }
 }
