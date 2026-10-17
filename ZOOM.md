@@ -1802,6 +1802,11 @@ Manufacturer model **MS-60B+**,catalogued with the word Plus to distinguish it f
 | Live / tempo and master level | **40–250 BPM per patch**, shared by its tempo-synchronized effects. MENU → BPM permits numerical tempo adjustment; the optional BPM module supplies footswitch tap tempo and occupies one of the six effect slots. Master volume persists across patch changes, unlike the patch-specific tempo and R tap. | [Own manual, tempo and signal flow sections](https://zoomcorp.com/manuals/ms-60bplus-en/) |
 
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| MIDI / receive channel and revision | **USB MIDI CH: channels 1–16 or OMNI** (all channels). Own chart **March 1, 2024, version 1.00** marks Program Change reception supported and transmission unsupported; it marks note, pitch-bend, CC, SysEx and real-time clock/commands unsupported in both directions. These are published revision-specific limits, not a test of later firmware or third-party protocols. | [Own manual, USB MIDI CH](https://zoomcorp.com/manuals/ms-60bplus-en/); [own chart p70](https://zoomcorp.com/media/documents/E_MS-60Bplus.pdf) |
+| MIDI / patch-number conflict | Chart literally prints **Program Change 0–100**, alongside the same manual’s **100 patch memories**. Do not reinterpret that inclusive range as 101 memories or assume a corrected 0–99 map. Exact wire-value-to-slot mapping and endpoint behavior remain unresolved; firmware 1.20’s CHOCOLATE PLUS fix does not establish broader CC/clock support. | [Own chart p70 and specifications p69](https://zoomcorp.com/media/documents/E_MS-60Bplus.pdf); [firmware history](https://zoomcorp.com/documents/3206/MS-60Bplus_VersionHistory_120_en.pdf) |
+
 ### Separate IDR hardware offers
 
 Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?**

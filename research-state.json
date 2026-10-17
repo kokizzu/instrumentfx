@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom MS-60B Plus",
-    "task": "MS60B+ R tap/tempo/master persistence saved; exact image-only tap boundaries/stereo behavior unresolved. Next inspect own MIDI implementation chart and USB receive-channel settings, preserving firmware1.20 CHOCOLATE PLUS qualification. No downloads. Commit before next model.",
+    "task": "MS60B+ MIDI chart/revision and0–100 versus100-slot conflict saved. Next resume Shopee brand/series discovery for eligible unrecorded bass/vocal hardware; no downloads. Preserve MS60B+ unknown slot map, display diagonal, USB audio/imports and routing diagram details. Commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56513,6 +56513,15 @@
       "model": "Zoom MS-60B Plus",
       "checked_date": "2026-10-18",
       "finding": "Own HTML manual confirms patch-specific R OUT POSITION, non-end tap indicator, patch tempo40–250 BPM shared by synchronized effects, MENU BPM numerical setting and master volume retained across patch changes. Exact R tap boundary options/stereo behavior remain unknown: diagrams not represented in accessible text; SVG web fetch unsupported. No files downloaded.",
+      "sources": [
+        "https://zoomcorp.com/manuals/ms-60bplus-en/",
+        "https://zoomcorp.com/media/documents/E_MS-60Bplus.pdf"
+      ]
+    },
+    {
+      "model": "Zoom MS-60B Plus",
+      "checked_date": "2026-10-18",
+      "finding": "USB receive channels1–16/OMNI confirmed. Own MIDI chart March1 2024 v1.00: PC receive yes, transmit no; note/bend/CC/SysEx/clock/commands no both directions. Preserve chart0–100 versus100 memories conflict; exact slot map unresolved and later firmware/protocol behavior not tested.",
       "sources": [
         "https://zoomcorp.com/manuals/ms-60bplus-en/",
         "https://zoomcorp.com/media/documents/E_MS-60Bplus.pdf"
