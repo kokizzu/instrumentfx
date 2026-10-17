@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Line 6 Helix Stadium XL Floor",
-    "task": "Added207;continue ownXL dimensions/power andcurrent1.4 modelcounts/Proxy constraints. Do not duplicate orborroworiginalFloor specs.",
+    "task": "Own dimensions and Proxy limits saved. Continue primary category inventory, IR capacity, power label and snapshots/routing; then resume exact Shopee discovery of missing models.",
     "next_models": [],
-    "after_queue": "Discovery andlegacyconsolidation incomplete;no downloads/workflows."
+    "after_queue": "Market coverage and legacy consolidation remain incomplete; no downloads or workflows."
   },
   "new_findings": [
     {
@@ -49559,6 +49559,16 @@
       "checked_date": "2026-10-17",
       "finding": "Original Floor indexed manual plus manufacturer KB: one looper;60mono30stereo full speed,120/60 half;Shuffle nohalf;matchingmodel/path/type constraints. Improved newrecord readability withoutdroppingprovenance.",
       "remaining": "Fullmanual tooLarge;power,categorycounts,storage,currentOS andqualifiedoffers."
+    },
+    {
+      "model": "Line 6 Helix Stadium XL Floor",
+      "checked_date": "2026-10-17",
+      "finding": "Own KB dimensions 498×257×92 mm / 5.25 kg, preserving mixed units. Proxy: 2048 library, four mono blocks per preset/two per main path, cloud/account required. KB USB-editing restriction conflicts with manual application 1.4 USB editing.",
+      "sources": [
+        "https://kb.line6.com/helix-stadium-tips-and-tricks",
+        "https://manuals.line6.com/en/helix-stadium/live/clones"
+      ],
+      "remaining": "Power label, current category inventory, IR capacity, snapshots/routing, DSP ceilings and condition-qualified offers."
     }
   ],
   "discovery_cross_brand_bass": {

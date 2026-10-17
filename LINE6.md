@@ -1055,14 +1055,14 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Built-in / external / toe expression | Built-in pedal with assignable toe switch, default EXP1/2 toggle. Up to4 external pedals through CONTROL A/B and C/D; these connections also serve switches, triggers or amp control, so maxima are alternatives rather than additional dedicated sockets. [Top panel][SX-T], [Rear panel][SX-R] |
 | Knobs / footswitches / buttons | **11 /12 /13** from text inventory:8 parameter rotaries,Volume,Upper,Lower;3 output buttons,3 transport,Home,Song,Amp,Save,XY,2 Page. Encoder presses counted once;toe and rear power additional. [Top panel][SX-T] |
 | Display | **8-inch color touchscreen**;12 OLED scribble strips on XL. Strip diagonal/color specification **?** [Display][SX-D], [Product][SX-P] |
-| Dimensions / weight | **?** — not established from checked primary pages; original Floor dimensions not reused |
+| Dimensions / weight | **498 W × 257 D × 92 H mm; 5.25 kg**. Manufacturer also lists 19.4 W × 10.1 D × 3.6 H inches and 11.5 lb; rounded mixed units retained as published. [Support tips][SX-K] |
 | Simultaneous blocks | Manual describes **46 processing positions in Super Serial template**; exact DSP/model limits remain separate. Do not assume46 heavy amps. Agoura amp models and HX-compatible effects; complete category counts **?** [Presets][SX-M], [Blocks][SX-B] |
 | Factory / user memory | **512 initially empty user locations**, separate protected factory folder; factory-filled count/combined total **?**. Up to122 setlists with1–128 aliases each;aliases do not add independent preset storage. [Presets][SX-M] |
 | Synth / acoustic simulation | Pitch/Synth category documented; exact synth and acoustic-simulation algorithms/limits **?** [Blocks][SX-B] |
-| IR / NAM / capture | Cab IR import documented. **Proxy** amp,amp+cab,preamp anddistortion clones distinct from IRs; native/converted NAM **?**. No inference from other brands' capture formats. [Presets][SX-M], [Blocks][SX-B] |
+| IR / NAM / capture | Cab IR import documented. **Proxy** amp, amp+cab, preamp and distortion clones, introduced in firmware 1.3. Library **2,048 clones**; up to **4 per preset, 2 per main path**, subject to DSP. All clone blocks are mono and sum preceding stereo. Creation requires Internet access and a signed-in Line 6 account; native/converted NAM **?**. [Clones][SX-C], [Presets][SX-M] |
 | Audio/control I/O | Two instrument inputs;XLR mic,+48V;4¼″ send/return loops;stereoXLR and¼″ mains;stereo phones;two sharedCONTROL jacks;DIN MIDI in/out-thru;RCA S/PDIF in/out;Nexus expansion;microSD;USB-A Ethernet adapter option;USB-C audio/editor;grounded IEC. Exact remaining connector wiring/sizes **?**. Sends impedance-balanced,returns unbalanced. [Rear panel][SX-R] |
 | Power / battery / USB | Internal supply,grounded IEC;voltage/frequency/draw **?**,DC barrel polarity N/A. Battery/USB-powered operation **?** [Rear panel][SX-R], [Product][SX-P] |
-| Editor platforms | **Helix Stadium application1.4**,macOS14+ orWindows11 64-bit;Wi-Fi/USB editing. Requires devicefirmware≥1.1;Showcase requires≥1.2 app/firmware. Drivers/updaters andStadiumNativeplugin are separate. Linux/mobile full editor **?** [Application][SX-A] |
+| Editor platforms | **Helix Stadium application1.4**,macOS14+ orWindows11 64-bit;Wi-Fi/USB editing. Requires devicefirmware≥1.1;Showcase requires≥1.2 app/firmware. Drivers/updaters andStadiumNativeplugin are separate. Linux/mobile full editor **?**. Support tips still say USB editing is unavailable; the version 1.4 application manual explicitly supports it. [Application][SX-A], [Support tips][SX-K] |
 | USB audio | **8-in/8-out,24-bit**. WindowsASIO supports44.1/48/88/96kHz (manual writes88,not88.2);macOS driverless native48kHz. Apple/Android class-compliant audio doesnot establish mobileeditor support. USB-C only;DI/reamp andMIDI. [USB audio][SX-U] |
 | Looper / routing / live features | One Deluxe,1Switch orShuffle per preset. Deluxe/1Switch **120s mono/60s stereo fullspeed**,double at halfspeed;Shuffle60/30s,no halfspeed. Acrosspresets requires same model,mono/stereo andpath. Audio cleared atpoweroff. Showcase automation/playback distinct from drum machine;drums **?** [Loopers][SX-L] |
 | Storage / practical restrictions | Rear manual says microSD soldseparately andrequired forShowcase/backups;QuickStart says cardpre-inserted andproduct says32GBremovable. Retain bundle/document conflict;actualIndonesianoffer inclusion **?**. [Rear panel][SX-R], [Quick Start][SX-Q], [Product][SX-P] |
@@ -1078,7 +1078,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 
 ### Stadium XL provenance and next checks
 
-Online manual landing identifies **Rev E,v1.4.0**,while navigation retains earlierrevision labels. These are dated documentation observations,not proof that listedhardware runs1.4. Only citedsections were read;no whole-manual review claimed. No downloads orsoftware execution. Remaining:own dimensions/mass,power label,current category counts,IR capacity/Proxy restrictions,snapshots/routing,DSP limits andcondition-qualifiedoffers. OriginalFloor andStadiumFloor values do not fill XL gaps.
+Online manual landing identifies **Rev E,v1.4.0**,while navigation retains earlierrevision labels. These are dated documentation observations,not proof that listedhardware runs1.4. Only citedsections were read;no whole-manual review claimed. No downloads orsoftware execution. Remaining: power label, current category counts, IR capacity, snapshots/routing, DSP limits and condition-qualified offers. OriginalFloor andStadiumFloor values do not fill XL gaps.
 
 [SX-P]: https://line6.com/helix-stadium/?locale=en_UK
 [SX-T]: https://manuals.line6.com/en/helix-stadium/live/top-panel-and-footswitches
@@ -1091,3 +1091,12 @@ Online manual landing identifies **Rev E,v1.4.0**,while navigation retains earli
 [SX-L]: https://manuals.line6.com/en/helix-stadium/live/looper-block
 [SX-Q]: https://manuals.line6.com/en/helix-stadium/live/quick-start
 [SX-O]: https://shopee.co.id/LINE-6-HELIX-STADIUM-XL-FLOOR-LINE-6-HELIX-STADIUM-XL-FLOOR-i.440477624.53707848703
+
+### Proxy cloning and support qualifications
+
+Clones capture the device at its chosen settings. The manual recommends excluding compression, modulation and time effects from capture. Direct amp capture needs a load box; preamp capture needs a suitable preamp output or FX send. Monitoring cab processing is excluded from direct amp/preamp capture. The desktop app manages clones but does not create them and is locked during capture. [Clones][SX-C]
+
+The support tips page says empty user presets do not send automatic MIDI program changes until saved and named. It also says L6 LINK awaits Expand D10 release; this is a dated support statement, not independently verified present availability. Its USB-editing restriction conflicts with the explicitly versioned 1.4 application chapter. [Support tips][SX-K], [Application][SX-A]
+
+[SX-K]: https://kb.line6.com/helix-stadium-tips-and-tricks
+[SX-C]: https://manuals.line6.com/en/helix-stadium/live/clones
