@@ -109,6 +109,8 @@ Original manualv1.0 technical context remains explicit; current firmware is not 
 | Used IDR | ? — no condition-qualified local used offer established. |
 | New / retail IDR | **Rp5.280.000,Habis**, [Asia Pro Sound exact blue VoiceLive Play listing](https://shopee.co.id/TC-Helicon-VoiceLive-Play-Guitar-Effects-i.703046367.26030546305),shop703046367/item26030546305,Kota Bekasi, indexed reopening2026-10-17. Historical sold-out hardware ask, not completed sale or current available stock. Seller title says Guitar Effects but does not establish guitar processing. Condition, accessory bundle, warranty region, delivered charges and voucher eligibility unverified; late-delivery compensation is not a purchase discount. |
 
+| IDR / additional condition-unverified offer | **Rp5,623,999;Habis;Dengan Voucher**, [HAWILA MUSIK INDONESIA](https://shopee.co.id/Efek-Vocal-TC-Helicon-VoiceLive-Play-3-Button-Vocal-Effect-Stombox-i.130137603.20892748615),seller130137603/item20892748615,Kota Surabaya. Search indexed last month,checked2026-10-17;direct open cache miss. Banner says spendRp3m,discountRp100k;whether displayed amount already includes voucher is unresolved,so do not subtract again. Stale22–23August delivery. Condition,new/used,selected variant,bundle,warranty,authenticity,shipping/tax and live checkout stock unknown. Historical conditional ask,not an available retail range or completed sale. |
+
 <!-- comparison evidence ends -->
 
 ### Current access and unresolved fields
