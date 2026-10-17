@@ -643,3 +643,49 @@ Remaining: phantom/voice-count/bypass/power revision differences; expression; di
 [DUP-M]: https://cdn.mediavalet.com/aunsw/musictribe/Kvs-h-U7m0qFvYaMTDIYcA/8CRY5ULrck-UO6wzRcgjFg/Original/tchelicon-duplicator-en.pdf
 [DUP-Q]: https://cdn.mediavalet.com/aunsw/musictribe/MfGe9GHeqUqwunXsAFRvQA/kQwtATa7aE2g5PQK24beWQ/Original/QSG_TH_0726-AAN_DUPLICATOR_WW.pdf
 [DUP-P]: https://www.tchelicon.com/en/products/0726-AAN
+
+## Harmony Singer 2
+
+Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Guitar-controlled harmony plus vocal reverb/Tone qualifies for ALL-VOCAL. The [manufacturer page][HS2-P] describes an untouched guitar-through path; this does not qualify it for ALL-GUITAR or ALL-BASS.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | Integrated treadle absent from documented controls; external expression and toe-switch support unverified. |
+| Rotary / footswitches / buttons | **3 / 1 / 1**: Harmony, Level, Reverb; footswitch; Tone. Rear power switch additional. Text inventory; current visual corroboration unavailable. [Manual][HS2-M], p3 |
+| Display | Battery/effect LEDs; screen, diagonal, color-display specification and touch unverified. [Manual][HS2-M], p3 |
+| Dimensions / weight | **140 × 90 × 60 mm; 420 g**. Printed axes and battery inclusion unspecified; W×D×H mapping unverified. [Manual][HS2-M], p6 |
+| Simultaneous processing / categories | Harmony, reverb, adaptive Tone coexist; freely assignable DSP-slot maximum unverified. Eight harmony settings: +3rd; +5th; +3rd/+5th; −4th; −6th; −4th/−6th; +5th/−6th; +3rd/−4th. Three reverbs, Room/Hall endpoints. [Manual][HS2-M], pp3,5 |
+| Factory / user / total presets | Numerical factory-filled, editable-user and total patch memories unverified. Harmony settings are not assumed to be patch slots. |
+| Synth / acoustic simulation | Dedicated synthesis and acoustic simulation unverified. Harmony generation and acoustic-guitar chord sensing do not establish either. |
+| IR / NAM / capture | User IR, native NAM, converted NAM and proprietary capture each unverified. |
+| Audio / control I/O | XLR mic in/out; guitar input/through; micro-USB; power input. [Manual][HS2-M], pp3–5. Guitar socket size, headphone, MIDI and USB-audio operation unverified. |
+| Power / battery / USB | Manual: **9 V / 670 mA; 6 W; four AA**. Supply is marked supplied in specifications but not included in controls; bundle conflict retained. DC polarity, barrel, draw, runtime and USB power/charging unverified. [Manual][HS2-M], pp3,5–6 |
+| Editor / updater platforms | Micro-USB/VoiceSupport firmware updating documented. Full editor, current Windows/macOS support, mobile editor and audio drivers unverified. [Manual][HS2-M], p3 |
+| Live functions / routing | Harmony bypass retains reverb/Tone. Latching/momentary modes; auto gain; always-on **24 V** phantom; MP-75 Mic Control. Guitar effects before sensing can impair tracking. [Manual][HS2-M], pp3,5. Looper, drums, scenes, persistence and spillover unverified. |
+| Pitch correction / source conflict | Current product page advertises pitch correction; older manual lists no dedicated correction control. A separately controllable lead-pitch-correction function and applicable firmware remain unverified. [Product][HS2-P]; [Manual][HS2-M] |
+| Used IDR — historical asks, sold out | **Rp3,000,000**, TOBAKAS ASYEFI, Jakarta Timur, title SECOND, Habis; **Rp2,500,000**, chorusbandid, Kabupaten Temanggung, title Second Mint, indexed Habis. Seller condition claims, not inspected condition. Exact item/access qualifications below. |
+| New IDR | **?** Retail-looking hardware asks below lack item-condition verification. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee offers checked 2026-10-17
+
+- [TOBAKAS ASYEFI, shop414662483/item29216795790](https://shopee.co.id/TC-HELICON-HARMONY-SINGER-2-(SECOND)-i.414662483.29216795790): **Rp3,000,000**, title SECOND, **Habis**, Kota Jakarta Timur. Exact JS-limited page reopened; last-month cache with stale August31 delivery. Working condition unknown.
+- [chorusbandid, shop955084573/item54502259248](https://shopee.co.id/TC-Helicon-Harmony-Singer-2-%28-Second-Mint-%29-i.955084573.54502259248): **Rp2,500,000**, title Second Mint, **Habis** in two-month search cache; Kabupaten Temanggung. Direct retrieval cache miss. Mint is a seller claim, not inspection.
+- [Dial Musik, shop338305078/item9315818006](https://shopee.co.id/TC-Helicon-Harmony-Singer-2-Effect-Pedal-vocal-Efek-Vokal-GARANSI-RESMI-1-TAHUN-i.338305078.9315818006): **Rp3,720,000, Habis**, Kota Palembang. One-year official warranty is a title claim. Exact page reopened with last-month cache/September3–5 delivery; newer search cache says October17–18. Neither delivery text proves availability; sale condition unknown.
+- [NEO MUSIC, shop158235298/item2951493236](https://shopee.co.id/TC-HELICON-HARMONY-SINGER-2-Vocal-Effects-Stompbox-with-Guitar-Control-i.158235298.2951493236): **Rp3,100,000**, Kota Sukabumi. Exact JS-limited body reopened, three-month cache, stale June26 delivery; earlier search had June19. Sale condition and current stock unknown.
+
+Selected variant, adapter/battery bundle, warranty validity, shipping/tax, current stock and final total remain unknown for every offer. Rp10,000 late-delivery compensation is not subtracted. Historical asks are not completed sales or a live market range. Store identity does not verify item authenticity or manufacturer authorization.
+
+### Document identity and remaining work
+
+The complete manufacturer-authored eight-page English manual, ©2016, was read through Thomann's mirror; printed revision date unknown. The exact [manufacturer quick-start PDF][HS2-Q], indexed **v5.0**, failed retrieval; its version is not assigned as device firmware. Some separately indexed older quick-start copies contain malformed Key Selector/correction wording: do not silently merge those into a new hardware specification. Current manufacturer product copy claims pitch correction; resolving document/hardware/firmware differences remains required. PDF screenshot output was not inspectable, so no successful visual panel verification is claimed. No file, software, firmware or dependency downloaded to the filesystem.
+
+Remaining: current quick-start body and revision conflicts; power polarity/barrel/draw/runtime/USB; expression; dimension axes; display, patch memory, editor platforms, IR/NAM/capture; exact sale condition and current stock.
+
+[HS2-P]: https://www.tchelicon.com/en/products/0726-AAB
+[HS2-M]: https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf
+[HS2-Q]: https://cdn.mediavalet.com/aunsw/musictribe/f5IBU8MXd0mUrwtzYSq1Eg/ROc6EfIfMEOhKy7Xjt51gw/Original/QSG_TH_0726-AAB_HARMONY-SINGER-2_WW.pdf
+[HS2-OLDQ]: https://manuals.plus/m/3474e06beae5f6d33f49d098aa16a9cc527a00dfb29228f4988281447e87e514

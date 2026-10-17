@@ -1499,3 +1499,7 @@ research-commit-mic-mechanic2:
 .PHONY: research-commit-duplicator
 research-commit-duplicator:
 	python3 scripts/research_tools.py commit-duplicator
+
+.PHONY: research-commit-harmony-singer2
+research-commit-harmony-singer2:
+	python3 scripts/research_tools.py commit-harmony-singer2
