@@ -2206,3 +2206,39 @@ Older indexedAug20–23delivery is historical cache. Seller “ORIGINAL JAPAN”
 
 [R2-M]: https://zoomcorp.com/media/documents/E_RFX2000.pdf
 [R2-O]: https://shopee.co.id/Effect-vokal-zoom-rfx-2000-Efek-vokal-zoom-2000-ORIGINAL-JAPAN-i.377580114.19279006266
+
+## 606
+
+Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal; full-down module switching, except Volume. External EXP absent from complete connector inventory. | [Manual pp6–11][Z606-M] |
+| K/F/B | **2 rotary / 2 footswitches / 6 buttons**: Play/Edit, Drive; patch pair; Store, Pedal Assign, Value±, Gain±. Toe separate. Text inventory; visual check pending. | [Manual pp6–7][Z606-M] |
+| Display | Two-digit seven-segment LED; diagonal/color/touch unspecified. | [Manual p38][Z606-M] |
+| Processing / categories | **35 effects; nine simultaneous effects, eight modules**. Serial modules include compression, wah, drive, EQ, ZNR, amp simulation, modulation/pitch and delay/reverb. Combined MOD types explain why effect count differs from modules. | [Manual pp3,24–25,38][Z606-M] |
+| Preset memory | **42 rewritable, factory-filled patches**, seven banks of six; no separate 42-preset bank. Individual recall or full initialization. | [Manual pp4,18–22,38][Z606-M] |
+| Synth / acoustic | Electric-to-acoustic simulation; synth-like patch examples, dedicated synth engine unresolved. | [Manual pp28–29,patch list][Z606-M] |
+| I/O | Mono guitar input; stereo combined line/headphone output; DC input. | [Manual pp6–7,38][Z606-M] |
+| Power / battery / USB | **9 V DC, center-negative, 300 mA adapter specification**; actual draw unspecified. Four AA; approximately 24 hours alkaline/7 manganese. USB absent from connector inventory. | [Manual pp2–3,38][Z606-M] |
+| Dimensions / mass | **159 W × 233 D × 54 H mm; 600 g without batteries**. | [Manual p38][Z606-M] |
+| IR / NAM / capture | Import and capture support unresolved. | Unresolved |
+| Editor / platforms | Computer editor and OS support unresolved. | Unresolved |
+| Live / practice | Chromatic tuner, bypass/mute, preselected patch confirmation; looper/drums/scenes unresolved. | [Manual pp12–13,20–21][Z606-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No qualified model-specific amount. | — |
+| New | No qualified model-specific amount. | — |
+| Mixed listing, unverified condition | **Rp1.099.000 listing-level ask only**, title includes 606 and 607 with Japan/China variants. No variant-to-price mapping; not a 606 price. Shop703817770/item20045443371; Bandung category attribution. Saved category crawl two months old/search index last month; exact link resolved but direct item inaccessible. | [Mixed hardware item][Z606-O] |
+
+<!-- comparison evidence ends -->
+
+Seller, stock, working state, authenticity/origin, bundle, adapter, warranty, shipping, tax and vouchers unresolved. No current-stock claim. Browser manual text only; no filesystem download or visual inspection.
+
+[Z606-M]: https://zoomcorp.com/media/documents/E_606.pdf
+[Z606-O]: https://shopee.co.id/Efek-Gitar-Zoom-606-607-Made-Japan-dan-China-i.703817770.20045443371

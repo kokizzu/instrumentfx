@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 253,
+  "active_model_count": 254,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 253,
+  "canonical_root_model_count": 254,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "253 unique active/root-canonical models; 0 legacy-only; 31 brands; 6 excluded archives. GT-3 guitar; bass/vocal unclassified; all partial.",
+  "count_reconciliation": "254 unique active/root-canonical models; 0 legacy-only; 31 brands; 6 excluded archives. Zoom 606 guitar; bass/vocal unclassified; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,8 +29,10 @@
   },
   "cursor": {
     "model": "Zoom 606",
-    "task": "Verify own-model official product/manual and add eligible record from saved mixed 606/607 Shopee hardware link. Do not allocate listing price to either unresolved variant. GT-3 remains partial; deferred hardware/processing gaps saved in gt3_assign_checkpoint_20261017.",
-    "next_models": [],
+    "task": "606 added with official manual fundamentals. Next enumerate category choices and power/control qualifications, then independently verify the mixed-listing 607 identity.",
+    "next_models": [
+      "Zoom 607 identity verification"
+    ],
     "after_queue": "Zoom606/607 exact mixed-model item shop703817770/item20045443371 saved; no model-specific price. Preserve all deferred model gaps. No downloads, workflows or push."
   },
   "new_findings": [
@@ -23921,7 +23923,8 @@
       "708II",
       "RFX-1100",
       "B2.1u",
-      "RFX-2000"
+      "RFX-2000",
+      "606"
     ],
     "DigiTech": [
       "RP360XP",
@@ -24104,7 +24107,8 @@
       "708II",
       "RFX-1100",
       "B2.1u",
-      "RFX-2000"
+      "RFX-2000",
+      "606"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -24299,7 +24303,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 206,
+      "record_count": 207,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41262,10 +41266,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 253,
-    "canonical_root_models": 253,
+    "unique_brand_model_pairs": 254,
+    "canonical_root_models": 254,
     "legacy_only_models": 0,
-    "guitar_view_models": 206,
+    "guitar_view_models": 207,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 49,
@@ -41497,6 +41501,7 @@
       "Zoom::707II",
       "Zoom::RFX-1100",
       "Zoom::RFX-2000",
+      "Zoom::606",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -43418,6 +43423,13 @@
     },
     "Zoom::RFX-2000": {
       "link": "ZOOM.md#rfx-2000",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::606": {
+      "link": "ZOOM.md#606",
       "source_files": [
         "ZOOM.md"
       ],
@@ -54403,5 +54415,27 @@
       "Other recorded technical and offer gaps"
     ],
     "access": "Targeted official-manual searches did not resolve ceiling or full physical inventory. Front-panel indexed diagram description is not visual inspection."
+  },
+  "zoom606_primary_checkpoint_20261017": {
+    "manual": "https://zoomcorp.com/media/documents/E_606.pdf",
+    "source_type": "Official manufacturer manual, browser text",
+    "offer": {
+      "url": "https://shopee.co.id/Efek-Gitar-Zoom-606-607-Made-Japan-dan-China-i.703817770.20045443371",
+      "shop_id": "703817770",
+      "item_id": "20045443371",
+      "listing_ask_idr": 1099000,
+      "region": "Bandung from category",
+      "condition": "Unverified",
+      "access": "Category browser text crawled two months ago, search index last month. Exact mixed-model item link resolved; parameterized click cache miss and clean item inaccessible.",
+      "price_limit": "No 606/607 variant mapping; Rp1099000 is listing-level only, not an assigned model price."
+    },
+    "remaining": [
+      "Complete category choices",
+      "IR/NAM/capture",
+      "Editor platforms",
+      "Display qualifications",
+      "Model-specific used/new offers",
+      "Visual panel corroboration"
+    ]
   }
 }
