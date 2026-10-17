@@ -32,7 +32,8 @@ The official front graphic's One Foot Switch slogan is not the switch count: har
 | Synth / acoustic | Specific synth/electric-to-acoustic algorithms unverified. IR loading alone proves neither. |
 | IR | **50 third-party locations plus50 factory cab IRs;23.2 ms** advertised length. Import rates,bit depth,format restrictions remain unverified. |
 | NAM / captures | No verified native/converted NAM or proprietary capture workflow. Do not infer these from cabinet IR support. |
-| Configuration | **Windows/macOS editor** linked by manufacturer German page; **Android editing** established by DONNER LLC app listing, which showed a July2026 update in original review. Bluetooth mobile editing advertised; primary iOS/Linux full-editor support not established. |
+| Configuration | **Windows/macOS editor** linked by manufacturer German page; **Android editing** established by DONNER LLC app listing, which showed a July2026 update in original review. Bluetooth mobile editing advertised; **iPhone iOS13+ editing verified2026-10-17**,see row below;Linux support unverified. |
+| Configuration / iPhone editor | [Arena2000,Donner LLC,AppStoreID1611298022](https://apps.apple.com/id/app/arena-2000/id1611298022):manages/edits sound library and parameters;**iOS13+**,iPhone/iPodtouch listed. Version1.0.2,2024-07-31;US storefront matches. NativeiPad/Mac layout,OTG audio andUSBpower are not established by editor listing. Indonesian preview is oldcache;current US preview corroborates sameversion/requirements. No app installed. |
 | Recording | USB dry and processed recording together; OTG mobile recording. Exact USB channel count unverified. |
 | Practice | **60-second looper**,reverse/double/half-speed; **40 drum patterns**. Drum synchronization and preset spillover not established. |
 
@@ -48,7 +49,7 @@ Current dimensional/power source: [Donner English Arena2000 specification](https
 
 Preserved original sources: [global product](https://www.donnermusic.com/products/arena2000); [US retail product](https://us.donnermusic.com/products/donner-multi-effects-pedal-guitar-pedals); [German editor links](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal); [official panel graphic](https://us.donnermusic.com/cdn/shop/products/3_7e500675-535a-4b8a-ab35-a5b55e836ec5.jpg?v=1703838681&width=1601); [DONNER LLC Android editor](https://play.google.com/store/apps/details?hl=en&id=com.rantion.effector.arena2k).
 
-The [official EC1790_update.pdf](https://cdn.shopify.com/s/files/1/1384/9629/files/EC1790_update.pdf) exceeded retrieval limits and was not read in the original pass; no fresh successful PDF inspection is claimed here. Original manufacturer gallery images were inspected for controls and connectors, not measured for dimensions. Customer Q&A and unrelated product-template claims are not technical evidence. Remaining: full algorithms,concurrent ceiling,preset split,touch/button classification,polarity,USB details,current used/new evidence and iOS verification.
+The [official EC1790_update.pdf](https://cdn.shopify.com/s/files/1/1384/9629/files/EC1790_update.pdf) exceeded retrieval limits and was not read in the original pass; no fresh successful PDF inspection is claimed here. Original manufacturer gallery images were inspected for controls and connectors, not measured for dimensions. Customer Q&A and unrelated product-template claims are not technical evidence. Remaining: full algorithms,concurrent ceiling,preset split,touch/button classification,polarity,USB details,current used/new evidence and nativeiPad/currentdesktopOS verification.
 
 ### Additional exact IDR offer — checked2026-10-17
 

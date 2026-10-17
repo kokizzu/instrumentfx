@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-500",
-    "task": "CurrentMacmatrix,Windowsdriver/editorboundariesandversionedfirmwarefixessaved;continueothermodelgaps/freshhardwarediscovery.",
+    "model": "Donner Arena2000",
+    "task": "Manufacturer iPhone editor verified;continue unreadmanual/library/USB/power/qualifiedoffer gaps orfreshhardwarediscovery.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-500."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Donner Arena2000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60298,5 +60298,28 @@
     ],
     "access": "OnlyHTMLrelease/compatibilitypagesread;noarchives/firmware/softwaredownloaded;genericfirmwarebatterycautionnotbatteryoperationproof",
     "remaining": "Windows11editorcertification,screen,otherFXsubtypes,polarity,imports,qualifiedoffers."
+  },
+  "arena2000_ios_20261017": {
+    "sources": [
+      "https://apps.apple.com/id/app/arena-2000/id1611298022",
+      "https://apps.apple.com/us/app/arena-2000/id1611298022"
+    ],
+    "identity": "DonnerLLC;exactArena2000modelandappID;bothstorefrontsread",
+    "findings": [
+      "Soundlibrary/parameterediting;iOS13+;iPhone/iPodtouch",
+      "1.0.2July31 2024",
+      "NotnativeiPad/Mac/audio/powerproof"
+    ],
+    "access": "Indonesiaoldpreviewcache;US2weekcachecorroborates;noinstall/download",
+    "remaining": "Unreadfullmanual/libraryreconciliation,concurrentceiling,IRformats,USBchannels,powerpolarity,qualifiedoffers,currentdesktopOS."
+  },
+  "discovery_harley_nektar_flamma_donner_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Harley Benton\" \"DNAfx\"",
+      "site:shopee.co.id \"Nektar\" \"Pacer\"",
+      "site:shopee.co.id \"Flamma\" \"FX100\"",
+      "site:shopee.co.id \"Donner\" \"Arena 2000\""
+    ],
+    "result": "OnlyalreadyrecordedFX100/Arena2000offersreturned;nonewqualifyingmodel. Pacerisacontrollerlead,notprocessorinclusion. Noabsenceproof."
   }
 }
