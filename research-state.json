@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery",
-    "task": "RK5 exact used family offer saved withv1/v2/v3 identity andpower distinctions;revision unresolved,notcounted. Next search other missing brands/series;return RK5 onlywhen readable panel orrevision-explicit offer available.",
+    "task": "MFX10 user-save,drumfill/loopclear,tapaverage andreset scope saved fromoriginal manual. Continue missingbrand/series Shopee discovery;do not repeataccessoryhits orcount RK5indexwithout exact identity.",
     "next_models": [],
     "after_queue": "334 active,39brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66386,5 +66386,27 @@
     "revision": "2nd isused,notv2;v1 12V,v2 9V,v3loop/prepost/phantom distinct",
     "source_record": "TECH21.md#rk5--revision-unresolved-hardware-lead",
     "next": "obtain readable sellerpanel/rearlabel orrevision-explicit offer;do notregister guessedvariant"
+  },
+  "mfx10_operation_20261018": {
+    "source": "https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual",
+    "identity": "copyright2010 Cherub MFX10 original manualbody;not generated FAQ",
+    "findings": [
+      "36writable1A–9D;factoryeditstouser",
+      "drumfill andloopdoublepress stopclear",
+      "tap2–10average",
+      "reset erasesuser,recalibratespedal"
+    ],
+    "status": "partial"
+  },
+  "discovery_20261018_series": {
+    "queries": [
+      "Boss GT1000used",
+      "DigiTech RP355/RP80/RP50/BP200",
+      "Korg AX3000B/AX1G/AX10A",
+      "Zoom GFX8/G9.2tt/A2.1u",
+      "Tech21FlyRig"
+    ],
+    "result": "No new exact identifiable hardware item established;adapter/sensor results rejected. RK5v2 indexRp5284750 JakartaSelatan lacks exactselleritem;MFX10exactofferalreadyrecorded.",
+    "next": "Search different missing compact/vocal series;no marketabsenceclaim"
   }
 }

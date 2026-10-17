@@ -1811,3 +1811,7 @@ research-commit-prime-s1:
 .PHONY: research-commit-anagram
 research-commit-anagram:
 	python3 scripts/research_tools.py commit-anagram
+
+.PHONY: research-commit-mfx10
+research-commit-mfx10:
+	python3 scripts/research_tools.py commit-mfx10

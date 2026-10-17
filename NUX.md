@@ -832,6 +832,18 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | New | No condition-confirmed offer. | — |
 | Unverified | **Rp2.250.000**, Hobi Musik Makassar X Serba Hobi,shop306541454/item9002629284,Kota Makassar. Checked2026-10-17: last-month indexed crawl,**Habis**,Aug26–29 delivery text. Historical ask, not live checkout/stock. | [Exact item][MFX10-O] |
 
+
+### Memory and practice operation — manual qualification
+
+Checked2026-10-18 against manufacturer-authored [MFX-10 manual body][MFX10-T],copyright2010;currentofficialV1 revision equivalence remains unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Factory / user memory writing | **36 writable user slots,1A–9D**. Factory edits save into user locations;factory data isnot directly overwritten. SAVE supports naming/copying;EDIT/EXIT cancels. A/B channel switching doesnot increase independently addressable storedpatches. |
+| Looper / drum footswitch behavior | In DRUM interface,PRESET-up plays/stops pattern;PRESET-down triggers fill. AMP A/B records/plays/overdubs;**doublepress stops andclears clip**. Fourparameter knobs setstyle,pattern,drumlevel andlooplevel. Do not infer independent stop-without-clear orpersistent recordings. |
+| Controls / tap averaging | TAP affects delay timing andmodulation LFO;manual says average of2 throughlast10 taps,BPM shown. This is a separate panelbutton,not another footswitch. |
+| Factory / reset scope | Manual says factory reset erases allcustomuser data andrecalibrates expression pedal. No reset performed;backup/export facilities remain unverified. |
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter inclusion,authenticity,working state,warranty,shipping/tax and vouchers unresolved. Category-only or mixed-model asks remain unassigned in the ledger.
