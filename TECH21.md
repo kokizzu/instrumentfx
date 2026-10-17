@@ -41,3 +41,41 @@ No files downloaded or firmware/software executed. Manual read as web text; pane
 ### Control and operating qualifications
 
 OM3 rev12/20 function lists support the thirteen-knob sum; no visual footswitch/button audit is claimed. Manual distinguishes pitch-changing Time-knob adjustment from pitch-preserving tap changes. Active Blonde EQ frequencies and independent speaker-simulation use remain model-specific. Saved gaps still include complete physical inventory, expression, storage and current software/price evidence.
+
+## Bass Fly Rig v2
+
+Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in, external and toe expression support unverified. | Unresolved |
+| K/F/B | **13 / ? / ?**, text-derived: compressor 2, drive/level 4, EQ 3, EFX 4 rotary controls. Complete footswitch/button census and visual corroboration pending. | [Manual pp3–6][BFR2-M] |
+| Display | LED tuner with green in-tune/red direction indication; diagonal, display technology and touch unverified. | [Manual p6][BFR2-M] |
+| Dimensions / mass | **12.5L×2.75W×1.25H inches;20.7oz**. Long strip; no v1 dimensions borrowed. | [Product][BFR2-P] |
+| Processing / categories | Analog FET compression; SansAmp with two Character voicings; interacting octave/filter/fuzz plus chorus. Two Drive/Level pairs switch channels. Choice counts are not a verified simultaneous-processing ceiling. | [Product][BFR2-P] |
+| Factory / user memory | Two channel control pairs are documented; programmable factory/user/total preset storage unverified. | [Manual pp3–4][BFR2-M] |
+| Synth / acoustic | Octafilter provides synth-style tones; octave divider is monophonic. Acoustic simulation unverified. | [Product][BFR2-P]; [Manual p5][BFR2-M] |
+| I/O | Quarter-inch 4.7Mohm input with pad; unbalanced quarter-inch low-Z out; balanced XLR low-Z out with ground-connect. Both outs usable together. Send/Return after SansAmp. Complete digital/control/headphone audit pending. | [Manual pp1–2,6][BFR2-M] |
+| Power / battery / USB | **9V DC, centre-negative; approx 100mA maximum consumption**. Manual DC9 supply 200mA versus product DC9 supply 250mA; adapter-rating discrepancy retained, not device draw. Universal 100–240V input; manual also permits older DC4. Battery/USB operation unverified. | [Manual cover][BFR2-M]; [Product][BFR2-P] |
+| IR / NAM / capture | Analog cabinet simulation; defeat affects quarter-inch only, not XLR. External downstream IR suggestion does not establish onboard user IR, native/converted NAM or capture loading. | [Product][BFR2-P]; [Manual p4][BFR2-M] |
+| Editor / platforms | Patch editor, drivers/updaters and mobile support unverified. No software downloaded. | Unresolved |
+| Looper / drums / live | Hold CHORUS/TUNER for muted tuning. Looper, drum machine, scenes and spillover unverified. | [Product][BFR2-P] |
+| Routing / practical limits | Buffered bypass. Chorus control also warns of clipping; gated fuzz cuts off abruptly below threshold. Exact full routing and resource restrictions remain partial. | [Manual pp2,7][BFR2-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no exact qualified Shopee Indonesia hardware offer. | — |
+| New | Unknown; no exact qualified Shopee Indonesia hardware offer. | — |
+
+<!-- comparison evidence ends -->
+
+Shopee searches for “Bass Fly Rig” and “bass flyrig” on 2026-10-17 did not resolve an exact Indonesian hardware seller/item. This is not proof of market absence. Seller/item, condition, stock, region, revision, bundle, adapter, warranty and voucher remain unverified. No foreign currency conversion or sibling-model offer substituted.
+
+Next: physical control census, full routing, preset-storage/import/editor scope, headphone/battery/USB facilities and exact IDR offers. Original manufacturer ©2021 v2 manual read as web text; no files downloaded. PDF screenshot retrieval did not provide usable visual corroboration.
+
+[BFR2-P]: https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/
+[BFR2-M]: https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf

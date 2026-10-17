@@ -493,7 +493,7 @@ def main():
         if mode == 'commit-blackhammer':
             message = 'research(sonicake): add Black Hammer QCE-30 with qualified manufacturer evidence'
         if mode == 'commit-flyrig5v2':
-            message = 'research(tech21): verify Fly Rig v2 rotary controls and delay behavior'
+            message = 'research(tech21): add Bass Fly Rig v2 with qualified primary specifications'
         if mode == 'commit-dapper-dark':
             message = 'research(valeton): qualify Dapper Dark indexed controls and loop routing'
         if mode == 'commit-dapper-acoustic-mini':
