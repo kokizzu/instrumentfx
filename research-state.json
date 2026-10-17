@@ -61687,5 +61687,16 @@
     ],
     "conflict": "Clockout negate all input signals ambiguous; notaudio-mute/MIDIthru claim",
     "next": "External MIDI control mode; physical control counts; fresh Shopee discovery"
+  },
+  "gp200_external_control_20261017": {
+    "source": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "revision": "Firmware1.8.0 pp8,11",
+    "findings": [
+      "ExternalMIDIcontrolonlydedicatedinterface;8switches1pedal;3CC/PCgroupsperswitch",
+      "ReturncannotprecedeSend;unconnectedSeriesloopissilent",
+      "8CTRLscancontrolmultiplemodules"
+    ],
+    "limits": "NotbackgroundMIDIorindependentmultipleloopsproof",
+    "next": "Resolve panel counts; broaden fresh brand/series discovery"
   }
 }
