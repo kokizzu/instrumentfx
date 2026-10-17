@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee Indonesia discovery",
-    "task": "PG-2 partial pass saved; gaps retained in pg2_controls_checkpoint_20261017. Search unrecorded exact hardware leads by brand/series; prioritize bass/vocal gaps alongside guitar and use official own-model sources.",
+    "model": "Zoom B1X / seller B1x Next identity",
+    "task": "Inspect official discontinued B1X page and own English manual; clarify seller mixed G1xNext/B1xNext identity before distinct-model registration. Mixed Rp999000 remains unassigned; exactitem unresolved. New cveriB1XFourpricelead retained separately, no duplicate model.",
     "next_models": [],
-    "after_queue": "Preserve all prior model gaps and migration limits;no downloads/workflows/push."
+    "after_queue": "Continue bass/vocal/guitar discovery; preserve all prior gaps and migration limits. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -55276,5 +55276,45 @@
     "official_support": "https://nuxaudio.com/product/pg2/ retrievedmanualonly;notproofsoftwareabsent.",
     "limits": "No new visualinspection. PolarityOCRsymbolnotdecoded;connector sizes,fullphysicalcontrols,editorOS,USB,IRNAM,bassvocalandexactcondition-specificShopeepriceunresolved.",
     "status": "Partialpasssaved;gapspreservedforlaterverification."
+  },
+  "discovery_bass_vocal_post_pg2_20261017": {
+    "checked": "2026-10-17",
+    "searches": [
+      "ZoomB2.1u",
+      "DigiTechVocal300",
+      "BOSSGT6B",
+      "KorgAX10B",
+      "TCVoiceLive2",
+      "DigiTechBP90",
+      "ZoomB1XNext",
+      "DigiTechVocalistLive",
+      "TCVoiceToneD1"
+    ],
+    "lead": {
+      "seller": "Hope Music",
+      "shop_page": "https://shopee.co.id/hopemusik",
+      "title": "Efek Zoom G1x Next Dan Zoom B1x Next",
+      "indexed_idr": 999000,
+      "access": "Four-month indexed seller-page crawl; exact item and per-variant price mapping unresolved.",
+      "qualification": "Mixed guitar/bass title; do not allocate amount or add B1xNext as independent model until official identity clarified."
+    },
+    "official_identity_candidate": {
+      "url": "https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal",
+      "name": "B1X Bass Effects Pedal",
+      "status": "Discontinued; English own-model manual linked. Does not yet prove seller Next suffix identity."
+    },
+    "existing_model_offer": {
+      "model": "Zoom B1X FOUR",
+      "url": "https://shopee.co.id/Zoom-B1X-Four-Bass-Multi-Effect-with-Expression-Pedal-Original-Multi-Efek-Bass-i.785734870.19956508058",
+      "seller": "cveri accessories",
+      "shop": "785734870",
+      "item": "19956508058",
+      "region": "Kota Jakarta Pusat",
+      "asking_idr": 2700000,
+      "condition": "unverified",
+      "access": "Last-week indexed crawl; not livecheckout. Model alreadyrecorded; potentialpricefollowuponly."
+    },
+    "rejected": "Vocal300/VocalistLive adapter is accessory. ExistingB1XFour/VoiceLivePlay/VoiceLive3Extreme notnewmodels. MixedZoomG2.1Nu/G2.1u/B2.1u price not allocated.",
+    "limits": "Limitedsearchesnotmarketabsence. Sellerclaims/soldcountsnotmodelcapability,currentstockorconditionproof. No downloads."
   }
 }
