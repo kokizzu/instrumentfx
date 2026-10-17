@@ -389,7 +389,7 @@ def main():
         if mode == 'commit-b21u':
             message = 'research(zoom): reconcile B2.1u module choices and acoustic amp distinction'
         if mode == 'commit-mg20':
-            message = 'research(nux): document MG-20 category choices and control assignments'
+            message = 'research(nux): clarify MG-20 switching and software evidence limits'
         if mode == 'commit-m100':
             message = 'research(tc-electronic): qualify X5 historical editor platforms'
         if mode == 'commit-rfx1100':

@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-20",
-    "task": "MG-20 category choices, expression assignments and global output-mode distinction saved. Next full control inventory/own firmware-software support; defer gaps explicitly if original documentation remains unreadable, then fresh Shopee discovery.",
+    "model": "Fresh Shopee Indonesia discovery",
+    "task": "MG-20 useful technical pass committed; unresolved fields explicitly deferred in mg20_support_checkpoint_20261017. Search unrecorded brand/series hardware; validate exact seller/item and official own-model sources.",
     "next_models": [],
-    "after_queue": "Resume fresh Shopee discovery after useful MG-20 updates; all deferred model gaps retained. No downloads/workflows/push."
+    "after_queue": "Keep prior model gaps and migration limits; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41343,7 +41343,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-20."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55077,5 +55077,23 @@
     },
     "qualification": "Counted transcription table entries; cabinet/mic preamp parameters do not establish separate simultaneous blocks. Original PDF/current revision corroboration still pending.",
     "remaining": "Full physical control counts, current/polarity, firmware/editor platforms, connector sizes/balancing, current qualified used/new prices; bass/vocal unclassified."
+  },
+  "mg20_support_checkpoint_20261017": {
+    "checked": "2026-10-17",
+    "official_page": "https://nuxaudio.com/product/mg20/",
+    "observed": "Retrieved legacy support page exposes English manual only; official-domain searches found no qualified MG20 firmware/editor entry. Not proof of absence or latest firmware.",
+    "visual_attempt": {
+      "url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG20.jpg",
+      "result": "Official link34 failed Cache miss; no visual claim or control totals inferred."
+    },
+    "saved": "CTRL momentary/latched and combined Delay+Boost functions; unsaved preset changes and destructive factory restore scope clarified from manufacturer-authored manual transcription.",
+    "deferred": [
+      "Full rotary/button counts and original PDF revision/visual corroboration",
+      "Current/polarity/connector sizes and balancing",
+      "Exact firmware/editor OS/audio/bus power",
+      "IR/NAM/capture and synth/acoustic engine evidence",
+      "Bass/vocal suitability",
+      "Qualified condition-specific current hardware prices"
+    ]
   }
 }

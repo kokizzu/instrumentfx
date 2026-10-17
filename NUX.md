@@ -705,7 +705,7 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | Built-in EXP/VOL with force-at-toe switching; adjustable threshold. EXT.PEDAL accepts WTB-004 for bank switching, not established as external expression. [Manual transcription][Manual transcription][MG20-T] |
+| Expression | Built-in EXP/VOL with force-at-toe switching; adjustable threshold. EXT.PEDAL accepts WTB-004 for bank switching, not established as external expression. [Manual transcription][MG20-T] |
 | K/F/B | Three footswitches: two PRESET plus CTRL; rotary/button totals pending visual corroboration. Toe and power switches separate. [Manual transcription][MG20-T] |
 | Display | **2.4-inch color TFT LCD**; touchscreen unverified. [Manual transcription][MG20-T] |
 | Processing / categories | **Nine effect-module controls**, over60 models; independent toggling and combined chain documented. Do not equate model count with simultaneous blocks. Category choices transcribed below; original PDF revision/visual gap remains. [Manual transcription][MG20-T] |
@@ -720,7 +720,9 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Power / battery / USB | **9V DC**; supplied or ACD-008 adapter. Current/polarity/battery/USB operation unverified; OCR500mA marking not yet corroborated. [Manual transcription][MG20-T] |
 | Dimensions / mass | **330L×210W×83Hmm;3.15kg**. Axis labels retained. [Manual transcription][MG20-T] |
 | IR / NAM / capture | User IR, native/converted NAM and proprietary capture support unverified. |
-| Editor / platforms | USB system updating documented; editor platforms, USB audio and bus power unverified. [Manual transcription][MG20-T] |
+| Editor / platforms | USB system updating documented. Current official legacy page exposes the English manual but no visible firmware/editor entry in retrieved content. This does not prove software never existed. Exact firmware version, editor platforms, USB audio and bus power remain unverified. [Manual transcription][MG20-T]; [Official support][MG20-P] |
+| Live / CTRL functions | Switch a selected COMP/EFX/AMP/EQ/MOD/DELAY/REVERB module with latched or momentary behavior; alternatively tap MOD/delay tempo, Solo Boost, combined Delay+Boost, or MP3 Play/Stop. Numerical boost range unverified. [Manual CTRL list][MG20-T2] |
+| Preset / unsaved edits | Preset-mode module and CTRL/EXP changes require saving; selecting another preset abandons unsaved edits. Factory restore resets user presets and settings. [Manual preset/restore sections][MG20-T2] |
 | Live / practice | **60-second looper;81 rhythm patterns**. Drum part cannot enter looper. SD playback supports MP3 and most WAV/WMA; tempo changes preserve key. [Manual transcription][MG20-T] |
 | Live / routing | MOD can precede EFX or follow EQ; pre-EFX position disables stereo. Position stored per preset. [Manual transcription][MG20-T] |
 
