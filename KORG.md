@@ -356,6 +356,15 @@ Mixed jonimusic item22551702/3568008855 lists AX100G/AX1500G/AX3000G/AX3G atRp89
 [AX3G-P]: https://www.korg.com/de/products/effects/ax3g/page_2.php
 [AX3G-O]: https://shopee.co.id/efek-pedal-gitar-elektrik-KORG-AX3g-made-in-japan-distorsi-delay-reverb-i.33360096.3679424724
 
+### AX3G — converters and parameter-guide detail
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / converters | **24-bit A/D and D/A, 31.25 kHz**, published on AX3G regional specifications. No oversampling or USB audio inferred. | [Specifications][AX3G-P] |
+| Processing / delay-reverb names | Delay F0–F4: ECHO+, MLT HD, MOD DLY, ST DELAY, PP DELAY. Reverb F5–F9: SLAP, SPRING, PLATE, ROOM, HALL. SLAP is described as small-space reverberation. Delay TIME and reverb TIME are parameters; no maximum seconds established here. | [Parameter guide pp9–10][AX3G-F] |
+| Processing / pitch range | MOD PITCH spans **±24 semitones**, with one-cent FINE adjustment, separate wet/direct levels and TRACKING adjustment. This does not establish polyphonic tracking. | [Parameter guide p8][AX3G-F] |
+| Processing / composite modulation | BI CHO offers four series/parallel/LFO modes; DUO PH offers five, including two six-stage phasers in series. Their second speed control is disabled in BI CHO modes2/3 and DUO PH modes2/4/5. These are internal modes, not extra independently placed blocks. | [Parameter guide pp7–8][AX3G-F] |
+
 ## AX30G
 
 <!-- comparison evidence begins -->
