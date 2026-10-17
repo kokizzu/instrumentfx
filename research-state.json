@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee Indonesia discovery",
-    "task": "MG-20 useful technical pass committed; unresolved fields explicitly deferred in mg20_support_checkpoint_20261017. Search unrecorded brand/series hardware; validate exact seller/item and official own-model sources.",
-    "next_models": [],
-    "after_queue": "Keep prior model gaps and migration limits; no downloads/workflows/push."
+    "model": "NUX MFX-10",
+    "task": "Open https://nuxaudio.com/product/mfx10/ and inspect original English manual through browser text only; verify own-model architecture/fields before adding active record. Exact sold-out historical Shopee ask in discovery_mfx10_20261017; no used/new condition proof.",
+    "next_models": [
+      "NUX PG-2 exact Shopee item resolution and eligibility"
+    ],
+    "after_queue": "Keep all prior model gaps and migration limits; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -55095,5 +55097,48 @@
       "Bass/vocal suitability",
       "Qualified condition-specific current hardware prices"
     ]
+  },
+  "discovery_mfx10_20261017": {
+    "checked": "2026-10-17",
+    "model": "NUX MFX-10",
+    "not_in_active_inventory": true,
+    "product": "https://nuxaudio.com/product/mfx10/",
+    "manufacturer_status": "Legacy Product; own English manual linked. Not yet inspected.",
+    "offer": {
+      "url": "https://shopee.co.id/Efek-Gitar-Pedal-Nux-MFX-10-Digital-Multi-Effect-Processor-Harga-Terjangkau-i.306541454.9002629284",
+      "seller": "Hobi Musik Makassar X Serba Hobi",
+      "shop_id": "306541454",
+      "item_id": "9002629284",
+      "region": "Kota Makassar",
+      "asking_idr": 2250000,
+      "condition": "unverified",
+      "stock": "Habis in indexed item",
+      "access": "Last-month crawl, Aug26–29 arrival text; historical ask only, not current stock/checkout."
+    },
+    "unassigned_leads": [
+      {
+        "model": "NUX MFX-10",
+        "asking_idr": 1750000,
+        "region": "Kab. Kebumen",
+        "url": "https://shopee.co.id/search?category=11043572&keyword=gitar+nux&subcategory=11043648",
+        "limit": "Category only; exact seller/item unresolved, not qualified model price."
+      },
+      {
+        "model": "NUX PG-2",
+        "asking_idr": 590000,
+        "region": "Kab. Sidoarjo",
+        "url": "https://shopee.co.id/search?category=11043572&keyword=efek+gitar+nux&page=1&sortBy=relevancy&subcategory=11043648",
+        "limit": "Three-day category crawl; exact seller/item unresolved; own architecture eligibility not yet verified."
+      }
+    ],
+    "rejected": "DigiTech RP350 adaptor is accessory; mixed MG100/MG300/MFX10 and SC110 titles lack variant mapping, no hardware price allocation.",
+    "limits": "Condition, bundle, variant, adapter inclusion, authenticity, working state, warranty, shipping/tax/voucher unresolved. No filesystem download.",
+    "limited_searches": [
+      "NUX MFX-10",
+      "NUX PG-2",
+      "DigiTech RP350",
+      "Korg AX5B"
+    ],
+    "absence_qualification": "Limited indexed searches only; no market absence claim."
   }
 }
