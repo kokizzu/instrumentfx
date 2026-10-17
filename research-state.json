@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-50",
-    "task": "GP50 firmware1.0.5 looper/drums/routing/power limits saved. Next own-manual category census and remaining IR format/length limits; then fresh Shopee discovery. Do not borrow GP5 counts or equate app rhythms with onboard patterns.",
+    "task": "GP50 own firmware1.0.5 census complete112; acoustic simulator verified separately from preamps. Remaining IR format/length, touch and used IDR unknown. Next fresh Shopee discovery by bass/vocal brand and series; do not infer absence from empty search.",
     "next_models": [],
     "after_queue": "335 partial unique records;117 legacy compatibility paths retained. No downloads/workflows/push."
   },
@@ -57699,6 +57699,14 @@
       "model": "Valeton GP-50",
       "checked_date": "2026-10-18",
       "finding": "Own firmware1.0.5 manual resolves loop20s Pre-mono/Post-stereo, nonsaved recording, onboard10 metronome patterns versus app extras, SnapTone disables AMP/CAB, fixed/reorderable groups and three modules per switch.",
+      "sources": [
+        "https://www.hotone.jp/manuals/valeton/GP-50.pdf"
+      ]
+    },
+    {
+      "model": "Valeton GP-50",
+      "checked_date": "2026-10-18",
+      "finding": "Own firmware1.0.5 table census112 algorithms; PRE AC Sim and CAB AC establish acoustic simulation beyond preamps. Dizz VH regional description apparent copy error retained.",
       "sources": [
         "https://www.hotone.jp/manuals/valeton/GP-50.pdf"
       ]

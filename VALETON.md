@@ -913,6 +913,16 @@ Checked 2026-10-18 against the [own regional manual](https://www.hotone.jp/manua
 | Physical controls / grouped switching | Up to **3 modules per footswitch, 6 total**; each module belongs to only one switch. Printed p15. |
 | Power / connector and shutdown | **5.5×2.1mm DC connector**; SAVE+GLOBAL toggles battery power. Forced shutdown requires SAVE+EXIT+GLOBAL for≥2seconds and may lose data. Printed pp8,56. |
 
+### GP-50 — completed firmware 1.0.5 category census
+
+Checked 2026-10-18 against the [own regional manual, printed pp31–48](https://www.hotone.jp/manuals/valeton/GP-50.pdf).
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / category choices | **NR1 / PRE12 / DST10 / AMP32 / CAB21 / EQ5 / MOD11 / DLY10 / RVB10**: derived **112 named algorithms**. Excludes20 user IR slots, SnapTone files and N→S Empty placeholder; not a simultaneous-block count. AMP comprises7 clean/9 drive/11 high-gain/3 bass/2 acoustic preamps. |
+| Processing / acoustic simulation | PRE **AC Sim** explicitly simulates acoustic guitar from electric input: **Standard/Jumbo/Enhanced/Piezo** modes, Body/Top controls. CAB additionally lists **AC**, a dreadnought simulation, alongside20 conventional cabinets. These establish simulation separately from AC Pre1/2; earlier preamp-only evidence was incomplete. |
+| Processing / source inconsistency | Dizz VH’s regional description repeats Juice R100’s Orange text; retain this apparent copy error without inferring the modeled amplifier from the name. |
+
 ## Dapper Bass VES-2
 
 Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.
