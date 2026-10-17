@@ -46,8 +46,26 @@ def save():
     state['migration']['navigation_audit']=dict(report,checked_date='2026-10-17',status='passed',remaining='Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications.')
     state['migration']['content_consolidation_status']='All117 legacy Markdown/JSON paths accounted for;root content and pinned-original checks pass;compatibility redirects remain.'
     state['migration']['complete']=False
-    state['migration']['warning']='135 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.'
-    state['cursor'].update(model='Fresh Shopee discovery and remaining model fields',task='Navigation audit passed across146 Markdown files/2029 local link occurrences;117 legacy paths accounted for. Do not repeat completed source retirement. Resume fresh Shopee Indonesia discovery by brand/series and model-specific manufacturer gaps,committing each model before the next.',after_queue='Unknown fields and qualified historical prices remain explicit;no exhaustive market or stock claim. Keep legacy redirects until a separate reviewed cleanup is warranted.')
+    import comparison_views
+    comparison_views.verify_views()
+    focused = set(comparison_views.BASS_FOCUSED)
+    shared_bass = set(comparison_views.BASS_SHARED)
+    vocal_only = set(comparison_views.VOCAL_ONLY)
+    vocal_shared = set(comparison_views.VOCAL_SHARED)
+    assert not focused & shared_bass and not vocal_only & vocal_shared
+    membership = state['comparison_membership']
+    assert set(membership['ALL-BASS.md']) == focused | shared_bass
+    assert set(membership['ALL-VOCAL.md']) == vocal_only | vocal_shared
+    state['validation'].update(bass_focused_models=len(focused), bass_shared_models=len(shared_bass), vocal_only_models=len(vocal_only))
+    state['migration']['warning']=f"{state['canonical_root_model_count']} root-canonical models;{state['legacy_only_model_count']} legacy-only. Legacy compatibility files remain;specification and market research incomplete."
+    state['migration']['root_category_and_instrument_views']=f"Four-table comparisons: {len(membership['ALL-GUITAR.md'])} guitar, {len(membership['ALL-BASS.md'])} documented bass-capable, {len(membership['ALL-VOCAL.md'])} vocal; technical and market verification remain incomplete."
+    readme=(ROOT/'README.md').read_text()
+    import re
+    readme, n1=re.subn(r'All \d+ recorded models have root brand sections\.', f"All {state['canonical_root_model_count']} recorded models have root brand sections.", readme)
+    readme, n2=re.subn(r'Organization migration is incomplete:\*\* \d+ detailed models are root-canonical; \d+ still rely on legacy source records\.', f"Organization migration is incomplete:** {state['canonical_root_model_count']} detailed models are root-canonical; {state['legacy_only_model_count']} still rely on legacy source records.", readme)
+    assert n1 == n2 == 1, 'README count statements changed; inspect before saving'
+    shared.atomic_write(ROOT/'README.md',readme)
+    # Preserve the model research cursor; navigation maintenance is not a new model task.
     shared.atomic_write(ROOT/'research-state.json',json.dumps(state,ensure_ascii=False,indent=2)+'\n')
 
 def commit():
@@ -58,7 +76,7 @@ def commit():
     comparison_views.verify_views()
     assert not research.git('diff','--cached','--name-only').strip(),'Existing staged changes'
     changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
-    allowed={'scripts/navigation_tools.py','scripts/source_retirement.py','README.md','research-state.json','Makefile'}
+    allowed={'scripts/navigation_tools.py','scripts/source_retirement.py','README.md','research-state.json','Makefile','ZOOM.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md'}
     assert changed<=allowed,changed-allowed
     research.git('add','--',*sorted(changed))
     print(research.git('diff','--cached','--stat'))

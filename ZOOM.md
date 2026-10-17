@@ -708,7 +708,7 @@ Bass multi-effects; external-only expression. Consolidated and expanded2026-10-1
 | Size class | Medium |
 | Used USD | ? |
 | New USD observation | $178 [P1] |
-| Maximum simultaneous blocks; categories / choices | 5, DSP-limited; 104 effects and 6 DI models; category breakdown was unknown at2026-10-14 retention,now resolved in current Processing/DI row |
+| Maximum simultaneous blocks; categories / choices | 5, DSP-limited; 104 effects and 6 DI models; exact category breakdown ? — Historical 2026-10-14 wording retained; the current Processing / DI row below supplies the later category-count correction. |
 | Factory / user memory | 300 editable total, 250 factory-filled |
 | Synth / acoustic | Bass Standard Synth and Bass Synth Talk; piezo-input setting, not an acoustic simulator |
 | Third-party IR | Factory Multi-Layer IR documented; user import not established |
