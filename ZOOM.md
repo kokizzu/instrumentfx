@@ -800,7 +800,7 @@ The legacy4/6/4 K/F/B row is retained as its historical photograph-based observa
 | Retail adapter bundle ask |**Rp4.270.000** |[ACOUSTIC MUSIK,shop1104950239/item42458813522](https://shopee.co.id/ZOOM-B2-FOUR-BASS-MULTI-EFFECT-PROCESSOR-WITH-ADAPTOR-AD-16E-B2-FOUR-ORIGINAL-GARANSI-RESMI-1TAHUN-i.1104950239.42458813522),JakartaBarat. TitleAD-16E/one-year official warranty are seller claims. Reopened body retains29May delivery;not current stock certification |
 | Condition-verified used IDR |**?** |No exact condition-verified used hardware offer established |
 
-All are asking observations,not a new/used market range. Exact condition,selected bundle,stock,shipping,voucher,warranty and seller authenticity remain unverified unless specifically stated. No software/dependency installed and no FX conversion. Remaining:category totals,screen details,physical-control corroboration,IR/NAM import evidence,current full-editor OS support andqualified used/live-stock offers.
+All are asking observations,not a new/used market range. Exact condition,selected bundle,stock,shipping,voucher,warranty and seller authenticity remain unverified unless specifically stated. No software/dependency installed and no FX conversion. Remaining:installed/app-added category changes beyond the cited2023effect list,screen details,physical-control corroboration,IR/NAM import evidence,current full-editor OS support andqualified used/live-stock offers.
 
 ### B2 FOUR — editor compatibility and exact-offer follow-up, 2026-10-17
 
@@ -822,6 +822,13 @@ Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; exi
 ### B2 FOUR — effect-list audit,2026-10-17
 
 [Manufacturer effect list](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),©2023 Z2I-4875-01,pp3–20 yields104entries across the categories above,including six pedal/control entries and eleven bass amps. This is the cited list’s inventory,not a guarantee of every installed firmware/app library. BassMonoPitchShifter is single-note;BassPolyphonicPitchShifter supports chords. Pedal category includes persistent OutputVolumePedal control;do not treat that as an additional audio processor slot. Synth category has three models;piezo impedance and fretless simulation do not establish acoustic-guitar simulation.
+
+
+### B2 FOUR — additional sold-out offer,2026-10-17
+
+| Price class | Amount | Offer / limits |
+|---|---:|---|
+| Condition-unverified sold-out adapter bundle | Rp3.924.000 | [DOREMI MUSIC,seller84651465/item27233015578](https://shopee.co.id/Zoom-Guitar-Multi-Effects-Processor-B2-Four-w-Adaptor-AD-16E-Efek-Gitar-i.84651465.27233015578),Kota Tangerang. Direct indexed body checked2026-10-17,two-month crawl,**Habis**. Title includes AD-16E;selected contents,used/new condition,warranty,variant and authenticity unverified. Relative four-hour delivery does not override sold-out status;Rp10.000 late-delivery compensation is not a discount. Historical ask,not live stock/completed sale. |
 
 <!-- comparison evidence ends -->
 

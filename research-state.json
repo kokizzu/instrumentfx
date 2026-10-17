@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech GNX4",
-    "task": "GNX4 confirmed EQ/cabinet tuning saved; repeated selector/display searches inconclusive. Preserve button/display/USBreturn/simultaneous-total/powerconflict unknowns. Next prioritize other recorded-model source gaps or exact Shopee discovery instead of repeating exhausted GNX4 searches.",
+    "model": "Bass/vocal discovery and remaining source gaps",
+    "task": "B2 FOUR exactDOREMI sold-outask saved;no newmodel from targetedDigiTech/Korg/VOXsearch. Continue otherbrand/series hardware discovery or existingprimaryspec gaps;do not repeat these narrow negative searches or GNX4exhaustedselectorchecks.",
     "next_models": [],
-    "after_queue": "Other candidates/field gaps; no workflows/push."
+    "after_queue": "No downloads/workflows/push;allunknowns remain explicit."
   },
   "new_findings": [
     {
@@ -41252,7 +41252,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech GNX4."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal discovery and remaining source gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -53304,5 +53304,27 @@
     },
     "classification": "Per-channel parameters,not extra algorithm models or user IR import.",
     "controls": "CHAN ONE EQ explicitly button p28;CHAN TWO EQ separately named in creation steps. Complete selector total not yet established."
+  },
+  "b2_four_market_followup_20261017": {
+    "url": "https://shopee.co.id/Zoom-Guitar-Multi-Effects-Processor-B2-Four-w-Adaptor-AD-16E-Efek-Gitar-i.84651465.27233015578",
+    "seller": "DOREMI MUSIC",
+    "seller_id": "84651465",
+    "item_id": "27233015578",
+    "idr": 3924000,
+    "stock": "Habis",
+    "region": "Kota Tangerang",
+    "condition": "Unverified",
+    "bundle": "AD-16E title only;selected package unknown",
+    "access": "Direct indexed body,two-month crawl;relative4hourdelivery not stock evidence",
+    "qualification": "Not qualified used/new or completed sale;late voucher not discount."
+  },
+  "discovery_bass_vocal_20261017_post_gnx4": {
+    "searched": [
+      "DigiTech BP355/BP200/BP80/Vocalist Live/VX400/Vocal300",
+      "Korg AX5B",
+      "VOX StompLab1B"
+    ],
+    "result": "Current targeted indexed searches yielded accessories/unrelated matches,not exact new hardware offers. Narrow search limitation,not market absence.",
+    "rejected_accessory": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964"
   }
 }
