@@ -597,6 +597,19 @@ Checked 2026-10-17, original list printed pp73–83. [Source][MP350-E11].
 Later firmware reconciliation remains open. No numeric delay-time maximum was established from these entries.
 
 
+### MP-350 — MOD inventory and live controls, firmware 1.1.0-JP
+
+Checked 2026-10-17, original list printed pp64–73. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / MOD | **29 entries**: Chorus6—Aozora Chorus, Grand Choruium, Liquid C, Bass Chorus, Liquid Dream, 3D Chorus; Flanger4—Flanger, Bass Flanger, Neg Flanger, Trem Flanger; Vibrato4—Pulser, Grand Vibrato, Vibrato, Vibrato T; Phaser7—90 Phaser, Green Phaser, Stone Phaser, Notch Phaser, Pan Phaser, Minivibe, Revolver; Tremolo2—Helicopter, Custom Trem; Rotary1—Rotary; Expanding3—Classic Stereolizer, Modern Stereolizer, Stereo Expander; SlowAttack1—Sweller; Special1—Freeze. |
+| Processing / MOD routing | First six subsections are mono-L input/stereo output; Expanding is stereo; Sweller/Freeze mono. Pan Phaser gives tremolo through mono output and panning through stereo. Sweller requires the correct Input/Return/previous-effect/USB3–8 side-chain source. |
+| Live / Freeze | Selection or Scene1 resets Activate off. Its assigned effect-slot footswitch controls Activate directly; Momentary enables press-to-hold/release-to-stop. High resolution recommends placement near the chain front. These are not looper storage or patch-spillover guarantees. |
+
+The separately recorded firmware1.3.0 Feedback addition remains a delta; current complete MOD count and retention are unverified.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

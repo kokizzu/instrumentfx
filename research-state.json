@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "AMP/PRE AMP/MOD inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery",
+    "task": "AMP/PRE AMP inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62612,5 +62612,82 @@
     ],
     "qualification": "DigitalDelayHQ monoIO label versus left-channel Time wording retained; currentlibrary/maxdelaytime unresolved",
     "next": "AMP/PRE AMP/MOD inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery"
+  },
+  "mp350_mod_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed64–73",
+    "groups": {
+      "chorus": [
+        "Aozora Chorus",
+        "Grand Choruium",
+        "Liquid C",
+        "Bass Chorus",
+        "Liquid Dream",
+        "3D Chorus"
+      ],
+      "flanger": [
+        "Flanger",
+        "Bass Flanger",
+        "Neg Flanger",
+        "Trem Flanger"
+      ],
+      "vibrato": [
+        "Pulser",
+        "Grand Vibrato",
+        "Vibrato",
+        "Vibrato T"
+      ],
+      "phaser": [
+        "90 Phaser",
+        "Green Phaser",
+        "Stone Phaser",
+        "Notch Phaser",
+        "Pan Phaser",
+        "Minivibe",
+        "Revolver"
+      ],
+      "tremolo": [
+        "Helicopter",
+        "Custom Trem"
+      ],
+      "rotary": [
+        "Rotary"
+      ],
+      "expanding": [
+        "Classic Stereolizer",
+        "Modern Stereolizer",
+        "Stereo Expander"
+      ],
+      "slow_attack": [
+        "Sweller"
+      ],
+      "special": [
+        "Freeze"
+      ]
+    },
+    "counts": [
+      6,
+      4,
+      4,
+      7,
+      2,
+      1,
+      3,
+      1,
+      1
+    ],
+    "derived_total": 29,
+    "routing": {
+      "monoL_stereoOut": 24,
+      "stereo": 3,
+      "mono": 2
+    },
+    "findings": [
+      "PanPhaser mono tremolo/stereo pan",
+      "Sweller sidechain must match source",
+      "Freeze Activate resets selection/Scene1; slotFS controlsActivate; momentary presshold"
+    ],
+    "limits": "Later Feedback delta separate; no current installed total or simultaneous guarantee",
+    "next": "AMP/PRE AMP inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery"
   }
 }
