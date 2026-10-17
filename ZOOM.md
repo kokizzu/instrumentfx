@@ -2286,9 +2286,12 @@ Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2
 | Audio / control ports | Mono input;stereo output/headphones;balanced XLR pre/post DI with ground lift;CONTROL IN;USB;DC IN [B21-M pp.6–7,35] |
 | Analog levels / conversion | Input1Mohm/−20dBm;96kHz24bit conversion,32bit internal. USB separately16bit stereo32/44.1/48kHz [B21-M p.35] |
 | Power / battery / USB | 9VDC300mA center-negative AD0006;4AA alkaline~6h;USB bus power with POWER OFF; POWER ON selects batteries/adapter even while USB connected. Low-power caveat retained. Actual draw unverified [B21-M pp.2,35,USB appendix] |
+| I/O / output limits | Stereo line/phones **+5dBm maximum into≥10kΩ;20+20mW into32Ω**. XLR **0dB gain;100Ω each HOT/COLD-to-ground,200Ω HOT–COLD**. Manual defines0dBm=0.775Vrms;notation retained. [B21-M pp.23–24,35] |
+| Control / FS01 assignments | Six global choices:bypass/mute,tap,bank-up,rhythm start/stop,delay hold,delay-input mute. Hold requires a compatible delay type;pressing FS01 again cancels hold and resumes normal decay. External expression remains volume-only. [B21-M pp.21–22,34] |
+| USB / monitoring and cable | DAW playback mixes with processed direct input at OUTPUT/PHONES. Manual warns USB-power cables>3m can trigger low-voltage indication. USB MIDI/reamping/editor support unresolved. [B21-M p.23] |
 | Dimensions / weight | W255×D165×H79mm;1.2kg without batteries [B21-M p.35] |
 | Editor / software | USB audio;G-Series ASIO driver separately lists XP32,Vista/7/8 32/64. Original manual lists class-compliant XP/MacOS X10.2+ audio; later ASIO listing is separate. Direct processed monitoring remains active; disable DAW input echo to avoid doubled/flanging sound. Editor/currentOS support unverified [B21-S;B21-M pp.22–23] |
-| Looper / drums / live | Rhythm disables reverb;delay hold differs from a verified overdub looper. Looper/scenes/spillover unverified [B21-M p.35] |
+| Looper / drums / live | **40 rhythms,40–250BPM,level0–30**,play/bypass/mute;rhythm disables reverb. Tuner **A435–445Hz**,resets440 at power-on. Manufacturer claims patch-change mute<8ms,not audio latency or spillover. Delay hold is not a verified overdub looper;looper/scenes/spillover unresolved. [B21-M pp.4,10–13,35] |
 
 ### B2.1u — separate IDR evidence
 
@@ -2303,7 +2306,7 @@ Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2
 - [B21-M: official own-model operation manual,E_B21u,41PDF pages including computer appendix](https://zoomcorp.com/media/documents/E_B21u.pdf). Web text only;no files downloaded.
 - [B21-S: manufacturer model support and driver listing](https://zoomcorp.com/en/us/multi-effects/bass-effects/b21u/b21u-support/).
 
-Remaining: additional USB/control restrictions,display gaps andqualified exact offers. All nine module choice counts now reconcile to47. Factory user fill and power-switch/USB selection are resolved. Driver listing is not editor evidence.
+Remaining: display gaps,USB MIDI/reamping/editor/currentOS support,imports,looper persistence/spillover and qualified exact offers. All nine module choice counts now reconcile to47. Factory user fill and power-switch/USB selection are resolved. Driver listing is not editor evidence.
 
 ## RFX-2000
 

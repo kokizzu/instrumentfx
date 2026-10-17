@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP360XP",
-    "task": "RP360XP named amp/cab counts explain54+Direct=55 and26+Direct=27;independent amp/cab routing and electrical limits saved. Next freshShopee discovery or other model gaps;RP360XP display/control-port/power/imports/USB/live/condition-price details remain.",
+    "model": "Zoom B2.1u",
+    "task": "Output/DI limits,global FS01 assignments,USBmix/cable warning,drum/tuner ranges and patch-gap qualification saved. Continue freshShopee discovery or other incomplete model specifications. B2.1u display/currentOS/import/USB/live/offer gaps remain.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows or push."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP360XP."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2.1u."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59842,5 +59842,34 @@
       "Qualified used/new prices"
     ],
     "method": "Manufacturer-authored text only;no downloads,software execution or visual inspection."
+  },
+  "b21u_output_control_practice_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_B21u.pdf",
+    "identity": "Own B2.1u manual E_B21u;41pages including original computer appendix;not B2/B2FOUR.",
+    "pages": "Printed4,10–13,21–24,34–35.",
+    "findings": [
+      "Line/phones+5dBm into>=10kOhm;20+20mW@32Ohm;source0dBm=.775Vrms notation retained.",
+      "DI0dBgain;100Ohm each HOT/COLD-ground,200Ohm differential.",
+      "FS01sixglobaloptions;delayhold compatibletypes only;press again cancels hold and resumes decay,not foot-release behavior.",
+      "40rhythms40–250BPM/lvl0–30;play/bypass/mute;reverboff.",
+      "Tuner435–445Hz resets440;claimed patchchangemute<8ms not latency/spillover.",
+      "USBplayback mixes with processed direct sound;>3mcable lowvoltage warning."
+    ],
+    "remaining": [
+      "Published display details",
+      "USB MIDI/reamping/editor/currentOS",
+      "IR/NAM/capture support",
+      "Looper/scenes/spillover",
+      "Exact used/new IDR hardware offers"
+    ],
+    "no_downloads_or_operation": true
+  },
+  "discovery_bass_me6b_ax3000b_b91ut_20261017": {
+    "queries": [
+      "site:shopee.co.id \"BOSS\" \"ME-6B\"",
+      "site:shopee.co.id \"Korg\" \"AX3000B\"",
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\""
+    ],
+    "result": "No usable search results;not proof of market absence."
   }
 }
