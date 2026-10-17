@@ -498,7 +498,7 @@ def main():
         if mode == 'commit-pocketgt':
             message = 'research(boss): audit Pocket GT memory categories and explicit bass presets'
         if mode == 'commit-ve5':
-            message = 'research(boss): separate VE-5 red hardware ask from unresolved variants'
+            message = 'research(boss): resolve VE5 polarity through named PSA supply'
         if mode == 'commit-rp1000':
             message = 'research(digitech): qualify RP1000 external loop routing and bypass override'
         if mode == 'commit-gt6':

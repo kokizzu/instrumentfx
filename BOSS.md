@@ -2164,7 +2164,7 @@ Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Owne
 | Synth / acoustic | Pitchcorrection,harmony,Distortion/Radio/Strobe;instrumentsynth/acousticsimulation unverified. | [Product][VE5-P] |
 | Dimensions / mass | **178W×108D×55H mm;460g includingbatteries**. Withmicstandholder+batteries:**178×159×55mm;700g**. | [Product][VE5-P] |
 | I/O | BalancedXLR/¼TRSmicinput,48Vphantom10mAmax;stereo3.5mmAUX;XLROUT;stereo3.5mmPHONES/LINE;¼TRSCTL1,2;9VDC. Internalmic. USB/MIDIabsentfromlistedports. | [Product][VE5-P] |
-| Power / battery / USB | **9VDC190mA(max),optionalPSA;4AAalkaline/NiMH**. Runtimealkaline13h/6h,NiMH20h/9h(phantomoff/on),conditional. Polarity/USBpower unverified. | [Product][VE5-P] |
+| Power / battery / USB | **9VDC190mA(max),optionalPSA;4AAalkaline/NiMH**. Runtimealkaline13h/6h,NiMH20h/9h(phantomoff/on),conditional. **Center-negative** polarity resolved below; USB power remains unverified. | [Product][VE5-P] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
 | Editor / software | Officialeditor/platformsupport unverified. | Unresolved |
 | Looper / drums / live | **38smono phrase loop**,FavoriteSoundrecall,micstandmount. Perform(default)recordsprocessedvoice+overdubs;Checkrecordsdry/appliesFXonplayback anddisablesoverdub. AUXnotrecorded;powerofflosesloop. EXITduringplay/overdubstops;EXITwhilestoppedclears. Loop/systemsettingspersistacrosssoundchanges;thisdoesnotcertifyuninterruptedlooponsoundchange. Drums/scenes pending. | [Product][VE5-P];[Officialmanual pp8,15][VE5-PDF] |
@@ -2174,6 +2174,7 @@ Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Owne
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Audio levels / impedances | MIC nominal−40dBu atMicSens40,4kohm;AUX−20dBu,22kohm. XLR OUT nominal−40dBu,600ohm;PHONES/LINE66ohm. Product explicitly leaves PHONES/LINE nominallevel **TBD**;no line-level value invented. Checked2026-10-17. | [Product][VE5-P] |
+| Power / polarity evidence | **9 V DC center-negative**, checked **2026-10-18** through VE-5’s own manual quick guide specifying optional PSA series and Roland’s PSA-S electrical specification. PSA-S **500 mA capacity is separate from VE-5’s190 mA maximum draw**. The published alkaline/NiMH operation does not establish in-unit charging; adapter priority/hot-swap behavior remains unverified. No USB powering inferred from battery or adapter support. | [Own manual quick guide][VE5-PDF]; [PSA-S specification](https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications) |
 | Power / auto off | AutoOff defaultsOn:shutdown after10hours withoutplaying/operation;can disable inSETUP. SETUP,MIC,CTL PEDAL andPHRASE LOOP settings are global andsurvive sound changes. | [Indexed originalmanual p15][VE5-PDF] |
 | I/O / mic fallback | Internal mic is used when noexternalmic isconnected. For mixer line input,manual specifies aY-adaptor fromstereo PHONES/LINE OUT;XLRoutput level above ismic-level. This does not establish independent stereo effect processing. | [Indexed originalmanual quickguide][VE5-PDF] |
 
@@ -2181,7 +2182,7 @@ Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Owne
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Power / adapter compatibility | [VE-5 support article](https://support.roland.com/hc/en-us/articles/201970209-VE-5-Which-AC-adaptor-is-compatible),updated2026-07-02,indexedtext checked2026-10-17: **190mA draw;PSA200mA or500mA compatible**;regional mains/plug mustmatch. Adapter capacity is not device draw. Directarticle cachemiss;polarity remains unverified. | [PSA model differences](https://support.roland.com/hc/en-us/articles/4404894109595-BOSS-PSA-adaptor-Specification-Differences-by-Model) |
+| Power / adapter compatibility | [VE-5 support article](https://support.roland.com/hc/en-us/articles/201970209-VE-5-Which-AC-adaptor-is-compatible),updated2026-07-02,indexedtext checked2026-10-17: **190mA draw;PSA200mA or500mA compatible**;regional mains/plug mustmatch. Adapter capacity is not device draw. Direct article cache miss; polarity subsequently resolved in the2026-10-18 row below. | [PSA model differences](https://support.roland.com/hc/en-us/articles/4404894109595-BOSS-PSA-adaptor-Specification-Differences-by-Model) |
 | Memory / reset scopes | FACTORY RESET allowsALL,SOUND(all sounds),orSYSTEM(SETUP,MIC,CTL PEDAL,PHRASE LOOP). Userinformation is lost withinreset scope;no reset was performed. | [Model-specific manufacturer support](https://support.roland.com/hc/en-us/articles/201962539-VE-5-How-do-I-restore-the-factory-settings-Factory-Reset),updated2026-07-02,indexedtext checked2026-10-17 |
 
 ### Separate IDR hardware offers

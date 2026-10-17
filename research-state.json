@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-5",
-    "task": "VE20 MMmusicstore/Fely exact-title and direct-store pass still lacks item URLs; parked without price qualification. Next read full VE5 record, then verify own manual power polarity and adapter/battery selection against explicit approved supply. No downloads. Commit before next.",
+    "task": "VE5 polarity resolved;adapterpriority/charging unknown. Next audit exact VE5 row in official2014catalog (boss_catalog_2014.pdf):indexed-20dBu/33ohm PHONES versus currentTBD/66ohm; preserve source conflict and avoid adjacent-model specs. No downloads. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45275,7 +45275,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-20."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56618,6 +56618,15 @@
         "https://shopee.co.id/Boss-VE-20-VE20-Vocal-Performer-Effect-Effect-Vocal-i.16879370.651376850",
         "https://shopee.co.id/mmmusicstore",
         "https://shopee.co.id/fely_sugesti"
+      ]
+    },
+    {
+      "model": "BOSS VE-5",
+      "checked_date": "2026-10-18",
+      "finding": "Resolved9VDC center-negative via own quickguide PSA requirement and RolandPSA-S spec.500mA capacity versus190mA draw;charging/adapterpriority/hotswap unknown. Official2014catalog search also exposesPHONES nominal-20dBu/33ohm versus currentTBD/66ohm;needs full own row audit before reconciliation.",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf",
+        "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications"
       ]
     }
   ],
