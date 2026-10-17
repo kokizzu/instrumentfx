@@ -1027,6 +1027,12 @@ Earlier **Rp560.000** indexed at [NADA236930016/43228668633](https://shopee.co.i
 
 Sources: [26-page-labelled manualtranscription](https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b),indexedcomplete,butdirectPDFfailed andconversionlayerlimitsprovenance. Genericgeneratedtwo-switch/ninepreampguidesrejected. [Manufacturer catalogue](https://www.m-vave.com/products),[downloads](https://www.m-vave.com/download). Regulatoryfamilygroupingdoesnotmakeoperatingsectionsidentical. OriginalPDF/panel,IRlimits/USBfunctions/currentoffersremainpending.
 
+### Additional exact IDR offer,2026-10-18
+
+| Condition | Amount / qualifications | Exact source |
+|---|---|---|
+| Unverified | **Rp706,000**,AP Music Indonesia,KotaJakartaPusat,shop474088972/item42811752267. Directreader2monthcache. Exact Bass hardware title;new/used,working state,variant,adapter/cables/bundle,warranty,shipping/tax andcheckout stock unknown. NoHabis inextract is not stockproof;relative tomorrow delivery does not certify availability. No purchase voucher established;late-arrival compensation up toRp10,000 is not discount. Separate cached ask,not a retail range orreplacement for oldRp560,000 observations. | [Exact Shopee item](https://shopee.co.id/Multi-Efek-Bass-Elektrik-M-Vave-Cube-Baby-Bass-Elektrik-Original-i.474088972.42811752267) |
+
 <!-- comparison evidence ends -->
 
 ### Preserved original finding

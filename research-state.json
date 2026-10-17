@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "M-VAVE CUBE BABY BASS",
-    "task": "Reopen exact AP Music474088972/42811752267 hardware offer;check currentcachedprice,condition,bundle,stock anddeduplicate before adding. StompLab2B Salomo variant/voucher ambiguity saved;notqualifiednew/used price.",
+    "task": "APMusic exactRp706000condition-unverified offer saved;next improve original-manual provenance/USB/IR limits. Existing provisional transcription remains qualified;do not borrow electric/AC specs. Then fresh bass/vocal discovery.",
     "next_models": [],
     "after_queue": "316active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -24027,6 +24027,17 @@
       "checked_date": "2026-10-18",
       "qualification": "Habis;withvoucher spendRp10RB/10%;SL2B/+Adaptor price allocation unresolved. Kept as unallocated listing display,not qualified used/new/bare/bundle price. Direct2weekcache versus initial2months;notlive.",
       "status": "Existing model;variantprice unresolved,noinventory increment"
+    },
+    {
+      "model": "M-VAVE CUBE BABY BASS",
+      "url": "https://shopee.co.id/Multi-Efek-Bass-Elektrik-M-Vave-Cube-Baby-Bass-Elektrik-Original-i.474088972.42811752267",
+      "seller": "AP Music Indonesia",
+      "seller_id": "474088972",
+      "item_id": "42811752267",
+      "indexed_idr": 706000,
+      "checked_date": "2026-10-18",
+      "qualification": "Exact Bass title,2monthcache;new/used/bundle/stock unknown;latecompensation notdiscount;no siblingpricing transfer",
+      "status": "Added toexisting root Bass model;no count change"
     }
   ],
   "inventory_by_brand": {
@@ -61896,6 +61907,10 @@
     {
       "token": "4688514198",
       "model": "VOX::StompLab 2B"
+    },
+    {
+      "token": "42811752267",
+      "model": "M-VAVE::CUBE BABY BASS"
     }
   ],
   "g3xn_dsp_acoustic_20261017": {
