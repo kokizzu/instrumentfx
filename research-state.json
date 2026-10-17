@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Preservation audit",
-    "task": "Inspect source-retirement and redirect verification coverage against all remaining legacy paths; continue fresh eligible Shopee discovery and per-model technical gaps.",
+    "model": "Catalogue research",
+    "task": "Resume fresh Shopee manufacturer/series discovery and resolve a model-specific technical gap; retain compatibility paths.",
     "next_models": [],
-    "after_queue": "Continue catalogue research;no downloads,workflows orpush."
+    "after_queue": "Continue catalogue research; no downloads, workflows or push."
   },
   "new_findings": [
     {
@@ -41210,7 +41210,7 @@
       "source_commit": "b3d7e346600759b54790ddb4b2ab696aec9cb179",
       "deleted_files": [],
       "historical_anchors_preserved": true,
-      "remaining": "Technical legacy pages and remaining navigation still require retirement;overall migration incomplete"
+      "remaining": "13 metadata redirects verified 2026-10-17; JSON and specialist checks also pass. Compatibility paths remain; overall research incomplete."
     },
     "technical_retirement": {
       "status": "partial",
@@ -41317,7 +41317,7 @@
       ],
       "complete_body_finding_count": 81,
       "shared_source_count": 18,
-      "remaining": "Excluded archival finding, remaining technical/navigation sources and legacy JSON audits remain;research remains incomplete."
+      "remaining": "99 technical compatibility redirects verified 2026-10-17, including original headings/destinations and 307 incoming links. Metadata, JSON and specialist verification also pass. Compatibility paths remain; model and market research incomplete."
     },
     "legacy_json_retirement": {
       "status": "retired",
@@ -63061,5 +63061,53 @@
     },
     "limits": "Union presence does not prove optimal model ownership of every shared paragraph, current technical correctness, exhaustive legacy coverage or deletion readiness. Incoming compatibility links remain; no source retired.",
     "next": "Inspect source-retirement and redirect verification coverage against all remaining legacy paths; continue fresh eligible Shopee discovery and per-model technical gaps."
+  },
+  "discovery_frontier_20261017_rp300_ax2000": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"DigiTech\" \"RP300\"",
+      "site:shopee.co.id \"Zoom\" \"GFX-1\"",
+      "site:shopee.co.id \"Korg\" \"AX2000G\"",
+      "site:shopee.co.id \"Rocktron\" \"Utopia\""
+    ],
+    "repeated_themes": [
+      "GFX-1",
+      "Rocktron Utopia"
+    ],
+    "result": "No qualified new hardware offer. RP300 matched an adapter, not the processor; GFX-1 matched adapter text on an existing-model search page. AX2000G and Utopia yielded no exact qualifying hardware in the returned batch.",
+    "rejected_exact_item": {
+      "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+      "reason": "Power adapter, not multi-effects hardware; Rp170000 is not a processor price."
+    },
+    "limits": "Indexed results only; does not prove model absence, actual live stock or market completeness. No new model or price added."
+  },
+  "retirement_coverage_audit_20261017": {
+    "checked": "2026-10-17",
+    "base_commit": "ece1250",
+    "targets": [
+      "make technical-retirement-verify",
+      "make metadata-retirement-verify",
+      "make json-retirement-verify",
+      "make specialist-retirement-verify"
+    ],
+    "result": "All passed.",
+    "technical": {
+      "sources": 99,
+      "redirects": 99,
+      "incoming_link_occurrences": 307
+    },
+    "metadata": {
+      "markdown_sources": 13,
+      "json_sources": 3,
+      "unique_typed_json_snapshots": 2
+    },
+    "specialist": {
+      "registered_redirects": 1,
+      "separate_archival_fv01": 1,
+      "verification": "Specialist context/GM-800 and excluded archive verified; research verifier compares original FV01 body exactly after explicit heading/link normalization."
+    },
+    "scope": "Technical verifier checks pinned originals, complete-body/model-row and shared-union content, exact generated stubs, original headings, destination existence and incoming anchors. Metadata verifies nonblank-line preservation and JSON typed reconstruction.",
+    "limits": "Compatibility files remain; no deletion performed. Does not certify external availability or complete model specifications. Earlier union messages saying no source retirement describe individual audit authorization; technical verifier separately confirms existing 99 redirects.",
+    "next": "Resume fresh Shopee manufacturer/series discovery and resolve a model-specific technical gap; retain compatibility paths."
   }
 }
