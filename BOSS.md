@@ -626,6 +626,17 @@ Checked2026-10-17 against original manualpp8,10: current control enumeration sup
 
 Remaining:visual control corroboration,explicit simultaneous ceiling,screen diagonal/color/touch,hardware-revision current/level conflicts,DCpolarity,import capabilities,condition-verified used/new/currentstock/bundles. No original source deleted.
 
+### VE-20 — pitch modes and indexed offer qualification
+
+Checked2026-10-18. Earlier observations remain dated above.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / pitch correction modes | [Original manual p18][VE20-M]: Soft,Hard andElectric support **Chromatic nearest-semitone orMaj(Min) key-based correction**. Robot fixespitch to aselectednote; itsNote parameter isdistinctfromKey. Gender andOctave controls do not establish a synthesizer oscillator or additional simultaneousvoices. |
+| Harmony / key and part behavior | [Manual pp11,18][VE20-M]: set thesongkey explicitly; eachoftwo parts independentlyselectsOff,Double,intervalharmony orUnison. Settingonepartlevel tozero removesit. Unison changesvocalcharacter whilefollowingthesamemelody; DoubleDepth isDouble-only,Gender applies tointerval/Unison. No automaticguitar-chord detection inferred. |
+| IDR / existing item additional indexed context | **Rp4,200,000,Habis**; [Dial Musik,shop338305078/item18993563259](https://shopee.co.id/Boss-VE-20-Vocal-Processor-Efek-Vokal-Original-Boss-VE20-i.338305078.18993563259),KotaPalembang. One-month indexedbody nowexposesseller/location andstale14–16Septemberdelivery; directreopen stillcachemiss. This supplements thesameexistingoffer,not asecondquote. Used/newcondition,bundle/adapter,warranty,shipping/tax andcheckoutunknown; lateRp10,000compensationnotdeducted. |
+
+
 ## GT-1000CORE
 
 Consolidated 2026-10-16;technical dates below retained. Partial verification;historical next-model notes are provenance,not the current queue. No legacy source deleted.
