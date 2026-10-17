@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GX-1B",
-    "task": "GX1B approved DC supply and dated macOS app/driver status saved; Salomo cached offer rechecked. Next broaden fresh discovery or other model gaps; GX1B USB channel/bitdepth, IR length, screen diagonal/touch and qualified used price still unresolved.",
+    "model": "BOSS ME-90B",
+    "task": "Power voltage, XLR scope, loop storage and patch compatibility saved; separate Melodia offer added. Next fresh brand/series discovery and other primary gaps; ME90B IR formats/length, USB resolution/power and condition-verified offers remain unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GX-1B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-90B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57544,6 +57544,18 @@
         "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications",
         "https://www.boss.info/global/support/support_news/25090811m1/",
         "https://shopee.co.id/Boss-GX1B-Pedal-Bass-Multi-Effects-Original-i.1776275.52656028208"
+      ]
+    },
+    {
+      "model": "BOSS ME-90B",
+      "checked_date": "2026-10-18",
+      "finding": "Official KB resolves9VDC195mA and adapter capacities, XLR fixedLINE independentOUTPUTSELECT, no internal loop storage, no otherME patch compatibility. Added separate Melodia seller30194339 item26223675342 cached8.8315m ask with condition/bundle/stock unknown.",
+      "sources": [
+        "https://support.roland.com/hc/en-us/articles/24403972628251-ME-90B-What-kind-of-power-supplies-does-it-support",
+        "https://support.roland.com/hc/en-us/articles/24404249160219-ME-90B-Which-outputs-does-the-OUTPUT-SELECT-setting-apply-to",
+        "https://support.roland.com/hc/en-us/articles/24403936681499-ME-90B-Can-I-save-a-phrase-created-with-the-Phrase-Loop-function-in-the-unit",
+        "https://support.roland.com/hc/en-us/articles/24403944639643-ME-90B-Is-the-patch-data-compatible-between-ME-90B-and-other-ME-series",
+        "https://shopee.co.id/Boss-ME-90B-Bass-Multi-effects-Pedal-i.30194339.26223675342"
       ]
     }
   ],

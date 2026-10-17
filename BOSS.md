@@ -313,6 +313,18 @@ Checked2026-10-16 using exact hardware pages. Cached asks do not establish curre
 | Retail-style / Eleven Music,Jakarta Pusat | Indexed Rp7.950.000 with Layanan Tidak Tersedia;direct reopen cache miss. Delivery service unavailable in snapshot,not evidence of nationwide availability or sold-out stock. Two URL slugs share same seller/item,one offer not two. | [12356205 /25781715958](https://shopee.co.id/Boss-ME-90B-Bass-Multi-Effects-Pedal-BOSS-ME90B-Original-i.12356205.25781715958) |
 
 Unresolved:full category/subtype counts,IR formats/length,screen diagonal/color/touch,rotary recount,DC voltage/polarity/USB power,current software versions/USB channels/bitdepth,condition-verified used/new asks/current stock/bundles. No legacy source deleted.
+### ME-90B — model-specific support clarifications
+
+Checked 2026-10-18 against manufacturer support articles updated 2026-05-01 and a separately identified Shopee hardware offer.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Power / voltage and adapter capacity | BOSS explicitly states **195 mA at 9 V DC**, compatible with older 200 mA PSA and later 500 mA PSA-S/PSA-S2 adapters. Four alkaline AA provide approximately six hours; batteries can remain installed as backup if the adapter disconnects. This article does not resolve USB power or directly specify socket polarity. | [Official ME-90B power article](https://support.roland.com/hc/en-us/articles/24403972628251-ME-90B-What-kind-of-power-supplies-does-it-support) |
+| Routing / output-select scope | OUTPUT SELECT applies only to quarter-inch OUTPUT jacks. Balanced XLR is fixed to LINE regardless of AMP/LINE switch or OUTPUT SELECT. | [Official output clarification](https://support.roland.com/hc/en-us/articles/24404249160219-ME-90B-Which-outputs-does-the-OUTPUT-SELECT-setting-apply-to) |
+| Looper / phrase storage | Phrases **cannot be saved inside ME-90B**. Manufacturer suggests recording via analog OUTPUT or USB audio, with the dedicated driver for computer recording. This is external audio recording, not onboard loop-file storage. | [Official phrase-storage answer](https://support.roland.com/hc/en-us/articles/24403936681499-ME-90B-Can-I-save-a-phrase-created-with-the-Phrase-Loop-function-in-the-unit) |
+| Memory / cross-model compatibility | Patch data is **not compatible with other ME-series units**. Shared product-family naming does not establish patch interchange. | [Official patch compatibility](https://support.roland.com/hc/en-us/articles/24403944639643-ME-90B-Is-the-patch-data-compatible-between-ME-90B-and-other-ME-series) |
+| IDR / additional retail-style offer | Melodia Musik Roland Store JKT, Jakarta Selatan, seller/item **30194339/26223675342**: cached exact hardware body, crawled two months earlier, shows **Rp8.831.500**, crossed Rp10.390.000, 15% off. Relative same-day-before10:00 delivery; no Habis text in retrieved body, not live stock proof. Condition, adapter/BT-DUAL bundle, shipping/tax and warranty region unknown. Late-delivery Rp10.000 voucher is compensation, not another price reduction. | [Exact Shopee offer](https://shopee.co.id/Boss-ME-90B-Bass-Multi-effects-Pedal-i.30194339.26223675342) |
+
 
 ## VE-1
 
