@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery and remaining model fields",
-    "task": "All known preservation failures repaired; full technical-retirement-verify passes99sources/304incoming links. Resume exact Shopee Indonesia brand/series discovery for eligible unrecorded hardware, compare239 active inventory before adding; commit each model before next. Keep unresolved fields and compatibility redirects explicit.",
+    "model": "DigiTech GNX4",
+    "task": "Exact sold-out Shopee offer and primary product/manual/power-conflict checkpoint saved in gnx4_discovery_checkpoint_20261017. Research own manual indexed sections; then add root DIGITECH record, views and ledger, commit before next model. No downloads or sibling inference.",
     "next_models": [],
-    "after_queue": "Remaining model specifications/qualified used-new prices; no downloads/workflows/push."
+    "after_queue": "Other candidates/field gaps; no workflows/push."
   },
   "new_findings": [
     {
@@ -53109,5 +53109,39 @@
     "revision": "3.70 Rev X p5 indexed table",
     "confirmed": "One setlist, 128 presets, four presets per bank; separate 128-entry IR and Favorites libraries.",
     "limits": "Merged feature cells have incompatible amp/cab and 6 Switch Looper wording; not sufficient to resolve HX Effects IR per-preset/per-path conflict. Full 3.50 open too large; no download."
+  },
+  "gnx4_discovery_checkpoint_20261017": {
+    "model": "DigiTech GNX4",
+    "inventory_status": "Not in current root DIGITECH headings; candidate not yet added to active counts.",
+    "checked": "2026-10-17",
+    "offer": {
+      "url": "https://shopee.co.id/Efek-Digitech-GNX4-Original-USA-i.726736590.26658711582",
+      "seller": "GIDEON MUSIC",
+      "seller_id": "726736590",
+      "item_id": "26658711582",
+      "idr": 1950000,
+      "stock": "Habis",
+      "region": "Kota Medan",
+      "access": "Direct indexed page reopened; last-week crawl; stale8–11October delivery. Earlier two-month index had20–23August delivery.",
+      "condition": "Used/new unverified; Original USA is seller title, not authenticated origin.",
+      "bundle": "Unknown",
+      "voucher": "Rp10000 late-delivery compensation, not immediate discount.",
+      "limitations": "No checkout stock, authenticity, working condition, warranty or completed sale established."
+    },
+    "primary": {
+      "product": "https://digitech.com/dp/gnx4/",
+      "manual": "https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf",
+      "software": "https://digitech.com/software-downloads/",
+      "facts": "Guitar multi-effects workstation;80factory+80user+80optional CompactFlash presets;8track recorder/MP3/MIDI drums;USB-B1.1;24bit44.1k;21W;published21.5in length×9in width×3.25in height,10lb. Mic phantom recording support does not by itself establish live vocal-category membership.",
+      "manual_access": "Full PDF exceeds web-reader13.9MB limit; indexed passages available; no filesystem download."
+    },
+    "power_conflict": {
+      "faq": "https://digitech.com/faqs/",
+      "faq_value": "GNX4 PSS3:9VAC2.1A,2.5mm pin,120VAC mains variant.",
+      "list": "https://digitech.com/support/powersupplylist/",
+      "list_value": "PSS3 GNX4 entry:9VDC1.3A,2.1mm center-negative,120–240VAC input.",
+      "status": "Unresolved official contradiction; do not select adapter from either alone or borrow GNX3 specs."
+    },
+    "next": "Inspect own manual indexed panel/specifications/routing before adding complete partial record; determine controls, live expression, blocks/categories, editor platforms separately from recording suite."
   }
 }
