@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Anagram",
-    "task": "Verify KosmOS1.18 memory areas, exact NAM architectures andfull category list;partial bass record andqualified exact offer saved.",
+    "task": "Anagram1.18.1 listed-category census andNAM concurrency claims saved. Next reconcile user-area capacity,Suite platforms andversion-specific NAM/native restrictions;full verification remains incomplete.",
     "next_models": [],
     "after_queue": "334 active,39brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66317,5 +66317,26 @@
       "Presetareas",
       "Visualcontrols"
     ]
+  },
+  "anagram_library_20261018": {
+    "source": "https://www.darkglass.com/pages/anagram-manual",
+    "version": "Online1.18.1;PDF1.17;earlierproduct1.18.0",
+    "counts": {
+      "preamps": 4,
+      "amps": 11,
+      "bass_cabinets": 22,
+      "guitar_cabinets": 6,
+      "artist_cabinets": 18,
+      "drive_distortion": 12,
+      "eq_filter_dynamics": 16,
+      "modulation_pitch": 11,
+      "delay_reverb": 8,
+      "utilities": 13
+    },
+    "total_listed_entries": 121,
+    "qualification": "Listedchoices includingcabinets/utilities/loaders/possiblelicensedcontent;not121simultaneousorfreefactoryalgorithms",
+    "conflict": "Basscab6micprosebut7named",
+    "NAM": "Exactproductclaims5A2Full/9A2Liteconcurrent;native/conversionandmixedDSPnotcertified",
+    "memory": "Do notmultiply126areasby126presetswithoutprimarycapacityproof"
   }
 }

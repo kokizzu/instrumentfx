@@ -37,3 +37,17 @@ Not live stock orcompleted sale. Original search URL carried advertising paramet
 
 [ANA-P]: https://www.darkglass.com/products/anagram
 [ANA-M]: https://api.darkglass.com/static/Anagram-Manual.pdf
+
+### Anagram — versioned block-list census and NAM claims
+
+Checked2026-10-18: [official online manual/block list](https://www.darkglass.com/pages/anagram-manual) now labels itself **v1.18.1**,while earlier indexed copy1.18.0 andPDF1.17 remain distinct. No firmware downloaded;list counts are a text audit,not installed-device verification.
+
+| Field | Current evidence / qualification |
+|---|---|
+| Processing / category choices | List has **4 preamps,11 amps,22 bass cabinets,6 guitar cabinets,18 artist cabinets,12 drive/distortion,16 EQ/filter/dynamics,11 modulation/pitch,8 delay/reverb,13 utilities**. Sum **121 listed entries**,includingIR variants,loaders/system blocks andpotential licensed content. Not121 unique conventional algorithms orsimultaneous blocks;installed license/library census unresolved. |
+| Processing / cabinet-list conflict | Bass-cabinet prose says6 microphones×6positions,butnames **7 microphones**(3condenser+4dynamic). Guitar section names6microphones×3positions. Do not silently collapse names orcalculate a definitive total IR library from the conflicting bass statement. |
+| NAM / published concurrent claims | [Current exact product](https://www.darkglass.com/products/anagram) advertises **5 NAM A2 Full or9 A2 Lite**,running side byside,andstandard-size NAM/AIDA-X support. These are manufacturer performance claims,not all-model/mixed-chain benchmarks. Native execution versusconversion,architecture restrictions andactual DSP budget still require precise versioned documentation. |
+| Looper / recording independence | Same exact product says loops continue across preset changes. This does not prove spillover forother effects orloop persistence afterpower-off;duration stillunverified. |
+| Factory / user memory limits |1.18 changelog's126 user areas isnot yetreconciled with1.17's126preset capacity. Do not multiply them toinvent15,876presets. |
+
+Full named block list remains linked rather than treated as guaranteed free factory content. Further work:memory areas,NAM architecture/limits,Suite platforms,plugin licensing,full manual/panel andqualified offers.
