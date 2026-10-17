@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee bass/vocal discovery",
-    "task": "B1Xnext mixed Hope Music lead parked: seven exact/identity searches found no item URL, selected variant or manufacturer confirmation of distinct model; no price/model added. Next inspect existing Zoom B1X original own manual for unresolved control/power/category fields, or continue fresh bass/vocal series discovery. No downloads/workflows/push.",
+    "model": "Zoom B1X original",
+    "task": "Own calibration, master/tuner reset and bypass/mute timing saved. Next reconcile46 named types with category/module totals including EQ/ZNR/AMP; preserve seller Next identity uncertainty. No downloads. Commit before next model.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56526,6 +56526,12 @@
         "https://zoomcorp.com/manuals/ms-60bplus-en/",
         "https://zoomcorp.com/media/documents/E_MS-60Bplus.pdf"
       ]
+    },
+    {
+      "model": "Zoom B1X original",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual calibration dn:raise/STORE then UP:fully press/release/STORE, Er repeat from raise. Master0–98/1.0 resets80; tuner435–445Hz resets440 at power-on. Bypass short dual press, mute >=1s; unavailable edit.",
+      "source": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf"
     }
   ],
   "discovery_cross_brand_bass": {

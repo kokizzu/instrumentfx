@@ -1895,3 +1895,7 @@ research-commit-g1xfour-followup:
 .PHONY: research-commit-gnx4
 research-commit-gnx4:
 	python3 scripts/research_tools.py commit-gnx4
+
+.PHONY: research-commit-b1x-original
+research-commit-b1x-original:
+	python3 scripts/research_tools.py commit-b1x-original

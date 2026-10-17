@@ -2789,6 +2789,10 @@ Checked 2026-10-17; partial. Bass-focused processor; ownership and guitar/vocal 
 | Live / patch preselect | Optional preselect chooses the next patch without changing sound;press both main switches to commit selection. Power cycle restores immediate switching. This is patch recall,not scene architecture. [Manual p16][B1XO-M] |
 | Preset / unsaved edits | Changing patches discards unsaved edits. Factory locations are read-only;STORE from a factory patch defaults to user A0. [Manual pp13–15][B1XO-M] |
 | Live / practice | **40 rhythm patterns**;REVERB/DELAY unavailable during rhythm playback. Looper/scenes unverified. [Manual pp25,27][B1XO-M] |
+| Field | Finding / qualification |
+|---|---|
+| Expression / calibration | Hold PEDAL ASSIGN while powering on: display **dn**; fully raise treadle and press STORE: **UP**; press fully down, release, then press STORE again. **Er** means repeat from the raised-pedal step. The displayed labels do not reverse the prescribed physical order. [Own manual p26][B1XO-M] |
+| Live / master and tuner persistence | Master level display spans **0–98, then1.0** and resets to **80 at power-on**; this is distinct from saved patch level. Tuner reference **435–445 Hz** resets to **440 Hz at power-on**. Briefly pressing both main switches selects bypass; holding at least1s selects mute, unavailable in edit mode. [Own manual pp6–9][B1XO-M] |
 
 ### Separate IDR hardware offers
 
