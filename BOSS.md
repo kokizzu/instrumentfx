@@ -2165,6 +2165,7 @@ Checked2026-10-17;partial. Own manual identifies guitar multi-effects. Bass/voca
 | Display | One-character7-segment LED plus luminous custom LCD;diagonal,color/touch unverified. | [Manual p33][ME30-M] |
 | Processing / categories | Compressor,OD/DS,EQ/Phaser,Noise Suppressor,Delay,Chorus/Flanger/Pitch Shifter/Tremolo,Reverb,amp simulator. Slash groups are alternatives;simultaneous ceiling and detailed choices pending. | [Manual p33][ME30-M] |
 | Preset memory | **30user+30preset=60patches**,plusManual settings. All30user locations initially duplicate the30presets;60locations do not mean60distinct factory sounds. | [Manual pp30,33][ME30-M] |
+| Categories / OD-DS | Sevenchoices:Vintage Overdrive,Warm Overdrive,Crunch,Blues,Hard Distortion,Metal Distortion,Fuzz. One type is selected withinOD/DS;these are not seven independent drive slots. | [Manual,OD/DS section][ME30-M] |
 | Categories / EQ-PH | EQ/PH selects **equalizer OR phaser**,not both. EQ hasindependentbass/middle/treble andoutputlevel adjustments(−14to+14displayvalues);do notinferdBunitsfromunlabelledvalues. Phaser controlsrate,depth,resonance(0–100). These are parameters,not extra effect slots. | [Manual p10][ME30-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. Ring modulation alone does not establish either. | Unresolved |
 | I/O | INPUT,L/MONO+R OUTPUT,AUX IN andheadphones(bothstereomini),adapterjack. Remaining physical jack dimensions pending. | [Manual p33][ME30-M] |
@@ -2172,6 +2173,7 @@ Checked2026-10-17;partial. Own manual identifies guitar multi-effects. Bass/voca
 | Dimensions / mass | **305W×205D×55H mm;1.5kg includingbatteries**. | [Manual p33][ME30-M] |
 | IR / NAM / capture | IR import,native/converted NAM and proprietary capture unverified. | Unresolved |
 | Editor / platforms | Official editor/current OS support unverified. | Unresolved |
+| Practice / Phrase Trainer | Records **up to12seconds mono from AUX IN**,withrepeatedplaybackandslowdown. Recording is discarded whenPhraseTrainerorunitisturnedoff. Delay,Modulation,Reverb andnormalexpressioneffectfunctionaretemporarilyunavailable;pedalcanadjustguitarlevel. This is anAUXpractice recorder,not proof of anindependentguitaroverdublooper. | [Manual p27][ME30-M] |
 | Looper / drums / live | Manual mode togglesindividualeffects. Some edits maynotpersistifpowercutwhileinManual;exitmodefirst. Looper,drums,scenes,spillover unresolved. | [Manual,Manual mode][ME30-M] |
 
 ### Separate IDR hardware offers
