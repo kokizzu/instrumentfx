@@ -124,6 +124,9 @@ Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Mi
 | K/F/B | 1 volume wheel/0 footswitches/8 buttons(AMP,EQ,EFFECTS,MODIFY±);separate power/Bluetooth slider. [Manual][MM-M] |
 | Display | Colored indicator LEDs;no screen in manual inventory. Diagonal/touch not applicable. [Manual][MM-M] |
 | Processing / choices | 12 amps;12 effect/combinations per manual and product features,versus **11 effect models** in product specifications. Conflict unresolved. Selected amp plus selected combination;full block ceiling unverified. [Manual][MM-M] [Product][MM-P] |
+| Processing / exact amp selections | Manual p4: **12**—65 Twin+Compressor,65 Deluxe,57 Twin,60s British,65 Deluxe+Greenbox OD,70s British,90s American,BB15 HighGain,FBE-100,Metal2000,Uber,Studio Preamp. Included compressor/overdrive are tied to those selections,not independently documented extra slots. [Manual][MM-M] |
+| Processing / exact effect combinations | Manual p5: **12**—Large Hall;65 Spring;Modulated Large Hall;Sine Chorus/Large Room;Triangle Flanger/Large Room;Vintage Tremolo/Spring;Vibratone/Large Room;Harmonic Tremolo/Large Room;Slapback Delay/Large Room;Tape Delay/Small Room;Sine Chorus/Mono Delay/Large Hall;2290 Delay/Large Room. Room/Hall/Spring denote reverb. Each entry is one selectable combination,not independent freely reorderable effects. Existing11/12count and HarmonicRoom/Hall conflicts remain. [Manual][MM-M] |
+| Live / Modify parameters | Manual p6: first3reverbs adjust reverb level;chorus depth;flanger depth;Vintage/Harmonic tremolo rate;Vibratone speed;Slapback/Tape/triple-combination delay level;2290 delay time. Each has5levels plus bypass;numeric parameter ranges unpublished in this table. [Manual][MM-M] |
 | Preset memory | User/factory/total memory count unverified;12 selectable amps are not12 user presets. |
 | Synth / acoustic / bass | Studio Preamp explicitly suited to bass/acoustic instruments. Acoustic simulator and synth unverified. [Manual][MM-M] |
 | I/O | Rotating¼inch input;⅛inch stereo phones;USB-C charging/recording/update;Bluetooth5.0 A2DP1.3.1. [Manual][MM-M] |
@@ -144,7 +147,7 @@ Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Mi
 
 <!-- comparison evidence ends -->
 
-Historical indexed asks checked2026-10-17,not checkout or current stock. Condition,variant,bundle,warranty,authenticity,shipping,tax,vouchers unresolved;no qualified used/new allocation. No files downloaded or images visually inspected. Exact algorithm lists and memory/software/import gaps remain.
+Historical indexed asks checked2026-10-17,not checkout or current stock. Condition,variant,bundle,warranty,authenticity,shipping,tax,vouchers unresolved;no qualified used/new allocation. No files downloaded or images visually inspected. Exact algorithm lists are preserved above;memory/software/import gaps remain.
 
 [MM-M]: https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf
 [MM-P]: https://intl.fender.com/products/mustang-micro

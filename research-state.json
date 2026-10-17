@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fender Mustang Micro",
-    "task": "Original Micro canonical record added;next preserve exact amp/effect lists and verify memory/editor/import limits;then fresh Shopee discovery. Retain 11/12effect and HarmonicRoom/Hall conflicts.",
+    "task": "Original Micro exact12amp/12effect-combination lists and Modify parameters saved. Next verify memory/editor/import limits via own support;then fresh Shopee discovery. Retain11/12count and HarmonicRoom/Hall conflicts.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery;all272 records partial;no downloads/workflows/push."
   },
@@ -56190,5 +56190,14 @@
     ],
     "offer_limits": "Historicalindexedasks checkedearlierOct17;not revalidatedthisturn. Conditions/stock/variants/bundles/vouchers/regioncosts unverified;noqualifiednewusedallocation.",
     "next": "Add root FENDER.md canonical record and inventory/memberships from this evidence;read full effect/amp list and retain conflicts. Verify expression/display/memory/import/software gaps;commit before nextmodel."
+  },
+  "mustang_micro_original_choices_checkpoint_20261017": {
+    "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf",
+    "revision": "2021 FMIC PN7721889000rev.c PR5833",
+    "pages": "4–6",
+    "amp_selections": 12,
+    "effect_combinations": 12,
+    "qualification": "Selectable combinations;no inferred free block routing. Product11effectspec and HarmonicRoom/Hall table conflict remain.",
+    "remaining": "Memory retention/user slots,editor/import/IR/NAM support,current qualified prices"
   }
 }
