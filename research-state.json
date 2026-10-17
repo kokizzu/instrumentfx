@@ -28,13 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Soran Go Rig B",
-    "task": "Initial partial product record saved;next readable original manual for controls/expression/routing/memory/USB specifics; then Tiny Stomp andDual Stomp separately.",
+    "model": "Soran Tiny Stomp",
+    "task": "Research own product andoriginal V1.0.0 manual plus exact Shopee195817632/9344664445;NAM nativevsconversion andAugust2026A2notes need primary checks. Go Rig B originalmanual deferred pending new source,all gaps retained.",
     "next_models": [
-      "Soran Tiny Stomp",
       "Soran Dual Stomp"
     ],
-    "after_queue": "Continue Shopee bass/vocal discovery;317 active before Soran promotion;all prior technical/market/ownership/migration gaps remain."
+    "after_queue": "318active;continue market/technical/ownership/migration work;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41974,7 +41973,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Soran Go Rig B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Soran Tiny Stomp."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -65296,5 +65295,31 @@
       "VoiceTone H1/E1/C1/X1 exact offers found; dedicated-purpose eligibility must be checked, not automatically active",
       "No BP200 or original506 hardware result accepted from unrelated search noise"
     ]
+  },
+  "soran_gorigb_manual_followup_20261018": {
+    "status": "Electrical primary fields saved;original manual still inaccessible",
+    "sources": [
+      "https://soranaudio.com/products/25.html",
+      "https://www.soranaudio.com/cn/products/15.html"
+    ],
+    "findings": [
+      "48kHz24-bit processing; English AD vs Chinese DA label preserved without inventing ADC/DAC pair",
+      "Impedance/noise/dynamic-range figures preserved without assuming unlabelled conditions",
+      "Chinese4.5h does not silently resolve English5h overview"
+    ],
+    "failed_original_routes": [
+      "https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260729/17852891772300321.pdf",
+      "https://www.soranaudio.com/upload/files/article/20260729/17852891772300321.pdf",
+      "https://manuals.plus/m/1c7dd0603a11fd1b56bbc290508b95bfefbd7d590e1acfd74ca2d1b19a1be5b4.pdf",
+      "https://manuals.plus/m/df4ba10d770324562a2e615a6ab30337408bd6035be9b66228e47d398d68df60.pdf",
+      "https://manuals.plus/m/8f19f2bfc2bfcf66783bde688eac998348b84fb3b1f67101a1a866bcf6b3fa97.pdf",
+      "https://device.report/m/8f19f2bfc2bfcf66783bde688eac998348b84fb3b1f67101a1a866bcf6b3fa97_optim.pdf",
+      "https://device.report/m/df4ba10d770324562a2e615a6ab30337408bd6035be9b66228e47d398d68df60_optim.pdf"
+    ],
+    "unaccepted_conversion_leads": [
+      "https://manuals.plus/m/1c7dd0603a11fd1b56bbc290508b95bfefbd7d590e1acfd74ca2d1b19a1be5b4",
+      "https://device.report/manual/20620131"
+    ],
+    "remaining": "Original controls/expression/USB/routing/memory;do not turn mirror summary claims into verified facts"
   }
 }

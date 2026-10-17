@@ -36,3 +36,17 @@ Official support lists Go Rig B V1.0.0 manual,but linked PDF returned403. Manufa
 [S]: https://shopee.co.id/SORAN-GO-RIG-B-Portable-Bass-Multi-Effects-Stompbox-Pedal-%E2%80%93-Original-i.945642322.56262097023
 
 Official manual listing: https://www.soranaudio.com/Download.html . Inaccessible linked manual: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260729/17852891772300321.pdf .
+
+### Electrical specification and manual-access follow-up
+
+Checked2026-10-18. Manufacturer English product table and [Chinese product table][CN] independently identify this Go Rig B;matching dimensions,capacity andmodel-specific bass features.
+
+| Field | Published qualification |
+|---|---|
+| Audio conversion / processing | 48kHz;24-bit signal processing. English table labels24-bit **AD converter**,Chinese labels **数模转换器** (digital-to-analog converter). Preserve the localization difference;do not assert a separately verified matched ADC/DAC pair orUSB wordlength. [P],[CN] |
+| Audio levels / ports | Input impedances470kohm/1kohm;output10kohm/600ohm in the table’s listed order. No explicit per-connector mapping beyond table order. Noise−98.7dBu,dynamicrange96.5dB,response20Hz–20kHz;test conditions not provided. [CN] |
+| Power / source conflict | Chinese page repeats up to4.5h;English overview’s5h remains unresolved. Published160mA is consumption,not a charger rating;charge current andcharge-while-playing remain unverified. [P],[CN] |
+
+Original-manual access audit: official PDF403;manufacturer-domain alternate inaccessible;three Manuals+ original-PDF routes andtwo device.report optimized-PDF routes failed. Converted summaries disagree oromit details,so their control counts,USB format/OS andheadphone claims are not promoted. Future work should obtain readable original text rather than repeat these same failed routes. No files saved orsoftware installed.
+
+[CN]: https://www.soranaudio.com/cn/products/15.html
