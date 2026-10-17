@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS ME-30",
-    "task": "ME-30 fivefootswitchesverified;remainingrotary/button/toe,delay/modulation,simultaneousceiling,polarityandothergapsdeferred. Continue fresh Shopee discovery for eligible unrecorded hardware.",
+    "model": "Korg AX100G",
+    "task": "New four-model Shopee lead saved,soldout;price mapping unresolved. Seek variant-resolved hardware offer and verify own Korg manual before root model addition. Never infer AX100G from AX1000G or range endpoints.",
     "next_models": [],
-    "after_queue": "Continue fresh Shopee discovery. GT-5 and RFX-2000 technical gaps remain deferred. No downloads,workflows or push."
+    "after_queue": "Continue Shopee discovery;ME-30,GT-5,RFX-2000 gaps remain deferred. No downloads,workflows or push."
   },
   "new_findings": [
     {
@@ -53981,5 +53981,54 @@
     "finding": "ThreeNUMBER plusBANKDown/BANKUp=5footswitches;rotary/button totals andtoe switch still unknown.",
     "access": "Manufacturer-indexed panel description,not direct visual inspection. Delay/modulation searches still returned sibling results,which were not adopted.",
     "remaining": "Rotary/button counts,toe/external expression,delay/modulation details,simultaneous ceiling,polarity,display and software/IR/NAM gaps deferred."
+  },
+  "discovery_ax100g_20261017": {
+    "checked_date": "2026-10-17",
+    "model": "Korg AX100G",
+    "url": "https://shopee.co.id/Efek-Gitar-Korg-AX100G-AX1500G-AX3000G-AX3G-i.22551702.3568008855",
+    "seller": "jonimusic",
+    "shop_id": "22551702",
+    "item_id": "3568008855",
+    "region": "Kota Tangerang Selatan",
+    "stock": "Habis in direct browser text,crawled2monthsago;not current-stock confirmation.",
+    "variant_models": [
+      "AX100G",
+      "AX1500G",
+      "AX3000G",
+      "AX3G"
+    ],
+    "listing_range_idr": [
+      899900,
+      2299900
+    ],
+    "model_specific_price_idr": null,
+    "price_limit": "Fourmodel listing;variant-to-price mapping not exposed. Neither range endpoint is assigned to AX100G.",
+    "condition": "Unverified",
+    "qualifications": "Bundle,adapter,workingcondition,authenticity,warranty,shipping,tax andvouchereligibility unverified. Rp10000late-arrivalvoucheriscompensation,notdiscount.",
+    "next": "Seek variant-resolved AX100G offer and own Korg manual;do notborrow AX1000G/AX1500G specifications.",
+    "search_pass": {
+      "models": [
+        "BOSS ME-8B",
+        "DigiTech BP200",
+        "TC-Helicon VoiceLive Touch",
+        "DigiTech Vocalist Live",
+        "DigiTech Vocal300",
+        "DigiTech BP80",
+        "BOSS ME-33",
+        "Zoom506",
+        "ZoomGFX8"
+      ],
+      "result": "No new exact processor hardware resolved for these models in this limited pass;not market-absence evidence.",
+      "rejected": [
+        {
+          "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+          "reason": "Adapteronly,not Vocalist/BP200 hardware."
+        },
+        {
+          "url": "https://shopee.co.id/Anting-Emas-17K-Mouve-ME-33-Amero-Jewellery-i.1286849454.24747797220",
+          "reason": "Jewellery,not BOSS ME-33."
+        }
+      ]
+    }
   }
 }
