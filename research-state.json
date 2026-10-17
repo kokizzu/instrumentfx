@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Mighty Plug MP-2",
-    "task": "MP-2 partial record added from own V2 product;next resolve own-manual panel/power/dimensions and category names before deferral;queued Fender Micro Plus and Dapper Amp Mini retained.",
+    "task": "MP-2 regional battery/current/dimensions saved with runtime conflict. Next preserve named V2 category choices and audio-driver distinctions,then defer remaining panel-only gaps and proceed queued Mustang Micro Plus.",
     "next_models": [
       "Fender Mustang Micro Plus",
       "Valeton Dapper Amp Mini"
@@ -55810,5 +55810,12 @@
     "access": "6pages,no substantive text;no visual/download.",
     "resolution_correction": "512sample confirmed in own exact-model feature bullet independently from MightyAircopy;19IRs listed.",
     "remaining": "Panel controls/expression/display,completeIO,power/dimensions/mass,memorysplit,simultaneous/order/import/editorOS,firmwarerevision,qualifiedprices."
+  },
+  "mp2_regional_checkpoint_20261017": {
+    "source": "https://www.ariaguitars.com/jp/items/other-brands/nux/amplifier/mighty-plug/",
+    "linked_manual": "https://www.ariaguitars.com/jp/items/docs/mp2_manual.pdf",
+    "saved": "Exact MP-2 power/battery,dimensions/mass;3h regional vs4h manufacturer runtime;11includingmetronome vs10+metronome retained.",
+    "qualification": "Regional distributor page;current official manual revision equivalence unverified.1pagePDFno text. Converted mirror panel/reset summary not adopted.",
+    "remaining": "Panel/expression/display/fullIO,charginginput/playwhilecharging,memorysplit/simultaneous/order,IRimport/desktopeditor and qualified current conditions."
   }
 }

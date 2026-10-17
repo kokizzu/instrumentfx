@@ -920,10 +920,11 @@ Checked2026-10-17;partial. Own product explicitly supports guitar/bass;separate 
 | Preset memory | V2:7 presets,QR sharing;factory/user split unresolved. [Product][MP2-P] |
 | Synth / acoustic | Electric-to-acoustic IR simulation documented;dedicated synth unverified. [Product][MP2-P] |
 | I/O | Micro-B USB audio;headphone monitoring mixes guitar/computer playback. Full connector inventory/sizes unresolved. [Product][MP2-P] |
-| Power / battery / USB | Rechargeable lithium battery;claimed4h. Voltage/capacity,current,charging/USB-powered operation unresolved. [Product][MP2-P] |
-| Dimensions / mass | Dimensions/mass unverified. [Product][MP2-P] |
+| Power / battery / USB | **3.7V/1000mAh LiPo;190mA draw**,Aria exact MP-2 table. Aria claims approximately3h operation;NUX current page4h. Test conditions/revision mapping unresolved. Charging input/current and USB-powered operation unverified. [Aria][MP2-A];[Product][MP2-P] |
+| Dimensions / mass | Aria exact MP-2 specification: **81L×41W×30Hmm;62g**. Regional distributor evidence;current manufacturer PDF revision equivalence unresolved. [Aria][MP2-A] |
 | IR / NAM / capture | Own feature list:19IRs,512samples. IR prose erroneously names Mighty Air;independent exact-model feature bullet supports512. User import/NAM/capture unresolved. [Product][MP2-P] |
 | Editor / platforms | MightyAmp iOS/Android;desktop editor unverified. Firmware2.3 Windows/macOS updater is distinct. [Product][MP2-P] |
+| Live / regional drum qualification | Aria says11 rhythm types including metronome;NUX says10patterns plus metronome. These may describe the same total,not11drum patterns plus another metronome. [Aria][MP2-A];[Product][MP2-P] |
 | Live / practice | 10drum patterns+metronome. ECO:off after2min without headphones or6min without guitar/Bluetooth/USB signal. Looper/scenes unverified. [Product][MP2-P] |
 
 ### Separate IDR hardware offers
@@ -945,3 +946,7 @@ Official own manual6pages has no substantive extracted text;no visual verificati
 [MP2-O1]: https://shopee.co.id/NUX-MP2-MP-2-MP-2-Mighty-Plug-Guitar-And-Bass-Amplug-With-Bluetooth-ORIGINAL-i.130137603.3008444335
 [MP2-O2]: https://shopee.co.id/NUX-MP2-Mighty-Plug-Headphone-Guitar-Amplifier-MP-2-Amplug-i.250276993.25710410858
 [MP2-O3]: https://shopee.co.id/NUX-MP2-Mighty-Plug-Headphone-Guitar-Amplifier-MP-2-Amplug-i.71552895.25110576797
+
+[MP2-A]: https://www.ariaguitars.com/jp/items/other-brands/nux/amplifier/mighty-plug/
+
+Aria links mp2_manual.pdf(one page,no extracted text);no visual equivalence claimed. A Manuals+ converted summary was located but panel/reset claims were not adopted without readable manufacturer body. Regional specification page used for the qualified measurements above;no download.
