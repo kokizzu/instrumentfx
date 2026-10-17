@@ -76,6 +76,17 @@ Checked 2026-10-18.
 |---|---|
 | IDR / conflicting indexed and reopened asks | Shop1087619206/item22664158485: search index showed **Rp3.371.200**, three-month crawl, Donner Official Store, Jakarta Barat. Opening the [same item](https://shopee.co.id/Donner-Arena-2000-Pedal-Multi-Efek-Gitar-i.1087619206.22664158485) returned **Rp4.257.000**, **Habis**, **Dengan Voucher**, spend Rp1,5JT / 1% off, three-day crawl. Keep both snapshots; the index amount does not supersede the qualified reopened observation. Seller name is not independent authentication. Condition, selected variant, bundle, warranty, current checkout stock, voucher eligibility, shipping/tax and delivered total remain unverified. Relative delivery and late-arrival compensation are not stock or discount proof. No used/new classification established. |
 
+
+### Arena2000 — original manual operating limits
+
+Checked 2026-10-18 against the previously identified manufacturer-authored 2022 manual.
+
+| Field | Evidence / qualification |
+|---|---|
+| Preset storage / controls | STORE saves tone, CTRL and EXP settings to a preset (pp10–11). This confirms per-preset control storage, but not a separate factory/user split or overwrite protection. [Manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) |
+| Expression / calibration | External EXP requires calibration. Toe-switch force is adjustable during EXP1 calibration; overly light force can trigger switching at maximum travel. External expression or dual bank switch uses TRS; connect cable to pedal before the unit when changing pedal type. Avoid multiple states controlling the same parameter (p11). [Manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) |
+| Looper / drums | Loop records after effects; footswitch C can exit while retaining loop operation and preset switching. Drums span **40–240 BPM**, independently of preset BPM; this does not prove loop synchronization (p12). [Manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) |
+| I/O / electrical ratings | **44.1 kHz, 24-bit AD/DA**. Input **1.85 V / 470 kΩ**; AUX **2.3 V / 10 kΩ**. Unbalanced output **2.6 V / 100 Ω**; balanced **2.4 V / 200 Ω**; phones **1.2 V / 10 Ω**. Voltage convention unspecified (p15). [Manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) |
 <!-- comparison evidence ends -->
 
 ### Arena2000 — complete dated original finding

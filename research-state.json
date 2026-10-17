@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Donner Arena2000",
-    "task": "Saved Arena2000 same-item search/reopen price conflict. Continue Shopee brand/series discovery beyond tested legacy Zoom/Korg/DigiTech frontier; if no qualified new hardware, improve Arena2000 category counts or preset overwrite rules using original manufacturer-authored manual. No downloads; commit before next model.",
+    "task": "Arena2000 original manual operating limits saved. Next seek manufacturer Arena2000 effect-list/category document or preset save/overwrite documentation; the 19-page2022 manual has no complete category census. Preserve total278/subcount conflict and body mass conflict. If inaccessible, resume Shopee discovery for unrecorded models. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56806,6 +56806,12 @@
       "checked_date": "2026-10-18",
       "finding": "Same Shopee item1087619206/22664158485 search3371200 versus reopened4257000 Habis with voucher spend1.5JT/1%; retain conflicting snapshots without current stock or used/new inference.",
       "source": "https://shopee.co.id/Donner-Arena-2000-Pedal-Multi-Efek-Gitar-i.1087619206.22664158485"
+    },
+    {
+      "model": "Donner Arena2000",
+      "checked_date": "2026-10-18",
+      "finding": "Original2022 manual: per-preset tone/CTRL/EXP storage; external pedal calibration and adjustable EXP1 toe force; post-effects loop with preset switching; drum40–240BPM independent of preset;44.1k24bit and analog electrical ratings. Factory/user split and overwrite protection unresolved.",
+      "source": "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf"
     }
   ],
   "discovery_cross_brand_bass": {
