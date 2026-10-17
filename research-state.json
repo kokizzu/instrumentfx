@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 284,
+  "active_model_count": 285,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 284,
+  "canonical_root_model_count": 285,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "284 unique active/root-canonical;0 legacy-only;32 brands;6 excluded;all partial. RFX-1000 guitar/vocal; bass unclassified.",
+  "count_reconciliation": "285 unique active/root-canonical;0legacy-only;32brands;6excluded;allpartial. MS80IRPlus guitaronly;no inferredbass/vocal.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery after MP-350 manual qualification",
-    "task": "MP-350 scene/bypass/DSP limits saved;1.4.0 effectlist stillunverified. Resume new exact hardware discovery or othermodel primary gaps;do not repeat inaccessible support link without new access method.",
+    "model": "Zoom MS-80IR Plus",
+    "task": "Initial guitar multi-effects record added. Next read1.10supplement andexacteffectlist;distinguish amp/studio/effect limits andIRLoader fromfullpatcheditor.",
     "next_models": [],
-    "after_queue": "284partialmodels;no downloads/workflows/push."
+    "after_queue": "285partialmodels;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23940,7 +23940,8 @@
       "606",
       "607",
       "B1X original",
-      "RFX-1000"
+      "RFX-1000",
+      "MS-80IR Plus"
     ],
     "DigiTech": [
       "RP360XP",
@@ -24149,7 +24150,8 @@
       "606",
       "607",
       "B1X original",
-      "RFX-1000"
+      "RFX-1000",
+      "MS-80IR Plus"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -24365,7 +24367,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 234,
+      "record_count": 235,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41337,10 +41339,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 284,
-    "canonical_root_models": 284,
+    "unique_brand_model_pairs": 285,
+    "canonical_root_models": 285,
     "legacy_only_models": 0,
-    "guitar_view_models": 234,
+    "guitar_view_models": 235,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
     "vocal_view_models": 56,
@@ -41400,7 +41402,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery after MP-350 manual qualification."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom MS-80IR Plus."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41589,6 +41591,7 @@
       "Zoom::RFX-2000",
       "Zoom::606",
       "Zoom::RFX-1000",
+      "Zoom::MS-80IR Plus",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -43680,6 +43683,13 @@
     },
     "Zoom::RFX-1000": {
       "link": "ZOOM.md#rfx-1000",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::MS-80IR Plus": {
+      "link": "ZOOM.md#ms-80ir-plus",
       "source_files": [
         "ZOOM.md"
       ],
@@ -57412,5 +57422,23 @@
     "unverified": "USBbypass hoststream behavior;1.4.0list contents",
     "source_access": "No browser surfaces available;dynamic support document links not exposed inwebtext",
     "downloaded": false
+  },
+  "ms80ir_primary_20261017": {
+    "manual": "https://zoomcorp.com/manuals/ms-80irplus-en/",
+    "identity": "©2024 Z2I-5301-02",
+    "product": "https://zoomcorp.com/en/de/multi-effects/multistomp-pedals/ms-80ir/",
+    "support": "https://zoomcorp.com/en/ca/multi-effects/multistomp-pedals/ms-80ir/ms-80ir-plus_support/",
+    "eligibility": "Oneamp+onestudioambience+oneothereffect,threeprocessing slots",
+    "offer": "https://shopee.co.id/ZOOM-MS-80IR-MultiStomp-Amp-Cabinet-Modeller-Pedals-i.1030145984.26826283496",
+    "remaining": [
+      "Firmware1.10 IRsupplement",
+      "Named category inventory",
+      "Separate switch/button counts",
+      "Factoryfilledmemory",
+      "IRformats",
+      "Display diagonal/touch",
+      "Condition-qualified offers"
+    ],
+    "downloads": false
   }
 }

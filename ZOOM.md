@@ -2410,3 +2410,39 @@ Checked2026-10-17 against [own manual][R1K-M],pp7–15.
 “+” means serial;“/” places first effect left,reverb right. Delay alone≤1486ms;both delay/reverb combinations≤743ms,fixed feedback. CHO+REV fixes rate;FLG/REV fixes depth.
 
 Reverb selections1–9 offer11 character choices;Gate/Reverse instead adjust threshold/sensitivity. Preserve advertised363 selector combinations without treating everyposition as an independent named patch. Mix&SFX generally recommends fully wet output. Cabinet Sim models combo/stack tone;user IR import remains unverified.
+
+## MS-80IR Plus
+
+**MS-80IR+**,checked2026-10-17;partial. [Own HTML manual][M80-M],©2024,Z2I-5301-02;[own product][M80-P]. Not MS-50G+ or MS-200D+.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No integrated treadle;external EXP/toe unestablished. |
+| Controls | **4 encoders**;main footswitch+Cross Key switches documented. Exact separate foot/button count unresolved;no visual audit. |
+| Display | **160×128 LCD**,category-colored backlight;diagonal/touch unknown. Backlight color is not full-color pixel proof. |
+| Processing / choices | **1 amp+1 studio ambience+1 other effect**,maximum3. Product lists **23 amps(16 modeled+7 originals),5 studio effects,12 other effects**;firmware-matched enumeration pending. |
+| Presets | **80 user patch memories**;factory-filled subset unknown. |
+| Synth / acoustic | Dedicated synth/acoustic conversion unknown. |
+| Dimensions / weight | **133D×79W×61Hmm;369g without batteries,416g with**. |
+| I/O | Quarter-inch mono L/R inputs;stereo L/MONO/phones output,mono R output;USB-C;DC. Shared phones socket,not separate headphone jack. |
+| Power | **9VDC500mA AD-16,centre-negative;2AA;USB bus power supported**. Actual draw unknown. Alkaline estimate3.5h mono/3h stereo,not guaranteed. |
+| IR / NAM / captures | Product advertises **80 user IRs**;Multi-Layer IR uses3 recorded levels. NAM/capture unestablished;IR-loader firmware/format details pending. |
+| Editor / platforms | Handy Guitar Lab **iOS/iPadOS**;[support index][M80-S] lists separate IR Loader **Windows10/11,macOS13–26**,not proof of full desktop patch editing. |
+| USB / MIDI | **2-in/2-out,44.1kHz/32bit** interface;USB MIDI patch changes. Not inferred from connector alone. |
+| Looper / drums / routing | Looper/drums/scenes unknown. Output Splitter sends with/withoutIR signals separately. |
+| Instrument scope | Own guitar model; bass/vocal unclassified. |
+
+### MS-80IR+ — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used | Unknown | — |
+| New | Unknown | — |
+| Unverified / GALERI MUSIK SIMFONI_PIM,Kota Jakarta Selatan | **Rp3.242.400,Habis**,shop1030145984/item26826283496. Checked2026-10-17;two-month index,directopenfailed. Condition,stock,selectedvariant,bundle,adapter,warranty,voucher,shipping/tax unknown. Relative arrival text notstockproof. | [Shopee][M80-O] |
+
+[M80-M]: https://zoomcorp.com/manuals/ms-80irplus-en/
+[M80-P]: https://zoomcorp.com/en/de/multi-effects/multistomp-pedals/ms-80ir/
+[M80-S]: https://zoomcorp.com/en/ca/multi-effects/multistomp-pedals/ms-80ir/ms-80ir-plus_support/
+[M80-O]: https://shopee.co.id/ZOOM-MS-80IR-MultiStomp-Amp-Cabinet-Modeller-Pedals-i.1030145984.26826283496
+
+No downloads orvisual inspection. Firmware1.10 supplement listed butnot yet read;do not assume initialmanual covers allIR-loading changes.
