@@ -84,6 +84,9 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg101/) · [Source 2](htt
 | Power | **9V center-negative**,required current unverified;battery/USB operation not established. Input cable required for power-on per manual. |
 | Software / audio / practice | QuickTone **Windows/macOS**,USB audio/reamp;60s looper;56 rhythms. |
 | IDR | Used/new current qualified offers ?. |
+| Firmware / editor / drivers | Checked2026-10-17:[global product](https://nuxaudio.com/product/mg300/) lists original MG-300 EN **4.02.23**,QuickTone **2.4.12.27** Windows/macOS;ASIO3.29.0 Win7/5.30.0 Win10+. Global firmware explicitly excludes domestic hardware. Installed version,minimum editor OS and regional identification remain unresolved. |
+| Expression assignments | Product documents WAH filter;EFX drive gain orPitchBender pitch;AMP level;MOD/DLY/RVB mix,plusvolume. This does not resolve toe-switch behavior. [Global product](https://nuxaudio.com/product/mg300/),checked2026-10-17. |
+| I/O / source conflict | Global MLD Bass Amp paragraph claims MIC input/reverb,also repeated onNBP-5 page. It conflicts with the retained original manual port inventory;do not infer mic input orvocal membership. V4 bass cab names TRC410,DB810,SV810 are separately documented. [Product](https://nuxaudio.com/product/mg300/),checked2026-10-17. |
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source original MG-300 fields

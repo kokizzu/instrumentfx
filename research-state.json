@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh bass/vocal discovery",
-    "task": "Search eligible unrecorded bass/vocal multi-effects by brand/series. NBP-5 screened as dedicated bass preamp/DI;do not promote from gate/IR or repeated MIC marketing text alone. All exact saved offers remain deduplicated.",
+    "model": "NUX MG-300 original",
+    "task": "Verify original hardware concurrent/category counts and factory/user memory from exact manual/effect list;retain regional firmware restriction and reject unsupported MIC marketing paragraph. Do not borrow MKII GEN2 specifications.",
     "next_models": [],
-    "after_queue": "Technical coverage and lossless migration audit remain incomplete. No downloads/workflows/push."
+    "after_queue": "Bass/vocal discovery and migration audit remain incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41739,7 +41739,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Harmony Singer 2 / bass-vocal discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-300 original."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52036,6 +52036,16 @@
       "access": "Manufacturer-hosted search-index text;direct open502. Full PDF not inspected.",
       "finding": "Primary indexed text corroborates ground lift,hold bypass,9V >300mA optionalPowerPlug9,fourAA. Not verified revision equivalence or firmware applicability.",
       "remaining": "Full original PDF/panel and exact revision applicability;other unresolved fields retained."
+    },
+    {
+      "model": "NUX MG-300 original",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://nuxaudio.com/product/mg300/",
+        "https://cn.nuxaudio.com/product/mg300/"
+      ],
+      "finding": "Global original firmware4.02.23,editor2.4.12.27,ASIO versions,region restriction,expression assignments and unsupported repeated MIC marketing text saved.",
+      "remaining": "Concurrent/category totals,preset split,power current,display,toe,synth/acoustic,exact offers;regional hardware identity required."
     }
   ],
   "discovery_cross_brand_bass": {
