@@ -139,6 +139,21 @@ Checked 2026-10-18 against the [current manufacturer product/software page](http
 | Editor / hardware plug-in bitness | Lexicon explicitly limits the **PC/Mac hardware plug-ins to 32-bit**. This does not establish 64-bit DAW compatibility, a supported bridge, current OS support or the standalone MX-Edit application’s bitness. USB remains hardware control; audio routing through an external interface is documented above. The product is marked discontinued; the April2026 document upload dates are not new software releases. |
 | Processing / dynamics signal path | **Compressor and De-Esser do not pass dry audio**; in **Dual Stereo configuration their effects are mono**. Their stereo descriptions therefore do not establish stereo operation in every configuration. Use this routing qualification alongside the existing four-processor ceiling; no additional effect slots implied. |
 
+
+### MX400 — manual effect-description census
+
+Checked 2026-10-18 against the [18-0446V-F manufacturer manual, printed pp19–28](https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf). Counts below derive from named descriptions, not a firmware menu capture or simultaneous capacity.
+
+| Field | Named choices / qualification |
+|---|---|
+| Processing / reverb descriptions | **17**: Small/Large/Vocal/Drum/Surround Hall; Small/Large/Vocal/Drum Plate; Room, Chamber, Gated, Reverse, Ambience, Studio, Arena, Spring. Surround Hall consumes the entire DSP as documented above. |
+| Processing / delay descriptions | **7**: Studio, Mono, Tape, Pong, Modulated, Reverse, 2-Tap. |
+| Processing / dynamics descriptions | **2**: Compressor, De-Esser. |
+| Processing / modulation descriptions | **8**: Chorus, Flanger, Phaser, Tremolo/Pan, Rotary, Vibrato, Pitch Shift, Detune. Tremolo/Pan is one named description, not two additional processors. |
+| Live / reverb adjustment | Changing reverb **Size temporarily mutes audio**. This specific parameter behavior is not evidence of preset-change spillover or general dropout-free editing. |
+
+The derived **34 descriptions include configuration-dependent effects**. They do not establish all choices being available in every slot/routing. Program-bank accounting remains unresolved; do not turn this census into a preset count.
+
 <!-- comparison evidence ends -->
 
 Cached hardware asking price, not live stock or completed sale. Seller “Original/Ori” wording does not verify authenticity or revision. Used/new condition,actual MX400 versus XL/voltage variant,bundle,mains cable,warranty,shipping/tax,voucher eligibility and working state remain unverified. Relative “tomorrow” delivery does not override explicit Habis. Late-arrival compensation up to Rp10,000 is not a purchase discount.

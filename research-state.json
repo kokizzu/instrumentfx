@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX400",
-    "task": "MX400 hardware-plugin32-bit limitation and dynamics routing saved. Standalone editor bitness/current OS, bank totals, category census and visual controls remain unresolved. Continue exact Shopee discovery or primary gaps without downloads.",
+    "task": "MX400 manual effect-description census saved;34 descriptions are configuration-dependent, not simultaneous slots. Reverb Size mutes temporarily. Bank accounting, standalone editor bitness/current OS and visual control corroboration remain open. Next fresh Shopee discovery or other incomplete primary fields.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57897,6 +57897,12 @@
         "https://lexiconpro.com/en-US/products/mx400/downloads_and_docs",
         "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf"
       ]
+    },
+    {
+      "model": "Lexicon MX400",
+      "checked": "2026-10-18",
+      "finding": "Derived34 named manual descriptions:17reverb/7delay/2dynamics/8modulation, not per-slot availability or simultaneous ceiling. Reverb Size adjustment temporarily mutes; bank accounting unresolved.",
+      "source": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf"
     }
   ],
   "discovery_cross_brand_bass": {
