@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)
 
-**Seven active profiles:** FV04 vocal processor added2026-10-17; FV03 vocal processor added2026-10-17; FB200 bass processor added2026-10-17; FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
+**Eight active profiles:** FG200 guitar processor added2026-10-17; FV04 vocal processor added2026-10-17; FV03 vocal processor added2026-10-17; FB200 bass processor added2026-10-17; FV02 vocal processor added2026-10-17; existing FX100 and FX200 consolidated with their original2026-10-14 evidence; **FX150 newly researched2026-10-15**. Battery suffixes are separate hardware variants, not automatically included by a standard-model record. **FV01 remains explicitly excluded.**
 
 The [official multi-effects collection](https://www.flamma.shop/collections/multi-effects), [manufacturer catalogue](https://flammainnovation.com/shop.html?ancestors=0%2C1256) and [manual/software index](https://www.flamma.shop/pages/manual) establish additional families for research. They do not prove Indonesian stock or complete specification verification. Unknown is `?`, not No; K/F/B counts rotary controls, main footswitches and separate buttons, excluding encoder presses/toe/power switches counted separately.
 
@@ -433,3 +433,45 @@ Remaining: actual unit revision/current/polarity label and phantom direction,vis
 [FV4-N]: https://device.report/m/1e636db1db6036e8e200c49e037612416b48dca55693d31e2970ac40d2731c67
 [FV4-I]: https://www.flamma.shop/pages/manual
 [FV4-D]: https://flammainnovation.com/download.html
+
+## FG200
+
+Checked **2026-10-17**; partial. Guitar multi-effects strip; distinct from FB200. Bass/vocal membership unverified; a Bassman guitar-amp model is not evidence of bass support.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No pedal or EXP socket in complete panel inventory; toe not documented. [Manual][FG2-M], pp04–06 |
+| Rotary / footswitches / buttons | **16 / 4 / 0** derived:Gate1,Boost1,Amp6,Cab1,Mod2,Delay2,Reverb2,Master1;A–D switches. Power slider separate; image verification pending. [Manual][FG2-M], pp09–10 |
+| Display | Three-character numeric display; diagonal,color,touch unverified. Ambient RGB strip is not a color screen. [Manual][FG2-M], p03 |
+| Dimensions / weight | **311×67.5×49.7 mm;578 g**; axes/accessory inclusion unspecified. [Manual][FG2-M], p27 |
+| Simultaneous processing / categories | Seven named fixed modules:Gate,Boost,Amp,Cab,Mod,Delay,Reverb; maximum simultaneous processing/reordering unverified. Original library **5 Boost,52 Amp,16 Cab,12 Mod,5 Delay,5 Reverb**. Model choices are not simultaneous blocks. [Product][FG2-P] |
+| Firmware-qualified model changes | Index notes **v1.2.1 adds14 Boost models and preset-mode delay tap**; **v1.2.5 adds compression to Gate**. Do not present original5 Boost as firmware-current total or infer every installed unit is updated. Download index separately lists1.2.6 installers; full reconciliation pending. [Software index][FG2-I]; [Download index][FG2-D] |
+| Factory / user / total presets | **40 writable slots**; factory-filled subset unverified,not40 factory plus40 user. [Product][FG2-P] |
+| Synth / acoustic simulation | Each unverified; modulation/filter/amp names do not establish either. |
+| IR / NAM / capture | **9 user IR slots**; WAV,44.1kHz,24-bit,512 samples; other source sample rates accepted. Native NAM,converted NAM and proprietary capture loading individually unverified. [Product][FG2-P] |
+| Audio / control I/O | Mono6.35mm input/output;3.5mm stereo phones;USB-C charging/OTG;Bluetooth5.0 playback. No mic,aux,EXP,MIDI DIN or loop in panel inventory. [Product][FG2-P]; [Manual][FG2-M], pp05–06 |
+| Power / battery / USB | **2000mAh lithium**,up to6h,about2.5h charge; **5V/2A,USB-A-to-C charging only**. Draw,USB-only operation and simultaneous charge/play unverified; no barrel polarity assigned. [Product][FG2-P] |
+| Editor / platforms / drivers | FLAMMA mobile app for editing/cloud; product also claims PC editing. Index lists **Mac/Windows1.2.5** desktop tools,older1.1.7; full desktop-editor scope versus IR/updater and exact OS versions unresolved. App Store/Google Play links establish mobile-platform distribution,not supported OS versions. [Product][FG2-P]; [Software index][FG2-I] |
+| USB audio | OTG recording/monitoring documented; rates,bit depth,channel count,dry routing and desktop drivers unverified. IR format does not define USB audio format. [Manual][FG2-M], pp08,16 |
+| Looper / live features | Live/Preset modes;40 drum patterns,tuner. Master excludes Bluetooth playback volume; use source-device volume. Looper,scenes,spillover unverified. [Manual][FG2-M], pp11–16 |
+| Used IDR | **?** No condition-qualified used offer established. |
+| New IDR | **?** Exact sold-out ask below lacks explicit new-condition evidence. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee hardware evidence
+
+Checked **2026-10-17**: [Asia Pro Sound,shop703046367/item49152335867](https://shopee.co.id/Flamma-FG200-FG-200-FG-200-Intelligent-Multi-Effects-Processor-i.703046367.49152335867),Kota Bekasi: **Rp1,386,000,Habis** in two-month index. Direct reopening failed. Sale/working condition,installed firmware,selected variation,bundle/charger,warranty,shipping/tax,voucher and final total unverified. Same-day banner does not override Habis; late compensation not deducted. Historical ask,not completed sale or used/new market range. Foreign USD offer not converted.
+
+### Own-model revision and gaps
+
+Manufacturer shop index links **FG200 V01 2025-03-12**,30 pages. Selected text inspected; no complete revision/panel visual audit claimed. Original library must remain separate from June/July2025 firmware notes and newer installer listings. No FB200 processing,expression or software behavior borrowed. Published USB-A-to-C charging constraint retained without claiming hardware tests. Ownership unknown.
+
+Remaining: visual controls,simultaneous/order,firmware library reconciliation,factory fill,display,desktop/mobile editor scope/OS,USB recording details,charging/play/draw,synth/acoustic/NAM/capture/live gaps and qualified offers. No files,dependencies,software or firmware downloaded/executed.
+
+[FG2-M]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FG200_Manual_EN_V01_2025.03.12.pdf?v=1750759938
+[FG2-P]: https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes
+[FG2-I]: https://www.flamma.shop/pages/manual
+[FG2-D]: https://flammainnovation.com/download.html

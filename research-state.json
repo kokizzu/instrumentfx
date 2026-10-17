@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 226,
+  "active_model_count": 227,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 226,
+  "canonical_root_model_count": 227,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "226 unique active/root-canonical models; zero legacy-only. FV04 adds vocal-only harmony/reverb membership; guitar reverb does not imply guitar multi-effects. Six archives excluded.",
+  "count_reconciliation": "227 unique active/root-canonical models; zero legacy-only. FG200 adds guitar membership only; no FB200 sibling capability borrowing. Six specialist archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Bass/vocal Shopee discovery",
-    "task": "FV04 recorded separately; saved Flamma queue exhausted. Seek exact FV05/FG200/FX11 bass or other new eligible hardware leads,then own manufacturer verification. Do not count unverified variants or FV01.",
+    "task": "FG200 recorded separately. Resolve exact FV05/FX11 items or different bass/vocal series; saved broad FV05 list is not a qualified item. Then own primary verification,per-model commits.",
     "next_models": [],
-    "after_queue": "Continue technical gaps and lossless legacy migration; no downloads/workflows."
+    "after_queue": "Continue technical gaps and migration; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4867,6 +4867,17 @@
       ],
       "finding": "Own harmony/reverb architecture;manual key/scale selection. Source-version current discrepancies preserved; exact GH/AFY sold-out asks not condition-qualified.",
       "remaining": "Actual unit/power/phantom direction and visual checks,memories/software/loading/live and qualified prices."
+    },
+    {
+      "model": "Flamma FG200",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.flamma.shop/pages/manual",
+        "https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes"
+      ],
+      "finding": "Own original library versus firmware additions qualified;16rotary4foot text-derived;40slots9IRs,battery/USB-A-to-C charging constraint. Exact Asia Pro Sound ask sold out,condition unknown.",
+      "remaining": "Simultaneous/order,firmware counts,factory fill,display/editor/USB/charge/play,loading/live and qualified offers."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23512,7 +23523,8 @@
       "FV02 Doubling",
       "FB200",
       "FV03 Character",
-      "FV04 Harmony"
+      "FV04 Harmony",
+      "FG200"
     ],
     "HeadRush": [
       "Core",
@@ -23876,7 +23888,8 @@
       "FV02 Doubling",
       "FB200",
       "FV03 Character",
-      "FV04 Harmony"
+      "FV04 Harmony",
+      "FG200"
     ],
     "NUX.md": [
       "MG-101",
@@ -24024,7 +24037,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 184,
+      "record_count": 185,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -40927,10 +40940,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 226,
-    "canonical_root_models": 226,
+    "unique_brand_model_pairs": 227,
+    "canonical_root_models": 227,
     "legacy_only_models": 0,
-    "guitar_view_models": 184,
+    "guitar_view_models": 185,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
     "vocal_view_models": 34,
@@ -41004,6 +41017,7 @@
       "Flamma::FX100",
       "Flamma::FX200",
       "Flamma::FX150",
+      "Flamma::FG200",
       "HeadRush::Core",
       "HeadRush::Flex Prime",
       "HeadRush::MX5",
@@ -41705,6 +41719,13 @@
     },
     "Flamma::FV04 Harmony": {
       "link": "FLAMMA.md#fv04-harmony",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": []
+    },
+    "Flamma::FG200": {
+      "link": "FLAMMA.md#fg200",
       "source_files": [
         "FLAMMA.md"
       ],
@@ -50166,6 +50187,10 @@
     {
       "model": "Flamma FV04 Harmony",
       "task": "Resolve500mA/1.5A and older150mA minimum wording,unit revision/phantom direction; visual controls,memories/editor/loading/live and condition-qualified offers."
+    },
+    {
+      "model": "Flamma FG200",
+      "task": "Reconcile original5 Boost with1.2.1+14 and1.2.5 Gate compressor/newer1.2.6; exact installed firmware,visual controls,OS/editor roles,USB and charge/play/loading/live gaps."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -51946,5 +51971,24 @@
     ],
     "qualification": "All sale conditions unverified; no stock/final-total guarantee. FV05 exact item not resolved by limited query. FV03/FV04 not active before own technical verification.",
     "next": "FV03 first,commit before FV04; expand other exact FV04 offers after own technical evidence."
+  },
+  "discovery_flamma_followup_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Flamma FG200",
+      "site:shopee.co.id Flamma FV05",
+      "site:shopee.co.id Flamma FX11"
+    ],
+    "fg200": {
+      "url": "https://shopee.co.id/Flamma-FG200-FG-200-FG-200-Intelligent-Multi-Effects-Processor-i.703046367.49152335867",
+      "seller": "Asia Pro Sound",
+      "region": "Kota Bekasi",
+      "ask_idr": 1386000,
+      "stock": "Habis",
+      "condition": "Unknown",
+      "access": "Two-month index,direct retrieval failed."
+    },
+    "unresolved": "FV05 broad list page showsRp4502768/Rp6790000 without exact item; not qualified offers. FX11 exact item not resolved. Limited query failure does not prove absence.",
+    "next": "Resolve exact FV05/FX11 or other bass/vocal hardware; do not count list-page snippets."
   }
 }
