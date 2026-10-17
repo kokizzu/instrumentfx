@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP360XP",
-    "task": "FS3X mode matrix saved. Sound Check detailed indexed searches returned product descriptions/control page rather than complete operation; no Sound Check duration/overdub inference. Next inspect manufacturer-authored manual copy pp31–33 for Sound Check; keep USB/current OS/display/import gaps unresolved. Commit findings before changing models.",
+    "task": "Sound Check own operation, global40–240BPM drums and AUX bypass routing saved. Next verify tap-tempo entry/assignment and expression V-Switch/calibration in own manual pp33–35,52; avoid assuming Sound Check overdub/persistence or AUX-to-USB. Then continue another unresolved model.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56044,6 +56044,23 @@
         ]
       },
       "qualification": "Multi Loop means multiple looper actions assigned to one switch, not independent loops. CONTROL IN default LOOPER. Sound Check detail search did not resolve additional limits; do not infer40seconds/overdub support from phrase looper."
+    },
+    {
+      "model": "DigiTech RP360XP",
+      "checked_date": "2026-10-18",
+      "source": "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+      "pages": [
+        29,
+        30,
+        31,
+        32,
+        51
+      ],
+      "findings": [
+        "Sound Check input-position dry capture:FS3 arm/play start/FS3 endpoint/double stop; Bank/Stomp requireFS2+3 sampler access. Dedicated duration/overdub not specified in section.",
+        "Drum tempo40–240BPM; pattern/tempo/level global.",
+        "AUX bypasses effects to L/R/phones; USB inclusion not independently resolved."
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

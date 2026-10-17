@@ -85,6 +85,16 @@ Checked 2026-10-18 against indexed manufacturer manual p37. External switches ar
 |---|---|---|
 | Controls / FS3X mode dependencies | With CONTROL IN=FS3X, the three external functions depend on FOOTSWITCH MODE: **Preset → preset bypass,tuner,unused**; **Stomp → Multi Loop,preset down,preset up**; **Bank → Multi Loop,bank down,bank up**. With CONTROL IN=LOOPER, all three onboard modes instead use **Multi Loop,stop loop,clear loop**. The manual defines Multi Loop as several looper actions sharing one switch; it does not mean multiple independent loops. LOOPER is the factory CONTROL IN setting. | [Own manual pp37,49][RPXP-M] |
 
+### RP360XP Sound Check, rhythm and auxiliary routing
+
+Checked 2026-10-18 against the manufacturer-authored manual copy; prior record documents its identity/revision qualifications.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Live / Sound Check operation | SOUND CHECK moves the same phrase sampler to the chain input, recording dry guitar for auditioning edits and different presets. FS3 arms capture; playing starts recording; FS3 sets the endpoint; double-press stops. Bank/Stomp modes first require FS2+FS3 to access sampler controls. Switching PHRASE SAMPLER back to LOOPER restores end-of-chain operation. This section does not independently specify Sound Check duration or overdubbing. | [Own manual copy pp29,51][RPXP-MM] |
+| Drums / tempo and persistence | **60 drum/metronome patterns;40–240 BPM**. Pattern,tempo and level are global, not stored per preset. The existing requirement to clear recorded loops before using drums remains. | [Own manual copy pp30–31][RPXP-MM] |
+| I/O / auxiliary playback routing | AUX audio bypasses effects and reaches LEFT OUT,RIGHT OUT and HEADPHONE outputs. Playback-device volume and RP Master Level set the listening balance. This does not independently resolve whether AUX reaches USB recording. | [Own manual copy p32][RPXP-MM] |
+
 ## RP255
 
 Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
