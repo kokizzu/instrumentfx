@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-5",
-    "task": "VE5 full harmony table/range and conditional controls saved;intermediateintervalsteps unenumerated. Next resume Shopee brand/series discovery for eligible unrecorded bass/vocal multi-effects, avoiding parked store-only leads; or select another unresolved model field. No downloads. Commit before next.",
+    "model": "TC-Helicon VoiceLive Play",
+    "task": "Eight-query VoiceTone/Create/VocalistLive4/BP50/AX3B/506 bass discovery yielded no qualified new multifx item;generic TC category accessories excluded. Next read VoiceLive Play own record and verify unresolved power/control/USB fields from exact manufacturer manual. No downloads. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -70938,5 +70938,22 @@
     ],
     "outcome": "Direct MMmusicstore page last-week cache and Fely page last-month cache expose store-level titles/prices but no exact selected item URL in retrieved text; exact-title searches still store-only. No qualified used/new range. Normal100 is a working-state seller claim, not used condition; ProdukBaru badge is not independently sufficient new-condition evidence. Park leads to avoid repeating the same unresolved search.",
     "next": "Inspect existing BOSS VE-5 power polarity and adapter/battery supply selection from own manual; keep VE20 seller leads parked until exact-item evidence changes."
+  },
+  "discovery_voicetone_ax3b_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Vocalist\" \"Live 4\"",
+      "site:shopee.co.id \"VoiceTone\" \"Create\"",
+      "site:shopee.co.id \"Bass\" \"BP50\"",
+      "site:shopee.co.id \"Korg\" \"AX10B\"",
+      "site:shopee.co.id \"AX3B\"",
+      "site:shopee.co.id \"Zoom 506\" bass",
+      "site:shopee.co.id \"VoiceTone\" \"Correct\"",
+      "site:shopee.co.id \"TC Helicon\" \"D1\""
+    ],
+    "outcome": "No qualified unrecorded multi-effects hardware item. First four queries returned no results; second set exposed generic TC search category only. No-result search is not market absence.",
+    "source": "https://shopee.co.id/search?keyword=harga+tc+helicon",
+    "selection_notes": "Category page includes D1/H1 adapterRp175,000, POWERPLUG supplies, SWITCH controllers, microphones/interfaces and already catalogued multi-effects. D1/C1/R1/E1 titles describe dedicated doubling/pitch/reverb/echo candidates; no promotion solely from multiple modes. No exact model item/condition/variant evidence from this category page; no new price bound or model added.",
+    "next": "Resume another recorded vocal processor with concrete specification gaps; inspect TC-Helicon VoiceLive Play current record and own manual for power/controls/USB rather than cataloguing ordinary dedicated pedals."
   }
 }
