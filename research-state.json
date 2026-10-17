@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Neural DSP Quad Cortex",
-    "task": "Quad Cortex IR truncation,user-vs-factory capture capacity,eight scene selections andtoe-switch behavior saved. Continue looper duration/persistence,display/captureconnector andcurrent algorithm details;qualifiednew/used offers remain unavailable.",
+    "task": "Quad Cortex LooperXcontrols/routing/quantize saved;numeric duration/persistence still unknown. Check officialdevice list forcategory counts anddisplay/captureout specification;then freshbass/vocal Shopee discovery. Existingmemory/power/offer gaps remain explicit.",
     "next_models": [],
     "after_queue": "Fresh bass/vocal discovery andlossless legacy consolidation remain incomplete. No downloads,workflows orpush."
   },
@@ -63868,5 +63868,16 @@
       "ExpressionTRSsweep,dualTRStoe;latching supported,momentaryrequiresLatchEmulation;calibrationglobal;assignedvaluesexcludedScene data."
     ],
     "remaining": "Looper duration/persistence,displaycolor,captureconnector,NAM,exactalgorithm/factory/total counts andqualifiedoffers."
+  },
+  "technical_followups_quad_looper_20261017": {
+    "model": "Neural DSP Quad Cortex",
+    "source": "https://neuraldsp.com/manual/quad-cortex",
+    "revision": "4.1.1",
+    "findings": [
+      "LooperXGridblockorGlobalI/Orouting;A–H/MIDICC actions.",
+      "Record/overdub,punch,duplicate/reloop,oneshot,halfspeed,reverse,undo/redo;momentary/toggle modes.",
+      "Quantize/externalclock;clockdisablesthreshold;preroll1/2/4bars;fixedlength1–32bars."
+    ],
+    "unresolved": "Numericsecondsmaximum,export/poweroff persistence andcurrent crosspresetconditions notestablished. Search1.3.0communitycopy mentionscrosspresetrequirement butnotaccepted ascurrentmanufacturerproof."
   }
 }
