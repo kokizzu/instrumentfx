@@ -2481,7 +2481,7 @@ Guitar multiple effects,1988–1992;checked2026-10-17;partial. [Own Roland speci
 | Controls | Listed switches:fourParameter,twoValue,ModeSelector,Write;fourNumberpedals+Bank. **5foot/8named nonfoot controls**;ModeSelector mechanism androtary count need manual/panel audit. |
 | Display | Group,Bank/Value display+effect/parameter/mode/number indicators;diagonal,color,touch unknown. |
 | Processing / choices | Compressor;Overdrive/Distortion;EQ;Chorus/Flanger;DigitalReverb/Delay;noise suppressor andsend/return. Category choices/simultaneous maximum pending. Delay **1–500ms**. |
-| Factory / user memory | **64patch capacity**;factory-filled/editable partition unknown. |
+| Factory / user memory | **64 factory-filled,editable patches**;same locations,not64+64;official indexed p5 corroboration below. |
 | Synth / acoustic | Unverified. |
 | Dimensions / mass | **350W×212D×66Hmm including rubber feet;3kg**. |
 | I/O | Input,Amono/Boutputs,TunerOut,headphones,send/return,ExpressionIn,Manual,GroupShift,MIDIIn/Out. Connector sizes pending. USB unlisted. |
@@ -2515,3 +2515,14 @@ Checked2026-10-17. Direct [official PDF][ME5-M] still haszero extracted lines,bu
 | Processing / reverb-delay | One shared final block chooses **Room,Hall1,Hall2,Plate,Gated,orDelay**. Five reverb modes plusone delay alternative,not simultaneous reverb+delay. |
 | Processing / delay-time conflict | Roland specification says **1–500ms**;official indexed p36 panel text instead shows **0.1–500ms**. Preserve lower-limit conflict pending corroboration;maximum500ms consistent. |
 | I/O / routing | Indexed chain:Compressor→Overdrive/Distortion→EQ→Chorus/Flanger→send/return+noise-suppression/expression area→Reverb/Delay→Master. Expression located before final ambience block;precise assignment behavior remains pending readable text. |
+
+### ME-5 — indexed memory and modulation evidence
+
+Checked2026-10-17 against targeted indexed passages of [official original manual][ME5-M],printed pp5,33. Direct PDF text remains unavailable;no visual inspection.
+
+| Field | Verified evidence / limits |
+|---|---|
+| Factory / user memory | **64 manufacturer-programmed,rewritable locations** arranged4groups×4banks×4numbers. Creating a sound starts from a patch that may be erased;write is required. Unsaved edits are lost on power-off or selecting another operating mode. No separate64-slot factory bank established. |
+| Processing / chorus-flanger | Five alternatives in one block:mode1 chorus;modes2–5 flanger. Higher flanger-mode numbers move processing toward higher frequency bands. Not five simultaneous modulation blocks. |
+
+The same manual's indexed outline describes five effect units and their stored on/off states;an explicit maximum simultaneous statement still needs corroboration. Overdrive-mode details remain pending;ME-6B search results are not ME-5 evidence.
