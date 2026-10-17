@@ -329,3 +329,40 @@ USB audio input/output counts use the manufacturer's interface convention. A cap
 
 Original model sources: [Source 1](https://www.headrushfx.com/products/flex-prime/index.html) · [Source 2](https://support.headrushfx.com/en/support/solutions/articles/69000862403-headrush-flex-prime-frequently-asked-questions) · [Source 3](https://www.headrushfx.com/downloads.html) · [Source 4](https://www.headrushfx.com/cloud/index.html)
 
+
+## Gigboard
+
+Checked **2026-10-17**. Distinct guitar/bass multi-effects model; partial verification. [Product][GB-P] explicitly includes bass instruments. No software or dependencies downloaded.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | No built-in pedal; one external ¼″ TRS sweep input plus separate ¼″ TS toe-switch input. Product's two-input shorthand does not mean two independent expression pedals. [Comparison][GB-C], [Manual][GB-M] |
+| Knobs / footswitches / buttons | **2 /4 /0 separate front buttons**, text-derived from manual inventory: master volume and push encoder; encoder press counted once. Rear power button additional. [Manual][GB-M] |
+| Display | Color touchscreen: advertised **7 inches** [Product][GB-P], [Comparison][GB-C]; manual specifies **6.9-inch/176 mm diagonal**, LED backlight. Retain both published values. [Manual][GB-M] |
+| Dimensions / weight | **329.2 W×225.6 D×67.1 H mm;3.24 kg**; mass basis unspecified. [Comparison][GB-C], [Manual][GB-M] |
+| Simultaneous processing | **11 slots**, with dual amp/cab exceptions; three signal-path layouts. Exact DSP/model concurrency ceiling beyond slot count ? [Manual][GB-M] |
+| Category choices | Website headings: amps **52**, cabs **15**, mics **10**; distortion **17**, dynamics/EQ **11**, modulation **22**, reverb/delay **13**, expression **11**. Website headline says more than74 FX; older comparison says **50 amps/67 FX**. Firmware basis and installed totals unresolved; do not combine these snapshots. [Product][GB-P], [Comparison][GB-C] |
+| Factory / user memory | Rigs editable, saveable and transferable; factory-filled count and total user capacity **?** [Manual][GB-M], [Comparison][GB-C] |
+| Synth / acoustic simulator | Acoustic Sim documented in product's 2.3 feature description. Independent synth engine **?**; pitch/filter effects alone do not establish one. Polyphonic pitch supported. [Product][GB-P], [Comparison][GB-C] |
+| IR / NAM / captures | User **WAV IR** import; product specifies **1024/2048 samples**, 300 included IRs. “Virtually unlimited” is marketing, not verified storage capacity. Native/converted NAM and proprietary capture loading **?**; Prime/Core capabilities not assigned here. [Product][GB-P], [Comparison][GB-C] |
+| Audio/control I/O | ¼″ TS instrument in; 3.5 mm stereo AUX; two balanced ¼″ TRS main outs, amp/line selectable; ¼″ stereo phones; mono ¼″ FX send/return; external TRS EXP and TS toe; TRS amp-switch out; DIN MIDI in/out-thru; USB-B; power. No XLR mains. Manual rear text gives send-output/return-input, but appendix reverses directions; functional directions retained. [Manual][GB-M], [Comparison][GB-C] |
+| Power / battery / USB | **19 V DC,3.42 A,center-positive adapter input** in manual power specification. Same appendix incorrectly lists IEC; comparison confirms19VDC. Match actual unit/adapter label before use. Draw,battery and USB-powered operation **?** [Manual][GB-M], [Comparison][GB-C] |
+| Editor / USB audio | USB file transfer needs no extra software; full desktop/mobile editor platforms **?**. **4-in/4-out,24-bit/up to96kHz** recording/reamping. Product links Mac/Windows2.7 updaters and Windows1.0.0 audio driver: these are not proof of an editor or current OS compatibility. [Product][GB-P], [Comparison][GB-C] |
+| Looper / live features | **5-minute loop,50 layers,20 minutes total audio**; save/load. WAV/MP3 loop import,WAV export. Gapless switching/tails advertised; manual says tails unavailable with FX loop or USB audio. Scenes supported. Drums **?** [Product][GB-P], [Comparison][GB-C], [Manual][GB-M] |
+
+### Gigboard — separate IDR offer
+
+| Class | Amount | Exact hardware offer and qualifications |
+|---|---:|---|
+| Indexed hardware ask; sale condition unverified | **Rp17.875.000** | [Legato Music Center,shop158413015/item4243270944][GB-O],Kota Jakarta Pusat. Direct crawler body obtained2026-10-17,cache dated last month. Condition,selected variant,bundle,adapter,warranty and checkout stock **?**. Relative same-day delivery is not current-stock evidence; late-delivery voucher up toRp10.000 is not deducted. |
+| Verified used offer | **?** | Not established |
+| Verified new offer | **?** | Indexed ask above has no verified sale condition |
+
+### Gigboard source and revision limits
+
+Manual filename/footer identify2.1.2; cover/index metadata are not assumed to establish current installed firmware. Read via web text, not a local download or visual inspection. Appendix connector errors are preserved rather than silently reconciled. Current product links2.7 firmware, while category headlines and comparison totals have no aligned firmware date. Remaining work: current firmware notes/category enumeration, actual power-label confirmation, preset capacity, IR limits, full editor/OS support and condition-qualified offers.
+
+[GB-P]: https://www.headrushfx.com/products/gigboard/
+[GB-M]: https://cdn.inmusicbrands.com/HeadRush/gigboard/v2_1_2-0520/Gigboard-User-Guide-v2_1_2.pdf
+[GB-C]: https://www.headrushfx.com/compare-boards.html
+[GB-O]: https://shopee.co.id/HeadRush-Gigboard-i.158413015.4243270944

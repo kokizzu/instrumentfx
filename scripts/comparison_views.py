@@ -352,6 +352,7 @@ BASS_FOCUSED = ['Valeton::Dapper Bass Mini MES-2','Valeton::Dapper Bass VES-2','
 VOCAL_ONLY = ['BOSS::VE-5','TC-Helicon::PERFORM-VE','TC-Helicon::PERFORM-VK','TC-Helicon::PERFORM-V','Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
 VOCAL_SHARED = ['TC-Helicon::PERFORM-VG','TC-Helicon::VoiceLive 3 Extreme','BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
 BASS_SHARED = {
+    'HeadRush::Gigboard':'Own official Gigboard product explicitly identifies instrument input for guitars and basses; not inferred from other boards.',
     'BOSS::Pocket GT':'Own Parameter Guide Rev02 pp17–18 explicitly labels presets71–90 for bass guitar; not inferred from GT1 sibling or EQ.',
     'Line 6::HX One':'Official HX One FAQ explicitly identifies guitarists and bassists; product input instructions explicitly include bass guitar. One selected model plus gate.',
     'Line 6::Pocket POD':'Own Reference Manual §3•2 explicitly suggests Tube Preamp as a direct box for bass; not general certification of all guitar models.',

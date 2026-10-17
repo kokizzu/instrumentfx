@@ -1435,3 +1435,7 @@ research-commit-ve5:
 .PHONY: research-commit-pocketgt
 research-commit-pocketgt:
 	python3 scripts/research_tools.py commit-pocketgt
+
+.PHONY: research-commit-gigboard
+research-commit-gigboard:
+	python3 scripts/research_tools.py commit-gigboard
