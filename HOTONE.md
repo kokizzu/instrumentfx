@@ -231,6 +231,14 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-hotone-ampero-mp100.md](effects/findings/2026-10-14-hotone-ampero-mp100.md), [effects/shopee-multifx-5.md](effects/shopee-multifx-5.md). No legacy file was deleted.
 
+### Ampero MP-100 — converted NAM A2 compatibility, 2026-10-17
+
+| Field | Verified support / limits |
+|---|---|
+| IR / NAM / conversion | [Hotone Japan’s2026-08-18 compatibility notice](https://www.hotone.jp/announcements/nama2allbrand) explicitly lists **Ampero: NAM A2 conversion**, requiring **PC software1.6.0+**. This resolves the earlier conversion uncertainty in the original MP-100 record. It does not establish native NAM, unrestricted architectures or all-file compatibility. |
+| Editor / version scope | Retain firmware5.2/Editor1.5.0 as the earlier Sound Clone release pairing; the August conversion notice requires newer PC software. It supplies no separate MP-100 firmware minimum or current OS matrix. Installed versions and actual conversion results remain unverified; nothing downloaded or run. |
+
+
 ## Ampero II MP-350
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
