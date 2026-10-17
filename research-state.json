@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Eventide H90",
-    "task": "H90Bass/Subsourcepositiveevidence addedtoALL-BASS;0–30sspillover/relayPath2/ABOnlyinsertlimits andlibraryreuse saved. Next synth architecture/USB/display/currentOS or freshShopee discovery;totalstorage remainsunknown.",
+    "task": "H90 currentEventideControlOS minimums andMac/iPadBluetooth verified;olderH90Controlmac10.13 retaineddistinct. FAQempty,forumUSBauthorunverified->USBaudio/buspowerstillunknown. Next syntharchitecture/display orfreshShopeediscovery;no downloads.",
     "next_models": [],
     "after_queue": "Continue fullresearch/discovery/consolidation;no downloads/workflows/push."
   },
@@ -51639,6 +51639,16 @@
       ],
       "finding": "ExplicitBass/Subsourcemodes->sharedbassmembership. Spillover0–30s;DSPrelaybypassinserts,ABOnlyretainsinserts;relaynotDualPath2. OnlyUserPlaylistactive;libraryUseCountnotuniqueprogramcount;totalmemoryunknown.",
       "remaining": "Totalstorage,synthdetails,dimensions/massconflicts,currentOS/display/power/imports/currentoffers"
+    },
+    {
+      "model": "Eventide H90",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://www.eventideaudio.com/software/eventide-control/",
+        "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/h90-control/index.html"
+      ],
+      "finding": "CurrentEventideControlWin10+Intel,mac10.14+Intel/AppleSilicon,iPadOS15+;BluetoothMac/iPad. OlderH90Controlmanualmac10.13+keptseparate. OriginalH9listimportnotoriginalH9hardwarecontrolproof.",
+      "remaining": "iPadversion,WindowsARM/Android/Linux,USBaudio/buspower,totalmemory,display,synthdetails,massconflicts,currentoffers"
     }
   ],
   "discovery_cross_brand_bass": {

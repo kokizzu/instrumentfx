@@ -85,7 +85,7 @@ Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownersh
 | Power / battery / USB | Included **12V1A center-positive,5.5/2.5mm** supply. Manual power table lists **12V600mA or9V800mA** operating requirements, distinct from included adapter rating. Measured draw, battery and USB bus power unverified. [Rear][H90-R],[Specs][H90-S] |
 | Processing / conversion and latency | **48kHz;24-bit AD/DA;32-bit float DSP**. Manual:parallel3.8ms/series4.5ms;each insert adds3.8ms plus configured compensation. Not USB audio format evidence. [Specs][H90-S] |
 | IR / NAM / capture import | Unverified; preset/list import is not proof of IR or amp capture. |
-| Editor / platforms | Current **Eventide Control Mac/PC/iPad**, Bluetooth/USB-C; older manual calls it H90 Control. Desktop **Eventide Control2.2.0 requires H90 firmware1.9.4+**; current OS matrix and iPad app version pending. [Downloads][H90-D] [P][H90-P],[Rear][H90-R] |
+| Editor / platforms | Current **Eventide Control Mac/PC/iPad**, Bluetooth/USB-C; older manual calls it H90 Control. Desktop **Eventide Control2.2.0 requires H90 firmware1.9.4+**; **Current Eventide Control requirements:Windows10+ Intel,macOS10.14+ Intel/Apple Silicon,iPadOS15+**;Bluetooth explicitly Mac/iPad. Older H90 Control manual1.12.5 lists macOS10.13+,Windows10+,iPadOS15+;retain application distinction. iPad app version pending. [Current app][H90-C],[Older app manual][H90-CM]. [Downloads][H90-D] [P][H90-P],[Rear][H90-R] |
 | Looper / drums / live | Tuner and **0–30s configurable spillover** documented. DSP bypass allows tails; relay does not and is unavailable on Dual Path2(I/O3–4). AB Only bypasses A/B while leaving inserts active. [Global1.12.5][H90-B]; **Looper stereo:60s full-quality headline; speed table2x60s/1x120s/½x240s/¼x480s**, slower recording trades fidelity for length. Undo/redo, reverse, MIDI clock, one-button control; Punch/Repl-Punch unavailable in one-button mode. Max length only changes while empty. Drums/scenes and detailed HotSwitch behavior pending. [Looper1.12.5][H90-L] [P][H90-P] |
 
 ### H90 — separate IDR hardware evidence
@@ -143,3 +143,14 @@ Only one User Playlist is active. Factory Programs are locked; Use Count records
 
 [H90-B]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/system-menu/global.html
 [H90-U]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/h90-control/program-library.html
+
+### H90 — editor platform qualification
+
+Checked2026-10-17. [Current Eventide Control page][H90-C] explicitly includes H90 and separates its supported systems from the [H90 Control1.12.5 manual][H90-CM]. The current page’s macOS10.14+ requirement is not silently replaced with the older10.13+ minimum. Windows support explicitly says Intel;ARM Windows support is unverified. Bluetooth is listed for Mac/iPad, not established for Windows. Android/Linux editors remain unverified.
+
+Eventide Control imports original H9 preset lists, but its supported-device list names H9 Gen2 rather than original H9 Max. File compatibility does not establish original H9 Max hardware control. No original-H9 software record was changed.
+
+The [H90 FAQ](https://www.eventideaudio.com/faqs/?product=H90) rendered only its heading/navigation. Forum searches surfaced USB-audio requests and a negative reply, but author identity was not exposed in the retrieved thread; no unsupported primary-author attribution or definitive hardware limitation adopted. USB audio/bus power remain unverified. No application or driver downloaded or run.
+
+[H90-C]: https://www.eventideaudio.com/software/eventide-control/
+[H90-CM]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/h90-control/index.html

@@ -355,7 +355,7 @@ def main():
         if mode == 'commit-nux-mg101-audit':
             message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-h9max':
-            message = 'research(eventide): add H90 bass scope and qualify bypass and memory organization'
+            message = 'research(eventide): distinguish current and legacy H90 editor requirements'
         if mode == 'commit-1201':
             message = 'research(zoom): verify RFX-2200 analog levels and impedances'
         if mode == 'commit-vt4':
