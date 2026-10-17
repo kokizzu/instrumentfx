@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-22",
-    "task": "USB effect-input outputs3/4, stereo loop, AUX limitation and two indexed offers saved. Next fresh discovery and primary gaps; complete USBformat, power polarity/bus operation, 39type reconciliation and condition-verified used price remain unknown.",
+    "task": "VE22 electrical levels/converter ratings and panel lock/volume scope saved. Next fresh discovery or another model primary gaps. VE22USBformat/buspower/polarity,39type reconciliation and qualifiedused remain unknown; thirdpartyUSBpowerclaims not adopted.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57596,6 +57596,15 @@
         "https://support.roland.com/hc/en-us/articles/33212978614427-VE-22-Recommended-Power-Supply",
         "https://shopee.co.id/Boss-VE-22-Vocal-Effects-Performer-i.158144224.24742305856",
         "https://shopee.co.id/Boss-VE-22-Vocal-Effect-Processor-Performer-Pedal-Boss-VE22-Vokal-Efek-i.253483262.21380408530"
+      ]
+    },
+    {
+      "model": "BOSS VE-22",
+      "checked_date": "2026-10-18",
+      "finding": "Saved own analog levels: XLRnominal−40dBu600Ω vsphonesline−10dBu47Ω, inputheadroom/impedances,48k24AD32DA32float distinctUSB;phonesknobexcludesXLR, AUXhostlevel, limitedpanel-lockscope. USBbuspowernotresolved.",
+      "sources": [
+        "https://www.boss.info/global/products/ve-22/specifications/",
+        "https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf"
       ]
     }
   ],

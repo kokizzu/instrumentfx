@@ -1421,7 +1421,7 @@ def commit(model_id):
         print(research_tools.git('commit', '-m', 'research(zoom): qualify B2 FOUR pedal rhythm and tuner limits'))
         return
     if model_id == 've-22':
-        print(research_tools.git('commit', '-m', 'research(boss): resolve VE22 stereo loop and USB effect input'))
+        print(research_tools.git('commit', '-m', 'research(boss): qualify VE22 electrical levels and panel controls'))
         return
     if model_id == 've-1':
         print(research_tools.git('commit', '-m', 'research(boss): qualify VE1 reset limits and macOS driver status'))

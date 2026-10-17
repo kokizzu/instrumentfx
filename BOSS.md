@@ -718,6 +718,18 @@ Checked 2026-10-18; model-specific BOSS support articles updated2026-06-19 and i
 | IDR / additional indexed offer | **melodiasby**, Surabaya, seller/item **158144224/24742305856**: **Rp7.327.000**, index crawled four months earlier; direct reopen cache miss. No condition, stock, delivery, voucher, adapter bundle or warranty-region evidence established. | [Exact hardware offer](https://shopee.co.id/Boss-VE-22-Vocal-Effects-Performer-i.158144224.24742305856) |
 | IDR / additional indexed offer | **TOKOAUDIOPRO.COM**, Jakarta Pusat, seller/item **253483262/21380408530**: **Rp7.800.000**, month-old index; direct reopen cache miss. Same-day-before10:00 delivery banner is not stock proof. Condition, adapter bundle and warranty region unknown; late-delivery Rp10.000 compensation excluded from price discounts. | [Exact hardware offer](https://shopee.co.id/Boss-VE-22-Vocal-Effect-Processor-Performer-Pedal-Boss-VE22-Vokal-Efek-i.253483262.21380408530) |
 
+### VE-22 — electrical levels and panel-lock scope
+
+Checked 2026-10-18 against own specifications and reference manual revision01.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / input levels | Mic INPUT nominal **−40 dBu adjustable**, maximum **0 dBu**, **4 kΩ**. AUX nominal **−20 dBu**, maximum **0 dBu**, **27 kΩ**. | [VE22-S] |
+| I/O / output levels and loading | XLR L/MONO,R nominal **−40 dBu**, output impedance **600 Ω**, recommended load **≥600 Ω**. PHONES/LINE nominal **−10 dBu**, output impedance **47 Ω**, recommended load **≥47 Ω**. The two connector types do not share the same nominal level. | [VE22-S] |
+| Processing / converter ratings | **48 kHz**, **24-bit ADC + AF**, **32-bit DAC**, **32-bit floating-point processing**. These ratings do not establish USB stream bit depth. | [VE22-S] |
+| I/O / volume-control scope | PHONES/LINE knob adjusts only PHONES/LINE OUT; it does **not** adjust OUTPUT L/R volume. AUX volume is adjusted on the connected playback device. | [VE22-M] pp2–3 |
+| Physical controls / panel lock | Long-press EXIT on the play screen locks MEMORY/HARMONY/EFFECT/ECHO knobs and MENU; long-press again unlocks. The documented lock scope does not include PHONES/LINE or MIC SENS. | [VE22-M] p2 |
+
 
 ## VE-8
 
