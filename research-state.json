@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-5",
-    "task": "Second exact cachedoffer saved separately withunknowncondition/stock. Continue owntechnicalgaps orotherqualifiedhardwareleads.",
+    "model": "DigiTech RP500",
+    "task": "Own analog/USB specifications and regional adapter mains saved;continue hardware discovery and unresolved model fields.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP500."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60215,5 +60215,16 @@
     "access": "Searchcache2months;directopenCachemiss;itemIDspecificsearchreturnednoresults",
     "qualification": "Separate from205502204/41251758346soldout1.7m;do not create used/new range or certify origin fromtitle",
     "manual_access": "English80pagePDFreturnedzeroextractedlines;no new technical claims or visual audit from attempted screenshot."
+  },
+  "rp500_electrical_usb_20261017": {
+    "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+    "identity": "OwnRP500manual36PDFpages,2011declaration;printed5/28browsertext",
+    "findings": [
+      "24ADDA44.1k;USB44.1k16or24separate",
+      "500kinput;quarterinchimpedanceunbalanced500ohm+10dBu;XLR1kohm+16dBu;phones13.6mW50ohm",
+      "RPUSBmixvsUSBrecordlevel",
+      "RegionalPS0913Bmainsvariantsnotpedalinput"
+    ],
+    "remaining": "Screen,currentsoftware,batteryUSBpower,imports,qualifiednewoffer,physicalcorroboration."
   }
 }
