@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "Finished current unmatched technical-label audit; restored 40 comparison rows. Remaining unmatched labels are provenance/documentation. Resume missing-model discovery and unresolved source verification.",
+    "task": "Added all-record comparison generation gate for unclassified field labels. Resume missing-model Shopee discovery and remaining technical/source verification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69773,5 +69773,17 @@
     ],
     "validation": "Focused field regression failed before fix and passed after; reviewed comparison plan has unchanged row counts and additive evidence.",
     "limitation": "Classification audit of current extracted labels, not proof that all technical facts are verified or every source paragraph was extracted."
+  },
+  "comparison_field_coverage_gate_20261018": {
+    "status": "implemented",
+    "scope": "make comparison-plan checks all extracted current model facts before rendering; unclassified technical labels fail with model/field diagnostics.",
+    "exceptions": [
+      "Documentation",
+      "Manufacturer verification limits",
+      "Manufacturer identity",
+      "Manufacturer identity / revision"
+    ],
+    "tests": "Mapped technical, provenance and price fixtures accepted; unclassified technical fixture rejected. All334 actual records pass generation.",
+    "limitations": "Regex classification gate is not semantic fact verification, source-paragraph extraction completeness or proof of correct column placement for every possible label."
   }
 }

@@ -278,6 +278,7 @@ def make_plan():
         r['findings']=sorted(finding_for[key])
     serial = {k:{a:b for a,b in r.items() if a not in ('canonical','aliases')} for k,r in records.items()}
     verify_evidence_owners(serial, state.get('evidence_identity_guards', []))
+    verify_field_coverage(serial)
     missing=[k for k,r in serial.items() if not r['facts'] or not r['link']]
     payload={'input_hashes':{p:hashlib.sha256(text.encode()).hexdigest() for p,text in files.items()},'ledger_hash':hashlib.sha256((ROOT/'research-state.json').read_bytes()).hexdigest(),'records':serial,'missing':missing}
     payload.update(render(serial,state))
@@ -577,6 +578,20 @@ def clean(value):
     value=value.replace('|','&#124;').replace('\n',' ')
     return re.sub(r'\s+',' ',value).strip()
 
+def verify_field_coverage(records):
+    """Reject unclassified evidence before generating catalogue comparisons."""
+    provenance = {'Documentation', 'Manufacturer verification limits',
+                  'Manufacturer identity', 'Manufacturer identity / revision'}
+    missing = []
+    for key, record in records.items():
+        for fact in record['facts']:
+            field = fact['field']
+            if field in provenance or re.search(r'IDR|USD|price|retail|used evidence|commit', field, re.I):
+                continue
+            if not any(re.search(pattern, field, re.I) for pattern in GROUPS.values()):
+                missing.append((key, field))
+    assert not missing, ('Unclassified comparison evidence', sorted(set(missing)))
+
 def cell(record, group):
     selected=[]
     seen=set()
@@ -723,6 +738,17 @@ def test_field_projection():
         record = {'facts': [{'field': label, 'value': '24-bit converters, analog level limits', 'context': ''}]}
         assert '24-bit converters' not in cell(record, 'loading'), 'Analog conversion leaked into IR/capture column'
     assert 'Retained qualified evidence' not in cell({'facts': [{'field': 'Manufacturer identity', 'value': 'Retained qualified evidence', 'context': ''}]}, 'processing')
+    verify_field_coverage({'Brand::Model': {'facts': [
+        {'field': 'USB / mode selection', 'value': 'Documented routing'},
+        {'field': 'Manufacturer identity', 'value': 'Documented provenance'},
+        {'field': 'IDR used', 'value': 'Rp1000 historical ask'},
+    ]}})
+    try:
+        verify_field_coverage({'Brand::Model': {'facts': [{'field': 'Unclassified technical constraint', 'value': 'Important restriction'}]}})
+    except AssertionError as exc:
+        assert 'Brand::Model' in str(exc) and 'Unclassified technical constraint' in str(exc)
+    else:
+        raise AssertionError('Unmapped technical evidence was silently accepted')
     print('PASS: technical field labels reach their intended columns; manufacturer identity stays in the full record.')
 
 
