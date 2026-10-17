@@ -142,7 +142,7 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 | Audio / control ports |Balanced6.35mm TRS andXLR inputs/outputs;MIDI IN,OUT,THRU;IEC mains. Exact channel/socket inventory pending. Direct mic/phantom,headphone,USB andexternal EXP unverified [FX-Q] |
 | Analog levels / conversion |80kohm balanced input,80ohm balanced output;selectable−10dBV/+4dBu nominal. Maximum+1dBV/+15dBu respectively forboth input/output.24bit SigmaDelta,64/128× oversampling,**46.875kHz** sampling [FX-Q p.28] |
 | Power / battery / USB |IEC mains;regional120V60Hz,230V50Hz,100V50/60Hz,and120/230V50/60Hz export versions.15W maximum;not universally autoranging. Battery/USB operation unverified;DC polarity not applicable to listed mains connection [FX-Q] |
-| Dimensions / weight |W483×D217×H44.5mm;netapprox1.9kg;shipping3.2kg is not unit mass [FX-Q] |
+| Dimensions / weight |**Source conflict:** QSG W483×D217×H44.5mm,netapprox1.9kg,shipping3.2kg [FX-Q p.28];fullmanual W482.6×D204.4×H44mm,netapprox2kg,shipping3kg [FX-M p.25]. Both approximate manufacturer specifications;revision/case difference unresolved. Shipping mass is not unit mass |
 | Editor / software |MIDI SysEx backup documented;full editor andplatforms unresolved. No USB editor/audio inferred [FX-P] |
 | Looper / drums / live |Sampler up to5s;not a verified full looper. Combination algorithms include Chorus/Reverb,Pitch/Delay andothers. Sampler contents clear on effect change [FX-M p.12]. Preset loading takes about1s withbrief signal suppression;not seamless switching. EXTN mixer mode100%wet;INTN amp-loop mode uses MIX. SysEx transfer disables audio [FX-M pp.16–17]. Drums,scenes andspillover unverified [FX-P] |
 
@@ -159,6 +159,6 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 
 - [FX-P: exact manufacturer product](https://www.behringer.com/en/products/0828-AAG),indexed primary text.
 - [FX-Q: manufacturer multilingual quick-start guide](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/QSG_BE_0828-AAG_FX2000_WW.pdf),17PDF pages;control/connection text,preset chart andspecifications inspected. No new visual verification claimed.
-- [FX-M: Full manufacturer manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf),direct opening failed;subsequent manufacturer-indexed text successfully inspected2026-10-17,pp.12,16–17 forcombination architecture,sampler,preset activation androuting. Full PDF body/visual panel remains uninspected.
+- [FX-M: Full manufacturer manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf),direct opening failed;subsequent manufacturer-indexed text successfully inspected2026-10-17,pp.12,16–17,25 forcombination architecture,sampler,preset activation,routing andconflicting dimensions/mass. Full PDF body/visual panel remains uninspected.
 
 No files downloaded. Remaining:fullmanual,complete controls/display diagonal,complete ports,software/routing andqualified offers.

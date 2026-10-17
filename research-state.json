@@ -50385,6 +50385,16 @@
       "pages": "12,16–17",
       "finding": "Dual-engine combinations serial1/serial2/parallel;6rotary derived;preset loading1s withsuppression;EXTN100%wet vsINTN mix;SysEx audio inactive;sampler clears on effect change.",
       "remaining": "Fullpanel buttons/ports,display diagonal,firmware/editor andqualified offers"
+    },
+    {
+      "model": "Behringer FX2000",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf",
+        "https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/QSG_BE_0828-AAG_FX2000_WW.pdf"
+      ],
+      "finding": "Dimensions/mass conflict preserved:fullmanual p25 W482.6 D204.4 H44mm net2kg;QSG p28 W483 D217 H44.5mm net1.9kg. Revision/case reason unresolved.",
+      "remaining": "Inspect actual revision labels/panel;do not average dimensions or substitute shipping mass."
     }
   ],
   "discovery_cross_brand_bass": {
