@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 242,
+  "active_model_count": 243,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 242,
+  "canonical_root_model_count": 243,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "242 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. Bass Fly Rig v2 added as bass-focused from own manufacturer product/manual; all models remain partial.",
+  "count_reconciliation": "243 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. MX300 added as guitar/vocal line-level rack processor; bass suitability unclassified. All records remain partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Tech 21 Bass Fly Rig v2",
-    "task": "Bass Fly Rig v2 channel/EQ/mix qualifications saved. Continue precise primary diagram/control verification if accessible, otherwise resume other-brand Shopee hardware discovery. Avoid repeating narrow headphone/preset searches that returned no model-specific resolution.",
-    "next_models": [],
-    "after_queue": "Commit useful findings before next model; continue hardware discovery. No downloads, workflows or push."
+    "model": "Lexicon MX300",
+    "task": "Verify own manual controls,memory,full choices and software/audio distinction using indexed primary text or identity-checked manufacturer manual mirror. Direct official pages403; used ask remains cached.",
+    "next_models": [
+      "Lexicon MX400",
+      "Yamaha SPX2000"
+    ],
+    "after_queue": "Exact candidate links retained in discovery_mx300_20261017. No downloads,workflows,push;commit each model before next."
   },
   "new_findings": [
     {
@@ -5051,6 +5054,18 @@
       ],
       "finding": "Bass multi-effects inclusion;13 text-derived knobs,mono octave,speaker-sim output restriction,body and centre-negative power with adapter-rating discrepancy.",
       "remaining": "Exact IDR offers,complete physical inventory,routing/storage/import/editor and digital/headphone/battery audit."
+    },
+    {
+      "model": "Lexicon MX300",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://lexiconpro.com/en-US/products/mx300/description",
+        "https://lexiconpro.com/en-US/product_documents/mx300_manual_18-0473v-cpdf",
+        "https://shopee.co.id/Effek-LEXICON-MX300-ori-bekas-normal-i.752257787.29416419948"
+      ],
+      "finding": "Exact seller-described used Rp4100000 cached ask,own guitar-loop and voice scope,two-effect versus enhanced single-effect routing,mains versions,I/O,body and legacy editor platforms.",
+      "remaining": "Controls,display,memory,full category enumeration,current software/stock and unresolved facilities."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23933,7 +23948,8 @@
       "FX2000"
     ],
     "Lexicon": [
-      "MX200"
+      "MX200",
+      "MX300"
     ],
     "Alesis": [
       "MicroVerb 4",
@@ -24239,7 +24255,8 @@
       "FX2000"
     ],
     "LEXICON.md": [
-      "MX200"
+      "MX200",
+      "MX300"
     ],
     "ALESIS.md": [
       "MicroVerb 4",
@@ -24252,7 +24269,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 195,
+      "record_count": 196,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24264,9 +24281,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 44,
+      "record_count": 45,
       "vocal_only_count": 22,
-      "combined_instrument_count": 22,
+      "combined_instrument_count": 23,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41215,13 +41232,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 242,
-    "canonical_root_models": 242,
+    "unique_brand_model_pairs": 243,
+    "canonical_root_models": 243,
     "legacy_only_models": 0,
-    "guitar_view_models": 195,
+    "guitar_view_models": 196,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
-    "vocal_view_models": 44,
+    "vocal_view_models": 45,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41278,7 +41295,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Tech 21 Bass Fly Rig v2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX300."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41473,6 +41490,7 @@
       "Behringer::V-AMP 2",
       "Behringer::FX2000",
       "Lexicon::MX200",
+      "Lexicon::MX300",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Yamaha::SPX900",
@@ -41619,6 +41637,7 @@
       "DigiTech::GNX4",
       "Behringer::FX2000",
       "Lexicon::MX200",
+      "Lexicon::MX300",
       "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Yamaha::SPX900",
@@ -43526,6 +43545,13 @@
     },
     "Lexicon::MX200": {
       "link": "LEXICON.md#mx200",
+      "source_files": [
+        "LEXICON.md"
+      ],
+      "finding_files": []
+    },
+    "Lexicon::MX300": {
+      "link": "LEXICON.md#mx300",
       "source_files": [
         "LEXICON.md"
       ],
@@ -53419,5 +53445,29 @@
     "identity": "Both manufacturer-hosted texts identify Bass Fly Rig v2, ©2021; no filesystem download or binary identity claim.",
     "finding": "Character switch mapping,asymmetric mid cut/boost frequencies,inactive lit channel controls,dry/wet blend and independent speaker simulation verified from manual.",
     "remaining": "Full physical census and precise diagram order still partial; no v1 headphone claim or secondary review controls promoted."
+  },
+  "discovery_mx300_20261017": {
+    "offer": "https://shopee.co.id/Effek-LEXICON-MX300-ori-bekas-normal-i.752257787.29416419948",
+    "seller": "andikondo",
+    "shop_id": "752257787",
+    "item_id": "29416419948",
+    "idr": 4100000,
+    "condition": "Seller-described used from title; not physically verified",
+    "stock": "Unverified; cached September15–18 delivery",
+    "other_exact_leads": [
+      {
+        "model": "Lexicon MX400",
+        "url": "https://shopee.co.id/Lexicon-MX400-Original-Dual-Stereo-Vocal-FX-i.355992277.29037104080",
+        "status": "Sold-out Rp3700000 indexed ask;technical verification pending"
+      },
+      {
+        "model": "Yamaha SPX2000",
+        "url": "https://shopee.co.id/efek-yamaha-SPX2000-ORI-JAPAN-i.118221978.24481606543",
+        "status": "Condition-unverified Rp6400000 indexed ask;technical verification pending"
+      }
+    ]
+  },
+  "bass_fly_rig_v2_visual_attempt_20261017": {
+    "result": "CUA iab unavailable; inventory has no browsers/apps. No usable visual verification; physical census remains open. Other work can proceed."
   }
 }

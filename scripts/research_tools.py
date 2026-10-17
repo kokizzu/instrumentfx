@@ -391,7 +391,7 @@ def main():
         if mode == 'commit-spx900':
             message = 'research(yamaha): add SPX900 with original manual and qualified line-level scope'
         if mode == 'commit-mx200':
-            message = 'research(lexicon): add MX200 with mixer-path scope and power revision conflict'
+            message = 'research(lexicon): add MX300 guitar vocal rack processor and qualified used ask'
         if mode == 'commit-gnx3':
             message = 'research(digitech): document GNX4 channel EQ and cabinet tuning ranges'
         if mode == 'commit-b1four-followup':

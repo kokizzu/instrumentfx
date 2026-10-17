@@ -39,3 +39,42 @@ Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. G
 - [MX-M: original indexed user guide](https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf),direct403;selected indexed quick-start/rear-panel text inspected. No complete PDF-body or visual inspection claimed.
 
 No files downloaded. Remaining:accessible fullmanual,control inventory,display,body/mass,power revision,USB audio distinction,software OS details andqualified offers. Bass suitability remains unclassified.
+
+## MX300
+
+Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-17; partial. Suitable line-level routing required; XLR sockets do not establish a microphone preamp or phantom power. Bass suitability and ownership unestablished. Distinct from MX200 and MX400.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal/toe on this rack unit; external EXP unverified. Quarter-inch TRS foot-pedal connection documented; exact control functions pending. | [Manual specifications][M300-M] |
+| K/F/B | Separate rotary/button census pending; zero built-in footswitches. Three parameter knobs and a program-selection knob advertised, not a complete rotary count. | [Product][M300-P] |
+| Display | Manufacturer describes an LED program display; diagonal, other display technology, color and touch remain unverified. | [Product][M300-P] |
+| Dimensions / mass | **483W×44H×185D mm including knobs;162mm depth without knobs;2.6kg**. 1U rack footprint. | [Manual p50][M300-M] |
+| Processing / categories | Product advertises 16 reverbs,7 delays,dbx compression/de-essing and modulation effects. Full per-category/total enumeration pending. | [Product][M300-P] |
+| Routing / simultaneous effects | Routes 1–4 provide two effects: Dual Mono,Cascade,Parallel/Dual Stereo,Mono Split. Route 5 uses all DSP for one higher-complexity stereo effect. Do not treat five routes as five simultaneous engines. | [Manual p16][M300-M] |
+| Factory / user memory | Factory-filled,user and total program memory counts unverified; no MX200 counts borrowed. | Unresolved |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
+| I/O | Two XLR+two quarter-inch TRS inputs; matching output pairs, balanced/unbalanced. RCA S/PDIF I/O; MIDI DIN IN/OUT; USB1.1 control; quarter-inch TRS foot pedal; mains. S/PDIF24-bit44.1/48kHz. | [Manual p50][M300-M] |
+| Power / battery / USB | **18W**. Separate 100–120VAC and 220–240VAC models; rear voltage label determines version. Not a universal-input supply. DC polarity inapplicable to mains input; battery/USB operation unverified. Manual’s EU “56/60Hz” text retained as unresolved publication/extraction anomaly. | [Manual p50][M300-M] |
+| IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
+| Editor / platforms | MX Edit Mac2.2.0/Windows2.3.1,2016 releases; NetUpdater1.0 is separate. VST/AU hardware-plugin integration documented. Current OS support,bitness and USB audio transport remain unverified. | [Product software listing][M300-P] |
+| Instrument scope / live | Own manual p10 documents guitar amp-loop hookup; product explicitly targets voice/instrument effects. Use appropriate line-level mixer/preamp routing. Looper,drums,scenes,spillover and direct-mic support pending. | [Manual p10][M300-M]; [Product][M300-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Seller-described used | **Rp4.100.000**, “bekas normal” title. andikondo,shop752257787/item29416419948,Kab.Kediri. Indexed/direct cached body checked2026-10-17; last-month crawl with September15–18 delivery. Physical condition and live stock unverified. | [Exact Shopee item][M300-O] |
+| New | Unknown; no qualified exact new offer verified. | — |
+
+<!-- comparison evidence ends -->
+
+The used listing is a cached asking price, not a completed sale or current-stock certification. “Ori” and working-condition wording are seller claims. Actual voltage revision, adapter/mains cable,bundle,warranty,shipping/tax,variant and checkout availability remain unknown. Rp10,000 late-arrival compensation is not a purchase discount. No foreign price conversion.
+
+Primary product and manual direct opens returned403; indexed manufacturer passages inspected, not full visual PDF coverage. The original manual is 18-0473 revisionC. No files/software/dependencies downloaded. Physical controls,display details,full choice enumeration,memory and unresolved facilities require further verification.
+
+[M300-P]: https://lexiconpro.com/en-US/products/mx300/description
+[M300-M]: https://lexiconpro.com/en-US/product_documents/mx300_manual_18-0473v-cpdf
+[M300-O]: https://shopee.co.id/Effek-LEXICON-MX300-ori-bekas-normal-i.752257787.29416419948
