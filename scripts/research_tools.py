@@ -375,7 +375,7 @@ def main():
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-b21u':
-            message = 'research(zoom): add B2.1u bass comparison with own USB and pedal limits'
+            message = 'research(zoom): resolve B2.1u factory fill and USB power selection'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): inventory RFX-1100 banks and qualify combined algorithms'
         if mode == 'commit-spx990':

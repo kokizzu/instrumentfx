@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B2.1u",
-    "task": "Verify per-category choice counts,factory user fill andUSB audio restrictions from own manual;alreadyadded,do not duplicate. MixedShopprice remainsunassigned.",
+    "task": "Verify B2.1u category choice counts from own manualpp25–34. Factory40userfill andUSBpower switch behavior alreadyresolved;do not repeat. Then continue broader gaps/discovery.",
     "next_models": [],
     "after_queue": "CriticalMass fullmanual/market gap,legacybass,technicalgaps andmigration;no downloads/workflows."
   },
@@ -50607,6 +50607,14 @@
       "pages": "8–15",
       "finding": "All33 effect selections inventoried by bank. EFFECTS7single4dual;plus serial/slash parallel. Vocoder distortion+chorus means2notuniversalmax. CabinetSim distinguished fromacoustic/userIR.",
       "remaining": "Per-variation parameters,storage/max,visual panel,power/software andoffers;web screenshotfailed"
+    },
+    {
+      "model": "Zoom B2.1u",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_B21u.pdf",
+      "pages": "22–24",
+      "finding": "40user slots duplicate40ROM;initialize overwrites. USBpower requiresPOWERoff;onselectsadapter/battery. Alwaysdirectprocessedmonitoring;DAWecho causesdoubling.",
+      "remaining": "Category counts,display,qualifiedoffers andadditionalrestrictions"
     }
   ],
   "discovery_cross_brand_bass": {
