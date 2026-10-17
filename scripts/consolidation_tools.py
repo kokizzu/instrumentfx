@@ -1427,7 +1427,7 @@ def commit(model_id):
         print(research_tools.git('commit', '-m', 'research(tchelicon): consolidate Play Acoustic and preserve firmware limits'))
         return
     if model_id == 'voicelive-play':
-        print(research_tools.git('commit', '-m', 'research(tchelicon): verify VoiceLive Play USB input and Switch3 persistence'))
+        print(research_tools.git('commit', '-m', 'research(tchelicon): preserve dated VoiceLive Play looper firmware evidence'))
         return
     if model_id == 'kmf-10':
         print(research_tools.git('commit', '-m', 'research(scorpion): consolidate KMF-10 and preserve power uncertainty'))

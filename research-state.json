@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Play",
-    "task": "VoiceLivePlay v2.0 mono USB input selection and persistent Switch3 UPDN remapping saved. Next verify current original manufacturer firmware/looper orUSB specifications via webtext; preserve v1/v2 revisions and regional≥400 versusQSG>400 distinction. No downloads. Commit before next.",
+    "task": "VoiceLive Play historical More Play firmware announcement saved: 60-second looping, without inferring current limit or undo split. Next seek original later firmware notes, USB audio format or current storage capacity. Do not download files. Commit each model before moving on.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56661,6 +56661,12 @@
       "checked_date": "2026-10-18",
       "finding": "Originalv2.0 manualp12 USBLeft/Right selectable monoDAW vocalinput;not fullformat/channel specification. MP75 defaultsHIT. p5Switch3record/play/overdub,stop/holdclear,undo;connection setsUPDNKeyScale anddisconnect doesnotrestoreLooping.",
       "source": "https://manualzz.com/doc/9871012/tc-helicon-voicelive-play-user-manual"
+    },
+    {
+      "model": "TC-Helicon VoiceLive Play",
+      "checked_date": "2026-10-18",
+      "finding": "Manufacturer press release dated 2012-11-08 announces More Play firmware with 60-second looping and unlimited overdubs. Preserve old manual 15/30-second limits as revision evidence. Undo split, numeric firmware version and current limit remain unverified. 500 downloadable presets do not establish onboard capacity. Switch-3 expanded assignments; guitar boost belongs only to GTX.",
+      "source": "https://hexus.net/ce/items/audio-visual/47901-tc-helicon-releases-free-update-voicelive-play-offering-more-presets-more-control/"
     }
   ],
   "discovery_cross_brand_bass": {
