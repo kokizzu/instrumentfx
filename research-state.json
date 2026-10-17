@@ -52115,5 +52115,27 @@
       }
     ],
     "verification": "partial"
+  },
+  "b1_four_followup_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_B1FOUR_QuickGuide_2.pdf",
+    "revision": "Z2I-3577-02",
+    "resolved": [
+      "128x32 LCD",
+      "50 preloaded editable memories",
+      "conditional alkaline runtime",
+      "USB MIDI",
+      "looper clear triggers"
+    ],
+    "offer": {
+      "seller_id": "1030145984",
+      "item_id": "55012807049",
+      "idr": 1810400,
+      "condition": "unknown",
+      "stock": "Habis",
+      "region": "Jakarta Selatan",
+      "bundle": "AD-16E in title; contents unverified",
+      "access": "last-month indexed text reopened"
+    },
+    "verification": "partial"
   }
 }

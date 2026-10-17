@@ -595,7 +595,7 @@ Bass multi-effects without a built-in expression pedal; distinct from B1X FOUR a
 | Used USD | ? |
 | New USD observation | $85 [P1] |
 | Maximum simultaneous blocks; categories / choices | 5; family advertises 70+ effects/amp models, 60+ effects and 9 classic amp/cab choices; exact per-model category counts pending |
-| Factory / user memory | 50 editable patch memories total; factory-filled subset ? |
+| Factory / user memory | 50 editable patch memories total; all50 preloaded (quick guide p.3, rechecked2026-10-17) |
 | Synth / acoustic | Bass synth, octave, fuzz; acoustic sim ? |
 | Third-party IR | Not established; factory cab simulation is not an import facility |
 | NAM | Not established |
@@ -621,8 +621,8 @@ B1-family downloads now advertise additional BitCrush and DynaDelay releases in 
 | Field | Status |
 |---|---|
 | Built-in expression / toe |No built-in pedal; no built-in toe control. External pedal socket is not listed in complete legacy inventory |
-| Display |Diagonal,pixels,color mode,touch specification not verified for this exact model in retained legacy data; do not copy G1 FOUR screen specifications |
-| Factory / user memory |50 editable total; factory-filled subset unknown, not50+50 |
+| Display |128×32 dot-matrix LCD (quick guide p.11); diagonal,color mode andtouch remain unverified; no G1 FOUR substitution |
+| Factory / user memory |50 editable total,50 preloaded; same locations, not50+50 (quick guide pp.3,11) |
 | Synth / acoustic |Bass synth documented; exact algorithm names and acoustic simulation remain unresolved |
 | Firmware / categories |Current official product page still advertises over70 family effects/models,60+ effects and9 amp/cab choices,with BitCrush February2026 andDynaDelay April2026 downloads. Not a measured installed inventory or category subtotal |
 
@@ -636,6 +636,21 @@ B1-family downloads now advertise additional BitCrush and DynaDelay releases in 
 | Condition-verified used IDR |**?** |No exact used-condition offer established; B1Xon and mixed B1/B1X listings excluded from variant pricing |
 
 These are separate asking observations,not a used-to-new range. Selected condition,stock,shipping,warranty and seller authenticity remain unverified. No exchange-rate conversion. Current primary product check confirms family features only; this record does not claim a newly inspected manual/panel or installed firmware. Remaining work:exact category inventory,screen details,algorithm names,qualified used price and live retail stock.
+
+### B1 FOUR — original quick-guide recheck, 2026-10-17
+
+[Official quick guide Z2I-3577-02](https://zoomcorp.com/media/documents/E_B1FOUR_QuickGuide_2.pdf), pp.3,9–11; text inspected without downloading files.
+
+| Field | Model-specific evidence |
+|---|---|
+| Analog levels / conversion |44.1kHz sampling,24-bit A/D andD/A with128× oversampling,32-bit processing. INPUT −20dBu/470kohm;AUX −10dBu/1kohm. Line maximum +2dBu;manual calls10kohm-or-more an output impedance (wording retained). Headphones17+17mW into32ohm |
+| Power / battery |About18h alkaline operation with LCD backlight off; not a universal battery runtime or measured current draw |
+| USB / editor |USB MIDI explicitly listed;Micro-B. A power-only cable prevents other USB functions |
+| Looper / live |Mono30s;pre/post effects placement. Changing recording time,looper position or tempo erases the recorded loop |
+
+| Price class | Amount | Offer and limits |
+|---|---:|---|
+| Condition-unverified sold-out adapter bundle |Rp1.810.400 |[GALERI MUSIK SIMFONI_PIM,1030145984/55012807049](https://shopee.co.id/ZOOM-B1-FOUR-Bass-Multi-Effect-Pedals-with-Adaptor-Zoom-AD-16E-i.1030145984.55012807049); Jakarta Selatan; last-month indexed text reopened; **Habis**. Title includes AD-16E; condition,warranty,voucher and actual package unverified. Relative tomorrow delivery does not override sold-out status |
 
 ## B1X FOUR
 
