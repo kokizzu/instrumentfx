@@ -2014,6 +2014,14 @@ Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Owne
 | Editor / software | Officialeditor/platformsupport unverified. | Unresolved |
 | Looper / drums / live | **38smono phrase loop**,FavoriteSoundrecall,micstandmount. Perform(default)recordsprocessedvoice+overdubs;Checkrecordsdry/appliesFXonplayback anddisablesoverdub. AUXnotrecorded;powerofflosesloop. EXITduringplay/overdubstops;EXITwhilestoppedclears. Loop/systemsettingspersistacrosssoundchanges;thisdoesnotcertifyuninterruptedlooponsoundchange. Drums/scenes pending. | [Product][VE5-P];[Officialmanual pp8,15][VE5-PDF] |
 
+### VE-5 — analog levels and operational follow-up,2026-10-17
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Audio levels / impedances | MIC nominal−40dBu atMicSens40,4kohm;AUX−20dBu,22kohm. XLR OUT nominal−40dBu,600ohm;PHONES/LINE66ohm. Product explicitly leaves PHONES/LINE nominallevel **TBD**;no line-level value invented. Checked2026-10-17. | [Product][VE5-P] |
+| Power / auto off | AutoOff defaultsOn:shutdown after10hours withoutplaying/operation;can disable inSETUP. SETUP,MIC,CTL PEDAL andPHRASE LOOP settings are global andsurvive sound changes. | [Indexed originalmanual p15][VE5-PDF] |
+| I/O / mic fallback | Internal mic is used when noexternalmic isconnected. For mixer line input,manual specifies aY-adaptor fromstereo PHONES/LINE OUT;XLRoutput level above ismic-level. This does not establish independent stereo effect processing. | [Indexed originalmanual quickguide][VE5-PDF] |
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence / qualification | Source |
