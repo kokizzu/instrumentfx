@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2000",
-    "task": "EXTRA E1–E8 indices resolved. Next verify practical MIDI CC/learn/backup behavior from own manual pp10–13;exact Multi EFX connection diagrams,adapter current,current editor OS and visual gaps remain.",
+    "task": "MIDI control/backup verified and saved. Continue fresh Shopee Indonesia brand/series discovery for eligible unrecorded hardware;RFX-2000 unresolved connection diagrams,power current,editor OS and visual details remain deferred.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. No downloads,workflows,push;commit each usefulmodel before next."
   },
@@ -53827,5 +53827,12 @@
     "page": 23,
     "evidence": "Manufacturer-hosted indexed manual text resolves E3=20 Tap Delay,E4=10 Tap Delay,E5=Multi EFX,E6=Early Reflection,E7=Custom Reverb,E8=Custom Final Master. E3/E4 feedback delay1–1486ms;E8 serial4-band EQ+3-band compressor.",
     "method": "Browser search text only;no filesystem download or execution."
+  },
+  "rfx2000_midi_followup_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+    "pages": "10–13",
+    "finding": "Saved CC mappings,learn persistence,clock/automation rules and overwrite/storage constraints for MIDI backup in root record and views.",
+    "method": "Manufacturer manual browser text;no filesystem download.",
+    "remaining": "Multi EFX routing diagrams,adapter current,current editor compatibility and visual corroboration unresolved."
   }
 }
