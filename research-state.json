@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX100G",
-    "task": "AX100G SamplePlay erasure/quality modes andAMB/CABI choices saved. Next PhraseTrainer detailed restrictions andDRIVE/MOD/PEDAL catalogue;power/visual/price/softwaregaps remain.",
+    "task": "AX100G trainer inputs/speed/erasure and shared processing restrictions saved. Next own manual DRIVE/MOD/PEDAL catalogue;exact incompatible pairs and power/visual/price/software gaps remain.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery;ME-30,GT-5,RFX-2000 gaps remain deferred. No downloads,workflows or push."
   },
@@ -54057,5 +54057,11 @@
     "pages": "15–16",
     "finding": "3/6second sample/loop quality modes and erasure rules;SAMPLE2reverse;LOOP1volume/restartvsLOOP2length;sevenAMB/sixCABI choices saved.",
     "remaining": "PhraseTrainer detailed restrictions,DRIVE/MOD/PEDAL catalogue,power/visual/price/software gaps."
+  },
+  "ax100g_trainer_checkpoint_20261017": {
+    "source": "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B",
+    "pages": "7–8,10",
+    "finding": "Trainer accepts AUX or guitar,8seconds;25–100% playback in5% steps;temporary MOD/PEDAL/AMB disable and guitar-volume EXP;volatile recording. Algorithm-dependent MOD/PEDAL or PEDAL/AMB exclusions saved.",
+    "remaining": "Exact incompatible pairs,DRIVE/MOD/PEDAL catalogue and power/visual/price/software fields."
   }
 }

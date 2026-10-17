@@ -417,7 +417,7 @@ def main():
         if mode == 'commit-707ii':
             message = 'research(zoom): reconcile 707II effect counts and separate sampler from hold delay'
         if mode == 'commit-ax30g':
-            message = 'research(korg): verify AX100G sample erasure and ambience cabinet choices'
+            message = 'research(korg): verify AX100G trainer inputs and shared processing limits'
         if mode == 'commit-rp155':
             message = 'docs(digitech): repair RP155 manual links with page qualifiers outside references'
         if mode == 'commit-vamp2':
