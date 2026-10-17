@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "GNX4 category counts now wah3,pickup2,distortion10,Talker5,delay5,reverb10. Next modulation/noisegate/amp/cab tables,selector buttons anddisplay; total simultaneous count still unresolved. No sibling counts.",
+    "task": "GNX4 amp/cab andmodulation counts verified; dedicated acoustic simulation/SynthTalk confirmed. Next Whammy/IPS selectable types and full simultaneous architecture,actual matrix buttons/display; power-source conflict still unresolved.",
     "next_models": [],
     "after_queue": "Other candidates/field gaps; no workflows/push."
   },
@@ -53217,6 +53217,20 @@
       "Spread"
     ],
     "delay_source": "https://www.manualshelf.com/manual/digitech/gnx4/user-guide-english/page-53.html",
-    "access": "Indexed own manual text;direct mirror open cache-missed. Official original p38 confirms stompbox/Talker counts. No files downloaded."
+    "access": "Indexed own manual text;direct mirror open cache-missed. Official original p38 confirms stompbox/Talker counts. No files downloaded.",
+    "guitar_amps": 15,
+    "bass_amps": 10,
+    "acoustic_simulator": 1,
+    "cabinets": {
+      "guitar": 12,
+      "bass": 10,
+      "total": 22
+    },
+    "user_hypermodel_locations": 9,
+    "modulation": 15,
+    "noise_gate": 2,
+    "modulation_source": "https://manualmachine.com/digitech/gnx4/1120255-user-manual/",
+    "modulation_limit": "One selected effect per Chorus/Mod slot;SynthTalk included.",
+    "amp_basis": "Own manual pp30–31;Direct bypass and U1–U9 excluded from factory counts;Warp blends two configured channels."
   }
 }
