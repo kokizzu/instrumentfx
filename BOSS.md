@@ -3075,3 +3075,15 @@ Checked2026-10-18; documentation inspected only, no software downloaded or execu
 [MS3-P]: https://www.boss.info/global/products/ms-3/
 [MS3-M]: https://static.roland.com/assets/media/pdf/MS-3_eng02_W.pdf
 [MS3-G]: https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf
+
+
+### MS-3 MIDI and performance-control limits
+
+Checked 2026-10-18 using original owner/parameter-guide text only; no files downloaded or device operation.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / patch MIDI | Guide p39 lists PATCH MIDI 1–4, but its manual-transmit sentence says 1–8. Retain the internal conflict; eight slots are not established. Each listed setup has channel OFF/1–16, PC OFF/1–128 and two CC number/value pairs. Bank select cannot transmit alone, requires PC, and cannot enable only LSB. | [Parameter guide p39][MS3-G] |
+| Synth / Sound Hold limitation | Sound Hold sustains a captured note while another melody is played; simultaneous multiple-note input is unsupported. Assign F1:SOL/TRG or F2:SOL/TRG to a controller. This is not evidence of phrase-loop recording, overdubbing or a synth engine. | [Parameter guide p6][MS3-G] |
+| Controls / tuner outputs | Tuner reference 435–445 Hz. MUTE silences output; BYPASS disables effects; THRU retains the current effect sound while tuning. These are different output modes. | [Parameter guide p43][MS3-G] |
+| Controls / lock and page buttons | Hold ON/OFF at least two seconds in the play screen to lock buttons and knobs; repeat to unlock. EDIT and ENTER double as page buttons, so page labels do not add two physical buttons to the existing five-button inventory. Hold MEMORY/MANUAL at least two seconds to enter MUTE & TUNER. | [Owner manual p5][MS3-M] |
