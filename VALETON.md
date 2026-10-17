@@ -1401,3 +1401,14 @@ Checked 2026-10-18. [English manual-body reproduction](https://manuals.plus/vale
 | Physical controls / rotary functions | **LEVEL, TONE, GAIN, MOD, AMBIENT** control output, brightness, gain and the two effect amounts. Three TYPE toggles select AMP/MOD/AMBIENT modes; separate button/footswitch totals remain unverified. |
 | Processing / ambience choices | **ECHO / REVERB / ECHOVERB**; ECHOVERB combines echo and reverb. MOD’s FLOW/TREM/DEEP correspond to chorus/tremolo/flanger. These are modes, not extra independent slots. |
 | Power / electrical extraction caveat | Russian table labels **5V lithium battery**, instrument input **1MΩ**, AUX **10kΩ**, phones **10Ω**. English extraction renders ambiguous SV/!MO/100. Values remain translation-qualified pending original visual corroboration; battery-table wording does not establish charging current, battery capacity or operation while charging. |
+
+### RH-101 — Chinese manufacturer corroboration
+
+Checked 2026-10-18 against the [Chinese manufacturer product page](https://zh.valeton.net/product/rushead-max-bass/).
+
+| Field | Primary evidence / qualification |
+|---|---|
+| Processing / mode counts | Manufacturer explicitly states **3 amp, 3 modulation and 3 delay/reverb choices**. MOD labels FLOW/TREM/DEEP map to chorus/tremolo/flanger. The three ambience choices corroborate the manual reproduction, beyond the English page’s two effect-family summary. Counts are choices, not nine independent simultaneous blocks. |
+| Physical controls / effect switching | Chinese feature text says the five knobs adjust sound or **switch effects on/off**; this is a rotary-control operation, not evidence of additional buttons or footswitches. Which knob positions perform switching remains unverified. |
+
+The Chinese page says up to five hours; retain the English over-five-hours prose conflict. Its specification section is empty. Linked [CN V01 manual](https://zh.valeton.net/download/207/rushead-max-bass/17884/rushead-max-bass_manual_cn_v01_200602.pdf) timed out both directly and through the page link. The [official German V02 landing](https://www.valeton.net/wpfd_file/rh-101rushead-max-bass_manual_de_v02_211025/) points to an endpoint returning “Download url is not correct”; no manual content obtained. Do not repeatedly retry those endpoints or infer missing ports/power specifications.
