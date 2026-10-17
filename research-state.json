@@ -28,10 +28,13 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper MDR",
-    "task": "Dapper MDR MOD EQ and parameter mappings saved. Defer panel-only and remaining gaps pending stronger evidence;next fresh Shopee brand/series discovery without duplicating267 records.",
-    "next_models": [],
-    "after_queue": "Fresh Shopee brand/series discovery;retain all prior gaps;no downloads/workflows/push."
+    "model": "NUX Mighty Plug MP-2",
+    "task": "Fresh exact MP-2 hardware offers and own-product checkpoint saved;read own manual and add distinct MP-2 record without Pro borrowing or Mighty Air copy. Commit before next queued model.",
+    "next_models": [
+      "Fender Mustang Micro Plus",
+      "Valeton Dapper Amp Mini"
+    ],
+    "after_queue": "Continue discovery;retain267-record gaps;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -55711,5 +55714,82 @@
     "saved": "All nine MOD model LOW/HIGH frequency/gain pairs and named parameter mappings retained in canonical comparison evidence.",
     "limits": "Text extraction only;physical control arrangement,connector sizes and simultaneous behavior not visually verified.",
     "remaining": "Control panel corroboration/expression/buttons,full IO/memory/simultaneous ceiling,powerbarrelbatteryUSB,IR/editor,condition-confirmedprices,bassvocal."
+  },
+  "discovery_compact_amplug_20261017": {
+    "checked": "2026-10-17",
+    "primary_model": "NUX Mighty Plug MP-2",
+    "product": "https://nuxaudio.com/product/mightyplug/",
+    "primary_facts": "Own model explicitly supports guitar/bass and electric-to-acoustic IR simulation. V2 seven presets;14 Pre-EFX names,sixMOD,fourdelay,fourreverb listed. Micro-B USB audio, MightyAmp iOS/Android;firmware2.3 separate from Pro. ECO shuts down after2min without headphones or6min without guitar/Bluetooth/USB signal.",
+    "source_conflict": "IR resolution sentence names Mighty Air,not Plug;do not adopt512samples without exact-model corroboration.",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/NUX-MP2-MP-2-MP-2-Mighty-Plug-Guitar-And-Bass-Amplug-With-Bluetooth-ORIGINAL-i.130137603.3008444335",
+        "seller": "HAWILA MUSIK INDONESIA",
+        "shop": "130137603",
+        "item": "3008444335",
+        "region": "Kota Surabaya",
+        "idr": 989999,
+        "crawl": "five months",
+        "condition": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/NUX-MP2-Mighty-Plug-Headphone-Guitar-Amplifier-MP-2-Amplug-i.250276993.25710410858",
+        "seller": "Soundstationstore",
+        "shop": "250276993",
+        "item": "25710410858",
+        "region": "Kota Tangerang Selatan",
+        "idr": 1140000,
+        "crawl": "two months",
+        "condition": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/NUX-MP2-Mighty-Plug-Headphone-Guitar-Amplifier-MP-2-Amplug-i.71552895.25110576797",
+        "seller": "GH MUSIC STORE",
+        "shop": "71552895",
+        "item": "25110576797",
+        "region": "Kota Tangerang Selatan",
+        "idr": 994400,
+        "crawl": "five months",
+        "condition": "unverified"
+      }
+    ],
+    "queued": [
+      {
+        "model": "Fender Mustang Micro Plus",
+        "url": "https://shopee.co.id/Fender-Mustang-Micro-Plus-Guitar-Combo-Amplifier-Headphone-Guitar-Amp-i.16879370.26916147755",
+        "seller": "Seven Stereo Music & Audio Store",
+        "shop": "16879370",
+        "item": "26916147755",
+        "region": "Kota Bandung",
+        "idr": 2635000,
+        "crawl": "three months",
+        "condition": "unverified"
+      },
+      {
+        "model": "Valeton Dapper Amp Mini",
+        "url": "https://shopee.co.id/VALETON-DAPPER-AMP-MINI-i.16416856.2504929501",
+        "seller": "rozioktanza",
+        "shop": "16416856",
+        "item": "2504929501",
+        "region": "Kota Bengkulu",
+        "idr": 900000,
+        "crawl": "last month",
+        "condition": "unverified"
+      },
+      {
+        "model": "Valeton Dapper Amp Mini",
+        "url": "https://shopee.co.id/Valeton-Dapper-Amp-Mini-Multi-Effect-Strip-i.338305078.12251090181",
+        "seller": "Dial Musik",
+        "shop": "338305078",
+        "item": "12251090181",
+        "region": "Kota Palembang",
+        "idr": 1850000,
+        "crawl": "four months",
+        "stock_label": "Habis",
+        "condition": "unverified"
+      }
+    ],
+    "limits": "All indexed historical asks,notlivecheckout. No condition-specific used/new allocation;stock/variant/bundle,authenticity,warranty,shipping/tax/vouchers unresolved. Queued models need own documentation before adding.",
+    "next": "MP-2 own manual via productlink63;verify counts/power/memory/IO/revisions and add guitar+bass record,commit before queued next."
   }
 }
