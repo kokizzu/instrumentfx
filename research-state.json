@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-200",
-    "task": "GP200 delaytitles/behavior saved withDualEcho duplicate andextractedrowalignmentconflict; DLYtotalnotcertified. Next AMP/CAB/PRE/DSTcensus orfreshShopeediscovery; originalpanel/tablevisualverification remainsopen.",
+    "task": "GP200 PRE31 namedchoices saved; MOD27/WAH6/NR4/EQ6/RVB12/VOL1 retained; DLYextractionconflictopens. Next AMP/CAB/DSTcensus orfreshShopeediscovery; exactpanelcountsremainopen.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61371,5 +61371,48 @@
       "Trailbypassnotpresetchangeproof"
     ],
     "limits": "Numericmaximaandoriginalrowalignmentunverified"
+  },
+  "gp200_pre_inventory_20261017": {
+    "source": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "revision": "Firmware1.8.0manualpp25–30",
+    "count": 31,
+    "names": [
+      "COMP",
+      "COMP4",
+      "S-Comp",
+      "Micro Boost",
+      "AC Boost",
+      "B-Boost",
+      "P-Boost",
+      "14 Boost",
+      "FAT BB",
+      "Boost",
+      "OD 9",
+      "Yellow OD",
+      "Penesas",
+      "Super OD",
+      "Blues OD",
+      "AC Refiner",
+      "AC Sim",
+      "T-Wah",
+      "A-WAH",
+      "Step Filter",
+      "OCTA",
+      "Pitch",
+      "P-Bend",
+      "Hammy",
+      "Harmonizer 1",
+      "Harmonizer 2",
+      "Ring Mod",
+      "Saturate",
+      "Auto Swell",
+      "Hold",
+      "Freeze"
+    ],
+    "findings": [
+      "ACRefineracousticinstrumentShapevsACSim",
+      "TWahinputintensityGuitarBassvsAWahperiodicrate"
+    ],
+    "limits": "Crosscategoryduplicatesnotuniquegrandtotal;installedfirmwareunverified"
   }
 }
