@@ -2308,7 +2308,11 @@ Checked 2026-10-17; partial. Bass-focused processor; ownership and guitar/vocal 
 | Expression | Built-in treadle;full-down press toggles assigned module. **No CONTROL IN**: external FP01/FP02/FS01 support is B1-only. [Manual pp5,26][B1XO-M] |
 | K/F/B | **2 rotary/2 footswitches/4 buttons**,text inventory: Module,VALUE;two patch switches;RHYTHM,STORE,BANK UP/TAP,PEDAL ASSIGN. Toe action additional;visual corroboration pending. [Manual pp4–5][B1XO-M] |
 | Display | Two-digit seven-segment LED;diagonal/color/touch unverified. [Manual p27][B1XO-M] |
-| Processing / categories | **46 types;8 serial modules usable together**. One type per module;category counts pending. [Manual pp18,27][B1XO-M] |
+| Processing / categories | **46 types;8 serial modules usable together**. One type per module;Category choices documented below. [Manual pp18,27][B1XO-M] |
+| Categories / dynamics and EFX | **2 dynamics**: compressor,limiter. **9 EFX**: auto wah,resonance filter,octave,tremolo,phaser,ring mod,defret,slow attack,pedal Vox. **DRIVE:13 amp/stomp models plus MONO SYN**. [Manual pp19–20][B1XO-M] |
+| Categories / modulation and ambience | **11 MODULATION/DELAY choices**: chorus,ensemble,flanger,step,mono pitch,HPS,vibrato,pitch bend,detune,delay,tape echo. **7 REVERB/DELAY choices**: delay,tape,analog,ping-pong,hall,room,spring. These share their respective module,not independent blocks. [Manual pp22–24][B1XO-M] |
+| Delay / time limits | MODULATION/DELAY delay/tape reaches **5s**;REVERB/DELAY delay/tape/analog reaches **3s**. Delay adjustment10ms steps through1s,then100ms steps. [Manual pp23–24][B1XO-M] |
+| Expression / assignment limits | Target and settings save per patch. A type lacking a pedal symbol ignores assignment;in bypass,pedal always controls volume. Targets:volume,COMP/LIMIT,EFX,DRIVE,MODULATION/DELAY,REVERB/DELAY,or disabled. [Manual p17][B1XO-M] |
 | Preset memory | **40 user+40 read-only factory=80**;user area initially duplicates factory patches. [Manual pp3,25][B1XO-M] |
 | Synth / acoustic | **MONO SYN** is monophonic,single-note bass synthesis. Acoustic conversion unverified;ACOUSTIC amp name alone proves none. [Manual p20][B1XO-M] |
 | I/O | Mono quarter-inch bass input,stereo quarter-inch combined line/headphone output,DC. No CONTROL IN on B1X. [Manual pp4–5,27][B1XO-M] |

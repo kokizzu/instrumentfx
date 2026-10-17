@@ -393,7 +393,7 @@ def main():
         if mode == 'commit-m100':
             message = 'research(tc-electronic): qualify X5 historical editor platforms'
         if mode == 'commit-rfx1100':
-            message = 'research(zoom): add original B1X bass comparison with own manual'
+            message = 'research(zoom): detail original B1X categories and pedal limits'
         if mode == 'commit-spx990':
             message = 'research(yamaha): document SPX1000 user reflections MIDI maps and recall limits'
         if mode == 'commit-spx900':

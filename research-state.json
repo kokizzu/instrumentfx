@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1X original",
-    "task": "Original B1X bass record added; next category choices and software-support evidence. Keep seller Next alias and mixed price unresolved; do not add duplicate alias.",
+    "task": "Original B1X category choices/timing and pedal restrictions saved. Next current official support/software evidence or explicit defer, then fresh discovery; seller Next alias and mixed price remain unresolved.",
     "next_models": [],
     "after_queue": "Continue bass/vocal/guitar discovery; preserve all prior gaps and migration limits. No downloads/workflows/push."
   },
@@ -55346,5 +55346,19 @@
     },
     "next": "OriginalB1Xadded;categorychoices,pedalassignmentlimits,softwareandcondition-specificpricegapsremain;Nextaliasunresolved.",
     "added": true
+  },
+  "b1x_categories_checkpoint_20261017": {
+    "source": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf",
+    "pages": "17,19–24",
+    "counts": {
+      "dynamics": 2,
+      "efx": 9,
+      "drive_models": 13,
+      "drive_mono_synth": 1,
+      "modulation_delay": 11,
+      "reverb_delay": 7
+    },
+    "limits": "One choice per respective module;5secondMODdelayversus3secondREVERBdelay;assignmentonlypedalsymboltypes,bypassvolume.",
+    "remaining": "Ownsoftware-supportevidence,visualcorroboration,actualdrawbarrelsize,IRNAM/editor,genuinecondition-specificShopeepriceandNextalias;allotherpriorgapsretained."
   }
 }
