@@ -2202,7 +2202,9 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Expression | External EV-5 or FV-300L + PCS-33 supported; built-in/toe details pending. | [Manual p34][ME8-M] |
 | K/F/B | Separate rotary, footswitch and button counts pending visual/text reconciliation. | Unresolved |
 | Display | **Three-character seven-segment LED**; diagonal and touch unverified. | [Manual p34][ME8-M] |
-| Processing / categories | Compressor; drive; Humanizer/EQ; Harmonist/Pitch; Chorus/Flanger/Phaser/Tremolo; delay; reverb; suppression; amp simulator. Exact simultaneous ceiling and choice counts pending. | [Manual p34][ME8-M] |
+| Processing / categories | Compressor; drive; Humanizer/EQ; Harmonist/Pitch; Chorus/Flanger/Phaser/Tremolo; delay; reverb; suppression; amp simulator. **23 effects available; up to 11 simultaneously**. Choice counts and exclusions remain partly unresolved. | [Manual p34][ME8-M] |
+| Categories / drive and harmonies | **Five analog drive alternatives**: Overdrive, Turbo Overdrive, Blues Driver, Distortion, Hard Distortion (Metal Zone); External selects a connected drive. Harmonist adds **two harmony notes** to the guitar, producing three-note harmony. | [Manual pp3,20][ME8-M] |
+| Live / control and transitions | CTL function is assignable per patch. Manual pedals switch individual effects; tempo pedals set delay time/rate. Delay/reverb tails continue when moving to a patch without those effects. Exact transition restrictions pending. | [Manual p3][ME8-M] |
 | Preset memory | **50 user + 50 preset = 100**, plus Manual settings; initial user contents pending. | [Manual p34][ME8-M] |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. | Unresolved |
 | I/O | Input; L/Mono and R outputs; stereo mini headphones; external drive send/return; Manual Remote; Tuner Remote; EXP; Tempo In; adapter. | [Manual p34][ME8-M] |

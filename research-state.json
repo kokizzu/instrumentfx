@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-8",
-    "task": "ME-8 primary specifications saved. Next own-manual front panel and algorithm restrictions via indexed manufacturer text; preserve exact listing access limitations.",
+    "task": "ME-8 23-effect/11-simultaneous ceiling and drive/harmony/live basics saved. Next exact panel counts and category restrictions from indexed official manual.",
     "next_models": [],
     "after_queue": "Continue brand/series Shopee discovery. Preserve RP200, AX100G, ME-30, GT-5 and RFX-2000 deferred gaps. No downloads, workflows or push."
   },
@@ -54188,5 +54188,11 @@
     "pages": "34",
     "access": "40-page official PDF; body extraction empty, manufacturer search-indexed specifications readable.",
     "remaining": "Controls, built-in/toe EXP, algorithms/simultaneous restrictions, live features, display/editor/IR/NAM, battery/USB and new price."
+  },
+  "me8_processing_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+    "pages": "3,20",
+    "finding": "23 effects/up to11 simultaneous, five analog drives plus external selection, two added harmony notes, per-patch CTL and delay/reverb transition behavior saved.",
+    "remaining": "Control counts, precise combination restrictions, category alternatives, expression details, software/display and market gaps."
   }
 }
