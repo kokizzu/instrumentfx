@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GX-1B",
-    "task": "Firmware and separate Mac driver evidence saved. Next resolve USB channels/bit depth, editor/driver OS requirements, IR length and qualified offers; fresh exact Shopee GX1B search yielded no result this turn, not absence evidence.",
+    "task": "GX1B desktop application identity, minimum firmware and processor support saved. Next USB channels/format, exact OS compatibility table, IR length and fresh qualified Shopee offers; Windows driver direct page still times out.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57515,6 +57515,15 @@
       "sources": [
         "https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/9c505ff1-0aeb-4769-b792-b06196da9c8b/",
         "https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/7168d209-4443-43ce-a2ac-dfc211d909b6/"
+      ]
+    },
+    {
+      "model": "BOSS GX-1B",
+      "checked_date": "2026-10-18",
+      "finding": "Desktop Tone Studio for GX1 1.0.0 explicitly supports GX1B firmware>=1.03; Mac Intel/Apple silicon supported; OS versions delegated to Exclusive Application table, distinct from drivers. Tone Exchange internet required. Windows driver page timeout persists.",
+      "sources": [
+        "https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/8beff124-53fa-4bae-b997-9032a9b31072/",
+        "https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/20dd9dd9-85f2-42f4-9662-56874e660049/"
       ]
     }
   ],

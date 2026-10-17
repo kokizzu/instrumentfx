@@ -176,6 +176,15 @@ Checked 2026-10-18; support pages read only, no software downloaded or hardware 
 | Processing / version scope | **1.03 (January 2026)** lists unspecified minor fixes. Firmware is explicitly GX-1B-only; the startup display shows installed version. No installed version was inspected here. | [Official GX-1B history](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/9c505ff1-0aeb-4769-b792-b06196da9c8b/) |
 | Editor / separate macOS driver | **GX-1/GX-1B driver 1.0.0** is shared between these named models. Its page delegates supported macOS versions to the Hardware & Driver compatibility table; the archive Readme may differ. This establishes a driver offering, not USB channel count, bit depth or unrestricted OS support. Windows driver page timed out twice; requirements remain unverified. | [Official macOS driver page](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/7168d209-4443-43ce-a2ac-dfc211d909b6/) |
 
+### GX-1B — desktop editor requirements
+
+Checked 2026-10-18 against the separately listed Windows and Mac application pages.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Editor / application identity and firmware | Desktop **BOSS TONE STUDIO for GX-1 1.0.0** explicitly supports GX-1B and requires **GX-1B firmware 1.03 or later**. The application name is shared; the separate GX-1 minimum is 1.02 and must not be substituted for the bass model. Both pages describe a USB data connection. | [Windows application](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/8beff124-53fa-4bae-b997-9032a9b31072/); [Mac application](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/20dd9dd9-85f2-42f4-9662-56874e660049/) |
+| Editor / platform and network scope | Mac application explicitly supports **Apple silicon and Intel processors**. Both application pages refer OS versions to the **Exclusive Application** compatibility table, separately from Hardware & Driver. Tone Exchange requires internet. These pages do not establish USB stream format or offline Tone Exchange access. | [Windows application](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/8beff124-53fa-4bae-b997-9032a9b31072/); [Mac application](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/20dd9dd9-85f2-42f4-9662-56874e660049/) |
+
 
 ## ME-90B
 
