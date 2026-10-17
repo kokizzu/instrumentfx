@@ -343,7 +343,7 @@ def main():
         if mode == 'commit-fx50':
             message = 'research(flamma): add FX50 with explicit manual and seller variation limits'
         if mode == 'commit-fg200':
-            message = 'research(flamma): add FG200 with firmware-qualified library and charging limits'
+            message = 'fix(comparisons): retain firmware qualifications beside model counts'
         if mode == 'commit-fv04':
             message = 'research(flamma): add FV04 vocal harmony with qualified source and price limits'
         if mode == 'commit-fv03':

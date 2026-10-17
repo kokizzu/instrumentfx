@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Bass/vocal discovery and technical follow-ups",
-    "task": "FX50 recorded with source/variation limits. Seek different exact bass/vocal leads;priorFV05/FX11 filtered queries unresolved. Prioritize original FX50 PDF and FG200 firmware projection gaps if discovery stays inconclusive.",
+    "task": "FG200 model-count firmware qualification now projected and regression-tested. FX50 original PDF remains inaccessible via web reader; retain qualified transcription fields. Next different exact bass/vocal leads or existing primary specification gaps.",
     "next_models": [],
     "after_queue": "Continue technical verification and migration; no downloads/workflows."
   },
@@ -40983,6 +40983,14 @@
       "fix": "comparison-plan now previews README count updates; comparison-apply writes the reviewed README under the same input hashes.",
       "status": "passed",
       "after": "README and all four tables agree:184 guitar,90 bass(21 focused69 shared),31 vocal;222 root-canonical."
+    },
+    "firmware_projection_regression": {
+      "model": "Flamma FG200",
+      "trigger": "Firmware-qualified model changes existed in full record/practical-use table but omitted from processing/model-count comparison.",
+      "before": "make comparison-test-fields failed on Firmware-qualified model changes.",
+      "fix": "Project this specific model-qualification field into processing as well as practical-use context.",
+      "status": "passed",
+      "after": "Focused test passed; actual FG200 processing row retains original counts and v1.2.1/v1.2.5/v1.2.6 qualifications."
     }
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
