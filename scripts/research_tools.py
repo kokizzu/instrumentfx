@@ -569,7 +569,7 @@ def main():
         if mode == 'commit-b2-followup':
             message = 'research(zoom): reconcile B2 FOUR effect category inventory'
         if mode == 'commit-ax3000g':
-            message = 'research(korg): verify AX3000G tuner bypass and save behavior'
+            message = 'research(korg): verify AX100G live routing and regional adapters'
         if mode == 'commit-pandora':
             message = 'research(korg): include qualified PANDORA stomp historical offer in comparisons'
         if mode == 'commit-vl3x':

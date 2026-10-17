@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX3000G",
-    "task": "Own tuner/bypass/save behavior saved;continue missing hardware discovery or unresolved manufacturer fields.",
+    "model": "Korg AX100G",
+    "task": "Own rhythm/tuner/routing/power behavior and regional adapter names saved;continue fresh discovery or unresolved fields.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3000G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX100G."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60120,5 +60120,25 @@
       "site:shopee.co.id \"Line6\" \"M13\" efek"
     ],
     "result": "No qualified new hardware offer;M13 adapter216990724/6861766207 rejected,not processor. No absence claim."
+  },
+  "ax100g_live_routing_20261017": {
+    "sources": [
+      "https://www.korg.com/de/products/effects/ax100g/page_2.php",
+      "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B"
+    ],
+    "findings": [
+      "Tuner438–445reset440;A0C7;rhythm40–208level0–30stopsbypassmuteedit",
+      "Monooutputleftonly;AUXmixexceptionPhraseTrainer;powerplugbehavior",
+      "RegionalTUNT4vsKA181retainedwithoutpolarityinference"
+    ],
+    "remaining": "Displaydetails,current/polarity,imports/software,qualifiedoffers."
+  },
+  "discovery_gfx1_gfx8_ax100g_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Zoom\" \"GFX-1\"",
+      "site:shopee.co.id \"Zoom\" \"GFX-8\"",
+      "site:shopee.co.id \"Korg\" \"AX100G\""
+    ],
+    "result": "Existing AX100G mixedmodel22551702/3568008855 remains unqualified for model-specific amount;GFX8 results sensor38361451/8214243069 andadapter732732692/20031217262 notprocessors;no new active record."
   }
 }

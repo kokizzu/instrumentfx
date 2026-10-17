@@ -390,6 +390,9 @@ Checked2026-10-17;partial. Guitar scope; bass/vocal suitability and ownership un
 | Categories / ambience and cabinets | AMB7choices:Delay,Room1,Room2,Garage1,Garage2,Hall,Arena. Delay10ms–2s withtap;not7simultaneousambiences. CABI6:1×8,1×10,1×12,2×12,4×10,4×12. CabinetmodelsdonotestablishuserIRimport. | [Manual pp15–16][AX100-M] |
 | Practice / Phrase Trainer | Records up to **8 seconds from AUX IN or GTR IN**. Playback slows from 100% to 25% in 5% steps without pitch change. MOD, PEDAL and AMB turn off temporarily; expression controls guitar volume. Guitar editing is unavailable. Exiting trainer or powering off erases the recording. | [Manual p8][AX100-M] |
 | Processing / shared restrictions | Some MOD/PEDAL or PEDAL/AMB combinations cannot coexist: enabling one automatically disables the other. Seven-effect ceiling does not guarantee every algorithm combination. Specific exclusions are documented below. | [Manual pp7,10][AX100-M] |
+| Live / tuner and rhythm | Tuner **A0–C7 (27.5–2093Hz)**;reference438–445Hz resets440at power-up. Program-mode simultaneousUP/DOWN bypasses;hold≈1s mutes. Rhythm40–208BPM,level0–30;stops in bypass,mute orEdit. | [Manual pp6–7][AX100-M];[Own specifications][AX100-S] |
+| I/O / practical routing | Mono cable from stereoOUTPUT carries **left channel only**,not a stereo sum. AUX mixes with processed sound exceptPhraseTrainer;source controls AUX volume. Battery power starts with monoINPUT plug;stereo plug does not switch it on. Adapter connection powers unit directly;no power switch. | [Manual pp5,7][AX100-M] |
+| Power / regional adapter names | German own specification lists **TUNT4**,while Japan compatibility table listsKA181. Preserve regional names separately;neither inspected text establishes actual draw,barrel or polarity. | [Own specifications][AX100-S];[Adapter table][AX100-A] |
 | Looper / drums / live | PhraseTrainer8s slowdownwithoutpitchchange;Sample&Play6s pedalplayback;50rhythmpatterns+metronome,tapdelay,tuner. Detailedrestrictions pending. | [Manual p3][AX100-M] |
 
 ### Separate IDR hardware offers
@@ -453,3 +456,5 @@ Checked2026-10-17. The [official Japanese-hosted EFGJ1 manual](https://cdn.korg.
 Korg’s [current specification text for the KA181 accessory](https://www.korg.com/jp/products/tuners/pbxsbass/specifications.php) explicitly calls that adapter **9V,center-negative**. This is accessory evidence linked by the AX10B manual, not a direct reading of the AX10B socket symbol. The tuner’s40mA draw is **not** AX10B consumption; AX10B draw and connector dimensions remain unknown.
 
 Japanese p48 explicitly instructs FUNCTION+VOLUME(NR), corroborating the English footnote and front-panel inventory; the conflicting English TAP+EFF.DEPTH wording remains preserved above.
+
+[AX100-S]: https://www.korg.com/de/products/effects/ax100g/page_2.php
