@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 M9",
-    "task": "Bypass,loop EQ/save/tuner/gate verified. Continue fresh Shopee discovery or remaining model gaps;do not resolve duration/PREPOST conflicts without stronger evidence.",
+    "model": "Line 6 POD HD400",
+    "task": "USB sample rates,processed send and monitoring verified;continue fresh discovery or remaining model gaps.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 M9."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD HD400."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60015,5 +60015,35 @@
       "Scene save/reset scope,tuner425–455Hz,enabled globalgate"
     ],
     "remaining": "Duration28/56 vs30/60 and PRE/POST wording conflicts unresolved;display,actual draw,imports,current software and qualified offers remain."
+  },
+  "hd400_usb_routing_20261017": {
+    "source": "https://line6.com/data/6/0a06434df9be5005ac8bcc52f/application/pdf/POD%20HD300%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf",
+    "sections": "8•2–13",
+    "identity": "83page own RevA Flash2.0 guide explicitly HD300/400;browser text only",
+    "findings": [
+      "Single stereo processed recording send",
+      "Native48k vs converted44.1/88.2/96k;Mac24bit",
+      "Separate monitor/record levels;Windows18dB boost;no fixed latency inferred"
+    ],
+    "remaining": "CurrentOS,physical dimensions,power polarity/draw,screen,imports,qualified used/new offers remain."
+  },
+  "discovery_m13_gt10b_ax3000b_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Line 6\" \"M13\" pedal",
+      "site:shopee.co.id \"Boss\" \"GT-10B\" bass",
+      "site:shopee.co.id \"Korg\" \"AX3000B\""
+    ],
+    "result": "No qualified new hardware leads returned;not proof of absence.",
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/replacement-power-supply-9V-2000mA-Line-6-Adaptor-Penganti-Line6-POD-9VAC-M13-Pedal-AC-9-V-9-Vac-2A-i.216990724.6861766207",
+        "reason": "Replacement adapter,not M13 processor",
+        "indexed_idr": 144200
+      },
+      {
+        "url": "https://shopee.co.id/search?keyword=boss+gt+10",
+        "reason": "GT10B mentions concern power adapters;alreadyrecorded AMPLIFiFX100 unrelated"
+      }
+    ]
   }
 }

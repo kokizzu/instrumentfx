@@ -433,7 +433,7 @@ def main():
         if mode == 'commit-readme-counts':
             message = 'fix(navigation): synchronize complete brand model lists from ledger'
         if mode == 'commit-hd400':
-            message = 'research(line6): cross-check HX Effects supplied adapter specifications'
+            message = 'research(line6): clarify HD400 USB recording and monitoring'
         if mode == 'commit-xtlive':
             message = 'research(line6): qualify XT Live Silicon support and discontinued updater'
         if mode == 'commit-x3live':
