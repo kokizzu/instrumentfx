@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G1Xnext",
-    "task": "Initial286threcord saved fromownmanualindexedidentity andmanufacturerbodymirror. Next enumeratecategorychoices, verifyacousticsimulator andZNR/AMP8moduleaccounting, preserveG1Nonlyexternalcontrol. Commitbeforenextmodel.",
+    "task": "54categorychoices reconciled;acousticsimulation confirmed. Next verifyinitialusermemory andpreselect/store behavior inownmanualmirror;retain display/editor/import gaps, then Shopeediscovery.",
     "next_models": [],
     "after_queue": "286partialmodels;no downloads/workflows/push."
   },
@@ -57548,14 +57548,30 @@
       "808382190/25408459659 conditionunknown650000Habis2week"
     ],
     "remaining": [
-      "Category counts",
       "Initial user memories",
-      "Acoustic/synth",
       "Display diagonal/color/touch",
       "Editor/imports",
       "Visual controls",
-      "Current condition-qualified stock"
+      "Current condition-qualified stock",
+      "Synth engine"
     ],
+    "downloads": false
+  },
+  "g1xnext_category_20261017": {
+    "source": "https://manualzz.com/doc/o/1sbh9f/zoom-g1n-operation-manual-controls-and-functions---connections--g1xn-",
+    "identity": "G1N/G1XN-5000-1 originalbody pp3,21–27",
+    "counts": {
+      "comp_efx": 9,
+      "drive": 21,
+      "eq": 1,
+      "znr_amp": 4,
+      "modulation": 10,
+      "delay": 4,
+      "reverb": 5
+    },
+    "sum": 54,
+    "module_qualification": "ZNR andAMP separate in8module diagram;combined4choice selector",
+    "acoustic": "ACO.SIM electrictoacoustic;GAINcontrolsTOP",
     "downloads": false
   }
 }

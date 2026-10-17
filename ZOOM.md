@@ -2496,9 +2496,9 @@ G1XN / G1XNext; guitar multi-effects, checked2026-10-17; partial. Not G1Xon or G
 | Expression | Built-in; full-down press toggles assigned module. External control socket belongs to G1N only. |
 | K/F/B | **2/2/4**, text-derived: selector,VALUE;two footswitches;RHYTHM,STORE,BANK UP/TAP,PEDAL ASSIGN. Toe additional; visual audit pending. |
 | Display | **2-digit7-segment LED**;diagonal/color/touch unverified. |
-| Processing / choices | **54 types;8 simultaneous modules**. COMP/EFX,DRIVE,EQ,ZNR/AMP,MODULATION,DELAY,REVERB;ZNR andAMP are separate in signal diagram. Category enumeration pending. |
+| Processing / choices | **54 types;8 simultaneous modules**. COMP/EFX,DRIVE,EQ,ZNR/AMP,MODULATION,DELAY,REVERB;ZNR andAMP are separate in signal diagram. The category inventory below reconciles54. |
 | Factory / user memory | **40 read-only+40 user=80**;initial user contents unverified. |
-| Synth / acoustic | Unverified. |
+| Synth / acoustic | **ACO.SIM converts electric-guitar tone to acoustic-like sound**; synth engine unverified. |
 | Dimensions / weight | **155D×234W×52Hmm;600g without batteries**. |
 | I/O | Mono quarter-inch input;stereo quarter-inch combined line/phones output;DC. No USB/MIDI/loop in panel inventory. |
 | Power | **9VDC300mA centre-negative AD-0006;4AA alkaline**,about12h;adapter rating,actual draw unknown. No USB power. |
@@ -2523,4 +2523,18 @@ Both are dated sold-out asks, not live stock or completed sales. Working state,s
 [G1XN-M]: https://manualzz.com/doc/o/1sbh9f/zoom-g1n-operation-manual-controls-and-functions---connections--g1xn-
 [G1XN-S1]: https://shopee.co.id/Efek-Gitar-Zoom-G1XNext-Original-Second-i.138807197.29829717508
 [G1XN-S2]: https://shopee.co.id/Zoom-G1XNext-i.808382190.25408459659
+
+### G1Xnext — category inventory
+
+Checked2026-10-17 against original manual pp3,21–27, footerG1N/G1XN-5000-1, reproduced in [G1XN-M]. Counts below are derived from named entries, not parameter steps.
+
+| Field | Evidence / gaps |
+|---|---|
+| Category choices — COMP/EFX | **9:** Compressor,Auto Wah,Booster,Tremolo,Phaser,Ring Mod,Slow Attack,Pedal Vox,Pedal Cry. |
+| Category choices — DRIVE | **21:** FD COMBO,VX COMBO,US BLUES,BG CRUNCH,HW STACK,MS CRUNCH,MS DRIVE,PV DRIVE,DZ DRIVE,BG DRIVE,OVER DRIVE,GOVERNOR,SQUEAK,FUZZ SMILE,HOT BOX,Z CLEAN,Z MP1,Z NEOS,LEAD,EXTREME DS,ACO.SIM. |
+| Category choices — EQ and ZNR/AMP | **EQ1** with160Hz/800Hz/3.2kHz bands. **ZNR/AMP4:** ZNR alone,Combo+ZNR,Bright Combo+ZNR,Stack+ZNR. Cabinet/noise combinations share a selector; eight-module diagram separates ZNR andAMP. |
+| Category choices — MODULATION | **10:** Chorus,Ensemble,Flanger,Step,Pitch Shift,Mono Pitch,HPS,Vibrato,Pitch Bend,Delay. |
+| Category choices — DELAY and REVERB | **Delay4:** Delay,Tape Echo,Analog Delay,Ping Pong. **Reverb5:** Hall,Room,Spring,Arena,Tiled Room. |
+| Processing / count reconciliation | **9+21+1+4+10+4+5=54** listed choices. They are not54 concurrent effects or21 amp models. |
+| Delay / live | MODULATION Delay reaches2s; dedicated DELAY reaches5s. Selecting ACO.SIM makes GAIN adjust acoustic TOP instead of distortion gain. |
 
