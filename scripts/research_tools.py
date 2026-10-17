@@ -653,7 +653,7 @@ def main():
         if mode == 'commit-market1-union':
             message = 'audit: preserve complete first Shopee shared comparison and historical qualifications'
         if mode == 'commit-owned-union':
-            message = 'audit: preserve seven owned-model shared summaries and identity context'
+            message = 'docs: restore B1Xon historical commit provenance in owned summary'
         if mode == 'commit-cube-union':
             message = 'audit(mvave): preserve all Cube Baby shared rows and historical qualifications'
         if mode == 'commit-audota-union':

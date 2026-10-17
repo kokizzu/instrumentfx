@@ -228,7 +228,7 @@ Preserved from the2026-10-14/15 seven-model comparison. Original commit referenc
 
 JOYO's original product identity is now established by its own Chinese/English product pages. The previously rejected MOOER-labelled manual was not used. B1Xon is not B1X FOUR or G1Xon; GR-55 is not GM-800.
 
-GR-55 initial `2b637fb61c243776b1a0a9d192ce17848295eeac`,correction `da9ff9bb01b8be8109f5b588c656de3daaf41c9c`;B1Xon `8b6664672c3f0756f754d1b1e10216421e3ca19f`.
+GR-55 initial `2b637fb61c243776b1a0a9d192ce17848295eeac`,correction `da9ff9bb01b8be8109f5b588c656de3daaf41c9c`;B1Xon `8b6664672c3f0756f754d1b1e10212421e3ca19f`.
 
 Shared finding references: [Original finding1](effects/findings/2026-10-14-roland-gr-55.md) · [Original finding2](effects/findings/2026-10-14-zoom-b1xon.md) · [Original finding3](effects/findings/2026-10-15-joyo-gembox-original.md) · [Original finding4](effects/findings/2026-10-15-mvave-mini-x.md) · [Original finding5](effects/findings/2026-10-15-mvave-pocket-amp.md) · [Original finding6](effects/findings/2026-10-15-cuvave-h8.md) · [Original finding7](effects/findings/2026-10-15-ving-fb100.md).
 

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Legacy consolidation audit",
-    "task": "Repair owned shared union one missing prose group from effects/owned-multifx.md; inspect emitted /tmp union plan and current destinations. Full technical-retirement-verify passes compact/floorboard/NUX/bass/vocal/advanced/BOSS/Audota/cube, stops at owned. Preserve old facts and qualifiers, no verifier weakening.",
+    "task": "Repair market1 source prose group using /tmp/instrumentfx-market1-union-plan.json; owned union now passes. Continue full technical-retirement-verify through remaining market sources; do not weaken preservation checks.",
     "next_models": [],
     "after_queue": "Other field gaps and exact Shopee discovery; no downloads/workflows."
   },
@@ -41078,9 +41078,10 @@
       "scope": "All complete-model-rows manifests scanned; only this missing fact found. Full verifiers rerun separately.",
       "remaining_failure": {
         "target": "make technical-retirement-verify",
-        "audit": "audit_shared_variant_union(owned)",
+        "audit": "market1 shared union",
         "missing_groups": 1,
-        "status": "Model fields99/7models and references/URLs pass; one prose group missing."
+        "model_fields": 288,
+        "model_count": 16
       },
       "compact_repair": {
         "status": "Original paragraph URLs restored; altered forms retained as unverified transcription provenance.",
@@ -41105,6 +41106,12 @@
         "difference": "MG-101 front/rear timestamps altered from1771628910 to1771638910.",
         "repair": "Original source group restored; altered URLs retained separately as unverified provenance.",
         "verification": "Full technical-retirement-verify passed NUX9groups/90fields and continued through bass/vocal/advanced/BOSS/Audota/cube; fails at owned shared union one prose group."
+      },
+      "owned_repair": {
+        "original": "8b6664672c3f0756f754d1b1e10212421e3ca19f",
+        "transcription_error": "8b6664672c3f0756f754d1b1e10216421e3ca19f",
+        "repair": "B1Xon historical commit identifier restored in shared summary; ZOOM.md already retained correct identifier. No ownership evidence changed.",
+        "verification": "Full technical-retirement-verify: owned union seven models/99fields/nine prose groups, no missing fields/groups/references/URLs. Next failure market1 one prose group."
       }
     }
   },
