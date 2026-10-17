@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Player",
-    "task": "Continue Player14.2 algorithm/category census and precise feature transition dates;PROFILE2.0 capture routing now saved. Fresh eligible Shopee discovery remains.",
+    "task": "Compare current14.2 effect list and release notes against table discrepancy;continue fresh discovery.",
     "next_models": [],
     "after_queue": "Continue remaining model gaps;no downloads,workflows orpush."
   },
@@ -63247,5 +63247,46 @@
     "finding": "Desktop assisted creation uses right MonitorOut as send and TS instrumentIn as mic/DIreturn;no additional capture socket. Studio/Direct/Liquid supported;monitoring,recabling/save requirements recorded.",
     "conflict": "Earlier Liquid chapter retains larger-model-only creation wording;explicit Player profiling chapter supersedes for this revision.",
     "limits": "No capture performed;phantom power and live vocal processing not inferred."
+  },
+  "player_upgrade_category_audit_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://www.kemper-amps.com/store/es/profiler-player-upgrades.html",
+    "essential_named_counts": {
+      "wah": 1,
+      "compressor": 1,
+      "gate": 2,
+      "distortion": 7,
+      "booster": 1,
+      "EQ": 3,
+      "chorus_named": 4,
+      "tremolo": 7,
+      "phaser_flanger": 2,
+      "pitch": 2,
+      "delay": 3,
+      "reverb": 4
+    },
+    "upgrade_additions": {
+      "compressor": 1,
+      "wah": 7,
+      "distortion": 2,
+      "booster": 3,
+      "shaper": 5,
+      "EQ": 5,
+      "chorus": 2,
+      "phaser_flanger": 3,
+      "pitch": 4,
+      "delay": 4,
+      "pitch_delay": 10,
+      "reverb": 4
+    },
+    "essential_named_total": 37,
+    "essential_printed_total": 38,
+    "additions_total": 50,
+    "combined_named_total": 87,
+    "combined_printed_total": 88,
+    "headline": 91,
+    "conflict": "Essential Chorus heading says5 but lists4 names;additions and essential sums do not reach91. No missing algorithms inferred.",
+    "limits": "Published historical upgrade-table taxonomy,not installed firmware census;fixed processing excluded.",
+    "next": "Compare current14.2 effect list and release notes against table discrepancy;continue fresh discovery."
   }
 }
