@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Legacy preservation audit",
-    "task": "Four preservation checks passed and physical117-path inventory reconciled. Full make technical-retirement-verify is still live in exec session47111; poll that handle before restarting. Do not claim full technical audit passed until successful exit. Research remains partial.",
+    "model": "Fresh Shopee discovery and unresolved technical fields",
+    "task": "Full preservation recheck completed:99 technical sources/13metadata/3JSON plus specialist archive.117 compatibility paths retained. Resume fresh exact Shopee hardware discovery or unresolved model specifications; do not repeat audit without changed preservation evidence.",
     "next_models": [],
-    "after_queue": "Resume exact Shopee discovery/incomplete fields after observing current audit. No downloads/workflows/push."
+    "after_queue": "337 partial unique models; research and compatibility-path migration remain incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45290,11 +45290,23 @@
       },
       "full_technical_check": {
         "target": "make technical-retirement-verify",
-        "status": "running_not_yet_verified",
-        "session_id": 47111,
-        "next": "Poll this existing exec session; do not launch duplicate audit while it is live."
+        "status": "passed",
+        "successful_session_id": 58542,
+        "exit_code": 0,
+        "technical_sources": 99,
+        "retired_technical_sources": 99,
+        "incoming_link_occurrences": 0,
+        "result": "All shared-source unions passed;99 original technical source headings and root destinations preserved.",
+        "prior_failed_attempt": {
+          "target": "make technical-retirement-verify",
+          "status": "retry_required",
+          "previous_session_id": 47111,
+          "previous_exit": 2,
+          "reason": "Concurrent ledger status write briefly exposed incomplete JSON; prior completed source-union checks passed but full run did not finish. Rerun with inputs unchanged; no preservation pass claimed."
+        }
       },
-      "limitations": "These checks verify retained evidence, not manufacturer truth or current market/stock.117 compatibility paths remain; overall migration and technical research incomplete."
+      "limitations": "These checks verify retained evidence, not manufacturer truth or current market/stock.117 compatibility paths remain; overall migration and technical research incomplete.",
+      "inputs_unchanged_during_successful_run": true
     }
   },
   "deferred_work": {

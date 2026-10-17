@@ -1114,7 +1114,7 @@ technical-retirement-plan:
 technical-retirement-apply:
 	python3 scripts/technical_retirement.py apply
 technical-retirement-verify:
-	python3 scripts/technical_retirement.py verify
+	python3 -u scripts/technical_retirement.py verify
 technical-retirement-commit:
 	python3 scripts/technical_retirement.py commit
 technical-retirement-rollback-plan:
