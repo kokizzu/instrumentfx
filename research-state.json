@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP200",
-    "task": "Dynamics settings, Auto Swell timing and coupled modulation controls saved. Commit before next model. Existing guide back-cover discrepancy retained; no new qualified price. Display, external/toe expression, imports and software gaps persist; continue fresh discovery and exact primary documentation; no downloads/workflows.",
+    "model": "Korg AX10G",
+    "task": "Named category inventory and pedal persistence/calibration saved; commit before next model. Power polarity/current, screen specifics, external support, imports/software and current hardware prices remain unresolved. Continue different model documentation and fresh Shopee discovery; no downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX10G."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57100,6 +57100,14 @@
       "finding": "Clarified compressor response settings versus algorithms, Auto Swell200ms–2s and coupled modulation rate/depth controls. RP200/RP300/RP12/RP6 Shopee discovery found only existing RP200 historical offer; no new qualified unit.",
       "sources": [
         "https://media.zzounds.com/media/RP200Manual-d239d252d141496e53cadcc26b39fcb2.pdf"
+      ]
+    },
+    {
+      "model": "Korg AX10G",
+      "checked_date": "2026-10-18",
+      "finding": "Added named PRE/MOD/AMBIENCE and amp selector inventory, pedal position persistence/volume toe exception and hand calibration. AX10G/AX1G/AX1500B/AX10A Shopee search returned only already recorded AX10G offer; no new qualified unit.",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf"
       ]
     }
   ],

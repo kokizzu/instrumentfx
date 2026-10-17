@@ -247,6 +247,15 @@ Korg AX10G support links the AX10-Series EasyStart. The readable filename= query
 
 [AX10-E]: https://cdn.korg.com/us/support/download/files/6d29b2b401333c3fa4b58f256d3b30e4.pdf?response-content-disposition=inline%3Bfilename%3DAX10_Series_EasyStart.pdf&response-content-type=application%2Fpdf%3B
 
+### AX10G — named inventory and pedal limits
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / named categories | PRE: COMP, WAH/A.WAH, ACOUSTIC. MOD: CHORUS, FLANGE, PHASER, TREM, ROTARY, FEEDBK, PITCH1, FILTER, U-VIBE, TALK, PITCH2. AMBIENCE: SLAP, ECHO1/2/3, PP DLY, MULTI, AIR, ROOM, HALL, PLATE, SPRING. NR adds one, totaling26 non-amp choices. WAH/A.WAH share a selector position and depend on pedal assignment. | [Manual pp11–12][AX10-M] |
+| Processing / amp selector | EQ, BTQ CLN, BLK212, TWD410, AC15, AC30TB, UK70S, UK80S, UK MDN, RECTO, FUZZ: eleven selector alternatives, including EQ and fuzz, not eleven conventional amplifiers. | [Manual p11][AX10-M] |
+| Expression / persistence and switching | Volume assignment is always on; full-forward cannot disable it. Programs cannot save a fixed pedal position: the current position always controls sound. Changing PRE away from WAH changes a WAH pedal assignment to volume. | [Manual pp10,12][AX10-M] |
+| Expression / calibration | Power on holding FUNCTION+PEDAL FX. Using a hand, move fully back, release, confirm PEDAL FX; repeat fully forward. MASTER cancels. Display symbols were not decoded; no hardware action performed. | [Manual p13][AX10-M] |
+
 ## AX1000G
 
 Guitar multi-effects;distinct fromAX1500G/AX100G. Checked2026-10-17;partial. Korg discontinued. Bass/vocal suitability and ownership unverified.
