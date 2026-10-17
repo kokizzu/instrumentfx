@@ -48,19 +48,23 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | No built-in pedal/toe on this rack unit; external EXP unverified. Quarter-inch TRS foot-pedal connection documented; exact control functions pending. | [Manual specifications][M300-M] |
-| K/F/B | Separate rotary/button census pending; zero built-in footswitches. Three parameter knobs and a program-selection knob advertised, not a complete rotary count. | [Product][M300-P] |
-| Display | Manufacturer describes an LED program display; diagonal, other display technology, color and touch remain unverified. | [Product][M300-P] |
+| Expression | No built-in pedal/toe on this rack unit; external EXP unverified. Quarter-inch TRS foot-pedal connection documented; control functions detailed below. | [Manual specifications][M300-M] |
+| K/F/B | **6 / 0 / 6**, text-derived: Input,Page/Select,A/B/C,Program/Load; Exit,Tempo,Effect Bypass,Store,System,Program Bypass. Two encoder pushes and power switch additional. Visual corroboration pending. | [Manual E pp4–5,14][M300-E] |
+| Display | Main LCD plus separate program-number display and status LEDs. Supersedes LED-only summary; diagonal,color/touch unverified. | [Manual E pp4–5][M300-E] |
 | Dimensions / mass | **483W×44H×185D mm including knobs;162mm depth without knobs;2.6kg**. 1U rack footprint. | [Manual p50][M300-M] |
 | Processing / categories | Product advertises 16 reverbs,7 delays,dbx compression/de-essing and modulation effects. Full per-category/total enumeration pending. | [Product][M300-P] |
 | Routing / simultaneous effects | Routes 1–4 provide two effects: Dual Mono,Cascade,Parallel/Dual Stereo,Mono Split. Route 5 uses all DSP for one higher-complexity stereo effect. Do not treat five routes as five simultaneous engines. | [Manual p16][M300-M] |
-| Factory / user memory | Factory-filled,user and total program memory counts unverified; no MX200 counts borrowed. | Unresolved |
+| Factory / user memory | **99 factory+99 user=198 locations**; initial user-bank fill unverified. Computer library is separate from onboard capacity. | [Manufacturer cut sheet][M300-S]; [Manual E p34][M300-E] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. | Unresolved |
 | I/O | Two XLR+two quarter-inch TRS inputs; matching output pairs, balanced/unbalanced. RCA S/PDIF I/O; MIDI DIN IN/OUT; USB1.1 control; quarter-inch TRS foot pedal; mains. S/PDIF24-bit44.1/48kHz. | [Manual p50][M300-M] |
 | Power / battery / USB | **18W**. Separate 100–120VAC and 220–240VAC models; rear voltage label determines version. Not a universal-input supply. DC polarity inapplicable to mains input; battery/USB operation unverified. Manual’s EU “56/60Hz” text retained as unresolved publication/extraction anomaly. | [Manual p50][M300-M] |
 | IR / NAM / capture | User IR,native/converted NAM and capture loading unverified. | Unresolved |
-| Editor / platforms | MX Edit Mac2.2.0/Windows2.3.1,2016 releases; NetUpdater1.0 is separate. VST/AU hardware-plugin integration documented. Current OS support,bitness and USB audio transport remain unverified. | [Product software listing][M300-P] |
+| Editor / platforms | MX Edit Mac2.2.0/Windows2.3.1,2016 releases; NetUpdater1.0 is separate. VST/AU hardware-plugin integration documented. Current OS support,bitness and USB audio transport not established; documented audio path qualified below. | [Product software listing][M300-P] |
 | Instrument scope / live | Own manual p10 documents guitar amp-loop hookup; product explicitly targets voice/instrument effects. Use appropriate line-level mixer/preamp routing. Looper,drums,scenes,spillover and direct-mic support pending. | [Manual p10][M300-M]; [Product][M300-P] |
+| I/O / MIDI label conflict | Rear-panel manual and cut sheet say IN/THRU; specification table says IN/OUT. Preserve conflict; do not assume independently generated MIDI OUT. | [Manual E p6][M300-E]; [Cut sheet][M300-S]; [Manual C p50][M300-M] |
+| External control | LEX-DFS two-button TRS switch supported. Ring/tip functions select program up/down, program/individual-effect bypass or tap for effect 1, effect 2, both. | [Manual E pp6,33][M300-E] |
+| USB / plug-in audio connection | USB controls editor/plugin. Audio requires external interface sends/returns via S/PDIF or analog; one plugin instance per physical unit. Occupied Control MIDI port can prevent connection. | [Manual E pp41–43][M300-E] |
+| Input routing / limits | Inserting quarter-inch input disables corresponding XLR input. S/PDIF source must supply 44.1/48kHz master clock;96kHz unsupported. | [Manual E pp6–7][M300-E] |
 
 ### Separate IDR hardware offers
 
@@ -73,8 +77,11 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 
 The used listing is a cached asking price, not a completed sale or current-stock certification. “Ori” and working-condition wording are seller claims. Actual voltage revision, adapter/mains cable,bundle,warranty,shipping/tax,variant and checkout availability remain unknown. Rp10,000 late-arrival compensation is not a purchase discount. No foreign price conversion.
 
-Primary product and manual direct opens returned403; indexed manufacturer passages inspected, not full visual PDF coverage. The original manual is 18-0473 revisionC. No files/software/dependencies downloaded. Physical controls,display details,full choice enumeration,memory and unresolved facilities require further verification.
+Initial product/manual C direct opens returned403; those indexed sources remain preserved. HARMAN-hosted manual filename 18-0473V-E is now readable as browser text; selected sections inspected, not full visual coverage. No files/software/dependencies downloaded. Remaining: visual control corroboration,display details,full choice enumeration,user-bank initial fill and unresolved facilities.
 
 [M300-P]: https://lexiconpro.com/en-US/products/mx300/description
 [M300-M]: https://lexiconpro.com/en-US/product_documents/mx300_manual_18-0473v-cpdf
 [M300-O]: https://shopee.co.id/Effek-LEXICON-MX300-ori-bekas-normal-i.752257787.29416419948
+
+[M300-E]: https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf
+[M300-S]: https://lexiconpro.com/en-US/product_documents/mx300_datasheetpdf

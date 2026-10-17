@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX300",
-    "task": "Verify own manual controls,memory,full choices and software/audio distinction using indexed primary text or identity-checked manufacturer manual mirror. Direct official pages403; used ask remains cached.",
+    "task": "MX300 controls,198-slot memory,LCD,external switches and plugin audio path saved from accessible HARMAN manual E. Next verify full per-routing category choices and count discrepancies; retain manual C versus E/provenance qualifications. Then MX400/SPX2000 saved leads.",
     "next_models": [
       "Lexicon MX400",
       "Yamaha SPX2000"
@@ -53469,5 +53469,13 @@
   },
   "bass_fly_rig_v2_visual_attempt_20261017": {
     "result": "CUA iab unavailable; inventory has no browsers/apps. No usable visual verification; physical census remains open. Other work can proceed."
+  },
+  "mx300_manual_followup_20261017": {
+    "sources": [
+      "https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
+      "https://lexiconpro.com/en-US/product_documents/mx300_datasheetpdf"
+    ],
+    "finding": "Manufacturer-hosted E manual accessible;6 rotary,0footswitch,6separate buttons plus2encoder pushes;text-derived;LCD confirmed;99factory+99user;IN/THRU versus IN/OUT conflict;two-button controls and separate analog/SPDIF plugin audio.",
+    "remaining": "Visual counts,screen details,full categories,user-bank fill,current software support and price stock/revision."
   }
 }
