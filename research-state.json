@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Pocket Master QME-10",
-    "task": "Bass capability,convertedNAM,USBformat/electrical specs/currentversions saved. Continue unresolved algorithm/practice/OS/offers orfreshShopee discovery.",
+    "task": "Pocket Master manual platform restrictions,USB2in2out,looper placement and acoustic/polyphonic distinctions saved. Verify currentsoftware differences orcontinue fresh Shopee discovery;avoid treating desktop manager as full editor.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60493,5 +60493,16 @@
     ],
     "remaining": "Bassalgorithm inventory,acceptedNAMarchitectures,touch,looperdetails,currentOSandqualifiedoffers.",
     "access": "HTMLonly;nopackagesdownloaded"
+  },
+  "pocketmaster_manual_platforms_20261017": {
+    "source": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual",
+    "identity": "Manufacturer product manual link returned202page multilingual firmware1.3.0PDF;Englishpp11–15",
+    "findings": [
+      "Desktop Manager excludes tone/parameter editing per manual;mobile excludes firmware updates",
+      "USB2in2out;Pre/Post looper placement",
+      "ACSimfourmodes;polyphonicOctave/Pitch descriptions"
+    ],
+    "access": "BrowserPDFtextonly;plain existingmanualURLinaccessible,but current manufacturerlink querysuffix returned text;no download orvisualclaim",
+    "remaining": "Current1.5.2editorbehavior,looper duration/persistence,touch,NAM limits,allcategorycounts/currentOS/qualifiedoffers."
   }
 }
