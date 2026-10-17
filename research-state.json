@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "GT-3 Easy Edit restrictions saved;19-button total withdrawn pending physical control reconciliation. Next algorithm catalogue/simultaneous ceiling and panel sharing; do not treat function labels as distinct physical buttons.",
+    "task": "GT-3 official patch-list combinations and routing saved. Next own-manual algorithm category catalogue; do not infer global ceiling from examples. Physical buttons/toe remain unresolved.",
     "next_models": [
       "Zoom 606"
     ],
@@ -54338,5 +54338,11 @@
     "page": "19",
     "finding": "Onboard Easy Edit and Patch Data restrictions saved. Previous19-button total withdrawn: p71 lists19 functions but p19 names EZ Edit/Variation/Drive/Tone/Mod/Delay; physical sharing needs reconciliation.",
     "remaining": "Exact total buttons, visual corroboration, toe behavior, simultaneous ceiling/categories and existing unknowns."
+  },
+  "gt3_patch_routing_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT3USR.pdf",
+    "page": "4",
+    "finding": "Specific simultaneous combinations, Phaser-before-preamp routing and combined CTL/BPM examples saved; no global ceiling inferred.",
+    "remaining": "Algorithm category catalogue, global simultaneous ceiling, physical buttons/toe and other existing gaps."
   }
 }

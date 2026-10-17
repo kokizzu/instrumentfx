@@ -2251,6 +2251,8 @@ Checked 2026-10-17; partial. Guitar/acoustic-electric multi-effects; bass/vocal 
 | Display | **16-character × 2-line backlit LCD**; diagonal, color and touch pending. | [Manual p71][GT3-M] |
 | Processing / categories | Official product says **32 effects**, manual introduction **31**; conflict retained. Simultaneous ceiling pending. COSM preamp, **12 analog drive choices**, speaker/mic simulation. | [Product][GT3-P]; [Manual p5][GT3-M] |
 | Editor / onboard Easy Edit | Hardware editing offers Type and Variation plus four sound adjustments: Drive, Tone, Modulation and Delay. Patch Data preserves corresponding original settings; Variation cannot change when Type is Patch Data. Save with Write before relying on edits. This is onboard editing, not evidence of computer-editor support. | [Manual p19][GT3-M] |
+| Processing / documented combinations | Manufacturer patch list documents **Harmonist + Slow Gear** (32-3), **Auto Wah + Phaser + Panner** (33-3), and **Step Phaser + Panner + Delay** (34-4). Patch 35-4 places Phaser before the preamp. These establish particular combinations/routing, not a global simultaneous ceiling or every possible combination. | [Official patch list p4][GT3-L] |
+| Live / combined CTL assignment | Patch 34-2 uses CTL to change preamp volume and add delay together. Patch 31-4 synchronizes Slicer and Panner speed through Master BPM. Factory patch examples establish documented assignments, not arbitrary unlimited target counts. | [Official patch list p4][GT3-L] |
 | Preset memory | **140 user + 200 preset = 340**; initial user contents pending. | [Manual p71][GT3-M] |
 | Synth / acoustic | Guitar synth and acoustic simulation documented; Auto Riff triggers riffs from a note. Acoustic-electric preamp and anti-feedback also documented. | [Manual p5][GT3-M]; [Product][GT3-P] |
 | I/O | Input, L/Mono and R outputs, stereo mini headphones, send/return, shared SUB EXP/SUB CTL1,2, MIDI In/Out; adapter input. | [Manual p71][GT3-M] |
@@ -2276,3 +2278,5 @@ Bundle, adapter, working state, authenticity, warranty, shipping, tax and vouche
 [GT3-P]: https://www.boss.info/us/products/gt-3/
 [GT3-O]: https://shopee.co.id/efek-gitar-boss-gt3-i.168736454.52302189094
 [GT3-C]: https://shopee.co.id/search?category=11043572&keyword=efek+gitar+boss&page=2&subcategory=11043648
+
+[GT3-L]: https://cdn.roland.com/assets/media/pdf/GT3USR.pdf
