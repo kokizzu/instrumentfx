@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Matribox II Pro shared bass added from own bass amps/cabinets. Continue currentfirmware/MIDI/algorithm gaps orfreshShopee discovery;unique model already recorded.",
+    "task": "Matribox II Pro release1.2.2 additions and1.1.4Clone threshold saved. MIDI contradiction unresolved by note;continue fresh Shopee discovery and remaining category/architecture evidence.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee brand/series discovery and unresolved technical verification;no downloads,workflows orpush."
   },
@@ -60452,5 +60452,20 @@
     "scope": "Shared bass inclusion of existing model;unique count unchanged",
     "identity": "Official regional firmware1.1.1 manual,previously matched exact Pro model",
     "remaining": "Currentfirmware retention,measuredlowend,MIDIcontradiction/type-A/B,completealgorithm inventory and qualifiedused/newoffers."
+  },
+  "matribox_ii_pro_release_20261017": {
+    "source": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_PRO_Release_Note_5b928021-e0a4-4625-bff7-bac71eafb2de.pdf?v=1777710672",
+    "identity": "Threepage own release note linked from exact QME200 product;versions1.2.2/1.1.4/1.0.1",
+    "findings": [
+      "1.2.2 six named algorithms with module families;monophonic harmony/pitch distinctions",
+      "GlobalAUXlevel/GlobalTempo/tuner change",
+      "1.1.4 introduces Clone NAM loading;not A2/native architecture proof"
+    ],
+    "remaining": "MIDIoutputnotresolved;fullcurrentcategorycounts,USBpowerbattery,acceptedNAMarchitectures,qualifiedused/new offers.",
+    "access": "BrowserPDFtextonly;no firmware/software downloads"
+  },
+  "discovery_boomave_20261017": {
+    "query": "site:shopee.co.id \"Sonicake\" \"BOOM Ave\"",
+    "result": "No results returned;not absenceproof or new inventory."
   }
 }
