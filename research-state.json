@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 277,
+  "active_model_count": 278,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 277,
+  "canonical_root_model_count": 278,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "277uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.V-AMP3guitar/bass;USBthroughseparateUCA222.",
+  "count_reconciliation": "278uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.ToneLabEXguitaronly.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee brand/series discovery",
-    "task": "All117legacy paths already registered redirects/pointers,not unmerged sources. Full99technicalsource preservation and2945local-link audit pass at277models. Resume exact hardware discovery;prioritize original POD/Floor POD/GT10B/RPseries leads,qualify variants before adding;do not repeat retired-source mutations.",
+    "model": "VOX ToneLab EX",
+    "task": "ToneLabEX added from exact Shopee hardware lead and ownE1manual. Next verify complete physical controls andpedal-category breakdown;keep stand-alonepedal/amp exclusivity and700mAconsumption distinct fromsupplyrating.",
     "next_models": [],
-    "after_queue": "277partialmodels;227guitar/111bass/50vocal. Compatibility paths remain;fieldverification/marketcoverage incomplete. No downloads/workflows/push."
+    "after_queue": "278partialmodels;continue fullfieldverification andShopeediscovery;all117legacy paths accounted for,butcompatibilitypathsremain.No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23972,7 +23972,8 @@
       "ToneLab SE",
       "StompLab 2B",
       "StompLab 1G",
-      "StompLab 2G"
+      "StompLab 2G",
+      "ToneLab EX"
     ],
     "Tech 21": [
       "Fly Rig 5 v2",
@@ -24315,7 +24316,8 @@
       "ToneLab SE",
       "StompLab 2B",
       "StompLab 1G",
-      "StompLab 2G"
+      "StompLab 2G",
+      "ToneLab EX"
     ],
     "TECH21.md": [
       "Fly Rig 5 v2",
@@ -24351,7 +24353,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 227,
+      "record_count": 228,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41323,10 +41325,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 277,
-    "canonical_root_models": 277,
+    "unique_brand_model_pairs": 278,
+    "canonical_root_models": 278,
     "legacy_only_models": 0,
-    "guitar_view_models": 227,
+    "guitar_view_models": 228,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41386,7 +41388,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer V-AMP 3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab EX."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41599,6 +41601,7 @@
       "VOX::ToneLab SE",
       "VOX::StompLab 1G",
       "VOX::StompLab 2G",
+      "VOX::ToneLab EX",
       "Tech 21::Fly Rig 5 v2",
       "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
@@ -43835,6 +43838,13 @@
     },
     "VOX::StompLab 2G": {
       "link": "VOX.md#stomplab-2g",
+      "source_files": [
+        "VOX.md"
+      ],
+      "finding_files": []
+    },
+    "VOX::ToneLab EX": {
+      "link": "VOX.md#tonelab-ex",
       "source_files": [
         "VOX.md"
       ],
@@ -56858,5 +56868,22 @@
     "reverb": "Brochuretableends8withMedium/LargeRoomcombined;manual9;documentconflictnotfirmwareclaim",
     "mass": "Both0.8kg;brochureapprox1.76lb vsmanual1.6lb",
     "access": "Webtext only;no download/visualaudit"
+  },
+  "tonelab_ex_primary_20261017": {
+    "manual": "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf",
+    "identity": "E1,44pages,©2010VOX;webtextonly",
+    "offer": "https://shopee.co.id/Vox-Tonelab-Ex-i.4466947.42755664991",
+    "seller": "bejita",
+    "region": "Kab.Tulang Bawang Barat",
+    "idr": 1700000,
+    "condition": "unknown",
+    "stock": "unverified",
+    "access": "index2months;directopenfailed;no photos inspected",
+    "excluded_accessory": "https://shopee.co.id/Casing-Efek-VOX-tonelab-ex-i.80816302.22315555452",
+    "gaps": "Physicalcontrols,polarity,screen,editorOS,IRNAMcapture,looperdrums,synthacoustic,conditionqualifiedoffers."
+  },
+  "discovery_pod_frontier_20261017": {
+    "store": "https://shopee.co.id/hopemusik",
+    "qualification": "Mixed X3Live/XTLive/FloorPODPlus/FloorPOD storecard Rp3199000 unallocated;HD101Bean title ambiguous;no exactitem captured;not priced orcounted asnewmodels."
   }
 }

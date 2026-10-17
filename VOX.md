@@ -266,3 +266,32 @@ Both checked2026-10-17. Rp10,000 late-arrival compensation is not a purchase dis
 [SL2G-J]: https://voxamps.com/ja/product/stomplab-2g/
 
 [SL2G-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IIG_OM_EFGSJ1.pdf
+
+## ToneLab EX
+
+Checked 2026-10-17. Partial guitar multi-effects record; distinct from LE/ST/SE. [VOX manual E1](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf),44pages,©2010;web text read,no download orvisual audit.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | Built-in;full-forward activation toggles assigned effect except volume. External EXP/toe mechanism unknown. |
+| Controls | Separate rotary/footswitch/button counts unverified;program1–4 andBankUp/Down pedals documented. |
+| Display | Bank/value display;diagonal,color,touch unknown. |
+| Processing / choices | **33amps,11cabinets;45effects:26pedal,11modulation,4delay,3reverb,1NR**. Up to9simultaneous includingNR/volume. Eleven stand-alone pedals **replace amp**,not ordinary single-function hardware. |
+| Presets | **100factory+100editableuser=200**. |
+| Synth / acoustic | Dedicated synth/acoustic-conversion capabilities unknown. |
+| Dimensions / weight | **394W×238D×82H mm;3kg**. |
+| I/O | Guitarinput,stereo miniAUX,shared stereo/monoOUTPUT/PHONES,USB-B,DC12V. Two1-inch speakers,approx0.3W×2;output plug mutes speakers. No externalEXP/MIDI-DIN/FXloop in rear inventory. |
+| Power | **12V DC,700mA consumption**;polarity symbol unread. Battery/USBpower unknown. |
+| USB / software | USB audio andlibrarian documented;Windows audio requiresASIOdriver. USB playback bypasses effects. Full-editorOS/currentcompatibility unknown;driver≠editor. |
+| IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
+| Looper / drums / live | Looper/drums/scenes unknown;Program Select/Stomp Box modes,tuner,QuickAssign. |
+
+### ToneLab EX — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used | Unknown | — |
+| New | Verified new-condition price unknown | — |
+| Condition unverified / bejita,Kab.Tulang Bawang Barat | **Rp1.700.000**;index2months,checked2026-10-17;directopen failed. Stock,selectedvariant,adapter/bundle,warranty,voucher,shipping/tax unknown. August delivery estimate andlate-arrival voucher do not prove stock ordiscount. | [4466947/42755664991](https://shopee.co.id/Vox-Tonelab-Ex-i.4466947.42755664991) |
+
+Separate casing item80816302/22315555452,Rp250.000,is not processor-price evidence. Guitar scope verified;no bass/vocal membership inferred.
