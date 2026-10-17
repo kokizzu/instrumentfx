@@ -248,6 +248,7 @@ Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, dist
 | Condition / access | Amount | Exact offer / qualifications |
 |---|---:|---|
 | Condition-unverified cached ask | **Rp28.900.000** | [Seller253483262/item4945179423](https://shopee.co.id/Kemper-Profiler-Head-MK-2-Guitar-Amp-System-i.253483262.4945179423),exact Head MK2 hardware title,Jakarta Pusat in [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). September2026 cache checked2026-10-17;previous click cache-missed;clean direct URL now inaccessible through research tool. display_model_id21460754905. Seller name,condition,new/used,stock,bundle,variation,voucher,warranty,authenticity and installed OS unresolved. Cached ask,not live checkout or completed sale. |
+| Second condition-unverified cached ask | **Rp28.980.000** | [Seller2655003/item56115345772](https://shopee.co.id/Kemper-Profiler-Head-MK2-i.2655003.56115345772),exact Head MK2 title,Jakarta Utara. Same September2026 search cache checked2026-10-17;indexed crossed priceRp28.990.000 and1%badge retained as displayed,not recomputed or voucher proof. Direct click cache-missed;display_model_id401314457527. Seller name,new/used,stock,bundle,variation,voucher,warranty,authenticity and installedOS unresolved. Not live checkout or completed sale. |
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
