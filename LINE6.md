@@ -1382,7 +1382,7 @@ Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only fea
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | Built-in wah/volume/FX1 Pitch Glide;toe switches modes. External EXP unverified. [Manual][HD300-M] |
+| Expression | Built-in wah/volume/FX1 Pitch Glide;toe switches modes. No Pedal2 socket:shared guide explicitly reserves external Pedal2 for HD400. [Manual][HD300-M] |
 | K/F/B | **12 rotary/6 main footswitches/2 separate buttons**,plus4-way Nav disc,Presets encoder push and pedal toe switch. Rotary:Amp,Drive,Bass,Mid,Treble,ChVol,Reverb,FX1/2/3,Presets,rearMaster. Foot:A/B/C/D,Mode,Tap. Buttons:Save,FXOnly. Nav directions are not4separate button caps. [Manual][HD300-M] |
 | Display | Main LCD plus segmented bank/preset display;diagonal/color/touch unverified. [Manual][HD300-M] |
 | Processing / categories | FX1 gain/various/pitch;FX2 modulation/filter/tremolo;FX3 delay/tape/sweep;9reverbs. Exact algorithms/full ceiling pending. FXOnly globally disables amp modeling. [Manual][HD300-M] |
@@ -1398,6 +1398,9 @@ Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only fea
 | Processing / microphone choices | Guitar cabs offer8:57On/OffAxis,409Dyn,421Dyn,4038Ribbon,121Ribbon,67Cond,87Cond. FlipTop offers its own8:57OnAxis,421Dyn,12Dyn,112Dyn,20Dyn,7Dyn,40Dyn,47Cond. These are cabinet-dependent choices,not16simultaneous microphones. [Advanced guide][HD300-A] |
 | Processing / base amp names | 16knob-accessible entries:Blackface Double Normal,Hiway100,Super O,Gibtone185,Tweed B-Man Normal,Blackface Lux Normal,Divide9/15,PhD Motorway,Class A-15,Class A-30TB,Brit J-45 Bright,Brit P-75 Bright,Brit J-800,Bomber Uber,Treadplate,Angel F-Ball. Additional14Edit-only entries listed above. [Advanced guide][HD300-A] |
 | Processing / cabinet names | 17named choices:212Blackface Double,412Hiway,6×9Super O,112Field Coil,410Tweed59,112BF Lux,112Celest12-H,212PhD Ported,112Blue Bell,212Silver Bell,412Greenback25,412Blackback30,412Brit T-75,412Uber,412Tread V-30,412XXL V-30,115FlipTop;plusNone. This is the table inventory,not a resolution of the conflicting16cab prose. [Advanced guide][HD300-A] |
+| I/O / Live and Dual clarification | LIVE retains specially voiced Live cab processing without mic simulation. HD300 DUAL sends LIVE left and Studio mic/cab sound right on both balanced/unbalanced pairs;HD400 instead separates by connector family. Earlier “direct” wording must not imply raw bypass. [Advanced guide][HD300-A] |
+| Live / tuner and tempo | Tuner mutes output;any footswitch exits. System Tap Tempo is saved per preset,while FX2/FX3 TapCtl sync-enable remains global. These are separate settings. [Advanced guide][HD300-A] |
+| Expression / volume routing and noise tools | Volume may sit pre/post amp,with pedal assignments saved per preset. Gate menu provides Noise Gate and Noise Reduction,also saved per preset;not extra freely assignable FX1 selections. [Advanced guide][HD300-A] |
 | Preset memory | 32banks×ABCD=128locations,preloaded and overwritable. Rear Master unsaved. Additional factory library unverified. [Manual][HD300-M] |
 | Synth / acoustic | Synth and firmware-qualified bass evidence below;acoustic simulation unverified. |
 | I/O | GuitarIn,CD/MP3,¼inch unbalanced outs,XLR balanced outs,phones,L6LINK,USB,power. Remaining socket sizes/channel details pending. [Manual][HD300-M] |

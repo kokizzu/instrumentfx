@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD300",
-    "task": "HD30012rotary/6foot/2separatebuttons plus Navdisc/encoderpush/toe saved;all baseamp/cab names retained. Next seek manufacturer physical/power specifications and firmware history;retain reverb/amp/cab source conflicts and historical price limits.",
+    "task": "HD300 Live/Dual routing,Pedal2absence,tunermute and tempo-storage distinctions saved. Manufacturer physical/power evidence remains unresolved;next follow own KB/firmware sources or fresh qualified discovery without repeating community claims as specifications.",
     "next_models": [],
     "after_queue": "Fresh discovery;273records partial;legacyZoomleadsunqualified;no downloads/workflows/push."
   },
@@ -56377,5 +56377,12 @@
     "base_amp_names": 16,
     "cab_names": 17,
     "qualification": "Preserved model-specific inventory;power/size remain unresolved,not estimated from siblings/packaging."
+  },
+  "hd300_routing_clarification_20261017": {
+    "source": "https://l6c-acdn.line6.net/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf",
+    "pages": "2-1…2-6",
+    "corrections": "Live retains cab without mic;HD300Dualsplitsleft/rightbothconnectorfamilies;Pedal2HD400-only;tunermutes;systemtempo perpresetsyncenableglobal.",
+    "search_limits": "Power search found community DC3g claims but no qualified manufacturer electricalspec adopted. OfficialKBlinkedarticlescachemiss;not treatedasread. Physical/powergapsremain.",
+    "remaining": "Power/size/current/polarity,firmwarehistory,currentprices,IR/NAMsupport"
   }
 }
