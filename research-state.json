@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Catalogue research",
-    "task": "Resume fresh Shopee manufacturer/series discovery and resolve a model-specific technical gap; retain compatibility paths.",
+    "model": "HX Effects",
+    "task": "Continue unresolved display and power-operation evidence, newer firmware/IR conflicts, or fresh eligible Shopee discovery; Shuffling behavior now recorded.",
     "next_models": [],
     "after_queue": "Continue catalogue research; no downloads, workflows or push."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HX Effects."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -63109,5 +63109,13 @@
     "scope": "Technical verifier checks pinned originals, complete-body/model-row and shared-union content, exact generated stubs, original headings, destination existence and incoming anchors. Metadata verifies nonblank-line preservation and JSON typed reconstruction.",
     "limits": "Compatibility files remain; no deletion performed. Does not certify external availability or complete model specifications. Earlier union messages saying no source retirement describe individual audit authorization; technical verifier separately confirms existing 99 redirects.",
     "next": "Resume fresh Shopee manufacturer/series discovery and resolve a model-specific technical gap; retain compatibility paths."
+  },
+  "hx_effects_shuffling_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "RevD firmware3.80",
+    "page": 29,
+    "scope": "Shuffling Looper parameter roles, controller assignment, reshuffle/stop/delete behavior and pitch/reverse-only setup.",
+    "limits": "No installed firmware confirmation or hardware operation; parameter numeric ranges beyond octave intervals not established. Existing capacity/IR/display/power/offer qualifications remain."
   }
 }
