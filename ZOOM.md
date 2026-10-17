@@ -724,6 +724,14 @@ Checked2026-10-17 via [own support index](https://zoomcorp.com/en/us/multi-effec
 | IDR / additional exact hardware offer | **Rp1.990.000**, [sunnymusicpalembang,shop548551522/item25542280677](https://shopee.co.id/Zoom-B1-Four-Bass-Multi-Effect-Processor-Original-Efek-Gitar-i.548551522.25542280677),KotaPalembang. Checked2026-10-17,directpage,montholdcrawl;21–22August delivery stale. Condition,new/used,working status,adapter/bundle,variant,warranty,shipping/tax andcheckout stock unknown. NoHabis inretrievedtext is not stockproof;latecompensation notdeducted. Separate from earlier voucher-dependent AD-16E bundle andnot a verified retail range. |
 
 
+### B1 FOUR — saving and live patch selection
+
+| Field | Model-specific behavior / qualification |
+|---|---|
+| Memory / AUTO SAVE | Own operationmanual Z2I-3612-01 pp21,28–30:**AUTO SAVE defaultsON**,saving patch/effect edits asmade. OFF prompts tosave onpatchchange;NO discards edits. ManualSAVE can overwrite same/other slot;editedpatch must be saved beforeSWAP(pp23–26). Firmware update preserves savedpatches(p57);factory initialization overwrites settings/patches(p58). |
+| Live / preselection and tempo | PRESELECT holds currenttone whilechoosing destination,then confirmschange;BANK HOLD wraps withinbank(pp31–34). Shared mastertempo**40–250BPM** applies toeffects,rhythm andlooper(p27). Preselection does not certify gapless switching orspillover. [Official operationmanual](https://zoomcorp.com/media/documents/E_B1FOUR.pdf),checked2026-10-17. |
+
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.

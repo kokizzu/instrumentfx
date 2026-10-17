@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1 FOUR",
-    "task": "Corrected Palembangoffer modelplacement fromB2toB1FOUR;verify exactrecords notonlyALLBASS stringpresence. Continue remainingmanualfields/freshdiscovery.",
+    "task": "B1FOUR AUTO SAVE/Preselect/BankHold/sharedtempo andupdate/reset retention savedwithboundedsection. ContinuefreshShopeediscovery andremainingprimarygaps.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61020,5 +61020,19 @@
       "site:shopee.co.id Boss ME-8B"
     ],
     "result": "ExistingB1FOURhardware;nooriginalB1/506/AX3B/ME8Bqualifiedlead;irrelevantmatchesexcluded;notabsenceproof"
+  },
+  "b1four_patch_operation_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_B1FOUR.pdf",
+    "revision": "Z2I-3612-01",
+    "pages": "21,23–34,57–58",
+    "findings": [
+      "AutoSaveONdefault,OFFsavepromptNOdiscards",
+      "Saveoverwritessameother;saveeditsbeforeSwap",
+      "Preselectholdstoneuntildestinationconfirmation",
+      "BankHoldwithinbankwrap",
+      "Sharedmastertempo40–250",
+      "FWupdatepreservespatches;factoryresetoverwrites"
+    ],
+    "limits": "Missingbuttoniconsnotassigned;nogapless/spilloverclaim"
   }
 }
