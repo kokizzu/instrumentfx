@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Pocket Master QME-10",
-    "task": "Pocket Master manual platform restrictions,USB2in2out,looper placement and acoustic/polyphonic distinctions saved. Verify currentsoftware differences orcontinue fresh Shopee discovery;avoid treating desktop manager as full editor.",
+    "task": "Pocket Master release1.3.3looper20s,MIDIcontrol and1.1.0bass/Clone additions saved. Continue currentsoftware/architecture/algorithm/price gaps orfreshShopee discovery;do not repeatresolvedduration.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60504,5 +60504,16 @@
     ],
     "access": "BrowserPDFtextonly;plain existingmanualURLinaccessible,but current manufacturerlink querysuffix returned text;no download orvisualclaim",
     "remaining": "Current1.5.2editorbehavior,looper duration/persistence,touch,NAM limits,allcategorycounts/currentOS/qualifiedoffers."
+  },
+  "pocketmaster_release_20261017": {
+    "source": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178",
+    "identity": "Own two-page PocketMasterrelease note linked from product;1.3.3May2025 and earlier versions",
+    "findings": [
+      "1.3.3looper20s,BT/USBMIDI,ACGFX1,startupconfirmation",
+      "1.2.2PrePost;1.1.0Clone,ABassVT,VoksBass,BassDrive"
+    ],
+    "qualification": "AntiTouchdoesnotmeantouchscreen;no desktopeditclaimorunrestrictednativeNAMinferred",
+    "remaining": "Loopstoragepersistence,currentdesktopediting,generalalgorithmcounts,touch,architecturelimits/currentOS/qualifiedoffers.",
+    "access": "BrowserreleasePDFtextonly;nosoftwareorfirmwaredownload"
   }
 }
