@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Continue fresh Shopee brand/series queries or ME-90B wireless connection-guide/USB-format verification. ME-90B control/routing followup saved; cached offer duplicates add no new prices. Retain prior Soran/B3 gaps.",
+    "task": "Continue fresh Shopee brand/series discovery or ME-90B exact wireless-guide/USB-format verification. Windows driver restrictions and firmware history saved; reject Sweetwater-linked ME-90 sibling guide. Avoid repeated unchanged landing pages.",
     "next_models": [],
     "after_queue": "322 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -65535,5 +65535,15 @@
     "findings": "Wireless EV-1-WL/FS-1-WL supported despite no wired EXP jack; guide landing page lacks retrieved PDF. USB endpoint names not channel count. USB MIDI PC/CC11/82/80. Bluetooth playback excludes balanced XLR, unlike USB playback.",
     "market": "Three discovered exact offers were already preserved in BOSS.md; no new price promoted.",
     "remaining": "Wireless setup/firmware, USB channels/bitdepth, IR import constraints, detailed categories, electrical gaps and qualified offers remain open."
+  },
+  "me90b_driver_firmware_followup_20261018": {
+    "checked_date": "2026-10-18",
+    "sources": [
+      "https://www.boss.info/global/support/by_product/me-90b/updates_drivers/5eeefa47-0044-4b2c-ac1b-f2fba7214d1f/",
+      "https://www.boss.info/global/support/by_product/me-90b/updates_drivers/14808c74-0eb6-4444-a829-c49b73e75e1c/"
+    ],
+    "findings": "Driver1.0.0 Win10/11 restrictions saved. FW1.04 May2025 CTLLED fix and1.03 Apr2024 BLEND fix saved.",
+    "rejected_sibling_guide": "Sweetwater EV-1-WL link resolves to EV-1-WL_ConnectionGuide_ME-90_eng_01_W.pdf, ©2023 explicitly ME-90. Do not transfer >=1.03 threshold or pairing workflow to ME-90B.",
+    "remaining": "Exact ME-90B wireless guide, USB channel count/bitdepth, macOS/editor compatibility remain unresolved; no downloads or installations."
   }
 }

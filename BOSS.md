@@ -173,6 +173,15 @@ Original source URLs: [source](https://www.boss.info/global/products/me-90b/spec
 | USB audio / MIDI | Named audio endpoints: INPUT and MIX IN into the unit; OUTPUT and DRY OUT from it. These are endpoint names, not a verified channel count or bit depth. USB MIDI supports program changes and CC11 expression, CC82 pedal-effect on/off and CC80 CTL. Dedicated driver required. | [Reference manual][ME90B-M] pp12–13 |
 | Routing / Bluetooth | Computer playback reaches main outputs, phones and balanced XLR; optional Bluetooth audio reaches main outputs/phones but **not balanced XLR**. USB loopback can return computer audio to USB OUT. | [Reference manual][ME90B-M] pp12,14 |
 
+### ME-90B — driver and firmware restrictions, 2026-10-18
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Editor / driver restrictions | Windows driver **1.0.0** supports Windows 10/11; excludes ARM PCs, virtual Windows, Windows running on Mac and Windows 10 Mobile. These are driver restrictions, not a full editor compatibility matrix. USB channel count/bit depth remain unverified; no installer was downloaded. | [BOSS driver requirements](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/5eeefa47-0044-4b2c-ac1b-f2fba7214d1f/) |
+| Firmware / known issues | BOSS lists **1.04, May2025**: fixes incorrect CTL pedal LED behavior after patch changes or Tone Studio operations, plus unspecified minor bugs. **1.03, April2024** fixes a BLEND-function bug. Offered units’ installed versions remain unknown; no update performed. | [BOSS ME-90B system history](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/14808c74-0eb6-4444-a829-c49b73e75e1c/) |
+
+**Rejected sibling guide:** the EV-1-WL link in the [Sweetwater ME-90B quickstart](https://www.sweetwater.com/sweetcare/articles/boss-me-90b-bass-multi-effects-pedal-quickstart-guide/) resolves to [EV-1-WL Connection Guide for ME-90](https://static.roland.com/assets/media/pdf/EV-1-WL_ConnectionGuide_ME-90_eng_01_W.pdf), ©2023, cover explicitly ME-90. Its ME-90 firmware≥1.03 threshold and pairing workflow do not verify ME-90B requirements. The exact ME-90B guide remains unresolved.
+
 [ME90B-S]: https://www.boss.info/global/products/me-90b/specifications/
 [ME90B-M]: https://static.roland.com/assets/media/pdf/ME-90B_Reference_eng01_W.pdf
 [ME90B-P]: https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf
