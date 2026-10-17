@@ -499,10 +499,10 @@ Original sources: [source](https://www.boss.info/global/products/ve-20/specifica
 | Display / memory |16-character,two-line backlit LCD;diagonal/color/touch unspecified.30preset+50user=80 sounds total. [VE20-M] |
 | Power / body / ports | Original manual:9V,180mA;legacy190mA retained. Manufacturer2009 brochure instead190mA;revision unresolved. SixAA orPSA;manual estimates8h alkaline/2h carbon.173×158×57mm,1.1kg incl.batteries. Combo balancedXLR/TRS mic48V;twoXLR outs;quarter-inch stereo phones/line;DC. NoUSB/controller socket listed. [VE20-M], [VE20-B] |
 | Level conflict | Original manual nominal INPUT/OUTPUT -20dBu,phones-4dBu;2009 brochure -40/-40/-25dBu respectively. Both specify MicSens40 for input. Do not silently pick one revision. [VE20-M], [VE20-B] |
-| Looper / routing |38s mono;recorded phrase cannot be stored. Perform mode permits overdub;Check mode records dry voice for auditioning effects and cannot overdub. Outputs select mono,stereo,or leftmono/rightdry;also applies to phonesL/R. [VE20-M] |
+| Looper / routing |38s mono;recorded phrase cannot be stored. HARMONY pedal can toggle a selected section orCUSTOM group together;hold2s enters/exits sound-selection mode,thenleft selects previous/right next. Factory reset scopes ALL,SOUND(user sounds),SETUP(system parameters). [Manual pp14,17–19](https://static.roland.com/assets/media/pdf/VE-20_OM.pdf). Perform mode permits overdub;Check mode records dry voice for auditioning effects and cannot overdub. Outputs select mono,stereo,or leftmono/rightdry;also applies to phonesL/R. [VE20-M] |
 | K/F/B current | **1 rotary /2 main footswitches /6 front buttons**:SOUND;ON/OFF+HARMONY;PHRASE LOOP,MENU,REVERB LEVEL,EXIT,two cursors. Text-derived;visual corroboration pending. Rear power separate. [Manual p8](https://static.roland.com/assets/media/pdf/VE-20_OM.pdf) |
 | Expression current | No builtin expression/toe pedal or listed external controller. [Manual pp8–9](https://static.roland.com/assets/media/pdf/VE-20_OM.pdf) |
-| Processing / category choices current | Six independently switchable sections:Dynamics,Pitch Correct,Tone/SFX,Double/Harmony,Delay,Reverb. Complete choice counts and explicit simultaneous ceiling unverified. [Manual p10](https://static.roland.com/assets/media/pdf/VE-20_OM.pdf) |
+| Processing / category choices current | Six independently switchable sections:Dynamics,Pitch Correct,Tone/SFX,Double/Harmony,Delay,Reverb. Manualp18:Pitch Correct4types (Soft,Hard,Electric,Robot);Tone/SFX6 (Preamp,Distortion,Radio,Strobe,Chorus,Flanger);Reverb5 (Ambience,Room,Hall1,Hall2,Plate). Dynamics andDelay each have one listed parameter family;Delay1–4000ms. Harmony has two configurable parts (Double,interval harmony,Unison,Off);interval/depth settings are not additional algorithms. Explicit simultaneous ceiling remains unverified. [Manual pp10,18](https://static.roland.com/assets/media/pdf/VE-20_OM.pdf) |
 | Editor / IR / NAM / capture | No listed digital editor/import connection;IR,native NAM,converted NAM,capture and USB powering unestablished. No guitar processing inferred. DCpolarity still unverified. |
 
 [VE20-M]: https://static.roland.com/assets/media/pdf/VE-20_OM.pdf
@@ -523,7 +523,7 @@ Checked2026-10-16;exact hardware pages;condition,adapter/bundle,shipping,tax and
 
 Checked2026-10-17 against original manualpp8,10: current control enumeration supersedes unknown totals above;historical comparison preserved. No physical inspection.
 
-Remaining:visual control corroboration,processing distribution/simultaneous ceiling,screen diagonal/color/touch,hardware-revision current/level conflicts,DCpolarity,import capabilities,condition-verified used/new/currentstock/bundles. No original source deleted.
+Remaining:visual control corroboration,explicit simultaneous ceiling,screen diagonal/color/touch,hardware-revision current/level conflicts,DCpolarity,import capabilities,condition-verified used/new/currentstock/bundles. No original source deleted.
 
 ## GT-1000CORE
 

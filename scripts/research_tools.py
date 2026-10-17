@@ -337,7 +337,7 @@ def main():
         if mode == 'commit-ax1000g':
             message = 'research(korg): preserve second AX1000G sold-out offer separately'
         if mode == 'commit-ve20-followup':
-            message = 'research(boss): enumerate VE-20 controls and independent effect sections'
+            message = 'research(boss): verify VE-20 effect type counts and custom pedal groups'
         if mode == 'commit-gfx4':
             message = 'research(zoom): verify GFX-4 rotary controls and explicit-save behavior'
         if mode == 'commit-gfx5':
