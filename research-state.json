@@ -28,10 +28,14 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Kemper PROFILER Stage MK2",
-    "task": "Seek current main manual, Browse capacity and display; resume exact Shopee discovery if remaining sources inaccessible.",
-    "next_models": [],
-    "after_queue": "Remaintechnical/marketgaps;no downloads,workflows orpush."
+    "model": "Kemper PROFILER Rack MK2 lead",
+    "task": "Verify exact Rack MK2 manufacturer identity and full first-pass specifications before adding any model; commit each useful model record before next.",
+    "next_models": [
+      "Kemper PROFILER PowerHead MK2 lead",
+      "Kemper PROFILER PowerRack MK2 lead",
+      "Kemper PROFILER Head MK2 lead"
+    ],
+    "after_queue": "StageMK2 gaps remain open; continue manufacturer verification, Shopee discovery and lossless legacy migration. No downloads,workflows or push."
   },
   "new_findings": [
     {
@@ -63478,5 +63482,44 @@
     "identity": "Manufacturer administrator official post2026-09-22,directbodyinspected.",
     "finding": "Version-qualified editor minima and S/PDIF/gate fix saved;older requirements retained.",
     "next": "Seek current main manual, Browse capacity and display; resume exact Shopee discovery if remaining sources inaccessible."
+  },
+  "discovery_kemper_head_rack_20261017": {
+    "checked": "2026-10-17",
+    "search": "https://shopee.co.id/search?keyword=kemper+profiler",
+    "access": "Search page cached September2026; all four exact item clicks cache-missed. Asking prices only; not live checkout,stock or completed sales.",
+    "leads": [
+      {
+        "model": "PROFILER Rack MK2",
+        "item": "253483262/9807793662",
+        "url": "https://shopee.co.id/Kemper-Profiler-Rack-MK2-Rackmount-Profiling-Amp-Head-i.253483262.9807793662",
+        "idr": 28900000,
+        "display_model_id": "80578354848"
+      },
+      {
+        "model": "PROFILER PowerHead MK2",
+        "item": "253483262/9807619085",
+        "url": "https://shopee.co.id/Kemper-Profiler-Power-Head-MK2-Digital-Guitar-Amplifier-Multi-Effect-Processor-i.253483262.9807619085",
+        "idr": 37200000,
+        "display_model_id": "33098715508"
+      },
+      {
+        "model": "PROFILER PowerRack MK2",
+        "item": "253483262/5945173489",
+        "url": "https://shopee.co.id/Kemper-Profiler-Power-Rack-Mk2-600-watt-Rackmount-Profiling-Amp-Head-Gitar-i.253483262.5945173489",
+        "idr": 37200000,
+        "display_model_id": "50511361171"
+      },
+      {
+        "model": "PROFILER Head MK2",
+        "item": "253483262/4945179423",
+        "url": "https://shopee.co.id/Kemper-Profiler-Head-MK-2-Guitar-Amp-System-i.253483262.4945179423",
+        "idr": 28900000,
+        "display_model_id": "21460754905"
+      }
+    ],
+    "shared_limits": "JakartaPusat search location; seller name,condition,new/used,stock,bundle,variation,voucher,warranty,authenticity and installed OS unresolved. Display model IDs record indexed selection,not verified variation contents.",
+    "excluded": "Remote MK2 controllers,Kabinet speakers,covers and PROFILE packs are not eligible processor offers.",
+    "stage_gap_pass": "Targeted official-domain Browse1000 and nonforum MainManual14.2 searches yielded no new Stage proof; Player14.2 not borrowed.",
+    "next": "Verify exact Rack MK2 manufacturer identity and full first-pass specifications before adding any model; commit each useful model record before next."
   }
 }
