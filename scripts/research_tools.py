@@ -335,7 +335,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-pocketpod':
-            message = 'research(line6): add handheld Pocket POD separately from Express'
+            message = 'research(line6): reconcile Pocket POD effect choices and USB limits'
         if mode == 'commit-m9':
             message = 'research(line6): corroborate M9 AC supply and qualify looper MIDI limits'
         if mode == 'commit-m5':
