@@ -993,6 +993,17 @@ Checked 2026-10-18 against the v2.0 Advanced Guide; no hardware test.
 | Processing / model defaults and Mix | Some model defaults already include expression mappings when a pedal is assigned. Mix100% can invoke model-specific behavior, including U-Vibe vibrato or a richer Rotary Drm/Hrn sound; it is not a universal wet/dry routing guarantee. | [Advanced §3•2][M9-A] |
 | Memory / effect copy | Effect Copy retains edits when copying the current model to another A/B location, allowing order changes or duplicates. This does not increase the three-active-effect ceiling or scene capacity. | [Advanced §4•6][M9-A] |
 
+
+### M9 — overdub limits and parameter fine adjustment
+
+Checked 2026-10-18 against [own v2.0 Advanced Guide §§3•1,5•2–4][M9-A]; document behavior, not hardware testing.
+
+| Field | Evidence / qualification |
+|---|---|
+| Looper / undo scope and recording transition | Undo removes **only the most recent overdub**, preserving earlier recording; a second press redoes it (v2.0 feature). Pressing Record/Overdub a second time after initial recording starts playback **with overdubbing active**. The tutorial instead uses Play to end initial recording into playback. These are distinct transitions. |
+| Looper / speed and reverse overdubs | An overdub recorded at half speed plays at **double speed** after returning to normal, while the original normal-speed track resumes normally. Recording an overdub in Reverse makes that new layer play backward after Reverse is exited; the original resumes its recorded direction. This is not independent track storage. |
+| Controls / fine adjustment | Hold **TAP while turning a parameter knob** for fine adjustment, including millisecond delay editing. Tap-based note values persist while browsing effect models. The guide’s Time/Tap instructions refer to Knob1 entering note mode but Knob2 returning to time mode; retain this textual inconsistency rather than infer a universal knob mapping. |
+
 ## Pocket POD
 
 Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;partial. Ownership,vocal suitability unknown. Bass use documented for Tube Preamp.

@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 Pocket POD",
-    "task": "Commit cabinet-count correction and AmpOut tuning details. Next inspect full M9 record before resolving exact Namin Music item from shop lead; retain condition uncertainty and do not confuse generic M9 mixers.",
-    "next_models": [
-      "Line 6 M9"
-    ],
-    "after_queue": "335 active models partial;117 compatibility files retained. No downloads/workflows/push."
+    "model": "Line 6 M9",
+    "task": "Commit loop overdub/undo and fine adjustment qualifications. Next fresh Shopee discovery of another eligible model/series; Namin exact-item lead remains unresolved, no price promotion.",
+    "next_models": [],
+    "after_queue": "335 active partial records;117 compatibility files remain. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45321,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 Pocket POD."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 M9."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57322,6 +57320,15 @@
       "finding": "Own reference distinguishes16cabinet choices as15modeled+NoCab, default TubePreamp bypass, editor amp/cab remapping versus five AmpOut tuning modes. Added exact A/B/C/D/Direct destinations and SAVE+DOWN startup/store. Gate control separate from tuner sensitivity. Fresh exact Shopee offer already recorded; no duplicate quote.",
       "sources": [
         "https://line6.com/data/l/0a06007212036468013d917d3a/application/pdf/Pocket_POD_Reference_Manual.pdf"
+      ]
+    },
+    {
+      "model": "Line 6 M9",
+      "checked_date": "2026-10-18",
+      "finding": "Own v2.0 guide resolves last-overdub-only undo, Record secondpress entering overdub versus Play transition, speed/reverse overdub consequences, TAP fine adjustment and note-value persistence. Preserved Knob1/Knob2 time-mode wording discrepancy. Namin shop direct still fails; no exact item/condition-qualified price found.",
+      "sources": [
+        "https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+        "https://shopee.co.id/namin_music"
       ]
     }
   ],
