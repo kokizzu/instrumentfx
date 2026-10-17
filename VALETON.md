@@ -233,6 +233,17 @@ Checked 2026-10-18 in the same manufacturer-authored manual. Counts follow categ
 | Category choices / REVERB | **9, printed pp37–38:** Room; Hall; Church; Plate; Spring; N-Star; Deep Sea; Mod Verb; Clear Sky. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
 | Delay / reverb trails | These entries expose Trail on/off. This does not prove spillover across preset changes. Delay time is listed as 20–4000 ms. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
 
+### GP-100 — remaining category census and total conflict
+
+Checked 2026-10-18 against the same firmware-1.8 manual.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / DST | **17**, printed pp21–23: Scream OD; Tube Clipper; TaiChi OD; Plustortion; Chief; Green OD; Yellow OD; Super OD; Blues OD; Lazaro; Red Haze; Darktale; Flex OD; SM Dist; La Charger; Bass Dist; Boost. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Category choices / AMP | **45 amp/preamp choices**, printed pp23–30: page subtotals **2 + 4 + 6 + 6 + 9 + 6 + 6 + 6**. Includes five explicitly bass-oriented entries and one acoustic preamp on p30; channel variants count separately. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Category choices / CAB | **40 factory choices**, printed pp31–33: page subtotals **11 + 19 + 10**. Includes four bass cabinets and four acoustic-body simulations; these are not forty conventional guitar cabinets. User IR slots are separate. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+| Effects total / source conflict | Nine category counts sum to **153**: 14 + 17 + 45 + 2 + 40 + 3 + 12 + 11 + 9. The overview says **150**; Boost appears in both PRE and DST. This is a menu-choice census, not proof of 153 unique algorithms or current firmware contents. Preserve the separate 140+ product claim. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
+
 ## GP-150
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

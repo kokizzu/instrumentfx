@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-100",
-    "task": "Saved firmware-1.8 PRE14/NR2/EQ3/MOD12/DELAY11/REVERB9. Next enumerate DST, AMP and CAB in the same English manual before reconciling total; preserve advertised-count and revision conflicts. No downloads; commit before next model.",
+    "task": "GP-100 firmware-1.8 category census saved with 153 menu choices versus overview150 and product140+ conflict. Next verify remaining GP-100 expression assignments, USB routing and Global EQ restrictions from printed pp8–13, then return to Shopee brand/series discovery. Current/native NAM and screen diagonal remain unknown. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56787,6 +56787,12 @@
       "model": "Valeton GP-100",
       "checked_date": "2026-10-18",
       "finding": "Firmware-1.8 manual category census: MOD 12, DELAY 11, REVERB 9; names preserved. Trail controls do not establish patch spillover.",
+      "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf"
+    },
+    {
+      "model": "Valeton GP-100",
+      "checked_date": "2026-10-18",
+      "finding": "Completed firmware-1.8 category census: DST17 AMP45 CAB40; nine-category sum153 versus overview150. Boost listed in PRE and DST. CAB includes bass cabinets and acoustic body simulations. Do not infer unique algorithms or current installed contents.",
       "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf"
     }
   ],
