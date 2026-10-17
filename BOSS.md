@@ -2959,6 +2959,16 @@ Effects-only guitar/bass multi-effects with loop switching, checked2026-10-18; p
 | Condition-unverified / ROCKPIZZ MUSIC | **Rp3,800,000**, Denpasar. Checked2026-10-18; direct JavaScript-limited cached body, crawled last week; stale8–11Oct delivery. Earlier index says tomorrow. Neither verifies live stock. Variant, bundle/adapter, warranty, condition and checkout total unknown. Late Rp10,000 compensation is not a price discount. | [440477624/26543266965](https://shopee.co.id/BOSS-MS-3-MULTI-EFFECT-i.440477624.26543266965) |
 | Condition-unverified / Serenata Galeri Musik | **Rp3,700,000**, Jakarta Selatan. Two-month search cache checked2026-10-18; relative same-day14:00 cutoff does not verify stock. Variant, bundle, adapter, warranty and final costs unknown; late compensation is not discount. | [1524946106/43604271127](https://shopee.co.id/Multi-Effect-Switcher-Boss-MS-3-Boss-MS-3-Multi-Effect-i.1524946106.43604271127) |
 
+### Original parameter-guide follow-up
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / category choices | Guide pp6–7: **31 top-level FX choices** per FX1/FX2; both may select the same effect. Compressor has8 subtypes, limiter3. Full nested subtype reconciliation against112 remains pending. [MS3-G] |
+| Processing / modulation choices | Guide p15: **12 top-level choices** per MOD1/MOD2: Chorus,2X2 Chorus,Phaser,Flanger,Bass Flanger,Tremolo,Pan,Rotary,Uni-V,Slicer,Vibrato,Ring Mod. Both blocks may select the same effect; subtype counts separate. [MS3-G] |
+| Processing / delay choices | Guide pp19–22: **11**: Single,Pan,Stereo,Dual-S,Dual-P,Dual-L/R,Reverse,Analog,Tape,Modulate,Tera Echo. Dual algorithms remain one selected DLY type. [MS3-G] |
+| Processing / reverb choices | Guide pp23–24: **8**: Ambience,Room,Hall1,Hall2,Plate,Spring,Modulate,Delay. [MS3-G] |
+| Routing / limitations | Guide p4: L1–3 cannot move; FX1/FX2/MOD1/MOD2/DLY/REV/NS/FV can move around them. MST/PATCH LVL/OUTPUT/CTL cannot move. Mono processing or a loop after stereo processing loses that stereo effect. [MS3-G] |
+
 [MS3-P]: https://www.boss.info/global/products/ms-3/
 [MS3-M]: https://static.roland.com/assets/media/pdf/MS-3_eng02_W.pdf
 [MS3-G]: https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf

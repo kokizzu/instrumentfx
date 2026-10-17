@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS MS-3",
-    "task": "Continue exact original Parameter Guide category census and supply/software verification before fresh Shopee discovery.",
+    "task": "Continue MS-3 nested subtype reconciliation against112 and supply/software verification; category/routing follow-up saved.",
     "next_models": [],
     "after_queue": "327 active; technical, market, ownership and legacy migration incomplete. No downloads/workflows/push."
   },
@@ -65802,5 +65802,46 @@
     "parameter": "https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf",
     "status": "partial",
     "remaining": "Category census, factory/user split, supply voltage/polarity, display and software details; condition-verified market evidence."
+  },
+  "ms3_category_followup_20261018": {
+    "source": "https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf",
+    "fx_top_level": 31,
+    "mod_top_level": 12,
+    "delay": 11,
+    "reverb": 8,
+    "remaining": "Nested subtype counts versus112 unresolved; power/software verification pending.",
+    "fx_choices": [
+      "COMPRESSOR",
+      "LIMITER",
+      "T.WAH",
+      "BASS T.WAH",
+      "AUTO WAH",
+      "WAH",
+      "BASS WAH",
+      "OD/DS",
+      "BASS OD/DS",
+      "GRAPHIC EQ",
+      "PARA.EQ",
+      "AC.GUITAR SIMULATOR",
+      "DEFRETTER",
+      "SITAR SIM",
+      "SLOW GEAR",
+      "BASS SLOW GEAR",
+      "OCTAVE",
+      "BASS OCTAVE",
+      "PITCH SHIFTER",
+      "BASS PITCH SHIFTER",
+      "HARMONIST",
+      "BASS HARMONIST",
+      "OVERTONE",
+      "PEDAL BEND",
+      "BASS PEDAL BEND",
+      "SOUND HOLD",
+      "S-BEND",
+      "BASS S-BEND",
+      "WARP",
+      "FEEDBACKER",
+      "SUB DELAY"
+    ]
   }
 }
