@@ -2593,6 +2593,18 @@ Desktop guitar/vocal processor;distinct fromGT-1/GT-100. Checked2026-10-17;parti
 | Processing / FX1-FX2 choices | **35 distinct top-level choices across both slots**;Overtone andTeraEcho are FX2-only,so **FX1has33 / FX2has35**. This is a union count,not35choices in each slot or35simultaneous effects. Nested choices within algorithms remain uncounted. |
 | Processing / nested drive restriction | A-DIST is available in the mainOD/DS block andthe SubOD/DS algorithm ofFX2;do not assign it toFX1’s SubOD/DS. Aggregate simultaneous ceiling andremaining category counts still unverified. |
 
+### GT-001 — MIDI-document category evidence,2026-10-17
+
+[Official MIDI implementation](https://static.roland.com/assets/media/pdf/GT-100_GT-001_MIDI_Imple_e01_W.pdf),April30,2014:cover explicitly identifies GT-001v1.00 andGT-100v2.00. Shared entries apply only where model exclusions do not intervene. Text inspection,no execution/download.
+
+| Field | Verified count / limitation |
+|---|---|
+| Processing / reverb | P27 enumerates **seven**:Ambience,Room,Hall1,Hall2,Plate,Spring,Modurate(source spelling). Time0.1–10s;pre-delay0–500ms. Choices,not seven blocks. |
+| Processing / chorus | P27 gives **three modes**:Mono,Stereo1,Stereo2;not three independent chorus slots. |
+| Processing / delay conflict | P27 names **ten delay types**,but encodes TYPE as00–0A(11values);the eleventh is unnamed. Preserve discrepancy. Main time1–2000ms;dual sections1–1000ms;SubDelay separately1–1000ms. |
+| Processing / nested compressor | P19/23 enumerate **eight AdvancedComp subtypes** inside FX1/FX2;not eight extra processing slots or evidence that mainCOMP has eight types. |
+| Looper / I/O exclusions | Shared document explicitly marks phrase-loop,send/return andamp-control entries **GT-100 only**. Those controls do not establish corresponding GT-001 capabilities. |
+
 <!-- comparison evidence ends -->
 
 [GT001-P]: https://www.boss.info/global/products/gt-001/

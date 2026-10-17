@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-001",
-    "task": "GT001 ownproduct PREAMP28 ODDS23 FXunion35(FX1 33/FX2 35) restrictions saved. Next officialindexed controls/othercategories or exactUSBchannel evidence;allpartial.",
+    "task": "GT001sharedMIDIowncoverage rev7/chorus3/nestedAdvComp8 saved;delay10namesvs11encoded conflict open. Next ownparameterindex delaytable orcontrols;GT100onlycommandsexcluded.",
     "next_models": [],
     "after_queue": "FreshShopeediscoveryandremainingverification;no workflows/push."
   },
@@ -58475,6 +58475,30 @@
       "Displaydetails",
       "Imports",
       "Qualifiedoffers"
+    ],
+    "downloads": false
+  },
+  "gt001_midi_categories_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-100_GT-001_MIDI_Imple_e01_W.pdf",
+    "identity": "Apr30 2014 GT001v1.00 GT100v2.00 pp19/23/27",
+    "counts": {
+      "reverb": 7,
+      "chorus_modes": 3,
+      "advanced_comp_nested": 8,
+      "delay_named": 10,
+      "delay_encoded_values": 11
+    },
+    "delay_conflict": "00–0A butonly00–09names;do notinventeleventh",
+    "delay_ms": "Main1–2000;dual1–1000;SubDelay1–1000",
+    "exclusions": "PhraseLoop SendReturn AmpCtl markedGT100only",
+    "remaining": [
+      "Controls",
+      "Delaycountcorroboration",
+      "ExactUSBchannels",
+      "Polarity",
+      "Displaydetails",
+      "Imports",
+      "Liveoffers"
     ],
     "downloads": false
   }
