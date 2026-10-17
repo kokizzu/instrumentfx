@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Matribox II Pro regional1.1.1 manual screen/control/toe/polarity evidence saved;5V/9V andTS/TRS contradictions retained. Continue bass-specific algorithms/MIDI/currentfirmware evidence orfreshdiscovery.",
+    "task": "Matribox II Pro shared bass added from own bass amps/cabinets. Continue currentfirmware/MIDI/algorithm gaps orfreshShopee discovery;unique model already recorded.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee brand/series discovery and unresolved technical verification;no downloads,workflows orpush."
   },
@@ -24497,9 +24497,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 118,
+      "record_count": 119,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 90,
+      "shared_bass_capable_count": 91,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41494,8 +41494,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 118,
-    "bass_shared_models": 90,
+    "bass_view_models": 119,
+    "bass_shared_models": 91,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41873,6 +41873,7 @@
       "NUX::Mighty Plug MP-2",
       "Roland::GR-55",
       "Sonicake::Smart Box QME-20",
+      "Sonicake::Matribox II Pro QME-200",
       "Valeton::GP-100",
       "Valeton::GP-150",
       "Valeton::GP-180",
@@ -41983,6 +41984,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Sonicake::Matribox II Pro QME-200": "Own firmware1.1.1 manual pp41,44 lists A BassVT/A BassFT bass amps and bass cabinets. Shared bass capability;not performance certification. [Official regional manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf).",
     "Sonicake::Smart Box QME-20": "Manufacturer Smart Box page explicitly describes presets optimized for guitar and bass. Shared bass capability; bass-specific algorithms and low-end performance remain unverified. [Manufacturer product](https://www.sonicake.com/products/smart-box).",
     "Donner::Arena2000": "Own2022 Arena2000 manual p4 explicitly identifies input for guitar/bass;not connector-only inference. Bass-specific models/low-end performance remain unverified. [Original manufacturer manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf).",
     "Eventide::H90": "Own manual1.12.5 Global Source Type explicitly lists Bass(Tenor) and Sub(Bass), adapting pitch tracking, filters and tone controls. Not sibling or EQ-knob inference. [Manufacturer manual](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/system-menu/global.html).",
@@ -60443,5 +60445,12 @@
     ],
     "access": "BrowserPDFtextonly;no download or image inspection",
     "remaining": "Currentfirmware behavior,acceptedNAMarchitectures,fullalgorithmcounts,bassmodel evidence,MIDIoutput/type-A/B and qualifiedused/newoffers."
+  },
+  "matribox_ii_pro_bass_20261017": {
+    "source": "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+    "basis": "Own firmware1.1.1 manual pp41,44 lists A BassVT/A BassFT bass amps and bass cabinets. Shared bass capability;not performance certification. [Official regional manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf).",
+    "scope": "Shared bass inclusion of existing model;unique count unchanged",
+    "identity": "Official regional firmware1.1.1 manual,previously matched exact Pro model",
+    "remaining": "Currentfirmware retention,measuredlowend,MIDIcontradiction/type-A/B,completealgorithm inventory and qualifiedused/newoffers."
   }
 }
