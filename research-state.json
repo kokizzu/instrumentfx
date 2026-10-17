@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Roland GR-33 discovery lead",
-    "task": "Categorycard Rp5650000KabMalang, exactseller/itemunresolved. OwnRolandpage documents40multiFX+chorus/reverb;read ownmanualrouting and recover exactitem beforeclassifying/adding. Keep292active models untilqualified.",
+    "task": "GR-33 own indexedmanualp53 resolves routing:3processors,40MultiFXalternatives,synth-only;normalguitar requires external effects. ExactShopee seller/item unresolved. Next recover exact hardware offer or move to another discoverylead; do not repeat zero-textPDF as newevidence.",
     "next_models": [],
     "after_queue": "Continue primary verification/fresh Shopee discovery and legacy consolidation; no workflows/downloads/push."
   },
@@ -58710,9 +58710,9 @@
     "primary": {
       "source": "https://www.roland.com/global/products/gr-33/",
       "facts": "Own product identifies40insertMultiFX plusdedicatedchorus/reverb,384tones,128preset+128userpatches,48voicepolyphony,builtinexpression;GKdividedpickuprequired. AC14V/BRCsupply,notDC;SMFupdaternotfulleditor.",
-      "qualification": "Syntharchitecture withmultiFX merits review;notyetclassifiedbyanalogsupport. Do not infer regular guitar-input effects, bass compatibility or independent algorithm capacity."
+      "qualification": "Ownmanualprintedp53nowconfirms3distinctprocessorsbutinternal-synth-only. Normalguitarsignalrequires external effects; do not infer bass/vocal membership. Activeadditionstillpendingexactmarketidentityandscopeclassification."
     },
-    "next": "Recover exact hardware seller/item and read own manual routing/multiFX/control inventory before active addition; do not promote category ask to current offer.",
+    "next": "Recover exact seller/item. If added, label GK-dependent synth multi-effects with internal-generator-only effects; never present as conventional guitar-audio processor. Controls/power/display still require own manual.",
     "downloads": false
   },
   "discovery_gr33_exclusions_20261017": {
@@ -58732,5 +58732,15 @@
       "ZoomGFX70748116980/15446202329alreadyrecorded"
     ],
     "qualification": "No new exact item qualified; not evidence of market absence."
+  },
+  "gr33_routing_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GR-33_OM.pdf",
+    "identity": "Own manual, chapter6 printedp53, indexed original text",
+    "access": "Direct web reader identifies130pages but extracts0lines. Targeted index recovers original prose; generated diagram/display descriptions not used.",
+    "processors": "Three distinct processors: MultiFX with40selectorchoices, plusseparatechorusandreverb. Fortychoicesnot40concurrentblocks.",
+    "scope": "Effects processinternal synth soundgenerator only;not normal guitar or external audio. GuitarOut/Return allows external guitar-only effects.",
+    "tone_assignment": "MultiFXswitchOff/firsttone/secondtone/bothtones;effectonoffstoredperpatch",
+    "qualification": "Candidate synth/multi-effects architecture established; conventional guitar-audio effects expressly unsupported. Exact Shopee seller/item and active-scope decision remain pending.",
+    "downloads": false
   }
 }
