@@ -899,3 +899,39 @@ Own RevC Pilot(8PDFpages),v2.0 Advanced guide RevA and model-specific FAQ used;n
 [M9-O]: https://shopee.co.id/namin_music
 
 [M9-P]: https://kb.line6.com/line-6-four-button-stompbox-pedal-faqs
+
+## Pocket POD
+
+Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;partial. Ownership,vocal suitability unknown. Bass use documented for Tube Preamp.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/external/toe unverified. No standardMIDI/Line6 footcontroller compatibility perFAQ. | [FAQ][PP-Q] |
+| K/F/B | **4 rotary /0 listed footswitches /3 physical button assemblies**,text-derived:Drive,Effects,Delay,ChanVol;Save,Tap,4-wayNav. Directional contacts distinguished from assemblies. | [Reference §§1•1–3][PP-M] |
+| Display | Preset/parameter/tuner display;technology,diagonal,color,touch unknown. | [Reference §1•2][PP-M] |
+| Processing / category choices | **32amp,16cabinet choices**;manual advertises15effectmodels plus separate reverb/gate. Exactalgorithm reconciliation/simultaneousceiling pending;delay-combination presets not independent chain slots. | [Reference §§1•1,3•1,4•1–5][PP-M] |
+| Factory / user memory | **300+ total,124factory-filled user=31×4**;Band/Style read-only,remainder exactcount unknown. | [Reference §2•1][PP-M] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. TubePreamp explicitly usable as bassDI. | [Reference §3•2][PP-M] |
+| Dimensions / mass | Unknown. | Unresolved |
+| I/O | Mono¼-inchguitar input/ampout,stereo⅛-inchAUX/phones-direct,DC,miniUSB. USBMIDI,class-compliant;USBaudio unverified. | [Reference §§1•3–4][PP-M];[Pilot p9][PP-P] |
+| Power / battery / USB | DC-1 **9.6VDC200mA center-negative supply rating**,notdraw;four nonrechargeable alkalineAAA,4–6h conditional. USB neither powers nor charges;USB/input connection turnsuniton. | [Reference §§1•4–6][PP-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture unverified. FAQ denies purchasablemodelpacks. | [FAQ][PP-Q] |
+| Editor / software | Vyzex editor/librarian Mac/Windows;FAQ says no longer supported. Monkey updater separate. CurrentOS compatibility unknown. | [Pilot p10][PP-P];[FAQ][PP-Q] |
+| Looper / drums / live | Cabinet-tuning modes A/B/C/D/Direct;unplug input when unused. Tuner436–445Hz. Looper,drums,scenes,trails unverified. | [Pilot pp4,6,8][PP-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;no condition-verified offer. | — |
+| New | Unknown;no condition-verified offer. | — |
+| Condition-unverified cached offer | **Rp2,112,000**;Awlind Music Official,KotaBandung;shop78230612/item2863842140. Checked2026-10-17;lastmonth searchcache,16–18Sepdelivery. Directwebopen failed. Salecondition,workingstate,revision,adapter/bundle,warranty,variant,shipping/tax unknown. No Habis in excerpt does not confirm stock. LatearrivalRp10,000 compensation not discount. | [Exact indexed item][PP-O] |
+
+### Source-access provenance
+
+ReferenceRevA2007 andPilotRevB2022 accessed aswebPDFtext. OldReference says USBcableincluded;2022Pilot says notincluded:bundle depends ondate,not guaranteed by seller title. No Express specifications transferred. No downloads.
+
+[PP-M]: https://line6.com/data/l/0a06007212036468013d917d3a/application/pdf/Pocket_POD_Reference_Manual.pdf
+[PP-P]: https://line6.com/data/6/0a00050b264e6643ac1a367bb/application/pdf/Pocket%20POD%20Pilot%27s%20Guide%20-%20English%20.pdf
+[PP-Q]: https://kb.line6.com/pocket-pod-faq
+[PP-O]: https://shopee.co.id/ALAT-MUSIK-Line-6-Pocket-POD-i.78230612.2863842140

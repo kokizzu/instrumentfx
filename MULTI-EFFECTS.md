@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [All vocal](ALL-VOCAL.md) · [Repository](README.md)
 
-This category view summarizes **14 selected model records from the 196 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. All recorded models have root brand profiles;technical verification andmarket discovery remain incomplete. Counts in different instrument views overlap and must not be added together.
+This category view summarizes **14 selected model records from the 197 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. All recorded models have root brand profiles;technical verification andmarket discovery remain incomplete. Counts in different instrument views overlap and must not be added together.
 
 Each model link opens the full evidence,firmware context,price qualifications and unknowns. These summaries do not replace those qualifications. A color screen does not prove touch; an expression socket is not an included pedal; a fixed category is not a freely assignable processing block.
 
@@ -71,7 +71,7 @@ Technical model links lead to manufacturers. The eight findings notes contain th
 
 - GP-150/180 physical controls: [manufacturer comparison image](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png). GP-180 button count includes six quick-access and ten module buttons.
 - GP-50 original control photo: [manufacturer image](https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png); completed button count now uses its manual in [F50].
-- Matribox controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/products/QME-50.jpg?v=1678434988&width=1096); [official manual](https://cdn.shopify.com/s/files/1/0100/1960/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433).
+- Matribox controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/products/QME-50.jpg?v=1678434988&width=1096); [official manual](https://cdn.shopify.com/s/files/1/0100/1970/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433).
 - Smart Box original control photo: [manufacturer image](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1440); display size from its manual in [FSB].
 - Pocket Master original controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440); display/USB roles from its manual in [FPM].
 
@@ -82,7 +82,7 @@ Other compact processors, including HX Stomp, GT-1000CORE, Ampero Mini and compa
 
 The following source grouping and navigation retain the 2026-10-14 floorboard snapshot. The current root brand and ALL-* records remain authoritative; these historical links do not claim migration is complete.
 
-- [Matribox II official manual, firmware 1.3.0](https://cdn.shopify.com/s/files/1/0100/1960/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623), panel diagrams and printed p.45 specifications, visually checked. A pair of balanced mono TRS outputs is not a single stereo TRS headphone socket.
+- [Matribox II official manual, firmware 1.3.0](https://cdn.shopify.com/s/files/1/0100/1970/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623), panel diagrams and printed p.45 specifications, visually checked. A pair of balanced mono TRS outputs is not a single stereo TRS headphone socket.
 - GP-200's published 25 combined controls are retained as a combined claim until separate rotary/button counts are verified; no arbitrary split has been invented.
 
 For all researched processors organised by size and expression, start at the [comparison home](effects/README.md). Unresearched families and unresolved fields are recorded in [coverage](effects/COVERAGE.md).
