@@ -1912,3 +1912,38 @@ Manual accessed as web text only. No downloads or physical inspection. Category 
 [GFX4-M]: https://zoomcorp.com/media/documents/E_GFX4.pdf
 [GFX4-P]: https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-4/
 [GFX4-O]: https://shopee.co.id/hopemusik
+
+## G7.1ut
+
+Guitar multi-effects;distinct fromG9.2tt/G5. Checked2026-10-17;partial. Discontinued;ownership andbass/vocal applicability unresolved.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal with full-down module switch;FP01/FP02 external pedal independently controls volume andcan sendMIDI. | [Manual pp30–33][G71-M] |
+| K/F/B | Seven main footswitches:fourpatch,twoBANK,FUNCTION. Rotary/button totals pending;toe additional. | [Manual pp6–7][G71-M] |
+| Display | Main display andGROUP/BANK indicator;technology,diagonal,color,touch unverified. | [Manual pp6–7][G71-M] |
+| Dimensions / mass | 460W×235D×81Hmm;4kg. | [Manual p69][G71-M] |
+| Processing / category choices | **92effects,max9 includingZNR**. PREAMP35distortion+1acoustic;other categorysubtotals pending. Two live/recording algorithms pertype depend onCABINET;not72 independent simultaneous preamps. | [Manual pp4,58–60][G71-M] |
+| Factory / user memory | **160=80preset+80user**;readonlyA/b,editableU/u. Initial userfill unresolved. | [Manual pp4–5][G71-M] |
+| Synth / acoustic | Aco.Sim electric-to-acoustic. Dedicated synthesis unverified. | [Manual p59][G71-M] |
+| I/O | Mono¼guitar,stereo⅛AUX,Lmono/R¼outputs,¼stereophones,CONTROL IN,MIDI IN/OUT,USB,power. USB subtype pending. | [Manual pp6–8,69][G71-M] |
+| Power / battery / USB | **Unresolved source conflict:**p2says15VDC1.5A AD-0012;p69says15VAC1.5A sameadapter. Polarity,measured draw,battery andUSBpower unknown. Do not resolve using anotherZoom model. | [Manual pp2,69][G71-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified. | Unresolved |
+| Editor / software | Editor/librarian WindowsXP,Mac10.2–10.8;ASIO drivers separate,Vista/7/8 andXP versions. CurrentOS compatibility unverified. | [Official support][G71-S] |
+| USB audio / MIDI | USB16-bit stereo record/play,32/44.1/48kHz;USB audio-only,MIDI usesdedicatedIN/OUT. Internal96kHz24-bit processing is separate. | [Manual pp4,48–49,69][G71-M] |
+| Looper / drums / live | Functionswitch preampA/B,tap,hold-delay control;12AX7 Energizer. Looperduration,drums,scenes,trails unverified. | [Manual p4][G71-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;no condition-verified ask. | — |
+| New | Unknown;no condition-verified ask. | — |
+| Condition-unverified cached offer | **Rp3,000,000**,SYAID STUDIO,KotaJakartaBarat;shop475318175/item11623581747. Two-monthsearchcache;direct retrievalfailed2026-10-17. RelativeHariIni delivery andold selleractivity do notprove currentstock. Condition,working state,revision,adapter/bundle,warranty,voucher,shipping/tax unknown. Late-arrivalRp10,000 compensation notdiscount. Not assigned used/new. | [Exact item lead][G71-O] |
+
+Ownmanual accessed aswebtext;no downloads/software/physicalinspection. Englishpowerconflict retained;external volume support doesnot establish assignable external effect control.
+
+[G71-M]: https://zoomcorp.com/media/documents/E_G71ut.pdf
+[G71-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g71ut/g71ut-support/
+[G71-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g71ut/
+[G71-O]: https://shopee.co.id/Efek-Gitar-Zoom-G7.1ut-i.475318175.11623581747
