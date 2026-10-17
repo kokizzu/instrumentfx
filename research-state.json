@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom MS-80IR Plus",
-    "task": "MS80IR routing/monitoring saved; controlcount visual access unresolved, do not repeat unavailable image paths. Resume fresh Shopee brand/series discovery against285modelinventory, then verify exacteligiblemodel frommanufacturer. Keep MS80IR remaininggaps.",
+    "model": "Shopee discovery",
+    "task": "AX1500G threeadditional conditionunverified offers saved;285modelsunchanged. Continue Shopee bybrand/series for exacteligiblehardware notinventory; current GFX8/G2nu/RP80/GFX1/G9.2tt/RP55/ME6searches didnotestablishnewhardware. KeepMS80IR visualcountgap pendingnewcapability.",
     "next_models": [],
     "after_queue": "285partialmodels;no downloads/workflows/push."
   },
@@ -41402,7 +41402,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom MS-80IR Plus."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57480,5 +57480,52 @@
     "preselect": "Browse then confirm; notsnapshot/gaplessproof",
     "control_count_access": "HTML SVG cachemiss;PDF screenshot supplied no inspectableimage; unresolved",
     "downloads": false
+  },
+  "ax1500g_offer_discovery_20261017": {
+    "offers": [
+      {
+        "seller": "AXL STUDIO",
+        "item": "349012190/24651349257",
+        "idr": 1750000,
+        "status": "Habis",
+        "region": "Kab.Lamongan",
+        "access": "directreader3weekcache;search2month",
+        "bundle": "hardcaseintitle;contentsunverified"
+      },
+      {
+        "seller": "Jamsrock Bandung",
+        "item": "80375350/25227680940",
+        "idr": 1750000,
+        "status": "Habis",
+        "region": "Kab.Bandung",
+        "access": "2monthsearch;directtimeout"
+      },
+      {
+        "seller": "Stuff Faith",
+        "item": "14828747/25017453694",
+        "idr": 1800000,
+        "status": "unknown",
+        "region": "KotaBanjarmasin",
+        "access": "1monthsearch;directcachemiss"
+      }
+    ],
+    "condition": "unknownforall;notassignedneworused",
+    "downloads": false
+  },
+  "discovery_after_ms80ir_20261017": {
+    "queries": [
+      "site:shopee.co.id Zoom GFX-8",
+      "site:shopee.co.id Korg AX1500G",
+      "site:shopee.co.id Boss GT-3",
+      "site:shopee.co.id Zoom G2nu",
+      "site:shopee.co.id DigiTech RP80",
+      "site:shopee.co.id Zoom GFX1",
+      "site:shopee.co.id G9.2tt efek",
+      "site:shopee.co.id Digitech RP55",
+      "site:shopee.co.id BOSS ME6 efek"
+    ],
+    "rejected": "GFX8sensor38361451/8214243069;GFX8adapter732732692/20031217262;GT3shirt383128476/21003360400;GT3adapter732732692/19432737909:accessories,not hardware",
+    "reconciliation": "AX1500G andGT3alreadycanonical;no duplicate additions",
+    "no_hit_limit": "No exacthardware result in thesequeries is not marketabsence"
   }
 }

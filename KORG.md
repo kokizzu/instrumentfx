@@ -131,6 +131,9 @@ Guitar multi-effects; distinct from AX1000G/AX3000G. Checked 2026-10-17; partial
 |---|---|---|
 | Used | **Rp1,500,000**, title says Bekas; **Habis/sold out**, historical ask only. ditokoku, shop18190367/item28842881961, Kota Depok. Checked2026-10-17; two-month cache with August delivery date. Working state, adapter/bundle, warranty and variants unverified. Rp10,000 late-arrival compensation is not a discount; shipping/tax/checkout unknown. | [Exact Shopee item][AX15-S] |
 | New | Unknown; no qualified new offer established. | — |
+| Condition unverified / hardcase title | **Rp1,750,000; Habis**. AXL STUDIO, shop349012190/item24651349257, Kab.Lamongan. Checked2026-10-17; direct reader returned a three-week cache, while search had two-month cache. Title includes hardcase; its condition/inclusion and adapter contents remain unconfirmed. | [Exact item][AX15-S2] |
+| Condition unverified | **Rp1,750,000; Habis**. Jamsrock Bandung, shop80375350/item25227680940, Kab.Bandung. Two-month search cache; direct request timed out2026-10-17. | [Exact item][AX15-S3] |
+| Condition unverified | **Rp1,800,000**. Stuff Faith, shop14828747/item25017453694, Kota Banjarmasin. One-month search cache; direct request failed2026-10-17. Stock unestablished. | [Exact item][AX15-S4] |
 
 <!-- comparison evidence ends -->
 
@@ -140,6 +143,12 @@ Manual E2 viewed as browser text; controls not visually certified. No manual/sof
 [AX15-P]: https://www.korg.com/de/products/effects/ax1500g/
 [AX15-A]: https://www.korg.com/de/products/accessories/ka_189/
 [AX15-S]: https://shopee.co.id/Efek-Multi-Gitar-Listrik-Korg-Toneworks-AX1500G-Bekas-i.18190367.28842881961
+
+[AX15-S2]: https://shopee.co.id/KORG-AX1500G-ToneWorks-Modeling-Signal-Processor-Efek-Gitar-Hardcase-i.349012190.24651349257
+[AX15-S3]: https://shopee.co.id/efek-digital-Korg-ax1500G-i.80375350.25227680940
+[AX15-S4]: https://shopee.co.id/Tonework-Korg-AX1500G-i.14828747.25017453694
+
+The three condition-unverified asks above are not verified new/used market ranges or live checkout quotations. Working state, selected variation, warranty, adapter/bundle contents, applied voucher, shipping and tax remain unknown. Cached delivery dates and late-arrival compensation do not establish current stock or discounts.
 
 ## AX5G
 

@@ -539,7 +539,7 @@ def main():
         if mode == 'commit-tonelab-le':
             message = 'research(vox): qualify ToneLab LE Hold Delay and editor MIDI requirements'
         if mode == 'commit-ax1500g':
-            message = 'research(korg): enumerate AX1500G blocks and verify volatile phrase storage'
+            message = 'research(korg): preserve separate AX1500G condition-unverified offers'
         if mode == 'commit-rp255':
             message = 'research(digitech): include qualified RP255 historical hardware offer in comparison'
         if mode == 'commit-gt8':
