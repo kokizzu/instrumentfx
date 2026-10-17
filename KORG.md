@@ -410,7 +410,7 @@ Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX
 | Controls | **8 rotary /2 footswitches /13 buttons**, derived from numbered text:5ampknobs+3selectors;UP/DOWNfoot;PRE1,VALUE2,MODDEPTH2,AMBDEPTH2,TAP1,FUNCTION1,MASTER2,WRITE1,PEDALFX1. Two rear toggles andpedal activation separate;not visually audited. |
 | Display | Program/parameter display;diagonal,color,touch unverified. |
 | Dimensions / weight | **287W×182D×60H mm;1.1kg without batteries**. |
-| Power | FourAAalkaline,about18h;separateDC9Vadapter. Polarity symbol not extracted;draw andUSB power unknown. |
+| Power | FourAAalkaline,about18h;separateDC9Vadapter. Japanese EFGJ1 p50 names **KA181** (indexed manufacturer text); see adapter qualification below. Unit polarity symbol not extracted;draw andUSB power unknown. |
 | I/O | Mono¼bassinput;shared stereo¼line/headphonesoutput;DC9V. Rear InputL/H andAmp/Line switches. No USB/MIDI/FX-loop sockets in complete rear inventory. |
 | Synth / acoustic | Talk/filter/pitch effects documented;general synth/acoustic-simulation capability unverified. |
 | IR / NAM / captures | UserIR,native/convertedNAM,capture import unverified. |
@@ -435,3 +435,10 @@ Foreign RP50 offers and Indonesian adapter listings do not establish AX10B price
 Checked2026-10-17, [own manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),pp6–7/11–12. AMP11 includes **EQ**,not11distinctamplifiers;matchedcab effect excluded forEQ,Amp/Line changescabdepth. MOD11:Chorus,Flange,Phaser,Trem,Rotary,Feedbk,Pitch1,Filter,U-Vibe,Talk,Pitch2. Ambience11:Slap,Echo1/2/3,PPDly,Multi,Air,Room,Hall,Plate,Spring. Threeecho feedbackvariants count separately in source.
 
 Page11PREtable incorrectly refers to PEDALFX:WAH despite documentedOCTAVE/MOD/AMB/VOLUMEassignment inventory;preserveconflict,do notinferwah. Octave trackingcanfailwithchords/lowstrings. Controls derivedfromtext,notimages.
+### AX10B — Japanese manual and adapter qualification
+
+Checked2026-10-17. The [official Japanese-hosted EFGJ1 manual](https://cdn.korg.com/jp/support/download/files/315583a1909cadeb1539dd6c1941c444.pdf?response-content-disposition=inline%3Bfilename%3DAX10B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B) has52pages, versus40in the English/French/German EFG1 source above. Its indexed Japanese p50 specifies optional **KA181,DC9V**; this identifies the adapter for AX10B itself, rather than borrowing compatibility from AX10G. Full web extraction omits that specification table; screenshot retrieval failed, so its polarity symbol remains unread. No local PDF download.
+
+Korg’s [current specification text for the KA181 accessory](https://www.korg.com/jp/products/tuners/pbxsbass/specifications.php) explicitly calls that adapter **9V,center-negative**. This is accessory evidence linked by the AX10B manual, not a direct reading of the AX10B socket symbol. The tuner’s40mA draw is **not** AX10B consumption; AX10B draw and connector dimensions remain unknown.
+
+Japanese p48 explicitly instructs FUNCTION+VOLUME(NR), corroborating the English footnote and front-panel inventory; the conflicting English TAP+EFF.DEPTH wording remains preserved above.

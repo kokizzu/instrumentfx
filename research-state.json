@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX10B",
-    "task": "AX10B controls andalgorithm lists saved;manual WAH/OCTAVE andNRconflicts retained. Next seekqualifiedIDRoffer or investigatepowerpolarity/current fromprimarysource;do notborrowAX10G.",
+    "task": "AX10B Japanese EFGJ1 adapter identity and NR corroboration saved. Next seek qualified Indonesian AX10B hardware offer; current draw, socket symbol and connector dimensions remain unknown. If no lead, resume Shopee discovery by brand/series without inferring market absence.",
     "next_models": [],
     "after_queue": "276partialmodels;no downloads/workflows/push;fullscopeincomplete."
   },
@@ -56763,5 +56763,12 @@
     "source": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf",
     "counts": "8rotary=5parameter+3selectors;2foot;13buttons;2rear togglesseparate;pedalactivationseparate.",
     "qualifications": "AMP11includesEQ;MOD11/Ambience11listedcanonical;echo1/2/3feedbackvariants. PREWAHwordingconflictsactualOCTAVEassignment;nowahclaim."
+  },
+  "ax10b_japanese_power_20261017": {
+    "manual": "https://cdn.korg.com/jp/support/download/files/315583a1909cadeb1539dd6c1941c444.pdf?response-content-disposition=inline%3Bfilename%3DAX10B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B",
+    "identity": "52-page EFGJ1; indexed Japanese p50 identifies KA181 DC9V; full extraction misses specification table, screenshot cache miss; no download",
+    "adapter_source": "https://www.korg.com/jp/products/tuners/pbxsbass/specifications.php",
+    "qualification": "KA181 accessory is 9V center-negative; AX10B socket symbol not read. Do not transfer tuner 40mA to AX10B. Draw/connector dimensions remain unknown.",
+    "nr": "Japanese p48 FUNCTION+VOLUME(NR) corroborates English footnote; English conflicting parenthetical preserved."
   }
 }
