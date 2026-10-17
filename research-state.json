@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom RFX-2000",
-    "task": "MIDI control/backup verified and saved. Continue fresh Shopee Indonesia brand/series discovery for eligible unrecorded hardware;RFX-2000 unresolved connection diagrams,power current,editor OS and visual details remain deferred.",
+    "model": "BOSS GT-5",
+    "task": "Exact historical sold-out Shopee lead saved. Verify own official product/manual and create partial root BOSS record with all required fields and explicit gaps,then regenerate applicable comparisons and commit before researching another model.",
     "next_models": [],
-    "after_queue": "Continue fresh Shopee discovery. No downloads,workflows,push;commit each usefulmodel before next."
+    "after_queue": "Continue fresh Shopee Indonesia discovery;no downloads,workflows or push. RFX-2000 technical gaps remain deferred."
   },
   "new_findings": [
     {
@@ -53834,5 +53834,36 @@
     "finding": "Saved CC mappings,learn persistence,clock/automation rules and overwrite/storage constraints for MIDI backup in root record and views.",
     "method": "Manufacturer manual browser text;no filesystem download.",
     "remaining": "Multi EFX routing diagrams,adapter current,current editor compatibility and visual corroboration unresolved."
+  },
+  "discovery_gt5_20261017": {
+    "checked_date": "2026-10-17",
+    "model": "BOSS GT-5",
+    "url": "https://shopee.co.id/EFEK-GUITAR-boss-GT-5-i.205502204.41251758346",
+    "seller": "Deri_endrianto05",
+    "shop_id": "205502204",
+    "item_id": "41251758346",
+    "region": "Kab. Pangandaran",
+    "asking_idr": 1700000,
+    "stock_evidence": "Habis in three-month-old indexed page;not current stock confirmation.",
+    "access": "Search index readable;direct open failed Cache miss. Cached delivery7–9Jul.",
+    "condition": "Unverified",
+    "bundle": "Unverified",
+    "qualifications": "Working state,authenticity,adapter/mains variant,warranty,shipping,tax and voucher eligibility unverified. Rp10000 late-arrival voucher is compensation,not a hardware discount.",
+    "next": "Verify own-model official BOSS/Roland product/manual before adding full root record and applicable comparisons.",
+    "other_searches": {
+      "models": [
+        "Zoom G9.2tt",
+        "BOSS VF-1",
+        "Korg AX3000B",
+        "BOSS GT-10B",
+        "TC-Helicon VoiceWorks",
+        "Korg AX10B",
+        "Zoom G2Nu",
+        "DigiTech RP350"
+      ],
+      "outcome": "No exact hardware offer resolved in this limited pass;not evidence of market absence.",
+      "shop_page": "https://shopee.co.id/hopemusik",
+      "shop_limit": "Older indexed multi-variant GT100/GT3/GT5 and NUX MFX10 references absent from newer opened shop text;do not assign aggregate asks to an individual variant."
+    }
   }
 }
