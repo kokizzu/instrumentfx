@@ -2237,3 +2237,41 @@ Original/good/no-minus are seller claims, not verified condition or authenticity
 [ME8-M]: https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf
 [ME8-O]: https://shopee.co.id/BOSS-ME-8-SECOND-ORIGINAL-BAGUS-NO-MINUS-i.190993829.17255720607
 [ME8-S]: https://shopee.co.id/charlijulian777
+
+## GT-3
+
+Checked 2026-10-17; partial. Guitar/acoustic-electric multi-effects; bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in expression and CTL; expression function selectable per patch. External/toe support pending. | [Manual p5][GT3-M] |
+| K/F/B | Separate rotary, footswitch and button counts pending. | Unresolved |
+| Display | Diagonal, type, color and touch pending. | Unresolved |
+| Processing / categories | Official product says **32 effects**, manual introduction **31**; conflict retained. Simultaneous ceiling pending. COSM preamp, **12 analog drive choices**, speaker/mic simulation. | [Product][GT3-P]; [Manual p5][GT3-M] |
+| Preset memory | Factory/user/total and initial contents pending. | Unresolved |
+| Synth / acoustic | Guitar synth and acoustic simulation documented; Auto Riff triggers riffs from a note. Acoustic-electric preamp and anti-feedback also documented. | [Manual p5][GT3-M]; [Product][GT3-P] |
+| I/O | Complete connector inventory pending. | Unresolved |
+| Power / battery / USB | Voltage, polarity, current, battery and USB operation pending. | Unresolved |
+| Dimensions / mass | Own-model dimensions and weight pending. | Unresolved |
+| IR / NAM / capture | Import, native/converted NAM and proprietary capture pending. | Unresolved |
+| Editor / platforms | Editor and current OS support pending. | Unresolved |
+| Live / practice | Virtual internal pedal controls parameter movement; tuner documented. Looper/drums/scenes and detailed routing pending. | [Manual p5][GT3-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No condition-specific qualified amount. | — |
+| New | No condition-specific qualified amount. | — |
+| Unverified condition | **Rp1.900.000** historical category ask; shop168736454/item52302189094, Singkawang from category. Checked 2026-10-17; category crawled last month. Exact product hyperlink resolved; direct item inaccessible/cache miss. Seller name, condition and stock unresolved. | [Item][GT3-O]; [Category][GT3-C] |
+
+<!-- comparison evidence ends -->
+
+Bundle, adapter, working state, authenticity, warranty, shipping, tax and vouchers unverified. Historical ask is not live stock or a completed sale. No sibling specifications adopted, file download or visual inspection claimed.
+
+[GT3-M]: https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf
+[GT3-P]: https://www.boss.info/us/products/gt-3/
+[GT3-O]: https://shopee.co.id/efek-gitar-boss-gt3-i.168736454.52302189094
+[GT3-C]: https://shopee.co.id/search?category=11043572&keyword=efek+gitar+boss&page=2&subcategory=11043648
