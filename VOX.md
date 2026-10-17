@@ -150,6 +150,8 @@ Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;
 | Looper / drums / live | Tuner in bypass/mute;looper,drums,scenes,trails unverified. | [Manual p3][SL2B-M] |
 | Conversion / tuner specifications | Ownmanual p15:**24bit A/D andD/A**;sample rate unverified. Tuner detects**A0–E6**,reference**438–445Hz**. These are published ranges,not accuracy measurements. | [Manual][SL2B-M] p15 |
 | Acoustic / parameter and overload limits | Appendix p78 lists **ACOUSTIC(AC),TONE0–10**,pedal-assignable;no secondparameter. Manual p15 warns high-output humbuckers or excessiveAMP/DRgain may cause high-frequency distortion withAC;lower instrument level/gain. This confirms a named effect andcontrols,not a full description of its acoustic-body model or a dedicated synthesizer. | [Manual][SL2B-M] pp15,78 |
+| Category choices / modulation and delay variants | Ownmanual pp80–81 lists MOD:**CEChorus,MultiChorus,Flanger,ORGPhase,TwinTrem,G4Rotary,PitchShift,Filtron1Auto,Filtron2Manual**. PitchShift offers−12…+12 anddt(detune);polyphonic tracking unverified. DLY:**AnalogDelay1–4 andEcho1–4**,withhigher variant numbers increasing feedback;not eight unrelated delay architectures. REV:**Room,Spring,Hall**. TIME0.1…10 values are parameter scales,not verified milliseconds/seconds. | [Manual][SL2B-M] pp80–81 |
+| Cabinet / parameter limits | Twelve factory cabinet entries include **CUSTOM**,whoseCharacter spans0…20. This adjustable factory entry is not evidence ofuserIR import. GLOBAL selectsAP(AMP) orLn(LINE),plusMasterLevel0…10. | [Manual][SL2B-M] pp80–81 |
 
 ### Separate IDR hardware offers
 

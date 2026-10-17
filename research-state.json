@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX StompLab 2B",
-    "task": "StompLab2B volumeentry confirms61countbasis;converter/tunerranges andACcontrols/overloadlimit saved. Acousticmodeldescription/polarity unresolved;continuefreshdiscovery.",
+    "task": "StompLab2B MOD/DLY/RVB choices andfeedbackvariant distinction saved;actualdelaytimeunits unverified. NextfreshShopeediscovery orremainingmodelprimarygaps.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60984,5 +60984,19 @@
       "ACoverloadwithhighoutput/excessgain"
     ],
     "remaining": "Acousticmodeldescription,polarity,samplerate/display/software/currentqualifiedoffers"
+  },
+  "stomplab2b_category_detail_20261017": {
+    "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf",
+    "pages": "80–81",
+    "findings": [
+      "9MODnamesexplicit",
+      "PitchShift±12anddetune;trackingunknown",
+      "AnalogDelay1to4Echo1to4feedbackvariants",
+      "ReverbRoomSpringHall",
+      "TIME0.1to10nospecifiedunits",
+      "CustomcabCharacter0to20notIRimport",
+      "GlobalAPLnMaster0to10"
+    ],
+    "remaining": "Actualdelaytimeunits,polarity,acousticspecifics,displayandqualifiedoffers"
   }
 }
