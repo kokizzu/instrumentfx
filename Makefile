@@ -1563,3 +1563,7 @@ research-commit-gnx3:
 .PHONY: research-commit-mx200
 research-commit-mx200:
 	python3 scripts/research_tools.py commit-mx200
+
+.PHONY: research-commit-fx2000
+research-commit-fx2000:
+	python3 scripts/research_tools.py commit-fx2000

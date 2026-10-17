@@ -124,3 +124,40 @@ Sources checked 2026-10-17. Manufacturer manual text inspected in the web viewer
 [V2-O2]: https://shopee.co.id/Efek-Gitar-Electric-Behringer-VAmp2-original-Second-Effect-Guitar-Vamp-2-V-AMP2-V-AMP-2-i.61848168.7587372301
 
 Manual identity: manufacturer English **v1.2, September 2002**, Rev C filename, 26 PDF pages. Relevant sections: controls pp.7–10; preset architecture p.13; effects pp.18–20; specifications p.25. A separate shared V-AMPIRE/V-AMP PRO/V-AMP 2 Rev B manual at https://images.thomann.de/pics/atg/atgdata/document/manual/164913_manual_eng.pdf was retrieved but has badly corrupted text; its sibling columns were not used to fill this record. Spanish v1.2 direct retrieval returned 502. Follow-up 2026-10-17: corrected the earlier “effect-free” shorthand for S2 using table 2.1. Fixed combination counts are derived from table 5.1, not an assertion of 16 simultaneous effects. Manual p.9 says FS112V selects presets within a bank, while p.11 describes bank switching; this wording conflict remains unresolved. Remaining: power label, contemporary software availability, complete factory-memory partition, MIDI-only routing refinements and qualified offers.
+
+## FX2000
+
+VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvocals. Checked2026-10-17;partial. Use suitable amp/mixer routing;XLR connectors alone do not establish a microphone preamp.
+
+| Field | Evidence / qualification |
+|---|---|
+| Instrument scope |Guitar,bass,vocal andkeyboard documented [FX-P];amp/mixer send-return levels must be set appropriately [FX-Q] |
+| Expression |Built-in pedal/toe absent from rack control description;external expression mapping unverified |
+| Knobs / footswitches / buttons |EDIT controls andJOG wheel documented;complete rotary/button count pending fullpanel inventory.0built-in footswitches;power switch separate [FX-Q] |
+| Display |Numeric preset display;published diagonal,color/touch technology unverified |
+| Processing / categories |71algorithms,including combination algorithms;not71simultaneous effects. Exact maximum andper-category totals unresolved. Includes reverb/delay,modulation,dynamics,psychoacoustics,filter/EQ,distortion/amp andspecial effects [FX-P] |
+| Preset memory |100internal+100user=200;quick-guide factory chart fills both banks. Writable user locations;fixed-bank editing/persistence details pending [FX-Q] |
+| Synth / acoustic |Vocoder,Resonator andRingModulator documented;not proof of a general instrument synth or dedicated acoustic simulator. RSM acoustic-environment modeling is not acoustic-guitar simulation [FX-P] |
+| IR / NAM / captures |User IR,native/converted NAM andmeasured capture import unverified |
+| Audio / control ports |Balanced6.35mm TRS andXLR inputs/outputs;MIDI IN,OUT,THRU;IEC mains. Exact channel/socket inventory pending. Direct mic/phantom,headphone,USB andexternal EXP unverified [FX-Q] |
+| Power / battery / USB |IEC mains;regional120V60Hz,230V50Hz,100V50/60Hz,and120/230V50/60Hz export versions.15W maximum;not universally autoranging. Battery/USB operation unverified;DC polarity not applicable to listed mains connection [FX-Q] |
+| Dimensions / weight |W483×D217×H44.5mm;netapprox1.9kg;shipping3.2kg is not unit mass [FX-Q] |
+| Editor / software |MIDI SysEx backup documented;full editor andplatforms unresolved. No USB editor/audio inferred [FX-P] |
+| Looper / drums / live |Sampler up to5s;not a verified full looper. Combination algorithms include Chorus/Reverb,Pitch/Delay andothers. Drums,scenes,spillover androuting restrictions pending [FX-P] |
+
+### FX2000 — separate IDR evidence
+
+| Price class | Amount | Offer and limits |
+|---|---:|---|
+| Condition-unverified sold-out ask |Rp3.300.000 |[Pro Sound Hub295455465/6248529259](https://shopee.co.id/Behringer-FX2000-FX-2000-FX-2000-Effects-Processor-3D-Efek-Vocal-i.295455465.6248529259);Bekasi;four-month indexed,June17 delivery;Habis. Condition,bundle,voucher,warranty unverified |
+| Condition-unverified indexed ask |Rp3.310.000 |[Evolusishop307891948/27592214711](https://shopee.co.id/Behringer-FX2000-3D-Virtualiser-FX-2000-3D-Efek-Vocal-Original-i.307891948.27592214711);Kab.Ponorogo;three-month indexed,July15–17 delivery. Condition,stock,bundle,voucher,warranty unverified |
+| Verified used IDR |? |Not established |
+| Verified new IDR |? |Not established |
+
+### FX2000 — sources and remaining work
+
+- [FX-P: exact manufacturer product](https://www.behringer.com/en/products/0828-AAG),indexed primary text.
+- [FX-Q: manufacturer multilingual quick-start guide](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/QSG_BE_0828-AAG_FX2000_WW.pdf),17PDF pages;control/connection text,preset chart andspecifications inspected. No new visual verification claimed.
+- [Full manufacturer manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf),identified but opening failed;not inspected successfully.
+
+No files downloaded. Remaining:fullmanual,controls/display,complete ports,simultaneous architecture/category totals,software/routing andqualified offers.

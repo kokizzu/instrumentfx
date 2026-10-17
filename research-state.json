@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 231,
+  "active_model_count": 232,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 231,
+  "canonical_root_model_count": 232,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "231 unique active/root-canonical models;zero legacy-only;29brands. MX200 adds guitar/vocal mixer-path membership,not direct-mic or bass support. Six excluded archives.",
+  "count_reconciliation": "232 unique active/root-canonical models;zero legacy-only;29brands. FX2000 adds documented guitar/bass/vocal routed use. Six specialist archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer FX2000",
-    "task": "Verify saved exact hardware leads andprimary architecture/routing;do not infer mic input from vocal seller title. MX200 partial record saved;do not add again.",
+    "model": "Bass/vocal Shopee discovery",
+    "task": "FX2000 andMX200 saved aspartial routed rack processors. Resume fresh exact brand/series leads;avoid dedicated single-purpose pedals andaccessories. Continue their unresolved technical fields later.",
     "next_models": [],
-    "after_queue": "Continue discovery,technical gaps andmigration;no downloads/workflows."
+    "after_queue": "Continue research andlegacy migration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4933,6 +4933,17 @@
       ],
       "finding": "2engines32choices;99factory+99user;line-level mixer paths;power supply revision conflict retained.",
       "remaining": "Fullmanual,controls,display,body/power/USB,qualified offers"
+    },
+    {
+      "model": "Behringer FX2000",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.behringer.com/en/products/0828-AAG",
+        "https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/QSG_BE_0828-AAG_FX2000_WW.pdf"
+      ],
+      "finding": "71algorithms including combinations;200preset locations;regional mains;explicit routed guitar/bass/vocal use.",
+      "remaining": "Fullmanual,controls,simultaneous/category counts,display/ports/software,qualified offers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23805,7 +23816,8 @@
     "Behringer": [
       "Bass V-AMP",
       "Bass V-AMP PRO",
-      "V-AMP 2"
+      "V-AMP 2",
+      "FX2000"
     ],
     "Lexicon": [
       "MX200"
@@ -24096,7 +24108,8 @@
     "BEHRINGER.md": [
       "Bass V-AMP",
       "Bass V-AMP PRO",
-      "V-AMP 2"
+      "V-AMP 2",
+      "FX2000"
     ],
     "LEXICON.md": [
       "MX200"
@@ -24104,21 +24117,21 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 188,
+      "record_count": 189,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 92,
+      "record_count": 93,
       "bass_focused_record_count": 22,
-      "shared_bass_capable_count": 70,
+      "shared_bass_capable_count": 71,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 36,
+      "record_count": 37,
       "vocal_only_count": 21,
-      "combined_instrument_count": 15,
+      "combined_instrument_count": 16,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41007,18 +41020,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 231,
-    "canonical_root_models": 231,
+    "unique_brand_model_pairs": 232,
+    "canonical_root_models": 232,
     "legacy_only_models": 0,
-    "guitar_view_models": 188,
+    "guitar_view_models": 189,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 36,
+    "vocal_view_models": 37,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 92,
-    "bass_shared_models": 70,
+    "bass_view_models": 93,
+    "bass_shared_models": 71,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41070,7 +41083,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer FX2000."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41261,6 +41274,7 @@
       "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
       "Behringer::V-AMP 2",
+      "Behringer::FX2000",
       "Lexicon::MX200"
     ],
     "ALL-BASS.md": [
@@ -41355,7 +41369,8 @@
       "Korg::PANDORA stomp",
       "VOX::StompLab 2B",
       "Behringer::Bass V-AMP",
-      "Behringer::Bass V-AMP PRO"
+      "Behringer::Bass V-AMP PRO",
+      "Behringer::FX2000"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -41393,10 +41408,12 @@
       "TC-Helicon::Harmony Singer 2",
       "Zoom::V6-SP",
       "Zoom::V3",
+      "Behringer::FX2000",
       "Lexicon::MX200"
     ]
   },
   "comparison_bass_basis": {
+    "Behringer::FX2000": "Manufacturer explicitly lists bass,guitar andvocals;use suitable line-level amp/mixer routing. [Product](https://www.behringer.com/en/products/0828-AAG).",
     "DigiTech::GNX3": "Manufacturer explicitly documents bass amp modeling for recording rhythm tracks. [GNX3 product](https://digitech.com/dp/gnx3/).",
     "Line 6::POD HD400": "Own HD300/400 Advanced Guide RevA for Flash2.0 lists Flip Top bass amp and115 Flip Top bass cab,pp5•9–11. [Official guide](https://line6.com/data/6/0a06434df9be5005ac8bcc52f/application/pdf/POD%20HD300%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf).",
     "Line 6::POD XT Live": "Conditional: manufacturer Bass Expansion listing explicitly includes PODxt Live and adds28 bass amps/22 cabinets. Optional authorization required; seller license and current activation unverified. [Manufacturer listing](https://shop-us.line6.com/standard-model-packs/bass-expansion-pack/).",
@@ -43238,6 +43255,13 @@
     },
     "Behringer::V-AMP 2": {
       "link": "BEHRINGER.md#v-amp-2",
+      "source_files": [
+        "BEHRINGER.md"
+      ],
+      "finding_files": []
+    },
+    "Behringer::FX2000": {
+      "link": "BEHRINGER.md#fx2000",
       "source_files": [
         "BEHRINGER.md"
       ],
