@@ -1538,14 +1538,14 @@ Checked **2026-10-17**. Partial guitar multi-effects record, distinct from Black
 
 | Field | Evidence / remaining limits |
 |---|---|
-| Processing / choices | Six sections: analog Boost/Overdrive/Distortion, digital Modulation/Delay/Reverb. Exact concurrent ceiling unverified. Japanese page: Mod4 (Tremolo/Phaser/Chorus/Flanger),Delay3 (Digital/Echo/Analog). Reverb alternatives unverified. |
+| Processing / choices | Six sections: analog Boost/Overdrive/Distortion, digital Modulation/Delay/Reverb. Exact concurrent ceiling unverified. Japanese page: Mod4 (Tremolo/Phaser/Chorus/Flanger),Delay3 (Digital/Echo/Analog). Reverb alternatives unverified; PDF describes stereo reverb with adjustable shimmer and modulation,not separate named algorithms. |
 | Presets | Japanese page describes **five module-on/off combinations**; Manual p4 explicitly says **effect parameters cannot be stored; only module on/off states**. Factory/user split and other memory unknown. |
 | Expression | Built-in/external/toe support unverified. |
 | Controls | Manual p3 lists **six footswitches: TAP plus1–5**. **25 rotary controls =23 parameter knobs+2 rhythm/subdivision selectors**, derived from complete textual module inventories (Boost3,Drive3,Dist5,Mod3+selector,Delay3+selector,Reverb6). **Four toggles**:Boost on/off,MidBoost,ModType,DelayType. Separate pushbutton count unverified; no visual panel audit claimed. |
 | Display | Tuner documented; display diagonal,color,touch unverified. |
 | Dimensions / weight | **370(D) ×96(W) ×51(H) mm;1200g**, exactly as both pages label axes. Do not silently transpose into presumed physical width; axis interpretation remains open. |
 | I/O | ¼-inch input2MΩ;two¼-inch outputs100Ω;effects loop;dedicated speaker-simulated direct output for mixer/headphones. Manual p10: **CAB SIM OUT accepts mono/stereo¼-inch cable**;main L-only mono,L/R stereo;DC9V1A input. FX loop send/return documented;other connector claims remain unverified. Global page calls loop parallel;Japanese page locates it between Dist/Mod. Detailed topology unresolved. |
-| Power | Global: **9VDC center-negative,adapter≥1A recommended**. Japanese page: **300mA consumption,no batteries**. Adapter capacity is not device draw; preserve distinct source statements. USB-powered operation unknown. |
+| Power | Global: **9VDC center-negative,adapter≥1A recommended**. Japanese page: **300mA consumption,no batteries**. PDF part620010668 specifies **9V±10%,supply≥300mA**; the current global≥1A recommendation remains current guidance. Older supply minimum,Japanese consumption andcurrent supplycapacity are distinct claims,not interchangeable device-draw values. USB-powered operation unknown. |
 | Synth / acoustic | Specific synthesis/acoustic-simulation algorithms unverified. |
 | IR / NAM / captures | UserIR,native/convertedNAM,proprietarycapture import unverified;fixed speaker simulation is separate. |
 | Software / USB | Editor platforms,drivers,updaters andUSB audio/MIDI unverified. Global specification44.1kHz/24bit concerns processing,not USB-interface proof. |
@@ -1570,3 +1570,7 @@ Manual pp3–4: LIVE/PRESET modes toggle with TAP+footswitch1;five stored bypass
 ### Red Truck — control-count derivation and remaining source limit
 
 Checked2026-10-17: [Japanese brand control inventory](https://mooer.jp/products/redrtuck) plus [manufacturer manual text on mirror](https://manualsnet.com/mooer/red-truck), pp5–6, distinguish parameter knobs from rotary tempo selectors and toggles. Six footswitches were already documented; toggles are not six additional stomp switches. The [brand-linked Japanese manual](https://cdn.shopify.com/s/files/1/0612/8477/8152/files/CPT1_Red_Truck_Manual_JP_V01_0.pdf?v=1758268886) failed web retrieval; its filename V01 does not establish revision equivalence to the undated English mirror. Dimensions and parallel-loop wording remain unresolved. No files downloaded.
+
+### Red Truck — readable original manufacturer PDF on mirror
+
+[Manufacturer manual PDF,part620010668](https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf),12pages,checked2026-10-17 through web text. Exact product,company imprint andpartnumber verified;printed publication/revision date absent. Unlike the other mirror’s9V1A wording,this copy gives9V±10% and≥300mA on pp2/10/11. Do not flatten these versions into one timeless specification. Current own global product’s≥1A supply recommendation takes precedence for present supply guidance. PDF text also corroborates bypass-onlypresets,connectionlabels andsixfootswitches. No visual diagram inspection or local file download claimed.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Red Truck",
-    "task": "Red Truck text-derived rotary/foot/toggle counts saved. Next seek exactShopeeID hardware and primary diagram if available; do not repeat inaccessible manual URLs unchanged. Keep dimensionaxes/loopwording and other unknowns.",
+    "task": "Red Truck original manufacturerPDFpart620010668readviaweb;older300mAsupplyminimum differscurrent≥1Arecommendation,preserved. Next seek exactShopeehardware or investigate anotherrecordedmodel;no repeatinginaccessiblemanualroutes.",
     "next_models": [],
     "after_queue": "275partialmodels;no downloads/workflows/push;technical/marketverification andlegacyretirement incomplete."
   },
@@ -56711,5 +56711,11 @@
     "derived": "23parameterknobs+2rotaryrhythmselectors=25rotary;6foot;4toggles;separatepushbuttonsunknown.",
     "breakdown": "Boost3 Drive3 Dist5 Mod3+1 Delay3+1 Reverb6",
     "limits": "Text-derivednotvisual;officialJPmanualfetchfailed;V01filenamenotmatchingrevisionproof;loop/dimensionaxesstillopen."
+  },
+  "red_truck_pdf_revision_followup_20261017": {
+    "source": "https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf",
+    "identity": "12p MOOERAUDIOCO LTD part620010668,exactRedTruck;date/revisionunprinted",
+    "difference": "pp2/10/11 9V±10% supply≥300mA versusothermirror9V1A/currentglobal≥1A. Currentglobalrecommendationretained;notmeasuredcurrentdraw.",
+    "limits": "WebPDFtextonly;noimageinspection/download;dimensionaxes/loopparallelwordingunresolved."
   }
 }

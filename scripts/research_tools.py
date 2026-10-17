@@ -796,7 +796,7 @@ def main():
         elif mode=='commit-prime':
             subject='research(headrush): add Prime with native NAM limits and qualified used retail evidence'
         elif mode=='commit-ge300':
-            subject='research(mooer): distinguish Red Truck rotary selectors and toggles'
+            subject='research(mooer): preserve Red Truck manual supply-version differences'
         elif mode=='commit-gs1000':
             subject='research(mooer): add GS1000 across guitar bass and live mic comparisons'
         elif mode=='commit-b1xon':
