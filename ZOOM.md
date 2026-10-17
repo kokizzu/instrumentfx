@@ -1939,6 +1939,17 @@ Checked2026-10-17 against the [manufacturer manual](https://zoomcorp.com/media/d
 
 Verify complete physical control counts,firmware-matched categorysubtotals andinstalled version,manufacturer75/100andpedal copy conflicts,factory preset subset,externalexpression/display,USB connector/electrical/audio/MIDI,IR/NAM/capture limits,complete acoustic distinction andlooper persistence/undo/trails,currentcondition-qualifiedoffers. Existing B1Xon ownership does not establish B1on ownership.
 
+
+### B1on — conversion, synth tracking and delay tails
+
+Checked 2026-10-18; original manufacturer documents read as browser text, without file downloads.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / conversion and USB scope | [Own manual p31](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf): **44.1 kHz; 24-bit A/D and D/A, both 128× oversampling; 32-bit floating-point and fixed-point processing**. AUX rated −10 dBm/1 kΩ; line +2 dBm maximum into ≥10 kΩ. USB is listed for **firmware update**; bus power is separately explicit on p6. This does not establish USB audio, MIDI, connector subtype or an editor. |
+| Synth / additional single-note algorithm | [100-effect list p17](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1on_B1Xon_FX-list_100.pdf) also names **4VoiceSyn**, marked as a **Ver1.2 addition** by the list legend. It adds synth harmony to **single notes**, with nine Mode choices and two Scale variations. These are parameters within one algorithm, not 18 additional effects or polyphonic tracking proof. |
+| Looper / delay tail distinction | Same effects list p19: Delay reaches **4000 ms**; TapeEcho **2000 ms**. Tail ON preserves decay when the individual effect is disabled; it does not establish tails across patch changes or loop persistence. |
+
 ## G3
 
 Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability unclassified. Later shared-manual evidence below is not proof of the offered unit’s installed firmware.
