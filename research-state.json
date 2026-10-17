@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery",
-    "task": "HXOne dimensions/mass resolved from Yamaha Japan. Do not repeat physical/category audits without new evidence. Search bass/vocal/guitar exact hardware leads;official model specs then commit each model.",
+    "model": "Fresh discovery or B2 FOUR remaining physical fields",
+    "task": "B2FOUR official2023effectlist audited104entries;do not repeat. Try remaining exact bass/vocal/guitar leads,or officialcontrol/display evidence. Commit each model before next.",
     "next_models": [],
-    "after_queue": "No downloads/workflows;commit each model before next."
+    "after_queue": "No downloads/workflows."
   },
   "new_findings": [
     {
@@ -40557,7 +40557,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery or B2 FOUR remaining physical fields."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49216,6 +49216,29 @@
       ],
       "finding": "Yamaha Japan 2023-10-25 release explicitly125W96D62Hmm450g;mass inclusion basis unstated. Singapore rawdisplay1.7/43 OLED units/diagonal unstated;268effectcount firmwareunknown andregionalDC1Gbundle retained separately;ambiguous ReturnL/R wording doesnotaddports.",
       "remaining": "Verified display diagonal/color/touch,USBpower/audio,imports,current librarian OS,condition-verified IDR prices."
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf",
+      "document": "©2023 Z2I-4875-01 pp3–20",
+      "category_counts": {
+        "dynamics": 10,
+        "filter_eq": 14,
+        "drive": 13,
+        "preamp": 11,
+        "modulation": 11,
+        "pitch": 6,
+        "synth": 3,
+        "delay": 7,
+        "reverb": 8,
+        "sfx": 4,
+        "pedal_control": 6,
+        "bass_amp": 11,
+        "total": 104
+      },
+      "finding": "Category sum104 includes OutputVolumePedal control;DI models separate. Monophonic/chord pitch distinction retained. No downloads.",
+      "remaining": "Physical switch corroboration,screen diagonal/color/touch,imports,current library additions and condition-verified prices."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -50186,5 +50209,15 @@
     "checked_date": "2026-10-17",
     "access": "Searchcache2months;directwebcached3weeks. No currentstockorconditioncertification.",
     "next": "Ownmanual/specification audit;do notborrowHXEffects/M5."
+  },
+  "discovery_bass_vocal_20261017_followup": {
+    "queries": [
+      "site:shopee.co.id Zoom B2.1u",
+      "site:shopee.co.id Digitech BP355",
+      "site:shopee.co.id Vocalist Live 3",
+      "site:shopee.co.id Boss GT5",
+      "site:shopee.co.id Vocal 300"
+    ],
+    "result": "No new exact eligible unit established;HopeMusic mixed G2.1Nu/G2.1u/B2.1u price unmapped;Vocalist/Vocal300 adapters rejected. Existing B2 FOUR exact offers duplicated already-saved observations,not added again."
   }
 }

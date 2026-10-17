@@ -708,7 +708,7 @@ Bass multi-effects; external-only expression. Consolidated and expanded2026-10-1
 | Size class | Medium |
 | Used USD | ? |
 | New USD observation | $178 [P1] |
-| Maximum simultaneous blocks; categories / choices | 5, DSP-limited; 104 effects and 6 DI models; exact category breakdown ? |
+| Maximum simultaneous blocks; categories / choices | 5, DSP-limited; 104 effects and 6 DI models; category breakdown was unknown at2026-10-14 retention,now resolved in current Processing/DI row |
 | Factory / user memory | 300 editable total, 250 factory-filled |
 | Synth / acoustic | Bass Standard Synth and Bass Synth Talk; piezo-input setting, not an acoustic simulator |
 | Third-party IR | Factory Multi-Layer IR documented; user import not established |
@@ -733,14 +733,14 @@ Primary sources: [manufacturer product](https://zoomcorp.com/en/us/multi-effects
 | Built-in expression / toe |No built-in pedal; FP02M external input. Separate toe input unverified |
 | Physical controls verification |Historical4/6/4 fromlegacy photo;not visually corroborated in current pass. Manual diagram/photo retrieval failed;DI/bypass versus main-switch classification needs inspection |
 | Display |256×128 dot-matrix LCD; diagonal,color mode,touch unknown |
-| Processing / DI |Five simultaneous DSP-limited effects; six DI models do not establish a freely assignable sixth effect slot |
+| Processing / DI |Five simultaneous DSP-limited effects; **104 listed entries:10dynamics,14filter/EQ,13drive,11preamp,11modulation,6pitch,3synth,7delay,8reverb,4SFX,6pedal/control,11bassamps**. Table-derived from [official effect list pp3–20](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),©2023 Z2I-4875-01. Includes OutputVolumePedal control;not104simultaneous blocks. Six DI models separate |
 | Looper / rhythm |60 s mono or30 s stereo; UNDO reduces to30/15 s. Minimum1.5 s. Looper/rhythm each occupy one selectable instance |
 | Looper switching |Patch change stops and erases loops; Library entry stops playback. AUX input is not recorded |
 | USB audio / editor |USB2-in/2-out,32-bit. Android audio connection is documented; Android full editor remains unverified. Product advertises the paid iOS editor |
 | Power / body |9V500mA center-negative AD-16 orUSB bus.249W×146D×72H mm,906g. Battery operation not specified |
 | IR / NAM / capture |Factory Multi-Layer IR is not third-party import; native/converted NAM and user capture loading remain unverified |
 
-The [current product page](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/) confirms104 effects and6DI choices:Tube1/2/3 andSolidState1/2/3. Complete current category counts remain unresolved; those are choices,not simultaneous block counts. Three-level factory cabinet IR blending does not establish a user IR loader.
+The [current product page](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/) confirms104 effects and6DI choices:Tube1/2/3 andSolidState1/2/3. The2023effect-list category audit below reconciles104 entries;these are choices,not simultaneous block counts. Installed/app-added library may differ. Three-level factory cabinet IR blending does not establish a user IR loader.
 
 ### B2 FOUR — master output and live selection clarification
 
@@ -771,12 +771,19 @@ All are asking observations,not a new/used market range. Exact condition,selecte
 | Editor / OS compatibility | Zoom’s January2026 [iOS26/iPadOS26 compatibility table](https://zoomcorp.com/en/jp/news/ios26compatibility/) explicitly marks both B2 FOUR hardware and Handy Guitar Lab for B2 FOUR **Yes** on both platforms. This resolves those named OS versions, not all future releases or Android editing. |
 | Editor functions / connection | [Model-specific app page](https://zoomcorp.com/en/us/software-product-page/software-sub-cat/handy-guitarlab-for-b2-four/) documents effect installation/management, patch creation/editing, backups and firmware updates; VoiceOver supported. Apple Camera Adapter required and not included according to page. No app or firmware downloaded. |
 
+#### Offer-access provenance
+
 Condition-unverified exact hardware observations, checked2026-10-17:
 
 - [IDB MUSIK PLUS, Kota Jakarta Utara, shop800959591/item24004987590](https://shopee.co.id/Multi-Efek-Bass-Zoom-B2-FOUR-Adaptor-Zoom-AD-16E-Original-i.800959591.24004987590): Rp4,495,000, AD-16E bundle title. Three-week index only; direct retrieval cache miss. Condition, live stock, selected bundle, warranty, shipping/tax/voucher and final total unknown. Sep26–28 delivery stale. Not a qualified used/new price.
 - [LYN AUDIO, Kota Jakarta Barat, shop1203229574/item42758785757](https://shopee.co.id/ZOOM-B2-FOUR-BASS-MULTIEFFECTS-PROCESSOR-B2FOUR-GARANSI-RESMI-1TAHUN-i.1203229574.42758785757): Rp4,545,000; one-year official warranty is a seller title claim. JS-limited direct body, five-day crawl; condition, live stock, adapter/bundle, selected variant, shipping/tax/voucher and delivered total unknown. Relative four-hour delivery does not verify stock;10k late compensation is not a discount. Misfiled automotive category does not prove a different model or seller authenticity.
 
 Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; existing ACOUSTIC MUSIK item42458813522 still shows Rp4,270,000 with stale29May delivery. Preserve their2026-10-16 observations above; this does not refresh stock certification.
+
+
+### B2 FOUR — effect-list audit,2026-10-17
+
+[Manufacturer effect list](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),©2023 Z2I-4875-01,pp3–20 yields104entries across the categories above,including six pedal/control entries and eleven bass amps. This is the cited list’s inventory,not a guarantee of every installed firmware/app library. BassMonoPitchShifter is single-note;BassPolyphonicPitchShifter supports chords. Pedal category includes persistent OutputVolumePedal control;do not treat that as an additional audio processor slot. Synth category has three models;piezo impedance and fretless simulation do not establish acoustic-guitar simulation.
 
 <!-- comparison evidence ends -->
 

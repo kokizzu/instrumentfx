@@ -421,7 +421,7 @@ def main():
         if mode == 'commit-me50':
             message = 'research(boss): verify ME-50 named controls and toe-switch calibration'
         if mode == 'commit-b2-followup':
-            message = 'research(zoom): restore B2 FOUR offer projection and clarify master output scope'
+            message = 'research(zoom): reconcile B2 FOUR effect category inventory'
         if mode == 'commit-ax3000g':
             message = 'research(korg): document AX3000G MIDI ESS and adapter compatibility limits'
         if mode == 'commit-pandora':
