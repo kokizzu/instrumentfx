@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-22",
-    "task": "VE22 electrical levels/converter ratings and panel lock/volume scope saved. Next fresh discovery or another model primary gaps. VE22USBformat/buspower/polarity,39type reconciliation and qualifiedused remain unknown; thirdpartyUSBpowerclaims not adopted.",
+    "model": "Zoom B3",
+    "task": "Published loopformat,patchchangeclaim andnoise specifications saved. Next fresh brand/series discovery and primary gaps; B3 controls,screen,imports/currentOS and qualifiedusedoffer remain unresolved. No originalB1/B2/506hardware established by latest queries.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-22."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57605,6 +57605,15 @@
       "sources": [
         "https://www.boss.info/global/products/ve-22/specifications/",
         "https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf"
+      ]
+    },
+    {
+      "model": "Zoom B3",
+      "checked_date": "2026-10-18",
+      "finding": "Official product publishes32bitprocessing120dBinputconversionSN−100dBmnoise,footnote0dBm=.775Vrms;16bit44.1loopformat and1mspatchclaim distinctspillover. Fresh originalB1/B2/506queries didnotestablishexacthardware; existingFOURresultsnotreclassified.",
+      "sources": [
+        "https://www.zoom.co.jp/node/47",
+        "https://zoomcorp.com/media/documents/E_B3.pdf"
       ]
     }
   ],
