@@ -101,6 +101,11 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 | K/F/B | **5 rotary / 5 footswitches / 0 separate buttons in the textual control inventory**. EFFECT/TONEPRINT push encoders and three parameter knobs. Specifications explicitly classify PLAY/EDIT and BOARD as selector switches, despite the controls prose calling PLAY/EDIT a knob. Encoder presses counted once; visual corroboration pending. | [QSG pp14–15,33][PX5-M] |
 | Display | LCD displays show slot effects or editing information; diagonal/color/touch unresolved. | [QSG pp14–15][PX5-M] |
 | Processing / categories | **Up to five TonePrint pedals per Board**, freely ordered. Compression, modulation, pitch, gate, reverb/delay documented; complete firmware-qualified catalogue pending. | [Product][PX5-P] |
+| Categories / firmware1.5.6 sustainer | **2025-03-23 adds Infinite Sample Sustainer**,holding notes/chords. PLETHORA version omits its standalone pedal’s reverb section and **Kill Dry**;another Hall of Fame slot can add reverb. Not proof of an oscillator synth. | [Newer official notes][PX5-F156] |
+| Editor / sustainer compatibility | Editing Infinite TonePrints requires **TonePrint4.6.18 plus updated app content**. Historical4.5.5 requirement remains for the older release;not sufficient evidence for this effect. Installed versions unknown. | [Newer official notes1.5.6][PX5-F156] |
+| Live / firmware1.5.6 switching | Adds **momentary**,effect active only while pressed,and momentary+MASH modes. Second-foot-function menu renames None to Latching. This is switch behavior,not extra physical switches. | [Newer official notes][PX5-F156] |
+| Live / firmware1.4.3 tempo | **2023-10-19** adds per-slot Tempo Sync to global tempo,MIDI clock sync,and Tap/Tuner utility. Unsynced slots remain independent;temporary parameter-modifier changes return to global tempo. | [Original release-note conversion][PX5-FM] |
+| Memory / restore-point scope | **1.4.3 restore points cover user content and firmware**. Applying/importing overwrites stored TonePrints,Boards/settings and changes firmware to the snapshot’s version;system import also overwrites the local restore point. This is not an IR/capture loader. | [Original release-note conversion][PX5-FM] |
 | Editor / historical firmware requirements | **Firmware1.3.11,2022-03-03** recommends TonePrint app **4.5.5+** for full new-effect benefit. Units on1.0.101 require intermediate1.1.55 before1.2.18 or later. This is historical compatibility evidence, not a latest-firmware claim. | [Official release notes][PX5-F] |
 | Processing / firmware bypass change | Firmware1.3.6 limited FlashbackII/AlterEgo feedback to80% when bypassed in buffered mode. **1.3.11 respects higher feedback**, permitting self-oscillating bypass trails. Modulation/low-end and vibrato-subtype fixes also documented. | [Official release notes][PX5-F] |
 | Editor / firmware transport | Guide describes USB mass-storage transfer of a .bin file followed by power-cycle installation. This proves update transport, not USB audio or bus power. No update or download performed. | [Official release notes][PX5-F] |
@@ -144,6 +149,11 @@ Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers
 [PX5-F]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf
 
 [PX5-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
+
+Newer documentation checked2026-10-17: manufacturer-hosted indexed1.5.6 text explicitly names both PX5/PX3 andmatches the converted16-page release-history body,including older own-X5 revisions already verified. Direct manufacturer CDN fetch failed500;conversion used only as original release text,not generated FAQs. Neither1.5.6 latest-status nor seller-installed firmware certified.
+
+[PX5-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
+[PX5-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7
 
 ## M350
 

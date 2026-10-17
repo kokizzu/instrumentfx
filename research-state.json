@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic PLETHORA X5",
-    "task": "Own historical1.2.18 additions,Board-navigation/QuickSwap mutual exclusion,HotKnob scope and automaticsettingssave saved. Continue freshShopee discovery or per-model gaps;full ownX5 catalogue/display/power/imports/currentOS/offer verification incomplete.",
+    "task": "PLETHORA X5 newer1.5.6 sustained-sample and switching limits,app4.6.18 requirement,1.4.3 TempoSync/restore-point scope saved. Continue full own-model catalogue or other specs/freshShopee discovery;do not assume newest firmware or seller unit version.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows or push."
   },
@@ -59906,5 +59906,29 @@
       "\"Boss GS10\" \"shopee\""
     ],
     "result": "No usable exact Indonesian processor offer. Returned unrelated stationery/strings and Brazil listings rejected;not market-absence evidence."
+  },
+  "px5_newer_firmware_20261017": {
+    "sources": [
+      "https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf",
+      "https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7"
+    ],
+    "identity": "Manufacturer-hosted indexed1.5.6 explicitlyPX5/PX3 March23 2025.16-page original conversion matches primaryindexed1.5.6 and earlier officialX5 release history;no generatedFAQ used.",
+    "findings": [
+      "InfiniteSampleSustainer firmware1.5.6;no ownreverb orKillDry;HOF separate slotoption.",
+      "Editing neweffect requiresapp4.6.18 and refreshedcontent;old4.5.5 not presumed sufficient.",
+      "Momentary andMomentaryMASH modes;NONE renamedLATCHING.",
+      "1.4.3 Oct19 2023 per-slot globalTempoSync,MIDIclock,TapTunerutility.",
+      "Restorepoints overwriteusercontent and restorefirmwareversion;import replaceslocal snapshot."
+    ],
+    "access": "Primarydirectfetch500;indexedmanufacturertext andoriginalconversion only;no downloads oroperation.",
+    "remaining": [
+      "Fullownmodelcatalogue/count",
+      "Latest/installedfirmware",
+      "Display",
+      "USBaudio/buspower/battery/draw",
+      "IRNAMcapture",
+      "CurrentOS",
+      "Qualifiednewusedoffers"
+    ]
   }
 }
