@@ -282,7 +282,7 @@ Checked 2026-10-17. Partial guitar multi-effects record; distinct from LE/ST/SE.
 | Dimensions / weight | **394W×238D×82H mm;3kg**. |
 | I/O | Guitarinput,stereo miniAUX,shared stereo/monoOUTPUT/PHONES,USB-B,DC12V. Two1-inch speakers,approx0.3W×2;output plug mutes speakers. No externalEXP/MIDI-DIN/FXloop in rear inventory. |
 | Power | **12V DC,700mA consumption**;polarity symbol unread. Battery/USBpower unknown. |
-| USB / software | USB audio andlibrarian documented;Windows audio requiresASIOdriver. USB playback bypasses effects. Full-editorOS/currentcompatibility unknown;driver≠editor. |
+| USB / software | USB audio and **Windows/Mac librarian** documented;dated support limits below. Windows audio requiresASIOdriver. USB playback bypasses effects. Full editor/currentOS compatibility unknown;driver≠editor. |
 | IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
 | Looper / drums / live | Looper/drums/scenes unknown;Program Select/Stomp Box modes,tuner,QuickAssign. |
 
@@ -308,3 +308,10 @@ Checked 2026-10-17 against the [E1 manufacturer manual](https://voxamps.com/wp-c
 Rear power andAMP/LINE switches plus expression activation are additional. Pedal1 choices:COMP,VOX V847,TONE,ENERGIZER. Stand-alone11 andPedal2 eleven combine withPedal1 four toexplain the26pedal subtotal;stand-alone still excludes amp modeling.
 
 Acoustic simulation is explicitly electric-to-acoustic,not merely anacoustic amplifier preset. TECHNO FUZZ’s synth wording describes its timbre;broader synth architecture remains unverified.
+### ToneLab EX — librarian and dated platform support
+
+Checked 2026-10-17. The [official Windows chart,2023-02-20](https://voxamps.com/wp-content/uploads/2023/02/Win_CompatibilityChart-VOX_en_20230220.pdf) lists EX USB audio,USB MIDI,EX ASIO driver andSound Librarian separately. All four show Yes for **Windows8.1 32/64-bit**, then **End Of Support** for Windows10 21H2/22H2 andWindows11 21H2/22H2. MIDI/librarian require the VOX USB-MIDI driver. These dated rows do not establish current Windows releases or actual failure on unsupported systems.
+
+The [official Mac chart,2020-06-19](https://voxamps.com/wp-content/uploads/2020/06/Mac_CompatibilityChart-VOX_en_20200619.pdf) lists EX USB audio,USB MIDI andSound Librarian as Yes on **macOS10.12/10.13/10.14**, and **End Of Support on10.15 Catalina**. Librarian has an unsigned-certificate qualification. The chart’s general Apple-standard-driver advice does not override EX’s model-specific end-of-support rows. Newer macOS/Apple Silicon support remains unverified.
+
+This verifies a **program librarian**, not acomplete parameter editor. A third-party driver database surfaced newer generic driver packages;these were not downloaded or accepted as model/application support evidence. Power polarity remains unread.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX ToneLab EX",
-    "task": "ToneLabEX controls15/6/12 and26pedal breakdown saved;electric-to-acoustic simulator verified. Next check exact librarian platform support andpowerpolarity from own sources;do nottransferToneLabST/SEsoftwareoradapterratings.",
+    "task": "ToneLabEX Windows/Mac librarian support saved with2023Windows and2020Mac EOSqualifications;full editor/currentOS andpowerpolarity unresolved. Next seek exact original librarian setup manual orcontinue Shopee discovery;do notadoptgenericdriverdatabaseclaims.",
     "next_models": [],
     "after_queue": "278partialmodels;continue fullfieldverification andShopeediscovery;all117legacy paths accounted for,butcompatibilitypathsremain.No downloads/workflows/push."
   },
@@ -56898,5 +56898,12 @@
     "pedal_choices": "11stand-alone+4Pedal1+11Pedal2=26",
     "acoustic": "Pedal2ACOUSTIC explicitly electric-to-acoustic;singlecoilneckrecommended",
     "synth": "TECHNOFUZZ synthtimbre documented;not generalengineproof"
+  },
+  "tonelab_ex_platforms_20261017": {
+    "windows_source": "https://voxamps.com/wp-content/uploads/2023/02/Win_CompatibilityChart-VOX_en_20230220.pdf",
+    "windows": "EXaudio/MIDI/ASIO/librarian YesWin8.1x86x64;EOSWin10 21H2/22H2,Win11 21H2/22H2. MIDI/librarianrequireVOXUSBMIDIdriver.",
+    "mac_source": "https://voxamps.com/wp-content/uploads/2020/06/Mac_CompatibilityChart-VOX_en_20200619.pdf",
+    "mac": "EXaudio/MIDI/librarianYes10.12/13/14;EOS10.15;librarianunsignedcertificatequalification",
+    "qualification": "Dated charts;notcurrentOS guarantee,notfull editorproof;genericthirdpartydriverdatabase rejected asapplication support evidence. No software downloaded."
   }
 }
