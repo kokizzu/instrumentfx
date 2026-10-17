@@ -392,6 +392,17 @@ Manual18-0597V-D,56PDFpages;printedpage=PDFindex−3 afterfrontmatter. Manufactu
 [RP1K-Q]: https://digitech.com/faqs/
 [RP1K-O]: https://shopee.co.id/Efek-Gitar-Digitech-RP1000-i.150310054.3200318448
 
+
+### RP1000 — calibration and electrical input/output limits
+
+Checked 2026-10-18 against [own manual pp32–33,50][RP1K-M]; no device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / calibration and toe threshold | Hold the **active preset footswitch ~5s** for PEDL CAL. TOE DOWN then TOE UP are each confirmed with **switch5**. V-Switch threshold **0–199**; test toe toggling, adjust with bank switches, then switch5 exits. Calibration preserves user presets; factory reset erases them. This is not RP250’s two-switch procedure or0–200 range. |
+| I/O / conversion and input limits | **24-bit A/D/A at44.1kHz**. Guitar input **1MΩ**, Stomp Loop return **475kΩ**, Amp Loop return **16kΩ**; each maximum **+8dBu**. Internal **±15V rails** are not external supply requirements. |
+| I/O / output limits | Main line impedance **1kΩ unbalanced/2kΩ balanced**, maximum **+8dBu**. XLR **2kΩ balanced**, maximum **+14dBu**. Both loop sends **600Ω unbalanced/1.2kΩ balanced**, maximum **+8dBu**. Do not substitute one output’s rating for all ports. |
+
 ## RP155
 
 <!-- comparison evidence begins -->

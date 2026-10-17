@@ -510,7 +510,7 @@ def main():
         if mode == 'commit-ve5':
             message = 'research(boss): qualify VE5 harmony interval and control limits'
         if mode == 'commit-rp1000':
-            message = 'research(digitech): qualify RP1000 external loop routing and bypass override'
+            message = 'research(digitech): qualify RP1000 calibration and electrical port limits'
         if mode == 'commit-gt6':
             message = 'research(boss): preserve separate GT5 cached hardware offer'
         if mode == 'commit-hxone':

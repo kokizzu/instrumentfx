@@ -28,11 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX1500G",
-    "task": "Commit factory fill, calibration and distinct used-title600k offer. Next inspect RP1000 full record against indie150310054/3200318448 historical4mHabis lead before adding evidence; avoid duplicates.",
-    "next_models": [
-      "DigiTech RP1000"
-    ],
+    "model": "DigiTech RP1000",
+    "task": "Commit calibration and port-specific electrical limits. Next fresh exact Shopee model discovery; avoid repeating resolved RP1000 loops/census/electrical facts. Remaining power variant polarity and modern software support unverified.",
+    "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
@@ -45321,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX1500G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP1000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57349,6 +57347,14 @@
       "sources": [
         "https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf",
         "https://shopee.co.id/efek-gitar-korg-ax1500g-bekas-i.158819523.40125338719"
+      ]
+    },
+    {
+      "model": "DigiTech RP1000",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual resolves active-preset5s calibration, switch5 endpoint/exit,0–199 Vswitch preserving user data;24bit44.1conversion, distinct guitar/stomp/amp return impedances, input+8dBu, main+8/XLR+14 and loop-send limits. Internal15Vrails not supply. Indie4mHabis ask already recorded, directcachemiss persists.",
+      "sources": [
+        "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf"
       ]
     }
   ],
