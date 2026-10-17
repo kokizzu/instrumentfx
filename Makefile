@@ -1671,3 +1671,7 @@ research-commit-g1-original:
 .PHONY: research-commit-prime-p2
 research-commit-prime-p2:
 	python3 scripts/research_tools.py commit-prime-p2
+
+.PHONY: research-commit-prime-m1
+research-commit-prime-m1:
+	python3 scripts/research_tools.py commit-prime-m1
