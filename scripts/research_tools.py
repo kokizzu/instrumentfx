@@ -379,7 +379,7 @@ def main():
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-hxe-price':
-            message = 'research(line6): qualify HX Effects 3.80 category counts and IR conflict'
+            message = 'research(line6): count HX Effects 3.80 effect categories with scope limits'
         if mode == 'commit-criticalmass':
             message = 'research(tchelicon): qualify Critical Mass style wording and power specificity'
         if mode == 'commit-b21u':

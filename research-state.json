@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 HX Effects",
-    "task": "Finish HX Effects 3.80 per-category named-model counts; reconcile internal IR per-preset/per-path conflict with model-specific release notes. Own supply voltage/polarity unresolved; no community/sibling inference.",
+    "task": "HX Effects 3.80 category inventory now counted. Seek model-specific official clarification of contradictory IR limits, supply voltage/polarity and display details; then resume other field gaps and legacy consolidation.",
     "next_models": [],
     "after_queue": "Other field gaps andmigration;no downloads/workflows."
   },
@@ -52987,9 +52987,53 @@
     "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
     "revision": "3.80 Rev D",
     "category_counts": {
-      "wah": 11,
-      "volume_pan": 5,
-      "basis": "Named table rows; mono/stereo not counted twice; remaining categories pending"
+      "counts_hx_legacy": {
+        "distortion": [
+          44,
+          17
+        ],
+        "dynamics": [
+          12,
+          7
+        ],
+        "EQ": [
+          8,
+          0
+        ],
+        "modulation": [
+          30,
+          26
+        ],
+        "delay": [
+          28,
+          17
+        ],
+        "reverb": [
+          13,
+          12
+        ],
+        "pitch_synth": [
+          12,
+          17
+        ],
+        "filter": [
+          4,
+          11
+        ],
+        "wah": [
+          11,
+          0
+        ],
+        "volume_pan": [
+          5,
+          0
+        ]
+      },
+      "total_hx": 167,
+      "total_legacy": 107,
+      "total_named": 274,
+      "basis": "3.80 Rev D pp19–24 named model rows; each mono/stereo family once; excludes utilities, IR, looper, routing, Favorites. Manual table count, not tested installed firmware.",
+      "row_spans": "Distortion p19:14+30 HX,p20:17 Legacy; dynamics p20:12 HX+7 Legacy; EQ p20:8; modulation p20:8 HX+p21:22 HX+26 Legacy; delay p21:11 HX+p22:17 HX+17 Legacy; reverb p22:13 HX+12 Legacy; pitch/synth p23:12 HX+17 Legacy; filter p23:4 HX+11 Legacy; wah p23:11; volume/pan p24:5."
     },
     "ir_conflict": "pp25–26: one 2048 Single/two 1024 Singles or one Dual per preset; p39: two 2048 Singles/four 1024 Singles/two Duals across paths. Preserve contradiction; no confirmed larger hardware limit.",
     "power": "Official store unavailable; community user statements not promoted to primary supply evidence."
