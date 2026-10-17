@@ -675,6 +675,19 @@ Checked 2026-10-17 directly against PRE AMP, original printed pp45–53. [Source
 These names were checked in PRE AMP itself. The earlier Petrus Clean and Tang Bass prose conflicts remain unresolved; later firmware additions remain separate.
 
 
+### MP-350 — model-specific loop corroboration and serial-setting conflict
+
+Checked 2026-10-17, original **V1.0.2 manual pp46–49**, manufacturer manuscript only. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual).
+
+| Field | Evidence and unresolved conflict |
+|---|---|
+| I/O / loop processing selection | MP-350's manual independently documents FX SND, FX RTN and FX LOOP. Each selects **Mono(L), Mono(R) or Stereo**; the older list's stereo label does not force stereo processing. Send/return/thru levels span Mute, −60 to +20dB, default0dB; Return/Loop Mix0–100 defaults50. |
+| I/O / serial-loop conflict | Manual serial instructions say **FX SND Thru Level0**, whereas the1.1.0 list says **Mute**. Zero is not established as Mute because the manual separately describes0dB. Both specify Return/Loop Mix100; Send must remain unmuted. Manual repeats “serial” for its second, contrasting setup paragraph. Preserve both ambiguities; no silent repair. |
+| Routing / loop restrictions | Manual cautions against Return preceding Send, more than two FX LOOP modules in one chain, or simultaneous loop-module and loop-jack node routing. Mix100 selects only the return path. These are routing restrictions, not proof of two physical loops. |
+
+This corroborates module availability and controls for MP-350 despite the list's Stage wording. The exact serial Thru setting remains unresolved; current-firmware behavior was not tested.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

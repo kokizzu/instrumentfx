@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "Reconcile old category census against accessible later firmware; corroborate utility Stage wording; fresh Shopee brand/series discovery and remaining catalogue gaps",
+    "task": "Fresh Shopee brand/series discovery; reconcile accessible later firmware without repeating unavailable dynamic links; broader catalogue verification and preservation audits",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62959,5 +62959,20 @@
     "verification": "ReadPREAMPheadings directly; matching AMP names not assumed",
     "limits": "All mono; separate from AMP93; historical category census not currentunique/concurrency total; source conflicts retained",
     "next": "Reconcile old category census against accessible later firmware; corroborate utility Stage wording; fresh Shopee brand/series discovery and remaining catalogue gaps"
+  },
+  "mp350_loop_corroboration_20261017": {
+    "source": "https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual",
+    "revision": "V1.0.2 pp46–49",
+    "findings": [
+      "FXSND/RTN/LOOP select MonoL/MonoR/Stereo",
+      "Levels Mute/−60to+20dB default0; Mix0–100 default50",
+      "ReturnbeforeSend, >2FXLOOPperchain andloopnode+module routing cautions"
+    ],
+    "conflicts": [
+      "SerialThru0 manual versus Mute effectlist; 0dB separate fromMute",
+      "Second contrasting setup paragraph also labelled serial"
+    ],
+    "resolution": "MP350module/control applicability corroborated; exact serialThru instruction unresolved; prior Stage-copy wording retained",
+    "next": "Fresh Shopee brand/series discovery; reconcile accessible later firmware without repeating unavailable dynamic links; broader catalogue verification and preservation audits"
   }
 }
