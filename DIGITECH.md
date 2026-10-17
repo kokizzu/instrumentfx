@@ -332,6 +332,17 @@ Ownmanual18-0432V-B,2006declaration,accessed throughofficialmanualindex;director
 [RP250-F]: https://digitech.com/faqs/
 [RP250-O]: https://shopee.co.id/efek-gitar-digitech-rp250-second-i.161000047.56101815937
 
+
+### RP250 — analog specifications and separate Brebes offer
+
+Checked 2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / analog conversion and levels | [Own manual p42][RP250-M]: **24-bit A/D/A, 44.1 kHz**, AudioDNA2 DSP. Guitar input **500 kΩ**; main outputs **500 Ω per side**, maximum **+10 dBu**; headphones **13.6 mW per channel into 50 Ω**. Converter resolution is distinct from software-selectable16/24-bit USB recording. |
+| Routing / Amp-Mixer switch | [Own manual pp10–11][RP250-M]: **Mixer IN** enables speaker compensation and is specified for mixer/recording/headphones; **Amp OUT** is for a guitar amplifier input. These physical switch positions are not separate programmable routing scenes. |
+| IDR / condition-unverified sold-out ask | **Rp700.000; Habis**, [M.SUKMA ASYARI, shop1009431722/item29790227046](https://shopee.co.id/digitech-rp250-i.1009431722.29790227046), Kab. Brebes. Search three-month cache; direct JavaScript-limited reader last-month cache with stale19September delivery. Exact RP250 title, but new/used condition, working state, variant, adapter/bundle, warranty, authenticity, shipping/tax and checkout total unknown. Late-arrival compensation up toRp10.000 is not a price discount. Separate from the Rp925.000 second-title offer; not a used-price bound, live stock or completed sale. |
+
 ## RP1000
 
 Discontinued guitar multi-effects/switching system;notRP500. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.

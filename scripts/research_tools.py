@@ -538,7 +538,7 @@ def main():
         if mode == 'commit-gfx3':
             message = 'research(zoom): qualify GFX3 drive count calibration and Energizer'
         if mode == 'commit-rp250':
-            message = 'research(digitech): enumerate RP250 named Chorus FX choices'
+            message = 'research(digitech): qualify RP250 analog levels and separate sold-out ask'
         if mode == 'commit-rp90':
             message = 'research(digitech): qualify RP90 FX inventory gate conflict and offer'
         if mode == 'commit-ax10g':
