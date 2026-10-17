@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD HD400",
-    "task": "USB sample rates,processed send and monitoring verified;continue fresh discovery or remaining model gaps.",
+    "model": "BOSS ME-20B",
+    "task": "Electrical nominal levels/impedances and patch master/NS behavior saved;continue fresh hardware discovery or remaining model gaps.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD HD400."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-20B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60045,5 +60045,23 @@
         "reason": "GT10B mentions concern power adapters;alreadyrecorded AMPLIFiFX100 unrelated"
       }
     ]
+  },
+  "me20b_electrical_master_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf",
+    "identity": "Own ME20B manual40PDFpages;printed21/37 inspected as browser text",
+    "findings": [
+      "Nominal input/output levels and impedance separated from maximum ratings",
+      "MASTER level saved per patch;unity reference with effects off",
+      "NS0 disables;high threshold suppresses quiet input"
+    ],
+    "remaining": "Simultaneous ceiling,screen details,polarity,imports/software,qualified offers."
+  },
+  "discovery_bass_b91ut_me6b_bp355_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
+      "site:shopee.co.id \"Boss\" \"ME-6B\"",
+      "site:shopee.co.id \"Digitech\" \"BP355\""
+    ],
+    "result": "Search returned no results;not evidence of market absence."
   }
 }

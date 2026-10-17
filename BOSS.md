@@ -1779,6 +1779,8 @@ Bass-focused multi-effects; not guitar ME-20. Checked2026-10-17; partial. Owners
 | Controls / live response | n0 immediate knob changes is default; n1 uses value pickup. Manual mode starts at power-up. Memory effect toggling/NS adjustment requires Patch Edit. AUX is unprocessed, with source-controlled volume. | [Manual pp7,10,23–26][M20B-M] |
 | Routing / delay limits | Effect order is selected automatically from settings; free reordering unverified. Delay0–99ms uses1ms steps;100–700ms uses10ms steps. CHO+DELAY has100–700ms delay and fixed chorus parameters. These are choices inside DELAY/MOD, not independently selectable chorus and delay blocks. | [Manual pp16,19][M20B-M] |
 | Tuner / live | Tuner passes dry bypass; pedal can reduce volume for silent tuning. Reference435–445Hz, automatically saved. Synth chord-tracking restrictions not established in inspected text; no ME-50 single-note restriction borrowed. | [Manual pp14–15,18][M20B-M] |
+| Electrical levels / impedance | Nominal INPUT−10dBu,1MΩ;AUX−18dBu,22kΩ. Nominal output−10dBu,output impedance2kΩ;0dBu=0.775Vrms. These are nominal specifications,not maximum headroom or headphone power. | [Manual p37][M20B-M] |
+| Master / noise suppression | MASTER LEVEL is saved per patch;with effects off,center position gives matching input/output levels. Excessive master can distort. NS threshold0 disables suppression;excess threshold can suppress quiet bass notes. Wah off makes built-in pedal control volume. | [Manual p21][M20B-M] |
 | Looper / drums / live | EZ Edit combines parameters; Bass Enhance boosts dynamics. Looper, drums, scenes, trails and routing restrictions pending. | [Product][M20B-P] |
 
 ### Separate IDR hardware offers
