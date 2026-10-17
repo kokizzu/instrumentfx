@@ -337,7 +337,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-stadiumxl':
-            message = 'research(line6): count Stadium effect categories and verify synth acoustic models'
+            message = 'research(line6): audit Stadium amp and cabinet counts without duplicate rows'
         if mode == 'commit-helixfloor':
             message = 'research(line6): verify Helix Floor loop limits and improve record readability'
         if mode == 'commit-vx5':

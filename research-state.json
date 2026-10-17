@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 Helix Stadium XL Floor",
-    "task": "Effect category row counts and synth/acoustic proof saved. Next audit unique amp/cab list (Cali 2C+ duplicated); power rating remains unverified. Then resume exact Shopee discovery without repeating completed checks.",
+    "model": null,
+    "task": "Stadium XL first pass and follow-up counts committed; leave remaining power/routing/offer gaps explicit. Resume Shopee discovery for missing bass/vocal or legacy guitar multi-effects; check inventory to avoid duplicates.",
     "next_models": [],
     "after_queue": "Market coverage and legacy consolidation remain incomplete; no downloads or workflows."
   },
@@ -49588,6 +49588,15 @@
         "https://line6.com/helix-stadium-models/"
       ],
       "remaining": "Amp/cab unique count, power label, further routing and qualified offers."
+    },
+    {
+      "model": "Line 6 Helix Stadium XL Floor",
+      "checked_date": "2026-10-17",
+      "finding": "Official amp table143 raw rows,142 distinct name/subcategory entries after removing repeated Cali 2C+. Guitar24Agoura66Guitar28Legacy; bass6Agoura11Bass6Legacy; micpreamp1. Cabs38guitar8bass; microphones12choices per family. Channel variants not expanded; same named Agoura/Legacy retained.",
+      "sources": [
+        "https://line6.com/helix-stadium-models/"
+      ],
+      "remaining": "Power label, further routing/DSP restrictions and condition-qualified offers."
     }
   ],
   "discovery_cross_brand_bass": {
