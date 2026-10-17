@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 Floor POD Plus",
-    "task": "Vyzex2.01 historical requirements andbank/preset transfer limits saved. Continue newShopee discovery andprimary-source technical gaps.",
+    "task": "Plus-specific expression calibration saved with FAQreadout qualification; desktopPOD discovery found noaccepted newexact item. Continue fresh Shopee bass/vocal discovery andprimary-source gaps.",
     "next_models": [],
     "after_queue": "314 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -52431,6 +52431,13 @@
       "identity": "Original Vyzex model-specific Pilot Guide2.01;20pages. Editor assignment corroborated officialLine6 guide;no package downloaded.",
       "finding": "Historical OS/CPU/display requirements, Direct/Virtual bank-write distinction andL6T/SQS file compatibility saved.",
       "remaining": "Current OS/package compatibility,dimensions/mass,actualdraw,battery,display,simultaneouscount andqualifiedprice remain."
+    },
+    {
+      "model": "Line 6 Floor POD Plus",
+      "checked_date": "2026-10-17",
+      "source": "https://kb.line6.com/floor-pod-floor-pod-plus-faq",
+      "finding": "Documented Plus-specific toe/heel/A/B/C/Tap calibration, retaining FAQ100/100 readout wording; separated original FloorPOD DIST procedure. No procedure run.",
+      "remaining": "Exact endpoint readout corroboration,current editorOS,dimensions/mass,draw,battery,display,simultaneouscount andqualifiedoffers."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -64952,5 +64959,17 @@
     "backup_scope": "Indexedmanufacturerpatch/systemSysExbackuprestore,directreopenfailed;notIR/NAMorUSBproof",
     "write": "https://support.roland.com/hc/en-us/articles/201938609-SE-50-Writing-a-Patch-into-Memory",
     "remaining": "Exactalgorithmchains/concurrency,controls,screen,ports,power/weight,currentconditionprices"
+  },
+  "discovery_desktop_pod_20261017": {
+    "queries": [
+      "Line 6 POD 2.0 Shopee Indonesia efek",
+      "Line6 POD XT desktop Shopee Indonesia"
+    ],
+    "finding": "No new exact-model desktop hardware offer accepted. Mixed XT Live title andregional/non-ID POD2 listings rejected as desktop ID hardware proof. HopeMusic store cached title mention originalFloorPOD did not yieldexact item inreopened store.",
+    "sources": [
+      "https://shopee.co.id/hopemusik",
+      "https://shopee.co.id/line6-Pod-Xt-live-pod-xt-not-x3-i.58780289.21810633258"
+    ],
+    "next": "Search other bass/vocal series;do not treat irrelevant/non-ID results oraccessories aseligible model price."
   }
 }

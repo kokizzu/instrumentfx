@@ -1540,3 +1540,12 @@ Checked2026-10-17: original model-specific Pilot’s Guide **version2.01**,20pag
 | Editor / historical platforms | Guidep1 lists **WindowsXP/Vista**,P4-equivalent,32-bit color,1024×800 minimum;Windows2000 adaptation explicitly unsupported. Mac **OSX10.4/10.5**,PowerPCG4/G5 orIntel,1024×800. These are historical requirements,not certification for currentWindows/macOS. [Vyzex2.01 guide](https://www.scribd.com/document/227781305/Vyzex-Floor-POD-Plus-Pilot-s-Guide-pdf) |
 | Editor / bank-write behavior | Direct mode propagates bank reordering andstored edits tohardware. Virtual mode auditions viaedit buffer;STORE/STOREIN update onlysoftware bank until explicit synchronization. SaveSet creates anSQS backup. BothMIDI directions needed;audio still requires analogoutputs/headphones. [Guide pp1–12](https://www.scribd.com/document/227781305/Vyzex-Floor-POD-Plus-Pilot-s-Guide-pdf) |
 | Preset / compatible files | Guidep14 accepts FloorPODPlus,PocketPOD andPOD2.0 **L6T** files;otherL6T variants incompatible. Cross-model imports may sound different. SQS stores complete sets;L6T isindividual preset data,not IR/NAM/capture loading. [Guide p14](https://www.scribd.com/document/227781305/Vyzex-Floor-POD-Plus-Pilot-s-Guide-pdf) |
+
+### Floor POD Plus — model-specific expression calibration
+
+Checked2026-10-17 against the [manufacturer Floor POD/Floor POD Plus FAQ][FPP-F]; instructions documented only, not performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / calibration sequence | For **Plus**, hold the toe switch during power-on: FAQ says displayPC then000. At toe position pressA; at heel position pressB; pressC to inspect values, then press toe switch to inspect the effect-encoder lights. HoldTap **2seconds** to save. FAQ prints **100 after both A andB**; retain this wording rather than inventing a0/100 endpoint distinction. |
+| Expression / original-model separation | The same FAQ gives original FloorPOD a different procedure involving **DIST** and power disconnection. That sequence is not the Plus procedure. Toe-switch calibration establishes switching/position control,not an external-expression socket or extra user-memory bank. |
