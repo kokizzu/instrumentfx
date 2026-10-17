@@ -194,13 +194,13 @@ Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, 
 | Expression | No integrated treadle. Quarter-inch pedal input: momentary bypass1/2/both or tap; continuous EXP/toe unknown. |
 | Controls | Text-derived **4 rotaries / 0 integrated footswitches / 14 buttons**, excluding power: three level/mix/balance knobs plus CONTROL wheel; visual verification pending. |
 | Display | **23-character/280-icon STN LCD**; diagonal/color/touch unknown. |
-| Processing / choices | **Two engines**; reverb, delay, modulation, pitch, EQ/dynamics. Full category enumeration pending. Small Room/PingPong explicitly XL-only. |
+| Processing / choices | **Two engines**, one selected algorithm each. Eight reverbs: Hall,Room,Small Room,Plate1,Plate2,Spring,Live,Ambience. Three delays: One Tap,Two Tap,PingPong. Chorus/flange each Classic/4-Voice; pitch Detune/Pitch Shift; parametric EQ; Compressor/Limiter; Gate/Expander; De-esser; tremolo Hard/Soft; phaser Vintage/Smooth. Small Room/PingPong explicitly XL-only. Family/mode enumeration is not an independently verified grand algorithm count. |
 | Presets | **200 factory +100 user =300 locations**; factory edits save into user bank. |
 | Synth / acoustic | Dedicated synthesis/acoustic conversion unknown. |
 | Dimensions / weight | **483×44×195mm;1.85kg**. Published19×1.75×8.2inch conflicts with metric depth; preserve both, do not normalize. |
 | I/O | Balanced XLR L/R inputs/outputs; RCA S/PDIF in/out; DIN MIDI in/out/thru; quarter-inch pedal; mains. Headphones/USB unestablished. |
 | Power | **100–240VAC,50–60Hz auto; <15W**. DC polarity N/A; operating current/battery/USB power unverified. |
-| Editor / platforms | MIDI control/SysEx documented; editor and supported OS unknown. |
+| Editor / platforms | MIDI control/SysEx documented. [Historical manufacturer comparison][M1XL-C] lists editor **None**; dated context references summer2003, not current software availability. Third-party editors and current OS support unverified. |
 | IR / NAM / captures | User IR, native/converted NAM and captures unknown. |
 | Looper / drums / routing | Six routings: dual send/return,parallel,parallel/serial,serial,stereo-linked,dual mono. Looper/drums/scenes unknown. |
 | Instrument scope | Guitar-track and lead-vocal examples support guitar/vocal inclusion; bass remains unclassified. XLR does not establish mic preamp/phantom. |
@@ -217,3 +217,13 @@ Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, 
 [M1XL-O]: https://shopee.co.id/Efek-TC-Electronic-M-One-XL-original-i.480855699.43364186361
 
 Manual printed pp6–8,12–17,40 support controls, routing, memory and XL specifications. Guitar/vocal examples pp13–14; no direct passive-instrument suitability inferred.
+
+### M-One XL — MIDI and routing qualifications
+
+Checked2026-10-17 against [Rev4 manual][M1XL-M],printed pp12,14–15. **Bank-select conflict:** prose says CC32; map labels CC0, values0/1/2 for factory1–100/factory101–200/user1–100. Preserve mismatch; no hardware test. SysEx changes parameters/algorithms/routing; bulk dump backs up presets.
+
+Stereo-linked copies Engine1 settings into Engine2. Dual mono keeps separate mono channels. Serial MIX controls Engine1 mix; EFFECT BAL controls dry bypass around Engine2. These differ from parallel balance behavior.
+
+[M1XL-C]: https://service-tcgroup.tcelectronic.com/media/Rev_Comparison_02b%281%29.pdf
+
+Comparison sheet is indexed manufacturer evidence only; direct PDF inaccessible. Original manual remains accessed through the watermarked mirror; no download performed.

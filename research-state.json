@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "TC Electronic M-One XL",
-    "task": "Root record added; next enumerate exact XL algorithms and qualify software. Keep Standard/XL firmware and XLR/jack distinctions. Preserve depth conflict.",
+    "task": "Named choices, historical editor evidence and MIDI conflict saved. Next resume exact Shopee discovery; do not duplicate XL or silently resolve CC32/CC0.",
     "next_models": [],
-    "after_queue": "Resume Shopee discovery; REV500 lead awaits full qualification. All282 records partial; no downloads/workflows/push."
+    "after_queue": "REV500 lead awaits qualification;282 records partial. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57117,5 +57117,24 @@
       "8.2inch depth versus195mm; retain both"
     ],
     "downloaded": false
+  },
+  "mone_xl_algorithms_20261017": {
+    "manual": "https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf",
+    "scope": "Rev4 SW2.07 XL: named families/modes, aggregate count not asserted",
+    "printed_pages": [
+      3,
+      5,
+      12,
+      14,
+      15,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "editor_source": "https://service-tcgroup.tcelectronic.com/media/Rev_Comparison_02b%281%29.pdf",
+    "editor_access": "Indexed manufacturer source, direct inaccessible; historical summer2003 reference",
+    "conflict": "Bank-select prose CC32 versus map CC0; untested"
   }
 }
