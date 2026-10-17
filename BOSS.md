@@ -2077,6 +2077,11 @@ Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-
 | Patch operation | Manual starts at power-up. Memory pedals select patches rather than toggle effects; Patch Edit enables effect toggling. Knobs use value pickup; unsaved edits are lost. | [Manual pp21–24][M50B-M] |
 | AUX / tuner | AUX volume is source-controlled. Tuner 435–445Hz; exit Tuner before power-off to save pitch. Bypass retains pedal-volume control. | [Manual pp25,27][M50B-M] |
 | Expression calibration | Heel/toe calibration; toe-switch force 1–9, lower is lighter. | [Manual p28][M50B-M] |
+| Power / adapter compatibility | Roland’s 2025-01-14 article explicitly permits PSA 200mA or 500mA versions for the ME-50B’s 9V DC/140mA draw. Adapter capacity differs from device consumption; polarity remains unresolved in inspected text. | [Roland power support][M50B-PS] |
+| External control / cable | Two FS-5Us require a stereo send/return insert cable, per Roland’s 2025-10-08 ME-50/ME-50B article. This establishes switching cabling, not external expression support. | [Roland cable support][M50B-C] |
+| Expression volume limits | Volume-pedal minimum/maximum levels cannot be configured. Roland suggests a louder stored patch for solo boosts. | [Japanese manufacturer FAQ][M50B-E] |
+| Tuner / live source conflict | English support says Tuner automatically mutes; manual p25 and Japanese FAQ describe audible dry bypass with pedal-volume muting. Preserve the contradiction; no tested resolution. Japanese FAQ also qualifies a WAH-mode exception. | [English tuner support][M50B-TE]; [Japanese tuner FAQ][M50B-TJ]; [Manual p25][M50B-M] |
+| Analog levels / conversion | INPUT/AUX nominal −10dBu; impedance 1Mohm/100kohm respectively. Output −10dBu,2kohm. A/D 24-bit+AF; D/A 24-bit;44.1kHz. | [Product][M50B-P] |
 
 ### Separate IDR hardware offers
 
@@ -2093,3 +2098,9 @@ Next: visual control corroboration, simultaneous-capacity accounting, complete c
 
 [M50B-P]: https://www.boss.info/us/products/me-50b/
 [M50B-M]: https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf
+
+[M50B-PS]: https://support.roland.com/hc/en-us/articles/201935489-ME-50B-Recommended-Power-Supply
+[M50B-C]: https://support.roland.com/hc/en-us/articles/201949389-ME-50-ME-50B-Type-of-Cable-needed-when-Using-two-External-Footswitches
+[M50B-E]: https://support.roland.com/hc/ja/articles/4404893596059
+[M50B-TE]: https://support.roland.com/hc/en-us/articles/201952659-ME-50B-Using-the-Tuner
+[M50B-TJ]: https://support.roland.com/hc/ja/articles/4404885589147

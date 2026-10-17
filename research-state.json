@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS ME-50B",
-    "task": "ME-50B acoustic resonance and shared-slot/delay restrictions committed. Continue connector/power verification if own-model primary evidence resolves it; otherwise resume Shopee brand/series hardware discovery without repeating exhausted exact ME-50B searches.",
+    "model": "Bass/vocal hardware discovery",
+    "task": "ME-50B primary support details committed, tuner-source conflict preserved. Resume other-brand/series Shopee Indonesia hardware discovery; do not repeat exhausted ME-50B connector/polarity or exact-IDR searches.",
     "next_models": [],
-    "after_queue": "Continue Shopee brand/series discovery after useful model findings are committed; no downloads, workflows or push."
+    "after_queue": "Keep explicit unknowns; no downloads, workflows or push. Commit useful model findings before researching the next model."
   },
   "new_findings": [
     {
@@ -41265,7 +41265,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-50B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal hardware discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -53371,5 +53371,16 @@
     "pages": "10–15",
     "finding": "HOLLOW acoustic-electric bass resonance supersedes unknown; fixed-chorus combined selections share DELAY/MOD, exact delay ranges and effect-bypass tails qualified; high-band and octave-up drive routing retained.",
     "remaining": "Simultaneous-capacity accounting,full connector sizes,polarity,import/editor scope,visual counts and exact IDR offers."
+  },
+  "me50b_support_followup_20261017": {
+    "sources": [
+      "https://support.roland.com/hc/en-us/articles/201935489-ME-50B-Recommended-Power-Supply",
+      "https://support.roland.com/hc/en-us/articles/201949389-ME-50-ME-50B-Type-of-Cable-needed-when-Using-two-External-Footswitches",
+      "https://support.roland.com/hc/ja/articles/4404893596059",
+      "https://support.roland.com/hc/en-us/articles/201952659-ME-50B-Using-the-Tuner",
+      "https://support.roland.com/hc/ja/articles/4404885589147"
+    ],
+    "finding": "Explicit PSA200/500mA compatibility; stereo insert control cable; fixed volume-pedal endpoints; English automatic tuner mute contradicts own manual and Japanese bypass FAQ. Analog levels/conversion added from own product.",
+    "remaining": "Polarity and connector sizes not resolved by narrow primary search; do not borrow ME-20B connector specifications or accessory-cable sizes."
   }
 }
