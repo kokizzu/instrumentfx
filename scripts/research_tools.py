@@ -469,7 +469,7 @@ def main():
         if mode == 'commit-pocketpod':
             message = 'research(line6): reconcile Pocket POD effect choices and USB limits'
         if mode == 'commit-m9':
-            message = 'research(line6): corroborate M9 AC supply and qualify looper MIDI limits'
+            message = 'research(line6): add distinct Floor POD Plus with unallocated offer'
         if mode == 'commit-m5':
             message = 'research(line6): enumerate M5 models and document bass suitability'
         if mode == 'commit-ax3g':

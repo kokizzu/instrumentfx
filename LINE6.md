@@ -1438,3 +1438,36 @@ Historical indexed asks checked2026-10-17,not livecheckout. Conditions,stock,bun
 
 [HD300-D]: https://kb.line6.com/do-all-pod-hd-modelers-sport-dual-tone-functionality
 [HD300-T]: https://kb.line6.com/are-pod-hd-tones-compatible-with-older-pods
+
+## Floor POD Plus
+
+Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass/vocal suitability andownership unverified.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | Built-in volume/wah,toe switches wah;external socket unlisted. |
+| Controls | Text-derived **14rotary/7foot/2separatebuttons**;AMP encoder push additional,rearAmp/Direct separate. Rotary:AMP,Effects,Delay-select,Drive,Bass,Mid,Treble,ChannelVolume,Compressor,Gate,EffectTweak,Delay-level,Reverb,OutputLevel. Foot:Bank±,A–D,Tap;buttonsSave/Manual. Visual verification pending. |
+| Display | Channel/note display;diagonal,color,touch unverified. |
+| Processing / choices | **32amps;16cab selections includingNoCab;16FX;6delays;2reverbs**. Compressor,gate,wah;aggregate simultaneous count pending. |
+| Factory / user memory | **124preprogrammed channels,31×4**;saving supported;editable-total reconciliation pending. |
+| Synth / acoustic | Unverified;A.I.R. speaker/mic/room simulation is not acoustic-guitar conversion. |
+| Dimensions / mass | Unverified. |
+| I/O | Guitarinput,AUX,L/Mono+Routs,quarter-inchphones,MIDIIn/Out,power;connector sizes otherwise pending. NoUSB listed. |
+| Power / batteries | [Own FAQ][FPP-F] specifies **PX-2**;voltage,current,polarity,battery unresolved. USBpower unsupported by port inventory. |
+| IR / NAM / captures | User loading unverified. |
+| Editor / platforms | FAQ: **Vyzex FloorPODPlus viaMIDI**;OS support pending. |
+| Looper / drums / live | Looper/drums/scenes unverified. Tapdelay,holdtuner;A–D can switch amp,solo,FX,delay. |
+
+### Floor POD Plus — separate IDR evidence
+
+| Condition | Amount / qualifications | Offer |
+|---|---|---|
+| Used exact-model price | Unknown | — |
+| New | Unknown | — |
+| Mixed seller-labelled second/bekas listing | **Rp2,000,000–2,500,000 unallocated**,four variations acrossAX3000G/AX1500G/FloorPODPlus;**Habis**. studio_musik_gema,Kab.Blitar;shop102019323/item25663831731;two-month searchcache2026-10-17. | [Shopee][FPP-S] |
+
+Not an exact FloorPODPlus ask. Seller normal/bonus-bag claims unverified;selectedvariant,workingstate,adapter,bundle,warranty,voucher,shipping/tax/liveStock unknown. Stale11–14August delivery. No download or visualinspection.
+
+[FPP-M]: https://line6.com/data/6/0a060b316ac34f0593b6b6f51/application/pdf/Floor%20POD%20Plus%20user%20manual%20-%20Spanish%20%28%20Rev%20B%20%29.pdf
+[FPP-F]: https://kb.line6.com/floor-pod-floor-pod-plus-faq
+[FPP-S]: https://shopee.co.id/efek-gitar-second-korg-ax3000g-ax1500g-pod-floor-plus.-bonus-tas-effect-guitar-ax-3000g-1500g-3000-1500-bekas-normal-bukan-zoom-nux-mg-valeton-line-6-moer-i.102019323.25663831731
