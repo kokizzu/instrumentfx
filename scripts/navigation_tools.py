@@ -1,5 +1,7 @@
 """Audit live local links and complete legacy redirect coverage."""
 import json
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 import sys
 sys.dont_write_bytecode=True
@@ -43,7 +45,7 @@ def save():
     metadata_consolidation.verify()
     technical_retirement.specialist_verify()
     state=json.loads((ROOT/'research-state.json').read_text())
-    state['migration']['navigation_audit']=dict(report,checked_date='2026-10-17',status='passed',remaining='Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications.')
+    state['migration']['navigation_audit']=dict(report,checked_date=datetime.now(ZoneInfo('Asia/Singapore')).date().isoformat(),status='passed',remaining='Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications.')
     state['migration']['content_consolidation_status']='All117 legacy Markdown/JSON paths accounted for;root content and pinned-original checks pass;compatibility redirects remain.'
     state['migration']['complete']=False
     import comparison_views
