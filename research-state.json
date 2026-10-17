@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "Pedalboard ownmanual/firmware loop routing audit saved;do not repeat. Search eligible absentmodels,exacthardware first.",
+    "model": "HeadRush VX5",
+    "task": "Verify saved exactShopee leads andofficialmulti-effects architecture;record only ifeligible. No specs downloaded. Pedalboardauditdone;do not repeat.",
     "next_models": [],
-    "after_queue": "GT10B/B2.1u originalquery returned accessories;trydistinctseries andvocalunits. No downloads/workflows."
+    "after_queue": "Continuebass/vocal discovery,thenlegacyconsolidation. No downloads/workflows."
   },
   "new_findings": [
     {
@@ -50504,5 +50504,28 @@
       "qualification": "3monthindex,conditionstockunknown;officialspecspending"
     },
     "a21u": "Adapteronlynotunit"
+  },
+  "discovery_vx5_20261017": {
+    "checked_date": "2026-10-17",
+    "status": "ExactShopee leads only;eligibility andmanufacturer specs pending;not activeinventory",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/HEADRUSH-VX5-VX-5-Vocal-Processing-Pedal-with-AutoTune-by-ANTARES-i.1030145984.43570585814",
+        "price_idr": 4631200,
+        "seller": "GALERI MUSIK SIMFONI_PIM",
+        "region": "JakartaSelatan",
+        "stock": "Habis",
+        "qualification": "3monthindex,conditionvariantbundlewarrantyunknown;directnotchecked;notcurrentstock"
+      },
+      {
+        "url": "https://shopee.co.id/Headrush-VX5-Vocal-Effects-Pedal-with-Antares-AutoTune-i.16879370.40920257841",
+        "price_idr": 4400000,
+        "seller": "SevenStereoMusicAudio",
+        "region": "Bandung",
+        "stock": "Habis",
+        "qualification": "3monthindex,delivery10–12July;conditionunknown;directnotchecked"
+      }
+    ],
+    "rejected_searches": "GT10B/B2.1u initialexactqueries returned accessories oralreadyrecordedB2FOUR. VoiceLiveTouch query noexactnewlead."
   }
 }
