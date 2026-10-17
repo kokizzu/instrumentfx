@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 M9",
-    "task": "Exact MIDI ranges and SysEx persistence saved. Next verify expression parameter endpoints and per-unit versus per-scene assignments in own Advanced Guide3•3; assess remaining display and power unknowns without sibling transfer. Keep existing looper conflicts. Then resume unrecorded Shopee series discovery.",
+    "model": "Fresh Shopee discovery",
+    "task": "M9 expression endpoints, model defaults/Mix and effect copy saved. Remaining M9 display/current/USB and looper conflicts retained. Next fresh Shopee discovery by manufacturer series: Line6 Firehawk FX/POD X3 bean/POD HD bean, verify exact hardware and own official documentation before adding. Do not duplicate existing POD X3 Live, XT Live, HD500/500X/400/300 or Pocket POD.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45035,7 +45035,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 M9."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55973,6 +55973,17 @@
         "Current scene reselection does not reload stored state."
       ],
       "remaining": "Looper duration28/56 vs FAQ30/60 and PRE/POST wording conflicts retained; no device testing."
+    },
+    {
+      "model": "Line 6 M9",
+      "checked_date": "2026-10-18",
+      "source": "https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+      "findings": [
+        "Unsaved expression assignments cleared by unplugging; stored scene endpoints not claimed erased. Multiple parameters follow one pedal.",
+        "Model defaults may include expression assignments; Mix100% invokes model-specific U-Vibe/Rotary behavior.",
+        "Effect copy retains edits but does not increase3 simultaneous effects."
+      ],
+      "remaining": "Display diagonal/touch, actual current draw and USB capability remain unverified; looper source conflicts retained."
     }
   ],
   "discovery_cross_brand_bass": {

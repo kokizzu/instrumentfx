@@ -983,6 +983,16 @@ Checked 2026-10-18 against the v2.0 Advanced Guide; no device operation.
 | MIDI / looper controls | **CC50:**0–63 overdub,64–127 record. **CC28:**0–63 stop,64–127 play. CC36 half-speed toggle;85 reverse toggle;82 undo/redo;80 play-once. **CC84:**0–63 PRE,64–127 POST; existing routing-wording conflict remains unresolved. **CC86:**0–63 exit looper control,64–127 enter. Looper levels remain expression-only, not MIDI CC. | [Advanced §§5•1,A•1,A•4][M9-A] |
 | Memory / SysEx restore persistence | Single-scene restore saves automatically in AutoSave; ManualSave requires an explicit scene save after receiving. Folder/all-scene restores automatically persist; guide recommends ManualSave for those transfers. Re-selecting the current scene does not reload its stored state. These are documented persistence rules, not a tested backup guarantee. | [Advanced §§B•1–2][M9-A] |
 
+### M9 expression endpoints and model defaults
+
+Checked 2026-10-18 against the v2.0 Advanced Guide; no hardware test.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / endpoints and clearing | Multiple effect parameters can follow one pedal simultaneously. Set each parameter at heel and toe to define its sweep; v2.0+ displays endpoint pixel cutouts. The guide says unplugging clears **unsaved** pedal assignments, not every stored scene assignment. Scene storage includes heel/toe assignments; FX-unit pedal selection remains per scene, while looper assignment is global as already documented. | [Advanced §§2•3,3•3,4•1][M9-A] |
+| Processing / model defaults and Mix | Some model defaults already include expression mappings when a pedal is assigned. Mix100% can invoke model-specific behavior, including U-Vibe vibrato or a richer Rotary Drm/Hrn sound; it is not a universal wet/dry routing guarantee. | [Advanced §3•2][M9-A] |
+| Memory / effect copy | Effect Copy retains edits when copying the current model to another A/B location, allowing order changes or duplicates. This does not increase the three-active-effect ceiling or scene capacity. | [Advanced §4•6][M9-A] |
+
 ## Pocket POD
 
 Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;partial. Ownership,vocal suitability unknown. Bass use documented for Tube Preamp.
