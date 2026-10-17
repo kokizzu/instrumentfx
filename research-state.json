@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 217,
+  "active_model_count": 218,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 217,
+  "canonical_root_model_count": 218,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "217 unique active models, all root-canonical; no legacy-only models. Instrument views overlap; six specialist archives excluded. Mic Mechanic 2 adds one vocal-only model.",
+  "count_reconciliation": "218 unique active models, all root-canonical; no legacy-only models. Views overlap; six specialist archives excluded. Duplicator adds one vocal-only model.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon Duplicator",
-    "task": "Mic Mechanic 2 recorded separately. Next verify Duplicator using its own manufacturer documents; exact offers in discovery_vocal_compact_20261017. Do not reuse Mic Mechanic hardware specifications.",
+    "model": "Fresh bass/vocal Shopee discovery",
+    "task": "Duplicator added separately; saved compact vocal queue exhausted. Search exact Shopee hardware by missing bass/vocal brand/series, then own manufacturer documents. Preserve manual/product revision conflicts; commit each model before the next.",
     "next_models": [],
-    "after_queue": "Continue missing bass/vocal discovery and unresolved fields; no downloads/workflows."
+    "after_queue": "Continue unresolved fields and legacy compatibility audit; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4742,6 +4742,18 @@
       ],
       "finding": "Independent vocal echo/reverb/correction and Tone; 3 rotary, 1 footswitch, 1 Tone button, power additional. Phantom 24 V vs 48 V and power 6 W vs 2.7 W conflicts preserved. Exact Shopee hardware asks remain condition-unverified.",
       "remaining": "Resolve revisions, power details, software platforms, memory/display/IR/NAM and qualified prices."
+    },
+    {
+      "model": "TC-Helicon Duplicator",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.tchelicon.com/en/products/0726-AAN",
+        "https://cdn.mediavalet.com/aunsw/musictribe/Kvs-h-U7m0qFvYaMTDIYcA/8CRY5ULrck-UO6wzRcgjFg/Original/tchelicon-duplicator-en.pdf",
+        "https://cdn.mediavalet.com/aunsw/musictribe/MfGe9GHeqUqwunXsAFRvQA/kQwtATa7aE2g5PQK24beWQ/Original/QSG_TH_0726-AAN_DUPLICATOR_WW.pdf"
+      ],
+      "finding": "Independent vocal doubling, reverb, correction and Tone; 3 rotary, 1 footswitch, 1 Tone button. Manual/QSG/product revision conflicts preserved; exact hardware asks condition-unverified.",
+      "remaining": "Resolve phantom, voice-count, bypass and power revisions; software/power/memory/display and qualified prices."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23504,7 +23516,8 @@
       "PERFORM-VK",
       "PERFORM-VG",
       "PERFORM-VE",
-      "Mic Mechanic 2"
+      "Mic Mechanic 2",
+      "Duplicator"
     ],
     "Valeton": [
       "GP-100",
@@ -23832,7 +23845,8 @@
       "PERFORM-VK",
       "PERFORM-VG",
       "PERFORM-VE",
-      "Mic Mechanic 2"
+      "Mic Mechanic 2",
+      "Duplicator"
     ],
     "CUVAVE.md": [
       "H8"
@@ -23893,8 +23907,8 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 28,
-      "vocal_only_count": 15,
+      "record_count": 29,
+      "vocal_only_count": 16,
       "combined_instrument_count": 13,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
@@ -23911,10 +23925,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 181 guitar, 87 documented bass-capable, 28 vocal; technical and market verification incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 181 guitar, 87 documented bass-capable, 29 vocal; technical and market verification incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "217 root-canonical models;0 legacy-only. Compatibility files remain; technical and market research incomplete.",
+    "warning": "218 root-canonical models;0 legacy-only. Compatibility files remain; technical and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -40784,13 +40798,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 217,
-    "canonical_root_models": 217,
+    "unique_brand_model_pairs": 218,
+    "canonical_root_models": 218,
     "legacy_only_models": 0,
     "guitar_view_models": 181,
     "bass_focused_models": 21,
-    "vocal_only_models": 15,
-    "vocal_view_models": 28,
+    "vocal_only_models": 16,
+    "vocal_view_models": 29,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -40819,7 +40833,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Duplicator."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass/vocal Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41121,6 +41135,7 @@
       "TC-Helicon::PERFORM-VG",
       "TC-Helicon::PERFORM-VE",
       "TC-Helicon::Mic Mechanic 2",
+      "TC-Helicon::Duplicator",
       "Zoom::V6-SP",
       "Zoom::V3"
     ]
@@ -42279,6 +42294,13 @@
     },
     "TC-Helicon::Mic Mechanic 2": {
       "link": "TC-HELICON.md#mic-mechanic-2",
+      "source_files": [
+        "TC-HELICON.md"
+      ],
+      "finding_files": []
+    },
+    "TC-Helicon::Duplicator": {
+      "link": "TC-HELICON.md#duplicator",
       "source_files": [
         "TC-HELICON.md"
       ],
@@ -49890,6 +49912,10 @@
     {
       "model": "TC-Helicon Mic Mechanic 2",
       "task": "Resolve product/manual phantom and bypass conflicts; older/newer power ratings and bundle wording; verify dimensions axes, polarity, USB operation, runtime, software and price condition."
+    },
+    {
+      "model": "TC-Helicon Duplicator",
+      "task": "Resolve manual/QSG/product differences in phantom voltage, supply current, octave-up/voice counts and bypass; verify power details, expression, memory/software/display and qualified offers."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -1495,3 +1495,7 @@ research-commit-708ii:
 .PHONY: research-commit-mic-mechanic2
 research-commit-mic-mechanic2:
 	python3 scripts/research_tools.py commit-mic-mechanic2
+
+.PHONY: research-commit-duplicator
+research-commit-duplicator:
+	python3 scripts/research_tools.py commit-duplicator

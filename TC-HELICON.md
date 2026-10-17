@@ -598,3 +598,48 @@ Remaining: phantom/bypass/power revision conflicts; dimension axes; polarity/cur
 [MM2-H]: https://cdn.mediavalet.com/aunsw/musictribe/Ezul2jVHX06ru8x0ML0LLQ/yTCfboad_kixcdoVVARxGw/Original/M_TH_P0DDW_MIC-MECHANIC-2.pdf
 [MM2-O]: https://www.zikinf.com/manuels/tc-helicon-mic-mechanic-2-manuel-utilisateur-en-74710.pdf
 [MM2-O2]: https://images.equipboard.com/uploads/item/manual/59423/tc-helicon-mic-mechanic-2-manual.pdf
+
+## Duplicator
+
+Checked **2026-10-17**; partial. Independent vocal doubling, reverb, correction and Tone qualify this processor for ALL-VOCAL. No guitar/bass membership is inferred from seller categories. Specifications below come from Duplicator documents, not Mic Mechanic 2.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No integrated treadle in documented controls; external continuous expression and toe-switch support unverified. Mic Control is not continuous expression. |
+| Rotary / footswitches / buttons | **3 / 1 / 1**: Doubling, Reverb, Correction; footswitch; Tone. Power switch additional. Count from control inventory, not successful current image inspection. [Quick start][DUP-Q] |
+| Display | Status LEDs documented; screen, diagonal, color-display specification and touch unverified. [Manual][DUP-M], p3 |
+| Dimensions / weight | **140 × 90 × 60 mm; 420 g**. Printed axes and battery inclusion unspecified; W×D×H mapping unverified. [Manual][DUP-M], p5 |
+| Simultaneous processing / categories | Doubling, reverb, correction and Tone coexist; maximum freely assignable DSP slots unverified. Doubling: Tight, Loose, Octave Down. Three reverb spaces, Room/Hall endpoints. Tone: Normal/Less Bright. [Manual][DUP-M], p3 |
+| Factory / user / total presets | Numerical factory-filled, editable-user and total patch memory unverified. Style selections are not assumed to be saved patches. |
+| Synth / acoustic simulation | Dedicated synthesis and acoustic-instrument simulation unverified. Octave doubling is not evidence of a separate synth engine. |
+| IR / NAM / capture | User IR loading, native NAM, converted NAM and proprietary capture each unverified. |
+| Audio / control I/O | Balanced XLR mic input/output; micro-USB; power input. [Manual][DUP-M], p3. Headphones, instrument input, MIDI and USB audio unverified. |
+| Power / battery / USB | Quick start specifies **9 V / >300 mA**, optional PowerPlug 9, **4 AA**. Older manual lists **9 V / 670 mA; 6 W**. Revision relationship unresolved; these are published ratings, not measured current. DC polarity, barrel, runtime, USB power/charging unverified. [Quick start][DUP-Q]; [Manual][DUP-M], p5 |
+| Editor / updater platforms | Micro-USB firmware updates documented; manual names VoiceSupport. Current Windows/macOS support, full editor, mobile editing and audio drivers unverified. Updating does not establish USB audio. [Quick start][DUP-Q]; [Manual][DUP-M], p3 |
+| Live functions / routing | Manual: footswitch bypasses doubling, retaining reverb/correction/Tone; latching or momentary, selected with Tone during power-up. Auto gain; MP-75 Mic Control, disabled for condenser microphones. [Manual][DUP-M], pp3–4. Quick start additionally describes hold-to-bypass doubling/reverb. Looper, drums, scenes, persistence and spillover unverified. [Quick start][DUP-Q] |
+| Phantom / revision conflicts | Manual: always-on **24 V** phantom. Current product page: **48 V**, true bypass, two double-tracks and optional octave-up/down. Manual describes one additional voice with three alternatives, including octave-down; octave-up is not corroborated there. Hardware/firmware explanation unresolved. [Manual][DUP-M], pp3–4; [Product][DUP-P] |
+| Used IDR | **?** No condition-verified used hardware offer established. |
+| New IDR | **?** Exact hardware asking observations below lack verified sale condition. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee observations and limitations
+
+Checked **2026-10-17**; saved exact pages were reopened during discovery immediately before this model audit:
+
+- [NEO MUSIC, shop158235298/item4494020701](https://shopee.co.id/TC-HELICON-DUPLICATOR-Vocal-Effects-Doubling-Reverb-Pitch-Correction-i.158235298.4494020701), Kota Sukabumi: **Rp2,678,000**. Exact JS-limited body, last-month cache with stale September4 delivery.
+- [BEHRINGER Semarang, shop103535156/item29504097967](https://shopee.co.id/TC-HELICON-DUPLICATOR-Vocal-Effects-Doubling-Reverb-Pitch-Correction-i.103535156.29504097967), Kota Semarang: **Rp2,600,000**. Exact JS-limited body, last-month cache with stale September7 delivery.
+
+Sale/working condition, current stock, selected variation, adapter/battery bundle, warranty, shipping/tax and final total remain unknown. Rp10,000 late-delivery compensation is not deducted. These are historical asking observations, not verified used/new ranges or completed sales. Seller branding does not establish manufacturer authorization or item authenticity. Full discovery provenance remains in research-state.json.
+
+### Document identity and remaining work
+
+Manufacturer-hosted English six-page manual: ©2016; title metadata **2016-12-05 Rev.1**. Manufacturer-hosted multilingual quick start: **v1.0**, English controls on printed p11. The current product page differs from both; no revision is assumed to reconcile them. PDF screenshot retrieval failed, so no visual panel corroboration is claimed. No document, software, dependency or firmware downloaded to the filesystem.
+
+Remaining: phantom/voice-count/bypass/power revision differences; expression; dimension axes; polarity/barrel/draw/runtime/USB operation; editor platforms; memory/display/IR/NAM/capture; qualified sale condition and current stock.
+
+[DUP-M]: https://cdn.mediavalet.com/aunsw/musictribe/Kvs-h-U7m0qFvYaMTDIYcA/8CRY5ULrck-UO6wzRcgjFg/Original/tchelicon-duplicator-en.pdf
+[DUP-Q]: https://cdn.mediavalet.com/aunsw/musictribe/MfGe9GHeqUqwunXsAFRvQA/kQwtATa7aE2g5PQK24beWQ/Original/QSG_TH_0726-AAN_DUPLICATOR_WW.pdf
+[DUP-P]: https://www.tchelicon.com/en/products/0726-AAN
