@@ -231,3 +231,14 @@ Manual printed pp1–2,4–7,10–15,19–20; text-only review,no download. Comb
 Checked2026-10-17 against [official manual][R5-M],printed pp8–17. Predelay0–200ms,or299.9ms in echo/reverb;reverb time0.3–99s. Parallel chorus bypasses common HPF/LPF; those filters affect the reverb path.
 
 MIDI CC12–16 controls predelay,reverb time,high-frequency ratio,early-reflection level,effect level. A128-entry MIDI map addresses200 stored programs;128 is not memory capacity. Pedal program advance follows this map and wraps at aselected1–128 limit. MIDI OUT echoes channel messages only when enabled. Editor compatibility remains unverified.
+
+### REV500 — electrical and connection qualifications
+
+Checked2026-10-18 against [Yamaha’s exact REV500 manual][R5-M],printed pp2,14,19.
+
+| Field | Manufacturer specification / limit |
+|---|---|
+| I/O / balanced connectors | XLR and quarter-inch inputs and outputs are **balanced**. The manual prohibits simultaneous use of XLR and quarter-inch **inputs**. These are alternate connector formats for two channels,not four independent inputs. |
+| I/O / mono and output mode | Mono input requires the **left input plus INPUT SELECT=L-MONO**; plugging only the left socket does not complete setup. Output mode selects effect-only or effect+direct;EFF LEVEL sets their balance in mixed mode. Mono output uses left output. |
+| Processing / conversion | **20-bit AD andDA,44.1kHz**;AD64× andDA8× oversampling. Published dynamic range **96dB typical**,response20Hz–20kHz(+1/−2dB),distortion<0.03% at1kHz/max level. These are manufacturer ratings,not independent measurements or USB-audio specifications. |
+

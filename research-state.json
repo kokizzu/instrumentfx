@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX StompLab 2B",
-    "task": "StompLab 2B KA181 adapter polarity chain and value lock saved;visual panel failed. Next move to another existing-record gap or fresh Shopee discovery;do not repeat failed screenshot requests.",
+    "model": "Yamaha REV500",
+    "task": "Balanced alternate-input restriction,mono setup and converter specifications saved. Remaining display/editor/import and used/new variant evidence unresolved;continue another material gap or fresh discovery.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -45467,7 +45467,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab 2B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha REV500."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58087,6 +58087,12 @@
         "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf",
         "https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php"
       ]
+    },
+    {
+      "model": "Yamaha REV500",
+      "checked": "2026-10-18",
+      "finding": "Exact manual adds balanced connector restrictions,mono setup and converter ratings;see canonical record.",
+      "source": "https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf"
     }
   ],
   "discovery_cross_brand_bass": {
