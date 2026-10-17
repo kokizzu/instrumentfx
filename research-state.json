@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "PERFORM-VK MIDI split/transposition andRPN0 qualifications saved. Continue missing-model exactShopee discovery andtechnicalverification.",
+    "task": "PANDORA stomp oscillator/portamento variations andsynth control ranges saved. Continue exactmissingmodel discovery andtechnicalverification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69663,5 +69663,20 @@
       "RPN0PitchBendSensitivity"
     ],
     "discovery": "HarmonyG/VoiceToneCreateunresolved;existingPerformVKofferamountsunchanged"
+  },
+  "technical_followup_pandora_synth_20261018": {
+    "date": "2026-10-18",
+    "source": "https://cdn.korg.com/jp/support/download/files/26827ed905ce18aa7be2edd632ecdda7.pdf",
+    "page": 31,
+    "findings": [
+      "OSC0–7eightvariants;8–15portamento",
+      "Threshold1–10;SynthLevel0–10",
+      "VCFpositive/negative sensitivityrangesretained"
+    ],
+    "limits": [
+      "Single-note only",
+      "No additional simultaneousoscillators inferred"
+    ],
+    "discovery": "PX5D/PX4D/PANDORAmini exactShopee searchesunresolved"
   }
 }

@@ -583,7 +583,7 @@ def main():
         if mode == 'commit-ax3000g':
             message = 'research(korg): preserve qualified AX3000G second-title historical offer'
         if mode == 'commit-pandora':
-            message = 'research(korg): include qualified PANDORA stomp historical offer in comparisons'
+            message = 'research(korg): qualify Pandora stomp oscillator and filter controls'
         if mode == 'commit-vl3x':
             message = 'research(tc-helicon): preserve additional VL3X sold-out hardware offer'
         if mode == 'commit-b3':

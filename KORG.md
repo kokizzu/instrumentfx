@@ -30,6 +30,15 @@ Shared guitar/bass multi-effects;not PANDORA mini/PX5D. Checked2026-10-17;partia
 | New | Unknown;no condition-verified new ask. | — |
 | Conditional historical observation / Daily Music Store | **Rp1,730,000; Habis**, Kota Jakarta Timur, shop271847827/item6741582344. Exact PXST IV ivory title; checked2026-10-17, month-old index and JS-limited direct body. Condition, working state, adapter/bundle, physical variant, warranty, shipping/tax/voucher and final total unknown. Same-day delivery text is stale; late compensation is not discount. Not a verified new/used range or live-stock offer. | [Exact item](https://shopee.co.id/KORG-PXST-IV-PANDORA-STOMP-IVORY-i.271847827.6741582344) |
 
+### PANDORA stomp — synth oscillator variations
+
+Checked 2026-10-18 against [original EFGSJ2 manual, printed p31][PS-MJ]. Extracted text reverses word order; English and German sections corroborate the oscillator mapping. No downloads or hardware testing.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / oscillator settings | **OSC TYPE 0–7 selects eight sawtooth/sine pitch variants; 8–15 repeats those with portamento enabled**. These are 16 settings within one SYNTH type, not 16 simultaneous oscillators or extra amp-category models. Single-note playing and correct instrument tuning remain required. |
+| Synth / threshold and filter controls | THRESHOLD adjusts trigger sensitivity to guitar/bass level, **1.0–10.0**; SYN LVL adjusts synth volume, **0.0–10.0**. VCF values **0.0–4.7 use positive sensitivity, 5.0–10.0 negative sensitivity**; manual recommends 5.0 for sine-wave oscillator. Preserve these displayed values without inventing Hz, dB or envelope times. |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified hardware observations
