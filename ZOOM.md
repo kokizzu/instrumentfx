@@ -1206,6 +1206,21 @@ These asks are separate observations,not a new/used market range. Search/list pa
 
 Remaining:current category inventory,factory preset subset,IR length/overwrite rules,exact physical-control corroboration,external toe implementation,explicit battery operation,NAM/capture support andqualified used/live-stock pricing. Full original facts,dates,URLs and source qualifications are preserved.
 
+### B6 — loop allocation and electrical limits
+
+| Field | Verified detail / qualification |
+|---|---|
+| Processing / external loop allocation | Send/return consumes one of the six effect slots. Position saves per patch; FxLoop sends and returns at that position, while Send and Return modes expose the respective direction. DSP-overflow selection is rejected rather than automatically accepting an over-budget effect. [Official operation manual](https://zoomcorp.com/manuals/b6-en/). |
+| I/O / analog levels | INPUT1/2 rated−20dBu, switchable1/10MΩ; RETURN rated−20dBu,1MΩ; AUX rated−10dBu,10kΩ. Main line and SEND maximum+11.4dBu at≥10kΩ load; phones24+24mW into32Ω. XLR impedance100Ω leg-to-ground/200Ω differential. [Official specifications](https://zoomcorp.com/manuals/b6-en/#specifications). |
+| Processing / conversion | A/D and D/A24-bit,128×oversampling; internal processing32-bit. Response20Hz–20kHz,±0.5dB at10kΩ load. These differ from selectable USB transfer formats. [Official specifications](https://zoomcorp.com/manuals/b6-en/#specifications). |
+| Editor / audio driver distinction | Windows requires B6 driver; Mac/iOS/iPadOS audio needs no driver. USB2.0 Micro-B data cable required; Lightning devices need a camera adapter. USB recording gain−6 to+6dB. This does not establish mobile editor compatibility without BTA-1. [Official interface instructions](https://zoomcorp.com/manuals/b6-en/). |
+
+### Additional condition-unverified IDR ask
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unknown | **Rp6,800,000; Habis**, Imagination Music Store, Kota Jakarta Pusat; shop19576516/item14745371582. Checked2026-10-18; four-month search cache with8June delivery, direct open failed. Condition, working state, variant, adapter/bundle, warranty and current stock unknown. Rp10,000 late compensation is not discount; shipping/tax/checkout unknown. Sold-out indexed ask, not a used/new range. | [Indexed exact item](https://shopee.co.id/Zoom-B6-Bass-Multi-effects-Processor-i.19576516.14745371582) |
+
 ## V3
 
 Vocal multi-effects; hand-operated desktop/mic-stand unit. Consolidated and researched 2026-10-16; partial verification. No guitar processing membership inferred from vocal effects.

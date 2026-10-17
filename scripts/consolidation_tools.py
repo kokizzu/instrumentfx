@@ -1414,6 +1414,9 @@ def commit(model_id):
     if model_id == 've-8':
         print(research_tools.git('commit', '-m', 'research(boss): resolve VE8 guitar effect concurrency and qualified ask'))
         return
+    if model_id == 'b6':
+        print(research_tools.git('commit', '-m', 'research(zoom): qualify B6 loop allocation electrical limits and indexed ask'))
+        return
     if model_id == 've-500':
         print(research_tools.git('commit', '-m', 'research(boss): distinguish VE500 processing ratings from USB format'))
         return

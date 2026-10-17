@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-8",
-    "task": "CHORUS up3 concurrency, delay/octave/reverb/correction and LYN cached ask saved. Next fresh Shopee discovery and primary gap work. VE8 exact concurrent groups, total controls, USB format/power, DC voltage/polarity remain unresolved.",
+    "model": "Zoom B6",
+    "task": "Loop slot allocation, electrical limits, driver distinctions and qualified Imagination ask saved. Next fresh Shopee discovery and primary gap resolution. B6 current category census, factory fill, IR length/overwrite rules and control corroboration remain unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-8."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B6."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57452,6 +57452,15 @@
       "sources": [
         "https://static.roland.com/assets/media/pdf/VE-8_e02_W.pdf",
         "https://shopee.co.id/BOSS-VE8-ORIGINAL-GARANSI-1-TAHUN-EFEK-ACOUSTIC-SINGER-VE-8-i.1203229574.28960136338"
+      ]
+    },
+    {
+      "model": "Zoom B6",
+      "checked_date": "2026-10-18",
+      "finding": "Own HTML manual resolvesloopconsumesoneof6slots,3modes,DSPselectionrejection;24bit128xADDA32bitprocessing;port-specificrated/maxlevels,impedances,phonespower;Windowsdriver versusMac/iOSdriverfreeaudio,USBrecordgain. Imagination19576516/14745371582Rp6.8mHabis4monthindex/directcachemissconditionunknown.",
+      "sources": [
+        "https://zoomcorp.com/manuals/b6-en/",
+        "https://shopee.co.id/Zoom-B6-Bass-Multi-effects-Processor-i.19576516.14745371582"
       ]
     }
   ],
