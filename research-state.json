@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Matribox QME-50",
-    "task": "Original Matribox exact sold-out Shopee asks saved;language/condition unresolved. Continue fresh brand/series discovery and technical gaps;do not conflate LOBAJET Shopee with Jakmall CN-language evidence.",
+    "model": "Sonicake Matribox II QME-100",
+    "task": "Shared bass,color,convertedNAM andtoe/assignment details saved. Continue model-specific display/control/algorithms/price gaps orfreshdiscovery;no Pro spec borrowing.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -24497,9 +24497,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 121,
+      "record_count": 122,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 93,
+      "shared_bass_capable_count": 94,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41494,8 +41494,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 121,
-    "bass_shared_models": 93,
+    "bass_view_models": 122,
+    "bass_shared_models": 94,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox QME-50."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox II QME-100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41875,6 +41875,7 @@
       "Sonicake::Matribox QME-50",
       "Sonicake::Smart Box QME-20",
       "Sonicake::Pocket Master QME-10",
+      "Sonicake::Matribox II QME-100",
       "Sonicake::Matribox II Pro QME-200",
       "Valeton::GP-100",
       "Valeton::GP-150",
@@ -41986,6 +41987,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Sonicake::Matribox II QME-100": "Own Matribox II product explicitly lists guitar/bass/acoustic effects. Shared bass,not inferred from Pro or an EQ control. [Manufacturer](https://www.sonicake.com/products/matribox-ii).",
     "Sonicake::Matribox QME-50": "Own original Matribox product explicitly supports guitar/bass/acoustic processing. Shared bass,not low-end performance certification. [Manufacturer](https://www.sonicake.com/products/matribox).",
     "Sonicake::Pocket Master QME-10": "Own Pocket Master product explicitly lists guitar/bass/acoustic amp types. Shared bass;exact bass inventory/performance unresolved. [Manufacturer](https://www.sonicake.com/products/pocket-master).",
     "Sonicake::Matribox II Pro QME-200": "Own firmware1.1.1 manual pp41,44 lists A BassVT/A BassFT bass amps and bass cabinets. Shared bass capability;not performance certification. [Official regional manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf).",
@@ -60598,5 +60600,19 @@
     ],
     "qualification": "ExactQME50titles;notnewmodels,English/globalcertificationorused/newrange;JakmallCNwarningretainedbutnotsilentlytransferred",
     "rejected_followup": "PekanBelanjaa1454120664/41650189914titlealgorithmcountsinconsistent;OneTwoThree1505062399/40277079505cached1853485holiday listing not independently verified;notpromoted."
+  },
+  "matribox_ii_loading_bass_expression_20261017": {
+    "sources": [
+      "https://www.sonicake.com/products/matribox-ii",
+      "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623",
+      "https://www.hotone.jp/announcements/nama2allbrand"
+    ],
+    "findings": [
+      "Own model explicitbassprocessing,color screen",
+      "A2conversiondesktop1.3.0+",
+      "Builtin toe andthreeparametersperEXP1A/BorEXP2"
+    ],
+    "remaining": "Screen diagonal/touch/resolution,buttons,algorithmcensus,NAMarchitectures,currentOS/batteryUSBpower/qualifiedoffers.",
+    "access": "HTMLandown48pagefirmware1.3.0PDFtextonly;nodownloadorimageinspection"
   }
 }

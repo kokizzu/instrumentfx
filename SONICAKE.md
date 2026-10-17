@@ -321,9 +321,11 @@ Explicit touch support, active used-price evidence and remaining algorithm/prese
 | Field | Preserved finding / uncertainty |
 |---|---|
 | Expression / controls | Built-in plus external EXP/FS;**5/3/?**,toe/rear power separate. |
-| Dimensions / display | **276 W ×164 D ×55.8 H mm;1.54kg**,medium. Published display diagonal/color/touch still need a primary display pass in this retained record. |
+| Dimensions / display | **276 W ×164 D ×55.8 H mm;1.54kg**,medium. Own product explicitly specifies **color screen**;diagonal,touch andpixel resolution remain unverified. [Product](https://www.sonicake.com/products/matribox-ii). |
+| Expression / assignment details | Own firmware1.3.0 manual pp3,9:**toe press switches built-in pedal function**;EXP1A,EXP1B andexternalEXP2 each control **three effect parameters**. Do not infer an external toe switch from EXP2. [Manual,checked2026-10-17](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623) |
+| Bass capability | Own Matribox II product explicitly lists **guitar/bass/acoustic effects**;shared bass inclusion. Exact bass algorithm census/low-end performance remain unverified. [Manufacturer](https://www.sonicake.com/products/matribox-ii) |
 | Processing / presets | **Ten movable modules;63 amps,61 cabs,93+ pedal effects**;**198 locations,99 factory-filled**. Exact acoustic/synth algorithms unverified despite acoustic-related marketing. |
-| Loading | **15 user IRs**;NAM A2 desktop workflow advertised,architecture/conversion restrictions pending release-note reconciliation. |
+| Loading | **15 user IRs**;Official Japan2026-08-18 notice identifies **NAM A2 conversion through desktop1.3.0+**;accepted architectures/size limits remain unverified. [Notice](https://www.hotone.jp/announcements/nama2allbrand). |
 | Ports | 6.35 mm TS input;**two balanced mono6.35 mm TRS outputs**;mono TS FX send/return;3.5 mm AUX/phones;EXP/FS;3.5 mm TRS MIDI IN/OUT;USB-C. Two balanced outputs are not one stereo headphone socket. |
 | Power | **9V/1000mA center-negative**;battery/USB-powered operation not established. |
 | Apps / recording | Windows/macOS full editor;USB audio Windows/macOS/iOS/Android,not proof of mobile editing;loopback/reamp. |
