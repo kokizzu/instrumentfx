@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "Serial looper exception,remaining-capacity display andimport-folder rules saved. Continue fresh Shopee bass/vocal series discovery;SE-50 scannedmanual fields need readable primary evidence.",
+    "model": "BOSS VE-22",
+    "task": "Output modes,loop persistence/control andglobal expression hold saved. Continue fresh Shopee bass/vocal discovery andremaining technical gaps.",
     "next_models": [],
     "after_queue": "314 active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -41835,7 +41835,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive 3 Extreme."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-22."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52286,6 +52286,13 @@
       "identity": "Manufacturer-authored reference,2015-10-20;retained VL3X firmware2.1.00build346 identity;browser text only.",
       "finding": "Qualified serial sync as one-track-only vs parallel A+B/A+C;documented remaining loop storage display and FAT32/VL3_Loops import paths with optional destination filenames.",
       "remaining": "Nominal aggregate loop capacity remains unresolved;other technical,software,power and qualified pricing gaps retained."
+    },
+    {
+      "model": "BOSS VE-22",
+      "checked_date": "2026-10-17",
+      "source": "https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf",
+      "finding": "Resolved MONO/STEREO/FX-DRY mapping;left FX/DRY includes dry sound. Added unsavable loop audio,Perform/Check positions,manual-mode external control requirement andglobal EXP HOLD.",
+      "remaining": "Category/simultaneous totals,USB formats,power polarity,bus power,display diagonal/touch,imports andqualified offers remain."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -1703,3 +1703,7 @@ research-commit-ax10b:
 .PHONY: research-commit-ve1
 research-commit-ve1:
 	python3 scripts/research_tools.py commit-ve1
+
+.PHONY: research-commit-ve22
+research-commit-ve22:
+	python3 scripts/research_tools.py commit-ve22
