@@ -516,7 +516,7 @@ def main():
         if mode == 'commit-hxone':
             message = 'research(line6): clarify HX One impedance bypass and preset queue'
         if mode == 'commit-pocketpod':
-            message = 'research(line6): qualify Pocket POD combo tuner and save behavior'
+            message = 'research(line6): distinguish Pocket POD cabinet choices and output tuning'
         if mode == 'commit-m9':
             message = 'research(line6): qualify M9 expression endpoints and model-specific Mix behavior'
         if mode == 'commit-m5':

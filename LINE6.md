@@ -1042,6 +1042,17 @@ Checked2026-10-18 against [ReferenceRevA §§1•2,2•2–3][PP-M]. Text inspec
 | Memory / save destination | Editing Band/Style read-onlysounds defaultsSAVE to **User01A**; useredits default totheirownlocation. Only124userlocations arewritable. TAPor5sinactivity cancelssave. Factoryreset restoresall124userpresets; not anadditionalROMbank. |
 
 
+
+### Pocket POD — cabinet count and Amp Out tuning
+
+Checked 2026-10-18 against [original Reference RevA §§3•11–12,4•4][PP-M].
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / cabinet-count basis | The published **16 choices include No Cab: 15 modeled cabinets plus that bypass choice**. Tube Preamp defaults to No Cab. Amp selection loads a paired cabinet; Vyzex permits mixing other amp/cab combinations. This qualifies the earlier16-choice figure, not16 additional effect slots or user-IR support. |
+| Routing / Amp Out destination modes | **A**: power-amp input/closed-back cab; **B**: power-amp input/open-back; **C (default)**: instrument input/open-back; **D**: instrument input/closed-back; **Direct**: recorder/mixer/PA without speaker cab. Enter Cab Select by holding SAVE+DOWN while connecting guitar input; SAVE stores selection. These are output-tuning modes, not five additional cabinet models. |
+| Processing / gate control | SAVE+TAP with LEFT/RIGHT adjusts gate threshold; repeated LEFT eventually disables it. Tuner sensitivity remains a separate saved control. No numeric threshold range established here. |
+
 ## HX One
 
 Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX Stomp. One selected model,not a multi-block chain. Checked2026-10-17;partial. Ownership/vocal suitability unknown.

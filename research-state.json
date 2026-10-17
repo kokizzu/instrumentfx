@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX3000G",
-    "task": "Commit output compensation, digital level, pedal recall and selected PRE/POST routing. Next fresh Shopee discovery of a different guitar multi-effects series; AX3000G current/polarity remain open, do not repeat resolved routing.",
-    "next_models": [],
-    "after_queue": "335 active records partial;117 legacy compatibility files retained. No downloads/workflows/push."
+    "model": "Line 6 Pocket POD",
+    "task": "Commit cabinet-count correction and AmpOut tuning details. Next inspect full M9 record before resolving exact Namin Music item from shop lead; retain condition uncertainty and do not confuse generic M9 mixers.",
+    "next_models": [
+      "Line 6 M9"
+    ],
+    "after_queue": "335 active models partial;117 compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45319,7 +45321,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3000G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 Pocket POD."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57312,6 +57314,14 @@
       "finding": "Own manual resolves optical DOUT LVL five steps, amp-destination compensation scope excluding drive/off, target-dependent pedal recall and selected pre-effect PRE/POST placement. Current/polarity still unverified; no unrestricted reorder or output hardware switch inferred.",
       "sources": [
         "https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf"
+      ]
+    },
+    {
+      "model": "Line 6 Pocket POD",
+      "checked_date": "2026-10-18",
+      "finding": "Own reference distinguishes16cabinet choices as15modeled+NoCab, default TubePreamp bypass, editor amp/cab remapping versus five AmpOut tuning modes. Added exact A/B/C/D/Direct destinations and SAVE+DOWN startup/store. Gate control separate from tuner sensitivity. Fresh exact Shopee offer already recorded; no duplicate quote.",
+      "sources": [
+        "https://line6.com/data/l/0a06007212036468013d917d3a/application/pdf/Pocket_POD_Reference_Manual.pdf"
       ]
     }
   ],
