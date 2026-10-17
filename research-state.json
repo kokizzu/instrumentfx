@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VoiceLive Play",
-    "task": "Continue exact-model current firmware/USB/power verification or fresh Shopee discovery. Recoveredv2.1pp22/25/28 saved; do not repeat old access failures as current.",
+    "task": "Continue VoiceLive Play current firmware/USB format or fresh Shopee discovery; regional analog levels saved, USB connector wording conflict retained.",
     "next_models": [],
     "after_queue": "329active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -65983,5 +65983,17 @@
     "revision": "v2.1 original manual",
     "new_evidence": "Six manual scales,eight named transducer styles independently corroborated forv2.1.",
     "remaining": "Partial routing/tempo extraction, no installedfirmware audit; other technical/market/ownership gaps remain."
+  },
+  "voicelive_play_electrical_20261018": {
+    "source": "https://www.electori.co.jp/tc-helicon/vocal/voicelive_play.php",
+    "kind": "regional published specifications",
+    "mic_input_dbU": [
+      -42,
+      13
+    ],
+    "output_dbU_at_0dBFS": 2,
+    "converters": "24bit128x;not USB format",
+    "conflict": "Regional USB-B wording versus original rear-panel Mini-B record",
+    "remaining": "USBchannels/rate/format,currentfirmware,display andmarket gaps."
   }
 }
