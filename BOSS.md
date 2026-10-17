@@ -1988,7 +1988,7 @@ Guitar multi-effects; distinct from ME-20B and ME-25. Checked 2026-10-17; partia
 | Dimensions / mass | **294W×179D×54H mm**, maximum height74mm; **1.6kg including batteries**. | [Specifications][ME20-P];[Manual p37][ME20-M] |
 | Processing / category choices | OD/DS6 (five drives plus compressor), MOD5 (chorus,phaser,flanger,tremolo,rotary), DELAY3 selections (two delay ranges plus reverb); EQ,WAH,noise suppressor andfoot volume. Delay/reverb share selection; ranges are not independent algorithms. Routing is selected automatically from effect settings. Delay ranges:0–99ms in1ms steps;100–700ms in10ms steps. EZ EDIT sound recipes are parameter combinations,not additional algorithms. Explicit simultaneous ceiling unverified. | [Manual pp16–22,33][ME20-M] |
 | Factory / user memory | **30 factory-filled user locations**,10banks×3; not30user plus30read-only. WRITE required. Factory reset restores user sounds,tuner reference pitch and knob response. | [Manufacturer][ME20-P];[Manual pp26,29,31–33][ME20-M] |
-| Synth / acoustic | Dedicated synth/acoustic simulation unverified; guitar multi-effects architecture established. | Unresolved |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified; guitar multi-effects architecture established. | [Manual text][G10B-T] |
 | I/O | ¼input,Lmono/R¼outputs,stereo⅛AUX,stereo¼phones,¼TRS FOOT SW,DC. 24-bit AD/DA,44.1kHz;input1MΩ/AUX22kΩ,nominal−10/−18dBu respectively;output2kΩ,nominal−10dBu. No USB/MIDI listed. AUX bypasses effects,level controlled at source. PHONES connection adds amp-like tonal compensation. | [Specifications][ME20-P];[Manual pp10,37][ME20-M] |
 | Power / battery / USB | **9VDC,90mA**; six AA or optional PSA. Alkaline13h/carbon3.5h conditional. INPUT plug insertion powers on; removal powers off. Polarity andUSB power unverified. | [Specifications][ME20-P];[Manual p10][ME20-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified;no digital import path established. | Unresolved |
@@ -2837,19 +2837,19 @@ Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Ma
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in pedal; external EXP2/CTL3,4. Toe behavior unverified. | [Product][G10B-P] |
+| Expression | Built-in pedal; external EXP2/CTL3,4. Firm toe pressure toggles EXP PEDAL SW; sensitivity is calibratable (manual pp.19,81–82). | [Product][G10B-P]; [manual text][G10B-T] |
 | K/F/B | Six dedicated footswitches advertised; four parameter encoders mentioned. Complete rotary/button counts and switch classification pending; no visual audit. | [Product][G10B-P] |
 | Display | **132×64 backlit graphic LCD;3-character seven-segment LED**. Diagonal/color/touch unknown. | [Product][G10B-P] |
 | Dimensions / mass | **542W×272D×77H mm;4.9kg**;pedal-up height104mm. | [Product][G10B-P] |
 | Processing / routing | Parallel bass-effect paths blend or switch by pedal/dynamics. COSM amps,compression,EQ,drive. Simultaneous ceiling/category totals unresolved. | [Product][G10B-P] |
 | Factory / user memory | **200 preset+200 user=400**;initial user fill unknown. | [Product][G10B-P] |
-| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified;not borrowed from GT-10. | Unresolved |
+| Synth / acoustic | BASS SYNTH processes bass input and requires single-note playing; chords unsupported (p.110). Acoustic simulation remains unverified. | [Manual text][G10B-T] |
 | I/O | Instrument input;L/R main andXLR sub outputs;stereo phones;send/return;amp-control;EXP2/CTL3,4;USB;coaxial digital out;MIDI in/out;DC. Connector sizes/USB type pending. | [Product][G10B-P] |
 | Power / battery / USB | **9V DC,800mA draw,PSB-1U supply**. Polarity,battery/bus operation unknown. | [Product][G10B-P] |
 | IR / NAM / capture | User IR,native/converted NAM andcapture loading unverified. | Unresolved |
 | Editor / software | Windows/Mac **Librarian1.00** listed;driver entries separate. Full editor/current OS compatibility unverified. No software downloaded. | [Product][G10B-P] |
 | USB / conversion | USB audio/MIDI;channel/word-length limits pending. AD24bit+AF,DA24bit,44.1kHz. | [Product][G10B-P] |
-| Looper / drums / scenes | Phrase loop selectable before/after effects;duration,persistence,drums/scenes pending. | [Product][G10B-P] |
+| Looper / drums / scenes | Phrase loop before/after effects; up to38s mono or19s stereo with overdubbing (pp.60–61). Persistence,drums/scenes pending. | [Product][G10B-P]; [manual text][G10B-T] |
 
 ### Separate IDR hardware evidence
 
@@ -2864,3 +2864,7 @@ GT10B Shopee searches surfaced adapter listings and foreign retailers rather tha
 
 [G10B-P]: https://www.boss.info/global/products/gt-10b/
 [G10B-M]: https://www.boss.info/global/support/by_product/gt-10b/owners_manuals/1b0c0624-bf01-4547-9a55-641a90f35577/
+
+Manual follow-up: manufacturer-authored 2008 GT-10B owner manual, G6027127R0, read as mirrored document text; generated introduction/FAQ excluded. Official CDN PDF exceeds web-reader size limit. No file downloaded.
+
+[G10B-T]: https://manualzz.com/doc/51314063/boss-audio-systems-music-pedal-gt-10b-owner-s-manual
