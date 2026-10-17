@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery",
-    "task": "606/607 useful findings committed; retain their explicit remaining gaps. Search Shopee Indonesia by brand/series for unrecorded eligible hardware, resolve exact links before specifications. No downloads/workflows/push.",
-    "next_models": [],
-    "after_queue": "Zoom606/607 exact mixed-model item shop703817770/item20045443371 saved; no model-specific price. Preserve all deferred model gaps. No downloads, workflows or push."
+    "model": "DigiTech RP70",
+    "task": "Verify own official manual/product/support, then add eligible record using saved exact SECOND Rp750000 historical Shopee item. Commit useful findings before researching M100.",
+    "next_models": [
+      "TC Electronic M100"
+    ],
+    "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -54498,5 +54500,79 @@
       "Exact condition-specific offers",
       "Other saved technical gaps"
     ]
+  },
+  "discovery_rp70_m100_20261017": {
+    "checked_date": "2026-10-17",
+    "searched": [
+      "DigiTech RP80",
+      "Zoom GFX-8",
+      "Korg AX1G",
+      "DigiTech RP series",
+      "Zoom 506",
+      "Korg AX series",
+      "TC Electronic M100",
+      "DigiTech RP70",
+      "Zoom G2Nu"
+    ],
+    "leads": [
+      {
+        "model": "DigiTech RP70",
+        "url": "https://shopee.co.id/Efek-Gitar-Digitech-RP70-SECOND-i.473560916.28475084274",
+        "seller": "Mash_Aken",
+        "shop_id": "473560916",
+        "item_id": "28475084274",
+        "condition": "Seller-labelled SECOND",
+        "asking_idr": 750000,
+        "region": "Kab. Ciamis",
+        "crawl": "Three months ago",
+        "access": "Browser search returned exact item page text; preorder 3 days with July7–10 estimate. Historical cached ask, not current checkout/stock.",
+        "unresolved": [
+          "Working state",
+          "Authenticity",
+          "Bundle",
+          "Adapter",
+          "Warranty",
+          "Shipping/tax",
+          "Voucher eligibility"
+        ]
+      },
+      {
+        "model": "TC Electronic M100",
+        "url": "https://shopee.co.id/TC-Electronic-M100-Stereo-Multi-Effects-Processor-i.19576516.6955147985",
+        "seller": "Imagination Music Store",
+        "shop_id": "19576516",
+        "item_id": "6955147985",
+        "condition": "Unverified",
+        "asking_idr": 1950000,
+        "region": "Kota Jakarta Pusat",
+        "crawl": "Last month",
+        "access": "Browser search returned exact item page text; preorder15days with September16 estimate. Historical cached ask, not current checkout/stock.",
+        "unresolved": [
+          "Condition",
+          "Working state",
+          "Authenticity",
+          "Bundle",
+          "Adapter",
+          "Warranty",
+          "Shipping/tax",
+          "Voucher eligibility"
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+        "reason": "Replacement pedal sensor, not processor"
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+        "reason": "Power adapter, not processor"
+      },
+      {
+        "url": "https://shopee.co.id/swit-atau-Switch-efek-digitech-RP-10-RP10-i.38361451.6195477304",
+        "reason": "Replacement switch, not processor"
+      }
+    ],
+    "limit": "No technical specifications adopted. Limited search does not prove market absence. Catalogued models and unrelated/accessory results not new entries."
   }
 }
