@@ -763,6 +763,16 @@ Checked 2026-10-18 against the [manufacturer-authored regional manual](https://w
 | Processing / acoustic and synthesis distinction | **AC Pre1 and AC Pre2** are acoustic preamps based on AER Colourizer 2, with different EQ frequency ranges; they do not establish electric-to-acoustic body simulation. The reviewed modulation/delay/reverb tables do not establish a dedicated synth engine. Complete synth/acoustic coverage remains under audit. |
 | Processing / delay and reverb trails | DLY and RVB entries expose **Trail** for tails when the effect is bypassed. This does not establish tails across preset changes. |
 
+### GP-5 — completed firmware 1.0.3 algorithm census
+
+Checked 2026-10-18 against the [own manual, pp20–35](https://www.hotone.jp/manuals/valeton/GP-5.pdf).
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / remaining category choices | **NR 1; PRE 10; DST 10; AMP 32**. AMP divides into **7 clean, 9 drive, 11 high-gain, 3 bass and 2 acoustic preamps**. PRE includes polyphonic OCTA and Pitch plus Detune; these do not establish synthesis. |
+| Processing / total reconciliation | Adding the previously audited CAB20/EQ5/MOD11/DLY10/RVB10 gives **109 named algorithms**, consistent with advertised100+. This derived census excludes user IR slots, SnapTone files and the N→S Empty loader placeholder. It is firmware1.0.3 evidence, not a current installed inventory or simultaneous-block count. |
+| I/O / bypass restriction | Analog bypass is mono: no right-channel output. The manual also says USB audio is bypassed in bypass state. |
+
 ## GP-50
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
