@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-200",
-    "task": "GP200 toeABswitching,permodeEXPassignments,looperheadlinequalifications andsaving/livecontrols saved. Next categorychoices/synthacoustic orfreshShopeediscovery; exactrotary/buttonpanelverification remainsopen.",
+    "task": "GP200 explicitACSim andpitchtrackingdistinctions plusWAH6entryinventorysaved. Next remainingcategorycensus/dedicatedsynth,exactcontrols orfreshShopeediscovery;unknownsremainexplicit.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61247,5 +61247,16 @@
       "PatchStompUsertap/holdassign;Waitbankdefault"
     ],
     "limits": "Exactknob/buttoncountsnotinferredfromtextdiagram;looppatchcontinuitynotinferred"
+  },
+  "gp200_acoustic_pitch_20261017": {
+    "source": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "revision": "GP200firmware1.8.0manualpp28–31",
+    "findings": [
+      "ACSimStandardJumboEnhancedPiezoBodyTopVolume",
+      "StepFilter4stepautofilter notdedicatedsynthproof",
+      "OCTAPitchPBendexplicitpolyphonic;Hammy/Harmonizer1/2mono",
+      "WAH6V/C/P/S/BWahHammy;HammyalsoPREnotuniquetotaladdition"
+    ],
+    "limits": "Notwholeinstalledlibrarycensus/currentfirmwaretestortrackingmeasurement"
   }
 }
