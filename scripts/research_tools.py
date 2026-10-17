@@ -359,7 +359,7 @@ def main():
         if mode == 'commit-nux-mg400-audit':
             message = 'audit(nux): preserve MG-400 shared fields and historical firmware scope'
         if mode == 'commit-nux-mg300mkii-audit':
-            message = 'research(nux): include documented MG-300 MKII bass capability'
+            message = 'research(nux): preserve MKII calibration conflict and IR routing limits'
         if mode == 'commit-nux-mg300-audit':
             message = 'research(nux): document original MG-300 output and calibration modes'
         if mode == 'commit-nux-mg101-audit':

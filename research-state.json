@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-300 MKII",
-    "task": "Continue MKII memory/power/category manufacturer gaps or fresh bass/vocal discovery. MKII now has documented bass membership;do not add unique model count. Retain conflicting amp totals and sold-out offer.",
+    "task": "MKII reproduced manual checked;calibration conflicts withproduct copy. Seek exact revision evidence or continue fresh bass/vocal discovery;do not repeat unavailable PDF images or infer presetcapacity/currentdraw.",
     "next_models": [],
     "after_queue": "Bass/vocal discovery and migration audit remain incomplete. No downloads/workflows/push."
   },
@@ -52088,6 +52088,14 @@
       "source": "https://nuxaudio.com/product/mg300mkii/",
       "finding": "Added missing shared-bass membership from eight bass cabinet IRs;recorded datedGEN2/editor versions and separateASIO support.",
       "remaining": "Factory/user memory,power draw/polarity,firmware-specific category counts;official/mirror PDFs still image-only text extraction."
+    },
+    {
+      "model": "NUX MG-300 MKII",
+      "checked_date": "2026-10-17",
+      "source": "https://manuals.plus/nux/mg-300-mkii-modeling-guitar-processor-manual",
+      "identity": "Reproduced manufacturer ©2024Cherub model-specific body,full text read;mirrorAI/FAQs excluded;byte-equivalence unverified.",
+      "finding": "Calibration conflict preserved;perpatchIR vs24collection,defaultIR bypass outsideStudioDirect,PARA.FOLLOW andsimultaneousdry/processed USB recording saved.",
+      "remaining": "Exact firmware applicability of calibration conflict;power/presetcapacity/counts andother gaps unresolved."
     }
   ],
   "discovery_cross_brand_bass": {
