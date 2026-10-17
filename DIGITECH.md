@@ -401,3 +401,41 @@ Source identity caveat: official DigiTech directory links this 40-page PDF as RP
 
 [RP200-F]: https://digitech.com/faqs/
 [RP200-S]: https://digitech.com/software-downloads/
+
+## RP70
+
+Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal in full panel inventory; Control In accepts passive expression/volume controller, **250 kΩ or greater**. Toe support unresolved. | [Manual pp6–11,35][RP70-M] |
+| K/F/B | **0 rotary / 2 footswitches / 10 buttons**, including rear Amp/Mixer: four library/level, Edit±, Value±, Drums, Store. Visual corroboration pending. | [Manual pp6–11][RP70-M] |
+| Display | Numeric display and effect-matrix LEDs; diagonal/color/touch unresolved. | [Manual p9][RP70-M] |
+| Processing / categories | **Nine simultaneous effects**; full category catalogue pending. | [Manual p35][RP70-M] |
+| Preset memory | **50 user + 50 factory = 100**; initial user bank duplicates factory sounds. | [Manual pp5,35][RP70-M] |
+| Synth / acoustic | Synth/acoustic capabilities pending; patch names alone insufficient. | Unresolved |
+| I/O | Unbalanced quarter-inch guitar input and L/Mono/R outputs; eighth-inch stereo headphones; Control In; power input. Headphones become mono with only L/Mono connected. | [Manual pp10–11,35–36][RP70-M] |
+| Power / battery / USB | Manual: PS200R **9 V DC/300 mA**, PS0913DC **9 V DC/1300 mA** supply ratings, regional variants. Actual draw/battery/USB unresolved. | [Manual p36][RP70-M] |
+| Power / source conflict | FAQ RP70/PS200R row instead states **9.6 V DC/300 mA, center-negative**, barrel 9.5 mm long/5.5 mm outer/2.1 mm pin, 120 V Type A variant. Preserve voltage conflict and regional limit. | [FAQ][RP70-F] |
+| Dimensions / mass | **6.5 L × 5 W × 2 H inches; 0.86 lb unit weight**. | [Manual p35][RP70-M] |
+| IR / NAM / capture | Import/capture support unresolved. | Unresolved |
+| Editor / platforms | Editor and OS support unresolved. | Unresolved |
+| Live / practice | **40 drum patterns**, global settings; tuner and bypass. Looper/scenes unresolved. | [Manual pp2,34–35][RP70-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | **Rp750.000**, seller-labelled SECOND, Mash_Aken, shop473560916/item28475084274, Kab. Ciamis. Checked 2026-10-17; indexed crawl three months old, three-day preorder with July7–10 estimate. Historical ask, not current stock/checkout. | [Item][RP70-O] |
+| New | No qualified offer established. | — |
+
+<!-- comparison evidence ends -->
+
+Working state, authenticity, bundle, adapter, warranty, shipping/tax and voucher eligibility unresolved. No download or visual inspection claimed. Manual reached through [official directory][RP70-D], own-model declaration identifies RP70.
+
+[RP70-M]: https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf
+[RP70-D]: https://digitech.com/product-manuals/
+[RP70-F]: https://digitech.com/faqs/
+[RP70-O]: https://shopee.co.id/Efek-Gitar-Digitech-RP70-SECOND-i.473560916.28475084274
