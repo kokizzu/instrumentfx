@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-1",
-    "task": "Driver architecture restrictions andanalog levels verified. USBformat/buspower remain unknown;continue fresh Shopee series discovery andother technical gaps ratherthan repeatedlyreopeningdriverarchives.",
+    "model": "BOSS SE-50",
+    "task": "Newexact Shopee leadandmanufacturer guitar/vocal eligibility saved. Nextobtainreadable144page manufacturer manual oridentifiedtranscription;buildseparatepartialprofileandcomparisons,commitbeforeanothermodel.",
     "next_models": [],
-    "after_queue": "Technical/market/ownership/migration incomplete;no downloads/workflows/push."
+    "after_queue": "313activeunchanged;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -64750,5 +64750,27 @@
     "mac_access": "Exact1.0.5pagecachemiss;indexSonoma14xlater notwithdrawalproof",
     "remaining": "USBchannels/rate/depth,buspower,polarity,exactcurrentmaccompatibility,qualifiedprices",
     "discovery": "BP355Shopeequerynoqualifiedhardware;notabsenceproof"
+  },
+  "discovery_se50_20261017": {
+    "model": "BOSS SE-50",
+    "checked_date": "2026-10-17",
+    "status": "New exact hardware lead;not yet active inventory/profile",
+    "offer": {
+      "url": "https://shopee.co.id/Boss-PRO-SE-50-SE-50-SE50-Stereo-Effects-Processor-i.7769509.48750366204",
+      "seller": "kemzguitars",
+      "shop": "7769509",
+      "item": "48750366204",
+      "ask_idr": 2250000,
+      "region": "Kab. Bogor",
+      "access": "Direct JS-limited body andtwo-month indexed result",
+      "unknowns": "Condition,new/used,working state,revision,stock,selectedvariation,bundle,adapter,warranty,voucher,shipping/tax/finaltotal",
+      "qualification": "Relative next-daydelivery not stock;lateRp10kcompensation nothardwarediscount;notcompletedsale"
+    },
+    "eligibility_source": "https://www.boss.info/id/promos/vocal/",
+    "eligibility": "Manufacturer describes guitar effects plusVocalMulti limiter/enhancer/noisesuppressor/delay/chorus/reverb stereo chain;guitar/vocalcandidate,bassnotyetestablished.",
+    "manual": "https://cdn.roland.com/assets/media/pdf/SE-50_OM.pdf",
+    "manual_provenance": "Linked byhttps://www.boss.info/us/support/manual_archive/;144pageszeroextractedlines;notread/visuallyverified,nofilesystemdownload",
+    "next": "Find readable manufacturer-authored manual transcription;complete fields,categorymembership andnewprofile beforeaddingcount. DistinguishSE50A/SE70.",
+    "other_searches": "SE70/VT12/Zoom506queries yieldedunrelatedresults;noqualifiednewhardware. Notmarketabsence."
   }
 }
