@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Resume fresh Shopee discovery or locate readable original TC-1 manual copy. Exact JOYO UK TC1.pdf link is saved but web reader rejects11918355byte response; do not repeat unchanged route or promote retailer feature claims. All technical gaps remain explicit.",
+    "task": "Resume fresh Shopee brand/series discovery. B2 FOUR dated Tahoe26 and Mac/iOS DAW compatibility saved; no editor/Android inference. TC1 exactmanualoversize route remains deferred.",
     "next_models": [],
     "after_queue": "325active;technical/market/ownership/migration incomplete. No downloads/workflows/push."
   },
@@ -65736,5 +65736,15 @@
     "product_attempt": "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/Tonechain-TC-1 cachemiss",
     "rejected": "UnrelatedTC1timecodeboxmanual;retailerUSB/battery/bypasstablesnotprimaryhardwareevidence.",
     "next": "Find readable manufacturer-authored original copy with exact model/revision checks;avoidrepeatingunchangedoversizePDFroute."
+  },
+  "b2four_daw_os_followup_20261018": {
+    "checked_date": "2026-10-18",
+    "sources": [
+      "https://zoomcorp.com/ja/jp/news/macos_tahoe/",
+      "https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf"
+    ],
+    "findings": "B2FOUR supportedTahoe26AppleSiliconandIntel,Jan23 2026status. DatedJuly2025Mac/iOSDAWcombinationssaved;noteditorclaimorAndroidCubasisoverride.",
+    "market": "Freshsearches returnedalreadyrecordedB2FOURexactoffers;no duplicate ornewqualifiedprice.",
+    "remaining": "USBsample rate,fullcurrentapp/driverrevisionmatrix,othertechnicalgaps andqualifiedoffers."
   }
 }
