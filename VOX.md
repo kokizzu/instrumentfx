@@ -137,6 +137,15 @@ Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass s
 | New | Unknown; exact offer lacks condition evidence. | — |
 | Conditional historical observation | **Rp3,850,000; Habis/sold out**, BANKO MUSIC STORE, Kab. Bandung, shop1452686572/item41751511183. Checked2026-10-17; month-old opened HTML, stale26Aug delivery. Condition, working state, variant, adapter/bundle and warranty unverified; shipping/tax/checkout unknown. Late-arrival compensation is not discount. Historical ask, not live stock, completed sale or confirmed new/used range. | [Exact SE item][TLSE-S] |
 
+
+### ToneLab SE — converters and dual-pedal control
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / converters | **20-bit A/D and D/A;44.1 kHz**. These are SE specifications; no LE/ST/EX converter values substituted. | [Japanese p63][TLSE-M] |
+| Expression / independent initialization | EXP1INIT/EXP2INIT are separate, global and automatically remembered. OFF applies current pedal position on program change; ON recalls the saved sound. Per-program target/MIN/MAX settings require saving; changing target resets its range. | [Japanese pp51–53][TLSE-M] |
+| Expression / Quick Assign | Hold EXPRESSION1s to assign the displayed eligible parameter to pedal1; hold CONTROL1s for pedal2. Changing the effect clears its target except amp targets and delay/reverb input levels. An off target effect cannot be controlled. | [Japanese pp50–52][TLSE-M] |
+| Expression / calibration | Use a **hand**. Power on with EXPRESSION+CHAIN for pedal1, CONTROL+CHAIN for pedal2. Move fully back, release, GLOBAL; move fully forward, release, GLOBAL. EXIT cancels; ERROR restarts at MIN. No hardware operation performed. | [Japanese p55][TLSE-M] |
 <!-- comparison evidence ends -->
 
 ### Condition-unverified sold-out Shopee hardware

@@ -28,11 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX ToneLab LE",
-    "task": "Converters, EXP INIT semantics and tap-factor limits saved; commit before next model. Next inspect existing ToneLab SE record and new BANKO exact lead1452686572/41751511183 Rp3850000 Habis, cache last month, condition unknown. LE weight conflict and other verification gaps persist; no downloads/workflows.",
-    "next_models": [
-      "VOX ToneLab SE"
-    ],
+    "model": "VOX ToneLab SE",
+    "task": "Existing BANKO offer revalidated, not new. SE converters and dual-pedal initialization/assignment/calibration saved; commit before next model. Full simultaneous accounting, modern editor compatibility, display and market/ownership gaps persist; resume fresh Shopee discovery or different primary gaps; no downloads/workflows.",
+    "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
@@ -45321,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab LE."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab SE."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57162,6 +57160,15 @@
       "finding": "Added internal24bit/44.1kHz conversion, exact global EXP INIT meanings/exceptions and twelve tap factors/10s interval. Shopee LE search returned existing exact ask; new SE BANKO item1452686572/41751511183 Rp3850000 Habis discovered but not researched or assigned to LE.",
       "sources": [
         "https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf",
+        "https://shopee.co.id/Multi-FX-VOX-Tonelab-SE-Twin-Pedal-Multi-Effect-i.1452686572.41751511183"
+      ]
+    },
+    {
+      "model": "VOX ToneLab SE",
+      "checked_date": "2026-10-18",
+      "finding": "BANKO offer1452686572/41751511183 already recorded; reconfirmed cached Rp3850000 Habis without duplication (corrects prior cursor calling it new). Added SE20bit/44.1kHz converters, independent EXP1INIT/EXP2INIT, dual Quick Assign and hand-based calibration from Japanese J1.",
+      "sources": [
+        "https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf",
         "https://shopee.co.id/Multi-FX-VOX-Tonelab-SE-Twin-Pedal-Multi-Effect-i.1452686572.41751511183"
       ]
     }
