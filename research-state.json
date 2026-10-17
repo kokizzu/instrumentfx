@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Anagram",
-    "task": "Anagram Suite platforms, 1.18.1 neural-loader limit removal and126/127 user-area conflict saved. Next audit version-specific NAM architecture/file constraints, licensing andfull preset-area semantics;all records remain partial.",
+    "task": "Anagram native NAM A2-Full/A2-Lite/Legacy A1 confirmed by developer;1.16 versus1.17 TONE3000 block limits distinguished;loader roles,RAM-only looper androuting saved. Next audit exact file compatibility,licensing and1.18 area semantics,then return toShopee discovery.",
     "next_models": [],
     "after_queue": "334 active,39brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66346,5 +66346,22 @@
     "firmware": "1.18.1 removes three neural-loader block limit;DSP remains finite",
     "memory_conflict": "Suite1.18.0 changelog127 user areas versus exactproduct126;unresolved",
     "status": "partial; no downloads"
+  },
+  "anagram_native_20261018": {
+    "status": "partial",
+    "sources": [
+      "https://www.tone3000.com/blog/darkglass-anagram-nam-a2-full-natively",
+      "https://www.tone3000.com/blog/darkglass-anagram-connects-directly-to-tone3000",
+      "https://api.darkglass.com/static/Anagram-Manual.pdf"
+    ],
+    "native": "Developer explicitly no conversion;1.16 A2-Full,A2-Lite,Legacy A1",
+    "limits": "1.17 TONE3000 block DSP limited;do not conflate withgenericloader1.18.1 change",
+    "remaining": [
+      "file compatibility matrix",
+      "licensing",
+      "1.18 areas",
+      "panel audit",
+      "qualified offers"
+    ]
   }
 }

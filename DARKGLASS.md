@@ -64,3 +64,18 @@ Checked 2026-10-18 against the [official Suite page](https://www.darkglass.com/p
 | Factory / user memory area conflict | Suite changelog for **1.18.0 says up to127 user areas**; exact product page above says126. Preserve the unresolved conflict, not an assumed factory-area offset. Total preset capacity remains unverified. |
 
 Next: version-specific NAM architecture/file constraints, licensing, full preset-area semantics, hardware panel and qualified used/new offers.
+
+### Anagram — native NAM provenance and practical routing
+
+Checked 2026-10-18. These are primary developer/manufacturer statements, not installed-device tests.
+
+| Field | Evidence / qualification |
+|---|---|
+| NAM / native execution and architecture | [TONE3000 partnership announcement,2026-06-25](https://www.tone3000.com/blog/darkglass-anagram-nam-a2-full-natively) explicitly says **native NAM without conversion**. KosmOS **1.16** supports **A2-Full,A2-Lite andLegacy A1**, originally up tothree simultaneous instances. This establishes native playback,not onboard capture/training,all custom architectures orarbitrary file-size compatibility. Earlier native-versus-converted unknowns above are superseded within this documented scope. |
+| NAM / TONE3000 block versus generic loaders | [Developer update,2026-08-11](https://www.tone3000.com/blog/darkglass-anagram-connects-directly-to-tone3000) assigns **KosmOS1.17** to TONE3000 integration: nofixed TONE3000 NAM-block limit,subject toDSP;developer tests **5 A2-Full /9 A2-Lite**,depending onother blocks. Do not equate this block-specific statement with generic neural-loader restrictions removed in1.18.1. |
+| Editor / TONE3000 account workflow | Same August update: USB-C computer connection,Suite TONE3000 tab andaccount sign-in browse/load captures orpacks. Dedicated block offers NAM/IR filtering,favorites,model controls andsix-bandEQ;demo packs included withcreator permission. Account integration does not prove mobile parity,offline browsing orlicenses forall marketplace content. No captures downloaded here. |
+| NAM / loader roles | [KosmOS1.17 PDF pp.77–79](https://api.darkglass.com/static/Anagram-Manual.pdf): Suite desktop transfers assets;Neural Amp adds four-bandEQ selectable before/after model,Neural Pedal adds dryblend,Neural Loader onlygain/model selection. Import classification Amps/Pedals/Miscellaneous chooses relevant loader. Allshare input/output gain andselector;cabinetIR loader hasselector,blend,level. |
+| Looper / recording persistence | Same PDF pp.63–64: A play/stop,holdclear;B record/overdub,holdexit. Input/output chain position andplayback volume adjustable. Playback survives presetchanges,**RAM recordings lost onreboot**;exiting screen duringrecording stops recording. Duration remains unknown. |
+| Routing / global EQ bypass | PDF pp.80–85: Output blocks selectOut1/2 or3/4 andbypass GlobalEQ whenplaced earlier;multipleoutputs allowed. Split supports fullrange orcrossover low/high rows;Merge blend/level. Send/Return independentlymono/stereo;return/loopblend andpolarity available. |
+
+Remaining: precise file-size/rate/architecture compatibility matrix,1.18 area semantics,plugin licensing,visual hardware audit andcondition-qualified IDR asks.
