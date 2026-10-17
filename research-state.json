@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee Indonesia discovery",
-    "task": "Fresh discovery saved unresolved Zoom606/607 and BOSS GT3 leads with accessory exclusions. Next resolve exact item from source links or search new bass/vocal/other-brand series; no active model added from category-only lead.",
-    "next_models": [],
-    "after_queue": "Preserve ME-8, RP200, AX100G, ME-30, GT-5 and RFX-2000 deferred gaps. No downloads, workflows or push."
+    "model": "BOSS GT-3",
+    "task": "Exact Shopee item resolved: shop168736454/item52302189094; historical category Rp1900000 ask, condition and seller unresolved, direct item inaccessible. Next verify own official GT-3 manual before active record.",
+    "next_models": [
+      "Zoom 606"
+    ],
+    "after_queue": "Zoom606/607 exact mixed-model item shop703817770/item20045443371 saved; no model-specific price. Preserve all deferred model gaps. No downloads, workflows or push."
   },
   "new_findings": [
     {
@@ -54283,6 +54285,30 @@
       }
     ],
     "access": "Current Hope Music storefront browser text does not expose its older indexed GT100/GT3/GT5 listing link. Do not reconstruct item URL.",
-    "result": "No new exact hardware item resolved; leads remain pending. Limited search is not market-absence evidence."
+    "result": "No new exact hardware item resolved; leads remain pending. Limited search is not market-absence evidence.",
+    "resolved_links": {
+      "checked_date": "2026-10-17",
+      "method": "Actual product hyperlinks from browser-opened Shopee category pages",
+      "gt3": {
+        "url": "https://shopee.co.id/efek-gitar-boss-gt3-i.168736454.52302189094",
+        "shop_id": "168736454",
+        "item_id": "52302189094",
+        "asking_idr": 1900000,
+        "region": "Singkawang from category",
+        "condition": "Unverified",
+        "seller": "Unresolved",
+        "access": "Category crawled last month; parameterized click cache miss, clean item inaccessible. Stock/bundle/working state/authenticity/warranty/shipping/tax/vouchers unresolved."
+      },
+      "zoom606607": {
+        "url": "https://shopee.co.id/Efek-Gitar-Zoom-606-607-Made-Japan-dan-China-i.703817770.20045443371",
+        "shop_id": "703817770",
+        "item_id": "20045443371",
+        "listing_ask_idr": 1099000,
+        "region": "Bandung from category",
+        "condition": "Unverified",
+        "access": "Category browser text crawled two months ago, search index last month. Exact mixed-model item link resolved; parameterized click cache miss and clean item inaccessible.",
+        "price_limit": "No 606/607 variant mapping; Rp1099000 is listing-level only, not an assigned model price."
+      }
+    }
   }
 }
