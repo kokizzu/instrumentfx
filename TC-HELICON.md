@@ -94,7 +94,7 @@ Original manualv1.0 technical context remains explicit; current firmware is not 
 | Dimensions / weight | **? / ? primary verification pending**. Do not borrow Play Acoustic dimensions merely because the enclosure appears similar |
 | Display | **One graphical LCD**. Diagonal, confirmed monochrome/color hardware specification, resolution and touchscreen **?**. White/blue button LEDs are not proof of a color screen |
 | Processing | **7 effect blocks plus adaptive Tone processing**, not eight freely assignable stomp slots. Individual blocks have OFF/ON/HIT control; routing is not a documented freely reorderable chain |
-| Choices in v1.0 manual | µMod **24**, delay **18** with **13** separate filter styles, reverb **28**, harmony **15**, double **4**, HardTune **7**, transducer **8**. Tone has **8 active styles plus Off**. These are algorithm/style choices, not additional preset slots |
+| Choices / manual revisions | µMod **24**, delay **18** with **13** separate filter styles, reverb **28**, harmony **15**, double **4**, HardTune **7**, transducer **8**. Tone has **8 active styles plus Off**. These are algorithm/style choices, not additional preset slots. **v2.1 manual pp24/26 lists28 harmony and10 doubling styles**,versus v1.0's15/4;retain revision distinction,not a verified firmware transition. [Manufacturer-authored v2.1 mirror](https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html) |
 | Presets | Editable saving/renaming/copying documented. **Current total storage, factory-filled count and dedicated user-bank split unverified**; downloadable preset libraries are not onboard capacity |
 | Synth / acoustic and vocal special sounds | Up to two added harmony voices in listed styles; key from AUX audio, onboard RoomSense microphones or manual key/scale. Pitch correction and robot/formant-like processing documented. A dedicated synthesizer or electric-guitar-to-acoustic simulator is **not established** |
 | IR / NAM / capture loading | **Not established**. USB preset/firmware transfer is not an IR, NAM or amp-capture loader |
@@ -119,6 +119,16 @@ Checked **2026-10-17**: [manufacturer model-code page](https://www.tcelectronic.
 The exact Shopee item reopened with the same5.280.000 sold-out ask and identifies Asia Pro Sound,Kota Bekasi. Relative delivery text does not override Habis. Old quote dates remain preserved, and no used-price estimate or exchange-rate conversion was created.
 
 Original v1.0 manual and VoiceSupport reference identities, complete source URLs, earlier visual-inspection qualifications,15/30-second undo-dependent looper limits, style counts and librarian/updater distinction remain preserved above. No files or dependencies downloaded; no new PDF image inspection claimed. Remaining: matching current firmware release/looper limit, total/factory/user memories, model-specific dimensions/mass, display diagonal/color/touch, phantom voltage/current, power polarity/battery/bus operation, USB channel/rate and present OS/editor compatibility, plus qualified current local offers. Vocal-only inclusion remains; GTX/Play Acoustic are separate models.
+
+### VoiceLive Play — v2.1 manual comparison, 2026-10-17
+
+[Manufacturer-authored32-page manual mirror](https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html) identifies VoiceLive Play andv2.1 on its cover;model-specific table of contents and controls match. Original page text inspected,not mirror FAQs or generated summaries.
+
+- [p24 harmony](https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=24):28 numbered styles,including diatonic,octave andfixed-semitone combinations.
+- [p26 doubling](https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=26):10 styles,covering tight/loose voices,shout andoctave combinations.
+- [p17 loop](https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=17):microphone lead/effects,AUX,orboth can feed loop recording;15seconds withundo isexplicit. The accessibleextract omits parts ofUndoOFF,so it doesnot independently reconfirm30seconds here.
+
+Earlier v1.0 counts remain historical;this manual revision isnot installed-firmware proof orconfirmation oflatest release. [Official P0DEH manual URL](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEH/VOICELIVE%20PLAY_M_EN.pdf) appeared insearch butdirectopen returned502;its exactrevision wasnot confirmed. No downloads or new visualinspection. Remaining dimensions,memory,display,power/phantom,USBformat andcurrentfirmware verification stayopen.
 
 ## Play Acoustic
 
