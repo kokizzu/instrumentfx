@@ -619,3 +619,34 @@ Checked2026-10-18:the [manufacturer store manual index](https://www.flamma.shop/
 | Factory / user memory limits | Printed p8 establishesA/B/C/D within the selected bank;features mention individual saving. Neither inspected statement gives bank count,full writable capacity orfactory/user split.52amp models isnot proof of52preset memories. |
 
 Alternate PDF still includes9V500mA precautions alongside5V1A charging;its availability does not resolve the power conflict orsimultaneous processing ceiling.
+
+## FX150b
+
+Battery-equipped guitar multi-effects;separate from the standard FX150. Checked2026-10-18;partial. Bass/vocal suitability andownership unverified. The manufacturer's shared product page explicitly names FX150b;shared marketing specifications below are qualified accordingly,not borrowed from the standard model's separate record.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / toe | External EXP2 documented on shared page;built-in/toe details require exact-variant verification. |
+| Knobs / footswitches / buttons | Shared page:3 footswitches;rotary/button census unverified. |
+| Display | Shared page:5-inch color LCD touchscreen. |
+| Dimensions / weight | Exact FX150b measurements/mass unverified;standard FX150 values not assigned here. |
+| Processing / category choices | Shared page advertises160 effects,10 modules,58 preamps,30 cabinets;per-category census andsimultaneous DSP limit unresolved. |
+| Factory / user / total memory | Shared page:180 editable slots;factory-filled subset unknown. |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. |
+| I/O | Shared page namesAUX,EXP2,send/return,stereo output,phones,USB-C;exact-variant full port/level audit pending. |
+| Power / battery / USB | FX150b explicitly Nebula Green,built-in replaceable lithium battery;up to5.5h,five-bar indicator. Capacity written **3000mA**,not silently corrected to mAh. Voltage,current,polarity,charging time andUSB operation unverified. |
+| IR / NAM / captures | Shared page:50 userIR slots,1024 points,WAV44.1kHz;native versus converted loading details,NAM andcaptures unverified. |
+| Editor / software | Shared page names computer editor;exact FX150b version/platform compatibility unverified. |
+| Looper / drums / routing | Shared page:52-second looper,80 rhythms,10 metronome variations,reorderable chain,globalEQ,delay/reverb spillover. |
+
+Source:[manufacturer shared FX150/FX150b page](https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal). Unrelated CapturePro camera FAQs excluded. The [original manual URL](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX150_Manual_EN_V01_2023.06.21.pdf?v=1691648362) could not be reopened this check;no new manual or visual verification claimed.
+
+### Separate IDR hardware evidence
+
+| Condition / access | Amount / qualification | Source |
+|---|---|---|
+| Used IDR | Unknown;no condition-qualified ask. | — |
+| New IDR | Unknown;no condition-qualified ask. | — |
+| Condition-unverified indexed exact hardware | **Rp5,469,348**,Soundstationstore,Tangerang Selatan,shop250276993/item15599337026. Checked2026-10-18,last-week index;direct page fetch failed. Condition,stock,selected variant,battery/adapter bundle,warranty,shipping/tax andcheckout total unknown. Late-delivery compensation up toRp10,000 is not a purchase discount. | [Exact Shopee item](https://shopee.co.id/FLAMMA-FX150B-Guitar-Multi-Effects-Multi-Efek-Gitar-i.250276993.15599337026) |
+
+Not a completed sale orlive-stock certification. No downloads,installations orcode execution. Remaining:exact variant manual/panel verification,all unresolved fields andcondition-qualified pricing.

@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 330,
+  "active_model_count": 331,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 330,
+  "canonical_root_model_count": 331,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "330 unique active/root-canonical;0legacy-only;37brands;sixexcluded;allpartial.",
+  "count_reconciliation": "331 unique active/root-canonical;0legacy-only;37brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "Resume fresh Shopee series discovery; FX20 alternate original list and conflicts saved. Do not repeat failed screenshots unchanged; controls/memory still pending.",
+    "model": "FX150b",
+    "task": "Verify exact-variant original manual and controls/electrical specifications; own-store and exact Shopee lead recorded.",
     "next_models": [],
-    "after_queue": "330active;technical,market,ownership,migration incomplete. No downloads/workflows/push."
+    "after_queue": "331 active;resume Shopee discovery after useful FX150b followup. Technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24160,7 +24160,8 @@
       "FG200",
       "FX50",
       "FV05 Recorder",
-      "FX20"
+      "FX20",
+      "FX150b"
     ],
     "HeadRush": [
       "Core",
@@ -24659,7 +24660,8 @@
       "FG200",
       "FX50",
       "FV05 Recorder",
-      "FX20"
+      "FX20",
+      "FX150b"
     ],
     "NUX.md": [
       "MG-101",
@@ -24896,7 +24898,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 277,
+      "record_count": 278,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41964,10 +41966,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 330,
-    "canonical_root_models": 330,
+    "unique_brand_model_pairs": 331,
+    "canonical_root_models": 331,
     "legacy_only_models": 0,
-    "guitar_view_models": 277,
+    "guitar_view_models": 278,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -42027,7 +42029,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume FX150b."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42079,6 +42081,7 @@
       "Flamma::FG200",
       "Flamma::FX50",
       "Flamma::FX20",
+      "Flamma::FX150b",
       "HeadRush::Core",
       "HeadRush::Flex Prime",
       "HeadRush::MX5",
@@ -43120,6 +43123,13 @@
     },
     "Flamma::FX20": {
       "link": "FLAMMA.md#fx20",
+      "source_files": [
+        "FLAMMA.md"
+      ],
+      "finding_files": []
+    },
+    "Flamma::FX150b": {
+      "link": "FLAMMA.md#fx150b",
       "source_files": [
         "FLAMMA.md"
       ],
@@ -66038,5 +66048,17 @@
       "9V500mAprecautionsvs5V1Acharging"
     ],
     "remaining": "Physicalcontrols,bankcount,totalpresets,simultaneousceiling,Androidminimum andmarketverification."
+  },
+  "fx150b_20261018": {
+    "status": "partial",
+    "primary": "https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal",
+    "shopee": "https://shopee.co.id/FLAMMA-FX150B-Guitar-Multi-Effects-Multi-Efek-Gitar-i.250276993.15599337026",
+    "gaps": [
+      "Exact-variant manual unavailable this check",
+      "Panel controls and dimensions",
+      "Electrical ratings and capacity-unit clarification",
+      "Condition-qualified used/new offers"
+    ],
+    "distinction": "Battery-equipped FX150b not standard FX150; shared-page specifications explicitly qualified"
   }
 }
