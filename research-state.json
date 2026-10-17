@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2000",
-    "task": "Resolve exact Shopee item from AR Audio Shop recommendation(Rp3250000) before active record;use own Zoom manual. SPX1000 usefulfindings committed;preserve deferred mass/sample-retention/userfill andvisual/softwaregaps.",
+    "task": "RFX2000 exact AR Audio Shop item377580114/19279006266 resolvedRp3250000,condition/stockunknown;official28pmanual accessible. Next readspec/power/categorydetails andaddinitialownmodelrecord;do not infer RFX1100features.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. No downloads,workflows,push;commit each usefulmodel before next."
   },
@@ -53742,5 +53742,20 @@
     "pages": "31–34",
     "finding": "4userERpatterns×19reflections,4×128MIDIassignmentmaps notextrapresets,CCexternalparametercontrol,cyclic/reverserecall andbulkrestoreconditions.",
     "deferred": "Mass/samplepoweroffretention/userfill/outputimpedanceunit remain unverified;targetedofficialsearch didnotresolve. Secondaryweightclaims3.7kg/5kg notadopted."
+  },
+  "rfx2000_exact_lead_20261017": {
+    "url": "https://shopee.co.id/Effect-vokal-zoom-rfx-2000-Efek-vokal-zoom-2000-ORIGINAL-JAPAN-i.377580114.19279006266",
+    "seller": "AR Audio Shop",
+    "shop_id": "377580114",
+    "item_id": "19279006266",
+    "region": "Kab.Sragen",
+    "idr": 3250000,
+    "condition": "Unknown;shop used-equipment description does not establish this item condition",
+    "stock": "Unverified",
+    "access": "Direct browser text retrieved2026-10-17,crawled2daysago;Oct19–22deliveryshown,notstock/checkoutconfirmation. OlderindexAug20–23preservedasoldercache.",
+    "qualification": "Origin/authenticity,working state,bundle,adapter/voltage,warranty,shipping/tax andvoucherunknown;10000latearrivalcompensationnotdiscount.",
+    "manual": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+    "manual_identity": "Manufacturer-hosted28pageRFX2000operationmanual,coverandintroductionmatched.",
+    "initial_evidence": "48panelFX6×8,8additionaleditorFX,100patchmemory;guitarsetupanddirectdynamicmicvocalpath. Fullrecordnotyetadded;readremainingmanualandspecbeforecanonicalrecord."
   }
 }
