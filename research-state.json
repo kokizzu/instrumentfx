@@ -9,7 +9,7 @@
   "excluded_model_count": 6,
   "canonical_root_model_count": 297,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "297 unique active/root-canonical;0legacy-only;33brands;6excluded;allpartial. H90 guitar/vocal via external mic front-end; bass unresolved.",
+  "count_reconciliation": "297 unique active/root-canonical;0legacy-only;33brands;6excluded;allpartial. H90 now guitar/bass/vocal via source modes andexternal mic front-end.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Eventide H90",
-    "task": "H90manual1.12.5 full74effectcategoryinventory plus2utilities andlooperlimits saved;desktopControl2.2.0minFW1.9.4 verified. Next totalList/usercapacity,bassSOURCEsetting,synthdetails anddimensions/massconflict. No downloads/workflows/push.",
+    "task": "H90Bass/Subsourcepositiveevidence addedtoALL-BASS;0–30sspillover/relayPath2/ABOnlyinsertlimits andlibraryreuse saved. Next synth architecture/USB/display/currentOS or freshShopee discovery;totalstorage remainsunknown.",
     "next_models": [],
     "after_queue": "Continue fullresearch/discovery/consolidation;no downloads/workflows/push."
   },
@@ -24497,9 +24497,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 115,
+      "record_count": 116,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 87,
+      "shared_bass_capable_count": 88,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41474,8 +41474,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 115,
-    "bass_shared_models": 87,
+    "bass_view_models": 116,
+    "bass_shared_models": 88,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41893,7 +41893,8 @@
       "Lexicon::MX400",
       "Yamaha::SPX990",
       "TC Electronic::PLETHORA X5",
-      "Eventide::H9 Max"
+      "Eventide::H9 Max",
+      "Eventide::H90"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -41960,6 +41961,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Eventide::H90": "Own manual1.12.5 Global Source Type explicitly lists Bass(Tenor) and Sub(Bass), adapting pitch tracking, filters and tone controls. Not sibling or EQ-knob inference. [Manufacturer manual](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/system-menu/global.html).",
     "Eventide::H9 Max": "Own H9 User Guide p43 explicitly offers BASS and SYN.BAS source modes optimizing pitch algorithms and filter ranges; not inferred from an EQ knob or sibling. [Manufacturer manual](https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf).",
     "Zoom::1201": "Own1201 manual p4 explicitly covers electric guitar or bass through a preamp/compact effect;not direct high-impedance input. [Manufacturer manual](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_1201.pdf).",
     "Hotone::Ampero Mini MP-50": "Own Mini firmware V2.2 manual explicitly lists five bass amp/preamp models, including SVT and B-15 models; model-specific processing evidence, not inferred from an EQ knob or sibling. [Manufacturer manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf).",
@@ -51627,6 +51629,16 @@
       ],
       "finding": "74effects11categories+2utilities;granular4introduced1.12.5. Stereolooper60sfullqualityheadline,speedtable60/120/240/480 at2x/1x/half/quarter retained,onebuttonpunchrestriction. EventideControl2.2.0desktoprequiresH90>=1.9.4.",
       "remaining": "Totalmemory,bassclassification,synthdetails,dimensions/massconflict,currentOS/display/power/imports/currentoffers"
+    },
+    {
+      "model": "Eventide H90",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/system-menu/global.html",
+        "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/h90-control/program-library.html"
+      ],
+      "finding": "ExplicitBass/Subsourcemodes->sharedbassmembership. Spillover0–30s;DSPrelaybypassinserts,ABOnlyretainsinserts;relaynotDualPath2. OnlyUserPlaylistactive;libraryUseCountnotuniqueprogramcount;totalmemoryunknown.",
+      "remaining": "Totalstorage,synthdetails,dimensions/massconflicts,currentOS/display/power/imports/currentoffers"
     }
   ],
   "discovery_cross_brand_bass": {
