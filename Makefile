@@ -1383,3 +1383,7 @@ research-commit-ax1000g:
 .PHONY: research-commit-gfx4
 research-commit-gfx4:
 	python3 scripts/research_tools.py commit-gfx4
+
+.PHONY: research-commit-ve20-followup
+research-commit-ve20-followup:
+	python3 scripts/research_tools.py commit-ve20-followup
