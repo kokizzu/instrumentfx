@@ -110,7 +110,7 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee
 | Required field | Evidence / qualification |
 |---|---|
 | Built-in / external / toe expression | Two onboard TRS expression/switch inputs,10–100kohm [kr-s]. Built-in/toe implementation not independently checked. Product page also mentions four pedals without topology; do not count four onboard sockets [kr-p]. |
-| Knobs / footswitches / buttons | ?/?/?; exact Rack MK2 panel inventory pending. Remote controls excluded. |
+| Knobs / footswitches / buttons | **14 adjustable rotary / ? footswitches / ? separate buttons**, derived from manufacturer Manual13.0 pp.28–41: Noise Gate1+direct delay/reverb4+Master1+Type/Browse2+soft4+Gain1+Rig Volume1. Rotary power/mode selector counted separately. Rack has four direct-effect knobs; Head has six, so Head totals are not copied. Button/footswitch census and current MK2 panel confirmation remain open; Remote controls excluded. [kr-m] |
 | Display | Diagonal, color/monochrome and touch unverified. |
 | Dimensions / weight | **483W×220D×139H mm;5.00kg;3U**, manufacturer Rack specification. PowerRack's6.18kg is separate [kr-s]. |
 | Simultaneous blocks / category choices | **4 flexible pre+4 flexible stereo post**, plus6 fixed pre and2 fixed stereo post, around AMP/CAB. Fixed and flexible counts are different scopes; full category census unresolved [kr-p]. |

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Rack MK2",
-    "task": "Rack-specific panel census;Browse/performance memory and display;IR/NAM;qualified offers.",
+    "task": "Complete Rack control census and memory/display/IR evidence;do not infer Head counts or current firmware.",
     "next_models": [
       "Kemper PROFILER PowerHead MK2 lead",
       "Kemper PROFILER PowerRack MK2 lead",
@@ -63562,5 +63562,12 @@
     "finding": "Stereo monitor/return routing,phantom distinctions,USB location and mains conflict saved.",
     "limits": "Not direct hardware test;current label/currentMainManual remains needed.",
     "next": "Rack-specific panel census;Browse/performance memory and display;IR/NAM;qualified offers."
+  },
+  "rack_controls_manual13_20261017": {
+    "source": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+    "pages": "Printed28–41",
+    "finding": "Derived rotary count with explicit Rack/Head direct-control difference;power selector separate.",
+    "limits": "Full physical button/footswitch count andcurrentMK2panel verification remain open;not visual inspection.",
+    "next": "Complete Rack control census and memory/display/IR evidence;do not infer Head counts or current firmware."
   }
 }
