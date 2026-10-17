@@ -3007,6 +3007,18 @@ Checked2026-10-18; documentation inspected only, no software downloaded or execu
 | Processing / count accounting | Guide p14 SUB DELAY has **2 types,Mono/Pan**,1–1000ms; p15 Chorus has **3 output modes**, retained separately from effect-type counting. [MS3-G] |
 | Processing / derived total | **Arithmetic inference**, not an explicit manufacturer counting formula: FX31 top-level choices, replacing7 grouped selectors by8 compressor+3 limiter+6 wah+6 bass wah+21 OD/DS+6 bass OD/DS+2 subdelay choices, gives **76**. MOD12, replacing Phaser/Pan by4/2, gives **16**. **76+16+11 DLY+8 REV+1 NS=112**. Shared FX1/FX2 and MOD1/MOD2 libraries are counted once; no duplicate count for block instances. Output modes and continuous parameters excluded. This matches the advertised total under that convention; it does not establish112 simultaneous effects or independent algorithms. [MS3-G], [MS3-P] |
 
+### Patch structure and approved adapter follow-up
+
+| Field | Finding / qualification |
+|---|---|
+| Factory / user / total memory | Original guide patch list pp44–49 spans **01-1–25-4:100 named factory patches**, then **26-1–50-4:100 initialized templates** (40 INITPATCHLOOPS,40 INITPATCHL1+FX,20 INITPATCHFX). These occupy the **same200 writable locations**, not200 user plus100 separate protected presets; write destinations01-1–50-4 overwrite existing data. Counts derived from listed bank ranges. [MS3-G] |
+| Synth / acoustic clarification | Factory patch25-4 BASSSYNTH produces a synth-type sound with conventional effects including Defretter/Bass Octave; its name alone does not establish an independent synth engine. [MS3-G] |
+| Power / approved adapter | Exact-model Roland support article, updated2022-01-18, specifies **PSA-100S2 or PSA-100S** and does not guarantee third-party supplies. Voltage/polarity remain unverified here rather than inferred from other BOSS units;280mA unit draw remains distinct from adapter capacity. [MS3-S] |
+| Memory / reset | Roland support article updated2024-12-19 says factory reset erases custom system/patch data; Editor/Librarian backup is advised. Reset retains installed firmware rather than reverting to the original release. No reset performed. [MS3-R] |
+
+[MS3-S]: https://support.roland.com/hc/ja/articles/360062340411-MS-3-%E4%BB%96%E7%A4%BE%E8%A3%BD%E5%93%81%E3%81%AE%E3%83%91%E3%83%AF%E3%83%BC-%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%E3%81%A7%E5%8B%95%E4%BD%9C%E3%81%97%E3%81%BE%E3%81%99%E3%81%8B
+[MS3-R]: https://support.roland.com/hc/en-us/articles/115005878046-MS-3-Factory-Reset-Initialization
+
 [MS3-P]: https://www.boss.info/global/products/ms-3/
 [MS3-M]: https://static.roland.com/assets/media/pdf/MS-3_eng02_W.pdf
 [MS3-G]: https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng02_W.pdf

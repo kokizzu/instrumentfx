@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS MS-3",
-    "task": "MS-3 effect total arithmetically reconciled, explicitly inferred. Next verify supply voltage/polarity and memory factory/user structure; broader discovery and migration remain.",
+    "model": "Shopee discovery",
+    "task": "Resume Shopee discovery after MS-3 memory and approved adapter verification. Retain voltage/polarity and display/USB/market gaps; no repeated assumption-based reconciliation.",
     "next_models": [],
     "after_queue": "327 active; technical, market, ownership and legacy migration incomplete. No downloads/workflows/push."
   },
@@ -42021,7 +42021,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS MS-3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -65887,5 +65887,18 @@
     "total_formula": "76+16+11+8+1=112",
     "excluded": "Duplicate block instances, chorus output modes, continuous parameters.",
     "remaining": "Supply voltage/polarity and other verification gaps."
+  },
+  "ms3_memory_power_20261018": {
+    "factory_named": 100,
+    "initialized": 100,
+    "total_writable": 200,
+    "bank_ranges": [
+      "01-1–25-4",
+      "26-1–35-4",
+      "36-1–45-4",
+      "46-1–50-4"
+    ],
+    "adapter": "PSA-100S2 or PSA-100S per exact-model Roland support",
+    "remaining": "Voltage/polarity still unverified; no hardware reset or software execution."
   }
 }
