@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP255",
-    "task": "RP255 expression calibration/reset and USB recording/tuner follow-ups committed. Next refresh Shopee brand/series discovery for eligible unrecorded hardware; preserve pending Wisdom identity limits. Commit each useful model before researching another.",
+    "model": "DigiTech RP500",
+    "task": "RP255 USB/tuner follow-up committed. Frontier Shopee discovery refresh saved with accessory exclusions and no qualified new model. Next inspect RP500 own manual/addendum for unresolved expression, USB/live controls, display and software evidence. Preserve revision conflicts; commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -70243,5 +70243,33 @@
       "site:shopee.co.id \"Korg\" \"AX300B\""
     ],
     "result": "No qualified new model offer. RP350/RP355/RP300 result855783279/22273291654 is adapter only; Rp170000 not hardware price. Other results empty/unrelated; no market-absence inference."
+  },
+  "discovery_legacy_frontier_20261018_refresh": {
+    "checked": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"DigiTech\" \"RP350\"",
+      "site:shopee.co.id \"Korg\" \"AX3000B\"",
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
+      "site:shopee.co.id \"Yamaha\" \"Magicstomp\"",
+      "site:shopee.co.id \"Rocktron\" \"Utopia\"",
+      "site:shopee.co.id \"Korg\" \"AX1500B\"",
+      "site:shopee.co.id \"Magic Stomp\"",
+      "site:shopee.co.id \"Utopia G100\"",
+      "site:shopee.co.id \"AX1500\" bass",
+      "site:shopee.co.id \"Yamaha DG\" efek"
+    ],
+    "qualified_new_models": [],
+    "excluded": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+        "reason": "Adapter, not processor hardware; Rp170,000 indexed four-month cache."
+      },
+      {
+        "url": "https://shopee.co.id/potensio-efek-gitar-ax1500-ax3000-vox-tonelab-SE-LE-i.57900729.11409975410",
+        "reason": "Replacement potentiometer, not processor hardware; Rp60,000 indexed two-month cache."
+      }
+    ],
+    "limits": "No qualified indexed hardware result is not proof of absence or unavailable stock. Shop pages and AX1500 routers are not exact eligible hardware offers. No files or dependencies downloaded.",
+    "next": "Avoid repeating these exact queries without new leads; continue technical gaps in existing RP500 manufacturer record."
   }
 }
