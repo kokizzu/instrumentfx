@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Play",
-    "task": "VoiceLivePlayv2.1 input/output/global/system text checked;MONOdryTone/pitch retention,DUALMONO,AUX/RoomSense andtempo behavior saved. Next remainingeffectpages20–23/25/27–28 orothermodelgaps. Textomissions meannotfullmanualread;no unchangedPDFretry/download.",
+    "task": "VoiceLivePlayv2.1 accessibleFXpages20/21/23/27 checked;22/25/28 failed. Separatev2.0originalbody supplements routing/latency withrevisionlabel. Next othermodeltechnicalgaps orfreshShopee discovery;do not repeat these pages unchanged.",
     "next_models": [],
     "after_queue": "Continue fullresearch/legacyconsolidation;no downloads/workflows/push."
   },
@@ -51504,6 +51504,19 @@
       ],
       "finding": "v2.1MONORdryretainsTone/PitchCorAmt;DUALMONOvocalL/AUXR;RoomSensemonitorheadphonesnotXLR.GlobalTempoONcarriesacrosspatches;UPDNloop/key;VoiceSyncleadmatchesmaximumFXlatencywithoutnumericclaim.",
       "remaining": "ThirdLeadDlymode,textomissions,currentfirmware,dimensions/memory/display,powerphantom,USBformat/currentOS"
+    },
+    {
+      "model": "TC-Helicon VoiceLive Play",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=20",
+        "https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=21",
+        "https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=23",
+        "https://www.manualslib.com/manual/1058316/Tc-Helicon-Voicelive-Play.html?page=27",
+        "https://manualzz.com/doc/9871012/tc-helicon-voicelive-play-user-manual"
+      ],
+      "finding": "v2.1retains24uMod18delay13filters28reverb7HardTune;12semitoneshift. Separatev2.0originalcopy givesAUTOleadlatency,Transducer8styles/outputFXgate,6manualscales,15/30loop andglobaltempooverridewithoutoverwrite.",
+      "remaining": "v2.1pages22/25/28inaccessible,currentFW,memorydimensionsdisplay,powerphantomUSB/currentOS"
     }
   ],
   "discovery_cross_brand_bass": {
