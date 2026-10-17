@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fractal FM9 MKI",
-    "task": "Resolve seller1354606623/item43322190869 title/oldslug andoriginal-vs-Turbo identity before adding;research original manufacturer documentation,not currentTurbo defaults.",
-    "next_models": [
-      "Kemper PROFILER Stage"
-    ],
-    "after_queue": "Fresh discovery/remaining model gaps;no downloads,workflows orpush."
+    "model": "Kemper PROFILER Stage",
+    "task": "Research Stage exact hardware from official documentation;resolveMK1/MK2sellerrevision if possible,keep unknown whereunproven. FM9MKIlead deferred without active count until Standard/Turboidentity established.",
+    "next_models": [],
+    "after_queue": "Fresh eligible discovery andremaining technical gaps;no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -23846,7 +23844,18 @@
       "seller": "Bersih Jaya Cleaning",
       "qualification": "Direct body title FM9MKI;KotaSurabaya;stale2–3October delivery. Same item also indexed under old FM3MKII URL slug. Hardware revision/condition/authenticity/current stock unresolved;do not assign Turbo specs.",
       "checked_date": "2026-10-17",
-      "status": "queued exact hardware;not active inventory yet"
+      "status": "deferred identity unresolved;not active inventory",
+      "identity_recheck": {
+        "checked": "2026-10-17",
+        "source": "https://shopee.co.id/Fractal-Audio-Systems-FM9-MKI-i.1354606623.43322190869",
+        "title": "Fractal Audio Systems FM9 MKI",
+        "amount": 36000000,
+        "direct_body": "Cached2–3October delivery;noStandard/Turbodesignation in extracted body.",
+        "manufacturer_source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+        "manufacturer_page": 39,
+        "finding": "Manufacturer explicitly distinguishes FM9Turbo fromStandard,with10+%extraDSP. MKI title alone does not select between them;oldFM3slug remains conflicting.",
+        "decision": "Do not create a Standard/MKI model or assignTurboDSP pending revision evidence. Retain exact offer once;not discarded."
+      }
     },
     {
       "model": "Kemper PROFILER Stage",
@@ -63379,5 +63388,15 @@
       "decision": "Keep exact seller/item once as unresolved FM9MKI lead;do not infer FM3 or Turbo revision."
     },
     "limits": "Indexed/direct cached body does not prove live stock,condition,authenticity or revision. Search coverage not exhaustive."
+  },
+  "fm9_mki_identity_audit_20261017": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"43322190869\"",
+      "site:fractalaudio.com \"FM9\" \"Mark I\" \"Turbo\""
+    ],
+    "result": "Exact-item body still titleFM9MKI withoutTurbo/Standard. Search did not resolve revision. Community-maintained wiki not used as technical authority;official manualp39establishesdifferentDSPversions.",
+    "no_model_added": true,
+    "remaining": "Need seller-item revision evidence;no seller contact authorized or sent."
   }
 }
