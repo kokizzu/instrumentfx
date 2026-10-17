@@ -455,6 +455,14 @@ Remaining:screen diagonal/color/touch;full subtype counts;USB audio channel coun
 
 Power evidence checked **2026-10-18**: [VE-500 own specifications](https://www.boss.info/global/products/ve-500/specifications/) explicitly name PSA-series power and included adapter; [Roland PSA-S electrical specification](https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications) supplies voltage and polarity. The resolution uses the named supply, not another pedal’s specifications.
 
+### VE-500 — current Windows application qualification
+
+Checked 2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / Windows11 application support | [BOSS Windows matrix, updated2026-10-01](https://www.boss.info/global/support/support_news/25090811win1/) lists VE-500 **Hardware & Driver** and **Exclusive Application** separately as **Yes(Download)** for Windows11 and Windows10. This resolves the earlier editor-Windows11 gap using application-specific evidence, not the driver listing alone. Matrix legend excludes ARM PCs, virtual Windows and Windows running on Mac. Windows10 Yes entries carry an end-of-support caveat: operation is not guaranteed regardless of table status. Published compatibility is not a local operational test or certification of every Windows11 update. Earlier editor1.00 requirements remain as dated provenance. |
+
 ## VE-22
 
 Vocal multi-effects;consolidated/researched2026-10-16;partial verification.

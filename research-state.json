@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS Pocket GT",
-    "task": "PocketGT editor/driver platform matrices saved separately with exclusions and literal source-column qualification. Resume Shopee brand/series discovery or another model primary-source gap; no repeated PocketGT OS lookup needed absent changed evidence. No downloads; commit each model before next.",
+    "model": "BOSS VE-500",
+    "task": "Saved current Windows11 application support separately from driver evidence. Next verify VE500 USB audio channel count/format from exact driver/manual source, or resume Shopee discovery; repeated Artech/princemusic offers unchanged. No downloads; commit each model before next.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS Pocket GT."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-500."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56890,6 +56890,12 @@
         "https://www.boss.info/global/support/support_news/25090811m1/",
         "https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/b6636992-05ce-466f-9bb8-32c323a10804/"
       ]
+    },
+    {
+      "model": "BOSS VE-500",
+      "checked_date": "2026-10-18",
+      "finding": "Current BOSS Windows matrix separately confirms VE500 exclusive application and hardware/driver YesDownload forWin11/10. Resolves editorWin11 evidence gap;ARM/virtual/Windows-on-Mac exclusions andWin10end-support caveat retained.",
+      "source": "https://www.boss.info/global/support/support_news/25090811win1/"
     }
   ],
   "discovery_cross_brand_bass": {
