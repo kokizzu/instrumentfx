@@ -587,7 +587,7 @@ def main():
         if mode == 'commit-me80':
             message = 'research(boss): resolve ME-80 buttons battery mass and loop erasure'
         if mode == 'commit-b1on':
-            message = 'research(zoom): clarify B1on save tuner and control qualifications'
+            message = 'research(zoom): verify original B1X electrical and rhythm specifications'
         if mode == 'commit-ms60bplus':
             message = 'research(zoom): add bass-focused MS-60B Plus with own routing and qualified offer'
         if mode == 'commit-ms70cdrplus':

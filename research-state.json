@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS ME-20B",
-    "task": "Electrical nominal levels/impedances and patch master/NS behavior saved;continue fresh hardware discovery or remaining model gaps.",
+    "model": "Zoom B1X original",
+    "task": "Own electrical/conversion/rhythm specifications saved;continue missing hardware discovery or unresolved model fields.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-20B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B1X original."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60083,5 +60083,23 @@
     ],
     "validation": "Focused projection regression failed before fix;passes after;planned output contains each label in every eligible instrument view;membership unchanged",
     "research_claim": "No new manufacturer or market verification;existing evidence carried into comparisons"
+  },
+  "b1x_original_electrical_rhythm_20261017": {
+    "source": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf",
+    "sections": "Printed10–11,27;own combined B1/B1X manual,16PDFpages",
+    "findings": [
+      "96k24ADDA32internal;128xoversampling",
+      "Ratedinput−20dBm470kohm;line+3dBm>=10kohm;phones20+20mW32ohm;publishedunitsretained",
+      "Rhythm40–250BPM0–30level;mode-specific control restrictions;externalFSB1only"
+    ],
+    "remaining": "Displaydetails,currentsoftware/importscope,qualifiedoffers,actualdraw/barrel remain."
+  },
+  "discovery_bp200_ax10b_bfx708_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Bass\" \"BP200\"",
+      "site:shopee.co.id \"Bass\" \"AX10B\"",
+      "site:shopee.co.id \"Zoom\" \"BFX-708\""
+    ],
+    "result": "No search results returned;not absence proof."
   }
 }

@@ -2475,6 +2475,8 @@ Checked 2026-10-17; partial. Bass-focused processor; ownership and guitar/vocal 
 | Preset memory | **40 user+40 read-only factory=80**;user area initially duplicates factory patches. [Manual pp3,25][B1XO-M] |
 | Synth / acoustic | **MONO SYN** is monophonic,single-note bass synthesis. Acoustic conversion unverified;ACOUSTIC amp name alone proves none. [Manual p20][B1XO-M] |
 | I/O | Mono quarter-inch bass input,stereo quarter-inch combined line/headphone output,DC. No CONTROL IN on B1X. [Manual pp4–5,27][B1XO-M] |
+| Analog conversion / electrical levels | **96kHz**,24bit A/D and D/A with128× oversampling;32bit internal processing. Rated input−20dBm,470kΩ. Maximum line output+3dBm into≥10kΩ;phones20+20mW into32Ω. Manufacturer dBm notation retained,not silently relabeled dBu. Response20Hz–40kHz,+1/−4dB into10kΩ. Not USB audio specifications. [Manual p27][B1XO-M] |
+| Live / rhythm controls | Rhythm tempo40–250BPM,level0–30. Rhythm mode prevents patch switching/master adjustment;play mode permits rhythm but not pattern/level/tempo adjustment. Bypass/mute can retain rhythm. External footswitch tempo control is B1-only. [Manual pp10–11][B1XO-M] |
 | Power / battery / USB | **9VDC300mA center-negative AD-0006 supply**,or4AA alkaline,approx12h;nonrecharging. Actual draw,barrel size/USB operation unverified. [Manual pp2,27][B1XO-M] |
 | Dimensions / mass | **234W×155D×52Hmm;600g without batteries**. Own B1X row,not narrower B1. [Manual p27][B1XO-M] |
 | IR / NAM / capture | User IR,native/converted NAM and proprietary capture unverified. |
