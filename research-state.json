@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "HX Effects",
-    "task": "3.10 live-control details added. Next investigate own power-supply specification or qualified Indonesian offers; retain IR-capacity conflict and remaining display/power gaps.",
+    "model": "Recorded-model verification",
+    "task": "HX Effects current power FAQ and chart URL saved; no verified voltage/polarity. Next inspect a different recorded model unresolved fields; avoid repeating unchanged HXEffects offer/power searches.",
     "next_models": [],
-    "after_queue": "274partialmodels;no downloads/workflows/push;continue broader technical and market verification."
+    "after_queue": "274partialmodels;no downloads/workflows/push;full technical/market verification and migration remain incomplete."
   },
   "new_findings": [
     {
@@ -41371,7 +41371,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HX Effects."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Recorded-model verification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56605,5 +56605,12 @@
     "source": "https://kb.line6.com/helix-3-10-3-11-release-notes",
     "facts": "HXEffects explicitly included:3.10 tunerTrails preserves looper/tails;ShufflingPitch+Interval1/2 replacesOctaves;reloadmodel/resavedefaults;InstantWaitTime0–1000ms;CC69 buffered duringpresetload.",
     "limits": "Historicalversionnotinstalledproof;communitypowerclaimsnotadopted;voltagepolaritystillopen."
+  },
+  "hxe_power_source_followup_20261017": {
+    "source": "https://kb.line6.com/power-supply-battery-specs-and-faq",
+    "facts": "Current own FAQ: DC3G supports worldwide mains standards with regionalplugadapter; OEM supplyratingmayexceedactualdraw. Not directmainsinput toHXEffects.",
+    "chart": "https://kb.line6.com/__attachments/a_00482743a7f2b1a83c21f1a12155066e2347021b3560036770ebe09f0c49981e/1591335463_2024PowerSupplyCompatibilityChartv3.thumb.png.png?cb=98ecdca531ceaf62a4678a70655f8d66",
+    "limits": "Image ref returned without actual image inspection; no chartcell/voltage/polarity adopted. Community sibling supplyclaims rejected.",
+    "market": "Same shop250276993/item5129480739 soldout7900000alreadyrecorded; no duplicateoffer."
   }
 }
