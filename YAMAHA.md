@@ -120,6 +120,17 @@ Checked 2026-10-17 against the own manufacturer manual.
 | Live / shared tempo | TEMPO is **shared by all effects and is not stored/recalled**. On recall, saved delay/modulation-frequency values are retained despite a different current tempo; subsequent tempo edits recalculate them when synchronized. NOTE/TEMPO ranges are limited by effect delay/frequency limits, even with SYNC off. | [Manual p15][S2-M] |
 | I/O / analog input prerequisite | Analog XLR/TRS inputs require input source **ANALOG**. Input and output each have their own −10/+4 dBu switch for level matching. These are line-level routing choices, not evidence of a microphone preamp, phantom power or high-impedance guitar input. | [Manual p9][S2-M] |
 
+
+### SPX2000 — clock and logical MIDI-port routing
+
+Checked 2026-10-17 against the own manufacturer manual.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Digital audio / clock selection | Six sources: **internal 44.1/48/88.2/96 kHz**, external **AES/EBU** or **WORD CLOCK**. Clock frequency sets sampling frequency. Lost or unsupported external clock triggers an internal-clock fallback until valid external clock returns. Incorrect synchronization can cause noise or muting. This does not establish asynchronous sample-rate conversion. | [Manual pp18–19][S2-M] |
+| MIDI / USB logical ports | GENERAL selects **DIN MIDI or USB1–8**, or OFF. EDITOR selects **USB1–8**, or OFF; the two functions **cannot share a port**. Eight logical MIDI ports are not eight audio channels. GENERAL channel selection supports1–16 orOMNI. Driver requirement remains separate from editor/platform support. | [Manual p21][S2-M] |
+| MIDI / backup and THRU limits | THRU forwards DIN input unchanged and prevents originating SPX data from that connector. OUT permits bulk dumps/request responses. BULK OUT(ALL) sends system settings,program-change tables andeffect data via GENERAL; it does not establish backup of recorded Freeze audio. | [Manual pp21,23][S2-M] |
+
 <!-- comparison evidence ends -->
 
 Seller “ORI JAPAN” does not verify authenticity,manufacture origin or voltage revision. Condition,working state,stock,bundle,mains cable,warranty,shipping/tax and voucher eligibility remain unknown. Cached ask is neither live stock nor completed sale. Official manual108pages accessible as browser text; detailed panel/program review remains.

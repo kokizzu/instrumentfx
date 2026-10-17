@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX2000",
-    "task": "Live recall/tempo andanalogsource qualifications saved. Continue Shopee discovery andremaining model-specific primarysource gaps.",
+    "task": "Clock sources/fallback andlogical MIDI-port/backup routing saved. Continue fresh Shopee series discovery andremaining primary-source gaps.",
     "next_models": [],
     "after_queue": "314 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -52391,6 +52391,13 @@
       "source": "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf",
       "finding": "Effect recall disables bypass;tempo shared/not saved,with recalled delay/frequency retained;analogsource prerequisite andindependent level switches clarified.",
       "remaining": "Screen diagonal/touch,distinct algorithms/universal simultaneous ceiling,USB audio/import/battery scope andqualifiedoffers unresolved."
+    },
+    {
+      "model": "Yamaha SPX2000",
+      "checked_date": "2026-10-17",
+      "source": "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf",
+      "finding": "Clock sources/fallback and separate GENERAL/EDITOR logical MIDI-port assignments saved;qualified THRU andbulk backup scope.",
+      "remaining": "Distinct algorithm/universal simultaneous totals,display diagonal/touch,USB audio/import/battery evidence andqualifiedoffers."
     }
   ],
   "discovery_cross_brand_bass": {
