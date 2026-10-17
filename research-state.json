@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "GT-3 SFX catalogue and anti-feedback search restrictions saved. Next preamp/ambience categories and global ceiling; physical buttons/toe unresolved.",
+    "task": "GT-3 five reverb choices and timing saved. Next preamp/delay/chorus catalogue and global ceiling; buttons/toe remain unresolved.",
     "next_models": [
       "Zoom 606"
     ],
@@ -54362,5 +54362,11 @@
     "page": "39",
     "finding": "Six SFX selector alternatives, stereo pan condition, feedback single-note requirement and anti-feedback search interruption/persistence restrictions saved.",
     "remaining": "Preamp/ambience catalogue, global ceiling, physical buttons/toe and other unknowns."
+  },
+  "gt3_reverb_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+    "page": "56",
+    "finding": "Five reverb types with explicit seconds/ms timing and filters saved.",
+    "remaining": "Preamp/delay/chorus catalogue, global ceiling, physical buttons/toe and other unknowns."
   }
 }
