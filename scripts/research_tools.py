@@ -341,7 +341,7 @@ def main():
         if mode == 'commit-nux-mg101-audit':
             message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-pe100':
-            message = 'research(mooer): add PE100 portable multi-effects with qualified Shopee evidence'
+            message = 'research(mooer): add Black Truck with on-off-only preset qualification'
         if mode == 'commit-ms60b':
             message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-rp360xp':

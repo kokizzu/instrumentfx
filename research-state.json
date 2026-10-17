@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 263,
+  "active_model_count": 264,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 263,
+  "canonical_root_model_count": 264,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "263 unique active/root-canonical models;0 legacy-only;32brands;6excluded. OriginalB1Xbassfocused,notB1Xon/Four;allpartial.",
+  "count_reconciliation": "264 unique active/root-canonical models;0legacy-only;32brands;6excluded.BlackTruckguitarmultifx;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Black Truck",
-    "task": "Three exact historical Shopee offers and official product saved in discovery_blacktruck_20261017. Next own English manual link via https://www.mooeraudio.com/products/15.html;verify architecture/controls/presets/IO/power before guitar record. No qualified used/new condition.",
+    "task": "Root guitar record added;next detailed controls/SPACE and complete connections from own-model manual. Preserve on/off-only preset limit and axis-label inconsistency. Commit before next model.",
     "next_models": [],
     "after_queue": "Preserve prior gaps and migration limits;no downloads/workflows/push."
   },
@@ -23798,7 +23798,8 @@
       "GE250",
       "GE300",
       "GS1000",
-      "PE100"
+      "PE100",
+      "Black Truck"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -24041,7 +24042,8 @@
       "GE150 Max Li",
       "GE1000",
       "GE1000 Li",
-      "PE100"
+      "PE100",
+      "Black Truck"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -24323,7 +24325,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 214,
+      "record_count": 215,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41286,10 +41288,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 263,
-    "canonical_root_models": 263,
+    "unique_brand_model_pairs": 264,
+    "canonical_root_models": 264,
     "legacy_only_models": 0,
-    "guitar_view_models": 214,
+    "guitar_view_models": 215,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41349,7 +41351,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Black Truck."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41444,6 +41446,7 @@
       "MOOER::GE300",
       "MOOER::GS1000",
       "MOOER::PE100",
+      "MOOER::Black Truck",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -42664,6 +42667,13 @@
     },
     "MOOER::PE100": {
       "link": "MOOER.md#pe100",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::Black Truck": {
+      "link": "MOOER.md#black-truck",
       "source_files": [
         "MOOER.md"
       ],
@@ -55485,5 +55495,22 @@
       "HotoneBStation"
     ],
     "absence_qualification": "Limitedsearchonly;noabsenceclaim."
+  },
+  "blacktruck_primary_checkpoint_20261017": {
+    "product": "https://www.mooeraudio.com/products/15.html",
+    "manual_transcription": "https://manualzz.com/doc/68316423/mooer-black-truck-combined-pedals-owner-s-manual",
+    "official_access": "ProductpopupnamesBlack_Truck_Manual.pdf;clickreturnsproductpagenoPDFURL. No filesystemdownloadorvisualinspection.",
+    "added": true,
+    "key_limit": "Fivepresetsstoreon/offonly,notparameters;SPACEdelay/reverb/both;serialloopbeforeMOD;dimensionsaxislabelsretained.",
+    "remaining": [
+      "Fullcontrolinventory",
+      "Completeconnector/SPACElimits",
+      "Officialmanualrevision",
+      "Expression",
+      "PoweractualdrawbarrelbatteryUSB",
+      "EditorIRNAMimport",
+      "Currentcondition-specificprices",
+      "Bassvocal"
+    ]
   }
 }

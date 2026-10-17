@@ -1478,3 +1478,47 @@ Portable desktop guitar multi-effects; first pass checked **2026-10-17**. Separa
 - Official page exposes an English-manual filename without a usable PDF link in retrieved text. [Candidate V02 mirror](https://jam.ua/files/files/PE100%20_Manual_EN_V02.pdf) returned cache miss; its revision was not used as evidence.
 
 Remaining: published LCD size/color/touch specification, explicit negative capability statements, full model-list reconciliation, runtime/current measurement context, editor/import verification and condition/stock-qualified new/used offers. Unknown is not No. Six blocks establish eligibility without floor operation or amp-capture support.
+
+## Black Truck
+
+Checked 2026-10-17; partial. Guitar multi-effects;ownership,bass/vocal suitability unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe expression unverified. |
+| K/F/B | **6 footswitches**:TAP plus1–5;rotary/button totals pending. EQ sliders and selectors counted separately. [Manual layout][BT-M] |
+| Display | Mode/tuner display;published diagonal,color/touch unverified. [Manual layout][BT-M] |
+| Processing / categories | **6 sections**:COMP,OD,HI-GAIN,EQ,MOD,SPACE. Analog dynamics/drive/EQ plus digital MOD/SPACE. MOD selects tremolo/phaser/flanger. SPACE selects delay,reverb,or both. Full simultaneous accounting pending. [Manual][BT-M] |
+| Preset memory | **5 recallable presets store module on/off only;effect parameters cannot be saved**. Factory-filled subset unresolved. [Manual operation][BT-M] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
+| I/O | Quarter-inch input,2quarter-inch outputs,serial SEND/RETURN,3.5mm speaker-simulated direct/headphone output with independent level,DC. Balancing unresolved. [Product][BT-P]; [Manual][BT-M] |
+| Power / battery / USB | **9VDC1A supply**,negative-inside wording;actual draw,barrel size,battery/USB operation unresolved. [Product][BT-P] |
+| Dimensions / mass | **370D×96W×51Hmm;1.23kg**,as officially labelled. Axis inconsistency not silently normalized;size bin unresolved. [Product][BT-P] |
+| IR / NAM / capture | Own Chinese product describes IR-based headphone cabinet simulation;user IR/native/converted NAM/capture import unverified. [Chinese product][BT-CN] |
+| Editor / platforms | Editor/updater OS and USB/audio unverified. A direct output for computer connection does not establish USB interface. |
+| Live / routing | Serial loop between EQ and MOD;four-cable setup supported. EQ positions before/after HI-GAIN. Tap controls delay,MOD,or both. Looper/drums/scenes unverified. [Manual][BT-M] |
+
+### Separate IDR hardware offers
+
+Used/new condition-confirmed offers not established. Checked2026-10-17:indexed historical asks,not live stock/checkout.
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp3.716.400**,crossedRp4.890.000,Melodia Musik Roland Store JKT,shop30194339/item44224053987,Kota Jakarta Selatan;three-month crawl,24%label. | [Item][BT-O1] |
+| Unverified | **Rp3.850.000**,V Musik Central,shop29988284/item28824194734,Kota Depok;two-month crawl. | [Item][BT-O2] |
+| Unverified | **Rp3.850.000**,Vin's Music Store,shop31173885/item27123480418,Kota Depok;four-month crawl,Jun4arrivaltext. | [Item][BT-O3] |
+
+<!-- comparison evidence ends -->
+
+Variant,bundle/adapter/case inclusion,working state,authenticity,warranty,shipping/tax,voucher and current stock unresolved. No used/new status inferred from Mall badges or seller activity.
+
+Own product popup names Black_Truck_Manual.pdf but browser Download click returned product page without PDF URL. Manufacturer-authored mirror has exact Black Truck identity and matching six-section/loop-switcher introduction;current official revision equivalence unverified. Generated FAQ/ASIN guide not used. No download or visual inspection.
+
+[BT-P]: https://www.mooeraudio.com/products/15.html
+[BT-CN]: https://cn.mooeraudio.com/product/11.html
+[BT-M]: https://manualzz.com/doc/68316423/mooer-black-truck-combined-pedals-owner-s-manual
+[BT-O1]: https://shopee.co.id/Mooer-Black-Truck-6-in-1-Compressor-Overdrive-Distortion-EQ-Modulation-Delay-Reverb-Guitar-Multi-Effect-Pedal-i.30194339.44224053987
+[BT-O2]: https://shopee.co.id/mooer-black-truck-combined-compressor-overdrive-distortion-eq-modulation-delay-reverb-pedal-i.29988284.28824194734
+[BT-O3]: https://shopee.co.id/mooer-black-truck-combined-compressor-overdrive-distortion-eq-modulation-delay-reverb-pedal-i.31173885.27123480418
