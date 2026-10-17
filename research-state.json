@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-5",
-    "task": "GT-5 delay modes/types and1.8second layered Sound On Sound verified. Next targeted own English manual MOD/category choices and user memory initialization;remaining visual/toe/editor/IR/NAM gaps unresolved.",
+    "task": "GT-5 ten shared MOD choices verified from Roland-hosted Polish manual. Next remaining category choices (OD/DS,preamp,wah/reverb),initial user-patch contents and English corroboration;all other unresolved fields remain explicit.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee Indonesia discovery;no downloads,workflows or push. RFX-2000 technical gaps remain deferred."
   },
@@ -53895,5 +53895,12 @@
     "method": "Targeted manufacturer-indexed manual text;no filesystem download.",
     "finding": "Four delay types/two timing modes;Sound On Sound1.8seconds with layering;Hold Off deletes held recording. Saved in exact GT-5 root section and comparison.",
     "remaining": "MOD/category choices,initial user memory contents,recording retention,visual/toe/editor/IR/NAM."
+  },
+  "gt5_mod_checkpoint_20261017": {
+    "source": "https://www.roland.com/RolandComSite/media/pl/media/pdf/GT-5.pdf",
+    "pages": "35–37",
+    "finding": "Ten mutually selected MOD algorithms including acoustic simulator and guitar synth;400ms short delay and harmonist voice options saved.",
+    "access": "Roland-hosted official-distributor Polish translation browser text;English targeted searches did not resolve corresponding MOD section in this pass.",
+    "remaining": "English MOD corroboration,initial user patch contents,remaining category counts,visual/toe/editor/IR/NAM and recording retention."
   }
 }
