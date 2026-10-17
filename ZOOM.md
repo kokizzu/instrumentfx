@@ -951,6 +951,17 @@ Display resolution and factory-filled count above supersede their earlier unknow
 | Processing / cabinet choices | **10**:SVT8x10,SVT4x10TW,FD-B4x12,SMR4x10TW,AG4x10TW,TE4x10,AC1x18,MkB2x8TW,EB4x10TW,AM1x15. Factory cabinet/microphone mixing is not evidence of third-party IR loading. |
 
 
+
+### B1X FOUR — pedal limits and analog specifications
+
+Checked 2026-10-18 against the [own B1 FOUR/B1X FOUR operation manual Z2I-3612-01](https://zoomcorp.com/media/documents/E_B1FOUR.pdf), printed pp53–55,60. The pedal section explicitly applies to B1X FOUR; browser text only.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / assignment and toe state | **Only one PEDAL-category effect per patch**. Pressing the front of the pedal toggles that effect, but **does not save its on/off setting**. Six published pedal/control entries therefore do not mean six simultaneous pedal targets. |
+| Expression / calibration and friction | Calibration follows the screen prompts; **Complete!** confirms success and **Error!** requires restarting. Button icons are absent from extracted text, so the startup shortcut remains unverified. A separate **5 mm hex screw** adjusts friction: clockwise tightens, counterclockwise loosens. Excessive loosening can disconnect it internally; this is not an electronic sensitivity adjustment. |
+| I/O / analog conversion and levels | **44.1 kHz; 24-bit A/D and D/A, both 128× oversampling; 32-bit processing**. INPUT −20 dBu/470 kΩ; AUX −10 dBu/1 kΩ. Maximum line +2 dBu; manual wording “10 kΩ or more output impedance” retained. Headphones **17+17 mW into 32 Ω**. These converter specifications do not establish USB audio. |
+
 ## B2 FOUR
 
 Bass multi-effects; external-only expression. Consolidated and expanded2026-10-16; partial. All15 model fields from the complete legacy bass comparison are preserved below with their original2026-10-14 dates and USD qualifications. New primary checks and IDR observations are separate.

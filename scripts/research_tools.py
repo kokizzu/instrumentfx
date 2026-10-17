@@ -462,7 +462,7 @@ def main():
         if mode == 'commit-b1four-followup':
             message = 'research(zoom): qualify B1 FOUR loop input stops and power settings'
         if mode == 'commit-b1xfour-followup':
-            message = 'research(zoom): resolve B1X FOUR display memory and looper qualifications'
+            message = 'research(zoom): qualify B1X FOUR pedal limits and analog conversion'
         if mode == 'commit-readme-counts':
             message = 'fix(navigation): synchronize complete brand model lists from ledger'
         if mode == 'commit-hd400':
