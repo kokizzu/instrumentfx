@@ -1087,3 +1087,42 @@ Official product DELAY prose duplicates reverb;own manual used to distinguish th
 [MDR-P]: https://www.valeton.net/product/dapper-mdrdiscontinued/
 [MDR-M]: https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf
 [MDR-O]: https://shopee.co.id/Valeton-Dapper-MDR-Effects-Strip-Guitar-Effect-i.141177049.2861386191
+
+## Dapper Amp Mini
+
+Checked2026-10-17;partial. Guitar multi-effects;discontinued. Bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. [Manual][DAM-M] |
+| K/F/B | Text-derived10rotaries:amp5,FX3,reverb1,phones1;3footswitches. Toggles separate;button total/visual corroboration pending. [Manual][DAM-M] |
+| Display | 7bicolor note LEDs:blue natural/green sharp;3pitch LEDs:red flat/sharp,green tuned. Diagonal/touch unverified. [Manual][DAM-M] |
+| Processing / categories | AMP9(3channels×3types),FX selects chorus/delay/tremolo,one hall-like REVERB. Simultaneous ceiling unresolved. [Manual][DAM-M] |
+| Preset memory | AMP settings automatically saved when selecting channels;full preset/factory/user counts and FX/reverb recall unverified. [Manual][DAM-M] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. [Manual][DAM-M] |
+| I/O | INPUT,OUT,PHONES,DC;connector sizes/balancing unresolved. OUT CAB SIM switchable;diagram says PHONES fixed,but note says toggle affects PHONES. Preserve conflict. [Manual][DAM-M] |
+| Power / battery / USB | 9VDC center-negative;160mA. Barrel,battery/USB operation unresolved. [Manual][DAM-M] |
+| Dimensions / mass | 197×65×42mm;417g. Manual D/W/H versus product W/D/H axis labels retained. [Manual][DAM-M] |
+| IR / NAM / capture | Cab simulation documented;userIR/nativeNAM/convertedNAM/capture unverified. [Manual][DAM-M] |
+| Editor / platforms | Editor/updater OS unverified. [Manual][DAM-M] |
+| Live / controls | AMP tap advances channel;hold bypasses. FX hold enables tap;hold again returns knob tempo. REVERB hold enters muted tuner. All modules bypass at powerconnection. Looper/drums/scenes unverified. [Manual][DAM-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp900.000**,rozioktanza,shop16416856/item2504929501,Kota Bengkulu;last month indexed crawl. | [Item][DAM-O1] |
+| Unverified | **Rp1.850.000**,Dial Musik,shop338305078/item12251090181,Kota Palembang;four months indexed crawl,**Habis**. | [Item][DAM-O2] |
+
+<!-- comparison evidence ends -->
+
+Checked2026-10-17;historical asks,not live checkout/stock. No qualified used/new allocation;variant,bundle,workingcondition,authenticity,warranty,shipping/tax/vouchers unresolved.
+
+Own2-page V01_200414 manual text read;no download/visual inspection. Cab-toggle conflict remains unresolved. Amp-model table names await careful type/channel association from readable layout.
+
+[DAM-P]: https://www.valeton.net/product/dapper-amp-mini/
+[DAM-M]: https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf
+[DAM-O1]: https://shopee.co.id/VALETON-DAPPER-AMP-MINI-i.16416856.2504929501
+[DAM-O2]: https://shopee.co.id/Valeton-Dapper-Amp-Mini-Multi-Effect-Strip-i.338305078.12251090181

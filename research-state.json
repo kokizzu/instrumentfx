@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 269,
+  "active_model_count": 270,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 269,
+  "canonical_root_model_count": 270,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "269uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.MicroPlusguitarandfirmwarequalifiedbass.",
+  "count_reconciliation": "270uniqueactive/rootcanonical;0legacyonly;32brands;6excluded;allpartial.DapperAmpMiniguitarmultifx.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton Dapper Amp Mini",
-    "task": "Micro Plus effect list/recording/tuner evidence saved;remaining technical/price gaps deferred. Verify queued DapperAmpMini own manual and exact offers,add distinct guitar record if eligibility confirmed;commit before next model.",
+    "task": "Dapper Amp Mini added with own-manual phoneCABSIM conflict;next resolve channel/type mapping and FX controls without visual guesses,then defer remaining gaps and fresh discovery.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery;retain269record gaps;no downloads/workflows/push."
   },
@@ -23882,7 +23882,8 @@
       "Dapper Dark Mini",
       "Dapper Indie",
       "Dapper VES-1",
-      "Dapper MDR"
+      "Dapper MDR",
+      "Dapper Amp Mini"
     ],
     "VING": [
       "Flybro FB-100"
@@ -24029,7 +24030,8 @@
       "Dapper Dark Mini",
       "Dapper Indie",
       "Dapper VES-1",
-      "Dapper MDR"
+      "Dapper MDR",
+      "Dapper Amp Mini"
     ],
     "MOOER.md": [
       "GE250",
@@ -24335,7 +24337,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 220,
+      "record_count": 221,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41298,10 +41300,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 269,
-    "canonical_root_models": 269,
+    "unique_brand_model_pairs": 270,
+    "canonical_root_models": 270,
     "legacy_only_models": 0,
-    "guitar_view_models": 220,
+    "guitar_view_models": 221,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41512,6 +41514,7 @@
       "Valeton::Dapper Indie",
       "Valeton::Dapper VES-1",
       "Valeton::Dapper MDR",
+      "Valeton::Dapper Amp Mini",
       "VING::Flybro FB-100",
       "Zoom::G1 FOUR",
       "Zoom::G1X FOUR",
@@ -43218,6 +43221,13 @@
     },
     "Valeton::Dapper MDR": {
       "link": "VALETON.md#dapper-mdr",
+      "source_files": [
+        "VALETON.md"
+      ],
+      "finding_files": []
+    },
+    "Valeton::Dapper Amp Mini": {
+      "link": "VALETON.md#dapper-amp-mini",
       "source_files": [
         "VALETON.md"
       ],
@@ -55880,5 +55890,12 @@
     "saved": "All25namedlaunch effects;tap/tuner mute/exit;Apple driver distinction and unverified USB routing;original11pagePR6171body corroborates guide.",
     "remaining": "Amp/cabpairdetails,expression/physicalfootinventory,diagonal/touch,batterycapacity/chargeinput,USBchannels/IRimports/editorOS,currentconditionprices. All explicit gaps deferred.",
     "next": "Dapper Amp Mini own documentation;preserve Micro Plus resetrevision and bassfirmware limits."
+  },
+  "dapper_amp_mini_primary_checkpoint_20261017": {
+    "added": true,
+    "product": "https://www.valeton.net/product/dapper-amp-mini/",
+    "manual": "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf",
+    "saved": "AMP9/FX3/hallreverb,amp autosave scope,controls/tuner/bypass,phonescabconflict,axislabels and qualifiedasks.",
+    "remaining": "Ampmodeltypeassociation,fullcontrolsvisual/buttons/expression,IOsizes/phonescabbehavior,memory/simultaneous/powerbarrelbatteryUSB,IR/editor/currentconditionprices."
   }
 }
