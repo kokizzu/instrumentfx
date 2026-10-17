@@ -332,6 +332,7 @@ Original model sources: [Source 1](https://www.headrushfx.com/products/flex-prim
 
 ## Gigboard
 
+<!-- comparison evidence begins -->
 Checked **2026-10-17**. Distinct guitar/bass multi-effects model; partial verification. [Product][GB-P] explicitly includes bass instruments. No software or dependencies downloaded.
 
 | Required field | Finding |
@@ -341,14 +342,14 @@ Checked **2026-10-17**. Distinct guitar/bass multi-effects model; partial verifi
 | Display | Color touchscreen: advertised **7 inches** [Product][GB-P], [Comparison][GB-C]; manual specifies **6.9-inch/176 mm diagonal**, LED backlight. Retain both published values. [Manual][GB-M] |
 | Dimensions / weight | **329.2 W×225.6 D×67.1 H mm;3.24 kg**; mass basis unspecified. [Comparison][GB-C], [Manual][GB-M] |
 | Simultaneous processing | **11 slots**, with dual amp/cab exceptions; three signal-path layouts. Exact DSP/model concurrency ceiling beyond slot count ? [Manual][GB-M] |
-| Category choices | Website headings: amps **52**, cabs **15**, mics **10**; distortion **17**, dynamics/EQ **11**, modulation **22**, reverb/delay **13**, expression **11**. Website headline says more than74 FX; older comparison says **50 amps/67 FX**. Firmware basis and installed totals unresolved; do not combine these snapshots. [Product][GB-P], [Comparison][GB-C] |
-| Factory / user memory | Rigs editable, saveable and transferable; factory-filled count and total user capacity **?** [Manual][GB-M], [Comparison][GB-C] |
+| Category choices | Website headings: amps **52**, cabs **15**, mics **10**; distortion **17**, dynamics/EQ **11**, modulation **22**, reverb/delay **13**, expression **11**. Website headline says more than74 FX; older comparison says **50 amps/67 FX**. These are website snapshots. Adding five missing2.6 entries gives derived53amps/78FX (18distortion/12dynamics/23modulation/14reverb-delay/11expression), not a verified installed total. See full-record audit. [2.6 notes][GB-F26] [Product][GB-P], [Comparison][GB-C] |
+| Factory / user memory | Manufacturer support explicitly confirms **270 factory default rigs**, about4 MB of files; this is not total storage capacity. Rigs editable, saveable and transferable; total user capacity **?** [Factory-rig explanation][GB-R] [Manual][GB-M], [Comparison][GB-C] |
 | Synth / acoustic simulator | Acoustic Sim documented in product's 2.3 feature description. Independent synth engine **?**; pitch/filter effects alone do not establish one. Polyphonic pitch supported. [Product][GB-P], [Comparison][GB-C] |
-| IR / NAM / captures | User **WAV IR** import; product specifies **1024/2048 samples**, 300 included IRs. “Virtually unlimited” is marketing, not verified storage capacity. Native/converted NAM and proprietary capture loading **?**; Prime/Core capabilities not assigned here. [Product][GB-P], [Comparison][GB-C] |
+| IR / NAM / captures | User **WAV IR** import; product specifies **1024/2048 samples**, 300 included IRs. Firmware **2.6 adds two IRs per block**. [2.6 notes,p.2][GB-F26] “Virtually unlimited” is marketing, not verified storage capacity. Native/converted NAM and proprietary capture loading **?**; Prime/Core capabilities not assigned here. [Product][GB-P], [Comparison][GB-C] |
 | Audio/control I/O | ¼″ TS instrument in; 3.5 mm stereo AUX; two balanced ¼″ TRS main outs, amp/line selectable; ¼″ stereo phones; mono ¼″ FX send/return; external TRS EXP and TS toe; TRS amp-switch out; DIN MIDI in/out-thru; USB-B; power. No XLR mains. Manual rear text gives send-output/return-input, but appendix reverses directions; functional directions retained. [Manual][GB-M], [Comparison][GB-C] |
 | Power / battery / USB | **19 V DC,3.42 A,center-positive adapter input** in manual power specification. Same appendix incorrectly lists IEC; comparison confirms19VDC. Match actual unit/adapter label before use. Draw,battery and USB-powered operation **?** [Manual][GB-M], [Comparison][GB-C] |
-| Editor / USB audio | USB file transfer needs no extra software; full desktop/mobile editor platforms **?**. **4-in/4-out,24-bit/up to96kHz** recording/reamping. Product links Mac/Windows2.7 updaters and Windows1.0.0 audio driver: these are not proof of an editor or current OS compatibility. [Product][GB-P], [Comparison][GB-C] |
-| Looper / live features | **5-minute loop,50 layers,20 minutes total audio**; save/load. WAV/MP3 loop import,WAV export. Gapless switching/tails advertised; manual says tails unavailable with FX loop or USB audio. Scenes supported. Drums **?** [Product][GB-P], [Comparison][GB-C], [Manual][GB-M] |
+| Editor / USB audio | USB file transfer needs no extra software; full desktop/mobile editor platforms **?**. **4-in/4-out,24-bit/up to96kHz** recording/reamping. Product links Mac/Windows2.7 updaters and Windows1.0.0 audio driver: 2.7 updater minimum is **Windows8/macOS10.15 with USB2.0**; these are not proof of an editor or current OS compatibility. [2.7 notes,p.1][GB-F27] [Product][GB-P], [Comparison][GB-C] |
+| Looper / live features | **5-minute loop,50 layers,20 minutes total audio**; save/load. WAV/MP3 loop import,WAV export. Gapless switching/tails advertised; manual says tails unavailable with FX loop or USB audio. Scenes supported; **2.5 adds two scenes per switch**. Song View remains Pedalboard-only in2.3.1 notes, despite product mode text. Drums **?** [2.7 cumulative notes,pp.2–3][GB-F27] [Product][GB-P], [Comparison][GB-C], [Manual][GB-M] |
 
 ### Gigboard — separate IDR offer
 
@@ -358,11 +359,25 @@ Checked **2026-10-17**. Distinct guitar/bass multi-effects model; partial verifi
 | Verified used offer | **?** | Not established |
 | Verified new offer | **?** | Indexed ask above has no verified sale condition |
 
+<!-- comparison evidence ends -->
+
 ### Gigboard source and revision limits
 
-Manual filename/footer identify2.1.2; cover/index metadata are not assumed to establish current installed firmware. Read via web text, not a local download or visual inspection. Appendix connector errors are preserved rather than silently reconciled. Current product links2.7 firmware, while category headlines and comparison totals have no aligned firmware date. Remaining work: current firmware notes/category enumeration, actual power-label confirmation, preset capacity, IR limits, full editor/OS support and condition-qualified offers.
+Manual filename/footer identify2.1.2; cover/index metadata are not assumed to establish current installed firmware. Read via web text, not a local download or visual inspection. Appendix connector errors are preserved rather than silently reconciled. Current product links2.7 firmware, while category headlines and comparison totals have no aligned firmware date. Remaining work: verify installed category totals, actual power-label confirmation, user capacity, IR limits, full editor/OS support and condition-qualified offers.
 
 [GB-P]: https://www.headrushfx.com/products/gigboard/
 [GB-M]: https://cdn.inmusicbrands.com/HeadRush/gigboard/v2_1_2-0520/Gigboard-User-Guide-v2_1_2.pdf
 [GB-C]: https://www.headrushfx.com/compare-boards.html
 [GB-O]: https://shopee.co.id/HeadRush-Gigboard-i.158413015.4243270944
+
+### Gigboard firmware audit — 2026-10-17
+
+Own release notes identify **2.7,August2024**. Version2.6 adds Trace Elliot ELF,B2 Drive,Dim Chorus,Acoustic Pre and Party Verb; all five are absent from the product’s enumerated lists. Version2.7 adds Glorious Drive,White Bass Wah and Ten Freq EQ, already represented there (EQ is named10 FREQ EQ on the website). The page therefore mixes revisions. [2.7 notes,p.2][GB-F27]
+
+Adding the five explicitly missing2.6 entries to the website lists yields a **derived reconciliation**, not a manufacturer-published installed total: **53 amps;18 distortion,12 dynamics/EQ,23 modulation,14 reverb/delay,11 expression =78 FX choices**. Cabs15/mics10 remain separate. This arithmetic does not establish simultaneous processing, nor account for unlisted utilities. Preserve the older52/74 website and50/67 comparison snapshots. [Product][GB-P], [2.6 notes,p.2][GB-F26]
+
+Cumulative2.7 notes,p.4 revise looper feedback: it affects recording/overdub, not playback; below100% one evolving layer is replaced, and Insert is unavailable when that is the top layer. The factory-rig support article explicitly names Gigboard; its270-rig statement is not borrowed from Prime/Core’s50-rig bank. [Firmware notes][GB-F27], [Factory-rig explanation][GB-R]
+
+[GB-F27]: https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Gigboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.7.pdf
+[GB-F26]: https://cdn.inmusicbrands.com/HeadRush/FW/26/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.6.pdf
+[GB-R]: https://support.headrushfx.com/en/support/solutions/articles/69000848879-headrush-prime-and-core-where-are-all-the-preset-rigs-

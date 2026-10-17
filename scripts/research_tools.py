@@ -337,7 +337,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-gigboard':
-            message = 'research(headrush): add Gigboard with model-specific evidence and qualified Shopee ask'
+            message = 'research(headrush): reconcile Gigboard firmware categories and factory rigs'
         if mode == 'commit-pocketgt':
             message = 'research(boss): audit Pocket GT memory categories and explicit bass presets'
         if mode == 'commit-ve5':

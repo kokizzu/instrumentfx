@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "HeadRush Gigboard",
-    "task": "New model saved; next audit own2.7 release notes and category list, preserving older totals. Do not add model again.",
+    "model": "Shopee discovery",
+    "task": "Gigboard added andownfirmware/category audit committed. Do not repeat. Search exact Shopee Indonesia hardware for unrecorded models; inspect inventory before addition.",
     "next_models": [],
-    "after_queue": "Search exact Shopee hardware by brand/series for unrecorded models; no downloads/workflows."
+    "after_queue": "Preserve partial verification; no downloads or workflows."
   },
   "new_findings": [
     {
@@ -40627,7 +40627,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HeadRush Gigboard."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49432,6 +49432,16 @@
       "source": "https://static.roland.com/assets/media/pdf/Pocket-GT_param_eng02_W.pdf",
       "finding": "OwnRev02guide:90filled9EMPTY within99writable,qualifiesproductfilledclaim. Basspresets71–90explicit;addsharedbass. 23FXfamilies,22ODDS27preamp7pedal7delay8reverbrow,7cabsOriginalOff;sameFXinbothslots. Harmonistbendmonophonic;wirelessrequires1.20.",
       "remaining": "Exactsimultaneousceiling/108headlinebasis,imports,currentOS/screen details,conditionverifiedprices."
+    },
+    {
+      "model": "HeadRush Gigboard",
+      "checked_date": "2026-10-17",
+      "finding": "270 factory rigs confirmed;2.6 dualIR;2.7 datedAugust2024. Website omitsfive2.6 models whilecontains2.7 additions;derived53amp/78FX only,notinstalledaudit.",
+      "sources": [
+        "https://support.headrushfx.com/en/support/solutions/articles/69000848879-headrush-prime-and-core-where-are-all-the-preset-rigs-",
+        "https://cdn.inmusicbrands.com/HeadRush/FW/26/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.6.pdf"
+      ],
+      "remaining": "Usercapacity,actualpowerlabel,IRstorage,currentOS/officialeditor,qualifiedsalecondition andinstalledtotals."
     }
   ],
   "discovery_cross_brand_bass": {
