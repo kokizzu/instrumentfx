@@ -62074,5 +62074,31 @@
     ],
     "limits": "No toe/multipleassignment/dualpedal/G3Xncalibrationtransfer",
     "next": "Physical control inventory and qualified current offers; broaden fresh Shopee series discovery"
+  },
+  "discovery_frontier_20261017_rack_compact": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"Zoom 9030\"",
+      "site:shopee.co.id \"Zoom 9002\"",
+      "site:shopee.co.id \"Korg AX1G\"",
+      "site:shopee.co.id \"Digitech RP350\"",
+      "site:shopee.co.id \"M-VAVE\" \"M5\"",
+      "site:shopee.co.id \"Lekato\" \"MP-80\"",
+      "site:shopee.co.id \"Harley Benton\" \"DNAfx\"",
+      "site:shopee.co.id \"NUX\" \"MG-60\""
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+        "seller": "Agen Tekno",
+        "region": "Kota Jakarta Barat",
+        "idr": 170000,
+        "reason": "PSU accessory, not RP350/RP355/RP300 processor; no manufacturer power specification inferred",
+        "access": "4monthindex,stale10June delivery"
+      }
+    ],
+    "result": "No qualified new exact hardware offer. Later queries returned existing Blackbox/Cube Baby/MK300 titles, MIDI controllers/wireless systems and unrelated M5 cameras, not M5/MP80/DNAfx/MG60 processor evidence.",
+    "limits": "Search coverage only, not model absence or exhaustive market proof; no accessory price enters active comparisons",
+    "next": "Use broader eligible hardware series queries and exact listing inspection; G3n/GP200 panel counts remain unknown"
   }
 }
