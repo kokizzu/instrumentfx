@@ -68,6 +68,15 @@ Checked 2026-10-18 against the current manufacturer FAQ.
 |---|---|---|
 | Power / supply rating versus unit requirement | DigiTech maps **RP360XP to PS0913DC:9VDC,1.3A,center-negative**, with **9.5mm barrel length,5.5mm outer diameter,2.1mm pin**. Table lists120–240V mains and interchangeable plug. The1.3A figure is the named adapter’s output rating; retain the manual’s **300mA/2.7W unit requirement**, not a new1.3A consumption claim. Check the actual regional adapter label; this table does not establish which adapter accompanies a particular used offer. | [Official supply table](https://digitech.com/faqs/) |
 
+### RP360XP USB stream and controller qualifications
+
+Checked 2026-10-18 using indexed text from the manufacturer’s own shared manual; no software or files downloaded.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| USB audio / channels and source | Manual explicitly documents simultaneous **2 channels to computer + 2 from computer**, **44.1kHz,16/24-bit**. Recording uses the audio feeding LEFT/RIGHT outputs; no separate dry DI/reamp channel is established. Manual says standard Windows/Mac OS X drivers suffice, a historical class-driver statement rather than tested compatibility with every current OS. | [Own manual, Computer Recording][RPXP-M] |
+| Expression / CONTROL IN variant limit | CONTROL IN accepts FS3X on RP360XP. EXP/VOL and EXP/TRS modes are explicitly **RP360-only**, so their passive-volume250kΩ and expression10kΩ requirements must not become RP360XP external-expression claims. Manufacturer FS3X page specifies an included stereo TRS cable and quarter-inch socket; this corroborates the accessory connection, while the RP360XP socket’s exact wording remains unverified. | [Own manual p49][RPXP-M]; [FS3X manufacturer page](https://digitech.com/dp/fs3x/) |
+
 ## RP255
 
 Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
