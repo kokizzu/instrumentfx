@@ -452,6 +452,16 @@ Checked2026-10-17, original **V1.0.2** manual pp63–68,72–73.
 | MIDI / clock restrictions | MIDI input selectsDINOnly/USBOnly/Mixed(default); separateDIN/USB channels1–16/Omni(default). **DINOnly/USBOnly clock disablesTapTempo andclockoutput**. Clockoutputs defaultoff; enablingclockout ignores externalclockinput. Do not equate this with muting audio or disabling allMIDI input. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual) |
 
 
+### MP-350 — Global EQ and assignment limits
+
+Checked2026-10-17, original **V1.0.2** manual pp54–56,73–74.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Processing / Global EQ | Four parametric bands plus low/high cuts and low/high shelves, independently switched;20Hz–20kHz,Q0.10–10,gain±20dB. Applies to selected outputs; **USB audio is unaffected**. Applying EQ, especially to all outputs with DSP-heavy patches/reverbs, can cause **system overload**. Twelve slots do not guarantee every combination. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual) |
+| Expression / assignment invalidation | Up tofour targets, each withMIN/MAX andLine/Exp/Log curve; **MIN can exceedMAX** for reversed sweep. Moving/deleting a target module or replacing its effect resets its expression target toNone. Quick-access assignments also reset toNone when their target module changes. Recheck assignments after chain edits; no arbitrary persistence claim. [Original manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual) |
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

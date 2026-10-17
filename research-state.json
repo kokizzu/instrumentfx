@@ -62142,5 +62142,16 @@
     ],
     "limits": "NotcurrentOS/runtimetest;notMIDIaudio-muteclaim",
     "next": "GlobalEQ/headroom and expression assignment restrictions; completecurrentalgorithms; other model gaps and discovery"
+  },
+  "mp350_eq_assignments_20261017": {
+    "source": "https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual",
+    "revision": "V1.0.2 pp54–56,73–74",
+    "findings": [
+      "4PEQpluscuts/shelves;USBunaffected;alloutputEQcanoverloadDSP",
+      "ExpressionMINgreaterMAXallowed;LineExpLog",
+      "Moving/deleting/replacingeffectresetsEXPandquickaccessassignmenttoNone"
+    ],
+    "limits": "Notcurrentfirmware/runtimetest; numericDSPbudgetunresolved",
+    "next": "Current firmware library and physical I/O conflicts; other model gaps and fresh discovery"
   }
 }
