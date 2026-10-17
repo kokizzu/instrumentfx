@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Hotone Ampero II MP-350 effect-list follow-up",
-    "task": "Original1.1.0JP mirror resolves AC Sim,Acoustic Refiner and10stock acousticIR models. Next obtain exact1.4.0 list andcategory totals,orresumeShopee discovery without silently applying older list as current.",
+    "model": "Shopee discovery after MP-350 manual qualification",
+    "task": "MP-350 scene/bypass/DSP limits saved;1.4.0 effectlist stillunverified. Resume new exact hardware discovery or othermodel primary gaps;do not repeat inaccessible support link without new access method.",
     "next_models": [],
     "after_queue": "284partialmodels;no downloads/workflows/push."
   },
@@ -41400,7 +41400,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350 effect-list follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery after MP-350 manual qualification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57402,6 +57402,15 @@
       "Dedicated synthesis",
       "Visual panel inspection"
     ],
+    "downloaded": false
+  },
+  "mp350_routing102_20261017": {
+    "source": "https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual",
+    "revision": "V1.0.2",
+    "pages": "29–30,44–45,50,61–62",
+    "scope": "13 audiofamilies+3loopmodules versuslater17;6slotsperchain12total;scene2–4selectionlimits;analogbypassdisablesXLR/phones/tails",
+    "unverified": "USBbypass hoststream behavior;1.4.0list contents",
+    "source_access": "No browser surfaces available;dynamic support document links not exposed inwebtext",
     "downloaded": false
   }
 }

@@ -328,6 +328,18 @@ Printed p4=PDFpage6;printed pp59–60=PDFpages61–62. This supersedes historica
 
 [MP350-E11]: https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf
 
+### MP-350 — scene,bypass and DSP limits
+
+Checked2026-10-17 against [original V1.0.2 manual](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual),printed pp29–30,44–45,50,61–62. Manufacturer manuscript only;generated mirror summaries excluded.
+
+| Field | Revision-qualified limits |
+|---|---|
+| Processing / module taxonomy | V1.0.2 enumerates **13 audio module families plus3 loop modules**:DYN,FREQ,WAH,VOL,DRV,AMP,PRE AMP,CAB,IR,EQ,MOD,DLY,RVB;FX SND,FX RTN,FX LOOP additional. Later product specification says17;retain revision/taxonomy difference. Slots remain **6 per chain,12 total**,DSP-limited;unavailable effects grey out. |
+| Live / scenes | Patch recall starts atScene1. Scenes2–4 edit existing-effect parameters,slot on/off,patch tempo/volume;effect selection unavailable. Save before patch change to retain scene edits. Four scenes do not establish four independent effect libraries. |
+| I/O / bypass routing | Analog bypass directly joins corresponding L/R quarter-inch paths;**phones,XLR input/outputs andtails disabled**. DSP bypass supports mono→stereo andshares XLR/phones output. Manual saysUSB audio is also bypassed;exact host-stream behavior untested. |
+
+Latest1.4.0 document contents remain unverified:dynamic support links were not exposed by web text,andbrowser inventory showed no available browser. No software orPDF downloaded. Continue other useful research rather than repeatedly reopening the same unavailable link.
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
