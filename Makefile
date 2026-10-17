@@ -1919,3 +1919,7 @@ research-commit-rh100:
 .PHONY: research-commit-cerberus
 research-commit-cerberus:
 	python3 scripts/research_tools.py commit-cerberus
+
+.PHONY: research-commit-mx400
+research-commit-mx400:
+	python3 scripts/research_tools.py commit-mx400

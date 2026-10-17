@@ -129,6 +129,16 @@ TRS-connector MX400 rack multi-effects; MX400XL is a distinct connector variant.
 | New | Unknown; no qualified new-condition evidence. | — |
 | Condition-unverified sold-out ask | **Rp3.700.000;Habis**. Abadi Audio dan Komputer,shop355992277/item29037104080,KotaSurakarta(Solo). Five-month indexed body checked2026-10-17; direct open cache miss. | [Exact Shopee item][M400-O] |
 
+
+### MX400 — plug-in bitness and dynamics routing
+
+Checked 2026-10-18 against the [current manufacturer product/software page](https://lexiconpro.com/en-US/products/mx400/downloads_and_docs) and [original 18-0446V-F manual, printed pp25–26](https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf). No software or manual file downloaded.
+
+| Field | Verified boundary |
+|---|---|
+| Editor / hardware plug-in bitness | Lexicon explicitly limits the **PC/Mac hardware plug-ins to 32-bit**. This does not establish 64-bit DAW compatibility, a supported bridge, current OS support or the standalone MX-Edit application’s bitness. USB remains hardware control; audio routing through an external interface is documented above. The product is marked discontinued; the April2026 document upload dates are not new software releases. |
+| Processing / dynamics signal path | **Compressor and De-Esser do not pass dry audio**; in **Dual Stereo configuration their effects are mono**. Their stereo descriptions therefore do not establish stereo operation in every configuration. Use this routing qualification alongside the existing four-processor ceiling; no additional effect slots implied. |
+
 <!-- comparison evidence ends -->
 
 Cached hardware asking price, not live stock or completed sale. Seller “Original/Ori” wording does not verify authenticity or revision. Used/new condition,actual MX400 versus XL/voltage variant,bundle,mains cable,warranty,shipping/tax,voucher eligibility and working state remain unverified. Relative “tomorrow” delivery does not override explicit Habis. Late-arrival compensation up to Rp10,000 is not a purchase discount.

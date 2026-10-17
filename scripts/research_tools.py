@@ -105,17 +105,17 @@ def main():
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))
-    elif mode in ('commit-rh101', 'commit-rh100', 'commit-cerberus'):
+    elif mode in ('commit-rh101', 'commit-rh100', 'commit-cerberus', 'commit-mx400'):
         verify()
         import comparison_views
         comparison_views.verify_views()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-        paths = [('NUX.md' if mode == 'commit-cerberus' else 'VALETON.md'),'README.md','MULTI-EFFECTS.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','scripts/comparison_views.py','scripts/research_tools.py','Makefile']
+        paths = [({'commit-cerberus':'NUX.md','commit-mx400':'LEXICON.md'}.get(mode,'VALETON.md')),'README.md','MULTI-EFFECTS.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','scripts/comparison_views.py','scripts/research_tools.py','Makefile']
         changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
         assert changed <= set(paths), changed-set(paths)
         git('add','--',*sorted(changed))
         print(git('diff','--cached','--stat'))
-        print(git('commit','-m','research(nux): qualify Cerberus WAV import and TAP MIDI reassignment' if mode == 'commit-cerberus' else 'research(valeton): qualify RH100 combined ambience and manual extraction' if mode == 'commit-rh100' else 'research(valeton): corroborate RH101 modes from Chinese manufacturer'))
+        print(git('commit','-m','research(lexicon): qualify MX400 plug-in bitness and dynamics routing' if mode == 'commit-mx400' else 'research(nux): qualify Cerberus WAV import and TAP MIDI reassignment' if mode == 'commit-cerberus' else 'research(valeton): qualify RH100 combined ambience and manual extraction' if mode == 'commit-rh100' else 'research(valeton): corroborate RH101 modes from Chinese manufacturer'))
     elif mode in ('commit-g1xfour-followup','commit-g1four-market','commit-ax100g','commit-vamp3','commit-me30','commit-rp70','commit-ad10','commit-g2four-market','commit-me50b','commit-rp200','commit-gp200x','commit-mfx10','commit-anagram','commit-prime-s1','commit-blacktruck','commit-pockrock','commit-fx150b','commit-fx20','commit-dc5','commit-rc5','commit-ms3','commit-rd5','commit-v3compat','commit-tc2','commit-tc1','commit-sol918','commit-me90b-control','commit-gorig2','commit-dualstomplite','commit-dualstomp','commit-tinystomp','commit-gorigb','commit-fx600','commit-vlt2','commit-gt10b','commit-floorpodplus','commit-spx2000','commit-ms80ir','commit-ve22','commit-ve1','commit-ax10b','commit-aas','commit-b2-conversion','commit-fv05','commit-stageman','commit-prime-m2','commit-prime-m1','commit-prime-p2','commit-fm3','commit-player','commit-quad','commit-v6-live','commit-play-qsg','commit-g1-original'):
         verify()
         subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
