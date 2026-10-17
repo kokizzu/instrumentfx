@@ -61698,5 +61698,16 @@
     ],
     "limits": "NotbackgroundMIDIorindependentmultipleloopsproof",
     "next": "Resolve panel counts; broaden fresh brand/series discovery"
+  },
+  "gp200_panel_tuner_20261017": {
+    "source": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "revision": "Firmware1.8.0 pp3–4,6",
+    "findings": [
+      "Namedpanelcontrols;rearGNDLIFTandPOWERseparatefrombuttoncount",
+      "GNDLIFTbothXLRgrounds",
+      "Tuner432–447Hzdefault440;ThruBypassMute"
+    ],
+    "limits": "Textdiagramdoesnotresolveexactrotary/modulebuttontotals;notanalogtruebypassproof",
+    "next": "Seek readable manufacturer panel image; continue fresh Shopee brand/series discovery without repeating empty queries"
   }
 }
