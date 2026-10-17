@@ -271,3 +271,38 @@ Phrase Trainer supports100/75/50/25percent playback,or5percent increments from10
 In Play mode,the current program footswitch held0.5s bypasses andheld1s mutes. Tuner438–445Hz resets440Hz onpower-up. These differ from some other Korg switch timings;no sibling procedure substituted.
 
 [AX1000-O2]: https://shopee.co.id/efek-gitar-tonework-korg-ax1000g-motif-decal-i.57900729.16038187135
+
+## AX3G
+
+Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Ownership and bass/vocal suitability unverified. Discontinued.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | External EXP-2/XVP-10; volume/wah. Built-in/toe unverified. | [Manual specifications][AX3G-M];[EasyStart p1][AX3G-E] |
+| K/F/B | **2 rotary /2 footswitches /2 buttons**, text-derived: Function,Value;program up/down;Write,Cancel. | [EasyStart pp2–3][AX3G-E] |
+| Display | Program/value display; diagonal,technology,color,touch unverified. | [EasyStart p2][AX3G-E] |
+| Processing / category choices | **6 simultaneous**: PRE,drive/amp,cab,MOD,shared delay/reverb,NR. Manual:PRE10,drive/amp16,cab10,MOD10,delay5,reverb5,NR1=57 choices. German specifications instead list PEDAL11; unresolved discrepancy. | [EasyStart p1][AX3G-E];[Manual p11][AX3G-M];[German specifications][AX3G-P] |
+| Factory / user memory | **80=40user+40preset**. Presets editable but not overwritable; Write stores in user area. Reset loads factory sounds into user area,erasing custom sounds. | [EasyStart pp2–3][AX3G-E] |
+| Synth / acoustic | PRE acoustic simulator includes four body models; dedicated synth pending. | [Parameter guide p2][AX3G-F] |
+| Dimensions / mass | **178W×142D×43H mm;340g**; battery inclusion unspecified in cited specification. | [Manual p11][AX3G-M] |
+| I/O | Mono input,stereo output;¼-inch audio sockets per German specs. Output also supports headphones. External-expression socket,DC. Other ports unverified. | [Specifications][AX3G-P];[Manual p11][AX3G-M];[EasyStart pp1–2][AX3G-E] |
+| Power / battery / USB | **9VDC** optional adapter or four alkaline AA,approximately8h. Current,polarity,USB power unverified. | [Manual p11][AX3G-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
+| Editor / software | Editor,driver,updater platforms unverified. | Unresolved |
+| Looper / drums / live | Bypass with both footswitches; hold about1s for mute/tuner. Either exits without patch change. Delay/reverb carryover requires same settings. Amp/Line P5 applies to amp models,not drive models. Looper,drums,scenes unverified. | [Manual p9][AX3G-M];[EasyStart pp1–3][AX3G-E] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown; no condition-verified offer. | — |
+| New | Unknown; no condition-verified offer. | — |
+| Condition-unverified cached offer | **Rp750,000,Habis**;maju jaya gallery,Kab.Malang;shop33360096/item3679424724. Checked2026-10-17. Direct URL yielded cached text marked last month,stale16–18Sep delivery;search cache3months showed20–22July. Sale condition,working state,bundle,adapter,warranty,variant andshipping/tax unverified. Seller title says made in Japan;not independently established. Late-arrivalRp10,000 compensation is not purchase discount. | [Exact item][AX3G-O] |
+
+Mixed jonimusic item22551702/3568008855 lists AX100G/AX1500G/AX3000G/AX3G atRp899,900–2,299,900; no variant mapping,excluded from exact AX3G price evidence. Owner manual full web open exceeded tool size limit; indexed official excerpts used. EasyStart read as web PDF text. No downloads.
+
+[AX3G-M]: https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf
+[AX3G-E]: https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf
+[AX3G-F]: https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf
+[AX3G-P]: https://www.korg.com/de/products/effects/ax3g/page_2.php
+[AX3G-O]: https://shopee.co.id/efek-pedal-gitar-elektrik-KORG-AX3g-made-in-japan-distorsi-delay-reverb-i.33360096.3679424724
