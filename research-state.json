@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery",
-    "task": "G2X FOUR three additional exact asks saved, including Serenata direct/search price discrepancy. Continue Shopee brand/series discovery against286 inventory; no new hardware established from current queries. Preserve mixed-card price limits and unresolved model fields.",
+    "task": "B2 FOUR DI/bypassscope saved afterbass/vocalsearch duplicatecheck. Continue exactShopee hardware discovery bybrand/series against286inventory; preserve allfieldgaps. Avoid repeating current nohit queries withoutnewleads.",
     "next_models": [],
     "after_queue": "286partialmodels;no downloads/workflows/push."
   },
@@ -57633,5 +57633,34 @@
     ],
     "qualification": "No new exact eligible hardware established. Hope Music mixed-model cards unallocated; RP350 PSU855783279/22273291654 excluded accessory; G2X FOUR already canonical.",
     "coverage": "Search non-results do not establish market absence"
+  },
+  "b2four_bypass_20261017": {
+    "source": "https://zoomcorp.com/manuals/b2four-en/",
+    "identity": "2023 ownmanual sections DI/bypass",
+    "di_outputs": [
+      "BALANCED OUTPUT",
+      "OUTPUT",
+      "PHONES"
+    ],
+    "all_bypass": "Effects+DI",
+    "efx_bypass": "Effects bypassed;DI retained",
+    "startup": "Bypass off",
+    "circuit": "Mode labels do not prove relay/analogtruebypass",
+    "downloads": false
+  },
+  "discovery_bass_vocal_20261017": {
+    "queries": [
+      "VoiceLive2",
+      "Korg AX5B",
+      "Zoom B9.1ut",
+      "Zoom506II",
+      "Zoom B2",
+      "Digitech BP90",
+      "MOOER GE300 LITE",
+      "MOOER GE250 LITE",
+      "Hotone Ampero Pink"
+    ],
+    "reconciliation": "B2 FOUR exactoffers23161833031,22861014005,27233015578,42458813522,42758785757,24004987590alreadyrecorded;no newmodel. MP100 Black/Pink unresolvedvariation price1776275/18091161846 not assigned separately. VoiceLive3Extreme alreadycanonical.",
+    "limit": "No newexacthardware established inqueries;notmarketabsence"
   }
 }

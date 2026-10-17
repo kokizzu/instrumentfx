@@ -853,6 +853,15 @@ Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; exi
 |---|---:|---|
 | Condition-unverified sold-out adapter bundle | Rp3.924.000 | [DOREMI MUSIC,seller84651465/item27233015578](https://shopee.co.id/Zoom-Guitar-Multi-Effects-Processor-B2-Four-w-Adaptor-AD-16E-Efek-Gitar-i.84651465.27233015578),Kota Tangerang. Direct indexed body checked2026-10-17,two-month crawl,**Habis**. Title includes AD-16E;selected contents,used/new condition,warranty,variant and authenticity unverified. Relative four-hour delivery does not override sold-out status;Rp10.000 late-delivery compensation is not a discount. Historical ask,not live stock/completed sale. |
 
+### B2 FOUR — DI and bypass routing, 2026-10-17
+
+[Manufacturer operation manual](https://zoomcorp.com/manuals/b2four-en/), ©2023, sections Selecting the DI MODEL and Using the bypass function; text inspection only.
+
+| Field | Verified behavior / limits |
+|---|---|
+| DI / I/O routing | DI MODEL affects **BALANCED OUTPUT, OUTPUT and PHONES**. Its name does not mean it is restricted to the XLR output. This differs from the master-EQ/volume scope explicitly naming OUTPUT/PHONES above. |
+| Bypass / live | **ALL BYPASS** bypasses the effects section and DI model. **EFX BYPASS** bypasses effects while retaining DI modeling. A press selects all bypass; holding selects effects bypass. Unlit means neither is bypassed. Bypass resets off at power-on. Analog/relay true-bypass circuitry is not established by these mode labels. |
+
 <!-- comparison evidence ends -->
 
 ## B6
