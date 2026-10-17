@@ -2962,6 +2962,16 @@ Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Ma
 | Used | Unknown;no exact Shopee Indonesia hardware offer established. | — |
 | New | Unknown;no exact qualified retail hardware offer established. | — |
 
+### GT-10B loop routing and bass algorithms
+
+Checked 2026-10-18 against the manufacturer-authored 2008 manual, revision G6027127R0, as mirrored document text. No generated mirror FAQ, file download or device test used.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / external loop modes | Normal inserts the external device in series. Direct Mix blends return with the signal entering SEND/RETURN. Branch Out sends that signal out and disregards RETURN; its placement determines what reaches SEND. Send/return levels each use 0–200 display units, not documented dB. | [Own manual p131][G10B-T] |
+| Synth / bass-simulator choices | BASS SIM has seven types: passive→active, active→passive, single-coil→humbucker, humbucker→single-coil, solid→hollow, single-coil→acoustic bass and humbucker→acoustic bass. Body 0–100 applies to the hollow/acoustic conversions; lower values approach piezo-like tone. These are choices within one algorithm. | [Own manual p109][G10B-T] |
+| Synth / waveforms | BASS SYNTH offers Saw and Square waveforms, separate synth/direct levels and envelope-filter controls. Both waveforms belong to the same single-note algorithm; they do not establish two simultaneous synth engines. | [Own manual p110][G10B-T] |
+
 <!-- comparison evidence ends -->
 
 GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.
