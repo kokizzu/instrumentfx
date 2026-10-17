@@ -14,14 +14,18 @@ K/F/B means rotary controls / main footswitches / separate buttons; encoder pres
 
 | Field | Preserved finding / uncertainty |
 |---|---|
-| Expression / controls | Built-in expression; external support unverified. **5/2/4**, confirmed in original firmware1.1.0 manual printed p.3. Toe-switch detail not established in retained record. |
+| Expression / controls | Built-in expression; external support unverified. **5/2/4**, confirmed in original firmware1.1.0 manual printed p.3. Manual p3 explicitly describes toe press switching pedal function. |
 | Display / body | Color graphical display; diagonal, technology and explicit touch unverified. **200 W ×137.5 D ×53.6 H mm;732 g**, compact; plugs/pedal travel additional. |
 | Processing | **Nine movable blocks;130+ models**, including40 amps,38 factory cabinets,50+ other effects. Exact category subcounts and synth/acoustic algorithms remain unverified. |
 | Presets | **99 factory +99 user =198**. |
-| Loading | **15 user IR slots**. Official software section advertises **NAM A2 workflow**; exact native/converted architecture and compatibility limits are not established by that wording alone. |
+| Loading | **15 user IR slots**. Official Japan2026-08-18 notice specifies **NAM A2 conversion via desktop1.1.1+**;accepted architectures unverified. **Clone disables CAB**,per firmware1.1.0 manual p27. [Notice](https://www.hotone.jp/announcements/nama2allbrand); [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433). |
 | I/O | 6.35 mm input;two6.35 mm L/R outputs;3.5 mm AUX and dedicated headphones;USB. Exact USB subtype and complete electrical details remain to reconcile with matching manual. |
-| Power | DC9V; current and polarity not yet established in the retained first-pass record. Battery/USB-powered operation not established. |
+| Power | **DC9V center-negative,500mA**,manual pp1,29;requirement,not measured draw. Battery/USB-powered operation not established. |
 | Apps / practice | Windows/macOS editor;USB audio;90-second looper;100 rhythms. Current NAM update order and regional firmware matter. |
+
+| Bass capability | Own product explicitly supports guitar/bass/acoustic processing;shared bass inclusion,not performance certification. [Product,checked2026-10-17](https://www.sonicake.com/products/matribox) |
+| USB / electrical I/O | Manual p29:**USB2.0Type-C,44.1kHz16/24bit recording**;24bitA/D/A,110dB SNR(weighting unspecified). Input¼TS1MΩ;AUX⅛TRS10kΩ;L/R¼TS unbalanced1kΩ;phones⅛TRS47Ω. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) |
+| Looper / routing | Manual pp9–10:**Pre90s mono dry;Post45s stereo effected**. USBrecordDry/Wet perL/R;record−20…+20dB,monitor−20…+6dB;globalNoCAB independently bypasses cabinet peroutputside. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) |
 
 ### Matribox — regional IDR and firmware evidence
 

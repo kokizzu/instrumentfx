@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Pocket Master QME-10",
-    "task": "Pocket Master exact Shopee asks saved with stock/voucher/condition/access limits. Continue fresh brand/series discovery and unresolved technical fields;do not reinterpret lower ask as used.",
+    "model": "Sonicake Matribox QME-50",
+    "task": "Original Matribox bass/conversion/power/USB/looper evidence saved. Continue display/category/qualifiedregionaloffers orfreshdiscovery;retain CN-languagevariant warning.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -24497,9 +24497,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 120,
+      "record_count": 121,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 92,
+      "shared_bass_capable_count": 93,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41494,8 +41494,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 120,
-    "bass_shared_models": 92,
+    "bass_view_models": 121,
+    "bass_shared_models": 93,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Pocket Master QME-10."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox QME-50."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41872,6 +41872,7 @@
       "NUX::Mighty Plug Pro MP-3",
       "NUX::Mighty Plug MP-2",
       "Roland::GR-55",
+      "Sonicake::Matribox QME-50",
       "Sonicake::Smart Box QME-20",
       "Sonicake::Pocket Master QME-10",
       "Sonicake::Matribox II Pro QME-200",
@@ -41985,6 +41986,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Sonicake::Matribox QME-50": "Own original Matribox product explicitly supports guitar/bass/acoustic processing. Shared bass,not low-end performance certification. [Manufacturer](https://www.sonicake.com/products/matribox).",
     "Sonicake::Pocket Master QME-10": "Own Pocket Master product explicitly lists guitar/bass/acoustic amp types. Shared bass;exact bass inventory/performance unresolved. [Manufacturer](https://www.sonicake.com/products/pocket-master).",
     "Sonicake::Matribox II Pro QME-200": "Own firmware1.1.1 manual pp41,44 lists A BassVT/A BassFT bass amps and bass cabinets. Shared bass capability;not performance certification. [Official regional manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf).",
     "Sonicake::Smart Box QME-20": "Manufacturer Smart Box page explicitly describes presets optimized for guitar and bass. Shared bass capability; bass-specific algorithms and low-end performance remain unverified. [Manufacturer product](https://www.sonicake.com/products/smart-box).",
@@ -60550,5 +60552,21 @@
     ],
     "qualification": "No used/new range orcurrentstockclaim;variant/bundle/shipping/tax/warrantyunverified;priorNafirievidencepreserved",
     "other_query": "site:shopee.co.id \"Sonicake\" \"Twiggy\" returned no qualified hardwarelead;notabsenceproof."
+  },
+  "matribox_original_followup_20261017": {
+    "sources": [
+      "https://www.sonicake.com/products/matribox",
+      "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433",
+      "https://www.hotone.jp/announcements/nama2allbrand"
+    ],
+    "findings": [
+      "Shared bass explicitly ownproduct",
+      "ConvertedA2desktop1.1.1+;Clone disablesCAB",
+      "9Vcenternegative500mA;toe switching",
+      "USB-C44.1k16/24electricalI/O;Pre90monoPost45stereo"
+    ],
+    "identity": "Own31page firmware1.1.0manual cover;PDFmetadataold1.0.4doesnotoverridecover",
+    "remaining": "Screen,touch,externalexpression,fullcategorycounts,architecturelimits,batteryUSBpower,qualifiedregionaloffers.",
+    "access": "BrowserHTML/PDFtextonly;nolocaldownload"
   }
 }
