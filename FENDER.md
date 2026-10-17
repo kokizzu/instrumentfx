@@ -135,6 +135,16 @@ Checked 2026-10-18 against the [original laboratory report](https://fccid.io/XQW
 | Power / tested sample | Printed p7 identifies **5V DC external power or a3.85V built-in lithium battery**; p9 also records3.85V test voltage. These are distinct external and battery voltages, not interchangeable ratings. The p4 declaration limits this report to the tested sample. |
 | Power / remaining limits | Battery capacity, replacement specifications, USB-PD negotiation and consumer audio operation with the battery removed remain unverified. The owner manual’s600mA maximum USB current remains separate. RF testing is not an audio bus-power test. |
 
+
+### Mustang Micro Plus — filing manual revision limits
+
+Checked2026-10-18: [Fender-authored filing manual](https://fccid.io/XQW-MUMPPR6171/User-Manual/User-manual-7049868.pdf), PR6171, PN7729311000 rev.1, copyright2024. This copy contains unfinished dimension, weight, reset-button and part-number placeholders; do not treat it as equivalent to the finished retail manual.
+
+| Field | Revision-specific evidence |
+|---|---|
+| I/O / USB manual conflict | Filing printed p8 says USB is **source-only, without return monitoring**. The later [manual p7][MMP-L8] and [current product][MMP-P] instead say **bidirectional**. Preserve both versions; the filing restriction does not override later documentation. USB channels, sample rates and dry/reamp/loopback routing remain unresolved. |
+| I/O / filing electrical specifications | Printed p9 lists **1MΩ instrument input**, **30mW per headphone channel** and headphones **16Ω or greater**. These are filing-manual specifications, not independent measurements or confirmation of every production revision. |
+
 <!-- comparison evidence ends -->
 
 No condition-confirmed used/new allocation. Variant,bundle,workingcondition,authenticity,warranty,shipping/tax/vouchers unresolved.

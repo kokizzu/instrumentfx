@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fender Mustang Micro Plus",
-    "task": "Micro Plus original PR6171 filing power evidence saved with tested-sample limits. Next resolve USB recording channels/rates from manufacturer documentation, or resume fresh Shopee discovery. Capacity,screen diagonal and expression remain unresolved.",
+    "task": "Micro Plus filing manual USB revision conflict and qualified headphone ratings saved. Targeted manufacturer searches did not establish USB channels/rates. Resume fresh Shopee brand/series discovery;do not loop identical USB searches. Capacity,screen diagonal and expression remain unresolved.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -58048,6 +58048,12 @@
       "checked": "2026-10-18",
       "finding": "Original PR6171 filing power evidence qualified by tested-sample scope;see canonical Power rows. Battery capacity and battery-removed audio operation unresolved.",
       "source": "https://fccid.io/XQW-MUMPPR6171/RF-Exposure-Info/SAR-Test-Report-7054814.pdf"
+    },
+    {
+      "model": "Fender Mustang Micro Plus",
+      "checked": "2026-10-18",
+      "finding": "Filing manual is visibly unfinished in text;source-only USB conflicts with later bidirectional documentation. Qualified input/headphone electrical ratings saved in canonical record.",
+      "source": "https://fccid.io/XQW-MUMPPR6171/User-Manual/User-manual-7049868.pdf"
     }
   ],
   "discovery_cross_brand_bass": {
