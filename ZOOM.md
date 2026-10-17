@@ -1498,6 +1498,19 @@ No dependency,software,firmware,manual or image downloaded. Physical controls an
 
 Checked2026-10-17. Japanese manual has matching B3n dimensions,mass,150patches,seven-effect architecture andcopyright2016,revisionZ2I-2782-01;it is the same model,not originalB3. Its duplication of the English specification wording does not independently resolve the socket conflict. English manual printedp37 explicitly supplies the patch-change and rhythm-tempo loop-erasure restrictions. These supersede any implication that loop playback survives a patch change. No physical unit,firmware,download or installation used.
 
+
+### External-pedal setup and additional hardware offers
+
+Checked 2026-10-18 using web text; no files downloaded or hardware tested.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / external enable | MENU → EX PDL → EXT PEDAL must be ON to use a pedal effect. Connecting an FP02 alone does not establish that the effect is enabled. | [Own manual p41](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Controls / live selection | PRESELECT ON puts bank changes into standby until a patch footswitch confirms selection. Tuner calibration is 435–445 Hz; BASS tuning includes low B and high C for five-/six-string basses. Flat settings lower tuning by one–three semitones; unavailable in CHROMATIC mode. | [Own manual pp24,31–33](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| Looper / shared tempo | Rhythm tempo is 40–250 bpm and is shared by effects, rhythms and looper. Synchronizable effect parameters must use note values. These are not independent tempos for each facility. | [Own manual pp35,42](https://zoomcorp.com/media/documents/E_B3n.pdf) |
+| IDR Condition unknown; sold out | **Rp1,800,000; Habis**, No Dent, Kota Tangerang Selatan; shop84057464/item22439853153. Direct text retrieved from a two-month cache; search reported four months. Same-day delivery banner is not live-stock proof. Used/new condition, revision, working state, adapter, bundle, warranty and checkout unknown. Late-delivery voucher is not a product discount. | [Exact hardware](https://shopee.co.id/Zoom-B3n-Bass-Effect-Pedal-i.84057464.22439853153) |
+| IDR Condition and stock unknown | **Rp3,775,000**, yuniramadanmall, Kota Jakarta Pusat; shop188782010/item9119534224. Direct text is four weeks old with stale 21–24 September delivery; search cache was two months old. No Habis marker exposed, but stock and checkout remain unverified. Condition, revision, adapter, bundle and warranty unknown; late-delivery voucher excluded. | [Exact hardware](https://shopee.co.id/Zoom-B3N-Multi-Effect-Processor-Efek-Bass-i.188782010.9119534224) |
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.

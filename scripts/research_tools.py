@@ -613,7 +613,7 @@ def main():
         if mode == 'commit-a1four':
             message = 'research(zoom): document A1 FOUR synth algorithms and additional-effect scope'
         if mode == 'commit-b3n':
-            message = 'research(zoom): correct B3n headphone certainty and loop persistence'
+            message = 'research(zoom): qualify B3n pedal setup and additional IDR offers'
         if mode == 'commit-g3n':
             message = 'research(zoom): verify G3n external expression enable path'
         if mode == 'commit-g5n':
