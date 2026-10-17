@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G3Xn",
-    "task": "G3Xn pitch/delayranges andTailversusspillover distinction saved. Next categorycensus/fullcontrols/looperlimits orfreshdiscovery;source-specificrevisions retained.",
+    "task": "G3Xn current library additions and unique source-reference repair saved. Next audit exact controls, complete I/O and looper limits or fresh Shopee discovery; installed category census unresolved.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61091,5 +61091,16 @@
       "LoopRollsampleholdseparatefromlooper"
     ],
     "limits": "Installedlibrary,currentfirmware/wholecategorycountnotcertified"
+  },
+  "g3xn_current_library_20261017": {
+    "source": "https://zoomcorp.com/en/us/news/zoomclassics/",
+    "findings": [
+      "Overdrive December2025",
+      "BitCrush February2026",
+      "DynaDelay April2026 with duck/gate behavior"
+    ],
+    "scope": "ExplicitG3Xn compatibility,WindowsMacGuitarLab;notinstalledortotalcountproof",
+    "reference_repair": "Uniqueg3xn-p/s/m reference identifiers avoid earlier G3/G3X definitions being selected in generated comparisons",
+    "remaining": "Exactcontrols,completeIOrouting,screenphysicalspecs,installedcategorycensus,looper/power/importlimitations"
   }
 }
