@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic PLETHORA X3",
-    "task": "PLETHORA X3 added with official product/QSG fundamentals. Next own firmware/controls/looper qualifications; commit before X5.",
+    "task": "X3 control/persistence exception saved. Next own firmware and looper timing qualifications; do not imply PLAY Hot Knob tweaks auto-save. Other saved gaps remain.",
     "next_models": [
       "TC Electronic PLETHORA X5"
     ],
@@ -54854,5 +54854,11 @@
       "Display/visual checks",
       "Exact condition-specific offers"
     ]
+  },
+  "plethora_x3_controls_checkpoint_20261017": {
+    "manual": "https://mediadl.musictribe.com/media/PLM/data/docs/P0EB4/PLETHORA-X3_QSG_EN.pdf",
+    "pages": "18–19",
+    "evidence": "EDIT auto-save versus PLAY HOT KNOB unsaved exception. EFFECT/TONEPRINT push encoder actions. Hold functions MASH/RAMP/TAP TEMPO. USB app/update and MIDI control scope.",
+    "remaining": "Targeted firmware and looper searches did not establish timing/revision restrictions; other saved gaps retained."
   }
 }
