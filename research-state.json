@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-50B",
-    "task": "Continue own-manual button census, external footswitch and routing details; exact Shopee IDR offer unresolved. Do not infer ME-50 guitar specifications.",
+    "task": "ME-50B control, factory-fill and external-switch details saved. Next inspect complete choices/chain restrictions and connector specifications, or resume exact Shopee hardware discovery; unresolved polarity/import/editor/display details remain explicit.",
     "next_models": [],
     "after_queue": "Continue Shopee brand/series discovery after useful model findings are committed; no downloads, workflows or push."
   },
@@ -53359,5 +53359,11 @@
       "https://www.boss.info/us/products/me-50b/",
       "https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf"
     ]
+  },
+  "me50b_controls_followup_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf",
+    "pages": "21–28,31–33",
+    "finding": "Four named buttons,24 factory-filled writable memories,mode-dependent external switches,value pickup,AUX source volume,tuner save timing and pedal calibration.",
+    "limits": "Text-derived control count; PDF page21 screenshot failed. No visual corroboration claimed."
   }
 }
