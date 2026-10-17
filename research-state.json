@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G3Xn",
-    "task": "G3Xn looper duration,Undo and destructive patch-change behavior saved. Next exact controls/completeIOrouting,screenphysicalspecs,power/importlimitations orfreshShopee discovery; installedcategory census unresolved.",
+    "task": "G3Xn electrical ratings and three qualified sold-out Shopee observations saved. Next exact controls/completeIOrouting,screenphysicalspecs,power/importlimitations orfreshbrandseriesdiscovery; installedcategory census unresolved.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61114,5 +61114,45 @@
       "MANUALor1–64quarter notes;UndoRedo;precountquantization;STOP/FINISH/FADEOUT"
     ],
     "limits": "No missing icon assignment or device test;loop export/poweroff persistence unknown"
+  },
+  "g3xn_electrical_offers_20261017": {
+    "manufacturer": "https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf",
+    "access": "Indexed original manual p51",
+    "specs": "44.1kHz24bitADDA128x32bitDSP;input−20dBu470k,AUX−10dBu10k;output+5dBm10k/headphones15+15mW32",
+    "conflicts": "CombinedLMonoPhones versusseparatePHONES;EIN119dBuprintspositive,notcorrected",
+    "offers": [
+      {
+        "shop": "17657221",
+        "item": "42122589066",
+        "seller": "Busaina gallery",
+        "idr": 1886000,
+        "region": "Kab.Bogor",
+        "condition": "seller second/mulus/fungsi normal",
+        "stock": "Habis",
+        "access": "lastweekindex,directCachemiss"
+      },
+      {
+        "shop": "56545023",
+        "item": "29724415974",
+        "seller": "leogroup",
+        "idr": 1950000,
+        "region": "Kab.Blora",
+        "condition": "unknown",
+        "stock": "Habis",
+        "access": "direct2weekcrawl"
+      },
+      {
+        "shop": "398392448",
+        "item": "20657217065",
+        "seller": "MULTI Sport & Music Lampung",
+        "idr": 3244000,
+        "region": "KotaBandarLampung",
+        "condition": "unknown,titleWithAdaptor",
+        "stock": "Habis",
+        "access": "monthindex,directCachemiss"
+      }
+    ],
+    "limits": "Notlivestock/range;condition,bundle,warranty,shippingtaxcheckoutunverified;latecompensationnotdiscount",
+    "rejected": "HopeMusic703817770/11099808237 mixedG3G3XG3Xn range notexactvariant"
   }
 }
