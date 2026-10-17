@@ -1507,3 +1507,7 @@ research-commit-harmony-singer2:
 .PHONY: research-commit-x3live
 research-commit-x3live:
 	python3 scripts/research_tools.py commit-x3live
+
+.PHONY: research-commit-xtlive
+research-commit-xtlive:
+	python3 scripts/research_tools.py commit-xtlive

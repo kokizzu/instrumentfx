@@ -1256,3 +1256,56 @@ Remaining: physical panel image count; exact power label; all category/fixed-blo
 [X3L-F]: https://kb.line6.com/pod-farm-1-faq
 [X3L-GM]: https://line6.com/data/6/0a060b316ac34f0593cdec813/application/pdf/GearBox%203.6%20User%20Manual%20-%20English%20%28%20Rev%20F%20%29.pdf
 [X3L-FW]: https://line6.com/support/page/kb/legacy-products/pod/pod-x3/pod-x3-product-family-firmware-version-20-update-instructions-and-general-information-r273/
+
+## POD XT Live
+
+Checked **2026-10-17**; partial. Manufacturer styles the name PODxt Live. Guitar floor processor, distinct from Bass PODxt Live, desktop PODxt, rack PODxt Pro and POD X3 Live. Included in guitar and **conditional bass** comparisons: the optional authorized Bass Expansion pack is documented for this hardware; its presence in a particular used unit is unknown. No vocal membership established.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | Integrated wah/volume/tweak pedal and toe switch; external EX-1 Pedal2 for volume/tweak. [Manual v3][XTL-M], pp2•3,2•9,4•9 |
+| Rotary / footswitches / buttons | **9 / 11 / 7** from text inventory:8 top rotaries plus rear Output Level; Bank2,A–D4,Amp/Stomp/Mod/Delay4,Tap1; Save/Edit/System3 and4 soft buttons. Power,pad,amp/line toggles and toe switch additional. Image corroboration pending. [Manual v3][XTL-M], chapter2 |
+| Display | Backlit LCD plus bank/channel display; diagonal,color mode,touch and resolution unverified. [Product][XTL-P]; [Manual v3][XTL-M], p2•4 |
+| Dimensions / weight | **? / ?** Model-specific primary verification pending; X3 Live and gigbag dimensions not substituted. |
+| Simultaneous processing / routing | Named processing includes amp/cab,comp,gate,EQ,stomp,mod,delay,reverb,wah,volume; category names are not freely allocatable slots. Maximum simultaneous audio effects remains unverified; no X3 dual-tone claim. [Manual v3][XTL-M], chapters4–6 |
+| Categories / choices | Product advertises **42 amps,24 cabinets,4 microphones,95 effects**. Optional licenses and installed firmware change available choices; complete category reconciliation remains open. [Product][XTL-P]. FX Junkie is included in the Live model set according to manufacturer FAQ. [Model Pack FAQ][XTL-FX] |
+| Bass capability / license condition | **Optional Bass Expansion:28 bass amps,22 bass cabinets**; manufacturer shop cache explicitly lists PODxt Live as compatible. License and models installed in a seller unit unverified. Reopened shop redirects to homepage, so current sale/activation availability unverified; historical USD software ask is not hardware IDR evidence. [Expansion listing][XTL-B]; [Pack guide][XTL-BM], chapter5 |
+| Factory / user / total presets | **128 writable Channel Memories**,32×4. RevB quick start describes banks1–16 factory/17–32 free; RevC controls describe1–20 factory/21–32 free. RevC also says36 banks and elsewhere16 during save. Preserve conflict; exact factory-filled slots/installed revision unverified. [RevB][XTL-OLD], p1•1; [v3][XTL-M], pp2•3–8 |
+| Synth / acoustic simulation | Synth algorithms in included FX Junkie model set; exact pack/category audit pending. Acoustic-named Piezacoustic2/Variax Acoustic choices documented; dedicated acoustic-simulator behavior unverified. [Product][XTL-P]; [Model Pack FAQ][XTL-FX] |
+| IR / NAM / capture | Factory cab/mic modeling documented; user IR,native NAM,converted NAM and proprietary capture loading each unverified. |
+| Audio / control I/O | Quarter-inch mono instrument input and unbalanced L/Mono,R outputs; phones; auxiliary input; Variax digital; MIDI In/Out; USB; Pedal2; power input. Aux signal excluded from USB recording. Aux/phones exact connector sizes and USB rates/channel count remain unverified. [Manual v3][XTL-M], pp2•1–3 |
+| Power / battery / USB | **Included PX-2** specified by own manual; manufacturer separately identifies named PX-2 as AC supply. Exact voltage/current,barrel,measured draw,battery/USB operation unverified in this pass. DC polarity not assigned to an AC supply. [Manual v3][XTL-M], p2•1; [PX-2 identity][XTL-PWR] |
+| Editor / platforms / drivers | Product documents historical **Line6 Edit on Mac/PC** and GuitarPort. Later **GearBox** is the XT hardware editor; Monkey handles firmware/bundle utilities. POD Farm plug-in is not standalone XT editing. Current OS/mobile support and audio drivers unverified. [Product][XTL-P]; [GearBox][XTL-G]; [POD Farm][XTL-F] |
+| Live / practical features | Tap/tuner,Manual Mode,amp/line destinations; headphone insertion overrides destination with Studio mode. Looper,drums,scenes,persistence and spillover unverified. [RevB][XTL-OLD], pp1•1,2•2–3. Manufacturer FAQ acknowledges obsolete output-mode terminology in manual. [FAQ][XTL-Q] |
+| Used IDR | **?** Saved sold-out hardware ask lacks sale-condition evidence. |
+| New IDR | **?** No condition-verified new hardware offer established. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee hardware evidence
+
+Checked **2026-10-17**: [Ayx Music,shop58780289/item21810633258](https://shopee.co.id/line6-Pod-Xt-live-pod-xt-not-x3-i.58780289.21810633258), Kabupaten Lamongan: **Rp2,500,000; indexed Habis**. Exact title names XT Live and expressly says not X3. Three-month search cache,July19–21 delivery stale; direct retrieval failed. Sale/working condition,actual model-pack authorization,selected variation,adapter/bundle,warranty,shipping/tax,current stock and final total unknown. Not a completed sale or qualified used/new range; late-delivery Rp10,000 compensation not deducted.
+
+The separate Rp1,900,000 preorder candidate has an XT Live title but a Zoom G3X URL slug; it remains unassigned. Hope Music's mixed X3/XT/Floor POD ask is not assigned to this variant. Adapter and potentiometer offers are rejected as processor prices. Discovery details remain in research-state.json.
+
+### Primary-document revisions and gaps
+
+Own **v3 RevC** manual,146 PDF pages, follows the exact link on manufacturer legacy page. Older **RevB** manual,144 pages,retained for differing wording. Selected sections read; no claim of a complete manual/algorithm audit. The v3 pedal-assignment page mentions an FBV Shortboard even though this floor unit has its own Pedal2; own connector/control text establishes external expression,while that wording remains a copy/revision issue. Discontinued product. No software,dependencies,firmware or files downloaded or executed.
+
+The Bass Expansion source is the manufacturer's eight-month shop cache,corroborated by its Model Packs RevD guide and published compatibility email. Current shop reopening redirects to the homepage. This establishes documented optional hardware capability,not a working present-day purchase/activation route or a licensed seller bundle. Base guitar and separately sold Bass PODxt Live must not be conflated.
+
+Remaining: power label/dimensions/weight,control image,precise simultaneous effects and category totals,current licenses/firmware,factory memory fill,synth/acoustic details,IR/NAM/capture,current editor/audio support,display and qualified prices.
+
+[XTL-P]: https://cdn.line6.com/legacy/podxtlive
+[XTL-M]: https://l6c-acdn2.line6.net/data/6/0a060b316ac34f0593d2ca219/application/pdf/PODxt%20Live%20Manual%20-%20Version%203%20%28%20Rev%20C%20%29.pdf
+[XTL-OLD]: https://line6.com/data/6/0a060b316ac34f0593d168408/application/pdf/PODxt%20Live%20-%20English%20.pdf
+[XTL-B]: https://shop-us.line6.com/standard-model-packs/bass-expansion-pack/
+[XTL-BM]: https://l6c-acdn2.line6.net/data/6/0a0643391683555d3aa9aab48b/application/pdf/Model%20Packs%20Pilot%27s%20Guide%20%28%20Rev%20D%20%29.pdf
+[XTL-BC]: https://line6.com/media/email/marketing/goldFAQ/mailer.html
+[XTL-FX]: https://kb.line6.com/gearbox-model-pack-faq
+[XTL-Q]: https://kb.line6.com/podxt-series-faqs
+[XTL-PWR]: https://kb.line6.com/line-6-four-button-stompbox-pedal-faqs
+[XTL-G]: https://kb.line6.com/getting-started-with-gearbox-amp-effect-modeling-software
+[XTL-F]: https://kb.line6.com/pod-farm-1-faq
