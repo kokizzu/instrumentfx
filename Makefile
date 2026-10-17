@@ -1663,3 +1663,7 @@ research-commit-v6-live:
 .PHONY: research-commit-play-qsg
 research-commit-play-qsg:
 	python3 scripts/research_tools.py commit-play-qsg
+
+.PHONY: research-commit-g1-original
+research-commit-g1-original:
+	python3 scripts/research_tools.py commit-g1-original

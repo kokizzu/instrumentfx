@@ -2937,3 +2937,36 @@ No controller,editor or hardware was operated. Currentdraw,display,universal con
 | I/O / analog outputs | Two mono quarter-inch outputs, **500Ω output impedance**, reference **−10 to+4dBm**. This does not establish balanced outputs or headphone-drive suitability. |
 
 The manufacturer defines its dBm notation using0dBm=0.775Vrms; retain that convention rather than silently relabel these figures. Line-level sources belong on rear inputs; front MIC IN sensitivity is optimized for microphones. Phantom-power availability remains unverified.
+
+## G1 original
+
+Partial,checked2026-10-17. Manufacturer G1/G1X manual,not G1next/G1on/FOUR. Seller title onlyG1;exactrevision remains unverified.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | No built-in pedal;CONTROL IN supports FP01/FP02 orFS01. Toe switching unresolved [G1O-M]. |
+| Knobs / footswitches / buttons | **2/2/3**,derived pp4–5:Module selector,VALUE;two footswitches;Rhythm,Store,BankUp/Tap. G1X PedalAssign excluded [G1O-M]. |
+| Display | Two-digit seven-segmentLED;diagonal/color/touch unresolved [G1O-M]. |
+| Dimensions / weight | **136W×155D×52H mm;350g without batteries** [G1O-M]. |
+| Simultaneous blocks / category choices | **54effects;up to8modules**,serial chain. Category subtotals unresolved [G1O-M]. |
+| Preset / factory / user memory | **40user+40read-only presets=80**,10patches×4banks each;factory user occupancy unresolved [G1O-M]. |
+| Synth / acoustic | Aco.Sim electric-to-acoustic effect documented;synth unresolved [G1O-M]. |
+| Audio I/O | Mono input470kohm;stereo sharedline/phones output,+3dBm into≥10kohm,20+20mW into32ohm;CONTROL IN,DC [G1O-M]. |
+| Control / USB | FS01/FP01/FP02control;USB absent fromcomplete connector inventory [G1O-M]. |
+| Power / battery / USB operation | **9V300mA centre-negative AD-0006;4AAalkaline≈12h**,nocharging. Actualdraw unresolved [G1O-M]. |
+| IR / NAM / captures | UserIR,native/convertedNAM,capture loading unestablished. |
+| Editor platforms / drivers | Editor/platform support unestablished. |
+| Practical features | **40rhythms**;reverb unavailable duringrhythm playback. Tuner,bypass/mute. Looper/scenes/trails unresolved [G1O-M]. |
+| Bass capability | Exactbass support unresolved;notassignedbass fromguitarinput alone. |
+
+### G1 original — separate IDR evidence
+
+| Condition / access | Amount | Exact offer / limits |
+|---|---:|---|
+| Condition/revision-unverified cached ask | **Rp700.000** | [Seller119462220/item41708851420](https://shopee.co.id/efek-gitar-zoom-G1-i.119462220.41708851420),Kab.Cirebon;September2026[searchcache](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&subcategory=11043648),checked2026-10-17. Exactclickcachemiss;display_model_id305743578489. Sellername,original/nextrevision,condition,new/used,workingstate,stock,variation,adapter/bundle,warranty,voucher/shipping/tax/finaltotal unknown. Notcheckout/completedsale. |
+| Verified new IDR | ? | Notestablished. |
+| Verified used IDR | ? | Notestablished. |
+
+[G1O-M]: https://zoomcorp.com/media/documents/E_G1_G1X.pdf
+
+Manualidentity/copyright andG1-specific entries checked;textonly,no downloads orvisualinspection claimed.
