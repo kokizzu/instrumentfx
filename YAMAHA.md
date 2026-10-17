@@ -242,3 +242,14 @@ Checked2026-10-18 against [Yamaha’s exact REV500 manual][R5-M],printed pp2,14,
 | I/O / mono and output mode | Mono input requires the **left input plus INPUT SELECT=L-MONO**; plugging only the left socket does not complete setup. Output mode selects effect-only or effect+direct;EFF LEVEL sets their balance in mixed mode. Mono output uses left output. |
 | Processing / conversion | **20-bit AD andDA,44.1kHz**;AD64× andDA8× oversampling. Published dynamic range **96dB typical**,response20Hz–20kHz(+1/−2dB),distortion<0.03% at1kHz/max level. These are manufacturer ratings,not independent measurements or USB-audio specifications. |
 
+
+### REV500 — MIDI backup and reset scope
+
+Checked2026-10-18 against the [original Yamaha manual][R5-M],printed pp15–17 andAdd-2. No dump,restore or reset performed.
+
+| Field | Documented scope / limit |
+|---|---|
+| Memory / backup scopes | Four selectable dumps: **ALL** includes system,user programs andMIDI map; **SYSTEM** includes system settings; **PGM** sends all user programs orone selected user program; **PGM TABLE** sends the map. Matching MIDI channels are required. These are data-backup functions,not a verified desktop parameter editor. |
+| Memory / initialization | P15 initialization restores user memory **and system/MIDI settings**,including the program-change map. The manual’s backup-battery notice recommends regular external MIDI backups;LOW BATTERY indicates user-memory loss,not merely low operating charge. |
+| Editor / MIDI parameter reach | Add-2 extends the earlier CC12–16 list: **CC17–23** cover low-frequency ratio,diffusion,filters,density,liveness andearly-reflection delay. Further controls are topology-dependent in **CC24–31 and70–83**;not every parameter applies to every program. SysEx parameter numbers require Yamaha service information. Current third-party editor/platform compatibility remains unverified. |
+

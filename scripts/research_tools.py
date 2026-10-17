@@ -461,7 +461,7 @@ def main():
         if mode == 'commit-rfx1100':
             message = 'research(zoom): enumerate RFX-1000 banks and qualify combined delay limits'
         if mode == 'commit-spx990':
-            message = 'research(yamaha): qualify REV500 balanced I/O and conversion'
+            message = 'research(yamaha): qualify REV500 backup and MIDI control scope'
         if mode == 'commit-spx900':
             message = 'research(yamaha): add SPX900 with original manual and qualified line-level scope'
         if mode == 'commit-mx200':

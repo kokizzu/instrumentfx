@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha REV500",
-    "task": "Balanced alternate-input restriction,mono setup and converter specifications saved. Remaining display/editor/import and used/new variant evidence unresolved;continue another material gap or fresh discovery.",
+    "task": "REV500 backup/reset scopes and expanded MIDI control saved. Continue fresh Shopee discovery or another record;screen/editor compatibility and qualified used/new offers remain unresolved.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -58092,6 +58092,12 @@
       "model": "Yamaha REV500",
       "checked": "2026-10-18",
       "finding": "Exact manual adds balanced connector restrictions,mono setup and converter ratings;see canonical record.",
+      "source": "https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf"
+    },
+    {
+      "model": "Yamaha REV500",
+      "checked": "2026-10-18",
+      "finding": "MIDI backup/reset scope and broader topology-qualified control reach saved.",
       "source": "https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf"
     }
   ],
