@@ -68,9 +68,12 @@ Checked2026-10-17;partial. Guitar multifx;firmware-qualified bass support below.
 | Field | Finding / qualification |
 |---|---|
 | Expression | Built-in/external/toe support unverified. [Product][MMP-P] |
-| K/F/B | 1master rotary;8buttons:Preset±,EQ±,Modify±,Tap/Tuner,Save;footswitch count and power-switch arrangement pending manual. [Product][MMP-P] |
+| K/F/B | 1master rotary;8buttons:Preset±,EQ±,Modify±,Tap/Tuner,Save;three-position power/Bluetooth slider separate;physical footswitch inventory remains uncorroborated. [Product][MMP-P] |
 | Display | OLED;manual describes white text on black,10s display timeout. Diagonal/touch unresolved. [Manual][MMP-M] [Product][MMP-P] |
 | Processing / categories | Launch25amps/25effects;firmware1.1.11adds10bassamps. Launch manual: **one amp +four movable effects blocks**;25effect choices across stompbox11,modulation6,delay4,reverb4. [Manual][MMP-M] [Product][MMP-P] |
+| Processing / launch effect choices | STOMP11:Overdrive,Greenbox,Mythic Drive,Blackbox,Fuzz,Big Fuzz,Octobot,Compressor,Sustain,5-Band EQ,Envelope Filter. MOD6:Sine Chorus,Triangle Flanger,Phaser,Vibratone,Sine Tremolo,Harmonic Tremolo. DELAY4:Mono,Tape,2290,Reverse. REVERB4:Large Hall,Small Room,Spring,Mod.Large Hall. These are choices across four effect slots. [Original manual p4][MMP-L] |
+| Live / tuner and tap | Hold TAP2s to tune;instrument and Bluetooth audio mute. Any button exits. Delay tempo needs≥2taps;first tap displays current BPM and counts. [Original manual pp6–7][MMP-L7] |
+| Editor / recording limits | Manual confirms bidirectional Mac/PC USB recording;Apple requires no external driver. USB channel count and dry/reamp/loopback routing remain unverified. Bluetooth backing/instrument mix uses external playback volume;MASTER adjusts overall level. [Original manual p7][MMP-L8] |
 | Preset memory | 100editable slots;launch70factory presets. Updated bass-factory allocation unresolved. [Product][MMP-P] |
 | Synth / acoustic | Launch amp list includes **ACOUSTIC SIM**;dedicated synth unverified. [Manual][MMP-M] [Product][MMP-P] |
 | I/O | Built-in¼inch input plug;⅛inch stereoheadphone;USB-Cbidirectional recording/update/charging;Bluetooth5.1. [Product][MMP-P] |
@@ -102,3 +105,9 @@ Official English candidate and indexed Spanish manual rejected as document/pdf;n
 [MMP-M]: https://www.manualslib.com/guide/3660615/fender-mustang-micro-plus-manual.html
 
 Manufacturer manual transcription identifies PR6171/exact Micro Plus,matching launch25/25,70+30 memories,controls and54g specs. It predates1.1.11bass additions;current official PDF equivalence unverified. No generated FAQ or visual inference used;official PDF access limits above retained.
+
+[MMP-L]: https://www.manualslib.com/manual/3639033/Fender-Mustang-Micro-Plus.html?page=5
+[MMP-L7]: https://www.manualslib.com/manual/3639033/Fender-Mustang-Micro-Plus.html?page=7
+[MMP-L8]: https://www.manualslib.com/manual/3639033/Fender-Mustang-Micro-Plus.html?page=8
+
+Original11-page PR6171 owner-manual pages corroborate the mirrored guide's effect list and operating text;published page numbers are one below website page numbers. No panel image viewed. Updated bass additions remain separately sourced to2026release notes.

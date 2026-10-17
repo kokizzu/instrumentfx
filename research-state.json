@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fender Mustang Micro Plus",
-    "task": "Micro Plus manual processing/power/save/reset qualifications saved;next retain named effect choices and recording/tuner restrictions before deferring gaps and proceeding Dapper Amp Mini.",
-    "next_models": [
-      "Valeton Dapper Amp Mini"
-    ],
-    "after_queue": "Fresh Shopee discovery;preserve268record gaps;no downloads/workflows/push."
+    "model": "Valeton Dapper Amp Mini",
+    "task": "Micro Plus effect list/recording/tuner evidence saved;remaining technical/price gaps deferred. Verify queued DapperAmpMini own manual and exact offers,add distinct guitar record if eligibility confirmed;commit before next model.",
+    "next_models": [],
+    "after_queue": "Fresh Shopee discovery;retain269record gaps;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41363,7 +41361,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fender Mustang Micro Plus."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Amp Mini."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55876,5 +55874,11 @@
     "identity": "Exact PR6171manufacturer manual text;launch25/25and70+30matchesproduct,prebassupdate;officialcurrentPDFrevisionunverified.",
     "saved": "1amp+4moveableeffects;11/6/4/4categories;whiteonblack10stimeout;runtime4hhigh6hlow;600mAUSB;onoffswitchcharging;ACOUSTICSIM;onsavescope;resetrevisionconflict.",
     "remaining": "Fullnamedmodels/cabinetpairs,USBchannels/tunerbehavior,expression/footswitchinventory,powerinputcapacity,IRimports/minimumOS/currentprices."
+  },
+  "microplus_categories_checkpoint_20261017": {
+    "source": "https://www.manualslib.com/manual/3639033/Fender-Mustang-Micro-Plus.html?page=5",
+    "saved": "All25namedlaunch effects;tap/tuner mute/exit;Apple driver distinction and unverified USB routing;original11pagePR6171body corroborates guide.",
+    "remaining": "Amp/cabpairdetails,expression/physicalfootinventory,diagonal/touch,batterycapacity/chargeinput,USBchannels/IRimports/editorOS,currentconditionprices. All explicit gaps deferred.",
+    "next": "Dapper Amp Mini own documentation;preserve Micro Plus resetrevision and bassfirmware limits."
   }
 }
