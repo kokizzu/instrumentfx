@@ -353,7 +353,7 @@ def main():
         if mode == 'commit-nux-mg101-audit':
             message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-1201':
-            message = 'research(zoom): enumerate RFX-2200 banks and reconcile reverb counts'
+            message = 'research(zoom): verify RFX-2200 MIDI parameters and converter specifications'
         if mode == 'commit-vt4':
             message = 'research(roland): verify VT-4 output balance and USB processing constraints'
         if mode == 'commit-pe100':

@@ -2844,3 +2844,14 @@ Earlier factory-fill gap is resolved for the manual’s shared100-slot layout;ac
 | IR / cabinet simulation distinction | Cabinet Simulator offers6combo/5stack characters with enhancement;this establishes fixed speaker simulation,not user IR import or amp capture. |
 
 Earlier per-bank type gap is resolved. Exact unit firmware,universal concurrency,display,currentdraw,MIDI expression and software/import support remain partial. No downloads or hardware operation.
+
+### RFX-2200 — MIDI control and converter details, 2026-10-17
+
+| Field | Verified manual scope |
+|---|---|
+| Expression / MIDI parameter control | [pp11,26][R2200-M]: MIDI CC **84/85/87/88→EDIT1/2/3/4;8→MIX;86→effect type**. Thus an external controller can send these messages for remote parameter movement;dedicated analog EXP/toe support remains unestablished. Note and pitch-bend messages are unsupported in the dated2004 implementation chart. |
+| Live / MIDI persistence and timing | [pp10–12][R2200-M]: channels1–16 orMIDI off;program-change learn mappings persist after power-off. MIDI edits require STORE to retain. External clock sets supported delay/rate parameters;moving a knob overrides that clock-derived value. |
+| Processing / conversion | [p25][R2200-M]: **44.1kHz;20-bit AD/DA;AD64×,DA128× oversampling**. These converter values are separate from digital-output word-format verification and do not establish USB audio. |
+| IR / cabinet character wording correction | [p22][R2200-M]: Cabinet Simulator positions1–6 arecombo,7–11stack;higher settings strengthen cabinet coloration. Earlier “enhancement” shorthand means this cabinet-intensity change,not the separate Mic Simulator enhancement parameter. |
+
+No controller,editor or hardware was operated. Currentdraw,display,universal concurrency,user imports/full editor and qualified current offers remain unresolved.

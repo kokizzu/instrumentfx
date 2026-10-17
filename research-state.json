@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2200",
-    "task": "RFX-2200 all48types/sixbanks enumerated;121reverb settingheadline reconciled(8+3)*11;fixedcabinetcharacters distinctfromIRimport. Next fresh Shopee discovery other exactmodels;do not repeatbankinventory. Universalconcurrency/display/draw/MIDIexpression/software/imports/conditionremain.",
+    "task": "RFX-2200 MIDI CC targets andconverter44.1kHz20bit/64xAD128xDA verified;cabinetintensity wording clarified. Next fresh Shopee discovery othermodels,not repeatRFXinventory. Display/draw/universalconcurrency/imports/fulleditor/digitalwordformat/currentoffers remain;no downloads.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery andlegacy consolidation;no workflows/downloads/push."
   },
@@ -59317,6 +59317,38 @@
       "MIDIexpression",
       "Software/importscope",
       "Conditionqualifiedoffers"
+    ],
+    "downloads": false
+  },
+  "rfx2200_midi_conversion_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2200.pdf",
+    "midi_chart": "2004-07-21V1.00",
+    "cc": {
+      "edit1": 84,
+      "edit2": 85,
+      "edit3": 87,
+      "edit4": 88,
+      "mix": 8,
+      "effect_type": 86
+    },
+    "analog_expression": "DedicatedEXP/toenotestablished",
+    "notes_pitchbend": "Unsupporteddatedchart",
+    "midi_channels": "1–16orOff",
+    "persistence": "Learnmapretained;editsneedSTORE",
+    "conversion": {
+      "khz": 44.1,
+      "bits": 20,
+      "ad_oversampling": 64,
+      "da_oversampling": 128
+    },
+    "cabinet_correction": "CabinetintensitynotMicSimulatorenhancement",
+    "remaining": [
+      "Currentdraw",
+      "Display",
+      "Universalconcurrency",
+      "Imports/fulleditor",
+      "Digitaloutputwordformat",
+      "Qualifiedcurrentoffers"
     ],
     "downloads": false
   }
