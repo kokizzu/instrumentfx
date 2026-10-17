@@ -572,6 +572,18 @@ Checked 2026-10-17, original list printed pp60–61. [Source][MP350-E11].
 This completes the older stock IR name transcription requested above. Later firmware retention and complete AMP, PRE AMP, MOD, DLY and RVB inventories remain open.
 
 
+### MP-350 — RVB inventory and tails, firmware 1.1.0-JP
+
+Checked 2026-10-17, original list printed pp83–87. [Source][MP350-E11].
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / RVB | **13 stereo-I/O entries**: Studio; Club; Concert; Arena; Small Plate; Large Plate; 140 Plate HQ; Combo Spring; Tube Spring; Shimmer 1; Shimmer 2; Cloud; Silver Linings. These are algorithm choices, not 13 guaranteed simultaneous reverbs. |
+| Processing / reverb modes and tails | 140 Plate HQ offers modes A/B/C/D and Transparent within one algorithm. Shimmer 1 and 2 are separately named entries. Every listed reverb has a Trail on/off control explicitly concerning effect bypass; this does not prove preset-change spillover, tail persistence after replacing an algorithm, or unlimited DSP capacity. |
+
+Firmware 1.3.0's separately documented Velvet Verb HQ addition remains a delta. This older census does not certify a complete current RVB total or installed used-unit library.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

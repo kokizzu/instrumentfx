@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "AMP/PRE AMP/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery",
+    "task": "AMP/PRE AMP/MOD/DLY inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62532,5 +62532,32 @@
     "user_locations": 50,
     "limits": "Mono IRs; Close/Open refer cabinet-back construction; separate from CAB and proprietary captures; not simultaneous/current-installed totals",
     "next": "AMP/PRE AMP/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery"
+  },
+  "mp350_rvb_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed83–87",
+    "names": [
+      "Studio",
+      "Club",
+      "Concert",
+      "Arena",
+      "Small Plate",
+      "Large Plate",
+      "140 Plate HQ",
+      "Combo Spring",
+      "Tube Spring",
+      "Shimmer 1",
+      "Shimmer 2",
+      "Cloud",
+      "Silver Linings"
+    ],
+    "count": 13,
+    "io": "All stereo",
+    "findings": [
+      "140PlateHQ A/B/C/D/Transparent modes not extra algorithms",
+      "Trail defined for effect bypass, not preset-change spillover"
+    ],
+    "limits": "Later VelvetVerbHQ delta separate; no current installed total or simultaneous capacity inferred",
+    "next": "AMP/PRE AMP/MOD/DLY inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh Shopee discovery"
   }
 }
