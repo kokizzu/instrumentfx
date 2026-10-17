@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G5 original",
-    "task": "G5 synth/acoustic and USB format verified from manufacturer manual reproduction via page links. Commit before next model. Next inspect G5 Z-Pedal-specific types versus regular numbered library to resolve125/145 counting conflict, or new Shopee series. Bus power, buttons, current OS and qualified used/new prices remain unknown; do not infer them from G3/G3X.",
+    "task": "G5 regular125 plus20Z-Pedal entries explains145manual total; Custom mapping included, not145unique algorithms. Commit before next model. Next full regular category census can distinguish22amp types from cabinet parameters and reconcile product123effects+22 wording; controls/current software/prices also incomplete.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56980,6 +56980,18 @@
         "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=45",
         "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=53",
         "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=35"
+      ]
+    },
+    {
+      "model": "Zoom G5 original",
+      "checked_date": "2026-10-18",
+      "finding": "Regular list ends125, separate Z-Pedal list#1–20 (including Custom mapping) explains145entry total. Cabinet Table1has22named+OFF as amp parameters. This reconciles125plusZ versus145 arithmetic, not all product category/revision claims or unique algorithms.",
+      "sources": [
+        "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=57",
+        "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=58",
+        "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=59",
+        "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=60",
+        "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=61"
       ]
     }
   ],

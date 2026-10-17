@@ -2204,7 +2204,8 @@ Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinue
 | K/F/B | **14 rotary controls** derived from four sections×three parameter knobs plus BOOST/TONE. Four numbered effect footswitches; pedal and booster switching are additional. Complete footswitch/button totals and visual corroboration pending. | [Product][ZG5-P]; [Manual p34][ZG5-M]; [Reproduced parts p4][ZG5-R4] |
 | Display | Four backlit LCDs. Diagonal, graphics color and touch unverified. | [Product][ZG5-P]; [Indexed specifications][ZG5-M] |
 | Dimensions / mass | 190 D ×470 W ×90 H mm;3.1kg. | [Indexed specifications][ZG5-M] |
-| Processing / category choices | Up to9: eight regular effects plus one Z-Pedal effect. Product advertises123 effects plus22 amp/cabinet models; manual specifications say125 types plus Z-Pedal effects. Reproduced manufacturer manual p63 instead states145 types, arithmetically matching123+22 but not proving identical revision/content. Revision/counting difference unresolved; category counts unknown. | [Product][ZG5-P]; [Indexed manual introduction/specifications][ZG5-M]; [Reproduced specifications][ZG5-R63] |
+| Processing / category choices | Up to9: eight regular effects plus one Z-Pedal effect. Product advertises123 effects plus22 amp/cabinet models; manual specifications say125 types plus Z-Pedal effects. Reproduced manufacturer manual p63 instead states145 types, arithmetically matching123+22 but not proving identical revision/content. Regular versus Z-Pedal counting is clarified below; product-category reconciliation remains unresolved. | [Product][ZG5-P]; [Indexed manual introduction/specifications][ZG5-M]; [Reproduced specifications][ZG5-R63] |
+| Categories / regular and Z-Pedal census | Reproduced manual regular list ends at **125 PDL MnPit** (p57); separate Z-Pedal list runs **#1–#20** (pp59–61). Thus **125+20=145 listed entries**, explaining the p63 total versus indexed “125 plus Z-Pedal” wording. The 20 include **Custom**, a mapping mode for other effects, so 145 is not a claim of 145 unique audio algorithms. Cabinet Table1 has **22 named cabinets plus OFF** as amp parameters, not extra regular-numbered blocks. Product “123 effects+22 amp/cab models” still needs a complete category reconciliation; revision equivalence is not proven by arithmetic. | [Reproduced manual p57][ZG5-R57], [p58][ZG5-R58], [pp59–61][ZG5-R59]; checked2026-10-18 |
 | Factory / user memory | 297 patches,99banks×3; factory-filled/blank split unresolved. Auto-save switch added in firmware1.10. | [Indexed manual][ZG5-M]; [History][ZG5-H] |
 | Synth / acoustic | Reproduced manual lists **042 Aco.Sim**, electric-guitar acoustic timbre with Top/Body controls; **089 MonoSynth**, single-note input-pitch synthesis with Sine/Tri/SawUp/SawDn waveforms; and **090 Z-Organ**, organ simulation. These verify distinct acoustic/synth functions, not polyphonic synthesis or external capture import. Numbering belongs to this reproduced edition; existing total-count conflict remains unresolved. | [Reproduced manufacturer manual p45][ZG5-R45], [p53][ZG5-R53]; checked2026-10-18 |
 | I/O | Mono input1MΩ with active/passive selection; two mono L/R outputs; stereo phones; balanced XLR with PRE/POST and ground lift; control input; USB audio. Full connector/control inventory pending. | [Indexed specifications][ZG5-M] |
@@ -2241,6 +2242,16 @@ Manufacturer-authored mirror identity check: Zoom copyright, G5 operation-manual
 [ZG5-R45]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=45
 [ZG5-R53]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=53
 [ZG5-R35]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=35
+
+[ZG5-R57]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=57
+
+[ZG5-R58]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=58
+
+[ZG5-R59]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=59
+
+[ZG5-R60]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=60
+
+[ZG5-R61]: https://www.manualslib.com/manual/500497/Zoom-G5.html?page=61
 
 ## G3X
 
