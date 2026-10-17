@@ -335,7 +335,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-pocketgt':
-            message = 'research(boss): add handheld Pocket GT with exact Shopee evidence'
+            message = 'research(boss): audit Pocket GT memory categories and explicit bass presets'
         if mode == 'commit-ve5':
             message = 'research(boss): qualify VE-5 loop modes retention and global controls'
         if mode == 'commit-rp1000':

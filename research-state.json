@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS Pocket GT Parameter Guide",
-    "task": "FindownParameterGuide toverifychain/categories/synthacsim/imports before nextmodel. Gigboard exactlead saved. Commitbefore next.",
-    "next_models": [
-      "HeadRush Gigboard"
-    ],
-    "after_queue": "FreshShopee discovery;no downloads/workflows."
+    "model": "HeadRush Gigboard",
+    "task": "PocketGTownmanualauditandbassmembership saved;do not repeat. ResumeexactGigboard158413015/4243270944 cached17875000conditionunknown;verifyofficialmanual beforeaddition.",
+    "next_models": [],
+    "after_queue": "No downloads/workflows."
   },
   "new_findings": [
     {
@@ -23681,9 +23679,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 77,
+      "record_count": 78,
       "bass_focused_record_count": 20,
-      "shared_bass_capable_count": 57,
+      "shared_bass_capable_count": 58,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -40589,8 +40587,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 77,
-    "bass_shared_models": 57,
+    "bass_view_models": 78,
+    "bass_shared_models": 58,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -40614,7 +40612,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS Pocket GT Parameter Guide."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HeadRush Gigboard."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -40800,6 +40798,7 @@
       "BOSS::ME-90B",
       "BOSS::GM-800",
       "BOSS::ME-20B",
+      "BOSS::Pocket GT",
       "Fender::Tone Master Pro",
       "HeadRush::Core",
       "HeadRush::Flex Prime",
@@ -40894,6 +40893,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "BOSS::Pocket GT": "Own Parameter Guide Rev02 pp17–18 explicitly labels presets71–90 for bass guitar; not inferred from GT1 sibling or EQ.",
     "Line 6::HX One": "Official HX One FAQ explicitly identifies guitarists and bassists; product input instructions explicitly include bass guitar. One selected model plus gate.",
     "Line 6::Pocket POD": "Own Reference Manual §3•2 explicitly suggests Tube Preamp as a direct box for bass; not general certification of all guitar models.",
     "Line 6::M9": "Official M5/M9/M13 FX Parameters §3•6 explicitly documents Bass Octaver for bass; algorithm suitability varies.",
@@ -49400,6 +49400,13 @@
       "pages": "8,15 indexedmanufacturertext",
       "finding": "Performwetrecordoverdub;CheckdryrecordFXplayback,nooverdub;AUXnotrecorded;powerofflost. EXITstopthenclear. CTLfavorite+/−/loopplaystop;globalsettingsnotpersound.",
       "remaining": "Uninterruptedlooponsoundchange unverified;expressioncontinuous/polarity/screen/import/editor,qualifiedpriceconditionvariant/stock."
+    },
+    {
+      "model": "BOSS Pocket GT",
+      "checked_date": "2026-10-17",
+      "source": "https://static.roland.com/assets/media/pdf/Pocket-GT_param_eng02_W.pdf",
+      "finding": "OwnRev02guide:90filled9EMPTY within99writable,qualifiesproductfilledclaim. Basspresets71–90explicit;addsharedbass. 23FXfamilies,22ODDS27preamp7pedal7delay8reverbrow,7cabsOriginalOff;sameFXinbothslots. Harmonistbendmonophonic;wirelessrequires1.20.",
+      "remaining": "Exactsimultaneousceiling/108headlinebasis,imports,currentOS/screen details,conditionverifiedprices."
     }
   ],
   "discovery_cross_brand_bass": {

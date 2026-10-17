@@ -2010,16 +2010,16 @@ OfficialVE-5_OM.pdf returnedsize-limit12638205bytes;indexedmanufacturertext pp9,
 
 ## Pocket GT
 
-Handheld guitar multi-effects;distinctfromLine6PocketPOD/BOSSGT1. Checked2026-10-17;partial. Ownership,bass/vocalsuitability unknown.
+Handheld guitar multi-effects;distinctfromLine6PocketPOD/BOSSGT1. Checked2026-10-17;partial. Ownership/vocalsuitability unknown. BasscapabilityexplicitinownParameterGuidepresets71–90.
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | No built-in pedal inpanelinventory. WirelessEV-1-WLexpression/FS-1-WLcontrol viaToneStudio documented;wiredEXPsocketnotlisted. Toeassignment pending. | [Product][PGT-P];[Manual][PGT-M] |
+| Expression | No built-in pedal inpanelinventory. WirelessEV-1-WLexpression/FS-1-WLcontrol viaToneStudio documented;wiredEXPsocketnotlisted. EV-1-WLPedalFX/FootVolumecontrolrequiresfirmware≥1.20;toeassignment pending. | [Product][PGT-P];[Manual][PGT-M];[ParameterGuide pp9,11][PGT-G] |
 | K/F/B | **5rotary/0footswitches/6buttons**:MASTER,VALUE,3dualfunctionknobs;SELECT,Bluetooth,TUNER/EXIT,3transportbuttons. POWER/CENTERCANCELswitches additional;VALUEpush additional. Text-derived. | [Manual][PGT-M] |
 | Display | **2character7segmentLED**;diagonal/color/touch unverified. | [Product][PGT-P] |
-| Processing / category choices | **108types**;simultaneousceiling/categorysubtotals pendingownParameterGuide. SharedGT1engine doesnotjustifyborrowingalllimits. | [Product][PGT-P] |
-| Factory / user memory | **99factory-filled writableuser memories**;GT1amp/effectsetups exchangeviarespectiveToneStudioeditors. | [Product][PGT-P];[Manual][PGT-M] |
-| Synth / acoustic | Dedicatedsynth/acousticsim categories pendingownParameterGuide. | Unresolved |
+| Processing / category choices | **108types**;OwnGuide:23FXfamilies selectableindependentlyinFX1/FX2(sametypeallowed),22OD/DS,27preamp,7PedalFX(6wah+1bend),7delay,8reverb-rowtypes(7reverb+1delay). Speaker7explicitcabs+Original+Off. Exactsimultaneousceiling/108countbasisnotreconciled;subtypesnotallseparateblocks. | [Product][PGT-P];[ParameterGuide pp3,9–12][PGT-G] |
+| Factory / user memory | **99writableuser memories**;product saysfilled,whileParameterGuideinitiallist01–90containsoundsand91–99areEMPTY. Preserve90filled+9emptydistinction;GT1amp/effectsetups exchangeviarespectiveToneStudioeditors. | [Product][PGT-P];[Manual][PGT-M];[ParameterGuide pp17–18][PGT-G] |
+| Synth / acoustic | AcousticGuitarSimulator,GuitarSimulator andAcousticProcessor distinct;Overtoneharmonicsnotproofindependenttracking synth. Harmonist/PedalBendrequiresingle-noteplaying. | [ParameterGuide pp3,5–6,9][PGT-G] |
 | Dimensions / mass | **71W×129D×27.6Hmm;160g includingbattery**. | [Product][PGT-P] |
 | I/O | ¼INPUT,3.5mmstereoAUX/PHONESRECOUT,MicroBUSB;Bluetooth4.2A2DP/AVRCP/BLEMIDI. DedicatedEXP/MIDIDIN notlisted. | [Product][PGT-P] |
 | Power / battery / USB | RechargeableLi-ion orUSBpower;5V500mAminimumsource. Approximately4hruntime,3hchargewithpoweroff;500mAwhilecharging. Operateswhilecharging. Barrelpolarity notapplicabletoUSB. | [Product][PGT-P];[Manual][PGT-M] |
@@ -2042,3 +2042,9 @@ Own2020Englishmanualeng02readaswebtext(1PDFsheet);manufacturerproduct currentspe
 [PGT-P]: https://www.boss.info/global/products/pocket-gt/
 [PGT-M]: https://static.roland.com/assets/media/pdf/Pocket-GT_eng02_W.pdf
 [PGT-O]: https://shopee.co.id/Boss-Pocket-GT-Pocket-Effects-Processor-i.236930016.4957668257
+
+[PGT-G]: https://static.roland.com/assets/media/pdf/Pocket-GT_param_eng02_W.pdf
+
+### Own-guide qualifications
+
+ParameterGuideRev02,©2020,19pages readaswebtext. Basspreset71–90evidence supportsALL-BASSmembership;notallguitaralgorithmscertified. Monoeffect/COSMampafterstereodelaycollapsesstereo;TeraEchoHOLDsavedOff. ToneStudioPCguideshowseditableFXchainincludingFX1,PDL,ODDS,AMP,NS,FV,FX2,DLY,REV,master;notanexplicitmanufacturermaximumcount. [Editor guide](https://static.roland.com/assets/media/pdf/Pocket-GT_BTS_PC_eng04_W.pdf). No downloads/installs.
