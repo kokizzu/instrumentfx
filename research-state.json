@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-8",
-    "task": "ME-8 Humanizer/EQ exclusivity saved; processing citation corrected. Next exact panel or Harmonist/modulation/control restrictions via official manual; do not infer counts from generated diagram descriptions.",
+    "task": "ME-8 harmony/pitch and nine shared modulation alternatives saved. Next delay/reverb/control algorithms and panel counts, preserving indexed text discrepancies.",
     "next_models": [],
     "after_queue": "Continue brand/series Shopee discovery. Preserve RP200, AX100G, ME-30, GT-5 and RFX-2000 deferred gaps. No downloads, workflows or push."
   },
@@ -54200,5 +54200,11 @@
     "page": "22",
     "finding": "Humanizer/EQ exclusivity, independent vowel choices, trigger restart, parametric mids and Presence saved; gain units remain qualified. Processing ceiling source corrected to pp3,34.",
     "remaining": "Exact panel counts unresolved; no count inferred from search-generated diagram description. Harmonist/modulation/control restrictions and other existing gaps remain."
+  },
+  "me8_harmony_modulation_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+    "pages": "23–24",
+    "finding": "Harmonist/Pitch exclusivity; single-note harmony versus chord-capable pitch shift; dual pitch range; nine shared modulation alternatives saved. Indexed PH2/PH3 discrepancy retained.",
+    "remaining": "Controls, delay/reverb/control algorithms, expression details, software/display and market gaps."
   }
 }

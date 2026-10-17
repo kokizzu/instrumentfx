@@ -447,7 +447,7 @@ def main():
         if mode == 'commit-rp1000':
             message = 'research(digitech): enumerate RP1000 amp cabinet and shared FX choices'
         if mode == 'commit-gt6':
-            message = 'research(boss): verify ME-8 Humanizer EQ exclusivity and source pages'
+            message = 'research(boss): verify ME-8 harmony pitch and modulation alternatives'
         if mode == 'commit-hxone':
             message = 'research(line6): verify HX One dimensions and qualify regional specifications'
         if mode == 'commit-pocketpod':
