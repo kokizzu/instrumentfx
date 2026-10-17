@@ -113,6 +113,18 @@ Checked 2026-10-18 against Fender Digital’s [Apple App Store listing](https://
 | Editor / bass versions | Apple history lists **5.1.0** adding Micro Plus bass models, preset-list reordering and global input-pad control. **5.1.1, shown January26**, fixes missing bass-amp presets in the cloud browser. Retain the firmware-note known issue as dated history; the app developer records a later fix, not an independently tested universal resolution. |
 | Editor / Android boundary | Google Play names Micro Plus, full wireless editing and cloud functions; its **5.1.3** listing is updated **June12,2026**. Minimum Android OS was not exposed in the inspected page. Do not transfer Apple’s minimum or specific historical fix timing to Android. |
 
+
+### Mustang Micro Plus — model-specific wireless foot control
+
+Checked 2026-10-18 against the [controller manufacturer’s AIRSTEP MP page](https://xsonicaudio.com/pages/airstepmp). XSONIC explicitly states that this accessory is not manufactured, distributed or endorsed by Fender. No pairing or hardware test performed.
+
+| Field | Controller-maker evidence / limit |
+|---|---|
+| Physical controls / external wireless footswitch | **AIRSTEP MP Edition** is documented specifically for Micro Plus: preset switching, effect on/off, tap tempo and tuner. It can connect to **Micro Plus and Fender Tone simultaneously**, according to XSONIC. This establishes a model-specific third-party control option, not generic compatibility with every Bluetooth/MIDI controller. |
+| Expression / boundary | The inspected MP page does **not establish an expression-pedal connection or continuous pedal mapping**. Footswitch support must not be reported as expression support. Controller switches do not increase the Micro Plus’s onboard K/F/B count. |
+
+XSONIC’s linked [manual page](https://help.xsonicaudio.com/user_manual/24) exposed only a JavaScript-required shell; firmware prerequisites and detailed assignments remain unverified. The accessory stays outside active multi-effects inventory.
+
 <!-- comparison evidence ends -->
 
 No condition-confirmed used/new allocation. Variant,bundle,workingcondition,authenticity,warranty,shipping/tax/vouchers unresolved.

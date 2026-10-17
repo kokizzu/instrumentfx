@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fender Mustang Micro Plus",
-    "task": "Micro Plus mobile editor iOS15+/iPadOS15+ and versioned bass-cloud fix saved;Android editor confirmed but minimumOS unverified. USB channel/rate/dry routing,display diagonal/touch,expression and qualified used/new offers remain open. Resume fresh discovery or these primary gaps.",
+    "task": "Micro Plus exact third-party AIRSTEP MP foot-control option saved;expression remains unverified. FCC filing XQW-MUMPPR6171 original manual7049868 and SAR7054814 found as possible own-model power evidence;direct FCC.report7054814 returned403,do not infer consumer power from snippets. Next inspect original filing/manufacturer documentation or other discovery.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -24209,6 +24209,15 @@
         "TC Electronic G-Natural"
       ],
       "finding": "TransitA searches repeated category-only unresolved lead; other exact Shopee searches empty. Trace storefront hit was GP7 amplification, not TransitA. No new active admission or absence conclusion."
+    },
+    {
+      "checked": "2026-10-18",
+      "models": [
+        "MOOER GE300 Lite",
+        "Hotone Ampero II Press",
+        "Zoom G2Nu"
+      ],
+      "finding": "Targeted Shopee search established no exact multi-effects hardware offer;G2Nu hits were power supplies or unrelated existing models. Press eligibility not established;no model admission or absence conclusion."
     }
   ],
   "inventory_by_brand": {
@@ -58027,6 +58036,12 @@
         "https://apps.apple.com/us/app/fender-tone/id1174113426",
         "https://play.google.com/store/apps/details?hl=en&id=com.fender.tone"
       ]
+    },
+    {
+      "model": "Fender Mustang Micro Plus",
+      "checked": "2026-10-18",
+      "finding": "XSONIC exact-model AIRSTEP MP wireless foot control and simultaneous Tone connection documented;expression not established,accessory excluded from active inventory,manualJS-only.",
+      "source": "https://xsonicaudio.com/pages/airstepmp"
     }
   ],
   "discovery_cross_brand_bass": {
