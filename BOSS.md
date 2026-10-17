@@ -166,6 +166,16 @@ Checked2026-10-16;cached exact hardware offers,not checkout/current-stock proof.
 | Retail-style / Salomo Musik,Jakarta Utara | Rp4.868.000 with voucher,minRp10,000/10% discount. Relative tomorrow delivery;voucher cap,stock,condition and adapter/bundle unconfirmed. Exact page body accessible. | [1776275 /52656028208](https://shopee.co.id/Boss-GX1B-Pedal-Bass-Multi-Effects-Original-i.1776275.52656028208) |
 
 Remaining:screen diagonal/touch;power DC voltage/polarity;IR sample length;full per-category subtype counts;USB channel/bit-depth/driver details;condition-verified used/new offers,current stock and bundles.
+### GX-1B — firmware and driver qualifications
+
+Checked 2026-10-18; support pages read only, no software downloaded or hardware updated.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / firmware 1.04 | **May 2026** fixes low SHIMMER REVERB/DELAY levels; existing memories using them become louder after updating and may need level adjustment. Also fixes intermittent ANALOG DELAY distortion, unsmooth ASSIGN delay-time modulation, GLITCH DELAY trigger behavior, noise when switching pitch-shifter on/off memories, excessive METAL CORE/X-BASS OD direct levels, GEAR SUITE trigger-state saving and DEFRETTER high-frequency character. | [Official GX-1B history](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/9c505ff1-0aeb-4769-b792-b06196da9c8b/) |
+| Processing / version scope | **1.03 (January 2026)** lists unspecified minor fixes. Firmware is explicitly GX-1B-only; the startup display shows installed version. No installed version was inspected here. | [Official GX-1B history](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/9c505ff1-0aeb-4769-b792-b06196da9c8b/) |
+| Editor / separate macOS driver | **GX-1/GX-1B driver 1.0.0** is shared between these named models. Its page delegates supported macOS versions to the Hardware & Driver compatibility table; the archive Readme may differ. This establishes a driver offering, not USB channel count, bit depth or unrestricted OS support. Windows driver page timed out twice; requirements remain unverified. | [Official macOS driver page](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/7168d209-4443-43ce-a2ac-dfc211d909b6/) |
+
 
 ## ME-90B
 
