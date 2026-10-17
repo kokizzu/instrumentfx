@@ -280,7 +280,7 @@ Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 and
 | Synth / acoustic |SynthTalk documented;acoustic simulation unresolved [G-M p.27] |
 | Bass capability |Manufacturer explicitly describes recording bass tracks using its bass amp modeler [G-P] |
 | I/O |TS instrument input,L/R outputs;XLR mic input/output;3.5mm stereo CD input;6.35mm stereo headphones;RCA S/PDIF out;MIDI IN/OUT-THRU;SmartMedia;FS300 socket;power. Phantom,FX loop unverified;USB absent from listed ports [G-M pp.6–7,75] |
-| Power / battery / USB |PSS3;18.5W consumption. Original guide lists regional mains adapters;device-side voltage/current conflicts unresolved. Battery/USB operation unverified [G-P,G-M p.75,G-S] |
+| Power / battery / USB |PSS3;18.5W consumption. Original guide lists regional mains adapters;manufacturer FAQ explicitly lists GNX3/PSS3 as **9VAC2.1A,2.5mm pin**,120VAC TypeA mains;separate supply list instead says9VDC1.3A,2.1mm center-negative. Conflict remains unresolved; ratings are supply specifications,not measured pedal draw. Battery/USB operation unverified [G-P,G-M p.75,G-S,G-F] |
 | Dimensions / weight |20.75×9×3 inches,8.9lb;approximately527×229×76mm,4.04kg;manufacturer length/width axes retained [G-P] |
 | IR / NAM / captures |CIT cabinet modeling and HyperModels are not proof of user IR,NAM or measured capture import;all three unverified |
 | Editor |GenEdit1.61A Windows listed. Manufacturer warns older software may not run on current systems;Mac/Linux/mobile unresolved [G-E] |
@@ -299,6 +299,6 @@ Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 and
 - [G-P: original manufacturer product](https://digitech.com/dp/gnx3/).
 - [G-M: original84-page user guide](https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf),text inspected;no new visual panel verification claimed.
 - [G-E: manufacturer software index](https://digitech.com/software-downloads/).
-- [G-S: manufacturer supply list](https://digitech.com/support/powersupplylist/):PSS3 section currently says9VDC1.3A,2.1mm center-negative anduniversal mains. [Manufacturer FAQ](https://digitech.com/faqs/) search text instead associates PSS3 with9VAC2.1A,2.5mm forGNX3000;this sibling association does not establish GNX3 ratings. Original GNX3 guide names regional PSS3 supplies and18.5W. Conflict unresolved;do not select a replacement from this record.
+- [G-S: manufacturer supply list](https://digitech.com/support/powersupplylist/):PSS3 section currently says9VDC1.3A,2.1mm center-negative anduniversal mains. [G-F: Manufacturer FAQ](https://digitech.com/faqs/) exact GNX3 row, inspected2026-10-17, lists PSS3 with9VAC2.1A,2.5mm pin and120VAC TypeA mains. Earlier sibling-only qualification is superseded:the FAQ directly names GNX3. Original GNX3 guide names regional PSS3 supplies and18.5W. Conflict unresolved;do not select a replacement from this record.
 
 No files downloaded. Remaining:full category/control inventory,firmware,power conflict,recording restrictions,screen diagonal/technology,loading formats andqualified used/new offers. Vocal recording input alone is not a verified live vocal-multifx classification.

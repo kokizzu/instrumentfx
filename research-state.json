@@ -50294,6 +50294,13 @@
     {
       "model": "JOYO R-16 Vocal Lab",
       "task": "Read original266-00R16-0010/manual panels without download;resolvebutton/ports/power,current updater/OS and interval/impedance conflicts;qualified prices."
+    },
+    {
+      "model": "DigiTech GNX3",
+      "checked_date": "2026-10-17",
+      "source": "https://digitech.com/faqs/",
+      "finding": "Exact GNX3 row confirms PSS3 9VAC2.1A 2.5mm pin,120VAC TypeA mains. Separate official supply list contradicts with9VDC1.3A 2.1mm center-negative;unresolved.",
+      "remaining": "Independent original supply-label/manual electrical evidence;do not silently resolve conflict or infer pedal current draw."
     }
   ],
   "discovery_cross_brand_bass": {

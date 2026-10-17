@@ -361,7 +361,7 @@ def main():
         if mode == 'commit-fv02':
             message = 'research(flamma): add FV02 vocal processor with power revision conflicts'
         if mode == 'commit-gnx3':
-            message = 'research(digitech): add GNX3 with bass architecture and unresolved power conflict'
+            message = 'research(digitech): qualify exact GNX3 supply conflict against manufacturer FAQ'
         if mode == 'commit-b1four-followup':
             message = 'research(zoom): resolve B1 FOUR display memory and looper restrictions'
         if mode == 'commit-b1xfour-followup':
