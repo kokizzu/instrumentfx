@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MFX-10",
-    "task": "MFX-10 cabinet/modulation/delay/reverb choices saved; new external-expression prose/connector conflict retained. Next EFX module choices and control inventory, then explicit deferral before PG2 exact-item research.",
-    "next_models": [
-      "NUX PG-2 exact Shopee item resolution and eligibility"
-    ],
-    "after_queue": "Keep all prior model gaps and migration limits; no downloads/workflows/push."
+    "model": "NUX PG-2",
+    "task": "Resolve exact Shopee item for category-only Rp590000 Kab.Sidoarjo lead in discovery_mfx10_20261017; verify own-model multi-effects eligibility/manual before adding. MFX-10 gaps explicitly deferred in mfx10_efx_checkpoint_20261017.",
+    "next_models": [],
+    "after_queue": "Fresh Shopee discovery continues; preserve prior gaps and migration limits. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41347,7 +41345,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MFX-10."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX PG-2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55205,5 +55203,22 @@
     "conflict": "PEDALPSHFT prose says externalexpression but connectorsection EXTpedalbankselection. Hardwarecompatibility/wiring unresolved.",
     "qualification": "Manufacturer-authored transcription only; current official V1 visual/revision gap retained. No EFXtotal or final55type reconciliation inferred.",
     "remaining": "Full EFXinventory,controltotals,ownsoftware,currentcondition-specificprices,IR/NAM,synth/acoustic,bass/vocal;prior54/55and9/8conflictsretained."
+  },
+  "mfx10_efx_checkpoint_20261017": {
+    "source": "https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual",
+    "saved": "Eight EFX types from original descriptions;wahthreeTYPEvariantsnotseparateblocks;pedalassignmentendpointsandrecall;stereominiAUXexternallevelcontrol.",
+    "control_limit": "Fullrotary/buttonvisualcountsdeferred;connectorprosemasterLevelversusparameterMASTERnotindependentphysicalcontrolproof.",
+    "remaining": [
+      "OriginalPDFrevision/visualcorroboration",
+      "Physicalcontroltotals",
+      "Conflicting54/55,9/8,48k/44.1k",
+      "Externalexpressionconnectorcompatibility",
+      "CurrentdrawbarrelbatteryUSB",
+      "EditorOSfirmware",
+      "IR/NAMcapture/synthacoustic",
+      "Bassvocalproof",
+      "Currentcondition-specificprices"
+    ],
+    "status": "Useful partial technical pass saved; unresolved gaps deferred, not fullyverified."
   }
 }
