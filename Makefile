@@ -1515,3 +1515,7 @@ research-commit-xtlive:
 .PHONY: research-commit-hd400
 research-commit-hd400:
 	python3 scripts/research_tools.py commit-hd400
+
+.PHONY: research-commit-readme-counts
+research-commit-readme-counts:
+	python3 scripts/research_tools.py commit-readme-counts

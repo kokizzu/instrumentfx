@@ -40874,7 +40874,15 @@
       "GM-800 entire eligible source section and14facts preserved;current guitar/bass rows include specialized pickup path,256x80LCD,SVZ/SDZ/EXZ,firmware1.50 restrictions;exact5variationShopee unresolved price retained.",
       "make comparison-apply:successful after restoring required discovery cursor model key;GM-800 ledger source now BOSS.md#gm-800."
     ],
-    "distinct_capability_labels": "IR and NAM remain separate even when both have the identical Not established value; actual B1X comparison checked."
+    "distinct_capability_labels": "IR and NAM remain separate even when both have the identical Not established value; actual B1X comparison checked.",
+    "readme_count_regression": {
+      "trigger": "HD400 addition changed comparison membership but left README view and migration counts stale.",
+      "check": "make comparison-verify",
+      "before": "Failed with README catalogue/view counts are stale.",
+      "fix": "comparison-plan now previews README count updates; comparison-apply writes the reviewed README under the same input hashes.",
+      "status": "passed",
+      "after": "README and all four tables agree:184 guitar,90 bass(21 focused69 shared),31 vocal;222 root-canonical."
+    }
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
   "response_handoff": "At the end of a research session provide the user a copyable agent continuation prompt with this exact cursor, no-workflow boundary, root-document layout, per-model immediate commits and unresolved consolidation. Never promise unattended background continuation.",
@@ -51714,5 +51722,44 @@
     ],
     "qualification": "All are asks, not completed sales. No qualified used/new condition established; current stock, working condition, actual bundle/adapter, selected variation, warranty, shipping/tax and final total unknown. Late compensation Rp10000 not deducted. No new model counted before own manufacturer verification.",
     "next": "POD X3 Live first; commit model before XT Live, then HD400. Verify own ports/control count, dual-tone processing, memory, expression, editors/power/display; no sibling specifications."
+  },
+  "discovery_bass_vocal_20261017_post_hd400": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id DigiTech BP200",
+      "site:shopee.co.id Zoom B2.1u",
+      "site:shopee.co.id Vocalist Live 3",
+      "site:shopee.co.id TC Helicon VoiceTone Create",
+      "site:shopee.co.id Korg AX3B",
+      "site:shopee.co.id VoiceLive 2",
+      "site:shopee.co.id Play Electric Helicon",
+      "site:shopee.co.id VoiceLive Touch",
+      "site:shopee.co.id ME-50B"
+    ],
+    "result": "No exact new-model hardware item resolved in this limited pass. BP200/Vocalist hit is adapter16626959/4486100964 atRp175000, rejected. HopeMusic B2.1u/B1xNext are mixed shop recommendations,not mapped variants. No absence or exhaustive coverage claim.",
+    "existing_model_offers": [
+      {
+        "model": "Zoom B2 FOUR",
+        "url": "https://shopee.co.id/ZOOM-B2-FOUR-BASS-MULTI-EFFECT-PROCESSOR-WITH-ADAPTOR-AD-16E-B2-FOUR-ORIGINAL-GARANSI-RESMI-1TAHUN-i.1104950239.42458813522",
+        "seller": "ACOUSTIC MUSIK",
+        "region": "Kota Jakarta Barat",
+        "ask_idr": 4270000,
+        "condition": "Unknown",
+        "bundle": "Title claims AD-16E and one-year official warranty; actual contents/terms unverified.",
+        "access": "Search three-month cache; reopened four-month cache shows May29 delivery. No Habis marker,not stock confirmation."
+      },
+      {
+        "model": "Zoom B2 FOUR",
+        "url": "https://shopee.co.id/Zoom-B2-Four-Bass-Multi-effects-Processor-i.19576516.22861014005",
+        "seller": "Imagination Music Store",
+        "region": "Kota Jakarta Pusat",
+        "ask_idr": 4184000,
+        "condition": "Unknown",
+        "stock": "Habis",
+        "access": "Search three-month cache,reopened five-day cache still Habis; two-hour delivery banner does not override sold-out status."
+      }
+    ],
+    "qualification": "Historical asks only; no new qualified used/new range or technical claims. Working condition,selected variation,actual bundle,warranty,stock,shipping/tax,voucher/final total unverified; late compensation not deducted.",
+    "next": "Try new exact bass/vocal leads by model/series; keep pending offers separate until brand record update."
   }
 }

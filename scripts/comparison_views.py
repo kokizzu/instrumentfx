@@ -254,6 +254,7 @@ def make_plan():
     payload.update(render(serial,state))
     archives=archive_outputs(files)
     payload['outputs'].update(archives)
+    payload['outputs']['README.md'] = readme_counts(files['README.md'], state, payload['view_membership'])
     PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
     print(f'Preview saved: {PLAN}; {len(serial)} records; missing evidence: {missing}')
     print('Per-model evidence fields:')
@@ -315,10 +316,39 @@ def apply_plan():
     (ROOT/'research-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     print('Applied reviewed plan: '+', '.join(payload['outputs']))
 
+
+def readme_counts(text, state, membership):
+    """Project inventory counts into the existing navigation without changing evidence."""
+    rows = {
+        'ALL-GUITAR.md': (r'(\|)\d+ guitar/acoustic', r'\g<1>' + str(len(membership['ALL-GUITAR.md'])) + ' guitar/acoustic'),
+        'ALL-BASS.md': (r'(\|)\d+ documented bass-capable models: \d+ bass-focused plus \d+ shared', r'\g<1>' + str(len(membership['ALL-BASS.md'])) + ' documented bass-capable models: ' + str(len(BASS_FOCUSED)) + ' bass-focused plus ' + str(len(BASS_SHARED)) + ' shared'),
+        'ALL-VOCAL.md': (r'(\|)\d+ vocal/live', r'\g<1>' + str(len(membership['ALL-VOCAL.md'])) + ' vocal/live'),
+    }
+    lines = text.splitlines(keepends=True)
+    for filename, (pattern, replacement) in rows.items():
+        matching = [i for i,line in enumerate(lines) if line.startswith('| **[' + filename + ']')]
+        assert len(matching) == 1, 'Ambiguous README view: ' + filename
+        i = matching[0]
+        lines[i], count = re.subn(pattern, replacement, lines[i])
+        assert count == 1, 'README count format changed: ' + filename
+    text = ''.join(lines)
+    count = state['canonical_root_model_count']
+    for pattern, replacement in (
+        (r'All \d+ recorded models have root brand sections\.', f'All {count} recorded models have root brand sections.'),
+        (r'Organization migration is incomplete:\*\* \d+ detailed models are root-canonical; \d+ still rely on legacy source records\.', f"Organization migration is incomplete:** {count} detailed models are root-canonical; {state['legacy_only_model_count']} still rely on legacy source records."),
+        (r'(?<=profiles; )\d+ detailed models are root-canonical', f'{count} detailed models are root-canonical'),
+        (r'\*\*\d+ active model records', f"**{state['active_model_count']} active model records"),
+    ):
+        text, matches = re.subn(pattern, replacement, text)
+        assert matches == 1, 'README catalogue count format changed: ' + pattern
+    return text
+
 def verify_views():
     identity()
     state=json.loads((ROOT/'research-state.json').read_text())
     assert set(state['comparison_model_sources'])=={b+'::'+m for b,ms in state['inventory_by_brand'].items() for m in ms}
+    readme = (ROOT/'README.md').read_text()
+    assert readme_counts(readme, state, state['comparison_membership']) == readme, 'README catalogue/view counts are stale'
     for filename,ids in state['comparison_membership'].items():
         assert len(ids)==len(set(ids))
         text=(ROOT/filename).read_text()
