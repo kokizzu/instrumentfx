@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Helicon Critical Mass",
-    "task": "Electrical impedances/response andAutoGain/indicator behavior saved;continue hardware discovery and remainingmodelgaps.",
+    "model": "BOSS VE-500",
+    "task": "FX20inventory,FXvsREVreverbchoices/ranges and8looppositionssaved;continue unresolvedfields/newhardwarediscovery.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Helicon Critical Mass."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-500."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60266,5 +60266,22 @@
       }
     ],
     "qualification": "Followup only,notverifiedcurrentstock/neworused/bundle/variant/voucher/warranty/shipping."
+  },
+  "ve500_category_inventory_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf",
+    "identity": "Own31pageparameterguide;printed8,13,14,17 browsertext",
+    "findings": [
+      "20namedFXalternativesperengine;sharedtypesallowed",
+      "FXReverb5vsdedicatedREV6includingDelay;predelayrangeskeptdistinct",
+      "8looperpositionsnot8loopers"
+    ],
+    "remaining": "OtherFXsubtypecounts,currentOS,screen,powerpolarity,imports,qualifiedoffers."
+  },
+  "discovery_ve500_voicelivetouch2_20261017": {
+    "queries": [
+      "site:shopee.co.id \"Boss\" \"VE-500\" vocal",
+      "site:shopee.co.id \"TC Helicon\" \"VoiceLive Touch 2\""
+    ],
+    "result": "VE500existingArtech/princemusicasksunchangedincache;noqualifyingnewVoiceLiveTouch2offerreturned;notabsenceproof."
   }
 }

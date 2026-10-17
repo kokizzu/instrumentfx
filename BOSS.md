@@ -336,6 +336,9 @@ Original sources: [source](https://www.boss.info/global/products/ve-500/specific
 | Ports / power / guitar | XLR mic48V10mAmax;quarter-inch instrument in/unbuffered THRU;stereo XLR outputs with selectable-40/-10dBu;TRS CTL/EXP;DIN MIDI IN;micro-B USB;DC.310mA phantom-on/210mA off;PSA supplied. No headphone connector listed. USB audio,bus power,battery andDC polarity unverified. Legacy9V retained. [VE500-S] |
 | Editor / MIDI | Windows/Mac full editor/librarian;USB-MIDI and DIN MIDI can guide harmony/pitch. [VE500-S]USB driver required by owner manual;patch edit/name/reorder/backup distinct from firmware. [VE500-M] Current supported OS versions remain unchecked. |
 | Synth / acoustic / loading | Guitar input can excite vocoder/talkbox sound;THRU remains unprocessed. [VE500-S] This does not establish guitar amp/acoustic multifx,IR,native NAM,converted NAM or capture loading. |
+| Categories / FX1–4 inventory | **20 alternatives per engine**:Distortion,Radio,Lo-Fi,Filter,T.Wah,Ring Modulator,Chorus,Flanger,Tremolo,Phaser,Rotary,Slicer,Isolator,Vibrato,Pan,Roll,Freeze,Granular Delay,Delay,Reverb. Same type can occupy multiple engines. These are choices,not80 simultaneous effects. [VE500-P p8] |
+| Categories / reverb engine distinction | FX Reverb has **5 types**:Ambience,Room,Hall,Plate,Mod;0.1–10s,pre-delay0–100ms. Each dedicated REV1/REV2 has those5 **plusDelay=6 choices**. Its reverb pre-delay1 is0–200ms,pre-delay2Off/0–500ms;Delay1–2000ms/BPM. Do not copy dedicated-REV ranges intoFX Reverb. [VE500-P pp13–14] |
+| Looper / location | **8 positions**:MICIN,PRE FX1/2/3/4,PRE REV1/2,OUTPUT. Position changes where loop audio is captured relative to processing;not8 independent loopers. [VE500-P p17] |
 
 [VE500-S]: https://www.boss.info/global/products/ve-500/specifications/
 [VE500-M]: https://static.roland.com/assets/media/pdf/VE-500_eng04_W.pdf
