@@ -1023,6 +1023,13 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 | IR / NAM / captures | Eight replaceable IR slots; format/sample limits unverified. No verified native NAM, converted NAM or capture-import workflow; a separate manufacturer converter does not establish Bass compatibility. |
 | Software / audio / practice | Official **CubeSuiteWindows/macOS**namesBass;indexedmanualpresetedit/IRimport. OfficialmobilelistdoesnotnameBass,soIOS/Androideditnotestablished. 24/48processing,USBrecord/play,channels?,tuner,Bluetoothbacking;looper/drumsunverified. |
 
+### Manufacturer recheck,2026-10-18
+
+| Field | Primary-source confirmation / remaining limits |
+|---|---|
+| IR / USB / software manufacturer recheck | [Own product](https://www.m-vave.com/product?id=cube-baby-bass) search-index body explicitly confirms **8 custom bass cabinet IR slots**,USB audio,phone-recording jack andPreset/Live/Edit modes. Directopen returned30-line shell,so this is indexed manufacturer evidence,not original-manual inspection. IR sample/length/bit limits,USB channel/word/sample format andsimultaneous delay/reverb remain unverified. [Downloads](https://www.m-vave.com/download) directly names CubeBabyBass inUSB-connected CubeSuite Windows/Mac list;mobile CubeSuite list omitsBass. No app installed;mobile editing/NAM not established. |
+
+
 Earlier **Rp560.000** indexed at [NADA236930016/43228668633](https://shopee.co.id/M-Vave-Cube-Baby-Bass-Effects-i.236930016.43228668633) and [Apregio3012339/40070995457](https://shopee.co.id/M-Vave-MVAVE-Cuvave-Cube-Baby-Bass-Cubebaby-BASS-elektrik-multi-efek-strip-original-i.3012339.40070995457). Laterdirectandexactsearchesfailedtoreproduce;historicalreviewevidence,notfreshliveoffers. Olddeliverydates/condition/bundle/region/stock/authenticity/deliveryunverified. Used **?**;electricBekasprice cannotbeappliedtoBass.
 
 Sources: [26-page-labelled manualtranscription](https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b),indexedcomplete,butdirectPDFfailed andconversionlayerlimitsprovenance. Genericgeneratedtwo-switch/ninepreampguidesrejected. [Manufacturer catalogue](https://www.m-vave.com/products),[downloads](https://www.m-vave.com/download). Regulatoryfamilygroupingdoesnotmakeoperatingsectionsidentical. OriginalPDF/panel,IRlimits/USBfunctions/currentoffersremainpending.
