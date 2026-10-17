@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 315,
+  "active_model_count": 316,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 315,
+  "canonical_root_model_count": 316,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "315 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
+  "count_reconciliation": "316 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "Read official Quick Guide andreference manual;verify eligibility/own specifications before adding distinct active record. Exact Shopee95687096/3607760422 Rp9299000cachedsoldout saved;new/usedunknown. Retain GT-10B unresolved technical/market fields.",
+    "task": "VoiceLive Touch 2 partial profile added;next original manual loop limits,complete controls,DC rating/display,style counts,USB formats andcurrent software support. Not fully verified.",
     "next_models": [],
-    "after_queue": "Continue bass/vocal brand-series discovery and remaining technical/ownership/migration gaps.315active;no downloads/workflows/push."
+    "after_queue": "316active;remaining technical/market/ownership/migration gaps;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5328,6 +5328,13 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Manufacturer-established bass processor added;Indonesian hardware availability/price unknown. Own product memory,body,ports,power,USB/librarian andparallel/loop scope retained."
+    },
+    {
+      "model": "TC-Helicon VoiceLive Touch 2",
+      "path": "TC-HELICON.md#voicelive-touch-2",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Nine vocal blocks andindependent guitar reverb/modulation/compression/EQ qualify both views;300writablelocations;own ports/power limits andsoldout condition-unverified Shopee ask retained."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23993,7 +24000,7 @@
       "bundle_variant": "Not established; title says Garansi Original but warranty not authenticated",
       "voucher": "No purchase discount established; late-arrival compensation up to Rp20000 is not a hardware discount",
       "access": "Search-index text and same URL opened in web reader; checkout not inspected",
-      "status": "Exact hardware lead; not yet added to active inventory",
+      "status": "Added partial root profile; market qualifications retained",
       "manufacturer_sources_to_read": [
         "https://mediadl.musictribe.com/download/software/tchelicon/vlt2_quick_start_en.pdf",
         "https://mediadl.musictribe.com/download/software/tchelicon/tc-helicon_voicelive_touch_2_reference_manual_en.pdf"
@@ -24220,7 +24227,8 @@
       "Mic Mechanic 2",
       "Duplicator",
       "Harmony Singer 2",
-      "Critical Mass"
+      "Critical Mass",
+      "VoiceLive Touch 2"
     ],
     "Valeton": [
       "GP-100",
@@ -24675,7 +24683,8 @@
       "Mic Mechanic 2",
       "Duplicator",
       "Harmony Singer 2",
-      "Critical Mass"
+      "Critical Mass",
+      "VoiceLive Touch 2"
     ],
     "CUVAVE.md": [
       "H8"
@@ -24776,7 +24785,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 262,
+      "record_count": 263,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24788,9 +24797,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 65,
+      "record_count": 66,
       "vocal_only_count": 24,
-      "combined_instrument_count": 41,
+      "combined_instrument_count": 42,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -24809,7 +24818,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:262 guitar,136 documented bass-capable,65 vocal;technical andmarket verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "315 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "316 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41844,13 +41853,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 315,
-    "canonical_root_models": 315,
+    "unique_brand_model_pairs": 316,
+    "canonical_root_models": 316,
     "legacy_only_models": 0,
-    "guitar_view_models": 262,
+    "guitar_view_models": 263,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
-    "vocal_view_models": 65,
+    "vocal_view_models": 66,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41907,7 +41916,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-10B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Touch 2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42060,6 +42069,7 @@
       "TC-Helicon::Play Acoustic",
       "TC-Helicon::VoiceLive 3 Extreme",
       "TC-Helicon::PERFORM-VG",
+      "TC-Helicon::VoiceLive Touch 2",
       "Valeton::GP-100",
       "Valeton::GP-150",
       "Valeton::GP-5",
@@ -42353,6 +42363,7 @@
       "TC-Helicon::Duplicator",
       "TC-Helicon::Harmony Singer 2",
       "TC-Helicon::Critical Mass",
+      "TC-Helicon::VoiceLive Touch 2",
       "Zoom::V6-SP",
       "Zoom::V3",
       "Zoom::RFX-1100",
@@ -43890,6 +43901,13 @@
     },
     "TC-Helicon::Critical Mass": {
       "link": "TC-HELICON.md#critical-mass",
+      "source_files": [
+        "TC-HELICON.md"
+      ],
+      "finding_files": []
+    },
+    "TC-Helicon::VoiceLive Touch 2": {
+      "link": "TC-HELICON.md#voicelive-touch-2",
       "source_files": [
         "TC-HELICON.md"
       ],

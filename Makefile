@@ -1723,3 +1723,7 @@ research-commit-floorpodplus:
 .PHONY: research-commit-gt10b
 research-commit-gt10b:
 	python3 scripts/research_tools.py commit-gt10b
+
+.PHONY: research-commit-vlt2
+research-commit-vlt2:
+	python3 scripts/research_tools.py commit-vlt2

@@ -814,3 +814,41 @@ Vocal-only multi-effects;checked 2026-10-17. Partial verification;unknown is not
 - [CM-M: manufacturer-authored2017 user manual,6-page mirror](https://www.handleiding.guide/pdf/817823),cover/model/control text matched;web text inspected. No generated mirror FAQ used;no filesystem download.
 
 Remaining:exact selector/voice counts,power polarity/revision confirmation,pitch claim,screen/software/memory gaps andqualified hardware offers. Do not label the >300mA/670mA statements mutually contradictory without additional evidence. No sibling specifications substituted.
+
+## VoiceLive Touch 2
+
+Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Reference manual v1.2 targets firmware1.0.02 build37; current firmware unverified. Official PDF endpoints returned502; mirrored manufacturer document bodies used,not generated summaries. Ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in expression pedal documented; external expression/toe support unresolved. Switch-3 control input documented,not proof of continuous expression. | [Quick Guide][VLT2-Q] |
+| K/F/B | Input gain knob documented; complete rotary,touch-button/matrix and footswitch count pending own panel audit. Hand-operated unit; external Switch-3 optional. | [Quick Guide][VLT2-Q] |
+| Display | Diagonal,color and touchscreen status unverified; touch controls do not prove screen touch. | Unresolved |
+| Dimensions / mass | Published230×100×180;axis labels/unit omitted in extracted metric parenthesis; alongside9×4×7in. Weight2.3kg. | [Quick Guide specifications][VLT2-Q] |
+| Processing / routing | Nine vocal blocks: Mod,Delay,Reverb,Harmony,Choir,Double,Transducer,Rhythm,Hardtune. Manual permits all Matrix effects active together. Per-category style totals pending. | [Reference][VLT2-R] |
+| Independent guitar processing | Reverb,modulation,compression and3-band semi-parametric EQ; global settings,not per vocal preset. Seven modulation styles; guitar Thru connection removes processed guitar from mix. This independent multi-effects path qualifies guitar membership; bass suitability unverified. | [Reference][VLT2-R]; [Quick Guide][VLT2-Q] |
+| Factory / user memory | 300 writable preset locations; factory-fill and separate-bank details unresolved. | [Reference][VLT2-R] |
+| Synth / acoustic | Vocal pitch/harmony processing documented; dedicated synth/acoustic-model algorithms unverified. Acoustic-guitar processing is not acoustic simulation. | [Reference][VLT2-R] |
+| I/O | XLR mic input andmono XLR out;1/4in TRS main outputs,1/4in guitar in/thru;1/8in stereo Aux/phones;USB-B audio/MIDI/control;5pin DIN MIDI in;1/4in TRS pedal input;power input. Phantom details pending. | [Quick Guide][VLT2-Q] |
+| Power / battery / USB | External supply;100–240VAC50–60Hz is adapter mains input,not unit DC rating. Consumption<14W;USB does not power unit. DC voltage/polarity/current andbattery operation unverified. | [Quick Guide][VLT2-Q] |
+| IR / NAM / capture | User IR,native/converted NAM andcapture support unverified. | Unresolved |
+| Editor / software | VoiceSupport Windows/Mac OS X documented for updates; full editor/current OS support unresolved. USB audio formats/drivers remain separate unknowns. | [Quick Guide][VLT2-Q] |
+| Looper / drums / scenes | Looper andSlider FX documented;duration,layer limits,persistence anddrum features pending original-text review. Hit provides alternate preset variation;not inferred scene count. | [Quick Guide][VLT2-Q] |
+
+### Separate IDR hardware evidence
+
+| Condition | Amount / qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no explicit used offer established. | — |
+| New | Unknown;available extract does not establish new condition. | — |
+| Condition unverified | Rp9,299,000;limitless__store,Jakarta Pusat;seller95687096/item3607760422. Cached Habis,crawled last month;checked2026-10-18. Bundle/variant/warranty unverified;title Garansi Original is seller claim. Late-delivery compensation up toRp20,000 is not purchase discount. Checkout/current stock/delivered total unverified. | [Shopee][VLT2-S] |
+
+<!-- comparison evidence ends -->
+
+[VLT2-Q]: https://manualzz.com/doc/6755730/tc-helicon-voicelive-touch-2-quick-start-guide
+[VLT2-R]: https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual
+[VLT2-S]: https://shopee.co.id/Efek-Vocal-TC-Helicon-Voice-Live-Touch-2-Garansi-Original-i.95687096.3607760422
+
+Original publisher endpoints retained: https://mediadl.musictribe.com/download/software/tchelicon/vlt2_quick_start_en.pdf and https://mediadl.musictribe.com/download/software/tchelicon/tc-helicon_voicelive_touch_2_reference_manual_en.pdf . No files downloaded ordevice operations performed.
