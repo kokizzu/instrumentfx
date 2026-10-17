@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer Bass V-AMP",
-    "task": "Bass V-AMP15post-effect entries vs16headline conflict saved;3pre-effects and synth distinction recorded. Next own-model power evidence or fresh bass/vocal discovery;do not force count reconciliation.",
+    "task": "Bass V-AMP latency and SysEx backup verified;unit-side power stillunresolved. Next fresh bass/vocal exact-hardware discovery;avoid repeating existing Bass V-AMP/B2 FOUR offers.",
     "next_models": [],
     "after_queue": "290partialmodels;no downloads/workflows/push."
   },
@@ -58243,6 +58243,15 @@
       "AutoWah"
     ],
     "synth": "Instrument3voice9variants distinct MIDI-note synth;MIDI synth reverb not global extra slot",
+    "downloads": false
+  },
+  "bass_vamp_latency_backup_20261017": {
+    "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf",
+    "identity": "v1.2 December2005 pp16,18",
+    "latency": "approx5ms LineIn-LineOut published,not measured",
+    "conversion": "24bit,31.250kHzinternal",
+    "backup": "Full-memorydump to sequencer;receive overwritespresets. Singlepresettemporarybuffer requires save. OUT vs THRU distinct.",
+    "power_search": "Manufacturer indexed manuals still list regional mains/external supply;unit-side voltage/current/pinout unestablished;no sibling substitution",
     "downloads": false
   }
 }

@@ -14,7 +14,7 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Display | **2-digit 7-segment LED**; diagonal **?**. Touch/color specification **?** [Manual][BV-M] |
 | Dimensions / weight | **236 W × 180 D × 63 H mm; approximately 1.2 kg** in 2005 manual; manufacturer Spanish manual instead **approximately 2 kg**, same dimensions. Weight conflict retained. [Manual][BV-M], [Spanish manual][BV-S] |
 | Simultaneous blocks | Selectable effect/combinations; independent compressor/denoiser and extra MIDI wah. Manual describes five preset ingredients: amp, cab, pre-effect, post-effect/combination and compressor. Exact algorithm ceiling **?**; **16 effect groups** is not 16 simultaneous. [Manual][BV-M] |
-| Categories / choices | **32 amps, 23 cabinets, 16 stereo effect choices**. Product calls amp groups Clean/Acoustic/Guitar; manual divides 32 as 16 bass + 8 guitar + 4 keyboard + 4 acoustic and documents 4 drive models. Taxonomies retained. [Product][BV-P], [Manual][BV-M] |
+| Categories / choices | **32 amps, 23 cabinets;16 advertised effect groups versus15 entries in the post-effect table** (unresolved;details below). Product calls amp groups Clean/Acoustic/Guitar; manual divides 32 as 16 bass + 8 guitar + 4 keyboard + 4 acoustic and documents 4 drive models. Taxonomies retained. [Product][BV-P], [Manual][BV-M] |
 | Factory / user memory | **125 factory-programmed, editable/storable locations, 25 × 5**; factory originals restorable to the same locations, not a separate additional user bank. [Manual][BV-M] |
 | Synth / acoustic simulation | Three-voice synth with 9 variants; MIDI synth separate. ULTRABASS adds lower octave. Acoustic voicing includes piezo/magnetic processing; electric-to-acoustic simulation **?**. [Manual][BV-M], [Product][BV-P] |
 | IR / NAM / capture | User IR import, native NAM, converted NAM, capture **?**; factory cabinet simulations alone do not establish import |
@@ -45,6 +45,13 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Processing / post-effect choices | [Manufacturer manual v1.2,December2005,table6.1,p14][BV-M] enumerates **15**:VCF+Flanger,Delay+Chorus,StereoDelay,Delay/Loop,Reverb,Ambience,VoiceBox,Ultrabass,RotaryCab,Phaser,Flanger,Chorus,StereoChorus,Synth,MIDISynth. The text advertises16groups;the missing sixteenth remains unresolved. Do not silently reconcile it with bypass or a pre-effect. |
 | Processing / pre-effects | Table6.2,p13 lists MIDIWah,P-Funk’n,AutoWah. MIDIWah excludes the other two;these choices are separate from the post-effect table. Compressor anddenoiser operate independently of the multi-effects section. Exact aggregate ceiling remains unverified. |
 | Synth / MIDI distinction | P15 distinguishes instrument-driven three-voice Synth,nine variants,from MIDISynth for external note control. MIDISynth has its own MIDI-accessible reverb;not proof of freely assignable extra reverb on every patch. |
+
+### Bass V-AMP — latency and MIDI backup,2026-10-17
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Processing / latency | [Manufacturer manual v1.2,December2005,p18][BV-M] specifies approximately **5ms LineIn→LineOut**,31.250kHz internal sample rate and24-bit converters. This is the published path value,not a new measurement or USB-audio specification. |
+| MIDI / backup | Section8.4.1,p16 supports whole-memory dumps to a MIDI sequencer and a selected-preset transfer through a temporary buffer. Receiving a full dump with MIDI editing enabled overwrites all presets;save a received single preset to retain it. OUT transmits preset/parameter changes;THRU forwards incoming data without originating its own. Application names andsupported editor OS remain unverified. |
 
 <!-- comparison evidence ends -->
 
