@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD X3 Live software follow-up",
-    "task": "XT Live Silicon/Monkey notices now saved. Next review X3 Live own existing editor row against manufacturer POD X3 Silicon exclusion and Monkey discontinuation; commit it separately. Then resume different exact bass/vocal discovery.",
+    "model": "Bass/vocal Shopee discovery",
+    "task": "X3 Live and XT Live software limitations now recorded separately. Search different bass/vocal series for exact eligible hardware items; avoid saved negative-query adapter/mixed-shop hits. If unresolved, close primary-document gaps in existing records.",
     "next_models": [],
     "after_queue": "Continue unresolved technical verification and lossless migration; no downloads/workflows."
   },
@@ -4812,6 +4812,17 @@
       ],
       "finding": "Manufacturer explicitly excludes POD XT tools from future Apple Silicon support. Monkey discontinued on newer OS; firmware requires older supported OS. Dimensions index supplies spreadsheets only; no download performed.",
       "remaining": "Current supported Windows/Intel Mac configurations,activation availability,body/power/display and other saved technical gaps."
+    },
+    {
+      "model": "Line 6 POD X3 Live",
+      "checked_date": "2026-10-17",
+      "status": "partial_followup",
+      "sources": [
+        "https://kb.line6.com/macos-11-big-sur-silicon-m1-chip-compatibility",
+        "https://kb.line6.com/line-6-monkey-discontinued"
+      ],
+      "finding": "POD X3 family tools explicitly excluded from future Apple Silicon support; Monkey discontinued for newer operating systems and firmware route requires older supported OS. Historical GearBox editor evidence preserved.",
+      "remaining": "Exact supported Windows/Intel Mac versions, activation route, USB rates/returns and remaining model-specific technical/price gaps."
     }
   ],
   "consolidation_and_price_findings": [
@@ -40907,7 +40918,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD X3 Live software follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [

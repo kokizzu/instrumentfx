@@ -1226,7 +1226,7 @@ Checked **2026-10-17**; partial. Floor processor, distinct from desktop X3, rack
 | IR / NAM / capture | Factory cabinet/mic modeling established; user IR import, native NAM, converted NAM and proprietary capture loading each unverified. |
 | Audio / control I/O | Quarter-inch guitar, auxiliary input, L/R Live outputs, stereo phones, mono send/stereo return, Pedal2; XLR mic/trim and L/R Direct outputs; eighth-inch stereo CD/MP3 input; Variax digital; MIDI In/Out-Thru; S/PDIF out; USB2. [Product][X3L-P]; [Manual][X3L-M], pp3•12–15. Live outputs unbalanced, Direct XLR balanced; do not borrow desktop balanced TRS outputs. |
 | Power / battery / USB | **PX-2 supplied adapter** named in Live section. [Manual][X3L-M], p3•15. Exact voltage/current, AC/DC, polarity/barrel, measured draw, battery and USB power operation unverified in this pass; no sibling or seller-adapter rating substituted. |
-| Editor / platforms / drivers | **GearBox** is the hardware editor; Monkey handles firmware/bundle utilities. POD Farm is a plug-in for X3, not its standalone hardware editor. Historical Windows/Mac GearBox documentation; current OS compatibility/mobile editor unverified. [GearBox FAQ][X3L-G]; [POD Farm FAQ][X3L-F]; [GearBox3.6 guide][X3L-GM] |
+| Editor / platforms / drivers | **GearBox** is the hardware editor; Monkey handles firmware/bundle utilities. POD Farm is a plug-in for X3, not its standalone hardware editor. Historical Windows/Mac GearBox documentation. Manufacturer lists **POD X3 audio drivers, editors, updaters, Control Panel and License Manager as not receiving Apple Silicon support**. Monkey is discontinued for newer OS releases, including Windows 11, Catalina and Monterey; its firmware-installation route requires an older supported OS. Exact supported Windows/Intel Mac versions and mobile editing remain unverified. These notices do not prove every legacy setup fails or that current activation works. [Silicon notice][X3L-SIL]; [Monkey notice][X3L-MON]. [GearBox FAQ][X3L-G]; [POD Farm FAQ][X3L-F]; [GearBox3.6 guide][X3L-GM] |
 | USB audio | Eight device-to-computer channels: stereo main, stereo Tone1,Tone2, two raw input sums. Windows ASIO/Mac Core Audio documented; return-channel count, current drivers and rates unverified. [Manual][X3L-M], pp8•2–3 |
 | Live / vocal functions | Tap/tuner; separate amp/direct routing. **No phantom power** per model-specific FAQ. [Applications][X3L-A]. Hardware looper, drums, scenes, persistence and spillover unverified; FX loop is not a phrase looper. |
 | Used IDR | **?** Exact sold-out ask below lacks sale-condition evidence. |
@@ -1256,6 +1256,9 @@ Remaining: physical panel image count; exact power label; all category/fixed-blo
 [X3L-F]: https://kb.line6.com/pod-farm-1-faq
 [X3L-GM]: https://line6.com/data/6/0a060b316ac34f0593cdec813/application/pdf/GearBox%203.6%20User%20Manual%20-%20English%20%28%20Rev%20F%20%29.pdf
 [X3L-FW]: https://line6.com/support/page/kb/legacy-products/pod/pod-x3/pod-x3-product-family-firmware-version-20-update-instructions-and-general-information-r273/
+
+[X3L-SIL]: https://kb.line6.com/macos-11-big-sur-silicon-m1-chip-compatibility
+[X3L-MON]: https://kb.line6.com/line-6-monkey-discontinued
 
 ## POD XT Live
 
