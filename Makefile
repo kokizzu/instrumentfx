@@ -1779,3 +1779,7 @@ research-commit-rd5:
 .PHONY: research-commit-ms3
 research-commit-ms3:
 	python3 scripts/research_tools.py commit-ms3
+
+.PHONY: research-commit-rc5
+research-commit-rc5:
+	python3 scripts/research_tools.py commit-rc5

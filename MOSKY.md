@@ -65,3 +65,34 @@ Effects-only guitar multi-effects; checked 2026-10-18, partial. Ownership unveri
 A five-month [shop index](https://shopee.co.id/smile.pedal87) names RD5 at Rp430,000 without an exact item ID; excluded from qualified model prices.
 
 [RD-P]: https://www.moskyaudio.com/product/product-98-893.html
+
+## RC5
+
+Effects-only guitar multi-effects strip, checked2026-10-18; partial. Ownership unverified. Bass/vocal suitability lacks exact primary confirmation.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / toe | Built-in, external and toe support unverified. |
+| Knobs / footswitches / buttons | Separate counts unverified; no visual inspection claimed. |
+| Display | Presence, diagonal, color and touch unverified. |
+| Dimensions / mass | Manufacturer **L230×W65×H36mm;490g**, mass inclusion basis unstated. [RC-P] |
+| Processing / category choices | Own page says **5 Effects in1** but lists **six functions: reverb,chorus,distortion,overdrive,booster,buffer**. Preserve internal count discrepancy. Several effect families establish eligibility; simultaneous ceiling, independent switching, algorithms and order unverified. [RC-P] |
+| Factory / user / total memory | Unverified. |
+| Synth / acoustic | Unverified. |
+| Audio / control I/O | Connector inventory, levels, formats, stereo, headphones and loop unverified. |
+| Power / battery / USB | **9VDC,negative tip**, regulated supply recommended. Current, plug dimensions, battery and USB powering unverified. [RC-P] |
+| IR / NAM / captures | User IR,native NAM,converted NAM and proprietary captures unverified. |
+| Editor / software | Editor platforms, drivers/updaters and USB audio/MIDI unverified. |
+| Looper / drums / routing | Phrase looper, drums, bypass,trails and routing unverified. |
+
+### Separate IDR hardware offers
+
+| Condition / seller | Asking evidence / limitations | Exact item |
+|---|---|---|
+| Used | Unknown; no condition-verified used ask. | — |
+| New | Unknown; no condition-verified new ask. | — |
+| Condition-unverified / MICKEY MOUSE SHOP | **Rp633,450**, Jakarta Pusat; four-month search cache checked2026-10-18, shop on holiday, shipping service unavailable. Direct reopen cache miss. Condition, variant,bundle/adapter,warranty,live stock and checkout costs unknown. Title says6-in-1; seller title does not resolve manufacturer's5-versus6 discrepancy. | [19700013/18668469668](https://shopee.co.id/Efek-Gitar-Mosky-RC5-Multi-Effects-Pedal-6-In-1-Reverb-Overdrive-Distortion-Chorus-Booster-Buffer-i.19700013.18668469668) |
+
+A five-day [search index](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+metal&page=0&subcategory=11043648) repeatsRp633,450 with Jakarta Utara; region differs from exact cached item. This is not another condition-verified offer or live stock confirmation.
+
+[RC-P]: https://www.moskyaudio.com/product/product-3-17.html

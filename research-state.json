@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 327,
+  "active_model_count": 328,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 327,
+  "canonical_root_model_count": 328,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "327 unique active/root-canonical models;0 legacy-only;37 brands;six excluded;all partial.",
+  "count_reconciliation": "328 unique active/root-canonical;0 legacy-only;37 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "Resume Shopee discovery after MS-3 memory and approved adapter verification. Retain voltage/polarity and display/USB/market gaps; no repeated assumption-based reconciliation.",
+    "model": "Mosky DC5",
+    "task": "Verify pending exact DC5 hardware offer19700013/22210566396 and its own manufacturer specifications; not yet active.",
     "next_models": [],
-    "after_queue": "327 active; technical, market, ownership and legacy migration incomplete. No downloads/workflows/push."
+    "after_queue": "328active; all partial. Technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24482,7 +24482,8 @@
     ],
     "Mosky": [
       "SOL918",
-      "RD5"
+      "RD5",
+      "RC5"
     ]
   },
   "root_brand_content": {
@@ -24885,12 +24886,13 @@
     ],
     "MOSKY.md": [
       "SOL918",
-      "RD5"
+      "RD5",
+      "RC5"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 274,
+      "record_count": 275,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41958,10 +41960,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 327,
-    "canonical_root_models": 327,
+    "unique_brand_model_pairs": 328,
+    "canonical_root_models": 328,
     "legacy_only_models": 0,
-    "guitar_view_models": 274,
+    "guitar_view_models": 275,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -42021,7 +42023,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Mosky DC5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42298,7 +42300,8 @@
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig II",
       "Mosky::SOL918",
-      "Mosky::RD5"
+      "Mosky::RD5",
+      "Mosky::RC5"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -45075,6 +45078,13 @@
     },
     "Mosky::RD5": {
       "link": "MOSKY.md#rd5",
+      "source_files": [
+        "MOSKY.md"
+      ],
+      "finding_files": []
+    },
+    "Mosky::RC5": {
+      "link": "MOSKY.md#rc5",
       "source_files": [
         "MOSKY.md"
       ],
@@ -65900,5 +65910,13 @@
     ],
     "adapter": "PSA-100S2 or PSA-100S per exact-model Roland support",
     "remaining": "Voltage/polarity still unverified; no hardware reset or software execution."
+  },
+  "rc5_primary_20261018": {
+    "source": "https://www.moskyaudio.com/product/product-3-17.html",
+    "offer": "19700013/18668469668",
+    "status": "partial",
+    "conflict": "Own5-in-1 text versus six listed functions; exact item JakartaPusat versus searchJakartaUtara.",
+    "access": "Cached search; direct cache miss.",
+    "remaining": "Panel/manual, controls, ports, switching, memory, current, software and market verification."
   }
 }
