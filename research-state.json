@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 310,
+  "active_model_count": 311,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 310,
+  "canonical_root_model_count": 311,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "310 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
+  "count_reconciliation": "311 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Prime M2",
-    "task": "M2 regional output/dimension/Stemlab qualifications saved. Remaining original manual and IR/concurrency gaps deferred pending stronger sources; continue fresh Shopee bass/vocal discovery and legacy preservation audit. Commit each model before another.",
+    "model": "NUX Stageman Floor NAP-5",
+    "task": "Verify current original panel/manual and remaining fields;commit before next model. Continue fresh Shopee bass/vocal discovery rather than duplicating saved HarmonySinger2offers.",
     "next_models": [],
-    "after_queue": "Allrecords partial;ownership identity/technical/market/migration audit remain. Nodownloads/workflows/push."
+    "after_queue": "Technical/market/ownership gaps and migration compatibility remain. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5293,6 +5293,13 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "Exact Shopee sold-out two-variant hardware lead; manufacturer194algorithms,80presets,allthree instrument paths;NAM and output/revision qualifications preserved."
+    },
+    {
+      "model": "NUX Stageman Floor NAP-5",
+      "path": "NUX.md#stageman-floor-nap-5",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Acoustic multi-effects chorus/reverb/freeze;two exact Shopee hardware asks with failed direct access;manufacturer-authored manual identity and18Vinternalversus9Vsupply preserved."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24130,7 +24137,8 @@
       "MFX-10",
       "PG-2",
       "Mighty Plug Pro MP-3",
-      "Mighty Plug MP-2"
+      "Mighty Plug MP-2",
+      "Stageman Floor NAP-5"
     ],
     "Roland": [
       "GR-55",
@@ -24511,7 +24519,8 @@
       "MFX-10",
       "PG-2",
       "Mighty Plug Pro MP-3",
-      "Mighty Plug MP-2"
+      "Mighty Plug MP-2",
+      "Stageman Floor NAP-5"
     ],
     "SONICAKE.md": [
       "Matribox QME-50",
@@ -24711,7 +24720,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 259,
+      "record_count": 260,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41736,10 +41745,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 310,
-    "canonical_root_models": 310,
+    "unique_brand_model_pairs": 311,
+    "canonical_root_models": 311,
     "legacy_only_models": 0,
-    "guitar_view_models": 259,
+    "guitar_view_models": 260,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
     "vocal_view_models": 63,
@@ -41799,7 +41808,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Prime M2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Stageman Floor NAP-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41936,6 +41945,7 @@
       "NUX::PG-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::Mighty Plug MP-2",
+      "NUX::Stageman Floor NAP-5",
       "Roland::GR-55",
       "Scorpion::KMF-10",
       "Sonicake::Matribox QME-50",
@@ -43573,6 +43583,13 @@
     },
     "NUX::Mighty Plug MP-2": {
       "link": "NUX.md#mighty-plug-mp-2",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::Stageman Floor NAP-5": {
+      "link": "NUX.md#stageman-floor-nap-5",
       "source_files": [
         "NUX.md"
       ],
@@ -64512,5 +64529,32 @@
     "checked_date": "2026-10-17",
     "findings": "Exact M2 Chinese specification explicitly2TSoutputs100ohmx2;dimensions125x74x49withoutaxes versusglobal74L125W49H. StemlabAI six-part separation described;do not inferhardwareaudiochannels/offlineprocessing. Guitar/bass194effects anddynamicmodule reuse corroborated.",
     "unresolved": "No IRlength/slots/concurrency ceiling published in inspected page. Newer2025.08.26manualfilenamevisiblebutnotretrieved/read;do not assumeolderRockBoardV2.0identical."
+  },
+  "discovery_stageman_floor_20261017": {
+    "product": "https://nuxaudio.com/product/stagemanfloor/",
+    "manual_official": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf",
+    "manual_mirror": "https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf",
+    "manual_identity": "NAP5/StagemanFloor,©2018Cherub,bilingual14pages complete text read;official7pagesnoextractabletext/screenshotnotinspectable;noequivalenceclaim",
+    "offers": [
+      {
+        "shop": "12356205",
+        "item": "9243654404",
+        "seller": "Eleven Music",
+        "region": "Jakarta Pusat",
+        "idr": 2350000,
+        "access": "three-monthsearch;directUnexpectedStatusCode"
+      },
+      {
+        "shop": "969726322",
+        "item": "23086324001",
+        "seller": "jayapratamamusic",
+        "region": "Jakarta Pusat",
+        "idr": 2185500,
+        "access": "four-monthsearch;directcachemiss;staleJune18delivery"
+      }
+    ],
+    "condition_stock_bundle_voucher": "unknown",
+    "scope": "Independentchorus/reverb/freeze/acousticpreampqualifiesguitar;notinferredfromEQ;no bass/vocal assignment",
+    "remaining": "Fullcurrentmanualvisualconfirmation,patchmemory,expression,batteryUSBpower,editorplatforms,qualifiedcondition/stock."
   }
 }

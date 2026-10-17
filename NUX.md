@@ -989,3 +989,35 @@ Official own manual6pages has no substantive extracted text;no visual verificati
 [MP2-A]: https://www.ariaguitars.com/jp/items/other-brands/nux/amplifier/mighty-plug/
 
 Aria links mp2_manual.pdf(one page,no extracted text);no visual equivalence claimed. A Manuals+ converted summary was located but panel/reset claims were not adopted without readable manufacturer body. Regional specification page used for the qualified measurements above;no download.
+
+## Stageman Floor NAP-5
+
+Checked2026-10-17;partial. Acoustic guitar multi-effects: analog preamp plus independently controlled chorus/reverb/freeze and looper, not inferred from EQ alone. Bass/vocal capability unestablished. [Manufacturer](https://nuxaudio.com/product/stagemanfloor/).
+
+| Field | Finding |
+|---|---|
+| Expression | No treadle/toe/EXP in manual layout; external control unverified. |
+| Knobs / footswitches / buttons |7 knobs;2 footswitches;0 pushbuttons;4 toggles(Scoop,Notch,Pickup,Lift). |
+| Display | LEDs;no screen documented;diagonal/color/touch specification unavailable. |
+| Processing / choices | Analog preamp,3-band EQ,notch;digital chorus/reverb with freeze on held Chorus switch. Both effect knobs control multiple parameters. Freely assignable block capacity and alternative algorithm banks unverified. [Product](https://nuxaudio.com/product/stagemanfloor/). |
+| Presets | Factory/user/total patch memory not documented. Knob settings are not presumed presets. |
+| Synth / acoustic | Processes real acoustic pickups(Piezo/Magnetic);acoustic simulation and synthesis unverified. Also manufacturer-supported violin,mandolin,banjo;not bass evidence. |
+| IR / NAM / capture | User IR,native NAM,converted NAM,proprietary capture each unverified. |
+| I/O | Guitar input/output,XLR DI,serial TRS insert,aux,phones,micro-USB updater. Input1MΩ magnetic/4.7MΩ piezo;send1kΩ,return1MΩ. |
+| Dimensions / weight |105L×115W×58H mm;445g. |
+| Power |9V DC,negative tip,2.1mm;180mA draw;optional ACD-006A. Internally doubled18V is not supply voltage. Battery/USB power unverified. |
+| Audio |44.1kHz;32bit ADC/processing. USB audio unverified. |
+| Software | Micro-USB firmware updates;full editor,platforms,drivers/mobile audio unverified. |
+| Looper / drums / scenes |60s,unlimited overdubs;both switches enter loop mode,Preamp record/play/dub,Reverb knob loop level. [Product](https://nuxaudio.com/product/stagemanfloor/). Undo/redo,double-tap stop,hold clear. Drums/scenes/persistence/spillover unverified. |
+| Routing / phantom | Serial insert;DI ground lift. Manual explicitly forbids48V phantom at DI output. |
+
+Technical layout/power/impedance/conversion/routing facts above: [manufacturer-authored bilingual manual,©2018,14pages](https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf),English pp1–7 and Chinese remainder read as text. Exact official [seven-page English PDF](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf) returned no text; screenshots uninspectable. No byte-equivalence claimed. Mirror-generated ASIN manuals with contradictory dimensions/power are excluded.
+
+| Condition / IDR evidence | Seller / item / qualifications |
+|---|---|
+| New | No condition-qualified hardware quote verified. |
+| Used | No condition-qualified hardware quote verified. |
+| Condition unresolved:Rp2,350,000 | [Eleven Music12356205/9243654404](https://shopee.co.id/NUX-NAP5-NAP-5-Stageman-Floor-Verdugo-Series-Stompboxes-Efek-Gitar-i.12356205.9243654404),Jakarta Pusat;three-month search cache;direct opening failed UnexpectedStatusCode. |
+| Condition unresolved:Rp2,185,500 | [jayapratamamusic969726322/23086324001](https://shopee.co.id/Nux-NAP5-Stageman-Floor-Acoustic-Preamp-DI-Pedal-Original-NAP-5-i.969726322.23086324001),Jakarta Pusat;four-month search cache,stale June18 delivery;direct cache miss. |
+
+Offers checked2026-10-17. New/used condition,working state,revision,stock,variant,adapter/bundle,warranty,authenticity,voucher,shipping/tax/final total unknown;relative delivery text does not confirm stock. No discount arithmetic or completed-sale claim. No downloads/dependency installation.

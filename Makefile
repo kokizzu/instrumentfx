@@ -1679,3 +1679,7 @@ research-commit-prime-m1:
 .PHONY: research-commit-prime-m2
 research-commit-prime-m2:
 	python3 scripts/research_tools.py commit-prime-m2
+
+.PHONY: research-commit-stageman
+research-commit-stageman:
+	python3 scripts/research_tools.py commit-stageman
