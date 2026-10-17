@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery and remaining verification",
-    "task": "Fixed omitted USB-label evidence in 19 comparison rows. Continue missing-model discovery and unresolved technical verification.",
+    "task": "Restored MIDI/control/USB/audio evidence in 56 comparison rows. Continue remaining label audit, missing-model discovery and technical verification.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69695,5 +69695,31 @@
     },
     "validation": "Focused field test failed before fix and passed after; comparison plan reviewed.",
     "remaining": "Underlying unknown technical fields and broader research are incomplete."
+  },
+  "comparison_connection_projection_20261018": {
+    "status": "fixed",
+    "labels": [
+      "MIDI / …",
+      "Control / USB",
+      "Audio levels / impedances",
+      "Audio / electrical specifications",
+      "Audio noise specifications",
+      "USB functions"
+    ],
+    "affected_rows": {
+      "ALL-GUITAR.md": 29,
+      "ALL-BASS.md": 20,
+      "ALL-VOCAL.md": 7
+    },
+    "validation": "Focused regression failed for MIDI / clock restrictions before fix and passed afterward. Reviewed unchanged row counts and additions-only comparison plan.",
+    "remaining_label_audit": [
+      "Delay / …",
+      "Pitch / tracking distinctions",
+      "Tuner variants",
+      "Factory / reset scope",
+      "Cabinet / parameter limits",
+      "Manual / revision conflicts"
+    ],
+    "scope": "Projection repair only; no new technical claims or model membership changes."
   }
 }
