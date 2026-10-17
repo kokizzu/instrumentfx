@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Stage MK2",
-    "task": "Seek current OS14 manual, Browse capacity, display and MK2 expression calibration;then resume exact Shopee model discovery.",
+    "task": "Read official14.2.2 release details;seek currentMainManual/Browse/display evidence;resume exactShopee discovery.",
     "next_models": [],
     "after_queue": "Remaintechnical/marketgaps;no downloads,workflows orpush."
   },
@@ -63465,5 +63465,12 @@
     "finding": "External toe wiring and mains-source conflict saved in canonical rows.",
     "limits": "Mission manufacturer indexed text only;direct pages/PDF timed out. Stage compatibility explicit, MK2-specific calibration not established. Manual13power printed68 vs current specs unresolved.",
     "next": "Seek current OS14 manual, Browse capacity, display and MK2 expression calibration;then resume exact Shopee model discovery."
+  },
+  "stage_mk2_os1421_20261017": {
+    "source": "https://forum.kemper-amps.com/forum/thread/68235-os-14-2-1-release/?postID=722785",
+    "identity": "Manufacturer administrator official release post2026-08-10,not community replies.",
+    "finding": "Editor/host minima and revision-specific processing/MIDI changes saved.",
+    "limits": "Not installed-OS proof;newer14.2.2 release visible in official forum navigation but its detailed post not inspected.",
+    "next": "Read official14.2.2 release details;seek currentMainManual/Browse/display evidence;resume exactShopee discovery."
   }
 }
