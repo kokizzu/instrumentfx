@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Red Truck",
-    "task": "Red Truck original manufacturerPDFpart620010668readviaweb;older300mAsupplyminimum differscurrent≥1Arecommendation,preserved. Next seek exactShopeehardware or investigate anotherrecordedmodel;no repeatinginaccessiblemanualroutes.",
+    "model": "Korg AX10B discovery",
+    "task": "Exactownsupportpage saved in discovery_ax10b_rp50_ax1g_20261017. Next inspect owner-manual route andseekqualifiedlocalhardware;quickstartPDFunavailable. AX10B/RP50/AX1Gnotcounted;foreign/accessoryoffersrejected.",
     "next_models": [],
-    "after_queue": "275partialmodels;no downloads/workflows/push;technical/marketverification andlegacyretirement incomplete."
+    "after_queue": "275partialmodels;no downloads/workflows/push;fullscope technical/marketverification remains."
   },
   "new_findings": [
     {
@@ -56717,5 +56717,21 @@
     "identity": "12p MOOERAUDIOCO LTD part620010668,exactRedTruck;date/revisionunprinted",
     "difference": "pp2/10/11 9V±10% supply≥300mA versusothermirror9V1A/currentglobal≥1A. Currentglobalrecommendationretained;notmeasuredcurrentdraw.",
     "limits": "WebPDFtextonly;noimageinspection/download;dimensionaxes/loopparallelwordingunresolved."
+  },
+  "discovery_ax10b_rp50_ax1g_20261017": {
+    "checked": "2026-10-17",
+    "queries": [
+      "Korg AX10B Shopee Indonesia",
+      "DigiTech RP50 Shopee Indonesia",
+      "Korg AX1G Shopee Indonesia"
+    ],
+    "market": "NoqualifiedexactIndonesianhardware. BrazilianRP50shop322534344/item21197681922soldoutforeigncurrencyrejected;ThaiRP50multi-modeladapterrejected;Meisa2014Korgresultisadapter,notprocessor.",
+    "ax10b_support": "https://www.korg.com/us/support/download/product/1/22/",
+    "support_limits": "ExactAX10Bmarked soldoutbyKorg;doesnotestablishlocalusedstockabsence. Owner/EasyStart2015-06-01listingdatesnotdevicepublicationdates.",
+    "quickstart": "https://www.korg.com/us/support/download/manual/1/22/2038/",
+    "pdf": "https://cdn.korg.com/us/support/download/files/6d29b2b401333c3fa4b58f256d3b30e4.pdf",
+    "pdf_limits": "WebretrievalfailedbothlinkedqueryandbarePDF;no contentsread/nodownload. FilenameAX10Seriesmaycovermultiplemodels;mustseparateguitar/bassfacts.",
+    "rp50_manual_lead": "https://c3.zzounds.com/media/RP50Manual-ed35a2ee34ceded85c8d523ffa7a1faf.pdf",
+    "next": "UseexactAX10Bowner manual route or anotherrecordedmodelgap;avoidunchangedfailedquickstartfetches. No additions/prices."
   }
 }
