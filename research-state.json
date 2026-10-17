@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 AMPLIFi FX100",
-    "task": "First pass209 added. Next reconcile FX100 category list and power/dimension conflict with own sources if available; otherwise resume exact Shopee discovery. Do not duplicate or install legacy apps.",
+    "model": "Shopee model discovery",
+    "task": "FX100 synth/wah/routing follow-up saved. Resume missing bass/vocal or legacy multi-effects discovery; consult inventory and existing rejected accessory leads before searching. Leave source gaps explicit.",
     "next_models": [],
-    "after_queue": "Market discovery and legacy consolidation incomplete; no downloads/workflows."
+    "after_queue": "Market discovery and lossless legacy consolidation incomplete; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -40709,7 +40709,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 AMPLIFi FX100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee model discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49644,6 +49644,16 @@
         "https://line6.com/helix-stadium-models/"
       ],
       "remaining": "Power label, further routing/DSP restrictions and condition-qualified offers."
+    },
+    {
+      "model": "Line 6 AMPLIFi FX100",
+      "checked_date": "2026-10-17",
+      "finding": "Primary model descriptions confirm Seismik8waves, DoubleBass2oscillators and named synth models;8wah choices. AdvancedRouting is music destination routing with retained tone control, not guitarDSPparallel proof. Improved record spacing.",
+      "sources": [
+        "https://kb.line6.com/full-list-of-amplifi-firehawk-series-amps-effects-and-cabs",
+        "https://kb.line6.com/amplifi-remote-advanced-routing-feature"
+      ],
+      "remaining": "Other category totals, dimensions/power conflicts, currentiOS,qualifiedoffers."
     }
   ],
   "discovery_cross_brand_bass": {

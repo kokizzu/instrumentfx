@@ -337,7 +337,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-amplifi-fx100':
-            message = 'research(line6): add AMPLIFi FX100 with legacy app and source conflict qualifications'
+            message = 'research(line6): verify FX100 synth wah and music routing details'
         if mode == 'commit-hd500x':
             message = 'research(line6): add distinct POD HD500X with own manual and qualified offers'
         if mode == 'commit-stadiumxl':
