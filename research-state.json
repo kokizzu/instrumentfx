@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 HX Effects",
-    "task": "Resolve own supply voltage/polarity orfirmware category counts from official docs next;exacthistoricalShopeeasknowrecorded,notused/newclassification. Do not repeat marketnegativeclaim.",
+    "task": "Resolve HX Effects own supply voltage/polarity or firmware category counts. I/O electrical classification corrected from official KB; do not repeat previous TS output claim. Exact sold-out ask remains condition-unverified.",
     "next_models": [],
     "after_queue": "Other field gaps andmigration;no downloads/workflows."
   },
@@ -52976,5 +52976,11 @@
         "task": "Resolve one model’s highest-value explicit technical gaps from own primary documentation,commit each before next;retain archiveprovenance."
       }
     ]
+  },
+  "hx_effects_io_checkpoint_20261017": {
+    "source": "https://kb.line6.com/helix-floor-rack-lt-hx-effects-input-and-output-specs",
+    "checked": "2026-10-17",
+    "correction": "Main outputs and sends are impedance-balanced TRS, tip driven only; supersedes unbalanced TS classification. Main inputs 1 MΩ TS; returns 1 MΩ instrument / 10 kΩ line.",
+    "power_status": "Voltage/polarity remain unresolved from primary text; no sibling or community-user values promoted."
   }
 }
