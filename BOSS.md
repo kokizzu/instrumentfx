@@ -1898,3 +1898,36 @@ Other mixed GT8/GT10 and accessory results do not establish this offer. GT-10B a
 [G8-R]: https://manualzilla.com/doc/7445272/roland-gt-8-owner-s-manual
 
 Transcript identity: GT-8 Guitar Effects Processor Owner’s Manual ©2004 BOSS, G6047002R2; book timestamp2006-07-25. Model/pagination and FX-2 list match indexed official manual. Manufacturer-authored transcript used, not mirror-generated FAQs; no full-file hash or visual inspection claimed.
+
+## ME-20
+
+Guitar multi-effects; distinct from ME-20B and ME-25. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability and ownership unverified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in expression pedal; external FOOT SW supports FS-5U/FS-6 switches, not established external expression. Toe switching pending. | [Manual pp9–10,27–28][ME20-M] |
+| K/F/B | **5 rotary /3 main footswitches /buttons unresolved**. | [Manufacturer][ME20-P] |
+| Display | Two-character, seven-segment LED; diagonal/color/touch unknown. | [Specifications][ME20-P] |
+| Dimensions / mass | **294W×179D×54H mm;1.6kg**. Battery inclusion pending. | [Specifications][ME20-P] |
+| Processing / category choices | OD/DS6 (five drives plus compressor), MOD5, DELAY3 selections (two delay ranges plus reverb); EQ,WAH,noise suppressor andfoot volume. Delay/reverb share selection; ranges are not independent algorithms. Explicit simultaneous ceiling unverified. | [Manual pp16–21,33][ME20-M] |
+| Factory / user memory | **30 user locations**; initial factory fill and extra preset memory unverified. WRITE required. | [Manufacturer][ME20-P];[Manual p26][ME20-M] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified; guitar multi-effects architecture established. | Unresolved |
+| I/O | ¼input,Lmono/R¼outputs,stereo⅛AUX,stereo¼phones,¼TRS FOOT SW,DC. No USB/MIDI listed. | [Specifications][ME20-P] |
+| Power / battery / USB | **9VDC,90mA**; six AA or optional PSA. Alkaline13h/carbon3.5h conditional. Polarity andUSB power unverified. | [Specifications][ME20-P] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified;no digital import path established. | Unresolved |
+| Editor / software | Editor/platform support unverified. | Unresolved |
+| Looper / drums / live | OD/DS Solo boost;manual/memory modes. External switches:Solo+bypass/tuner inmanual,bank up/down inmemory. Looper,drums,scenes,trails unverified. | [Manufacturer][ME20-P];[Manual pp27–28][ME20-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown; no condition-verified offer. | — |
+| New | Unknown; no condition-verified offer. | — |
+| Condition-unverified cached offer | **Rp900,000**, Tokoidolaku01,Kota Padang;shop315170932/item43464673108. Checked2026-10-17;last-week search cache,stale10–12October delivery. Indexed selection display_model_id276211549429;actual variant mapping unresolved. Direct plain-URL retrieval failed. No sold-out label in snippet does not confirm stock. Working state,revision,adapter/bundle,warranty,voucher,shipping/tax unknown. Late-arrivalRp10,000 compensation not discount. | [Exact indexed item][ME20-O] |
+
+No ME-20B bass specifications transferred. Official manual accessed aswebtext;no downloads or physical inspection.
+
+[ME20-P]: https://www.boss.info/global/products/me-20/specifications/
+[ME20-M]: https://static.roland.com/assets/media/pdf/ME-20_OM.pdf
+[ME20-O]: https://shopee.co.id/Boss-ME20-i.315170932.43464673108?extraParams=%7B%22display_model_id%22%3A276211549429%2C%22model_selection_logic%22%3A3%7D

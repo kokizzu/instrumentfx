@@ -1395,3 +1395,7 @@ research-commit-rp250:
 .PHONY: research-commit-g71ut
 research-commit-g71ut:
 	python3 scripts/research_tools.py commit-g71ut
+
+.PHONY: research-commit-me20
+research-commit-me20:
+	python3 scripts/research_tools.py commit-me20
