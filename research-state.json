@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Rack MK2",
-    "task": "Rack acoustic/synth,fullpanel/display,currentsoftware minima and qualifiedoffers;then nextqueuedvariant.",
+    "task": "Seek full Rack MK2 controls/display and qualified offers;then proceed PowerHeadMK2 while keeping unresolvedRackfields explicit.",
     "next_models": [
       "Kemper PROFILER PowerHead MK2 lead",
       "Kemper PROFILER PowerRack MK2 lead",
@@ -63583,5 +63583,14 @@
     "finding": "Explicit Rack/Remote pedal topology, MK2capture resolution and desktop/mobile role differences saved.",
     "limits": "No installed firmware or full mobile parity proof. Direct OS14.2.2 announcement re-open returned cache error this pass;previous Stage release evidence preserved.",
     "next": "Rack acoustic/synth,fullpanel/display,currentsoftware minima and qualifiedoffers;then nextqueuedvariant."
+  },
+  "rack_acoustic_software_20261017": {
+    "sources": [
+      "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+      "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/"
+    ],
+    "finding": "Dedicated acoustic simulator qualifications andOS14.2.2-specific editor/host minima saved.",
+    "limits": "Synth unknown;currentMainManual,completephysicalcensus andcondition-qualified offers remain incomplete.",
+    "next": "Seek full Rack MK2 controls/display and qualified offers;then proceed PowerHeadMK2 while keeping unresolvedRackfields explicit."
   }
 }
