@@ -2224,13 +2224,16 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Categories / EQ and amp | Four-band EQ offers **50 patterns** plus Contour. Amp choices: Combo, Bright Combo, Stack, each available with ZNR; ZNR alone also available. | [Manual pp29–30][Z606-M] |
 | Categories / MOD-PITCH | **20 selector alternatives**, including combinations: Chorus; Flanger, Phaser, Doubling, Tremolo, Step, Ring Mod (each alone or →Chorus); Cry1, Cry2, Cry→Chorus; Slow Attack, Slow Attack→Pitch; Pitch Shift; Pedal Pitch. Pitch Shift has nine patterns. | [Manual pp31–36][Z606-M] |
 | Categories / delay-reverb | Delay, Echo, Hall or Room. Delay/Echo **10–370 ms**, 10 ms steps; stereo ping-pong. Reverb time 1–10 is a displayed range, not seconds. | [Manual pp36–37][Z606-M] |
+| Expression / assignment behavior | Targets: WAH, DRIVE, MOD/PITCH, DLY/REV or Volume; all assignment LEDs off disables the pedal. Assigning an inactive module enables it, then moving assignment away disables it again. Bypass assigns Volume automatically. Assignment and module state save per patch. | [Manual pp10–11][Z606-M] |
+| Expression / switching calibration | Pedal calibration sets the full-down switching point; a higher calibration position permits lighter switching. Volume assignment has no module on/off switching. | [Manual p23][Z606-M] |
+| Power / operation qualification | Battery operation switches on through the input cable; unplug it to avoid battery drain. Adapter connection powers on directly. No battery charging. Manual recommends alkaline despite also specifying manganese runtime. | [Manual pp2–8][Z606-M] |
 | Preset memory | **42 rewritable, factory-filled patches**, seven banks of six; no separate 42-preset bank. Individual recall or full initialization. | [Manual pp4,18–22,38][Z606-M] |
 | Synth / acoustic | Electric-to-acoustic simulation; synth-like patch examples, dedicated synth engine unresolved. | [Manual pp28–29,patch list][Z606-M] |
 | I/O | Mono guitar input; stereo combined line/headphone output; DC input. | [Manual pp6–7,38][Z606-M] |
 | Power / battery / USB | **9 V DC, center-negative, 300 mA adapter specification**; actual draw unspecified. Four AA; approximately 24 hours alkaline/7 manganese. USB absent from connector inventory. | [Manual pp2–3,38][Z606-M] |
 | Dimensions / mass | **159 W × 233 D × 54 H mm; 600 g without batteries**. | [Manual p38][Z606-M] |
 | IR / NAM / capture | Import and capture support unresolved. | Unresolved |
-| Editor / platforms | Computer editor and OS support unresolved. | Unresolved |
+| Editor / platforms | Official support page lists the operation manual, with no model-specific editor/driver/updater entry. Its generic Bundled Software link does not establish 606 compatibility. Historical/current editor support remains unverified. | [Support][Z606-S] |
 | Live / practice | Chromatic tuner, bypass/mute, preselected patch confirmation; looper/drums/scenes unresolved. | [Manual pp12–13,20–21][Z606-M] |
 
 ### Separate IDR hardware offers
@@ -2247,3 +2250,5 @@ Seller, stock, working state, authenticity/origin, bundle, adapter, warranty, sh
 
 [Z606-M]: https://zoomcorp.com/media/documents/E_606.pdf
 [Z606-O]: https://shopee.co.id/Efek-Gitar-Zoom-606-607-Made-Japan-dan-China-i.703817770.20045443371
+
+[Z606-S]: https://zoomcorp.com/en/gb/multi-effects/guitar-effects/606/606-support/
