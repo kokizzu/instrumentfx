@@ -2148,3 +2148,39 @@ Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2
 - [B21-S: manufacturer model support and driver listing](https://zoomcorp.com/en/us/multi-effects/bass-effects/b21u/b21u-support/).
 
 Remaining: additional USB/control restrictions,display gaps andqualified exact offers. All nine module choice counts now reconcile to47. Factory user fill and power-switch/USB selection are resolved. Driver listing is not editor evidence.
+
+## RFX-2000
+
+Checked2026-10-17;partial. Own manual guitar setup and dynamic-microphone vocal path establish guitar/vocal scope. Bass applicability unclassified;ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal/toe;FS01 bypass switch support. Continuous expression unverified. | [Manual pp2–4][R2-M] |
+| K/F/B | Separate counts pending complete panel inventory. | Unresolved |
+| Display | Numeric/parameter display and bank LEDs;diagonal,color/touch pending. | [Manual pp2–3][R2-M] |
+| Processing / categories | 48panel effects(6×8),8editor-only EXTRA effects. Specification counts616program settings(8×7×11characters);these are not616simultaneous effects. Full categories/architecture pending. | [Manual pp1,25][R2-M] |
+| Preset memory | 100patch memories;specification total716 combines616settings+100memories,not716writable patches. Initial fill pending. | [Manual p25][R2-M] |
+| Synth / acoustic | Vocoder documented;dedicated synth/acoustic simulation unverified. | [Manual p1][R2-M] |
+| I/O | Stereo mono-phone line inputs/outputs;front mono-phone dynamic-mic input;optical/coaxial S/PDIF outputs;MIDI IN/OUT/THRU;FS01 bypass;adapter input. No digital input listed. | [Manual pp2–3,25][R2-M] |
+| Power / battery / USB | **12VAC AD-0008 adapter**,not12VDC;DC polarity inapplicable. Current,battery/USB operation unverified. | [Manual p25][R2-M] |
+| Dimensions / mass | **482W×44H×115D mm;1.5kg**. | [Manual p25][R2-M] |
+| IR / NAM / capture | IR,native/converted NAM and capture loading unverified. | Unresolved |
+| Editor / platforms | Supplied Windows95/98/Macintosh editor/librarian via MIDI;EXTRA-bank patches can be stored and recalled locally. Current OS compatibility unverified. | [Manual p24][R2-M] |
+| Looper / drums / live | Tap input and MIDI patch/parameter control documented;looper,drums,scenes,spillover pending. | [Manual p1][R2-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;shop description does not establish item condition. | — |
+| New | Unknown;not established. | — |
+| Condition-unverified indexed ask | **Rp3.250.000**,AR Audio Shop,shop377580114/item19279006266,Kab.Sragen. Direct browser text2026-10-17,crawled2daysago;Oct19–22delivery shown,stock/checkout unverified. | [Exact Shopee item][R2-O] |
+
+<!-- comparison evidence ends -->
+
+Older indexedAug20–23delivery is historical cache. Seller “ORIGINAL JAPAN” does not verify authenticity/origin. Working state,condition,stock,bundle,adapter/mains variant,warranty,shipping/tax,voucher eligibility unknown;Rp10000late-arrival compensation is not discount. Own28page manufacturer manual read as browser text,no visual inspection or filesystem download claimed.
+
+[R2-M]: https://zoomcorp.com/media/documents/E_RFX2000.pdf
+[R2-O]: https://shopee.co.id/Effect-vokal-zoom-rfx-2000-Efek-vokal-zoom-2000-ORIGINAL-JAPAN-i.377580114.19279006266

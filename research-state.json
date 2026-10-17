@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 246,
+  "active_model_count": 247,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 246,
+  "canonical_root_model_count": 247,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "246 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. SPX1000guitar/vocal own-manual scope;bass unclassified;all records partial.",
+  "count_reconciliation": "247 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. RFX2000guitar/vocalownmanualscope;bassunclassified;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2000",
-    "task": "RFX2000 exact AR Audio Shop item377580114/19279006266 resolvedRp3250000,condition/stockunknown;official28pmanual accessible. Next readspec/power/categorydetails andaddinitialownmodelrecord;do not infer RFX1100features.",
+    "task": "RFX2000added247th;verifypanelcounts,fullbanks/architecture,userinitialfill,digitaloutput/microutingandpowercurrent. Do notduplicate;commitusefulfindingsbeforenextmodel.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. No downloads,workflows,push;commit each usefulmodel before next."
   },
@@ -23916,7 +23916,8 @@
       "707II",
       "708II",
       "RFX-1100",
-      "B2.1u"
+      "B2.1u",
+      "RFX-2000"
     ],
     "DigiTech": [
       "RP360XP",
@@ -24096,7 +24097,8 @@
       "707II",
       "708II",
       "RFX-1100",
-      "B2.1u"
+      "B2.1u",
+      "RFX-2000"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -24285,7 +24287,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 199,
+      "record_count": 200,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24297,9 +24299,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 48,
+      "record_count": 49,
       "vocal_only_count": 22,
-      "combined_instrument_count": 26,
+      "combined_instrument_count": 27,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41248,13 +41250,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 246,
-    "canonical_root_models": 246,
+    "unique_brand_model_pairs": 247,
+    "canonical_root_models": 247,
     "legacy_only_models": 0,
-    "guitar_view_models": 199,
+    "guitar_view_models": 200,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
-    "vocal_view_models": 48,
+    "vocal_view_models": 49,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41478,6 +41480,7 @@
       "Zoom::G7.1ut",
       "Zoom::707II",
       "Zoom::RFX-1100",
+      "Zoom::RFX-2000",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -41655,6 +41658,7 @@
       "Zoom::V6-SP",
       "Zoom::V3",
       "Zoom::RFX-1100",
+      "Zoom::RFX-2000",
       "DigiTech::GNX4",
       "Behringer::FX2000",
       "Lexicon::MX200",
@@ -43361,6 +43365,13 @@
     },
     "Zoom::B2.1u": {
       "link": "ZOOM.md#b21u",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::RFX-2000": {
+      "link": "ZOOM.md#rfx-2000",
       "source_files": [
         "ZOOM.md"
       ],
@@ -53757,5 +53768,10 @@
     "manual": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
     "manual_identity": "Manufacturer-hosted28pageRFX2000operationmanual,coverandintroductionmatched.",
     "initial_evidence": "48panelFX6×8,8additionaleditorFX,100patchmemory;guitarsetupanddirectdynamicmicvocalpath. Fullrecordnotyetadded;readremainingmanualandspecbeforecanonicalrecord."
+  },
+  "rfx2000_initial_record_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+    "finding": "48panel+8EXTRAeffects,100patchesdistinctfrom616settings,12VACAD0008,482×44×115mm1.5kg,MIDIlegacyeditor,exactqualifiedask.",
+    "remaining": "KFB,fullcategories/simultaneity,initialfill,digitalrouting,micrestrictions,editor/currentOS andvisualgaps."
   }
 }
