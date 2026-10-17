@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 264,
+  "active_model_count": 265,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 264,
+  "canonical_root_model_count": 265,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "264 unique active/root-canonical models;0legacy-only;32brands;6excluded.BlackTruckguitarmultifx;allpartial.",
+  "count_reconciliation": "265 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded; all partial. MP-3 shared guitar/bass.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Mighty Plug Pro MP-3",
-    "task": "Exact unrecorded MP-3 hardware leads and own-product checkpoint saved. Verify own manual, add canonical record and guitar/bass views with retained page-copy conflicts and price qualifications, commit before Dapper VES-1.",
+    "task": "MP-3 partial root record added from own product; verify image-based manual/panel and remaining technical fields before moving to Dapper VES-1.",
     "next_models": [
       "Valeton Dapper VES-1"
     ],
@@ -23833,7 +23833,8 @@
       "Cerberus NME-3",
       "MG-20",
       "MFX-10",
-      "PG-2"
+      "PG-2",
+      "Mighty Plug Pro MP-3"
     ],
     "Roland": [
       "GR-55"
@@ -24158,7 +24159,8 @@
       "Cerberus NME-3",
       "MG-20",
       "MFX-10",
-      "PG-2"
+      "PG-2",
+      "Mighty Plug Pro MP-3"
     ],
     "SONICAKE.md": [
       "Matribox QME-50",
@@ -24327,14 +24329,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 215,
+      "record_count": 216,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 103,
+      "record_count": 104,
       "bass_focused_record_count": 27,
-      "shared_bass_capable_count": 76,
+      "shared_bass_capable_count": 77,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41290,18 +41292,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 264,
-    "canonical_root_models": 264,
+    "unique_brand_model_pairs": 265,
+    "canonical_root_models": 265,
     "legacy_only_models": 0,
-    "guitar_view_models": 215,
+    "guitar_view_models": 216,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 103,
-    "bass_shared_models": 76,
+    "bass_view_models": 104,
+    "bass_shared_models": 77,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41353,7 +41355,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Black Truck."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Mighty Plug Pro MP-3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41473,6 +41475,7 @@
       "NUX::MG-20",
       "NUX::MFX-10",
       "NUX::PG-2",
+      "NUX::Mighty Plug Pro MP-3",
       "Roland::GR-55",
       "Scorpion::KMF-10",
       "Sonicake::Matribox QME-50",
@@ -41637,6 +41640,7 @@
       "NUX::MG-300 original",
       "NUX::MG-400",
       "NUX::MG-30",
+      "NUX::Mighty Plug Pro MP-3",
       "Roland::GR-55",
       "Valeton::GP-100",
       "Valeton::GP-150",
@@ -41732,6 +41736,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "NUX::Mighty Plug Pro MP-3": "Own product explicitly identifies guitar and bass processing. https://nuxaudio.com/product/mightyplugpro/",
     "TC Electronic::PLETHORA X5": "Own official product explicitly documents bass-oriented global cabinet simulation. https://www.tcelectronic.com/en/products/0709-AIK",
     "Lexicon::MX400": "Own combined MX400/MX400XL manual p25 explicitly lists bass-track compression; appropriate line-level preamp/mixer or recorded-track routing required. https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
     "Lexicon::MX300": "Own manufacturer manual E p25 explicitly lists bass-track compression; use suitable line-level preamp/mixer or recorded-track routing. https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
@@ -42888,6 +42893,13 @@
     },
     "NUX::PG-2": {
       "link": "NUX.md#pg-2",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::Mighty Plug Pro MP-3": {
+      "link": "NUX.md#mighty-plug-pro-mp-3",
       "source_files": [
         "NUX.md"
       ],
@@ -55614,5 +55626,11 @@
       "status": "defer own-model verification until MP-3 committed"
     },
     "rejected": "RP355 and G9.2tt limited searches surfaced PSU accessories; GT-6B/AX3000B no qualified processor offer in this pass. No absence claim."
+  },
+  "mp3_primary_checkpoint_20261017": {
+    "manual": "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf",
+    "added": true,
+    "remaining": "Panel totals/expression/display, full IO, category choices/simultaneous limits, memory split, charging operation, editor minimum OS, synth/acoustic scope, firmware revisions, qualified condition/stock prices.",
+    "manual_access": "11 pages image-based; no readable screenshots or text; no download."
   }
 }

@@ -844,3 +844,48 @@ Own [NUX legacy page][PG2-P] links [English V1 PDF][PG2-M],one page with no brow
 [PG2-T]: https://manuals.plus/nux/pg-2-portable-guitar-efx-manual
 
 [PG2-T2]: https://manualzz.com/doc/24271438/nux-pg-2-effects-processor-user-manual
+
+## Mighty Plug Pro MP-3
+
+Checked 2026-10-17; partial. Guitar/bass processing explicitly documented; ownership unverified. [Official product](https://nuxaudio.com/product/mightyplugpro/).
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. [Product][MP3-P] |
+| K/F/B | Rotary/footswitch/button totals unresolved; PRESET and volume ± controls documented. [Product][MP3-P] |
+| Display | Preset color indicator; screen diagonal/touch unverified. [Product][MP3-P] |
+| Processing / categories | Nine freely ordered blocks: GATE/CMP/EFX/AMP/IR/EQ/MOD/DLY/RVB; category choices and simultaneous limits need manual corroboration. [Product][MP3-P] |
+| Preset memory | 7 presets; ACTIVE selects which cycle. Factory/user split unresolved. [Product][MP3-P] |
+| Synth / acoustic | Synth/acoustic simulation scope unverified; copied Mighty Space passages excluded. [Product][MP3-P] |
+| I/O | Instrument plug, TRRS headset/microphone, USB-C recording; connector sizes/full inventory pending. Bluetooth playback; mic USB streaming does not establish vocal multi-effects. [Product][MP3-P] |
+| Power / battery / USB | 5V USB-C charging; 3.7V/1450mAh battery, claimed 5h. Draw printed 4V/260mA; charging current/play-while-charging unresolved. [Product][MP3-P] |
+| Dimensions / mass | 81L×41W×30Hmm;70g. [Product][MP3-P] |
+| IR / NAM / capture | 512-sample IR;36 built-in/18 user slots; editor converts WAV IRs. NAM/capture unverified. [Product][MP3-P] |
+| Editor / platforms | Mighty Editor 2.4.7.5 Windows/macOS; Mighty Amp iOS/Android. Firmware3.0.5 and ASIO drivers are separate. Minimum editor OS unresolved. [Product][MP3-P] |
+| Live / routing | USB Normal/Dry Out/Re-amp/Loopback; looper/drums/scenes unverified. [Product][MP3-P] |
+
+### Separate IDR hardware offers
+
+Indexed historical asks checked 2026-10-17; no condition-confirmed used/new allocation.
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp1.638.000**, cveri accessories, shop785734870/item18238835217, Kota Jakarta Pusat; two weeks crawl. | [Item][MP3-O1] |
+| Unverified | **Rp1.550.000**, jayapratamamusic, shop969726322/item25200895184, Kota Jakarta Pusat; two weeks crawl. | [Item][MP3-O2] |
+| Unverified | **Rp1.000.000**, Mc Garage Store, shop1011216793/item26376266354, Kota Tasikmalaya; two days crawl, **Habis**. | [Item][MP3-O3] |
+| Unverified | **Rp1.799.000**, Seven Stereo Music & Audio Store, shop16879370/item18538785877, Kota Bandung; two days crawl. | [Item][MP3-O4] |
+
+<!-- comparison evidence ends -->
+
+Indexed historical asks, not live checkout. Condition, stock except cached Habis, variant/bundle, warranty/authenticity, shipping/tax and vouchers unverified. Older cveri variant URL indexed Rp1469400 three months ago is not same-date price proof.
+
+Official page contains Mighty Space copy in IR/effects prose; those passages do not establish MP-3 counts or acoustic capability. Official manual is 11 PDF pages with no substantive extracted text; screenshot calls returned references without inspectable images. No visual verification or filesystem download. Manual landing URL returned404; actual PDF resolved from product link. [Official manual][MP3-M].
+
+[MP3-P]: https://nuxaudio.com/product/mightyplugpro/
+[MP3-M]: https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf
+[MP3-O1]: https://shopee.co.id/NUX-MP3-Mighty-Plug-Pro-Guitar-and-Bass-Amplug-Original-Nux-MP-3-i.785734870.18238835217
+[MP3-O2]: https://shopee.co.id/Nux-MP3-Mighty-Plug-Pro-Gitar-Bass-Amplug-Original-MP-3-i.969726322.25200895184
+[MP3-O3]: https://shopee.co.id/Nux-MP-3-Mighty-Plug-Pro-Guitar-and-Bass-Amplug-i.1011216793.26376266354
+[MP3-O4]: https://shopee.co.id/Nux-MP3-MP-3-Mighty-Plug-Pro-Headphone-Amp-for-Guitar-Bass-i.16879370.18538785877
