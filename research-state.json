@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX200",
-    "task": "Verify exact primary manufacturer architecture and vocal/line-level use before inclusion. Shopee66941795/9518332031 indexed Rp4.433.000;40716721/27231647996 Rp1.500.000 Habis. Conditions unknown. Do not assume mic input from vocal seller title.",
+    "task": "MX200 original indexed manufacturer evidence saved in mx200_primary_verification_20261017:2simultaneous,32choices,99+99,9VAC1300mA,line-level mixer routing. Direct manual/product403. Find accessible manufacturer CDN/indexed sections,complete record andqualified classification,then commit before FX2000. Do not infer direct mic input or USB audio.",
     "next_models": [
       "Behringer FX2000"
     ],
@@ -52299,5 +52299,51 @@
       }
     ],
     "common_limits": "No checkout,condition,bundle,warranty,voucher or live stock verified. No active inventory additions until primary architecture evidence."
+  },
+  "mx200_primary_verification_20261017": {
+    "status": "eligible multi-effects architecture established; canonical record pending complete port/control inspection",
+    "sources": [
+      {
+        "url": "https://lexiconpro.com/en-US/products/mx200/downloads_and_docs",
+        "access": "manufacturer indexed text;direct product route403",
+        "facts": [
+          "Discontinued",
+          "99factory+99user programs",
+          "9VAC1300mA PS0913B",
+          "MX Edit Mac2.2.0 Windows2.3.1 listed;NetUpdater separate;2016 releases do not prove modern OS compatibility",
+          "Hardware-plugin integration32-bit only;not proof USB audio"
+        ]
+      },
+      {
+        "url": "https://lexiconpro.com/en-US/product_documents/mx200_infosheetpdf",
+        "revision": "18-0336 copyright2005",
+        "access": "indexed manufacturer source",
+        "facts": [
+          "2simultaneous processors;32choices=16reverbs+6delays+2dbx dynamics+8othereffects",
+          "DualMono,Cascade,DualStereoParallel,MonoSplit",
+          "2TRS balanced/unbalanced line inputs,+4dBu nominal,+20dBu max;20kohm balanced/10kohm unbalanced",
+          "2TRS outputs,+20dBu max;S/PDIF I/O",
+          "24bit48kHz A/D;24bit processing;1RU"
+        ]
+      },
+      {
+        "url": "https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf",
+        "access": "direct403;indexed quick-start text read",
+        "facts": [
+          "Quick-start routes vocal mic/guitar/keyboard through mixer postfader aux send toLeftMono input and returns stereo outputs",
+          "No direct mic preamp/phantom inferred",
+          "User-guide body and panel need accessible original for complete inventory"
+        ]
+      }
+    ],
+    "remaining": [
+      "Get accessible original manual via manufacturer CDN or indexed sections",
+      "Complete rotary/button/foot controls and expression",
+      "Exact dimensions/mass anddisplay",
+      "USB audio/control distinction",
+      "Confirm instrument/vocal membership with routing qualification",
+      "Save root LEXICON.md andviews before researching FX2000"
+    ],
+    "no_files_downloaded": true
   }
 }
