@@ -137,7 +137,7 @@ Only original document body used;no generated mirror FAQs, file downloads, visua
 | Field | Published regional evidence / qualification |
 |---|---|
 | Analog levels / conversion | [Electori exact model](https://www.electori.co.jp/tc-helicon/vocal/voicelive_play.php): mic impedance **2.14kohm balanced/1.07kohm unbalanced**, input level **−42 to+13dBu**; AUX **+2dBu**. XLR output impedance **80ohm balanced/40ohm unbalanced**, **+2dBu at0dBFS**. **24-bit AD/DA,128× oversampling**, published SNR110/115dB respectively. These are analog/converter specifications,not USB sample format. Regional evidence,not measurement or independent manufacturer-endpoint corroboration. |
-| USB / connector wording conflict | Same regional page labels **USB-B** for firmware,presets,audio I/O; original rear-panel record identifies **Mini-B**. Keep the wording difference explicit pending connector corroboration. USB channel count,sample rate/bit depth,CPU/mobile compatibility and bus powering remain unverified. |
+| Audio / USB connector wording conflict | Same regional page labels **USB-B** for firmware,presets,audio I/O; original rear-panel record identifies **Mini-B**. Keep the wording difference explicit pending connector corroboration. USB channel count,sample rate/bit depth,CPU/mobile compatibility and bus powering remain unverified. |
 
 Earlier12V power and regionaldimensions/phantom observations remain qualified above; no new hardware test or file download.
 
