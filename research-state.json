@@ -62100,5 +62100,24 @@
     "result": "No qualified new exact hardware offer. Later queries returned existing Blackbox/Cube Baby/MK300 titles, MIDI controllers/wireless systems and unrelated M5 cameras, not M5/MP80/DNAfx/MG60 processor evidence.",
     "limits": "Search coverage only, not model absence or exhaustive market proof; no accessory price enters active comparisons",
     "next": "Use broader eligible hardware series queries and exact listing inspection; G3n/GP200 panel counts remain unknown"
+  },
+  "mp350_seven_access_20261017": {
+    "url": "https://shopee.co.id/Hotone-MP-350-MP350-Ampero-II-Multieffects-Pedal-i.16879370.48255478715",
+    "seller": "Seven Stereo Music & Audio Store",
+    "shop": "16879370",
+    "item": "48255478715",
+    "idr": 11900000,
+    "region": "Kota Bandung",
+    "access": "Directnowreadable,lastmonthcrawlSep8–10delivery versus2monthsearchAug19–20",
+    "condition": "unknown",
+    "stock": "unknown",
+    "limits": "Existingoffer,noduplicate;notlive/new/usedproof;bundlewarrantyshippingtaxcheckoutunknown",
+    "discovery_queries": [
+      "site:shopee.co.id \"Valeton\" \"GP-300\"",
+      "site:shopee.co.id \"Mooer\" \"GE350\"",
+      "site:shopee.co.id \"Sonicake\" \"Matribox III\"",
+      "site:shopee.co.id \"Hotone\" \"Ampero II\""
+    ],
+    "next": "Continue other eligible series discovery; unresolved physical counts remain"
   }
 }

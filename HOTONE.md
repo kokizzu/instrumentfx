@@ -420,6 +420,15 @@ Checked2026-10-17 against [original V1.0.2 manual](https://manualzz.com/doc/8050
 
 Latest1.4.0 document contents remain unverified:dynamic support links were not exposed by web text,andbrowser inventory showed no available browser. No software orPDF downloaded. Continue other useful research rather than repeatedly reopening the same unavailable link.
 
+### MP-350 — Seven Stereo access qualification
+
+Checked2026-10-17. Existing exact item, not another model or offer.
+
+| Field | Current evidence / qualification |
+|---|---|
+| IDR / exact Seven Stereo retail ask | **Rp11.900.000**, [Seven Stereo Music & Audio Store, shop16879370/item48255478715](https://shopee.co.id/Hotone-MP-350-MP350-Ampero-II-Multieffects-Pedal-i.16879370.48255478715), Kota Bandung. Direct text is now readable, superseding only the historical failed-open access status. Direct crawl lastmonth with8–10September delivery, versus search2months/19–20August: both stale. Condition, working state, stock, bundle/adapter, warranty, shipping/tax and checkout total remain unverified. Late-arrival compensation is not an upfront discount. |
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
