@@ -750,13 +750,6 @@ Checked **2026-10-16**; cached exact hardware bodies, not live checkout/stock. N
 | Voucher-conditional / Boss Official Shop, Tangerang Selatan | Rp7.907.500 Dengan Voucher; same-day relative delivery. Eligibility and undiscounted price unexposed. Earlier Rp7.641.500 Habis retained; new body does not establish stock. Separate Belanja Rp30RB Diskon99% banner not accepted as hardware discount. | [341882414 /25839476168](https://shopee.co.id/BOSS-GX-10-Guitar-Effects-Processor-i.341882414.25839476168) |
 | Historical only / Red Musik Bali | Earlier Rp7.948.000 Habis; direct reopen cache miss, not fresh price verification. | [198150809 /26419884836](https://shopee.co.id/Boss-GX-10-Efek-Gitar-Proccesor-GX10-Guitar-Effect-Proccesor-GX-10-i.198150809.26419884836) |
 
-### GT-001 — wah choices and expression assignment, 2026-10-17
-
-| Field | Verified choices / operating requirement |
-|---|---|
-| Processing / wah | [Own parameter guide, indexed p. 20](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf) lists **six wah types**: Cry, VO, Fat, Light, 7String and Reso. These are alternative sounds within the wah effect, not six simultaneous blocks. |
-| Expression / wah control | Set the external expression pedal function to **WAH or WAH/FV** for real-time wah control through CTL/EXP. Pedal position and heel/toe endpoint parameters each span 0–100. A toe-position parameter does not establish a physical toe switch. |
-
 <!-- comparison evidence ends -->
 
 [GX10-IR]: https://static.roland.com/manuals/gx-10_bts_pc/en-US/141904267164166795.html
@@ -2635,6 +2628,13 @@ The driver page refers detailed configuration to packaged/post-install readmes. 
 |---|---|
 | USB audio / recording count | [Original model brochure, p. 2](https://cdn.roland.com/assets/media/pdf/gt-001_brochure.pdf) explicitly describes **four recording channels, two dedicated to dry audio**. Together with the PRIMARY/SECONDARY routing evidence above, this resolves DAW capture capacity; it does not independently specify the number of playback channels or permit simultaneous guitar/mic input. |
 | Factory / memory reset | [Official owner’s manual, indexed p. 12](https://cdn.roland.com/assets/media/pdf/GT-001_OM.pdf) allows reset selection spanning system parameters, User Quick Settings and user patches U001–U200. WRITE prepares the reset and ENTER executes it; EXIT cancels beforehand. Selected saved settings are overwritten; back up needed data through the dedicated software. This does not prove every initial user slot contains a unique factory sound. |
+
+### GT-001 — wah choices and expression assignment, 2026-10-17
+
+| Field | Verified choices / operating requirement |
+|---|---|
+| Processing / wah | [Own parameter guide, indexed p. 20](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf) lists **six wah types**: Cry, VO, Fat, Light, 7String and Reso. These are alternative sounds within the wah effect, not six simultaneous blocks. |
+| Expression / wah control | Set the external expression pedal function to **WAH or WAH/FV** for real-time wah control through CTL/EXP. Pedal position and heel/toe endpoint parameters each span 0–100. A toe-position parameter does not establish a physical toe switch. |
 
 <!-- comparison evidence ends -->
 
