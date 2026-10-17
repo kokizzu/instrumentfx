@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Play",
-    "task": "Eight-query VoiceTone/Create/VocalistLive4/BP50/AX3B/506 bass discovery yielded no qualified new multifx item;generic TC category accessories excluded. Next read VoiceLive Play own record and verify unresolved power/control/USB fields from exact manufacturer manual. No downloads. Commit before next.",
+    "task": "VoiceLivePlay v2.0 mono USB input selection and persistent Switch3 UPDN remapping saved. Next verify current original manufacturer firmware/looper orUSB specifications via webtext; preserve v1/v2 revisions and regional≥400 versusQSG>400 distinction. No downloads. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -45275,7 +45275,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Play."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56655,6 +56655,12 @@
       "checked_date": "2026-10-18",
       "finding": "Fullownmanualcopy p17 DOUBLE/HARMONY table:Double,key-based-1to+1oct,Unison;DoubleLightNormalDeep;HrmLevel/Gender/Key/DirectLevel intervalorUnison-only. Intermediateintervals notenumerated;no chromaticmenu inference.",
       "source": "https://www.scribd.com/document/467271239/VE-5-OM"
+    },
+    {
+      "model": "TC-Helicon VoiceLive Play",
+      "checked_date": "2026-10-18",
+      "finding": "Originalv2.0 manualp12 USBLeft/Right selectable monoDAW vocalinput;not fullformat/channel specification. MP75 defaultsHIT. p5Switch3record/play/overdub,stop/holdclear,undo;connection setsUPDNKeyScale anddisconnect doesnotrestoreLooping.",
+      "source": "https://manualzz.com/doc/9871012/tc-helicon-voicelive-play-user-manual"
     }
   ],
   "discovery_cross_brand_bass": {
