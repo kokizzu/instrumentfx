@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Roland VT-4",
-    "task": "New vocal-only VT-4 profile from own product and2exactShopeeitems. Next own originalmanual controls/routing/USBstreams;do not download. Condition/currentstock,expression,display,imports/editor remain.",
+    "task": "VT-4 own eng04 manual controls4/0/10+4sliders+3switches,6playback/6recording USB routes,eight writable scenes andanalog routing saved. Next originalmanual MIDI harmony/bypass constraints orfresh Shopee discovery. USB streamrates,display,expression,imports/editor,fullconcurrency andqualifiedoffers remain.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery and legacy consolidation;no workflows/downloads/push."
   },
@@ -58988,6 +58988,45 @@
       "Displaydiagonal/color/touch",
       "Languageconflicts",
       "Conditionandcheckoutstock"
+    ],
+    "downloads": false
+  },
+  "vt4_manual_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/VT-4_eng04_W.pdf",
+    "revision": "eng04;copyright2018",
+    "controls": {
+      "rotary": 4,
+      "footswitch": 0,
+      "buttons": 10,
+      "sliders": 4,
+      "switches": 3
+    },
+    "usb": {
+      "playback": 6,
+      "recording": 6,
+      "playback_pairs": [
+        "OUT",
+        "TO MIC IN",
+        "TO CARRIER"
+      ],
+      "recording_pairs": [
+        "MIX",
+        "WET",
+        "DRY"
+      ]
+    },
+    "scenes": {
+      "writable": 8,
+      "factory_fill": "unverified"
+    },
+    "routing": "Mono wetL/dryR;phantomXLRonly;monitor mode fixes line level",
+    "remaining": [
+      "USBstreamrates",
+      "Display",
+      "Expression",
+      "Imports/editor",
+      "Fullconcurrency",
+      "Condition/currentstock"
     ],
     "downloads": false
   }

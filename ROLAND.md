@@ -167,3 +167,16 @@ Official manual and block-diagram links resolve to license/download landing page
 [VT4-M]: https://www.roland.com/global/support/by_product/vt-4/owners_manuals/6e169479-30a6-409c-8c61-7d46e579b817/
 [VT4-O1]: https://shopee.co.id/Roland-VT-4-Voice-Transformer-Vocoder-Audio-Mixer-i.385085845.26407462614
 [VT4-O2]: https://shopee.co.id/VITA_-Roland-VT-4-Voice-Transformer-Vocoder-Audio-Mixer-i.1527910455.42457599076
+
+### VT-4 — original manual controls and routing, 2026-10-17
+
+[Roland’s original eng04 manual][VT4-OM] was read as browser text. This resolves selected first-pass unknowns; no file download,driver installation or hardware operation occurred.
+
+| Field | Verified finding / qualification |
+|---|---|
+| Controls / K/F/B | **4 rotary /0 footswitches /10 buttons**, text-inventory count: VOLUME,MIC SENS,KEY,AUTO PITCH;ROBOT,MEGAPHONE,MANUAL,BYPASS,HARMONY,VOCODER plus4scene buttons. Separately **4 sliders** and **3 switches** (LINE OUT,PHANTOM,POWER). [pp1–3][VT4-OM] |
+| USB audio / channel routing | **6 playback +6 recording channels**. Playback1–2 goes directly to outputs,3–4 feeds mic processing,5–6 provides external vocoder carrier when enabled. Recording1–2=MIX,3–4=WET,5–6=DRY. Driver required by this manual;stream-rate matrix still unresolved. [p8][VT4-OM] |
+| Preset / scene storage | **8 writable scenes**:buttons1–4;MANUAL+button accesses5–8. Computer backup/restore supported;factory-filled subset remains unresolved. [pp6,10][VT4-OM] |
+| I/O / analog routing | STEREO sends stereo;MONO separates processed L and unprocessed R. Phantom applies to rear XLR,not TRS. Monitor mode fixes line level while VOLUME controls phones. [pp2,9][VT4-OM] |
+
+[VT4-OM]: https://static.roland.com/assets/media/pdf/VT-4_eng04_W.pdf
