@@ -61788,5 +61788,39 @@
     ],
     "limits": "Manufacturerindexedtext;notinstalledfirmwareverification",
     "next": "G3n physical control inventory and category choices; fresh discovery"
+  },
+  "g3n_category_inventory_20261017": {
+    "source": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+    "revision": "2017 shared effect list pp3–6",
+    "dynamics": [
+      "Comp",
+      "RackComp",
+      "SlowATTCK",
+      "ZNR",
+      "MuteSW",
+      "GrayComp",
+      "NoiseGate",
+      "OptComp",
+      "BlackOpt",
+      "LMT-76"
+    ],
+    "filter": [
+      "AutoWah",
+      "Resonance",
+      "Cry",
+      "SeqFLTR",
+      "Gt GEQ",
+      "Gt GEQ7",
+      "St Gt GEQ",
+      "ParaEQ",
+      "EG FLTR",
+      "RndmFLTR",
+      "LowPassFL",
+      "Exciter",
+      "Step",
+      "LFO FLTR"
+    ],
+    "limits": "SharedlibraryrevisionnotG3nfactorypreload/currentinstalledtotal; additionsdistinctfromsimultaneouscapacity",
+    "next": "Continue DRIVE/AMP/CAB/MOD/SFX/DLY/RVB/PEDAL inventories and physical controls; fresh discovery"
   }
 }
