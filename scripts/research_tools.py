@@ -511,7 +511,7 @@ def main():
         if mode == 'commit-dapper-acoustic-mini':
             message = 'research(valeton): clarify Acoustic Mini tuner indicators and headphone control'
         if mode == 'commit-dapper-mini':
-            message = 'research(valeton): add Dapper Amp Mini with cab simulation conflict'
+            message = 'research(valeton): retain Amp Mini parameter and amp model evidence'
         if mode == 'commit-dapper-bass-mini':
             message = 'research(valeton): corroborate MES-2 manual and clarify comparison record'
         if mode == 'commit-dapper-bass':

@@ -1100,6 +1100,10 @@ Checked2026-10-17;partial. Guitar multi-effects;discontinued. Bass/vocal suitabi
 | K/F/B | Text-derived10rotaries:amp5,FX3,reverb1,phones1;3footswitches. Toggles separate;button total/visual corroboration pending. [Manual][DAM-M] |
 | Display | 7bicolor note LEDs:blue natural/green sharp;3pitch LEDs:red flat/sharp,green tuned. Diagonal/touch unverified. [Manual][DAM-M] |
 | Processing / categories | AMP9(3channels×3types),FX selects chorus/delay/tremolo,one hall-like REVERB. Simultaneous ceiling unresolved. [Manual][DAM-M] |
+| Controls / FX parameters | LEVEL adjusts effect amount;DEPTH/FB is chorus/tremolo depth or delay feedback;RATE/TAP is chorus/tremolo speed or delay interval. Numeric delay/rate limits unverified. REVERB adjusts amount;PHONES adjusts headphone volume. [Manual][DAM-M] |
+| Controls / amp channels | CLEAN green,DRIVE yellow,HIGAIN red. TYPE selects British/American/Modern;CHANNEL moves forward/back. VOL output,GAIN gain,BASS/MID/TREBLE EQ. Hold bypass;tap reactivates. [Manual][DAM-M] |
+| Processing / named amp models | Own list names Fender65TwinReverb,VoxAC30,RolandJC120,MesaMarkIIC+,MarshallJTM45,OrangeAD30,MesaDualRectifier,FriedmanBE100,DiezelVH4. Extracted columns do not securely establish every channel/type pair;names retained without guessed mapping. [Manual table][DAM-M] |
+| I/O / cabinet response | Amp-model changes affect cabinet-sim sound at both PHONES and OUT. This does not resolve whether CAB SIM toggle affects PHONES;the manual conflict remains. [Manual][DAM-M] |
 | Preset memory | AMP settings automatically saved when selecting channels;full preset/factory/user counts and FX/reverb recall unverified. [Manual][DAM-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. [Manual][DAM-M] |
 | I/O | INPUT,OUT,PHONES,DC;connector sizes/balancing unresolved. OUT CAB SIM switchable;diagram says PHONES fixed,but note says toggle affects PHONES. Preserve conflict. [Manual][DAM-M] |
@@ -1120,7 +1124,7 @@ Checked2026-10-17;partial. Guitar multi-effects;discontinued. Bass/vocal suitabi
 
 Checked2026-10-17;historical asks,not live checkout/stock. No qualified used/new allocation;variant,bundle,workingcondition,authenticity,warranty,shipping/tax/vouchers unresolved.
 
-Own2-page V01_200414 manual text read;no download/visual inspection. Cab-toggle conflict remains unresolved. Amp-model table names await careful type/channel association from readable layout.
+Own2-page V01_200414 manual text read;no download/visual inspection. Cab-toggle conflict remains unresolved. Amp-model names retained;exact channel/type association still needs readable layout corroboration.
 
 [DAM-P]: https://www.valeton.net/product/dapper-amp-mini/
 [DAM-M]: https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf

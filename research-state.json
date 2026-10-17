@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Valeton Dapper Amp Mini",
-    "task": "Dapper Amp Mini added with own-manual phoneCABSIM conflict;next resolve channel/type mapping and FX controls without visual guesses,then defer remaining gaps and fresh discovery.",
+    "task": "Dapper Amp Mini parameter mappings and amp names saved;exact table associations and prior gaps deferred. Next fresh Shopee brand/series discovery without duplicating270records.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery;retain269record gaps;no downloads/workflows/push."
+    "after_queue": "Fresh Shopee discovery;retain270record gaps;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -55897,5 +55897,11 @@
     "manual": "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf",
     "saved": "AMP9/FX3/hallreverb,amp autosave scope,controls/tuner/bypass,phonescabconflict,axislabels and qualifiedasks.",
     "remaining": "Ampmodeltypeassociation,fullcontrolsvisual/buttons/expression,IOsizes/phonescabbehavior,memory/simultaneous/powerbarrelbatteryUSB,IR/editor/currentconditionprices."
+  },
+  "dapper_amp_mini_controls_checkpoint_20261017": {
+    "source": "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf",
+    "saved": "FX parameter mapping,amp controls/channelLEDs,nine named models without guessed row association,and model-dependent cabinet response.",
+    "deferred": "Exactchannel/type tablepairs,fullphysicalcontrolcounts/expression,IOsizes/phonescabswitchbehavior,memorysimultaneous,powerbarrelbatteryUSB,IR/editor/qualifiedoffers remain unresolved.",
+    "next": "Fresh Shopee brand/series discovery;do not repeat manual fetch without a new readable layout source."
   }
 }
