@@ -547,6 +547,19 @@ Checked2026-10-17, original list printed pp14–20. [Source][MP350-E11].
 This older census is not a current installed-library total. Firmware1.3.0 BassGrinderHQ remains a separately documented addition; no complete current DRV count inferred.
 
 
+### MP-350 — CAB census and IR boundaries, firmware1.1.0-JP
+
+Checked2026-10-17, original list printed pp55–61. [Source][MP350-E11]. Letter ranges below denote separate named entries.
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / Guitar Cab S | **30**: Voxy1x10 A/B, GRN, Custom; TWD1x10 standard/VN; Golden1x10; UK Custom1x12; TWD1x12 standard/Dlx; Black1x12 standard/Dlx A–C; Golden1x12; Boger2x12 A/B; Glacian2x12 A/B; Tang2x12 A/B; Messe2x12; Rector2x12 A–C; Voxy2x12 A/B/Cream/Green/Gold. |
+| Category choices / Guitar Cab L and Bass | **Large30**: Boger4x10 A/B; Super4x10 A/B; Boger,Dizzle,Eddie,Engle,Fryman4x12 A/B each; UK4x12 Cream/Check/Green/Custom/Vintage/Black/82; Tang4x12 A–C; Messe4x12 A/B; Rector4x12 A–D. **Bass8**: Ampage2x10 A–D and4x10 A–D. **68 CAB entries total**,all mono. |
+| Processing / CAB and IR distinction | Guitar cabs provide10 microphone selections and6 positions; bass cabs provide4 microphone selections,2 EQ voicings andSmooth. Parameters are not additional cabinets. Separate IR inventory contains10 acoustic and20 Celestion models plus50 user locations; user files require24-bit44.1kHz monoWAV. Resolution1024/2048 samples. Storage is not simultaneous capacity; older census does not prove current library retention. |
+
+Exact expanded cabinet names are retained in the root ledger. Acoustic IR names were recorded earlier; complete Celestion-name transcription remains open.
+
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "AMP/PRE AMP/CAB/IR/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh discovery",
+    "task": "Transcribe20CelestionIR names; AMP/PRE AMP/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh discovery",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -62399,5 +62399,106 @@
     "derived_total": 38,
     "limits": "All monoIO; internal modes not algorithms; BassGrinderHQ later delta not complete current census",
     "next": "AMP/PRE AMP/CAB/IR/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh discovery"
+  },
+  "mp350_cab_20261017": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "1.1.0-JP printed55–61",
+    "small_guitar": [
+      "Voxy 1x10 A",
+      "Voxy 1x10 B",
+      "Voxy GRN 1x10",
+      "Voxy Custom 1x10",
+      "TWD 1x10",
+      "TWD VN 1x10",
+      "Golden 1x10",
+      "UK Custom 1x12",
+      "TWD 1x12",
+      "TWD Dlx 1x12",
+      "Black 1x12",
+      "Black Dlx 1x12 A",
+      "Black Dlx 1x12 B",
+      "Black Dlx 1x12 C",
+      "Golden 1x12",
+      "Boger 2x12 A",
+      "Boger 2x12 B",
+      "Glacian 2x12 A",
+      "Glacian 2x12 B",
+      "Tang 2x12 A",
+      "Tang 2x12 B",
+      "Messe 2x12",
+      "Rector 2x12 A",
+      "Rector 2x12 B",
+      "Rector 2x12 C",
+      "Voxy 2x12 A",
+      "Voxy 2x12 B",
+      "Voxy Cream 2x12",
+      "Voxy Green 2x12",
+      "Voxy Gold 2x12"
+    ],
+    "large_guitar": [
+      "Boger 4x10 A",
+      "Boger 4x10 B",
+      "Super 4x10 A",
+      "Super 4x10 B",
+      "Boger 4x12 A",
+      "Boger 4x12 B",
+      "Dizzle 4x12 A",
+      "Dizzle 4x12 B",
+      "Eddie 4x12 A",
+      "Eddie 4x12 B",
+      "Engle 4x12 A",
+      "Engle 4x12 B",
+      "Fryman 4x12 A",
+      "Fryman 4x12 B",
+      "UK Cream 4x12",
+      "UK Check 4x12",
+      "UK Green 4x12",
+      "UK Custom 4x12",
+      "UK Vintage 4x12",
+      "UK Black 4x12",
+      "UK 82 4x12",
+      "Tang 4x12 A",
+      "Tang 4x12 B",
+      "Tang 4x12 C",
+      "Messe 4x12 A",
+      "Messe 4x12 B",
+      "Rector 4x12 A",
+      "Rector 4x12 B",
+      "Rector 4x12 C",
+      "Rector 4x12 D"
+    ],
+    "bass": [
+      "Ampage 2x10 A",
+      "Ampage 2x10 B",
+      "Ampage 2x10 C",
+      "Ampage 2x10 D",
+      "Ampage 4x10 A",
+      "Ampage 4x10 B",
+      "Ampage 4x10 C",
+      "Ampage 4x10 D"
+    ],
+    "counts": {
+      "small": 30,
+      "large": 30,
+      "bass": 8,
+      "total": 68
+    },
+    "microphones": {
+      "guitar": 10,
+      "positions": 6,
+      "bass": 4
+    },
+    "ir": {
+      "acoustic": 10,
+      "celestion": 20,
+      "user_locations": 50,
+      "format": "24bit44.1kHz monoWAV",
+      "resolution": [
+        1024,
+        2048
+      ]
+    },
+    "limits": "All CAB mono; mic modes not additional cabinets; slots not stock algorithms or concurrency; current retention unverified",
+    "next": "Transcribe20CelestionIR names; AMP/PRE AMP/MOD/DLY/RVB inventories; corroborate utility Stage wording; currentrevision reconciliation; fresh discovery"
   }
 }
