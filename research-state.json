@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line6 Floor POD Plus",
-    "task": "FloorPODPlus124editable/factorysame slots andFX16/delay6/reverbautoassignment saved. Next verify powerPX2electricalratings,dimensions/mass,editorOS;enumerate32amp/16cabselections ifuseful. Aggregate simultaneous count stillunverified.",
+    "task": "FloorPODPlusnamedPX2=9VAC2A supply chain and editoridentity saved;Englishownmanual located. Next cross-check Englishmanual forpower/dimensions and32amp/16cabinventory;VyzexOSremainsunverified. Do not borrowJM4unitfeatures.",
     "next_models": [],
     "after_queue": "289partialmodels;no downloads/workflows/push."
   },
@@ -58005,6 +58005,20 @@
     "delay_count": 6,
     "reverb": "Spring/Room autoassignedbyamp",
     "comp": "5activeratios+off",
+    "downloads": false
+  },
+  "floorpodplus_supply_editor_20261017": {
+    "supply": "https://kb.line6.com/jm4-faq",
+    "chain": "FloorPODPlusownFAQspecifiesPX2;JM4FAQspecifiesnamedPX2=9VAC2A2.5mm;notunitdraw",
+    "editor": "https://line6.com/customtone/help/editors.html",
+    "qualification": "SeparateVyzexversions;JavaLine6EditinstructionsnotVyzexOSproof",
+    "english_manual": "https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf",
+    "remaining": [
+      "Dimensions/mass",
+      "VyzexOS",
+      "Actualdraw/batteries",
+      "Simultaneouscount"
+    ],
     "downloads": false
   }
 }

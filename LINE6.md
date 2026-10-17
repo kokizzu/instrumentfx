@@ -1482,3 +1482,13 @@ Checked2026-10-17;[SpanishRevB][FPP-M],sections3•1–3•6,4•1–4•3.
 | Processing / delay-reverb | Delay choices:Tape,Multi-Tap,Digital,Reverse,SweepEcho,Analog. Reverb is Spring orRoom,automatically assigned by amp model;not established as freely selectable independently. Compressor offers five active ratios(1.4:1,2:1,3:1,6:1,infinity:1),plusoff. |
 | Factory / user memory | All124 channels editable;Save,choosebank1–31/channelA–D,confirm. Turning a knob or waiting5s cancels saving. Custom default settings for currentamp/FX/delay can also be saved;these do not add channel slots. |
 | Preset / live | HoldSave2s entersCompare;indicators compare knob position with stored value. Manual mode uses physical knob positions;exiting recalls the last channel. |
+
+### Floor POD Plus — supply identity and editor boundaries
+
+Checked2026-10-17.
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / adapter | [Own-model FAQ][FPP-F] requires PX-2. [Line6's PX-2 specification in its JM4 FAQ](https://kb.line6.com/jm4-faq) identifies that named adapter as **9VAC,2000mA,2.5mm diameter**. This establishes compatible supply identity/rating,not FloorPODPlus measured current draw or any JM4 battery/connector/function claim. DC centre polarity does not describe an AC output. Regional mains rating and FloorPODPlus battery support remain unverified. |
+| Editor / software identity | [Official editor guide](https://line6.com/customtone/help/editors.html) assigns separate Vyzex versions to PocketPOD andFloorPODPlus. Its Windows/Mac Java instructions concern Line6Edit,not Vyzex;do not transfer those requirements. Exact Vyzex OS/version compatibility remains unverified;community reports are not manufacturer support guarantees. |
+| Documentation | [Own English Pilot's Guide](https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf) located/read as36-page official PDF;available for subsequent cross-checks. SpanishRevB remains the explicitly identified source for earlier facts. |
