@@ -2629,6 +2629,18 @@ Checked2026-10-17 against [eng04_W][AD10-PDF],printed pp7,9–10.
 | Processing / choices | Named choices above exclude bypass. Ambience selects reverberation length,not documented room/hall algorithms. Category counts do not establish a total simultaneous-block limit. |
 | Looper / controls | DELAY+TUNER&MUTE enters loop operation;TUNER&MUTE records,plays,and overdubs. Stop requires two presses;clear requires holding LOOP at least2s while stopped. Sequence defaults record→play→overdub;record→overdub→play is selectable. Playback level50 is unity. Power-off phrase retention,undo/redo,and phrase export remain unverified. |
 
+### AD-10 — feedback, input EQ and output-level options
+
+Checked2026-10-18 against [eng04_W manual pp7–8,10–12][AD10-PDF]. No hardware operation or downloads.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / feedback filters | TwoNOTCH filters specify **A♯1–F7**; pressingbothNOTCHbuttons scansfeedback automatically. Individualnotchdepth1–20; REDUCTION independentlytargets low-frequencyfeedback. Rangeis acontrolspecification,not guaranteedeliminationofallfeedback or extraaudioinputs. |
+| I/O / independent input EQ and phase | GUITAR IN1/2 canhaveindependentEQ; withinthatsetup FX LOOPbutton reverses selectedinputphase. EQsubparametersinclude **midQ0.5–16** andnoise-suppressionamount. This isnot documented freechainreordering or twocompleteindependenteffectsengines. |
+| I/O / fixed output levels | XLRlevel andheadphonelevel eachselect **fixed0–99 orfollowOUTPUT LEVEL knob**. Thesearecontrolvalues,notdBu. They areseparatefromloopplaybacklevel andUSBinput/outputlevels. |
+| Power / automatic shutdown | FactoryAutoOff shutsdownafter **10hours withoutplaying/operation**; disableoptionavailable. This doesnot resolve looppersistence afterpowerloss or replace thesix-houralkalineestimate. |
+
+
 ## ME-5
 
 Guitar multiple effects,1988–1992;checked2026-10-17;partial. [Own Roland specifications][ME5-P],updated2024-06-26. Bass/vocal capability andownership unverified.
