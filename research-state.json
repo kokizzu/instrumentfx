@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "HX Effects",
-    "task": "Continue exact manufacturer evidence for unresolved fields and fresh eligible Shopee discovery; HX Effects 3.80 controller/stereo behavior now recorded.",
-    "next_models": [],
-    "after_queue": "Continue catalogue research; no downloads, workflows or push."
+    "model": "Fractal FM3 MKII Turbo",
+    "task": "Read official FM3 downloads/manual and exact Turbo revision; create full partial root FRACTAL-AUDIO.md profile with qualified Shopee offers, update inventory/comparisons, commit before researching Kemper Player.",
+    "next_models": [
+      "Kemper PROFILER Player"
+    ],
+    "after_queue": "Fresh eligible Shopee discovery and remaining technical gaps; no downloads, workflows or push."
   },
   "new_findings": [
     {
@@ -23758,6 +23760,25 @@
       "url": "https://shopee.co.id/EFEK-ZOOM-GFX-5-NORMAL-JAYA-i.240675127.41070755630",
       "checked_date": "2026-10-17",
       "qualification": "Searchonly1200000Habis3monthcache,johndheJepara;notyetdirect/manufacturerverified."
+    },
+    {
+      "model": "Fractal FM3 MKII Turbo",
+      "checked_date": "2026-10-17",
+      "status": "queued exact hardware; not active inventory yet",
+      "url": "https://shopee.co.id/Fractal-FM3-MKII-Turbo-Amp-Modeler-Multi-FX-i.11170212.27200713719",
+      "indexed_idr": 25552000,
+      "seller": "Hurtrock Music Store Bandung",
+      "qualification": "Three-month indexed body says preorder7days with22July delivery; direct open yields JavaScript shell only. New/used,bundle,warranty,voucher,current stock unknown. Separate seller182719800/item55801628505 same ask says Habis; do not merge stock states.",
+      "manufacturer": "https://www.fractalaudio.com/fm3/"
+    },
+    {
+      "model": "Kemper PROFILER Player",
+      "checked_date": "2026-10-17",
+      "status": "queued exact hardware; not active inventory yet",
+      "url": "https://shopee.co.id/KEMPER-PROFILER-Player-Guitar-Amp-Pedal-i.16879370.24561694371",
+      "indexed_idr": 13134000,
+      "seller": "Seven Stereo Music & Audio Store",
+      "qualification": "KotaBandung; direct reader returns exact hardware title and ask but stale30August delivery. Condition,stock,paidLevelupgrades,bundle,warranty,voucher unknown. Official product page redirected to regional shell; primary manual research required."
     }
   ],
   "inventory_by_brand": {
@@ -63125,5 +63146,25 @@
     "pages": "40–43",
     "scope": "Stereo collapse/Legacy family behavior, automatic EXP assignments, per-switch momentary/latching, reserved MIDI CCs, clearing scope, Command Center storage/transmission/snapshot behavior.",
     "limits": "Not installed firmware or hardware validation; no additional independent expression sockets inferred."
+  },
+  "discovery_frontier_20261017_fractal_kemper": {
+    "checked": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"RP50\"",
+      "site:shopee.co.id \"Korg\" \"AX1500B\"",
+      "site:shopee.co.id \"Zoom\" \"BFX-708\"",
+      "site:shopee.co.id \"Vox\" \"StompLab 1B\"",
+      "site:shopee.co.id \"Kemper\" \"Player\"",
+      "site:shopee.co.id \"Fractal\" \"FM3\"",
+      "site:shopee.co.id \"Valeton\" \"GP-300\"",
+      "site:shopee.co.id \"HeadRush\" \"Looperboard\""
+    ],
+    "result": "First batch empty. Second found exact FM3 MKII Turbo and PROFILER Player hardware leads. No active model count increment before complete first-pass records. Preset packs, acrylic covers and Kemper Remote rejected.",
+    "manufacturer_identity": {
+      "model": "Fractal FM3 MKII Turbo",
+      "url": "https://www.fractalaudio.com/fm3/",
+      "finding": "Official current page identifies MKII Turbo, July2023 revision, over10% extra DSP and larger footswitch displays versus original. Explicit guitar/bass multi-effects, 4x4 USB audio, two pedal/switch jacks, three footswitches, 1024 user IRs. Full manual/panel/specification verification next; original FM3 listing not merged."
+    },
+    "limits": "Indexed offers and cached direct body are not live stock, condition, authenticity, warranty or bundle certification."
   }
 }
