@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 607",
-    "task": "607 categories and factory-filled memory saved. Next pedal switching/calibration and support/import qualifications, then fresh Shopee discovery. Preserve unresolved field and mixed-price limits.",
+    "model": "Fresh Shopee discovery",
+    "task": "606/607 useful findings committed; retain their explicit remaining gaps. Search Shopee Indonesia by brand/series for unrecorded eligible hardware, resolve exact links before specifications. No downloads/workflows/push.",
     "next_models": [],
     "after_queue": "Zoom606/607 exact mixed-model item shop703817770/item20045443371 saved; no model-specific price. Preserve all deferred model gaps. No downloads, workflows or push."
   },
@@ -41329,7 +41329,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 607."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -54485,5 +54485,18 @@
     "pages": "22,26–37",
     "evidence": "11 DRIVE and 13 MOD/PITCH alternatives, dynamics/wah, EQ/amp/ZNR choices, delay limits and 42 factory-filled rewritable patches. AC Drive is overdrive, not acoustic conversion.",
     "remaining": "Pedal switching, support/import/display and exact offers remain partial."
+  },
+  "zoom607_controls_checkpoint_20261017": {
+    "manual": "https://zoomcorp.com/media/documents/E_607.pdf",
+    "support": "https://zoomcorp.com/en/us/multi-effects/bass-effects/607/607-support/",
+    "evidence": "Own manual pedal assignment, full-down switching except Volume, auto-enable/re-disable, bypass Volume and per-patch persistence; calibration switching point. Support manual-only listing is not proof no editor ever existed.",
+    "remaining": [
+      "IR/NAM/import/capture support",
+      "Editor/OS support",
+      "Visual panel/display corroboration",
+      "Actual current draw",
+      "Exact condition-specific offers",
+      "Other saved technical gaps"
+    ]
   }
 }

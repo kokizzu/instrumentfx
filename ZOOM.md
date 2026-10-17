@@ -2261,7 +2261,7 @@ Checked 2026-10-17; partial. Officially bass-focused; seller’s guitar title do
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in pedal with module on/off switch. External EXP absent from complete connector inventory; detailed switching pending. | [Manual pp6–7][Z607-M] |
+| Expression | Built-in pedal with **full-down module switching**, except Volume. External EXP absent from complete connector inventory. | [Manual pp6–11][Z607-M] |
 | K/F/B | **2 rotary / 2 footswitches / 6 buttons**: Play/Edit, Drive; patch pair; Store, Pedal Assign, Value±, Gain±. Pedal switch separate; visual corroboration pending. | [Manual pp6–7][Z607-M] |
 | Display | Two-digit seven-segment LED; diagonal/color/touch unresolved. | [Manual p38][Z607-M] |
 | Processing / categories | **35 effects, nine simultaneous effects, eight simultaneous modules**; detailed category catalogue pending. | [Manual p38][Z607-M] |
@@ -2270,13 +2270,15 @@ Checked 2026-10-17; partial. Officially bass-focused; seller’s guitar title do
 | Categories / EQ and amp | Four-band EQ: **50 patterns** plus Contour. Box, Combo or Stack bass amp simulation, each with/without ZNR; ZNR alone also available. | [Manual pp29–30][Z607-M] |
 | Categories / MOD-PITCH | **13 alternatives**: Chorus1/2, Flanger, Phaser, Step, Cry1/2, Defret, Bass Synth, Octaver, Octaver→Chorus, Pitch Shift, Pedal Pitch. Pitch Shift has nine patterns. | [Manual pp31–35][Z607-M] |
 | Categories / delay-reverb | Delay, Echo, Hall or Room; Delay/Echo **10–370 ms**, 10 ms steps, stereo ping-pong. Reverb time 1–10 is not a seconds specification. | [Manual pp36–37][Z607-M] |
+| Expression / assignments | WAH, DRIVE, MOD/PITCH, DLY/REV or Volume; all LEDs off disables expression. Assigning an inactive module enables it; moving assignment away switches it off again. Bypass automatically assigns Volume. Assignment and module state save per patch. | [Manual pp10–11][Z607-M] |
+| Expression / calibration | Calibration defines the module switching point; a higher pedal position permits lighter switching. This adjustment does not create a separate main footswitch. | [Manual p23][Z607-M] |
 | Preset memory | **42 rewritable, factory-filled patches**, seven banks of six. Individual factory recall or full initialization; no separate additional preset bank. | [Manual pp22,38][Z607-M] |
 | Synth / acoustic | Bass Synth with nine character/blend patterns, best for single notes. Acoustic simulation unresolved; an ACOUSTIC patch name alone is insufficient. | [Manual pp32–33,patch list][Z607-M] |
 | I/O | Mono bass input; combined stereo line/headphone output; DC input. | [Manual pp6–7,38][Z607-M] |
 | Power / battery / USB | **9 V DC, center-negative, 300 mA adapter specification**; actual draw unresolved. Four AA; approximately 24 hours alkaline/7 manganese. USB absent from connector inventory. | [Manual pp6–7,38][Z607-M] |
 | Dimensions / mass | **233 W × 159 D × 54 H mm; 600 g without batteries**. Preserve own-manual axes; do not substitute 606 labels. | [Manual p38][Z607-M] |
 | IR / NAM / capture | Import and capture support unresolved. | Unresolved |
-| Editor / platforms | Editor and OS support unresolved. | Unresolved |
+| Editor / platforms | Official support page lists the manual, with no model-specific editor, driver or updater entry. Generic Bundled Software navigation does not establish 607 compatibility. Historical/current editor and OS support remain unverified. | [Support][Z607-S] |
 | Live / practice | Bass chromatic tuner; looper/drums/scenes unresolved. | [Manual p3][Z607-M] |
 
 ### Separate IDR hardware offers
