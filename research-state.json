@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Discovery: legacy Zoom and other uncovered series",
-    "task": "Fresh indexed Shopee pass saved in discovery_legacy_zoom_frontier_20261017. Resolve exact G1XNext/B1XNext/G2.1Nu items or broaden series;shop-card mixed prices are unallocated and newer store omits them. No new model counted.",
+    "model": "Line 6 POD HD300",
+    "task": "Exact sold-out Shopee HD300 item and separate unallocated four-model listing saved in discovery_hd300_20261017. Open own RevC manual and shared advanced guide with model-specific distinctions,then add/commit useful canonical record before next model.",
     "next_models": [],
-    "after_queue": "Continue manufacturer verification on exact qualified leads;272records partial;no downloads/workflows/push."
+    "after_queue": "Fresh discovery continues;272records partial;legacy Zoom leads remain unqualified;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -56265,5 +56265,40 @@
     ],
     "limits": "Limited indexed search;no exact new Indonesianhardwareitem qualified. Not evidence of market absence. No files downloaded.",
     "next": "Search exact G1XNext/B1XNext/G2.1Nu item paths or other eligible series;do not promote shop-card asks to model prices."
+  },
+  "discovery_hd300_20261017": {
+    "checked": "2026-10-17",
+    "model": "Line 6 POD HD300",
+    "unrecorded": true,
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Line6-POD-HD300-Digital-Multy-Effect-Guitar-i.504301607.29822606720",
+        "seller": "mendemkaset",
+        "shop": "504301607",
+        "item": "29822606720",
+        "region": "Kab. Tulungagung",
+        "idr": 1500000,
+        "stock": "Habis indexed",
+        "condition": "unverified",
+        "crawl": "two months"
+      },
+      {
+        "url": "https://shopee.co.id/Efek-Gitar-Line6-POD-HD300-HD400-HD500-HD500X-i.703817770.24703618953",
+        "seller": "Hope Music",
+        "shop": "703817770",
+        "item": "24703618953",
+        "region": "Kota Bandung",
+        "idr": 3699000,
+        "variations": 4,
+        "allocation": "Unallocated across HD300/400/500/500X;not HD300 price",
+        "crawl": "four months",
+        "stock": "unverified",
+        "condition": "unverified"
+      }
+    ],
+    "manufacturer_source": "https://line6.com/data/6/0a060b316ac34f05937e126fa/application/pdf/POD%20HD300%20Quick%20Start%20Guide%20-%20English%20%28%20Rev%20C%20%29.pdf",
+    "primary_indexed_evidence": "Own HD300 Pilot Handbook RevC:FX1gain/various/pitch,FX2mod/filter/tremolo,FX3delay/tape/sweep,9reverbs;built-in expression wah/volume/FX1PitchGlide with toe mode switch;32banks×ABCD128presets. FXOnly globally disables ampmodels. Full manual audit pending.",
+    "limits": "Historical indexed asks;not live checkout. No qualified used/new condition,variant/bundle/voucher/shipping/tax/warranty proof. HD400 keywordlisting excluded as HD300offer. No files downloaded.",
+    "next": "Open complete own HD300 manual,verify per-model hardware/IO/power/memory/software/category evidence,then add canonical record and comparisons;do not borrow HD400-only features."
   }
 }
