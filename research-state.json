@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 297,
+  "active_model_count": 298,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 297,
+  "canonical_root_model_count": 298,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "297 unique active/root-canonical;0legacy-only;33brands;6excluded;allpartial. H90 now guitar/bass/vocal via source modes andexternal mic front-end.",
+  "count_reconciliation": "298 unique active/root-canonical;0legacy-only;34brands;6excluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fractal FM3 MKII Turbo",
-    "task": "Read official FM3 downloads/manual and exact Turbo revision; create full partial root FRACTAL-AUDIO.md profile with qualified Shopee offers, update inventory/comparisons, commit before researching Kemper Player.",
-    "next_models": [
-      "Kemper PROFILER Player"
-    ],
-    "after_queue": "Fresh eligible Shopee discovery and remaining technical gaps; no downloads, workflows or push."
+    "model": "Kemper PROFILER Player",
+    "task": "Research exact Player from official documentation; distinguish paid levels and capabilities; retain qualified SevenStereo ask. FM3 Turbo partial record saved; do not duplicate.",
+    "next_models": [],
+    "after_queue": "Fresh eligible Shopee discovery and remaining technical gaps; no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -5174,6 +5172,24 @@
         "Looper",
         "CurrentOS",
         "Condition/stock"
+      ]
+    },
+    {
+      "model": "Fractal FM3 MKII Turbo",
+      "path": "FRACTAL-AUDIO.md#fm3-mkii-turbo",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.fractalaudio.com/fm3/",
+        "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf"
+      ],
+      "remaining": [
+        "Category counts/concurrency",
+        "Display",
+        "Synth/acoustic",
+        "IR formats/NAM",
+        "Looper/drums",
+        "Qualified new/used offers"
       ]
     }
   ],
@@ -23764,7 +23780,7 @@
     {
       "model": "Fractal FM3 MKII Turbo",
       "checked_date": "2026-10-17",
-      "status": "queued exact hardware; not active inventory yet",
+      "status": "partial root record saved; commit before next model",
       "url": "https://shopee.co.id/Fractal-FM3-MKII-Turbo-Amp-Modeler-Multi-FX-i.11170212.27200713719",
       "indexed_idr": 25552000,
       "seller": "Hurtrock Music Store Bandung",
@@ -24144,6 +24160,9 @@
     "Eventide": [
       "H9 Max",
       "H90"
+    ],
+    "Fractal Audio": [
+      "FM3 MKII Turbo"
     ]
   },
   "root_brand_content": {
@@ -24509,18 +24528,21 @@
     "EVENTIDE.md": [
       "H9 Max",
       "H90"
+    ],
+    "FRACTAL-AUDIO.md": [
+      "FM3 MKII Turbo"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 246,
+      "record_count": 247,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 122,
+      "record_count": 123,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 94,
+      "shared_bass_capable_count": 95,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41505,18 +41527,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 297,
-    "canonical_root_models": 297,
+    "unique_brand_model_pairs": 298,
+    "canonical_root_models": 298,
     "legacy_only_models": 0,
-    "guitar_view_models": 246,
+    "guitar_view_models": 247,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
     "vocal_view_models": 61,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 122,
-    "bass_shared_models": 94,
+    "bass_view_models": 123,
+    "bass_shared_models": 95,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41568,7 +41590,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HX Effects."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Kemper PROFILER Player."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41817,7 +41839,8 @@
       "TC Electronic::M350",
       "TC Electronic::M-One XL",
       "Eventide::H9 Max",
-      "Eventide::H90"
+      "Eventide::H90",
+      "Fractal Audio::FM3 MKII Turbo"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41941,7 +41964,8 @@
       "Yamaha::SPX990",
       "TC Electronic::PLETHORA X5",
       "Eventide::H9 Max",
-      "Eventide::H90"
+      "Eventide::H90",
+      "Fractal Audio::FM3 MKII Turbo"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -42008,6 +42032,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Fractal Audio::FM3 MKII Turbo": "Manufacturer explicitly identifies guitar and bass processing. [Product](https://www.fractalaudio.com/fm3/).",
     "Sonicake::Matribox II QME-100": "Own Matribox II product explicitly lists guitar/bass/acoustic effects. Shared bass,not inferred from Pro or an EQ control. [Manufacturer](https://www.sonicake.com/products/matribox-ii).",
     "Sonicake::Matribox QME-50": "Own original Matribox product explicitly supports guitar/bass/acoustic processing. Shared bass,not low-end performance certification. [Manufacturer](https://www.sonicake.com/products/matribox).",
     "Sonicake::Pocket Master QME-10": "Own Pocket Master product explicitly lists guitar/bass/acoustic amp types. Shared bass;exact bass inventory/performance unresolved. [Manufacturer](https://www.sonicake.com/products/pocket-master).",
@@ -44344,6 +44369,13 @@
       "link": "EVENTIDE.md#h90",
       "source_files": [
         "EVENTIDE.md"
+      ],
+      "finding_files": []
+    },
+    "Fractal Audio::FM3 MKII Turbo": {
+      "link": "FRACTAL-AUDIO.md#fm3-mkii-turbo",
+      "source_files": [
+        "FRACTAL-AUDIO.md"
       ],
       "finding_files": []
     }

@@ -1643,3 +1643,7 @@ consolidation-compact-reference-plan:
 .PHONY: consolidation-commit-preservation-repairs
 consolidation-commit-preservation-repairs:
 	python3 scripts/consolidation_tools.py commit-preservation-repairs
+
+.PHONY: research-commit-fm3
+research-commit-fm3:
+	python3 scripts/research_tools.py commit-fm3
