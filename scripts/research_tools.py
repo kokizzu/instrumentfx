@@ -335,7 +335,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-hxone':
-            message = 'research(line6): enumerate HX One firmware 3.83 category tables'
+            message = 'research(line6): verify HX One dimensions and qualify regional specifications'
         if mode == 'commit-pocketpod':
             message = 'research(line6): reconcile Pocket POD effect choices and USB limits'
         if mode == 'commit-m9':

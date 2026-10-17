@@ -946,11 +946,11 @@ Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX St
 |---|---|---|
 | Expression | External TS expression,TRS dualswitch,or expression+switch;no built-in pedal established. Toe switch unverified. | [Product][HX1-P] |
 | K/F/B | **4 rotary /2 main footswitches /3 buttons**;Effect+3parameter,On+TapFlux,HomeSave+2Page,text-derived;rotary pushes additional. | [Product controls][HX1-P] |
-| Display | **128×32pixel OLED**;diagonal,color,touch unknown. | [FAQ][HX1-Q] |
+| Display | **128×32pixel OLED**. Yamaha Singapore table prints **“1.7/43 (OLED)”** without units or diagonal label;retain raw claim,not verified inches/mm diagonal. Color/touch unknown. | [FAQ][HX1-Q];[Yamaha Singapore][HX1-SG] |
 | Processing / category choices | **1selectedeffect+inputgate**. Product250+;launchFAQ260+ tiedto3.60/anticipated3.70. RevF firmware3.83 tables: **61distortion+24Dynamics-table entries(including5volume/pan utilities)+8EQ+56modulation+45delay+25reverb+29pitch/synth+26wah/filter+2looper families=276listed models**. Counting mono/stereo looper variants separately gives278entries;ordinarymono/stereo processing is not double-counted. Table-derived count,not a substituted manufacturer headline. Separateinputgate excluded. Flux ramps parameter states,not an extra simultaneousmodel. | [FAQ][HX1-Q];[Manual pp1,13–20][HX1-M] |
 | Factory / user memory | **128factory-filled writable presets**,not128+128;user modeldefaults separate. | [FAQ][HX1-Q];[Manual p11][HX1-M] |
 | Synth / acoustic | AcousticSim inEQ;3OSC Synth plusLegacy synths. 3NoteGenerator/4OSCGenerator generate without instrument input and load disabled. PolyPitch/Wham/Capo/12String designatedmono. | [Manual pp14,17–18][HX1-M] |
-| Dimensions / mass | Unknown;not estimated from photos. | Unresolved |
+| Dimensions / mass | **125W×96D×62H mm;450g**. Manufacturer Japanese launch release dated2023-10-25;mass inclusion basis unstated. | [Yamaha Japan][HX1-J] |
 | I/O | Unbalanced¼-inchTS L/R inputs/outputs,EXP/FS3/4,DC,USB-C,MIDIIN+OUT/THRU. Instrument/line settings. Insert mode repurposes rightI/O as mono send/return,sacrificing stereo;position per preset. USBMIDI;USBaudio unverified. RevF:HX stereo models process discrete L/R except designated mono/polyphonic models;Legacy models are mono-in/stereo-out. Lmono-only output folds to mono. | [Manual pp6–8][HX1-M];[Product][HX1-P] |
 | Power / battery / USB | **9VDC center-negative2.1mm,500mA included adapter**;FAQ drawjustunder400mA,distinct fromsupplyrating. Battery/USBpower unverified. | [Product][HX1-P];[FAQ][HX1-Q] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified;effectsmodeling not capture import. | Unresolved |
@@ -979,3 +979,10 @@ OwnRevF manual2025 forfirmware3.83,manufacturer product andlaunchFAQ readaswebte
 ### Historical firmware qualifications
 
 Official3.70notes list lost3.60userdefaults afterupdate,TrueBypasstuner failure andInsertPost stereofolding issues;3.71notes repeat those knownissues. These are historical version qualifications,not claims that3.83 remains affected. RevF covers3.83. Package links https://line6.com/software/readeula.html?rid=12407 and https://line6.com/software/readeula.html?rid=12408 were read only;no login,download,installation orupdate performed.
+
+### Regional manufacturer specification qualifications
+
+Yamaha Singapore table lists268effectmodels without firmware date,distinct from launch250+/260+ and the RevF3.83 table audit;not silently substituted. Its bundle includesDC1G,while table saysDC-1;regional bundle does not establish the Indonesian seller’s adapter. Table’s “Stereo L/R, Return L/R” input wording does not establish extra physical return sockets:ownmanual documents repurposed rightI/O in Insert mode. Checked2026-10-17 as webtext;no downloads.
+
+[HX1-J]: https://www.yamaha.com/ja/news_release/2023/23102501/
+[HX1-SG]: https://shop.sg.yamaha.com/hx-one-set.html
