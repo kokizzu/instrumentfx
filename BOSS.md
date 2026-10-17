@@ -2037,6 +2037,16 @@ Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Owne
 | New | Unknown;no condition-verified new offer. | — |
 | Condition-unverified cached ask | **Rp4,620,000**;BandungMusicGallery,KotaBandung,shop394955725/item3990824666. Checked2026-10-17,lastmonthindex;directretrievalfailed;repeat2026-10-17stillinaccessible. Twoadvertisedvariants notidentified. Condition,live stock,color/variant,adapter/bundle,warranty,shipping/tax/voucherunknown. Relativetomorrowdelivery notstockproof;10klatecompensation notdiscount. | [Exactitem][VE5-O] |
 
+### VE-5 — additional Shopee evidence,2026-10-17
+
+| Condition / selection | Evidence and limitations | Source |
+|---|---|---|
+| Red hardware title; condition unknown | **Rp4.624.000**, crossed-outRp5.440.000/15% display; Melodia Musik Roland Store JKT,Jakarta Selatan,shop30194339/item21682989379. Two-month indexed body; exact reopen cache miss. Title identifies Red; actual revision,working state,new/used,stock,adapter/bundle,warranty and delivered total unverified. Platform authenticity/return badges are seller-page claims,not independent verification. | [Exact red offer](https://shopee.co.id/Boss-VE-5-Vocal-Performer-%E2%80%93-Red-Efek-Vokal-i.30194339.21682989379) |
+| Unresolved two-variant lead; not a selected hardware price | **Rp4.600.000 displayed**, JV MUSIC,Jakarta Pusat,shop1396881276/item27920665812. Direct JS-limited cached body retrieved; last-month crawl versus two-month search. Two variants unnamed; do not assign lowest ask to a selected VE-5/color/bundle. Condition and live stock unknown. | [Exact variant lead](https://shopee.co.id/Boss-VE5-Vocal-Performer-Effect-Processor-Boss-VE-5-Efek-Vokal-i.1396881276.27920665812) |
+| Unresolved two-variant lead; not a selected hardware price | **Rp5.120.000 displayed**, King Audio Bali,Denpasar,shop263702626/item27378856158. Three-week indexed body; exact reopen cache miss; stale29Sep–2Oct delivery. Two variants unnamed; condition,selected hardware/bundle and stock unknown. | [Exact variant lead](https://shopee.co.id/Effect-Vocal-Boss-VE-5-VE5-VE-5-i.263702626.27378856158) |
+
+For all three: no checkout,completed-sale or stock confirmation. Adapter inclusion,working state,warranty region,voucher eligibility,shipping/tax/final total remain unresolved. Relative same-day delivery is not live stock; up-toRp10.000 late-delivery compensation is not a hardware discount. Manufacturer standard accessories do not certify a seller bundle.
+
 ### Source-access provenance
 
 Officialproductreadaswebtext;manualsupport entry foundbutlicensepageexposesnodirectPDFinwebtext. No downloads,acceptance,installation orphotocountclaim. Do notborrowVE20/VE500specs.

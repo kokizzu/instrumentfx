@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER PE100",
-    "task": "Second exact sold-out historical hardware ask saved; do not infer condition or live stock. Continue fresh eligible bass/vocal Shopee discovery and unresolved technical fields; commit each model before another.",
+    "model": "BOSS VE-5",
+    "task": "Additional red-model ask and unresolved variant leads saved separately. Continue eligible Shopee bass/vocal discovery and technical gaps; do not reuse variant display prices as selected hardware prices.",
     "next_models": [],
-    "after_queue": "Technical/market/ownership/migration gaps remain; no downloads/workflows/push."
+    "after_queue": "Technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41817,7 +41817,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER PE100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -64632,5 +64632,41 @@
     "access": "Exact direct reopen cache miss; indexed model-specific body inspected",
     "unknowns": "Condition,new/used,working state,variant,adapter/bundle,warranty,voucher eligibility,shipping/tax/final total",
     "qualification": "Relative next-day delivery is not stock confirmation; late-delivery compensation is not discount."
+  },
+  "ve5_market_followup_20261017": {
+    "checked_date": "2026-10-17",
+    "model": "BOSS VE-5",
+    "red_offer": {
+      "seller": "Melodia Musik Roland Store JKT",
+      "shop": "30194339",
+      "item": "21682989379",
+      "ask_idr": 4624000,
+      "crossed_out_idr": 5440000,
+      "region": "Jakarta Selatan",
+      "access": "Two-month indexed body; exact reopen cache miss",
+      "condition_stock_bundle": "unverified"
+    },
+    "unresolved_variant_leads": [
+      {
+        "seller": "JV MUSIC",
+        "shop": "1396881276",
+        "item": "27920665812",
+        "display_idr": 4600000,
+        "region": "Jakarta Pusat",
+        "access": "Direct JS-limited last-month cached body",
+        "variants": 2
+      },
+      {
+        "seller": "King Audio Bali",
+        "shop": "263702626",
+        "item": "27378856158",
+        "display_idr": 5120000,
+        "region": "Denpasar",
+        "access": "Three-week index; exact reopen cache miss",
+        "variants": 2
+      }
+    ],
+    "qualification": "Variant asks not accepted as selected hardware prices. New/used,working state,stock,bundle,warranty,voucher and delivered total unresolved.",
+    "discovery": "BP200 adaptor-only excluded; original B2 and VoiceLive Touch queries yielded no exact new qualifying hardware. Not market-absence evidence."
   }
 }
