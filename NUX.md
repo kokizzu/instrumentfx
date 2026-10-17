@@ -1047,6 +1047,16 @@ Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previ
 | Used / new IDR | No condition-qualified used/new quote. |
 | Historical condition-unverified IDR |**Rp3.400.000**,jayapratamamusic,JakartaPusat,shop969726322/item40655969226. [Exact hardware](https://shopee.co.id/Nux-Amp-Academy-Stomp-Preamp-Power-Amp-Combination-Original-Efek-Gitar-Nux-NMA-3AAP-i.969726322.40655969226). Direct JS-limited last-month cache;condition,workingstate,stock,variant,bundle,adapter,warranty,voucher,shipping/tax/finaltotal unknown. Relative4hdelivery notstock;lateRp10k compensation notdiscount. |
 
+### Amp Academy Stomp regional specifications,2026-10-17
+
+| Field | Finding / unresolved conflict |
+|---|---|
+| Memory / IR reconciliation | [Chinese manufacturer](https://cn.nuxaudio.com/product/ampacademystomp/) explicitly specifies **54 presets (27factory+27user)**,but repeats27slots prose. Also states **120 IR positions,60per side**,while spec repeats60factory/40user. Dual IR simultaneous operation explicit;factory/user allocation andrevision remain unresolved. These are conflicting published claims,not verified physical capacities. |
+| Routing / tuner conflict | Chinese branch paragraph describes SEND afterIR andRETURN asoutput;English/manual describes SEND beforeIR andmainoutputs toPA. Do not treat RETURN as an output from this suspect paragraph. Chinese tuner offers430–450Hz calibration;English quick-tip says440Hz. Chinese page also namesGND/LIFT. Independent manual/device verification pending. |
+| Category choices / firmware | V2.0.5 MOD13:CE-1,CE-2,ST.Chorus,SCH-1,S.C.F,FLANGER,PHASE90,PHASE100,U-VIBE,VIBRATOR,TREMOLO,ROTARY,HARMONIST;EFX addsMONO OCTAVE,RVB addsNU SHIM. These are choices,not13simultaneousblocks. [English manufacturer](https://nuxaudio.com/product/ampacademystomp/). |
+
+Regional webpages can contain copy errors;the unresolved hardware behavior must not be inferred from conflicting prose. No device operation,software installation ordownload performed.
+
 [AAS-P]: https://nuxaudio.com/product/ampacademystomp/
 [AAS-M]: https://manuals.plus/nux/nma-3aap-amp-academy-stomp-manual
 
