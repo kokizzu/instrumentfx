@@ -577,7 +577,7 @@ def main():
         if mode == 'commit-me50':
             message = 'research(boss): verify ME-50 named controls and toe-switch calibration'
         if mode == 'commit-b2-followup':
-            message = 'research(zoom): reconcile B2 FOUR effect category inventory'
+            message = 'research(zoom): document B2 FOUR USB routing and loop timing'
         if mode == 'commit-ax3000g':
             message = 'research(korg): verify AX100G live routing and regional adapters'
         if mode == 'commit-pandora':

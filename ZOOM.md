@@ -967,6 +967,17 @@ Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; exi
 | Synth / algorithms | **Bass Synthesizer, Z-Synthesizer, Bass Talk Synthesizer** are the three entries in the [2023 effect list,p13](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),Z2I-4875-01. The retained legacy Standard Synth wording above is historical;these are the current cited names. |
 | Synth / variations | Bass Synthesizer has UP/DOWN filter movement;Z-Synthesizer has SAW/SQUARE waveforms;Bass Talk Synthesizer has IA/UE/UA/OA vowel pairs. These are internal parameters,not extra algorithms or simultaneous blocks. Synth-category polyphony is unverified;the separate polyphonic pitch shifter does not establish it. |
 
+
+### B2 FOUR — USB routing and loop timing,2026-10-17
+
+[Original operation manual](https://zoomcorp.com/manuals/b2four-en/),©2023;audio-interface,looper-tempo and specifications sections.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| USB audio / drivers | Two processed channels go to host;two host-return channels enter after effects. Windows requires the model-specific driver;Mac/smartphone/tablet need no driver. This does not establish desktop editing or dry reamping. Lightning devices require Lightning-to-USB3 Camera Adapter. Sample rate unresolved. |
+| Looper / tempo | Manual length or1–64 quarter notes;excess lengths automatically limited. Changing recording length deletes audio. Tempo changes erase loops when length is beat-counted or rhythm is playing. Stop modes:instant,end-of-loop,fade-out. Rhythm playback quantizes the loop ending. |
+| Audio levels / ports | INPUT rated−20dBu;AUX−10dBu/10kohm;L/R maximum+11.4dBu into≥10kohm. XLR impedance100ohm perleg/200ohm differential;phones33+33mW into32ohm. |
+
 <!-- comparison evidence ends -->
 
 ## B6

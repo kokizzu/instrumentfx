@@ -51996,6 +51996,13 @@
         "result": "Direct URL inaccessible; exact item and seller/model searches yielded no results. No revision, condition or live-stock upgrade."
       },
       "remaining": "Seller revision/condition and unsupported fields remain unknown; do not repeatedly retry identical inaccessible offer."
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/manuals/b2four-en/",
+      "finding": "Saved USB host-return placement,driver distinctions,loop timing/erase rules and rated analog levels.",
+      "remaining": "Physical control corroboration,display specifications,IR/NAM imports,current qualified new/used offers and other retained unknowns."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -64115,5 +64122,29 @@
     "inventory_check": "G1absent306-modelinventory;G1FOUR,G1on,G1Xnextareseparateexistingmodels. Do notmergeautomatically.",
     "bass_search": "Zoom506,ME8B,B1bekas,AX1BqueriesreturnedexistingB1Xon/B3 andunrelatedresults;noqualifiednewbassmodel.",
     "excluded": "MixedG2.N1U/Rolandamp andall-typevariationoffers unassigned;controllers/adapters/singlefunctionexcluded."
+  },
+  "discovery_bass_vocal_20261017_current": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id \"bass\" \"BP80\"",
+      "site:shopee.co.id \"Zoom\" \"B2\" efek bass",
+      "site:shopee.co.id \"VoiceLive\" \"Touch\"",
+      "site:shopee.co.id \"vocal\" \"VX400\""
+    ],
+    "result": "Returned B2 FOUR exact offers already present in ZOOM.md and ledger; VX400 adapter-only result excluded. No qualified new model. Empty/no exact results do not establish market absence.",
+    "duplicate_items": [
+      "24004987590",
+      "42758785757",
+      "42458813522",
+      "22861014005"
+    ],
+    "reopened_offer": {
+      "item": "42758785757",
+      "amount_idr": 4545000,
+      "seller": "LYN AUDIO",
+      "region": "Kota Jakarta Barat",
+      "crawl": "six days",
+      "qualification": "JS-limited;condition and stock unknown;relative delivery not stock proof."
+    }
   }
 }
