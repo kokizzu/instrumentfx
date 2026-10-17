@@ -283,6 +283,14 @@ These earlier observations were recorded on **2026-10-14** before the IDR revisi
 
 Historical source key: `FPM` means the [original Pocket Master finding](SONICAKE.md#pocket-master-qme-10)<!-- historical-link:sonicake-011 -->; `pocket` means the [official model page](https://www.sonicake.com/products/pocket-master). The [firmware 1.3.0 manufacturer manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312) remains distinct from the later software/download versions. No firmware test or refreshed stock claim is made.
 
+
+### Pocket Master — Windows 11 update/import qualification
+
+Checked 2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| Software / Windows 11 compatibility restriction | The [dedicated Pocket Master download page](https://www.sonicake.com/pages/pocket-master-software-firmware-download-qme-10) warns that some Windows 11 systems can stall during firmware updates, recovery and NAM/IR imports. The [manufacturer support guide](https://www.sonicake.com/pages/stuck-updating-support) attributes this to Windows updates affecting USB MIDI and explicitly includes Pocket Master. Its documented workaround uses a data cable, Sonicake ASIO installation, then manual selection of USB Audio Device in Device Manager before reconnecting and updating. This is published guidance, not a tested fix or proof that every Windows 11 build is affected. No driver, software or firmware downloaded or installed. The generic guide’s effects-editing wording does not supersede the Pocket Master Manager’s documented lack of tone editing. |
 <!-- comparison evidence ends -->
 
 ### Preserved original Pocket Master finding

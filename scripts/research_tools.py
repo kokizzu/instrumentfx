@@ -760,7 +760,7 @@ def main():
         if mode == 'commit-compact-smartbox-audit':
             message = 'research(sonicake): document Smart Box converted NAM A2 support'
         if mode == 'commit-compact-pocketmaster-audit':
-            message = 'research(sonicake): preserve qualified Pocket Master Shopee offers'
+            message = 'research(sonicake): qualify Pocket Master Windows11 update compatibility'
         print(git('commit', '-m', message))
     elif mode == 'verify':
         verify()
