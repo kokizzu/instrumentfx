@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal discovery after V6 bundle audit",
-    "task": "Continue eligiblebass/vocalexacthardware discovery against306-modelinventory. V6bundle staysdeferred;canonicalV6-SPalreadycontainsIxusoffer. No duplicateactiveV6 addition.",
+    "model": "VoiceLive Play / GTX ambiguous hardware lead",
+    "task": "Check703046367/26030546305 identity againstmanufacturerPlay/GTX controls/ports;canonicalPlayalreadyexists,GTX notactive. Seek exactrevisionproof beforeaddingorassigningprice.",
     "next_models": [],
-    "after_queue": "Manufacturerfieldgaps andlosslesslegacyconsolidation remainincomplete;nodownloads/workflows/push."
+    "after_queue": "Bass/vocal discovery,manufacturerfieldverification andlegacyconsolidation remainincomplete.306activepartial;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -64010,5 +64010,31 @@
       "SGV6requiresphantom,currentSPpackage optionalmicrophone."
     ],
     "variant_decision": "Do notaddV6+microphoneasdistinctactiveprocessorwithoutrevisionproof;bundleaskdeferred."
+  },
+  "discovery_bass_vocal_identity_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "Shopee StompLab1B",
+      "ShopeeBP90",
+      "ShopeeVoiceToneCreate",
+      "ShopeeBOSSSE70",
+      "ShopeeVoiceLivePlayGTX",
+      "ShopeeVoiceToneSynth",
+      "ShopeeGT10B"
+    ],
+    "ambiguous_vocal": {
+      "url": "https://shopee.co.id/TC-Helicon-VoiceLive-Play-Guitar-Effects-i.703046367.26030546305",
+      "item": "703046367/26030546305",
+      "seller": "Asia Pro Sound",
+      "region": "KotaBekasi",
+      "idr": 5280000,
+      "access": "Directbody3-daycrawl,Habis;relativetomorrowdelivery notlivestock. ExacttitleVoiceLivePlayGuitarEffects doesnotestablishGTX orPlayAcoustic. Condition,revision,bundle,variation,adapter,warranty/voucher unknown;lateRp10kcompensation notdiscount."
+    },
+    "duplicate_b3": {
+      "item": "1220839369/41075001096",
+      "status": "Alreadyfullyidentified indeferredcanonicalZOOM.mdB3text;shopusedRp1,999,999 and4sold;reclickeditemcachemiss. Do notaddnewlead orprojectasverifiedused."
+    },
+    "other_results": "BasssearchesreturnedexistingStompLab2B,B2FOUR,B3n/B1;singleeffectVoiceTonepedals,adapters,unrelatedcomputerresults excluded. Noqualifiednewbassmodel andnoexhaustiveclaim.",
+    "next": "ResolveambiguousVoiceLivePlayGuitarEffectsagainstmanufacturerPlay/GTX distinctions;do notinferguitarprocessingfromsellerkeywords."
   }
 }
