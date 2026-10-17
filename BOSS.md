@@ -92,6 +92,17 @@ Checked 2026-10-18 against the original parameter guide, printed pages 8 and 12�
 | Synth / acoustic-bass distinction | BASS SIM has **7 transformations**, including single-coil/humbucker to acoustic bass. AC BASS is also a preamp choice. This documents acoustic-bass functions; it does not establish acoustic-guitar simulation. | [GT1B-P] |
 | Processing / speaker and stereo restrictions | Bass speaker selector: **ORIGIN plus five cabinet choices**, with OFF separate. Guitar selector: **ORIGIN plus seven cabinet choices**, with OFF separate. Speaker simulation requires OUTPUT SELECT=LINE/PHONE. A mono effect or COSM amp after stereo delay cancels its stereo effect. | [GT1B-P] |
 
+### GT-1B — live operation and manual discrepancy
+
+Checked 2026-10-18; original owner manual, printed pages 2, 3, 9, 11 and 12.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Looper / persistence and controls | **32 seconds mono**, with overdubbing. Disabling the looper or switching power off erases the phrase. Patch CTL1 assignments are ignored while looping. CTL1 double press stops; holding it for two seconds while stopped clears. | [GT1B-M] |
+| Expression / calibration | MENU → PDL CALIBRATION: heel then ENTER, toe then ENTER; strongly press toe to test the switch, adjust THRESHOLD with knob3 if needed, then ENTER to complete. | [GT1B-M] |
+| Power / battery backup | Manual recommends leaving batteries installed during adapter operation so performance can continue if the adapter disconnects. | [GT1B-M] |
+| I/O / headphone load conflict | Manual printed p12 text states recommended PHONES load **44 kΩ or greater**; current official specifications state **44 Ω or greater**. Both list output impedance 44 Ω. Retain the source discrepancy; no measurement or visual symbol check was performed. | [GT1B-M]; [GT1B-S] |
+
 
 ## GX-1B
 

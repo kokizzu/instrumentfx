@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-1B",
-    "task": "GT-1B category alternatives, acoustic-bass simulation and cabinet/stereo restrictions saved. Next fresh Shopee discovery; unresolved GT-1B simultaneous ceiling, USB power, screen details and condition-verified used pricing.",
+    "task": "GT-1B live looper/calibration and headphone-load source conflict saved. Next broaden Shopee brand/series discovery and resolve other model gaps; GT-1B USB power, simultaneous ceiling, screen properties and qualified used price remain unknown.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57498,6 +57498,15 @@
       "sources": [
         "https://static.roland.com/assets/media/pdf/GT-1B_parameter_eng02_W.pdf"
       ]
+    },
+    {
+      "model": "BOSS GT-1B",
+      "checked_date": "2026-10-18",
+      "finding": "Owner manual adds 32s mono loop erase on disabling/power-off, CTL1 override, calibration procedure and battery backup. Manual text headphone recommended load 44 kΩ conflicts with product page 44 Ω; retained explicitly.",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/GT-1B_eng02_W.pdf",
+        "https://www.boss.info/global/products/gt-1b/specifications/"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
@@ -71843,5 +71852,16 @@
       "Shopee Donner APL"
     ],
     "result": "Only new unqualified ALPHA FX storefront lead; Pandora Stomp already active. No exact unrecorded hardware admitted. No result is not proof of market absence."
+  },
+  "discovery_bass_20261018_latest": {
+    "queries": [
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
+      "site:shopee.co.id \"Boss\" \"GT-6B\"",
+      "site:shopee.co.id \"Korg\" \"AX3000B\"",
+      "site:shopee.co.id \"GT-1B\" \"bekas\"",
+      "site:shopee.co.id \"AX3000B\" efek",
+      "site:shopee.co.id \"BP355\""
+    ],
+    "result": "No indexed search results; not proof of absence, no price or stock inferred."
   }
 }
