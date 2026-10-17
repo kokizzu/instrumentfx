@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS SE-50",
-    "task": "19effect/28algorithm counts andMIDIpatch/system backup verified withaccessqualifications. Remaining scannedmanual fields needreadableprimaryevidence;continue fresh Shopee discovery whenaccess stalls.",
+    "model": "TC-Helicon VoiceLive 3 Extreme",
+    "task": "Serial looper exception,remaining-capacity display andimport-folder rules saved. Continue fresh Shopee bass/vocal series discovery;SE-50 scannedmanual fields need readable primary evidence.",
     "next_models": [],
-    "after_queue": "314active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
+    "after_queue": "314 active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41835,7 +41835,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS SE-50."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive 3 Extreme."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52278,6 +52278,14 @@
       "access": "Manufacturer search-index text;directadapterarticle cachemiss. ExactShopee3990824666 remains inaccessible.",
       "finding": "190mAdraw vsPSA200/500mAcapacity;regional compatibility;ALL/SOUND/SYSTEM reset scopes saved.",
       "remaining": "Polarity remainsunknown;do not keepretryingidenticalfailed offer."
+    },
+    {
+      "model": "TC-Helicon VoiceLive 3 Extreme",
+      "checked_date": "2026-10-17",
+      "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+      "identity": "Manufacturer-authored reference,2015-10-20;retained VL3X firmware2.1.00build346 identity;browser text only.",
+      "finding": "Qualified serial sync as one-track-only vs parallel A+B/A+C;documented remaining loop storage display and FAT32/VL3_Loops import paths with optional destination filenames.",
+      "remaining": "Nominal aggregate loop capacity remains unresolved;other technical,software,power and qualified pricing gaps retained."
     }
   ],
   "discovery_cross_brand_bass": {
