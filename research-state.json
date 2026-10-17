@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP360XP",
-    "task": "RP360XP compressor3/delay9/drive-fuzz23/EQ1 inventories saved from own shared manual. Continue remaining category counts,overall85-stomp/amp-cab conflicts and per-model gaps,plus fresh Shopee discovery. Do not claim full verification.",
+    "task": "RP360XP all named stomp categories reconcile85;second original-manual copy PN5041674-B identified,including SynthTalk. Next full amp/cab inventory to examine54/55 and26/27 conflicts,or other model technical gaps/freshShopee discovery. No full verification claim.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows or push."
   },
@@ -59750,5 +59750,39 @@
       "Other saved RP360XP hardware/software/price gaps"
     ],
     "no_downloads_or_operation": true
+  },
+  "rp360xp_remaining_stomps_20261017": {
+    "source": "https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual",
+    "identity": "Manufacturer-authored cover RP360/RP360XP,July9 2013 declaration,matching control/manual organization and footerPN5041674-B copyright2014;matches official filename. Generated summary/FAQs not used.",
+    "scope": "Original manual body printed85–107 and footer;not download or image inspection.",
+    "counts": {
+      "chorus": 7,
+      "flanger": 6,
+      "phaser": 4,
+      "vibrato_rotary": 4,
+      "tremolo_panner": 5,
+      "envelope_filter": 6,
+      "pitch": 5,
+      "modulation_total": 37,
+      "gate": 2,
+      "reverb": 6,
+      "wah": 3,
+      "volume": 1
+    },
+    "reconciliation": {
+      "expression_and_lfo_not_effect_models": true,
+      "formula": "3+9+23+1+37+2+6+3+1=85",
+      "status": "Derived named-entry count matches85-stomp headline;not simultaneous capacity or seller firmware certification."
+    },
+    "synth": "Synth Talk dynamic synthesized vowel-like voice effect confirmed;oscillator architecture/polyphony not established.",
+    "remaining": [
+      "Amp/cab count conflict and full inventory",
+      "Published display specifications",
+      "CONTROL IN format",
+      "USB audio channels/MIDI/buspower",
+      "Imports/current software compatibility",
+      "Looper undo/persistence/spillover",
+      "Condition-qualified offers"
+    ]
   }
 }

@@ -365,7 +365,7 @@ def main():
         if mode == 'commit-ms60b':
             message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-rp360xp':
-            message = 'research(digitech): inventory RP360XP compressor delay and drive choices'
+            message = 'research(digitech): reconcile RP360XP stomp model inventory'
         if mode == 'commit-perform-ve':
             message = 'research(tc-helicon): restore PERFORM-VE routing conflicts and qualified offer coverage'
         if mode == 'commit-perform-vg':

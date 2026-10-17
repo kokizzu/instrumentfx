@@ -10,14 +10,24 @@ Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product
 |---|---|---|
 | Expression / K/F/B | Built-in expression;4 rotary controls (SELECT+EDIT1–3),3 footswitches,4 separate buttons (DRUMS,SYSTEM,STORE,BACK). SELECT push is not a separate button. Toe-pressure V-Switch toggles wah; counted separately from the three main footswitches. CONTROL IN supports FS3X;external EXP options are explicitly RP360-only. | [RPXP-M][RPXP-M] pp5,10,49 |
 | Display | LCD;diagonal,resolution,color/monochrome and touch not established. | [RPXP-P][RPXP-P] |
-| Processing / category choices | Owner manual p19 explicitly allows 10 effects in the chain, corroborating the specifications; product description says add up to 8 per preset. Effects can be reordered. 85 stomp models;54 amps/26 cabs feature counts conflict with 55/27 description. Preserve both; firmware basis and remaining category subtotals unresolved;3 compressor,9 delay,23 drive/fuzz choices and1 EQ configuration transcribed below. | [RPXP-P][RPXP-P] [RPXP-M][RPXP-M] p19 |
+| Processing / category choices | Owner manual p19 explicitly allows 10 effects in the chain, corroborating the specifications; product description says add up to 8 per preset. Effects can be reordered. 85 stomp models;54 amps/26 cabs feature counts conflict with 55/27 description. Preserve both; **85 reconciles as3 compressor+9 delay+23 drive/fuzz+1 EQ+37 modulation+2 gate+6 reverb+3 wah+1 volume**, derived from named categories below;LFO/expression excluded. Amp/cab totals and installed firmware remain unresolved. | [RPXP-P][RPXP-P] [RPXP-M][RPXP-M] p19 |
 | Categories / compressor3 | Main Squeeze,Blue Compressor,Red Compressor. | [Manufacturer manual copy][RPXP-MM] pp67–68 |
 | Categories / delay9 | Analog Delay,DM Delay,Digital Delay,Modulated Delay,Ping Pong Delay,Tape Delay,Echo Flex,Lo Fi Delay,2-Tap Delay. DM:24–310ms;Echo Flex:110–870ms;these do not share the general5s ceiling. | [Manufacturer manual copy][RPXP-MM] pp69–73 |
 | Categories / drive-distortion-fuzz23 | Screamer,Eight-Oh-Eight,TS Modded,Supreme Drive,Over Drive,Who Do Drive,Driven Over,DOD250,Redline,Amp Driver,Anxiety Disorder,Rodent,MX Distortion,Orange Distortion,Grunge,Zone,Death Metal,Gonkulator,8tavia,Later Fuzz,DOD Classic Fuzz,Face Fuzz,Big Pi. | [Manufacturer manual copy][RPXP-MM] pp74–82 |
 | Categories / EQ1 | Three semi-parametric bands:low60–500Hz,mid300Hz–4kHz,high2–8kHz;each±12dB and wide/medium/narrow bandwidth. | [Manufacturer manual copy][RPXP-MM] p83 |
+| Categories / modulation-chorus7 | CE Chorus,Danish Chorus,Pearl Chorus,Glisten Chorus,Multi Chorus,Who Doo Chorus,Clone Chorus. | [Manual B copy][RPXP-MZ] pp85–87 |
+| Categories / modulation-flanger6 | Flanger,Triggered Flanger,Filter Flanger,MX Flanger,EH Flanger,AD Flanger. | [Manual B copy][RPXP-MZ] pp88–90 |
+| Categories / modulation-phaser4 | Phaser Beam,Triggered Phaser,MX Phaser,Stone Phase. | [Manual B copy][RPXP-MZ] pp91–92 |
+| Categories / modulation-vibrato-rotary4 | Vibrato,Rotator,Vibro-Pan,Uno-Vibe. | [Manual B copy][RPXP-MZ] pp93–94 |
+| Categories / modulation-tremolo-panner5 | Tremolo,Scatter Tremolo,Opto Tremolo,Bias Tremolo,Panner. | [Manual B copy][RPXP-MZ] pp95–96 |
+| Categories / modulation-envelope-filter6 | Envelope Filter,DOD Envelope Filter,Auto Yah,Ya Ya,Synth Talk,Step Filter. | [Manual B copy][RPXP-MZ] pp97–98 |
+| Categories / modulation-pitch5 | Whammy,Pitch,Detune,Harmony,Octave. | [Manual B copy][RPXP-MZ] pp99–102 |
+| Categories / gate2 | Silencer Gate,Swell. | [Manual B copy][RPXP-MZ] p103 |
+| Categories / reverb6 | Spring Reverb,Lexicon Ambience,Lexicon Studio,Lexicon Room,Lexicon Hall,Vintage Plate. | [Manual B copy][RPXP-MZ] pp104–105 |
+| Categories / wah3 and volume1 | Cry Wah,Clyde Wah,Full Range;one movable Volume module. | [Manual B copy][RPXP-MZ] pp106–107 |
 | Processing / LFO control | Assign an effect parameter to **triangle,sine or square LFO;0.05–10Hz**, with MIN/MAX range;save in a user preset. This is control modulation, not an additional synth engine. | [Manufacturer manual copy][RPXP-MM] pp36,84 |
 | Factory / user memory | 99 factory + 99 user = 198; user bank initially duplicates factory bank. | [RPXP-M][RPXP-M] p15 |
-| Synth / acoustic | Dread Acoustic and Jumbo Acoustic simulations occupy AMP model choices; cabinet selection is unavailable with either. These are acoustic simulation, not merely an acoustic preamp. Dedicated synth remains unverified. | [RPXP-MM][RPXP-MM] p62 |
+| Synth / acoustic | Dread Acoustic and Jumbo Acoustic simulations occupy AMP model choices; cabinet selection is unavailable with either. These are acoustic simulation, not merely an acoustic preamp. **Synth Talk** provides dynamic synthesized vowel-like voices;oscillator architecture/polyphony unresolved. [Manual B copy][RPXP-MZ] p98 | [RPXP-MM][RPXP-MM] p62 |
 | Dimensions / weight / size | Published L×W×H:11.5×8.5×2in;converted 292.1×215.9×50.8mm without relabeling L/W;4.12lb≈1.87kg. Large footprint. | [RPXP-M][RPXP-M] p114 |
 | I/O | Quarter-inch TS guitar input;2 quarter-inch unbalanced outputs;3.5 mm stereo AUX;3.5 mm stereo phones;USB-B;CONTROL IN for FS3X;DC power. CONTROL IN socket format still unverified. No FX loop/XLR/DIN MIDI established. | [RPXP-P][RPXP-P] [RPXP-M][RPXP-M] pp49,114 |
 | Power / current / USB / battery | 9VDC,300mA,2.7W;center pin GND / outer sleeve positive. PS0913DC-01 US/JA/EU; -02 AU/UK. These are manufacturer power requirements, not measured idle draw. Battery and USB bus operation unverified. | [RPXP-M][RPXP-M] p114 |
@@ -36,13 +46,15 @@ Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product
 | Used | Unknown;no condition-verified used ask established. | — |
 | Condition unverified / Sluper Shop,Kab.Bandung | Rp2,500,000 cached exact hardware ask, checked 2026-10-17;last-month index with 17 Sep delivery and 54 days inactive seller text. Direct reopen returns JS-limited cached body. Stock,variant,bundle/adapter,warranty region,shipping,tax,voucher and delivered total unknown. Late-delivery Rp10,000 compensation is not a product discount. Not verified new condition, live stock or completed sale; store identity unverified. | [109749191 /43917060054](https://shopee.co.id/Digitech-RP360XP-FX-Gitar-i.109749191.43917060054) |
 
-Remaining:display,category counts/count conflicts,dedicated synth,CONTROL IN format,power operation,imports,USB MIDI/channel routing,current software compatibility,looper/live limits and qualified used/new offers. Official shared manual 5041674-B identifies both models and explicit variant limits; browser direct open exceeded file size limit. Indexed manufacturer text inspected without downloading a file. Manufacturer-authored mirror copy identifies both RP360/RP360XP and matches the official manual’s controls, memory and effect-chain organization; inspected acoustic page62. Its final revision imprint was not exposed in retrieved text (truncated at printed p96), so exact mirror revision/firmware remains unverified. Generated mirror FAQs were not used. No RP360 record added.
+Remaining:display,amp/cab inventories and count conflicts,synth architecture/polyphony,CONTROL IN format,power operation,imports,USB MIDI/channel routing,current software compatibility,looper/live limits and qualified used/new offers. Official shared manual 5041674-B identifies both models and explicit variant limits; browser direct open exceeded file size limit. Indexed manufacturer text inspected without downloading a file. Manufacturer-authored mirror copy identifies both RP360/RP360XP and matches the official manual’s controls, memory and effect-chain organization; inspected acoustic page62. Its final revision imprint was not exposed in retrieved text (truncated at printed p96), so exact mirror revision/firmware remains unverified. Later [second manufacturer-authored copy][RPXP-MZ] exposes the same cover/declaration and final **PN5041674-B,©2014**, matching the official file identifier;used for missing pp97–107. Installed unit firmware remains unknown. Generated mirror FAQs were not used. No RP360 record added.
 
 [RPXP-P]: https://digitech.com/dp/rp360-xp/
 [RPXP-M]: https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf
 [RPXP-SW]: https://digitech.com/software-downloads/
 [RPXP-MM]: https://manualmachine.com/digitech/rp360/1256376-user-manual/
 [RPXP-Q]: https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Quick_Start_Guide_5036028-A.pdf
+
+[RPXP-MZ]: https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual
 
 ## RP255
 
