@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive Play",
-    "task": "VoiceLive Play: saved regional VoiceSupport 2 v1.1.02 Build 139 announcement dated September 2026 and Windows/macOS package listings. Next verify original exact-model USB format or later firmware/storage documentation; do not infer from Play Acoustic/GTX/VoiceLive 3. If primary evidence remains inaccessible, move to saved catalogue gaps or fresh Shopee brand discovery rather than repeat failed searches. No downloads; commit before next model.",
+    "model": "Zoom 505 original",
+    "task": "Research queued exact original Zoom 505 hardware offer shop85880394/item41079088656, Rp900000, condition and stock unknown. Read complete official E_505 manual; investigate S_505 four-AA versus E_505 one-6LR61 battery conflict and distinguish 505II/505A. Create one canonical original-model record, integrate all applicable views and commit before researching another model. No downloads.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -24080,6 +24080,25 @@
       "checked_date": "2026-10-18",
       "qualification": "Exact Bass title,2monthcache;new/used/bundle/stock unknown;latecompensation notdiscount;no siblingpricing transfer",
       "status": "Added toexisting root Bass model;no count change"
+    },
+    {
+      "model": "Zoom 505 original",
+      "url": "https://shopee.co.id/EFFEK-GUITAR-ZOOM-505-JAPAN-i.85880394.41079088656",
+      "seller": "Jacob music",
+      "seller_id": "85880394",
+      "item_id": "41079088656",
+      "region": "KOTA JAKARTA PUSAT",
+      "indexed_idr": 900000,
+      "checked_date": "2026-10-18",
+      "condition": "Not established; title does not explicitly classify used/new",
+      "stock": "Unknown; indexed three-month cache is not live availability",
+      "qualification": "Exact title EFFEK GUITAR ZOOM 505 JAPAN; direct open cache miss. Selected variant, working status, accessories, warranty, authenticity, shipping/tax and delivered total unverified. Relative delivery and late-arrival compensation up to Rp10000 do not prove stock or reduce price. Distinguish original 505 from 505II and 505A.",
+      "status": "Pending exact-model research; excluded from active inventory until canonical record and comparison integration",
+      "manufacturer_sources_to_read": [
+        "https://zoomcorp.com/media/documents/E_505.pdf",
+        "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/S_505.pdf"
+      ],
+      "initial_primary_findings": "Original English 505 manual cover identifies 24 effects, up to nine simultaneous, 24 user-programmable patches, optional FP01 expression/FS01 bank switching, 9V centre-negative 300mA adapter and one 6LR61 alkaline battery. Spanish S_505 also identifies 505 but says four AA cells and FP01/FP02; preserve language/revision conflict rather than choose or borrow 505II specifications."
     }
   ],
   "inventory_by_brand": {
@@ -70976,5 +70995,19 @@
     "source": "https://shopee.co.id/search?keyword=harga+tc+helicon",
     "selection_notes": "Category page includes D1/H1 adapterRp175,000, POWERPLUG supplies, SWITCH controllers, microphones/interfaces and already catalogued multi-effects. D1/C1/R1/E1 titles describe dedicated doubling/pitch/reverb/echo candidates; no promotion solely from multiple modes. No exact model item/condition/variant evidence from this category page; no new price bound or model added.",
     "next": "Resume another recorded vocal processor with concrete specification gaps; inspect TC-Helicon VoiceLive Play current record and own manual for power/controls/USB rather than cataloguing ordinary dedicated pedals."
+  },
+  "discovery_original505_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Digitech RP355\"",
+      "site:shopee.co.id \"Zoom G9.2tt\"",
+      "site:shopee.co.id \"Korg AX300G\"",
+      "site:shopee.co.id \"Boss ME-6\"",
+      "site:shopee.co.id \"Digitech RP55\"",
+      "site:shopee.co.id \"Digitech RP80\"",
+      "site:shopee.co.id \"Zoom 505\" efek",
+      "site:shopee.co.id \"Korg AX1G\""
+    ],
+    "finding": "One exact original Zoom 505 hardware lead queued. RP355 and G9.2tt results were power supplies, not eligible hardware offers. Existing 505II results do not establish original 505 identity or pricing. No result does not prove market absence."
   }
 }
