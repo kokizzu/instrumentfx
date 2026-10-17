@@ -39,3 +39,41 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 - [MV-C: original program chart](https://www.alesis.com/rscdn/981/documents/microverb4_programchart.pdf),including vocal/acoustic-guitar examples.
 
 No files downloaded. Remaining:category totals,body/mass,power current,display,software,routing restrictions andqualified offers. Malaysia/Taiwan/USA seller labels are not established official variants. The earlier seller24bit discrepancy concerns unspecified wording,not proof ofcounterfeit. Bass use remains unclassified.
+
+## MIDIverb 4
+
+Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discontinued [MD-P].
+
+| Field | Evidence / qualification |
+|---|---|
+| Instrument scope |Instrument direct/mixer paths;guitar andvocal examples inown manual. No direct mic preamp inferred; bass unclassified [MD-M pp.19–22,34] |
+| Expression |No built-in pedal/toe;external EXP unverified. Momentary footswitch accepts normally-open/closed;assignable bypass/advance/control [MD-M pp.34,49,68] |
+| Knobs / footswitches / buttons |**1/0/10**:VALUE;PROG,EDIT/PAGE,UTIL,STORE,INPUT,OUTPUT,A/NAME,B/ESC,C/left,D/right. Power switch separate;text-derived [MD-M p.67] |
+| Display |Custom LCD;diagonal,color/touch unresolved [MD-M p.67] |
+| Processing / categories |32algorithms;up to3simultaneous effects;stereo,dual-mono andmultichain configurations. Category subtotals pending [MD-P] |
+| Preset memory |128factoryROM+128userRAM=256;factory-filled user subset unresolved [MD-P,MD-M p.68] |
+| Synth / acoustic |Pitch±1octave;dedicated synth/acoustic simulator unverified [MD-P] |
+| IR / NAM / captures |User IR,native/converted NAM andmeasured captures unverified |
+| Audio / control ports |2TS inputs,2TS outputs;MIDI IN,OUT/THRU;momentary footswitch;9VAC power. No USB,mic/phantom,headphone orFXloop socket inrear inventory [MD-M pp.67–68] |
+| Power / battery / USB |9VAC external supply;manual names120VAC mains forsupplied version. Current,other regions,battery/USB operation unresolved;DC polarity inapplicable toAC output [MD-M p.49] |
+| Dimensions / weight |Unverified;MicroVerb4 data notsubstituted |
+| Analog conversion |18bitADC/DAC,24bitinternal accumulator,48kHz [MD-P,MD-M pp.67–68] |
+| Editor / software |MIDI realtime control,2simultaneous controls;SysEx storage. Full editor/platforms unverified [MD-P] |
+| Looper / drums / live |AutoLevel input sensing;compare/bypass. Mixer aux:100%wet orDryDefeat. Advance footswitch wraps127→00. Looper,drums,scenes,spillover unresolved [MD-P,MD-M pp.20,49] |
+| Delay claim conflict |Product maximum1300ms versusmanual memory1299ms;different precision/wording retained [MD-P,MD-M p.68] |
+
+### MIDIverb 4 — separate IDR evidence
+
+| Price class | Amount | Offer and limits |
+|---|---:|---|
+| Condition-unverified indexed hardware ask |Rp5.000.000 |[seller20594987/item16494282938](https://shopee.co.id/Alesis-MidiVerb-4-i.20594987.16494282938);Kab.Nganjuk;last-month search,reopened three-week index withstaleSep29–Oct2arrival. Condition,stock,bundle,voucher,warranty andauthenticity unverified |
+| Unresolved variation;notaccepted bare-unit ask |Rp1.170.000–1.910.000 search;Rp1.200.000–1.300.000 reopened |[electronik bersama528535960/45601793929](https://shopee.co.id/Effect-Vocal-Alesis-Midiverb-4-Kualitas-Bagus-i.528535960.45601793929);JakartaBarat;two-month search,two-week reopened index. Packaging variations Tanpa/kemas/bubble-kardus plus2unresolved. Selectedhardware variant,condition,stock,bundle,voucher,warranty unknown;notused/new range |
+| Verified used IDR |? |[Used Midiverb1186125751/27025664286](https://shopee.co.id/alesis-midiverb-ori-taiwan-bekas-normal-ori-i.1186125751.27025664286) asksRp2.600.000 butgeneration unspecified;notassigned toMIDIverb4 |
+| Verified new IDR |? |Not established |
+
+### MIDIverb 4 — primary sources and gaps
+
+- [MD-P: manufacturer product](https://www.alesis.com/products/view/midiverb4.html).
+- [MD-M: original69-page reference manual](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf),text inspected;no new visual inspection claimed.
+
+No files downloaded. Remaining:category subtotals,body/mass,powercurrent,display details,firmware/software/routing restrictions andqualified offers.

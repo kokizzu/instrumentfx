@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 233,
+  "active_model_count": 234,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 233,
+  "canonical_root_model_count": 234,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "233 unique active/root-canonical records;zero legacy-only;30brands. MicroVerb4 adds documented guitar/vocal;notMIDIverb4. Six archives excluded.",
+  "count_reconciliation": "234 unique active/root-canonical models;zero legacy-only;30brands. MIDIverb4 separate fromMicroVerb4;guitar/vocal membership. Six excluded archives.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Alesis MIDIverb 4",
-    "task": "Verify original exact manufacturer manual/product;use discovery_midiverb4_20261017. Shopee20594987/16494282938 Rp5m conditionunknown. Preserve packaging-range discrepancy andunassigned used Midiverb generation. Do notcopyMicroVerb4 specs;commit before nextmodel.",
+    "model": "Bass/vocal Shopee discovery",
+    "task": "MIDIverb4 recorded separately;do notduplicate. Resume freshexact hardware discovery andremaining technical/revision/offer gaps.",
     "next_models": [],
-    "after_queue": "Continue bass/vocal discovery andtechnical/migration gaps;no downloads/workflows."
+    "after_queue": "Continue migration/research;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4955,6 +4955,17 @@
       ],
       "finding": "3simultaneous;6/0/2controls;100+100memory;18bitconversion vs24bitaccumulator;delay conflict retained.",
       "remaining": "Body/power/display/category/software/qualified offers"
+    },
+    {
+      "model": "Alesis MIDIverb 4",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.alesis.com/products/view/midiverb4.html",
+        "https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf"
+      ],
+      "finding": "32algorithms3simultaneous;1/0/10controls;128+128memory;18bitconversion24bitinternal;offer variants unresolved.",
+      "remaining": "Body/current,category counts,display/software/qualified offers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23834,7 +23845,8 @@
       "MX200"
     ],
     "Alesis": [
-      "MicroVerb 4"
+      "MicroVerb 4",
+      "MIDIverb 4"
     ]
   },
   "root_brand_content": {
@@ -24129,12 +24141,13 @@
       "MX200"
     ],
     "ALESIS.md": [
-      "MicroVerb 4"
+      "MicroVerb 4",
+      "MIDIverb 4"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 190,
+      "record_count": 191,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24146,9 +24159,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 38,
+      "record_count": 39,
       "vocal_only_count": 21,
-      "combined_instrument_count": 17,
+      "combined_instrument_count": 18,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41037,13 +41050,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 233,
-    "canonical_root_models": 233,
+    "unique_brand_model_pairs": 234,
+    "canonical_root_models": 234,
     "legacy_only_models": 0,
-    "guitar_view_models": 190,
+    "guitar_view_models": 191,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 38,
+    "vocal_view_models": 39,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41293,7 +41306,8 @@
       "Behringer::V-AMP 2",
       "Behringer::FX2000",
       "Lexicon::MX200",
-      "Alesis::MicroVerb 4"
+      "Alesis::MicroVerb 4",
+      "Alesis::MIDIverb 4"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41428,7 +41442,8 @@
       "Zoom::V3",
       "Behringer::FX2000",
       "Lexicon::MX200",
-      "Alesis::MicroVerb 4"
+      "Alesis::MicroVerb 4",
+      "Alesis::MIDIverb 4"
     ]
   },
   "comparison_bass_basis": {
@@ -43295,6 +43310,13 @@
     },
     "Alesis::MicroVerb 4": {
       "link": "ALESIS.md#microverb-4",
+      "source_files": [
+        "ALESIS.md"
+      ],
+      "finding_files": []
+    },
+    "Alesis::MIDIverb 4": {
+      "link": "ALESIS.md#midiverb-4",
       "source_files": [
         "ALESIS.md"
       ],
