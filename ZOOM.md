@@ -2469,8 +2469,21 @@ Checked2026-10-17. [Effect list][M80-FX], ©2024 Z2I-5353-01, printed pp3–8; [
 | Amp category choices | **16 modeled:** MS45os, MS1959, MS800, FD B-MAN, FD TWIN-R, FD DELUXE-R, FD MASTER, UK30A, BG MARK1, BG MARK3, RECTI DUAL, XTACY BLUE, HW100, ORG120, DZ DRIVE, MATCH30. **7 originals:** KRAMPUS, REDLOOM, VELVET, MUDDY, 7 HEAVEN, POLLEX, WHITE CANVAS. Spacing normalized for comparison; names identify choices, not simultaneously active amps. |
 | Studio category choices | **5:** Woody Studio, Urban Studio, Live Music Club, Concert Hall, Large Chapel. Select one; a user IR replaces this selection. |
 | Presets / factory versus user | The version1.00 patch list documents001–050. The [operation manual][M80-M] allows editing, copying, erasing and creating within80 total locations. Do not add50 factory presets to80 user memories. The initial state of51–80 remains unverified. REVERT PATCH can restore the immediately recalled state or factory state. |
-| Processing / tap tempo | Manual: the BPM module consumes a slot and cannot be added when all three are occupied. Tempo is also editable from MENU without adding BPM. Studio-category effects cannot be deleted; selecting/deleting the amp opens amp selection. These restrictions qualify the general reorder/add/delete descriptions. |
+| Processing / tap tempo | Manual: the BPM module consumes a slot and cannot be added when all three are occupied. Tempo is also editable from MENU without adding BPM. Studio-category effects cannot be deleted; deleting the amp opens amp selection. These restrictions qualify the general reorder/add/delete descriptions. |
 | Preset saving | AUTO SAVE defaultsON; whenOFF, edits require explicitSAVE PATCH. NEW PATCH is unavailable until an empty location exists. Erasing clears contents rather than removing a memory location. |
 
 [M80-PL]: https://zoomcorp.com/media/documents/E_MS-80IRplus_Patchlist.pdf
+
+### MS-80IR+ — live output and USB monitoring
+
+Checked2026-10-17 against the [own operation manual][M80-M], Z2I-5301-02, sections R OUT POSITION, PRESELECT and audio interface.
+
+| Field | Evidence / gaps |
+|---|---|
+| I/O routing | R OUT POSITION can tap within the chain, including **between amp head and cabinet**. Manufacturer example sends cabinet/effect-processed L to PA and amp-head-only R to guitar amp. This is a selectable tap, not an independent second amp chain. |
+| Presets / live | PRESELECT keeps the current patch sounding while another is browsed; footswitch confirmation recalls it. This is patch preselection, not evidence of snapshots or gapless recall. |
+| USB audio / recording | USB sends two post-effects channels; host playback enters after processing. USB REC GAIN spans−15 to+15dB. USB MONITOR blends direct/host0–100 and resets to50 at startup. Windows requires the own driver; Mac/phones/tablets need none per manual. No dry USB reamp channel established. |
+| USB / MIDI control | USB MIDI CH selects reception channel; OMNI receives all channels. Exact program-number mapping and CC/expression implementation remain unverified. |
+
+Panel count remains unresolved: the HTML panel SVG fetch failed and PDF screenshot calls supplied no inspectable image in this session. No visual audit is claimed; do not retry those paths without a new capability.
 
