@@ -2063,17 +2063,20 @@ Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-
 | Dimensions / mass | 384W×225D×78H mm; manual maximum height 102mm. Product 3.2kg versus manual 3.15kg, both including batteries; retain discrepancy. Large floorboard. | [Product][M50B-P]; [Manual p30][M50B-M] |
 | Processing / categories | Six advertised sections; not a simultaneous-effect ceiling. Manual choices: COMP 5 excluding Off; FILTER/TONE 11; DRIVE/SYNTH 11 (7 drive+4 synth); DELAY/MOD 11. Master EQ and noise suppression separate. Full capacity accounting pending. | [Product][M50B-P]; [Manual pp8–15,20][M50B-M] |
 | Factory / user memory | 24 writable slots, eight banks×three, all factory-filled per patch/settings tables. Reset restores these 24 and tuner pitch; no additional ROM bank established. | [Manual pp21,28,31–33][M50B-M] |
-| Synth / acoustic | Four bass synth choices; single-note restriction. Acoustic-body simulation unverified. | [Product][M50B-P]; [Manual p12][M50B-M] |
+| Synth / acoustic | Four bass synth choices; single-note restriction. HOLLOW adds acoustic-electric bass body resonance, explicitly documented on p11. This supersedes the earlier unverified acoustic-body entry; not evidence of guitar acoustic simulation or user IR. | [Product][M50B-P]; [Manual pp11–12][M50B-M] |
 | I/O | INPUT; L/MONO,R outputs; stereo-mini AUX; PHONES; FOOT SW (COMP ON/OFF,TEMPO); adapter jack. Remaining connector sizes and electrical routing pending. | [Product][M50B-P] |
 | Power / battery / USB | 9V DC,140mA; six AA or optional PSA adapter. Manual estimates 12h alkaline/3.5h carbon. Polarity and USB operation unverified. | [Product][M50B-P]; [Manual p30][M50B-M] |
 | IR / NAM / capture | User IR, native NAM, converted NAM and capture imports unverified. | Unresolved |
 | Editor / platforms | Full patch editor, driver/updater and mobile support unestablished. No software downloaded. | Unresolved |
-| Looper / drums / live | HOLD DLY 2.8s with layering; recording erased by stop, type change or power-off. Kick Drum has six tones; automatic beat interval 240–2000ms. Kick/loop quantization documented. Scenes/trails pending. | [Manual pp14,16–19][M50B-M] |
+| Looper / drums / live | HOLD DLY 2.8s with layering; recording erased by stop, type change or power-off. Kick Drum has six tones; automatic beat interval 240–2000ms. Kick/loop quantization documented. Scenes and patch-change spillover pending; effect-bypass delay tails qualified below. | [Manual pp14,16–19][M50B-M] |
 | Routing | Order automatically follows settings; free reordering unverified. | [Manual p8][M50B-M] |
+| Category / shared-slot limits | FILTER/TONE selects one of 11; octave modes require single notes. DELAY/MOD selects one of 11, including combined chorus+delay and chorus+reverb; their chorus settings are fixed. Not independent chorus, delay and reverb blocks. | [Manual pp10,14–15][M50B-M] |
+| Delay / live limits | Analog 100–500ms; short 0–400ms; long 300–1400ms; dotted-tap 46.5–1050ms; chorus+delay 100–800ms. Delay bypass cuts input, allowing feedback tails briefly; not proof of patch-change spillover. | [Manual pp14–15][M50B-M] |
+| Drive / routing detail | Hi-band drive distorts highs while retaining lows. With octave-up selected, drive direct-level takes original input; distortion affects the raised octave. | [Manual pp12–13][M50B-M] |
 | External footswitch | FS-5U: compressor toggle in Manual, bank-up in Memory. Two via PCS-31: compressor+tempo in Manual, bank up/down in Memory. Tempo pedal stops HOLD DLY immediately; reverb modes ignore it. | [Manual pp26–27][M50B-M] |
-| Memory / live editing | Manual starts at power-up. Memory pedals select patches rather than toggle effects; Patch Edit enables effect toggling. Knobs use value pickup; unsaved edits are lost. | [Manual pp21–24][M50B-M] |
+| Patch operation | Manual starts at power-up. Memory pedals select patches rather than toggle effects; Patch Edit enables effect toggling. Knobs use value pickup; unsaved edits are lost. | [Manual pp21–24][M50B-M] |
 | AUX / tuner | AUX volume is source-controlled. Tuner 435–445Hz; exit Tuner before power-off to save pitch. Bypass retains pedal-volume control. | [Manual pp25,27][M50B-M] |
-| Pedal calibration | Heel/toe calibration; toe-switch force 1–9, lower is lighter. | [Manual p28][M50B-M] |
+| Expression calibration | Heel/toe calibration; toe-switch force 1–9, lower is lighter. | [Manual p28][M50B-M] |
 
 ### Separate IDR hardware offers
 
@@ -2086,7 +2089,7 @@ Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-
 
 Searches for ME-50B, ME50B and ME 50B on 2026-10-17 did not resolve exact Shopee Indonesia hardware. Foreign accessory matches do not establish a hardware price or Indonesian stock. Seller/item, condition, variant, region, bundle, warranty, voucher and current availability remain unknown. This is a search limitation, not proof of market absence.
 
-Next: visual control corroboration, full choices/chain restrictions, complete connector sizes, power polarity and exact IDR offers. Original ©2003 manual read through browser text; no files downloaded to the workspace.
+Next: visual control corroboration, simultaneous-capacity accounting, complete connector sizes, power polarity and exact IDR offers. Original ©2003 manual read through browser text; no files downloaded to the workspace.
 
 [M50B-P]: https://www.boss.info/us/products/me-50b/
 [M50B-M]: https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf

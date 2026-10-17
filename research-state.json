@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-50B",
-    "task": "ME-50B control, factory-fill and external-switch details saved. Next inspect complete choices/chain restrictions and connector specifications, or resume exact Shopee hardware discovery; unresolved polarity/import/editor/display details remain explicit.",
+    "task": "ME-50B acoustic resonance and shared-slot/delay restrictions committed. Continue connector/power verification if own-model primary evidence resolves it; otherwise resume Shopee brand/series hardware discovery without repeating exhausted exact ME-50B searches.",
     "next_models": [],
     "after_queue": "Continue Shopee brand/series discovery after useful model findings are committed; no downloads, workflows or push."
   },
@@ -53365,5 +53365,11 @@
     "pages": "21–28,31–33",
     "finding": "Four named buttons,24 factory-filled writable memories,mode-dependent external switches,value pickup,AUX source volume,tuner save timing and pedal calibration.",
     "limits": "Text-derived control count; PDF page21 screenshot failed. No visual corroboration claimed."
+  },
+  "me50b_processing_followup_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf",
+    "pages": "10–15",
+    "finding": "HOLLOW acoustic-electric bass resonance supersedes unknown; fixed-chorus combined selections share DELAY/MOD, exact delay ranges and effect-bypass tails qualified; high-band and octave-up drive routing retained.",
+    "remaining": "Simultaneous-capacity accounting,full connector sizes,polarity,import/editor scope,visual counts and exact IDR offers."
   }
 }
