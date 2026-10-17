@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MFX-10",
-    "task": "Open https://nuxaudio.com/product/mfx10/ and inspect original English manual through browser text only; verify own-model architecture/fields before adding active record. Exact sold-out historical Shopee ask in discovery_mfx10_20261017; no used/new condition proof.",
+    "task": "MFX-10 architecture and source-access/conflict evidence saved in mfx10_primary_checkpoint_20261017. Next original manual specification/category pages, then qualified root guitar record and comparison rows. Official PDF blocked by size; no downloads. Do not adopt generated ASIN guide or infer144independent memories.",
     "next_models": [
       "NUX PG-2 exact Shopee item resolution and eligibility"
     ],
@@ -55140,5 +55140,31 @@
       "Korg AX5B"
     ],
     "absence_qualification": "Limited indexed searches only; no market absence claim."
+  },
+  "mfx10_primary_checkpoint_20261017": {
+    "checked": "2026-10-17",
+    "product": "https://nuxaudio.com/product/mfx10/",
+    "official_manual": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf",
+    "official_access": "Own product link36; browser rejects content length11478475 bytes. No download or visual inspection.",
+    "original_manual_mirror": "https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual",
+    "original_intro_mirror": "https://www.manualslib.com/manual/4260392/Nux-Mfx-10.html",
+    "indexed_manufacturer_pdf": "https://www.grupogonher.mx/biblioteca/Marketing/BIBLIOTECA%20DE%20CONTENIDOS/NUX/PRODUCTOS/IANUXMFX10/Descargables/Manuales%20%26%20Gu%C3%ADas/IANUXMFX10_MFX-10%20User%20Manual.pdf",
+    "pdf_access": "Search retains manufacturer introduction; direct open404. Not a currently readable PDF.",
+    "identity": "Manufacturer-authored exact MFX-10 guitar modeling processor body, Cherub trademark attribution, original panel/operation sections; current official V1 revision equivalence unverified.",
+    "facts": {
+      "architecture": "Original introduction54models;up to9simultaneous,19amp/pedal and12cab choices.",
+      "memory": "36factory+36user=72. A/B amp channels do not establish144independent stored preset locations.",
+      "expression": "Built-in pedal with toe-pressure wah switching; calibration threshold. ExternalPEDAL selects banks, not established external expression.",
+      "controls": "Three main footswitches,SELECT+fourparameterknobs;AUX prose also names masterLevel knob so fullrotarycount unresolved;separatebuttoncountpending.",
+      "display": "160x128TFTLCD plus two7segmentLEDs;diagonal/color/touch not yet independently corroborated.",
+      "ports": "Instrumentinput,LeftMono/Rightoutputs,1/8headphone,AUX,EXTpedal,DC,powerswitch in originalconnectorlist. NoUSBclaim adopted.",
+      "power": "Originalbody9VDCnegative-tip includedsupply;draw/barrelbatteryUSBunresolved.",
+      "live": "Up20secondphrase loop;drumPCM;unsaved changeslost onpreset/powerchange. PRESETdown+AMPABtunermutesoutputs;bothPRESETswitchesbypass."
+    },
+    "rejected_generated_summary": {
+      "url": "https://manuals.plus/asin/B01AWDE03M",
+      "reason": "ASIN-generated guide lists55models and inconsistent tuner entry plus uncorroborated physical/power values. Do not use its spec table or instructions as original manufacturer evidence."
+    },
+    "next": "Read original specification/category pages, resolve masterLevel/control count and original revision gap. Add qualified guitar record with exact sold-out Shopee ask, commit before PG2 research."
   }
 }
