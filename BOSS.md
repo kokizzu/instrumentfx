@@ -1931,3 +1931,37 @@ No ME-20B bass specifications transferred. Official manual accessed aswebtext;no
 [ME20-P]: https://www.boss.info/global/products/me-20/specifications/
 [ME20-M]: https://static.roland.com/assets/media/pdf/ME-20_OM.pdf
 [ME20-O]: https://shopee.co.id/Boss-ME20-i.315170932.43464673108?extraParams=%7B%22display_model_id%22%3A276211549429%2C%22model_selection_logic%22%3A3%7D
+
+## GT-6
+
+Discontinued guitar multi-effects;not GT-6B. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in assignable pedal with toe switch;external EV-5/FV-300L or two switches via shared SUB EXP/CTL1,2 jack. | [Manual pp7,11–13][GT6-M] |
+| K/F/B | **17 rotary /7 main footswitches /23 buttons**,text-derived:15 dedicated frontknobs+PATCH/VALUE+rearOUTPUT;BANK2+NUMBER4+CTL;12effectbuttons+2PARAMETER+9utilitybuttons. Toe/power separate. | [Manual pp8–11][GT6-M] |
+| Display | LCD plus bank display;diagonal,color,touch unverified. | [Manual pp8,61][GT6-M] |
+| Processing / category choices | Product:30amp,15OD/DS,5wah models;manual37effects headline. FX1 lists9 alternatives,FX2 lists16;not simultaneous counts. Exact maximum chain/cab/delay/reverb subtotals pending. | [Product][GT6-P];[Manual pp7,32–45][GT6-M] |
+| Factory / user memory | **340=140user+200preset**;preset edits save to user. User factory-fill not checked. | [Product][GT6-P];[Manual p15][GT6-M] |
+| Synth / acoustic | GuitarSynth,AcousticGuitarSimulator;tracking restrictions pending. | [Manual pp33,43][GT6-M] |
+| Dimensions / mass | **515W×261D×75H mm;4.7kg**;mass inclusion unstated. | [Product][GT6-P] |
+| I/O | Input,Lmono/R outputs,phones,send,return,coaxialS/PDIF,SUBEXP/CTL1,2,MIDIIN/OUT,ACadapter. Connector sizes pending. USB absent from complete listed ports. | [Product][GT6-P] |
+| Power / battery / USB | **14VAC,BRCseries;800mA draw**. DC center-polarity not applicable to specifiedAC. Battery-powered operation unverified;manual memory-backup battery is not operating power. | [Product][GT6-P];[Manual p4][GT6-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture loading unverified;COSM customization not capture import. | Unresolved |
+| Editor / software | Current official editor/platforms unverified;MIDI bulk backup documented. | [Manual pp67–68][GT6-M] |
+| Looper / drums / live | Manual stomp control,tuner;patch changes cut delay/reverb tails. Looper,drums,scenes unverified. | [Manual pp15,56–59][GT6-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence / qualification | Source |
+|---|---|---|
+| Used seller-title claim | **Rp2,365,500**,titleBEKAS;grahadhita_wahyudi,KotaBatam,shop75325664/item2875627315. Checked2026-10-17,direct cached body lastmonth withAug30–Sep1delivery;oldersearchcacheJuly14–17. Workingstate,stock,firmware,adapter/bundle,warranty,shipping/tax,variant,voucher unknown. Latearrival10kcompensation not discount;noHabis is not stockproof. | [Exact item][GT6-O] |
+| New | Unknown;no condition-verified new offer. | — |
+
+### Source-access provenance
+
+Official2001manual84pages readaswebtext;printedpage=PDFindex+1. No downloads/installations. Other leads:RP1000exact soldout item150310054/3200318448 deferred;HopeMusicmixedX3Live/XTlive/Floor price unmapped.
+
+[GT6-P]: https://www.boss.info/global/products/gt-6/
+[GT6-M]: https://static.roland.com/assets/media/pdf/GT-6_OM.pdf
+[GT6-O]: https://shopee.co.id/EFEK-GITAR-BOSS-GT6-BEKAS-i.75325664.2875627315

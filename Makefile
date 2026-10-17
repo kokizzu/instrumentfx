@@ -1419,3 +1419,7 @@ research-commit-pocketpod:
 .PHONY: research-commit-hxone
 research-commit-hxone:
 	python3 scripts/research_tools.py commit-hxone
+
+.PHONY: research-commit-gt6
+research-commit-gt6:
+	python3 scripts/research_tools.py commit-gt6
