@@ -2252,3 +2252,40 @@ Seller, stock, working state, authenticity/origin, bundle, adapter, warranty, sh
 [Z606-O]: https://shopee.co.id/Efek-Gitar-Zoom-606-607-Made-Japan-dan-China-i.703817770.20045443371
 
 [Z606-S]: https://zoomcorp.com/en/gb/multi-effects/guitar-effects/606/606-support/
+
+## 607
+
+Checked 2026-10-17; partial. Officially bass-focused; seller’s guitar title does not override manufacturer identity. Ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal with module on/off switch. External EXP absent from complete connector inventory; detailed switching pending. | [Manual pp6–7][Z607-M] |
+| K/F/B | **2 rotary / 2 footswitches / 6 buttons**: Play/Edit, Drive; patch pair; Store, Pedal Assign, Value±, Gain±. Pedal switch separate; visual corroboration pending. | [Manual pp6–7][Z607-M] |
+| Display | Two-digit seven-segment LED; diagonal/color/touch unresolved. | [Manual p38][Z607-M] |
+| Processing / categories | **35 effects, nine simultaneous effects, eight simultaneous modules**; detailed category catalogue pending. | [Manual p38][Z607-M] |
+| Preset memory | **42 rewritable patches**, seven banks of six. Factory-fill details pending. | [Manual p38][Z607-M] |
+| Synth / acoustic | Bass Synth with nine character/blend patterns, best for single notes. Acoustic simulation unresolved; an ACOUSTIC patch name alone is insufficient. | [Manual pp32–33,patch list][Z607-M] |
+| I/O | Mono bass input; combined stereo line/headphone output; DC input. | [Manual pp6–7,38][Z607-M] |
+| Power / battery / USB | **9 V DC, center-negative, 300 mA adapter specification**; actual draw unresolved. Four AA; approximately 24 hours alkaline/7 manganese. USB absent from connector inventory. | [Manual pp6–7,38][Z607-M] |
+| Dimensions / mass | **233 W × 159 D × 54 H mm; 600 g without batteries**. Preserve own-manual axes; do not substitute 606 labels. | [Manual p38][Z607-M] |
+| IR / NAM / capture | Import and capture support unresolved. | Unresolved |
+| Editor / platforms | Editor and OS support unresolved. | Unresolved |
+| Live / practice | Bass chromatic tuner; looper/drums/scenes unresolved. | [Manual p3][Z607-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No qualified model-specific amount. | — |
+| New | No qualified model-specific amount. | — |
+| Mixed listing, unverified condition | **Rp1.099.000 listing-level ask only**; 606/607 Japan/China variants unresolved. Shop703817770/item20045443371; Bandung category attribution. Saved category crawl two months old/search index last month. Exact link resolved but item inaccessible; no 607 price assigned. | [Mixed item][Z607-O] |
+
+<!-- comparison evidence ends -->
+
+Seller, stock, authenticity/origin, working state, bundle, adapter, warranty, shipping/tax and vouchers unresolved. Browser manual text; no download or visual inspection claimed. [Official support][Z607-S] independently categorizes 607 under bass effects.
+
+[Z607-M]: https://zoomcorp.com/media/documents/E_607.pdf
+[Z607-S]: https://zoomcorp.com/en/us/multi-effects/bass-effects/607/607-support/
+[Z607-O]: https://shopee.co.id/Efek-Gitar-Zoom-606-607-Made-Japan-dan-China-i.703817770.20045443371
