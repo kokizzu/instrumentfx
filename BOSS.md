@@ -2845,11 +2845,12 @@ Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Ma
 | Factory / user memory | **200 preset+200 user=400**;initial user fill unknown. | [Product][G10B-P] |
 | Synth / acoustic | BASS SYNTH processes bass input and requires single-note playing; chords unsupported (p.110). Acoustic simulation remains unverified. | [Manual text][G10B-T] |
 | I/O | Instrument input;L/R main andXLR sub outputs;stereo phones;send/return;amp-control;EXP2/CTL3,4;USB;coaxial digital out;MIDI in/out;DC. Connector sizes/USB type pending. | [Product][G10B-P] |
+| Output level routing | OUTPUT LEVEL controls main OUTPUT and PHONES; XLR SUB OUTPUT level is separate under SYSTEM (pp.22,70). | [Manual text][G10B-T] |
 | Power / battery / USB | **9V DC,800mA draw,PSB-1U supply**. Polarity,battery/bus operation unknown. | [Product][G10B-P] |
 | IR / NAM / capture | User IR,native/converted NAM andcapture loading unverified. | Unresolved |
 | Editor / software | Windows/Mac **Librarian1.00** listed;driver entries separate. Full editor/current OS compatibility unverified. No software downloaded. | [Product][G10B-P] |
 | USB / conversion | USB audio/MIDI;channel/word-length limits pending. AD24bit+AF,DA24bit,44.1kHz. | [Product][G10B-P] |
-| Looper / drums / scenes | Phrase loop before/after effects; up to38s mono or19s stereo with overdubbing (pp.60–61). Persistence,drums/scenes pending. | [Product][G10B-P]; [manual text][G10B-T] |
+| Looper / drums / scenes | Phrase loop before/after effects; up to38s mono or19s stereo with overdubbing (pp.60–61). Loops erased on Phrase Loop off or power off (p.59). Performance records post-effects; Patch Edit records pre-effects and processes playback. Clear Only immediately erases; Mute/Clear first mutes while playback continues internally,second press clears. CTL assignment can preserve BANK switching (pp.60–61). Drums/scenes pending. | [Product][G10B-P]; [manual text][G10B-T] |
 
 ### Separate IDR hardware evidence
 
