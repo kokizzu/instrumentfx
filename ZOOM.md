@@ -595,7 +595,7 @@ Bass multi-effects without a built-in expression pedal; distinct from B1X FOUR a
 | Used USD | ? |
 | New USD observation | $85 [P1] |
 | Maximum simultaneous blocks; categories / choices | 5; family advertises 70+ effects/amp models, 60+ effects and 9 classic amp/cab choices; exact per-model category counts pending |
-| Factory / user memory | 50 editable patch memories total; all50 preloaded (quick guide p.3, rechecked2026-10-17) |
+| Factory / user memory | Historical 2026-10-14 value: **50 editable patch memories total; factory-filled subset ?**. Superseded by the quick-guide recheck: all 50 preloaded (p.3, checked 2026-10-17); same locations, not 50+50 |
 | Synth / acoustic | Bass synth, octave, fuzz; acoustic sim ? |
 | Third-party IR | Not established; factory cab simulation is not an import facility |
 | NAM | Not established |

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Legacy consolidation audit",
-    "task": "Inspect migration ledger and remaining compatibility sources, select a fully merged legacy source, read complete source/destination and audit incoming links before any retirement. HX Effects unresolved power/display/IR details remain saved; avoid repeating exhausted source checks.",
+    "task": "B1 FOUR historical memory wording restored after broader preservation failure. Run technical retirement and navigation save/commit; then use current audit evidence to assess remaining migration work without deleting compatibility redirects.",
     "next_models": [],
     "after_queue": "Other field gaps and exact Shopee discovery; no downloads/workflows."
   },
@@ -24243,10 +24243,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons:194 guitar,95 documented bass-capable,43 vocal. Instrument memberships overlap;technical and market verification incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 194 guitar, 95 documented bass-capable, 43 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "239 root-canonical models;0 legacy-only. All117 legacy paths accounted for;compatibility redirects remain. Technical and market research incomplete.",
+    "warning": "239 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41054,8 +41054,8 @@
     },
     "navigation_audit": {
       "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
-      "markdown_files": 151,
-      "local_link_occurrences": 2519,
+      "markdown_files": 154,
+      "local_link_occurrences": 2683,
       "legacy_files": 117,
       "registered_redirects": 116,
       "separately_verified_archival_redirect": [
@@ -41068,7 +41068,15 @@
       "status": "passed",
       "remaining": "Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications."
     },
-    "content_consolidation_status": "All117 legacy Markdown/JSON paths accounted for;root content and pinned-original checks pass;compatibility redirects remain."
+    "content_consolidation_status": "All117 legacy Markdown/JSON paths accounted for;root content and pinned-original checks pass;compatibility redirects remain.",
+    "preservation_repair_20261017": {
+      "model": "Zoom::B1 FOUR",
+      "source": "effects/bass.md",
+      "destination": "ZOOM.md#b1-four",
+      "finding": "Broader technical retirement verifier found original Factory / user memory value missing after current-evidence replacement.",
+      "repair": "Restored exact historical value with explicit superseding quick-guide correction; no newer memory evidence removed.",
+      "scope": "All complete-model-rows manifests scanned; only this missing fact found. Full verifiers rerun separately."
+    }
   },
   "deferred_work": {
     "original_display_idr_pages_remaining": [
@@ -41120,8 +41128,8 @@
     "canonical_root_models": 239,
     "legacy_only_models": 0,
     "guitar_view_models": 194,
-    "bass_focused_models": 21,
-    "vocal_only_models": 17,
+    "bass_focused_models": 23,
+    "vocal_only_models": 22,
     "vocal_view_models": 43,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
