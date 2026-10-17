@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-5",
-    "task": "VE5 polarity resolved;adapterpriority/charging unknown. Next audit exact VE5 row in official2014catalog (boss_catalog_2014.pdf):indexed-20dBu/33ohm PHONES versus currentTBD/66ohm; preserve source conflict and avoid adjacent-model specs. No downloads. Commit before next.",
+    "task": "VE5 historical indexed phones-20dBu/33ohm candidate conflict saved versus currentTBD/66ohm; fullcatalog blocked bywebsize,not downloaded,not resolved. Next inspect own manual effect subtype details or fresh exact hardware offers; do not repeat fullcatalog fetch or infer hardware revision. Commit before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56627,6 +56627,15 @@
       "sources": [
         "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf",
         "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications"
+      ]
+    },
+    {
+      "model": "BOSS VE-5",
+      "checked_date": "2026-10-18",
+      "finding": "Exact indexed2014catalog VE5P12 section givesphones-20dBu/33ohm versus current productTBD/66ohm. Candidate conflict retained with low-confidence extraction qualification:25,909,547byte PDF exceedswebreader;dense multicolumn not visuallyverified. No adjacentME25USBpower borrowed.",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/boss_catalog_2014.pdf",
+        "https://www.boss.info/global/products/ve-5/"
       ]
     }
   ],
