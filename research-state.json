@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX10B",
-    "task": "Battery switching,stereo-output wiring and bypass verified. Continue fresh Shopee eligible bass/vocal discovery and unresolved fields;do not recycle unreadEasyStart as evidence.",
+    "model": "BOSS VE-1",
+    "task": "Corrected ME-80 provenance contamination andverifiedmodel-specific live controls. Continue eligible Shopee discovery andunresolved USB/power fields;commitpermodel.",
     "next_models": [],
     "after_queue": "Technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -41826,7 +41826,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX10B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-1."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -64733,5 +64733,12 @@
     "findings": "Batteryturnonrequiresmonoinput;stereoplugdoesnotpower. StereoTRSoutputmonocableleftonly,notsum. Tapbothfeetbypass;hold1smute;eitherexits.",
     "easy_start": "Official2038entryCDN6d29b2b401333c3fa4b58f256d3b30e4.pdf inaccessible;notread",
     "discovery": "BP90/AX10B/HarmonyG/VocalistLiveShopeequeriesproducednoqualifiednewhardware;DigiTech16626959/4486100964adapterexcluded.Notmarketabsenceproof."
+  },
+  "ve1_provenance_live_followup_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf",
+    "identity": "VE-1 Spanish manufacturer manual ©2014Roland;onePDFpage fulltext read",
+    "correction": "Removed unrelated Polish ME-80 manual sentence from VE-1 provenance;no ME-80 fact establishes VE-1 behavior.",
+    "findings": "Mainfoot switches echo/pitch,notEnhance;7externalassignmentswithTIPdouble/RINGmemorydefault;holdDOUBLEdelay/genderediting;holdpedalmemorycycle.",
+    "discovery": "AX3000B/B9/VoiceToneCreate/B1next searches noqualifiednewhardware;notmarketabsence."
   }
 }

@@ -1699,3 +1699,7 @@ research-commit-aas:
 .PHONY: research-commit-ax10b
 research-commit-ax10b:
 	python3 scripts/research_tools.py commit-ax10b
+
+.PHONY: research-commit-ve1
+research-commit-ve1:
+	python3 scripts/research_tools.py commit-ve1

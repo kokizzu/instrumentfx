@@ -225,7 +225,15 @@ Original sources: [source](https://www.boss.info/global/products/ve-1/specificat
 [VE1-S]: https://www.boss.info/global/products/ve-1/specifications/
 [VE1-M]: https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf
 
-USB/control details checked in manufacturer-authored Spanish manual;English support link currently exposes a download agreement without PDF link in retrieved text. Official Polish manual (Copyright2013 BOSS,ME-80 model-specific panels andspecifications) is accessible in-browser and resolves controls,weight andloop-erasure details. No software installed.
+USB/control details checked in manufacturer-authored Spanish manual;English support link currently exposes a download agreement without PDF link in retrieved text. The former ME-80 manual sentence was unrelated provenance and was removed on2026-10-17;it establishes no VE-1 facts. No software installed.
+
+### VE-1 — model-specific live controls,2026-10-17
+
+| Required field | Verified detail / qualification |
+|---|---|
+| Footswitch / effect bypass | Main pedal switches echo and pitch correction;**Enhance is not switched**. Do not describe this as bypassing every processor. Holdpedal≥2s cycles memoriesA/B/C/manual at1s intervals;release on desiredcolor. [Own Spanish manual,©2014Roland](https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf). |
+| External control assignments | Seven alternatives:echo level,delay level,delay feedback,tap tempo,correction amount,double,memory increment. TIP defaultsDOUBLE;RING defaultsMEMORY INC. For level/feedback/correction targets,holdassigned switch andturncorresponding knob tosetalternate value. These are switching functions,not continuous EXP support. [Own manual][VE1-M]. |
+| Delay / voice adjustment | HoldDOUBLE≥2s entersdelay/genderediting:LEVEL=delayvolume,TONE=feedback,TYPE=delaytime;DOUBLEtaps tempo,CORRECT=gender. HoldDOUBLE≥2s exits. [Own manual][VE1-M]. |
 
 ### VE-1 — separate IDR asking-price evidence
 
