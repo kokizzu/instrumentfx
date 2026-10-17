@@ -2571,3 +2571,35 @@ Checked2026-10-17 against [original manual text][G1XN-M], pp9–10,15–18, G1N/
 | Tuner / bypass | In play/rhythm modes, both switches briefly activate bypass; holding reaches mute. Unavailable in edit mode. Uneven switch timing can momentarily recall an adjacent patch. |
 | Power / retained settings | Master level resets to80 and tuner reference to440Hz on restart; patch storage does not imply persistence of these global settings. |
 
+
+## GFX-707
+
+Original guitar multi-effects,not707II;checked2026-10-17;partial. [Official manual][GFX707-M],24pages,707-5000,pp2–7,17,22–24.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | Built-in with push-down switch;external unsupported by published port inventory. |
+| Controls | Text-derived **5 rotary/2 foot/8 buttons**: OUTPUT,AMP SIM,PARM1–3;two footswitches;STORE,EDIT,RHYTHM,SAMPLER,two MODULE,two TYPE. Power/toe separate;visual verification pending. |
+| Display | Six-character alphanumeric LED plus2-digit7-segment LED;diagonal/color/touch unknown. |
+| Processing / choices | **48=43effects+4amp-simulator settings+ZNR**;four simultaneous modules plusamp/ZNR. Per-category reconciliation pending. |
+| Factory / user memory | **30read-only+30editable=60** immediately available;user originals factory-restorable. |
+| Synth / acoustic | ACOSIM electric→acoustic; synth unknown. |
+| Dimensions / mass | **235W×189D×54Hmm;740g without batteries**. |
+| I/O | Shared quarter-inch mono guitar/stereo AUX input;stereo line/phones output;DC. NoUSB/MIDI/external-expression connector listed. |
+| Power / batteries | **9VDC centre-negative300mA AD-0006 supply specification**,not measured draw;adapter separate. FourAA alkaline~14h;noUSB connector. |
+| IR / NAM / captures | User loading unverified. |
+| Editor / platforms | Unverified. |
+| Looper / drums | **45rhythms;6s sampler disablesMOD/REV;2s JamPlay** clears on power-off or sampler use. Scenes unknown. |
+
+### GFX-707 — separate IDR offers
+
+| Condition / seller | Amount / qualifications | Exact offer |
+|---|---|---|
+| Used | Unknown | — |
+| New | Unknown | — |
+| Condition unverified / Barang_Second_Berkualitas,Kab.Kuningan | **Rp750,000;Habis**;two-month search cache checked2026-10-17;direct cache miss. Shop48116980/item15446202329. | [Shopee][GFX707-S] |
+
+Seller name alone does not establish condition. Live stock,working state,variant,bundle,adapter,warranty,voucher,shipping/tax unknown. No download or visual inspection.
+
+[GFX707-M]: https://zoomcorp.com/media/documents/E_GFX707.pdf
+[GFX707-S]: https://shopee.co.id/Efek-Zoom-gfx-707-made-in-japan-i.48116980.15446202329

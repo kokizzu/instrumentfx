@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 287,
+  "active_model_count": 288,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 287,
+  "canonical_root_model_count": 288,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "287 unique active/root-canonical;0legacy-only;32brands;6excluded;allpartial. AD10 acousticguitarmultifx;noinferredbass/vocal.",
+  "count_reconciliation": "288 unique active/root-canonical;0legacy-only;32brands;6excluded;allpartial. Original GFX-707 distinct from707II;guitaronly pending evidence for other instruments.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom GFX-707 original",
-    "task": "Read own E_GFX707.pdf and manufacturer product; verify original vs707II; extract all required fields and saved exact Shopee offer before adding canonical record/count. Lead saved, not yet active model.",
+    "model": "Zoom GFX-707",
+    "task": "Initial own-manual record saved. Next enumerate category choices/reconcile43effects and verify sampler input/routing constraints from E_GFX707.pdf. Then fresh Shopee discovery.",
     "next_models": [],
-    "after_queue": "Continue fresh Shopee discovery;287 active partial models; no downloads/workflows/push."
+    "after_queue": "288partial models;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23943,7 +23943,8 @@
       "B1X original",
       "RFX-1000",
       "MS-80IR Plus",
-      "G1Xnext"
+      "G1Xnext",
+      "GFX-707"
     ],
     "DigiTech": [
       "RP360XP",
@@ -24154,7 +24155,8 @@
       "B1X original",
       "RFX-1000",
       "MS-80IR Plus",
-      "G1Xnext"
+      "G1Xnext",
+      "GFX-707"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -24371,7 +24373,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 237,
+      "record_count": 238,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41343,10 +41345,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 287,
-    "canonical_root_models": 287,
+    "unique_brand_model_pairs": 288,
+    "canonical_root_models": 288,
     "legacy_only_models": 0,
-    "guitar_view_models": 237,
+    "guitar_view_models": 238,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
     "vocal_view_models": 56,
@@ -41406,7 +41408,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS AD-10."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom GFX-707."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41598,6 +41600,7 @@
       "Zoom::RFX-1000",
       "Zoom::MS-80IR Plus",
       "Zoom::G1Xnext",
+      "Zoom::GFX-707",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -43710,6 +43713,13 @@
     },
     "Zoom::G1Xnext": {
       "link": "ZOOM.md#g1xnext",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::GFX-707": {
+      "link": "ZOOM.md#gfx-707",
       "source_files": [
         "ZOOM.md"
       ],
@@ -57798,6 +57808,21 @@
     ],
     "excluded": "GFX8 adapter732732692/20031217262; mixed Hope Music variations not allocated to individual models",
     "coverage": "No-hit searches do not establish market absence",
+    "downloads": false
+  },
+  "gfx707_primary_20261017": {
+    "manual": "https://zoomcorp.com/media/documents/E_GFX707.pdf",
+    "identity": "707-5000,24pages",
+    "canonical": "ZOOM.md#gfx-707",
+    "remaining": [
+      "Per-category choices/reconcile43effects",
+      "Visual control audit",
+      "Display diagonal/color/touch",
+      "Editor/imports",
+      "Current condition-qualified hardware stock",
+      "Measured current draw",
+      "Synth"
+    ],
     "downloads": false
   }
 }
