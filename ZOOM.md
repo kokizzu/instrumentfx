@@ -1012,7 +1012,7 @@ Original V3 sources: [manufacturer source](https://zoomcorp.com/en/us/vocal-proc
 | Physical controls / expression | Seven named rotary controls: KEY, COMP, DELAY, REVERB, EFFECT ADJUST, rear VOLUME and PHONES VOLUME. Buttons:16 effect selectors +5 harmony +ENHANCE +EFFECT OFF =23; no built-in footswitch or expression/toe pedal. Rear power/phantom toggles separate. External FP02M adjusts effect amount; FS01 switches selected effect off. [V3-M] |
 | Processing / presets | One selected effect alongside delay/reverb and compression/enhance;16 choices are alternatives. Per-effect states retained; named preset-bank capacity not established. Harmony permits two of five options; selecting a third cancels the earliest. [V3-M] |
 | Power / USB / live | Four AA; USB power supported. Low bus supply may require AD-16. Lightning iOS connection instructions require camera adapter and AD-16. Alkaline estimate3.5h; standard pitch435–445Hz in1Hz steps; ECO auto-off10h. [V3-M] |
-| Screen / dimensions / ports / loading | Screen type/size/touch and body dimensions/mass remain unverified; no screen assertion from missing text. Exact line-output connector/balancing, sample rates/bit depths, rated current/polarity, native/converted NAM, IR and capture support remain unestablished in inspected sources; do not borrow V6 specs. |
+| Screen / dimensions / ports / loading | Screen type/size/touch remain unverified;no screen assertion from missing text. Body,power,TS output topology andUSB audio formats are resolved by the later model-specific specification sheet below. Exact TS jack diameter,actual current draw,native/converted NAM,IR andcapture support remain unestablished;do not borrow V6 specs. |
 | Editor / driver / updater | Support lists firmware1.30 for Windows/Mac and Windows10/11 64-bit ASIO driver; these are not evidence of a full editor. [V3-S] |
 | Synth / acoustic / bundle | Vocal character, vocoder and talkbox effects do not establish guitar/acoustic simulation. SGV-6 mic, stand mounts and external controllers are optional; manufacturer box list names processor/manual. Seller bundle unknown unless specified. [V3-P] |
 
@@ -1045,6 +1045,19 @@ No Malaysian RM listings or noisy accessory/search-page prices used as IDR hardw
 | Price class | Amount | Offer / limits |
 |---|---:|---|
 | Condition-unverified indexed ask | Rp8,236,631 | [PCdada,shop1003923494/item23777502918](https://shopee.co.id/%E2%9C%85-ZOOM-V3-Multi-Effects-Vocal-Processor-USB-2.0-audio-interface-reverb-effect-For-Karaoke-Streaming-Recording-Collaborating-Online-i.1003923494.23777502918),KotaJakartaBarat. Five-month search cache;direct retrieval cache miss. Used/new condition,live stock,selected variant,bundle,adapter,warranty,voucher,shipping/tax anddelivered total unknown. Not a condition-qualified new/used price orcompleted sale. |
+
+
+### V3 — manufacturer specification sheet,2026-10-17
+
+[Model-specific one-page specifications](https://zoomcorp.com/documents/3158/E_V3_Specifications.pdf),checked directly;earlier unknowns above are historical.
+
+| Field | Verified specification / limit |
+|---|---|
+| Dimensions / mass | **190W×150D×50Hmm;0.59kg excluding batteries**. |
+| Processing / simultaneous | **Five concurrent effects**;16 voice-effect alternatives remain alternatives. Internal44.1kHz,24-bit A/D andD/A,32-bit processing. USB32-bit format does not establish32-bit float conversion. |
+| Power / polarity | **AD-16:9VDC500mA,centre-negative**;adapter rating,not measured draw. FourAA/about3.5halkaline;USBbus operation supported. |
+| I/O / outputs | L/R **unbalanced TS**,maximum+6dBu,100Ω;jack diameter not stated here. AUX/phones stereo mini. MicXLR,+48V;gain+3–+40dB,maxinput+4dBu. |
+| USB audio / formats | **2in/2out,USB2.0FullSpeed,44.1kHz,16/24/32-bit**. Charge-only cable suppliespower butother USBfunctions need datacable. |
 
 
 ## V6-SP

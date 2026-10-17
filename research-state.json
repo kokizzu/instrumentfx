@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom V3",
-    "task": "16voice-effect names and additional PCdada offer saved. Next resolve V3 body dimensions/power/current from own spec source,or fresh bass/vocal discovery. Do notduplicate LangitLofi alreadyinZOOM.md.",
+    "task": "V3 ownspec resolves size/mass,fiveconcurrent,AD16rating/polarity,TS topology andUSBformats. Next fresh bass/vocal discovery;V3screen/import/editor/currentdraw gaps remain.",
     "next_models": [],
     "after_queue": "290partialmodels;no downloads/workflows/push."
   },
@@ -58286,6 +58286,30 @@
       "bundle": "unknown"
     },
     "discovery": "VoiceLiveTouch/VocalistLive/VE200 searches no newexact model;VocalistLive result16626959/4486100964adapter excluded. V3LangitLofi alreadyrootrecorded even ifledger searchmisses.",
+    "downloads": false
+  },
+  "v3_specs_20261017": {
+    "source": "https://zoomcorp.com/documents/3158/E_V3_Specifications.pdf",
+    "identity": "V3onepage model-specificspecifications",
+    "dimensions_wdh_mm": [
+      190,
+      150,
+      50
+    ],
+    "mass_kg": 0.59,
+    "mass_scope": "excludingbatteries",
+    "concurrent_effects": 5,
+    "supply": "AD16 9VDC500mAcentre-negative adapterrating;actualdrawunknown",
+    "output": "unbalancedTS +6dBu100ohm;diameterunpublishedhere",
+    "usb": "2in2out USB2FullSpeed44.1kHz16/24/32bit;notfloatclaim",
+    "remaining": [
+      "Screen type/diagonal/touch",
+      "Actual current draw",
+      "TS diameter",
+      "IR/NAM/capture loading",
+      "Full editor OS",
+      "Live condition-qualified offers"
+    ],
     "downloads": false
   }
 }
