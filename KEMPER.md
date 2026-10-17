@@ -141,3 +141,38 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee
 [kr-s]: https://www.kemper-amps.com/profiler/technical-specifications
 
 Manufacturer UK availability is not Indonesian stock evidence. No currency conversion or files downloaded. Current shared specifications explicitly distinguish MK2 USB channels; remaining revision-sensitive physical and software details need the matching manual.
+
+## PROFILER PowerHead MK2
+
+Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee MK2 title; distinct from unpowered Head,PowerRack and Remote bundles.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | Two onboard TRS pedal/switch sockets,10–100kohm [kh-s]. Built-in/toe details unverified;generic four-pedal product wording does not establish four onboard sockets [kh-p]. |
+| Knobs / footswitches / buttons | ?/?/?; exact PowerHead MK2 physical census pending. Remote controls excluded. |
+| Display | Diagonal,color/monochrome and touch unresolved. |
+| Dimensions / weight | **378W×173D×217H mm;6.50kg**, manufacturer PowerHead specification;not Head's5.32kg [kh-s]. |
+| Simultaneous blocks / category choices | Four flexible pre+four flexible stereo post; six fixed pre+two fixed stereo post,around AMP/CAB. Category census and total-count definitions unresolved [kh-p]. |
+| Preset / factory / user memory | Exact Browse/Performance/factory/user capacities not independently checked for this record. |
+| Synth / acoustic | Dedicated algorithms unresolved;acoustic PROFILEs alone do not establish a simulator. |
+| IR / NAM / captures | Proprietary amp PROFILING creation documented [kh-p]. IR formats,native/converted NAM and current capture-version restrictions unresolved. |
+| Audio I/O | Front¼-inchTS1Mohm;balanced alternative TRS825kohm;balanced XLR/¼-inch return825kohm. Main stereo balancedXLR/unbalancedTS;monitor anddirect/send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz,master/slave [kh-s]. Exact stereo-monitor routing and phantom details require matching manual. |
+| Audio I/O — speaker output | **600W at8ohm /300W at16ohm**, built-in power amp [kh-s];[kh-p]. Connector,minimum load and no-load/grounding restrictions need the exact powered-model manual;not a stereo-power-output claim. |
+| Control / USB | USB-A/B,USB MIDI;DIN in/out/thru;RJ45;two pedal sockets. **4in/4out USB audio**,44.1kHz [kh-s];[kh-p]. |
+| Power / battery / USB operation | **100–125 or190–245V AC,max10A,50–60Hz**, PowerHead/PowerRack rating;not unpowered Rack's mains specification [kh-s]. Region/selection behavior,actual consumption,battery/USB operation unresolved. DC polarity not applicable to mains. |
+| Editor platforms / drivers | Windows/macOS Rig Manager viaUSB; iOS/Android/FireOS via external WiFi router. Driver/OS minima andmobile parity unverified [kh-p]. |
+| Practical features | Morphing,Performance switching,instrument/line external loop and Kone modes documented [kh-p]. Looper/control requirements,drums and gapless qualifications unresolved. |
+| Bass capability | Exact PowerHead MK2 page explicitly identifies electric guitar and bass [kh-p];not a complete bass algorithm or low-end performance audit. |
+
+### PowerHead MK2 — separate IDR asking-price evidence
+
+| Condition / access | Amount | Exact offer / qualifications |
+|---|---:|---|
+| Condition-unverified cached ask | **Rp37.200.000** | [Seller253483262/item9807619085](https://shopee.co.id/Kemper-Profiler-Power-Head-MK2-Digital-Guitar-Amplifier-Multi-Effect-Processor-i.253483262.9807619085),exact Power Head MK2 title,Jakarta Pusat in [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). September2026 cache checked2026-10-17;item click cache-missed;display_model_id33098715508. Seller name,new/used,stock,variation,bundle,voucher,warranty,authenticity,installedOS and mains-region variant unknown. Not live checkout or completed sale. |
+| Verified new IDR | ? | Not established. |
+| Verified used IDR | ? | Not established. |
+
+[kh-p]: https://www.kemper-amps.com/store/en/profiler-powerhead-b.html
+[kh-s]: https://www.kemper-amps.com/profiler/technical-specifications
+
+Current manufacturer shared specification explicitly names PowerHead;revision-sensitive panel and electrical behavior still need the exact manual. Foreign stock/price not Indonesian availability or converted IDR evidence. No downloads.
