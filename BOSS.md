@@ -2151,3 +2151,38 @@ Working state,authenticity,bundle,mains variant,warranty,shipping,tax and vouche
 [GT5-O]: https://shopee.co.id/EFEK-GUITAR-boss-GT-5-i.205502204.41251758346
 
 [GT5-E]: https://cdn.roland.com/assets/media/pdf/GT-5_OM.pdf
+
+## ME-30
+
+Checked2026-10-17;partial. Own manual identifies guitar multi-effects. Bass/vocal suitability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal functions:volume,wah,tremolo arm,ring modulator. Toe/external expression unresolved. | [Manual p33][ME30-M] |
+| K/F/B | Separate rotary/footswitch/button counts pending panel verification. | Unresolved |
+| Display | One-character7-segment LED plus luminous custom LCD;diagonal,color/touch unverified. | [Manual p33][ME30-M] |
+| Processing / categories | Compressor,OD/DS,EQ/Phaser,Noise Suppressor,Delay,Chorus/Flanger/Pitch Shifter/Tremolo,Reverb,amp simulator. Slash groups are alternatives;simultaneous ceiling and detailed choices pending. | [Manual p33][ME30-M] |
+| Preset memory | **30user+30preset=60patches**,plusManual settings. Initial user contents unresolved. | [Manual p33][ME30-M] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. Ring modulation alone does not establish either. | Unresolved |
+| I/O | INPUT,L/MONO+R OUTPUT,AUX IN andheadphones(bothstereomini),adapterjack. Remaining physical jack dimensions pending. | [Manual p33][ME30-M] |
+| Power / battery / USB | **9VDC,170mA**,PSA-series adapter or6AA. Estimatedcarbon3h/alkaline8h varieswithuse. Polarity/USB operation unverified. | [Manual p33][ME30-M] |
+| Dimensions / mass | **305W×205D×55H mm;1.5kg includingbatteries**. | [Manual p33][ME30-M] |
+| IR / NAM / capture | IR import,native/converted NAM and proprietary capture unverified. | Unresolved |
+| Editor / platforms | Official editor/current OS support unverified. | Unresolved |
+| Looper / drums / live | Manual mode togglesindividualeffects. Some edits maynotpersistifpowercutwhileinManual;exitmodefirst. Looper,drums,scenes,spillover unresolved. | [Manual,Manual mode][ME30-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | **Rp600.000**,seller-title“second”,arsyila_hani,shop293948259/item21081428643,Kab.LampungTimur. **Habis**;historicalsold-outask,notlivestock. Directbrowsertextchecked2026-10-17,crawledlastmonth;Sep18–20deliveryhistorical. | [Exact Shopee item][ME30-O] |
+| New | Unverified. | — |
+
+<!-- comparison evidence ends -->
+
+Search cache showedAug28–31delivery. Workingcondition,bundle,adapter,authenticity,warranty,shipping,tax andvouchereligibility unverified. Rp10000late-arrivalvoucheriscompensation,notdiscount. Manufacturer PDF browser text opens withzeroextractedlines;targetedindexedmanualtext supplies evidence. No filesystemdownload orvisualinspection claimed.
+
+[ME30-M]: https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf
+[ME30-O]: https://shopee.co.id/efek-gitar-boss-me-30-(second)-i.293948259.21081428643

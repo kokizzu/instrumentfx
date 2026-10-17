@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 248,
+  "active_model_count": 249,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 248,
+  "canonical_root_model_count": 249,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "248 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. GT-5 guitar scope verified; bass/vocal unclassified;all partial.",
+  "count_reconciliation": "249 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. ME-30 guitar scope; bass/vocal unclassified;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-30",
-    "task": "Exact seller-labelled second Rp600000 historical Habis lead saved. Next own manufacturer manual/product verification,root record and applicable comparisons. Commit model before researching next.",
+    "task": "ME-30 initial own-manual record added. Next verify controls,simultaneous processing,category choices,factory user fill and polarity from targeted official manual text;allgaps explicit.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. GT-5 and RFX-2000 technical gaps remain deferred. No downloads,workflows or push."
   },
@@ -23705,7 +23705,8 @@
       "VE-5",
       "Pocket GT",
       "ME-50B",
-      "GT-5"
+      "GT-5",
+      "ME-30"
     ],
     "CUVAVE": [
       "H8"
@@ -24188,7 +24189,8 @@
       "VE-5",
       "Pocket GT",
       "ME-50B",
-      "GT-5"
+      "GT-5",
+      "ME-30"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -24289,7 +24291,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 201,
+      "record_count": 202,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41252,10 +41254,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 248,
-    "canonical_root_models": 248,
+    "unique_brand_model_pairs": 249,
+    "canonical_root_models": 249,
     "legacy_only_models": 0,
-    "guitar_view_models": 201,
+    "guitar_view_models": 202,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 49,
@@ -41315,7 +41317,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-30."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41344,6 +41346,7 @@
       "BOSS::GT-6",
       "BOSS::Pocket GT",
       "BOSS::GT-5",
+      "BOSS::ME-30",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Fender::Tone Master Pro",
@@ -42033,6 +42036,13 @@
     },
     "BOSS::GT-5": {
       "link": "BOSS.md#gt-5",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::ME-30": {
+      "link": "BOSS.md#me-30",
       "source_files": [
         "BOSS.md"
       ],
@@ -53940,5 +53950,10 @@
       }
     ],
     "other_searches": "GT-3 and Zoom G2.1Nu exact hardware unresolved in this limited pass;multi-variant shop asks not assigned to individual models."
+  },
+  "me30_primary_checkpoint_20261017": {
+    "manual": "https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf",
+    "method": "Official42pagePDF browseropenzeroextractedlines;targetedindexedtextspecp33andManualmodesection.",
+    "remaining": "Controlcounts,toe/externalEXP,simultaneousceiling,detailedcategorychoices,factoryuserfill,polarity,IR/NAM/editor,displaydetails,practicefeatures."
   }
 }
