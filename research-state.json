@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B3n",
-    "task": "B3n complete named effect-sheet census saved: 89 entries in Z2I-2890-02, with product67/manual80 scopes retained. Next verify base/addition distinction from exact firmware history or fill physical panel/headphone layout with readable manufacturer imagery; if inaccessible move to another substantial model gap or fresh Shopee discovery. No downloads; commit before next model.",
+    "task": "B3n exact firmware history saved, including OutputVP and v2.20 fixes with release/publication dates distinguished. Base/addition numerical mapping remains unverified. Next use readable manufacturer panel evidence for controls/headphone conflict or move to another substantial recorded-model gap/fresh Shopee lead; do not repeat census/history checks. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -56751,6 +56751,15 @@
       "checked_date": "2026-10-18",
       "finding": "Full manufacturer effect-sheet revision Z2I-2890-02 named census: dynamics9/filter12/drive18/amp7/cab7/modulation14/SFX6/delay5/reverb6/pedal5 =89. Preserve product67 and manual80 scopes; includes documented additions, not installed verification. Lists retained in root brand record.",
       "source": "https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf"
+    },
+    {
+      "model": "Zoom B3n",
+      "checked_date": "2026-10-18",
+      "finding": "Exact B3n firmware history Z2I-3324-03 dates1.00 January2017,2.00 April2018 (GuitarLab3,encoder improvements,OutputVP volume carry-over,previously online-distributed effects),2.20 May2019 (editor-view and USB-disconnection fixes). News displays January2020 separately. No numerical base/addition reconciliation or installed-library assertion.",
+      "sources": [
+        "https://zoomcorp.com/documents/3428/B3n_System_Firmware_Version_History_ver220_en.pdf",
+        "https://zoomcorp.com/en/us/news/firmware-update-v20-zoom-b3n-g3n-and-g3xn/"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

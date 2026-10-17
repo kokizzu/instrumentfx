@@ -1598,6 +1598,16 @@ Checked 2026-10-18; [manufacturer sheet](https://zoomcorp.com/media/documents/E_
 | Category choices / Pedal | **5**: PDL Vol; BassWah; PDL Reso; BaPDLPit; BaPDLMnP. |
 | Processing / document count reconciliation | **89 named entries**: dynamics9+filter12+drive18+amp7+cabinet7+modulation14+SFX6+delay5+reverb6+pedal5. The seven non-amp/cab/pedal categories sum70. Retain product67-stomp/5-amp/5-cab and manual80 figures separately; different source scopes are not an installed-library census. Looper/rhythm utilities are outside this sheet count. |
 
+### B3n — dated firmware history
+
+Checked 2026-10-18 against the manufacturer’s B3n-specific history, **Z2I-3324-03**. Firmware was neither downloaded nor installed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Firmware / processing additions | **v1.00: January2017 production; v2.00: April2018**, adding Guitar Lab3 support, improved encoder operation, **OutputVP carrying volume settings across patch changes**, and previously online-distributed effects. History does not enumerate those effects or reconcile product67/manual80/effect-sheet89 counts. Installed firmware remains unknown. [Exact-model history](https://zoomcorp.com/documents/3428/B3n_System_Firmware_Version_History_ver220_en.pdf) |
+| Apps / firmware bug fixes | **v2.20: May2019** fixes intermittent Guitar Lab EDITOR-view unavailability and USB connections becoming disabled after some time. This does not establish USB audio, universal OS support or current operational reliability. [Exact-model history](https://zoomcorp.com/documents/3428/B3n_System_Firmware_Version_History_ver220_en.pdf) |
+| Firmware / publication-date distinction | Manufacturer news page displays **January1,2020** for its v2.0 announcement; version-history document instead dates the release **April2018**. Retain both publication/release contexts; do not replace the explicit history date with the web-page date. [Manufacturer news](https://zoomcorp.com/en/us/news/firmware-update-v20-zoom-b3n-g3n-and-g3xn/) |
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
