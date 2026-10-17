@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX2000",
-    "task": "SPX2000 editor platform/host requirements and five-versus-six backlight conflict saved. Next full category/algorithm counts and driver-specific versions; bass remains unclassified. Then fresh Shopee discovery.",
+    "task": "SPX2000 numbered PRESET/CLASSIC category accounting saved(97/25). Distinct algorithm count remains separate. Next verify specific USBMIDI driver release pages,then fresh Shopee discovery; bass unclassified.",
     "next_models": [],
     "after_queue": "Search Shopee by brand/series for unrecorded eligible multi-effects. Keep MX400 library/bank follow-up pending; no downloads,workflows,push."
   },
@@ -53591,5 +53591,36 @@
     ],
     "finding": "Mac2.3.1 standalone10.15/11–14IntelAppleSilicon needs USBMIDI driver;Win2.2.1supported64bit11/10/8.1/8/7/Vista needsStudioManagerV2Host+USBMIDI. JPWin direct failed,indexed text used. Manualfive selectable backlights versusJPspecsix retained.",
     "remaining": "Full category/algorithm counts,driver-specific versions,bass applicability and qualified live-stock/condition evidence."
+  },
+  "spx2000_category_followup_20261017": {
+    "source": "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf",
+    "pages": "25–26",
+    "preset_counts": [
+      15,
+      11,
+      13,
+      3,
+      3,
+      6,
+      9,
+      17,
+      4,
+      2,
+      13,
+      1
+    ],
+    "preset_total": 97,
+    "classic_research_groups": [
+      4,
+      2,
+      2,
+      8,
+      3,
+      4,
+      2
+    ],
+    "classic_total": 25,
+    "qualification": "Catalogue program grouping,not unique algorithm count or simultaneous blocks;composites occur outsideMultiple.",
+    "driver_access": "Resources search indexed WindowsUSBMIDI3.1.5May22,2026,but opened page does not expose matching text;exact driver release verification pending."
   }
 }
