@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B1 FOUR",
-    "task": "B1 FOUR firmware2.0/DSP overflow/AUX/editorOS saved;installed algorithm storage capacity remains unknown. Next fresh Shopee discovery by other brand/series;no repeated cached B1offers needed.",
+    "model": "Line6 Floor POD Plus",
+    "task": "Verify own manual40-00-0116RevB and FAQ;model absentcanonical. MixedShopee102019323/25663831731 has unallocated2–2.5m range,4variations,Habis;do not inventmodelprice. Extract all required fields before newmodelcount;seekEnglishownmanual ifavailable.",
     "next_models": [],
-    "after_queue": "288partial models;no downloads/workflows/push."
+    "after_queue": "288partial active models;FloorPODPluslead notyetadded;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -57933,6 +57933,40 @@
     "manual": "https://zoomcorp.com/media/documents/E_B1FOUR.pdf",
     "facts": "V2prepostloop/rhythmvalues;DSPoverflow bypasses;AUXdirect;GuitarLab7.3 Win8.1/10/11 Mac10.13–26",
     "remaining": "Total installed algorithm storage capacity unknown",
+    "downloads": false
+  },
+  "floorpodplus_lead_20261017": {
+    "model": "Line6 Floor POD Plus",
+    "canonical_check": "No Floor POD heading inLINE6.md;no floorpod ledgerkey",
+    "offer": "https://shopee.co.id/efek-gitar-second-korg-ax3000g-ax1500g-pod-floor-plus.-bonus-tas-effect-guitar-ax-3000g-1500g-3000-1500-bekas-normal-bukan-zoom-nux-mg-valeton-line-6-moer-i.102019323.25663831731",
+    "seller": "studio_musik_gema",
+    "region": "Kab.Blitar",
+    "indexed": "two-monthcache",
+    "stock": "Habis",
+    "condition": "title second/bekas,working normal sellerclaim notverified",
+    "variations": 4,
+    "unallocated_idr_range": [
+      2000000,
+      2500000
+    ],
+    "price_qualification": "Mixed AX3000G/AX1500G/FloorPODPlus;no price assigned to exactmodel;bagbonuscontentsunverified;stale11–14Augustdelivery",
+    "manual": "https://line6.com/data/6/0a060b316ac34f0593b6b6f51/application/pdf/Floor%20POD%20Plus%20user%20manual%20-%20Spanish%20%28%20Rev%20B%20%29.pdf",
+    "manual_identity": "Spanish40-00-0116RevB located;fullreadpending",
+    "faq": "https://kb.line6.com/floor-pod-floor-pod-plus-faq",
+    "faq_facts": "PX2specified;FloorPODPlusVyzexeditorviaMIDI;builtinVOLWAHtoeswitchcalibration",
+    "discovery_queries": [
+      "Digitech RP efek second",
+      "Korg AX efekgitar",
+      "Line6 Floor efek",
+      "Floor POD Plus",
+      "Korg AX3000B",
+      "DigiTech RP350",
+      "DigiTech BP efek",
+      "Line6 M13",
+      "Korg AX1500B"
+    ],
+    "excluded": "RP350adapter855783279/22273291654;TRIObandcreator specialist not generalmultifx;HopeMusicmixedpricesunallocated",
+    "duplicate": "RP70offer473560916/28475084274alreadycanonical;direct2monthcache750000stale18–21Aug vs3monthindexJuly;no newmodel",
     "downloads": false
   }
 }
