@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "GNX4 rear-panel pp6–7 now verified and shared vocal membership established from explicit live mic effects. Next own numbered top-panel counts/display and effect-category inventory. Preserve power conflict.",
+    "task": "GNX4 nine rotary/seven footswitch counts,user factory-fill and split routing verified from matching manufacturer manual mirror. Next numbered recorder panel for full button count,display and effect tables; no sibling inference.",
     "next_models": [],
     "after_queue": "Other candidates/field gaps; no workflows/push."
   },
@@ -53174,5 +53174,16 @@
     "basis": "Rear-panel mic and line descriptions explicitly allow GNX4 effects for live and recording applications, establishing vocal/live-mic-path membership beyond recording alone.",
     "facts": "Mic pad−20dB,48Vphantom;balanced line/quarter-inch/XLR paths;separate level/speaker compensation;XLR ground lift;GNXFC recorder controller;MIDI Merge OUT/THRU.",
     "remaining": "Complete physical control counts,display/category inventory and power conflict."
+  },
+  "gnx4_panel_checkpoint_20261017": {
+    "source": "https://manualsnet.com/digitech/gnx4",
+    "identity": "Manufacturer-authored GNX4 manual text,printed pp2–8;matched official indexed model/page/rear/expression identity;not generated FAQ.",
+    "rotary": 9,
+    "footswitches": 7,
+    "buttons": null,
+    "count_basis": "Five parameter knobs+Data Wheel+three rear gain/level knobs;five numbered footswitches+UP/DOWN. Recorder button inventory pending;toe/toggles separate.",
+    "memory": "All80 user locations initially duplicate factory presets.",
+    "routing": "Six output modes;Split1 guitar to quarter-inch/other sources XLR,Split2 guitar alsoXLR.",
+    "remaining": "Recorder buttons,display specs,category counts,power contradiction."
   }
 }
