@@ -2408,7 +2408,7 @@ Acoustic-electric guitar multi-effects/preamp, checked2026-10-17; partial. [Manu
 | Expression | External EV-30,FV-500H/L,EV-5 supported through shared EXP/CTL1,2; alternatively two footswitches. Built-in/toe unverified. |
 | Controls | **14 rotary /3 footswitches /19 named buttons**, text-derived inventory below;power separate. Visual corroboration pending. |
 | Display | **2-digit7-segment LED**;diagonal/color/touch unverified. |
-| Processing / choices | Resonance3,compressor2,chorus3,delay3,reverb3;four-bandEQ,lowcut,boost,feedback reduction+two notches. Aggregate simultaneous count unestablished. |
+| Processing / choices | Resonance3 (Natural/Wide/Bright),compressor2 (Soft/Hard),chorus3 (Normal/Mild/Bright),delay3 (Delay/Modulation/Reverse),ambience3 (Short/Mid/Long);off excluded from counts. Four-bandEQ,lowcut,boost,feedback reduction+two notches. Aggregate simultaneous count unestablished. |
 | Factory / user memory | **10 stored setups**,plusManual mode;factory-filled count unknown. |
 | Synth / acoustic | Acoustic Resonance restores pickup/body response;electric-to-acoustic conversion and synth unestablished. |
 | Dimensions / mass | **217W×161D×65Hmm;1.3kg including batteries**. |
@@ -2445,7 +2445,7 @@ Checked2026-10-17 against [official English manual][AD10-PDF], file eng04_W,14pa
 | Factory / user memory | Ten editable effect/setup memories. Startup defaultsManual,configurable toMemory orMemoryStomp. Per-effect memory/manual selection allows some controls to remain at knob positions across recalls. Factory-filled count unknown. |
 | Preset controls / saving | HoldEXIT+MEMORY,confirmMEMORY,choose destination,confirmagain. Recalled knobs use pickup behavior: value changes only after crossing the stored position. |
 | USB audio / monitoring | USB direct-outOFF sends unit sound only tocomputer;host-processed return can feed outputs. ON restores local output. Dedicated driver required;not evidence of a full editor orUSB power. |
-| Expression / live | External EXP targets output,ambience,orloop level. Three named footswitches: BOOST,DELAY,TUNER&MUTE;exact rotary/button inventory still pending. |
+| Expression / live | External EXP targets output,ambience,orloop level. Three named footswitches: BOOST,DELAY,TUNER&MUTE;rotary/button inventory is documented below. |
 
 [AD10-PDF]: https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf
 
@@ -2461,3 +2461,12 @@ Checked2026-10-17; [eng04_W manual][AD10-PDF] pp2,4–8,10–12. Counts are deri
 [AD10-PSA-N]: https://www.boss.info/jp/support/by_product/ad-10/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/
 [AD10-PSA]: https://www.boss.info/jp/products/psa-100/
 
+
+### AD-10 — effect choices and loop operation
+
+Checked2026-10-17 against [eng04_W][AD10-PDF],printed pp7,9–10.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / choices | Named choices above exclude bypass. Ambience selects reverberation length,not documented room/hall algorithms. Category counts do not establish a total simultaneous-block limit. |
+| Looper / controls | DELAY+TUNER&MUTE enters loop operation;TUNER&MUTE records,plays,and overdubs. Stop requires two presses;clear requires holding LOOP at least2s while stopped. Sequence defaults record→play→overdub;record→overdub→play is selectable. Playback level50 is unity. Power-off phrase retention,undo/redo,and phrase export remain unverified. |

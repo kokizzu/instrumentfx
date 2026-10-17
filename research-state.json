@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS AD-10",
-    "task": "AD10 textderived14/3/19 andmodel-specificPSA100compatible9V saved;polarity/USBpowerremainunknown. Next enumerate namedalgorithmchoices andlooperpersistence/stoprestrictions fromeng04_W;thenShopeediscovery. No furtherimageattemptunlessnewcapability.",
+    "task": "AD-10 named choices and looper stop/clear/order verified from eng04_W; power-off phrase retention remains unknown. Next fresh Shopee discovery by brand/series for unrecorded multi-effects; no image retry without new capability.",
     "next_models": [],
     "after_queue": "287partialmodels;no downloads/workflows/push."
   },
@@ -57722,6 +57722,45 @@
     "supply": "9VDC500mAmax compatibleadapter vs300mAdevice draw",
     "regional_limit": "Not everyincludedadapteridentity",
     "remaining": "polarity,USBpower,visualcorroboration",
+    "downloads": false
+  },
+  "ad10_algorithms_looper_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf",
+    "identity": "eng04_W ©2017 Roland printed pp7,9–10",
+    "choices": {
+      "resonance": [
+        "Natural",
+        "Wide",
+        "Bright"
+      ],
+      "comp": [
+        "Soft",
+        "Hard"
+      ],
+      "chorus": [
+        "Normal",
+        "Mild",
+        "Bright"
+      ],
+      "delay": [
+        "Delay",
+        "Modulation delay",
+        "Reverse delay"
+      ],
+      "ambience": [
+        "Short",
+        "Mid",
+        "Long"
+      ]
+    },
+    "off_excluded": true,
+    "looper": "Double press stops;hold LOOP >=2s while stopped clears;rec-play-dub default or rec-dub-play;level50 unity",
+    "remaining": [
+      "Power-off phrase retention",
+      "Undo/redo",
+      "Phrase export",
+      "Aggregate simultaneous block count"
+    ],
     "downloads": false
   }
 }
