@@ -112,7 +112,7 @@ def main():
         assert changed <= set(paths), changed-set(paths)
         git('add','--',*sorted(changed))
         print(git('diff','--cached','--stat'))
-        print(git('commit','-m','research(neural): distinguish Quad Cortex memory and processing limits' if mode == 'commit-quad' else 'research(kemper): preserve second exact Head MK2 asking price' if mode == 'commit-player' else 'research(fractal): add FM9 MKII Turbo and preserve revision limits'))
+        print(git('commit','-m','research(neural): qualify Quad Cortex I-O and editor requirements' if mode == 'commit-quad' else 'research(kemper): preserve second exact Head MK2 asking price' if mode == 'commit-player' else 'research(fractal): add FM9 MKII Turbo and preserve revision limits'))
     elif mode == 'commit-discovery':
         verify()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'

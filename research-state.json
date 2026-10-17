@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Neural DSP Quad Cortex",
-    "task": "Quad Cortex memory/grid/synth/USB counts saved from4.1.1manual. Continue exact hardware I/O,electrical/display specs,IR limits,looper andeditor OS requirements;total/factory/scenes andoffers remain partial.",
+    "task": "Quad Cortex hardware/editor evidence saved withTRS/TS discrepancy. Continue IR import/native limits,looper operation/duration,scenes anddisplay color;captureout connector andfactory/total memory still open.",
     "next_models": [],
     "after_queue": "Fresh bass/vocal discovery andlossless legacy consolidation remain incomplete. No downloads,workflows orpush."
   },
@@ -63844,5 +63844,17 @@
       "SYNTH category explicit;USB8in8out."
     ],
     "remaining": "Exact total/factory/scene capacities,algorithm census,looper duration,I/O/electrical,IR limits,editor requirements andcondition-qualified offers."
+  },
+  "technical_followups_quad_hardware_editor_20261017": {
+    "model": "Neural DSP Quad Cortex",
+    "source": "https://neuraldsp.com/manual/quad-cortex",
+    "revision": "4.1.1",
+    "findings": [
+      "Hardware table confirms11combinedstomp/rotary+MasterVolume+capacitivepower.",
+      "Return/send/phones formats,electrical figures saved;TRSoutput heading versusTS-Fconnector inconsistency preserved.",
+      "USBClass2.0 fixed48kHz;MIDI5pinDIN.",
+      "CortexControl macOS13+orWindows10+,8GBRAM,100MB,CPU minima andWindowsASIO prerequisite;requiresconnectedhardware."
+    ],
+    "remaining": "Capture-out connector,displaycolor,IR limits,looper duration,total/factory/scene memory,algorithm counts andcondition-qualified offers."
   }
 }
