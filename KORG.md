@@ -469,3 +469,12 @@ Japanese p48 explicitly instructs FUNCTION+VOLUME(NR), corroborating the English
 Official [Easy Start entry](https://www.korg.com/us/support/download/manual/1/22/2038/) links AX10_Series_EasyStart.pdf;exact CDN URL returnedcachemiss andquerylessURL inaccessible. No newfacts assigned from unreadguide.
 
 [AX100-S]: https://www.korg.com/de/products/effects/ax100g/page_2.php
+
+### AX10B — save,reset andpedal assignment limits,2026-10-18
+
+| Field | Manufacturer manual finding |
+|---|---|
+| Memory / save andreset | [Own EFG1 manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),printedpp12–13:program change/power-off discards unsavededits. WRITE selects overwrite destination among40userlocations;factorypresets protected. MASTER/CANCEL cancels write-ready. Factoryrestore loads presets intouserarea andoverwrites allsaveduserprograms. Instructions reviewed only;no reset/deviceoperation performed. |
+| Expression / assignment operation | Samep12:OCTAVE pedal assignment requires OCTAVE selectedasPRE FX;changingPREtoother type reassignspedal toVOLUME. VOLUME alwayson;minimumlevel configurable viaFUNCTION+AMBIENCE DEPTH. Physicalposition continuescontrolling sound andcannotbe stored. OriginalValueLED indicates equality withsavedparameter,not automatic knobpickup (p7). |
+| Tuner / specification | Samep14 explicitly publishes27.5–1318.5Hz(A0–E6)detectionrange,438–445Hz reference. This is range,not measuredaccuracy;sample/conversionformat stillunknown. |
+
