@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 245,
+  "active_model_count": 246,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 245,
+  "canonical_root_model_count": 246,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "245 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. SPX2000 guitar/vocal line-level scope from own manual;bass unclassified;all models remain partial.",
+  "count_reconciliation": "246 unique active/root-canonical models;0 legacy-only;31 brands;6 excluded archives. SPX1000guitar/vocal own-manual scope;bass unclassified;all records partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX1000",
-    "task": "Verify saved exactGMSBandungShopee hardwareaskRp4400000 with own Yamaha manual/product evidence before adding. Do not borrow SPX900/990/2000 specifications. Condition/stock unknown.",
+    "task": "SPX1000 added246th;verify full panelcounts,mass,category/simultaneity,digitalI/Oprotocol,userfill andFreeze details using ownmanual. Do not duplicate model;commit before next.",
     "next_models": [
       "Zoom RFX-2000 (resolve exact item first)"
     ],
@@ -23971,7 +23971,8 @@
     "Yamaha": [
       "SPX900",
       "SPX990",
-      "SPX2000"
+      "SPX2000",
+      "SPX1000"
     ]
   },
   "root_brand_content": {
@@ -24280,12 +24281,13 @@
     "YAMAHA.md": [
       "SPX900",
       "SPX990",
-      "SPX2000"
+      "SPX2000",
+      "SPX1000"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 198,
+      "record_count": 199,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24297,9 +24299,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 47,
+      "record_count": 48,
       "vocal_only_count": 22,
-      "combined_instrument_count": 25,
+      "combined_instrument_count": 26,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41248,13 +41250,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 245,
-    "canonical_root_models": 245,
+    "unique_brand_model_pairs": 246,
+    "canonical_root_models": 246,
     "legacy_only_models": 0,
-    "guitar_view_models": 198,
+    "guitar_view_models": 199,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
-    "vocal_view_models": 47,
+    "vocal_view_models": 48,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41311,7 +41313,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha SPX1000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41512,7 +41514,8 @@
       "Alesis::MIDIverb 4",
       "Yamaha::SPX900",
       "Yamaha::SPX990",
-      "Yamaha::SPX2000"
+      "Yamaha::SPX2000",
+      "Yamaha::SPX1000"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41663,7 +41666,8 @@
       "Alesis::MIDIverb 4",
       "Yamaha::SPX900",
       "Yamaha::SPX990",
-      "Yamaha::SPX2000"
+      "Yamaha::SPX2000",
+      "Yamaha::SPX1000"
     ]
   },
   "comparison_bass_basis": {
@@ -43618,6 +43622,13 @@
     },
     "Yamaha::SPX2000": {
       "link": "YAMAHA.md#spx2000",
+      "source_files": [
+        "YAMAHA.md"
+      ],
+      "finding_files": []
+    },
+    "Yamaha::SPX1000": {
+      "link": "YAMAHA.md#spx1000",
       "source_files": [
         "YAMAHA.md"
       ],
@@ -53680,5 +53691,11 @@
       "Lexicon MPX hardware"
     ],
     "coverage": "Limited discovery pass,not proof of absence or exhaustive coverage;no sources downloaded."
+  },
+  "spx1000_discovery_20261017": {
+    "manual": "https://usa.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf",
+    "pages": "introduction,2–5,10–11,29,Add-31",
+    "finding": "Official79page ownmanual accessible,40preset59user,dualFC7control,guitar/vocalcompressorapplications,regional22Wmains anddimensions.",
+    "remaining": "Panelcounts,mass,completecategories/simultaneity,digitalprotocol,initialuserfill,Freeze andsoftware/visualgaps."
   }
 }

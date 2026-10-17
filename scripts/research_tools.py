@@ -387,7 +387,7 @@ def main():
         if mode == 'commit-rfx1100':
             message = 'research(zoom): inventory RFX-1100 banks and qualify combined algorithms'
         if mode == 'commit-spx990':
-            message = 'research(yamaha): verify SPX2000 USB-MIDI driver versions separately from editor support'
+            message = 'research(yamaha): add SPX1000 from original manual and qualified Shopee offer'
         if mode == 'commit-spx900':
             message = 'research(yamaha): add SPX900 with original manual and qualified line-level scope'
         if mode == 'commit-mx200':

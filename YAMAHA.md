@@ -126,3 +126,39 @@ Seller “ORI JAPAN” does not verify authenticity,manufacture origin or voltag
 [S2-DL]: https://usa.yamaha.com/products/proaudio/processors/spx2000/downloads.html
 [S2-DW]: https://usa.yamaha.com/support/updates/usb-midi-driver-win.html
 [S2-DM]: https://usa.yamaha.com/support/updates/usb_midi_driver_for_mac.html
+
+## SPX1000
+
+Checked2026-10-17;partial. Own compressor description includes electric guitar and vocalist applications. Use suitable preamp/mixer routing; bass applicability unclassified. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal/toe; two front EXT CTRL/FOOT VOL sockets accept FC7 controllers with assignable parameters and min/max range. | [Manual pp3–4,10–11][S1-M] |
+| K/F/B | Counts pending complete own-panel inventory. | Unresolved |
+| Display | 16×2 character LCD;two-digit memory LED;stereo eight-segment level meters. Diagonal,color/touch unverified. | [Manual Add-31][S1-M] |
+| Processing / categories | 40 preset programs include reverbs,delay,modulation,dynamics,multi-effect and independent two-channel programs. 44.1kHz;each program has two-band parametric EQ/dynamic-filter parameters. Category totals and elemental simultaneous ceiling pending. | [Manual introduction][S1-M] |
+| Preset memory | **40 preset+59 user=99**; initial user fill unverified. | [Manual introduction][S1-M] |
+| Synth / acoustic | Freeze sampling documented;dedicated synth/acoustic simulation unverified. | [Manual contents][S1-M] |
+| I/O | Stereo quarter-inch mono-phone inputs/outputs;MIDI IN,switchable THRU/OUT;digital I/O 8-pin pair;Trigger1/2,memory,bypass footswitch sockets;two expression sockets. Digital protocol/cable details pending. | [Manual pp4–5,Add-31][S1-M] |
+| Power / battery / USB | US/Canada120V60Hz;general220–240V50/60Hz;22W. Backup lithium battery retains memory,not proof of battery-powered operation. USB operation unverified;DC polarity inapplicable to mains. | [Manual p2,Add-31][S1-M] |
+| Dimensions / mass | **480W×45.2H×319D mm**;mass unverified. | [Manual Add-31][S1-M] |
+| IR / NAM / capture | User IR,native/converted NAM and capture support unverified. | Unresolved |
+| Editor / platforms | Current editor,drivers and computer OS support unverified;MIDI dumping does not establish editor support. | Unresolved |
+| Looper / drums / live | Freeze modes documented;performance-looper persistence,drums,scenes and spillover pending. | [Manual contents][S1-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown;no qualified used condition. | — |
+| New | Unknown;no qualified new condition. | — |
+| Condition-unverified indexed ask | **Rp4.400.000**,GMS Bandung,shop137354453/item25909747809,KotaBandung. Last-month indexed body,direct text available2026-10-17;cachedAug20delivery is not current stock. | [Exact Shopee item][S1-O] |
+
+<!-- comparison evidence ends -->
+
+Working condition,stock,voltage variant,authenticity,bundle,mains cable,warranty,shipping/tax and voucher eligibility remain unknown. Rp10000late-arrival compensation is not purchase discount. Own official79-page manual accessible through US host;data/UKhost access403. Browser text only,no visual panel claim or filesystem download.
+
+[S1-M]: https://usa.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf
+[S1-O]: https://shopee.co.id/Yamaha-SPX1000-i.137354453.25909747809
