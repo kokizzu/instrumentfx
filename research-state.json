@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-200",
-    "task": "Audio electrical/USBformat/editorplatform andexpressionassignment evidence saved. Next exactrotary/buttoninventory,toeoperation,currentcategorychoices/synthacoustic,IRNAMlimits orfreshShopee discovery.",
+    "task": "GP200 firmware1.8.0 manual identity,colorLCD,IRwording,SnapToneAMP/DST andexternalcontrolmodes saved. Next exactcontrols,categorycensus/synthacoustic andglobalEQDSP/routing limits orfreshShopeediscovery.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61210,5 +61210,18 @@
       "Builtinopticalexpressionup3parameters"
     ],
     "limits": "OS/driverrevision,powernegatives,toe/externalconcurrency,outputlevels/categorycensusremainunknown"
+  },
+  "gp200_manual_180_20261017": {
+    "manufacturer": "https://www.valeton.net/wpfd_file/gp-200_online-manual_en_firmware-v1-8-0-pdf/",
+    "copy": "https://device.report/m/3a13aa935b7e9053d2c7ac63b05d4b7017ccb33f03355e6215f2e85da6a0a2b3",
+    "identity": "GP200 firmware1.8.0cover,3.84MB80PDFpages;officialupdatedJan14,2026",
+    "conflict": "MirrorwrapperOct21,2025notadoptedrevisiondate",
+    "findings": [
+      "ColorLCDp3",
+      "IRWAV44kHz/1024sample ratewordingp55retained",
+      "NAMsoftwareloadingAMP/DSTp70notnativeproof",
+      "EXP2/single/dualfootswitchmodesp16;EXP1LineExpoLogp15"
+    ],
+    "limits": "Nodownload,novisualcount;touch,IRconversionlimits,NAMnative/concurrencyunverified"
   }
 }
