@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G1 original",
-    "task": "CountoriginalG1effectcategories;verify factoryuseroccupancy,externalcontrol restrictions andqualifiedsellerrevision/condition. PreserveG1X/next/on/FOURdistinctions.",
+    "task": "Verify exact G1 seller revision/condition and remaining model-specific technical gaps; then resume fresh bass/vocal Shopee discovery. Category census, factory occupancy and external control saved.",
     "next_models": [],
     "after_queue": "Bass/vocaldiscovery andlosslesslegacyconsolidation remainincomplete. Nodownloads/workflows/push."
   },
@@ -51978,6 +51978,13 @@
       "source": "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/synth.html",
       "finding": "PolySynthSIFTpolyphonicupto3synthvoices(notnoteceiling),5waveforms,mappedpitchwheel±1200cents;HotSawz6sawmonotracking;Synthonizeradditive/subtractive+reverb. H9input1/notemporestrictionnotborrowed.",
       "remaining": "Synthonizerinputrestrictions,USB/buspower,totalmemory,display,massconflict,imports,qualifiedoffers"
+    },
+    {
+      "model": "Zoom G1 original",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_G1_G1X.pdf",
+      "finding": "Original manual pp16–25: category census, factory duplication and external-control restrictions saved in ZOOM.md.",
+      "remaining": "Exact seller revision and condition;toe behavior,screen details,synth,IR/NAM/editor evidence,actual current draw,looper/scenes/trails remain unresolved."
     }
   ],
   "discovery_cross_brand_bass": {
