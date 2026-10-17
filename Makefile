@@ -1459,3 +1459,7 @@ research-commit-stadiumxl:
 .PHONY: research-commit-hd500x
 research-commit-hd500x:
 	python3 scripts/research_tools.py commit-hd500x
+
+.PHONY: research-commit-amplifi-fx100
+research-commit-amplifi-fx100:
+	python3 scripts/research_tools.py commit-amplifi-fx100

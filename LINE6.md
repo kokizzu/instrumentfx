@@ -1160,3 +1160,47 @@ No full-manual or installed-firmware audit claimed. FAQ power, dimensions and ph
 [H5X-O1]: https://shopee.co.id/effect-gitar-LINE-6-POD-HD500X-second-i.56303985.2253537586
 [H5X-O2]: https://shopee.co.id/Line-6-pod-hd500x-i.267406637.21071872133
 [H5X-O3]: https://shopee.co.id/pod-Hd500X-mulus-HC-line6-pod-hd-i.58780289.18911697683
+
+## AMPLIFi FX100
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**. Guitar floor processor, distinct from AMPLIFi speaker amps and Flamma FX100. Own Rev D guide and manufacturer support; partial verification.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | Built-in pedal, toe toggles Volume/Wah; external expression socket not listed in own rear-panel inventory, further controller options **?**. [Guide][AF-M] |
+| Knobs / footswitches / buttons | **7 /4 /2**: six tone rotaries + Master;A–D footswitches;Bluetooth and Tap buttons. Master press counted once; toe and rear power rocker additional. [Guide][AF-M] |
+| Display | Numeric bank/tuner indicator and LED rings; diagonal, color/touch specifications **?**. [Guide][AF-M] |
+| Dimensions / weight | FAQ **17¾ W ×9¼ D ×3 H inches;7lb6oz** (translated FAQ3.3kg). Rev D instead prints **641×330×153 mm,3.40kg**, axes unstated. Material dimensions conflict retained; do not silently treat as unit/packaging conversion. [FAQ][AF-F], [Guide][AF-M] |
+| Simultaneous blocks | **8 simultaneous effects** advertised;70+amps,100+effects,20+cabs. Exact per-category inventory and whether amp/cab count toward8 **?**. [FAQ][AF-F] |
+| Factory / user memory | **100 onboard locations**,25banks ×4, saveable; factory-filled count **?**. Cloud/library capacity separate. [FAQ][AF-F], [Guide][AF-M] |
+| Synth / acoustic simulation | Exact synth/acoustic-simulation algorithms **?**. Tube Instrument Preamp explicitly supports bass/piezo; piezo/Variax-acoustic voicing is not proof of electric-to-acoustic simulation. [Model descriptions][AF-C] |
+| IR / NAM / capture | User IR, native/converted NAM and capture **?**; factory cab models alone do not prove import |
+| Audio/control I/O | Quarter-inch guitar, stereo phones, L/R main outs and mono Amp Out; USB;9VDC input and power rocker. FAQ calls main outs balanced. [Guide][AF-M], [FAQ][AF-F] |
+| Power / battery / USB | **Line6 9VDC supply** specified; polarity,barrel,current/draw,battery and USB power **?**. [Guide][AF-M] |
+| Editor platforms | **AMPLIFi Remote iOS/Android** Bluetooth editor. Old requirements differ: FAQ iOS7+, RevD iOS9+/Android4.2+. No ongoing development; manufacturer reports Android11/12/13 malfunction. From2023-11-01 new Android users above4.4 cannot see it in Play Store; official legacy APK is provided as-is,modern compatibility unguaranteed. Support expired2023-12-01. Current iOS compatibility and desktop editor **?**; desktop Bluetooth audio/updaters are separate. [Guide][AF-M], [FAQ][AF-F], [Development][AF-D], [Availability][AF-A] |
+| USB audio | Later guide confirms stereo in/out. Firmware2.10 added recording: Mac/iPad class-compliant24bit/48kHz; WindowsASIO16/24bit44.1/48/88.2/96 with conversion. Historical Windows7/8 and OSX10.7+ support is not current-OS verification. Old FX100 FAQ says USB unused; superseded by later guide/release evidence. [Guide][AF-M], [Firmware][AF-U] |
+| Looper / routing / live features | **Amp Out excludes Bluetooth and removes guitar from Main Outs when connected**. Hardware preset saving disabled while Remote app connected. Tap/tuner; looper,drums,scenes **?**. [Guide][AF-M] |
+| Practical restrictions | Firmware2.50.2 requires Remote≥2.13; updater/Windowsdriver separate. Bluetooth2.1/SBC; app sync is distinct from pairing. Manufacturing ended2021-12-01; old inventory does not imply current support. [Firmware][AF-U], [FAQ][AF-F], [End of life][AF-E] |
+
+### AMPLIFi FX100 — separate IDR evidence
+
+| Class | Amount | Exact hardware offer and qualifications |
+|---|---:|---|
+| Indexed hardware ask; sale condition unverified | **Rp2.999.000** | [Tempo Music,18437660/186076637][AF-O],Jakarta Barat. Exact page opened2026-10-17;cache2months,delivery19–22August,seller activity4years versus initial5month search/activity3years/service unavailable. Title names FX100 but category amplifier/mixer; actual unit,bundle,warranty and checkoutstock unverified. Late delivery voucher not deducted. |
+| Verified used offer | **?** | Sale condition unverified |
+| Verified new offer | **?** | Sale condition unverified |
+<!-- comparison evidence ends -->
+
+### FX100 provenance and remaining checks
+
+The FX100-specific FAQ incorrectly describes a five-speaker design in a streaming answer; that belongs to speaker-equipped products and does not establish FX100 speakers. Preserve its older USB claim as historical, not current functionality. Own guide is Rev D/2016; selected support pages were read without downloading software or files. The alternative CDN guide URL failed; the official English URL rendered as8-page PDF text. No visual measurement or hardware test. Remaining: reconciled dimensions, full model category inventory, draw/polarity, external control, display and app compatibility, IR/NAM/capture and sale-condition-qualified offers.
+
+[AF-M]: https://line6.com/data/6/0a020a4132f0612713c723f4f/application/pdf/AMPLIFi%20FX100%20Pilot%27s%20Guide%20-%20English%20.pdf?locale=en_UK
+[AF-F]: https://kb.line6.com/amplifi-fx100-faq
+[AF-C]: https://kb.line6.com/full-list-of-amplifi-firehawk-series-amps-effects-and-cabs
+[AF-D]: https://kb.line6.com/amplifi-development
+[AF-A]: https://kb.line6.com/amplifi-and-firehawk-android-app-availability
+[AF-U]: https://kb.line6.com/amplifi-firmware-update-release-notes
+[AF-E]: https://kb.line6.com/amplifi-series-end-of-life
+[AF-O]: https://shopee.co.id/YAMAHA-LINE6-LINE-6-Ampli-Gitar-Amplifi-FX100-AmplifiFX100-i.18437660.186076637
