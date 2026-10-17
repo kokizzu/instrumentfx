@@ -28,9 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic M100",
-    "task": "M100 parameter controls and MIDI SysEx procedure saved. Next seek revision/input-balance corroboration or defer explicit gaps and continue fresh discovery; no repeated unsupported MIDI absence claims.",
-    "next_models": [],
+    "model": "TC Electronic PLETHORA X3",
+    "task": "Verify own official product/manual/firmware and add eligible record using saved exact Shopee offers. Commit before X5. M100 deferred revision/input conflicts saved.",
+    "next_models": [
+      "TC Electronic PLETHORA X5"
+    ],
     "after_queue": "Continue fresh Shopee discovery; all prior deferred gaps retained. No downloads/workflows/push."
   },
   "new_findings": [
@@ -54777,5 +54779,56 @@
       "Other retained technical/offer gaps"
     ],
     "access": "Targeted official searches yielded current guide; no earlier official revision resolved. No download or update."
+  },
+  "m100_revision_search_20261017": {
+    "queries": [
+      "Official MusicTribe M100/P0CAH excluding current QSG filename",
+      "Official TC Electronic M100 MIDI"
+    ],
+    "result": "No earlier official guide or hardware revision map resolved. G-System schematics with component marker M100 are unrelated and rejected. Current guide MIDI procedure retained; balance conflict not resolved.",
+    "deferred": [
+      "MIDI hardware revision applicability",
+      "Balanced-input product wording versus unbalanced TS specifications",
+      "Remaining technical and offer gaps"
+    ]
+  },
+  "discovery_plethora_20261017": {
+    "checked_date": "2026-10-17",
+    "leads": [
+      {
+        "model": "TC Electronic PLETHORA X3",
+        "url": "https://shopee.co.id/TC-Electronic-PLETHORA-X3-TonePrint-Pedalboard-with-up-to-127-Boards-3-Pedal-Slots-i.158235298.28021818540",
+        "shop_id": "158235298",
+        "item_id": "28021818540",
+        "seller": "NEO MUSIC",
+        "region": "Kota Sukabumi",
+        "asking_idr": 6180000,
+        "condition": "Unverified",
+        "access": "Exact item search text, three-month crawl, July2 arrival. Historical ask, not live stock."
+      },
+      {
+        "model": "TC Electronic PLETHORA X3",
+        "url": "https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X3-TonePrint-i.306155985.23943061836",
+        "shop_id": "306155985",
+        "item_id": "23943061836",
+        "seller": "Gelora Musik Serpong",
+        "region": "Kab. Tangerang",
+        "asking_idr": 7508100,
+        "condition": "Unverified",
+        "access": "Exact item search text, five-month crawl; delivery service unavailable. Historical ask."
+      },
+      {
+        "model": "TC Electronic PLETHORA X5",
+        "url": "https://shopee.co.id/TC-Electronic-PLETHORA-X5-TonePrint-Pedal-Board-Loaded-with-Favorite-FX-and-5-MASH-Footswitches-i.158235298.27271818642",
+        "shop_id": "158235298",
+        "item_id": "27271818642",
+        "seller": "NEO MUSIC",
+        "region": "Kota Sukabumi",
+        "asking_idr": 9105200,
+        "condition": "Unverified",
+        "access": "Exact item search text, three-month crawl, July2 arrival. Historical ask, not live stock."
+      }
+    ],
+    "limits": "Titles are not specification proof. Condition, selected variant, bundle, adapter, working state, authenticity, warranty, shipping/tax and vouchers unresolved. Delay compensation is not discount. Excluded accessory and specialist category results not promoted."
   }
 }
