@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal Shopee discovery",
-    "task": "MIDIverb4 recorded separately;do notduplicate. Resume freshexact hardware discovery andremaining technical/revision/offer gaps.",
-    "next_models": [],
-    "after_queue": "Continue migration/research;no downloads/workflows."
+    "model": "Yamaha SPX900",
+    "task": "Verify original Yamaha manual,eligible simultaneousarchitecture andinstrument/mic routing. Exact1186125751/26618311686 Rp2.950.000 sellersecondnormal,linked fromshopbutitemfailed;preserveaccesslimits. Commit ownrecord beforeSPX990.",
+    "next_models": [
+      "Yamaha SPX990"
+    ],
+    "after_queue": "Continue bass/vocal discovery,technicalgaps andmigration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -52618,5 +52620,48 @@
       "reason": "Title explicitlybekas butomitsgeneration;not mapped toMIDIverb4."
     },
     "status": "queued before manufacturer research;not active inventory"
+  },
+  "discovery_yamaha_spx_20261017": {
+    "queries": [
+      "Zoom B2 bass -B2four -B2.1u",
+      "Boss ME-50B -adapter -adaptor",
+      "Yamaha SPX900",
+      "TC Helicon VoiceLive2"
+    ],
+    "scope": "Limited bass/vocal queries returned existingB2FOUR andnewYamaha leads;no exhaustive market claim.",
+    "leads": [
+      {
+        "model": "Yamaha SPX900",
+        "url": "https://shopee.co.id/efek-vokal-yamaha-spx900-second-normal-i.1186125751.26618311686",
+        "seller_id": "1186125751",
+        "item_id": "26618311686",
+        "model_id": "109326633431",
+        "idr": 2950000,
+        "condition": "seller title second normal",
+        "stock": "unknown",
+        "region": "unknown",
+        "access": "recommendation link onreopened shop/orderku0ta,exact itemfailedcachemiss;shopidentity doesnotaloneprove recommendationseller",
+        "bundle": "unknown",
+        "voucher": "unknown",
+        "authenticity": "unverified"
+      },
+      {
+        "model": "Yamaha SPX990",
+        "url": "https://shopee.co.id/efek-vokal-YAMAHA-SPX990-ORI-JAPAN-SECOND-NORMAL-i.118221978.25861267106",
+        "seller": "elkusla_shop",
+        "seller_id": "118221978",
+        "item_id": "25861267106",
+        "idr": 6850000,
+        "condition": "seller title SECOND NORMAL",
+        "stock": "unknown",
+        "region": "Kab.Kediri",
+        "access": "four-month indexed;Layanan TidakTersedia;notcheckoutverified",
+        "bundle": "unknown",
+        "voucher": "unknown",
+        "authenticity": "unverified"
+      }
+    ],
+    "qualification": "Seller usedcondition explicit,operatingstate/origin notindependentlyverified. Do not mergeSPX900/SPX990 oraccept shopcarousel identity asitem ownership.",
+    "status": "queued;noinventory additions beforeprimaryverification"
   }
 }
