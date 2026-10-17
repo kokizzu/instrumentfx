@@ -737,7 +737,7 @@ def main():
         if mode == 'commit-cube-union':
             message = 'audit(mvave): preserve all Cube Baby shared rows and historical qualifications'
         if mode == 'commit-ame100':
-            message = 'research(audota): corroborate AME-100 memory and import scope'
+            message = 'research(audota): document AME-100 routing and switch context'
         if mode == 'commit-audota-union':
             message = 'audit(audota): verify shared source union and preserve appendix and scope context'
         if mode == 'commit-boss-history-union':

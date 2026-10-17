@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Audota AME-100",
-    "task": "Current importer200-memory/A1/overdub corroboration saved. ManualV02_26-04 andJune2026 updatePDFs failed;do not repeat identical endpoints. Remaining current firmware split,touch,USB formats andNAM architecture unresolved.",
+    "task": "AME-100 routing andcontext-dependent controls saved from indexed manufacturer body. Current firmware/touch/USB formats stillunresolved;move to another record orfresh discovery rather than repeating failedmanual links.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -58117,6 +58117,15 @@
       "checked": "2026-10-18",
       "finding": "Exact importer page corroborates200 locations,A1 host import andlooper overdubs;linked manual/updatePDFs inaccessible.",
       "source": "https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-100-intelligent-multi-effects-jade-green"
+    },
+    {
+      "model": "Audota AME-100",
+      "checked": "2026-10-18",
+      "finding": "Indexed exact manufacturer text adds AMP/CAB destination setup,footswitch context andencoder chain editing.",
+      "sources": [
+        "https://en.audota.com/AME100EN.html",
+        "https://www.audota.com/AME100CN.html"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

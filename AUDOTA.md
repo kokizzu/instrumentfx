@@ -141,6 +141,17 @@ Checked2026-10-18 against the [official importer’s exact Jade Green product pa
 
 Linked English manual filename identifiesV02_26-04,andupdate instructions are labelledJune2026;both PDFs failed retrieval with/without query strings. Their contents/revision applicability were not inspected. No software or files downloaded.
 
+
+### AME-100 — manufacturer routing and footswitch context
+
+Checked2026-10-18 using indexed [exact English manufacturer product body](https://en.audota.com/AME100EN.html),with matching [Chinese model body](https://www.audota.com/AME100CN.html). Browser title incorrectly saysACE100;body explicitly namesAME-100. DirectwwwEnglish access timed out;no image inspection.
+
+| Field | Manufacturer operating guidance |
+|---|---|
+| I/O / AMP-CAB setup | Guitar-amp **INPUT:AMP andCAB off**;amp **RETURN/power stage:AMP on,CAB off**; **FRFR:AMP andCAB on**. These are recommended configurations,not proof of multiple outputs orautomatic destination detection. |
+| Physical controls / footswitch context | In effect-chain view,−/+ step presets. Holding− enters tuner outside the looper/drum interface;holding+ opens looper/drums. In looper/drums,− handlesrecord/play/overdub/stop-record/clear;+ handlespause/play anddrums. Both together go back;holding both returns to main interface. Detailedtap/hold timing,undo andcurrentfirmware mapping remain unverified. |
+| Processing / encoder chain editing | EDIT adds modules orchanges their order in the chain area,andaccesses save/settings/parameters. This supports on-device chain editing,not arbitrary simultaneous duplicates,an unrestricted DSP ceiling ortouchscreen operation. |
+
 <!-- comparison evidence ends -->
 
 ### Current source access and remaining limits
