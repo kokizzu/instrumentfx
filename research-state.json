@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom GFX-3",
-    "task": "GFX3 converter/analog ratings and printed middleEQ duplication saved; commit before next model. Full50type/7versus8module conflict, visualbuttoncount/currentoffer/imports remain unresolved. Next inspect own block diagram/counting or another primary gap; do not infer a corrected mid frequency or sibling specs.",
+    "task": "GFX3 exact calibration/globalEnergizer and DRIVE20versus22 wording conflict saved. Commit before next model. Full50type and7/8module reconciliation unproved; do not force arithmetic by countingglobalcontrols. Next different model primary gaps or fresh Shopee discovery; no downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57022,6 +57022,14 @@
       "model": "Zoom GFX-3",
       "checked_date": "2026-10-18",
       "finding": "Verified31.25kHz,20bitAD64x/DA8x and input−20dBm470k/output+3dBm10k ratings. EQmanual printsMIDDLE8k duplicatingPRESENCE8k; retained without invented correction. Fresh UtopiaG200/AX100B/RP20/9030 queries yielded no qualified new hardware.",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_GFX3.pdf"
+      ]
+    },
+    {
+      "model": "Zoom GFX-3",
+      "checked_date": "2026-10-18",
+      "finding": "Added exact pedal calibration and global Energizer/master/patch ranges. DRIVE intro20includingacoustic conflicts with22named variants; earlier20distortion+2 describes tables only.50types and7/8modules remain unresolved; no forced arithmetic.",
       "sources": [
         "https://zoomcorp.com/media/documents/E_GFX3.pdf"
       ]
