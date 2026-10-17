@@ -180,3 +180,14 @@ Official manual and block-diagram links resolve to license/download landing page
 | I/O / analog routing | STEREO sends stereo;MONO separates processed L and unprocessed R. Phantom applies to rear XLR,not TRS. Monitor mode fixes line level while VOLUME controls phones. [pp2,9][VT4-OM] |
 
 [VT4-OM]: https://static.roland.com/assets/media/pdf/VT-4_eng04_W.pdf
+
+### VT-4 — MIDI harmony and bypass behavior, 2026-10-17
+
+| Field | Verified manual behavior / limit |
+|---|---|
+| Processing / harmony and MIDI | [Own eng04 manual p5][VT4-OM]: incoming notes enable ROBOT; HARMONY enables polyphonic mode with **up to4 harmony notes**. KEY/AUTO PITCH settings are ignored while notes arrive. This limit describes MIDI-controlled harmony,not all processing blocks. |
+| Processing / input and pitch | [pp2,4][VT4-OM]: pitch slider spans **±1 octave**. Processing expects **one vocalist**;multiple simultaneous voices may prevent correct tracking. |
+| Live / bypass and mute | [pp1,8–9][VT4-OM]: ordinary BYPASS disables effects including reverb; **Mute Mode** instead makes it mute. MIDI In Mode determines whether robot voice remains held after incoming notes stop. |
+| Processing / utility effects | [p7][VT4-OM] documents **four selectable strengths/settings each** for gate,low-cut and enhancer,using scene buttons. These support functions do not establish three additional freely assignable blocks. |
+
+No hardware setting was changed. USB stream rates,full routing concurrency,display,expression and import/editor support remain unresolved.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Roland VT-4",
-    "task": "VT-4 own eng04 manual controls4/0/10+4sliders+3switches,6playback/6recording USB routes,eight writable scenes andanalog routing saved. Next originalmanual MIDI harmony/bypass constraints orfresh Shopee discovery. USB streamrates,display,expression,imports/editor,fullconcurrency andqualifiedoffers remain.",
+    "task": "VT-4 MIDI4-noteharmony/KEY-AUTOPITCH override,±1octave,single-vocalist,bypass/mute andutility4settings saved. Next fresh Shopee discovery other exact vocal/bass/guitar hardware or VT-4 driver documentation for USBstreamrates;no downloads. Fullconcurrency/display/expression/imports/editor/currentoffers remain.",
     "next_models": [],
     "after_queue": "Continue Shopee discovery and legacy consolidation;no workflows/downloads/push."
   },
@@ -59026,6 +59026,30 @@
       "Expression",
       "Imports/editor",
       "Fullconcurrency",
+      "Condition/currentstock"
+    ],
+    "downloads": false
+  },
+  "vt4_midi_limits_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/VT-4_eng04_W.pdf",
+    "revision": "eng04",
+    "midi_harmony_notes": 4,
+    "incoming_notes": "ROBOTenabled;KEYandAUTOPITCHignored",
+    "pitch_octaves": "plus/minus1",
+    "input": "Onevocalist;multiplevoicesmayfail",
+    "bypass": "Effectsincludingreverboff;MuteModealternativemutes",
+    "midi_in_mode": "Robotvoiceholdafterincomingnotesstopconfigurable",
+    "utility_choices": {
+      "gate": 4,
+      "lowcut": 4,
+      "enhancer": 4
+    },
+    "remaining": [
+      "USBstreamrates",
+      "Fullroutingconcurrency",
+      "Display",
+      "Expression",
+      "Imports/editor",
       "Condition/currentstock"
     ],
     "downloads": false
