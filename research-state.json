@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1 FOUR",
-    "task": "B1 FOUR synth/SFX7/delay6/reverb6 saved from2019 Z2I361001. Next enumerate dynamics/filter/drive/amp/cab/mod category counts from same list;keepPEDALrestricted and downloadablevsinstalled distinct.",
+    "task": "B1 FOUR2019 published category inventory93nonPEDAL (includesGuitarLabadditions) saved. Next verify firmware2.0 supplement and distinction between installable library and onboard capacity;then fresh Shopee discovery.",
     "next_models": [],
     "after_queue": "288partial models;no downloads/workflows/push."
   },
@@ -57906,6 +57906,24 @@
       "reverb": 6
     },
     "qualification": "Shareddocument includesrestrictedPEDALsection andmarkedGuitarLabadditions;notinstalledinventory",
+    "downloads": false
+  },
+  "b1four_category_inventory_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf",
+    "identity": "2019 Z2I-3610-01 pp3–15",
+    "counts": {
+      "dynamics": 10,
+      "filter": 13,
+      "drive": 18,
+      "amp": 9,
+      "cabinet": 10,
+      "modulation": 14,
+      "sfx": 7,
+      "delay": 6,
+      "reverb": 6
+    },
+    "total_non_pedal": 93,
+    "qualification": "Includes marked GuitarLab additions;not factory installed total;later downloads outside scope",
     "downloads": false
   }
 }

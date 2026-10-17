@@ -692,7 +692,19 @@ Checked2026-10-17 against [official effects list](https://zoomcorp.com/media/doc
 |---|---|
 | Synth / acoustic | **StdSyn**:four sound variations;**SynTlk**:four vowel variations(IA,UE,UA,OA);**Z-Syn**:SAW/SQR waveform options. These are three named synth algorithms,not ten independently selectable blocks. Defret produces fretless character,not acoustic-guitar simulation. |
 | Processing / SFX | Seven listed SFX:Bomber,LoopRoll,StdSyn,SynTlk,Z-Syn,Defret,PH+Dist. LoopRoll is sample/hold with10–3000ms time setting,distinct from the dedicated30s looper. Six delay choices:Delay,AnalogDly,TapeEcho,ReverseDL,ModDelay,DualDLY. Six reverbs:Air,Room,Hall,HD Hall,Spring,Plate. |
-| Processing / library scope | Shared B1/B1X document includes a restricted PEDAL section;do not assign those entries to pedal-lessB1 FOUR. Guitar Lab additions are marked separately;2019 list does not certify installed inventory or include every later downloadable release. Other category subtotals remain pending. |
+| Processing / library scope | Shared B1/B1X document includes a restricted PEDAL section;do not assign those entries to pedal-lessB1 FOUR. Guitar Lab additions are marked separately;2019 list does not certify installed inventory or include every later downloadable release. Category subtotals are documented below. |
+
+### B1 FOUR — published category inventory
+
+Checked2026-10-17 against [effects list Z2I-3610-01](https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf),pp3–15. Counts derived by enumerating named entries,including marked Guitar Lab additions.
+
+| Field | Documented library / qualification |
+|---|---|
+| Processing / categories | Dynamics10,Filter13,Drive18,Amp9,Cabinet10,Modulation14,SFX7,Delay6,Reverb6: **93 non-PEDAL listed entries**,not93 factory-installed effects. PEDAL section excluded;five simultaneous blocks remains separate. Published70+/60+ marketing figures retain their original scope. |
+| Processing / amps | AMPG SVT,BMAN100,SMR400,AG750,TE400SMX,AC370,Mini MkB,EBH360,FlipTop. Nine amp models,not a combined amp/cab subtotal. |
+| Processing / cabinets | SVT8x10,SVT4x10TW,FD-B4x12,SMR4x10TW,AG4x10TW,TE4x10,AC1x18,MkB2x8TW,EB4x10TW,AM1x15. Factory cabinet modeling does not establish user-IR loading. |
+
+This resolves the earlier category-count gap for this published list;installed firmware/library contents and newer additions remain separately unverified.
 
 ## B1X FOUR
 
