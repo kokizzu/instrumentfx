@@ -272,7 +272,7 @@ Guitar multi-effects;distinct fromRP255/RP150. Checked2026-10-17;partial. Bass/v
 | K/F/B | **4 rotary /2 main footswitches /5 separate buttons**: two Edit, Drums, Store and rear Amp/Mixer. Encoder push and toe additional; no power switch. Text-derived; visual corroboration pending. | [Manual pp2,6–9][RP250-M] |
 | Display | Preset/name/parameter display andLED matrix;technology,diagonal,color,touch unverified. | [Manual p9][RP250-M] |
 | Dimensions / mass | 8.25L×9.375W×2.125Hin;3.3lb. | [Manual p42][RP250-M] |
-| Processing / category choices | **11 simultaneous**. Manual-derived:Pickup2,Wah3,Comp2,Distortion13;Amp20+acoustic1+Direct bypass;Cab14+Direct bypass;EQ4preset curves;Gate2;Delay5;Reverb6. EQ curves are configurations,not four independent blocks. Chorus/FX one-at-a-time;3chorus,2flanger,remaining subtotal unresolved. Phaser prose says2models but namesone;SynthTalk named inoverview without detailedentry. Direct/OFF andparameter variations excluded from algorithm totals. | [Manual pp19–36,42][RP250-M] |
+| Processing / category choices | **11 simultaneous**. Manual-derived:Pickup2,Wah3,Comp2,Distortion13;Amp20+acoustic1+Direct bypass;Cab14+Direct bypass;EQ4preset curves;Gate2;Delay5;Reverb6. EQ curves are configurations,not four independent blocks. Chorus/FX one-at-a-time; named-choice census below supersedes the previously unresolved subtotal. Phaser prose says2models but namesone;SynthTalk named inoverview without detailedentry. Direct/OFF andparameter variations excluded from algorithm totals. | [Manual pp19–36,42][RP250-M] |
 | Factory / user memory | **120=60user+60factory**,user locations initially duplicate factory. ExplicitSTORE required;patch/power changes discard unsaved edits. | [Manual pp5,17–18][RP250-M] |
 | Synth / acoustic | Dreadnaught acoustic simulator. Dedicated synthesis unverified. | [Manual pp23–24][RP250-M] |
 | I/O | ¼TSguitar,L/R¼outputs,⅛stereoAUX,⅛stereophones,USB-B,power,Amp/Mixer switch. Headphones mono whenonlyL output connected;stereo withneither/both. | [Manual pp10–11,42–43][RP250-M] |
@@ -285,6 +285,11 @@ Guitar multi-effects;distinct fromRP255/RP150. Checked2026-10-17;partial. Bass/v
 |---|---|---|
 | USB audio / monitoring | X-Edit utility controls direct/playback mix. Master Level includes USB playback. Dry DI, reamping and USB MIDI remain unverified. | [Manual pp4,11][RP250-M] |
 | Expression / calibration and reset | Both footswitches held about five seconds enter calibration without erasing presets. Set endpoints; V-Switch threshold is 0–200. Both switches exit. Factory reset instead erases user data and starts calibration. No device action performed. | [Manual pp40–41][RP250-M] |
+
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Category choices / Chorus-FX census | **19 individually named choices**: three chorus, two flanger, one named phaser; vibrato, rotary, VibroPan, tremolo, panner, envelope filter, AutoYa, YaYa, Step Filter, Whammy, Pitch Shift, Detune and IPS. One selected at a time. This textual census does not resolve the two-phaser prose or overview-only SynthTalk, nor establish actual firmware inventory. | [Manual pp27–34][RP250-M] |
 
 
 ### Separate IDR hardware offers

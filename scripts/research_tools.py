@@ -517,7 +517,7 @@ def main():
         if mode == 'commit-gfx3':
             message = 'research(zoom): qualify GFX-3 pedal tuner and mixed-variant offer'
         if mode == 'commit-rp250':
-            message = 'research(digitech): verify RP250 buttons monitoring and calibration'
+            message = 'research(digitech): enumerate RP250 named Chorus FX choices'
         if mode == 'commit-rp90':
             message = 'research(digitech): qualify RP90 expression targets and delay resolution'
         if mode == 'commit-ax10g':

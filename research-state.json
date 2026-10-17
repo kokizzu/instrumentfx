@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP250",
-    "task": "RP250 five-button count, USB monitoring and calibration/reset follow-up saved. Next verify unresolved Chorus/FX subtotal directly from own manual, retaining Phaser/SynthTalk conflict. Commit model before next.",
+    "task": "RP250 named Chorus/FX census saved with both manual conflicts retained. Next inspect RP1000 existing evidence and own manual for unresolved expression/live routing, software and power details. Commit each model before next.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56123,6 +56123,13 @@
       "source": "https://www.digitech.com/wp-content/uploads/2022/09/RP250_-Manual18-0432V-B_original.pdf",
       "finding": "Own manual text confirms five separate buttons, USB monitoring utility and non-destructive calibration versus reset.",
       "remaining": "Visual control corroboration, display details, actual current draw, battery/USB power, current OS and import support unresolved."
+    },
+    {
+      "model": "DigiTech RP250",
+      "date": "2026-10-18",
+      "source": "https://www.digitech.com/wp-content/uploads/2022/09/RP250_-Manual18-0432V-B_original.pdf",
+      "finding": "Own manual pp27–34 enumerates 19 individually named Chorus/FX choices: 3 chorus, 2 flange, 1 phaser and 13 others. Two-phaser prose and overview-only SynthTalk remain conflicting; firmware inventory unknown.",
+      "remaining": "Actual firmware inventory and Phaser/SynthTalk discrepancy require stronger evidence; no inferred extra algorithm."
     }
   ],
   "discovery_cross_brand_bass": {
