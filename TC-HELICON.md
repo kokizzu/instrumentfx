@@ -152,6 +152,17 @@ Earlier12V power and regionaldimensions/phantom observations remain qualified ab
 | IDR / separate sold-out hardware offer | **Rp6.100.000; Habis**, [Wiras musik, shop399870342/item11275905550](https://shopee.co.id/Tc-Helicon-Voicelive-Play-i.399870342.11275905550), Kab. Badung. Direct JavaScript-limited reader returned a two-month cache; search reported three months. Title identifies VoiceLive Play, not GTX or Play Acoustic; no image inspection claimed. Condition/new versus used, working status, selected variation, adapter/bundle, warranty/import region, authenticity and shipping/tax remain unverified. Relative tomorrow delivery does not override sold-out status. Late-arrival compensation up to Rp10.000 is not a purchase discount. Historical ask only, not a completed sale or available retail range. |
 
 
+
+### VoiceLive Play — v2.0 mix and loop controls
+
+Checked2026-10-18 against the [original v2.0 manual body](https://manualzz.com/doc/9871012/tc-helicon-voicelive-play-user-manual),not the mirror introduction or generated FAQs.
+
+| Field | Revision-qualified behavior |
+|---|---|
+| I/O / separate mix levels | Printed p29 provides Voices,Harmony/Double overall level; incoming **USB Level**; **Out Level**; joint **Delay/Reverb** level; RoomSense; and Headphone Level. Incoming USB Level differs from p15 **Digital Out Level**,which controls USB output. RoomSense destination restrictions remain separately qualified above. |
+| Looper / feedback | P17 blends each new pass with the existing loop multiplied by Loop Feedback;100% retains the prior loop level,while lower settings reduce earlier layers on successive overdubs. This is loop layering,not an additional track count or a current-firmware duration specification. |
+| Live / pitch reference | P18 specifies **440Hz default,adjustable in0.5Hz increments**; minimum/maximum are not established here. This is pitch reference,not USB sample rate or proof of a dedicated instrument-tuner mode. |
+
 <!-- comparison evidence ends -->
 
 ### Current access and unresolved fields

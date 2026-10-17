@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive — unidentified seller lead",
-    "task": "Karinda26 exact used listing145400305/27288598246 saved pending generation identity;first photo cache miss. Resolve identity before assigning specifications/price or adding inventory;otherwise continue discovery.",
+    "model": "TC-Helicon VoiceLive Play",
+    "task": "v2.0 mix/loop feedback/pitch-reference evidence saved. Ambiguous Karinda26 VoiceLive listing parked after all photos failed;no identity inferred. Continue technical gaps or fresh Shopee discovery without repeating failed endpoints.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -45467,7 +45467,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Play."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58060,6 +58060,12 @@
       "checked": "2026-10-18",
       "finding": "Additional seller-labelled used standard-model ask retained:Kamar Gear1421445165/40565871286,Rp4500000,Habis,two-month cache,Jambi;not live stock or tested condition.",
       "source": "https://shopee.co.id/Valeton-GP-200-Digital-Multieffect-Gitar-Bass-Bekas-Normal-i.1421445165.40565871286"
+    },
+    {
+      "model": "TC-Helicon VoiceLive Play",
+      "checked": "2026-10-18",
+      "finding": "Original v2.0 mix,loop feedback and pitch-reference controls saved;current firmware and USB format unresolved.",
+      "source": "https://manualzz.com/doc/9871012/tc-helicon-voicelive-play-user-manual"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -72486,7 +72492,8 @@
       "condition": "Seller title SECOND;not independently inspected",
       "stock": "Habis in last-month cached body",
       "url": "https://shopee.co.id/TC-HELICON-VOICE-LIVE-SECOND-i.145400305.27288598246",
-      "limits": "Exact VoiceLive generation unidentified. Stale2–5September arrival,not current availability or completed sale. Bundle,adapter,warranty,authenticity,working condition,shipping/tax/checkout unknown. Rp10000 late compensation not deducted. First linked photo cache miss;no image inspected. No price assigned to any active model and no model admitted."
+      "limits": "Exact VoiceLive generation unidentified. Stale2–5September arrival,not current availability or completed sale. Bundle,adapter,warranty,authenticity,working condition,shipping/tax/checkout unknown. Rp10000 late compensation not deducted. First linked photo cache miss;no image inspected. No price assigned to any active model and no model admitted.",
+      "photo_followup": "2026-10-18:remaining linked photos2/3/4 all cache misses;no image inspected. Park pending accessible identity evidence."
     },
     "other_results": "First four queries empty;second group returned already recorded Harmony Singer2 used offers29216795790/54502259248 and B2FOUR hardware. No new catalogue model established;search absence is not proof of absence.",
     "next": "Resolve exact generation from accessible listing photos/title/description before manufacturer matching;otherwise park and pursue another fresh lead."
