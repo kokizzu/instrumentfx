@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 296,
+  "active_model_count": 297,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 296,
+  "canonical_root_model_count": 297,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "296 unique active/root-canonical;0 legacy-only;33 brands;6 excluded;all partial. H9 Max now shared guitar/bass via own SOURCE mode evidence;vocal unresolved.",
+  "count_reconciliation": "297 unique active/root-canonical;0legacy-only;33brands;6excluded;allpartial. H90 guitar/vocal via external mic front-end; bass unresolved.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Eventide H9 Max",
-    "task": "H9Max basscapability verifiedfromSOURCEBASS/SYN.BAS;addedsharedbasscomparison. LEDtype,USBpriorityexcludesDIN,DCouterdiameterconflict saved. Next othermodelgaps/freshShopee discovery;H9USBaudio/power/importsstillunknown.",
+    "model": "Eventide H90",
+    "task": "InitialH90#297 saved separately;next resolve firmware-qualified74algorithm inventory,totalList/usercapacity,looper,bassscope anddimensions/massconflicts. No H9Gen2borrowing.",
     "next_models": [],
-    "after_queue": "ContinuefreshShopeediscovery/technicalverification/consolidation;no downloads/workflows/push."
+    "after_queue": "Continue fullresearch/discovery/consolidation;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5147,6 +5147,29 @@
         "Bass/vocalclassification",
         "Imports",
         "Looper/drums",
+        "CurrentOS",
+        "Condition/stock"
+      ]
+    },
+    {
+      "model": "Eventide H90",
+      "path": "EVENTIDE.md#h90",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.eventideaudio.com/pedals/h90/",
+        "https://cdn.eventideaudio.com/manuals/h90/1.11.4/content/appendix/specifications.html",
+        "https://shopee.co.id/Eventide-H90-Harmonizer-Stompbox-Multi-Effects-Pedal-i.799119783.26020027851"
+      ],
+      "finding": "Twoalgorithms,current74headline,5/3/7physicalcontrols,externalEXP/CV,99perlist;dimensionmassconflicts,adaptervsoperatingpowerqualified;17.24mSweeLeeconditionunknownask.",
+      "remaining": [
+        "Familycounts/FWminimum",
+        "Totalmemory",
+        "Bass",
+        "Display",
+        "Imports",
+        "USB/battery",
+        "Looper",
         "CurrentOS",
         "Condition/stock"
       ]
@@ -24098,7 +24121,8 @@
       "M-One XL"
     ],
     "Eventide": [
-      "H9 Max"
+      "H9 Max",
+      "H90"
     ]
   },
   "root_brand_content": {
@@ -24462,12 +24486,13 @@
       "M-One XL"
     ],
     "EVENTIDE.md": [
-      "H9 Max"
+      "H9 Max",
+      "H90"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 245,
+      "record_count": 246,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24479,9 +24504,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 60,
+      "record_count": 61,
       "vocal_only_count": 23,
-      "combined_instrument_count": 37,
+      "combined_instrument_count": 38,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41439,13 +41464,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 296,
-    "canonical_root_models": 296,
+    "unique_brand_model_pairs": 297,
+    "canonical_root_models": 297,
     "legacy_only_models": 0,
-    "guitar_view_models": 245,
+    "guitar_view_models": 246,
     "bass_focused_models": 28,
     "vocal_only_models": 22,
-    "vocal_view_models": 60,
+    "vocal_view_models": 61,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41502,7 +41527,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Eventide H9 Max."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Eventide H90."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41750,7 +41775,8 @@
       "TC Electronic::PLETHORA X5",
       "TC Electronic::M350",
       "TC Electronic::M-One XL",
-      "Eventide::H9 Max"
+      "Eventide::H9 Max",
+      "Eventide::H90"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41929,7 +41955,8 @@
       "Yamaha::REV500",
       "TC Electronic::M100",
       "TC Electronic::M350",
-      "TC Electronic::M-One XL"
+      "TC Electronic::M-One XL",
+      "Eventide::H90"
     ]
   },
   "comparison_bass_basis": {
@@ -44253,6 +44280,13 @@
     },
     "Eventide::H9 Max": {
       "link": "EVENTIDE.md#h9-max",
+      "source_files": [
+        "EVENTIDE.md"
+      ],
+      "finding_files": []
+    },
+    "Eventide::H90": {
+      "link": "EVENTIDE.md#h90",
       "source_files": [
         "EVENTIDE.md"
       ],

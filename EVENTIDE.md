@@ -66,3 +66,41 @@ These are lineage groups, not five simultaneous blocks. Earlier full-guide acces
 Checked 2026-10-17 against [own H9 User Guide][H9-M], printed pp5,27,43,47. The BASS/SYN.BAS modes explicitly optimize pitch algorithms and filter ranges; they establish bass capability, not uniform performance for every algorithm. This supersedes the earlier unclassified bass scope. USB priority excludes concurrent DIN MIDI, including MIDI thru. A Windows “USB Audio Device” driver name does not by itself establish audio streaming. USB audio, bus power and capture/IR import remain unresolved.
 
 The same manual’s DC connector specification says **2.5×5mm**, whereas the product page says **5.5/2.5mm**; retain this outer-diameter discrepancy alongside the existing EXP mono/stereo wording conflict. Do not silently substitute Gen 2 power specifications. No hardware operation or file download.
+
+## H90
+
+Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownership unverified.
+
+| Field | Evidence / qualifications |
+|---|---|
+| Instrument scope | Guitar; vocal path requires external MixingLink in the manufacturer example. No direct XLR mic/phantom input. Bass suitability pending explicit evidence. [P][H90-P] |
+| Expression | No built-in pedal; two TRS EXP/CTL inputs accept 10–25kΩ pedals, 0–5V CV on tip, or 1–3 normally-open momentary switches. Toe support unverified. [Rear][H90-R] |
+| Knobs / footswitches / buttons | **5 rotary /3 physical footswitches /7 buttons**, text-derived: Select, Perform, three Quick Knobs; Programs, Routing, Presets, Parameters, P/A/B. Push encoders counted once. Product’s six programmable footswitch functions are not six physical switches. [Top][H90-T] |
+| Display | OLED; diagonal, resolution, monochrome/color and touchscreen unverified. [Top][H90-T] |
+| Processing / choices | Current product headline **74=52 H9-derived+22 newer algorithms**; per-category inventory and minimum firmware pending. **Two algorithms per Program**, series/parallel, with spillover. Two mono inserts or one stereo insert; Dual mode can process two stereo instruments. [P][H90-P] |
+| Factory / user memory | **Up to99 Programs per List**; editable User Lists and read-only Factory Lists, first User List factory-populated. Total list count, total capacity and exact factory fill unresolved. A Preset is one algorithm’s settings; a Program contains two. [Terminology][H90-M] |
+| Synth / acoustic | Product lists PolySynth and polyphonic pitch SIFT; detailed synth restrictions and acoustic simulation unverified. [P][H90-P] |
+| Dimensions / mass | Product: **170W×136D×68Hmm;0.84kg**, also6.5W×5.25D×2.5Hin. Manual1.11.4: **179W×136D×65Hmm;1.36kg**, also1.85lb. Retain conflicting metric axes/mass and inch/metric mismatch; do not silently convert or choose. [P][H90-P],[Specs][H90-S] |
+| Audio / control ports | Four¼TS inputs/four¼TS outputs, each instrument/line configurable; two¼TRS EXP/CTL, MIDI DIN IN/OUT-THRU, USB-C, DC. USB for control/update/MIDI; audio streaming unverified. No headphone socket in complete inventory. [Rear][H90-R] |
+| Power / battery / USB | Included **12V1A center-positive,5.5/2.5mm** supply. Manual power table lists **12V600mA or9V800mA** operating requirements, distinct from included adapter rating. Measured draw, battery and USB bus power unverified. [Rear][H90-R],[Specs][H90-S] |
+| Processing / conversion and latency | **48kHz;24-bit AD/DA;32-bit float DSP**. Manual:parallel3.8ms/series4.5ms;each insert adds3.8ms plus configured compensation. Not USB audio format evidence. [Specs][H90-S] |
+| IR / NAM / capture import | Unverified; preset/list import is not proof of IR or amp capture. |
+| Editor / platforms | Current **Eventide Control Mac/PC/iPad**, Bluetooth/USB-C; older manual calls it H90 Control. OS/version matrix pending. [P][H90-P],[Rear][H90-R] |
+| Looper / drums / live | Tuner and spillover documented; own looper limits, drums, scenes and detailed HotSwitch behavior pending. [P][H90-P] |
+
+### H90 — separate IDR hardware evidence
+
+| Price class | Evidence / qualifications |
+|---|---|
+| Verified used | Unknown |
+| Verified new | Unknown |
+| Condition unverified | **Rp17,240,000**, [Swee Lee Official Shop][H90-O],Kota Jakarta Utara,seller799119783/item26020027851. Search crawl3months; direct indexed page2months,checked2026-10-17. Stale28–29June delivery. Exact hardware title; condition, bundle, warranty, voucher, shipping/tax, authenticity and checkout stock unverified. Historical ask, not completed sale. Store name does not establish new condition. |
+
+No downloads or image inspection. Product checked now; manual sections explicitly version1.11.4, not proof of seller-unit firmware. No sibling specifications borrowed.
+
+[H90-P]: https://www.eventideaudio.com/pedals/h90/
+[H90-T]: https://cdn.eventideaudio.com/manuals/h90/1.11.4/content/hardware/top.html
+[H90-R]: https://cdn.eventideaudio.com/manuals/h90/1.11.4/content/hardware/rear-side.html
+[H90-S]: https://cdn.eventideaudio.com/manuals/h90/1.11.4/content/appendix/specifications.html
+[H90-M]: https://cdn.eventideaudio.com/manuals/h90/1.11.4/content/terminology.html
+[H90-O]: https://shopee.co.id/Eventide-H90-Harmonizer-Stompbox-Multi-Effects-Pedal-i.799119783.26020027851
