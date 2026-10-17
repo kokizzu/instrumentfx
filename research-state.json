@@ -61822,5 +61822,51 @@
     ],
     "limits": "SharedlibraryrevisionnotG3nfactorypreload/currentinstalledtotal; additionsdistinctfromsimultaneouscapacity",
     "next": "Continue DRIVE/AMP/CAB/MOD/SFX/DLY/RVB/PEDAL inventories and physical controls; fresh discovery"
+  },
+  "g3n_amp_cab_20261017": {
+    "source": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+    "revision": "2017 pp9–15",
+    "amps": [
+      "MS 800",
+      "MS 1959",
+      "MS 45os",
+      "FD TWNR",
+      "FD B-MAN",
+      "FD DLXR",
+      "FD MASTER",
+      "UK 30A",
+      "BG MK1",
+      "BG MK3",
+      "XtasyBlue",
+      "HW 100",
+      "Recti ORG",
+      "ORG120",
+      "DZ DRV",
+      "MATCH30"
+    ],
+    "cabs": [
+      "MS4x12",
+      "MS4x12GB",
+      "MS4x12AL",
+      "FD2x12",
+      "FD-B4x10",
+      "FD-DX1x12",
+      "FD MA2x12",
+      "UK2x12",
+      "MK1 1x12",
+      "MK3 1x12",
+      "BGN4x12",
+      "HW4x12",
+      "RCT4x12",
+      "ORG4x12",
+      "DZ4x12F",
+      "MA2x12"
+    ],
+    "findings": [
+      "16AMP+16CABcategoryentries",
+      "MICoffdisablesD57D421blend;nohardwaremicinputinferred"
+    ],
+    "limits": "Notinstalledlibrary/nativeIRimportproof",
+    "next": "DRIVE/MOD/SFX/DLY/RVB/PEDAL inventories; physical controls; fresh Shopee discovery"
   }
 }
