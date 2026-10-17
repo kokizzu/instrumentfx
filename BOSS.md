@@ -2585,6 +2585,14 @@ Desktop guitar/vocal processor;distinct fromGT-1/GT-100. Checked2026-10-17;parti
 | USB / monitoring | PRIMARY LOOP BACK sends computer playback back with processed sound. DIRECT MONITOR resets ON at startup andcannot be saved. Loopback is an audio-routing function,not a phrase looper. |
 | Power / adapter identity | [GT-001-specific BOSS support notice](https://www.boss.info/jp/support/by_product/gt-001/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/) specifies **PSA-100**. Its [current manufacturer specification](https://www.boss.info/jp/products/psa-100/) gives **9VDC,500mAmaximum output**,100–240VAC50–60Hz input. Adapter capacity differs from GT-001’s240mAdraw. Polarity remains unverified;do not assume an old adapter shares the current mains range. |
 
+### GT-001 — own-product category counts,2026-10-17
+
+| Field | Verified count / restriction |
+|---|---|
+| Processing / preamp and drive | Counting the [model-specific published lists][GT001-P] gives **28 PREAMP choices** and **23 OD/DS choices**,including each list’s Custom entry. These are alternatives,not28simultaneous amps or23drive blocks. |
+| Processing / FX1-FX2 choices | **35 distinct top-level choices across both slots**;Overtone andTeraEcho are FX2-only,so **FX1has33 / FX2has35**. This is a union count,not35choices in each slot or35simultaneous effects. Nested choices within algorithms remain uncounted. |
+| Processing / nested drive restriction | A-DIST is available in the mainOD/DS block andthe SubOD/DS algorithm ofFX2;do not assign it toFX1’s SubOD/DS. Aggregate simultaneous ceiling andremaining category counts still unverified. |
+
 <!-- comparison evidence ends -->
 
 [GT001-P]: https://www.boss.info/global/products/gt-001/

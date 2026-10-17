@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-001",
-    "task": "GT001PRIMARY/SECONDARYrouting andPSA1009VDC500mAadapterchain saved. Next controls/categoryinventory ordriverchannelproof;polarity/display/importgapsremain.",
+    "task": "GT001 ownproduct PREAMP28 ODDS23 FXunion35(FX1 33/FX2 35) restrictions saved. Next officialindexed controls/othercategories or exactUSBchannel evidence;allpartial.",
     "next_models": [],
     "after_queue": "FreshShopeediscoveryandremainingverification;no workflows/push."
   },
@@ -58454,6 +58454,28 @@
     "supply_spec": "https://www.boss.info/jp/products/psa-100/",
     "supply": "CurrentPSA1009VDC500mAmax100–240VAC50–60Hz;notGTdraw240mA;notoldadaptermainsclaim",
     "polarity": "unverified",
+    "downloads": false
+  },
+  "gt001_product_counts_20261017": {
+    "source": "https://www.boss.info/global/products/gt-001/",
+    "counts": {
+      "preamp": 28,
+      "od_ds": 23,
+      "fx_union": 35,
+      "fx1": 33,
+      "fx2": 35
+    },
+    "restrictions": "Overtone/TeraEchoFX2only;A-DISTmainODDSandFX2SubODDS,notFX1nested",
+    "scope": "Ownproductlist;includesCustom;top-levelchoices notnestedalgorithmtotal orsimultaneousceiling",
+    "remaining": [
+      "Othercategorycounts",
+      "Controls",
+      "ExactUSBchannels",
+      "Polarity",
+      "Displaydetails",
+      "Imports",
+      "Qualifiedoffers"
+    ],
     "downloads": false
   }
 }
