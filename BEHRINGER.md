@@ -175,8 +175,8 @@ Checked2026-10-17. Partial guitar/bass multi-effects record,distinct from V-AMP2
 | Processing / choices | **32amps,15cabinets,9reverbs**. Five preset ingredients:amp,cab,preFX,postFX,reverb;not five arbitrary effects. **16 effect-selector positions**, including fixed combinations; independent reverb. See exact inventory below. |
 | Presets | **125 editable presets,25×5**;not125factory+125user. |
 | Synth / acoustic | Acoustic/bass preset banks documented;dedicated synthesis/acoustic conversion unknown. |
-| Dimensions / weight | **79H×267W×180D mm;0.8kg**. |
-| I/O | ¼instrument,AUX,stereophones;L/Rline;DIN MIDI IN/OUT-THRU;¼TRSfootswitch;AC IN. Specification calls line outputs “TS,balanced”;panel text accepts balanced/unbalanced cables. Preserve inconsistency. |
+| Dimensions / weight | Manual: **79H×267W×180D mm;0.8kg**. Preliminary ©2012 brochure: **78H×180W×270D mm;approx0.8kg**. Published axes conflict;do not silently transpose. |
+| I/O | ¼instrument,AUX,stereophones;L/Rline;DIN MIDI IN/OUT-THRU;¼TRSfootswitch;AC IN. Manual calls line outputs “TS,balanced”;preliminary ©2012 brochure says **TRS,balanced**. Panel text accepts balanced/unbalanced cables;actual connector verification unresolved. |
 | Power | External supply;**13W**. Adapter output voltage/current/connector,polarity,battery unknown. Regional mains ratings are not processor input ratings. |
 | USB / software | USB audio uses separate **UCA222**;not onboard USB. UCA PC/Mac support is not aV-AMP editor. Full editorOS unknown. |
 | IR / NAM / capture | Native/convertedNAM,userIR,capture import unknown. |
@@ -208,3 +208,12 @@ These **16 positions** are choices, not 16 simultaneous blocks. MIDI-controlled 
 The numbered control descriptions swap EFFECTS and EFFECTS SELECT roles compared with Basic Operation. Retain this labeling contradiction; it does not change the rotary count. Effect-table MIDI values also differ between some standalone/combined modulation entries; do not silently normalize them into one algorithm identity.
 
 Adapter output ratings remain unverified after manufacturer-domain searches; no sibling-model power specification adopted.
+### V-AMP 3 — preliminary brochure conflicts
+
+Checked 2026-10-17. [Manufacturer-authored brochure on a mirror](https://usermanual.wiki/Behringer/BehringerVirtualAmplificationVAmp3Brochure752616.1343504435.pdf), five pages, exact V-AMP 3 title and ©2012 MUSIC Group identification. Page5 explicitly labels specifications **preliminary/conceptual**; this is qualified manufacturer evidence, not a current product page or measured unit. Web text read; no file download or diagram inspection.
+
+Page5 gives **78H×180W×270D mm**, versus the ©2013 manual’s79H×267W×180D; retain axes and dimensions separately. Its **balanced TRS** output specification conflicts with the manual’s “TS,balanced,” while supporting the latter’s balanced-cable description. This corroboration does not prove the actual hardware connector.
+
+The brochure reverb table ends at8 and combines Medium/Large Room inone entry; the manual enumerates9 separately. Treat this as a document/table conflict,not proof of different installed firmware. Both identify0.8kg approximately; the brochure’s1.76lb andmanual’s1.6lb equivalents disagree.
+
+The brochure corroborates a separate bundled UCA222 interface andpreamp bypass. Historical inclusion does not verify the Indonesian seller’sbundle. No adapter output ratings resolved.

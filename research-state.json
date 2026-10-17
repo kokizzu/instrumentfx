@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer V-AMP 3",
-    "task": "V-AMP3 effect-selector16 and independent reverb9 saved with labeling/MIDI inconsistencies. Next check original product brochure revision for dimensions/IO conflicts, or qualify additional exact Shopee hardware leads;do not repeat failed power queries or borrow V-AMP2 ratings.",
+    "task": "V-AMP3 preliminary brochure conflicts saved: dimensions/axes,TRSvsTS,reverb8vs9,pounds conversion. Next prioritize unresolved qualified Shopee leads or legacy consolidation;do not silently resolve preliminary specs ortransferUCA222capabilities.",
     "next_models": [],
     "after_queue": "277partialrecords;continue fullfieldresearch andlosslesslegacyconsolidation;no downloads/workflows/push."
   },
@@ -56840,5 +56840,14 @@
     "reverb": 9,
     "qualifications": "Positions not arbitrary simultaneous blocks;MIDIwahadditional;EFFECTS/EFFECTSSELECT descriptions swapped vsBasicOperation;standalone/combination modulation MIDIvalues differ.",
     "power_search": "Manufacturer-domain PSU8/PSU/9V queries no useful result;output/current/polarity remainunknown;no absenceclaim."
+  },
+  "vamp3_brochure_conflicts_20261017": {
+    "source": "https://usermanual.wiki/Behringer/BehringerVirtualAmplificationVAmp3Brochure752616.1343504435.pdf",
+    "identity": "5pages V-AMP3 ©2012MUSICGroup;manufacturer-authored mirror;p5explicitlypreliminary/conceptual",
+    "dimensions": "Brochure78H180W270D vsmanual79H267W180D;do nottranspose",
+    "io": "TRSbalanced brochure vsTSbalanced manual;actualconnectorunresolved",
+    "reverb": "Brochuretableends8withMedium/LargeRoomcombined;manual9;documentconflictnotfirmwareclaim",
+    "mass": "Both0.8kg;brochureapprox1.76lb vsmanual1.6lb",
+    "access": "Webtext only;no download/visualaudit"
   }
 }
