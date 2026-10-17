@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II QME-100",
-    "task": "Matribox II exact sold-out Shopee asks saved with region/access/condition/bundle limits. Continue fresh brand/series discovery orunresolved display/control/algorithm/architecture fields.",
+    "task": "Matribox II regionalelectrical/USB specs and balanced-output source conflict saved. Continue unresolveddisplay/control/algorithm/architecture evidence orfreshdiscovery;do not silentlyresolveTRSbalance.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60670,5 +60670,18 @@
     ],
     "excluded": "Pro41903111124andoriginal23073934646notthismodel;MissMarkett1709473448/42877986755voucherimportleadnotpromotedwithoutvariant/checkoutverification",
     "qualification": "No used/newrange,currentstockorcompleted-saleclaim;regionalfirmware/condition/bundle/shipping/taxunverified."
+  },
+  "matribox_ii_regional_electrical_20261017": {
+    "sources": [
+      "https://www.hotone.jp/brands/sonicake/products/matribox-ii",
+      "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623"
+    ],
+    "findings": [
+      "24ADDA44.1k110dBdynamicrange;USB16/24",
+      "Return100kAUX10kL/R1ksend1kphones22ohm"
+    ],
+    "conflict": "Regional mainTRS unbalanced versus Englishmanual balancedTRS/unbalancedTS;preserved withouttestingclaim",
+    "remaining": "Displaydiagonal/touch/resolution,buttoncount,acceptedNAMarchitectures/categorycensus,currentOS,batteryUSBpower and qualifiedconditionoffers.",
+    "access": "RegionalHTMLandEnglishPDFtextonly;noimages/softwaredownload"
   }
 }
