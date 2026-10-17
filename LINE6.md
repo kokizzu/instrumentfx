@@ -899,6 +899,9 @@ Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
 | Editor / software | Line6Monkey updater;MIDI scene backup/restore. Editor/platform/current compatibility unknown. | [Pilot PDF p8][M9-M] |
 | Looper / drums / live | **Mono28s/56s halfspeed** perPilot andAdvanced§5•1 vs **30s/60s** FAQ:unresolved conflict. Overdub,undo/redo,reverse. Loops cannot be archived;only current session retained. MIDI looper control leaves sixFX switches available. PRE/POST selectable;Pilot before/after label conflicts with its playback-effect explanation,andAdvanced§5•3 repeats PRE=noFX/POST=FX wording. Hardware behavior unresolved;do not silently reverse labels. Stereo collapses at mono effect. Chain1→2→3 orreverse;DSP bypass trails. Tuner bypasses FX+loop,selectablemute. Drums unknown. | [Pilot PDF pp6–8][M9-M];[Advanced §§5•1–3,A•1–4][M9-A];[FAQ][M9-Q] |
+| Bypass / routing | Relay true bypass requires True Bypass selected,all3FX bypassed,loop stopped,andLooperMode inactive. DSP bypass is required for loop playback or delay/reverb tails with allFX bypassed. Expression follows FXunit number when chain reverses. | [Advanced §2•3][M9-A] |
+| Loop levels / EQ | Play balances loop against live signal;Overdub90% reduces existing loop10% each pass. Both default100%. HiCut@2kHz/LoCut@500Hz affect loop playback only,not live input. | [Advanced §2•2][M9-A] |
+| Save / tuner / gate | AutoSave preserves edits across scene changes;ManualSave loses unsaved edits when changing scenes. Factory reset restores scenes and global settings. Tuner reference425–455Hz. Global gate,when enabled,applies to allFX;threshold and decay adjustable. | [Advanced §§2•1,2•4–6][M9-A] |
 
 ### Separate IDR hardware offers
 

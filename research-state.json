@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic PLETHORA X3",
-    "task": "X3 controlcount5/3/0 textuallyreconciled,ownlatency0.8–2.4ms andBluetoothRF/range saved. Continue freshShopee discovery orothermodelgaps;display/power/USB/currentOS/imports/looper/bass/offer gaps remain.",
+    "model": "Line 6 M9",
+    "task": "Bypass,loop EQ/save/tuner/gate verified. Continue fresh Shopee discovery or remaining model gaps;do not resolve duration/PREPOST conflicts without stronger evidence.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 M9."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59997,5 +59997,23 @@
       "Qualifiedoffers"
     ],
     "method": "Officialindexedtext andoriginalmirrorPDFtext;directmanufacturer502;no downloads,imageinspection oroperation."
+  },
+  "m9_bypass_loop_save_20261017": {
+    "source": "https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+    "identity": "Own M9 v2.0 Advanced Guide Rev A,35pages;browser text only",
+    "sections": [
+      "2•1",
+      "2•2",
+      "2•3",
+      "2•4",
+      "2•5",
+      "2•6"
+    ],
+    "findings": [
+      "Four simultaneous conditions for relay true bypass;DSP required for loop playback/tails with allFX bypassed",
+      "Loop playback EQ and overdub feedback separated from live signal",
+      "Scene save/reset scope,tuner425–455Hz,enabled globalgate"
+    ],
+    "remaining": "Duration28/56 vs30/60 and PRE/POST wording conflicts unresolved;display,actual draw,imports,current software and qualified offers remain."
   }
 }
