@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS KATANA:GO",
-    "task": "Guitar BOOSTER 23 alternatives and parameter ranges saved. Next audit MOD/FX and remaining category totals plus Tone Studio chain limits;retain revision and price gaps.",
+    "task": "MOD/FX lists saved: guitar28,bass23 per slot;Tone Studio order/globalEQ qualification saved. Next verify delay/reverb/PEDAL FX, bass COMP/DRIVE, USB settings and wireless assignments;full simultaneous ceiling remains open.",
     "next_models": [
       "Fender Mustang Micro original"
     ],
@@ -56025,5 +56025,72 @@
     "guitar_booster_choices": 23,
     "qualification": "Alternative selections;not simultaneous effects. No downloads or execution.",
     "remaining": "MOD/FX and other categories, full chain limits, physical revisions and qualified condition-specific prices"
+  },
+  "katana_go_modfx_checkpoint_20261017": {
+    "parameter_source": "https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf",
+    "guitar": {
+      "pages": "11–14",
+      "choices": [
+        "Chorus",
+        "Flanger",
+        "Phaser",
+        "Uni-V",
+        "Tremolo",
+        "Vibrato",
+        "Rotary",
+        "Ring Mod",
+        "Slow Gear",
+        "Slicer",
+        "Comp",
+        "Limiter",
+        "T.Wah",
+        "Auto Wah",
+        "Graphic EQ",
+        "Parametric EQ",
+        "Guitar Sim",
+        "AC.Guitar Sim",
+        "AC.Processor",
+        "Wave Synth",
+        "Octave",
+        "Heavy Octave",
+        "Pitch Shifter",
+        "Harmonist",
+        "Humanizer",
+        "Phaser 90E",
+        "Flanger 117E",
+        "DC-30"
+      ]
+    },
+    "bass": {
+      "pages": "74–76",
+      "choices": [
+        "Chorus",
+        "Flanger",
+        "Phaser",
+        "Uni-V",
+        "Tremolo",
+        "Vibrato",
+        "Rotary",
+        "Ring Mod",
+        "Slow Gear",
+        "Slicer",
+        "T.Wah",
+        "Auto Wah",
+        "Graphic EQ",
+        "Parametric EQ",
+        "Bass Synth",
+        "Octave",
+        "Heavy Octave",
+        "Pitch Shifter",
+        "Harmonist",
+        "Humanizer",
+        "Enhancer",
+        "Bass Simulator",
+        "Defretter"
+      ]
+    },
+    "tone_studio_source": "https://static.roland.com/assets/media/pdf/KATANA_GO_BTS_eng01_W.pdf",
+    "routing_pages": "5,41",
+    "qualification": "Independent alternatives;full simultaneous ceiling unresolved. Text reviewed in browser;no files downloaded."
   }
 }
