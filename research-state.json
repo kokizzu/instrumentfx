@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Stage MK2",
-    "task": "Find current manufacturer MainManual via another accessible official/distributor route;resolveMK2memory/panel and18effectaccounting.",
+    "task": "Seek current main manual for Stage MK2 panel/display, memory and counting definitions.",
     "next_models": [],
     "after_queue": "Remaintechnical/marketgaps;no downloads,workflows orpush."
   },
@@ -63434,5 +63434,13 @@
     "finding": "Historical Morphing endpoint/save,globalPedalLinks/MIDICC andmoduleLOCKworkflow.",
     "limits": "PredatesMK2;not used to establish current memory,panel counts or feature changes. Officialstart→downloads/5 exposes shell,not current manual text. Community memory claims not adopted.",
     "next": "Find current manufacturer MainManual via another accessible official/distributor route;resolveMK2memory/panel and18effectaccounting."
+  },
+  "stage_mk2_os13_addendum_20261017": {
+    "source": "https://www.scribd.com/document/890503834/Kemper-Profiler-Addendum-13-0",
+    "identity": "Manufacturer Addendum13.0,RevMay2025;bodytitle,copyright andexplicitStageMK2scope checked;notAI description.",
+    "pages": "20–23",
+    "finding": "Fixed/flexible architecture and qualified looper limit added to canonical record.",
+    "limits": "Store18effects vs addendum20serialblocks remains unreconciled;no current memory/panel proof.",
+    "next": "Seek current main manual for Stage MK2 panel/display, memory and counting definitions."
   }
 }
