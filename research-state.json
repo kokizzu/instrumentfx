@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-30",
-    "task": "ME-30 sevenOD/DS choices and12second mono AUX Phrase Trainer restrictions saved. Next verify controlcounts andremainingdelay/modulation/reverbchoices;simultaneousceiling/polarity andothergaps remain.",
+    "task": "ME-30 Hall/Room reverb and unitlessTIME range saved. Next own manual controlcounts and delay/modulation details;targeted searches did not resolve timing. Do not infer sibling specifications.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. GT-5 and RFX-2000 technical gaps remain deferred. No downloads,workflows or push."
   },
@@ -53967,5 +53967,12 @@
     "pages": "OD/DS section;27",
     "finding": "Seven selectable drive types;12second mono AUX Phrase Trainer with slowdown/repeat,volatile audio and temporary spatial-effects/EXP limitations saved.",
     "remaining": "Controlcounts,otherchoices,simultaneousceiling,polarity,display/toe/externalEXP andotherpracticefeatures unresolved."
+  },
+  "me30_reverb_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf",
+    "section": "REVERB",
+    "finding": "Hall/Room alternatives;TIME1–100 is unitless display range,not seconds;EFFECTLEVEL0–100.",
+    "search_limit": "Targeted delay/modulation searches returned unrelated Roland products and factory table only;no sibling specifications adopted.",
+    "remaining": "Controlcounts,delay/modulation timing and variants,simultaneous ceiling,polarity,visual/expression details andother gaps."
   }
 }
