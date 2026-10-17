@@ -590,7 +590,7 @@ def main():
         if mode == 'commit-tonelab-le':
             message = 'research(vox): qualify ToneLab LE converters expression initialization and tap'
         if mode == 'commit-ax1500g':
-            message = 'research(korg): preserve separate AX1500G condition-unverified offers'
+            message = 'research(korg): resolve AX1500G factory fill calibration and used ask'
         if mode == 'commit-rp255':
             message = 'research(digitech): document RP255 USB mix controls and tuner volume behavior'
         if mode == 'commit-gt8':

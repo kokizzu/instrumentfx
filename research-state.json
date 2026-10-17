@@ -28,9 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP250",
-    "task": "Commit analog specifications, compensation switch and distinct Brebes sold-out ask. Next fresh exact-model Shopee discovery or resolve remaining software/processing conflicts from primary sources; no duplicated RP250 offers.",
-    "next_models": [],
+    "model": "Korg AX1500G",
+    "task": "Commit factory fill, calibration and distinct used-title600k offer. Next inspect RP1000 full record against indie150310054/3200318448 historical4mHabis lead before adding evidence; avoid duplicates.",
+    "next_models": [
+      "DigiTech RP1000"
+    ],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
@@ -45319,7 +45321,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP250."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX1500G."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57338,6 +57340,15 @@
       "sources": [
         "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP250_-Manual18-0432V-B_original.pdf",
         "https://shopee.co.id/digitech-rp250-i.1009431722.29790227046"
+      ]
+    },
+    {
+      "model": "Korg AX1500G",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual p7 resolves initial48userdup48presets; p14 specifies hand calibration EXIT+PEDAL, MINbackWRITE/MAXforwardWRITE and reset scope. Added exact bekas600kHabis choki158819523/40125338719 two-month cached offer with condition/package/stock limits.",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf",
+        "https://shopee.co.id/efek-gitar-korg-ax1500g-bekas-i.158819523.40125338719"
       ]
     }
   ],

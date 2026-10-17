@@ -173,6 +173,16 @@ Guitar multi-effects; distinct from AX1000G/AX3000G. Checked 2026-10-17; partial
 | Condition unverified | **Rp1,750,000; Habis**. Jamsrock Bandung, shop80375350/item25227680940, Kab.Bandung. Two-month search cache; direct request timed out2026-10-17. | [Exact item][AX15-S3] |
 | Condition unverified | **Rp1,800,000**. Stuff Faith, shop14828747/item25017453694, Kota Banjarmasin. One-month search cache; direct request failed2026-10-17. Stock unestablished. | [Exact item][AX15-S4] |
 
+### AX1500G — factory fill, pedal calibration and used ask
+
+Checked 2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / factory-filled user slots | [Own manual p7][AX15-M] states **user programs initially contain the same data as presets**:48 writable copies plus48 protected presets,96 total. This resolves the earlier initial-user-content unknown. Reload overwrites all user programs and initializes master level, metronome and input level (p14). |
+| Expression / calibration | [Own manual p14][AX15-M]: use a **hand**, not foot. Power on holding **EXIT+PEDAL block select**: PEDAL then MIN. Move fully back, release, WRITE: MAX. Move fully forward, release, WRITE: COMPLT. EXIT cancels; ERROR returns to MIN. No adjustable toe-switch threshold is established by this procedure. |
+| IDR / separate used-title sold-out ask | **Rp600.000; Habis**, [choki music jakarta, shop158819523/item40125338719](https://shopee.co.id/efek-gitar-korg-ax1500g-bekas-i.158819523.40125338719), Kota Jakarta Timur. Title explicitly **bekas**; search/direct reader two-month cache. Relative tomorrow delivery does not override sold-out status. Actual working state, repairs, selected variation, adapter/bundle, warranty, authenticity, shipping/tax and checkout total unverified. Late-arrival compensation up toRp10.000 is not a price discount. Separate historical seller ask, not a completed sale or current used-market range. |
+
 <!-- comparison evidence ends -->
 
 Manual E2 viewed as browser text; controls not visually certified. No manual/software/dependency saved or installed. Multi-model shop offers and accessories excluded from prices. Advertised56 counting method, display details, power limits, imports, software and live restrictions remain open.
