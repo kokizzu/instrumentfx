@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G2Nu / G2.1Nu discovery",
-    "task": "G2Nu/G2.1Nu indexed manufacturer specs and software links saved in zoom_g2nu_primary_discovery_20261017. Next inspect own modeling PDF and exact Shopee seller inventory; add models only with explicit qualification. Full manual exceeds webtool limit; do not retry unchanged or download.",
+    "task": "Exact own indexed manual looper evidence saved. Full operation/modeling PDFs exceed webtool limit; do not repeat unchanged fetches. Next pursue exact Shopee seller inventories or another recorded model technical gap, retaining G2Nu/G2.1Nu as uncounted leads until market qualification.",
     "next_models": [],
     "after_queue": "274 partial models; continue fresh brand/series discovery and unresolved field verification; no downloads/workflows/push."
   },
@@ -56576,6 +56576,16 @@
     "modeling": "Indexed own modeling description explicitly lists Aco.Sim; full document not yet inspected.",
     "market": "Exact Shopee searches excluding adapters/kabel returned no qualified hardware; not evidence of absence. Existing mixed Hope shop cards remain unallocated.",
     "remaining": "Exact Shopee item; complete readable manual, controls/expression, per-category counts, USB audio/editorOS/screen details, rhythmslooper, captures/IR. Do not borrow G2.1u specs.",
-    "counted": false
+    "counted": false,
+    "followup": {
+      "checked": "2026-10-17",
+      "modeling_pdf": "16,501,339 bytes exceeds webtool limit; no complete read or download.",
+      "manual_index_evidence": "Exact own G2Nu_G21Nu_0.pdf p14: manual recording maximum about5seconds; playback starts at limit or upfootswitch; overdubbing continues across loop boundaries; rhythm can run during looping while parameter knobs control looper.",
+      "source": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+      "identity": "Indexed title identifies G2Nu/G2.1Nu OPERATION MANUAL ©ZOOM; TOC separates model panels p4/p6 and effect tables p33–48. No visual diagram claims.",
+      "product": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g2nu/",
+      "product_status": "Own Japanese G2Nu page explicitly discontinued. This does not prove Indonesian used-market absence.",
+      "limits": "USB bit depth/rates and screen diagonal searches returned sibling/unrelated results; not adopted. Full effect tables and diagram-based control counts remain unverified."
+    }
   }
 }
