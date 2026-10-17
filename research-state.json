@@ -24777,10 +24777,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 259 guitar, 135 documented bass-capable, 63 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 262 guitar, 135 documented bass-capable, 65 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "310 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "314 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41589,7 +41589,7 @@
     "navigation_audit": {
       "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
       "markdown_files": 158,
-      "local_link_occurrences": 3265,
+      "local_link_occurrences": 3288,
       "legacy_files": 117,
       "registered_redirects": 116,
       "separately_verified_archival_redirect": [
@@ -41724,6 +41724,49 @@
         "errors": 0
       },
       "remaining": "Compatibility redirects and historical links remain. External source availability,current model specifications,ownership identities and market coverage not certified."
+    },
+    "preservation_recheck_at314_20261017": {
+      "at_catalogue_count": 314,
+      "status": "passed",
+      "body_audit": {
+        "target": "make consolidation-audit-body-differences",
+        "complete_source_bodies": 82,
+        "mismatches": 0,
+        "outside_body_audit": 92
+      },
+      "row_audit": {
+        "target": "make consolidation-verify",
+        "status": "passed",
+        "scope": "Registered source bodies and model rows with retained context;not independent specification accuracy."
+      },
+      "technical_audit": {
+        "target": "make technical-retirement-verify",
+        "status": "passed",
+        "technical_sources": 99,
+        "retired": 99,
+        "incoming_link_occurrences": 307
+      },
+      "metadata_audit": {
+        "target": "make metadata-retirement-verify",
+        "status": "passed",
+        "markdown_sources": 13,
+        "json_sources": 3
+      },
+      "json_audit": {
+        "target": "make json-retirement-verify",
+        "status": "passed",
+        "files": 3,
+        "unique_typed_snapshots": 2
+      },
+      "navigation": {
+        "target": "make navigation-save",
+        "markdown_files": 158,
+        "local_link_occurrences": 3288,
+        "legacy_paths": 117,
+        "root_to_legacy_links": 406,
+        "errors": 0
+      },
+      "remaining": "Compatibility files remain. Specifications,external source availability,qualified offers,ownership identities andmarket coverage are not certified by preservation checks."
     }
   },
   "deferred_work": {
@@ -41777,7 +41820,7 @@
     "legacy_only_models": 0,
     "guitar_view_models": 262,
     "bass_focused_models": 28,
-    "vocal_only_models": 23,
+    "vocal_only_models": 24,
     "vocal_view_models": 65,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
