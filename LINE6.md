@@ -951,11 +951,11 @@ Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX St
 | Factory / user memory | **128factory-filled writable presets**,not128+128;user modeldefaults separate. | [FAQ][HX1-Q];[Manual p11][HX1-M] |
 | Synth / acoustic | AcousticSim explicitly listed;pitch/synth models present,individual inventory pending. | [Manual pp14,18][HX1-M] |
 | Dimensions / mass | Unknown;not estimated from photos. | Unresolved |
-| I/O | Unbalanced¼-inchTS L/R inputs/outputs,EXP/FS3/4,DC,USB-C,MIDIIN+OUT/THRU. Instrument/line settings. Insert mode repurposes rightI/O as mono send/return,sacrificing stereo;position per preset. USBMIDI;USBaudio unverified. | [Manual pp6–8][HX1-M];[Product][HX1-P] |
+| I/O | Unbalanced¼-inchTS L/R inputs/outputs,EXP/FS3/4,DC,USB-C,MIDIIN+OUT/THRU. Instrument/line settings. Insert mode repurposes rightI/O as mono send/return,sacrificing stereo;position per preset. USBMIDI;USBaudio unverified. RevF:HX stereo models process discrete L/R except designated mono/polyphonic models;Legacy models are mono-in/stereo-out. Lmono-only output folds to mono. | [Manual pp6–8][HX1-M];[Product][HX1-P] |
 | Power / battery / USB | **9VDC center-negative2.1mm,500mA included adapter**;FAQ drawjustunder400mA,distinct fromsupplyrating. Battery/USBpower unverified. | [Product][HX1-P];[FAQ][HX1-Q] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified;effectsmodeling not capture import. | Unresolved |
-| Editor / software | HXOneLibrarian macOS/Windows forpresets/backups;Line6Central updater separate. **Not HXEdit compatible**. ExactcurrentOS/editorparameters pending. | [Manual p4][HX1-M];[FAQ][HX1-Q] |
-| Looper / drums / live | Simple/Shuffling mono60s/stereo30s;Simple halfspeed viaMIDI doublesrecordtime. Insert forcesmono. Presetchange stops/discardsloop;poweroff discards. True/DSPbypass,adjustableinputimpedance,Flux andtuner. Drums unknown. | [Manual p19][HX1-M];[Product][HX1-P] |
+| Editor / software | HXOneLibrarian macOS/Windows forpresets/backups;Line6Central updater separate. **Not HXEdit compatible**. ExactcurrentOS/editorparameters pending. Historical3.70release notes identify separate macOS/Windows Librarian packages12407/12408;both links redirect tologin on2026-10-17. Do not substitute firmware-package OS metadata for librarian requirements. | [Manual p4][HX1-M];[FAQ][HX1-Q];[3.70release notes][HX1-S] |
+| Looper / drums / live | Simple/Shuffling mono60s/stereo30s;Simple halfspeed viaMIDI doublesrecordtime. Insert forcesmono. Presetchange stops/discardsloop;poweroff discards. True/DSPbypass,adjustableinputimpedance,Flux andtuner. Insert mode requires DSPbypass to maintain send/return signal. Tuner425–455Hz,factory440;outputMute/Dry/Effect,factoryMute;preceding pitch/modulation effects impair tuning. Last edits/bypass restore afterpowercycle only after≥3ssettling;perpresetbypass recall documented from3.81. Drums unknown. | [Manual pp10,12–13,19,27,29][HX1-M];[Product][HX1-P] |
 
 ### Separate IDR hardware offers
 
@@ -973,3 +973,9 @@ OwnRevF manual2025 forfirmware3.83,manufacturer product andlaunchFAQ readaswebte
 [HX1-Q]: https://kb.line6.com/hx-one-faq
 [HX1-M]: https://line6.com/data/6/0a0004220039697155cf001b7/application/pdf/HX%20One%20Owner%27s%20Manual%20-%20English%20.pdf
 [HX1-O]: https://shopee.co.id/Line-6-HX-One-Guitar-Multi-effects-Floor-Processor-i.16879370.26668651924
+
+[HX1-S]: https://line6.com/software/index.html?hardware=All&locale=en_US&os=All&software=HXEdit&submit_form=set
+
+### Historical firmware qualifications
+
+Official3.70notes list lost3.60userdefaults afterupdate,TrueBypasstuner failure andInsertPost stereofolding issues;3.71notes repeat those knownissues. These are historical version qualifications,not claims that3.83 remains affected. RevF covers3.83. Package links https://line6.com/software/readeula.html?rid=12407 and https://line6.com/software/readeula.html?rid=12408 were read only;no login,download,installation orupdate performed.
