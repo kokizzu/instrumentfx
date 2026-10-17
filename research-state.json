@@ -56078,6 +56078,13 @@
         "Expression MIN/MAX per user preset;V-Switch requires wah in chain. Calibration sensitivityFS1downFS2upFS3finishBACKabort.",
         "Factory restore resets user sounds/system then requests XP calibration; no reset performed."
       ]
+    },
+    {
+      "model": "DigiTech RP255",
+      "date": "2026-10-18",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf",
+      "finding": "Manual pp40–42: per-preset expression endpoints, V-Switch threshold 0–200, calibration preserves presets; factory reset erases them.",
+      "remaining": "Display, visual control audit, actual firmware model inventory, current OS support, device draw, and condition-qualified offers remain unresolved."
     }
   ],
   "discovery_cross_brand_bass": {

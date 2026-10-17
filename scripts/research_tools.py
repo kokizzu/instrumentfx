@@ -571,7 +571,7 @@ def main():
         if mode == 'commit-ax1500g':
             message = 'research(korg): preserve separate AX1500G condition-unverified offers'
         if mode == 'commit-rp255':
-            message = 'research(digitech): include qualified RP255 historical hardware offer in comparison'
+            message = 'research(digitech): distinguish RP255 pedal calibration from destructive reset'
         if mode == 'commit-gt8':
             message = 'research(boss): verify GT-8 category choices shared custom settings and MIDI backups'
         if mode == 'commit-gt10':
