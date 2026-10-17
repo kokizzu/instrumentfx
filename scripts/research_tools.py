@@ -524,7 +524,7 @@ def main():
         if mode == 'commit-ax3g':
             message = 'research(korg): reconcile AX3G algorithms and distinguish drone from synth'
         if mode == 'commit-ax1000g':
-            message = 'research(korg): preserve second AX1000G sold-out offer separately'
+            message = 'research(korg): qualify AX1000G trainer controls and calibration'
         if mode == 'commit-ve20-followup':
             message = 'research(boss): preserve exact VE20 sold-out hardware ask'
         if mode == 'commit-g71ut':

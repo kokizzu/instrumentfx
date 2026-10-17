@@ -302,6 +302,14 @@ In Play mode,the current program footswitch held0.5s bypasses andheld1s mutes. T
 
 [AX1000-O2]: https://shopee.co.id/efek-gitar-tonework-korg-ax1000g-motif-decal-i.57900729.16038187135
 
+### AX1000G — trainer controls and pedal calibration
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Looper / trainer transport | Cursor controls provide momentary double-speed or reverse playback while held. Program1 rewinds while held; Program4 toggles Hold of the current sound. During Hold, cursors move backward/forward; Program1 jumps back one second, cancels Hold and resumes. These trainer operations do not establish overdubbing or persistent phrase storage. | [Manual p11][AX1000-M] |
+| Editing / trainer restrictions | Trainer permits DRIVE-AMP and CABINET editing, but not operations needing the name/value display, cursor or MASTER/VALUE keys. Quick editing is unavailable while bypassed, muted or recording. Attempting an incompatible MOD/PEDAL or PEDAL/AMBIENCE combination automatically disables the previously enabled block. | [Manual p12][AX1000-M] |
+| Expression / calibration | Power on holding EXIT+PEDAL block select. At MIN, move fully back by hand, release and press WRITE; at MAX, move fully forward, release and press WRITE. EXIT cancels; ERROR returns to MIN. No hardware action performed. | [Manual p14][AX1000-M] |
+
 ## AX3G
 
 Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Ownership and bass/vocal suitability unverified. Discontinued.
