@@ -61868,5 +61868,35 @@
     ],
     "limits": "Notinstalledlibrary/nativeIRimportproof",
     "next": "DRIVE/MOD/SFX/DLY/RVB/PEDAL inventories; physical controls; fresh Shopee discovery"
+  },
+  "g3n_drive_20261017": {
+    "source": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+    "revision": "2017 pp6–9",
+    "count": 21,
+    "names": [
+      "TS Drive",
+      "EP Stomp",
+      "RC Boost",
+      "GoldDrive",
+      "SweetDrv",
+      "DYN Drive",
+      "RedCrunch",
+      "MetalWRLD",
+      "TB MK1.5",
+      "OctFuzz",
+      "SpotBoost",
+      "Aco.Sim",
+      "NYC Muff",
+      "HG THRTTL",
+      "BG GRID",
+      "TS+Boost",
+      "RedCR+BST",
+      "DIST 1",
+      "Squeak",
+      "UpOctBSTR",
+      "OutputBST"
+    ],
+    "limits": "Categoryincludesboosters/acoustic; combineddriveboostoneentry; notinstalledlibraryproof",
+    "next": "MOD/SFX/DLY/RVB/PEDAL inventories; physical controls; fresh Shopee discovery"
   }
 }
