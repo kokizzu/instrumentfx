@@ -339,7 +339,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-707ii':
-            message = 'research(zoom): add separate 707II with sampler and qualified used offer'
+            message = 'research(zoom): reconcile 707II effect counts and separate sampler from hold delay'
         if mode == 'commit-ax30g':
             message = 'research(korg): qualify AX30G pressure assignments hold delay and synth functions'
         if mode == 'commit-rp155':

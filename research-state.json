@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom 707II",
-    "task": "First-pass root record saved. Audit own effect tables, synth/acoustic algorithms, SmartMedia sampler limits and hold delay before next discovery.",
+    "task": "707II category count and acoustic/sampler/hold-delay audit saved; remaining synth/software/card/persistence fields explicit. Continue exact missing bass/vocal discovery.",
     "next_models": [],
     "after_queue": "Continue missing bass/vocal discovery and legacy consolidation; no downloads/workflows."
   },
@@ -49824,6 +49824,15 @@
       "sources": [
         "https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual"
       ]
+    },
+    {
+      "model": "Zoom 707II",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_707II.pdf"
+      ],
+      "finding": "Tablecounts1+2+33+1+2+7+20+8=74;drive30distortion+3acoustic. HoldDelay2seconds normal/reverse/soundonsound separate sampler6sinternal/4min16MB60samples. Manualrecordpressvsheldconflict retained. SmartMedia3.3V16–128MB inunitformat,separatereader.",
+      "remaining": "Synthengine,currenteditor,persistence,aggregatecardlimits and sourceconflicts."
     }
   ],
   "discovery_cross_brand_bass": {

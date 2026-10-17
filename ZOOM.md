@@ -1971,14 +1971,14 @@ Checked **2026-10-17**, partial. Separate guitar model from GFX-707 and bass708I
 | Knobs / footswitches / buttons | **5 / 2 / 15**: DRIVE, three parameter knobs, rear OUTPUT; two footswitches;15 labelled front keys. Power and toe switch additional. [Manual][707-M] |
 | Display | **Six-position alphanumeric LED plus two-position seven-segment LED**. Diagonal/color/touch **?**. [Manual][707-M] |
 | Dimensions / weight | **249 W ×195 D ×57 H mm; 860g without batteries**. [Manual][707-M] |
-| Blocks / category choices | **Six modules +amp simulator +ZNR**; **74 types**, including33drive choices. Category subtotals **?**. [Manual][707-M] |
+| Blocks / category choices | **Six modules +amp simulator +ZNR**; **74 types**, including33drive choices. Counted types: booster1, compressor/isolator2, drive33 (**30 distortion +3 acoustic**), EQ1, ZNR/gate2, cabinet7, modulation20, delay/reverb8; **sum74**. Drive heading says30 but its11×3 table includes acoustic. [Manual][707-M] |
 | Memory | **60 user +60 preset =120 patches**. Card storage additional; factory-filled user subset **?**. [Manual][707-M] |
-| Synth / acoustic | Dedicated synthesis/acoustic algorithms **?**. |
+| Synth / acoustic | **Acoustic simulation yes**, fat/standard/bright variants. Dedicated synth **?**; oscillating fuzz does not establish a synth engine. |
 | IR / NAM / captures | User IR, native NAM, converted NAM and proprietary captures **?**. |
 | I/O | Quarter-inch mono guitar, stereo mini AUX, combined quarter-inch stereo line/phones, SmartMedia slot, DC input. [Manual][707-M] USB/MIDI/audio interface **?**. |
 | Power / battery / USB | **9V DC center-negative300mA AD-0006**, or **four AA alkaline**, approximately11hours; cannot recharge. Barrel size, measured draw and USB power **?**. [Manual][707-M] |
 | Editing / platforms | Onboard editing documented. Computer/mobile editor, drivers/updaters **?**. [Manual][707-M] |
-| Practical features | Sampler **6seconds internal**, longer card sampling; **MOD/REV disabled while sampling**. **60 rhythm patterns**, tuner, hold delay. Full looper, scenes, spillover **?**. [Manual][707-M] |
+| Practical features | Sampler **6seconds internal**, **16MB card permits4minutes/60samples**; **MOD/REV disabled while sampling**. **60 rhythm patterns**, tuner. Separate **Hold Delay up to2seconds**, normal/reverse/sound-on-sound loop playback. Sampler offers one-shot/loop playback; full-feature phrase-loop storage, scenes and spillover **?**. Manual conflicts: hold-delay summary says manual recording while held, but pp.21–22 describe press-to-start/press-again-to-stop. [Manual][707-M] |
 
 ### 707II — IDR asking observations
 
@@ -1990,7 +1990,7 @@ Checked **2026-10-17**, partial. Separate guitar model from GFX-707 and bass708I
 
 ### 707II — provenance and remaining work
 
-[Manufacturer product page][707-P] explicitly identifies discontinued707II. [Own English manual][707-M],40pages: controls pp.4–5; memory/pedal pp.8–9; specification p.39. No revision date established from inspected sections. Source counts distinguish stored algorithms from concurrent modules and sample memory from patch memory. Fifteen front keys count MODULE and TYPE arrow pairs separately; rear power toggle and pedal push-down switch are additional. Full per-module choices, synth/acoustic functions, sampler/card limits, hold-delay behavior and current software evidence remain incomplete. No bass/vocal membership inferred. No dependencies, software or manual files downloaded locally.
+[Manufacturer product page][707-P] explicitly identifies discontinued707II. [Own English manual][707-M],40pages: controls pp.4–5; memory/pedal pp.8–9; specification p.39. No revision date established from inspected sections. Source counts distinguish stored algorithms from concurrent modules and sample memory from patch memory. Fifteen front keys count MODULE and TYPE arrow pairs separately; rear power toggle and pedal push-down switch are additional. Follow-up2026-10-17: named type-table sum74 excludes bypass and TOTAL (not an effect module). Drive comprises30distortion/amp voices plus3acoustic variants; introductory “33distortion” is broader terminology. Sampler and2secondHoldDelay are separate functions. SmartMedia requires3.3V16–128MB and in-unit formatting; a computer needs a separate reader. Exact-card maximum aggregate sampling, persistent loop behavior, synth evidence and current software support remain incomplete. No bass/vocal membership inferred. No dependencies, software or manual files downloaded locally.
 
 Earlier mixed HopeMusic707ii/708ii/GFX-3 shop ask is not assigned to this exact model. The reused Zoom707II URL previously indexed as POD HD500X remains rejected as identity-ambiguous; it is not a second corroborating707II offer.
 
