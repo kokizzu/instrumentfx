@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal Shopee discovery",
-    "task": "FX2000 numbered controls/ports resolved from indexed original pp6–7;do not repeat asunknown. Resume fresh bass/vocal exact hardware discovery;MX200/FX2000 remainpartial withrevision/software/offer gaps.",
+    "model": "Alesis MicroVerb 4",
+    "task": "Use discovery_microverb4_20261017. Inspect original manual andcomplete source-qualified record before active addition;preserve18bitmanufacturer vs24bitseller discrepancy andunverified unit authenticity. Do not confuse MIDIverb4. Commit before researching next model.",
     "next_models": [],
-    "after_queue": "Continue research andlegacy migration;no downloads/workflows."
+    "after_queue": "Resume bass/vocal discovery,technical gaps andmigration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -52429,5 +52429,57 @@
       "Save root LEXICON.md andviews before researching FX2000"
     ],
     "no_files_downloaded": true
+  },
+  "discovery_microverb4_20261017": {
+    "queries": [
+      "Shopee bass ME-8B",
+      "Shopee Korg AX5B",
+      "Shopee Alesis Microverb4",
+      "Shopee Yamaha vocal stomp2"
+    ],
+    "negative_scope": "No exact ME-8B/AX5B/Yamaha vocal hardware established;limited queries,not absence proof.",
+    "model": "Alesis MicroVerb 4",
+    "primary": {
+      "product": "https://www.alesis.com/products/view/microverb4.html",
+      "manual": "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf",
+      "program_chart": "https://www.alesis.com/rscdn/981/documents/microverb4_programchart.pdf",
+      "facts": [
+        "Discontinued;up to3simultaneous effects",
+        "18bitADC/DAC;not seller24bit claim",
+        "100factory+100user=200programs",
+        "1300ms maximum delay,±1octave pitch",
+        "MIDI realtime control2simultaneous controls",
+        "2quarter-inch inputs+2outputs",
+        "Original chart explicitly names vocal/acoustic-guitar programs"
+      ]
+    },
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Effect-Vocal-ALESIS-Microverb-4-Microberb4-Original-Made-in-USA-i.380541018.29204571734",
+        "seller": "Batikkku_id",
+        "seller_id": "380541018",
+        "item_id": "29204571734",
+        "idr": 1800000,
+        "region": "Jakarta Barat",
+        "access": "last-month indexed;reopened body",
+        "condition": "unknown",
+        "stock": "unknown",
+        "identity": "MadeinUSA sellerclaim unverified"
+      },
+      {
+        "url": "https://shopee.co.id/ALESIS-MICROVERB-4-MADE-IN-USA-24-BIT-KUPING-BABETORIGINAL-RESMI-i.6699705.20838221165",
+        "seller": "tunasjayaelectronik",
+        "seller_id": "6699705",
+        "item_id": "20838221165",
+        "idr": 1565000,
+        "region": "Jakarta Barat",
+        "access": "two-week search thenlast-week reopened index",
+        "condition": "unknown",
+        "stock": "unknown",
+        "identity": "24BIT sellerclaim conflicts manufacturer18bit;origin/authenticity unverified"
+      }
+    ],
+    "common_limits": "No checkout/condition,bundle,warranty,voucher or authenticity verified. Malaysia/Taiwan/USA sellerlabels not assumed separate official variants. No files downloaded.",
+    "status": "primary eligibility established;full canonical record pending manual/control/routing verification"
   }
 }
