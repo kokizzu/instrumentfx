@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero Mini MP-50",
-    "task": "Mini five bass amp/preamp models verified in own V2.2 manual; added shared bass membership. Next fresh Shopee discovery by brand/series, then exact-model verification; Mini full category counts, USB playback/formats and currentOS remain.",
+    "task": "Mini external expression4parameters+volume, alternative EXP/FS modes and3CTRL functions saved from own V1.2 manual. Legacy bass discovery found no new qualifying offers;RP350 adapter rejected. Next broaden Shopee brand/series discovery;Mini complete categorycounts/USBplayback/formats/currentOS remain.",
     "next_models": [],
     "after_queue": "Continue research and legacy consolidation; no workflows/downloads/push."
   },
@@ -58866,5 +58866,40 @@
       "CurrentOSmatrix"
     ],
     "downloads": false
+  },
+  "ampero_mini_expression_20261017": {
+    "source": "https://www.scribd.com/document/863661248/MP-50-Ampero-Mini-Online-Manual-EN-Firmware-V1-2-1734336366201",
+    "revision": "ManufacturerV1.2pp16–21",
+    "targets": "4effectparameters+overallvolume simultaneous",
+    "socket_modes": [
+      "EXP",
+      "SingleFS",
+      "DualFS"
+    ],
+    "ctrl_functions": 3,
+    "toe": "Calibrationtoe-downnotproofseparateassignableswitch",
+    "remaining": [
+      "USBplayback/formats",
+      "CurrentOSmatrix",
+      "Completecurrentcategorycounts"
+    ],
+    "downloads": false
+  },
+  "discovery_bass_legacy_20261017_late": {
+    "queries": [
+      "site:shopee.co.id DigiTech BP355",
+      "site:shopee.co.id Zoom B9.1ut",
+      "site:shopee.co.id Korg AX3000B",
+      "site:shopee.co.id Digitech BP80",
+      "site:shopee.co.id Yamaha DG stomp",
+      "site:shopee.co.id Korg AX2000G",
+      "site:shopee.co.id Digitech RP350"
+    ],
+    "result": "No qualifying new hardware offer recovered;notproofmarketabsence",
+    "rejected": {
+      "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+      "reason": "Adapteronly;Rp170000notprocessorprice"
+    },
+    "next": "Otherbrand/seriesShopeediscovery;do not promote accessoryhits"
   }
 }

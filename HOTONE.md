@@ -189,6 +189,16 @@ Manufacturer-authored indexed text was read without downloading files, installin
 |---|---|
 | Processing / bass AMP category | [Mini’s own firmware V2.2 manual, Effect List](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) lists **five bass amp/preamp choices**: Alchemy Pre, Ampage Classic, Ampage Flip, Voxy Bass and Messe Bass 400. Their references are Alembic F-2B, Ampeg SVT, Ampeg B-15, VOX AC-100 and Mesa/Boogie Bass 400 respectively. This is positive model-specific bass-processing evidence and warrants shared membership in **ALL-BASS.md** while retaining ALL-GUITAR.md. It does not establish equal bass suitability for every algorithm or a complete current library total. |
 
+### Ampero Mini — external expression and CTRL limits, 2026-10-17
+
+[Manufacturer-authored firmware V1.2 manual, pp16–21](https://www.scribd.com/document/863661248/MP-50-Ampero-Mini-Online-Manual-EN-Firmware-V1-2-1734336366201), identified by its own title page and Mini panel, supplies the following text-derived limits; the mirror’s generated overview is not evidence.
+
+| Field | Verified finding / revision limit |
+|---|---|
+| Expression / simultaneous targets | The external pedal controls **four effect parameters plus overall volume simultaneously**. Each effect target has independent0–100 minimum/maximum, reversible endpoints and linear/exponential/logarithmic curves. Volume retains fixed heel-minimum/toe-maximum behavior. Calibration includes a firm toe-down step; this alone does not establish a separate toe-switch assignment. |
+| Expression / external socket modes | The socket selects **EXP, Single FS or Dual FS**; EXP mode disables the other footswitch options. This documents alternative socket modes, not simultaneous analog expression plus two switches. |
+| Controls / CTRL assignments | **Three CTRL functions** can toggle chosen modules. CTRL1 is accessible by holding onboard footswitch1; CTRL2/3 use external switching. The functions may share or differ in their module targets; they are not three additional physical switches. |
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

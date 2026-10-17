@@ -335,7 +335,7 @@ def main():
         print(git('diff', '--cached', '--stat'))
         message = 'fix(comparisons): preserve separate technical source columns' if mode == 'commit-field-extraction' else 'fix(comparisons): route analog conversion and automation to useful columns'
         if mode == 'commit-ampero-one':
-            message = 'fix(comparisons): include Ampero Mini with documented bass processing'
+            message = 'research(hotone): verify Mini external expression and CTRL limits'
         if mode == 'commit-nux-mg50li-audit':
             message = 'audit(nux): preserve MG-50Li shared fields and conflicting source counts'
         if mode == 'commit-nux-mg30-audit':
