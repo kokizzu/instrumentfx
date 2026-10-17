@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Soran Dual Stomp",
-    "task": "Initial record saved;next readableoriginalmanual forcounts/control/expressiontoe/calibration/power/routing;keep125/126and10/11conflicts. Then discover exactDualStompLite offer separately.",
+    "model": "Soran Dual Stomp Lite",
+    "task": "Discover exact Shopee hardware item, then own product/manual;not yet active. DualStomp manual/control/toe gaps deferred until new source;electrical limits saved.",
     "next_models": [],
-    "after_queue": "320active;allprior technical/market/ownership/migration gapsremain;no downloads/workflows/push."
+    "after_queue": "320active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41989,7 +41989,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Soran Dual Stomp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Soran Dual Stomp Lite."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -65387,5 +65387,24 @@
     },
     "position_sum": 125,
     "qualification": "Derived arithmetic reconciles headline,not explicit manufacturer definition;slots notfactoryalgorithms;10simultaneous includesloop/drum;no sibling borrowing"
+  },
+  "soran_dualstomp_followup_20261018": {
+    "source": "https://soranaudio.com/products/28.html",
+    "status": "Own electrical limits saved; original controls/manual remain unverified",
+    "findings": [
+      "Input470kohm2VRMS;mainpublished10kohm2VRMS retained without silent correction",
+      "Phones10ohm2VRMS;AUX47kohm1.5VRMS",
+      "ADC/DAC48k24bit95dB;SNR100dB distinct from analogheadroom"
+    ],
+    "rejected": {
+      "url": "https://manuals.plus/asin/B0GKFM2RCY",
+      "claim": "9VDCIN instruction in generated summary; not supported by manufacturer USB-C5Vcharging/connector list; not promoted"
+    },
+    "failed_manual_routes": [
+      "https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17751001238004746.pdf",
+      "https://www.soranaudio.com/upload/files/article/20260402/17751001238004746.pdf",
+      "https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17750997333403394.pdf"
+    ],
+    "remaining": "No original manual read;toe/control/category/powerbehavior unknown. Seek new source ratherthan repeat same routes."
   }
 }

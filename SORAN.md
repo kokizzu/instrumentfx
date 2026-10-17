@@ -139,3 +139,17 @@ OfficialV1.0.0manual link403;manufacturer-domain alternatenotaccessible. Product
 [DS-S]: https://shopee.co.id/SORAN-Dual-Stomp-Multi-Effect-Electric-Guitar-and-Bass-Processor-new-arrival-holy-music-nam-ir-i.945642322.51608612661
 
 Unreadofficialmanual: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17751001238004746.pdf .
+
+### Dual Stomp — electrical limits and rejected power claim
+
+Checked 2026-10-18 against the exact [manufacturer product table][DS-P]. These specifications do not resolve the page’s module/count conflicts.
+
+| Field | Published limit / qualification |
+|---|---|
+| Audio levels / ports | Instrument input: 470 kΩ, maximum 2 V RMS. Main outputs: published 10 kΩ impedance and maximum 2 V RMS; retain the unusually high impedance without correcting it from sibling models. Phones: 10 Ω, maximum 2 V RMS. TRRS AUX: 47 kΩ input, maximum 1.5 V RMS input/output. |
+| Audio conversion / processing | ADC/DAC each 48 kHz, 24-bit, 95 dB dynamic range, 20 Hz–20 kHz response; separate S/N specification 100 dB. Test conditions are not stated. USB word length remains distinct from analog headroom. |
+| Power / rejected secondary claim | Manufacturer specifies USB-C 5 V charging. A generated mirror’s 9 V DC-IN instruction is **not accepted evidence** of a socket or operating voltage. Do not connect a supply based on that summary. Exact operating draw and charging-while-audio behavior remain unverified. |
+
+Access audit: English support PDF returned 403; its manufacturer-domain alternate failed. Chinese V1.0.0 PDF also failed. Thomann’s indexed page advertised a manual, but the readable French page did not expose its link. Generated summaries and retailer metadata were not used to fill toe, control or power gaps. No downloads or installation.
+
+Rejected generated summary: https://manuals.plus/asin/B0GKFM2RCY . Unread Chinese original: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17750997333403394.pdf .
