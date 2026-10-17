@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 267,
+  "active_model_count": 268,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 267,
+  "canonical_root_model_count": 268,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "267 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded;all partial. Dapper MDR guitar multifx added.",
+  "count_reconciliation": "268 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded;all partial.MP-2 shared guitar/bass.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Mighty Plug MP-2",
-    "task": "Fresh exact MP-2 hardware offers and own-product checkpoint saved;read own manual and add distinct MP-2 record without Pro borrowing or Mighty Air copy. Commit before next queued model.",
+    "task": "MP-2 partial record added from own V2 product;next resolve own-manual panel/power/dimensions and category names before deferral;queued Fender Micro Plus and Dapper Amp Mini retained.",
     "next_models": [
       "Fender Mustang Micro Plus",
       "Valeton Dapper Amp Mini"
@@ -23835,7 +23835,8 @@
       "MG-20",
       "MFX-10",
       "PG-2",
-      "Mighty Plug Pro MP-3"
+      "Mighty Plug Pro MP-3",
+      "Mighty Plug MP-2"
     ],
     "Roland": [
       "GR-55"
@@ -24165,7 +24166,8 @@
       "MG-20",
       "MFX-10",
       "PG-2",
-      "Mighty Plug Pro MP-3"
+      "Mighty Plug Pro MP-3",
+      "Mighty Plug MP-2"
     ],
     "SONICAKE.md": [
       "Matribox QME-50",
@@ -24334,14 +24336,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 218,
+      "record_count": 219,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 104,
+      "record_count": 105,
       "bass_focused_record_count": 27,
-      "shared_bass_capable_count": 77,
+      "shared_bass_capable_count": 78,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41297,18 +41299,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 267,
-    "canonical_root_models": 267,
+    "unique_brand_model_pairs": 268,
+    "canonical_root_models": 268,
     "legacy_only_models": 0,
-    "guitar_view_models": 218,
+    "guitar_view_models": 219,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 104,
-    "bass_shared_models": 77,
+    "bass_view_models": 105,
+    "bass_shared_models": 78,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41360,7 +41362,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper MDR."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Mighty Plug MP-2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41481,6 +41483,7 @@
       "NUX::MFX-10",
       "NUX::PG-2",
       "NUX::Mighty Plug Pro MP-3",
+      "NUX::Mighty Plug MP-2",
       "Roland::GR-55",
       "Scorpion::KMF-10",
       "Sonicake::Matribox QME-50",
@@ -41648,6 +41651,7 @@
       "NUX::MG-400",
       "NUX::MG-30",
       "NUX::Mighty Plug Pro MP-3",
+      "NUX::Mighty Plug MP-2",
       "Roland::GR-55",
       "Valeton::GP-100",
       "Valeton::GP-150",
@@ -41743,6 +41747,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "NUX::Mighty Plug MP-2": "Own product explicitly supports guitar and bass processing. https://nuxaudio.com/product/mightyplug/",
     "NUX::Mighty Plug Pro MP-3": "Own product explicitly identifies guitar and bass processing. https://nuxaudio.com/product/mightyplugpro/",
     "TC Electronic::PLETHORA X5": "Own official product explicitly documents bass-oriented global cabinet simulation. https://www.tcelectronic.com/en/products/0709-AIK",
     "Lexicon::MX400": "Own combined MX400/MX400XL manual p25 explicitly lists bass-track compression; appropriate line-level preamp/mixer or recorded-track routing required. https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
@@ -42907,6 +42912,13 @@
     },
     "NUX::Mighty Plug Pro MP-3": {
       "link": "NUX.md#mighty-plug-pro-mp-3",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::Mighty Plug MP-2": {
+      "link": "NUX.md#mighty-plug-mp-2",
       "source_files": [
         "NUX.md"
       ],
@@ -55791,5 +55803,12 @@
     ],
     "limits": "All indexed historical asks,notlivecheckout. No condition-specific used/new allocation;stock/variant/bundle,authenticity,warranty,shipping/tax/vouchers unresolved. Queued models need own documentation before adding.",
     "next": "MP-2 own manual via productlink63;verify counts/power/memory/IO/revisions and add guitar+bass record,commit before queued next."
+  },
+  "mp2_primary_checkpoint_20261017": {
+    "added": true,
+    "manual": "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlug/NUX_MightyPlug_UserManual_English.pdf",
+    "access": "6pages,no substantive text;no visual/download.",
+    "resolution_correction": "512sample confirmed in own exact-model feature bullet independently from MightyAircopy;19IRs listed.",
+    "remaining": "Panel controls/expression/display,completeIO,power/dimensions/mass,memorysplit,simultaneous/order/import/editorOS,firmwarerevision,qualifiedprices."
   }
 }

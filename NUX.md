@@ -904,3 +904,44 @@ Official page contains Mighty Space copy in IR/effects prose; those passages do 
 Mirror body identifies MP-3/MIGHTY PLUG PRO and ©2022 Cherub, matching product identity and nine-block architecture. Current official PDF revision equivalence unverified. Only manufacturer manual body used; generated questions/answers excluded. Retailer PDF titled MP-3 V4Q has20 pages without extracted text, versus11-page current official file; no visual equivalence claimed.
 
 [MP3-S]: https://www.nux.us/blogs/support/mighty-plug-support-hub
+
+## Mighty Plug MP-2
+
+Checked2026-10-17;partial. Own product explicitly supports guitar/bass;separate from MP-3 Pro. Ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. [Product][MP2-P] |
+| K/F/B | Separate rotary/footswitch/button counts unresolved. [Product][MP2-P] |
+| Display | Diagonal,color/touch unverified. [Product][MP2-P] |
+| Processing / categories | V2 page:13amps;14 Pre-EFX;6MOD;4delay;4reverb,plus gate. Simultaneous blocks/order unresolved. [Product][MP2-P] |
+| Preset memory | V2:7 presets,QR sharing;factory/user split unresolved. [Product][MP2-P] |
+| Synth / acoustic | Electric-to-acoustic IR simulation documented;dedicated synth unverified. [Product][MP2-P] |
+| I/O | Micro-B USB audio;headphone monitoring mixes guitar/computer playback. Full connector inventory/sizes unresolved. [Product][MP2-P] |
+| Power / battery / USB | Rechargeable lithium battery;claimed4h. Voltage/capacity,current,charging/USB-powered operation unresolved. [Product][MP2-P] |
+| Dimensions / mass | Dimensions/mass unverified. [Product][MP2-P] |
+| IR / NAM / capture | Own feature list:19IRs,512samples. IR prose erroneously names Mighty Air;independent exact-model feature bullet supports512. User import/NAM/capture unresolved. [Product][MP2-P] |
+| Editor / platforms | MightyAmp iOS/Android;desktop editor unverified. Firmware2.3 Windows/macOS updater is distinct. [Product][MP2-P] |
+| Live / practice | 10drum patterns+metronome. ECO:off after2min without headphones or6min without guitar/Bluetooth/USB signal. Looper/scenes unverified. [Product][MP2-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp989.999**,HAWILA MUSIK INDONESIA,shop130137603/item3008444335,Kota Surabaya;five months indexed crawl. | [Item][MP2-O1] |
+| Unverified | **Rp1.140.000**,Soundstationstore,shop250276993/item25710410858,Kota Tangerang Selatan;two months indexed crawl. | [Item][MP2-O2] |
+| Unverified | **Rp994.400**,GH MUSIC STORE,shop71552895/item25110576797,Kota Tangerang Selatan;five months indexed crawl. | [Item][MP2-O3] |
+
+<!-- comparison evidence ends -->
+
+Checked2026-10-17;historical asks,not live checkout. No qualified used/new allocation. Stock,variant,bundle,authenticity,warranty,shipping/tax/vouchers unresolved.
+
+Official own manual6pages has no substantive extracted text;no visual verification or download. Product V2 information retained without borrowing MP-3 controls,power or IR imports. Source-copy issue is explicit above;512sample claim also appears in exact-model feature list.
+
+[MP2-P]: https://nuxaudio.com/product/mightyplug/
+[MP2-M]: https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlug/NUX_MightyPlug_UserManual_English.pdf
+[MP2-O1]: https://shopee.co.id/NUX-MP2-MP-2-MP-2-Mighty-Plug-Guitar-And-Bass-Amplug-With-Bluetooth-ORIGINAL-i.130137603.3008444335
+[MP2-O2]: https://shopee.co.id/NUX-MP2-Mighty-Plug-Headphone-Guitar-Amplifier-MP-2-Amplug-i.250276993.25710410858
+[MP2-O3]: https://shopee.co.id/NUX-MP2-Mighty-Plug-Headphone-Guitar-Amplifier-MP-2-Amplug-i.71552895.25110576797
