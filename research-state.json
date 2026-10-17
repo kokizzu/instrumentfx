@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX StompLab 2B",
-    "task": "Reopen newly surfaced exact SalomoMusik1776275/4688514198 hardware offer;resolve SL2B versus+Adaptor variation andvoucher before accepting price. B1FOUR cveri offer saved;do not duplicate. VoiceLiveTouch2/GT10B technical gaps retained.",
-    "next_models": [
-      "M-VAVE CUBE BABY BASS exactAPMusic474088972/42811752267"
-    ],
-    "after_queue": "316active;continue technical/market/ownership/migration;no downloads/workflows/push."
+    "model": "M-VAVE CUBE BABY BASS",
+    "task": "Reopen exact AP Music474088972/42811752267 hardware offer;check currentcachedprice,condition,bundle,stock anddeduplicate before adding. StompLab2B Salomo variant/voucher ambiguity saved;notqualifiednew/used price.",
+    "next_models": [],
+    "after_queue": "316active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24018,6 +24016,17 @@
       "checked_date": "2026-10-18",
       "qualification": "Condition/stock/variant/bundle unverified;direct3weekcache versus search2months;relative delivery notlive;latecompensation notdiscount.",
       "status": "Added to existing model;noinventory increment"
+    },
+    {
+      "model": "VOX StompLab 2B",
+      "url": "https://shopee.co.id/Vox-SL2B-Multi-Effects-Bass-Pedal-Multi-Efek-Bass-Pedal-Vox-Stomplab-2B-SL2B-Original-i.1776275.4688514198",
+      "seller": "Salomo Musik",
+      "seller_id": "1776275",
+      "item_id": "4688514198",
+      "displayed_idr": 1367000,
+      "checked_date": "2026-10-18",
+      "qualification": "Habis;withvoucher spendRp10RB/10%;SL2B/+Adaptor price allocation unresolved. Kept as unallocated listing display,not qualified used/new/bare/bundle price. Direct2weekcache versus initial2months;notlive.",
+      "status": "Existing model;variantprice unresolved,noinventory increment"
     }
   ],
   "inventory_by_brand": {
@@ -41929,7 +41938,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab 2B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE CUBE BABY BASS."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -61883,6 +61892,10 @@
     {
       "token": "12597113040",
       "model": "Zoom::B1 FOUR"
+    },
+    {
+      "token": "4688514198",
+      "model": "VOX::StompLab 2B"
     }
   ],
   "g3xn_dsp_acoustic_20261017": {
