@@ -723,7 +723,7 @@ def main():
         if mode == 'commit-compact-gp180-audit':
             message = 'audit(valeton): verify GP-180 shared provenance and preserve version distinctions'
         if mode == 'commit-compact-smartbox-audit':
-            message = 'research(sonicake): qualify Smart Box updates and electrical specifications'
+            message = 'research(sonicake): include documented Smart Box bass capability'
         if mode == 'commit-compact-pocketmaster-audit':
             message = 'audit(sonicake): preserve complete Pocket Master original and stock limits'
         print(git('commit', '-m', message))

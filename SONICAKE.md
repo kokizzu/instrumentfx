@@ -110,6 +110,7 @@ Manufacturer-specified diagonal, explicit touch support, dependable English/glob
 | Screen / dimensions | **1.77-inch color LCD**,pixel resolution/touch unverified. **135 W ×114 D ×51 H mm;378 g**,compact. |
 | Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB;130+ choices,individual subcounts ?. |
 | Memory / sound | **100 locations,50 factory-filled**. Exact synth/electric-to-acoustic algorithms unverified. |
+| Bass capability | Manufacturer explicitly advertises guitar/bass-optimized presets; included in the shared bass comparison. Bass-specific model inventory and low-end performance remain unverified. [Product,checked2026-10-17](https://www.sonicake.com/products/smart-box) |
 | IR / NAM | **Five user IR slots**;third-party NAM/NAM A2 workflow advertised. Exact architectures/native-versus-converted handling unverified. |
 | I/O | 6.35 mm instrument input;**one6.35 mm TRS stereo output**;separate3.5 mm stereo headphones;EXP/FS;USB-C. |
 | Power | **2000mAh rechargeable battery;9V center-negative >700mA or USB5V >1A**. Supply requirements are not independently measured runtime. |

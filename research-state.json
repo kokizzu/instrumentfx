@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Smart Box QME-20",
-    "task": "Globalcurrentsoftware/electricalspecsandWindows11updatewarning saved. ContinueNAMrestrictions/fullFXcounts/currentOS/qualifiedoffers orfreshdiscovery.",
+    "task": "Smart Box shared-bass inclusion saved from explicit manufacturer preset claim. Continue unresolved NAM restrictions/category counts/currentOS/qualifiedoffers, then fresh brand/series discovery; do not add duplicate model.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -24497,9 +24497,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 117,
+      "record_count": 118,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 89,
+      "shared_bass_capable_count": 90,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41494,8 +41494,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 117,
-    "bass_shared_models": 89,
+    "bass_view_models": 118,
+    "bass_shared_models": 90,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41872,6 +41872,7 @@
       "NUX::Mighty Plug Pro MP-3",
       "NUX::Mighty Plug MP-2",
       "Roland::GR-55",
+      "Sonicake::Smart Box QME-20",
       "Valeton::GP-100",
       "Valeton::GP-150",
       "Valeton::GP-180",
@@ -41982,6 +41983,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Sonicake::Smart Box QME-20": "Manufacturer Smart Box page explicitly describes presets optimized for guitar and bass. Shared bass capability; bass-specific algorithms and low-end performance remain unverified. [Manufacturer product](https://www.sonicake.com/products/smart-box).",
     "Donner::Arena2000": "Own2022 Arena2000 manual p4 explicitly identifies input for guitar/bass;not connector-only inference. Bass-specific models/low-end performance remain unverified. [Original manufacturer manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf).",
     "Eventide::H90": "Own manual1.12.5 Global Source Type explicitly lists Bass(Tenor) and Sub(Bass), adapting pitch tracking, filters and tone controls. Not sibling or EQ-knob inference. [Manufacturer manual](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/system-menu/global.html).",
     "Eventide::H9 Max": "Own H9 User Guide p43 explicitly offers BASS and SYN.BAS source modes optimizing pitch algorithms and filter ranges; not inferred from an EQ knob or sibling. [Manufacturer manual](https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf).",
@@ -60362,5 +60364,12 @@
       "site:shopee.co.id \"Sonicake\" \"Twiggy Blues\""
     ],
     "result": "Noresultsreturned;notabsenceproof. FollowupRockStagequeryreturnedexisting19700013/22648443827Habis1.65m."
+  },
+  "smartbox_bass_20261017": {
+    "source": "https://www.sonicake.com/products/smart-box",
+    "basis": "Manufacturer Smart Box page explicitly describes presets optimized for guitar and bass. Shared bass capability; bass-specific algorithms and low-end performance remain unverified. [Manufacturer product](https://www.sonicake.com/products/smart-box).",
+    "classification": "Shared bass; same existing active model, not an additional unique record",
+    "access": "Manufacturer HTML only; no downloads",
+    "remaining": "Bass-specific algorithms/performance, NAM restrictions, category counts, touch, OS requirements and condition-qualified offers remain unresolved."
   }
 }
