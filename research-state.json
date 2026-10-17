@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX10B",
-    "task": "Canonicalbassrecord added from exactmanual;IDRunknown. Next verify controlcounts,remainingalgorithmlists andpowerpolarity from primarysource;seekexactIndonesianhardware;keepNRconflict.",
+    "task": "AX10B controls andalgorithm lists saved;manual WAH/OCTAVE andNRconflicts retained. Next seekqualifiedIDRoffer or investigatepowerpolarity/current fromprimarysource;do notborrowAX10G.",
     "next_models": [],
     "after_queue": "276partialmodels;no downloads/workflows/push;fullscopeincomplete."
   },
@@ -56758,5 +56758,10 @@
       "limits": "Polaritysymbolnotextracted;currentdraw/concurrentceilingunknown;controls/remainingEnglishpagesnotfullyaudited;noUSB/editorassumptions. Notcounted/localofferunqualified."
     },
     "counted": true
+  },
+  "ax10b_controls_algorithms_20261017": {
+    "source": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf",
+    "counts": "8rotary=5parameter+3selectors;2foot;13buttons;2rear togglesseparate;pedalactivationseparate.",
+    "qualifications": "AMP11includesEQ;MOD11/Ambience11listedcanonical;echo1/2/3feedbackvariants. PREWAHwordingconflictsactualOCTAVEassignment;nowahclaim."
   }
 }

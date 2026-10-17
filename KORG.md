@@ -404,10 +404,10 @@ Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX
 
 | Field | Evidence / remaining gaps |
 |---|---|
-| Processing / choices | PRE3,AMP11,MOD11,AMBIENCE11,NR1;not a simultaneous-count claim. Exact concurrent ceiling unknown. |
+| Processing / choices | PRE3,AMP11,MOD11,AMBIENCE11,NR1;not a simultaneous-count claim. PRE choices COMP/DIST/OCTAVE. Exact concurrent ceiling unknown. |
 | Presets | **40 read-only factory+40 overwriteable user**;user initially duplicates factory. |
 | Expression | Built-in pedal;fully forward toggles effect;volume always active. No external EXP socket in complete rear inventory. Mechanical toe-switch implementation unknown. |
-| Controls | Complete separate rotary/foot/button counts pending final count audit. |
+| Controls | **8 rotary /2 footswitches /13 buttons**, derived from numbered text:5ampknobs+3selectors;UP/DOWNfoot;PRE1,VALUE2,MODDEPTH2,AMBDEPTH2,TAP1,FUNCTION1,MASTER2,WRITE1,PEDALFX1. Two rear toggles andpedal activation separate;not visually audited. |
 | Display | Program/parameter display;diagonal,color,touch unverified. |
 | Dimensions / weight | **287W×182D×60H mm;1.1kg without batteries**. |
 | Power | FourAAalkaline,about18h;separateDC9Vadapter. Polarity symbol not extracted;draw andUSB power unknown. |
@@ -429,3 +429,9 @@ Manualp11 NR instruction conflicts internally: parenthetical TAP+EFF.DEPTH versu
 | New IDR | Unknown;seller/item,stock,region,edition,bundle,warranty,voucher,shipping/tax unverified. Korg’s discontinued/sold-out support label does not prove absence of used or old stock. |
 
 Foreign RP50 offers and Indonesian adapter listings do not establish AX10B prices.
+
+### AX10B — controls and algorithm qualifications
+
+Checked2026-10-17, [own manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),pp6–7/11–12. AMP11 includes **EQ**,not11distinctamplifiers;matchedcab effect excluded forEQ,Amp/Line changescabdepth. MOD11:Chorus,Flange,Phaser,Trem,Rotary,Feedbk,Pitch1,Filter,U-Vibe,Talk,Pitch2. Ambience11:Slap,Echo1/2/3,PPDly,Multi,Air,Room,Hall,Plate,Spring. Threeecho feedbackvariants count separately in source.
+
+Page11PREtable incorrectly refers to PEDALFX:WAH despite documentedOCTAVE/MOD/AMB/VOLUMEassignment inventory;preserveconflict,do notinferwah. Octave trackingcanfailwithchords/lowstrings. Controls derivedfromtext,notimages.

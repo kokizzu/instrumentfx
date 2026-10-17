@@ -491,7 +491,7 @@ def main():
         if mode == 'commit-rp90':
             message = 'research(digitech): clarify RP90 calibration reset and tuner behavior'
         if mode == 'commit-ax10g':
-            message = 'research(korg): add AX10B bass record with explicit market gaps'
+            message = 'research(korg): verify AX10B controls and preserve algorithm conflicts'
         if mode == 'commit-g3x':
             message = 'research(zoom): verify G3X synth DSP and expression qualifications'
         if mode == 'commit-g5':
