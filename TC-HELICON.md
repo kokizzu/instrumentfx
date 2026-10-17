@@ -461,6 +461,21 @@ Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;
 
 [PV-I]: https://images.thomann.de/pics/atg/atgdata/document/manual/tc_helicon_perform_v_reference_manual_italian.pdf
 
+
+### PERFORM-V — analog limits and remote assignments
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / analog inputs | Mic impedance2.8kΩ balanced/1.4kΩ unbalanced; maximum input range−28 to+2.8dBu. AUX impedance20kΩ, maximum+2.5dBu. Mic and AUX A/D are24-bit,128×oversampling; published A-weighted converter SNR115dB mic/102dB AUX. Host USB audio format is not established. | [Manual p49][PV-B] |
+| I/O / analog output | XLR output impedance66Ω balanced/33Ω unbalanced;0dBFS corresponds to−1.5dBu. D/A24-bit,128×oversampling. Dynamic range>109dB over20Hz–20kHz; frequency response+0.50/−0dB over that band. | [Manual p49][PV-B] |
+| External control / assignment restrictions | Switch-3 defaults to presets1–3; Switch-6 adds Double/Reverb/Echo on4–6. Hold a remote switch, press the desired unit button, release both to assign. Trim,48V,headphone level and Lock/Mute cannot be assigned; TALK can. | [Manual p45][PV-B] |
+
+### Additional condition-unverified IDR offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unknown | **Rp3,950,000**, Kurnia Musik Semarang, Kota Semarang;shop32743136/item24781414967. Checked2026-10-18; direct HTML, month-old cache. No explicit Habis label, but stock is not confirmed. Condition, revision, bundle/adapter, warranty and variation unknown. Relative Besok delivery is stale; Rp10,000 late compensation is not discount. Shipping/tax/checkout unknown. | [Exact item](https://shopee.co.id/TC-Helicon-Perform-V-Vocal-Effects-Processor-i.32743136.24781414967) |
+| Unknown | **Rp3,800,000; Habis**, Suryaputra Musik, Kota Semarang;shop270383239/item43054250870. Checked2026-10-18; direct HTML, month-old cache. Condition, revision, working state, bundle/adapter, warranty and variation unknown. Relative Besok delivery is stale; Rp10,000 late compensation is not discount. Shipping/tax/checkout unknown. Historical ask only. | [Exact item](https://shopee.co.id/TC-Helicon-Perform-V-vocal-processor-i.270383239.43054250870) |
 <!-- comparison evidence ends -->
 
 ## PERFORM-VK

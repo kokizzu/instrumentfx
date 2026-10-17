@@ -404,7 +404,7 @@ def main():
         if mode == 'commit-perform-vk':
             message = 'research(tc-helicon): qualify Perform VK keyboard split and transpose scope'
         if mode == 'commit-perform-v':
-            message = 'research(tc-helicon): restore PERFORM-V conflicts remote rules and offer in comparisons'
+            message = 'research(tc-helicon): qualify PERFORM-V analog limits remote assignments and asks'
         if mode == 'commit-dapper-indie':
             message = 'research(valeton): clarify Indie fields and reconcile recorded discovery status'
         if mode == 'commit-dapper-dark-mini':
