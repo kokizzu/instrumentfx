@@ -315,7 +315,7 @@ These resolve initial recording-storage unknowns;they do not verify current card
 
 ## GNX4
 
-Guitar/bass multi-effects workstation, distinct from GNX3/GNX3000. Checked 2026-10-17; partial. Mic recording does not establish vocal live multi-effects membership.
+Guitar/bass multi-effects workstation, distinct from GNX3/GNX3000. Checked 2026-10-17; partial. Own manual pp.6–7 explicitly establishes live effects processing of mic/line inputs; this supersedes the earlier unclassified vocal status.
 
 | Field | Evidence / qualification |
 |---|---|
@@ -327,9 +327,9 @@ Guitar/bass multi-effects workstation, distinct from GNX3/GNX3000. Checked 2026-
 | Factory / user memory | **80 factory +80 user**, with **80 additional card presets** using optional CompactFlash:160 internal,240 with card. User factory-fill mapping unverified. [G4-P] |
 | Synth / acoustic | Dedicated synth and acoustic-simulation algorithms unresolved; MIDI drum synthesis does not establish guitar synth processing. |
 | IR / NAM / capture | Cabinet IR import, native/converted NAM and proprietary user-capture import unverified. GeNetX amp blending is not proof of a user capture facility. |
-| I/O | Own manual connection example identifies guitar/instrument input, mic input with level control, stereo line inputs, headphones, L/R XLR outputs, MIDI IN and OUT/THRU, USB and GNXFC footswitch connection; CompactFlash storage. Complete rear-panel inventory and every connector size still require verification. [G4-M p.19] |
+| I/O | Guitar input; mic input with gain,−20 dB pad and switchable48 V phantom; balanced L/R line inputs; balanced L/R¼-inch and XLR outputs; stereo headphones; GNXFC recorder-control jack; USB; MIDI IN/OUT-THRU; power. Separate output-level and speaker-compensation controls for¼-inch versus XLR/headphones; XLR ground lift. Mic/line inputs can be dry or effect-processed live. Connector-size details remain incomplete. [G4-M pp.6–7,19] |
 | Power / battery / USB | Product consumption **21 W**. **Official conflict:** FAQ GNX4/PSS3 says9 V AC,2.1 A,2.5 mm pin and120 V AC mains variant; power-supply list PSS3 says9 V DC,1.3 A,2.1 mm center-negative,120–240 V AC mains. Do not resolve by sibling inference. Battery/USB operating power and measured draw unverified. [G4-P;G4-F;G4-S] |
-| Editor / software | Official downloads list **X-Edit2.4.1 Windows** for GNX4; current OS support unverified. Historical bundled Mac recording software is not evidence of a Mac editor. USB audio/MIDI documented; exact channel counts/drivers require own software guide. [G4-P;G4-E;G4-M p.19] |
+| Editor / software | Official downloads list **X-Edit2.4.1 Windows** for GNX4; current OS support unverified. Historical bundled Mac recording software is not evidence of a Mac editor. USB audio/MIDI documented; MIDI OUT becomes THRU with MIDI Merge. Exact channel counts/current drivers require own software guide. [G4-P;G4-E;G4-M p.19] |
 | Looper / drums / live | Eight-track recorder, MP3 playback and MIDI drums documented; recorder is not automatically a quantified overdub looper. Loop duration, card restrictions, scenes, trails and routing limits unresolved. [G4-P] |
 
 ### GNX4 — separate IDR evidence

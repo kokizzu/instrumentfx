@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "GNX4 partial root record added; follow up own manual indexed panel/specs/effect tables for counts,display,complete I/O,category totals and routing. Keep power conflict and price-condition gaps explicit.",
+    "task": "GNX4 rear-panel pp6–7 now verified and shared vocal membership established from explicit live mic effects. Next own numbered top-panel counts/display and effect-category inventory. Preserve power conflict.",
     "next_models": [],
     "after_queue": "Other candidates/field gaps; no workflows/push."
   },
@@ -24238,9 +24238,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 43,
+      "record_count": 44,
       "vocal_only_count": 22,
-      "combined_instrument_count": 21,
+      "combined_instrument_count": 22,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41195,7 +41195,7 @@
     "guitar_view_models": 195,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
-    "vocal_view_models": 43,
+    "vocal_view_models": 44,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41588,6 +41588,7 @@
       "Zoom::V6-SP",
       "Zoom::V3",
       "Zoom::RFX-1100",
+      "DigiTech::GNX4",
       "Behringer::FX2000",
       "Lexicon::MX200",
       "Alesis::MicroVerb 4",
@@ -53166,5 +53167,12 @@
       "status": "Unresolved official contradiction; do not select adapter from either alone or borrow GNX3 specs."
     },
     "next": "Inspect own manual indexed panel/specifications/routing before adding complete partial record; determine controls, live expression, blocks/categories, editor platforms separately from recording suite."
+  },
+  "gnx4_live_io_checkpoint_20261017": {
+    "source": "https://digitech.com/wp-content/uploads/2022/09/GNX4Manual_original.pdf",
+    "pages": "6–7",
+    "basis": "Rear-panel mic and line descriptions explicitly allow GNX4 effects for live and recording applications, establishing vocal/live-mic-path membership beyond recording alone.",
+    "facts": "Mic pad−20dB,48Vphantom;balanced line/quarter-inch/XLR paths;separate level/speaker compensation;XLR ground lift;GNXFC recorder controller;MIDI Merge OUT/THRU.",
+    "remaining": "Complete physical control counts,display/category inventory and power conflict."
   }
 }
