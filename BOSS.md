@@ -2190,3 +2190,39 @@ Search cache showedAug28–31delivery. Workingcondition,bundle,adapter,authentic
 
 [ME30-M]: https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf
 [ME30-O]: https://shopee.co.id/efek-gitar-boss-me-30-(second)-i.293948259.21081428643
+
+## ME-8
+
+Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified. Distinct from ME-8B.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | External EV-5 or FV-300L + PCS-33 supported; built-in/toe details pending. | [Manual p34][ME8-M] |
+| K/F/B | Separate rotary, footswitch and button counts pending visual/text reconciliation. | Unresolved |
+| Display | **Three-character seven-segment LED**; diagonal and touch unverified. | [Manual p34][ME8-M] |
+| Processing / categories | Compressor; drive; Humanizer/EQ; Harmonist/Pitch; Chorus/Flanger/Phaser/Tremolo; delay; reverb; suppression; amp simulator. Exact simultaneous ceiling and choice counts pending. | [Manual p34][ME8-M] |
+| Preset memory | **50 user + 50 preset = 100**, plus Manual settings; initial user contents pending. | [Manual p34][ME8-M] |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. | Unresolved |
+| I/O | Input; L/Mono and R outputs; stereo mini headphones; external drive send/return; Manual Remote; Tuner Remote; EXP; Tempo In; adapter. | [Manual p34][ME8-M] |
+| Power / battery / USB | **14 V AC; 500 mA draw**. Battery/USB operation unverified; AC has no fixed DC center polarity. | [Manual p34][ME8-M] |
+| Dimensions / mass | **422 W × 206 D × 55 H mm; 2.2 kg excluding adapter**. | [Manual p34][ME8-M] |
+| IR / NAM / capture | Import, native/converted NAM and proprietary capture unverified. | Unresolved |
+| Editor / platforms | Editor and current OS support unverified. | Unresolved |
+| Live / practice | Manual mode documented; looper, drums, scenes and routing restrictions pending. | [Manual p34][ME8-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | **Rp2.500.000**, seller title SECOND. HUTAURUK MUSIC, shop190993829/item17255720607. Exact item linked from storefront, checked 2026-10-17; direct item returned cache miss. Storefront crawled two months ago, search three months; Bekasi from search index. Stock unverified. | [Item][ME8-O]; [Storefront][ME8-S] |
+| New | No qualified amount. | — |
+
+<!-- comparison evidence ends -->
+
+Original/good/no-minus are seller claims, not verified condition or authenticity. Bundle, adapter inclusion, working state, warranty, shipping, tax and vouchers unverified. Historical ask is not live availability or a completed sale. Official PDF opens as 40 pages with no extracted body; indexed manufacturer text supplies printed page34. No download or visual inspection claimed.
+
+[ME8-M]: https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf
+[ME8-O]: https://shopee.co.id/BOSS-ME-8-SECOND-ORIGINAL-BAGUS-NO-MINUS-i.190993829.17255720607
+[ME8-S]: https://shopee.co.id/charlijulian777

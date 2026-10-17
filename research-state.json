@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 251,
+  "active_model_count": 252,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 251,
+  "canonical_root_model_count": 252,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "251 unique active/root-canonical models; 0 legacy-only; 31 brands; 6 excluded archives. RP200 guitar; bass/vocal unclassified; all partial.",
+  "count_reconciliation": "252 unique active/root-canonical models; 0 legacy-only; 31 brands; 6 excluded archives. ME-8 guitar; bass/vocal unclassified; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-8",
-    "task": "Exact Shopee item resolved from HUTAURUK storefront: shop190993829/item17255720607, historical Rp2500000 SECOND ask; direct item cache miss. Next verify own BOSS/Roland manual before adding active model.",
+    "task": "ME-8 primary specifications saved. Next own-manual front panel and algorithm restrictions via indexed manufacturer text; preserve exact listing access limitations.",
     "next_models": [],
     "after_queue": "Continue brand/series Shopee discovery. Preserve RP200, AX100G, ME-30, GT-5 and RFX-2000 deferred gaps. No downloads, workflows or push."
   },
@@ -23706,7 +23706,8 @@
       "Pocket GT",
       "ME-50B",
       "GT-5",
-      "ME-30"
+      "ME-30",
+      "ME-8"
     ],
     "CUVAVE": [
       "H8"
@@ -24192,7 +24193,8 @@
       "Pocket GT",
       "ME-50B",
       "GT-5",
-      "ME-30"
+      "ME-30",
+      "ME-8"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -24295,7 +24297,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 204,
+      "record_count": 205,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41258,10 +41260,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 251,
-    "canonical_root_models": 251,
+    "unique_brand_model_pairs": 252,
+    "canonical_root_models": 252,
     "legacy_only_models": 0,
-    "guitar_view_models": 204,
+    "guitar_view_models": 205,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 49,
@@ -41321,7 +41323,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-8."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41351,6 +41353,7 @@
       "BOSS::Pocket GT",
       "BOSS::GT-5",
       "BOSS::ME-30",
+      "BOSS::ME-8",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Fender::Tone Master Pro",
@@ -42049,6 +42052,13 @@
     },
     "BOSS::ME-30": {
       "link": "BOSS.md#me-30",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::ME-8": {
+      "link": "BOSS.md#me-8",
       "source_files": [
         "BOSS.md"
       ],
@@ -54172,5 +54182,11 @@
       ],
       "limits": "ME-8 exact item link resolved. No additional exact processor resolved in limited search; not market absence."
     }
+  },
+  "me8_primary_checkpoint_20261017": {
+    "manual": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+    "pages": "34",
+    "access": "40-page official PDF; body extraction empty, manufacturer search-indexed specifications readable.",
+    "remaining": "Controls, built-in/toe EXP, algorithms/simultaneous restrictions, live features, display/editor/IR/NAM, battery/USB and new price."
   }
 }
