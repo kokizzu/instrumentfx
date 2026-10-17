@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "HX Effects",
-    "task": "Continue unresolved display and power-operation evidence, newer firmware/IR conflicts, or fresh eligible Shopee discovery; Shuffling behavior now recorded.",
+    "task": "Continue exact manufacturer evidence for unresolved fields and fresh eligible Shopee discovery; HX Effects 3.80 controller/stereo behavior now recorded.",
     "next_models": [],
     "after_queue": "Continue catalogue research; no downloads, workflows or push."
   },
@@ -63117,5 +63117,13 @@
     "page": 29,
     "scope": "Shuffling Looper parameter roles, controller assignment, reshuffle/stop/delete behavior and pitch/reverse-only setup.",
     "limits": "No installed firmware confirmation or hardware operation; parameter numeric ranges beyond octave intervals not established. Existing capacity/IR/display/power/offer qualifications remain."
+  },
+  "hx_effects_controller_routing_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "RevD firmware3.80",
+    "pages": "40–43",
+    "scope": "Stereo collapse/Legacy family behavior, automatic EXP assignments, per-switch momentary/latching, reserved MIDI CCs, clearing scope, Command Center storage/transmission/snapshot behavior.",
+    "limits": "Not installed firmware or hardware validation; no additional independent expression sockets inferred."
   }
 }

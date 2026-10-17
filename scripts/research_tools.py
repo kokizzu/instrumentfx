@@ -403,7 +403,7 @@ def main():
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-hxe-price':
-            message = 'research(line6): document HX Effects Shuffling Looper controls'
+            message = 'research(line6): qualify HX Effects controller and stereo behavior'
         if mode == 'commit-criticalmass':
             message = 'research(tchelicon): document VoiceLive 3 Extreme SysEx and global Tone limits'
         if mode == 'commit-b21u':
