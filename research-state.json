@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fender Mustang Micro original",
-    "task": "KATANA:GO partial record audited:electrical specs and physical control/EXP inventory saved;stale category/manual-access statements corrected. Next research Fender Mustang Micro original from saved Shopee leads;retain KATANA ceiling/revision/price/import gaps for follow-up.",
+    "task": "Original Mustang Micro own PR5833 manual and product evidence saved in mustang_micro_original_source_checkpoint_20261017. Next add canonical model/inventory with exact lists,USB source-only restriction,bass StudioPreamp basis and 11/12effect conflict;prices remain historical/unqualified.",
     "next_models": [
       "Fender Mustang Micro original"
     ],
@@ -56136,5 +56136,49 @@
     "added": "Electrical/converter specifications;complete published control/connector inventory supports no onboard pedal/footswitch/direct EXP socket.",
     "corrected": "Stale unresolved category and manual-access statements reconciled with subsequently saved evidence.",
     "remaining": "Full simultaneous ceiling,physical earlier revision,qualified used/new prices,IR/NAM import and desktop editor support"
+  },
+  "mustang_micro_original_source_checkpoint_20261017": {
+    "checked": "2026-10-17",
+    "model": "Fender Mustang Micro original",
+    "record_status": "Not yet added to active inventory;do not conflate with Micro Plus.",
+    "manual": {
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf",
+      "identity": "Mustang Micro PR5833;11pages;manufacturer-hosted original,not Plus.",
+      "evidence": "12amp models;12effect selections including combinations;one selected amp/effect combination. 8buttons(AMP/EQ/EFFECTS/MODIFY±),onevolume wheel,separate3-positionpower/Bluetoothslider. 5EQsettings;Modify5levels+bypass. StudioPreamp explicitly suitable for bass/acoustic. USB source-only,no return monitoring;Mac no externaldriver. Liion;USB600mAmax;4hhigh/6hlow;38.1W80H28.7Dmm plugstored51g.",
+      "access": "Browser-extracted text;no files downloaded,software installed or unit operated."
+    },
+    "product": {
+      "url": "https://intl.fender.com/products/mustang-micro",
+      "evidence": "12amps;features/highlights12effectcombinations butspecs11effectmodels;4hcontinuous;USBrecord instrument+Bluetoothsimultaneously. Rotatingplugbasscompatibilityalone not processingproof;manualStudioPreamp supplies independentbasis.",
+      "stock": "Manufacturerregionalpagesoldout;notShopeeIDstockproof."
+    },
+    "conflicts": [
+      "Productspec11effectmodels versus features/manual12selections;retain exactlists before interpreting.",
+      "ManualHarmonicTremolo combination says LargeRoom in effecttable but LargeHall in modifytable."
+    ],
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Black-Original-i.1776275.24838368984",
+        "seller": "Salomo Musik",
+        "shop": "1776275",
+        "item": "24838368984",
+        "region": "Kota Jakarta Utara",
+        "idr": 2474000,
+        "crawl": "three months",
+        "condition": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Amplug-i.191485301.26444289932",
+        "seller": "indie_musicstore",
+        "shop": "191485301",
+        "item": "26444289932",
+        "region": "Kota Depok",
+        "idr": 1374975,
+        "crawl": "three months",
+        "condition": "unverified"
+      }
+    ],
+    "offer_limits": "Historicalindexedasks checkedearlierOct17;not revalidatedthisturn. Conditions/stock/variants/bundles/vouchers/regioncosts unverified;noqualifiednewusedallocation.",
+    "next": "Add root FENDER.md canonical record and inventory/memberships from this evidence;read full effect/amp list and retain conflicts. Verify expression/display/memory/import/software gaps;commit before nextmodel."
   }
 }
