@@ -393,15 +393,15 @@ Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gi
 | Knobs / footswitches / buttons | **7 /12 /0 separate front buttons**: master,phones,aux,data encoder,3 parameter encoders. Encoder push counted once; rear power and ground-lift buttons,amp/line andrack/stomp selectors additional. [Manual,pp.4–6,40][PB-M] |
 | Display | Main **6.9-inch/176 mm color touchscreen** in manual versus advertised7-inch. Twelve **1.2-inch/30 mm monochrome OLED** strips; strip touch support **?** [Manual,p.40][PB-M], [Comparison][PB-C] |
 | Dimensions / weight | Manual **609.6 W×304.8 D×79.2 H mm,pedal fully forward;7.50 kg**. Comparison instead **599.4×284.4×73.7 mm;7.12 kg**. FAQ rounds height79 mm and agrees7.5kg. Revision/mass-basis discrepancy unresolved. [Manual,p.40][PB-M], [Comparison][PB-C], [FAQ][PB-Q] |
-| Simultaneous processing | **11 rig slots**, dual amp/cab exceptions; DSP ceiling model-dependent, exact maximum independent effects **?** [Manual,p.14][PB-M] |
+| Simultaneous processing | **11 rig slots**, dual amp/cab exceptions; Three signal layouts:series,two split/rejoin arrangements. Tails unavailable with FX loop or USB audio in2.1.2. DSP ceiling model-dependent, exact maximum independent effects **?** [Manual,pp.9–10][PB-M] [Manual,p.14][PB-M] |
 | Category choices | Own website headings: **52 amps,15 cabs,10 mics;17 distortion,11 dynamics/EQ,22 modulation,13 reverb/delay,11 expression**. Comparison older50amps/67FX. Own2.7 notes include2.6 additions absent from website lists; installed current totals remain unresolved. [Product][PB-P], [Comparison][PB-C], [Firmware,p.2][PB-F] |
 | Factory / user memory | **270 factory presets**; total user storage and factory-filled versus writable capacity **?**. File backup Mac/PC. [FAQ][PB-Q] |
 | Synth / acoustic simulation | Acoustic Sim listed; independent synth engine **?**. Bass amps include66 Flip Bass/69 Blue Line Bass; these are models, not ownership proof. [Product][PB-P] |
 | IR / NAM / captures | WAV/AIFF imports,up to192kHz/32-bit source files; storage capacity **?**. Firmware2.6 adds **two IRs in one block**. Native/converted NAM and proprietary capture loading **?**, not inferred from Prime/Core. [FAQ][PB-Q], [Firmware,p.2][PB-F] |
 | Audio/control I/O | ¼″ TS instrument in;3.5mm stereo AUX;external¼″TRS EXP;two XLR outs with ground lift;two¼″TRS mains;¼″stereo phones;two¼″sends/two returns;DIN MIDI in/out-thru;USB-B;IEC. No amp-control out per comparison. FAQ/appendix reverse send/return directions; manual rear-panel text correctly identifies sends as outputs and returns as inputs. [Manual,pp.5–6][PB-M], [Comparison][PB-C] |
 | Power / battery / USB | **100–240 V AC,50/60Hz,1.2 A IEC input rating**, not measured consumption; DC barrel polarity N/A. Battery/USB-powered operation **?** [Manual,p.40][PB-M] |
-| Editor / USB audio | **4-in/4-out,up to24-bit96kHz**,record/reamp;Windows driver,Mac driverless per FAQ. Full editor/mobile/Linux support and current OS compatibility **?**. USB file transfer is separate from editing; Mac/Windows updaters are not editors. [FAQ][PB-Q], [Comparison][PB-C] |
-| Looper / scenes / routing | Comparison **5-minute loop,50 layers,20-minute total audio**; FAQ instead **100 layers/20 minutes**, unresolved revision difference. Scenes,setlists,Song Mode andhands-free editing documented. Drums **?** [Comparison][PB-C], [FAQ][PB-Q], [Manual,contents][PB-M] |
+| Editor / USB audio | **4-in/4-out,up to24-bit96kHz**,record/reamp;Windows driver,Mac driverless per FAQ. Full editor/mobile/Linux support and current OS compatibility **?**. Live USB mode feeds computer and hardware outs; DAW/Reamp modes disable hardware outs. USB file transfer is separate from editing; Mac/Windows updaters are not editors. [Manual,p.33][PB-M] [FAQ][PB-Q], [Comparison][PB-C] |
+| Looper / scenes / routing | Comparison **5-minute loop,50 layers,20-minute total audio**; FAQ instead **100 layers/20 minutes**, unresolved revision difference. Own manual2.1.2 pp.29–30 confirms **50 layers/20 minutes**, matching comparison rather than FAQ. PRE/POST looper placement,half/double speed andlength,reverse,mute,save/load,WAV/MP3 import supported. Playback continues after leaving looper; rigs can change between layers. Unsaved-loop power-cycle retention **?**. Scenes,setlists,Song Mode,hands-free editing;drums **?** [Comparison][PB-C], [FAQ][PB-Q], [Manual,contents][PB-M] |
 
 ### Pedalboard — separate IDR offer
 
@@ -414,7 +414,7 @@ Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gi
 
 ### Pedalboard source limits
 
-Own User Guide2.1.2 read via web text,not downloaded. Conflicting dimensions,layer limits and category snapshots are retained. Own2.7 release notes were checked for the current additions and dualIR feature;full cumulative functional audit remains pending. No sibling manual fills missing fields. Next: reconcile ownfirmware category list,looper behavior/persistence,user storage,exact power consumption,current software support and condition-qualified offers.
+Own User Guide2.1.2 read via web text,not downloaded. Conflicting dimensions,layer limits and category snapshots are retained. Own2.7 release notes were checked for the current additions and dualIR feature;selected cumulative looper changes were checked;not every historical fix was transcribed. No sibling manual fills missing fields. Next: installed category verification,unsaved-loop persistence,user storage,exact power consumption,current software support and condition-qualified offers.
 
 [PB-P]: https://www.headrushfx.com/products/pedalboard/
 [PB-Q]: https://support.headrushfx.com/en/support/solutions/articles/69000801171-headrush-pedalboard-frequently-asked-questions
@@ -422,3 +422,9 @@ Own User Guide2.1.2 read via web text,not downloaded. Conflicting dimensions,lay
 [PB-C]: https://www.headrushfx.com/compare-boards.html
 [PB-F]: https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf
 [PB-O]: https://shopee.co.id/Headrush-Pedalboard-i.158413015.7543266305
+
+### Pedalboard looper and routing audit — 2026-10-17
+
+Manual2.1.2 pp.29–30 supersedes the unqualified FAQ100-layer assertion for that documented revision: **50 layers,20 minutes aggregate**. The FAQ is retained as a conflict,not erased. Insert replaces the topmost layer segment;loop-length halving is reversible. Global Rig Input can use rightFXreturn,which disables stereo return;XLR,¼″ andphones independently select rig/alternate taps (p.32). These routing options do not add microphone input or vocal eligibility. [Manual][PB-M]
+
+Own2.7 cumulative notes,p.4: feedback affects recording/overdub rather than playback;below100%,one evolving layer replaces itself;peeling it restores underlying levels,and Insert is disabled if it is topmost. Ownnotes,p.2 document two scenes per switch from2.5 andtap-tempo calculation overthree presses from2.6. These are firmware-qualified changes,not new hardware controls. [Firmware][PB-F]

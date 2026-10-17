@@ -337,7 +337,7 @@ def main():
         if mode == 'commit-g21u':
             message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
         if mode == 'commit-pedalboard':
-            message = 'research(headrush): add original Pedalboard with qualified sources and conflicts'
+            message = 'research(headrush): verify Pedalboard looper revisions and routing restrictions'
         if mode == 'commit-gigboard':
             message = 'research(headrush): reconcile Gigboard firmware categories and factory rigs'
         if mode == 'commit-pocketgt':
