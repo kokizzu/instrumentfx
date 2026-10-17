@@ -78,6 +78,7 @@ Partial record checked **2026-10-17**. Exact MK2 search-item identity;generic St
 | Editor platforms / drivers | RigManager desktopWindows/macOSUSB;mobileiOS/Android/FireOSWiFieditors. ExactcurrentOSminima,driversandmobilefeatureparityunresolved. [FAQ][ks-f];[MK2store][ks-p]. |
 | Practical features | Morphing,PerformanceMode,Looper,Tap/Tuner;**twoindependentFXloopswithstereoreturns**,instrument/lineintegration. Looper duration/mono-stereo qualifications,drumsandgaplessconstraintsunresolved. [MK2store][ks-p]. |
 | Bass capability | Manufacturer'sStageQuickStartp.7explicitlysupportsbass;currentMK2storeidentifiescompleteStagePROFILERarchitecture. Sharedbass,notfullbassalgorithmcensusorlow-endperformancecertification. [Stageguide][ks-q];[MK2store][ks-p]. |
+| Historical Stage workflow / revision limit | Manufacturer Quick Start **Rev. April 2019**, pp.15–17: Morphing moves multiple continuous parameters between Base and Morph endpoints; save the Rig to retain edits. Pedal Links are global, with controller-level feedback; listed MIDI controllers are Morph CC11, Wah CC1, Volume CC7, Pitch CC4. LOCK can retain a module across Rig changes; holding LOCK shows locked modules. This predates MK2: preserved as Stage workflow provenance, not current MK2 panel/count or firmware confirmation. The current MK2 store independently confirms Morphing, but exact current assignments still need its manual. [2019 guide](https://cdn.korn.eu/documents/product/268937_i.pdf). |
 
 ### Stage MK2 — separate IDR asking-price evidence
 

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Stage MK2",
-    "task": "Resolve exactStageMK2panel/display,memoryandcategoryarchitecturefromofficialmanual;genericStageofferrevisionunknownretainedseparately. Freshdiscoveryafterfindingscommitted.",
+    "task": "Find current manufacturer MainManual via another accessible official/distributor route;resolveMK2memory/panel and18effectaccounting.",
     "next_models": [],
     "after_queue": "Remaintechnical/marketgaps;no downloads,workflows orpush."
   },
@@ -63425,5 +63425,14 @@
     "result": "Exact-item body still titleFM9MKI withoutTurbo/Standard. Search did not resolve revision. Community-maintained wiki not used as technical authority;official manualp39establishesdifferentDSPversions.",
     "no_model_added": true,
     "remaining": "Need seller-item revision evidence;no seller contact authorized or sent."
+  },
+  "stage_historical_guide_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://cdn.korn.eu/documents/product/268937_i.pdf",
+    "identity": "Manufacturer Stage QuickStart,RevApril2019,Englishsectionpp3–25;title/copyright andcontrol/connectioncontext match Stage.",
+    "pages": "15–17",
+    "finding": "Historical Morphing endpoint/save,globalPedalLinks/MIDICC andmoduleLOCKworkflow.",
+    "limits": "PredatesMK2;not used to establish current memory,panel counts or feature changes. Officialstart→downloads/5 exposes shell,not current manual text. Community memory claims not adopted.",
+    "next": "Find current manufacturer MainManual via another accessible official/distributor route;resolveMK2memory/panel and18effectaccounting."
   }
 }
