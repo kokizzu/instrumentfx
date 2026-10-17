@@ -455,7 +455,7 @@ def main():
         if mode == 'commit-vamp2':
             message = 'research(behringer): preserve preliminary V-AMP 3 brochure conflicts'
         if mode == 'commit-bass-vamp-pro':
-            message = 'research(behringer): add separate Bass V-AMP PRO and preserve specification conflicts'
+            message = 'research(behringer): reconcile Bass V-AMP PRO factory memory'
         if mode == 'commit-bass-vamp':
             message = 'research(behringer): preserve additional qualified Bass V-AMP offer'
         if mode == 'commit-amplifi-fx100':

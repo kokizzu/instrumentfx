@@ -83,7 +83,7 @@ Checked **2026-10-17**. Separate rack model; selected manufacturer manual sectio
 | Dimensions / weight | **482.6 W ×135 D ×89 H mm**. Older v1.2 manual **approximately2.6kg**; Spanish manufacturer manual **approximately2.76kg**. Revision conflict retained. [Manual][BV-M], [Specifications][BP-S] |
 | Simultaneous blocks | Five preset ingredients: amp,cab,pre-effect,post-effect/combination,compressor. Denoiser independent. Exact algorithm ceiling **?**. [Manual][BV-M] |
 | Categories / choices | **32 amps** (16bass/8guitar/4keyboard/4acoustic), **23 cabs,16 effect groups,4 drive choices**; group count is not simultaneous count. [Manual][BV-M] |
-| Factory / user memory | **125 rewritable presets,25×5**; factory/user partition **?**. [Manual][BV-M] |
+| Factory / user memory | **125 factory-programmed,rewritable locations,25×5**;factory originals can be recalled into the same locations,not an additional125-slot user bank. [Manual][BV-M] |
 | Synth / acoustic simulation | Three-voice synth,9variants; MIDI synth. Acoustic amp/voicing not independent electric-to-acoustic proof. [Manual][BV-M] |
 | IR / NAM / capture | User IR,native NAM,converted NAM,capture **?**; factory digital/analog cab simulation alone does not establish import |
 | Audio/control I/O | Quarter-inch TS instrument;pre-DSP send/return;stereo post-DSP sends/returns;L/R TS analog outs;balanced XLR DI with ground lift;quarter-inch TRS phones;RCA and XLR digital outs;BNC wordclock;5-pin MIDI in/out-thru;IEC mains. [Specifications][BP-S] |
@@ -98,6 +98,13 @@ Checked **2026-10-17**. Separate rack model; selected manufacturer manual sectio
 |---|---:|---|
 | Sold-out used-title indexed ask | **Rp500.000** | [cahyoadi56,53553463/28809251521][BP-O],Probolinggo. Title explicitly Second;**Habis**,search cache2months,delivery12–14August,checked2026-10-17. Exact page open failed cache miss. Working condition,faults,completeness,bundle and warranty **?**; not a working-unit valuation. Voucher not deducted. |
 | Verified new offer | **?** | Not established |
+
+### Bass V-AMP PRO — memory restoration
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Memory / save and recovery | Shared manufacturer manual explicitly names **both BASS V-AMP and BASS V-AMP PRO** in chapter4,printed pp9–10. Hold a destination preset key about2seconds to save,overwriting that location;unsaved edits disappear on preset change. Single-location factory recovery recalls its original sound,which must then be saved. Full factory restoration overwrites user presets;MIDI SysEx backup is referenced in8.4.1. Last-used preset returns at power-up. This documents common model scope,not an inference from desktop-only instructions. [Manual v1.2,December2005][BV-M] |
+
 <!-- comparison evidence ends -->
 
 ### PRO provenance and practical qualifications
