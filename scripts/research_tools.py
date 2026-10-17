@@ -521,7 +521,7 @@ def main():
         if mode == 'commit-rp250':
             message = 'research(digitech): enumerate RP250 named Chorus FX choices'
         if mode == 'commit-rp90':
-            message = 'research(digitech): qualify RP90 expression targets and delay resolution'
+            message = 'fix(digitech): normalize RP90 front and rear button total'
         if mode == 'commit-ax10g':
             message = 'research(korg): qualify AX10B Japanese adapter and NR evidence'
         if mode == 'commit-g3x':

@@ -223,7 +223,7 @@ Guitar multi-effects;distinct fromRP80/RP55/BP90. Checked2026-10-17;partial. Bas
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in pedal,per-preset assignment,min/max;pre/post-delay volume,wah,Whammy,YaYa and parameters. Separate calibration preserves user presets;factory reset erases them and automatically enters calibration. External/toe-switch support unverified. | [Manual pp32–35][RP90-M] |
-| K/F/B | **0 rotary /2 footswitches /10 front buttons**, plus rear Amp/Mixer push switch. Front:four library/level,Edit pair,Value pair,Drums,Store. Text-derived;visual corroboration pending. | [Manual pp6–11][RP90-M] |
+| K/F/B | **0 rotary /2 footswitches /11 buttons total**: ten front (four library/level, Edit pair, Value pair, Drums, Store) plus rear Amp/Mixer push button. Earlier wording reported the front subtotal of ten separately; total now follows the comparison convention. Text-derived; visual corroboration pending. | [Manual pp6–11][RP90-M] |
 | Display | Two-character parameter/preset display plus LED matrix;diagonal,color,touch unverified. | [Manual pp9,32][RP90-M] |
 | Dimensions / mass | **6.5L×8.5W×2H inches;1.52lb** unit. | [Manual p36][RP90-M] |
 | Processing / category choices | **9 simultaneous**. Pickup/Wah5 choices:two pickup simulations,three wahs;compressor1;Amp/Distortion12amps+6drives+acoustic;EQ1;Gate2;ChorusFX table15 versus prose12;Delay4;Reverb3. Variations are parameter settings,not additional models. | [Manual pp21–31,36][RP90-M] |
