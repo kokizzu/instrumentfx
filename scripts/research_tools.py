@@ -345,7 +345,7 @@ def main():
         if mode == 'commit-gfx3':
             message = 'research(zoom): add GFX-3 and preserve module-count conflict'
         if mode == 'commit-rp250':
-            message = 'research(digitech): add RP250 with own manual and sold-out used ask'
+            message = 'research(digitech): enumerate RP250 categories and preserve ChorusFX gaps'
         if mode == 'commit-rp90':
             message = 'research(digitech): clarify RP90 calibration reset and tuner behavior'
         if mode == 'commit-ax10g':

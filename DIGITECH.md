@@ -166,18 +166,18 @@ Guitar multi-effects;distinct fromRP255/RP150. Checked2026-10-17;partial. Bass/v
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in pedal andtoe V-Switch,adjustable sensitivity. External support unknown. | [Manual pp39,41][RP250-M] |
+| Expression | Built-in pedal andtoe V-Switch,adjustable sensitivity;switches assigned parameter versusWah. Per-preset heel/toe range. External support unknown. | [Manual pp39,41][RP250-M] |
 | K/F/B | Four rotary,two main footswitches;separate button count pending. Toe additional. | [Manual pp2,6–9][RP250-M] |
 | Display | Preset/name/parameter display andLED matrix;technology,diagonal,color,touch unverified. | [Manual p9][RP250-M] |
 | Dimensions / mass | 8.25L×9.375W×2.125Hin;3.3lb. | [Manual p42][RP250-M] |
-| Processing / category choices | **11 simultaneous**. Pickup,wah,compression,distortion,amp/cab,EQ,gate,Chorus/FX,delay,reverb;category subtotals pending. | [Manual pp19–36,42][RP250-M] |
-| Factory / user memory | **120=60user+60factory**,user locations initially duplicate factory. | [Manual p5][RP250-M] |
+| Processing / category choices | **11 simultaneous**. Manual-derived:Pickup2,Wah3,Comp2,Distortion13;Amp20+acoustic1+Direct bypass;Cab14+Direct bypass;EQ4preset curves;Gate2;Delay5;Reverb6. EQ curves are configurations,not four independent blocks. Chorus/FX one-at-a-time;3chorus,2flanger,remaining subtotal unresolved. Phaser prose says2models but namesone;SynthTalk named inoverview without detailedentry. Direct/OFF andparameter variations excluded from algorithm totals. | [Manual pp19–36,42][RP250-M] |
+| Factory / user memory | **120=60user+60factory**,user locations initially duplicate factory. ExplicitSTORE required;patch/power changes discard unsaved edits. | [Manual pp5,17–18][RP250-M] |
 | Synth / acoustic | Dreadnaught acoustic simulator. Dedicated synthesis unverified. | [Manual pp23–24][RP250-M] |
 | I/O | ¼TSguitar,L/R¼outputs,⅛stereoAUX,⅛stereophones,USB-B,power,Amp/Mixer switch. Headphones mono whenonlyL output connected;stereo withneither/both. | [Manual pp10–11,42–43][RP250-M] |
 | Power / battery / USB | PS0913B **9VAC1.3A** adapterrating,2.5mmpin;DCpolarity inapplicable. Measured draw,battery andUSBpower unknown. | [Manufacturer FAQ][RP250-F] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified. | Unresolved |
 | Editor / software | X-Edit editor/librarian;historical requirements WindowsXP SP2/.NET2,Mac10.4+. USB2FullSpeed,2in/2out44.1kHz16/24-bit;driver/currentOS/MIDI compatibility unresolved. | [Manual pp4,11,43][RP250-M] |
-| Looper / drums / live | 60drum patterns;analog bypass. Looper,scenes,trails unverified. | [Manual pp2,42][RP250-M] |
+| Looper / drums / live | 60drum patterns plus5metronome settings;analog bypass. Delay10ms–5s,Repeat Hold;ducking/tapeWow/Flutter are X-Edit-only parameters,not extra delaymodels. Whammy moves beforeamp. Looper,scenes,trails unverified. | [Manual pp2,32,35–38,42][RP250-M] |
 
 ### Separate IDR hardware offers
 
