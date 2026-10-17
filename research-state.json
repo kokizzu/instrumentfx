@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX3000G",
-    "task": "Additional exact SECOND-title historical offer saved. Continue Shopee bass/vocal discovery andunresolved primary specifications;VE-22 driver support remains unresearched beyond index.",
+    "model": "BOSS VE-22",
+    "task": "Driver platforms/exclusions andbacking-output routing saved. Continue fresh Shopee bass/vocal discovery andremaining primaryspecifications.",
     "next_models": [],
     "after_queue": "314 active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
@@ -41878,7 +41878,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3000G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-22."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -52350,6 +52350,18 @@
       "source": "https://shopee.co.id/KORG-AX-3000-G-TONEWORKS-SECOND-i.132269522.28705630633",
       "finding": "Additional exact SECOND-title Rp1500000 Habis historical hardware ask;Alif_music_store,KabGresik. Cachedbody andwrongfood taxonomy explicitlyqualified;notlive stock orsale.",
       "remaining": "Workingcondition,authenticity,adapter/bundle,variant,warranty,deliveredtotal andcurrentnew/used stock unresolved."
+    },
+    {
+      "model": "BOSS VE-22",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://www.boss.info/global/support/by_product/ve-22/updates_drivers/bb0becd0-6de9-4d97-b9a4-61a248438fe5/",
+        "https://www.boss.info/global/support/by_product/ve-22/updates_drivers/aaafea69-64e0-45eb-9c81-6a17b2531516/",
+        "https://www.boss.info/us/support/support_news/25090811m1/",
+        "https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf"
+      ],
+      "finding": "Driver1.0.0 Win10/11 exclusions andindexedmacOS15/26support,27testing saved;AUX/USBbacking FX/DRY left-only routing clarified.",
+      "remaining": "USBchannelcounts/bitdepth,full editor,power/buspower/display andqualifiedprices unresolved."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -437,6 +437,15 @@ Original sources: [source](https://www.boss.info/global/products/ve-22/specifica
 
 Source identity:officialmanufacturer PDF,Parameter Guide ©2024 Roland revision01,15pages;model-specific support entry confirms title. Browser text inspected;no local download,installation ordevice execution.
 
+
+### VE-22 — driver platforms and backing routing,2026-10-17
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Software / Windows driver | **Driver1.0.0 supportsWindows10/11**;excludes ARM-basedPCs,virtualWindows,Windows onMac andWindows10Mobile. Driver support isnot a full patch editor. Installer/archive notdownloaded;noinstallation performed. | [Official Windows driver](https://www.boss.info/global/support/by_product/ve-22/updates_drivers/bb0becd0-6de9-4d97-b9a4-61a248438fe5/) |
+| Software / macOS driver | **Driver1.0.0** directs OS checks to Hardware&Driver matrix. Matrix updatedSep16 2026 marks **macOS15/26 Yes(Download),27 UnderTesting**;ExclusiveApplication row has dashes. This verifies dedicated-driver compatibility,not a full editor ordriver-free operation. Global matrix endpoint timedout;manufacturer US indexedtext read. | [Mac driver](https://www.boss.info/global/support/by_product/ve-22/updates_drivers/aaafea69-64e0-45eb-9c81-6a17b2531516/);[Manufacturer matrix](https://www.boss.info/us/support/support_news/25090811m1/) |
+| I/O / AUX andUSB backing output | Manualp28:backing audio fromAUX/USB reaches outputs andPHONES/LINE. MONO sums tobothL/R;STEREO preservesL/R;**FX/DRY sums backing toL only**,soR bypass feed excludes backing. USB channel counts/bitdepth remainunverified. | [Reference p28][VE22-M] |
+
 [VE22-S]: https://www.boss.info/global/products/ve-22/specifications/
 [VE22-M]: https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf
 
@@ -451,7 +460,7 @@ Checked2026-10-16;cached exact hardware pages,not live checkout/stock. Condition
 | Unresolved retail variations / Bandung Music Gallery,Bandung | Rp8.070.000–8.860.000,two variations;26–28Aug cached delivery. Variation labels/bundle not exposed;neither endpoint accepted as standalone unit price. | [394955725 /24381975794](https://shopee.co.id/Boss-VE-22-Vocal-Effect-Performer-VE22-VE-22-Efek-Vokal-i.394955725.24381975794) |
 | Unresolved indexed variations / Artech item | Indexed Rp8.070.000–8.860.000;direct reopen cache miss. Seller ID31171541 matches previously observed Artech Music,Bekasi,but current page identity/bundle/variant/stock not verified. Neither endpoint accepted as unit-price bound. | [31171541 /29802327202](https://shopee.co.id/Boss-VE-22-VE22-VE-22-Vocal-Effect-Performer-Efek-Vocal-i.31171541.29802327202) |
 
-Remaining:simultaneous ceiling/advertised39-type reconciliation,screen diagonal/touch,USB channels/bitdepth/OS/editor,USB power/DC voltage/polarity,imports,usedcondition/current stock/variation bundles. No source deleted.
+Remaining:simultaneous ceiling/advertised39-type reconciliation,screen diagonal/touch,USB channels/bitdepth/full editor,USB power/DC voltage/polarity,imports,usedcondition/current stock/variation bundles. No source deleted.
 
 ## VE-8
 
