@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**265 active model records · 32 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**266 active model records · 32 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -8,10 +8,10 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 | View | Contents |
 |---|---|
-| **[ALL-GUITAR.md](ALL-GUITAR.md)** |216 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |217 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
 | **[ALL-BASS.md](ALL-BASS.md)** |104 documented bass-capable models: 27 bass-focused plus 77 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |50 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 265 detailed models are root-canonical |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 266 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -34,7 +34,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [BOSS.md](BOSS.md) |GT-1B, GX-1B, ME-90B, VE-1, VE-2, VE-500, VE-22, VE-8, VE-20, GT-1000CORE, GX-10, GT-1, GX-1, ME-90, GX-100, GT-1000, GM-800, GT-100, ME-80, ME-70, ME-25, ME-50, ME-20B, GT-10, GT-8, ME-20, GT-6, VE-5, Pocket GT, ME-50B, GT-5, ME-30, ME-8, GT-3 |
 | [HEADRUSH.md](HEADRUSH.md) |MX5, Core, Flex Prime, Prime, Gigboard, Pedalboard, VX5 |
 | [FENDER.md](FENDER.md) |Tone Master Pro |
-| [VALETON.md](VALETON.md) |GP-200LT, GP-200JR, GP-100, GP-150, GP-200 (GP-200X variant), GP-180, GP-5, GP-50, Dapper Bass VES-2, Dapper Bass Mini MES-2, Dapper Mini MES-1, Dapper Acoustic Mini, Dapper Dark VES-3, Dapper Dark Mini, Dapper Indie |
+| [VALETON.md](VALETON.md) |GP-200LT, GP-200JR, GP-100, GP-150, GP-200 (GP-200X variant), GP-180, GP-5, GP-50, Dapper Bass VES-2, Dapper Bass Mini MES-2, Dapper Mini MES-1, Dapper Acoustic Mini, Dapper Dark VES-3, Dapper Dark Mini, Dapper Indie, Dapper VES-1 |
 | [MOOER.md](MOOER.md) |GE250, GE300, GS1000, GE100 original, GE150 original, GE200 original, GE150 Pro Li, GE100 Pro, GE100 Pro Li, GE200 Pro, GE200 Pro Li, GE150 Pro, GE150 Plus, GE150 Plus Li, GE150 Max, GE150 Max Li, GE1000, GE1000 Li, PE100, Black Truck |
 | [HOTONE.md](HOTONE.md) |Ampero One MP-80, Ampero Mini MP-50, Ampero MP-100, Ampero II MP-350, Ampero II Stage MP-380, Ampero II Stomp MP-300 |
 | [LINE6.md](LINE6.md) |POD Go, POD Go Wireless, POD Express Guitar, POD Express Bass, HX Effects, Helix LT, HX Stomp XL, HX Stomp, POD HD500, M5, M9, Pocket POD, HX One, Helix Floor, Helix Stadium XL Floor, POD HD500X, AMPLIFi FX100, POD X3 Live, POD XT Live, POD HD400 |
@@ -55,7 +55,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [SONICAKE.md](SONICAKE.md) |Matribox QME-50, Smart Box QME-20, Pocket Master QME-10, Matribox II QME-100, Matribox II Pro QME-200, Sonic Wood QCE-50, Black Hammer QCE-30, RockStage QCE-10 |
 | [M-VAVE.md](M-VAVE.md) |TANK-G, TANK-B, TANK MINI, MK-20, MK-300, TANK-PRO, ANN Blackbox, MINI-X, Pocket Amp, CUBE BABY electric, CUBE BABY AC, CUBE BABY BASS |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. All 265 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 266 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research saved in the current pass
 
@@ -79,7 +79,7 @@ All model records separate knobs/footswitches/buttons,expression,used/new IDR,si
 
 The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
 
-**Organization migration is incomplete:** 265 detailed models are root-canonical; 0 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. All 117 legacy paths are retained as compatibility redirects or JSON pointers: 13 metadata pages, 100 technical pages, one previously redirected excluded archive and three JSON snapshots. Their complete content is preserved in root documents/ledger and pinned Git history. Local navigation and original heading anchors have been audited; compatibility files remain, so the overall migration is not marked complete. Technical verification and market discovery remain incomplete.
+**Organization migration is incomplete:** 266 detailed models are root-canonical; 0 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. All 117 legacy paths are retained as compatibility redirects or JSON pointers: 13 metadata pages, 100 technical pages, one previously redirected excluded archive and three JSON snapshots. Their complete content is preserved in root documents/ledger and pinned Git history. Local navigation and original heading anchors have been audited; compatibility files remain, so the overall migration is not marked complete. Technical verification and market discovery remain incomplete.
 
 ## Scope and ownership
 

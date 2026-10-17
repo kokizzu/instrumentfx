@@ -1011,3 +1011,40 @@ The official English V01_181229 manual was read as two pages of web-rendered tex
 Chinese manufacturer page identifies an LED numeric tuner display and confirms any-footswitch tuner exit. Its section 05 names Dapper Amp Mini and describes a cab-sim switch; this is cross-model copy and does not verify such a switch on Indie. Section 07 separately describes Indie headphone cab simulation and module-dependent level, consistent with the English manual. CN V01_190322 manual timed out; no visual panel claim.
 
 [DI-C]: https://zh.valeton.net/product/dapper-indie/
+
+## Dapper VES-1
+
+Checked 2026-10-17; partial. Original Dapper,discontinued on own product page; separate from Mini,Dark,Bass and Indie. Guitar multi-effects; bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe expression unverified. [Product][VES1-P] |
+| K/F/B | Rotary/footswitch/button totals require readable panel evidence; dedicated delay tap switch documented. [Product][VES1-P] |
+| Display | Tuner indication documented; diagonal,color/touch unverified. [Product][VES1-P] |
+| Processing / categories | Overdrive,distortion,analog-voiced delay; tuner,FX LOOP and CAB SIM also listed as modules. Do not count all six as simultaneous musical effects. Full architecture pending. [Product][VES1-P] |
+| Preset memory | Factory/user/total memory unverified. [Product][VES1-P] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. CAB SIM alone is not acoustic simulation. [Product][VES1-P] |
+| I/O | FX LOOP and recording/direct-PA CAB SIM selector documented; full socket sizes,balancing and headphone path unresolved. [Product][VES1-P] |
+| Power / battery / USB | 9V DC center-negative;85mA consumption. Own product says supply included; exact seller bundle unverified. Barrel,battery/USB operation unknown. [Product][VES1-P] |
+| Dimensions / mass | 320W×65D×42Hmm;650g. [Product][VES1-P] |
+| IR / NAM / capture | CAB SIM documented; user IR/native NAM/converted NAM/capture import unverified. [Product][VES1-P] |
+| Editor / platforms | Editor/updater platforms unverified. [Product][VES1-P] |
+| Live / delay | Tap tempo; maximum1000ms delay. Looper/drums/scenes unverified. [Product][VES1-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp1.425.000**,Tomzone Music,shop821383657/item23453728698,Kota Depok;indexed last-month crawl,**Habis**. Checked2026-10-17;historical ask,not live checkout or stock. | [Item][VES1-O] |
+
+<!-- comparison evidence ends -->
+
+No condition-confirmed used/new allocation. Full Set title does not verify included adapter/case or variant;working state,authenticity,warranty,shipping/tax/vouchers unresolved.
+
+Official Dapper_Manual_EN_V01_160111 resolves to2-page PDF without extracted text; no visual inspection or download. Product evidence used here only. Third-party reverb/bass-feature claims were not adopted: exact official page lists OD/distortion/delay plus tuner/loop/cab functions.
+
+[VES1-P]: https://www.valeton.net/product/dapper/
+[VES1-M]: https://www.valeton.net/download/172/dapperdiscontinued/18458/dapper_manual_en_v01_160111-2.pdf
+[VES1-O]: https://shopee.co.id/Valeton-Dapper-VES-1-Effect-Strip-Full-Set-i.821383657.23453728698

@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 265,
+  "active_model_count": 266,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 265,
+  "canonical_root_model_count": 266,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "265 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded; all partial. MP-3 shared guitar/bass.",
+  "count_reconciliation": "266 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded;all partial. Original Dapper VES-1 guitar record added.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton Dapper VES-1",
-    "task": "MP-3 V3/support evidence saved; control/category gaps deferred pending stronger readable own-model source. Verify queued VES-1 exact Shopee offer and manufacturer manual, add distinct root record and guitar comparison, commit before next model.",
+    "task": "Dapper VES-1 partial record added;next inspect readable own-manual text for controls,loop position/cab routing and delay behavior; preserve unknowns and exact Habis offer.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery;preserve prior technical/price gaps;no downloads/workflows/push."
   },
@@ -23878,7 +23878,8 @@
       "Dapper Acoustic Mini",
       "Dapper Dark VES-3",
       "Dapper Dark Mini",
-      "Dapper Indie"
+      "Dapper Indie",
+      "Dapper VES-1"
     ],
     "VING": [
       "Flybro FB-100"
@@ -24022,7 +24023,8 @@
       "Dapper Acoustic Mini",
       "Dapper Dark VES-3",
       "Dapper Dark Mini",
-      "Dapper Indie"
+      "Dapper Indie",
+      "Dapper VES-1"
     ],
     "MOOER.md": [
       "GE250",
@@ -24327,7 +24329,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 216,
+      "record_count": 217,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41290,10 +41292,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 265,
-    "canonical_root_models": 265,
+    "unique_brand_model_pairs": 266,
+    "canonical_root_models": 266,
     "legacy_only_models": 0,
-    "guitar_view_models": 216,
+    "guitar_view_models": 217,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41500,6 +41502,7 @@
       "Valeton::Dapper Dark VES-3",
       "Valeton::Dapper Dark Mini",
       "Valeton::Dapper Indie",
+      "Valeton::Dapper VES-1",
       "VING::Flybro FB-100",
       "Zoom::G1 FOUR",
       "Zoom::G1X FOUR",
@@ -43174,6 +43177,13 @@
     },
     "Valeton::Dapper Indie": {
       "link": "VALETON.md#dapper-indie",
+      "source_files": [
+        "VALETON.md"
+      ],
+      "finding_files": []
+    },
+    "Valeton::Dapper VES-1": {
+      "link": "VALETON.md#dapper-ves-1",
       "source_files": [
         "VALETON.md"
       ],
@@ -55645,5 +55655,12 @@
     "saved": "V3 eight amp additions, Touch Wah, Mono Octave; metronome/tuner copy mismatch; JamTrack preset events; regional exact-model firmware separation.",
     "deferred": "Panel totals/expression/display and full category counts require readable own-model diagrams/catalogue; no repeated screenshot claims. Existing IR allocation conflict unresolved.",
     "next": "Proceed queued Dapper VES-1; MP-3 remains partial with all gaps retained."
+  },
+  "dapper_ves1_checkpoint_20261017": {
+    "added": true,
+    "product": "https://www.valeton.net/product/dapper/",
+    "manual": "https://www.valeton.net/download/172/dapperdiscontinued/18458/dapper_manual_en_v01_160111-2.pdf",
+    "manual_access": "2-pagePDF,no extracted text;no download/visual verification.",
+    "remaining": "Control counts/expression/display,completeIO/routing,simultaneous architecture/memory,delay minimum,barrel/battery/USB,IR/editor,condition-specific prices and bass/vocal suitability."
   }
 }
