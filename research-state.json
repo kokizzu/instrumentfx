@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 221,
+  "active_model_count": 222,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 221,
+  "canonical_root_model_count": 222,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "221 unique active/root-canonical models; zero legacy-only. POD XT Live adds guitar and conditional licensed-bass membership, not vocal or a second Bass PODxt Live model. Six specialist archives excluded.",
+  "count_reconciliation": "222 unique active/root-canonical models; zero legacy-only. POD HD400 adds guitar and bass membership on own Flash2.0 Flip Top evidence; no vocal membership. Six specialist archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD HD400",
-    "task": "POD XT Live recorded separately with optional Bass Expansion condition. Next own HD400 documentation using exact SadewaMusikAudio item171167271/21985664004 from discovery_line6_legacy_live_20261017. Related XT/X3/HD500/300 keywords do not identify variants.",
+    "model": "Bass/vocal Shopee discovery",
+    "task": "HD400 recorded separately with own Flash2.0 bass capability. Saved Line6 legacy queue exhausted. Resume new exact bass/vocal hardware discovery; avoid repeated accessory and unresolved mixed-shop hits.",
     "next_models": [],
-    "after_queue": "Resume exact bass/vocal discovery and unresolved fields; no downloads/workflows."
+    "after_queue": "Resolve technical gaps and continue lossless legacy consolidation; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4789,6 +4789,17 @@
       ],
       "finding": "Own v3/RevB control and routing evidence. 9 rotary/11foot/7buttons;128 writable memories with contradictory factory/bank wording. Bass support conditional on optional license; exact sold-out ask not condition-qualified.",
       "remaining": "Power/body/control image, category totals/firmware/license availability,memory fill,editor/display and qualified prices."
+    },
+    {
+      "model": "Line 6 POD HD400",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://line6.com/legacy/podhd400",
+        "https://kb.line6.com/macos-11-big-sur-silicon-m1-chip-compatibility"
+      ],
+      "finding": "Own HD300/400 Flash2.0 guide explicitly supports Flip Top bass. Revision-qualified category counts, stereo loop,24s mono looper,USB/L6 LINK restriction; handbook12/9/6 controls. Cached sold-out ask not condition-qualified.",
+      "remaining": "Power/body/display/control image; simultaneous maximum,firmware reconciliation,current software,IR/NAM/capture and qualified prices."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23477,7 +23488,8 @@
       "POD HD500X",
       "AMPLIFi FX100",
       "POD X3 Live",
-      "POD XT Live"
+      "POD XT Live",
+      "POD HD400"
     ],
     "MOOER": [
       "GE100 original",
@@ -23733,7 +23745,8 @@
       "POD HD500X",
       "AMPLIFi FX100",
       "POD X3 Live",
-      "POD XT Live"
+      "POD XT Live",
+      "POD HD400"
     ],
     "ZOOM.md": [
       "G11",
@@ -23936,14 +23949,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 183,
+      "record_count": 184,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 89,
+      "record_count": 90,
       "bass_focused_record_count": 21,
-      "shared_bass_capable_count": 68,
+      "shared_bass_capable_count": 69,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -40839,18 +40852,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 221,
-    "canonical_root_models": 221,
+    "unique_brand_model_pairs": 222,
+    "canonical_root_models": 222,
     "legacy_only_models": 0,
-    "guitar_view_models": 183,
+    "guitar_view_models": 184,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
     "vocal_view_models": 31,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 89,
-    "bass_shared_models": 68,
+    "bass_view_models": 90,
+    "bass_shared_models": 69,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -40874,7 +40887,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD HD400."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -40943,6 +40956,7 @@
       "Line 6::AMPLIFi FX100",
       "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
+      "Line 6::POD HD400",
       "MOOER::GE100 original",
       "MOOER::GE150 original",
       "MOOER::GE150 Pro Li",
@@ -41107,6 +41121,7 @@
       "Line 6::AMPLIFi FX100",
       "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
+      "Line 6::POD HD400",
       "MOOER::GE1000",
       "MOOER::GE1000 Li",
       "MOOER::GE250",
@@ -41188,6 +41203,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Line 6::POD HD400": "Own HD300/400 Advanced Guide RevA for Flash2.0 lists Flip Top bass amp and115 Flip Top bass cab,pp5•9–11. [Official guide](https://line6.com/data/6/0a06434df9be5005ac8bcc52f/application/pdf/POD%20HD300%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf).",
     "Line 6::POD XT Live": "Conditional: manufacturer Bass Expansion listing explicitly includes PODxt Live and adds28 bass amps/22 cabinets. Optional authorization required; seller license and current activation unverified. [Manufacturer listing](https://shop-us.line6.com/standard-model-packs/bass-expansion-pack/).",
     "Line 6::POD X3 Live": "Own Live product documentation explicitly lists bass amp/cab models and instrument input. [Product](https://line6.com/legacy/podx3live?locale=en_US).",
     "Behringer::Bass V-AMP PRO": "Own manufacturer manual explicitly covers rack PRO for bass, acoustic/electric guitar and keyboards, with its own rack I/O columns. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf).",
@@ -41863,6 +41879,13 @@
     },
     "Line 6::POD XT Live": {
       "link": "LINE6.md#pod-xt-live",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": []
+    },
+    "Line 6::POD HD400": {
+      "link": "LINE6.md#pod-hd400",
       "source_files": [
         "LINE6.md"
       ],
@@ -50008,6 +50031,10 @@
     {
       "model": "Line 6 POD XT Live",
       "task": "Verify exact power/body, complete per-category choices and simultaneous effects; reconcile32/36/16bank and64/80factory wording across manual sections. Confirm installed license/current activation and software/display/USB details."
+    },
+    {
+      "model": "Line 6 POD HD400",
+      "task": "Verify body/polarity/barrel/draw,control image/display,simultaneous maximum and firmware counts,current software/USB/MIDI,IR/NAM/capture and condition-qualified offers."
     }
   ],
   "discovery_cross_brand_bass": {

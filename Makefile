@@ -1511,3 +1511,7 @@ research-commit-x3live:
 .PHONY: research-commit-xtlive
 research-commit-xtlive:
 	python3 scripts/research_tools.py commit-xtlive
+
+.PHONY: research-commit-hd400
+research-commit-hd400:
+	python3 scripts/research_tools.py commit-hd400

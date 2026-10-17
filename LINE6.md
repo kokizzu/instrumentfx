@@ -1309,3 +1309,50 @@ Remaining: power label/dimensions/weight,control image,precise simultaneous effe
 [XTL-PWR]: https://kb.line6.com/line-6-four-button-stompbox-pedal-faqs
 [XTL-G]: https://kb.line6.com/getting-started-with-gearbox-amp-effect-modeling-software
 [XTL-F]: https://kb.line6.com/pod-farm-1-faq
+
+## POD HD400
+
+Checked **2026-10-17**; partial. Discontinued floor multi-effects, distinct from HD300, HD500 and HD500X. Guitar and bass membership: its own Flash 2.0 guide documents the Flip Top bass amp/cab. No vocal membership established.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | Built-in toe-switched expression; external Pedal2, including EX-1. Wah/volume/Pitch Glide assignments. [Guide][HD4-M], pp2•4,6•8 |
+| Rotary / footswitches / buttons | **12 / 9 / 6**, derived from handbook inventory:11 top rotaries plus rear Master; A–D,Mode,Loop,Tap,Bank up/down; FX Only,Save,four navigation directions. Encoder push,toe,rear toggles additional. Image corroboration pending. [Handbook][HD4-Q] |
+| Display | Main LCD and bank display; diagonal,color,touch,resolution unverified. [Handbook][HD4-Q] |
+| Dimensions / weight | **? / ?** Primary unit measurements pending; no case or sibling dimensions substituted. |
+| Simultaneous processing / routing | FX1/2/3 plus separate reverb,gate,wah,volume and amp/cab; pre/post routing. Total simultaneous maximum unverified. Global FX Only bypasses amp/cab/mic. [Guide][HD4-M], chapters2,4–6 |
+| Categories / choices | Derived Flash2.0 table counts: **48 FX1** (21 Gain,17 Various,10 under Pitch), **18 FX2** (9 Mod,5 Filter,4 Trem), **19 FX3** (10 Delay,5 Tape,4 Sweep), **9 reverb,8 wah**. Names group heterogeneous algorithms; do not add into a simultaneous-block count. Amp table:16 knob-accessed plus14 edit-only entries = **30**, including Flip Top; **17 cabinets** excluding None;8 guitar/5 bass mic choices. Revision-qualified, not installed-firmware proof. [Guide][HD4-M], pp5•4,5•8–11,6•1–18 |
+| Historical count conflict | Manufacturer FAQ advertises16 amps and90 HD400 effects; older FAQ totals are not substituted for Flash2.0 tables. Full library reconciliation open. [FAQ][HD4-F] |
+| Factory / user / total presets | **128 overwriteable slots**,32×4; handbook says minimum128 factory presets. Factory and user are not additive capacities. [Guide][HD4-M], chapter3; [Handbook][HD4-Q] |
+| Synth / acoustic simulation | Attack Synth,Synth String,Growler,Synth-O-Matic documented. Dedicated acoustic simulator unverified. [Guide][HD4-M], p6•3 |
+| IR / NAM / capture | Factory cab modeling established; user IR,native NAM,converted NAM and proprietary capture loading individually unverified. |
+| Audio / control I/O | Guitar in; CD/MP3 in; unbalanced quarter-inch L/Mono,R; balanced XLR L,R with ground lift; phones; stereo send/return pairs; Pedal2; USB; L6 LINK; power. L6 LINK is proprietary audio/control, not microphone input. [Handbook][HD4-Q] |
+| USB / audio restrictions | Stereo record/playback,24-bit,native48k with rate conversion. **Active L6 LINK mutes USB audio.** MIDI SysEx backup documented; general CC support unverified. [Guide][HD4-M], chapters8,B |
+| Power / battery / USB | Rear label **9 V DC,2.5 A minimum**; supply capacity is not measured draw. Unplug to turn off. Polarity,barrel,battery and USB-powered operation unverified. [Handbook][HD4-Q] |
+| Editor / platforms / drivers | **POD HD400 Edit v2.0**, historical Windows/Mac editor/librarian; Monkey updater separate. Current Windows/Intel Mac versions unverified. Manufacturer lists **HD300/400 as not receiving Apple Silicon support**. [Edit guide][HD4-E]; [Compatibility][HD4-C] |
+| Looper / practical features | **24-second mono looper**,overdubs,pre/post. Stereo effects loop,Line/Stomp levels; empty enabled loop can mute signal. Drums,scenes,spillover unverified. [Guide][HD4-M], chapters2,7 |
+| Output modes | Live/Studio/Dual; Dual sends live to unbalanced and studio to balanced outputs, not two independent amp chains. [Handbook][HD4-Q] |
+| Used IDR | **?** Saved sold-out hardware ask lacks sale-condition evidence. |
+| New IDR | **?** No condition-qualified new offer established. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee evidence
+
+Checked **2026-10-17**: [SadewaMusikAudio,shop171167271/item21985664004](https://shopee.co.id/LINE-6-POD-HD-400-EFEK-DIGITAL-HD400-EFX-MULTIEFEK-KOLEGA-XT-X3-LIVE-HD500-300-HD300-i.171167271.21985664004), Kabupaten Bantul: **Rp2,200,000; indexed Habis**. Two-week index; October2–3 delivery stale; direct retrieval cache miss. Sale/working condition,selected variant,adapter/bundle,warranty,current stock,shipping/tax,voucher and final total unknown. Late-delivery compensation is not a discount. Related XT/X3/HD500/HD300 title keywords are not variants or additional offers. Not a completed sale or qualified used/new range.
+
+### Source identity and remaining verification
+
+Manufacturer legacy page links its own HD400 handbook,Edit guide and shared HD300/400 Advanced Guide. The Advanced Guide is RevA,©2012,for Flash2.0 or later and explicitly applies to both models except marked differences. Derived table counts include HD400-only starred entries; do not assign them to HD300. The handbook mirror reproduces manufacturer document40-00-0242 RevC; original CDN retrieval failed. Mirror-generated FAQ content is not evidence. Selected text sections inspected; no complete manual or visual-panel audit claimed. No files,software,firmware or dependencies downloaded or executed.
+
+Remaining: verify body/polarity/barrel/draw,control image,screen,maximum simultaneous effects,firmware/count reconciliation,precise connector sizes,USB/MIDI/editor compatibility,IR/NAM/capture,drums/scenes and condition-qualified prices. Vintage Pre is an algorithm,not proof of a mic input or vocal membership.
+
+[HD4-P]: https://line6.com/legacy/podhd400
+[HD4-M]: https://line6.com/data/6/0a06434df9be5005ac8bcc52f/application/pdf/POD%20HD300%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf
+[HD4-Q]: https://www.manualshelf.com/manual/line-6/pod-hd400/quick-start-manual-english.html
+[HD4-QO]: https://line6.com/data/6/0a060b316ac34f05938560c41/application/pdf/POD%20HD400%20Quick%20Start%20Guide%20-%20English%20%28%20Rev%20C%20%29.pdf
+[HD4-E]: https://l6c-acdn2.line6.net/data/6/0a06434dfd3f5005ada360213/application/pdf/POD%20HD400%20Edit%20Pilot%27s%20Guide%20%28%20Rev%20A%20%29.pdf
+[HD4-F]: https://kb.line6.com/pod-hd300-400-500-amp-model-and-fx-list
+[HD4-C]: https://kb.line6.com/macos-11-big-sur-silicon-m1-chip-compatibility
