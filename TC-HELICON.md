@@ -561,6 +561,20 @@ Checked2026-10-18 against indexed [own manufacturer manual p14][PVK-O]. No softw
 | Harmony / MIDI keyboard split | Notes andNaturalPlay modes canaccept harmony-guidance notes **above orbelow asetsplitpoint**; notesoutside theselectedrange arerejected. HoldingSET withsplitnote then asecondnote setsdirection/transposition. This filtersincomingMIDIguidance,not keyboardaudio or asecondvocalprocessingchain. |
 | I/O / MIDI split transposition qualifications | Asecondnote **onesemitoneabove/below** selects above/below splitwithnotransposition. Manualalso givesC4→C2 above-split andC4→C6 below-split examples. Extractedchart hasambiguousX5/X6 entries; fullmapping andrange remainunverified. **RPN0 controlsPitchBendSensitivity**; not anadditionalharmonyvoice or proof ofMIDIClock support. Existingtempo/clock wording remainsabove. |
 
+
+### PERFORM-VK — remote configuration
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / MIDI receive channel | Hold SET and play a note on the connected MIDI keyboard; that note’s transmit channel becomes the receive channel. Persistence is not specified in this passage. | [MIDI Implementation][PVK-M] |
+| External control / footswitch assignments | Switch-3 defaults to presets 1–3; Switch-6 adds Harmony, Reverb and Echo on switches 4–6. Hold a footswitch, press the desired unit button, then release both to assign. TRIM, +48V, headphone level and Lock/Mute are excluded; TALK is assignable. | [Switch3/Switch6 section][PVK-M] |
+| External control / microphone modes | Mic Control needs +48V. Hold 48V with 1 to disable, 2 for MP-75 or 3 for MP-76. MP-75 defaults to preset cycling; hold its button and press a unit button to reassign. MP-76 defaults: top Harmony, left preset1, right preset2, bottom preset3. MP-75 mode on MP-76 enables only its top button. Microphone buttons do not add processor footswitches. | [Mic Control section][PVK-M] |
+
+### Additional condition-unverified IDR offer
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unknown | **Rp3,999,000; Habis**, limitless__store, Kota Jakarta Pusat; shop95687096/item4506813865. Checked2026-10-18; month-old search index, direct open failed. “Garansi Original” is a listing title, not verified warranty coverage. Condition, working state, revision, variant and adapter/bundle unknown. Two-hour arrival text is stale; Rp20,000 late compensation is not discount. Shipping, tax, checkout and current stock unverified. | [Indexed exact item](https://shopee.co.id/TC-Helicon-Perform-VK-Garansi-Original-i.95687096.4506813865) |
 <!-- comparison evidence ends -->
 
 ## PERFORM-VG

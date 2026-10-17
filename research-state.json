@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon PERFORM-V",
-    "task": "Analog electrical limits, remote restrictions and two exact cached asks saved. Next fresh Shopee discovery and primary model gap resolution. PERFORM-V current product-page conflicts, dimensions, power draw/polarity and USB audio remain unresolved.",
+    "model": "TC-Helicon PERFORM-VK",
+    "task": "MIDI channel selection, VK-specific remote defaults/exclusions and qualified limitless ask saved. Next fresh Shopee model discovery and primary technical gap work. VK body/mass, control inventory, power polarity/draw and manual conflicts remain unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-V."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-VK."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57407,6 +57407,15 @@
         "https://www.bhphotovideo.com/lit_files/1188880.pdf",
         "https://shopee.co.id/TC-Helicon-Perform-V-Vocal-Effects-Processor-i.32743136.24781414967",
         "https://shopee.co.id/TC-Helicon-Perform-V-vocal-processor-i.270383239.43054250870"
+      ]
+    },
+    {
+      "model": "TC-Helicon PERFORM-VK",
+      "checked_date": "2026-10-18",
+      "finding": "Own manufacturer manual mirrored text confirms MIDI receive-channel learning and VK-specific remote foot/mic defaults and assignment exclusions. Official PDF still502. Fresh Shopee repeats three existing asks; limitless95687096/4506813865Rp3.999mHabis promoted from ledger into comparison with month index/direct cache miss and20kcompensation qualifications; condition unknown.",
+      "sources": [
+        "https://www.manualslib.com/guide/3106539/tc-helicon-perform-vk-ultimate-mic-stand-mount-vocal-processor-manual.html",
+        "https://shopee.co.id/TC-Helicon-Perform-VK-Garansi-Original-i.95687096.4506813865"
       ]
     }
   ],

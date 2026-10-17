@@ -402,7 +402,7 @@ def main():
         if mode == 'commit-perform-vg':
             message = 'research(tc-helicon): add qualified PERFORM-VG preorder observation'
         if mode == 'commit-perform-vk':
-            message = 'research(tc-helicon): qualify Perform VK keyboard split and transpose scope'
+            message = 'research(tc-helicon): qualify Perform VK remote defaults and sold-out ask'
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): qualify PERFORM-V analog limits remote assignments and asks'
         if mode == 'commit-dapper-indie':
