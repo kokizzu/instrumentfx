@@ -1795,3 +1795,7 @@ research-commit-fx20:
 .PHONY: research-commit-fx150b
 research-commit-fx150b:
 	python3 scripts/research_tools.py commit-fx150b
+
+.PHONY: research-commit-pockrock
+research-commit-pockrock:
+	python3 scripts/research_tools.py commit-pockrock

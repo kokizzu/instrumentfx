@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 331,
+  "active_model_count": 332,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 331,
+  "canonical_root_model_count": 332,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "331 unique active/root-canonical;0legacy-only;37brands;sixexcluded;allpartial.",
+  "count_reconciliation": "332 unique active/root-canonical;0legacy-only;38brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee discovery",
-    "task": "FX150b category census, IR conversion qualifications and editor listings saved. Resume fresh Shopee brand/series search for missing eligible hardware; do not repeat failed panel screenshots unchanged.",
+    "model": "PockRock",
+    "task": "Verify original manual/panel and effect choices;exact Shopee ask and partial root record saved. Then resume Shopee series discovery.",
     "next_models": [],
-    "after_queue": "331 active; technical,market,ownership,migration incomplete. No downloads/workflows/push."
+    "after_queue": "332 active,38 brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24487,6 +24487,9 @@
       "RD5",
       "RC5",
       "DC5"
+    ],
+    "Ammoon": [
+      "PockRock"
     ]
   },
   "root_brand_content": {
@@ -24894,11 +24897,14 @@
       "RD5",
       "RC5",
       "DC5"
+    ],
+    "AMMOON.md": [
+      "PockRock"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 278,
+      "record_count": 279,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41966,10 +41972,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 331,
-    "canonical_root_models": 331,
+    "unique_brand_model_pairs": 332,
+    "canonical_root_models": 332,
     "legacy_only_models": 0,
-    "guitar_view_models": 278,
+    "guitar_view_models": 279,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -42029,7 +42035,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume PockRock."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42310,7 +42316,8 @@
       "Mosky::SOL918",
       "Mosky::RD5",
       "Mosky::RC5",
-      "Mosky::DC5"
+      "Mosky::DC5",
+      "Ammoon::PockRock"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -45117,6 +45124,13 @@
       "link": "MOSKY.md#dc5",
       "source_files": [
         "MOSKY.md"
+      ],
+      "finding_files": []
+    },
+    "Ammoon::PockRock": {
+      "link": "AMMOON.md#pockrock",
+      "source_files": [
+        "AMMOON.md"
       ],
       "finding_files": []
     }
@@ -66120,6 +66134,25 @@
       "Full electrical I/O",
       "Firmware/editor compatibility",
       "Condition-qualified prices"
+    ]
+  },
+  "pockrock_20261018": {
+    "status": "partial",
+    "manual": [
+      "https://www.manualslib.com/manual/2585157/Ammoon-Pockrock.html",
+      "https://www.manualslib.com/manual/2585157/Ammoon-Pockrock.html?page=2"
+    ],
+    "shopee": "https://shopee.co.id/Efek-Gitar-Multi-Ammoon-Pockrock-Pock-Rock-Portable-Guitar-Effects-Multi-Efek-Pedal-i.19700013.18960045579",
+    "limits": [
+      "Manufacturer support inaccessible",
+      "Mirror original manual revision unprinted",
+      "Variant price mapping unresolved",
+      "Cache location conflict"
+    ],
+    "excluded_search_results": [
+      "RP350/RP355 adapter is accessory",
+      "FF20 dedicated looper/drum not active guitar multi-effects",
+      "FX11/Tone Go searches no exact hardware hit; not absence proof"
     ]
   }
 }
