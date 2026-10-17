@@ -276,10 +276,10 @@ Checked 2026-10-17. Partial guitar multi-effects record; distinct from LE/ST/SE.
 | Expression | Built-in;full-forward activation toggles assigned effect except volume. External EXP/toe mechanism unknown. |
 | Controls | **15 rotary /6 footswitches /12 panel buttons**, derived from numbered manual text. Rotary:13top+2rear;foot:program1–4+BankUp/Down. Pedal activation and2rear switches separate;not visually audited. |
 | Display | Bank/value display;diagonal,color,touch unknown. |
-| Processing / choices | **33amps,11cabinets;45effects:26pedal(11stand-alone+4Pedal1+11Pedal2),11modulation,4delay,3reverb,1NR**. Up to9simultaneous includingNR/volume. Eleven stand-alone pedals **replace amp**,not ordinary single-function hardware. |
+| Processing / choices | **33amps,11cabinets;45effects includingNR**:26pedal(11stand-alone+4Pedal1+11Pedal2),11modulation,4delay,3reverb,1NR. Own product page calls this **44effects+1NR**;same subtotal basis. Up to9simultaneous includingNR/volume. Eleven stand-alone pedals **replace amp**,not ordinary single-function hardware. |
 | Presets | **100factory+100editableuser=200**. |
 | Synth / acoustic | **Pedal2 ACOUSTIC converts electric to acoustic-guitar timbre**;single-coil neck pickup recommended. TECHNO FUZZ combines distortion with synth-like sounds;not proof of a general synthesizer engine. |
-| Dimensions / weight | **394W×238D×82H mm;3kg**. |
+| Dimensions / weight | E1 manual: **394W×238D×82H mm;3kg**. Own product page: **394W×238D×72H mm;3kg**. Height conflict unresolved;not averaged. |
 | I/O | Guitarinput,stereo miniAUX,shared stereo/monoOUTPUT/PHONES,USB-B,DC12V. Two1-inch speakers,approx0.3W×2;output plug mutes speakers. No externalEXP/MIDI-DIN/FXloop in rear inventory. |
 | Power | **12V DC,700mA consumption**;polarity symbol unread. Battery/USBpower unknown. |
 | USB / software | USB audio and **Windows/Mac librarian** documented;dated support limits below. Windows audio requiresASIOdriver. USB playback bypasses effects. Full editor/currentOS compatibility unknown;driver≠editor. |
@@ -315,3 +315,10 @@ Checked 2026-10-17. The [official Windows chart,2023-02-20](https://voxamps.com/
 The [official Mac chart,2020-06-19](https://voxamps.com/wp-content/uploads/2020/06/Mac_CompatibilityChart-VOX_en_20200619.pdf) lists EX USB audio,USB MIDI andSound Librarian as Yes on **macOS10.12/10.13/10.14**, and **End Of Support on10.15 Catalina**. Librarian has an unsigned-certificate qualification. The chart’s general Apple-standard-driver advice does not override EX’s model-specific end-of-support rows. Newer macOS/Apple Silicon support remains unverified.
 
 This verifies a **program librarian**, not acomplete parameter editor. A third-party driver database surfaced newer generic driver packages;these were not downloaded or accepted as model/application support evidence. Power polarity remains unread.
+### ToneLab EX — product-page reconciliation
+
+Checked 2026-10-17 against the [own VOX product page](https://voxamps.com/product/tonelab-ex/),SKU TONELABEX,marked legacy/no longer produced. That label does not prove absence of Indonesian stock.
+
+The page lists **394W×238D×72H mm**, while E1 p39 lists **394W×238D×82H mm**. Both give3kg. Preserve the10mm height disagreement;no measured unit orrevision explanation established. Its **44 effect types plus1 noise reduction** reconcile with E1’s45includingNR;TotalEqualizer is listed separately andavailable only inLINE mode. Its0.6W speaker figure agrees arithmetically with the manual’sapprox0.3W×2,not anadditional output.
+
+The page exposes generic VOX2ch Windows audio-driver2.0.0 notes,including2in/2out,44.1kHz,24-bit device audio and32-bit application transport. Without anexplicit exact-model driver applicability statement,these are not promoted to verified ToneLabEX interface specifications ornew librarian compatibility. Product Downloads currently resolves to the homepage in the web link extraction;no setup guide orsoftware fetched.

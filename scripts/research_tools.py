@@ -533,7 +533,7 @@ def main():
         if mode == 'commit-stomplab2b':
             message = 'research(vox): include qualified StompLab 2B historical offer in bass comparison'
         if mode == 'commit-tonelab-se':
-            message = 'research(vox): qualify ToneLab EX librarian platform support'
+            message = 'research(vox): preserve ToneLab EX height conflict and reconcile effect totals'
         if mode == 'commit-tonelab-st':
             message = 'research(vox): include qualified ToneLab ST historical offer in comparison'
         if mode == 'commit-tonelab-le':

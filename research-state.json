@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX ToneLab EX",
-    "task": "ToneLabEX Windows/Mac librarian support saved with2023Windows and2020Mac EOSqualifications;full editor/currentOS andpowerpolarity unresolved. Next seek exact original librarian setup manual orcontinue Shopee discovery;do notadoptgenericdriverdatabaseclaims.",
+    "task": "ToneLabEX ownpage reconciled44+NR1 andspeakerpower;72vs82mm height conflict retained. Setupguide not found andgenericdriver notes unallocated. Next resume Shopee brand/series hardware discovery;powerpolarity/currentOS/editor remainunknown.",
     "next_models": [],
     "after_queue": "278partialmodels;continue fullfieldverification andShopeediscovery;all117legacy paths accounted for,butcompatibilitypathsremain.No downloads/workflows/push."
   },
@@ -56905,5 +56905,13 @@
     "mac_source": "https://voxamps.com/wp-content/uploads/2020/06/Mac_CompatibilityChart-VOX_en_20200619.pdf",
     "mac": "EXaudio/MIDI/librarianYes10.12/13/14;EOS10.15;librarianunsignedcertificatequalification",
     "qualification": "Dated charts;notcurrentOS guarantee,notfull editorproof;genericthirdpartydriverdatabase rejected asapplication support evidence. No software downloaded."
+  },
+  "tonelab_ex_product_conflict_20261017": {
+    "source": "https://voxamps.com/product/tonelab-ex/",
+    "identity": "SKU TONELABEX legacy page",
+    "dimensions": "Page394W238D72H vsE1manual394W238D82H;3kgagree;no revisionoractualmeasurement",
+    "counts": "44effects+NR1=manual45includingNR;TotalEQseparateLINEonly;0.6Wmatches0.3Wx2",
+    "software": "GenericVOX2chaudiodriver2.0.0notesnotexactmodelapplicability;no interfacebitdepth/channelclaim adopted",
+    "access": "Original setupguide searches no result;ProductDownloads link extracts homepage;no download"
   }
 }
