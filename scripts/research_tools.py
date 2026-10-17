@@ -480,7 +480,7 @@ def main():
         if mode == 'commit-708ii':
             message = 'research(zoom): reconcile 708II category counts and qualify hold delay'
         if mode == 'commit-707ii':
-            message = 'research(zoom): reconcile 707II effect counts and separate sampler from hold delay'
+            message = 'research(zoom): qualify 707II card storage and sampler restrictions'
         if mode == 'commit-ax30g':
             message = 'research(korg): complete AX100G pedal choices and adapter compatibility'
         if mode == 'commit-rp155':

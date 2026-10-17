@@ -2483,6 +2483,14 @@ Checked **2026-10-17**, partial. Separate guitar model from GFX-707 and bass708I
 |---|---|
 | **Used Rp500,000** | [joyokusumowijoyo, item27879131/28968736038][707-O], Kabupaten Majalengka. Title explicitly bekas/second/normal; working condition is seller wording, not inspection. **Habis**, cached last month, delivery26–27August. Exact page retrieved. Bundle, adapter, SmartMedia, warranty and present stock **?**. Late-delivery voucher up to Rp10,000 not deducted. |
 | New IDR | **?**; no qualified new offer established. |
+
+### 707II — card storage and sampler limits
+
+| Field | Manufacturer manual evidence / qualification |
+|---|---|
+| Memory / SmartMedia groups | **Up to five patch groups and 60 samples per card**, manual p28. ALSAVE stores the entire USER group; external card storage does not increase the 120 onboard patch slots. [Own manual][707-M] |
+| Looper / sampler persistence and routing | **pp14–15:** GT records the effected guitar signal; AUX bypasses effects. Card samples save automatically. A–B loop points reset when changing sample number or toggling sampler mode. **Sampler and rhythm cannot operate together**; MOD/REV are disabled during sampling. No larger-card recording duration inferred. [Own manual][707-M] |
+| Looper / sampler playback modes | **p14:** normal; half speed/half pitch; half speed/original pitch; quarter speed/quarter pitch; quarter speed/original pitch. These are sample playback modes, not five additional effect algorithms. [Own manual][707-M] |
 <!-- comparison evidence ends -->
 
 ### 707II — provenance and remaining work
