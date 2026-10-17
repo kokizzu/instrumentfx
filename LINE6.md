@@ -826,16 +826,16 @@ Manufacturer-authored mirror identifiesoriginalPOD HD500 Pilot’s Handbook,**40
 
 ## M5
 
-Effects-only multi-category processor; one selected model plus gate,not a chain processor. Eligible under multi-category scope; distinct from dedicated single-purpose pedals and M9/M13. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.
+Effects-only multi-category processor; one selected model plus gate,not a chain processor. Eligible under multi-category scope; distinct from dedicated single-purpose pedals and M9/M13. Checked2026-10-17;partial. Ownership and vocal suitability unverified. Bass suitability documented for Bass Octaver;not every model is certified equally suitable.
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | External EX-1/passive10kΩ linear mono¼-inch;multiple parameters,heel/toe values per preset. Built-in/toe switch unverified. | [Handbook PDF pp4,7–8][M5-M] |
 | K/F/B | **6 rotary /2 footswitches /separate buttons unverified**;text-derived model selector+five parameter knobs,OnOff+Tap;selector push additional. | [Handbook PDF pp4–6][M5-M] |
-| Display | Category-colored illumination;diagonal,technology,touch unverified. | [Handbook PDF p4][M5-M] |
-| Processing / category choices | One selected model plus separate gate;five categories:delay,modulation,distortion,filter,reverb. Manufacturer resource advertises100+ models;category subtotals pending. | [Handbook PDF pp4,7][M5-M];[Manufacturer resource indexed excerpt][M5-R] |
+| Display | Category-colored LCD;diagonal,touch unverified. | [Handbook PDF p4][M5-M];[FXParameters §4•1][M5-F] |
+| Processing / category choices | One selected model plus separate gate;five categories:delay,modulation,distortion,filter,reverb. **109 selectable models in2011guide:19delay+22modulation+30DIST-category+26filter+12reverb**. Delay includes15families plus4separate DryThru variants. DIST includes17drive/octave entries,volume,6compressors,selectable gate and5EQs;the separate setup gate is not an extra selectable model. Filter=16FM4-style+8wah+PitchGlide+SmartHarmony. Internal settings do not add models. Manufacturer100+ claim retained;counts tied to cited guide,not a claim about unverified firmware revisions. | [Handbook PDF pp4,7][M5-M];[Manufacturer resource indexed excerpt][M5-R];[FXParameters §§1•1,2•1,3•1–9,4•1,5•1][M5-F] |
 | Factory / user memory | **24 factory-filled writable presets**,not24+24. Manual/autosave modes;LOAD waits confirmation,INSTANT switches immediately. | [Handbook PDF pp5–6][M5-M] |
-| Synth / acoustic | Specific synth/acoustic models pending gallery audit. | Unresolved |
+| Synth / acoustic | Synth options include Octisynth,Synth-O-Matic,AttackSynth,SynthString andGrowler. VoiceBox/VTron imitate vowel/talkbox behavior without establishing a microphone vocoder path. Dedicated acoustic simulator not established by this guide. | [FXParameters §§4•4–10][M5-F] |
 | Dimensions / mass | Unknown;not borrowed from M9/M13. | Unresolved |
 | I/O | Stereo Lmono/R inputs andoutputs,expression,DC,MIDI IN/OUT;connector sizing andother ports pending. SysEx preset backup/restore,MIDIclock,PC0–23,CC expression/tap/bypass/tuner. | [Handbook PDF pp4,6,8][M5-M] |
 | Power / battery / USB | **9VDC,500mA included supply rating**,not measured draw. Polarity,currentdraw,battery/USB operation unknown. | [Handbook PDF p4][M5-M] |
@@ -858,3 +858,5 @@ RevB Handbook accessed as webPDF text,10pages; citations use PDF page numbers. F
 [M5-M]: https://line6.com/data/6/0a06434d12155507f39d011ad3/application/pdf/M5%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf
 [M5-R]: https://origin2.line6.com/effects-pedals/resources/
 [M5-O]: https://shopee.co.id/Stombox-Modeller-Pedal-Line-6-M5-i.306155985.6072223176
+
+[M5-F]: https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5
