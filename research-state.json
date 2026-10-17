@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero Mini MP-50",
-    "task": "Mini documented ten user IR slots and V2.2 L/R dry/wet recording saved. Next fresh Shopee discovery or own-manual algorithm breakdown; USB playback/formats/currentOS remain. No sibling borrowing or oversized PDF repeat.",
+    "task": "Mini five bass amp/preamp models verified in own V2.2 manual; added shared bass membership. Next fresh Shopee discovery by brand/series, then exact-model verification; Mini full category counts, USB playback/formats and currentOS remain.",
     "next_models": [],
     "after_queue": "Continue research and legacy consolidation; no workflows/downloads/push."
   },
@@ -24386,9 +24386,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 112,
+      "record_count": 113,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 84,
+      "shared_bass_capable_count": 85,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41363,8 +41363,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 112,
-    "bass_shared_models": 84,
+    "bass_view_models": 113,
+    "bass_shared_models": 85,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41688,6 +41688,7 @@
       "HeadRush::Prime",
       "HeadRush::Gigboard",
       "HeadRush::Pedalboard",
+      "Hotone::Ampero Mini MP-50",
       "Hotone::Ampero MP-100",
       "Hotone::Ampero II MP-350",
       "Hotone::Ampero II Stage MP-380",
@@ -41838,6 +41839,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Hotone::Ampero Mini MP-50": "Own Mini firmware V2.2 manual explicitly lists five bass amp/preamp models, including SVT and B-15 models; model-specific processing evidence, not inferred from an EQ knob or sibling. [Manufacturer manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf).",
     "Line 6::Floor POD Plus": "Own EnglishRevB section2•11 explicitly recommends TubePreamp as direct box for bass;not inferred from Bassman ancestry. [Manual](https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf)",
     "Behringer::V-AMP 3": "Manufacturer manual p8 documents two bass-preset banks, with recording-oriented qualification;not bass-specialist equivalence. [Source](https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf)",
     "Line 6::POD HD300": "Own HD300/HD400 Flash2.0+ Advanced Guide includes Flip Top bass amp and115FlipTop bass cab;installed firmware must be checked.",
@@ -58843,6 +58845,25 @@
       "USBstreamformats",
       "CurrentOSmatrix",
       "Currentcompletealgorithmcounts"
+    ],
+    "downloads": false
+  },
+  "ampero_mini_bass_20261017": {
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "revision": "V2.2",
+    "bass_amp_choices": 5,
+    "models": [
+      "Alchemy Pre",
+      "Ampage Classic",
+      "Ampage Flip",
+      "Voxy Bass",
+      "Messe Bass 400"
+    ],
+    "classification": "Shared guitar/bass multi-effects;not bass-focused",
+    "remaining": [
+      "Completecategorycounts",
+      "USBplaybackandformats",
+      "CurrentOSmatrix"
     ],
     "downloads": false
   }

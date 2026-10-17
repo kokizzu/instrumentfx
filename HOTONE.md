@@ -183,6 +183,12 @@ Sources: [effects/findings/2026-10-14-hotone-ampero-mini.md](effects/findings/20
 
 Manufacturer-authored indexed text was read without downloading files, installing software or operating hardware. Current complete algorithm inventory, USB stream formats/playback channels and OS compatibility remain unresolved.
 
+### Ampero Mini — documented bass processing, 2026-10-17
+
+| Field | Verified finding / scope |
+|---|---|
+| Processing / bass AMP category | [Mini’s own firmware V2.2 manual, Effect List](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) lists **five bass amp/preamp choices**: Alchemy Pre, Ampage Classic, Ampage Flip, Voxy Bass and Messe Bass 400. Their references are Alembic F-2B, Ampeg SVT, Ampeg B-15, VOX AC-100 and Mesa/Boogie Bass 400 respectively. This is positive model-specific bass-processing evidence and warrants shared membership in **ALL-BASS.md** while retaining ALL-GUITAR.md. It does not establish equal bass suitability for every algorithm or a complete current library total. |
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
