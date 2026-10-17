@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP360XP",
-    "task": "USB2up2down44.1kHz16/24bit and output-feed record source saved; class-driver statement historical. CONTROL IN XP=FS3X, external expression modes RP360-only. Next inspect own manual Sound Check and FS3X control mode tables for operational differences; exact socket wording/current OS/USB MIDI/imports/display remain unresolved.",
+    "task": "FS3X mode matrix saved. Sound Check detailed indexed searches returned product descriptions/control page rather than complete operation; no Sound Check duration/overdub inference. Next inspect manufacturer-authored manual copy pp31–33 for Sound Check; keep USB/current OS/display/import gaps unresolved. Commit findings before changing models.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56014,6 +56014,36 @@
         "Historical standard Windows/Mac OS X driver statement, not current OS test.",
         "EXP/VOL and EXP/TRS controller settings RP360-only; XP supports FS3X. Accessory TRS cable confirmed independently, XP socket wording still unverified."
       ]
+    },
+    {
+      "model": "DigiTech RP360XP",
+      "checked_date": "2026-10-18",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf",
+      "fs3x_matrix": {
+        "control_fs3x": {
+          "preset": [
+            "Preset Bypass",
+            "Tuner",
+            "unused"
+          ],
+          "stomp": [
+            "Multi Loop",
+            "Preset Down",
+            "Preset Up"
+          ],
+          "bank": [
+            "Multi Loop",
+            "Bank Down",
+            "Bank Up"
+          ]
+        },
+        "control_looper_all_modes": [
+          "Multi Loop",
+          "Stop Loop",
+          "Clear Loop"
+        ]
+      },
+      "qualification": "Multi Loop means multiple looper actions assigned to one switch, not independent loops. CONTROL IN default LOOPER. Sound Check detail search did not resolve additional limits; do not infer40seconds/overdub support from phrase looper."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -77,6 +77,14 @@ Checked 2026-10-18 using indexed text from the manufacturer’s own shared manua
 | USB audio / channels and source | Manual explicitly documents simultaneous **2 channels to computer + 2 from computer**, **44.1kHz,16/24-bit**. Recording uses the audio feeding LEFT/RIGHT outputs; no separate dry DI/reamp channel is established. Manual says standard Windows/Mac OS X drivers suffice, a historical class-driver statement rather than tested compatibility with every current OS. | [Own manual, Computer Recording][RPXP-M] |
 | Expression / CONTROL IN variant limit | CONTROL IN accepts FS3X on RP360XP. EXP/VOL and EXP/TRS modes are explicitly **RP360-only**, so their passive-volume250kΩ and expression10kΩ requirements must not become RP360XP external-expression claims. Manufacturer FS3X page specifies an included stereo TRS cable and quarter-inch socket; this corroborates the accessory connection, while the RP360XP socket’s exact wording remains unverified. | [Own manual p49][RPXP-M]; [FS3X manufacturer page](https://digitech.com/dp/fs3x/) |
 
+### RP360XP FS3X mode matrix
+
+Checked 2026-10-18 against indexed manufacturer manual p37. External switches are additional controls, not extra onboard footswitches.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Controls / FS3X mode dependencies | With CONTROL IN=FS3X, the three external functions depend on FOOTSWITCH MODE: **Preset → preset bypass,tuner,unused**; **Stomp → Multi Loop,preset down,preset up**; **Bank → Multi Loop,bank down,bank up**. With CONTROL IN=LOOPER, all three onboard modes instead use **Multi Loop,stop loop,clear loop**. The manual defines Multi Loop as several looper actions sharing one switch; it does not mean multiple independent loops. LOOPER is the factory CONTROL IN setting. | [Own manual pp37,49][RPXP-M] |
+
 ## RP255
 
 Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
