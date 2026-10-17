@@ -603,7 +603,7 @@ def main():
         if mode == 'commit-b3n':
             message = 'research(zoom): correct B3n headphone certainty and loop persistence'
         if mode == 'commit-g3n':
-            message = 'research(zoom): inventory G3n delay and reverb choices'
+            message = 'research(zoom): inventory G3n pedal effects and reconcile revision counts'
         if mode == 'commit-g5n':
             message = 'research(zoom): establish G5n acoustic simulation and qualify synth-style presets'
         if mode == 'commit-g3xn':

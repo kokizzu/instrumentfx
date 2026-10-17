@@ -61977,5 +61977,43 @@
     ],
     "limits": "15delay14reverbchoicesnotconcurrentblocks; Tailnotpatchspillover; notcurrentinstalledlibrary",
     "next": "PEDAL inventory; exact physical controls; fresh Shopee discovery"
+  },
+  "g3n_pedal_census_20261017": {
+    "source": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+    "revision": "2017 pp23–26",
+    "pedal": [
+      "PDL Vol",
+      "BlackWah",
+      "ChromeWah",
+      "WAH100",
+      "PDL Pitch",
+      "PDL MnPit",
+      "PDL Vibe",
+      "PDL Drive",
+      "PDL PHSR",
+      "PDL Delay",
+      "PDL Rev",
+      "OSC Echo",
+      "VoiceWah",
+      "PDL Roto",
+      "P-BitCRSH",
+      "PDL FLNGR",
+      "PDL Reso"
+    ],
+    "category_counts": {
+      "dynamics": 10,
+      "filter": 14,
+      "drive": 21,
+      "amp": 16,
+      "cabinet": 16,
+      "modulation": 22,
+      "sfx": 3,
+      "delay": 15,
+      "reverb": 14,
+      "pedal": 17
+    },
+    "derived_sum": 148,
+    "limits": "Documentcategorycensusexcludeslooper/rhythm; notunique/current/factorypreloadproof",
+    "next": "Physical controls and electrical specifications; fresh Shopee discovery; remaining model verification gaps persist"
   }
 }
