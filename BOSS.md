@@ -1,6 +1,6 @@
 # BOSS multi-effects
 
-Root brand profiles; partial verification. Other recorded BOSS processors remain in legacy files until complete consolidation.
+Canonical root brand profiles; all retain explicit verification gaps. Preserved historical evidence remains qualified in each record.
 
 ## GT-1B
 
@@ -2048,3 +2048,41 @@ Own2020Englishmanualeng02readaswebtext(1PDFsheet);manufacturerproduct currentspe
 ### Own-guide qualifications
 
 ParameterGuideRev02,©2020,19pages readaswebtext. Basspreset71–90evidence supportsALL-BASSmembership;notallguitaralgorithmscertified. Monoeffect/COSMampafterstereodelaycollapsesstereo;TeraEchoHOLDsavedOff. ToneStudioPCguideshowseditableFXchainincludingFX1,PDL,ODDS,AMP,NS,FV,FX2,DLY,REV,master;notanexplicitmanufacturermaximumcount. [Editor guide](https://static.roland.com/assets/media/pdf/Pocket-GT_BTS_PC_eng04_W.pdf). No downloads/installs.
+
+## ME-50B
+
+Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-10-17; partial. Ownership unestablished. Discontinued manufacturer status does not establish seller availability.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in volume/expression pedal; firm toe press switches modes. External EXP unverified; FOOT SW is documented for switching. | [Product][M50B-P]; [Manual p18][M50B-M] |
+| K/F/B | **23 / 3 / ?**. Separate button census and visual corroboration pending; toe switch additional. | [Product][M50B-P] |
+| Display | One-character seven-segment LED; published diagonal, color and touch unverified. | [Product][M50B-P] |
+| Dimensions / mass | 384W×225D×78H mm; manual maximum height102mm. Product3.2kg versus manual3.15kg, both including batteries; retain discrepancy. Large floorboard. | [Product][M50B-P]; [Manual p30][M50B-M] |
+| Processing / categories | Six advertised sections; not a simultaneous-effect ceiling. Manual choices: COMP5 excluding Off; FILTER/TONE11; DRIVE/SYNTH11 (7 drive+4 synth); DELAY/MOD11. Master EQ and noise suppression separate. Full capacity accounting pending. | [Product][M50B-P]; [Manual pp8–15,20][M50B-M] |
+| Factory / user memory | 24 writable slots, eight banks×three; factory reset restores these24. No additional ROM bank established. | [Manual pp21,28][M50B-M] |
+| Synth / acoustic | Four bass synth choices; single-note restriction. Acoustic-body simulation unverified. | [Product][M50B-P]; [Manual p12][M50B-M] |
+| I/O | INPUT; L/MONO,R outputs; stereo-mini AUX; PHONES; FOOT SW (COMP ON/OFF,TEMPO); adapter jack. Remaining connector sizes and electrical routing pending. | [Product][M50B-P] |
+| Power / battery / USB | 9V DC,140mA; six AA or optional PSA adapter. Manual estimates12h alkaline/3.5h carbon. Polarity and USB operation unverified. | [Product][M50B-P]; [Manual p30][M50B-M] |
+| IR / NAM / capture | User IR, native NAM, converted NAM and capture imports unverified. | Unresolved |
+| Editor / platforms | Full patch editor, driver/updater and mobile support unestablished. No software downloaded. | Unresolved |
+| Looper / drums / live | HOLD DLY2.8s with layering; recording erased by stop, type change or power-off. Kick Drum has six tones; automatic beat interval240–2000ms. Kick/loop quantization documented. Scenes/trails pending. | [Manual pp14,16–19][M50B-M] |
+| Routing | Order automatically follows settings; free reordering unverified. | [Manual p8][M50B-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no exact Shopee Indonesia seller/item offer resolved. | — |
+| New | Unknown; no exact qualified retail offer resolved. | — |
+
+<!-- comparison evidence ends -->
+
+Searches for ME-50B, ME50B and ME 50B on 2026-10-17 did not resolve exact Shopee Indonesia hardware. Foreign accessory matches do not establish a hardware price or Indonesian stock. Seller/item, condition, variant, region, bundle, warranty, voucher and current availability remain unknown. This is a search limitation, not proof of market absence.
+
+Next: button census, external-control details, full choices/chain restrictions, factory-fill confirmation, complete connector sizes, power polarity and exact IDR offers. Original ©2003 manual read through browser text; no files downloaded to the workspace.
+
+[M50B-P]: https://www.boss.info/us/products/me-50b/
+[M50B-M]: https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf

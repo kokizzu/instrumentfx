@@ -531,7 +531,7 @@ def main():
         if mode == 'commit-gt10':
             message = 'research(boss): qualify GT-10 preamp enumeration and drive count discrepancy'
         if mode == 'commit-me20b':
-            message = 'research(boss): qualify ME-20B delay tuner and exact marketplace link'
+            message = 'research(boss): add ME-50B bass multi-effects with qualified primary specifications'
         if mode == 'commit-me50':
             message = 'research(boss): verify ME-50 named controls and toe-switch calibration'
         if mode == 'commit-b2-followup':
