@@ -1643,3 +1643,35 @@ Checked2026-10-17; partial. Shared guitar/bass multi-effects, distinct from P1/P
 | Condition unresolved:Rp2,045,160 | [LOBAJET70636842/27739709523](https://shopee.co.id/MOOER-PRIME-M1-Multi-Effect-Guitar-and-Bass-Intelligent-Pedal-Effector-i.70636842.27739709523), Jakarta Barat; checked2026-10-17, newer two-week cache: Habis, Dengan Voucher, spendRp70,000/8% discount wording. Older four-month search cacheRp1,378,602. Exact voucher application, variant, bundle, working condition, warranty, shipping/tax/final total unresolved. JS-limited; neither ask establishes live stock or a completed sale. |
 
 DM Plus Studio shop search mentionsRp1,699,000 with Produk Baru, but lacks an exact hardware item link; not accepted as a new-condition hardware quote. No downloads or software execution used.
+
+## Prime M2
+
+Checked2026-10-17;partial. Guitar/bass processor with headset vocal effects. [Product](https://www.mooeraudio.com/products/221.html); [manufacturer manual, RockBoard mirror V2.0 filename](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf),67pages; selected technical sections read, no visual verification. Product lists a newer M2_Manual_EN_V02_2025.08.26; not assumed identical.
+
+| Field | Finding |
+|---|---|
+| Expression | No built-in treadle/toe/EXP socket in manual layout; MIDI expression unverified. |
+| Knobs / footswitches / buttons | Manual layout:0 rotary,2 footswitches,1 power/lock button plus recessed restart switch. |
+| Display | 1.28-inch touchscreen; product also says LED digital display. Hardware color classification unverified; RGB light bar is separate. |
+| Processing / category choices |194 onboard models; simultaneous ceiling unresolved. Dynamic chain supports repeated module types. Reference lists29 drives,62 preamps,65 cabs; other category counts unresolved. |
+| Presets |80 user slots; factory-filled subset/separate factory memory unverified. Product sample-storage wording does not prove80 additional IR slots. |
+| Synth / acoustic | Dedicated synthesis unverified. September2025 update adds Guitar Sim; exact acoustic algorithms unresolved. |
+| IR / captures | MNRS and third-party IR supported; exact IR format/length/slots unresolved. Proprietary samples distinct from NAM. |
+| NAM | [Official notes](https://www.mooeraudio.com/Downloads_xq/2.html):2026-09-22 M2 firmware1.5.0 adds NAM A2 loading, Android4.0.0 specifies A2 Lite/mobile import. Architecture wording differs; unrestricted native NAM and converted A1 support unverified. |
+| Ports | Mono6.35mm TS input;two6.35mm TS L/R outputs;3.5mm MIDI;3.5mm headset/headphones;USB-C charging/OTG. Product singular stereo-TS wording conflicts with manual's explicit two outputs. Impedances:input2MΩ,each output100Ω,phones32Ω. |
+| Vocal / bass scope | Manual tone library explicitly guitar/bass; TRRS headset mic has dedicated vocal effects/mixer. Vocal algorithm count unverified. XLR/phantom/harmony not established. |
+| Dimensions / weight |74L×125W×49H mm;228g. [Product](https://www.mooeraudio.com/products/221.html). |
+| Power | USB5V/2A requirement;3000mAh;up to6h runtime/3h charging. Operating draw,USB-C-to-C compatibility and operation while charging unresolved. Barrel polarity inapplicable to listed USB supply. |
+| Audio / software | Product44.1kHz/24bit;OTG recording,USB channel layout unverified. Bluetooth5 audio;F4 wireless support. Prime mobile editor and Studio desktop management. [Release notes](https://www.mooeraudio.com/Downloads_xq/2.html) list Win/Mac M2 packages,Android/HarmonyOS APK and iOS App Store; drivers unverified. |
+| Looper / drums |Product80min/10slots,overdub,undo/redo,56 grooves+4 metronomes,count-in/sync. Manual8minWAV per slot; changing slot discards current recording,Write saves. |
+| MIDI / routing | ManualCC-only learning;PC unsupported by that revision. Global cab bypass/EQ;separate mic/Bluetooth/instrument/OTG mixer. Reset hole restarts;factory reset overwrites settings. |
+| Firmware qualifications | [September2025 notes](https://www.mooeraudio.com/Downloads_xq/2.html):Guitar Sim,Preamp/Entire Amp split,Drive MNRS,loop import/export and StudioWAV. September2026 Android4 adds stem separation. Software package versus device version must remain distinct. |
+| Scenes / gaps | Scenes/spillover,concurrency,current category totals,IR/NAM limits,factory split,screen color,expression and qualified new/used offers unresolved. |
+
+| Condition / IDR evidence | Seller / item / qualifications |
+|---|---|
+| New | No condition-qualified hardware ask verified. |
+| Used | No condition-qualified hardware ask verified. |
+| Condition unresolved:Rp3,323,330 | [LOBAJET70636842/24246319419](https://shopee.co.id/MOOER-PRIME-M2-Multi-Effect-Guitar-Intelligent-Pedal-Effector-Efek-Gitar-Terbaru-dari-MOOER-i.70636842.24246319419),Jakarta Barat;checked2026-10-17,three-month cache. Habis;2 variations unresolved. Dengan Voucher,spendRp5,000/70% discount wording; cap/eligibility/application not verified. Late-delivery compensation is not hardware discount. Condition,working state,bundle,F4 inclusion,warranty,shipping/tax/final total unknown. JS-limited;not live stock or completed sale. |
+
+No downloads,dependencies or software execution used for this model.

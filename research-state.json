@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 309,
+  "active_model_count": 310,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 309,
+  "canonical_root_model_count": 310,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "309 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
+  "count_reconciliation": "310 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Prime M1",
-    "task": "M1 IR capacity and USB-A-to-C-only instruction saved. Continue exact-model full effects-list search only with stronger primary sources; otherwise fresh Shopee bass/vocal discovery. Commit per model.",
+    "model": "MOOER Prime M2",
+    "task": "Locate newer original2025.08.26manual and exact IR/concurrency/category specifications;commit before next model. Then fresh Shopee bass/vocal discovery and migration audit.",
     "next_models": [],
-    "after_queue": "Technical gaps,ownership identity gaps and migration audit remain;no downloads/workflows/push."
+    "after_queue": "Allrecords partial;ownership identity/technical/market/migration audit remain. Nodownloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5286,6 +5286,13 @@
       "checked_date": "2026-10-17",
       "status": "partial",
       "finding": "Exact LOBAJET hardware offer cached sold out/voucher and older price conflict; manufacturer guitar/bass,149 algorithms,40 slots,512pointIR; MNRS distinct from P2/M2 NAM."
+    },
+    {
+      "model": "MOOER Prime M2",
+      "path": "MOOER.md#prime-m2",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "finding": "Exact Shopee sold-out two-variant hardware lead; manufacturer194algorithms,80presets,allthree instrument paths;NAM and output/revision qualifications preserved."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24087,7 +24094,8 @@
       "Black Truck",
       "Red Truck",
       "Prime P2",
-      "Prime M1"
+      "Prime M1",
+      "Prime M2"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -24377,7 +24385,8 @@
       "Black Truck",
       "Red Truck",
       "Prime P2",
-      "Prime M1"
+      "Prime M1",
+      "Prime M2"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -24702,21 +24711,21 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 258,
+      "record_count": 259,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 134,
+      "record_count": 135,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 106,
+      "shared_bass_capable_count": 107,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 62,
+      "record_count": 63,
       "vocal_only_count": 23,
-      "combined_instrument_count": 39,
+      "combined_instrument_count": 40,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -41694,18 +41703,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 309,
-    "canonical_root_models": 309,
+    "unique_brand_model_pairs": 310,
+    "canonical_root_models": 310,
     "legacy_only_models": 0,
-    "guitar_view_models": 258,
+    "guitar_view_models": 259,
     "bass_focused_models": 28,
     "vocal_only_models": 23,
-    "vocal_view_models": 62,
+    "vocal_view_models": 63,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 134,
-    "bass_shared_models": 106,
+    "bass_view_models": 135,
+    "bass_shared_models": 107,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41757,7 +41766,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Prime M1."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Prime M2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41866,6 +41875,7 @@
       "MOOER::Red Truck",
       "MOOER::Prime P2",
       "MOOER::Prime M1",
+      "MOOER::Prime M2",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -42081,6 +42091,7 @@
       "MOOER::GS1000",
       "MOOER::Prime P2",
       "MOOER::Prime M1",
+      "MOOER::Prime M2",
       "M-VAVE::TANK-B",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -42182,6 +42193,7 @@
       "Line 6::POD X3 Live",
       "MOOER::GS1000",
       "MOOER::Prime P2",
+      "MOOER::Prime M2",
       "Roland::VT-4",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::Play Acoustic",
@@ -42222,6 +42234,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "MOOER::Prime M2": "Own manufacturer manual tone library explicitly selects guitar or bass and lists bass preamps/cabinets. [Manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf).",
     "MOOER::Prime M1": "Exact manufacturer identifies guitar and bass;20 versus21 bass model conflict retained. [Product](https://www.mooeraudio.com/products/211.html).",
     "MOOER::Prime P2": "Exact P2 release notes add bass amp/cabinet models in Studio1.6.8 and1.6.9. [Manufacturer](https://www.mooeraudio.com/Downloads_xq/2.html).",
     "NUX::MG-300 MKII": "Exact model global page documents eight bass cabinet IRs; amp-count conflict retained. [Manufacturer](https://nuxaudio.com/product/mg300mkii/).",
@@ -43287,6 +43300,13 @@
     },
     "MOOER::Prime M1": {
       "link": "MOOER.md#prime-m1",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::Prime M2": {
+      "link": "MOOER.md#prime-m2",
       "source_files": [
         "MOOER.md"
       ],
@@ -64429,5 +64449,29 @@
     "checked_date": "2026-10-17",
     "finding": "Exact manufacturer M1 prose distinguishes10 freely loadable third-party IR cabinets and40 third-party IR cached positions. Specification explicitly limits charging to USB-A-to-C; do not infer C-to-C support. Original unresolved slot-count field superseded, firmware/cache behavior remains open.",
     "remaining": "Per-category effects list,simultaneous ceiling,current firmware effects/cache behavior,screen details,expression,factory/user split,qualified asks."
+  },
+  "discovery_prime_m2_20261017": {
+    "model": "MOOER Prime M2",
+    "sources": {
+      "product": "https://www.mooeraudio.com/products/221.html",
+      "manual": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf",
+      "release": "https://www.mooeraudio.com/Downloads_xq/2.html"
+    },
+    "manual_scope": "67pages;selected technical sections text inspected,not full visual verification;newer product-listed2025.08.26manual not assumed same.",
+    "offer": {
+      "url": "https://shopee.co.id/MOOER-PRIME-M2-Multi-Effect-Guitar-Intelligent-Pedal-Effector-Efek-Gitar-Terbaru-dari-MOOER-i.70636842.24246319419",
+      "seller": "LOBAJET",
+      "shop": "70636842",
+      "item": "24246319419",
+      "ask_idr": 3323330,
+      "stock": "Habis",
+      "variants": "2unresolved",
+      "voucher": "DenganVoucher;spend5000/discount70%,cap/eligibility/applicationunknown",
+      "condition": "unknown",
+      "region": "JakartaBarat",
+      "checked_date": "2026-10-17",
+      "access": "JS-limitedthree-monthcache"
+    },
+    "remaining": "Current original manual,IRlimits,concurrency,fullcategorycounts,screen,expression,factorysplit,qualifiedprices."
   }
 }
