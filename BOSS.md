@@ -2554,6 +2554,17 @@ Checked2026-10-18 against [original manual pp12–13,18–19][M50B-M]. Text insp
 |---|---|---|
 | Power / polarity evidence | Roland explicitly approves PSA 200/500mA adapters for ME-50B; its PSA-S specifications state **regulated 9V DC, center-negative, 500mA capacity**. Therefore center-negative compatibility is supported by the named approved supply, rather than sibling-model inference. Device draw remains140mA. PSA-S page lists100–240V50/60Hz input and warns regional versions/plugs differ; verify actual adapter label. | [ME-50B compatibility][M50B-PS]; [PSA-S specifications][M50B-PSAS] |
 
+
+### ME-50B — startup and unsaved-edit limits
+
+Checked2026-10-18 against the [exact original manual][M50B-M],printed pp6–8,22–23.
+
+| Field | Operating qualification |
+|---|---|
+| Power / battery fallback | With batteries installed while using the adapter,the manual says operation continues if adapter power is interrupted. This is a fallback claim,not rechargeable-battery charging or a measured switchover-time guarantee. |
+| Live / startup state | Power-up turns FILTER/TONE,DRIVE/SYNTH andDELAY/MOD off;expression starts asvolume. HOLD DLY instead entersrecord standby when selected. First entry intoMemory after power-up selects **bank1/patch1**. These states do not imply automatic restoration of the last live setup. |
+| Memory / tuner discards temporary edits | P23 explicitly says temporary **tone edits andtempo settings are lost on patch change orentry toTuner**,unless written. Bank selection alone flashes the pending bank;the sound changes after selecting a number pedal. This is separate from the tuner-reference pitch saving behavior above. |
+
 <!-- comparison evidence ends -->
 
 Searches for ME-50B, ME50B and ME 50B on 2026-10-17 did not resolve exact Shopee Indonesia hardware. Foreign accessory matches do not establish a hardware price or Indonesian stock. Seller/item, condition, variant, region, bundle, warranty, voucher and current availability remain unknown. This is a search limitation, not proof of market absence.
