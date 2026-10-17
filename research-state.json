@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX100G",
-    "task": "AX100G PEDAL catalogue and official KA181 compatibility saved. Continue fresh Shopee discovery; retain unresolved AX100G power, visual, price and software fields.",
+    "model": "DigiTech RP200",
+    "task": "Verify exact RP200 manual via official DigiTech product-manual directory link 308; record hardware and qualified historical Rp500000 Shopee offer. Distinguish RP200 from RP200A and preserve unknown condition.",
     "next_models": [],
-    "after_queue": "Continue Shopee discovery;ME-30,GT-5,RFX-2000 gaps remain deferred. No downloads,workflows or push."
+    "after_queue": "Resolve BOSS ME-8 exact Shopee item if possible, then continue brand/series discovery. AX100G, ME-30, GT-5 and RFX-2000 retain deferred gaps. No downloads, workflows or push."
   },
   "new_findings": [
     {
@@ -54076,5 +54076,31 @@
     "adapter_source": "https://www.korg.com/jp/support/adapter/",
     "finding": "Full 23 PEDAL alternatives and explicit AX100G → KA181 compatibility saved. Adapter compatibility does not establish unit draw or polarity.",
     "remaining": "Current draw, polarity, visual corroboration, model-specific hardware offer, editor/IR/NAM gaps."
+  },
+  "discovery_rp200_20261017": {
+    "checked_date": "2026-10-17",
+    "model": "DigiTech RP200",
+    "url": "https://shopee.co.id/EFEK-GITAR-DIGITECH-RP200-i.118784596.11727599440",
+    "shop_id": "118784596",
+    "item_id": "11727599440",
+    "seller": "AULIA ZOKAM.SHOP",
+    "region": "Kota Jakarta Barat",
+    "asking_idr": 500000,
+    "condition": "Unverified; do not classify as new or used from the amount.",
+    "stock": "Habis in browser text crawled five months ago, with May 11–14 delivery estimate; historical offer, not live stock.",
+    "qualifications": "Hardware title matches RP200. Working state, bundle, adapter, authenticity, warranty, shipping, tax and voucher eligibility unverified.",
+    "manual_directory": "https://digitech.com/product-manuals/",
+    "manual_link_id": 308,
+    "additional_leads": [
+      {
+        "model": "BOSS ME-8",
+        "source": "https://shopee.co.id/charlijulian777",
+        "seller": "HUTAURUK MUSIC",
+        "asking_idr": 2500000,
+        "condition": "Seller title says SECOND",
+        "limit": "Storefront/index lead only; exact item URL and shop/item IDs unresolved. No active record added."
+      }
+    ],
+    "search_limits": "Limited AX10B/ME-8/RP200 search; absence of a resolved AX10B result is not evidence of market absence."
   }
 }
