@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Neural DSP Quad Cortex",
-    "task": "Quad Cortex standarddevice category rows counted;captures andlicencedplugin totals separate/unaudited. Check remainingdisplay/captureconnector andlooperduration evidence,then freshbass/vocal discovery;allmodel gaps preserved.",
+    "task": "Quad Cortex captureV2 andpluginlicence requirements saved. Remainingdisplay/captureconnector/looperduration andfactorytotal gaps stay open;resume freshbass/vocal Shopee discovery and manufacturerverification withoutadding duplicates.",
     "next_models": [],
     "after_queue": "Fresh bass/vocal discovery andlossless legacy consolidation remain incomplete. No downloads,workflows orpush."
   },
@@ -63946,5 +63946,16 @@
         487
       ]
     }
+  },
+  "technical_followups_quad_capture_licence_20261017": {
+    "model": "Neural DSP Quad Cortex",
+    "source": "https://neuraldsp.com/manual/quad-cortex",
+    "revision": "4.1.1",
+    "findings": [
+      "V2cloudtraining viaCortexControl/account/connectedhardware;Windowsdriver/micpermission;privateautosave;40sessions/day,user;~10min typical.",
+      "Aggressive compressor threshold/longrelease fidelity caveat.",
+      "Paidplugin perpetuallicence linkedaccount;trialsexcluded;one-timeonline validation thenoffline;3QC+3mini peraccount,fourthQCblocks bypassed.",
+      "Hardwareoffer doesnotprove transferablepluginlicence."
+    ]
   }
 }
