@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Play",
-    "task": "Additional exact DealerJaya andSoundstationstore offers saved separately with unknown condition andaccess/stock qualifications. Continue primary technical gaps andfresh brand/series discovery;do not duplicate existing VLP.",
+    "task": "Official indexed VLP output-page controls saved;QSGv3.0 lead direct500,do not treat cover as specifications. Next find accessible exact manufacturer QSG/manual for dimensions,power,USBformat,memory orcontinue freshdiscovery.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60825,5 +60825,18 @@
       "site:shopee.co.id Boss GT-6B"
     ],
     "result": "ExistingVLP exactoffers;BP200adapter excluded;noqualifiednewmodel,nocoverageclaim"
+  },
+  "voicelive_play_official_output_20261017": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/UdE6-mBzr0u6TqC_r6vYEw/f65JG-Kc9EWdWD5StvC6ig/Original/VOICELIVE%2520PLAY_M_EN.pdf",
+    "access": "Indexed original manufacturer page15text;direct500",
+    "findings": [
+      "LeadMute removes main-mix lead retaining processed signals",
+      "DigitalOutLevel controls USB output",
+      "HeadphoneLim sets limiter threshold",
+      "VocalCancel AUX depends on originalmix"
+    ],
+    "qsg": "https://cdn.mediavalet.com/aunsw/musictribe/W9ccfEW-20-n0BDdZcE_Lg/wSOkJP1Tvk2N2sMYiJVtAA/Original/QSG_TH_0726-AAZ_VOICELIVE%20PLAY_WW.pdf",
+    "qsg_access": "Indexed cover saysv3.0;direct500;specs not verified",
+    "remaining": "Dimensions/mass,phantom,powerpolarity,USBformat,memory/currentfirmware unresolved;retailer specs not adopted"
   }
 }

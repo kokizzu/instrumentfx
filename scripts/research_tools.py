@@ -405,7 +405,7 @@ def main():
         if mode == 'commit-hxe-price':
             message = 'research(line6): separate HX Effects preset and Favorites capacities'
         if mode == 'commit-criticalmass':
-            message = 'research(tchelicon): preserve additional qualified VoiceLive Play offers'
+            message = 'research(tchelicon): qualify VoiceLive Play output and monitoring controls'
         if mode == 'commit-b21u':
             message = 'research(zoom): verify B2.1u output control and practice limits'
         if mode == 'commit-katana-go':
