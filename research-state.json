@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP360XP",
-    "task": "RP360XP all named stomp categories reconcile85;second original-manual copy PN5041674-B identified,including SynthTalk. Next full amp/cab inventory to examine54/55 and26/27 conflicts,or other model technical gaps/freshShopee discovery. No full verification claim.",
+    "task": "RP360XP named amp/cab counts explain54+Direct=55 and26+Direct=27;independent amp/cab routing and electrical limits saved. Next freshShopee discovery or other model gaps;RP360XP display/control-port/power/imports/USB/live/condition-price details remain.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows or push."
   },
@@ -59784,5 +59784,63 @@
       "Looper undo/persistence/spillover",
       "Condition-qualified offers"
     ]
+  },
+  "rp360xp_amp_cab_count_20261017": {
+    "sources": [
+      "https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual",
+      "https://digitech.com/dp/rp360-xp/"
+    ],
+    "amp": {
+      "printed_pages": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "modeled_entries_per_page": [
+        3,
+        8,
+        8,
+        9,
+        10,
+        8,
+        8
+      ],
+      "modeled_including_two_acoustic_simulations": 54,
+      "direct_page": 63,
+      "selector_entries_including_direct": 55
+    },
+    "cab": {
+      "printed_pages": [
+        64,
+        65,
+        66
+      ],
+      "modeled_entries_per_page": [
+        8,
+        10,
+        8
+      ],
+      "modeled": 26,
+      "direct_page": 66,
+      "selector_entries_including_direct": 27
+    },
+    "interpretation": "Derived entry counts explain published54/55 and26/27 excluding/includingDirect. Manufacturer does not explicitly define advertising discrepancy;all original figures retained. No firmware change inferred.",
+    "routing": "AmpDirect retains cab;cabDirect retains amp;acoustic sims prohibitcab;select amp recalls default cab then permits replacement.",
+    "electrical": "Official product:input1MOhm/max+10dBu;outputs500Ohm per side/max+8.5dBu;headphones118mW/channel@50Ohm.",
+    "remaining": [
+      "Display",
+      "CONTROL IN format",
+      "Battery/USB buspower",
+      "Imports",
+      "USB MIDI/channel routing",
+      "Current software support",
+      "Looper persistence/undo/spillover",
+      "Qualified used/new prices"
+    ],
+    "method": "Manufacturer-authored text only;no downloads,software execution or visual inspection."
   }
 }
