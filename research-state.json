@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Smart Box QME-20",
-    "task": "Smart Box Windows11 dedicated support procedure recorded alongside conflicting older product FAQ. Continue NAM restrictions/category counts/currentOS/qualifiedoffers or fresh discovery; no package downloads.",
+    "task": "Smart Box firmware1.0.1 manual routing/controller/power/practice details saved;continue algorithm inventory/NAM limits, current firmware qualification and offers orfreshdiscovery.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -60388,5 +60388,17 @@
   "discovery_sonicake_pro_20261017": {
     "query": "site:shopee.co.id \"Sonicake\" \"Matribox II Pro\"",
     "result": "Already recorded model; cached Habis offers1441485672/41903111124 Rp4750000 and19700013/28130671930 Rp4350000; not new inventory or current stock; follow up only."
+  },
+  "smartbox_manual_routing_20261017": {
+    "source": "https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf",
+    "identity": "Manufacturer-linked multilingual226pagePDF;English firmware1.0.1 pp5,9–13;model named in instructions",
+    "findings": [
+      "Dry capture with processed monitoring;ReAmp replaces IN;loopback recipe qualified",
+      "EXP/SingleFS/DualFS and calibration;10kohm recommended",
+      "Batt Only rejects external supply",
+      "Pre/Post looper and tuner435–445Hz"
+    ],
+    "access": "Browser text only,no local download or execution",
+    "remaining": "Current firmware changes,full algorithm subcounts,NAM architectures,touch,current OS and qualified offers."
   }
 }
