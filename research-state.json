@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Bass/vocal Shopee discovery",
-    "task": "R-16 Vocal Lab recorded separately. Search fresh exact bass models such as Boom Ave/BEM Box or other series; prior grouped queries returned R16 only,not proof of absence. Do not count looper-only VLP200 without eligible architecture.",
+    "task": "B1 FOUR and B1X FOUR display/memory/power follow-ups saved. Resume fresh exact bass/vocal hardware discovery; do not repeat these resolved gaps. Boom Ave/BEM Box prior queries yielded no exact hardware, not proof of absence.",
     "next_models": [],
     "after_queue": "Continue technical gaps and migration; no downloads/workflows."
   },
@@ -52114,7 +52114,19 @@
         "access": "two-week-old indexed text reopened; stale October5 arrival; AD16E bundle unverified"
       }
     ],
-    "verification": "partial"
+    "verification": "partial",
+    "quick_guide": {
+      "url": "https://zoomcorp.com/media/documents/E_B1FOUR_QuickGuide_2.pdf",
+      "revision": "Z2I-3577-02",
+      "resolved": [
+        "128x32 LCD",
+        "50 preloaded editable patches",
+        "conditional alkaline runtime",
+        "USB MIDI",
+        "looper clear triggers"
+      ],
+      "basis": "Shared original guide explicitly covers both exact models"
+    }
   },
   "b1_four_followup_20261017": {
     "source": "https://zoomcorp.com/media/documents/E_B1FOUR_QuickGuide_2.pdf",

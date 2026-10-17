@@ -361,7 +361,7 @@ def main():
         if mode == 'commit-b1four-followup':
             message = 'research(zoom): resolve B1 FOUR display memory and looper restrictions'
         if mode == 'commit-b1xfour-followup':
-            message = 'research(zoom): resolve B1X FOUR pedal and USB power gaps with qualified offers'
+            message = 'research(zoom): resolve B1X FOUR display memory and looper qualifications'
         if mode == 'commit-readme-counts':
             message = 'fix(navigation): synchronize complete brand model lists from ledger'
         if mode == 'commit-hd400':

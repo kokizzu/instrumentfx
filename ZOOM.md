@@ -694,8 +694,8 @@ The original comparison explicitly gives this model the same ports and three pow
 | Audio / control ports |6.35mm mono instrument input;3.5mm stereo AUX;one shared6.35mm TRS stereo line/headphones output;micro-USB;DC input. No mic/phantom,MIDI DIN orFX loop listed |
 | Power supply |4AA or9V500mA center-negative AD-16 adapter orUSB bus power;USB mobile battery operation explicitly supported (manual p.8); no internal rechargeable pack established |
 | USB / editor |Guitar Lab Windows/macOS;USB editing,not USB audio in legacy family comparison. Full mobile editor unverified |
-| Display |Exact diagonal,pixels,color mode andtouch unknown;G1X FOUR specifications not substituted |
-| Preset memory |50 editable total;factory-filled subset unknown,not50factory+50user |
+| Display |128×32 dot-matrix LCD, explicitly covered by the B1/B1X FOUR quick guide p.11. Diagonal,color mode andtouch unverified; no G1X FOUR substitution |
+| Preset memory |50 editable total, all50 preloaded (quick guide pp.3,11); not50factory+50user |
 | Categories / synth / acoustic |Bass synth andpedal volume/wah/delay/pitch retained;complete current category counts,exact synth algorithm names andacoustic simulator unknown. Family over70 marketing includes amp/cab models;downloads are not every unit's installed count |
 
 ### B1X FOUR — separate IDR evidence checked2026-10-16
@@ -717,6 +717,18 @@ Original [Zoom manual](https://zoomcorp.com/documents/129/E_B1FOUR.pdf), pp.8 an
 | Condition-unverified hardware ask |Rp2.679.000 |[New.meteor,155091739/4368810350](https://shopee.co.id/Zoom-B1X-FOUR-AD16E-Bass-Multi-effects-Processor-Multi-Effect-ZOOM-B1X-FOUR-i.155091739.4368810350); Jakarta Utara; indexed/reopened two-week-old text still says arrival October5. AD16E appears in title; package contents,condition,voucher and stock unverified. Seller name does not establish new condition |
 
 These add exact offer provenance, not qualified used/new ranges. Earlier October16 evidence remains historical. No files downloaded.
+
+### B1X FOUR — shared original guide verification, 2026-10-17
+
+The [manufacturer quick guide Z2I-3577-02](https://zoomcorp.com/media/documents/E_B1FOUR_QuickGuide_2.pdf) explicitly covers B1 FOUR and B1X FOUR; this is direct model coverage, not sibling inference. Text inspected; no file downloaded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / battery |About18h with alkaline AA batteries and LCD backlight off (p.11); not guaranteed runtime or measured draw |
+| USB / editor |USB MIDI,Micro-B; power-only cables disable other USB functions (p.11). No new audio-interface claim |
+| Looper / live |Mono30s,pre/post placement; changing recording time,position or tempo clears the loop (p.9) |
+
+Display resolution and factory-filled count above supersede their earlier unknowns. Screen diagonal,color,touch,category subtotals and qualified used/new offers remain unresolved.
 
 ## B2 FOUR
 
