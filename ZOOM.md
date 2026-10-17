@@ -2158,12 +2158,14 @@ Checked2026-10-17;partial. Own manual guitar setup and dynamic-microphone vocal 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | No built-in pedal/toe;FS01 bypass switch support. Continuous expression unverified. | [Manual pp2–4][R2-M] |
-| K/F/B | Separate counts pending complete panel inventory. | Unresolved |
+| K/F/B | **8 rotary /0 footswitches /10 buttons**: INPUT,OUTPUT,MIX,EFFECT TYPE,EDIT1–4;CANCEL,COMPARE,MIDI,PARM CHECK,STORE,VALUE UP/DOWN,BANK,TAP,BYPASS. Power separate;text-derived,visual corroboration pending. | [Manual pp2–3][R2-M] |
 | Display | Numeric/parameter display and bank LEDs;diagonal,color/touch pending. | [Manual pp2–3][R2-M] |
 | Processing / categories | 48panel effects(6×8),8editor-only EXTRA effects. Specification counts616program settings(8×7×11characters);these are not616simultaneous effects. Full categories/architecture pending. | [Manual pp1,25][R2-M] |
 | Preset memory | 100patch memories;specification total716 combines616settings+100memories,not716writable patches. Initial fill pending. | [Manual p25][R2-M] |
 | Synth / acoustic | Vocoder documented;dedicated synth/acoustic simulation unverified. | [Manual p1][R2-M] |
 | I/O | Stereo mono-phone line inputs/outputs;front mono-phone dynamic-mic input;optical/coaxial S/PDIF outputs;MIDI IN/OUT/THRU;FS01 bypass;adapter input. No digital input listed. | [Manual pp2–3,25][R2-M] |
+| I/O / microphone routing | Dynamic microphone around600Ω supported. Normally mic and rear line inputs mix before processing;with VOCODER,mic controls timbre/envelope. INPUT adjusts both mic and line signals together. This does not establish phantom power. | [Manual p2][R2-M] |
+| I/O / digital output | Optical and coaxial S/PDIF can operate simultaneously,carrying the output signal;OUTPUT level knob does not affect digital output. L/MONO-only line input feeds both channels. | [Manual p3][R2-M] |
 | Power / battery / USB | **12VAC AD-0008 adapter**,not12VDC;DC polarity inapplicable. Current,battery/USB operation unverified. | [Manual p25][R2-M] |
 | Dimensions / mass | **482W×44H×115D mm;1.5kg**. | [Manual p25][R2-M] |
 | IR / NAM / capture | IR,native/converted NAM and capture loading unverified. | Unresolved |

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2000",
-    "task": "RFX2000added247th;verifypanelcounts,fullbanks/architecture,userinitialfill,digitaloutput/microutingandpowercurrent. Do notduplicate;commitusefulfindingsbeforenextmodel.",
+    "task": "RFX2000panel8/0/10 andmic/digitalrouting saved. Next fullbank/architecturecounts,initialmemoryfill andadaptercurrent;visual/currentsoftware gaps remain.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. No downloads,workflows,push;commit each usefulmodel before next."
   },
@@ -53773,5 +53773,11 @@
     "source": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
     "finding": "48panel+8EXTRAeffects,100patchesdistinctfrom616settings,12VACAD0008,482×44×115mm1.5kg,MIDIlegacyeditor,exactqualifiedask.",
     "remaining": "KFB,fullcategories/simultaneity,initialfill,digitalrouting,micrestrictions,editor/currentOS andvisualgaps."
+  },
+  "rfx2000_panel_routing_followup_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+    "pages": "2–3",
+    "finding": "8rotary0foot10buttons;sharedmic/lineINPUTgain,normalmixvsVOCODERcontrol;simultaneousoptical/coaxdigitaloutputsnotaffectedbyOUTPUTknob.",
+    "remaining": "Fullbank/architecturecounts,initialmemoryfill,adaptercurrent,visualandsoftwaregaps."
   }
 }
