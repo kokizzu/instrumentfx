@@ -2251,6 +2251,15 @@ Hold delay and sampler are distinct facilities,not a six-second overdub looper w
 
 Printedpp4–5 name all21buttons;the nine rotary total includes the rear LEVEL control. Neither LEDs nor footswitches are counted as buttons. Printedp9 explicitly calls the expression mechanism a push-down switch. Screenshot attempts returned no readable image;this remains a manual-text inventory,not a visual or physical panel inspection.
 
+
+### Expression routing and ARRM limits
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / target replacement | Selecting WAH forces MOD to P-WAH; selecting PITCH forces MOD to P-PIT, replacing its previous type. These are not additional simultaneous blocks. GAIN controls DRIVE gain or, for some types, RESONANCE/TOP. ARRM+PEDAL varies modulation depth. | [Manual pp20–21][GFX5-M] |
+| Processing / ARRM source conflict | Page21 diagrams eight waveforms, but page34 lists R-WAVE 1–9. No ninth waveform is identified; actual selectable count remains unresolved. R-SYNC lists eighth, quarter, half and dotted-half notes plus one–four measures. Both explanatory tables use 0.5 for eighth notes, whereas the page34 range heading says 0–3. Preserve that discrepancy. | [Manual pp21–22,34][GFX5-M] |
+| Expression / pedal ranges | UP spans minimum→maximum; dn reverses it. Hi spans the stored patch value→maximum; Lo spans minimum→stored patch value. For ARRM+PEDAL these ranges govern modulation amplitude. | [Manual p22][GFX5-M] |
+
 ## GFX-4
 
 Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufacturer confirms discontinued. Bass/vocal applicability and ownership unresolved.

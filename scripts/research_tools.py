@@ -511,7 +511,7 @@ def main():
         if mode == 'commit-gfx4':
             message = 'research(zoom): verify GFX-4 rotary controls and explicit-save behavior'
         if mode == 'commit-gfx5':
-            message = 'research(zoom): enumerate GFX-5 controls and qualify bypass routing'
+            message = 'research(zoom): qualify GFX-5 expression routing and ARRM conflicts'
         if mode == 'commit-gfx3':
             message = 'research(zoom): add GFX-3 and preserve module-count conflict'
         if mode == 'commit-rp250':
