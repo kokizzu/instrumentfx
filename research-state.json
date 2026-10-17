@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP1000 category/looper follow-up",
-    "task": "Count ownmanualpp17–30 categories and checklooperrestrictions;do not borrowRP500. PowerAC/DCvariantmuststayexplicit. Commitmodel before next.",
+    "model": "DigiTech RP1000 remaining category inventory",
+    "task": "Count ownmanual amp/cab and remainingChorusFX submodels;delay7prosevs10table alreadyrecorded. Do not repeatlooper audit. Commit before nextmodel.",
     "next_models": [],
     "after_queue": "FreshShopee discovery;no downloads/workflows."
   },
@@ -40585,7 +40585,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP1000 category/looper follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP1000 remaining category inventory."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49291,6 +49291,24 @@
       "pages": "21,24,26,28–29,38,43–44,60,79",
       "finding": "Mass4.7kg excludesadapter;16x2backlitLCD+2char7segmentLED;sixspeakerselectors(5explicit+Original),2delaymodes1800ms,5reverbs;single-noteSynth/Harmonist;externalreplacesODDS;editablechain.",
       "remaining": "Explicit maximum simultaneous ceiling,connector sizes,userfactoryfill,screen diagonal/color/touch,imports/editor,loopdrums andqualifiedliveoffers."
+    },
+    {
+      "model": "DigiTech RP1000",
+      "checked_date": "2026-10-17",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf",
+      "pages": "17–19,22,29–30,33–36",
+      "category_counts": {
+        "wah": 3,
+        "compressor": 3,
+        "drive": 23,
+        "chorus": 7,
+        "gate_swell": 2,
+        "reverb": 6,
+        "delay_list_table": 10,
+        "delay_prose_claim": 7
+      },
+      "finding": "Delay7vs10explicitconflict;loop survivespreset/effectchanges;stopretains;FS3Xrestoresbankselection;USBtapXLRaudio/globalautosavedmix.",
+      "remaining": "Amp/cab/otherChorusFXcounts;screen details;imports/currentOS;qualifiedprices/stock;DCpolarity/draw/USBpower."
     }
   ],
   "discovery_cross_brand_bass": {

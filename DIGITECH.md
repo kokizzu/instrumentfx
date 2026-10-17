@@ -203,15 +203,15 @@ Discontinued guitar multi-effects/switching system;notRP500. Checked2026-10-17;p
 | Expression | Built-in assignable pedal+toeV-switch. FS3Xsocket is loopercontrol,not established externalexpression. | [Manual pp6–7][RP1K-M] |
 | K/F/B | **6rotary/14mainfootswitches/7buttons**:10numbered+Bank2+Tap+StompLoop;Edit2+AmpLoop+Looper+3system. Toe/rearpower and3reartoggles additional. Text-derived. | [Manual pp4–7][RP1K-M] |
 | Display | 8characteralphanumeric+2characternumeric;diagonal/color/touch unverified. | [Manual p4][RP1K-M] |
-| Processing / category choices | **10simultaneous**;160+stompboxes/effects/amps/cabs headline,not160simultaneous. Chorus/FXshares one selection;categorysubtotals pending. | [Product][RP1K-P];[Manual p22][RP1K-M] |
+| Processing / category choices | **10simultaneous**;160+stompboxes/effects/amps/cabs headline,not160simultaneous. Chorus/FXshares one selection;Verified3wah,3compressor,23drive,7chorus,2gate/swell,6reverb choices. Delaytext says7 butenumeration+table contain10;retainconflict. Amp/cab/remainingChorusFX counts pending. | [Product][RP1K-P];[Manual pp17–19,22,29–30][RP1K-M] |
 | Factory / user memory | **200=100factory+100writableuser**,userinitiallyduplicatesfactory. | [Manual p3][RP1K-M] |
 | Synth / acoustic | Dreadnaught/Jumboacousticsimulations;SynthTalk present,tracking/oscillator distinction pending. | [Manual pp20,26,48][RP1K-M] |
 | Dimensions / mass | **19.5inL×10.75inW×3.75inH;11.5lb** manual;productlabels19.5inDepth instead ofLength. Axes retained,not silentlyswapped;mass inclusion unstated. | [Manual p50][RP1K-M];[Product][RP1K-P] |
 | I/O | ¼input,ampSendReturn,stompSendReturn,L/Rlineoutputs;XLRL/R;phones;¼TRSFS3X;USB,power. Phones/USBphysicaltype pending. NoMIDIlisted. | [Manual p7][RP1K-M] |
 | Power / battery / USB | **Two models:9VAC1.3A PS0913B or9VDC1.3A PS0913DC**;matchrearpanel. DCpolarity/draw/battery/USBpower unverified. FAQlistsACvariant;notproofallunitsAC. Product120VAC60Hz isregionalmains claim,notpedalinput. | [Manual p50][RP1K-M];[FAQ][RP1K-Q];[Product][RP1K-P] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture loading unverified. | Unresolved |
-| Editor / software | **X-Edit2.7.0Windows/2.7.1MacOSXIntel** listed;currentOScompatibility unknown. USBaudio2in/2out;editor distinctfrombundledCubaseLE4. | [Product][RP1K-P] |
-| Looper / drums / live | 20smono,FS3Xremote;Pedalboardmode assigns switches6–10. AmpLoopreplacesinternalamp/cab;StompLooppre/postamp per preset. Bypass leavesexternalloopsactive. Drums/scenes unknown. | [Manual pp1,6–9][RP1K-M];[Product][RP1K-P] |
+| Editor / software | **X-Edit2.7.0Windows/2.7.1MacOSXIntel** listed;currentOScompatibility unknown. USBaudio2in/2out;recordingtap followsXLRoutputaudio. USBrecordlevel/mix settingsglobal,autosaved. Editor distinctfrombundledCubaseLE4. | [Product][RP1K-P];[Manual pp35–36][RP1K-M] |
+| Looper / drums / live | 20smono,FS3Xremote;Pedalboardmode assigns switches6–10. AmpLoopreplacesinternalamp/cab;StompLooppre/postamp per preset. Bypass leavesexternalloopsactive. Preset/effectchanges workduringrecord/playback/overdub. Stop retainsloop;holdclear erases. FS3X makeslooperalwaysenabled andrestoresbankUpDown tobankselection. Quietstartsound-triggered vsimmediaterecord. Drums/scenes unknown. | [Manual pp1,6–9,33–35][RP1K-M];[Product][RP1K-P] |
 
 ### Separate IDR hardware offers
 
