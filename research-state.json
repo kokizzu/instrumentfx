@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Play",
-    "task": "VoiceLive Play historical More Play firmware announcement saved: 60-second looping, without inferring current limit or undo split. Next seek original later firmware notes, USB audio format or current storage capacity. Do not download files. Commit each model before moving on.",
+    "task": "VoiceLive Play: saved regional VoiceSupport 2 v1.1.02 Build 139 announcement dated September 2026 and Windows/macOS package listings. Next verify original exact-model USB format or later firmware/storage documentation; do not infer from Play Acoustic/GTX/VoiceLive 3. If primary evidence remains inaccessible, move to saved catalogue gaps or fresh Shopee brand discovery rather than repeat failed searches. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -56667,6 +56667,15 @@
       "checked_date": "2026-10-18",
       "finding": "Manufacturer press release dated 2012-11-08 announces More Play firmware with 60-second looping and unlimited overdubs. Preserve old manual 15/30-second limits as revision evidence. Undo split, numeric firmware version and current limit remain unverified. 500 downloadable presets do not establish onboard capacity. Switch-3 expanded assignments; guitar boost belongs only to GTX.",
       "source": "https://hexus.net/ce/items/audio-visual/47901-tc-helicon-releases-free-update-voicelive-play-offering-more-presets-more-control/"
+    },
+    {
+      "model": "TC-Helicon VoiceLive Play",
+      "checked_date": "2026-10-18",
+      "finding": "Electori regional TC-Helicon announcement dated 2026-09-10 lists VoiceSupport 2 v1.1.02 Build 139 with a fix for server-connection failures in certain circumstances. Resource centre lists Windows 10MB and macOS 11.2MB packages. Exact OS support and operational connectivity untested; this is librarian/updater version evidence, not pedal firmware.",
+      "sources": [
+        "https://www.electori.co.jp/tc-helicon/",
+        "https://www.electori.co.jp/tc-helicon/resources.php"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
