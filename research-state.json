@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Coverage audit",
-    "task": "Audit required-field gaps and legacy migration next; inspect current ledger rather than repeating alreadyresolved B2.1u/RFX/SPX details. CriticalMass remainspartial withspecific power statements,notprovenincompatibility;qualifiedIDRunknown.",
+    "model": "Line 6 HX Effects",
+    "task": "Read own existing record andseek exact Shopee hardware asks;used/newIDRcurrentlyunknown. Retain condition,stock,region,bundle,voucher andaccesslimits;do notaddduplicate. Save useful model findings before next.",
     "next_models": [],
-    "after_queue": "Fresh hardware discovery asneeded;no downloads/workflows."
+    "after_queue": "Remaining primaryspec/market gaps andmigration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -24243,10 +24243,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons:183 guitar,89 documented bass-capable including explicit optional-license conditions,31 vocal; technical and market verification incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons:194 guitar,95 documented bass-capable,43 vocal. Instrument memberships overlap;technical and market verification incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "221 root-canonical models;0 legacy-only. Compatibility files remain; technical and market research incomplete.",
+    "warning": "239 root-canonical models;0 legacy-only. All117 legacy paths accounted for;compatibility redirects remain. Technical and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -52910,5 +52910,64 @@
     "market": "Queries B2.1/B2-1u,ME50B,B9.1ut/B9,B1Xnext didnotproduce a newly qualified exact bass item. Existing HopeMusic mixed G2.1Nu/G2.1u/B2.1u snippetRp1.699.000 remains unassigned to anyvariant;shop reopening previously lacked item. This is not evidence of model absence.",
     "next": "Create source-backed bass record with price unknown/market gap explicit after inspecting own panel,specs,USB,pedal toe,category counts. Do not let lack of qualified ask prevent recording eligible documented hardware indefinitely.",
     "status": "primary eligibility verified;record pending detailed ownmodel inspection;no inventory addition"
+  },
+  "coverage_audit_20261017": {
+    "checked_date": "2026-10-17",
+    "checkpoint": "70f0074",
+    "inventory": {
+      "active": 239,
+      "root_canonical": 239,
+      "legacy_only": 0,
+      "brands": 31,
+      "excluded": 6,
+      "fully_verified": 0
+    },
+    "navigation": {
+      "target": "make navigation-audit",
+      "markdown_files": 154,
+      "local_link_occurrences": 2683,
+      "legacy_files": 117,
+      "registered_redirects": 116,
+      "separate_fv01_redirect": 1,
+      "unclassified_legacy": 0,
+      "errors": 0,
+      "root_to_legacy_links": 403
+    },
+    "explicit_gap_scan": {
+      "scope": "Native filesystem scan of239 root_brand_content model entries; exact normalized level2 section headings; comparison evidence marker selected when present; table lines containing unknown/unverified/unresolved/pending/question mark. Lexical diagnostic only,not authoritative field validation or severity ranking.",
+      "independent_sections_checked": 237,
+      "independent_sections_with_gap_rows": 237,
+      "special_combined_sections": [
+        "Line 6 POD Go",
+        "Line 6 POD Go Wireless"
+      ],
+      "special_section_limitation": "POD Go combined heading requires separate selection;not classified as gap-free.",
+      "recent_gap_row_counts": {
+        "Zoom RFX-1100": 13,
+        "Zoom B2.1u": 9,
+        "TC-Helicon Critical Mass": 14,
+        "Yamaha SPX990": 10
+      }
+    },
+    "requirement_status": {
+      "root_brand_coverage": "239 recorded models have root sections;not complete technical verification",
+      "instrument_comparisons": "194/95/43 model memberships;four rows-per-model table groups verified in prior commit checks",
+      "specialists": "Six archives excluded;dedicated archives separate",
+      "legacy_preservation": "Local navigation/pinned-original checks pass;compatibility paths retained;overall migration incomplete",
+      "primary_specifications": "Incomplete;explicit unresolved fields remain",
+      "exact_used_new_idr": "Incomplete;unqualified/mixed/soldout asks cannot prove current stock",
+      "market_coverage": "Limited discovery passes;not exhaustive",
+      "workflow_download_policy": "No workflows;no downloads performed during audit"
+    },
+    "next_queue": [
+      {
+        "model": "Line 6 HX Effects",
+        "task": "Inspect current record;seek exact Shopee hardware offers to resolve unknown used/new IDR,retaining stock/condition/variant/date limits. Alreadyclassified guitar/bass;do notaddmodel."
+      },
+      {
+        "model": "Coverage follow-up",
+        "task": "Resolve one model’s highest-value explicit technical gaps from own primary documentation,commit each before next;retain archiveprovenance."
+      }
+    ]
   }
 }
