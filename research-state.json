@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-001",
-    "task": "GT001brochure confirms4recordingchannels including2dry;selectivereset saved. Playbackcount/controls stillunverified. Next ownindexedcontroltext orfreshhardwarediscovery;avoid repeatPDFsizefailures.",
+    "task": "GT-001 wah category and external expression configuration saved. Playback channel count, physical controls, polarity and qualified offers remain open. Next fresh Shopee hardware discovery; avoid repeated oversized PDF opens.",
     "next_models": [],
     "after_queue": "FreshShopeediscoveryandremainingverification;no workflows/push."
   },
@@ -58541,6 +58541,14 @@
     "reset_source": "https://cdn.roland.com/assets/media/pdf/GT-001_OM.pdf",
     "reset": "Indexedp12 selectiveSYSTEM/QUICK/U001–200;WRITEthenENTER;EXITcancel;overwritesselected",
     "controls": "Search-generatedvisualfootbuttondescriptions stillnotaccepted;exactcounts pending",
+    "downloads": false
+  },
+  "gt001_wah_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf",
+    "identity": "Own GT-001 parameter guide, indexed printed page20",
+    "choices": 6,
+    "scope": "Wah alternatives, not simultaneous blocks",
+    "expression": "CTL/EXP function WAH or WAH/FV; position and heel/toe endpoints 0–100; no physical toe-switch inference",
     "downloads": false
   }
 }
