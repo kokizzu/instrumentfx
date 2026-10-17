@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 228,
+  "active_model_count": 229,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 228,
+  "canonical_root_model_count": 229,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "228 unique active/root-canonical models; zero legacy-only. FX50 adds guitar-only membership with explicit transcription/source gaps. Six specialist archives excluded.",
+  "count_reconciliation": "229 unique active/root-canonical models; zero legacy-only. JOYO R-16 adds vocal-only membership;instrument reverb does not establish guitar/bass multifx. Six archives excluded.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal discovery and technical follow-ups",
-    "task": "B3 frequency-response discrepancy now projected with analog I/O,driver OS list rechecked. FV03 panel still not visually verified:PDF screenshot/image readers failed and in-app browser unavailable. Do not promote text-derived counts to visual verification. Continue primary gaps or different exact bass/vocal leads.",
+    "model": "Bass/vocal Shopee discovery",
+    "task": "R-16 Vocal Lab recorded separately. Search fresh exact bass models such as Boom Ave/BEM Box or other series; prior grouped queries returned R16 only,not proof of absence. Do not count looper-only VLP200 without eligible architecture.",
     "next_models": [],
-    "after_queue": "Continue technical verification and migration; no downloads/workflows."
+    "after_queue": "Continue technical gaps and migration; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4899,6 +4899,17 @@
       ],
       "finding": "Rechecked separate editor/updater/driver listings; ASIO2.0.1 explicitly lists Windows7/8/8.1/10,not current OS support. Relabelled existing frequency-response source discrepancy so it reaches I/O comparison.",
       "remaining": "Control image,category subtotals,power draw,current OS and other saved gaps."
+    },
+    {
+      "model": "JOYO R-16 Vocal Lab",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://www.joyoaudio.com/product/205.html",
+        "https://www.joyoaudio.co.uk/VocalLab-Harmoniser"
+      ],
+      "finding": "Own independent harmony/reverb,up to2 harmony voices and48V mic supply. UK interval/impedance conflicts retained;exact cached offers condition-unqualified. Manual body unreadable.",
+      "remaining": "Manual/panel,ports/power,display/memory/software/loading/live and qualified offers."
     }
   ],
   "consolidation_and_price_findings": [
@@ -23572,7 +23583,8 @@
     "JOYO": [
       "GEM BOX original",
       "GEM BOX II",
-      "GEM BOX III"
+      "GEM BOX III",
+      "R-16 Vocal Lab"
     ],
     "Line 6": [
       "HX Stomp",
@@ -23898,7 +23910,8 @@
     "JOYO.md": [
       "GEM BOX original",
       "GEM BOX II",
-      "GEM BOX III"
+      "GEM BOX III",
+      "R-16 Vocal Lab"
     ],
     "DONNER.md": [
       "Arena2000"
@@ -24072,8 +24085,8 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 34,
-      "vocal_only_count": 20,
+      "record_count": 35,
+      "vocal_only_count": 21,
       "combined_instrument_count": 14,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
@@ -40963,13 +40976,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 228,
-    "canonical_root_models": 228,
+    "unique_brand_model_pairs": 229,
+    "canonical_root_models": 229,
     "legacy_only_models": 0,
     "guitar_view_models": 186,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 34,
+    "vocal_view_models": 35,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41026,7 +41039,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal discovery and technical follow-ups."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41328,6 +41341,7 @@
       "HeadRush::VX5",
       "Hotone::Ampero II MP-350",
       "Hotone::Ampero II Stage MP-380",
+      "JOYO::R-16 Vocal Lab",
       "Line 6::Helix Floor",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::POD HD500X",
@@ -41925,6 +41939,13 @@
       "finding_files": [
         "effects/findings/2026-10-14-joyo-gembox-iii.md"
       ]
+    },
+    "JOYO::R-16 Vocal Lab": {
+      "link": "JOYO.md#r-16-vocal-lab",
+      "source_files": [
+        "JOYO.md"
+      ],
+      "finding_files": []
     },
     "Line 6::HX Stomp": {
       "link": "LINE6.md#hx-stomp",
@@ -50246,6 +50267,10 @@
     {
       "model": "Flamma FX50",
       "task": "Inspect original19-page manufacturer manual/revision without download;verify7rotary0foot3buttons and dimensions/power;resolve2Shopee variations and remaining technical fields."
+    },
+    {
+      "model": "JOYO R-16 Vocal Lab",
+      "task": "Read original266-00R16-0010/manual panels without download;resolvebutton/ports/power,current updater/OS and interval/impedance conflicts;qualified prices."
     }
   ],
   "discovery_cross_brand_bass": {

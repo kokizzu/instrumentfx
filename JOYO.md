@@ -2,7 +2,7 @@
 
 [All guitar](ALL-GUITAR.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)
 
-**Three existing active model records consolidated here; K8 is a separately identified research lead, not a fourth completed technical profile.** JOYO's [official GEM BOX catalogue](https://www.joyoaudio.com/product/76/) confirms original GEM BOX, II, III and K8. Brand/catalogue check: **2026-10-15**. Consolidation retains the original per-model technical and price observation dates below; it does not refresh stock or certify unknown specifications.
+**Four active model records,including R-16 Vocal Lab added2026-10-17; K8 remains a separately identified unverified research lead.** JOYO's [official GEM BOX catalogue](https://www.joyoaudio.com/product/76/) confirms original GEM BOX, II, III and K8. Brand/catalogue check: **2026-10-15**. Consolidation retains the original per-model technical and price observation dates below; it does not refresh stock or certify unknown specifications.
 
 K/F/B means rotary controls / main footswitches / separate buttons. Encoder presses count once; power and expression-toe switches are separate. Unknown is `?`, not No. All prices are IDR asking observations, not completed sales. Original, II, III, III LE and K8 must not inherit each other's specifications.
 
@@ -314,3 +314,54 @@ An exact Indonesian Shopee K8 hardware item and readable complete K8 specificati
 ## Consolidation provenance
 
 The complete model-specific field values, explicit unknowns, price caveats, source URLs and inspection limitations from the three existing original/II/III findings are incorporated above. Original blobs: `3bc717ce50b6d06ad8069d5af5a3d24e49bbaae5`, `538106d5cf15c204f2b36d67a25ace9315658901`, `9b23e95cdd82a7a360bf3e7fc83e9401108b466e`. Old dated next-model cursors are superseded by root `research-state.json`; they are not model facts. Legacy shared comparisons and incoming links still need retirement validation, so this commit does not claim the entire effects/ migration is finished. Consolidation adds no new active model.
+
+## R-16 Vocal Lab
+
+Checked **2026-10-17**; partial. Vocal harmony/reverb multi-effects; vocal-only classification. Instrument reverb does not make it guitar/bass multi-effects.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No integrated expression documented;external/toe support unverified. |
+| Rotary / footswitches / buttons | **5 / 2 / ?**: Harmony,Key,Reverb,Harmony Mix,Mic Gain;independent harmony/reverb switches. Centre-silencer button and Key encoder push documented;complete separate-button count unverified. Maj/Min,phantom,lighting switches additional. [Manufacturer][R16-P]; [UK][R16-U] |
+| Display | Key-indicator LED display;diagonal,color,touch,resolution unverified. Ambient lighting is separate. [UK][R16-U] |
+| Dimensions / weight | **130×110×50 mm;416 g**;axes/accessory inclusion unspecified. [Manufacturer][R16-P] |
+| Simultaneous processing / choices | Harmony and reverb independently controlled;**up to2 added harmony voices**,9 harmony modes,24 major/minor tonalities. UK lists3 reverb sizes. Not9 simultaneous voices. [Manufacturer][R16-P]; [UK][R16-U] |
+| Harmony / source conflict | Manufacturer High=third above;UK prose says third below,while its paired modes use third above. Preserve conflict;automatic pitch correction/guitar-chord tracking unverified. [Manufacturer][R16-P]; [UK][R16-U] |
+| Factory / user / total presets | Stored-preset capacity unverified;9 harmony selections are not user memories. |
+| Synth / acoustic simulation | Each unverified;harmony is not proof of synth/acoustic simulation. |
+| IR / NAM / capture | User IR,native NAM,converted NAM and proprietary captures individually unverified. |
+| Audio / control I/O | Quarter-inch instrument in/out;balanced XLR mic in/out;stereo3.5mm aux/phones;USB for updates;DC. Connector subtype,EXP/MIDI/loop support unverified. [Manufacturer][R16-P]; [UK][R16-U] |
+| Analog levels / source conflict | Manufacturer mic input **2.49kΩ**,mic output **600Ω**;UK lists2.4Ω for both. Manufacturer phones32Ω,aux10kΩ,instrument input1MΩ. Preserve transcription/source discrepancy. [Manufacturer][R16-P]; [UK][R16-U] |
+| Phantom power | **48V microphone supply**,switchable. Not evidence of pedal phantom-powered operation. [UK][R16-U] |
+| Power / battery / USB | **9 V DC,center negative,500mA working current** per manufacturer;**battery powered:No**. Actual measured draw,barrel and USB power unverified. [Manufacturer][R16-P] |
+| Editor / platforms / drivers | UK describes USB **firmware updates only**;audio interface/editor not established. Updater OS/version/current availability unverified. [UK][R16-U] |
+| Live / routing features | Instrument reverb without instrument harmony. Aux centre cancellation is track-dependent. Phones monitoring;separate foot control for harmony/reverb. Looper,drums,scenes,spillover unverified. [UK][R16-U] |
+| Used IDR | **?** No condition-qualified used offer established. |
+| New IDR | **?** Historical retail-style asks below lack explicit sale-condition evidence. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee evidence
+
+Checked **2026-10-17**. All historical asks,not completed sales;condition,working state,selected variation,bundle/adapter,warranty,shipping/tax,voucher and final total unknown. Delivery banners do not establish stock;late compensation not deducted.
+
+| Seller / exact item | Ask | Access / region |
+|---|---:|---|
+| [Seven Stereo,16879370/12482630316](https://shopee.co.id/Joyo-R16-R-16-Vocal-Lab-Efek-Vocal-Original-i.16879370.12482630316) | Rp1,699,000 | Habis;Kota Bandung;three-month search,four-week reopened cache;July20–21 delivery stale |
+| [Bangkit Musik,38404754/27962996263](https://shopee.co.id/JOYO-VOCAL-LAB-JOYO-R16-VOCAL-EFFECT-PEDAL-EFEK-VOKAL-i.38404754.27962996263) | Rp1,945,000 | Kabupaten Banyumas;four-month search cache;June3 delivery stale;stock unknown |
+| [limitless__store,95687096/25436165517](https://shopee.co.id/Joyo-R16-Vocal-Lab-Vocal-Effector-Joyo-R-16-R-16-Vocal-Effect-Pedal-Original-i.95687096.25436165517) | Rp1,749,900 | Habis;Kota Jakarta Pusat;two-month search cache |
+| [GITARO STORE JAKARTA,1458451429/26724894510](https://shopee.co.id/Joyo-R16-Vocal-Lab-Efek-Joyo-R-16-Vocal-Lab-Effector-Pedal-Original-i.1458451429.26724894510) | Rp1,781,999 | Kota Jakarta Barat;30-day preorder,two-month cache;September12 estimate stale |
+| [Gelora Musik Serpong,306155985/10874693129](https://shopee.co.id/Efek-Pedal-Gitar-Joyo-R-16-Vocal-Lab-%28Vocal-Effector%29-i.306155985.10874693129) | Rp1,992,000 | Habis;Kabupaten Tangerang;three-month cache;July19–20 stale |
+
+### Source identity and gaps
+
+Own manufacturer product establishes independent harmony/reverb and microphone supply. JOYO UK product adds routing/practice details but contains interval/impedance discrepancies retained above. UK manual index links original **266-00R16-0010**,two-page PDF;web extraction exposes only watermark text,so no manual-body or visual verification claimed. Manufacturer attachment upload date2020-03-03 is not installed firmware. No files,dependencies,software or firmware downloaded/executed. Ownership unknown.
+
+Remaining: full manual/panel controls,complete ports/power label,source discrepancies,display/memory/software/current OS,loading/synth/acoustic/live unknowns and condition-qualified prices.
+
+[R16-P]: https://www.joyoaudio.com/product/205.html
+[R16-U]: https://www.joyoaudio.co.uk/VocalLab-Harmoniser
+[R16-M]: https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf
+[R16-I]: https://www.joyoaudio.co.uk/support/JF-R-JOYO-Series-4-Manuals

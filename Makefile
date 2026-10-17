@@ -1543,3 +1543,7 @@ research-commit-fg200:
 .PHONY: research-commit-fx50
 research-commit-fx50:
 	python3 scripts/research_tools.py commit-fx50
+
+.PHONY: research-commit-r16
+research-commit-r16:
+	python3 scripts/research_tools.py commit-r16
