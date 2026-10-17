@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "GT-3 official patch-list combinations and routing saved. Next own-manual algorithm category catalogue; do not infer global ceiling from examples. Physical buttons/toe remain unresolved.",
+    "task": "GT-3 p43 drive catalogue saved:11internal+external, product12drive wording preserved. Next SFX/MOD/preamp categories and global ceiling; buttons/toe remain unresolved.",
     "next_models": [
       "Zoom 606"
     ],
@@ -54344,5 +54344,11 @@
     "page": "4",
     "finding": "Specific simultaneous combinations, Phaser-before-preamp routing and combined CTL/BPM examples saved; no global ceiling inferred.",
     "remaining": "Algorithm category catalogue, global simultaneous ceiling, physical buttons/toe and other existing gaps."
+  },
+  "gt3_drive_checkpoint_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+    "page": "43",
+    "finding": "Eleven internal drive choices plus external selection; corrected12-internal implication while retaining product advertising wording.",
+    "remaining": "SFX/MOD/preamp/ambience catalogues, global ceiling, buttons/toe and other existing unknowns."
   }
 }
