@@ -1611,3 +1611,7 @@ research-commit-mg20:
 .PHONY: research-commit-microplus
 research-commit-microplus:
 	python3 scripts/research_tools.py commit-microplus
+
+.PHONY: research-commit-katana-go
+research-commit-katana-go:
+	python3 scripts/research_tools.py commit-katana-go

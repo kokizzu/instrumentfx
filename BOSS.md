@@ -2294,3 +2294,44 @@ Bundle, adapter, working state, authenticity, warranty, shipping, tax and vouche
 [GT3-C]: https://shopee.co.id/search?category=11043572&keyword=efek+gitar+boss&page=2&subcategory=11043648
 
 [GT3-L]: https://cdn.roland.com/assets/media/pdf/GT3USR.pdf
+
+## KATANA:GO
+
+Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Current product evidence below;BOSS says latest and earlier models have same sounds/features. Physical revision and seller “GO2” identity need corroboration.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Optional EV-1-WL wireless expression and FS-1-WL switching;volume/wah assignments. Built-in/toe/wired support unverified. [Product][KTGO-P] |
+| K/F/B | Mastervolume1;6namedbuttons(A/B/C,Bluetooth,StageFeel,multifunction);powerswitch separate. Physical footswitch inventory pending. [Product][KTGO-P] |
+| Display | GraphicOLED128×32dots;diagonal/color/touch unresolved. [Product][KTGO-P] |
+| Processing / categories | Guitar10amps/>60effects;bass3amps(Vintage/Modern/Flat)/>60effects. Simultaneous blocks/category totals unresolved. [Product][KTGO-P] |
+| Preset memory | 30factory-filleduser memories per mode;60across guitar+bass,not60available within one mode. [Product][KTGO-P] |
+| Synth / acoustic | Guitar mode includes2acoustic-electric amp characters;dedicated acoustic simulation/synth unverified. [Product][KTGO-P] |
+| I/O | ¼inch inputplug,stereominiPHONES,USB-Caudio/power;BluetoothA2DPaudio/GATTMIDI. USBchannel/routing counts unresolved. [Product][KTGO-P] |
+| Power / battery / USB | Li-ion or USB;500mA draw. Charge5V≥500mA,~3h;~5hrun,varies byuse. Capacity unverified. [Product][KTGO-P] |
+| Dimensions / mass | 45W×125D×29Hmm;65g,current product specification;earlier physical revision unverified. [Product][KTGO-P] |
+| IR / NAM / capture | KatanaToneSetting import documented;notuserIR/NAM/capture proof. [Product][KTGO-P] |
+| Editor / platforms | BOSSToneStudio iOS/Android;desktopeditor OS unverified. [Product][KTGO-P] |
+| Live / practice | StageFeel spatial audio;Session playback loops/timestamps trigger memories. Playback looping does not establish instrument looper. Drums/scenes unverified. [Product][KTGO-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp2.635.000**,Melodia Musik Roland Store JKT,shop30194339/item29436800341,Kota Jakarta Selatan;five monthsindexedcrawl,crossedRp3.100.000. sellerGO2label;exacthardwaregenerationpending. | [Item][KTGO-O1] |
+| Unverified | **Rp2.635.000**,Vin’s Music Store,shop31173885/item21487560393,Kota Depok;three monthsindexedcrawl. sellerGO2label. | [Item][KTGO-O2] |
+| Unverified | **Rp2.635.000–6.370.000**,4variations;unallocated,Boss Official Shop,shop341882414/item24872406480,Kota Tangerang Selatan;five monthsindexedcrawl. unassigned;variation/bundleunresolved. | [Item][KTGO-O3] |
+
+<!-- comparison evidence ends -->
+
+Historical indexed asks,notlivecheckout. Condition/stock/variant/bundle/authenticity/warranty/shipping/tax/vouchers unresolved;no qualifiedused/newallocation. Fourvariationrange is not a singlehardwareprice.
+
+Own HTML-manual support landing returned license/checkbox text without readable manual link;notread. No downloads or visual inspection. Product sources establish eligibility;effectchain/revision-specificmanual details remain open.
+
+[KTGO-P]: https://www.boss.info/global/products/katana-go/
+[KTGO-M]: https://www.boss.info/global/support/by_product/katana-go/owners_manuals/7c8bd4a2-6b4e-495b-ab4d-bc827ed365c4/
+[KTGO-O1]: https://shopee.co.id/Boss-Katana-GO-2-Personal-Headphone-Guitar-Amplifier-with-BT-function-i.30194339.29436800341
+[KTGO-O2]: https://shopee.co.id/boss-original-personal-headphone-Gitar-Amplifier-katana-go-2-for-guitar-dan-bass-i.31173885.21487560393
+[KTGO-O3]: https://shopee.co.id/BOSS-KATANA-GO-Personal-Headphone-Guitar-Amplifier-Portable-i.341882414.24872406480
