@@ -1479,6 +1479,14 @@ Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?**
 | Used | Unknown;no condition-verified exact Indonesian used offer established. | — |
 | Condition unverified / Primanada,Kota Jakarta Utara | **Rp1.040.000;Habis/sold out**. ExactB1on title,index3months old;direct reopen failed withcache miss. Condition,adapter/bundle,selected variation,warranty region,shipping,tax,voucher eligibility anddelivered total unknown. Relative next-day delivery and20k late-delivery compensation do not prove stock orhardware discount. | [15931156/2221821742](https://shopee.co.id/Zoom-B1on-Multi-Effect-Bass-Pedal-Efek-Bass-Zoom-Efek-Bass-Murah-i.15931156.2221821742) |
 
+| Condition unverified / SSMusikSBY,Kota Surabaya | **Rp625.000;Habis/sold out**. Opened body crawl4weeks;search3months. B1on title conflicts with keyboard-amplifier URLslug;see qualification below. Variation,bundle,warranty,voucher,shipping/tax unknown;not verified used/new condition. | [46355631/12733829361](https://shopee.co.id/Ampli-keyboard-Lexus-KB-X100-murmerr-gan-i.46355631.12733829361) |
+
+### B1on — second sold-out IDR observation
+
+Checked2026-10-17. [SSMusikSBY,shop46355631/item12733829361](https://shopee.co.id/Ampli-keyboard-Lexus-KB-X100-murmerr-gan-i.46355631.12733829361): **Rp625.000,Habis/sold out**,Kota Surabaya. Opened web text (crawl4weeks) andsearch index (3months) both title the item **Efek Bass Zoom B1on**. The URL slug instead names aLexus keyboard amplifier; preserve this identity inconsistency,not asecond model or proof of reused-listing history. Photos were not inspected.
+
+Condition remains unknown: “murmer” means aprice claim,not verified used condition. Selected variation,adapter/bundle,warranty,voucher eligibility,shipping/tax anddelivered total are unverified. The stale September delivery window andlate-arrival compensation are not current stock orapurchase discount. Keep this separately from Primanada’sRp1.040.000 sold-out ask;neither establishes a live price range orcompleted sale. Verified new/used condition prices remain unknown.
+
 ### Remaining checks
 
 Verify complete physical control counts,firmware-matched categorysubtotals andinstalled version,manufacturer75/100andpedal copy conflicts,factory preset subset,externalexpression/display,USB connector/electrical/audio/MIDI,IR/NAM/capture limits,complete acoustic distinction andlooper persistence/undo/trails,currentcondition-qualifiedoffers. Existing B1Xon ownership does not establish B1on ownership.

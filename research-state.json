@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1on",
-    "task": "Verify fresh exact Shopee SSMusikSBY item46355631/12733829361: indexed B1on title Rp625000 Habis, but legacy URL slug says Lexus keyboard amplifier; preserve mismatch and unknown condition. Primanada item already recorded, do not duplicate.",
+    "task": "Second B1on sold-out ask saved with title/URL mismatch and unknown condition. Next verify B1on physical control counts from exact manufacturer manual or resume Shopee brand/series discovery; no duplicate Primanada/SSMusikSBY offers.",
     "next_models": [],
     "after_queue": "Continue Shopee brand/series discovery;276partialmodels;fullscopeincomplete."
   },
@@ -41375,7 +41375,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX10B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B1on."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56781,5 +56781,17 @@
     "easy_start_wrapper": "https://www.korg.com/us/support/download/manual/1/22/2038/",
     "easy_start_pdf": "https://cdn.korg.com/us/support/download/files/6d29b2b401333c3fa4b58f256d3b30e4.pdf",
     "access": "Wrapper identifies AX10B Easy Start Guide; query and bare PDF inaccessible. Filename AX10_Series_EasyStart.pdf suggests shared guide; no content adopted."
+  },
+  "b1on_second_offer_20261017": {
+    "url": "https://shopee.co.id/Ampli-keyboard-Lexus-KB-X100-murmerr-gan-i.46355631.12733829361",
+    "seller": "SSMusikSBY",
+    "shop_id": "46355631",
+    "item_id": "12733829361",
+    "region": "Kota Surabaya",
+    "idr": 625000,
+    "stock": "Habis",
+    "condition": "unknown",
+    "access": "Opened body crawl4weeks;searchindex3months;both title Zoom B1on but URLslug Lexus keyboardamp. Photos notinspected.",
+    "qualifications": "Variation/bundle/adapter/warranty/voucher/shipping/tax unknown;not usedprice orcurrentstock;stale September delivery not guarantee."
   }
 }
