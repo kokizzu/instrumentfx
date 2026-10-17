@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Recorded-model technical gap review",
-    "task": "Triple Threat alternate official manual source saved; both official PDF routes unavailable through web reader. Do not repeat unchanged requests. Next inspect another existing model’s unresolved technical fields and exact primary documentation; keep connector gap open.",
+    "model": "HX Effects",
+    "task": "3.10 live-control details added. Next investigate own power-supply specification or qualified Indonesian offers; retain IR-capacity conflict and remaining display/power gaps.",
     "next_models": [],
-    "after_queue": "274partialmodels; discovery and full verification/migration remain incomplete; no downloads/workflows/push."
+    "after_queue": "274partialmodels;no downloads/workflows/push;continue broader technical and market verification."
   },
   "new_findings": [
     {
@@ -41371,7 +41371,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Recorded-model technical gap review."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume HX Effects."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56600,5 +56600,10 @@
     "official_manual": "https://storage.donnermusic.com/official-user/202403/Donner_Triple_Threat_Manual.pdf",
     "result": "Unsupported application/octet-stream in web reader; no contents/revision/diagrams inspected and no download.",
     "limits": "No new connector or bass-support claim. User bass review and Alpha BASS review not primary specifications."
+  },
+  "hxe_310_live_followup_20261017": {
+    "source": "https://kb.line6.com/helix-3-10-3-11-release-notes",
+    "facts": "HXEffects explicitly included:3.10 tunerTrails preserves looper/tails;ShufflingPitch+Interval1/2 replacesOctaves;reloadmodel/resavedefaults;InstantWaitTime0–1000ms;CC69 buffered duringpresetload.",
+    "limits": "Historicalversionnotinstalledproof;communitypowerclaimsnotadopted;voltagepolaritystillopen."
   }
 }
