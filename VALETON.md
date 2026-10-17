@@ -773,6 +773,17 @@ Checked 2026-10-18 against the [own manual, pp20–35](https://www.hotone.jp/man
 | Processing / total reconciliation | Adding the previously audited CAB20/EQ5/MOD11/DLY10/RVB10 gives **109 named algorithms**, consistent with advertised100+. This derived census excludes user IR slots, SnapTone files and the N→S Empty loader placeholder. It is firmware1.0.3 evidence, not a current installed inventory or simultaneous-block count. |
 | I/O / bypass restriction | Analog bypass is mono: no right-channel output. The manual also says USB audio is bypassed in bypass state. |
 
+### GP-5 — bass membership and mobile release corroboration
+
+Checked 2026-10-18.
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / bass classification | The three bass amps and Bass OD documented above establish shared bass multi-effects membership. GP-5 is added to ALL-BASS; this does not add another unique catalogue model. |
+| Editor / mobile NAM-A2 release | Hotone’s **Valeton Suite 2.1.0**, shown dated **28 August** on the Indonesian App Store, explicitly adds loading of converted NAM-A2 files for GP-5. It specifies firmware prerequisites for other models but no GP-5 minimum. This corroborates the regional app2.1.0+ notice; it does not prove native NAM, all A2 architectures, or absence of a firmware prerequisite. The mobile listing is **not verified for macOS**, separate from the Windows/Mac desktop package. |
+
+Sources: [Developer-authored Indonesian App Store listing](https://apps.apple.com/id/app/valeton-suite/id6739420888); [regional conversion notice](https://www.hotone.jp/announcements/nama2allbrand); algorithm evidence above.
+
 ## GP-50
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.

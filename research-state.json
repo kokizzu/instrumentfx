@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton GP-5",
-    "task": "GP-5 firmware1.0.3 census complete (109 named algorithms); next verify current NAM-A2 prerequisites and IR format/length limits, then fresh Shopee brand/series discovery. Preserve unknown display diagonal/touch and used IDR.",
+    "task": "GP-5 category census and bass inclusion saved; converted NAM-A2 corroborated by Hotone App Store2.1.0. IR file format/length and exact GP5 firmware prerequisite remain unresolved after targeted official searches. Next fresh Shopee brand/series discovery; preserve display/touch and used-price unknowns.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -24961,9 +24961,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 143,
+      "record_count": 144,
       "bass_focused_record_count": 30,
-      "shared_bass_capable_count": 113,
+      "shared_bass_capable_count": 114,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -45266,8 +45266,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 143,
-    "bass_shared_models": 113,
+    "bass_view_models": 144,
+    "bass_shared_models": 114,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -45694,6 +45694,7 @@
       "Sonicake::Matribox II Pro QME-200",
       "Valeton::GP-100",
       "Valeton::GP-150",
+      "Valeton::GP-5",
       "Valeton::GP-180",
       "Valeton::GP-200",
       "Valeton::GP-200LT",
@@ -45820,6 +45821,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Valeton::GP-5": "Firmware1.0.3 includes three bass amps and Bass OD. [Own manual pp22–28](https://www.hotone.jp/manuals/valeton/GP-5.pdf).",
     "MOOER::Prime S1": "Exact S1 firmware1.3.4 adds bass amp/cabinet modules and bass presets; Studio1.6.9 notes2024-08-27. Launch guitar-only statement is historical. [Manufacturer](https://cn.mooeraudio.com/Downloads_xq/1.html).",
     "BOSS::MS-3": "Exact manufacturer explicitly documents guitar/bass effects and six simultaneous internal blocks. [Product](https://www.boss.info/global/products/ms-3/).",
     "BOSS::ME-90B": "Bass-oriented processor with documented guitar processing: own Parameter Guide p12 lists GTR CRUNCH, GTR HI GAIN and GTR MODDED as Tone Studio-selectable PREAMP/EQ replacements. Independent multi-effects retained; guitar/bass capability does not imply identical voicing. [Guide](https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf).",
@@ -57670,6 +57672,15 @@
       "finding": "Completed firmware1.0.3 census: NR1 PRE10 DST10 AMP32; derived109 algorithms excludes slots/captures. Analog bypass mono; USB audio bypass qualification saved.",
       "sources": [
         "https://www.hotone.jp/manuals/valeton/GP-5.pdf"
+      ]
+    },
+    {
+      "model": "Valeton GP-5",
+      "checked_date": "2026-10-18",
+      "finding": "Exact GP-5 added to shared bass membership; unique count unchanged. Hotone App Store2.1.0 confirms converted A2 loading, no GP5 minimum specified; mobile listing not verified for macOS, distinct desktop software.",
+      "sources": [
+        "https://apps.apple.com/id/app/valeton-suite/id6739420888",
+        "https://www.hotone.jp/announcements/nama2allbrand"
       ]
     }
   ],
