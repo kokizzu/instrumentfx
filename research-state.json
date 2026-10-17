@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B3n",
-    "task": "B3n electrical/converter ratings saved with headphone wording conflict retained. Visual path unavailable (no browser surfaces; no readable image), so do not repeat failed panel check without new source. Next pursue another recorded-model substantial gap or fresh exact Shopee discovery. B3n physical F/B totals,base/addition mapping,USB audio and modern condition/stock remain partial. No downloads; commit before next model.",
+    "model": "Valeton GP-100",
+    "task": "Saved exact indexed GP100 second ask Rp2200000 from Pangandaran item49001468024; direct access/selected variant unresolved. Next fill GP100 firmware-matched category counts or another substantial manufacturer gap; recent RP50/G2/AX30B/ME10/G2Nu/AX5B searches gave no qualified new exact model hardware. Do not convert category recommendations or mixed variants into verified offers. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45303,7 +45303,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B3n."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56766,6 +56766,15 @@
       "checked_date": "2026-10-18",
       "finding": "Manual Z2I-2783-01 p47:44.1kHz,24-bit128xAD/DA,32-bit processing;input−20dBu470kohm,aux−10dBu10kohm;outputs+5dBm≥10kohm,phones15+15mW32ohm. Combined socket spec remains in conflict with panel/product wording. CUA inventory had no browser and image search no usable result; no visual verification claimed.",
       "source": "https://zoomcorp.com/media/documents/E_B3n.pdf"
+    },
+    {
+      "model": "Valeton GP-100",
+      "checked_date": "2026-10-18",
+      "finding": "Shopee search reader exposed exact GP100 second title, Rp2200000, Kab Pangandaran, shop266296121/item49001468024. Direct selected URL cache miss, stripped URL inaccessible, ID search empty. Seller name, variant, functionality and stock unresolved; seller-described used indexed ask only.",
+      "sources": [
+        "https://shopee.co.id/search?keyword=zoom+g3x",
+        "https://shopee.co.id/efek-Valeton-GP-100-second-i.266296121.49001468024"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

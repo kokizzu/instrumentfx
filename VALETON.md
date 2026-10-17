@@ -205,6 +205,12 @@ The complete compact comparison was re-read on 2026-10-17. Its original 2026-10-
 
 **Availability warning:** the Nafiri GP-100/Pocket Master and Smosyu GP-5 extracted pages contain both a sold-out label and Add to cart. Those conflicting page elements are recorded as **unconfirmed**, not definite stock. The GP-100 used and GP-50 new listings have an explicit sold-out purchase state; these are historical listed amounts, not active offers or proven sale prices. A seller account name does not establish authorized-dealer status.
 
+### GP-100 — additional Shopee used-title observation
+
+| Field | Evidence / qualification |
+|---|---|
+| Used IDR / indexed seller description | **Rp2.200.000**, title **efek Valeton GP-100 second**, Kab. Pangandaran; shop266296121/item49001468024. Seller account name unverified. [Exact item](https://shopee.co.id/efek-Valeton-GP-100-second-i.266296121.49001468024) was exposed by the [Shopee search page](https://shopee.co.id/search?keyword=zoom+g3x), one-month crawl, checked2026-10-18. “Second” establishes seller-described used condition, not tested function. Direct selected-variation URL returned cache miss; stripped URL inaccessible and exact-ID search empty. Selected variant, working condition, adapter/bundle, warranty, stock, voucher, shipping/tax and delivered total unknown. Search destination was generic/recommendation-heavy; exact title and item identity retained without claiming current availability. Not a completed sale or verified market range. |
+
 ## GP-150
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
