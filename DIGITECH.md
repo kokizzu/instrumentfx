@@ -207,6 +207,9 @@ Guitar multi-effects, distinct from RP255/RP360XP/RP1000. Manufacturer lists pas
 | Used | Seller says like new; exact condition/working state unverified. Qualified ask retained below. | [Exact item][RP5-O] |
 | New | No verified new-hardware offer. | — |
 | Conditional historical like-new ask | **Rp2,400,000;Habis**, Ayx Music,Kab.Lamongan,shop58780289/item18228745237. Checked2026-10-17; four-week rendered cache,stale21–22September delivery; earlier discovery index was three months old. Bundle,adapter region,revision,warranty and voucher eligibility unknown. Late-delivery voucher is not immediate discount. Not live stock/completed sale. | [Exact item][RP5-O] |
+| Condition-unverified historical ask | **Rp2,485,000; Habis**, Ayx Music, Kab. Lamongan; shop58780289/item19748438675. Checked2026-10-18; rendered cache last month, stale17–18September delivery; search cache three months old. Title says “non HC”; no hard-case inclusion claimed. Condition, working state, revision, adapter, warranty, other bundle contents, voucher and present stock unknown. | [Exact item][RP5-O2] |
+| Condition-unverified historical ask | **Rp1,700,000**, Sandri Ramdani, Kota Depok; shop257384425/item27556067083. Checked2026-10-18; rendered cache five months old, **Layanan Tidak Tersedia**; no Habis label visible. Condition, working state, revision, adapter/bundle, warranty, voucher and present stock unknown; not a confirmed available unit. | [Exact item][RP5-O3] |
+| Condition-unverified historical ask | **Rp2,750,000; Habis**, SAEF GDI, Kab. Jepara; shop194831039/item5554328608. Checked2026-10-18; rendered cache last month with stale26–27August delivery. Condition, working state, revision, adapter/bundle, warranty, voucher and present stock unknown. | [Exact item][RP5-O4] |
 
 Read manufacturer manual/addendum and seller cache as web text; no dependencies,software,firmware or documents downloaded to filesystem. Product marketing mentions switching external stompboxes, but the complete named rear inventory has no effects-loop jacks; do not infer an RP1000-style external loop. Product120VAC figure is supply mains, not pedal input voltage. Addendum activation instructions differ:2s quiet-start versus3s on-the-fly; preserve rather than invent one universal hold time.
 
@@ -215,6 +218,16 @@ Read manufacturer manual/addendum and seller cache as web text; no dependencies,
 [RP5-L]: https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP500_Looper_Addendum_original.pdf
 [RP5-F]: https://digitech.com/faqs/
 [RP5-O]: https://shopee.co.id/Digitech-Rp500-like-new-i.58780289.18228745237
+
+### RP500 — library configurations
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Memory / editing libraries | **40 Tone Library configurations and40 Effects Library chains** are editing shortcuts, not additional preset locations or algorithms. Tone configurations combine compressor, distortion, amp/cabinet, EQ and gate; effects chains combine Chorus/FX, delay and reverb. | [Manual p3,29][RP5-M] |
+
+[RP5-O2]: https://shopee.co.id/Digitech-Rp500-non-HC-i.58780289.19748438675
+[RP5-O3]: https://shopee.co.id/FX-Digital-Digitech-Rp500-i.257384425.27556067083
+[RP5-O4]: https://shopee.co.id/Efek-Gitar-Digitech-Rp500-i.194831039.5554328608
 
 ## RP90
 

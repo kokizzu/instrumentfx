@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP90",
-    "task": "Named Chorus/FX and gate contradiction plus additional qualified-as-historical offer saved. Commit before next model. Current used/new prices, screen details, imports, software, expression toe support remain unresolved; do not silently resolve manual contradictions. Continue fresh series discovery and exact-model evidence; no downloads/workflows.",
+    "model": "DigiTech RP500",
+    "task": "Three additional exact historical offers and editing-library counts saved. Commit before next model. All new asks condition-unverified; current availability unproved. Remaining expression external, display, imports, software support and trails gaps persist; continue fresh discovery and exact documentation without downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP90."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP500."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57081,6 +57081,17 @@
       "sources": [
         "https://www.zikinf.com/manuels/digitech-rp90-manuel-utilisateur-en-30526.pdf",
         "https://shopee.co.id/DIGITECH-Efek-gitar-elektrik-type-RP90-i.69518756.25184148740"
+      ]
+    },
+    {
+      "model": "DigiTech RP500",
+      "checked_date": "2026-10-18",
+      "finding": "Added exact historical asks Rp2485000 Ayx item19748438675 sold-out, Rp1700000 Sandri item27556067083 service unavailable, Rp2750000 SAEF item5554328608 sold-out; all condition unknown and not live stock. Added 40 tone/40 effect configuration shortcuts separately from memory.",
+      "sources": [
+        "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+        "https://shopee.co.id/Digitech-Rp500-non-HC-i.58780289.19748438675",
+        "https://shopee.co.id/FX-Digital-Digitech-Rp500-i.257384425.27556067083",
+        "https://shopee.co.id/Efek-Gitar-Digitech-Rp500-i.194831039.5554328608"
       ]
     }
   ],
