@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-1B",
-    "task": "Firmware fixes/version discrepancy, editor prerequisites and named OS limits saved. Next fresh brand/series discovery and primary gap work. GT1B full category/block ceiling, power voltage/polarity/USB operation and qualified used pricing remain unresolved.",
+    "task": "Approved supply voltage/polarity and analog electrical ratings saved. Next fresh Shopee brand/series discovery and primary gap work; GT-1B full category/block ceiling, USB power, screen properties and qualified used pricing remain unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57479,6 +57479,16 @@
         "https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/9f9466c0-c8e7-44e8-bde8-407c795841ff/",
         "https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/",
         "https://www.boss.info/global/support/support_news/25090811m1/"
+      ]
+    },
+    {
+      "model": "BOSS GT-1B",
+      "checked_date": "2026-10-18",
+      "finding": "Approved PSA-S supply established as 9 V regulated DC, center negative, 500 mA capacity through GT-1B-specific recommendation; unit draw 200 mA remains distinct. Added 44.1 kHz/24-bit AF conversion and model-specific analog input/output levels and impedances. USB power remains unverified.",
+      "sources": [
+        "https://support.roland.com/hc/en-us/articles/115005753443-GT-1B-Recommended-Power-Supply",
+        "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications",
+        "https://www.boss.info/global/products/gt-1b/specifications/"
       ]
     }
   ],

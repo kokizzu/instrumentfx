@@ -71,6 +71,18 @@ Checked 2026-10-18; documentation read only, no software downloaded or device up
 | Editor / Windows driver restrictions | Driver **1.0.2**, May2023 Windows11 support; page also supports Windows10. Windows10 Mobile, ARM PCs, virtual Windows and Windows on Mac are explicitly excluded. Driver version and editor version are separate. | [Official driver](https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/57c47d17-307b-4045-8302-b4d16daaa50c/) |
 | Editor / macOS support status | Compatibility table updated2026-09-16 marks both GT-1B Hardware & Driver and Exclusive Application **Yes(Download) on macOS15/26; Under Testing on27**. This is dated manufacturer compatibility, not local verification or unrestricted future support. | [Official compatibility table](https://www.boss.info/global/support/support_news/25090811m1/) |
 
+### GT-1B — power and electrical qualifications
+
+Checked 2026-10-18 against model-specific specifications and manufacturer support articles; no downloads or device operation.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Power / approved supply | GT-1B support recommends PSA-series supplies and names PSA-S/PSA-S2 with 500 mA output capacity. The separate PSA-S specification gives **9 V regulated DC, center negative, 500 mA**. This establishes the approved adapter output through the model-specific recommendation; it is not a reading of the unit socket symbol. GT-1B draw remains approximately **200 mA**, with four alkaline AA as the battery alternative. Use the regional adapter version. USB bus operation remains unverified. | [GT-1B recommended supply](https://support.roland.com/hc/en-us/articles/115005753443-GT-1B-Recommended-Power-Supply); [PSA-S electrical specification](https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications) |
+| Processing / conversion | **44.1 kHz** sampling; ADC **24-bit + AF (Adaptive Focus)**, DAC **24-bit**. These converter ratings do not establish the USB stream bit depth. | [GT1B-S] |
+| I/O / input headroom | INPUT: nominal **−10 dBu**, maximum **+7 dBu**, **1 MΩ**. AUX IN: nominal **−20 dBu**, maximum **0 dBu**, **27 kΩ**. | [GT1B-S] |
+| I/O / output loading | Main outputs and PHONES: nominal **−10 dBu**. Main output impedance **1 kΩ**, recommended load **≥10 kΩ**; PHONES impedance **44 Ω**, recommended load **≥44 Ω**. Impedance is not headphone output wattage. | [GT1B-S] |
+
+
 ## GX-1B
 
 Bass multi-effects with built-in expression/toe switch. Consolidated/researched2026-10-16;partial verification. No GX-1 guitar-model specs substituted.
