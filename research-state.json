@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-10B",
-    "task": "GT-10B delay11,routing limits,protected presets andtuner saved. Remaining overall simultaneous ceiling,USB format,power/screen fields andShopee offer unresolved. Next fresh bass/vocal brand-series discovery before returning to inaccessible details.",
-    "next_models": [
-      "Fresh Shopee bass/vocal discovery; check inventory before adding"
-    ],
-    "after_queue": "315 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
+    "model": "TC-Helicon VoiceLive Touch 2",
+    "task": "Read official Quick Guide andreference manual;verify eligibility/own specifications before adding distinct active record. Exact Shopee95687096/3607760422 Rp9299000cachedsoldout saved;new/usedunknown. Retain GT-10B unresolved technical/market fields.",
+    "next_models": [],
+    "after_queue": "Continue bass/vocal brand-series discovery and remaining technical/ownership/migration gaps.315active;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -23980,6 +23978,26 @@
       "checked_date": "2026-10-17",
       "status": "partial root record",
       "qualification": "Searchexacttitle;itemcachemiss;selecteddisplaymodel30511615878variationnotverified;JakartaPusat."
+    },
+    {
+      "model": "TC-Helicon VoiceLive Touch 2",
+      "url": "https://shopee.co.id/Efek-Vocal-TC-Helicon-Voice-Live-Touch-2-Garansi-Original-i.95687096.3607760422",
+      "seller_id": "95687096",
+      "item_id": "3607760422",
+      "seller": "limitless__store",
+      "region": "KOTA JAKARTA PUSAT",
+      "indexed_idr": 9299000,
+      "checked_date": "2026-10-18",
+      "condition": "Unknown; no explicit new/used classification in readable extract",
+      "stock": "Habis in indexed/direct reopened text; crawled last month, not current stock confirmation",
+      "bundle_variant": "Not established; title says Garansi Original but warranty not authenticated",
+      "voucher": "No purchase discount established; late-arrival compensation up to Rp20000 is not a hardware discount",
+      "access": "Search-index text and same URL opened in web reader; checkout not inspected",
+      "status": "Exact hardware lead; not yet added to active inventory",
+      "manufacturer_sources_to_read": [
+        "https://mediadl.musictribe.com/download/software/tchelicon/vlt2_quick_start_en.pdf",
+        "https://mediadl.musictribe.com/download/software/tchelicon/tc-helicon_voicelive_touch_2_reference_manual_en.pdf"
+      ]
     }
   ],
   "inventory_by_brand": {
@@ -65006,5 +65024,16 @@
     ],
     "result": "No accepted exact Indonesian processor offer; indexed accessory/category results do not establish hardware price or absence.",
     "checked_date": "2026-10-18"
+  },
+  "discovery_bass_vocal_20261018": {
+    "queries": [
+      "site:shopee.co.id \"bass\" \"BP355\"",
+      "site:shopee.co.id \"GT-6B\"",
+      "site:shopee.co.id \"VoiceLive\" \"Touch 2\"",
+      "site:shopee.co.id \"vocal\" \"TC Helicon\" \"Touch\"",
+      "site:shopee.co.id \"bass multi\" \"Zoom\"",
+      "site:shopee.co.id \"Harmony G\""
+    ],
+    "finding": "Initial exact queries empty; broader vocal query found unrecorded VoiceLive Touch 2 exact hardware. Zoom hits mostly existing models; do not add duplicates. Search incompleteness is not market absence."
   }
 }
