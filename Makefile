@@ -1807,3 +1807,7 @@ research-commit-blacktruck:
 .PHONY: research-commit-prime-s1
 research-commit-prime-s1:
 	python3 scripts/research_tools.py commit-prime-s1
+
+.PHONY: research-commit-anagram
+research-commit-anagram:
+	python3 scripts/research_tools.py commit-anagram
