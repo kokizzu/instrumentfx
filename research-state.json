@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha SPX2000",
-    "task": "SPX2000 PRESET Freeze limits and algorithm-internal simultaneous examples saved. Next CLASSIC Freeze A/B,category counts,editor/driver compatibility and displaybacklight discrepancy; bass still unclassified.",
+    "task": "SPX2000 CLASSIC Freeze variants and sample-erasure operations saved. Next full category/algorithm counts,editor/driver compatibility and displaybacklight discrepancy; bass still unclassified.",
     "next_models": [],
     "after_queue": "Search Shopee by brand/series for unrecorded eligible multi-effects. Keep MX400 library/bank follow-up pending; no downloads,workflows,push."
   },
@@ -53576,5 +53576,11 @@
     "pages": "77–84",
     "finding": "PRESET Freeze sample-rate-dependent2.9705/2.7292sec,mono-in/stereo-out,loop/reverse/pitch/trigger controls and destructive record-ready/poweroff rules. MultiFilter3simultaneous and multiband dynamics internal combinations distinguished from assignable slots.",
     "remaining": "CLASSIC Freeze A/B details,full category counts,current editor/driver support and displaybacklight discrepancy."
+  },
+  "spx2000_classic_freeze_followup_20261017": {
+    "source": "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf",
+    "pages": "78–81",
+    "finding": "FreezeAstart/end/inputtrigger differs from FreezeBpitch/basekey/heldpanelplayback. Fixed−14dBauto threshold and sample-erasure operations preserved.",
+    "remaining": "Full category/algorithm counts,software compatibility and displaybacklight source discrepancy."
   }
 }
