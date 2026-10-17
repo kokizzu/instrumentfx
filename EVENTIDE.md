@@ -6,15 +6,15 @@ Checked 2026-10-17; partial. Max is distinct from Standard/Core; ownership unver
 
 | Field | Evidence / qualification |
 |---|---|
-| Instrument scope | Guitar setups in own manual; bass/vocal suitability unclassified pending explicit evidence. |
+| Instrument scope | **Guitar and bass:** own manual p43 offers GUITAR, BASS, SYN.LD and SYN.BAS source modes, optimizing pitch algorithms and filter ranges for that source. Vocal suitability remains unclassified. [M][H9-M] |
 | Expression | No built-in pedal. External EXP controls multiple parameters;5–25kΩ linear pot, auto-calibration. EXP alternatively supports 3 momentary switches;toe-switch support unknown. Manual calls EXP stereo, product table says mono: retain connector conflict. [M pp25–26][H9-M] |
 | Knobs / footswitches / buttons | **1 rotary/2 footswitches/5 buttons**:encoder;left/right;HOTKNOB,X,Y,Z,PRESETS. Encoder press counted once; derived from text, not visual inspection. [M pp7–9][H9-M] |
-| Display | Six-character display plus LightRing;diagonal,color/touch unverified. [M p18][H9-M] |
+| Display | **Six-character alphanumeric LED display**, plus LightRing; diagonal, monochrome/color and touch specifications remain unverified. [M p18][H9-M] |
 | Processing / choices | **52 algorithms**,from TimeFactor, ModFactor, PitchFactor, Space and H9-specific families. Guide contents reconcile **Space 12 + PitchFactor 10 + TimeFactor 10 + ModFactor 10 + H9-specific 10 =52** [G pp1–2][H9-G]. **One preset operates both channels; two presets cannot run simultaneously**. Fixed combined algorithms are not free block chains. [P][H9-P],[M p10][H9-M] |
 | Factory / user memory | **99 onboard slots, 99 factory presets, editable/saveable**;not 99 factory + 99 extra user. App offers 500+ presets, not additional onboard slots. [P][H9-P],[M pp7,18][H9-M] |
 | Synth / acoustic | **HotSawz:** 6 saw oscillators follow a mono pitch tracker, low-pass filter. **Synthonizer:** additive voice A/subtractive voice B; input 1 only, input 2 disabled, no tempo mode. Acoustic simulation remains unverified. [G pp31,75][H9-G] |
 | Dimensions / mass | Product labels **133H×118W×50Dmm;0.7kg**. Axis labels are unusual for a floor pedal; retained without normalization. [P][H9-P] |
-| Audio / control I/O | Two ¼-inch mono inputs, two ¼-inch mono outputs,EXP,mini USB 2.0, MIDI IN and OUT/THRU 5-pin DIN,DC. **600kΩ input, 470Ω output, load ≥10kΩ**. No headphone connector in the published list. USB audio unverified;USB MIDI documented. [P][H9-P] |
+| Audio / control I/O | Two ¼-inch mono inputs, two ¼-inch mono outputs,EXP,mini USB 2.0, MIDI IN and OUT/THRU 5-pin DIN,DC. **600kΩ input, 470Ω output, load ≥10kΩ**. No headphone connector in the published list. USB audio unverified; USB MIDI documented. **USB connected disables DIN MIDI activity, including thru** [M p27][H9-M]. [P][H9-P] |
 | Power / battery / USB | **9V DC 500mA, center-positive, 5.5/2.5mm**,supply included; published power specification, not measured current. Battery/USB operation unverified. [P][H9-P] |
 | IR / NAM / captures | User IR, native/converted NAM and captures unverified. |
 | Editor / platforms | **H9 Control iOS/Android/Mac/PC**,editing, setlists, preset management via Bluetooth or USB; Official listing: **Windows 4.0.1, macOS 4.1.6, iOS 4.0.5**; Android ≤12 uses 4.0.1, Google Play 4.1.2 added Android 13+ support and lists 4.2.0. Full OS matrix pending. In-app algorithm store removed in 4.0.1. [Downloads][H9-D] [P][H9-P] |
@@ -60,3 +60,9 @@ Checked 2026-10-17 against the manufacturer-authored guide body on [Scribd][H9-G
 These are lineage groups, not five simultaneous blocks. Earlier full-guide access gap is narrowed by this readable original-body copy; the official PDF remains inaccessible. Actual installed algorithms/firmware are unverified. The older guide found at [Zikinf](https://www.zikinf.com/manuels/eventide-h9-algorithm-guide-en-46958.pdf) says over40 and no Looper; retain that as older documentation, superseded here by the 52-entry contents and official H9 looper supplement. No file downloaded.
 
 [H9-G]: https://www.scribd.com/document/754982282/Eventide-H9-Multi-FX-Algorithm-Guide-v12
+
+### H9 Max — bass source mode and MIDI transport
+
+Checked 2026-10-17 against [own H9 User Guide][H9-M], printed pp5,27,43,47. The BASS/SYN.BAS modes explicitly optimize pitch algorithms and filter ranges; they establish bass capability, not uniform performance for every algorithm. This supersedes the earlier unclassified bass scope. USB priority excludes concurrent DIN MIDI, including MIDI thru. A Windows “USB Audio Device” driver name does not by itself establish audio streaming. USB audio, bus power and capture/IR import remain unresolved.
+
+The same manual’s DC connector specification says **2.5×5mm**, whereas the product page says **5.5/2.5mm**; retain this outer-diameter discrepancy alongside the existing EXP mono/stereo wording conflict. Do not silently substitute Gen 2 power specifications. No hardware operation or file download.

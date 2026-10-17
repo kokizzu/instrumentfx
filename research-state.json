@@ -9,7 +9,7 @@
   "excluded_model_count": 6,
   "canonical_root_model_count": 296,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "296 unique active/root-canonical;0legacy-only;33brands;6excluded;allpartial. EventideH9Max addedseparatelyfromStandard/Core;guitarverified,bass/vocalunclassified.",
+  "count_reconciliation": "296 unique active/root-canonical;0 legacy-only;33 brands;6 excluded;all partial. H9 Max now shared guitar/bass via own SOURCE mode evidence;vocal unresolved.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Eventide H9 Max",
-    "task": "H9Max52algorithmfamilyinventory andHotSawz/Synthonizerinputlimits savedfromreadableoriginalbodymirror. Next bass/vocalcapability orUSB/audio/power/display/import gaps;do notborrowGen2/H90. OfficialV12PDFstillinaccessible;no downloads.",
+    "task": "H9Max basscapability verifiedfromSOURCEBASS/SYN.BAS;addedsharedbasscomparison. LEDtype,USBpriorityexcludesDIN,DCouterdiameterconflict saved. Next othermodelgaps/freshShopee discovery;H9USBaudio/power/importsstillunknown.",
     "next_models": [],
     "after_queue": "ContinuefreshShopeediscovery/technicalverification/consolidation;no downloads/workflows/push."
   },
@@ -24472,9 +24472,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 114,
+      "record_count": 115,
       "bass_focused_record_count": 28,
-      "shared_bass_capable_count": 86,
+      "shared_bass_capable_count": 87,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -41449,8 +41449,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 114,
-    "bass_shared_models": 86,
+    "bass_view_models": 115,
+    "bass_shared_models": 87,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -41866,7 +41866,8 @@
       "Lexicon::MX300",
       "Lexicon::MX400",
       "Yamaha::SPX990",
-      "TC Electronic::PLETHORA X5"
+      "TC Electronic::PLETHORA X5",
+      "Eventide::H9 Max"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -41932,6 +41933,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Eventide::H9 Max": "Own H9 User Guide p43 explicitly offers BASS and SYN.BAS source modes optimizing pitch algorithms and filter ranges; not inferred from an EQ knob or sibling. [Manufacturer manual](https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf).",
     "Zoom::1201": "Own1201 manual p4 explicitly covers electric guitar or bass through a preamp/compact effect;not direct high-impedance input. [Manufacturer manual](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_1201.pdf).",
     "Hotone::Ampero Mini MP-50": "Own Mini firmware V2.2 manual explicitly lists five bass amp/preamp models, including SVT and B-15 models; model-specific processing evidence, not inferred from an EQ knob or sibling. [Manufacturer manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf).",
     "Line 6::Floor POD Plus": "Own EnglishRevB section2•11 explicitly recommends TubePreamp as direct box for bass;not inferred from Bassman ancestry. [Manual](https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf)",
@@ -51571,6 +51573,14 @@
       "pages": "1–2,31,75",
       "finding": "OriginalH9bodymirror,uploadreportsV12;52lineage12Space+10Pitch+10Time+10Mod+10H9. HotSawz6sawmono tracking;Synthonizeradditive/subtractive,In1only/In2disabled/notempo. Oldover40/noLooperguidekeptasolderdocumentation.",
       "remaining": "Embeddedrevisionstamp,fullparameters/combinedrouting,bass/vocal,USB/imports/display/power/currentoffers"
+    },
+    {
+      "model": "Eventide H9 Max",
+      "checked_date": "2026-10-17",
+      "source": "https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf",
+      "pages": "5,27,43,47",
+      "finding": "BASS/SYN.BASsourceoptimizespitch/filterranges:positivebassmembership. SixcharacteralphanumericLED;USBdisablesDINMIDIincludingthru. ManualDC2.5x5mmvsproduct5.5/2.5outerdiameterconflictretained.",
+      "remaining": "Vocaleligibility,USBaudio/buspower,imports,displaydiagonal/color/touch,currentdraw/stock"
     }
   ],
   "discovery_cross_brand_bass": {
