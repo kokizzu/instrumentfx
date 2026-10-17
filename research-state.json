@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 230,
+  "active_model_count": 231,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 230,
+  "canonical_root_model_count": 231,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "230 unique active/root-canonical records;zero legacy-only;GNX3 adds guitar and documented bass membership. Six specialist archives excluded.",
+  "count_reconciliation": "231 unique active/root-canonical models;zero legacy-only;29brands. MX200 adds guitar/vocal mixer-path membership,not direct-mic or bass support. Six excluded archives.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MX200",
-    "task": "MX200 original indexed manufacturer evidence saved in mx200_primary_verification_20261017:2simultaneous,32choices,99+99,9VAC1300mA,line-level mixer routing. Direct manual/product403. Find accessible manufacturer CDN/indexed sections,complete record andqualified classification,then commit before FX2000. Do not infer direct mic input or USB audio.",
-    "next_models": [
-      "Behringer FX2000"
-    ],
-    "after_queue": "Continue bass/vocal discovery and technical gaps;no downloads/workflows."
+    "model": "Behringer FX2000",
+    "task": "Verify saved exact hardware leads andprimary architecture/routing;do not infer mic input from vocal seller title. MX200 partial record saved;do not add again.",
+    "next_models": [],
+    "after_queue": "Continue discovery,technical gaps andmigration;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -4923,6 +4921,18 @@
       ],
       "finding": "Original multi-effects/bass architecture;65factory+65user;power conflict retained;exact seller lead condition unresolved.",
       "remaining": "Controls/categories,power conflict,screen,recording,loading,qualified offers"
+    },
+    {
+      "model": "Lexicon MX200",
+      "checked_date": "2026-10-17",
+      "status": "partial",
+      "sources": [
+        "https://lexiconpro.com/en-US/products/mx200/downloads_and_docs",
+        "https://lexiconpro.com/en-US/product_documents/mx200_infosheetpdf",
+        "https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf"
+      ],
+      "finding": "2engines32choices;99factory+99user;line-level mixer paths;power supply revision conflict retained.",
+      "remaining": "Fullmanual,controls,display,body/power/USB,qualified offers"
     }
   ],
   "consolidation_and_price_findings": [
@@ -23796,6 +23806,9 @@
       "Bass V-AMP",
       "Bass V-AMP PRO",
       "V-AMP 2"
+    ],
+    "Lexicon": [
+      "MX200"
     ]
   },
   "root_brand_content": {
@@ -24084,11 +24097,14 @@
       "Bass V-AMP",
       "Bass V-AMP PRO",
       "V-AMP 2"
+    ],
+    "LEXICON.md": [
+      "MX200"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 187,
+      "record_count": 188,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24100,9 +24116,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 35,
+      "record_count": 36,
       "vocal_only_count": 21,
-      "combined_instrument_count": 14,
+      "combined_instrument_count": 15,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -40991,13 +41007,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 230,
-    "canonical_root_models": 230,
+    "unique_brand_model_pairs": 231,
+    "canonical_root_models": 231,
     "legacy_only_models": 0,
-    "guitar_view_models": 187,
+    "guitar_view_models": 188,
     "bass_focused_models": 21,
     "vocal_only_models": 17,
-    "vocal_view_models": 35,
+    "vocal_view_models": 36,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -41054,7 +41070,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Bass/vocal Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer FX2000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41244,7 +41260,8 @@
       "Tech 21::Fly Rig 5 v2",
       "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
-      "Behringer::V-AMP 2"
+      "Behringer::V-AMP 2",
+      "Lexicon::MX200"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -41375,7 +41392,8 @@
       "TC-Helicon::Duplicator",
       "TC-Helicon::Harmony Singer 2",
       "Zoom::V6-SP",
-      "Zoom::V3"
+      "Zoom::V3",
+      "Lexicon::MX200"
     ]
   },
   "comparison_bass_basis": {
@@ -43222,6 +43240,13 @@
       "link": "BEHRINGER.md#v-amp-2",
       "source_files": [
         "BEHRINGER.md"
+      ],
+      "finding_files": []
+    },
+    "Lexicon::MX200": {
+      "link": "LEXICON.md#mx200",
+      "source_files": [
+        "LEXICON.md"
       ],
       "finding_files": []
     }
