@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive Play",
-    "task": "VLP QSGv2.0 original mirror verified:RoomSenseUSB/AUX restriction andloop preset navigation saved. Next source dimensions/power/USBformat/memory/currentfirmware orfresh discovery;do not confuse QSGv2 withv3orfirmware.",
+    "model": "TC-Helicon VoiceLive 3 Extreme",
+    "task": "ImaginationHabis/preorderoffer saved;existingKisamaoffer reprojected intoactive prices. Continue manufacturer control/power/algorithm gaps andfreshdiscovery;keepstandardVL3 separate.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -41547,7 +41547,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Play."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive 3 Extreme."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60851,5 +60851,26 @@
       "UpDown trimtaptempo BPM"
     ],
     "limits": "Textonly,no visualinspection/device test;dimensions/USBformat/currentfirmware unresolved"
+  },
+  "vl3x_additional_offer_20261017": {
+    "shop": "19576516",
+    "item": "7464916874",
+    "seller": "Imagination Music Store",
+    "idr": 11750000,
+    "region": "KotaJakartaPusat",
+    "access": "directretrieval,montholdcrawl",
+    "stock": "Habis and7daypreorder both displayed",
+    "condition": "unknown",
+    "limits": "staleSeptember18delivery;workingstatus,bundle,warranty/import,shipping/tax unknown;20klatecompensationnotdiscount",
+    "projection_repair": "Existing Kisama18,919,000 observation also included in active comparison without removing provenance orrefreshingstock"
+  },
+  "discovery_vocal_legacy_frontier_20261017_extra": {
+    "queries": [
+      "site:shopee.co.id VoiceLive 2",
+      "site:shopee.co.id VoiceLive Play GTX",
+      "site:shopee.co.id Vocalist Live 3",
+      "site:shopee.co.id Play Electric Helicon"
+    ],
+    "result": "OnlyexistingVLP/VL3X hardware andadapter;noqualifiednewmodel,nocoverageclaim"
   }
 }
