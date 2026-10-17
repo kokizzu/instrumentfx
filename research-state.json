@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GX-1B",
-    "task": "GX1B USB modes, dry/reprocessing routing and monitor/loopback saved. Next exact USB channel/bitdepth evidence, OS compatibility, IR length and fresh qualified Shopee offers. Do not infer USB format from converter specs.",
+    "task": "GX1B approved DC supply and dated macOS app/driver status saved; Salomo cached offer rechecked. Next broaden fresh discovery or other model gaps; GX1B USB channel/bitdepth, IR length, screen diagonal/touch and qualified used price still unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57533,6 +57533,17 @@
       "sources": [
         "https://static.roland.com/manuals/gx-1b_parameter/en-US/392593931399205515.html",
         "https://static.roland.com/manuals/gx-1b_reference/en-US/385298827387664523.html"
+      ]
+    },
+    {
+      "model": "BOSS GX-1B",
+      "checked_date": "2026-10-18",
+      "finding": "Named PSA-S adapter output 9VDC center negative500mA distinct from250mA unit draw; macOS table Sep16 marks app+driver15/26YesDownload27Testing. Salomo exact cached4.868m voucher repeated; stock/condition unknown.",
+      "sources": [
+        "https://static.roland.com/manuals/gx-1b_reference/en-US/383026187387597195.html",
+        "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications",
+        "https://www.boss.info/global/support/support_news/25090811m1/",
+        "https://shopee.co.id/Boss-GX1B-Pedal-Bass-Multi-Effects-Original-i.1776275.52656028208"
       ]
     }
   ],

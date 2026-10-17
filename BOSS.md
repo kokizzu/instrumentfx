@@ -196,6 +196,16 @@ Checked 2026-10-18 against the model-specific parameter and reference manuals.
 | I/O / monitoring and loopback | Direct monitor switches the unit sound to OUTPUT/PHONES and resets ON at startup; the setting cannot be saved. LOOPBACK sends computer audio mixed with processed bass back to the computer. | [USB parameters](https://static.roland.com/manuals/gx-1b_parameter/en-US/392593931399205515.html) |
 | Editor / backup scope | Reference manual explicitly includes backup and restoration of both memories and system settings, alongside memory naming, ordering and sharing. | [Computer connection](https://static.roland.com/manuals/gx-1b_reference/en-US/385298827387664523.html) |
 
+### GX-1B — approved adapter, macOS status and offer recheck
+
+Checked 2026-10-18.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Power / approved DC adapter | The GX-1B manual specifies PSA-S series at DC IN. Official PSA-S specifications give **9 V regulated DC, center negative, 500 mA capacity**; this is the named adapter output, distinct from GX-1B's 250 mA DC/battery draw. Regional adapter compatibility applies. USB power is a separate 5 V supply path. | [GX1B-C]; [Official PSA-S specification](https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications) |
+| Editor / dated macOS compatibility | Table updated **2026-09-16** marks GX-1B **Hardware & Driver** and **Exclusive Application** each **Yes(Download) for macOS 15/26**, **Under Testing for 27**. This is manufacturer status, not a local test or future compatibility promise. | [Official compatibility table](https://www.boss.info/global/support/support_news/25090811m1/) |
+| IDR / Salomo offer recheck | Exact seller/item **1776275/52656028208**, Jakarta Utara: cached body crawled six days earlier again shows **Rp4.868.000, Dengan Voucher**, minimum Rp10.000/10% discount wording, cap unspecified. No Habis text in retrieved body; this is not stock proof. Condition, adapter bundle and warranty region remain unknown; late-delivery Rp10.000 compensation is separate from the hardware voucher. | [Exact Shopee hardware listing](https://shopee.co.id/Boss-GX1B-Pedal-Bass-Multi-Effects-Original-i.1776275.52656028208) |
+
 
 ## ME-90B
 
