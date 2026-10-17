@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 Helix Stadium XL Floor",
-    "task": "IR storage and snapshots saved. Next inspect official https://line6.com/helix-stadium-models/ category inventory; power label and remaining routing limits unknown. Then resume exact Shopee discovery.",
+    "task": "Effect category row counts and synth/acoustic proof saved. Next audit unique amp/cab list (Cali 2C+ duplicated); power rating remains unverified. Then resume exact Shopee discovery without repeating completed checks.",
     "next_models": [],
     "after_queue": "Market coverage and legacy consolidation remain incomplete; no downloads or workflows."
   },
@@ -49579,6 +49579,15 @@
         "https://manuals.line6.com/en/helix-stadium/live/snapshots"
       ],
       "remaining": "Power label, category choices, routing and DSP ceilings, qualified offers."
+    },
+    {
+      "model": "Line 6 Helix Stadium XL Floor",
+      "checked_date": "2026-10-17",
+      "finding": "Official current model tables counted as named rows: distortion65 delay45 reverb25 modulation57 dynamics19 EQ5 pitch/synth29 filter15 wah11 volume/pan5 looper3, including Legacy, not doubled for mono/stereo. Acoustic Sim and 3 OSC Synth established. Amp table duplicates Cali 2C+; unique amp/cab audit still pending.",
+      "sources": [
+        "https://line6.com/helix-stadium-models/"
+      ],
+      "remaining": "Amp/cab unique count, power label, further routing and qualified offers."
     }
   ],
   "discovery_cross_brand_bass": {
