@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MX400",
-    "task": "MX400 dry digital-output exception, bypass tails and backup/archive/reset scope saved. Bank totals/current OS/visual controls remain open. Fresh Shopee frontier searches found no qualifying new hardware. Continue alternate brand/series discovery or unresolved primary fields; no downloads.",
+    "model": "Legacy preservation audit",
+    "task": "Four preservation checks passed and physical117-path inventory reconciled. Full make technical-retirement-verify is still live in exec session47111; poll that handle before restarting. Do not claim full technical audit passed until successful exit. Research remains partial.",
     "next_models": [],
-    "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
+    "after_queue": "Resume exact Shopee discovery/incomplete fields after observing current audit. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45259,7 +45259,43 @@
         "rollback": "Replace exact after tokens with before;remove only this entry"
       }
     },
-    "root_navigation_canonical": true
+    "root_navigation_canonical": true,
+    "preservation_recheck_20261018": {
+      "checked_date": "2026-10-18",
+      "source_head": "b0d5cb5beac67f14ffb4bcb63092e78a75fd7ce0",
+      "completed_checks": [
+        {
+          "target": "make consolidation-verify",
+          "result": "PASS: complete consolidated bodies and supporting comparison facts retained."
+        },
+        {
+          "target": "make metadata-retirement-verify",
+          "result": "PASS:13 metadata redirects;original headings/incoming anchors/root destinations and root metadata checked."
+        },
+        {
+          "target": "make json-retirement-verify",
+          "result": "PASS:3 original JSON files/2 unique typed snapshots reconstructed exactly."
+        },
+        {
+          "target": "make specialist-retirement-verify",
+          "result": "PASS:GM-800 complete section,excluded archive,specialist context and incoming anchors."
+        }
+      ],
+      "physical_legacy_inventory": {
+        "total": 117,
+        "markdown": 114,
+        "json": 3,
+        "manifest_entries": 116,
+        "additional_excluded_redirect": "effects/findings/2026-10-14-flamma-fv01.md"
+      },
+      "full_technical_check": {
+        "target": "make technical-retirement-verify",
+        "status": "running_not_yet_verified",
+        "session_id": 47111,
+        "next": "Poll this existing exec session; do not launch duplicate audit while it is live."
+      },
+      "limitations": "These checks verify retained evidence, not manufacturer truth or current market/stock.117 compatibility paths remain; overall migration and technical research incomplete."
+    }
   },
   "deferred_work": {
     "original_display_idr_pages_remaining": [
