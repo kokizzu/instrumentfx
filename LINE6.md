@@ -900,6 +900,16 @@ Checked 2026-10-18. The older updater procedure above remains historical documen
 | Editor / Monkey support limits | Yamaha Guitar Group states that **Line 6 Monkey is no longer developed for newer OS releases**, explicitly naming Windows11, macOS Catalina and Monterey. Its notice directs firmware installations to an older supported OS; it does not establish M5 support in Line 6 Central or a modern patch editor. Preserve this qualification alongside the older Monkey1.35+ procedure. SysEx backup is separately documented and is not proof of current Monkey compatibility. | [Official discontinuation notice](https://kb.line6.com/line-6-monkey-discontinued) |
 | Dimensions / source access | Official dimensions page exposes2010 XLS and2017 XLSX attachments, with no M5 dimensions in rendered page text. Files were not downloaded; dimensions and mass remain unknown here. Do not substitute Mission expression-pedal measurements or another Line6 model. | [Official dimensions index](https://kb.line6.com/line-6-product-weights-and-dimensions) |
 
+### M5 MIDI values and tempo restrictions
+
+Checked 2026-10-18 against the Rev B guide; documentation verification, not a device test.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| MIDI / control values | Guide states CC and program-change send/receive on channels1–16 or Omni. **PC0–23 maps to presets01–24**. **CC64 values64–127** trigger tap; **CC11 values0–63 bypass,64–127 enable**; **CC1 values0–127** provide expression; **CC69 values0–63 exit tuner,64–127 enter**. These documented controls do not establish arbitrary MIDI routing or THRU. | [Rev B PDF p8][M5-M] |
+| Live / tempo and expression limits | Manual tempo range **30–240 BPM**, global or per preset; holding TAP permits0.1-BPM edits. Tempo-enabled effects follow incoming MIDI Beat Clock. Parameters assigned to tap-tempo control are excluded from expression-pedal adjustment. Separate setup gate has threshold/decay controls but no footswitch control. | [Rev B PDF pp5,7–8][M5-M] |
+| Expression / assignment reset | Heel/toe endpoints are stored per preset. To clear selected parameter assignments, the guide describes disconnecting the pedal, changing those parameters, then reconnecting. This is distinct from factory reset, which resets presets and global settings. | [Rev B PDF pp7–8][M5-M] |
+
 ## M9
 
 Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
