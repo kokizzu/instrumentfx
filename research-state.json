@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Bass/vocal Shopee discovery",
-    "task": "GNX3 recorded;finish its technical gaps later. Search fresh brand/series exact bass/vocal hardware;prior negative queries are not absence evidence.",
-    "next_models": [],
-    "after_queue": "Continue technical gaps and legacy migration;no downloads/workflows."
+    "model": "Lexicon MX200",
+    "task": "Verify exact primary manufacturer architecture and vocal/line-level use before inclusion. Shopee66941795/9518332031 indexed Rp4.433.000;40716721/27231647996 Rp1.500.000 Habis. Conditions unknown. Do not assume mic input from vocal seller title.",
+    "next_models": [
+      "Behringer FX2000"
+    ],
+    "after_queue": "Continue bass/vocal discovery and technical gaps;no downloads/workflows."
   },
   "new_findings": [
     {
@@ -52226,5 +52228,76 @@
       "voucher": "unknown",
       "status": "queued; not counted active until manufacturer verification"
     }
+  },
+  "discovery_rack_vocal_20261017": {
+    "queries": [
+      "TC Helicon VoiceTone",
+      "Boss ME-6B",
+      "Zoom 708 bass",
+      "Digitech BNX3",
+      "VoiceTone Create",
+      "VoiceLive Touch2",
+      "VE-200",
+      "Zoom B9",
+      "Lexicon MX200",
+      "Behringer FX2000"
+    ],
+    "scope": "Limited Shopee index discovery,not exhaustive;no technical eligibility inferred from seller titles.",
+    "not_promoted": [
+      "VoiceTone C1/E1/H1/X1:dedicated-function leads,not active multifx entries pending architecture evidence",
+      "ME-6B,BNX3,Create,Touch2:no exact hardware established in these queries",
+      "Recommendation carousel alone does not establish seller;exact item search separately identifies offers"
+    ],
+    "leads": [
+      {
+        "model": "Lexicon MX200",
+        "url": "https://shopee.co.id/Efek-Vokal-Lexicon-Mx200-Mx-200-Original-i.66941795.9518332031",
+        "seller": "bajuoasa",
+        "seller_id": "66941795",
+        "item_id": "9518332031",
+        "idr": 4433000,
+        "region": "Depok",
+        "stock": "unknown",
+        "condition": "unknown",
+        "access": "two-month-old search index;stale August19–22 delivery"
+      },
+      {
+        "model": "Lexicon MX200",
+        "url": "https://shopee.co.id/Lexicon-MX200-i.40716721.27231647996",
+        "seller": "Ahdum shop",
+        "seller_id": "40716721",
+        "item_id": "27231647996",
+        "idr": 1500000,
+        "region": "Kab.Cianjur",
+        "stock": "Habis",
+        "condition": "unknown",
+        "access": "last-month indexed;August27–30 delivery"
+      },
+      {
+        "model": "Behringer FX2000",
+        "url": "https://shopee.co.id/Behringer-FX2000-FX-2000-FX-2000-Effects-Processor-3D-Efek-Vocal-i.295455465.6248529259",
+        "seller": "Pro Sound Hub",
+        "seller_id": "295455465",
+        "item_id": "6248529259",
+        "idr": 3300000,
+        "region": "Bekasi",
+        "stock": "Habis",
+        "condition": "unknown",
+        "access": "four-month-old indexed;June17 delivery"
+      },
+      {
+        "model": "Behringer FX2000",
+        "url": "https://shopee.co.id/Behringer-FX2000-3D-Virtualiser-FX-2000-3D-Efek-Vocal-Original-i.307891948.27592214711",
+        "seller": "Evolusishop",
+        "seller_id": "307891948",
+        "item_id": "27592214711",
+        "idr": 3310000,
+        "region": "Kab.Ponorogo",
+        "stock": "unknown",
+        "condition": "unknown",
+        "access": "three-month-old indexed;July15–17 delivery"
+      }
+    ],
+    "common_limits": "No checkout,condition,bundle,warranty,voucher or live stock verified. No active inventory additions until primary architecture evidence."
   }
 }
