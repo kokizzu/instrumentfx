@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Donner Triple Threat",
-    "task": "Triple Threat provisional Rev01 transcription added. Next inspect original manual if accessible without download to confirm ports/revision; otherwise continue fresh Shopee brand discovery. Preserve remaining unknowns.",
+    "model": "Zoom G2Nu / G2.1Nu discovery",
+    "task": "Read exact manufacturer manual lead saved in discovery_frontier_rejections_20261017, then seek qualified exact Shopee hardware. Do not treat adapter/search cards as hardware offers. Triple Threat original-PDF/connector verification remains open.",
     "next_models": [],
-    "after_queue": "274 partial records; no downloads/workflows/push; broader market research and legacy retirement remain incomplete."
+    "after_queue": "274 partial models; continue fresh brand/series discovery and unresolved field verification; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -56537,5 +56537,28 @@
     "revision": "Donner LLC Rev01 2023-09, transcription; original PDF inaccessible",
     "facts": "9 rotary/3 foot; buffer bypass; 9V DC center-negative45mA;196x64x45mm axes unspecified;600ms echo; input2.2Mohm/output100kohm",
     "limits": "Textual sections only; no generated diagram interpretation; original PDF revision equivalence not verified; no downloads."
+  },
+  "discovery_frontier_rejections_20261017": {
+    "checked": "2026-10-17",
+    "queries": [
+      "Donner Pocket Go",
+      "Donner Alpha Cruncher",
+      "Donner Versa",
+      "Zoom G2Nu",
+      "DigiTech RP150",
+      "BOSS GT-10B",
+      "MOOER Red Truck",
+      "Sonicake Twiggy Blues",
+      "Valeton Dapper Sonic"
+    ],
+    "scope": "site:shopee.co.id exact-name web searches, limited index evidence only",
+    "result": "No new qualified exact hardware item. Empty searches do not prove market absence. G2Nu results were power adapters; GT10B results were power supplies/mixed GT10 accessory cards. RP150 follow-up returned unrelated voucher Rp150 beauty products, rejected. Existing G3X/G5n cards do not prove G2Nu hardware.",
+    "references": [
+      "https://shopee.co.id/search?keyword=%2CG3XN",
+      "https://shopee.co.id/search?keyword=boss+gt+10"
+    ],
+    "next": "Avoid repeating identical narrow queries. Inspect exact manufacturer G2Nu/G21Nu manual lead for model identity and seek named Indonesian seller inventories; keep prices unassigned without exact hardware item.",
+    "manufacturer_lead": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf",
+    "technical_status": "Manual not read in this pass; no specifications adopted; no model/count changes."
   }
 }
