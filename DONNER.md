@@ -182,3 +182,7 @@ Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitabil
 ### Triple Threat — direct collaboration-source confirmation
 
 [Third Man Hardware launch,2024-01-25](https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat), checked2026-10-17: confirms signal order, nine knob labels, buffered bypass, yellow effect-on LEDs and9VDC adapter inclusion. **Standard black and limited yellow** are launch variants; no separate processing architecture is established. The Indonesian listing’s color, edition and adapter bundle remain unknown. No foreign launch price is converted into IDR. This strengthens the controls/routing/bypass evidence without resolving the manual-only polarity/current or connector inventory.
+
+### Triple Threat — alternate official manual source
+
+Checked2026-10-17: [Donner Mexico’s exact product page](https://mx.donnermusic.com/products/donner-triple-threat-pedal-de-efectos-para-guitarra) links a second [official-storage manual](https://storage.donnermusic.com/official-user/202403/Donner_Triple_Threat_Manual.pdf). The web reader rejected application/octet-stream; contents and revision were not inspected. This is a source-access lead, not connector confirmation or evidence that the manual matches the Rev01 transcription byte-for-byte. The page’s customer bass-use review and unrelated Alpha BASS review are excluded from instrument eligibility and I/O evidence. No download attempted.
