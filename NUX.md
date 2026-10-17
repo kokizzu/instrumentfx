@@ -297,6 +297,9 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg400/) · [Source 2](htt
 | IDR | Used/new qualified prices ?. |
 
 GEN2 was firmware1.0.5 at the original check;it is not a new physical model solely because the software is called GEN2.
+
+| Field | Finding |
+|---|---|
 | Display / scenes / firmware follow-up | Checked2026-10-17: three Pro Scenes can change effect models,amp models and settings within one preset. V5 notes specify serial/branch send-return,USB loopback,metronome and external tip/ring Scene UP/DN assignment. GEN2 names five additional EFX (FULL-OD HP,HORSEMAN,NOB ODR,RIV BLUEFLOG COMBO,TURBO OD) and MONO OCTAVE modulation;do not silently add these to the older base table or assume all firmware libraries identical. [Manufacturer](https://nuxaudio.com/product/mg30/). |
 <!-- comparison evidence ends -->
 
