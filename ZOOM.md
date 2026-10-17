@@ -829,6 +829,17 @@ Checked2026-10-17 via [own support index](https://zoomcorp.com/en/us/multi-effec
 
 All three are distinct exact B1 FOUR listings, not B1X FOUR. Direct pages remain JavaScript-limited; condition,working state,selected variation,adapter/bundle,warranty,shipping/tax andcheckout stock unverified. No explicit Habis in these extracts proves nothing about live availability. Late-arrival compensation up toRp10,000 is not a purchase discount. These asks do not establish a condition-verified new or used range.
 
+
+### B1 FOUR — loop input, stopping and power settings
+
+Checked 2026-10-18 against the [own operation manual](https://zoomcorp.com/media/documents/E_B1FOUR.pdf), printed pp9,35–38,48,50; browser text only.
+
+| Field | Model-specific evidence / qualification |
+|---|---|
+| Looper / recording and stop behavior | **AUX IN is not recorded**. Rhythm playback enables quantization that adjusts loop timing; MEMORY, STOMP and EDIT remain accessible during loop playback. Stop choices are **Instant**, **Finish** (at loop end) and **Fade Out**. These settings do not establish loop persistence after power-off. |
+| Power / battery and ECO | Battery-meter setting selects **ALKALI or Ni-MH** to match installed cells; this does not establish internal charging. ECO defaults ON and powers off after **10 hours without use**; OFF disables that function. |
+| Display / backlight and contrast | Backlight choices: **OFF, ON, 15 seconds or 30 seconds after the last operation**. Contrast spans **1–13**. These settings do not resolve diagonal, color or touch capability. |
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.

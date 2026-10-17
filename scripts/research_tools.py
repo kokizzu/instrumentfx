@@ -460,7 +460,7 @@ def main():
         if mode == 'commit-gnx3':
             message = 'research(digitech): document GNX3 reamp reset and recorder output separation'
         if mode == 'commit-b1four-followup':
-            message = 'research(zoom): preserve separate B1 FOUR cveri cached hardware ask'
+            message = 'research(zoom): qualify B1 FOUR loop input stops and power settings'
         if mode == 'commit-b1xfour-followup':
             message = 'research(zoom): resolve B1X FOUR display memory and looper qualifications'
         if mode == 'commit-readme-counts':
