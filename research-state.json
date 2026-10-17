@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Prime M2",
-    "task": "Locate newer original2025.08.26manual and exact IR/concurrency/category specifications;commit before next model. Then fresh Shopee bass/vocal discovery and migration audit.",
+    "task": "M2 regional output/dimension/Stemlab qualifications saved. Remaining original manual and IR/concurrency gaps deferred pending stronger sources; continue fresh Shopee bass/vocal discovery and legacy preservation audit. Commit each model before another.",
     "next_models": [],
     "after_queue": "Allrecords partial;ownership identity/technical/market/migration audit remain. Nodownloads/workflows/push."
   },
@@ -64473,5 +64473,11 @@
       "access": "JS-limitedthree-monthcache"
     },
     "remaining": "Current original manual,IRlimits,concurrency,fullcategorycounts,screen,expression,factorysplit,qualifiedprices."
+  },
+  "prime_m2_regional_20261017": {
+    "source": "https://cn.mooeraudio.com/product/97.html",
+    "checked_date": "2026-10-17",
+    "findings": "Exact M2 Chinese specification explicitly2TSoutputs100ohmx2;dimensions125x74x49withoutaxes versusglobal74L125W49H. StemlabAI six-part separation described;do not inferhardwareaudiochannels/offlineprocessing. Guitar/bass194effects anddynamicmodule reuse corroborated.",
+    "unresolved": "No IRlength/slots/concurrency ceiling published in inspected page. Newer2025.08.26manualfilenamevisiblebutnotretrieved/read;do not assumeolderRockBoardV2.0identical."
   }
 }
