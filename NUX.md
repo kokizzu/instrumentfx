@@ -870,6 +870,9 @@ Checked 2026-10-17; partial. Guitar/bass processing explicitly documented; owner
 | I/O / manual details | 6.35mm instrument plug;3.5mm stereo/TRRS headphone socket;USB-C charge/editor/audio/update. Bluetooth audio and app MIDI connect separately. [Manual transcription][MP3-T] |
 | Editor / audio drivers | Manual specifies Windows ASIO driver versus macOS Core Audio without additional driver; this is audio-driver evidence,not minimum editor OS. [Manual transcription][MP3-T] |
 | Synth / acoustic manual | Exact MP-3 introduction explicitly describes acoustic amp modeling and acoustic IR simulation; dedicated synth remains unverified. [Manual transcription][MP3-T] |
+| Processing / V3 additions | Official V3 section names eight added amps: Twin Rvb, Class A15, Vibro King, Budda, Brit Blues, Match, Brit2000, Uber; EFX Touch Wah and MOD Mono Octave. These are additions,not complete category totals. [Product V3 section][MP3-P] |
+| Live / V3 and JamTrack | V3 section advertises Metronome but its description discusses tuning; timing/meter functions remain unverified. JamTrack events can trigger presets during playback; this does not establish a hardware looper or drum engine. [Product][MP3-P] |
+| Editor / regional support | NUX USA support hub,updated2026-09-27,separates Mighty Plug from Pro: Pro firmware3.0.5/editor2.4.7.5 versus Mighty Plug firmware2.3. Do not install sibling files. No software downloaded. [Support][MP3-S] |
 | Live / routing | USB Normal/Dry Out/Re-amp/Loopback; looper/drums/scenes unverified. [Product][MP3-P] |
 
 ### Separate IDR hardware offers
@@ -899,3 +902,5 @@ Official page contains Mighty Space copy in IR/effects prose; those passages do 
 [MP3-T]: https://manuals.plus/nux/mp-3-mighty-plug-pro-headphone-amplifier-manual
 
 Mirror body identifies MP-3/MIGHTY PLUG PRO and ©2022 Cherub, matching product identity and nine-block architecture. Current official PDF revision equivalence unverified. Only manufacturer manual body used; generated questions/answers excluded. Retailer PDF titled MP-3 V4Q has20 pages without extracted text, versus11-page current official file; no visual equivalence claimed.
+
+[MP3-S]: https://www.nux.us/blogs/support/mighty-plug-support-hub

@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX Mighty Plug Pro MP-3",
-    "task": "MP-3 2022 manual evidence saved with IR revision conflict; next resolve panel/control totals and category choices without downloading. Dapper VES-1 remains queued.",
-    "next_models": [
-      "Valeton Dapper VES-1"
-    ],
-    "after_queue": "Continue fresh Shopee brand/series discovery; preserve prior gaps, no downloads/workflows/push."
+    "model": "Valeton Dapper VES-1",
+    "task": "MP-3 V3/support evidence saved; control/category gaps deferred pending stronger readable own-model source. Verify queued VES-1 exact Shopee offer and manufacturer manual, add distinct root record and guitar comparison, commit before next model.",
+    "next_models": [],
+    "after_queue": "Fresh Shopee discovery;preserve prior technical/price gaps;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41355,7 +41353,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Mighty Plug Pro MP-3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper VES-1."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -55638,5 +55636,14 @@
     "identity": "2022 Cherub manufacturer manual body,exact MP-3; generated Q&A excluded. Current official revision equivalence unresolved.",
     "saved": "IR allocation conflict34+20vs36+18; charging/LEDs,power mute/reset,connectors,Bluetooth separate connections,drivers,acoustic IR scope.",
     "remaining": "Control totals/expression/display, category choices/simultaneous limits, memory split, charging operation, minimum editor OS, firmware allocation mapping and condition-confirmed offers."
+  },
+  "mp3_v3_checkpoint_20261017": {
+    "sources": [
+      "https://nuxaudio.com/product/mightyplugpro/",
+      "https://www.nux.us/blogs/support/mighty-plug-support-hub"
+    ],
+    "saved": "V3 eight amp additions, Touch Wah, Mono Octave; metronome/tuner copy mismatch; JamTrack preset events; regional exact-model firmware separation.",
+    "deferred": "Panel totals/expression/display and full category counts require readable own-model diagrams/catalogue; no repeated screenshot claims. Existing IR allocation conflict unresolved.",
+    "next": "Proceed queued Dapper VES-1; MP-3 remains partial with all gaps retained."
   }
 }
