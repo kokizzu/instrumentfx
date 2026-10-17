@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS AD-8",
-    "task": "New acoustic multi-effects profile added with exact sold-out Shopee lead and regional conflicts. Next inspect own manual body/mic and memory/routing sections; commit each useful model before moving on.",
+    "task": "AD-8 manual reverb choices, factory memory and startup/feedback limits saved. Next body/microphone pair enumeration and remaining official evidence; preserve regional dimensions/input-impedance conflicts.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery and remaining verification; no workflows/push."
   },
@@ -58620,6 +58620,16 @@
       "Display details",
       "Qualified offers"
     ],
+    "downloads": false
+  },
+  "ad8_memory_live_20261017": {
+    "source": "https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf",
+    "identity": "2003 own manual printed9,13–20,22",
+    "reverb_choices": 3,
+    "memory": "4factory-filled rewritable;no separate extra bank",
+    "startup": "Manual/effectsON/anti-feedbackOFF",
+    "feedback": "One point and octave attenuation;write to memory;not retained in Manual",
+    "routing": "Mono A/B same;output knob processed sound only;stored bypass/mute behavior",
     "downloads": false
   }
 }

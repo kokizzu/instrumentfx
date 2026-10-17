@@ -2653,8 +2653,8 @@ Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppressio
 | Expression | No built-in expression pedal or external EXP socket in the [official manual inventory][AD8-M]; no toe switch listed. |
 | Controls | **10 rotary / 3 footswitches / 4 buttons**, counted from [BOSS Japan’s control list][AD8-J]. Stereo/mono and ground-lift switches are separate. Text-derived inventory, not visual inspection. |
 | Display | **Seven-segment LED**; published diagonal, emission color and touch specification unverified. [AD8-S] |
-| Processing / category choices | **Six acoustic body models**, four-band EQ, acoustic reverb and automatic anti-feedback. Explicit maximum simultaneous count and reverb selector taxonomy remain unverified. [AD8-S] |
-| Factory / user memory | **Four stored setups plus live Manual mode**, not five stored presets. [AD8-J] Manual reset overwrites memories 1–4; factory-filled sound identities still need review. [AD8-M] |
+| Processing / category choices | **Six acoustic body models**, four-band EQ, acoustic reverb and automatic anti-feedback. Explicit maximum simultaneous count remains unverified; the manual’s reverb choices are documented below. [AD8-S] |
+| Factory / user memory | **Four stored setups plus live Manual mode**, not five stored presets. [AD8-J] Manual pp20/22 identifies four factory-filled, rewritable memories for strumming, fingerstyle, flat-pick playing and blues. Reset overwrites all four; no extra factory bank. [AD8-M] |
 | Synth / acoustic | Piezo-acoustic body/microphone modeling, not proof of electric-to-acoustic conversion. Synth engine unverified. [AD8-S] |
 | Dimensions / mass | **250 W × 180 D × 60 H mm; 1.9 kg including batteries**, manual pp25–26. [AD8-M] **Conflict:** Japan lists **250 × 190 × 75 mm**, same mass. [AD8-J] Large under either published width; reason for regional difference unestablished. |
 | I/O | Quarter-inch INPUT; quarter-inch stereo TRS PHONES; quarter-inch electric-guitar-amp output; unbalanced quarter-inch A/mono and B; balanced XLR A/B; PSA DC input. XLRs are outputs, not microphone inputs. [AD8-S] |
@@ -2672,6 +2672,16 @@ Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppressio
 | New | Unknown | No condition-qualified new offer verified. |
 | Condition unverified / sold-out cached ask | **Rp4,850,000; Habis**. Kurnia Musik Jogja, Kab. Sleman; shop276974853/item9817836384. Checked2026-10-17; search two-month cache, direct one-month cache with stale26August delivery. Not live stock or a completed sale. Condition, bundle, adapter, warranty, variant, shipping/tax and purchase voucher unverified; late-delivery compensation is separate. | [Exact Shopee item][AD8-O] |
 
+### AD-8 — manual processing and stage behavior, 2026-10-17
+
+[Own ©2003 manual][AD8-M], printed pp9,13–20,22; text inspection only.
+
+| Field | Verified behavior / limit |
+|---|---|
+| Processing / reverb and EQ | **Three reverb alternatives: Ambience, Room, Hall**, plus off; not three simultaneous reverbs. Midrange frequency adjusts **200 Hz–1.6 kHz**. |
+| Looper / routing / startup | Power-up selects Manual with effects on. Mono output sends identical A/B signals. The output-level knob affects processed sound only; bypass/mute uses its fixed output state. The chosen bypass/mute behavior survives power-off. |
+| Live / anti-feedback | One feedback point is detected; attenuation also covers its octave above. Press both memory pedals to detect, hold both for at least two seconds to exit. Settings can be written with a memory, but are not saved in Manual mode. Anti-feedback starts off after power-up. |
+
 <!-- comparison evidence ends -->
 
 [AD8-S]: https://www.boss.info/se/products/ad-8/
@@ -2679,4 +2689,4 @@ Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppressio
 [AD8-M]: https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf
 [AD8-O]: https://shopee.co.id/BOSS-AD-8-Acoustic-Guitar-Processor-i.276974853.9817836384
 
-Sources: regional manufacturer pages and own ©2003, 28-page owner manual through web text reader. No file downloaded or device/software run. Global/US product fetches failed; regional evidence remains explicitly identified. Remaining: body/microphone enumeration, reverb/concurrency, factory memory contents, polarity, display details, current qualified offers and resolution of dimensions/input-impedance conflicts.
+Sources: regional manufacturer pages and own ©2003, 28-page owner manual through web text reader. No file downloaded or device/software run. Global/US product fetches failed; regional evidence remains explicitly identified. Remaining: body/microphone enumeration, explicit concurrency ceiling, polarity, display details, current qualified offers and resolution of dimensions/input-impedance conflicts.
