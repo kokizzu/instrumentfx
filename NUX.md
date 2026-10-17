@@ -287,7 +287,7 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg400/) · [Source 2](htt
 | Field | Preserved finding / unresolved detail |
 |---|---|
 | Expression / controls | Built-in;external EXP or NMP-2 Lite. **6/3/10**,toe and rear switches separate. |
-| Body / screen | **313×166×55mm;1.5kg**,large. Published screen diagonal,color/touch still pending in this record. |
+| Body / screen | **313×166×55mm;1.5kg**,large. **4-inch color LCD** confirmed2026-10-17 from exact manufacturer page;touch and pixel specification unresolved. |
 | Blocks / library | **11 movable**;base categories wah5,comp3,gate1,EFX14,EQ4,MOD13,delay8,reverb5. Product lists **35 amps =28 guitar+2 acoustic+5 bass**. Category overlap/firmware differences prevent an invented total. |
 | Memory / sound | Total/factory split ?. Three Pro Scenes;three acoustic IRs plus two acoustic amps;true synth ?. |
 | Loading | **128 per-patch user IRs,1024 samples**. GEN2 adds10 NAM slots;**native A2 Lite**,not all arbitrary NAM architectures. |
@@ -297,6 +297,7 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg400/) · [Source 2](htt
 | IDR | Used/new qualified prices ?. |
 
 GEN2 was firmware1.0.5 at the original check;it is not a new physical model solely because the software is called GEN2.
+| Display / scenes / firmware follow-up | Checked2026-10-17: three Pro Scenes can change effect models,amp models and settings within one preset. V5 notes specify serial/branch send-return,USB loopback,metronome and external tip/ring Scene UP/DN assignment. GEN2 names five additional EFX (FULL-OD HP,HORSEMAN,NOB ODR,RIV BLUEFLOG COMBO,TURBO OD) and MONO OCTAVE modulation;do not silently add these to the older base table or assume all firmware libraries identical. [Manufacturer](https://nuxaudio.com/product/mg30/). |
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields

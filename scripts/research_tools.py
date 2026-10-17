@@ -355,7 +355,7 @@ def main():
         if mode == 'commit-nux-mg50li-audit':
             message = 'audit(nux): preserve MG-50Li shared fields and conflicting source counts'
         if mode == 'commit-nux-mg30-audit':
-            message = 'audit(nux): preserve MG-30 shared fields and qualify historical price citation'
+            message = 'research(nux): verify MG-30 display and firmware-qualified scene capabilities'
         if mode == 'commit-nux-mg400-audit':
             message = 'audit(nux): preserve MG-400 shared fields and historical firmware scope'
         if mode == 'commit-nux-mg300mkii-audit':
