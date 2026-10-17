@@ -229,13 +229,13 @@ Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, dist
 | Required field | Evidence / qualification |
 |---|---|
 | Built-in / external / toe expression | Two onboard TRS pedal/switch sockets,10–100 kohm [kh-s]. Remote provides **four additional sockets**;switches must be momentary,normally open [kh-f]. Built-in/toe behavior unverified. Four-pedal marketing is not four onboard sockets [kh-p]. |
-| Knobs / footswitches / buttons | Separate rotary,footswitch and button census unresolved. |
+| Knobs / footswitches / buttons | **16 adjustable rotary / ? footswitches / ? buttons**,derived Manual13.0 pp.28–41: Noise Gate1+directFX6+Master1+Type/Browse2+soft4+Gain1+Rig Volume1. Power/mode selector separate;current MK2 button census unresolved [kh-m]. |
 | Display | Published diagonal,color/monochrome and touch unresolved. |
 | Dimensions / weight | **378W×173D×217H mm;5.32 kg**, explicit Head specifications,not PowerHead mass [kh-s]. |
 | Simultaneous blocks / category choices | **4 flexible pre +4 flexible stereo post**, plus **6 fixed pre +2 fixed stereo post**, around AMP/CAB. Complete category census unresolved [kh-p]. |
-| Preset / factory / user memory | Browse,Performance,factory occupancy and combined total unresolved in this first pass. |
-| Synth / acoustic | Dedicated synth/acoustic algorithms unresolved;amp profiling alone does not establish either. |
-| IR / NAM / captures | Proprietary amp PROFILE creation documented [kh-p]. Current FAQ: **MK2 creates/plays PROFILE2.0 at high resolution**;MK1 playback is standard resolution with OS14. Desktop Rig Manager **converts imported IRs into cabinet presets**;native onboard IR limits and native/converted NAM unresolved [kh-f]. |
+| Preset / factory / user memory | Manual13.0 pp.339–342,419: **125 Performances×5 slots=625 Rigs**,independent of Browse storage. All slots initially contain a standard Rig based on CK0;some example Performances supplied,remaining named New Performance. Exact factory examples,Browse capacity and combined total unresolved [kh-m]. |
+| Synth / acoustic | Manual13.0 pp.234–235: **electric-to-acoustic simulator** with Pickup,Body,Bronze,Sparkle. Recommended post-stack,preferably X,with AMP/CAB disabled. Not intended for acoustic/piezo instruments. Dedicated synth algorithms unresolved [kh-m]. |
+| IR / NAM / captures | Proprietary amp PROFILE creation documented [kh-p]. Current FAQ: **MK2 creates/plays PROFILE2.0 at high resolution**;MK1 playback is standard resolution with OS14. Desktop Rig Manager **converts imported IRs into cabinet presets**;native onboard IR limits and native/converted NAM unresolved [kh-f]. Manual13.0 p.96 specifies desktop Rig Manager≥3;importer accepts arbitrary source rate/length,not proof of unlimited native playback.18 Celestion-derived cabinet presets documented since OS5.5 [kh-m]. |
 | Audio I/O | Front¼-inch TS;balanced alternative TRS;balanced XLR/¼-inch return. Stereo main XLR balanced/TS unbalanced;monitor and direct/send TS;¼-inch stereo phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz master/slave [kh-s]. Rear guitar input selection is global and requires front INPUT unplugged;DI Analog requires front input. One FX loop:mono send,mono/stereo return [kh-f]. Stereo-monitor routing still needs qualification. No powered SPEAKER OUTPUT in Head specification;that output is explicitly PowerHead/PowerRack only. |
 | Control / USB | USB-A/B,USB MIDI,DIN in/out/thru,RJ45,two pedal sockets;**4in/4out USB audio at44.1kHz** for MK2 [kh-s] [kh-p]. |
 | Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head rating [kh-s]. FAQ confirms automatic mains adaptation [kh-f]. Actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. |
@@ -251,9 +251,10 @@ Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, dist
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
+[kh-m]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
 [kh-f]: https://www.kemper-amps.com/faqs
 [kh-r]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/
 [kh-p]: https://www.kemper-amps.com/store/en/profiler-head-b.html
 [kh-s]: https://www.kemper-amps.com/profiler/technical-specifications
 
-Manufacturer foreign stock does not prove Indonesian availability. No downloads,exchange-rate conversion or visual inspection claimed.
+Manual13.0 is manufacturer-authored,Rev.May2025,identity checked on mirrored PDF;not a claim to be current OS14 documentation. Manufacturer foreign stock does not prove Indonesian availability. No downloads,exchange-rate conversion or visual inspection claimed.

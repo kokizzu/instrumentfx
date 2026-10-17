@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Head MK2",
-    "task": "Verify Head MK2 manual-qualified controls,memory,acoustic simulator,IR limits and looper operation;current FAQ and OS14.2.2 software requirements saved. Exact Indonesian condition/stock remains unknown.",
+    "task": "Verify Head MK2 current control/display census,looper operation,stereo-monitor routing and power/manual conflicts;Browse/factory total,NAM/synth and qualified Indonesian offers remain open.",
     "next_models": [],
     "after_queue": "Continue unfinished model verification,fresh Shopee discovery and lossless legacy consolidation. No downloads,workflows or push."
   },
@@ -63734,5 +63734,16 @@
       "MK2 looper up to120sec;OS14.2.2 exact desktop/mobile minima."
     ],
     "remaining": "Physical control/display census,manual-qualified memory/acoustic/IR limits,looper mode/control details,consumption and verified used/new offers."
+  },
+  "technical_followups_head_manual13_20261017": {
+    "model": "Kemper PROFILER Head MK2",
+    "source": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+    "identity": "Kemper Das Große Handbuch13.0,Rev.May2025;manufacturer copyright checked,438pages;not currentOS14 manual.",
+    "findings": [
+      "16rotary derived from Head-specific control chapter;buttons/current panel unresolved.",
+      "125×5=625PerformanceRigs separate from Browse;standardCK0-based default slots and some examples,exact factory count unknown.",
+      "Electric-to-acoustic simulator with four controls and post-stack/AMP-CAB-off guidance;not acoustic/piezo enhancement.",
+      "RigManager≥3IR conversion with arbitrary source rate/length;18Celestion cabinet presets sinceOS5.5;native limits unproved."
+    ]
   }
 }
