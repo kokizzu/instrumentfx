@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "VL3X HITDynamic/Snapshot saving andGlobalEffects dependencies recorded. Next fullcontrols/power/currentfirmware/categorychoices orfreshdiscovery;unknowntrails/gapless not convertedtoNo.",
+    "task": "VL3X namedpanelinventory establishes5/10/9;TalkTuner/layeroperation saved. Next powercurrent/polarity,currentfirmware/categorychoices orfreshdiscovery;no touchscreen inferred.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60895,5 +60895,18 @@
       "GlobalEffectsourcepresetdefault491dependencies"
     ],
     "limits": "No gapless/spillover certification;notadditionalfreelyassignablescenes;nodevicetest"
+  },
+  "vl3x_panel_controls_20261017": {
+    "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+    "revision": "2015-10-20 firmware2.1.00build346",
+    "pages": "18–23,195",
+    "counts": {
+      "rotary": 5,
+      "footswitch": 10,
+      "buttons": 9
+    },
+    "basis": "fourMix+Control;GenreSetupStoreHomeVocalGuitarLooper+2arrows;encoderpushonce;capacitivebuttonsnotdisplaytouch",
+    "live": "TalkTunermutesguitarbypassesvocalFX;presetsstillselectable;Layertapvocalguitarholdloop",
+    "limits": "Textinventorynotnewvisualinspection;builtin/toeexpression andpower/currentrevision gapsremain"
   }
 }
