@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Neural DSP Quad Cortex",
-    "task": "Continue current4.1.1manual:exact preset/factory/scene memory,grid/DSP ceiling,I/O/electrical specifications,IR limits,looper andeditor OS requirements;verify offers without inferring condition.",
+    "task": "Quad Cortex memory/grid/synth/USB counts saved from4.1.1manual. Continue exact hardware I/O,electrical/display specs,IR limits,looper andeditor OS requirements;total/factory/scenes andoffers remain partial.",
     "next_models": [],
     "after_queue": "Fresh bass/vocal discovery andlossless legacy consolidation remain incomplete. No downloads,workflows orpush."
   },
@@ -63832,5 +63832,17 @@
     "shared_limits": "Condition,new/used,selected variation,bundle,adapter,warranty,authenticity,installed firmware,shipping/tax/voucher andfinal total unresolved. Rp10,000 late compensation notdiscount;no checkout/completed-sale proof.",
     "excluded": "Quad Cortex power adapter,cover/protector,NanoPi development boards andTV processors excluded.",
     "bass_vocal_pass": "BP1/B9.1ut/VT12 queries empty;direct B9.1ut,DigitechBP,TCvoicelive search URLs inaccessible. G9.2tt search yielded adapters only;VoiceLive2 query found existingPlay/VL3X records,not new model proof. No market-exhaustion claim."
+  },
+  "technical_followups_quad_memory_grid_20261017": {
+    "model": "Neural DSP Quad Cortex",
+    "source": "https://neuraldsp.com/manual/quad-cortex",
+    "revision": "4.1.1",
+    "findings": [
+      "4×8grid slots CPU-limited;block bypass doesnot freeCPU;GlobalEQ/InputGate mayauto-disable;2sidechain perrowpair.",
+      "256fullpresets persetlist;overall/factory counts notproved.",
+      "2048capture and2048IR libraries each30folders depth4;32user parameterpresets percompatibledevice/GlobalEQ/I-O distinct fromfullpresets.",
+      "SYNTH category explicit;USB8in8out."
+    ],
+    "remaining": "Exact total/factory/scene capacities,algorithm census,looper duration,I/O/electrical,IR limits,editor requirements andcondition-qualified offers."
   }
 }
