@@ -22,34 +22,34 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 
 | Brand file | Currently consolidated models |
 |---|---|
-| [BEHRINGER.md](BEHRINGER.md) |Bass V-AMP,Bass V-AMP PRO,V-AMP 2 |
+| [BEHRINGER.md](BEHRINGER.md) |Bass V-AMP, Bass V-AMP PRO, V-AMP 2 |
 | [TECH21.md](TECH21.md) |Fly Rig 5 v2 |
-| [VOX.md](VOX.md) |ToneLab LE,ToneLab ST,ToneLab SE,StompLab 2B,StompLab 1G,StompLab 2G |
-| [KORG.md](KORG.md) |PANDORA stomp,AX3000G,AX1500G,AX5G,AX10G,AX1000G,AX3G,AX30G |
-| [DIGITECH.md](DIGITECH.md) |RP360XP,RP255,RP500,RP90,RP250,RP1000,RP155 |
-| [BOSS.md](BOSS.md) |GT-1B,GX-1B,ME-90B,VE-1,VE-2,VE-500,VE-22,VE-8,VE-20,GT-1000CORE,GX-10,GT-1,GX-1,ME-90,GX-100,GT-1000,GM-800,GT-100,ME-80,ME-70,ME-25,ME-50,ME-20B,GT-10,GT-8,ME-20,GT-6,VE-5,Pocket GT |
-| [HEADRUSH.md](HEADRUSH.md) |MX5,Core,Flex Prime,Prime,Gigboard,Pedalboard,VX5 |
+| [VOX.md](VOX.md) |ToneLab LE, ToneLab ST, ToneLab SE, StompLab 2B, StompLab 1G, StompLab 2G |
+| [KORG.md](KORG.md) |PANDORA stomp, AX3000G, AX1500G, AX5G, AX10G, AX1000G, AX3G, AX30G |
+| [DIGITECH.md](DIGITECH.md) |RP360XP, RP255, RP500, RP90, RP250, RP1000, RP155 |
+| [BOSS.md](BOSS.md) |GT-1B, GX-1B, ME-90B, VE-1, VE-2, VE-500, VE-22, VE-8, VE-20, GT-1000CORE, GX-10, GT-1, GX-1, ME-90, GX-100, GT-1000, GM-800, GT-100, ME-80, ME-70, ME-25, ME-50, ME-20B, GT-10, GT-8, ME-20, GT-6, VE-5, Pocket GT |
+| [HEADRUSH.md](HEADRUSH.md) |MX5, Core, Flex Prime, Prime, Gigboard, Pedalboard, VX5 |
 | [FENDER.md](FENDER.md) |Tone Master Pro |
-| [VALETON.md](VALETON.md) |GP-200LT,GP-200JR,GP-100,GP-150,GP-200 (GP-200X variant),GP-180,GP-5,GP-50,Dapper Bass VES-2,Dapper Bass Mini MES-2,Dapper Mini MES-1,Dapper Acoustic Mini,Dapper Dark VES-3,Dapper Dark Mini,Dapper Indie |
-| [MOOER.md](MOOER.md) |GE250,GE300,GS1000,GE100 original,GE150 original,GE200 original,GE150 Pro Li,GE100 Pro,GE100 Pro Li,GE200 Pro,GE200 Pro Li,GE150 Pro,GE150 Plus,GE150 Plus Li,GE150 Max,GE150 Max Li,GE1000,GE1000 Li,PE100 |
-| [HOTONE.md](HOTONE.md) |Ampero One MP-80,Ampero Mini MP-50,Ampero MP-100,Ampero II MP-350,Ampero II Stage MP-380,Ampero II Stomp MP-300 |
-| [LINE6.md](LINE6.md) |POD Go,POD Go Wireless,POD Express Guitar,POD Express Bass,HX Effects,Helix LT,HX Stomp XL,HX Stomp,POD HD500,M5,M9,Pocket POD,HX One,Helix Floor,Helix Stadium XL Floor,POD HD500X,AMPLIFi FX100,POD X3 Live,POD XT Live,POD HD400 |
-| [ZOOM.md](ZOOM.md) |G11,B1Xon,G6,G1 FOUR,G1X FOUR,G2 FOUR,G2X FOUR,B1 FOUR,B1X FOUR,B2 FOUR,B6,V3,V6-SP,G3Xn,G5n,G3n,B3n,A1 FOUR,MS-60B,A1X FOUR,MS-50G,MS-70CDR,MS-70CDR Plus,MS-60B Plus,B1on,G3,B3,G1Xon,G1on,505II,MS-50G Plus,G5,G3X,G2.1u,GFX-3,GFX-5,GFX-4,G7.1ut,707II,708II |
-| [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |TONEX ONE,TONEX Pedal |
+| [VALETON.md](VALETON.md) |GP-200LT, GP-200JR, GP-100, GP-150, GP-200 (GP-200X variant), GP-180, GP-5, GP-50, Dapper Bass VES-2, Dapper Bass Mini MES-2, Dapper Mini MES-1, Dapper Acoustic Mini, Dapper Dark VES-3, Dapper Dark Mini, Dapper Indie |
+| [MOOER.md](MOOER.md) |GE250, GE300, GS1000, GE100 original, GE150 original, GE200 original, GE150 Pro Li, GE100 Pro, GE100 Pro Li, GE200 Pro, GE200 Pro Li, GE150 Pro, GE150 Plus, GE150 Plus Li, GE150 Max, GE150 Max Li, GE1000, GE1000 Li, PE100 |
+| [HOTONE.md](HOTONE.md) |Ampero One MP-80, Ampero Mini MP-50, Ampero MP-100, Ampero II MP-350, Ampero II Stage MP-380, Ampero II Stomp MP-300 |
+| [LINE6.md](LINE6.md) |POD Go, POD Go Wireless, POD Express Guitar, POD Express Bass, HX Effects, Helix LT, HX Stomp XL, HX Stomp, POD HD500, M5, M9, Pocket POD, HX One, Helix Floor, Helix Stadium XL Floor, POD HD500X, AMPLIFi FX100, POD X3 Live, POD XT Live, POD HD400 |
+| [ZOOM.md](ZOOM.md) |G11, B1Xon, G6, G1 FOUR, G1X FOUR, G2 FOUR, G2X FOUR, B1 FOUR, B1X FOUR, B2 FOUR, B6, V3, V6-SP, G3Xn, G5n, G3n, B3n, A1 FOUR, MS-60B, A1X FOUR, MS-50G, MS-70CDR, MS-70CDR Plus, MS-60B Plus, B1on, G3, B3, G1Xon, G1on, 505II, MS-50G Plus, G5, G3X, G2.1u, GFX-3, GFX-5, GFX-4, G7.1ut, 707II, 708II |
+| [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |TONEX ONE, TONEX Pedal |
 | [NEURAL-DSP.md](NEURAL-DSP.md) |Nano Cortex |
-| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100,AVE-100 |
+| [AUDOTA.md](AUDOTA.md) |AME-100, AME-200, AME-200 Pro, ACE-100, AVE-100 |
 | [BOIN-AUDIO.md](BOIN-AUDIO.md) |BG300 |
 | [SCORPION.md](SCORPION.md) |KMF-10 |
-| [TC-HELICON.md](TC-HELICON.md) |VoiceLive Play,Play Acoustic,VoiceLive 3 Extreme,PERFORM-V,PERFORM-VK,PERFORM-VG,PERFORM-VE,Mic Mechanic 2,Duplicator,Harmony Singer 2 |
+| [TC-HELICON.md](TC-HELICON.md) |VoiceLive Play, Play Acoustic, VoiceLive 3 Extreme, PERFORM-V, PERFORM-VK, PERFORM-VG, PERFORM-VE, Mic Mechanic 2, Duplicator, Harmony Singer 2 |
 | [CUVAVE.md](CUVAVE.md) |H8 |
 | [VING.md](VING.md) |Flybro FB-100 |
 | [ROLAND.md](ROLAND.md) |GR-55 |
-| [JOYO.md](JOYO.md) |GEM BOX original,II,III |
+| [JOYO.md](JOYO.md) |GEM BOX original, GEM BOX II, GEM BOX III, R-16 Vocal Lab |
 | [DONNER.md](DONNER.md) |Arena2000 |
-| [FLAMMA.md](FLAMMA.md) |FX100,FX200,FX150,FV02 Doubling,FB200,FV03 Character,FV04 Harmony,FG200,FX50 |
-| [NUX.md](NUX.md) |Ten MG/TRIDENT/Cerberus profiles |
-| [SONICAKE.md](SONICAKE.md) |Eight profiles, including Sonic Wood, Black Hammer QCE-30 and RockStage QCE-10 |
-| [M-VAVE.md](M-VAVE.md) |Twelve distinct profiles |
+| [FLAMMA.md](FLAMMA.md) |FX100, FX200, FX150, FV02 Doubling, FB200, FV03 Character, FV04 Harmony, FG200, FX50 |
+| [NUX.md](NUX.md) |MG-101, MG-300 original, MG-300 MKII, MG-400, MG-30, MG-50Li, MG-100, MG-200, TRIDENT NME-5, Cerberus NME-3 |
+| [SONICAKE.md](SONICAKE.md) |Matribox QME-50, Smart Box QME-20, Pocket Master QME-10, Matribox II QME-100, Matribox II Pro QME-200, Sonic Wood QCE-50, Black Hammer QCE-30, RockStage QCE-10 |
+| [M-VAVE.md](M-VAVE.md) |TANK-G, TANK-B, TANK MINI, MK-20, MK-300, TANK-PRO, ANN Blackbox, MINI-X, Pocket Amp, CUBE BABY electric, CUBE BABY AC, CUBE BABY BASS |
 
 All recorded models are compared in their applicable instrument pages, with full-record links. All 229 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 

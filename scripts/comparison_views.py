@@ -331,6 +331,13 @@ def readme_counts(text, state, membership):
         i = matching[0]
         lines[i], count = re.subn(pattern, replacement, lines[i])
         assert count == 1, 'README count format changed: ' + filename
+    for filename, models in state['root_brand_content'].items():
+        prefix = '| [' + filename + '](' + filename + ') |'
+        matching = [i for i, line in enumerate(lines) if line.startswith(prefix)]
+        assert len(matching) == 1, 'Ambiguous README brand: ' + filename
+        assert all('|' not in model and '\n' not in model for model in models), 'Invalid model label'
+        labels = {'VALETON.md': {'GP-200': 'GP-200 (GP-200X variant)'}}
+        lines[matching[0]] = prefix + ', '.join(labels.get(filename, {}).get(model, model) for model in models) + ' |\n'
     text = ''.join(lines)
     count = state['canonical_root_model_count']
     for pattern, replacement in (
@@ -577,6 +584,13 @@ def test_comparison_selection():
             pass
         else:
             raise AssertionError('Malformed comparison range accepted')
+    state = json.loads((ROOT/'research-state.json').read_text())
+    readme = (ROOT/'README.md').read_text()
+    stale = re.sub(r'(\| \[JOYO.md\]\(JOYO.md\) \|)[^\n]+', r'\g<1>GEM BOX original,II,III |', readme)
+    projected = readme_counts(stale, state, state['comparison_membership'])
+    joyo_row = next(line for line in projected.splitlines() if line.startswith('| [JOYO.md]'))
+    assert all(model in joyo_row for model in state['root_brand_content']['JOYO.md']), 'README brand navigation dropped a recorded model'
+    assert readme_counts(projected, state, state['comparison_membership']) == projected
     print('PASS: explicit comparison selection keeps current evidence, preserves legacy fallback and rejects malformed ranges.')
 
 

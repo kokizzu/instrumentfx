@@ -357,7 +357,7 @@ def main():
         if mode == 'commit-fv02':
             message = 'research(flamma): add FV02 vocal processor with power revision conflicts'
         if mode == 'commit-readme-counts':
-            message = 'fix(comparisons): synchronize README counts in reviewed generation'
+            message = 'fix(navigation): synchronize complete brand model lists from ledger'
         if mode == 'commit-hd400':
             message = 'research(line6): add POD HD400 with revision-qualified bass and USB restrictions'
         if mode == 'commit-xtlive':
