@@ -28,10 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Kemper PROFILER Rack MK2",
-    "task": "Seek full Rack MK2 controls/display and qualified offers;then proceed PowerHeadMK2 while keeping unresolvedRackfields explicit.",
+    "model": "Kemper PROFILER PowerHead MK2 lead",
+    "task": "Proceed exact PowerHeadMK2 manufacturer verification;do not copy unpoweredRack electrical/mass fields.",
     "next_models": [
-      "Kemper PROFILER PowerHead MK2 lead",
       "Kemper PROFILER PowerRack MK2 lead",
       "Kemper PROFILER Head MK2 lead"
     ],
@@ -41698,7 +41697,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Kemper PROFILER Rack MK2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Kemper PROFILER PowerHead MK2 lead."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -63592,5 +63591,13 @@
     "finding": "Dedicated acoustic simulator qualifications andOS14.2.2-specific editor/host minima saved.",
     "limits": "Synth unknown;currentMainManual,completephysicalcensus andcondition-qualified offers remain incomplete.",
     "next": "Seek full Rack MK2 controls/display and qualified offers;then proceed PowerHeadMK2 while keeping unresolvedRackfields explicit."
+  },
+  "rack_second_offer_20261017": {
+    "source": "https://shopee.co.id/Kemper-Profiler-Rack-MK2-i.2655003.47515362518",
+    "search": "https://shopee.co.id/search?keyword=kemper+profiler",
+    "checked": "2026-10-17",
+    "finding": "Second exact RackMK2 offer saved with cached-search/access/condition qualifications.",
+    "remaining": "Rack still partial:panel/display,Browse/factorymemory,categorycensus,NAM,synth,looper,powerconflict andqualifiedliveoffers.",
+    "next": "Proceed exact PowerHeadMK2 manufacturer verification;do not copy unpoweredRack electrical/mass fields."
   }
 }

@@ -130,6 +130,7 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee
 | Condition / access | Amount | Exact offer / qualifications |
 |---|---:|---|
 | Condition-unverified cached search ask | **Rp28.900.000** | [Seller253483262/item9807793662](https://shopee.co.id/Kemper-Profiler-Rack-MK2-Rackmount-Profiling-Amp-Head-i.253483262.9807793662), exact Rack MK2 hardware title, Jakarta Pusat, [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). Search cache labeled September2026; checked2026-10-17. Item click cache-missed; indexed display_model_id80578354848. Variation,bundle,seller name,new/used,stock,voucher,warranty,authenticity and installedOS unresolved. Not live checkout or completed sale. |
+| Additional condition-unverified cached ask | **Rp28.980.000** | [Seller2655003/item47515362518](https://shopee.co.id/Kemper-Profiler-Rack-MK2-i.2655003.47515362518), exact Rack MK2 title in [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler),Jakarta Utara. Cached September2026 page checked2026-10-17; crossed-out Rp28.990.000 and -1% displayed,not a verified voucher/checkout discount. Indexed display_model_id292845588555;item click cache-missed and clean URL inaccessible. Seller name,new/used,stock,variation,bundle,warranty,authenticity and installedOS unknown. Separate offer,not live stock or completed sale. |
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
