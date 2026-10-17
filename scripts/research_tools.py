@@ -371,7 +371,7 @@ def main():
         if mode == 'commit-vt4':
             message = 'research(roland): verify VT-4 output balance and USB processing constraints'
         if mode == 'commit-pe100':
-            message = 'research(mooer): count Black Truck rotary controls and verify impedances'
+            message = 'research(mooer): preserve second exact PE100 historical hardware ask'
         if mode == 'commit-ms60b':
             message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-rp360xp':
