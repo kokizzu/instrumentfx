@@ -28,7 +28,7 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": null,
+    "model": "Shopee model discovery",
     "task": "Stadium XL first pass and follow-up counts committed; leave remaining power/routing/offer gaps explicit. Resume Shopee discovery for missing bass/vocal or legacy guitar multi-effects; check inventory to avoid duplicates.",
     "next_models": [],
     "after_queue": "Market coverage and legacy consolidation remain incomplete; no downloads or workflows."
@@ -40683,7 +40683,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 Helix Stadium XL Floor."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee model discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
