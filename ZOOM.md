@@ -2603,6 +2603,15 @@ Checked **2026-10-17**, partial. Separate guitar model from GFX-707 and bass708I
 | Expression / per-patch range | **pp23–25:** PDLMIN and PDLMAX each span **0–10**, stored per patch; MIN greater than MAX reverses the sweep. Assigning WAH or PITCH temporarily replaces the current MODULATION type with P-WAH or P-PIT. Storing an assigned effect records its module as ON. [Own manual][707-M] |
 | Expression / toe-switch exception | Toe press toggles the assigned effect or sampler. **VOL assignment has no toe-switch action**; physical toe-switch presence does not imply volume bypass. [Own manual pp24–25][707-M] |
 | Expression / calibration | **p25:** power up holding PEDAL; at MIN, raise pedal and press STORE/EXECUTE; at MAX, press fully down, release foot, then press STORE/EXECUTE. That position determines the on/off threshold; a higher position allows lighter switching. ERROR requires repeating from MIN. Hardware operation was not performed. [Own manual][707-M] |
+
+### 707II — converters and live patch selection
+
+| Field | Manufacturer manual evidence / qualification |
+|---|---|
+| Processing / converters and sampler | **31.25 kHz** sampling; **20-bit A/D, 64× oversampling**, **20-bit D/A, 128× oversampling**. Sampler uses **16-bit linear** recording/playback, separately from converter resolution. [Manual p39][707-M] |
+| I/O / electrical ratings | Guitar nominal **−20 dBm, 470 kΩ**; AUX **−20 dBm, 20 kΩ**. Combined stereo line/phones maximum **+3 dBm into ≥10 kΩ**; headphone mW unspecified. Reference: 0 dBm = 0.775 Vrms. [Manual p39][707-M] |
+| Memory / selective factory recall | All Initialize restores all USER patches; Factory Recall restores a selected USER patch. Either overwrites affected edits. Both start by powering on holding STORE/EXECUTE; CANCEL/EXIT cancels before confirmation. This is documentation, not a reset performed. [Manual p32][707-M] |
+| Routing / patch preselect | Preselect permits browsing while the current sound remains active; both footswitches together confirm the change. Power cycling restores immediate selection. This is not a spillover claim. [Manual p23][707-M] |
 <!-- comparison evidence ends -->
 
 ### 707II — provenance and remaining work
