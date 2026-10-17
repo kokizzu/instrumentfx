@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Play",
-    "task": "Digi Audio Store historical hardware ask saved; new lead consumed without duplicating model. Continue broader Shopee bass/vocal series discovery and unresolved primary-source gaps.",
+    "task": "Japanese v1.8 preset-list snapshot andregional specs saved withclear source qualifications. Continue primarymanufacturer corroboration andShopee discovery.",
     "next_models": [],
     "after_queue": "314 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -52412,6 +52412,17 @@
       "source": "https://shopee.co.id/Efek-Vocal-TC-HELICON-VOICELIVE-PLAY-Vocal-Effect-Stompbox-with-Looping-i.9963816.13036380896",
       "finding": "Additional exact Play hardware ask Rp5644400, Digi Audio Store Bandung, Habis in two-week cached body; separated from condition-qualified new/used evidence.",
       "remaining": "Condition, stock, selected variant, bundle, authenticity and delivered total unknown; technical gaps retained."
+    },
+    {
+      "model": "TC-Helicon VoiceLive Play",
+      "checked_date": "2026-10-17",
+      "sources": [
+        "https://www.electori.co.jp/tc-helicon/pdf/VoiceLive_Play_Japanese_Manual.pdf",
+        "https://www.electori.co.jp/tc-helicon/vocal/voicelive_play.php"
+      ],
+      "identity": "Japanese v1.8 original manual title/controls/list; regional model page reached via www host after earlier mail-host failures. Manufacturer endpoint remains unavailable.",
+      "finding": "Historical preset list1–235 including blank; regional dimensions/mass,power polarity andphantom voltage explicitly separated frommanufacturer corroboration.",
+      "remaining": "Current memory capacity,USBformats,phantom current,screen diagonal/touch,battery/buspower,currentsoftware/firmware andqualifiedoffers remain."
     }
   ],
   "discovery_cross_brand_bass": {
