@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GS1000",
-    "task": "GS1000 dated firmware/Cloud fixes saved; native A2 Lite unchanged. Next primary IR source-format/concurrency, current library/drum/factory-memory gaps or fresh Shopee brand discovery. No packages downloaded; offered-unit firmware unverified.",
+    "task": "GS1000 loop sync/exit and reamp input persistence saved. Loop file format/current drum count/factory memory subset and IR conversion/concurrency remain open. Next fresh Shopee discovery or other incomplete primary fields; preserve Li distinction and no downloads.",
     "next_models": [],
     "after_queue": "337 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -57803,6 +57803,14 @@
       "sources": [
         "https://www.mooeraudio.com/Downloads_xq/7.html",
         "https://cn.mooeraudio.com/Downloads_xq/5.html"
+      ]
+    },
+    {
+      "model": "MOOER GS1000",
+      "checked_date": "2026-10-18",
+      "finding": "Own manual resolves drum-sync rounding/count-in exceptions, continued playback after screen exit and serial-only USB-fixed reamp persistence. Looper file format remains unknown; IR WAV not substituted.",
+      "sources": [
+        "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf"
       ]
     }
   ],

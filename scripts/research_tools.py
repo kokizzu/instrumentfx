@@ -860,7 +860,7 @@ def main():
         elif mode=='commit-ge300':
             subject='research(mooer): preserve Red Truck manual supply-version differences'
         elif mode=='commit-gs1000':
-            subject='research(mooer): qualify GS1000 firmware fixes and Cloud NAM handling'
+            subject='research(mooer): qualify GS1000 loop synchronization and reamp persistence'
         elif mode=='commit-b1xon':
             subject='research(zoom): document B1Xon synth and save loop restrictions'
         if mode=='commit-helix-lt':

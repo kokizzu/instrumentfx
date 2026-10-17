@@ -259,6 +259,18 @@ Checked 2026-10-18 against [global release notes](https://www.mooeraudio.com/Dow
 | Processing / v1.2.5 fixes | **2026-04-23** notes fix low-B tuner recognition, Poly Shift transition noise/pedal stepping, and a 3 Band Compressor threshold fault causing freezes, missing output or sustained noise. Notes also correct Group Mode pedal changes affecting scene values. Not an independent stability test. |
 | I/O / versioned fixes | **v1.2.3** fixes brief dropout during preset changes with Bluetooth/USB playback; **v1.2.7** fixes balanced-output issues without specifying their electrical cause. Neither proves arbitrary gapless switching or resolves the regional output wording conflict. |
 
+### GS1000 — loop synchronization and reamp routing
+
+Checked 2026-10-18 against the [original manufacturer manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf), printed pp47–51.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Looper / synchronization boundary | DRUM SYNC uses a one-bar count-in, except when AUTO REC is active or drums are already playing. The first loop is rounded to whole measures: a remainder below half a bar is discarded; above half a bar recording continues to the next bar. Exactly-half behavior is not specified. |
+| Looper / leaving the screen | Closing Groove Station **does not stop playing loops or drums**. Reopen it to stop them; F4 can separately control DRUM ON/OFF. Screen exit is not storage or power-cycle persistence evidence. |
+| I/O / reamp input persistence | Reamp requires **serial chain mode** and fixes the input source to **USB** until Normal mode is restored. The manual warns it can boot again in Reamp mode, leaving the guitar input silent. Return to Normal after reamping; this is routing behavior, not hardware failure or USB bus-power evidence. |
+
+Loop import/export is documented elsewhere, but no supported loop-audio format was established in these inspected instructions. The existing IR WAV format must not be reused as a looper-file specification.
+
 ## GE100 original
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
