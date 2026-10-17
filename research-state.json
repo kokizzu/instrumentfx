@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee Indonesia discovery / remaining technical gaps",
-    "task": "Bass/vocal DigiTech BP, Korg AX bass and VoiceLive2 search pass saved; no qualified new model. GH MUSIC STORE VL3X exact offer committed with Rp16.4m search versus Rp15.605m direct cache conflict. Next expand exact bass/vocal model searches (DigiTech BP90/BP80, Korg AX5B/AX3B, VoiceLive Rack) and verify eligible leads; avoid repeating identical queries.",
+    "model": "Wisdom DFX2000 pending identity verification",
+    "task": "Exact Shopee Wisdom DFX2000 leads saved in discovery_bass_vocal_frontier_20261018, not active inventory. Verify own manufacturer/distributor identity and documented multi-effects architecture; Phonic DFX2000 manual is a different brand and must not supply specs without equivalence evidence. If primary identity stays unresolved, retain pending and continue other brands. 334 active count unchanged.",
     "next_models": [],
     "after_queue": "334active39brands;0rootlegacy links,117compatibilityfilesremain. Technical,market,ownership andmigration incomplete. No downloads/workflows/push."
   },
@@ -69938,5 +69938,45 @@
     ],
     "result": "No new qualified exact hardware offer from this search pass. RP50/AX1G/StompLab1B batch returned no results. This does not establish market absence. No model added or price allocated.",
     "next": "Move discovery to additional brands/series; retain these unresolved leads rather than repeat identical queries."
+  },
+  "discovery_bass_vocal_frontier_20261018": {
+    "checked_date": "2026-10-18",
+    "no_qualified_leads": [
+      "DigiTech BP90",
+      "DigiTech BP80",
+      "Korg AX5B",
+      "Korg AX3B",
+      "TC-Helicon VoiceLive Rack",
+      "Sonicake Boom Ave"
+    ],
+    "qualification": "Targeted Shopee queries yielded no qualified exact listing, not evidence of market absence. Existing B2 FOUR LYN offer already recorded; not added again.",
+    "pending_model": {
+      "brand": "Wisdom",
+      "model": "DFX2000",
+      "counted": false,
+      "offers": [
+        {
+          "url": "https://shopee.co.id/wisdom-dfx2000-digital-efek-vokal-wisdom-dfx-2000-i.836629702.21981226594",
+          "seller": "Central Elek",
+          "region": "Kota Jakarta Pusat",
+          "indexed_idr": 1025000,
+          "cache": "two-month search; direct page labelled last month",
+          "condition": "unknown",
+          "stock": "unconfirmed"
+        },
+        {
+          "url": "https://shopee.co.id/Wisdom-DFX-2000-Digital-Effect-Original-Pre-Effector-Efek-Vocal-DFX2000-i.785734870.21781240138",
+          "seller": "cveri accessories",
+          "region": "Kota Jakarta Pusat",
+          "indexed_idr": 1050000,
+          "cache": "two months",
+          "condition": "unknown",
+          "stock": "unconfirmed"
+        }
+      ],
+      "identity_risk": "Search returned Phonic DFX2000 manuals, not authenticated Wisdom documentation. Same model string does not establish identical hardware, algorithms, memory or power. Do not import Phonic specifications.",
+      "nonmatching_primary_source": "https://www.phonic.com/index.php/download-center/category/32-2020-06-16-19-31-58?download=1770%3Ajp&start=30",
+      "next": "Find authoritative Wisdom manufacturer/distributor identity and own DFX2000 manual or panel documentation; verify multifx eligibility before active inventory addition. Bundle, warranty, condition and checkout prices remain unverified."
+    }
   }
 }
