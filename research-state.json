@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX4",
-    "task": "GNX4 wah3,pickup2,reverb10 now recorded;compressor attack not algorithm count. Next own amp/cab,stompbox,modulation anddelay tables,actual selector buttons anddisplay. Preserve power conflict and unsupported editor platform gaps.",
+    "task": "GNX4 category counts now wah3,pickup2,distortion10,Talker5,delay5,reverb10. Next modulation/noisegate/amp/cab tables,selector buttons anddisplay; total simultaneous count still unresolved. No sibling counts.",
     "next_models": [],
     "after_queue": "Other candidates/field gaps; no workflows/push."
   },
@@ -53205,6 +53205,18 @@
     "reverb": 10,
     "reverb_source": "https://www.manualshelf.com/manual/digitech/gnx4/user-guide-english/page-54.html",
     "routing": "Preamp pickup/wah/compressor/Whammy-IPS/stompbox;postamp modulation/delay/reverb.",
-    "limits": "No total simultaneous block/category library claim;matrix-selector count still unresolved."
+    "limits": "No total simultaneous block/category library claim;matrix-selector count still unresolved.",
+    "stompbox_distortion": 10,
+    "talker_voicings": 5,
+    "delay": 5,
+    "delay_choices": [
+      "Mono",
+      "Ping Pong",
+      "Analog",
+      "Analog Ping Pong",
+      "Spread"
+    ],
+    "delay_source": "https://www.manualshelf.com/manual/digitech/gnx4/user-guide-english/page-53.html",
+    "access": "Indexed own manual text;direct mirror open cache-missed. Official original p38 confirms stompbox/Talker counts. No files downloaded."
   }
 }
