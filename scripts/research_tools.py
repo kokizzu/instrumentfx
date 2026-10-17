@@ -528,7 +528,7 @@ def main():
         if mode == 'commit-ve20-followup':
             message = 'research(boss): preserve exact VE20 sold-out hardware ask'
         if mode == 'commit-g71ut':
-            message = 'research(zoom): reconcile G7.1ut category inventory to 92 effects'
+            message = 'research(zoom): qualify G71ut memory pedal targets and converters'
         if mode == 'commit-field-projection':
             message = 'test(comparisons): reject unclassified catalogue evidence before rendering'
         if mode == 'commit-gfx4':

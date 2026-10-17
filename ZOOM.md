@@ -2523,7 +2523,7 @@ Guitar multi-effects;distinct fromG9.2tt/G5. Checked2026-10-17;partial. Disconti
 | Display | 16-character,two-line backlitLCD plus2-digit7-segmentLED. Diagonal,color,touch unverified. | [Japanese manual p69][G71-J] |
 | Dimensions / mass | 460W×235D×81Hmm;4kg. | [Manual p69][G71-M] |
 | Processing / category choices | **92effects,max9 includingZNR**. Table-derived COMP3,WAH/EFX1 11,ZNR3,PREAMP36(35distortion+1acoustic),EQ1,CABINET1,MOD/EFX2 20,DELAY6,REVERB11=92. TOTAL/NAME/ARRM/PDL are control settings,excluded. Cabinet mic/position andEQbands are parameters,not extra algorithms. Two live/recording algorithms pertype depend onCABINET;not72 independent simultaneous preamps. | [Manual pp4,55–67][G71-M] |
-| Factory / user memory | **160=80preset+80user**;readonlyA/b,editableU/u. Initial userfill unresolved. | [Manual pp4–5][G71-M] |
+| Factory / user memory | **160=80preset+80user**;readonlyA/b,editableU/u. All80 user slots initially duplicate preset groups A/b (p27). | [Manual pp4–5,27][G71-M] |
 | Synth / acoustic | Aco.Sim electric-to-acoustic. Dedicated synthesis unverified. | [Manual p59][G71-M] |
 | I/O | Mono¼guitar,stereo⅛AUX,Lmono/R¼outputs,¼stereophones,CONTROL IN,MIDI IN/OUT,USB,power. USB subtype pending. | [Manual pp6–8,69][G71-M] |
 | Power / battery / USB | **15VAC1.5A AD-0012 corroborated** byJapanese safety p2 andspecificationp69,alsoEnglishp69. Englishsafetyp2 insteadsays15VDC;retained asunresolved document discrepancy,not acceptedDCcompatibility. AC hasnoDCpolarity;measured draw,battery andUSBpower unknown. | [English pp2,69][G71-M];[Japanese pp2,69][G71-J] |
@@ -2551,6 +2551,15 @@ Ownmanual accessed aswebtext;no downloads/software/physicalinspection. Englishpo
 [G71-J]: https://zoomcorp.com/media/documents/J_G71ut_0.pdf
 
 Category count checked2026-10-17 against printedpp55–66. WAH11 includesAutoWah,A-Resonance,Booster,Tremolo,Phaser,RingModulate,SlowAttack,PedalVox,PedalCry,P-Resonance,Octave. MOD20 includesChorus,ST-Chorus,Ensemble,Flanger,PitchShift,PedalPitch,Vibe,Step,Delay,TapeEcho,DynamicDelay,DynamicFlang,MonoPitch,HPS,PdlMonoPitch,Cry,ReverseDelay,BendChorus,CombFilter,Air. REVERB11 includes sixreverbs,earlyreflections,multitap,pan-delay,pingpong-delay,autopan. Repeated effect names in differentmodules count as modulechoices;tableexamples onp54 are not extra entries.
+
+### Memory, expression and converter follow-up
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / simultaneous targets | Built-in pedal controls up to **four parameters simultaneously**, with separate ranges per target and patch. In bypass it controls volume; in mute it has no effect. | [Manual p30][G71-M] |
+| Factory / store and reset | Individual patches or whole banks can be stored/swapped within user memory. Preset sources cannot be swapped; their default store destination is the first user patch. All Initialize restores factory patches and overwrites edits. Energizer settings are not patch-stored. | [Manual pp27–29][G71-M] |
+| Processing / converters | Internal **96 kHz**, **24-bit A/D at 64×** and **24-bit D/A at 128× oversampling**, with **32-bit processing**. Published response: **20 Hz–40 kHz, +1/−3 dB at 10 kΩ**. Separate from USB streaming formats. | [Manual p69][G71-M] |
+| I/O / input ratings | Guitar rated **−10 dBm, 1 MΩ**; AUX **−10 dBm, 10 kΩ**. Line nominal level switches **−10/+4 dBm**; maximum remains the separately recorded +19 dBm. | [Manual p69][G71-M] |
 
 ## 707II
 

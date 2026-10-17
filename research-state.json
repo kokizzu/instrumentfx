@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom GFX-4",
-    "task": "Factory memory, converter and input ratings, reset and calibration saved. Commit before next model. Button total, external expression, software, screen specifications, imports and exact hardware prices remain unresolved. Next: different model primary-documentation gaps and new Shopee brand/series discovery; no downloads or workflows.",
+    "model": "Zoom G7.1ut",
+    "task": "Memory fill, four pedal targets, store/swap and converter/input ratings saved; commit before next model. Remaining button total, screen specifications, imports, current software compatibility and qualified prices unresolved. Continue different model primary gaps and fresh Shopee discovery; no downloads/workflows.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom GFX-4."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G7.1ut."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57048,6 +57048,14 @@
       "finding": "Resolved factory-filled user slots from p30; added converter and active/passive input ratings, qualified output-impedance ambiguity, reset and pedal calibration from pp28–29. Fresh AX2G/GNX2/GFX8/StompLab1B Shopee searches yielded no qualified new unit; accessories rejected.",
       "sources": [
         "https://zoomcorp.com/media/documents/E_GFX4.pdf"
+      ]
+    },
+    {
+      "model": "Zoom G7.1ut",
+      "checked_date": "2026-10-18",
+      "finding": "Resolved initial user-memory fill; documented bank/patch store-swap restrictions, four simultaneous built-in pedal targets, converter/input ratings. Fresh AX3000B/BP355/B9.1ut/GT6B Shopee queries returned no indexed results; no availability conclusion.",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_G71ut.pdf"
       ]
     }
   ],
