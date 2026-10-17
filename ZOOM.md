@@ -761,7 +761,7 @@ The original comparison explicitly gives this model the same ports and three pow
 | USB / editor |Guitar Lab Windows/macOS;USB editing,not USB audio in legacy family comparison. Full mobile editor unverified |
 | Display |128×32 dot-matrix LCD, explicitly covered by the B1/B1X FOUR quick guide p.11. Diagonal,color mode andtouch unverified; no G1X FOUR substitution |
 | Preset memory |50 editable total, all50 preloaded (quick guide pp.3,11); not50factory+50user |
-| Categories / synth / acoustic |Bass synth andpedal volume/wah/delay/pitch retained;complete current category counts,exact synth algorithm names andacoustic simulator unknown. Family over70 marketing includes amp/cab models;downloads are not every unit's installed count |
+| Categories / synth / acoustic |Bass synth andpedal volume/wah/delay/pitch retained;complete current category counts andacoustic simulator unresolved;three synth algorithms verified below. Family over70 marketing includes amp/cab models;downloads are not every unit's installed count |
 
 ### B1X FOUR — separate IDR evidence checked2026-10-16
 
@@ -802,6 +802,19 @@ Display resolution and factory-filled count above supersede their earlier unknow
 | Processing / pedal category | [Official B1 FOUR/B1X FOUR effect list](https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf),2019 Z2I-3610-01,pp15–16,lists **six pedal/control entries**:PDLVol,BassWah,PDLReso,BaPDLPit,BaPDLMnP,OutputVP. This is a published library inventory,not six additional simultaneous slots or proof of identical installed firmware contents. OutputVP is a control entry. |
 | Expression / pitch | BaPDLMnP explicitly requires single-note playing;BaPDLPit is separately listed without establishing blanket polyphony. Both offer nine Color control mappings. PDLVol has two curve choices;BassWah/PDLReso are distinct wah algorithms. |
 | Memory / live volume | OutputVP controls the product output level and retains it across patch changes. This does not establish retention after power-off or make it another editable patch memory. |
+
+
+### B1X FOUR — modulation,SFX and ambience inventory,2026-10-17
+
+[Shared manufacturer list](https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf),2019 Z2I-3610-01,pp11–15,explicitly names B1 FOUR/B1X FOUR. Counts include marked GuitarLab additions;published library,not installed factory totals or simultaneous capacity.
+
+| Field | Published choices / qualification |
+|---|---|
+| Processing / modulation | **14**:Tremolo,Phaser,TheVibe,PitchSHFT,HPS,CloneCho,SuperCho,CoronaTri,BassStCho,BaVinFLNG,BaOctave,BaDetune,BaMnPitch,BassPhase. BaMnPitch is single-note. |
+| Processing / SFX | **7**:Bomber,LoopRoll,StdSyn,SynTlk,Z-Syn,Defret,PH+Dist. LoopRoll10–3000ms sample/hold is distinct from the30s looper. Defret simulates fretless bass,not acoustic guitar. |
+| Synth / choices | **Three algorithms**:StdSyn has4sound variants;SynTlk has IA/UE/UA/OA vowels;Z-Syn has SAW/SQR waves. Internal variations do not add algorithms. |
+| Processing / delay | **6**:Delay,AnalogDly,TapeEcho,ReverseDL,ModDelay,DualDLY. |
+| Processing / reverb | **6**:Air,Room,Hall,HDHall,Spring,Plate. Their Tail setting preserves decay when the effect turns off;not proof of patch-change spillover. |
 
 
 ## B2 FOUR

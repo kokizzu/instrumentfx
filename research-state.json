@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1X FOUR",
-    "task": "Six pedal/control entries and patch-persistent OutputVP saved. Next resolve remaining nonpedal category inventory from ownsharedlist or fresh bass/vocal discovery;not installedtotal.",
+    "task": "B1XFOUR mod14/SFX7/delay6/reverb6 and3synth names saved fromownsharedlist. Next review earliercategories orfreshdiscovery;publishedlibrary notinstalledtotal.",
     "next_models": [],
     "after_queue": "290partialmodels;no downloads/workflows/push."
   },
@@ -58326,6 +58326,24 @@
     "scope": "6libraryentries includes outputcontrol;not installedtotal or simultaneousslots",
     "limits": "BaPDLMnP single-note;BaPDLPitpolyphonyunestablished;OutputVP persists patchchange notpowerclaim",
     "discovery": "DigitechBP/Zoom506bass/AX5B noqualifiednewexactlead;B1XFOURNewmeteor/cverialreadyrecorded;HopeMusic mixedG1XNext/B1XNextunallocated",
+    "downloads": false
+  },
+  "b1xfour_mod_sfx_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf",
+    "identity": "2019Z2I361001 pp11–15 explicitbothmodels",
+    "counts": {
+      "modulation": 14,
+      "sfx": 7,
+      "delay": 6,
+      "reverb": 6
+    },
+    "synth": [
+      "StdSyn",
+      "SynTlk",
+      "Z-Syn"
+    ],
+    "scope": "Library includes GuitarLab additions,not factoryinstalledtotal;remainingdynamics/filter/drive/amp/cab counts pending ownreview",
+    "limits": "BaMnPitchsingle-note;LoopRoll10–3000ms distinct30slooper;effectoffTail notpatchspillover",
     "downloads": false
   }
 }
