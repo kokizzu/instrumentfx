@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom RFX-2000",
-    "task": "RFX2000panel8/0/10 andmic/digitalrouting saved. Next fullbank/architecturecounts,initialmemoryfill andadaptercurrent;visual/currentsoftware gaps remain.",
+    "task": "RFX2000 factoryfilled100writablepatches,6×8panelbankselection+8EXTRA andbypassMIXdependency saved. Next namedselectorlibrary/combinedarchitecture andadaptercurrent;visual/softwaregaps remain.",
     "next_models": [],
     "after_queue": "Continue fresh Shopee discovery. No downloads,workflows,push;commit each usefulmodel before next."
   },
@@ -53779,5 +53779,11 @@
     "pages": "2–3",
     "finding": "8rotary0foot10buttons;sharedmic/lineINPUTgain,normalmixvsVOCODERcontrol;simultaneousoptical/coaxdigitaloutputsnotaffectedbyOUTPUTknob.",
     "remaining": "Fullbank/architecturecounts,initialmemoryfill,adaptercurrent,visualandsoftwaregaps."
+  },
+  "rfx2000_memory_banks_followup_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+    "pages": "6–7,13–14,24–25",
+    "finding": "100storedwritablepatcheswithindividual/allfactoryrecall;6panelbanks×8plus8EXTRAselection,notindependentslots;WetMutedryMIXdependencyvsDryThru.",
+    "remaining": "Fullnamedselectorlibrary/combinedarchitecture,adaptercurrent,visual/currentsoftwaregaps."
   }
 }
