@@ -586,7 +586,7 @@ def main():
         if mode == 'commit-tonelab-se':
             message = 'research(vox): qualify ToneLab SE converters and dual pedal controls'
         if mode == 'commit-tonelab-st':
-            message = 'research(vox): qualify ToneLab ST pedal recall and historical offer'
+            message = 'research(vox): distinguish ToneLab ST calibration switching force and reset'
         if mode == 'commit-tonelab-le':
             message = 'research(vox): distinguish ToneLab LE calibration chain orders and EQ limits'
         if mode == 'commit-ax1500g':

@@ -97,6 +97,14 @@ Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass s
 | Expression / position persistence | Saving normally stores the current pedal position as the assigned parameter value. Exceptions: volume, delay/reverb input levels, pitch-shifter PITCH and FILTRON cutoff. Assignment/endpoints save per program; amp GAIN assignment survives changing amp model. | [Manual pp24–26][TLST-M] |
 | Live / key lock and bank navigation | Hold EXIT/TUNE about2s to lock top-panel switches/selectors/knobs; repeat to unlock. Holding UP or DOWN while pressing EXIT/TUNE moves the program number by10. | [Manual p5][TLST-M] |
 | Memory / save exclusions | Rear LEVEL and AMP/LINE are not program-stored or covered by Original Value indication. Unsaved edits disappear on program change/power-off; WRITE targets users0–49. | [Manual pp11–12][TLST-M] |
+
+### ToneLab ST — calibration and conversion
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / calibration and switching force | Use a foot, as hand operation may fail. Power on holding EXP PARAM + WRITE, then release. Press forward to switch the assigned effect: this establishes switching weight. Slowly return the pedal, remove foot, then gently advance it and remove foot. WRITE completes; EXIT/TUNE cancels. Failed adjustment repeats from the switching-weight step. Display glyphs are missing from extracted text and remain unverified. | [Manual p27][TLST-M] |
+| Processing / converters | **24-bit A/D and D/A; 44.1 kHz** internal sampling. USB audio bit depth and selectable host rates are not specified here. | [Manual p33][TLST-M] |
+| Memory / factory initialization | Reset returns saved programs to factory contents. Power on holding EXIT/TUNE + EXP PARAM; release when UP/DOWN LEDs blink, then WRITE confirms. EXIT/TUNE cancels before confirmation; do not interrupt initialization. This differs from pedal calibration. | [Manual p29][TLST-M] |
 <!-- comparison evidence ends -->
 
 ### Condition-unverified Shopee hardware
