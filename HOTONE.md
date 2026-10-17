@@ -56,6 +56,16 @@ These are individual asking observations,not a current market range or completed
 
 [ONE-F] [Official2026-03-09 Sound Clone release notes](https://www.hotone.jp/announcements/ampero-sound-clone-release), specifically **Ampero One3.1**,not Ampero5.2,Mini2.2 or an Ampero II release.
 
+### Ampero One — original-manual library subtotals, 2026-10-17
+
+[Manufacturer-authored manual transcription][ONE-M], explicitly **firmware V1.1**, effect appendix pp22–28. Original document text, not the mirror’s generated FAQ or diagram descriptions; no visual inspection or file download.
+
+| Field | Verified revision-specific count / conflict |
+|---|---|
+| Processing / shared FX library | **Dynamics9 + Frequency18 + Overdrive/Distortion22 + Modulation22 =71 choices** shared by FX1/FX2/FX3. These are alternatives within the flexible modules, not71 simultaneous effects or213 unique algorithms. This completes the previously unresolved shared-FX subtotals for V1.1 only. |
+| Processing / AMP count conflict | The same appendix labels **AMP65**, versus the product page’s **64 amps** retained above. Revision/counting basis remains unresolved; do not silently replace one with the other or certify either as firmware3.1’s installed library. AMP Drive22 is distinct from the separate pedal-drive category’s22. |
+
+
 ## Hotone consolidation scope
 
 The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.

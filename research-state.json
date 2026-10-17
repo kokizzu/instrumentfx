@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Roland GR-33 discovery lead",
-    "task": "GR-33 own indexedmanualp53 resolves routing:3processors,40MultiFXalternatives,synth-only;normalguitar requires external effects. ExactShopee seller/item unresolved. Next recover exact hardware offer or move to another discoverylead; do not repeat zero-textPDF as newevidence.",
+    "model": "Hotone Ampero One MP-80",
+    "task": "V1.1sharedFX71subtotalreconciled9/18/22/22;AMP65vsproduct64conflictretained. Next ownmanualcabinet/ampcategoryscope orfreshdiscovery; currentfirmwareinventorystillunverified. GR33exactofferremainsleadonly.",
     "next_models": [],
-    "after_queue": "Continue primary verification/fresh Shopee discovery and legacy consolidation; no workflows/downloads/push."
+    "after_queue": "Continue unresolved research and legacy consolidation; no workflows/downloads/push."
   },
   "new_findings": [
     {
@@ -41416,7 +41416,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Play Acoustic."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero One MP-80."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58741,6 +58741,19 @@
     "scope": "Effects processinternal synth soundgenerator only;not normal guitar or external audio. GuitarOut/Return allows external guitar-only effects.",
     "tone_assignment": "MultiFXswitchOff/firsttone/secondtone/bothtones;effectonoffstoredperpatch",
     "qualification": "Candidate synth/multi-effects architecture established; conventional guitar-audio effects expressly unsupported. Exact Shopee seller/item and active-scope decision remain pending.",
+    "downloads": false
+  },
+  "ampero_one_subtotals_20261017": {
+    "source": "https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual",
+    "identity": "Manufacturer-authored AmperoOne manual firmwareV1.1;appendix22–28;originaltextnotgeneratedFAQ",
+    "counts": {
+      "dynamics": 9,
+      "frequency": 18,
+      "drive": 22,
+      "modulation": 22
+    },
+    "shared_total": 71,
+    "amp_conflict": "ManualAMP65 vs product64;notreconciled;notcurrentfirmware3.1count",
     "downloads": false
   }
 }

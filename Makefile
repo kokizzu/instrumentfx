@@ -1615,3 +1615,7 @@ research-commit-microplus:
 .PHONY: research-commit-katana-go
 research-commit-katana-go:
 	python3 scripts/research_tools.py commit-katana-go
+
+.PHONY: research-commit-ampero-one
+research-commit-ampero-one:
+	python3 scripts/research_tools.py commit-ampero-one
