@@ -221,3 +221,37 @@ Partial record checked **2026-10-17**. Manufacturer SKU19300000 and exact Shopee
 [kp-s]: https://www.kemper-amps.com/profiler/technical-specifications
 
 Manufacturer foreign stock does not verify Indonesian stock. No exchange-rate conversion,downloads or visual inspection claimed. All technical/market gaps remain explicit.
+
+## PROFILER Head MK2
+
+Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, distinct from PowerHead and controller/speaker bundles. [kh-p]
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | Two onboard TRS pedal/switch sockets,10–100 kohm [kh-s]. Built-in/toe behavior unverified. Marketing mentions four expression pedals but does not establish four onboard sockets [kh-p]. |
+| Knobs / footswitches / buttons | Separate rotary,footswitch and button census unresolved. |
+| Display | Published diagonal,color/monochrome and touch unresolved. |
+| Dimensions / weight | **378W×173D×217H mm;5.32 kg**, explicit Head specifications,not PowerHead mass [kh-s]. |
+| Simultaneous blocks / category choices | **4 flexible pre +4 flexible stereo post**, plus **6 fixed pre +2 fixed stereo post**, around AMP/CAB. Complete category census unresolved [kh-p]. |
+| Preset / factory / user memory | Browse,Performance,factory occupancy and combined total unresolved in this first pass. |
+| Synth / acoustic | Dedicated synth/acoustic algorithms unresolved;amp profiling alone does not establish either. |
+| IR / NAM / captures | Proprietary amp PROFILE creation documented;IR conversion,native/converted NAM and current capture-resolution requirements unresolved [kh-p]. |
+| Audio I/O | Front¼-inch TS;balanced alternative TRS;balanced XLR/¼-inch return. Stereo main XLR balanced/TS unbalanced;monitor and direct/send TS;¼-inch stereo phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz master/slave [kh-s]. Input selection and stereo-monitor restrictions need qualification. No powered SPEAKER OUTPUT in Head specification;that output is explicitly PowerHead/PowerRack only. |
+| Control / USB | USB-A/B,USB MIDI,DIN in/out/thru,RJ45,two pedal sockets;**4in/4out USB audio at44.1kHz** for MK2 [kh-s] [kh-p]. |
+| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head rating [kh-s]. Actual consumption,automatic selection,battery/USB operation unresolved;DC polarity not applicable to mains. |
+| Editor platforms / drivers | Rig Manager Windows/macOS over USB;mobile iOS/Android/FireOS over external WiFi router. Minimum versions,drivers and mobile parity unresolved [kh-p]. |
+| Practical features | Morphing,Performance switching,instrument/line external FX loop,Kone output modes documented. Looper,drums and exact switching limits unresolved [kh-p]. |
+| Bass capability | Exact MK2 manufacturer page explicitly identifies guitar and bass;not equal-performance certification [kh-p]. |
+
+### Head MK2 — separate IDR asking-price evidence
+
+| Condition / access | Amount | Exact offer / qualifications |
+|---|---:|---|
+| Condition-unverified cached ask | **Rp28.900.000** | [Seller253483262/item4945179423](https://shopee.co.id/Kemper-Profiler-Head-MK-2-Guitar-Amp-System-i.253483262.4945179423),exact Head MK2 hardware title,Jakarta Pusat in [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). September2026 cache checked2026-10-17;previous click cache-missed;clean direct URL now inaccessible through research tool. display_model_id21460754905. Seller name,condition,new/used,stock,bundle,variation,voucher,warranty,authenticity and installed OS unresolved. Cached ask,not live checkout or completed sale. |
+| Verified new IDR | ? | Not established. |
+| Verified used IDR | ? | Not established. |
+
+[kh-p]: https://www.kemper-amps.com/store/en/profiler-head-b.html
+[kh-s]: https://www.kemper-amps.com/profiler/technical-specifications
+
+Manufacturer foreign stock does not prove Indonesian availability. No downloads,exchange-rate conversion or visual inspection claimed.
