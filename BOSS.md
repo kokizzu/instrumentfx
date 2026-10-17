@@ -442,6 +442,16 @@ Checked 2026-10-18 using own Spanish manual text and indexed exact hardware list
 | Memory / explicit save | Hold MEMORY to enter saving, press it to choose the destination A/B/C, then hold MEMORY again to commit. Blinking after editing an existing memory indicates changed settings that need saving; selecting a memory is not itself a save. Normal/manual remains separate from the three stored memories. | [Own Spanish manual, MEMORY section][VE1-M] |
 
 Checked 2026-10-18. Searches for model-specific USB sample-rate, channel and powering documentation did not establish those fields. The manual directs detailed USB questions to the driver archive’s Readme.htm; no archive was downloaded or installed, and no numerical format or bus-power claim is added.
+### VE-1 — reset and current driver-status qualifications
+
+Checked 2026-10-18 against model-specific support and dated compatibility documentation.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Memory / factory-reset availability | **No factory-reset function**, explicitly confirmed by BOSS. Foot Switch Function, USB Connection Mode and Reference Pitch can instead be returned manually to their default values using the owner manual. This does not establish a command that resets all three saved memories. | [Official answer, updated2026-03-12](https://support.roland.com/hc/en-us/articles/4404885766683-VE-1-Can-the-VE-1-Be-Reset-to-Factory-Settings) |
+| Editor / macOS hardware-driver status | Manufacturer table updated **2026-09-16** lists VE-1 Hardware & Driver **Yes(Download) on macOS15/26**, **Under Testing on27**. Exclusive Application is **—** for all three; driver compatibility does not establish a full editor. This is dated manufacturer status, not local testing. | [Official macOS table](https://www.boss.info/global/support/support_news/25090811m1/) |
+| I/O / USB computer-return level | Model-specific Japanese support answer states that the computer-to-VE-1 audio level must be adjusted **on the computer**. It confirms the dedicated driver requirement and the four documented routing modes; it publishes no numerical channel, rate, bit-depth or bus-power specification. | [Official VE-1 USB answer](https://support.roland.com/hc/ja/articles/4404884877083) |
+
 
 ## VE-2
 

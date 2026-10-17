@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS ME-90B",
-    "task": "ME90B desktop editor1.1.0 version/fixes and Windows10/11 application requirements saved. IR format/length remains unknown; siblingME90 search results rejected. Next broaden discovery or resolve another model primary gap; no downloads/workflows.",
+    "model": "BOSS VE-1",
+    "task": "No factory reset and dated macOS driver-only status saved; computer-return volume adjusted on host. Next broader discovery/other model gaps; VE1 USB numerical format/power, socket polarity, screen/control verification and qualified used offer remain unresolved.",
     "next_models": [],
     "after_queue": "335 active partial records;117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45319,7 +45319,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-90B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-1."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -57573,6 +57573,16 @@
       "sources": [
         "https://www.boss.info/global/support/by_product/me-90b/updates_drivers/b1ff01fe-bea1-4ff9-a196-66effdc0e99b/",
         "https://www.boss.info/global/support/by_product/me-90b/updates_drivers/006d1733-6ad8-4133-8d18-f1c9905fdae3/"
+      ]
+    },
+    {
+      "model": "BOSS VE-1",
+      "checked_date": "2026-10-18",
+      "finding": "BOSS explicitly confirms no factory reset; manual restoration of footswitch/USBmode/referencepitch only. Mac table Sep16 hardwaredriver15/26YesDownload27Testing, exclusiveappdash. Japanese USBKB requires computer-side return level adjustment; numerical USBformat stillunknown. Shopee search repeats existing offers, no newqualifiedused.",
+      "sources": [
+        "https://support.roland.com/hc/en-us/articles/4404885766683-VE-1-Can-the-VE-1-Be-Reset-to-Factory-Settings",
+        "https://www.boss.info/global/support/support_news/25090811m1/",
+        "https://support.roland.com/hc/ja/articles/4404884877083"
       ]
     }
   ],

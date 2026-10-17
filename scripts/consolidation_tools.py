@@ -1420,6 +1420,9 @@ def commit(model_id):
     if model_id == 'b2-four':
         print(research_tools.git('commit', '-m', 'research(zoom): qualify B2 FOUR pedal rhythm and tuner limits'))
         return
+    if model_id == 've-1':
+        print(research_tools.git('commit', '-m', 'research(boss): qualify VE1 reset limits and macOS driver status'))
+        return
     if model_id == 'me-90b':
         print(research_tools.git('commit', '-m', 'research(boss): qualify ME90B editor version and platform prerequisites'))
         return
