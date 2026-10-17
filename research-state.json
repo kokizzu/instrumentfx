@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 316,
+  "active_model_count": 317,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 316,
+  "canonical_root_model_count": 317,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "316 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
+  "count_reconciliation": "317 unique active/root-canonical;0 legacy-only;35 brands;6 excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX10B",
-    "task": "Save/reset,pedalassignmentdependency andtuner detectionrange saved. Remaining concurrentceiling,converter/sampleformat,draw/display andIDRoffersunknown. Next freshbass/vocal discovery orothermodel gap;do not borrowAX10G/A.",
+    "model": "Behringer FX600",
+    "task": "PartialFX600saved;next readableownmanual/revision,delaypitchranges,memory/bypass details,qualified used/newoffers. No bassclassificationwithoutown evidence. Retain allprior modeltechnical gaps.",
     "next_models": [],
-    "after_queue": "316active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
+    "after_queue": "317active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5335,6 +5335,13 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Nine vocal blocks andindependent guitar reverb/modulation/compression/EQ qualify both views;300writablelocations;own ports/power limits andsoldout condition-unverified Shopee ask retained."
+    },
+    {
+      "model": "Behringer FX600",
+      "path": "BEHRINGER.md#fx600",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Six distinct effectfamilies,oneatatime;officialproduct/indexedownmanual power/ports;exactRp500000soldoutask;newerV3unreadable."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24384,7 +24391,8 @@
       "Bass V-AMP PRO",
       "V-AMP 2",
       "FX2000",
-      "V-AMP 3"
+      "V-AMP 3",
+      "FX600"
     ],
     "Lexicon": [
       "MX200",
@@ -24772,7 +24780,8 @@
       "Bass V-AMP PRO",
       "V-AMP 2",
       "FX2000",
-      "V-AMP 3"
+      "V-AMP 3",
+      "FX600"
     ],
     "LEXICON.md": [
       "MX200",
@@ -24818,7 +24827,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 263,
+      "record_count": 264,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -24851,7 +24860,7 @@
     "root_category_and_instrument_views": "Four-table comparisons:262 guitar,136 documented bass-capable,65 vocal;technical andmarket verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "316 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "317 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -41886,10 +41895,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 316,
-    "canonical_root_models": 316,
+    "unique_brand_model_pairs": 317,
+    "canonical_root_models": 317,
     "legacy_only_models": 0,
-    "guitar_view_models": 263,
+    "guitar_view_models": 264,
     "bass_focused_models": 29,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -41949,7 +41958,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX10B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer FX600."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -42189,6 +42198,7 @@
       "Behringer::V-AMP 2",
       "Behringer::FX2000",
       "Behringer::V-AMP 3",
+      "Behringer::FX600",
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
@@ -44716,6 +44726,13 @@
     },
     "Behringer::V-AMP 3": {
       "link": "BEHRINGER.md#v-amp-3",
+      "source_files": [
+        "BEHRINGER.md"
+      ],
+      "finding_files": []
+    },
+    "Behringer::FX600": {
+      "link": "BEHRINGER.md#fx600",
       "source_files": [
         "BEHRINGER.md"
       ],
@@ -61911,6 +61928,10 @@
     {
       "token": "42811752267",
       "model": "M-VAVE::CUBE BABY BASS"
+    },
+    {
+      "token": "25707884878",
+      "model": "Behringer::FX600"
     }
   ],
   "g3xn_dsp_acoustic_20261017": {
@@ -65121,5 +65142,19 @@
       "https://shopee.co.id/Multi-Efek-Bass-Elektrik-M-Vave-Cube-Baby-Bass-Elektrik-Original-i.474088972.42811752267",
       "https://shopee.co.id/Vox-SL2B-Multi-Effects-Bass-Pedal-Multi-Efek-Bass-Pedal-Vox-Stomplab-2B-SL2B-Original-i.1776275.4688514198"
     ]
+  },
+  "discovery_fx600_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Correct XT\"",
+      "site:shopee.co.id \"VoiceTone Create\"",
+      "site:shopee.co.id \"Zoom 506II\"",
+      "site:shopee.co.id \"BFX\"",
+      "site:shopee.co.id \"Harmony-G\"",
+      "site:shopee.co.id \"Vocal\" \"Multi Effects\"",
+      "site:shopee.co.id \"BEHRINGER FX600\""
+    ],
+    "accepted_item": "43081403/25707884878",
+    "rejected_price": "880854240/47300816627 Rp99with2variants/97%title;notqualifiedusedprice",
+    "other_offers": "MB663000Habis,NEO827502,AM895000,DealerJaya710000,King920000 remainunreviewed;do notmergeintorange"
   }
 }

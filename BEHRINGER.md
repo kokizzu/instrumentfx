@@ -283,3 +283,38 @@ Page5 gives **78H×180W×270D mm**, versus the ©2013 manual’s79H×267W×180D;
 The brochure reverb table ends at8 and combines Medium/Large Room inone entry; the manual enumerates9 separately. Treat this as a document/table conflict,not proof of different installed firmware. Both identify0.8kg approximately; the brochure’s1.76lb andmanual’s1.6lb equivalents disagree.
 
 The brochure corroborates a separate bundled UCA222 interface andpreamp bypass. Historical inclusion does not verify the Indonesian seller’sbundle. No adapter output ratings resolved.
+
+## FX600
+
+Digital Stereo Multi-FX pedal; distinct from FX2000. Checked2026-10-18;partial. Manufacturer identifies six different effect families,one selected at a time;no minimum simultaneous-count requirement for multi-effects inclusion. Bass/vocal suitability andownership unverified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in expression pedal orexternal EXP connector documented;toe implementation not applicable to expression. | [Product][FX6-P]; [manual index][FX6-M] |
+| K/F/B | Text-derived **4 rotary** (FX,LEVEL,PAR1,PAR2),**1 bypass footswitch**;separate buttons not documented. No image audit. | [Product][FX6-P] |
+| Display | ON/BATT indicator;no screen documented. Published diagonal/color/touch not established. | [Product][FX6-P] |
+| Processing / choices | **One of6 effects**:Flanger,Chorus,Phaser,Delay,Tremolo,Pitch Shifter. Two adjustable parameters plusmix. **24bit/40kHz** product specification;notUSB audio. Exact delay/pitch ranges pending. | [Product][FX6-P] |
+| Factory / user memory | Stored presets/user memory not established;selector chooses effect,not proof of six memories. | Unresolved |
+| Synth / acoustic | Pitch Shifter documented;dedicated synthesis/acoustic simulation unverified. | [Product][FX6-P] |
+| Dimensions / mass | Approx70W×123D×54H mm;0.33kg. | [Manual indexed specifications][FX6-M] |
+| I/O / routing | Two¼in TS inputs A/B,two¼in TS outputs A/B;useA for mono,both forstereo. DC input2mm center-negative. USB,MIDI,headphones,FXloop not listed as separate connectors. | [Manual index][FX6-M] |
+| Power / battery / USB | **9VDC;130mA consumption;9V6LR61 battery**. Listed9V/1.7A regulated supply is adapter rating,not unitdraw. No separate power switch;input-plug insertion starts operation,unplug tosavebattery. Battery runtime/USB operation unverified. | [Manual index][FX6-M] |
+| IR / NAM / captures | UserIR,native/convertedNAM andcapture loading unverified. | Unresolved |
+| Editor / software | Editor/driver/updater platforms unverified;noUSB interface established. | Unresolved |
+| Looper / drums / scenes | Looper,drums,scenes,trails andbypass-circuit type unverified. | Unresolved |
+
+### Separate IDR hardware evidence
+
+| Condition | Amount / qualifications | Source |
+|---|---|---|
+| Used | Unknown;no qualified usedhardware price. A97%condition title withRp99/twovariants is unresolved,not accepted. | — |
+| New | Unknown;no explicit newcondition confirmed inacceptedextract. | — |
+| Condition unverified;Habis | **Rp500,000**,RED HOUSE GUITAR,KabTemanggung;shop43081403/item25707884878. Directreaderlastweekcache;initialsearchlastmonth. Checked2026-10-18;stale7Octdelivery. Bundle/variant/warranty/workingstate andcheckout unavailable. Late-arrival compensation up toRp10,000 notdiscount;shipping/tax unknown. Sold-out ask,notcurrentstock/completedsale. | [ExactShopee][FX6-S] |
+
+Manual evidence is manufacturer-hosted indexed original text,©2018;directPDFreturned502. NewerV3.0 multilingual manual located butunreadable;no silent revisionmerge orvisualaudit. Unknown fields remain;no files downloaded.
+
+[FX6-P]: https://www.behringer.com/en/products/0709-ADL
+[FX6-M]: https://mediadl.musictribe.com/media/sys_master/h27/he8/8849455579166.pdf
+[FX6-S]: https://shopee.co.id/Behringer-FX600-Digital-Multifx-i.43081403.25707884878
+
+Newer manual endpoint: https://mediadl.musictribe.com/media/PLM/data/docs/P0596/M_BE_0709-ADL_FX600_WW.pdf .
