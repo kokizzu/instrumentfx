@@ -165,6 +165,14 @@ Original source URLs: [source](https://www.boss.info/global/products/me-90b/spec
 | Looper / carryover | 38s mono. [ME90B-S] DLY/REV carryover enabled by default and switchable;does not apply to delay in MOD. [ME90B-M] |
 | USB / editor requirements | USB recording/playback. [ME90B-S] Tone Studio guide requires dedicated USB driver before software;Windows/Mac installer instructions distinct from firmware. [ME90B-B] Direct monitoring resets on at startup;USB return mixes with processed bass. [ME90B-P] Exact channels/bitdepth/OS compatibility remain unverified. |
 
+### ME-90B — external control and recording followup, 2026-10-18
+
+| Field | Verified detail / qualification | Evidence |
+|---|---|---|
+| External expression | No wired EXP socket in the published connector list. The manual explicitly supports optional EV-1-WL wireless expression and FS-1-WL wireless footswitches. The linked connection-guide page exposes a download agreement without a PDF in retrieved text; detailed wireless setup and firmware requirements remain unchecked. | [Reference manual][ME90B-M] p15; [EV-1-WL connection-guide landing page](https://www.boss.info/global/support/by_product/me-90b/owners_manuals/77f6bba2-2c2d-4a68-87d9-582acd9c311d/) |
+| USB audio / MIDI | Named audio endpoints: INPUT and MIX IN into the unit; OUTPUT and DRY OUT from it. These are endpoint names, not a verified channel count or bit depth. USB MIDI supports program changes and CC11 expression, CC82 pedal-effect on/off and CC80 CTL. Dedicated driver required. | [Reference manual][ME90B-M] pp12–13 |
+| Routing / Bluetooth | Computer playback reaches main outputs, phones and balanced XLR; optional Bluetooth audio reaches main outputs/phones but **not balanced XLR**. USB loopback can return computer audio to USB OUT. | [Reference manual][ME90B-M] pp12,14 |
+
 [ME90B-S]: https://www.boss.info/global/products/me-90b/specifications/
 [ME90B-M]: https://static.roland.com/assets/media/pdf/ME-90B_Reference_eng01_W.pdf
 [ME90B-P]: https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf

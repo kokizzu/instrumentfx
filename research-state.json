@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Continue fresh brand/series queries. B3 tuner/eco followup saved; repeated Sragen used lead adds no new qualified price. Retain unresolved Soran original-manual access and technical gaps.",
+    "task": "Continue fresh Shopee brand/series queries or ME-90B wireless connection-guide/USB-format verification. ME-90B control/routing followup saved; cached offer duplicates add no new prices. Retain prior Soran/B3 gaps.",
     "next_models": [],
     "after_queue": "322 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
@@ -65527,5 +65527,13 @@
     "findings": "Original manual text establishes chromatic/bass tuner, A4 435–445 Hz, no chromatic drop tuning, one-second bypass/two-second mute. Activation icon absent from extraction: physical control remains unverified. Eco standby about25min, prevented by bass input signal.",
     "market": "Repeated Sragen Rp1,999,999 search hit is already saved as unresolved exact item41075001096; no new qualified used price.",
     "remaining": "Physical controls, category subtotals, screen/connector details, draw, imports/MIDI, current software and qualified offers remain partial."
+  },
+  "me90b_control_usb_followup_20261018": {
+    "source": "https://static.roland.com/assets/media/pdf/ME-90B_Reference_eng01_W.pdf",
+    "checked_date": "2026-10-18",
+    "pages": "12–15",
+    "findings": "Wireless EV-1-WL/FS-1-WL supported despite no wired EXP jack; guide landing page lacks retrieved PDF. USB endpoint names not channel count. USB MIDI PC/CC11/82/80. Bluetooth playback excludes balanced XLR, unlike USB playback.",
+    "market": "Three discovered exact offers were already preserved in BOSS.md; no new price promoted.",
+    "remaining": "Wireless setup/firmware, USB channels/bitdepth, IR import constraints, detailed categories, electrical gaps and qualified offers remain open."
   }
 }
