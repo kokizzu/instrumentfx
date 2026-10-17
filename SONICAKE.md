@@ -111,7 +111,7 @@ Manufacturer-specified diagonal, explicit touch support, dependable English/glob
 | Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB;130+ choices,individual subcounts ?. |
 | Memory / sound | **100 locations,50 factory-filled**. Exact synth/electric-to-acoustic algorithms unverified. |
 | Bass capability | Manufacturer explicitly advertises guitar/bass-optimized presets; included in the shared bass comparison. Bass-specific model inventory and low-end performance remain unverified. [Product,checked2026-10-17](https://www.sonicake.com/products/smart-box) |
-| IR / NAM | **Five user IR slots**;third-party NAM/NAM A2 workflow advertised. Exact architectures/native-versus-converted handling unverified. |
+| IR / NAM | **Five user IR slots**. Official Japan notice2026-08-18 explicitly identifies **NAM A2 conversion** using mobile app**1.7.2+** or desktop software**1.5.2+**;not native A2 loading. Accepted architecture/size restrictions and conversion fidelity remain unverified. [Regional notice,checked2026-10-17](https://www.hotone.jp/announcements/nama2allbrand) |
 | I/O | 6.35 mm instrument input;**one6.35 mm TRS stereo output**;separate3.5 mm stereo headphones;EXP/FS;USB-C. |
 | Power | **2000mAh rechargeable battery;9V center-negative >700mA or USB5V >1A**. Supply requirements are not independently measured runtime. |
 | Configuration | Desktop Windows/macOS;**SONICLINK iOS/Android explicitly listed**,1.7.2 at check. Not an inferred mobile platform. |
