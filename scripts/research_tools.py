@@ -397,7 +397,7 @@ def main():
         if mode == 'commit-microplus':
             message = 'research(fender): qualify original Micro firmware and updater platforms'
         if mode == 'commit-mg20':
-            message = 'research(nux): retain MP-2 effect choices and audio driver qualifications'
+            message = 'research(nux): clarify Cerberus V5 footswitch and expression assignments'
         if mode == 'commit-m100':
             message = 'research(tc-electronic): enumerate M-One XL choices and preserve MIDI conflict'
         if mode == 'commit-rfx1100':

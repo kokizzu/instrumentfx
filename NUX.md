@@ -691,6 +691,16 @@ The [MG-50Li/Cerberus mixed-title item12356205/9206251989](https://shopee.co.id/
 
 Primary [official routing/rear image](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/03/Cerberus-NME-3_D_20.png) successfully opened and visuallychecked;controls/photo[front](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/03/Cerberus-NME-3_D_01.png) failed. Official [English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Integrated_Effects/Cerberus%20%28NME-3%29/NUX_Cerberus_UserManual_English.pdf) and [software guide](https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_FirmwareUpdate_SoftwareManual_EN.pdf) timedout. [MirroredPDF](https://manuals.plus/m/e479ce908eb600e60e9722de2b2408659aaf31c55af31dfab3eb74bc02294c17_optim.pdf) renderednoinspectedpages. [Manualtext](https://manuals.plus/m/e479ce908eb600e60e9722de2b2408659aaf31c55af31dfab3eb74bc02294c17) and [alternatetranscription](https://manuzoid.com/manuals/5W9L1-Nux%20Cerberus%20Owner%27s%20manual) onlysupporttheexplicitprovisionaldimensions/draw caveat;generateddiagramdescriptionswerenotusedforwiring. Currentfeatures/editorfactscome fromNUX'sownpage,notthosegenerated summaries.
 
+### Cerberus — V5 controller behavior, checked 2026-10-17
+
+[Manufacturer product instructions](https://nuxaudio.com/product/cerberus/) distinguish the active preset switch from the shared external EXP connection. Installed firmware is unknown; these are V5 functions.
+
+| Field | Verified behavior / boundary |
+|---|---|
+| Controls / active preset switch | Its repeat press can enter editing, trigger post-volume boost, analog boost, tap tempo or MIDI remote control. With a non-edit assignment, hold for two seconds and release to enter editing. Post boost is 0–6 dB and software-adjusted; analog boost is 0–20 dB. Assigning analog boost to this switch requires V5 software. These are alternate assignments, not additional physical switches. |
+| Expression / external switches | The EXP socket alternatively accepts a single or dual footswitch for analog boost, tap, modulation or reverb. Modulation switching covers Tremolo, Phaser and U-vibe; do not extend it to the separate chorus section. External switch assignments require V5 software. Sharing this connection does not establish simultaneous expression-plus-switch support. |
+
+
 ## Foreign-price provenance and consolidation limits
 
 The original six-model review recorded **2026-10-14 foreign new asks**:MG-101USD129([NUXUSA](https://www.nux.us/products/mg-101));MG-300MKIIUSD169([NUXUSA](https://www.nux.us/products/mg-300-mkii));MG-400USD229([NUXUSA](https://www.nux.us/products/mg-400)) andUSD172([Thomann](https://www.thomannmusic.com/nux_mg_400.htm));MG-30USD329([NUXUSA NAM page](https://www.nux.us/pages/nam-a2-native));MG-50LiUSD549([NUXUSA](https://www.nux.us/products/mg-50li)). OriginalMG-300hadnone. These remain historicalforeignprovenance,**not IDR values or Indonesian delivered prices**. No FXrate/useddiscountassumed. Existing Indonesian Shopee leads for those six remain in the root inventory/legacy discovery evidence pending exact integration;unknowncells do not mean unavailable.

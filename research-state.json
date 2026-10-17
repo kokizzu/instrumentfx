@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-001",
-    "task": "GT-001 wah category and external expression configuration saved. Playback channel count, physical controls, polarity and qualified offers remain open. Next fresh Shopee hardware discovery; avoid repeated oversized PDF opens.",
+    "model": "NUX Cerberus NME-3",
+    "task": "V5 controller operating limits saved. Next fresh Shopee discovery in other brands/series; do not repeat accessory-only queries as coverage proof. Cerberus controls/dimensions/draw still need original readable manual.",
     "next_models": [],
-    "after_queue": "FreshShopeediscoveryandremainingverification;no workflows/push."
+    "after_queue": "Continue discovery and unresolved model verification; legacy migration still incomplete; no workflows or pushes."
   },
   "new_findings": [
     {
@@ -41414,7 +41414,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-001."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Cerberus NME-3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58550,5 +58550,35 @@
     "scope": "Wah alternatives, not simultaneous blocks",
     "expression": "CTL/EXP function WAH or WAH/FV; position and heel/toe endpoints 0–100; no physical toe-switch inference",
     "downloads": false
+  },
+  "cerberus_controller_20261017": {
+    "source": "https://nuxaudio.com/product/cerberus/",
+    "scope": "V5 active-preset repeat-press assignments and 2s hold/release edit entry; EXP single/dual switch assignment through V5 editor",
+    "limits": "Separate chorus not included in external ModFX list; shared EXP connection not simultaneous expression/switch proof; physical control counts remain unverified",
+    "downloads": false
+  },
+  "discovery_after_gt001_20261017": {
+    "queries": [
+      "Digitech BP200",
+      "Zoom B9.1ut",
+      "Korg AX5B",
+      "BOSS ME-6B",
+      "Digitech RP80",
+      "Zoom GFX-8",
+      "BOSS GT-10B",
+      "Korg AX300B",
+      "Zoom G2Nu",
+      "Digitech RP2000",
+      "BOSS GS-10",
+      "Korg AX3000B",
+      "Zoom GFX-1",
+      "Digitech RP55",
+      "Zoom G2.1",
+      "Digitech RP150",
+      "Valeton GP-10",
+      "Mooer GE300 Lite"
+    ],
+    "result": "No new exact hardware lead qualified. Accessories and unrelated results excluded; not proof of market absence. Cerberus 831454467/42606486723 reopened, same sold-out Rp1900000 cached ask already recorded; not new stock.",
+    "manual_access": "Official Cerberus English PDF still inaccessible in web reader; no download; original product text read instead."
   }
 }
