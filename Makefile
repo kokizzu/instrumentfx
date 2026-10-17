@@ -1907,3 +1907,7 @@ research-commit-505-original:
 .PHONY: research-ledger-history
 research-ledger-history:
 	python3 scripts/ledger_history.py
+
+.PHONY: research-commit-rh101
+research-commit-rh101:
+	python3 scripts/research_tools.py commit-rh101

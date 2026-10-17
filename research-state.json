@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 335,
+  "active_model_count": 336,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 335,
+  "canonical_root_model_count": 336,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "335 unique active/root-canonical; 0 legacy-only; 39 brands; six excluded; all partial.",
+  "count_reconciliation": "336 unique active/root-canonical; 0 legacy-only; 39 brands; six excluded; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B2 FOUR",
-    "task": "DSP overflow and reset behavior saved. Fresh bass/vocal discovery found no new exact eligible hardware; do not repeat recorded B2FOUR/VoiceLive offer IDs. Next try additional brand/series searches and remaining primary technical fields. Earlier Wisdom DFX2000 pending-identity evidence preserved under previous_observation; no active addition until authenticated own documentation.",
+    "model": "Valeton Rushead Max Bass RH-101",
+    "task": "New bass model saved from exact hardware and manufacturer modular effects evidence. Next obtain readable own V02 manual to resolve ports, K/F/B, power and memory; do not substitute RH4 or guitar Rushead Max. Ownership not established.",
     "next_models": [],
-    "after_queue": "335 partial unique records;117 legacy compatibility files remain. No downloads/workflows/push."
+    "after_queue": "336 partial unique records;117 compatibility files retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24371,7 +24371,8 @@
       "Dapper Indie",
       "Dapper VES-1",
       "Dapper MDR",
-      "Dapper Amp Mini"
+      "Dapper Amp Mini",
+      "Rushead Max Bass RH-101"
     ],
     "VING": [
       "Flybro FB-100"
@@ -24572,7 +24573,8 @@
       "Dapper Indie",
       "Dapper VES-1",
       "Dapper MDR",
-      "Dapper Amp Mini"
+      "Dapper Amp Mini",
+      "Rushead Max Bass RH-101"
     ],
     "MOOER.md": [
       "GE250",
@@ -24961,8 +24963,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 145,
-      "bass_focused_record_count": 30,
+      "record_count": 146,
+      "bass_focused_record_count": 31,
       "shared_bass_capable_count": 115,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -45256,8 +45258,8 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 335,
-    "canonical_root_models": 335,
+    "unique_brand_model_pairs": 336,
+    "canonical_root_models": 336,
     "legacy_only_models": 0,
     "guitar_view_models": 281,
     "bass_focused_models": 30,
@@ -45266,7 +45268,7 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 145,
+    "bass_view_models": 146,
     "bass_shared_models": 115,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -45319,7 +45321,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2 FOUR."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Rushead Max Bass RH-101."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45702,6 +45704,7 @@
       "Valeton::GP-200JR",
       "Valeton::Dapper Bass VES-2",
       "Valeton::Dapper Bass Mini MES-2",
+      "Valeton::Rushead Max Bass RH-101",
       "Zoom::B1 FOUR",
       "Zoom::B2 FOUR",
       "Zoom::B6",
@@ -47524,6 +47527,13 @@
     },
     "Valeton::Dapper Amp Mini": {
       "link": "VALETON.md#dapper-amp-mini",
+      "source_files": [
+        "VALETON.md"
+      ],
+      "finding_files": []
+    },
+    "Valeton::Rushead Max Bass RH-101": {
+      "link": "VALETON.md#rushead-max-bass-rh-101",
       "source_files": [
         "VALETON.md"
       ],
@@ -57717,6 +57727,16 @@
       "finding": "Own manual explicitly bypasses affected effect on PROCESS OVERFLOW; ALL INIT overwrites patches/settings; firmware/preset/BOOT versions separate.",
       "sources": [
         "https://zoomcorp.com/manuals/b2four-en/"
+      ]
+    },
+    {
+      "model": "Valeton Rushead Max Bass RH-101",
+      "checked_date": "2026-10-18",
+      "finding": "New bass multi-effects model: exact Shopee hardware plus manufacturer modular amp/MOD/AMBIENT evidence; RH101 distinct from RH4. Battery runtime prose/bullet conflict retained. Manual PDF text unavailable; many fields remain unknown.",
+      "sources": [
+        "https://www.valeton.net/product/rushead-max-bass/",
+        "https://www.hotone.jp/brands/valeton/products/rushead-max-bass",
+        "https://shopee.co.id/Valeton-RH-101-Headphone-Amplifier-Rushead-Max-Bass-RH101-i.32743136.25340849312"
       ]
     }
   ],

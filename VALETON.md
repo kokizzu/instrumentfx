@@ -1368,3 +1368,26 @@ Own2-page V01_200414 manual text read;no download/visual inspection. Cab-toggle 
 [DAM-M]: https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf
 [DAM-O1]: https://shopee.co.id/VALETON-DAPPER-AMP-MINI-i.16416856.2504929501
 [DAM-O2]: https://shopee.co.id/Valeton-Dapper-Amp-Mini-Multi-Effect-Strip-i.338305078.12251090181
+
+## Rushead Max Bass RH-101
+
+Checked 2026-10-18; partial. Bass multi-effects in a plug-in headphone-amp form, distinct from RH-4 and guitar Rushead Max. Ownership is not established.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified; no expression capability claimed. |
+| Physical controls / K/F/B | Manufacturer specifies **5 rotary controls**; footswitch/button counts unverified. Mode selectors are not silently counted as buttons. |
+| Display | Diagonal, color/monochrome and touch unverified. |
+| Processing / modules and choices | **AMP: clean/overdrive/distortion; MOD: chorus/tremolo/flanger; AMBIENT: reverb/echo.** Three named modules establish multiple effect families; exact simultaneous ceiling and combined-mode behavior need the manual. |
+| Memory | Factory/user/preset storage unverified. |
+| Synth / acoustic | Neither synthesis nor acoustic simulation established. |
+| Dimensions / weight | **88.5W×100D×31.5H mm;68g**. Manufacturer dimensions reordered to W/D/H with axes preserved. |
+| I/O | AUX input and headphone-amp operation documented; complete connector sizes/control ports unverified. |
+| Power | Rechargeable lithium battery, USB charging. Product prose says **over five hours**, feature bullet **up to five hours**; retain conflict. Voltage/current, charge time, polarity, capacity and operation while charging unverified. |
+| IR / NAM / capture | User IR, native/converted NAM and capture loading unverified. |
+| Editor / USB | Editor/driver platforms, USB audio/MIDI/bus operation unverified; charging alone proves none of these. |
+| Other features | Looper, drums, scenes and programmable routing unverified. |
+| Used IDR | No condition-qualified used quote established. |
+| IDR / hardware retail ask | **Rp786.000**, Kurnia Musik Semarang, shop32743136/item25340849312, Kota Semarang. Direct last-month cached body, stale26August delivery. Condition/new-versus-used, stock, selected bundle, warranty region, tax/shipping and checkout unverified. Late-arrival compensation is not a discount. [Exact RH101](https://shopee.co.id/Valeton-RH-101-Headphone-Amplifier-Rushead-Max-Bass-RH101-i.32743136.25340849312). |
+
+Technical sources: [manufacturer](https://www.valeton.net/product/rushead-max-bass/); [regional SKU identity RH-101](https://www.hotone.jp/brands/valeton/products/rushead-max-bass). Manufacturer-linked [English V02 manual](https://www.valeton.net/download/217/rushead-max-bass/19015/rh-101rushead-max-bass_manual_en_v02_211025-2.pdf) opened as two pages without extracted text; screenshot tool returned no usable image. No manual content or visual panel audit claimed, no files downloaded.
