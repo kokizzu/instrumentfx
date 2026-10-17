@@ -1984,13 +1984,13 @@ Original guitar multi-effects; distinct from G2.1Nu. Discontinued. Checked2026-1
 | Processing / category choices | **54 effects;max9 simultaneous modules**. DRIVE offers16 distortion/amp choices plus1acoustic simulator. Each has live/direct modeling variants selected by CABINET & MIC state; do not count34 independently assignable DRIVE slots. Module selection counts below sum54; OFF and parameter/live-direct variants excluded. | [Manual pp29,35][ZG21-M] |
 | Category choices / module inventory | **COMP1;WAH/EFX9;ZNR3;DRIVE17;EQ1;EXTRA EQ/CABI&MIC2;MOD/SFX13;DELAY3;REVERB5 —54 selections**. One active choice per module,not54 simultaneous blocks. Extra EQ and cabinet/mic are alternatives. | [Manual pp27–33][ZG21-M] |
 | Category choices / routing and time | WAH/EFX POSITION permits before DRIVE or after EQ/EXTRA EQ on supported types. MOD/SFX delay/tape/dynamic-delay choices reach2s; dedicated DELAY/ECHO reach5s,with ping-pong alternative and FS01 hold. REVERB includes multi-tap delay up to3s. Cabinet follows DRIVE type; dynamic/condenser mic and3positions are parameters,not extra algorithms. | [Manual pp27–33][ZG21-M] |
-| Factory / user memory | **80 slots:40 user+40 read-only presets**; user factory-fill unresolved. | [Manual pp16,35][ZG21-M] |
+| Factory / user memory | **80 slots:40 user+40 read-only presets**. Factory user area A0–d9 duplicates preset area00–39; All Initialize overwrites user edits with these originals. This resolves the earlier factory-fill gap; actual seller-unit contents unknown. | [Manual pp16,24,35][ZG21-M] |
 | Synth / acoustic | ACOUSTIC converts electric-guitar timbre toward acoustic. Dedicated synth architecture unverified; a SynthDaze preset name alone is insufficient. | [Manual p29 and patch list][ZG21-M] |
 | I/O | Mono input1MΩ;shared stereo OUTPUT/PHONES;CONTROL IN,USB,DC9V. USB audio16-bit stereo,44.1/48kHz;not internal96kHz processing. | [Manual pp6–7,35][ZG21-M] |
 | Power / battery / USB | AD-0006:9VDC,300mA,center-negative supply≠draw. FourAA alkaline~7.5h;USB bus power with POWER OFF. No battery charging. | [Manual pp2,35;USB guide][ZG21-M] |
 | IR / NAM / capture | User IR, native/converted NAM and capture imports unverified. | Unresolved |
 | Editor / software | Support lists Windows G-Series ASIO2.0.0 driver; desktop/mobile editor unverified. Bundled DAW/audio driver is not patch-editor evidence. | [Support][ZG21-S] |
-| Looper / drums / live | Rhythm playback disables REVERB. Looper,scenes,trails unverified. | [Manual pp12,35][ZG21-M] |
+| Looper / drums / live | **40 rhythm patterns;40–250 BPM**, available in play/bypass/mute; rhythm playback disables REVERB. Level0–30;tap tempo requires at least3 presses. Looper,scenes,trails unverified. | [Manual pp12–13,35][ZG21-M] |
 
 ### Separate IDR hardware offers
 
@@ -2008,6 +2008,10 @@ Manufacturer PDF includes paired printed pages and appended USB/DAW guides; USB 
 [ZG21-S]: https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g21u/g21u-support/
 [ZG21-O1]: https://shopee.co.id/ZOOM-G2.1u-multi-efek-i.286315490.24194949415
 [ZG21-O2]: https://shopee.co.id/Efek-Gitar-Zoom-G2.1u-i.25192604.25866062376
+
+### G2.1u — factory memory and practice settings verification
+
+Checked2026-10-17 against [original manual pp10–13,24][ZG21-M]. Factory duplication is documented,not inferred from equal bank sizes. Reset behavior describes destructive restoration only;no device/reset was operated. Tuner reference435–445Hz resets to440Hz after power cycling;it is not a retained patch setting. These are G2.1u facts,not G2.1Nu specifications.
 
 ## GFX-3
 

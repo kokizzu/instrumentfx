@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 HX Effects",
-    "task": "ExactDC3G adapteridentity crosscheck saved;newShopee discovery accessories rejected andmixedG2.1Nu lead retained. Next resolve exact G2.1Nu item/variant or other saved modeltechnicalgaps;do not repeat RFX inventories.",
+    "model": "Zoom G2.1u",
+    "task": "Factory user/preset duplication and40rhythmpatterns verified. G2.1Nu exactvariant listing still unresolved;prior own largePDF limit saved,do not reattempt unchanged. Next othermodeltechnicalgaps or freshShopee brands/series.",
     "next_models": [],
-    "after_queue": "Continue Shopee discovery andlegacyconsolidation;no downloads/workflows/push."
+    "after_queue": "Continue full research andlegacy consolidation;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41474,7 +41474,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Effects."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G2.1u."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -51465,6 +51465,14 @@
       ],
       "finding": "Exact DC-3G identity cross-check: own HX Effects FAQ names supply and2Aminimum/2.5mm;official POD FAQ specifies named DC3g9VDC3Acenternegative. Adapter rating is not actual draw;DC1g500mAHXOne listing is different.",
       "remaining": "Actual unit/adapter label,draw,battery/USBpower,display,newerfirmware,qualifiedstock"
+    },
+    {
+      "model": "Zoom G2.1u",
+      "checked_date": "2026-10-17",
+      "source": "https://zoomcorp.com/media/documents/E_G21u_0.pdf",
+      "pages": "10–13,24",
+      "finding": "UserA0–d9 factoryduplicatesread-only00–39;AllInitializeoverwritesuseredits.40drumpatterns40–250BPM,level0–30,3tapminimum;rhythmavailableplay/bypass/mute,disablesREVERB.435–445Hztunerresets440Hz.",
+      "remaining": "Actualunitcontents,display,imports/editor,externalpedalwordingconflict,currentcondition/stock"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -59402,6 +59410,10 @@
         "reason": "Shop-level mixed-model listing;exactitem/variantprice/condition/stock unresolved. Do not assign amount to G2.1Nu."
       }
     ],
-    "result": "No qualifying new exacthardwareoffer established;not evidenceofmarketabsence."
+    "result": "No qualifying new exacthardwareoffer established;not evidenceofmarketabsence.",
+    "g21nu_recheck": {
+      "checked_date": "2026-10-17",
+      "result": "Exacttitle andmodel searches again returned HopeMusic mixed shopcard,not exactitem/selectedvariant;no G2.1Nu priceallocation oractiveaddition."
+    }
   }
 }

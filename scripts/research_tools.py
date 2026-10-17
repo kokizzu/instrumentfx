@@ -377,7 +377,7 @@ def main():
         if mode == 'commit-rp500':
             message = 'research(digitech): count RP500 amp cabinet and shared FX alternatives'
         if mode == 'commit-g21u':
-            message = 'research(zoom): reconcile G2.1u category inventory and delay routing limits'
+            message = 'research(zoom): verify G2.1u factory memory and rhythm settings'
         if mode == 'commit-r16':
             message = 'research(joyo): add R-16 vocal processor with source conflicts and qualified offers'
         if mode == 'commit-fx50':
