@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-5",
-    "task": "GT-5 wah/dynamics choices saved;initial user contents,English category corroboration,speaker choices,visual/toe/editor/IR/NAM and power-off recording retention remain deferred. Continue fresh Shopee Indonesia discovery for eligible unrecorded hardware.",
+    "model": "BOSS ME-30",
+    "task": "Exact seller-labelled second Rp600000 historical Habis lead saved. Next own manufacturer manual/product verification,root record and applicable comparisons. Commit model before researching next.",
     "next_models": [],
-    "after_queue": "Continue fresh Shopee Indonesia discovery;no downloads,workflows or push. RFX-2000 technical gaps remain deferred."
+    "after_queue": "Continue fresh Shopee discovery. GT-5 and RFX-2000 technical gaps remain deferred. No downloads,workflows or push."
   },
   "new_findings": [
     {
@@ -53914,5 +53914,31 @@
     "pages": "29–32",
     "finding": "Shared feedbacker/slow gear,compressor/limiter,pedal/auto wah choices;LPF/BPF and envelope direction;automatic EXP assignment not toe-switch evidence.",
     "remaining": "Initial user contents,English category corroboration,speaker choices,visual/toe/editor/IR/NAM and power-off recording retention. These remain deferred rather than false No claims."
+  },
+  "discovery_me30_20261017": {
+    "checked_date": "2026-10-17",
+    "model": "BOSS ME-30",
+    "url": "https://shopee.co.id/efek-gitar-boss-me-30-(second)-i.293948259.21081428643",
+    "seller": "arsyila_hani",
+    "shop_id": "293948259",
+    "item_id": "21081428643",
+    "region": "Kab. Lampung Timur",
+    "asking_idr": 600000,
+    "condition": "Seller title explicitly second;working condition not independently verified.",
+    "stock": "Habis;historical sold-out ask,not live stock.",
+    "access": "Direct browser text readable,crawled last month. Search cached Aug28–31 delivery;opened text Sep18–20;both historical.",
+    "qualifications": "Bundle,adapter,mains variant,authenticity,warranty,shipping,tax and voucher eligibility unverified. Rp10000 late-arrival voucher is compensation,not discount.",
+    "next": "Read own official BOSS product/manual;add root BOSS record with required fields and explicit gaps,regenerate applicable comparisons,commit before next model.",
+    "rejected_hits": [
+      {
+        "url": "https://shopee.co.id/kaos-baju-SERI-EFEK-DIGITAL-BOSS-GT-3-KAOS-MUSIK-BAJU-GITARIS-ATASAN-PRIA-KAOS-DISTRO-MUSIK-i.383128476.21003360400",
+        "reason": "GT-3 printed T-shirt,not processor hardware."
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Boss-GT-3-GT-5-GT-6-GT-8-i.732732692.19432737909",
+        "reason": "Power adapter,not processor hardware."
+      }
+    ],
+    "other_searches": "GT-3 and Zoom G2.1Nu exact hardware unresolved in this limited pass;multi-variant shop asks not assigned to individual models."
   }
 }
