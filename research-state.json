@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh bass/vocal discovery",
-    "task": "Harmony Singer 2 QSG v5 body follow-up saved; hardware applicability remains unresolved. Continue fresh exact Shopee bass/vocal discovery, then manufacturer verification. Preserve additional ground-lift/correction/held-bypass conflicts.",
+    "model": "Fresh bass/vocal discovery — new search frontier",
+    "task": "Search exact hardware for Zoom 506II, BOSS ME-8B/ME-6B and Zoom 9000B, plus resolve Critical Mass exact item. Prior BP200/607/AX1B/506/AX3000B/BP80/BP50 and old vocal searches are recorded in discovery_bass_vocal_frontier_20261017; avoid repeating unchanged hits. Additional sold-out DOReMi B2 FOUR ask is saved there, not a new model or qualified new price.",
     "next_models": [],
-    "after_queue": "Resolve technical fields and compatibility links; no downloads/workflows."
+    "after_queue": "Use own manufacturer sources for each established model; commit before next model. Preserve unresolved technical fields. No downloads/workflows."
   },
   "new_findings": [
     {
@@ -51483,5 +51483,74 @@
       }
     ],
     "qualification": "Selected variation, working condition, adapter/batteries, warranty validity, shipping/tax/current stock/final total unknown. Compensation voucher not discounted; historical asks not transactions."
+  },
+  "discovery_bass_vocal_frontier_20261017": {
+    "checked_date": "2026-10-17",
+    "queries": [
+      "site:shopee.co.id Digitech BP200",
+      "site:shopee.co.id Zoom 607 bass",
+      "site:shopee.co.id Korg AX1B",
+      "site:shopee.co.id Zoom 506 bass efek",
+      "site:shopee.co.id AX3000B",
+      "site:shopee.co.id BP80 Digitech",
+      "site:shopee.co.id B1X Next Zoom efek",
+      "site:shopee.co.id B2 Zoom bass efek -FOUR -Adaptor -adapter",
+      "site:shopee.co.id TC Critical Mass efek",
+      "site:shopee.co.id VoiceTone Create",
+      "site:shopee.co.id VoiceLive Touch",
+      "site:shopee.co.id Vocalist Live -Adaptor -Supply",
+      "site:shopee.co.id CRITICAL MASS Vocal",
+      "site:shopee.co.id VoiceTone Create XT",
+      "site:shopee.co.id BP50 Digitech"
+    ],
+    "result": "No new distinct exact-model bass/vocal hardware item established by these searches. This is limited search coverage, not absence from Shopee or exclusion from catalogue scope. Exact B2 FOUR offers were already recorded except the additional DOReMi observation below. Do not count duplicate offers as new models.",
+    "additional_existing_model_offer": {
+      "model": "Zoom B2 FOUR",
+      "url": "https://shopee.co.id/Zoom-Guitar-Multi-Effects-Processor-B2-Four-w-Adaptor-AD-16E-Efek-Gitar-i.84651465.27233015578",
+      "seller": "DOREMI MUSIC",
+      "region": "Kota Tangerang",
+      "ask_idr": 3924000,
+      "stock": "Habis",
+      "condition": "Unknown; neither new nor used established",
+      "bundle": "AD-16E in title; actual selected contents unknown",
+      "access": "Exact JS-limited page reopened; two-month crawl. Relative four-hour delivery does not override Habis or verify live stock.",
+      "qualification": "Seller title says Guitar but identifies B2 FOUR; do not change bass classification. Working condition, selected variation, warranty, shipping/tax/final total unknown. Late-delivery Rp10000 compensation not a discount. Not a completed sale or live market range."
+    },
+    "rejected_accessories": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+        "ask_idr": 175000,
+        "reason": "Power supply, not BP200 or Vocalist processor hardware."
+      }
+    ],
+    "unresolved_shop_leads": [
+      {
+        "model": "TC-Helicon Critical Mass",
+        "url": "https://shopee.co.id/5h6fvtwung",
+        "shop": "WIYUNG",
+        "ask_idr": 3695000,
+        "access": "Five-month shop cache only; Produk Baru label does not establish exact item condition or a resolved hardware offer. Exact item URL/variant not found."
+      },
+      {
+        "model": "TC-Helicon Critical Mass",
+        "url": "https://shopee.co.id/search?keyword=harga+tc+helicon",
+        "ask_idr": 2280935,
+        "region": "Sukabumi",
+        "access": "Last-month search page; exact seller/item unresolved. Not qualified new/used evidence."
+      },
+      {
+        "model": "Zoom B1X Next / G1X Next",
+        "url": "https://shopee.co.id/hopemusik",
+        "ask_idr": 999000,
+        "access": "Four-month shop cache, mixed title; exact item and bass variation mapping unresolved."
+      }
+    ],
+    "next_search_frontier": [
+      "Zoom 506II exact hardware",
+      "BOSS ME-8B / ME-6B exact hardware",
+      "Zoom 9000B exact hardware",
+      "TC-Helicon Critical Mass exact item link"
+    ],
+    "not_done": "Do not repeat identical unsuccessful queries as new evidence without a new source. Manufacturer specifications, exact offers and full market coverage remain incomplete."
   }
 }
