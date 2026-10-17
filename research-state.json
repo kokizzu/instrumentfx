@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD HD300",
-    "task": "HD300 FX3 eighteen/wah six choices saved;advanced8reverb vs RevC9conflict preserved. Next amp/cab inventory and physical/control/power specifications;retain firmware/price gaps.",
+    "task": "HD300 amp table30 vs summary16 and cabinet17 vs summary16 conflicts saved;8mics per cab family. Next physical/control/power evidence and exact baseamp/cab names;retain all unresolved prices/specs.",
     "next_models": [],
     "after_queue": "Fresh discovery;273records partial;legacyZoomleadsunqualified;no downloads/workflows/push."
   },
@@ -56357,5 +56357,18 @@
     "wah": 6,
     "conflict": "RevC handbook9reverbs vs Flash2.0+advanced8HD300-specific;DuckingHD400-only. Retainunresolved.",
     "remaining": "Amp/cab inventory,controlcounts,power/size,qualifiedprices"
+  },
+  "hd300_amp_cab_checkpoint_20261017": {
+    "source": "https://l6c-acdn.line6.net/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20%28%20Rev%20A%20%29.pdf",
+    "pages": "5-3…5-11",
+    "amp_table": 30,
+    "amp_summary": 16,
+    "cab_table": 17,
+    "cab_summary": 16,
+    "none_option": true,
+    "guitar_mics": 8,
+    "bass_mics": 8,
+    "qualification": "Counts from tables preserve stale summary conflicts;not simultaneous capacity. Limited primary physical/power search did not establish unit dimensions;retailerpackaging/mixedHD300products notadopted.",
+    "remaining": "Completeknob/foot/buttoncounts,power/size,exactbaseamp/cabnames,qualifiedprices"
   }
 }
