@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-50B",
-    "task": "Startup,adapter/battery fallback andtuner temporary-edit loss saved. Exact Indonesian offer andvisual controls remain open;continue fresh discovery orother primary-source gaps.",
+    "task": "ME-50B compressor andFILTER/TONE choice breakdown saved. Shared-slot andfretless/body distinctions explicit. Next pursue exact Shopee leads oranother record;visual count andfullconcurrency remain unresolved.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -58131,6 +58131,12 @@
       "model": "BOSS ME-50B",
       "checked": "2026-10-18",
       "finding": "Original manual adds power fallback,startup states andtuner-related temporary-edit loss.",
+      "source": "https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf"
+    },
+    {
+      "model": "BOSS ME-50B",
+      "checked": "2026-10-18",
+      "finding": "Exact manual adds compressor control differences andFILTER/TONE choice breakdown.",
       "source": "https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf"
     }
   ],
