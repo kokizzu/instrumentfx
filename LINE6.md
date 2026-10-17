@@ -1453,7 +1453,7 @@ Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-0
 | Synth / acoustic | Unverified;A.I.R. speaker/mic/room simulation is not acoustic-guitar conversion. |
 | Dimensions / mass | Unverified. |
 | I/O | Guitarinput,AUX,L/Mono+Routs,quarter-inchphones,MIDIIn/Out,power;connector sizes otherwise pending. NoUSB listed. |
-| Power / batteries | [Own FAQ][FPP-F] specifies **PX-2**;voltage,current,polarity,battery unresolved. USBpower unsupported by port inventory. |
+| Power / batteries | [Own FAQ][FPP-F] specifies **PX-2**;compatible9VAC/2A adapter rating documented below;actualdraw/battery unresolved. USBpower unsupported by port inventory. |
 | IR / NAM / captures | User loading unverified. |
 | Editor / platforms | FAQ: **Vyzex FloorPODPlus viaMIDI**;OS support pending. |
 | Looper / drums / live | Looper/drums/scenes unverified. Tapdelay,holdtuner;A–D can switch amp,solo,FX,delay. |
@@ -1503,3 +1503,15 @@ Checked2026-10-17 against [English40-00-0116RevB,©2009](https://line6.com/data/
 | Bass / instrument scope | TubePreamp explicitly recommended as bass direct box. Manual also describes processing synth-bass and recorded vocal tracks;that does not establish a live mic input,phantom supply,harmony,or vocal-specialist equivalence. Included in shared bass comparison on explicit bass guidance. |
 | Expression / routing | Appendix assigns volume-pedal Pre/Post position by amp model;not established as a freely relocatable block. |
 | Dimensions / power gaps | No dimensions found in English text search;size/mass andactual draw remain unknown. Manual's100–120V or230V47–63Hz refers to regional adapter mains input,not pedal input or universal100–240V compatibility. |
+
+### Floor POD Plus — cabinet inventory and output tuning
+
+Checked2026-10-17;[EnglishRevB](https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf),sections2•12–2•13.
+
+| Field | Verified evidence / qualification |
+|---|---|
+| Processing / cabinets | **15 modeled cabinets+NoCab=16 selections**. 1×8:TweedChamp1960. 1×12:TweedDeluxe1952,AC15,BlackfaceDeluxe1964,Line6. 2×12:TwinReverb1965,AC301967,MatchlessChieftain1995,Line6. 4×10:Bassman1959,Line6. 4×12:Marshall1996Vintage30,Marshall1978stock70s,Marshall1968BasketweaveGreenbacks,Line6. NoCab defaults withTubePreamp. |
+| Processing / cabinet selection | Amp selection loads an amp/cab pairing;holdAMPencoder orManual while turningAMP to choose another cabinet independently. This is factory-model selection,not userIR import. |
+| I/O / output tuning | InAmp output mode,C-a/C-b target poweramp+closed/open cabinet;C-c/C-d target combo/head front+open/closed cabinet. C-c default. HoldSave at startup,choosewithBank±,Save. These are output compensation modes,not four additional cabinet models. |
+
+Targeted manufacturer/editor-vendor searches did not establish dimensions,mass,or current Vyzex OS compatibility;these remain unknown. Search absence is not proof those specifications were never published.

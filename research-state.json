@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line6 Floor POD Plus",
-    "task": "FloorPODPlusEnglish32ampinventory and explicitbassdirectbox saved;nowsharedbassmember. Next enumerate15physicalcabmodels+NoCab and seekdimensions/editorOS viaownproductarchives;unknownifunpublished. Do not re-addmodel.",
+    "task": "FloorPODPlus15cab+NoCab andoutputtuning saved. Dimensions/mass/VyzexOSremainunknown;avoidrepeatblindsearch. Next freshShopee discovery for eligibleunrecorded models bybrand/series,or exactconditionqualified FloorPODPlusoffer.",
     "next_models": [],
     "after_queue": "289partialmodels;no downloads/workflows/push."
   },
@@ -58030,6 +58030,18 @@
     "vocal": "Recordedtrackprocessing notlivemiccapability",
     "amp_named_choices": 32,
     "dimensions": "NoDimensionsmatch;unknown",
+    "downloads": false
+  },
+  "floorpodplus_cabinets_20261017": {
+    "source": "https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf",
+    "identity": "EnglishRevB2•12–2•13",
+    "counts": {
+      "modeled_cabinets": 15,
+      "no_cab": 1,
+      "total_selections": 16
+    },
+    "output_modes": "CaCbpowerampclosed/open;CcCdfrontclosed/open qualification: Cc=open(default),Cd=closed",
+    "remaining": "Dimensions/mass/VyzexOS notestablished bytargetedprimarysearch",
     "downloads": false
   }
 }
