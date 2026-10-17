@@ -229,3 +229,39 @@ Manual18-0597V-D,56PDFpages;printedpage=PDFindex−3 afterfrontmatter. Manufactu
 [RP1K-M]: https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf
 [RP1K-Q]: https://digitech.com/faqs/
 [RP1K-O]: https://shopee.co.id/Efek-Gitar-Digitech-RP1000-i.150310054.3200318448
+
+## RP155
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**, partial. Manufacturer-confirmed guitar multi-effects processor, separate from RP150/RP255/RP355. The Shopee lead’s hardware identity remains unconfirmed.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | No integrated pedal in panel inventory. **One Control In** accepts passive volume/continuous control for wah/Whammy together or default volume; toe behavior **?**. [Manual][R155-M] |
+| Knobs / footswitches / buttons | **4 / 2 / 5**: four encoders, Up/Down footswitches, two Edit buttons, Drums, Store and rear Amp/Mixer button. Encoder presses counted once. [Manual][R155-M] |
+| Display | Numeric display with effect-matrix LEDs; published diagonal, color and touch **?**. [Manual][R155-M] |
+| Dimensions / weight | Unit body measurements **?**. Manual’s **10½ L ×8¾ W ×2½ H inches; 3.34 lb** are explicitly **shipping** dimensions/weight. [Manual][R155-M] |
+| Blocks / category choices | **11 simultaneous effects**; advertised **83 combined amp/cab/stomp/effect choices**, including **23 amp/acoustic types**. Category subtotals and accounting basis **?**; 83 is not simultaneous capacity. [Product][R155-P] |
+| Memory | **50 user +50 factory =100**; user locations initially duplicate factory sounds. [Product][R155-P], [Manual][R155-M] |
+| Synth / acoustic | Acoustic simulation explicitly advertised. Dedicated synth **?**. [Product][R155-P] |
+| IR / NAM / captures | User IR, native NAM, converted NAM and proprietary captures **?**. |
+| I/O | Quarter-inch TS guitar, unbalanced L/Mono and R outputs, Control In; eighth-inch stereo phones; USB-B; power. [Manual][R155-M] |
+| Power / battery / USB | **PS0913B: 9 V AC, 1.3 A maximum output**, barrel 5.5 mm width/2.5 mm pin/9.5 mm length. AC has no DC center polarity. This is supply rating, not measured draw. [Supply list][R155-S] Battery/USB-powered operation **?**. |
+| Editing / platforms | **X-Edit 2.7.0 Windows; 2.7.1 Intel Mac OS X**, historical listings, current OS support **?**. **USB 2-in/2-out**; manufacturer mentions iPad audio, not an iPad editor. [Product][R155-P] **44.1 kHz, 16/24-bit**; USB1.1 Full Speed compatible with USB2.0. [Manual][R155-M] |
+| Practical features | **20-second looper, 60 drum patterns**, tuner, Lexicon reverbs. [Product][R155-P] **Drums unavailable during looping**. Headphones become mono when only L/Mono output is connected. [Manual][R155-M] Scenes, loop retention and spillover **?**. |
+| IDR qualified observations | **Used IDR: ?; new IDR: ?**. A shop-index lead has an ambiguous “manual” title; it is not a qualified processor price. See provenance. |
+<!-- comparison evidence ends -->
+
+### RP155 — source qualifications and unresolved Shopee identity
+
+- [Manufacturer product page][R155-P] calls this a past product. Looper and drum marketing paragraphs incorrectly name **RP355**; the model-specific RP155 specification table and own manual independently confirm 20 seconds/60 patterns. Product page’s USB2.0 wording is qualified by the manual’s USB1.1 Full Speed compatibility statement. Its 120 VAC statement concerns regional mains, not the unit’s low-voltage input. Product box list says PS0913; own manual/supply list specify PS0913B. These source differences remain visible.
+- [Manufacturer manual][R155-M]: **18-6409V-B**, 52 PDF pages, declaration dated January 12, 2011. Selected controls, connections, memory and specification sections inspected; full algorithm audit remains unfinished. No local downloads or installed software.
+- [Manufacturer supply list][R155-S] explicitly lists RP155 under PS0913B; do not apply adjacent DC supply specifications. Regional mains compatibility must match the actual adapter label.
+- [Shopee exact linked item][R155-O], **743972454/16385212667**, recovered from [Zona_musik_kediri shop](https://shopee.co.id/zona_musik_kediri). Shop cache four months old shows **Rp1,850,000**, title **“Digitech RP155 manual”**, one sold indicator and a general new-goods claim. Exact item retrieval failed; hardware versus documentation, seller ownership of recommendation, condition, bundle, region, stock, warranty and voucher remain unverified. Linked display_model_id **202308274701** unresolved. Amount retained only as an unqualified lead, outside used/new price columns.
+
+Remaining: exact hardware offer, body dimensions/mass, category subtotals, complete routing/loop behavior, display specifications, current software support and explicit battery/USB-power statements. Bass/vocal membership unverified.
+
+[R155-P]: https://digitech.com/dp/rp155/
+[R155-M]: https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf
+[R155-S]: https://digitech.com/support/powersupplylist/
+[R155-O]: https://shopee.co.id/Digitech-RP155-manual-i.743972454.16385212667
