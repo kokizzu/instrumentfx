@@ -1443,3 +1443,7 @@ research-commit-gigboard:
 .PHONY: research-commit-pedalboard
 research-commit-pedalboard:
 	python3 scripts/research_tools.py commit-pedalboard
+
+.PHONY: research-commit-vx5
+research-commit-vx5:
+	python3 scripts/research_tools.py commit-vx5

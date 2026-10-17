@@ -428,3 +428,45 @@ Own User Guide2.1.2 read via web text,not downloaded. Conflicting dimensions,lay
 Manual2.1.2 pp.29–30 supersedes the unqualified FAQ100-layer assertion for that documented revision: **50 layers,20 minutes aggregate**. The FAQ is retained as a conflict,not erased. Insert replaces the topmost layer segment;loop-length halving is reversible. Global Rig Input can use rightFXreturn,which disables stereo return;XLR,¼″ andphones independently select rig/alternate taps (p.32). These routing options do not add microphone input or vocal eligibility. [Manual][PB-M]
 
 Own2.7 cumulative notes,p.4: feedback affects recording/overdub rather than playback;below100%,one evolving layer replaces itself;peeling it restores underlying levels,and Insert is disabled if it is topmost. Ownnotes,p.2 document two scenes per switch from2.5 andtap-tempo calculation overthree presses from2.6. These are firmware-qualified changes,not new hardware controls. [Firmware][PB-F]
+
+## VX5
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**. Vocal multi-effects: independently switchable AutoTune,harmony andFX. Guitar chord detection/thru does not qualify it for guitar multi-effects. Partial record.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | No built-in pedal or EXP/toe socket in complete hardware inventory. USB MIDI controls modes/presets;continuous expression assignment **?** [Manual,pp.6–10,18][VX-M] |
+| Knobs / footswitches / buttons | **5 /2 /5**:4 front rotaries plus rear mic gain;Preset,Key,AutoTune,Harmony,FX buttons. Encoder press counted once;rear power,phantom andground-lift switches additional. Appendix lists only4 front knobs;rear description supplies fifth. [Manual,pp.6–10,22][VX-M] |
+| Display | **1.8-inch/45.7mm full-color LCD**;touch **?** [Manual,p.22][VX-M] |
+| Dimensions / weight | Manual **167 W×152 D×71 H mm;1.1kg**. Product instead **6.3 D×5.6 W×1.9 H inches;2.6lb**. Unresolved hardware/revision/measurement difference;mass basis unstated. [Manual,p.22][VX-M], [Product][VX-P] |
+| Simultaneous blocks / routing | Fixed FX order **compressor→Flavor→chorus→reverb→delay**, alongside AutoTune/harmony. Not freely movable blocks. Product says arbitrary sequencing,conflicting with FAQ's explicit fixed order. [FAQ][VX-Q], [Product][VX-P] |
+| Category choices | Manual1.3: **4 compressor,7 Flavor,5 chorus,5 reverb,7 delay** choices;delay1–4000ms. Harmony source:instrument orselectedkey;range choices source-dependent. **Compressor requires firmware≥1.3.1**,not launch firmware. [Manual,pp.14–16][VX-M], [Compressor support][VX-C] |
+| Factory / user memory | **250 total**,99 factory-filled and151 blank;editable saves overwrite selectedslots. Last selectedpreset retained afterpowercycle. [Product][VX-P], [FAQ][VX-Q], [Manual,pp.6,12][VX-M] |
+| Synth / acoustic simulation | Vocal pitchcorrection,harmony andvoice coloration;independent synth/acoustic simulator **?**. Guitar input is unprocessedthru,not modeledguitarFX. [FAQ][VX-Q] |
+| Audio/control I/O | XLR mic,+48V;XLR main,groundlift;¼″guitar in/thru;phones;USB-B;DC. Rear/manual text specifies3.5mm phones,appendix says¼″;product agrees3.5mm. Guitar rear text saysTS,technical table permitsTRS/TS. No DIN MIDI/FXloop listed. [Manual,pp.9–10,21–22][VX-M], [Product][VX-P] |
+| Power / battery / USB | **9V DC,1A,center-negative,2.1mm barrel** adapter rating;actualdraw,battery andUSB-powered operation **?** [Manual,p.22][VX-M] |
+| Editor / USB audio | Stereo24bit48kHz USB audio;FAQ namescomputer,iPhone,iPad/tablet. Browser viaUSB is documented for **firmware updates**,not full editor;manual namesWindows11/macOS13–15. Windows networkingdriver distinct fromaudiodriver. Full editor/Linux/Android support **?** [FAQ][VX-Q], [Manual,pp.10,17][VX-M], [Compressor support][VX-C] |
+| Looper / scenes / practical limits | A/B switches individualeffects withinpreset;Talk bypasses vocalFX. Harmony followskey/scale orinstrumentchords. Looper,drums,scenes anduninterruptedpresetswitching **?** [FAQ][VX-Q] |
+| IR / NAM / captures | No documentedloader in checkeduserguide;IR,nativeNAM,convertedNAM,proprietarycaptures **?**. Prime/Core features not assigned. [Manual][VX-M] |
+
+### VX5 — separate IDR offers
+
+| Class | Amount | Exact hardware offer and qualifications |
+|---|---:|---|
+| Historical indexed hardware ask;condition unverified;**sold out** | **Rp4.400.000** | [Seven Stereo Music & Audio Store,shop16879370/item40920257841][VX-O1],Bandung. Direct crawler obtained2026-10-17,cachelastweek;delivery6–8October supersedes earlierJulycache. Habis;condition,variant,bundle,adapter,warranty andcheckoutstock **?**. Late-deliveryvoucher up toRp10.000 not deducted. |
+| Separate historical indexed ask;condition unverified;**sold out** | **Rp4.631.200** | [GALERI MUSIK SIMFONI_PIM,shop1030145984/item43570585814][VX-O2],JakartaSelatan;earlier3monthindex,exactURLreopened2026-10-17. Condition,variant,bundle,warranty **?**;not a verifiednew/usedrange. |
+| Verified used offer | **?** | Not established |
+| Verified new offer | **?** | Neither ask has verifiedsalecondition |
+<!-- comparison evidence ends -->
+
+### VX5 provenance and remaining work
+
+OwnUserGuide1.3 read viawebtext;no localdownload. Productstill links1.2.2 updater whilebanner/supportdocument1.3.1;compressor availability remainsfirmwarequalified. Conflictingdimensions,mass,connector sizes andchain-order language retained. Next:own1.3.1 release notes,source-dependentharmony counts,exactsimultaneouslimit,currentofficialeditor/OS support andcondition-qualifiedoffers. Do not reclassify asguitar justbecauseGuitarThru exists.
+
+[VX-P]: https://www.headrushfx.com/products/vx5-autotune/index.html
+[VX-Q]: https://support.headrushfx.com/en/support/solutions/articles/69000870979-headrush-autotune-vx5-frequently-asked-questions
+[VX-M]: https://cdn.inmusicbrands.com/HeadRush/vx5/AutoTune%20VX5%20-%20User%20Guide%20-%20v1.3.pdf
+[VX-C]: https://support.headrushfx.com/en/support/solutions/articles/69000880616-vx5-the-compressor-is-missing-from-the-fx-menu
+[VX-O1]: https://shopee.co.id/Headrush-VX5-Vocal-Effects-Pedal-with-Antares-AutoTune-i.16879370.40920257841
+[VX-O2]: https://shopee.co.id/HEADRUSH-VX5-VX-5-Vocal-Processing-Pedal-with-AutoTune-by-ANTARES-i.1030145984.43570585814

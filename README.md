@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**204 active model records · 27 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**205 active model records · 27 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -10,8 +10,8 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 |---|---|
 | **[ALL-GUITAR.md](ALL-GUITAR.md)** |171 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
 | **[ALL-BASS.md](ALL-BASS.md)** |80 documented bass-capable models: 20 bass-focused plus 60 shared processors, with full comparison tables and explicit capability evidence |
-| **[ALL-VOCAL.md](ALL-VOCAL.md)** |23 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 204 detailed models are root-canonical |
+| **[ALL-VOCAL.md](ALL-VOCAL.md)** |24 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 205 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -27,7 +27,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [KORG.md](KORG.md) |PANDORA stomp,AX3000G,AX1500G,AX5G,AX10G,AX1000G,AX3G |
 | [DIGITECH.md](DIGITECH.md) |RP360XP,RP255,RP500,RP90,RP250,RP1000 |
 | [BOSS.md](BOSS.md) |GT-1B,GX-1B,ME-90B,VE-1,VE-2,VE-500,VE-22,VE-8,VE-20,GT-1000CORE,GX-10,GT-1,GX-1,ME-90,GX-100,GT-1000,GM-800,GT-100,ME-80,ME-70,ME-25,ME-50,ME-20B,GT-10,GT-8,ME-20,GT-6,VE-5,Pocket GT |
-| [HEADRUSH.md](HEADRUSH.md) |MX5,Core,Flex Prime,Prime,Gigboard,Pedalboard |
+| [HEADRUSH.md](HEADRUSH.md) |MX5,Core,Flex Prime,Prime,Gigboard,Pedalboard,VX5 |
 | [FENDER.md](FENDER.md) |Tone Master Pro |
 | [VALETON.md](VALETON.md) |GP-200LT,GP-200JR,GP-100,GP-150,GP-200 (GP-200X variant),GP-180,GP-5,GP-50,Dapper Bass VES-2,Dapper Bass Mini MES-2,Dapper Mini MES-1,Dapper Acoustic Mini,Dapper Dark VES-3,Dapper Dark Mini,Dapper Indie |
 | [MOOER.md](MOOER.md) |GE250,GE300,GS1000,GE100 original,GE150 original,GE200 original,GE150 Pro Li,GE100 Pro,GE100 Pro Li,GE200 Pro,GE200 Pro Li,GE150 Pro,GE150 Plus,GE150 Plus Li,GE150 Max,GE150 Max Li,GE1000,GE1000 Li,PE100 |
@@ -50,7 +50,7 @@ Instrument views overlap; a shared processor counts once. View counts are not ad
 | [SONICAKE.md](SONICAKE.md) |Eight profiles, including Sonic Wood, Black Hammer QCE-30 and RockStage QCE-10 |
 | [M-VAVE.md](M-VAVE.md) |Twelve distinct profiles |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. All 204 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 205 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research saved in the current pass
 
