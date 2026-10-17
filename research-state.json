@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Shopee bass/vocal discovery",
-    "task": "Continue freshbrand/series queries;GoRigII electrical/battery/directoffer access saved. Originalmanual andallpriorSorangapsretained;avoidrepeatunchanged403routes.",
+    "task": "Continue fresh brand/series queries. B3 tuner/eco followup saved; repeated Sragen used lead adds no new qualified price. Retain unresolved Soran original-manual access and technical gaps.",
     "next_models": [],
-    "after_queue": "322active;technical/market/ownership/migration incomplete;no downloads/workflows/push."
+    "after_queue": "322 active; technical/market/ownership/migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -65519,5 +65519,13 @@
       "qualification": "Sameobservation,notsecondpricepoint"
     },
     "remaining": "Dimensions/massrevision,gateimplementation,savebehavior,poweroperationandqualifiedoffers unresolved"
+  },
+  "b3_tuner_eco_followup_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+    "pages": "6,22–23",
+    "checked_date": "2026-10-18",
+    "findings": "Original manual text establishes chromatic/bass tuner, A4 435–445 Hz, no chromatic drop tuning, one-second bypass/two-second mute. Activation icon absent from extraction: physical control remains unverified. Eco standby about25min, prevented by bass input signal.",
+    "market": "Repeated Sragen Rp1,999,999 search hit is already saved as unresolved exact item41075001096; no new qualified used price.",
+    "remaining": "Physical controls, category subtotals, screen/connector details, draw, imports/MIDI, current software and qualified offers remain partial."
   }
 }

@@ -585,7 +585,7 @@ def main():
         if mode == 'commit-vl3x':
             message = 'research(tc-helicon): preserve additional VL3X sold-out hardware offer'
         if mode == 'commit-b3':
-            message = 'research(zoom): distinguish B3 rhythm entries and automatic patch saving'
+            message = 'research(zoom): qualify B3 tuner bypass mute and eco standby'
         if mode == 'commit-g3':
             message = 'research(zoom): document G3 battery settings eco behavior and tuner modes'
         if mode == 'commit-me20':
