@@ -1061,6 +1061,8 @@ Checked2026-10-17;partial. Effects-only guitar multi-effects;discontinued. Bass/
 | K/F/B | Text-derived10 rotary controls:MOD5,DELAY3,REVERB1,PHONES1;3 module footswitches. Four type toggles separate;button total/panel corroboration pending. [Manual][MDR-M] |
 | Display | Tuner:7 bicolor note LEDs,blue natural/green sharp;3 pitch LEDs,red flat/sharp,green tuned. Screen diagonal/touch unresolved. [Manual][MDR-M] |
 | Processing / categories | Three sections;MOD9 choices:triangle chorus,jazz chorus,flanger,Phase90,green phaser,Uni-Vibe,tube tremolo,Tremulator,BBD vibrato. DELAY3:PURE/ANALOG/TAPE;REVERB3:ROOM/HALL/PLATE. Simultaneous ceiling requires corroboration. [Manual][MDR-M] |
+| Controls / MOD EQ ranges | LOW/HIGH per model: CH/FLG I ±10dB@110Hz/±10dB@3.5kHz;II ±9dB@470Hz/±9dB@4.25kHz;III ±9dB@470Hz/±10dB@5.5kHz. PHS/ROTO I ±8dB@315Hz/±9dB@2.3kHz;II ±8dB@315Hz/±9dB@3kHz;III ±11dB@320Hz/±10dB@6kHz. TREM/VIB I ±12dB@315Hz/±9dB@3.2kHz;II ±12dB@240Hz/±9dB@3.2kHz;III ±11dB@320Hz/±10dB@6kHz. [Manual model table][MDR-M] |
+| Controls / parameter mapping | MOD:LEVEL effect amount,DEPTH depth,RATE speed,LOW/HIGH EQ. DELAY:LEVEL amount,REGEN feedback,TIME interval;REVERB amount;PHONES output volume. These are parameter controls,not additional processing blocks. [Manual][MDR-M] |
 | Preset memory | Factory/user/total memories unverified. [Manual][MDR-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. [Manual][MDR-M] |
 | I/O | INPUT,OUTPUT,PHONES;connector sizes/balancing/full inventory unresolved. Input1MΩ/output1kΩ. [Manual][MDR-M] |
@@ -1080,7 +1082,7 @@ Checked2026-10-17;partial. Effects-only guitar multi-effects;discontinued. Bass/
 
 No qualified used/new allocation. Variant,bundle/supply,working condition,authenticity,warranty,shipping/tax/vouchers unresolved.
 
-Official product DELAY prose duplicates reverb;own manual used to distinguish them. Old /122/dapper/18034 PDF URL now says incorrect download URL;current product link yields readable2-page V01_181108 PDF. No filesystem download or visual inspection. Full MOD EQ ranges remain to transcribe.
+Official product DELAY prose duplicates reverb;own manual used to distinguish them. Old /122/dapper/18034 PDF URL now says incorrect download URL;current product link yields readable2-page V01_181108 PDF. No filesystem download or visual inspection. MOD EQ ranges transcribed from the official model table; no panel visual corroboration claimed.
 
 [MDR-P]: https://www.valeton.net/product/dapper-mdrdiscontinued/
 [MDR-M]: https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf

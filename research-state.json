@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton Dapper MDR",
-    "task": "Dapper MDR added with manual categories/control derivation and axis conflict;next preserve full MOD EQ ranges and corroborate control inventory;all other gaps retained.",
+    "task": "Dapper MDR MOD EQ and parameter mappings saved. Defer panel-only and remaining gaps pending stronger evidence;next fresh Shopee brand/series discovery without duplicating267 records.",
     "next_models": [],
     "after_queue": "Fresh Shopee brand/series discovery;retain all prior gaps;no downloads/workflows/push."
   },
@@ -55705,5 +55705,11 @@
     "manual": "https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf",
     "access": "2-page current official PDF text read;no download/visual inspection.",
     "remaining": "MOD EQ ranges,control diagram corroboration/buttons/expression,full IO/memory,simultaneous limits,power barrel/battery/USB,IR/editor,condition-qualified prices,bass/vocal."
+  },
+  "dapper_mdr_eq_checkpoint_20261017": {
+    "source": "https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf",
+    "saved": "All nine MOD model LOW/HIGH frequency/gain pairs and named parameter mappings retained in canonical comparison evidence.",
+    "limits": "Text extraction only;physical control arrangement,connector sizes and simultaneous behavior not visually verified.",
+    "remaining": "Control panel corroboration/expression/buttons,full IO/memory/simultaneous ceiling,powerbarrelbatteryUSB,IR/editor,condition-confirmedprices,bassvocal."
   }
 }
