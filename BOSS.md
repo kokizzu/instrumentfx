@@ -2007,3 +2007,38 @@ OfficialVE-5_OM.pdf returnedsize-limit12638205bytes;indexedmanufacturertext pp9,
 
 [VE5-PDF]: https://static.roland.com/assets/media/pdf/VE-5_OM.pdf
 [VE5-COPY]: https://www.scribd.com/document/467271239/VE-5-OM
+
+## Pocket GT
+
+Handheld guitar multi-effects;distinctfromLine6PocketPOD/BOSSGT1. Checked2026-10-17;partial. Ownership,bass/vocalsuitability unknown.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal inpanelinventory. WirelessEV-1-WLexpression/FS-1-WLcontrol viaToneStudio documented;wiredEXPsocketnotlisted. Toeassignment pending. | [Product][PGT-P];[Manual][PGT-M] |
+| K/F/B | **5rotary/0footswitches/6buttons**:MASTER,VALUE,3dualfunctionknobs;SELECT,Bluetooth,TUNER/EXIT,3transportbuttons. POWER/CENTERCANCELswitches additional;VALUEpush additional. Text-derived. | [Manual][PGT-M] |
+| Display | **2character7segmentLED**;diagonal/color/touch unverified. | [Product][PGT-P] |
+| Processing / category choices | **108types**;simultaneousceiling/categorysubtotals pendingownParameterGuide. SharedGT1engine doesnotjustifyborrowingalllimits. | [Product][PGT-P] |
+| Factory / user memory | **99factory-filled writableuser memories**;GT1amp/effectsetups exchangeviarespectiveToneStudioeditors. | [Product][PGT-P];[Manual][PGT-M] |
+| Synth / acoustic | Dedicatedsynth/acousticsim categories pendingownParameterGuide. | Unresolved |
+| Dimensions / mass | **71W×129D×27.6Hmm;160g includingbattery**. | [Product][PGT-P] |
+| I/O | ¼INPUT,3.5mmstereoAUX/PHONESRECOUT,MicroBUSB;Bluetooth4.2A2DP/AVRCP/BLEMIDI. DedicatedEXP/MIDIDIN notlisted. | [Product][PGT-P] |
+| Power / battery / USB | RechargeableLi-ion orUSBpower;5V500mAminimumsource. Approximately4hruntime,3hchargewithpoweroff;500mAwhilecharging. Operateswhilecharging. Barrelpolarity notapplicabletoUSB. | [Product][PGT-P];[Manual][PGT-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
+| Editor / software | ToneStudioiOS/Android/macOS/Windows;1.3.4desktoplinks listed. CurrentOSdetails pending;drivers separate. USBaudio,YouTubepractice/automatedmemoryswitching documented,notself-containedhardwarelooprecorder. | [Product][PGT-P] |
+| Looper / drums / live | Tuner,CenterCancel forAUX/Bluetooth/USBaudio;maynotfullyremoveoff-centerparts. VideoABrepeat notproofaudio looper. Hardwarelooper/drums/scenes pending. | [Product][PGT-P];[Manual][PGT-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence / qualification | Source |
+|---|---|---|
+| Used | Unknown;no condition-verified used offer. | — |
+| New | Unknown;no condition-verified new offer. | — |
+| Condition-unverified historical ask | **Rp4,446,000**,TokoAlatMusikNADA,KotaBandung,shop236930016/item4957668257. Checked2026-10-17,fourmonthindex;directretrievalfailed. Condition,stock,batteryhealth,revision,cable/bundle,warranty,shipping/tax/voucherunknown. Notliveofferorcompleted sale. | [Exactitem][PGT-O] |
+
+### Source-access provenance
+
+Own2020Englishmanualeng02readaswebtext(1PDFsheet);manufacturerproduct currentspecsread. No downloads/installs. No borrowedGT1categorycounts.
+
+[PGT-P]: https://www.boss.info/global/products/pocket-gt/
+[PGT-M]: https://static.roland.com/assets/media/pdf/Pocket-GT_eng02_W.pdf
+[PGT-O]: https://shopee.co.id/Boss-Pocket-GT-Pocket-Effects-Processor-i.236930016.4957668257
