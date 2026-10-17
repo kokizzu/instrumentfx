@@ -645,7 +645,7 @@ def main():
         if mode == 'commit-tank-g-preservation':
             message = 'research(mvave): preserve TANK-G original and qualify converted-model firmware'
         if mode == 'commit-tank-b-preservation':
-            message = 'research(mvave): preserve TANK-B source and distinguish original and V2 firmware'
+            message = 'research(mvave): preserve three qualified TANK-B asking-price observations'
         if mode == 'commit-tank-mini-preservation':
             message = 'research(mvave): preserve TANK MINI source and qualify app and firmware limits'
         if mode == 'commit-mk20-preservation':

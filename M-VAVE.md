@@ -121,6 +121,17 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 
 Historical retail **Rp1.079.000 SOLD OUT**, [Seven Stereo16879370/25087213852](https://shopee.co.id/M-VAVE-Tank-B-Bass-Electric-Pedal-Effect-i.16879370.25087213852);used **?**. Stock,condition,accessories and delivered cost unverified. Source: [manufacturer-authored manual](https://ae-pic-a1.aliexpress-media.com/kf/Se87c6e5789cb474b943868a5c3348fb9u.pdf),English pp.2–12 previously inspected; [official software list](https://www.cuvave.com/appdownload). Preserve original/v2 and import-format uncertainty.
 
+
+### TANK-B — additional IDR offers,checked2026-10-17
+
+| Price class | Amount | Exact offer / limits |
+|---|---:|---|
+| Condition-unverified sold-out ask | **Rp700.000** | [Mc Garage Store,shop1011216793/item41204594360](https://shopee.co.id/M-vave-Tank-B-Digital-Multi-Effect-Bass-Mvave-TankB-M-Vave-Tank-B-i.1011216793.41204594360),Kota Tasikmalaya. Two-week crawl;opened body **Habis**,stale2October delivery. |
+| Condition-unverified voucher ask | **Rp1.110.000 with voucher** | [Arora Putra Sports & Music,shop26615801/item26382487518](https://shopee.co.id/M-VAVE-TANK-B-Efek-Bass-Multi-Effects-Pedal-with-Soundcard-Interface-i.26615801.26382487518),Kota Jakarta Pusat. Last-week crawl;Rp400.000 spend/Rp10.000 discount displayed,eligibility and base price unresolved;stale11October delivery. |
+| Conflicting cached ask;opened body sold out | **Rp939.999 search / Rp1.079.000 opened** | [HAWILA MUSIK INDONESIA,shop130137603/item15649372409](https://shopee.co.id/Portable-Efek-Gitar-mvave-M-Vave-Tank-B-Bass-Multi-Effect-Processor-Origin-i.130137603.15649372409),Kota Surabaya. Search two-month crawl;opened two-week crawl explicitly **Habis**,5–6October delivery. Preserve both cache states. |
+
+All three are JS-limited asking-price observations. Original/V2 hardware,used/new condition,working state,selected variant,bundle/charger,warranty,authenticity,live stock,shipping/tax and delivered total remain unverified. Late-delivery compensation is not a price discount. None establishes a completed sale or a qualified new/used range.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original finding

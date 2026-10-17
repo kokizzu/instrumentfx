@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh bass/vocal discovery",
-    "task": "Search Shopee Indonesia by bass/vocal brand and series for eligible unrecorded hardware; compare exact item IDs against brand records and ledger before adding. Original G1 remains partial; inaccessible seller offer is deferred.",
+    "task": "Continue fresh bass/vocal Shopee discovery; TANK-B offers41204594360,26382487518,15649372409 are recorded and must not be added again. Resolve exact original/V2 identity only with direct evidence.",
     "next_models": [],
     "after_queue": "Technical gaps and lossless migration audit remain incomplete. No downloads/workflows/push."
   },
@@ -52003,6 +52003,17 @@
       "source": "https://zoomcorp.com/manuals/b2four-en/",
       "finding": "Saved USB host-return placement,driver distinctions,loop timing/erase rules and rated analog levels.",
       "remaining": "Physical control corroboration,display specifications,IR/NAM imports,current qualified new/used offers and other retained unknowns."
+    },
+    {
+      "model": "M-VAVE TANK-B",
+      "checked_date": "2026-10-17",
+      "finding": "Three additional exact Shopee offers saved, including sold-out states,voucher condition and conflicting Hawila cache prices.",
+      "items": [
+        "1011216793/41204594360",
+        "26615801/26382487518",
+        "130137603/15649372409"
+      ],
+      "remaining": "Original/V2 identity,condition,live stock and other technical gaps retained."
     }
   ],
   "discovery_cross_brand_bass": {
