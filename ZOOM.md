@@ -717,6 +717,13 @@ Checked2026-10-17 via [own support index](https://zoomcorp.com/en/us/multi-effec
 | I/O / routing | Same manual pp8,10: AUX bypasses internal effects and goes directly to OUTPUT. |
 | Editor / platforms | Support lists GuitarLab7.3 Windows8.1/10/11 andmacOS10.13–26;manual pp2,8 supports adding effects and editing/backing up patches. Firmware2.00 listed separately;no software downloaded or unit updated. |
 
+### B1 FOUR — Palembang offer
+
+| Field | Qualified observation |
+|---|---|
+| IDR / additional exact hardware offer | **Rp1.990.000**, [sunnymusicpalembang,shop548551522/item25542280677](https://shopee.co.id/Zoom-B1-Four-Bass-Multi-Effect-Processor-Original-Efek-Gitar-i.548551522.25542280677),KotaPalembang. Checked2026-10-17,directpage,montholdcrawl;21–22August delivery stale. Condition,new/used,working status,adapter/bundle,variant,warranty,shipping/tax andcheckout stock unknown. NoHabis inretrievedtext is not stockproof;latecompensation notdeducted. Separate from earlier voucher-dependent AD-16E bundle andnot a verified retail range. |
+
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.
@@ -943,7 +950,6 @@ Reopened existing Imagination item22861014005 still shows Habis/Rp4,184,000; exi
 |---|---|
 | Synth / algorithms | **Bass Synthesizer, Z-Synthesizer, Bass Talk Synthesizer** are the three entries in the [2023 effect list,p13](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),Z2I-4875-01. The retained legacy Standard Synth wording above is historical;these are the current cited names. |
 | Synth / variations | Bass Synthesizer has UP/DOWN filter movement;Z-Synthesizer has SAW/SQUARE waveforms;Bass Talk Synthesizer has IA/UE/UA/OA vowel pairs. These are internal parameters,not extra algorithms or simultaneous blocks. Synth-category polyphony is unverified;the separate polyphonic pitch shifter does not establish it. |
-| IDR / additional exact hardware offer | **Rp1.990.000**, [sunnymusicpalembang,shop548551522/item25542280677](https://shopee.co.id/Zoom-B1-Four-Bass-Multi-Effect-Processor-Original-Efek-Gitar-i.548551522.25542280677),KotaPalembang. Checked2026-10-17,directpage,montholdcrawl;21–22August delivery stale. Condition,new/used,working status,adapter/bundle,variant,warranty,shipping/tax andcheckout stock unknown. NoHabis inretrievedtext is not stockproof;latecompensation notdeducted. Separate from earlier voucher-dependent AD-16E bundle andnot a verified retail range. |
 
 <!-- comparison evidence ends -->
 

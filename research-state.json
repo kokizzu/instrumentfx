@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1 FOUR",
-    "task": "Palembang exactoffer savedwithunknowncondition/stock;keepvoucherbundle separate. Continuefreshdiscoveryandremainingprimaryfields;originalB1notB1FOUR.",
+    "task": "Corrected Palembangoffer modelplacement fromB2toB1FOUR;verify exactrecords notonlyALLBASS stringpresence. Continue remainingmanualfields/freshdiscovery.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -61009,7 +61009,8 @@
     "access": "Directmontholdcrawl",
     "condition": "unknown",
     "stock": "unconfirmed",
-    "limits": "StaleAug21–22delivery;workingstatus,bundle,adapter,warranty,shipping/taxunknown;noHabisnotstockproof;latecompensationnotdiscount"
+    "limits": "StaleAug21–22delivery;workingstatus,bundle,adapter,warranty,shipping/taxunknown;noHabisnotstockproof;latecompensationnotdiscount",
+    "placement_correction": "Prior8ae7bd1 inserted offer inB2FOUR dueunboundedmarker search. MovedtoB1FOURsection;verifyper-recordfacts andB2absence beforeapply."
   },
   "discovery_bass_originals_20261017": {
     "queries": [
