@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Rack MK2 lead",
-    "task": "Verify exact Rack MK2 manufacturer identity and full first-pass specifications before adding any model; commit each useful model record before next.",
+    "task": "Use exact Rack technical/manual sections to build root KEMPER record;record all unknowns;add guitar/bass membership with explicit basis;commit before nextmodel.",
     "next_models": [
       "Kemper PROFILER PowerHead MK2 lead",
       "Kemper PROFILER PowerRack MK2 lead",
@@ -63521,5 +63521,20 @@
     "excluded": "Remote MK2 controllers,Kabinet speakers,covers and PROFILE packs are not eligible processor offers.",
     "stage_gap_pass": "Targeted official-domain Browse1000 and nonforum MainManual14.2 searches yielded no new Stage proof; Player14.2 not borrowed.",
     "next": "Verify exact Rack MK2 manufacturer identity and full first-pass specifications before adding any model; commit each useful model record before next."
+  },
+  "rack_mk2_primary_checkpoint_20261017": {
+    "checked": "2026-10-17",
+    "source": "https://www.kemper-amps.com/store/uk/profiler-rack-b.html",
+    "identity": "Exact PROFILER Rack(MK2),SKU17300000,3U/19-inch;not PowerRack or a Remote bundle.",
+    "verified": {
+      "instruments": "Explicit electric guitar and bass.",
+      "processing": "6 fixed pre+4 flexible pre,AMP/CAB,2 fixed stereo post+4 flexible stereo post. Category choices not counted.",
+      "interfaces": "Stereo main,optional stereo monitor,2 guitar inputs,external FX loop,MIDI,S/PDIF24bit44.1/48/88.2/96 master/slave;USB4in+4out;2 onboard pedal/switch connections.",
+      "software": "Desktop Windows/macOSRigManager viaUSB;mobileiOS/Android/FireOS through external WiFi router.",
+      "practical": "Morphing and seamless Performance switching advertised;instrument/line external-loop support;creates proprietary ampPROFILEs."
+    },
+    "conflict": "Routing paragraph says2pedalconnections;genericMorphing paragraph saysup to4expressionpedals without topology. Do not report4onboard;Remote contribution requires explicit corroboration.",
+    "limits": "Manufacturer UK stock is not Shopee Indonesia stock. No foreign-price conversion. Full panel count/display,memory,bodydimensions/mass,power,IR/NAM,capture revision andqualified new/used IDR still need first-pass record. No active count increment.",
+    "next": "Use exact Rack technical/manual sections to build root KEMPER record;record all unknowns;add guitar/bass membership with explicit basis;commit before nextmodel."
   }
 }
