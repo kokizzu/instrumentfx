@@ -535,12 +535,12 @@ Checked2026-10-17;partial. Vocal multi-effects/looper; guitar input supplies rev
 | Power |9V DC,center-negative;manual specifies1.5A draw and1.5A adapter. Phantom startup briefly increases current;original supply recommended. Battery/USB operation unverified. |
 | Dimensions / weight |Manual86.6D×125W×60H mm versus product86×125×60mm without axes. Weight unknown. |
 | Editor / drivers / USB | Editor platforms,audio drivers,updater,mobile software and USB audio unverified. |
-| Looper / recording |70min total/unlimited overdubs;slots1–8 five minutes,9–11 ten minutes. Recordings survive slot changes/power-off. Auto-record optional. Double-tap stop;hold1s stopped deletes slot;hold1s after dub undo/redo. |
+| Looper / recording |70min total/unlimited overdubs;slots1–8 five minutes,9–11 ten minutes. Recordings survive slot changes/power-off. Auto-record toggles by holding the footswitch while connecting power(red=enabled,green=disabled). With it enabled,press to arm standby;first note starts recording. Press again cancels standby;recording interrupted within1s is cancelled by the protective logic. Double-tap stop;hold1s stopped deletes slot;hold1s after dub undo/redo. |
 | Routing / phantom |Switchable48V;LINE IN uses XLR MIC socket,bypasses GAIN. Ground-lift for balanced output. |
 | Reverb controls / live use |Hold TONE for hidden mode;NG then controls vocal reverb,PLAY LEVEL guitar reverb. Main footswitch handles recording;effect-bypass behavior unresolved. |
 | Drums / scenes / gaps |Drums,scenes,spillover,conversion rate/bit depth,weight,expression,effect-memory and current-condition offers unresolved. |
 
-Source for manual-specific fields: [original manufacturer V02_2024.01.08](https://www.flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1/M00/00/0B/wKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf),14PDFpages/11printed,complete text read. TONE is called a knob in hidden-mode prose despite push-button layout;no extra rotary inferred. Manual lists supplied power adapter;product accessory list omits it,so seller bundle must be checked. No visual verification claimed.
+Source for manual-specific fields: [original manufacturer V02_2024.01.08](https://www.flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1/M00/00/0B/wKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf),14PDFpages/11printed,complete text read. TONE is called a knob in hidden-mode prose despite push-button layout;no extra rotary inferred. Manual lists supplied power adapter;product accessory list omits it,so seller bundle must be checked. No visual verification claimed. Product specifications above came from indexed manufacturer copy;2026-10-17 reopens of both www/non-www product URLs returned empty templates,not a retraction of those specifications. Original PDF remained readable.
 
 | Condition / IDR evidence | Seller / item / qualifications |
 |---|---|
