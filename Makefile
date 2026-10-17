@@ -1479,3 +1479,7 @@ research-commit-vamp2:
 .PHONY: research-commit-rp155
 research-commit-rp155:
 	python3 scripts/research_tools.py commit-rp155
+
+.PHONY: research-commit-ax30g
+research-commit-ax30g:
+	python3 scripts/research_tools.py commit-ax30g

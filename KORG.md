@@ -308,3 +308,46 @@ Mixed jonimusic item22551702/3568008855 lists AX100G/AX1500G/AX3000G/AX3G atRp89
 [AX3G-F]: https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%3DAX3GFXParamGuideE1.pdf&response-content-type=application%2Fpdf%3B
 [AX3G-P]: https://www.korg.com/de/products/effects/ax3g/page_2.php
 [AX3G-O]: https://shopee.co.id/efek-pedal-gitar-elektrik-KORG-AX3g-made-in-japan-distorsi-delay-reverb-i.33360096.3679424724
+
+## AX30G
+
+<!-- comparison evidence begins -->
+Checked **2026-10-17**, partial. Guitar multi-effects, distinct from AX300G/AX3000G. Manufacturer-authored manual text on a mirror supplements the unreadable official scan.
+
+| Required field | Finding |
+|---|---|
+| Built-in / external / toe expression | **Pressure-sensitive pedal**, not a conventional treadle; **two external sockets**, Parameter and Volume, for EXP-2/XVP-10. Toe switch **?**. [Manual][AX30-M] |
+| Knobs / footswitches / buttons | **3 / 5 / 10**, plus pressure control: Input Level, Output Level, dial; Bank and Programs1–4; Edit, Parameter, Compare, four IPE, Pressure, NR, Level. [Manual][AX30-M] |
+| Display | Backlit **16×2-character LCD**, bank/note seven-segment LED, tuner indicators. Diagonal/color/touch **?**. [Manual][AX30-M] |
+| Dimensions / weight | **410 W ×160 D ×43 H mm; 1.3 kg**. [Manual][AX30-M] |
+| Blocks / category choices | **Six simultaneous effects plus separate NR**; **28 types including NR**. Two blocks, up to three effects each; **6×4=24 chain combinations**. Groups: block1 six types; block2 amp/exciter2, Mod1 six, Mod2 eight, ambience5. [Manual][AX30-M] |
+| Memory | **16 user +50 preset =66**; initial user filling **?**. [Manual][AX30-M] |
+| Synth / acoustic | “A.Sim” means **amp simulator**, not acoustic simulator. Dedicated acoustic simulation/synth **?**. [Manual][AX30-M] |
+| IR / NAM / captures | User IR, native NAM, converted NAM and proprietary captures **?**. |
+| I/O | Guitar; stereo mini Mix input; L/Mono,R line outputs; stereo mini phones; Parameter/Volume pedal inputs; DC9V. [Manual][AX30-M] USB/audio/MIDI interfaces **?**. |
+| Power / battery / USB | **9 V DC; 3 W**. Current, polarity, barrel dimensions, battery/USB power **?**. [Manual][AX30-M] |
+| Editing / platforms | Hardware editing documented. Computer/mobile editor, drivers and updaters **?**. [Manual][AX30-M] |
+| Practical features | Chromatic tuner, bypass, individual effect switching, pressure-controlled hold/tap delay. Full looper, drums, scenes, spillover **?**. [Manual][AX30-M] |
+
+### AX30G — qualified IDR observations
+
+**Used IDR: ?; new IDR: ?**. The amount below has unverified sale condition.
+
+| Condition / asking observation | Evidence / limitations |
+|---|---|
+| **Condition unknown Rp1,350,000** | [totok.zulianto, item57900729/18875773031][AX30-O], Kabupaten Tuban. Two-month search cache, **Habis**, delivery13–15August; exact open failed. “Langka” means rare and does not establish sale condition. Working condition, adapter, bundle, warranty and current stock **?**. Late-delivery voucher up to Rp10,000 not deducted. |
+<!-- comparison evidence ends -->
+
+### AX30G — source access and audit limits
+
+[Korg’s own support listing][AX30-P] links the English scan below; **2015-06-01 is the upload date**, not an established hardware or manual revision. Both English and Japanese PDFs report36pages but returned no readable body text; screenshots failed. No successful visual inspection or local file download is claimed.
+
+The [manufacturer-authored mirrored manual][AX30-M] identifies AX30G, uses the same title and36-page structure, and supplies the original panel, chain and specifications sections. Extracted body text was used, excluding the site’s generated assistant/FAQ material. Original page numbers differ from PDF position. Optical-character errors remain possible; full original-scan verification is outstanding. Do not substitute AX300G/AX3000G facts. The category subtotals sum to27 chainable types; NR is the28th, not another freely assignable chain slot. Detailed algorithms, routing restrictions, pressure assignments, supply label and editor availability still require follow-up. Bass/vocal membership unverified.
+
+[AX30-P]: https://www.korg.com/us/support/download/product/1/30/
+[AX30-E]: https://cdn.korg.com/us/support/download/files/640eb23eb43169d3cd8bc94f12a95552.pdf
+[AX30-J]: https://cdn.korg.com/jp/support/download/files/c658a21b5ffe7a11df22cf848749fde7.pdf
+[AX30-M]: https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual
+[AX30-O]: https://shopee.co.id/efek-gitar-korg-ax30g-langka-i.57900729.18875773031
+
+Original scans retained as links: [English][AX30-E], [Japanese][AX30-J].
