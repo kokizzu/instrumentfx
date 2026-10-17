@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP200",
-    "task": "RP200 primary record saved. Next verify category alternatives, routing and expression restrictions from own manual; retain unresolved fields and historical offer qualifications.",
+    "task": "RP200 category choices and Whammy routing exception saved. Next expression assignments/restrictions and full amp alternatives; retain unresolved power, visual, software and market fields.",
     "next_models": [],
     "after_queue": "Resolve BOSS ME-8 exact Shopee item if possible, then continue brand/series discovery. AX100G, ME-30, GT-5 and RFX-2000 retain deferred gaps. No downloads, workflows or push."
   },
@@ -54118,5 +54118,11 @@
     "directory": "https://digitech.com/product-manuals/",
     "identity_caveat": "Official RP200 link, declaration/body RP200; back-cover RP100 label retained.",
     "remaining": "Visual controls/display, detailed category choices, toe/external EXP, actual current, battery/USB, editor/IR/NAM, condition-specific prices."
+  },
+  "rp200_categories_checkpoint_20261017": {
+    "manual": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP200_UsersGuide.pdf",
+    "pages": "16–26",
+    "finding": "Shared 14-choice Effects module, Whammy routing exception, pickup/wah/compressor/cabinet/gate choices, delay timing and reverb count saved. Acoustic simulation confirmed.",
+    "remaining": "Full amp alternatives, expression assignments/restrictions, visual corroboration, software/power/condition-specific market gaps."
   }
 }

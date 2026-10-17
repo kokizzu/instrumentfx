@@ -363,8 +363,11 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | K/F/B | **3 rotary / 2 footswitches / 3 buttons** (Select, Rhythm, Store), text-derived; visual check pending. | [Manual pp3–4][RP200-M] |
 | Display | Preset/parameter display; diagonal, color and touch unverified. | [Manual p4][RP200-M] |
 | Processing / categories | **Up to 12 simultaneous effects**; detailed category alternatives pending. | [Manual p31][RP200-M] |
+| Processing / shared Effects module | **14 mutually exclusive choices**: Chorus, Flanger, Phaser, Tremolo, Panner, Vibrato, Rotary, YaYa, AutoYa, SynthTalk, Envelope Filter, Detune, Pitch Shift and Whammy. Whammy automatically moves before amp modeling. | [Manual pp20–24][RP200-M] |
+| Categories / pickup, dynamics and cabinet | Two pickup conversions; three wah types; compressor Fast/Medium/Slow. Cabinet choices: Dark 4×12, Warm 4×12, Bright 2×12, each with four mic positions. Gate chooses Silencer or Auto Swell (nine fade settings). Off states are additional. | [Manual pp16–19][RP200-M] |
+| Categories / delay and reverb | Delay: digital, analog or ping-pong, 10–990 ms in 10 ms steps then 1–2 s in 100 ms steps; infinite-repeat option. Ten reverbs; decay 1–99 is a parameter range, not seconds. | [Manual pp25–26][RP200-M] |
 | Preset memory | **40 user + 40 factory = 80**; initial user bank duplicates factory sounds. | [Manual p9][RP200-M] |
-| Synth / acoustic | SynthTalk documented; acoustic simulation unverified. | [Manual p31][RP200-M] |
+| Synth / acoustic | SynthTalk and acoustic-guitar simulation documented; acoustic is one of the 12 amp/guitar alternatives. | [Manual p31][RP200-M] |
 | I/O | ¼-inch TS input; ¼-inch stereo TRS output; ⅛-inch stereo AUX and headphones; power input. | [Manual pp5,31][RP200-M] |
 | Power / battery / USB | **9 V AC, 1.3 A PS0913B supply; 6.8 W consumption**. Supply rating is not unit current draw. Battery/USB operation unverified. | [Manual p31][RP200-M] |
 | Dimensions / mass | **8.5 L × 10 W × 2.25 H inches; 3 lb**. | [Manual p31][RP200-M] |
