@@ -118,6 +118,8 @@ def main():
             subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
         paths = ['Makefile', 'scripts/research_tools.py', 'scripts/comparison_views.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'README.md', 'research-state.json']
+        if mode == 'commit-m100':
+            paths += ['TC-ELECTRONIC.md']
         if mode == 'commit-hxe-price':
             paths += ['LINE6.md']
         if mode == 'commit-criticalmass':
@@ -385,7 +387,6 @@ def main():
         if mode == 'commit-b21u':
             message = 'research(zoom): reconcile B2.1u module choices and acoustic amp distinction'
         if mode == 'commit-m100':
-            paths += ['TC-ELECTRONIC.md']
             message = 'research(tc-electronic): add M100 with qualified guitar vocal paths'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): clarify 607 pedal switching and software evidence'
