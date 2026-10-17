@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee Indonesia discovery",
-    "task": "G2 FOUR dated seller-labelledNew and voucher reobservation committed. Continue exact hardware discovery beyond post-PERFORMVG query set;all technical/market gaps retained.",
+    "model": "MOOER Black Truck",
+    "task": "Three exact historical Shopee offers and official product saved in discovery_blacktruck_20261017. Next own English manual link via https://www.mooeraudio.com/products/15.html;verify architecture/controls/presets/IO/power before guitar record. No qualified used/new condition.",
     "next_models": [],
-    "after_queue": "Preserve all model gaps and migration limits;no downloads/workflows/push."
+    "after_queue": "Preserve prior gaps and migration limits;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -55433,5 +55433,57 @@
       "BOSSME33"
     ],
     "result": "Noqualifiednewmodelexacthardware;G2Fournewcondition-labelledofferandvoucherfollowupaddedtoexistingmodel. Accessoriesexcluded;limitedsearchnotabsence."
+  },
+  "discovery_blacktruck_20261017": {
+    "checked": "2026-10-17",
+    "model": "MOOER Black Truck",
+    "unrecorded": true,
+    "product": "https://www.mooeraudio.com/products/15.html",
+    "primary_chinese": "https://cn.mooeraudio.com/product/11.html",
+    "eligibility": "Own product confirms6effectsections:COMP,OD,distortion,EQ,MOD,Delay/Reverb;guitarmultifxwithoutampmodelrequirement.",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Mooer-Black-Truck-6-in-1-Compressor-Overdrive-Distortion-EQ-Modulation-Delay-Reverb-Guitar-Multi-Effect-Pedal-i.30194339.44224053987",
+        "seller": "Melodia Musik Roland Store JKT",
+        "shop": "30194339",
+        "item": "44224053987",
+        "region": "Kota Jakarta Selatan",
+        "idr": 3716400,
+        "former_crossed_idr": 4890000,
+        "access": "Three-monthindexedcrawl24%discount;notlivecheckout",
+        "condition": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/mooer-black-truck-combined-compressor-overdrive-distortion-eq-modulation-delay-reverb-pedal-i.29988284.28824194734",
+        "seller": "V Musik Central",
+        "shop": "29988284",
+        "item": "28824194734",
+        "region": "Kota Depok",
+        "idr": 3850000,
+        "access": "Two-monthindexedcrawl",
+        "condition": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/mooer-black-truck-combined-compressor-overdrive-distortion-eq-modulation-delay-reverb-pedal-i.31173885.27123480418",
+        "seller": "Vin's Music Store",
+        "shop": "31173885",
+        "item": "27123480418",
+        "region": "Kota Depok",
+        "idr": 3850000,
+        "access": "Four-monthcrawlJun4arrivaltext",
+        "condition": "unverified"
+      }
+    ],
+    "limits": "Historicalindexedasks;stockconditionvariantbundleadapterauthenticitywarrantyshippingtaxvouchersunverified.Noqualifiedused/newallocation.",
+    "primary_facts": "Ownpage6modules,loop/fourcablemethod,stereooutputs,headphone/directspeaker-simoutput;9VDC1Asupply,1.23kg;printed370D96W51Haxesrequirequalification. CNpageclaimsIRbasedheadphonesim,notuserIRimport.",
+    "next": "Open own Black_Truck_Manual.pdf link through browser only;verify controls/memory/SPACEarchitecture,power/axesandIRscopebefore root record.",
+    "rejected": "NUXBumblebeeNPBpedalboardsareaccessories;notprocessorhardware.",
+    "searches": [
+      "MOOERRedTruck",
+      "MOOERBlackTruck",
+      "NUXBumblebee",
+      "HotoneBStation"
+    ],
+    "absence_qualification": "Limitedsearchonly;noabsenceclaim."
   }
 }
