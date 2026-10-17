@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee discovery",
-    "task": "Recover exact CP-48/C300 Shopee IDs and official Caline sources before registration;unresolved indexed asks saved. Black Truck digital specification committed separately.",
+    "task": "Resume fresh Shopee series discovery;Caline exact item and primary access remain unresolved,avoid repeating identical failures. FX150b current comparison consolidated losslessly.",
     "next_models": [],
     "after_queue": "332 active,38brands;technical,market,ownership,migration incomplete. No downloads/workflows/push."
   },
@@ -66203,6 +66203,22 @@
       "DigiTechBP90/RP150",
       "ZoomG2.1DM"
     ],
-    "qualification": "No exact hit is not proof of absence;B2FOUR/BlackTruck offers already recorded,not re-added"
+    "qualification": "No exact hit is not proof of absence;B2FOUR/BlackTruck offers already recorded,not re-added",
+    "access_followup": {
+      "checked": "2026-10-18",
+      "attempts": [
+        "Exact CP48/C300 Shopee keyword pages inaccessible",
+        "Caline HTTPS/HTTP home timed out",
+        "Exact model domain searches no primary hit"
+      ],
+      "status": "Keep unresolved;do not promote third-party specs or indexed asks",
+      "next": "Try alternate marketplace series;return when new exact source appears"
+    }
+  },
+  "fx150b_comparison_consolidation_20261018": {
+    "status": "current comparison consolidated;complete preceding body retained byte-for-byte",
+    "prior_body_sha256": "922615cd128f3d22ac7daf2a81681d146d42d5357c4cdb6ef29bf69aea21e8e3",
+    "scope": "FX150b only;technical completeness not certified",
+    "retained_marker": "FX150b prior evidence"
   }
 }

@@ -622,6 +622,42 @@ Alternate PDF still includes9V500mA precautions alongside5V1A charging;its avail
 
 ## FX150b
 
+Battery-equipped guitar multi-effects, distinct from standard FX150. Current comparison consolidated 2026-10-18 from the retained evidence below; partial. Ownership and bass/vocal suitability remain unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Current finding / qualification | Evidence |
+|---|---|---|
+| Expression / toe | Internal treadle with pressure activation; external EXP2 TRS. MIN/MAX/PRESS calibration and multi-parameter assignments. External toe hardware unverified. | [Shared manual][F150B-M] |
+| Knobs / footswitches / buttons | Text-derived **2 rotary /3 footswitches /0 separate top-panel buttons**. VALUE push, power switch and treadle pressure activation additional; visual confirmation pending. | [Manual pp3–6][F150B-M] |
+| Display | **5-inch color LCD touchscreen**. | [Shared product][F150B-P] |
+| Dimensions / weight | Manual150×273×56mm, axes unlabeled; **FX150b1500g**. Shared store155×287×84mm differs. Standard1345g is not FX150b mass; no packaging explanation established. | [Manual][F150B-M];[product][F150B-P] |
+| Processing / category choices | FX8,OD22,AMP58,CAB30,NR3,EQ4,MOD20,DLY9,REV7=**161 enumerated versus160 advertised**. Ten-module chain includes FX LOOP; simultaneous DSP ceiling unverified. | [Manual pp56–70][F150B-M] |
+| Factory / user / total memory | **60×3=180 writable patches**; factory-filled subset unknown. | [Manual p15][F150B-M] |
+| Synth / acoustic | No dedicated synth/acoustic-simulation entry identified in inspected appendix; firmware-wide absence not established. | [Manual appendix][F150B-M] |
+| I/O | Shared documentation names input,AUX,EXP2,send/return,L/R output,phones,USB-C,DC. MASTER/global prose mentions XLR absent from port lists: unresolved wording conflict. Full electrical census pending. | [Manual][F150B-M];[product][F150B-P] |
+| Power / battery / USB | **9V DC3A center-negative;about2.5h charge,5.5h runtime**. Generic manual precaution≥1A is not FX150b rating. Replaceable lithium battery capacity printed **3000mA**,not corrected to mAh. USB charging/bus power unverified. Five-bar alerts/storage details retained below. | [Manual pp48–54,71][F150B-M];[product][F150B-P] |
+| IR / NAM / capture | **50 user slots31–80;1024-point,24-bit44.1kHzWAV**. Editor sample-rate conversion documented; repeated sample-rate wording beside bit depth is ambiguous. Arbitrary native formats,NAM andcaptures unverified. | [Manual pp64,70][F150B-M] |
+| Editor / USB audio | Indexed FX150 editor1.1.1 Windows/Mac; exact FX150b release/OS matrix andmobile editor unknown. Shared manual24-bit44.1kHz USB audio;Windows ASIO,Mac no driver. Dry/effect L/R choices;reamping/channel census unverified. | [Download index][F150B-D];[manual][F150B-M] |
+| Looper / drums / routing | Shared page52s looper,80 rhythms,10 metronomes,reorderable chain,globalEQ,delay/reverb spillover. Firmware restrictions require further audit. | [Product][F150B-P] |
+
+| Condition / access | Amount / qualification | Source |
+|---|---|---|
+| Used IDR | Unknown; no condition-qualified ask. | — |
+| New IDR | Unknown; no condition-qualified ask. | — |
+| Condition-unverified indexed exact hardware | **Rp5,469,348**,Soundstationstore,Tangerang Selatan,shop250276993/item15599337026. Checked2026-10-18,last-week index;direct fetch failed. Condition,stock,selected variant,battery/adapter bundle,warranty,shipping/tax/checkout unknown. Late-deliveryRp10,000 is not a discount. | [Exact Shopee item](https://shopee.co.id/FLAMMA-FX150B-Guitar-Multi-Effects-Multi-Efek-Gitar-i.250276993.15599337026) |
+
+<!-- comparison evidence ends -->
+
+[F150B-M]: https://device.report/m/1896b86fc51a16a65e0160b61d615dde8b75c7b24e033e4924cf9267052e52f3.pdf
+[F150B-P]: https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal
+[F150B-D]: https://flammainnovation.com/download.html
+
+### Retained FX150b evidence and access history
+
+The complete earlier record follows unchanged. Initial unknowns are historical where the current comparison above supplies later findings. Original filename/title differences, failed access, battery alerts and all unresolved conflicts remain available here.
+
+<!-- FX150b prior evidence begins -->
 Battery-equipped guitar multi-effects;separate from the standard FX150. Checked2026-10-18;partial. Bass/vocal suitability andownership unverified. The manufacturer's shared product page explicitly names FX150b;shared marketing specifications below are qualified accordingly,not borrowed from the standard model's separate record.
 
 | Field | Finding / qualification |
@@ -689,3 +725,4 @@ Checked 2026-10-18. Shared [manufacturer-authored manual](https://device.report/
 | Editor / listed packages | [Official download index](https://flammainnovation.com/download.html) lists **FX150 V1.1.1 Setup_win.exe** and **FX150 V1.1.1.Setup_mac.dmg**, plus older1.1.0 and Read Me. Direct page currently returns a sparse template; filenames recovered from indexed manufacturer text. No separate FX150b release matrix, minimum OS or mobile editor established. |
 
 No installers, manuals or other files downloaded. Remaining: panel visual confirmation, full electrical I/O census, source conflicts, exact firmware/editor compatibility and condition-qualified prices. Resume Shopee discovery after this useful followup; no claim that FX150b is fully verified.
+<!-- FX150b prior evidence ends -->
