@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Kemper PROFILER Stage MK2",
-    "task": "Inspect expression section and preserve manual/specification mains-voltage conflict;seek currentOS14manual andBrowse capacity.",
+    "task": "Seek current OS14 manual, Browse capacity, display and MK2 expression calibration;then resume exact Shopee model discovery.",
     "next_models": [],
     "after_queue": "Remaintechnical/marketgaps;no downloads,workflows orpush."
   },
@@ -63455,5 +63455,15 @@
     "pages": "Printed48–63",
     "method": "Stage-specific complete control-section text inventory;derived arithmetic in canonical row;power separate,encoder presses once;no new visual inspection.",
     "next": "Inspect expression section and preserve manual/specification mains-voltage conflict;seek currentOS14manual andBrowse capacity."
+  },
+  "stage_mk2_expression_power_20261017": {
+    "sources": [
+      "https://missionengineering.com/shop/ep1-kp/",
+      "https://missionengineering.com/ep1kp-electronic-user-guide/",
+      "https://www.kemper-amps.com/profiler/technical-specifications"
+    ],
+    "finding": "External toe wiring and mains-source conflict saved in canonical rows.",
+    "limits": "Mission manufacturer indexed text only;direct pages/PDF timed out. Stage compatibility explicit, MK2-specific calibration not established. Manual13power printed68 vs current specs unresolved.",
+    "next": "Seek current OS14 manual, Browse capacity, display and MK2 expression calibration;then resume exact Shopee model discovery."
   }
 }
