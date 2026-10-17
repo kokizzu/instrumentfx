@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-200",
-    "task": "Additional exact Kamar Gear used ask saved. Resume fresh Shopee discovery in unrecorded bass/vocal series;avoid repeating saved searches without a new lead.",
+    "model": "TC-Helicon VoiceLive — unidentified seller lead",
+    "task": "Karinda26 exact used listing145400305/27288598246 saved pending generation identity;first photo cache miss. Resolve identity before assigning specifications/price or adding inventory;otherwise continue discovery.",
     "next_models": [],
     "after_queue": "337 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -72463,5 +72463,32 @@
     ],
     "scope": "site:shopee.co.id",
     "result": "No qualified new-model lead;additional exact GP-200 used offer saved. Aircraft VF-1 results,Panasonic pumps,badminton GP200 items and known Vocalist power adapter rejected. Search absence does not establish hardware unavailability."
+  },
+  "discovery_voicelive_ambiguous_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Bass Station\" \"Sonicake\"",
+      "site:shopee.co.id \"Bass Fly Rig\" \"v2\"",
+      "site:shopee.co.id \"Vocalist\" \"Live Pro\"",
+      "site:shopee.co.id \"Zoom\" \"B2X\"",
+      "site:shopee.co.id \"Boss VE\" \"bekas\"",
+      "site:shopee.co.id \"Zoom B1\" \"bekas\"",
+      "site:shopee.co.id \"Zoom B2\" \"bass\"",
+      "site:shopee.co.id \"TC Helicon\" \"second\""
+    ],
+    "pending": {
+      "title": "TC HELICON VOICE LIVE SECOND",
+      "seller": "Karinda26",
+      "seller_id": "145400305",
+      "item_id": "27288598246",
+      "region": "Kabupaten Sleman",
+      "ask_idr": 3300000,
+      "condition": "Seller title SECOND;not independently inspected",
+      "stock": "Habis in last-month cached body",
+      "url": "https://shopee.co.id/TC-HELICON-VOICE-LIVE-SECOND-i.145400305.27288598246",
+      "limits": "Exact VoiceLive generation unidentified. Stale2–5September arrival,not current availability or completed sale. Bundle,adapter,warranty,authenticity,working condition,shipping/tax/checkout unknown. Rp10000 late compensation not deducted. First linked photo cache miss;no image inspected. No price assigned to any active model and no model admitted."
+    },
+    "other_results": "First four queries empty;second group returned already recorded Harmony Singer2 used offers29216795790/54502259248 and B2FOUR hardware. No new catalogue model established;search absence is not proof of absence.",
+    "next": "Resolve exact generation from accessible listing photos/title/description before manufacturer matching;otherwise park and pursue another fresh lead."
   }
 }
