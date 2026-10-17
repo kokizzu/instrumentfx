@@ -823,3 +823,38 @@ Manufacturer-authored mirror identifiesoriginalPOD HD500 Pilot’s Handbook,**40
 
 [HD5-R]: https://kb.line6.com/pod-hd500-hd-desktop-hd-pro-v2-62-release-notes
 [HD5-U]: https://kb.line6.com/pod-hd500x-hd500-hd400-hd300-hd-hd-pro-firmware-v2-62-and-pod-hd-hd500-hd400-hd300-hd-pro-edit-v2-26-update-instructions
+
+## M5
+
+Effects-only multi-category processor; one selected model plus gate,not a chain processor. Eligible under multi-category scope; distinct from dedicated single-purpose pedals and M9/M13. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | External EX-1/passive10kΩ linear mono¼-inch;multiple parameters,heel/toe values per preset. Built-in/toe switch unverified. | [Handbook PDF pp4,7–8][M5-M] |
+| K/F/B | **6 rotary /2 footswitches /separate buttons unverified**;text-derived model selector+five parameter knobs,OnOff+Tap;selector push additional. | [Handbook PDF pp4–6][M5-M] |
+| Display | Category-colored illumination;diagonal,technology,touch unverified. | [Handbook PDF p4][M5-M] |
+| Processing / category choices | One selected model plus separate gate;five categories:delay,modulation,distortion,filter,reverb. Manufacturer resource advertises100+ models;category subtotals pending. | [Handbook PDF pp4,7][M5-M];[Manufacturer resource indexed excerpt][M5-R] |
+| Factory / user memory | **24 factory-filled writable presets**,not24+24. Manual/autosave modes;LOAD waits confirmation,INSTANT switches immediately. | [Handbook PDF pp5–6][M5-M] |
+| Synth / acoustic | Specific synth/acoustic models pending gallery audit. | Unresolved |
+| Dimensions / mass | Unknown;not borrowed from M9/M13. | Unresolved |
+| I/O | Stereo Lmono/R inputs andoutputs,expression,DC,MIDI IN/OUT;connector sizing andother ports pending. SysEx preset backup/restore,MIDIclock,PC0–23,CC expression/tap/bypass/tuner. | [Handbook PDF pp4,6,8][M5-M] |
+| Power / battery / USB | **9VDC,500mA included supply rating**,not measured draw. Polarity,currentdraw,battery/USB operation unknown. | [Handbook PDF p4][M5-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
+| Editor / software | Line6Monkey firmware updater via external MIDI interface;editor/platform/current compatibility pending. | [Handbook PDF p7][M5-M] |
+| Looper / drums / live | True/DSP bypass;DSP retains disengaged delay/reverb tails. Tuner selectablemute/bypass. Looper,drums,scenes pending. | [Handbook PDF pp5–6][M5-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;no condition-verified offer. | — |
+| New | Unknown;no condition-verified offer. | — |
+| Condition-unverified cached offer | **Rp2,921,000**;Gelora Musik Serpong,Kab.Tangerang;shop306155985/item6072223176. Checked2026-10-17;direct web open/search returned2month cachedpage with15–16August delivery. Sale condition,working state,revision,adapter/bundle,warranty,variant,shipping/tax unknown. No Habis in excerpt is not stock confirmation. Late-arrivalRp10,000 compensation is not price discount. | [Exact hardware item][M5-O] |
+
+### Source-access provenance
+
+RevB Handbook accessed as webPDF text,10pages; citations use PDF page numbers. Former productURL https://line6.com/effects-pedals/m5/ redirects to current /pedals/; no HX One specifications transferred. Original M5 resource search excerpt available,subsequent direct fetch failed. No downloads or physical inspection.
+
+[M5-M]: https://line6.com/data/6/0a06434d12155507f39d011ad3/application/pdf/M5%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf
+[M5-R]: https://origin2.line6.com/effects-pedals/resources/
+[M5-O]: https://shopee.co.id/Stombox-Modeller-Pedal-Line-6-M5-i.306155985.6072223176

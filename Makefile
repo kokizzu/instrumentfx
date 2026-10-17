@@ -1403,3 +1403,7 @@ research-commit-me20:
 .PHONY: research-commit-ax3g
 research-commit-ax3g:
 	python3 scripts/research_tools.py commit-ax3g
+
+.PHONY: research-commit-m5
+research-commit-m5:
+	python3 scripts/research_tools.py commit-m5
