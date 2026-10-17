@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee model discovery",
-    "task": "Stadium XL first pass and follow-up counts committed; leave remaining power/routing/offer gaps explicit. Resume Shopee discovery for missing bass/vocal or legacy guitar multi-effects; check inventory to avoid duplicates.",
-    "next_models": [],
-    "after_queue": "Market coverage and legacy consolidation remain incomplete; no downloads or workflows."
+    "model": "Line 6 POD HD500X",
+    "task": "Use saved exact Shopee leads. Research own manufacturer product/manual before adding distinct HD500X; do not borrow originalHD500 specs. Commit useful complete first pass before AMPLIFi FX100.",
+    "next_models": [
+      "Line 6 AMPLIFi FX100"
+    ],
+    "after_queue": "Resume missing bass/vocal and legacy guitar discovery. Catalogue and legacy consolidation incomplete; no downloads/workflows."
   },
   "new_findings": [
     {
@@ -50723,6 +50725,77 @@
         "region": "Denpasar",
         "qualification": "3monthindex;July6delivery;conditionstockbundlevariantunknown;distinctfromoriginalFloorandLT;directnotchecked."
       }
+    ]
+  },
+  "discovery_hd500x_amplifi_20261017": {
+    "checked_date": "2026-10-17",
+    "inventory_check": "Neither POD HD500X nor AMPLIFi FX100 is in current active inventory. Original HD500 is a separate existing record.",
+    "leads": [
+      {
+        "model": "Line 6 POD HD500X",
+        "url": "https://shopee.co.id/effect-gitar-LINE-6-POD-HD500X-second-i.56303985.2253537586",
+        "seller": "alvienz37",
+        "region": "Kota Cilegon",
+        "idr": 6200000,
+        "condition": "Title explicitly second; physical condition and completeness unverified",
+        "access": "Exact page opened; crawl last month. Initial search said3months and4–6July delivery; opened page instead8–11September. Both are cached observations, not live stock.",
+        "qualifications": "Bundle, warranty, variant and checkout stock unknown. Late delivery voucher up to10000 not deducted."
+      },
+      {
+        "model": "Line 6 POD HD500X",
+        "url": "https://shopee.co.id/Line-6-pod-hd500x-i.267406637.21071872133",
+        "seller": "Aliska_Musik",
+        "region": "Jakarta Pusat",
+        "idr": 4100000,
+        "condition": "Unverified",
+        "stock": "Habis",
+        "access": "Exact page opened, crawl last month, delivery26August; no live stock confirmation",
+        "qualifications": "Bundle/warranty unverified; voucher not deducted."
+      },
+      {
+        "model": "Line 6 POD HD500X",
+        "url": "https://shopee.co.id/pod-Hd500X-mulus-HC-line6-pod-hd-i.58780289.18911697683",
+        "seller": "Ayx Music",
+        "region": "Kabupaten Lamongan",
+        "idr": 4250000,
+        "condition": "Title mulus, not proof new or used",
+        "stock": "Habis",
+        "access": "Search index3months; exact page not reopened",
+        "qualifications": "Title +HC suggests hardcase; inclusion unverified."
+      },
+      {
+        "model": "Line 6 AMPLIFi FX100",
+        "url": "https://shopee.co.id/YAMAHA-LINE6-LINE-6-Ampli-Gitar-Amplifi-FX100-AmplifiFX100-i.18437660.186076637",
+        "seller": "Tempo Music",
+        "region": "Jakarta Barat",
+        "idr": 2999000,
+        "condition": "Unverified",
+        "access": "Exact page opened; crawl2months, delivery19–22August; search initially5months andserviceunavailable. Seller activity4years on opened cache vs3years search.",
+        "qualifications": "Title names FX100 but category amplifier/mixer. Confirm official pedal identity; no seller specification borrowing. Bundle,warranty,live stock unknown;voucher not deducted."
+      }
+    ],
+    "rejected_or_unresolved": [
+      {
+        "url": "https://shopee.co.id/Zoom-707-II-efek-gitar-murmeer-i.46355631.9089364146",
+        "reason": "Search title/body POD HD500X but URL Zoom707II, 4895000Habis SSMusikSBY Surabaya. Exact open cache miss. Reused item identity possible; not a verified Zoom707II or HD500X price."
+      },
+      {
+        "url": "https://shopee.co.id/Efek-Gitar-Line6-POD-HD300-HD400-HD500-HD500X-i.703817770.24703618953",
+        "reason": "3699000 mixed4variants; not assignable to one model."
+      },
+      {
+        "url": "https://shopee.co.id/hardcase-harkis-koper-box-efek-pod-hd500x-i.388904100.20293698839",
+        "reason": "580000 is hardcase only, not processor."
+      },
+      {
+        "url": "https://shopee.co.id/hopemusik",
+        "reason": "Mixed G2.1Nu/G2.1u/B2.1u1699000 and707ii/708ii/GFX3 1399000 remain unassignable shop leads, not exact offers."
+      }
+    ],
+    "searches_without_exact_hardware": [
+      "BOSS GT-10B returned accessories/search page",
+      "DigiTech BP355 no exact hardware result",
+      "Line6 M13 no exact hardware result in this pass"
     ]
   }
 }
