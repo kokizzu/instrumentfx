@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-100",
-    "task": "GP-100 firmware-1.8 category census and control/USB/Global EQ restrictions saved. Resume Shopee Indonesia brand/series discovery for eligible unrecorded models; inspect existing inventory before adding. GP-100 current firmware/native NAM, display diagonal and qualified live stock remain unresolved. No downloads; commit useful model evidence before researching another.",
+    "model": "Donner Arena2000",
+    "task": "Saved Arena2000 same-item search/reopen price conflict. Continue Shopee brand/series discovery beyond tested legacy Zoom/Korg/DigiTech frontier; if no qualified new hardware, improve Arena2000 category counts or preset overwrite rules using original manufacturer-authored manual. No downloads; commit before next model.",
     "next_models": [],
     "after_queue": "335 active models across 39 brands; all partial. Technical, market, ownership and legacy migration remain incomplete; 117 compatibility files retained. No downloads/workflows/push."
   },
@@ -45303,7 +45303,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Donner Arena2000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -56800,6 +56800,12 @@
       "checked_date": "2026-10-18",
       "finding": "Firmware-1.8 manual confirms three reversible expression targets, off-state PRE/POST volume, 1–3 modules per stomp switch, independent L/R No CAB and USB Dry/Effect routing, and Global EQ USB exclusion/DSP overload restriction.",
       "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf"
+    },
+    {
+      "model": "Donner Arena2000",
+      "checked_date": "2026-10-18",
+      "finding": "Same Shopee item1087619206/22664158485 search3371200 versus reopened4257000 Habis with voucher spend1.5JT/1%; retain conflicting snapshots without current stock or used/new inference.",
+      "source": "https://shopee.co.id/Donner-Arena-2000-Pedal-Multi-Efek-Gitar-i.1087619206.22664158485"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -71114,5 +71120,23 @@
       "site:shopee.co.id \"Korg AX1G\""
     ],
     "finding": "One exact original Zoom 505 hardware lead queued. RP355 and G9.2tt results were power supplies, not eligible hardware offers. Existing 505II results do not establish original 505 identity or pricing. No result does not prove market absence."
+  },
+  "discovery_search_pass_20261018_frontier": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "Zoom 606",
+      "Korg AX1500 bass",
+      "Digitech RP350",
+      "Digitech RP355",
+      "Zoom 404",
+      "Korg AX1G",
+      "Zoom 506 bass",
+      "Korg AX10B",
+      "Digitech RP80",
+      "NUX MG-100",
+      "MOOER GE80",
+      "Donner Arena"
+    ],
+    "outcome": "No qualified unrecorded hardware admitted. Accessories and unrelated results rejected; 606/607 and MG100/Arena2000 already recorded. Exact Arena2000 price snapshot conflict retained in root record. No result is not proof of absence."
   }
 }

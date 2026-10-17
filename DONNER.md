@@ -67,6 +67,15 @@ The [official EC1790_update.pdf](https://cdn.shopify.com/s/files/1/1384/9629/fil
 [AR22]: https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf
 
 Original-manual identity:19PDFpages,DonnerArena2000 cover,©2022 DonnerTechnology;80amp/50cab/50userIR/278 headline andpanel matchmanufacturer evidence. Revision equivalence to unreadEC1790_update.pdf is unproven. OnlyoriginalPDFtext used;no generatedFAQ orrewritten guide. Historicalarchive remains unchanged.
+
+### Arena2000 — conflicting snapshots of the same Shopee item
+
+Checked 2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / conflicting indexed and reopened asks | Shop1087619206/item22664158485: search index showed **Rp3.371.200**, three-month crawl, Donner Official Store, Jakarta Barat. Opening the [same item](https://shopee.co.id/Donner-Arena-2000-Pedal-Multi-Efek-Gitar-i.1087619206.22664158485) returned **Rp4.257.000**, **Habis**, **Dengan Voucher**, spend Rp1,5JT / 1% off, three-day crawl. Keep both snapshots; the index amount does not supersede the qualified reopened observation. Seller name is not independent authentication. Condition, selected variant, bundle, warranty, current checkout stock, voucher eligibility, shipping/tax and delivered total remain unverified. Relative delivery and late-arrival compensation are not stock or discount proof. No used/new classification established. |
+
 <!-- comparison evidence ends -->
 
 ### Arena2000 — complete dated original finding
