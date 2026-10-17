@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-16",
   "research_complete": false,
-  "active_model_count": 266,
+  "active_model_count": 267,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 266,
+  "canonical_root_model_count": 267,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "266 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded;all partial. Original Dapper VES-1 guitar record added.",
+  "count_reconciliation": "267 unique active/root-canonical models;0 legacy-only;32 brands;6 excluded;all partial. Dapper MDR guitar multifx added.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Valeton Dapper MDR",
-    "task": "VES-1 manual/control gaps deferred after alternate official PDF and failed mirror access. Next read complete MDR own manual,verify exact offer and add distinct guitar multifx record with category counts/controls/routing;commit before next model.",
+    "task": "Dapper MDR added with manual categories/control derivation and axis conflict;next preserve full MOD EQ ranges and corroborate control inventory;all other gaps retained.",
     "next_models": [],
     "after_queue": "Fresh Shopee brand/series discovery;retain all prior gaps;no downloads/workflows/push."
   },
@@ -23879,7 +23879,8 @@
       "Dapper Dark VES-3",
       "Dapper Dark Mini",
       "Dapper Indie",
-      "Dapper VES-1"
+      "Dapper VES-1",
+      "Dapper MDR"
     ],
     "VING": [
       "Flybro FB-100"
@@ -24024,7 +24025,8 @@
       "Dapper Dark VES-3",
       "Dapper Dark Mini",
       "Dapper Indie",
-      "Dapper VES-1"
+      "Dapper VES-1",
+      "Dapper MDR"
     ],
     "MOOER.md": [
       "GE250",
@@ -24329,7 +24331,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 217,
+      "record_count": 218,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -41292,10 +41294,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 266,
-    "canonical_root_models": 266,
+    "unique_brand_model_pairs": 267,
+    "canonical_root_models": 267,
     "legacy_only_models": 0,
-    "guitar_view_models": 217,
+    "guitar_view_models": 218,
     "bass_focused_models": 23,
     "vocal_only_models": 22,
     "vocal_view_models": 50,
@@ -41355,7 +41357,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper VES-1."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper MDR."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -41503,6 +41505,7 @@
       "Valeton::Dapper Dark Mini",
       "Valeton::Dapper Indie",
       "Valeton::Dapper VES-1",
+      "Valeton::Dapper MDR",
       "VING::Flybro FB-100",
       "Zoom::G1 FOUR",
       "Zoom::G1X FOUR",
@@ -43184,6 +43187,13 @@
     },
     "Valeton::Dapper VES-1": {
       "link": "VALETON.md#dapper-ves-1",
+      "source_files": [
+        "VALETON.md"
+      ],
+      "finding_files": []
+    },
+    "Valeton::Dapper MDR": {
+      "link": "VALETON.md#dapper-mdr",
       "source_files": [
         "VALETON.md"
       ],
@@ -55689,5 +55699,11 @@
     "eligibility": "Own product identifies independent modulation,delay,reverb sections;effects-only multifx qualifies. Dedicated Dapper Looper Mini does not qualify merely through loop memories.",
     "primary_lead": "Official indexed own manual lists9modulations,3delays,3reverbs,25–2000ms delay,150mA9Vcenter-negative,197×65×42mm417g;verify full source before canonical addition. Product delay prose duplicates reverb description,so preserve own-page copy issue.",
     "limits": "Historical indexed ask,notlivecheckout;condition,variant,bundle,authenticity,warranty,shipping/tax/vouchers unverified. No download."
+  },
+  "dapper_mdr_primary_checkpoint_20261017": {
+    "added": true,
+    "manual": "https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf",
+    "access": "2-page current official PDF text read;no download/visual inspection.",
+    "remaining": "MOD EQ ranges,control diagram corroboration/buttons/expression,full IO/memory,simultaneous limits,power barrel/battery/USB,IR/editor,condition-qualified prices,bass/vocal."
   }
 }

@@ -1048,3 +1048,40 @@ Official Dapper_Manual_EN_V01_160111 resolves to2-page PDF without extracted tex
 [VES1-P]: https://www.valeton.net/product/dapper/
 [VES1-M]: https://www.valeton.net/download/172/dapperdiscontinued/18458/dapper_manual_en_v01_160111-2.pdf
 [VES1-O]: https://shopee.co.id/Valeton-Dapper-VES-1-Effect-Strip-Full-Set-i.821383657.23453728698
+
+## Dapper MDR
+
+Checked2026-10-17;partial. Effects-only guitar multi-effects;discontinued. Bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. [Manual][MDR-M] |
+| K/F/B | Text-derived10 rotary controls:MOD5,DELAY3,REVERB1,PHONES1;3 module footswitches. Four type toggles separate;button total/panel corroboration pending. [Manual][MDR-M] |
+| Display | Tuner:7 bicolor note LEDs,blue natural/green sharp;3 pitch LEDs,red flat/sharp,green tuned. Screen diagonal/touch unresolved. [Manual][MDR-M] |
+| Processing / categories | Three sections;MOD9 choices:triangle chorus,jazz chorus,flanger,Phase90,green phaser,Uni-Vibe,tube tremolo,Tremulator,BBD vibrato. DELAY3:PURE/ANALOG/TAPE;REVERB3:ROOM/HALL/PLATE. Simultaneous ceiling requires corroboration. [Manual][MDR-M] |
+| Preset memory | Factory/user/total memories unverified. [Manual][MDR-M] |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. [Manual][MDR-M] |
+| I/O | INPUT,OUTPUT,PHONES;connector sizes/balancing/full inventory unresolved. Input1MΩ/output1kΩ. [Manual][MDR-M] |
+| Power / battery / USB | 9VDC center-negative;150mA. Barrel,battery/USB operation unknown. [Manual][MDR-M] |
+| Dimensions / mass | 197×65×42mm;417g. Manual labels D/W/H,product W/D/H:axes conflict retained. [Manual][MDR-M] |
+| IR / NAM / capture | User IR/native NAM/converted NAM/proprietary capture unverified. [Manual][MDR-M] |
+| Editor / platforms | Editor/updater OS unverified. [Manual][MDR-M] |
+| Live / operation | Hold MOD/DELAY switches for tap;hold again returns knob control. Delay25–2000ms. Hold REVERB toggles trails;4 LED pulses confirm. DELAY+REVERB held enables muted tuner. Looper/drums/scenes unverified. [Manual][MDR-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp1.800.000**,TokoGitarBagusTangerang,shop141177049/item2861386191,Kota Tangerang;two-week indexed crawl,**Habis**. Checked2026-10-17;historical ask,not live stock/checkout. | [Item][MDR-O] |
+
+<!-- comparison evidence ends -->
+
+No qualified used/new allocation. Variant,bundle/supply,working condition,authenticity,warranty,shipping/tax/vouchers unresolved.
+
+Official product DELAY prose duplicates reverb;own manual used to distinguish them. Old /122/dapper/18034 PDF URL now says incorrect download URL;current product link yields readable2-page V01_181108 PDF. No filesystem download or visual inspection. Full MOD EQ ranges remain to transcribe.
+
+[MDR-P]: https://www.valeton.net/product/dapper-mdrdiscontinued/
+[MDR-M]: https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf
+[MDR-O]: https://shopee.co.id/Valeton-Dapper-MDR-Effects-Strip-Guitar-Effect-i.141177049.2861386191
