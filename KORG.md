@@ -363,11 +363,11 @@ Checked2026-10-17;partial. Guitar scope; bass/vocal suitability and ownership un
 | Expression | Built-in pedal controls23pedal-effect types;firm toe press switchesPedal effect on/off. External support pending. | [Manual p3][AX100-M] |
 | K/F/B | **7rotary /2footswitches /12buttons**,text-derived:TYPE,VALUE1–5,rearMASTER;DOWN/UP;8selectbuttons,PROG/FXSELECT,WRITE,EXIT,TAP. Rearinput-level switch separate;visual corroboration pending. | [Manual p4][AX100-M] |
 | Display | Backlit LCD;diagonal,color/touch pending. | [Manual p3][AX100-M] |
-| Processing / categories | **63types;up to7simultaneous effects**,plusrhythm. Per-category choices pending. | [Manual pp3,12][AX100-M] |
+| Processing / categories | **63types;up to7simultaneous effects**,plusrhythm. Category alternatives are enumerated below; algorithm exclusions still apply. | [Manual pp3,12][AX100-M] |
 | Preset memory | **40preset+40user=80programs**;factoryusercontentsduplicatepresets. | [Manual pp3,5][AX100-M] |
 | Synth / acoustic | Acoustic Guitar simulation documented;dedicatedsynth pending. | [Manual p12][AX100-M] |
 | I/O | Mono guitarinput,stereominiAUX,sharedstereophone line/headphoneoutput. Otherconnections pending. | [Manual p12][AX100-M] |
-| Power / battery / USB | **9VDC adapter or4AA alkaline;estimated12h**. Current,polarity,USBoperation pending. | [Manual p12][AX100-M] |
+| Power / battery / USB | **9 V DC adapter or 4 AA alkaline; estimated 12 h**. Korg lists **KA181** as the compatible adapter. Unit current draw, polarity and USB operation remain unverified. | [Manual p12][AX100-M]; [Korg adapter table][AX100-A] |
 | Dimensions / mass | **329.6W×181.5D×57.5H mm;1.05kg excludingbatteries**. | [Manual p12][AX100-M] |
 | IR / NAM / capture | IR import,native/converted NAM andproprietarycapture pending. | Unresolved |
 | Editor / platforms | Officialeditor/currentOS support pending. | Unresolved |
@@ -375,6 +375,7 @@ Checked2026-10-17;partial. Guitar scope; bass/vocal suitability and ownership un
 | Looper / Sample and Play | SAMPLE1/SAMPLE2/LOOP1/LOOP2 use3s high-quality or6s extended recording. Audio is erased byeffect-type/program change,PhraseTraineruse orpoweroff. SAMPLE1/2cannotstoprecordingearly;SAMPLE2addsreverseplayback. LOOP1pedalcontrolsplaybackvolume/restart;LOOP2controlslooplength. Overdubnotestablished. | [Manual p15][AX100-M] |
 | Categories / DRIVE and MOD | DRIVE10:Acoustic,Classic Comp,Tube OD,Classic Dist,Fat Dist,Metal Dist,Big Fuzz,Top Boost,US Hi-Gain,Brit Stack;OFF separate. MOD16:Chorus,Flanger,Phaser,Tremolo,Pan,Wah Up/Down,Pitch,Maj3Up/Down,Min3Up/Down,4th,5th,Maj6th,Slow Attack. Types are alternatives within each section. | [Manual pp12–13][AX100-M] |
 | Processing / exact exclusions | Intelligent harmony requires single notes and excludes PEDAL exceptVolume and AMB Room1–Arena. PEDAL Cho1–Pitch excludesMOD;Feedback1/2 excludesAMB Room1–Arena;PEDAL Delay–Hall excludesAMB;Sample1–Loop2 excludesMOD andAMB. Conflicting selection switches the previous effect off. Feedback also requires DRIVE other thanOff,Acoustic,Classic Comp. | [Manual pp13–14][AX100-M] |
+| Categories / PEDAL | **23 alternatives**: Volume, Chorus 1/2, Vibrato (table label VIBRATE), Flanger, Phaser, Tremolo, Pan, Wah, Filter, Ring, Pitch, Feedback 1/2, Delay, Echo, Room, Garage, Hall, Sample 1/2 and Loop 1/2. These are choices within one section, not 23 simultaneous blocks. | [Manual p14][AX100-M] |
 | Categories / ambience and cabinets | AMB7choices:Delay,Room1,Room2,Garage1,Garage2,Hall,Arena. Delay10ms–2s withtap;not7simultaneousambiences. CABI6:1×8,1×10,1×12,2×12,4×10,4×12. CabinetmodelsdonotestablishuserIRimport. | [Manual pp15–16][AX100-M] |
 | Practice / Phrase Trainer | Records up to **8 seconds from AUX IN or GTR IN**. Playback slows from 100% to 25% in 5% steps without pitch change. MOD, PEDAL and AMB turn off temporarily; expression controls guitar volume. Guitar editing is unavailable. Exiting trainer or powering off erases the recording. | [Manual p8][AX100-M] |
 | Processing / shared restrictions | Some MOD/PEDAL or PEDAL/AMB combinations cannot coexist: enabling one automatically disables the other. Seven-effect ceiling does not guarantee every algorithm combination. Specific exclusions are documented below. | [Manual pp7,10][AX100-M] |
@@ -394,3 +395,5 @@ Condition,workingstate,bundle,adapter,authenticity,warranty,shipping,tax,voucher
 
 [AX100-M]: https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B
 [AX100-O]: https://shopee.co.id/Efek-Gitar-Korg-AX100G-AX1500G-AX3000G-AX3G-i.22551702.3568008855
+
+[AX100-A]: https://www.korg.com/jp/support/adapter/
