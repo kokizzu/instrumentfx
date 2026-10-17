@@ -493,7 +493,7 @@ def main():
         if mode == 'commit-ax1000g':
             message = 'research(korg): preserve second AX1000G sold-out offer separately'
         if mode == 'commit-ve20-followup':
-            message = 'research(boss): enumerate VE500 FX and reverb engine choices'
+            message = 'research(boss): qualify VE500 software support and firmware changes'
         if mode == 'commit-g71ut':
             message = 'research(zoom): reconcile G7.1ut category inventory to 92 effects'
         if mode == 'commit-gfx4':

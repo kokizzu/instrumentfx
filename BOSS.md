@@ -334,11 +334,14 @@ Original sources: [source](https://www.boss.info/global/products/ve-500/specific
 | Routing / live | Four FX structures:SERIES,PARA+SER,2PARALLEL,4PARALLEL. Reverb structures:SERIES,PARALLEL,SEPARATE. Tuner sources MIC,INST or both;reference435–445Hz. Vocal tuner output can BYPASS,DRY(Enhance),LEAD(Enhance+Pitch Correct),orMUTE. [VE500-M] |
 | Looper | **60s mono/30s stereo**;content lost on patch change,loop-mode change or poweroff. Assign loop functions to controllers;one-shot,overdub,fade and playback-decay settings. [VE500-P] |
 | Ports / power / guitar | XLR mic48V10mAmax;quarter-inch instrument in/unbuffered THRU;stereo XLR outputs with selectable-40/-10dBu;TRS CTL/EXP;DIN MIDI IN;micro-B USB;DC.310mA phantom-on/210mA off;PSA supplied. No headphone connector listed. USB audio,bus power,battery andDC polarity unverified. Legacy9V retained. [VE500-S] |
-| Editor / MIDI | Windows/Mac full editor/librarian;USB-MIDI and DIN MIDI can guide harmony/pitch. [VE500-S]USB driver required by owner manual;patch edit/name/reorder/backup distinct from firmware. [VE500-M] Current supported OS versions remain unchecked. |
+| Editor / MIDI | Windows/Mac full editor/librarian;USB-MIDI and DIN MIDI can guide harmony/pitch. [VE500-S]USB driver required by owner manual;patch edit/name/reorder/backup distinct from firmware. [VE500-M] Initial2026-10-16 OS gap;see separately dated2026-10-17 compatibility rows below. |
 | Synth / acoustic / loading | Guitar input can excite vocoder/talkbox sound;THRU remains unprocessed. [VE500-S] This does not establish guitar amp/acoustic multifx,IR,native NAM,converted NAM or capture loading. |
 | Categories / FX1–4 inventory | **20 alternatives per engine**:Distortion,Radio,Lo-Fi,Filter,T.Wah,Ring Modulator,Chorus,Flanger,Tremolo,Phaser,Rotary,Slicer,Isolator,Vibrato,Pan,Roll,Freeze,Granular Delay,Delay,Reverb. Same type can occupy multiple engines. These are choices,not80 simultaneous effects. [VE500-P p8] |
 | Categories / reverb engine distinction | FX Reverb has **5 types**:Ambience,Room,Hall,Plate,Mod;0.1–10s,pre-delay0–100ms. Each dedicated REV1/REV2 has those5 **plusDelay=6 choices**. Its reverb pre-delay1 is0–200ms,pre-delay2Off/0–500ms;Delay1–2000ms/BPM. Do not copy dedicated-REV ranges intoFX Reverb. [VE500-P pp13–14] |
 | Looper / location | **8 positions**:MICIN,PRE FX1/2/3/4,PRE REV1/2,OUTPUT. Position changes where loop audio is captured relative to processing;not8 independent loopers. [VE500-P p17] |
+| Editor / Windows qualification | Editor **1.00** page listsWindows10,8.1,7SP1+;requires productdriver. Separate driver **1.0.1 (Dec2021)** supportsWindows11/10x64;Win10x86 remains1.0.0. Driver excludesARM PCs,virtualWindows,Windows onMac and10Mobile. Driver11support alone does not certify editor11support. [VE500-EW];[VE500-DW] |
+| Editor / current macOS matrix | Checked2026-10-17,matrixupdatedSep16 2026:VE500 **Hardware&Driver** and **ExclusiveApplication** bothYes(Download) for15/26;27UnderTesting. Editor1.00 requires driver;Mac driver1.0.3 is listed separately. This is dedicated-software support,not class-compliant/no-driver proof. [VE500-C];[VE500-EM];[VE500-DM] |
+| Firmware / live qualifications | OwnSystemProgram1.10(Jan2025)changesAutoOff optionsOff/20min/10h,default20min. 1.07(Dec2021)fixesLEADFX withLOOP MICIN and permits knob patchselection beyondPATCH EXTENT;1.05(Jan2019)fixes some editor parameter settings;1.04(Nov2018)fixes externalMIDI withoutactive-sensing problems. Seller installedversion unknown;not claims thatcurrentfirmware retains oldbugs. [VE500-F] |
 
 [VE500-S]: https://www.boss.info/global/products/ve-500/specifications/
 [VE500-M]: https://static.roland.com/assets/media/pdf/VE-500_eng04_W.pdf
@@ -2703,3 +2706,10 @@ Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppressio
 [AD8-O]: https://shopee.co.id/BOSS-AD-8-Acoustic-Guitar-Processor-i.276974853.9817836384
 
 Sources: regional manufacturer pages and own ©2003, 28-page owner manual through web text reader. No file downloaded or device/software run. Global/US product fetches failed; regional evidence remains explicitly identified. Remaining: explicit concurrency ceiling, polarity, display details, current qualified offers and resolution of dimensions/input-impedance/current-draw conflicts.
+
+[VE500-EW]: https://www.boss.info/global/support/by_product/ve-500/updates_drivers/a0dedf0b-c774-46b5-8c15-a30ae6c28822/
+[VE500-DW]: https://www.boss.info/global/support/by_product/ve-500/updates_drivers/8efe83ff-2db5-4335-9e8b-33ee8de756ae/
+[VE500-EM]: https://www.boss.info/us/support/by_product/ve-500/updates_drivers/680789e3-b27e-42b2-8c65-ae658e28e171/
+[VE500-DM]: https://www.boss.info/global/support/by_product/ve-500/updates_drivers/61852180-129e-414b-9841-af2dc45aa7a8/
+[VE500-C]: https://www.boss.info/global/support/support_news/25090811m1/
+[VE500-F]: https://www.boss.info/us/support/by_product/ve-500/updates_drivers/9d6c0325-3ec4-438a-b4b0-13c5e0bd43ca/

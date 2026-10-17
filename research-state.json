@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS VE-500",
-    "task": "FX20inventory,FXvsREVreverbchoices/ranges and8looppositionssaved;continue unresolvedfields/newhardwarediscovery.",
+    "task": "CurrentMacmatrix,Windowsdriver/editorboundariesandversionedfirmwarefixessaved;continueothermodelgaps/freshhardwarediscovery.",
     "next_models": [],
     "after_queue": "Continue full research/discovery;no downloads,workflows orpush."
   },
@@ -60283,5 +60283,20 @@
       "site:shopee.co.id \"TC Helicon\" \"VoiceLive Touch 2\""
     ],
     "result": "VE500existingArtech/princemusicasksunchangedincache;noqualifyingnewVoiceLiveTouch2offerreturned;notabsenceproof."
+  },
+  "ve500_software_firmware_20261017": {
+    "sources": [
+      "https://www.boss.info/global/support/support_news/25090811m1/",
+      "https://www.boss.info/global/support/by_product/ve-500/updates_drivers/8efe83ff-2db5-4335-9e8b-33ee8de756ae/",
+      "https://www.boss.info/global/support/by_product/ve-500/updates_drivers/a0dedf0b-c774-46b5-8c15-a30ae6c28822/",
+      "https://www.boss.info/us/support/by_product/ve-500/updates_drivers/9d6c0325-3ec4-438a-b4b0-13c5e0bd43ca/"
+    ],
+    "findings": [
+      "Mac15/26bothdriverandappYesDownload;27testing",
+      "EditorWindows7SP1/8.1/10vsdriver10/11separate;ARMunsupported",
+      "Firmware1.10AutoOff20mindefault;versionedloop/editor/MIDIfixes"
+    ],
+    "access": "OnlyHTMLrelease/compatibilitypagesread;noarchives/firmware/softwaredownloaded;genericfirmwarebatterycautionnotbatteryoperationproof",
+    "remaining": "Windows11editorcertification,screen,otherFXsubtypes,polarity,imports,qualifiedoffers."
   }
 }
