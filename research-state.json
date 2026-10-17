@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-1",
-    "task": "GT-1 major selector counts added. Next enumerate nested FX subtypes and reconcile108headline only if counting basis proven; unresolved power/USB/display and market fields remain.",
+    "task": "GT-1 major and nested selector counts saved;108headline counting convention remains unproven. Next resolve power/USB statements from owner manual or return to fresh exact Shopee discovery; do not force a sum.",
     "next_models": [],
     "after_queue": "274partialmodels;no downloads/workflows/push;technical/market verification and legacy retirement incomplete."
   },
@@ -56643,5 +56643,18 @@
     },
     "limits": "ReverbslotincludesDelay;not8reverbs. Nested FXsubtypes and108headline unreconciled;notconcurrentcapacity.",
     "practical": "PedalBendmonophonic±24semitones;mainDelay2000ms;SubDelay1000ms;reverbslotDelay650ms;followingmono/COSMcollapsesstereodelay."
+  },
+  "gt1_nested_counts_20261017": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-1_parameter_eng02_W.pdf",
+    "pages": "6–10",
+    "counts": {
+      "compressor": 8,
+      "limiter": 3,
+      "tone_modify": 8,
+      "guitar_simulator": 8,
+      "acoustic_processor": 4,
+      "phaser": 4
+    },
+    "limits": "Nestedchoicesnotadditionalblocks;modevsalgorithm distinctionpreventsforced108sum. Harmonistsingle-note;no blanketpitchclaim."
   }
 }

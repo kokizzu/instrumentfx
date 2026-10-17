@@ -861,7 +861,7 @@ Checked **2026-10-16**. [Manufacturer page](https://www.boss.info/global/product
 | K/F/B | **3 /3 /12**; expression toe separate. Input insertion switches power on. [GT1-P], [GT1-M] |
 | Display | **132×32 backlit graphic LCD**; monochrome appearance from previously inspected official photograph. Published diagonal and explicit touch specification remain unverified. [GT1-P] |
 | Dimensions / weight / size | **305×152×56 mm**, maximum height74 mm; **1.3 kg including batteries**. Large under repository width filter. [GT1-P] |
-| Simultaneous processing / category choices | FX1,OD/DS,PREAMP,FX2,DELAY,REVERB plus pedal/utilities; **108 types**, not108 simultaneous blocks. FX1 and FX2 can select the same effect. Parameter guide p6 gives **23 top-level FX1/FX2 choices each**: Compressor,Limiter,T.Wah,GraphicEQ,ParaEQ,ToneModify,GuitarSim,Ac.GtrSim,SlowGear,Octave,PitchShifter,Harmonist,Overtone,Feedbacker,Ac.Processor,Phaser,Flanger,Tremolo,Rotary,Uni-V,Vibrato,Chorus,SubDelay. **OD/DS22; PREAMP27; DELAY7; REVERB-slot8; PEDAL FX7**, counted from guide pp11–15. Nested FX subtypes and manufacturer-stated simultaneous ceiling remain unresolved; these counts do not reconcile the108 headline. [GT1-P], [GT1-G] |
+| Simultaneous processing / category choices | FX1,OD/DS,PREAMP,FX2,DELAY,REVERB plus pedal/utilities; **108 types**, not108 simultaneous blocks. FX1 and FX2 can select the same effect. Parameter guide p6 gives **23 top-level FX1/FX2 choices each**: Compressor,Limiter,T.Wah,GraphicEQ,ParaEQ,ToneModify,GuitarSim,Ac.GtrSim,SlowGear,Octave,PitchShifter,Harmonist,Overtone,Feedbacker,Ac.Processor,Phaser,Flanger,Tremolo,Rotary,Uni-V,Vibrato,Chorus,SubDelay. **OD/DS22; PREAMP27; DELAY7; REVERB-slot8; PEDAL FX7**, counted from guide pp11–15. Nested types: **Compressor8,Limiter3,ToneModify8,GuitarSimulator8,Ac.Processor4,Phaser4**. Subtypes are not independent blocks; manufacturer-stated simultaneous ceiling and108 counting basis remain unresolved. [GT1-P], [GT1-G] |
 | Factory / user / total memory | **99 preset +99 user =198**. [GT1-P] |
 | Synth / acoustic | **AC.GUITAR SIMULATOR**, pickup/body GUITAR SIMULATOR and **AC.PROCESSOR** for electro-acoustic pickups. OVERTONE adds harmonics; this does not prove a general synth engine. [GT1-G] |
 | IR / NAM / capture | No third-party IR loader, native NAM, converted NAM or proprietary capture import established. Factory speaker simulations are distinct from user IR import. |
@@ -901,6 +901,10 @@ GT-1 parameter follow-up checked2026-10-17: own Parameter Guide/Sound List ©201
 ### GT-1 — selector-count qualifications
 
 Checked2026-10-17 against [own parameter guide][GT1-G], pp11–15. Delay choices: Standard,Pan,Reverse,Analog,Tape,Modulate,TeraEcho. Reverb slot: Ambience,Room,Hall1,Hall2,Plate,Spring,Modulate,**Delay**. Pedal: CryWah,VoWah,FatWah,LightWah,7StrWah,ResoWah,PedalBend. PedalBend is single-note,±24semitones; chords unsupported. Main delay reaches2000ms,FX SubDelay1000ms,reverb-slot Delay650ms. A following mono effect/COSM amp collapses stereo delay. Counts represent alternatives, not extra concurrent blocks; nested compressor/limiter/etc. types still need separate accounting.
+
+### GT-1 — nested selector evidence
+
+Checked2026-10-17, [own guide][GT1-G] pp6–10: Compressor8 (BOSS,Hi-Band,Light,D-Comp,Orange,Fat,Mild,Stereo); Limiter3 (BOSS,Rack160D,VtgRackU); ToneModify8 includes Resonator1/2/3 separately; GuitarSimulator8 pickup/body transformations; AcousticProcessor4 (Small,Medium,Bright,Power); Phaser4 (4/8/12Stage,BiPhase). T.Wah has LPF/BPF modes and Up/Down response; Chorus has Mono/Stereo1/Stereo2; SubDelay has Mono/Pan. Mode switches, continuous parameters and nested types must not be indiscriminately summed with top-level effects. Harmonist requires single-note playing; this restriction is not generalized to every pitch effect.
 
 ## GX-1
 
