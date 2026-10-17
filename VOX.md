@@ -162,6 +162,15 @@ Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass s
 | Expression / independent initialization | EXP1INIT/EXP2INIT are separate, global and automatically remembered. OFF applies current pedal position on program change; ON recalls the saved sound. Per-program target/MIN/MAX settings require saving; changing target resets its range. | [Japanese pp51–53][TLSE-M] |
 | Expression / Quick Assign | Hold EXPRESSION1s to assign the displayed eligible parameter to pedal1; hold CONTROL1s for pedal2. Changing the effect clears its target except amp targets and delay/reverb input levels. An off target effect cannot be controlled. | [Japanese pp50–52][TLSE-M] |
 | Expression / calibration | Use a **hand**. Power on with EXPRESSION+CHAIN for pedal1, CONTROL+CHAIN for pedal2. Move fully back, release, GLOBAL; move fully forward, release, GLOBAL. EXIT cancels; ERROR restarts at MIN. No hardware operation performed. | [Japanese p55][TLSE-M] |
+
+### ToneLab SE — channel recall and performance limits
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Memory / channel hold | Global CH HOLD: OFF recalls the destination program’s saved A/B channel; ON retains the current channel across program changes. Factory default OFF. | [Japanese p16][TLSE-M] |
+| Live / effects mode and key lock | Effects mode assigns switches1–4 to PEDAL/MOD/DELAY/REVERB and BANK DOWN to INSERT; BANK UP is inactive. With no external insert connected, INPUT remains active regardless of INSERT LED. Holding EXIT1s toggles key lock; pedals and EXIT remain operable. Power cycling clears the lock. | [Japanese pp15–17][TLSE-M] |
+| Processing / chain orders | Six serial MOD/DELAY/REVERB permutations, saved per program: MD-DL-RV, MD-RV-DL, DL-MD-RV, DL-RV-MD, RV-MD-DL, RV-DL-MD. | [Japanese p20][TLSE-M] |
+| Live / tap factors | MOD TAP/DLY TAP factors:1/6,1/4,1/3,1/2,2/3,3/4,1,4/3,3/2,2,3,4. Tap interval maximum10s, not a delay-time limit. Other CONTROL targets ignore FACTOR; changing target resets it to1. | [Japanese p54][TLSE-M] |
 <!-- comparison evidence ends -->
 
 ### Condition-unverified sold-out Shopee hardware

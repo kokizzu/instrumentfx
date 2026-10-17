@@ -584,7 +584,7 @@ def main():
         if mode == 'commit-stomplab2b':
             message = 'research(vox): preserve StompLab 2B sold-out variant and voucher ambiguity'
         if mode == 'commit-tonelab-se':
-            message = 'research(vox): qualify ToneLab SE converters and dual pedal controls'
+            message = 'research(vox): qualify ToneLab SE channel hold and performance limits'
         if mode == 'commit-tonelab-st':
             message = 'research(vox): distinguish ToneLab ST calibration switching force and reset'
         if mode == 'commit-tonelab-le':
