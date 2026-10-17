@@ -1463,3 +1463,7 @@ research-commit-hd500x:
 .PHONY: research-commit-amplifi-fx100
 research-commit-amplifi-fx100:
 	python3 scripts/research_tools.py commit-amplifi-fx100
+
+.PHONY: research-commit-bass-vamp
+research-commit-bass-vamp:
+	python3 scripts/research_tools.py commit-bass-vamp
