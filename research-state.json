@@ -62064,5 +62064,15 @@
       "scope": "Allsettingsincludingpatches; notselectiverestore"
     },
     "next": "Physical controls; qualify current condition-specific offers; broader discovery"
+  },
+  "g3n_external_pedal_20261017": {
+    "source": "https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf",
+    "page": 41,
+    "findings": [
+      "G3n-onlyconnectedpedalmenu",
+      "MENU EX PDL -> EXT PEDAL ON/OFF;ONenablespedaleffect"
+    ],
+    "limits": "No toe/multipleassignment/dualpedal/G3Xncalibrationtransfer",
+    "next": "Physical control inventory and qualified current offers; broaden fresh Shopee series discovery"
   }
 }
