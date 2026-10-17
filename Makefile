@@ -1887,3 +1887,7 @@ research-commit-ax100g:
 .PHONY: research-commit-g1four-market
 research-commit-g1four-market:
 	python3 scripts/research_tools.py commit-g1four-market
+
+.PHONY: research-commit-g1xfour-followup
+research-commit-g1xfour-followup:
+	python3 scripts/research_tools.py commit-g1xfour-followup
