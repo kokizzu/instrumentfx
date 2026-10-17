@@ -240,3 +240,15 @@ Original manufacturer-hosted manual’s indexed text identifies GO RIG II,matchi
 [GR2-M]: https://www.soranaudio.com/upload/files/article/20251124/17639478809117099.pdf
 [GR2-CN]: https://www.soranaudio.com/cn/products/14.html
 [GR2-S]: https://shopee.co.id/Soran-GO-RIG-II-Electric-Guitar-Multi-effects-Stompbox-Soran-JCMS-G3B-i.195817632.25136364635
+
+### Go Rig II — electrical and source-access follow-up
+
+Checked 2026-10-18. The [current support page](https://www.soranaudio.com/Download.html) links the same original manual URL already retained as [GR2-M]; its storage-host route returned 403. Indexed original text remains the evidence basis, not an inspected PDF image.
+
+| Field | Published qualification |
+|---|---|
+| Audio conversion / processing | 44.1 kHz sampling, 24-bit AD converter and 24-bit processing. Response 20 Hz–20 kHz; noise −98.7 dBu; dynamic range 96.5 dB. These are analog/processing specifications, not evidence of USB audio or a separately verified DAC format. [GR2-P],[GR2-M] |
+| Audio levels / ports | Input impedance 1 MΩ; published output impedance 10 kΩ. Maximum input/output levels and measurement conditions remain unverified; retain the output figure without substituting another model’s value. [GR2-P],[GR2-M] |
+| Power / battery indicators | Indexed manual: green above 25%, flashing green below 25%; red while charging, green when full. Behavior at exactly 25%, shutdown threshold and charge duration are not specified in inspected text. This is not a charging-while-playing test. [GR2-M] |
+
+The exact [CH MUSIC offer][GR2-S] now opens directly with the same two-month cached Rp1,040,000 ask. No used/new condition, stock or bundle confirmation is added; relative delivery remains insufficient. This access check does not replace the original observation date or create a second price point.
