@@ -1972,7 +1972,7 @@ Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Owne
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in/externalcontinuous/toeexpression unverified;CTL1,2 supportsoptionalFS-5U/FS-6/FS-7 switches. | [Product][VE5-P] |
+| Expression | Built-in/externalcontinuous/toeexpression unverified;CTL1,2 supportsoptionalFS-5U/FS-6/FS-7 switches. CTLmenuincludesfavoriteincrement/decrement,LoopPlay/LoopStop;settingsglobal ratherthanpersound. | [Product][VE5-P];[Officialmanual p15][VE5-PDF] |
 | K/F/B | **2rotary/0built-infootswitches/10buttons**,text-derived:SOUND+sideVOLUME;MENU,2cursor,EXIT,LOOP,3FAVORITE,EFFECT,HARMONY. POWERbutton additional. | [Officialmanual p9][VE5-PDF];[Originalmanual pp9,13 mirrored][VE5-COPY] |
 | Display | **16characters×2lines backlitLCD**;diagonal,color,touch unknown. | [Product][VE5-P] |
 | Processing / category choices | Sixcategories:Dynamics,PitchCorrect,Tone/SFX,Double/Harmony,Delay,Reverb. Independentlyswitchableeffectcategories;exactmaximum notexplicitlycertified. PitchCorrect5types,Tone/SFX6types,reverb5types;delay1–4000ms. HarmonybuttonCUSTOM togglesmultiplechosencategories. | [Product][VE5-P];[Officialmanual pp16–17][VE5-PDF] |
@@ -1983,7 +1983,7 @@ Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Owne
 | Power / battery / USB | **9VDC190mA(max),optionalPSA;4AAalkaline/NiMH**. Runtimealkaline13h/6h,NiMH20h/9h(phantomoff/on),conditional. Polarity/USBpower unverified. | [Product][VE5-P] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
 | Editor / software | Officialeditor/platformsupport unverified. | Unresolved |
-| Looper / drums / live | **38smono phrase loop**,FavoriteSoundrecall,micstandmount. Loopretention/routing,drums/scenes pending. | [Product][VE5-P] |
+| Looper / drums / live | **38smono phrase loop**,FavoriteSoundrecall,micstandmount. Perform(default)recordsprocessedvoice+overdubs;Checkrecordsdry/appliesFXonplayback anddisablesoverdub. AUXnotrecorded;powerofflosesloop. EXITduringplay/overdubstops;EXITwhilestoppedclears. Loop/systemsettingspersistacrosssoundchanges;thisdoesnotcertifyuninterruptedlooponsoundchange. Drums/scenes pending. | [Product][VE5-P];[Officialmanual pp8,15][VE5-PDF] |
 
 ### Separate IDR hardware offers
 

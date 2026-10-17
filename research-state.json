@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-5 loop and routing limits",
-    "task": "Use indexedofficialVE-5_OM.pdf pp8/15 tocheckPerform/Checkrouting,loopretention/soundchanges andexternalCTL. Controls/memory/categoryaudit saved;do not repeat.",
+    "model": "Fresh discovery or VE-5 remaining source gaps",
+    "task": "VE5loopmodes/retention/CTLglobal saved;do not repeat. Resume exactShopee bass/vocal/guitar missingmodels orremainingofficial technicalfields. Commitbefore nextmodel.",
     "next_models": [],
-    "after_queue": "FreshShopee discovery;no downloads/workflows."
+    "after_queue": "No downloads/workflows;unknownnotNo."
   },
   "new_findings": [
     {
@@ -40598,7 +40598,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-5 loop and routing limits."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery or VE-5 remaining source gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -49368,6 +49368,14 @@
       "access": "OfficialPDFsize-limit12638205bytes;indexedofficialpp9,16–17;manufacturer-authored2012mirrorpp9,13 memorydetail;notAIgeneratedFAQs.",
       "finding": "2rotary0foot10buttons+power,textderived;50sounds30factoryfilled;3favoritesassignmentsnotextra. Pitch5ToneSFX6Reverb5,delay1–4000ms;CUSTOMmultipletoggle.",
       "remaining": "Explicitsimultaneousceiling,looprouting/retention,polarity,screen diagonal/color/touch,imports/editor,conditionvariant/stock."
+    },
+    {
+      "model": "BOSS VE-5",
+      "checked_date": "2026-10-17",
+      "source": "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf",
+      "pages": "8,15 indexedmanufacturertext",
+      "finding": "Performwetrecordoverdub;CheckdryrecordFXplayback,nooverdub;AUXnotrecorded;powerofflost. EXITstopthenclear. CTLfavorite+/−/loopplaystop;globalsettingsnotpersound.",
+      "remaining": "Uninterruptedlooponsoundchange unverified;expressioncontinuous/polarity/screen/import/editor,qualifiedpriceconditionvariant/stock."
     }
   ],
   "discovery_cross_brand_bass": {
