@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery after GFX-4",
-    "task": "GFX-4 control follow-up:10rotary text-derived;buttoncount stillpending. ExplicitSTORE,mode-specificbypass,tuner andNRsettings saved. Do not repeatfailedexactHopeMusic query withoutnewlead;continuefreshdiscovery orotherprimarygaps.",
+    "model": "Fresh discovery after RP90 operating follow-up",
+    "task": "RP90 reset/calibration,tuner,bypass,library-count distinctions andanalogratings saved. ContinuefreshShopee hardwarediscovery orotherprimarygaps;do not re-add190models.",
     "next_models": [],
     "after_queue": "No downloads/dependencies/workflows;commit eachmodel before next."
   },
@@ -40449,7 +40449,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery after GFX-4."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery after RP90 operating follow-up."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -48868,6 +48868,13 @@
       "source": "https://zoomcorp.com/media/documents/E_GFX4.pdf",
       "finding": "Printedpp5,11,17 establish3parameterknobs per3FXpanels plusmaster=10rotary;text-derived,visualpending. ExplicitSTORErequired;presettarget/SWAPrestrictions,bypass/mute mode-specificswitch,tunerreset,ZNRandpatchlevel documented.",
       "remaining": "Physicalbutton total unresolved;TYPE DOWN/UP key directions not silently treated as separate physical controls. ExactHopeMusic selleritem searchstillfailed;noqualifiedprice. Continuefreshdiscovery/otherprimarygaps."
+    },
+    {
+      "model": "DigiTech RP90",
+      "checked_date": "2026-10-17",
+      "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP90_User_User_Manual.pdf",
+      "finding": "Manual accessed throughofficialindex304 afterdirectopenfailure. Distinguishpreservingstandalonecalibration vsdestructivefactoryreset;20toneand20effectlibraryconfigurationsnotextraalgorithms;buttondisabledinbypass,tunerexpressionvolumeoverride,analogoutputratings/24bit44.1conversion.",
+      "remaining": "Imports/editor,battery/draw,screen,external/toeswitch,currentqualifiedhardwareoffers andexistingChorusFXcountconflictremain."
     }
   ],
   "discovery_cross_brand_bass": {

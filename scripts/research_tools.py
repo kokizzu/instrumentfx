@@ -341,7 +341,7 @@ def main():
         if mode == 'commit-gfx3':
             message = 'research(zoom): add GFX-3 and preserve module-count conflict'
         if mode == 'commit-rp90':
-            message = 'research(digitech): add RP90 with own manual and qualified faulty offer'
+            message = 'research(digitech): clarify RP90 calibration reset and tuner behavior'
         if mode == 'commit-ax10g':
             message = 'research(korg): verify AX10G simultaneous architecture and guide conflict'
         if mode == 'commit-g3x':

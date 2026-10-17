@@ -129,18 +129,19 @@ Guitar multi-effects;distinct fromRP80/RP55/BP90. Checked2026-10-17;partial. Bas
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in pedal,per-preset assignment,min/max;pre/post-delay volume,wah,Whammy,YaYa and parameters. External/toe-switch support unverified. | [Manual pp32–33][RP90-M] |
+| Expression | Built-in pedal,per-preset assignment,min/max;pre/post-delay volume,wah,Whammy,YaYa and parameters. Separate calibration preserves user presets;factory reset erases them and automatically enters calibration. External/toe-switch support unverified. | [Manual pp32–35][RP90-M] |
 | K/F/B | **0 rotary /2 footswitches /10 front buttons**, plus rear Amp/Mixer push switch. Front:four library/level,Edit pair,Value pair,Drums,Store. Text-derived;visual corroboration pending. | [Manual pp6–11][RP90-M] |
 | Display | Two-character parameter/preset display plus LED matrix;diagonal,color,touch unverified. | [Manual pp9,32][RP90-M] |
 | Dimensions / mass | **6.5L×8.5W×2H inches;1.52lb** unit. | [Manual p36][RP90-M] |
 | Processing / category choices | **9 simultaneous**. Pickup/Wah5 choices:two pickup simulations,three wahs;compressor1;Amp/Distortion12amps+6drives+acoustic;EQ1;Gate2;ChorusFX table15 versus prose12;Delay4;Reverb3. Variations are parameter settings,not additional models. | [Manual pp21–31,36][RP90-M] |
-| Factory / user memory | **100=50user+50factory**,users initially duplicate factory. STORE required;unsaved edits lost on patch/power change. | [Manual pp5,18][RP90-M] |
+| Factory / user memory | **100=50user+50factory**,users initially duplicate factory. STORE required;unsaved edits lost on patch/power change. Tone Library20 configurations andEffects Library20 chains are editing shortcuts,not extra algorithms or memory locations. | [Manual pp4–8,18,38–39][RP90-M] |
 | Synth / acoustic | Acoustic simulator confirmed;YaYa/AutoYa do not establish synthesizer architecture. | [Manual pp24,28][RP90-M] |
 | I/O | ¼TS guitar input500kΩ;L/mono+R¼outputs;⅛stereo headphones;DC. No USB/MIDI/external control listed. Headphones become mono with onlyL output connected;none/both outputs retain stereo. | [Manual pp10–11,36][RP90-M] |
 | Power / battery / USB | **9VDC center-negative**. PS200R300mA orPS0913DC1300mA supply ratings,not draw. FAQ confirmsPS0913DC2.1mm pin. Battery/USB power unverified. | [Manual p37][RP90-M];[FAQ][RP90-F] |
+| Analog levels / conversion | Outputs500Ω per side,maximum+7dBu;headphones17.4mW/channel into50Ω. A/D/A24-bit,44.1kHz;does not establish USB audio. | [Manual p36][RP90-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. Factory cabinets do not establish imports. | Unresolved |
 | Editor / software | Editor/platforms unverified;onboard editing documented. | [Manual p17][RP90-M] |
-| Looper / drums / live | **40 drum patterns,40–240BPM**;settings global. Whammy moves beforeamp. Looper,scenes,trails unverified. | [Manual pp29,34][RP90-M] |
+| Looper / drums / live | **40 drum patterns,40–240BPM**;settings global. Whammy moves beforeamp. Both footswitches:release=bypass (buttons disabled),hold2s=tuner;either exits. Tuner initially mutes,but rocking expression restores volume. References440Hz/Ab/G/Gb. Looper,scenes,trails unverified. | [Manual pp2–3,7,29,34][RP90-M] |
 
 ### Separate IDR hardware offers
 
