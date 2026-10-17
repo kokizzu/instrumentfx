@@ -26,6 +26,15 @@ K/F/B means rotary controls / main footswitches / separate buttons; encoder pres
 | USB / electrical I/O | Manual p29:**USB2.0Type-C,44.1kHz16/24bit recording**;24bitA/D/A,110dB SNR(weighting unspecified). Input¼TS1MΩ;AUX⅛TRS10kΩ;L/R¼TS unbalanced1kΩ;phones⅛TRS47Ω. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) |
 | Looper / routing | Manual pp9–10:**Pre90s mono dry;Post45s stereo effected**. USBrecordDry/Wet perL/R;record−20…+20dB,monitor−20…+6dB;globalNoCAB independently bypasses cabinet peroutputside. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) |
 
+### Matribox exact Shopee IDR offers
+
+Checked2026-10-17. Both pages identify original QME-50 hardware and show **Habis**;condition and firmware language remain unverified. Neither establishes English/global stock or a used/new range.
+
+| Condition / offer | Amount IDR | Exact seller and access qualifications |
+|---|---:|---|
+| Unknown condition/language;**Habis** | **Rp1.799.500** | [MICKEY MOUSE SHOP,shop19700013/item23073934646](https://shopee.co.id/Efek-Gitar-SONICAKE-Matribox-QME-50-Multi-Effects-Processor-Pedal-i.19700013.23073934646);directretrieval,lastweekcrawl. Direct page KotaJakartaUtara versus older search KotaJakartaPusat;retain discrepancy. Bundle,variant,warranty/shipping/tax unconfirmed. Delivery compensation voucher is not price discount or stock proof. |
+| Unknown condition/language;**Habis** | **Rp2.115.000** | [LOBAJET,shop70636842/item26833926430](https://shopee.co.id/SONICAKE-MATRIBOX-QME-50-Multi-Effects-Processor-Pedal-Efek-Gitar-dari-SONICAKE-i.70636842.26833926430),KotaJakartaBarat;directretrieval,montholdcrawl. Earlier4monthsearchcache **Rp2.095.650** differs;not a verified price history. Same seller as retained Jakmall CN offer does not establish this Shopee unit’s language. Bundle,variant,warranty/shipping/tax unconfirmed. |
+
 ### Matribox — regional IDR and firmware evidence
 
 Used **?**; English/global new price **?**. [Jakmall/LOBAJET](https://www.jakmall.com/lobajet/sonicake-matribox-qme-50-multi-effects-processor-pedal) was indexed **Rp2.095.650**, explicitly **Chinese/CN-language and preorder**, with a seller warning that language cannot be changed. This is a particular seller's variant claim, not proof all QME-50 units share that restriction. Do not mix it into an English/global price range or assume global firmware is safe for that unit. Warranty,accessories,taxes,shipping and stock remain unverified. Unresolved used-category snippets were not promoted to a dependable used price.

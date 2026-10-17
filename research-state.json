@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox QME-50",
-    "task": "Original Matribox bass/conversion/power/USB/looper evidence saved. Continue display/category/qualifiedregionaloffers orfreshdiscovery;retain CN-languagevariant warning.",
+    "task": "Original Matribox exact sold-out Shopee asks saved;language/condition unresolved. Continue fresh brand/series discovery and technical gaps;do not conflate LOBAJET Shopee with Jakmall CN-language evidence.",
     "next_models": [],
     "after_queue": "Continue catalogue research;no downloads,workflows orpush."
   },
@@ -60568,5 +60568,35 @@
     "identity": "Own31page firmware1.1.0manual cover;PDFmetadataold1.0.4doesnotoverridecover",
     "remaining": "Screen,touch,externalexpression,fullcategorycounts,architecturelimits,batteryUSBpower,qualifiedregionaloffers.",
     "access": "BrowserHTML/PDFtextonly;nolocaldownload"
+  },
+  "matribox_original_shopee_20261017": {
+    "queries": [
+      "site:shopee.co.id \"SONICAKE\" \"MATRIBOX\" \"QME-50\"",
+      "site:shopee.co.id \"Sonicake\" \"Matribox\" \"bekas\""
+    ],
+    "offers": [
+      {
+        "shop": "19700013",
+        "item": "23073934646",
+        "idr": 1799500,
+        "seller": "MICKEY MOUSE SHOP",
+        "stock": "Habis",
+        "condition": "unknown",
+        "language": "unknown",
+        "access": "Directretrieval,lastweekcrawl;regionUtara vs earlierPusat"
+      },
+      {
+        "shop": "70636842",
+        "item": "26833926430",
+        "idr": 2115000,
+        "seller": "LOBAJET",
+        "stock": "Habis",
+        "condition": "unknown",
+        "language": "unknown",
+        "access": "Directretrieval,monthcrawl;older4monthsearch2095650"
+      }
+    ],
+    "qualification": "ExactQME50titles;notnewmodels,English/globalcertificationorused/newrange;JakmallCNwarningretainedbutnotsilentlytransferred",
+    "rejected_followup": "PekanBelanjaa1454120664/41650189914titlealgorithmcountsinconsistent;OneTwoThree1505062399/40277079505cached1853485holiday listing not independently verified;notpromoted."
   }
 }
