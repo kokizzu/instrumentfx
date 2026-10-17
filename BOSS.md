@@ -2164,7 +2164,6 @@ Checked2026-10-17;partial. Guitar multi-effects; bass/vocal suitability and owne
 | Used | Unverified. | — |
 | New | Unverified. | — |
 | Condition-unverified historical ask | **Rp1.700.000**,Deri_endrianto05,shop205502204/item41251758346,Kab.Pangandaran. Indexed3monthsago,marked **Habis**;checked2026-10-17. Direct open failed Cache miss;Jul7–9 delivery is historical. | [Exact Shopee hardware][GT5-O] |
-
 | Additional condition-unverified historical ask | **Rp2,600,000**,Andika Gitar Store,Kab.Tegal;shop1011773481/item41108297408. Checked2026-10-17 from2monthsearchcache;directopen Cache miss. No explicit used/new orworking-condition evidence;no stock label established. “Made in Japan” is seller wording,not inspected origin/authenticity proof. Mains variant,adapter/bundle,warranty,selectedvariant,voucher,shipping/tax andtotal unknown. Separate offer,not a revised price forDeri_endrianto05. | [Exact item](https://shopee.co.id/Efek-Boss-Gt-5-Made-in-japan-i.1011773481.41108297408) |
 
 <!-- comparison evidence ends -->
