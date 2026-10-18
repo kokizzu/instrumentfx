@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon PERFORM-V",
-    "task": "Saved importedpreset singlemodifier/combinationpriority andHITondefault fromownmanual. Dimensions/polarity stillunverified;next othermodel requiredgap orfreshbranddiscovery ratherthan repeatedPERFORMVqueries.",
+    "model": "TC-Helicon PERFORM-VK",
+    "task": "Saved own 15-page manual harmony-count conflict and LED pitch guide. Next resolve another model required field or fresh exact Shopee ID hardware lead; do not silently reconcile three-versus-twelve harmony styles.",
     "next_models": [],
-    "after_queue": "351partialmodels;155bass;legacyconsolidationincomplete;no downloads/workflows/push."
+    "after_queue": "351 partial models;155 bass;legacy compatibility migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24286,6 +24286,15 @@
         "Alesis Quadraverb"
       ],
       "finding": "Exact Shopee searches established no hardware offer;not unavailable proof. Continue newbrand/series leads ratherthanrepeatidenticalqueries."
+    },
+    {
+      "checked_date": "2026-10-18",
+      "models": [
+        "DigiTech RP55",
+        "Korg AX1500B",
+        "Zoom B9.1ut"
+      ],
+      "finding": "Exact Shopee Indonesia searches found no qualified local hardware offer. RP55 result was sold-out Shopee Malaysia RM270; B9.1ut was Shopee Taiwan NT$9800. Foreign offers are not IDR evidence; not proof of Indonesian unavailability."
     }
   ],
   "inventory_by_brand": {
@@ -45627,7 +45636,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-V."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon PERFORM-VK."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59784,6 +59793,22 @@
         "Cabinet routing source conflict"
       ],
       "method": "Manufacturer manual text;no downloads ordevice operations;fresh bass-series searches foundknownB1FOURoffers/accessoriesonly"
+    },
+    {
+      "model": "TC-Helicon PERFORM-VK",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://imagescdn.juno.co.uk/manual/643242-01U.pdf"
+      ],
+      "finding": "Original 15-page manual p6 lists three factory harmony styles plus imported style, conflicting with twelve choices in existing manual. No firmware reconciliation; p9 documents LED pitch guide.",
+      "remaining": [
+        "Harmony revision identity",
+        "K/F/B",
+        "Dimensions and mass",
+        "Power polarity",
+        "Qualified used/new IDR"
+      ],
+      "method": "Manufacturer-authored manual identity checked; browser text only, no downloads"
     }
   ],
   "discovery_cross_brand_bass": {

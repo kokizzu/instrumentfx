@@ -651,6 +651,18 @@ Checked2026-10-18 against indexed [own manufacturer manual p14][PVK-O]. No softw
 | Condition | Evidence | Source |
 |---|---|---|
 | Unknown | **Rp3,999,000; Habis**, limitless__store, Kota Jakarta Pusat; shop95687096/item4506813865. Checked2026-10-18; month-old search index, direct open failed. “Garansi Original” is a listing title, not verified warranty coverage. Condition, working state, revision, variant and adapter/bundle unknown. Two-hour arrival text is stale; Rp20,000 late compensation is not discount. Shipping, tax, checkout and current stock unverified. | [Indexed exact item](https://shopee.co.id/TC-Helicon-Perform-VK-Garansi-Original-i.95687096.4506813865) |
+
+### PERFORM-VK — additional original manual conflict
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / harmony revision conflict | Another manufacturer-authored manual lists **three factory harmony styles: one above, one below, and above+below**, plus an imported style. This differs from the twelve-choice manual above. Both identify PERFORM-VK; neither supplies a resolving firmware revision. Preserve both counts rather than assuming three or twelve applies universally. | [2017-copyright manual p6][PVK-J] |
+| Display / pitch guide | Holding Pitch toggles the LED pitch guide: green indicates correct pitch; yellow/red left means flat and right means sharp. This is a pitch display, not an additional harmony engine or LCD. | [Manual p9][PVK-J] |
+
+[PVK-J]: https://imagescdn.juno.co.uk/manual/643242-01U.pdf
+
+Checked2026-10-18. Original fifteen-page manufacturer manual: PERFORM-VK title, keyboard guidance, Music Group2017 copyright and VoiceSupport2 introduction match the exact model. It differs from the longer manual already retained; no exact firmware identity inferred. Text inspected through browser only; no local downloads or visual certification.
+
 <!-- comparison evidence ends -->
 
 ## PERFORM-VG

@@ -417,7 +417,7 @@ def main():
         if mode == 'commit-perform-vg':
             message = 'research(tc-helicon): qualify PERFORM-VG gain controls and conflicting cached asks'
         if mode == 'commit-perform-vk':
-            message = 'research(tc-helicon): qualify Perform VK remote defaults and sold-out ask'
+            message = 'research(tc-helicon): preserve PERFORM-VK harmony manual conflict'
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): qualify PERFORM-V imported preset editing scope'
         if mode == 'commit-dapper-indie':
