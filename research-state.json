@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh eligible hardware discovery / required gaps",
-    "task": "H90 routing-mode list compatibility, insert compensation/tails and mono summing saved. Next seek fresh eligible hardware or unresolved required fields; retain H90 USB and display unknowns, unit/package/manual mass conflicts, and cached-offer limits.",
+    "task": "H90 distinct recovery/reset scopes and library load/overwrite behavior saved. Total capacity/factoryfill,display,USB remain unresolved. Next move to fresh Shopee series or another model required-field gap rather than repeat H90 capacity/display searches without new evidence.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78781,5 +78781,24 @@
       "site:shopee.co.id Digitech RP100"
     ],
     "result": "Only existing H90799119783/26020027851 Rp17240000 with staleJune28–29delivery resolved. G9.2tt hits were adapters,not hardware; no new exact model added. USB forum repeats previously saved author-attribution limitation and did not resolve hardware scope."
+  },
+  "h90_memory_recovery_20261018": {
+    "status": "partial",
+    "sources": [
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/appendix/startup.html",
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/h90-control/program-library.html"
+    ],
+    "findings": [
+      "ClearCurrentState retains saved sounds but resets System/Tempo and loadedProgram",
+      "FactoryReset erases userLists/Programs/Presets without softwaredowngrade",
+      "Library auto-load versus preview/load and Playlist drag-overwrite; Factory locks"
+    ],
+    "still_unresolved": [
+      "TotalListcount/capacity/factoryfill",
+      "Display diagonal/color/touch",
+      "USB audio/buspower",
+      "Qualifiednewused hardware offers"
+    ],
+    "research_limits": "Memory/display searches did not resolve stated fields. Shopee only returned existing H90 offer; no new model or current-stock claim. No reset,download,appoperation or deviceinteraction."
   }
 }
