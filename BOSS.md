@@ -3448,6 +3448,14 @@ Checked2026-10-18 in the manufacturer-authored2008 manual G6027127R0, printedp13
 | Editor / Windows11 compatibility | [BOSS Windows matrix](https://www.boss.info/ca/support/support_news/25090811win1/), updated2026-08-06, marks GT-10B **Hardware & Driver: No; Exclusive Application: No** for Windows11. Its legend defines No as incompatible,with no planned support. This resolves the earlier Windows11-status unknown; it is a manufacturer support determination,not a physical test or a claim about standalone analog use. |
 | Editor / Windows10 qualification | Both GT-10B targets remain **Yes(Download)** for Windows10,including automatic internet driver delivery wording. However,the matrix footnote says Windows10 end-of-support means proper operation is no longer guaranteed despite Yes/Limited labels. Historical driver/librarian requirements remain version-specific; current delivery and communication were not tested. |
 
+
+### GT-10B — Mac librarian and Catalina boundary, 2026-10-18
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Editor / Mac Librarian1.00 | [Official indexed requirements](https://www.boss.info/sk/support/by_product/gt-10b/updates_drivers/95730c52-4702-46cf-b196-234b64a039ef/) list Mac OS X10.4.3–10.7,OS X10.8–10.11,macOS10.12–10.14;PowerPC G4/G5≥1GHz orIntel,512MB RAM,190MB disk,1024×768 with≥32000 colors. This manages patch libraries;it doesnot establish a full parameter editor orAppleSilicon support. Direct page reader failed;manufacturer search excerpt supplied these requirements. |
+| Editor / macOS10.14 versus10.15 | [Mojave matrix](https://www.boss.info/us/support/support_news/18091014b/) marks GT-10B hardware/driver andapplication **Yes**,identifying the bundled librarian. [Catalina matrix](https://www.boss.info/us/support/support_news/19091015b/) instead marks **No/No**,with no compatible version planned. Its32-bit-app section explicitly says **GT-10B Librarian cannot launch onCatalina**. This resolves Catalina support independently of the older10.13/10.14 driver listing; no device/software test was performed. Later macOS-specific statuses remain unverified. |
+
 <!-- comparison evidence ends -->
 
 GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.

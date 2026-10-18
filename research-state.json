@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-10B",
-    "task": "Saved current manufacturer Windows11 No/No andWindows10 endofsupport caveat. Next current macOS compatibility matrix orother requiredmodelgaps/freshShopeediscovery; keep olddriver/librarian versions separate.",
+    "task": "Saved MacLibrarian1.00 requirements anddocumented MojaveYes/Yes→CatalinaNo/No boundary. Next exacthardwaremarketlead orotherrequiredmodelgap; latermacOS/AppleSilicon notverified. Do notextend historicaldriver compatibility.",
     "next_models": [],
     "after_queue": "354 partial models;295 guitar156 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77707,5 +77707,23 @@
       "site:shopee.co.id GT10B bekas"
     ],
     "result": "BP200 returned shared adapterlisting; no newexacthardwarelead accepted. Other queries didnotestablishhardwareoffer. Notproof ofmarketabsence."
+  },
+  "gt10b_mac_boundary_20261018": {
+    "sources": [
+      "https://www.boss.info/sk/support/by_product/gt-10b/updates_drivers/95730c52-4702-46cf-b196-234b64a039ef/",
+      "https://www.boss.info/us/support/support_news/18091014b/",
+      "https://www.boss.info/us/support/support_news/19091015b/"
+    ],
+    "findings": [
+      "MacLibrarian1.00 explicit10.4.3–10.14 list;requirements fromprimaryindexedexcerpt,directreaderfailed.",
+      "MojaveYes/Yes;CatalinaNo/No;32bitsectionexplicitlibrarianwonotlaunch."
+    ],
+    "remaining": [
+      "LatermacOSmatrix",
+      "AppleSilicon",
+      "USBconnector/sampleformat",
+      "Initialuserfill",
+      "ExactShopeehardwareoffer"
+    ]
   }
 }
