@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B3n",
-    "task": "Saved explicitZoomClassics B3n BitCrush/DynaDelay compatibility andscope;controltotalsstillunknown. Next investigate newlysurfaced officialZoom NEURIG guitar multifx lead andexactShopeeavailability beforeinventoryadmission;notyetrecorded. B3n ports/display/count gaps retained.",
+    "model": "Zoom NEURIG",
+    "task": "Confirmed exact manufacturer announcedguitar multifx;earlyNovember launch,December capture/store plans;no exactShopeehit. Leadfacts andsupportlinks saved outsideactivecount pending fullrecord. Next read support-linked HTML manual/effect/riglists,then decide qualified inventoryadmission withoutshipping/currentstock assumptions.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -24456,8 +24456,19 @@
       "brand": "Zoom",
       "model": "NEURIG",
       "source": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/",
-      "status": "unverified lead;not active inventory",
-      "next": "Read full exact manufacturerpage andsearchShopee;do not inferNAMcaptureoravailability fromsnippet."
+      "status": "manufacturer-confirmed announced guitar multi-effects; detailed record pending; outside active inventory",
+      "next": "Follow manufacturer support HTML operation manual/effect list/rig list,verify pre-release scope andallrequiredfields,then create root brand record andcomparison membership with explicit availability qualifications.",
+      "checked_date": "2026-10-18",
+      "availability": "Japanese product page schedules early November release. Exact Shopee Indonesia search empty;not proof of unavailability. IDR condition/stock/price unknown; no currency conversion.",
+      "primary_findings": {
+        "loading": "Native NAM A2 Lite advertised. NAM A2 capture uses Wi-Fi/TONE3000 server and is separately planned for December;not verified shipping functionality.",
+        "library": "30 DNA models,22 multilayer cabinet IRs,50 user IR slots,139 guitar effects;category breakdown/current installed contents pending.",
+        "memory": "200 RIG capacity,75 supplied RIGs;factory/user location arrangement pending.",
+        "hardware": "Dual touchscreens,external FP02M/FS01 control,TRS MIDI IN/OUT,send/return,headphones,stereo outputs,USB charging/audio advertised;complete electrical/control audit pending.",
+        "power_live": "Rechargeable battery up to4.5h;45s looper withoverdub/undo/redo;conditions andremaining limits pending.",
+        "software": "SessionZ Pedal iOS/Android advertised;store andcapture planned forDecember. Current appavailability/OS minima unverified."
+      },
+      "support_source": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/neurig_support/"
     }
   ],
   "inventory_by_brand": {
