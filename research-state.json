@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Prime P1",
-    "task": "Saved P1 manual port/control/cable details and regional body/battery conflicts. Next verify exact P1 app/effect documentation for categories, concurrency and memory, or resume fresh Shopee brand/series discovery; do not borrow P2/M1.",
+    "task": "Saved P1 guitar effect appendix category census and 117-versus-126 conflict. Next fresh Shopee Indonesia brand/series discovery for missing eligible models; retain P1 concurrency, memory fill, bass category census, IR/NAM and price gaps.",
     "next_models": [],
     "after_queue": "374active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81443,5 +81443,21 @@
     ],
     "result": "Preserved manual/English/Chinese dimensions, mass and battery conflicts; added manual connector ratings, cable requirement, controls and LED meanings. Chinese page qualifies bass firmware as V1.2.",
     "remaining": "Processing category census/concurrency, factory memory fill, audio format, IR/NAM, expression and qualified Shopee hardware offers remain unverified."
+  },
+  "prime_p1_effect_appendix_20261018": {
+    "source": "https://manuals.plus/m/74886333f5e36da9aaac03cf0f48cb0ed9079e08ef0dd6aececf97a5419f50d1_optim.pdf",
+    "identity": "Manufacturer P1 manual, matching title/publisher/layout/specifications; 20-page edition includes Tone appendix absent from shorter copy.",
+    "counts": {
+      "OD": 17,
+      "AMP": 51,
+      "CAB": 22,
+      "DYNA": 4,
+      "MOD": 12,
+      "DELAY": 6,
+      "REVERB": 5
+    },
+    "derived_total": 117,
+    "advertised_total": 126,
+    "qualification": "Library census only; no simultaneous-block or preset-capacity inference. DYNA numbering 19–22 means four listed choices. Revision discrepancy remains unresolved."
   }
 }
