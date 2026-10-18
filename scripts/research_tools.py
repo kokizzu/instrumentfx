@@ -549,7 +549,7 @@ def main():
         if mode == 'commit-ve20-followup':
             message = 'research(boss): qualify VE20 phantom limit and Borneo sold-out ask'
         if mode == 'commit-g71ut':
-            message = 'research(zoom): qualify G71ut memory pedal targets and converters'
+            message = 'research(zoom): verify G71ut AUX recording and MIDI editor connection'
         if mode == 'commit-field-projection':
             message = 'test(comparisons): reject unclassified catalogue evidence before rendering'
         if mode == 'commit-gfx4':

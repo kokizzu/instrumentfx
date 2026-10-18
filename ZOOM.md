@@ -2951,6 +2951,14 @@ Guitar multi-effects;distinct fromG9.2tt/G5. Checked2026-10-17;partial. Disconti
 | USB audio / MIDI | USB16-bit stereo record/play,32/44.1/48kHz;USB audio-only,MIDI usesdedicatedIN/OUT. Internal96kHz24-bit processing is separate. | [Manual pp4,48–49,69][G71-M] |
 | Looper / drums / live | Functionswitch preampA/B,tap,hold-delay control;12AX7 Energizer. Energizer active inallmodes,notpatch-stored. HoldDelay requiresactiveDELAY,sustains currentdelay sound;releasinghold letsit decay. DelayMute mutesDELAYinput. These functions do not establish overdublooper. Function assignments requireSTORE;patchchange discardsunsaved assignment. PreampChainPRE keeps signal afterMOD/EFX2 stereo;POST places preamp afterDELAY and processes thatstage mono. Chainposition shared byA/B,cannot differ perchannel. Looperduration,drums,scenes,trails unverified. | [Manual pp16–17,34–35,53][G71-M] |
 
+### G7.1ut — AUX recording, monitoring and editor connection
+
+| Field | Own-model manual evidence / qualification |
+|---|---|
+| I/O / AUX recording path | AUX IN bypasses internal effects and reaches the L/MONO andR outputs **and USB**. This confirms external playback recording, not a guitar dry-reamp channel. [Own manual p8][G71-M] |
+| USB / direct monitoring | USB+DIRECT retains processed guitar at OUTPUT alongside DAW playback; USB Only mutes that local processed-guitar feed while connected. Save the setting with STORE/SWAP. Disable DAW echo-back when retaining direct output to avoid doubled/flanged monitoring. [Own manual pp48–49][G71-M] |
+| Editor / required connection | Editor/librarian patch storage,editing andreturn transfer require a computer **MIDI interface** and connections between the computer andunit’s **MIDI IN/OUT**. USB audio alone does not establish editor communication. Current OS support remains unverified. [Own manual p50][G71-M] |
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence and limits | Source |
