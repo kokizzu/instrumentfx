@@ -240,6 +240,19 @@ Checked 2026-10-18 against the [manufacturer Rev1.1/SW1.00 manual,pp31–32](htt
 The alternate MusicTribe mediadl endpoint exposed indexed specifications but direct access failed;the existing manufacturer CDN supplied the matching original manual. Editor compatibility,control-button count,screen details and qualified used/new prices remain unresolved.
 
 
+### M350 — routing details and service-version display
+
+Checked 2026-10-18 in the [same Rev1.1 manufacturer manual,pp12,22–23](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf). Original text only;no local download or hardware operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Routing / parallel mono setup | **Analog input only**:Dual Input switch IN,left input connected,right empty. Left is internally split to both engines,which share stereo outputs. Mixer aux use requires MIX100%wet. This is not a freely selectable digital parallel routing mode. |
+| Routing / serial versus dual input | Serial passes Delay/Effects then Reverb. Dual Input processes two separate sources through the respective engines with common outputs;it does not provide isolated output pairs per source. |
+| Editor / firmware-display distinction | PRESET ON/OFF held with UP/DOWN selects **AP** application or **Fr** front software version for service. These identify hardware software versions,not AU/VST editor releases or supported desktop operating systems. Existing cutsheet editor claim remains separately qualified. |
+
+Editor installers/current OS compatibility,control-button count,display diagonal/touch and qualified used/new IDR evidence remain unresolved.
+
+
 ## M-One XL
 
 Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.
