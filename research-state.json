@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery / manufacturer gaps",
-    "task": "BP355 expression-link/store/reset distinctions saved from original manual. Continue exact hardware discovery or Core manual/control verification; all388 partial; migration incomplete.",
+    "model": "DNAfx GiT Core",
+    "task": "Original manual recovered; controls/polarity/IR verified and physical/USB discrepancies retained. Next inspect pp23–38 memory/expression/software and pp39–52 effect census; exact Shopee IDR unresolved. All388 partial;migration incomplete.",
     "next_models": [],
-    "after_queue": "388 active models,47 brands;no downloads/workflows/push."
+    "after_queue": "388 active models47brands;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / manufacturer gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DNAfx GiT Core."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -120497,5 +120497,21 @@
       "Factory reset erases custom User presets and enters calibration; standalone calibration preserves presets"
     ],
     "remaining": "Cabinet discrepancy, current software compatibility, exact IDR and display details unresolved; no operation performed."
+  },
+  "dnafx_core_manual_20261019": {
+    "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf",
+    "revision": "03.07.2024 ID578764",
+    "pages": "18–22,53–54",
+    "findings": [
+      "3 rotaries/2 footswitches/6 buttons",
+      "External expression; no built-in pedal",
+      "Centre-negative9V300mA; no battery/MIDI",
+      "WAV44.1k24bit512point IR"
+    ],
+    "conflicts": [
+      "175W52H141Dmm/507g manual versus17513830mm/800g product",
+      "USB-B+USB-C manual versus twoUSB-C product"
+    ],
+    "remaining": "Physical revision/panel verification, memory split, detailed category census, software requirements, exact Shopee IDR."
   }
 }
