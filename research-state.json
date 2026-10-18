@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon Harmony Singer 2",
-    "task": "Mic Mechanic2 and Duplicator saved exact offers projected with original dates/qualifications. Next read Harmony Singer2 complete record and project its two missing offer bullets.",
+    "model": "Technical and discovery verification",
+    "task": "Finished eight omitted TC-Helicon exact-offer bullet projections across three committed models. Resume exact Shopee brand/series discovery and required manufacturer technical gaps; broader prose/price completeness remains unaudited.",
     "next_models": [],
     "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -46090,7 +46090,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Harmony Singer 2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Technical and discovery verification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81555,11 +81555,11 @@
       "26220305/52363985288",
       "158235298/11311313367",
       "158235298/4494020701",
-      "103535156/29504097967"
-    ],
-    "remaining": [
+      "103535156/29504097967",
       "338305078/9315818006",
       "158235298/2951493236"
-    ]
+    ],
+    "remaining": [],
+    "qualification": "All eight identified candidate item URLs now appear in vocal comparisons. This limited bullet-link audit is not exhaustive price completeness, current-stock verification or field certification."
   }
 }

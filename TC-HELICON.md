@@ -965,6 +965,13 @@ Checked2026-10-18 against the eight-page manufacturer manual,©2016,reproduced b
 |---|---|
 | Audio / noise and response | Printedp6: **EIN−126dBu atmaximum mic gain,Rg150Ω;mic SNR>104dB;guitar SNR>115dB**. Frequency response **20Hz–20kHz,+0/−0.3dB**. These are published measurement conditions/ratings,not converter bitdepth orUSB audio specifications. [Original manual][HS2-M] |
 | Live / momentary startup gesture | Printedp5: hold **Tone while powering on** toselect momentary harmony;repeat toreturn tolatching. Inmomentary mode,harmony isactive only whilethefootswitch isheld. This documented mode gesture differs fromholdingthefootswitch atstartup to toggleMP-75 Mic Control;later guide hold-to-bypass applicability remains unresolved. [Original manual][HS2-M] |
+### Harmony Singer 2 — saved retail-style offer observations
+
+| Price class | Amount | Exact observation / limits |
+|---|---:|---|
+| Condition-unverified sold-out ask | Rp3,720,000 | Checked2026-10-17. [Dial Musik, shop338305078/item9315818006](https://shopee.co.id/TC-Helicon-Harmony-Singer-2-Effect-Pedal-vocal-Efek-Vokal-GARANSI-RESMI-1-TAHUN-i.338305078.9315818006): **Rp3,720,000, Habis**, Kota Palembang. One-year official warranty is a title claim. Exact page reopened with last-month cache/September3–5 delivery; newer search cache says October17–18. Neither delivery text proves availability; sale condition unknown. Selected variant,adapter/battery bundle,warranty validity,shipping/tax,current stock and final total unknown;late compensation is not a discount;historical ask,not completed sale. |
+| Condition-unverified indexed ask | Rp3,100,000 | Checked2026-10-17. [NEO MUSIC, shop158235298/item2951493236](https://shopee.co.id/TC-HELICON-HARMONY-SINGER-2-Vocal-Effects-Stompbox-with-Guitar-Control-i.158235298.2951493236): **Rp3,100,000**, Kota Sukabumi. Exact JS-limited body reopened, three-month cache, stale June26 delivery; earlier search had June19. Sale condition and current stock unknown. Selected variant,adapter/battery bundle,warranty validity,shipping/tax,current stock and final total unknown;late compensation is not a discount;historical ask,not completed sale. |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee offers checked 2026-10-17
