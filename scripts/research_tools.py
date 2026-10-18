@@ -559,7 +559,7 @@ def main():
         if mode == 'commit-g3x':
             message = 'research(zoom): reconcile G3X numbered effect and cabinet census'
         if mode == 'commit-g5':
-            message = 'research(zoom): document G5n USB gain and bank preselection'
+            message = 'research(zoom): qualify G5n tested Mac DAW compatibility'
         if mode == 'commit-ms50gplus':
             message = 'research(zoom): reconcile B1X FOUR library categories and amp cabinet choices'
         if mode == 'commit-505ii':

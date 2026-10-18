@@ -1676,6 +1676,18 @@ Checked 2026-10-18 against original text in the [manufacturer V2 manual](https:/
 | Live / bank preselection | With PRESEL enabled, changing banks changes the displayed selection until a patch switch confirms the change. This is selection staging, not evidence of scenes, seamless switching or audio-tail retention. Missing button icons in extracted instructions are not reconstructed. |
 
 
+### G5n — audio-software compatibility evidence
+
+Checked 2026-10-18 from original text in Zoom’s [July 2025 compatibility chart](https://zoomcorp.com/media/documents/EFX_DAW_compatibility_2025JUL_E.pdf), linked by [G5n support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/g5n-support/). This is a dated manufacturer test matrix, not fresh operation testing.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB audio / tested Mac software | G5n is marked compatible with **Cubase Pro14, Logic Pro11 and GarageBand10.4 on macOS Sequoia15**; and **Cubase Pro13, Logic Pro10.8 and GarageBand10.4 on macOS Sonoma14**. These are specific tested combinations, not universal DAW or later-OS certification. |
+| Editor / driver distinction | DAW compatibility is separate from Guitar Lab patch/effect management. The shared driver installation guide uses LiveTrak L-8 as its example; its Mac instructions do not establish that G5n requires a Mac driver. The chart omits G5n from its iOS/iPadOS rows; omission does not prove incompatibility. Windows marks are not assigned to applications here because extracted column ordering is ambiguous. |
+
+USB channel count, AUX-to-recording routing, dry recording, loopback and reamping remain unverified by the primary sources inspected. Third-party forum reports and unrelated Zoom models are not promoted to manufacturer specifications. No file or software downloaded.
+
+
 ## G3n
 
 Reviewed **2026-10-17**,new exact-model Shopee discovery. Separate from G3Xn and older G3;no ownership assertion. Partial. Manufacturer manual evidence is indexed text,not PDF/image inspection;no dependency,software,firmware or manual file downloaded.

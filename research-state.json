@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G5n",
-    "task": "Saved G5n USB send gain/monitor endpoints,display contrast andPRESEL staging. Next exact-model USB channel/recording guide orfresh Shopee discovery;panel/display/import/price gaps remain.",
+    "task": "Saved July2025G5n Mac DAW compatibility matrix and driver/editor distinctions. USB channel/routing primary evidence still missing;next fresh Shopee discovery orother unresolvedmodel fields.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Zoom G5n",
-    "task": "Saved G5n USB send gain/monitor endpoints,display contrast andPRESEL staging. Next exact-model USB channel/recording guide orfresh Shopee discovery;panel/display/import/price gaps remain.",
+    "task": "Saved July2025G5n Mac DAW compatibility matrix and driver/editor distinctions. USB channel/routing primary evidence still missing;next fresh Shopee discovery orother unresolvedmodel fields.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75705,5 +75705,28 @@
       "site:shopee.co.id Korg AX300B"
     ],
     "result": "No qualified new exacthardwareoffer. GFX8 sensor/adaptors rejected;searchfailure notmarketabsence."
+  },
+  "g5n_daw_matrix_20261018": {
+    "source": "https://zoomcorp.com/media/documents/EFX_DAW_compatibility_2025JUL_E.pdf",
+    "revision": "July2025",
+    "macos15": [
+      "Cubase Pro14",
+      "Logic Pro11",
+      "GarageBand10.4"
+    ],
+    "macos14": [
+      "Cubase Pro13",
+      "Logic Pro10.8",
+      "GarageBand10.4"
+    ],
+    "limits": "Windowscolumnorderambiguous;iOSomissionnotnegative;sharedL8driverexample notG5nMacdriverrequirement",
+    "remaining": "USBchannels,AUXrecording,dry,loopback,reampunverified"
+  },
+  "discovery_bp50_ax100b_20261018": {
+    "queries": [
+      "site:shopee.co.id Digitech BP50",
+      "site:shopee.co.id Korg AX100B efek"
+    ],
+    "result": "Noqualifiednewexacthardwareoffer;notmarketabsence"
   }
 }
