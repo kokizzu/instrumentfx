@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G2Nu",
-    "task": "Read exact family manual for G2Nu control totals,USB audio,category census,looper/rhythm and memory qualifications;then resume discovery.391partial;migration incomplete.",
+    "task": "G2Nu USB/looper qualified from indexed original text. Next control totals,category census,memory andrhythm patterns using exact manual;preserve PDF-size access limit.391partial;migration incomplete.",
     "next_models": [
       "Zoom::G2Nu"
     ],
@@ -121250,5 +121250,13 @@
       "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g2nu/g2nu-support/"
     ],
     "result": "G2Nu exact-model manufacturer evidence establishes separate eligible model;no qualified Shopee offer. Adapters rejected."
+  },
+  "g2nu_usb_looper_20261019": {
+    "sources": [
+      "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+      "https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf"
+    ],
+    "access": "Indexed manufacturer manual passages pp13–14,29; direct PDFs rejected size. No full PDF/image inspection.",
+    "findings": "USB16bit32/44.1/48kHz;historical hosts,ASIO/direct monitoring;USBbus withswitchOFF;5slooper disablesDELAY;rhythmconcurrency40–250BPM."
   }
 }

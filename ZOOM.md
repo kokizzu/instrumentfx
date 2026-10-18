@@ -4495,3 +4495,15 @@ Checked 2026-10-19; partial. Separate from G2.1Nu and G2.1u. [Exact manufacturer
 | IDR condition-unverified ask | Unknown. Exact Shopee searches surfaced adapters and unrelated/existing models;no qualified G2Nu hardware offer. Seller/item,stock,bundle,warranty,voucher unverified. |
 
 No software,firmware,dependencies or files downloaded or run. No sibling dimensions or treadle transferred.
+
+### G2Nu — USB audio and looper qualifications
+
+Checked 2026-10-19. Manufacturer-hosted full PDFs exceeded web-reader size limits (15.6–16.5MB); passages below were inspected through indexed original-manual text, not a full PDF or image review. Matching family title, G2Nu panel and page structure establish model scope.
+
+| Field | Indexed manual evidence / qualification |
+|---|---|
+| USB / recording | **16-bit;32/44.1/48kHz** USB audio, separately from internal96kHz conversion. Historical supported hosts:WindowsXP SP2/Vista andMacOSX10.4.6/10.5/10.6;not current OS certification. Windows low-latency recording uses dedicated ASIO. [Own manual p29](https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf). |
+| USB / monitoring and power | DAW playback mixes with effected guitar at output;direct monitoring can be disabled andrecording level adjusted. USB bus power works with power switchOFF. Independent channel count andmeasured latency remain unverified. [Own manual p29](https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf). |
+| Looper / capacity and interaction | Approximately **5seconds**,overdubbing;rhythm can accompany playback. Activating looper turns **DELAY off**;parameter knobs control looper rather than rhythm. Note-length/manual recording,tempo40–250BPM. Retention andundo remain unverified. [Own manual pp13–14](https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf). |
+
+No inference that maximum8 modules remain available with looper,or that internal converter specifications describe USB transport. No software,firmware or files downloaded.
