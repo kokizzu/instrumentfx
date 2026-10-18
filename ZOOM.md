@@ -3213,6 +3213,17 @@ Checked 2026-10-18 from the [original manufacturer manual](https://zoomcorp.com/
 Current source supports the existing bass classification; mixed606/607 seller variations still do not establish an exact607 price.
 
 
+
+### 607 — staged patch recall and fixed routing
+
+Checked 2026-10-18 against original text in the [manufacturer manual, printed pp20–24](https://zoomcorp.com/media/documents/E_607.pdf),607-5000-1. No download or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Live / patch preselection | Default selection changes sound immediately. Powering on while holding the up patch switch enables preselect: navigate to the flashing target without changing sound,then press both patch switches together to confirm. VALUE± changes bank only during selection. Power cycling restores direct selection;this is not a persistent scene mode or proven seamless spillover. |
+| Routing / module order | Eight modules form a fixed serial chain:COMP/LIMIT→WAH→DRIVE→EQ→ZNR→AMP→MOD/PITCH→DLY/REV. Modules can be bypassed;the manual does not describe freely reordering them. Composite Octaver→Chorus helps explain why simultaneous effect count differs from module count. |
+| Memory / selective factory recall | All Initialize restores all42 patches;Factory Recall restores a selected location and can be repeated. Both overwrite affected user edits;neither recovers previously overwritten user-created sounds. This is restoration of factory content,not a separate protected preset bank. |
+
 <!-- comparison evidence ends -->
 
 Seller, stock, authenticity/origin, working state, bundle, adapter, warranty, shipping/tax and vouchers unresolved. Browser manual text; no download or visual inspection claimed. [Official support][Z607-S] independently categorizes 607 under bass effects.

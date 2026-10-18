@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved sharedEXP/FSconfiguration,CTRLgroups,movableloop and4bandglobalEQ. Next freshShopee discovery orremainingfirmware/import/retention/qualifiedprice gaps;do notduplicateknownmanualrows.",
+    "model": "Zoom 607",
+    "task": "Saved preselectionconfirmation,fixedserialrouting andselectivefactoryrecall. Next freshShopee discovery orremainingcategorycountbasis/display/import/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox II Pro QME-200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 607."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved sharedEXP/FSconfiguration,CTRLgroups,movableloop and4bandglobalEQ. Next freshShopee discovery orremainingfirmware/import/retention/qualifiedprice gaps;do notduplicateknownmanualrows.",
+    "model": "Zoom 607",
+    "task": "Saved preselectionconfirmation,fixedserialrouting andselectivefactoryrecall. Next freshShopee discovery orremainingcategorycountbasis/display/import/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75949,5 +75949,26 @@
     ],
     "findings": "SharedEXP/SingleFS/DualFS;4groupedCTRLtoggles;movableFX/SND/RTN;4bandglobalEQseparate5EQalgorithms",
     "limits": "Noexternaltoe/polarity,scenes,parallelchain/slotcost/currentfirmwareinference"
+  },
+  "zoom607_preselect_routing_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_607.pdf",
+    "revision": "607-5000-1",
+    "pages": [
+      20,
+      21,
+      22,
+      24
+    ],
+    "findings": "Powerupuppatchswitchpreselect;bothconfirm;powercyclerestoresdirect;fixed8moduleseries;selectivefactoryrecallversusallinitialize",
+    "limits": "Noscenes/spillover/reordering/userrecoveryinference"
+  },
+  "discovery_506_bp200_bp8_20261018": {
+    "queries": [
+      "site:shopee.co.id Zoom 506",
+      "site:shopee.co.id Zoom 506II",
+      "site:shopee.co.id Digitech BP200",
+      "site:shopee.co.id Digitech BP8"
+    ],
+    "result": "OnlyknownBP200adapter16626959/4486100964;noqualifiednewexacthardwaremodel;notmarketabsence"
   }
 }
