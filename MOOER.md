@@ -2234,3 +2234,17 @@ Checked 2026-10-19; [same exact family manual](https://device.report/m/0f55d0035
 | Synth / bass classification | Pitch, ring and filter choices alone do not establish a dedicated synth engine; Bassman-named guitar models do not establish bass-instrument suitability. |
 
 Revision date remains unverified; these are the inspected manual's counts, not proof of the current firmware library. Button total, Li-specific NAM support, factory-filled memory and qualified IDR offers remain open.
+
+### GE200 Plus Li — regional source conflicts
+
+Checked 2026-10-19. [MOOER Japan exact Li page](https://mooer.jp/products/mooer-ge200plus-li), linked by the global manufacturer's JP navigation, supplies regional product evidence.
+
+| Field | Conflict / qualification |
+|---|---|
+| Dimensions / mass | Japan lists297×146×58mm,1.4kg; family manual lists324 L×162 W×58 H mm,Li1.5kg. No measured reconciliation; neither value silently replaces the other. |
+| Power / charge | Japan overview says approximately2.5h charging; manual says2h10 with original adapter and unit off. Different conditions/revision remain unresolved. |
+| Processing / categories | Japan lists100amps,77cabinets,130effects; the manual's non-amp/non-cab category placements sum130. Arithmetic agreement does not establish unique algorithms or current firmware census. |
+| Routing / live | Japan CAB SIM THRU describes bypassing and locking both POWER AMP and CAB; English manual describes CAB. Scope discrepancy retained. Japan C-hold text says exit Groove Station; English manual says enter tap tempo. |
+| Firmware / NAM | [Global support index](https://www.mooeraudio.com/Downloads_xq/9.html) explicitly namesGE200 Plus, notLi; [A2 announcement](https://www.mooeraudio.com/news/29.html) namesPlus/Pro conversion,notLi. These pages do not independently establish exactLi firmware compatibility. Unknown, not unsupported. |
+
+No regional JPY price converted to IDR; no firmware/manual files downloaded or hardware operated. Full button count, factory-filled memory and qualified IDR remain open.

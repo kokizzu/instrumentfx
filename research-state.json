@@ -28,12 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER GE200 Plus Li",
-    "task": "GE200 Plus Li category census saved. Next exact Li firmware/NAM and button count evidence; factory-filled count/IDR unknown. If unavailable, resume fresh Shopee discovery rather than repeat identical searches.390 partial,migration incomplete.",
+    "model": "MOOER GE200 Plus",
+    "task": "Apply exact family-manual evidence to standard Plus separately, including its own1A supply/1.42kg mass and published regional conflicts where applicable. Li remaining gaps deferred pending stronger evidence. Then fresh Shopee discovery.390 partial;migration incomplete.",
     "next_models": [
-      "MOOER::GE200 Plus Li"
+      "MOOER::GE200 Plus"
     ],
-    "after_queue": "390 active,47 brands; no downloads/workflows/push."
+    "after_queue": "390 active47brands;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46341,7 +46341,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE200 Plus Li."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE200 Plus."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -121152,5 +121152,21 @@
       "REVERB": 9
     },
     "qualification": "307 category placements include duplicates; not unique algorithms or simultaneous capacity. Revision/installed version unknown."
+  },
+  "ge200plus_li_regional_20261019": {
+    "source": "https://mooer.jp/products/mooer-ge200plus-li",
+    "conflicts": [
+      "297x146x58mm/1.4kg vs manual324x162x58mm/1.5kg",
+      "2.5h charging vs manual2h10 unit-off",
+      "CAB SIM THRU POWER AMP scope",
+      "C-hold Groove exit vs tap tempo"
+    ],
+    "firmware": "Exact Li pairing not explicit in support index/A2 announcement; unresolved.",
+    "queries": [
+      "site:mooeraudio.com \"GE200 Plus Li\" \"firmware\"",
+      "site:mooer.jp \"GE200\" \"NAM\"",
+      "site:cn.mooeraudio.com \"GE200 Plus Li\" \"NAM\""
+    ],
+    "search_result": "No indexed matches for exact queries; not proof of absence."
   }
 }
