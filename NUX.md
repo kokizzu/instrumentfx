@@ -169,6 +169,17 @@ The manual predates GEN2 additions. The original review identified GEN2 firmware
 | Expression / calibration conflict | [Reproduced manufacturer manual,©2024](https://manuals.plus/nux/mg-300-mkii-modeling-guitar-processor-manual) provides EXP CALIBRATION viaPRESET UP andcalls forcalibration after firmware updates. This conflicts with global product no-calibration wording above;firmware/hardware applicability unresolved. EXP Independent with patch maintains engagement across patches. |
 | IR / routing / parameter recall | ©2024manual documents per-patch USER IR plus24IR COLLECTION slots. Non-StudioDirect output modes disengage IR bydefault. PARA.FOLLOW restores previous model parameters when returning;off reloads model defaults. This is parameter recall,not automatic preset saving;save beforechanging patches. [Manual](https://manuals.plus/nux/mg-300-mkii-modeling-guitar-processor-manual),checked2026-10-17. |
 | USB audio / dry recording | ©2024manual:DRY OUT records clean DI andprocessed signals simultaneously;NORMAL direct,REAMP processing,andUSBLoopback are distinct modes. Channel count/USB buspower remain unresolved. USB submenu controls headset mic,AUX andUSBaudio. [Manual](https://manuals.plus/nux/mg-300-mkii-modeling-guitar-processor-manual),checked2026-10-17. |
+
+### MG-300 MKII — GEN2 NAM routing and block substitutions, 2026-10-18
+
+[Exact global manufacturer page](https://nuxaudio.com/product/mg300mkii/); published GEN2 scope, not an installed-unit check.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| NAM / IR interaction | With NAM enabled, the **IR block is disabled by default**. NUX explains this using cabinet-inclusive NAM; do not infer that every imported capture contains a cabinet or that IR can never be re-enabled. Ten A2-Lite slots remain distinct from 24 user IR slots. |
+| Processing / block substitution | In EDIT, long-pressing the block offers **CMP→EFX, EFX→MOD, RVB→DLY**. Manufacturer examples include stacked drives, Octave plus Rotary, and dual delays. These replace block functions, not three additional positions beyond the documented ten. |
+| Conversion / level wording | Global specifications list **48kHz,32-bit ADConverter**, response20Hz–20kHz+1dB, dynamic range106dB and input/output+8dBu. The page does not qualify those level figures as nominal versus maximum here; ADC wording does not independently specify DAC resolution or USB stream word length. |
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-300 MKII fields
