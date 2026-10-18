@@ -825,6 +825,12 @@ The product page/FAQ still contain six-block wording. Retain the firmware3.0 eig
 
 [Original 3.80 manual mirror](https://www.scribd.com/document/1054791883/HX-Stomp-3-80-Owner-s-Manual-English), same document number40-00-0408 and device title: Scroll mode gives FS1 previous / FS2 next preset. Official full PDF reader exceeded13.6MB; indexed original passages used. [Firmware listing](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) currently exposes3.80.0; seller firmware unknown. No downloads. [Audit comparison](EXPRESSION-VOLUME.md).
 
+### HX Stomp — firmware-qualified expression bypass behavior
+
+Checked2026-10-19 against [own firmware listing](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set), historical **3.50 bug-fix section**: expression-controlled block bypass could revert from Heel Down/Toe Down toToggle;fixed. It also fixes HXStomp/HXEdit restoration of3.01 backups shifting PathB blocks one position. These are firmware/restore qualifications for bypass mapping and chain placement,not global volume assignment oruniform factory-volume routing.
+
+Current listing still exposes3.80; the [official3.80 notes](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) date release2024-11-19. **HXOne-only tuner/true-bypass changes are not transferred to Stomp**. Exact3.80 manual retrieval remains blocked/size-limited; earlier indexed passages retained. No new headphone/all-bypass/tail/looper attenuation guarantee,download,update orhardware test.
+
 ## POD HD500
 
 Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Exactsellerunit identity remainsunconfirmed;ownership pending. Bass support is documented in the original v2.10 guide.

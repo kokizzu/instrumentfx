@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(line6): audit POD Express Bass volume and exact Shopee offer'))
+    print(git('commit','-m','research(line6): qualify Stomp expression bypass and restore revisions'))

@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "GT-1000CORE2.02 revision follow-up",
-    "finding": "Exact release history dates2.02 July2026,2.01 removes polyphonic tuner,1.10 startup pedal ASSIGN fix. FV signal coverage still unknown; eng03 reader unavailable.",
+    "current": "HX Stomp firmware/bypass follow-up",
+    "finding": "Own3.50 notes fix expression Heel/Toe bypass revertingToggle and3.01 PathB restore shift.3.80 release remains listed; no new global target orcoverage proof.",
     "next": [
-      "Line6 HX Stomp exact current manual/global expression position versus target; retain CORE coverage gaps",
+      "Actual M-VAVE Chocolate/FootCtrlPlus exact hardware wiring and controller revision; no TRS compatibility assumption",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
