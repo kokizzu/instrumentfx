@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Blackstar ID:X Floor One",
-    "task": "Saved US product versus manual category-count and physical-specification conflicts. Next research fresh eligible Shopee hardware, or manufacturer evidence resolving firmware/category allocation and package-versus-unit dimensions; do not repeat same unresolved editor/display searches.",
+    "model": "Blackstar ID:X Floor Three",
+    "task": "Saved own Three-specific US/manual category and physical conflicts after separately committing One. Next fresh Shopee brand/series discovery for eligible unrecorded hardware; editor/display/factory-fill searches remain unresolved and should not be repeated without new evidence.",
     "next_models": [],
     "after_queue": "356 partial models;297 guitar157 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45831,7 +45831,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Blackstar ID:X Floor One."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Blackstar ID:X Floor Three."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77973,5 +77973,16 @@
       "physical": "US7.95W×10.9L×5.31Hinches3.54lb versus manual215×68×155mmaxesunstated1.33kg;USnotexplicitpackage,do not relabel"
     },
     "gaps": "NoexactFloorArchitectrelease,displaydiagonal/color/touch,orfactoryfillestablished;ID:X50/100combomanualrejected."
+  },
+  "blackstar_floor_three_regional_conflicts_20261018": {
+    "model": "Blackstar ID:X Floor Three",
+    "source": "https://blackstaramps.us/en-intl/products/id-x-floor",
+    "checked_date": "2026-10-18",
+    "scope": "Three-specific table read separately; not borrowed from One",
+    "conflicts": {
+      "category_counts": "US14/10/6/5 versus manualappendix15/10/5/5;revisionunresolved",
+      "physical": "US10.59W×19.01L×5.31Hinches6.17lb versus manual397×68×195mmaxesunstated2.88kg;packagingnotidentified"
+    },
+    "next": "Fresh Shopee discovery; resolve these only with a manufacturer revision/changelog or explicit unit/package specification."
   }
 }

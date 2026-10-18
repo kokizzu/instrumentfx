@@ -11,8 +11,8 @@ Checked2026-10-18; partial. Guitar/bass multi-effects eligibility comes from the
 | Expression | Built-in toe switch; volume pre/post, Classic/Modern wah, custom continuous amp/effect parameter. CabRig/discrete controls excluded. External EXP unverified. [M] |
 | K/F/B | **10 rotary /8 footswitches /9 buttons**, derived from named controls:8 voice/amp/tone/master rotaries +2 push encoders;3 patch +4 effect +tap footswitches;voice mode,manual,shift,CabRig,4 effect,EXP buttons. Encoder pushes,toe switch and3-way Response switch separate. Visual corroboration pending. [M pp11–17] |
 | Display | OLED; diagonal/color/touch unknown. [M] |
-| Dimensions / mass | **397×68×195mm**, axes unstated; **2.88kg**. [M] |
-| Processing / choices | **Four simultaneous blocks**: Pre FX, modulation, delay, reverb; one choice each. Appendix-derived **15 Pre FX /10 modulation /5 delay /5 reverb =35 choices**. Amp,CabRig,gate and pedal-wah alternatives are separate; not35 simultaneous effects. [M pp27–29] [M] |
+| Dimensions / mass | **397×68×195mm**, axes unstated; **2.88kg**. [M] US product page instead lists **10.59W×19.01L×5.31H inches;6.17lb**,without package/unit identification; unresolved source conflict,not replacement unit dimensions. [T3U] |
+| Processing / choices | **Four simultaneous blocks**: Pre FX, modulation, delay, reverb; one choice each. Appendix-derived **15 Pre FX /10 modulation /5 delay /5 reverb =35 choices**. Amp,CabRig,gate and pedal-wah alternatives are separate; not35 simultaneous effects. [M pp27–29] [M] Three-specific US table instead lists **14 Pre FX/10 modulation/6 delay/5 reverb**. Both total35; category allocation and firmware/revision basis remain unresolved. [T3U] |
 | Factory / user memory | **99 writable=33×3**; initial factory fill/protected split unknown. Master level excluded from patches. [M] |
 | Synth / acoustic | **12 guitar,3bass,3acoustic voices**, including acoustic simulation. Synth unverified. [M] |
 | I/O | Mono input,mono send/return,To Amp,CabRig stereo quarter-inch phones/line and XLR outputs;3.5mm line/streaming TRRS;MIDI IN/THRU;USB-C;DC. To Amp bypasses CabRig;not speaker power. [M] |
@@ -48,6 +48,9 @@ Counts use manual256401M-VA-1 01/26 text,not physical inspection. Pre FX include
 
 Direct handbook reading returned403; requirements above come from the manufacturer PDF search excerpt. The older1.0.0 handbook instead lists macOS10.9+,a different software edition,not a reason to lower the2.0.0 requirement. Neither editor requirement defines the unit display resolution,USB sample format,or driver compatibility. No installer,driver or firmware was downloaded or run.
 
+
+
+[T3U]: https://blackstaramps.us/en-intl/products/id-x-floor
 
 ## ID:X Floor One
 
