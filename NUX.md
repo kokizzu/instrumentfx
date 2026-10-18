@@ -356,6 +356,17 @@ Checked2026-10-18 against the [manufacturer-authored older manual](https://manua
 | Live / tuner | UP+CTRL enters tuner; knob1 selects CHROMATIC orCOMPEN.G guitar compensation andpress toggles Mute/Listening. Double-press CTRL exits. Calibration range is not established by the440Hz display example. |
 | Memory / parameter follow | PARA.FOLLOW recalls the previous parameter settings when returning to an effect model;off loads defaults. This differs from FollowTAP anddoesnot establish automatic saving of patch edits. |
 
+
+### MG-30 — Version2 looper and Quick Scene scope
+
+Checked2026-10-18 in the [manufacturer-authored Version2.0 manual](https://manualzz.com/doc/70825628/nux-mg-30-multi-effects-versatile-modeler-owner%E2%80%99s-manual),©2020Cherub,originalMG-30 cover,printedpp7–8. Manual version is not installed firmware orGEN2 identification;generated summaries/FAQ excluded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Looper / recording modes | Knob1 press selects **mono/stereo**;hold enters **NR/AR**. Normal Recording uses conventional footswitch start. Auto Recording arms with LOOP then begins when instrument input is detected. Threshold andstereo duration remain unspecified here. |
+| Looper / access and drum EQ | UP+DOWN enters Drum/Looper;DOWN controls looping,UP drums;double-press CTRL exits. Knob2 press enters drum EQ using knobs2/3/4 forBass/Middle/Treble. This is drum EQ,not another guitar effect block. |
+| Scenes / trails scope | CTRL assignedSCENE cyclesS1/S2/S3. **Quick Scene** can bypass blocks while retaining delay/reverb trails. This describes scene-controlled bypass,not a demonstrated tail guarantee across preset changes orall ProScene model changes. |
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields

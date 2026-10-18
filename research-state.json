@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-30",
-    "task": "Saved MG30 impedance/conversion/tuner/PARA.FOLLOW facts. Next fresh Shopee discovery or exactmodel remaining fields; oldmanual not complete GEN2 census.",
+    "task": "Saved MG30Version2 mono/stereo/AutoRecord/drumEQ/QuickScene trailsscope. Next freshhardware discovery or othermodel gaps; do not repeat MG30oldmanual fields.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -59358,6 +59358,22 @@
         "Qualified used/new IDR"
       ],
       "method": "Manufacturer manual body text, no download/device operation"
+    },
+    {
+      "model": "NUX MG-30",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualzz.com/doc/70825628/nux-mg-30-multi-effects-versatile-modeler-owner%E2%80%99s-manual"
+      ],
+      "finding": "Version2manual pp7–8 mono/stereoloop,NR/ARsignaltrigger,drumEQ,QuickScenebypasstrailsscope; no presetspilloverinference.",
+      "remaining": [
+        "Stereo duration",
+        "Loop persistence",
+        "CurrentGEN2 behavior",
+        "Touch",
+        "Qualified used/new IDR"
+      ],
+      "method": "Ownmanual Version2.0 cover/copyright/pagination checked; no download or device operation"
     }
   ],
   "discovery_cross_brand_bass": {
