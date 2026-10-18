@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-300 MKII",
-    "task": "Original German manual recovered viaUSsupporthub;2.4inch320x240color LCD andADDAformat saved,calibrationconflict corroborated. ReadremainingPDFpages7–8 forsystem/USB/specgaps;do not inferpresetcapacity fromexamples.",
+    "task": "Germanmanual reviewcompleted;blockinventory andIRcapacity/dynamicrange conflicts saved. Do not repeat unchangedmanual route. Seek revision-specific primary erratum/release notes orcontinueanothermodel/freshdiscovery.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial;no downloads/workflows/push;migration incomplete."
   },
@@ -81934,7 +81934,7 @@
     "scope": "Explicit uncertainty signals in selected comparison facts only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4665,
+    "flagged_field_count": 4666,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -102459,6 +102459,13 @@
             "signals": [
               "conflict"
             ]
+          },
+          {
+            "field": "IR / original-manual capacity conflict",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
+            ]
           }
         ]
       },
@@ -117217,12 +117224,12 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "8a083bd8626f64512c470389437aab0162049b9d2eeff95e7abf2533db4fa021",
+      "ALL-GUITAR.md": "347676fd2fc925540a39383d9df91036b2b61f21a7f55e2013babb42b6ef5079",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "f6ff1ce259f3f3f5536737ca321abcc984ab5f39d0a9a5acc83db66466476029",
+      "ALL-BASS.md": "11daa40b441a9eff9171c89eae9d38c6b59111f8d062cec8f847639938e3d3ca",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -117236,7 +117243,7 @@
       "TECH21.md": "958cba8793e10c2ba4eaa7386bcd0e528107d05126bbe91d3de1c81251129407",
       "MOOER.md": "cdad5c6009106194df97ab42a7c0e5b4bb606ff1bde54be36dfd5c4a578be039",
       "BEHRINGER.md": "8746e2a4c6f49febe91bde776a38dd035352781e66c258940a33d85d1c69218d",
-      "NUX.md": "62d09d1cbb87687f51fd8a5aa5f7aed46476dcc88c22f4a0325bb5f7dd3aec3e",
+      "NUX.md": "986b7154dd537dc123fc92183395aa16551fe67be4c74faf66221a2b8b39a741",
       "IK-MULTIMEDIA.md": "ce23e1624886fada92ab0ff1c92554e04c01d18ca79839dc13744acdba2b9903",
       "SINGLE-VOCAL.md": "acb51be0b82d540d045e92e126882df43bb3c7380b45f3be5cc48a7828827796",
       "DARKGLASS.md": "4df816629a31b454d8c69de300525d97a85718749f23f4e684b243c5b50fce06",
@@ -117613,5 +117620,12 @@
     "identity": "8pages,MG300MKII,Copyright2024Cherub",
     "scope": "Publisheddisplaydiagonal/resolution andADDAformat added;originalsource corroboratescalibrationconflict.",
     "remaining": "Touch,presetcapacity,USBstreamformat,unitdraw/polarity andfirmwareapplicability."
+  },
+  "mg300mkii_german_specs_conflicts_20261018": {
+    "source": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_German.pdf",
+    "page": "PDF8",
+    "destination": "NUX.md#mg-300-mkii",
+    "scope": "Tenblocknames;12versus24IRcollections and101versus106dB conflicts preserved;THDNratingqualified.",
+    "remaining": "Presetcapacity stillnotpublishedinretrievedtext;installedrevision applicability,power,touch,USBwordlength andqualifiednewoffers."
   }
 }
