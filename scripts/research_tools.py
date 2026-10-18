@@ -591,7 +591,7 @@ def main():
         if mode == 'commit-dapper-bass-mini':
             message = 'docs(valeton): consolidate duplicate Dapper Bass Mini seller evidence'
         if mode == 'commit-dapper-bass':
-            message = 'research(valeton): add Dapper Bass historical offers with stock limits'
+            message = 'research(valeton): qualify Dapper Bass control scope and exact offer'
         if mode == 'commit-hd500':
             message = 'research(line6): qualify HD500 global EQ and firmware editor fixes'
         if mode == 'commit-g1on':

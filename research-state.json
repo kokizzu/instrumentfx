@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX Stageman Floor NAP-5",
-    "task": "Updater and audio qualifiers saved. Next fresh eligible Shopee discovery or other model gaps;Italian/Japanese official manuals cache-miss,English textless.",
+    "model": "Valeton Dapper Bass VES-2",
+    "task": "Saved control scope and exact additional offer. Continue fresh bass discovery or required-model gaps;do not repeat existing inaccessible official textless PDF.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial;114 compatibility Markdown files remain;no downloads/workflows/push."
   },
@@ -46305,7 +46305,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Stageman Floor NAP-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Bass VES-2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81934,7 +81934,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4821,
+    "flagged_field_count": 4822,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -110385,6 +110385,13 @@
               "unknown",
               "unverified"
             ]
+          },
+          {
+            "field": "IDR condition-unverified indexed offer",
+            "source": "VALETON.md",
+            "signals": [
+              "unverified"
+            ]
           }
         ]
       },
@@ -118491,14 +118498,14 @@
       "ROWIN.md": "e81792f710d0ae42f9c8a0fb6de5798ad86f324ce8d442dd1024ffad6d315282",
       "JOYO.md": "e40a65594804dd2728bad9561444474d0f784048da3ed5dd86fb0dca75456119",
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
-      "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
+      "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
       "ALL-GUITAR.md": "1f4e295a0e0fb745cf65802caec03e8665fd4c7a780b3ddd7256faa071a3b96b",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "11daa40b441a9eff9171c89eae9d38c6b59111f8d062cec8f847639938e3d3ca",
+      "ALL-BASS.md": "e46045e229b4026368acd457f5186d1c03cd3c3bad60f926d1d0893157a09318",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -119003,5 +119010,14 @@
     "destination": "NUX.md#stageman-floor-nap-5",
     "result": "Added explicit PC/Mac updater wording,EQ ranges,noise/response and manufacturer dynamic-range unit ambiguity; documented socket-size wording difference.",
     "remaining": "Updater versions/current OS,editor,audio,power,battery,memory andqualifiednewoffers remain unresolved."
+  },
+  "dapper_bass_followup_20261018": {
+    "destination": "VALETON.md#dapper-bass-ves-2",
+    "sources": [
+      "https://manualmachine.com/valeton/dapperbass/2574560-user-manual/",
+      "https://shopee.co.id/VALETON-DAPPER-effect-BASS-Analog-Multi-7in1-preamp-chorus-octaver-fuzz-tuner-booster-compessor-i.1051758555.23157251802"
+    ],
+    "result": "Qualified combined compressor/boost controls and analog chorus scope; added exact sold-out indexed hardware offer without accepting seller7in1 count.",
+    "remaining": "Expression,physical control verification,concurrency,memory,battery/USB,loading/editor andcondition-specific offers."
   }
 }

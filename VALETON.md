@@ -1029,6 +1029,15 @@ All three additional offers are historical asking observations, not completed sa
 [DB-O3]: https://shopee.co.id/Valeton-Dapper-Bass-Effect-Strip-i.382833846.22120857441
 [DB-O4]: https://shopee.co.id/Effect-Valeton-Dapper-Bass-Effect-Strip-VES-2-VES-2-i.198150809.22152766694
 
+### Dapper Bass control scope and additional offer,2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / Boost Comp controls | Manufacturer-authored manualp2 describes an opto-style compressor with separate COMP(compression amount) andGAIN(boost amount) controls;this is a combined module,not two independently switched blocks. [Manual][DB-MM] |
+| Chorus / category control scope | Manualp2 identifies DEPTH as chorusdepth and describes analogchorus;no separate rate/mix controls are listed for thismodule. This does not prove the whole strip is analog or establish total simultaneous count. [Manual][DB-MM] |
+| IDR condition-unverified indexed offer | **Rp3.240.000;Habis**, [Dooit Music Store,shop1051758555/item23157251802](https://shopee.co.id/VALETON-DAPPER-effect-BASS-Analog-Multi-7in1-preamp-chorus-octaver-fuzz-tuner-booster-compessor-i.1051758555.23157251802),KotaTasikmalaya. Four-month search cache,9June delivery,shop on holiday;direct cache miss. Full-sizeDapperBass title;condition,workingstate,stock,revision,variant,adapter/bundle,warranty andvoucher unverified. Title7in1 is seller wording,not verified simultaneous architecture;late-deliveryRp10k compensation notdiscount. |
+
+
 ## Dapper Bass Mini MES-2
 
 A compact bass multi-effects strip, separate from the full-size VES-2. Checked 2026-10-17; partial. Official manual metadata identifies MES-2, V01_231219.
