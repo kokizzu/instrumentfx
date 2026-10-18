@@ -475,7 +475,7 @@ def main():
         if mode == 'commit-spx900':
             message = 'research(yamaha): qualify DG-Stomp foot CC and MIDI receive modes'
         if mode == 'commit-mx200':
-            message = 'research(lexicon): qualify MX300 two-tap delay controls'
+            message = 'research(lexicon): specify MX300 remote preset and bypass mapping'
         if mode == 'commit-gnx4':
             message = 'research(digitech): qualify GNX4 USB monitoring and pair-level controls'
         if mode == 'commit-gnx3':

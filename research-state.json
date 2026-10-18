@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Lexicon MX300",
-    "task": "Saved original-manual two-tap timing, level and pan controls. Complete Route5 selector count, initial user-bank fill and visual controls remain unresolved. Next fresh Shopee discovery or significant required-field gap.",
+    "task": "Saved MIDI bank/program/bypass value mapping and editor SysEx channel-Off exception. Route5 selector count and initial user fill remain unknown. Next fresh Shopee brand/series discovery or significant required-field gap.",
     "next_models": [],
-    "after_queue": "366 active/46 brands;307 guitar159 bass69 vocal;all partial;114 Markdown compatibility paths retained;no downloads/workflows/push."
+    "after_queue": "366 active/46 brands;307 guitar159 bass69 vocal;all partial;114 compatibility Markdown paths;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -81032,5 +81032,18 @@
     "source": "https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
     "printed_pages": "23–24",
     "finding": "Independent percentage timing, level and pan for two taps; not extra processing blocks. Complete Route5 selector count remains unverified."
+  },
+  "mx300_midi_map_20261018": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
+    "printed_page": 44,
+    "finding": "Exact bank/program/bypass mapping saved; editor SysEx still receives with channel Off. Physical output label conflict retained.",
+    "discovery": {
+      "queries": [
+        "site:shopee.co.id Korg AX1G",
+        "site:shopee.co.id DigiTech RP80",
+        "site:shopee.co.id Zoom GFX-8 efek"
+      ],
+      "result": "No qualified exact hardware offer. GFX8 hits732732692/20031217262 and14849321/28104902463 are adapters;38361451/8214243069 is sensor;not processor prices."
+    }
   }
 }

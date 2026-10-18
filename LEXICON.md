@@ -129,6 +129,7 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 | Delay / practical limits | Studio/modulated delay maximum 2.5s stereo; mono/tape/pong 5s mono; reverse 2.5s mono. Repeat Hold loops existing repeats without accepting new delay input; not a full phrase-looper claim. | [Manual E pp22–23][M300-E] |
 | Reverb / live limits | Changing reverb Size temporarily mutes audio. This is a parameter-change limit, not a verified patch-change spillover result. | [Manual E p21][M300-E] |
 | Delay / two-tap control | Each tap runs at **1–100% of the base delay time**, with independent output level and stereo pan. For a500ms base,50%/100% gives250ms/500ms. This is two taps within one algorithm, not two extra processing blocks or a verified Route5 selector count. | [Rev E printed pp23–24][M300-E] |
+| MIDI / remote preset selection | Rev E p44 maps incoming **Program Change0–98 to displayed1–99**. **CC32=0 selects factory,1 selects user**. **CC120=0 bypasses the program;1–127 enables it**. The implementation chart marks Program Change and Control Change transmission unsupported; this supports receive/control use but does not resolve the physical OUT/THRU label conflict. SysEx is designated for Lexicon Editor; with MIDI channel Off it still receives on all channels. | [Rev E printed p44][M300-E] |
 
 ### Separate IDR hardware offers
 
