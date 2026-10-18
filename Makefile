@@ -2047,3 +2047,7 @@ expression-audit-commit-neural:
 .PHONY: expression-audit-commit-valeton
 expression-audit-commit-valeton:
 	python3 scripts/expression_audit_valeton.py commit
+
+.PHONY: expression-audit-commit-line6
+expression-audit-commit-line6:
+	python3 scripts/expression_audit_line6.py commit

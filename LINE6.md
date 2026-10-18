@@ -791,6 +791,12 @@ The P1 **USD555** observation was checked2026-10-14 at an international store, e
 
 The product page/FAQ still contain six-block wording. Retain the firmware3.0 eight-block correction above; do not revert based on launch copy or equate advertised available-model totals with simultaneous capacity. Firmware-current category counts, NAM/capture support, screen touch/pixels, current USB driver/OS/updater compatibility, drum patterns and loop persistence remain open. No sibling XL specifications are substituted. Published2.4-inch display and numbered control descriptions are model-specific evidence; no screen size was measured from a photo. The3.80 manual/guide details above came from indexed original-document excerpts; full-file reading or visual inspection is not claimed.
 
+### HX Stomp — across-preset expression audit, 2026-10-19
+
+[Exact 3.80 manual](https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf), indexed pp48–49,59: Global EXP Position retains position across presets; it does not create assignments. Adding Volume/Pan assigns EXP2. A single traditional pedal requires assigning Volume Position to EXP1 and bypass Switch=None. The documented workflow uses preset blocks; **no universal volume assignment verified**. Controller minimum/maximum are adjustable and reversible. Block placement determines attenuation; headphone, all-bypass, tail and looper coverage remain unresolved. Global master-knob settings are not expression assignments.
+
+[Original 3.80 manual mirror](https://www.scribd.com/document/1054791883/HX-Stomp-3-80-Owner-s-Manual-English), same document number40-00-0408 and device title: Scroll mode gives FS1 previous / FS2 next preset. Official full PDF reader exceeded13.6MB; indexed original passages used. [Firmware listing](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) currently exposes3.80.0; seller firmware unknown. No downloads. [Audit comparison](EXPRESSION-VOLUME.md).
+
 ## POD HD500
 
 Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Exactsellerunit identity remainsunconfirmed;ownership pending. Bass support is documented in the original v2.10 guide.
