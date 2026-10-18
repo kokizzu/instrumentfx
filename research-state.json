@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery",
-    "task": "BOSS/Roland rack exact-name pass saved without qualified hardware. Next search other series/brands;do not repeat SE70/VF1/GP100 accessory/unrelated results. Required catalogue verification and C300 primary-source recovery remain incomplete.",
+    "model": "Donner Alpha FX — unverified lead",
+    "task": "Arena2000 Diana offer saved. Alpha FX is an existing unresolved lead: consult DONNER.md#alpha-fx-source-recovery-lead exact document/access history before recovery;avoid repeating identical failed routes. Alternatively continue another required model gap/fresh discovery.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5691,6 +5691,12 @@
       "date": "2026-10-18",
       "source": "https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf",
       "finding": "Saved separate delay ceilings, fixed pitch voices and modulation structure without inferring looper/synthesis."
+    },
+    {
+      "model": "Donner Arena2000",
+      "date": "2026-10-18",
+      "source": "https://shopee.co.id/Donner-Arena-2000-Multi-Effect-Guitar-Pedal-AMP-Modeling-Multiple-Effects-Processor-i.495337904.26851341708",
+      "finding": "Additional exact Diana Musik offer saved as sold-out condition-unverified historical ask;reopened cache adds Habis missing from search."
     }
   ],
   "consolidation_and_price_findings": [
@@ -46299,7 +46305,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M-One XL."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Donner Alpha FX — unverified lead."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81928,7 +81934,7 @@
     "scope": "Explicit uncertainty signals in selected comparison facts only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4660,
+    "flagged_field_count": 4661,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -89657,6 +89663,13 @@
             "source": "DONNER.md",
             "signals": [
               "not_established"
+            ]
+          },
+          {
+            "field": "IDR / condition-unverified sold-out ask",
+            "source": "DONNER.md",
+            "signals": [
+              "unknown"
             ]
           },
           {
@@ -117173,12 +117186,12 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "085dae566ccabea6cc8e151cc88a8e27576bac664c965450ec2610bca454d39e",
+      "ALL-GUITAR.md": "ab55b292c6ceca5d9da91f94e9052761e1a418ccbd16aca966f5d26e97e6ccb6",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "91a1c53dc8b2aa4972f48bf9f4b16187a861ebd32fa536f393b585b85aba8579",
+      "ALL-BASS.md": "791d7ecb51112cdc31592e9bbb58eb8a332547b767f7dfdc6f0f152343dfbd86",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -117205,7 +117218,7 @@
       "ALL-VOCAL.md": "846e46abf471b1b419035ffb084ebbc9777dcfc03c2a897933bf01e80c611150",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
-      "DONNER.md": "ce5c541054ae33b1d419da8e595c2b258e7600a0993b8c324bc5c5f56fc45c9d",
+      "DONNER.md": "c37c37a6d312decc6f18ea53df29fb6683f01ed89fdd5bbec65feb8dd2c44837",
       "SINGLE-BASS.md": "b152b4bccbbdf859f5e5e5290abe80fdc5c823ecd2df04c98f52418ef3daa9bf",
       "HOTONE.md": "063338e4bf355a563178845e88f8d8653e510220f010587a0c633dd285c47931",
       "AUDOTA.md": "6b3f98df769cb2ee1ac2c53bc35962eb7def7fdd370a8d43cde0a674a765e7ad",
@@ -117464,5 +117477,17 @@
     "result": "No qualified exact hardware offer returned. Generic GP100 results were Valeton processors;SE70 results were water-level switches/doors/exhausts;VF1 results included Macross models,cooling fans andclothing. Not proof of market absence or model ineligibility.",
     "inventory_added": 0,
     "next": "Change discovery series/brand;retain these missing models as unverified market leads,not excluded products."
+  },
+  "discovery_donner_alpha_fx_20261018": {
+    "model": "Donner Alpha FX",
+    "status": "shop-page lead;not active inventory",
+    "source": "https://shopee.co.id/sap_audio",
+    "seller": "SAP AUDIO",
+    "indexed_ask_idr": 550000,
+    "cache": "three months",
+    "qualification": "No exact item/seller ID,condition,stock,variant,bundle,warranty orvoucher established. Manufacturer download index lists Alpha Series but exact Alpha FX manual identity unresolved.",
+    "primary_index": "https://au.donnermusic.com/pages/download",
+    "next": "Recover exact hardware item and Alpha FX manual;do not confuse Alpha Cruncher,Force,Bass orTripleThreat.",
+    "existing_recovery_history": "Existing DONNER.md#alpha-fx-source-recovery-lead already records exact manuals.plus document hash f07cbc77aa4531e85d7d7e4149f190808ac89bc465f0f2983caed8ef80128160 and failed access;consult it before retrying. This search corroborates existing lead,not a newly discovered model."
   }
 }

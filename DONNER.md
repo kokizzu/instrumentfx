@@ -96,6 +96,13 @@ Checked 2026-10-18.
 |---|---|
 | I/O / headphone load | Manufacturer regional product description recommends **32–64 Ω headphones**, noting reduced volume with higher impedance. This is recommended load, distinct from the manual’s **10 Ω output impedance**; it does not establish headphone power or a supported maximum impedance. [Donner Mexico product description](https://mx.donnermusic.com/products/donner-arena-2000-multi-effect-guitar-pedal-amp-modeling-multiple-effects-processor) |
 | Effects / evidence limits | No verified manufacturer category census obtained. Regional manual links identify an EC1790 PDF and a 20230315 compressed PDF, but both exceed reader limits. An Amazon-hosted 20221121-named Arena2000 manual has 14 pages but no readable text through this reader. No contents, firmware equivalence or overwrite behavior inferred from filenames. [Regional manual links](https://mx.donnermusic.com/products/donner-arena-2000-multi-effect-guitar-pedal-amp-modeling-multiple-effects-processor) |
+
+### Arena2000 — additional Diana Musik offer
+
+| Field | Dated IDR evidence |
+|---|---|
+| IDR / condition-unverified sold-out ask | **Rp3.600.000;Habis**,Diana Musik,Kota Yogyakarta,shop495337904/item26851341708. Checked2026-10-18: search crawl3months,reopened cached body2months. Reopened body establishes sold-out observation absent from search excerpt;relative tomorrow delivery is not live availability. Exact Arena2000 title;condition,working state,revision,adapter/bundle,warranty,shipping/tax,voucher andfinal total unknown. Not assigned new/used;Rp10.000 late-arrival compensation isnot a purchase discount. [Exact item](https://shopee.co.id/Donner-Arena-2000-Multi-Effect-Guitar-Pedal-AMP-Modeling-Multiple-Effects-Processor-i.495337904.26851341708). |
+
 <!-- comparison evidence ends -->
 
 ### Arena2000 — complete dated original finding
