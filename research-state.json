@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GE200 original",
-    "task": "Saved originalGE200 TFT/display and expression/TRS facts. Next exact-original manual evidence for IRcapacity/toe or fresh Shopee discovery. Keep Pro/PlusNAM separate.",
+    "task": "OriginalGE200 toe confirmed; V2-aware152total versus19MODappendix revision conflict saved. Next IRcapacity exactmanufacturer evidence or fresh Shopee discovery; no Pro/Plus borrowing.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -59260,6 +59260,23 @@
         "Qualified used price"
       ],
       "method": "Manufacturer HTML; manual mirror timed out; no downloads or execution"
+    },
+    {
+      "model": "MOOER GE200 original",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualzz.com/doc/45462598/mooer-ge-200-owner-s-manual",
+        "https://manualsnet.com/mooer/ge200"
+      ],
+      "finding": "Manufacturer manual pp12–14 confirms toe activation calibration and per-preset fallback volume;V2-aware manual152 total conflicts with retained19MOD appendix/older151baseline. Keep revision discrepancy.",
+      "remaining": [
+        "IR capacity",
+        "Current OS",
+        "Touch",
+        "Qualified used price",
+        "Reconciled later category counts"
+      ],
+      "method": "Manufacturer-authored mirrored manual body; matching original model cover/pagination; no download/execution or FAQ evidence"
     }
   ],
   "discovery_cross_brand_bass": {

@@ -528,6 +528,16 @@ Checked 2026-10-18 against the [Chinese original GE200 product page](https://cn.
 | USB audio / driver distinction | Product page names Windows ASIO4ALL; the support page separately offers an ASIO driver package. Neither is a patch editor, and no driver was downloaded or tested. |
 
 
+### GE200 original — manual expression and revision evidence
+
+Checked 2026-10-18 in manufacturer-authored manual text on mirrors: original GE200 cover, matching controls, dimensions and printed pagination; separate from Pro/Plus. No generated mirror FAQ used and no PDF downloaded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / toe | **Built-in toe-down activation switch confirmed.** Printed p.14 calibrates heel, toe, then forward pressure while confirming with VALUE; the final step sets activation sensitivity. Pages12–13 allow either expression pedal to target any parameter in nine blocks; marked parameters can also switch their block when expression is activated. EXP VOL PEDAL can provide master-volume behavior while the assigned function is inactive, saved per preset. [Original manual text](https://manualzz.com/doc/45462598/mooer-ge-200-owner-s-manual) |
+| Processing / revision conflict | V2.0-aware manual pp.2,25 says **152 effects**, versus older151/product baseline. Its notice adds Mono Pitch, but printed p.29 still lists19 MOD choices. Preserve that internal revision mismatch; do not silently change MOD to20 or claim the later category census reconciles. Both counts describe the library, not simultaneous blocks. [Revised manual text](https://manualsnet.com/mooer/ge200) |
+
+
 ## GE150 Pro Li
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
