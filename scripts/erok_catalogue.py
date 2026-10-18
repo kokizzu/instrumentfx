@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(erok): qualify MP20 regulatory family and manual applicability'))
+    print(git('commit','-m','research(erok): recover original MK20 family exterior photo exhibit'))

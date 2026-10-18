@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "EROK MP-20 / fresh discovery",
-    "task": "MP20saved1de9555;newregulatoryfamilyreportlinksMP20/MK20physically,butnotfirmware/features. Next recovermanufacturerusermanual9030673orMP20official8.4MBmanualandmatchapplicabilitybeforefieldtransfer. ModelDifference9030686bodyunread. Otherdiscovery/legacygapsretained.",
+    "model": "EROK MP-20",
+    "task": "Original exterior-photo exhibit recovered; inspect original visual panel against manufacturer MP20 before adopting counts. Original manual and model-difference PDFs inaccessible through actual index links. Do not repeatedly retry known failed hashes; next use manufacturer MP20 original manual recovery or fresh Shopee brand/series discovery after this checkpoint.",
     "next_models": [],
-    "after_queue": "361 partial models;302 guitar,158 bass,69 vocal;46 brands. Migration incomplete;no downloads,workflows orpush."
+    "after_queue": "361 partial active models/46 brands;114 Markdown compatibility files; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -60753,6 +60753,21 @@
         "Qualified used/new offer"
       ],
       "method": "OriginaltestreportreproductionandindexedmanufacturerFCCexhibitmetadata;no downloads/deviceexecution"
+    },
+    {
+      "model": "EROK MP-20",
+      "checked_date": "2026-10-18",
+      "finding": "Recovered original FCC exterior-photo PDF9030670,5pages figures1–10. MP20 panel match not established. Actual index links to letter9030686 and manualPDF remain cache misses; cleaned HTML not adopted.",
+      "sources": [
+        "https://device.report/m/68b7c27e86a39899dd5f01e379ad324d3aee5425f1713460f6115b66555dcf53.pdf",
+        "https://device.report/manual/19065546"
+      ],
+      "remaining": [
+        "Original MP20 manual and panel applicability",
+        "Original model-difference letter",
+        "Firmware/features/required technical fields"
+      ],
+      "method": "Browser-only original PDF access; no filesystem downloads or execution"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -80203,6 +80218,12 @@
       "scope": "Regulatorytestfamilyonly;technicalfieldtransfernotyetvalidated",
       "user_manual_exhibit": "9030673",
       "model_difference_exhibit": "9030686"
+    },
+    "external_photos": {
+      "exhibit": "9030670",
+      "original_pdf": "https://device.report/m/68b7c27e86a39899dd5f01e379ad324d3aee5425f1713460f6115b66555dcf53.pdf",
+      "pages": 5,
+      "scope": "MK20 FCC photographs; no MP20 retail panel equivalence or counts established"
     }
   }
 }
