@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 373,
+  "active_model_count": 374,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 373,
+  "canonical_root_model_count": 374,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "373 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "374 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper Acoustic Mini",
-    "task": "Saved DapperAcousticMini text-derived11knobs/3feet/?buttons; tuner sharesREVERB. Visualbrowserunavailable,so buttons/portabsence/diagonal remainunknown. Next fresheligibleShopeediscovery;do notrepeat knownDapperoffers/order/power.",
+    "model": "MOOER Prime P1",
+    "task": "Added P1 guitar/bass processor with battery-capacity/endurance conflict and no qualified Shopee offer. Next own manual for dimensions,power,controls,ports andchain/category limits;do not substitute P2/M1.",
     "next_models": [],
-    "after_queue": "373active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
+    "after_queue": "374active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5482,6 +5482,14 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Manufacturer vocal multi-effects added;style library separate from writable A/B presets;no qualified exact Shopee offer."
+    },
+    {
+      "model": "MOOER Prime P1",
+      "destination": "MOOER.md#prime-p1",
+      "source": "https://www.mooeraudio.com/products/180.html",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Exactguitar/bassmodel added;pagebatteryconflict anddesktop/mobile distinction retained;noqualifiedShopeeoffer."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24749,7 +24757,8 @@
       "Prime S1",
       "Ocean Machine II",
       "GS1000 Li",
-      "Ocean Machine original"
+      "Ocean Machine original",
+      "Prime P1"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -25118,7 +25127,8 @@
       "Prime S1",
       "Ocean Machine II",
       "GS1000 Li",
-      "Ocean Machine original"
+      "Ocean Machine original",
+      "Prime P1"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -25522,14 +25532,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 310,
+      "record_count": 311,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 162,
+      "record_count": 163,
       "bass_focused_record_count": 38,
-      "shared_bass_capable_count": 124,
+      "shared_bass_capable_count": 125,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -25552,10 +25562,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 310 guitar, 162 documented bass-capable, 70 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 311 guitar, 163 documented bass-capable, 70 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "373 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "374 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45988,18 +45998,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 373,
-    "canonical_root_models": 373,
+    "unique_brand_model_pairs": 374,
+    "canonical_root_models": 374,
     "legacy_only_models": 0,
-    "guitar_view_models": 310,
+    "guitar_view_models": 311,
     "bass_focused_models": 38,
     "vocal_only_models": 25,
     "vocal_view_models": 70,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 162,
-    "bass_shared_models": 124,
+    "bass_view_models": 163,
+    "bass_shared_models": 125,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -46080,7 +46090,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper Acoustic Mini."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Prime P1."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46202,6 +46212,7 @@
       "MOOER::Ocean Machine II",
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine original",
+      "MOOER::Prime P1",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -46462,6 +46473,7 @@
       "MOOER::Prime M2",
       "MOOER::Prime S1",
       "MOOER::GS1000 Li",
+      "MOOER::Prime P1",
       "M-VAVE::TANK-B",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -46633,6 +46645,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "MOOER::Prime P1": "Own page explicitly documents bass library and dual bass chains. https://www.mooeraudio.com/products/180.html",
     "Zoom::MS-100BT": "Zoom developer release notes document downloadable bass processing;loaded-effects requirement andcurrent transfer uncertainty retained. https://apps.apple.com/us/app/stompshare/id567649359",
     "LEKATO::ME-01": "Own brand ME-01 page explicitly allocates amp/IR entries16–20 to bass. https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
     "Blackstar::ID:X Floor One": "Own family manual256401M-VA-1 01/26 explicitly names One and lists three bass voices/input use. https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
@@ -47814,6 +47827,13 @@
     },
     "MOOER::Ocean Machine original": {
       "link": "MOOER.md#ocean-machine-original",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::Prime P1": {
+      "link": "MOOER.md#prime-p1",
       "source_files": [
         "MOOER.md"
       ],
@@ -81407,5 +81427,13 @@
   "dapper_acoustic_controls_20261018": {
     "source": "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf",
     "finding": "Text-derived three module footswitches; tuner shares reverb. No image inspection claim; browser unavailable."
+  },
+  "discovery_primep1_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Mooer\" \"Prime P1\"",
+      "site:shopee.co.id \"MOOER P1\"",
+      "site:shopee.co.id \"Mooer Prime\" \"P1\" efek"
+    ],
+    "result": "No qualified exact hardware offer;manufacturer exactmodel guitar/bass scope saved."
   }
 }

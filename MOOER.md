@@ -2044,3 +2044,27 @@ Own product pages andoriginalmanufacturer-authored manual text used;no II-specif
 | I/O / MIDI direction | Manual specifies **channel1 reception**,PC forpreset recall andCC foreffect switching/parameters;it says thepedal cannot transmit MIDI. The separately labelled **THRU forwards received input**,not newlygenerated pedalcontrol messages. Firmware-update use ofTHRU remains a separate serviceworkflow. Do notpromote THRU to a programmable MIDIcontroller output. |
 
 [Own manual p6][OM-M] explicitly describes a red selection border,providing textual color-UI evidence;display diagonal,resolution andtouch specification remain unverified. No image inspection claimed. The reset page gives confirmation/cancel controls butno factory-filled slot count oritemized reset scope;these remain unresolved.
+
+## Prime P1
+
+Guitar/bass multi-effects;partial,checked2026-10-18. Distinct fromP2/M1. [Own manufacturer page](https://www.mooeraudio.com/products/180.html).
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe unverified;F-series wirelessfootswitch control documented. |
+| K/F/B | One clickable knob;foot/button totals unverified. |
+| Display | Diagonal/color/touch unverified. |
+| Processing / categories | **126effects**;basslibrary **73effects,10amps,dualchains**. Simultaneous ceiling/categorycensus unverified. |
+| Memory | **Four A/B/C/D tones** accessible;factoryfilled/user/total library separation unverified. |
+| Synth / acoustic | Synth unverified;acoustic/otherinstruments described asfutureupdates,not verified installed support. |
+| Dimensions / mass | Page specifies **83×42×31mm;59g**,axes unstated;manualcross-check pending. |
+| I/O | Input,output,separateheadphones,USB-C;socketdetails unverified. Bluetoothaudio playback. |
+| Power | **5V1A charging**,about2.5h. Internalpageconflict: **1900mAh/up-to4.5h** features versus **2000mAh/about4h** specs. Actualdraw,charging/playback concurrency andDCbarrelpolarity unverified. |
+| Editor / platforms | PrimeApp iOS/Android viaBluetooth;USB-OTG recording documented,format/driverlimits unverified. [Current Prime downloads](https://www.mooeraudio.com/Downloads_xq/2.html) lists P1 forAndroid/HarmonyOS APK,butdesktopStudio listsP2/S1/M1/M2,notP1;do notborrow theirdesktopeditor orNAM additions. |
+| IR / NAM / capture | MNRS-basedfactory modeling;userIR/nativeNAM/convertedNAM/capture import unverified. |
+| Practical features | Tuner,10metronomes,40drumpatterns,80slooper. Looperchannels/scenes unverified. |
+| IDR price | ExactShopeequeries foundnoqualifiedhardwareoffer. Used/new amounts,seller/item,condition,stock,bundle,warranty,voucher unverified. |
+
+<!-- comparison evidence ends -->
