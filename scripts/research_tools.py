@@ -716,7 +716,7 @@ def main():
         if mode == 'commit-mg100-preservation':
             message = 'research(nux): preserve MG-100 source and retain official reverb conflict'
         if mode == 'commit-mg200-preservation':
-            message = 'docs(nux): preserve MG-200 complete source and comparison qualifications'
+            message = 'research(nux): retain two exact cached MG-200 hardware offers'
         if mode == 'commit-trident-preservation':
             message = 'research(nux): preserve TRIDENT original and qualify USB and loop routing'
         if mode == 'commit-finding-audit':
