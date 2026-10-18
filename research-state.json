@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "DigiTech RP360 I/O/navigation follow-up (partial lead)",
-    "finding": "Own manual documents FS1 down/FS2 up in Preset mode and rear I/O; phone optimization is not attenuation coverage. Remains unadmitted pending other model fields.",
+    "current": "Ampero Mini V2.2 volume-enable persistence",
+    "finding": "Explicit CTRL EXP Target VOLUME switch belongs to patch-changing control settings; global socket mode does not override target. Factory defaults and global exception unverified.",
     "next": [
-      "Return priority: Ampero Mini current V2.2 global-volume scope; RP360 admission gaps retained separately",
+      "Nano Cortex2.2 LEVEL target persistence and exact global override search",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"

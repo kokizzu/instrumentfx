@@ -261,6 +261,12 @@ Manufacturer-authored indexed text was read without downloading files, installin
 | Expression / external socket modes | The socket selects **EXP, Single FS or Dual FS**; EXP mode disables the other footswitch options. This documents alternative socket modes, not simultaneous analog expression plus two switches. |
 | Controls / CTRL assignments | **Three CTRL functions** can toggle chosen modules. CTRL1 is accessible by holding onboard footswitch1; CTRL2/3 use external switching. The functions may share or differ in their module targets; they are not three additional physical switches. |
 
+### Ampero Mini — V2.2 volume switch persistence clarification
+
+Checked2026-10-19, [own V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printedpp14,16–17,19–21. **CTRL→EXP→Target→VOLUME ON** enables expression volume; OFF disables it. The manual says all control settings change with patches and saving stores control information. Thus the documented volume enable is patch-level; a global override remains unverified. This does not prove every factory preset needs editing.
+
+The fixed heel/toe volume range is independent of four effect-target ranges. GLOBAL→EXP/FS selects socket mode and disables switch options inEXP mode, rather than overriding VOLUME assignment. The fixed onscreen VOLUME/TEMPO square does not negate its separate Pre/Post volume-position selector. No measured bypass/headphone/tail/looper coverage or pedal-position recall is established. No downloads ordevice operation.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
