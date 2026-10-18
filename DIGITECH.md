@@ -837,9 +837,9 @@ Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manuf
 | Expression | No built-in/toe pedal;externalpassive volume/continuous pedal viaCONTROL IN controlswah/Whammy whenactive,otherwise volume. |
 | K/F/B | **4/2/4**,text-derived:4knobs,2footswitches,EDITup/down,DRUMS,STORE. Knob1push additional;rearAMP/MIXERbutton separate. Visualaudit pending. |
 | Display | Preset/parameter/tuner display plusmatrixLEDs;diagonal/color/touch unverified. |
-| Processing / categories | **11simultaneous effects**;product advertises70+stompbox/amp/effect/cabinet choices. Categorycensus pending;not70simultaneous. |
+| Processing / categories | **11simultaneous effects**;product advertises70+stompbox/amp/effect/cabinet choices. Manual-derived choices: pickup2,wah3,compressor2,distortion9,amp16+acoustic1+Direct,cabinet12+Direct,EQ4,gate/swell2,Chorus/FX17,delay5,reverb6. Direct entries are not models;these counts are not simultaneous capacity. Distortion introduction/table list9 but selector sentence says4;conflict retained. Chorus/FX parameter sections enumerate17:chorus3,flanger2,and oneeach phaser,vibrato,rotary,tremolo,panner,envelope,AutoYa,stepfilter,Whammy,pitch,detune,intelligentpitch. Onlyone Chorus/FX choice atonce. [Own manual pp20–35](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf). |
 | Memory | **50user+50factory=100**;all50user initially duplicate read-onlyfactory presets. |
-| Synth / acoustic | Dedicatedsynth/acoustic simulation unverified. |
+| Synth / acoustic | Acoustic simulation confirmed: Dreadnaught acoustic inampselector. Synth remainsunverified: Chorus/FX introduction mentionsYaYa/SynthTalk,butfollowingparameter sections omitboth;not oscillator/polyphonic synthproof. [Own manual pp24,27–33](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf). |
 | Dimensions / mass | Product **10⅝length×8¾width×2⅝height inches;3.2lb**. |
 | I/O | TSinput,L/Routputs,3.5mmheadphones,CONTROL IN,USB-B,powerinput. |
 | Power | **PS0913B,9VAC1.3A** supply rating per[manufacturer powerlist](https://digitech.com/faqs/);notdevice draw. DCpolarity inapplicable. Battery/USBpower unverified. |
