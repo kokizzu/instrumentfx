@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery",
-    "task": "Yamaha and DigiTech RP missing-model searches saved. Next change brand/series (for example discontinued Korg/ToneWorks candidates), inspect inventory first and require exact hardware evidence; do not re-add adapter-only RP350/RP355/RP300 results.",
+    "model": "Korg AX3B",
+    "task": "Saved display and factory edit limits after missing-series discovery. Continue required primary synth/power gaps or fresh eligible Shopee discovery; do not infer factory user fill.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5637,6 +5637,12 @@
       "date": "2026-10-18",
       "source": "https://kb.line6.com/hx-stomp-faq",
       "finding": "Own FAQ directly corroborates battery absence, I/O switching/impedances and untested Windows ARM drivers. Numeric power ratings remain unresolved."
+    },
+    {
+      "model": "Korg AX3B",
+      "date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B",
+      "finding": "Original Value display semantics and write confirmation clarified; explicit AX3B EasyStart confirms editable but protected factory bank."
     }
   ],
   "consolidation_and_price_findings": [
@@ -46245,7 +46251,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Stomp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81874,7 +81880,7 @@
     "scope": "Explicit uncertainty signals in selected comparison facts only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4654,
+    "flagged_field_count": 4655,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -94869,6 +94875,13 @@
           },
           {
             "field": "Memory / reload scope",
+            "source": "KORG.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Memory / factory edit limits",
             "source": "KORG.md",
             "signals": [
               "unverified"
@@ -117081,13 +117094,13 @@
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "a295a155dbf6d15f22e2b0deeb079f3d7cbcd14dc07102273ea4aabfed5500bd",
+      "ALL-BASS.md": "92d08ae406ff0c4a5f08e87ca92f0f735eba625f87000fd7f3cdc1f53d261358",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
       "TC-HELICON.md": "12cd64498f57da54510519b3433967773328ef978aced58a70c60690e61186b5",
       "CUVAVE.md": "245b3f9975423a1b9a6f6facef5c9d2ddcc5fe5ebaa6134141678c66bde0c799",
-      "KORG.md": "6d2a55c2f37b9bbc93cdf03e71f39bb666175d0b3f9d8957ad823a92546a67bd",
+      "KORG.md": "b1a91bbe3de28aa46e7ca71a24b337b9129fa0691eaa525aba243cd9b3b3f216",
       "BLACKSTAR.md": "b669de5ae77c32f44e641de26714593d055d169b71576b4866f2a3665f7431b9",
       "DK.md": "97a52417dc4d52794f215684d2606af1648a498dd50ae44b9b4b02866b24800f",
       "AGENTS.md": "06193b1726f67bfa8c88ccded0458cb3ba22c713d343341086dcb6e1c1836cce",
@@ -117285,5 +117298,15 @@
     ],
     "result": "No unrecorded qualified hardware lead from this pass; listed offers already present in canonical DigiTech document. No new current-stock or price verification claimed. Search absence is not proof of market absence.",
     "inventory_added": 0
+  },
+  "discovery_korg_missing_20261018": {
+    "queries": [
+      "AX2000G",
+      "AX1G",
+      "PX4D",
+      "PX5D"
+    ],
+    "scope": "site:shopee.co.id Korg exact-series queries;broader ToneWorks/Pandora search returned existing models and unrelated dedicated pedals.",
+    "result": "No new qualified hardware from this pass;not proof of market absence."
   }
 }
