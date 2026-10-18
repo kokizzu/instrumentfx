@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Alesis MIDIverb 4",
-    "task": "Saved complete32configurationcensus(15Single+3Double+7DualMono+7MultiChain). Next freshShopee discovery orrequiredremainingfields;body/current/display/qualifiedIDR stillunknown.",
+    "model": "Alesis MicroVerb 4",
+    "task": "Saved analogratings/converteroversampling/bypasswetrestriction. Inputimpedancesymbols andsamplingremainunverified;continue freshShopee discovery orotherrequiredfields.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75503,5 +75503,11 @@
       "total": 32
     },
     "qualification": "Configurationmenu census,not32simultaneouseffects orindependentlyassignableblocks;initial/currentfirmware notverified"
+  },
+  "microverb4_analog_followup_20261018": {
+    "source": "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf",
+    "pages": "39,42–43",
+    "findings": "Inputnominal−10dBV/max+10dBV;adjustment+4dBv capitalizationretained;outputnominal−20dBVor+4dBu/max+17.5dBu500ohm;18bitADC128xDAC8x;bypassfullwetnosound",
+    "unresolved": "InputimpedanceOCR1MW/500kW notpromoted;samplingnotestablished;body/current/display/qualifiednewusedprices remainunknown"
   }
 }

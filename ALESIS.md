@@ -54,6 +54,20 @@ Checked 2026-10-18 from the [manufacturer Reference Manual](https://www.alesis.c
 Dimensions,mass,supply current,display details,full editor compatibility and qualified separate used/new prices remain unresolved. Existing historical offers and delay/display conflicts remain unchanged.
 
 
+### MicroVerb 4 — analog ratings and converter scope
+
+Checked 2026-10-18 from the [manufacturer manual,pp39,42–43](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf),original text only;no local download or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / analog input ratings | Two unbalanced inputs;**−10 dBV nominal,+10 dBV maximum**. Nominal adjustment is printed **+4 dBv**;preserve capitalization rather than silently convert it to dBu. Impedance text extracts as1MW/500kW;unit-symbol verification remains pending. |
+| I/O / analog output ratings | Two unbalanced outputs;**+17.5 dBu maximum;−20 dBV or+4 dBu nominal**,front-panel adjustable;**500 Ω** output impedance. Keep nominal and maximum distinct. |
+| Processing / converters | **18-bit Sigma-Delta ADC128×oversampling,DAC8×oversampling**. Internal24-bit accumulator is separate. Sampling frequency remains unverified;MIDIverb4's48 kHz must not be borrowed. |
+| Live / bypass restriction | Troubleshooting p39 associates bypass plus100%wet MIX with no output;reduce MIX or release bypass. This is relevant to mixer aux returns and does not establish a dry-through hardware topology. |
+
+Body dimensions/mass,current rating,display details and qualified used/new prices remain unresolved.
+
+
 ## MIDIverb 4
 
 Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discontinued [MD-P].
