@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3000B",
-    "task": "ESS mode/speed/smoothing distinctions saved. EditorHTML providesversions butnoOSrequirements;KA189page still doesnotresolvepolarity. Avoid unchangedfailed queries;continue other gap or fresh discovery.",
+    "task": "Compatible KA189 centernegative polarity now supported by exactmodel official-distributor listing;currentrating conflict retained. Do not repeat polarity search. Continue remaining fields with distinct evidence or fresh discovery.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial;no downloads/workflows/push;migration incomplete."
   },
@@ -94695,7 +94695,8 @@
             "source": "KORG.md",
             "signals": [
               "unknown",
-              "unverified"
+              "unverified",
+              "conflict"
             ]
           },
           {
@@ -117213,13 +117214,13 @@
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "39b4a1dc74e959974b171da5f0cec5b44c48b60177c11451153ffa5e65f2987f",
+      "ALL-BASS.md": "400dfa95643e5acfb4e2ad26d6e930e732ac46c117aae1427cb273edd64bce36",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
       "TC-HELICON.md": "12cd64498f57da54510519b3433967773328ef978aced58a70c60690e61186b5",
       "CUVAVE.md": "245b3f9975423a1b9a6f6facef5c9d2ddcc5fe5ebaa6134141678c66bde0c799",
-      "KORG.md": "af6122d7ba71fe2b7c79f78af779e1d14aea905107c0bc5f9f6da2c975c64b47",
+      "KORG.md": "e61aaa82206bbb4b1dbc5347426e188bc8c380c41211e9d09a012c68db09bf6b",
       "BLACKSTAR.md": "b669de5ae77c32f44e641de26714593d055d169b71576b4866f2a3665f7431b9",
       "DK.md": "97a52417dc4d52794f215684d2606af1648a498dd50ae44b9b4b02866b24800f",
       "AGENTS.md": "06193b1726f67bfa8c88ccded0458cb3ba22c713d343341086dcb6e1c1836cce",
@@ -117562,5 +117563,12 @@
       "site:shopee.co.id \"DOD\" \"BassTec\""
     ],
     "result": "Noqualifiedhardwareoffer;no marketabsence claim. BP200 search returnedalreadyexcluded adapter16626959/4486100964."
+  },
+  "ax3000b_adapter_polarity_20261018": {
+    "source": "https://www.korg-shop.de/en/korg-power-supply-ka-189/KRKA189",
+    "authority": "Korg official distributor MUSIK MEYER;confirmed at https://www.korg.com/hken/corporate/distributors/",
+    "destination": "KORG.md#ax3000b",
+    "finding": "ExactAX3000B-compatible KA189 centernegative;100–240V50/60Hz input. Preserve1A/600mA accessory conflict;notunitdraw ororiginalbundleproof.",
+    "remaining": "Barrel dimensions,unitdraw,battery,USB operation,display,imports,qualifiedoffers."
   }
 }
