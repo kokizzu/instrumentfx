@@ -209,6 +209,16 @@ Checked2026-10-18 against [original manufacturer manual pp22–23](https://jp.ya
 
 Mass and power-off sample retention remain unresolved:the inspected text’s program/buffer battery-backup description does not explicitly identify Freeze audio. No sample persistence test,download or visual page inspection performed.
 
+
+### SPX1000 — recall, empty memory and bypass
+
+| Field | Exact-model qualification |
+|---|---|
+| Factory / user memory recall | Selecting a number only previews it: the memory LED flashes until **RECALL** activates it. Unstored user locations41–99 display **NO DATA**. This documents empty-slot behavior, not proof that all59 slots shipped empty. [Manual p9](https://jp.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf) |
+| Live / bypass routing | Panel BYPASS or optionalFC5 bypass routes input directly to output terminals and lights BYPASS. The passage does not specify analog true bypass, relay implementation, tails or power-loss behavior. [Manual p9](https://jp.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf) |
+
+Checked2026-10-18 from own manufacturer manual text; no downloads or hardware operation.
+
 <!-- comparison evidence ends -->
 
 Working condition,stock,voltage variant,authenticity,bundle,mains cable,warranty,shipping/tax and voucher eligibility remain unknown. Rp10000late-arrival compensation is not purchase discount. Own official79-page manual accessible through US host;data/UKhost access403. Browser text only,no visual panel claim or filesystem download.

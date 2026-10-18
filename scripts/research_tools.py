@@ -471,7 +471,7 @@ def main():
         if mode == 'commit-dsp2024p':
             message = 'research(behringer): preserve DSP2024P regional mains revision differences'
         if mode == 'commit-rev500':
-            message = 'research(yamaha): qualify DG-Stomp memory backup and conditional tails'
+            message = 'research(yamaha): qualify SPX1000 recall and bypass behavior'
         if mode == 'commit-spx900':
             message = 'research(yamaha): document DG-Stomp effect blocks amplifier and speaker choices'
         if mode == 'commit-mx200':

@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Catalogue evidence extraction",
-    "task": "Saved strict canonical table-row width guard with red-green regression;all351 current canonical records pass. Resume exact Shopee ID discovery oranother model requiredfield gap,not repeated organization/status checks.",
+    "model": "Yamaha SPX1000",
+    "task": "Saved preview-versus-RECALL,emptyuserlocation behavior andbypass qualification. Next another requiredfield gap orfreshbrand ShopeeID hardware lead;initialfill/mass/sample persistence remainunknown.",
     "next_models": [],
-    "after_queue": "351partialmodels;155bass;technicalverification andlegacycompatibilitymigration incomplete;no downloads/workflows/push."
+    "after_queue": "351partialmodels;155bass;legacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24307,6 +24307,15 @@
         "Zoom9002"
       ],
       "finding": "Exact Shopee ID searches yielded no qualified hardware offer. G9.2tt result was category .2tt with power adapters,not processor hardware. No admission or availability conclusion."
+    },
+    {
+      "checked_date": "2026-10-18",
+      "models": [
+        "Rocktron Utopia",
+        "DigiTech Element XP",
+        "Korg AX4B"
+      ],
+      "finding": "Exact Shopee Indonesia searches returned no qualified hardware item. No admission or unavailability conclusion."
     }
   ],
   "inventory_by_brand": {
@@ -45648,7 +45657,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha DG-Stomp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha SPX1000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59870,6 +59879,22 @@
         "Universal trails not established"
       ],
       "method": "Manufacturer browser text,no downloads/device operation"
+    },
+    {
+      "model": "Yamaha SPX1000",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://jp.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf"
+      ],
+      "finding": "Own p9:selection previews untilRECALL;unstored41–99 NO DATA isnot initialfill proof;panel/FC5 bypass routesinputtooutputs withouttruebypass/tails certification.",
+      "remaining": [
+        "Mass",
+        "Initial user fill",
+        "Sample retention after power off",
+        "Qualified used/new asks",
+        "Editor support"
+      ],
+      "method": "Manufacturer browser text;no downloads/device operation"
     }
   ],
   "discovery_cross_brand_bass": {
