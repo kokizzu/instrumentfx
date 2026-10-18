@@ -132,14 +132,14 @@ Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discont
 | Instrument scope |Instrument direct/mixer paths;guitar andvocal examples inown manual. No direct mic preamp inferred; bass unclassified [MD-M pp.19–22,34] |
 | Expression | No built-in pedal/toe;continuous external EXP unverified. Momentary footswitch accepts normally-open/closed;assignable bypass/advance/control. MIDI X/Y sources select pitch bend,aftertouch,note,velocity orCC000–119 with−99 to+99 amounts;fixed destinations and exclusions detailed below [MD-M pp.34,49,60–61,68] |
 | Knobs / footswitches / buttons |**1/0/10**:VALUE;PROG,EDIT/PAGE,UTIL,STORE,INPUT,OUTPUT,A/NAME,B/ESC,C/left,D/right. Power switch separate;text-derived [MD-M p.67] |
-| Display |Custom LCD;diagonal,color/touch unresolved [MD-M p.67] |
+| Display |Custom LCD;**2005 catalogue explicitly backlit**,with signal monitors. Diagonal,color/touch unresolved [MD-M p.67];[Own catalogue p49](https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf) |
 | Processing / categories | **32 configurations:15 Single+3 Double+7 Dual Mono+7 Multi Chain;up to3 simultaneous effects**. To choose a configuration,copy an existing preset using it;factory096–127 covers all32. Fixed alternatives,not arbitrary block routing. Complete named census below [MD-P,MD-M pp.27–29,39,61] |
 | Preset memory |128factoryROM+128userRAM=256;manual explicitly leaves17user locations111–127blank,so111user locations initially filled (128−17,derived). Protected factory andwritable user locations remain separate [MD-M pp.39,68] |
 | Synth / acoustic |Pitch±1octave. Manual recommendsAmbience forsolid-body guitar hollow-body coloration;this isreverb,notverified dedicated acoustic simulator. Dedicated synth unresolved [MD-P,MD-M p.30] |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured captures unverified |
 | Audio / control ports |2TS inputs,2TS outputs;MIDI IN,OUT/THRU;momentary footswitch;9VAC power. No USB,mic/phantom,headphone orFXloop socket inrear inventory [MD-M pp.67–68] |
 | Power / battery / USB |9VAC external supply;manual names120VAC mains forsupplied version. Current,other regions,battery/USB operation unresolved;DC polarity inapplicable toAC output [MD-M p.49] |
-| Dimensions / weight |Unverified;MicroVerb4 data notsubstituted |
+| Dimensions / weight |**H×W×D1.75×19×7in (45×483×178mm),1U;4.5lb(2kg)**,as published in own2005 catalogue. Packaging/knob inclusion unqualified;no MicroVerb4 data substituted. [Catalogue p49](https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf) |
 | Analog conversion | **18-bit ADC128×/DAC8× oversampling;48kHz;24-bit internal accumulator**. Conversion and processing word lengths differ. Analog input/output ratings retained below [MD-P,MD-M p.67] |
 | Editor / software | SysEx can send all user programs,the edit buffer or program-change table;incoming dumps automatically enter receive mode. Two global MIDI modulation sources have configuration-fixed destinations;full editor/platform and modern librarian compatibility remain unverified [MD-P,MD-M pp.59–62] |
 | Looper / drums / live |AutoLevel input sensing;compare/bypass. Mixer aux:100%wet orDryDefeat. Advance footswitch wraps127→00. DualMono Cascade disablesRight input;Left output=stage1,Right output=stage1→2. Double configurations sum bothstereo effect outputs;MultiChain haslighter processing thanSingle equivalents. Looper,drums,scenes,spillover unresolved [MD-M pp.28–29] [MD-P,MD-M pp.20,49] |
@@ -159,7 +159,7 @@ Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discont
 - [MD-P: manufacturer product](https://www.alesis.com/products/view/midiverb4.html).
 - [MD-M: original69-page reference manual](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf),text inspected;no new visual inspection claimed.
 
-No files downloaded. Current remaining checks:body dimensions/mass,supply current and regional power specifications,display diagonal/color/touch,continuous-expression and import support,installed firmware,full editor/librarian compatibility,qualified used/new offers and live stock. The32-configuration census and modulation/backup limits are documented in the dated follow-ups below.
+No files downloaded. Current remaining checks:supply current and regional power specifications,display diagonal/color/touch,continuous-expression and import support,installed firmware,full editor/librarian compatibility,qualified used/new offers and live stock. The32-configuration census and modulation/backup limits are documented in the dated follow-ups below.
 
 ### MIDIverb 4 — analog levels, converters and reset scope
 
@@ -172,7 +172,7 @@ Checked 2026-10-18 from its own [manufacturer Reference Manual](https://www.ales
 | Processing / converters | P67: **18-bit Sigma-Delta ADC128×oversampling,DAC8×oversampling;48 kHz**. The24-bit accumulator is internal processing,not24-bit converters or USB recording. |
 | Memory / initialization | P63: hold PROG+D during power-up to reset Utility settings and recall Preset01. User Programs are erased;back up via MIDI SysEx first. P64: hold PROG and press EDIT to inspect software version. This differs from MicroVerb4's reset sequence and startup preset. |
 
-Body dimensions/mass,supply current,display specifications,full category census and qualified used/new prices remain unresolved. No seller or installed-firmware state was verified by this manual check.
+Supply current,display specifications,full category census and qualified used/new prices remain unresolved. No seller or installed-firmware state was verified by this manual check.
 
 
 ### MIDIverb 4 — complete configuration census
@@ -208,6 +208,17 @@ Checked 2026-10-18 against original text in the [manufacturer manual, pp59–62]
 
 For both: working condition, authenticity, revision, adapter/accessories, bundle, warranty, current stock, shipping/tax and delivered total remain unknown. Each advertises up-toRp10.000 late-arrival compensation, not an applied product discount. Neither establishes separate qualified used/new pricing.
 
+
+### MIDIverb 4 — own 2005 catalogue rating conflict
+
+Checked2026-10-18 against manufacturer-authored Spring2005 catalogue,52PDFpages,printed49. Exact MidiVerb4 Details entry matches18-bit/48kHz andMIDI/footswitch architecture;not MicroVerb4. Browsertext only,no download orvisualaudit.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / catalogue versus manual | Catalogue specifies input maximum**+20dBV**,output**+14dBV effect/+20dBV direct**;manualp67 instead+10dBV input/+17.5dBu output. Preserve both sources andunits;no established revision orsafe clipping limit inferred. |
+| Audio / catalogue response | Catalogue specifies20Hz–20kHz±1dB,dynamicrange>90dB,THD+N0.01%. These are published specifications,not measurements of any seller unit. |
+
+[Original Alesis catalogue,p49](https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf). Power current,display diagonal/color/touch,editor andcondition-qualified prices remainunverified.
 
 ## MIDIverb III
 

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "MicroVerb4 own2005 catalogue body dimensions,sample rate andexplicit3digitLED recorded;analogratings andabbreviatedcontrols conflicts retained. Continue fresh hardware discovery orrequired-field audits; mass,current,display details,newprice/editor remain open.",
+    "task": "MIDIverb4 own2005 catalogue dimensions/mass/backlitLCD recorded;analog-rating conflict retained. Continue fresh Shopee discovery or required-field audits; current,screen details,editor/imports andqualified prices remain open.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60391,6 +60391,23 @@
         "Editor support"
       ],
       "method": "Identity-matched manufacturer catalogue mirror,browsertextonly,no downloads"
+    },
+    {
+      "model": "Alesis MIDIverb 4",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf"
+      ],
+      "finding": "OwnSpring2005 cataloguep49:45H483W178Dmm,4.5lb(2kg),backlitLCD. Analog max+20dBVinput,+14dBVeffect/+20dBVdirect disagrees with manualp67+10dBV/+17.5dBu;retained independently,no revision inferred.",
+      "remaining": [
+        "Actual current/barrel",
+        "Regional power",
+        "Display diagonal/color/touch",
+        "Reconcile analog ratings",
+        "Qualified used/new asks",
+        "Editor/import support"
+      ],
+      "method": "Identity-matched manufacturer catalogue onmirror,browsertextonly,no downloads"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79675,5 +79692,14 @@
       "site:shopee.co.id \"Digitech\" \"Vocalist Live 3\""
     ],
     "result": "No new exact hardware lead;Vocalist Live3 hit16626959/4486100964Rp175000 is adapter,notprocessor. GenericMicroverb/storefront hits do not establish Microverb3."
+  },
+  "discovery_midiverb_catalogue_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Alesis\" \"GuitarFX\"",
+      "site:shopee.co.id \"Korg\" \"AX1B\"",
+      "site:shopee.co.id \"Zoom\" \"BFX-708\"",
+      "site:shopee.co.id \"Digitech\" \"BP200\" -adaptor -adapter"
+    ],
+    "result": "No new processor lead;returned16626959/4486100964 is existing adapter,notBP200 hardware. No unavailability conclusion."
   }
 }
