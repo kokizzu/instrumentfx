@@ -538,6 +538,19 @@ Checked 2026-10-18 in manufacturer-authored manual text on mirrors: original GE2
 | Processing / revision conflict | V2.0-aware manual pp.2,25 says **152 effects**, versus older151/product baseline. Its notice adds Mono Pitch, but printed p.29 still lists19 MOD choices. Preserve that internal revision mismatch; do not silently change MOD to20 or claim the later category census reconciles. Both counts describe the library, not simultaneous blocks. [Revised manual text](https://manualsnet.com/mooer/ge200) |
 
 
+### GE200 original — live routing and loop operation
+
+Checked 2026-10-18 in the [manufacturer-authored V2.0-aware manual body](https://manualsnet.com/mooer/ge200), printed pp.17–22; original GE200 identity verified above.
+
+| Field | Evidence / qualification |
+|---|---|
+| Footswitch preset modes | Mode1 changes presets directly and supports hold-to-scroll. Mode2 selects a pending preset, then requires CTRL/TAP confirmation before changing. |
+| Output routing | CAB SIM THRU independently bypasses cabinet simulation for left/right outputs; the example feeds a stage amp without cabinet simulation and PA with it. |
+| Trails / firmware | V2.0-aware manual describes delay/reverb trails lasting a few seconds after CTRL bypass **and between presets**. This is a documented conditional function, not a measured seamless-switching guarantee. |
+| Looper | PRE records dry guitar before processing, permitting effects changes on playback; POST records the processed tone. CTRL/TAP cycles record/play/overdub, double-press stops, hold clears. Reverse and half-speed are available; obscured switch icons in the text were not reconstructed. |
+
+IR import capacity remains unverified: the checked original product/support/manual text did not establish a user-slot count. Pro/Plus slot counts are separate model evidence.
+
 ## GE150 Pro Li
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

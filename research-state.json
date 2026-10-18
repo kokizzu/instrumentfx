@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER GE200 original",
-    "task": "OriginalGE200 toe confirmed; V2-aware152total versus19MODappendix revision conflict saved. Next IRcapacity exactmanufacturer evidence or fresh Shopee discovery; no Pro/Plus borrowing.",
+    "model": "Fresh Shopee Indonesia discovery",
+    "task": "OriginalGE200 live routing saved; IRcapacity remains unknown after originalproduct/support/manual search. Resume fresh exacthardware discovery by brand/series; commit useful model evidence before next.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45602,7 +45602,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE200 original."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59277,6 +59277,22 @@
         "Reconciled later category counts"
       ],
       "method": "Manufacturer-authored mirrored manual body; matching original model cover/pagination; no download/execution or FAQ evidence"
+    },
+    {
+      "model": "MOOER GE200 original",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualsnet.com/mooer/ge200"
+      ],
+      "finding": "Manual pp17–22 confirms presetconfirmation mode, peroutputcab bypass, V2.0 trails acrosspresets and PREPOSTloop/control operations.",
+      "remaining": [
+        "IR capacity",
+        "Touch",
+        "Current OS",
+        "Qualified used price",
+        "Later category census"
+      ],
+      "method": "Manufacturer-authored manual body only; no download. Exactoriginal IRslot search yielded variants, no supported original count."
     }
   ],
   "discovery_cross_brand_bass": {
