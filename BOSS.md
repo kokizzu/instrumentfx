@@ -2812,6 +2812,9 @@ Checked 2026-10-17; partial. Guitar/acoustic-electric multi-effects; bass/vocal 
 | Preset memory | **140 user + 200 preset = 340**; initial user contents pending. | [Manual p71][GT3-M] |
 | Synth / acoustic | Guitar synth and acoustic simulation documented; Auto Riff triggers riffs from a note. Acoustic-electric preamp and anti-feedback also documented. | [Manual p5][GT3-M]; [Product][GT3-P] |
 | I/O | Input, L/Mono and R outputs, stereo mini headphones, send/return, shared SUB EXP/SUB CTL1,2, MIDI In/Out; adapter input. | [Manual p71][GT3-M] |
+| Conversion | **24-bit AF A/D,64×oversampling;20-bit D/A,128×oversampling;44.1kHz**. AF combines differently scaled converter streams;not proof of24-bit D/A orUSB recording. | [Manual p71][GT3-M] |
+| I/O / analog levels | INPUT/RETURN nominal**−10dBm**,impedance**1MΩ/220kΩ** respectively. OUTPUT nominal**0dBm**,SEND**−10dBm**;bothoutput impedances**2kΩ**. Source defines0dBm=0.775Vrms;retainits terminology. These arenominal,notmaximumclipping levels. | [Manual p71][GT3-M] |
+| Conversion / dynamic range | Manufacturer specifies **≥100dB(IHF-A)** dynamicrange. Weighted publishedrating,notlocalmeasurement orunweightedSNR. | [Manual p71][GT3-M] |
 | Power / battery / USB | **14 V AC; 800 mA draw**, supplied BRC-120/230/240 adapter variants. AC has no fixed DC center polarity; battery/USB operation unverified. | [Manual p71][GT3-M] |
 | Dimensions / mass | **487 W × 222 D × 97 H mm; 4.0 kg**; adapter inclusion in mass not specified in this passage. | [Manual p71][GT3-M] |
 | IR / NAM / capture | Import, native/converted NAM and proprietary capture pending. | Unresolved |
