@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "AX3000BJapaneseeditionrevealsheadphoneOUTPUTmutingconflict;cabinetcontradictionpersistssamelanguage. Next verifyactualrevision/erratumorotherunresolvedfields,andexpandhardwarediscoverybeyondempty3030/4040/AX100B/ME6queries. EXheight/software,G3Xbuttons/display,MP100IR/censusopen.",
+    "task": "AX3000B sevenCCtargets/OFF-orCC00–95 andincomingSysExregardlessSYEXOUT recorded. EditorOSprimaryrequirementsremainunverified,chartlandingcachemiss. Next freshhardwarediscoveryandotherrequiredfieldaudits;retainroutingconflicts,EXheight/software,G3Xdisplay/buttons,MP100IR/census.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60662,6 +60662,22 @@
         "Display and qualified offers"
       ],
       "method": "Manufacturer-hosted original JapanesePDFtext,model/panel/contentsmatched;no download/deviceoperation"
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf"
+      ],
+      "finding": "E1pp52–53 sevenCCtargets,eachOFForCC00–95;SYEXOUTdoesnotblockincomingparameter/mode/programchanges. OfficialeditorOSrequirementsnotrecovered;secondaryWindows98/VistaOSX10.2listsnotaccepted. SeparateMIDIchartlandingcachemiss.",
+      "remaining": [
+        "Editor OS/version requirements",
+        "Incoming MIDI chart/clock support",
+        "Power polarity",
+        "Display",
+        "Qualified offers"
+      ],
+      "method": "Own manufacturer manual browsertext,no download/software/deviceexecution"
     }
   ],
   "discovery_cross_brand_bass": {

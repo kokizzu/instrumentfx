@@ -740,6 +740,14 @@ Checked2026-10-18 against [own E1 manual][AX3B-M], pp47–49,52–54. No transfe
 |---|---|
 | Routing / cross-language cabinet conflict | The manufacturer-hosted **64-page Japanese AX3000B manual**, matching the model’s panel/contents, repeats both incompatible statements: printed p4 enables cabinet with **Ln and drive/amp ON**, while p12 says **Ln ignores cabinet**. Thus Japanese text does not resolve English E1’s cabinet contradiction. Its p12 headphone instruction separately contradicts English E1 as recorded above. No hardware revision, erratum or device behavior is established. [Original Japanese manual](https://cdn.korg.com/jp/support/download/files/ad7b024ac03dc1e432a229c79fda966e.pdf),checked2026-10-18; browser text only. |
 
+
+### AX3000B — MIDI assignment limits
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| MIDI / independently assigned controls | E1 p52 lists **seven controller targets**: expression pedal, CONTROL switch and on/off for PRE,DRIVE/AMP,MOD,DELAY,REVERB. Each accepts **OFF or CC00–CC95**. These are assignable control numbers, not96 simultaneous destinations or new audio blocks; global CCHG I/O still gates all CC transfer. [E1][AX3B-M] |
+| MIDI / incoming SysEx gate | P53 explicitly says incoming parameter changes and other SysEx can change parameters,modes or program numbers **regardless of SYEX OUT**. That setting controls outgoing changes and is not an incoming-data lock. No transfer was tested. [E1][AX3B-M] |
+
 <!-- comparison evidence ends -->
 
 [AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B
