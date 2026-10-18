@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 341,
+  "active_model_count": 342,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 341,
+  "canonical_root_model_count": 342,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "341 unique active/root-canonical;0 legacy-only;39 brands;six excluded;all partial.",
+  "count_reconciliation": "342 unique active/root-canonical; 0 legacy-only; 39 brands; six excluded; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake B Factory QDS-05",
-    "task": "Bass-focused partialrecord admitted. Recoveroriginalpanel/manual andresolvecontrol/memory/fullI/O gaps. Next pendingacoustic lead:AFactory exactShopee19700013/29662719865 Rp795000Habis;verifyownprimarybeforeadmission.",
-    "next_models": [
-      "Sonicake A Factory"
-    ],
-    "after_queue": "341 partial unique models;117 compatibility paths retained.No downloads/workflows/push."
+    "model": "Sonicake A Factory QDS-04",
+    "task": "Partial acoustic model admitted; resolve original panel/manual and remaining fields. Resume fresh Shopee discovery when exact-model primary evidence is exhausted.",
+    "next_models": [],
+    "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24469,7 +24467,8 @@
       "Black Hammer QCE-30",
       "RockStage QCE-10",
       "Levitate QDS-02",
-      "B Factory QDS-05"
+      "B Factory QDS-05",
+      "A Factory QDS-04"
     ],
     "TC-Helicon": [
       "VoiceLive Play",
@@ -24882,7 +24881,8 @@
       "Black Hammer QCE-30",
       "RockStage QCE-10",
       "Levitate QDS-02",
-      "B Factory QDS-05"
+      "B Factory QDS-05",
+      "A Factory QDS-04"
     ],
     "M-VAVE.md": [
       "TANK-G",
@@ -25096,7 +25096,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 285,
+      "record_count": 286,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25126,10 +25126,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 285 guitar, 147 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 286 guitar, 147 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "341 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "342 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -45444,10 +45444,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 341,
-    "canonical_root_models": 341,
+    "unique_brand_model_pairs": 342,
+    "canonical_root_models": 342,
     "legacy_only_models": 0,
-    "guitar_view_models": 285,
+    "guitar_view_models": 286,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -45507,7 +45507,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake B Factory QDS-05."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake A Factory QDS-04."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45667,6 +45667,7 @@
       "Sonicake::Black Hammer QCE-30",
       "Sonicake::RockStage QCE-10",
       "Sonicake::Levitate QDS-02",
+      "Sonicake::A Factory QDS-04",
       "TC-Helicon::Play Acoustic",
       "TC-Helicon::VoiceLive 3 Extreme",
       "TC-Helicon::PERFORM-VG",
@@ -47522,6 +47523,13 @@
     },
     "Sonicake::B Factory QDS-05": {
       "link": "SONICAKE.md#b-factory-qds-05",
+      "source_files": [
+        "SONICAKE.md"
+      ],
+      "finding_files": []
+    },
+    "Sonicake::A Factory QDS-04": {
+      "link": "SONICAKE.md#a-factory-qds-04",
       "source_files": [
         "SONICAKE.md"
       ],

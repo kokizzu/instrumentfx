@@ -629,3 +629,28 @@ Checked 2026-10-18; partial bass-focused multi-effects. [Sonicake exact product]
 | Price / used IDR | No separate used offer established. |
 
 [Officially linked English manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-05_B_Factory__Manual_EN_V01_230921_Curve___623000020.jpg?v=1709603192) returned no inspectablecontent;filenameV01/230921 doesnotprovefullmanualvalidation. Remaining:originalpanel/manual,allcontrolandmemoryfields,fullI/O,powerdetails,loading/software andqualifiedfreshprices. No downloads,installations orhardware tests.
+
+## A Factory QDS-04
+
+Checked 2026-10-18; partial acoustic-guitar multi-effects. [Exact manufacturer product](https://www.sonicake.com/products/a-factory) (P) identifies QDS-04; [Hotone Japan distributor](https://www.hotone.jp/brands/sonicake/products/a-factory) (J) corroborates preamp, reverb and notch filtering. B Factory specifications are not transferred.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in, external and toe support unverified. |
+| Physical controls / K/F/B | Separate rotary, footswitch and button census unresolved; original panel not inspected. |
+| Display | Screen presence, diagonal, monochrome/color and touch unverified. |
+| Processing / category choices | **Analog preamp, digital reverb and adjustable notch filter**; mute and buffered bypass. Exact block ceiling, algorithm choices and routing unresolved. |
+| Memory / factory / user | Preset, factory and user memory unverified. |
+| Synth / acoustic | Intended for acoustic guitar, violin and mandolin. Acoustic-instrument processing is not proof of electric-to-acoustic simulation; dedicated simulation and synthesis unverified. Bass suitability unclassified. |
+| Dimensions / mass | P: **124D × 90W × 54.8H mm, 392g**. J instead labels **124W × 90D × 54.8H**; axis conflict preserved. |
+| Power / battery / USB | **9VDC, 5.5×2.1mm center-negative, 60mA** published specification; manufacturer adapter excluded. Battery, USB operation and phantom powering unverified. |
+| I/O | **10MΩ input**, main output **100Ω**, balanced XLR output **100Ω**. Full connector inventory, headphones, ground lift and phantom tolerance unresolved. P's own FAQ says DI remains usable with preamp and reverb off; no passive/power-off claim inferred. |
+| IR / NAM / captures | IR, native NAM, converted NAM and proprietary capture loading unverified. |
+| Editor / software | Editor platforms, updater and USB audio/MIDI unverified. |
+| Looper / drums / scenes | Unverified. |
+| Live / mute | J describes tap to switch reverb and long press for mute; notch gain/frequency adjustable. Numeric ranges and latch/momentary mute behavior unresolved. |
+| Price / sold-out IDR | **Rp795.000, Habis**, [MICKEY MOUSE SHOP, shop19700013/item29662719865](https://shopee.co.id/Efek-Gitar-Akustik-SONICAKE-A-Factory-Acoustic-Guitar-Analog-Preamp-Digital-Reverb-3D-Dimension-Effect-Pedal-i.19700013.29662719865). Checked 2026-10-18: three-week cached body shows **Jakarta Utara**, stale22–24Sep arrival. Earlier three-month cache showed **Jakarta Pusat**, holiday/service unavailable. Condition, bundle and warranty unverified; Rp10.000 late-delivery compensation is not a purchase discount. No current stock claim. |
+| Price / new IDR | No condition-verified new offer established. |
+| Price / used IDR | No separate used offer established. |
+
+[Official English manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-04_A-Factory__Manual_EN_V01_230814_Curve___623000019.jpg?v=1709603180) returned no inspectable content; filename V01/230814 alone does not validate its contents. Seller's “3D Dimension” title is not an independently verified extra processing block. Remaining: panel/manual, controls, expression, display, memory, full I/O, loading/software and fresh condition-qualified offers. No downloads, installation or hardware tests.
