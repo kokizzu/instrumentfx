@@ -482,6 +482,12 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | Memory / reset scope | P18 Factory Reset erases edited presets and individual settings;not a settings-only reset. The screen warns all user data is erased. No reset performed or assumption of imported-file retention. |
 | Display / operation | P18 offers brightness,display sleep delay andsystem language settings. About shows firmware version;its illustratedV1.0.1 is an example,not the installed/latest version. |
 
+
+| Field | Evidence / qualification |
+|---|---|
+| USB audio / second-source corroboration,2026-10-18 | The [official QME-200 page](https://www.sonicake.com/products/matribox-ii-pro) explicitly advertises multiple virtual USB interfaces,Loopback andRe-Amp,plusAUX recording. This corroborates those general Pro functions independently of the Japanese manual’s sibling-name wording;it does not confirm exact channel assignments or minimum firmware. The linked [English firmware1.2.2 manual](https://sonicake.oss-accelerate.aliyuncs.com/res/JIyz39IVZe/Matribox_II_PRO_Online_Manual_EN_Firmware_V1.2.2.pdf) could not be inspected:reader rejected38,640,860bytes as too large. No local download attempted;its contents remain unverified. |
+| Software / Windows11 notice conflict | The same page’s update notice requires a driver update first,while its FAQ describes an update/restoration hang after a Windows11 update,recommends Windows10/Mac/Windows10VM,and says avoid reconnecting to Windows11 until fixed. Preserve both instructions;no resolved fix,current OS-build compatibility or V5.57.1 driver cure is established. Driver version is a listing,not proof that either instruction is obsolete. No driver/update executed. |
+
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 
 <!-- comparison evidence ends -->

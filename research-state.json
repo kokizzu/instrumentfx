@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved manualUSBmodes,reamp/loopback/AUX andreset/displayoperation withMatriboxIIwording/revisioncaveats. Next corroborateexactPro/currentfirmwareUSBbehavior orfreshShopeediscovery;no downloads.",
+    "task": "ExactPropagecorroboratesgeneralUSBloopback/reamp/AUX;English1.2.2PDFreaderblockedsize,no download. Windows11notices conflict retained. Next otherprimaryaccessibleUSBsource orfreshShopee/newmodelrequiredfields.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved manualUSBmodes,reamp/loopback/AUX andreset/displayoperation withMatriboxIIwording/revisioncaveats. Next corroborateexactPro/currentfirmwareUSBbehavior orfreshShopeediscovery;no downloads.",
+    "task": "ExactPropagecorroboratesgeneralUSBloopback/reamp/AUX;English1.2.2PDFreaderblockedsize,no download. Windows11notices conflict retained. Next otherprimaryaccessibleUSBsource orfreshShopee/newmodelrequiredfields.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75908,5 +75908,13 @@
       "site:shopee.co.id Flamma FX200B"
     ],
     "result": "Noqualifiednewexacthardwareoffer;GE200BluesPluspresetpackrejected;notmarketabsence"
+  },
+  "matribox_ii_pro_usb_corroboration_20261018": {
+    "source": "https://www.sonicake.com/products/matribox-ii-pro",
+    "corroborated": "ExactQME200 generalvirtualUSBinterfaces,AUXrecording,Loopback/ReAmp",
+    "english_manual": "https://sonicake.oss-accelerate.aliyuncs.com/res/JIyz39IVZe/Matribox_II_PRO_Online_Manual_EN_Firmware_V1.2.2.pdf",
+    "access": "Reader400contentlength38640860toobig;notinspected/downloaded",
+    "windows11_conflict": "Driver-firstnoticeversusFAQuseWin10/Mac/Win10VM/avoidWin11untilfixed;V5.57.1listingnotcureproof",
+    "remaining": "Exactchannels,minfirmware/currentWin11buildfixunverified"
   }
 }
