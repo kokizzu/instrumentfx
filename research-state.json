@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-30",
-    "task": "GEN2/V5 editor anddriver qualifications saved. Continue own-manual gaps orfreshShopee discovery;Twiggyexactoffer still unresolved.",
+    "task": "Three exact MG30 asks saved withcondition/stock/bundle/access qualifications. Used/newverifiedprices remain unknown;continue unresolvedfields orfreshdiscovery.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -67677,6 +67677,18 @@
     {
       "token": "3851698090",
       "model": "NUX::Atlantic NDR-5"
+    },
+    {
+      "token": "12156758195",
+      "model": "NUX::MG-30"
+    },
+    {
+      "token": "8339441712",
+      "model": "NUX::MG-30"
+    },
+    {
+      "token": "16685054304",
+      "model": "NUX::MG-30"
     }
   ],
   "g3xn_dsp_acoustic_20261017": {
@@ -72771,5 +72783,22 @@
     "source": "https://nuxaudio.com/product/mg30/",
     "finding": "Saved exact GEN2/V5 editor pairing and dated releases in current MG30 comparison evidence;ASIO OS labels kept distinct from editor support.",
     "remaining": "Minimum editor OS,USB formats,looper details,displaypixel/touch andqualifiedIDR offers remain unresolved;no files downloaded."
+  },
+  "mg30_offer_followup_20261018": {
+    "checked_date": "2026-10-18",
+    "finding": "Three exact model offers retained separately;condition andstock unverified. No sale/completedtransaction ornew/used classification inferred.",
+    "unresolved_ranges": [
+      {
+        "item": "253483262/9939344978",
+        "idr": "4650000–4750000",
+        "reason": "Three unresolved variations;not a single confirmed hardware configuration"
+      },
+      {
+        "item": "12356205/6969926909",
+        "idr": "4815000–4850000",
+        "reason": "Three unresolved variations;not a single confirmed hardware configuration"
+      }
+    ],
+    "next": "Recoverexactusedcondition/newcondition andbundleidentity;otherwisecontinuefreshbrand/series discovery."
   }
 }

@@ -294,7 +294,11 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg400/) · [Source 2](htt
 | Ports | 6.35 mm input,two main outs,mono SEND/RETURN;3.5 mm AUX/phones;EXP1;USB;DC. |
 | Power | **9V center-negative,<400mA draw**. USB/battery operation not established. |
 | Apps / recording / live | QuickTone **Windows/macOS**,matching GEN2 editor;USB audio/MIDI;parallel post-FX and flexible loop placement. Documented bundle includes NMP-2 Lite,not necessarily every retailer's unit. |
-| IDR | Used/new qualified prices ?. |
+| Price / condition-unverified IDR | **Rp4.520.000**, [sarana musik, shop64556181/item12156758195](https://shopee.co.id/Nux-MG30-MG-30-MG-30-Multi-Effects-Modeler-Pedal-i.64556181.12156758195), Jakarta Barat; checked2026-10-18, direct readable body crawled lastweek. Condition, stock, bundle and warranty unverified. Relative same-day promise is not stock proof;late-deliveryRp10.000 compensation is not a discount. |
+| Price / additional indexed IDR | **Rp4.850.000**, [CH MUSIC, shop195817632/item8339441712](https://shopee.co.id/Nux-mg30-mg-30-mg-30-Multi-Effects-Modeler-Pedal-i.195817632.8339441712), Jakarta Pusat; checked2026-10-18, one-month search cache, direct open cache miss. Condition, stock, bundle, warranty and purchase voucher unverified. |
+| Price / seller-bundle IDR | **Rp5.550.000**, [Apregio Musik, shop3012339/item16685054304](https://shopee.co.id/NUX-MG30-MG-30-Multi-Effects-Modeler-Pedal-Free-Topper-Switch-i.3012339.16685054304), Surabaya; checked2026-10-18, direct body crawledthreeweeksago,stale28–29Sepdelivery. Title promises **Free Topper & Switch**,exact switch identity unverified;condition,stock,warranty unverified. Late-arrival compensation is not purchase discount. |
+| Price / new IDR | No condition-verified new offer established. |
+| Price / used IDR | No exact condition-verified used offer established. |
 
 GEN2 was firmware1.0.5 at the original check;it is not a new physical model solely because the software is called GEN2.
 
