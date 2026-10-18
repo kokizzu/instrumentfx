@@ -3946,3 +3946,26 @@ Checked 2026-10-19 against [official original manual p90](https://static.roland.
 | USB / monitoring | DirectMonitorOn feeds effect sound toPHONES/MAIN/SUB;Off isfor software monitoring. Standalone use requiresOn for effect sound. MonitorCmdEnable permits external direct-monitor commands;Disable retains GT-Pro's setting. Specialdriver supportsASIO2.0 direct-monitor control. |
 
 Opening summary now reflects verified findings;dated detailed evidence below/above retains source access andhistorical qualifications. USBchannelcount,fullpreamp/drive menus and44-category reconciliation remain pending. No downloads ordevice operation.
+
+### GT-Pro — complete preamp and drive menu census
+
+Checked 2026-10-19: [official original manual p30](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed Type List;[original manual p31 mirror](https://roland.manymanuals.cz/supplementary-music-equipment/gt-pro/owners-manual-5239/31),indexed OD/DS table. Exact GT-PRO title/sections;not generated FAQs. Counts below are selectable definitions,not simultaneous blocks.
+
+| Preamp group | Named choices |
+|---|---|
+| JC CLEAN (5) | JC-120, Warm Clean, Jazz Combo, Full Range, BrightClean |
+| TW CLEAN (4) | Clean TWIN, Pro Crunch, Tweed, Warm Crunch |
+| CRUNCH (4) | Crunch, Blues, Wild Crunch, StackCrunch |
+| COMBO (6) | VO Drive, VO Lead, VO Clean, MATCH Drive, Fat MATCH, MATCH Lead |
+| BG LEAD (5) | BG Lead, BG Drive, BG Rhythm, SmoothDrive, Mild Drive |
+| MS STACK (5) | MS1959 (I), MS1959 (II), MS1959 (I+II), MS HiGain, Power Stack |
+| R-FIER (6) | R-FIER Cln, R-FIER Raw, R-FIER Vnt1, R-FIER Mdn1, R-FIER Vnt2, R-FIER Mdn2 |
+| T-AMP (4) | T-AMP Clean, T-AMP Crunch, T-AMP Lead, Edge Lead |
+| HiGAIN (4) | SLDN, Drive Stack, Lead Stack, Heavy Lead |
+| METAL (3) | 5150 Drive, Metal Stack, Metal Lead |
+
+**46 named preamps + Custom1/2/3 =49 menu entries**,reconciling46-model headline. Custom definitions remain shared across referencing patches;notthree additional factoryamp models.
+
+**OD/DS30 named types:** Booster, Blues OD, Crunch, Natural OD, Turbo OD, Fat OD, OD-1, T-Scream, Warm OD, Distortion, Mild DS, Drive DS, RAT, GUV DS, DST+, Solid DS, Mid DS, Stack, Modern DS, Power DS, R-MAN, Metal Zone, Heavy Metal, Lead, Loud, Sharp, Mechanical, ’60s FUZZ, Oct FUZZ, MUFF FUZZ. Custom1/2/3 bring selectable definitions to33. This reconciles30-drive headline;not33 simultaneous effects.
+
+Full44-category reconciliation,FX subtype census,USBchannelcount andqualified IDR remain unresolved. No downloads ordevice operations.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro USB reprocessing/drytap verified;opening summary supersededunknowns updated. Next fullpreamp/drive menu reconciliation,USBchannelcount,44category audit.392partial;migration incomplete.",
+    "task": "GT-Pro fullpreamp46+3custom anddrive30+3custom menus reconciled. Next44category census/FXsubtypes,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121466,5 +121466,116 @@
       "DirectMonitorOn forstandalone;commandcontrol optional"
     ],
     "remaining": "USBchannelcount,fullnamedmenus,44categoryaudit"
+  },
+  "gtpro_complete_amp_drive_20261019": {
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://roland.manymanuals.cz/supplementary-music-equipment/gt-pro/owners-manual-5239/31"
+    ],
+    "pages": "30official indexed;31original mirrored indexed",
+    "preamp_groups": {
+      "JC CLEAN": [
+        "JC-120",
+        "Warm Clean",
+        "Jazz Combo",
+        "Full Range",
+        "BrightClean"
+      ],
+      "TW CLEAN": [
+        "Clean TWIN",
+        "Pro Crunch",
+        "Tweed",
+        "Warm Crunch"
+      ],
+      "CRUNCH": [
+        "Crunch",
+        "Blues",
+        "Wild Crunch",
+        "StackCrunch"
+      ],
+      "COMBO": [
+        "VO Drive",
+        "VO Lead",
+        "VO Clean",
+        "MATCH Drive",
+        "Fat MATCH",
+        "MATCH Lead"
+      ],
+      "BG LEAD": [
+        "BG Lead",
+        "BG Drive",
+        "BG Rhythm",
+        "SmoothDrive",
+        "Mild Drive"
+      ],
+      "MS STACK": [
+        "MS1959 (I)",
+        "MS1959 (II)",
+        "MS1959 (I+II)",
+        "MS HiGain",
+        "Power Stack"
+      ],
+      "R-FIER": [
+        "R-FIER Cln",
+        "R-FIER Raw",
+        "R-FIER Vnt1",
+        "R-FIER Mdn1",
+        "R-FIER Vnt2",
+        "R-FIER Mdn2"
+      ],
+      "T-AMP": [
+        "T-AMP Clean",
+        "T-AMP Crunch",
+        "T-AMP Lead",
+        "Edge Lead"
+      ],
+      "HiGAIN": [
+        "SLDN",
+        "Drive Stack",
+        "Lead Stack",
+        "Heavy Lead"
+      ],
+      "METAL": [
+        "5150 Drive",
+        "Metal Stack",
+        "Metal Lead"
+      ]
+    },
+    "preamp_named": 46,
+    "preamp_custom": 3,
+    "drive_named": [
+      "Booster",
+      "Blues OD",
+      "Crunch",
+      "Natural OD",
+      "Turbo OD",
+      "Fat OD",
+      "OD-1",
+      "T-Scream",
+      "Warm OD",
+      "Distortion",
+      "Mild DS",
+      "Drive DS",
+      "RAT",
+      "GUV DS",
+      "DST+",
+      "Solid DS",
+      "Mid DS",
+      "Stack",
+      "Modern DS",
+      "Power DS",
+      "R-MAN",
+      "Metal Zone",
+      "Heavy Metal",
+      "Lead",
+      "Loud",
+      "Sharp",
+      "Mechanical",
+      "’60s FUZZ",
+      "Oct FUZZ",
+      "MUFF FUZZ"
+    ],
+    "drive_custom": 3,
+    "qualification": "46+3=49 and30+3=33 selectable entries;not simultaneous blocks."
   }
 }
