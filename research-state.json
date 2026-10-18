@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GE300 Lite",
-    "task": "Saved162factoryfill,controls decomposition andCOMP10/WAH10. Next GE300 Lite FXA/FXB/drive/delay/reverb andother category census,expression compatibility andqualified offers;do not infer builtin toe hardware.",
+    "task": "Saved FXA40/FXB35/drive31/NS3/EQ8/reverb11 and20userIRslots;delay introduction iscopyerror. Next verify exact effect list/currentlibrary,expression andcontrols/qualifiedoffers;do not force315sum.",
     "next_models": [],
     "after_queue": "375 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -81662,5 +81662,19 @@
     "revision": "V01-2020.07.22",
     "result": "162factory presets within255slots;cab-on/offbank distinction;documented rotary controls and8foot decomposition;COMP10/WAH10 category headlines;softwareToeswitch qualified.",
     "remaining": "Remaining categories,fullknob/buttoncount,expression wiring andcurrent firmware differences."
+  },
+  "ge300lite_category_headlines_20261018": {
+    "source": "https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf",
+    "revision": "V01-2020.07.22",
+    "category_counts": {
+      "FXA": 40,
+      "FXB": 35,
+      "DS_OD": 31,
+      "NS": 3,
+      "EQ": 8,
+      "REVERB": 11
+    },
+    "userIR_slots": 20,
+    "limits": "Headline category counts;sharedalgorithms notdeduplicated. Delay section repeatsFXloopintro;no total inferred. 315headline reconciliation andcurrentfirmware census remain open."
   }
 }
