@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "GX-1 EQ/PEDALFX / Shopee discovery",
-    "task": "Fivecompressortypes andconfiguredtoevolume/effectbehavior saved. Next exactEQ/PEDALFXtables orfreshShopee brandseries discovery;37MBPDFbrowserfetchfailed,preferexactHTML. All388partial;migrationincomplete.",
+    "model": "Fresh Shopee discovery / GX-1 per-memory EQ",
+    "task": "GX-1GLOBAL EQoutputscope/threeglobalsettings/ranges saved. Next alternatefreshbrandseriesShopeesearch orGX-1per-memoryEQ/PEDALFXexactHTML;avoidtreatingglobalsettingsaspatches. All388partial;migrationincomplete.",
     "next_models": [],
     "after_queue": "388active47brands;no downloads/workflows/push."
   },
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume GX-1 EQ/PEDALFX / Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / GX-1 per-memory EQ."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -120629,5 +120629,14 @@
       "Toevolume/effectswitching depends on explicitassignments"
     ],
     "access_limit": "GX-1_Parameter_eng01_W.pdf browserfetchrejected37,354,610bytes;no localdownload attempted. HTMLrecoveredspecificcompressor;EQ/PEDALFXcensusincomplete."
+  },
+  "gx1_global_eq_20261019": {
+    "source": "https://static.roland.com/manuals/gx-1_parameter/en-US/367912075367944587.html",
+    "findings": [
+      "OutputglobalEQindependentofpatchEQonoff",
+      "Threeglobalsettingsnotextra patches",
+      "Gains/level±20dB;mid20Hz12.5kQ0.5–16;cuts20Hz12.5korFLAT"
+    ],
+    "remaining": "Per-memoryEQ/PEDALFXsubtypecountsnotestablished bythisglobaltable;exactHTMLsearchstillneeded."
   }
 }

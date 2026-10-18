@@ -1457,6 +1457,15 @@ Exact-model HTML documentation,checked2026-10-19;no device operation.
 | Processing / compressor choices | [COMPRESSOR](https://static.roland.com/manuals/gx-1_parameter/en-US/358173067362516363.html) lists five types:BOSS COMP(CS-3),D-COMP(Dyna Comp),ORANGE(Orange Squeezer),X-COMP(MDP),STEREO. Sustain,attack andlevel each0–100. These choices do not add five independent simultaneous blocks. |
 | Expression / configured toe operation | [Official assignment example](https://static.roland.com/manuals/gx-1_reference/en-US/445983371446140299.html) sets EXP1 SW FUNCTION=PEDAL FX andEXP1 FUNCTION=FV+TU/PDL FX. Under these settings,pedal controls foot volume withPEDAL FX off;firm toe pressure enablesPEDAL FX andpedal controls its effect,e.g.wah depth. This is a configurable example,not a universal fixed toe assignment. |
 
+
+### GX-1 — global EQ scope and stored settings
+
+[Exact GLOBAL EQ table](https://static.roland.com/manuals/gx-1_parameter/en-US/367912075367944587.html),checked2026-10-19. No device operated.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / global EQ | Adjusts OUTPUT independently of individual-memory EQ on/off. OFF orSET1–SET3;three saved global settings are not extra patch memories orthree simultaneous EQblocks. Low/mid/high gains andoverall EQlevel each±20dB;midcenter20Hz–12.5kHz,Q0.5–16. Low/high cuts20Hz–12.5kHz orFLAT(bypass). This global table doesnot establish theper-memory FXEQ subtype count. |
+
 <!-- comparison evidence ends -->
 
 [GX1-P]: https://www.boss.info/global/products/gx-1/
