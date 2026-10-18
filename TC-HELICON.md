@@ -414,6 +414,17 @@ Checked2026-10-18 against the manufacturer-authored reference manual2015-10-20,f
 | Processing / Amp and Boost gain | Guitar Amp provides pre/post parametric EQ with low/mid/high gain,frequency andbandwidth controls,plus Tube/Transistor mode,sag andspeaker shaping. Repeated quick-access gain controls in the menu are the same parameters,not extra blocks. Drive’s Boost uses its own PreGain/PostGain **in place of active Amp gain settings**;it may therefore produce less distortion or lower level. This does not establish two simultaneously independent amp chains. | [Reference pp115–117][VL3X-M] |
 | Processing / vocal reverb sends | Vocal Reverb exposes separate feeds from lead,harmony,delay andchoir,plus ducking threshold/amount/time,early-reflection andtail levels. These are routing/parameter controls,not additional reverb algorithms or a complete style census. Guitar andvocal effects retain separate layers. | [Reference p101][VL3X-M] |
 
+
+### VoiceLive 3 Extreme — harmony voices and guidance
+
+Checked2026-10-18;manufacturer-authored2015-10-20 reference,firmware2.1.00 build346;mirror document body.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / harmony voices and modes | **Up to four harmony voices**;each independently combines NaturalPlay,Scale,Fixed orPedal mode. These mean instrument-guided harmony,key/scale harmony,a fixed note,or chord-root following,respectively. Per-voice level,pan,gender andportamento controls do not add voices. Four modes are guidance methods,not a complete Harmony Style count. | [Reference pp96–97][VL3X-M] |
+| I/O / NaturalPlay guidance sources | Introductionp48 names guitar,MIDI keyboard,AUX andMonitor In for Harmony/HardTune guidance. Systemp175 listsAuto,Guitar,MIDI,AUX,RoomSense;Auto text also namesUSB. RoomSense may blend with other guidance andcan work alone with sufficient chord information;AUX typeLive/Tracks improves detection(p176). These differing lists do not establish a complete automatic priority order or USB-audio chord-detection route. | [Reference pp48,175–176][VL3X-M] |
+| Memory / key-scale scope | Global Key/Scale applies one setting acrosspresets;turning itoff permits different stored preset keys/scales. This is musical guidance scope,not extra preset storage. | [Reference pp49,174][VL3X-M] |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware lead
