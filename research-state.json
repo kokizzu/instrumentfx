@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "GT-1B new exact sold-out Shopee hardware observation saved. Continue fresh cross-brand exact offers or manufacturer technical gaps; preserve historical stock/date/condition qualifications.",
+    "task": "MG-30 MKII exact manufacturer specifications captured; exact Shopee offer still missing, so it remains outside active counts. Continue fresh cross-brand Shopee discovery or another active-model gap.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -120213,5 +120213,30 @@
       "https://shopee.co.id/search?keyword=gnx&noCorrection=true",
       "https://shopee.co.id/search?keyword=%2CgNX"
     ]
+  },
+  "discovery_mg30mkii_20261019": {
+    "checked_date": "2026-10-19",
+    "queries": [
+      "Shopee Indonesia NUX MG-30 MKII processor exact",
+      "site:shopee.co.id NUX MG30 MK2 white pedal",
+      "site:shopee.co.id \"MG30 MKII\""
+    ],
+    "result": "Retrieved Shopee results show original MG-30 and distinct MG-300 MKII, but no exact MG-30 MKII offer. This does not establish market absence.",
+    "exact_model_not_found": true,
+    "rejected_or_distinguished": [
+      {
+        "model": "NUX MG-30 original",
+        "seller_id": "1776275",
+        "item_id": "8539351034",
+        "status": "different hardware;not candidate offer"
+      },
+      {
+        "model": "NUX MG-300 MKII",
+        "seller_id": "12356205",
+        "item_id": "25339437490",
+        "status": "different model;not candidate offer"
+      }
+    ],
+    "manufacturer_specs": "Exact-model product page saved in NUX.md under primary-source discovery lead: dimensions,mass,power/current,screen,block and amp counts,slots,IR,impedances and converter ratings."
   }
 }

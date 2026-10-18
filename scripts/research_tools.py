@@ -411,7 +411,7 @@ def main():
         if mode == 'commit-nux-mg50li-audit':
             message = 'audit(nux): preserve MG-50Li shared fields and conflicting source counts'
         if mode == 'commit-nux-mg30-audit':
-            message = 'research(nux): qualify MG-30 converter and external stomp evidence'
+            message = 'research(nux): add MG-30 MKII specifications and preserve candidate scope'
         if mode == 'commit-nux-mg400-audit':
             message = 'research(nux): qualify MG400 USB editor and alternate manual conflicts'
         if mode == 'commit-nux-mg300mkii-audit':

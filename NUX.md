@@ -1468,3 +1468,29 @@ Checked2026-10-18 against [manufacturer product documentation](https://nuxaudio.
 Checked2026-10-18;not activeinventory pendingexactShopee hardware evidence. DistinctfromoriginalMG-30 anditsGEN2firmware,andfromMG-300MKII. [Exactmanufacturerproduct](https://nuxaudio.com/product/mg30mkii/) explicitly compares newhardware: twiceDSPheadroom,balancedTRSoutputs,AUX-to-USB routing,metallicwhitefinish andredesignedswitching. Itdocuments12movableblocks,35ampmodels(28guitar/5bass/2acoustic),10IMAGE/NAMslots withnativeA2-Lite,24userIRslots/1024samples,and4-inch800×400colorLCD. These areleadfacts,not acompletedmodelaudit;touch,memories,controls,fullports andotherrequiredfields remainunverified.
 
 ExactShopeeMG30MKII/MG-30MKII/MG30MK2 searchesresolvednoqualifiedprocessoritem. OriginalMG30prices andMG300MKIIoffers areinapplicable;Prinovasi bracketlisting isaccessoryonly. NoIDRask assigned,no marketabsenceclaim,no inventoryincrement. Recoveranexacthardwareoffer beforepromotion;do nottransfernewhardwarefeatures totheoriginalMG30.
+
+### MG-30 MKII — manufacturer specifications and comparison limits
+
+Checked2026-10-19 against the exact-model [NUX product specification page][MG30MKII-P]. This remains a distinct **candidate lead**, outside active inventory until an exact Shopee MG-30 MKII hardware listing is established. Values below belong to MKII only.
+
+| Field | Exact-model manufacturer statement / qualification |
+|---|---|
+| Expression / foot control | Built-in expression pedal controls volume/effect parameters. Footswitches A/B/C select presets; each preset has three scenes, and the active switch cycles scenes. Stomp Mode allows up to three assigned CTRL footswitches per scene. The page lists an included NMP-2 LITE dual switch and says expansion creates a five-footswitch system; exact toe-switch action, rear EXP/FS wiring and mapping details remain unverified. |
+| Display | **4-inch, 800×400 full-color LCD**. Touchscreen specification is not published on this page. |
+| Body / mass | **313×166×55 mm;1.5 kg**. Dimensions orientation: page labels L×W×H. |
+| Power | **9 V DC,center negative, current draw <400 mA**. Manufacturer’s maximum/draw statement, not a local measurement. Battery or USB bus power unverified. A power adapter is listed in the box. |
+| Signal path / capacity | **12 independently movable blocks**: WAH,CMP,GATE,EFX,AMP,IR,EQ,S/R,MOD,DLY,RVB,VOL; optional parallel post-effects. DSP capacity/overload ceiling and per-category algorithm totals remain unpublished here. |
+| Amplifier models | **35**:28 guitar,5 bass,2 acoustic, identified as TS/AC-2K models. The manufacturer separately describes acoustic simulation IRs; do not count those as additional amps. |
+| NAM / proprietary profiles | **10 shared IMAGE/NAM user slots**. The page specifically names native **NAM A2-Lite** support and NUX IMAGE capture profiles; its generic NAM wording does not establish unrestricted support for every NAM architecture. NUX claims simultaneous NAM plus third-party IR processing. |
+| IR | **24 third-party IR slots,1024 sample points**. IR file-format,rate,bit-depth and conversion requirements are not specified on this product page. |
+| I/O / impedance | Page identifies a newly balanced 1/4-inch TRS output,send/return,USB-C and AUX input. Published impedance: input1 MΩ,return220 kΩ,output1 kΩ,send1 kΩ. Full connector inventory,balanced-output count and USB channel/format details need the exact manual. |
+| Conversion / audio | Product page states **32-bit A/D and D/A**,48 kHz sampling,110 dB dynamic range and20 Hz–20 kHz response. These converter/product ratings do not by themselves prove USB stream format. |
+| USB / software | USB-C supports recording,firmware updates and NUX Audio editing;AUX can route to USB audio. QuickTone manages presets,parameters and IMAGE/NAM/IR imports. Supported desktop/mobile operating systems and driver/updater separation remain unresolved. |
+| Package | Manufacturer lists NMP-2 LITE dual footswitch,power adapter,patch cable and USB cable in the box. This package statement is separate from any Shopee offer. |
+
+[MG30MKII-P]: https://nuxaudio.com/product/mg30mkii/
+
+### MG-30 MKII — exact Shopee discovery, 2026-10-19
+
+Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** returned original MG-30 and separate MG-300 MKII offers, but no exact MG-30 MKII processor listing in the retrieved results. Example exact model distinctions: original MG-30 [seller1776275/item8539351034](https://shopee.co.id/Multi-Efek-Gitar-Nux-MG30-MG-30-Original-Modelling-Processor-Digital-i.1776275.8539351034); MG-300 MKII seller12356205/item25339437490 is another model. No price is assigned to MG-30 MKII, and these result pages do not prove market absence.
+
