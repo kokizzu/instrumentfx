@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX StompLab 1B",
-    "task": "Added manufacturer-documented bass model with unknown Shopee prices; exact IB manual, controls and simultaneous ceiling remain unresolved. Continue exact-model primary gaps or fresh hardware discovery.",
+    "task": "Exact IB manual EFGSJ1 establishes seven simultaneous effects,3/2/3 controls plus rear POWER, complete rear ports. Continue remaining memory/routing/power details from own manual, then exact Shopee discovery. No downloads.",
     "next_models": [],
     "after_queue": "343 partial unique models; 114 Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58550,6 +58550,21 @@
         "Controls/display",
         "Polarity and adapter identity",
         "Qualified used/new IDR"
+      ]
+    },
+    {
+      "model": "VOX StompLab 1B",
+      "checked_date": "2026-10-18",
+      "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf",
+      "pages": "4–6",
+      "finding": "Own manual establishes7 simultaneous includingNR;3 rotary/2 footswitch/3 panel buttons plus rearPOWER;complete rearINPUT/OUTPUT-PHONES/DC9V/POWER inventory.",
+      "method": "Browser text only; no file download or visual audit",
+      "remaining": [
+        "Memory write/initial fill",
+        "Output profiles and routing",
+        "Power adapter/polarity",
+        "Exact Shopee used/new offers",
+        "Display specifications"
       ]
     }
   ],

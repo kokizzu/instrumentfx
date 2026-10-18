@@ -440,16 +440,16 @@ Checked 2026-10-18. **Bass multi-effects**, also styled StompLab IB; distinct fr
 
 | Field | Evidence / gaps |
 |---|---|
-| Instrument / expression | Bass-focused. Built-in expression pedal belongs to IIB, not IB in the Japanese family description. External EXP and toe switching unverified. [VOX Japanese][SL1B-J] |
-| K/F/B | Rotary / footswitch / panel-button counts unknown; no sibling counts transferred. |
+| Instrument / expression | Bass-focused. Built-in expression pedal belongs to IIB, not IB in the Japanese family description. No external EXP in the complete rear inventory; no built-in toe switch. [VOX Japanese][SL1B-J];[IB manual pp4–6][SL1B-M] |
+| K/F/B | **3 / 2 / 3**: CATEGORY, VALUE1/2; program UP/DOWN pedals; EDIT and up/down buttons. Rear POWER button additional. Text-derived, not visually audited. [IB manual pp4–6][SL1B-M] |
 | Display | Diagonal, resolution, technology, color and touch unknown. |
 | Dimensions / weight | **145×125×57 mm W×D×H; 590 g**. [VOX English][SL1B-E] |
-| Processing / choices | **60 choices**: pedal9, amp10, drive8, cabinet12, modulation9, delay8, reverb3, noise reduction1. These are library alternatives, not simultaneous blocks. Japanese family description says7–8 simultaneous including NR; exact IB ceiling remains unverified. [English][SL1B-E];[Japanese][SL1B-J] |
+| Processing / choices | **60 choices**: pedal9, amp10, drive8, cabinet12, modulation9, delay8, reverb3, noise reduction1. These are library alternatives, not simultaneous blocks. Own IB manual confirms **up to seven simultaneous effects including noise reduction**, resolving family7–8 ambiguity. [IB manual p4][SL1B-M] [English][SL1B-E];[Japanese][SL1B-J] |
 | Factory / user memory | **100 preset +20 user =120**. Initial user fill and factory write protection unverified. [German][SL1B-D] |
 | Synth / acoustic | ACOUSTIC is a named pedal choice; simulation behavior and synth architecture unverified. [English][SL1B-E] |
-| I/O | One normal mono input; one stereo output/phones. Socket sizes and complete port inventory unverified; USB, MIDI, AUX, external EXP and effects loop not established. [English][SL1B-E] |
+| I/O | One normal mono input; one stereo output/phones. Own manual complete rear inventory: INPUT, OUTPUT/PHONES, DC9V and POWER. No USB, MIDI, AUX, external EXP or effects-loop ports. Socket sizes unknown. [English][SL1B-E];[IB manual p6][SL1B-M] |
 | Conversion | 24-bit AD/DA; sample rate and USB audio unknown. [English][SL1B-E] |
-| Power / battery / USB | **9V DC, approximately200mA consumption**, or4AA; approximately7.5h alkaline. Optional adapter; polarity, barrel dimensions and USB power unknown. Do not transfer IIB adapter identity. [German][SL1B-D] |
+| Power / battery / USB | **9V DC, approximately200mA consumption**, or4AA; approximately7.5h alkaline. Optional adapter; polarity and barrel dimensions unknown. No USB port for USB power. Do not transfer IIB adapter identity. [German][SL1B-D] |
 | IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unknown. |
 | Editor / software | Editor availability and supported Windows/macOS/mobile versions unknown. |
 | Looper / drums / live | Tuner A0–E6; calibration438–445Hz. Looper, drums, scenes, trails and routing details unknown. [German][SL1B-D] |
@@ -473,8 +473,10 @@ Manufacturer category counts reconcile to60. AMP and DRIVE counts do not establi
 
 <!-- comparison evidence ends -->
 
-Source access: English and German exact-model product bodies opened as browser text. Japanese exact-model specifications read in search cache; direct reopening timed out. No own IB manual inspected; family claims remain qualified.
+Source access: English and German exact-model product bodies opened as browser text. Japanese exact-model specifications read in search cache; direct reopening timed out. Own68-page IB manual EFGSJ1 opened as browser text; English introduction identifies StompLab IB. No PDF downloaded or visual panel audit performed.
 
 [SL1B-E]: https://voxamps.com/product/stomplab-1b/
 [SL1B-D]: https://voxamps.com/de/produkt/stomplab-ib/
 [SL1B-J]: https://voxamps.com/ja/product/stomplab-1b/
+
+[SL1B-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf
