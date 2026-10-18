@@ -563,6 +563,14 @@ Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;
 | Processing / imported-preset modifier | Holdpresetbutton andturnknob toedit thedesignated modifier. Singleimportedeffects map to harmony level,HardTune gender,megaphone EQfilter orµModlevel. Combinationsexposeone chosenmodifier:Harmony+HardTune usesHarmony level;Megaphone+µMod usesµModlevel. This isnot fullindependent parameteraccess toallimportedeffects. | [Manualp23,firmware1.0/reference2015-11-17][PV-B] |
 | Live / imported HIT default | Newlybeamed presets startwithHIT enabled;togglepresetbutton tocompare/editHITstates,whichsaveautomatically. Noadditionalmemoryslots implied. | [Manualpp24–25][PV-B] |
 
+
+### PERFORM-V — additional qualified historical asks, 2026-10-19
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / condition-unverified hardware ask | **Rp4.500.000**,seller **BEHRINGER Semarang**,KotaSemarang,shop103535156/item42358124120. [Exact PERFORM-V item](https://shopee.co.id/TC-Helicon-Perform-V-Vocal-Effects-Processor-Efek-Vocal-Suara-i.103535156.42358124120),direct readable last-month cache. Condition,live stock,revision,selectedvariant,working state,adapter/bundle,warranty,voucher,shipping/tax anddeliveredtotal unknown. Relative tomorrow delivery isnot currentstock proof;late-arrivalRp10k compensation isnot a purchase discount. Not assigned to verified used/new prices. |
+| IDR / conditional sold-out ask | **Rp4.459.999 displayed “Dengan Voucher”**,seller **GITARO STORE INDONESIA**,KotaJakartaBarat,shop1643318004/item56109433039. [Exact PERFORM-V item](https://shopee.co.id/Efek-Vokal-TC-Helicon-Perform-V-Vocal-Effect-Mount-Vokal-Processor-i.1643318004.56109433039),direct last-month cache,**Habis**;stale16–17Sepdelivery. Page separately advertises Rp25k offRp1m spend;whether already included andeligibility unknown,so no further subtraction orbase-price inference. Condition,revision,variant,bundle,adapter,warranty,shipping/tax andtotal unknown. Historical conditional ask only,not live stock,new/used range orcompleted sale. |
+
 <!-- comparison evidence ends -->
 
 ## PERFORM-VK

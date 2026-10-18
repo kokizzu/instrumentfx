@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Shopee Indonesia discovery",
-    "task": "Ampero One summary now matches saved V3.1 evidence;historical counts retained andunique total unresolved. Resume fresh cross-brand Shopee discovery/exact-offer verification;do not re-open unchanged model sources without new evidence.",
+    "task": "PERFORM-V two additional exact historical offers saved includingconditionalvoucher/soldoutqualification. Continue fresh cross-brand exact hardware discovery ormanufacturer technical gaps;avoidunchanged offer repeats.",
     "next_models": [],
-    "after_queue": "387 active models,46 brands,all partial;technical/currentoffer gaps remain;no downloads/workflows/push."
+    "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -82028,7 +82028,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 387,
     "models_with_signals": 387,
-    "flagged_field_count": 4940,
+    "flagged_field_count": 4942,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -108116,6 +108116,21 @@
             ]
           },
           {
+            "field": "IDR / condition-unverified hardware ask",
+            "source": "TC-HELICON.md",
+            "signals": [
+              "unknown",
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR / conditional sold-out ask",
+            "source": "TC-HELICON.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
             "field": "IDR qualified observations",
             "source": "TC-HELICON.md",
             "signals": [
@@ -119498,7 +119513,7 @@
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
-      "TC-HELICON.md": "1453daf4b183089e3b69409e74366b0dfa2ebbd3bec5d64f3c71512f5700f686",
+      "TC-HELICON.md": "4df1855f8260b0e76b0287258f23e54d74f8181383e739061cec8351e9ec35c4",
       "CUVAVE.md": "245b3f9975423a1b9a6f6facef5c9d2ddcc5fe5ebaa6134141678c66bde0c799",
       "KORG.md": "680acff51ff33a47cbb26e1c3ffdfb05e3de37fb3152d2b8bf99e6f4f8d46547",
       "BLACKSTAR.md": "b669de5ae77c32f44e641de26714593d055d169b71576b4866f2a3665f7431b9",
@@ -119518,7 +119533,7 @@
       "VOX.md": "7087c2c9689338adff6f0cff2449fa98b138812bac122bd393d989bcaad1dc62",
       "BOSS.md": "0d23479246ef2637728cc24c448bc44b72d6185c3ace982be064814f9a0aa992",
       "KEELEY.md": "bf2e0764ec43eedcfbfc9839452586b4b9c835948fc7315f5e935472f9d45d1a",
-      "ALL-VOCAL.md": "e824e7eff34c4013e6843c48cc4212094e60d2936e51b8d0a1b23de0f53d74b5",
+      "ALL-VOCAL.md": "f6e9ba85ac77db16a6ea60eb7d97a3b941397a47f83fdac589d5501d72dced83",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
       "DONNER.md": "c37c37a6d312decc6f18ea53df29fb6683f01ed89fdd5bbec65feb8dd2c44837",
