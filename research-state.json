@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Blackstar ID:X Floor One",
-    "task": "Saved own-model hardware profile and exact Shopee ask. Next verify Floor-compatible editor version, factory fill and display; otherwise fresh Shopee discovery for unrecorded eligible hardware.",
+    "task": "Saved US product versus manual category-count and physical-specification conflicts. Next research fresh eligible Shopee hardware, or manufacturer evidence resolving firmware/category allocation and package-versus-unit dimensions; do not repeat same unresolved editor/display searches.",
     "next_models": [],
     "after_queue": "356 partial models;297 guitar157 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77961,5 +77961,17 @@
       "Visual control count audit",
       "Qualified used/new offers"
     ]
+  },
+  "blackstar_floor_one_regional_conflicts_20261018": {
+    "model": "Blackstar ID:X Floor One",
+    "source": "https://blackstaramps.us/en-intl/products/id-x-floor",
+    "identity": "One-specific SKU IDXFLOOR1;site terms name Blackstar Amplification/KorgUSA operator andmanual link to blackstaramps.com",
+    "identity_source": "https://blackstaramps.us/pages/terms-and-conditions-of-sale-of-products",
+    "manual_revision": "256401M-VA-1 01/26",
+    "conflicts": {
+      "category_counts": "US14/10/6/5 versus own appendix15/10/5/5;bothsum35;allocation/revisionunknown",
+      "physical": "US7.95W×10.9L×5.31Hinches3.54lb versus manual215×68×155mmaxesunstated1.33kg;USnotexplicitpackage,do not relabel"
+    },
+    "gaps": "NoexactFloorArchitectrelease,displaydiagonal/color/touch,orfactoryfillestablished;ID:X50/100combomanualrejected."
   }
 }
