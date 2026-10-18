@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "MP100 outputloading,USBaudiohost distinction andpreviousledger-onlyBlack/Pinkoffer nowqualified inrootrecord. Continuefreshhardwarediscoveryorrequiredfieldaudits;firmware-matchedcensus,IRslots,toe andused/newoffersremainopen.",
+    "task": "MP100 V3.0 expressiontargets/ranges,sharedEXP2/FS anddry/wetUSBrecordsources recorded;IRtotal andmechanicaltoeswitch remain unresolved. ContinuefreshShopeediscoveryorfirmware-matchedeffectcensus,IRcapacityandqualifiedprices.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60442,6 +60442,25 @@
         "Qualifiedused/newprice"
       ],
       "method": "PrimarymanufacturerandShopee browsertext;no downloads"
+    },
+    {
+      "model": "Hotone Ampero MP-100",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=14",
+        "https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=15",
+        "https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=17",
+        "https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=18"
+      ],
+      "finding": "OwnV3.0 pp12–16:4EXPtargets,0–100reversibleendpoints/3curves,volumeoffmode;toe-pressurecalibrationstage;sharedEXP/single/dualFSjack;independentL/Rdry/wetUSBrecordsources;per-sideNoCab.",
+      "remaining": [
+        "Currentfirmwarecategorycensus",
+        "IRslottotal",
+        "Toephysicalmechanism",
+        "USBreturnreamping/channelcount",
+        "Qualifiedused/newprice"
+      ],
+      "method": "Previouslyidentity-matchedoriginalmanual reproduction;browsertextonly,no downloads"
     }
   ],
   "discovery_cross_brand_bass": {

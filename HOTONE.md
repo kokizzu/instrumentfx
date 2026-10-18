@@ -300,6 +300,20 @@ Checked2026-10-18 against [own global product page](https://www.hotone.com/produ
 
 Earlier ledger discovery mention ispreserved;this adds exact datedqualifications to thebrand/comparisons withoutadding amodel orprice range.
 
+### Ampero MP-100 — V3.0 pedal and USB routing
+
+Checked2026-10-18 against the same identity-matched manufacturer-authored45-page V3.0 manual reproduction. Globalmanual route stillshowsServerError. Historicaldocument limits do not certify installedV5.2 behavior;no downloads/calibration/recording performed.
+
+| Field | Own-manual qualification |
+|---|---|
+| Expression / targets andrange | EXP1 controls up to**four parameters**,each with**0–100 endpoints**,reversible whenMIN>MAX;Line,Exp,Log curves. WithEXP1off,pedalcontinuesasvolume withitsownrange/curve. [Printed12–13](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=14) |
+| Expression / toe calibration | Built-in calibration includesheel,toe,andstrongtoe-pressure stages. ExternalEXP2 calibration omitspressurestage. This confirms pressurecalibration,not aninspectedmechanicalswitch implementation. [Printed13](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=15) |
+| Expression / sharedEXP2 socket | Selectexpression,singlefootswitch ordualfootswitch mode;these consume thesameconnection. [Printed16](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=18) |
+| Recording / USBsources | L/Rrecordingchannels independentlyselectDryorEffect;recordgain**−20to+20dB**,default0dB. This establishesdrycapture selection,not aprovenUSBreturnreamping path orlargerchannelcount. [Printed15](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=17) |
+| Routing / NoCab | GlobalNoCab bypassesCAB independentlyonL/R,overridingpatchsettings. This doesnotdeleteuserIRs. [Printed15](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=17) |
+
+IRslot total remainsunverified;do notconvert a historical“10 addedslots”searchsnippet into totalcapacity.
+
 ## Ampero II MP-350
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
