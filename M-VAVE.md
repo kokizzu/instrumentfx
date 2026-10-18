@@ -758,7 +758,7 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 | Synth / acoustic | No dedicated synth/acoustic simulator identified in original documented effect lists. Imported amp/cab content does not establish these functions; new MW effect identities remain unchecked. |
 | IR / captures | **20cablocations**,monoWAV24/44.1,1024/2048samples. **20AmX/ANN amp locations**;software training,not established onboard capture. Original guide did not establish native NAM. **Official firmware v105 explicitly claims native NAM A2 support**; supported architectures/file limits and minimum editor requirements remain unverified. This is a manufacturer claim, not a tested import. v07 (2026-01-31) separately added AM4 AMP-file support. [Firmware notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt). |
 | Ports | 6.35TSmono input and **mono**output;dedicated3.5TRSstereophones;USB-Cpower/data/audio/MIDI,Bluetoothbacking/control. Importer inventory lists noAUX,XLRmic/phantom,loop orphysicalDIN/TRSMIDI; AUX conflicts with current manufacturer page below. |
-| Power | **Battery orUSB5V≥500mA**,about200mA operating;**1450mAh**,about7h rated,batteryvoltage unverified. |
+| Power | **Battery orUSB5V≥500mA**,about200mA operating;**1450mAh**,about7h rated;regulatory sample uses3.7V lithium battery asqualifiedbelow,retailrevision unverified. |
 | Apps / recording | Manual **Windows/macOS/iOS/Android** editing;officialdesktopM-EFCSexplicitlynamesPocketAmp;exactproductpagealsolinksmobileM-EFCS,genericmobilelistincomplete. Linux?. USB/OTG24/44.1,loopback,MIDI;exactchannels/OSminima?. |
 | Firmware / routing | [Official notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt), v105, add six MW effects to FX, stereo DLY/MOD, DLY/REV tail settings and input gain, plus noise-reduction and output-limiter refinements. Exact new algorithms, updated total library and stereo USB routing remain unverified; stereo effects do not change the documented mono main-output connector. Original counts above remain dated guide evidence. |
 | Firmware / updater | [Index](https://www.cuvave.com/appdownload), checked 2026-10-17, lists v105 dated 2026-10-13; notes label it 2026-10-14. Preserve the one-day source conflict. M-UPGRADE is separate from M-EFCS. v103 (2026-07-28) adds Speaker Mode; users moving from v07 to v103 must select Speaker Mode and load its presets in M-EFCS to obtain sound in that mode. v105 also lists Speaker Mode, without explaining the repeated entry. No firmware installed. |
@@ -786,6 +786,17 @@ Checked 2026-10-18 against indexed [exact manufacturer product page](https://www
 | Dimensions / mass conflict | Manufacturer page specifies **80g**; importer guide specifies **120g**. No verified revision or clamp/bundle explanation reconciles these. Keep both; body dimensions remain importer-sourced. |
 | I/O / AUX conflict | Manufacturer advertises a **3.5mm AUX input**; importer numbered inventory lists input,mono output,stereo headphones andUSB-C without AUX. Connector identity/physical revision unresolved; withdraw an unconditional no-AUX claim. |
 | Editor / exact-product mobile listing | Manufacturer product page explicitly links **M-EFCS for iOS,Android APK andGoogle Play**,aswellas Windows/Mac desktop. This corroborates mobile support beyond the importer guide,without specifying Android minimum,connection behavior ordevice-firmware compatibility. |
+
+### Pocket Amp — original regulatory sample and manual recovery
+
+Checked 2026-10-18. [Original Sinco application BLE report reproduction](https://device.report/m/27368ee6f8b6b150b2426ccb840f90c7816bdf8895ca48525e94d94e315eda79), Global United Technology Services **GTSL2025110472F02**,issued2025-12-30,FCC **2ARCP-POCKETAMP**. This is test-sample evidence,not inspection of a Shopee unit.
+
+| Field | Primary-document scope |
+|---|---|
+| Power / regulatory sample | Printed p5 identifies tested **POCKET AMP engineering sample,hardwareV08E1/softwareV05**,powered by **5.0V adapter or3.7V lithium battery**. This supports that sample’s battery voltage,not current retail cell capacity,charge current orfirmware105 power behavior. |
+| Firmware / regulatory family limits | Report lists SK17,Pocket Sonic andPIXIE1 and records matching PCB/interior/electrical circuits,with name/color differences. No equivalent firmware,editor,feature set orsafe cross-flashing procedure is established. No sibling specifications orupdates transferred. |
+
+The linked [manufacturer manual PDF reproduction](https://device.report/m/f9b8d1442f8ebd368babed461787355a648aeffdd0fa3e36a8c552fc13bcef72.pdf) is now browser-accessible. Metadata title contains SK17/Pocket amp,V04,20251009; the retrieved one-page PDF exposes no text. Original pages have not been read or visually verified,so rewritten HTML guide details are not adopted. Mass/AUX andfactory-overwrite conflicts remain unresolved. No files downloaded ordevice/software operated.
 <!-- comparison evidence ends -->
 
 ### Preserved original finding
