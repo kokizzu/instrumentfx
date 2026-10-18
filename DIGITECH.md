@@ -562,6 +562,19 @@ Checked2026-10-18 against [original guide][G-M], pp3–6,19–23,38,50. Text-der
 | Processing / EQ | Three bands per Green/Red amp channel;mid300–5000Hz,treble500–8000Hz,eachgain±12dB. Channel EQs do not establish arbitrary multi-EQ insertion. |
 
 
+### GNX3 — controller scope, MIDI backups and quantize conflict
+
+Checked2026-10-18 against [original manufacturer guide][G-M], pp60–63,66–70. No backup,calibration,reset ordevice operation performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / assignments | Built-in pedal controls **up to3 parameters**,with preset-specific endpoints exceptvolume. Two assignable LFOs automate parameters;these are controllers,not extra audio/synth blocks. Stompbox Control footswitch also supports3 parameter assignments,toggle ormomentary. |
+| Expression / recall andtoe | Volume Pedal Update preserves pedal-controlled volume acrosspresets when both assignvolume;disabled recalls savedvolume. V-Switch threshold **1–99**,higher requiresmore pressure. Calibration andfactoryreset are separate operations. |
+| MIDI / source andthru limits | Manual says GNX3 **doesnot originate Program Change orCC data**. MIDI Merge forwards incoming data. Receive-channel options1–16/All/Off;external Program Change mapping canrecall factory/user presets. These differ fromSysEx transmission. |
+| Editor / MIDI backup | SysEx Bulk Dump sends presets+utility settings;individual preset andUser Amp dumps are separatelydocumented. User Amp dump concerns HyperModels,not audio captures. Recorder audio is not established aspart ofSysEx backup. |
+| Looper / source conflict | Quantize section says **nearest eighth note**,then **nearest quarter note** onp61. Exact grid unresolved;the earlier eighth-note-only statement is qualified. No device timing test. |
+
+
 ## GNX4
 
 Guitar/bass multi-effects workstation, distinct from GNX3/GNX3000. Checked 2026-10-17; partial. Own manual pp.6–7 explicitly establishes live effects processing of mic/line inputs; this supersedes the earlier unclassified vocal status.

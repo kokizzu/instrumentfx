@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX3",
-    "task": "Saved GNX3 complete text-derived8/7/27 control inventory andremaining category counts. Next maximum-block/routing evidence orfresh Shopee discovery;PSS3 conflict andother gaps unresolved.",
+    "task": "Saved GNX3 expression/controller scope,MIDI backup/PC-CC limits andquantize eighth-versus-quarter conflict. Next fresh Shopee discovery orother unresolved fields;do not silently resolve source conflicts.",
     "next_models": [],
     "after_queue": "349 partial unique models;114 Markdown compatibility files retained;no downloads/workflows/push."
   },
@@ -59707,6 +59707,23 @@
         "Qualified used/new asks"
       ],
       "method": "Original guide text;no visualinspection/download/device operation"
+    },
+    {
+      "model": "DigiTech GNX3",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf"
+      ],
+      "finding": "Up to3 pedal/controlFS parameters;2LFO controllers;volume recall andVSwitch1–99;MIDI receive/merge versusnooriginatedPC/CC;SysExscope;quantize eighth/quarter contradiction.",
+      "remaining": [
+        "Exact quantize grid",
+        "Maximum blocks",
+        "PSS3 conflict",
+        "Current editor compatibility",
+        "Display details",
+        "Qualified offers"
+      ],
+      "method": "Manufacturer manual only;no downloads/device tests"
     }
   ],
   "discovery_cross_brand_bass": {
