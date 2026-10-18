@@ -3280,6 +3280,16 @@ Checked 2026-10-18 against the [manufacturer manual, printed pp24–38](https://
 | Processing / internal variants | EQ’s50 patterns andContour are settings of its EQ module. Amp-with/without-ZNR selections are combinations of the three amp characters andnoise reduction. Bass Synth’snine character/blend patterns andPitch Shift’snine patterns are internal variations. Off andthese combinations are not silently counted as additional independent algorithms. |
 | Processing / concurrency distinction | Octaver→Chorus is one selectable composite entry containing two serial effects. Thus menu choices,module positions andsimultaneous effects are different counts;the advertised nine does not mean nine freely selectable/reorderable modules. |
 
+### 607 — tuner and master-volume persistence, 2026-10-18
+
+[Own607 manual](https://zoomcorp.com/media/documents/E_607.pdf),607-5000-1,printed pp9,12–13. Text evidence;no device test.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Live / tuner calibration | Reference **435–445Hz**,display35–45;power cycling restores **440Hz**. This is calibration range,not a measured bass-note detection range. |
+| Live / tuner and bypass access | Tuner requires **PLAY** selector position. Press/release both patch switches for bypass,hold both at least1second for mute;either switch returns to Play. These mode labels do not establish analog/relay true bypass or effect-tail retention. |
+| I/O / master volume | Hold both VALUE keys over1second to access **0–50** master volume;power cycling resets it to **40**. Manual explicitly permits headphone listening adjustment. This is global output adjustment,not extra patch memory or stored preset gain. |
+
 <!-- comparison evidence ends -->
 
 Seller, stock, authenticity/origin, working state, bundle, adapter, warranty, shipping/tax and vouchers unresolved. Browser manual text; no download or visual inspection claimed. [Official support][Z607-S] independently categorizes 607 under bass effects.
