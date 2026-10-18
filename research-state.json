@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS VE-5",
-    "task": "Saved VE5originalmanualPHONESLINE−20dBu/33ohm vscurrentTBD/66ohm conflict pluscopy/exchange/singlepresetrestore anddynamicsparameter scope. Loop soundchange continuity remainsunverified. Next freshShopee discovery oranother significant requiredfield gap;do not repeatgeneric settingspersist asloopcontinuity.",
+    "model": "Lexicon MX300",
+    "task": "Saved original-manual two-tap timing, level and pan controls. Complete Route5 selector count, initial user-bank fill and visual controls remain unresolved. Next fresh Shopee discovery or significant required-field gap.",
     "next_models": [],
-    "after_queue": "366active/46brands;307guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
+    "after_queue": "366 active/46 brands;307 guitar159 bass69 vocal;all partial;114 Markdown compatibility paths retained;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46003,7 +46003,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX300."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81027,5 +81027,10 @@
     "identity": "Original2012VE5manual,printed16–18,20",
     "finding": "OwnmanualPHONESLINE−20dBu/33ohm corroborates historicalcatalogue,currentTBD/66ohm remains conflict. Memorycopy/exchange/factorysinglepatch anddynamicsparameter distinctions saved.",
     "loop_change_gap": "Officialsearch returned settingspersist only,not proof uninterruptedloop during soundchange."
+  },
+  "mx300_two_tap_20261018": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
+    "printed_pages": "23–24",
+    "finding": "Independent percentage timing, level and pan for two taps; not extra processing blocks. Complete Route5 selector count remains unverified."
   }
 }
