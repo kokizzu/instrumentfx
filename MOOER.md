@@ -301,6 +301,14 @@ Checked2026-10-18. The [Chinese manufacturer GS1000/GS1000Li page](https://cn.mo
 The same page labels the launch library **56 drum kits +4 metronome sounds**. The [global page](https://www.mooeraudio.com/products/219.html) instead combines56-kit prose with54kits+4metronome bullets. Preserve all claims; no dated firmware inventory establishes whether these are revision changes orcopy errors. No current exact kit count certified.
 
 
+### GS1000 — expression-volume audit, 2026-10-19
+
+**Per-preset mode,not guaranteed global assignment.** [Original shared GS1000/GS1000Li manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf), printed pp30–34,66: volume is the default pedal mode,but **volume/expression choice is saved per preset**. Global calibration andPre/Post placement do not override that choice. Pre precedes effects andpreserves tails;Post follows effects anddocuments full mute at minimum. Volume min/max adjustable;OFF disables volume despite main-view icon. Exact numeric sweep,range-storage scope,held-position recall,bypass,headphone andrecorded-loop coverage remain unverified. Bank pairs A+B/C+D plusA–D select presets;general sequential down/up unverified.
+
+The inspected97-page manufacturer body names both variants;this audit applies to standardGS1000 anddoesnot transferLi battery/mass. Text inspection only,no new image inspection ordevice test. Existing240×161mm horizontal envelope exceeds preference in either orientation. [Own firmware notes](https://www.mooeraudio.com/Downloads_xq/7.html) describeV1.2.5 pedal-curve improvements,not a global-mode override. Installed revision unverified.
+
+**Exact Shopee offer found2026-10-19:** [Nafiri Music Store shop96878449/item25445636952](https://shopee.co.id/Mooer-GS1000-Intelligent-Amp-Profiling-Processor-Multi-Effects-Pedal-i.96878449.25445636952), **Rp6.888.000**. Cached search says29June delivery;reopened cached body saysToday. Neither establishes current stock/checkout. Title namesstandardGS1000;condition,bundle,warranty,shipping andused offer remain unknown. Late-delivery voucher uptoRp10.000 isnot deducted. Older list-page amounts remain unresolved andarenot combined into a range.
+
 ## GE100 original
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
