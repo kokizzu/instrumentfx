@@ -3122,6 +3122,17 @@ Checked2026-10-17 against [own manual][R1K-M],pp7–15.
 
 Reverb selections1–9 offer11 character choices;Gate/Reverse instead adjust threshold/sensitivity. Preserve advertised363 selector combinations without treating everyposition as an independent named patch. Mix&SFX generally recommends fully wet output. Cabinet Sim models combo/stack tone;user IR import remains unverified.
 
+### RFX-1000 — conversion, control routing and additional offer
+
+Checked2026-10-18 against [own manual,pp2,6,15][R1K-M] and the separate seller index. No downloads or hardware operation.
+
+| Field | Finding / qualification |
+|---|---|
+| I/O / converters | **44.1kHz,18-bit AD with64× oversampling,18-bit DA with8× oversampling**;ZFX-2 internal processing24-bit. These are distinct specifications. |
+| I/O / operating levels | Rear inputs10kΩ mono/20kΩ stereo;reference −10…+4dBm. Mic input20kΩ,reference−56dBm;front jack accepts a dynamic microphone around600Ω output impedance. Output reference−10…+4dBm;manual prints output impedance **100Ω ormore**,retained without correction. Its reference defines0dBm=0.775Vrms. |
+| Processing / vocoder control | INPUT L supplies the carrier;MIC IN andINPUT R supply the control signal. Right input can substitute for microphone control;set MIX fully wet. This uses an external carrier,not an internal synthesizer. |
+| IDR / additional condition-unverified ask | **Rp1.200.000**,electronic88,Kota Jakarta Barat,[shop4896483/item1811483791](https://shopee.co.id/EFFECT-VOCAL-ZOOM-RFX1000-RFX-1000-ZOOM-EFEK-VOCAL-i.4896483.1811483791). Three-month search cache;direct fetch cache miss. New/used condition,stock,working state,variant,adapter/bundle,warranty,voucher,shipping/tax unknown. Separate from the Rp898.500 sold-out offer;not a current-stock or used/new price bound. |
+
 ## MS-80IR Plus
 
 **MS-80IR+**,checked2026-10-17;partial. [Own HTML manual][M80-M],©2024,Z2I-5301-02;[own product][M80-P]. Not MS-50G+ or MS-200D+.

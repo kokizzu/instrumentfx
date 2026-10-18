@@ -461,7 +461,7 @@ def main():
         if mode == 'commit-m100':
             message = 'research(tc-electronic): reconcile Plethora X3 controls and latency'
         if mode == 'commit-rfx1100':
-            message = 'research(zoom): enumerate RFX-1000 banks and qualify combined delay limits'
+            message = 'research(zoom): qualify RFX1000 conversion levels and additional offer'
         if mode == 'commit-spx990':
             message = 'research(yamaha): qualify SPX1000 Freeze pitch and trigger limits'
         if mode == 'commit-spx900':
