@@ -2065,3 +2065,9 @@ research-push-plan:
 	python3 scripts/research_push.py plan
 research-push-apply:
 	python3 scripts/research_push.py apply
+
+.PHONY: research-push-inspect research-push-sync
+research-push-inspect:
+	python3 scripts/research_push.py inspect
+research-push-sync:
+	python3 scripts/research_push.py sync

@@ -9,9 +9,20 @@ def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT, text=True).strip()
 assert git('branch','--show-current') == 'main'
 assert git('remote','get-url','origin') == 'git@github.com:kokizzu/instrumentfx.git'
-assert not git('status','--porcelain'), 'Dirty worktree'
+if sys.argv[1] != 'inspect':
+    assert not git('status','--porcelain'), 'Dirty worktree'
 mode = sys.argv[1]
-if mode == 'plan':
+if mode == 'inspect':
+    print(git('rev-list','--left-right','--count','HEAD...origin/main'))
+    print(git('log','--oneline','HEAD..origin/main'))
+    print(git('diff','--stat','HEAD...origin/main'))
+    print(git('diff','HEAD...origin/main','--','AGENTS.md','Makefile'))
+    names=git('diff','--name-only','HEAD...origin/main').splitlines()
+    snapshots={name:{'remote':git('show','origin/main:'+name),'base':git('show',git('merge-base','HEAD','origin/main')+':'+name) if name not in {'EXPRESSION-VOLUME.md','STRYMON.md'} else ''} for name in names}
+    pathlib.Path('/tmp/instrumentfx-remote-review.json').write_text(json.dumps(snapshots))
+elif mode == 'sync':
+    subprocess.run(['git','merge','--no-edit','origin/main'],cwd=ROOT,check=True)
+elif mode == 'plan':
     subprocess.run(['git','fetch','origin','main'], cwd=ROOT, check=True)
     ahead, behind = map(int,git('rev-list','--left-right','--count','HEAD...origin/main').split())
     assert behind == 0, 'Remote has new commits; inspect before pushing'
