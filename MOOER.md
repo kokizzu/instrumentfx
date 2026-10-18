@@ -896,6 +896,19 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 [Original shared source](research-state.json)<!-- historical-link:mooer-017 -->,retained pending complete navigation/provenance audits.
 
+### GE200 Pro — numbered amp, cabinet and noise inventories, 2026-10-18
+
+Manufacturer-authored [own manual appendix](https://device.report/manual/14206389), printed pp44–49; manual body and numbered tables used, not the mirror introduction/FAQ. Original edition/installed firmware remain unconfirmed.
+
+| Field | Appendix count / qualification |
+|---|---|
+| Category choices / AMP | Numbered groups give **46 classic preamps +28 boutique preamps +26 boutique complete amps =100 AMP entries**. Preamp-only versus complete-amp variants are distinct selector entries, not100 unique source amplifiers or simultaneous blocks. |
+| Category choices / CAB | **23 Classic +54 Boutique =77 cabinet entries**. Boutique includes ChopTones active-labelled entries; these factory choices are separate from the20 user IR slots. Repeated source cabinet identities are not deduplicated across modeling variants. |
+| Category choices / NS | **Three: Noise Killer, Intel Reducer, Noise Gate**. Intel Reducer targets white-noise separation; the gate offers threshold/attack/release/damping controls. These alternatives fill the earlier NS count gap. |
+
+These numbered appendix counts corroborate the regional100-amp/77-cab wording, but do not reconcile the advertised286 grand total or certify a current firmware library. Historical source rows remain intact.
+
+
 ## GE200 Pro Li
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

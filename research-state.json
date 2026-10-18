@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-300 MKII",
-    "task": "Saved GEN2 NAM/IR default interaction, blocksubstitutions and ADC/level qualifications. Compatibility review retained114heading-preserving MD paths. Next another required model gap orfreshShopee series; current/polarity/memory/display remainopen.",
+    "model": "MOOER GE200 Pro",
+    "task": "Saved numbered AMP100/CAB77/NS3 appendix groups withpreamp/fullamp distinction. Next another required gap orfreshShopee series; do not treat grandtotal orinstalledlibrary as reconciled.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45771,7 +45771,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-300 MKII."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE200 Pro."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77413,5 +77413,37 @@
       "Displaydiagonal/touch",
       "Firmwarequalifiedcompletecategorytotal"
     ]
+  },
+  "technical_followup_ge200pro_appendix_20261018": {
+    "source": "https://device.report/manual/14206389",
+    "pages": [
+      "44–49"
+    ],
+    "counts": {
+      "amp_classic_preamp": 46,
+      "amp_boutique_preamp": 28,
+      "amp_complete": 26,
+      "amp_entries": 100,
+      "cab_classic": 23,
+      "cab_boutique": 54,
+      "cab_entries": 77,
+      "noise": 3
+    },
+    "limits": "Numbered manufacturer appendix; no unique-sourceamp deduplication,installedfirmware verification or286grandtotal reconciliation.",
+    "remaining": [
+      "Modulebuttonrow count",
+      "Displaytouch",
+      "Factoryfilled memories",
+      "Exact current pervariant Shopeeoffer",
+      "NAMminimumfirmware"
+    ]
+  },
+  "discovery_newer_frontier_20261018": {
+    "queries": [
+      "Shopee Plethora X1",
+      "Shopee Mooer GE200Pro",
+      "Shopee Hotone Ampero Mini II"
+    ],
+    "result": "No newmodel established. GE200Pro/ProLi mixed offers alreadycatalogued; no variant-price mapping promoted."
   }
 }
