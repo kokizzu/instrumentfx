@@ -226,6 +226,20 @@ The¼TRS pedal input uses momentary switches: **tip bypass,ring tap tempo**. Thi
 
 The overview’s “BYPASS knob” wording remains acontrol-count ambiguity;button count awaits qualified visual/original diagram evidence. No image was inspected orsoftware downloaded.
 
+### M350 — analog interface and reset limits
+
+Checked 2026-10-18 against the [manufacturer Rev1.1/SW1.00 manual,pp31–32](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),productE60505812. Text only;no local download or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / analog input | **21 kΩ balanced/13 kΩ unbalanced**. Maximum/minimum input levels at0dBFS: **+24/0 dBu**;sensitivity **−12 to+12 dBu with12dB headroom**. These describe gain-dependent full-scale limits,not two nominal operating standards. |
+| I/O / analog output | **40 Ω balanced/20 Ω unbalanced;+14 dBu maximum**. Input and output impedances remain distinct. |
+| Processing / conversion | ADC and DAC each **24-bit,128×oversampling**. **24-bit S/PDIF** supports44.1kHz,or44.1/48kHz digital input. Digital processing delay **.08ms at48kHz** is not complete analog round-trip latency. |
+| Memory / factory reset | Hold TAP while reconnecting power;flashingR,then LOAD confirms;power-cycle afterward. **All User presets are lost**. MIDI bulk receive is disabled when receive channel isOF. |
+
+The alternate MusicTribe mediadl endpoint exposed indexed specifications but direct access failed;the existing manufacturer CDN supplied the matching original manual. Editor compatibility,control-button count,screen details and qualified used/new prices remain unresolved.
+
+
 ## M-One XL
 
 Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.

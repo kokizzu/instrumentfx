@@ -459,7 +459,7 @@ def main():
         if mode == 'commit-mg20':
             message = 'research(nux): clarify Cerberus V5 footswitch and expression assignments'
         if mode == 'commit-m100':
-            message = 'research(tc-electronic): document Plethora X3 bypass and base effect names'
+            message = 'research(tc-electronic): document M350 analog ratings and reset limits'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): qualify RFX1000 conversion levels and additional offer'
         if mode == 'commit-spx990':

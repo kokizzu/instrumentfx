@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Lexicon MPX100",
-    "task": "Saved manufacturerROMupdate versusdesktopsoftware distinction andpostupdateinitialization. Next freshShopee discovery orrequiredremainingfields;current/powerconnector/editor/display stillunverified.",
+    "model": "TC Electronic M350",
+    "task": "Saved ownmanualanalogratings,converter/digitalwidth andresetlimits. Next freshShopee discovery orremainingrequiredfields;editorOS/buttoncount/display/qualifiedIDR unresolved.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75524,5 +75524,16 @@
       "ZoomG9.2tt"
     ],
     "discovery_result": "Noqualifiednewexacthardwareoffer;G9.2ttadaptorsrejected"
+  },
+  "m350_analog_reset_20261018": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf",
+    "identity": "Rev1.1SW1.00E60505812,pp31–32",
+    "findings": "Input21kbal13kunbal/fullscale+24to0dBu;output40/20ohm+14dBu;24bitADC/DAC128x/S_PDIF;digitaldelay.08ms48kHznotanalogRT;factoryresetusererasure",
+    "discovery_queries": [
+      "site:shopee.co.id TC Nova System",
+      "site:shopee.co.id TC G Major",
+      "site:shopee.co.id TC G Natural"
+    ],
+    "discovery_result": "Noqualifiednewexacthardwaremodel;notmarketabsenceproof"
   }
 }
