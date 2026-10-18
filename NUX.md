@@ -1360,3 +1360,12 @@ Sources: [NUX global product](https://nuxaudio.com/product/atlantic/) (P);[offic
 | Field | Evidence / qualification |
 |---|---|
 | Used IDR / historical offer | Checked2026-10-18: **Rp1.100.000,Habis**,starless.shop,Kota Pontianak;seller653941050/item42162225438. Exact title explicitly says second/used;condition and“like new” wording are seller claims. Five-month searchcache;direct page cachemiss. Shippingservice unavailable. Working state,revision,adapter/bundle,warranty,voucher,checkout andcurrentstock unknown. This establishes a dated used asking observation,not a completed sale orcurrent used-price floor. [Indexed exact hardware](https://shopee.co.id/NUX-Atlantic-Delay--Reverb-Pedal-with-Shimmer.-second--used--mulus-like-new-i.653941050.42162225438) |
+
+### Atlantic — tap ratios and parallel dry paths
+
+Checked2026-10-18 against [manufacturer product documentation](https://nuxaudio.com/product/atlantic/);no device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Delay / tap-ratio meaning | NUX's explicit examples say **1/4 produces repeats four times faster than tapping**,and **1/2 twice as fast**. These are tap-interval ratios;do not silently relabel1/4 as a quarter-note rhythmic denomination. Numeric knob ranges andSmartTAP range remain separately documented above. |
+| Routing / parallel dry branches | Inparallel mode,the input splits andeach effect mixes with its **separate dry signal**. Serial mode chooses which effect comes first. This description doesnot establish independently processed stereo input channels,dry-kill support,unity summed gain orcomplete wet-only output behavior. |
