@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 HX Stomp",
-    "task": "HX Stomp FAQ I/O and Windows ARM qualifications saved. Numeric power ratings remain unverified; next fresh Shopee discovery or complete required category census, preserving device and firmware scope.",
+    "model": "Fresh Shopee discovery",
+    "task": "Yamaha exact-series pass saved without qualified offer. Next search another underrepresented brand/series for eligible multi-effects, check exact inventory, then manufacturer specifications. Existing HX Stomp numeric power/category gaps remain open.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -117232,5 +117232,22 @@
       "effects/findings/2026-10-14-nux-mg-200.md": "9485cde1f9fd6120eff6838001a70fc52b00ebdbad6de5ccb5bf83183f847c1d",
       "effects/findings/2026-10-14-joyo-gembox-iii.md": "e380ba0970355c131c1198928924b8d6ed2b35ad1c72738b9436a4d74a774176"
     }
+  },
+  "discovery_yamaha_20261018_unqualified": {
+    "date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Yamaha\" \"FX500\"",
+      "site:shopee.co.id \"Yamaha\" \"FX550\"",
+      "site:shopee.co.id \"Yamaha\" \"Magicstomp\"",
+      "site:shopee.co.id \"Yamaha\" \"UD Stomp\"",
+      "site:shopee.co.id \"Yamaha\" \"SPX90\"",
+      "site:shopee.co.id \"Yamaha\" \"FX 500\"",
+      "site:shopee.co.id \"Yamaha\" \"GW33\"",
+      "site:shopee.co.id \"Yamaha\" \"FX770\""
+    ],
+    "result": "No qualified exact hardware offers returned. FX 500 motorcycle ignition-coil search result excluded. Search absence does not establish market absence, model ineligibility or no stock.",
+    "excluded_result": "https://shopee.co.id/search?keyword=f6T&page=0",
+    "inventory_added": 0,
+    "next": "Change discovery brand/series rather than immediately repeating these exact queries; verify candidate identity against inventory first."
   }
 }
