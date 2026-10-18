@@ -3680,7 +3680,7 @@ Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [
 | Field | Evidence / qualification |
 |---|---|
 | Expression | Built-in pedal; optional FP01/FP02. Toe pressure toggles assigned module except volume. [Manual p27][ZNU-M] |
-| K/F/B | Separate rotary/footswitch/button totals unverified; do not inherit G2.1u counts. |
+| K/F/B | **4/2/8**, detailed own-manual derivation below;not inherited from G2.1u. |
 | Display | LCD; diagonal,color,touch unverified. [Specifications p50][ZNU-M] |
 | Dimensions / mass | **260W×169D×67H mm;1300g without batteries**. [Specifications][ZNU-M] |
 | Processing / choices | **83 types;maximum8 simultaneous modules**. Full per-category census unresolved. [Specifications][ZNU-M] |
@@ -3688,10 +3688,10 @@ Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [
 | Synth / acoustic | Dedicated algorithms unverified. |
 | I/O | Mono input;stereo line/headphone output;FP02/FS01 control input;USB. Connector details/exhaustive panel audit pending. [Specifications][ZNU-M] |
 | Power / battery / USB | **9VDC center-negative500mA AD-16;USB bus power;4AA alkaline≈6.5h at LOW backlight**. Adapter rating,not measured draw. [Specifications][ZNU-M] |
-| Conversion | **96kHz;24-bit ADC/DAC64×oversampling;32-bit processing**. USB stream format unverified. [Specifications][ZNU-M] |
+| Conversion | **96kHz;24-bit ADC/DAC64×oversampling;32-bit processing**. USB stream is separately documented below. [Specifications][ZNU-M] |
 | IR / NAM / capture | Native/converted NAM,userIR andcapture import unverified. |
 | Editor / platforms | **Edit&Share Windows/Mac** listed separately from firmware1.10,USB subsystem andASIO drivers. Current OS/CPU support unverified;legacy driver labels mention XP/Vista/7/8. [Own support][ZNU-S] |
-| Looper / drums / live | Manual contains looper/rhythm sections;duration,pattern count,persistence androuting remain unverified. [Manual contents][ZNU-M] |
+| Looper / drums / live | Looper duration and DELAY restriction verified below;rhythm pattern count andpersistence unresolved. [Manual contents][ZNU-M] |
 
 ### Separate IDR hardware evidence
 
@@ -3701,9 +3701,25 @@ Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [
 | New | No condition-confirmed exact G2.1Nu offer established. |
 | Rejected mixed-model ask | [Hope Music storefront](https://shopee.co.id/hopemusik) four-month search snapshot names G2.1Nu/G2.1u/B2.1u at **Rp1.699.000**;selected model,exact item/seller ID,condition,stock,region,bundle,warranty,voucher andcheckout total unresolved. Reopened last-month cached storefront no longer exposes this item. Not assigned as a G2.1Nu price or availability claim. |
 
+
+### G2.1Nu — controls, USB and loop restrictions
+
+Checked2026-10-18 against [manufacturer-authored manual copy][ZNU-C], pp6–7,13–15,29; cover/model and section structure match the manufacturer-hosted manual. Generated mirror summaries/FAQ excluded. Text inventory,not visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| K/F/B | **4/2/8**: module selector+three parameter knobs;two patch footswitches;two EFFECT TYPE/BANK keys,STORE/SWAP,DIRECT,RHYTHM,TAP,PEDAL ASSIGN,USB/GLOBAL. Power/eco selectors andtoe pressure additional. |
+| I/O / complete panel inventory | INPUT,OUTPUT,CONTROL IN,USB,DC9V. CONTROL IN accepts FP01/FP02 orFS01;one shared socket,not simultaneous separate expression/footswitch inputs. USB connector subtype unverified. |
+| USB / audio format | **16-bit;32/44.1/48kHz** recording/playback. Internal96kHz/32-bit processing does not establish that USB format. |
+| Looper / recording limits | Approximately **5seconds**,with overdubbing. Activating looper disables **DELAY**. Recording can stop manually orafter tempo-derived note duration;rhythm can play concurrently. |
+| Looper / erasure | Turning recording-time or tempo knob after recording **erases the phrase**. MIX adjusts phrase volume0–100. Persistence across power/preset changes unverified. |
+| Power / eco behavior | With eco enabled,≈25minutes unused enters standby;guitar input prevents entry but is ignored once asleep. Any control operation wakes it. |
+
 <!-- comparison evidence ends -->
 
 [ZNU-M]: https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf
 [ZNU-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21nu/g21nu/
 
 Manufacturer-hosted manual identity/contents and printed pp27,50 were returned by indexed search;full reader open exceeded its size limit. No PDF,installer,firmware or dependencies downloaded. Exact Shopee item,complete controls/ports,per-category choices,display details,live limits,current editor compatibility andimport scope remain open.
+
+[ZNU-C]: https://www.manualzz.com/doc/9165611/zoom-g2.1nu-operation-manual

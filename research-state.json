@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G2.1Nu",
-    "task": "Added partial G2.1Nu from own manufacturer documentation;exact Shopee item and selected condition/variant unresolved. Continue control/category/port/live verification or fresh Shopee discovery after committing.",
+    "task": "Saved G2.1Nu controls,complete named port inventory,USB stream format,looper restrictions andeco behavior. Next category census andsynth/acoustic algorithm verification;exact Shopee item remains unresolved.",
     "next_models": [],
     "after_queue": "349 partial unique models;114 Markdown compatibility files retained;no downloads/workflows/push."
   },
@@ -59591,6 +59591,22 @@
         "Looper/rhythm limits"
       ],
       "method": "Indexed manufacturer manual and official support HTML;no downloads"
+    },
+    {
+      "model": "Zoom G2.1Nu",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.manualzz.com/doc/9165611/zoom-g2.1nu-operation-manual"
+      ],
+      "finding": "Own-manual 4/2/8 control count;panel I/O;shared expression/FS socket;16-bit32/44.1/48kUSB;5s overdub looper disablesDELAY,time/tempo erasure;eco standby.",
+      "remaining": [
+        "Category census",
+        "Exact Shopee item",
+        "Display details",
+        "Looper persistence",
+        "Current editor compatibility"
+      ],
+      "method": "Manufacturer-authored manual text,cover identity and section structure checked;no downloads or device operations"
     }
   ],
   "discovery_cross_brand_bass": {
