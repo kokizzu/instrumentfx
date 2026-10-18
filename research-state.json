@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom RFX-1000",
-    "task": "RFX1000 conversion/operating levels/vocoder routing and additional exact cached offer saved. Resume fresh Shopee discovery or another primary gap;condition-qualified used/new prices and current draw unresolved.",
+    "model": "BOSS GT-10B",
+    "task": "GT10B Windows Librarian1.00 own-page OS/host requirements saved. Resume fresh Shopee leads or primary gaps;exact Indonesian offer,Windows11 andfull editor remain unresolved.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -45545,7 +45545,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom RFX-1000."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-10B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -72964,5 +72964,26 @@
       "condition": "unknown",
       "stock": "unknown"
     }
+  },
+  "gt10b_librarian_20261018": {
+    "source": "https://www.boss.info/au/support/by_product/gt-10b/updates_drivers/0f5a0945-8e51-4136-9949-268bbe3c4276/",
+    "checked": "2026-10-18",
+    "version": "1.00 Windows librarian",
+    "published_os": [
+      "XP",
+      "Vista",
+      "7",
+      "8/8.1",
+      "10"
+    ],
+    "scope": "Patch library management;full-editor and Windows11 support unresolved. No package downloaded."
+  },
+  "discovery_bass_legacy_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
+      "site:shopee.co.id \"Zoom\" \"BFX708\"",
+      "site:shopee.co.id \"Boss\" \"GT10B\""
+    ],
+    "result": "No exact bass processor hardware offer established;GT10B result contained adapters and guitar GT10 items,not accepted bass hardware. Absence is not unavailability."
   }
 }

@@ -3295,6 +3295,16 @@ Checked 2026-10-18 against the manufacturer-authored 2008 manual, revision G6027
 | Editor / Windows driver scope | **Driver1.0.0: Windows10 32/64-bit**, excluding Mobile. Page describes automatic internet driver delivery on connection; current delivery was not tested. Virtual Windows and Windows on Mac are unsupported. USB3 requires USB2 compatibility; try USB2 if malfunctioning. This driver page does not establish full-editor or Windows11 support. | [Official Windows driver page][G10B-W10] |
 | Editor / macOS driver scope | **Driver1.0.3: macOS10.13/10.14** on Mac with onboard USB. Existing10.13 installation can be used on10.14; installer may still display10.13 wording. This does not establish newer macOS/Apple Silicon compatibility or librarian/editor support. No package downloaded or installed. | [Official Mac driver page][G10B-MAC] |
 
+
+### GT-10B — Windows librarian requirements
+
+Checked2026-10-18 against the [official Librarian1.00 page](https://www.boss.info/au/support/by_product/gt-10b/updates_drivers/0f5a0945-8e51-4136-9949-268bbe3c4276/). No package downloaded or installed.
+
+| Field | Finding / qualification |
+|---|---|
+| Editor / Windows librarian scope | **Librarian1.00 lists WindowsXP,Vista,7,8/8.1 and10**. It collects,organizes,copies and reorders user-patch libraries;this doesnot establish full parameter editing. The page compares librarian andeditor storage behavior butdoesnot establish a separate GT-10B full-editor release. |
+| Editor / librarian host requirements | **1GHz Pentium/Celeron-compatible CPU,512MB RAM,190MB disk,1024×768 display with16-bit color**. These are computer requirements,not the processor’s screen specifications. Manufacturer doesnot guarantee every qualifying hardware configuration. Windows11,current delivery anddevice communication remain untested;USB driver requirements remain separate. |
+
 <!-- comparison evidence ends -->
 
 GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.
