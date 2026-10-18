@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh eligible hardware discovery / required gaps",
-    "task": "Atlantic mirrored-manual impedance and tap divisions saved with explicit source limitations. EN/IT/JP PDF text does not resolve freeze, stereo-input conflict or garbled ADC/THD. Move to new exact Shopee hardware or another required gap; avoid repeating identical unreadable manual retrievals.",
+    "task": "H90 routing-mode list compatibility, insert compensation/tails and mono summing saved. Next seek fresh eligible hardware or unresolved required fields; retain H90 USB and display unknowns, unit/package/manual mass conflicts, and cached-offer limits.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78752,5 +78752,34 @@
       "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_Japanese.pdf"
     ],
     "files_downloaded": false
+  },
+  "h90_routing_memory_20261018": {
+    "status": "partial",
+    "sources": [
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/edit-modes/routing.html",
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/system-menu/io.html"
+    ],
+    "findings": [
+      "Insert/Dual mode-specific Lists/Programs; H90 Control export/reimport conversion, not erased/doubled storage proof",
+      "Perinsert compensation0–512samples plus physical insert latency; polarity/mix/levels/tails",
+      "Auto physical-jack summing; end mono insert sums output; parallel mono insert may preserve stereo; ForceMono sums dry+algorithm paths"
+    ],
+    "remaining": [
+      "Display diagonal/color/touch",
+      "Published list-capacity limit",
+      "USB audio/bus power",
+      "Dimensions/mass source conflicts",
+      "Qualified used/new offers"
+    ],
+    "method": "Version1.12.5 own HTML manual; no hardware/app operations or downloads"
+  },
+  "discovery_h90_legacy_20261018": {
+    "queries": [
+      "site:shopee.co.id Eventide H90",
+      "site:shopee.co.id Boss GX-700",
+      "site:shopee.co.id Zoom G9.2tt",
+      "site:shopee.co.id Digitech RP100"
+    ],
+    "result": "Only existing H90799119783/26020027851 Rp17240000 with staleJune28–29delivery resolved. G9.2tt hits were adapters,not hardware; no new exact model added. USB forum repeats previously saved author-attribution limitation and did not resolve hardware scope."
   }
 }
