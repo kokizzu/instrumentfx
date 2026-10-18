@@ -280,8 +280,9 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 |---|---|
 | Expression / controls | Built-in pedal yes; toe ?. **External EXP conflict:** specification says one socket,complete rear panel/numbered list show none. Do not invent that connector or confuse MIDI control with analog EXP. **4/3/12**,power separate. |
 | Display / body | **2.4-inch color LCD**,touch ?. **271.5×136.5×51mm;approximately795.5g**,medium. |
-| Processing / choices | **Ten movable,DSP-limited;320+ effects**,120amps,40drives,100cabs;remaining category subcounts ?. |
-| Presets | **150 editable, 75 factory-filled**. |
+| Processing / choices | **Ten movable,DSP-limited;320+ effects**,**120 amps: 85 electric-guitar, 30 bass, 5 acoustic; 40 drives; 100 cabs: 65 electric-guitar, 25 bass, 10 acoustic**. Remaining category subcounts ?. |
+| Presets | **150 editable, 75 factory-filled**: 1–66 electric guitar, 67–75 bass; 76–150 initially blank. Factory restore can target the first 75 or all 150; these are not separate factory/user banks. |
+| Snapshot memory / software limits | Six independent slots S1–S6 store global, preset, mapping and footswitch/knob/pedal settings. A+C selects snapshot mode, mutually exclusive with normal mode. Normal presets can be saved into snapshots; reverse saving is prohibited. Snapshot files use `.kz20`. Software supports snapshot import/export but cannot adjust device parameters in that mode. Do not infer 156 ordinary presets or seamless switching; firmware threshold unverified. |
 | Synth / acoustic | Synth unverified; acoustic amp/cab content does not establish an acoustic simulator. |
 | Ports | Panel confirms6.35mm TS input,two unbalanced6.35mm outputs,3.5mm phones,3.5mm MIDI,USB-C. Introductory phone-recording-cable claim lacks matching rear socket and is not accepted as another verified port. |
 | Power | **3000mAh/3.7V battery;USB5V/2A supply;300mA draw**. Independent USB operating-power versus charging behavior ?. |
@@ -297,7 +298,7 @@ Retail **Rp1.850.000** at [Seven16879370/41125436730](https://shopee.co.id/M-Vav
 Source: [manufacturer-authored mirrored manual](https://device.report/m/b1b56aa7fbd51aee0ecc8aeb12fb1c35f3375111e940f294864a552eb9ce8b7d_optim.pdf),original visual pp.3,8,13;[manufacturer software](https://www.cuvave.com/appdownload). Preserve external-port/revision/import uncertainties;do not copy MK-300's XLRs,screen or looper.
 
 
-**Manual text follow-up, 2026-10-18:** [MK-20 manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-20.pdf), model-matched cover, printed p.5 and specifications p.14. Text inspection only; revision equivalence to the older mirror is unproven. The loopback paragraph says eleven modules, conflicting with the ten-module specifications; no extra block is inferred. Built-in pedal is explicitly listed; the external-jack conflict remains.
+**Manual text follow-up, 2026-10-18:** [MK-20 manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-20.pdf), model-matched cover, printed pp.2, 5, 9, 12 and specifications p.14. Text inspection only; revision equivalence to the older mirror is unproven. The loopback paragraph says eleven modules, conflicting with the ten-module specifications; no extra block is inferred. Built-in pedal is explicitly listed; the external-jack conflict remains.
 
 <!-- comparison evidence ends -->
 
