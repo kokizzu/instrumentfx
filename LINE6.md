@@ -728,6 +728,12 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-line6-hx-stomp-xl.md](LINE6.md#hx-stomp-xl)<!-- historical-link:line6-006 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:line6-007 -->. No legacy file was deleted.
 
+### HX Stomp XL — across-preset expression audit, 2026-10-19
+
+[Manufacturer-authored 3.80 manual mirror](https://device.report/m/7e506bff9341be7f9712b0e10533b9bdee5aaf9de1a0a08688b58130ea5d5e35),40-00-0500 RevD, indexed original pp50–51,62–63: Global EXP Position retains pedal position, not target assignment. Volume/Pan blocks default to EXP2; single-pedal setup assigns Position to EXP1 and bypass Switch=None. **No every-preset global volume assignment verified.** Range endpoints are controller settings; numeric volume limits need further checking. Block placement, all-bypass, headphone, tail and looper attenuation remain unresolved.
+
+FS1/FS4 can select previous/next presets when Up/Down Switches=Presets; Stomp mode needs4Switch layout. Direction can be swapped. Existing manufacturer dimensions316×120mm exceed preferred width. Dedicated headphones remain documented independently. [Capability comparison](EXPRESSION-VOLUME.md). No sibling specifications or downloads used; full official PDF reader failed this pass.
+
 ## HX Stomp
 
 Consolidated2026-10-17. Complete legacy model rows, dated qualifications and URLs are retained below. Display, controls, expression and qualified Shopee offers were additionally checked; indexed manual/guide facts are labelled with access limitations. This existing guitar/bass model adds no inventory count. Verification remains partial.

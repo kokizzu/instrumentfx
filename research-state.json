@@ -121648,10 +121648,9 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Line 6 HX Stomp",
-    "finding": "Exact3.80 manual:GlobalEXPPosition isrecall,Volume/Pan block/controller workflow;universal assignment notverified. SinglepedalEXP1/None setup andScroll mode audited.",
+    "current": "Line 6 HX Stomp XL",
+    "finding": "Own3.80 manual:globalposition notassignment;block-based volume workflow.316mmwidth exceeds preference;FS1/4 configurable presetup/down.",
     "next": [
-      "Line 6 HX Stomp XL",
       "Line 6 HX Effects",
       "Line 6 HX One",
       "BOSS GT-1000CORE",
