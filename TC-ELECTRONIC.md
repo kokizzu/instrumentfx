@@ -520,6 +520,17 @@ Checked 2026-10-18 against [manufacturer 1.2 release/install notes][NOVA-FW12],i
 | MIDI / clock and tap restriction | Fixes delay/modulation MIDI-tempo sync (TT604). **Tap tempo isdisabled while synced toMIDI clock**;tempo-dependent displayed parameters now update with MIDI tempo. System-dump reception **ignores SysEx ID**,so the general identification setting isnot a filter forthat transfer. |
 | Expression / preset recall defect | Fixes physical pedal position not being read atpreset change in **Master:Pedal** mode (TT465). Earlier manual describes intended operation;correct behavior should not be assumed forunverified older firmware. |
 | Processing / other fixes | Notes also fix intelligent-harmony scale changes not applying immediately,incorrect Factory Default behavior forsome subtypes,dynamic-delay L/R level mismatch andtuner exit requiring twopresses. These fixes qualify earlier feature descriptions without establishing new algorithms orhigher concurrency. |
+
+### NOVA System — expression-volume capability audit
+
+Checked2026-10-19; partial, original revision1.2/SW1.10 manual body on mirror, not generated FAQ.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / default versus global scope | Volume is the default pedal target. Pedal menu mixes global and preset parameters, distinguished by display **p**; extracted text does not identify the mapping’s marker. **Across-preset assignment remains unverified**; Master:Pedal only establishes position recall. [Manual][NOVA-M] pp14,16–17 |
+| Expression / range and wiring | Volume−100–0dB; response Min/Mid/Max0–100%. TS orTRS depends on controller; one cable, not universal pinout compatibility. [Manual][NOVA-M] |
+| Live / onboard navigation | MOD/PITCH select banks after hold; three switches select presets. This is bank navigation plus slot selection, not dedicated previous/next-preset switches. [Manual][NOVA-M] p19 |
+| Expression / remaining | Built-in-treadle absence still needs panel corroboration; no dedicated headphones in recorded connector inventory. Bypass/looper coverage unknown. Existing Pre/Post, firmware1.2 recall fix and dimension conflict retained. No qualified new Shopee offer found; no download or operation. |
 <!-- comparison evidence ends -->
 
 [NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
