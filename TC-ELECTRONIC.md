@@ -141,6 +141,14 @@ Control-count recheck2026-10-17 uses the complete13-callout own-model text and s
 
 [PX3-QM]: https://www.adorama.com/col/productManuals/TC79AIS861.pdf
 
+### PLETHORA X3 — direct-expression audit, 2026-10-19
+
+**Direct analog external EXP:No**,complete model-specific connector inventory. [Manufacturer-authored V0.0 QSG copy][PX3-QM],printed pp18–19,63,listsTS audio pairs,MIDI DIN,USB andDC,butnoEXP orheadphone socket. ThreeMASH pressure switches areonboard expression,notanalogexternalinputs. Earlier genericEXP editor wording doesnot addmissinghardware. This fails the requested direct path,irrespective ofMIDI capabilities.
+
+**176.53 W×116.75 Dmm** fits preference. Master-volume position,min/max,bypass/tail/looper coverage throughMIDI remain unverified;not inferred fromTrueBypass specification. OnboardBOARD selector isseparate fromfoot-operated boarddown/up,whose currentmapping remains unverified. PriorCC100GlobalExpression evidence isMIDI-only,not necessarily globalmastervolume. OfficialMIDI table failedretrieval thispass;older sourcequalification retained.
+
+[Official V1.0 QSG][PX3-M] returned502;readthe matchingX3 V0.0 manufacturerbody,notgeneratedFAQ. Newerguide differences remain unverified. [ExactNEOMUSIC shop158235298/item28021818540][PX3-O1] returnedcachemiss2026-10-19. PreserveRp6.180.000 andseparateGeloraRp7.508.100 historicalasks;currentstock,condition,bundle,warranty,shipping andusedoffers unknown. No localdownload orhardwaretest.
+
 ## PLETHORA X5
 
 Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal suitability unverified.

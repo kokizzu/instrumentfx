@@ -2079,3 +2079,7 @@ research-push-finalize:
 .PHONY: expression-audit-commit-headrush
 expression-audit-commit-headrush:
 	python3 scripts/expression_audit_headrush.py commit
+
+.PHONY: expression-audit-commit-tc
+expression-audit-commit-tc:
+	python3 scripts/expression_audit_tc.py commit
