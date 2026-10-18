@@ -242,7 +242,7 @@ Manual printed pp1–2,4–7,10–15,19–20; text-only review,no download. Comb
 
 | Condition / seller | IDR evidence | Exact item |
 |---|---|---|
-| Used | Unknown;no qualified condition-confirmed ask. | — |
+| Seller-described used; actual condition unverified / arifsilprut,Kab.Kediri | **Rp3.200.000**,shop1186125751/item25142439814. Checked2026-10-18;two-month cached item result. Title explicitly saysbekas/ori;actual working condition,authenticity,mains variant,stock,cable/bundle,warranty,voucher,shipping/tax anddelivered total unknown. August11–14delivery stale;up-toRp10.000late compensation isnotaproduct discount. NormalizeddirectURL returnedcachemiss;shopindex corroborates ask. | [Exact indexed item](https://shopee.co.id/yamaha-rev500-bekas-ori-i.1186125751.25142439814?extraParams=%7B%22display_model_id%22%3A242836304494%2C%22model_selection_logic%22%3A3%7D) · [Seller index](https://shopee.co.id/orderku0ta) |
 | New | Unknown | — |
 | Condition unknown / GMS Bandung,Kota Bandung | **Rp3.050.000,Habis**,shop137354453/item22070535666. Checked2026-10-17;last-month cached text,not live stock. Variant,working state,bundle,warranty,voucher,shipping/tax unknown;August20arrival stale. Late-arrival compensation is not an upfront discount. | [Shopee][R5-O] |
 
@@ -286,6 +286,12 @@ Checked2026-10-18 against [Yamaha’s original manual][R5-M],printedpp14,19–20
 |---|---|
 | Power / inrush versus operating current | European-model notice gives **inrush current<1A**. This is startup behavior,not steady current draw or anadapter rating. Published15W consumption remains separate;other regions’ inrush andsteady current remain unverified. |
 | Live / footswitch mute | EFF MUTE toggles suppression oftheeffect output;secondpress restores it. This isnot documented as muting theentire dry+effect mix. EFFECT ONLY versusADD DIRECT isaseparate output-mode setting;do notpromise dry-path silence fromthefootswitch. |
+
+
+
+### REV500 — offer followup qualifications
+
+Checked2026-10-18. The newly recorded Rp3.200.000 used ask is separate from GMS Bandung’s Rp3.050.000 condition-unverified sold-out ask;these donot establish anew/used range. Fresh exact REV500/bekas/baru searches yielded noqualified new-condition offer. GMS’sindexed result stillshowsHabis;itsolder dated observation ispreserved above rather than overwritten. Cached asks arenotcurrent stock certification orcompleted sales.
 
 
 ## DG-Stomp

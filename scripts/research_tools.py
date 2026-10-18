@@ -465,7 +465,7 @@ def main():
         if mode == 'commit-spx990':
             message = 'research(yamaha): qualify SPX1000 Freeze pitch and trigger limits'
         if mode == 'commit-rev500':
-            message = 'research(yamaha): distinguish REV500 inrush current and effect mute'
+            message = 'research(yamaha): add qualified seller-described used REV500 offer'
         if mode == 'commit-spx900':
             message = 'research(yamaha): document DG-Stomp effect blocks amplifier and speaker choices'
         if mode == 'commit-mx200':
