@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Sonicake Pocket Master direct analog connector audit",
-    "finding": "Complete firmware1.3.0 manual connector inventory and current product specification show no analog EXP input; compact but fails direct expression path. Hand preset buttons are not footswitches; MIDI scope unaudited.",
+    "current": "Sonicake Smart Box expression-volume scope (partial)",
+    "finding": "TRS10kΩ recommendation and global-menu target/calibration documented; all-preset volume persistence and signal coverage remain unknown. Fits135×114mm; dedicated phones and onboard Preset Mode navigation.",
     "next": [
-      "Systematic remaining compact no-treadle inventory: Sonicake Smart Box exact direct EXP socket inventory",
+      "Systematic remaining compact no-treadle inventory: MOOER Prime P1 exact analog EXP capability",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 38,
+      "comparison_rows": 39,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },
