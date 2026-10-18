@@ -395,7 +395,7 @@ def main():
         if mode == 'commit-nux-mg400-audit':
             message = 'research(nux): qualify MG400 USB editor and alternate manual conflicts'
         if mode == 'commit-nux-mg300mkii-audit':
-            message = 'research(nux): preserve exact MKII offers and separate output levels'
+            message = 'research(nux): qualify additional MG-300 MKII Mc Garage offer'
         if mode == 'commit-nux-mg300-audit':
             message = 'research(nux): document original MG-300 output and calibration modes'
         if mode == 'commit-nux-mg101-audit':
