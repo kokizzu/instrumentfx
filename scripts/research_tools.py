@@ -557,7 +557,7 @@ def main():
         if mode == 'commit-gfx5':
             message = 'research(zoom): retain exact category-linked GFX5 hardware ask'
         if mode == 'commit-gfx3':
-            message = 'research(zoom): add exact GFX3 seller-described used asking price'
+            message = 'research(zoom): qualify 606 tuner and master volume resets'
         if mode == 'commit-rp250':
             message = 'research(digitech): qualify RP250 official editor versions and limits'
         if mode == 'commit-rp90':

@@ -3157,6 +3157,8 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Dimensions / mass | **159 W × 233 D × 54 H mm; 600 g without batteries**. | [Manual p38][Z606-M] |
 | IR / NAM / capture | Import and capture support unresolved. | Unresolved |
 | Editor / platforms | Official support page lists the operation manual, with no model-specific editor/driver/updater entry. Its generic Bundled Software link does not establish 606 compatibility. Historical/current editor support remains unverified. | [Support][Z606-S] |
+| Tuner / calibration | **A4 reference435–445Hz**, resets440Hz at power-up. Requires PLAY and bypass/mute; press both footswitches briefly for bypass or hold≥1s for mute. | [Manual pp12–13][Z606-M] |
+| Live / master volume | Global0–50, resets40 after restart; hold both VALUE keys>1s to access. Separate from stored patch levels. | [Manual p9][Z606-M] |
 | Live / practice | Chromatic tuner, bypass/mute, preselected patch confirmation; looper/drums/scenes unresolved. | [Manual pp12–13,20–21][Z606-M] |
 
 ### Separate IDR hardware offers
