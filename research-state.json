@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Recorded-model required fields / discovery",
-    "task": "708II sampler persistence and routing saved: next audit card utility details or refresh Shopee brand/series discovery. Hold Delay remains separate and its recording-wording conflict unresolved. A2 remains non-active without exact hardware offer.",
+    "task": "708II card utilities now documented, including empty-group SAVE behavior. Next refresh Shopee brand/series discovery or address required fields on another recorded model. A2 remains a non-active lead; no exact hardware offer verified.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79039,5 +79039,18 @@
     "destination": "ZOOM.md#708ii",
     "scope": "Own-model sampler storage, loop boundaries and input routing verified; no hardware operation.",
     "remaining": "Hold Delay persistence and wording conflict, card utility details, exact hardware pricing and other required fields remain unresolved."
+  },
+  "zoom_708ii_card_utility_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_708II.pdf",
+    "printed_pages": [
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "destination": "ZOOM.md#708ii",
+    "scope": "SAVE empty-group exception and utility overwrite boundaries verified from exact-model manual.",
+    "remaining": "Hardware offer variant mapping, software/display/power gaps and Hold Delay conflict remain."
   }
 }

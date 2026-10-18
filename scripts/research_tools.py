@@ -499,7 +499,7 @@ def main():
         if mode == 'commit-mic-mechanic2':
             message = 'research(tc-helicon): add Mic Mechanic 2 and preserve phantom power conflicts'
         if mode == 'commit-708ii':
-            message = 'research(zoom): clarify 708II sampler persistence and routing'
+            message = 'research(zoom): qualify 708II card backup and restore scope'
         if mode == 'commit-707ii':
             message = 'research(zoom): document 707II bypass tuning and bank limits'
         if mode == 'commit-ax30g':

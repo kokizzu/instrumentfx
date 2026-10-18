@@ -3074,6 +3074,13 @@ Checked **2026-10-17**, partial. Bass-specific processor; separate from707II gui
 |---|---|
 | Looper / sample storage versus loop points | **Card recordings save automatically; internal recordings cannot be saved.** A–B start/end points reset when changing sample number or toggling sampler mode. Recorded audio persistence therefore does not establish persistent loop boundaries. [Own manual p15][708-M] |
 | Looper / input and simultaneous restrictions | **BASS samples the effected input; AUX bypasses effects.** Sampler operation disables MOD and REV and cannot coexist with rhythm playback. Playback offers normal speed, half/quarter speed with corresponding pitch change, or half/quarter speed retaining pitch; these are playback modes, not additional algorithms. [Own manual pp14–15][708-M] |
+
+### 708II — card backup and restore scope
+
+| Field | Own manufacturer manual evidence / qualification |
+|---|---|
+| Memory / card SAVE exception | **SAVE requires an internally stored patch**; unsaved edits cannot be exported. An occupied target patch is overwritten. **If the target card group is empty, SAVE stores the entire USER group**, not merely the selected patch. Five groups of60 patches are external storage, not extra onboard recall locations. [Own manual pp28–29][708-M] |
+| Memory / bulk restore and card utilities | LOAD overwrites one USER destination; **ALLOAD overwrites the entire USER group**. ALSAVE replaces the selected card group. P DEL removes a card group; SP DEL removes a sample; FORMAT erases all card data. These are documented scopes; no operation was performed. [Own manual pp28–32][708-M] |
 <!-- comparison evidence ends -->
 
 ### 708II — sources and unresolved hardware pricing
