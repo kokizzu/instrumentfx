@@ -1534,6 +1534,16 @@ Checked 2026-10-18 against the [shared manufacturer page](https://zoomcorp.com/e
 | I/O / sibling wording qualification | The Inputs and Outputs paragraph names **G3n**, including its dedicated headphones and Mic On/Off description. The page also labels the displayed rear photograph G3n. These references do not independently resolve G3Xn’s conflicting headphone labels. Mic On/Off here describes cabinet microphone emulation, not evidence of a physical mic input. G3Xn port inventory still requires exact-model corroboration. |
 | Editor / clipboard scope | The shared Guitar Lab section documents copying **up to four effects with custom parameters** onto other patches. This is software clipboard capacity, not four additional onboard processing slots, patch locations or snapshots. Device firmware/library applicability remains separately qualified. |
 
+
+### G3Xn — tuner access and output choice
+
+Checked 2026-10-18 from indexed [original manual pp28,30](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf), explicitly covering G3n/G3Xn.
+
+| Field | Documented operation / limits |
+|---|---|
+| Live / tuner access | Hold MEMORY/STOMP in either STOMP or MEMORY mode, then choose **FS1 for bypass sound** or **FS2 for muted output** while tuning. These are selectable tuner output behaviors, not evidence of relay true bypass or retained delay/reverb tails. |
+| Controls / tuner settings menu | MENU→TUNER opens TUNER SETTINGS through the PUSH TO ENTER control. The indexed p30 screen shows calibration, tuner type and flat-tuning settings. An example440Hz display is not proof of the complete calibration range or power-cycle persistence; those remain unverified. |
+
 <!-- comparison evidence ends -->
 
 ### G3Xn sources and next verification
