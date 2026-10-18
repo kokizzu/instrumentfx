@@ -453,7 +453,7 @@ def main():
         if mode == 'commit-criticalmass':
             message = 'research(tchelicon): distinguish Critical Mass supply and reverb controls'
         if mode == 'commit-b21u':
-            message = 'research(zoom): clarify B21u cabinet and dedicated delay parameters'
+            message = 'research(discovery): queue exact Caline C300 verification lead'
         if mode == 'commit-katana-go':
             message = 'research(boss): verify GT-1 battery fallback and backup scope'
         if mode == 'commit-microplus':

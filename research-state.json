@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX3B",
-    "task": "AX3B split drive/amp bank and reset-entry conflict saved. Next fresh Shopee discovery; stop repeating unproductive numeric power queries unless new exact primary source found. Other required fields remain open.",
+    "model": "Caline C300 — unverified discovery lead",
+    "task": "New brand/model absent from inventory surfaced in Shopee category pages. Recover exact item/seller and primary manufacturer record;do not count category-page asks as verified offers. Zoom legacy pass saved;avoid re-searching same accessory-only queries immediately.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -117354,5 +117354,48 @@
     ],
     "scope": "site:shopee.co.id Korg exact-series queries;broader ToneWorks/Pandora search returned existing models and unrelated dedicated pedals.",
     "result": "No new qualified hardware from this pass;not proof of market absence."
+  },
+  "discovery_zoom_legacy_20261018_followup": {
+    "date": "2026-10-18",
+    "queries": [
+      "GFX-1",
+      "G2Nu",
+      "B2.1u",
+      "G1next",
+      "B1x Next",
+      "GFX 1",
+      "G1 Next",
+      "B1 next",
+      "Efek Zoom G2",
+      "Zoom 506",
+      "Zoom GFX1"
+    ],
+    "scope": "Shopee site-restricted Zoom legacy discovery; accessories and existing mixed-model minimums not promoted.",
+    "result": "No qualified missing Zoom exact item. Hope Music mixed G1xNext/B1xNext remains unresolved;not a new bass model or confirmed price."
+  },
+  "discovery_caline_c300_20261018": {
+    "date": "2026-10-18",
+    "status": "unverified lead;not active inventory",
+    "model": "Caline C300",
+    "sources": [
+      "https://shopee.co.id/search?keyword=loop+pedal",
+      "https://shopee.co.id/search?keyword=Dificuu-Guitar-Multi-Effects-Pedal-with-Reverb-Delay-Chorus"
+    ],
+    "observations": [
+      {
+        "title": "CALINE C300 C-300 Multi Effects Strip - Efek Effect Pedal",
+        "indexed_ask_idr": 2249000,
+        "location": "Tangerang",
+        "cache": "five months"
+      },
+      {
+        "title": "Caline C300 Multi Effects Strip - Efek Effect Pedal Gitar",
+        "indexed_ask_idr": 1979000,
+        "location": "Bandung",
+        "cache": "three months"
+      }
+    ],
+    "qualification": "Category-page leads only: exact seller/item,condition,stock,bundle,warranty,delivery,tax,voucher and manufacturer specifications unresolved. Not a new/used range or live offer. No active model addition.",
+    "next": "Recover exact Shopee item and original manufacturer page/manual; establish independent multi-effects architecture and exact revision before adding root CALINE.md."
   }
 }
