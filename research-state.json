@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS AD-2",
-    "task": "Added exact acoustic fixed-chain processor and dated cached Shopee ask. Next own manual for preset absence, routing/mute behavior and power polarity; no sibling borrowing.",
+    "task": "Saved own Portuguese manual revision02 mute timing, input power switching, mono balanced LINE OUT/headphone distinction, ambience output selection and adapter/battery priority. Next visual pinout/polarity and memory scope; then fresh Shopee discovery.",
     "next_models": [],
     "after_queue": "372active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81280,5 +81280,10 @@
       }
     ],
     "result": "No qualified exact processor offer; unrelated bio-pellet reactors, audio interfaces and entertainment pages excluded. Not proof of marketplace absence."
+  },
+  "ad2_manual_followup_20261018": {
+    "source": "https://static.roland.com/assets/media/pdf/AD-2_M_ptb02_W.pdf",
+    "identity": "Manufacturer Portuguese AD-2 manual,revision02,2016;translated text,not visual audit.",
+    "result": "Saved mute/routing/input-power and adapter priority. Knobpositions,pinout,DCpolarity and presetmemory remain unresolved."
   }
 }

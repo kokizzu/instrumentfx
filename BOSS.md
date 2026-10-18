@@ -3696,5 +3696,7 @@ Acoustic fixed-chain processor; partial, checked 2026-10-18. Included for distin
 | IR / NAM / capture | Unverified. |
 | Practical features | Buffered bypass,mute;LINE OUT can omit Ambience independently. Looper/drums/scenes unverified. |
 | IDR price | [Indexed Shopee offer](https://shopee.co.id/Boss-AD-2-AD2-Acoustic-Preamp-Guitar-Acoustic-Effect-i.16879370.651392518): **Rp2,150,500**,Seven Stereo Music & Audio Store,Bandung;seller16879370/item651392518. Checked2026-10-18;index crawled roughly2months earlier,delivery dates19–22August. New/used condition,live stock,bundle,warranty andcheckout voucher unverified;late-delivery compensation isnot an immediate price discount. No qualified used ask. |
+| I/O / routing and mute | [Manufacturer Portuguese manual,revision02,©2016](https://static.roland.com/assets/media/pdf/AD-2_M_ptb02_W.pdf),translated text,checked2026-10-18: holdfootswitch≥2s tomute;CHECKflashes,pressagain tounmute. INPUT insertion powersunit;unplug whenunused. LINE OUT isbalancedmono,explicitly notheadphones. Holdpedal duringpower-on,adjustAMBIENCE,release tofinish: reverb canfeedbothoutputs orOUTPUTonly. Exactknobpositions/pinout needvisualverification. |
+| Power / source priority | Same manual: PSAadapter takespriority overinstalledbattery;retainingbattery allowscontinuedoperation ifadapter disconnects. Thisdoesnot establishUSBpower orDCplugpolarity. |
 
 <!-- comparison evidence ends -->
