@@ -37,3 +37,36 @@
 - [H90-D] [Official downloads and version requirements](https://www.eventideaudio.com/downloads/?product=H90).
 
 These HTML manual pages were read directly; no PDF rendering or hands-on test is claimed. The global mapping is confirmed, but this is **not yet a verified Shopee purchasing recommendation**, especially when a headphone jack is required.
+
+## H9 Max
+
+**Capability-focused partial profile, checked 2026-10-18.** A separate effects processor, not H90 or H9 Gen 2. Legacy H9 variants are not automatically counted as additional researched models. This lead remains outside the older inventory totals pending reconciliation.
+
+| Field | Finding / qualification |
+|---|---|
+| Built-in / external expression | No built-in treadle. External EXP/AUX control input documented. The official connector table calls EXP a **1/4-inch mono phone jack**, whereas H90 explicitly specifies TRS. Do not promise an arbitrary M-VAVE TRS pedal works unchanged. Resistance, wiring, calibration and any required cable remain to be checked against the actual controller. [H9-P] |
+| Volume function / scope | **GLOBAL Output Swell (OSW)** is documented as the all-preset alternative to per-preset swell. Input Swell (ISW) is a different pre-processing option. Set the global OSW mode rather than individually enabling output swell in every preset. [H9-M, H9-S] |
+| Range / position | The manufacturer's support discussion states swell attenuates from zero to full level; it does not provide gain above the preset's level. The expression value is current rather than saved with each preset. This is not the same as dynamically boosting the preset Output Level parameter. [H9-S] |
+| Routing / bypass limits | Check normal mono/stereo operation first. Do not assume whole-signal volume in Pre/Post or Wet/Dry routing, or control during relay bypass. Exact routing-dependent output-swell coverage and bypass behavior remain unresolved in this capability pass. |
+| Standard guitar input | Instrument-level input, 600 kΩ; no divided pickup required. Two 1/4-inch mono inputs and two mono outputs. [H9-P] |
+| Size / mass | Official product dimensions are **133 × 118 × 50 mm; 0.7 kg**. The page labels them H/W/D rather than normal pedalboard W/D/H; retain that axis-label ambiguity rather than silently rewriting it. Every published dimension is under 140 mm, so the chassis fits the 200 × 140 mm filter in the usual placement. Cable clearance is extra. [H9-P] |
+| Headphones | **No dedicated headphone jack** in the complete port specification. Recommended output load is 10 kΩ or greater; not a verified headphone amplifier. [H9-P] |
+| Controls / memory / library | One-knob interface and two footswitches; exact separate button count/display specifications not yet audited. Official page lists 52 algorithms and 99 onboard presets, with 500+ available through H9 Control. Do not count downloaded presets as additional onboard memory, or algorithms as simultaneous processing blocks. Complete concurrency/category/overwrite details remain to verify. [H9-P] |
+| USB / MIDI / editor | Mini USB, MIDI DIN In/Out-Thru, H9 Control for Android/iOS/Mac/PC with Bluetooth/USB control. USB audio or USB power is not established by those connectors. [H9-P] |
+| Power | **9 V DC, 500 mA, center-positive, 5.5/2.5 mm** per manufacturer. This differs from a common center-negative 9 V supply and from H90's 12 V requirement. Battery operation unverified. [H9-P] |
+| Other required fields | Published display diagonal/color/touch, full physical control count, category inventory/concurrency, factory/user memory split, IR/NAM/capture loading, acoustic simulation, looper details and qualified used IDR remain unresolved. This is not a fully verified catalogue profile. |
+
+### H9 Max — local price observation
+
+**Melodia Musik retail asking price Rp11.344.000**, checked 2026-10-18, rather than the struck-through Rp14.180.000. The product page displays available for Jakarta and Yogyakarta, unavailable for Bali, BSD, Surabaya and Roland Store Jakarta. These are the website's displayed stock statements, **not warehouse/checkout confirmation**. Condition grade, bundle, shipping and final stock were not independently verified. [H9-ID]
+
+This is **an Indonesian retailer offer, not a Shopee listing**. A matching current Shopee hardware offer and an explicitly used offer remain unverified. Do not use eBay/Reverb foreign asks, unrelated H9 products or an invented conversion to fill those fields.
+
+### H9 Max — sources and evidence strength
+
+- [H9-P] [Official H9 Max product and complete connector/power/dimension specification](https://www.eventideaudio.com/pedals/h9-max/).
+- [H9-M] [Manufacturer H9 User Guide download](https://www.eventideaudio.com/downloads/h9-user-guide/): indexed manufacturer text describes expression input/output swell globally or per preset. Direct file opening returned unsupported binary/internal errors; a complete rendered manual inspection is **not claimed**.
+- [H9-S] [Eventide-hosted support discussion, including the corrected Input/Output Swell answer and GLOBAL ISW/OSW reference](https://www.eventideaudio.com/forums/topic/h9-output-level-control-with-expression-pedal/). The old initial not-yet-available answer is superseded within the discussion; the correction specifies global enable and zero-to-full attenuation. This accessible support text supplements, rather than masquerades as, a successfully rendered manual.
+- [H9-ID] [Melodia Musik H9 Max hardware offer](https://www.melodiamusik.com/product/eventide-h9-max-harmonizer/).
+
+**Verdict:** a source-supported global-volume capability candidate, but not a headphone-equipped all-in-one replacement, not a verified M-VAVE wiring match, and not yet a verified Shopee purchase. H9 Gen 2 requires its own manual and offer checks; do not transfer these settings by name similarity.
