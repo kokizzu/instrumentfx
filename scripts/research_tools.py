@@ -419,7 +419,7 @@ def main():
         if mode == 'commit-perform-vk':
             message = 'research(tc-helicon): qualify Perform VK remote defaults and sold-out ask'
         if mode == 'commit-perform-v':
-            message = 'research(tc-helicon): qualify PERFORM-V analog limits remote assignments and asks'
+            message = 'research(tc-helicon): distinguish PERFORM-V microphone and converter noise ratings'
         if mode == 'commit-dapper-indie':
             message = 'research(valeton): clarify Indie fields and reconcile recorded discovery status'
         if mode == 'commit-dapper-dark-mini':
