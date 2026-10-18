@@ -387,7 +387,7 @@ def main():
         print(git('diff', '--cached', '--stat'))
         message = 'fix(comparisons): preserve separate technical source columns' if mode == 'commit-field-extraction' else 'fix(comparisons): retain USB control and live operation evidence'
         if mode == 'commit-ampero-one':
-            message = 'research(hotone): reconcile MP100 appendix categories and amp count conflict'
+            message = 'research(hotone): document MP100 USB return reamping and monitoring limits'
         if mode == 'commit-nux-mg50li-audit':
             message = 'audit(nux): preserve MG-50Li shared fields and conflicting source counts'
         if mode == 'commit-nux-mg30-audit':

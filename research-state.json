@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "MP100 originalJPappendix categoryheaders documented;derived244 counts sharedFXonce,butAMPheader63versussubtotal62 unresolved. Continuefirmware-matchedmanual/releasenotes or freshShopee discovery;do not call244 a currentV5.2total.",
+    "task": "MP100 documentedUSBreturnreamping resolved fromJPmanualpp25–26;stereopair andfeedbackprecautions recorded. Next freshShopeediscoveryorfirmware-matchedlibrary/IRcapacity;do notinferadditionalUSBchannels orminimumfirmware.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60493,6 +60493,22 @@
         "NativeNAMarchitectures"
       ],
       "method": "ManufacturerPDFbrowsertext;no downloads ordeviceexecution"
+    },
+    {
+      "model": "Hotone Ampero MP-100",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.hotone.jp/manuals/hotone/AMPERO.pdf"
+      ],
+      "finding": "OwnJPmanualpp25–26 explicitlyREAMPswitchroutesUSBplayback1/2throughFXchain,processedrecordinput1/2;monitor−20..+6dB. DAWmonitoroff/REAMPoffafterwards precautions preserved. Resolvesdocumentedreturnpath,notfirmwareminimum/allchannelinventory.",
+      "remaining": [
+        "Firmwareminimumandcurrentlibrary",
+        "AMP63/62discrepancy",
+        "CurrentIRcapacity",
+        "Qualifiedused/newprices",
+        "FullUSBchannelinventory"
+      ],
+      "method": "ManufacturerPDFbrowsertext;no downloads/DAW/hardwareexecution"
     }
   ],
   "discovery_cross_brand_bass": {

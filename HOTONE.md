@@ -341,6 +341,17 @@ Checked 2026-10-18 against [manufacturer-hosted original PDF](https://www.hotone
 
 Nine simultaneous modules remain DSP-limited; library size and onboard patch memories remain separate.
 
+### Ampero MP-100 — documented USB-return reamping
+
+Checked 2026-10-18 against [manufacturer-hosted Japanese manual,printed25–26](https://www.hotone.jp/manuals/hotone/AMPERO.pdf). This resolves the earlier unverified USB-return path for the documented configuration. Minimum firmware and installed-unit behavior remain unverified; no DAW or hardware operation performed.
+
+| Field | Documented routing / limits |
+|---|---|
+| Recording / USB-return reamping | **REAMP on routes USB audio playback1/2 through Ampero’s effects chain**. The example sends a dry DAW track to playback1/2 and records processed input1/2 on another track. This documents that stereo pair, not additional channels or proprietary capture generation. |
+| Recording / monitoring controls | USB monitor level **−20 to+6dB,default0dB**; recording level remains−20 to+20dB. Manufacturer instructs keeping DAW track monitoring off during reamping to avoid feedback, then disabling REAMP afterward for normal computer playback. |
+
+Earlier dry/effected recording-source choices remain separate from this return-routing switch. The manual’s unspecified edition does not establish which firmware first introduced reamping.
+
 ## Ampero II MP-350
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
