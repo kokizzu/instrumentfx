@@ -445,6 +445,19 @@ All nine non-PEDAL categories in this edition have now been enumerated. Later ad
 |---|---|
 | IDR condition unknown / sold out | Checked 2026-10-18: [exact G1 FOUR listing](https://shopee.co.id/ZOOM-G1-Four-G1-Four-Guitar-Multi-Effect-Processor-i.114232819.11037706169), seller **114232819**, item **11037706169**, **duniamusiksport**, Kota Medan: **Rp1,590,000**, explicitly **Habis**. Search cache crawled roughly one month earlier and shows stale 15 September delivery. Historical sold-out ask, not live stock, a completed sale or an established used/new condition. Bundle, warranty, working state and checkout voucher remain unverified. Late-delivery compensation is not a hardware discount. Distinct from G1X FOUR. |
 
+
+### G1 FOUR — practice routing and power conditions
+
+[Manufacturer quick guide, ©2019, Z2I-3484-02, pp8–11](https://zoomcorp.com/media/documents/E_G1FOUR_QuickGuide_0.pdf), checked 2026-10-18. Shared guide; no G1X-only pedal specifications attributed here.
+
+| Field | Finding / qualification |
+|---|---|
+| Looper / routing | **30-second mono** phrase looper, with overdubbing. Pre records before effects, allowing later patch/effect changes; Post records after effects. Changing recording time, looper position or tempo **clears the loop**. Stop mode and playback volume are adjustable. |
+| Rhythm / tempo | Rhythm settings include pattern, pre-count, tempo and volume. SETUP BPM applies to effects, rhythms and looper; not three independently verified clocks. |
+| Power / battery conditions | Approximately **18 hours with alkaline AA batteries and LCD backlight off**. ECO defaults on and powers off after10 hours without use; battery-type setting calibrates charge indication. AD-16's500mA remains adapter rating, not measured draw. |
+| USB / MIDI | Guide explicitly specifies **USB MIDI**, Micro-B and USB power. A power-only cable cannot carry other USB functions; bus power does not imply USB audio. |
+| Memory / saving | AUTO SAVE can save parameter edits immediately; when disabled, changing patches prompts for saving. SAVE can overwrite or swap patches. This does not resolve the retained factory-fill conflict. |
+
 ## G1X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
