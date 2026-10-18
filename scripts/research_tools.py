@@ -713,7 +713,7 @@ def main():
         if mode == 'commit-finding-audit':
             message = 'audit: reconcile B1Xon and verify registered finding-body coverage'
         if mode == 'commit-floorboard-matribox-ii-pro':
-            message = 'research(sonicake): reconcile Matribox II Pro cabinet and acoustic model counts'
+            message = 'research(sonicake): verify Matribox II Pro amp menu census and conflicts'
         if mode == 'commit-floorboard-matribox-ii':
             message = 'research(sonicake): preserve Matribox II electrical specifications and output conflict'
         if mode == 'commit-floorboard-union':

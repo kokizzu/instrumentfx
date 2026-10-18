@@ -467,6 +467,13 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | Processing / CAB label conflict | P42 name **B-Man2x10** versusdescription **Bassman2x12 cabinet**. Preserve both;actual intended model/size unresolved. Manual cover/body/firmware conflicts also remain;installedlibrary untested. |
 
 
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / AMP manual census,2026-10-18 | **63 menu entries**,printedpp29–42;page subtotals **1+5+4+5+5+6+5+5+5+5+5+5+5+2**. Channel/voicing variants count separately;not63distinct physical amplifiers orsimultaneousblocks. [Exact manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf) |
+| Synth / acoustic and bass AMP scope | P41 listsfive bass-labelled models:A BassVT,Voks Bass,Calif Bass,A BassFT,F-2Bass. P42 addsAC Preamp andAC Preamp2 acoustic preamps;already includedin63,notacoustic-body conversion algorithms. Bassman-derived entries are notsilently addedtothis explicitlylabelled subset. |
+| Processing / AMP description conflicts | P31 Voks15TB description identifiesVOX AC-100 bass amplification,also usedforVoks Bass onp41. P34 DoctorOD description callsitclean,asdoesDoctorCL onp33. Intendedidentities/voicings unresolved;do notsilentlycorrectlabels orderiveanexactguitar/basspartition. Existingcover/bodyrevisionconflictremains;currentinstalledlibraryuntested. |
+
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 
 <!-- comparison evidence ends -->
