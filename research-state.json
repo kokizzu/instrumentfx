@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic NOVA System",
-    "task": "Added manufacturer-established partial guitar multifx;no exactShopee hardware. Next audit category/concurrency,routing/drive dependency,physicalbuttons/expression andmanual dimensionunit conflict;current editor andqualified IDR unknown. Exclude generatedmirrorFAQ USB/96k/9effect claims.",
+    "task": "Saved NOVA System3routing modes,SpeakerSim disablesEQ,distinct delay/reverb preset tails andexpression recall/volume position. Next audit exact categorychoice census/concurrency andphysicalbuttons/builtin/toe;dimensionconflict/currenteditor/qualifiedIDR remain. No G-System borrowing ormirrorFAQUSB96k9effect claims.",
     "next_models": [],
     "after_queue": "366active/46brands;307guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -80927,5 +80927,11 @@
       "site:shopee.co.id Korg AX300B"
     ],
     "result": "No qualified exacthardware;RP355 adapter855783279/22273291654 excluded."
+  },
+  "nova_system_routing_audit": {
+    "date": "2026-10-18",
+    "source": "https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual",
+    "revision": "Originalmanual1.2/SW1.10,pp12–19",
+    "status": "Routing/speaker-filter/preset-transition/expression distinctions saved;category/concurrency andphysical audit remain."
   }
 }

@@ -388,6 +388,18 @@ Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and
 | Looper / drums / routing | Looper,drums,scenes andfull routing/spillover audit pending. | Pending |
 | IDR used | Unknown;no qualified exacthardware offer. | Shopee search2026-10-18 |
 | IDR new | Unknown;no exactShopee hit. Seller/item,condition,stock,region,bundle,warranty,voucher andcheckout total unresolved;not proof ofunavailability. | Shopee search2026-10-18 |
+
+### NOVA System — routing, speaker filter and preset transitions
+
+Checked 2026-10-18 against original manufacturer manual revision 1.2, SW1.10, pp12–19; mirrored original text, excluding generated FAQ.
+
+| Field | Evidence / qualification |
+|---|---|
+| Routing / three architectures | **Serial:** successive blocks feed one another. **Semi Parallel:** delay/reverb run independently. **Parallel:** modulation/delay/reverb receive the same signal independently. These are fixed routing alternatives, not arbitrary free block ordering. [Manual][NOVA-M] pp12–13 |
+| Cabinet / EQ restriction | **SpeakerSim is a high-frequency speaker-simulation filter; enabling it disables EQ.** Manufacturer recommends it for direct recording/mixer connections and off into a guitar amplifier. This does not establish cabinet IR loading or an amp-model library. [Manual][NOVA-M] pp18–19 |
+| Live / delay versus reverb tails | FX Mute **Soft** preserves delay repeats across different delay presets;reverb can continue but adopts the new preset's settings. **Hard** mutes both. This is not proof of wholly gapless preset changes. [Manual][NOVA-M] p18 |
+| Expression / volume position | **Pre** places volume after drive,before effects,allowing tails while lowering input to effects;**Post** controls the complete effected signal. [Manual][NOVA-M] p14 |
+| Expression / recall and curve | Master **Preset** recalls stored parameter value;**Pedal** uses physical position at preset change. Min/Mid/Max each0–100% define response;one Pedal In selects Expression orG-Switch,not both concurrently. [Manual][NOVA-M] pp16–17 |
 <!-- comparison evidence ends -->
 
 [NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
