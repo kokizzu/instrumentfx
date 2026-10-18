@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Caline C300 — unverified discovery lead",
-    "task": "New brand/model absent from inventory surfaced in Shopee category pages. Recover exact item/seller and primary manufacturer record;do not count category-page asks as verified offers. Zoom legacy pass saved;avoid re-searching same accessory-only queries immediately.",
+    "task": "C300 exact manufacturer URL recovered: /products/effectpedal/208.html; cache miss,homepage timeout. Verify indexed exact path or primary authored copy; azorpedal.com ownership unverified. Exact Shopee item remains missing. Keep outside active inventory until sufficient evidence.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -117396,6 +117396,18 @@
       }
     ],
     "qualification": "Category-page leads only: exact seller/item,condition,stock,bundle,warranty,delivery,tax,voucher and manufacturer specifications unresolved. Not a new/used range or live offer. No active model addition.",
-    "next": "Recover exact Shopee item and original manufacturer page/manual; establish independent multi-effects architecture and exact revision before adding root CALINE.md."
+    "next": "Recover exact Shopee item and original manufacturer page/manual; establish independent multi-effects architecture and exact revision before adding root CALINE.md.",
+    "followup": {
+      "date": "2026-10-18",
+      "manufacturer_product_url": "https://www.calinemusic.com/products/effectpedal/208.html",
+      "url_provenance": "Exact model manufacturer link recovered from https://www.effectsdatabase.com/model/caline/c300; third-party directory is used for URL discovery,not authoritative specifications.",
+      "manufacturer_access": "Exact product URL cache miss;manufacturer homepage HTTPS/HTTP both timeout. No file downloaded.",
+      "brand_identity_lead": "https://www.linkedin.com/company/calinetechnology lists calinemusic.com and Caline/Scuru/Azor brands; profile identity is supporting evidence,not proof azorpedal.com is manufacturer-controlled.",
+      "unverified_store_lead": "https://azorpedal.com/products/caline-c300-multi-effect-pedal-built-in-pedal-tuner-guitar-accessories",
+      "store_identity_status": "Exact C300 text exposed by search but about-us retrieval failed;do not promote specifications to primary evidence until ownership established.",
+      "secondary_specification_status": "Retailer copies exist but are not substituted for manufacturer specifications; no count,dimensions,power or feature claims promoted.",
+      "shopee_status": "Still only category-page leads;exact seller/item not recovered.",
+      "next": "Try indexed exact manufacturer path or establish a manufacturer-authored manual/store provenance. If unavailable,leave lead deferred and continue independent research instead of repeating homepage timeouts."
+    }
   }
 }
