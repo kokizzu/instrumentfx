@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "DG-Stomp Manualmode,secondaryMODrecall andfactoryreset scope recorded. Continue fresh hardware discovery or unresolved requiredfields; no exactShopeeDG/AG/UD/MagicStomp offer found this pass.",
+    "task": "MP100 outputloading,USBaudiohost distinction andpreviousledger-onlyBlack/Pinkoffer nowqualified inrootrecord. Continuefreshhardwarediscoveryorrequiredfieldaudits;firmware-matchedcensus,IRslots,toe andused/newoffersremainopen.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60425,6 +60425,23 @@
         "Power connector/current"
       ],
       "method": "Manufacturer manual browsertext,no downloads ordeviceoperation"
+    },
+    {
+      "model": "Hotone Ampero MP-100",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.hotone.com/products/multi-effects/ampero",
+        "https://shopee.co.id/Hotone-MP100-Ampero-Multieffects-Pedal-Original-i.1776275.18091161846"
+      ],
+      "finding": "Ownproduct3.2kΩunbalanced/2kΩbalanced/66Ωphones;Win10+macOS USBaudio plug-and-play distinctfromeditor/ASIO. ExistingBlackPinkoffer nowrootqualified:search7534000/body7535000,variant/conditionunknown.",
+      "remaining": [
+        "Firmware-matched categorycensus",
+        "Synth/IRcapacity",
+        "USBchannelcount",
+        "Toeimplementation",
+        "Qualifiedused/newprice"
+      ],
+      "method": "PrimarymanufacturerandShopee browsertext;no downloads"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79727,5 +79744,14 @@
       "site:shopee.co.id \"Yamaha\" \"Magic Stomp\""
     ],
     "result": "No results;not evidence ofunavailability. No modeladded orprice inferred."
+  },
+  "discovery_mp100_followup_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Mooer\" \"GE300 Lite\"",
+      "site:shopee.co.id \"Hotone\" \"Ampero Pink\"",
+      "site:shopee.co.id \"NUX\" \"MG-60\"",
+      "site:shopee.co.id \"Zoom\" \"G2X\" \"Nu\" -adaptor -adapter"
+    ],
+    "result": "ExistingMP100Black/Pink offer1776275/18091161846onlyqualifiedlead;no newmodel. OtherhitsunrelatedMGseries/medicinepages. Noavailabilityconclusion."
   }
 }

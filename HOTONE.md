@@ -282,6 +282,24 @@ Sources: [effects/findings/2026-10-14-hotone-ampero-mp100.md](HOTONE.md#ampero-m
 | Editor / version scope | Retain firmware5.2/Editor1.5.0 as the earlier Sound Clone release pairing; the August conversion notice requires newer PC software. It supplies no separate MP-100 firmware minimum or current OS matrix. Installed versions and actual conversion results remain unverified; nothing downloaded or run. |
 
 
+### Ampero MP-100 — output loading and USB-audio support
+
+Checked2026-10-18 against [own global product page](https://www.hotone.com/products/multi-effects/ampero),not Mini/One/II. Browsertext only,no driver/software downloads ordevice operation.
+
+| Field | Exact-model qualification |
+|---|---|
+| I/O / output impedance | Unbalanced output**3.2kΩ**,balanced output**2kΩ**,headphones**66Ω**;AUX input10kΩ. These are impedances,not headphone power orrecommended minimumload. |
+| Recording / host support | Manufacturer states USBaudio plug-and-play forWindows10or later andmacOS;earlierWindows requires adriver. Generic ASIO5.41.2 is separately listed. This doesnot establish editorOS support,interfacechannelcount or compatibility with every currentOS/CPU. |
+| Routing / AUX | AUX bypassesinternal effects;mono line-output use yieldsmono AUX. No USBcapture ofAUX inferred. |
+
+### Ampero MP-100 — unresolved Black/Pink offer
+
+| Price class | Amount andqualification |
+|---|---|
+| IDR condition-unverified variant ask | [Salomo Musik,shop1776275/item18091161846](https://shopee.co.id/Hotone-MP100-Ampero-Multieffects-Pedal-Original-i.1776275.18091161846),KotaJakartaUtara. Checked2026-10-18:four-month search**Rp7.534.000**;opened last-monthcachedbody**Rp7.535.000**. Black/Pink choices shown,butselectedvariant unknown. Condition,live stock,workingstate,firmware,adapter/bundle,warranty,shipping/tax andcheckouttotal unverified. Up-toRp10.000latearrival compensation isnot productdiscount. Neither amount isqualified used/new evidence orproof ofa distincthardware model. |
+
+Earlier ledger discovery mention ispreserved;this adds exact datedqualifications to thebrand/comparisons withoutadding amodel orprice range.
+
 ## Ampero II MP-350
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
