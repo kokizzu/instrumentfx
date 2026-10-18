@@ -3307,6 +3307,16 @@ Checked2026-10-18: [French manufacturer-authored manual mirror](https://fr.scrib
 
 The contents andbody names reconcile28choices;OCR numbering mistakes are not promoted to preset mappings. Fixed combinations do not establish freely assignable blocks ormaximum concurrency. Earlier catalogue-transcription uncertainty remains.
 
+### SE-50 — rear ports, backup battery and effects-off behavior
+
+Checked2026-10-18 against the [French BOSS manual](https://fr.scribd.com/document/644989539/Boss-SE-50-fr),©1990,external descriptions,important notes andeffects on/off sections. Text inspection;connector diameters/electrical balancing remainunverified.
+
+| Required field | Evidence / qualification |
+|---|---|
+| I/O / documented panel inventory | Audio INPUT L(MONO)/R andOUTPUT L(MONO)/R;MIDI IN/OUT;EFFECT REMOTE andNUMBER SHIFT switch jacks;AC-adapter connection. LEVEL selects nominal input level. Remote jacks are controls,not an audio send/return loop. Phones/USB are not listed in this inventory. |
+| Power / backup battery distinction | Internal battery retains memory withpower off;manual recommends replacement everythree years,withactual life environment-dependent. This establishes **memory backup**,not battery-powered audio operation. MIDI backup orwritten settings are advised before possible memory loss. |
+| Live / effects-off modes | **DIRECT** passes dry sound;**MUTE** suppresses output. Manual recommends MUTE for mixer send/return use. FS-5L atEFFECT REMOTE controls global effects on/off;whilethat footswitch controls it,thefrontEFFECT button is inactive. Analog true-bypass circuitry is not established. |
+
 ### SE-50 source access and remaining verification
 
 [Official archive](https://www.boss.info/us/support/manual_archive/) links [144-page original manual](https://cdn.roland.com/assets/media/pdf/SE-50_OM.pdf),zero extractedlines. [ManualsLib copy](https://www.manualslib.com/manual/1014513/Boss-Se-50.html) exposescontents butselectedpages lackedoriginalbody. No fullmanual/visual verification claimed.

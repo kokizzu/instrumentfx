@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS SE-50",
-    "task": "Saved French manufacturer-manual named inventory andexplicit bass support. Next inspect same manual for full chains,hardware andrevision qualifications;do not borrow SE-70.",
+    "task": "Saved SE-50 panel-port inventory,memory-backup battery distinction andDIRECT/MUTE modes. Next full chains or remaininghardware specifications fromsame manual;no sibling borrowing.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75293,5 +75293,21 @@
       "Full chain concurrency andalgorithm/preset mapping audit",
       "Ports,power,dimensions,revision distinctions andother required fields"
     ]
+  },
+  "se50_ports_backup_20261018": {
+    "checked": "2026-10-18",
+    "source": "https://fr.scribd.com/document/644989539/Boss-SE-50-fr",
+    "sections": [
+      "External descriptions",
+      "Important notes:memory backup",
+      "Effects On/Off"
+    ],
+    "destination": "BOSS.md#se-50",
+    "remaining": [
+      "Electrical specifications andconnector sizes",
+      "Physical counts,display,power draw,dimensions/revisions",
+      "Chain concurrency andother required gaps"
+    ],
+    "limits": "Extracted manufacturer text only;no visual inspection,download ordevice operation"
   }
 }
