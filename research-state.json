@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech BP355",
-    "task": "Complete own-manual category census,synth/fretless distinctions,USB controls and output/looper restrictions. Exact Shopee used/new hardware prices unresolved.",
+    "task": "Finish BP355 Chorus/FX,delay/reverb census,synth distinctions and USB/output/looper restrictions. Preserve13manual cabinets versus17product discrepancy;first category limits saved.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;resume fresh brand/series discovery without repeating recorded rejected hits;no downloads/workflows/push."
   },
@@ -82028,7 +82028,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 387,
     "models_with_signals": 387,
-    "flagged_field_count": 4925,
+    "flagged_field_count": 4928,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -88702,6 +88702,27 @@
             "signals": [
               "unknown",
               "unverified"
+            ]
+          },
+          {
+            "field": "Processing / amp and cabinet discrepancy",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unresolved"
+            ]
+          },
+          {
+            "field": "Processing / amp channels",
+            "source": "DIGITECH.md",
+            "signals": [
+              "not_established"
+            ]
+          },
+          {
+            "field": "Processing / Chorus FX restriction",
+            "source": "DIGITECH.md",
+            "signals": [
+              "pending"
             ]
           }
         ]
@@ -119387,7 +119408,7 @@
       "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "9fd4ff15821f43dece2b152b13c97cd2baf356fe3e54ee35a471fce6af9bf85b",
+      "ALL-BASS.md": "e82d1f45ef471a320aca0c6fcf5be08ae6ce41072d91d27081de76de5faa68cc",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -119423,7 +119444,7 @@
       "README.md": "e3e04c39e37e48889ce034e668031566bc7111ebb0a815da82c7ddaf4f1ad124",
       "FRACTAL-AUDIO.md": "c49fc79d860c8cbe36666578a065d2015dd6a789dbe7f7852bf21aba35ce5a4c",
       "DEMONFX.md": "a477869186303c3c896d438dde6bb211e03920e6a51da4de617f5442de06e0ee",
-      "DIGITECH.md": "1f7e3c56e97df0cc7cc0f05af693d6d6ff60b517450aa1232bacf3e775d27e0a",
+      "DIGITECH.md": "a736736a8257fe5f0f1e7069c78d48ab1e871ecd5addd74bccf327b35e8b637a",
       "SONICAKE.md": "62950fa34680adc5b5d06dfa1ba48ab212ecb69192764372d0a280dafa77c069",
       "AMMOON.md": "b5effe57a7b3389dc05c4c2efec738c1b027590868a74e88e7dfea36686d5524",
       "NEURAL-DSP.md": "8d43ed1212434c42e554a0a3a1f32e119735387adff2eca737ec9d63f29a8479",

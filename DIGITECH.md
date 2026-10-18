@@ -1081,4 +1081,19 @@ Checked2026-10-18;partial,bass-focused. [Product](https://digitech.com/dp/bp355/
 | Used IDR | Unknown;targeted Shopee discovery yielded no qualifying processor offer. |
 | New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
 
+
+### BP355 — front categories and cabinet discrepancy
+
+[Own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf),printed pp11,13–18;checked2026-10-18. Editorial counts exclude Direct/bypass unless stated.
+
+| Field | Qualification |
+|---|---|
+| Processing / Fretless Wah | **3 fretless OR3 wah** choices share one module. Fretless selection prevents wah and makes toe pressure inactive;the general V-switch description above applies when a wah model is selected. |
+| Processing / compressor and distortion | **3 compressors;18 distortions**. Parameter settings are not additional models. |
+| Processing / amp and cabinet discrepancy | Manual lists **20amps+Direct**,agreeing with product amp count. Cabinet table lists **13models+Direct**,versus product's **17cabinets**;unresolved. Amp selection loads default cabinet,which can then change. |
+| Processing / amp channels | Amp A/B saves independent amp,cabinet,gain,level,EQ settings;this does not establish simultaneous dual amps. |
+| Processing / EQ and gate | **4EQ curves**;gate **Noise Gate OR Auto Swell**. Mid frequency300–5000Hz onboard;treble frequency500–8000Hz X-Edit-only. |
+| Processing / Chorus FX restriction | Single selected effect;pre placement is before distortion,post after gate. Complete census pending. |
+
+
 <!-- comparison evidence ends -->
