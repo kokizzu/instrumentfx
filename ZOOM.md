@@ -4504,6 +4504,10 @@ Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 F
 
 <!-- comparison evidence ends -->
 
+### B2 — patch assignment and bypass-volume exception
+
+Checked 2026-10-19 against [own original manual p19](https://zoomcorp.com/media/documents/E_B2.pdf). CONTROL → parameter knob1 selects VL for volume; expression function is saved individually in each patch. No global expression override established. The footswitch function applying to all patches is a separate FS01 setting. **During bypass, expression always controls volume regardless of target.** Position, minimum/maximum and recall remain unknown; headphone, tail and rhythm/looper attenuation are unverified. Shared stereo OUTPUT accepts headphones. Existing 156 W ×162 D mm dimensions fail the depth preference. Bass is documented; guitar suitability remains unclassified. Onboard patch selection exists; exact numerical down/up mapping not reverified. B2.1u and B2 FOUR behavior is not transferred.
+
 ## A2
 
 Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Own manufacturer manual](https://zoomcorp.com/media/documents/E_A2.pdf),pp4,35.
