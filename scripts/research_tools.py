@@ -185,7 +185,7 @@ def main():
         if mode in ('commit-b21u', 'commit-rfx1100', 'commit-b1four-followup', 'commit-b1xfour-followup'):
             paths += ['ZOOM.md']
         if mode in ('commit-midiverb4', 'commit-microverb4'):
-            paths += ['ALESIS.md']
+            paths += ['ALESIS.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-dsp2024p', 'commit-fx2000'):
             paths += ['BEHRINGER.md']
         if mode in ('commit-rev500', 'commit-spx990', 'commit-spx900'):
@@ -445,7 +445,7 @@ def main():
         if mode == 'commit-midiverb4':
             message = 'docs(alesis): reconcile MIDIverb 4 summary with verified followups'
         if mode == 'commit-microverb4':
-            message = 'research(alesis): qualify MicroVerb 4 MIDI clock and program boundaries'
+            message = 'research(alesis): add NanoVerb with qualified hardware ask and own manual'
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-hxe-price':

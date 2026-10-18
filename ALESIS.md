@@ -237,3 +237,40 @@ Checked2026-10-17 against the [manufacturer Reference Manual mirror](https://www
 Chorus reaches output in1–6,13,14;it isoneffects only in7–12,15. These are15routing choices,not15simultaneous effects.
 
 Controls3/0/16 derive fromINPUT/MIX/OUTPUT rotaries;VALUEup/down,PROGRAM,STORE,EDIT,BYPASS andten numberedfunctionbuttons. No diagram visual audit. MIDI modulation offers8controller sources×6destinations,plusOff;this iscontrol routing,not48audioalgorithms.
+
+## NanoVerb
+
+Checked 2026-10-18; partial. Original NanoVerb profile, distinct from NanoVerb 2. Seller revision and ownership unverified.
+
+Manufacturer-authored Reference Manual on [UNS mirror][NV-M]: ALESIS/NanoVerb cover, five-control inventory and 16-program chapter match the [second reproduction][NV-I]. Exact edition/date unprinted in retrieved cover. Official product URLs failed access; generated mirror descriptions are not specification evidence. Web text only; no files downloaded or visual inspection.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | No treadle or EXP socket in complete front/rear inventories; external bypass footswitch is not expression. [M pp8–9,26][NV-M] |
+| K/F/B | **5 / 0 / 0**, text-derived: Input, Mix, Output, Program, Adjust; external footswitch separate. [M pp25–26][NV-M] |
+| Display | Power LED and green/red signal LED; no parameter screen listed. Diagonal/touch not applicable to these indicators. [M p29][NV-M] |
+| Processing / category choices | **16 programs**: Hall3, Room3, Plate3, Nonlinear1, Chorus1, Flange1, Rotary1, Chorus/Room2, Delay1. Chorus/Room2 combines chorus/reverb/delay; not freely assignable blocks. [M pp21–24][NV-M] |
+| Factory / user memory | **16 ROM presets**; user storage unestablished. Adjust immediately follows knob position after selection. [M pp9,26,29][NV-M] |
+| Synth / acoustic | Dedicated synthesis and electric-to-acoustic simulation unverified. Applying effects to acoustic instruments does not establish simulation. |
+| I/O | Two unbalanced quarter-inch inputs/outputs; mono Left input feeds Right unless plugged. Quarter-inch bypass; separate power socket. [M pp12,26][NV-M] |
+| Audio / source conflict | Input maximum **+10dBV** in specifications versus **+20dBu peaks** in mixer chapter; unresolved. [M pp14,29][NV-M] |
+| Power / battery / USB | **P3 9VAC transformer**; current/barrel unknown. DC polarity inapplicable to specified AC. Battery/USB operation unverified; no USB listed. [M pp26,29][NV-M] |
+| Dimensions / mass | Unknown; no sibling dimensions substituted. |
+| IR / NAM / capture | User IR, native/converted NAM and proprietary captures unverified. |
+| Editor / platforms | Editor, driver, updater and supported operating systems unverified. |
+| Looper / drums / scenes | Unverified. |
+| Live / bypass | Momentary normally-open/closed footswitch; connect before power-on. Bypass removes wet effects, retaining dry. Delay up to1270ms,10ms steps. [M pp20,24,26][NV-M] |
+| Instrument scope | Manual recommends guitar and vocal applications; bass suitability remains unclassified. [M pp21,24–25][NV-M] |
+| Used IDR | Unknown; condition not established. |
+| New IDR | Unknown; retail/category appearance does not establish new condition. |
+| IDR condition-unverified category ask | **Rp1.460.000**; [exact hardware item][NV-O], shop278087607/item4882351491, title EFFECT VOCAL ALESIS NANOVERB. [Category][NV-C] August/two-month cache: search says Kab. Deli Serdang; opened body says Medan. Preserve location discrepancy. Direct item and variant URL cache misses; category href carries display_model_id91156671649, selected variant unverified. Checked2026-10-18. |
+| IDR qualifications | Seller name, condition, working state, physical revision, live stock, adapter/bundle, warranty, authenticity, shipping/tax and voucher eligibility unknown. Historical indexed ask, not checkout or completed sale. |
+
+<!-- comparison evidence ends -->
+
+[NV-M]: https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf
+[NV-I]: https://www.manualslib.com/manual/249371/Alesis-Nanoverb-Stereo-Amplifier.html
+[NV-O]: https://shopee.co.id/EFFECT-VOCAL-ALESIS-NANOVERB-i.278087607.4882351491
+[NV-C]: https://shopee.co.id/search?keyword=harga+efek+alesis+original
