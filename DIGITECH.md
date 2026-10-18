@@ -983,16 +983,37 @@ Checked 2026-10-18;partial. [Own manual](https://digitech.com/wp-content/uploads
 | Expression | No built-in pedal/toe switch;external passive mono TS expression/volume supported;TRS explicitly unsupported. M |
 | Knobs / footswitches / buttons | **0 /2 /6**:two Value,two Edit,Drums,Store buttons. M |
 | Display | Preset/parameter display plus effect/tuner LEDs;diagonal,color,touch unverified. M |
-| Processing / choices | **Up to8 simultaneous effects**;P advertises11 amp models/20 effects. M allows onlyone Chorus/Mod choice. Full category census pending. |
+| Processing / choices | **Up to8 simultaneous effects**;P advertises11 amp models/20 effects. M allows onlyone Chorus/Mod choice. Category breakdown below. |
 | Memory | **40 user+40 factory=80**;users initially duplicate factory presets. M |
 | Synth / acoustic | Acoustic simulation documented;full synth unverified. M/P |
 | Dimensions / mass | **Conflict:** M:5.65L×6.5W×2.5H inches,1lb;P:6L×5W×2.125H inches,0.85lb. Neither selected. |
 | I/O | ¼-inch input,stereo TRS output shared with headphones,TS Control In,power inlet. M |
-| Power | **9VDC or6AA;5W maximum**. M listsPS200R300mA/PS0913DC1300mA supply ratings,not measured draw. Polarity unverified from text. Battery-life conflict:M≈10h,P up to15h. No power switch. USB power unverified. |
+| Power | **9VDC or6AA;5W maximum**. M listsPS200R300mA/PS0913DC1300mA supply ratings,not measured draw. Center-negative replacement adapter confirmed below. Battery-life conflict:M≈10h,P up to15h. No power switch. USB power unverified. |
 | IR / NAM / capture | User IR,native/converted NAM,capture unverified. |
 | Editor / software | Editor platforms,drivers and audio-interface support unverified. |
 | Looper / drums / scenes | **30 drum patterns**;looper/scenes unverified. M/P |
 | Used IDR | Unknown;targeted Shopee search found no qualifying exact hardware offer. |
 | New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
+
+
+### RP55 — category and routing limits
+
+[Own manual](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf),printed pp13–21;checked2026-10-18. Counts distinguish types from parameter settings.
+
+| Field | Qualification |
+|---|---|
+| Processing / pickup and compression | Pickup/Wah shares one module:2 pickup simulations OR3 wah types. Compressor has15 amount settings,not15 algorithms. |
+| Processing / amp and cabinet | Listed11 amp/distortion entries include Fuzz;acoustic simulation additional. Global cabinet modeling assigns fixed cabinets by amp:2×12,vintage4×12,British4×12;not a freely selectable cabinet library. |
+| Processing / EQ and gate | Three-band EQ;gate chooses Silencer OR Auto Swell,each with9 settings. |
+| Processing / Chorus Mod | **12 alternatives**,one at a time:chorus,flanger,phaser,tremolo,panner,vibrato,rotary,AutoYa,envelope filter,detune,pitch,Whammy. Nine settings per type do not mean nine algorithms. |
+| Processing / delay and reverb | Delay:Digital,Analog,Ping Pong,up to2seconds. Reverb:Room,Hall,Plate,Church,Arena,Spring. |
+| Expression / assignment | Controls active wah/Whammy;otherwise volume. |
+
+### RP55 — adapter qualification
+
+| Field | Qualification |
+|---|---|
+| Power / polarity | [Manufacturer FAQ](https://digitech.com/faqs/) explicitly lists RP55 with **PS0913DC,9VDC1.3A,center-negative,2.1mm pin**;barrel5.5mm wide/9.5mm long. This is supply capacity,not pedal consumption. |
+
 
 <!-- comparison evidence ends -->
