@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Red Truck",
-    "task": "Corrected unsupported tap-numbering conflict interpretation: manual specifies shortcut chords independently ofsingle effect toggles. Documentedshortcutsretained;physicalbehavioruntested. Next anotherrequiredmodelgap orfreshbrandseriesdiscovery;no needrepeatthisunchangedmanual.",
+    "model": "Zoom G3X",
+    "task": "Saved first seller-labelled used G3X offer Rp1556969 via exact linked categoryitem1220839369/45559250362. Physicalcondition/stock/variant unverified;earlierconditionunknownoffers preserved. Next anotherrequiredmodelgap orfreshdifferentbrandseriesdiscovery.",
     "next_models": [],
     "after_queue": "353partialmodels;294guitar155bass69vocal;legacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -45765,7 +45765,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Red Truck."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G3X."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77027,5 +77027,34 @@
     "supersedes": "5194671 source-conflict interpretation",
     "correction": "Tap commands are simultaneous-switch shortcut assignments; individual LIVE effect toggles do not require their chord numbers to match the target module. Preserve documented3+4 both,1+2delay,2+3mod without asserting a source error.",
     "actual_device_operation": "not tested"
+  },
+  "g3x_used_offer_20261018": {
+    "price_idr": 1556969,
+    "condition": "seller title explicitly BEKAS/SECOND;physicalcondition unverified",
+    "shop": "1220839369",
+    "item": "45559250362",
+    "location": "Kab. Sragen category attribution",
+    "category": "https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&subcategory=11043648",
+    "cache": "September/lastmonth category body;exact href;directcachemiss;IDqueryempty",
+    "unresolved": [
+      "seller name",
+      "selected variation",
+      "working condition/repairs",
+      "live stock",
+      "adapter/bundle",
+      "warranty",
+      "shipping/tax/voucher"
+    ],
+    "rejected_unlinked_search_amount": 1456969,
+    "rejection_reason": "Older search snippet has same title but exact item association for that amount not established;notmerged into linked quote."
+  },
+  "zoom_variant_discovery_20261018": {
+    "queries": [
+      "site:shopee.co.id Zoom G2Nu",
+      "site:shopee.co.id Zoom G1next",
+      "site:shopee.co.id Zoom B1next",
+      "site:shopee.co.id Zoom GFX1"
+    ],
+    "result": "No new exact variant hardware qualified;G2Nu/GFX1 accessory mentions excluded. ExistingG3X used-title item recovered duringcategoryfollowup. No proof ofmarketabsence."
   }
 }

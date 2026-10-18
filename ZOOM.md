@@ -2598,8 +2598,8 @@ Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufa
 
 | Condition | Evidence | Source |
 |---|---|---|
-| Used | Unknown; neither exact listing establishes condition. | — |
-| New | Unknown; neither exact listing establishes condition. | — |
+| Used | **Rp1.556.969**, seller-labelled **BEKAS/SECOND** in exact G3X title. Shop1220839369/item45559250362; seller name unknown,category location Kab. Sragen. Checked2026-10-18: September/last-month category body links exact hardware. Direct item and variant URL cache misses; exact-ID query empty. Selected variant (category display_model_id395817088292),working condition,repairs,stock,adapter/bundle,warranty,shipping/tax and voucher unknown. Cached ask,not completed sale or live stock. Earlier two offers below remain condition-unverified. | [Exact used-title item][ZG3X-O3];[Category][ZG3X-C3] |
+| New | Unknown; no condition-qualified new offer verified. Earlier two exact listings below do not establish new/used condition. | — |
 | Conditional historical offer | **Rp1,700,000;Habis**, Namin Music,Jakarta Timur,shop736199784/item17196313326. Checked2026-10-17; two-week indexed result,stale2October delivery; direct item cache miss. Condition,working state,adapter/bundle,warranty,revision and voucher eligibility unknown. Not current stock/completed sale. | [Exact original G3X][ZG3X-O1] |
 | Conditional historical offer | **Rp1,950,000;Habis**, Lintang Kemukus Musik Shop,Serang,shop680715980/item49705870895. Checked2026-10-17; two-month rendered cache,staleAugust delivery. Same condition/bundle/warranty/revision uncertainties. Late-arrival voucher is not an immediate discount; no verified used/new range. | [Exact item][ZG3X-O2] |
 
@@ -2610,6 +2610,9 @@ Manufacturer's G3X support page links this shared G3/G3X manual. Model-specific 
 [ZG3X-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3x/g3x-support/
 [ZG3X-O1]: https://shopee.co.id/Zoom-G3X-Guitar-Effects-and-Amplifier-Simulator-with-Expression-Pedal-i.736199784.17196313326
 [ZG3X-O2]: https://shopee.co.id/Zoom-G3X-gitar-effect-i.680715980.49705870895
+
+[ZG3X-O3]: https://shopee.co.id/EFEK-GITAR-SECOND-EFEK-GITAR-BEKAS-ZOOM-G3X-EFEK-GITAR-ZOOM-EFEK-ZOOM-G3X-BEKAS-ZOOM-G3X-ZOOMG3X-ZOOM-SECOND-i.1220839369.45559250362
+[ZG3X-C3]: https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&subcategory=11043648
 
 ## G2.1u
 
