@@ -171,3 +171,5 @@ IR-200 [firmware and exact offer follow-up](BOSS.md#ir-200--firmware-history-and
 IR-200 [original-manual routing check](BOSS.md#ir-200--original-manual-and-ir-loader-qualification): AUX is mixed to outputs and headphones with player-side level. Whole-source expression mute remains unverified; original BOSS PDF is now accessible.
 
 IR-200 [power qualification and profile checklist](BOSS.md#ir-200--exact-adapter-association-and-remaining-checklist): exact manufacturer adapter mapping resolves9V DC center-negative supply; remaining output-coverage and inventory-admission gaps stay open.
+
+Mini [global-menu and looper check](HOTONE.md#ampero-mini--global-menu-and-looper-boundaries): generic GLOBAL wording and Post-loop persistence do not establish assignment or playback attenuation. Factory volume defaults remain unaudited.

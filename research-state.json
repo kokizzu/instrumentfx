@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "IR-200 exact adapter association and remaining profile checklist",
-    "finding": "Manufacturer adapter correspondence explicitly maps IR-200 to PSA-230S; adapter documentation supports regulated 9V DC center-negative,500mA adapter rating distinct from335mA device draw. Partial inventory lead retained.",
+    "current": "Ampero Mini global-menu census and looper boundary",
+    "finding": "V2.2 global EXP/FS lists mode and switch functions; no explicit global volume assignment identified. Post-loop patch persistence does not prove expression attenuation.",
     "next": [
-      "Return to Ampero Mini global-volume assignment scope, then Nano Cortex; calibration/hold is not assignment",
+      "Nano Cortex global-volume scope: verify exact current assignment/recall and output coverage",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",

@@ -271,6 +271,12 @@ The fixed heel/toe volume range is independent of four effect-target ranges. GLO
 
 Checked2026-10-19. [Manufacturer Mini1.2 release notes,2024-12-19](https://www.hotone.com/news/Ampero-Mini%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) explicitly addTEMPO/VOLUME→Vol Position Pre/Post. Thus theolder post-only description predates this documented choice;placement choice isnotglobal assignment. [Current official firmware index](https://www.hotone.com/support/2) still listsMini2.2 withEditor1.5.0 compatibility,andhistorical1.2/1.1 entries. No laterMini version established bythischeck;index listing isnotinstalled-firmware proof. Globalvolumeoverride andfactorypresetVOLUMEdefaults remainunverified;existing2.2patch-scope evidence retained. No packages,manualfiles orfactorypresets downloaded,installed,reset oroperated.
 
+### Ampero Mini — global menu and looper boundaries
+
+Checked 2026-10-19 against [Mini V2.2 manual, printed pp8–10,19–21](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). GLOBAL’s general override statement is not an identified global VOLUME assignment. EXP/FS enumerates MODE, FS3 TAP, FS4 TAP and BANK SEL MODE; EXP disables the other options. Keep global volume **unverified**, not No.
+
+Looper Pre records mono dry audio; Post records stereo effected audio. Post-mode recorded phrases survive patch changes unchanged. Moving the looper position while running stops and erases the loop; this was not performed. REC LEVEL and LOOP LEVEL independently span0–99. These controls and patch persistence do not establish expression attenuation of existing loops. Tuner offers Thru/Bypass/Mute; its bypass option does not prove expression behavior. No hardware operation or downloads.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
