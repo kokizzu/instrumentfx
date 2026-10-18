@@ -2751,6 +2751,17 @@ Checked2026-10-18 against manufacturer-indexed own-manual pp20,26 and Roland sup
 | Category choices / compressor | One described compressor has Sustain/Attack/Level0–100 andTone−50–50. LowSustain behaves like limiting;this is a parameter behavior,not a separately selectable limiter model. Displayed values do not establish milliseconds orcompression-ratio units. [Own manual p20][ME8-M] |
 | Memory / factory reset scope | Roland warns that initialization loses **all user information**. Its documented PARAMETER-left/down power-on andWRITE/COPY confirmation restores factory state;it is not a settings-only reset orproof of an external backup editor. [Manufacturer support](https://support.roland.com/hc/en-us/articles/201957579-ME-8-Initialization-Factory-Reset) |
 
+
+### ME-8 — conversion, analog levels and Manual memory
+
+Checked2026-10-18. [Roland’s model-specific specification](https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations),updated2026-10-02, and manufacturer-indexed own-manual p17. No hardware measurements or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Conversion / sample rate | **18-bit Delta-Sigma ADC;DAC accepts20-bit input with4×oversampling digital filter/Delta-Sigma conversion;44.1kHz**. This describes internal conversion,not USB audio or a claim of20-bit ADC resolution. [Roland specification](https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations) |
+| I/O / analog electrical specifications | Input impedance **1MΩ**,output impedance **5.7kΩ**;nominal input/output **−20dBm**,with source defining0dBm=0.775Vrms. Retain the manufacturer’s unit convention;these are nominal levels,not maximum headroom orproof of balanced output. [Roland specification](https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations) |
+| Memory / Manual settings persistence | Manual-mode edits are automatically written **when returning to Play mode**,without Write. Powering off before returning loses those edits. Optional FS-5U at MANUAL REMOTE toggles Manual/Play. This differs from immediate continuous autosave. [Own manual p17][ME8-M] |
+
 <!-- comparison evidence ends -->
 
 Original/good/no-minus are seller claims, not verified condition or authenticity. Bundle, adapter inclusion, working state, warranty, shipping, tax and vouchers unverified. Historical ask is not live availability or a completed sale. Official PDF opens as 40 pages with no extracted body; indexed manufacturer text supplies printed page34. No download or visual inspection claimed.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-8",
-    "task": "Saved ME-8 delay choices, compressor parameter scope and factory-reset data loss. Next physical-control/manual evidence or fresh Shopee discovery; initial factory fill and other required gaps remain.",
+    "task": "Saved ME-8 conversion,analog electrical specifications and Manual-mode persistence. Next corroborate physical-control counts or resume fresh hardware discovery; remaining gaps explicit.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75165,6 +75165,31 @@
       "Physical K/F/B corroboration",
       "Initial user preset fill",
       "Unresolved software/import/display fields and qualified hardware prices"
+    ]
+  },
+  "me8_conversion_memory_20261018": {
+    "checked": "2026-10-18",
+    "sources": [
+      {
+        "url": "https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations",
+        "updated": "2026-10-02",
+        "access": "Direct manufacturer body"
+      },
+      {
+        "url": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+        "page": 17,
+        "access": "Manufacturer-indexed own-manual text"
+      }
+    ],
+    "findings": [
+      "18-bit ADC distinct from20-bit DAC input,4xoversampling,44.1kHz",
+      "Input1Mohm/output5.7kohm;nominal levels preserve manufacturer dBm convention",
+      "Manual edits saved on return to Play;power-off before return loses edits"
+    ],
+    "remaining": [
+      "K/F/B and original panel visual corroboration",
+      "Initial user fill",
+      "Other unresolved fields and qualified prices"
     ]
   }
 }
