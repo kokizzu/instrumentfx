@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP80",
-    "task": "Expand own-manual category choices,expression and fixed-cabinet routing;retain manual9V versus FAQ9.6V supply discrepancy. Then resume Shopee brand/series discovery.",
+    "model": "Shopee Indonesia discovery",
+    "task": "Resume brand/series Shopee searches for eligible unrecorded bass/vocal/guitar multi-effects;check inventory before adding. RP80 expression/cabinet/practice details saved;its9V/9.6V supply discrepancy remains.",
     "next_models": [],
-    "after_queue": "386 active models,46 brands,all partial;no downloads/workflows/push."
+    "after_queue": "386 active models,46 brands,all partial;continue verification gaps and discovery;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46327,7 +46327,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP80."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee Indonesia discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -119296,7 +119296,7 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "7a99b91acc23ebac5160cb054e02e97845ee54d002dbb35b8817ce1e6a79406a",
+      "ALL-GUITAR.md": "01faafbea176a06d85312857a998c5f68f334ae8e4fbb3d152bda9a5125ee1b5",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
@@ -119337,7 +119337,7 @@
       "README.md": "5e97e8404e840196d4c513cf26718884583dd30f0d6b990bf63df827fd7348fa",
       "FRACTAL-AUDIO.md": "c49fc79d860c8cbe36666578a065d2015dd6a789dbe7f7852bf21aba35ce5a4c",
       "DEMONFX.md": "a477869186303c3c896d438dde6bb211e03920e6a51da4de617f5442de06e0ee",
-      "DIGITECH.md": "54d42994deed2f64ef227c5f49ceb49f6d82a24b298bb3164a1906150c746c4e",
+      "DIGITECH.md": "371feddf16ad01229737f6e64a1a19c55d3072acc50a37d6c6856c7ca62af639",
       "SONICAKE.md": "62950fa34680adc5b5d06dfa1ba48ab212ecb69192764372d0a280dafa77c069",
       "AMMOON.md": "b5effe57a7b3389dc05c4c2efec738c1b027590868a74e88e7dfea36686d5524",
       "NEURAL-DSP.md": "8d43ed1212434c42e554a0a3a1f32e119735387adff2eca737ec9d63f29a8479",

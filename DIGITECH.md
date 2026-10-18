@@ -1041,4 +1041,19 @@ Checked2026-10-18;partial. [Manufacturer-linked own manual](https://eadn-wc05-75
 | Used IDR | Unknown;exact Shopee searches returned no qualifying hardware offer. |
 | New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
 
+
+### RP80 — expression, cabinets and practice restrictions
+
+[Own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2024/09/digitech-rp80-manuel-utilisateur-en-30531.pdf),printed pp20–25;checked2026-10-18.
+
+| Field | Qualification |
+|---|---|
+| Expression / targets | Volume,wah,amp gain;chorus/flanger/phaser speed or level;tremolo/panner/vibrato/rotary/AutoYa speed or depth;YaYa,Whammy,envelope sensitivity,detune/pitch level,delay level/feedback,reverb level. No-assignment option. |
+| Expression / memory | Heel/toe ranges1–99 save per preset together with current pedal position. Volume-linked presets immediately follow actual pedal position on selection. |
+| Processing / fixed cabinets | Global cabinet modeling assigns **2×12** to Blackface/Tweed/British Combo;**vintage4×12** to Boutique/Rectifier/Crunch;**British4×12** to Hot Rod/Clean Tube/British Stack/High Gain/Fuzz. Not independent cabinet selection. Enable by holding Drums during power-up. |
+| Looper / delay distinction | Delay feedback99 gives infinite repeat;manual describes looping the delayed signal,not a separate phrase-looper workflow. |
+| Drums / restriction | Playback unavailable in Store/Bypass;pattern,tempo,level adjustable. |
+| Memory / calibration | Reset erases user data and invokes pedal calibration. Standalone recalibration preserves user presets. |
+
+
 <!-- comparison evidence ends -->
