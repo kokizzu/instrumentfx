@@ -248,7 +248,7 @@ The reproduced manufacturer body identifies MG-300 MKII and©2024Cherub;mirrorpu
 | Field | Preserved finding / unresolved detail |
 |---|---|
 | Expression / controls | Built-in;no external EXP socket in Version1.0 panel inventory. **5/4/9**,prior photo count corroborated by named manual controls;see census below. |
-| Dimensions / screen | **289L×160W×71H mm;920g**,manual axis labels retained; **2.8-inch320×240 color LCD**. Touch unverified; see dated sources below. |
+| Dimensions / screen | **289L×160W×71H mm;920g**,manual axis labels retained; **2.8-inch320×240 color LCD**. Touch unverified; alternate manual transcription gives163W rather than160W,revision unresolved; see dated sources below. |
 | Processing / scenes | **10 movable blocks**;selected blocks can change category;GEN2 adds4 wah,3 DeepImage amps,5 DeepImage EFX. Complete current totals ?. **Three scenes per preset**;preset total/split ?. |
 | Acoustic / synth | **Three acoustic IRs** for electric-to-acoustic sound,eight bass cabinet IRs;dedicated synth ?. |
 | IR / NAM | **512 samples**,per-patch IR plus12 collection slots. **10 NAM slots;A2 Lite native,A1 converted**,explicitly distinct. |
@@ -262,7 +262,7 @@ Original checked firmware: GEN2 3.0.3. Do not infer exact current firmware or so
 
 | Field | Evidence / qualification |
 |---|---|
-| Dimensions / mass | **289L×160W×71H mm;920g** in Version1.0 manufacturer manual; original axes preserved,not silently relabelled. [M400M] |
+| Dimensions / mass | **289L×160W×71H mm;920g** in Version1.0 manufacturer manual; original axes preserved,not silently relabelled. [M400M] Alternate reproduced body gives **289L×163W×71H mm**;source/revision difference unresolved,not averaged. [M400A] |
 | Display | **2.8-inch320×240 color LCD**,own global product; touch unverified. [M400G] |
 | Power / battery / USB | **9VDC centre-negative,current draw<280mA**. [M400M] [NUX USA power support](https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need),updated2026-09-27,independently confirms and names included ACD-006A. Battery/USB power unverified. Adapter rating is separate from unit draw. |
 | Firmware / editor / drivers | Global list: **GEN2 firmware3.0.3 andQuickTone2.6.8.24**,both2026-08-28,Windows/macOS;matching GEN2 required. ASIO5.30.0 listsWin10+,3.29.0 Win7;these driver labels do not establish full-editor minimumOS. Published packages,not installed-unit verification. [M400G] |
@@ -282,12 +282,25 @@ Original checked firmware: GEN2 3.0.3. Do not infer exact current firmware or so
 | Knobs / footswitches / buttons | **5/4/9**:Master,Select,Knob1–3;Up,Down,CTRL1/2;Edit,Save,Mode,Jam,Left,Right,Tap,Pedal,CTRL/Page. Encoder push,rear power/toe separate. Text corroboration,not fresh visual inspection. [M400O] |
 | Expression | EXP Independent preserves engagement across patches. Pedal selects wah,amp,modulation,delay/reverb control. External socket absent from panel inventory;MIDI-mediated expression unverified. [M400O] |
 | I/O | Instrument input;L/MONO+R outputs;separate⅛-inchAUX andphones;USB andDC. Phones follows output. No XLR,MIDI,FX-loop orEXP sockets documented. Connector balance/remaining sizes andUSB form unknown. [M400O] |
-| Memory / backup | Save writes current patch. GHOST backup stores system data internally;restore recalls that snapshot. Not an external backup or extra patch bank. Groups1–9 mentioned;total/factory fill still unknown. [M400O] |
+| Memory / backup | Save writes current patch. GHOST backup stores system data internally;restore recalls that snapshot. Not an external backup or extra patch bank. Groups1–9 mentioned [M400O],but alternate transcription says1–16 [M400A];total/factory fill still unknown. No capacity inferred from group examples. |
 | Looper / tuner / live | AutoRecording waits for guitar attack;Normal starts fromfootswitch. Tuner offers chromatic/compensated guitar,mute/monitor,A4 430–450Hz. [M400O] |
 
 [M400O] is own Version1.0 English operational body,mirror viewer pages3–6 (printed03–10);cover/endpage confirm©2022Cherub. Page7 access failed;no full-manual completion claim. Its post-update reset/calibration guidance is legacy documentation,not proof of GEN2 requirements or an instruction to alter hardware. No reset,calibration,installation or downloads performed.
 
 [M400O]: https://www.manualslib.com/manual/4315493/Nux-Mg-400.html?page=3
+
+
+### MG-400 — USB/editor and alternate-text qualifications, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| USB settings / levels | **NORMAL,DRY OUT,REAMP**;Knob1 adjusts REC level,Knob2 PLAY level. Select recalls defaults. Channel count,stream format,USB MIDI andbus power remain unverified. [M400A] Indexed manufacturer-manual text on [distributor mirror](https://images.myfrenex.com/dataweb/J859J/Allegati/MANUALI/NUX_MG400_UserManual.pdf) independently corroborates the mode/level controls;direct reader rejected21MB size. |
+| Input trim / parameter recall | Input trim adapts incoming signal to stored patches;range unverified. PARA.FOLLOW recalls earlier model parameters;off uses defaults. This does not establish automatic patch saving. [M400A] |
+| Editor / operations | QuickTone supports parameter editing,block ordering,scenes,patch save/load/export,IR import,USB routing andCTRL assignment. Exact OS minimums remain unknown;USB recording capability is separate. [M400A] |
+
+[M400A] is a readable imported manufacturer body naming MG-400,Cherub and©2022. Its163mm width andgroups1–16 differ from earlierVersion1.0mirror160mm/groups1–9;exact revision is unestablished. The associated11-pagePDF exposed no readable text,so no byte-equivalence orvisual verification is claimed. Wrapper's2025 dates do not establish firmware applicability. Generated summaries/image descriptions were not used to establish control ranges. Factory fill remains unresolved.
+
+[M400A]: https://device.report/manual/17211048
 
 <!-- comparison evidence ends -->
 
