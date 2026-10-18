@@ -802,6 +802,15 @@ Checked 2026-10-18 against [own EFG1 manual][AX5B-M], printed51–53 (PDF pages3
 
 Checked2026-10-18: [KA-189 original-accessory listing](https://www.korg-shop.de/en/korg-power-supply-ka-189/KRKA189). The shop identifies MUSIK MEYER as operator; [Korg’s own distributor directory](https://www.korg.com/hken/corporate/distributors/) independently identifies MUSIK MEYER/KORG & MORE for Germany. This is official-distributor accessory evidence, separate from the manufacturer owner’s manual. No purchase, download or device operation.
 
+
+### AX5B — explicit manual library headline, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / manual58 versus product57 | Own English **EFG1 manual p5 explicitly advertises58 modeling variations**;this is not merely our arithmetic inference. Its p13 breakdown **PRE11(including separate pedal wah),drive/amp16,cab10,MOD10,DLY5,RVB5,NR1** sums58. The earlier product57 list remains distinct; omitting the separately counted pedal wah gives57,but no manufacturer correction establishes that as the product page’s intended method. The manual’s **six effects includingNR plusvolume pedal** is the simultaneous ceiling,not57/58. [Own manual][AX5B-M] |
+
+The same own p13 table lists9VDC/fourAA but no operating-current figure;this pass doesnot resolve currentdraw from the conflicting KA-189 accessory ratings. Initial user-slot factory mapping anddisplay technology remain unverified. Nofile downloaded or device operated.
+
 <!-- comparison evidence ends -->
 
 [AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
