@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B2 FOUR",
-    "task": "Completed B2 FOUR dated2023 named-effect inventory:104distinct entries across12categories,plus6DI separate. Continue remaining hardware/display/editor/price gaps orfresh exactShopee leads;114 Markdown compatibility files retained.",
+    "task": "B2 FOUR current controls supported4knobs;FS/button totals unknown,old4/6/4 retained historical. Dated104effectaudit complete;continue remaining hardware/display/software/price gaps orfresh exact hardware discovery.114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58508,6 +58508,15 @@
       "revision": "©2023 Z2I-4875-01",
       "pages": "3–13",
       "inventory_key": "b2_four_effect_inventory"
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "checked": "2026-10-18",
+      "finding": "Corrected current K/F/B display to4/?/? using explicit4encoder producttext;historical4/6/4 retained asuncorroborated. Manualdirectionbuttons footoperable;mainFS/DI/bypassclassification/count stillneedsimage.",
+      "sources": [
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/",
+        "https://zoomcorp.com/manuals/b2four-en/"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

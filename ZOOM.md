@@ -996,7 +996,7 @@ Bass multi-effects; external-only expression. Consolidated and expanded2026-10-1
 | Field | Retained value / unknown |
 |---|---|
 | External expression | Yes, FP02M |
-| K/F/B | 4/6/4 [photo] |
+| K/F/B | Current supported count **4 / ? / ?**. Historical **4/6/4 [photo]** retained, but footswitch/button totals are not corroborated; see control-count qualification below. |
 | W×D×H, mm; weight | 249×146×72; 906 g |
 | Size class | Medium |
 | Used USD | ? |
@@ -1024,7 +1024,7 @@ Primary sources: [manufacturer product](https://zoomcorp.com/en/us/multi-effects
 | Field | Current verified limit / gap |
 |---|---|
 | Built-in expression / toe |No built-in pedal; FP02M external input. Separate toe input unverified |
-| Physical controls verification |Historical4/6/4 fromlegacy photo;not visually corroborated in current pass. Manual diagram/photo retrieval failed;DI/bypass versus main-switch classification needs inspection |
+| Physical controls verification |Four rotary encoders explicitly confirmed by current product text. Historical4/6/4 remains uncorroborated for footswitch/button totals; direction buttons are foot-operable according to own manual,while DI MODEL andbypass have separate switch labels. Visual count/classification still pending. |
 | Display |256×128 dot-matrix LCD; diagonal,color mode,touch unknown |
 | Processing / DI |Five simultaneous DSP-limited effects; **104 listed entries:10dynamics,14filter/EQ,13drive,11preamp,11modulation,6pitch,3synth,7delay,8reverb,4SFX,6pedal/control,11bassamps**. Table-derived from [official effect list pp3–20](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),©2023 Z2I-4875-01. Includes OutputVolumePedal control;not104simultaneous blocks. Six DI models separate |
 | Looper / rhythm |60 s mono or30 s stereo; UNDO reduces to30/15 s. Minimum1.5 s. Looper/rhythm each occupy one selectable instance |
@@ -1203,6 +1203,15 @@ Checked2026-10-18 against [Zoom’s2023 effect list](https://zoomcorp.com/media/
 | Category choices / pitch 6 | Bass Octaver; Bass Analog Octaver; Pitchshift; Bass Mono Pitch Shifter; Harmony Pitch Shifter; Bass Polyphonic Pitch Shifter. |
 
 The twelve saved category inventories reconcile to **104 distinct named entries**. Six DI models remain separate. Internal modes do not add entries;this audit does not certify every installed/app-added library. All other required-field gaps remain open.
+
+
+### B2 FOUR — control-count evidence correction
+
+Checked2026-10-18.
+
+| Field | Supported evidence / qualification |
+|---|---|
+| Physical controls / supported count | [Product’s Navigate and Create section](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/) explicitly specifies **four rotary encoders**. [Own manual,Functions of parts](https://zoomcorp.com/manuals/b2four-en/) distinguishes direction buttons,main footswitches,DI MODEL switch andbypass switch;direction buttons can be foot-operated. This text does not give an exact total. CurrentK/F/B is therefore **4/?/?** pending diagram/photo corroboration andconsistent classification. Historical4/6/4 is preserved as an unverified older observation,not a current certified count. |
 
 <!-- comparison evidence ends -->
 
