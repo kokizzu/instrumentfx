@@ -2830,6 +2830,10 @@ Checked 2026-10-17; partial. Guitar/acoustic-electric multi-effects; bass/vocal 
 | New | No condition-specific qualified amount. | — |
 | Unverified condition | **Rp1.900.000** historical category ask; shop168736454/item52302189094, Singkawang from category. Checked 2026-10-17; category crawled last month. Exact product hyperlink resolved; direct item inaccessible/cache miss. Seller name, condition and stock unresolved. | [Item][GT3-O]; [Category][GT3-C] |
 
+### GT-3 — unresolved mixed-model market lead
+
+Checked2026-10-18. [Hope Music storefront](https://shopee.co.id/hopemusik),four-month searchcache,showed a combined GT100/GT3/GT5 hardware title at **Rp2.398.000**. Selectedmodel,exactitem,condition,stock andbundle unresolved;not accepted asGT-3 used/newprice. Reopened last-month storefront omits thislisting. The existing shop168736454/item52302189094 directroute remains inaccessible;Rp1.900.000 categoryask remains historical/unverified. Clothing,adapter,LCDparts andcase hits excluded. This limitedpass doesnot prove marketabsence;no livecheckout orsale verified.
+
 <!-- comparison evidence ends -->
 
 Bundle, adapter, working state, authenticity, warranty, shipping, tax and vouchers unverified. Historical ask is not live stock or a completed sale. No sibling specifications adopted, file download or visual inspection claimed.
