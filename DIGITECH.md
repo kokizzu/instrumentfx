@@ -105,6 +105,16 @@ Checked 2026-10-18 against the manufacturer-authored manual copy; no calibration
 | Expression / preset endpoints and V-Switch | Assignment and MIN(toe-up)/MAX(toe-down) values save per user preset. V-Switch toggles wah only when a wah resides in the chain; toe-down pressure alone does not establish arbitrary effect switching. Calibration adjusts V-Switch sensitivity:FS1 decreases,FS2 increases; toe-pressure test shows ON/OFF;FS3 finishes. BACK aborts calibration. | [Manual copy pp34–35,52][RPXP-MM] |
 | Memory / factory restore scope | Restore resets user presets and system settings and then prompts RP360XP pedal calibration. It is distinct from calibration alone; edited user sounds are lost. No reset was run during this documentation audit. | [Manual copy p53][RPXP-MM] |
 
+### RP360XP — current software support and internal conversion
+
+Checked2026-10-18;manufacturer HTML only. No software,driver,firmware ordependencies downloaded orrun.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / current support status | [Current DigiTech FAQ](https://digitech.com/faqs/) says discontinued-product software is **unsupported on newer operating systems** andsome firmware updates mayno longer be possible. RP360XP is marked past product andits Nexus downloads remain listed. This vendor-wide notice qualifies availability;it doesnot prove a particular RP360XP update fails. Preserve the model-specific Catalina exclusion;current OS/CPU operation remains untested. |
+| Conversion / internal format | [Own product specification][RPXP-P] lists **24-bit high-performance A/D/A,44.1kHz,AudioDNA2 DSP**. These are internal conversion/processing specifications,distinct from the documented16/24-bit USB stream;not32-bit float orcapture-import evidence. |
+
+
 ## RP255
 
 Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
