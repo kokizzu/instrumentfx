@@ -471,6 +471,15 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 | Live / tuner | Manual p23: all analog/headphone/digital outputs mute during tuning. A-reference **436–444Hz**, resetting to440Hz on power-up. |
 | IDR price | No qualified exact Shopee offer from AG Stomp/AG-Stomp/AGSTOMP searches,2026-10-18. Used/new amount,seller/item,condition,stock,region,bundle,warranty and vouchers unknown. Limited search does not prove market absence. |
 
+### AG-Stomp conversion and manual control,2026-10-18
+
+| Field | Own manufacturer manual qualification |
+|---|---|
+| Audio / converters and nominal levels | [Manualp29](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):**20-bitA/D and20-bitD/A,44.1kHz**. Input−17dBm/1MΩ withpreampbypass;balancedL/R+4dBm/600Ω;phones0dBm/47Ω. Preservepublishedunits;notmaximuminput/headroom orUSBformat specifications. |
+| Controls / Manual mode | [Manualp20](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):MANUAL usescurrentknob/effect-button settings,exceptFeedbackReductionbuttons. Any patchrecall exits;selectingcurrentpatch restorespre-Manualstate. SHIFTsecondaryediting alsoexitsManual. This isnotanotherstoredpresetbank. |
+| Footswitches / effect mode | [Manualp19](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):EFF assigns1–3 tolimiter,chorus/delay,reverb on/off. Sharedchorus/delay remainsoneblock;notindependentchorusplusdelay switches. HoldingBANK stillpermitsbank/area selection. |
+| Power / memory backup distinction | [Manualp2](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf) identifiesa lithiumbattery formemorybackup. This doesnot establishbattery-powered audio operation;documentedexternalpower remainsAC-10. Replacementprocedure/runtime unverified. |
+
 <!-- comparison evidence ends -->
 
 Original Yamaha-hosted PDF read as browser text; no file downloaded, device operated or software installed. Do not borrow DG-Stomp specifications. Expression mappings and original patch initialization are documented above; complete physical/absence checks and remaining software/price gaps stay unresolved.

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Helicon Critical Mass",
-    "task": "Operating limits and optional-adapter identity saved. Next otherrequiredmodelgaps/freshvocaldiscovery;avoidunchanged officialQSG502.",
+    "model": "Yamaha AG-Stomp",
+    "task": "Converter/manual-mode evidence saved;next exactmodelgaps orfreshShopeediscovery. Backupbattery isnotoperatingpower evidence.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial;114 compatibility Markdown files remain;no downloads/workflows/push."
   },
@@ -46311,7 +46311,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Helicon Critical Mass."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha AG-Stomp."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81934,7 +81934,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4824,
+    "flagged_field_count": 4825,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -112033,6 +112033,14 @@
             "signals": [
               "unknown"
             ]
+          },
+          {
+            "field": "Power / memory backup distinction",
+            "source": "YAMAHA.md",
+            "signals": [
+              "unverified",
+              "not_established"
+            ]
           }
         ]
       },
@@ -118515,9 +118523,9 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "e12d065de65e1dcbba5c5a44e86e0ba91b078ad697a3be19b7c6c4fe44cd89cd",
+      "ALL-GUITAR.md": "e9840ee4b6eafe6e82998a187383c44e5702ad3f898285032b02346474a6e641",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
-      "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
+      "YAMAHA.md": "d998b4d7c003ad4441474eda1e0fd1ccc8128161d6b52cb0266e9f807cb96770",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
       "ALL-BASS.md": "c1daf1140d9579c862aa2d40ef435542d530ab5336368274e78b0956b87c615f",
@@ -119060,5 +119068,11 @@
     ],
     "result": "Saved environment limits,optional exact adapter identity and bypass recovery. Exact Shopee item still unresolved;direct official QSG502.",
     "remaining": "Polarity,selectorcount,pitchoperation,currentOS,storage andqualifiedoffers."
+  },
+  "agstomp_followup_20261018": {
+    "source": "https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf",
+    "destination": "YAMAHA.md#ag-stomp",
+    "result": "Added converter resolution,nominal levels,Manual-mode exits,effect-switch mapping andbackup-battery distinction.",
+    "remaining": "Physical/absence audit,expressiontoe,screenproperties,software/importscope andqualifiedShopeeoffers."
   }
 }
