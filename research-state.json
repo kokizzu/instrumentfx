@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 366,
+  "active_model_count": 367,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 366,
+  "canonical_root_model_count": 367,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "366 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "367 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MX300",
-    "task": "Saved MIDI bank/program/bypass value mapping and editor SysEx channel-Off exception. Route5 selector count and initial user fill remain unknown. Next fresh Shopee brand/series discovery or significant required-field gap.",
+    "model": "Zoom 506II",
+    "task": "Verify initial factory fill, category census, visual control inventory and exact Shopee hardware offers; then fresh brand/series discovery.",
     "next_models": [],
-    "after_queue": "366 active/46 brands;307 guitar159 bass69 vocal;all partial;114 compatibility Markdown paths;no downloads/workflows/push."
+    "after_queue": "367 active/46brands;all partial;compatibility migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5426,6 +5426,14 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Exact manufacturer manual identifies guitar multifx;official endpoints inaccessible,original mirroredmanual identity/revision checked. No qualified Shopeeoffer. Generated mirror FAQ not evidence."
+    },
+    {
+      "model": "Zoom 506II",
+      "destination": "ZOOM.md#506ii",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "source": "https://zoomcorp.com/media/documents/E_506II.pdf",
+      "finding": "Manufacturer bass multi-effects record added; no qualified Shopee hardware offer."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24848,7 +24856,8 @@
       "505 original",
       "G2.1Nu",
       "NEURIG",
-      "MS-100BT"
+      "MS-100BT",
+      "506II"
     ],
     "DigiTech": [
       "RP360XP",
@@ -25146,7 +25155,8 @@
       "505 original",
       "G2.1Nu",
       "NEURIG",
-      "MS-100BT"
+      "MS-100BT",
+      "506II"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -25457,8 +25467,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 159,
-      "bass_focused_record_count": 35,
+      "record_count": 160,
+      "bass_focused_record_count": 36,
       "shared_bass_capable_count": 124,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -25482,10 +25492,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 307 guitar, 159 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 307 guitar, 160 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "366 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "367 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45918,17 +45928,17 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 366,
-    "canonical_root_models": 366,
+    "unique_brand_model_pairs": 367,
+    "canonical_root_models": 367,
     "legacy_only_models": 0,
     "guitar_view_models": 307,
-    "bass_focused_models": 35,
+    "bass_focused_models": 36,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 159,
+    "bass_view_models": 160,
     "bass_shared_models": 124,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -46003,7 +46013,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX300."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 506II."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46437,6 +46447,7 @@
       "Zoom::B1X original",
       "Zoom::1201",
       "Zoom::MS-100BT",
+      "Zoom::506II",
       "DigiTech::GNX3",
       "DigiTech::GNX4",
       "Korg::PANDORA stomp",
@@ -48745,6 +48756,13 @@
     },
     "Zoom::MS-100BT": {
       "link": "ZOOM.md#ms-100bt",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::506II": {
+      "link": "ZOOM.md#506ii",
       "source_files": [
         "ZOOM.md"
       ],

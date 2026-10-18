@@ -4270,3 +4270,26 @@ Original manufacturer manual©2012. Text audit only;no device/software execution
 [M100BT-A]: https://apps.apple.com/us/app/stompshare/id567649359
 
 [M100BT-H]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_ver130_en.pdf
+
+## 506II
+
+Bass multi-effects; partial, checked2026-10-18. Distinct from506 and505II. [Manufacturer manual](https://zoomcorp.com/media/documents/E_506II.pdf), printed pp6–7,28–31.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | No built-in/toe pedal; shared CONTROL IN accepts FP01/FP02 expression or FS01 footswitch. |
+| K/F/B | **1/2/3**, text-derived: PLAY/EDIT rotary, two footswitches, STORE and+/− buttons. Visual audit pending. |
+| Display | Two-digit7-segmentLED; diagonal/color/touch unverified. |
+| Processing / categories | **33 effects;8 simultaneous**. Specification separately states7 modules (5modules+1block); preserve wording, not8 independently assignable blocks. Category census pending. |
+| Memory | **36 rewritable patches**,6banks×6; separate factory bank/initial fill unverified. |
+| Synth / acoustic | BassSynth favors single notes; acoustic simulation unverified. |
+| I/O | Mono bass input, stereo line/headphone output, CONTROL IN,9VDC. USB/editor support unverified. |
+| Power | AD-0006 **9VDC300mA center-negative** supply rating; device draw unknown.4AA,approximately28h alkaline/8h manganese. |
+| Dimensions / mass | **125W×145D×40H mm;280g without batteries**. |
+| IR / NAM / capture | Unverified. |
+| Practical features | Chromatic tuner. Looper/drums/scenes unverified. |
+| IDR price | Used/new unknown; exact Shopee searches yielded no qualified hardware offer. Stock/seller/bundle/warranty/voucher unverified. |
+
+<!-- comparison evidence ends -->
