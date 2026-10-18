@@ -309,7 +309,7 @@ Digital Stereo Multi-FX pedal; distinct from FX2000. Checked2026-10-18;partial. 
 | Synth / acoustic | Pitch Shifter documented;dedicated synthesis/acoustic simulation unverified. | [Product][FX6-P] |
 | Dimensions / mass | Approx70W×123D×54H mm;0.33kg. | [Manual indexed specifications][FX6-M] |
 | I/O / routing | Two¼in TS inputs A/B,two¼in TS outputs A/B;useA for mono,both forstereo. DC input2mm center-negative. USB,MIDI,headphones,FXloop not listed as separate connectors. | [Manual index][FX6-M] |
-| Power / battery / USB | **9VDC;130mA consumption;9V6LR61 battery**. Listed9V/1.7A regulated supply is adapter rating,not unitdraw. No separate power switch;input-plug insertion starts operation,unplug tosavebattery. Battery runtime/USB operation unverified. | [Manual index][FX6-M] |
+| Power / battery / USB | **9VDC;130mA consumption in V3.0 (2012 manual instead90mA,see below);9V6LR61 battery**. Listed9V/1.7A regulated supply is adapter rating,not unitdraw. No separate power switch;input-plug insertion starts operation,unplug tosavebattery. Battery runtime/USB operation unverified. | [Manual index][FX6-M] |
 | IR / NAM / captures | UserIR,native/convertedNAM andcapture loading unverified. | Unresolved |
 | Editor / software | Editor/driver/updater platforms unverified;noUSB interface established. | Unresolved |
 | Looper / drums / scenes | Looper,drums,scenes,trails andbypass-circuit type unverified. | Unresolved |
@@ -348,6 +348,14 @@ Newer manual endpoint: https://mediadl.musictribe.com/media/PLM/data/docs/P0596/
 [FX6-MB]: https://shopee.co.id/Behringer-FX600-FX-600-FX-600-Digital-Multi-FX-Pedal-ORIGINAL-i.274951125.41610292794
 [FX6-DJ]: https://shopee.co.id/Efek-Effect-Pedal-Behringer-FX-600-FX600-i.510844912.22825169715
 [FX6-PG]: https://shopee.co.id/PEDAL-EFEK-GITAR-MODULATION-BEHRINGER-FX600-DIGITAL-MULTI-FX-97-SUPER-MULUS-Efek-Gitar-Stompbox-Efek-Gitar-Analog-Efek-Gitar-Modulasi-i.880854240.47300816627
+
+### FX600 — edition-qualified power and analog impedances, 2026-10-18
+
+| Field | Source evidence / unresolved qualification |
+|---|---|
+| Power / consumption conflict | The manufacturer-authored **©2012,two-page FX600 manual**,matching model heading,numbered controls andMusic Group imprint,lists **90mA consumption** and **9V/100mA regulated PSU-SB**. [Inspected copy](https://r2.gear4music.com/media/25/252920/download_252920.pdf),p2. The **V3.0,©2024** copy instead lists **130mA consumption** and **9V/1.7A PSU-HSB ALL**,[p43][FX6-V3]. Preserve both editions;no serial-number boundary,hardware change orerratum is documented here. Supply capacity is not unitdraw. |
+| I/O / analog impedance | Both cited editions specify **IN A500kΩ,mono250kΩ;IN B500kΩ;OUT A/B1kΩ each**. These are impedances,not maximum input/output levels orproof of instrument-specific bass suitability. |
+
 
 ## DSP2024P
 

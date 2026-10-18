@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha SPX990",
-    "task": "Saved balanced analog/max-level evidence, no dedicated EXP/USB connector inventory and RAM battery/card-backup limits. Next another required model gap or fresh Shopee series; remaining display/factory mapping/concurrency/market gaps stay open.",
+    "model": "Behringer FX600",
+    "task": "Saved2012/V3.0 current-consumption conflict andshared analog impedances. No GTPro/GSP1101/FX500 hardware result. Next different brand/series or required model gap; do not infer serial revisions from different manual figures.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45765,7 +45765,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha SPX990."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer FX600."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77242,5 +77242,30 @@
       "Elemental simultaneous ceiling",
       "Current condition-qualified offers"
     ]
+  },
+  "technical_followup_fx600_power_editions_20261018": {
+    "sources": [
+      "https://r2.gear4music.com/media/25/252920/download_252920.pdf",
+      "https://www.adorama.com/col/productManuals/BEFX600.pdf"
+    ],
+    "identity": "Two-page2012MusicGroup FX600 manual identified by own heading/controls/imprint; V3.0©2024 previously verified.",
+    "findings": [
+      "2012consumption90mA vs V3.0consumption130mA; adapter100mA vs1.7A separately.",
+      "Both agree IN A500k/mono250k,IN B500k,outputs1k."
+    ],
+    "remaining": [
+      "No verified hardware revision boundary or correction",
+      "Numeric effect ranges",
+      "Display andpreset-memory negatives",
+      "Current condition-qualified offers"
+    ]
+  },
+  "discovery_rack_frontier_20261018": {
+    "queries": [
+      "Shopee BOSS GT PRO",
+      "Shopee DigiTech GSP1101",
+      "Shopee Yamaha FX500"
+    ],
+    "result": "No exact indexed hardware result established; no new model/price added."
   }
 }
