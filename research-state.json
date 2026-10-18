@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro WaveSynth2/GuitarSynth4/Harmonist3 voice modes andsingle-note HRrestriction saved. NextremainingFXsubtypes,44category audit,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
+    "task": "GT-Pro PitchShifter3voice/4processing modes andAutoRiff30+10 saved. NextremainingFXsubtypes,44category audit,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121619,5 +121619,21 @@
       "Harmonist_voice_modes": 3
     },
     "qualification": "Harmonist single-note only;do notgeneralize itsrestriction toall synthwaveforms;fullpolyphony unknown."
+  },
+  "gtpro_pitch_autoriff_20261019": {
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://roland.manymanuals.es/supplementary-music-equipment/gt-pro/owners-manual-5239/48",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-49.html",
+      "https://www.manualslib.es/manual/12527/Boss-Gt-Pro.html?page=48"
+    ],
+    "pages": "46,48–49 indexed original manuals",
+    "counts": {
+      "pitch_voice_modes": 3,
+      "pitch_processing_modes": 4,
+      "AutoRiff_prepared": 30,
+      "AutoRiff_user": 10
+    },
+    "qualification": "Normal pitchshifter accepts chords;Mono andAutoRiff single-note;heavyMIDI maydisturbAutoRiff."
   }
 }

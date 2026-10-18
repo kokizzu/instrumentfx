@@ -4007,3 +4007,15 @@ Checked 2026-10-19 against exact manufacturer-authored manual: [p44 original mir
 | Processing / Harmonist voices | **3 modes:1-Voice,2-Mono,2-Stereo**. Two modesuse separatelysetHR1/HR2;Stereo separates voicesL/R. Up to±2octaves;Scale1–29 selects userscale. Manual explicitly prohibits chords because pitchanalysis needs single notes. These arevoice/routing modes,notthree simultaneous Harmonistblocks. |
 
 RemainingFX subtype census,44-category reconciliation,USBchannelcount andqualified IDR remain open. No downloads ordevice operation.
+
+### GT-Pro — pitch-shifter modes and Auto Riff memory
+
+Checked 2026-10-19 against the [official original manual p46](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf), [original p48 mirror](https://roland.manymanuals.es/supplementary-music-equipment/gt-pro/owners-manual-5239/48), [original p49 mirror](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-49.html) and [Spanish manual p48](https://www.manualslib.es/manual/12527/Boss-Gt-Pro.html?page=48). Indexed manufacturer-authored GT-PRO tables; exact model and pagination match. No device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / Pitch Shifter | **3 voice modes:** 1-Voice, 2-Mono, 2-Stereo. **4 processing modes:** Fast, Medium, Slow, Mono. Normal pitch shifting accepts chords; Mono is for single notes. Fast→Medium→Slow trades slower response for reduced modulation. Pitch ±24 semitones; two-voice modes allow separate PS1/PS2 settings. Voice modes and processing modes are separate parameters, not seven additional effect families. |
+| Memory / Auto Riff | **30 prepared phrases + 10 user phrases**. These are Auto Riff phrase definitions, not additional patch memories or audio-loop recordings. Phrases are triggered by picking a single note; chords are unsupported. Heavy incoming MIDI traffic may disturb playback. |
+| Live / Auto Riff controls | Loop On repeats the phrase; Hold sustains the effect after input ends. Trigger sensitivity controls restarting; zero prevents retriggering. Key selection applies to prepared phrases. These controls do not establish a drum machine or persistent audio looper. |
+
+Remaining FX subtypes, 44-category reconciliation, USB channel count and qualified IDR hardware offers remain unresolved. No downloads or device operations.
