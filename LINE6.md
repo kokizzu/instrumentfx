@@ -1024,6 +1024,13 @@ Checked 2026-10-18 against the manufacturer v2.0 Advanced Guide, printed §§4�
 | Memory / scene-folder selection | Turn Model Select in Scene Select to browse four folders; after changing folders, select a scene within **3 seconds**, otherwise the display returns to the current folder. This is a selection timeout, not evidence that the sound changes merely by browsing. TAP cancels scene selection. [Advanced guide](https://line6.com/data/l/0a0600729af54af8b8963953c/application/pdf/M9%20Advanced%20Guide%20%28Rev%20A%29%20-%20English.pdf) |
 | Memory / scene copy | Hold **3A + TAP** until Scene Select becomes **Save To**, then choose a destination A/B footswitch. Copying moves the current setup into a scene location; it does not create more than the documented 24 onboard scene memories. TAP cancels from the save screen. [Advanced guide](https://line6.com/data/l/0a0600729af54af8b8963953c/application/pdf/M9%20Advanced%20Guide%20%28Rev%20A%29%20-%20English.pdf) |
 
+### M9 — manufacturer body-specification conflict, 2026-10-18
+
+| Field | Conflicting primary evidence / limit |
+|---|---|
+| Dimensions / mass | [Manufacturer processor chart](https://line6.com/data/6/0a020a41033e604695e606367/application/pdf/) assigns M9 **3lb/1.36kg**, **10.5in/27cm width** and **6.5in/17cm depth**. [M9 FAQ][M9-Q] instead gives **2.3lb**,10.5L×7W×3H inches. Preserve original axes and rounded unit pairs: these sources differ in mass and footprint labeling/values. No documented revision,measurement method or packaging explanation resolves the conflict. Chart evidence is text/indexed column extraction; screenshot returned no usable image,so no visual audit or physical measurement is claimed. |
+
+
 ## Pocket POD
 
 Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;partial. Ownership,vocal suitability unknown. Bass use documented for Tube Preamp.
