@@ -3674,3 +3674,27 @@ Checked 2026-10-18; documentation only, without installing the editor or testing
 |---|---|---|
 | I/O / MIDI setup count corroboration | **Four documented PATCH MIDI setups (1–4)**: Roland support updated 2024-12-18 uses that exact selection range; the original Japanese editor guide p5 says CTL OUT & MIDI SEND transmits the messages configured in PATCH MIDI 1–4. This corroborates the parameter-guide heading. Its conflicting 1–8 sentence remains preserved above, rather than establishing eight setups. Physical/firmware inspection was not performed. | [Roland support](https://support.roland.com/hc/en-us/articles/360004192252-MS-3-MEMORY-MANUAL-MODE-CURRENT-NUMBER-MIDI); [Japanese editor guide p5](https://static.roland.com/assets/media/pdf/MS-3_Editor_Librarian_jpn02_W.pdf) |
 | Controls / Tempo Hold | Set BPM preference to PATCH and TEMPO HOLD ON in the **destination patch**, then Write. The arriving patch retains the previous live BPM. Returning to a patch with Tempo Hold OFF restores that patch’s saved BPM; the guide illustrates 120→130→120. This is tempo persistence, not audio-tail continuation. | [Original application guide p14](https://static.roland.com/assets/media/pdf/MS-3_Application_Guide_eng01_W.pdf) |
+
+## AD-2
+
+Acoustic fixed-chain processor; partial, checked 2026-10-18. Included for distinct resonance, ambience and feedback processing, not its preset/mode count. [Manufacturer](https://www.boss.info/global/products/ad-2/).
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | No built-in pedal/toe or external EXP socket in published connector inventory. |
+| K/F/B | **3/1/0**, manufacturer text controls; visual audit pending. |
+| Display | CHECK/battery indicator; screen diagonal/color/touch not specified. |
+| Processing / categories | Acoustic Resonance, Ambience reverb and notch filtering; fixed controls, not a selectable multi-model library. Numeric simultaneous-block count unpublished. |
+| Memory | Factory/user/total preset memory unverified. |
+| Synth / acoustic | Acoustic-electric resonance restoration; electric-to-acoustic simulation and synth unverified. |
+| Dimensions / mass | **73W×129D×59H mm;420g including battery**. |
+| I/O | INPUT,OUTPUT ¼-inch; balanced LINE OUT ¼-inch TRS;DC IN. USB/MIDI absent from published inventory. |
+| Power | 9V alkaline6LR61 or optional PSA;65mA;approximately5h battery,condition-dependent. Polarity/USB power unverified. |
+| Editor / platforms | Editor,drivers and software platforms unverified. |
+| IR / NAM / capture | Unverified. |
+| Practical features | Buffered bypass,mute;LINE OUT can omit Ambience independently. Looper/drums/scenes unverified. |
+| IDR price | [Indexed Shopee offer](https://shopee.co.id/Boss-AD-2-AD2-Acoustic-Preamp-Guitar-Acoustic-Effect-i.16879370.651392518): **Rp2,150,500**,Seven Stereo Music & Audio Store,Bandung;seller16879370/item651392518. Checked2026-10-18;index crawled roughly2months earlier,delivery dates19–22August. New/used condition,live stock,bundle,warranty andcheckout voucher unverified;late-delivery compensation isnot an immediate price discount. No qualified used ask. |
+
+<!-- comparison evidence ends -->

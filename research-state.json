@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 371,
+  "active_model_count": 372,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 371,
+  "canonical_root_model_count": 372,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "371uniqueactive/rootcanonical;0legacyonly;46brands;sixexcluded;allpartial.",
+  "count_reconciliation": "372 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP150",
-    "task": "Saved RP150 drum count conflict (65 including metronome versus spec60), drum mode restrictions and simultaneous external wah/Whammy control. Fresh BP355/BP200/B9.1ut/Vocalist searches had no qualified hardware lead; BP200 power adapter excluded. Next expand exact Shopee brand/series discovery and address remaining required fields.",
+    "model": "BOSS AD-2",
+    "task": "Added exact acoustic fixed-chain processor and dated cached Shopee ask. Next own manual for preset absence, routing/mute behavior and power polarity; no sibling borrowing.",
     "next_models": [],
-    "after_queue": "371active/46brands;309guitar162bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
+    "after_queue": "372active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5466,6 +5466,14 @@
       "source": "https://digitech.com/dp/rp150/",
       "status": "partial",
       "finding": "Exactguitarprocessor added;noqualifiedShopeeoffer;ACsupply notDC."
+    },
+    {
+      "model": "BOSS AD-2",
+      "destination": "BOSS.md#ad-2",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "source": "https://www.boss.info/global/products/ad-2/",
+      "finding": "Distinct acoustic resonance, ambience and notch processing; cached exact Shopee hardware ask retained without stock/condition certification."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24623,7 +24631,8 @@
       "AD-8",
       "SE-50",
       "GT-10B",
-      "MS-3"
+      "MS-3",
+      "AD-2"
     ],
     "CUVAVE": [
       "H8"
@@ -25311,7 +25320,8 @@
       "AD-8",
       "SE-50",
       "GT-10B",
-      "MS-3"
+      "MS-3",
+      "AD-2"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -25502,7 +25512,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 309,
+      "record_count": 310,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25532,10 +25542,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 309 guitar, 162 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 310 guitar, 162 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "371 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "372 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45968,10 +45978,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 371,
-    "canonical_root_models": 371,
+    "unique_brand_model_pairs": 372,
+    "canonical_root_models": 372,
     "legacy_only_models": 0,
-    "guitar_view_models": 309,
+    "guitar_view_models": 310,
     "bass_focused_models": 38,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
@@ -46053,7 +46063,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP150."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS AD-2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46093,6 +46103,7 @@
       "BOSS::AD-8",
       "BOSS::SE-50",
       "BOSS::MS-3",
+      "BOSS::AD-2",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -47087,6 +47098,13 @@
     },
     "BOSS::MS-3": {
       "link": "BOSS.md#ms-3",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::AD-2": {
+      "link": "BOSS.md#ad-2",
       "source_files": [
         "BOSS.md"
       ],
