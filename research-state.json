@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "Saved VL3X4harmonyvoices,mixed guidance modes,NaturalPlay source-list qualifications andglobal/presetkeyscope. Continue freshhardware discovery orremaining primary gaps;114 Markdown compatibility paths retained.",
+    "task": "Saved complete VL3X11vocal/9guitar namedblock inventories;style totals andsimultaneouslimits remain open. Continue fresh exacthardware discovery orprimary gaps;114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58382,6 +58382,37 @@
       "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
       "revision": "2015-10-20 firmware2.1.00 build346",
       "pages": "48–49,96–97,174–176"
+    },
+    {
+      "model": "TC-Helicon VoiceLive 3 Extreme",
+      "checked": "2026-10-18",
+      "finding": "Complete11vocal/9guitar block names reconciled with own reference chapters;Buttonmap excluded;Tone andAmp subparameters notdoublecounted;stylecounts/simultaneouslimits remainopen.",
+      "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+      "revision": "2015-10-20 firmware2.1.00 build346",
+      "vocal_blocks": [
+        "Harmony",
+        "Double",
+        "Delay",
+        "Reverb",
+        "HardTune",
+        "Synth",
+        "Transducer",
+        "µMod",
+        "Choir",
+        "Rhythmic",
+        "Stutter"
+      ],
+      "guitar_blocks": [
+        "Amp",
+        "Drive",
+        "Delay",
+        "Reverb",
+        "Compression",
+        "Wah",
+        "µMod",
+        "Octaver",
+        "Rhythmic"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

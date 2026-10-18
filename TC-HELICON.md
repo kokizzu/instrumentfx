@@ -425,6 +425,17 @@ Checked2026-10-18;manufacturer-authored2015-10-20 reference,firmware2.1.00 build
 | I/O / NaturalPlay guidance sources | Introductionp48 names guitar,MIDI keyboard,AUX andMonitor In for Harmony/HardTune guidance. Systemp175 listsAuto,Guitar,MIDI,AUX,RoomSense;Auto text also namesUSB. RoomSense may blend with other guidance andcan work alone with sufficient chord information;AUX typeLive/Tracks improves detection(p176). These differing lists do not establish a complete automatic priority order or USB-audio chord-detection route. | [Reference pp48,175–176][VL3X-M] |
 | Memory / key-scale scope | Global Key/Scale applies one setting acrosspresets;turning itoff permits different stored preset keys/scales. This is musical guidance scope,not extra preset storage. | [Reference pp49,174][VL3X-M] |
 
+
+### VoiceLive 3 Extreme — complete layer block names
+
+Checked2026-10-18 against manufacturer-authored reference2015-10-20,firmware2.1.00 build346;contents and corresponding effect chapters.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / vocal block inventory | **11 named blocks**: Harmony,Double,Delay,Reverb,HardTune,Synth,Transducer,µMod,Choir,Rhythmic,Stutter. Buttonmap is configuration,not a twelfth audio effect. Global Tone’s EQ/compression/gate/de-esser remain separately documented andare not additional members of this11-block list. | [Reference pp94–111][VL3X-M] |
+| Processing / guitar block inventory | **9 named blocks**: Amp,Drive,Delay,Reverb,Compression,Wah,µMod,Octaver,Rhythmic. Guitar Buttonmap is configuration,not a tenth audio effect. Amp’s EQ/speaker controls are internal parameters,not additional freely assignable blocks. | [Reference pp113–125][VL3X-M] |
+| Category choices / count boundary | These lists reconcile the manual’s11vocal/9guitar block counts,not total Style choices or proof that all20 run simultaneously. Shared names refer to their respective layers;sub-algorithm/style counts andsimultaneous limits remain open. | [Reference contents,pp55–56,194–195][VL3X-M] |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware lead
