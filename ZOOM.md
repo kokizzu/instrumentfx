@@ -2192,6 +2192,12 @@ Checked **2026-10-17**. Original discontinued bass multi-effects,distinct from M
 
 Reconcile original58-effect marketing withV2effectsheet;verifycomplete synth inventory,complete I/O/expression exclusions,screen specifications,USB supply/audio/MIDI,editor availability,memory overwrite,looper/drums andqualified current used/new offers. Do not borrow MS-60B+ specifications.
 
+### MS-60B — direct expression-path screening
+
+Checked 2026-10-19 against [own manufacturer manual, pp4–5,11,31](https://zoomcorp.com/media/documents/MS-60B_operationManual_English.pdf), ©2013. Complete connector inventory identifies INPUT, two line OUTPUT jacks, USB and DC; **no analog EXP/CONTROL or dedicated headphone socket**. This resolves earlier connector uncertainty for the original model; MS-60B+ features are not transferred.
+
+Normal bass input requires no divided pickup; guitar voicing remains unclassified. Existing77.5W×130.3Dmm fits preferred chassis, excluding plugs. Direct analog volume fails; its position/range and bypass/headphone/tail/loop attenuation are not applicable. Footswitch recall cycles a configured patch list, not separate preset-down/up. Headphone driving through line outputs and USB controller workarounds remain unverified. All older sources, IDR observations and technical qualifications remain preserved. No downloads or hardware operation.
+
 ## A1X FOUR
 
 Reviewed **2026-10-17**. Separate acoustic multi-effects model with built-in expression,not A1 FOUR. Shared bass classification follows the manufacturer's explicit acoustic-bass scope;no ownership assertion. Partial research from official HTML and search-indexed manual text;no manual,software,firmware or dependency downloaded.
