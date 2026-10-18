@@ -76,6 +76,16 @@ A freshShopee exactmodel search repeats theexisting Melodia item andRp5,376,800 
 | Live / clip-warning response | Reverb control flashes red for overload. Occasional peak flashes are expected; **continuous illumination calls for reducing the relevant Plexi/Cali, Boost or Blonde level**. The warning is shared signal-overload feedback, not a reverb-only fault indication or measured headroom specification. [Own manual pp3–4][FR-M] |
 | Effects / delay feedback | REPEATS minimum produces **one repeat**; increasing it approaches indefinite repeats. Upstream amplifier compression can make repeats more prominent, so equivalent settings need not behave identically before an amp versus in its loop. This is feedback behavior, not another delay algorithm or documented phrase-loop memory. [Own manual pp7–8][FR-M] |
 
+### Fly Rig 5 v2 — tuner indicators and regional supply bundle
+
+Checked2026-10-18 against the exact [OM3 manufacturer manual,rev12/20][FR-M],printed pp3,9–10. Documentation only;no device,software orhardware modification.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Display / tuner indications | **Up red arrow means flat;down red arrow means sharp**. Flashing accelerates near the target;the red arrow extinguishes andgreen illuminates when in tune. This establishes indicator behavior,not display resolution,screen diagonal orpublished tuning range. |
+| I/O / nominal input wording | Manufacturer describes normal instrument input as approximately **−10dBm /250mV**,with1MΩ loading andtube-amp-like sensitivity. Preserve its printed units;this is not a measured maximum input orreference-load reconciliation. |
+| Power / factory prong assemblies | Manual states the DC9 supply has **US prongs installed**,with **European,UK andAustralia/New Zealand** interchangeable assemblies included. This describes the manufacturer bundle,not confirmation that the cached Indonesian seller includes those parts. Existing9VDC/200mAminimum supply andapprox150mAmaximum consumption remain distinct. |
+
 ## Bass Fly Rig v2
 
 Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.

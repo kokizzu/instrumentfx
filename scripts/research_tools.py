@@ -581,7 +581,7 @@ def main():
         if mode == 'commit-blackhammer':
             message = 'research(sonicake): qualify B Factory manuals and reject bypass contradiction'
         if mode == 'commit-flyrig5v2':
-            message = 'research(tech21): clarify Bass Fly Rig v2 tuner indicators and adapter bundle'
+            message = 'research(tech21): qualify Fly Rig 5 v2 tuner input and adapter bundle'
         if mode == 'commit-dapper-dark':
             message = 'research(valeton): qualify Dapper Dark indexed controls and loop routing'
         if mode == 'commit-dapper-acoustic-mini':

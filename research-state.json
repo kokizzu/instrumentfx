@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "EROK Pocket Sonic",
-    "task": "Saved Pocket Sonic regulatory family declaration and engineering-sample boundary. Recover original Pocket Sonic manual/panel;do not infer PocketAmp firmware/editor compatibility or cross-flash. Retail power/current/battery,controls,memory,imports andqualified prices still unresolved.",
+    "model": "Tech21 Fly Rig 5 v2",
+    "task": "Saved own-manual tuner indicator behavior,nominal-input wording andregionalDC9bundle. PocketSonic editor queries returned onlygeneric pages;no application compatibility inferred. Continue required gaps/discovery;FlyRig physicalfoot/buttoncensus,storage/expression/software andqualifiedIDRremain.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -45910,7 +45910,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume EROK Pocket Sonic."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Tech21 Fly Rig 5 v2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -61009,6 +61009,12 @@
       "checked_date": "2026-10-18",
       "source": "https://device.report/m/27368ee6f8b6b150b2426ccb840f90c7816bdf8895ca48525e94d94e315eda79",
       "finding": "ReportGTSL2025110472F02 includesEROK/PocketSonicfamilydeclaredsamePCB/interior/circuits. ActualtestPOCKETAMPengineeringsampleV08E1/V05,5Vadapter3.7Vbattery;notretailfeature/editor/firmware/powerconnectorproof."
+    },
+    {
+      "model": "Tech21 Fly Rig 5 v2",
+      "checked_date": "2026-10-18",
+      "source": "https://www.tech21nyc.com/t21manuals/FlyRig5_v2_OM3.pdf",
+      "finding": "OwnOM3rev12/20:upflat/downsharpfasterblinkthengreen;nominalinputprintedminus10dBm250mVnotmax;DC9USinstalledplusEU/UK/AUNZmanufacturerbundle,notsellerproof."
     }
   ],
   "discovery_cross_brand_bass": {
