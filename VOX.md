@@ -546,6 +546,13 @@ Checked 2026-10-18 against [own E1 manual pp15–21](https://voxamps.com/wp-cont
 | Routing / AMP compensation scope | AMP settings **VOX/F/M** compensate amp-model output for the connected amplifier. **Compensation does not apply when amp modeling is off or a stand-alone pedal is selected.** LINE is recommended for power-amp inputs, mixers, recorders, headphones and internal speakers; it also enables Total Equalizer. These are output destinations, not extra amp algorithms. [Own E1 manual p9](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
 | I/O / AUX playback level | Stereo-mini AUX accepts an external device’s analog output; **adjust accompaniment volume on that source device**. Rear LEVEL controls OUTPUT/PHONES. The inspected instructions do not establish AUX-to-USB recording or a separate onboard AUX mixer level. [Own manual p8](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
 
+### ToneLab EX — current generic-driver applicability gap
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Software / newer generic driver | [VOX downloads](https://voxamps.com/downloads/),checked2026-10-18,lists **VOX2ch v2.1.0**,Windows10(32/64-bit)/11,with a continuous recording/playback-noise fix and stability changes. It says only certain VOX products apply; **ToneLab EX is not identified in the inspected text**. This does not supersede its model-specific end-of-support rows or verify current EX USB transport/editor support. No installer downloaded or run. |
+| Software / compatibility evidence still needed | Same page labels PC chart **04/27/2026** and Mac chart **12/02/2025**, but readable chart contents/links were not exposed. These dates alone establish neither EX compatibility nor incompatibility. Preserve the older exact-model charts above until the newer model rows can be inspected. |
+
 ## StompLab 1B
 
 <!-- comparison evidence begins -->
