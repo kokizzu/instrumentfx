@@ -928,7 +928,7 @@ Checked 2026-10-18; partial. Exact RP350,not RP355. [Own manufacturer-linked man
 | Field | Finding / qualification |
 |---|---|
 | Expression | Built-in assignable pedal;toe-pressure **V-switch** selects wah versus assigned parameter. External expression unverified. M |
-| Knobs / footswitches / buttons | **6 rotaries /3 feet** (Up,Down,Amp A/B);complete separate-button count pending. M |
+| Knobs / footswitches / buttons | **6 /3 /6**:six rotaries;Up,Down,Amp A/B feet;two Edit,Drums,Store front buttons,two rear Amp/Mixer buttons. Toe switch additional. M |
 | Display | Preset/parameter display plus LED matrix;diagonal,color,touch unverified. M |
 | Processing / choices | **11 simultaneous effects**;AudioDNA2. Category census and full routing audit pending. P/M |
 | Memory | **70 user+70 factory=140**;initial user fill unverified. P/M |
@@ -941,6 +941,19 @@ Checked 2026-10-18; partial. Exact RP350,not RP355. [Own manufacturer-linked man
 | Looper / drums / scenes | **60 drum patterns+5 metronome settings**;Learn-A-Lick **10seconds**,slows to¼ without pitch change. Phrase looper/scenes unverified;no RP355 borrowing. M |
 | Used IDR | Unknown;no exact processor offer found in this search. |
 | New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
+
+
+### RP350 — controls, choices and source discrepancies
+
+[Own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP350_Manual18-0436V-A_original.pdf),printed pp5–8,13–14,18,24–25;checked2026-10-18.
+
+| Field | Qualification |
+|---|---|
+| Processing / category choices | Pickup2,wah3,distortion17. Compressor prose says **two**,but names/tables list **three**. Delay prose says **five**,but names/tables list **seven**. Preserve both discrepancies. |
+| Processing / concurrency | Chorus/FX permits **one selection at a time**,with pre/post placement;not independently stackable modulation/pitch blocks. Full census pending. |
+| I/O / voicing | Independent ¼-inch/XLR Amp/Mixer buttons;headphones follow XLR voicing,use Mixer. XLR stays stereo;¼-inch Left supports mono. |
+| USB / controls | Pickup-row knobs **2/3** control monitoring mix/record level;pp7 and13 agree. **2×2 audio**. |
+| Power / switching | No power switch;adapter connection controls power. |
 
 <!-- comparison evidence ends -->
 

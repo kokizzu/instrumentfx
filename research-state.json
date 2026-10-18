@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP350",
-    "task": "First pass saved. Next audit own control inventory and category choices,then commit before RP55/RP80.",
+    "task": "RP350 controls and category discrepancies saved. Next complete remaining amp/cabinet/ChorusFX census or continue RP55/RP80;retain conflicts.",
     "next_models": [
       "RP55",
       "RP80"
@@ -89390,13 +89390,6 @@
             ]
           },
           {
-            "field": "Knobs / footswitches / buttons",
-            "source": "DIGITECH.md",
-            "signals": [
-              "pending"
-            ]
-          },
-          {
             "field": "Display",
             "source": "DIGITECH.md",
             "signals": [
@@ -89458,6 +89451,13 @@
             "signals": [
               "unknown",
               "unverified"
+            ]
+          },
+          {
+            "field": "Processing / concurrency",
+            "source": "DIGITECH.md",
+            "signals": [
+              "pending"
             ]
           }
         ]
@@ -119147,7 +119147,7 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "e34575516e639eab1a73ac6ce86c639d3404aa1ac9da1e78fb4c5e8e5a50bd6a",
+      "ALL-GUITAR.md": "cb31a27631e899749b0ed0a41cdfd3c6f8ec4feaba9e9fd6bd125be14e3dbdeb",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
@@ -119188,7 +119188,7 @@
       "README.md": "ac9bbd8521cc361905c23d6e127af30ff38469e8def91f6c00ea105e740bf9fe",
       "FRACTAL-AUDIO.md": "c49fc79d860c8cbe36666578a065d2015dd6a789dbe7f7852bf21aba35ce5a4c",
       "DEMONFX.md": "a477869186303c3c896d438dde6bb211e03920e6a51da4de617f5442de06e0ee",
-      "DIGITECH.md": "6aee0a2c9979be35f5054da7b65470b5ef9f76c36e2fd5974fee11ba50328064",
+      "DIGITECH.md": "ed7503efde6b4b3a4e0b06782d7cbb164bb569f5ded295a0df71eda635368156",
       "SONICAKE.md": "62950fa34680adc5b5d06dfa1ba48ab212ecb69192764372d0a280dafa77c069",
       "AMMOON.md": "b5effe57a7b3389dc05c4c2efec738c1b027590868a74e88e7dfea36686d5524",
       "NEURAL-DSP.md": "8d43ed1212434c42e554a0a3a1f32e119735387adff2eca737ec9d63f29a8479",
