@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceTone Create XT",
-    "task": "Saved CreateXT audio sensitivity/output limits,converter format,conditional noise ratings and1.5lb/0.72kg printed-mass discrepancy. Supply voltage/current/polarity stillunverified after targeted primary search;exactShopeeoffer absent. Next freshbrand/seriesdiscovery ormanufacturer supply evidence.",
+    "task": "Resolved CreateXT named supply: own service sheet960899002 PowerPlug12V;exactpart indexedmanufacturer cross-check1A capacity,notdraw. Polarity/plug/deviceconsumption remainunknown. Next freshShopeediscovery orcurrent VoiceSupport/screen evidence;do not repeat audio/blockaudit.",
     "next_models": [],
     "after_queue": "373active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81381,5 +81381,12 @@
       "site:shopee.co.id \"Voicetone Create\""
     ],
     "finding": "No primary supply ratings or qualified hardware offer returned. Own-manual audio specifications and printed mass discrepancy saved; no sibling substitution."
+  },
+  "create_xt_power_followup_20261018": {
+    "sources": [
+      "https://service-tcgroup.tcelectronic.com/files/tech_service/voice_tone/voicetonecreate_xt/spareparts_voicetonecreate_xt.pdf",
+      "https://service-tcgroup.tcelectronic.com/files/tech_service/voicelive3/spareparts_voicelive3.pdf"
+    ],
+    "finding": "Own-model service sheet confirms PowerPlug12V part960899002. Exactpart indexed manufacturer sheet labels12V/1A LevelVI;direct secondsource502. No device draw,polarity orthirdpartycompatibility certified."
   }
 }

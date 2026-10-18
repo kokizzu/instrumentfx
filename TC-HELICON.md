@@ -1200,7 +1200,7 @@ Vocal multi-effects; partial, checked2026-10-18. Distinct from original Create. 
 | Synth / acoustic | HardTune documented;dedicatedsynth/acoustic simulation unverified. |
 | Dimensions / mass | **130×132×41mm;0.72kg**,axes unspecified. Manual also prints1.5lb;not an exact conversion,so retain both published values. |
 | I/O | BalancedXLRmic input;twoXLRoutputs;PEDAL,USB,power.48Vphantom. Monomode rightoutput isdry,butTone remains. |
-| Power | SuppliedDCadapter;voltage/current/polarity,battery/USBpower unverified. |
+| Power | Supplied DC adapter; manufacturer service sheet names **PowerPlug12V,part960899002**. Same-part1A capacity cross-check below; device draw,polarity,battery/USB power unverified. |
 | Editor / platforms | VoiceSupport Windows/Mac backup,restore,updates;fullparametereditor/currentOS andUSBaudio unverified. |
 | IR / NAM / capture | Unverified. |
 | Practical features | Tapdelay;Switch3 togglesFX,µMod,Delay. Looper/drums/scenes unverified. |
@@ -1212,6 +1212,7 @@ Vocal multi-effects; partial, checked2026-10-18. Distinct from original Create. 
 | Audio / electrical specifications | Mic input **1kΩ**,sensitivity **−44 to+2dBu at0dBFS**,or **−56 to−10dBu with12dB headroom**. Balanced XLR outputs **40Ω,+2dBu at0dBFS**. Input sensitivity ranges are gain-dependent,not two extra inputs. |
 | Conversion / internal format | **48kHz;AKM AK4620B;24-bit A/D and D/A,128× oversampling bitstream**. Converter format does not establish USB audio or host recording resolution. |
 | Audio noise specifications | Published mic dynamic range **>108dB**,minimum gain,20Hz–20kHz,A-weighted; **>104dB** at−18dBu sensitivity,20Hz–20kHz. EIN **−128dBu**,maximum gain,150Ω source. THD+noise **<−90dB**,minimum gain. Conditions differ;not independently measured. |
+| Power / exact service-part identity | [Own-model manufacturer service sheet](https://service-tcgroup.tcelectronic.com/files/tech_service/voice_tone/voicetonecreate_xt/spareparts_voicetonecreate_xt.pdf), dated **02-03-2017** as printed, lists **960899002,PowerPlug12V**. [Manufacturer VoiceLive3 parts index](https://service-tcgroup.tcelectronic.com/files/tech_service/voicelive3/spareparts_voicelive3.pdf) identifies the identical part as **PowerPlug12V/1A LevelVI**. The latter was available as indexed text; direct fetch returned502. This is an adapter-part cross-check,not borrowed VoiceLive3 device consumption. **1A is supply capacity**,not measured CreateXT draw. DC polarity,plug dimensions and actual regional/replacement label remain unverified;retailer-only polarity/current claims were not adopted. |
 
 <!-- comparison evidence ends -->
 
