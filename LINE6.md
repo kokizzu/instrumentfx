@@ -1448,6 +1448,12 @@ Checked **2026-10-17**; partial. Manufacturer styles the name PODxt Live. Guitar
 | Category choices / chart census | Counting distinct rows in RevC’s opening chart gives **31 Stomp,24 Mod,14 Delay,15 Reverb,8 Wah = 92 category choices** across Standard/Power Pack/FX Junkie. Count the duplicated Delay/Delays lists once. Dedicated compressor,gate,EQ andvolume are outside this chart subtotal; amps/cabs/mics are also excluded. FX Junkie inclusion in Live is corroborated by the manufacturer FAQ. This is a derived chart count, not simultaneous capacity or confirmation of installed seller firmware. [Manual v3][XTL-M], opening model chart; [Pack FAQ][XTL-FX] |
 | Category choices / advertised-total qualification | Manufacturer product page advertises95effects and separately lists compressor,gate,post-EQ andvolume. Its modulation names do not explicitly include the RevC chart’s Analog Square. Thus chart subtotal plus all four dedicated functions gives96, not95; no manufacturer counting rule or firmware chronology was established. Preserve the product claim and chart census separately. [Product][XTL-P]; [Manual v3][XTL-M] |
 
+
+| Required field | USB routing evidence checked 2026-10-18 |
+|---|---|
+| I/O / USB recording and re-amping | Historical PODxt Family driver supplies four routing modes: processed instrument to computer with processed/computer monitoring; dry instrument recording with processed/computer monitoring; dry recording while instrument and computer playback both enter processing; or computer playback through processing back to computer and outputs. These are selectable modes, not four concurrent USB recording channels. Manual does not establish wet+dry simultaneous multitrack capture here. [Manual v3][XTL-M], pp3•9–12 |
+| I/O / re-amp restrictions | Manual describes re-amping input as **mono**, even with stereo outputs; stereo playback assigned for re-amping loses its stereo imaging. Re-recorded tracks may require DAW latency compensation/alignment. Driver-dependent historical capability does not prove current OS compatibility or USB sample rate/channel count. [Manual v3][XTL-M], pp3•12–13 |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee hardware evidence
