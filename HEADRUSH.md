@@ -248,6 +248,14 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 [Original shared source](research-state.json)<!-- historical-link:headrush-001 -->,retained pending complete navigation/provenance audits.
 
+### Core — expression-volume audit, 2026-10-19
+
+**Per-rig documented assignment;5.2 override unverified.** Indexed [official5.0 guide](https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Core%20-%20User%20Guide%20-%20v5.0.0.pdf), sections4.6/4.5.4, says Hardware Assign belongs to the rig. **Hybrid FS1 previous/FS5 next** is explicit. [Current5.2 guide](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Core%20-%20User%20Guide%20-%20v5.2.0.pdf) failed web retrieval at12.47MB;not read ordownloaded locally. No5.2 across-rig guarantee inferred.
+
+[Manufacturer volume/wah instructions](https://support.headrushfx.com/en/support/solutions/articles/69000856609-headrush-switching-between-volume-and-wah) explicitly includeCore: insert blocks,assignClassicA/B,save. Selectingwah deactivatesvolume. [Own4.0 global EXP chapter](https://cdn.inmusicbrands.com/HeadRush/FW/4/Finalized%20User%20Guides/HeadRush%20Core%20-%20User%20Guide%20-%20v4.0.0.pdf),indexedsection4.20.7,configures toe type/polarity,not globalvolume target. Placement,min/max,held-position recall,bypass,headphone,tail/recorded-loop coverage remain unverified.
+
+[Exact Core product](https://www.headrushfx.com/products/core/) rechecked:408.4×234.6mm exceeds preference;TRS EXP,separateTS TOE,3.5mm phones. [ROCKPIZZ shop440477624/item44463652142](https://shopee.co.id/HEADRUSH-CORE-GUITAR-MULTI-EFFECT-AMP-MODELER-VOCAL-PROCESSOR-i.440477624.44463652142) rechecked2026-10-19:cached **Rp15.120.000**,17–20October delivery text. Condition,bundle,adapter,warranty,shipping,currentcheckoutstock andused offer unresolved. Voucher compensation not deducted. No hardware test ordependency/software download.
+
 ## Flex Prime
 
 <!-- comparison evidence begins -->
