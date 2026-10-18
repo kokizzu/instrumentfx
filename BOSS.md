@@ -2438,6 +2438,12 @@ OfficialVE-5_OM.pdf returnedsize-limit12638205bytes;indexedmanufacturertext pp9,
 [VE5-PDF]: https://static.roland.com/assets/media/pdf/VE-5_OM.pdf
 [VE5-COPY]: https://www.scribd.com/document/467271239/VE-5-OM
 
+### VE-5 — additional PnA Music Store offer, 2026-10-18
+
+| Condition / price class | Asking amount | Exact evidence and limits |
+|---|---:|---|
+| Condition-unverified historical hardware ask | Rp5.600.000 | [PnA Music Store,shop160105847/item8320929536](https://shopee.co.id/Effects-BOSS-VE-5-Vocal-Performer-i.160105847.8320929536),Kota Jakarta Timur. Search-indexed three months ago;direct reader returned **Cache miss**. Exact title identifies VE-5,not VE-500. New/used condition,working state,selected color/revision,adapter/bundle,warranty/import region,authenticity,stock,shipping/tax/voucher anddelivered total unverified. Relative today-delivery text does not prove availability;up-toRp10.000 late-arrival compensation isnot a hardware discount. Historical ask,not completed sale oravailable retail range. |
+
 ## Pocket GT
 
 Handheld guitar multi-effects;distinctfromLine6PocketPOD/BOSSGT1. Checked2026-10-17;partial. Ownership/vocalsuitability unknown. BasscapabilityexplicitinownParameterGuidepresets71–90.

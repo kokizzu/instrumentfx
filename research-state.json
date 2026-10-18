@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic NOVA System",
-    "task": "Saved primaryindexed NOVAfirmware1.2 fixes:dumprestore,MIDIclock,MasterPedalrecall;tapdisabled underclock andSysExIDignored forSystemDump. Next freshmarket discovery orstrongerphysical/concurrency evidence;noinstallerdownload. Do not equate manualrev1.2 withfirmware1.2 orclaimolderrestore works.",
+    "model": "BOSS VE-5",
+    "task": "Saved newPnAVE5seller/item8320929536 historical5600000ask,indexonly/directcachemiss,conditionunknown. Next freshbrand/series discovery orverifyrequiredtechnicalgap. Do notinterpret bekas query asusedcondition;VoiceLivePlay sixhits alreadyrecorded.",
     "next_models": [],
     "after_queue": "366active/46brands;307guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -46003,7 +46003,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic NOVA System."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS VE-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -80997,5 +80997,28 @@
       "site:shopee.co.id NovaSystem"
     ],
     "result": "No indexed exacthardware offer;not proof ofunavailability."
+  },
+  "ve5_pna_offer_20261018": {
+    "model": "BOSS VE-5",
+    "seller": "PnA Music Store",
+    "seller_id": "160105847",
+    "item_id": "8320929536",
+    "region": "Kota Jakarta Timur",
+    "ask_idr": 5600000,
+    "condition": "unverified",
+    "stock": "unverified",
+    "access": "Three-month searchindex;directcachemiss",
+    "date": "2026-10-18",
+    "url": "https://shopee.co.id/Effects-BOSS-VE-5-Vocal-Performer-i.160105847.8320929536",
+    "not_new_or_used_price": true
+  },
+  "discovery_vocal_bass_frontier_20261018": {
+    "queries": [
+      "site:shopee.co.id DigiTech BP50",
+      "site:shopee.co.id Zoom 506",
+      "site:shopee.co.id VoiceLive Play bekas",
+      "site:shopee.co.id Boss VE-5 bekas"
+    ],
+    "result": "No exact BP50/506hardware. VoiceLivePlay sixitemhits alreadyrecorded;VE5PnA8320929536 newqualifiedidentity butconditionunknown. Searchterm bekas doesnot establish usedcondition."
   }
 }
