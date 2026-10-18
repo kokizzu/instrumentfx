@@ -2170,6 +2170,23 @@ Checked 2026-10-19;partial. Distinct from GE200 original,GE200 Pro andGE200 Plus
 
 No dependencies,firmware,software orfiles downloaded orrun.
 
+### GE200 Plus — exact manual corrections
+
+Checked 2026-10-19. [MOOER-authored family manual, Warwick-origin reproduction](https://device.report/m/0f55d0035aa3b836aedc07bc6662d8d67aa911fb928054d16bb80ceb7706ec81) explicitly titles both Plus and Plus Li; model-specific values below are standard Plus. Text inspection; revision date unverified. Supersedes initial unknowns.
+
+| Field | Manual evidence / qualification |
+|---|---|
+| Expression | Built-in EXP1/toe; external EXP2 TRS10–100kΩ. |
+| Controls / display | Two knobs,three A/B/C footswitches; seven function buttons plus module buttons,total unverified. 3.5-inch color LCD;touch unknown. |
+| Dimensions / mass | 324 L×162 W×58 H mm;standard1.42kg. |
+| Power | Standard9VDC1A,center-negative;supply capacity,not measured draw. USB power unknown;Li battery not transferred. |
+| I/O / USB | Mono quarter-inch input;dual unbalanced quarter-inch outs,dual balancedXLR,3.5mm stereo phones,EXP2,USB-C. USB2.0 audio2-in/2-out,44.1kHz24-bit. |
+| Memory | 85×3 writable destinations=255;factory fill unknown. Unsaved changes lost on preset change. |
+| IR / processing | WAV44.1kHz24-bit≤2048points. FX/COMP35,DS/OD28,AMP100(46+28preamps,26complete),CAB77(23+54),NS3,EQ6,MOD38,DELAY11,REVERB9. Counts overlap;simultaneous ceiling unknown. |
+| Live / software | Cross-preset trails require matching chains/delay/reverb models;module Trail controls within-preset tails. Windows ASIO required for low-latency audio;Mac driverless;Normal/Re-Amp,dry/wet routing. |
+
+Printed pp.2–4,12,27–28,40–54. [Exact Japan standard page](https://mooer.jp/products/mooer-ge200plus) instead lists297×146×58mm,1.4kg;unresolved against manual dimensions/mass. Japan explicitly reserves battery operation forLi. Regional CAB SIM THRU wording includesPOWER AMP aswellasCAB,whereEnglishmanualdescribesCAB;scopeconflictretained. Remainingfactoryfill,fullbuttoncount,USBpower,currentlibrary,priceandconverterarchitecturelimitsarenotresolved.
+
 ## GE200 Plus Li
 
 Checked 2026-10-19; partial. Separate battery variant; bass/vocal suitability and ownership unverified. [Manufacturer family page explicitly covering both versions](https://www.mooeraudio.com/products/232.html).

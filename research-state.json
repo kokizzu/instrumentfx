@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER GE200 Plus",
-    "task": "Apply exact family-manual evidence to standard Plus separately, including its own1A supply/1.42kg mass and published regional conflicts where applicable. Li remaining gaps deferred pending stronger evidence. Then fresh Shopee discovery.390 partial;migration incomplete.",
-    "next_models": [
-      "MOOER::GE200 Plus"
-    ],
-    "after_queue": "390 active47brands;no downloads/workflows/push."
+    "model": "Fresh Shopee Indonesia discovery",
+    "task": "Standard Plus and Li manual passes saved;retain unresolved gaps. Search Shopee by brand/series for eligible exact unrecorded hardware;compare inventory before adding,then primary verification and per-model commit.390partial;migration incomplete.",
+    "next_models": [],
+    "after_queue": "Fresh Shopee discovery;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46341,7 +46339,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE200 Plus."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -121168,5 +121166,18 @@
       "site:cn.mooeraudio.com \"GE200 Plus Li\" \"NAM\""
     ],
     "search_result": "No indexed matches for exact queries; not proof of absence."
+  },
+  "ge200plus_manual_20261019": {
+    "source": "https://device.report/m/0f55d0035aa3b836aedc07bc6662d8d67aa911fb928054d16bb80ceb7706ec81",
+    "regional": "https://mooer.jp/products/mooer-ge200plus",
+    "qualification": "Explicit standard Plus values:9V1A center-negative,1.42kg. Regional dimensions/mass conflict retained. Shared family manual evidence, not sibling inference.",
+    "remaining": [
+      "full button count",
+      "factory fill",
+      "USB power",
+      "installed library",
+      "qualified IDR",
+      "NAM converter architecture limits"
+    ]
   }
 }
