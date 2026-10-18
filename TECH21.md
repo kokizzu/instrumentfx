@@ -209,6 +209,14 @@ Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own p
 | Live / overload indication | Own manual p2: E. Level flashes red for overload. Occasional peaks are expected; if continuously lit with effects off, reduce instrument level; otherwise trim active Comp, Boost or SansAmp level. No measured headroom value established. |
 | IDR price | No exact Shopee hardware offer resolved by acoustic/Fly Rig searches on 2026-10-18. Used/new amount, seller/item, condition, stock, region, bundle, warranty and vouchers unknown. Search failure is not market absence. |
 
+### Acoustic Fly Rig — effect design and input interaction,2026-10-18
+
+| Field | Exact-model manual qualification |
+|---|---|
+| Effects / chorus architecture | The [own©2017manual,printedpp5–6](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf) describes chorus as a detuned-voice pitch-shift effect,without separate speed/depth controls. It remains the DLA/CH alternative,not an additional simultaneous pitch block or dedicated synthesizer. |
+| Processing / compression and EQ limits | [Ownmanual,printedpp7–8](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf):hot instrumentoutput can produce strong compression evenatlow COMP settings;highercompression can promote feedback. HighMID boost can contribute distortion. These are level-dependent operating limits,not fixed headroom measurements or extra algorithms. |
+| I/O / analog computer connection | [Ownmanual,printedpp1–2](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf) describes direct sound-card recording via low-impedance analog output. That application doesnot establish onboardUSB audio orcomputer editor. Numericoutputimpedance stillunverified. |
+
 <!-- comparison evidence ends -->
 
 [Own manual,©2017](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf), text read; no device/software operation or file download. Product low-pass endpoint **16kHz** differs from manual **20kHz**; both extend down to 1.5kHz. Revision reason unresolved. Physical controls, full ports, memory and software require further verification.
