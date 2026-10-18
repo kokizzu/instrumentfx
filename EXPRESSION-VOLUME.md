@@ -7,10 +7,13 @@ Required path: normal guitar pickups → processor, with a direct analog externa
 | Exact model | Ordinary guitar / direct analog EXP | Chassis W × D; preferred fit | Volume across every preset without preset edits | Position / range | Bypass / headphones / tails / looper coverage | Headphone socket | Onboard preset down / up |
 |---|---|---|---|---|---|---|---|
 | [Hotone Ampero Mini MP-50](HOTONE.md#ampero-mini-mp-50) | Yes / TRS EXP; shares socket with switches | 134 ×120 mm; yes, existing manufacturer evidence | **Not established.** V2.2 control settings change with patches; no global volume-target override located | Pre/Post; fixed volume endpoints, independent of four target ranges | All four unresolved; do not substitute rear master-knob behavior | Yes, 3.5 mm stereo | Yes / yes, FS1 / FS2 |
+| [Neural DSP Nano Cortex](NEURAL-DSP.md#nano-cortex) | Yes / TRS EXP, shared with MIDI | 144 ×103 mm; yes, existing manufacturer evidence | **Unknown; official target lists conflict**, no across-preset guarantee | LEVEL in manual; 0–100% range adjustable/reversible; signal position unverified | All four unresolved; separate HP knob does not prove EXP coverage | Yes, 3.5 mm | Assigned A/B pairs; general down/up not established |
 
 ## Evidence and qualification
 
 Ampero Mini: [manufacturer firmware V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp4–5,13–20, inspected 2026-10-19. Full older source/price qualifications remain in HOTONE.md. “Not established” is not proof that every factory preset requires editing; factory defaults and a global exception remain unverified. Global EXP socket mode is distinct from assigning volume. V1.0's post-volume wording remains historical; V2.2 allows Pre/Post.
+
+Nano Cortex: [manual 2.2.0](https://neuraldsp.com/manual/nano-cortex) includes LEVEL; [official setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) omits it. Neither proves global assignment scope. Checked 2026-10-19; no hardware test.
 
 ## Remaining inventory and priorities
 

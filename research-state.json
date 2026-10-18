@@ -121648,10 +121648,9 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Hotone Ampero Mini MP-50",
-    "finding": "V2.2 control settings are patch-dependent; no global target override established. Detailed limits in brand/category.",
+    "current": "Neural DSP Nano Cortex",
+    "finding": "Mini patch-scoped controls; Nano official LEVEL target conflict and global scope unresolved. Neither qualified for every-preset requirement.",
     "next": [
-      "Neural DSP Nano Cortex",
       "Valeton GP-50",
       "Line 6 HX exact models",
       "BOSS GT-1000CORE",

@@ -2039,3 +2039,7 @@ research-commit-mooer:
 .PHONY: research-commit-hotone
 research-commit-hotone:
 	python3 scripts/hotone_catalogue.py commit
+
+.PHONY: expression-audit-commit-neural
+expression-audit-commit-neural:
+	python3 scripts/expression_audit_neural.py commit

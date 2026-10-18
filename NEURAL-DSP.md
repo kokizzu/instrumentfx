@@ -69,6 +69,12 @@ The [complete original comparison](MULTI-EFFECTS.md)<!-- historical-link:neural-
 
 External toe-switch behavior, precise live-vocal/capture-mic limitations, internal battery, published graphical-screen attributes, native/converted NAM, synth/acoustic algorithms and looper/drum/scene support remain open. Source absence is not proof of absence. Price condition, regional warranty, accessories, discounts and current availability require direct seller/checkout confirmation. All model records remain partial.
 
+### Nano Cortex — global expression-volume audit, 2026-10-19
+
+[Manual 2.2.0](https://neuraldsp.com/manual/nano-cortex) lists LEVEL as an expression target, 0–100% adjustable/reversible range, persistent calibration and a shared TRS EXP/MIDI socket. **Across-preset assignment scope is not established.** LEVEL controls main outputs; headphones have a separate knob. Onboard switches recall assigned A/B pairs, not documented general previous/next browsing. Expression attenuation during bypass, headphones, tails or looper use remains unknown.
+
+[Official setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) lists GAIN/BASS/MID/TREBLE/AMOUNT but omits LEVEL. Preserve this documentation conflict; do not substitute Capture Volume or calibration for global output assignment. See [audit comparison](EXPRESSION-VOLUME.md). Existing dimensions, offers and revision qualifications remain above; no download or hardware test.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
