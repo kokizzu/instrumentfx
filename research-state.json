@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh bass discovery / required specification gaps",
-    "task": "AX3000B expression endpoint persistence, assignment-clearing exceptions and CONTROL alternatives saved. Next resolve remaining required power/visual/editor gaps with exact primary evidence or search new eligible Shopee series; do not repeat the saved accessory-only queries without new leads.",
+    "task": "AX3000B extra-preset file distinguished from editors/firmware/memory. Editor OS, current/polarity/barrel and visual census remain unknown after source audit. Next pursue new exact Shopee series or another required-field gap; do not guess regional Korg numeric IDs or promote secondary legacy OS claims.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78680,5 +78680,25 @@
       "site:shopee.co.id Korg AX3000B"
     ],
     "result": "No new exact eligible hardware offer established. RP350/RP355/RP300 hit seller855783279/item22273291654 is a Rp170000 power supply, excluded; G2Nu hits were adapters. Unrelated 506 search hits rejected. This is not proof of market absence."
+  },
+  "ax3000b_editor_source_audit_20261018": {
+    "status": "partial",
+    "source": "https://www.korg.com/us/support/download/software/1/27/1392/",
+    "finding": "Exact Extra Preset Program 1.0, 2015-06-01, Mac/Win, listed XBP and AX3000B_ExtraPreset.axbp. Preset data distinguished from editor/firmware/onboard capacity and IR/NAM.",
+    "files_downloaded": false,
+    "unresolved": [
+      "Minimum/current editor OS",
+      "Power current/polarity/barrel",
+      "Preset package content/count/import procedure"
+    ],
+    "rejected_inference": {
+      "source": "https://www.effectsdatabase.com/model/korg/multi/toneworks/ax/3000/b",
+      "reason": "Secondary historical Windows98/Me/2000/XP/Vista and MacOSX10.2/Rosetta text not promoted without exact primary corroboration; original linked korg.com/product.aspx?pd=242 cache miss"
+    },
+    "locale_warning": "Changing US /product/1/27/ to JP resolves C-710, not AX3000B. Regional numeric product IDs are not interchangeable.",
+    "failed_primary_paths": [
+      "https://www.korg.com/jp/support/download/software/1/27/1390/",
+      "https://www.korg.com/jp/support/download/software/1/27/1391/"
+    ]
   }
 }
