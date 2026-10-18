@@ -607,8 +607,8 @@ Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [K
 | K/F/B | Exact rotary/footswitch/button counts unknown. |
 | Display | Diagonal, resolution, technology, color and touch unknown. |
 | Dimensions / weight | 500×241×72mm W×D×H pedal lowered;100mm raised;3.6kg. |
-| Processing / choices | 72 advertised variations; seven simultaneous including NR, plus external insert. PRE11,drive/amp16,MOD11,DLY11,RVB11. Spec p57 says amp11/cabinet16; chapter p23 says16drive/amp and11cabinets. Counts unresolved; no reconciled total invented. |
-| Factory / user memory | Intro:96 user and32 presets; spec:96 programs(24×4). Preset overlap, initial user fill and total distinct memory unresolved. |
+| Processing / choices | 72 advertised variations; seven simultaneous including NR, plus external insert. PRE11,drive/amp16,MOD11,DLY11,RVB11. Spec p57 says amp11/cabinet16; chapter p23 says16drive/amp and11cabinets. Named lists pp23–26 support **six drives +ten amps =16**, and **11 cabinets**; with four11-choice effect groups andNR1, total72. Preserve p57 figures as contradictory; use named-list counts. [E1 pp23–26,57][AX3B-M] |
+| Factory / user memory | **96 writable slots (24×4)**. Printed p15 resolves intro ambiguity: banks1–8 contain32 factory sounds, repeated in9–16 and17–24. Thus96 factory-filled writable slots,32 distinct factory sounds; not128 slots. [E1 p15][AX3B-M] |
 | Synth / acoustic | SYNTH documented; acoustic simulation unverified. |
 | I/O | Mono INPUT; mono SEND/RETURN; stereo mini AUX/PHONES; two mono OUTPUT; optical S/PDIF16-bit44.1kHz; MIDI IN/OUT;DC9V. |
 | Conversion | AD/DA20-bit;44.1kHz. |
@@ -619,6 +619,16 @@ Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [K
 | Used IDR / new IDR | Unknown / unknown. Exact Shopee AX3000B andAX3000 bass searches on2026-10-18 established no item. Not proof of unavailability. Condition,stock,region,bundle,warranty,voucher andcheckout total unknown. |
 
 Technical evidence: [own E1 manual][AX3B-M],printed1,4,10–11,22–23,52,57. No sibling specifications used. Unknown fields remain open.
+
+### AX3000B drive/amp and cabinet count audit
+
+| Category | Named E1 entries |
+|---|---|
+| Drive6 | Tube OD; Fat Dist; Orange Dist; Shred Dist; Fuzz; Octafuzz |
+| Amp10 | Valve; Valve2; Classic; Scooped; LA Studio; Gold Panel; Jazz; Studio; AC100; UK Major |
+| Cabinet11 | Classic8×10; Modern4×10; LA4×10; Metal4×10; UK4×12; Studio1×15; Jazz1×15; AC2×15; UK4×15; LA1×18; Combi |
+
+[E1 named lists pp23–26][AX3B-M]. No firmware correction or manufacturer erratum located; the count reconciliation is a documented audit, not an official correction.
 
 <!-- comparison evidence ends -->
 

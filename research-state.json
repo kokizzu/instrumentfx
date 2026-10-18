@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3000B",
-    "task": "Added bass-specific E1-manual record; exact Shopee offer unknown. Resolve amp/cabinet and memory count conflicts from exact primary documentation; continue controls/expression/power/software gaps.",
+    "task": "Resolved AX3000B memory to96 writable factory-filled slots/32distinct sounds repeated3times. Named lists6drive+10amp/11cab reconcile72;contradictoryp57 retained. Next inspect own controls/expression, power/software orfreshShopee discovery.",
     "next_models": [],
     "after_queue": "344 partial unique models;114 Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58609,6 +58609,20 @@
         "Display"
       ],
       "discovery": "Shopee RK5v2/B9.1ut/AX3000B/AX3000bass searches noexactoffer;not unavailability"
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B",
+      "pages": "15,23–26,57",
+      "finding": "Memory96writable,32soundsrepeated3times;named6drive10amp11cab+PRE/MOD/DLY/RVB11each+NR1=72. Contradictoryspec11amp16cab preserved; no officialerratumclaimed.",
+      "remaining": [
+        "Controls andexpression mechanism",
+        "Display",
+        "Powerpolarity/current",
+        "EditorOS",
+        "QualifiedIDR"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
