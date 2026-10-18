@@ -2059,3 +2059,9 @@ expression-audit-commit-boss:
 .PHONY: expression-audit-commit-mvave
 expression-audit-commit-mvave:
 	python3 scripts/expression_audit_mvave.py commit
+
+.PHONY: research-push-plan research-push-apply
+research-push-plan:
+	python3 scripts/research_push.py plan
+research-push-apply:
+	python3 scripts/research_push.py apply

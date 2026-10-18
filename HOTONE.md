@@ -1010,6 +1010,15 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects; **medium**, no built-in expr
 | Editing | Full **Windows/macOS editor**, firmware/patch/IR management. Android/iOS/Linux full editing not established for MP-300; do not copy Stage's mobile application support [P,M] |
 | USB audio | **8-in/8-out**, reamp supported. Internal effect processing 24-bit/44.1 kHz; exact current host sample-rate options not transcribed in this pass [P] |
 
+
+### Ampero II Stomp — expression-volume audit, 2026-10-19
+
+**Across-preset global volume assignment not established.** The manufacturer-authored [V2.5.0 manual body](https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280), printed pp50,54–55,67–70, places EXP target settings under Patch Settings and says controls change with patches. Target ranges follow parameter limits,can reverse; Line/Exp/Log curves. Global socket mode/calibration is not target assignment. Patch Volume versus a placed VOL effect are distinct targets; universal signal position and bypass/headphone/tail/recorded-loop coverage remain unverified. Patch mode selects three patches within a bank; general onboard sequential down/up remains unverified.
+
+Hotone's [support index](https://www.hotone.com/support/1?pid=43&tid=17) lists V2.5.0. The mirror body identifies that revision, but its About illustration still saysV2.4.0 and an EXP passage mentions two sockets despite this unit having one. Preserve these inconsistencies; no Stage socket transfer. [Direct official V2.3.1 manual](https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Online%20Manual_EN_Firmware%20V2.3.1.1742958961280.pdf) independently documents TRS expression cabling and3.5mm phones. No local manual download or hardware test. Existing185×145mm chassis evidence exceeds preferred depth by5mm.
+
+Exact [Seven Stereo shop16879370/item11690807851](https://shopee.co.id/Hotone-MP300-MP-300-Ampero-II-Stomp-Multi-Effects-Pedal-i.16879370.11690807851) reopened2026-10-19: cached **Rp9.090.000**,13–15September delivery text. This updates the older August-cache/access observation without establishing current stock. Condition,bundle,warranty region,shipping and used offer remain unknown; late-delivery voucher is not deducted.
+
 ### IDR evidence
 
 **Retail indexed ask Rp9.090.000**, [Seven Stereo, Shopee shop16879370/item11690807851](https://shopee.co.id/Hotone-MP300-MP-300-Ampero-II-Stomp-Multi-Effects-Pedal-i.16879370.11690807851). Search evidence contains older August delivery dates; reopening returned a JavaScript shell. This establishes dated listing evidence, not checkout stock, confirmed condition, included accessories or seller authentication. **Used IDR unknown**; no condition-verified used offer obtained.
