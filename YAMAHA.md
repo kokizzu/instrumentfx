@@ -74,6 +74,17 @@ Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 
 Remaining: full routing diagrams and elemental simultaneous maximum, factory mapping conflict, direct expression support, screen/software gaps and qualified live/new offers. The memory chapter confirms capacity but does not resolve the exact initial contents of all 100 user slots.
 
+### SPX990 — input selection and MIDI synchronization, 2026-10-18
+
+[Yamaha-authored own manual](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf) text evidence,printed pp9,53–54; no device/software operation.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| I/O / global input selection | **Stereo** keeps L/R inputs on their respective processing channels. **L Mono** sends L to both and ignores R; **R Mono** sends R to both and ignores L. This is input selection,not summed L+R. The setting is global across programs and survives power-off. |
+| MIDI / tempo sync | **TmpEch1,TmpEch2,TmpEch4** accept external MIDI CLOCK for tempo control with their trigger source set to MIDI. This is documented synchronization of those algorithms,not evidence of a drum machine,clock transmission or universal sync of every modulation effect. |
+| MIDI / intelligent pitch control | **MonoPit,DualPit,TripPit** accept MIDI Note On interval control with Intelli=ON and Trig=MIDI. This controls pitch processing,not a separate oscillator synthesizer or a dedicated editor. |
+
+
 ## SPX2000
 
 Checked 2026-10-17; partial. Guitar amp/distortion and vocal effects documented in own manual; use suitable line-level preamp/mixer routing. Bass applicability remains unclassified. Ownership unestablished.

@@ -465,7 +465,7 @@ def main():
         if mode == 'commit-rfx1100':
             message = 'research(zoom): qualify RFX1000 conversion levels and additional offer'
         if mode == 'commit-spx990':
-            message = 'research(yamaha): qualify SPX1000 Freeze pitch and trigger limits'
+            message = 'research(yamaha): document SPX990 input selection and MIDI synchronization'
         if mode == 'commit-ie550':
             message = 'research(dk): reconcile iE-550 conversion and listed ASIO driver evidence'
         if mode == 'commit-dsp2024p':

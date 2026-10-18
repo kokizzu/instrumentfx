@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP360XP",
-    "task": "Saved tuner references/access and contrast control; display physical specifications, power operation andCONTROL IN wording remain unresolved. Next another required gap or fresh Shopee discovery; no sibling borrowing.",
+    "model": "Yamaha SPX990",
+    "task": "Saved global input-mode persistence and exact MIDI clock/pitch algorithm scope. No FX550/ME6/RP50 Shopee lead. Next different discovery series or unresolved required model field; no sibling borrowing.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45765,7 +45765,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP360XP."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha SPX990."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77193,6 +77193,34 @@
       "Battery/USB power operation",
       "CONTROL IN socket wording",
       "Qualified current used/new offers"
+    ]
+  },
+  "discovery_legacy_series_yamaha_boss_digitech_20261018": {
+    "queries": [
+      "Shopee Yamaha FX550 / FX-550",
+      "Shopee BOSS ME6 efek",
+      "Shopee DigiTech RP50 / RP 50"
+    ],
+    "result": "No exact processor offers established. FX-550 results were computer PSU/model kit; RP50 results unrelated goods. No models or prices added."
+  },
+  "technical_followup_spx990_routing_20261018": {
+    "source": "https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf",
+    "identity": "Previously checked Yamaha-authored SPX99076-page operation manual; own model and printed chapter headings reconfirmed.",
+    "pages": [
+      "9",
+      "53",
+      "54"
+    ],
+    "findings": [
+      "Global Stereo/LMono/RMono input selection survives poweroff; mono modes discard other input.",
+      "Three named tempoecho algorithms support external MIDI clock.",
+      "Three intelligent pitch algorithms accept MIDI Note On interval control."
+    ],
+    "remaining": [
+      "Factory100-user mapping",
+      "Display physical specifications",
+      "Full elemental simultaneous ceiling",
+      "Current exact qualified offers"
     ]
   }
 }
