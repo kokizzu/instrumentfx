@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX5B",
-    "task": "AX5B2/2/3textcontrols,toeswitch,complete3socketrear andwritable01–40 saved; sixeffects+volume andsharedDLYREV clarified. Next ownmanual presetfill/expression/trails/power gaps orfreshhardwarediscovery.",
+    "task": "AX5B conditionaltails,expressionrecall/targetresets,automaticFXstate,cabinetdependency andbatteryINPUTswitching saved. Next fresh exacthardware discovery orunresolvedpower/display/initialfill gaps; no hardwareoperation.",
     "next_models": [],
     "after_queue": "346 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58843,6 +58843,21 @@
         "Display",
         "QualifiedIDR",
         "Expression/trailsdetails"
+      ],
+      "method": "OwnEnglishmanualbrowsertext;nooperation/download"
+    },
+    {
+      "model": "Korg AX5B",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%3DAX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B",
+      "pages": "5,7–10",
+      "finding": "Conditionaldelay/reverb tails;volumephysicalvsWAH/FXmovementrecall;targetreset andautomaticFXonoff;cabinetrequiresDRIVEAMP;INPUTswitchesbatterypower.",
+      "remaining": [
+        "Initialuserfill",
+        "Powerpolarity/current",
+        "Display",
+        "Visualcounts",
+        "QualifiedIDR"
       ],
       "method": "OwnEnglishmanualbrowsertext;nooperation/download"
     }

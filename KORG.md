@@ -683,7 +683,7 @@ Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX30
 | Power / battery / USB | **9V DC optionaladapter or4AA alkaline,about8hours**. Polarity,current andbarrel unknown;noUSB port forUSB power. Manufacturer listsmanual included; actual seller bundle unknown. [Manual p13][AX5B-M] |
 | IR / NAM / capture | User IR,native/convertedNAM andproprietarycapture import unknown. |
 | Editor / software | Editor/platform/currentOS support unknown. |
-| Looper / drums / live | TunerA0–E6,reference438–445Hz. Looper,drums,scenes,trails/routing unknown. [Manual p13][AX5B-M] |
+| Looper / drums / live | TunerA0–E6,reference438–445Hz. Delay tails persist with matching delay type andTIME(P1); reverb tails with matching reverb type. Looper,drums,scenes unknown. [Manual pp5,13][AX5B-M] |
 | Used IDR / new IDR | **Unknown / unknown**. No exactitem/seller established2026-10-18;condition,stock,region,bundle,warranty,voucher andcheckouttotal unknown. |
 
 ### AX5B named product library
@@ -703,6 +703,16 @@ Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX30
 ### AX5B processing architecture
 
 Manual p5 specifies **six effects includingNR plusvolume pedal** simultaneously; DELAY/REVERB is one shared effect category. These distinctions supersede the shorter product-page ceiling wording without changing57/58library provenance. [Manual pp5,8][AX5B-M]
+
+### AX5B expression recall and cabinet dependency
+
+| Field | Own English-manual qualification |
+|---|---|
+| Expression / recall | Volume uses physical position immediately. WAH/FX PARAM retains program sound until pedal movement. [Manual p8][AX5B-M] |
+| Expression / target changes | Quick Assign requires a blinking assignable-parameter LED. Changing the controlled effect category resets FX PARAM to its suggested target. Changing PRE FX whileWAH selected changes target toVOLUME. [Manual pp9–10][AX5B-M] |
+| Expression / automatic effect state | ChoosingFX PARAM enables its effect. Returning immediately toVOLUME without movingpedal/editing disables it again; after movement/editing,it staysenabled. [Manual p10][AX5B-M] |
+| Routing / cabinet | Cabinet requiresDRIVE/AMP on; changingdrive/amp automatically chooses its recommendedcabinet. No independentcabinet operation inferred. [Manual p9][AX5B-M] |
+| Power / battery switching | Onbatteries,INPUT cable insertion powersunit;removal turnsitoff. Adapter behavior keptseparate. [Manual p7][AX5B-M] |
 
 <!-- comparison evidence ends -->
 
