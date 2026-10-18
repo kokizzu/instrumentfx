@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(demonfx): add Dual Mod Workstation with own manual evidence'))
+    print(git('commit','-m','research(demonfx): preserve Dual Mod parameter ranges and waveform conflict'))

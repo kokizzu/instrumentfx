@@ -32,6 +32,19 @@ Checked 2026-10-18; partial. Own two-page manual identifies this model and demon
 | New | Unknown; title does not establish new condition. | — |
 | Condition-unverified sold-out ask | **Rp1,250,000; Habis**. MICKEY MOUSE SHOP, Kota Jakarta Utara; shop19700013/item26274795531. Month-old direct cache has stale9–10September arrival; four-day search cache has16–19October and shop-on-holiday. Both say Habis. Working state, revision, accessories, warranty, authenticity, shipping/tax, voucher and checkout total unknown. Late-arrival compensation up toRp10,000 is not a purchase discount. | [Exact item][DMW-O] |
 
+
+
+### Dual Mod Workstation — parameter ranges and manual conflict
+
+Checked 2026-10-18 against [own manual p2][DMW-M], browser text only. The two-column table's linear extraction interleaves cells; no visual bank-order audit is claimed.
+
+| Field | Exact-model qualification |
+|---|---|
+| Effects / delay and ADT ranges | Table publishes **50–950 ms** for digital/analog delays; **ADT delay 0–60 ms and pitch 0–60 cents**. These are selected algorithms' parameters, not phrase-loop capacity or every effect's range. |
+| Effects / tremolo waveform conflict | Effect list says triangle-to-sine; table says **triangle-to-square with continuous blending**. Same unversioned manual; preserve both claims. Neither wording establishes a verified hardware revision. |
+| Effects / Morph behavior | Filter Morph changes oscillating wah to random filter/hold; flanger Morph moves negative feedback through zero at center to positive feedback. Chorus/Vibrato blend descriptions distinguish dry at left, chorus at center and vibrato at right. These are mode-dependent controls, not extra simultaneous blocks. |
+| Expression / mode-dependent RATE | Panel assigns expression to bank 2 RATE but warns RATE's action depends on mode. Parameter table also uses RATE for decay/feedback in some algorithms. Do not label the socket as universally controlling modulation speed or assume arbitrary mapping/calibration. |
+
 <!-- comparison evidence ends -->
 
 Manufacturer-hosted text only; no visual audit, hardware operation or downloads. Claims are attributed to DemonFX, not verified as equivalent to Keeley. Dimensions, mass, menu order and parameter mapping remain open.
