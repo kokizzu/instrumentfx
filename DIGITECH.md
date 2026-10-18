@@ -1150,4 +1150,14 @@ Checked2026-10-18;no installer downloaded or executed.
 | Expression / calibration | Standalone recalibration preserves user presets;V-switch threshold0–200. |
 
 
+### BP355 — expression links, storage and reset
+
+[Own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf),5059482-A,printed pp11–12,28–30; checked2026-10-19. Document inspection only; no device operations.
+
+| Field | Qualification |
+|---|---|
+| Expression / assignment limits | EXPPDL selects one linked parameter with separate heel-minimum and toe-maximum values; store the assignment in the preset. This procedure does not establish multiple simultaneous pedal links. |
+| Memory / saving edits | Changing presets or powering off discards unsaved edits. Store LED indicates a changed stored value. Saving proceeds through name, User1–70 destination and final Store confirmation; either Edit button aborts. |
+| Memory / factory reset | Factory reset erases custom User presets and then automatically enters expression calibration. This differs from standalone calibration, which preserves User presets. |
+
 <!-- comparison evidence ends -->

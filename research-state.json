@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "Five Jamie Slays picks and BOSS GX-1 covered. Core added; exact IDR/manual/control gaps remain. Resume BP355 manual expression/store/reset follow-up or Shopee discovery; all388 partial, migration incomplete.",
+    "model": "Fresh Shopee discovery / manufacturer gaps",
+    "task": "BP355 expression-link/store/reset distinctions saved from original manual. Continue exact hardware discovery or Core manual/control verification; all388 partial; migration incomplete.",
     "next_models": [],
-    "after_queue": "388 models,47 brands;no downloads/workflows/push."
+    "after_queue": "388 active models,47 brands;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Manufacturer technical gaps / Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / manufacturer gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -120486,5 +120486,16 @@
     "primary_source": "https://harleybenton.com/product/dnafx-git-core/",
     "shopee_query": "site:shopee.co.id \"DNAfx\" \"Core\"",
     "result": "No results; exact IDR unknown."
+  },
+  "bp355_storage_expression_followup_20261019": {
+    "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf",
+    "revision": "5059482-A",
+    "printed_pages": "11–12,28–30",
+    "findings": [
+      "One expression parameter with heel/toe bounds; save per preset",
+      "Unsaved edits lost on preset change/power off; explicit final Store confirmation",
+      "Factory reset erases custom User presets and enters calibration; standalone calibration preserves presets"
+    ],
+    "remaining": "Cabinet discrepancy, current software compatibility, exact IDR and display details unresolved; no operation performed."
   }
 }
