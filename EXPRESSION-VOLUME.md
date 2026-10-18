@@ -125,3 +125,5 @@ The multipurpose socket's TRS label does not make all controllers interchangeabl
 
 Before treating a model as a complete match, test at low monitoring volume: pedal heel/middle/toe in at least three different presets; switch presets without moving the pedal; confirm heel-down range; repeat with the device bypassed; check headphones separately; test any room/delay/looper tails; power-cycle and confirm assignment persistence. No physical test is claimed in this research.
 
+
+RP80 scope check2026-10-19: [existing exact-model record](DIGITECH.md#rp80) documents a built-in treadle; excluded from this no-treadle comparison, retained in general guitar inventory. Primary PDF re-open failed; historical evidence preserved.

@@ -1060,6 +1060,10 @@ Checked2026-10-18;partial. [Manufacturer-linked own manual](https://eadn-wc05-75
 | Memory / calibration | Reset erases user data and invokes pedal calibration. Standalone recalibration preserves user presets. |
 
 
+
+### RP80 — no-treadle audit exclusion
+
+Checked2026-10-19 against the existing exact-model manual record: **RP80 has a built-in expression pedal**, so it is outside the no-built-in-treadle capability comparison. Its inclusion in that audit queue was incorrect. This exclusion does not remove RP80 from the general guitar multi-effects catalogue. The manufacturer-linked PDF could not be reopened in this pass; older source/date and per-preset heel/toe qualifications remain intact, not newly certified. No download or hardware operation.
 <!-- comparison evidence ends -->
 
 ## BP355
