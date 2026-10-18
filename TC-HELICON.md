@@ -1113,6 +1113,16 @@ Checked2026-10-18 against [manufacturer reference v1.2][VLT2-R],printed pp54–5
 | I/O / onboard RoomSense microphones | **Two onboard microphones** can feed headphone ambience;Ambient/Auto additionally derives Harmony/Hardtune musical guidance. Manual states RoomSense audio never reaches main outputs,to avoid feedback. INPUT=RoomSense selects onboard microphones;its routing parameter then shows unavailable. Do not infer an audience-mic feed in the mainmix ortransfer unverified processed-output behavior. |
 | I/O / headset microphone mode | INPUT=Headphone supports cellphone-style headphones with an integrated microphone;the RoomSense control becomes **Headphone Mic level**. ExactTRRS wiring,CTIA/OMTP compatibility andbias voltage remain unverified;the mode does not prove any generic headset is compatible. |
 | I/O / analog output level | AtAnalogOut0dB andproper input gain,the manual describes output as approximately microphone level;the control allows **6dB additional gain**. This is a control-level relationship,not an output-headroom measurement orconverter dynamic-range change. |
+
+### VoiceLive Touch 2 — preset recall and foot-controlled loop limits
+
+Checked2026-10-18 against [manufacturer reference v1.2][VLT2-R],printed pp71–75;firmware1.0.02 build37 scope retained. Documentation only.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Live / key and tempo recall | **Global Key Off(default)** permits per-preset keys;On shares the Harmony key across presets without storing each. **Global Tempo On(default)** carries latest tapped tempo across presets for Rhythm,Delay andloop metronome;Slap/SetTime delay styles keep their own timing. Off recalls each preset’s tempo. These switches have independent scope. |
+| I/O / Aux timing | **Tracks(default)** adds delay to incomingAux audio to reduce perceived Harmony chord-change latency;**Live** adds none. Added milliseconds are not published in this passage;this is source alignment,not zero-latency processing oraudio timestretch. |
+| Looper / optional Switch-3 gestures | Assigned Stop/Clear taps tostop andholds toclear;Start/Stop has no record/hold function. The1ButtonLooper assignment double-taps tostop,which records a short audio fragment;holding toerase also briefly plays audio. These documented side effects matter forlive use;loop duration andpower-off persistence remain unresolved. |
 <!-- comparison evidence ends -->
 
 [VLT2-Q]: https://manualzz.com/doc/6755730/tc-helicon-voicelive-touch-2-quick-start-guide
