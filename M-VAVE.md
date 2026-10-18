@@ -278,7 +278,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 
 | Field | Preserved evidence / uncertainty |
 |---|---|
-| Expression / controls | Built-in,toe ?. **External EXP conflict:** specification says one socket,complete rear panel/numbered list show none. Do not invent that connector or confuse MIDI control with analog EXP. **4/3/12**,power separate. |
+| Expression / controls | Built-in pedal yes; toe ?. **External EXP conflict:** specification says one socket,complete rear panel/numbered list show none. Do not invent that connector or confuse MIDI control with analog EXP. **4/3/12**,power separate. |
 | Display / body | **2.4-inch color LCD**,touch ?. **271.5×136.5×51mm;approximately795.5g**,medium. |
 | Processing / choices | **Ten movable,DSP-limited;320+ effects**,120amps,40drives,100cabs;remaining category subcounts ?. |
 | Presets | **150 editable, 75 factory-filled**. |
@@ -288,11 +288,16 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 | IR / NAM | Mono WAV 24-bit/44.1 kHz, 1024/2048 points; AMP/DS import. The [developer iOS changelog](https://apps.apple.com/us/app/m-efcs/id6470352068), v3.9.2317 (Sep 23), explicitly names MK20 A2 support. This establishes software support, not direct native .nam playback: exact device firmware threshold, supported architectures, conversion workflow and file limits remain unverified. Preserve native versus converted NAM uncertainty. |
 | Editor / firmware | M-EFCS Windows/macOS/iOS/Android was documented in the original manual; the [manufacturer index](https://www.cuvave.com/appdownload), checked 2026-10-17, explicitly lists MK20 for desktop M-EFCS. The developer iOS changelog independently names MK20; its v1.11.21 entry (2025-11-21) fixes preset-save corruption and import/export failures. App version is separate from device firmware. |
 | Firmware limits | Official index lists MK20 v085 dated 2026-10-08 under PC Firmware and identifies M-UPGRADE as the separate updater. Its [linked release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt) failed web retrieval with a Unicode decoding error on 2026-10-17. A version listing does not resolve physical EXP-port revisions or prove unrestricted native NAM support. |
+| USB recording modes | Default loopback mixes instrument, USB and Bluetooth backing into one recorded track; Off records the processed instrument alone. Reamp processes computer playback and blocks physical IN. Dry monitors wet while recording unprocessed IN without backing. USB REC VOL is 0–100; factory 50 corresponds to 0 dB. |
+| Output routing / global EQ | RCH selects identical L/R, L wet/R dry, or L with CAB/R without CAB. This does not establish independent stereo processing. Global EQ can overload DSP on demanding presets; its parameters support editor backup. The manual says USB/BT audio output is unaffected; the exact signal-path boundary remains unclear. |
 | Extras | **20s mono PRE-effects looper,128 rhythms**,USB audio/MIDI,loopback/reamp,Bluetooth. |
 
 Retail **Rp1.850.000** at [Seven16879370/41125436730](https://shopee.co.id/M-Vave-MK-20-Digital-Multi-Effect-MVAVE-MK20-Effect-Pedal-i.16879370.41125436730) and [OneTwoThree1505062399/56850308632](https://shopee.co.id/Efek-Gitar-M-VAVE-MK-20-MVAVE-MK20-Elektrik-Akustik-Bass-AMP-Modeler-Multi-Effects-Processor-Efek-Bluetooth-Portable-Pedal-320-Effects-Electric-Guitar-Soundcard-Interface-Stomp-Box-Stompbox-Built-in-Battery-Baterai-Rechargeable-IR-Impulse-Response-i.1505062399.56850308632). Matching asks are not a market distribution;condition/stock unconfirmed,used **?**.
 
 Source: [manufacturer-authored mirrored manual](https://device.report/m/b1b56aa7fbd51aee0ecc8aeb12fb1c35f3375111e940f294864a552eb9ce8b7d_optim.pdf),original visual pp.3,8,13;[manufacturer software](https://www.cuvave.com/appdownload). Preserve external-port/revision/import uncertainties;do not copy MK-300's XLRs,screen or looper.
+
+
+**Manual text follow-up, 2026-10-18:** [MK-20 manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-20.pdf), model-matched cover, printed p.5 and specifications p.14. Text inspection only; revision equivalence to the older mirror is unproven. The loopback paragraph says eleven modules, conflicting with the ten-module specifications; no extra block is inferred. Built-in pedal is explicitly listed; the external-jack conflict remains.
 
 <!-- comparison evidence ends -->
 

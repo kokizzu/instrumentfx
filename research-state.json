@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Caline C300 exact-item lead",
-    "task": "Pendingcategory-onlyC300Rp1979000Bandung/Rp2249000Tangerang;recoverexactitem+ownprimaryarchitecturebeforeadmission. OptimaAirkeptoutsideactiveasdedicatedacousticsimulator. Nextnewbrandseriessearchiflinkcannotrecovered.",
+    "model": "M-VAVE MK-20",
+    "task": "Verify factory preset allocation and amp/cab category partitions in exact MK-20 manual; then fresh Shopee brand/series discovery. Preserve revision and external EXP conflict.",
     "next_models": [],
-    "after_queue": "359partialmodels;300guitar158bass69vocal;44brands;migrationincomplete;no downloads/workflows/push."
+    "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
   "new_findings": [
     {
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DemonFX Dual Mod Workstation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE MK-20."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78418,5 +78418,18 @@
       "candidate_manufacturer_domain": "http://www.calinemusic.com"
     },
     "next": "Freshbrand/seriesShopeediscovery orCalineexactitemrecovery;do notrepeattheseidenticalqueries."
+  },
+  "mk20_usb_routing_20261018": {
+    "model": "M-VAVE MK-20",
+    "source": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-20.pdf",
+    "identity": "Model-matched cover and specifications; text inspection only; revision equivalence to older mirror unproven",
+    "saved": "USB modes, recording gain, RCH choices and global-EQ limitations; built-in pedal summary reconciled with explicit specifications",
+    "remaining": [
+      "External EXP panel/specification conflict",
+      "Firmware-specific NAM workflow",
+      "Exact global-EQ signal boundary",
+      "Qualified used/new and live stock"
+    ],
+    "next": "Read factory preset allocation and model-category partitions from this exact manual before any sibling comparison."
   }
 }
