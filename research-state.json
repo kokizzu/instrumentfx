@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 372,
+  "active_model_count": 373,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 372,
+  "canonical_root_model_count": 373,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "372 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "373 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS AD-2",
-    "task": "Saved explicit PSA-family9V regulated DC/center-negative cross-check, adapter capacity versus device draw, and own electrical ratings. Regional supply/connector inspection and memory remain unresolved. Next fresh eligible Shopee discovery; avoid repeating completed AD2 routing/pickup audit.",
+    "model": "TC-Helicon VoiceTone Create XT",
+    "task": "Added own-manual vocal processor;next exact supply documentation,FX definitions,current VoiceSupport andqualifiedShopeeoffers. Retainfive-versus-tenpreset wording conflict;no originalCreate substitution.",
     "next_models": [],
-    "after_queue": "372active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
+    "after_queue": "373active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5474,6 +5474,14 @@
       "status": "partial",
       "source": "https://www.boss.info/global/products/ad-2/",
       "finding": "Distinct acoustic resonance, ambience and notch processing; cached exact Shopee hardware ask retained without stock/condition certification."
+    },
+    {
+      "model": "TC-Helicon VoiceTone Create XT",
+      "destination": "TC-HELICON.md#voicetone-create-xt",
+      "source": "https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Manufacturer vocal multi-effects added;style library separate from writable A/B presets;no qualified exact Shopee offer."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24813,7 +24821,8 @@
       "Duplicator",
       "Harmony Singer 2",
       "Critical Mass",
-      "VoiceLive Touch 2"
+      "VoiceLive Touch 2",
+      "VoiceTone Create XT"
     ],
     "Valeton": [
       "GP-100",
@@ -25356,7 +25365,8 @@
       "Duplicator",
       "Harmony Singer 2",
       "Critical Mass",
-      "VoiceLive Touch 2"
+      "VoiceLive Touch 2",
+      "VoiceTone Create XT"
     ],
     "CUVAVE.md": [
       "H8"
@@ -25524,8 +25534,8 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 69,
-      "vocal_only_count": 24,
+      "record_count": 70,
+      "vocal_only_count": 25,
       "combined_instrument_count": 45,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
@@ -25542,10 +25552,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 310 guitar, 162 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 310 guitar, 162 documented bass-capable, 70 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "372 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "373 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45978,13 +45988,13 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 372,
-    "canonical_root_models": 372,
+    "unique_brand_model_pairs": 373,
+    "canonical_root_models": 373,
     "legacy_only_models": 0,
     "guitar_view_models": 310,
     "bass_focused_models": 38,
-    "vocal_only_models": 24,
-    "vocal_view_models": 69,
+    "vocal_only_models": 25,
+    "vocal_view_models": 70,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -46070,7 +46080,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS AD-2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceTone Create XT."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46592,6 +46602,7 @@
       "TC-Helicon::Harmony Singer 2",
       "TC-Helicon::Critical Mass",
       "TC-Helicon::VoiceLive Touch 2",
+      "TC-Helicon::VoiceTone Create XT",
       "Zoom::V6-SP",
       "Zoom::V3",
       "Zoom::RFX-1100",
@@ -48253,6 +48264,13 @@
     },
     "TC-Helicon::VoiceLive Touch 2": {
       "link": "TC-HELICON.md#voicelive-touch-2",
+      "source_files": [
+        "TC-HELICON.md"
+      ],
+      "finding_files": []
+    },
+    "TC-Helicon::VoiceTone Create XT": {
+      "link": "TC-HELICON.md#voicetone-create-xt",
       "source_files": [
         "TC-HELICON.md"
       ],
@@ -81340,5 +81358,15 @@
       "site:shopee.co.id \"ME6B\""
     ],
     "result": "No qualified new exact-model hardware offer. Broad708 hits were unrelated; aggregate VoiceLive3Extreme Rp13897790 is already known and not evidence for VoiceLiveTouch."
+  },
+  "discovery_voicetone_20261018": {
+    "queries": [
+      "site:shopee.co.id \"TC Helicon\" \"Create\"",
+      "site:shopee.co.id \"TC Helicon\" \"Correct\"",
+      "site:shopee.co.id \"VoiceTone\" \"Synth\"",
+      "site:shopee.co.id \"VoiceLive\" \"Play GTX\"",
+      "site:shopee.co.id \"Create XT\""
+    ],
+    "result": "No qualified exact CreateXT hardware offer;aggregate single-function VoiceTone and TalkboxSynth hits not promoted into active multi-effects catalogue."
   }
 }

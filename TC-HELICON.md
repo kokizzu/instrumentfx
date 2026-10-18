@@ -1183,3 +1183,27 @@ Checked2026-10-18 against [original reference manual reproduction](https://manua
 Original publisher endpoints retained: https://mediadl.musictribe.com/download/software/tchelicon/vlt2_quick_start_en.pdf and https://mediadl.musictribe.com/download/software/tchelicon/tc-helicon_voicelive_touch_2_reference_manual_en.pdf . No files downloaded ordevice operations performed.
 
 [VLT2-P]: https://service-tcgroup.tcelectronic.com/files/tech_service/voicelivetouch2/spareparts_voicelive_touch2.pdf
+
+## VoiceTone Create XT
+
+Vocal multi-effects; partial, checked2026-10-18. Distinct from original Create. [Manufacturer-authored English manual on Music Tribe CDN](https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf),pp10–13,16–19,25–29. Older mediadl endpoint returned502.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | No built-in/toe pedal;PEDAL supports Switch3;expression mapping unverified. |
+| K/F/B | **4/2/7**,text-derived:Input,Mix,Style,Tweak;A/B,On feet;Tone,Preset,fourblock buttons,Tweak. Visual audit pending. |
+| Display | Numeric preset/parameter display andindicators;diagonal/color/touch unverified. |
+| Processing / categories | Four blocks:FX,µMod,Delay,Reverb;Tone addsadaptiveEQ,compression,de-essing. **100factory styles in10banks**,not100simultaneous effects. Percategoryalgorithmcounts unverified. |
+| Memory | **10writable presets,eachA/B=20settings**,factoryfilled.100stylelibrary separate. p17 sayscycleafterfive,conflicting withten elsewhere;retained. |
+| Synth / acoustic | HardTune documented;dedicatedsynth/acoustic simulation unverified. |
+| Dimensions / mass | **130×132×41mm;0.72kg**,axes unspecified. |
+| I/O | BalancedXLRmic input;twoXLRoutputs;PEDAL,USB,power.48Vphantom. Monomode rightoutput isdry,butTone remains. |
+| Power | SuppliedDCadapter;voltage/current/polarity,battery/USBpower unverified. |
+| Editor / platforms | VoiceSupport Windows/Mac backup,restore,updates;fullparametereditor/currentOS andUSBaudio unverified. |
+| IR / NAM / capture | Unverified. |
+| Practical features | Tapdelay;Switch3 togglesFX,µMod,Delay. Looper/drums/scenes unverified. |
+| IDR price | No qualified exactShopee hardwareoffer found. Used/new amounts,seller/item,condition,stock,region,bundle,warranty,voucher unverified. |
+
+<!-- comparison evidence ends -->
