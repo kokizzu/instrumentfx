@@ -643,6 +643,18 @@ Volume, delay-input, reverb-input, or unchanged-target assignments use physical 
 | Routing / cabinet conflict | p4 permits cabinet only withLn anddrive/amp on; p25 saysAP ignores cabinet. However p12 saysLn ignores cabinet. Preserve contradiction; no hardware confirmation orerratum established. [E1 pp4,12,25][AX3B-M] |
 | I/O / digital level | GLOBAL DOUT LVL selects−12,−6,0,+6,+12dB independently ofrearLEVEL. [E1 pp6,13][AX3B-M] |
 
+### AX3000B remaining named effect groups
+
+| Category | Named E1 entries |
+|---|---|
+| pre11 | Comp; Limiter; Exciter; Wah; U-Vibe/Phase; Chorus/Flanger; Octave; Ring Mod; Fretless; Slow Attack; Synth |
+| modulation11 | Classic Chorus; Multi Tap Chorus; Classic Flanger; Bi Chorus; Duo Phase; Textrem; Rotary; Pitch Shifter; Random Filter; Filtron; Talk Mod |
+| delay11 | Echo Plus; Multi Head; Analog Delay; Mod Delay; Sweep Delay; 2 Tap Delay; Cross Delay; Rhythm Delay; Hold Delay; Reverse Delay; Freez |
+| reverb11 | Slap; Spring; Bounce; Plate; Garage; Chamber; Canyon; Room; Studio; Hall; Arena |
+| Noise reduction1 | NR |
+
+[E1 appendix pp58–59][AX3B-M]. Four11-entry groups plus6drives,10amps,11cabinets andNR1 yield72. Combined selector entries remain single entries; internal modes are not extra simultaneous blocks. This completes the named E1 library audit, not model verification.
+
 <!-- comparison evidence ends -->
 
 [AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B
