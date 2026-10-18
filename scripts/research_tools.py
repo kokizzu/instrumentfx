@@ -497,7 +497,7 @@ def main():
         if mode == 'commit-duplicator':
             message = 'research(tc-helicon): add Duplicator with model-specific bypass and source conflicts'
         if mode == 'commit-mic-mechanic2':
-            message = 'research(tc-helicon): add Mic Mechanic 2 and preserve phantom power conflicts'
+            message = 'research(tc-helicon): include Mic Mechanic 2 historical offers in vocal comparison'
         if mode == 'commit-708ii':
             message = 'research(zoom): preserve 708II patch media trigger conflicts'
         if mode == 'commit-707ii':

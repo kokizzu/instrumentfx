@@ -28,9 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Comparison evidence review",
-    "task": "B2 FOUR saved exact offer bullets now use price table rows. Verify other full records for unprojected offers and superseded comparison fields; continue primary technical and Shopee discovery work.",
-    "next_models": [],
+    "model": "TC-Helicon Duplicator",
+    "task": "Mic Mechanic2 four saved exact offers now included in comparison selection with full original observations. Next read complete Duplicator record and project two omitted offers; then Harmony Singer2 two. No price refresh or live-stock claim.",
+    "next_models": [
+      "TC-Helicon Harmony Singer 2"
+    ],
     "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
@@ -46090,7 +46092,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Comparison evidence review."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Duplicator."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81511,6 +81513,55 @@
     "items": [
       "800959591/24004987590",
       "1203229574/42758785757"
+    ]
+  },
+  "exact_offer_projection_audit_20261018": {
+    "scope": "Root-brand lines beginning with bullets and containing exact Shopee item URLs absent from all three instrument view texts. Candidate audit only; does not certify all prose/table prices.",
+    "candidate_items": [
+      {
+        "file": "TC-HELICON.md",
+        "item": "462045001/25352600524"
+      },
+      {
+        "file": "TC-HELICON.md",
+        "item": "32027047/29205970297"
+      },
+      {
+        "file": "TC-HELICON.md",
+        "item": "26220305/52363985288"
+      },
+      {
+        "file": "TC-HELICON.md",
+        "item": "158235298/11311313367"
+      },
+      {
+        "file": "TC-HELICON.md",
+        "item": "158235298/4494020701"
+      },
+      {
+        "file": "TC-HELICON.md",
+        "item": "103535156/29504097967"
+      },
+      {
+        "file": "TC-HELICON.md",
+        "item": "338305078/9315818006"
+      },
+      {
+        "file": "TC-HELICON.md",
+        "item": "158235298/2951493236"
+      }
+    ],
+    "resolved_this_commit": [
+      "462045001/25352600524",
+      "32027047/29205970297",
+      "26220305/52363985288",
+      "158235298/11311313367"
+    ],
+    "remaining": [
+      "158235298/4494020701",
+      "103535156/29504097967",
+      "338305078/9315818006",
+      "158235298/2951493236"
     ]
   }
 }
