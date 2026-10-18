@@ -864,7 +864,7 @@ Checked 2026-10-18; partial. Exact RP355, not RP350. [Manufacturer product](http
 | Expression | Built-in assignable pedal;toe-pressure **V-switch toggles wah**. External expression unverified. M |
 | Knobs / footswitches / buttons | **6 /3 /6**:six rotaries;Up,Down,Amp A/B feet;two Edit,Drums,Store front buttons plus two rear Amp/Mixer buttons. Toe V-switch additional;push-encoder functions not counted as separate buttons. M |
 | Display | Preset/parameter display and LED matrix;diagonal,color,touch unverified. M |
-| Processing / choices | **11 simultaneous effects**; **126 combined amp/cab/stomp/effect models**, **34 amp/acoustic types** (P). Category census/routing unresolved. |
+| Processing / choices | **11 simultaneous effects**; **126 combined amp/cab/stomp/effect models**, **34 amp/acoustic types** (P). Category counts and routing limits below;126-total reconciliation unresolved. |
 | Memory | **70 user+70 factory=140**;initial user fill unverified. M/P |
 | Synth / acoustic | Electric-to-acoustic modeling advertised (P);SynthTalk listed (M),not proof of a full synthesizer. |
 | Dimensions / mass | **Conflict:** P:12.875D×8.375W×2.5H inches,4.5lb; M:17.5L×8.75W×2.5H inches,6.2lb. Neither silently selected. |
@@ -885,8 +885,22 @@ Checked 2026-10-18; partial. Exact RP355, not RP350. [Manufacturer product](http
 |---|---|
 | I/O / output routing | Separate rear Amp/Mixer buttons govern ¼-inch and XLR output voicing. Mixer engages speaker compensation. XLR outputs remain stereo;¼-inch Left supports mono. Simultaneous amp/mixer setup documented. |
 | I/O / headphones | Set **XLR Amp/Mixer to Mixer** for headphone frequency response;recommended headphones **16–100Ω**. The ¼-inch voicing control is separate. |
-| USB / monitoring | X-Edit utility adjusts direct/playback mix and USB recording level. With USB connected and Pickup row selected,knobs4/5 also adjust those respectively. This does not establish dry reamping or loopback. |
+| USB / monitoring | X-Edit utility adjusts direct/playback mix and USB recording level. **Manual conflict:** p7 assigns these to knobs4/5 in Pickup row; p13 assigns knobs2/3. Both retained;actual mapping unverified. This does not establish dry reamping or loopback. |
 | Power / switching | **No power switch**;connect/disconnect PS0913B to power the unit. |
+
+
+### RP355 — category choices and routing limits
+
+[Own manual](https://digitech.com/wp-content/uploads/2022/09/RP355_OM_EN.pdf),printed pp11,13–25;checked2026-10-18. Counts below exclude bypass/direct unless specified;they are choices,not additional simultaneous blocks.
+
+| Field | Manual inventory / limit |
+|---|---|
+| Processing / front categories | Pickup **2**,wah **3**,compressor **3**,distortion **18**. |
+| Processing / amp and cabinet | Amp list: **32 amp+2 acoustic simulations+Direct**;cabinet **18+Direct**. Selecting amp loads a default cabinet,which can then change. |
+| Processing / EQ and gate | EQ **4 curves**,with adjustable bands;gate **Noise Gate OR Auto Swell**. |
+| Processing / Chorus FX | Editorial count **31 choices**:chorus4,flanger4,phaser4;vibrato,rotary,VibroPan,Uni-Vibe;tremolo/panner4;Envelope Filter,FX25,AutoYa,YaYa,SynthTalk,Step Filter;Whammy,pitch,detune,harmony,octaver. **One choice at a time**. |
+| Processing / delay and reverb | Delay **7**,reverb **6**. |
+| Processing / routing | Chorus/FX offers pre/post placement;manual otherwise specifies an ordered chain. Amp A/B independently stores amp,cabinet,gain,level,EQ;two selectable channels do not establish simultaneous dual amps. |
 
 <!-- comparison evidence ends -->
 

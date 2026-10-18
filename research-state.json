@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP355",
-    "task": "RP355 rear controls and routing saved;next inspect effect-category inventory and dimensions/mass conflict, then RP350/RP55/RP80 discovery.",
+    "task": "RP355 category counts saved;next seek independent primary clarification of dimensions/mass and USB knob mapping, or continue queued RP discovery with conflicts retained.",
     "next_models": [
       "RP350",
       "RP55",
@@ -89456,6 +89456,8 @@
             "field": "USB / monitoring",
             "source": "DIGITECH.md",
             "signals": [
+              "unverified",
+              "conflict",
               "not_established"
             ]
           }
@@ -119046,7 +119048,7 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "5fc08a10989dbff234885c800e4feab06a8b8098eaa401c8f164c4da8feb3f06",
+      "ALL-GUITAR.md": "6abe14bcd6d66dd80bf575499ddeafa06838f28a816b62eaf562d42165b4ea49",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
@@ -119087,7 +119089,7 @@
       "README.md": "bc28adaf9af62c3b1e8276821af1b0363191c09d2382ac0d3bb032035412ab90",
       "FRACTAL-AUDIO.md": "c49fc79d860c8cbe36666578a065d2015dd6a789dbe7f7852bf21aba35ce5a4c",
       "DEMONFX.md": "a477869186303c3c896d438dde6bb211e03920e6a51da4de617f5442de06e0ee",
-      "DIGITECH.md": "857164d8faded4b8dc4b884b9fed4233413d4710828ad9c4f23ce74115396284",
+      "DIGITECH.md": "098e2f2320bbefcdf2878af98cedd28cd37924f4cebeec4ef941c48ed7a3d6c9",
       "SONICAKE.md": "62950fa34680adc5b5d06dfa1ba48ab212ecb69192764372d0a280dafa77c069",
       "AMMOON.md": "b5effe57a7b3389dc05c4c2efec738c1b027590868a74e88e7dfea36686d5524",
       "NEURAL-DSP.md": "8d43ed1212434c42e554a0a3a1f32e119735387adff2eca737ec9d63f29a8479",
