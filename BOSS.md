@@ -3396,6 +3396,15 @@ Checked2026-10-18 against the [French BOSS manual][SE50-FR], input-level and eff
 
 Roland memoryarticle updated2023-04-13;powerarticle2026-06-16. Sources checked2026-10-17 withoutdownloads ordeviceexecution. Remainingfields above requiremodel-specificprimaryevidence;the record is notfullyverified.
 
+### SE-50 — Keyboard Multi2 and algorithm-specific MIDI assignment
+
+Checked2026-10-18 against the original1990 [French BOSS manual][SE50-FR],printed pp60–62,manufacturer-authored OCR reproduction;no visual or device test.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Processing / Keyboard Multi2 | Documents **phaser,EQ,Super Chorus and reverb**,with individual effect on/off. Phaser has four modes;chorus predelay0–60ms,reverb0.1–20s and reverb predelay0–200ms. These belong to this fixed algorithm,not freely assignable global blocks;diagram order and maximum whole-unit concurrency remain unverified. |
+| Live / Keyboard Multi1 MIDI assignment | Its MIDI-control assignment selects **chorus rate,delay level,reverb level or master level**,with configurable minimum/maximum. Do not infer simultaneous control of all four or the same destinations in every algorithm. This is MIDI control,not proof of an analog expression input. |
+
 ## GT-10B
 
 Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Manufacturer-established model; exact Indonesian hardware offer and ownership remain unverified. Discontinued status does not establish market absence.

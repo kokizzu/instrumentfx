@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MPX100",
-    "task": "Saved MPX100 service adapter capacity qualification; actual device draw, connector and condition-qualified offers remain unknown. Continue primary-source gaps and bounded discovery; Pocket Amp original manual contents remain unread.",
+    "model": "BOSS SE-50",
+    "task": "Saved Keyboard Multi2 components and algorithm-specific MIDI assignment. Continue unresolved original-manual Guitar Multi topology, power/body/control counts and condition-qualified prices; fresh Shopee FX900/SE50/Intellifex/GFX707 queries rediscovered existing items only.",
     "next_models": [],
     "after_queue": "362active/46brands;303guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -45901,7 +45901,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MPX100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS SE-50."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60945,6 +60945,12 @@
       "checked_date": "2026-10-18",
       "source": "https://www.scribd.com/document/691001436/Lexicon-Mpx-100-Service-Manual",
       "finding": "Original1998service070-12081:9VAC1.9Asupplied;serviceadapter1Aminimum1.9Apreferred. Preliminary1Asupplyretained;devicecurrentunknown;Variacchecknotconvertedtodevice9VACdraw."
+    },
+    {
+      "model": "BOSS SE-50",
+      "checked_date": "2026-10-18",
+      "source": "https://fr.scribd.com/document/644989539/Boss-SE-50-fr",
+      "finding": "KeyboardMulti2 phaser/EQ/SuperChorus/reverb;fourphasermodes;choruspredelay0–60ms,reverb0.1–20s/predelay0–200ms. KeyboardMulti1 MIDIassignmentdestinationsandminmax documented;notglobalfreeblocksoranalogEXPproof."
     }
   ],
   "discovery_cross_brand_bass": {
