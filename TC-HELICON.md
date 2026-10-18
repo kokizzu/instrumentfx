@@ -952,6 +952,15 @@ Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Gu
 | Field | Evidence / qualification |
 |---|---|
 | IDR / condition-unverified cached ask | Checked2026-10-18: **Soundstationstore,Kota Tangerang Selatan;seller250276993/item25734277597**. Last-week search cache shows **Rp4.904.650**;direct-page text,marked two months old,shows **Rp4.180.000**. Both belong to the same exact listing;neither establishes today's price. No Habis marker exposed;condition,quantity,checkout,working state,revision,adapter/bundle andwarranty unknown. Relative same/next-day delivery doesnot prove stock;Rp10.000 late compensation isnot a purchase discount. Used/new price classification remains unresolved. [Exact hardware](https://shopee.co.id/TC-Helicon-Harmony-Singer-2-Vocal-Effect-Pedal-Efek-Vokal-i.250276993.25734277597) |
+
+### Harmony Singer 2 — original-manual electrical and control details
+
+Checked2026-10-18 against the eight-page manufacturer manual,©2016,reproduced byThomann. Later quick-start differences remain unresolved;no device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Audio / noise and response | Printedp6: **EIN−126dBu atmaximum mic gain,Rg150Ω;mic SNR>104dB;guitar SNR>115dB**. Frequency response **20Hz–20kHz,+0/−0.3dB**. These are published measurement conditions/ratings,not converter bitdepth orUSB audio specifications. [Original manual][HS2-M] |
+| Live / momentary startup gesture | Printedp5: hold **Tone while powering on** toselect momentary harmony;repeat toreturn tolatching. Inmomentary mode,harmony isactive only whilethefootswitch isheld. This documented mode gesture differs fromholdingthefootswitch atstartup to toggleMP-75 Mic Control;later guide hold-to-bypass applicability remains unresolved. [Original manual][HS2-M] |
 <!-- comparison evidence ends -->
 
 ### Exact Shopee offers checked 2026-10-17

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon Harmony Singer 2",
-    "task": "Saved additionalSoundstation exact25734277597 hardware offer withsearch4904650 vsolderdirect4180000 discrepancy;condition/currentstockunknown. FreshVoiceToneCreate/PlayGTX/B1Xnext/AX1B queriesempty. Next originalHS2revision/control/power gaps orfreshdiscovery;do not repeatDialexistingoffer asnew.",
+    "task": "Saved originalHS2 noise/response conditions andmomentary startup gesture;polarity/runtime andlaterguide applicability unresolved. Next freshShopee discovery or exactoriginalquickguide revision audit;avoidretailerpowerinference andrepeat cachedoffers.",
     "next_models": [],
     "after_queue": "364active/46brands;305guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -61223,6 +61223,14 @@
       "source": "https://shopee.co.id/TC-Helicon-Harmony-Singer-2-Vocal-Effect-Pedal-Efek-Vokal-i.250276993.25734277597",
       "status": "partial",
       "finding": "Additional exactlisting retained withtwo conflicting cacheprices;no qualified new/usedprice orcurrentstock."
+    },
+    {
+      "model": "TC-Helicon Harmony Singer 2",
+      "destination": "TC-HELICON.md#harmony-singer-2",
+      "checked_date": "2026-10-18",
+      "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf",
+      "status": "partial",
+      "finding": "Originalp5–6 controlgesture andelectricalnoise/response saved;power/revision gaps retained."
     }
   ],
   "discovery_cross_brand_bass": {
