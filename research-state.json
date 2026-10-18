@@ -75413,9 +75413,25 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Valeton GP-200R variant",
-    "task": "Saved additional exact offers and voucher/index conflict; next fresh Shopee GP-series discovery, then unresolved fields. Commit useful model findings before researching another.",
+    "model": "Valeton GP-100VT finish variant",
+    "task": "Saved exact sold-out hardware asks and primary regional height/rhythm conflicts. Next fresh Shopee discovery for missing eligible models; variant is part of GP-100.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
+  },
+  "gp100vt_variant_20261018": {
+    "classification": "GP-100 finish variant; not an additional active model",
+    "sources": [
+      "https://www.valeton.net/product/gp-100vt/",
+      "https://zh.valeton.net/product/gp-100vt/",
+      "https://shopee.co.id/Valeton-GP-100-VT-Multi-Effect-Processor-i.19576516.9586875799",
+      "https://shopee.co.id/VALETON-GP-100-VT-EFEK-GITAR-GP100-GUITAR-EFX-PEDAL-DIGITAL-MUTIEFX-i.171167271.24176095566"
+    ],
+    "conflicts": [
+      "English 28mm height versus Chinese 29mm; axes retained",
+      "100 patterns advertised versus99 specification"
+    ],
+    "offers": "2625000 IDR Imagination and2200000 IDR Sadewa;bothHabis,conditionunknown",
+    "unqualified_lead": "Aliska GP100VT2200000 storefront snippet lacks item identity on reopen",
+    "next": "Continue fresh Shopee brand/series discovery, then exact required fields; do not duplicate GP-100VT count."
   }
 }

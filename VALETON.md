@@ -255,6 +255,20 @@ Checked 2026-10-18 in the manufacturer-authored firmware-1.8 manual; revision sc
 | USB audio routing | Left and right recording sources independently select Dry or Effect. Record level −20 to +20 dB; monitor −20 to +6 dB. Printed p12. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
 | EQ / Global EQ DSP restriction | Four parametric bands plus low/high cuts; **does not affect USB audio output**. Resource-heavy patches can overload when Global EQ is applied. Printed pp13–14. [Manual](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) |
 
+### GP-100VT — finish variant and exact Shopee offers
+
+Checked 2026-10-18. [Valeton's exact VT page](https://www.valeton.net/product/gp-100vt/) describes a violet finish and the same functionality as GP-100. Retain as a labelled variant of this existing model, not another unique processor. No VT-specific installed firmware or panel count was inspected.
+
+| Field | Evidence / qualification |
+|---|---|
+| Dimensions / GP-100VT source conflict | English VT page: **198 W ×134 D ×28 H mm,800 g**; [Chinese VT page](https://zh.valeton.net/product/gp-100vt/): **198 length ×134 width ×29 height mm,800 g**. Keep axes and height discrepancy; maximum pedal travel is unverified. Neither figure silently replaces the standard GP-100 record. |
+| Processing / GP-100VT rhythm conflict | Exact English VT page advertises **100** patterns but specifies **99**. Preserve both; no inferred metronome reconciliation. The earlier GP-100 firmware-1.8 category census is not independently audited VT firmware. |
+| IDR / GP-100VT condition-unverified sold-out ask | **Rp2.625.000**, [Imagination Music Store,shop19576516/item9586875799](https://shopee.co.id/Valeton-GP-100-VT-Multi-Effect-Processor-i.19576516.9586875799),Kota Jakarta Pusat. Direct cached text,three-week crawl,**Habis**. Relative two-hour delivery does not establish availability. |
+| IDR / GP-100VT condition-unverified sold-out ask | **Rp2.200.000**, [SadewaMusikAudio,shop171167271/item24176095566](https://shopee.co.id/VALETON-GP-100-VT-EFEK-GITAR-GP100-GUITAR-EFX-PEDAL-DIGITAL-MUTIEFX-i.171167271.24176095566),Kab.Bantul. Direct cached text,last-month crawl,**Habis**,stale23–25August arrival. |
+
+Both exact items are historical asks,not completed sales or verified new/used ranges. Working condition,selected variation,adapter/bundle,warranty,authenticity,shipping/tax and checkout voucher eligibility remain unknown. Late-arrival compensation is not subtracted. Aliska Musik's older storefront snippet also showed GP100VT Rp2.200.000, but the reopened [store](https://shopee.co.id/aliskamusikshop) did not expose that item; without exact item identity it is an unresolved lead,not another qualified offer. No local download or visual inspection.
+
+
 ## GP-150
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
