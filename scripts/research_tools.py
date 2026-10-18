@@ -657,7 +657,7 @@ def main():
         if mode == 'commit-a1four':
             message = 'research(zoom): document A1 FOUR synth algorithms and additional-effect scope'
         if mode == 'commit-b3n':
-            message = 'research(zoom): qualify B3n dated host compatibility and update persistence'
+            message = 'research(zoom): separate B3n patch emulation from GCE-3 USB audio'
         if mode == 'commit-g3n':
             message = 'research(zoom): verify G3n external expression enable path'
         if mode == 'commit-g5n':

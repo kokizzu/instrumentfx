@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DK iE-550",
-    "task": "Clarified minimum rotary/FS count,unknownbuttonmapping,AUXsocketuncertainty andiOSsummary. Fullmanual/NAMinstructionsinaccessible;deferthosewithoutdownload. Next freshShopeediscoveryorprimarygapsof anotheractive model.",
+    "model": "Zoom B3n",
+    "task": "Saved GCE3 emulation versus B3n USB audio distinction. Fresh bass search found no qualified new model;existing B3n offer deduplicated. Next fresh discovery or another required primary gap.",
     "next_models": [],
-    "after_queue": "350partialmodels;154bass;legacyconsolidationincomplete;no downloads/workflows/push."
+    "after_queue": "350 partial models;154 bass;legacy consolidation incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45625,7 +45625,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DK iE-550."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B3n."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -76421,5 +76421,18 @@
       "| Editor / software | DKit iOS/Android editing; **USB2.0 Type-C recording44.1kHz/16-bit**, also firmware transfer. Converter specification24-bit is separate. Channels,drivers,currentOS anddesktop editor unknown. [Q] |"
     ],
     "access": "Supportroutefailed;fullmanual/NAMinstructionsnotread. Noarchiveorfwaredownload. Native/conversionstillunknown."
+  },
+  "b3n_gce3_scope_20261018": {
+    "source": "https://zoomcorp.com/documents/1956/E_GuitarLab_v7.0.pdf",
+    "page": 32,
+    "finding": "B3n emulation/patch sharing documented;USB interface belongs toGCE3,not automaticallyB3n",
+    "discovery": {
+      "queries": [
+        "site:shopee.co.id Zoom BFX708 bass",
+        "site:shopee.co.id Zoom BFX 708 II",
+        "site:shopee.co.id Digitech BP355 bass"
+      ],
+      "result": "No qualified new exact hardware;specialists/nonmusic rejected;B3n new-title offer1812968664 already recorded,direct reopen failed;no market-absence claim"
+    }
   }
 }

@@ -1897,6 +1897,16 @@ Checked 2026-10-18. Compatibility tables establish manufacturer verification sta
 | Firmware / patch preservation | Original manual explicitly says a firmware-version update **does not erase saved patches**. No firmware was downloaded or installed, and this is not evidence that an offered unit already has version2.20. | [Own manual p45](https://zoomcorp.com/media/documents/E_B3n.pdf) |
 
 
+### B3n — Guitar Lab emulation versus hardware USB audio
+
+Checked 2026-10-18 against [Zoom Guitar Lab7.0 manual,p32](https://zoomcorp.com/documents/1956/E_GuitarLab_v7.0.pdf), manufacturer-hosted original text. No software or files downloaded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / GCE-3 emulation | Guitar Lab lists B3n among GCE-3 emulated products and documents editing/sharing patches with compatible processors. This is a separate hardware-emulator workflow, not evidence that desktop Guitar Lab alone processes B3n audio. Exact present-version compatibility and transferred-library restrictions remain unverified. |
+| USB / audio capability boundary | The manual explicitly assigns USB audio-interface operation to **GCE-3**. Do not transfer that capability to B3n because its name appears in the emulation list; B3n's own documented USB MIDI remains distinct and USB audio is still unverified. |
+
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
