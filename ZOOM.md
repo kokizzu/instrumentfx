@@ -4507,3 +4507,16 @@ Checked 2026-10-19. Manufacturer-hosted full PDFs exceeded web-reader size limit
 | Looper / capacity and interaction | Approximately **5seconds**,overdubbing;rhythm can accompany playback. Activating looper turns **DELAY off**;parameter knobs control looper rather than rhythm. Note-length/manual recording,tempo40–250BPM. Retention andundo remain unverified. [Own manual pp13–14](https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf). |
 
 No inference that maximum8 modules remain available with looper,or that internal converter specifications describe USB transport. No software,firmware or files downloaded.
+
+### G2Nu — memory layout and rhythm census
+
+Checked 2026-10-19 against indexed [manufacturer manual pp3,22,51](https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf); full PDF remains above reader size limit. Original family title and G2Nu-specific panel match; no visual inspection or device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / factory fill | User banks **A–J**,10patches each, are writable; preset banks **0–9** are recall-only. At shipment user banks duplicate preset-bank contents:200 locations,not200 distinct supplied sounds. This resolves initial fill/protection uncertainty. |
+| Memory / Store versus Swap | Short STORE/SWAP press selects Store;holding selects Swap. Swaps work only between user-bank patches. No claim that preset-bank originals are overwritten. |
+| Looper / rhythm pattern census | **40 numbered entries**:36 styles plus **Metro3,Metro4,Metro5,Metro**. Thus40 is a combined drum/metronome count,not40 drum grooves plus extra clicks. Table labels6Per8 as3/4;retain source wording rather than silently correcting time signature. |
+| Processing / module identity | Eight named modules:COMP,EFX,ZNR,DRIVE,EQUALIZER,MODULATION,DELAY,REVERB. EQ low/mid andhigh editing positions do not establish two independently assignable EQ modules. |
+
+Complete category-choice census,physical control totals andcurrent host compatibility remain unresolved. No downloads.

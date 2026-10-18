@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(zoom): qualify G2Nu USB audio and looper interaction'))
+    print(git('commit','-m','research(zoom): resolve G2Nu memory layout and rhythm census'))

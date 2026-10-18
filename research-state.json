@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G2Nu",
-    "task": "G2Nu USB/looper qualified from indexed original text. Next control totals,category census,memory andrhythm patterns using exact manual;preserve PDF-size access limit.391partial;migration incomplete.",
+    "task": "G2Nu memory/rhythm/module identities saved. Next exact physical control totals and83-type category census;current OS/qualified IDR unresolved.391partial;migration incomplete.",
     "next_models": [
       "Zoom::G2Nu"
     ],
@@ -121258,5 +121258,17 @@
     ],
     "access": "Indexed manufacturer manual passages pp13–14,29; direct PDFs rejected size. No full PDF/image inspection.",
     "findings": "USB16bit32/44.1/48kHz;historical hosts,ASIO/direct monitoring;USBbus withswitchOFF;5slooper disablesDELAY;rhythmconcurrency40–250BPM."
+  },
+  "g2nu_memory_rhythm_20261019": {
+    "source": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+    "access": "Indexed original pp3,22,51; full PDF size limit remains.",
+    "resolved": [
+      "A–J writable,0–9 recall-only",
+      "factory user banks duplicate presets",
+      "user-only swap",
+      "40combined rhythms including4metronomes",
+      "eight named modules"
+    ],
+    "qualification": "200 locations not200unique factory sounds;6Per8 source labels3/4 retained."
   }
 }
