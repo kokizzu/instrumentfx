@@ -937,6 +937,12 @@ Checked 2026-10-18 against the [own operation manual](https://zoomcorp.com/media
 | Power / battery and ECO | Battery-meter setting selects **ALKALI or Ni-MH** to match installed cells; this does not establish internal charging. ECO defaults ON and powers off after **10 hours without use**; OFF disables that function. |
 | Display / backlight and contrast | Backlight choices: **OFF, ON, 15 seconds or 30 seconds after the last operation**. Contrast spans **1–13**. These settings do not resolve diagonal, color or touch capability. |
 
+### B1 FOUR — direct expression-path screening
+
+Checked 2026-10-19 against [own manufacturer operation manual, pp7–10,13](https://zoomcorp.com/media/documents/E_B1FOUR.pdf). Complete rear connector inventory lists INPUT, AUX IN, DC, USB and shared OUTPUT/headphones; **no analog EXP/CONTROL input**. B1 FOUR fails the requested direct expression path. The manual explicitly limits integrated-pedal instructions to B1X FOUR. Retained output volume/EQ settings across patches are not expression assignment.
+
+MEMORY mode provides lower/higher patch switching; BANK HOLD and PRESELECT qualify navigation/recall. Normal bass pickup input needs no divided pickup; guitar voicing remains unclassified. Existing130W×156Dmm exceeds preferred depth. Direct-expression placement/range and bypass/headphone/tail/loop attenuation are not applicable without that input. No USB controller workaround certified. Existing prices and all older technical qualifications remain preserved. No downloads or device operation.
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.
