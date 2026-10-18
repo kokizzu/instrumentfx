@@ -2649,7 +2649,7 @@ Guitar multi-effects, distinct from G1Xon and G1 FOUR. Checked 2026-10-17; parti
 | Expression | No built-in expression or toe switch; shared manual marks these G1Xon-only. Noexternal EXP socket in complete panel inventory. | [Shared manual pp4–5][G1ON-M] |
 | K/F/B | **1 / 2 / 8**, text-derived:Parameterknob;twofoot switches;MENU,HOME,ENTER,RHYTHM/LOOPER andfourcursor keys. Virtualknobs excluded. Visualcorroboration pending. | [Manual p4][G1ON-M] |
 | Display | **Backlit dot-matrix LCD**; diagonal, color and touch unverified. | [Zoom G1on][G1ON-P] |
-| Dimensions / mass | **146×154.8×43 mm W×D×H;380 g without batteries**. Compact footprint. | [Zoom G1on][G1ON-P] |
+| Dimensions / mass | **146×154.8×43 mm W×D×H;380 g without batteries**. Depth exceeds current140mm preference; historical compact label superseded. | [Zoom G1on][G1ON-P] |
 | Processing / category choices | **Five simultaneous**, reorderable andDSP-limited;PROCESSING LIMIT bypasses theover-budgeteffect. Product advertises100 effects; shared2013 manual G1on75. Published subtotals11 dynamics/filter+12 drive+22 amp+16 modulation/SFX+14 delay/reverb=75. Revision conflict unresolved;notG1Xon's80. | [Product][G1ON-P];[Manual p31][G1ON-M] |
 | Factory / user memory | **100 writable patches,10×10**. Auto Save andPre Select documented; AutoSave defaultsON;unsavedpatches cannotbe swapped. Initial factory-filled subset pending. | [Zoom G1on][G1ON-P] |
 | Synth / acoustic | **Aco.Sim** hasTop,Body andLevel controls for electric-to-acoustic tone/bodyresonance. Synth capability unverified. | [Official shared effectlist p6][G1ON-F] |
@@ -2678,6 +2678,12 @@ Secondary fullset item194129824/26177529440 directcachemiss;noqualified price,bu
 [G1ON-M]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf
 
 [G1ON-F]: https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf
+
+### G1on — direct expression-path and footprint screening
+
+Checked 2026-10-19 against [own manufacturer manual, pp4–5,8](https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf). Complete connectors are INPUT, AUX IN, shared OUTPUT/headphones, USB and DC; **no analog EXP/CONTROL input**. G1Xon’s treadle is separate. Normal guitar input requires no divided pickup. Direct analog volume fails; no USB controller workaround certified.
+
+The earlier “compact” label is superseded for this audit: **146W×154.8Dmm** exceeds the140mm depth preference. Manual documents patch changes/continuous stepping, but missing extracted control symbols leave exact footswitch mapping unverified. Shared headphones are documented. Direct-expression position/range and bypass/headphone/tail/loop attenuation are not applicable without that input. Historical offers and all remaining technical qualifications stay preserved. No downloads or hardware operation.
 
 ## 505II
 
