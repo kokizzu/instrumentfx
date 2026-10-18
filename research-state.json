@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 391,
+  "active_model_count": 392,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 391,
+  "canonical_root_model_count": 392,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "391 unique active/root-canonical;0 legacy-only;47brands;sixexcluded;allpartial.",
+  "count_reconciliation": "392 unique active/root-canonical;0 legacy-only;47brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery",
-    "task": "G2Nu manual census and live restrictions saved;79+4cabinet=83 remains hypothesis. Defer missing screen/currentOS/IDR pending stronger evidence;resume other exact hardware series.391partial;migration incomplete.",
-    "next_models": [],
-    "after_queue": "No downloads/workflows/push."
+    "model": "BOSS GT-Pro",
+    "task": "Read exact manual for control counts,external expression,loop wiring,memory,USB audio andcategory choices;preserve overview stereo-loop ambiguity.392partial;migration incomplete.",
+    "next_models": [
+      "BOSS::GT-Pro"
+    ],
+    "after_queue": "Fresh Shopee discovery;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24855,7 +24857,8 @@
       "SE-50",
       "GT-10B",
       "MS-3",
-      "AD-2"
+      "AD-2",
+      "GT-Pro"
     ],
     "CUVAVE": [
       "H8"
@@ -25571,7 +25574,8 @@
       "SE-50",
       "GT-10B",
       "MS-3",
-      "AD-2"
+      "AD-2",
+      "GT-Pro"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -25777,7 +25781,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 326,
+      "record_count": 327,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25807,10 +25811,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 326 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 327 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "391 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "392 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46243,10 +46247,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 391,
-    "canonical_root_models": 391,
+    "unique_brand_model_pairs": 392,
+    "canonical_root_models": 392,
     "legacy_only_models": 0,
-    "guitar_view_models": 326,
+    "guitar_view_models": 327,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
@@ -46341,7 +46345,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-Pro."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46382,6 +46386,7 @@
       "BOSS::SE-50",
       "BOSS::MS-3",
       "BOSS::AD-2",
+      "BOSS::GT-Pro",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -47415,6 +47420,13 @@
     },
     "BOSS::AD-2": {
       "link": "BOSS.md#ad-2",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::GT-Pro": {
+      "link": "BOSS.md#gt-pro",
       "source_files": [
         "BOSS.md"
       ],
@@ -121312,5 +121324,14 @@
       "site:zoomcorp.com \"G2Nu\" \"83\" \"effects\" \"cabinet\""
     ],
     "result": "No explanatory indexed primary result."
+  },
+  "gtpro_discovery_20261019": {
+    "source": "https://www.boss.info/global/products/gt-pro/",
+    "queries": [
+      "site:shopee.co.id \"Boss\" \"GT-PRO\"",
+      "site:shopee.co.id \"VOX\" \"ToneLab\" \"desktop\"",
+      "site:shopee.co.id \"Digitech\" \"GNX2\""
+    ],
+    "result": "No qualified unrecorded Shopee hardware;GNX adapters rejected. Manufacturer confirms missing eligible GT-Pro;added separately without invented IDR."
   }
 }

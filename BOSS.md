@@ -3795,3 +3795,28 @@ Acoustic fixed-chain processor; partial, checked 2026-10-18. Included for distin
 | Audio / electrical specifications | [AD-2 own specifications](https://www.boss.info/global/products/ad-2/): nominal input and both outputs **−20dBu**; input **10MΩ**. OUTPUT impedance **1kΩ**,recommended load≥10kΩ; LINE OUT impedance **600Ω**,recommended load≥600Ω. Output impedance and connected load are separate ratings; no measured results claimed. |
 
 <!-- comparison evidence ends -->
+
+## GT-Pro
+
+Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://www.boss.info/global/products/gt-pro/) marks discontinued. Rack guitar multi-effects,not GT-8;ownership andbass/vocal suitability unverified.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | EXP1,EXP2/CTL3,4 andCTL1,2 sockets;externalEV-5/FV-300L listed. Built-in/toe unverified. |
+| Knobs / footswitches / buttons | Separate totals unverified;no visual audit. |
+| Display | Backlit16×2-characterLCD plus2-character7-segmentLED;diagonal,color,touch unverified. |
+| Processing / categories | 46amp models,two combinable;44effect categories,15reorderable blocks. Simultaneous ceiling/category choices unverified. |
+| Memory | 200user+200preset=400;factory fill/protection unverified. |
+| Synth / acoustic | Acoustic andsitar emulation documented;dedicated synth unverified. |
+| Dimensions / mass | 482 W×305 D×89 H mm;4.8kg. |
+| I/O | FrontINPUT/PHONES;rearINPUT,direct/tunerout,mainL/R,subL/R,subXLRL/R,PRELOOPsend/return,LOOP1/2send/return,AMPCTRL1/2,EXP1,CTL1/2,EXP2/CTL3/4,coaxdigital,USB,MIDIin/out/thru. Overview callsloopsstereo;per-loopwiring unresolved. |
+| Power | RegionalAC117/230/240V;16Wconsumption. Battery/USBpower unverified. |
+| USB / recording | USBaudio;coax24-bitS/PDIF;44.1kHzinternal sampling. USBstream format/channel count unverified. |
+| IR / NAM / capture | User import unverified. |
+| Editor / platforms | Mac/PCeditor/librarian;Maceditor10.2.3–10.6.8,explicitly not10.7+. Legacydrivers separate;currenthost compatibility unverified. |
+| Looper / drums / live | Solo mode,picking-dynamics amp switching;looper/drums/scenes/trails unverified. |
+| IDR verified used | Unknown. |
+| IDR verified new | Unknown. |
+| IDR condition-unverified ask | Unknown. Exact Shopee GT-PRO search returned unrelated products;no qualified seller/item hardware offer. Condition,stock,bundle,warranty,region,voucher unverified. |
+
+Text evidence only;no files,firmware,software ordependencies downloaded orrun.
