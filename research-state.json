@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "PERFORM-VK MIDI expression and recall distinctions saved;next verify remaining exact-model hardware/power/control inventory orfresh cross-brand Shopee offers,without repeating unchanged evidence.",
+    "task": "PERFORM-VK own-text control count/global tempo saved. Next pursue fresh cross-brand Shopee discovery ormanufacturer hardware gaps;avoid repeating unchanged TC-HELICON sources/offers.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -61859,6 +61859,22 @@
         "Direct expression socket,built-in/toe control unresolved.",
         "Harmony style revision conflict and complete hardware/power inventory remain open."
       ]
+    },
+    {
+      "model": "TC-HELICON PERFORM-VK",
+      "checked_date": "2026-10-19",
+      "sources": [
+        "https://imagescdn.juno.co.uk/manual/643242-01U.pdf",
+        "https://device.report/m/e0b05e0c2e3bf69502ed993ff12449ffda781853371a00b21f6ed520ef6d2ed3.pdf",
+        "https://manuals.plus/m/8c96a8244d3570c3bd4f681fe182279658c58485bd5d6dad3883f846a79abb23_optim.pdf"
+      ],
+      "findings": [
+        "VK-specific text inventory and tempo persistence saved in root brand section;image rendering unavailable."
+      ],
+      "remaining": [
+        "Control count is text-derived,not visually certified.",
+        "Dimensions,power and unresolved firmware conflicts remain."
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
@@ -108464,14 +108480,6 @@
             ]
           },
           {
-            "field": "K/F/B",
-            "source": "TC-HELICON.md",
-            "signals": [
-              "unverified",
-              "unresolved"
-            ]
-          },
-          {
             "field": "Display",
             "source": "TC-HELICON.md",
             "signals": [
@@ -108581,6 +108589,13 @@
             "source": "TC-HELICON.md",
             "signals": [
               "conflict"
+            ]
+          },
+          {
+            "field": "Live / Anti-Feedback status",
+            "source": "TC-HELICON.md",
+            "signals": [
+              "not_established"
             ]
           },
           {
@@ -119567,7 +119582,7 @@
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
-      "TC-HELICON.md": "b136576b55239925f7feed238c0be8421491350057a4d4bb0844fc78a1c0c6d7",
+      "TC-HELICON.md": "2efca393f835915b81764ea2c17504b36e4a1fa0a299cbfe9fd424e30206d324",
       "CUVAVE.md": "245b3f9975423a1b9a6f6facef5c9d2ddcc5fe5ebaa6134141678c66bde0c799",
       "KORG.md": "680acff51ff33a47cbb26e1c3ffdfb05e3de37fb3152d2b8bf99e6f4f8d46547",
       "BLACKSTAR.md": "b669de5ae77c32f44e641de26714593d055d169b71576b4866f2a3665f7431b9",
@@ -119587,7 +119602,7 @@
       "VOX.md": "7087c2c9689338adff6f0cff2449fa98b138812bac122bd393d989bcaad1dc62",
       "BOSS.md": "0d23479246ef2637728cc24c448bc44b72d6185c3ace982be064814f9a0aa992",
       "KEELEY.md": "bf2e0764ec43eedcfbfc9839452586b4b9c835948fc7315f5e935472f9d45d1a",
-      "ALL-VOCAL.md": "50582d9b2384086a0adbe0f967753c94d38f00b7c3c69175d470758bfda3023e",
+      "ALL-VOCAL.md": "c7bb7b13511ef4b447b59dbd80b9d99a9a757072df3dd25523f0d9201ce79f94",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
       "DONNER.md": "c37c37a6d312decc6f18ea53df29fb6683f01ed89fdd5bbec65feb8dd2c44837",

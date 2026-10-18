@@ -437,7 +437,7 @@ def main():
         if mode == 'commit-perform-vg':
             message = 'research(tc-helicon): qualify PERFORM-VG gain controls and conflicting cached asks'
         if mode == 'commit-perform-vk':
-            message = 'research(tc-helicon): document PERFORM-VK MIDI expression and recall'
+            message = 'research(tc-helicon): enumerate PERFORM-VK controls and tempo persistence'
         if mode == 'commit-perform-v':
             message = 'research(tc-helicon): qualify PERFORM-V preorder hardware offer'
         if mode == 'commit-dapper-indie':

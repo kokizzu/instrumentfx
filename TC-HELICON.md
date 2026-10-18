@@ -597,7 +597,7 @@ Keyboard-guided vocal multi-effects,distinct from V/VG/VE. Checked2026-10-17;ini
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in/toe and direct continuous-pedal socket support unverified. **External MIDI expression CC11 controls Harmony Level**, marked volatile. This does not establish an analog EXP socket; Switch-3/6 are separate button remotes. | [Manual p12][PVK-O];[MIDI table p12][PVK-J] |
-| K/F/B | Separate knob/footswitch/button inventory unverified;do not borrow PERFORM-V counts. | Unresolved |
+| K/F/B | **1 / 0 / 14**,text-derived inventory from VK-specific operating sections:central Control Knob;SET,Tone,Anti-Feedback,Pitch,+48V,Harmony,Reverb,Echo,presets1–3,Headphone,Tap,Talk. No built-in footswitch documented;Switch-3/6 are external. PDF image rendering failed,so this is not an independently visual count. | [Own manual pp6–11][PVK-J];[central knob product sheet p2][PVK-P] |
 | Display | **Four-color LED ring** around central knob shows level/style and pitch accuracy;screen diagonal,color-LCD/touch unverified. Brightness persists through power cycles;manual gives differing SET interaction instructions. | [Editing/Pitch Guide/Set sections][PVK-M];[Product sheet p2][PVK-P] |
 | Dimensions / mass | Unverified. | Unresolved |
 | Processing / category choices | Onboard Harmony/Reverb/Echo;beamable Double/Megaphone/HardTune/µMod. Adaptive Tone combines EQ,compression,de-essing,gate;global pitch correction and anti-feedback. Imported presets support up to7 effects;global processing accounting remains separate. Reverb Room/Club/Hall and Echo quarter/eighth/Slap each add an imported style. Harmony lists **12 choices**: High, Higher, Low, Lower, High+Low, High+Higher, Higher+Lower, Low+Lower, Notes natural/tight and 8-channel natural/tight. Tight reduces humanization. This conflicts with generic four-style wording. | [Manual pp4–5][PVK-O];[Editing/Import sections][PVK-M] |
@@ -705,6 +705,14 @@ Checked2026-10-18. Original fifteen-page manufacturer manual: PERFORM-VK title, 
 | Expression / MIDI controller | **CC11 Harmony Level**,CC1 harmony vibrato boost andCC64 Notes Sustain are marked volatile. Pitch bend controls harmony pitch with range set byRPN0. These are incoming MIDI controls,not additional physical knobs orproof ofan analog expression input. | [Manufacturer manual p12][PVK-J] |
 | Processing / MIDI effect switching | CC21–27 switch Harmony,Delay,Reverb,Double,HardTune,Transducer andµMod HIT controls;CC28 toggles HIT. Values0–63 off,64–127 on. Parameter access doesnot add simultaneous blocks orfront-panel switches. | [Manual p12][PVK-J] |
 | Memory / MIDI persistence limits | Manual marks Harmony MixCC74,Delay LevelCC71,Reverb LevelCC73 andReverb DecayCC91 as preset parameters;Talk/BypassCC81 andanalog overall-outputCC102 are volatile. MIDI control availability doesnot imply every parameter isrecalled bya preset. | [Manual pp12–13][PVK-J] |
+
+
+### PERFORM-VK — tempo persistence and feedback indicator
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Memory / Echo tempo | Tap sets Echo tempo globally;it is **not stored within presets**. This qualifies automatic effect-state/style/level saving above. | [Manufacturer quick guide v4.0,printed pp16–17][PVK-Q] |
+| Live / Anti-Feedback status | Anti-Feedback lights blue when suppressing offending frequencies. Constant flashing means its available correction is exhausted;it doesnot establish an additional scene ormemory slot. | [Manufacturer manual p8][PVK-J] |
 
 <!-- comparison evidence ends -->
 
