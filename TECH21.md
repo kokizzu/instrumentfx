@@ -140,6 +140,15 @@ Checked2026-10-18 against the exact [©2021 manufacturer manual][BFR2-M],printed
 |---|---|
 | I/O / computer recording connection | The manual’s sound-card/computer-input application uses the **unbalanced low-impedance quarter-inch analog output**. This is not evidence of an onboard USB audio interface, computer editor or digital capture transport. Numerical output impedance remains unspecified in the inspected text. [Own manual pp1–2][BFR2-M] |
 | Live / tuner gesture qualification | Hold **CHORUS/TUNER** to engage the tuner and mute the signal path. The exact-model instructions supply **no numeric hold duration or calibration range** here; do not substitute the guitar Fly Rig5 v2’s half-second gesture. Green means in tune; red arrows indicate flat/sharp. [Own manual p6][BFR2-M] |
+
+### Bass Fly Rig v2 — tuner indication and supplied prongs
+
+Checked 2026-10-18 against the [©2021 manufacturer manual, printed pp6–7][BFR2-M]. Browser text only; no file download or device operation.
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| Display / tuner direction | Red up-arrow means flat: raise pitch; down-arrow means sharp: lower pitch. The arrow blinks faster approaching correct pitch, then goes out as green lights. These LED behaviors do not establish a screen diagonal, touch support or tuner calibration range. |
+| Power / supplied regional prongs | Manual specifies the adapter arrives with a US prong assembly and includes European, UK and Australia/New Zealand alternatives. This describes the documented factory package, not any seller bundle or proof of a particular plug certification. The existing200/250mA adapter-rating discrepancy remains unresolved. |
 <!-- comparison evidence ends -->
 
 Shopee searches for “Bass Fly Rig” and “bass flyrig” on 2026-10-17 did not resolve an exact Indonesian hardware seller/item. This is not proof of market absence. Seller/item, condition, stock, region, revision, bundle, adapter, warranty and voucher remain unverified. No foreign currency conversion or sibling-model offer substituted.
