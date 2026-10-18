@@ -992,6 +992,12 @@ Checked2026-10-19. [Manufacturer firmware index](https://www.valeton.net/firmwar
 
 [HOLY MUSIC,945642322/55704518866](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866),KotaJakartaUtara: **Rp2.255.000**, direct extracted month-old cache. Relative5-hour delivery is not current stock proof. Condition,variant,bundle,adapter,warranty,shipping/tax/voucher andcheckout total unverified;Rp10k late-delivery compensation is not anupfrontdiscount. OlderRp2.245.000 search/Rp2.255.000 reopening discrepancy remains historical. No qualified used quote. No downloads ordevice/software operation.
 
+### GP-50 — exact1.1.0 documentation located
+
+Checked2026-10-19. [Official1.1.0 manual entry](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) dated2026-08-26 resolves to [specific manufacturer-linkedPDF](https://res.diversitone.com/Uploads/wp/download/1787705999178.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.1.0.pdf);reader access failed,so contents/globalEXPoverride remainuncertified. Displayed238B metadata isnotverifiedPDFsize. [Officialfirmwareentry](https://www.valeton.net/wpfd_file/gp-50-firmware-v1-1-0-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) dated2026-08-25 explicitly pairs1.1.0 withdesktop/mobile2.1.0;package notfetched,latestinstalledversion unknown. Thissupersedes earlierinabilitytolocateexactentries,not1.0.5technicalscope.
+
+[HOLYMUSIC945642322/55704518866](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866) reopenedmontholdcache **Rp2.255.000** versussearch2.245.000;historicalsnapshotconflict retained. Stock,condition,variant,bundle,warranty,deliveredtotal unknown. Late-deliveryvoucher notupfrontdiscount. No downloads ordeviceoperation.
+
 ## Dapper Bass VES-2
 
 Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.

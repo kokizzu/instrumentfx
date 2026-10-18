@@ -150,3 +150,5 @@ GT-1000CORE revision follow-up2026-10-19: [official2.02 history](https://www.bos
 HX Stomp revision follow-up2026-10-19: [own firmware history](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) documents3.50 expression-bypass behavior andPathB restore fixes. They qualify mapping/placement reliability, not global volume insertion orfull output coverage. See [LINE6](LINE6.md#hx-stomp).
 
 M-VAVE identity follow-up2026-10-19: [official catalogue](https://www.cuvave.com/download) separates Chocolate/CubeSuite fromFootCtrl/FootCtrlPlus/MidiSuite support. PD41 E/F bank-control references are not proof of originalChocolate hardware layout oranalog expression wiring. [Full qualifications](M-VAVE.md#controller-identity-and-software-scope-follow-up).
+
+GP-50 follow-up2026-10-19: exact official1.1.0 manual/firmware entries located;manufacturer-linkedPDF inaccessible toreader. GlobalEXPscope remainsunverified;see [revision-qualified evidence](VALETON.md#gp-50).
