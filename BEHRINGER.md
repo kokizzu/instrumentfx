@@ -392,6 +392,18 @@ Checked 2026-10-18 against the [manufacturer manual, Version 1.2][D24-M], printe
 | Live / preset activation | Manual specifies about **one second** before a newly selected preset activates. Rapid Jog selection skips intermediate programs; this is not seamless switching. |
 | Memory / source numbering conflict | Prose states100 factory+100 user, but prints inclusive rangesI.000–I.100 andU.000–U.100. Retain the inconsistency; do not infer202 memories. |
 
+
+### DSP2024P — reverb choices and dual-engine routing
+
+Checked 2026-10-18 against the [manufacturer-authored Rev B manual copy](https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf), original DSP2024P cover and matching section structure; printed pp.11–12,25. Older revision supplements Version1.2; it does not certify installed firmware.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / reverbs 12 | Cathedral, Gold Plate, Small Hall, Room, Studio, Concert, Stage, Spring Reverb, Ambience, Early Reflections, Gated Reverb, Reverse Reverb. Twelve alternatives within the library, not twelve concurrent reverb engines. |
+| Category choices / delay descriptions | Stereo Delay, Tape Echo and Ping Pong are named in section2.2. Table-level numbering and full-library reconciliation remain open. |
+| Processing / combination configuration | Programs61–71 support **SER1, SER2 or PARA**: two serial orders or parallel operation. These configure the selected paired program; arbitrary selection of two unrelated algorithms is not established. |
+| I/O / wet-dry output modes | **EXTN** sends100% wet output for mixer aux use; **INTN** allows Mix/Bypass to set the effect balance for serial amp-loop use. This is internal mix configuration, not an extra external-loop connector. |
+
 <!-- comparison evidence ends -->
 
 [D24-M]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual

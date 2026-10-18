@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer DSP2024P",
-    "task": "Saved DSP2024P11pairedprograms,vocoder routing,activationdelay andnumberingconflict. Next readableoriginalappendix/table evidence forfull71census orfresh exacthardwareidentity; commit before nextmodel.",
+    "task": "Saved DSP2024P12reverbs,delay descriptions,3pairedroutingmodes andEXTN/INTNmix. Bothmanualcopiesomit tabletext;next freshhardwarediscovery orotherfield,full71census remainsopen.",
     "next_models": [],
     "after_queue": "348partial unique models;114Markdowncompat retained. No downloads/workflows/push."
   },
@@ -59502,6 +59502,21 @@
         "Editor/import support"
       ],
       "method": "Manufacturer manual body only; missing extractedtables not reconstructed; no downloads/execution"
+    },
+    {
+      "model": "Behringer DSP2024P",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf"
+      ],
+      "finding": "ManufacturerRevB12reverbnames,3delaydescriptions,SER1/SER2/PARAselectedpairedprograms andEXTN100wetvsINTNmixscope.",
+      "remaining": [
+        "Complete71tablecensus",
+        "ExactShopeehardwareidentity",
+        "Visualcontrols",
+        "Currenteditor/imports"
+      ],
+      "method": "Manufacturer-authoredPDF read viaweb;tabletextomitted;no download/execution"
     }
   ],
   "discovery_cross_brand_bass": {
