@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "ToneLab EX required fields / discovery",
-    "task": "ToneLab EX newer generic driver/chart leads saved without overriding exact-model end-of-support evidence. Next locate readable PC2026/Mac2025 chart rows or progress another required-field gap; no installer downloads.",
+    "task": "ToneLab EX factory subdivision and reset scope saved. New compatibility charts remain unresolved after exact-name/date searches; move to another required-field gap or fresh Shopee series instead of repeating unchanged searches.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79247,5 +79247,17 @@
     "scope": "Current generic v2.1.0 driver and newer chart labels located; exact EX applicability unverified.",
     "next": "Inspect PC2026/Mac2025 exact-model chart rows before changing model support claims; do not download installer.",
     "remaining": "USB channel/transport and current librarian/driver support remain unresolved."
+  },
+  "vox_tonelab_ex_factory_memory_20261018": {
+    "source": "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf",
+    "printed_pages": [
+      36,
+      38,
+      39
+    ],
+    "destination": "VOX.md#tonelab-ex",
+    "scope": "Factory preset subdivision counted from exact-model list and factory restore overwrite scope verified.",
+    "derivation": "12 complete banks ×4 plus2 =50 song presets;100 factory minus50 =50 basic. User initial allocation not inferred.",
+    "remaining": "New PC2026/Mac2025 compatibility-chart rows still inaccessible through fresh exact-name/date searches; no support conclusion changed."
   }
 }

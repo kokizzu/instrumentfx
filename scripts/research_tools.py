@@ -607,7 +607,7 @@ def main():
         if mode == 'commit-tonelab-se':
             message = 'research(vox): qualify ToneLab SE channel hold and performance limits'
         if mode == 'commit-tonelab-st':
-            message = 'research(vox): preserve newer driver lead without assuming EX support'
+            message = 'research(vox): qualify ToneLab EX factory allocation and restore scope'
         if mode == 'commit-tonelab-le':
             message = 'research(vox): audit ToneLab EX amp cabinets and own clean settings'
         if mode == 'commit-ax1500g':

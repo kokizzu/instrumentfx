@@ -553,6 +553,13 @@ Checked 2026-10-18 against [own E1 manual pp15–21](https://voxamps.com/wp-cont
 | Software / newer generic driver | [VOX downloads](https://voxamps.com/downloads/),checked2026-10-18,lists **VOX2ch v2.1.0**,Windows10(32/64-bit)/11,with a continuous recording/playback-noise fix and stability changes. It says only certain VOX products apply; **ToneLab EX is not identified in the inspected text**. This does not supersede its model-specific end-of-support rows or verify current EX USB transport/editor support. No installer downloaded or run. |
 | Software / compatibility evidence still needed | Same page labels PC chart **04/27/2026** and Mac chart **12/02/2025**, but readable chart contents/links were not exposed. These dates alone establish neither EX compatibility nor incompatibility. Preserve the older exact-model charts above until the newer model rows can be inspected. |
 
+### ToneLab EX — factory program allocation and restore
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| Memory / factory preset subdivisions | Song list enumerates **50 programs**: banks26–37 supply48, bank38 supplies2. Its note identifies the other factory programs as basic presets: **50 song +50 basic =100 read-only factory programs**, separate from100 user locations. Song names do not certify the original artist’s equipment; initial user-area filling remains unverified. [Own E1 manual pp38–39](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
+| Memory / factory-restore overwrite scope | Factory restore replaces **all saved programs with factory-set programs**; it is not a settings-only reset. EXIT/TUNE cancels before WRITE confirmation. This is documentation only; no reset was performed. [Own manual p36](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
+
 ## StompLab 1B
 
 <!-- comparison evidence begins -->
