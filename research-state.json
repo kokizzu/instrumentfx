@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "V3 remaining required fields / discovery",
-    "task": "V3 electrical limits andbattery-type settings saved. Continue otheractive gaps or fresh Shopee hardware discovery;display details,linejackdiameter,editor/imports andcondition-qualifiedoffers remain unresolved.",
+    "model": "Fresh hardware discovery / unresolved model fields",
+    "task": "RP70 category census now explicit;Direct prose lacks a detailed selector mapping andremainsunresolved. TripleThreat/DelayWorkstation original manual access stillunresolved;do not promote retailer diagrams/specifications. Continuefreshbrand/seriesoffersorotherrequiredfields.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45873,7 +45873,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume V3 remaining required fields / discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh hardware discovery / unresolved model fields."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79548,5 +79548,12 @@
     ],
     "scope": "Mic/AUX impedances,AUX rated level,headphone power,noise test conditions,converter oversampling,response and battery-type settings;MicroB explicit.",
     "remaining": "Published display details,exactlinejackdiameter,currentcondition-qualifiedoffers,full editor/import support. No battery runtime borrowed beyond published alkaline estimate."
+  },
+  "digitech_rp70_category_census_20261018": {
+    "destination": "DIGITECH.md#rp70",
+    "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf",
+    "printed_pages": "21–31",
+    "scope": "Complete manual section census replaces stale pending summary;19 defined amp/drive/acoustic entries distinguished from unmapped prose Direct reference.",
+    "remaining": "ChorusFX12-versus15 andDirectmapping unresolved;no invented selector or certifiedalgorithm total. Power,display,software/import andcurrentoffers remainpartial."
   }
 }

@@ -758,7 +758,7 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Expression | No built-in pedal in full panel inventory; Control In accepts passive expression/volume controller, **250 kΩ or greater**. Toe support unresolved. | [Manual pp6–11,35][RP70-M] |
 | K/F/B | **0 rotary / 2 footswitches / 11 buttons total**: ten front (four library/level, Edit pair, Value pair, Drums, Store) plus rear Amp/Mixer. Corrects the earlier total of ten, which omitted the rear button from its arithmetic. Text-derived; visual corroboration pending. | [Manual pp6–11][RP70-M] |
 | Display | Numeric display and effect-matrix LEDs; diagonal/color/touch unresolved. | [Manual p9][RP70-M] |
-| Processing / categories | **Nine simultaneous effects**; full category catalogue pending. | [Manual p35][RP70-M] |
+| Processing / categories | **Nine simultaneous effects**; category census below. Chorus/FX count and Direct selector mapping conflicts remain unresolved. | [Manual p35][RP70-M] |
 | Categories / pickup-wah and dynamics | Two pickup conversions; Cry Baby, Clyde McCoy or Full Range wah. Compressor 1–20; ratio infinity:1. | [Manual pp21–22][RP70-M] |
 | Categories / amp-drive | **12 amp + 6 distortion models**, plus Acoustic simulator; Direct mentioned in overview. Most have nine gain settings; Acoustic/Direct one. Acoustic simulation confirmed, dedicated synth unresolved. | [Manual pp23–24][RP70-M] |
 | Categories / Chorus-FX count conflict | Introduction says **12**, selector table lists **15**: CE-2, Dual Chorus, Flanger, Phaser, Tremolo, Panner, Vibrato, Rotary, YaYa, AutoYa, Step Filter, Envelope Filter, Detune, Pitch Shift, Whammy. Alternatives share this section. | [Manual p26][RP70-M] |
@@ -808,6 +808,13 @@ Checked2026-10-18 against [own manual pp10–11,17–21][RP70-M]. Text only; no 
 | Category choices / editing libraries | **20 Tone Library starting points and20 Effects Library chains**, accessed with their buttons and VALUE±. These reconfigure groups of effects within the selected preset; they are **not40 extra memories or simultaneous blocks**. CU denotes a customized library configuration. [Own manual pp7–8][RP70-M] |
 | Categories / delay variation grid | Each of the four delay models offers **nine feedback/level combinations**: feedback5%,20%,45%, each paired with levels15,30,50. These are fixed parameter variations, not36 independent delay algorithms. Delay time is adjusted separately. [Own manual pp29–30][RP70-M] |
 | Live / bypass and tuner access | Briefly press/release both footswitches for bypass; **buttons are disabled while bypassed**, and either footswitch restores the last preset. Holding both for **two seconds** enters tuner. This does not establish relay true bypass or tail retention. [Own manual pp2,7][RP70-M] |
+
+### RP70 — category census and unmapped Direct reference
+
+| Field | Manual-derived choices / qualification |
+|---|---|
+| Category choices / complete section census | Pickup/Wah **5 alternatives**; compressor **1 process with20 strength settings**; Amp/Distortion **19 defined entries** (12amps,6drives,Acoustic); EQ **1 three-band process**; gate **2 types**; Chorus/FX **15 listed types versus12 in its introduction**; delay **4 types**; reverb **3 types**. Off and numeric parameter variations are excluded. This is a section census, not an explicitly manufacturer-certified unique-algorithm total or concurrency count. [Own manual pp21–31][RP70-M] |
+| Processing / Direct mapping gap | P23 prose mentions Direct with one setting, but pp23–24 enumerate12amps,6distortions,Acoustic andOff without a separate Direct selector code. Do not invent a20th modeled sound, a selector code, or equivalence between Direct andOff. The document mismatch remains unresolved. [Own manual pp23–24][RP70-M] |
 <!-- comparison evidence ends -->
 
 Working state, authenticity, bundle, adapter, warranty, shipping/tax and voucher eligibility unresolved. No download or visual inspection claimed. Manual reached through [official directory][RP70-D], own-model declaration identifies RP70.
