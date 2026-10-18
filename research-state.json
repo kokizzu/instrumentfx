@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G5n",
-    "task": "Saved exact explicitly used3000000IDR ask,mohrifki2105 shop148185983/item10348658140;cached notlive. Next fresh Shopee discovery orremaining exact-model technical fields.",
+    "task": "Saved G5n USB send gain/monitor endpoints,display contrast andPRESEL staging. Next exact-model USB channel/recording guide orfresh Shopee discovery;panel/display/import/price gaps remain.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Zoom G5n",
-    "task": "Saved exact explicitly used3000000IDR ask,mohrifki2105 shop148185983/item10348658140;cached notlive. Next fresh Shopee discovery orremaining exact-model technical fields.",
+    "task": "Saved G5n USB send gain/monitor endpoints,display contrast andPRESEL staging. Next exact-model USB channel/recording guide orfresh Shopee discovery;panel/display/import/price gaps remain.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75684,5 +75684,26 @@
       "site:shopee.co.id Korg AX100B"
     ],
     "result": "No qualified new exactmodel;G2Nu accessories rejected. Existing G5n exactusedoffer followed. Searchfailure notmarketabsence."
+  },
+  "g5n_usb_display_preselect_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "revision": "V2 operation manual",
+    "pages": [
+      25,
+      26,
+      30,
+      32
+    ],
+    "findings": "USB send gain −6 to +6 dB;monitor0direct/100computer;perdisplaycontrast1–13;PRESEL stagesbankselection untilpatchconfirmation",
+    "limits": "Nochannelcount/reamp/loopback/color/touch/spillover inference;originaltextonly"
+  },
+  "discovery_gfx8_bp90_me6_ax300b_20261018": {
+    "queries": [
+      "site:shopee.co.id Zoom GFX-8",
+      "site:shopee.co.id Digitech BP90",
+      "site:shopee.co.id Boss ME-6",
+      "site:shopee.co.id Korg AX300B"
+    ],
+    "result": "No qualified new exacthardwareoffer. GFX8 sensor/adaptors rejected;searchfailure notmarketabsence."
   }
 }

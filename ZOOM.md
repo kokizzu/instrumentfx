@@ -1665,6 +1665,17 @@ Checked 2026-10-18 from original text in the [manufacturer V2 manual](https://zo
 Earlier unknown rows remain dated provenance; these details supersede their rotary-count and analog-rating gaps only.
 
 
+### G5n — USB monitoring, display adjustment and preselection
+
+Checked 2026-10-18 against original text in the [manufacturer V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf), printed pp25–26,30,32. No download, execution or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB audio / recording and monitoring | RECORDING GAIN adjusts the level sent to the computer from **−6 to +6 dB**. MONITOR BALANCE spans **0–100**: 0 selects direct input only; 100 selects computer playback only. These controls do not establish channel count, dry recording, loopback or reamping. |
+| Display / contrast | Each selected display has contrast adjustment **1–13**. Contrast adjustment does not establish screen diagonal, color or touch capability. |
+| Live / bank preselection | With PRESEL enabled, changing banks changes the displayed selection until a patch switch confirms the change. This is selection staging, not evidence of scenes, seamless switching or audio-tail retention. Missing button icons in extracted instructions are not reconstructed. |
+
+
 ## G3n
 
 Reviewed **2026-10-17**,new exact-model Shopee discovery. Separate from G3Xn and older G3;no ownership assertion. Partial. Manufacturer manual evidence is indexed text,not PDF/image inspection;no dependency,software,firmware or manual file downloaded.
