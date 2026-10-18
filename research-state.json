@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 HX Stomp",
-    "task": "HX Stomp synth/acoustic examples and looper limits saved. Continue power/current, complete category census, current OS compatibility or fresh eligible Shopee discovery; loop persistence/drums still unverified.",
+    "task": "HX Stomp FAQ I/O and Windows ARM qualifications saved. Numeric power ratings remain unverified; next fresh Shopee discovery or complete required category census, preserving device and firmware scope.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5631,6 +5631,12 @@
       "date": "2026-10-18",
       "source": "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
       "finding": "Own indexed manual resolves looper modes/times and synth examples; exact firmware listing establishes Acoustic Sim separately."
+    },
+    {
+      "model": "Line 6 HX Stomp",
+      "date": "2026-10-18",
+      "source": "https://kb.line6.com/hx-stomp-faq",
+      "finding": "Own FAQ directly corroborates battery absence, I/O switching/impedances and untested Windows ARM drivers. Numeric power ratings remain unresolved."
     }
   ],
   "consolidation_and_price_findings": [
@@ -117070,12 +117076,12 @@
       "TC-ELECTRONIC.md": "c4b16b3c6f514ab087fed6c19a469d50b1e14e9793b555ad8371da0bcddd5449",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "ec978530e0ef59e8488a7f47c83f110f81532fdd8f0314514bbc54731e8a4eb8",
-      "LINE6.md": "b20048148244bc3b2d735276bc4f6a16ba128ed6f595de5851159a93448e6192",
+      "ALL-GUITAR.md": "39ec68219b16e415c92c6126d6f7d1a127f9f3db77bc0f5ba5b978daf3277619",
+      "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "bdbb2d843a536d31ec33955e0c48ffae59ba22dc2f96c7271d83329726b38a82",
+      "ALL-BASS.md": "a295a155dbf6d15f22e2b0deeb079f3d7cbcd14dc07102273ea4aabfed5500bd",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
