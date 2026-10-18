@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved second exact4350000IDR sold-out ask andseller-region/statussnapshot differences. Next verify completeconnectorinventory orotherrequiredfields fromexactmanual;do notuse seller title as specs.",
+    "task": "Saved completeconnectorinventory andmanualcover1.1.1/Clonep60/release1.1.4conflict;MIDItransmission conflict retained. Next exactmanual synth/acoustic/categorycounts orfreshShopee discovery.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75554,5 +75554,12 @@
     "conflict": "directJakartaUtara/active versussearchJakartaPusat/holiday/deliveryunavailable;no currentstateclaim",
     "discovery": "MatriboxIII/GE80noqualifiednewmodel;MatriboxIIProalreadyrecorded",
     "remaining": "Qualifiedused/new prices,workingcondition,bundle,checkout andexistingtechnicalgaps"
+  },
+  "matribox_ii_pro_connector_revision_20261018": {
+    "source": "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+    "identity": "66PDFpages,coverForFirmwareV1.1.1;bodyMatriboxIIPro",
+    "previous_ports_row": "| Ports | Two balanced XLR outs,FX loop,phones,AUX,external EXP/FS and USB documented. Complete connector inventory ?. **Feature list says MIDI I/O;official FAQ says MIDI output unsupported**. Preserve contradiction,not an assumed transmitter. |",
+    "findings": "Completep4socketinventory;samePDFp60CloneNAMdespitecover1.1.1versusrelease1.1.4;manualp17TRS/USBClockOutcontradictsFAQoutputunsupported",
+    "qualification": "Noactualhardwareorvisualinspection;minimumfirmware/nativearchitecture/FAQresolutionnotproven"
   }
 }
