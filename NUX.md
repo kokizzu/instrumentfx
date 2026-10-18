@@ -344,6 +344,18 @@ Checked2026-10-18 in [manufacturer-authored manual body](https://manualzz.com/do
 
 Checked2026-10-18: **Rp5.550.000**, [SEVEN STEREO Malang,shop1408254222/item28668671187](https://shopee.co.id/NUX-MG30-MG-30-Multi-Effects-Processor-%E2%80%93-Amp-Modeling-IR-Loader-LCD-Color-25-Amp-Models-i.1408254222.28668671187),KotaMalang. Direct readable cached body crawledlastweek;stale7–9Octdelivery. Condition,stock,revision,bundle/NMP-2,adapter,warranty,voucher,shipping/tax anddeliveredtotal unknown. Seller title’s25ampmodels is not manufacturer library evidence. Rp10k late-arrival compensation is not a purchase discount. Not assigned to verified used/new prices orcurrent stock.
 
+
+### MG-30 — electrical and live-control specifications
+
+Checked2026-10-18 against the [manufacturer-authored older manual](https://manualzz.com/doc/64067263/nux-mg-30-versatile-modeler-user-manual),printedpp7,10,12; no download or device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / impedance | INPUT **1MΩ**,RETURN **220kΩ**;OUTPUT andSEND **1kΩ** each. These are impedances,not maximum levels orheadroom. |
+| Conversion / audio | Manual specifies **32-bit A/D,48kHz,20Hz–20kHz response,110dB dynamic range**. It doesnot specify USB word length/float format orD/A resolution in this table;do not substitute converter values for them. |
+| Live / tuner | UP+CTRL enters tuner; knob1 selects CHROMATIC orCOMPEN.G guitar compensation andpress toggles Mute/Listening. Double-press CTRL exits. Calibration range is not established by the440Hz display example. |
+| Memory / parameter follow | PARA.FOLLOW recalls the previous parameter settings when returning to an effect model;off loads defaults. This differs from FollowTAP anddoesnot establish automatic saving of patch edits. |
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields
