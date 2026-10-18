@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 338,
+  "active_model_count": 339,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 338,
+  "canonical_root_model_count": 339,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "338 unique active/root-canonical;0 legacy-only;39 brands;six excluded;all partial.",
+  "count_reconciliation": "339 unique active/root-canonical;0 legacy-only;39 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Ocean Machine II",
-    "task": "Per-module choices andfactory-preset existence saved;count,undo/redo revision,visual/display,power/software andoffer-condition gaps remain. Continue freshShopee discovery when no stronger exact-model source is available.",
+    "model": "NUX Atlantic NDR-5",
+    "task": "Partial record admitted;resolve original manual/visual controls,TRS stereo-vs-insert semantics,57/58mm and420/428g conflict,power/display/software andverifiednew/usedoffer gaps.",
     "next_models": [],
-    "after_queue": "338 partial unique models;117 compatibility paths retained.No downloads/workflows/push."
+    "after_queue": "339 partial unique models;117 compatibility paths retained.No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24440,7 +24440,8 @@
       "Mighty Plug Pro MP-3",
       "Mighty Plug MP-2",
       "Stageman Floor NAP-5",
-      "Amp Academy Stomp"
+      "Amp Academy Stomp",
+      "Atlantic NDR-5"
     ],
     "Roland": [
       "GR-55",
@@ -24857,7 +24858,8 @@
       "Mighty Plug Pro MP-3",
       "Mighty Plug MP-2",
       "Stageman Floor NAP-5",
-      "Amp Academy Stomp"
+      "Amp Academy Stomp",
+      "Atlantic NDR-5"
     ],
     "SONICAKE.md": [
       "Matribox QME-50",
@@ -25081,7 +25083,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 283,
+      "record_count": 284,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25111,10 +25113,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 283 guitar, 146 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 284 guitar, 146 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "338 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "339 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -45429,10 +45431,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 338,
-    "canonical_root_models": 338,
+    "unique_brand_model_pairs": 339,
+    "canonical_root_models": 339,
     "legacy_only_models": 0,
-    "guitar_view_models": 283,
+    "guitar_view_models": 284,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -45492,7 +45494,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Ocean Machine II."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Atlantic NDR-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45640,6 +45642,7 @@
       "NUX::Mighty Plug MP-2",
       "NUX::Stageman Floor NAP-5",
       "NUX::Amp Academy Stomp",
+      "NUX::Atlantic NDR-5",
       "Roland::GR-55",
       "Scorpion::KMF-10",
       "Sonicake::Matribox QME-50",
@@ -47396,6 +47399,13 @@
     },
     "NUX::Amp Academy Stomp": {
       "link": "NUX.md#amp-academy-stomp",
+      "source_files": [
+        "NUX.md"
+      ],
+      "finding_files": []
+    },
+    "NUX::Atlantic NDR-5": {
+      "link": "NUX.md#atlantic-ndr-5",
       "source_files": [
         "NUX.md"
       ],

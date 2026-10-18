@@ -1124,3 +1124,31 @@ Regional webpages can contain copy errors;the unresolved hardware behavior must 
 [NUX USA product](https://www.nux.us/es/products/amp-academy-stomp) independently identifies27modeledamps,three earlierDeepImages,and bundleNMP-2Lite,NBT-1,adapter,cables. These regional manufacturer bundles do not certify Shopee contents. Globalpage support dates2.0.5/Audio1.1.7.1 to2026-09-14;oldMonarch/mobile copy remains elsewhere on samepage. No installation/update performed.
 
 Remaining:current fullmanual,all algorithm counts,actual block concurrency,memory conflict,IRformat/capacity reconciliation,screen touch,control visual confirmation,power operation,qualified new/used prices andstock. Unknown is not No.
+
+## Atlantic NDR-5
+
+Checked 2026-10-18; partial. Independent delay/reverb and selectable routing establish multi-effects eligibility. Bass suitability unclassified.
+
+Sources: [NUX global product](https://nuxaudio.com/product/atlantic/) (P);[official English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf) has unreadable browser text. [Manufacturer manual transcription](https://manuals.plus/nux/ndr-5-atlantic-delay-and-reverb-pedal-manual) (M) identifies exact NDR-5 and ©2017 Cherub;matches product algorithms/routing, but OCR errors remain. No visual inspection claimed.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified;no dedicated EXP appears in transcribed connector inventory. |
+| Physical controls / K/F/B | **5 rotary /2 footswitches /0 separate pushbuttons**, derived from M:Delay Level/Time/Repeat,Reverb Level/Decay;Delay/Reverb switches. Four additional toggles:delay type,reverb type,input level,routing. Visual confirmation pending. |
+| Display | Delay/reverb LED indicators;screen diagonal/color/touch unverified. |
+| Processing / simultaneous | **Delay+reverb together**;3delay choices(70sAnalog,60sTape,80sDigital),3reverbs(Spring,Plate,Hall),Plate hold addsShimmer. P:knob ranges40–400/55–550/80–800ms respectively;SmartTAP125–1500ms across types. Two serial orders orparallel;not six simultaneous effects. |
+| Memory / factory / user | Preset/factory/user memory unverified. |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified;Shimmer is not proof of either. |
+| Dimensions / mass | M:105L×115W×57H mm,420g. Another Japanese manual index reports58H/428g;revision conflict unresolved,not averaged. |
+| I/O / routing | One¼-inch TRS input,two¼-inch outputs,microUSB,DC. **Input ambiguity:** P/NUXUSA call itstereo;M saysmono/insert andsupportsYcable. Do not infer ordinarydual-channel input behavior. M recommendsright output formono. No dedicatedphones intranscribed inventory. |
+| Power / battery / USB | M:9VDC negative-tip,optionalACD-006A. Current,battery andUSB-powered operation unverified. |
+| IR / NAM / captures | IR,nativeNAM,convertedNAM andproprietary capture loading unverified. |
+| Editor / platforms | P lists firmware2.1.0 packages forWindows/macOS,undated;USB updater is notfull editor/audio proof. Full editor,minimumOS,USB audio/MIDI unverified. |
+| Looper / drums / scenes | Unverified. |
+| Live / practical | M:hold desiredfirst effect's footswitch duringpower connection tochoose serialorder. Delay footswitch alsoSmartTAP;Plate holdShimmer decays afterrelease. ExactFreeze operation unresolved despiteP claim. |
+| Price / condition-unverified IDR | **Rp2.100.000**, [Eleven Music,shop12356205/item3032702363](https://shopee.co.id/NUX-NDR5-NDR-5-Atlantic-Delay-Reverb-Verdugo-Series-Stompboxes-Efek-Gitar-i.12356205.3032702363),JakartaPusat;checked2026-10-18,two-month indexedbody. Condition/stock/bundle/warranty unverified. Relative delivery promise notstockproof;late-deliveryRp10.000 compensation notdiscount. |
+| Price / sold-out IDR | **Rp1.650.000,Habis**, [Grand Music Indonesia,shop307145954/item3851698090](https://shopee.co.id/NUX-NDR-5.-Atlantic-Delay-Reverb-Pedal-%28FREE-ADAPTOR%29-i.307145954.3851698090),KabTangerang;checked2026-10-18,five-month indexedbody. TitleFREEADAPTOR sellerclaim;condition,adapteridentity,warranty unverified. |
+| Price / new IDR | No condition-verified new offer established. |
+| Price / used IDR | No separate used offer established. |
+
+[Japanese manual index](https://www.manualslib.com/manual/4585369/Nux-Atlantic.html) supplies the retained size/mass conflict only;unreadable Japanese OCR is not a replacement for full English manual validation. [NUX USA](https://www.nux.us/products/atlantic) corroborates routing butnot exactcurrent draw. Remaining fields require original-panel/manual corroboration andfresh sellercondition/stock evidence. No downloads orsoftware execution.
