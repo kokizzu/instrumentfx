@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Alesis MicroVerb 4",
-    "task": "Saved namedfixedchains,DualSendrouting,specificationfamilycensuslimits andinitialization. Next freshShopee discovery orunresolved exactmodel fields;do notborrowMIDIverbdata.",
+    "model": "Alesis MIDIverb 4",
+    "task": "Saved exactanalogratings/converteroversampling andreset scope. Continue freshShopee discovery orremaining modelrequirements;do notsubstitute MicroVerb4 data.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75485,5 +75485,11 @@
     ],
     "discovery_result": "No qualified newexacthardwareleads;recommendation/other-modelpages notpromoted",
     "remaining": "Dimensions/mass/current/display/software/completecategorycensus/qualifiedusednewIDR;legacycompatibility still114MD"
+  },
+  "midiverb4_electrical_reset_20261018": {
+    "source": "https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf",
+    "identity": "Alesis MidiVerb4 ReferenceManual69pages,pp63–64,67",
+    "findings": "Inputnominal−10dBV/max+10dBV1Mohmstereo500kohmmono;outputnominal−20dBVor+4dBu/max+17.5dBu500ohm;18bitADC128xDAC8x48kHz;resetPROG+D,utilitydefaults/preset01/usererasure",
+    "remaining": "body/mass,current,display,categorycensus,qualifiednewusedprices and software stillunresolved"
   }
 }

@@ -92,6 +92,20 @@ Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discont
 
 No files downloaded. Remaining:category subtotals,body/mass,powercurrent,display details,firmware/software/routing restrictions andqualified offers.
 
+### MIDIverb 4 — analog levels, converters and reset scope
+
+Checked 2026-10-18 from its own [manufacturer Reference Manual](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf),original text only;no local download or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / analog input ratings | P67: two unbalanced inputs,**−10 dBV nominal,+10 dBV maximum;1 MΩ/channel stereo,500 kΩ/channel mono**. Keep mono/stereo loading distinction and dBV units. |
+| I/O / analog output ratings | P67: two unbalanced outputs,**+17.5 dBu maximum;−20 dBV or+4 dBu nominal**,front-panel adjustable;**500 Ω** output impedance. Nominal settings are not maximum limits;dBu and dBV are not interchangeable. |
+| Processing / converters | P67: **18-bit Sigma-Delta ADC128×oversampling,DAC8×oversampling;48 kHz**. The24-bit accumulator is internal processing,not24-bit converters or USB recording. |
+| Memory / initialization | P63: hold PROG+D during power-up to reset Utility settings and recall Preset01. User Programs are erased;back up via MIDI SysEx first. P64: hold PROG and press EDIT to inspect software version. This differs from MicroVerb4's reset sequence and startup preset. |
+
+Body dimensions/mass,supply current,display specifications,full category census and qualified used/new prices remain unresolved. No seller or installed-firmware state was verified by this manual check.
+
+
 ## MIDIverb III
 
 Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.
