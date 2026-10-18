@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "G3X factory fill derived as100 from appended100namedpatches matching100 writable slots. Next verify G3X external-pedal model labels/buttons/display or fresh Shopee hardware discovery; MP100 current IR/census remains unresolved.",
+    "task": "G3X external FP01/FP02 volume use resolved from p17; p18 external parameter-control sentence specifies G3. Next button/display audit or fresh Shopee discovery; G3X broader external parameter control, MP100 current IR/census remain unresolved.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60555,6 +60555,21 @@
         "Qualified new hardware price"
       ],
       "method": "Manufacturer PDF browser text, no download or device execution"
+    },
+    {
+      "model": "Zoom G3X",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf"
+      ],
+      "finding": "Manufacturer indexed pp17–18 retain model logos: externalFP01/FP02onG3X explicitlyvolume; externalparamcontrolsentence specifiesG3/built-inG3X. Outputvol excludesloop/rhythm;AUTOASSIGN multipleactiveeffects;FSassignmentsandONrequirement.",
+      "remaining": [
+        "Broader G3X external effect-parameter control",
+        "Button census",
+        "Display properties",
+        "Qualified new hardware offer"
+      ],
+      "method": "Manufacturer indexed manual page text restores labels lost in whole-PDF extraction; no downloads/device execution"
     }
   ],
   "discovery_cross_brand_bass": {

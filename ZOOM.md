@@ -2003,6 +2003,7 @@ Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-ef
 | Editor / platforms | Guitar Lab edits effects/patch arrangements;support lists7.3 Windows8.1/10/11 and macOS10.13–26. Drivers/updaters,mobile editor and USB audio not established;USB MIDI is not audio proof. | [Product](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/); [support](https://zoomcorp.com/en/us/multi-effects/acoustic/A1-FOUR-A1X-FOUR/a1-four-a1x-four-support/) |
 | Looper / rhythm / live | **30-second mono looper,68 acoustic rhythms**. Pre/Post effects placement;Pre permits patch/effect changes on dry loop playback. REC/PLAY records,plays and overdubs;hold STOP while stopped to clear. Changing recording time,position or tempo erases the phrase. STOMP/MEMORY,PRESELECT and BANK HOLD;anti-feedback detection/cut. Undo,power-off persistence,slot cost,scenes/tails remain unverified. | [Quick guide,p.13](https://zoomcorp.com/media/documents/E_A1FOUR_QuickGuide.pdf); [manual,p.3](https://zoomcorp.com/documents/119/E_A1FOUR.pdf); [product](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/) |
 
+
 ### Separate IDR hardware offers
 
 Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?** All three exact offers were indexed and directly retrieved as text;condition was not exposed. They are dated asks,not a verified current price range or completed sales.
@@ -2670,7 +2671,7 @@ Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufa
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in expression; pedal switch toggles its assigned effect. Shared specifications list FP01/FP02/FS01, but G3X-specific external-pedal functions need model-label corroboration. Adjustable min/max can reverse response; AUTO ASSIGN fixes endpoints. Exact toe mechanics unverified. | [Product][ZG3X-P]; [Shared manual pp18–19,59][ZG3X-M] |
+| Expression | Built-in expression; pedal switch toggles its assigned effect. **External FP01/FP02 volume-pedal use on G3X is explicit on p17**. Page18 assigns external real-time effect-parameter control to G3 and built-in control to G3X; broader external parameter control on G3X remains unverified. Adjustable min/max can reverse response; AUTO ASSIGN fixes endpoints. Exact toe mechanics unverified. | [Product][ZG3X-P]; [Shared manual pp17–19,59][ZG3X-M] |
 | K/F/B | Nine rotary parameter controls derived from three sections×three; three main footswitches plus pedal switch. Complete separate-button count and visual corroboration pending. | [Manual pp4–5][ZG3X-M] |
 | Display | Three LCDs; diagonal, color and touch unverified. | [Product][ZG3X-P]; [Manual][ZG3X-M] |
 | Dimensions / mass | **175 D ×323 W ×66 H mm;1.6kg**, explicitly G3X. | [Manual p59][ZG3X-M] |
@@ -2685,8 +2686,8 @@ Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufa
 | USB audio / monitoring | **16-bit,44.1kHz USB audio**. Adjustable recording level and direct/computer monitoring balance; set USB AUDIO MONITOR to100 for DAW-only monitoring to avoid doubled/flanged sound. Legacy interface OS list differs from editor/driver support; current OS compatibility unverified. | [Manual pp24–25,36][ZG3X-M] |
 | Editor / software | Edit&Share: Windows XP/Vista/7/8/8.1/10; MacOSX10.9–10.12. Separate ASIO2.0.1 driver: Windows7/8/8.1/10. Firmware2.10 Windows/Mac listed. Current OS compatibility unverified. | [Support][ZG3X-S] |
 | Routing / global settings | OUTPUT choices: DIRECT for headphones/monitors, COMBO FRONT or STACK FRONT for amp inputs, COMBO POWER AMP or STACK POWER AMP for returns. Global signal-flow display direction is selectable. Patch level and global master level each span 0–120. Backlight dims after 1–30 seconds or stays ON; each LCD has separate contrast. ALKALINE/Ni-MH selection calibrates remaining-charge indication, not charging. | [Manual pp16,20–24][ZG3X-M]; checked2026-10-18 |
+| Expression / assignments | Built-in INPUT VOL controls input level; OUTPUT VOL leaves rhythm and looper volume unaffected. AUTO ASSIGN can control all eligible active effects together. Optional footswitch assignments include bypass/mute, tap tempo and no assignment; effect-specific functions require the relevant effect ON. The G3X external FP01/FP02 volume function is distinct from these footswitch assignments. | [Manual pp17–18][ZG3X-M]; checked2026-10-18 |
 | Looper / drums / live | **1.5–40s;20s with UNDO**; rhythm synchronization. Changing duration/tempo or powering off erases loop. Last-overdub undo/redo uses a one-second hold. STOP/FINISH/FADE OUT stop modes; holding stop can interrupt the latter two immediately. **41 rhythm-list entries**, including guide/metronome patterns, not41 drum kits. Two-switch bank changes can briefly trigger the earlier switch and affect sound. Scenes/trails unverified. | [Manual pp13,30–35,59][ZG3X-M] |
-
 ### Separate IDR hardware offers
 
 | Condition | Evidence | Source |
@@ -2701,7 +2702,7 @@ Manufacturer's G3X support page links this shared G3/G3X manual. Model-specific 
 
 ### G3X — XLR source selection and eco standby
 
-Checked 2026-10-18 against [manufacturer G3/G3X manual,printed5–6](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf),linked by the G3X support page. These are shared rear-panel instructions; external-pedal model distinctions remain unresolved. No download or device operation.
+Checked 2026-10-18 against [manufacturer G3/G3X manual,printed5–6](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf),linked by the G3X support page. These are shared rear-panel instructions; the external-volume/model distinction is clarified in the Expression row. No download or device operation.
 
 | Field | Exact source qualification | Evidence |
 |---|---|---|
