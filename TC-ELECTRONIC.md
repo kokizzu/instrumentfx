@@ -253,6 +253,17 @@ Checked 2026-10-18 in the [same Rev1.1 manufacturer manual,pp12,22–23](https:/
 Editor installers/current OS compatibility,control-button count,display diagonal/touch and qualified used/new IDR evidence remain unresolved.
 
 
+### M350 — digital clock fallback and MIDI backup
+
+Checked 2026-10-18 from original text in the [Rev1.1/SW1.00 manufacturer manual, printed pp14–15,31](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf). No download or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / digital-lock fallback | For a digital insert, the connected interface supplies master clock. If digital input is selected but no valid signal arrives within5seconds, DIGI IN flashes and M350 returns to internal clock and analog operation while continuing to seek digital input. A selected digital input therefore does not guarantee a permanently digital signal path. |
+| Routing / standalone A/D conversion | With analog input feeding S/PDIF output, M350 supplies master clock and the receiving interface must follow it. Both effect selectors Off provide conversion without added effects. Using Bypass for this purpose requires Serial routing; Dual Input bypass mutes instead. This is S/PDIF conversion, not USB audio. |
+| Editor / MIDI backup operation | Hold PRESET ON/OFF about2.5seconds, select Bulk Dump with arrows, then LOAD sends presets to a recording MIDI device. Receive is automatic unless MIDI Receive Channel isOF. This is backup support, not proof of AU/VST editor compatibility. |
+
+
 ## M-One XL
 
 Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.

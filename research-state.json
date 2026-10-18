@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Alesis MIDIverb 4",
-    "task": "Reconciled MIDIverb4 main summary with saved32configuration,converter,modulation/SysEx findings;datedfollowups retainedbyteexact. Next freshShopee discovery orunresolved requiredfields.",
+    "model": "TC Electronic M350",
+    "task": "Saved digital-lockfallback,ADCclocktopology andbulkbackup. Next freshShopee discovery orremainingcontrol/display/editor/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Alesis MIDIverb 4."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M350."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Alesis MIDIverb 4",
-    "task": "Reconciled MIDIverb4 main summary with saved32configuration,converter,modulation/SysEx findings;datedfollowups retainedbyteexact. Next freshShopee discovery orunresolved requiredfields.",
+    "model": "TC Electronic M350",
+    "task": "Saved digital-lockfallback,ADCclocktopology andbulkbackup. Next freshShopee discovery orremainingcontrol/display/editor/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75842,5 +75842,23 @@
     "reason": "Promote already-saved own-model findings;remove obsolete pending category-subtotal wording",
     "followups_retained_byte_exact": true,
     "sources": "Existing manufacturer findings in9afd40b/baf6342/8bef2bf;no new source verification"
+  },
+  "m350_digital_backup_20261018": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf",
+    "revision": "Rev1.1/SW1.00",
+    "pages": [
+      14,
+      15,
+      31
+    ],
+    "findings": "Digitallockloss5secondfallbackanalog/internalclock;insertinterfaceclockmasterversusADCm350master;SerialbypassforADC;bulkbackupoperation",
+    "limits": "NotUSBinterface/editorcompatibility/deviceoperation"
+  },
+  "discovery_m300_mpx550_20261018": {
+    "queries": [
+      "site:shopee.co.id TC Electronic M300",
+      "site:shopee.co.id Lexicon MPX550"
+    ],
+    "result": "Noqualifiednewexacthardwareoffer;notmarketabsence"
   }
 }
