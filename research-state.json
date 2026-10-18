@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "PG-2 audio/converter,tuner/metronome andfactorypreset-name gaps updated frommatchingmanual transcriptions;originalpanel,polarity,revision andexactIDR offer remain unresolved. ContinuefreshShopee discovery oranother active-model gap. AFactory originalJPG remainsuninspectable;generatedguide notadopted.",
+    "task": "M350 MIDI CC map andclockdirection saved withadditionalcondition-unverifiedCHdada preorder ask. ContinuefreshShopee discovery oranother active-model technicalgap;controls,editorOS andqualifiedused/newprices remainunresolved.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -120319,5 +120319,54 @@
       "site:shopee.co.id \"Zoom A2.1u\""
     ],
     "result": "No qualifying exacthardware offer returned;no assignedprice ormarketabsence claim."
+  },
+  "m350_midi_offer_followup_20261019": {
+    "checked_date": "2026-10-19",
+    "model": "TC Electronic M350",
+    "manual_sources": [
+      "https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf",
+      "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m350_manual_english.pdf"
+    ],
+    "manual_revision": "English Rev1.1/SW1.00,printedpp30–31;April2006 implementationchart. Textonly,screenshotretrievalfailed.",
+    "midi_cc": {
+      "input_level": 12,
+      "mix": 13,
+      "effect_balance": 14,
+      "digital_input": 15,
+      "bypass": 81,
+      "delay_type": 50,
+      "delay_effects_off": 82,
+      "timing": 16,
+      "tap": 80,
+      "feedback": 17,
+      "reverb_type": 51,
+      "reverb_off": 83,
+      "predelay": 18,
+      "decay": 19,
+      "color": 20
+    },
+    "clock": "Receive yes/transmit no;setsdelaytempo. CCvalueendpoints andswitchpolarity notestablished.",
+    "offer": {
+      "seller": "CHdada",
+      "seller_id": "1003926059",
+      "item_id": "20383192872",
+      "url": "https://shopee.co.id/%E2%9C%85-TC-M350-vocal-reverb-effect-dual-engine-digital-effect-processor-%EF%BC%8Cprofessional-stage-performance-effect-karaoke-i.1003926059.20383192872",
+      "ask_idr": 6898094,
+      "region": "Kota Jakarta Pusat",
+      "condition": "unverified;neithernewnorusedconfirmed",
+      "indexed_age": "two months",
+      "preorder_dispatch_days": 15,
+      "arrival": "stale13–21August",
+      "access": "indexedexactitembody;directcachemiss",
+      "limits": "Variant,originalbrandauthenticity,workingstate,bundle,warranty,voucher,shipping/tax andcurrentstock unknown;latecompensation10000IDR notpurchase discount."
+    },
+    "remaining": "Physicalcontrolcensus,editor/currentOS,displaypublishedspecs andqualifiedused/newoffers;allpartial."
+  },
+  "discovery_picoveb_20261019": {
+    "queries": [
+      "site:shopee.co.id \"Alesis Picoverb\"",
+      "site:shopee.co.id \"Alesis Picoverb\" efek"
+    ],
+    "result": "No qualifying exacthardware offer returned;no price ormarketabsence claim."
   }
 }

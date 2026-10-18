@@ -2015,3 +2015,7 @@ research-commit-bfactory:
 .PHONY: research-commit-pg2
 research-commit-pg2:
 	python3 scripts/research_tools.py commit-pg2
+
+.PHONY: research-commit-m350
+research-commit-m350:
+	python3 scripts/research_tools.py commit-m350

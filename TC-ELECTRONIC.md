@@ -323,6 +323,24 @@ Checked 2026-10-18 from the [manufacturer Rev1.1/SW1.00 manual,printed pp16–17
 | I/O / input-gain control | INPUT controls both L/R channels:analog gain spans **−10 to+14dB**,digital **−18 to+6dB**,each0dB at center. These are gain ranges,not maximum input levels or dBu nominal sensitivities;the electrical ratings remain separately documented. Unequal source levels require adjustment upstream rather than separate L/R gain knobs. |
 
 
+
+### M350 — MIDI controller map and clock direction
+
+Checked 2026-10-19 from the [Rev1.1/SW1.00 manufacturer manual, printed pp30–31](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf). The [alternate manufacturer-hosted English index](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m350_manual_english.pdf) separates Color CC20 from the following page number. Screenshot retrieval failed; this is original text evidence, with no device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / MIDI general controls | **Input level CC12; Mix CC13; Effect Balance CC14; Digital Input CC15; Bypass CC81**. The chart describes single-byte controllers scaled to each parameter range; this does not supply switch-value polarity or numerical parameter endpoints. |
+| Live / MIDI delay-effects controls | **Type CC50; engine Off CC82; Timing CC16; Tap CC80; Feedback CC17**. These control existing engine parameters, not extra simultaneous blocks. The CC number alone does not establish a BPM-valued payload. |
+| Live / MIDI reverb controls | **Type CC51; engine Off CC83; PreDelay CC18; Decay CC19; Color CC20**. These are MIDI mappings, not proof of analog expression-pedal support or editor OS compatibility. |
+| I/O / MIDI clock and message scope | April2006 implementation chart lists CC, Program Change and SysEx transmission/reception. **Clock received, not transmitted**; MIDI TimeClock sets delay tempo. Note messages, velocity, aftertouch and pitch bend are not implemented in either direction; this is a MIDI-message scope statement, not a verdict on audio algorithms. |
+
+### M350 — additional indexed preorder hardware ask
+
+| Field | Dated asking evidence / limitations |
+|---|---|
+| Price / condition-unverified IDR | **Rp6.898.094**, CHdada, Kota Jakarta Pusat; seller1003926059/item20383192872. Checked2026-10-19: two-month indexed exact-item body shows **Pre-Order, dispatched within15days**, with stale13–21August arrival. [Seller-labelled TC-M350 processor](https://shopee.co.id/%E2%9C%85-TC-M350-vocal-reverb-effect-dual-engine-digital-effect-processor-%EF%BC%8Cprofessional-stage-performance-effect-karaoke-i.1003926059.20383192872). Direct page returned cache miss. Condition, selected variant, original-brand authenticity, working state, bundle, warranty, voucher, shipping/tax and checkout stock remain unverified. Rp10.000 late-delivery compensation is not a purchase discount. Historical asking evidence, not current availability or a completed sale; it establishes neither verified new nor used price. |
+
 ## M-One XL
 
 Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.
