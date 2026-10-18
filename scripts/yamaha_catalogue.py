@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(yamaha): add AG-Stomp with exact primary specifications'))
+    print(git('commit','-m','research(yamaha): resolve AG-Stomp factory fill and expression assignments'))

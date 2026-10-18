@@ -453,10 +453,11 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 | Field | Finding / qualification |
 |---|---|
 | Expression | External EXP PEDAL supports FC-7 and parameter control. Built-in/toe support unverified. |
+| Expression / assignments | Manual p22: eight stored control assignments; one controller can drive eight parameters. Sources are EXP or MIDI CC1–31/64–95. Each assignment has independent minimum/maximum values, stored with patches; Utility can globally enable/disable external control. Mechanical toe-switch support remains unverified. |
 | K/F/B | **15 /4 /17 front-panel buttons**; rear power, MUTE and guitar-supply switches additional. Published census, not a visual count. |
 | Display | **Three-digit seven-segment LED**; diagonal, emission color and touch unverified. |
 | Processing / categories | Eight microphone simulations; limiter; five simultaneous notch filters; chorus **or** delay; Hall/Room/Plate reverb. Overall concurrency ceiling unverified. |
-| Memory | **30 preset+30 user positions**; original factory fill of user positions unverified. |
+| Memory | **60 total:30 preset+30 user positions**, each area ten banks of three. At shipment both contain the same patch data (manual p17). Preset storage cannot be overwritten; edits must be stored in the user area. |
 | Synth / acoustic | Acoustic microphone simulation; dedicated synth and electric-to-acoustic conversion unverified. |
 | Dimensions / mass | **280W×184D×70H mm;2.2kg**. |
 | I/O | Stereo-phone INPUT; balanced TRS L/MONO and R outputs; stereo-phone PHONES and EXP; coaxial DIGITAL OUT; five-pin MIDI IN/OUT. Socket diameters and complete absence audit pending. |
@@ -464,6 +465,8 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 | IR / NAM / capture | User IR, native/converted NAM and capture import unverified; microphone modeling is not proof. |
 | Editor / data | MIDI bulk storage/restore documented; full editor/platforms, USB audio and drivers unverified. |
 | Looper / practical | Chromatic tuner; headphone connection retains analog/digital outputs. Digital output is **44.1kHz** and unaffected by OUTPUT knob. Looper/drums/scenes unverified. |
+| Memory / retention and reset | Manual pp19–20: OUTPUT setting is not stored; utility settings are global. Factory initialization replaces user data with factory patches. No reset performed. |
+| Live / tuner | Manual p23: all analog/headphone/digital outputs mute during tuning. A-reference **436–444Hz**, resetting to440Hz on power-up. |
 | IDR price | No qualified exact Shopee offer from AG Stomp/AG-Stomp/AGSTOMP searches,2026-10-18. Used/new amount,seller/item,condition,stock,region,bundle,warranty and vouchers unknown. Limited search does not prove market absence. |
 
 <!-- comparison evidence ends -->
