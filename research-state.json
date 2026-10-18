@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake A Factory QDS-04",
-    "task": "Partial acoustic model admitted; resolve original panel/manual and remaining fields. Resume fresh Shopee discovery when exact-model primary evidence is exhausted.",
+    "task": "Manual access audit andsevennewexact-offer model-ownership guards saved. No fabricated panel facts. Resume freshShopee discovery;TwiggyBluesQCE20 architecture eligible butexactShopee hardwareoffer unresolved.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -24248,6 +24248,13 @@
         "NUX MG-30 MKII / Gen2"
       ],
       "finding": "Three exact Shopee searches returned originalMG30,MG300MKII,accessories andcategoryresults;no exactGen2 hardware item established. Notabsenceproof andnotadmitted."
+    },
+    {
+      "checked_date": "2026-10-18",
+      "model": "Sonicake Twiggy Blues QCE-20",
+      "source": "https://www.sonicake.com/products/twiggy-blues",
+      "eligibility": "Manufacturer identifies compressor,overdrive,delay,reverb;eligible architecture. Exact Shopee search did not establish a hardware item. Not admitted;do not transfer foreign USD asks to IDR or infer unavailable.",
+      "next": "Broaden exact Twiggy/QCE20 Shopee searches;verify own manual andallfields if hardware offer recovered."
     }
   ],
   "inventory_by_brand": {
@@ -67637,6 +67644,34 @@
     {
       "token": "25136364635",
       "model": "Soran::Go Rig II"
+    },
+    {
+      "token": "29662719865",
+      "model": "Sonicake::A Factory QDS-04"
+    },
+    {
+      "token": "29712719871",
+      "model": "Sonicake::B Factory QDS-05"
+    },
+    {
+      "token": "27737519849",
+      "model": "Sonicake::Levitate QDS-02"
+    },
+    {
+      "token": "24354101635",
+      "model": "Sonicake::Levitate QDS-02"
+    },
+    {
+      "token": "44405143297",
+      "model": "MOOER::Ocean Machine II"
+    },
+    {
+      "token": "3032702363",
+      "model": "NUX::Atlantic NDR-5"
+    },
+    {
+      "token": "3851698090",
+      "model": "NUX::Atlantic NDR-5"
     }
   ],
   "g3xn_dsp_acoustic_20261017": {
@@ -72720,5 +72755,10 @@
     "manual": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Levitate_Manuel_JP.png",
     "access": "No inspectable image returned;do notclaimvisual/manualverification.",
     "next": "Fresh Shopee bass/acoustic discovery;retain Levitate controls,completeI/O,memory,expression,display andsoftware gaps."
+  },
+  "a_factory_manual_followup_20261018": {
+    "checked_date": "2026-10-18",
+    "result": "Original image remains uninspectable;browser inventory has no enabled browsers. Do not treat generated Manuals+ ASIN B0CP1T28X2 or AliExpress1005006326421017 guides as authenticated original manuals. No control facts transferred.",
+    "next": "Use original manufacturer text or an inspectable original panel when available;continue fresh discovery instead of retrying identical image requests."
   }
 }
