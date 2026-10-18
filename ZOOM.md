@@ -2835,6 +2835,15 @@ Printedpp4–5 name all21buttons;the nine rotary total includes the rear LEVEL c
 |---|---|
 | IDR / condition-unverified category ask | **Rp1.120.000**, exact **shop443709115/item45515017847**, linked variation **426287862534**, Kab.Klaten. [Shopee Zoom category](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&subcategory=11043648) links the GFX-5 title to [this hardware item](https://shopee.co.id/efek-gitar-zoom-gfx-5-i.443709115.45515017847). Checked2026-10-18; reader reports last-month cache. Both variation URL and base item returned cache miss; exact-ID search returned no results. Seller name, condition, selected variation contents, working state, stock, revision, adapter/bundle, warranty, voucher, shipping/tax and checkout total remain unknown. Separate cached ask, not a verified used/new offer, completed sale or current market range. |
 
+### GFX-5 — pedal calibration and user-patch reset, 2026-10-18
+
+[Zoom own manual](https://zoomcorp.com/media/documents/E_GFX5.pdf), printed pp26–27; document procedure only, no hardware operation performed.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Expression / calibration and switching point | Power on holding ASSIGN: MIN. With pedal fully raised, press STORE: MAX. Depress pedal, release it, then press STORE to finish. The chosen forward position also sets the target-module on/off point; a somewhat higher position allows lighter activation. ERROR requires repeating from the raised-pedal step. This is a documented calibration-dependent switching point, not a separately published numeric toe-pressure threshold. |
+| Memory / factory reset | Power on holding STORE: ALINIT; another STORE restores patches to factory defaults and returns to play mode. EDIT/EXIT cancels before confirmation. The section specifically describes restoring user-group patches; it does not establish reset behavior for pedal calibration, all global settings, or an external backup mechanism. Existing60user/60preset counts remain unchanged. |
+
 ## GFX-4
 
 Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufacturer confirms discontinued. Bass/vocal applicability and ownership unresolved.

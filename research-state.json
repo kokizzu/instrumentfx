@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom GFX-5",
-    "task": "Saved exact Klaten category-linked Rp1120000 ask with unknown condition/stock. Next fresh Shopee brand/series discovery or required specification gaps; do not call this used/new pricing.",
+    "task": "Saved own-manual calibration-dependent target switch point and user-patch reset scope. Next fresh Shopee discovery or required model gaps; no hardware reset/calibration performed.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77545,5 +77545,21 @@
       "site:shopee.co.id Zoom GFX-5"
     ],
     "result": "AX1500G leads already recorded; RP355 only adapter, rejected; GFX-5 additional exact category-linked ask saved. No new eligible model established."
+  },
+  "technical_followup_gfx5_calibration_reset_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_GFX5.pdf",
+    "printed_pages": [
+      "26–27"
+    ],
+    "findings": [
+      "Calibration forward position determines target module switch point; higher position permits lighter activation.",
+      "ALINIT restores user patches; cancellation before confirmation."
+    ],
+    "remaining": [
+      "Global/calibration reset scope",
+      "Visual control corroboration",
+      "Display diagonal/color/touch",
+      "Verified new/used current offers"
+    ]
   }
 }
