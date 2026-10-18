@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3B",
-    "task": "Saved display and factory edit limits after missing-series discovery. Continue required primary synth/power gaps or fresh eligible Shopee discovery; do not infer factory user fill.",
+    "task": "AX3B synth support and PRE identities saved. Next required power/format/editor gaps or fresh Shopee discovery; avoid repeating concluded synth-presence question.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5643,6 +5643,12 @@
       "date": "2026-10-18",
       "source": "https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B",
       "finding": "Original Value display semantics and write confirmation clarified; explicit AX3B EasyStart confirms editable but protected factory bank."
+    },
+    {
+      "model": "Korg AX3B",
+      "date": "2026-10-18",
+      "source": "https://www.korg.com/de/products/effects/ac3b/page_1.php",
+      "finding": "Exact-model page confirms synth-bass PRE effect and ten named PRE alternatives; acoustic/polyphony gaps retained."
     }
   ],
   "consolidation_and_price_findings": [
@@ -81880,7 +81886,7 @@
     "scope": "Explicit uncertainty signals in selected comparison facts only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4655,
+    "flagged_field_count": 4656,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -94885,6 +94891,14 @@
             "source": "KORG.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Categories / PRE FX identities",
+            "source": "KORG.md",
+            "signals": [
+              "unresolved",
+              "conflict"
             ]
           }
         ]
@@ -117094,13 +117108,13 @@
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "92d08ae406ff0c4a5f08e87ca92f0f735eba625f87000fd7f3cdc1f53d261358",
+      "ALL-BASS.md": "7d45280c0b45b6f6452f1211d544b26b0bc8014d2d5f6bd3f30a2a4035221652",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
       "TC-HELICON.md": "12cd64498f57da54510519b3433967773328ef978aced58a70c60690e61186b5",
       "CUVAVE.md": "245b3f9975423a1b9a6f6facef5c9d2ddcc5fe5ebaa6134141678c66bde0c799",
-      "KORG.md": "b1a91bbe3de28aa46e7ca71a24b337b9129fa0691eaa525aba243cd9b3b3f216",
+      "KORG.md": "957604cec4408396d9025e1f894463ce423e46500a730a030c75da61f9a619d6",
       "BLACKSTAR.md": "b669de5ae77c32f44e641de26714593d055d169b71576b4866f2a3665f7431b9",
       "DK.md": "97a52417dc4d52794f215684d2606af1648a498dd50ae44b9b4b02866b24800f",
       "AGENTS.md": "06193b1726f67bfa8c88ccded0458cb3ba22c713d343341086dcb6e1c1836cce",
