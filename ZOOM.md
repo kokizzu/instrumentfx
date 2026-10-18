@@ -1469,6 +1469,18 @@ Unresolved:screen diagonal/color/touch;separate toe-switch proof;full editor/imp
 
 [V6SP-Q]: https://zoomcorp.com/documents/79/E_V6_QuickGuide.pdf
 
+### V6-SP — additional cached offers and bundle limits
+
+Checked2026-10-18. Direct Shopee bodies are JavaScript-limited cached extracts; all three items below say **Habis**. New/used condition,working state,authenticity,selected variant,actual bundle,adapter,microphone model,warranty/import region,shipping/tax,voucher eligibility andcheckout total remain unverified. Titles do not prove package contents. Up-toRp10.000 late-arrival compensation is not a price discount.
+
+| Condition / seller | IDR evidence / qualifications | Exact item |
+|---|---|---|
+| Condition unknown / GeandPedalStore,Kab.Sleman | **Rp3.850.000;Habis**. Title V6+Microphone;not an exact SP-only package price. Last-week direct cache versus two-month search;stale9–10Oct delivery. | [185899831/52504595267](https://shopee.co.id/Zoom-V6-Vocal-Multi-Effects-Processor-Microphone-i.185899831.52504595267) |
+| Condition unknown / Toko Alat Musik NADA,KotaBandung | **Rp5.859.600;Habis**. Title explicitly V6-SP. Last-month direct cache;stale21–22Aug delivery. Page taxonomy says computer processor;hardware identity rests on title,not taxonomy. | [236930016/3969082198](https://shopee.co.id/Zoom-V6-Introducing-The-V6-SP-Vocal-Processor-i.236930016.3969082198) |
+| Condition unknown / nusantaramusic,KotaPekanbaru | **Rp4.400.000;Habis**. Title says V6 withoutSP;package revision unresolved. Two-week direct cache versus two-month search;stale5–7Oct delivery. | [88823786/5918943265](https://shopee.co.id/Zoom-V6-Vocal-Effects-Pedal-with-Voice-Processing-Processor-i.88823786.5918943265) |
+| Storefront snapshot / Zoom Official Shop | [Shop348182890](https://shopee.co.id/shop/348182890) last-month index displays V6-SP **Rp5.806.350**,versus recorded exact-item Rp6.633.000. The shop also shows1% voucher,minRp1.5m,expiry2026-10-01. Selected variant,base-price relation andcurrent eligibility unresolved;not a revised unconditional item price orlive-stock proof. | Existing exact-item link retained above |
+
+
 ## G3Xn
 
 Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, not G3n, G3X or G3. Bass capability unresolved; no ownership inferred. Manufacturer UK page marks discontinued; aftermarket offers do not reverse that status.
