@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 383,
+  "active_model_count": 384,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 383,
+  "canonical_root_model_count": 384,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "383 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "384 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,12 +29,12 @@
   },
   "cursor": {
     "model": "DigiTech RP350",
-    "task": "Next research exact RP350 from own manufacturer sources and Shopee;RP355 conflicts remain documented,not a blocker to remaining models.",
+    "task": "First pass saved. Next audit own control inventory and category choices,then commit before RP55/RP80.",
     "next_models": [
       "RP55",
       "RP80"
     ],
-    "after_queue": "383 active models,46 brands,all partial;114 compatibility Markdown files remain;no downloads/workflows/push."
+    "after_queue": "384 active models,46 brands,all partial;114 compatibility Markdown files remain;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -25145,7 +25145,8 @@
       "RP200",
       "RP70",
       "RP150",
-      "RP355"
+      "RP355",
+      "RP350"
     ],
     "Korg": [
       "PANDORA stomp",
@@ -25622,7 +25623,8 @@
       "RP200",
       "RP70",
       "RP150",
-      "RP355"
+      "RP355",
+      "RP350"
     ],
     "KORG.md": [
       "PANDORA stomp",
@@ -25760,7 +25762,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 319,
+      "record_count": 320,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25790,10 +25792,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 319 guitar, 168 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 320 guitar, 168 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "383 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "384 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46226,10 +46228,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 383,
-    "canonical_root_models": 383,
+    "unique_brand_model_pairs": 384,
+    "canonical_root_models": 384,
     "legacy_only_models": 0,
-    "guitar_view_models": 319,
+    "guitar_view_models": 320,
     "bass_focused_models": 39,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
@@ -46568,6 +46570,7 @@
       "DigiTech::RP70",
       "DigiTech::RP150",
       "DigiTech::RP355",
+      "DigiTech::RP350",
       "Korg::PANDORA stomp",
       "Korg::AX3000G",
       "Korg::AX1500G",
@@ -49241,6 +49244,13 @@
     },
     "DigiTech::RP355": {
       "link": "DIGITECH.md#rp355",
+      "source_files": [
+        "DIGITECH.md"
+      ],
+      "finding_files": []
+    },
+    "DigiTech::RP350": {
+      "link": "DIGITECH.md#rp350",
       "source_files": [
         "DIGITECH.md"
       ],
@@ -81989,9 +81999,9 @@
   },
   "verification_gap_index": {
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
-    "model_count": 383,
-    "models_with_signals": 383,
-    "flagged_field_count": 4887,
+    "model_count": 384,
+    "models_with_signals": 384,
+    "flagged_field_count": 4898,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -89365,6 +89375,89 @@
             "source": "DIGITECH.md",
             "signals": [
               "not_established"
+            ]
+          }
+        ]
+      },
+      "DigiTech::RP350": {
+        "link": "DIGITECH.md#rp350",
+        "flagged_fields": [
+          {
+            "field": "Expression",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Knobs / footswitches / buttons",
+            "source": "DIGITECH.md",
+            "signals": [
+              "pending"
+            ]
+          },
+          {
+            "field": "Display",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Processing / choices",
+            "source": "DIGITECH.md",
+            "signals": [
+              "pending"
+            ]
+          },
+          {
+            "field": "Memory",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Power",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IR / NAM / capture",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Editor / software",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Looper / drums / scenes",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Used IDR",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
+            "field": "New IDR",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -119054,12 +119147,12 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "758f3c8588f595ed48008a5f139fe6a669fc037a2ea53e99b3d6f547360e5881",
+      "ALL-GUITAR.md": "e34575516e639eab1a73ac6ce86c639d3404aa1ac9da1e78fb4c5e8e5a50bd6a",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "2cbaec8251044f774e7761b25ca0d170dcd4e4e7c2d5edfb291d1bbd165d92f7",
+      "ALL-BASS.md": "045791c2063d2915477945f8731f8bf60cfda99dc3caf1208780a2b4a1c01e09",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -119079,11 +119172,11 @@
       "DARKGLASS.md": "4df816629a31b454d8c69de300525d97a85718749f23f4e684b243c5b50fce06",
       "SORAN.md": "cd5fc3d11881ca6e7ee13c166eca105b1fd7981ed6f4db0c4945e8eaf81fcc44",
       "EVENTIDE.md": "ecfa2508b72e16adee028b54c54d9590264d03f21b5b5f387b46f3156f098cbc",
-      "MULTI-EFFECTS.md": "e05aa66a04490e0f710c10606ac7ee10f1b44cb2faa464307e7239a0bbdb562e",
+      "MULTI-EFFECTS.md": "6685edfab83cde5f687c7bf127a2e2c97dcded47afbe23287e2b04829fa7b03b",
       "VOX.md": "7087c2c9689338adff6f0cff2449fa98b138812bac122bd393d989bcaad1dc62",
       "BOSS.md": "0d23479246ef2637728cc24c448bc44b72d6185c3ace982be064814f9a0aa992",
       "KEELEY.md": "bf2e0764ec43eedcfbfc9839452586b4b9c835948fc7315f5e935472f9d45d1a",
-      "ALL-VOCAL.md": "519b5f973c0f1a49d8f865fc1e22ce5777801f5529648f363b2a488f420091c4",
+      "ALL-VOCAL.md": "71a16d851977956135334a8eec14d3c969348c3e975bb017714c4c2b8a83cabd",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
       "DONNER.md": "c37c37a6d312decc6f18ea53df29fb6683f01ed89fdd5bbec65feb8dd2c44837",
@@ -119092,10 +119185,10 @@
       "AUDOTA.md": "6b3f98df769cb2ee1ac2c53bc35962eb7def7fdd370a8d43cde0a674a765e7ad",
       "ROLAND.md": "9ce3ef43fca59c82c03e9433494b8712e6a8d44b61af4beaff1ee160337ee343",
       "KEMPER.md": "8d101c0d5aa62f46ec00eb287a8f98e804f6c642ea3c8a45f8c53df39430b094",
-      "README.md": "bc28adaf9af62c3b1e8276821af1b0363191c09d2382ac0d3bb032035412ab90",
+      "README.md": "ac9bbd8521cc361905c23d6e127af30ff38469e8def91f6c00ea105e740bf9fe",
       "FRACTAL-AUDIO.md": "c49fc79d860c8cbe36666578a065d2015dd6a789dbe7f7852bf21aba35ce5a4c",
       "DEMONFX.md": "a477869186303c3c896d438dde6bb211e03920e6a51da4de617f5442de06e0ee",
-      "DIGITECH.md": "0971eb0d277b98d707e03f5b96685b0bb9f6fd2f71accaab6c4044c4a20762f1",
+      "DIGITECH.md": "6aee0a2c9979be35f5054da7b65470b5ef9f76c36e2fd5974fee11ba50328064",
       "SONICAKE.md": "62950fa34680adc5b5d06dfa1ba48ab212ecb69192764372d0a280dafa77c069",
       "AMMOON.md": "b5effe57a7b3389dc05c4c2efec738c1b027590868a74e88e7dfea36686d5524",
       "NEURAL-DSP.md": "8d43ed1212434c42e554a0a3a1f32e119735387adff2eca737ec9d63f29a8479",

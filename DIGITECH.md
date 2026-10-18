@@ -918,3 +918,30 @@ Checked 2026-10-18; partial. Exact RP355, not RP350. [Manufacturer product](http
 <!-- comparison evidence ends -->
 
 Shopee rejection: [seller855783279/item22273291654](https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654),Agen Tekno,Kota Jakarta Barat;four-month indexed ask **Rp170.000** is an **adapter**,excluded from processor prices. Checked2026-10-18;no current hardware-stock claim.
+
+## RP350
+
+Checked 2026-10-18; partial. Exact RP350,not RP355. [Own manufacturer-linked manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP350_Manual18-0436V-A_original.pdf),18-0436V-A,40 PDF pages,printed pp1–7,26–29 (M); [product](https://digitech.com/dp/rp350/) (P); [power FAQ](https://digitech.com/faqs/) (F). Browser text;no software downloaded or run.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in assignable pedal;toe-pressure **V-switch** selects wah versus assigned parameter. External expression unverified. M |
+| Knobs / footswitches / buttons | **6 rotaries /3 feet** (Up,Down,Amp A/B);complete separate-button count pending. M |
+| Display | Preset/parameter display plus LED matrix;diagonal,color,touch unverified. M |
+| Processing / choices | **11 simultaneous effects**;AudioDNA2. Category census and full routing audit pending. P/M |
+| Memory | **70 user+70 factory=140**;initial user fill unverified. P/M |
+| Synth / acoustic | Acoustic modeling referenced in manual;SynthTalk listed,not proof of full synthesis. Bundled HALion is computer software,not onboard engine. M/P |
+| Dimensions / mass | **12.875L×8.375W×2.5H inches;4.5lb**,own manual/product agree. |
+| I/O | ¼-inch TS guitar input;⅛-inch stereo aux/headphones;L/R¼-inch unbalanced outputs;L/R impedance-balanced XLR;USB-B;power inlet. M |
+| Power | **PS0913B,9V AC/1.3A** supply rating,2.5mm pin;actual pedal draw unverified. DC polarity inapplicable;battery/USB power unverified. F |
+| IR / NAM / capture | User IR,native/converted NAM,proprietary capture imports unverified;factory modeling proves none. |
+| Editor / software | **X-Edit2.4.1 Windows /2.7.1 Intel Mac** listed;current OS/driver operation unverified. USB audio **44.1kHz,16/24bit**. P/M |
+| Looper / drums / scenes | **60 drum patterns+5 metronome settings**;Learn-A-Lick **10seconds**,slows to¼ without pitch change. Phrase looper/scenes unverified;no RP355 borrowing. M |
+| Used IDR | Unknown;no exact processor offer found in this search. |
+| New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
+
+<!-- comparison evidence ends -->
+
+Shopee search2026-10-18 returned [adapter seller855783279/item22273291654](https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654),Agen Tekno,Kota Jakarta Barat;indexed Rp170.000 excluded from processor pricing. No live processor-stock claim.
