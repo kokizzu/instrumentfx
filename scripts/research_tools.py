@@ -601,7 +601,7 @@ def main():
         if mode == 'commit-tonelab-st':
             message = 'research(vox): preserve later ToneLab ST Windows end of support status'
         if mode == 'commit-tonelab-le':
-            message = 'research(vox): map ToneLab EX footswitch roles and panel lock'
+            message = 'research(vox): audit ToneLab EX amp cabinets and own clean settings'
         if mode == 'commit-ax1500g':
             message = 'research(korg): resolve AX1500G factory fill calibration and used ask'
         if mode == 'commit-rp255':

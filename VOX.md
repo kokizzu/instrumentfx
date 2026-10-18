@@ -518,6 +518,16 @@ Checked 2026-10-18 against [own E1 manual pp4,7,10–11](https://voxamps.com/wp-
 | Live / tuner and tap gestures | In Program Select, holding the currently selected Program1–4 switch about1second bypasses effects for tuning; about2seconds mutes. Tapping that current-program switch also sets delay time from the tap interval. This does not establish these same gestures for the individual-block switches in Stomp Box mode. |
 | Controls / Key Lock | Hold EXIT/TUNE about2seconds to lock top-panel switches, selectors and knobs; repeat to unlock. Rear-control and expression-pedal lock behavior is not established by that statement. |
 
+### ToneLab EX — amp/cabinet census and CLEAN/CUSTOM settings
+
+Checked 2026-10-18 against [own E1 manual pp15–21](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf); no sibling specifications transferred.
+
+| Field | Exact-model evidence |
+|---|---|
+| Processing / amp banks | **33 = 11 positions × STANDARD/SPECIAL/CUSTOM**. Positions: CLEAN; CALI CLEAN; US BLUES; US 2x12; VOX AC15; VOX AC30; UK ROCK; UK METAL; US HIGAIN; US METAL; BTQ METAL. |
+| Processing / cabinet census | **11:** TWEED1x8; TWEED1x12; TWEED4x10; BLACK2x10; BLACK2x12; VOX AC15; VOX AC30; VOX AD120VTX; UK H30 4x12; UK T75 4x12; US V30 4x12. The manual permits free amp/cabinet combinations. |
+| Processing / CLEAN-CUSTOM qualification | EX manual describes four-band EQ and specifies **GAIN,TREBLE,MIDDLE,BASS,PRESENCE all minimum** for flat response, with cabinet off for a completely clean line-like result. Retain this EX instruction rather than copying ST’s centered tone controls or disabled-GAIN description. Hardware behavior remains untested. |
+
 ## StompLab 1B
 
 <!-- comparison evidence begins -->
