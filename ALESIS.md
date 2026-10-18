@@ -240,6 +240,14 @@ Checked 2026-10-18 against the [original manufacturer manual, pp43–46,57–59]
 | Memory / MIDI recall modes | Program Change **OFF** ignores messages; **On** recalls the same number in the current bank; **tbL** remaps incoming0–127 to any of256factory/user locations. CC0 immediately before Program Change selects factory atvalue0,user at1–127. Remapping does not add memories. |
 | I/O / MIDI Thru instruction conflict | Utility description p46 assigns Thru to **C** and Program Change to **D**,consistent with its field diagram; MIDI Thru procedure p57 instead says **D**. Preserve this editorial conflict; actual unit/revision behavior was not tested. |
 
+### MIDIverb 4 — additional exact-item category ask
+
+| Price class | Amount | Exact offer and qualifications |
+|---|---:|---|
+| Condition-unverified category ask | **Rp3.700.000** | [Exact hardware item](https://shopee.co.id/Efek-Vocal-Alesis-Midiverb-4-Ori-Malaysia-Full-Ori-i.230530551.29571902985),shop230530551/item29571902985; seller name unknown,Kab.Sukoharjo. Checked2026-10-18: two-month cached [category](https://shopee.co.id/search?keyword=harga+efek+alesis+original) links the exact MIDIverb4 title; search agrees on amount. Direct base and category variant URLs failed; exact-ID searches returned no result. Category links display_model_id223643059602,selected variant unverified. Condition,new/used,working state,stock,adapter/bundle,warranty,shipping/tax,voucher anddelivered total unknown. Malaysia/original wording is a seller claim,not an established revision or authenticity finding. Cached ask,not live stock or a completed sale. |
+
+The separate used-title item1186125751/27025664286 still does not name a generation; its Rp2.600.000 is not assigned to MIDIverb4. No qualified new-condition offer was established by this search.
+
 ## MIDIverb III
 
 Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.
