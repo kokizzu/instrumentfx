@@ -4370,6 +4370,18 @@ Bass multi-effects; partial, checked2026-10-18. Distinct from506 and505II. [Manu
 
 <!-- comparison evidence ends -->
 
+### 506II — startup and tuner persistence
+
+Checked 2026-10-19 against [own original manual](https://zoomcorp.com/media/documents/E_506II.pdf), printed pp.5–11, document imprint506 II-5000. Text inspection only; no download or hardware operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / startup | Battery power turns on when a mono input plug is inserted; unplugging INPUT prevents idle battery drain. Adapter insertion powers the unit on. Unit cannot recharge batteries. Startup enters Play even if rotary selector points elsewhere. |
+| Live / master level | Master level spans0–50 and resets to40 after power cycling; not a stored per-patch level. Hold both+/− keys over1second to expose master adjustment. |
+| Tuner / reference persistence | Reference435–445Hz resets to440Hz at restart. Bypass/mute cannot be activated in Edit mode; return to Play first. |
+
+These reset behaviors concern global operating settings; they do not contradict the36 rewritable patch memories. No qualified new Shopee506II hardware offer emerged from the current exact search; no market-absence claim.
+
 ## B2
 
 Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 FOUR. [Manufacturer manual](https://zoomcorp.com/media/documents/E_B2.pdf),pp6–7,16,25–26,31.

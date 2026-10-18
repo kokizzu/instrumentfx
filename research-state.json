@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee Indonesia discovery",
-    "task": "Continue fresh Shopee Indonesia discovery with bass/vocal and other series; M13/G9.2tt pass returned accessories only. GE100 additional indexed asks saved. All390partial; migration incomplete; no market-completeness claim.",
+    "model": "Fresh Shopee discovery",
+    "task": "Bass/vocal pass saved; no unrecorded qualified lead. Continue other exact hardware series or substantive gaps; do not repeat identical cached B3n/VoiceLive offers.506II startup/tuner clarified.390partial;migration incomplete.",
     "next_models": [],
-    "after_queue": "Fresh Shopee discovery;no downloads/workflows/push."
+    "after_queue": "No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46339,7 +46339,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee Indonesia discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -121206,5 +121206,24 @@
         "stock": "Habis; indexed four months ago"
       }
     ]
+  },
+  "bass_vocal_discovery_20261019": {
+    "queries": [
+      "site:shopee.co.id \"Zoom 506\" bass",
+      "site:shopee.co.id \"Digitech\" \"BP200\"",
+      "site:shopee.co.id \"TC Helicon\" \"VoiceLive\"",
+      "site:shopee.co.id efek bass \"506\"",
+      "site:shopee.co.id efek bass \"BP\"",
+      "site:shopee.co.id \"VoiceLive 2\"",
+      "site:shopee.co.id \"BP90\"",
+      "site:shopee.co.id \"Zoom 506II\"",
+      "site:shopee.co.id \"bass multi\" \"Zoom\""
+    ],
+    "result": "No qualified unrecorded hardware lead. Existing Zoom/VoiceLive offers and unrelated electronics; B3n nusantaramusic Rp2.8m already recorded, no duplicate added."
+  },
+  "zoom506ii_startup_20261019": {
+    "source": "https://zoomcorp.com/media/documents/E_506II.pdf",
+    "pages": "5–11",
+    "findings": "Input/adapter power switching; no battery recharge; startup Play; master0–50 resets40; tuner435–445Hz resets440; bypass/mute unavailable in Edit."
   }
 }

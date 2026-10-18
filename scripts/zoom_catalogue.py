@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(zoom): qualify B2.1u preset storage behavior'))
+    print(git('commit','-m','research(zoom): document 506II startup and tuner persistence'))
