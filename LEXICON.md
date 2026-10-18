@@ -136,6 +136,17 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 | Seller-described used | **Rp4.100.000**, “bekas normal” title. andikondo,shop752257787/item29416419948,Kab.Kediri. Indexed/direct cached body checked2026-10-17; last-month crawl with September15–18 delivery. Physical condition and live stock unverified. | [Exact Shopee item][M300-O] |
 | New | Unknown; no qualified exact new offer verified. | — |
 
+### MX300 — analog ratings and conversion, 2026-10-18
+
+[Manufacturer Rev E manual,p50][M300-E],PN18-0473V-E,©2018. Text inspection only.
+
+| Field | Specification / qualification |
+|---|---|
+| I/O / input and output levels | Input **+4dBu nominal,+24dBu maximum**,impedance **50kΩ balanced/25kΩ unbalanced**. Output nominal **+4dBu or−10dBV**,software-selectable;maximum **+24dBu**,impedance **2kΩ balanced/1kΩ unbalanced**. Nominal andmaximum ratings are distinct. |
+| Conversion / internal format | ADC andDAC each **24-bit,44.1/48kHz,128×oversampling**. These converter ratings do not establish USB audio;the same table labels USB1.1 forMX-Edit andVST/AU control. |
+| Audio / performance conditions | With effects bypassed:response **10Hz–20kHz,+0/−0.5dB**,THD+N **<0.0019%** overthatband,dynamic range **>109dB A-weighted analog-to-analog**. These are published conditions,not measured results orall-active-effect performance. |
+| Power / retained frequency anomaly | Rev E repeats EU **220–240VAC56/60Hz**,rather than resolving the earlier Rev C text. No corrected frequency orhardware-revision explanation verified;actual rear label remains necessary forversion identification. |
+
 <!-- comparison evidence ends -->
 
 The used listing is a cached asking price, not a completed sale or current-stock certification. “Ori” and working-condition wording are seller claims. Actual voltage revision, adapter/mains cable,bundle,warranty,shipping/tax,variant and checkout availability remain unknown. Rp10,000 late-arrival compensation is not a purchase discount. No foreign price conversion.
