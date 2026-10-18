@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Atlantic NDR-5",
-    "task": "Partial record admitted;resolve original manual/visual controls,TRS stereo-vs-insert semantics,57/58mm and420/428g conflict,power/display/software andverifiednew/usedoffer gaps.",
+    "task": "Power polarity andoptionaladapter rating corroborated;actualdraw andTRS semantics unresolved. Resume freshShopee discovery,including distinctMG30MKII lead if exacthardwareoffer exists.",
     "next_models": [],
     "after_queue": "339 partial unique models;117 compatibility paths retained.No downloads/workflows/push."
   },
@@ -72669,5 +72669,11 @@
     "source": "https://cn.mooeraudio.com/product/86.html",
     "finding": "Manufacturer confirms included Devin Townsend presets; exact factory fill remains unresolved. Full per-module choice lists and overlap reconciliation now retained in MOOER.md.",
     "remaining": "Undo/redo operating controls andfirmware baseline stillunresolved aftertargetedofficialsearch;do notpromote absenceofinstructions toNo. Continue visual/display,power,software andexactoffer-condition gaps orfreshdiscovery."
+  },
+  "atlantic_followup_20261018": {
+    "source": "https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need",
+    "checked": "2026-10-18",
+    "finding": "Exact Atlantic center-negative corroborated;named optional ACD006A rating separated from unknown pedal draw. Input headroom values now projected.",
+    "unresolved": "Stereo-vs-insert electrical semantics remain unresolved;targetedprimarysearchdidnotjustifyassigningtip/ring. Original PDFtext andscreenshots didnotprovidevisiblepanel evidence. Next freshShopee discovery should check MG30MKII distinctfromMG30,orothermissinghardware."
   }
 }

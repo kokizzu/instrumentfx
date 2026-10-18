@@ -1140,8 +1140,8 @@ Sources: [NUX global product](https://nuxaudio.com/product/atlantic/) (P);[offic
 | Memory / factory / user | Preset/factory/user memory unverified. |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unverified;Shimmer is not proof of either. |
 | Dimensions / mass | M:105L×115W×57H mm,420g. Another Japanese manual index reports58H/428g;revision conflict unresolved,not averaged. |
-| I/O / routing | One¼-inch TRS input,two¼-inch outputs,microUSB,DC. **Input ambiguity:** P/NUXUSA call itstereo;M saysmono/insert andsupportsYcable. Do not infer ordinarydual-channel input behavior. M recommendsright output formono. No dedicatedphones intranscribed inventory. |
-| Power / battery / USB | M:9VDC negative-tip,optionalACD-006A. Current,battery andUSB-powered operation unverified. |
+| I/O / routing | One¼-inch TRS input,two¼-inch outputs,microUSB,DC. **Input ambiguity:** P/NUXUSA call itstereo;M saysmono/insert andsupportsYcable. Do not infer ordinarydual-channel input behavior. M recommendsright output formono. No dedicatedphones intranscribed inventory. P explicitly gives **−10/+4dB input-level settings**;these are headroom settings,not published input impedance or maximum levels. |
+| Power / battery / USB | M:9VDC negative-tip,optionalACD-006A. [NUX USA power guide](https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need),updated2026-09-27, explicitly confirms Atlantic **9VDC center-negative** and identifies ACD-006A as **9V/500mA,100–240VAC input**. Adapter capacity is not pedal draw. Actual draw,battery andUSB-powered operation remain unverified. |
 | IR / NAM / captures | IR,nativeNAM,convertedNAM andproprietary capture loading unverified. |
 | Editor / platforms | P lists firmware2.1.0 packages forWindows/macOS,undated;USB updater is notfull editor/audio proof. Full editor,minimumOS,USB audio/MIDI unverified. |
 | Looper / drums / scenes | Unverified. |
