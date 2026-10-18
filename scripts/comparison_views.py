@@ -654,7 +654,11 @@ def price_cells(record):
         value=clean(fact['value'])
         if not re.search(r'IDR|retail evidence|retail observation|^prices|^idr$',label,re.I):
             continue
-        if 'USD' in label or not ('Rp' in value or '?' in value):
+        # Explicit IDR rows include condition/stock qualifications and amounts in
+        # labels. Preserve them even when their value contains no currency token.
+        if 'USD' in label or not value:
+            continue
+        if not re.search(r'\bIDR\b', label, re.I) and not ('Rp' in value or '?' in value):
             continue
         entry='**'+clean(label).replace('**','')+':** '+value
         if re.search(r'\b(?:used|preloved|bekas|second)\b',label,re.I) and not re.search(r'new|retail',label,re.I):
@@ -746,6 +750,17 @@ def test_field_projection():
     assert price_cells(negative)[0].startswith('?'), 'Negated condition leaked into used-price evidence'
     positive = {'facts':[{'field':'Used IDR','value':'Rp3.000.000 seller-labelled used; stock unconfirmed','context':''}]}
     assert 'Rp3.000.000' in price_cells(positive)[0]
+    qualifiers = {'facts': [
+        {'field': 'IDR qualifications', 'value': 'Seller condition, live stock, bundle and warranty remain unverified.', 'context': ''},
+        {'field': 'IDR Condition unresolved: Rp1.460.000', 'value': 'Exact hardware listing; selected variant unverified.', 'context': ''},
+        {'field': 'Used IDR', 'value': 'Unknown; no condition-verified used offer.', 'context': ''},
+    ]}
+    used_cell, offer_cell = price_cells(qualifiers)
+    assert 'Seller condition, live stock, bundle and warranty remain unverified.' in offer_cell, 'Price-free qualifications were discarded'
+    assert 'Rp1.460.000' in offer_cell and 'selected variant unverified' in offer_cell, 'Price in field label was discarded'
+    assert 'no condition-verified used offer' in used_cell and 'Rp' not in used_cell, 'Unknown used evidence was lost or given an amount'
+    foreign = {'facts': [{'field': 'Retail USD', 'value': '$99 foreign ask', 'context': ''}]}
+    assert '$99' not in ''.join(price_cells(foreign)), 'Foreign ask leaked into IDR columns'
     cases = {
         'expression': ['Built-in / external EXP', 'Control / FS01 assignments'],
         'io': ['Instrument / input requirements', 'MIDI / backup', 'Audio/control', 'Audio input', 'Audio inputs', 'Audio output', 'Audio outputs', 'Level conflict', 'Built-in instrument wireless', 'Analog levels / conversion', 'Conversion / analog levels', 'MIDI / clock restrictions', 'MIDI / external-control interface', 'Control / USB', 'Audio levels / impedances', 'Audio / electrical specifications', 'Audio noise specifications'],

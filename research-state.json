@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX10B",
-    "task": "Saved exact11-positionAMPselector=10amps+EQ and5nestedTALKmodes fromownEFG1manual. Screen/conversion/currentdraw remain unverified;four officialsitequeries didnotresolve. Next another specificmodelgap orfreshbrand discovery ratherthanrepeatAX10Bscreen/powersearch.",
+    "model": "Catalogue price qualification projection",
+    "task": "Saved regression and repair for amount-free explicitIDR qualifications,unknownconditionnotes,andpricesinlabels. Next fresh hardware discovery orspecific manufacturer gaps;do notmistake regeneratedqualifications fornewmarketverification.",
     "next_models": [],
     "after_queue": "353partialmodels;294guitar155bass69vocal;legacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -76974,5 +76974,25 @@
       "user storage/editor/import scope",
       "seller revision/condition/stock/new-used price qualification"
     ]
+  },
+  "price_qualification_projection_20261018": {
+    "regression": "Explicit IDR rows without Rp or question-mark in their value were discarded, including separate qualifiers, unknown condition notes and amounts in labels.",
+    "fix": "Preserve nonempty explicit IDR rows; existing foreign-label exclusion and amount qualification logic retained.",
+    "preview": [
+      {
+        "file": "ALL-GUITAR.md",
+        "changed_rows": 141
+      },
+      {
+        "file": "ALL-BASS.md",
+        "changed_rows": 59
+      },
+      {
+        "file": "ALL-VOCAL.md",
+        "changed_rows": 36
+      }
+    ],
+    "existing_Rp_amount_tokens_retained": true,
+    "limitations": "Projection fix only; no new prices, condition confirmation or stock verification."
   }
 }
