@@ -737,6 +737,18 @@ Checked2026-10-18 against own English EFG1 manual,printed pp6–7,9–12. No dev
 | Expression / sensitivity calibration | Calibration uses pedal-setting+WRITE atpower-on,then heel return andthe desired forward switching position;release the pedal beforeWRITE confirms. Korg specifies foot operation because hand adjustment may be inaccurate. This adjusts travel/switch response,not a factory-program reload. [Manual pp11–12][AX5B-M] |
 | Live / bypass and mute | Press both program switches together for bypass;hold aboutone second for mute. Either single program switch exits without changing programs. Tuner operates inboth;value knob remainsmaster volume. This does not establish analog true bypass orpatch-change spillover. [Manual pp10–11][AX5B-M] |
 
+
+### AX5B — original appendix library and tracking qualifications
+
+Checked 2026-10-18 against [own EFG1 manual][AX5B-M], printed51–53 (PDF pages39–41). English AX5B cover/model verified; numbering differs from PDF page positions. No file downloaded or visual inspection claimed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / PRE disagreement | Appendix F3 is **Ring Modulator**,with oscillator-frequency,effect,direct andfilter controls; product PRE list instead namesWAH. Appendix lists pedalWAH separately. Preserve both library descriptions;do not silently replace the product list oradd another advertised effect. |
+| Synth / editable controls | SYNTH F9 offers depth/polarity −10…−0 and0…10,resonance0–10,attack0–10,wave0–10,mix0–10. Resonance is the suggested pedal target. Wave values are parameter settings,not11 independently counted synth algorithms;tracking/polyphony still unverified. |
+| Synth / single-note restrictions | Manual explicitly restricts OCTAVE andFRETLESS to single-note use;chords may produce muddy/uncontrolled results. Do not generalize that warning into a proven SYNTH polyphony specification. |
+| Expression / filter interaction | ClassicChorus,ClassicFlanger andFiltron MANUAL has no effect withDEPTH10. For Filtron pedal control ofMANUAL,Korg recommendsDEPTH0or near0. A mapped pedal target does not guarantee audible change at every setting. |
+
 <!-- comparison evidence ends -->
 
 [AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
