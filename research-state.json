@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX3000B",
-    "task": "Saved AX3000B ESS parameter-sequencing limits andMIDI restore scope. Next fresh Shopee discovery orunresolved model gaps;no exact AX3000B offerfound.",
+    "model": "Behringer DSP2024P",
+    "task": "Saved additional documented effect families without inventing a full numbered census. Next inspect original algorithm tables or resume fresh Shopee discovery.",
     "next_models": [],
-    "after_queue": "349 partial unique models;114 Markdown compatibility files retained;no downloads/workflows/push."
+    "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3000B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer DSP2024P."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75037,5 +75037,26 @@
     ],
     "result": "No newexacthardware accepted;known X3Livepreowned/XTLiveoffers plusadapters. No catalogueincrement or refreshedstockclaim.",
     "checked_date": "2026-10-18"
+  },
+  "dsp2024p_effect_families_20261018": {
+    "checked": "2026-10-18",
+    "model": "Behringer DSP2024P",
+    "source": "https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual",
+    "revision": "Version1.2 September2004; own cover and model checked",
+    "sections": [
+      "2.3",
+      "2.4",
+      "2.8"
+    ],
+    "findings": [
+      "Additional modulation/pitch variants, dynamics and special-effect names recorded",
+      "Description headings do not establish numbered algorithm totals",
+      "Voice Canceler is not proven stem extraction; resonator is not proven tracking synthesizer"
+    ],
+    "remaining": [
+      "Complete 71-entry numbered census",
+      "Exact suffix/condition-qualified Shopee prices",
+      "Panel visual corroboration and remaining technical gaps"
+    ]
   }
 }

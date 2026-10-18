@@ -427,6 +427,17 @@ Checked 2026-10-18 against [manufacturer manual Version1.2][D24-M], printed pp.7
 | Power / fuse versus current | Published fuse ratings are **T200mA H250V for100–120V** and **T100mA L250V for200–240V**. These are fuse specifications, not measured or rated operating current. |
 | I/O / maximum analog levels | Maximum input and output are **+15dBu at +4dBu nominal**, or **+1dBV at −10dBV nominal**. Do not substitute nominal operating level for clipping/headroom limits. |
 
+
+### DSP2024P — additional documented effect families
+
+Checked 2026-10-18 against manufacturer manual Version1.2, sections2.3–2.4 and2.8, printed pp.12–14,17–18. Original cover/model/revision checked; generated mirror FAQ excluded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / modulation and pitch | Named variants include Vintage/Jet Stream Flanger, Analog/Vintage/Ultra Chorus and Vintage/Dual Phaser; pitch shifting, vibrato, tremolo and auto panning are also described. These are documented choices, not a reconciled numbered algorithm census. [Manual][D24-M] |
+| Category choices / dynamics | Compressor/limiter, expander, gate, Ultramizer, denoiser, de-esser and Wave Designer are described. Ultramizer uses two frequency bands; Wave Designer shapes the signal envelope. Do not infer separate algorithm numbers from combined description headings. [Manual][D24-M] |
+| Category choices / special effects | Vinylizer, sampler, vocoder, Voice Canceler and resonator are named. Voice Canceler targets centered mono vocals in stereo material; this is not documented stem extraction. Resonator supplies frequency-selective resonance, not proof of a keyboard-tracking synth. [Manual][D24-M] |
+
 <!-- comparison evidence ends -->
 
 [D24-M]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual
