@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Zoom G2 FOUR (partial)",
-    "finding": "External FP02M controls patch-selected pedal effect; global override unverified. Dedicated phones and onboard lower/higher patch navigation documented; depth5mm over preferred.",
+    "current": "Zoom G2Nu (partial)",
+    "finding": "RTM expression destination/range must be saved with patch; global FS01 assignment is distinct. VOLUME limited by master/patch levels; coverage unknown.",
     "next": [
-      "Systematic remaining no-treadle inventory: Zoom G2Nu",
+      "Systematic remaining no-treadle inventory: DigiTech RP150",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 31,
+      "comparison_rows": 32,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     }

@@ -4573,6 +4573,10 @@ Checked 2026-10-19 against [same manufacturer-authored family manual body](https
 
 Exact firmware/counting searches returned no explanatory primary result;no installed-library claim. Count discrepancy remains qualified rather than resolved. No downloads or device operation.
 
+### G2Nu — external expression-volume scope
+
+Checked2026-10-19 against [original manufacturer family manual body](https://manualzz.com/doc/58694453/zoom-g21nu-operation-manual), p27; G2Nu-specific CONTROL IN instruction confirmsFP01/FP02. **TOTAL→RTM destination and range are patch settings**: manual requires saving before changing patches. VOLUME is a selectable destination, capped by master/patch levels; adjustable endpoints allow inversion, numeric volume endpoint bounds unverified. The global FS01 switch assignment onp26 is separate and does not establish global expression volume. G2.1Nu-only toe/calibration instructions are not transferred. Volume position, bypass, headphone/tail/looper coverage and position recall remain unknown. Existing160W×166Dmm exceeds preferred depth; shared line/headphone output and onboard down/up retained. No download or device operation.
+
 ## B2 FOUR — external expression-volume audit
 
 **Checked 2026-10-18. Partial capability update, not complete consolidation of the existing bass profile.** [Cross-brand comparison](EXPRESSION-VOLUME.md).
