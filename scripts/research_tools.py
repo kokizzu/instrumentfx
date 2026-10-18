@@ -555,7 +555,7 @@ def main():
         if mode == 'commit-gfx4':
             message = 'research(zoom): qualify GFX4 factory memory converters and input ratings'
         if mode == 'commit-gfx5':
-            message = 'research(zoom): retain exact category-linked GFX5 hardware ask'
+            message = 'research(zoom): add qualified Klaten GFX5 category ask'
         if mode == 'commit-gfx3':
             message = 'research(zoom): qualify 606 tuner and master volume resets'
         if mode == 'commit-rp250':

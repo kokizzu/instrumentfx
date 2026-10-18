@@ -2829,6 +2829,12 @@ Printedpp4–5 name all21buttons;the nine rotary total includes the rear LEVEL c
 | Processing / converters and sampler | Internal sampling is **31.25 kHz**; A/D is **20-bit, 64× oversampling**, D/A **20-bit, 8× oversampling**. The separate sampler records/plays **16-bit linear** audio; this is not the converter resolution or a USB format. | [Manual p35][GFX5-M] |
 | I/O / electrical ratings | Guitar and AUX rated inputs are both **−20 dBm**, with respective impedances **470 kΩ / 20 kΩ**. Line maximum is **+3 dBm into ≥10 kΩ**. Headphones are rated **50 mW into 32 Ω**; the manual does not identify that figure as per-channel. Its stated reference is 0 dBm = 0.775 Vrms. | [Manual p35][GFX5-M] |
 
+### GFX-5 — additional exact category-linked asking price, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / condition-unverified category ask | **Rp1.120.000**, exact **shop443709115/item45515017847**, linked variation **426287862534**, Kab.Klaten. [Shopee Zoom category](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&subcategory=11043648) links the GFX-5 title to [this hardware item](https://shopee.co.id/efek-gitar-zoom-gfx-5-i.443709115.45515017847). Checked2026-10-18; reader reports last-month cache. Both variation URL and base item returned cache miss; exact-ID search returned no results. Seller name, condition, selected variation contents, working state, stock, revision, adapter/bundle, warranty, voucher, shipping/tax and checkout total remain unknown. Separate cached ask, not a verified used/new offer, completed sale or current market range. |
+
 ## GFX-4
 
 Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufacturer confirms discontinued. Bass/vocal applicability and ownership unresolved.
