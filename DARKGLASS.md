@@ -106,3 +106,17 @@ Checked 2026-10-18 against the [KosmOS 1.17 manufacturer PDF][ANA-M], PDF pp.92�
 | MIDI / toggle logic | Value mode: CC0–63 sets a binding off, 64–127 on. Toggle mode: any nonzero value toggles. Applies to stomp foot bindings and knob-bound toggle/bypass parameters. |
 | MIDI / redundant program changes | Ignore Redundant PC on leaves the active preset untouched; off reloads its saved state. MIDI channel can be Omni. This does not resolve 1.18 multi-area addressing or capacity. |
 
+
+### Anagram — global mixer, input slots and persistence limits
+
+Checked 2026-10-18. [KosmOS 1.17 PDF][ANA-M], PDF pp.61, 66–68, 73–76; later firmware fixes are separately qualified below. Text inspection only.
+
+| Field | Finding / boundary |
+|---|---|
+| Routing / mixer and mute | Six controls address Out3, Out4, XLR Out1, XLR Out2, headphones and Master. Each of the first five can be linked to Master; **Master Mute silences linked outputs only**. XLR and line pairs have separate stereo-link controls. Output levels persist across presets. |
+| I/O / input-gain memories | **Six named instrument slots**, each storing input gain; **−12 to +12 dB**. Settings persist across presets and reboot. These are input setup memories, not six additional effects presets. |
+| I/O / gain domain | Positive input gain is analog and can increase clipping with hot instruments; negative gain is digital. Do not assume a digital reduction adds analog input headroom. |
+| Live / tuner and tempo | Reference **420–460 Hz**, default440; tempo **40–300 BPM**, default120. Tempo-synced delays follow global tempo; this does not establish external MIDI-clock behavior. |
+| Firmware / mixer persistence | [Official Suite changelog](https://www.darkglass.com/products/darkglass-suite), KosmOS **1.18.1**, fixes mixer/global-EQ values not persisting after numpad entry. It also fixes saving to the wrong preset area and retains the chosen user area when trying Suite presets. Manual persistence statements therefore require firmware/method qualification. No update performed. |
+
+USB direction remains unresolved: the 1.17 PDF labels 12 channels as 3in/9out without a complete readable host-direction routing table. Do not borrow Exponent 500 or ADAM channel assignments. The product/Suite 126-versus127 user-area conflict remains open.

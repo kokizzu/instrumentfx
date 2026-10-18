@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Darkglass Anagram",
-    "task": "Next inspect versioned mixer/USB routing to resolve printed3in/9out direction and multi-area MIDI addressing; preserve1.17/1.18 conflicts. Electrical/latency/MIDI-switching batch saved before another model.",
+    "model": "Fresh discovery / other required model gaps",
+    "task": "Anagram mixer, input-gain memories and version-qualified persistence saved. USB direction and1.18 multi-area addressing remain unproven; do not repeat unchanged PDF searches or import sibling mappings. Continue fresh eligible Shopee series or another readable model-specific manual.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Darkglass Anagram."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / other required model gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78581,5 +78581,13 @@
     "saved": "Analog maximum levels/impedances; headphone impedance/gain; empty versus loop/return latency; MIDI toggle thresholds and redundant-PC reload",
     "limits": "Manufacturer ratings not tested unit; not USB round-trip latency or full-chain benchmark. 1.18 area semantics and USB direction mapping unresolved.",
     "next": "Resolve USB mixer routing/channel directions and multi-area MIDI addressing from versioned primary manual."
+  },
+  "anagram_mixer_input_persistence_20261018": {
+    "source": "https://api.darkglass.com/static/Anagram-Manual.pdf",
+    "revision": "KosmOS1.17; PDF61,66–68,73–76",
+    "firmware_source": "https://www.darkglass.com/products/darkglass-suite",
+    "saved": "Master mute linked outputs only; per-output/stereo links; six input-gain slots, analog positive/digital negative gain; tuner/tempo ranges;1.18.1 numpad persistence and wrong-area save fixes",
+    "unresolved": "USB3in/9out host direction, multi-area MIDI addressing and126/127 conflict. Exact current manual landing only repeats old PDF and1.18.1 block list; no resolved area schema.",
+    "next": "Fresh eligible Shopee hardware discovery or other model required gaps; revisit Anagram USB/areas only with new version-specific documentation."
   }
 }
