@@ -9,7 +9,7 @@ Version 2 only; original Fly Rig 5 and RK5 are distinct. Checked 2026-10-17; par
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in, external and toe support unverified. | Unresolved |
-| K/F/B | **13 rotary controls**, derived from manual functions: Plexi/Cali3, Blonde5, Boost1, Delay3, Reverb1. Footswitch/button totals remain pending visual inventory. | [Manual pp.4–8][FR-M] |
+| K/F/B | **13 / ? / ?**: Plexi/Cali3, Blonde5, Boost1, Delay3, Reverb1 rotaries. Manual separately names six selectors: Cali, speaker simulation, Pre/Post Boost, Drift, 8TH, Size; ground-connect additional. Blonde/Tuner andTap/Reverb are explicitly named footswitches,not a complete footswitch census. Selector functions do not establish physical button shape/count. Visual total remains pending. | [Manual pp3–8][FR-M]; [product][FR-P] |
 | Display | Chromatic tuner has green in-tune/red direction indicators; screen diagonal/technology/touch unverified. | [Manual][FR-M] |
 | Dimensions / mass | **12.5 L × 2.75 W × 1.25 H inches; 20.7 oz**. Long strip. | [Product][FR-P] |
 | Processing / category choices | **Blonde SansAmp, Plexi/Cali, Boost, Delay and independent Reverb**; two distortion choices, two room sizes, quarter/dotted-eighth timing, Drift modulation. Exact simultaneous block count unresolved. Product boost approximately12dB; manual distinguishes **pre20dB/post12dB**. Analog SansAmp does not establish all-analog time effects. Blonde active EQ: **±12dB at80Hz/500Hz/3.3kHz**, flatatnoon. | [Product][FR-P]; [manual][FR-M] |
@@ -61,6 +61,13 @@ Checked2026-10-18 against [own OM3 manual,rev12/20,printed pp3–4,7–9][FR-M].
 | Live / tuner exit | HoldBlonde/Tuner **0.5seconds toenter and0.5seconds toexit**;tuning mutes the signalpath. A simpletap isnot thedocumented exitgesture. This refines theearlier entry-only summary. |
 | Effects / delay selector controls | **Drift and8TH are switches**,not additional rotarycontrols. Delayrotaries remainTime,Repeats,Level;quarter/dotted-eighth timing andDrift donot create independent effectslots. Theexisting13-rotary total remains unchanged. |
 
+
+
+### Fly Rig 5 v2 — control census evidence boundary
+
+Checked2026-10-18: ownOM3 function text identifies six separate selector functions alongside thirteen rotary controls. Theground-connect control isadditional;Tap/Reverb shares twofunctions onone footswitch,andBlonde/Tuner shares twofunctions onanother. Do not counttheseasfour switches orpromote thetwo named actuators toa verified total. Themanufacturer product image couldnotbefetched;PDF screenshot unavailable andno browser surface wasavailable. No visualcensus claimed.
+
+A freshShopee exactmodel search repeats theexisting Melodia item andRp5,376,800 indexedask;no qualifiedused offer established. A [three-month categorycache](https://shopee.co.id/search?keyword=fly+v2) also listsFlyRig5v2 atRp5,040,750 andRitchieKotzenSignaturev2 atRp5,284,750. Reopeningfailed;no exactitem/seller wasrecovered forthose categoryamounts. They areunresolved leads,not new qualifiedasks,live stock,or identification oftheexisting usedRK5. No modelcount addition.
 
 ## Bass Fly Rig v2
 
