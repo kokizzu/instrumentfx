@@ -1747,6 +1747,14 @@ USB channel count, AUX-to-recording routing, dry recording, loopback and reampin
 | Expression / toe-toggle setting distinction | **Toe-down toggles the pedal effect but does not change its ON/OFF setting**, whereas the separately described button operation does change that setting. The extracted button icon is absent, so its physical identity is not inferred. This distinction does not establish an external toe switch or universal momentary operation. [Own manual p46](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf). |
 | Live / tempo synchronization prerequisite | Tempo serves the looper, rhythm and delay, plus some modulation effects. Effect synchronization requires a compatible effect and its Time/Rate parameter set to a **musical-note value**; tapping alone does not make every effect tempo-synchronized. [Own manual p47](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf). |
 
+### G5n — looper persistence and unit usage
+
+| Field | Manufacturer V2 manual evidence / qualification |
+|---|---|
+| Looper / instances and units | Four choices: **one-unit mono, two-unit mono, one-unit stereo, two-unit stereo**; **only one LOOPER per patch**. Two units describe interface/effect-unit occupation, not two independently running loopers. DSP cost remains separately version-qualified. [Own manual p41](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf). |
+| Looper / phrase lifetime and quantization | Switching to MEMORY mode preserves recording/playback. **Changing patches stops and deletes the phrase**. With rhythm playing, recording follows the precount and its ending is quantized. **Changing rhythm tempo during loop playback erases the phrase**. This is not persistent loop storage. [Own manual p42](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf). |
+| Drums / mode and patch changes | Rhythm continues across STOMP/MEMORY mode changes but **stops on patch change**. Tempo spans **40–250 bpm**, volume **0–100**; shared tempo does not override the effect synchronization prerequisite above. [Own manual pp39–40](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf). |
+
 ## G3n
 
 Reviewed **2026-10-17**,new exact-model Shopee discovery. Separate from G3Xn and older G3;no ownership assertion. Partial. Manufacturer manual evidence is indexed text,not PDF/image inspection;no dependency,software,firmware or manual file downloaded.
