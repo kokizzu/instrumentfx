@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-30",
-    "task": "MG30 practice features,ampcountconflict andGEN2 migration limits saved. Resume other exactprimarygaps orfreshShopee discovery;manual/stereo-loop details remainunverified.",
+    "task": "MG30 named base choices saved,GEN2 additions separate. Resume freshShopee discovery oranother model primarygap;do not repeat SE70/VF1/FX500 emptyqueries without newlead.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -24260,6 +24260,15 @@
       "checked_date": "2026-10-18",
       "model": "Sonicake Twiggy Blues QCE-20",
       "finding": "Broader Shopee Twiggy/SonicakeBlues/QCE20 searches returned unrelated lifestyle items or no exact pedal offer. Pending,not unavailable;do not repeat broadTwiggy-only search."
+    },
+    {
+      "checked_date": "2026-10-18",
+      "models": [
+        "BOSS SE-70",
+        "BOSS VF-1",
+        "Yamaha FX500"
+      ],
+      "finding": "Shopee exact-name/spelling searches established no exact hardware item;VF1 hits were aviation products. No admission or unavailable conclusion."
     }
   ],
   "inventory_by_brand": {
@@ -72809,5 +72818,11 @@
     ],
     "finding": "Looper60s/drums67in11styles saved;36badge-vs35body count conflict retained. GEN2 settings/preset/recalibration restrictions recorded without performing updates.",
     "remaining": "Full original manual inaccessible as readable text;do notclaimPDFinspection. Loopstereo/duration,persistence,undo-redo andexactfirmwarebaseline unresolved. Continue other exactprimarygaps orfreshdiscovery."
+  },
+  "mg30_category_followup_20261018": {
+    "source": "https://nuxaudio.com/product/mg30/",
+    "checked_date": "2026-10-18",
+    "finding": "Named base WAH,CMP,GATE,EFX,EQ,MOD,DLY,RVB choices retained;GEN2 additions kept separate. Category availability not confused with simultaneous block ceiling.",
+    "remaining": "Exact current library by firmware,loop persistence,USB formats,display touch/pixels andnew/used offer conditions unresolved."
   }
 }

@@ -317,6 +317,17 @@ GEN2 was firmware1.0.5 at the original check;it is not a new physical model sole
 | Looper / drums | [NUX USA exact MG-30 product](https://www.nux.us/products/mg-30), checked2026-10-18: **60-second phrase looper**, recording/overdubbing; **67 drum patterns across11styles**. Stereo-duration split, undo/redo, loop persistence andfirmware baseline unverified. |
 | Processing / regional count conflict | Same USA page has a **36 amps** badge but body specifies **35=28guitar+2acoustic+5bass**. Retain both;do not invent an extraamp oroverride olderChinese30count. |
 | Editor / GEN2 migration limits | [NUX USA support article](https://www.nux.us/blogs/support/mg-30-and-mg-30-gen2-firmware-and-nam-files), updated2026-09-27: update resets user settings;factory reset andexpression recalibration afterward,custom boot image erased;some saved presets may be incompatible. Article notes olderUSpost editor2.6.4.14 versusglobal2.6.7.16. No update orcompatibility test performed. |
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / base WAH choices | Clyde, Cry BB, V847, Horse Wah, Octave-Shift. |
+| Processing / base CMP and GATE choices | CMP: Rose, K Comp, Studio Comp. GATE: Noise Reduction. |
+| Processing / base EFX choices | Dist+, RC Boost, AC Boost, Dist One, T Scream, Blues Drv, Morning Drv, EAT, Red Dirt, Crunch, Muff Fuzz, Katana Boost, Red Fuzz, Touch Wah. |
+| Processing / base EQ choices | 6-Band, Align, 10-Band, Para. |
+| Processing / base MOD choices | CE-1, CE-2, ST. Chorus, Vibrator, Detune, Flanger, Phase90, Phase100, S.C.F., U-Vibe, Tremolo, Rotary, Harmonist. |
+| Processing / base DLY and RVB choices | DLY: Analog, Digital, Modulation, Tape, Reverse, Pan, Duotime, Phi. RVB: Room, Hall, Plate, Spring, Shimmer. |
+
+Lists above transcribe the [manufacturer's base category list](https://nuxaudio.com/product/mg30/), checked2026-10-18. GEN2 additions are separately retained above; these are category choices, not extra simultaneous blocks or a verified current-firmware total.
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields
