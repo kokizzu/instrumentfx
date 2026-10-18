@@ -1275,7 +1275,7 @@ Checked2026-10-17;partial. Acoustic guitar multi-effects: analog preamp plus ind
 | Dimensions / weight |105L×115W×58H mm;445g. |
 | Power |9V DC,negative tip,2.1mm;180mA draw;optional ACD-006A. Internally doubled18V is not supply voltage. Battery/USB power unverified. |
 | Audio |44.1kHz;32bit ADC/processing. USB audio unverified. |
-| Software | Micro-USB firmware updates;full editor,platforms,drivers/mobile audio unverified. |
+| Software | Micro-USB firmware updates;manufacturer Chinese manual namesPC/Mac(see follow-up). Updater releases/OSversions,full editor,drivers/mobile audio unverified. |
 | Looper / drums / scenes |60s,unlimited overdubs;both switches enter loop mode,Preamp record/play/dub,Reverb knob loop level. [Product](https://nuxaudio.com/product/stagemanfloor/). Undo/redo,double-tap stop,hold clear. Drums/scenes/persistence/spillover unverified. |
 | Routing / phantom | Serial insert;DI ground lift. Manual explicitly forbids48V phantom at DI output. |
 
@@ -1300,6 +1300,16 @@ Offers checked2026-10-17. New/used condition,working state,revision,stock,varian
 | Condition unverified / CH MUSIC | **Rp2.350.000** | [195817632/6878725537](https://shopee.co.id/Nux-nap5-nap-5-nap-5-Stageman-Floor-Efek-Gitar-Akustik-Preamp-DI-i.195817632.6878725537), Kota Jakarta Pusat. Search three months old; direct JavaScript-limited text two weeks old. Relative four-hour delivery is not current-stock proof. |
 
 All identify NAP-5 Stageman Floor hardware. New/used condition, working status, selected variant, adapter/bundle, warranty/import region, authenticity, shipping/tax and checkout total remain unknown. No Habis in the CH extract does not prove availability. Late-arrival compensation is not an immediate discount: CH search shows up toRp20.000, direct text up toRp10.000; retain the cache difference without subtraction. Historical asks, not a verified retail range or completed sales.
+
+### Stageman Floor updater and audio specifications,2026-10-18
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| USB / updater platforms | Manufacturer-authored bilingual manual,Chinese PDFp11,explicitly names **PC or Mac** for micro-USB firmware updating. This narrows the previous platform gap;OSversions,available updater releases,USB audio,power andfull editor remain unverified. [Manual](https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf) |
+| EQ / published ranges | English PDFp7 specifies **±10dB** at **80Hz bass,1.8kHz middle,15kHz treble**. Chorus combinesmix/depth/rate;reverb combinesmix/decay ratherthan independently exposedparameters(PDFp3). [Manual](https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf) |
+| Audio / source-unit qualification | English PDFp7:20Hz–20kHz±1dB,noise−110dBu A-weighted;dynamicrange printed **120dBu** inbothlanguage tables. Retainthis questionableunit ratherthan silentlyrewriteas120dB;measurementconditions/reference unresolved. [Manual](https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf) |
+| Ports / published jack sizes | [NUX product](https://nuxaudio.com/product/stagemanfloor/) specifies1/4inchTRSinsert,**1/8inchAUX andheadphones**,Micro-BUSB2.0updater. Chinese manualPDFp11prints3.55mm forAUX/phones;preservetypographicdifference,notadifferentconfirmedconnectorstandard. |
+
 
 ## Amp Academy Stomp
 
