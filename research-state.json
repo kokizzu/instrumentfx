@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "NUX TRIDENT expression-volume audit (partial)",
-    "finding": "ExternalEXP andPEDAL/VOLUME reference documented; calibration notproofglobalassignment. Bank+slotworkflow; coverageunknown;footprintfails.",
+    "current": "M-VAVE TANK-PRO expression scope (partial)",
+    "finding": "Volume/pan PT/IP1/IP2 advertised; definitions/global persistence unverified. OfficialV38Oct13underNAMA2 versusretainedV36section;notinstalled/nativeformatproof.",
     "next": [
-      "Systematic remaining no-treadle inventory: M-VAVE TANK-PRO global volume/PT/IP1/IP2 exact manual scope",
+      "Systematic remaining compact no-treadle inventory: Sonicake Pocket Master exact direct EXP socket inventory",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 36,
+      "comparison_rows": 37,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },

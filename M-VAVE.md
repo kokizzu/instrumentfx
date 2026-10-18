@@ -560,6 +560,12 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 [Original shared source](research-state.json)<!-- historical-link:m-vave-011 -->,retained pending complete navigation/provenance audits.
 
+### TANK-PRO — expression-volume scope and newer listing
+
+Checked2026-10-19. [Own manufacturer product](https://www.cuvave.com/product?id=tank-pro) explicitly advertises volume/pan expression mapping and **PT/IP1/IP2 switching**. Definitions,persistence andwhether one volume assignment overrides every preset remain unverified;do not interpret mode labels asglobal control. LIVE locks performancecontrols,not documented volume assignment. Numericmin/max,position recall,bypass/headphone/tail/looper attenuation andexactonboard presetdown/up remain unresolved. Dedicated3.5mm phones and260×100mm footprint retained;widthfails.
+
+[Official downloads](https://www.cuvave.com/download) now lists **V38,2026-10-13** underNAMA2,while anotherPCFirmware section retains **V36,2026-09-24**. Newerlisting isnotinstalled-firmware proof,unrestrictednativeNAM certification orrevalidation ofoldcategorycounts. EarlierV36 observation preserved. The [original manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/TANK-PRO.pdf) couldnotbereopened;no newfullmanualinspection. No downloads ordeviceoperation.
+
 ## ANN Blackbox
 
 <!-- comparison evidence begins -->

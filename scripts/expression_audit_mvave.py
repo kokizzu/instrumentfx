@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(mvave): qualify controller identity and software support scope'))
+    print(git('commit','-m','research(mvave): audit TANK-PRO expression scope and V38 listing'))

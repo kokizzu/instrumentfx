@@ -54,6 +54,7 @@ Global **calibration**, global **pedal-position recall**, global **EQ**, a physi
 | [NUX Cerberus NME-3](NUX.md#cerberus-nme-3) | Yes / EXP becomes volume; sharesV5 switch options | 320×110mm; too wide | Fixed-function volume described; across-preset persistence **unverified** | Before digital modulation/delay; numeric min/max/recall unknown | Bypass/headphone/tails/looper coverage unknown | Dedicated; diameter unverified | Bank down/up +A–D preset selection |
 | [NUX MG-200](NUX.md#mg-200) | Yes / CTRL2 EXP or dualswitch | 240×155mm horizontal; no | **Unverified** global volume-mode persistence | Volume mode documented; position/min/max/recall unknown | Bypass/headphone/tails/looper attenuation unknown | Dedicated stereo; diameter unverified | Two preset switches; exact down/up mapping not reverified |
 | [NUX TRIDENT NME-5](NUX.md#trident-nme-5) | Yes / externalEXP | 312×164mm horizontal; no | **Unverified**; global calibration is not assignment | PEDAL/VOLUME labels; position/min/max/recall unknown | Bypass/headphone/tails/looper attenuation unknown | Dedicated6.35mm | UP/DOWN banks thenA/B/C patches |
+| [M-VAVE TANK-PRO](M-VAVE.md#tank-pro) | Yes / TRSEXP | 260×100mm; too wide | **Unverified**; PT/IP1/IP2 andLIVE labels notproof | Volume/pan mapping; position/min/max/recall unknown | Bypass/headphone/tails/looper attenuation unknown | Dedicated3.5mm | Exact down/up mapping unverified |
 
 ## Evidence and qualification
 
