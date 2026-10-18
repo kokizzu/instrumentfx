@@ -86,7 +86,7 @@ Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. M
 | Processing / bass suitability | Own manual lists bass drive,two bass-oriented amp entries,two bass cabinets andbass chorus. This supports shared bass classification,not equal performance of every algorithm or measured low-frequency response. [Original library](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=12). |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unknown. |
 | I/O | **6.35mm TS input,1MΩ;6.35mm TRS stereo unbalanced output/headphones,100Ω;USB2.0 Type-C**. Expression jack documented separately. Complete port inventory still requires panel verification. [I350-M] |
-| USB / level routing | Manualp6 separately adjusts input gain,effect-chain recording,Bluetooth recording andUSB return monitoring,each−20…+20dB. Dry/reamp selection andchannel mapping unresolved. |
+| USB audio / levels | Manualp6 separately adjusts input gain,effect-chain recording,Bluetooth recording andUSB return monitoring,each−20…+20dB. Dry/reamp selection andchannel mapping unresolved. |
 | Conversion | **24-bit AD/DA,44.1kHz;100dB SNR**. **USB recording44.1kHz/16-bit** separately specified;**2-in/2-out** per manualp10;Windows requires driver. [I350-Q] [I350-M] |
 | Power / battery / USB | Manual prints USB input **DC5V/12V,500mA**; Guide specifies5V USB charging and12V GaN faster charging;negotiation/adapter compatibility unresolved. When depleted,leave POWER off while charging. [I350-Q] **2000mAh,3.7V battery;claimed life>7hours**. Not a local runtime test or permission to apply arbitrary12V. [I350-M] |
 | Dimensions / mass | **122×103×52mm(length×width×height),270g**,Chinese original quick guide. [I350-Q] |
