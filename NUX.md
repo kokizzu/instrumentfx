@@ -1279,6 +1279,17 @@ Remaining:current fullmanual,all algorithm counts,actual block concurrency,memor
 | USB driver versus editor OS | Support lists ASIO 3.29.0 for Windows 7 and 5.72.0 for Windows 10 and above. These are driver listings, not minimum OS certification for NUX Audio 1.1.7.1 or current macOS compatibility. [Product][AAS-P] |
 
 
+### Amp Academy Stomp USB monitoring and preset controls, 2026-10-18
+
+Manufacturer-authored quick-start text reproduced at [AAS-M][AAS-M], identity NMA-3AAP and ©2025 Cherub, inspected as text; exact equivalence to the current official V5 PDF remains unproven.
+
+| Field | Finding / qualification |
+|---|---|
+| USB playback / monitoring | The guide says the unit does not attenuate computer system playback for USB streaming and instructs users to start computer playback volume at minimum, then raise it. This does not establish which hardware knob controls the USB return, channel count, loopback or reamp support. [Manual][AAS-M] |
+| Routing / independent IR outputs | L/R can select different IRs or disable IR on one output. This supports a cab-free output alongside a cabinet-processed output; it does not prove separate amp engines. [Manual][AAS-M] |
+| Preset controls / scene copying | HOME press cycles scenes; in preset mode its rotation selects presets. Holding EDIT after editing saves the preset or copies a scene. R recalls initial preset parameters after edits; it is not described as a factory reset. [Manual][AAS-M] |
+
+
 ## Atlantic NDR-5
 
 Checked 2026-10-18; partial. Independent delay/reverb and selectable routing establish multi-effects eligibility. Bass suitability unclassified.
